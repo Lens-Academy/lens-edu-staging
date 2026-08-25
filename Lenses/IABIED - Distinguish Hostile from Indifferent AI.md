@@ -22,7 +22,8 @@ Return here after reading.
 
 ---
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667369038}@@Question--}{++{"author":"Elias's AI","timestamp":1787667369038}@@Question: Open
+id:: d3e0fa16-640b-478b-bba5-a58955274b0a++}
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -65,14 +66,16 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667366134}@@Question--}{++{"author":"Elias's AI","timestamp":1787667366134}@@Question: Open
+id:: c39809ee-5b06-47e3-85e7-3cb198f5e5ca++}
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
 assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779587885}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667363114}@@Question--}{++{"author":"Elias's AI","timestamp":1787667363114}@@Question: Open
+id:: d516059e-1df5-466d-b14e-a03dee3038bf++}
 content::
 \## Phase 3: Learning Question
 A startup founder tells you: "We deliberately trained our AI to have no aggression, no dominance drive, nothing resembling hostility toward people. So even if it becomes superintelligent, the worst case is that it just ignores us and quietly goes off to do its own thing." What's the flaw in that reassurance, and what would "goes off to do its own thing" actually look like once the system is that capable?
