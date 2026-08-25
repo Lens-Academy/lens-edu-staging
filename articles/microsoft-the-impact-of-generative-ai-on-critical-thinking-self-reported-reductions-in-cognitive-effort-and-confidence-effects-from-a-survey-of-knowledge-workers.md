@@ -54,9 +54,7 @@ niwilson@microsoft.com
 
 The rise of Generative AI (GenAI) in knowledge workflows raises
 questions about its impact on critical thinking skills and practices.
-We survey 319 knowledge workers to investigate 1) when and
-how they perceive the enaction of critical thinking when using
-GenAI, and 2) when and why GenAI affects their effort to do so.
+We survey 319 knowledge workers to investigate 1) when and how they perceive the enaction of critical thinking when using GenAI, and 2) when and why GenAI affects their effort to do so.
 Participants shared 936 first-hand examples of using GenAI in work
 tasks. Quantitatively, when considering both task- and user-specific
 factors, a user’s task-specific self-confidence and confidence in
