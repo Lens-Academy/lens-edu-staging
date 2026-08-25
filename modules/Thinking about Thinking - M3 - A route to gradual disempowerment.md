@@ -9,7 +9,7 @@ tags:
 # Lens:
 source:: [[../Lenses/ToT M3 - Gradual Disempowerment - PQ]]
 
-# Lens:
+<!-- # Lens:
 source:: [[../Lenses/ToT M3 - The Metacognitive Traps]]
 
 # Lens:
@@ -64,4 +64,4 @@ hide:: true
 # Lens:
 source:: [[../Lenses/ToT M3 - The Philosophy of Autonomy Loss]]
 optional:: true
-hide:: true
+hide:: true -->
