@@ -12,9 +12,19 @@ tags:
   - "effective-altruism"
   - "scout-mindset"
   - work-in-progress
----
+{++{"author":"Luc's AI","timestamp":1787661056395}@@llm-review:
+  content-sha: "sha256:78623fd284bc1d140dbeb39ee9812c2d831211e396b6b6e572c37988be63a9bb"
+  date: 2026-08-25
+  model: "sonnet"
+  version: "article-qc-v1"
+  source:
+    content-sha: "sha256:c797b6e01ecf80e7c8661317f3329efdfff81808900078f05c39128370c82fda"
+    fetched: 2026-08-25
+    kind: "live"
+++}---{--{"author":"Luc's AI","timestamp":1787661055996}@@
 
-%%
+--}{++{"author":"Luc's AI","timestamp":1787661055996}@@
+++}%%
 Add discussion note here:
 
 ...
