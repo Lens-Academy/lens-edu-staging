@@ -102,8 +102,7 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question; that is Phase 3's job.
 
-#### {--{"author":"Elias's AI","timestamp":1787667257153}@@Question--}{++{"author":"Elias's AI","timestamp":1787667257153}@@Question: Open
-id:: 6a533cd0-2612-4097-a9c4-39b783916c46++}
+#### {--{"author":"Elias's AI","timestamp":1787673485171}@@Question--}{++{"author":"Elias's AI","timestamp":1787673485171}@@Question++}
 content::
 \## Phase 3: Learning Question
 A pocket calculator out-predicts and out-steers any human at arithmetic. A house cat cannot do arithmetic at all, but it navigates a physical and social world the calculator is blind to. By the chapter's definition, which one has the more general intelligence, and what exactly are you pointing at?
