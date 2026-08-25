@@ -101,8 +101,7 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question: that is Phase 3's job.
 
-#### {--{"author":"Elias's AI","timestamp":1787667238311}@@Question--}{++{"author":"Elias's AI","timestamp":1787667238311}@@Question: Open
-id:: e20e36e1-001c-47af-85bc-5476e9031919++}{--{"author":"Elias's AI","timestamp":1787668353826}@@
+#### {--{"author":"Elias's AI","timestamp":1787673528336}@@Question--}{++{"author":"Elias's AI","timestamp":1787673528336}@@Question++}{--{"author":"Elias's AI","timestamp":1787668353826}@@
 feedback:: false--}
 content::
 \## Phase 3: Learning Question (false)
