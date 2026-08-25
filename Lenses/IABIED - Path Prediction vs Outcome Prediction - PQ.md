@@ -10,7 +10,8 @@ authors:
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/10 - Coda]]"
 ---
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667421580}@@Question--}{++{"author":"Elias's AI","timestamp":1787667421580}@@Question: Open
+id:: e2750ba3-3df7-4351-b801-ace1beecd918++}
 content:: Before reading: Can you think of a situation where you'd be confident about the outcome of a process, even if you couldn't predict each step along the way? What makes outcome prediction different from pathway prediction? Or is there no real difference? Write down your thinking before you read.
 
 assessment-instructions::
