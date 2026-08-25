@@ -9,14 +9,15 @@ tags:
   - learning-outcome
 domain: "[[../Domains/Artificial Intelligence]]"
 stage: beginner
-{++{"author":"AI","timestamp":1787137426359}@@eval-results:
+eval-results:
   content-sha: 2fd083f6
-  date: 2026-08-19
-  model: claude-fable-5
-  suite-version: 1
-  checks: {A1: pass, A2: pass, B1: fail, C1: pass, C2: pass, C3: pass}
-  notes: {B1: "question says 'Using the chapter's framework' — not parseable without the chapter"}
-++}---
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {B1: "Question requires the chapter as scaffolding; not parseable by someone who never read it."}
+  evidence: {B1: "Using the chapter's framework, analyze the three systems."}
+---
 
 ## Test:
 id:: b5981716-08c0-40b1-a005-2cfbdde6d0c7
@@ -24,7 +25,7 @@ id:: b5981716-08c0-40b1-a005-2cfbdde6d0c7
 content::
 Two systems accurately predict that a severe storm will close a bridge. One routes delivery trucks away from it to minimize delays. The other routes rescue vehicles toward it to reach stranded people. A third system is exceptionally good at this routing task but cannot reason outside transportation.
 
-Using the chapter's framework, analyze the three systems. What are the first two doing when they predict and when they steer? Does choosing different destinations show that one is less intelligent? What distinguishes the third system from a more general reasoner?
+Analyze the three systems. For the first two, distinguish the work of predicting what will happen from the work of steering toward a chosen outcome, and explain how the two relate. Does choosing different destinations show that one system is less intelligent? And what distinguishes the third system from a more general reasoner?
 
 assessment-instructions::
 Grade the student's reasoning, not whether they use the authors' exact wording or agree with the broader argument.

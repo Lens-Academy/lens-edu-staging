@@ -8,6 +8,12 @@ tags:
   - wip
 domain: "[[../Domains/Taking Action]]"
 stage: intermediate
+eval-results:
+  content-sha: 9a0fc743
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: pass}
 ---
 
 ## Test:

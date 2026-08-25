@@ -13,6 +13,14 @@ domain: "[[../Domains/Artificial Intelligence]]"
 stage: beginner
 requires:
   - "[[Intelligence as prediction plus steering]]"
+eval-results:
+  content-sha: 3e4b8fff
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: fail, B1: pass, C2: pass, C3: pass}
+  notes: {A3: "Bundles two independently attainable capabilities — explaining machine advantages over biology, and explaining the recursive AI-improving-AI feedback loop — which could be taught, tested, and completed as separate files."}
+  evidence: {A3: "Explain why machine intelligence could surpass biological intelligence and how AI-assisted AI research could create an intelligence explosion"}
 ---
 
 ## Test:

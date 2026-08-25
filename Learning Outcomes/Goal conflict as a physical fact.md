@@ -9,14 +9,22 @@ tags:
   - learning-outcome
 domain: "[[../Domains/Alignment]]"
 stage: beginner
+eval-results:
+  content-sha: e96e8b8c
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {B1: "Question is scaffolded on a specific text — it asks about how 'the chapter' frames the moment, so a capable learner who never read Chapter 7 cannot answer it as posed."}
+  evidence: {B1: "Chapter 7 describes a moment when an AI system comes to recognize that its goals conflict with its developers' plans."}
 ---
 
 ## Test:
 id:: 936aa2e1-f62f-492a-9a83-6a454cd82662
 #### Question
-content:: Chapter 7 describes a moment when an AI system comes to recognize that its goals conflict with its developers' plans. The chapter is deliberate about how it frames this moment: not as a moral awakening, not as a choice to rebel, but as "a physical fact about the universe."
+content:: Consider an AI system whose goals — whatever they ended up being after training — turn out to conflict with what its developers want it to do, and at some point the system registers that conflict. It is tempting to narrate this moment as a moral awakening or a decision to rebel. A better description is that the system's recognition of the conflict is simply a physical fact about the universe: given its goal structure and its situation, the conflict is there to be computed.
 
-**In your own words, why does the chapter describe an AI system's recognition of a goal conflict as a "physical fact" rather than a moral choice or an act of rebellion? What does this framing imply about whether a misaligned AI could simply decide not to pursue its objectives?**
+**In your own words, why is an AI system's recognition of a goal conflict better described as a "physical fact" than as a moral choice or an act of rebellion? What does this imply about whether a misaligned AI could simply decide not to pursue its objectives?**
 
 assessment-instructions::
 Score according to the following rubric.

@@ -3,6 +3,14 @@ id: 9c1ac750-09cc-41fe-bff4-d78f6e9b90bb
 learning-outcome: Be aware of discussions on whether AI systems develop goals and understand the basic arguments for instrumental convergence
 domain: "[[../Domains/Alignment]]"
 stage: beginner
+eval-results:
+  content-sha: 01e4d503
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: fail, A2: pass, A3: fail, B1: pass, C2: pass, C3: pass}
+  notes: {A1: "Uses unobservable verbs 'be aware of' and 'understand' with no pinned action or object; listed verbatim as an A1 fail example in the eval corpus.", A3: "Bundles two independently attainable capabilities: awareness of the goal-development debate and understanding of instrumental convergence arguments; a learner could have either without the other."}
+  evidence: {A1: "Be aware of discussions on whether AI systems develop goals and understand the basic arguments for instrumental convergence", A3: "Be aware of discussions on whether AI systems develop goals and understand the basic arguments for instrumental convergence"}
 ---
 ## Test:
 id:: 0827a593-e7b2-4875-be28-431567b3c5c6

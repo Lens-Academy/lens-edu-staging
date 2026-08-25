@@ -9,15 +9,25 @@ authors:
   - Chris+Claude
 domain: "[[../Domains/Rationality and Epistemics]]"
 stage: beginner
+eval-results:
+  content-sha: 6834f98a
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {B1: "Question is scaffolded on the assigned text ('The Introduction', 'the authors') rather than self-containing its context; named as a fail example in the B1 eval."}
+  evidence: {B1: "The Introduction introduces a framework for thinking about predictions"}
 ---
 
 ## Test:
 id:: 8d0f4d50-16ca-4008-af3a-1135d3af1b70
 #### Question
 content::
-The Introduction introduces a framework for thinking about predictions: some things about the future are "easy calls" and others are "hard calls."
+Forecasters sometimes separate "easy calls" from "hard calls." That an ice cube left on a hot stove ends up as a puddle is an easy call; which corner melts first, and exactly how long it takes, is a hard call.
 
-In your own words, what makes a prediction an easy call versus a hard call? And where do the authors place their central warning about AI on that spectrum, and why?
+(a) In your own words, what makes a prediction an easy call rather than a hard call?
+
+(b) Now apply the distinction. Someone argues that if anyone builds a superintelligent AI using anything close to today's training methods, humanity would not survive it — while admitting they cannot say when such a system would be built, who would build it, or what specific steps it would take to cause harm. Where does that claim sit on the easy/hard spectrum, why might someone place it there despite the outcome sounding implausible, and what would have to be true about the underlying mechanism for it to belong there?
 
 assessment-instructions::
 Score according to the following rubric.
@@ -25,11 +35,11 @@ Score according to the following rubric.
 
 **2**: Has the rough intuition (some futures are more knowable than others) but cannot explain what makes a prediction path-independent. *Example: "Easy calls are things we're pretty confident about. Hard calls depend on too many unknowns."*
 
-**3**: Correctly explains the distinction (easy call = outcome follows reliably from mechanism regardless of path; hard call = depends on specific contingencies) and correctly places ASI danger as an easy call. *Example: "An easy call is when the outcome follows from how things work, even if we can't predict exactly how it unfolds. The authors say ASI danger is an easy call because if capable AI is built with current techniques, the risk follows from its nature, not from any particular accident."*
+**3**: Correctly explains the distinction (easy call = outcome follows reliably from mechanism regardless of path; hard call = depends on specific contingencies) and correctly places ASI danger as an easy call. *Example: "An easy call is when the outcome follows from how things work, even if we can't predict exactly how it unfolds. ASI danger is an easy call because if capable AI is built with current techniques, the risk follows from its nature, not from any particular accident."*
 
-**4**: As above, plus articulates the whether/when asymmetry. *Example: Adds "They're saying timelines are a hard call but whether it's dangerous is an easy call, like predicting powered flight would happen without knowing the Wright Brothers would do it."*
+**4**: As above, plus articulates the whether/when asymmetry. *Example: Adds "Timelines are a hard call, but whether it's dangerous is an easy call, like predicting powered flight would happen without knowing the Wright Brothers would do it."*
 
-**5**: As above, plus productively interrogates the classification itself: what assumptions make something "reliable enough" to be an easy call, or whether the authors have actually established that. *Example: "I'd want to push back on whether the mechanism really does make the outcome inevitable. The easy/hard framework assumes we know enough about how capable AI behaves to treat it like an ice cube melting, but do we?"*
+**5**: As above, plus productively interrogates the classification itself: what assumptions make something "reliable enough" to be an easy call, or whether that has actually been established for this case. *Example: "I'd want to push back on whether the mechanism really does make the outcome inevitable. The easy/hard framework assumes we know enough about how capable AI behaves to treat it like an ice cube melting, but do we?"*
 
 
 # Suggested Lenses:

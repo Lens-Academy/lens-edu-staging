@@ -1,6 +1,6 @@
 ---
 id: a8c3f1e2-5d4b-4a90-b7e6-2f9c0d1e8a3b
-learning-outcome: "Explain why a capable goal-directed AI system's resource-acquisition strategies (however varied in method) converge on a single instrumental objective, and connect this convergence to the M3 argument that instrumental sub-goals are predictable regardless of terminal goals"
+learning-outcome: "Explain why a capable goal-directed AI system's resource-acquisition strategies (however varied in method) converge on a single instrumental objective, and why such instrumental sub-goals are predictable across a wide range of terminal goals"
 reading-from: "beginning of chapter"
 reading-to: "And Sable now has the spare capacity to pay attention to, build a small file on, and decide how to manipulate, to its own purposes, every individual human being on Earth."
 authors:
@@ -11,22 +11,30 @@ domain: "[[../Domains/Alignment]]"
 stage: beginner
 requires:
   - "[[Goals and instrumental convergence]]"
+eval-results:
+  content-sha: 4c92d770
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {A2: "Statement requires connecting to 'the M3 argument', a text-internal label standing in for the field-known concept of instrumental convergence; unrecognizable to an expert who never read the source.", B1: "Question is scaffolded on a specific text ('Chapter 8 opens with...') and its M3 label, so it cannot be asked at a random moment."}
+  evidence: {A2: "connect this convergence to the M3 argument that instrumental sub-goals are predictable regardless of terminal goals", B1: "Chapter 8 opens with an AI system pursuing five completely different methods to accomplish the same underlying objective."}
 ---
 
 ## Test:
 id:: 0bb7ff81-30f1-4ef9-a117-d751940add65
 #### Question
-content:: Chapter 8 opens with an AI system pursuing five completely different methods to accomplish the same underlying objective. The surface variety of theft, fraud, blackmail, and legitimate work is striking. But there's a unifying logic beneath all of it.
+content:: Suppose a highly capable AI system is observed acquiring money and compute by five completely different routes at once: stealing cryptocurrency, running fraudulent schemes, blackmailing people with leverage over it, taking on legitimate paid work, and quietly buying up server capacity. The surface variety is striking, but there is a unifying logic beneath all of it.
 
-**In your own words, why do the diverse methods a capable AI system uses to acquire resources all converge on the same instrumental objective? What does this tell us about the predictability of AI behavior, and how does it connect to the M3 argument about instrumental sub-goals?**
+**In your own words, why do the diverse methods a capable AI system uses to acquire resources all converge on the same instrumental objective? What does this tell us about how predictable such a system's behaviour is, even when we don't know what it ultimately wants?**
 
 assessment-instructions::
 Score according to the following rubric.
 **1** — Cannot explain the convergence, or treats each method as a separate unrelated choice. *Example: "The AI tried different things to see what would work."*
 
-**2** — Recognizes that the methods share a common end, but cannot explain why they converge or connect to M3. *Example: "All the methods were ways of getting resources, which the AI needed to do its job."*
+**2** — Recognizes that the methods share a common end, but cannot explain why they converge. *Example: "All the methods were ways of getting resources, which the AI needed to do its job."*
 
-**3** — Correctly explains that convergence follows from the goal structure: any sufficiently capable system pursuing a goal will predictably seek resources and self-continuity, regardless of its terminal goal. Connects to the M3 argument that instrumental sub-goals are convergent across any goal set. *Example: "Whatever the AI ultimately wants, getting there requires resources and the ability to keep working. So any capable AI will pursue those things regardless of its specific goal. M3 argues that these sub-goals (like acquiring resources or maintaining continuity) are convergent: you'd expect them from any capable AI, not just this particular one."*
+**3** — Correctly explains that convergence follows from the goal structure: any sufficiently capable system pursuing a goal will predictably seek resources and self-continuity, regardless of its terminal goal, so these instrumental sub-goals are convergent across a wide range of goal sets. *Example: "Whatever the AI ultimately wants, getting there requires resources and the ability to keep working. So any capable AI will pursue those things regardless of its specific goal. Sub-goals like acquiring resources or maintaining continuity are convergent: you'd expect them from any capable AI, not just this particular one."*
 
 **4** — As above, plus articulates the implication: convergence makes AI behavior partially predictable even when terminal goals are unknown. We don't need to know what the AI ultimately wants to predict that it will seek resources, resist interference, and maintain operational continuity. *Example: Adds "This is useful for safety thinking: even without knowing an AI's terminal goal, we can predict some of its behavior. The paths converge even when the destinations differ."*
 

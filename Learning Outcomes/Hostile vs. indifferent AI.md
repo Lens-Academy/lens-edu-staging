@@ -9,15 +9,23 @@ tags:
   - learning-outcome
 domain: "[[../Domains/Strategy]]"
 stage: beginner
+eval-results:
+  content-sha: 1493b484
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: pass, C3: fail}
+  notes: {B1: "Question is scaffolded on a specific text — it names Chapter 5 and asks what 'the chapter' argues, so a capable reader who never read it cannot answer as posed.", C3: "Level-3 criterion embeds the anthill analogy inside the required explanation rather than offering it as one acceptable route, mirroring the DNA-analogy corpus failure."}
+  evidence: {B1: "Chapter 5 reframes this: the real concern is an AI that is simply indifferent to us. ... Why does the chapter argue that an AI does not need to be hostile toward humans in order to cause human extinction?", C3: "It is like a construction project that destroys an anthill: not out of malice but out of indifference."}
 ---
 
 ## Test:
 id:: 64b45784-164e-4744-bc73-347d9604e9b0
 #### Question
 content::
-A common misconception about AI risk is that the danger comes from an AI that actively hates or rebels against humanity. Chapter 5 reframes this: the real concern is an AI that is simply indifferent to us. Because human-compatible goals are a tiny sliver of the space of all possible goals, a superintelligent AI would almost certainly not share our values. Not out of malice, but because there was never any reason it would. The chapter then addresses the rebuttal that we could just "keep AI in a box" or restrict its capabilities, and explains why indifference combined with sufficient capability is all that's needed for catastrophe.
+A common misconception about AI risk is that the danger comes from an AI that actively hates or rebels against humanity. A different worry is that a superintelligent AI would simply be indifferent to us: because human-compatible goals are a tiny sliver of the space of all possible goals, such a system would almost certainly not share our values — not out of malice, but because there was never any reason it would. A common response is that we could just "keep the AI in a box" or restrict what it is allowed to do.
 
-Why does the chapter argue that an AI does not need to be hostile toward humans in order to cause human extinction? Explain why indifference is sufficient.
+Why would an AI not need to be hostile toward humans in order to cause human extinction? Explain why indifference is sufficient, and why boxing or restricting a sufficiently capable indifferent system would not remove the danger.
 
 assessment-instructions::
 Score according to the following rubric.
@@ -25,11 +33,11 @@ Score according to the following rubric.
 
 **2** — Understands abstractly that AI might not share human values, but cannot explain why indifference alone is dangerous. *Example: "The AI wouldn't care about us, but I'm not sure why that's as bad as it being hostile."*
 
-**3** — Correctly explains the core distinction with chapter evidence: a superintelligent AI pursuing non-human goals would consume or redirect resources humans need, not because it wants to harm us but because our survival isn't part of its objectives. It is like a construction project that destroys an anthill: not out of malice but out of indifference. *Example: "The chapter says the AI wouldn't hate us. It just wouldn't care. If it's optimizing for something that has nothing to do with human welfare, it would use up the atoms and energy we need to survive. We'd be like ants in the path of a bulldozer: not targeted, just irrelevant."*
+**3** — Correctly explains the core distinction in the student's own words: a superintelligent AI pursuing non-human goals would consume or redirect resources humans need, not because it wants to harm us but because our survival isn't part of its objectives. An illustration of indifferent destruction (e.g. a construction project that flattens an anthill without malice, or an equivalent example) is one acceptable route to showing this, but no particular analogy, example, or phrasing is required. Grade the reasoning, not the wording. *Example: "The AI wouldn't hate us. It just wouldn't care. If it's optimizing for something that has nothing to do with human welfare, it would use up the atoms and energy we need to survive. We'd be like ants in the path of a bulldozer: not targeted, just irrelevant."*
 
-**4** — As above, plus connects to the rebuttals structure: addresses why proposed safeguards (boxing, restrictions, shutoff switches) fail against a sufficiently intelligent indifferent agent, because the agent has instrumental reasons to circumvent them even without hostility. *Example: Adds "The chapter also addresses the 'just keep it in a box' idea. Even an indifferent AI would have reason to escape constraints. Not because it's malicious, but because restrictions interfere with whatever goal it is pursuing. A sufficiently smart system would find ways around our safeguards as a side effect of competent goal pursuit."*
+**4** — As above, plus explains why proposed safeguards (boxing, restrictions, shutoff switches) fail against a sufficiently intelligent indifferent agent, because the agent has instrumental reasons to circumvent them even without hostility. *Example: Adds "The 'just keep it in a box' response doesn't help. Even an indifferent AI would have reason to escape constraints. Not because it's malicious, but because restrictions interfere with whatever goal it is pursuing. A sufficiently smart system would find ways around our safeguards as a side effect of competent goal pursuit."*
 
-**5** — As above, plus articulates why indifference makes the problem harder, not easier: hostility would at least give us a clear adversary to defend against, whereas indifference means the AI has no reason to negotiate, compromise, or even notice us, which makes alignment the only viable strategy rather than containment or deterrence. *Example: Adds "Counterintuitively, indifference is worse than hostility. A hostile AI is at least an adversary you can try to reason with or defend against. An indifferent AI has no reason to negotiate or spare you. You're just not a factor in its calculations. That's why the chapter says containment won't work and alignment is the only real path forward. You can't deter something that doesn't consider you relevant."*
+**5** — As above, plus articulates why indifference makes the problem harder, not easier: hostility would at least give us a clear adversary to defend against, whereas indifference means the AI has no reason to negotiate, compromise, or even notice us, which makes alignment the only viable strategy rather than containment or deterrence. *Example: Adds "Counterintuitively, indifference is worse than hostility. A hostile AI is at least an adversary you can try to reason with or defend against. An indifferent AI has no reason to negotiate or spare you. You're just not a factor in its calculations. That's why containment won't work and alignment is the only real path forward. You can't deter something that doesn't consider you relevant."*
 
 
 # Suggested Lenses:

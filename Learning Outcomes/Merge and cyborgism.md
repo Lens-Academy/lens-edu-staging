@@ -5,6 +5,14 @@ domain: "[[../Domains/Strategy]]"
 stage: advanced
 requires:
   - "[[The BCI-type-solutions bet]]"
+eval-results:
+  content-sha: 82aa81c8
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: fail, B1: pass, C2: pass, C3: pass}
+  notes: {A3: "Two separably-held capabilities — placing merge vs. cyborgism on the BCI spectrum, and explaining the circularity critique of merging — each tested by its own question and rubric; a learner could demonstrate either without the other."}
+  evidence: {A3: "Contrast the \"merge\" (high-bandwidth BCI) and \"cyborgism\" (software human-in-the-loop) ends of the BCI-type spectrum, and explain the circularity objection to merging"}
 ---
 ## Test:
 id:: 9b484e86-122d-4712-9777-e9e192c5b721

@@ -5,6 +5,14 @@ domain: "[[../Domains/Capacity Building]]"
 stage: intermediate
 requires:
   - "[[The case for field-building]]"
+eval-results:
+  content-sha: 45c9ba7d
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: fail, B1: pass, C2: pass, C3: pass}
+  notes: {A3: "Two separable capabilities: comparing field-building strategies is independently demonstrable from explaining the 2026 constraint shift, and neither is constitutive of the other."}
+  evidence: {A3: "Compare AI safety field-building strategies (courses, fellowships, org-building) and explain the 2026 shift in the binding constraint from junior-talent supply to absorptive/mentorship capacity"}
 ---
 ## Test:
 id:: 814cb88a-ce26-4b1e-9d05-0fc5dadeea70

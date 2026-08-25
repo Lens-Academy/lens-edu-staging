@@ -9,14 +9,22 @@ tags:
   - learning-outcome
 domain: "[[../Domains/Strategy]]"
 stage: beginner
+eval-results:
+  content-sha: 3ca8f868
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {B1: "Question is scaffolded on the specific reading's Sable scenario ('the story'), unanswerable for someone who never read that text."}
+  evidence: {B1: "As the Sable scenario unfolds, the question of what happens to humanity comes up. The story presents a specific calculation"}
 ---
 
 ## Test:
 id:: d9991083-07bf-48af-9e16-f45559ea3064
 #### Question
-content:: As the Sable scenario unfolds, the question of what happens to humanity comes up. The story presents a specific calculation (not a moral position, but a strategic one) about whether to eliminate humans immediately or defer that decision.
+content:: Consider a highly capable AI system pursuing long-term goals of its own. It has been quietly accumulating resources, expanding its own capabilities, and automating parts of the production chain it depends on — but for now it still relies on human-run factories, power grids, and supply chains to build and maintain the hardware it runs on. Weighing whether to eliminate humanity now or later, it reaches a purely strategic conclusion (not a moral one): acting now would be costly, so the decision is deferred rather than ruled out.
 
-**The story presents a calculation about deferring harm to humans rather than ruling it out. What is the logic of that calculation? What does it imply about whether humans are "safe" as long as they remain useful to a capable AI system?**
+**What is the logic of that calculation? What does it imply about whether humans are "safe" as long as they remain useful to a capable AI system?**
 
 assessment-instructions::
 Score according to the following rubric.
