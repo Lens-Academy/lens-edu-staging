@@ -101,7 +101,7 @@ content::
 \## Phase 3: Learning Question
 Suppose someone tells you: "A global treaty to restrict AI development is politically unrealistic — no major power has ever coordinated to stop its own scientific and military development." Using only what you just read in Chapter 13, how would you respond? Walk through the argument the chapter makes: what does it point to, what specific claim does it make about human motivation, and how does that convert the "politically impossible" objection into something that can be answered?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+{--{"author":"Elias's AI","timestamp":1787672545694}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672545694}@@feedback-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 Learning outcome for this Lens: Explain how the chapter's WWII analogy responds to the objection that coordinating major powers on AI restriction is politically impossible: what specific feature of the WWII precedent does the chapter invoke, and what claim about human motivation does it rely on?
 
