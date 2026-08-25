@@ -28,7 +28,7 @@ Except 50% is just what the quote says. It might be worse.
 content::
 \## Why we'll make you guess first
 
-Before nearly every reading, we will ask you to guess. What happened, what the author will argue, how big the numbers turn out to be. You will often be wrong. That is the design, not a test. Every other lesson in this course is about the field. This one is about *you*: the gap between what you guessed and what actually happened. Guessing first tells you{--{"author":"AI","timestamp":1787288441506}@@ find out --}{++{"author":"AI","timestamp":1787288441506}@@ ++}what your{--{"author":"AI","timestamp":1787288441506}@@ current--} model actually{--{"author":"AI","timestamp":1787288441506}@@ predicts, so that--}{++{"author":"AI","timestamp":1787288441506}@@ predicts. Later,++} when the reading {--{"author":"AI","timestamp":1787288441506}@@bends it,--}{++{"author":"AI","timestamp":1787288441506}@@proves you wrong,++} you {--{"author":"AI","timestamp":1787288441506}@@can feel--}{++{"author":"AI","timestamp":1787288441506}@@will know++} exactly {--{"author":"AI","timestamp":1787288441506}@@where.--}{++{"author":"AI","timestamp":1787288441506}@@which part of your thinking was off.++}
+Before nearly every reading, we will ask you to guess. What happened, what the author will argue, how big the numbers turn out to be. You will often be wrong. That is the design, not a test. Every other lesson in this course is about the field. This one is about *you*: the gap between what you guessed and what actually happened. Guessing first tells you what your model actually predicts. Later, when the reading proves you wrong, you will know exactly which part of your thinking was off.
 
 #### Text
 content::

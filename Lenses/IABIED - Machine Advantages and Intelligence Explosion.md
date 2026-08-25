@@ -101,7 +101,8 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667267682}@@Question--}{++{"author":"Elias's AI","timestamp":1787667267682}@@Question: Open
+id:: 47c4e043-7c3b-43bb-b936-f688777bf779++}
 content::
 \## Phase 3: Learning Question
 A friend says: "Current AI is still shallow, and every better AI must be designed step by step by human researchers. So there is no reason to expect machines to overtake humanity." Using the chapter's argument, identify the assumptions in that forecast. How do machine advantages and AI-assisted AI research change it, and what remains genuinely uncertain?
