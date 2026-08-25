@@ -25,7 +25,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Don't look back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just finished reading the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and has written a free recall: everything they could remember without looking back at the text.
+{--{"author":"Elias's AI","timestamp":1787672538307}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672538307}@@feedback-instructions::++} The student has just finished reading the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and has written a free recall: everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - The WWII parable: Allied Powers drafted soldiers, rationed food, spent $6 trillion (today's dollars), deployed 60–80 million personnel (many of them people whose lives weren't immediately at risk from the Axis)
@@ -65,7 +65,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
 
-assessment-instructions:: The student has just completed a free recall of the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+{--{"author":"Elias's AI","timestamp":1787672541512}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672541512}@@feedback-instructions::++} The student has just completed a free recall of the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, rather than explaining the content to them.
 
