@@ -6,7 +6,8 @@ tldr: "Before reading, think about a domain where you can make things work witho
 authors:
   - Yatharth+Claude
 ---
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667485165}@@Question--}{++{"author":"Elias's AI","timestamp":1787667485165}@@Question: Open
+id:: 39deaf96-6052-41b9-9f48-9f6a4ed75034++}
 content:: Imagine someone who can reliably produce a result, say a sourdough starter that always rises, a chemical reaction that always yields the right precipitate, or a stretch routine that consistently helps their back. *Yet they cannot explain why their procedure works.*
 
 In what kind of situation does that recipe-level competence stop being enough? When does the gap between *knowing what works* and *knowing why it works* matter?
