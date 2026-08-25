@@ -3,8 +3,8 @@ title: "Securing internal systems against increasingly capable and imperfectly a
 author:
   - "Rohin Shah"
   - "Four Flynn"
-source_url: "https://deepmind.google/blog/securing-the-future-of-ai-agents/"
-published: 2026-06-18
+{--{"author":"Luc's AI","timestamp":1787655740796}@@source_url: "https://deepmind.google/blog/securing-the-future-of-ai-agents/"
+--}published: 2026-06-18
 created: 2026-08-24
 accessed: 2026-08-24
 llm-review:
@@ -24,7 +24,8 @@ tags:
 %%
 Add discussion note here:
 
-...
+{--{"author":"Luc's AI","timestamp":1787655741020}@@...--}{++{"author":"Luc's AI","timestamp":1787655741020}@@Baseline preserved for article-import pipeline comparison.
+Original source URL: https://deepmind.google/blog/securing-the-future-of-ai-agents/++}
 
 %%
 
