@@ -21,8 +21,7 @@ eval-results:
 
 ## Test:
 id:: 8d0f4d50-16ca-4008-af3a-1135d3af1b70
-#### {--{"author":"Elias's AI","timestamp":1787667232450}@@Question--}{++{"author":"Elias's AI","timestamp":1787667232450}@@Question: Open
-id:: 2b39d172-0b4a-46a4-8cd3-9905e0b6d0c9++}
+#### Question
 content::
 {--{"author":"Luc's AI","timestamp":1787659288220}@@Forecasters sometimes separate "easy calls" from "hard calls." That an ice cube left on --}{++{"author":"Luc's AI","timestamp":1787659288220}@@The Introduction introduces ++}a {--{"author":"Luc's AI","timestamp":1787659288220}@@hot stove ends up as a puddle is an easy call; which corner melts first,--}{++{"author":"Luc's AI","timestamp":1787659288220}@@framework for thinking about predictions: some things about the future are "easy calls"++} and{--{"author":"Luc's AI","timestamp":1787659288220}@@ exactly how long it takes, is a hard call.--}{++{"author":"Luc's AI","timestamp":1787659288220}@@ others are "hard calls."++}
 

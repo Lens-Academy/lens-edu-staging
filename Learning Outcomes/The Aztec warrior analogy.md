@@ -21,8 +21,7 @@ eval-results:
 
 ## Test:
 id:: c9306c64-d15c-49d9-ab19-ecf8f946cd14
-#### {--{"author":"Elias's AI","timestamp":1787667375105}@@Question--}{++{"author":"Elias's AI","timestamp":1787667375105}@@Question: Open
-id:: 21d70529-c2df-4913-8398-b300323eb42d++}
+#### Question
 content::
 {--{"author":"Luc's AI","timestamp":1787659326857}@@Imagine an Aztec warrior standing on the coast in 1519,--}{++{"author":"Luc's AI","timestamp":1787659326857}@@Chapter 6 opens with an Aztec warrior++} watching {--{"author":"Luc's AI","timestamp":1787659326857}@@enormous ships of an unknown people approach the shore.--}{++{"author":"Luc's AI","timestamp":1787659326857}@@a large Spanish ship approach.++} A skeptical comrade demands to know *exactly* how the {--{"author":"Luc's AI","timestamp":1787659326857}@@strangers--}{++{"author":"Luc's AI","timestamp":1787659326857}@@people++} on board could possibly defeat them. {--{"author":"Luc's AI","timestamp":1787659326857}@@Neither warrior can--}{++{"author":"Luc's AI","timestamp":1787659326857}@@He cannot++} imagine {--{"author":"Luc's AI","timestamp":1787659326857}@@an answer: they have never seen--}{++{"author":"Luc's AI","timestamp":1787659326857}@@the answer. The chapter uses this to make++} a {--{"author":"Luc's AI","timestamp":1787659326857}@@gun, --}{++{"author":"Luc's AI","timestamp":1787659326857}@@point about how we should reason about ++}a {--{"author":"Luc's AI","timestamp":1787659326857}@@steel blade, or--}{++{"author":"Luc's AI","timestamp":1787659326857}@@superintelligence: not by demanding++} a {--{"author":"Luc's AI","timestamp":1787659326857}@@horse, and cannot picture the moves that will end their empire.--}{++{"author":"Luc's AI","timestamp":1787659326857}@@step-by-step mechanism of defeat, but by reading the capability gap itself.++}
 

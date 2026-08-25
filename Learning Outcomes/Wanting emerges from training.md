@@ -21,8 +21,7 @@ eval-results:
 
 ## Test:
 id:: 26b45f14-dc22-461a-9cbd-e5f5dbf223ae
-#### {--{"author":"Elias's AI","timestamp":1787667309336}@@Question--}{++{"author":"Elias's AI","timestamp":1787667309336}@@Question: Open
-id:: 43d49bf0-4a5f-435e-9f39-a21e0f81d65e++}
+#### Question
 content:: {--{"author":"Luc's AI","timestamp":1787659337539}@@Modern AI systems are often said to end up with--}{++{"author":"Luc's AI","timestamp":1787659337539}@@Chapter 3 argues that modern AIs will develop++} something like wants, not because anyone designed wants into them, but as a side effect of how they are {--{"author":"Luc's AI","timestamp":1787659337539}@@trained to succeed at tasks. In your own words,--}{++{"author":"Luc's AI","timestamp":1787659337539}@@trained. In your own words, how does the chapter++} explain {++{"author":"Luc's AI","timestamp":1787659337539}@@that? What's ++}the {--{"author":"Luc's AI","timestamp":1787659337539}@@mechanism: how does--}{++{"author":"Luc's AI","timestamp":1787659337539}@@mechanism by which++} training {--{"author":"Luc's AI","timestamp":1787659337539}@@a system to succeed produce--}{++{"author":"Luc's AI","timestamp":1787659337539}@@for success produces++} want-like {--{"author":"Luc's AI","timestamp":1787659337539}@@behavior? Give a concrete--}{++{"author":"Luc's AI","timestamp":1787659337539}@@behavior, and what++} example {--{"author":"Luc's AI","timestamp":1787659337539}@@of an AI system whose behavior--}{++{"author":"Luc's AI","timestamp":1787659337539}@@from the chapter most clearly++} illustrates {--{"author":"Luc's AI","timestamp":1787659337539}@@this.--}{++{"author":"Luc's AI","timestamp":1787659337539}@@this?++}
 
 assessment-instructions::
