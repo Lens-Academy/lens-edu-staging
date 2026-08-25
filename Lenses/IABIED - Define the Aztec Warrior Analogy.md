@@ -20,7 +20,8 @@ Return here after reading.
 
 ---
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667390931}@@Question--}{++{"author":"Elias's AI","timestamp":1787667390931}@@Question: Open
+id:: 733606e5-3594-4d51-b57b-0c0dc60e3b9b++}
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -63,7 +64,8 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667387391}@@Question--}{++{"author":"Elias's AI","timestamp":1787667387391}@@Question: Open
+id:: e237cb9a-5377-4f81-9dcc-92e6cf118d81++}
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
