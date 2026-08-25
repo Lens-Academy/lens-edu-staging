@@ -74,8 +74,7 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 
 {--{"author":"Elias's AI","timestamp":1787672296634}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672296634}@@feedback-instructions::++} [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779587885}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
-#### {--{"author":"Elias's AI","timestamp":1787667363114}@@Question--}{++{"author":"Elias's AI","timestamp":1787667363114}@@Question: Open
-id:: d516059e-1df5-466d-b14e-a03dee3038bf++}
+#### {--{"author":"Elias's AI","timestamp":1787673519786}@@Question--}{++{"author":"Elias's AI","timestamp":1787673519786}@@Question++}
 content::
 \## Phase 3: Learning Question
 A startup founder tells you: "We deliberately trained our AI to have no aggression, no dominance drive, nothing resembling hostility toward people. So even if it becomes superintelligent, the worst case is that it just ignores us and quietly goes off to do its own thing." What's the flaw in that reassurance, and what would "goes off to do its own thing" actually look like once the system is that capable?
