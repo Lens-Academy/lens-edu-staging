@@ -319,8 +319,6 @@ As of 30 June 2024, 142 States have an AP in force, or 75% of all States with sa
 
 A close-up photograph of a person wearing a white face mask, holding a black device. A blue circular tag with 'IAEA XP0023' is attached to the device. A white bucket is visible on the left.
 
-A close-up photograph of a person wearing a white face mask, holding a black device. A blue circular tag with 'IAEA XP0023' is attached to the device. A white bucket is visible on the left.
-
 ### **Consideration of the State as a whole**
 
 The IAEA started to consider a 'State as a whole' in the implementation of safeguards for States with CSAs in the early 1990s. By starting to better integrate and assess all of the information available to the IAEA about a State's nuclear activities and plans, the Agency produced its first State evaluation report in 1995. In particular, the AP provided the IAEA with increased information about the State's nuclear and nuclear-related activities and capabilities, and added to the IAEA's ability to consider the State as a whole. In 1999 the IAEA drew its first so-called 'Broader Conclusion' for a State as a whole, namely that 'all nuclear material remained in peaceful activities'.
