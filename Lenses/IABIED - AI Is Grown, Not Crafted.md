@@ -67,7 +67,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
 
-assessment-instructions:: The student has just completed a free recall of the first half of Chapter 2 of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+{--{"author":"Elias's AI","timestamp":1787672160856}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672160856}@@feedback-instructions::++} The student has just completed a free recall of the first half of Chapter 2 of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 
@@ -104,7 +104,7 @@ content::
 \## Phase 3: Learning Question
 Imagine an engineer at a frontier AI lab tells you: "I designed this model's entire training process, and I can pull up and read every one of its billions of weights — so there is nothing about it I don't understand." Both of those claims are true. The conclusion still doesn't follow. Where does the reasoning break down, and what kind of understanding is the engineer missing?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 2 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+{--{"author":"Elias's AI","timestamp":1787672163711}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672163711}@@feedback-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 2 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge: it is not the test question. It hands the student a plausible-sounding but flawed claim and asks them to locate the flaw, so the learning outcome gets drawn out from a fresh angle rather than recited as a definition.
 
