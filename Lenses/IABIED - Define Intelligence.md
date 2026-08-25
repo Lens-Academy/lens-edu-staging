@@ -26,7 +26,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies."
+{--{"author":"Elias's AI","timestamp":1787672221823}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672221823}@@feedback-instructions::++} The student has just read the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Define intelligence as prediction plus steering, explain why generality drives its power, and distinguish predictive competence from the goals steering pursues.
 
@@ -73,7 +73,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+{--{"author":"Elias's AI","timestamp":1787672228697}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672228697}@@feedback-instructions::++} The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 
