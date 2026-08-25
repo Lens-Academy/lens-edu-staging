@@ -21,7 +21,8 @@ Return here after reading.
 
 ---
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667473212}@@Question--}{++{"author":"Elias's AI","timestamp":1787667473212}@@Question: Open
+id:: ba1e1763-48bf-403e-8879-6eabd5667450++}
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
