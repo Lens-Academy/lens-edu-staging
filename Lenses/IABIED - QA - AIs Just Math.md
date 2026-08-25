@@ -19,6 +19,6 @@ source:: [[../articles/iabied-ch2-faq-just-math]]
 #### {--{"author":"Elias's AI","timestamp":1787667305361}@@Question--}{++{"author":"Elias's AI","timestamp":1787667305361}@@Question: Open
 id:: c0ce5d0e-0fbc-47bf-8496-854659181757++}
 content:: If you accept that math can encode anything, what happens to the claim that an AI cannot truly understand or create? Does the biochemistry comparison actually settle it, or dodge it?
-assessment-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. If they argue the analogy dodges the question, take that seriously; the substrate argument does not by itself establish that understanding is present. Do not push them toward the authors' view.
+{--{"author":"Elias's AI","timestamp":1787672436511}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672436511}@@feedback-instructions::++} An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. If they argue the analogy dodges the question, take that seriously; the substrate argument does not by itself establish that understanding is present. Do not push them toward the authors' view.
 optional:: true
 {>>{"author":"Elias's AI","timestamp":1785314472981}@@Pilot conversion (4 of 5): trailing Text plus #### Chat replaced by a single optional #### Question. See the note on 'IABIED - QA - Why This Setup' for the rationale and what to check.<<}

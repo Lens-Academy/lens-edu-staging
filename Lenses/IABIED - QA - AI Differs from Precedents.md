@@ -18,6 +18,6 @@ source:: [[../articles/iabied-ch10-faq-historical-precedents]]
 #### {--{"author":"Elias's AI","timestamp":1787667476211}@@Question--}{++{"author":"Elias's AI","timestamp":1787667476211}@@Question: Open
 id:: 07db0ba7-d30d-42a5-a2c9-bf12621dedf9++}
 content:: The authors list many ways AI is unlike nuclear weapons. Which difference lands hardest for you, and is there a historical precedent you find a better fit than nuclear weapons?
-assessment-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. If they offer an alternative precedent, engage with it seriously, including where the analogy breaks down. Do not push them toward the authors' view.
+{--{"author":"Elias's AI","timestamp":1787672432466}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672432466}@@feedback-instructions::++} An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. If they offer an alternative precedent, engage with it seriously, including where the analogy breaks down. Do not push them toward the authors' view.
 optional:: true
 {>>{"author":"Elias's AI","timestamp":1785314435428}@@Pilot conversion (3 of 5): trailing Text plus #### Chat replaced by a single optional #### Question. See the note on 'IABIED - QA - Why This Setup' for the rationale and what to check.<<}
