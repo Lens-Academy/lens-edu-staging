@@ -27,7 +27,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read the second half of Chapter 11 of "If Anyone Builds It, Everyone Dies."
+{--{"author":"Elias's AI","timestamp":1787672479613}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672479613}@@feedback-instructions::++} The student has just read the second half of Chapter 11 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Describe the strong version of superalignment as Chapter 11 presents it (using a smarter-than-human AI to solve the alignment problem), and state the chapter's two-step objection: (1) the AI capable of doing this would itself be too dangerous and untrustworthy, and (2) a "special-purpose" alignment AI has no training examples of solved alignment and requires the precise dangerous skill set that makes an unaligned AI catastrophic.
 
@@ -71,7 +71,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
+{--{"author":"Elias's AI","timestamp":1787672482785}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672482785}@@feedback-instructions::++} The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 
