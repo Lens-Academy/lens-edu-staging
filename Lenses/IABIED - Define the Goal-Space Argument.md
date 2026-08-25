@@ -70,7 +70,8 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 
 assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779563095}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667351411}@@Question--}{++{"author":"Elias's AI","timestamp":1787667351411}@@Question: Open
+id:: 374dd909-d45c-43b2-8311-92ce8a2d18e3++}
 content::
 \## Phase 3: Learning Question
 A classmate says: "Sure, there are astronomically many goals an AI could have. But most of them are incoherent or self-undermining. Once you narrow down to the goals a stable, reflective superintelligence could actually hold onto, that set is small, and things like curiosity, cooperation, and valuing other minds are exactly what survives that filter. So human-compatible values aren't really a needle in a haystack." Using the chapter's argument, where does this reasoning break down?

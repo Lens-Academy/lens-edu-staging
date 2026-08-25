@@ -10,7 +10,8 @@ authors:
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]"
 ---
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667348376}@@Question--}{++{"author":"Elias's AI","timestamp":1787667348376}@@Question: Open
+id:: 3147cb53-d18b-4171-96a3-b3e658bb6de5++}
 content:: Before reading Chapter 5, section 1: Imagine a civilization of aliens far more intelligent than us, but whose deepest purpose is something you find completely pointless. Could they still be genuinely intelligent? Does getting smarter eventually steer every mind toward the same set of values, or could a brilliant mind want something utterly alien? Write down your thinking before you read.
 
 assessment-instructions::
