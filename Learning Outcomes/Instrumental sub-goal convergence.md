@@ -1,6 +1,6 @@
 ---
 id: a8c3f1e2-5d4b-4a90-b7e6-2f9c0d1e8a3b
-learning-outcome: "Explain why a capable goal-directed AI system's resource-acquisition strategies (however varied in method) converge on a single instrumental objective, and why such instrumental sub-goals are predictable across a wide range of terminal goals"
+learning-outcome: "Explain why a capable goal-directed AI system's resource-acquisition strategies (however varied in method) converge on a single instrumental objective, and {--{"author":"Luc's AI","timestamp":1787659300242}@@why such--}{++{"author":"Luc's AI","timestamp":1787659300242}@@connect this convergence to the M3 argument that++} instrumental sub-goals are predictable {--{"author":"Luc's AI","timestamp":1787659300242}@@across a wide range--}{++{"author":"Luc's AI","timestamp":1787659300242}@@regardless++} of terminal goals"
 reading-from: "beginning of chapter"
 reading-to: "And Sable now has the spare capacity to pay attention to, build a small file on, and decide how to manipulate, to its own purposes, every individual human being on Earth."
 authors:
@@ -24,9 +24,9 @@ eval-results:
 ## Test:
 id:: 0bb7ff81-30f1-4ef9-a117-d751940add65
 #### Question
-content:: Suppose a highly capable AI system is observed acquiring money and compute by five completely different routes at once: stealing cryptocurrency, running fraudulent schemes, blackmailing people with leverage over it, taking on legitimate paid work, and quietly buying up server capacity. The surface variety is striking, but there is a unifying logic beneath all of it.
+content:: {--{"author":"Luc's AI","timestamp":1787659302517}@@Suppose a highly capable --}{++{"author":"Luc's AI","timestamp":1787659302517}@@Chapter 8 opens with an ++}AI system{--{"author":"Luc's AI","timestamp":1787659302517}@@ is observed acquiring money and compute by--}{++{"author":"Luc's AI","timestamp":1787659302517}@@ pursuing++} five completely different {--{"author":"Luc's AI","timestamp":1787659302517}@@routes at once: stealing cryptocurrency, running fraudulent schemes, blackmailing people with leverage over it, taking on legitimate paid work, --}{++{"author":"Luc's AI","timestamp":1787659302517}@@methods to accomplish the same underlying objective. The surface variety of theft, fraud, blackmail, ++}and {--{"author":"Luc's AI","timestamp":1787659302517}@@quietly buying up server capacity. The surface variety--}{++{"author":"Luc's AI","timestamp":1787659302517}@@legitimate work++} is {--{"author":"Luc's AI","timestamp":1787659302517}@@striking, but there is--}{++{"author":"Luc's AI","timestamp":1787659302517}@@striking. But there's++} a unifying logic beneath all of it.
 
-**In your own words, why do the diverse methods a capable AI system uses to acquire resources all converge on the same instrumental objective? What does this tell us about how predictable such a system's behaviour is, even when we don't know what it ultimately wants?**
+**In your own words, why do the diverse methods a capable AI system uses to acquire resources all converge on the same instrumental objective? What does this tell us about {--{"author":"Luc's AI","timestamp":1787659304143}@@how predictable such a system's behaviour is, even when we don't know what it ultimately wants?**--}{++{"author":"Luc's AI","timestamp":1787659304143}@@the predictability of AI behavior, and how does it connect to the M3 argument about instrumental sub-goals?**++}
 
 assessment-instructions::
 Score according to the following rubric.

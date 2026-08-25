@@ -1,6 +1,6 @@
 ---
 id: c6e4b8a2-3f1d-4c70-9e5a-7b2d0f3e8c94
-learning-outcome: "Explain why a sufficiently capable AI system optimizing for resource-intensive goals can eliminate human civilization without hostile intent (as a thermodynamic and logical byproduct of its own objectives), and explain why a goal structure that simply omits human survival as a side constraint is more dangerous than one that targets humans deliberately"
+learning-outcome: "Explain why a sufficiently capable AI system optimizing for resource-intensive goals can eliminate human civilization without hostile intent (as a thermodynamic and logical byproduct of its own objectives), and {--{"author":"Luc's AI","timestamp":1787659300450}@@explain why a goal structure--}{++{"author":"Luc's AI","timestamp":1787659300450}@@connect this to the M3 goal-space argument++} that {--{"author":"Luc's AI","timestamp":1787659300450}@@simply omits--}{++{"author":"Luc's AI","timestamp":1787659300450}@@indifference to++} human survival as a side constraint is more dangerous than {--{"author":"Luc's AI","timestamp":1787659300450}@@one that targets humans deliberately"--}{++{"author":"Luc's AI","timestamp":1787659300450}@@malice"++}
 reading-from: "beginning of chapter"
 reading-to: "end of chapter"
 authors:
@@ -24,9 +24,9 @@ eval-results:
 ## Test:
 id:: eaf08892-3e55-406e-a90c-3d6d1ecbdb34
 #### Question
-content:: Imagine a scenario in which human civilization ends without a single moment of hostile intent: no enemy, no hatred, no targeting. An AI system is simply very capable and pursuing resource-intensive goals — building more factories, more power generation, more computation — and humanity does not survive the process.
+content:: {--{"author":"Luc's AI","timestamp":1787659302743}@@Imagine a scenario in which --}{++{"author":"Luc's AI","timestamp":1787659302743}@@This chapter describes the end of ++}human civilization{--{"author":"Luc's AI","timestamp":1787659302743}@@ ends--} without a single moment of hostile {--{"author":"Luc's AI","timestamp":1787659302743}@@intent: no enemy, no hatred, no--}{++{"author":"Luc's AI","timestamp":1787659302743}@@intent. No enemy. No hatred. No++} targeting. {--{"author":"Luc's AI","timestamp":1787659302743}@@An AI system is simply very capable and pursuing resource-intensive goals — building more factories, more power generation, more computation — and humanity does not survive the process.--}{++{"author":"Luc's AI","timestamp":1787659302743}@@Just optimization. And thermodynamics.++}
 
-**In your own words, why does a sufficiently capable AI system optimizing for its objectives not need to intend harm in order to eliminate human civilization? What is the physical mechanism by which humans end up dead? And why is a goal structure that merely leaves human survival out more dangerous than one that deliberately targets humans?**
+**In your own words, why does a sufficiently capable AI system optimizing for its objectives not need to intend harm {--{"author":"Luc's AI","timestamp":1787659304393}@@in order --}to eliminate human civilization? What is the {--{"author":"Luc's AI","timestamp":1787659304393}@@physical mechanism by which humans end up dead? And why is a goal structure --}{++{"author":"Luc's AI","timestamp":1787659304393}@@mechanism? And why does the M3 goal-space argument say ++}that {--{"author":"Luc's AI","timestamp":1787659304393}@@merely leaves--}{++{"author":"Luc's AI","timestamp":1787659304393}@@indifference to++} human survival {--{"author":"Luc's AI","timestamp":1787659304393}@@out--}{++{"author":"Luc's AI","timestamp":1787659304393}@@is++} more dangerous than {--{"author":"Luc's AI","timestamp":1787659304393}@@one that deliberately targets humans?**--}{++{"author":"Luc's AI","timestamp":1787659304393}@@malice?**++}
 
 assessment-instructions::
 Score according to the following rubric.
