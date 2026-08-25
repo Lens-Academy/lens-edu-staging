@@ -75,8 +75,7 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 
 {--{"author":"Elias's AI","timestamp":1787672283385}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672283385}@@feedback-instructions::++} [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779580773}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
-#### {--{"author":"Elias's AI","timestamp":1787667396824}@@Question--}{++{"author":"Elias's AI","timestamp":1787667396824}@@Question: Open
-id:: 457b36e7-390e-4ae6-a1f7-eccc61e4c6b1++}
+#### {--{"author":"Elias's AI","timestamp":1787673511043}@@Question--}{++{"author":"Elias's AI","timestamp":1787673511043}@@Question++}
 content::
 \## Phase 3: Learning Question
 A friend hears you describe the refrigerator argument and pushes back: "This proves too much. By this logic you could claim a superintelligence beats us with literally anything (nanobots, mind-control, magic wands) and I could never prove you wrong, because your whole point is that we can't say what the method is. An argument that survives no matter what isn't telling me anything real." Using the refrigerator thought experiment itself, what is wrong with your friend's reasoning, and is there any version of their worry that actually lands?
