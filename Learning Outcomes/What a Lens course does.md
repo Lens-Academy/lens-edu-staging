@@ -26,7 +26,7 @@ Two short answers. A few sentences is plenty.
 
 **First:** name two things {--{"author":"Luc's AI","timestamp":1787659338014}@@a Lens course does--}{++{"author":"Luc's AI","timestamp":1787659338014}@@these pages did++} that a reading list plus a weekly discussion call could not.{--{"author":"Luc's AI","timestamp":1787659338014}@@ Point at concrete mechanics rather than adjectives.--}
 
-**Second:** name one thing you would still want evidence of before believing Lens courses work at scale, and say what that evidence would look like.
+**Second:** name one thing you would still want evidence of before believing {--{"author":"Luc's AI","timestamp":1787659340233}@@Lens courses work--}{++{"author":"Luc's AI","timestamp":1787659340233}@@this works++} at scale, and say what that evidence would look like.
 
 max-chars:: 900
 
@@ -35,7 +35,7 @@ The person taking this test is most likely a funder, partner or prospective coll
 
 Two checks. **Both must pass.** Be generous on the first and strict only about effort on the second.
 
-**Check 1: two real differences.** They name two concrete mechanics of a Lens course, rather than two adjectives. Any two of the following count, in any wording, and so does anything else concrete they noticed:
+**Check 1: two real differences.** They name two {--{"author":"Luc's AI","timestamp":1787659341869}@@concrete mechanics of a Lens course,--}{++{"author":"Luc's AI","timestamp":1787659341869}@@things that actually happened on these pages,++} rather than two adjectives. Any two of the following count, in any wording, and so does anything else concrete they noticed:
 - The source was rendered inside the page with the unassigned part collapsed, so the tutor knew exactly what they had read.
 - The tutor was briefed per page by the course author, not pointed at the subject in general.
 - What they wrote was graded against a rubric the author wrote and they never saw.
