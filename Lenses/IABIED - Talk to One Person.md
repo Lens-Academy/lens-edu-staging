@@ -23,7 +23,8 @@ Three reasons this is worth your time:
 
 One thing to know before you go: the hesitation you might feel ("I don't want to sound alarmist") is the same one the experts feel. Geoffrey Hinton says "at least 10 percent" in public while privately putting the risk far higher, "because there's other people who think it's less." You'll read about this pattern in the final chapters; for now, just notice that your conversation doesn't need to be alarmist, only honest.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667514556}@@Question--}{++{"author":"Elias's AI","timestamp":1787667514556}@@Question: Open
+id:: a50faa6a-674a-4665-a180-c588b51fbd72++}
 content::
 **Phase 1: Pick your person**
 
