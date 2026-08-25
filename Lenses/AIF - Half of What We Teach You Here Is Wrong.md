@@ -20,7 +20,7 @@ We're all new to this, that's why your help is needed at all. If we could teach 
 
 We're gonna have you read various perspectives and try to construct your own as you go, but it's important to regularly remind yourself: these people have been at it for a while, being 50% wrong the whole time.
 
-Except 50% is just what the quote says. Some of them
+Except 50% is just what the quote says. We could all be
 
 #### Text
 content::
