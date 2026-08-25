@@ -61,7 +61,8 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667317677}@@Question--}{++{"author":"Elias's AI","timestamp":1787667317677}@@Question: Open
+id:: f66638c8-e263-4523-8bf2-4f39532757f6++}
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize, just capture your reaction. Using the speech to text feature is recommended.
@@ -95,7 +96,8 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667315243}@@Question--}{++{"author":"Elias's AI","timestamp":1787667315243}@@Question: Open
+id:: aa971beb-407d-4e56-8a39-d7b7fbf12b3f++}
 content::
 \## Phase 3: Learning Question
 A friend says: "An AI only 'wants' something if its programmers wrote that goal into it. Nobody coded a goal into a system that just learned from examples. So a trained AI doesn't really want anything. And since the machine has no feelings, calling it 'wanting' would just be a loose metaphor anyway." Using Chapter 3, where does this reasoning break down? Be precise about what you do and don't have to claim about the AI's inner life.
