@@ -17,7 +17,7 @@ surfaces what the student's own model thinks compute buys; When Progress Jumps
 supplies the measured outside-view base rate for discontinuous progress; How
 Long A Task introduces METR and gives the student one real measured curve
 before the next lens asks what a curve licenses; What a Curve Licenses teaches
-where an extrapolation stops being licensed by its data. Revision 1 and the alignment-door pointer serve the running-model habit,
+where an extrapolation stops being licensed by its data. Revision 1 and the alignment-door pointer serve the running-model habit{>>{"author":"lauren","timestamp":1787665958298}@@needs ASD-STE100 rewrite<<},
 not new content. Editing rule of thumb: if a change doesn't help a student
 build, defend, or revise a mechanism-based trajectory, it doesn't belong in
 this module. %%
