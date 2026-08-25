@@ -6,7 +6,8 @@ tldr: "Before reading, think about how you tell apart 'this is hopeless' from 't
 authors:
   - Yatharth+Claude
 ---
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667464184}@@Question--}{++{"author":"Elias's AI","timestamp":1787667464184}@@Question: Open
+id:: e8c82049-e0bf-464e-a1b5-c8b8f2468de5++}
 content:: When experts say a project should not be attempted, you can hear two very different things in that sentence:
 
 - *"Nothing can be done."* The situation is hopeless; the right response is to give up.
