@@ -77,7 +77,7 @@ content::
 \## Phase 3: Learning Question
 A friend finishes the Coda and closes the book, defeated: "They say it's an *easy call* that we lose, so the outcome is settled. This is just a doom book. Why write a Part III? Why do anything at all?" Using the Coda's own distinction, show your friend where the reasoning breaks. Is the book predicting that we lose, or something narrower with a condition attached? And what exactly would have to be true before the "easy call" applies at all?
 
-{--{"author":"Elias's AI","timestamp":1787672413744}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672413744}@@feedback-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the Coda of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+{--{"author":"Elias's AI","timestamp":1787673557610}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787673557610}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the Coda of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge; it is not the test question. It hands the student a plausible misreading: that an "easy call" outcome means the book is fatalist and nothing can be done. Their task is to dismantle it using the path/outcome distinction and the Coda's conditional structure ("only if the story is allowed to begin"). Use it to draw out why outcome confidence is the opposite of fatalism: the prediction is conditional on superintelligence being reached, and Part III is precisely about preventing that.
 
