@@ -26,7 +26,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read section 1 of Chapter 5 of "If Anyone Builds It, Everyone Dies."
+{--{"author":"Elias's AI","timestamp":1787672267077}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672267077}@@feedback-instructions::++} The student has just read section 1 of Chapter 5 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Define the goal-space argument: explain why a sufficiently advanced AI's goals are overwhelmingly unlikely to include human values, using the logic that most possible goal-sets don't converge on any particular set of values as intelligence increases.
 
@@ -70,7 +70,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779563095}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
+{--{"author":"Elias's AI","timestamp":1787672271478}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672271478}@@feedback-instructions::++} [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779563095}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### {--{"author":"Elias's AI","timestamp":1787667351411}@@Question--}{++{"author":"Elias's AI","timestamp":1787667351411}@@Question: Open
 id:: 374dd909-d45c-43b2-8311-92ce8a2d18e3++}
