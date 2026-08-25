@@ -21,7 +21,8 @@ eval-results:
 
 ## Test:
 id:: 10dd3907-2bae-4eee-9985-fe1a6506f5b3
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667341968}@@Question--}{++{"author":"Elias's AI","timestamp":1787667341968}@@Question: Open
+id:: 20d93a65-0cf2-41e7-8852-6c8d9d7bfc60++}
 content::
 {--{"author":"Luc's AI","timestamp":1787659317980}@@Consider an allegory. Somewhere far away lives a--}{++{"author":"Luc's AI","timestamp":1787659317980}@@Chapter 5 opens with an allegory about an alien++} civilization {--{"author":"Luc's AI","timestamp":1787659317980}@@of aliens --}obsessed with {--{"author":"Luc's AI","timestamp":1787659317980}@@keeping --}the "correct" number of stones in their nests. A young alien argues that most{--{"author":"Luc's AI","timestamp":1787659317980}@@ other--} species in the universe would not share this value, and that{--{"author":"Luc's AI","timestamp":1787659317980}@@ the aliens--} getting smarter wouldn't change {--{"author":"Luc's AI","timestamp":1787659317980}@@that — being smarter would only make them better at pursuing whatever they already care about. The --}{++{"author":"Luc's AI","timestamp":1787659317980}@@that. The text then applies this ++}same{--{"author":"Luc's AI","timestamp":1787659317980}@@ reasoning is often applied--}{++{"author":"Luc's AI","timestamp":1787659317980}@@ logic++} to AI: most possible goal-sets for a superintelligent AI would not include building a future full of happy, free people.
 
