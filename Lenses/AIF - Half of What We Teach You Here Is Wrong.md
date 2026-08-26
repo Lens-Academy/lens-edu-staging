@@ -54,7 +54,7 @@ content::
 
 Describe your current understanding of what's possible in the next ten years of AI. Five to ten sentences.
 
-Some suggested points to hit: What are the moving parts? What might get built? What computers will it run on? What might become possible? What reactions and responses are likely?
+Some suggested points to hit: What are the moving parts? What might get built? What computers will it run on? What might become possible? What reactions and responses are likely? When might 
 
 Don't think at great length; this question exists to 
 
