@@ -109,6 +109,7 @@ multi:: true
 
 %% Multiple choice has same options and defaults as single choice. For grading, learner choices must exactly match all `[x]` options.
 
+# Question: FillBla
 `Question: FillBlank` puts inputs inside sentence. Text inside braces is accepted answer. Smallest graded version follows. %%
 
 #### Question: FillBlank
