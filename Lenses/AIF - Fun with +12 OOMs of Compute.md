@@ -14,7 +14,7 @@ content::
 
 Let's start in the middle. Let's say you've already got a model of how something moves: a description of what leads to what, with numbers given for how much each step leads to another. Usually, there will be some bottleneck, some part of the process that the other steps wait for.
 
-Most such descriptions of AI progress depend heavily on the amount of "compute": the amount of math was done by the computer running the software which makes the AI.
+Most such descriptions of AI progress depend heavily on the amount of compute: the amount of math was done by the computer running the software which makes the AI.
 
 So here we'll have you read Daniel Kokotajlo's article. He's looking for what happens when you run very large programs which try to find intelligent behaviors in different ways.
 
