@@ -175,7 +175,8 @@ Base assessor returns one percentage for whole segment plus private reason. Perc
 
 %% 
 # Question: Ranking
-`Question: Ranking` lets learner arrange items. Plain `Question: Ranking` is ungraded, useful for preferences and reflection. Initial item order is randomized. %%
+`Question: Ranking` lets learner arrange items. Plain `Question: Ranking` is ungraded, useful for preferences and reflection. Initial item order is randomized. 
+%%
 
 #### Question: Ranking
 id:: dc6d348c-8c5c-416a-82d7-b7166d677258
