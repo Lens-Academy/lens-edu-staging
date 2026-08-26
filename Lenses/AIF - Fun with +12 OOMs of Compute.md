@@ -58,7 +58,7 @@ This is a pre-test. Use no grading language.
 
 Instead, give hints about how to improve their thinking - what might the missing components be that they should be looking for?
 
-You Look for: at least two concrete systems (not "better AI"), and a stated compute-to-capability mechanism for each.
+You should look for them to : at least two concrete systems (not "better AI"), and a stated compute-to-capability mechanism for each.
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
 
