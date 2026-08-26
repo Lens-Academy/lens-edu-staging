@@ -135,7 +135,7 @@ feedback-instructions:: Explain any incorrect blank without discussing unrelated
 
 #### Question: FillBlank
 id:: 8a3ae4f5-4d86-42dc-b126-b293f88a7b61
-content:: How many years until transformative AI? {{number}} 
+content:: How many years until transformative AI? {{number}} {>>{"author":"Luc","timestamp":1787778469762}@@Wouldn't this question be better as a different question type? This seems not like a FillBlank type question? But rather something like Question: Number or so?<<}
 optional:: true
 
 %% Numeric grading uses one reference number: `{{number 42}}` or `{{number 149,600,000}}`. There is no range syntax. Commas may separate thousands; decimals and negative values work.
