@@ -28,7 +28,9 @@ Except 50% is just what the quote says. Could even be worse. Science is always w
 content::
 \## Why we'll make you guess first
 
-Before asking you to read some articles, we'll test you on what the article contains, even though you haven't read the article yet. That's quite intentional. Research consistently shows a "pre-testing effect": testing your ability to invent an idea before encountering it seems to make it stick to your brain better. 
+Before asking you to read some articles, we'll test you on what the article contains, even though you haven't read the article yet. That's quite intentional. Research consistently shows a "pre-testing effect": testing your ability to invent an idea before encountering it seems to make it stick to your brain better.
+
+P
 
 So we'll ask you to tell us what the article contains, before you read it. If you have already read an article, 
 
