@@ -4,7 +4,7 @@ tags:
 ---
 # 2026-08-24 A3 Split Proposals
 
-Proposals for the 25 learning-outcome files that fail A3 (single completion unit) in the 2026-08-24 census. Each was drafted by a proposer agent that read the file, the A3 eval boundary, `Writing (Learning) Outcomes.md`, and the judge evidence. **Nothing here has been executed** — approve, amend, or reject per file; a follow-up pass then creates/edits the files. NARROW = keep one file, drop/absorb the extra clause; SPLIT = divide into multiple files.
+Proposals for the 25 learning-outcome files that fail A3 (single completion unit) in the 2026-08-24 census. Each was drafted by a proposer agent that read the file, the A3 eval boundary, `Writing (Learning) Outcomes.md`, and the judge evidence. **Nothing here has been executed** — approve, amend, or reject per file; a follow-up pass then creates/edits the files. NARROW = keep one file, drop/absorb the extra clause; SPLIT = divide into multiple files..
 
 Consistency notes: the Facilitator / Facilitator Flat variant pairs were proposed independently and landed on compatible recommendations (Closing Well: split ×2 both; Asking Questions: split ×2 both; Coaching One-on-One: split ×2 both; Two Postures: split ×2 both; Flipped Classroom: NARROW both). When executing, do each pair as one change so the variants stay in sync.
 
