@@ -26,26 +26,26 @@ content::
 > <exact quote from the text marking the stop point>
 Return here after reading.
 
-#### {--{"author":"Elias's AI","timestamp":1787761660995}@@Question                                  --}{++{"author":"Elias's AI","timestamp":1787761660995}@@Question: Open                            ++}← 2. Phase 1: Recall
-{++{"author":"Elias's AI","timestamp":1787761660995}@@id:: <uuid>
-++}content::
+#### Question: Open                            ← 2. Phase 1: Recall
+id:: <uuid>
+content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without
 looking back at the text. Anything and everything. No need to organize it. Using the
 speech to text feature is highly recommended here.
 assessment-instructions:: <recall-mirror brief, see below>
 
-#### {--{"author":"Elias's AI","timestamp":1787761663059}@@Question                                  --}{++{"author":"Elias's AI","timestamp":1787761663059}@@Question: Open                            ++}← 3. Phase 2: Processing ("what landed")
-{++{"author":"Elias's AI","timestamp":1787761663059}@@id:: <uuid>
-++}content::
+#### Question: Open                            ← 3. Phase 2: Processing ("what landed")
+id:: <uuid>
+content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you?
 What did you doubt or push back on? No need to organize. Just capture your reaction.
 assessment-instructions:: <processing brief, see below>
 
-#### {--{"author":"Elias's AI","timestamp":1787761665005}@@Question                                  --}{++{"author":"Elias's AI","timestamp":1787761665005}@@Question: Open                            ++}← 4. Phase 3: Learning Question
-{++{"author":"Elias's AI","timestamp":1787761665005}@@id:: <uuid>
-++}content::
+#### Question: Open                            ← 4. Phase 3: Learning Question
+id:: <uuid>
+content::
 \## Phase 3: Learning Question
 <a scenario that embodies a plausible-but-flawed claim about the material>
 assessment-instructions:: <socratic brief, see below>
@@ -69,11 +69,11 @@ All three share a house style: state who the student is and what they just did; 
 
 ## The pre-reading question (PQ) lens
 
-Before a heavy reading, a tiny lens primes the intuition the chapter will challenge: one `#### {--{"author":"Elias's AI","timestamp":1787761666787}@@Question`,--}{++{"author":"Elias's AI","timestamp":1787761666787}@@Question: Open`,++} no reading. Its brief is deliberately minimal: acknowledge in 1–2 sentences, **do not** preview the chapter's argument, close by sending them to the reading. Named `<Topic> - PQ`, listed in the module as the `# Lens:` immediately before the main reading lens. See `Lens Edu/Lenses/IABIED - Indifference Not Malice - PQ.md`.
+Before a heavy reading, a tiny lens primes the intuition the chapter will challenge: one `#### Question: Open`, no reading. Its brief is deliberately minimal: acknowledge in 1–2 sentences, **do not** preview the chapter's argument, close by sending them to the reading. Named `<Topic> - PQ`, listed in the module as the `# Lens:` immediately before the main reading lens. See `Lens Edu/Lenses/IABIED - Indifference Not Malice - PQ.md`.
 
-## The {--{"author":"Elias's AI","timestamp":1787761677181}@@6 --}segment types
+## The segment types
 
-Segments are the `####` blocks of the lens body, and of a Learning Outcome's `## Test:` {--{"author":"Elias's AI","timestamp":1787761677181}@@(Question--}{++{"author":"Elias's AI","timestamp":1787761677181}@@(gradable response segments++} and Roleplay only there).
+Segments are the `####` blocks of the lens body, and of a Learning Outcome's `## Test:` (gradable response segments and Roleplay only there).
 
 Fields per segment:
 
@@ -81,16 +81,16 @@ Fields per segment:
 - `#### Chat`: required `instructions`. Optional: `hidePreviousContentFromUser`, `hidePreviousContentFromTutor`.
 - `#### Article`: none required. Optional: `source`, `from`, `to`, `optional`.
 - `#### Video`: none required. Optional: `source`, `from`, `to`, `optional`.
-- `#### {--{"author":"Elias's AI","timestamp":1787761677181}@@Question`: --}{++{"author":"Elias's AI","timestamp":1787761677181}@@Question: Open`: ++}required {++{"author":"Elias's AI","timestamp":1787761677181}@@`id`, ++}`content`. Optional: `assessment-instructions`, {++{"author":"Elias's AI","timestamp":1787761677181}@@`feedback-instructions`, ++}`max-time`, `max-chars`, {++{"author":"Elias's AI","timestamp":1787761677181}@@`placeholder`, ++}`enforce-voice`, {--{"author":"Elias's AI","timestamp":1787761677181}@@`feedback`, --}{++{"author":"Elias's AI","timestamp":1787761677181}@@`optional`.
+- `#### Question: Open`: required `id`, `content`. Optional: `assessment-instructions`, `feedback-instructions`, `max-time`, `max-chars`, `placeholder`, `enforce-voice`, `optional`.
 - `#### Question: Rating`: required `id`, `content`. Optional: `scale` (2 to 10, default 5), `low-label`, `high-label`, `feedback-instructions`, `optional`. Never graded.
 - `#### Question: Choice`: required `id`, `content`, `options` (list; `- [x]` marks a correct option and makes it graded). Optional: `multi`, `shuffle`, `feedback-instructions`, `optional`.
 - `#### Question: FillBlank`: required `id`, `content` with `{{expected}}`, `{{alt1|alt2}}`, `{{blank}}`, `{{number}}`, or `{{number 42}}` blanks. Optional: `assessment-instructions`, `feedback-instructions`, `optional`.
-- `#### Question: Ranking`: required `id`, `content`, `items` (list in intended order, shown shuffled). Optional: `assessment-instructions` (presence = graded), `feedback-instructions`, ++}`optional`.
+- `#### Question: Ranking`: required `id`, `content`, `items` (list in intended order, shown shuffled). Optional: `assessment-instructions` (presence = graded), `feedback-instructions`, `optional`.
 - `#### Roleplay`: required `id`, `content`, `ai-instructions`. Optional: `opening-message`, `assessment-instructions`, `user-customizable`, `feedback`, `optional`.
 
-Defaults: `optional` {--{"author":"Elias's AI","timestamp":1787761677181}@@false; `feedback` true on questions, --}{++{"author":"Elias's AI","timestamp":1787761677181}@@false (every response segment must be answered before the lens can be completed); no tutor feedback unless `feedback-instructions::` is present; `feedback` ++}false on roleplays; `hidePreviousContent*` false.{++{"author":"Elias's AI","timestamp":1787761677181}@@
+Defaults: `optional` false (every response segment must be answered before the lens can be completed); no tutor feedback unless `feedback-instructions::` is present; `feedback` false on roleplays; `hidePreviousContent*` false.
 
-A bare `#### Question` (no subtype, no `id::`) is the legacy form. Do not write it in new or edited content; convert it to `#### Question: Open` with a fresh `id::` when you touch a lens. The full field reference with live examples is [[../Lenses/Response to question segments]].++}
+A bare `#### Question` (no subtype, no `id::`) is the legacy form. Do not write it in new or edited content; convert it to `#### Question: Open` with a fresh `id::` when you touch a lens. The full field reference with live examples is [[../Lenses/Response to question segments]].
 
 **Text**: prose shown to the learner. `content::` is markdown; escape any headings (`\##`).
 
@@ -102,9 +102,9 @@ A bare `#### Question` (no subtype, no `id::`) is the legacy form. Do not write 
 
 **Source inheritance:** the first Article (or Video) segment in a lens must have `source::`; later segments of the same type inherit the previous source, so a multi-excerpt reading is several `#### Article` blocks with only `from::`/`to::`.
 
-{--{"author":"Elias's AI","timestamp":1787761682107}@@**Question**:--}{++{"author":"Elias's AI","timestamp":1787761682107}@@**Question: Open**:++} learner writes/dictates an {--{"author":"Elias's AI","timestamp":1787761682107}@@answer, --}{++{"author":"Elias's AI","timestamp":1787761682107}@@answer. `assessment-instructions::` makes it graded (assessor returns a 0 to 100 score; learner sees ++}the {--{"author":"Elias's AI","timestamp":1787761682107}@@AI responds per `assessment-instructions::`. `max-time:: 3:00` (or `none`),--}{++{"author":"Elias's AI","timestamp":1787761682107}@@percentage). `feedback-instructions::` opens a tutor feedback conversation on the answer; omit it to record without AI response. `max-time:: 3:00`,++} `max-chars`, {++{"author":"Elias's AI","timestamp":1787761682107}@@`placeholder`, ++}`enforce-voice:: true` for spoken {--{"author":"Elias's AI","timestamp":1787761682107}@@answers, `feedback:: false` to record without AI response.--}{++{"author":"Elias's AI","timestamp":1787761682107}@@answers.
+**Question: Open**: learner writes/dictates an answer. `assessment-instructions::` makes it graded (assessor returns a 0 to 100 score; learner sees the percentage). `feedback-instructions::` opens a tutor feedback conversation on the answer; omit it to record without AI response. `max-time:: 3:00`, `max-chars`, `placeholder`, `enforce-voice:: true` for spoken answers.
 
-**Question: Rating / Choice / FillBlank / Ranking**: same shape (`id::`, `content::`, `optional::`, `feedback-instructions::`) with their own fields listed above. Use Rating for self-report (confidence, interest), Choice for recognition checks and preferences, FillBlank for precise recall inside a sentence or numeric estimates, Ranking for chronology, procedures, and priorities.++}
+**Question: Rating / Choice / FillBlank / Ranking**: same shape (`id::`, `content::`, `optional::`, `feedback-instructions::`) with their own fields listed above. Use Rating for self-report (confidence, interest), Choice for recognition checks and preferences, FillBlank for precise recall inside a sentence or numeric estimates, Ranking for chronology, procedures, and priorities.
 
 **Roleplay**: learner talks with a persona defined in `ai-instructions::`; `content::` sets the scene for the learner, `opening-message::` is the persona's first line.
 

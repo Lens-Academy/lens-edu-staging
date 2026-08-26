@@ -8,7 +8,7 @@ title: Interaction requirements demo
 
 The defaults:
 - Chat never blocks completion — a learner can move on without messaging the tutor.
-- A {--{"author":"Elias's AI","timestamp":1787761733438}@@`#### Question` --}{++{"author":"Elias's AI","timestamp":1787761733438}@@response segment (`#### Question: Open`, `Rating`, `Choice`, `FillBlank`, `Ranking`) ++}must be answered once before {--{"author":"Elias's AI","timestamp":1787761733438}@@completion, and--}{++{"author":"Elias's AI","timestamp":1787761733438}@@completion. It++} opens a feedback conversation on the answer {--{"author":"Elias's AI","timestamp":1787761733438}@@(`feedback::` defaults to true; set `feedback:: false` to turn it off).--}{++{"author":"Elias's AI","timestamp":1787761733438}@@only if it has `feedback-instructions::`.++}
+- A response segment (`#### Question: Open`, `Rating`, `Choice`, `FillBlank`, `Ranking`) must be answered once before completion. It opens a feedback conversation on the answer only if it has `feedback-instructions::`.
 
 The fields:
 - `min_chat_messages` (lens frontmatter, or `min_chat_messages::` on an inline lens; default 0): the learner must send at least this many messages to the Lens Tutor on that lens before "Mark section complete" works. Every message counts — page chat box, a question's feedback conversation, or the sidebar — except the auto-sent feedback request itself.
@@ -37,46 +37,46 @@ Chat casually with the learner about whatever they bring up; keep replies short.
 
 # Lens: Question with the default requirement
 id:: eeb40ecf-e7e1-4536-8bda-a5cf286439d7
-tldr:: A plain {++{"author":"Elias's AI","timestamp":1787761739421}@@open ++}question, no special settings, so what does it take to move on? By default you must answer {--{"author":"Elias's AI","timestamp":1787761739421}@@once, and the tutor opens a short feedback chat on your reply.--}{++{"author":"Elias's AI","timestamp":1787761739421}@@once; there is no feedback chat unless the author asks for one.++}
-summary_for_tutor:: Demo lens with a single {--{"author":"Elias's AI","timestamp":1787761739421}@@Question--}{++{"author":"Elias's AI","timestamp":1787761739421}@@Question: Open segment++} and no extra fields, showing the default behavior: one completed answer is required before completion and {--{"author":"Elias's AI","timestamp":1787761739421}@@a--}{++{"author":"Elias's AI","timestamp":1787761739421}@@no++} feedback conversation opens {--{"author":"Elias's AI","timestamp":1787761739421}@@automatically (feedback:: defaults to true).--}{++{"author":"Elias's AI","timestamp":1787761739421}@@because there are no feedback-instructions.++}
+tldr:: A plain open question, no special settings, so what does it take to move on? By default you must answer once; there is no feedback chat unless the author asks for one.
+summary_for_tutor:: Demo lens with a single Question: Open segment and no extra fields, showing the default behavior: one completed answer is required before completion and no feedback conversation opens because there are no feedback-instructions.
 duration_minutes:: 5
 
 #### Text
 content::
-This page has a plain {--{"author":"Elias's AI","timestamp":1787761739421}@@question--}{++{"author":"Elias's AI","timestamp":1787761739421}@@`Question: Open`++} with no extra fields. {--{"author":"Elias's AI","timestamp":1787761739421}@@Questions--}{++{"author":"Elias's AI","timestamp":1787761739421}@@Response segments++} require one completed answer by{--{"author":"Elias's AI","timestamp":1787761739421}@@ default (and get a feedback conversation, since `feedback::` defaults to true). --}{++{"author":"Elias's AI","timestamp":1787761739421}@@ default. ++}Until you answer it you can't mark this lens as completed.{++{"author":"Elias's AI","timestamp":1787761739421}@@ No feedback chat opens, because the segment has no `feedback-instructions::`.++}
+This page has a plain `Question: Open` with no extra fields. Response segments require one completed answer by default. Until you answer it you can't mark this lens as completed. No feedback chat opens, because the segment has no `feedback-instructions::`.
 
-#### {--{"author":"Elias's AI","timestamp":1787761739421}@@Question--}{++{"author":"Elias's AI","timestamp":1787761739421}@@Question: Open
-id:: d607297d-bda6-437c-8a2e-51b40aae7e4b++}
+#### Question: Open
+id:: d607297d-bda6-437c-8a2e-51b40aae7e4b
 content:: What is your favorite color, and why?
 
 # Lens: Question plus a message minimum
 id:: 43d2334e-990d-43be-98e2-aa7ff046cb16
 tldr:: Two gates at once: answer the question and send two messages. This lens shows how a required question and a chat minimum stack independently, and how feedback replies count toward both.
-summary_for_tutor:: Demo lens combining a required {--{"author":"Elias's AI","timestamp":1787761746294}@@Question--}{++{"author":"Elias's AI","timestamp":1787761746294}@@Question: Open++} with min_chat_messages:: 2. Explains that the two requirements are independent, that replies in the question's feedback conversation count toward the message minimum, and carries {--{"author":"Elias's AI","timestamp":1787761746294}@@assessment-instructions--}{++{"author":"Elias's AI","timestamp":1787761746294}@@feedback-instructions++} for a playful follow-up.
+summary_for_tutor:: Demo lens combining a required Question: Open with min_chat_messages:: 2. Explains that the two requirements are independent, that replies in the question's feedback conversation count toward the message minimum, and carries feedback-instructions for a playful follow-up.
 min_chat_messages:: 2
 duration_minutes:: 5
 
 #### Text
 content::
-This lens combines a required question with `min_chat_messages:: 2`. The two requirements are independent: you must answer the question AND send 2 messages to the tutor. {--{"author":"Elias's AI","timestamp":1787761746294}@@Replies you type in the question's--}{++{"author":"Elias's AI","timestamp":1787761746294}@@This question has `feedback-instructions::`, so a++} feedback conversation {++{"author":"Elias's AI","timestamp":1787761746294}@@opens on your answer. Replies you type there ++}count toward the message minimum (the auto-sent feedback request itself does not), so answering and then discussing the feedback satisfies both.
+This lens combines a required question with `min_chat_messages:: 2`. The two requirements are independent: you must answer the question AND send 2 messages to the tutor. This question has `feedback-instructions::`, so a feedback conversation opens on your answer. Replies you type there count toward the message minimum (the auto-sent feedback request itself does not), so answering and then discussing the feedback satisfies both.
 
-#### {--{"author":"Elias's AI","timestamp":1787761746294}@@Question--}{++{"author":"Elias's AI","timestamp":1787761746294}@@Question: Open++}
-{++{"author":"Elias's AI","timestamp":1787761746294}@@id:: 006af336-57e3-44f3-bc3a-6cfc2cb541da
-++}content:: Name a food you could eat every day. What makes it work for you?
-{--{"author":"Elias's AI","timestamp":1787761746294}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787761746294}@@feedback-instructions::++} Any sincere answer is fine; ask one playful follow-up question at a time.
+#### Question: Open
+id:: 006af336-57e3-44f3-bc3a-6cfc2cb541da
+content:: Name a food you could eat every day. What makes it work for you?
+feedback-instructions:: Any sincere answer is fine; ask one playful follow-up question at a time.
 
 # Lens: Skippable question
 id:: 2c11c696-8fcb-4d2e-9725-f171c2e55c95
 tldr:: How do you offer a reflection prompt without forcing anyone to answer it? Mark the question optional and it becomes skippable, so completion never waits on it.
-summary_for_tutor:: Demo lens with a {--{"author":"Elias's AI","timestamp":1787761751529}@@Question--}{++{"author":"Elias's AI","timestamp":1787761751529}@@Question: Open++} marked optional:: true, overriding the default single-answer requirement so completion is never blocked. Illustrates the pattern for nice-to-have reflection prompts.
+summary_for_tutor:: Demo lens with a Question: Open marked optional:: true, overriding the default single-answer requirement so completion is never blocked. Illustrates the pattern for nice-to-have reflection prompts.
 duration_minutes:: 2
 
 #### Text
 content::
 This question has `optional:: true`, which overrides the default requirement of one answer and makes it skippable. "Mark section complete" works even without answering. Use this for nice-to-have reflection prompts that should not hold anyone up.
 
-#### {--{"author":"Elias's AI","timestamp":1787761751529}@@Question--}{++{"author":"Elias's AI","timestamp":1787761751529}@@Question: Open
-id:: 11444bd9-63d8-4b60-8680-cb20ecdc6d82++}
+#### Question: Open
+id:: 11444bd9-63d8-4b60-8680-cb20ecdc6d82
 optional:: true
 content:: Purely optional: is there anything from this module you want to note down for later?
 

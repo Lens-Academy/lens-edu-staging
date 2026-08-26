@@ -13,8 +13,8 @@ Users don't see learning outcomes. They just see lenses and tests.%%
 id:: 88b7204b-2e34-4688-8f1f-1b5bbd75f5c8
 %% Tests are always tied to a learning outcome and defined directly inside of it. They're never imported from a separate file.%%{++{"author":"Elias's AI","timestamp":1787762005387}@@
 {>>{"author":"Elias's AI","timestamp":1787762005387}@@Blocked: do not accept the Question: Open conversion below until the parseFields section-id bug is fixed (Lens Tasks 1217874728117362). With the bug, the test's contentId becomes the question's id and the validator reports a false Duplicate UUID.<<}++}
-#### {--{"author":"Elias's AI","timestamp":1787761753513}@@Question--}{++{"author":"Elias's AI","timestamp":1787761753513}@@Question: Open
-id:: 7ce30885-5938-4598-9eea-e1c19ab15ccf++}
+#### Question: Open
+id:: 7ce30885-5938-4598-9eea-e1c19ab15ccf
 content:: In your own words, what are the two basic parts of a learning outcome?
 assessment-instructions:: A good answer says that a learning outcome has a test and one or more supporting lenses that help the learner prepare for that test.
 max-chars:: 500

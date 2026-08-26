@@ -21,74 +21,62 @@ title: Post-Meeting Survey
 ---
 ```
 
-## The {--{"author":"Elias's AI","timestamp":1787761720749}@@4 --}segment types
+## The segment types
 
-{++{"author":"Elias's AI","timestamp":1787761720749}@@Surveys use the same response segments as lenses and tests: `#### Question: Open`, `#### Question: Rating`, `#### Question: Choice`, `#### Question: FillBlank`, `#### Question: Ranking`. ++}Every {--{"author":"Elias's AI","timestamp":1787761720749}@@answerable segment (everything except Text) needs--}{++{"author":"Elias's AI","timestamp":1787761720749}@@one needs an `id::` (a UUID; it is the key the answer is stored under) and++} a `content::` (the question shown to the {--{"author":"Elias's AI","timestamp":1787761720749}@@learner) and a `key::` (see Keys below). `required::--}{++{"author":"Elias's AI","timestamp":1787761720749}@@learner). Segments are **required by default**; add `optional::++} true` {--{"author":"Elias's AI","timestamp":1787761720749}@@makes--}{++{"author":"Elias's AI","timestamp":1787761720749}@@to let++} a {--{"author":"Elias's AI","timestamp":1787761720749}@@question mandatory; everything defaults--}{++{"author":"Elias's AI","timestamp":1787761720749}@@learner skip one. Surveys never grade, so no `assessment-instructions::` and no `[x]` marks. Full field reference with live examples: [[../Lenses/Response++} to {--{"author":"Elias's AI","timestamp":1787761720749}@@optional.--}{++{"author":"Elias's AI","timestamp":1787761720749}@@question segments]].++}
+Surveys use the same response segments as lenses and tests: `#### Question: Open`, `#### Question: Rating`, `#### Question: Choice`, `#### Question: FillBlank`, `#### Question: Ranking`. Every one needs an `id::` (a UUID; it is the key the answer is stored under) and a `content::` (the question shown to the learner). Segments are **required by default**; add `optional:: true` to let a learner skip one. Surveys never grade, so no `assessment-instructions::` and no `[x]` marks. Full field reference with live examples: [[../Lenses/Response to question segments]].
 
-**`#### Text`** — prose shown between questions (intro, section breaks). `content::` is markdown; escape any headings (`\##`). Takes no {--{"author":"Elias's AI","timestamp":1787761720749}@@`key`.--}{++{"author":"Elias's AI","timestamp":1787761720749}@@`id`.++}
+**`#### Text`** — prose shown between questions (intro, section breaks). `content::` is markdown; escape any headings (`\##`). Takes no `id`.
 
 ```markdown
 #### Text
 content:: Thanks for showing up! This takes a few minutes and counts your attendance.
 ```
 
-**`#### {++{"author":"Elias's AI","timestamp":1787761720749}@@Question: ++}Rating`** — a 1-to-N scale rendered as numbered buttons. `scale::` sets N (2–10, default 5); `low-label::` / `high-label::` caption the endpoints.
+**`#### Question: Rating`** — a 1-to-N scale rendered as numbered buttons. `scale::` sets N (2–10, default 5); `low-label::` / `high-label::` caption the endpoints.
 
 ```markdown
-#### {++{"author":"Elias's AI","timestamp":1787761720749}@@Question: ++}Rating
-{--{"author":"Elias's AI","timestamp":1787761720749}@@key:: motivation--}{++{"author":"Elias's AI","timestamp":1787761720749}@@id:: 3f0c8a2e-6b4d-4c1e-9a7f-2d5e8b1c4a6f++}
+#### Question: Rating
+id:: 3f0c8a2e-6b4d-4c1e-9a7f-2d5e8b1c4a6f
 content:: How motivated are you right now to take action on AI safety?
 scale:: 5
 low-label:: Not at all
 high-label:: A lot
-{--{"author":"Elias's AI","timestamp":1787761720749}@@required:: true
---}```
-
-**`#### {++{"author":"Elias's AI","timestamp":1787761720749}@@Question: ++}Choice`** — pick one (default) or many (`multi:: true`). `options::` is a plain list, one `- Option text` per line, at least 2. **No checkbox brackets** (`- {--{"author":"Elias's AI","timestamp":1787761720749}@@[ ]` / `- --}[x]` {--{"author":"Elias's AI","timestamp":1787761720749}@@is quiz syntax for questions with--}{++{"author":"Elias's AI","timestamp":1787761720749}@@marks a++} correct {--{"author":"Elias's AI","timestamp":1787761720749}@@answers--}{++{"author":"Elias's AI","timestamp":1787761720749}@@answer++} — surveys have none, and the validator rejects it here).
-
-```markdown
-#### {--{"author":"Elias's AI","timestamp":1787761720749}@@Choice
-key:: buddy_texted
-content:: Did you message your accountability buddy this week?
-options::
-- Yes
-- No
 ```
 
+**`#### Question: Choice`** — pick one (default) or many (`multi:: true`). `options::` is a plain list, one `- Option text` per line, at least 2. **No checkbox brackets** (`- [x]` marks a correct answer — surveys have none, and the validator rejects it here).
+
 ```markdown
-####--}{++{"author":"Elias's AI","timestamp":1787761720749}@@Question:++} Choice
-{--{"author":"Elias's AI","timestamp":1787761720749}@@key:: topics_enjoyed--}{++{"author":"Elias's AI","timestamp":1787761720749}@@id:: 7a1d9e3b-2c5f-4b8a-8e6d-1f4c7a9b3e5d++}
+#### Question: Choice
+id:: 7a1d9e3b-2c5f-4b8a-8e6d-1f4c7a9b3e5d
 content:: Which parts of this unit worked for you?
 options::
 - The readings
 - The AI tutor discussions
 - The group meeting
 multi:: true
-{++{"author":"Elias's AI","timestamp":1787761720749}@@optional:: true
-++}```
+optional:: true
+```
 
-**`#### {--{"author":"Elias's AI","timestamp":1787761720749}@@Question`**--}{++{"author":"Elias's AI","timestamp":1787761720749}@@Question: Open`**++} — free text (a textarea). Optional `max-chars::` (length cap with a live counter) and `placeholder::`.
+**`#### Question: Open`** — free text (a textarea). Optional `max-chars::` (length cap with a live counter) and `placeholder::`.
 
 ```markdown
-#### {--{"author":"Elias's AI","timestamp":1787761720749}@@Question--}{++{"author":"Elias's AI","timestamp":1787761720749}@@Question: Open++}
-{--{"author":"Elias's AI","timestamp":1787761720749}@@key:: worked_well--}{++{"author":"Elias's AI","timestamp":1787761720749}@@id:: c4e2b7d1-9f3a-4e6c-b8d5-6a2f1c9e4b7d++}
+#### Question: Open
+id:: c4e2b7d1-9f3a-4e6c-b8d5-6a2f1c9e4b7d
 content:: Reflecting on your session, what's one thing that worked well today?
 ```
 
-{--{"author":"Elias's AI","timestamp":1787761720749}@@## Keys
+**`#### Question: FillBlank`** and **`#### Question: Ranking`** work too (ungraded here), useful for a numeric self-report like `How many hours did you spend? {{number}}` or for ranking preferences.
 
-`key::` is the stable identifier an answer is stored under — `snake_case` (lowercase letters, digits, underscores; starts with a letter; max 64 chars), unique within the survey.--}{++{"author":"Elias's AI","timestamp":1787761720749}@@**`#### Question: FillBlank`** and **`#### Question: Ranking`** work too (ungraded here), useful for a numeric self-report like `How many hours did you spend? {{number}}` or for ranking preferences.++}
+## Ids are keys
 
-{--{"author":"Elias's AI","timestamp":1787761720749}@@**Keys --}{++{"author":"Elias's AI","timestamp":1787761720749}@@## Ids ++}are {--{"author":"Elias's AI","timestamp":1787761720749}@@forever.** Stored responses are keyed by them, so you --}{++{"author":"Elias's AI","timestamp":1787761720749}@@keys
+The segment's `id::` is the stable identifier an answer is stored under, and what ops exports show. **Ids are forever.** You can reword a question's `content::` freely (each response snapshots the wording it was answered under), but never change an `id::` once real responses exist — that would split the answer history.
 
-The segment's `id::` is the stable identifier an answer is stored under, and what ops exports show. **Ids are forever.** You ++}can reword a question's `content::` freely (each response snapshots the wording it was answered under), but never change {--{"author":"Elias's AI","timestamp":1787761720749}@@a `key::`--}{++{"author":"Elias's AI","timestamp":1787761720749}@@an `id::`++} once real responses exist — that would split the answer {--{"author":"Elias's AI","timestamp":1787761720749}@@history in ops exports.--}{++{"author":"Elias's AI","timestamp":1787761720749}@@history.
+## The two special keys (legacy `key::` syntax, still required)
 
-## The two special keys (legacy `key::` syntax, still required)++}
+Two survey answers drive platform behavior beyond storage, and the platform finds them by a snake_case `key::`, which only the legacy survey segments carry (`#### Choice` with `key::`, no `id::`, `required::` instead of `optional::`). Until the platform reads these keys off `id::`-based segments, write these two questions in the legacy form and nothing else:
 
-Two {--{"author":"Elias's AI","timestamp":1787761720749}@@keys have--}{++{"author":"Elias's AI","timestamp":1787761720749}@@survey answers drive++} platform behavior beyond {--{"author":"Elias's AI","timestamp":1787761720749}@@storage:--}{++{"author":"Elias's AI","timestamp":1787761720749}@@storage, and the platform finds them by a snake_case `key::`, which only the legacy survey segments carry (`#### Choice` with `key::`, no `id::`, `required::` instead of `optional::`). Until the platform reads these keys off `id::`-based segments, write these two questions in the legacy form and nothing else:++}
-
-- **`buddy_texted`** — the answer is parsed as yes/no and feeds scoring (the accountability-buddy credit in the survey score). Use it on the "did you message your buddy" question, {--{"author":"Elias's AI","timestamp":1787761720749}@@ideally--}{++{"author":"Elias's AI","timestamp":1787761720749}@@as++} a Yes/No Choice.
-- **`facilitation_interest`** — an affirmative answer ("Yes, tell me more") registers the learner's interest in facilitating a future group (feeds the navigator pipeline). A negative answer ("Not right now") records nothing.{++{"author":"Elias's AI","timestamp":1787761720749}@@
+- **`buddy_texted`** — the answer is parsed as yes/no and feeds scoring (the accountability-buddy credit in the survey score). Use it on the "did you message your buddy" question, as a Yes/No Choice.
+- **`facilitation_interest`** — an affirmative answer ("Yes, tell me more") registers the learner's interest in facilitating a future group (feeds the navigator pipeline). A negative answer ("Not right now") records nothing.
 
 ```markdown
 #### Choice
@@ -99,7 +87,7 @@ options::
 - No
 ```
 
-`key::` must be `snake_case` (lowercase letters, digits, underscores; starts with a letter; max 64 chars) and unique within the survey. Legacy segments default to optional; add `required:: true` to make one mandatory.++}
+`key::` must be `snake_case` (lowercase letters, digits, underscores; starts with a letter; max 64 chars) and unique within the survey. Legacy segments default to optional; add `required:: true` to make one mandatory.
 
 ## Attaching a survey to meetings
 
@@ -128,7 +116,7 @@ survey:: [[../surveys/AIF Post-Meeting Survey]]
 
 ## Validation
 
-Run the content validator after writing. These are hard errors: missing/unquoted {++{"author":"Elias's AI","timestamp":1787761725199}@@frontmatter ++}`id`; a {--{"author":"Elias's AI","timestamp":1787761725199}@@missing or malformed `key`;--}{++{"author":"Elias's AI","timestamp":1787761725199}@@response segment without `id::`;++} duplicate {--{"author":"Elias's AI","timestamp":1787761725199}@@keys; --}{++{"author":"Elias's AI","timestamp":1787761725199}@@segment ids (or duplicate legacy keys); ++}an answerable segment without `content::`; fewer than 2 options or {--{"author":"Elias's AI","timestamp":1787761725199}@@checkbox--}{++{"author":"Elias's AI","timestamp":1787761725199}@@`[x]`++} syntax in `options::`; `scale::` outside 2–10; {++{"author":"Elias's AI","timestamp":1787761725199}@@`assessment-instructions::` in a survey; ++}a survey with no answerable segments;{--{"author":"Elias's AI","timestamp":1787761725199}@@ a title after a segment header (`#### Rating: Mood` — remove the title);--} a `survey::` link pointing at a missing or broken file; a production course linking a `wip`-tagged survey.
+Run the content validator after writing. These are hard errors: missing/unquoted frontmatter `id`; a response segment without `id::`; duplicate segment ids (or duplicate legacy keys); an answerable segment without `content::`; fewer than 2 options or `[x]` syntax in `options::`; `scale::` outside 2–10; `assessment-instructions::` in a survey; a survey with no answerable segments; a `survey::` link pointing at a missing or broken file; a production course linking a `wip`-tagged survey.
 
 ## Complete example
 
@@ -141,13 +129,12 @@ title: Post-Meeting Survey
 #### Text
 content:: Thanks for showing up! This is your post-session reflection. It takes a few minutes — and submitting it counts your attendance for this meeting.
 
-#### {++{"author":"Elias's AI","timestamp":1787761730638}@@Question: ++}Rating
-{--{"author":"Elias's AI","timestamp":1787761730638}@@key:: motivation--}{++{"author":"Elias's AI","timestamp":1787761730638}@@id:: 3f0c8a2e-6b4d-4c1e-9a7f-2d5e8b1c4a6f++}
+#### Question: Rating
+id:: 3f0c8a2e-6b4d-4c1e-9a7f-2d5e8b1c4a6f
 content:: How motivated are you right now to take action on AI safety?
 scale:: 5
 low-label:: Not at all
-high-label:: A lot{--{"author":"Elias's AI","timestamp":1787761730638}@@
-required:: true--}
+high-label:: A lot
 
 #### Choice
 key:: buddy_texted
@@ -156,14 +143,14 @@ options::
 - Yes
 - No
 
-#### {--{"author":"Elias's AI","timestamp":1787761730638}@@Question--}{++{"author":"Elias's AI","timestamp":1787761730638}@@Question: Open++}
-{--{"author":"Elias's AI","timestamp":1787761730638}@@key:: worked_well--}{++{"author":"Elias's AI","timestamp":1787761730638}@@id:: c4e2b7d1-9f3a-4e6c-b8d5-6a2f1c9e4b7d++}
+#### Question: Open
+id:: c4e2b7d1-9f3a-4e6c-b8d5-6a2f1c9e4b7d
 content:: What's one thing that worked well today?
 
-#### {--{"author":"Elias's AI","timestamp":1787761730638}@@Question--}{++{"author":"Elias's AI","timestamp":1787761730638}@@Question: Open++}
-{--{"author":"Elias's AI","timestamp":1787761730638}@@key:: could_improve--}{++{"author":"Elias's AI","timestamp":1787761730638}@@id:: 9b6e4d2a-5c8f-4a3e-b1d7-8e2c5f9a4b6d++}
-content:: What's one thing the course, website, AI tutor, or meetings could do better?{++{"author":"Elias's AI","timestamp":1787761730638}@@
-optional:: true++}
+#### Question: Open
+id:: 9b6e4d2a-5c8f-4a3e-b1d7-8e2c5f9a4b6d
+content:: What's one thing the course, website, AI tutor, or meetings could do better?
+optional:: true
 
 #### Choice
 key:: facilitation_interest
