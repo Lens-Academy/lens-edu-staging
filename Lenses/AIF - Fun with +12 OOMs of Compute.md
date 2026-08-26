@@ -20,7 +20,7 @@ So here we'll have you read Daniel Kokotajlo's article. He's looking for what ha
 
 You probably won't understand everything he's saying at first, so try to guess what each thing means. Even still, let's give you some basic definitions:
 
-Compute: total number of steps (addition, multiplication, compare, etc) used in training the AI. (For most AIs, the vast majority of steps are m)
+Compute: total number of steps (addition, multiplication, compare, etc) used in training the AI. (For most AIs, the vast majority of steps are multiplication.)
 
 Later articles will build up the perspective he's assuming as background knowledge.
 
