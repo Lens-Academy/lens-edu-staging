@@ -8,7 +8,7 @@ A **course** is a collection of `.md` files that link to each other.
 It is defined by a course file (see [[Writing Course Files]]). A course file defines a set of units. Each unit consists of one or more modules, which students go through in self-study, and a group meeting at the end. During a meeting, students go through a Google Doc, which defines what they discuss. (see [[Writing Meeting Docs]]) 
 
 A module (see [[Writing Modules]]) contains links to a set of learning outcomes and an ordered list of lenses.
-Learning outcomes (see [[Writing (Learning) Outcomes]]) define what we are trying to teach in that one testable skill and a set of tests, the platform uses to measure it (the test renders at the end of the module or submodule that declares the outcome).
+Learning outcomes (see [[Writing (Learning) Outcomes]]) define what we are trying to teach in that module one testable skill and a set of tests, the platform uses to measure it (the test renders at the end of the module or submodule that declares the outcome).
 Each lens is rendered as a separate page. They contain the actual learning content (readings, AI-tutor chats, questions, roleplays). (see [[Writing Lenses]])
 
  Lenses draw their reading material from **articles** and **video transcripts** stored alongside. (see [[Writing Articles.md]])
