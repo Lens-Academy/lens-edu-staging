@@ -68,7 +68,9 @@ low-label:: Not confident
 high-label:: Very confident
 feedback-instructions:: Briefly suggest how learner could calibrate this confidence against evidence.
 
-%% `Question: Choice` requires `options::`; default allows one choice. Without `[x]`, it is ungraded. %%
+%% `
+# Question: Choice
+Question: Choice` requires `options::`; default allows one choice. Without `[x]`, it is ungraded. %%
 #### Question: Choice
 id:: a59ce650-c5cf-4b2b-bc13-e0686f5d2bfb
 content:: Which topic should we cover next?
