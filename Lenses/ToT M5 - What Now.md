@@ -17,11 +17,11 @@ Pick a single guardrail from Unit 4, the one that feels most doable. Practise it
 
 \## Where to learn more
 The course drew on a small set of sources. If you want to go further:
-- "Gradual Disempowerment" by Jan Kulveit and colleagues, the paper behind Unit 3 {--{"author":"Curator's AI","timestamp":1787320473769}@@(gradual-disempowerment.ai or arXiv 2501.16946)--}{++{"author":"Curator's AI","timestamp":1787320473769}@@(arXiv: https://arxiv.org/abs/2501.16946)++}
-- The 80,000 Hours problem profile on gradual disempowerment, an accessible summary of the same paper{++{"author":"Curator's AI","timestamp":1787320473769}@@ (https://www.80000hours.org/problem-profiles/)++}
-- "Artificial Intelligence and Human Legal Reasoning" by Bednar, Cleveland, Erbsen, and Schwarcz, the legal study behind Unit 3{++{"author":"Curator's AI","timestamp":1787320473769}@@ ([[../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-research-offers-a-more-complicated-answer]])++}
-- {--{"author":"Curator's AI","timestamp":1787320473769}@@The--}{++{"author":"Curator's AI","timestamp":1787320473769}@@Roxana Seifer's++} workplace survey{--{"author":"Curator's AI","timestamp":1787320473769}@@ work--} of{--{"author":"Curator's AI","timestamp":1787320473769}@@ Roxana Seifer on--} UK workers and AI{++{"author":"Curator's AI","timestamp":1787320473769}@@ (2026): [[../articles/seifer-could-cognitive-dependency-be-an-early-warning-sign-of-gradual-disempowerment]]++}
-- {--{"author":"Curator's AI","timestamp":1787320473769}@@The practical--}{++{"author":"Curator's AI","timestamp":1787320473769}@@Jaspreet Singh's++} writing {--{"author":"Curator's AI","timestamp":1787320473769}@@of Jaspreet Singh on--}{++{"author":"Curator's AI","timestamp":1787320473769}@@on keeping your judgement with++} AI {--{"author":"Curator's AI","timestamp":1787320473769}@@and critical thinking--}{++{"author":"Curator's AI","timestamp":1787320473769}@@(2026): [[../articles/singh-how-not-to-lose-your-mind-to-ai]]++}
+- "Gradual Disempowerment" by Jan Kulveit and colleagues, the paper behind Unit 3 (arXiv: https://arxiv.org/abs/2501.16946)
+- The 80,000 Hours problem profile on gradual disempowerment, an accessible summary of the same paper (https://www.80000hours.org/problem-profiles/)
+- "Artificial Intelligence and Human Legal Reasoning" by Bednar, Cleveland, Erbsen, and Schwarcz, the legal study behind Unit 3 ([[../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-research-offers-a-more-complicated-answer]])
+- Roxana Seifer's workplace survey of UK workers and AI (2026): [[../articles/seifer-could-cognitive-dependency-be-an-early-warning-sign-of-gradual-disempowerment]]
+- Jaspreet Singh's writing on keeping your judgement with AI (2026): [[../articles/singh-how-not-to-lose-your-mind-to-ai]]
 - Courses from BlueDot, 80,000 Hours, and Lens Academy that cover AI and how we think
 
 \## A parting thought
