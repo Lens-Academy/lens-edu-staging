@@ -26,7 +26,7 @@ Let's give you some basic definitions:
 
 **FLOP**: technically "**FL**oating-point **OP**eration", this just means an arithmetic step.
 
-**OOM**: **O**rder **O**f **M**agnitude, a 
+**OOM**: **O**rder **O**f **M**agnitude, a factor of ten. 10 is one order of magnitude more than 
 
 Later articles will build up the perspective he's assuming as background knowledge.
 
