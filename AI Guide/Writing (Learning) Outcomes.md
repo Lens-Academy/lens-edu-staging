@@ -77,9 +77,9 @@ Temporary move: [[../../Lens/base/Deleted bits from 'writing learning outcomes']
 
 We're not yet 100% sure how our rubric should work, but the overall grade should be a single pass or fail. We do think rubrics can sometimes contain multiple pass/fail checks to build up the whole. But it's important that each subject itself is binary as well. Like, you can say, "The answer must have 3 out of these 5 qualities," as long as each of those 5 qualities is binary as well.
 
-Beyond pass/fail tests, it's still useful for Lens Coach to provide qualitative feedback on what went well and what could've been better.{++{"author":"Elias's AI","timestamp":1787762457294}@@
+Beyond pass/fail tests, it's still useful for Lens Coach to provide qualitative feedback on what went well and what could've been better.
 
-These are two separate fields, and a test question should set both deliberately rather than leaving either to a default. `assessment-instructions::` is the grader's brief: it decides the score and the learner never sees it. `feedback-instructions::` is the tutor's brief: if present, the tutor gets the question, the answer, the score, and the private grading reason, and replies to the learner; if absent, the learner sees only the percentage. Say in `feedback-instructions::` what good feedback names, for example the strongest part of the answer and the one change that would most improve it. Keep the two apart: feedback guidance never belongs in the assessment brief, where it would become an extra condition for passing.++}
+These are two separate fields, and a test question should set both deliberately rather than leaving either to a default. `assessment-instructions::` is the grader's brief: it decides the score and the learner never sees it. `feedback-instructions::` is the tutor's brief: if present, the tutor gets the question, the answer, the score, and the private grading reason, and replies to the learner; if absent, the learner sees only the percentage. Say in `feedback-instructions::` what good feedback names, for example the strongest part of the answer and the one change that would most improve it. Keep the two apart: feedback guidance never belongs in the assessment brief, where it would become an extra condition for passing.
 
 ## Learning Outcome Files
 
@@ -102,8 +102,8 @@ id:: <uuid>
 #### Question: Open
 id:: <uuid>
 content:: <the test question>
-assessment-instructions:: <the rubric (see above)>{++{"author":"Elias's AI","timestamp":1787762459259}@@
-feedback-instructions:: <what the tutor should tell the learner afterwards; omit for score only>++}
+assessment-instructions:: <the rubric (see above)>
+feedback-instructions:: <what the tutor should tell the learner afterwards; omit for score only>
 
 {>>{"author":"Luc","timestamp":1786105824340}@@can a test have multiple questions? I think so? But then how is test pass/failure decided?<<}
 
