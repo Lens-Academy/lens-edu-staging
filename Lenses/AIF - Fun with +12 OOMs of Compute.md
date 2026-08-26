@@ -41,7 +41,7 @@ to:: think about fun things that could be built in this scenario.
 content::
 \## His exercise
 
-Let's pause the article to give you a text box. Reminder: his use of the word "fun" is a bit sarcastic - you could just as well say "dramatic", "concerning", "powerful".
+Let's pause the article to give you a text box. Reminder: his use of the word "fun" is a bit sarcastic - if you find it fun, you could just as well say "dramatic", "concerning", "powerful".
 
 Before you read, what do you expect happens when you make the kinds of AI/ML software that were used in 2016 a trillion times larger? Again, no 
 
