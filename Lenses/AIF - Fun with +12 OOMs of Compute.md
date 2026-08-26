@@ -43,7 +43,7 @@ content::
 
 Let's pause the article to give you a text box. Reminder: his use of the word "fun" is a bit sarcastic - you could just as well say "dramatic" or "powerful".
 
-Before you read, what do you expect happens when you make the kinds of AI/ML software that were used in 2016 a trillion times larger? Als
+Before you read, what do you expect happens when you make the kinds of AI/ML software that were used in 2016 a trillion times larger? If it's hard, say so - your 
 
 Set a 5 minute timer if you've got one handy. Your phone will do nicely. Think, but don't overthink.
 {>>{"author":"lauren (chrome@what)","timestamp":1787741570026}@@we should have a timer here<<}
