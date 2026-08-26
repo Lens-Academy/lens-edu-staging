@@ -26,8 +26,9 @@ content::
 > <exact quote from the text marking the stop point>
 Return here after reading.
 
-#### Question                                  ← 2. Phase 1: Recall
-content::
+#### {--{"author":"Elias's AI","timestamp":1787761660995}@@Question                                  --}{++{"author":"Elias's AI","timestamp":1787761660995}@@Question: Open                            ++}← 2. Phase 1: Recall
+{++{"author":"Elias's AI","timestamp":1787761660995}@@id:: <uuid>
+++}content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without
 looking back at the text. Anything and everything. No need to organize it. Using the
