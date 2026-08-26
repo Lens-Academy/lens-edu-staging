@@ -18,7 +18,7 @@ Most such descriptions of AI progress depend heavily on the amount of compute: t
 
 So here we'll have you read Daniel Kokotajlo's article. He's looking for what happens when you run very large programs which try to find capable behaviors in different ways.
 
-You probably won't understand everything he's saying at first, so try to guess what each thing means. In particular, he assumes you know what techniques for making AIs were common in 2016 - most of us don't have that memorized either. Follow what you can.
+You probably won't understand everything he's saying at first, so try to guess what each thing means. In particular, he assumes you know what techniques for making AIs were common in 2016 - most of us don't have that memorized either. Follow what you can. Your confusions 
 
 Let's give you some basic definitions:
 
