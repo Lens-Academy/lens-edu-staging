@@ -129,7 +129,7 @@ Text inside braces gives expected answer to assessor. Several alternatives separ
 id:: 115ecd2e-385a-4c90-8964-afc169cb822a
 content:: France's capital is {{Paris}}, while model weights are commonly updated using {{gradient descent|gradient-based optimization}}.
 assessment-instructions:: Give 50 points for each blank whose meaning is correct. Accept minor misspellings and equivalent phrasing.
-feedback-instructions:: Explain any incorrect blank without discussing unrelated material. 
+feedback-instructions:: Explain any incorrect blank without discussing unrelated material. {>>{"author":"Luc","timestamp":1787778394644}@@Isn't this high-level feedback instruction already part of the system-level feedback prompt? If so, reiterating it here throws the course developer off track.<<}
 
 %% `{{number}}` creates ungraded numeric input. Next example also shows `optional:: true`. %%
 
