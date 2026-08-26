@@ -30,7 +30,7 @@ content::
 
 Before asking you to read some articles, we'll test you on what the article contains, even though you haven't read the article yet. That's quite intentional. Research consistently shows a "pre-testing effect": testing your ability to invent an idea before encountering it seems to make it stick to your brain better. 
 
-So we'll ask you to tell us what the article contains, before you read it. If you have already read 
+So we'll ask you to tell us what the article contains, before you read it. If you have already read an article, this merely functions as retrieval pra
 
 Before nearly every reading, we will ask you to guess. What happened, what the author will argue, how big the numbers turn out to be. You will often be wrong. That is the design, not a test. Every other lesson in this course is about the field. This one is about *you*: the gap between what you guessed and what actually happened. Guessing first tells you what your model actually predicts. Later, when the reading proves you wrong, you will know exactly which part of your thinking was off.
 
