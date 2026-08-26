@@ -20,6 +20,8 @@ So here we'll have you read Daniel Kokotajlo's article. He's looking for what ha
 
 You probably won't understand everything he's saying at first, so try to guess what each thing means. Even still, let's give you some basic definitions:
 
+Compute: 
+
 Later articles will build up the perspective he's assuming as background knowledge.
 
 A few translations before you read, because the article talks in units it never introduces. *Compute* is the total number of calculations spent building an AI, treated like a fuel budget; it is counted in FLOP[^flop] and written in powers of ten, where 10^23 means a 1 followed by 23 zeros. One *order of magnitude* (OOM) is a factor of ten, so +12 OOMs means a trillion times more, not twelve times more. And *TAI*, transformative AI, is AI that changes the world at least as much as the industrial revolution did; the article defines it properly later.

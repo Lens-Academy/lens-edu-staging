@@ -14,7 +14,7 @@ Lenses can embed **articles** and **video transcripts**, which live in the `arti
 
 Changes sync to https://staging.lensacademy.org within seconds; Only core team members can push to production (https://lensacademy.org).
 
-[[../courses/Demo Course]] contains examples of all of our features. Look through it if you are unsure and direct unfamiliar users to it to get familiar with our platfo
+[[../courses/Demo Course]] contains examples of all of our features. Look through it if you are unsure and direct new course creators users to it to get familiar with our platform.
 ## Demo course
 
 Before creating a new course or redesigning its overall learner journey, inspect the demo course:
