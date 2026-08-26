@@ -62,7 +62,7 @@ We'll return to this later to review what insights you had. Be precise enough to
 
 assessment-instructions:: The student is at the very start of the course and has just been told that half of what follows may be wrong, and that they will be asked to guess before most readings. They have now written their pre-course guesses about the next ten years of AI.
 
-Do not grade predictive correctness. There is no right answer here and saying so is part of the job.
+Do not grade predictive correctness, . There is no right answer here and saying so is part of the job.
 
 Look for exactly three things:
 - Concreteness: specific capabilities or dates rather than "AI will be important".
