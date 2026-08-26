@@ -83,13 +83,13 @@ to:: Maybe we'll eventually find something intelligent, even if it lacks the mem
 content::
 \## The diff
 
-Consider his five, and consider your answer from above. Answer two to four of these:
+Consider his five, and consider your answer from above. Answer three to five of these:
 
 - What's similar?
 - What's different?
 - What techniques of estimation did he use that you didn't?
 - Where do you think he might still be wrong?
-- What confused you
+- What confused you, and why?
 
 assessment-instructions:: The student has their own list and has now read the author's five answers.
 
