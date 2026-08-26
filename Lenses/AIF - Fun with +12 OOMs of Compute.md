@@ -84,7 +84,9 @@ content::
 \## The diff
 
 Consider his five, and consider your answer from above. Answer three to five of these:
-- What's similar? What's different? Were your assumptions similar or different from his? What techniques of thinking did he use that you didn't? Where do you think he might still be wrong?
+- What's similar?
+- What's different?
+- Were your assumptions? What techniques of thinking did he use that you didn't? Where do you think he might still be wrong?
 
 [^ajeya]: Ajeya Cotra, the researcher whose compute-requirements report the article argues with; the article's final section introduces her model properly.
 
