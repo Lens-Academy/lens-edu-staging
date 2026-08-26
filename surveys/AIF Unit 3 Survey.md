@@ -4,7 +4,7 @@ title: Week 3 Post-Session Reflection
 ---
 
 #### Text
-content:: {--{"author":"Turner's AI","timestamp":1787722018243}@@Thanks for showing up. A few minutes of reflection on Unit 3. Submitting this counts towards your certificate at the end of the course.--}{++{"author":"Turner's AI","timestamp":1787722018243}@@Thanks for showing up. A few minutes of reflection on Unit 3. Submitting this counts towards your certificate at the end of the course.
+content:: {--{"author":"Turner's AI","timestamp":1787722137996}@@Thanks for showing up. A few minutes of reflection on Unit 3. Submitting this counts towards your certificate at the end of the course.--}{++{"author":"Turner's AI","timestamp":1787722137996}@@Thanks for showing up. A few minutes of reflection on Unit 3. Submitting this counts towards your certificate at the end of the course.
 
 #### Text
 content:: **Tell us how the course is going**
@@ -35,7 +35,9 @@ Who to pick, roughly:
 Pick whoever fits your question. If you are not sure, pick anyone. We talk to each other.
 
 #### Text
-content:: Once you have booked, send that person a quick DM on Discord to say hello and tell them whether it is a user interview or career guidance. It helps us come prepared.++}
+content:: **If you want one of these, book it now before you carry on.** Anything you fill in below is only saved when you press submit at the end.
+
+Once you have booked, send that person a quick DM on Discord to say hello and tell them whether it is a user interview or career guidance. It helps us come prepared.++}
 
 #### Choice
 key:: buddy_texted
