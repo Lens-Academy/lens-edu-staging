@@ -22,7 +22,7 @@ Later articles will build up the perspective he's assuming as background knowled
 
 A few translations before you read, because the article talks in units it never introduces. *Compute* is the total number of calculations spent building an AI, treated like a fuel budget; it is counted in FLOP[^flop] and written in powers of ten, where 10^23 means a 1 followed by 23 zeros. One *order of magnitude* (OOM) is a factor of ten, so +12 OOMs means a trillion times more, not twelve times more. And *TAI*, transformative AI, is AI that changes the world at least as much as the industrial revolution did; the article defines it properly later.
 
-[^flop]: One floating-point operation: a single arithmetic step, one multiply or one add, done by a computer. Totals like 10^23 FLOP are the whole computing bill for training an AI system.
+[^flop]: One floating-point operation: a single arithmetic step, one multiply or one addition, done by a computer. Totals like 10^23 FLOP are the whole computing bill for training an AI system.
 
 #### Article
 source:: [[../articles/kokotajlo-fun-with-12-ooms-of-compute]]
