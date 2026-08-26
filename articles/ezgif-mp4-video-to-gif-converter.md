@@ -1,4 +1,4 @@
----
+{--{"author":"Plex's AI","timestamp":1787761112976}@@---
 title: "MP4 video to GIF converter"
 author:
   - "Ezgif"
@@ -17,4 +17,4 @@ Add discussion note here:
 
 ...
 
-%%
+%%--}
