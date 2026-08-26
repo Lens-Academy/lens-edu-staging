@@ -1,4 +1,4 @@
-{++{"author":"Turner's AI","timestamp":1787721270075}@@---
+{++{"author":"Turner's AI","timestamp":1787721980687}@@---
 id: '373a71b9-f8fc-4cb6-9456-49c54af4b66d'
 title: Post-Session Reflection
 ---
@@ -17,13 +17,6 @@ Availability is limited but try to pick whoever owns the thing you want to talk 
 * **Elias, on the platform and course quality.** The website and the app, if something is broken or confusing on screen. Also whether the course itself works: the exercises, the tests, and how it lands week to week. → [book with Elias](https://zcal.co/i/VorDPawu)
 * **Turner, on operations.** Everything around the course: enrollment, scheduling, groups, meetings, reminders, Discord and calendar invites. → [book with Turner](https://zcal.co/twhalle11/20min)
 * **Luc, on the course as a whole.** Whether we are teaching the right things, where this is all going, and anything that does not fit above. → [book with Luc](https://calendar.app.google/6AW1EZDhCKXSJLe38)
-
-#### Choice
-key:: user_interview_interest
-content:: Would you like to participate in a user interview?
-options::
-- Yes
-- No
 
 #### Text
 content:: **Book a 1:1 on where you go next**
