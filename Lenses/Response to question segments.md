@@ -103,7 +103,7 @@ id:: cb39e8f1-4477-4b66-b016-37c99c5ff753
 content:: Which topics interest you?
 options::
 - Forecasting
-- Governance
+- Governance CORRECT
 - Technical safety
 multi:: true
 
