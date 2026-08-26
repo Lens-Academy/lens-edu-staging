@@ -52,7 +52,7 @@ max-time:: 8:00
 
 assessment-instructions:: The student is mid-exercise. They have read the hypothetical but NOT the author's answers, which come next in this lens.
 
-Do not supply any of the author's five answers (OmegaStar, Amp(GPT-7), Crystal Nights, Skunkworks, Neuromorph). Leaking them destroys the exercise.
+Do not supply any of the author's five answers (OmegaStar, Amp(GPT-7), Crystal Nights, Skunkworks, Neuromorph).
 
 This is their attempt, not a test. Use no grading language.
 
