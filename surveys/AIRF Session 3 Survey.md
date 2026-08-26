@@ -9,7 +9,7 @@ content:: Thanks for showing up. This is your post-session reflection, about 3 m
 #### Text
 content:: **Tell us how the course is going**
 
-We are booking short calls with participants to hear what is and is not working. We would rather hear the awkward version than the polite one.
+We are booking short calls with participants to hear what is and is not working.
 
 Pick whoever owns the thing you want to talk about. Lauren and Elias overlap on the course, so if you are unsure between them, either is fine.
 
