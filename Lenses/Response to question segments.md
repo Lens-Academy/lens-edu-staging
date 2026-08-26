@@ -90,9 +90,9 @@ Next example grades one correct option. %%
 id:: 4e93c96d-a0a8-4fa5-9c29-ea360fd283fe
 content:: Which process updates model weights during training?
 options::
-- Data collection
+- [ ] Data collection
 - [x] Gradient descent
-- Deployment monitoring
+- [ ] Deployment monitoring
 shuffle:: true
 feedback-instructions:: Explain misconception behind learner choice without adding unrelated detail.
 
