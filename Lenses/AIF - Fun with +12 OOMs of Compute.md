@@ -16,7 +16,7 @@ Let's start in the middle. Let's say you've already got a model of how something
 
 Most such descriptions of AI progress depend on the amount of "compute": the amount of math was done by the computer running the software which makes the AI.
 
-So here we'll have you read 
+So here we'll have you read Daniel Kokotajlo's article, 
 
 The fastest way to find out what your model of AI progress is made of is to remove its favorite bottleneck and watch what it predicts. Daniel Kokotajlo's question, in his words: "Can we get TAI just by throwing more compute at the problem?" His method is a magic wand: grant 2016's researchers twelve extra orders of magnitude of compute, and ask what gets built. This is not a forecast. It is a probe, and the thing it probes is you: what do you believe compute buys? He wrote the exercise into the article himself. You will struggle a little here; that is the point.
 
