@@ -10,11 +10,10 @@ authors:
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/00 - Introduction - Hard Calls and Easy Calls]]"
 ---
-#### {--{"author":"Elias's AI","timestamp":1787667235713}@@Question--}{++{"author":"Elias's AI","timestamp":1787667235713}@@Question: Open
-id:: b6e4bc48-e0c9-4bbb-b498-05ff9c784f94++}
+#### Question
 content:: Before reading the Introduction: What kinds of things about the future do you feel fairly confident predicting? What makes a prediction feel like a "sure thing" versus a "coin flip"? Take a moment to jot down your answer before reading. There's no right or wrong answers to priming questions, we just want you to gather your thoughts before you're exposed to the ideas in the book. The authors have a specific framework for this, which you'll read next.
 
-{--{"author":"Elias's AI","timestamp":1787668341818}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787668341818}@@feedback-instructions::++}
+assessment-instructions::
 The student is about to read the Introduction to "If Anyone Builds It, Everyone Dies."
 
 They just answered: "What kinds of things about the future do you feel confident predicting? What makes a prediction feel like a sure thing versus a coin flip?"

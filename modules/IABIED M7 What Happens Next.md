@@ -29,7 +29,7 @@ Over this course, we've built up a chain of reasoning: intelligence is uniquely 
 
 First the argument, then your plan.
 
-#### {--{"author":"Elias's AI","timestamp":1787672810593}@@Question--}{++{"author":"Elias's AI","timestamp":1787672810593}@@Question++}
+#### Question
 content::
 \## The whole argument
 Present the book's complete argument in your own words, as if explaining it to a smart friend who has never heard of it. Speech-to-text works well here; a few minutes of talking is plenty. Don't look anything up first: the gaps you hit are useful information, and you'll want them found now rather than mid-conversation with a real person.

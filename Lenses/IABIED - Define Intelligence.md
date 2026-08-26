@@ -20,13 +20,12 @@ Return here after reading.
 
 ---
 
-#### {--{"author":"Elias's AI","timestamp":1787667262383}@@Question--}{++{"author":"Elias's AI","timestamp":1787667262383}@@Question: Open
-id:: 8b48c478-5f17-4f1a-b0ad-465fb3c040c9++}
+#### Question
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-{--{"author":"Elias's AI","timestamp":1787672221823}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672221823}@@feedback-instructions::++} The student has just read the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies."
+assessment-instructions:: The student has just read the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Define intelligence as prediction plus steering, explain why generality drives its power, and distinguish predictive competence from the goals steering pursues.
 
@@ -67,13 +66,12 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### {--{"author":"Elias's AI","timestamp":1787667259977}@@Question--}{++{"author":"Elias's AI","timestamp":1787667259977}@@Question: Open
-id:: 907afe3c-b238-4ea5-9421-8231c73d2e62++}
+#### Question
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-{--{"author":"Elias's AI","timestamp":1787672228697}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672228697}@@feedback-instructions::++} The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+assessment-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 
@@ -102,14 +100,14 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question; that is Phase 3's job.
 
-#### {--{"author":"Elias's AI","timestamp":1787673485171}@@Question--}{++{"author":"Elias's AI","timestamp":1787673485171}@@Question++}
+#### Question
 content::
 \## Phase 3: Learning Question
 A pocket calculator out-predicts and out-steers any human at arithmetic. A house cat cannot do arithmetic at all, but it navigates a physical and social world the calculator is blind to. By the chapter's definition, which one has the more general intelligence, and what exactly are you pointing at?
 
 Now imagine two equally capable, general minds predict the consequences of their options equally well but choose different destinations. Does that disagreement show that one is less intelligent? Why or why not?
 
-{--{"author":"Elias's AI","timestamp":1787673481584}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787673481584}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question is a deliberate wedge, not the test question. The calculator and cat require the student to apply prediction, steering, and generality rather than recite definitions. The two general minds then isolate the distinction between becoming better at prediction and choosing what to steer toward.
 
