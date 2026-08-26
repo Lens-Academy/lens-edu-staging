@@ -102,7 +102,8 @@ id:: <uuid>
 #### Question: Open
 id:: <uuid>
 content:: <the test question>
-assessment-instructions:: <the rubric (see above)>
+assessment-instructions:: <the rubric (see above)>{++{"author":"Elias's AI","timestamp":1787762459259}@@
+feedback-instructions:: <what the tutor should tell the learner afterwards; omit for score only>++}
 
 {>>{"author":"Luc","timestamp":1786105824340}@@can a test have multiple questions? I think so? But then how is test pass/failure decided?<<}
 
