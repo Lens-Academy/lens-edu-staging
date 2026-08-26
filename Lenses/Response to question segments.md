@@ -27,7 +27,7 @@ content:: What is your strongest objection?
 - `max-chars:: 500`: limit length. Defaults to no limit.
 - `placeholder:: ...`: empty-input hint. Defaults to none.{>>{"author":"Luc","timestamp":1787775945283}@@I don't understand this one.<<}{>>{"author":"Luc","timestamp":1787775956874}@@aah I think I understand, okay.<<}
 - `max-time:: 3:00`: timer in `M:SS`. Defaults to none.{>>{"author":"Luc","timestamp":1787777490889}@@Has this actually been implemented by now? I now in the past it wasn't.<<}
-- `enforce-voice:: true`: require speech instead of typing. Defaults to `false`.
+- `enforce-voice:: true`: require speech instead of typing. Defaults to `false`.{>>{"author":"Luc","timestamp":1787777517388}@@has this actually been implemented by now?<<}
 - `assessment-instructions:: ...`: extra instructions appended to base assessor prompt. Omit for ungraded `Question: Open`.
 - `feedback-instructions:: ...`: learner-facing AI feedback. Omit for none.
 
