@@ -71,9 +71,9 @@ All three share a house style: state who the student is and what they just did; 
 
 Before a heavy reading, a tiny lens primes the intuition the chapter will challenge: one `#### {--{"author":"Elias's AI","timestamp":1787761666787}@@Question`,--}{++{"author":"Elias's AI","timestamp":1787761666787}@@Question: Open`,++} no reading. Its brief is deliberately minimal: acknowledge in 1–2 sentences, **do not** preview the chapter's argument, close by sending them to the reading. Named `<Topic> - PQ`, listed in the module as the `# Lens:` immediately before the main reading lens. See `Lens Edu/Lenses/IABIED - Indifference Not Malice - PQ.md`.
 
-## The 6 segment types
+## The {--{"author":"Elias's AI","timestamp":1787761677181}@@6 --}segment types
 
-Segments are the `####` blocks of the lens body, and of a Learning Outcome's `## Test:` (Question and Roleplay only there).
+Segments are the `####` blocks of the lens body, and of a Learning Outcome's `## Test:` {--{"author":"Elias's AI","timestamp":1787761677181}@@(Question--}{++{"author":"Elias's AI","timestamp":1787761677181}@@(gradable response segments++} and Roleplay only there).
 
 Fields per segment:
 
@@ -81,10 +81,16 @@ Fields per segment:
 - `#### Chat`: required `instructions`. Optional: `hidePreviousContentFromUser`, `hidePreviousContentFromTutor`.
 - `#### Article`: none required. Optional: `source`, `from`, `to`, `optional`.
 - `#### Video`: none required. Optional: `source`, `from`, `to`, `optional`.
-- `#### Question`: required `content`. Optional: `assessment-instructions`, `max-time`, `max-chars`, `enforce-voice`, `feedback`, `optional`.
+- `#### {--{"author":"Elias's AI","timestamp":1787761677181}@@Question`: --}{++{"author":"Elias's AI","timestamp":1787761677181}@@Question: Open`: ++}required {++{"author":"Elias's AI","timestamp":1787761677181}@@`id`, ++}`content`. Optional: `assessment-instructions`, {++{"author":"Elias's AI","timestamp":1787761677181}@@`feedback-instructions`, ++}`max-time`, `max-chars`, {++{"author":"Elias's AI","timestamp":1787761677181}@@`placeholder`, ++}`enforce-voice`, {--{"author":"Elias's AI","timestamp":1787761677181}@@`feedback`, --}{++{"author":"Elias's AI","timestamp":1787761677181}@@`optional`.
+- `#### Question: Rating`: required `id`, `content`. Optional: `scale` (2 to 10, default 5), `low-label`, `high-label`, `feedback-instructions`, `optional`. Never graded.
+- `#### Question: Choice`: required `id`, `content`, `options` (list; `- [x]` marks a correct option and makes it graded). Optional: `multi`, `shuffle`, `feedback-instructions`, `optional`.
+- `#### Question: FillBlank`: required `id`, `content` with `{{expected}}`, `{{alt1|alt2}}`, `{{blank}}`, `{{number}}`, or `{{number 42}}` blanks. Optional: `assessment-instructions`, `feedback-instructions`, `optional`.
+- `#### Question: Ranking`: required `id`, `content`, `items` (list in intended order, shown shuffled). Optional: `assessment-instructions` (presence = graded), `feedback-instructions`, ++}`optional`.
 - `#### Roleplay`: required `id`, `content`, `ai-instructions`. Optional: `opening-message`, `assessment-instructions`, `user-customizable`, `feedback`, `optional`.
 
-Defaults: `optional` false; `feedback` true on questions, false on roleplays; `hidePreviousContent*` false.
+Defaults: `optional` {--{"author":"Elias's AI","timestamp":1787761677181}@@false; `feedback` true on questions, --}{++{"author":"Elias's AI","timestamp":1787761677181}@@false (every response segment must be answered before the lens can be completed); no tutor feedback unless `feedback-instructions::` is present; `feedback` ++}false on roleplays; `hidePreviousContent*` false.{++{"author":"Elias's AI","timestamp":1787761677181}@@
+
+A bare `#### Question` (no subtype, no `id::`) is the legacy form. Do not write it in new or edited content; convert it to `#### Question: Open` with a fresh `id::` when you touch a lens. The full field reference with live examples is [[../Lenses/Response to question segments]].++}
 
 **Text**: prose shown to the learner. `content::` is markdown; escape any headings (`\##`).
 
