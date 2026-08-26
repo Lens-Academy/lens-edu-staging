@@ -15,7 +15,7 @@ Availability is limited but try to pick whoever owns the thing you want to talk 
 
 * **Lauren, on what we teach.** The curriculum itself: the readings, the arguments, and how Lens Tutor behaves. She writes the curriculum and tunes the Coach. → [book with Lauren](https://calendar.app.google/KWsXPAQTp1NKbLkv9)
 * **Elias, on the platform and course quality.** The website and the app, if something is broken or confusing on screen. Also whether the course itself works: the exercises, the tests, and how it lands week to week. → [book with Elias](https://zcal.co/i/VorDPawu)
-* **Turner, on operations.** Everything around the course: enrolment, scheduling, groups, meetings, reminders, Discord and calendar invites. → [book with Turner](https://zcal.co/twhalle11/20min)
+* **Turner, on operations.** Everything around the course: enrollment, scheduling, groups, meetings, reminders, Discord and calendar invites. → [book with Turner](https://zcal.co/twhalle11/20min)
 * **Luc, on the course as a whole.** Whether we are teaching the right things, where this is all going, and anything that does not fit above. → [book with Luc](https://calendar.app.google/6AW1EZDhCKXSJLe38)
 
 #### Choice
