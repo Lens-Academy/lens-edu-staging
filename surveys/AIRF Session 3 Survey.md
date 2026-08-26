@@ -1,4 +1,4 @@
-{++{"author":"Turner's AI","timestamp":1787721980687}@@---
+{++{"author":"Turner's AI","timestamp":1787721989814}@@---
 id: '373a71b9-f8fc-4cb6-9456-49c54af4b66d'
 title: Post-Session Reflection
 ---
@@ -33,13 +33,6 @@ Who to pick, roughly:
 * **Turner, on operations, startups, and the non-technical routes.** Program and ops roles, building a startup, creating and using AI tools, and working out where a generalist or commercial background actually fits in this field. → [book with Turner](https://zcal.co/twhalle11/1on1)
 
 Pick whoever fits your question. If you are not sure, pick anyone. We talk to each other.
-
-#### Choice
-key:: career_chat_interest
-content:: Would you like a 1:1 career discussion?
-options::
-- Yes
-- No
 
 #### Text
 content:: Once you have booked, send that person a quick DM on Discord to say hello and tell them whether it is a user interview or career guidance. It helps us come prepared.
