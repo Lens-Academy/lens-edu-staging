@@ -52,7 +52,7 @@ The course runs five units. Your cohort moves through them together, one at a ti
 content::
 \## Your day-zero model
 
-Describe the moving parts in your current 
+Describe the moving parts 
 
 Before you read anything else, write down your current model of the next ten years of AI. Five to ten sentences. What gets built, what it can do, what changes in the world. Don't research first, and don't hedge yourself into fog; write what you actually expect, with dates where you dare. Nobody will grade this for being right. This is your day-zero snapshot: the rest of the course is a series of revisions to it, and at the end you will want to see where you started.
 
