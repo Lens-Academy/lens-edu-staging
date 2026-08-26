@@ -34,8 +34,6 @@ So we'll ask you to tell us what the article contains, before you read it. If yo
 
 Pre-tests aren't graded.
 
-Before nearly every reading, we will ask you to guess. What happened, what the author will argue, how big the numbers turn out to be. You will often be wrong. That is the design, not a test. Every other lesson in this course is about the field. This one is about *you*: the gap between what you guessed and what actually happened. Guessing first tells you what your model actually predicts. Later, when the reading proves you wrong, you will know exactly which part of your thinking was off.
-
 #### Text
 content::
 \## What this costs, and who else is here
