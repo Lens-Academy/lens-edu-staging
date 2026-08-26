@@ -83,7 +83,8 @@ to:: Maybe we'll eventually find something intelligent, even if it lacks the mem
 content::
 \## The diff
 
-Consider his five, and consider your answer from above.
+Consider his five, and consider your answer from above. What
+
 Put your list next to his five: OmegaStar, Amp(GPT-7), Crystal Nights, Skunkworks, Neuromorph. Which of his five is close to something on your list, even if not identical? Which one surprised you most? Name the assumption about compute you were making without noticing it. Kokotajlo hit a gap like this himself, inside Crystal Nights: Ajeya's estimate[^ajeya] for that path was 10^41 FLOP but the fairy only gave him 10^35, so he had to argue across the missing six orders of magnitude. Check your own list for the same thing: a place where you needed more compute than you actually had, and did not say so.
 
 [^ajeya]: Ajeya Cotra, the researcher whose compute-requirements report the article argues with; the article's final section introduces her model properly.
