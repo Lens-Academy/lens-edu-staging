@@ -23,7 +23,7 @@ id:: 3e1a5838-95df-4d05-a88a-1b4ca868905f
 content:: What is your strongest objection?
 
 %% `Question: Open` options:
-- `optional:: true`: allow skipping. Defaults to `false`.
+- `optional:: true`: allow skipping. Defaults to `false`{++{"author":"Luc","timestamp":1787775869590}@@, in which case ++}.
 - `max-chars:: 500`: limit length. Defaults to no limit.
 - `placeholder:: ...`: empty-input hint. Defaults to none.
 - `max-time:: 3:00`: timer in `M:SS`. Defaults to none.
