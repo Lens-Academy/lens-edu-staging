@@ -10,7 +10,7 @@ authors:
 ---
 #### Text
 content::
-\## Remove a bottleneck and see what your model predicts
+\## Remove a bottleneck and see what a model predicts
 
 Let's start in the middle. Let's say you've already got a model of how something moves: a description of what leads to what, with numbers given for how much each step leads to another. Usually, there will be some bottleneck, some part of the process that the other steps wait for.
 
