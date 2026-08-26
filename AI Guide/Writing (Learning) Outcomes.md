@@ -97,7 +97,8 @@ learning-outcome: <the statement>
 ---
 ## Test:
 id:: <uuid>
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787761684303}@@Question--}{++{"author":"Elias's AI","timestamp":1787761684303}@@Question: Open
+id:: <uuid>++}
 content:: <the test question>
 assessment-instructions:: <the rubric (see above)>
 
@@ -112,7 +113,7 @@ notes:: <optional author note about this suggestion>
 source:: [[../Lenses/My Topic]]
 ```
 
-- A Test may only contain question/roleplay segments; anything else is flagged and would be silently dropped. Their field syntax: `Lens Edu/AI Guide/Writing Lenses.md` ("The 6 segment types").
+- A Test may only contain {--{"author":"Elias's AI","timestamp":1787761687107}@@question/roleplay segments;--}{++{"author":"Elias's AI","timestamp":1787761687107}@@gradable response segments and roleplays: `Question: Open` with `assessment-instructions::`, `Question: Choice` with at least one `[x]`, `Question: FillBlank` with at least one graded blank, `Question: Ranking` with `assessment-instructions::`, or `Roleplay`. `Question: Rating` and ungraded variants are validation errors in a test;++} anything else is flagged and would be silently dropped. {--{"author":"Elias's AI","timestamp":1787761687107}@@Their field--}{++{"author":"Elias's AI","timestamp":1787761687107}@@Never write a bare `#### Question`. Field++} syntax: `Lens Edu/AI Guide/Writing Lenses.md` ("The{--{"author":"Elias's AI","timestamp":1787761687107}@@ 6--} segment types").
 - Suggested lenses are **author-facing candidates only**: the platform doesn't import them; the module lists its teaching lenses explicitly, before the `# Learning Outcome:` ref. Outcome files without suggested lenses are valid too.
 - Skill-tree frontmatter is rolling out per `Lens/Learning Outcome Domain and Stage Proposal.md`: `domain:` (one of the 15 domains in `Lens/AI Safety Skill Taxonomy - Canonical Working Inventory.md`), `stage:` (Beginner, Intermediate, or Advanced), `requires:` (sparse; only genuine prerequisites, since they gate locked status). Set them on new outcomes.
 

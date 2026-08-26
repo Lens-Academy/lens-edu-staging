@@ -102,7 +102,9 @@ A bare `#### Question` (no subtype, no `id::`) is the legacy form. Do not write 
 
 **Source inheritance:** the first Article (or Video) segment in a lens must have `source::`; later segments of the same type inherit the previous source, so a multi-excerpt reading is several `#### Article` blocks with only `from::`/`to::`.
 
-**Question**: learner writes/dictates an answer, the AI responds per `assessment-instructions::`. `max-time:: 3:00` (or `none`), `max-chars`, `enforce-voice:: true` for spoken answers, `feedback:: false` to record without AI response.
+{--{"author":"Elias's AI","timestamp":1787761682107}@@**Question**:--}{++{"author":"Elias's AI","timestamp":1787761682107}@@**Question: Open**:++} learner writes/dictates an {--{"author":"Elias's AI","timestamp":1787761682107}@@answer, --}{++{"author":"Elias's AI","timestamp":1787761682107}@@answer. `assessment-instructions::` makes it graded (assessor returns a 0 to 100 score; learner sees ++}the {--{"author":"Elias's AI","timestamp":1787761682107}@@AI responds per `assessment-instructions::`. `max-time:: 3:00` (or `none`),--}{++{"author":"Elias's AI","timestamp":1787761682107}@@percentage). `feedback-instructions::` opens a tutor feedback conversation on the answer; omit it to record without AI response. `max-time:: 3:00`,++} `max-chars`, {++{"author":"Elias's AI","timestamp":1787761682107}@@`placeholder`, ++}`enforce-voice:: true` for spoken {--{"author":"Elias's AI","timestamp":1787761682107}@@answers, `feedback:: false` to record without AI response.--}{++{"author":"Elias's AI","timestamp":1787761682107}@@answers.
+
+**Question: Rating / Choice / FillBlank / Ranking**: same shape (`id::`, `content::`, `optional::`, `feedback-instructions::`) with their own fields listed above. Use Rating for self-report (confidence, interest), Choice for recognition checks and preferences, FillBlank for precise recall inside a sentence or numeric estimates, Ranking for chronology, procedures, and priorities.++}
 
 **Roleplay**: learner talks with a persona defined in `ai-instructions::`; `content::` sets the scene for the learner, `opening-message::` is the persona's first line.
 
