@@ -43,6 +43,7 @@ content::
 Units are targeted to take about three hours, mostly reading, with some time spent on writing your answers. But people vary a lot on how long it takes them to finish, so don't worry about it if it takes you longer.
 
 
+
 You are not doing this alone. You are in a cohort, and it meets live to work through the unit together. Bring your answers to that meeting, especially the ones you were least sure of, because a disagreement is the part that does not survive being read silently.
 
 The course runs five units. Your cohort moves through them together, one at a time. What you write here gets asked about later, so write it like you mean it.
