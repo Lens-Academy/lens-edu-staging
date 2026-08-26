@@ -58,7 +58,7 @@ Some suggested points to hit: What are the moving parts? What might get built? W
 
 Don't think at great length; this is a pre-test, so just try to sketch what seems intuitively possible right now. There's no need to research the possibilities before answering, that's what the rest of the course is for.
 
-We'll return to this later to review what insights
+We'll return to this later to review what insights you had. Expect to b
 
 Before you read anything else, write down your current model of the next ten years of AI. Five to ten sentences. What gets built, what it can do, what changes in the world. Don't research first, and don't hedge yourself into fog; write what you actually expect, with dates where you dare. Nobody will grade this for being right. This is your day-zero snapshot: the rest of the course is a series of revisions to it, and at the end you will want to see where you started.
 
