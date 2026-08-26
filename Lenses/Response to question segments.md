@@ -16,6 +16,7 @@ Graded `Question: Open` and `Question: FillBlank` use same assessor flow. Platfo
 
 `feedback-instructions::` is optional. If present, normal tutor receives question context, learner response, score, private assessment reason, and authored feedback instructions, then responds as ordinary tutor chat. If omitted, no tutor feedback.
 
+# Question: Open
 `Question: Open` collects typed or dictated text. Smallest version follows. %%
 
 #### Question: Open
