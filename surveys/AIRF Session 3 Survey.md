@@ -37,7 +37,7 @@ Who to pick, roughly:
 * **Lauren, on technical alignment and research direction.** What to read next, whether a research direction is worth your time, how research taste actually gets built. She cofounded an AI capabilities startup before moving into safety, so she is the person to ask if you are weighing that switch yourself. → [book with Lauren](https://calendar.app.google/KWsXPAQTp1NKbLkv9)
 * **Luc, on starting things.** Founding an organization or a project, building a nonprofit, and moving into AI safety from a different cause area. He spent years running a renewable-energy nonprofit, which is still going, before he started Lens. → [book with Luc](https://calendar.app.google/6AW1EZDhCKXSJLe38)
 * **Elias, on getting in early.** Breaking in without a track record, building things that show what you can do rather than telling people, and working with AI tools to move faster. He came in straight from his degree, having pivoted from philosophy. → [book with Elias](https://zcal.co/i/K42dvNCn)
-* **Turner, on operations, startups, and the non-technical routes.** Program and ops roles, using automations, and working out where a generalist or commercial background actually fits in this field. → [book with Turner](https://zcal.co/twhalle11/1on1)
+* **Turner, on operations, startups, and the non-technical routes.** Program and ops roles,  using automations, and working out where a generalist or commercial background actually fits in this field. → [book with Turner](https://zcal.co/twhalle11/1on1)
 
 Pick whoever fits your question. If you are not sure, pick anyone. We talk to each other.
 
