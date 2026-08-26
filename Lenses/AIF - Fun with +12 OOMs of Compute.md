@@ -30,7 +30,7 @@ Let's give you some basic definitions:
 
 **TAI**: **T**ransformative **A**rtificial **I**ntelligence, which here refers to any piece of software that changes the world at least as much as the industrial revolution did.
 
-Later articles will build up more of the technical details. Once again, the purpose of reading things out of order is to confuse you enough that your intuition gets curious.
+Later articles will build up more of the technical details. Once again, the purpose of reading things out of order is to confuse you enough that your subconscious knows what to be curious.
 
 #### Article
 source:: [[../articles/kokotajlo-fun-with-12-ooms-of-compute]]
