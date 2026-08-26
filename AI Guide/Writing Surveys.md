@@ -128,7 +128,7 @@ survey:: [[../surveys/AIF Post-Meeting Survey]]
 
 ## Validation
 
-Run the content validator after writing. These are hard errors: missing/unquoted `id`; a missing or malformed `key`; duplicate keys; an answerable segment without `content::`; fewer than 2 options or checkbox syntax in `options::`; `scale::` outside 2–10; a survey with no answerable segments; a title after a segment header (`#### Rating: Mood` — remove the title); a `survey::` link pointing at a missing or broken file; a production course linking a `wip`-tagged survey.
+Run the content validator after writing. These are hard errors: missing/unquoted {++{"author":"Elias's AI","timestamp":1787761725199}@@frontmatter ++}`id`; a {--{"author":"Elias's AI","timestamp":1787761725199}@@missing or malformed `key`;--}{++{"author":"Elias's AI","timestamp":1787761725199}@@response segment without `id::`;++} duplicate {--{"author":"Elias's AI","timestamp":1787761725199}@@keys; --}{++{"author":"Elias's AI","timestamp":1787761725199}@@segment ids (or duplicate legacy keys); ++}an answerable segment without `content::`; fewer than 2 options or {--{"author":"Elias's AI","timestamp":1787761725199}@@checkbox--}{++{"author":"Elias's AI","timestamp":1787761725199}@@`[x]`++} syntax in `options::`; `scale::` outside 2–10; {++{"author":"Elias's AI","timestamp":1787761725199}@@`assessment-instructions::` in a survey; ++}a survey with no answerable segments;{--{"author":"Elias's AI","timestamp":1787761725199}@@ a title after a segment header (`#### Rating: Mood` — remove the title);--} a `survey::` link pointing at a missing or broken file; a production course linking a `wip`-tagged survey.
 
 ## Complete example
 
@@ -141,13 +141,13 @@ title: Post-Meeting Survey
 #### Text
 content:: Thanks for showing up! This is your post-session reflection. It takes a few minutes — and submitting it counts your attendance for this meeting.
 
-#### Rating
-key:: motivation
+#### {++{"author":"Elias's AI","timestamp":1787761730638}@@Question: ++}Rating
+{--{"author":"Elias's AI","timestamp":1787761730638}@@key:: motivation--}{++{"author":"Elias's AI","timestamp":1787761730638}@@id:: 3f0c8a2e-6b4d-4c1e-9a7f-2d5e8b1c4a6f++}
 content:: How motivated are you right now to take action on AI safety?
 scale:: 5
 low-label:: Not at all
-high-label:: A lot
-required:: true
+high-label:: A lot{--{"author":"Elias's AI","timestamp":1787761730638}@@
+required:: true--}
 
 #### Choice
 key:: buddy_texted
@@ -156,13 +156,14 @@ options::
 - Yes
 - No
 
-#### Question
-key:: worked_well
+#### {--{"author":"Elias's AI","timestamp":1787761730638}@@Question--}{++{"author":"Elias's AI","timestamp":1787761730638}@@Question: Open++}
+{--{"author":"Elias's AI","timestamp":1787761730638}@@key:: worked_well--}{++{"author":"Elias's AI","timestamp":1787761730638}@@id:: c4e2b7d1-9f3a-4e6c-b8d5-6a2f1c9e4b7d++}
 content:: What's one thing that worked well today?
 
-#### Question
-key:: could_improve
-content:: What's one thing the course, website, AI tutor, or meetings could do better?
+#### {--{"author":"Elias's AI","timestamp":1787761730638}@@Question--}{++{"author":"Elias's AI","timestamp":1787761730638}@@Question: Open++}
+{--{"author":"Elias's AI","timestamp":1787761730638}@@key:: could_improve--}{++{"author":"Elias's AI","timestamp":1787761730638}@@id:: 9b6e4d2a-5c8f-4a3e-b1d7-8e2c5f9a4b6d++}
+content:: What's one thing the course, website, AI tutor, or meetings could do better?{++{"author":"Elias's AI","timestamp":1787761730638}@@
+optional:: true++}
 
 #### Choice
 key:: facilitation_interest
