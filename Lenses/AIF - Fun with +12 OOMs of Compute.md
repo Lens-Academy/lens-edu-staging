@@ -12,7 +12,7 @@ authors:
 content::
 \## Remove a bottleneck and see what your model predicts
 
-Let's start in the middle. If you've already got a model of something - a description of what leads to what, with numbers given for how much one thing leads to another - then there will typically be some bottleneck: s
+Let's start in the middle. If you've already got a model of something - a description of what leads to what, with numbers given for how much one thing leads to another - then there will typically be some bottleneck: a part of the thing b
 
 The fastest way to find out what your model of AI progress is made of is to remove its favorite bottleneck and watch what it predicts. Daniel Kokotajlo's question, in his words: "Can we get TAI just by throwing more compute at the problem?" His method is a magic wand: grant 2016's researchers twelve extra orders of magnitude of compute, and ask what gets built. This is not a forecast. It is a probe, and the thing it probes is you: what do you believe compute buys? He wrote the exercise into the article himself. You will struggle a little here; that is the point.
 
