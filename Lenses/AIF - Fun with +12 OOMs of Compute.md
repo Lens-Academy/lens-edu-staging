@@ -89,6 +89,7 @@ Consider his five, and consider your answer from above. Answer two to four of th
 - What's different?
 - What techniques of estimation did he use that you didn't?
 - Where do you think he might still be wrong?
+- What confused you
 
 assessment-instructions:: The student has their own list and has now read the author's five answers.
 
