@@ -199,7 +199,7 @@ We will construct a multitask version of sparse parity. To do this, we introduce
 
 The training dynamics on this task are really beautiful. We train ReLU MLPs with a single hidden layer using the Adam optimizer. Here is how the loss for each subtask (colored dark blue to yellow), and the mean loss (colored red), evolves during training:
 
-[Watch the multitask sparse-parity training animation](https://ericjmichaud.com/quanta/assets/parity-X-website.mp4)
+{--{"author":"Plex's AI","timestamp":1787760278356}@@[Watch the multitask sparse-parity training animation](https://ericjmichaud.com/quanta/assets/parity-X-website.mp4)--}{++{"author":"Plex's AI","timestamp":1787760278356}@@![](https://ericjmichaud.com/quanta/assets/parity-X-website.mp4)++}
 
 Training dynamics for a network trained on multitask sparse parity.
 
