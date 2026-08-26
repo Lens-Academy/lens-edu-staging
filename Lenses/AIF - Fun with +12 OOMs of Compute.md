@@ -56,9 +56,9 @@ Do not supply any of the author's five answers (OmegaStar, Amp(GPT-7), Crystal N
 
 This is a pre-test. Use no grading language.
 
-Instead, give hints about how to improve their thinking - what might the missing components be that they should be for?
+Instead, give hints about how to improve their thinking - what might the missing components be that they should be looking for?
 
-Look for: at least two concrete systems (not "better AI"), and a stated compute-to-capability mechanism for each.
+You Look for: at least two concrete systems (not "better AI"), and a stated compute-to-capability mechanism for each.
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
 
