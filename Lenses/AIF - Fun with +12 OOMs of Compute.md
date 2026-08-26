@@ -60,7 +60,7 @@ Instead, give hints about how to improve their thinking - what might the missing
 
 You should look for them to describe: at least two concrete systems (not "better AI"), and a stated compute-to-capability mechanism for each.
 
-If their answers are too vague to evaluate, propose something slightly more specific 
+If their answers are too vague to evaluate, propose something slightly more specific. (Eg, a student who s)
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
 
