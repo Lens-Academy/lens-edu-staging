@@ -28,7 +28,7 @@ Except 50% is just what the quote says. Could even be worse. Science is always w
 content::
 \## Why we'll make you guess first
 
-Before asking you to read some articles, we'll test you on what the article contains, even though you haven't read the article yet. That's quite intentional: research consistently shows  
+Before asking you to read some articles, we'll test you on what the article contains, even though you haven't read the article yet. That's quite intentional: research consistently shows what 
 
 Before nearly every reading, we will ask you to guess. What happened, what the author will argue, how big the numbers turn out to be. You will often be wrong. That is the design, not a test. Every other lesson in this course is about the field. This one is about *you*: the gap between what you guessed and what actually happened. Guessing first tells you what your model actually predicts. Later, when the reading proves you wrong, you will know exactly which part of your thinking was off.
 
