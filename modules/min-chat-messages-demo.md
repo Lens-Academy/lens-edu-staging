@@ -51,29 +51,31 @@ content:: What is your favorite color, and why?
 # Lens: Question plus a message minimum
 id:: 43d2334e-990d-43be-98e2-aa7ff046cb16
 tldr:: Two gates at once: answer the question and send two messages. This lens shows how a required question and a chat minimum stack independently, and how feedback replies count toward both.
-summary_for_tutor:: Demo lens combining a required Question with min_chat_messages:: 2. Explains that the two requirements are independent, that replies in the question's feedback conversation count toward the message minimum, and carries assessment-instructions for a playful follow-up.
+summary_for_tutor:: Demo lens combining a required {--{"author":"Elias's AI","timestamp":1787761746294}@@Question--}{++{"author":"Elias's AI","timestamp":1787761746294}@@Question: Open++} with min_chat_messages:: 2. Explains that the two requirements are independent, that replies in the question's feedback conversation count toward the message minimum, and carries {--{"author":"Elias's AI","timestamp":1787761746294}@@assessment-instructions--}{++{"author":"Elias's AI","timestamp":1787761746294}@@feedback-instructions++} for a playful follow-up.
 min_chat_messages:: 2
 duration_minutes:: 5
 
 #### Text
 content::
-This lens combines a required question with `min_chat_messages:: 2`. The two requirements are independent: you must answer the question AND send 2 messages to the tutor. Replies you type in the question's feedback conversation count toward the message minimum (the auto-sent feedback request itself does not), so answering and then discussing the feedback satisfies both.
+This lens combines a required question with `min_chat_messages:: 2`. The two requirements are independent: you must answer the question AND send 2 messages to the tutor. {--{"author":"Elias's AI","timestamp":1787761746294}@@Replies you type in the question's--}{++{"author":"Elias's AI","timestamp":1787761746294}@@This question has `feedback-instructions::`, so a++} feedback conversation {++{"author":"Elias's AI","timestamp":1787761746294}@@opens on your answer. Replies you type there ++}count toward the message minimum (the auto-sent feedback request itself does not), so answering and then discussing the feedback satisfies both.
 
-#### Question
-content:: Name a food you could eat every day. What makes it work for you?
-assessment-instructions:: Any sincere answer is fine; ask one playful follow-up question at a time.
+#### {--{"author":"Elias's AI","timestamp":1787761746294}@@Question--}{++{"author":"Elias's AI","timestamp":1787761746294}@@Question: Open++}
+{++{"author":"Elias's AI","timestamp":1787761746294}@@id:: 006af336-57e3-44f3-bc3a-6cfc2cb541da
+++}content:: Name a food you could eat every day. What makes it work for you?
+{--{"author":"Elias's AI","timestamp":1787761746294}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787761746294}@@feedback-instructions::++} Any sincere answer is fine; ask one playful follow-up question at a time.
 
 # Lens: Skippable question
 id:: 2c11c696-8fcb-4d2e-9725-f171c2e55c95
 tldr:: How do you offer a reflection prompt without forcing anyone to answer it? Mark the question optional and it becomes skippable, so completion never waits on it.
-summary_for_tutor:: Demo lens with a Question marked optional:: true, overriding the default single-answer requirement so completion is never blocked. Illustrates the pattern for nice-to-have reflection prompts.
+summary_for_tutor:: Demo lens with a {--{"author":"Elias's AI","timestamp":1787761751529}@@Question--}{++{"author":"Elias's AI","timestamp":1787761751529}@@Question: Open++} marked optional:: true, overriding the default single-answer requirement so completion is never blocked. Illustrates the pattern for nice-to-have reflection prompts.
 duration_minutes:: 2
 
 #### Text
 content::
 This question has `optional:: true`, which overrides the default requirement of one answer and makes it skippable. "Mark section complete" works even without answering. Use this for nice-to-have reflection prompts that should not hold anyone up.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787761751529}@@Question--}{++{"author":"Elias's AI","timestamp":1787761751529}@@Question: Open
+id:: 11444bd9-63d8-4b60-8680-cb20ecdc6d82++}
 optional:: true
 content:: Purely optional: is there anything from this module you want to note down for later?
 
