@@ -77,7 +77,9 @@ Temporary move: [[../../Lens/base/Deleted bits from 'writing learning outcomes']
 
 We're not yet 100% sure how our rubric should work, but the overall grade should be a single pass or fail. We do think rubrics can sometimes contain multiple pass/fail checks to build up the whole. But it's important that each subject itself is binary as well. Like, you can say, "The answer must have 3 out of these 5 qualities," as long as each of those 5 qualities is binary as well.
 
-Beyond pass/fail tests, it's still useful for Lens Coach to provide qualitative feedback on what went well and what could've been better.
+Beyond pass/fail tests, it's still useful for Lens Coach to provide qualitative feedback on what went well and what could've been better.{++{"author":"Elias's AI","timestamp":1787762296873}@@
+
+These are two separate decisions, and a test question should make both of them deliberately rather than leaving either to a default. `assessment-instructions::` decides whether the learner passes. `feedback::` decides whether they hear anything back about how they did. Where the qualitative response matters, say inside the assessment instructions what good feedback should name, for example the strongest part of the answer and the one change that would most improve it. Feedback guidance belongs there as guidance only: it must never become an extra condition for passing.++}
 
 ## Learning Outcome Files
 
