@@ -30,7 +30,7 @@ content::
 
 Before asking you to read some articles, we'll test you on what the article contains, even though you haven't read the article yet. That's quite intentional. Research consistently shows a "pre-testing effect": testing your ability to invent an idea before encountering it seems to make it stick to your brain better.
 
-But of course, just because the article 
+But of course, just because the article makes a claim, does not mean that claim is true. When aske
 
 So we'll ask you to tell us what the article contains, before you read it. If you have already read an article, this is still helpful. If you're interested in learning more, try to guess what's on the wikipedia page about the Testing Effect, then look it up.
 
