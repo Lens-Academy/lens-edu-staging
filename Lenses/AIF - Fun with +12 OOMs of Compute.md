@@ -58,7 +58,7 @@ This is a pre-test. Use no grading language.
 
 Instead, give hints about how to improve their thinking - what might the missing components be that they should be looking for?
 
-You should look for them to describe: at least two concrete systems (not "better AI"), and a stated compute-to-capability mechanism for each. If their answers are too vague to evaluate, pro
+You should look for them to describe: at least two concrete systems (not "better AI"), and a stated compute-to-capability mechanism for each. If their answers are too vague to evaluate, propose something slightly more specific.
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
 
