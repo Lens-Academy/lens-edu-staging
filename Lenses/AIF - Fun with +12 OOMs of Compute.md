@@ -39,7 +39,7 @@ to:: think about fun things that could be built in this scenario.
 
 #### Question
 content::
-\## His exercise, administered
+\## His exercise
 
 
 
