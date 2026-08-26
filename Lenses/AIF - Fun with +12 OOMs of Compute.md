@@ -24,7 +24,7 @@ Let's give you some basic definitions:
 
 **Compute**: total number of steps (addition, multiplication, compare, etc) used in training the AI. (For most AIs, the vast majority of steps are multiplication.)
 
-**FLOP**: one arithmetic ")
+**FLOP**: one "**FL**oating)
 
 
 
