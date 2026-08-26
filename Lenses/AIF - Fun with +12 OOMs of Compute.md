@@ -28,7 +28,7 @@ Let's give you some basic definitions:
 
 **OOM**: **O**rder **O**f **M**agnitude, a factor of ten. 10 is one order of magnitude more than 1. Typically written in exponential notation: 10^3 = 1000, and 10^4 = 10,000.
 
-**TAI**: **T**ransformative **A**rtificial **I**ntelligence, which here refers to any piece of software that 
+**TAI**: **T**ransformative **A**rtificial **I**ntelligence, which here refers to any piece of software that changes the world at least as much as the industrial revolution did.
 
 Later articles will build up more of the technical details. Once again, the purpose of reading things out of order is to confuse you enough that your intuition gets curious.
 
