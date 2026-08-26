@@ -22,7 +22,7 @@ You probably won't understand everything he's saying at first, so try to guess w
 
 **Compute**: total number of steps (addition, multiplication, compare, etc) used in training the AI. (For most AIs, the vast majority of steps are multiplication.)
 
-**FLOP**: 
+**FLOP**: one 
 
 Later articles will build up the perspective he's assuming as background knowledge.
 
