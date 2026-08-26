@@ -35,15 +35,17 @@ looking back at the text. Anything and everything. No need to organize it. Using
 speech to text feature is highly recommended here.
 assessment-instructions:: <recall-mirror brief, see below>
 
-#### Question                                  ← 3. Phase 2: Processing ("what landed")
-content::
+#### {--{"author":"Elias's AI","timestamp":1787761663059}@@Question                                  --}{++{"author":"Elias's AI","timestamp":1787761663059}@@Question: Open                            ++}← 3. Phase 2: Processing ("what landed")
+{++{"author":"Elias's AI","timestamp":1787761663059}@@id:: <uuid>
+++}content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you?
 What did you doubt or push back on? No need to organize. Just capture your reaction.
 assessment-instructions:: <processing brief, see below>
 
-#### Question                                  ← 4. Phase 3: Learning Question
-content::
+#### {--{"author":"Elias's AI","timestamp":1787761665005}@@Question                                  --}{++{"author":"Elias's AI","timestamp":1787761665005}@@Question: Open                            ++}← 4. Phase 3: Learning Question
+{++{"author":"Elias's AI","timestamp":1787761665005}@@id:: <uuid>
+++}content::
 \## Phase 3: Learning Question
 <a scenario that embodies a plausible-but-flawed claim about the material>
 assessment-instructions:: <socratic brief, see below>
@@ -67,7 +69,7 @@ All three share a house style: state who the student is and what they just did; 
 
 ## The pre-reading question (PQ) lens
 
-Before a heavy reading, a tiny lens primes the intuition the chapter will challenge: one `#### Question`, no reading. Its brief is deliberately minimal: acknowledge in 1–2 sentences, **do not** preview the chapter's argument, close by sending them to the reading. Named `<Topic> - PQ`, listed in the module as the `# Lens:` immediately before the main reading lens. See `Lens Edu/Lenses/IABIED - Indifference Not Malice - PQ.md`.
+Before a heavy reading, a tiny lens primes the intuition the chapter will challenge: one `#### {--{"author":"Elias's AI","timestamp":1787761666787}@@Question`,--}{++{"author":"Elias's AI","timestamp":1787761666787}@@Question: Open`,++} no reading. Its brief is deliberately minimal: acknowledge in 1–2 sentences, **do not** preview the chapter's argument, close by sending them to the reading. Named `<Topic> - PQ`, listed in the module as the `# Lens:` immediately before the main reading lens. See `Lens Edu/Lenses/IABIED - Indifference Not Malice - PQ.md`.
 
 ## The 6 segment types
 
