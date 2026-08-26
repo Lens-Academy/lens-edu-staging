@@ -56,6 +56,8 @@ Describe your current understanding of what's possible in the next ten years of 
 
 Some suggested points to hit: What are the moving parts? What might get built? What computers will it run on? What might become possible? What reactions and responses are likely?
 
+Don't think too much
+
 Before you read anything else, write down your current model of the next ten years of AI. Five to ten sentences. What gets built, what it can do, what changes in the world. Don't research first, and don't hedge yourself into fog; write what you actually expect, with dates where you dare. Nobody will grade this for being right. This is your day-zero snapshot: the rest of the course is a series of revisions to it, and at the end you will want to see where you started.
 
 assessment-instructions:: The student is at the very start of the course and has just been told that half of what follows may be wrong, and that they will be asked to guess before most readings. They have now written their day-zero model of the next ten years of AI.
