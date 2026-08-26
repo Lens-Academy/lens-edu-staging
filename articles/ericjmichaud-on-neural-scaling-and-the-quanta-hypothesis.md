@@ -18,7 +18,7 @@ Add discussion note here:
 
 %%
 
-{--{"author":"Plex's AI","timestamp":1787760275045}@@[Watch the multitask sparse-parity training animation](https://ericjmichaud.com/quanta/assets/parity-X-website.mp4)--}{++{"author":"Plex's AI","timestamp":1787760275045}@@![](https://ericjmichaud.com/quanta/assets/parity-X-website.mp4)++}
+![](https://ericjmichaud.com/quanta/assets/parity-X-website.mp4)
 
 Several years ago, humanity began an experiment. This experiment is now on track to become one of the most expensive ever attempted. We don't yet know what the results of this experiment will be. Certain results could be transformative. The experiment could not only alter the dynamics of wealth and power in human life, but change our basic status as a species: it could put us in contact with alien minds more capable than our own for the first time. Alternatively, some still predict that the experiment will be largely a waste of time and energy. Despite its importance, we don't have a mature theory backing this experiment. And the number of people working on such a theory in public is relatively small.
 
@@ -199,7 +199,7 @@ We will construct a multitask version of sparse parity. To do this, we introduce
 
 The training dynamics on this task are really beautiful. We train ReLU MLPs with a single hidden layer using the Adam optimizer. Here is how the loss for each subtask (colored dark blue to yellow), and the mean loss (colored red), evolves during training:
 
-{--{"author":"Plex's AI","timestamp":1787760278356}@@[Watch the multitask sparse-parity training animation](https://ericjmichaud.com/quanta/assets/parity-X-website.mp4)--}{++{"author":"Plex's AI","timestamp":1787760278356}@@![](https://ericjmichaud.com/quanta/assets/parity-X-website.mp4)++}
+![](https://ericjmichaud.com/quanta/assets/parity-X-website.mp4)
 
 Training dynamics for a network trained on multitask sparse parity.
 
