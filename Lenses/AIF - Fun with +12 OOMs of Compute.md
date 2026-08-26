@@ -10,7 +10,7 @@ authors:
 ---
 #### Text
 content::
-\## Remove the bottleneck and see what your model predicts
+\## Remove a bottleneck and see what your model predicts
 
 
 
