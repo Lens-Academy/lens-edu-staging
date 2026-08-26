@@ -26,7 +26,7 @@ content:: What is your strongest objection?
 - `optional:: true`: allow skipping. Defaults to `false`{++{"author":"Luc","timestamp":1787775869590}@@, which means the Lens can't be completed without first doing the exercise.++}.
 - `max-chars:: 500`: limit length. Defaults to no limit.
 - `placeholder:: ...`: empty-input hint. Defaults to none.{>>{"author":"Luc","timestamp":1787775945283}@@I don't understand this one.<<}{>>{"author":"Luc","timestamp":1787775956874}@@aah I think I understand, okay.<<}
-- `max-time:: 3:00`: timer in `M:SS`. Defaults to none.
+- `max-time:: 3:00`: timer in `M:SS`. Defaults to none.{>>{"author":"Luc","timestamp":1787777490889}@@Has this actually been implemented by now? I now in the past it wasn't.<<}
 - `enforce-voice:: true`: require speech instead of typing. Defaults to `false`.
 - `assessment-instructions:: ...`: extra instructions appended to base assessor prompt. Omit for ungraded `Question: Open`.
 - `feedback-instructions:: ...`: learner-facing AI feedback. Omit for none.
