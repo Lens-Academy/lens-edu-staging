@@ -45,7 +45,9 @@ enforce-voice:: true
 assessment-instructions:: Check whether learner names claim and gives relevant objection.
 feedback-instructions:: State strongest part of response, then suggest one improvement.
 
-%% `Question: Rating` collects numbered self-report. Smallest version uses default 1-to-5 scale. %%
+%%
+# Question: Choice
+`Question: Rating` collects numbered self-report. Smallest version uses default 1-to-5 scale. %%
 
 #### Question: Rating
 id:: 4280d5f2-2cd5-48f9-b20f-fc132253d443
