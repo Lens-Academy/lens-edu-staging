@@ -14,6 +14,9 @@ In this course file, we define modules and meetings.%%
 # Module: [[../modules/min-chat-messages-demo|Interaction requirements demo]]
 # Module: [[../modules/lens-duration-demo|Lens duration demo]]
 # Meeting: Name of the first meeting
+survey:: [[../surveys/Demo Survey]]
+
+%% A `survey::` wikilink under a meeting attaches a post-meeting survey (see [[../surveys/Demo Survey]]). It unlocks for learners once their group's meeting has ended. %%
 
 %% Meetings automatically split the material up into weeks. This first module will be in week 1, followed by the above meeting.
 
