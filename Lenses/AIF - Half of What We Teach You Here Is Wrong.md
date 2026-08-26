@@ -40,9 +40,8 @@ Pre-tests aren't graded.
 content::
 \## What this costs, and who else is here
 
-Units are targeted to take about three hours, mostly reading, with some time spent on writing your answers. But people vary a lot on how long it takes them to finish, so don't worry about it if it ta
+Units are targeted to take about three hours, mostly reading, with some time spent on writing your answers. But people vary a lot on how long it takes them to finish, so don't worry about it if it takes you longer.
 
-Every unit will take you around three hours. Most of that is reading, and the rest goes on writing your own answers, which is the part that does the teaching. That estimate is ours and it is rough. The questions take longer than they look.
 
 You are not doing this alone. You are in a cohort, and it meets live to work through the unit together. Bring your answers to that meeting, especially the ones you were least sure of, because a disagreement is the part that does not survive being read silently.
 
