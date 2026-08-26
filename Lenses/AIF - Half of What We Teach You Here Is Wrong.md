@@ -56,7 +56,7 @@ Describe your current understanding of what's possible in the next ten years of 
 
 Some suggested points to hit: What are the moving parts? What might get built? What hardware could be involved? What might happen as a result? What reactions and responses are likely? When?
 
-Don't think at great length; this is a pre-test, so just try to sketch what seems intuitively possible right now. There's no need to research the possibilities before answering, that's what the rest of the course is for.
+Don't think at great length; this is a pre-test, so just try to sketch what seems intuitively possible from what you know right now. There's no need to research the possibilities before answering, that's what the rest of the course is for.
 
 We'll return to this later to review what insights you had. Be precise enough to be wrong. Expect to be surprised. 
 
