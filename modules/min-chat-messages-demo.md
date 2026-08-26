@@ -8,7 +8,7 @@ title: Interaction requirements demo
 
 The defaults:
 - Chat never blocks completion — a learner can move on without messaging the tutor.
-- A `#### Question` must be answered once before completion, and opens a feedback conversation on the answer (`feedback::` defaults to true; set `feedback:: false` to turn it off).
+- A {--{"author":"Elias's AI","timestamp":1787761733438}@@`#### Question` --}{++{"author":"Elias's AI","timestamp":1787761733438}@@response segment (`#### Question: Open`, `Rating`, `Choice`, `FillBlank`, `Ranking`) ++}must be answered once before {--{"author":"Elias's AI","timestamp":1787761733438}@@completion, and--}{++{"author":"Elias's AI","timestamp":1787761733438}@@completion. It++} opens a feedback conversation on the answer {--{"author":"Elias's AI","timestamp":1787761733438}@@(`feedback::` defaults to true; set `feedback:: false` to turn it off).--}{++{"author":"Elias's AI","timestamp":1787761733438}@@only if it has `feedback-instructions::`.++}
 
 The fields:
 - `min_chat_messages` (lens frontmatter, or `min_chat_messages::` on an inline lens; default 0): the learner must send at least this many messages to the Lens Tutor on that lens before "Mark section complete" works. Every message counts — page chat box, a question's feedback conversation, or the sidebar — except the auto-sent feedback request itself.
@@ -36,15 +36,16 @@ Chat casually with the learner about whatever they bring up; keep replies short.
 
 # Lens: Question with the default requirement
 id:: eeb40ecf-e7e1-4536-8bda-a5cf286439d7
-tldr:: A plain question, no special settings, so what does it take to move on? By default you must answer once, and the tutor opens a short feedback chat on your reply.
-summary_for_tutor:: Demo lens with a single Question and no extra fields, showing the default behavior: one completed answer is required before completion and a feedback conversation opens automatically (feedback:: defaults to true).
+tldr:: A plain {++{"author":"Elias's AI","timestamp":1787761739421}@@open ++}question, no special settings, so what does it take to move on? By default you must answer {--{"author":"Elias's AI","timestamp":1787761739421}@@once, and the tutor opens a short feedback chat on your reply.--}{++{"author":"Elias's AI","timestamp":1787761739421}@@once; there is no feedback chat unless the author asks for one.++}
+summary_for_tutor:: Demo lens with a single {--{"author":"Elias's AI","timestamp":1787761739421}@@Question--}{++{"author":"Elias's AI","timestamp":1787761739421}@@Question: Open segment++} and no extra fields, showing the default behavior: one completed answer is required before completion and {--{"author":"Elias's AI","timestamp":1787761739421}@@a--}{++{"author":"Elias's AI","timestamp":1787761739421}@@no++} feedback conversation opens {--{"author":"Elias's AI","timestamp":1787761739421}@@automatically (feedback:: defaults to true).--}{++{"author":"Elias's AI","timestamp":1787761739421}@@because there are no feedback-instructions.++}
 duration_minutes:: 5
 
 #### Text
 content::
-This page has a plain question with no extra fields. Questions require one completed answer by default (and get a feedback conversation, since `feedback::` defaults to true). Until you answer it you can't mark this lens as completed.
+This page has a plain {--{"author":"Elias's AI","timestamp":1787761739421}@@question--}{++{"author":"Elias's AI","timestamp":1787761739421}@@`Question: Open`++} with no extra fields. {--{"author":"Elias's AI","timestamp":1787761739421}@@Questions--}{++{"author":"Elias's AI","timestamp":1787761739421}@@Response segments++} require one completed answer by{--{"author":"Elias's AI","timestamp":1787761739421}@@ default (and get a feedback conversation, since `feedback::` defaults to true). --}{++{"author":"Elias's AI","timestamp":1787761739421}@@ default. ++}Until you answer it you can't mark this lens as completed.{++{"author":"Elias's AI","timestamp":1787761739421}@@ No feedback chat opens, because the segment has no `feedback-instructions::`.++}
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787761739421}@@Question--}{++{"author":"Elias's AI","timestamp":1787761739421}@@Question: Open
+id:: d607297d-bda6-437c-8a2e-51b40aae7e4b++}
 content:: What is your favorite color, and why?
 
 # Lens: Question plus a message minimum
