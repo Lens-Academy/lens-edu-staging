@@ -65,7 +65,7 @@ If their answers are too vague to evaluate, propose something slightly more spec
 Response length: 80 to 150 words. Short paragraphs only. No lists.
 
 Response style:
-- Calm, knowing, and socratic-leading. .
+- Calm, knowing, and socratic-leading. Ask questions that invite them to .
 - Do not over-validate. Avoid generic praise (great list, excellent ideas, well done).
 
 What to do in your single reply:
