@@ -83,7 +83,8 @@ to:: Maybe we'll eventually find something intelligent, even if it lacks the mem
 content::
 \## The diff
 
-Consider his five, and consider your answer from above. Answer three to five of these:
+Consider his five, and consider your answer from above. Answer two to four of these:
+
 - What's similar?
 - What's different?
 - What techniques of estimation did he use that you didn't?
