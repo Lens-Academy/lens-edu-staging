@@ -45,7 +45,7 @@ Let's pause the article to give you a text box. Reminder: his use of the word "f
 
 Before you read, what do you expect happens when you make the kinds of AI/ML software that were used in 2016 a trillion times larger?
 
-Set a 5 minute timer if you've got one handy. Your phone will do nicely. 
+Set a 5 minute timer if you've got one handy. Your phone will do nicely. Think, but don't overthink.
 {>>{"author":"lauren (chrome@what)","timestamp":1787741570026}@@we should have a timer here<<}
 
 max-time:: 8:00
