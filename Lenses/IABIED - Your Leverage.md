@@ -17,8 +17,7 @@ You've just been through the book's darkest stretch. The authors' point isn't de
 
 ---
 
-#### {--{"author":"Elias's AI","timestamp":1787667439865}@@Question--}{++{"author":"Elias's AI","timestamp":1787667439865}@@Question: Open
-id:: 42582195-df85-468b-a86e-44ea0ca3dc86++}
+#### Question
 content::
 \## Phase 1: Your strengths
 Take 5 minutes and write freely; speech-to-text works well here. What are you unusually good at, or unusually well-positioned for? Touch on any of:
@@ -59,8 +58,7 @@ Ground rules:
 - Response length: 100–180 words per turn. Short paragraphs. At most one list of 2–3 items per response.
 - However the conversation winds down, do not end on doom. End on the concrete first step they can take this week.
 
-#### {--{"author":"Elias's AI","timestamp":1787667436876}@@Question--}{++{"author":"Elias's AI","timestamp":1787667436876}@@Question: Open
-id:: fcdc6cb0-c691-4b65-9df2-43502bca090c++}
+#### Question
 content::
 \## Phase 3: Your action items
 Close by writing down what you're taking with you. Keep it short; you'll share this at the next meeting, so write it for your future self:

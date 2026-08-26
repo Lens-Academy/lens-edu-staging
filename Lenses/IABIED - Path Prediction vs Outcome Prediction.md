@@ -19,13 +19,12 @@ Return here after reading.
 
 ---
 
-#### {--{"author":"Elias's AI","timestamp":1787667430561}@@Question--}{++{"author":"Elias's AI","timestamp":1787667430561}@@Question: Open
-id:: ef4f43d4-0c4f-4daf-ad69-a016792441c6++}
+#### Question
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-{--{"author":"Elias's AI","timestamp":1787672406710}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672406710}@@feedback-instructions::++} The student has just read the Coda of "If Anyone Builds It, Everyone Dies."
+assessment-instructions:: The student has just read the Coda of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Distinguish between predicting the pathway to a catastrophic outcome and predicting the outcome itself, explain why outcome confidence is achievable even when the exact path cannot be predicted, and apply this distinction to the argument that humanity's position relative to a superintelligent AI is analogous to a human playing chess against Stockfish.
 
@@ -63,20 +62,19 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### {--{"author":"Elias's AI","timestamp":1787667428016}@@Question--}{++{"author":"Elias's AI","timestamp":1787667428016}@@Question: Open
-id:: 406d2093-7c18-44d8-830c-2440a08766fa++}
+#### Question
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-{--{"author":"Elias's AI","timestamp":1787672410079}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672410079}@@feedback-instructions::++} [[../prompts/iabied-phase-2-reflection-tutor-c.md]]{>>{"author":"Luc's AI","timestamp":1783779634146}@@This Phase 2 block is byte-identical in 2 lenses (Path Prediction vs Outcome Prediction, Position Not Despair); deduplicated into the shared prompt file with the text unchanged.<<}
+assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-c.md]]{>>{"author":"Luc's AI","timestamp":1783779634146}@@This Phase 2 block is byte-identical in 2 lenses (Path Prediction vs Outcome Prediction, Position Not Despair); deduplicated into the shared prompt file with the text unchanged.<<}
 
-#### {--{"author":"Elias's AI","timestamp":1787673562816}@@Question--}{++{"author":"Elias's AI","timestamp":1787673562816}@@Question++}
+#### Question
 content::
 \## Phase 3: Learning Question
 A friend finishes the Coda and closes the book, defeated: "They say it's an *easy call* that we lose, so the outcome is settled. This is just a doom book. Why write a Part III? Why do anything at all?" Using the Coda's own distinction, show your friend where the reasoning breaks. Is the book predicting that we lose, or something narrower with a condition attached? And what exactly would have to be true before the "easy call" applies at all?
 
-{--{"author":"Elias's AI","timestamp":1787673557610}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787673557610}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the Coda of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the Coda of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge; it is not the test question. It hands the student a plausible misreading: that an "easy call" outcome means the book is fatalist and nothing can be done. Their task is to dismantle it using the path/outcome distinction and the Coda's conditional structure ("only if the story is allowed to begin"). Use it to draw out why outcome confidence is the opposite of fatalism: the prediction is conditional on superintelligence being reached, and Part III is precisely about preventing that.
 

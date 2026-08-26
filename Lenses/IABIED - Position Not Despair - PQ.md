@@ -6,8 +6,7 @@ tldr: "Before reading, think about how you tell apart 'this is hopeless' from 't
 authors:
   - Yatharth+Claude
 ---
-#### {--{"author":"Elias's AI","timestamp":1787667464184}@@Question--}{++{"author":"Elias's AI","timestamp":1787667464184}@@Question: Open
-id:: e8c82049-e0bf-464e-a1b5-c8b8f2468de5++}
+#### Question
 content:: When experts say a project should not be attempted, you can hear two very different things in that sentence:
 
 - *"Nothing can be done."* The situation is hopeless; the right response is to give up.
@@ -17,7 +16,7 @@ These sound similar but they imply opposite responses. **Before you read the res
 
 What was the difference between *that* call and despair? What did the right call point toward instead?
 
-{--{"author":"Elias's AI","timestamp":1787672417246}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672417246}@@feedback-instructions::++}
+assessment-instructions::
 The student is about to read the second half of Chapter 10 of "If Anyone Builds It, Everyone Dies" — the synthesis section that maps the case studies onto ASI alignment and closes with the line "NOBODY SHOULD BE ALLOWED TO TRY."
 
 They just answered: "When did 'this should not be attempted' turn out to be the right call rather than despair?"

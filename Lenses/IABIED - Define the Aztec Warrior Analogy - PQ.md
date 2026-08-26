@@ -10,11 +10,10 @@ authors:
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]"
 ---
-#### {--{"author":"Elias's AI","timestamp":1787667382120}@@Question--}{++{"author":"Elias's AI","timestamp":1787667382120}@@Question: Open
-id:: 33170f61-50b0-47eb-91c9-86fa256372de++}
+#### Question
 content:: Before reading Chapter 6, section 1: Imagine watching a chess match between a grandmaster and a complete beginner, though you don't know chess yourself. You can't predict a single move in advance. Can you still predict who'll win? What's the basis for that prediction, if not specific knowledge of what moves they'll make? Write down your thinking before you read.
 
-{--{"author":"Elias's AI","timestamp":1787672237262}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672237262}@@feedback-instructions::++}
+assessment-instructions::
 The student is about to read Chapter 6, section 1 of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "Can you predict who wins a contest without being able to predict the specific moves or mechanisms they'll use?"

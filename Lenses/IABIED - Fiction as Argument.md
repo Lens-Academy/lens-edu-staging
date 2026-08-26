@@ -12,8 +12,7 @@ tags:
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/10 - Coda]]"
 ---
-#### {--{"author":"Elias's AI","timestamp":1787667433315}@@Question--}{++{"author":"Elias's AI","timestamp":1787667433315}@@Question: Open
-id:: d3b0faec-caa6-43e9-b83d-02f6ab7952aa++}
+#### Question
 optional:: true
 content::
 \## Optional Reflection: No New Reading Required
@@ -26,7 +25,7 @@ The Coda explicitly addresses what the book is and isn't predicting. It acknowle
 
 **The book isn't claiming the specific events of the story will occur. But it's also not saying the story is "just a thought experiment" with no predictive content. What is the precise claim it is making? And how would you respond to someone who says "but it's just sci-fi"?**
 
-{--{"author":"Elias's AI","timestamp":1787672304454}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672304454}@@feedback-instructions::++}
+assessment-instructions::
 The student has already read the Coda and completed the primary lens for this chapter. This is an optional extension engagement.
 
 Learning outcome for this Lens: Distinguish the book's use of fiction as a form of argument from two common misreadings (that it predicts specific future events, or that it is merely a thought experiment with no predictive content) and identify the precise middle position: the fictional pathway is not predicted, but the outcome if AI systems reach sufficient capability is.
