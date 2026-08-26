@@ -135,7 +135,7 @@ feedback-instructions:: Explain any incorrect blank without discussing unrelated
 
 #### Question: FillBlank
 id:: 8a3ae4f5-4d86-42dc-b126-b293f88a7b61
-content:: How many years until transformative AI? {{number}}
+content:: How many years until transformative AI? {{number}} 
 optional:: true
 
 %% Numeric grading uses one reference number: `{{number 42}}` or `{{number 149,600,000}}`. There is no range syntax. Commas may separate thousands; decimals and negative values work.
