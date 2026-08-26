@@ -70,7 +70,7 @@ Response style:
 
 What to do in your single reply:
 1. Acknowledge what they described, naming one or two of their own items specifically.
-2. If they wrote fewer than two concrete systems, or gave no mechanisms, ask once for the missing piece, but withou.
+2. If they wrote fewer than two concrete systems, or gave no mechanisms, ask once for the missing piece, but without expectation of followup.
 3. Then tell them to continue to the author's answers.
 
 This is a one-turn response.
