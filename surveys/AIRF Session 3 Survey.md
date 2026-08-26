@@ -9,9 +9,7 @@ content:: Thanks for showing up. This is your post-session reflection, about 3 m
 #### Text
 content:: **Tell us how the course is going**
 
-We are booking short calls with participants to hear what is and is not working.
-
-Availability is limited but try to pick whoever owns the thing you want to talk about!
+We are booking short calls with participants to hear what is and is not working. Availability is limited but try to pick whoever owns the thing you want to talk about!
 
 * **Lauren, on what we teach.** The curriculum itself: the readings, the arguments, and how Lens Tutor behaves. She writes the curriculum and tunes the Coach. → [book with Lauren](https://calendar.app.google/KWsXPAQTp1NKbLkv9)
 * **Elias, on the platform and course quality.** The website and the app, if something is broken or confusing on screen. Also whether the course itself works: the exercises, the tests, and how it lands week to week. → [book with Elias](https://zcal.co/i/VorDPawu)
