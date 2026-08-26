@@ -19,9 +19,9 @@ eval-results:
 ## Test:
 id:: 9c2cb793-41af-409d-b02d-9cb344d137fb
 #### Question
-content:: {--{"author":"Luc's AI","timestamp":1787659337770}@@Two mutually distrustful states sign an agreement capping the size of AI training runs. Each now needs--}{++{"author":"Luc's AI","timestamp":1787659337770}@@Wasil and co-authors catalog verification methods and then, for each one, describe how++} a {--{"author":"Luc's AI","timestamp":1787659337770}@@way to tell whether the other is exceeding the cap — and each will assume the other is looking for ways --}{++{"author":"Luc's AI","timestamp":1787659337770}@@determined state would get ++}around {--{"author":"Luc's AI","timestamp":1787659337770}@@whatever check is used.--}{++{"author":"Luc's AI","timestamp":1787659337770}@@it.++}
+content:: Wasil and co-authors catalog verification methods and then, for each one, describe how a determined state would get around it.
 
-{--{"author":"Luc's AI","timestamp":1787659339857}@@**Sort--}{++{"author":"Luc's AI","timestamp":1787659339857}@@**Lay out++} the {--{"author":"Luc's AI","timestamp":1787659339857}@@available verification methods into classes according to how much cooperation each requires--}{++{"author":"Luc's AI","timestamp":1787659339857}@@three classes of method, and for each: what cooperation does it require++} from the state you{--{"author":"Luc's AI","timestamp":1787659339857}@@ distrust. For each class: name the methods it contains, say --}{++{"author":"Luc's AI","timestamp":1787659339857}@@ distrust, and ++}what {--{"author":"Luc's AI","timestamp":1787659339857}@@cooperation it demands, and give--}{++{"author":"Luc's AI","timestamp":1787659339857}@@is++} its characteristic {--{"author":"Luc's AI","timestamp":1787659339857}@@evasion — the specific move a determined violator would use to defeat that class in particular. --}{++{"author":"Luc's AI","timestamp":1787659339857}@@evasion? ++}Then say what follows for how a real{--{"author":"Luc's AI","timestamp":1787659339857}@@ verification--} regime should be assembled.**
+**Lay out the three classes of method, and for each: what cooperation does it require from the state you distrust, and what is its characteristic evasion? Then say what follows for how a real regime should be assembled.**
 assessment-instructions::
 Score according to the following rubric.
 

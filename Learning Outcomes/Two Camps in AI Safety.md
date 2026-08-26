@@ -1,6 +1,6 @@
 ---
 id: '809100e4-b7d7-4556-abe4-d91e8c45641f'
-learning-outcome: "Identify two broad camps {--{"author":"Luc's AI","timestamp":1787659336765}@@that divide people working on AI safety,--}{++{"author":"Luc's AI","timestamp":1787659336765}@@in AI safety described by Jason Hausenloy,++} and summarize some of the main ways their views and preferred approaches differ."
+learning-outcome: "Identify two broad camps in AI safety described by Jason Hausenloy, and summarize some of the main ways their views and preferred approaches differ."
 domain: "[[../Domains/Strategy]]"
 stage: intermediate
 eval-results:
@@ -16,9 +16,9 @@ eval-results:
 id:: f57da14e-6b72-41de-b31b-df054ffe0edb
 
 #### Question
-content:: {--{"author":"Luc's AI","timestamp":1787659338904}@@People working on AI safety do not form a single unified position: they disagree sharply among themselves about what should be done. A common rough summary sorts them into two broad camps. --}{++{"author":"Luc's AI","timestamp":1787659338904}@@Jason Hausenloy describes two broad camps in AI safety. ++}In rough terms, who are {--{"author":"Luc's AI","timestamp":1787659338904}@@these two camps,--}{++{"author":"Luc's AI","timestamp":1787659338904}@@they,++} and how do their views differ? Give at least two differences.
+content:: Jason Hausenloy describes two broad camps in AI safety. In rough terms, who are they, and how do their views differ? Give at least two differences.
 
-Why should {--{"author":"Luc's AI","timestamp":1787659341201}@@any such--}{++{"author":"Luc's AI","timestamp":1787659341201}@@this++} two-camp picture be treated as a useful simplification rather than a complete map of the field?
+Why should this two-camp picture be treated as a useful simplification rather than a complete map of the field?
 
 assessment-instructions:: Score the answer from 1 to 5. This is an orientation-level outcome. The learner only needs a rough but recognizable picture of the two camps; do not require them to reconstruct either camp's full theory of victory.
 
@@ -30,7 +30,7 @@ assessment-instructions:: Score the answer from 1 to 5. This is an orientation-l
 
 **4** — As above, plus notes that the camps also differ over matters such as warning shots, trust in AI labs, automated alignment research, or working within existing institutions. *Example: Adds: "The first camp is more optimistic that evaluations and warning shots can guide iterative progress, while the second worries that warning shots may arrive too late and that labs have conflicts of interest."*
 
-**5** — As above, plus explains why the map is incomplete: people can hold mixed positions, the labels are {--{"author":"Luc's AI","timestamp":1787659342874}@@an opinionated framing rather than natural categories, --}{++{"author":"Luc's AI","timestamp":1787659342874}@@the author's framing, ++}and important alternatives do not fit neatly into either camp. *Example: Adds: "This is {--{"author":"Luc's AI","timestamp":1787659342874}@@an--}{++{"author":"Luc's AI","timestamp":1787659342874}@@Hausenloy's++} opinionated map rather than a neutral {--{"author":"Luc's AI","timestamp":1787659342874}@@census of the field.--}{++{"author":"Luc's AI","timestamp":1787659342874}@@census.++} Someone might favor strong regulation and technical control research without believing either that a responsible lab should race ahead or that all advanced AI development must stop."*
+**5** — As above, plus explains why the map is incomplete: people can hold mixed positions, the labels are the author's framing, and important alternatives do not fit neatly into either camp. *Example: Adds: "This is Hausenloy's opinionated map rather than a neutral census. Someone might favor strong regulation and technical control research without believing either that a responsible lab should race ahead or that all advanced AI development must stop."*
 
 Do not require the learner's wording to match the examples. Accept different labels when the underlying positions are recognizable. Do not reward or penalize agreement with either camp.
 
