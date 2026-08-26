@@ -16,7 +16,7 @@ Let's start in the middle. Let's say you've already got a model of how something
 
 Most such descriptions of AI progress depend heavily on the amount of compute: the amount of math was done by the computer running the software which makes the AI.
 
-So here we'll have you read Daniel Kokotajlo's article. He's looking for what happens when you run very large programs which try to find intelligent behaviors in different ways.
+So here we'll have you read Daniel Kokotajlo's article. He's looking for what happens when you run very large programs which try to find capable behaviors in different ways.
 
 You probably won't understand everything he's saying at first, so try to guess what each thing means. In particular, he assumes you know what techniques for making AIs were common in 2016 - most of us don't have that memorized either. Follow what you can.
 
