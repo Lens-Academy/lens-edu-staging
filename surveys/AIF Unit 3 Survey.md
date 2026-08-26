@@ -4,7 +4,10 @@ title: Week 3 Post-Session Reflection
 ---
 
 #### Text
-content:: {++{"author":"Turner's AI","timestamp":1787720775506}@@**Tell us how the course is going**
+content:: {--{"author":"Turner's AI","timestamp":1787721236336}@@Thanks for showing up. A few minutes of reflection on Unit 3. Submitting this counts towards your certificate at the end of the course.--}{++{"author":"Turner's AI","timestamp":1787721236336}@@Thanks for showing up. A few minutes of reflection on Unit 3. Submitting this counts towards your certificate at the end of the course.
+
+#### Text
+content:: **Tell us how the course is going**
 
 We are booking short calls with participants to hear what is and is not working. We would rather hear the awkward version than the polite one.
 
@@ -46,10 +49,7 @@ options::
 - No
 
 #### Text
-content:: Once you have booked, send that person a quick DM on Discord to say hello and tell them whether it is a user interview or career guidance. It helps us come prepared.
-
-#### Text
-content:: ++}Thanks for showing up. A few minutes of reflection on Unit 3. Submitting this counts towards your certificate at the end of the course.
+content:: Once you have booked, send that person a quick DM on Discord to say hello and tell them whether it is a user interview or career guidance. It helps us come prepared.++}
 
 #### Choice
 key:: buddy_texted
