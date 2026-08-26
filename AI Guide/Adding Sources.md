@@ -2,7 +2,7 @@
 tags:
   - validator-ignore
 ---
-# Writing Articles and Video Transcripts (AI Guide)
+# {--{"author":"Elias's AI","timestamp":1787740237613}@@Writing Articles and Video Transcripts--}{++{"author":"Elias's AI","timestamp":1787740237613}@@Adding Sources++} (AI Guide)
 
 ## Required import workflow
 
