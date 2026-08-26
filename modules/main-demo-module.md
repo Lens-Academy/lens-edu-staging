@@ -78,7 +78,7 @@ source:: [[../Lenses/video demo]]
 # Lens:
 source:: [[../Lenses/Article video article demo]]
 
-%% Response segments use the same syntax in surveys, normal Lenses, and Learning Outcome tests. This Lens explains OpenResponse, Rating, Select, and FillBlank segments. %%
+%% Response segments use the same syntax in surveys, normal Lenses, and Learning Outcome tests. This Lens explains {--{"author":"Elias's AI","timestamp":1787761757295}@@OpenResponse,--}{++{"author":"Elias's AI","timestamp":1787761757295}@@Question: Open, Question:++} Rating, {--{"author":"Elias's AI","timestamp":1787761757295}@@Select,--}{++{"author":"Elias's AI","timestamp":1787761757295}@@Question: Choice, Question: FillBlank, and Question: Ranking. Always write the subtype; a bare `#### Question` is the legacy form++} and {--{"author":"Elias's AI","timestamp":1787761757295}@@FillBlank segments.--}{++{"author":"Elias's AI","timestamp":1787761757295}@@should not appear in new content.++} %%
 # Lens:
 source:: [[../Lenses/Response to question segments]]
 

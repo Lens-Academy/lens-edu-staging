@@ -7,7 +7,8 @@ learning-outcome: Dummy learning outcome
 ## Test:
 id:: e49c6545-0485-4179-b6de-cded9c21f479
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787761755461}@@Question--}{++{"author":"Elias's AI","timestamp":1787761755461}@@Question: Open
+id:: e2eb7caf-b343-4ac3-b125-eea248be23ea++}
 content:: Empty dummy LO
 assessment-instructions:: Empty dummy LO
 
