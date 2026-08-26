@@ -1,7 +1,10 @@
-{++{"author":"Turner's AI","timestamp":1787720794331}@@---
+{++{"author":"Turner's AI","timestamp":1787721270075}@@---
 id: '373a71b9-f8fc-4cb6-9456-49c54af4b66d'
 title: Post-Session Reflection
 ---
+
+#### Text
+content:: Thanks for showing up. This is your post-session reflection, about 3 minutes. It helps us make the meetings and the course better week to week. Submitting it also counts your attendance for this meeting.
 
 #### Text
 content:: **Tell us how the course is going**
@@ -47,9 +50,6 @@ options::
 
 #### Text
 content:: Once you have booked, send that person a quick DM on Discord to say hello and tell them whether it is a user interview or career guidance. It helps us come prepared.
-
-#### Text
-content:: Thanks for showing up. This is your post-session reflection, about 3 minutes. It helps us make the meetings and the course better week to week. Submitting it also counts your attendance for this meeting.
 
 #### Choice
 key:: buddy_texted
