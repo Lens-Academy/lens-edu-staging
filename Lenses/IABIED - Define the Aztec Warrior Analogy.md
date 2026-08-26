@@ -20,13 +20,12 @@ Return here after reading.
 
 ---
 
-#### {--{"author":"Elias's AI","timestamp":1787667390931}@@Question--}{++{"author":"Elias's AI","timestamp":1787667390931}@@Question: Open
-id:: 733606e5-3594-4d51-b57b-0c0dc60e3b9b++}
+#### Question
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-{--{"author":"Elias's AI","timestamp":1787672243906}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672243906}@@feedback-instructions::++} The student has just read section 1 of Chapter 6 ("We'd Lose") of "If Anyone Builds It, Everyone Dies."
+assessment-instructions:: The student has just read section 1 of Chapter 6 ("We'd Lose") of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Define the Aztec warrior analogy as Chapter 6 states it: a defender cannot imagine the mechanism of defeat but the outcome is still predictable from capability asymmetry alone.
 
@@ -64,20 +63,19 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### {--{"author":"Elias's AI","timestamp":1787667387391}@@Question--}{++{"author":"Elias's AI","timestamp":1787667387391}@@Question: Open
-id:: e237cb9a-5377-4f81-9dcc-92e6cf118d81++}
+#### Question
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-{--{"author":"Elias's AI","timestamp":1787672249421}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672249421}@@feedback-instructions::++} [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779555734}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
+assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779555734}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
-#### {--{"author":"Elias's AI","timestamp":1787673492836}@@Question--}{++{"author":"Elias's AI","timestamp":1787673492836}@@Question++}
+#### Question
 content::
 \## Phase 3: Learning Question
 A classmate says: "I get the capability-gap argument, but upsets happen all the time: the underdog beats the favorite, David beats Goliath. So 'the AI is far more capable' doesn't actually license 'the AI wins.' Until you can point to the specific move that beats us, 'we'd lose' is speculation, not a prediction." Is your classmate right? Where, if anywhere, does the reasoning break down?
 
-{--{"author":"Elias's AI","timestamp":1787673488639}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787673488639}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on section 1 of Chapter 6 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on section 1 of Chapter 6 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge; it is not the test question. It hands the student a plausible-sounding objection that conflates two errors: treating overwhelming capability asymmetry like a coin-flip upset (where the underdog sometimes wins), and demanding a specific mechanism (the "winning move") before granting the outcome. The student must dismantle it using the analogy's logic rather than re-describing the Aztec story. Use it to draw out the mechanism-vs-outcome distinction and why a large enough capability gap makes the outcome predictable.
 

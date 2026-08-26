@@ -15,7 +15,7 @@ content::
 \## How did your conversation go?
 In Module 5 you set out to have one real conversation about what you have been reading. Before you start the final chapters, close the loop on that conversation here.
 
-#### {--{"author":"Elias's AI","timestamp":1787673534832}@@Question--}{++{"author":"Elias's AI","timestamp":1787673534832}@@Question++}
+#### Question
 content::
 \## Debrief
 How did your conversation go? Whatever actually happened is fine to report:

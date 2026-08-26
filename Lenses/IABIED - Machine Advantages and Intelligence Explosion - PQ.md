@@ -8,11 +8,10 @@ authors:
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]"
 ---
-#### {--{"author":"Elias's AI","timestamp":1787667265046}@@Question--}{++{"author":"Elias's AI","timestamp":1787667265046}@@Question: Open
-id:: a485a1e6-d32a-48aa-a494-85bdeaeb5f3a++}
+#### Question
 content:: Before reading the second half of Chapter 1: Today's AI can still seem shallow compared with a human. Which limitations do you expect to persist, and which might disappear? What features of machines or AI development matter most to your forecast? Write down your intuition before reading.
 
-{--{"author":"Elias's AI","timestamp":1787672383492}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672383492}@@feedback-instructions::++}
+assessment-instructions::
 The student is about to read the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies."
 
 They just answered a forecasting prompt about whether current AI limitations will persist and which features of machines or AI development matter.

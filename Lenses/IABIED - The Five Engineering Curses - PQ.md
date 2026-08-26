@@ -6,13 +6,12 @@ tldr: "Before reading, take 60 seconds to brainstorm: what makes some engineerin
 authors:
   - Yatharth+Claude
 ---
-#### {--{"author":"Elias's AI","timestamp":1787667450557}@@Question--}{++{"author":"Elias's AI","timestamp":1787667450557}@@Question: Open
-id:: f8895dbe-ff61-40b3-8ea2-f7ef46253865++}
+#### Question
 content:: Think of a domain where engineering is famously difficult: nuclear reactors, space flight, computer security, drug development, anything you've encountered. **What is it about those domains that makes the engineering hard?** Not "the problems are complicated" (that's true everywhere), but the *specific structural features* of the system that make small mistakes catastrophic, or make verification hard, or make the experimental learning loop slow.
 
 Take 60 seconds. Write down two or three of those features in your own words before you read.
 
-{--{"author":"Elias's AI","timestamp":1787672490312}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672490312}@@feedback-instructions::++}
+assessment-instructions::
 The student is about to read the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies," the section where the authors enumerate five engineering "curses" using space probes, Chernobyl, and computer security as case studies.
 
 They just answered: "What is it about famously-difficult engineering domains that makes the engineering hard?"

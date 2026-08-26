@@ -10,12 +10,11 @@ authors:
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/02 - Chapter 2 - Grown, Not Crafted]]"
 ---
-#### {--{"author":"Elias's AI","timestamp":1787667282178}@@Question--}{++{"author":"Elias's AI","timestamp":1787667282178}@@Question: Open
-id:: f25e3b96-09db-4861-83bc-8098992f79aa++}
+#### Question
 content:: 
 Before reading Chapter 2: How do you imagine modern AI systems like ChatGPT were created? Who decided what it would say? Did engineers write rules for it to follow, or did something else happen? Write down your best guess before reading.
 
-{--{"author":"Elias's AI","timestamp":1787672154236}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672154236}@@feedback-instructions::++}
+assessment-instructions::
 The student is about to read the first half of Chapter 2 ("Grown, Not Crafted") of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "How do you imagine modern AI systems like ChatGPT were created?"
