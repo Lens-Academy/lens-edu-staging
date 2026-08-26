@@ -20,7 +20,7 @@ So here we'll have you read Daniel Kokotajlo's article. He's looking for what ha
 
 You probably won't understand everything he's saying at first, so try to guess what each thing means. Even still, let's give you some basic definitions:
 
-Compute: total number of additions or multiplications used in 
+Compute: total number of steps (addition, multi)
 
 Later articles will build up the perspective he's assuming as background knowledge.
 
