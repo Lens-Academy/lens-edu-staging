@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787761770383}@@---
+---
 id: 'b3964bd3-dd3c-4c83-9a9e-ac5be6d31e08'
 title: Demo Post-Meeting Survey
 ---
@@ -42,4 +42,3 @@ content:: What's one thing that worked well today?
 id:: b5d3fb3d-9465-47da-bdfd-868871cef91a
 content:: What's one thing the course, website, AI tutor, or meetings could do better?
 optional:: true
-++}
