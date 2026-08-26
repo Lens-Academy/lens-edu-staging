@@ -28,7 +28,7 @@ assessment-instructions::
 
 **2** — Lists some norms but cannot articulate the difference between imposed vs co-created norms.
 
-**3** — Explains that imposed norms don't get internalised; the cohort doesn't own them. Lists 3-5 {--{"author":"Luc's AI","timestamp":1787659259181}@@candidate norms, in any wording, that each name a concrete behaviour a participant could follow or violate in a session and that plausibly protect discussion quality, psychological safety, or airtime (e.g. steel-man --}{++{"author":"Luc's AI","timestamp":1787659259181}@@norms (steel-man ++}before {--{"author":"Luc's AI","timestamp":1787659259181}@@pushing--}{++{"author":"Luc's AI","timestamp":1787659259181}@@push++} back; share airtime; confidentiality on identity{--{"author":"Luc's AI","timestamp":1787659259181}@@ but--} not on ideas; changing your mind is high-status; one conversation at a{--{"author":"Luc's AI","timestamp":1787659259181}@@ time — any equivalent set counts, and learner-generated norms outside this list are equally acceptable).--}{++{"author":"Luc's AI","timestamp":1787659259181}@@ time).++} Describes the Week-1 setup: ask the cohort first what they need; only THEN add your own as questions.
+**3** — Explains that imposed norms don't get internalised; the cohort doesn't own them. Lists 3-5 norms (steel-man before push back; share airtime; confidentiality on identity not on ideas; changing your mind is high-status; one conversation at a time). Describes the Week-1 setup: ask the cohort first what they need; only THEN add your own as questions.
 
 **4** — As above, plus articulates that proposing your norms as questions ("What about X — anyone want that in the list?") rather than statements changes the buy-in dynamic.
 
