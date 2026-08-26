@@ -56,7 +56,7 @@ Describe your current understanding of what's possible in the next ten years of 
 
 Some suggested points to hit: What are the moving parts? What might get built? What hardware could be involved? What might happen as a result? What reactions and responses are likely? When?
 
-Don't think at great length; this is a pre-test, 
+Don't think at great length; this is a pre-test, so just 
 
 Before you read anything else, write down your current model of the next ten years of AI. Five to ten sentences. What gets built, what it can do, what changes in the world. Don't research first, and don't hedge yourself into fog; write what you actually expect, with dates where you dare. Nobody will grade this for being right. This is your day-zero snapshot: the rest of the course is a series of revisions to it, and at the end you will want to see where you started.
 
