@@ -46,7 +46,7 @@ assessment-instructions:: Check whether learner names claim and gives relevant o
 feedback-instructions:: State strongest part of response, then suggest one improvement.
 
 %%
-# Question: Choice
+# Question: Rating
 `Question: Rating` collects numbered self-report. Smallest version uses default 1-to-5 scale. %%
 
 #### Question: Rating
