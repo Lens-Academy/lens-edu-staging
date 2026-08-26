@@ -83,7 +83,7 @@ to:: Maybe we'll eventually find something intelligent, even if it lacks the mem
 content::
 \## The diff
 
-Consider his five, and consider your answer from above. What's similar? What's different? Were your assumptions similar or different from his? What techniques of thinking did he use that you didn't? Where do you think he might still be wrong about what 
+Consider his five, and consider your answer from above. What's similar? What's different? Were your assumptions similar or different from his? What techniques of thinking did he use that you didn't? Where do you think he might still be wrong about what would happen if you ran the programs 
 
 [^ajeya]: Ajeya Cotra, the researcher whose compute-requirements report the article argues with; the article's final section introduces her model properly.
 
