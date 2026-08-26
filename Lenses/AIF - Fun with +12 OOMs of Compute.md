@@ -26,7 +26,7 @@ Let's give you some basic definitions:
 
 **FLOP**: technically "**FL**oating-point **OP**eration", this just means an arithmetic step.
 
-**OOM**: Order Of Magnitude
+**OOM**: **O**rder **O**f **M**agnitude. 
 
 Later articles will build up the perspective he's assuming as background knowledge.
 
