@@ -174,7 +174,7 @@ feedback-instructions:: Explain most important estimation error and suggest one 
 Base assessor returns one percentage for whole segment plus private reason. Percentage appears beside response. Expected-answer blanks are graded automatically. `{{blank}}` and `{{number}}` remain ungraded unless `assessment-instructions::` defines how to judge them. %%
 
 %% 
-\# Question :
+# Question: Ranking
 `Question: Ranking` lets learner arrange items. Plain `Question: Ranking` is ungraded, useful for preferences and reflection. Initial item order is randomized. %%
 
 #### Question: Ranking
