@@ -54,7 +54,7 @@ assessment-instructions:: The student is mid-exercise. They have read the hypoth
 
 Do not supply any of the author's five answers (OmegaStar, Amp(GPT-7), Crystal Nights, Skunkworks, Neuromorph).
 
-This is their attempt, not a test. Use no grading language. Instead, give hints about 
+This is their attempt, not a test. Use no grading language. Instead, give hints about how to improve their 
 
 Look for: at least two concrete systems (not "better AI"), and a stated compute-to-capability mechanism for each.
 
