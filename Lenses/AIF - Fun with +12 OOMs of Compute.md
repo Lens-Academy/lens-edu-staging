@@ -18,7 +18,7 @@ Most such descriptions of AI progress depend heavily on the amount of "compute":
 
 So here we'll have you read Daniel Kokotajlo's article. He's looking for what happens when you run very large programs which try to find intelligent behaviors in different ways.
 
-You probably won't understand everything he's saying at first, so try to guess what each thing means. In particular, he assumes you know what techEven still, let's give you some basic definitions:
+You probably won't understand everything he's saying at first, so try to guess what each thing means. In particular, he assumes you know what techniques for making AIs were common in 2016. Even still, let's give you some basic definitions:
 
 **Compute**: total number of steps (addition, multiplication, compare, etc) used in training the AI. (For most AIs, the vast majority of steps are multiplication.)
 
