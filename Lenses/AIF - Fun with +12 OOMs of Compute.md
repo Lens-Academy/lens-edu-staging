@@ -20,8 +20,6 @@ So here we'll have you read Daniel Kokotajlo's article. He's looking for what ha
 
 Later articles will build up the perspective he's assuming as background knowledge.
 
-The fastest way to find out what your model of AI progress is made of is to remove its favorite bottleneck and watch what it predicts. Daniel Kokotajlo's question, in his words: "Can we get TAI just by throwing more compute at the problem?" His method is a magic wand: grant 2016's researchers twelve extra orders of magnitude of compute, and ask what gets built. This is not a forecast. It is a probe, and the thing it probes is you: what do you believe compute buys? He wrote the exercise into the article himself. You will struggle a little here; that is the point.
-
 A few translations before you read, because the article talks in units it never introduces. *Compute* is the total number of calculations spent building an AI, treated like a fuel budget; it is counted in FLOP[^flop] and written in powers of ten, where 10^23 means a 1 followed by 23 zeros. One *order of magnitude* (OOM) is a factor of ten, so +12 OOMs means a trillion times more, not twelve times more. And *TAI*, transformative AI, is AI that changes the world at least as much as the industrial revolution did; the article defines it properly later.
 
 [^flop]: One floating-point operation: a single arithmetic step, one multiply or one add, done by a computer. Totals like 10^23 FLOP are the whole computing bill for training an AI system.
