@@ -90,8 +90,6 @@ Consider his five, and consider your answer from above. Answer two to four of th
 - What techniques of estimation did he use that you didn't?
 - Where do you think he might still be wrong?
 
-[^ajeya]: Ajeya Cotra, the researcher whose compute-requirements report the article argues with; the article's final section introduces her model properly.
-
 assessment-instructions:: The student has their own list and has now read the author's five answers.
 
 The skill being practiced is honest diffing, not evaluation of the author.
