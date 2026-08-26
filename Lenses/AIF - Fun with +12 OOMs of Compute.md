@@ -43,7 +43,9 @@ content::
 
 Let's pause the article to give you a text box. Reminder: his use of the word "fun" is a bit sarcastic - you could just as well say "dramatic", "concerning", "powerful".
 
-What happens when you make the kinds of AI/ML software that were  2016 a trillion times larger?
+What happens when you make the kinds of AI/ML software that were used in 2016 a trillion times larger?
+
+
 
 Kokotajlo's own instruction: "I encourage you to stop reading, set a five-minute timer, and think about fun things that could be built in this scenario." By "fun" he means "powerful." He asked readers to post answers in the comments; for you, this box is the comments. A list that feels hard to produce is exactly the data this collects. Set a real five-minute timer. List the most powerful things you think AI projects could build in the Compute Fairy world, and for each, one line on why compute was the thing holding it back.
 
