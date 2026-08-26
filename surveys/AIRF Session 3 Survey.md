@@ -1,4 +1,4 @@
-{++{"author":"Turner's AI","timestamp":1787721989814}@@---
+{++{"author":"Turner's AI","timestamp":1787722121201}@@---
 id: '373a71b9-f8fc-4cb6-9456-49c54af4b66d'
 title: Post-Session Reflection
 ---
@@ -35,7 +35,9 @@ Who to pick, roughly:
 Pick whoever fits your question. If you are not sure, pick anyone. We talk to each other.
 
 #### Text
-content:: Once you have booked, send that person a quick DM on Discord to say hello and tell them whether it is a user interview or career guidance. It helps us come prepared.
+content:: **If you want one of these, book it now before you carry on.** Anything you fill in below is only saved when you press submit at the end.
+
+Once you have booked, send that person a quick DM on Discord to say hello and tell them whether it is a user interview or career guidance. It helps us come prepared.
 
 #### Choice
 key:: buddy_texted
