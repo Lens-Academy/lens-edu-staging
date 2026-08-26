@@ -92,7 +92,7 @@ Consider his five, and consider your answer from above. Answer two to four of th
 
 assessment-instructions:: The student has their own list and has now read the author's five answers.
 
-The skill being practiced is honest diffing, not evaluation of the author.
+The skill being practiced is accurate diffing, not evaluation of the author.
 
 Maximum 2 tutor turns. Keep an internal turn counter.
 
