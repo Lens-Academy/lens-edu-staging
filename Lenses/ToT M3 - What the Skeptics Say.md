@@ -10,7 +10,6 @@ tags:
 
 #### Text
 content::
-\## Reading: the case against the worry
 This lens does the opposite of the others: it makes the strongest case *against* the worry. If the evidence only supported one side, you would not need judgement. It does not, so here is the other side, told fairly.
 
 Read the two short pieces below. While you read, hold two questions: what does each piece get right, and how far does it actually go?
