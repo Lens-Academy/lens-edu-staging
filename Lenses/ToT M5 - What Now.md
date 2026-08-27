@@ -2,7 +2,9 @@
 id: 'af006bfe-601b-406e-a28b-400721f039f3'
 title: "So What Do I Do Now?"
 tldr: "The evidence says concern, not alarm; one kept guardrail beats a long list; and your judgement is worth defending whatever the future brings. This is the landing place, and a chance to re-answer where you started."
-summary_for_tutor: "Closing lens for Unit 5 of 'Thinking about Thinking' and for the course. Authored content: reasonable worry versus alarm; one thing to do today (a single kept guardrail); a 'where to learn more' list (Kulveit paper, 80,000 Hours profile, Bednar legal study, Roxana Seifer's survey, Jaspreet Singh's writing, and courses from BlueDot, 80,000 Hours, and Lens Academy); and a parting thought. Ends with a final reflection Question that re-asks the Unit 1 opening questions and asks what changed."
+summary_for_tutor: "Closing lens for Unit 5 of 'Thinking about Thinking' and for the course. Authored content: reasonable worry versus alarm; one thing to do today (a single kept guardrail); a 'where to learn more' list (Kulveit paper, 80,000 Hours profile, Bednar legal study, Roxana Seifer's survey, Jaspreet Singh's writing, and courses from BlueDot, 80,000 Hours, and Lens Academy); and a parting thought. Ends with a final reflection Question that re-asks the Unit 1 opening questions and asks what changed."{++{"author":"AI","timestamp":1787866473757}@@
+reading_minutes: 15
+tutor_minutes: 15++}
 tags:
   - wip
 ---
