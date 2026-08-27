@@ -102,9 +102,9 @@ A bare `#### Question`{--{"author":"Elias's AI","timestamp":1787850843312}@@ (no
 
 **Source inheritance:** the first Article (or Video) segment in a lens must have `source::`; later segments of the same type inherit the previous source, so a multi-excerpt reading is several `#### Article` blocks with only `from::`/`to::`.
 
-**Question: Open**: learner writes/dictates an answer. `assessment-instructions::` makes it graded (assessor returns a 0 to 100 score; learner sees the percentage). `feedback-instructions::` opens a tutor feedback conversation on the answer; omit it to record without AI response. `max-time:: 3:00`, `max-chars`, `placeholder`, `enforce-voice:: true` for spoken answers.
+{--{"author":"Elias's AI","timestamp":1787850851882}@@**Question: Open**: learner writes/dictates an answer. `assessment-instructions::` makes it graded (assessor returns a 0 to 100 score; learner sees the percentage). `feedback-instructions::` opens a tutor feedback conversation on the answer; omit it--}{++{"author":"Elias's AI","timestamp":1787850851882}@@**Question segments**: use [[../Lenses/Response++} to {--{"author":"Elias's AI","timestamp":1787850851882}@@record without AI response. `max-time:: 3:00`, `max-chars`, `placeholder`, `enforce-voice:: true` for spoken answers.
 
-**Question: Rating / Choice / FillBlank / Ranking**: same shape (`id::`, `content::`, `optional::`, `feedback-instructions::`) with their own fields listed above. Use Rating for self-report (confidence, interest), Choice for recognition checks and preferences, FillBlank for precise recall inside a sentence or numeric estimates, Ranking for chronology, procedures, and priorities.
+**Question: Rating / Choice / FillBlank / Ranking**: same shape (`id::`, `content::`, `optional::`, `feedback-instructions::`) with their own fields listed above. Use Rating for self-report (confidence, interest), Choice for recognition checks and preferences, FillBlank for precise recall inside a sentence or numeric estimates, Ranking for chronology, procedures, and priorities.--}{++{"author":"Elias's AI","timestamp":1787850851882}@@question segments]].++}
 
 **Roleplay**: learner talks with a persona defined in `ai-instructions::`; `content::` sets the scene for the learner, `opening-message::` is the persona's first line.
 
