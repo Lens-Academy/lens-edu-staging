@@ -9,6 +9,6 @@ tags:
 ---
 
 #### Question
-content:: Before you read anything in this unit: picture a team or an organisation that has gradually let an AI system take over more and more real decisions, because the AI is convenient, fast, and usually right. Nobody ever ordered a handover. The AI never refuses an instruction. Does meaningful control have to disappear for this to become a problem, or could influence slip away while everyone still feels in charge? Write your honest first answer before you read on.
+content:: Picture a team or an organisation that has gradually let an AI system take over more and more real decisions, because the AI is convenient, fast, and usually right. Nobody ever ordered a handover. The AI never refuses an instruction. Does meaningful control have to disappear for this to become a problem, or could influence slip away while everyone still feels in charge? Write your honest first answer before you read on.
 
 assessment-instructions:: The student is at the very start of Unit 3 of "Thinking about Thinking". They have just given their first, unaided answer to whether control can slip away through ordinary, willing dependence on a useful AI, without any rebellion. Acknowledge their reasoning in 1 to 2 sentences, specifically and without judgement. Do NOT preview the unit's studies, the gradual-disempowerment thesis, or any conclusion. This is a setup, not a test. Close by sending them to the next lens: something like, "Hold that answer. The next few lenses will put evidence and argument next to it. Come back to it at the end."
