@@ -19,9 +19,9 @@ content::
 Tools change {--{"author":"AI","timestamp":1787863773501}@@fast. This unit describes--}{++{"author":"AI","timestamp":1787863773501}@@quickly. These rules describe++} what works {--{"author":"AI","timestamp":1787863773501}@@now, not forever. Revisit--}{++{"author":"AI","timestamp":1787863773501}@@today. They may change as++} the {--{"author":"AI","timestamp":1787863773501}@@principles as--}{++{"author":"AI","timestamp":1787863773501}@@tools change. When++} the tools change,{--{"author":"AI","timestamp":1787863773501}@@ and--} test any new guidance against {--{"author":"AI","timestamp":1787863773501}@@Unit 3's evidence.--}{++{"author":"AI","timestamp":1787863773501}@@the evidence from Unit 3.++}
 
 \## Before you delegate
-- Spend five minutes writing your own rough notes before you prompt. This puts your thinking into the loop first.
-- If the topic is new to you, ask for questions, not answers. You still form the answer.
-- Delegate a task. Do not delegate the judgement about whether the task should be delegated.
+- {--{"author":"AI","timestamp":1787863781973}@@Spend five minutes writing--}{++{"author":"AI","timestamp":1787863781973}@@Write++} your own rough notes {++{"author":"AI","timestamp":1787863781973}@@for five minutes ++}before you {--{"author":"AI","timestamp":1787863781973}@@prompt.--}{++{"author":"AI","timestamp":1787863781973}@@prompt the AI.++} This puts your thinking into the loop first.
+- If the topic is new to you, ask {++{"author":"AI","timestamp":1787863781973}@@the AI ++}for questions, not answers. You still form the answer.
+- Delegate a task. {--{"author":"AI","timestamp":1787863781973}@@Do not delegate --}{++{"author":"AI","timestamp":1787863781973}@@Keep ++}the {--{"author":"AI","timestamp":1787863781973}@@judgement--}{++{"author":"AI","timestamp":1787863781973}@@decision++} about whether the task should be delegated.
 
 \## While you work with the AI
 - Treat the AI as a sparring partner, not an authority. Ask it to argue against its own answer.
