@@ -15,7 +15,8 @@ description: "Shown on the course page."
 tags: [IABIED]
 discussion: https://discord.com/channels/...
 ---
-%%Course goal%%
+%%Course goal:
+%%
 
 # Module: [[../modules/IABIED M1 Intro, Part 1]]
 # Meeting: Meeting 1 name
