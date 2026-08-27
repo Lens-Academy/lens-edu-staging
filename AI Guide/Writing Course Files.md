@@ -43,6 +43,6 @@ Optional frontmatter: `slug-aliases`, `partner-name`, `partner-logo`, `partner-l
 
 Before creating a new course, discuss target audience features and value proposition of that course with the user.
 
-The target audience for a course are  multiple features
+The target audience for a course are people with one or more of the listed features.
 
 **Diff the course against what was advertised.** Read the public landing copy and tabulate each promise against the unit that delivers it. Internal review only ever compares the artifact to itself, so this is the one check that catches a course quietly not being the course that was sold.
