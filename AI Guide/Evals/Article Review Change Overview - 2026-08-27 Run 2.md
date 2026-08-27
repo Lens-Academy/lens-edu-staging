@@ -34,12 +34,14 @@ visible because deterministic retroactive repairs still require human approval.
 ```
 
 ```diff
--Out of the box they aren’t agents who are trying to pursue their own goals in the world and their objective functions are quite malleable.
-+Out of the box they aren’t agents who are trying to pursue their own goals in the world their objective functions are quite malleable.{>>{"author":"Luc","timestamp":1787861832353}@@no the source actually has the "and". Very weird. Can you look into what happened with the subagent?<<}
+-Out of the box they aren’t agents who are trying to pursue their own goals in the world and {++{"author":"Luc's AI","timestamp":1787862696183}@@and ++}their objective functions are quite malleable.
++Out of the box they aren’t agents who are trying to pursue their own goals in the world {++{"author":"Luc's AI","timestamp":1787862696471}@@and ++}their objective functions are quite malleable.{>>{"author":"Luc","timestamp":1787861832353}@@no the source actually has the "and". Very weird. Can you look into what happened with the subagent?<<}
 ```
 
-The date repair looks useful. The removed `and` makes the sentence grammatical
-only if the source itself omits it; this deserves human scrutiny.
+The date repair {--{"author":"Luc's AI","timestamp":1787862696769}@@looks useful.--}{++{"author":"Luc's AI","timestamp":1787862696769}@@is source-backed.++} The {--{"author":"Luc's AI","timestamp":1787862696769}@@removed `and` makes--}{++{"author":"Luc's AI","timestamp":1787862696769}@@wording repair removes one duplicated
+`and`;++} the {--{"author":"Luc's AI","timestamp":1787862696769}@@sentence grammatical--}{++{"author":"Luc's AI","timestamp":1787862696769}@@source and reviewed article both retain the other one. Relay displayed++}
+{--{"author":"Luc's AI","timestamp":1787862696769}@@only if--}{++{"author":"Luc's AI","timestamp":1787862696769}@@the repair as a one-token deletion, which made++} the {--{"author":"Luc's AI","timestamp":1787862696769}@@source itself omits it; this deserves human scrutiny.--}{++{"author":"Luc's AI","timestamp":1787862696769}@@overview’s first rendering
+look like the reviewer had removed the only `and`.++}
 
 ### 2. Reward is not the optimization target
 
@@ -109,7 +111,22 @@ phrases and sentences throughout the article, including these exact changes: {>>
 +It is, however, still good to be aware of the numbers to make more effective decisions in the short term and as an input for our estimates of sources of future suffering.
 ```
 
-It also removes the terminal Creative Commons license notice.
+It also removes the terminal Creative Commons license notice.{++{"author":"Luc's AI","timestamp":1787862697042}@@
+
+#### Clean-import comparison
+
+[Open the preserved reviewed version](https://editor.lensacademy.org/2128996e/Lens-Edu/articles/baumann-longtermism-and-animal-advocacy-before-clean-reimport.md) · [Open the clean import](https://editor.lensacademy.org/6297919b/Lens-Edu/articles/baumann-longtermism-and-animal-advocacy.md)
+
+The clean import is materially more complete: 11,584 body characters versus
+6,807; 30 links versus zero; and six source footnotes that were absent from the
+reviewed version. It recovered every URL found in the rendered source, including
+the citations attached to phrases such as `longtermism`, `moral circle
+expansion`, `antispeciesism`, `patient philanthropy`, and `value drift`.
+
+The old text’s distinct vocabulary is 99.3% covered by the clean import, while
+only 81.7% of the clean import’s distinct vocabulary occurs in the old version.
+This confirms that the retroactive reviewer recovered several visible omissions
+but could not reconstruct the missing link graph and footnotes from that draft.++}
 
 ### 5. Why AI alignment could be hard with modern deep learning
 
