@@ -22,9 +22,8 @@ Some definitions:
 - A **step** is one new number at a particular time: a single new structure, ship, or communication method.
 - A step is a **jump** when it breaks the trend. That is, if each previous step had been on a trend before a next step, then a jump occurs when an actual development was ahead of the previous smooth-ish line.
 
-The last lens probed your model from the inside: what you personally believe compute buys. This one turns around and asks the outside question: never mind your reasoning, how has technological progress actually arrived, across every trend anyone has measured?
+
 {>>{"author":"lauren (chrome@what)","timestamp":1787818839908}@@6:20:36 start<<}
-Every model of the future leans on an assumption about smoothness: does capability arrive as a steady slope, or in cliffs? That is an empirical question about the past, and AI Impacts spent years measuring it: dozens of technological trends checked for moments where one step delivered more than a century of progress at the previous rate. Three terms, so the question below is answerable:
 
 - A **trend** is one measured quantity over time: tallest structure, ship tonnage, transatlantic message speed.
 - A **step** is one new data point in that record: a single new ship, bridge, or bomb.
