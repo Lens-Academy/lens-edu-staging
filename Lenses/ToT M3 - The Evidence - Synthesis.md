@@ -36,10 +36,8 @@ The skeptical case you read points the same way. It limits the claim to specific
 content::
 If you'd like to do more reading, take a look at the optional lenses here.
 ::card[[../Lenses/ToT M3 - Paper - Gerlich]]
-> Gerlich: the AI-use and critical-thinking survey, and its real limits.
 
 ::card[[../Lenses/ToT M3 - Paper - Seifer]]
-> Seifer: workplace warning signs from a UK worker survey.
 
 ::card[[../Lenses/ToT M3 - Paper - Gutoreva (Counterargument)]]
 > Gutoreva: the extended-mind pushback on a simple decline story.
