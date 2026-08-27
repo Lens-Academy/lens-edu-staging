@@ -10,7 +10,9 @@ It is defined by a course file (see [[Lens Edu/AI Guide/Writing Course Files]]).
 A module (see [[../AI Guide/Writing Modules]]) contains links to a set of learning outcomes that define what we want to teach in this module, and an ordered list of lenses, which constitute the actual content.
 Each learning outcome (see [[../AI Guide/Writing (Learning) Outcomes]]) defines one testable skill and a set of tests the platform uses to measure it (the test renders at the end of the module or submodule that declares the outcome).
 Each lens is rendered as a separate page. They contain the actual learning content (readings, AI-tutor chats, questions, roleplays). (see [[../AI Guide/Writing Lenses]])
-Lenses can embed exterma **articles** and **video transcripts**, which live in the `articles/` and `video_transcripts/` folders alongside. (see [[../AI Guide/Adding Sources]])
+Lenses can embed external **articles** and **video transcripts**, which live in the `articles/` and `video_transcripts/` folders alongside. (see [[../AI Guide/Adding Sources]])
+
+
 
 Changes sync to https://staging.lensacademy.org within seconds; Only core team members can push to production (https://lensacademy.org).
 
