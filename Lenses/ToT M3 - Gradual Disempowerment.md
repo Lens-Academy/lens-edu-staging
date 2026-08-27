@@ -86,7 +86,5 @@ What to do: acknowledge the link they name; if they treat the whole chain as pro
 What not to do: run a long sequence; over-validate; require agreement with the thesis.
 
 ::card[[../articles/gradual-disempowerment-gradual-disempowerment]]
-> The full Kulveit et al. reading, beyond the core excerpt.
 
 ::card[[../Lenses/ToT M3 - The Philosophy of Autonomy Loss]]
-> The philosophical bridge from skill loss to autonomy loss.
