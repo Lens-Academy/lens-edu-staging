@@ -22,7 +22,7 @@ METR is an independent organisation that runs those measurements. They test mode
 
 (Considering what effects that might or might not have on the alignment of METR as an organization is, for now, left as an exercise to the reader. We'll get to organizations later.)
 
-That method has three parts.
+Their approach has three parts.
 
 - They take tasks that **human professionals have been timed on**, so every task has a human duration attached.
 - They run frontier agents on those tasks, on their own, with no person helping.
