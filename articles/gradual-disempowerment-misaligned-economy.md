@@ -1,7 +1,12 @@
 ---
 title: "Misaligned Economy (Gradual Disempowerment)"
 author:
-  - "Gradual-disempowerment"
+  - {--{"author":"AI","timestamp":1787855971052}@@"Gradual-disempowerment"--}{++{"author":"AI","timestamp":1787855971052}@@"Jan Kulveit"
+  - "Raymond Douglas"
+  - "Nora Ammann"
+  - "Deger Turan"
+  - "David Krueger"
+  - "David Duvenaud"++}
 source_url: "https://gradual-disempowerment.ai/misaligned-economy"
 published: 2026-08-07
 created: 2026-08-07

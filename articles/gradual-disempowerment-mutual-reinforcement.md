@@ -1,7 +1,12 @@
 ---
 title: "Mutual Reinforcement (Gradual Disempowerment)"
 author:
-  - "Gradual-disempowerment"
+  - {--{"author":"AI","timestamp":1787855972150}@@"Gradual-disempowerment"--}{++{"author":"AI","timestamp":1787855972150}@@"Jan Kulveit"
+  - "Raymond Douglas"
+  - "Nora Ammann"
+  - "Deger Turan"
+  - "David Krueger"
+  - "David Duvenaud"++}
 source_url: "https://gradual-disempowerment.ai/mutual-reinforcement"
 published: 2026-08-07
 created: 2026-08-07

@@ -1,7 +1,12 @@
 ---
 title: "Gradual Disempowerment"
 author:
-  - "Gradual-disempowerment"
+  - {--{"author":"AI","timestamp":1787855969805}@@"Gradual-disempowerment"--}{++{"author":"AI","timestamp":1787855969805}@@"Jan Kulveit"
+  - "Raymond Douglas"
+  - "Nora Ammann"
+  - "Deger Turan"
+  - "David Krueger"
+  - "David Duvenaud"++}
 source_url: "https://gradual-disempowerment.ai/"
 published: 2026-08-07
 created: 2026-08-07
