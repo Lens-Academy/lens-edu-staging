@@ -50,6 +50,8 @@ Before you read Greenblatt's four plans, describe your own.{++{"author":"Luc","t
 --}
 Write two or three sentences about the plan you believe exists today to prevent an AI takeover. Name who executes it. If you think no plan exists, say what happens instead. Say who would act if the danger became visible, and how they would act.{++{"author":"Luc","timestamp":1787823119379}@@
 
+Please write 2 or 3 sentences about the plan you believe exists today to prevent AI takeover, and describe who executes the plan or who will execute the plan. Or if you believe no plan exists, describe what you think will happen instead. Describe who would act if the dangers became more visible than they currently are, and how they would act, even if they don't have an upfront plan for it.
+
 ++}
 
 Then add one more line. This is the harder part. What does your plan assume the rest of the world is doing?
