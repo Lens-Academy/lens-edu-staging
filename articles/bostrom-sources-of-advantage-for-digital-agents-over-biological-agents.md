@@ -6,9 +6,19 @@ source_url: https://aiimpacts.org/sources-of-advantage-for-artificial-intelligen
 published: 2016-09-04
 created: 2026-02-06
 description: "Artificial agents should have several advantages over humans. Details The following is an excerpt from Superintelligence (Bostrom, 2014),  reproduced with permission. It outlines ten advantages Bostrom expects digital intelligences to have over human intelligences. Sources of advantage for digital intelligence Minor changes in brain volume and wiring can have major consequences, as we see when we compare the intellectual and technological..."
----
+{++{"author":"Luc's AI","timestamp":1787826300498}@@llm-review:
+  content-sha: "sha256:1e86008143bd10a9c8ea014c4b7e86feb54141217e2d274c31c7bba39beb87e2"
+  date: 2026-08-27
+  model: "sonnet"
+  version: "article-qc-v1"
+  source:
+    content-sha: "sha256:5cec7727973d697dc39cd09a9b8a1e5b96e41a077055f34ab0f8b07026ea218d"
+    fetched: 2026-08-27
+    kind: "live"
+++}---{--{"author":"Luc's AI","timestamp":1787826300282}@@
 
-%%
+--}{++{"author":"Luc's AI","timestamp":1787826300282}@@
+++}%%
 Add discussion note here:
 
 ...
@@ -19,8 +29,9 @@ Artificial agents should have several advantages over humans.
 
 The following is an excerpt from [Superintelligence](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies) (Bostrom, 2014), reproduced with permission. It outlines ten advantages Bostrom expects digital intelligences to have over human intelligences.
 
-> Sources of advantage for digital intelligence 
->  
+> {--{"author":"Luc's AI","timestamp":1787826300054}@@Sources--}{++{"author":"Luc's AI","timestamp":1787826300054}@@**Sources++} of advantage for digital {--{"author":"Luc's AI","timestamp":1787826300054}@@intelligence 
+--}{++{"author":"Luc's AI","timestamp":1787826300054}@@intelligence**
+++}>  
 > Minor changes in brain volume and wiring can have major consequences, as we see when we compare the intellectual and technological achievements of humans with those of other apes. The far greater changes in computing resources and architecture that machine intelligence will enable will probably have consequences that are even more profound. It is difficult, perhaps impossible, for us to form an intuitive sense of the aptitudes of a superintelligence; but we can at least get an inkling of the space of possibilities by looking at some of the advantages open to digital minds. The hardware advantages are easiest to appreciate:  
 >  
 > - *Speed of computational elements.* Biological neurons operate at a peak speed of about 200 Hz, a full seven orders of magnitude slower than a modern microprocessor (~2 GHz).¹⁹ As a consequence, the human brain is forced to rely on massive parallelization and is incapable of rapidly performing any computation that requires a large number of sequential operations.²⁰ (Anything the brain does in under a second cannot use much more than a hundred sequential operations—perhaps only a few dozen.) Yet many of the most practically important algorithms in programming and computer science are not easily parallelizable. Many cognitive tasks could be performed far more efficiently if the brain’s native support for parallelizable pattern-matching algorithms were complemented by, and integrated with, support for fast sequential processing.
