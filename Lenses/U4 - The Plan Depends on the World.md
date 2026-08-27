@@ -14,7 +14,7 @@ tags:
 content::
 \## Before you read
 
-{>>{"author":"Luc","timestamp":1787822721810}@@start time 11h25<<}
+{>>{"author":"Luc","timestamp":1787822721810}@@start time 11h25<<}{>>{"author":"Luc","timestamp":1787823313102}@@end time of typing 11h34. Then started struggling with the suggestion mode.<<}
 {--{"author":"Luc","timestamp":1787823052325}@@
 --}{++{"author":"Luc","timestamp":1787823046370}@@
 ++}{++{"author":"Luc","timestamp":1787823050037}@@
