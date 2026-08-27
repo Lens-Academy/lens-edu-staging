@@ -20,7 +20,7 @@ By far the{>>{"author":"lauren (chrome@what)","timestamp":1787823523443}@@7:38:4
 
 METR is an independent organisation that runs those measurements. They test models that labs give them access to, and they publish their results.
 
-(Considering what effects that might or might not have on the alignment of METR as an organization is, for now, left as an exercise to the reader.)
+(Considering what effects that might or might not have on the alignment of METR as an organization is, for now, left as an exercise to the reader. You)
 
 That method has three parts.
 
