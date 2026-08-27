@@ -19,7 +19,6 @@ content::
 
 The previous unit was about how AI could go very wrong for humanity. This unit will discuss how we can prevent bad outcomes and steer the future towards good outcomes.
 
-Luc","timestamp":1787822778420}@@
 
 Unit 3 showed disagreements between different experts about how things could go wrong. An article by Nate Stories put the main risks inside the AI system, with the risk being the AI aiming at bad outcomes or aiming at things that lead to bad outcomes for humans. In contrast, Jan Kulweit and co-authors looked more at the risks of interactions between different institutions—that is, risks of group dynamics that no single actor is aiming at. For this unit, these disagreements and these different threat models matter because where you place the main risks will affect what things you would attempt to change in order to reduce AI x-risk.
 
