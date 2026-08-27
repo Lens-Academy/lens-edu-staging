@@ -2,9 +2,9 @@
 id: 'e5221313-7959-4792-a4da-b52c11c4b596'
 title: "Practice: Audit a Conversation and Choose a Guardrail"
 tldr: "Practice makes the rules real: audit one of your own recent AI conversations, spar against a confident flawed answer, and commit to one guardrail this week."
-summary_for_tutor: "Practice lens for Unit 4 of 'Thinking about Thinking', applied after the 'Choosing What to Delegate' guidance lens. Three exercises: (1) a Question auditing one of the student's real recent AI conversations through the three-stage frame; (2) a Roleplay sparring practice in which a confident-but-flawed AI persona defends a risky recommendation and the student must interrogate it; (3) a Question in which the student rewrites one workflow so judgement stays with them and commits to one guardrail for the week. Feedback is structured and supportive, not grade-like on life choices."{++{"author":"AI","timestamp":1787866466508}@@
+summary_for_tutor: "Practice lens for Unit 4 of 'Thinking about Thinking', applied after the 'Choosing What to Delegate' guidance lens. Three exercises: (1) a Question auditing one of the student's real recent AI conversations through the three-stage frame; (2) a Roleplay sparring practice in which a confident-but-flawed AI persona defends a risky recommendation and the student must interrogate it; (3) a Question in which the student rewrites one workflow so judgement stays with them and commits to one guardrail for the week. Feedback is structured and supportive, not grade-like on life choices."
 reading_minutes: 2
-tutor_minutes: 18++}
+tutor_minutes: 18
 tags:
   - wip
 ---
