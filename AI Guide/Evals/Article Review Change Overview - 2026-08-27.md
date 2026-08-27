@@ -1,4 +1,4 @@
-{++{"author":"Luc's AI","timestamp":1787840212774}@@# Retroactive article review: exact proposed changes
+# Retroactive article review: exact proposed changes
 
 Date: 2026-08-27  
 Run: `2026-08-27-d5816957`
@@ -289,7 +289,7 @@ The exact attempted deletion was:
 ```diff
 -*Licensed under [CC BY-NC-SA 3.0 US](https://creativecommons.org/licenses/by-nc-sa/3.0/us/).*
 -
--{>>{"author":"Luc's AI","timestamp":1787840212608}@@TODO: Licensed content<<}
+-
 ```
 
 Removing the Creative Commons attribution matches the review policy. Removing
@@ -312,4 +312,3 @@ blocked the whole edit.
 The sample therefore contains useful repairs, but it also supports keeping the
 human review step: provenance-only changes, no-op suggestions, and one clear
 regression should not be bulk-accepted without inspection.
-++}
