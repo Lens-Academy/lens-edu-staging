@@ -53,7 +53,7 @@ The last section [responds to some common objections to our approach](https://al
 
 A few years ago it looked like the path to AGI was by training deep RL agents from scratch in a wide range of games and multi-agent environments. These agents would be aligned to maximizing simple score functions such as survival and winning games and wouldn’t know much about human values. Aligning the resulting agents would be a lot of effort: not only do we have to create a human-aligned objective function from scratch, we’d likely also need to instill actually new capabilities into the agents like understanding human society, what humans care about, and how humans think.
 
-Large language models (LLMs) make this a lot easier: they come preloaded with a lot of humanity’s knowledge, including detailed knowledge about human preferences and values. Out of the box they aren’t agents who are trying to pursue their own goals in the world and {--{"author":"Luc's AI","timestamp":1787842809757}@@and --}their objective functions are quite malleable. For example, they are [surprisingly easy to train to behave more nicely](https://openai.com/blog/instruction-following/).
+Large language models (LLMs) make this a lot easier: they come preloaded with a lot of humanity’s knowledge, including detailed knowledge about human preferences and values. Out of the box they aren’t agents who are trying to pursue their own goals in the world and their objective functions are quite malleable. For example, they are [surprisingly easy to train to behave more nicely](https://openai.com/blog/instruction-following/).
 
 ### 1.2 The empirical evidence is looking favorably
 
