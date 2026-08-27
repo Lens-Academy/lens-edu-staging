@@ -13,6 +13,6 @@ tags:
 
 # Module: [[../modules/Thinking about Thinking - M3 - A route to gradual disempowerment]]
 
-# Module: [[../modules/Thinking about Thinking - M4 - Using AI without losing your judgement]]
+# Module: [[../modules/Thinking about Thinking - M4 - l]]
 
 # Module: [[../modules/Thinking about Thinking - M5 - So what do I do now]]
