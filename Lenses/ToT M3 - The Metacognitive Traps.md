@@ -2,7 +2,7 @@
 id: '89d98880-a5ce-4e4d-b060-92f30f683153'
 title: "The Three Metacognitive Traps AI Adds"
 duration_minutes: 9
-tldr: "Unit 2 covered five metacognitive traps that existed before AI. This lens adds the three AI introduces: Interruption, Mislead, and Progression. A short clip shows them; then one question asks which you most easily miss."
+tldr: "Unit 2 covered five metacognitive traps that existed before AI. {--{"author":"AI","timestamp":1787862137593}@@This lens--}{++{"author":"AI","timestamp":1787862137593}@@AI++} adds {--{"author":"AI","timestamp":1787862137593}@@the --}three {--{"author":"AI","timestamp":1787862137593}@@AI introduces: --}{++{"author":"AI","timestamp":1787862137593}@@more: ++}Interruption, Mislead, and Progression. A short clip shows {--{"author":"AI","timestamp":1787862137593}@@them; then--}{++{"author":"AI","timestamp":1787862137593}@@them. Then++} one question asks which {++{"author":"AI","timestamp":1787862137593}@@trap ++}you most easily miss."
 summary_for_tutor: "Core lens 2 of Unit 3 of 'Thinking about Thinking'. Continuity with Unit 2: the five traps from Unit 2 predate generative AI; this lens introduces the three AI adds (Interruption, Mislead, Progression) via the JetBrains clip from 6:50 to 8:56. Authored bridge notes the 2018/2024 Prather lab study identified metacognitive difficulties before and with AI. Authored definitions state each trap in plain language with a knowledge-work example, mirroring the Unit 2 traps lens. One short processing question asks the learner which new trap is easiest to miss in their own work and why. About 9 minutes."
 tags:
   - wip
