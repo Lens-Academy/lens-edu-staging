@@ -72,4 +72,3 @@ content::
 Want the numbers behind this summary? The paper lens holds the study's own account of the survey.
 
 ::card[[../Lenses/ToT M3 - Paper - Lee (Microsoft)]]
-> The full Lee et al. survey: design, the 936 examples, and what the self-report does and does not support.

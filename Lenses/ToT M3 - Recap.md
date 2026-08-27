@@ -8,7 +8,8 @@ summary_for_tutor: "Core lens 8 (final) of Unit 3 of 'Thinking about Thinking'. 
 
 #### Text
 content::
-You started by drawing a line between using an AI well and handing over control. You met three traps AI adds. You saw Lee's confidence finding, the Bednar and Budzyń contrast, the gradual-disempowerment argument, the skeptic's strongest case, and an evidence ladder. Now redraw your line.
+{++{"author":"AI","timestamp":1787860502533}@@\## The unit in one breath
+++}You started by drawing a line between using an AI well and handing over control. You met three traps AI adds. You saw Lee's confidence finding, the Bednar and Budzyń contrast, the gradual-disempowerment argument, the skeptic's strongest case, and an evidence ladder. Now redraw your line.
 
 #### Question
 content::
