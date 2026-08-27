@@ -14,6 +14,16 @@ Roxana Seifer's survey of 299 UK workers (2026) found similar self-reported patt
 #### Article
 source:: [[../articles/seifer-could-cognitive-dependency-be-an-early-warning-sign-of-gradual-disempowerment]]
 from:: "The study found evidence that AI may be affecting how employees approach cognitive tasks:"
-to:: "Daily users reported the strongest patterns across all four items."
+to:: "Daily users reported the strongest patterns across all four items."{++{"author":"AI","timestamp":1787856681524}@@
+
+#### Article
+source:: [[../articles/seifer-could-cognitive-dependency-be-an-early-warning-sign-of-gradual-disempowerment]]
+from:: "These results suggest the potential behavioural micro-level mechanisms that could contribute to these systemic impacts in the long term."
+to:: "If it cannot be assumed, it has to be actively designed for and built into workflows."
+
+#### Article
+source:: [[../articles/seifer-could-cognitive-dependency-be-an-early-warning-sign-of-gradual-disempowerment]]
+from:: "One of the challenges I often hear is that we have been through this before with Google and other technologies and turned out fine."
+to:: "The study therefore does not prove that AI causes cognitive dependency, but it identifies a set of related, self-reported cognitive patterns that warrant further investigation."++}
 
 %% Note: Self-published Substack survey (2026), 299 UK employees across six sectors. Self-reported, single time point; author states it does not prove causation. %%
