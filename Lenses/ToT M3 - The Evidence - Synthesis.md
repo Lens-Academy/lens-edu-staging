@@ -45,9 +45,9 @@ content::
 ::card[[../Lenses/ToT M3 - Paper - Gutoreva (Counterargument)]]
 > Gutoreva: the extended-mind pushback on a simple decline story.
 
-::card[[../Lenses/ToT M3 - What the Skeptics Say]]
+{--{"author":"AI","timestamp":1787852969570}@@::card[[../Lenses/ToT M3 - What the Skeptics Say]]
 > The strongest case against the worry, stated fairly.
-#### Question
+--}#### Question
 content::
 \## Your calibrated conclusion
 Separate three things in writing:
