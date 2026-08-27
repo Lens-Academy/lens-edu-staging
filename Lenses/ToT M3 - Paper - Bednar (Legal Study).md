@@ -14,8 +14,8 @@ Bednar and colleagues (2025) ran a randomised study with about 100 Minnesota law
 
 #### Article
 source:: [[../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-research-offers-a-more-complicated-answer]]
-from:: "Since the public release of ChatGPT in 2022, a growing body of empirical research has suggested that generative AI systems could fundamentally reshape the practice of law."
-to:: "conditions that increase the likelihood that AI substitutes for careful analysis rather than supporting it."
+from:: {--{"author":"AI","timestamp":1787860972593}@@"Since the public release of ChatGPT in 2022,--}{++{"author":"AI","timestamp":1787860972593}@@"We conducted++} a {--{"author":"AI","timestamp":1787860972593}@@growing body of empirical research has suggested that generative AI systems could fundamentally reshape the practice of law."--}{++{"author":"AI","timestamp":1787860972593}@@randomized controlled trial involving approximately 100 upper-level students at the University of Minnesota Law School."++}
+to:: {--{"author":"AI","timestamp":1787860972593}@@"conditions--}{++{"author":"AI","timestamp":1787860972593}@@"This pattern suggests++} that {--{"author":"AI","timestamp":1787860972593}@@increase the likelihood that AI substitutes for--}{++{"author":"AI","timestamp":1787860972593}@@AI can sometimes displace or dilute++} careful {--{"author":"AI","timestamp":1787860972593}@@analysis rather than supporting it."--}{++{"author":"AI","timestamp":1787860972593}@@reasoning, even among relatively strong performers."++}
 
 #### Question
 content::
