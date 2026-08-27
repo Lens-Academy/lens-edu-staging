@@ -1,6 +1,6 @@
 ---
 id: '2e2fd8ba-01ce-425a-80f9-0e9fde83a359'
-title: "Could Control Vanish Without a Revolt?"
+title: "Where Is Your Line?"
 duration_minutes: 4
 tldr: "Before the unit argues anything: picture an organisation that quietly defers more and more to an AI that is convenient, fast, and usually right. Draw your own line between competent use and handing over control, and put it on record before you read on."
 summary_for_tutor: "Pre-reading question at the start of Unit 3 of 'Thinking about Thinking'. Asks the learner to imagine an organisation quietly deferring more and more to a convenient, fast, usually-correct AI, and to draw their own line between competent use and handing over control. Minimal brief: acknowledge, do not preview the unit's evidence or argument, send them to the next lens. Core lens 1, about 4 minutes."
