@@ -12,7 +12,7 @@ id: <uuid>
 slug: ai-risk-fundamentals        # required
 title: "AI Risk Fundamentals"     # required
 description: "Shown on the course page."
-tags: [IABIED]
+tags: ...
 discussion: https://discord.com/channels/...
 ---
 %%
