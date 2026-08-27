@@ -55,7 +55,7 @@ options::
 
 ## Attaching a survey to meetings
 
-In the course file, add a `survey::` wikilink under the `# Meeting:` marker (alongside `meeting-doc-template::`):
+In the course file, add a `survey::` wikilink under the `# Meeting:` marker (alongside [[]]):
 
 ```markdown
 # Meeting: Unit 1
