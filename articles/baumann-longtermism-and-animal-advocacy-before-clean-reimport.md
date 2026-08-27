@@ -1,7 +1,7 @@
 ---
 title: "Longtermism and Animal Advocacy"
-source_url: https://centerforreducingsuffering.org/longtermism-and-animal-advocacy/
-author:
+{--{"author":"Luc's AI","timestamp":1787862120988}@@source_url: https://centerforreducingsuffering.org/longtermism-and-animal-advocacy/
+--}author:
   - Tobias Baumann
 published: 2020-11-11
 created: 2026-05-28
