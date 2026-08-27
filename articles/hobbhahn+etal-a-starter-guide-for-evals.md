@@ -78,7 +78,7 @@ In some cases, we want to elicit properties of models that have already been fin
 
 To get started, you can check out a prompting guide by [Anthropic](https://docs.anthropic.com/claude/docs/introduction-to-prompt-design), [Hugging Face](https://huggingface.co/docs/transformers/main/tasks/prompting#best-practices-of-llm-prompting), or [PromptingGuide](https://www.promptingguide.ai/introduction/elements).
 
-{++{"author":"Luc's AI","timestamp":1787825787942}@@### ++}Playing with LLMs
+### Playing with LLMs
 
 In our experience, getting a “feeling for the model” is very important. This means refining your intuition for how models would typically react to many different prompts, which type of things they are good or bad at, what different strategies can be used to make them output certain texts, etc. Often, we found it hard to formalize this knowledge or transfer it between people with different levels of experience. A lot of this informal knowledge comes from “playing around” with the model, interacting with it, trying to jailbreak it, and applying new discoveries yourself (e.g. Chain of thought, Learning from Language Feedback, LM agents, etc.). While playing with the model, you often stumble upon something curious, quickly form a hypothesis, and check it with a few additional examples. This is much more uncertain than rigorous scientific research but sharpens and refines your intuitions a lot which you can then use in your scientific endeavors. 
 
