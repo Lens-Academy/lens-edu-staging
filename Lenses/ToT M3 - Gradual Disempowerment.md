@@ -38,8 +38,7 @@ to:: "as machines become capable of performing virtually any cognitive task more
 
 #### {++{"author":"AI","timestamp":1787828717187}@@Text
 content::
-\## The objection the next passage answers
-A natural objection arises. The economy, culture, and states balance one another. States regulate the market. Culture influences the state. If the economy drifts away from human interests, the other systems might pull it back.
+However, a natural objection arises. The economy, culture, and states balance one another. States regulate the market. Culture influences the state. If the economy drifts away from human interests, the other systems might pull it back.
 
 The next passage answers that objection. The answer has two parts.
 
