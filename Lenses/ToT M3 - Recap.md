@@ -25,16 +25,17 @@ In the opening lens you drew a line between "using the AI well" and "handing ove
 
 Your rule must say clearly where you agree with the colleague and where you do not.++}
 
-assessment-instructions:: Final assessment of Unit 3 of "Thinking about Thinking". The learner must defend a nuanced conclusion, not repeat "AI inevitably destroys thinking" or "there is no risk while humans retain formal authority."
+assessment-instructions:: Final assessment of Unit 3 of "Thinking about Thinking". The learner {--{"author":"AI","timestamp":1787860444355}@@must defend--}{++{"author":"AI","timestamp":1787860444355}@@redraws the line they drew in the opening lens, as++} a {--{"author":"AI","timestamp":1787860444355}@@nuanced conclusion, not repeat "AI inevitably destroys thinking" or "there is no risk while humans retain formal authority."--}{++{"author":"AI","timestamp":1787860444355}@@concrete rule, and engages the colleague's "we can switch it off" claim. Assess the rule, not the agreement.++}
 
 Reward a response that:
-- models control loss as gradual and below the threshold of any single event, not a rebellion or takeover
-- uses at least one study correctly (for example, Lee's confidence association, Budzyń's detection drop, or Bednar's conditional gains)
-- keeps association and causation separate
-- recognises that effects depend on conditions, not on AI in general
-- states explicit uncertainty about the leap from workplace evidence to societal disempowerment
+- {--{"author":"AI","timestamp":1787860444355}@@models control loss as gradual and below--}{++{"author":"AI","timestamp":1787860444355}@@returns to and revises the line from++} the {--{"author":"AI","timestamp":1787860444355}@@threshold of any single event, not--}{++{"author":"AI","timestamp":1787860444355}@@opening lens rather than starting fresh
+- states a concrete rule, with conditions, rather than++} a {--{"author":"AI","timestamp":1787860444355}@@rebellion--}{++{"author":"AI","timestamp":1787860444355}@@blanket for++} or {--{"author":"AI","timestamp":1787860444355}@@takeover--}{++{"author":"AI","timestamp":1787860444355}@@against AI++}
+- uses at least one {--{"author":"AI","timestamp":1787860444355}@@study--}{++{"author":"AI","timestamp":1787860444355}@@finding++} correctly {++{"author":"AI","timestamp":1787860444355}@@and marks it as evidence or argument ++}(for example, Lee's {--{"author":"AI","timestamp":1787860444355}@@confidence association, Budzyń's detection drop, or Bednar's conditional gains)--}{++{"author":"AI","timestamp":1787860444355}@@association is evidence; the leap to societal disempowerment is argument)++}
+- {--{"author":"AI","timestamp":1787860444355}@@keeps--}{++{"author":"AI","timestamp":1787860444355}@@separates++} association {--{"author":"AI","timestamp":1787860444355}@@and--}{++{"author":"AI","timestamp":1787860444355}@@from++} causation{--{"author":"AI","timestamp":1787860444355}@@ separate--}
+- {--{"author":"AI","timestamp":1787860444355}@@recognises that effects depend on conditions, not on AI--}{++{"author":"AI","timestamp":1787860444355}@@names a specific result that would move the rule,++} in {--{"author":"AI","timestamp":1787860444355}@@general--}{++{"author":"AI","timestamp":1787860444355}@@a specific direction++}
+- {--{"author":"AI","timestamp":1787860444355}@@states explicit uncertainty about the leap from workplace evidence to societal disempowerment--}{++{"author":"AI","timestamp":1787860444355}@@says clearly where the colleague's off-switch position is right and where it is not++}
 
-Do NOT require agreement with the course thesis. A well-supported sceptical answer can pass. Do not penalise the learner for naming a weak link the course itself cannot establish. Two tutor turns max, then a short calibration verdict.
+Do NOT require agreement with the course thesis. A well-supported sceptical {--{"author":"AI","timestamp":1787860444355}@@answer--}{++{"author":"AI","timestamp":1787860444355}@@rule++} can pass. Do not penalise the learner for naming a weak link the course itself cannot establish. Two tutor turns max, then a short {--{"author":"AI","timestamp":1787860444355}@@calibration verdict.--}{++{"author":"AI","timestamp":1787860444355}@@close.++}
 
 Response length: 150 to 250 words. Short paragraphs only. No lists.
 
