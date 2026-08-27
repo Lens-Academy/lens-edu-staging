@@ -16,13 +16,9 @@ Lee and colleagues at Microsoft Research (2025) surveyed 319 knowledge workers a
 
 #### Article
 source:: [[../articles/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers]]
-from:: {++{"author":"AI","timestamp":1787860953268}@@"These findings, along with our quantitative findings for RQ1,"
-to:: "more effort to do so."
-
-#### Article
-source:: [[../articles/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers]]
-from:: ++}"We {--{"author":"AI","timestamp":1787860953268}@@survey 319 knowledge workers"--}{++{"author":"AI","timestamp":1787860953268}@@found that GenAI tools shift the effort of critical thinking"++}
-to::{--{"author":"AI","timestamp":1787860953268}@@ "information verification, response integration, and--}{++{"author":"AI","timestamp":1787860953268}@@ "from task execution to++} task stewardship."
+from:: {--{"author":"AI","timestamp":1787861390408}@@"We survey 319 knowledge workers"
+to:: "information verification, response integration, and task stewardship."--}{++{"author":"AI","timestamp":1787861390408}@@"These findings, along with our quantitative findings for RQ1,"
+to:: "more effort to do so."++}
 
 #### Question
 content::
