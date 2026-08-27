@@ -33,10 +33,8 @@ You already read the argument about controlling misaligned AIs at the end of Uni
 
 The previous unit already discussed the difficulty of controlling misaligned AIs. This unit will focus more on different things.
 
-The first reading is by Ryan Greenblatt of Redwood Research. He does not describe one plan. He describes four, and then a fifth world with no plan at all. Which plan is available is not a research question. It depends on how much of the world helps.
-
 The first reading is by Ryan Greenblatt of Redwood Research. Instead of describing a single plan, he describes multiple plans the world could have for making AI go well, and which plan is available to execute depends on how much of the world we can rally to help.
-*
+
 
 #### Question
 content::
@@ -48,7 +46,6 @@ Please write 2 or 3 sentences about the plan you believe exists today to prevent
 
 Then finally, describe in one line what your plan assumes the rest of the world is doing.
 
-Then add one more line. This is the harder part. What does your plan assume the rest of the world is doing?
 
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
