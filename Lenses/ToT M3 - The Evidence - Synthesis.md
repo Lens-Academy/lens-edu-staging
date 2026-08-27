@@ -53,7 +53,7 @@ assessment-instructions:: The student has worked through the unit's evidence and
 
 Key points to check they grasped:
 - Controlled experiments, field comparisons, surveys, self-reports, and conceptual extrapolation each support different claims
-- Lee and Gerlich are associations from self-reports, not proof of cause
+- Lee is an association from self-reports, not proof of cause
 - Budzyń is an objective field outcome but observational, not a controlled test
 - The unit's studies are short, narrow, and small; long-term effects are unknown
 - Mixed evidence is consistent with a conditional message: the effect depends on the situation
