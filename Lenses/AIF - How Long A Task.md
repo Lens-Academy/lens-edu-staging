@@ -24,7 +24,7 @@ METR is an independent organisation that runs those measurements. They test mode
 
 Their approach has three parts.
 
-- Take well-defined tasks where **skilled human software engineers can be timed**, so we have a reference point.
+- Take well-defined tasks where **skilled human software engineers can be timed**, so we have a reference task length (in hours).
 - Then **give a particular AI the same task** to finish without interaction.
 - Then they report as the final time-horizon number the ****
 
