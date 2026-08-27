@@ -31,9 +31,11 @@ Although this distinction isn't very clear-cut, most of the plans and strategies
 
 You already read the argument about controlling misaligned AIs at the end of Unit 3. This unit is about everything else.{++{"author":"Luc","timestamp":1787822959733}@@
 
-++}
+The previous unit already discussed the difficulty of controlling misaligned AIs. This unit will focus more on different things.++}
 
-The first reading is by Ryan Greenblatt of Redwood Research. He does not describe one plan. He describes four, and then a fifth world with no plan at all. Which plan is available is not a research question. It depends on how much of the world helps.
+The first reading is by Ryan Greenblatt of Redwood Research. He does not describe one plan. He describes four, and then a fifth world with no plan at all. Which plan is available is not a research question. It depends on how much of the world helps.{++{"author":"Luc","timestamp":1787822992573}@@
+
+++}
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
