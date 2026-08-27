@@ -22,14 +22,17 @@ Target audience:
 
 Value prop:
 - ...
+- ...
 %%
 
 # Module: [[../modules/IABIED M1 Intro, Part 1]]
 # Meeting: Meeting 1 name
 meeting-doc-template:: https://docs.google.com/document/d/...
-# Module: [[../modules/IABIED M2 Nonhuman Minds, Part 2]]
+{++{"author":"Elias's AI","timestamp":1787825008035}@@survey:: [[../surveys/IABIED Post-Meeting Survey]]
+++}# Module: [[../modules/IABIED M2 Nonhuman Minds, Part 2]]
 # Meeting: Meeting 2 name
-meeting-doc-template:: https://docs.google.com/document/d/...
+meeting-doc-template:: https://docs.google.com/document/d/...{++{"author":"Elias's AI","timestamp":1787825008035}@@
+survey:: [[../surveys/IABIED Post-Meeting Survey]]++}
 ```
 
 Optional frontmatter: `slug-aliases`, `partner-name`, `partner-logo`, `partner-logo-small`, `partner-url`.
