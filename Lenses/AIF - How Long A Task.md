@@ -10,7 +10,7 @@ authors:
 ---
 #### Text
 content::
-\## Where does an agent stop being able to finish the job?
+\## How big of a task does it take to 
 
 An AI agent can write a function. It usually cannot ship a feature. Somewhere between those two there is a length of job it stops being able to finish, and that length is a fact you can measure rather than argue about.
 
