@@ -4,7 +4,7 @@ title: "Paper - Lee (Microsoft)"
 reading_minutes: 5
 tutor_minutes: 5
 tldr: "A survey of 319 knowledge workers found that the more confident workers were in the AI, the less critical thinking they reported; the more confident in their own ability, the more they reported. Confidence is a calibration problem, not a verdict on AI."
-summary_for_tutor: "Optional evidence lens for Unit 3 of 'Thinking about Thinking'. Presents Lee et al. (Microsoft Research, 2025): a survey of 319 knowledge workers across 936 examples of generative-AI use. The claim the core course makes of this study: higher confidence in the AI associated with lower reported critical-thinking effort, higher confidence in one's own ability associated with more; AI shifts the kind of work people do (more verification, integration, stewardship; less initial production). Lee reports shifts within each level of the work, not a downgrade. This is an association from self-reported perception, not proof of cause. Inlines {--{"author":"AI","timestamp":1787861429576}@@one excerpt from the imported article.--}{++{"author":"AI","timestamp":1787861429576}@@the paper's own RQ conclusion connecting self-confidence and confidence in GenAI to perceived critical thinking.++} Ends with a reflective 'Your turn' question the tutor treats as a conversation about the paper. Remind the student they may ask about any unfamiliar term."
+summary_for_tutor: "Optional evidence lens for Unit 3 of 'Thinking about Thinking'. Presents Lee et al. (Microsoft Research, 2025): a survey of 319 knowledge workers across 936 examples of generative-AI use. The claim the core course makes of this study: higher confidence in the AI associated with lower reported critical-thinking effort, higher confidence in one's own ability associated with more; AI shifts the kind of work people do (more verification, integration, stewardship; less initial production). Lee reports shifts within each level of the work, not a downgrade. This is an association from self-reported perception, not proof of cause. Inlines the paper's own RQ conclusion connecting self-confidence and confidence in GenAI to perceived critical thinking. Ends with a reflective 'Your turn' question the tutor treats as a conversation about the paper. Remind the student they may ask about any unfamiliar term."
 tags:
   - wip
 ---
@@ -16,9 +16,8 @@ Lee and colleagues at Microsoft Research (2025) surveyed 319 knowledge workers a
 
 #### Article
 source:: [[../articles/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers]]
-from:: {--{"author":"AI","timestamp":1787861390408}@@"We survey 319 knowledge workers"
-to:: "information verification, response integration, and task stewardship."--}{++{"author":"AI","timestamp":1787861390408}@@"These findings, along with our quantitative findings for RQ1,"
-to:: "more effort to do so."++}
+from:: "These findings, along with our quantitative findings for RQ1,"
+to:: "more effort to do so."
 
 #### Question
 content::
