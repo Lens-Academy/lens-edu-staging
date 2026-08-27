@@ -14,6 +14,16 @@ Not everyone reads this as loss. Gutoreva and colleagues (2025) take the Extende
 #### Article
 source:: [[../articles/gutoreva-position-ai-as-part-of-self-extending-the-mind-requires-cognitive-co-regulation]]
 from:: "Artificial Intelligence (AI) systems must be modeled as integral components of human cognition, and that safety and alignment are best achieved through cognitive co-regulation rather than external constraint."
-to:: "Managing this integration requires operational frameworks that account for metacognition and epistemic authority"
+to:: "Managing this integration requires operational frameworks that account for metacognition and epistemic authority"{++{"author":"AI","timestamp":1787856720989}@@
+
+#### Article
+source:: [[../articles/gutoreva-position-ai-as-part-of-self-extending-the-mind-requires-cognitive-co-regulation]]
+from:: "Concerns about deskilling are not unique to artificial intelligence."
+to:: "Unlike previous technologies that automated procedural tasks, AI automates the integrative reasoning that serves as the foundation for expertise."
+
+#### Article
+source:: [[../articles/gutoreva-position-ai-as-part-of-self-extending-the-mind-requires-cognitive-co-regulation]]
+from:: "For most of the digital era, information seeking has been a _distributed epistemic activity_: users queried search engines, compared heterogeneous sources, and actively navigated uncertainty through triangulation."
+to:: "Classic research on automation bias and complacency predicts precisely this pattern: when an automated system produces confident recommendations, humans tend to over-accept them and reduce independent checking."++}
 
 %% Note: The counterargument. Extended Mind position: external tools can become legitimate parts of cognition. Key distinction: generative AI performs full epistemic labor, not just discrete functions. Risk increases when AI is treated as authoritative source rather than assistive instrument. %%
