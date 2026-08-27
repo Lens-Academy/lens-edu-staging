@@ -19,7 +19,7 @@ source:: [[../Lenses/ToT M3 - Confidence and Critical Thinking at Work]]
 source:: [[../Lenses/ToT M3 - When AI Helps and When It Harms]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - {--{"author":"AI","timestamp":1787852863993}@@The Evidence --}Gradual Disempowerment]]
+source:: [[../Lenses/ToT M3 - Gradual Disempowerment]]
 
 # Lens:
 source:: [[../Lenses/ToT M3 - What the Skeptics Say]]
@@ -61,11 +61,6 @@ optional:: true
 hide:: true
 
 # Lens:
-source:: [[../Lenses/ToT M3 - {--{"author":"AI","timestamp":1787852870723}@@What the Skeptics Say]]
-optional:: true
-hide:: true
-
-# Lens:
-source:: [[../Lenses/ToT M3 - --}The Philosophy of Autonomy Loss]]
+source:: [[../Lenses/ToT M3 - The Philosophy of Autonomy Loss]]
 optional:: true
 hide:: true
