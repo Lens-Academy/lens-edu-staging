@@ -24,8 +24,7 @@ to:: "Those who resist these pressures will eventually be displaced by those who
 
 #### {++{"author":"AI","timestamp":1787828717187}@@Text
 content::
-\## From the thesis to the economy
-The passage makes the case that the loss can be gradual. It does not yet show how the loss would spread through a whole society. The paper works through three large systems: the economy, culture, and states. The next passage examines the economy.
+The makes the case that the loss can be gradual. It does not yet show how the loss would spread through a whole society. The paper works through three large systems: the economy, culture, and states. The next passage examines the economy.
 
 The economy matters for this unit. The studies you read earlier are workplace studies. They describe individual people delegating individual tasks. The next passage asks what happens when the same pattern scales to a whole economy, where firms compete to replace human labour with machines.
 
