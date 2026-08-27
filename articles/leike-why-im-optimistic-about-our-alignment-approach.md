@@ -3,15 +3,25 @@ title: "Why I’m optimistic about our alignment approach"
 author:
   - "Jan Leike"
 source_url: "https://aligned.substack.com/p/alignment-optimism"
-published: 2023-02-15
+published: {--{"author":"Luc's AI","timestamp":1787842810592}@@2023-02-15--}{++{"author":"Luc's AI","timestamp":1787842810592}@@2022-12-05++}
 created: 2026-06-21
 accessed: 2026-06-21
 description: "Some arguments in favor and responses to common objections"
 tags:
   - "article-importer"
----
+{++{"author":"Luc's AI","timestamp":1787842810268}@@llm-review:
+  content-sha: "sha256:624f8dcc1356ef8957071e08b8a6a024589c8317d0fdd184ac213c1cba2a67a8"
+  date: 2026-08-27
+  model: "sonnet"
+  version: "article-qc-v2"
+  source:
+    content-sha: "sha256:e05f14a096b0049574e2ec5c29a236e4d875860ffc366298d0c6715083e1a91d"
+    fetched: 2026-08-27
+    kind: "live"
+++}---{--{"author":"Luc's AI","timestamp":1787842810030}@@
 
-%%
+--}{++{"author":"Luc's AI","timestamp":1787842810030}@@
+++}%%
 Add discussion note here:
 
 ...
@@ -43,7 +53,7 @@ The last section [responds to some common objections to our approach](https://al
 
 A few years ago it looked like the path to AGI was by training deep RL agents from scratch in a wide range of games and multi-agent environments. These agents would be aligned to maximizing simple score functions such as survival and winning games and wouldn’t know much about human values. Aligning the resulting agents would be a lot of effort: not only do we have to create a human-aligned objective function from scratch, we’d likely also need to instill actually new capabilities into the agents like understanding human society, what humans care about, and how humans think.
 
-Large language models (LLMs) make this a lot easier: they come preloaded with a lot of humanity’s knowledge, including detailed knowledge about human preferences and values. Out of the box they aren’t agents who are trying to pursue their own goals in the world and and their objective functions are quite malleable. For example, they are [surprisingly easy to train to behave more nicely](https://openai.com/blog/instruction-following/).
+Large language models (LLMs) make this a lot easier: they come preloaded with a lot of humanity’s knowledge, including detailed knowledge about human preferences and values. Out of the box they aren’t agents who are trying to pursue their own goals in the world and {--{"author":"Luc's AI","timestamp":1787842809757}@@and --}their objective functions are quite malleable. For example, they are [surprisingly easy to train to behave more nicely](https://openai.com/blog/instruction-following/).
 
 ### 1.2 The empirical evidence is looking favorably
 
