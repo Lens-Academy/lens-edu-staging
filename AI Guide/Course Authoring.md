@@ -12,7 +12,7 @@ Each learning outcome (see [[../AI Guide/Writing (Learning) Outcomes]]) defines 
 Each lens is rendered as a separate page. They contain the actual learning content (readings, AI-tutor chats, questions, roleplays). (see [[../AI Guide/Writing Lenses]])
 Lenses can embed external **articles** and **video transcripts**, which live in the `articles/` and `video_transcripts/` folders alongside. (see [[../AI Guide/Adding Sources]])
 
-Read through a file-type's guide
+Read through a file-type's guide before creating/editing 
 
 Changes sync to https://staging.lensacademy.org within seconds; Only core team members can push to production (https://lensacademy.org).
 
