@@ -35,7 +35,7 @@ content::
 Two pre-read questions.
 
 1. What would you expect is the number, in human-equivalent hours, that their method gave for AIs up to the end of 2025?
-2. 
+2. What 
 
 Your reasoning matters more than your number here, so write a line for each.
 
