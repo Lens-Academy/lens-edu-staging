@@ -45,7 +45,15 @@ Most sentences are instructions ("read chapter 2") and need no evidence. The rem
 - An enumeration for claims about structure, such as "there are two ways to get this wrong" or "these are mirror images". Someone must actually have listed the cases. These claims are the most common unchecked ones, because they read like organisation rather than like claims.
 - Population data for claims about people, such as "students commonly misread this". Usually no such data exists. Either cite the post that documented the misreading, or rewrite the claim as design intent: "if the student does X, this phase handles it".
 
-Making a claim vaguer ("there are probably two ways") is not evidence. Check it or delete it.
+Making a claim vaguer ("there are probably two ways") is not evidence. Check it or delete it.{++{"author":"Elias's AI","timestamp":1787849399892}@@
+
+What to leave in the file after checking:
+- Claim grounded by a source: put the source where the student can see it, as an inline link or a markdown footnote (`[^1]`). In `assessment-instructions`, name the source in plain text so the tutor sees it.
+- Claim that is our own view: say so in the sentence itself ("We think…"). Do not hide this in a comment.
+- Claim you grounded by a derivation or an enumeration: keep the derivation or the list in a `%% %%` comment next to the claim, so a reviewer can re-check it without redoing it.
+- Claim you could not ground: delete it.
+
+Temporary labels during the pass (`%% CHECK: structural %%`) are fine; remove them once resolved. Do not leave a label on every claim: comments go stale and double the file length.++}
 
 **Check every number in a separate pass.**
 Reading prose for claims skips numerals. Grep every figure in the course and compare it against the original paper, not a summary. Check two things: that the digits are right, and that the number describes the quantity the text says it does. Example: a paper reported a 14% probability that progress arrives as a discontinuity; the course wrote it as a 14% share of total progress, and a test question graded students against the wrong meaning.
