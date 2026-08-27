@@ -44,7 +44,7 @@ Optional frontmatter: `slug-aliases`, `partner-name`, `partner-logo`, `partner-l
 - The target audience for a course are people with one or more of the listed features.
 - Everything between two meetings belongs to one meeting's preparation.
 - If the course has in-person meetings, the meeting doc template must be linked under the `# Meeting`. (see: [[Writing Meeting Docs]])
-- Every meeting should have a l must have a linked survey under it. (See [[Writing Surveys]])
+- Every meeting should have a link to a survey under it. (See [[Writing Surveys]])
 
 Before creating a new course:
 - Discuss target audience features and value proposition of that course with the user. 
