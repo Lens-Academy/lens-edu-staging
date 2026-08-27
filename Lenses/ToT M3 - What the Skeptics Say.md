@@ -12,7 +12,7 @@ tags:
 #### Text
 content::
 \## The skeptical position
-A skeptic can accept the unit's studies and still resist the conclusion. The objections do not depend on any single number. They concern how thinking works, how it is measured, and what offloading has done across history.
+A skeptic can {--{"author":"AI","timestamp":1787853834662}@@accept--}{++{"author":"AI","timestamp":1787853834662}@@read++} the unit's studies and {--{"author":"AI","timestamp":1787853834662}@@still resist the--}{++{"author":"AI","timestamp":1787853834662}@@reach a different++} conclusion. The objections do not depend on any single number. They concern how thinking works, how it is measured, and what offloading has done across history.
 
 \## Offloading is old
 People have built their thinking into tools since tools existed. Writing stores memory outside the body. Arithmetic tables store it in symbols. A notebook is part of the working mind, not a replacement for it. Civilisations have offloaded memory and arithmetic for centuries, and the mind did not shrink. It reorganised itself and moved to harder tasks. The extended-mind position generalises this. A tool a person relies on becomes part of that person's thinking. Offloading, on its own, is not decline.
