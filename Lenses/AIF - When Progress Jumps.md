@@ -16,7 +16,9 @@ The previous article reasoned from an inside view: what do the mechanisms of com
 
 Now let's talk about an outside view: how quickly have technologies become powerful in the past?
 
+Some definitions:
 
+- A **trajectory** is a 
 
 The last lens probed your model from the inside: what you personally believe compute buys. This one turns around and asks the outside question: never mind your reasoning, how has technological progress actually arrived, across every trend anyone has measured?
 {>>{"author":"lauren (chrome@what)","timestamp":1787818839908}@@6:20:36 start<<}
