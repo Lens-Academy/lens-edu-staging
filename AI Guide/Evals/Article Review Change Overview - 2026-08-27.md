@@ -208,7 +208,6 @@ llm-review:
 [Open review](https://editor.lensacademy.org/8718f832/Lens-Edu/articles/iabied-ch1-ext-mundane-parts.md)
 
 Exact model-authored changes: 
-Okay. Well, so in a sense, removing the wrong asterisks here is good because it was supposed to be a footnote. The footnote link is there, but the footnote itself is missing from the article. So something does seem to be going wrong here. 
 ```diff
 -In most cases, we don't know the *meaning*, the higher-level patterns that allow the brain to do the work it does*.*[^note-iabied-ftnt42]
 +In most cases, we don't know the *meaning*, the higher-level patterns that allow the brain to do the work it does.[^note-iabied-ftnt42]
