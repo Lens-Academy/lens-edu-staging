@@ -14,6 +14,6 @@ Budzyń and colleagues (2025), in *Endoscopist deskilling risk after exposure to
 #### Article
 source:: [[../articles/budzy-endoscopist-deskilling-risk-after-exposure-to-artificial-intelligence-in-colonoscopy-a-multicentre-observational-study]]
 from:: "Between Sept 8, 2021, and March 9, 2022, 1443 patients underwent non-AI assisted colonoscopy before (n=795) and after (n=648) the introduction of AI"
-to:: "In multivariable logistic regression analysis, exposure to AI (odds ratio"
+to:: {--{"author":"AI","timestamp":1787861001394}@@"In multivariable logistic regression analysis, exposure to AI (odds ratio"--}{++{"author":"AI","timestamp":1787861001394}@@"suggesting a negative effect on endoscopist behaviour."++}
 
 %% Note: Multicentre observational study (ACCEPT trial, Poland). After endoscopists were exposed to AI-assisted polyp detection, ADR on standard non-AI colonoscopy fell from 28.4% to 22.4% (6.0 pp absolute, p=0.0089). Objective clinical outcome, not self-report. %%
