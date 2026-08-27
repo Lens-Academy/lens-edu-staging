@@ -29,7 +29,7 @@ source:: [[../Lenses/ToT M3 - Recap]]
 
 %% Optional evidence library. These lenses are reachable through resource cards in the core lenses above; hide keeps them off the module page. %%
 
-# Submodule: Evidence Library (Optional)
+<!-- # Submodule: Evidence Library (Optional) -->
 
 # Lens:
 source:: [[../Lenses/ToT M3 - Paper - Bednar (Legal Study)]]
@@ -64,4 +64,4 @@ hide:: true
 # Lens:
 source:: [[../Lenses/ToT M3 - The Philosophy of Autonomy Loss]]
 optional:: true
-hide:: true -->
+hide:: true
