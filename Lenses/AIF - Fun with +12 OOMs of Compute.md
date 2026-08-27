@@ -128,11 +128,6 @@ When you answer, also write down something about what leads you to your number. 
 
  (Hopefully by the end of the course you'll feel moderately comfortable with either!)
 
-His answer to "probability that TAI appears in the Compute Fairy world" is 90%, and he shows his work: inside view[^inside] 99, discounted for unknown unknowns and deference. Ajeya's distribution puts its median[^median] at the 10^35 mark, which he reads as her answering 50%.
-
-[^inside]: Your inside view is the estimate you get by reasoning through this case's specific details. Its partner, the outside view, asks how cases like this usually turn out. His 99 is pure inside view; the drop to 90 is humility about everything the inside view can't see.
-[^median]: A probability distribution spreads your confidence across all the possible values instead of naming one. Its median is the halfway marker: half your probability sits below it, half above. That is why a median at 10^35 reads as calling it 50/50 that 10^35 is enough.
-
 Now yours: give your probability as a percentage, name which of the five answers moves it most, and state one thing you could learn in the next year that would move your answer by twenty percentage points. If nothing could, say so and say what that means about the number.
 
 assessment-instructions:: The student has read the author's Question Two, his 90 percent, and the comparison with Ajeya's 50 percent. They are now committing to their own number.
