@@ -12,7 +12,7 @@ authors:
 content::
 \## How big of a task can't a given AI do?
 
-Whether or note an AI is inclined to do so, if we want to know whether AI is at risk of doing things like "take over the world" or "kill all humans", we'd like to know 
+Whether or note an AI is inclined to do so, if we want to know whether AI is at risk of doing things like "take over the world" or "kill all humans", we'd like to know how close it is. How
 
 By far the{>>{"author":"lauren (chrome@what)","timestamp":1787823523443}@@7:38:41<<} most common type of interaction with AIs is to describe a task and get a result. Among those tasks, a common type of task is programming.
 
