@@ -32,10 +32,12 @@ Links:
 # Meeting: Meeting 1 name
 meeting-doc-template:: https://docs.google.com/document/d/...
 survey:: [[../surveys/Course Post-Meeting Survey]]
-# Module: [[../modules/Course M2 Nonhuman Minds, Part 2]]
+{++{"author":"Elias's AI","timestamp":1787850347062}@@facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
+++}# Module: [[../modules/Course M2 Nonhuman Minds, Part 2]]
 # Meeting: Meeting 2 name
 meeting-doc-template:: https://docs.google.com/document/d/...
-survey:: [[../surveys/Course Post-Meeting Survey]]
+survey:: [[../surveys/Course Post-Meeting Survey]]{++{"author":"Elias's AI","timestamp":1787850347062}@@
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]++}
 ```
 
 Optional frontmatter: `slug-aliases`, `partner-name`, `partner-logo`, `partner-logo-small`, `partner-url`.
