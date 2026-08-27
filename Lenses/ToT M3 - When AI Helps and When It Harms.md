@@ -67,7 +67,5 @@ content::
 The study lenses hold the design details and limits behind each study.
 
 ::card[[../Lenses/ToT M3 - Paper - Bednar (Legal Study)]]
-> The full Bednar law-student study: design, numbers, and limits.
 
 ::card[[../Lenses/ToT M3 - Paper - Budzyn (Doctor Study)]]
-> The full Budzyń endoscopist study: the 6.0-point drop and what it does and does not show.
