@@ -11,7 +11,6 @@ tags:
 
 #### Text
 content::
-\## Lee and colleagues at Microsoft Research (2025)
 Lee and colleagues at Microsoft Research (2025) surveyed 319 knowledge workers across 936 real examples of generative-AI use. Two patterns stood out:
 - The more confident a worker was in the AI, the less critical thinking they reported using.
 - The more confident a worker was in their own ability, the more critical thinking they reported using.
