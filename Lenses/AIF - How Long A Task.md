@@ -20,6 +20,8 @@ By far the{>>{"author":"lauren (chrome@what)","timestamp":1787823523443}@@7:38:4
 
 METR is an independent organisation that runs those measurements. They test models that labs give them access to, and they publish their results.
 
+Considering what the effects on the ali
+
 That method has three parts.
 
 - They take tasks that **human professionals have been timed on**, so every task has a human duration attached.
