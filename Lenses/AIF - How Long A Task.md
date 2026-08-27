@@ -12,9 +12,11 @@ authors:
 content::
 \## How big of a task can't a given AI do?
 
+If we want to k
+
 By far the{>>{"author":"lauren (chrome@what)","timestamp":1787823523443}@@7:38:41<<} most common type of interaction with AIs is to describe a task and get a result. Among those tasks, a common type of task is programming.
 
-Programming is a type of task that (usually) has a pretty clear success or fail criteria. So we can ask how 
+Programming is a type of task that (usually) has a pretty clear success or fail criteria. So we 
 
 An AI agent can write a function. It usually cannot ship a feature. Somewhere between those two there is a length of job it stops being able to finish, and that length is a fact you can measure rather than argue about.
 
