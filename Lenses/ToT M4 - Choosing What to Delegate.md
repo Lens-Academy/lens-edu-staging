@@ -39,7 +39,7 @@ Tools change {--{"author":"AI","timestamp":1787863773501}@@fast. This unit descr
 - Audit {--{"author":"AI","timestamp":1787863796992}@@yourself: review--}{++{"author":"AI","timestamp":1787863796992}@@yourself. Review++} one recent AI conversation and mark where you delegated judgement. Would you take that task back if the tool vanished?
 - Keep the final review human. Read the output. Question it. {--{"author":"AI","timestamp":1787863796992}@@Sometimes reject it.--}{++{"author":"AI","timestamp":1787863796992}@@Reject it when it deserves rejection.++}
 
-\## Why this matters: the taxonomy from Unit 3
+\## {--{"author":"AI","timestamp":1787863822709}@@Why this matters: the--}{++{"author":"AI","timestamp":1787863822709}@@Tying it back to Bloom's++} taxonomy{--{"author":"AI","timestamp":1787863822709}@@ from Unit 3--}
 In Unit 3 you met Bloom's taxonomy, the cognitive levels that rank tasks from remembering up to creating. You also met Lee and colleagues' finding: AI use shifts workers from producing work toward verifying and integrating the AI's output.
 
 The taxonomy gives that finding a shape. The shift is not from hard thinking to easy thinking. It is a change in which levels get used. Producing, analysing, evaluating, and creating are the levels that build a skill. Verifying the AI's output is valuable, but it does not build the same skill.
