@@ -38,7 +38,7 @@ Two pre-read questions.
 2. What would you guess are the primary things that cause this number to change?
 {>>{"author":"lauren (chrome@what)","timestamp":1787828595204}@@this doesn't feel right to ask. we should have something earlier in the course that gets into outcomes. all the articles so far are on the core capability trajectory, but determining what that flowers into requires understanding a lot more stuff.<<}
 Your reasoning is at least as important as your number. Then scroll down to see the answer.
-
+{>>{"author":"lauren (chrome@what)","timestamp":1787828656913}@@we need the article to be spoiler-tagged or something?<<}
 max-time:: 5:00
 
 assessment-instructions:: The student has not seen METR's figures. They are in the next segment.
