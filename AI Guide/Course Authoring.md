@@ -18,7 +18,7 @@ Changes sync to https://staging.lensacademy.org within seconds; Only core team m
 
 ## The document model
 
-Every content file is markdown with two kinds of structure: YAML frontmatter on top (file-level metadata, `key: value`) and a body of nested headings. A heading's section can carry its own metadata as `key:: value` lines under it; a value runs until the next `key::` or heading. Headings that should be stored as a key's value must be escaped (e.g.); duplicate keys in one section are an error. Unknown frontmatter fields are tolerated, but the platform only acts on documented fields.
+Every content file is markdown with two kinds of structure: YAML frontmatter on top (file-level metadata, `key: value`) and a body of nested headings. A heading's section can carry its own metadata as `key:: value` lines under it; a value runs until the next `key::` or heading. Headings that should be stored as a key's value must be escaped (e.g. `/); duplicate keys in one section are an error. Unknown frontmatter fields are tolerated, but the platform only acts on documented fields.
 
 ## Rules that apply everywhere
 
