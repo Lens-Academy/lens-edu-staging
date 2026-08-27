@@ -26,7 +26,21 @@ You have probably seen this pattern in real colleagues. People who trust the AI 
 
 Two cautions before you take this too far. First, this is a survey. It measures what people say they do, not what they actually do. Second, it shows an association, not a cause. It does not prove that trusting the AI makes people think less, but the two clearly go together.
 
-The study also found that AI changed where the effort went. People did less of the original producing and more verifying, integrating, and looking after the AI's output. Lee reports these as shifts within each level of the work, not a slide to easier thinking. The real lesson is calibration: checking should track how much the task matters, how well you know the area, and whether you can verify the answer.
+{++{"author":"AI","timestamp":1787855189472}@@\## What "critical thinking" means here
+The study did not guess at what counts as critical thinking. It used a well-known scale called Bloom's taxonomy, which ranks cognitive work from lower to higher order:
+- **Remember**: recall facts and definitions.
+- **Understand**: explain ideas and summarise.
+- **Apply**: use knowledge in a new situation.
+- **Analyse**: break material into parts and find patterns.
+- **Evaluate**: judge ideas against criteria.
+- **Create**: produce something new.
+
+The study asked workers, for each task, how much effort each level took when they used the AI compared with when they did not.
+
+\## What the study found about the effort
+++}The study also found that AI changed where the effort went. {--{"author":"AI","timestamp":1787855189472}@@People --}{++{"author":"AI","timestamp":1787855189472}@@For tasks that produce something, the effort moved toward the middle of the scale. Workers ++}did less of the {--{"author":"AI","timestamp":1787855189472}@@original producing--}{++{"author":"AI","timestamp":1787855189472}@@producing itself++} and more {--{"author":"AI","timestamp":1787855189472}@@verifying,--}{++{"author":"AI","timestamp":1787855189472}@@checking,++} integrating, and looking after the AI's output. {++{"author":"AI","timestamp":1787855189472}@@Verifying and judging are evaluation-level work, not lower-order work.
+
+++}Lee reports these as shifts within each level of the work, not a slide to easier thinking. {++{"author":"AI","timestamp":1787855189472}@@Someone who checks an AI output is still thinking, but the thinking has a different shape. ++}The real lesson is calibration: checking should track how much the task matters, how well you know the area, and whether you can verify the answer.
 
 #### Question
 content::
