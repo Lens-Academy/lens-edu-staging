@@ -16,7 +16,7 @@ Whether or note an AI is inclined to do so, if we want to know whether AI is at 
 
 Let's assume we want to measure how close AI is to being able to do that. Later in the course we'll work through evidence that you tend to get what you can best measure, so this is a dangerous thing to measure, and might already be having negative effects. But it's useful for defenders to know, so let's talk about it.
 
-By far the{>>{"author":"lauren (chrome@what)","timestamp":1787823523443}@@7:38:41<<} most common type of interaction with AIs is to describe a task and get a result. Among those tasks, a common type of task is programming.
+By far the{>>{"author":"lauren (chrome@what)","timestamp":1787823523443}@@7:38:41<<} most common type of interaction with AIs is to describe a task and get a mostly-self-contained result. Among those tasks, a common type of task is programming.
 
 Programming is a type of task that (usually) has a pretty clear success or fail criteria. So we 
 
