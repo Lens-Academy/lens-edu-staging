@@ -25,7 +25,7 @@ METR is an independent organisation that runs those measurements. They test mode
 Their approach has three parts.
 
 - Take well-defined tasks where **skilled human software engineers can be timed**, so we have a reference task length (in human hours).
-- Then **give a particular AI the same task** to finish without inut.
+- Then **give a particular AI the same task** to finish without input from a human.
 - Then they report as the final time-horizon number the **human-hour length of task on which the AI succeeds half the time**. When you hear them report time horizon that's what it means.
 {>>{"author":"lauren (chrome@what)","timestamp":1787824700273}@@7:58:18<<}
 #### Question
@@ -35,7 +35,7 @@ content::
 Two pre-read questions.
 
 1. What would you expect is the number, in human-equivalent hours, that their method gave for AIs up to the end of 2025?
-
+2. 
 
 Your reasoning matters more than your number here, so write a line for each.
 
