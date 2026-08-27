@@ -47,8 +47,8 @@ Which features above, expertise, feedback quality, task verifiability, stakes, o
 assessment-instructions:: The student has just compared Bednar and Budzyń in Unit 3 of "Thinking about Thinking". They are explaining the divergence through conditions, not labelling AI good or bad, and applying it to their own work. This is one reflective question, not a multi-turn sequence.
 
 Key points to check they grasped:
-- Bednar: randomised, about 100 law students, AI in early synthesis improved analysis 50 to 70 percent and later no-AI performance; AI in revision regressed strong work
-- Budzyń: observational, multicentre, adenoma detection fell 6.0 pp (28.4% to 22.4%) on non-AI procedures after AI exposure; real outcomes, not self-report
+- Bednar: {--{"author":"AI","timestamp":1787828199875}@@randomised,--}{++{"author":"AI","timestamp":1787828199875}@@randomised controlled trial,++} about 100 law students, AI in early synthesis improved analysis {++{"author":"AI","timestamp":1787828199875}@@by roughly ++}50 to 70 percent and later no-AI performance; AI in revision regressed strong work
+- Budzyń: {--{"author":"AI","timestamp":1787828199875}@@observational, multicentre, --}{++{"author":"AI","timestamp":1787828199875}@@retrospective observational study, four centres, ++}adenoma detection fell 6.0 {--{"author":"AI","timestamp":1787828199875}@@pp--}{++{"author":"AI","timestamp":1787828199875}@@percentage points++} (28.4% to 22.4%) on non-AI procedures after AI exposure; {--{"author":"AI","timestamp":1787828199875}@@real outcomes, --}{++{"author":"AI","timestamp":1787828199875}@@the outcome is a clinical record of polyps found, ++}not {++{"author":"AI","timestamp":1787828199875}@@a ++}self-report
 - The contrast is about conditions (who stays in the loop, feedback, verifiability, stakes, time pressure), not the tool itself
 - Neither study generalises to all lawyers, all doctors, or all knowledge workers
 
