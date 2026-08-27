@@ -35,7 +35,7 @@ content::
 Two pre-read questions.
 
 1. What would you expect is the number, in human-equivalent hours, that their method gave for AIs up to the end of 2025?
-2. What would you guess are the primary things that change in ?
+2. What would you guess are the primary things that cause this number to change? Note that 
 
 Your reasoning matters more than your number here, so write a line for each.
 
