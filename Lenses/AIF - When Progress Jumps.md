@@ -16,7 +16,7 @@ The previous article reasoned from an inside view: what do the mechanisms of com
 
 Now let's talk about an outside view: how quickly have technologies become powerful in the past?
 
-Some definitions for the question:
+Some definitions for how this article uses words:
 
 - A **trend** is the estimated linear or exponential rate of change of a measured quantity over time, eg tallest structure, ship tonnage, transatlantic message speed.
 - A **step** is one new number at a particular time: a single new structure, ship, or communication method.
