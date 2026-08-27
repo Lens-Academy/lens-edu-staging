@@ -24,13 +24,13 @@ Tools change {--{"author":"AI","timestamp":1787863773501}@@fast. This unit descr
 - Delegate a task. {--{"author":"AI","timestamp":1787863781973}@@Do not delegate --}{++{"author":"AI","timestamp":1787863781973}@@Keep ++}the {--{"author":"AI","timestamp":1787863781973}@@judgement--}{++{"author":"AI","timestamp":1787863781973}@@decision++} about whether the task should be delegated.
 
 \## While you work with the AI
-- Treat the AI as a sparring partner, not an authority. Ask it to argue against its own answer.
-- Do not let the AI set the frame. In Anthropic's AI Fluency Index (2026), only about 30% of conversations set explicit terms for the collaboration; the AI's default set the frame for the rest. [[../articles/claude-academy-anthropic-education-report-the-ai-fluency-index]]
+- Treat the AI as a sparring partner, not {++{"author":"AI","timestamp":1787863788616}@@as ++}an authority. Ask it to argue against its own answer.
+- Do not let the AI set the frame. In Anthropic's AI Fluency Index (2026), only about 30% of conversations set explicit terms for the {--{"author":"AI","timestamp":1787863788616}@@collaboration; the--}{++{"author":"AI","timestamp":1787863788616}@@collaboration. The++} AI's default set the frame for the rest. [[../articles/claude-academy-anthropic-education-report-the-ai-fluency-index]]
 
 \## When you evaluate the result
-- Beware of fluency. Polished output is not the same as true output, and users challenge polished output less than rough output.
+- Beware of fluency. Polished output is not the same as true {--{"author":"AI","timestamp":1787863792595}@@output, and users --}{++{"author":"AI","timestamp":1787863792595}@@output. Users ++}challenge polished output less than rough output.
 - Close the chat. Restate the causal logic in your own words. If you cannot explain it, you do not understand it.
-- Verify any substantive claim against an independent source: a document, a search result, or a person who knows the domain.
+- Verify any substantive claim against an independent {--{"author":"AI","timestamp":1787863792595}@@source:--}{++{"author":"AI","timestamp":1787863792595}@@source. A source can be++} a document, a search result, or a person who knows the domain.
 
 \## Other ways to protect judgement
 - Keep some hard problems for your own process. What you can no longer do, you no longer own.
