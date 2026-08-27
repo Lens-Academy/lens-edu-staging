@@ -26,13 +26,12 @@ Same pattern of delegation, different result. The difference is not the tool. It
 
 Bednar's gains showed up where the student stayed in the loop and the task gave feedback. Budzyń's harm showed up where the tool did the whole job and the reps that keep the skill alive disappeared.
 
-#### Text
-content::
-\## Your turn
-Which features above, expertise, feedback quality, task verifiability, stakes, or time pressure, do you think explain why the two studies diverged? Name one domain of your own work where you would expect AI to help, and one where you would expect it to harm.
+
 
 #### Question
 content::
+Which features above, expertise, feedback quality, task verifiability, stakes, or time pressure, do you think explain why the two studies diverged? Name one domain of your own work where you would expect AI to help, and one where you would expect it to harm.
+
 assessment-instructions:: The student has just compared Bednar and Budzyń in Unit 3 of "Thinking about Thinking". They are explaining the divergence through conditions, not labelling AI good or bad, and applying it to their own work. This is one reflective question, not a multi-turn sequence.
 
 Key points to check they grasped:
