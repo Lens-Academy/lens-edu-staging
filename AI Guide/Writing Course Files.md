@@ -25,7 +25,7 @@ Value prop:
 - ...
 
 Links:
-- Links to marketing/landing-page copy
+- Links to marketing/landing-page
 %%
 
 # Module: [[../modules/IABIED M1 Intro, Part 1]]
