@@ -9,9 +9,14 @@ tags:
 
 #### Text
 content::
-A useful frame: the risk appears at three stages of any AI interaction. They are: before you delegate, while you work with the output, and when you evaluate the result. The guidance below follows that shape. This is one approach, not the only approach.
+{--{"author":"AI","timestamp":1787863773501}@@A useful frame: the risk--}{++{"author":"AI","timestamp":1787863773501}@@The risk of an AI interaction++} appears at three {--{"author":"AI","timestamp":1787863773501}@@stages of any AI interaction. They--}{++{"author":"AI","timestamp":1787863773501}@@stages. The stages++} are:{++{"author":"AI","timestamp":1787863773501}@@
+-++} before you {--{"author":"AI","timestamp":1787863773501}@@delegate, --}{++{"author":"AI","timestamp":1787863773501}@@delegate the task
+- ++}while you work with the {--{"author":"AI","timestamp":1787863773501}@@output, and--}{++{"author":"AI","timestamp":1787863773501}@@output
+-++} when you evaluate the {--{"author":"AI","timestamp":1787863773501}@@result. --}{++{"author":"AI","timestamp":1787863773501}@@result
 
-Tools change fast. This unit describes what works now, not forever. Revisit the principles as the tools change, and test any new guidance against Unit 3's evidence.
+++}The guidance below follows {--{"author":"AI","timestamp":1787863773501}@@that shape.--}{++{"author":"AI","timestamp":1787863773501}@@each stage.++} This is one {--{"author":"AI","timestamp":1787863773501}@@approach, not the only approach.--}{++{"author":"AI","timestamp":1787863773501}@@approach among many. You can adapt it to your work.++}
+
+Tools change {--{"author":"AI","timestamp":1787863773501}@@fast. This unit describes--}{++{"author":"AI","timestamp":1787863773501}@@quickly. These rules describe++} what works {--{"author":"AI","timestamp":1787863773501}@@now, not forever. Revisit--}{++{"author":"AI","timestamp":1787863773501}@@today. They may change as++} the {--{"author":"AI","timestamp":1787863773501}@@principles as--}{++{"author":"AI","timestamp":1787863773501}@@tools change. When++} the tools change,{--{"author":"AI","timestamp":1787863773501}@@ and--} test any new guidance against {--{"author":"AI","timestamp":1787863773501}@@Unit 3's evidence.--}{++{"author":"AI","timestamp":1787863773501}@@the evidence from Unit 3.++}
 
 \## Before you delegate
 - Spend five minutes writing your own rough notes before you prompt. This puts your thinking into the loop first.
