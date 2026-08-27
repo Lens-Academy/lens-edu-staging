@@ -56,6 +56,7 @@ What not to do: run a long socratic sequence; grade agreement; over-validate.
 
 #### Text
 content::
+Something here.
 ::card[[../Lenses/ToT M3 - Paper - Gerlich]]
 > Gerlich: the AI-use and critical-thinking survey, and its real limits.
 
