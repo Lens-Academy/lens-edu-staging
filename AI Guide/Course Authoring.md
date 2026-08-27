@@ -39,6 +39,11 @@ Writing an impressive-looking course is much easier than writing a correct one.
 
 That means care is not the mechanism. You can be maximally careful and fluently wrong all day. What works is a workflow whose steps make it hard to end up wrong, so correctness falls out of the operations rather than out of vigilance. The steps below are ordered by how much they caught per minute spent, measured on a real three-unit build.
 
+
+**Label your claims by what would establish them.** Go through the assertions (not every sentence; most sentences are instructions and take no citation) and tag each one: empirical needs a source, mathematical needs a derivation you can do right there, structural needs an enumeration somebody actually did, pedagogical needs data about a population. Expect structural to be the fattest ungrounded category: it is the connective tissue that makes prose flow, and it is invisible to review because it reads as organisation rather than as assertion. "There are two ways to get this wrong, and they are mirror images" asserts an enumeration and a symmetry that nobody checked.
+
+**Numbers need a separate pass.** Claim-labelling reads prose and skips numerals. On one build, 158 percentage figures appeared in the course and 86 of them were never examined by the labelling pass, including two that a student is graded against. Grep every figure and check it against its source. Expect to find a number taken from a summary of a paper nobody opened.
+
 **Check the quantity, not just the digits.** Both of Grace's discontinuity figures were correct in our course and one was attached to the wrong quantity: the paper says "the chance of a given level of progress arising in a large robust discontinuity was around 14%", a probability about how an increment arrives, and we wrote it as a share of total progress. The student-facing question then asked for the share and graded the answer against the probability.
 
 **Hedging is not grounding.** Softening a claim you did not check lowers your confidence without finding anything out. "There are two ways" becoming "there are probably two ways" is worth nothing; finding the person who enumerated them is worth everything.

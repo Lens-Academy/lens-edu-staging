@@ -62,6 +62,8 @@ to:: both in terms of potential benefits and potential risks.
 content::
 \## Optional: a doubling is hard to feel
 
+Here's a sh
+
 The chart you just read plots a doubling. Reading one and believing one are different things, and the gap between them is not a failure of arithmetic.
 
 The clip below is about eighty seconds from a longer video by AI In Context. It is the plainest statement of that gap we could find: your intuition expects things to grow at a steady rate, a doubling does not, and the example it uses is March 2020.
