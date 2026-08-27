@@ -6,9 +6,19 @@ published: 2026-02-16
 created: 2026-03-08
 description: "Nothing groundbreaking, just something people forget constantly, and I’m writing it down so I don’t have to re-explain it from scratch.  …"
 tags:
----
+{++{"author":"Luc's AI","timestamp":1787825954944}@@llm-review:
+  content-sha: "sha256:c61f5ef1131070293177471dc174273e5606d178fadabd0b56e128fcefac669b"
+  date: 2026-08-27
+  model: "sonnet"
+  version: "article-qc-v1"
+  source:
+    content-sha: "sha256:263488ca67fe0591a1a885087052ab664eeb302ebda05b2fda9f321e9553a055"
+    fetched: 2026-08-27
+    kind: "live"
+++}---{--{"author":"Luc's AI","timestamp":1787825954721}@@
 
-%%
+--}{++{"author":"Luc's AI","timestamp":1787825954721}@@
+++}%%
 Add discussion note here:
 
 ...
