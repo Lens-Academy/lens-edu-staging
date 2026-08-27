@@ -1,10 +1,10 @@
 ---
 id: 'aa724a1e-ced8-46ff-9f99-7743b6a7d090'
 title: "Gerlich: AI use and critical thinking"
-reading_minutes: {--{"author":"AI","timestamp":1787856823839}@@5--}{++{"author":"AI","timestamp":1787856823839}@@8++}
+reading_minutes: 8
 tutor_minutes: 5
 tldr: "A survey of 666 UK adults found that heavier AI tool use predicted lower critical thinking scores, with the effect strongest in younger users. The study relied on self-report. A 2025 correction replaced a duplicated table; it did not challenge the conclusions."
-summary_for_tutor: "Optional study lens for Unit 3 of 'Thinking about Thinking'. Presents Gerlich (2025): a survey of 666 UK participants using the validated Halpern Critical Thinking Assessment, finding AI tool use negatively predicts critical thinking (beta = -1.76, p < 0.001), mediated by cognitive offloading; younger participants showed the strongest pattern. Corrected wording: a 2025 correction replaced Table 4, which had accidentally duplicated Table 3; the corrected table did not change the paper's stated conclusions. The reliance on self-reported practices is a separate design limitation, not the subject of the correction. Inlines {--{"author":"AI","timestamp":1787856766337}@@one excerpt.--}{++{"author":"AI","timestamp":1787856766337}@@four excerpts: the abstract, the participant sample and age groups, the correlations and mediation analysis, and the multiple regression.++} Optional, linked from the core evidence ladder. About {--{"author":"AI","timestamp":1787856766337}@@5--}{++{"author":"AI","timestamp":1787856766337}@@8++} minutes."
+summary_for_tutor: "Optional study lens for Unit 3 of 'Thinking about Thinking'. Presents Gerlich (2025): a survey of 666 UK participants using the validated Halpern Critical Thinking Assessment, finding AI tool use negatively predicts critical thinking (beta = -1.76, p < 0.001), mediated by cognitive offloading; younger participants showed the strongest pattern. Corrected wording: a 2025 correction replaced Table 4, which had accidentally duplicated Table 3; the corrected table did not change the paper's stated conclusions. The reliance on self-reported practices is a separate design limitation, not the subject of the correction. Inlines four excerpts: the abstract, the participant sample and age groups, the correlations and mediation analysis, and the multiple regression. Optional, linked from the core evidence ladder. About 8 minutes."
 tags:
   - wip
 ---
@@ -19,7 +19,7 @@ A 2025 correction replaced Table 4, which had accidentally duplicated Table 3. T
 #### Article
 source:: [[../articles/gerlich-2025-ai-tools-in-society]]
 from:: "This study investigates the relationship between AI tool usage and critical thinking skills, focusing on cognitive offloading as a mediating factor."
-to:: "These results highlight the potential cognitive costs of AI tool reliance, emphasising the need for educational strategies that promote critical engagement with AI technologies."{++{"author":"AI","timestamp":1787856658453}@@
+to:: "These results highlight the potential cognitive costs of AI tool reliance, emphasising the need for educational strategies that promote critical engagement with AI technologies."
 
 #### Article
 source:: [[../articles/gerlich-2025-ai-tools-in-society]]
@@ -34,7 +34,7 @@ to:: "These findings suggest that cognitive offloading plays a substantial role 
 #### Article
 source:: [[../articles/gerlich-2025-ai-tools-in-society]]
 from:: "A multiple regression analysis was conducted to further explore the hypothesised relationship between AI tool use, critical thinking, and the mediating role of cognitive offloading (see Table 6)."
-to:: "These findings support the hypothesis that increased reliance on AI tools leads to cognitive offloading, which, in turn, reduces critical thinking abilities."++}
+to:: "These findings support the hypothesis that increased reliance on AI tools leads to cognitive offloading, which, in turn, reduces critical thinking abilities."
 
 %% Note: 666 UK participants, mixed-method with validated HCTA assessment. Key finding: beta = -1.76, p < 0.001. Self-report limitation is a design feature, separate from the 2025 correction, which replaced a duplicated Table 4 and did not alter conclusions. %%
 
