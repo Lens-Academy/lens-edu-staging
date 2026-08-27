@@ -35,7 +35,7 @@ visible because deterministic retroactive repairs still require human approval.
 
 ```diff
 -Out of the box they aren’t agents who are trying to pursue their own goals in the world and their objective functions are quite malleable.
-+Out of the box they aren’t agents who are trying to pursue their own goals in the world their objective functions are quite malleable.
++Out of the box they aren’t agents who are trying to pursue their own goals in the world their objective functions are quite malleable.{>>{"author":"Luc","timestamp":1787861832353}@@no the source actually has the "and". Very weird. Can you look into what happened with the subagent?<<}
 ```
 
 The date repair looks useful. The removed `and` makes the sentence grammatical
