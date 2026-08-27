@@ -30,7 +30,7 @@ Their approach has three parts.
 
 #### Question
 content::
-\## The pre-test: 
+\## What have they found on AIs 
 
 Two answers, before you open the reading.
 
