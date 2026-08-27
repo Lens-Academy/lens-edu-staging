@@ -30,7 +30,7 @@ Their approach has three parts.
 
 #### Question
 content::
-\## Guess the length, then guess what moves it
+\## The pre-test: 
 
 Two answers, before you open the reading.
 
