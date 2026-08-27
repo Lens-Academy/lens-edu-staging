@@ -24,6 +24,8 @@ METR is an independent organisation that runs those measurements. They test mode
 
 Their approach has three parts.
 
+- 
+
 - They take tasks that **human professionals have been timed on**, so every task has a human duration attached.
 - They run frontier agents on those tasks, on their own, with no person helping.
 - They find the **task length at which an agent succeeds half the time**. That length is the agent's time horizon.
