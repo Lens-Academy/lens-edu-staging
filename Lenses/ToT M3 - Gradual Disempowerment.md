@@ -11,7 +11,7 @@ tags:
 #### Text
 content::
 \## From a personal habit to a larger one
-This unit has so far looked at individuals. A person delegates a task, loses a little practice, and leans on the tool. Now widen the question, as the opening lens did.
+This unit has so far looked at individuals. A person delegates a task, loses a little practice, and leans on AI as a tool. Now widen the question, as the opening lens did.
 
 Kulveit and colleagues argue that the same small delegations, repeated across a whole economy and scaled by institutions, can add up to something no one planned: a gradual loss of human influence. The word "gradual" matters. {++{"author":"AI","timestamp":1787828717187}@@The AI does not need to rebel. ++}No {--{"author":"AI","timestamp":1787828717187}@@rebellion is required.--}{++{"author":"AI","timestamp":1787828717187}@@institution needs to decide on a handover.++}
 
