@@ -36,5 +36,8 @@ Optional frontmatter: `slug-aliases`, `partner-name`, `partner-logo`, `partner-l
 - Everything between two meetings belongs to one meeting's preparation.
 - If the course has in-person meetings, the meeting doc template must be linked under the `# Meeting`. (see: [[Writing Meeting Docs]])
 
-The target audience for this course has features
+When cr
+
+The target audience for this course multiple features
+
 **Diff the course against what was advertised.** Read the public landing copy and tabulate each promise against the unit that delivers it. Internal review only ever compares the artifact to itself, so this is the one check that catches a course quietly not being the course that was sold.
