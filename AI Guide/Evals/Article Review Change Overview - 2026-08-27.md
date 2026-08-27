@@ -207,7 +207,7 @@ llm-review:
 
 [Open review](https://editor.lensacademy.org/8718f832/Lens-Edu/articles/iabied-ch1-ext-mundane-parts.md)
 
-Exact model-authored changes: {>>{"author":"Luc","timestamp":1787840687332}@@Okay. Well, so in a sense, removing the wrong asterisks here is good because it was supposed to be a footnote. The footnote link is there, but the footnote itself is missing from the article. So something does seem to be going wrong here. \nLike, this should probably, and probably is, already being captured by the programmatic validator, or, like, basically is, like, trying to link to some footnote that doesn't exist.<<}{>>{"author":"Luc","timestamp":1787840799084}@@Interestingly, no. This does not seem to be a thing that the article validator catches.<<}
+Exact model-authored changes: 
 ```diff
 -In most cases, we don't know the *meaning*, the higher-level patterns that allow the brain to do the work it does*.*[^note-iabied-ftnt42]
 +In most cases, we don't know the *meaning*, the higher-level patterns that allow the brain to do the work it does.[^note-iabied-ftnt42]
