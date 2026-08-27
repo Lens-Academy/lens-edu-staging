@@ -23,11 +23,9 @@ Some definitions:
 - A step is a **jump** when it breaks the trend by more than a century. That is, if each previous step had been on a trend before a next step, then a jump occurs when an actual development was ahead of the previous smooth-ish line. For the article's purposes, the authors only count trend breaks where the previous trend would have had to continue for 100 years to reach the same change as actually occurred in one step.
 
 
+
 {>>{"author":"lauren (chrome@what)","timestamp":1787818839908}@@6:20:36 start<<}
 
-- A **trend** is one measured quantity over time: tallest structure, ship tonnage, transatlantic message speed.
-- A **step** is one new data point in that record: a single new ship, bridge, or bomb.
-- A step counts as a **jump** when it delivers more than a century of *surplus* progress: take the progress the step actually made, subtract what the elapsed time already promised at the trend's previous rate, and more than 100 extra years' worth must remain. So a sparse record is not jumpy by default: a step that covers 150 quiet years and lands exactly where extrapolation predicted has zero surplus. One honest caveat: the bar is applied one step at a time, so whether a fast burst counts can depend on how finely history recorded it; a century of surplus smeared across many small steps may never clear the bar in any single one. The researchers flag this themselves.
 
 This one stings a little; the sting is the data you keep.
 
