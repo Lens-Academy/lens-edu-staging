@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-Unit 3 gave you evidence. Unit 4 gave you a frame and rules for keeping judgement in the loop. This page turns the evidence into rules you can apply today. Each rule rests on one finding you have already met. If a rule feels demanding, that is because the evidence points there.
+"Unit 3 gave you evidence. Unit 4 gave you a frame and rules for keeping judgement in the loop." This page turns the evidence into rules you can apply today. Each rule rests on one finding you have already met. If a rule feels demanding, that is because the evidence points there.
 
 \## Rule 1. Check in proportion to the stakes
 Lee's survey of knowledge workers found that people who trusted the AI reported less critical thinking. The lesson is calibration, not distrust. Before you accept an output, ask three questions:
