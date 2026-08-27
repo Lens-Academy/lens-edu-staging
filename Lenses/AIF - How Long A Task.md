@@ -12,7 +12,6 @@ authors:
 content::
 \## Where does an agent stop being able to finish the job?
 
-
 An AI agent can write a function. It usually cannot ship a feature. Somewhere between those two there is a length of job it stops being able to finish, and that length is a fact you can measure rather than argue about.
 
 METR is an independent organisation that runs those measurements. They are not a lab. They test models that labs give them access to, and they publish their method.
