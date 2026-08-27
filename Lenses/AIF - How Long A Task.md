@@ -66,10 +66,6 @@ Here's an excerpt of a video about what exponential processes feel like.
 
 The chart you just read plots a doubling. Reading one and believing one are different things, and the gap between them is not a failure of arithmetic.
 
-The clip below is about eighty seconds from a longer video by AI In Context. It is the plainest statement of that gap we could find: your intuition expects things to grow at a steady rate, a doubling does not, and the example it uses is March 2020.
-
-Watch it for the feeling rather than the maths, then look at the chart again.
-
 #### Video
 source:: [[../video_transcripts/ai-in-context-were-not-ready-for-superintelligence]]
 from:: 6:05
