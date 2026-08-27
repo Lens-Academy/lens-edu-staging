@@ -40,7 +40,6 @@ If you'd like to do more reading, take a look at the optional lenses here.
 ::card[[../Lenses/ToT M3 - Paper - Seifer]]
 
 ::card[[../Lenses/ToT M3 - Paper - Gutoreva (Counterargument)]]
-> Gutoreva: the extended-mind pushback on a simple decline story.
 
 #### Question
 content::
