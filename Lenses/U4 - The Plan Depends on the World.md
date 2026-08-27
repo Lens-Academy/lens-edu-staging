@@ -48,7 +48,9 @@ Before you read Greenblatt's four plans, describe your own.{++{"author":"Luc","t
 
 ++}{++{"author":"Luc","timestamp":1787823100040}@@Before you read Ryan's plans, before you read Greenblatt's plans for making AI go well, we will ask you to describe your own plan. Don't worry about not having a good plan yet. This is a useful exercise nonetheless.++}{--{"author":"Luc","timestamp":1787823094858}@@
 --}
-Write two or three sentences about the plan you believe exists today to prevent an AI takeover. Name who executes it. If you think no plan exists, say what happens instead. Say who would act if the danger became visible, and how they would act.
+Write two or three sentences about the plan you believe exists today to prevent an AI takeover. Name who executes it. If you think no plan exists, say what happens instead. Say who would act if the danger became visible, and how they would act.{++{"author":"Luc","timestamp":1787823119379}@@
+
+++}
 
 Then add one more line. This is the harder part. What does your plan assume the rest of the world is doing?
 
