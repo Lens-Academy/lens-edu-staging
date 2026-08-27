@@ -33,7 +33,7 @@ These do not cancel the concern. They narrow it: the worry is specific patterns 
 
 #### Text
 content::
-If you'd like to do more reading
+If you'd like to do more reading, take a look at the optional lenses here.
 ::card[[../Lenses/ToT M3 - Paper - Gerlich]]
 > Gerlich: the AI-use and critical-thinking survey, and its real limits.
 
