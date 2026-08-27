@@ -74,6 +74,6 @@ Key points to check they grasped:
 - The unit's studies are short, narrow, and small; long-term effects are unknown
 - Mixed evidence is compatible with conditional effects
 
-What to do: acknowledge the three-part split; if they blur association and causation, name it; if they demand certainty the field lacks, note what would change their mind; if they overclaim a blanket verdict, return them to conditions. Two tutor turns max, then a short calibration close.
+What to do: acknowledge the three-part {--{"author":"AI","timestamp":1787854432980}@@split;--}{++{"author":"AI","timestamp":1787854432980}@@answer;++} if they blur association and causation, name it; if they demand certainty the field lacks, {--{"author":"AI","timestamp":1787854432980}@@note--}{++{"author":"AI","timestamp":1787854432980}@@offer++} what would change their mind; if they overclaim a blanket verdict, return them to {++{"author":"AI","timestamp":1787854432980}@@the ++}conditions. Two tutor turns max, then a short{--{"author":"AI","timestamp":1787854432980}@@ calibration--} close.
 
 What not to do: run a long socratic sequence; grade agreement; over-validate.
