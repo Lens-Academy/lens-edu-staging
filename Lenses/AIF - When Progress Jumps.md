@@ -22,7 +22,7 @@ Some definitions for how this article uses words:
 - An **event** is one new number at a particular time: a single new structure, ship, or communication method.
 - An event is a **jump** when it breaks the trend by more than a century. That is, if each previous event had been on a trend, then a jump occurs when an actual development was ahead of the previous smooth-ish line. For the article's purposes, the authors only count trend breaks where the previous trend would have had to continue for 100 years to reach the same change as actually occurred in one event.
 
-(They don't count speedups where there are multiple events of rapidly increasing size unless one of those individual events beats the trend of the events around it.)
+(They don't count speedups where there are multiple events of rapidly increasing size unless one of those individual events beats the trend of the events right before it.)
 
 
 {>>{"author":"lauren (chrome@what)","timestamp":1787818839908}@@6:20:36 start<<}
