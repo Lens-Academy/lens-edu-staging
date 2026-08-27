@@ -124,7 +124,7 @@ Note on **subjective probability**: we'll get into this in more detail later, bu
 
 When you answer, also write down something about what leads you to your number. If you can show your work in detail, that's ideal. If you wrote down disagreements above, you're looking for how they lead you to a different number.
 
- In particular, write down in what ways  from an *inside view*: a description based on mechanisms and processes; or an *outside view*: that is,  
+ In particular, write down in what ways you're reasoning from an *inside view*: a description based on your understanding of mechanisms and processes; or an *outside view*: that is,  
 
 His answer to "probability that TAI appears in the Compute Fairy world" is 90%, and he shows his work: inside view[^inside] 99, discounted for unknown unknowns and deference. Ajeya's distribution puts its median[^median] at the 10^35 mark, which he reads as her answering 50%.
 
