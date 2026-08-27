@@ -52,7 +52,7 @@ Write two or three sentences about the plan you believe exists today to prevent 
 
 Please write 2 or 3 sentences about the plan you believe exists today to prevent AI takeover, and describe who executes the plan or who will execute the plan. Or if you believe no plan exists, describe what you think will happen instead. Describe who would act if the dangers became more visible than they currently are, and how they would act, even if they don't have an upfront plan for it.
 
-++}
+Then finally, describe in one line what your plan assumes the rest of the world is doing.++}
 
 Then add one more line. This is the harder part. What does your plan assume the rest of the world is doing?
 
