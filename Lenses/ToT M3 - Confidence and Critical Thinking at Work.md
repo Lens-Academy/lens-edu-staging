@@ -40,7 +40,7 @@ The study asked workers, for each task, how much effort each level took when the
 \## What the study found about the effort
 The study also found that AI changed where the effort went. For tasks that produce something, the effort moved toward the middle of the scale. Workers did less of the producing itself and more checking, integrating, and looking after the AI's output. Verifying and judging are evaluation-level work, not lower-order work.
 
-Lee reports these as shifts within each level of the work, not a slide to easier thinking. Someone who checks an AI output is still thinking, but the thinking {--{"author":"AI","timestamp":1787855585149}@@has--}{++{"author":"AI","timestamp":1787855585149}@@is of++} a different {--{"author":"AI","timestamp":1787855585149}@@shape.--}{++{"author":"AI","timestamp":1787855585149}@@kind. It starts from an existing answer and asks what is wrong with it. It does not build the skill of producing that answer from scratch.++} The real lesson is calibration: checking should track how much the task matters, how well you know the area, and whether you can verify the answer.
+Lee reports these as shifts within each level of the work, not a slide to easier thinking. Someone who checks an AI output is still thinking, but the thinking is of a different kind. It starts from an existing answer and asks what is wrong with it. It does not build the skill of producing that answer from scratch. The real lesson is calibration: checking should track how much the task matters, how well you know the area, and whether you can verify the answer.
 
 #### Question
 content::
