@@ -12,7 +12,7 @@ authors:
 content::
 \## How big of a task can't a given AI do?
 
-If we want to k
+If we want to know 
 
 By far the{>>{"author":"lauren (chrome@what)","timestamp":1787823523443}@@7:38:41<<} most common type of interaction with AIs is to describe a task and get a result. Among those tasks, a common type of task is programming.
 
