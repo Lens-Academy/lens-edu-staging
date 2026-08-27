@@ -31,7 +31,9 @@ Some definitions for how this article uses words:
 content::
 \## Guess the base rates
 
-First let's have you guess the "base rates": how common would you guess jumps are, as de
+First let's have you guess the "base rates": how common would you guess jumps are, as defined above?
+
+1. Consider one 
 
 1. Pick one measured technology trend and watch it for 1,000 years. How many 100-year jumps do you expect to see in that time?
 2. Averaged across trends, what share of a trend's TOTAL progress arrived in such jumps?
