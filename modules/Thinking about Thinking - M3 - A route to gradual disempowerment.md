@@ -18,11 +18,10 @@ source:: [[../Lenses/ToT M3 - Confidence and Critical Thinking at Work]]
 # Lens:
 source:: [[../Lenses/ToT M3 - When AI Helps and When It Harms]]
 
-# Lens:
-source:: [[../Lenses/ToT M3 - Gradual Disempowerment]]
+
 
 # Lens:
-source:: [[../Lenses/ToT M3 - What the Skeptics Say]]
+source:: [[../Lenses/ToT M3 - Gradual Disempowerment]]
 
 # Lens:
 source:: [[../Lenses/ToT M3 - The Evidence - Synthesis]]
