@@ -63,7 +63,7 @@ This is a one-turn response.
 
 #### Text
 content::
-\## The answers 
+\## The answers the authors got
 
 The measured answers, quoted from AI Impacts, "Discontinuous progress in history: an update" (Katja Grace; included below):
 
