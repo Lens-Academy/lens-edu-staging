@@ -14,7 +14,7 @@ tags:
 content::
 \## Before you read
 
-{>>{"author":"Luc","timestamp":1787822721810}@@start time 11h25<<}{>>{"author":"Luc","timestamp":1787823313102}@@end time of typing 11h34. Then started struggling with the suggestion mode.<<}{>>{"author":"Luc","timestamp":1787823524434}@@pre, 296 words\npost, 430 words.<<}
+{>>{"author":"Luc","timestamp":1787822721810}@@start time 11h25<<}{>>{"author":"Luc","timestamp":1787823313102}@@end time of typing 11h34. Then started struggling with the suggestion mode.<<}{>>{"author":"Luc","timestamp":1787823524434}@@pre, 296 words\npost, 430 words.\n\nSo that's about 30 words per minute.<<}
 
 
 The previous unit was about how AI could go very wrong for humanity. This unit will discuss how we can prevent bad outcomes and steer the future towards good outcomes.
