@@ -58,15 +58,15 @@ The argument moves through five steps. Keep them distinct.
 4. Institutions become dependent on systems that few people can audit or replace.
 5. Human authority remains in name, while effective control has quietly weakened.
 
-The studies in this unit cover steps 1 and 2. They show skill and scrutiny eroding in real tasks. Steps 3 to 5 are an argument about what follows. No workplace study in this unit tested them. The {--{"author":"AI","timestamp":1787854852788}@@question at the end asks--}{++{"author":"AI","timestamp":1787854852788}@@example below walks through those higher steps, so++} you {--{"author":"AI","timestamp":1787854852788}@@to decide --}{++{"author":"AI","timestamp":1787854852788}@@can see what the argument rests on and ++}where {--{"author":"AI","timestamp":1787854852788}@@that gap matters.--}{++{"author":"AI","timestamp":1787854852788}@@to test it.++}
+The studies in this unit cover steps 1 and 2. They show skill and scrutiny eroding in real tasks. Steps 3 to 5 are an argument about what follows. No workplace study in this unit tested them. The example below walks through those higher steps, so you can see what the argument rests on and where to test it.
 
-\## {--{"author":"AI","timestamp":1787854852788}@@An example without any scheme--}{++{"author":"AI","timestamp":1787854852788}@@The regulator, step by step++}
-{--{"author":"AI","timestamp":1787854852788}@@A--}{++{"author":"AI","timestamp":1787854852788}@@Consider a++} regulator {++{"author":"AI","timestamp":1787854852788}@@that ++}adopts an AI system for screening. No human intends to surrender oversight. The tool is faster, so the reviewers trust it. {++{"author":"AI","timestamp":1787854852788}@@Each step in the argument shows up in turn:
+\## The regulator, step by step
+Consider a regulator that adopts an AI system for screening. No human intends to surrender oversight. The tool is faster, so the reviewers trust it. Each step in the argument shows up in turn:
 - Step 3. The agency redesigns its review process around the AI, because it is faster.
-- Step 4. ++}Over time the agency stops hiring people who can check {--{"author":"AI","timestamp":1787854852788}@@it.--}{++{"author":"AI","timestamp":1787854852788}@@the model.++} The vendor becomes the only group that understands {++{"author":"AI","timestamp":1787854852788}@@it.
+- Step 4. Over time the agency stops hiring people who can check the model. The vendor becomes the only group that understands it.
 - Step 5. The agency keeps its authority. The capacity to exercise it has moved elsewhere.
 
-Every decision in ++}the {--{"author":"AI","timestamp":1787854852788}@@model. Each decision is reasonable.--}{++{"author":"AI","timestamp":1787854852788}@@sequence was reasonable on its own.++} No single actor {--{"author":"AI","timestamp":1787854852788}@@chooses--}{++{"author":"AI","timestamp":1787854852788}@@chose++} the final loss of capacity.{++{"author":"AI","timestamp":1787854852788}@@ That is the shape of the risk the argument describes, and it is the part the question below asks you to test.++}
+Every decision in the sequence was reasonable on its own. No single actor chose the final loss of capacity. That is the shape of the risk the argument describes, and it is the part the question below asks you to test.
 
 #### Question
 content::
