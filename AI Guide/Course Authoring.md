@@ -38,22 +38,15 @@ Every content file is markdown with two kinds of structure: YAML frontmatter on 
 It is easy to write a course that sounds right. Being careful while writing does not prevent errors. These checks do. Run them on every course before promoting it.
 
 
-**Label every claim by the evidence it needs, then find that evidence or delete the claim.**
-Most sentences are instructions ("read chapter 2") and need no evidence. The remaining sentences are claims. Each claim needs one of:
-- A source (study, poll, experiment, report) for claims about the world.
-- A derivation for mathematical claims. If the claim is numeric, run the calculation in Python.
-- An enumeration for claims about structure, such as "there are two ways to get this wrong" or "these are mirror images". Someone must actually have listed the cases. These claims are the most common unchecked ones, because they read like organisation rather than like claims.
-- Population data for claims about people, such as "students commonly misread this". Usually no such data exists. Either cite the post that documented the misreading, or rewrite the claim as design intent: "if the student does X, this phase handles it".
+{--{"author":"Elias's AI","timestamp":1787849648926}@@**Label every--}{++{"author":"Elias's AI","timestamp":1787849648926}@@**Every++} claim {--{"author":"Elias's AI","timestamp":1787849648926}@@by the evidence it needs, then find that evidence --}{++{"author":"Elias's AI","timestamp":1787849648926}@@is sourced, marked as our own view, ++}or {--{"author":"Elias's AI","timestamp":1787849648926}@@delete the claim.**--}{++{"author":"Elias's AI","timestamp":1787849648926}@@deleted.**++}
+{--{"author":"Elias's AI","timestamp":1787849648926}@@Most sentences are instructions ("read chapter 2") and need no evidence. The remaining sentences are claims. Each claim needs one of:
+- A source (study, poll, experiment, report) for claims about --}{++{"author":"Elias's AI","timestamp":1787849648926}@@Source means: a link the student can see (inline or footnote), or for maths, a calculation you ran. Own view means ++}the {--{"author":"Elias's AI","timestamp":1787849648926}@@world.
+- A derivation for mathematical claims. If the claim --}{++{"author":"Elias's AI","timestamp":1787849648926}@@sentence says so ("We think…"). Hedging ("probably") ++}is {--{"author":"Elias's AI","timestamp":1787849648926}@@numeric, run the calculation--}{++{"author":"Elias's AI","timestamp":1787849648926}@@neither.
+Claims hide++} in {--{"author":"Elias's AI","timestamp":1787849648926}@@Python.
+- An enumeration for claims about structure, such as "there --}{++{"author":"Elias's AI","timestamp":1787849648926}@@sentences that read like structure ("there ++}are two ways to get this{--{"author":"Elias's AI","timestamp":1787849648926}@@ wrong" or--}{++{"author":"Elias's AI","timestamp":1787849648926}@@ wrong",++} "these are mirror {--{"author":"Elias's AI","timestamp":1787849648926}@@images". Someone must actually have listed the cases. These claims are the most common unchecked ones, because they read --}{++{"author":"Elias's AI","timestamp":1787849648926}@@images") or ++}like {--{"author":"Elias's AI","timestamp":1787849648926}@@organisation rather than like claims.
+- Population data for claims about people, such as "students commonly--}{++{"author":"Elias's AI","timestamp":1787849648926}@@teaching lore ("students often++} misread {--{"author":"Elias's AI","timestamp":1787849648926}@@this". Usually no such data exists. Either cite the post that documented the misreading, or rewrite the claim--}{++{"author":"Elias's AI","timestamp":1787849648926}@@this"). Treat those++} as {--{"author":"Elias's AI","timestamp":1787849648926}@@design intent: "if--}{++{"author":"Elias's AI","timestamp":1787849648926}@@claims too;++} the{--{"author":"Elias's AI","timestamp":1787849648926}@@ student does X, this phase handles it".
 
-Making a claim vaguer ("there are probably two ways") is not evidence. Check it or delete it.{++{"author":"Elias's AI","timestamp":1787849399892}@@
-
-What to leave in the file after checking:
-- Claim grounded by a source: put the source where the student can see it, as an inline link or a markdown footnote (`[^1]`). In `assessment-instructions`, name the source in plain text so the tutor sees it.
-- Claim that is our own view: say so in the sentence itself ("We think…"). Do not hide this in a comment.
-- Claim you grounded by a derivation or an enumeration: keep the derivation or the list in a `%% %%` comment next to the claim, so a reviewer can re-check it without redoing it.
-- Claim you could not ground: delete it.
-
-Temporary labels during the pass (`%% CHECK: structural %%`) are fine; remove them once resolved. Do not leave a label on every claim: comments go stale and double the file length.++}
+Making a claim vaguer ("there are probably two ways")--}{++{"author":"Elias's AI","timestamp":1787849648926}@@ second kind++} is {--{"author":"Elias's AI","timestamp":1787849648926}@@not evidence. Check it or delete it.--}{++{"author":"Elias's AI","timestamp":1787849648926}@@usually better rewritten as an instruction to the tutor: "if the student does X, do Y".++}
 
 **Check every number in a separate pass.**
 Reading prose for claims skips numerals. Grep every figure in the course and compare it against the original paper, not a summary. Check two things: that the digits are right, and that the number describes the quantity the text says it does. Example: a paper reported a 14% probability that progress arrives as a discontinuity; the course wrote it as a 14% share of total progress, and a test question graded students against the wrong meaning.
