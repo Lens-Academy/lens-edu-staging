@@ -23,10 +23,10 @@ to:: 8:56
 #### Text
 content::
 \## The three traps AI adds
-Use the source's own words:
-- **Interruption**: a stream of suggestions breaks your concentration at the exact moments you need to think.
-- **Mislead**: a confident wrong answer steers your whole approach, and the only check on offer is the AI's own account of itself.
-- **Progression**: you fall behind in the fundamentals without noticing, because each answer arrives whole and every step feels like understanding.
+{--{"author":"AI","timestamp":1787826745146}@@Use--}{++{"author":"AI","timestamp":1787826745146}@@As the clip names them, here are++} the {--{"author":"AI","timestamp":1787826745146}@@source's own words:--}{++{"author":"AI","timestamp":1787826745146}@@three traps stated plainly, with examples from knowledge work rather than code:++}
+- **Interruption**: a stream of suggestions breaks your concentration at the exact moments you need to think.{++{"author":"AI","timestamp":1787826745146}@@ *Example: you are writing a careful reply to a client, and the AI keeps offering alternative phrasings and follow-up options, so the message you send is the one the tool pushed you toward rather than the one you were building.*++}
+- **Mislead**: a confident wrong answer steers your whole approach, and the only check on offer is the AI's own account of itself.{++{"author":"AI","timestamp":1787826745146}@@ *Example: a summariser states confidently that the report concludes one thing; you build your briefing on that, and the only way to catch the error would be to open the report and read it yourself.*++}
+- **Progression**: you fall behind in the fundamentals without noticing, because each answer arrives whole and every step feels like understanding.{++{"author":"AI","timestamp":1787826745146}@@ *Example: you ask for an analysis and get a finished one, so you skip the steps where the method is built; later, without the tool, you cannot reconstruct the result.*++}
 
 Why does this matter if you never write code? The traps live in metacognition during learning. Everyone is a novice somewhere, most of the time. When an AI does the producing, the repetitions that build your own understanding can quietly disappear. AI assistance can therefore increase, not reduce, the need for metacognitive monitoring.
 
