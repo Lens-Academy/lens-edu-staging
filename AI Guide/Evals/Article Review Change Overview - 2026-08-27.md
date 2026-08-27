@@ -207,7 +207,7 @@ llm-review:
 
 [Open review](https://editor.lensacademy.org/8718f832/Lens-Edu/articles/iabied-ch1-ext-mundane-parts.md)
 
-Exact model-authored changes:
+Exact model-authored changes: 
 
 ```diff
 -In most cases, we don't know the *meaning*, the higher-level patterns that allow the brain to do the work it does*.*[^note-iabied-ftnt42]
