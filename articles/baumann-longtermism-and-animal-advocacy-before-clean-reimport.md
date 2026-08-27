@@ -28,7 +28,9 @@ llm-review:
 %%
 Add discussion note here:
 
-...
+{++{"author":"Luc's AI","timestamp":1787862092749}@@Original source URL for clean-import comparison: https://centerforreducingsuffering.org/longtermism-and-animal-advocacy/
+
+++}...
 
 %%
 
