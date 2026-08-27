@@ -118,6 +118,8 @@ to:: your median should be roughly 10 years earlier than hers, all else equal: 2
 content::
 \## Your number
 
+
+
 His answer to "probability that TAI appears in the Compute Fairy world" is 90%, and he shows his work: inside view[^inside] 99, discounted for unknown unknowns and deference. Ajeya's distribution puts its median[^median] at the 10^35 mark, which he reads as her answering 50%.
 
 [^inside]: Your inside view is the estimate you get by reasoning through this case's specific details. Its partner, the outside view, asks how cases like this usually turn out. His 99 is pure inside view; the drop to 90 is humility about everything the inside view can't see.
