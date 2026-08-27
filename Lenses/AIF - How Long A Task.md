@@ -12,7 +12,7 @@ authors:
 content::
 \## How big of a task can't a given AI do?
 
-By far the most common type of interaction with AIs is to describe a task and get a result. Among
+By far the most common type of interaction with AIs is to describe a task and get a result. Among those 
 
 An AI agent can write a function. It usually cannot ship a feature. Somewhere between those two there is a length of job it stops being able to finish, and that length is a fact you can measure rather than argue about.
 
