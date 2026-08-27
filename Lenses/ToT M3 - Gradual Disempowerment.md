@@ -10,40 +10,62 @@ tags:
 
 #### Text
 content::
-\## From a personal habit to a social one
-So far this unit has looked at individuals: a person delegates a judgement, loses a little practice, leans on the tool. Now widen the view, as the opening lens did.
+\## From a personal habit to a {--{"author":"AI","timestamp":1787828717187}@@social--}{++{"author":"AI","timestamp":1787828717187}@@larger++} one
+{--{"author":"AI","timestamp":1787828717187}@@So far this unit has--}{++{"author":"AI","timestamp":1787828717187}@@This unit has so far++} looked at {--{"author":"AI","timestamp":1787828717187}@@individuals: a--}{++{"author":"AI","timestamp":1787828717187}@@individuals. A++} person delegates a {--{"author":"AI","timestamp":1787828717187}@@judgement,--}{++{"author":"AI","timestamp":1787828717187}@@task,++} loses a little practice, {++{"author":"AI","timestamp":1787828717187}@@and ++}leans on the tool. Now widen the {--{"author":"AI","timestamp":1787828717187}@@view,--}{++{"author":"AI","timestamp":1787828717187}@@question,++} as the opening lens did.
 
-Kulveit and colleagues argue that the same small delegations, repeated across a whole economy and scaled by institutions, can add up to something no one planned: a gradual loss of human influence. The word "gradual" matters. No rebellion is required.
+Kulveit and colleagues argue that the same small delegations, repeated across a whole economy and scaled by institutions, can add up to something no one planned: a gradual loss of human influence. The word "gradual" matters. {++{"author":"AI","timestamp":1787828717187}@@The AI does not need to rebel. ++}No {--{"author":"AI","timestamp":1787828717187}@@rebellion is required.--}{++{"author":"AI","timestamp":1787828717187}@@institution needs to decide on a handover.++}
 
-#### Article
+{++{"author":"AI","timestamp":1787828717187}@@The passage below sets out the thesis. Read it, then note how it answers the usual picture of AI risk.
+
+++}#### Article
 source:: [[../articles/gradual-disempowerment-gradual-disempowerment]]
 from:: "AI risk scenarios usually portray a relatively sudden loss of human control to AIs, outmaneuvering individual humans and human institutions, due to a sudden increase in AI capabilities, or a coordinated betrayal."
 to:: "Those who resist these pressures will eventually be displaced by those who do not."
 
-#### Article
+#### {++{"author":"AI","timestamp":1787828717187}@@Text
+content::
+\## From the thesis to the economy
+The passage makes the case that the loss can be gradual. It does not yet show how the loss would spread through a whole society. The paper works through three large systems: the economy, culture, and states. The next passage examines the economy.
+
+The economy matters for this unit. The studies you read earlier are workplace studies. They describe individual people delegating individual tasks. The next passage asks what happens when the same pattern scales to a whole economy, where firms compete to replace human labour with machines.
+
+The passage makes one central point. It compares AI with earlier technologies. Watch for how AI differs from every technology that came before.
+
+#### ++}Article
 source:: [[../articles/gradual-disempowerment-misaligned-economy]]
 from:: "Past technological shifts like the industrial revolution or the development of electronic communication have substantially changed the world of work"
 to:: "as machines become capable of performing virtually any cognitive task more efficiently than humans."
 
-#### Article
+#### {++{"author":"AI","timestamp":1787828717187}@@Text
+content::
+\## The objection the next passage answers
+A natural objection arises. The economy, culture, and states balance one another. States regulate the market. Culture influences the state. If the economy drifts away from human interests, the other systems might pull it back.
+
+The next passage answers that objection. The answer has two parts.
+
+First, the connections between the systems do not protect human values by themselves. The same connection that lets a state correct the economy can also spread misalignment in the other direction.
+
+Second, the drift does not require any AI to plot or seize power. Ordinary incentives are enough. Companies, states, and individuals each gain from using the AI, and each of those gains can be used to gain influence somewhere else.
+
+#### ++}Article
 source:: [[../articles/gradual-disempowerment-mutual-reinforcement]]
 from:: "Crucially, the misalignment being described here does not need to emerge from a deliberate scheme or power-grab by AI systems."
 to:: "there will be progressively stronger incentives to use influence in any one system to acquire influence in other systems."
 
 #### Text
 content::
-\## The five levels
-The argument moves through steps. Keep them distinct:
-1. An individual delegates a task to AI.
-2. Individuals lose practice at, or the ability to verify, the delegated judgement.
-3. Organisations redesign their processes around AI, because it is faster and cheaper.
-4. Institutions become dependent on systems few people can audit or replace.
-5. Nominal human authority remains, while effective control has quietly weakened.
+\## {--{"author":"AI","timestamp":1787828717187}@@The five levels--}{++{"author":"AI","timestamp":1787828717187}@@Five levels, from the task to the institution++}
+The argument moves through {++{"author":"AI","timestamp":1787828717187}@@five ++}steps. Keep them {--{"author":"AI","timestamp":1787828717187}@@distinct:--}{++{"author":"AI","timestamp":1787828717187}@@distinct.++}
+1. An individual delegates a task to {++{"author":"AI","timestamp":1787828717187}@@the ++}AI.
+2. {--{"author":"AI","timestamp":1787828717187}@@Individuals lose--}{++{"author":"AI","timestamp":1787828717187}@@The individual loses++} practice {--{"author":"AI","timestamp":1787828717187}@@at,--}{++{"author":"AI","timestamp":1787828717187}@@at the task,++} or the ability to {--{"author":"AI","timestamp":1787828717187}@@verify,--}{++{"author":"AI","timestamp":1787828717187}@@check++} the {--{"author":"AI","timestamp":1787828717187}@@delegated judgement.--}{++{"author":"AI","timestamp":1787828717187}@@AI's work.++}
+3. Organisations redesign their processes around {++{"author":"AI","timestamp":1787828717187}@@the ++}AI, because it is faster and cheaper.
+4. Institutions become dependent on systems {++{"author":"AI","timestamp":1787828717187}@@that ++}few people can audit or replace.
+5. {--{"author":"AI","timestamp":1787828717187}@@Nominal human--}{++{"author":"AI","timestamp":1787828717187}@@Human++} authority {--{"author":"AI","timestamp":1787828717187}@@remains, --}{++{"author":"AI","timestamp":1787828717187}@@remains in name, ++}while effective control has quietly weakened.
 
-Steps 1 and 2 are the level this unit's studies actually reach: they show skill and scrutiny eroding in real tasks. Steps 3 to 5 are an argument about what follows, not something the workplace studies measured. Be honest about that gap.
+{--{"author":"AI","timestamp":1787828717187}@@Steps 1 and 2 are the level this unit's studies actually reach: they--}{++{"author":"AI","timestamp":1787828717187}@@The studies in this unit cover steps 1 and 2. They++} show skill and scrutiny eroding in real tasks. Steps 3 to 5 are an argument about what {--{"author":"AI","timestamp":1787828717187}@@follows, not something--}{++{"author":"AI","timestamp":1787828717187}@@follows. No workplace study in this unit tested them. The question at++} the {--{"author":"AI","timestamp":1787828717187}@@workplace studies measured. Be honest about--}{++{"author":"AI","timestamp":1787828717187}@@end asks you to decide where++} that {--{"author":"AI","timestamp":1787828717187}@@gap.--}{++{"author":"AI","timestamp":1787828717187}@@gap matters.++}
 
-\## A concrete example
-Consider a regulator that adopts an AI system for screening. No one intends to surrender oversight. The tool is faster, so reviewers trust it; over time the agency stops hiring people who can check it; the vendor becomes the only group that understands the model. Each step is reasonable. No actor chose the final loss of capacity. That is the shape of the risk.
+\## {--{"author":"AI","timestamp":1787828717187}@@A concrete example--}{++{"author":"AI","timestamp":1787828717187}@@An example without any scheme++}
+{--{"author":"AI","timestamp":1787828717187}@@Consider a--}{++{"author":"AI","timestamp":1787828717187}@@A++} regulator{--{"author":"AI","timestamp":1787828717187}@@ that--} adopts an AI system for screening. No {--{"author":"AI","timestamp":1787828717187}@@one--}{++{"author":"AI","timestamp":1787828717187}@@human++} intends to surrender oversight. The tool is faster, so {++{"author":"AI","timestamp":1787828717187}@@the ++}reviewers trust {--{"author":"AI","timestamp":1787828717187}@@it; over--}{++{"author":"AI","timestamp":1787828717187}@@it. Over++} time the agency stops hiring people who can check {--{"author":"AI","timestamp":1787828717187}@@it; the--}{++{"author":"AI","timestamp":1787828717187}@@it. The++} vendor becomes the only group that understands the model. Each {--{"author":"AI","timestamp":1787828717187}@@step--}{++{"author":"AI","timestamp":1787828717187}@@decision++} is reasonable. No {++{"author":"AI","timestamp":1787828717187}@@single ++}actor {--{"author":"AI","timestamp":1787828717187}@@chose--}{++{"author":"AI","timestamp":1787828717187}@@chooses++} the final loss of capacity.{--{"author":"AI","timestamp":1787828717187}@@ That is the shape of the risk.--}
 
 #### Question
 content::
