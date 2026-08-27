@@ -1,7 +1,7 @@
 ---
 id: 'aa724a1e-ced8-46ff-9f99-7743b6a7d090'
 title: "Gerlich: AI use and critical thinking"
-reading_minutes: 5
+reading_minutes: {--{"author":"AI","timestamp":1787856823839}@@5--}{++{"author":"AI","timestamp":1787856823839}@@8++}
 tutor_minutes: 5
 tldr: "A survey of 666 UK adults found that heavier AI tool use predicted lower critical thinking scores, with the effect strongest in younger users. The study relied on self-report. A 2025 correction replaced a duplicated table; it did not challenge the conclusions."
 summary_for_tutor: "Optional study lens for Unit 3 of 'Thinking about Thinking'. Presents Gerlich (2025): a survey of 666 UK participants using the validated Halpern Critical Thinking Assessment, finding AI tool use negatively predicts critical thinking (beta = -1.76, p < 0.001), mediated by cognitive offloading; younger participants showed the strongest pattern. Corrected wording: a 2025 correction replaced Table 4, which had accidentally duplicated Table 3; the corrected table did not change the paper's stated conclusions. The reliance on self-reported practices is a separate design limitation, not the subject of the correction. Inlines {--{"author":"AI","timestamp":1787856766337}@@one excerpt.--}{++{"author":"AI","timestamp":1787856766337}@@four excerpts: the abstract, the participant sample and age groups, the correlations and mediation analysis, and the multiple regression.++} Optional, linked from the core evidence ladder. About {--{"author":"AI","timestamp":1787856766337}@@5--}{++{"author":"AI","timestamp":1787856766337}@@8++} minutes."
