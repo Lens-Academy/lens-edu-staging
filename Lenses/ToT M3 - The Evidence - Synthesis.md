@@ -72,7 +72,7 @@ Key points to check they grasped:
 - Lee and Gerlich are associations from self-reports, not proof of cause
 - Budzyń is an objective field outcome but observational, not a controlled test
 - The unit's studies are short, narrow, and small; long-term effects are unknown
-- Mixed evidence is compatible with conditional effects
+- Mixed evidence is {--{"author":"AI","timestamp":1787854442317}@@compatible--}{++{"author":"AI","timestamp":1787854442317}@@consistent++} with {++{"author":"AI","timestamp":1787854442317}@@a ++}conditional {--{"author":"AI","timestamp":1787854442317}@@effects--}{++{"author":"AI","timestamp":1787854442317}@@message: the effect depends on the situation++}
 
 What to do: acknowledge the three-part {--{"author":"AI","timestamp":1787854432980}@@split;--}{++{"author":"AI","timestamp":1787854432980}@@answer;++} if they blur association and causation, name it; if they demand certainty the field lacks, {--{"author":"AI","timestamp":1787854432980}@@note--}{++{"author":"AI","timestamp":1787854432980}@@offer++} what would change their mind; if they overclaim a blanket verdict, return them to {++{"author":"AI","timestamp":1787854432980}@@the ++}conditions. Two tutor turns max, then a short{--{"author":"AI","timestamp":1787854432980}@@ calibration--} close.
 
