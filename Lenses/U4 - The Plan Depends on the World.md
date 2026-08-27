@@ -19,7 +19,9 @@ content::
 The previous unit was about how AI could go very wrong for humanity. This unit will discuss how we can prevent bad outcomes and steer the future towards good outcomes.
 {--{"author":"Luc","timestamp":1787822768301}@@Unit 3 was about how it could go wrong. This unit is about the plans.--}
 
-Unit 3 ended on a disagreement, and we did not settle it. One reading, by Nate Soares, puts the risk inside the system, in what the system ends up aiming at. Another, by Jan Kulveit and co-authors, puts the risk between institutions, in dynamics that no single actor steers. That disagreement matters now. Where you locate the risk decides what you try to change. A person who fears the system works on how to aim it. A person who fears the dynamics works on treaties, governments, and labs. Most plans in this unit take one of those sides, whether or not its author says so.
+Unit 3 ended on a disagreement, and we did not settle it. One reading, by Nate Soares, puts the risk inside the system, in what the system ends up aiming at. Another, by Jan Kulveit and co-authors, puts the risk between institutions, in dynamics that no single actor steers. That disagreement matters now. Where you locate the risk decides what you try to change. A person who fears the system works on how to aim it. A person who fears the dynamics works on treaties, governments, and labs. Most plans in this unit take one of those sides, whether or not its author says so.{++{"author":"Luc","timestamp":1787822778420}@@
+
+++}
 
 You already read the argument about controlling misaligned AIs at the end of Unit 3. This unit is about everything else.
 
