@@ -36,8 +36,7 @@ Two pre-read questions.
 
 1. What would you expect is the number, in human-equivalent hours, that their method gave for AIs up to the end of 2025?
 2. What would you guess are the primary things that cause this number to change?
-
-Your reasoning matters more than your number here, so write a line for each.
+{>>{"author":"lauren (chrome@what)","timestamp":1787828595204}@@this doesn't feel right to ask. we should have something earlier in the course that gets into outcomes. all the articles so far are on the core capability trajectory, but determining what that flowers into requires understanding a lot more stuff.<<}
 
 max-time:: 5:00
 
