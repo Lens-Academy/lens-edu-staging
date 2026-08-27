@@ -53,18 +53,3 @@ Key points to check they grasped:
 What to do: acknowledge the three-part split; if they blur association and causation, name it; if they demand certainty the field lacks, note what would change their mind; if they overclaim a blanket verdict, return them to conditions. Two tutor turns max, then a short calibration close.
 
 What not to do: run a long socratic sequence; grade agreement; over-validate.
-
-#### Text
-content::
-Something here.
-::card[[../Lenses/ToT M3 - Paper - Gerlich]]
-> Gerlich: the AI-use and critical-thinking survey, and its real limits.
-
-::card[[../Lenses/ToT M3 - Paper - Seifer]]
-> Seifer: workplace warning signs from a UK worker survey.
-
-::card[[../Lenses/ToT M3 - Paper - Gutoreva (Counterargument)]]
-> Gutoreva: the extended-mind pushback on a simple decline story.
-
-::card[[../Lenses/ToT M3 - What the Skeptics Say]]
-> The strongest case against the worry, stated fairly.
