@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787825682059}@@---
+---
 id: '9ecf7c7f-57e8-4f1c-9ff9-4d0f6cc75fb4'
 title: "Confidence and Critical Thinking at Work"
 reading_minutes: 5
@@ -44,4 +44,4 @@ content::
 Want the numbers behind this summary? The paper lens holds the study's own account of the survey.
 
 ::card[[../Lenses/ToT M3 - Paper - Lee (Microsoft)]]
-> The full Lee et al. survey: design, the 936 examples, and what the self-report does and does not support.++}
+> The full Lee et al. survey: design, the 936 examples, and what the self-report does and does not support.
