@@ -3,7 +3,7 @@ id: '63f3753b-5b7e-4614-8433-b4910317e9d1'
 title: "What the Skeptics Say"
 reading_minutes: 8
 tutor_minutes: 4
-tldr: "Three objections carry weight: offloading is old and usually benign, the surveys rest on self-report, and perceived effort can differ from actual effort. The skeptical case narrows the concern to specific patterns of use."
+tldr: "Three objections carry weight: offloading is old and usually benign, the surveys rest on self-report, and perceived effort can differ from actual effort. The skeptical case {--{"author":"AI","timestamp":1787854039938}@@narrows--}{++{"author":"AI","timestamp":1787854039938}@@limits++} the {--{"author":"AI","timestamp":1787854039938}@@concern to specific patterns of use."--}{++{"author":"AI","timestamp":1787854039938}@@claim that AI use in general makes people think less."++}
 summary_for_tutor: "Core lens 6 of Unit 3 of 'Thinking about Thinking'. Presents the philosophical case for resisting the offloading worry, in plain prose and with no embedded articles. The three objections: offloading is historical and usually benign (the extended-mind position); the unit's surveys are self-report, which is subjective; and the Yu et al. speedup illusion shows perceived effort can separate from actual effort. The lens narrows the case to patterns of use and hands on to the evidence review in the next lens. Ends with a reflective question asking the learner to apply the strongest objection to one study and state where that objection stops. About 12 minutes."
 tags:
   - wip
