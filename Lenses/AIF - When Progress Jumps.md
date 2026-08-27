@@ -63,7 +63,7 @@ This is a one-turn response.
 content::
 \## The measured answers
 
-The measured answers, quoted from AI Impacts, "Discontinuous progress in history: an update" (Katja Grace; link below, and worth the full read):
+The measured answers, quoted from AI Impacts, "Discontinuous progress in history: an update" (Katja Grace; included below):
 
 > "On average, each trend had 0.001 large robust discontinuities per year, or 0.002 for those trends with at least one at some point."
 
