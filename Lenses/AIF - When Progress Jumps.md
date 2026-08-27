@@ -25,7 +25,6 @@ Some definitions for the question:
 
 {>>{"author":"lauren (chrome@what)","timestamp":1787818839908}@@6:20:36 start<<}
 
-
 #### Question
 content::
 \## Guess the base rates
