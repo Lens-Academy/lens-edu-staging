@@ -60,7 +60,12 @@ What to do: acknowledge the conditions they named; if they declared AI simply go
 
 What not to do: run a multi-turn sequence; introduce the other studies; over-lecture. This is one turn, then send them on.
 
-::card[[../Lenses/ToT M3 - Paper - Bednar (Legal Study)]]
+{++{"author":"AI","timestamp":1787828215106}@@#### Text
+content::
+\## The full studies
+The study lenses hold the design details and limits behind each study.
+
+++}::card[[../Lenses/ToT M3 - Paper - Bednar (Legal Study)]]
 > The full Bednar law-student study: design, numbers, and limits.
 
 ::card[[../Lenses/ToT M3 - Paper - Budzyn (Doctor Study)]]
