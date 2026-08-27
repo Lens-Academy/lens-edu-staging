@@ -95,6 +95,8 @@ Now compare your initial guesses to what Grace's research actually showed. For e
 
 Assuming we don't yet know how to determine confidently whether AI should be expected to have jumps (by the definition Grace gave above), which number should you use - 14% average, or 38% within just the technologies that did have jumps?
 
+Did any of the technologies you expected to have larg
+
 And, based on this article, does anything change about the intuitions you shared in the opening question?
 
 Did any of your three named technologies appear in their ten? Finish with one sentence for your running model: what does "rare, but large when present" do to the smoothest version of your day-zero story?
