@@ -22,7 +22,7 @@ Every content file is markdown with two kinds of structure: YAML frontmatter on 
 
 ## Rules that apply everywhere
 
-- **Articles should go through the article importer.** Add them with Lens Editor's [Add Article](https://editor.lensacademy.org/add-article) UI or MCP `import_article`, and use `import_status` to check completion. Never hand-write an article or create/move a new file into `Lens Edu/articles` through generic MCP tools. In the exceptional case where manual creation is genuinely necessary, explain this workflow and its consequences to the user, obtain explicit permission, and ask the user to create the file in the articles folder themselves; only then may the AI edit that existing file.
+- **Articles should go through the article importer.** Add them with Lens Editor's [Add Article](https://editor.lensacademy.org/add-article) UI or MCP `import_article`, and use `import_status` to check completion. Never hand-write an article or create/move a new file into `Lens Edu/articles` through generic MCP tools. In the exceptional case where manual creation is genuinely necessary, explain this workflow and its consequences to the user, and obtain explicit permission, and ask the user to create the file in the articles folder themselves; only then may the AI edit that existing file.
 - Don't use em dashes.
 - **Escape headings inside field values.** A line starting with `#`–`####` inside a multi-line `content::`/`instructions::` value is parsed as a new section boundary and silently truncates the field. Escape it: `\## Phase 1: Recall`
 - **Wikilinks are relative** to the referencing file and must contain a `/`. (`source:: [[../articles/name]]`, `source:: [[../Lenses/Name]]`).
