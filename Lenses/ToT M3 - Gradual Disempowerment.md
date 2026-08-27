@@ -40,11 +40,9 @@ to:: "as machines become capable of performing virtually any cognitive task more
 content::
 When reading this, a natural objection might arise. The economy, culture, and states balance one another. States regulate the market. Culture influences the state. If the economy drifts away from human interests, the other systems might pull it back.
 
-The next passage answers that objection. The answer has two parts.
+However, the connections between the systems do not protect human values by themselves. The same connection that lets a state correct the economy can also spread misalignment in the other direction.
 
-First, the connections between the systems do not protect human values by themselves. The same connection that lets a state correct the economy can also spread misalignment in the other direction.
-
-Second, the drift does not require any AI to plot or seize power. Ordinary incentives are enough. Companies, states, and individuals each gain from using the AI, and each of those gains can be used to gain influence somewhere else.
+On top of this, the drift does not require any AI to plot or seize power. Ordinary incentives are enough. Companies, states, and individuals each gain from using the AI, and each of those gains can be used to gain influence somewhere else.
 
 #### ++}Article
 source:: [[../articles/gradual-disempowerment-mutual-reinforcement]]
