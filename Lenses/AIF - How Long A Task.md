@@ -14,7 +14,7 @@ content::
 
 By far the{>>{"author":"lauren (chrome@what)","timestamp":1787823523443}@@7:38:41<<} most common type of interaction with AIs is to describe a task and get a result. Among those tasks, a common type of task is programming.
 
-So it'
+Programming is a type of task 
 
 An AI agent can write a function. It usually cannot ship a feature. Somewhere between those two there is a length of job it stops being able to finish, and that length is a fact you can measure rather than argue about.
 
