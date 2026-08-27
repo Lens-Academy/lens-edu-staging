@@ -37,7 +37,7 @@ First let's have you guess the "base rates": how common would you guess jumps ar
 2. Averaged across multiple trends, what percentage of the trend's total progress came in 100-year single-event jumps?
 3. List at least three technologies you expect had at least one 100-year jump in their history.
 
-One line per guess. Give your reaso
+One line per guess. Give your reasoning too, so that you
 
 max-time:: 6:00
 
