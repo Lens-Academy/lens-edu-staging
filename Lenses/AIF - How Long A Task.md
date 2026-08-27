@@ -28,11 +28,6 @@ Their approach has three parts.
 - Then **give a particular AI the same task** to finish without interaction.
 - Then they report as the final time-horizon number the **human-hour length of task on which the AI succeeds half the time**. When you hear them report time horizon that's what it means.
 
-
-One warning before you guess. The tasks are software and research-engineering tasks. They are not tasks in general.
-
-*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the authors' own work.*
-
 #### Question
 content::
 \## Guess the length, then guess what moves it
