@@ -46,7 +46,8 @@ Optional frontmatter: `slug-aliases`, `partner-name`, `partner-logo`, `partner-l
 - The target audience for a course are people with one or more of the listed features.
 - Everything between two meetings belongs to one meeting's preparation.
 - If the course has in-person meetings, the meeting doc template must be linked under the `# Meeting`. (see: [[Writing Meeting Docs]])
-- Every meeting should have a link to a survey under it. (See [[Writing Surveys]])
+- Every meeting should have a {--{"author":"Elias's AI","timestamp":1787850355404}@@link--}{++{"author":"Elias's AI","timestamp":1787850355404}@@learner survey linked with `survey:: [[../surveys/Survey Name]]`. (See [[Writing Surveys]])
+- Every facilitated meeting should also have a navigator survey linked with `facilitator-survey:: [[../surveys/Navigator Survey Name]]`. It uses the same survey file format, is shown only++} to {++{"author":"Elias's AI","timestamp":1787850355404}@@facilitators, and unlocks when the meeting ends without requiring learner attendance or check-in. The same navigator survey can be reused across meetings; use ++}a {++{"author":"Elias's AI","timestamp":1787850355404}@@distinct first-session ++}survey {--{"author":"Elias's AI","timestamp":1787850355404}@@under it. (See [[Writing Surveys]])--}{++{"author":"Elias's AI","timestamp":1787850355404}@@when intake or baseline questions differ.++}
 
 Before creating a new course:
 - Discuss target audience features and value proposition of that course with the user. 
