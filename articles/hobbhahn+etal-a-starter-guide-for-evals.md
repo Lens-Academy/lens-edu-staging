@@ -12,9 +12,19 @@ created: 2026-02-27
 description: "This is a starter guide for model evaluations (evals). Our goal is to provide a general overview of what evals are, what skills are helpful for evalu…"
 tags:
   - "obsidian-web-clipper"
----
+{++{"author":"Luc's AI","timestamp":1787825788424}@@llm-review:
+  content-sha: "sha256:0769b664eeab47dc3120e1e4c3d2359c6429a6b0a86a5485433156f1d38046f9"
+  date: 2026-08-27
+  model: "sonnet"
+  version: "article-qc-v1"
+  source:
+    content-sha: "sha256:5d62bce3f8ebcbb6c099bfc3c4abe95ec8dda7a773fa52f95c5fa379354cf148"
+    fetched: 2026-08-27
+    kind: "live"
+++}---{--{"author":"Luc's AI","timestamp":1787825788208}@@
 
-%%
+--}{++{"author":"Luc's AI","timestamp":1787825788208}@@
+++}%%
 Add discussion note here:
 
 ...
@@ -68,7 +78,7 @@ In some cases, we want to elicit properties of models that have already been fin
 
 To get started, you can check out a prompting guide by [Anthropic](https://docs.anthropic.com/claude/docs/introduction-to-prompt-design), [Hugging Face](https://huggingface.co/docs/transformers/main/tasks/prompting#best-practices-of-llm-prompting), or [PromptingGuide](https://www.promptingguide.ai/introduction/elements).
 
-Playing with LLMs
+{++{"author":"Luc's AI","timestamp":1787825787942}@@### ++}Playing with LLMs
 
 In our experience, getting a “feeling for the model” is very important. This means refining your intuition for how models would typically react to many different prompts, which type of things they are good or bad at, what different strategies can be used to make them output certain texts, etc. Often, we found it hard to formalize this knowledge or transfer it between people with different levels of experience. A lot of this informal knowledge comes from “playing around” with the model, interacting with it, trying to jailbreak it, and applying new discoveries yourself (e.g. Chain of thought, Learning from Language Feedback, LM agents, etc.). While playing with the model, you often stumble upon something curious, quickly form a hypothesis, and check it with a few additional examples. This is much more uncertain than rigorous scientific research but sharpens and refines your intuitions a lot which you can then use in your scientific endeavors. 
 
