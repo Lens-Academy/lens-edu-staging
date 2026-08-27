@@ -23,7 +23,6 @@ Some definitions:
 - A step is a **jump** when it breaks the trend by more than a century. That is, if each previous step had been on a trend before a next step, then a jump occurs when an actual development was ahead of the previous smooth-ish line. For the article's purposes, the authors only count trend breaks where the previous trend would have had to continue for 100 years to reach the same change as actually occurred in one step.
 
 
-
 {>>{"author":"lauren (chrome@what)","timestamp":1787818839908}@@6:20:36 start<<}
 
 
