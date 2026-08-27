@@ -56,7 +56,7 @@ Response style:
 
 #### Article
 source:: [[../articles/metr-measuring-ai-ability-to-complete-long-tasks]]
-to:: {--{"author":"Lauren's AI","timestamp":1786856931798}@@s stakes, --}both in terms of potential benefits and potential risks.
+to:: both in terms of potential benefits and potential risks.
 
 #### Text
 content::
