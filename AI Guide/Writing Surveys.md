@@ -22,20 +22,20 @@ title: Post-Meeting Survey
 ---
 ```
 
-## The segment types
+## {--{"author":"Elias's AI","timestamp":1787850808795}@@The segment types--}{++{"author":"Elias's AI","timestamp":1787850808795}@@Segments++}
 
-Surveys use the same response segments as lenses and tests: `#### Question: Open`, `#### Question: Rating`, `#### Question: Choice`, `#### Question: FillBlank`, `#### Question: Ranking`. Every one needs an `id::` (a UUID; it is the key the answer is stored under) and a `content::` (the question shown to the learner). Segments are **required by default**; add `optional:: true` to let a learner skip one. Surveys never grade, so no `assessment-instructions::` and no `[x]` marks. Full field reference with live examples: [[../Lenses/Response to question segments]].
+{--{"author":"Elias's AI","timestamp":1787850808795}@@Surveys use the same response segments--}{++{"author":"Elias's AI","timestamp":1787850808795}@@Use [[../Lenses/Response to question segments]]++} as{--{"author":"Elias's AI","timestamp":1787850808795}@@ lenses and tests: `#### Question: Open`, `#### Question: Rating`, `#### Question: Choice`, `#### Question: FillBlank`, `#### Question: Ranking`. Every one needs an `id::` (a UUID; it is --}{++{"author":"Elias's AI","timestamp":1787850808795}@@ ++}the{--{"author":"Elias's AI","timestamp":1787850808795}@@ key the answer is stored under) and a `content::` (the question shown to the learner). Segments are **required by default**; add `optional:: true` to let a learner skip one. Surveys never grade, so no `assessment-instructions::` and no `[x]` marks. Full field --}{++{"author":"Elias's AI","timestamp":1787850808795}@@ single ++}reference{--{"author":"Elias's AI","timestamp":1787850808795}@@ with live examples: [[../Lenses/Response to--}{++{"author":"Elias's AI","timestamp":1787850808795}@@ for++} question {--{"author":"Elias's AI","timestamp":1787850808795}@@segments]].
 
 **`#### Text`** — prose shown between questions (intro, section breaks). `content::` is markdown; escape any headings (`\##`). Takes no `id`.
 
 ```markdown
 #### Text
-content:: Thanks for showing up! This takes a few minutes and counts your attendance.
-```
+content:: Thanks for showing up! This takes a few minutes --}{++{"author":"Elias's AI","timestamp":1787850808795}@@types, fields, defaults, and syntax. The same response segments work in surveys, lenses, ++}and{--{"author":"Elias's AI","timestamp":1787850808795}@@ counts your attendance.
+```--}{++{"author":"Elias's AI","timestamp":1787850808795}@@ learning-outcome tests.++}
 
-**`#### Question: Rating`** — a 1-to-N scale rendered as numbered buttons. `scale::` sets N (2–10, default 5); `low-label::` / `high-label::` caption the endpoints.
+{--{"author":"Elias's AI","timestamp":1787850808795}@@**`#### Question: Rating`** — a 1-to-N scale rendered as numbered buttons. `scale::` sets N (2–10, default 5); `low-label::` / `high-label::` caption the endpoints.--}{++{"author":"Elias's AI","timestamp":1787850808795}@@Survey-specific rules:++}
 
-```markdown
+{--{"author":"Elias's AI","timestamp":1787850808795}@@```markdown
 #### Question: Rating
 id:: 3f0c8a2e-6b4d-4c1e-9a7f-2d5e8b1c4a6f
 content:: How motivated are you right now to take action on AI safety?
@@ -44,7 +44,7 @@ low-label:: Not at all
 high-label:: A lot
 ```
 
-**`#### Question: Choice`** — pick one (default) or many (`multi:: true`). `options::` is a plain list, one `- Option text` per line, at least 2. **No checkbox brackets** (`- [x]` marks a correct answer — surveys have none, and the validator rejects it here).
+**`#### Question: Choice`** — pick one (default) --}{++{"author":"Elias's AI","timestamp":1787850808795}@@- Surveys never grade. Do not use `assessment-instructions::` ++}or{--{"author":"Elias's AI","timestamp":1787850808795}@@ many (`multi:: true`). `options::` is a plain list, one `- Option text` per line, at least 2. **No checkbox brackets** (`- [x]` marks a correct --}{++{"author":"Elias's AI","timestamp":1787850808795}@@ `[x]` ++}answer{--{"author":"Elias's AI","timestamp":1787850808795}@@ — surveys have none, and the validator rejects it here).
 
 ```markdown
 #### Question: Choice
@@ -52,8 +52,8 @@ id:: 7a1d9e3b-2c5f-4b8a-8e6d-1f4c7a9b3e5d
 content:: Which parts of this unit worked for you?
 options::
 - The readings
-- The AI tutor discussions
-- The group meeting
+- The AI tutor discussions--}{++{"author":"Elias's AI","timestamp":1787850808795}@@ marks.++}
+-{--{"author":"Elias's AI","timestamp":1787850808795}@@ The group meeting
 multi:: true
 optional:: true
 ```
@@ -66,7 +66,7 @@ id:: c4e2b7d1-9f3a-4e6c-b8d5-6a2f1c9e4b7d
 content:: Reflecting on your session, what's one thing that worked well today?
 ```
 
-**`#### Question: FillBlank`** and **`#### Question: Ranking`** work too (ungraded here), useful for a numeric self-report like `How many hours did you spend? {{number}}` or for ranking preferences.
+**`#### Question: FillBlank`** and **`#### Question: Ranking`** work too (ungraded here), useful for a numeric self-report like `How many hours did you spend? {{number}}` or for ranking preferences.--}{++{"author":"Elias's AI","timestamp":1787850808795}@@ `#### Text` adds prose between questions, such as an introduction or section break. It takes `content::` but no `id::`. Its content is markdown; escape headings such as `\## Heading`.++}
 
 ## Ids are keys
 
