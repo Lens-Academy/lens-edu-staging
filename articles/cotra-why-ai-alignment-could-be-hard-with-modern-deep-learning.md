@@ -16,9 +16,19 @@ created: 2026-02-13
 description: "Why would we program AI that wants to harm us? Because we might not know how to do otherwise."
 tags:
   - "obsidian-web-clipper"
----
+{++{"author":"Luc's AI","timestamp":1787843450543}@@llm-review:
+  content-sha: "sha256:d1f7dc7a6966cfc12e40bce2c1aa802377d76684ebe987ff927ac9c6af5eae67"
+  date: 2026-08-27
+  model: "sonnet"
+  version: "article-qc-v2"
+  source:
+    content-sha: "sha256:2e147e09900456477fb462cde9ee62e761ca8953b9d73df9194e5169f1a6793a"
+    fetched: 2026-08-27
+    kind: "live"
+++}---{--{"author":"Luc's AI","timestamp":1787843450256}@@
 
-%%
+--}{++{"author":"Luc's AI","timestamp":1787843450256}@@
+++}%%
 Add discussion note here:
 
 ...
