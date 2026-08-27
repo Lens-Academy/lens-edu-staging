@@ -120,7 +120,7 @@ content::
 
 Now you give a number: given a trillion times more compute than was available in 2016, how likely is TAI?
 
-Note: we'll get into this in more detail later, but putting a probability on something that will happen only once is a bit of a subjective activity. One way to think about it:  you can how likely would you subjectively put it as being (that is, in what percentage of imaginable worlds) 
+Note: we'll get into this in more detail later, but putting a probability on something that will happen only once is a bit of a subjective activity. One way to think about it: across all the worlds you can imagine, what  you can how likely would you subjectively put it as being (that is, in what percentage of imaginable worlds) 
 
 His answer to "probability that TAI appears in the Compute Fairy world" is 90%, and he shows his work: inside view[^inside] 99, discounted for unknown unknowns and deference. Ajeya's distribution puts its median[^median] at the 10^35 mark, which he reads as her answering 50%.
 
