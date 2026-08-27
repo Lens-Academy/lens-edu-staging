@@ -9,7 +9,7 @@ summary_for_tutor: "Core lens {--{"author":"AI","timestamp":1787853009724}@@7--}
 #### Text
 content::
 \## The unit in one breath
-You started with a question about control without a revolt. You met three traps AI adds. You saw Lee's confidence finding, the Bednar and Budzyń contrast, the gradual disempowerment argument, the skeptic's strongest case, and an evidence ladder. Now give your own verdict.
+You started {--{"author":"AI","timestamp":1787860403585}@@with --}{++{"author":"AI","timestamp":1787860403585}@@by drawing ++}a {--{"author":"AI","timestamp":1787860403585}@@question about control without a revolt.--}{++{"author":"AI","timestamp":1787860403585}@@line between using an AI well and handing over control.++} You met three traps AI adds. You saw Lee's confidence finding, the Bednar and Budzyń contrast, the{--{"author":"AI","timestamp":1787860403585}@@ gradual disempowerment--}{++{"author":"AI","timestamp":1787860403585}@@ gradual-disempowerment++} argument, the skeptic's strongest case, and an evidence ladder. Now {--{"author":"AI","timestamp":1787860403585}@@give--}{++{"author":"AI","timestamp":1787860403585}@@redraw++} your {--{"author":"AI","timestamp":1787860403585}@@own verdict.--}{++{"author":"AI","timestamp":1787860403585}@@line.++}
 
 #### Question
 content::
