@@ -68,4 +68,4 @@ The study lenses hold the design details and limits behind each study.
 
 ::card[[../Lenses/ToT M3 - Paper - Bednar (Legal Study)]]
 
-::card[[../Lenses/ToT M3 - Paper - Budzyn (Doctor Study)]]L
+::card[[../Lenses/ToT M3 - Paper - Budzyn (Doctor Study)]]
