@@ -91,7 +91,7 @@ to:: Growth rates sharply changed in many trends
 content::
 \## The diff
 
-Now compare your initial guesses to what Grace's research actually showed. For each of the things we asked you to guess earlier, how far off were you, and in what direction? 
+Now compare your initial guesses to what Grace's research actually showed. For each of the things we asked you to guess earlier, how far off were you, and in what direction?
 
 Score yourself. How far off was your expected jump count, and in which direction? Was your share-of-total-progress guess closer to the 14% average or the 38% among-affected-trends figure, and which of those two numbers is the right one to load into your model of AI, given that you don't yet know which kind of trend AI capability is? Did any of your three named technologies appear in their ten? Finish with one sentence for your running model: what does "rare, but large when present" do to the smoothest version of your day-zero story?
 
