@@ -126,7 +126,7 @@ When you answer, also write down something about what leads you to your number. 
 
  In particular, write down in what ways you're reasoning from an *inside view*: a description based on your understanding of mechanisms and processes; or an *outside view*: that is, a description based on comparisons to types of historical events that seem similar.
 
- (Hopefully by the end of the course you'll fe)
+ (Hopefully by the end of the course you'll feel moderately comfortable with either!)
 
 His answer to "probability that TAI appears in the Compute Fairy world" is 90%, and he shows his work: inside view[^inside] 99, discounted for unknown unknowns and deference. Ajeya's distribution puts its median[^median] at the 10^35 mark, which he reads as her answering 50%.
 
