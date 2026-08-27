@@ -50,7 +50,7 @@ Making a claim vaguer ("there are probably two ways") is not evidence. Check it 
 **Check every number in a separate pass.**
 Reading prose for claims skips numerals. Grep every figure in the course and compare it against the original paper, not a summary. Check two things: that the digits are right, and that the number describes the quantity the text says it does. Example: a paper reported a 14% probability that progress arrives as a discontinuity; the course wrote it as a 14% share of total progress, and a test question graded students against the wrong meaning.
 
-**Have the course reviewed by someone who did not write it.**
+**Have the course reviewed by agents who did not write it.**
 An author cannot see their own errors. Use several reviewers, and give each one a specific error to look for:
 - Try to grade a sample answer using only the rubric. Where is the rubric ambiguous?
 - Answer the test without having read the material. Can a fluent writer pass?
