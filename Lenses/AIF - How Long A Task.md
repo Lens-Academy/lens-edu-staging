@@ -64,8 +64,6 @@ content::
 
 Here's an excerpt of a video about what exponential processes feel like.
 
-The chart you just read plots a doubling. Reading one and believing one are different things, and the gap between them is not a failure of arithmetic.
-
 #### Video
 source:: [[../video_transcripts/ai-in-context-were-not-ready-for-superintelligence]]
 from:: 6:05
