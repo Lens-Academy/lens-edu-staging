@@ -17,7 +17,7 @@ discussion: https://discord.com/channels/...
 ---
 %%
 Target audience:
-- 
+- Feature
 %%
 
 # Module: [[../modules/IABIED M1 Intro, Part 1]]
