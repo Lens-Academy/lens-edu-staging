@@ -25,7 +25,7 @@ Every content file is markdown with two kinds of structure: YAML frontmatter on 
 ## Rules that apply everywhere
 
 - Never use em dashes anywhere!
-- To get responses from course participants, use `#### Question: Open`, `#### Question: Rating`, `#### Question: Choice`, `#### Question: FillBlank`, or `#### Question: Ranking`, each with its own `id::`. Old syntax used bare `#### Question` (legacy, no id, being phased out) and `#### Rating` / `#### Choice`. Same syntax in lenses, Learning Outcome tests, and surveys; the live reference is [[../Lenses/Response to question segments]].
+- To get responses from course participants, use `#### Question: Open`, `#### Question: Rating`, `#### Question: Choice`, `#### Question: FillBlank`, or `#### Question: Ranking`, each with its own `id::`. Old syntax used bare `#### Question` (legacy, no id, being phased out) and `#### Rating` / `#### Choice`, but . Same syntax in lenses, Learning Outcome tests, and surveys; the live reference is [[../Lenses/Response to question segments]].
 - **IDs are UUIDs** (lowercase v4, generate with `uuidgen | tr A-Z a-z`). Every lens, learning outcome, module, test, response segment, and inline lens needs its own. Quote them in frontmatter (`id: 'a1b2...'`) so YAML never mangles them; never reuse or invent non-UUID ids.
 - **Never change the id of already-published content.** Learner progress is keyed on these ids
 - **Drafts**: add `wip` to `tags` while a file is unfinished; its errors then don't block promotion. Remove it when done. A production file referencing a wip file is a production error.
