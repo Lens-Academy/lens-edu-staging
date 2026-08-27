@@ -2,9 +2,9 @@
 id: '858d580a-ebf9-493a-9fd7-35adb6e56a1d'
 title: "Unit 5 Recap: From Understanding to Action"
 tldr: "One final check that puts the whole course together: where you actually are with AI, one concrete change you will make, why it works, and where to learn more."
-summary_for_tutor: "Recap lens at the end of Unit 5 and of the whole course 'Thinking about Thinking'. A short Text frame signals this is the final course check, then one graded Question chapter (the course-wide wrap-up) assessing an honest description of the learner's own AI use, one concrete change with a mechanism tied to the course's evidence, and one place to learn more. Score per the rubric. A personal reflection: grade the reasoning, not the life choices."{++{"author":"AI","timestamp":1787866475874}@@
+summary_for_tutor: "Recap lens at the end of Unit 5 and of the whole course 'Thinking about Thinking'. A short Text frame signals this is the final course check, then one graded Question chapter (the course-wide wrap-up) assessing an honest description of the learner's own AI use, one concrete change with a mechanism tied to the course's evidence, and one place to learn more. Score per the rubric. A personal reflection: grade the reasoning, not the life choices."
 reading_minutes: 4
-tutor_minutes: 16++}
+tutor_minutes: 16
 tags:
   - wip
 ---
