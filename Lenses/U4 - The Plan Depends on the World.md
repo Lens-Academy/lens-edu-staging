@@ -29,7 +29,9 @@ For example:
 
 Although this distinction isn't very clear-cut, most of the plans and strategies described in this upcoming unit will take one of these 2 sides, although the authors aren't always explicit about this.++}
 
-You already read the argument about controlling misaligned AIs at the end of Unit 3. This unit is about everything else.
+You already read the argument about controlling misaligned AIs at the end of Unit 3. This unit is about everything else.{++{"author":"Luc","timestamp":1787822959733}@@
+
+++}
 
 The first reading is by Ryan Greenblatt of Redwood Research. He does not describe one plan. He describes four, and then a fifth world with no plan at all. Which plan is available is not a research question. It depends on how much of the world helps.
 
