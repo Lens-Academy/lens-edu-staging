@@ -128,8 +128,6 @@ When you answer, also write down something about what leads you to your number. 
 
  (Hopefully by the end of the course you'll feel moderately comfortable with either!)
 
-Now yours: give your probability as a percentage, name which of the five answers moves it most, and state one thing you could learn in the next year that would move your answer by twenty percentage points. If nothing could, say so and say what that means about the number.
-
 assessment-instructions:: The student has read the author's Question Two, his 90 percent, and the comparison with Ajeya's 50 percent. They are now committing to their own number.
 
 Up to 3 tutor turns, then offer to continue or close.
