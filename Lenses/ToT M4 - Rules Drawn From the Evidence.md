@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787862480367}@@---
+{++{"author":"AI","timestamp":1787862915230}@@---
 id: 'a94c13b9-2d27-440f-8f12-d092ae9ce719'
 title: "Rules Drawn From the Evidence"
 reading_minutes: 6
@@ -24,11 +24,20 @@ Match your checking to the answers. Skim low-stakes work you can check. Read hig
 \## Rule 2. Keep judgement in the loop
 Bednar's law students improved when they used AI early and stayed in control. Budzyń's endoscopists declined when the tool did the whole job. The difference was not the tool. It was who stayed in charge. When a task hands the AI the whole job, take one stage of it back for yourself.
 
-\## Rule 3. Name the three traps
-Unit 3 named the traps AI adds: Interruption, Mislead, and Progression. Each has a countermeasure:
-- **Interruption**: switch suggestions off when you need to concentrate. A tool that interrupts you is making choices about your attention.
-- **Mislead**: when an answer is confident, check it against the primary source. Fluency is not evidence.
-- **Progression**: keep doing some tasks without the tool, on purpose. Repetition is how skill is built.
+\## Rule 3. Notice the traps before they land
+Unit 3 named the three traps AI adds. They are easiest to catch while you are inside them, so each trap below comes with a noticing cue and a countermeasure:
+
+- **Interruption**: a stream of suggestions breaks your concentration at the moments you need to think. *Notice it:* you lose your thread, or the draft you send is a chain of the tool's suggested phrasings rather than your own. *What to do:* switch suggestions off for deep work. A tool that interrupts you is making choices about your attention.
+- **Mislead**: a confident wrong answer steers your whole approach, and the only check on offer is the AI's own account of itself. *Notice it:* you feel sure of an answer you cannot trace to a source, or you are building on one output you never opened the original to check. *What to do:* when an answer is confident, check it against the primary source. Fluency is not evidence.
+- **Progression**: you fall behind in the fundamentals without noticing, because each answer arrives whole and every step feels like understanding. *Notice it:* you can do the task with the tool but not without it, or you cannot reconstruct how a finished result was built. *What to do:* keep doing some tasks without the tool, on purpose. Repetition is how skill is built.
+
+\## The five traps from Unit 2, one cue each
+Unit 2 named five traps that predate AI. AI does not remove them; it makes them easier to act on. One noticing cue for each:
+- **Forming** (wrong model of the right problem): restate the ask in one sentence before you solve it. If you cannot, you may be solving what you assumed.
+- **Dislodging** (a wrong model that evidence cannot shift): when you re-read the brief and still see what you expected, you are holding the old model.
+- **Assumption** (right model of the wrong problem): check why the result was requested before you start. Good work on the wrong metric is still the wrong work.
+- **Location** (false sense of progress): when the output keeps growing but you have not checked the steps, you are further along in the document than in the reasoning.
+- **Achievement** (cannot abandon a solution you feel done with): when rework feels expensive and your first draft feels precious, you are defending it, not testing it.
 
 \## Rule 4. Test yourself, do not trust the feeling
 Yu's experiment showed that perceived effort and actual effort can separate. People felt the AI was faster and easier when it was not. The same applies to your skills. If you feel you no longer need a skill, do not believe the feeling. Do the task without the tool and watch what happens.
