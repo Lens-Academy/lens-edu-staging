@@ -122,7 +122,7 @@ Now you give a number: **given a trillion times more compute than was available 
 
 Note on **subjective probability**: we'll get into this in more detail later, but putting a probability on something that will happen only once is a bit of a subjective activity. One way to think about it: when asked for the probability of an event (such as TAI), consider all worlds you think could turn out to be possible. Then: in what percentage of the worlds you imagine does the event occur? That percentage is your probability.
 
-When you answer, also write down something about what leads you to your number. If you can show your work in detail, that's ideal. If you wrote down disagreements above, you're looking for how they lead you to a particular .
+When you answer, also write down something about what leads you to your number. If you can show your work in detail, that's ideal. If you wrote down disagreements above, you're looking for how they lead you to imagine a particular set of possibilities, and .
 
  In particular, write down in what ways you're reasoning from an *inside view*: a description based on your understanding of mechanisms and processes; or an *outside view*: that is, a description based on comparisons to types of historical events that seem similar.
 
