@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787862942145}@@---
+{++{"author":"AI","timestamp":1787862943877}@@---
 id: 'a94c13b9-2d27-440f-8f12-d092ae9ce719'
 title: "Rules Drawn From the Evidence"
 reading_minutes: 8
@@ -56,7 +56,7 @@ Pick one decision you handed to an AI in the last week. Run it through Rules 1 t
 assessment-instructions:: The student has just read the six rules drawn from Unit 3's evidence in Unit 4 of "Thinking about Thinking". They are applying the rules to one real decision and committing to one rule for the week. One reflective question, then brief feedback (two turns max).
 
 Key points to check they grasped:
-- Each rule rests on a named finding: calibration (Lee), judgement in the loop (Bednar, Budzyń), the three traps, perceived versus actual effort (Yu), the evidence ladder, and the five levels of gradual disempowerment (Kulveit)
+- Each rule rests on a named finding: calibration (Lee), judgement in the loop (Bednar, Budzyń), the traps with their noticing cues, perceived versus actual effort (Yu), the evidence ladder, and the five levels of gradual disempowerment (Kulveit)
 - A rule applied to a real decision should name a mechanism, not a mood ("check it more" without saying why is a mood)
 - The commitment should be specific enough to keep, not a vague intention
 
