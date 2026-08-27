@@ -97,7 +97,7 @@ Assuming we don't yet know how to determine confidently whether AI should be exp
 
 Did any of the technologies you expected to have large jumps turn up in their results?
 
-And, based on this article, does anything change about the intuitions you shared in the opening question? How surprised 
+And, based on this article, does anything change about the intuitions you shared in the opening question?
 
 Did any of your three named technologies appear in their ten? Finish with one sentence for your running model: what does "rare, but large when present" do to the smoothest version of your day-zero story?
 
