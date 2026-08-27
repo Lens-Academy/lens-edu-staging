@@ -40,8 +40,6 @@ That means care is not the mechanism. You can be maximally careful and fluently 
 
 **Run the validator early, not as a final gate.** `validate_content` with `accept_drafts: true` finds schema errors no amount of reading finds.
 
-**Diff the course against what was advertised.** Read the public landing copy and tabulate each promise against the unit that delivers it. Internal review only ever compares the artifact to itself, so this is the one check that catches a course quietly not being the course that was sold.
-
 **Label your claims by what would establish them.** Go through the assertions (not every sentence; most sentences are instructions and take no citation) and tag each one: empirical needs a source, mathematical needs a derivation you can do right there, structural needs an enumeration somebody actually did, pedagogical needs data about a population. Expect structural to be the fattest ungrounded category: it is the connective tissue that makes prose flow, and it is invisible to review because it reads as organisation rather than as assertion. "There are two ways to get this wrong, and they are mirror images" asserts an enumeration and a symmetry that nobody checked.
 
 **Numbers need a separate pass.** Claim-labelling reads prose and skips numerals. On one build, 158 percentage figures appeared in the course and 86 of them were never examined by the labelling pass, including two that a student is graded against. Grep every figure and check it against its source. Expect to find a number taken from a summary of a paper nobody opened.
