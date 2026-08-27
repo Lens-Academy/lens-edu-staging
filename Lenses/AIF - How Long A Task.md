@@ -62,7 +62,7 @@ to:: both in terms of potential benefits and potential risks.
 content::
 \## Optional: a doubling is hard to feel
 
-Here's an excerpt of a video about 
+Here's an excerpt of a video about what e
 
 The chart you just read plots a doubling. Reading one and believing one are different things, and the gap between them is not a failure of arithmetic.
 
