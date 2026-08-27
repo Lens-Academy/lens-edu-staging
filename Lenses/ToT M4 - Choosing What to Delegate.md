@@ -33,11 +33,11 @@ Tools change {--{"author":"AI","timestamp":1787863773501}@@fast. This unit descr
 - Verify any substantive claim against an independent {--{"author":"AI","timestamp":1787863792595}@@source:--}{++{"author":"AI","timestamp":1787863792595}@@source. A source can be++} a document, a search result, or a person who knows the domain.
 
 \## Other ways to protect judgement
-- Keep some hard problems for your own process. What you can no longer do, you no longer own.
+- Keep some hard problems for your own process. {--{"author":"AI","timestamp":1787863796992}@@What--}{++{"author":"AI","timestamp":1787863796992}@@If++} you {--{"author":"AI","timestamp":1787863796992}@@can no longer do,--}{++{"author":"AI","timestamp":1787863796992}@@stop doing a task,++} you {--{"author":"AI","timestamp":1787863796992}@@no longer own.--}{++{"author":"AI","timestamp":1787863796992}@@lose the skill.++}
 - Keep at least one demanding task fully manual, on purpose.
-- Friction is the gym. Industrialisation removed physical labour, and we built gyms. AI removes mental effort, so we must put the struggle back on purpose.
-- Audit yourself: review one recent AI conversation and mark where you delegated judgement. Would you take that task back if the tool vanished?
-- Keep the final review human. Read the output. Question it. Sometimes reject it.
+- Friction is the gym. Industrialisation removed physical labour, and we built gyms. AI removes mental effort, so we must put the {--{"author":"AI","timestamp":1787863796992}@@struggle--}{++{"author":"AI","timestamp":1787863796992}@@effort++} back on purpose.
+- Audit {--{"author":"AI","timestamp":1787863796992}@@yourself: review--}{++{"author":"AI","timestamp":1787863796992}@@yourself. Review++} one recent AI conversation and mark where you delegated judgement. Would you take that task back if the tool vanished?
+- Keep the final review human. Read the output. Question it. {--{"author":"AI","timestamp":1787863796992}@@Sometimes reject it.--}{++{"author":"AI","timestamp":1787863796992}@@Reject it when it deserves rejection.++}
 
 \## Why this matters: the taxonomy from Unit 3
 In Unit 3 you met Bloom's taxonomy, the cognitive levels that rank tasks from remembering up to creating. You also met Lee and colleagues' finding: AI use shifts workers from producing work toward verifying and integrating the AI's output.
