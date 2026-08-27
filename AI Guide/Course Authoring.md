@@ -37,7 +37,6 @@ Every content file is markdown with two kinds of structure: YAML frontmatter on 
 
 It is easy to write a course that sounds right. Being careful while writing does not prevent errors. These checks do. Run them on every course before promoting it.
 
-
 **Every claim is sourced, marked as our own view, or deleted.**
 Source means: a link the student can see (inline or footnote), or for maths, a calculation you ran. Own view means the sentence says so ("We think…"). Hedging ("probably") is neither.
 Claims hide in sentences that read like structure ("there are two ways to get this wrong", "these are mirror images") or like teaching lore ("students often misread this"). Treat those as claims too; the second kind is usually better rewritten as an instruction to the tutor: "if the student does X, do Y".
