@@ -19,7 +19,22 @@ A 2025 correction replaced Table 4, which had accidentally duplicated Table 3. T
 #### Article
 source:: [[../articles/gerlich-2025-ai-tools-in-society]]
 from:: "This study investigates the relationship between AI tool usage and critical thinking skills, focusing on cognitive offloading as a mediating factor."
-to:: "These results highlight the potential cognitive costs of AI tool reliance, emphasising the need for educational strategies that promote critical engagement with AI technologies."
+to:: "These results highlight the potential cognitive costs of AI tool reliance, emphasising the need for educational strategies that promote critical engagement with AI technologies."{++{"author":"AI","timestamp":1787856658453}@@
+
+#### Article
+source:: [[../articles/gerlich-2025-ai-tools-in-society]]
+from:: "The study sample comprised 669 participants in the United Kingdom, of which 666 were considered valid."
+to:: "This categorisation facilitated the examination of age-related differences in AI tool usage and critical thinking skills."
+
+#### Article
+source:: [[../articles/gerlich-2025-ai-tools-in-society]]
+from:: "The analysis revealed a strong positive correlation (r = +0.72) between AI tool use and cognitive offloading, indicating that increased reliance on AI tools is associated with a higher degree of cognitive offloading."
+to:: "These findings suggest that cognitive offloading plays a substantial role in explaining the negative impact of AI usage on critical thinking."
+
+#### Article
+source:: [[../articles/gerlich-2025-ai-tools-in-society]]
+from:: "A multiple regression analysis was conducted to further explore the hypothesised relationship between AI tool use, critical thinking, and the mediating role of cognitive offloading (see Table 6)."
+to:: "These findings support the hypothesis that increased reliance on AI tools leads to cognitive offloading, which, in turn, reduces critical thinking abilities."++}
 
 %% Note: 666 UK participants, mixed-method with validated HCTA assessment. Key finding: beta = -1.76, p < 0.001. Self-report limitation is a design feature, separate from the 2025 correction, which replaced a duplicated Table 4 and did not alter conclusions. %%
 
