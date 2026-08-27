@@ -253,7 +253,7 @@ Exact model-authored changes:
 +which is called *representativeness heuristic*
 
 -Like all heuristics, this can be a useful mental shortcut
-+Like all heuristics, this is can be a useful mental shortcut{>>{"author":"Luc","timestamp":1787841020549}@@In this case, the AI correctly copied a mistake—a typo from the website—which is, you know, correct in the literal sense, but undesirable.<<}
++Like all heuristics, this is can be a useful mental shortcut{>>{"author":"Luc","timestamp":1787841020549}@@In this case, the AI correctly copied a mistake—a typo from the website—which is, you know, correct in the literal sense, but undesirable.<<}{>>{"author":"Luc","timestamp":1787841741533}@@let's add one sentence for that in the prompting.<<}
 
 -what is often called the collapse of compassion,
 +what is often called the *collapse of compassion*,
