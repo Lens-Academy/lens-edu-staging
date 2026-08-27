@@ -32,21 +32,25 @@ Two cautions before you take this too far. First, this is a survey. It measures 
 #### Question
 content::
 \## Your turn
-Pick a real task from your own week where you used AI. Given what Lee found, which kind of confidence, in the AI or in your own ability, did you lean on? Then answer this: what evidence would make you trust an AI output without checking, and what would make you check it more carefully?
+{++{"author":"AI","timestamp":1787827199717}@@Lee's finding in one line: the more you trust the AI, the less you check.
 
-assessment-instructions:: The student has just read the Lee et al. (2025) summary in Unit 3 of "Thinking about Thinking". They are applying it to a real task and stating what would justify trusting versus checking an AI output. This is one reflective question, not a multi-turn sequence.
+++}Pick a real task from your own week where you used AI. {--{"author":"AI","timestamp":1787827199717}@@Given what Lee found,--}{++{"author":"AI","timestamp":1787827199717}@@For that task,++} which {--{"author":"AI","timestamp":1787827199717}@@kind of confidence, in--}{++{"author":"AI","timestamp":1787827199717}@@did you trust more,++} the AI or {--{"author":"AI","timestamp":1787827199717}@@in --}your own {--{"author":"AI","timestamp":1787827199717}@@ability,--}{++{"author":"AI","timestamp":1787827199717}@@ability? And how much++} did you {--{"author":"AI","timestamp":1787827199717}@@lean on? Then --}{++{"author":"AI","timestamp":1787827199717}@@actually check the output before you used it?
+
+Now ++}answer {--{"author":"AI","timestamp":1787827199717}@@this: what evidence would make --}{++{"author":"AI","timestamp":1787827199717}@@honestly: does your checking drop as your trust rises? If it does, ++}you {--{"author":"AI","timestamp":1787827199717}@@trust an AI output without checking, and what would make you check--}{++{"author":"AI","timestamp":1787827199717}@@have just felt Lee's pattern from the inside. If it does not, what is++} it {--{"author":"AI","timestamp":1787827199717}@@more carefully?--}{++{"author":"AI","timestamp":1787827199717}@@that keeps you checking anyway?++}
+
+assessment-instructions:: The student has just read the Lee et al. (2025) summary in Unit 3 of "Thinking about Thinking". They {--{"author":"AI","timestamp":1787827199717}@@are applying it to --}{++{"author":"AI","timestamp":1787827199717}@@have picked ++}a real {--{"author":"AI","timestamp":1787827199717}@@task and stating what would justify trusting versus--}{++{"author":"AI","timestamp":1787827199717}@@task, named which confidence they leaned on, and compared their own++} checking {--{"author":"AI","timestamp":1787827199717}@@an AI output.--}{++{"author":"AI","timestamp":1787827199717}@@behaviour to Lee's finding.++} This is one reflective question, not a multi-turn sequence.
 
 Key points to check they grasped:
-- Lee found an association, not proof that confidence causes less critical thinking; the direction of cause is not established
+- Lee {--{"author":"AI","timestamp":1787827199717}@@found an association, not proof that confidence causes less critical thinking; the direction of cause is not established--}{++{"author":"AI","timestamp":1787827199717}@@surveyed 319 knowledge workers across 936 real examples; this is a self-report survey, not an objective test++}
 - Higher confidence in the AI went with less reported critical-thinking effort; higher confidence in own ability went with more
-- The study measures perceived effort and behaviour, not an objective test of ability
-- The practical lesson is calibration: trust should track the task, your own expertise, and whether the answer is verifiable, not blanket faith or blanket distrust
+- {--{"author":"AI","timestamp":1787827199717}@@The study measures perceived effort and behaviour, not an objective test--}{++{"author":"AI","timestamp":1787827199717}@@This is an association, not proof that confidence causes less critical thinking; the direction++} of {--{"author":"AI","timestamp":1787827199717}@@ability--}{++{"author":"AI","timestamp":1787827199717}@@cause is not established++}
+- The practical lesson is calibration: {--{"author":"AI","timestamp":1787827199717}@@trust--}{++{"author":"AI","timestamp":1787827199717}@@checking++} should track {++{"author":"AI","timestamp":1787827199717}@@how much ++}the {--{"author":"AI","timestamp":1787827199717}@@task,--}{++{"author":"AI","timestamp":1787827199717}@@task matters,++} your own expertise, and whether the answer {--{"author":"AI","timestamp":1787827199717}@@is verifiable, --}{++{"author":"AI","timestamp":1787827199717}@@can be verified, ++}not blanket faith or blanket distrust
 
 Response length: 120 to 200 words. Short paragraphs only. No lists.
 
 Response style: warm but rigorous. Do not over-validate; avoid generic praise. Correct errors in one sentence.
 
-What to do: acknowledge the example; if they implied confidence mechanically causes worse thinking, note Lee shows association not causation; if they gave a blanket "always check" or "never check", press on what evidence would change that; close by sending them to the next lens.
+What to do: acknowledge the example; if they implied confidence mechanically causes worse thinking, note Lee shows association not causation; if they{--{"author":"AI","timestamp":1787827199717}@@ gave a blanket "always check" or "never check",--}{++{"author":"AI","timestamp":1787827199717}@@ describe trusting the AI without checking,++} press on what{--{"author":"AI","timestamp":1787827199717}@@ evidence--} would change that; {--{"author":"AI","timestamp":1787827199717}@@close--}{++{"author":"AI","timestamp":1787827199717}@@if they describe keeping their checks up, ask what keeps them doing it. Close++} by sending them to the next lens.
 
 What not to do: run a multi-turn socratic sequence; adjudicate their habits; introduce the other studies. This is one turn, then send them on.
 
