@@ -120,7 +120,7 @@ content::
 
 Now you give a number: **given a trillion times more compute than was available in 2016, how likely is TAI?**
 
-Note on **subjective probability**: we'll get into this in more detail later, but putting a probability on something that will happen only once is a bit of a subjective activity. One way to think about it: when asked for the probability of an event (such as TAI), consider all worlds you think could turn out to be possible; then in what percentage of the worlds you imagine does the event occur? That pe
+Note on **subjective probability**: we'll get into this in more detail later, but putting a probability on something that will happen only once is a bit of a subjective activity. One way to think about it: when asked for the probability of an event (such as TAI), consider all worlds you think could turn out to be possible then in what percentage of the worlds you imagine does the event occur? That percentage is your probability.
 
 When you answer, also write down something about what leads you to your number. If you can show your work in detail, that's ideal. If you wrote down disagreements above, you're looking for how they lead you to a different number.
 
