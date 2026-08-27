@@ -65,7 +65,7 @@ content::
 2. What {--{"author":"AI","timestamp":1787854350485}@@remains--}{++{"author":"AI","timestamp":1787854350485}@@is++} plausible but {--{"author":"AI","timestamp":1787854350485}@@unproven.--}{++{"author":"AI","timestamp":1787854350485}@@not yet proven.++}
 3. What single result would most change your mind.
 
-assessment-instructions:: The student has reached the evidence-ladder lens of Unit 3 of "Thinking about Thinking". They must produce a calibrated conclusion, not a cheer or a dismissal. This is one written answer, then brief tutor feedback (limit to two tutor turns).
+assessment-instructions:: The student has {--{"author":"AI","timestamp":1787854424817}@@reached --}{++{"author":"AI","timestamp":1787854424817}@@worked through ++}the {--{"author":"AI","timestamp":1787854424817}@@evidence-ladder lens of Unit 3 of "Thinking about Thinking". They must produce--}{++{"author":"AI","timestamp":1787854424817}@@unit's evidence and is now writing their own conclusion. Encourage++} a {--{"author":"AI","timestamp":1787854424817}@@calibrated conclusion,--}{++{"author":"AI","timestamp":1787854424817}@@balanced answer:++} not a {--{"author":"AI","timestamp":1787854424817}@@cheer or--}{++{"author":"AI","timestamp":1787854424817}@@cheer, not++} a dismissal. This is one written answer, then brief tutor feedback (limit to two tutor turns).
 
 Key points to check they grasped:
 - Controlled experiments, field comparisons, surveys, self-reports, and conceptual extrapolation each support different claims
