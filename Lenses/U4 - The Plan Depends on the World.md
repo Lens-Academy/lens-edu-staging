@@ -14,6 +14,8 @@ tags:
 content::
 \## Before you read
 
+
+
 Unit 3 was about how it could go wrong. This unit is about the plans.
 
 Unit 3 ended on a disagreement, and we did not settle it. One reading, by Nate Soares, puts the risk inside the system, in what the system ends up aiming at. Another, by Jan Kulveit and co-authors, puts the risk between institutions, in dynamics that no single actor steers. That disagreement matters now. Where you locate the risk decides what you try to change. A person who fears the system works on how to aim it. A person who fears the dynamics works on treaties, governments, and labs. Most plans in this unit take one of those sides, whether or not its author says so.
