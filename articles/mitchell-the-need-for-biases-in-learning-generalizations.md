@@ -9,9 +9,19 @@ accessed: 2026-06-21
 description: "Mitchell defines the notion of bias in generalization problems, shows that biases are necessary for the inductive leap from training instances to new situations, and considers classes of justifiable biases and their relationship to domain-independence."
 tags:
   - "article-importer"
----
+{++{"author":"Luc's AI","timestamp":1787843607529}@@llm-review:
+  content-sha: "sha256:2d6d8622527fd27cd8c64e55a95699f22904bd78c26dc0d1531958800c411634"
+  date: 2026-08-27
+  model: "sonnet"
+  version: "article-qc-v2"
+  source:
+    content-sha: "sha256:3b070b9f6903e0e175629bc8ef3db59331c54744e6eb8f328a2607217600177d"
+    fetched: 2026-08-27
+    kind: "live"
+++}---{--{"author":"Luc's AI","timestamp":1787843607299}@@
 
-%%
+--}{++{"author":"Luc's AI","timestamp":1787843607299}@@
+++}%%
 Add discussion note here:
 
 ...
@@ -102,7 +112,9 @@ If biases and initial knowledge are at the heart of the ability to generalize be
 
 ## 6. Acknowledgements
 
-The following people have provided thoughtful comments on various drafts of this paper, and have contributed their own ideas: Saul Amarel, George Drastal, N.S. Sridharan, and Paul Utgoff. This work was supported by NIH grant RR-643-09, and by an award from the Rutgers Research Council.
+{++{"author":"Luc's AI","timestamp":1787843607046}@@:::collapse
+++}The following people have provided thoughtful comments on various drafts of this paper, and have contributed their own ideas: Saul Amarel, George Drastal, N.S. Sridharan, and Paul Utgoff. This work was supported by NIH grant RR-643-09, and by an award from the Rutgers Research Council.{++{"author":"Luc's AI","timestamp":1787843606757}@@
+:::++}
 
 ---
 
