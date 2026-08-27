@@ -128,7 +128,7 @@ When you answer, also write down something about what leads you to your number. 
 
  (Hopefully by the end of the course you'll feel moderately comfortable with either!)
 
- Bonus: write down what change your probability by at least 20% in the next year. What would cut down the set of 
+ Bonus: write down what change your probability by at least 20% in the next year. What would make some of the po
 
 assessment-instructions:: The student has read the author's Question Two, his 90 percent, and the comparison with Ajeya's 50 percent. They are now committing to their own number.
 
