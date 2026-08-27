@@ -63,7 +63,7 @@ No model-authored content change. Only provenance and deterministic spacing.
 [Open review](https://editor.lensacademy.org/2128996e/Lens-Edu/articles/baumann-longtermism-and-animal-advocacy.md)
 
 This is the largest substantive recovery in the batch. It restores omitted
-phrases and sentences throughout the article, including these exact changes:
+phrases and sentences throughout the article, including these exact changes: 
 
 ```diff
 -A long-term focus differs in two main ways.
