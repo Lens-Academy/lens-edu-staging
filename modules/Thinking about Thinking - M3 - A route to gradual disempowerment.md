@@ -62,11 +62,11 @@ optional:: true
 hide:: true
 
 # Lens:
-source:: [[../Lenses/ToT M3 - What the Skeptics Say]]
+source:: [[../Lenses/ToT M3 - {--{"author":"AI","timestamp":1787852870723}@@What the Skeptics Say]]
 optional:: true
 hide:: true
 
 # Lens:
-source:: [[../Lenses/ToT M3 - The Philosophy of Autonomy Loss]]
+source:: [[../Lenses/ToT M3 - --}The Philosophy of Autonomy Loss]]
 optional:: true
 hide:: true
