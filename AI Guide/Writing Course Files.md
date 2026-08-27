@@ -31,11 +31,11 @@ Links:
 # Module: [[../modules/Course M1 Intro, Part 1]]
 # Meeting: Meeting 1 name
 meeting-doc-template:: https://docs.google.com/document/d/...
-survey:: [[../surveys/IABIED Post-Meeting Survey]]
-# Module: [[../modules/IABIED M2 Nonhuman Minds, Part 2]]
+survey:: [[../surveys/Course Post-Meeting Survey]]
+# Module: [[../modules/Course M2 Nonhuman Minds, Part 2]]
 # Meeting: Meeting 2 name
 meeting-doc-template:: https://docs.google.com/document/d/...
-survey:: [[../surveys/IABIED Post-Meeting Survey]]
+survey:: [[../surveys/Course Post-Meeting Survey]]
 ```
 
 Optional frontmatter: `slug-aliases`, `partner-name`, `partner-logo`, `partner-logo-small`, `partner-url`.
