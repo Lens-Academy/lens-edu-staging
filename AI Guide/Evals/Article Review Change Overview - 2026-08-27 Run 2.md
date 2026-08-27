@@ -1,4 +1,4 @@
-{++{"author":"Luc's AI","timestamp":1787844743745}@@# Retroactive article review: second-run overview
+# Retroactive article review: second-run overview
 
 Date: 2026-08-27  
 Run: `2026-08-27-b60f060c`  
@@ -353,4 +353,3 @@ source fetched `2026-08-27`, and source kind `live`.
 
 Overall, this run found materially more useful omissions than the first sample,
 while still supporting human review before acceptance.
-++}
