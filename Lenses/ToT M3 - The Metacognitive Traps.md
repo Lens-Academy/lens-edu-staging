@@ -3,7 +3,7 @@ id: '89d98880-a5ce-4e4d-b060-92f30f683153'
 title: "The Three Metacognitive Traps AI Adds"
 duration_minutes: 9
 tldr: "Unit 2 covered five metacognitive traps that existed before AI. This lens adds the three AI introduces: Interruption, Mislead, and Progression. A short clip shows them; then one question asks which you most easily miss."
-summary_for_tutor: "Core lens 2 of Unit 3 of 'Thinking about Thinking'. Continuity with Unit 2: the five traps from Unit 2 predate generative AI; this lens introduces the three AI adds (Interruption, Mislead, Progression) via the JetBrains clip from 6:50 to 8:56. Authored bridge notes the 2018/2024 Prather lab study identified metacognitive difficulties before and with AI. {++{"author":"AI","timestamp":1787826759943}@@Authored definitions state each trap in plain language with a knowledge-work example, mirroring the Unit 2 traps lens. ++}One short processing question asks the learner which new trap is easiest to miss in their own work and why. About 9 minutes."
+summary_for_tutor: "Core lens 2 of Unit 3 of 'Thinking about Thinking'. Continuity with Unit 2: the five traps from Unit 2 predate generative AI; this lens introduces the three AI adds (Interruption, Mislead, Progression) via the JetBrains clip from 6:50 to 8:56. Authored bridge notes the 2018/2024 Prather lab study identified metacognitive difficulties before and with AI. Authored definitions state each trap in plain language with a knowledge-work example, mirroring the Unit 2 traps lens. One short processing question asks the learner which new trap is easiest to miss in their own work and why. About 9 minutes."
 tags:
   - wip
 ---
@@ -23,10 +23,10 @@ to:: 8:56
 #### Text
 content::
 \## The three traps AI adds
-{--{"author":"AI","timestamp":1787826745146}@@Use--}{++{"author":"AI","timestamp":1787826745146}@@As the clip names them, here are++} the {--{"author":"AI","timestamp":1787826745146}@@source's own words:--}{++{"author":"AI","timestamp":1787826745146}@@three traps stated plainly, with examples from knowledge work rather than code:++}
-- **Interruption**: a stream of suggestions breaks your concentration at the exact moments you need to think.{++{"author":"AI","timestamp":1787826745146}@@ *Example: you are writing a careful reply to a client, and the AI keeps offering alternative phrasings and follow-up options, so the message you send is the one the tool pushed you toward rather than the one you were building.*++}
-- **Mislead**: a confident wrong answer steers your whole approach, and the only check on offer is the AI's own account of itself.{++{"author":"AI","timestamp":1787826745146}@@ *Example: a summariser states confidently that the report concludes one thing; you build your briefing on that, and the only way to catch the error would be to open the report and read it yourself.*++}
-- **Progression**: you fall behind in the fundamentals without noticing, because each answer arrives whole and every step feels like understanding.{++{"author":"AI","timestamp":1787826745146}@@ *Example: you ask for an analysis and get a finished one, so you skip the steps where the method is built; later, without the tool, you cannot reconstruct the result.*++}
+As the clip names them, here are the three traps stated plainly, with examples from knowledge work rather than code:
+- **Interruption**: a stream of suggestions breaks your concentration at the exact moments you need to think. *Example: you are writing a careful reply to a client, and the AI keeps offering alternative phrasings and follow-up options, so the message you send is the one the tool pushed you toward rather than the one you were building.*
+- **Mislead**: a confident wrong answer steers your whole approach, and the only check on offer is the AI's own account of itself. *Example: a summariser states confidently that the report concludes one thing; you build your briefing on that, and the only way to catch the error would be to open the report and read it yourself.*
+- **Progression**: you fall behind in the fundamentals without noticing, because each answer arrives whole and every step feels like understanding. *Example: you ask for an analysis and get a finished one, so you skip the steps where the method is built; later, without the tool, you cannot reconstruct the result.*
 
 Why does this matter if you never write code? The traps live in metacognition during learning. Everyone is a novice somewhere, most of the time. When an AI does the producing, the repetitions that build your own understanding can quietly disappear. AI assistance can therefore increase, not reduce, the need for metacognitive monitoring.
 
