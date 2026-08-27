@@ -118,7 +118,7 @@ to:: your median should be roughly 10 years earlier than hers, all else equal: 2
 content::
 \## Give a number
 
-Now you give a number: given a trillion times more compute than was available in 2016, how likely is TAI?
+Now you give a number: **given a trillion times more compute than was available in 2016, how likely is TAI?**
 
 Note on **subjective probability**: we'll get into this in more detail later, but putting a probability on something that will happen only once is a bit of a subjective activity. One way to think about it: when asked for the probability of a claim C, then consider all worlds you think might be possible. In what percentage of them is C true? 
 
