@@ -93,7 +93,7 @@ content::
 
 Now compare your initial guesses to what Grace's research actually showed. For each of the things we asked you to guess earlier, how far off were you, and in what direction?
 
- Assuming we don't yet know how to determine confidently whether AI 
+ Assuming we don't yet know how to determine confidently whether AI counts 
 
 And, based on this article, does anything change about the intuitions you shared in the opening question?
 
