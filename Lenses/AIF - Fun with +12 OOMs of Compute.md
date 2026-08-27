@@ -124,11 +124,11 @@ Note on **subjective probability**: we'll get into this in more detail later, bu
 
 When you answer, also write down something about what leads you to your number. If you can show your work in detail, that's ideal. If you wrote down disagreements above, you're looking for how they lead you to imagine a particular set of possible-worlds.
 
- In particular, write down in what ways you're reasoning from an *inside view* or an *outside view*. An inside view is a description based on your understanding of mechanisms and processes. An *outside view* is a description based on comparisons to types of historical events that seem similar.
+ In particular, write down in what ways you're reasoning from an *inside view* or an *outside view*. An inside view is a description based on your understanding of mechanisms and processes - . An *outside view* is a description based on comparisons to types of historical events that seem similar.
 
  (Hopefully by the end of the course you'll feel moderately comfortable with either!)
 
- Bonus: write down what change your probability by at least 20% 
+ Bonus: write down what change your probability by at least 20% in the next year. (That is, in what )
 
 assessment-instructions:: The student has read the author's Question Two, his 90 percent, and the comparison with Ajeya's 50 percent. They are now committing to their own number.
 
