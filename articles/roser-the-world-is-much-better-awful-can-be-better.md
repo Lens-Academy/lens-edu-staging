@@ -12,9 +12,19 @@ tags:
   - "global-health"
   - "progress"
   - work-in-progress
----
+{++{"author":"Luc's AI","timestamp":1787844390604}@@llm-review:
+  content-sha: "sha256:273a79f4841b8dd3c48ee39ef7546aac50dabfc63173b41f3a56ebe8f2b55afd"
+  date: 2026-08-27
+  model: "sonnet"
+  version: "article-qc-v2"
+  source:
+    content-sha: "sha256:7baa7bf5f6eaaac8aaa4d5361348a79bec13aad1095cbb3a826dc9ef0017fed8"
+    fetched: 2026-08-27
+    kind: "live"
+++}---{--{"author":"Luc's AI","timestamp":1787844390342}@@
 
-%%
+--}{++{"author":"Luc's AI","timestamp":1787844390342}@@
+++}%%
 Add discussion note here:
 
 ...
@@ -107,22 +117,27 @@ For this, we have to remember that all three statements are true at the same tim
 
 ![A summary chart that shows all three previous charts at once — and says at the top 'All three statements are true at the same time'](https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/c422a6d2-9fb0-49ea-1ac8-31d9e48f2300/w=5178)
 
-**Acknowledgments:** I would like to thank Hannah Ritchie and Toby Ord for their feedback on this article.
-
+{++{"author":"Luc's AI","timestamp":1787844390086}@@:::collapse
+++}**Acknowledgments:** I would like to thank Hannah Ritchie and Toby Ord for their feedback on this article.
+{--{"author":"Luc's AI","timestamp":1787844389764}@@
 ---
 
-*This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
+*This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*--}{++{"author":"Luc's AI","timestamp":1787844389764}@@:::++}
 
 [^note-roser-1]: In a number of fundamental aspects – obviously [not all](https://ourworldindata.org/obesity) – we achieved very substantial progress. These aspects include [education](https://ourworldindata.org/global-rise-of-education), [political freedom](https://ourworldindata.org/democracy), [violence](https://ourworldindata.org/homicides), [poverty](https://ourworldindata.org/extreme-poverty), [nutrition](https://ourworldindata.org/hunger-and-undernourishment), and [some](https://ourworldindata.org/ozone-layer) [aspects](https://ourworldindata.org/natural-catastrophes) of environmental change. See also [my short history of global living conditions](https://ourworldindata.org/a-history-of-global-living-conditions-in-5-charts).
 
 [^cite-roser-2]: Except for the historical data, all data in this post is taken from IGME, the *UN Inter-agency Group for Child Mortality Estimation*. They publish their data here: [childmortality.org/data/World](https://childmortality.org/data/World). Their point estimate for the global number of deaths for children under 15 in 2021 is [5,862,574](https://ourworldindata.org/grapher/number-of-youth-deaths?tab=table). This means on average there are 5,862,574 / 365.25 = 16,051 child deaths per day, 5,862,574 / (365.25 * 24) = 669 child deaths every hour, and 5,862,574 / (365.25 * 24 * 60) = 11.15 child deaths every minute.
 
-[^note-roser-3]: If we still suffered the poor health of our ancestors, more than 60 million children would die every year. How many children died at the time? We don't know because data on the number of global births at the time is not available. For the 1950s and 1960s, we have estimates of both the number of births and the mortality rate, and the records show that around 20 million children died every year. There was some variation over time and some differences between different locations. But the mortality rate was surprisingly similar in very different cultures. Whether in Ancient Rome, in hunter-gatherer-societies, in the pre-Columbian Americas, in Medieval Japan or Medieval England, in the European Renaissance, or in Imperial China, every second child died.
+[^note-roser-3]: If we still suffered the poor health of our ancestors, more than 60 million children would die every year. How many children died at the time? We don't know because data on the number of global births at the time is not available. For the 1950s and 1960s, we have estimates of both the number of births and the mortality rate, and the records show that around 20 million children died every year. {++{"author":"Luc's AI","timestamp":1787844389486}@@See the data shown [here](https://www.gatesnotes.com/Development/Max-Roser-three-facts-everyone-should-know). ++}There was some variation over time and some differences between different locations. But {++{"author":"Luc's AI","timestamp":1787844389486}@@as the linked article shows, ++}the mortality rate was surprisingly similar in very different cultures. Whether in Ancient Rome, in hunter-gatherer-societies, in the pre-Columbian Americas, in Medieval Japan or Medieval England, in the European Renaissance, or in Imperial China, every second child died.
 
 [^cite-roser-4]: See the world map on [the mortality of under-15-year-olds](https://ourworldindata.org/grapher/youth-mortality-rate).
 
 [^cite-roser-5]: See the data reported in [Mortality in the past – around half died as children](https://ourworldindata.org/child-mortality-in-the-past).
 
-[^cite-roser-6]: The child mortality rate in the EU — 0.47% — was calculated as the weighted average of the youth mortality rate of the following countries: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, and Sweden. The data is also for 2021 and also from the same source (UN-IGME). The weights are assigned based on the number of children under the age of 15.
+[^cite-roser-6]: The child mortality rate in the EU — 0.47% — was calculated as the weighted average of the youth mortality rate of the following countries: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, and Sweden. The data is also for 2021 and also from the same source (UN-IGME). The weights are assigned based on the number of children under the age of 15.{++{"author":"Luc's AI","timestamp":1787844389087}@@
+
+    If we look at single countries, this difference becomes even more striking as in the countries with the best health, the child mortality rate is again almost twice as low as in the EU as a whole.
+
+    The countries with the lowest mortality rates today include San Marino, Norway, Japan, Finland, Singapore, Iceland, and Slovenia, where 99.7% of all children survive. [This chart](https://ourworldindata.org/grapher/youth-mortality-rate?tab=table&country=~OWID_WRL) shows the ranking. However, because several of these countries are small, I did not base this text on the data from any single country but on a large world region where millions of children are born every year.++}
 
 [^note-roser-7]: The global number of child deaths, as reported above, is 5,862,574. 5,862,574 – 5,862,574 / (4.4 / 0.47) = 5,236,345 fewer children would die if the global mortality rate were 0.47% rather than 4.4%. The number of children who would die if the global mortality rate was 0.47% would be 5,862,574-5,236,345=626,229.
