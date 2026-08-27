@@ -30,7 +30,7 @@ For example:
 
 Although this distinction isn't very clear-cut, most of the plans and strategies described in this upcoming unit will take one of these 2 sides, although the authors aren't always explicit about this.++}
 
-You already read the argument about controlling misaligned AIs at the end of Unit 3. This unit is about everything else.{++{"author":"Luc","timestamp":1787822959733}@@
+{--{"author":"Luc","timestamp":1787823284298}@@You already read the argument about controlling misaligned AIs at the end of Unit 3. This unit is about everything else.{++{"author":"--}Luc","timestamp":1787822959733}@@
 
 The previous unit already discussed the difficulty of controlling misaligned AIs. This unit will focus more on different things.++}
 
