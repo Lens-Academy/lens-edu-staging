@@ -73,7 +73,7 @@ And:
 
 > "On average 14% of total progress in a trend came from large robust discontinuities (or 16% of logarithmic progress), or 38% among trends which have at least one."
 
-And here we run into an example of why you must understand how a number came to be before it means anything. 14% is the percentage of total progress. For example, if over the course of the past thousand years an immortal fairie had 
+And here we run into an example of why you must understand how a number came to be before it means anything. 14% is the percentage of total progress. For example, if over the course of the past thousand years an immortal faerie had 
 
 14% of total progress arrived in jumps, which is the same as saying a randomly chosen unit of progress had about a 14% chance of arriving in one. What it is NOT: the share of years that contain a jump (that is 0.1% per trend-year) or the share of individual data points that are jumps (1.4%, a figure that depends on how densely a trend happens to be recorded: measure twice as often and it roughly halves). Jumps are rare as events, and when a trend has one at all, jumps account for over a third of everything it ever gained. Rare, and large when present. Both halves matter, and they pull your model in different directions.
 
