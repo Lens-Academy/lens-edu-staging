@@ -7,7 +7,7 @@ tags:
 A survey (`surveys/<Name>.md`) is a post-meeting reflection form learners fill in on the platform — the native replacement for our Google Forms. Each one is attached to a meeting in a course file. After a learner's group meeting ends (and they attended it), the survey unlocks: it appears as "Meeting N Survey" in the course sidebar and pops up once as a modal the next time they open course content. **Submitting the survey is what counts the learner's attendance for that meeting**, and answers land in the Ops dashboard (Surveys tab, with CSV export) — so treat every question as something a human will read.
 
 One survey file can be attached to many meetings (answers are recorded per meeting). 
-You can also write different surveys for specific meetings a final-meeting survey with wrap-up questions, for example.
+Courses usually start with a longer You can also write different surveys for specific meetings a final-meeting survey with wrap-up questions, for example.
 
 ## The file
 
