@@ -28,7 +28,7 @@ Links:
 - Links to marketing materials/messages & landing-pages
 %%
 
-# Module: [[../modules/IABIED M1 Intro, Part 1]]
+# Module: [[../modules/Course M1 Intro, Part 1]]
 # Meeting: Meeting 1 name
 meeting-doc-template:: https://docs.google.com/document/d/...
 survey:: [[../surveys/IABIED Post-Meeting Survey]]
