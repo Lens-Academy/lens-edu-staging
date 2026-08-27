@@ -37,7 +37,7 @@ survey:: [[../surveys/IABIED Post-Meeting Survey]]
 
 Optional frontmatter: `slug-aliases`, `partner-name`, `partner-logo`, `partner-logo-small`, `partner-url`.
 
-- Don't edit the target audience and value prop without explicitly permission from the user. And
+- Don't edit the target audience and value prop without explicitly permission from the user. And check/flag if 
 - The target audience for a course are people with one or more of the listed features.
 - Everything between two meetings belongs to one meeting's preparation.
 - If the course has in-person meetings, the meeting doc template must be linked under the `# Meeting`. (see: [[Writing Meeting Docs]])
