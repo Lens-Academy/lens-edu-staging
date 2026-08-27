@@ -9,7 +9,8 @@ tags:
 # Lens:
 source:: [[../Lenses/ToT M4 - Where Did the Judgement Sit - PQ]]
 
-
+# Lens:
+source:: [[../Lenses/ToT M4 - Rules Drawn From the Evidence]]
 
 # Lens:
 source:: [[../Lenses/ToT M4 - Choosing What to Delegate]]
