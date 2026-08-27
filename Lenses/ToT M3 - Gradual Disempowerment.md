@@ -28,7 +28,7 @@ The above passage makes the case that the loss can be gradual. It does not yet s
 
 The economy matters for this unit. The studies you read earlier are workplace studies. They describe individual people delegating individual tasks. The next passage asks what happens when the same pattern scales to a whole economy, where firms compete to replace human labour with machines.
 
-The passage makes one central point. It compares AI with earlier technologies. Watch for how AI differs from every technology that came before.
+When reading this, watch for how AI differs from every technology that came before.
 
 #### ++}Article
 source:: [[../articles/gradual-disempowerment-misaligned-economy]]
