@@ -11,7 +11,6 @@ tags:
 
 #### Text
 content::
-\## The skeptical position
 A skeptic can read the unit's studies and reach a different conclusion. The objections do not depend on any single number. They concern how thinking works, how it is measured, and what offloading has done across history.
 
 \## Offloading is old
