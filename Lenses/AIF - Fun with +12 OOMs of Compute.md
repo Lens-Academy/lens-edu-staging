@@ -118,7 +118,7 @@ to:: your median should be roughly 10 years earlier than hers, all else equal: 2
 content::
 \## Give a number
 
-Now you give a number: given a trillion times more compute than was available in 2016, how likely is it (that is, in what pe)
+Now you give a number: given a trillion times more compute than was available in 2016, how likely is it (that is, in what percentage of )
 
 His answer to "probability that TAI appears in the Compute Fairy world" is 90%, and he shows his work: inside view[^inside] 99, discounted for unknown unknowns and deference. Ajeya's distribution puts its median[^median] at the 10^35 mark, which he reads as her answering 50%.
 
