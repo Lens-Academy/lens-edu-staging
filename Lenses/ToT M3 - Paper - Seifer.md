@@ -2,7 +2,7 @@
 id: '1e76017e-3faf-47cb-b390-fcd09f01583d'
 title: "Seifer: early-warning signs at work"
 reading_minutes: 7
-tldr: "A self-published survey of 299 UK workers found patterns worth watching: many felt confident after a quick review, chose the AI's answer over their own, and checked AI output less than a colleague's work. The author calls these early-warning signs, not proof."
+tldr: "A self-published survey of 299 UK workers found patterns worth {--{"author":"AI","timestamp":1787862164648}@@watching: many--}{++{"author":"AI","timestamp":1787862164648}@@watching. Many++} felt confident after a quick {--{"author":"AI","timestamp":1787862164648}@@review,--}{++{"author":"AI","timestamp":1787862164648}@@review. Many++} chose the AI's answer over their {--{"author":"AI","timestamp":1787862164648}@@own, and--}{++{"author":"AI","timestamp":1787862164648}@@own. Many++} checked AI output less than a colleague's work. The author calls these early-warning signs, not proof."
 summary_for_tutor: "Optional evidence lens for Unit 3 of 'Thinking about Thinking'. Presents Roxana Seifer's survey of 299 UK workers (2026): 56% confident after quick review, 45% chose AI's answer over own, 47% checked AI output less, 41% found tasks harder without AI; daily users strongest. The claim the core course makes of this survey: self-reported patterns that look like early-warning signs of cognitive dependency, not proof of cause and effect. Authored intro stresses it is self-published and self-reported. Inlines three excerpts: the four findings, the link to cognitive dependency and oversight, and the limits and the AI-versus-past-tools comparison. About 7 minutes."
 ---
 

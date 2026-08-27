@@ -2,7 +2,7 @@
 id: '380420fe-b6f1-45ec-ae80-27be7419f33a'
 title: "Gutoreva: can AI extend the mind?"
 reading_minutes: 8
-tldr: "Not everyone reads this as loss. Gutoreva and colleagues (2025) take the Extended Mind position: a tool you rely on can become a real part of your thinking. The risk rises when AI does the full epistemic labour or is treated as an authority."
+tldr: "Not everyone reads this as loss. Gutoreva and colleagues (2025) take the Extended Mind {--{"author":"AI","timestamp":1787862166899}@@position: a--}{++{"author":"AI","timestamp":1787862166899}@@position. A++} tool you rely on can become{--{"author":"AI","timestamp":1787862166899}@@ a real --}{++{"author":"AI","timestamp":1787862166899}@@ ++}part of your thinking. The risk rises when AI does {++{"author":"AI","timestamp":1787862166899}@@all ++}the {--{"author":"AI","timestamp":1787862166899}@@full epistemic labour or is treated--}{++{"author":"AI","timestamp":1787862166899}@@thinking, or when you treat it++} as an authority."
 summary_for_tutor: "Optional counterevidence lens for Unit 3 of 'Thinking about Thinking'. Presents Gutoreva and colleagues (2025): the Extended Mind position that external tools can become legitimate parts of cognition; the key distinction is between AI as an assistive instrument and AI as an authoritative source; risk increases when AI performs the full epistemic labour. The claim the core course makes of this paper: offloading is not automatically decline; the risk rises with authority-like use, a counterargument to a simple decline story. Authored intro frames it as the paper that pushes back. Inlines three excerpts: the abstract, the deskilling and cognitive-atrophy argument, and the shift from search engines to oracles. About 8 minutes."
 ---
 
