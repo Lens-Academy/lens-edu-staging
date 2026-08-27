@@ -29,9 +29,8 @@ Artificial agents should have several advantages over humans.
 
 The following is an excerpt from [Superintelligence](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies) (Bostrom, 2014), reproduced with permission. It outlines ten advantages Bostrom expects digital intelligences to have over human intelligences.
 
-> {--{"author":"Luc's AI","timestamp":1787826300054}@@Sources--}{++{"author":"Luc's AI","timestamp":1787826300054}@@**Sources++} of advantage for digital {--{"author":"Luc's AI","timestamp":1787826300054}@@intelligence 
---}{++{"author":"Luc's AI","timestamp":1787826300054}@@intelligence**
-++}>  
+> **Sources of advantage for digital intelligence**
+>  
 > Minor changes in brain volume and wiring can have major consequences, as we see when we compare the intellectual and technological achievements of humans with those of other apes. The far greater changes in computing resources and architecture that machine intelligence will enable will probably have consequences that are even more profound. It is difficult, perhaps impossible, for us to form an intuitive sense of the aptitudes of a superintelligence; but we can at least get an inkling of the space of possibilities by looking at some of the advantages open to digital minds. The hardware advantages are easiest to appreciate:  
 >  
 > - *Speed of computational elements.* Biological neurons operate at a peak speed of about 200 Hz, a full seven orders of magnitude slower than a modern microprocessor (~2 GHz).¹⁹ As a consequence, the human brain is forced to rely on massive parallelization and is incapable of rapidly performing any computation that requires a large number of sequential operations.²⁰ (Anything the brain does in under a second cannot use much more than a hundred sequential operations—perhaps only a few dozen.) Yet many of the most practically important algorithms in programming and computer science are not easily parallelizable. Many cognitive tasks could be performed far more efficiently if the brain’s native support for parallelizable pattern-matching algorithms were complemented by, and integrated with, support for fast sequential processing.
