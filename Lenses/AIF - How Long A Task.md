@@ -10,7 +10,7 @@ authors:
 ---
 #### Text
 content::
-\## How big does a task have to
+\## How big does a task have to be before an AI can't do it?
 
 An AI agent can write a function. It usually cannot ship a feature. Somewhere between those two there is a length of job it stops being able to finish, and that length is a fact you can measure rather than argue about.
 
