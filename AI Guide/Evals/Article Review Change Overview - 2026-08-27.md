@@ -22,7 +22,7 @@ whitespace-only change immediately below frontmatter:
 delete: "\n\n"
 insert: "\n"
 ```
-
+{>>{"author":"Luc","timestamp":1787840332022}@@Okay. Well, if we like this, we should just make this one programmatic. I think the programmatic one is just inserting a wide line—too much.<<}
 
 In context, this removes one blank line before the existing `%%` authoring
 comment block.
