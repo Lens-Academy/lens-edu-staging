@@ -13,7 +13,7 @@ source:: [[../Lenses/ToT M3 - Gradual Disempowerment - PQ]]
 source:: [[../Lenses/ToT M3 - The Metacognitive Traps]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - Paper - Lee (Microsoft)]]
+source:: [[../Lenses/ToT M3 - {--{"author":"AI","timestamp":1787825704157}@@Paper - Lee (Microsoft)]]--}{++{"author":"AI","timestamp":1787825704157}@@Confidence and Critical Thinking at Work]]++}
 
 # Lens:
 source:: [[../Lenses/ToT M3 - When AI Helps and When It Harms]]
@@ -30,7 +30,12 @@ source:: [[../Lenses/ToT M3 - Recap]]
 # Lens:
 source:: [[../Lenses/ToT M3 - Paper - Bednar (Legal Study)]]
 optional:: true
-hide:: true
+hide:: true{++{"author":"AI","timestamp":1787825706061}@@
+
+# Lens:
+source:: [[../Lenses/ToT M3 - Paper - Lee (Microsoft)]]
+optional:: true
+hide:: true++}
 
 # Lens:
 source:: [[../Lenses/ToT M3 - Paper - Budzyn (Doctor Study)]]
