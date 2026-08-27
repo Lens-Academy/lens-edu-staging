@@ -17,9 +17,19 @@ accessed: 2026-06-21
 description:
 tags:
   - "article-importer"
----
+{++{"author":"Luc's AI","timestamp":1787842783018}@@llm-review:
+  content-sha: "sha256:3f3bba645081c318bd3e5ee4b518772dc660b7790e787484f9460dfe7ea86055"
+  date: 2026-08-27
+  model: "sonnet"
+  version: "article-qc-v2"
+  source:
+    content-sha: "sha256:da8f1988f43da302578053a3d91371bda5ea5fee6e42c1a485c5e0cf51b15512"
+    fetched: 2026-08-27
+    kind: "live"
+++}---{--{"author":"Luc's AI","timestamp":1787842782784}@@
 
-%%
+--}{++{"author":"Luc's AI","timestamp":1787842782784}@@
+++}%%
 Add discussion note here:
 
 ...
@@ -70,7 +80,9 @@ Another class of specification gaming examples comes from the agent exploiting *
 
 ![A simple robot, made up of blocks in a human shape. From standing, its legs fold into a W shape underneath it, and it slides across the screen on its side.](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/622756926ee3f3940b471081_Fig206.gif)
 
-At first sight, these kinds of examples may seem amusing but less interesting, and irrelevant to deploying agents in the real world, where there are no simulator bugs. However, the underlying problem isn’t the bug itself but a failure of abstraction that can be exploited by the agent. In the example above, the robot's task was misspecified because of incorrect assumptions about simulator physics. Analogously, a real-world traffic optimisation task might be misspecified by incorrectly assuming that the traffic routing infrastructure does not have software bugs or security vulnerabilities that a sufficiently clever agent could discover. Such assumptions need not be made explicitly – more likely, they are details that simply never occurred to the designer. And, as tasks grow too complex to consider every detail, researchers are more likely to introduce incorrect assumptions during specification design. This poses the question: is it possible to design agent architectures that correct for such false assumptions instead of gaming them?
+{++{"author":"Luc's AI","timestamp":1787842782519}@@Source: AI Learns to Walk (Code Bullet, 2019)
+
+++}At first sight, these kinds of examples may seem amusing but less interesting, and irrelevant to deploying agents in the real world, where there are no simulator bugs. However, the underlying problem isn’t the bug itself but a failure of abstraction that can be exploited by the agent. In the example above, the robot's task was misspecified because of incorrect assumptions about simulator physics. Analogously, a real-world traffic optimisation task might be misspecified by incorrectly assuming that the traffic routing infrastructure does not have software bugs or security vulnerabilities that a sufficiently clever agent could discover. Such assumptions need not be made explicitly – more likely, they are details that simply never occurred to the designer. And, as tasks grow too complex to consider every detail, researchers are more likely to introduce incorrect assumptions during specification design. This poses the question: is it possible to design agent architectures that correct for such false assumptions instead of gaming them?
 
 One assumption commonly made in task specification is that the task specification cannot be affected by the agent's actions. This is true for an agent running in a sandboxed simulator, but not for an agent acting in the real world. Any task specification has a physical manifestation: a reward function stored on a computer, or preferences stored in the head of a human. An agent deployed in the real world can potentially manipulate these representations of the objective, creating a [reward tampering](https://medium.com/@deepmindsafetyresearch/designing-agent-incentives-to-avoid-reward-tampering-4380c1bb6cd) problem. For our hypothetical traffic optimisation system, there is no clear distinction between satisfying the user's preferences (e.g. by giving useful directions), and [influencing users](https://pubsonline.informs.org/doi/10.1287/isre.2013.0497) to have preferences that are easier to satisfy (e.g. by nudging them to choose destinations that are easier to reach). The former satisfies the objective, while the latter manipulates the representation of the objective in the world (the user preferences), and both result in high reward for the AI system. As another, more extreme example, a very advanced AI system could hijack the computer on which it runs, manually setting its reward signal to a high value.
 
