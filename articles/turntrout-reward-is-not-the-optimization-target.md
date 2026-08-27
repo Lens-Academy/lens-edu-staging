@@ -6,12 +6,22 @@ source_url: "https://www.alignmentforum.org/posts/pdaGN6pQyQarFHXF4"
 published: 2022-07-25
 created: 2026-06-21
 accessed: 2026-06-21
-description: "TurnTrout discusses a common misconception in reinforcement learning: that reward is the optimization target of trained agents. He argues reward is b…"
+description: "TurnTrout discusses a common misconception in reinforcement learning: that reward is the optimization target of trained agents. He argues reward {--{"author":"Luc's AI","timestamp":1787842985092}@@is b…"--}{++{"author":"Luc's AI","timestamp":1787842985092}@@instead functions as a reinforcement schedule that chisels cognition into an agent, rather than encoding a utility function to be optimized."++}
 tags:
   - "article-importer"
----
+{++{"author":"Luc's AI","timestamp":1787842984838}@@llm-review:
+  content-sha: "sha256:b3c8494549711934264925db259583428b2e4177ebff3ca1d0932414155285b5"
+  date: 2026-08-27
+  model: "sonnet"
+  version: "article-qc-v2"
+  source:
+    content-sha: "sha256:19997af94178a1f89be191b63abccb1abb2d28a6f3dedb39ae0c3df0eaeb26d4"
+    fetched: 2026-08-27
+    kind: "live"
+++}---{--{"author":"Luc's AI","timestamp":1787842984461}@@
 
-%%
+--}{++{"author":"Luc's AI","timestamp":1787842984461}@@
+++}%%
 Add discussion note here:
 
 ...
