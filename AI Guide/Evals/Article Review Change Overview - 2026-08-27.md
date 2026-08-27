@@ -23,6 +23,7 @@ delete: "\n\n"
 insert: "\n"
 ```
 
+
 In context, this removes one blank line before the existing `%%` authoring
 comment block.
 
