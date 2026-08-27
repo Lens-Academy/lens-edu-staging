@@ -17,7 +17,7 @@ The studies in this unit are not all the same kind of claim. They answer differe
 
 **Field or quasi-experimental comparisons.** Real settings with comparison groups, but the researchers did not assign participants at random. The endoscopist study is this kind. It shows what happens in a real clinic, and it is weaker than a controlled test.
 
-**Cross-sectional surveys and interviews.** A snapshot of what people report and do. The Lee and Gerlich surveys are this kind. They can show that two things go together. They cannot show which one causes the other.
+**Cross-sectional surveys and interviews.** A snapshot of what people report and do. The Lee survey is this kind. They can show that two things go together. They cannot show which one causes the other.
 
 **Self-reported behaviour.** People describing their own thinking. Useful, but people overstate their own skill and understate their dependence on a tool. The speedup illusion is a reminder that what people feel is not always what is true.
 
