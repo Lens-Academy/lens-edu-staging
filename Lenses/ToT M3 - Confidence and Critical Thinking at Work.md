@@ -31,7 +31,6 @@ The study also found that AI changed where the effort went. People did less of t
 #### Question
 content::
 \## Your turn
-Lee's finding in one line: the more you trust the AI, the less you check.
 
 Pick a real task from your own week where you used AI. For that task, which did you trust more, the AI or your own ability? And how much did you actually check the output before you used it?
 
