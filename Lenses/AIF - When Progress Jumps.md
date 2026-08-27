@@ -20,7 +20,7 @@ Some definitions:
 
 - In this article, a **trend** is the estimated linear or exponential rate of change of a measured quantity over time, eg tallest structure, ship tonnage, transatlantic message speed.
 - A **step** is one new number at a particular time: a single new structure, ship, or communication method.
-- A step is a **jump** when it breaks the trend. That is, if each previous step had been on a trend before a next step, then a jump occurs when an actual development was ahead of the previous smooth-ish line.
+- A step is a **jump** when it breaks the trend by more tha. That is, if each previous step had been on a trend before a next step, then a jump occurs when an actual development was ahead of the previous smooth-ish line.
 
 
 {>>{"author":"lauren (chrome@what)","timestamp":1787818839908}@@6:20:36 start<<}
