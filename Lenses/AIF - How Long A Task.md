@@ -30,7 +30,7 @@ Their approach has three parts.
 {>>{"author":"lauren (chrome@what)","timestamp":1787824700273}@@7:58:18<<}
 #### Question
 content::
-\## What have they found on AIs up to 2025
+\## What have they found (on AIs up to 2025
 
 Two pre-read questions.
 
