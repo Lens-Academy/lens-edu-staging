@@ -18,7 +18,7 @@ Let's assume we want to measure how close AI is to being able to do that. Later 
 
 By far the{>>{"author":"lauren (chrome@what)","timestamp":1787823523443}@@7:38:41<<} most common type of interaction with AIs is to describe a task and get a mostly-self-contained result. Among those tasks, a common type of task is making or changing software. Many of the tasks one would do as part of making software have a pretty clear success or fail criteria. So we can ask how big of a programming task the AI can do.
 
-METR is an independent organisation that runs those measurements. They test models that labs give them access to, and they publish their results.
+METR is an independent organisation that runs those measurements. They test models that labs give them access to, then publish their results.
 
 (Considering what effects that might or might not have on the alignment of METR as an organization is, for now, left as an exercise to the reader. We'll get to organizations later.)
 
@@ -52,7 +52,7 @@ Response length: 60 to 110 words. Short paragraphs. No lists.
 Response style:
 - Calm and direct.
 - Do not over-validate. No generic praise.
-- No correction of the number.
+- No correction of the number{>>{"author":"lauren (chrome@what)","timestamp":1787824426516}@@re: the article below: we're statically embedding a dynamic article! that's a problem!<<}.
 
 #### Article
 source:: [[../articles/metr-measuring-ai-ability-to-complete-long-tasks]]
