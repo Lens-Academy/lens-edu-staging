@@ -35,7 +35,7 @@ The previous unit already discussed the difficulty of controlling misaligned AIs
 
 The first reading is by Ryan Greenblatt of Redwood Research. He does not describe one plan. He describes four, and then a fifth world with no plan at all. Which plan is available is not a research question. It depends on how much of the world helps.{++{"author":"Luc","timestamp":1787822992573}@@
 
-++}{--{"author":"Luc","timestamp":1787823027285}@@
+++}{++{"author":"Luc","timestamp":1787823034247}@@The first reading is by Ryan Greenblatt of Redwood Research. Instead of describing a single plan, he describes multiple plans the world could have for making AI go well, and which plan is available to execute depends on how much of the world we can rally to help.++}{--{"author":"Luc","timestamp":1787823027285}@@
 --}
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
