@@ -97,7 +97,7 @@ Assuming we don't yet know how to determine confidently whether AI should be exp
 
 And, based on this article, does anything change about the intuitions you shared in the opening question?
 
-Was your share-of-total-progress guess closer to the 14% average or the 38% among-affected-trends figure, and which of those two numbers is the right one to load into your model of AI, given that you don't yet know which kind of trend AI capability is? Did any of your three named technologies appear in their ten? Finish with one sentence for your running model: what does "rare, but large when present" do to the smoothest version of your day-zero story?
+Did any of your three named technologies appear in their ten? Finish with one sentence for your running model: what does "rare, but large when present" do to the smoothest version of your day-zero story?
 
 assessment-instructions:: The student has committed to three guesses and has now read the measured figures.
 
