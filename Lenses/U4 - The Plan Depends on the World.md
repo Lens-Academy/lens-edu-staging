@@ -44,7 +44,9 @@ The first reading is by Ryan Greenblatt of Redwood Research. He does not describ
 content::
 \## Your turn first
 
-Before you read Greenblatt's four plans, describe your own.
+Before you read Greenblatt's four plans, describe your own.{++{"author":"Luc","timestamp":1787823069431}@@
+
+++}
 
 Write two or three sentences about the plan you believe exists today to prevent an AI takeover. Name who executes it. If you think no plan exists, say what happens instead. Say who would act if the danger became visible, and how they would act.
 
