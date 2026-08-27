@@ -18,7 +18,7 @@ Now let's talk about an outside view: how quickly have technologies become power
 
 Some definitions:
 
-- In this article, a **trend** is the estimated linear rate of change of a measured quantity over time: tallest structure, ship tonnage, transatlantic message speed.
+- In this article, a **trend** is the estimated linear rate of change of a measured quantity over time. tallest structure, ship tonnage, transatlantic message speed.
 - A **step** is one new number at a particular time: a single new structure, ship, or communication method.
 - A step is a **jump** when it breaks the trend: that is, if 
 
