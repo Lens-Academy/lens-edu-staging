@@ -15,44 +15,41 @@ content::
 \## Before you read
 
 {>>{"author":"Luc","timestamp":1787822721810}@@start time 11h25<<}{>>{"author":"Luc","timestamp":1787823313102}@@end time of typing 11h34. Then started struggling with the suggestion mode.<<}
-{--{"author":"Luc","timestamp":1787823052325}@@
---}{++{"author":"Luc","timestamp":1787823046370}@@
-++}{++{"author":"Luc","timestamp":1787823050037}@@
-The previous unit was about how AI could go very wrong for humanity. This unit will discuss how we can prevent bad outcomes and steer the future towards good outcomes.++}{--{"author":"Luc","timestamp":1787822768301}@@Unit 3 was about how it could go wrong. This unit is about the plans.--}
 
-{--{"author":"Luc","timestamp":1787823266923}@@Unit 3 ended on a disagreement, and we did not settle it. One reading, by Nate Soares, puts the risk inside the system, in what the system ends up aiming at. Another, by Jan Kulveit and co-authors, puts the risk between institutions, in dynamics that no single actor steers. That disagreement matters now. Where you locate the risk decides what you try to change. A person who fears the system works on how to aim it. A person who fears the dynamics works on treaties, governments, and labs. Most plans in this unit take one of those sides, whether or not its author says so.{++{"author":"--}Luc","timestamp":1787822778420}@@
 
-++}{++{"author":"Luc","timestamp":1787822952324}@@Unit 3 showed disagreements between different experts about how things could go wrong. An article by Nate Stories put the main risks inside the AI system, with the risk being the AI aiming at bad outcomes or aiming at things that lead to bad outcomes for humans. In contrast, Jan Kulweit and co-authors looked more at the risks of interactions between different institutions—that is, risks of group dynamics that no single actor is aiming at. For this unit, these disagreements and these different threat models matter because where you place the main risks will affect what things you would attempt to change in order to reduce AI x-risk.
+The previous unit was about how AI could go very wrong for humanity. This unit will discuss how we can prevent bad outcomes and steer the future towards good outcomes.
+
+Luc","timestamp":1787822778420}@@
+
+Unit 3 showed disagreements between different experts about how things could go wrong. An article by Nate Stories put the main risks inside the AI system, with the risk being the AI aiming at bad outcomes or aiming at things that lead to bad outcomes for humans. In contrast, Jan Kulweit and co-authors looked more at the risks of interactions between different institutions—that is, risks of group dynamics that no single actor is aiming at. For this unit, these disagreements and these different threat models matter because where you place the main risks will affect what things you would attempt to change in order to reduce AI x-risk.
 
 For example:
 1. People most worried about the goals of AIs being misaligned will work on figuring out how to align an AI.
 2. People most worried about the dynamics between different actors will focus more on things like treaties, governments, and labs.
 
-Although this distinction isn't very clear-cut, most of the plans and strategies described in this upcoming unit will take one of these 2 sides, although the authors aren't always explicit about this.++}
+Although this distinction isn't very clear-cut, most of the plans and strategies described in this upcoming unit will take one of these 2 sides, although the authors aren't always explicit about this.
 
-You already read the argument about controlling misaligned AIs at the end of Unit 3. This unit is about everything else.{++{"author":"Luc","timestamp":1787822959733}@@
+You already read the argument about controlling misaligned AIs at the end of Unit 3. This unit is about everything else.
 
-The previous unit already discussed the difficulty of controlling misaligned AIs. This unit will focus more on different things.++}
+The previous unit already discussed the difficulty of controlling misaligned AIs. This unit will focus more on different things.
 
-The first reading is by Ryan Greenblatt of Redwood Research. He does not describe one plan. He describes four, and then a fifth world with no plan at all. Which plan is available is not a research question. It depends on how much of the world helps.{++{"author":"Luc","timestamp":1787822992573}@@
+The first reading is by Ryan Greenblatt of Redwood Research. He does not describe one plan. He describes four, and then a fifth world with no plan at all. Which plan is available is not a research question. It depends on how much of the world helps.
 
-++}{++{"author":"Luc","timestamp":1787823034247}@@The first reading is by Ryan Greenblatt of Redwood Research. Instead of describing a single plan, he describes multiple plans the world could have for making AI go well, and which plan is available to execute depends on how much of the world we can rally to help.++}{--{"author":"Luc","timestamp":1787823027285}@@
---}
-{--{"author":"Luc","timestamp":1787823061430}@@*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.--}*
+The first reading is by Ryan Greenblatt of Redwood Research. Instead of describing a single plan, he describes multiple plans the world could have for making AI go well, and which plan is available to execute depends on how much of the world we can rally to help.
+*
 
 #### Question
 content::
 \## Your turn first
 
-Before you read Greenblatt's four plans, describe your own.{++{"author":"Luc","timestamp":1787823069431}@@
+Before you read Greenblatt's four plans, describe your own.
 
-++}{++{"author":"Luc","timestamp":1787823100040}@@Before you read Ryan's plans, before you read Greenblatt's plans for making AI go well, we will ask you to describe your own plan. Don't worry about not having a good plan yet. This is a useful exercise nonetheless.++}{--{"author":"Luc","timestamp":1787823094858}@@
---}
-Write two or three sentences about the plan you believe exists today to prevent an AI takeover. Name who executes it. If you think no plan exists, say what happens instead. Say who would act if the danger became visible, and how they would act.{++{"author":"Luc","timestamp":1787823119379}@@
+Before you read Ryan's plans, before you read Greenblatt's plans for making AI go well, we will ask you to describe your own plan. Don't worry about not having a good plan yet. This is a useful exercise nonetheless.
+Write two or three sentences about the plan you believe exists today to prevent an AI takeover. Name who executes it. If you think no plan exists, say what happens instead. Say who would act if the danger became visible, and how they would act.
 
 Please write 2 or 3 sentences about the plan you believe exists today to prevent AI takeover, and describe who executes the plan or who will execute the plan. Or if you believe no plan exists, describe what you think will happen instead. Describe who would act if the dangers became more visible than they currently are, and how they would act, even if they don't have an upfront plan for it.
 
-Then finally, describe in one line what your plan assumes the rest of the world is doing.++}
+Then finally, describe in one line what your plan assumes the rest of the world is doing.
 
 Then add one more line. This is the harder part. What does your plan assume the rest of the world is doing?
 
