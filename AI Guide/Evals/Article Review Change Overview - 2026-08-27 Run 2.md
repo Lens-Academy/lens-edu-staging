@@ -62,7 +62,7 @@ No model-authored content change. Only provenance and deterministic spacing.
 
 ### 4. Longtermism and Animal Advocacy
 
-[Open review](https://editor.lensacademy.org/2128996e/Lens-Edu/articles/baumann-longtermism-and-animal-advocacy.md)
+[Open review]({--{"author":"Luc's AI","timestamp":1787862759057}@@https://editor.lensacademy.org/2128996e/Lens-Edu/articles/baumann-longtermism-and-animal-advocacy.md--}{++{"author":"Luc's AI","timestamp":1787862759057}@@https://editor.lensacademy.org/2128996e/Lens-Edu/articles/baumann-longtermism-and-animal-advocacy-before-clean-reimport.md++})
 
 This is the largest substantive recovery in the batch. It restores omitted
 phrases and sentences throughout the article, including these exact changes: {>>{"author":"Luc","timestamp":1787861931942}@@this article misses a bunch of URLs from the original. Can you comment out the source url of this one and do a clean import of this article to compare?<<}
