@@ -20,7 +20,7 @@ Some definitions for how this article uses words:
 
 - A **trend** is the estimated linear or exponential rate of change of a measured quantity over time, eg tallest structure, ship tonnage, transatlantic message speed.
 - An **event** is one new number at a particular time: a single new structure, ship, or communication method.
-- An event is a **jump** when it breaks the trend by more than a century. That is, if each previous event had been on a trend before a next event, then a jump occurs when an actual development was ahead of the previous smooth-ish line. For the article's purposes, the authors only count trend breaks where the previous trend would have had to continue for 100 years to reach the same change as actually occurred in one event.
+- An event is a **jump** when it breaks the trend by more than a century. That is, if each previous event had been on a trend, then a jump occurs when an actual development was ahead of the previous smooth-ish line. For the article's purposes, the authors only count trend breaks where the previous trend would have had to continue for 100 years to reach the same change as actually occurred in one event.
 
 
 {>>{"author":"lauren (chrome@what)","timestamp":1787818839908}@@6:20:36 start<<}
