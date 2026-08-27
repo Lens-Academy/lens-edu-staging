@@ -6,6 +6,8 @@ tags:
 
 ## Required import workflow
 
+- **Articles should go through the article importer.** Add them with Lens Editor's [Add Article](https://editor.lensacademy.org/add-article) UI or MCP `import_article`, and use `import_status` to check completion. Never hand-write an article or create/move a new file into `Lens Edu/articles` through generic MCP tools. In the exceptional case where manual creation is genuinely necessary, explain this workflow and its consequences to the user, and obtain explicit permission.
+
 **Never create a source file manually.** Add every external source through Lens Editor's **Add Source** page or MCP `import_article`. One importer handles all of them: webpages, PDFs, and YouTube videos, including sources that need cleanup. A YouTube URL imports the video's transcript instead of an article. Submitting a URL that is already in the library is not an error; the job comes back `skipped` with a link to the document that already holds it.
 
 The importer is required because it retains source evidence, performs source-aware extraction and syntax-safe normalization, runs deterministic validation and mandatory LLM source-fidelity/presentation review, and records review provenance. Bypassing it tends to produce malformed footnotes, broken fragment links, extraction residue, missing evidence, and substantial downstream cleanup work for Lens staff, especially Elias and Luc.
