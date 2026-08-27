@@ -18,7 +18,7 @@ Now let's talk about an outside view: how quickly have technologies become power
 
 Some definitions:
 
-- A **trajectory** is a 
+- A **trend** is a 
 
 The last lens probed your model from the inside: what you personally believe compute buys. This one turns around and asks the outside question: never mind your reasoning, how has technological progress actually arrived, across every trend anyone has measured?
 {>>{"author":"lauren (chrome@what)","timestamp":1787818839908}@@6:20:36 start<<}
