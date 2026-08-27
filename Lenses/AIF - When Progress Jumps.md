@@ -73,9 +73,9 @@ And:
 
 > "On average 14% of total progress in a trend came from large robust discontinuities (or 16% of logarithmic progress), or 38% among trends which have at least one."
 
-And here we run into an example of why you must understand how a number came to be before it means anything. 14% is the percentage of total progress: that is, for a given amount of total change in a technology, what was the total contribution from the big jumps, vs
+And here we run into an example of why you must understand how a number came to be before it means anything. 14% is the percentage of total progress: that is, for a given amount of total change in a technology, what was the total contribution from the big jumps, vs the small ones?
 
-For example, imagine an immortal faerie who, over the course of the past thousand years, used her waterfowl magic to make larger and larger ducks. And over the course of those years, every year but one saw her make a duck 1.01x larger than the previous year's duck. Then, if she had only made incremental progress, she would have made ducks bigger by a factor of 1.1 to the power of 999, or about 20.7 thousand times the size of ducks from our world. Then let's say that one year, she made ducks bigger by "14% of total progress." That means that during the jump year, she made ducks about 2900 times bigger in just one year.
+(If you'dFor example, imagine an immortal faerie who, over the course of the past thousand years, used her waterfowl magic to make larger and larger ducks. And over the course of those years, every year but one saw her make a duck 1.01x larger than the previous year's duck. Then, if she had only made incremental progress, she would have made ducks bigger by a factor of 1.1 to the power of 999, or about 20.7 thousand times the size of ducks from our world. Then let's say that one year, she made ducks bigger by "14% of total progress." That means that during the jump year, she made ducks about 2900 times bigger in just one year.
 
 #### Article
 source:: [[../articles/grace-discontinuous-progress-in-history]]
