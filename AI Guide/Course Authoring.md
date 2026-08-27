@@ -34,7 +34,7 @@ Every content file is markdown with two kinds of structure: YAML frontmatter on 
 
 ## Making a course that is CORRECT, not just one that looks finished
 
-Writing an impressive-looking course is much easier than writing a correct one, and an AI-built draft is finished-looking by default. Finish-texture carries no information about completeness, so it cannot be used as evidence in either direction: not about your own work, not about someone else's.
+Writing an impressive-looking course is much easier than writing a correct one.
 
 That means care is not the mechanism. You can be maximally careful and fluently wrong all day. What works is a workflow whose steps make it hard to end up wrong, so correctness falls out of the operations rather than out of vigilance. The steps below are ordered by how much they caught per minute spent, measured on a real three-unit build.
 
