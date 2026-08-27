@@ -57,21 +57,6 @@ options::
 
 In the course file, add a `survey::` wikilink under the `# Meeting:` marker (see [[Writing Meeting Docs]]):
 
-```markdown
-# Meeting: Unit 1
-meeting-doc-template:: https://docs.google.com/document/d/...
-survey:: [[../surveys/AIF Post-Meeting Survey]]
-
-# Meeting: Unit 2
-meeting-doc-template:: https://docs.google.com/document/d/...
-survey:: [[../surveys/AIF Post-Meeting Survey]]
-```
-
-- The Nth `# Meeting:` marker in the course corresponds to each group's meeting N — attach the survey to the marker whose meeting it should follow.
-- The same survey file can be linked from several meetings; responses are still recorded per meeting.
-- One `survey::` per meeting. The value must be a wikilink to a `surveys/` file — a raw URL here is ignored with a warning (that was the old Google-Form convention).
-- A meeting with no `survey::` simply has no survey — nothing appears in the sidebar for it.
-
 ## What learners experience (so you can write for it)
 
 - The sidebar row is **locked** until their own group's meeting N has ended *and* their attendance is recorded; then it unlocks.
