@@ -122,7 +122,7 @@ Now you give a number: **given a trillion times more compute than was available 
 
 Note on **subjective probability**: we'll get into this in more detail later, but putting a probability on something that will happen only once is a bit of a subjective activity. One way to think about it: when asked for the probability of a claim C, consider all worlds you think might be possible. In what percentage of them is C true?
 
-
+When you answer, also 
 
 His answer to "probability that TAI appears in the Compute Fairy world" is 90%, and he shows his work: inside view[^inside] 99, discounted for unknown unknowns and deference. Ajeya's distribution puts its median[^median] at the 10^35 mark, which he reads as her answering 50%.
 
