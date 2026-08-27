@@ -19,14 +19,13 @@ source:: [[../Lenses/ToT M3 - Confidence and Critical Thinking at Work]]
 source:: [[../Lenses/ToT M3 - When AI Helps and When It Harms]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - {--{"author":"AI","timestamp":1787852863993}@@The Evidence --}{++{"author":"AI","timestamp":1787852863993}@@Gradual Disempowerment]]
+source:: [[../Lenses/ToT M3 - {--{"author":"AI","timestamp":1787852863993}@@The Evidence --}Gradual Disempowerment]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 ++}- {--{"author":"AI","timestamp":1787852863993}@@Synthesis]]--}{++{"author":"AI","timestamp":1787852863993}@@What the Skeptics Say]]
-optional:: true++}
+source:: [[../Lenses/ToT M3 - What the Skeptics Say]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - {--{"author":"AI","timestamp":1787852863993}@@Gradual Disempowerment]]--}{++{"author":"AI","timestamp":1787852863993}@@The Evidence - Synthesis]]++}
+source:: [[../Lenses/ToT M3 - The Evidence - Synthesis]]
 
 # Lens:
 source:: [[../Lenses/ToT M3 - Recap]]
