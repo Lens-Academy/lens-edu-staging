@@ -23,8 +23,6 @@ Target audience:
 Value prop:
 - ...
 - ...
-
-
 %%
 
 # Module: [[../modules/IABIED M1 Intro, Part 1]]
