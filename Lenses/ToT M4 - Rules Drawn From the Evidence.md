@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787862943877}@@---
+---
 id: 'a94c13b9-2d27-440f-8f12-d092ae9ce719'
 title: "Rules Drawn From the Evidence"
 reading_minutes: 8
@@ -66,4 +66,4 @@ Response style: calm and direct. Do not over-validate. Correct errors in one sen
 
 What to do: acknowledge the decision they ran through the rules; if they named a rule, ask what the mechanism is; if they named a vague commitment, make it specific and small enough to keep this week; close by sending them to the practice lens, where they will audit a real conversation.
 
-What not to do: re-teach the rules; run a long sequence; grade their habits. This is one turn, then send them on.++}
+What not to do: re-teach the rules; run a long sequence; grade their habits. This is one turn, then send them on.
