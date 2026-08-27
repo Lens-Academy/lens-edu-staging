@@ -30,7 +30,6 @@ content::
 Two findings push back on a simple "AI makes people think less" story. Yu and colleagues found AI can cut the *perceived* effort of a task without cutting the actual time, so some apparent "atrophy" may be miscalibrated self-perception. Gutoreva and colleagues argue tools can become part of cognition itself (the extended mind), so offloading is not automatically decline; the risk is treating the AI as an authority and skipping review.
 
 These do not cancel the concern. They narrow it: the worry is specific patterns of use, not AI in general.
-
 ::card[[../Lenses/ToT M3 - Paper - Gerlich]]
 > Gerlich: the AI-use and critical-thinking survey, and its real limits.
 
