@@ -59,10 +59,10 @@ content::
 > The strongest case against the worry, stated fairly.
 --}#### Question
 content::
-\## Your calibrated conclusion
-Separate three things in writing:
+\## Your {--{"author":"AI","timestamp":1787854350485}@@calibrated conclusion--}{++{"author":"AI","timestamp":1787854350485}@@own takeaway++}
+{--{"author":"AI","timestamp":1787854350485}@@Separate three things in writing:--}{++{"author":"AI","timestamp":1787854350485}@@Write down three things:++}
 1. What the evidence in this unit supports now.
-2. What remains plausible but unproven.
+2. What {--{"author":"AI","timestamp":1787854350485}@@remains--}{++{"author":"AI","timestamp":1787854350485}@@is++} plausible but {--{"author":"AI","timestamp":1787854350485}@@unproven.--}{++{"author":"AI","timestamp":1787854350485}@@not yet proven.++}
 3. What single result would most change your mind.
 
 assessment-instructions:: The student has reached the evidence-ladder lens of Unit 3 of "Thinking about Thinking". They must produce a calibrated conclusion, not a cheer or a dismissal. This is one written answer, then brief tutor feedback (limit to two tutor turns).
