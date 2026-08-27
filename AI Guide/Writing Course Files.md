@@ -37,7 +37,7 @@ Optional frontmatter: `slug-aliases`, `partner-name`, `partner-logo`, `partner-l
 - Everything between two meetings belongs to one meeting's preparation.
 - If the course has in-person meetings, the meeting doc template must be linked under the `# Meeting`. (see: [[Writing Meeting Docs]])
 
-Before creating a new course, discuss target audience features and value proposition of that course with the user
+Before creating a new course, discuss target audience features and value proposition of that course with the user.
 
 The target audience for this course multiple features
 
