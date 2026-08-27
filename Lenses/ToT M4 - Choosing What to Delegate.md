@@ -1,7 +1,7 @@
 ---
 id: 'c32e8372-a7c2-4140-9a8e-bb6641be4f03'
 title: "Choosing What to Delegate to AI"
-tldr: "Keep judgement in the loop at three stages: {++{"author":"AI","timestamp":1787863614491}@@write your own ++}rough notes before you prompt, {--{"author":"AI","timestamp":1787863614491}@@sparring--}{++{"author":"AI","timestamp":1787863614491}@@spar++} while you work, and {++{"author":"AI","timestamp":1787863614491}@@restate the logic in ++}your own {--{"author":"AI","timestamp":1787863614491}@@restated logic plus independent verification--}{++{"author":"AI","timestamp":1787863614491}@@words and verify the output++} after. {--{"author":"AI","timestamp":1787863614491}@@What--}{++{"author":"AI","timestamp":1787863614491}@@If++} you {--{"author":"AI","timestamp":1787863614491}@@can no longer do,--}{++{"author":"AI","timestamp":1787863614491}@@stop doing a task,++} you {--{"author":"AI","timestamp":1787863614491}@@no longer own."--}{++{"author":"AI","timestamp":1787863614491}@@lose the skill."++}
+tldr: "Keep judgement in the loop at three stages: write your own rough notes before you prompt, spar while you work, and restate the logic in your own words and verify the output after. If you stop doing a task, you lose the skill."
 summary_for_tutor: "Practical guidance lens for Unit 4 of 'Thinking about Thinking'. Authored content: the risk of AI interactions appears at three stages (before you delegate, while you work with the task, when you evaluate the result), with rules for each; plus other ways to protect judgement and a short red-flags list. It refers back to Bloom's taxonomy, which the learner met in Unit 3, and to Lee's finding: producing, analysing, evaluating, and creating are the levels that build a skill, while verifying does not. Notes that tools change fast so the guidance is time-sensitive. Runs Recall, Processing, and Learning Question phases; the wedge is a colleague who routes every task through AI for speed."
 tags:
   - wip
@@ -9,42 +9,42 @@ tags:
 
 #### Text
 content::
-{--{"author":"AI","timestamp":1787863773501}@@A useful frame: the risk--}{++{"author":"AI","timestamp":1787863773501}@@The risk of an AI interaction++} appears at three {--{"author":"AI","timestamp":1787863773501}@@stages of any AI interaction. They--}{++{"author":"AI","timestamp":1787863773501}@@stages. The stages++} are:{++{"author":"AI","timestamp":1787863773501}@@
--++} before you {--{"author":"AI","timestamp":1787863773501}@@delegate, --}{++{"author":"AI","timestamp":1787863773501}@@delegate the task
-- ++}while you work with the {--{"author":"AI","timestamp":1787863773501}@@output, and--}{++{"author":"AI","timestamp":1787863773501}@@output
--++} when you evaluate the {--{"author":"AI","timestamp":1787863773501}@@result. --}{++{"author":"AI","timestamp":1787863773501}@@result
+The risk of an AI interaction appears at three stages. The stages are:
+- before you delegate the task
+- while you work with the output
+- when you evaluate the result
 
-++}The guidance below follows {--{"author":"AI","timestamp":1787863773501}@@that shape.--}{++{"author":"AI","timestamp":1787863773501}@@each stage.++} This is one {--{"author":"AI","timestamp":1787863773501}@@approach, not the only approach.--}{++{"author":"AI","timestamp":1787863773501}@@approach among many. You can adapt it to your work.++}
+The guidance below follows each stage. This is one approach among many. You can adapt it to your work.
 
-Tools change {--{"author":"AI","timestamp":1787863773501}@@fast. This unit describes--}{++{"author":"AI","timestamp":1787863773501}@@quickly. These rules describe++} what works {--{"author":"AI","timestamp":1787863773501}@@now, not forever. Revisit--}{++{"author":"AI","timestamp":1787863773501}@@today. They may change as++} the {--{"author":"AI","timestamp":1787863773501}@@principles as--}{++{"author":"AI","timestamp":1787863773501}@@tools change. When++} the tools change,{--{"author":"AI","timestamp":1787863773501}@@ and--} test any new guidance against {--{"author":"AI","timestamp":1787863773501}@@Unit 3's evidence.--}{++{"author":"AI","timestamp":1787863773501}@@the evidence from Unit 3.++}
+Tools change quickly. These rules describe what works today. They may change as the tools change. When the tools change, test any new guidance against the evidence from Unit 3.
 
 \## Before you delegate
-- {--{"author":"AI","timestamp":1787863781973}@@Spend five minutes writing--}{++{"author":"AI","timestamp":1787863781973}@@Write++} your own rough notes {++{"author":"AI","timestamp":1787863781973}@@for five minutes ++}before you {--{"author":"AI","timestamp":1787863781973}@@prompt.--}{++{"author":"AI","timestamp":1787863781973}@@prompt the AI.++} This puts your thinking into the loop first.
-- If the topic is new to you, ask {++{"author":"AI","timestamp":1787863781973}@@the AI ++}for questions, not answers. You still form the answer.
-- Delegate a task. {--{"author":"AI","timestamp":1787863781973}@@Do not delegate --}{++{"author":"AI","timestamp":1787863781973}@@Keep ++}the {--{"author":"AI","timestamp":1787863781973}@@judgement--}{++{"author":"AI","timestamp":1787863781973}@@decision++} about whether the task should be delegated.
+- Write your own rough notes for five minutes before you prompt the AI. This puts your thinking into the loop first.
+- If the topic is new to you, ask the AI for questions, not answers. You still form the answer.
+- Delegate a task. Keep the decision about whether the task should be delegated.
 
 \## While you work with the AI
-- Treat the AI as a sparring partner, not {++{"author":"AI","timestamp":1787863788616}@@as ++}an authority. Ask it to argue against its own answer.
-- Do not let the AI set the frame. In Anthropic's AI Fluency Index (2026), only about 30% of conversations set explicit terms for the {--{"author":"AI","timestamp":1787863788616}@@collaboration; the--}{++{"author":"AI","timestamp":1787863788616}@@collaboration. The++} AI's default set the frame for the rest. [[../articles/claude-academy-anthropic-education-report-the-ai-fluency-index]]
+- Treat the AI as a sparring partner, not as an authority. Ask it to argue against its own answer.
+- Do not let the AI set the frame. In Anthropic's AI Fluency Index (2026), only about 30% of conversations set explicit terms for the collaboration. The AI's default set the frame for the rest. [[../articles/claude-academy-anthropic-education-report-the-ai-fluency-index]]
 
 \## When you evaluate the result
-- Beware of fluency. Polished output is not the same as true {--{"author":"AI","timestamp":1787863792595}@@output, and users --}{++{"author":"AI","timestamp":1787863792595}@@output. Users ++}challenge polished output less than rough output.
+- Beware of fluency. Polished output is not the same as true output. Users challenge polished output less than rough output.
 - Close the chat. Restate the causal logic in your own words. If you cannot explain it, you do not understand it.
-- Verify any substantive claim against an independent {--{"author":"AI","timestamp":1787863792595}@@source:--}{++{"author":"AI","timestamp":1787863792595}@@source. A source can be++} a document, a search result, or a person who knows the domain.
+- Verify any substantive claim against an independent source. A source can be a document, a search result, or a person who knows the domain.
 
 \## Other ways to protect judgement
-- Keep some hard problems for your own process. {--{"author":"AI","timestamp":1787863796992}@@What--}{++{"author":"AI","timestamp":1787863796992}@@If++} you {--{"author":"AI","timestamp":1787863796992}@@can no longer do,--}{++{"author":"AI","timestamp":1787863796992}@@stop doing a task,++} you {--{"author":"AI","timestamp":1787863796992}@@no longer own.--}{++{"author":"AI","timestamp":1787863796992}@@lose the skill.++}
+- Keep some hard problems for your own process. If you stop doing a task, you lose the skill.
 - Keep at least one demanding task fully manual, on purpose.
-- {--{"author":"AI","timestamp":1787863874114}@@Friction is the gym. Industrialisation--}{++{"author":"AI","timestamp":1787863874114}@@Add effort back on purpose. Machines++} removed physical labour, {--{"author":"AI","timestamp":1787863874114}@@and we built--}{++{"author":"AI","timestamp":1787863874114}@@so people went to++} gyms. AI removes mental effort, so{--{"author":"AI","timestamp":1787863874114}@@ we must put the struggle--}{++{"author":"AI","timestamp":1787863874114}@@ add demanding tasks++} back on purpose.
-- Audit {--{"author":"AI","timestamp":1787863796992}@@yourself: review--}{++{"author":"AI","timestamp":1787863796992}@@yourself. Review++} one recent AI conversation and mark where you delegated judgement. Would you take that task back if the tool vanished?
-- Keep the final review human. Read the output. Question it. {--{"author":"AI","timestamp":1787863796992}@@Sometimes reject it.--}{++{"author":"AI","timestamp":1787863796992}@@Reject it when it deserves rejection.++}
+- Add effort back on purpose. Machines removed physical labour, so people went to gyms. AI removes mental effort, so add demanding tasks back on purpose.
+- Audit yourself. Review one recent AI conversation and mark where you delegated judgement. Would you take that task back if the tool vanished?
+- Keep the final review human. Read the output. Question it. Reject it when it deserves rejection.
 
-\## {--{"author":"AI","timestamp":1787863822709}@@Why this matters: the--}{++{"author":"AI","timestamp":1787863822709}@@Tying it back to Bloom's++} taxonomy{--{"author":"AI","timestamp":1787863822709}@@ from Unit 3--}
-In Unit 3 you met Bloom's taxonomy, the {--{"author":"AI","timestamp":1787863847423}@@cognitive --}levels that rank {++{"author":"AI","timestamp":1787863847423}@@cognitive ++}tasks from remembering up to creating. You also met Lee and colleagues' finding: AI use shifts workers from producing work toward verifying and integrating the AI's output.
+\## Tying it back to Bloom's taxonomy
+In Unit 3 you met Bloom's taxonomy, the levels that rank cognitive tasks from remembering up to creating. You also met Lee and colleagues' finding: AI use shifts workers from producing work toward verifying and integrating the AI's output.
 
-The taxonomy {--{"author":"AI","timestamp":1787863847423}@@gives--}{++{"author":"AI","timestamp":1787863847423}@@explains++} that {--{"author":"AI","timestamp":1787863847423}@@finding a shape.--}{++{"author":"AI","timestamp":1787863847423}@@finding.++} The shift is not from hard thinking to easy thinking. It is a change in which levels get used. Producing, analysing, evaluating, and creating are the levels that build a skill. Verifying the AI's output is {--{"author":"AI","timestamp":1787863847423}@@valuable,--}{++{"author":"AI","timestamp":1787863847423}@@useful,++} but it does not build the same skill.
+The taxonomy explains that finding. The shift is not from hard thinking to easy thinking. It is a change in which levels get used. Producing, analysing, evaluating, and creating are the levels that build a skill. Verifying the AI's output is useful, but it does not build the same skill.
 
-{--{"author":"AI","timestamp":1787863847423}@@**The practical consequence**:--}{++{"author":"AI","timestamp":1787863847423}@@Use this rule when you choose what to delegate.++} Keep the generative tasks for yourself. Let {++{"author":"AI","timestamp":1787863847423}@@the ++}AI handle retrieval and {--{"author":"AI","timestamp":1787863847423}@@verification, but do --}{++{"author":"AI","timestamp":1787863847423}@@verification. Do ++}your own analysis, evaluation, and creation. If you always ask {++{"author":"AI","timestamp":1787863847423}@@the ++}AI to "write this for me," you skip the {--{"author":"AI","timestamp":1787863847423}@@struggle--}{++{"author":"AI","timestamp":1787863847423}@@practice++} that builds the skill. If you ask {++{"author":"AI","timestamp":1787863847423}@@the ++}AI to "critique my draft," you practise evaluation while the AI assists.
+Use this rule when you choose what to delegate. Keep the generative tasks for yourself. Let the AI handle retrieval and verification. Do your own analysis, evaluation, and creation. If you always ask the AI to "write this for me," you skip the practice that builds the skill. If you ask the AI to "critique my draft," you practise evaluation while the AI assists.
 
 \## Red flags
 - Delegating something you could not evaluate.
