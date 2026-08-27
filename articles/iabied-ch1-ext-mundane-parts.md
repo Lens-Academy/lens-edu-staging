@@ -7,7 +7,7 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-{++{"author":"Luc's AI","timestamp":1787826247237}@@llm-review:
+llm-review:
   content-sha: "sha256:d4a3b3d933db289c8cb1b0f98c1de5fa77d1251a588af93acf01edbaebc75864"
   date: 2026-08-27
   model: "sonnet"
@@ -16,10 +16,8 @@ tags:
     content-sha: "sha256:f1dbc7235cd9e7d08522e0f9d1511fd4f9403b96de858ebff2f263d34b878e95"
     fetched: 2026-08-27
     kind: "live"
-++}---{--{"author":"Luc's AI","timestamp":1787826247000}@@
-
---}{++{"author":"Luc's AI","timestamp":1787826247000}@@
-++}%%
+---
+%%
 Add discussion note here:
 
 ...
@@ -67,7 +65,7 @@ But that's not how this really works. Human brains are amazing things, but they 
 
 In many cases, we know the underlying biochemistry behind what the brain does. And in all cases, we know the underlying physics of atoms.
 
-In most cases, we don't know the *meaning*, the higher-level patterns that allow the brain to do the work it {--{"author":"Luc's AI","timestamp":1787826246767}@@does*.*[^note-iabied-ftnt42]--}{++{"author":"Luc's AI","timestamp":1787826246767}@@does.[^note-iabied-ftnt42]++} But the overwhelming lesson of the sweep of centuries through human history is that this state of scientific mystery is *temporary*.
+In most cases, we don't know the *meaning*, the higher-level patterns that allow the brain to do the work it does.[^note-iabied-ftnt42] But the overwhelming lesson of the sweep of centuries through human history is that this state of scientific mystery is *temporary*.
 
 If I flip a coin and then don't show you how it landed, your ignorance about the coin is a fact about you, not a fact about the coin. The *coin* is not fundamentally ineffable. Maybe I even glanced at it before hiding it; maybe I know and you don't. A blank map does not correspond to a blank territory.
 
@@ -97,7 +95,7 @@ This observation also undermines the idea that "true" artificial intelligence, i
 
 [1] *landmark discovery:* Some historians argue that the synthesis of urea played a relatively small role, and was only one instance among many, in the path away from vitalism. The real history was probably complex.
 
-[2] *Quoting Kelvin:* Lord Kelvin, "On the Dissipation of Energy: Geology and General Physics," in {--{"author":"Luc's AI","timestamp":1787826246501}@@*Popular**Lectures--}{++{"author":"Luc's AI","timestamp":1787826246501}@@*Popular Lectures++} and Addresses, vol. ii* (London: Macmillan, 1894).
+[2] *Quoting Kelvin:* Lord Kelvin, "On the Dissipation of Energy: Geology and General Physics," in *Popular Lectures and Addresses, vol. ii* (London: Macmillan, 1894).
 
 [3] *sliding fibers:* You can find a depiction of those fibers sliding [on YouTube](https://www.youtube.com/watch?v=Tp9zQHj4JBs).
 
