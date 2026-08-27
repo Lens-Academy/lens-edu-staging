@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-"Unit 3 gave you evidence. Unit 4 gave you a frame and rules for keeping judgement in the loop." This page turns the evidence into rules you can apply today. Each rule rests on one finding you have already met. If a rule feels demanding, that is because the evidence points there.
+{--{"author":"AI","timestamp":1787865088219}@@"Unit 3 gave you evidence. Unit 4 gave you a frame --}{++{"author":"AI","timestamp":1787865088219}@@Earlier units covered the evidence ++}and{--{"author":"AI","timestamp":1787865088219}@@ rules for keeping judgement in --}{++{"author":"AI","timestamp":1787865088219}@@ ++}the {--{"author":"AI","timestamp":1787865088219}@@loop."--}{++{"author":"AI","timestamp":1787865088219}@@guidance.++} This page turns {--{"author":"AI","timestamp":1787865088219}@@the evidence--}{++{"author":"AI","timestamp":1787865088219}@@them++} into rules you can apply {--{"author":"AI","timestamp":1787865088219}@@today. --}{++{"author":"AI","timestamp":1787865088219}@@day to day. ++}Each rule {--{"author":"AI","timestamp":1787865088219}@@rests on--}{++{"author":"AI","timestamp":1787865088219}@@refers to++} one finding you {--{"author":"AI","timestamp":1787865088219}@@have already met. If--}{++{"author":"AI","timestamp":1787865088219}@@already read. Use the rules as++} a {--{"author":"AI","timestamp":1787865088219}@@rule feels demanding, that is because the evidence points there.--}{++{"author":"AI","timestamp":1787865088219}@@starting point. Adjust them to fit your own work.++}
 
 \## Rule 1. Check in proportion to the stakes
 Lee's survey of knowledge workers found that people who trusted the AI reported less critical thinking. The lesson is calibration, not distrust. Before you accept an output, ask three questions:
