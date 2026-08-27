@@ -20,7 +20,7 @@ Some definitions:
 
 - In this article, a **trend** is a measured quantity over time: tallest structure, ship tonnage, transatlantic message speed.
 - A **step** is one new number at a particular time: a single new structure, ship, or communication method.
-- A 
+- A step is a **jump** when it 
 
 The last lens probed your model from the inside: what you personally believe compute buys. This one turns around and asks the outside question: never mind your reasoning, how has technological progress actually arrived, across every trend anyone has measured?
 {>>{"author":"lauren (chrome@what)","timestamp":1787818839908}@@6:20:36 start<<}
