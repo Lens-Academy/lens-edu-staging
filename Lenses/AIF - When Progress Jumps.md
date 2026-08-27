@@ -35,7 +35,7 @@ First let's have you guess the "base rates": how common would you guess jumps ar
 
 1. Consider the history of one technology over time, over the course of 1,000 years. How many developments in that technology would you expect to beat the previous developments' trend by at least 100 years?
 2. Averaged across multiple trends, what percentage of the trend's total progress came in 100-year single-event jumps?
-3. List at least three technologies you
+3. List at least three technologies you'd g
 
 1. Pick one measured technology trend and watch it for 1,000 years. How many 100-year jumps do you expect to see in that time?
 2. Averaged across trends, what share of a trend's TOTAL progress arrived in such jumps?
