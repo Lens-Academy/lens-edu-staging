@@ -2,7 +2,7 @@
 id: 'c32e8372-a7c2-4140-9a8e-bb6641be4f03'
 title: "Choosing What to Delegate to AI"
 tldr: "Keep judgement in the loop at three stages: rough notes before you prompt, sparring while you work, and your own restated logic plus independent verification after. What you can no longer do, you no longer own."
-summary_for_tutor: "Practical guidance lens for Unit 4 of 'Thinking about Thinking'. Authored content: the risk of AI interactions appears at three stages (before you delegate, while you work with the {--{"author":"AI","timestamp":1787855273524}@@output,--}{++{"author":"AI","timestamp":1787855273524}@@task,++} when you evaluate the result), with rules for each; plus other ways to protect judgement and a short red-flags list. {++{"author":"AI","timestamp":1787855273524}@@It refers back to Bloom's taxonomy, which the learner met in Unit 3, and to Lee's finding: producing, analysing, evaluating, and creating are the levels that build a skill, while verifying does not. ++}Notes that tools change fast so the guidance is time-sensitive. Runs Recall, Processing, and Learning Question phases; the wedge is a colleague who routes every task through AI for speed."
+summary_for_tutor: "Practical guidance lens for Unit 4 of 'Thinking about Thinking'. Authored content: the risk of AI interactions appears at three stages (before you delegate, while you work with the task, when you evaluate the result), with rules for each; plus other ways to protect judgement and a short red-flags list. It refers back to Bloom's taxonomy, which the learner met in Unit 3, and to Lee's finding: producing, analysing, evaluating, and creating are the levels that build a skill, while verifying does not. Notes that tools change fast so the guidance is time-sensitive. Runs Recall, Processing, and Learning Question phases; the wedge is a colleague who routes every task through AI for speed."
 tags:
   - wip
 ---
@@ -34,22 +34,12 @@ Tools change fast. This unit describes what works now, not forever. Revisit the 
 - Audit yourself: review one recent AI conversation and mark where you delegated judgement. Would you take that task back if the tool vanished?
 - Keep the final review human. Read the output. Question it. Sometimes reject it.
 
-\## Why this matters: {--{"author":"AI","timestamp":1787855227657}@@Bloom's--}{++{"author":"AI","timestamp":1787855227657}@@the++} taxonomy{++{"author":"AI","timestamp":1787855227657}@@ from Unit 3++}
-In Unit 3 you {--{"author":"AI","timestamp":1787855227657}@@read about Lee and colleagues' finding: AI use shifts workers from generative tasks to reviewer tasks. This is a move "down"--}{++{"author":"AI","timestamp":1787855227657}@@met++} Bloom's {--{"author":"AI","timestamp":1787855227657}@@taxonomy of--}{++{"author":"AI","timestamp":1787855227657}@@taxonomy, the++} cognitive {--{"author":"AI","timestamp":1787855227657}@@skills.
+\## Why this matters: the taxonomy from Unit 3
+In Unit 3 you met Bloom's taxonomy, the cognitive levels that rank tasks from remembering up to creating. You also met Lee and colleagues' finding: AI use shifts workers from producing work toward verifying and integrating the AI's output.
 
-Bloom's taxonomy ranks cognitive--}{++{"author":"AI","timestamp":1787855227657}@@levels that rank++} tasks from {--{"author":"AI","timestamp":1787855227657}@@lower--}{++{"author":"AI","timestamp":1787855227657}@@remembering up++} to {--{"author":"AI","timestamp":1787855227657}@@higher order:
-- **Remembering**: recalling facts, definitions, basic concepts
-- **Understanding**: explaining ideas, summarising, classifying
-- **Applying**: using information in new situations, solving problems
-- **Analysing**: breaking information into parts,--}{++{"author":"AI","timestamp":1787855227657}@@creating. You also met Lee and colleagues' finding: AI use shifts workers from producing work toward verifying and integrating the AI's output.
+The taxonomy gives that finding a shape. The shift is not from hard thinking to easy thinking. It is a change in which levels get used. Producing, analysing, evaluating, and creating are the levels that build a skill. Verifying the AI's output is valuable, but it does not build the same skill.
 
-The taxonomy gives that++} finding {--{"author":"AI","timestamp":1787855227657}@@patterns, distinguishing relevant from irrelevant
-- **Evaluating**: making judgments, critiquing, defending positions
-- **Creating**: generating new ideas, designing, composing, constructing
-
-Lee's study found AI moves workers away from generative tasks—applying, analysing, evaluating, creating—toward reviewer tasks like verifying and integrating. These are important,--}{++{"author":"AI","timestamp":1787855227657}@@a shape. The shift is not from hard thinking to easy thinking. It is a change in which levels get used. Producing, analysing, evaluating, and creating are the levels that build a skill. Verifying the AI's output is valuable,++} but {--{"author":"AI","timestamp":1787855227657}@@they do--}{++{"author":"AI","timestamp":1787855227657}@@it does++} not build the same {--{"author":"AI","timestamp":1787855227657}@@skills.--}{++{"author":"AI","timestamp":1787855227657}@@skill.++}
-
-**The practical {--{"author":"AI","timestamp":1787855227657}@@implication**:--}{++{"author":"AI","timestamp":1787855227657}@@consequence**:++} Keep {++{"author":"AI","timestamp":1787855227657}@@the ++}generative tasks for yourself. Let AI handle retrieval and verification, but do your own analysis, evaluation, and creation. If you always ask AI to "write this for me," you skip the struggle that builds the skill. If you ask AI to "critique my draft," you {--{"author":"AI","timestamp":1787855227657}@@practice--}{++{"author":"AI","timestamp":1787855227657}@@practise++} evaluation while the AI assists.
+**The practical consequence**: Keep the generative tasks for yourself. Let AI handle retrieval and verification, but do your own analysis, evaluation, and creation. If you always ask AI to "write this for me," you skip the struggle that builds the skill. If you ask AI to "critique my draft," you practise evaluation while the AI assists.
 
 \## Red flags
 - Delegating something you could not evaluate.
