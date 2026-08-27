@@ -32,7 +32,7 @@ Their approach has three parts.
 content::
 \## What have they found on AIs 
 
-Two answers, before you open the reading.
+
 
 1. Think of the longest job you would trust a current AI agent to finish on its own, with nobody checking its work, about half the time. Give it in minutes or hours of human professional time. One number.
 2. Name the one thing that would have to change for your number to be ten times larger. Not a list. The one thing you think is actually holding it.
