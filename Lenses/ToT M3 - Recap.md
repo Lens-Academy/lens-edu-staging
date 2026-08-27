@@ -13,10 +13,17 @@ You started {--{"author":"AI","timestamp":1787860403585}@@with --}{++{"author":"
 
 #### Question
 content::
-\## Your verdict
-A colleague says: "There is no serious control problem as long as humans can still switch the AI off."
+\## Your verdict{--{"author":"AI","timestamp":1787860418837}@@
+--}{++{"author":"AI","timestamp":1787860418837}@@
 
-Give a calibrated response. Use at least one study from this unit. Distinguish evidence from extrapolation. Name one condition that would raise your concern, and one that would lower it.
+In the opening lens you drew a line between "using the AI well" and "handing over control". Now redraw it, as a rule you would actually apply. ++}A colleague {--{"author":"AI","timestamp":1787860418837}@@says:--}{++{"author":"AI","timestamp":1787860418837}@@has argued the line does not matter:++} "There is no{--{"author":"AI","timestamp":1787860418837}@@ serious control --}{++{"author":"AI","timestamp":1787860418837}@@ ++}problem as long as {--{"author":"AI","timestamp":1787860418837}@@humans--}{++{"author":"AI","timestamp":1787860418837}@@we++} can {--{"author":"AI","timestamp":1787860418837}@@still --}switch the AI off."
+
+{--{"author":"AI","timestamp":1787860418837}@@Give--}{++{"author":"AI","timestamp":1787860418837}@@Write a short rule with three parts:
+1. Your rule. When would you let an AI make a decision on its own, and when would you keep++} a {--{"author":"AI","timestamp":1787860418837}@@calibrated response. Use at least--}{++{"author":"AI","timestamp":1787860418837}@@person in charge? Be concrete enough to apply.
+2. Your grounds. Name++} one {--{"author":"AI","timestamp":1787860418837}@@study--}{++{"author":"AI","timestamp":1787860418837}@@finding++} from this {--{"author":"AI","timestamp":1787860418837}@@unit. Distinguish--}{++{"author":"AI","timestamp":1787860418837}@@unit that supports your rule and one that challenges it. Mark each one as++} evidence {--{"author":"AI","timestamp":1787860418837}@@from extrapolation. Name one condition that--}{++{"author":"AI","timestamp":1787860418837}@@or argument.
+3. Your open question. What single result, if it appeared next year,++} would {--{"author":"AI","timestamp":1787860418837}@@raise--}{++{"author":"AI","timestamp":1787860418837}@@move++} your {--{"author":"AI","timestamp":1787860418837}@@concern,--}{++{"author":"AI","timestamp":1787860418837}@@line,++} and {--{"author":"AI","timestamp":1787860418837}@@one that would lower it.--}{++{"author":"AI","timestamp":1787860418837}@@in which direction?
+
+Your rule must say clearly where you agree with the colleague and where you do not.++}
 
 assessment-instructions:: Final assessment of Unit 3 of "Thinking about Thinking". The learner must defend a nuanced conclusion, not repeat "AI inevitably destroys thinking" or "there is no risk while humans retain formal authority."
 
