@@ -2,7 +2,9 @@
 id: 'c32e8372-a7c2-4140-9a8e-bb6641be4f03'
 title: "Choosing What to Delegate to AI"
 tldr: "Keep judgement in the loop at three stages: write your own rough notes before you prompt, spar while you work, and restate the logic in your own words and verify the output after. If you stop doing a task, you lose the skill."
-summary_for_tutor: "Practical guidance lens for Unit 4 of 'Thinking about Thinking'. Authored content: the risk of AI interactions appears at three stages (before you delegate, while you work with the task, when you evaluate the result), with rules for each; plus other ways to protect judgement and a short red-flags list. It refers back to Bloom's taxonomy, which the learner met in Unit 3, and to Lee's finding: producing, analysing, evaluating, and creating are the levels that build a skill, while verifying does not. Notes that tools change fast so the guidance is time-sensitive. Runs Recall, Processing, and Learning Question phases; the wedge is a colleague who routes every task through AI for speed."
+summary_for_tutor: "Practical guidance lens for Unit 4 of 'Thinking about Thinking'. Authored content: the risk of AI interactions appears at three stages (before you delegate, while you work with the task, when you evaluate the result), with rules for each; plus other ways to protect judgement and a short red-flags list. It refers back to Bloom's taxonomy, which the learner met in Unit 3, and to Lee's finding: producing, analysing, evaluating, and creating are the levels that build a skill, while verifying does not. Notes that tools change fast so the guidance is time-sensitive. Runs Recall, Processing, and Learning Question phases; the wedge is a colleague who routes every task through AI for speed."{++{"author":"AI","timestamp":1787866441729}@@
+reading_minutes: 7
+tutor_minutes: 8++}
 tags:
   - wip
 ---

@@ -1,6 +1,7 @@
 ---
 id: 'dacc8fe6-e8e9-4ccd-bf59-4d5b757925bd'
-title: "Pre-Reading Question: Where Did the Judgement Sit?"
+title: "Pre-Reading Question: Where Did the Judgement Sit?"{++{"author":"AI","timestamp":1787866438771}@@
+duration_minutes: 4++}
 tldr: "Before reading the practical rules for using AI: recall a recent AI conversation and put where the judgement sat on the record."
 summary_for_tutor: "Priming question before the Unit 4 guidance lens 'Choosing What to Delegate' in 'Thinking about Thinking'. The student recalls one task they handed to an AI this week and says where the judgement sat: with them, with the AI, or handed over without inspection, plus what made them trust or doubt it. Minimal brief: acknowledge, do not preview the three-stage frame or the unit's rules, send them to the reading."
 tags:
