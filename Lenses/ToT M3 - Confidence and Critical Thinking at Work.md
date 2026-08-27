@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-Let's take a Lee and colleagues at Microsoft Research (2025) asked 319 people who use AI at work to describe what actually happens. Each person shared real examples of tasks where they used a generative-AI tool on the job. In total, the survey collected 936 examples.
+Let's take a look at a study, this time in the workplace. Lee and colleagues at Microsoft Research (2025) asked 319 people who use AI at work to describe what actually happens. Each person shared real examples of tasks where they used a generative-AI tool on the job. In total, the survey collected 936 examples.
 
 For each task, people rated three things on a five-point scale:
 - How confident they were in their own ability to do the task without the AI.
