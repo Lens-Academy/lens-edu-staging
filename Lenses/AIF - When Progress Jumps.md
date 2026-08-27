@@ -12,6 +12,7 @@ authors:
 content::
 \## At what rate does capability arrive?
 
+{>>{"author":"lauren (chrome@what)","timestamp":1787818839908}@@6:20:36 start<<}
 The previous article reasoned from an inside view: what do the mechanisms of compute give you.
 
 Now let's talk about an outside view: how quickly have technologies become powerful in the past?
@@ -24,8 +25,6 @@ Some definitions for how this article uses words:
 
 (They don't count speedups where there are multiple events of rapidly increasing size unless one of those individual events beats the trend of the events right before it.)
 
-
-{>>{"author":"lauren (chrome@what)","timestamp":1787818839908}@@6:20:36 start<<}
 
 #### Question
 content::
