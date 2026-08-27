@@ -81,16 +81,16 @@ Fields per segment:
 - `#### Chat`: required `instructions`. Optional: `hidePreviousContentFromUser`, `hidePreviousContentFromTutor`.
 - `#### Article`: none required. Optional: `source`, `from`, `to`, `optional`.
 - `#### Video`: none required. Optional: `source`, `from`, `to`, `optional`.
-- `#### Question: Open`: required `id`, `content`. Optional: `assessment-instructions`, `feedback-instructions`, `max-time`, `max-chars`, `placeholder`, `enforce-voice`, `optional`.
-- `#### Question: Rating`: required `id`, `content`. Optional: `scale` (2 to 10, default 5), `low-label`, `high-label`, `feedback-instructions`, `optional`. Never graded.
-- `#### Question: Choice`: required `id`, `content`, `options` (list; `- [x]` marks a correct option and makes it graded). Optional: `multi`, `shuffle`, `feedback-instructions`, `optional`.
+- {--{"author":"Elias's AI","timestamp":1787850843312}@@`#### Question: Open`: required `id`, `content`. Optional: `assessment-instructions`, `feedback-instructions`, `max-time`, `max-chars`, `placeholder`, `enforce-voice`, `optional`.
+- `#### Question: Rating`: required `id`, `content`. Optional: `scale` (2 --}{++{"author":"Elias's AI","timestamp":1787850843312}@@Question segments: use [[../Lenses/Response ++}to {--{"author":"Elias's AI","timestamp":1787850843312}@@10, default 5), `low-label`, `high-label`, `feedback-instructions`, `optional`. Never graded.
+- `#### Question: Choice`: required `id`, `content`, `options` (list; `- [x]` marks a correct option--}{++{"author":"Elias's AI","timestamp":1787850843312}@@question segments]] as the single reference for types, fields, defaults, syntax,++} and {--{"author":"Elias's AI","timestamp":1787850843312}@@makes it graded). Optional: `multi`, `shuffle`, `feedback-instructions`, `optional`.
 - `#### Question: FillBlank`: required `id`, `content` with `{{expected}}`, `{{alt1|alt2}}`, `{{blank}}`, `{{number}}`, or `{{number 42}}` blanks. Optional: `assessment-instructions`, `feedback-instructions`, `optional`.
-- `#### Question: Ranking`: required `id`, `content`, `items` (list in intended order, shown shuffled). Optional: `assessment-instructions` (presence = graded), `feedback-instructions`, `optional`.
+- `#### Question: Ranking`: required `id`, `content`, `items` (list in intended order, shown shuffled). Optional: `assessment-instructions` (presence = graded), `feedback-instructions`, `optional`.--}{++{"author":"Elias's AI","timestamp":1787850843312}@@grading behavior.++}
 - `#### Roleplay`: required `id`, `content`, `ai-instructions`. Optional: `opening-message`, `assessment-instructions`, `user-customizable`, `feedback`, `optional`.
 
-Defaults: `optional` false (every response segment must be answered before the lens can be completed); no tutor feedback unless `feedback-instructions::` is present; `feedback` false on roleplays; `hidePreviousContent*` false.
+{--{"author":"Elias's AI","timestamp":1787850843312}@@Defaults: `optional` false (every response segment must be answered before the lens can be completed); no tutor feedback unless `feedback-instructions::` --}{++{"author":"Elias's AI","timestamp":1787850843312}@@Non-question defaults: `feedback` is false on roleplays; `hidePreviousContent*` ++}is{--{"author":"Elias's AI","timestamp":1787850843312}@@ present; `feedback` --}{++{"author":"Elias's AI","timestamp":1787850843312}@@ ++}false on {--{"author":"Elias's AI","timestamp":1787850843312}@@roleplays; `hidePreviousContent*` false.--}{++{"author":"Elias's AI","timestamp":1787850843312}@@chats.++}
 
-A bare `#### Question` (no subtype, no `id::`) is the legacy form. Do not write it in new or edited content; convert it to `#### Question: Open` with a fresh `id::` when you touch a lens. The full field reference with live examples is [[../Lenses/Response to question segments]].
+A bare `#### Question`{--{"author":"Elias's AI","timestamp":1787850843312}@@ (no subtype, no `id::`) --}{++{"author":"Elias's AI","timestamp":1787850843312}@@ ++}is{--{"author":"Elias's AI","timestamp":1787850843312}@@ the--} legacy {--{"author":"Elias's AI","timestamp":1787850843312}@@form.--}{++{"author":"Elias's AI","timestamp":1787850843312}@@syntax.++} Do not write it in new or edited content; convert it to `#### Question: Open` with a fresh `id::` when you touch a lens.{--{"author":"Elias's AI","timestamp":1787850843312}@@ The full field reference with live examples is [[../Lenses/Response to question segments]].--}
 
 **Text**: prose shown to the learner. `content::` is markdown; escape any headings (`\##`).
 
