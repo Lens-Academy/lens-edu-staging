@@ -22,7 +22,9 @@ The studies in this unit are not all the same kind of claim. Read each at the le
 \## What this means for the unit
 The evidence is genuinely mixed, and that is the honest answer. A randomised trial shows law students' analysis improved with early AI use. An observational study shows endoscopists' detection fell after AI use. Surveys link AI confidence to less reported critical thinking, but they cannot show cause. A philosophical argument connects everyday offloading to lost societal influence, but no study measures that leap.
 
-Mixed evidence is compatible with conditional effects: AI helps or harms depending on the task, the user, the feedback environment, and the chance to verify. It is not a vote count for or against AI.
+Mixed evidence is compatible with conditional effects: AI helps or harms depending on the task, the user, the feedback environment, and the chance to verify. It is not a vote count for or against AI.{++{"author":"AI","timestamp":1787852932856}@@
+
+The skeptical case you just read does not cancel this. It narrows the concern to specific patterns of use, not to AI in general.++}
 
 #### Text
 content::
