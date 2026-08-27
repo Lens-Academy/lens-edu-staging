@@ -30,7 +30,7 @@ Their approach has three parts.
 
 #### Question
 content::
-\## What have they found on AIs up to 
+\## What have they found on AIs up to 2025
 
 Two answers, before you open the reading.
 
