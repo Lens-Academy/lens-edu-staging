@@ -2,7 +2,7 @@
 id: '9400a61e-e599-40ab-83d1-419501bbf8ba'
 title: "How Strong Is the Evidence?"
 duration_minutes: 10
-tldr: "Studies answer different questions. {--{"author":"AI","timestamp":1787862148887}@@A controlled--}{++{"author":"AI","timestamp":1787862148887}@@An++} experiment, a field comparison, a survey, and an argument each carry different weight. Mixed evidence points to {--{"author":"AI","timestamp":1787862148887}@@a simple--}{++{"author":"AI","timestamp":1787862148887}@@one++} lesson: the effect depends on the situation."
+tldr: "Studies answer different questions. An experiment, a field comparison, a survey, and an argument each carry different weight. Mixed evidence points to one lesson: the effect depends on the situation."
 summary_for_tutor: "Core lens 7 of Unit 3 of 'Thinking about Thinking'. A friendly, actionable guide to weighting the evidence: different study types answer different questions. Controlled experiments; field or quasi-experimental comparisons; cross-sectional surveys and interviews; self-reported behaviour; conceptual extrapolation. Uses the studies the learner has already met (Prather observation, Bednar randomised, Budzyń field outcome, Lee and Gerlich self-reports, Kulveit extrapolation) and gives a concrete habit: when you meet a claim, ask which kind of study it comes from. Notes that the mixed evidence points to a conditional message: the effect depends on the situation. Follows the skeptical lens and ends on the same narrowing point. The learning question asks the learner to write down what the evidence supports now, what is plausible but unproven, and what single result would change their mind. Links to optional Gerlich, Seifer, and Gutoreva lenses via cards. About 10 minutes."
 tags:
   - wip
