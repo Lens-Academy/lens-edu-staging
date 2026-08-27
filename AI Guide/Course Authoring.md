@@ -38,7 +38,7 @@ Writing an impressive-looking course is much easier than writing a correct one.
 
 That means care is not the mechanism. You can be maximally careful and fluently wrong all day. What works is a workflow whose steps make it hard to end up wrong, so correctness falls out of the operations rather than out of vigilance. The steps below are ordered by how much they caught per minute spent, measured on a real three-unit build.
 
-**Run the validator early, not as a final gate.** `validate_content` with `accept_drafts: true` finds schema errors no amount of reading finds: `domain:` must be a Domains wikilink or `none`, `stage:` must be lowercase, a `tldr` whose value starts with a quote character breaks YAML, ids must not be double-quoted. A course with 22 of these reads as completely finished.
+**Run the validator early, not as a final gate.** `validate_content` with `accept_drafts: true` finds schema errors no amount of reading finds.
 
 **Diff the course against what was advertised.** Read the public landing copy and tabulate each promise against the unit that delivers it. Internal review only ever compares the artifact to itself, so this is the one check that catches a course quietly not being the course that was sold.
 
