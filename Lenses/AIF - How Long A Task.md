@@ -18,7 +18,7 @@ Let's assume we want to measure how close AI is to being able to do that. Later 
 
 By far the{>>{"author":"lauren (chrome@what)","timestamp":1787823523443}@@7:38:41<<} most common type of interaction with AIs is to describe a task and get a mostly-self-contained result. Among those tasks, a common type of task is making or changing software. Many of the tasks one would do as part of making software have a pretty clear success or fail criteria. So we can ask how big of a programming task the AI can do.
 
-METR is an independent organisation that runs those measurements. They test models that labs give them access to, and they publish their method.
+METR is an independent organisation that runs those measurements. They test models that labs give them access to, and they publish their results.
 
 That method has three parts.
 
