@@ -11,10 +11,23 @@ tags:
 
 #### Text
 content::
-Lee and colleagues at Microsoft Research (2025) surveyed 319 knowledge workers across 936 real examples of generative-AI use. Two patterns stood out:
-- The more confident a worker was in the AI, the less critical thinking they reported using.
-- The more confident a worker was in their own ability, the more critical thinking they reported using.
-The study also found that AI shifted the kind of work people did: more verification, integration, and stewardship, and less initial production. Importantly, Lee reports these as shifts *within* each level of the work, not as a downgrade to easier thinking. The point is that AI changes where the cognitive effort sits, and that confidence decides how much of your own judgement you keep in the loop.
+Lee and colleagues at Microsoft Research (2025) {--{"author":"AI","timestamp":1787827159622}@@surveyed--}{++{"author":"AI","timestamp":1787827159622}@@asked++} 319 {--{"author":"AI","timestamp":1787827159622}@@knowledge workers across 936--}{++{"author":"AI","timestamp":1787827159622}@@people who use AI at work to describe what actually happens. Each person shared++} real examples of {++{"author":"AI","timestamp":1787827159622}@@tasks where they used a ++}generative-AI {--{"author":"AI","timestamp":1787827159622}@@use. Two patterns stood out:--}{++{"author":"AI","timestamp":1787827159622}@@tool on the job. In total, the survey collected 936 examples.
+
+For each task, people rated three things on a five-point scale:++}
+- {--{"author":"AI","timestamp":1787827159622}@@The more confident a worker was--}{++{"author":"AI","timestamp":1787827159622}@@How confident they were in their own ability to do the task without the AI.
+- How confident they were++} in the {--{"author":"AI","timestamp":1787827159622}@@AI, --}{++{"author":"AI","timestamp":1787827159622}@@AI's ability to do ++}the {--{"author":"AI","timestamp":1787827159622}@@less--}{++{"author":"AI","timestamp":1787827159622}@@task.
+- How much++} critical thinking they {--{"author":"AI","timestamp":1787827159622}@@reported using.--}{++{"author":"AI","timestamp":1787827159622}@@actually did on the task.
+
+The results lined up cleanly:++}
+- The more {--{"author":"AI","timestamp":1787827159622}@@confident a worker was in --}{++{"author":"AI","timestamp":1787827159622}@@people trusted the AI, the less critical thinking they reported.
+- The more people trusted ++}their own ability, the more critical thinking they {--{"author":"AI","timestamp":1787827159622}@@reported using.
+--}{++{"author":"AI","timestamp":1787827159622}@@reported.
+
+You have probably seen this pattern in real colleagues. People who trust the AI to "know best" tend to skim the output and send it on. People who trust their own judgement tend to read, question, and revise.
+
+Two cautions before you take this too far. First, this is a survey. It measures what people say they do, not what they actually do. Second, it shows an association, not a cause. It does not prove that trusting the AI makes people think less, but the two clearly go together.
+
+++}The study also found that AI {--{"author":"AI","timestamp":1787827159622}@@shifted--}{++{"author":"AI","timestamp":1787827159622}@@changed where++} the {--{"author":"AI","timestamp":1787827159622}@@kind of work people did: more verification, integration,--}{++{"author":"AI","timestamp":1787827159622}@@effort went. People did less of the original producing++} and {--{"author":"AI","timestamp":1787827159622}@@stewardship,--}{++{"author":"AI","timestamp":1787827159622}@@more verifying, integrating,++} and {--{"author":"AI","timestamp":1787827159622}@@less initial production. Importantly,--}{++{"author":"AI","timestamp":1787827159622}@@looking after the AI's output.++} Lee reports these as shifts {--{"author":"AI","timestamp":1787827159622}@@*within*--}{++{"author":"AI","timestamp":1787827159622}@@within++} each level of the work, not {--{"author":"AI","timestamp":1787827159622}@@as --}a {--{"author":"AI","timestamp":1787827159622}@@downgrade--}{++{"author":"AI","timestamp":1787827159622}@@slide++} to easier thinking. The {--{"author":"AI","timestamp":1787827159622}@@point is that AI changes where the cognitive effort sits, and that confidence decides how much of your own judgement--}{++{"author":"AI","timestamp":1787827159622}@@real lesson is calibration: checking should track how much the task matters, how well you know the area, and whether++} you {--{"author":"AI","timestamp":1787827159622}@@keep in--}{++{"author":"AI","timestamp":1787827159622}@@can verify++} the {--{"author":"AI","timestamp":1787827159622}@@loop.--}{++{"author":"AI","timestamp":1787827159622}@@answer.++}
 
 #### Question
 content::
