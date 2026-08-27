@@ -11,7 +11,6 @@ authors:
 #### Text
 content::
 \## At what rate does capability arrive?
-
 {>>{"author":"lauren (chrome@what)","timestamp":1787818839908}@@6:20:36 start<<}
 The previous article reasoned from an inside view: what do the mechanisms of compute give you.
 
