@@ -107,7 +107,7 @@ THE STANDARD CONFUSION, and the main thing to watch for: mixing the progress-wei
 
 The 38%-versus-14% question has NO single right answer. What earns the pass is conditioning: "if AI is a discontinuity-prone trend, then the 38% figure is the relevant one, and here is why I do or don't think it is." A student who picks one number and defends the choice passes; a student who picks one with no conditioning does not yet.
 
-However, they get bonus points for using bayesian reasoning (which has not been introduced)
+However, they get bonus points for using bayesian reasoning (which has not been introduced, )
 
 Maximum 3 tutor turns. Keep an internal turn counter.
 
