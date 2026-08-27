@@ -20,7 +20,7 @@ By far the{>>{"author":"lauren (chrome@what)","timestamp":1787823523443}@@7:38:4
 
 METR is an independent organisation that runs those measurements. They test models that labs give them access to, and they publish their results.
 
-Considering what the effects on the ali
+Considering what the effects on the alignment of METR is, for now, left as an exercis
 
 That method has three parts.
 
