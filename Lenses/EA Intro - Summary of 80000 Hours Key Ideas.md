@@ -8,4 +8,4 @@ tags:
 ---
 
 #### Article
-source:: [[../articles/80k-summary-of-key-ideas]]
+source:: [[../articles/80k-summary-of-key-ideas-old-before-reimport-2026-08-28]]

@@ -8,4 +8,4 @@ tags:
 ---
 
 #### Article
-source:: [[../articles/80k-preventing-catastrophic-pandemics]]
+source:: [[../articles/80k-preventing-catastrophic-pandemics-old-before-reimport-2026-08-28]]
