@@ -8,4 +8,4 @@ tags:
 ---
 
 #### Article
-source:: [[../articles/piper-on-fringe-ideas]]
+source:: [[../articles/piper-on-fringe-ideas-old-before-reimport-2026-08-28]]
