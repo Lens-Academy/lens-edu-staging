@@ -9,12 +9,12 @@ tags:
   - clippings
 llm-review:
   content-sha: "sha256:d4a3b3d933db289c8cb1b0f98c1de5fa77d1251a588af93acf01edbaebc75864"
-  date: 2026-08-27
+  date: 2026-08-28
   model: "sonnet"
-  version: "article-qc-v1"
+  version: "article-qc-v1.1"
   source:
-    content-sha: "sha256:f1dbc7235cd9e7d08522e0f9d1511fd4f9403b96de858ebff2f263d34b878e95"
-    fetched: 2026-08-27
+    content-sha: "sha256:b453e8c430ab9947d930c95ec0223f57d34e79591beaf6b98150edb33b991511"
+    fetched: 2026-08-28
     kind: "live"
 ---
 %%
