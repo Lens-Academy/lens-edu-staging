@@ -10,8 +10,14 @@ accessed: 2026-07-09
 description: "TL;DR: •  * I think many of the marginal hires at larger organizations doing AI safety technical or policy work right now (including e.g. Apollo, Red…"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-28
+  model: "gpt-5.6-terra"
+  version: "article-qc-v1.1"
+  source:
+    fetched: 2026-08-28
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -28,7 +34,7 @@ TL;DR:
 
 _Cross-posted from_ [_Multiplier_](https://multipliercg.substack.com/p/the-case-for-ai-safety-capacity-building)
 
-I work on the [capacity-building team](https://coefficientgiving.org/funds/navigating-transformative-ai/funding-for-work-that-builds-capacity-to-address-risks-from-transformative-ai/) on the Global Catastrophic Risks-half of Coefficient Giving (formerly known as Open Philanthropy). Our remit is, roughly, to increase the amount of talent aiming to prevent unprecedented, globally catastrophic events. These days, we’re mostly focused on AI, and we’ve funded a number of projects and grantees that readers of this post might be familiar with– including MATS, BlueDot Impact, Constellation, 80,000 Hours, CEA, the Curve, [FAR.AI](http://far.ai/)’s events, university groups, and many other workshops and projects.
+I work on the [capacity-building team](https://coefficientgiving.org/funds/navigating-transformative-ai/funding-for-work-that-builds-capacity-to-address-risks-from-transformative-ai/) on the Global Catastrophic Risks-half of Coefficient Giving (formerly known as Open Philanthropy). Our remit is, roughly, to increase the amount of talent aiming to prevent unprecedented, globally catastrophic events. These days, we’re mostly focused on AI, and we’ve funded a number of projects and grantees that readers of this post might be familiar with– including MATS, BlueDot Impact, Constellation, 80,000 Hours, CEA, the Curve, {--{"author":"Luc's AI","timestamp":1787918819593}@@[FAR.AI](http://far.ai/)’s--}{++{"author":"Luc's AI","timestamp":1787918819593}@@[FAR.AI](http://far.ai)’s++} events, university groups, and many other workshops and projects.
 
 The post aims to make the case that broadly, capacity-building work (including on AI risk) has been and continues to be extremely impactful, and to encourage people to consider pursuing relevant projects and careers.
 
@@ -128,7 +134,7 @@ Max got it into his head in high school that human-level AI was coming during hi
 
 **Claude’s summary:**
 
-Rachel got into effective altruism in high school through friends, and started a group at her university. She spent some time interning running retreats and ended-up helping with Future Forum, a futurism conference that required a last-minute venue switch. She took a semester off to study AI safety, but decided she wasn't interested in research, and did web dev for a while. After running Manifest 2024, she started The Curve, and is now working on other field-building projects.
+Rachel got into effective altruism in high school through friends, and started a group at her university. She spent some time interning running retreats and {--{"author":"Luc's AI","timestamp":1787918819366}@@ended-up--}{++{"author":"Luc's AI","timestamp":1787918819366}@@ended up++} helping with Future Forum, a futurism conference that required a last-minute venue switch. She took a semester off to study AI safety, but decided she wasn't interested in research, and did web dev for a while. After running Manifest 2024, she started The Curve, and is now working on other field-building projects.
 
 **Rachel on what was most important:**
 
@@ -199,7 +205,7 @@ Aric on what was most important:
 
 **Claude’s summary:**
 
-Ryan read HPMOR and LessWrong in high school, but he didn't anticipate near-term AGI until rediscovering the idea through effective altruism around 2020. He co-organized the effective altruism group at the University of Queensland during his physics PhD, where his interest in catastrophic risk evolved from climate change activism to nuclear winter modeling to AI risk after reading The Precipice. He completed the first AI Safety Fundamentals course, applied unsuccessfully to FHI and CLR, then did the SERI MATS pilot program. He attended Icecone \[Asya note: this was a AI-risk-focused workshop run in 2022\] in Berkeley, where he met Holden Karnofsky, Ajeya Cotra, Buck Shlegeris, and many future colleagues. While completing the MATS research phase with John Wentworth as his mentor, he sent the co-organizer a document explaining how he would improve the program and got invited to join the organizing team. He's co-led MATS with Christian Smith since late 2022.
+Ryan read HPMOR and LessWrong in high school, but he didn't anticipate near-term AGI until rediscovering the idea through effective altruism around 2020. He co-organized the effective altruism group at the University of Queensland during his physics PhD, where his interest in catastrophic risk evolved from climate change activism to nuclear winter modeling to AI risk after reading The Precipice. He completed the first AI Safety Fundamentals course, applied unsuccessfully to FHI and CLR, then did the SERI MATS pilot program. He attended Icecone \[Asya note: this was an AI-risk-focused workshop run in 2022\] in Berkeley, where he met Holden Karnofsky, Ajeya Cotra, Buck Shlegeris, and many future colleagues. While completing the MATS research phase with John Wentworth as his mentor, he sent the co-organizer a document explaining how he would improve the program and got invited to join the organizing team. He's co-led MATS with Christian Smith since late 2022.
 
 **What Ryan says was most significant (in order of importance):**
 
