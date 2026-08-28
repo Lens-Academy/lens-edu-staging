@@ -1,10 +1,16 @@
 ---
-title: "Four Background Claims - Machine Intelligence Research Institute"
+title: "Four Background Claims"
 author: "Nate Soares"
 published: 2015-07-24
 source_url: https://intelligence.org/2015/07/24/four-background-claims/
+llm-review:
+  date: 2026-08-28
+  model: "gpt-5.6-terra"
+  version: "article-qc-v1.1"
+  source:
+    fetched: 2026-08-28
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -86,7 +92,7 @@ The AI system is a physical system, and somewhere inside it, it's constructing p
 
 Regardless of their intelligence level, and regardless of your intentions, computers do _exactly_ what you programmed them to do. If you program an extremely intelligent machine to execute plans that it predicts lead to futures where cancer is cured, then it may be that the shortest path it can find to a cancer-free future entails kidnapping humans for experimentation (and resisting your attempts to alter it, as those would slow it down).
 
-There isn't any spark of compassion that automatically imbues computers with respect for other sentients once they crosses a certain capability threshold. If you want compassion, you have to program it in.
+There isn't any spark of compassion that automatically imbues computers with respect for other sentients once they {--{"author":"Luc's AI","timestamp":1787919067582}@@crosses--}{++{"author":"Luc's AI","timestamp":1787919067582}@@cross++} a certain capability threshold. If you want compassion, you have to program it in.
 
 **Why this claim matters:** A lot of the world's largest problems would be much easier to solve with superintelligent assistance - but attaining those benefits requires that we do more than just improve the capabilities of AI systems. You only get a system that does what you intended if you know how to program it to take your intentions into account, and execute plans that fulfill them.
 
