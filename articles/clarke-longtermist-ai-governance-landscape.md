@@ -170,31 +170,31 @@ These ideas vary on a spectrum between more targeted (e.g. not integrating AI in
   - For corporate policy: PAI
 - Implementation:
   - Of government policy: people in various civil services
-  - Of corporate policy: OpenAI, DeepMind
+  - Of corporate policy: [OpenAI](https://openai.com/), [DeepMind](https://deepmind.com/)
 
 # Field-building
 
-This is work that explicitly aims to grow the field or community of people who are doing valuable work in longtermist AI governance. One could think of this work as involving both (1) bringing in new people, and (2) making the field more effective.
+This is work that explicitly aims to grow the field or community of people who are doing valuable work in longtermist AI governance.[^note-field-building] One could think of this work as involving both (1) bringing in new people, and (2) making the field more effective.
 
 ### Examples
 
 1. Bringing in new people by creating:
-   - policy fellowships, such as the OpenPhil Technology Policy Fellowship;
-   - online programs or courses to help junior people get synced up on what is happening in AI governance;
+   - policy fellowships, such as the [OpenPhil Technology Policy Fellowship](https://www.openphilanthropy.org/focus/global-catastrophic-risks/technology-policy-fellowship);
+   - [online programs](https://forum.effectivealtruism.org/posts/68ANc8KhEn6sbQ3P9/ai-governance-fundamentals-curriculum-and-application) or courses to help junior people get synced up on what is happening in AI governance;
    - high quality, broadly appealing intro material that reaches many undergraduates;
    - more scalable research fellowships to connect, support and credential interested junior people.
 2. Making the field more effective by creating:
    - research agendas;
-   - ways for senior researchers to easily hire research assistants.
+   - ways for senior researchers to easily hire research assistants.[^note-research-assistants]
 
 ### Stories for impact
 
 - *Growth model*: building a longtermist AI governance field with lots of aligned people with the capacity and relevant expertise to do important research and policy work (perhaps especially when this work is less bottlenecked by lack of strategic clarity).
-- *Metropolis model:* building a longtermist AI governance field with dense connections to broader communities (e.g. policymaking, social science, machine learning), such that the field can draw on diverse expertise from these communities.
+- *Metropolis model:*[^cite-metropolis-model] building a longtermist AI governance field with dense connections to broader communities (e.g. policymaking, social science, machine learning), such that the field can draw on diverse expertise from these communities.
 
 ### Who's doing it?
 
-GovAI, OpenPhil, SERI, CERI, CHERI and EA Cambridge. From a broader view, all cause-general EA movement building as well. This is the least explored kind of work discussed in this post.
+[GovAI](https://governance.ai/), [OpenPhil](https://www.openphilanthropy.org/), [SERI](https://cisac.fsi.stanford.edu/stanford-existential-risks-initiative/content/stanford-existential-risks-initiative), [CERI](https://camxrisk.org/), [CHERI](https://eageneva.org/cheri) and [EA Cambridge](https://www.eacambridge.org/). From a broader view, all cause-general EA movement building as well. This is the least explored kind of work discussed in this post.
 
 # Other views of the longtermist AI governance landscape
 
@@ -217,6 +217,22 @@ Or, you could carve things up by geographic hub (though not all organisations ar
 
 Or, you could carve up the landscape based on different "theories of victory", i.e. complete stories about how humanity successfully navigates the transition to a world with advanced AI. There's a lot more that could be said about all of this; the aim of this post has just been to give a concise overview of the kinds of work that are currently happening.
 
-*Acknowledgements: this is my own synthesis of the landscape, but is inspired and/or draws directly from EA forum posts by Allan Dafoe, Luke Muehlhauser and Convergence Analysis. Thanks also to Jess Whittlestone for helpful conversation, plus Matthijs Maas, Yun Gu, Konstantin Pilz, Caroline Baumöhl and especially a reviewer from SERI for feedback on a draft.*
+{++{"author":"Luc's AI","timestamp":1787917947259}@@:::collapse
+++}*Acknowledgements: this is my own synthesis of the landscape, but is inspired and/or draws directly from EA forum posts by {--{"author":"Luc's AI","timestamp":1787917947259}@@Allan Dafoe, Luke Muehlhauser--}{++{"author":"Luc's AI","timestamp":1787917947259}@@[Allan Dafoe](https://forum.effectivealtruism.org/posts/42reWndoTEhFqu6T8/ai-governance-opportunity-and-theory-of-impact), [Luke Muehlhauser](https://forum.effectivealtruism.org/posts/M2SBwctwC6vBqAmZW/a-personal-take-on-longtermist-ai-governance)++} and {--{"author":"Luc's AI","timestamp":1787917947259}@@Convergence Analysis.--}{++{"author":"Luc's AI","timestamp":1787917947259}@@[Convergence Analysis](https://forum.effectivealtruism.org/posts/oovy5XXdCL3TPwgLE/a-case-for-strategy-research-what-it-is-and-why-we-need-more#The_research_spine_of_effective_altruism__three_levels).++} Thanks also to Jess Whittlestone for helpful conversation, plus Matthijs Maas, Yun Gu, Konstantin Pilz, Caroline Baumöhl and especially a reviewer from SERI for feedback on a draft.*{++{"author":"Luc's AI","timestamp":1787917947259}@@
+:::
 
-*This work is licensed under a [Creative Commons Attribution 4.0 International License.](https://creativecommons.org/licenses/by/4.0/)*
+[^note-groups]: I’ve surely forgotten some important groups from this list, and I may have misclassified or otherwise misrepresented some of them - please let me know if that’s the case!
+
+[^cite-open-philanthropy-definition]: This borrows directly from [Open Philanthropy’s definition](https://www.openphilanthropy.org/blog/ai-governance-grantmaking#Our_priorities_within_AI_governance).
+
+[^note-tactics-questions]: Note that some of these are *tactics research* questions rather than strategy research questions.
+
+[^note-cset-work]: CSET mostly does tactics research, policy development and policy advocacy, but its work on mapping the semiconductor supply chain falls under strategy research.
+
+[^cite-crunch-time]: Muehlhauser [defines this as](https://forum.effectivealtruism.org/posts/M2SBwctwC6vBqAmZW/a-personal-take-on-longtermist-ai-governance) “a period lasting 1-20 years when the decisions most impactful on TAI outcomes might be made”.++}
+
+{--{"author":"Luc's AI","timestamp":1787917947259}@@*This --}{++{"author":"Luc's AI","timestamp":1787917947259}@@[^note-field-building]: This is distinct from the field-building benefits of other kinds of ++}work {++{"author":"Luc's AI","timestamp":1787917947259}@@discussed in this document, since it ++}is {--{"author":"Luc's AI","timestamp":1787917947259}@@licensed under a [Creative Commons Attribution 4.0 International License.](https://creativecommons.org/licenses/by/4.0/)*--}{++{"author":"Luc's AI","timestamp":1787917947259}@@*solely and explicitly* focused on building the field.
+
+[^note-research-assistants]: Which can also help bring in new people.
+
+[^cite-metropolis-model]: This idea directly borrows from [Allan Dafoe’s forum post](https://forum.effectivealtruism.org/posts/42reWndoTEhFqu6T8/ai-governance-opportunity-and-theory-of-impact).++}
