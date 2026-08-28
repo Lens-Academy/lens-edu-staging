@@ -3,8 +3,14 @@ title: "Cascades, Cycles, Insight..."
 author: Eliezer Yudkowsky
 published: 2008-11-24
 source_url: https://www.lesswrong.com/posts/dq3KsCsqNotWc8nAK/cascades-cycles-insight
+llm-review:
+  date: 2026-08-28
+  model: "sonnet"
+  version: "article-qc-v1.1"
+  source:
+    fetched: 2026-08-28
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -12,7 +18,7 @@ Add discussion note here:
 
 %%
 
-Followup to: [Surprised by Brains](https://www.lesswrong.com/lw/w4/surprised_by_brains)
+**Followup to**: [Surprised by Brains](https://www.lesswrong.com/lw/w4/surprised_by_brains)
 
 _Five sources of discontinuity: 1, 2, and 3..._
 
