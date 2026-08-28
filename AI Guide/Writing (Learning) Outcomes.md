@@ -53,12 +53,6 @@ In practice, creating courses requires a back and forth between learning outcome
    - Can I tell when they've done it?
    - Could someone become proficient at this without practice? If not, the lenses must contain practice with feedback, not just reading.
 
-
-
-
-
-
-
 ## Test Questions
 
 {++{"author":"Elias's AI","timestamp":1787910715005}@@One `## Test:` may contain multiple gradable questions and roleplays. Each item receives its own score. The platform does not currently combine those scores into an LO-level pass/fail result. It marks the test complete after the learner submits every required item, regardless of scores. LO completion likewise tracks completion of the required content and test, not demonstrated mastery. Question scores contribute separately to course assessment.
