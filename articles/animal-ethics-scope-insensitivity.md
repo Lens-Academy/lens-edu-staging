@@ -13,17 +13,15 @@ tags:
   - scope-sensitivity
   - cognitive-biases
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1787908886209}@@llm-review:
+llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v1"
   source:
     fetched: 2026-08-27
     kind: "live"
-++}---{--{"author":"Luc's AI","timestamp":1787826504796}@@
-
---}{++{"author":"Luc's AI","timestamp":1787826504796}@@
-++}%%
+---
+%%
 Add discussion note here:
 
 ...
@@ -32,9 +30,9 @@ Add discussion note here:
 
 # Scope Insensitivity: Failing to Appreciate the Numbers of Those Who Need Our Help
 
-Consider one billion animals. Now consider one {--{"author":"Luc's AI","timestamp":1787826504580}@@trillion--}{++{"author":"Luc's AI","timestamp":1787826504580}@@*trillion*++} animals. The second number is vastly higher. However, it is difficult for many people to have a clear idea of what the magnitude of that difference is. As a result of this, we often fail to assess properly what we should do when large numbers of individuals are affected.
+Consider one billion animals. Now consider one *trillion* animals. The second number is vastly higher. However, it is difficult for many people to have a clear idea of what the magnitude of that difference is. As a result of this, we often fail to assess properly what we should do when large numbers of individuals are affected.
 
-This is due to a cognitive bias called {--{"author":"Luc's AI","timestamp":1787826504322}@@scope insensitivity.--}{++{"author":"Luc's AI","timestamp":1787826504322}@@*scope insensitivity*.++} It is also known as {--{"author":"Luc's AI","timestamp":1787826504322}@@scope neglect.--}{++{"author":"Luc's AI","timestamp":1787826504322}@@*scope neglect*.++} It means we don’t realize the real scope of a certain quantity. So when we compare two different quantities we fail to notice the difference between them. This usually happens when those quantities are very large.
+This is due to a cognitive bias called *scope insensitivity*. It is also known as *scope neglect*. It means we don’t realize the real scope of a certain quantity. So when we compare two different quantities we fail to notice the difference between them. This usually happens when those quantities are very large.
 
 Scope insensitivity causes people not to adjust their valuation of an issue in proportion to the size or scale of it. Scope insensitivity especially impairs our judgments about helping animals because of the massive amount of animal suffering and death.
 
@@ -42,17 +40,17 @@ Scope insensitivity probably occurs due to our inability to visualize, or otherw
 
 ### An example: how much would you be willing to pay to save a certain number of animals?
 
-In the original study that assessed this phenomenon, different groups of people were asked how much they would pay to save either a group of 2,000 birds, another of 20,000 birds, or a group of 200,000 birds from drowning in ponds polluted with oil. Assuming people’s intention was truly to help as many birds as possible, they should value each of their lives equally. If they were looking clearly at the issue, we would expect them to be willing to pay 10 times as much for the second group as for the first group, and 100 times as much for the third group as for the first group. In fact, the results showed that willingness to pay did not increase in proportion with the number of birds saved.  Participants were willing to pay $80 to save 2,000 birds. They were willing to pay $78 to save 20,000. That is, 2$ less to save 18,000 {--{"author":"Luc's AI","timestamp":1787826504109}@@more--}{++{"author":"Luc's AI","timestamp":1787826504109}@@*more*++} individuals. Finally, they were willing to pay $88 to save 200,000. Thus, only 8$ extra to help 180,000 more birds. That suggests that participants valued each individual bird less the more of them there were to save (4, 0.39, and 0.044 cents, respectively).
+In the original study that assessed this phenomenon, different groups of people were asked how much they would pay to save either a group of 2,000 birds, another of 20,000 birds, or a group of 200,000 birds from drowning in ponds polluted with oil. Assuming people’s intention was truly to help as many birds as possible, they should value each of their lives equally. If they were looking clearly at the issue, we would expect them to be willing to pay 10 times as much for the second group as for the first group, and 100 times as much for the third group as for the first group. In fact, the results showed that willingness to pay did not increase in proportion with the number of birds saved.  Participants were willing to pay $80 to save 2,000 birds. They were willing to pay $78 to save 20,000. That is, 2$ less to save 18,000 *more* individuals. Finally, they were willing to pay $88 to save 200,000. Thus, only 8$ extra to help 180,000 more birds. That suggests that participants valued each individual bird less the more of them there were to save (4, 0.39, and 0.044 cents, respectively).
 
 This is a clear case of scope insensitivity. The fact that participants were only willing to pay $80 to save a group of 2,000 birds is very problematic in its own right. Yet, the scope insensitivity they showed is also worrisome, given how it impairs our moral judgment when confronted when very large numbers of individuals in need of our help.
 
 ### A psychological explanation of the scope insensitivity bias
 
-One explanation of how scope insensitivity occurs has to do with how we often represent things in order to understand them, which is called {--{"author":"Luc's AI","timestamp":1787826503908}@@representativeness heuristic--}{++{"author":"Luc's AI","timestamp":1787826503908}@@*representativeness heuristic*++} (heuristics, often referred to as “mental shortcuts,” are ways to easily solve problems, especially when we have to make a decision). The representativeness heuristic describes people’s tendency to imagine a simple, normal example of the type of problem being presented to them, rather than picturing all the specific details of the case in question, which may be very complex. Like all heuristics, this {++{"author":"Luc's AI","timestamp":1787826503908}@@is ++}can be a useful mental shortcut, since it reduces problems to a more manageable size, thereby simplifying our information processing and decision-making efforts.
+One explanation of how scope insensitivity occurs has to do with how we often represent things in order to understand them, which is called *representativeness heuristic* (heuristics, often referred to as “mental shortcuts,” are ways to easily solve problems, especially when we have to make a decision). The representativeness heuristic describes people’s tendency to imagine a simple, normal example of the type of problem being presented to them, rather than picturing all the specific details of the case in question, which may be very complex. Like all heuristics, this is can be a useful mental shortcut, since it reduces problems to a more manageable size, thereby simplifying our information processing and decision-making efforts.
 
 However, as the example above shows, this mechanism can be inappropriate to use in many situations. In the example, people tended to imagine or visualize roughly the same thing, so their natural empathy was stimulated to roughly the same degree by all of them, despite the significant differences in the three numbers.
 
-If a person’s aim is to feel good, or to avoid feeling bad, through some altruistic behavior (like a charitable donation), they do not have an incentive to check whether they are actually doing some good or just seeming to do so – because it feels the same in each case and that is their bottom line. In addition, being confronted with too much suffering can lead to what is often called the {--{"author":"Luc's AI","timestamp":1787826503660}@@collapse--}{++{"author":"Luc's AI","timestamp":1787826503660}@@*collapse++} of {--{"author":"Luc's AI","timestamp":1787826503660}@@compassion,--}{++{"author":"Luc's AI","timestamp":1787826503660}@@compassion*,++} a defense mechanism that reduces or eliminates our sensitivity to the harms others suffer when we are faced with massive amounts of suffering. As a result, people will tend not to do the cognitive work of adjusting for scope neglect.
+If a person’s aim is to feel good, or to avoid feeling bad, through some altruistic behavior (like a charitable donation), they do not have an incentive to check whether they are actually doing some good or just seeming to do so – because it feels the same in each case and that is their bottom line. In addition, being confronted with too much suffering can lead to what is often called the *collapse of compassion*, a defense mechanism that reduces or eliminates our sensitivity to the harms others suffer when we are faced with massive amounts of suffering. As a result, people will tend not to do the cognitive work of adjusting for scope neglect.
 
 That being said, part of the problem may consist in people simply failing to notice their bias, meaning that they would adjust their decisions if only they were informed about its existence.
 

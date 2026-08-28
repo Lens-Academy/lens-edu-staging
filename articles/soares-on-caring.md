@@ -3,7 +3,7 @@ title: "On Caring"
 source_url: "https://mindingourway.com/on-caring/"
 author:
   - "Nate Soares"
-published: {--{"author":"Luc's AI","timestamp":1787843229140}@@2014-10-07--}{++{"author":"Luc's AI","timestamp":1787843229140}@@2014-10-04++}
+published: 2014-10-04
 created: 2026-05-28
 description: "Our internal 'care-o-meters' are calibrated for about 150 people and can't faithfully represent the scale of billions of people suffering. This means caring about the world isn't about having an overwhelming gut feeling — it's about doing the right thing anyway, even when our feelings fail to capture the true scope of the problem."
 tags:
@@ -12,17 +12,15 @@ tags:
   - "scope-sensitivity"
   - "motivation"
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1787908892214}@@llm-review:
+llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v2"
   source:
     fetched: 2026-08-27
     kind: "live"
-++}---{--{"author":"Luc's AI","timestamp":1787843228684}@@
-
---}{++{"author":"Luc's AI","timestamp":1787843228684}@@
-++}%%
+---
+%%
 Add discussion note here:
 
 ...
@@ -43,7 +41,7 @@ I feel a *little* respect for the bigness of numbers if you pick really, really 
 
 This phenomenon is related to [scope insensitivity](http://lesswrong.com/lw/hw/scope_insensitivity/), and it's important to me because I live in a world where sometimes the things I care about are really, really numerous.
 
-For example, [billions of people live in {--{"author":"Luc's AI","timestamp":1787843228387}@@dire poverty](https://www.worldbank.org/en/topic/poverty/overview),--}{++{"author":"Luc's AI","timestamp":1787843228387}@@squalor](http://www.globalissues.org/article/26/poverty-facts-and-stats),++} with hundreds of millions of them deprived of basic needs and/or dying from disease. And though most of them are out of my sight, I still care about them.
+For example, [billions of people live in squalor](http://www.globalissues.org/article/26/poverty-facts-and-stats), with hundreds of millions of them deprived of basic needs and/or dying from disease. And though most of them are out of my sight, I still care about them.
 
 The loss of a human life with all its joys and all its sorrows is tragic no matter what the cause, and the tragedy is not reduced simply because I was far away, or because I did not know of it, or because I did not know how to help, or because I was not personally responsible.
 
@@ -59,7 +57,7 @@ My internal care-o-meter was calibrated to deal with [about 150 people](http://e
 
 Humanity is playing for unimaginably high stakes. At the very least, there are billions of people suffering today. At the worst, there are quadrillions (or more) potential humans, transhumans, or posthumans whose existence depends upon what we do here and now. All the intricate civilizations that the future could hold, the experience and art and beauty that is possible in the future, depends upon the present.
 
-When you're faced with stakes like these, your internal caring heuristics — calibrated on numbers like 10 or {--{"author":"Luc's AI","timestamp":1787843228139}@@20, and [maxing out around](http://en.wikipedia.org/wiki/Dunbar's_number) 150--}{++{"author":"Luc's AI","timestamp":1787843228139}@@20++} — completely fail to grasp the gravity of the situation.
+When you're faced with stakes like these, your internal caring heuristics — calibrated on numbers like 10 or 20 — completely fail to grasp the gravity of the situation.
 
 Saving a person's life feels *great*, and [it would probably feel just about as good to save one life as it would feel to save the world](http://lesswrong.com/lw/hx/one_life_against_the_world/). It surely wouldn't be *many billion times* more of a high to save the world, because your hardware can't express a feeling a billion times bigger than the feeling of saving a person's life. But even though the altruistic high from saving someone's life would be shockingly similar to the altruistic high from saving the world, always remember that *behind* those similar feelings there is a whole world of difference.
 
@@ -71,7 +69,7 @@ There's a mental shift that happened to me when I first started internalizing sc
 
 Consider Alice, a software engineer at Amazon in Seattle. Once a month or so, college students show up on street corners with clipboards, looking ever more disillusioned as they struggle to convince people to donate to [Doctors Without Borders](http://www.doctorswithoutborders.org/). Usually, Alice avoids eye contact and goes about her day, but this month they finally manage to corner her. They explain Doctors Without Borders, and she actually has to admit that it sounds like a pretty good cause. She ends up handing them $20 through a combination of guilt, social pressure, and altruism, and then rushes back to work. (Next month, when they show up again, she avoids eye contact.)
 
-Now consider Bob, who has been given the {--{"author":"Luc's AI","timestamp":1787843227905}@@Ice--}{++{"author":"Luc's AI","timestamp":1787843227905}@@[Ice++} Bucket {--{"author":"Luc's AI","timestamp":1787843227905}@@Challenge--}{++{"author":"Luc's AI","timestamp":1787843227905}@@Challenge](http://en.wikipedia.org/wiki/Ice_Bucket_Challenge)++} by a friend on Facebook. He feels too busy to do the challenge, and instead just donates $100 to {--{"author":"Luc's AI","timestamp":1787843227905}@@ALSA.--}{++{"author":"Luc's AI","timestamp":1787843227905}@@[ALSA](http://www.alsa.org/).++}
+Now consider Bob, who has been given the [Ice Bucket Challenge](http://en.wikipedia.org/wiki/Ice_Bucket_Challenge) by a friend on Facebook. He feels too busy to do the challenge, and instead just donates $100 to [ALSA](http://www.alsa.org/).
 
 Now consider Christine, who is in a college sorority. Her sorority is engaged in a competition with another to see who can raise the most money for the National Breast Cancer Foundation in a week. Christine has a competitive spirit and gets engaged in fundraising, and gives a few hundred dollars herself over the course of the week (especially at times when her sorority is especially behind).
 
@@ -85,7 +83,7 @@ This is a mindset that I inhabited for a while. But there's an alternative minds
 
 ## 4
 
-Consider Daniel, a college student. Shortly after the {--{"author":"Luc's AI","timestamp":1787843227646}@@Deepwater Horizon--}{++{"author":"Luc's AI","timestamp":1787843227646}@@[Deepwater Horizon](http://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill)++} BP oil spill, he encounters one of those people with the clipboards on the street corners, soliciting donations to the {--{"author":"Luc's AI","timestamp":1787843227646}@@World--}{++{"author":"Luc's AI","timestamp":1787843227646}@@[World++} Wildlife {--{"author":"Luc's AI","timestamp":1787843227646}@@Foundation.--}{++{"author":"Luc's AI","timestamp":1787843227646}@@Foundation](http://www.worldwildlife.org/).++} They're trying to save as many oiled birds as possible. Normally, Daniel would simply dismiss the charity as Not The Most Important Thing, or Not Worth His Time Right Now, or Somebody Else's Problem, but this time Daniel has been thinking about how his brain is bad at numbers and decides to do a quick sanity check.
+Consider Daniel, a college student. Shortly after the [Deepwater Horizon](http://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill) BP oil spill, he encounters one of those people with the clipboards on the street corners, soliciting donations to the [World Wildlife Foundation](http://www.worldwildlife.org/). They're trying to save as many oiled birds as possible. Normally, Daniel would simply dismiss the charity as Not The Most Important Thing, or Not Worth His Time Right Now, or Somebody Else's Problem, but this time Daniel has been thinking about how his brain is bad at numbers and decides to do a quick sanity check.
 
 He pictures himself walking along the beach after the oil spill and encountering a group of people cleaning birds as fast as they can. They simply don't have the resources to clean all of the available birds. A pathetic young bird flops toward his feet, slick with oil, eyes barely able to open. He kneels down to pick it up and help it onto the table. One of the bird-cleaners informs him that they won't have time to get to that bird themselves, but he could pull on some gloves and could probably save the bird with three minutes of washing.
 
@@ -95,7 +93,7 @@ Daniel decides that he *would* spend three minutes of his time to save the bird,
 
 And, because he's been thinking about scope insensitivity, he *expects* his brain to misreport how much he actually cares about large numbers of birds; the internal feeling of caring can't be expected to line up with the actual importance of the situation. So instead of just *asking his gut* how much he cares about de-oiling lots of birds, he shuts up and multiplies.
 
-{--{"author":"Luc's AI","timestamp":1787843227425}@@Thousands--}{++{"author":"Luc's AI","timestamp":1787843227425}@@[Thousands++} and {--{"author":"Luc's AI","timestamp":1787843227425}@@thousands--}{++{"author":"Luc's AI","timestamp":1787843227425}@@thousands](http://dailydeadbirds.com/)++} of birds were oiled by the BP spill alone. After shutting up and multiplying, Daniel realizes (with growing horror) that the amount he *actually* cares about oiled birds is lower-bounded by two months of hard work and/or fifty thousand dollars. And that's not even counting wildlife threatened by {--{"author":"Luc's AI","timestamp":1787843227425}@@other--}{++{"author":"Luc's AI","timestamp":1787843227425}@@[other++} oil {--{"author":"Luc's AI","timestamp":1787843227425}@@spills.--}{++{"author":"Luc's AI","timestamp":1787843227425}@@spills](http://en.wikipedia.org/wiki/List_of_oil_spills).++}
+[Thousands and thousands](http://dailydeadbirds.com/) of birds were oiled by the BP spill alone. After shutting up and multiplying, Daniel realizes (with growing horror) that the amount he *actually* cares about oiled birds is lower-bounded by two months of hard work and/or fifty thousand dollars. And that's not even counting wildlife threatened by [other oil spills](http://en.wikipedia.org/wiki/List_of_oil_spills).
 
 And if he cares that much about *de-oiling birds*, then how much does he actually care about factory farming, nevermind hunger, or poverty, or sickness? How much does he actually care about wars that ravage nations? About neglected, deprived children? About the future of humanity? He *actually* cares about these things to the tune of much more money than he has, and much more time than he has.
 
@@ -113,7 +111,7 @@ In the new mindstate, *everything* is his problem. The only reason he's not drop
 
 Alice and Bob and Christine usually aren't spending time solving all the world's problems because they forget to see them. If you remind them — put them in a social context where they remember how much they care (hopefully without guilt or pressure) — then they'll likely donate a little money.
 
-By contrast, Daniel and others who have undergone the mental shift aren't spending time solving all the world's problems because there are *just too many problems*. (Daniel hopefully goes on to discover movements like {--{"author":"Luc's AI","timestamp":1787843227206}@@effective altruism--}{++{"author":"Luc's AI","timestamp":1787843227206}@@[effective altruism](http://effectivealtruism.org/)++} and starts contributing toward fixing the world's most pressing problems.)
+By contrast, Daniel and others who have undergone the mental shift aren't spending time solving all the world's problems because there are *just too many problems*. (Daniel hopefully goes on to discover movements like [effective altruism](http://effectivealtruism.org/) and starts contributing toward fixing the world's most pressing problems.)
 
 ## 5
 
@@ -133,17 +131,17 @@ You don't get to feel the appropriate amount of "care" in your body. Sorry — t
 
 This, of course, leads us to the question of "What the hell do you do, then?"
 
-And I don't really know yet. {++{"author":"Luc's AI","timestamp":1787843226988}@@(Though I'll plug the [Giving What We Can pledge](http://givingwhatwecan.org), [GiveWell](http://givewell.org), [MIRI](http://intelligence.org), and [The Future of Humanity Institute](http://www.fhi.ox.ac.uk) as a good start).
+And I don't really know yet. (Though I'll plug the [Giving What We Can pledge](http://givingwhatwecan.org), [GiveWell](http://givewell.org), [MIRI](http://intelligence.org), and [The Future of Humanity Institute](http://www.fhi.ox.ac.uk) as a good start).
 
-++}I think that at least part of it comes from a certain sort of desperate perspective. It's not enough to think you *should* change the world — you also need the sort of desperation that comes from realizing that you would dedicate your entire life to solving the world's 100th biggest problem if you could, but you can't, because there are 99 bigger problems you have to address first.
+I think that at least part of it comes from a certain sort of desperate perspective. It's not enough to think you *should* change the world — you also need the sort of desperation that comes from realizing that you would dedicate your entire life to solving the world's 100th biggest problem if you could, but you can't, because there are 99 bigger problems you have to address first.
 
-I'm not trying to guilt you into giving more money away — becoming a philanthropist is *really, really hard*. {++{"author":"Luc's AI","timestamp":1787843226988}@@(If you're *already* a philanthropist, then you have my acclaim and my affection.) ++}First it requires you to have money, which is uncommon, and then it requires you to *throw that money at distant, invisible problems*, which is not an easy sell to a human brain. [Akrasia](http://en.wikipedia.org/wiki/Akrasia) is a formidable enemy. And {--{"author":"Luc's AI","timestamp":1787843226988}@@more--}{++{"author":"Luc's AI","timestamp":1787843226988}@@most++} importantly, guilt doesn't seem like a good long-term motivator: If you want to join the ranks of people saving the world, I would rather you join them proudly. There are many trials and tribulations ahead, and we'd do better to face them with our heads held high.
+I'm not trying to guilt you into giving more money away — becoming a philanthropist is *really, really hard*. (If you're *already* a philanthropist, then you have my acclaim and my affection.) First it requires you to have money, which is uncommon, and then it requires you to *throw that money at distant, invisible problems*, which is not an easy sell to a human brain. [Akrasia](http://en.wikipedia.org/wiki/Akrasia) is a formidable enemy. And most importantly, guilt doesn't seem like a good long-term motivator: If you want to join the ranks of people saving the world, I would rather you join them proudly. There are many trials and tribulations ahead, and we'd do better to face them with our heads held high.
 
 ## 7
 
 Courage isn't about being fearless; it's about being able to do the right thing even if you're afraid.
 
-And similarly, addressing the major problems of our time isn't about feeling a strong compulsion to do so. It's about {--{"author":"Luc's AI","timestamp":1787843226765}@@trying to address them--}{++{"author":"Luc's AI","timestamp":1787843226765}@@doing it anyway,++} even when internal compulsion utterly fails to capture the scope of the problems we face.
+And similarly, addressing the major problems of our time isn't about feeling a strong compulsion to do so. It's about doing it anyway, even when internal compulsion utterly fails to capture the scope of the problems we face.
 
 It's easy to look at especially virtuous people — Gandhi, Mother Teresa, Nelson Mandela — and conclude that they must have cared more than we do. But I don't think that's the case.
 
@@ -159,9 +157,4 @@ There is only you, and me, and everyone else who is trying anyway.
 
 You can't actually feel the weight of the world. The human mind is not capable of that feat.
 
-But sometimes, you can catch a glimpse.{--{"author":"Luc's AI","timestamp":1787843226528}@@
-
----
-
-*This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
---}
+But sometimes, you can catch a glimpse.

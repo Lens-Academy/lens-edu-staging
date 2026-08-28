@@ -3,23 +3,21 @@ title: "Why I’m optimistic about our alignment approach"
 author:
   - "Jan Leike"
 source_url: "https://aligned.substack.com/p/alignment-optimism"
-published: {--{"author":"Luc's AI","timestamp":1787842810592}@@2023-02-15--}{++{"author":"Luc's AI","timestamp":1787842810592}@@2022-12-05++}
+published: 2022-12-05
 created: 2026-06-21
 accessed: 2026-06-21
 description: "Some arguments in favor and responses to common objections"
 tags:
   - "article-importer"
-{++{"author":"Luc's AI","timestamp":1787908889941}@@llm-review:
+llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v2"
   source:
     fetched: 2026-08-27
     kind: "live"
-++}---{--{"author":"Luc's AI","timestamp":1787842810030}@@
-
---}{++{"author":"Luc's AI","timestamp":1787842810030}@@
-++}%%
+---
+%%
 Add discussion note here:
 
 ...
