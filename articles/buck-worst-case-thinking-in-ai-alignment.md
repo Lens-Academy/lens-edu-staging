@@ -3,8 +3,14 @@ title: "Worst-case thinking in AI alignment"
 author: Buck Shlegeris
 published: 2021-12-23
 source_url: https://www.lesswrong.com/posts/yTvBSFrXhZfL8vr5a/worst-case-thinking-in-ai-alignment
+llm-review:
+  date: 2026-08-28
+  model: "sonnet"
+  version: "article-qc-v1.1"
+  source:
+    fetched: 2026-08-28
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -41,7 +47,7 @@ Scott Garrabrant writes about an argument like this [here](https://www.lesswrong
 
 ### The space you're selecting over happens to mostly contain bad things
 
-When Hubinger et al argue in [section 4.4 of Risks from Learned Optimization](https://www.lesswrong.com/s/r9tYkB2a8Fp4DN8yB/p/zthDPAjh9w6Ytbeks#4_4__Internalization_or_deception_after_extensive_training#4_4__Internalization_or_deception_after_extensive_training) that "there are more paths to deceptive alignment than to robust alignment," they aren't saying that you get a misaligned mesa-optimizer because the base optimizer is trying to produce an agent that is as misaligned as possible, they're saying that even though the base optimizer isn't trying to find a misaligned policy, most policies that it can find are misaligned and so you'll probably get one. But unlike the previous situation, if instead it was the case that 50% of the policies that SGD might find were aligned, then we'd have a 50% chance of surviving, because SGD isn't optimizing against us.
+When Hubinger et al argue in [section 4.4 of Risks from Learned {--{"author":"Luc's AI","timestamp":1787910823453}@@Optimization](https://www.lesswrong.com/s/r9tYkB2a8Fp4DN8yB/p/zthDPAjh9w6Ytbeks#4_4__Internalization_or_deception_after_extensive_training#4_4__Internalization_or_deception_after_extensive_training)--}{++{"author":"Luc's AI","timestamp":1787910823453}@@Optimization](https://www.lesswrong.com/s/r9tYkB2a8Fp4DN8yB/p/zthDPAjh9w6Ytbeks#4_4__Internalization_or_deception_after_extensive_training)++} that "there are more paths to deceptive alignment than to robust alignment," they aren't saying that you get a misaligned mesa-optimizer because the base optimizer is trying to produce an agent that is as misaligned as possible, they're saying that even though the base optimizer isn't trying to find a misaligned policy, most policies that it can find are misaligned and so you'll probably get one. But unlike the previous situation, if instead it was the case that 50% of the policies that SGD might find were aligned, then we'd have a 50% chance of surviving, because SGD isn't optimizing against us.
 
 I think that AI alignment researchers often conflate these two classes of arguments. IMO, when you're training an AGI:
 
