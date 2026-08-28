@@ -108,10 +108,10 @@ id:: cb39e8f1-4477-4b66-b016-37c99c5ff753
 content:: Which topics interest you?
 options::
 - Forecasting
-- Governance{--{"author":"Luc's AI","timestamp":1787905563521}@@ CORRECT--}
+- Governance
 - Technical safety
-multi:: true{++{"author":"Luc's AI","timestamp":1787905563521}@@
-{>>{"author":"Luc's AI","timestamp":1787905563521}@@The stray "CORRECT" here looks like a leftover from the syntax discussion — this is the ungraded survey-style example, so no marker belongs on any option. The platform keeps `- [x]` as the one correct-option syntax.<<}++}
+multi:: true
+{>>{"author":"Luc's AI","timestamp":1787905563521}@@The stray "CORRECT" here looks like a leftover from the syntax discussion — this is the ungraded survey-style example, so no marker belongs on any option. The platform keeps `- [x]` as the one correct-option syntax.<<}
 
 %% Multiple choice has same options and defaults as single choice. For grading, learner choices must exactly match all `[x]` options.
 

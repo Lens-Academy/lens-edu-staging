@@ -11,18 +11,15 @@ description: "Discover our AI Control Roadmap: a defense-in-depth system to secu
 tags:
   - "article-importer"
 llm-review:
-  content-sha: {--{"author":"Luc's AI","timestamp":1787905630704}@@"sha256:aa008c08b13d0f339d74f431c40fb3fe32e4bdfd95f1d88a53c754a4f1286114"--}{++{"author":"Luc's AI","timestamp":1787905630704}@@"sha256:67f820dff3e7ac8c4c76d54db6a1504b77fcf96edde6bdcc8de24fb2cdc7ec8f"++}
-  date: {--{"author":"Luc's AI","timestamp":1787905630704}@@2026-08-25--}{++{"author":"Luc's AI","timestamp":1787905630704}@@2026-08-28++}
+  content-sha: "sha256:67f820dff3e7ac8c4c76d54db6a1504b77fcf96edde6bdcc8de24fb2cdc7ec8f"
+  date: 2026-08-28
   model: "sonnet"
   version: "article-qc-v1.1"
   source:
-    content-sha: {--{"author":"Luc's AI","timestamp":1787905630208}@@"sha256:fa476a750ac5b24ff0bb3736c199fda2e7db06a2707de54db49a6f7cd05ec155"--}{++{"author":"Luc's AI","timestamp":1787905630208}@@"sha256:01bad317e2aa0b23c4c2c301d30462f76d5fcb53e95269aa8f9aaf51d82a8fb5"++}
-    fetched: {--{"author":"Luc's AI","timestamp":1787905630208}@@2026-08-25--}{++{"author":"Luc's AI","timestamp":1787905630208}@@2026-08-28++}
+    content-sha: "sha256:01bad317e2aa0b23c4c2c301d30462f76d5fcb53e95269aa8f9aaf51d82a8fb5"
+    fetched: 2026-08-28
     kind: "live"
-{--{"author":"Luc's AI","timestamp":1787905629996}@@description:
-tags:
-  - "article-importer"
---}---
+---
 %%
 Add discussion note here:
 
