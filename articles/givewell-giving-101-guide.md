@@ -1,20 +1,26 @@
 ---
-title: "GiveWell's Giving 101 Guide"
+title: "Giving 101: The Basics"
 source_url: https://www.givewell.org/giving101
 author:
   - GiveWell
 published: 2020-11-10
 created: 2026-05-28
 allowAuthorInTitle: true
-description: Three core principles from GiveWell for giving effectively — your donation can change lives, the wrong donation can accomplish nothing, and your dollar goes further overseas.
+description: "Read about the key principles GiveWell recommends you keep in mind when deciding where to give to charity. The right donation can change someone's life."
 tags:
   - ea-intro-program
   - effective-altruism
   - effective-giving
   - global-health
   - work-in-progress
+llm-review:
+  date: 2026-08-28
+  model: "gpt-5.6-terra"
+  version: "article-qc-v1.1"
+  source:
+    fetched: 2026-08-28
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -22,7 +28,7 @@ Add discussion note here:
 
 %%
 
-# GiveWell's Giving 101 Guide
+# {--{"author":"Luc's AI","timestamp":1787918280020}@@GiveWell's Giving 101 Guide--}{++{"author":"Luc's AI","timestamp":1787918280020}@@Giving 101: The Basics++}
 
 The key principles we recommend you keep in mind when deciding where to give:
 
@@ -45,16 +51,18 @@ Experts, governments and foundations have tried (and often failed) for decades t
 
 ## Your dollar goes further overseas.
 
-Ultimately, there's no "right" answer to the question of which cause you should support. As you consider that decision, it's worth recognizing that the impact you can have with your donation varies greatly between causes. If you focus on education in New York City, it costs over $100,000 to educate a student throughout 12 years of school. When supporting international aid, you can save a person's life for a few thousand dollars or so.[1]
+Ultimately, there's no "right" answer to the question of which cause you should support. As you consider that decision, it's worth recognizing that the impact you can have with your donation varies greatly between causes. If you focus on education in New York City, it costs over $100,000 to educate a student throughout 12 years of school. When supporting international aid, you can save a person's life for a few thousand dollars or so.[^note-1]
 That doesn't mean you should necessarily support international aid, but, just like any time you spend your money, it's important to know what you're getting. For more, see:
 
 * [Your Dollar Goes Further Overseas](https://www.givewell.org/want-to-change-peoples-lives-give-internationally)
 
----
+{--{"author":"Luc's AI","timestamp":1787918279525}@@-----}{++{"author":"Luc's AI","timestamp":1787918279525}@@:::collapse
+[Next](https://www.givewell.org/giving101/Changing-Someones-Life)
+:::++}
 
-1. On average, grants from our [Top Charities Fund](https://www.givewell.org/top-charities-fund) in 2021 saved a life for about $5,000. Learn more about our estimated cost to save a life in ["How We Produce Impact Estimates."](https://www.givewell.org/impact-estimates)
+{--{"author":"Luc's AI","timestamp":1787918279525}@@1.--}{++{"author":"Luc's AI","timestamp":1787918279525}@@[^note-1]:++} On average, grants from our [Top Charities Fund](https://www.givewell.org/top-charities-fund) in 2021 saved a life for about $5,000. Learn more about our estimated cost to save a life in ["How We Produce Impact Estimates."](https://www.givewell.org/impact-estimates){--{"author":"Luc's AI","timestamp":1787918279525}@@
 
 *Originally published at [Giving 101: The Basics](https://www.givewell.org/giving101).*
-*Licensed under [CC BY-NC-SA 3.0 US](https://creativecommons.org/licenses/by-nc-sa/3.0/us/).*
+*Licensed under [CC BY-NC-SA 3.0 US](https://creativecommons.org/licenses/by-nc-sa/3.0/us/).*--}
 
 {>>TODO: Licensed content<<}
