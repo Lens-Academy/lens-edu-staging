@@ -11,8 +11,8 @@ description: "Discover our AI Control Roadmap: a defense-in-depth system to secu
 tags:
   - "article-importer"
 llm-review:
-  content-sha: "sha256:67f820dff3e7ac8c4c76d54db6a1504b77fcf96edde6bdcc8de24fb2cdc7ec8f"
-  date: 2026-08-28
+{--{"author":"Luc's AI","timestamp":1787908883947}@@  content-sha: "sha256:67f820dff3e7ac8c4c76d54db6a1504b77fcf96edde6bdcc8de24fb2cdc7ec8f"
+--}  date: 2026-08-28
   model: "sonnet"
   version: "article-qc-v1.1"
   source:

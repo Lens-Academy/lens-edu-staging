@@ -8,7 +8,6 @@ author:
 tags:
   - clippings
 llm-review:
-  content-sha: "sha256:d4a3b3d933db289c8cb1b0f98c1de5fa77d1251a588af93acf01edbaebc75864"
   date: 2026-08-28
   model: "sonnet"
   version: "article-qc-v1.1"

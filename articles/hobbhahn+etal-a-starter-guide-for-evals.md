@@ -12,8 +12,7 @@ created: 2026-02-27
 description: "This is a starter guide for model evaluations (evals). Our goal is to provide a general overview of what evals are, what skills are helpful for evalu…"
 tags:
   - "obsidian-web-clipper"
-{++{"author":"Luc's AI","timestamp":1787825788424}@@llm-review:
-  content-sha: "sha256:0769b664eeab47dc3120e1e4c3d2359c6429a6b0a86a5485433156f1d38046f9"
+{++{"author":"Luc's AI","timestamp":1787908881474}@@llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v1"

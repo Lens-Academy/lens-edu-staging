@@ -12,8 +12,7 @@ accessed: 2026-06-21
 description:
 tags:
   - "article-importer"
-{++{"author":"Luc's AI","timestamp":1787843675642}@@llm-review:
-  content-sha: "sha256:89ca27f05f58e647a19f30e935a99d812650ff2a8770efdfbbea20901fad0ecb"
+{++{"author":"Luc's AI","timestamp":1787908883099}@@llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v2"

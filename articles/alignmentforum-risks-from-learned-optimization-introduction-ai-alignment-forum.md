@@ -13,12 +13,11 @@ accessed: 2026-06-16
 description: "Introduces the concept of mesa-optimization—when a learned model is itself an optimizer—and frames the resulting inner and outer alignment problems for AI safety."
 tags:
   - "article-importer"
-{++{"author":"Luc's AI","timestamp":1787908878784}@@llm-review:
+{++{"author":"Luc's AI","timestamp":1787908885972}@@llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v1"
   source:
-    content-sha: "sha256:45bd8724e0f0ccbede0cd9e48590a9a9a9e6b91a66afb587a43e0ad4316e9ba5"
     fetched: 2026-08-27
     kind: "live"
 ++}---{--{"author":"Luc's AI","timestamp":1787825962729}@@

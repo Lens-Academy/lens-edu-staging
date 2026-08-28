@@ -13,7 +13,6 @@ tags:
   - "scout-mindset"
   - work-in-progress
 llm-review:
-  content-sha: "sha256:1fdeb26b8b64be45453384e665474b4b1906814d91a1e5200e2a1a1b4b661b0f"
   date: 2026-08-28
   model: "sonnet"
   version: "article-qc-v1.1"

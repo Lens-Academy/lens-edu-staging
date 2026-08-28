@@ -7,8 +7,8 @@ published: 2026-06-18
 created: 2026-08-24
 accessed: 2026-08-24
 llm-review:
-  content-sha: "sha256:99d522fc7a1b28f77b99eb1936875c09088a028adaffbf88e288b0336d0e5d07"
-  date: 2026-08-24
+{--{"author":"Luc's AI","timestamp":1787908884187}@@  content-sha: "sha256:99d522fc7a1b28f77b99eb1936875c09088a028adaffbf88e288b0336d0e5d07"
+--}  date: 2026-08-24
   model: "sonnet"
   version: "article-qc-v1"
   source:

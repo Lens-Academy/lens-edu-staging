@@ -14,8 +14,8 @@ description: "Google DeepMind and partners are announcing a new technical resear
 tags:
   - "article-importer"
 llm-review:
-  content-sha: "sha256:c5396245cfabdee80d8da643594d55d471d42ed7539518040c5de321b477de80"
-  date: 2026-08-28
+{--{"author":"Luc's AI","timestamp":1787908880393}@@  content-sha: "sha256:c5396245cfabdee80d8da643594d55d471d42ed7539518040c5de321b477de80"
+--}  date: 2026-08-28
   model: "sonnet"
   version: "article-qc-v1.1"
   source:

@@ -9,8 +9,7 @@ accessed: 2026-06-21
 description: "Some arguments in favor and responses to common objections"
 tags:
   - "article-importer"
-{++{"author":"Luc's AI","timestamp":1787842810268}@@llm-review:
-  content-sha: "sha256:624f8dcc1356ef8957071e08b8a6a024589c8317d0fdd184ac213c1cba2a67a8"
+{++{"author":"Luc's AI","timestamp":1787908882285}@@llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v2"

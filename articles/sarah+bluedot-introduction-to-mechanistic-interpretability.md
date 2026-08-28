@@ -8,8 +8,7 @@ created: 2026-02-27
 description: "Mechanistic Interpretability is an emerging field that seeks to understand the internal reasoning processes of trained neural networks and gain insight into how and why they produce the outputs that they do."
 tags:
   - "obsidian-web-clipper"
-{++{"author":"Luc's AI","timestamp":1787843168042}@@llm-review:
-  content-sha: "sha256:0fe14a112eae51871f5c3807cf1959d63c13e7106145700c25e968efdb06233f"
+{++{"author":"Luc's AI","timestamp":1787908883630}@@llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v2"
