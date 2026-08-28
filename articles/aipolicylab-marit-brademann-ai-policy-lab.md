@@ -1,7 +1,7 @@
 ---
-title: "Marit Brademann – AI Policy Lab"
+title: "Marit {--{"author":"Luc's AI","timestamp":1787921725377}@@Brademann – AI Policy Lab"--}{++{"author":"Luc's AI","timestamp":1787921725377}@@Brademann"++}
 author:
-  - "Aipolicylab"
+  - {--{"author":"Luc's AI","timestamp":1787921725152}@@"Aipolicylab"--}{++{"author":"Luc's AI","timestamp":1787921725152}@@"AI Policy Lab"++}
 source_url: "https://aipolicylab.se/externships/marit-brademann/"
 published: 2026-02-24
 created: 2026-08-21
@@ -9,8 +9,14 @@ accessed: 2026-08-21
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-28
+  model: "sonnet"
+  version: "article-qc-v1.1"
+  source:
+    fetched: 2026-08-28
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -30,14 +36,17 @@ The paper concludes that arbitrary cognitive offloading via GenAI jeopardizes th
 
 **Keywords:** cognitive offloading, metacognition, AI in education, right to education, metacognitive laziness, OECD, EU AI Act, CULT
 
+:::collapse
 ## Finished Externships
 
 | Name | Year | Topic | Project | Organization |
 | --- | --- | --- | --- | --- |
-| Name [Tuva Falk](http://www.linkedin.com/in/tuvafalk) | Year 2025 | Topic Designing Responsible AI | Project [The power of User-Selected Metrics](https://aipolicylab.se/externships/name/) | Organization Umeå University |
-| Name [Tay Warner Macintosh](https://www.linkedin.com/in/tay-warner-mackintosh-2b970b296/) | Year 2025 | Topic AI and Homelessness | Project [Ethical AI in the third sector - systems supporting people experiencing homelessness](https://aipolicylab.se/externships/name-2/) | Organization University of Edinburgh |
-| Name [Kevin Harerimana](https://www.linkedin.com/in/kevin-harerimana-88641b1a4/) | Year 2025 | Topic AI in Education | Project [Policy Recommendations for Equitable AI-Driven Education in sub-saharan Countries: Ensuring Accessibility and Fairness](https://aipolicylab.se/externships/name-3/) | Organization Carnegie Mellon University |
-| Name Mariia Lesina | Year 2026 | Topic AI and Human Rights | Project [Statelessness and AI](https://aipolicylab.se/externships/mariia-lesina/) | Organization Lund University |
-| Name Viktoriia Babaievska | Year 2026 | Topic AI and Data Privacy | Project [AI in Cross-Border Litigation and Arbitration](https://aipolicylab.se/externships/viktoriia-babaievska/) | Organization University of Bologna |
-| Name Rusydi Farhan | Year 2026 | Topic Global Coordination and Policy Harmonization | Project [Discipline and Punishment in AI policy](https://aipolicylab.se/externships/rusydi-farhan/) | Organization De Montfort University |
-| Name Chaeyeon Lim | Year 2026 | Topic AI and Education | Project [Examining the evolving landscape of AI policies in educational settings](https://aipolicylab.se/externships/chaeyeon-lim/) | Organization University College London |
+| {--{"author":"Luc's AI","timestamp":1787921724041}@@Name --}[Tuva Falk](http://www.linkedin.com/in/tuvafalk) | {--{"author":"Luc's AI","timestamp":1787921724041}@@Year --}2025 | {--{"author":"Luc's AI","timestamp":1787921724041}@@Topic --}Designing Responsible AI |{--{"author":"Luc's AI","timestamp":1787921724041}@@ Project--} [The power of User-Selected Metrics](https://aipolicylab.se/externships/name/) |{--{"author":"Luc's AI","timestamp":1787921724041}@@ Organization--} Umeå University |
+|{--{"author":"Luc's AI","timestamp":1787921724041}@@ Name--} [Tay Warner Macintosh](https://www.linkedin.com/in/tay-warner-mackintosh-2b970b296/) |{--{"author":"Luc's AI","timestamp":1787921724041}@@ Year--} 2025 | {--{"author":"Luc's AI","timestamp":1787921724041}@@Topic --}AI and Homelessness |{--{"author":"Luc's AI","timestamp":1787921724041}@@ Project--} [Ethical AI in the third sector - systems supporting people experiencing homelessness](https://aipolicylab.se/externships/name-2/) | {--{"author":"Luc's AI","timestamp":1787921724041}@@Organization --}University of Edinburgh |
+| {--{"author":"Luc's AI","timestamp":1787921724041}@@Name --}[Kevin Harerimana](https://www.linkedin.com/in/kevin-harerimana-88641b1a4/) | {--{"author":"Luc's AI","timestamp":1787921724041}@@Year --}2025 |{--{"author":"Luc's AI","timestamp":1787921724041}@@ Topic--} AI in Education |{--{"author":"Luc's AI","timestamp":1787921724041}@@ Project--} [Policy Recommendations for Equitable AI-Driven Education in sub-saharan Countries: Ensuring Accessibility and Fairness](https://aipolicylab.se/externships/name-3/) |{--{"author":"Luc's AI","timestamp":1787921724041}@@ Organization--} Carnegie Mellon University |
+|{--{"author":"Luc's AI","timestamp":1787921724041}@@ Name--} Mariia Lesina | {--{"author":"Luc's AI","timestamp":1787921724041}@@Year --}2026 |{--{"author":"Luc's AI","timestamp":1787921724041}@@ Topic--} AI and Human Rights | {--{"author":"Luc's AI","timestamp":1787921724041}@@Project --}[Statelessness and AI](https://aipolicylab.se/externships/mariia-lesina/) | {--{"author":"Luc's AI","timestamp":1787921724041}@@Organization --}Lund University |
+| {--{"author":"Luc's AI","timestamp":1787921724041}@@Name --}Viktoriia Babaievska |{--{"author":"Luc's AI","timestamp":1787921724041}@@ Year--} 2026 |{--{"author":"Luc's AI","timestamp":1787921724041}@@ Topic--} AI and Data Privacy |{--{"author":"Luc's AI","timestamp":1787921724041}@@ Project--} [AI in Cross-Border Litigation and Arbitration](https://aipolicylab.se/externships/viktoriia-babaievska/) |{--{"author":"Luc's AI","timestamp":1787921724041}@@ Organization--} University of Bologna |
+| {--{"author":"Luc's AI","timestamp":1787921724041}@@Name --}Rusydi Farhan |{--{"author":"Luc's AI","timestamp":1787921724041}@@ Year--} 2026 | {--{"author":"Luc's AI","timestamp":1787921724041}@@Topic --}Global Coordination and Policy Harmonization | {--{"author":"Luc's AI","timestamp":1787921724041}@@Project --}[Discipline and Punishment in AI policy](https://aipolicylab.se/externships/rusydi-farhan/) | {--{"author":"Luc's AI","timestamp":1787921724041}@@Organization --}De Montfort University |
+|{--{"author":"Luc's AI","timestamp":1787921724041}@@ Name--} Chaeyeon Lim |{--{"author":"Luc's AI","timestamp":1787921724041}@@ Year--} 2026 |{--{"author":"Luc's AI","timestamp":1787921724041}@@ Topic--} AI and Education |{--{"author":"Luc's AI","timestamp":1787921724041}@@ Project--} [Examining the evolving landscape of AI policies in educational settings](https://aipolicylab.se/externships/chaeyeon-lim/) | {--{"author":"Luc's AI","timestamp":1787921724041}@@Organization --}University College London |
+{++{"author":"Luc's AI","timestamp":1787921724041}@@:::
+++}
