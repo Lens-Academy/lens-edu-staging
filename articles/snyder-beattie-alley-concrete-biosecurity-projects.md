@@ -6,7 +6,7 @@ author:
   - Ethan Alley
 published: 2022-01-11
 created: 2026-05-28
-description: "A list of large-scale longtermist biosecurity projects—early detection centers, super PPE, BWC strengthening, sterilization technology, and pandemic refuges—that could each reduce catastrophic biorisk by more than 1% on the current margin."
+description: "Andrew Snyder-Beattie and Ethan Alley • This is a list of longtermist biosecurity projects. We think most of them could reduce catastrophic biorisk…"
 tags:
   - ea-intro-program
   - effective-altruism
@@ -14,8 +14,14 @@ tags:
   - existential-risk
   - cause-prioritization
   - work-in-progress
+llm-review:
+  date: 2026-08-28
+  model: "gpt-5.6-terra"
+  version: "article-qc-v1.1"
+  source:
+    fetched: 2026-08-28
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -83,9 +89,10 @@ Despite how promising and scalable we think some biosecurity interventions are, 
 
 Again, please fill in [this coordination form](https://docs.google.com/forms/d/e/1FAIpQLSc5Lao8hdqFU49ojhPW7TiM5aCTAJ0H1_qBzINAonHTyS951w/viewform?usp=sf_link) to stay informed of developments and opportunities.
 
+:::collapse
 *We thank Chris Bakerlee, Jamie Balsillie, Kevin Esvelt, Kyle Fish, Cate Hall, Holden Karnofsky, Grigory Khimulya, Mike Levine, and Carl Shulman for feedback on this post.*
-
-*This work is licensed under a [Creative Commons Attribution 4.0 International License.](https://creativecommons.org/licenses/by/4.0/)*
+{--{"author":"Luc's AI","timestamp":1787919029261}@@
+*This work is licensed under a [Creative Commons Attribution 4.0 International License.](https://creativecommons.org/licenses/by/4.0/)*--}{++{"author":"Luc's AI","timestamp":1787919029261}@@:::++}
 
 [^note-snyder-1]: E.g. if biorisk was 1% in the next century, each of these interventions would cut the absolute risk of catastrophe by at least 0.01%
 
