@@ -9,12 +9,11 @@ accessed: 2026-06-21
 description: "Mitchell defines the notion of bias in generalization problems, shows that biases are necessary for the inductive leap from training instances to new situations, and considers classes of justifiable biases and their relationship to domain-independence."
 tags:
   - "article-importer"
-{++{"author":"Luc's AI","timestamp":1787908883352}@@llm-review:
+{++{"author":"Luc's AI","timestamp":1787908890886}@@llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v2"
   source:
-    content-sha: "sha256:3b070b9f6903e0e175629bc8ef3db59331c54744e6eb8f328a2607217600177d"
     fetched: 2026-08-27
     kind: "live"
 ++}---{--{"author":"Luc's AI","timestamp":1787843607299}@@

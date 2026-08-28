@@ -16,8 +16,8 @@ llm-review:
   model: "sonnet"
   version: "article-qc-v1.1"
   source:
-    content-sha: "sha256:01bad317e2aa0b23c4c2c301d30462f76d5fcb53e95269aa8f9aaf51d82a8fb5"
-    fetched: 2026-08-28
+{--{"author":"Luc's AI","timestamp":1787908891405}@@    content-sha: "sha256:01bad317e2aa0b23c4c2c301d30462f76d5fcb53e95269aa8f9aaf51d82a8fb5"
+--}    fetched: 2026-08-28
     kind: "live"
 ---
 %%

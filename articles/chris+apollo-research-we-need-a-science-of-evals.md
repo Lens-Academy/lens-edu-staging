@@ -8,12 +8,11 @@ created: 2026-02-27
 description: "In this post, we argue that if AI model evaluations (evals) want to have meaningful real-world impact, we need a “Science of Evals”, i.e. the field needs rigorous scientific processes that provide more confidence in evals methodology and results."
 tags:
   - "obsidian-web-clipper"
-{++{"author":"Luc's AI","timestamp":1787908881738}@@llm-review:
+{++{"author":"Luc's AI","timestamp":1787908889270}@@llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v1"
   source:
-    content-sha: "sha256:ec0c3be320564de0f1a99ed4069d508e7c0364160a3f8ae5bfdbfd19d86705d7"
     fetched: 2026-08-27
     kind: "live"
 ++}---{--{"author":"Luc's AI","timestamp":1787826439917}@@

@@ -17,12 +17,11 @@ accessed: 2026-06-21
 description:
 tags:
   - "article-importer"
-{++{"author":"Luc's AI","timestamp":1787908882528}@@llm-review:
+{++{"author":"Luc's AI","timestamp":1787908890165}@@llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v2"
   source:
-    content-sha: "sha256:da8f1988f43da302578053a3d91371bda5ea5fee6e42c1a485c5e0cf51b15512"
     fetched: 2026-08-27
     kind: "live"
 ++}---{--{"author":"Luc's AI","timestamp":1787842782784}@@

@@ -12,12 +12,11 @@ tags:
   - "scope-sensitivity"
   - "motivation"
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1787908884734}@@llm-review:
+{++{"author":"Luc's AI","timestamp":1787908892214}@@llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v2"
   source:
-    content-sha: "sha256:70b08f9185f6cc908648243ffdff1da39bcbf6b8ae4c08189d07ac4a934f1944"
     fetched: 2026-08-27
     kind: "live"
 ++}---{--{"author":"Luc's AI","timestamp":1787843228684}@@

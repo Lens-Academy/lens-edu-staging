@@ -13,12 +13,11 @@ tags:
   - animal-welfare
   - moral-philosophy
 allowUnreachableUrl: true
-{++{"author":"Luc's AI","timestamp":1787908881987}@@llm-review:
+{++{"author":"Luc's AI","timestamp":1787908889608}@@llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v2"
   source:
-    content-sha: "sha256:11059ec8e3268bc5efccb988fa3a44713b20188a3774f228b5c9aa14a2c8d27d"
     fetched: 2026-08-27
     kind: "live"
 ++}---{--{"author":"Luc's AI","timestamp":1787843384380}@@

@@ -9,12 +9,11 @@ accessed: 2026-06-21
 description: "Why are billions of dollars being poured into artificial intelligence R&D this year? Companies certainly expect to get a return on their investment. Arguably, the main reason AI is profitable i…"
 tags:
   - "article-importer"
-{++{"author":"Luc's AI","timestamp":1787908884415}@@llm-review:
+{++{"author":"Luc's AI","timestamp":1787908891949}@@llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v2"
   source:
-    content-sha: "sha256:e94e37c89ee8cc902c51dfa55b6c3ebff49f52b49fa080a2e50a3ebb440ccb28"
     fetched: 2026-08-27
     kind: "live"
 ++}---{--{"author":"Luc's AI","timestamp":1787843337390}@@

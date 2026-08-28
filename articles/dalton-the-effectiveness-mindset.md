@@ -17,7 +17,6 @@ llm-review:
   model: "sonnet"
   version: "article-qc-v1.1"
   source:
-    content-sha: "sha256:0a9bfa5815a8ec9d2b915a45fae6f96219dac46d552388b15cb02c5910826bdd"
     fetched: 2026-08-28
     kind: "live"
 ---

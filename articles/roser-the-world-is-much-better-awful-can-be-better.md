@@ -12,12 +12,11 @@ tags:
   - "global-health"
   - "progress"
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1787908882848}@@llm-review:
+{++{"author":"Luc's AI","timestamp":1787908890391}@@llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v2"
   source:
-    content-sha: "sha256:7baa7bf5f6eaaac8aaa4d5361348a79bec13aad1095cbb3a826dc9ef0017fed8"
     fetched: 2026-08-27
     kind: "live"
 ++}---{--{"author":"Luc's AI","timestamp":1787844390342}@@

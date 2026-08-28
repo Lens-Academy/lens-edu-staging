@@ -14,12 +14,11 @@ tags:
   - expected-value
   - cause-prioritization
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1787908880656}@@llm-review:
+{++{"author":"Luc's AI","timestamp":1787908887926}@@llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v2"
   source:
-    content-sha: "sha256:d8e31dbca06485c491447bcb7f71b1ea91888f043a91f802e49e8cc5f6d009a0"
     fetched: 2026-08-27
     kind: "live"
 ++}---{--{"author":"Luc's AI","timestamp":1787844044903}@@

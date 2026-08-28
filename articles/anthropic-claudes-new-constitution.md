@@ -9,12 +9,11 @@ accessed: 2026-06-21
 description: "A new approach to a foundational document that expresses and shapes who Claude is"
 tags:
   - "article-importer"
-{++{"author":"Luc's AI","timestamp":1787908879627}@@llm-review:
+{++{"author":"Luc's AI","timestamp":1787908886681}@@llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v1"
   source:
-    content-sha: "sha256:f9cf7d28f5684116cd11a35f0fbb427666753712d9f96ea8e2ef65da746b8634"
     fetched: 2026-08-27
     kind: "live"
 ++}---{--{"author":"Luc's AI","timestamp":1787825775087}@@
