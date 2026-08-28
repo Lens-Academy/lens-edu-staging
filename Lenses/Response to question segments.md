@@ -1,16 +1,16 @@
 ---
 id: 8189763f-576e-4f04-a614-4a00c628e386
 duration_minutes: 15
-title: Response to question segments
-tldr: Use Response to question segments for open responses, ratings, choices, fill-in-the-blank responses, and rankings with same syntax in surveys, normal lenses, and learning-outcome tests.
+title: Question segments
+tldr: Use question segments for open responses, ratings, choices, fill-in-the-blank responses, and rankings with the same syntax in surveys, normal lenses, and learning-outcome tests.
 summary_for_tutor: 'Reference page for course creators. It documents shared fields, exact syntax, options, defaults, LLM assessment flow, and grading behavior for Question: Open, Question: Rating, Question: Choice, Question: FillBlank, and Question: Ranking Response to question segments.'
 ---
 
 %% A Response to question segment is an interactive field that collects one learner response. Same syntax works in surveys, normal lenses, and Learning Outcome tests. Context determines grading.
 
-Every Response to question segment needs `id::` and `content::`. Editor should create globally unique UUID automatically. For hand-written files, use https://www.uuidgenerator.net/version4 or plain-text API https://www.uuidgenerator.net/api/version4. Never change ID after learners respond. No separate key needed.
+Every question segment needs an `id::` and a `content::` field. The editor creates a globally unique UUID for you. If you write a file by hand, get one from https://www.uuidgenerator.net/version4 (plain-text API: https://www.uuidgenerator.net/api/version4). Responses are stored under this id, so never change it after learners have responded. There is no separate `key::` field.
 
-Response to question segments are required by default. Adding one normally means learner should answer it; required default prevents accidental missing responses. Add `optional:: true` only when skipping is intentional, such as sensitive survey question or optional reflection. `optional::` defaults to `false`.
+A question segment is required by default: a learner cannot complete the lens without answering it. This default prevents questions from being skipped by accident. Add `optional:: true` only when skipping is intentional — for example a sensitive survey question, or an optional reflection. `optional::` defaults to `false`.
 
 Graded `Question: Open` and `Question: FillBlank` use same assessor flow. Platform supplies base assessment prompt, then authored `assessment-instructions::` when present, question context, expected answers, and learner response. Assessor returns structured `score` from 0 to 100 and private `reason`. Learner sees percentage, not private reason.
 
@@ -108,9 +108,10 @@ id:: cb39e8f1-4477-4b66-b016-37c99c5ff753
 content:: Which topics interest you?
 options::
 - Forecasting
-- Governance CORRECT
+- Governance{--{"author":"Luc's AI","timestamp":1787905563521}@@ CORRECT--}
 - Technical safety
-multi:: true
+multi:: true{++{"author":"Luc's AI","timestamp":1787905563521}@@
+{>>{"author":"Luc's AI","timestamp":1787905563521}@@The stray "CORRECT" here looks like a leftover from the syntax discussion — this is the ungraded survey-style example, so no marker belongs on any option. The platform keeps `- [x]` as the one correct-option syntax.<<}++}
 
 %% Multiple choice has same options and defaults as single choice. For grading, learner choices must exactly match all `[x]` options.
 
@@ -145,6 +146,8 @@ content:: How many years until transformative AI? {{number}} {>>{"author":"Luc",
 optional:: true
 
 %% Numeric grading uses one reference number: `{{number 42}}` or `{{number 149,600,000}}`. There is no range syntax. Commas may separate thousands; decimals and negative values work.
+
+A number blank may declare bounds the input enforces: `{{number min 0}}`, `{{number min 0 max 100}}`, or with a reference `{{number min 0 149,600,000}}` (`minimum`/`maximum` also work). Use `min 0` whenever only a natural number makes sense, so a learner cannot enter -6 for a distance. Bounds restrict what can be typed; they do not affect grading.
 
 Assessor infers expected precision from question. Base numeric rubric:
 - 100: correct within precision reasonably implied by question.
