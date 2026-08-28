@@ -6,7 +6,7 @@ author:
   - Holly Elmore
 published: 2016-08-26
 created: 2026-05-28
-description: Spoilers ahead — listen to the pisodee beforehand if you don’t want to hear a rough summary first. …
+description: Spoilers ahead — listen to the episode beforehand if you don’t want to hear a rough summary first. …
 tags:
   - ea-intro-program
   - effective-altruism
@@ -16,7 +16,7 @@ tags:
   - work-in-progress
 llm-review:
   date: 2026-08-28
-  model: "gpt-5.6-terra"
+  model: "sonnet"
   version: "article-qc-v1.1"
   source:
     fetched: 2026-08-28
@@ -30,6 +30,8 @@ Add discussion note here:
 %%
 
 # We Are in Triage Every Second of Every Day
+
+*(Cross-posted from [this blog post](https://mhollyelmoreblog.wordpress.com/2016/08/26/we-are-in-triage-every-second-of-every-day/).)*
 
 ***Spoilers ahead** — listen to the episode beforehand if you don't want to hear a rough summary first.*
 
