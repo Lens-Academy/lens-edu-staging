@@ -6,20 +6,22 @@ source_url: "https://centerforreducingsuffering.org/longtermism-and-animal-advoc
 published: 2020-11-11
 created: 2026-08-27
 accessed: 2026-08-27
-llm-review:
-  content-sha: "sha256:2d570092616f8143606b9b98b15c749d30b774bb6bf2d62053aadf92c5ab23dc"
-  date: 2026-08-27
-  model: "sonnet"
-  version: "article-qc-v2"
-  source:
-    content-sha: "sha256:d0ce6f304f04f3dab04ccb51a9ad4a380c21aa155d34e30c28e997d278dc1f7d"
-    fetched: 2026-08-27
-    kind: "live"
 description: "A discussion of whether animal advocacy or, more generally, expanding the moral circle, should be a priority for longtermists"
 tags:
   - "article-importer"
----
-
+llm-review:
+  content-sha: "sha256:2d570092616f8143606b9b98b15c749d30b774bb6bf2d62053aadf92c5ab23dc"
+  date: {--{"author":"Luc's AI","timestamp":1787905058292}@@2026-08-27--}{++{"author":"Luc's AI","timestamp":1787905058292}@@2026-08-28++}
+  model: "sonnet"
+  version: {--{"author":"Luc's AI","timestamp":1787905058085}@@"article-qc-v2"--}{++{"author":"Luc's AI","timestamp":1787905058085}@@"article-qc-v1.1"++}
+  source:
+    content-sha: "sha256:d0ce6f304f04f3dab04ccb51a9ad4a380c21aa155d34e30c28e997d278dc1f7d"
+    fetched: {--{"author":"Luc's AI","timestamp":1787905057871}@@2026-08-27--}{++{"author":"Luc's AI","timestamp":1787905057871}@@2026-08-28++}
+    kind: "live"
+{--{"author":"Luc's AI","timestamp":1787905057671}@@description: "A discussion of whether animal advocacy or, more generally, expanding the moral circle, should be a priority for longtermists"
+tags:
+  - "article-importer"
+--}---
 %%
 Add discussion note here:
 
