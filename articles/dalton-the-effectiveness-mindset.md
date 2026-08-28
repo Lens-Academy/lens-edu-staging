@@ -41,7 +41,3 @@ Key concepts in this chapter include:
 - **Tradeoffs:** Because we have limited time and money, we need to prioritize between different ways to improve the world.
 - **Scout mindset:** We'll be better able to help others if we're working together to think clearly and orient towards finding the truth, rather than trying to defend our own ideas. Humans naturally aren't great at this (aside from wanting to defend our own ideas, we have a host of other biases), but if we want to really understand the world, it's worth seeking the truth and trying to become clearer thinkers.
 
-{--{"author":"Luc's AI","timestamp":1787906839846}@@---
-
-*This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
---}
