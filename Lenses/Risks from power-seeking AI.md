@@ -11,7 +11,7 @@ content::
 The 80,000 Hours case for why reducing risks from power-seeking AI is one of the most pressing problems of our time.
 
 #### Article
-source:: [[../articles/80k-risks-from-powerseeking-ai]]
+source:: [[../articles/80k-risks-from-powerseeking-ai-old-before-reimport-2026-08-28]]
 
 
 #### Chat
