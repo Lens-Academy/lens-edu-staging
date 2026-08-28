@@ -105,8 +105,6 @@ content:: <the test question>
 assessment-instructions:: <the rubric (see above)>
 feedback-instructions:: <what the tutor should tell the learner afterwards; omit for score only>
 
-{>>{"author":"Luc","timestamp":1786105824340}@@can a test have multiple questions? I think so? But then how is test pass/failure decided?<<}
-
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/My Topic - PQ]]
