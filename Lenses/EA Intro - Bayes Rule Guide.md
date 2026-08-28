@@ -8,4 +8,4 @@ tags:
 ---
 
 #### Article
-source:: [[../articles/ea-handbook-bayes-rule-guide]]
+source:: [[../articles/ea-handbook-bayes-rule-guide-old-before-reimport-2026-08-28]]
