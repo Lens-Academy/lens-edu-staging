@@ -6,5 +6,5 @@ title: "How AI could create the world’s biggest problems"
 ---
 
 #### Article
-source:: [[../articles/80k-how-ai-could-create-the-world's-biggest-problems]]
+source:: [[../articles/80k-how-ai-could-create-the-world's-biggest-problems-old-before-reimport-2026-08-28]]
 to:: "work on the major challenges that might otherwise be ignored."
