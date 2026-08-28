@@ -2,7 +2,7 @@
 tags:
   - validator-ignore
 ---
-# Writing Learning Outcomes (AI Guide)
+# Writing (Learning) Outcomes (AI Guide)
 ## Outcomes
 
 **Outcome** is the umbrella term for an intended or observed change in a learner's learning, actions, circumstances, or internal state.
