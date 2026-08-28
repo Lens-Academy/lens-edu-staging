@@ -2,8 +2,8 @@
 title: "Slow motion videos as AI risk intuition pumps"
 author:
   - "Andrew Critch"
-source_url: "https://www.lesswrong.com/posts/Ccsx339LE9Jhoii9K/slow-motion-videos-as-ai-risk-intuition-pumps"
-published: 2022-06-14
+{--{"author":"Luc's AI","timestamp":1787927488288}@@source_url: "https://www.lesswrong.com/posts/Ccsx339LE9Jhoii9K/slow-motion-videos-as-ai-risk-intuition-pumps"
+--}published: 2022-06-14
 created: 2026-08-28
 accessed: 2026-08-28
 llm-review:
@@ -19,6 +19,8 @@ tags:
 ---
 
 %%
+Source URL before re-import: https://www.lesswrong.com/posts/Ccsx339LE9Jhoii9K/slow-motion-videos-as-ai-risk-intuition-pumps
+
 Add discussion note here:
 
 ...
