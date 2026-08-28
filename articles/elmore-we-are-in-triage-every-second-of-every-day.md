@@ -1,12 +1,12 @@
 ---
-title: "We Are in Triage Every Second of Every Day"
+title: "We are in triage every second of every day"
 source_url: https://forum.effectivealtruism.org/s/B79ro5zkhndbBKRRX/p/vQpk3cxdAe5RX9xzo
 allowUnreachableUrl: true
 author:
   - Holly Elmore
 published: 2016-08-26
 created: 2026-05-28
-description: A reflection on a RadioLab episode about triage in Haiti, and what it means to accept that we are always making choices about who to help — and who not to help.
+description: Spoilers ahead — listen to the pisodee beforehand if you don’t want to hear a rough summary first. …
 tags:
   - ea-intro-program
   - effective-altruism
@@ -14,8 +14,14 @@ tags:
   - tradeoffs
   - moral-psychology
   - work-in-progress
+llm-review:
+  date: 2026-08-28
+  model: "gpt-5.6-terra"
+  version: "article-qc-v1.1"
+  source:
+    fetched: 2026-08-28
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -23,7 +29,9 @@ Add discussion note here:
 
 %%
 
-# We Are in Triage Every Second of Every Day
+# We {--{"author":"Luc's AI","timestamp":1787918121422}@@Are--}{++{"author":"Luc's AI","timestamp":1787918121422}@@are++} in {--{"author":"Luc's AI","timestamp":1787918121422}@@Triage Every Second--}{++{"author":"Luc's AI","timestamp":1787918121422}@@triage every second++} of {--{"author":"Luc's AI","timestamp":1787918121422}@@Every Day--}{++{"author":"Luc's AI","timestamp":1787918121422}@@every day
+
+(Cross-posted from [this blog post.](https://mhollyelmoreblog.wordpress.com/2016/08/26/we-are-in-triage-every-second-of-every-day/))++}
 
 ***Spoilers ahead** — listen to the episode beforehand if you don't want to hear a rough summary first.*
 
@@ -39,7 +47,7 @@ Meanwhile, on the news, the staff hears exaggerated reports of looting and lawle
 
 The crux of this story is that giving in to the logic of triage put the hospital staff on a slippery slope to "playing God". The episode goes on to discuss ways of formalizing triage so people don't have to rely on their own judgment at such a fraught time. (Utilitarian triage is discussed, and you can almost hear the speakers holding their noses.) Very often, concerns for the caregiver's conscience take center stage, though no one acknowledges how selfish this is. Triage is portrayed very unsympathetically throughout, as if the people being forced to make the choice must be at fault somehow for having gotten in the situation.
 
-But it was the last story that made me want to write this. Sheri Fink, the guest reporter, describes a woman she met in a American-run disaster-relief hospital in Haiti. Nathalie was a charming middle-aged woman whose life was spared because she went to the hospital for difficulty breathing. When the earthquake struck, her entire family was at their home, which collapsed and killed them all. Nathalie was putting on a brave face, just glad to be alive, and she radiated gratitude for the care she had received.
+But it was the last story that made me want to write this. Sheri Fink, the guest reporter, describes a woman she met in an American-run disaster-relief hospital in Haiti. Nathalie was a charming middle-aged woman whose life was spared because she went to the hospital for difficulty breathing. When the earthquake struck, her entire family was at their home, which collapsed and killed them all. Nathalie was putting on a brave face, just glad to be alive, and she radiated gratitude for the care she had received.
 
 But there was a problem. Nathalie needed oxygen, and the hospital (indeed, the nation) did not have enough to go around. Because she was suffering heart failure, the triage nurses had decided she should receive no more oxygen and return to a local Haitian-run hospital, most likely to die. Fink mentions ruefully that the nurse who made the call had never met Nathalie, as if that makes any difference at all.
 
@@ -47,7 +55,7 @@ Fink rides in the ambulance with her to the new hospital, where she coughs and s
 
 ---
 
-This story reinforces for Fink the fantasy that you never have to choose — that agreeing to choose is already going too far. Fink was so moved by Nathalie that she helped her to get a humanitarian visa to the US. It turned out Nathalie needed a heart transplant, and she died before she could get one. But, Fink says, she was a delight to everyone she met in those hospital; she even took up a collection for the other patients back in Haiti. So who were the doctors to say that she didn't deserve every chance?
+This story reinforces for Fink the fantasy that you never have to choose — that agreeing to choose is already going too far. Fink was so moved by Nathalie that she helped her to get a humanitarian visa to the US. It turned out Nathalie needed a heart transplant, and she died before she could get one. But, Fink says, she was a delight to everyone she met in those hospitals; she even took up a collection for the other patients back in Haiti. So who were the doctors to say that she didn't deserve every chance?
 
 This is, of course, the wrong question. Of course Nathalie deserved every chance. No one should have to suffer heart failure in the first place. But did she deserve the oxygen more than all the other people who needed oxygen in that hospital? No. Did Nathalie's time alive matter more than the greater amount of time the doctors could give other patients by employing the oxygen carefully? Absolutely not.
 
@@ -57,6 +65,6 @@ Making better choices through conscious triage is no more "playing God" than bli
 
 I understand that it's hard, that we will always instinctively care more for the people we see than those we don't. There's no shame in Fink's deep feelings for Nathalie. They are a key component of compassion. But there should be great shame in letting more people suffer and die than you need to because you can't look past your own feelings. This is the kind of [narrow empathy that Paul Bloom is against](https://www.amazon.com/Against-Empathy-Case-Rational-Compassion/dp/0062339338).
 
-There are [millions of people around the world dying of entirely preventable causes](http://www.un.org/apps/news/story.asp?NewsID=54340#.V7_XV7V8bWQ). Why should it make any difference that they aren't in front of us? You know they are there. *They* know the suffering they feel. [Poverty](https://www.givedirectly.org/) is a major culprit, as are [neglected tropical diseases](http://www.givewell.org/international/top-charities/amf) that could be cured for [pennies per person per year](http://www.givewell.org/international/top-charities/schistosomiasis-control-initiative). Money that you won't even miss could be saving lives right now [if you put it to that purpose](https://www.givingwhatwecan.org/get-involved/join/) instead of, say, home improvement or collecting action figures. Every decision we make bears on the lives of the myriad others we might be able to help.
+There are [millions of people around the world dying of entirely preventable causes](http://www.un.org/apps/news/story.asp?NewsID=54340#.V7_XV7V8bWQ). Why should it make any difference that they aren't in front of us? You know they are there. *They* know the suffering they feel. [Poverty](https://www.givedirectly.org/?gclid=CjwKEAjwrvq9BRD5gLyrufTqg0YSJACcuF81S-ZBjDu85JfqJnmhncsRVcaL4Gb_InpXs74bUuvuGhoC4m7w_wcB) is a major culprit, as are [neglected tropical diseases](http://www.givewell.org/international/top-charities/amf) that could be cured for [pennies per person per year](http://www.givewell.org/international/top-charities/schistosomiasis-control-initiative). Money that you won't even miss could be saving lives right now [if you put it to that purpose](https://www.givingwhatwecan.org/get-involved/join/) instead of, say, home improvement or collecting action figures. Every decision we make bears on the lives of the myriad others we might be able to help.
 
 **We are always in triage.** I fervently hope that one day we will be able to save everyone. In the meantime, it is irresponsible to pretend that we aren't [making life and death decisions with the allocation of our resources](https://www.effectivealtruism.org/). Pretending there is no choice only makes our decisions worse.
