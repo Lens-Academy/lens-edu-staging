@@ -4,8 +4,14 @@ source_url: https://www.lesswrong.com/posts/rJLviHqJMTy8WQkow/recursion-magic
 author:
   - "Eliezer Yudkowsky"
 published: 2008-11-25
+llm-review:
+  date: 2026-08-28
+  model: "sonnet"
+  version: "article-qc-v1.1"
+  source:
+    fetched: 2026-08-28
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -17,9 +23,7 @@ Add discussion note here:
 
 _...4, 5 sources of discontinuity._
 
-## Recursion
-
-Recursion is probably the most difficult part of this topic. We have historical records aplenty of _cascades,_ even if untangling the causality is difficult. _Cycles_ of reinvestment are the heartbeat of the modern economy. An _insight_ that makes a hard problem easy, is something that I hope you've experienced at least once in your life...
+**Recursion** is probably the most difficult part of this topic. We have historical records aplenty of _cascades,_ even if untangling the causality is difficult. _Cycles_ of reinvestment are the heartbeat of the modern economy. An _insight_ that makes a hard problem easy, is something that I hope you've experienced at least once in your life...
 
 But we don't have a whole lot of experience redesigning our own neural circuitry.
 
@@ -35,7 +39,7 @@ If we want a computer program that experiences _cascades_ of self-improvement, t
 
 Now if you are one of those annoying nitpicky types, like me, you will notice a flaw in this logic: suppose you built an optimizing compiler that searched over a sufficiently wide range of possible optimizations, that it did not ordinarily have _time_ to do a full search of its own space - so that, when the optimizing compiler ran out of time, it would just implement whatever speedups it had already discovered. Then the optimized optimizing compiler, although it would only implement the same logic faster, would do more optimizations in the same time - and so the second output would not equal the first output.
 
-Well... that probably doesn't buy you much. Let's say the optimized program is 20% faster, that is, it gets 20% more done in the same time. Then, unrealistically assuming "optimization" is linear, the 2-optimized program will be 24% faster, the 3-optimized program will be 24.8% faster, and so on until we top out at a 25% improvement. [_k_< 1](https://www.lesswrong.com/lw/w5/cascades_cycles_insight).
+Well... that probably doesn't buy you much. Let's say the optimized program is 20% faster, that is, it gets 20% more done in the same time. Then, unrealistically assuming "optimization" is linear, the 2-optimized program will be 24% faster, the 3-optimized program will be 24.8% faster, and so on until we top out at a 25% improvement. [_k_ < 1](https://www.lesswrong.com/lw/w5/cascades_cycles_insight).
 
 So let us turn aside from optimizing compilers, and consider a more interesting artifact, EURISKO.
 
@@ -57,7 +61,7 @@ But it is, thankfully, a little harder than that to destroy the world - as Lenat
 
 Robin previously asked why [Douglas Engelbart did not take over the world](http://www.overcomingbias.com/2008/11/engelbarts-uber.html), despite his vision of a team building tools to improve tools, and his anticipation of tools like computer mice and hypertext.
 
-One reply would be, "Sure, a computer gives you a 10% advantage in doing various sorts of problems, some of which include computers - but there's still a lot of work that the computer _doesn't_ help you with - and the mouse doesn't run off and write better mice entirely on its own - so _k_< 1, and it still takes large amounts of human labor to advance computer technology as a whole - plus a lot of the interesting knowledge is nonexcludable so it's hard to capture the value you create - and that's why Buffett could manifest a better take-over-the-world-with-sustained-higher-interest-rates than Engelbart."
+One reply would be, "Sure, a computer gives you a 10% advantage in doing various sorts of problems, some of which include computers - but there's still a lot of work that the computer _doesn't_ help you with - and the mouse doesn't run off and write better mice entirely on its own - so _k_ < 1, and it still takes large amounts of human labor to advance computer technology as a whole - plus a lot of the interesting knowledge is nonexcludable so it's hard to capture the value you create - and that's why Buffett could manifest a better take-over-the-world-with-sustained-higher-interest-rates than Engelbart."
 
 But imagine that Engelbart had built a computer mouse, and discovered that each click of the mouse raised his IQ by one point. Then, perhaps, we would have had a _situation_ on our hands.
 
@@ -75,9 +79,7 @@ So one way of looking at it is: A computer mouse isn't recursive enough.
 
 This is an issue that I need to address at further length, but for today I'm out of time.
 
-## Magic
-
-Magic is the final factor I'd like to point out, at least for now, in considering sources of discontinuity for self-improving minds. By "magic" I naturally do not refer to [this](https://www.lesswrong.com/lw/tv/excluding_the_supernatural). Rather, "magic" in the sense that if you asked 19th-century Victorians what they thought the future would bring, they would have talked about flying machines or gigantic engines, and a very few true visionaries would have suggested space travel or Babbage computers. Nanotechnology, not so much.
+**Magic** is the final factor I'd like to point out, at least for now, in considering sources of discontinuity for self-improving minds. By "magic" I naturally do not refer to [this](https://www.lesswrong.com/lw/tv/excluding_the_supernatural). Rather, "magic" in the sense that if you asked 19th-century Victorians what they thought the future would bring, they would have talked about flying machines or gigantic engines, and a very few true visionaries would have suggested space travel or Babbage computers. Nanotechnology, not so much.
 
 The future has a reputation for accomplishing feats which the past thought impossible. Future civilizations have even broken what past civilizations thought (incorrectly, of course) to be the laws of physics. If prophets of 1900 AD - never mind 1000 AD - had tried to bound the powers of human civilization a billion years later, some of those impossibilities would have been accomplished before the century was out; transmuting lead into gold, for example. Because we remember future civilizations surprising past civilizations, it has become cliche that we can't put limits on our great-grandchildren.
 
