@@ -8,4 +8,4 @@ tags:
 ---
 
 #### Article
-source:: [[../articles/karnofsky-career-choice-longtermists]]
+source:: [[../articles/karnofsky-career-choice-longtermists-old-before-reimport-2026-08-28]]
