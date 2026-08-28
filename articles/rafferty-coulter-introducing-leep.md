@@ -6,7 +6,7 @@ author:
   - Lucia Coulter
 published: 2020-10-06
 created: 2026-05-28
-description: The launch announcement for LEEP (Lead Exposure Elimination Project), a charity incubated by Charity Entrepreneurship that advocates for lead paint regulation in countries with high and growing burdens of lead poisoning.
+description: "We are excited to announce the launch of Lead Exposure Elimination Project (LEEP), a new EA organisation incubated by Charity Entrepreneurship. Our mission is to reduce lead poisoning, which causes significant disease burden worldwide. We aim to achieve this by advocating for lead paint regulation in countries with large and growing burdens of lead poisoning from paint."
 tags:
   - ea-intro-program
   - effective-altruism
@@ -14,8 +14,14 @@ tags:
   - cause-prioritization
   - leverage-points
   - work-in-progress
+llm-review:
+  date: 2026-08-28
+  model: "gpt-5.6-terra"
+  version: "article-qc-v1.1"
+  source:
+    fetched: 2026-08-28
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -47,7 +53,7 @@ In short, the problem of lead poisoning is a significant one.
 
 **Neglectedness**
 
-At present, while all countries except for one have banned leaded petrol, 61% of countries have no lead paint regulations whatsoever [1]. In many of these primarily low and middle-income countries the burden of disease from lead poisoning is [still significant](https://lead.pollution.org/). In high-income countries, this is a less severely neglected area, as most countries have introduced regulations banning leaded petrol and lead paint.
+At present, while all countries except for one have banned leaded petrol, 61% of countries have no lead paint regulations whatsoever [1]. In many of these primarily low and middle-income countries the burden of disease from lead poisoning is [still significant](https://lead.pollution.org/#). In high-income countries, this is a less severely neglected area, as most countries have introduced regulations banning leaded petrol and lead paint.
 
 While there are some organisations working to address this issue in low and middle-income countries, including IPEN, ToxicsLink, and Pure Earth, many countries with significant lead burdens remain neglected by other actors. LEEP aims to fill this gap, and target these neglected countries.
 
@@ -105,10 +111,11 @@ We greatly value your feedback and suggestions, particularly at this early stage
 
 *LEEP was incubated under* *[Charity Entrepreneurship](http://www.charityentrepreneurship.com/), an effective altruism organization, which provided our initial funding with a $60,000 seed grant. Our current team members are co-founders Jack Rafferty and Lucia Coulter.*
 
+:::collapse
 ## References
 
 1. UNEP 2019: [Update on the global status of legal limits on lead in paint. September 2019](https://www.unenvironment.org/resources/report/2019-update-global-status-legal-limits-lead-paint)
-2. Lamphear et al. 2oo5: [Low-level environmental lead exposure and children’s intellectual function: an international pooled analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1257652/)
+2. Lamphear et al. {--{"author":"Luc's AI","timestamp":1787919012396}@@2oo5:--}{++{"author":"Luc's AI","timestamp":1787919012396}@@2005:++} [Low-level environmental lead exposure and children’s intellectual function: an international pooled analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1257652/)
 3. Reuben et al. 2019: [Association of childhood lead exposure with adult personality traits and lifelong mental health](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2720691)
 4. Attina & Trasande 2013: [Economic costs of childhood lead exposure in low-and middle-income countries](https://ehp.niehs.nih.gov/doi/full/10.1289/ehp.1206424)
 5. Gould 2009: [Childhood lead poisoning: Conservative estimates of the social and economic benefits of lead hazard control](https://ehp.niehs.nih.gov/doi/full/10.1289/ehp.0800408)
@@ -120,7 +127,7 @@ We greatly value your feedback and suggestions, particularly at this early stage
 11. Charity Entrepreneurship 2020: [Lead Paint Regulation](https://www.charityentrepreneurship.com/uploads/1/0/7/2/10726656/leadpaintregulation.pdf)
 12. Baumgartner et al. 2009: Lobbying and Policy Change: Who wins, who loses, and why?
 
-*Originally published at [Introducing LEEP: Lead Exposure Elimination Project](https://forum.effectivealtruism.org/posts/fd96FtLFACeAshqJP/introducing-leep-lead-exposure-elimination-project).*
-*Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
+{--{"author":"Luc's AI","timestamp":1787919012062}@@*Originally published at [Introducing LEEP: Lead Exposure Elimination Project](https://forum.effectivealtruism.org/posts/fd96FtLFACeAshqJP/introducing-leep-lead-exposure-elimination-project).*
+*Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*--}{++{"author":"Luc's AI","timestamp":1787919012062}@@:::++}
 
 {>>TODO: Licensed content<<}
