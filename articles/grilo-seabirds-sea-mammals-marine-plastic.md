@@ -13,8 +13,14 @@ tags:
   - animal-welfare
   - cause-prioritization
   - work-in-progress
+llm-review:
+  date: 2026-08-28
+  model: "sonnet"
+  version: "article-qc-v1.1"
+  source:
+    fetched: 2026-08-28
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -53,9 +59,9 @@ The data and calculations are presented below.
 - Catch of wild fish per capita per year (WFpC): WF / WP = 1.62 T / (6.92 G) = **234**.
 - Ratio between the catch of wild fish and the number of seabirds killed by marine plastic pollution: WFpC / DSBpC = 234 / (145 μ) = **1.62 M**.
 - Ratio between the catch of wild fish and the number of sea mammals killed by marine plastic pollution: WFpC / DSMpC = 234 / (14.5 μ) = **16.2 M**.
-
+{--{"author":"Luc's AI","timestamp":1787910700048}@@
 *This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
-
+--}
 [^note-grilo-1]: 1 kg is the global value, and it is much smaller for many countries. Most of the countries emit less than 0.1 % of the plastic waste to the ocean (see [this](https://ourworldindata.org/grapher/share-of-global-plastic-waste-emitted-to-the-ocean?country=Africa~Asia~Europe~South+America~North+America~Oceania) map), although [3 %](https://ourworldindata.org/plastic-pollution#where-does-our-plastic-accumulate-in-the-ocean-and-what-does-that-mean-for-the-future) of the global plastic waste is emitted to the ocean.
 
 {>>TODO: Licensed content<<}
