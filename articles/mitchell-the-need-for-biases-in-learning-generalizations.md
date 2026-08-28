@@ -9,17 +9,15 @@ accessed: 2026-06-21
 description: "Mitchell defines the notion of bias in generalization problems, shows that biases are necessary for the inductive leap from training instances to new situations, and considers classes of justifiable biases and their relationship to domain-independence."
 tags:
   - "article-importer"
-{++{"author":"Luc's AI","timestamp":1787908890886}@@llm-review:
+llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v2"
   source:
     fetched: 2026-08-27
     kind: "live"
-++}---{--{"author":"Luc's AI","timestamp":1787843607299}@@
-
---}{++{"author":"Luc's AI","timestamp":1787843607299}@@
-++}%%
+---
+%%
 Add discussion note here:
 
 ...
@@ -110,9 +108,9 @@ If biases and initial knowledge are at the heart of the ability to generalize be
 
 ## 6. Acknowledgements
 
-{++{"author":"Luc's AI","timestamp":1787843607046}@@:::collapse
-++}The following people have provided thoughtful comments on various drafts of this paper, and have contributed their own ideas: Saul Amarel, George Drastal, N.S. Sridharan, and Paul Utgoff. This work was supported by NIH grant RR-643-09, and by an award from the Rutgers Research Council.{++{"author":"Luc's AI","timestamp":1787843606757}@@
-:::++}
+:::collapse
+The following people have provided thoughtful comments on various drafts of this paper, and have contributed their own ideas: Saul Amarel, George Drastal, N.S. Sridharan, and Paul Utgoff. This work was supported by NIH grant RR-643-09, and by an award from the Rutgers Research Council.
+:::
 
 ---
 

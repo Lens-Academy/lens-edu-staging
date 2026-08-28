@@ -6,23 +6,21 @@ author:
   - "Vikrant Varma"
   - "Zachary Kenton"
 source_url: "https://deepmind.google/blog/how-undesired-goals-can-arise-with-correct-rewards/"
-published: {--{"author":"Luc's AI","timestamp":1787843675868}@@2022-03-01--}{++{"author":"Luc's AI","timestamp":1787843675868}@@2022-10-07++}
+published: 2022-10-07
 created: 2026-06-21
 accessed: 2026-06-21
 description:
 tags:
   - "article-importer"
-{++{"author":"Luc's AI","timestamp":1787908890630}@@llm-review:
+llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v2"
   source:
     fetched: 2026-08-27
     kind: "live"
-++}---{--{"author":"Luc's AI","timestamp":1787843675407}@@
-
---}{++{"author":"Luc's AI","timestamp":1787843675407}@@
-++}%%
+---
+%%
 Add discussion note here:
 
 ...

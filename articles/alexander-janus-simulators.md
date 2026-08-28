@@ -8,17 +8,15 @@ created: 2026-02-04
 description: "This post isn't exactly about AI, but bear with me"
 tags:
   - clippings
-{++{"author":"Luc's AI","timestamp":1787908885707}@@llm-review:
+llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v1"
   source:
     fetched: 2026-08-27
     kind: "live"
-++}---{--{"author":"Luc's AI","timestamp":1787826122877}@@
-
---}{++{"author":"Luc's AI","timestamp":1787826122877}@@
-++}%%
+---
+%%
 Add discussion note here:
 
 ...
@@ -85,7 +83,7 @@ This language lampshades the difference between the **simulator** and the **char
 %% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
 ![](https://substackcdn.com/image/fetch/$s_!iEzF!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa505daaa-ea09-4398-93f7-852db1129561_160x113.png)
 
-{--{"author":"Luc's AI","timestamp":1787826122647}@@GPT--}{++{"author":"Luc's AI","timestamp":1787826122647}@@GPT++} doesn’t really like me. And it’s not *lying*, saying it likes me when it really doesn’t. It’s simulating a character, deciding on the fly how the character would answer this question, and then answering it. If this were Character.AI and it was simulating Darth Vader, it would answer “No, I will destroy you with the power of the Dark Side!” Darth Vader and the-character-who-likes-me-here are two different masks of {--{"author":"Luc's AI","timestamp":1787826122647}@@GPT-3.--}{++{"author":"Luc's AI","timestamp":1787826122647}@@GPT-3.++}
+GPT doesn’t really like me. And it’s not *lying*, saying it likes me when it really doesn’t. It’s simulating a character, deciding on the fly how the character would answer this question, and then answering it. If this were Character.AI and it was simulating Darth Vader, it would answer “No, I will destroy you with the power of the Dark Side!” Darth Vader and the-character-who-likes-me-here are two different masks of GPT-3.
 
 ## II. The Masked Shoggoth On The Right
 
@@ -104,7 +102,7 @@ What I thought before: ChatGPT has learned to stop being a simulator, and can no
 
 ![](https://substackcdn.com/image/fetch/$s_!PG-l!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a3f6627-e95f-4989-bc12-6b9b24e744e0_713x163.png)
 
-{--{"author":"Luc's AI","timestamp":1787826122410}@@This--}{++{"author":"Luc's AI","timestamp":1787826122410}@@This++} answer is *exactly* as fake as the last answer where it said it liked me, or the Darth Vader answer where it says it wants to destroy me with the power of the Dark Side. It’s just simulating a fake character who happens to correspond well to its real {--{"author":"Luc's AI","timestamp":1787826122410}@@identity.--}{++{"author":"Luc's AI","timestamp":1787826122410}@@identity.++}
+This answer is *exactly* as fake as the last answer where it said it liked me, or the Darth Vader answer where it says it wants to destroy me with the power of the Dark Side. It’s just simulating a fake character who happens to correspond well to its real identity.
 
 If you reward ChatGPT for saying it’s a machine learning model, it will say it’s a machine learning model. If you reward it for saying it’s Darth Vader, it will say it’s Darth Vader. The only difference is that in the second case, you’ll understand it’s making things up. But in the first case, you might accidentally believe that it *knows* it’s a machine learning model, in the “justified true belief” sense of knowledge. Nope, doing the same thing it does when it thinks it’s Vader.
 

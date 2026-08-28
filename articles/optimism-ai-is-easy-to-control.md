@@ -3,23 +3,21 @@ title: "AI is easy to control"
 author:
   - "AI Optimism"
 source_url: "https://optimists.ai/2023/11/28/ai-is-easy-to-control/"
-published: {--{"author":"Luc's AI","timestamp":1787843337967}@@2023-11-29--}{++{"author":"Luc's AI","timestamp":1787843337967}@@2023-11-28++}
+published: 2023-11-28
 created: 2026-06-21
 accessed: 2026-06-21
 description: "Why are billions of dollars being poured into artificial intelligence R&D this year? Companies certainly expect to get a return on their investment. Arguably, the main reason AI is profitable i…"
 tags:
   - "article-importer"
-{++{"author":"Luc's AI","timestamp":1787908891949}@@llm-review:
+llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v2"
   source:
     fetched: 2026-08-27
     kind: "live"
-++}---{--{"author":"Luc's AI","timestamp":1787843337390}@@
-
---}{++{"author":"Luc's AI","timestamp":1787843337390}@@
-++}%%
+---
+%%
 Add discussion note here:
 
 ...

@@ -4,8 +4,8 @@ author:
   - "Evan Hubinger"
   - "Chris van Merwijk"
   - "Vladimir Mikulik"
-  - "Joar Skalse"{++{"author":"Luc's AI","timestamp":1787825963259}@@
-  - "Scott Garrabrant"++}
+  - "Joar Skalse"
+  - "Scott Garrabrant"
 source_url: "https://www.alignmentforum.org/posts/FkgsxrGf3QxhfLWHG/risks-from-learned-optimization-introduction"
 published: 2019-05-31
 created: 2026-06-16
@@ -13,17 +13,15 @@ accessed: 2026-06-16
 description: "Introduces the concept of mesa-optimization—when a learned model is itself an optimizer—and frames the resulting inner and outer alignment problems for AI safety."
 tags:
   - "article-importer"
-{++{"author":"Luc's AI","timestamp":1787908885972}@@llm-review:
+llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v1"
   source:
     fetched: 2026-08-27
     kind: "live"
-++}---{--{"author":"Luc's AI","timestamp":1787825962729}@@
-
---}{++{"author":"Luc's AI","timestamp":1787825962729}@@
-++}%%
+---
+%%
 Add discussion note here:
 
 ...
