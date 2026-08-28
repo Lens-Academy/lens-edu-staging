@@ -1,7 +1,7 @@
 ---
 title: "Preventing Catastrophic Pandemics"
-source_url: https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/
-author:
+{--{"author":"Luc's AI","timestamp":1787926325582}@@source_url: https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/
+--}author:
   - 80,000 Hours
 published: 2020-04-01
 created: 2026-05-28

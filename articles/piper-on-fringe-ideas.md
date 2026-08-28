@@ -1,6 +1,5 @@
 ---
 title: 'On "fringe" ideas'
-source_url: https://theunitofcaring.tumblr.com/post/185847413171/what-do-you-think-about-the-more-fringe-parts-of
 author:
   - Kelsey Piper
 published: 2019-08-19

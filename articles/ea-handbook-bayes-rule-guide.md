@@ -1,6 +1,5 @@
 ---
 title: "Bayes' Rule: Guide"
-source_url: https://arbital.com/p/bayes_rule/?l=1zq
 author:
   - Eliezer Yudkowsky
 published: 2022-07-16
