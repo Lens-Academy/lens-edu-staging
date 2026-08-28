@@ -3,7 +3,7 @@ title: "Global Economic Inequality"
 source_url: https://ourworldindata.org/global-economic-inequality-introduction
 author:
   - Max Roser
-published: 2022-02-23
+published: 2021-12-09
 created: 2026-05-28
 description: An introduction to global economic inequality — how vast the income gaps between countries are, why where you are born matters more than who you are, and what this implies for how we can help.
 tags:
@@ -13,8 +13,14 @@ tags:
   - global-poverty
   - economic-inequality
   - work-in-progress
+llm-review:
+  date: 2026-08-28
+  model: "sonnet"
+  version: "article-qc-v1.1"
+  source:
+    fetched: 2026-08-28
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -25,6 +31,8 @@ Add discussion note here:
 # Global Economic Inequality
 
 ## How much does it matter to be born into a productive, industrialized economy?
+
+> **Note:** Since the publication of this article, the World Bank has updated its poverty data. See the note at the end for more information.
 
 What is most important for how healthy, wealthy, and educated you are is not who you are, but *where* you are. Your knowledge and how hard you work matter too, but much less than the one factor that is entirely outside anyone's control: whether you happen to be born into a productive, industrialized economy or not.
 
@@ -70,7 +78,7 @@ Beyond just two countries, how much does a person's home country matter for wher
 
 Inequality researcher Branko Milanovic studied this question and found that the country where a person lives explains *two-thirds* of the variation of income differences between all people in the world.[^cite-roser-2] Where a person lives is the most important factor of their income.
 
-For a variety of reasons — from family ties to the political restrictions that impede migration — very few people move between countries. Most of the world population [[97%](https://ourworldindata.org/explorers/migration)] lives in the country they were born in. And so, for most people, it is not only the country they live in that determines their income but also the country they were born in.
+For a variety of reasons — from family ties to the political restrictions that impede migration — very few people move between countries. Most of the world population {--{"author":"Luc's AI","timestamp":1787911252918}@@[[97%](https://ourworldindata.org/explorers/migration)]--}{++{"author":"Luc's AI","timestamp":1787911252918}@@[[96%](https://ourworldindata.org/grapher/migrant-populations?tab=line&country=~OWID_WRL&metric=immigrants&unit=share)]++} lives in the country they were born in. And so, for most people, it is not only the country they live in that determines their income but also the country they were born in.
 
 This is not to say that a person's work ethic, talent, and skills do not matter for their income. They do. But it is to say that all these personal factors together matter much less than the factor that is entirely outside of a person's control: whether they are born into a large, productive economy or not.
 
@@ -130,13 +138,27 @@ What gives people the chance for a good life is when the entire society and econ
 
 I want to thank Joe Hasell and Toby Ord for their feedback on this article and visualizations.
 
----
+{--{"author":"Luc's AI","timestamp":1787911252608}@@-----}{++{"author":"Luc's AI","timestamp":1787911252608}@@#### The World Bank has updated its poverty and inequality data since the publication of this article
 
-*This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
+This article uses a previous release of the World Bank's poverty and inequality data, in which incomes were expressed in 2011 international dollars.++}
+
+{--{"author":"Luc's AI","timestamp":1787911252608}@@*This work is licensed under--}{++{"author":"Luc's AI","timestamp":1787911252608}@@The World Bank has since updated its methods, and now measures incomes in 2021 international-$. As part of these changes, the International Poverty Line used to measure extreme poverty has also been updated: from $1.90 a day (in 2011 prices) to $2.15 a day (in 2017 prices) to $3++} a {--{"author":"Luc's AI","timestamp":1787911252608}@@[Creative Commons Attribution 4.0 --}{++{"author":"Luc's AI","timestamp":1787911252608}@@day (in 2021 prices).
+
+Because of the change of units, many of the figures mentioned in this article will differ from the latest World Bank figures.
+
+Explore the latest data and read more about the World Bank's methodology:
+
+* [Poverty Data Explorer](https://ourworldindata.org/explorers/poverty-explorer)
+* [The $3 International Poverty Line](https://ourworldindata.org/new-international-poverty-line-3-dollars-per-day)
+* [From $1.90 to $2.15 a day: the updated ++}International {--{"author":"Luc's AI","timestamp":1787911252608}@@License](https://creativecommons.org/licenses/by/4.0/).*--}{++{"author":"Luc's AI","timestamp":1787911252608}@@Poverty Line](https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line)
+
+## Continue reading on Our World in Data
+
+[How much economic growth is necessary to reduce global poverty substantially?](https://ourworldindata.org/poverty-minimum-growth-needed)++}
 
 [^note-roser-1]: I have written a detailed description of this chart and the shown data in [my post on Global poverty in an unequal world](https://ourworldindata.org/higher-poverty-global-line).
 
-[^cite-roser-2]: Branko Milanovic (2015) — "Global Inequality of Opportunity: How Much of Our Income Is Determined By Where We Live?", The Review of Economics and Statistics 97(2): 452-460. He wrote a summary on VoxEU <https://voxeu.org/article/income-inequality-and-citizenship>
+[^cite-roser-2]: Branko Milanovic (2015) — "Global Inequality of Opportunity: How Much of Our Income Is Determined By Where We Live?", The Review of Economics and Statistics 97(2): 452-460. Online here: <https://www.mitpressjournals.org/doi/abs/10.1162/REST_a_00432#.VKCF2CcA> He wrote a summary on VoxEU <https://voxeu.org/article/income-inequality-and-citizenship>
 
 [^cite-roser-3]: See [this map](https://ourworldindata.org/grapher/foreign-aid-given-as-a-share-of-national-income?tab=map) of Net ODA as a share of the donor country's GNI. Few countries reach the goal of 0.7% of national income, meaning the share of taxes paid on ODA is extremely small. I think it should be higher, development aid is one way in which the populations of the richest countries [can](http://millionssaved.cgdev.org/) improve the situation in the world's poorest places.
 
