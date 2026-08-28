@@ -8,8 +8,7 @@ created: 2026-02-04
 description: "This post isn't exactly about AI, but bear with me"
 tags:
   - clippings
-{++{"author":"Luc's AI","timestamp":1787826123121}@@llm-review:
-  content-sha: "sha256:c5ab7e4e5bed823e0674a59bcc39f8d3eb3284663f6aeef09008471f25949bad"
+{++{"author":"Luc's AI","timestamp":1787908878522}@@llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v1"

@@ -13,8 +13,7 @@ tags:
   - scope-sensitivity
   - cognitive-biases
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1787826505044}@@llm-review:
-  content-sha: "sha256:397b7bdb68af781758e4490a13796fa5ff27e60e3622173e92c11872cf931043"
+{++{"author":"Luc's AI","timestamp":1787908879042}@@llm-review:
   date: 2026-08-27
   model: "sonnet"
   version: "article-qc-v1"

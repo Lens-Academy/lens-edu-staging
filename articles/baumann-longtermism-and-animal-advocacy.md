@@ -10,8 +10,8 @@ description: "A discussion of whether animal advocacy or, more generally, expand
 tags:
   - "article-importer"
 llm-review:
-  content-sha: "sha256:2d570092616f8143606b9b98b15c749d30b774bb6bf2d62053aadf92c5ab23dc"
-  date: 2026-08-28
+{--{"author":"Luc's AI","timestamp":1787908879350}@@  content-sha: "sha256:2d570092616f8143606b9b98b15c749d30b774bb6bf2d62053aadf92c5ab23dc"
+--}  date: 2026-08-28
   model: "sonnet"
   version: "article-qc-v1.1"
   source:
