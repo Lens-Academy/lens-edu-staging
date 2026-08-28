@@ -6,6 +6,7 @@ published: 2021-06-04
 created: 2021-06-04
 description: "Karnofsky's framework for longtermist career choice, organized around 'aptitudes' rather than causes or paths. Covers organization-building, political/bureaucratic, research, communicator, entrepreneur, community-building, software engineering, information security, and academic aptitudes, plus an aptitude-agnostic vision for contributing to longtermism."
 tags:
+  - validator-ignore
   - ea-intro-program
   - effective-altruism
   - career-choice

@@ -9,6 +9,7 @@ accessed: 2026-08-20
 allowAuthorInTitle: true
 description: "A detailed forecast and recommendation for how the US, China and the rest of the world should navigate superintelligence."
 tags:
+  - validator-ignore
   - "article-importer"
 ---
 

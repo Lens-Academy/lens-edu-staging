@@ -7,6 +7,7 @@ created: 2026-05-28
 description: >
   An introduction to expected value reasoning—a framework for making decisions when outcomes are uncertain—and how it applies to effective altruism and high-impact giving.
 tags:
+  - validator-ignore
   - ea-intro-program
   - effective-altruism
   - decision-making

@@ -8,6 +8,7 @@ created: 2026-05-28
 description: >
   An overview of the risk of catastrophic pandemics—both natural and deliberately engineered—and why biosecurity may be among the most pressing global problems. Covers historical precedents, risk estimates, the threat landscape, and how to help.
 tags:
+  - validator-ignore
   - ea-intro-program
   - effective-altruism
   - biosecurity

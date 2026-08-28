@@ -6,6 +6,7 @@ published: 2022-07-16
 created: 2022-07-16
 description: "An accessible introduction to Bayes' rule — the mathematical formula for updating beliefs in light of new evidence — covering how to reason from prior probability to posterior probability."
 tags:
+  - validator-ignore
   - ea-intro-program
   - effective-altruism
   - epistemics

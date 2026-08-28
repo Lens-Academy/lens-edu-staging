@@ -7,6 +7,7 @@ published: 2016-08-01
 created: 2026-05-28
 description: An overview of global health data — covering life expectancy, child mortality, maternal mortality, burden of disease, infectious diseases, and the returns to healthcare investment — from Our World in Data.
 tags:
+  - validator-ignore
   - ea-intro-program
   - effective-altruism
   - global-health
