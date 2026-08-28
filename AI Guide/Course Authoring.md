@@ -56,3 +56,29 @@ A review that only says "looks good" was not done.
 **If several agents built the course, do two more checks.**
 - Ask each author agent, while it is still running, where each of its claims came from. It must answer one of: here is the source; this is our own opinion; this is wrong. Tell it not to produce a citation it does not actually remember.
 - Check that promises made in one file are kept in the next. A pre-test whose baseline is never used later, or a prediction the student writes down that is never revisited, are the typical failures.
+
+### Self-Determination Theory
+
+Self-determination theory distinguishes **autonomous motivation**, acting for reasons connected to one's own goals and values, from motivation produced mainly by pressure, guilt, fear, or external control. 
+
+It identifies three psychological needs:
+
+- **Autonomy:** feeling able to choose and align one's behavior with one's values.
+- **Competence:** feeling capable of achieving one's goals.
+- **Relatedness:** feeling accepted, connected, and that one belongs.
+
+For Lens, these are useful internal design variables and possible aggregate evaluation measures. They should not become visible learner prerequisites or pass/fail criteria.
+
+Support learner agency by:
+
+- Explaining the real problem, the course's purpose, and how an activity is meant to help.
+- Connecting rationales to the learner's own goals and values rather than assuming agreement.
+- Offering meaningful choices and multiple legitimate contribution paths.
+- Building competence through achievable practice and constructive feedback.
+- Fostering belonging without using conformity as evidence of success.
+- Avoiding guilt, fear, status pressure, or inadequacy as ways to obtain compliance.
+- Treating a learner's different conclusion as compatible with successful learning when they can reason about it well.
+
+Dispositions can be implicit in the learner-facing graph while explicit in the internal theory of change. Lens may intentionally design for agency and sustainable motivation without displaying "motivation achieved" or grading value alignment.
+
+- [Michael Noetel, "We all teach: here's how to do it better"](https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-all-teach-here-s-how-to-do-it-better)
