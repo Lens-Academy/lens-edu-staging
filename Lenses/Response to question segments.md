@@ -161,7 +161,7 @@ Next example uses default rubric. %%
 
 #### Question: FillBlank
 id:: 1211df1d-70e8-4b93-a3b6-1ce44460ed1f
-content:: Earth is approximately {{number 149,600,000}} km from Sun.
+content:: Earth is approximately {{number min 0 149,600,000}} km from Sun.
 
 %% Numeric blanks store numbers, not text. Validator rejects malformed numeric syntax and invalid thousands separators. Assessor LLM assigns percentage using reference number, wording, unit, context, and implied precision. This percentage is judgment, not objective error formula.
 
