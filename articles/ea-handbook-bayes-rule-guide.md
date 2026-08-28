@@ -16,6 +16,8 @@ tags:
 ---
 
 %%
+Source URL before re-import: https://arbital.com/p/bayes_rule/?l=1zq
+
 Add discussion note here:
 
 ...

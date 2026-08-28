@@ -9,6 +9,8 @@ tags:
 ---
 
 %%
+Source URL before re-import: https://www.lesswrong.com/posts/Ccsx339LE9Jhoii9K/slow-motion-videos-as-ai-risk-intuition-pumps
+
 Add discussion note here:
 
 ...

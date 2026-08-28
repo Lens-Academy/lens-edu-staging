@@ -1,8 +1,8 @@
 ---
 title: "Summary of 80,000 Hours' key ideas"
 allowAuthorInTitle: true
-source_url: https://80000hours.org/key-ideas/summary/
-author:
+{--{"author":"Luc's AI","timestamp":1787926326252}@@source_url: https://80000hours.org/key-ideas/summary/
+--}author:
   - 80,000 Hours
 published: 2022-05-03
 created: 2022-05-03
@@ -17,6 +17,8 @@ tags:
 ---
 
 %%
+Source URL before re-import: https://80000hours.org/key-ideas/summary/
+
 Add discussion note here:
 
 ...

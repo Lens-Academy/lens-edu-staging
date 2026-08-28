@@ -1,6 +1,5 @@
 ---
 title: "Global Health"
-source_url: https://ourworldindata.org/health-meta
 author:
   - Esteban Ortiz-Ospina
   - Max Roser
@@ -17,6 +16,8 @@ tags:
 ---
 
 %%
+Source URL before re-import: https://ourworldindata.org/health-meta
+
 Add discussion note here:
 
 ...

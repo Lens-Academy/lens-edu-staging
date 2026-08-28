@@ -15,6 +15,8 @@ tags:
 ---
 
 %%
+Source URL before re-import: https://theunitofcaring.tumblr.com/post/185847413171/what-do-you-think-about-the-more-fringe-parts-of
+
 Add discussion note here:
 
 ...

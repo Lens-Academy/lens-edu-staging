@@ -16,6 +16,8 @@ tags:
 ---
 
 %%
+Source URL before re-import: https://non-trivial.org/lessons/making-decisions-under-uncertainty
+
 Add discussion note here:
 
 ...

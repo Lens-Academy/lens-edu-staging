@@ -12,6 +12,8 @@ tags:
 ---
 
 %%
+Source URL before re-import: https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/
+
 Add discussion note here:
 
 ...

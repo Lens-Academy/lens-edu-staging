@@ -15,6 +15,8 @@ tags:
 ---
 
 %%
+Source URL before re-import: https://forum.effectivealtruism.org/posts/bud2ssJLQ33pSemKH/my-current-impressions-on-career-choice-for-longtermists
+
 Add discussion note here:
 
 ...
