@@ -5,7 +5,7 @@ author:
   - Linch
 published: 2019-08-02
 created: 2026-05-28
-description: "A summary of Evan G. Williams' philosophy paper arguing that, assuming moral objectivism, we are probably unknowingly guilty of serious, large-scale wrongdoing—and what we should do about it."
+description: "A few years ago, I made an outline of Evan G. Williams' excellent philosophy paper, for a local discussion group. It slowly got circulated on the EA internet. Somebody recently recommended that I make the summary more widely known, soere t it is."
 tags:
   - ea-intro-program
   - effective-altruism
@@ -13,8 +13,14 @@ tags:
   - moral-philosophy
   - cause-prioritization
   - work-in-progress
+llm-review:
+  date: 2026-08-28
+  model: "gpt-5.6-terra"
+  version: "article-qc-v1.1"
+  source:
+    fetched: 2026-08-28
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -24,7 +30,7 @@ Add discussion note here:
 
 This is a linkpost for [https://docs.google.com/document/d/18ZzC-WkDcWK-WPlIzKvDv83j8aBwSfdOxnZRmoio-zE/edit?usp=sharing](https://docs.google.com/document/d/18ZzC-WkDcWK-WPlIzKvDv83j8aBwSfdOxnZRmoio-zE/edit?usp=sharing)
 
-A few years ago, I made a outline of Evan G. Williams' [excellent philosophy paper](https://philpapers.org/rec/WILTPO-101), for a local discussion group. It slowly got circulated on the EA internet. Somebody recently recommended that I make the summary more widely known, so here it is.
+A few years ago, I made an outline of Evan G. Williams' [excellent philosophy paper](https://philpapers.org/rec/WILTPO-101), for a local discussion group. It slowly got circulated on the EA internet. Somebody recently recommended that I make the summary more widely known, so here it is.
 
 The paper is readable and not behind a paywall, so I'd highly recommend reading the original paper if you have the time.
 
@@ -107,5 +113,6 @@ The paper is readable and not behind a paywall, so I'd highly recommend reading 
 2. **Counterconsideration Two :** Many of the measures suggested above to prepare for correcting moral catastrophes may themselves be evil
    1. e.g. money spent on moral research could have instead been spent on global poverty, building a maximally flexible society might involve draconian restrictions on current people's rights
 3. However, this is still worth doing in the short term.
-
+{--{"author":"Luc's AI","timestamp":1787918567480}@@
 *This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
+--}

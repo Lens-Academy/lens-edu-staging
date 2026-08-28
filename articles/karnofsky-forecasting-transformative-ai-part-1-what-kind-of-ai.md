@@ -8,6 +8,13 @@ created: 2026-02-13
 description: "PASTA: Process for Automating Scientific and Technological Advancement."
 tags:
   - "obsidian-web-clipper"
+llm-review:
+  date: 2026-08-28
+  model: "gpt-5.6-terra"
+  version: "article-qc-v1.1"
+  source:
+    fetched: 2026-08-28
+    kind: "live"
 ---
 %%
 Add discussion note here:
