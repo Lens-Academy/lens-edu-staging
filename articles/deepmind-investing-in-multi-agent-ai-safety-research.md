@@ -10,20 +10,22 @@ source_url: "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-res
 published: 2026-06-11
 created: 2026-08-27
 accessed: 2026-08-27
-llm-review:
-  content-sha: "sha256:c5396245cfabdee80d8da643594d55d471d42ed7539518040c5de321b477de80"
-  date: 2026-08-27
-  model: "sonnet"
-  version: "article-qc-v1"
-  source:
-    content-sha: "sha256:1e6ba259d7c82e6bbc5f7a8949eafeca7919f83295b24d70c3c8786c993855d1"
-    fetched: 2026-08-27
-    kind: "live"
 description: "Google DeepMind and partners are announcing a new technical research funding call of up to $10M for researchers worldwide to strengthen multi-agent safety."
 tags:
   - "article-importer"
----
-
+llm-review:
+  content-sha: "sha256:c5396245cfabdee80d8da643594d55d471d42ed7539518040c5de321b477de80"
+  date: {--{"author":"Luc's AI","timestamp":1787905218296}@@2026-08-27--}{++{"author":"Luc's AI","timestamp":1787905218296}@@2026-08-28++}
+  model: "sonnet"
+  version: "article-qc-v1.1"
+  source:
+    content-sha: {--{"author":"Luc's AI","timestamp":1787905217815}@@"sha256:1e6ba259d7c82e6bbc5f7a8949eafeca7919f83295b24d70c3c8786c993855d1"--}{++{"author":"Luc's AI","timestamp":1787905217815}@@"sha256:7728ad2ea1da6b7a979dbfec8b4097e475ca6ad45eb14f4a30327a7c44466f3c"++}
+    fetched: {--{"author":"Luc's AI","timestamp":1787905217815}@@2026-08-27--}{++{"author":"Luc's AI","timestamp":1787905217815}@@2026-08-28++}
+    kind: "live"
+{--{"author":"Luc's AI","timestamp":1787905217602}@@description: "Google DeepMind and partners are announcing a new technical research funding call of up to $10M for researchers worldwide to strengthen multi-agent safety."
+tags:
+  - "article-importer"
+--}---
 %%
 Add discussion note here:
 
