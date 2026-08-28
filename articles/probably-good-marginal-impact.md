@@ -58,4 +58,14 @@ This also highlights the importance of personal fit and seizing unique opportuni
 
 ## Conclusion
 
-Focusing on marginal impact helps you avoid the traps of relying on total or average impact when deciding how to allocate your time, money, or career efforts. By considering the additional difference you can make, you can steer clear of overinvesting in areas where past success overshadows future potential — and identify opportunities where your contribution will have the greatest effect.
+Focusing on marginal impact helps you avoid the traps of relying on total or average impact when deciding how to allocate your time, money, or career efforts. By considering the additional difference you can make, you can steer clear of overinvesting in areas where past success overshadows future potential {--{"author":"Luc's AI","timestamp":1787918981638}@@— --}and identify opportunities where your contribution will have the greatest effect.{++{"author":"Luc's AI","timestamp":1787918981638}@@
+
+## Additional resources
+
+- [Margins and Thinking at the Margin](https://www.econlib.org/library/Topics/College/margins.html)
+
+## You can also explore
+
+- [Diminishing Returns](https://probablygood.org/core-concepts/diminishing-returns/)
+- [Neglectedness](https://probablygood.org/core-concepts/neglectedness/)
+- [Counterfactual Impact](https://probablygood.org/core-concepts/counterfactual-impact/)++}
