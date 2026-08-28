@@ -14,8 +14,14 @@ tags:
   - career-choice
   - existential-risk
   - work-in-progress
+llm-review:
+  date: 2026-08-28
+  model: "sonnet"
+  version: "article-qc-v1.1"
+  source:
+    fetched: 2026-08-28
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -23,11 +29,11 @@ Add discussion note here:
 
 %%
 
-This is the final piece in the [**"most important century" series**](https://www.cold-takes.com/roadmap-for-the-most-important-century-series/), which has argued that there's a high probability that the coming decades will see:[^note-karnofsky-1]
+This is the final piece in the ["most important century" series](https://www.cold-takes.com/roadmap-for-the-most-important-century-series/), which has argued that there's a [high probability](https://www.cold-takes.com/forecasting-transformative-ai-whats-the-burden-of-proof/#some-rough-probabilities)[^note-karnofsky-1] that the coming decades will see:
 
-- The development of a technology like **PASTA** (process for automating scientific and technological advancement).
-- A resulting **productivity explosion** leading to development of further transformative technologies.
-- The seed of a **stable galaxy-wide civilization**, possibly featuring digital people, or possibly run by misaligned AI.
+- The development of a technology like {--{"author":"Luc's AI","timestamp":1787911044150}@@**PASTA**--}{++{"author":"Luc's AI","timestamp":1787911044150}@@[PASTA](https://www.cold-takes.com/transformative-ai-timelines-part-1-of-4-what-kind-of-ai/)++} (process for automating scientific and technological advancement).
+- A resulting {--{"author":"Luc's AI","timestamp":1787911044150}@@**productivity explosion**--}{++{"author":"Luc's AI","timestamp":1787911044150}@@[productivity explosion](https://www.cold-takes.com/transformative-ai-timelines-part-1-of-4-what-kind-of-ai/#explosive-scientific-and-technological-advancement)++} leading to development of further transformative technologies.
+- The seed of a {--{"author":"Luc's AI","timestamp":1787911044150}@@**stable--}{++{"author":"Luc's AI","timestamp":1787911044150}@@[stable++} galaxy-wide {--{"author":"Luc's AI","timestamp":1787911044150}@@civilization**,--}{++{"author":"Luc's AI","timestamp":1787911044150}@@civilization](https://www.cold-takes.com/all-possible-views-about-humanitys-future-are-wild/),++} possibly featuring {--{"author":"Luc's AI","timestamp":1787911044150}@@digital people,--}{++{"author":"Luc's AI","timestamp":1787911044150}@@[digital people](https://www.cold-takes.com/how-digital-people-could-change-the-world/),++} or possibly run by {--{"author":"Luc's AI","timestamp":1787911044150}@@misaligned AI.--}{++{"author":"Luc's AI","timestamp":1787911044150}@@[misaligned AI](https://www.cold-takes.com/transformative-ai-timelines-part-1-of-4-what-kind-of-ai/#misaligned-ai-mysterious-potentially-dangerous-objectives).++}
 
 When trying to call attention to an underrated problem, **it's typical to close on a "call to action":** a tangible, concrete action readers can take to help.
 
