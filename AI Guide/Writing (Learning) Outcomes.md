@@ -55,7 +55,7 @@ In practice, creating courses requires a back and forth between learning outcome
 
 ## Test Questions
 
-One `## Test:` may contain multiple gradable questions and roleplays. Each item receives its own score. The platform does not currently combine those scores into an LO-level pass/fail result. It marks the test complete after the learner submits every required item, regardless of scores. LO completion likewise tracks completion of the required content and test, not demonstrated mastery. Question scores contribute separately to course assessment.
+One `## Test:` may contain multiple gradable questions and roleplays. Each item receives its own score. It marks the test complete after the learner submits every required item, regardless of scores. LO completion likewise tracks completion of the required content and test, not demonstrated mastery. Question scores contribute separately to course assessment.
 
 Prefer one integrated question when it can test the whole skill. Use multiple questions only when the outcome has inseparable facets that one prompt cannot measure well; keep them in one LO only when they genuinely express one skill.
 
