@@ -8,6 +8,7 @@ created: 2026-06-29
 accessed: 2026-06-29
 description: "Could working on AI risks be the highest-impact career choice today? Explore why AI may trigger rapid, dramatic societal change — and what you can do about it."
 tags:
+  - validator-ignore
   - "article-importer"
 ---
 

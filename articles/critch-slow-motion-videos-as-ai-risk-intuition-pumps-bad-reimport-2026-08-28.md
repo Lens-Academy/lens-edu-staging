@@ -15,6 +15,7 @@ llm-review:
     kind: "live"
 description: "tl;dr: When making the case for AI as a risk to humanity, trying showing people an evocative illustration of what differences in processing speeds can look like, such as this video. Over the past ~12 years of making the case for AI x-risk to various people inside and outside academia, I"
 tags:
+  - validator-ignore
   - "article-importer"
 ---
 
