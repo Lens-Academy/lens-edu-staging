@@ -15,8 +15,14 @@ tags:
   - cause-prioritization
   - population-ethics
   - work-in-progress
+llm-review:
+  date: 2026-08-28
+  model: "sonnet"
+  version: "article-qc-v1.1"
+  source:
+    fetched: 2026-08-28
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -30,7 +36,7 @@ tl;dr: I am much more interested in making the future good, as opposed to long o
 
 I thought it might be interesting to other EAs why I do not feel very on board with longtermism, as longtermism is important to a lot of people in the community.
 
-This post is about the worldview called longtermism. It does not describe a position on cause prioritisation. It is very possible for causes commonly associated with longtermism to be relevant under non-longtermist considerations.
+This post is about the worldview called [longtermism](https://forum.effectivealtruism.org/posts/ySwarSKFzxKLhCyo8/introduction-to-longtermism). It does not describe a position on cause prioritisation. It is very possible for causes commonly associated with longtermism to be relevant under non-longtermist considerations.
 
 I structured this post by crux and highlighted what kind of evidence or arguments would convince me that I am wrong, though I am keen to hear about others which I might have missed! I usually did not investigate my cruxes thoroughly. Hence, only 'probably' not a longtermist.
 
@@ -73,7 +79,7 @@ Or putting this differently: if humans really were so great, we would not need t
 
 *What would convince me otherwise:*
 
-I would be absolutely thrilled to be wrong about how moral people are where I live! Admittedly, I find it hard to think of plausible evidence as it seems to be in direct contradiction to the world I observe. Maybe it is genuinely a lack of information that stops people from acting better, as e.g. Max Roser from Our World in Data seems to believe. Information campaigns having large effects would be persuasive.
+I would be absolutely thrilled to be wrong about how moral people are where I live! Admittedly, I find it hard to think of plausible evidence as it seems to be in direct contradiction to the world I observe. Maybe it is genuinely a lack of information that stops people from acting better, as e.g. [Max Roser](https://ourworldindata.org/problems-and-progress) from Our World in Data seems to believe. Information campaigns having large effects would be persuasive.
 
 I am unfamiliar with how seriously people take their moral obligations in other places and times. Maybe the lack of investment I see is a local aberration.
 
@@ -89,7 +95,7 @@ I am concerned that seeing the world as improving is dependent on a worldview wi
 
 Also, many world improvements I expect to peter out before they become negative. But I am worried that some will not. For example, I think increased hedonism and individualism have both been a good force, but if overdone I would consider them to make the world worse, and it seems to me we are either almost or already there.
 
-I am generally concerned about trends to overshoot their original good aim by narrowly optimising too much. Optimising for profit is the clearest example. I wrote a bit more about this here.
+I am generally concerned about trends to overshoot their original good aim by narrowly optimising too much. Optimising for profit is the clearest example. I wrote a bit more about this {--{"author":"Luc's AI","timestamp":1787920711236}@@here.--}{++{"author":"Luc's AI","timestamp":1787920711236}@@[here](https://forum.effectivealtruism.org/posts/BshFD6JvyqXypc5Aw/denise_melchin-s-shortform?commentId=Wxsv2rdk8CXAhYjse).++}
 
 If the world is not better than it was in the past, extrapolating towards expecting an even better future does not work. For me this is another argument on wanting to focus on making the future good instead of long or big.
 
@@ -105,7 +111,7 @@ I do not feel compelled by arguments that the future could be very long. I do no
 
 Or looking at it differently, people working on existential risks spent some years convincing me that existentials risks are pretty big. Switching from that argument to work on existential risks to longtermism, which requires reaching existential security, gives me a sense of whiplash.
 
-See also this shortform post on the topic. One argument brought up there is the Lindy rule, pointing out that self-propagating systems have existed for billions of years so we can expect this length again. But I do not see why self-propagating systems should be the baseline, I am only interested in applying the Lindy rule to a morally worthwhile human civilisation which has been rather short in comparison.
+See also this [shortform post](https://forum.effectivealtruism.org/posts/dgNgF42QbzytPaeRp/agb-s-shortform) on the topic. One argument brought up there is the Lindy rule, pointing out that self-propagating systems have existed for billions of years so we can expect this length again. But I do not see why self-propagating systems should be the baseline, I am only interested in applying the Lindy rule to a morally worthwhile human civilisation which has been rather short in comparison.
 
 I am also not keen to base decisions on rough expected value calculations in which the assessment of the small probability is uncertain and the expected value is the primary argument (as opposed to a more 'cluster thinking' based approach). I am not in principle opposed to such decisions, but my own track record with such decisions is very poor. : the predicted expected value from back of the envelope calculations does not materialise.
 I also have traditional Pascal's mugging type concerns for prioritizing the potentially small probability of a very large civilisation.
@@ -126,11 +132,11 @@ I am also only interested in lock-in scenarios which would be as bad or worse th
 
 At the moment, I do not know enough about the probabilities of a range of bad lock-in scenarios to judge whether focusing on them is warranted under my worldview. If this turns out to be the case on further investigation, I could imagine describing my worldview as longtermist when pushed, but I expect I would still feel a cultural disconnect with other longtermists.
 
-If there are no options to avoid or shape bad lock-in scenarios within the next few decades, I expect improving the world with "traditional neartermist" approaches is best. My views here are very similar to Alexander Berger's which he laid out in this 80,000 Hours podcast.
+If there are no options to avoid or shape bad lock-in scenarios within the next few decades, I expect improving the world with "traditional neartermist" approaches is best. My views here are very similar to Alexander Berger's which he laid out in [this 80,000 Hours podcast](https://80000hours.org/podcast/episodes/alexander-berger-improving-global-health-wellbeing-clear-direct-ways/#transcript).
 
 *What would convince me otherwise:*
 
-If there have been any intentional impacts for more than a few hundred years out, I would be keen to know about them. I am familiar with Carl's blogposts on the topic.
+If there have been any intentional impacts for more than a few hundred years out, I would be keen to know about them. I am familiar with [Carl's](http://reflectivedisequilibrium.blogspot.com/2018/10/flow-through-effects-of-saving-life.html) [blogposts](http://reflectivedisequilibrium.blogspot.com/2018/10/flow-through-effects-of-innovation.html) on the topic.
 
 I expect to spend some time investigating this crux soon: if there are bad lock-in scenarios on the horizon which we can avoid or shape, that would likely change my feelings on longtermism.
 
@@ -139,5 +145,6 @@ Given that this is an important crux one might well consider it premature for me
 If anyone has any resources they want to point me to which might change my mind, I am keen to hear about them.
 
 *Thanks to AGB and Linch Zhang for providing comments on a draft of this post.*
-
+{--{"author":"Luc's AI","timestamp":1787920710019}@@
 *This work is licensed under a [Creative Commons Attribution 4.0 International License.](https://creativecommons.org/licenses/by/4.0/)*
+--}
