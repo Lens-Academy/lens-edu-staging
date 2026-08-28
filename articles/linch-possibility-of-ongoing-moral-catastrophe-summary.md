@@ -113,6 +113,5 @@ The paper is readable and not behind a paywall, so I'd highly recommend reading 
 2. **Counterconsideration Two :** Many of the measures suggested above to prepare for correcting moral catastrophes may themselves be evil
    1. e.g. money spent on moral research could have instead been spent on global poverty, building a maximally flexible society might involve draconian restrictions on current people's rights
 3. However, this is still worth doing in the short term.
-{--{"author":"Luc's AI","timestamp":1787918567480}@@
+
 *This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
---}

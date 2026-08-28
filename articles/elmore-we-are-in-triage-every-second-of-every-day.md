@@ -29,9 +29,7 @@ Add discussion note here:
 
 %%
 
-# We {--{"author":"Luc's AI","timestamp":1787918121422}@@Are--}{++{"author":"Luc's AI","timestamp":1787918121422}@@are++} in {--{"author":"Luc's AI","timestamp":1787918121422}@@Triage Every Second--}{++{"author":"Luc's AI","timestamp":1787918121422}@@triage every second++} of {--{"author":"Luc's AI","timestamp":1787918121422}@@Every Day--}{++{"author":"Luc's AI","timestamp":1787918121422}@@every day
-
-(Cross-posted from [this blog post.](https://mhollyelmoreblog.wordpress.com/2016/08/26/we-are-in-triage-every-second-of-every-day/))++}
+# We Are in Triage Every Second of Every Day
 
 ***Spoilers ahead** — listen to the episode beforehand if you don't want to hear a rough summary first.*
 
