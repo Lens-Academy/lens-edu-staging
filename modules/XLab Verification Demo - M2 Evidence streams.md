@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1788020441734}@@---
+---
 id: 'e5135863-bbc8-4c02-8869-adcdff582bdc'
 slug: xlab-verification-demo-m2
 title: "Module 2: Evidence streams"
@@ -16,4 +16,3 @@ Module 2 asks how compliance can produce evidence. It works through hardware, cl
 
 To go through it, sign up for the full course: [Compute Verification on Lens](https://lensacademy.org/courses/xlab-compute-verification).
 :::
-++}

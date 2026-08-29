@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1788020437865}@@---
+---
 id: '8aa3a885-364c-4c41-8e01-5c4991ea44dc'
 slug: xlab-verification-demo-m1
 title: "Module 1: Policy and actors"
@@ -16,4 +16,3 @@ Module 1 asks what exactly must be verified, and by whom: compute versus capabil
 
 To go through it, sign up for the full course: [Compute Verification on Lens](https://lensacademy.org/courses/xlab-compute-verification).
 :::
-++}

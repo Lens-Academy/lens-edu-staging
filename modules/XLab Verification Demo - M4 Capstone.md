@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1788020448804}@@---
+---
 id: 'd70cefdb-4cc1-45dd-bdd1-ff78ecad6f3a'
 slug: xlab-verification-demo-m4
 title: "Module 4: Capstone"
@@ -16,4 +16,3 @@ Module 4 asks what would be enough for a three-month emergency pause. It combine
 
 To go through it, sign up for the full course: [Compute Verification on Lens](https://lensacademy.org/courses/xlab-compute-verification).
 :::
-++}

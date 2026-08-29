@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1788020445328}@@---
+---
 id: '741b3acf-51e8-483f-bb13-1e8d94f285b4'
 slug: xlab-verification-demo-m3
 title: "Module 3: Covert development"
@@ -16,4 +16,3 @@ Module 3 asks how technical verification might work when parties have limited tr
 
 To go through it, sign up for the full course: [Compute Verification on Lens](https://lensacademy.org/courses/xlab-compute-verification).
 :::
-++}
