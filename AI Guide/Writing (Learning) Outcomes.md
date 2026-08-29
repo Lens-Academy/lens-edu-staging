@@ -116,7 +116,7 @@ Use [[../Lenses/Response to question segments]] as the single reference for ques
 
 LO specific rules:
 
-- LOs always need grade. Do not use `assessment-instructions::` or `[x]` answer marks.
+- LOs always need grader. Always use `assessment-instructions::` or `[x]` answer marks.
 - `#### Text` adds prose between questions, such as an introduction or section break. It takes `content::` but no `id::`. Its content is markdown; escape headings such as `\## Heading`.
 
 
