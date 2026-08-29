@@ -252,7 +252,7 @@ options::
 id:: dd10bf8f-8e94-4854-8f7a-48c317665d7b
 content:: You have already analyzed the comparison from four angles. Pull together the findings that matter most, consider the strongest argument against your own position, and answer: Which creates the more robust verification regime: Plan A or Plan S?
 
-Make a recommendation. Explain which considerations carry the most weight in your judgment, where important uncertainty remains, and what evidence or development would be most likely to change your view.
+Make a recommendation. Explain which considerations carry the most weight in your judgment, where important uncertainty remains, and what evidence or development would be most likely to change your view. (400 to 500 words)
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
@@ -277,7 +277,7 @@ Questions to consider:
 - What has to become technically, politically, or institutionally possible before this settlement can emerge?
 - Where is your scenario most fragile, and what development would most likely force you to redesign it?
 
-Keep this essay. You will return to it at the end of the track and see what, if anything, you would now change.
+Keep this essay. You will return to it at the end of the track and see what, if anything, you would now change. (500 to 800 words)
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 optional:: true
 
