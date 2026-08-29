@@ -186,8 +186,28 @@ Explore the components inside an AI accelerator and connect them to the supply-c
 
 #### Text
 content::
-A geographic chokepoint is potential leverage, not verification by itself. It matters only when some authority can require a declaration, obtain a record, inspect a facility, or impose a technical control there. Carry that distinction into 1.2.2, which turns positions on the supply chain into evidence relationships: who can show a verifier something about whom.
+A geographic chokepoint is potential leverage, not verification by itself. It matters only when some authority can require a declaration, obtain a record, inspect a facility, or impose a technical control there. Carry that distinction into {--{"author":"Elias's AI","timestamp":1788016632624}@@1.2.2, --}{++{"author":"Elias's AI","timestamp":1788016632624}@@[[../Lenses/XLab Verification - v-actor-edges|1.2.2]], ++}which turns positions on the supply chain into evidence relationships: who can show a verifier something about whom.
 
-_Content current as of July 2026. The policy layer of this field moves monthly — re-verify dates, thresholds, and bill status before citing. Key sources: Congress.gov (H.R. 3447 / S. 1705), BIS export control rules, EU AI Act Art. 51, CSIS, CRS R48642. Later modules go deeper on every mechanism named here._
+{--{"author":"Elias's AI","timestamp":1788016632624}@@_Content current --}{++{"author":"Elias's AI","timestamp":1788016632624}@@\### Notes and sources
 
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/interactive-map)*
+The stage-by-stage structure comes from CSET’s [“The Semiconductor Supply Chain”](https://cset.georgetown.edu/publication/the-semiconductor-supply-chain/) (2021), including its account of assembly and test ++}as {++{"author":"Elias's AI","timestamp":1788016632624}@@the part of the chain with the lowest barriers to entry. The concentration figures come from Sastry, Heim, Belfield et al., [“Computing Power and the Governance ++}of {--{"author":"Elias's AI","timestamp":1788016632624}@@July 2026. --}{++{"author":"Elias's AI","timestamp":1788016632624}@@Artificial Intelligence”](https://arxiv.org/abs/2402.08797) (2024): ASML at 100% of EUV lithography, TSMC at roughly 90% of sub-7 nm logic in the cited 2022 data, and several critical steps with fewer than three suppliers. High-bandwidth memory entered the US export-control perimeter in 2024; Fist, Burga and Chilukuri describe that expansion in [“Technology to Secure the AI Chip Supply Chain”](https://www.cnas.org/publications/reports/technology-to-secure-the-ai-chip-supply-chain-a-primer) (CNAS, 2024).
+
+**Currency.** ++}The {--{"author":"Elias's AI","timestamp":1788016632624}@@policy layer --}{++{"author":"Elias's AI","timestamp":1788016632624}@@concentration figures above use 2021–2023 data reported in 2021 and 2024 sources. Shares move; the structure — one EUV maker, one dominant leading-edge fab and a handful ++}of {--{"author":"Elias's AI","timestamp":1788016632624}@@this field --}{++{"author":"Elias's AI","timestamp":1788016632624}@@clouds — has not. Re-verify a number before quoting it. The policy layer ++}moves {--{"author":"Elias's AI","timestamp":1788016632624}@@monthly — re-verify--}{++{"author":"Elias's AI","timestamp":1788016632624}@@faster still: re-check++} dates, {--{"author":"Elias's AI","timestamp":1788016632624}@@thresholds,--}{++{"author":"Elias's AI","timestamp":1788016632624}@@thresholds++} and bill status before citing. {--{"author":"Elias's AI","timestamp":1788016632624}@@Key sources:--}{++{"author":"Elias's AI","timestamp":1788016632624}@@Later modules go deeper on the mechanisms named here.{>>{"author":"Elias's AI","timestamp":1788016632624}@@The italic "Content current as of July 2026 ...++} Congress.gov (H.R. 3447 / S. {--{"author":"Elias's AI","timestamp":1788016632624}@@1705), BIS export control rules, EU--}{++{"author":"Elias's AI","timestamp":1788016632624}@@1705) ..." paragraph is no longer in XLab's MDX; it was replaced by this Notes and sources section and Currency paragraph, copied from interactive-map.mdx.<<}
+
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Khan, Saif M., Alexander Mann, and Dahlia Peterson. *The Semiconductor Supply Chain: Assessing National Competitiveness*. Center for Security and Emerging Technology, Jan. 2021. [cset.georgetown.edu](https://cset.georgetown.edu/publication/the-semiconductor-supply-chain/)
+*CSET's mapping of the semiconductor supply chain and where national chokepoints sit.*
+
+Sastry, Girish, Lennart Heim, Haydn Belfield, et al. "Computing Power and the Governance of Artificial Intelligence." *arXiv*, Feb. 2024. [arxiv.org](https://arxiv.org/abs/2402.08797)
+*The foundational survey of compute as a governance lever: why computing power is detectable, excludable, and quantifiable in ways algorithms and data are not.*
+
+Fist, Tim, Tao Burga, and Vivek Chilukuri. *Technology to Secure the++} AI {--{"author":"Elias's AI","timestamp":1788016632624}@@Act Art. 51, CSIS, CRS R48642. Later modules go deeper--}{++{"author":"Elias's AI","timestamp":1788016632624}@@Chip Supply Chain: A Working Paper*. Center for a New American Security, 2024. [cnas.org](https://www.cnas.org/publications/reports/technology-to-secure-the-ai-chip-supply-chain-a-primer)
+*Argues that export controls++} on {--{"author":"Elias's AI","timestamp":1788016632624}@@every mechanism named here._--}{++{"author":"Elias's AI","timestamp":1788016632624}@@AI chips are hard to enforce and easy to evade through shell companies, and proposes hardware-enabled mechanisms instead. Cited here for the fact that US controls now reach all chips using advanced high-bandwidth memory.*++}
+
+{--{"author":"Elias's AI","timestamp":1788016632624}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/interactive-map)*--}{++{"author":"Elias's AI","timestamp":1788016632624}@@XLab. "1.2.1 Geographic supply-chain map." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/interactive-map)
+*The source lesson this page adapts, including the map data reproduced above.*
+
+ETO's Chip Explorer is linked inline above and has no entry in XLab's citation registry.
+:::++}
