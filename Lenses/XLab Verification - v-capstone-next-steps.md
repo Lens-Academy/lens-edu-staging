@@ -14,7 +14,7 @@ You have now completed the most comprehensive curriculum on AI verification
 to date. With your knowledge and skillset, you are now equipped to tackle
 some of the most pressing problems at the forefront of verification,
 including but not limited to all the projects in the
-[Capstone Bank](/verification/capstone-bank).
+{--{"author":"Elias's AI","timestamp":1788015730644}@@[Capstone Bank](/verification/capstone-bank).--}{++{"author":"Elias's AI","timestamp":1788015730644}@@[[../Lenses/XLab Verification - v-capstone-project|Capstone Bank]].{>>{"author":"Elias's AI","timestamp":1788015730644}@@Was a relative XLab link (/verification/capstone-bank), dead on Lens. Pointed at the 4.2 lens, which now carries the bank.<<}++}
 
 Yet again, this is a preparadigmatic field, and you also have the agency to
 propose a project, direction, or subproblem to address. Look back through

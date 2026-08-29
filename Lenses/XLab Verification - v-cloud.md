@@ -17,12 +17,14 @@ stolen weights all sit outside a provider's reach. In this module, you will
 learn what cloud providers can observe, how those observations become evidence,
 and where cloud oversight runs out.
 
-\## Learning objectives
+{--{"author":"Elias's AI","timestamp":1788015728956}@@\## Learning objectives
 
-1. Identify the identity, resource-use, and operational records a cloud provider can observe, and explain what each record supports—and what it still does not establish.
+--}{++{"author":"Elias's AI","timestamp":1788015728956}@@:::callout {title="By the end of this submodule, you will be able to:" tone="blue"}
+++}1. Identify the identity, resource-use, and operational records a cloud provider can observe, and explain what each record supports—and what it still does not establish.
 2. Distinguish provider-controlled evidence from customer declarations, and assess the reliability of each when determining a workload's type, scale, and operator.
 3. Analyze how customer identification, beneficial-ownership checks, reporting thresholds, ongoing monitoring, and access controls turn cloud records into a verification regime—and how an evader could route around them.
-4. Assess where cloud oversight loses coverage, and identify which claims require corroboration from hardware, intelligence, or human verification mechanisms.
+4. Assess where cloud oversight loses coverage, and identify which claims require corroboration from hardware, intelligence, or human verification mechanisms.{++{"author":"Elias's AI","timestamp":1788015728956}@@
+:::++}
 
 \## 2.2.1 Provider records and workload observables
 
@@ -38,7 +40,7 @@ which claims remain beyond those records.
 
 \## Governing Through the Cloud: The Intermediary Role of Compute Providers in AI Regulation
 
-*Source: XLab source material, [original](https://arxiv.org/abs/2403.08501)*
+*Source: {--{"author":"Elias's AI","timestamp":1788015731585}@@XLab source material,--}{++{"author":"Elias's AI","timestamp":1788015731585}@@Lennart Heim, Tim Fist, Janet Egan, Sihao Huang, Stephen Zekany, Robert Trager, Michael A. Osborne, and Noa Zilberman (2024),++} [original](https://arxiv.org/abs/2403.08501)*
 
 The executive-summary selections and complete sections below are reproduced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Citations and cross-references link to the pinned arXiv version.
 
