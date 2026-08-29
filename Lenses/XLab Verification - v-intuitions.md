@@ -416,6 +416,3 @@ options::
 - All treaty provisions are self-reporting mechanisms
 feedback-instructions:: Explain by chaining the circles: the log-based circle sits wholly inside self-reporting (premise 2), and self-reporting is disjoint from tamper-resistant (premise 1); the treaty-provisions circle overlaps log-based (premise 3), so that overlap is forced outside tamper-resistant, an existential conclusion and nothing more. The rest of the provisions circle is unconstrained, which kills the "no" and "all" options; the third option is not derivable at all. Drawing the arrangement where the answer holds and the others fail is the justification.
 
-#### Text
-content::
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/why-verification/building-intuitions)*

@@ -59,9 +59,7 @@ A useful strategy is backchaining: start by specifying the long-term goal, then 
 - Conceptual AI Safety research may seem difficult to write a cohesive and tractable theory of change about—but it’s possible! See [this example by John Wentworth](https://www.lesswrong.com/posts/vh5ZjdmJYJgnbpq8C/the-plan-2025-update).
 - [Slow Food USA’s theory of change](https://slowfoodusa.org/theory-of-change/) — effective theory of change, conveyed in engaging and easy-to-parse visuals.
 
-![Slow Food USA’s one-page theory of change: assumptions and purpose at the top feed a mission, three pillars, and a tree whose canopy holds the future and vision, with values at the roots and roles and strategies beneath.](https://aisafetytracks.com/verification/assets/theories-of-change/slow-food-theory-of-change.png)
-
-Image: [Our Theory of Change](https://slowfoodusa.org/theory-of-change/), Slow Food USA.
+See the one-page diagram at [Our Theory of Change](https://slowfoodusa.org/theory-of-change/), Slow Food USA: assumptions and purpose at the top feed a mission, three pillars, and a tree whose canopy holds the future and vision, with values at the roots and roles and strategies beneath.
 
 A common failure mode is conflating **outputs** with **outcomes**. Outputs are tangible products you produced: a paper, a benchmark, an eval, a workshop, a policy memo. They are easy to qualify and quantify. Outcomes are what changed because of those outputs: a lab altered a training procedure, a policymaker incorporated a threat model into a draft bill, a researcher updated their estimates. It’s more difficult but much more important to recognize and attribute outcomes. A project can generate impressive outputs—a well-cited paper, a popular benchmark, a successful conference—without any clarity as to how it actually creates change in the world.
 
@@ -91,5 +89,3 @@ content::
 Theories of change are probabilistic, not deterministic: they depend on assumptions about how the world works that may be exaggerated or misguided. The point is not to predict the future; the point is to make your beliefs about why your work matters clear enough such that someone—could be your future self!—can notice discrepancies from reality, and course-correct.
 
 In sum: when someone asks you how your work changes the world, in a field that supposedly works towards saving it, you should have a ready, clear answer for them.
-
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/why-verification/theories-of-change)*
