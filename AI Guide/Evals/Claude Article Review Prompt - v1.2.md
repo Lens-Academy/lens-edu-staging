@@ -16,8 +16,6 @@ with <version> = rendered or <version> = unrendered.
 4) The new article.md is editable. You should now use the candidate markdown files and the source HTML files to edit this document until it is both complete and correctly formatted. Together with the creation of article.md, you will gain access to the Lens Academy platforms's syntax validation of the two candidate markdown files. Note that this validator does not catch completeness issues—it just catches formatting.
 
 
-Your goal is 
-
 Read the candidate, manifest, and primary source evidence:
 - /tmp/articles/EXAMPLE-JOB-ID/candidate-unrendered.md: Markdown extracted from the direct HTML response; read-only
 - /tmp/articles/EXAMPLE-JOB-ID/candidate-rendered.md: Markdown extracted from the Jina-rendered HTML; read-only
