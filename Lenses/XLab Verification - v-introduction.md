@@ -142,7 +142,66 @@ Even the people in charge of developing superintelligence, who have the most inc
 Hear what the top AI figures have to say:
 
 #### Text
-content:: **Interactive exercise:** XLab's `what-do-they-say` widget has no direct Lens equivalent yet. Complete it in the [original XLab lesson](https://aisafetytracks.com/tracks/verification/why-verification/introduction). Its surrounding lesson text is preserved here.
+content::
+**Sam Altman**, CEO, OpenAI. *Authored OpenAI's original economic definition of AGI; has since argued the term is no longer precise enough to be useful.*
+
+*Definition.* OpenAI's founding charter defines AGI as "highly autonomous systems that outperform humans at most economically valuable work", the definition the rest of the industry spent a decade responding to. As systems improved, Altman's use of the term shifted. By mid-2025 he was calling AGI "not a super useful term", and by late 2025 he suggested that AGI, by any earlier definition, "went whooshing by" without transforming the world. His proposed bar for superintelligence is a system that outperforms any human, including one assisted by AI, at roles such as head of state, chief executive, or director of a major research lab.
+
+*Risk statements.* His risk assessments have not softened alongside the definitional shift. In 2023 he described the worst case as "lights out for all of us", and OpenAI's superalignment announcement warned that superintelligence could lead to the "disempowerment of humanity or even human extinction".
+
+*Relevance to this module.* A definition that moves as products approach it cannot anchor an agreement. This is one reason treaties are written around thresholds an outside party can measure, taken up in Module 1 (compute vs. capability).
+
+Sources: [Time](https://time.com/7205596/sam-altman-superintelligence-agi/), [CNBC](https://www.cnbc.com/2025/08/11/sam-altman-says-agi-is-a-pointless-term-experts-agree.html), [Windows Central](https://www.windowscentral.com/artificial-intelligence/openai-ceo-sam-altman-claims-agi-might-have-already-whooshed-by), [80,000 Hours](https://80000hours.org/podcast/episodes/jan-leike-superalignment/).
+
+**Dario Amodei**, CEO, Anthropic. *Uses the term "powerful AI" rather than AGI; estimates arrival as early as 2026 or 2027.*
+
+*Definition.* Amodei avoids the term AGI in favor of *powerful AI*: a system "smarter than a Nobel Prize winner across most relevant fields", able to work autonomously for days or weeks, operating at 10 to 100 times human speed, in millions of instances at once. His shorthand for this is "a country of geniuses in a datacenter". He has estimated arrival as early as 2026 or 2027.
+
+*Risk statements.* His 2026 essay *The Adolescence of Technology* organizes the risks into five categories: rogue autonomy, misuse for destruction (biological weapons foremost), seizure of power, economic disruption, and, notably given his position, AI companies themselves. On state misuse he writes: "AI-enabled authoritarianism terrifies me".
+
+*Relevance to this module.* The framing is explicitly geopolitical. In a companion policy essay he argues that a nation holding powerful AI, facing one without it, could resemble "World War II Marines facing an army of medieval swordsmen". That comparison describes the arms-race incentive structure this module examines.
+
+Sources: [Machines of Loving Grace](https://darioamodei.com/essay/machines-of-loving-grace), [The Adolescence of Technology](https://darioamodei.com/essay/the-adolescence-of-technology), [Policy on the AI Exponential](https://darioamodei.com/post/policy-on-the-ai-exponential), [Axios](https://www.axios.com/2026/01/26/anthropic-ai-dario-amodei-humanity), [Mi3](https://www.mi-3.com.au/27-01-2026/anthropic-founder-warns-ai-entering-dangerous-adolescence-urges-urgent-guardrails).
+
+**Demis Hassabis**, CEO, Google DeepMind, Nobel laureate. *Defines AGI as the full range of human cognitive capabilities; advocates IAEA-style international monitoring.*
+
+*Definition.* Hassabis applies the strictest bar among the major labs: "a system that can exhibit all the cognitive capabilities humans can", including invention, creativity, continual learning, and long-horizon planning. Benchmark performance alone does not satisfy it; he notes that current models can win Olympiad-level competitions while failing simple tasks. On that standard he estimates five to ten years, centered near 2030.
+
+*Risk statements.* "The risk of a catastrophic scenario is not zero, so we must dedicate significant resources to mitigating it". He groups the dangers into two categories: misuse of a dual-use technology by bad actors, and systems whose goals diverge from human intent as capabilities increase. Asked whether he worries about ending up in Oppenheimer's position, he has said he thinks about such scenarios regularly.
+
+*Relevance to this module.* His policy proposals are institutional: a CERN-style body for shared safety research and an IAEA-style agency to monitor high-risk projects. The IAEA is the nuclear world's verification agency, so the proposal amounts to a request for the infrastructure this course studies.
+
+Sources: [Davos 2026 transcript](https://aletteraday.substack.com/p/letters-314315-demis-hassabis-and), [Axios AI+ interview](https://vocal.media/journal/demis-hassabis-warns-about-ai-the-risk-of-a-catastrophic-scenario-is-not-zero).
+
+**Shane Legg**, Chief AGI Scientist, Google DeepMind. *Coined the term AGI in 2001; has maintained a median forecast near 2028 since 2011.*
+
+*The term.* Legg proposed the phrase "artificial general intelligence" around 2001, at a time when the idea sat well outside mainstream research. His forecasts have been unusually stable since: a public median estimate near 2028, held since at least 2011. His 2008 doctoral thesis, *Machine Super Intelligence*, argued that a machine above human level could design still more capable machines, and that methods for managing that dynamic did not exist.
+
+*Risk statements.* As DeepMind's Chief AGI Scientist he co-authored the company's 145-page AGI safety framework, which states that AGI could pose a "potential risk of severe harm" and identifies existential risk, harm that permanently destroys humanity, as the extreme case the framework is designed to prevent.
+
+*Relevance to this module.* Legg's two-decade position is that capability has outpaced control. Verification does not resolve that problem; it addresses a narrower one, giving outside parties visibility into who is approaching dangerous capability levels while the control problem remains open.
+
+Sources: [MIT Technology Review](https://www.technologyreview.com/2025/10/30/1127057/agi-conspiracy-theory-artifcial-general-intelligence/), [Fortune](https://fortune.com/2025/04/04/google-deeepmind-agi-ai-2030-risk-destroy-humanity/).
+
+**Ilya Sutskever**, Co-founder, OpenAI; Founder, SSI. *Central to the current technical paradigm; now leads a lab founded solely to build superintelligence safely.*
+
+*Definition.* Sutskever's objection to the standard definition is that it overshoots: "a human being is not an AGI". Humans do not arrive knowing every task; they learn. His model of superintelligence follows from that. Not a complete, all-knowing system, but one that can learn any job quickly, which he has described as "a superintelligent 15-year-old" whose competence develops through deployment.
+
+*Risk statements.* Before leaving OpenAI he described the coming transition as "monumental, earth-shattering", with a before and an after. In 2024 he founded Safe Superintelligence Inc., a lab organized around a single goal: building superintelligence with safety as the binding constraint.
+
+*Relevance to this module.* If capabilities emerge during deployment rather than before release, there is no clean pre-release point at which a system can be inspected. This measurement problem is part of why current policy relies on compute thresholds, which can be assessed in advance, rather than capability evaluations.
+
+Sources: [Dwarkesh Podcast](https://www.dwarkesh.com/p/ilya-sutskever-2), [The Decoder](https://the-decoder.com/ilya-sutskever-says-a-new-learning-paradigm-is-necessary-and-is-already-chasing-it/), [MIT Technology Review](https://www.technologyreview.com/2025/10/30/1127057/agi-conspiracy-theory-artifcial-general-intelligence/).
+
+**Jan Leike**, former co-lead, Superalignment, OpenAI; now Anthropic. *Co-led OpenAI's superalignment effort; resigned in 2024 over resourcing and priorities.*
+
+*Background.* Leike co-led OpenAI's superalignment team with Sutskever. Its mandate was to solve the control problem for smarter-than-human systems within four years, supported by a public commitment of 20 percent of the company's compute. He resigned less than a year later, writing that the team had struggled to obtain the promised resources, that building smarter-than-human machines is "an inherently dangerous endeavor", and that safety work had taken "a backseat to shiny products". The team was dissolved shortly after his departure. He continued the same research agenda at Anthropic.
+
+*Risk statements.* His central technical claim is that no one yet knows how to "steer and control AI systems much smarter than us", and that development is proceeding ahead of that knowledge.
+
+*Relevance to this module.* This episode is a documented case study for voluntary self-governance. A leading lab made a written, quantified commitment to itself, and competitive pressure eroded it within a year. Commitments between competitors require what internal commitments lack: independent means of checking compliance.
+
+Sources: [The National](https://www.thenationalnews.com/future/technology/2024/05/18/former-openai-executive-says-safety-has-taken-a-backseat-as-company-disbands-ai-risks-unit/), [Fast Company](https://www.fastcompany.com/91127491/former-openai-leader-jan-leike-blasts-company-for-ignoring-safety-culture), [VentureBeat](https://venturebeat.com/ai/openais-former-superalignment-leader-blasts-company-safety-culture-and-processes-have-taken-a-backseat).
 
 #### Text
 content::
@@ -150,19 +209,17 @@ Most notably, over 1,300 employees of frontier AI companies have signed a public
 
 Four of them, on why they signed:
 
-**SignatoryQuotes**
-
-**Signatory**
+**Ilya Sutskever**, CEO, Safe Superintelligence Inc.
 
 Future AI will be extraordinarily powerful compared to anything that exists today, and dealing with this future power will require unprecedented measures, such as the ones described here. The problem statement is real.
 
 This works only if it is done internationally, and it has to be done well: a bad implementation can make things worse.
 
-**Signatory**
+**Jasjeet Sekhon**, Chief Strategy Officer, Google DeepMind
 
 We have found a way to turn energy into compute, and compute into intelligence. The benefits will be enormous, from curing diseases to understanding the cosmos. We can capture the benefits of the coming intelligence explosion while managing its risks, but only if we build the tools to pace the frontier of the riskiest capabilities before we need them, so we protect people and keep the social trust that innovation depends on. I believe smart technical and governance tools will be needed to sustain rapid innovation, vigorous competition, and robust safety.
 
-**Signatory**
+**John Schulman**, Chief Scientist, Thinking Machines
 
 Signed because this statement helps establish common knowledge about the possible need for coordination mechanisms as automated AI research accelerates progress. I’d also like to see labs start designing these mechanisms voluntarily, even before the USG gets involved.
 
