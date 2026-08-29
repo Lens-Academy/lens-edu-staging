@@ -20,7 +20,7 @@ https://editor.lensacademy.org/6e627624/Lens-Edu/courses/Demo-Course.md
 
 Read the course file first, then follow its module links from top to bottom. It shows how courses, modules, lenses, learning outcomes, tests, meetings, and surveys fit together.
 
-With the MCP, your AI will also have context on everything, so yo can just ask it about whatevAsk your AI:
+With the MCP, your AI will also have context on everything, so yo can just ask it about whatever you want to know.Ask your AI:
 
 Use the Lens Relay MCP to read Lens Edu/AI Guide/Course Authoring and walk me through Lens Edu/courses/Demo Course. Explain how each file maps to what learners see on Lens Academy, and answer my questions as we go.
 
