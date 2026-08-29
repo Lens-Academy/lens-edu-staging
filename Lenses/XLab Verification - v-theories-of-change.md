@@ -32,9 +32,7 @@ AI safety in particular cannot afford this failure. A field concerned with exist
 
 Being able to clearly communicate your theory of change is almost as, if not more important than having a theory of change in the first place. It enables collaborators, funders, decision-makers, critics, and even field newcomers to actually engage with your reasoning and provide substantive critique. It enables impactful coordination across projects and helps highlight—and therefore solve—where efforts may be redundant or contradictory. A project can be technically sound, well-executed, and published in a prestigious venue, but never translate to real-world impact if the path to change is any less than proactive, legible, and explicit.
 
-\## What {--{"author":"Elias's AI","timestamp":1788010897642}@@a good theory of change contains
-
-\## What --}does a good theory of change look like?
+\## What does a good theory of change look like?
 
 So, what does a good AI safety theory of change actually look like? This table maps out all the important elements of a robust theory of change:
 
@@ -49,33 +47,28 @@ So, what does a good AI safety theory of change actually look like? This table m
 
 A useful strategy is backchaining: start by specifying the long-term goal, then work backwards. What has to change for this outcome to be possible? How does your project contribute to creating those conditions? Each link in the chain should be an if-then claim. If we publish this benchmark, then labs will adopt it. If labs adopt it, then training procedures will incorporate the findings. If training procedures change, then deployed models will be safer, and “safer” here has to mean something specific: reward hacking rates, deception probes, behavior under distribution shift.
 
-{--{"author":"Elias's AI","timestamp":1788010899303}@@  Strategy: --}{++{"author":"Elias's AI","timestamp":1788010899303}@@:::callout {title="Strategy: ++}LLM Clarity {--{"author":"Elias's AI","timestamp":1788010899303}@@Check
-  --}{++{"author":"Elias's AI","timestamp":1788010899303}@@Check" tone="blue"}
-++}A simple test to check if you are clear enough is to try explaining the project to an LLM. If, after your pitch, it still makes basic assumptions about what you are doing or why it matters wrong, your explanation is probably too fuzzy. And if the model is confused, people will likely be confused too.{++{"author":"Elias's AI","timestamp":1788010899303}@@
-:::++}
+:::callout {title="Strategy: LLM Clarity Check" tone="blue"}
+A simple test to check if you are clear enough is to try explaining the project to an LLM. If, after your pitch, it still makes basic assumptions about what you are doing or why it matters wrong, your explanation is probably too fuzzy. And if the model is confused, people will likely be confused too.
+:::
 
-{--{"author":"Elias's AI","timestamp":1788010899303}@@\## Strong--}{++{"author":"Elias's AI","timestamp":1788010899303}@@:::callout {title="Strong++} Theories of {--{"author":"Elias's AI","timestamp":1788010899303}@@Change
-
---}{++{"author":"Elias's AI","timestamp":1788010899303}@@Change" tone="neutral" collapse="closed"}
-++}- [Apollo Research theory of change for AI auditing](https://www.apolloresearch.ai/blog/theories-of-change-for-ai-auditing/) is a good example of what this looks like in practice. It names specific causal mechanisms, states explicit assumptions, and acknowledges failure modes.
+:::callout {title="Strong Theories of Change" tone="neutral" collapse="closed"}
+- [Apollo Research theory of change for AI auditing](https://www.apolloresearch.ai/blog/theories-of-change-for-ai-auditing/) is a good example of what this looks like in practice. It names specific causal mechanisms, states explicit assumptions, and acknowledges failure modes.
 - Another good example is the [Center on Long Term Risk Measurement Research Agenda](https://longtermrisk.org/measurement-research-agenda/#3_Theory_of_change), which runs two parallel theories of change: a product model (the work produces useful operationalizations and measurement methods) and a field-building model (the work develops skills and positions the team to take advantage of future opportunities).
 - Conceptual AI Safety research may seem difficult to write a cohesive and tractable theory of change about—but it’s possible! See [this example by John Wentworth](https://www.lesswrong.com/posts/vh5ZjdmJYJgnbpq8C/the-plan-2025-update).
 - [Slow Food USA’s theory of change](https://slowfoodusa.org/theory-of-change/) — effective theory of change, conveyed in engaging and easy-to-parse visuals.
 
-See the one-page diagram at [Our Theory of Change](https://slowfoodusa.org/theory-of-change/), Slow Food USA: assumptions and purpose at the top feed a mission, three pillars, and a tree whose canopy holds the future and vision, with values at the roots and roles and strategies beneath.{>>{"author":"Elias's AI","timestamp":1788009459586}@@Proposed: the image hotlinks XLab's asset server; link the original page instead. Alternative: copy the image into Lens.<<}{++{"author":"Elias's AI","timestamp":1788010965303}@@
-:::++}
+See the one-page diagram at [Our Theory of Change](https://slowfoodusa.org/theory-of-change/), Slow Food USA: assumptions and purpose at the top feed a mission, three pillars, and a tree whose canopy holds the future and vision, with values at the roots and roles and strategies beneath.{>>{"author":"Elias's AI","timestamp":1788009459586}@@Proposed: the image hotlinks XLab's asset server; link the original page instead. Alternative: copy the image into Lens.<<}
+:::
 
 A common failure mode is conflating **outputs** with **outcomes**. Outputs are tangible products you produced: a paper, a benchmark, an eval, a workshop, a policy memo. They are easy to qualify and quantify. Outcomes are what changed because of those outputs: a lab altered a training procedure, a policymaker incorporated a threat model into a draft bill, a researcher updated their estimates. It’s more difficult but much more important to recognize and attribute outcomes. A project can generate impressive outputs—a well-cited paper, a popular benchmark, a successful conference—without any clarity as to how it actually creates change in the world.
 
-{--{"author":"Elias's AI","timestamp":1788010906205}@@\## [Optional] Exercise:--}{++{"author":"Elias's AI","timestamp":1788010906205}@@:::callout {title="Optional:++} Theory of Change for {--{"author":"Elias's AI","timestamp":1788010906205}@@your favorite--}{++{"author":"Elias's AI","timestamp":1788010906205}@@Your Favorite++} AI {--{"author":"Elias's AI","timestamp":1788010906205}@@safety organization
-
---}{++{"author":"Elias's AI","timestamp":1788010906205}@@Safety Organization" tone="neutral" collapse="closed"}
-++}Now that you’ve seen some exemplary examples of robust theories of change, try building your own! Pick your favorite AI safety {--{"author":"Elias's AI","timestamp":1788010906205}@@organization: Epoch, MIRI, The Midas Project, etc.—and--}{++{"author":"Elias's AI","timestamp":1788010906205}@@organization and++} fill out the {--{"author":"Elias's AI","timestamp":1788010906205}@@below table--}{++{"author":"Elias's AI","timestamp":1788010906205}@@table below++} based on publicly available information, reports, and testimonials.{++{"author":"Elias's AI","timestamp":1788010906205}@@
-:::++}
+:::callout {title="Optional: Theory of Change for Your Favorite AI Safety Organization" tone="neutral" collapse="closed"}
+Now that you’ve seen some exemplary examples of robust theories of change, try building your own! Pick your favorite AI safety organization and fill out the table below based on publicly available information, reports, and testimonials.
+:::
 
 #### Question: Open
 id:: dc502432-39f8-4a75-99ff-e43532b1ed5d
-content:: {--{"author":"Elias's AI","timestamp":1788010906205}@@[Optional]--}{++{"author":"Elias's AI","timestamp":1788010906205}@@Optional:++} Name your organization, then fill in each of the eight boxes of its theory of change:
+content:: Optional: Name your organization, then fill in each of the eight boxes of its theory of change:
 
 1. **Inputs / What do we need?** (resources, people)
 2. **Outputs / What do we do?** (activities)

@@ -29,13 +29,9 @@ A: stress-test the Plan A verification supplement, or
 
 B: compare Plan A (verified slowdown) and Plan S (complete shutdown).
 
-{--{"author":"Elias's AI","timestamp":1788010867032}@@\## A--}{++{"author":"Elias's AI","timestamp":1788010867032}@@:::callout {title="A++} writing good {--{"author":"Elias's AI","timestamp":1788010867032}@@practice
-
---}{++{"author":"Elias's AI","timestamp":1788010867032}@@practice" tone="neutral" collapse="closed"}
-++}Clarify the source of each claim you make, and explicitly identify gaps, uncertainties, or ambiguities as they appear. You won't know everything, and you aren't expected to.{--{"author":"Elias's AI","timestamp":1788010867032}@@
-
-\## Option A: Stress-test Plan A--}{++{"author":"Elias's AI","timestamp":1788010867032}@@
-:::++}
+:::callout {title="A writing good practice" tone="neutral" collapse="closed"}
+Clarify the source of each claim you make, and explicitly identify gaps, uncertainties, or ambiguities as they appear. You won't know everything, and you aren't expected to.
+:::
 
 \## Option A: Stress-test Plan A's Verification Regime
 
@@ -66,9 +62,7 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## A2. Identify the {--{"author":"Elias's AI","timestamp":1788010868794}@@weakest link
-
-\## A2. Identify the --}regime's weakest link(s)
+\## A2. Identify the regime's weakest link(s)
 
 #### Question: Open
 id:: 8c3cd334-f50c-40ec-bcea-3ee0d83db3a9
@@ -85,9 +79,7 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## A3. Stress-test the timeline{--{"author":"Elias's AI","timestamp":1788010870464}@@
-
-\## A3. Stress-test the timeline--}
+\## A3. Stress-test the timeline
 
 #### Question: Open
 id:: 5e944a29-5989-48b0-bf4a-a4998a0eaa25
@@ -100,9 +92,7 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## A4. Assess the covert-compute margin{--{"author":"Elias's AI","timestamp":1788010872075}@@
-
-\## A4. Assess the covert-compute margin--}
+\## A4. Assess the covert-compute margin
 
 #### Question: Open
 id:: e9e4eaa9-198a-4031-a923-eba27efa51ae
@@ -120,9 +110,7 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## A5. Final essay{--{"author":"Elias's AI","timestamp":1788010873780}@@
-
-\## A5. Final essay--}
+\## A5. Final essay
 
 You have now approached the AI 2040 Verification Supplement from four angles: its most load-bearing strength, its weakest link, its biggest timeline bottleneck, and the amount of failure the regime can tolerate.
 
@@ -145,9 +133,7 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## Option B: Compare Plan A and Plan S{--{"author":"Elias's AI","timestamp":1788010875556}@@
-
-\## Option B: Compare Plan A and Plan S--} as Verification Problems
+\## Option B: Compare Plan A and Plan S as Verification Problems
 
 Plan A and Plan S aim at different kinds of AI agreements. Plan A permits substantial AI activity under a layered verification regime; Plan S calls for a much stronger halt on frontier AI development. Those choices shape the verification problem: what counts as compliance, what evidence inspectors can collect, how much of the AI ecosystem must remain visible, and which actors must cooperate.
 
@@ -171,9 +157,7 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## B2. {--{"author":"Elias's AI","timestamp":1788010877256}@@Compare the evidence
-
-\## B2. --}Which plan could provide stronger evidence of compliance?
+\## B2. Which plan could provide stronger evidence of compliance?
 
 #### Question: Open
 id:: 79d7f63c-67b0-4a54-aeb6-127a58ddbc4a
@@ -195,9 +179,7 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## B3. {--{"author":"Elias's AI","timestamp":1788010878871}@@Compare the monitoring problem
-
-\## B3. --}Which plan creates the harder monitoring problem?
+\## B3. Which plan creates the harder monitoring problem?
 
 #### Question: Open
 id:: 3edc12a8-2c49-46c7-8029-54e1de5ff7ac
@@ -215,9 +197,7 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## B4. {--{"author":"Elias's AI","timestamp":1788010880653}@@Compare political cooperation
-
-\## B4. --}Which regime could states actually cooperate on?
+\## B4. Which regime could states actually cooperate on?
 
 #### Question: Open
 id:: 3d07b047-a892-40b9-960c-48de66645bea
@@ -237,9 +217,7 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## B5. Final essay{--{"author":"Elias's AI","timestamp":1788010882254}@@
-
-\## B5. Final essay--}
+\## B5. Final essay
 
 Policymakers are deciding whether a serious international AI agreement should more closely resemble Plan A or Plan S. They have asked which approach provides a verification regime strong enough to rely on.
 
@@ -259,13 +237,11 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## {--{"author":"Elias's AI","timestamp":1788010883904}@@[Optional] Exercises and further reading
-
-\## [Optional] --}{++{"author":"Elias's AI","timestamp":1788010883904}@@Optional: ++}Additional Exercises {--{"author":"Elias's AI","timestamp":1788010883904}@@&--}{++{"author":"Elias's AI","timestamp":1788010883904}@@and++} Materials
+\## Optional: Additional Exercises and Materials
 
 #### Question: Open
 id:: 7f655c72-e353-42cc-87f1-bd7ada0f0593
-content:: {--{"author":"Elias's AI","timestamp":1788010885530}@@[Optional] Task —--}{++{"author":"Elias's AI","timestamp":1788010885530}@@Optional:++} Essay: what does success look like to you?
+content:: Optional: Essay: what does success look like to you?
 
 Describe your own plausible success scenario for advanced AI governance. Think several steps beyond any single verification mechanism: what does a world that has successfully managed the relevant risks actually look like, and what agreement or institutional arrangement gets us there?
 
@@ -285,7 +261,7 @@ optional:: true
 
 #### Question: Open
 id:: fbff5bec-4474-4ae1-8712-f9c97ceed1ff
-content:: {--{"author":"Elias's AI","timestamp":1788010887401}@@[Optional]--}{++{"author":"Elias's AI","timestamp":1788010887401}@@Optional:++} Explore AI 2027
+content:: Optional: Explore AI 2027
 
 Read [AI 2027](https://ai-2027.com/), the same team’s earlier scenario, including both of its endings. As you read, ask the question this section trained: at which branch points would verification infrastructure have changed what the actors could credibly agree to?
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
@@ -298,9 +274,7 @@ AI Futures Project (2025)
 
   The earlier scenario from the same team — how a race ends badly, dramatized. Read both of its endings.
 
-\## Curated {--{"author":"Elias's AI","timestamp":1788010889039}@@readings
-
-\## Curated --}Readings
+\## Curated Readings
 
 You have now taken a position on a concrete verification regime. Use these readings to push on whichever part of your argument still feels least settled. Skim broadly; deep-read the one or two closest to the question you found hardest.
 
@@ -350,9 +324,7 @@ Scher and Thiergart, MIRI Technical Governance Team (2025)
   or mechanism closest to your essay and ask whether its evidence, access
   requirements, and remaining R&D gaps change your conclusion.
 
-\## Drill bench{--{"author":"Elias's AI","timestamp":1788010890693}@@
-
-\## Drill bench--}
+\## Drill bench
 
 The primer bench: inspection games, credible commitment, and two-level games. One step at a time: commit, read why, then Continue.
 

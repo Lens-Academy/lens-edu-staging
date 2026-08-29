@@ -35,7 +35,7 @@ One of them could be you.
 
 #### Question: Open
 id:: 1c8c4629-9392-4c48-bce8-8dde6b908cf3
-content:: {--{"author":"Elias's AI","timestamp":1788010911975}@@[Optional] Reflection —--}{++{"author":"Elias's AI","timestamp":1788010911975}@@Optional:++} Write a short note that you can look back on after completing the course:
+content:: Optional: Write a short note that you can look back on after completing the course:
 
 - Why are you interested in learning about AI verification?
 - What do you want to gain from this course?

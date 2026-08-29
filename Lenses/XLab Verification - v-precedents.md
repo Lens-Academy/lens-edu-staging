@@ -39,9 +39,7 @@ to:: **(CSAs):** all non-nuclear-weapon States (NNWSs) party to the Treaty on th
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788010892398}@@\## Document 2: Compute monitoring
-
---}\### Document 2. What does it take to catch a Chinchilla?
+\### Document 2. What does it take to catch a Chinchilla?
 
 \### [What does it take to catch a Chinchilla? Verifying Rules on Large-Scale Neural Network Training via Compute Monitoring](https://arxiv.org/abs/2303.11341)
 *§1.1 Contributions*
@@ -55,9 +53,7 @@ to:: The system is compatible with many different rules on training runs (see Se
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788010894315}@@\## Document 3: Undeclared infrastructure
-
---}\### Document 3. Iraq and undeclared infrastructure
+\### Document 3. Iraq and undeclared infrastructure
 
 \### [Experience and Challenges in WMD Treaty Verification: a Comparative View](https://www.dfat.gov.au/about-us/publications/Pages/background-papers-on-nuclear-verification-issues)
 *Background Papers on Nuclear Verification Issues, Paper 1 — §5.4 Implications for safeguards effectiveness; §5.7.2 Undeclared nuclear sites*
@@ -76,9 +72,7 @@ to:: Clearly detecting undeclared nuclear activities at undeclared sites is more
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788010895902}@@\## Compare the three documents
-
---}\### The tasks
+\### The tasks
 
 Read Documents 1–3. Complete Task 5 and any one of Tasks 1–4.
 

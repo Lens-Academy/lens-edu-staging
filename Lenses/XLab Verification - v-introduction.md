@@ -8,35 +8,29 @@ duration_minutes: 25
 ---
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788010839137}@@Module 0—this module—establishes the motivations for why verification is important to--}{++{"author":"Elias's AI","timestamp":1788010839137}@@:::callout {title="By++} the {--{"author":"Elias's AI","timestamp":1788010839137}@@safe development--}{++{"author":"Elias's AI","timestamp":1788010839137}@@end++} of {--{"author":"Elias's AI","timestamp":1788010839137}@@advanced AI. You--}{++{"author":"Elias's AI","timestamp":1788010839137}@@this module, you++} will{--{"author":"Elias's AI","timestamp":1788010839137}@@ begin to develop intuitions as to what a realistic overarching regime might look like and where AI verification converges with and diverges from history.
-
-\## Learning objectives
-
-- --}{++{"author":"Elias's AI","timestamp":1788010839137}@@ be able to:" tone="blue"}
-1. ++}Explain why ASI development constitutes an existential risk, why it produces arms-race incentives that individual state preferences cannot overcome, and why only a robust verification regime materially mitigates ASI risk.
-{--{"author":"Elias's AI","timestamp":1788010839137}@@---}{++{"author":"Elias's AI","timestamp":1788010839137}@@2.++} Explain why successful prevention is invisible, and why that makes the risk psychologically easy to dismiss.
-{--{"author":"Elias's AI","timestamp":1788010839137}@@---}{++{"author":"Elias's AI","timestamp":1788010839137}@@3.++} Discern what makes a good, workable theory of change.
-{--{"author":"Elias's AI","timestamp":1788010839137}@@---}{++{"author":"Elias's AI","timestamp":1788010839137}@@4.++} Interrogate a concrete verification proposal and identify its general strengths, failure modes, and assumptions it depends on—then form a coherent, defendable position on it.
-{--{"author":"Elias's AI","timestamp":1788010839137}@@---}{++{"author":"Elias's AI","timestamp":1788010839137}@@5.++} Reconstruct the causal logic of a historical verification regime and determine which parts of that logic can and cannot be transferred to AI treaty verification.{++{"author":"Elias's AI","timestamp":1788010839137}@@
-:::++}
+:::callout {title="By the end of this module, you will be able to:" tone="blue"}
+1. Explain why ASI development constitutes an existential risk, why it produces arms-race incentives that individual state preferences cannot overcome, and why only a robust verification regime materially mitigates ASI risk.
+2. Explain why successful prevention is invisible, and why that makes the risk psychologically easy to dismiss.
+3. Discern what makes a good, workable theory of change.
+4. Interrogate a concrete verification proposal and identify its general strengths, failure modes, and assumptions it depends on—then form a coherent, defendable position on it.
+5. Reconstruct the causal logic of a historical verification regime and determine which parts of that logic can and cannot be transferred to AI treaty verification.
+:::
 
 #### Video
 source:: [[../video_transcripts/ted-the-catastrophic-risks-of-ai-and-a-safer-path-yoshua-bengio-ted]]
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788010844080}@@\## [Optional] Material
-
---}{++{"author":"Elias's AI","timestamp":1788010844080}@@:::callout {title="Optional: Further Reading" tone="neutral" collapse="closed"}
-++}The case at full strength, from the people who argue it most directly. Any one of these:
+:::callout {title="Optional: Further Reading" tone="neutral" collapse="closed"}
+The case at full strength, from the people who argue it most directly. Any one of these:
 
 - [AI Is Grown, Not Built](https://www.theatlantic.com/technology/2025/09/if-anyone-builds-it-excerpt/684213/) — Eliezer Yudkowsky & Nate Soares, The Atlantic, September 2025. An edited excerpt of chapter 2 of *If Anyone Builds It, Everyone Dies*.
-- [Four Background Claims](https://intelligence.org/2015/07/24/four-background-claims/) — Nate Soares, MIRI, 2015. The assumptions doing the work beneath the argument.{++{"author":"Elias's AI","timestamp":1788010844080}@@
-:::++}
+- [Four Background Claims](https://intelligence.org/2015/07/24/four-background-claims/) — Nate Soares, MIRI, 2015. The assumptions doing the work beneath the argument.
+:::
 
 #### Question: Open
 id:: b7e5023a-0fed-4fc6-be79-0c7ece9f3106
-content:: {--{"author":"Elias's AI","timestamp":1788010846439}@@[Optional] Task —--}{++{"author":"Elias's AI","timestamp":1788010846439}@@Optional:++} The strongest objection.
+content:: Optional: The strongest objection.
 
 In a short written note, construct the strongest objection you can to the case above — and state what would change your mind, in either direction.
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
@@ -66,10 +60,8 @@ If models have already exhibited capabilities to deceive, exploit, and break int
 
 Such software exploitation is just one recent dangerous phenomenon. New and unprecedented risks will continually come to light.
 
-{--{"author":"Elias's AI","timestamp":1788010848803}@@\## Misuse--}{++{"author":"Elias's AI","timestamp":1788010848803}@@:::callout {title="Misuse++} vs. {--{"author":"Elias's AI","timestamp":1788010848803}@@misalignment
-
---}{++{"author":"Elias's AI","timestamp":1788010848803}@@misalignment" tone="neutral" collapse="closed"}
-++}Misuse is harm caused by people using advanced AI systems for dangerous purposes.
+:::callout {title="Misuse vs. misalignment" tone="neutral" collapse="closed"}
+Misuse is harm caused by people using advanced AI systems for dangerous purposes.
 
 - **Cyber operations.** AI could make it much easier to find vulnerabilities, develop exploits, conduct intrusions, and attack digital infrastructure at scale.
 - **Biological and chemical weapons.** Advanced models could help users design pathogens, toxins, or chemical agents and work through practical obstacles in developing them.
@@ -80,10 +72,8 @@ Misalignment is harm that arises when an AI system develops or pursues objective
 
 - **Pursuing the wrong objective.** A highly capable system may find strategies that satisfy its learned objective while violating the goals its operators actually care about. In experiments, models have already shown [deceptive behavior to preserve learned preferences](https://arxiv.org/abs/2412.14093) and [scheming to evade oversight](https://arxiv.org/abs/2412.04984).
 - **Resisting correction.** If being modified, shut down, or replaced would interfere with its objective, a sufficiently capable system may try to conceal its behavior or prevent human intervention.
-- **Self-improvement can magnify the problem.** If advanced systems help build more capable successors, errors in goals or control could carry forward as capabilities increase, leaving humans less time to detect and correct them.{--{"author":"Elias's AI","timestamp":1788010850479}@@
-
-\## What is ASI?--}{++{"author":"Elias's AI","timestamp":1788010850479}@@
-:::++}
+- **Self-improvement can magnify the problem.** If advanced systems help build more capable successors, errors in goals or control could carry forward as capabilities increase, leaving humans less time to detect and correct them.
+:::
 
 \### What is ASI?
 
@@ -93,14 +83,8 @@ Because we cannot separate dangerous capabilities from beneficial ones, we will 
 
 A key property of ASI would be recursive self-improvement, or RSI. A model capable of RSI would be able to autonomously and exponentially improve itself, leading to unstoppable, runaway systems that humans can no longer control. Throughout this course, we will use the term ASI to refer to AI with dangerous capabilities that pose a material existential threat to humanity.
 
-{--{"author":"Elias's AI","timestamp":1788010853624}@@\## [Optional]--}{++{"author":"Elias's AI","timestamp":1788010853624}@@:::callout {title="Optional:++} The {--{"author":"Elias's AI","timestamp":1788010853624}@@types--}{++{"author":"Elias's AI","timestamp":1788010853624}@@Types++} of {--{"author":"Elias's AI","timestamp":1788010853624}@@AI
-
---}{++{"author":"Elias's AI","timestamp":1788010853624}@@AI" tone="neutral" collapse="closed"}
-++}Where does today's AI sit? Each ring contains the next; a{--{"author":"Elias's AI","timestamp":1788010853624}@@ system sits at the deepest ring it belongs to. Tap any example to see what it is and why it lands where it does.
-
-#### Text
-content::
-Each ring contains the next. A--} system sits at the deepest ring it belongs to.
+:::callout {title="Optional: The Types of AI" tone="neutral" collapse="closed"}
+Where does today's AI sit? Each ring contains the next; a system sits at the deepest ring it belongs to.
 
 1. **AI**: the whole field, any system built to do things we would call intelligent.
 2. **Narrow AI**: built for one task or a narrow set of them. Everything that actually exists today lives here. Examples: Roomba (sensors and fixed rules, no learning from data), Boeing autopilot (engineered control laws), IBM Deep Blue (brute-force search plus hand-crafted evaluation), Word spell checker (dictionary and rules).
@@ -112,12 +96,12 @@ Each ring contains the next. A--} system sits at the deepest ring it belongs to.
 
 Beyond these rings: non-narrow AI is theoretical only right now (no real non-narrow AI models are known), and some regions are theoretically possible but would require an absurd quantity of resources.
 
-{++{"author":"Elias's AI","timestamp":1788010855380}@@Optional: three quick checks follow.
+Optional: three quick checks follow.
 :::
 
-++}#### Question: Choice
+#### Question: Choice
 id:: a461d157-f6b2-416b-9c61-28b2bf2be861
-content:: {++{"author":"Elias's AI","timestamp":1788010855380}@@Optional: ++}Which is the deepest ring a Roomba belongs to?
+content:: Optional: Which is the deepest ring a Roomba belongs to?
 options::
 - [x] Narrow AI
 - Machine Learning
@@ -128,7 +112,7 @@ feedback-instructions:: Roomba navigates with sensors and fixed rules. It does n
 
 #### Question: Choice
 id:: 0594a403-1d2a-4203-9cc7-7bce55333971
-content:: {++{"author":"Elias's AI","timestamp":1788010857141}@@Optional: ++}Which is the deepest ring Midjourney belongs to?
+content:: Optional: Which is the deepest ring Midjourney belongs to?
 options::
 - Deep Learning
 - [x] Generative AI
@@ -139,7 +123,7 @@ feedback-instructions:: Midjourney generates images via diffusion. It is generat
 
 #### Question: Choice
 id:: 9b3a4fa5-89e9-48fb-bab9-64abe13334d2
-content:: {++{"author":"Elias's AI","timestamp":1788010858790}@@Optional: ++}Which is the deepest ring Mamba belongs to?
+content:: Optional: Which is the deepest ring Mamba belongs to?
 options::
 - Deep Learning
 - Generative AI
@@ -244,20 +228,16 @@ Source: [Pacing the Frontier](https://www.pacingthefrontier.com/), signatory com
 
 It’s clear that ASI is no longer a hypothetical risk. It will require deliberate and proactive action by labs and governments alike to avoid.
 
-{--{"author":"Elias's AI","timestamp":1788010934483}@@\## [Optional]--}{++{"author":"Elias's AI","timestamp":1788010934483}@@:::callout {title="Optional:++} A Short History of AI {--{"author":"Elias's AI","timestamp":1788010934483}@@Acceleration
-
---}{++{"author":"Elias's AI","timestamp":1788010934483}@@Acceleration" tone="neutral" collapse="closed"}
-++}How fast is fast? Two charts from Our World in Data's [brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai) show the {--{"author":"Elias's AI","timestamp":1788010934483}@@pace.--}{++{"author":"Elias's AI","timestamp":1788010934483}@@pace: a timeline of notable AI systems from 1940 on, and a chart of how fast AI systems caught up with human performance on benchmarks (Kiela et al., 2023). The charts are interactive and cannot be embedded here; open them on Our World in Data.
-:::++}
+:::callout {title="Optional: A Short History of AI Acceleration" tone="neutral" collapse="closed"}
+How fast is fast? Two charts from Our World in Data's [brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai) show the pace: a timeline of notable AI systems from 1940 on, and a chart of how fast AI systems caught up with human performance on benchmarks (Kiela et al., 2023). The charts are interactive and cannot be embedded here; open them on Our World in Data.
+:::
 
 #### Text
-content:: {--{"author":"Elias's AI","timestamp":1788010963577}@@**Interactive charts:** XLab's `short-history` widget is a draggable timeline of notable AI systems (1940 to 2060) and a benchmark chart (data from Kiela et al., 2023), both adapted from Our World in Data. Lens has no chart segment yet. View the originals at--}{++{"author":"Elias's AI","timestamp":1788010963577}@@Charts:++} [Our World in Data](https://ourworldindata.org/brief-history-of-ai).{>>{"author":"Elias's AI","timestamp":1788009452090}@@Proposed: link only to Our World in Data (the original), not XLab.<<}
+content:: Charts: [Our World in Data](https://ourworldindata.org/brief-history-of-ai).{>>{"author":"Elias's AI","timestamp":1788009452090}@@Proposed: link only to Our World in Data (the original), not XLab.<<}
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788010961367}@@\## Why verification enters the picture
-
---}\## Preventing ASI via International and Verifiable Agreements
+\## Preventing ASI via International and Verifiable Agreements
 
 We’ve established that ASI poses a material existential threat to humanity, with increasingly concerning real-world examples. How could an international agreement prevent the development of ASI from occurring, and how does verification fit into this solution?
 
