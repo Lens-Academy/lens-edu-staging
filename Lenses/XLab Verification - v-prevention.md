@@ -31,5 +31,13 @@ Verification is both essential to averting global catastrophe and incredibly har
 But before we do any of that, we need to first securitize ASI as the existential risk it is, and that necessitates grappling with why it can be so psychologically unintuitive. We need to actively resist the instinct to view the invisible as the unreal.
 
 :::callout {title="The Risks of Securitization" tone="neutral" collapse="closed"}
-It's important to recognize that securitizing AI, or treating it as an existential risk and thus a top policy priority, can have some risks in and of itself. The perception of AI as having global catastrophic capabilities inevitably triggers incentives to use this unprecedented technology for self-serving interests. Therefore, securitizing AI must be carefully and tactfully executed in public discourse to minimize militarization and maximize cooperative intent.
+It's important to recognize that securitizing AI, or treating it as an existential risk and thus a top policy priority, can have some risks in and of itself. The perception of AI as having global catastrophic capabilities inevitably triggers incentives to use this unprecedented technology for self-serving interests. Therefore, securitizing AI must be carefully and tactfully executed in public discourse to minimize militarization and maximize cooperative intent.{++{"author":"Elias's AI","timestamp":1788014483440}@@
+:::
+
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Bogoed. "The World Keeps Getting Saved and You Don't Notice." *LessWrong*, 16 Feb. 2026. [lesswrong.com](https://www.lesswrong.com/posts/qnvmZCjzspceWdgjC/the-world-keeps-getting-saved-and-you-don-t-notice)
+*The post this page is written after: prevention is invisible because people notice events and not their absence, so the work that stops a catastrophe is systematically undervalued.*
+
+XLab. "0.1.1 Why Securitizing AI Is Difficult but Necessary." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/prevention-is-invisible)
+*The source lesson this page adapts.*++}
 :::{>>{"author":"Elias's AI","timestamp":1788009454057}@@Proposed: drop per-lesson XLab source footer.<<}
