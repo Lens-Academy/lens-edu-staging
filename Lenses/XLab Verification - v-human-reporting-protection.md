@@ -43,9 +43,9 @@ void for every disclosure. The separate [AIWI/CARMA analysis of SB 53](https://a
 also notes that public disclosure is not expressly protected by the chapter.
 :::
 
-\## Broader Standards
+\## Broader Standards{--{"author":"Elias's AI","timestamp":1788015872220}@@
 
-\## Broader Standards in AI Whistleblowing
+\## Broader Standards--} in AI Whistleblowing
 
 Beyond explicit statutory enactments, see the below _AI Whistleblowing Law:
 Best Practice Guide_ for a more comprehensive framework for effective
