@@ -45,9 +45,9 @@ A revision that keeps each source attached to its claim:
 
 The revision is longer and less quotable. In exchange, every claim now carries its source, and a reader can weigh each one against the actor that produced it. That matters because your readers will apply the same test to you.
 
-\## Downstream: Who Acts on the Finding?
+{--{"author":"Elias's AI","timestamp":1788016745672}@@\##--}{++{"author":"Elias's AI","timestamp":1788016745672}@@\###++} Downstream: Who Acts on{--{"author":"Elias's AI","timestamp":1788016745672}@@ the Finding?
 
-\### Downstream: Who Acts on This?
+\### Downstream:--}{++{"author":"Elias's AI","timestamp":1788016745672}@@ This?{>>{"author":"Elias's AI","timestamp":1788016745672}@@"Downstream:++} Who Acts on {--{"author":"Elias's AI","timestamp":1788016745672}@@This?--}{++{"author":"Elias's AI","timestamp":1788016745672}@@the Finding?" was XLab's PageBreak title, imported as a duplicate heading; kept only the real heading.<<}++}
 
 Two readers will use this finding, and each needs something different from it.
 
@@ -61,12 +61,13 @@ A report written only as a determination gives the analysts nothing to check. A 
 
 No verification document stands alone. Every source upstream of you was produced by an actor with incentives, and everything you write becomes an upstream source for readers who will weigh your incentives in turn.
 
-#### Question
-content:: Before writing, answer two questions:
+#### {--{"author":"Elias's AI","timestamp":1788016749227}@@Question--}{++{"author":"Elias's AI","timestamp":1788016749227}@@Question: Open
+id:: 0a469f70-f02c-4813-8318-9b1d10a4652e++}
+content:: Before writing, answer two {--{"author":"Elias's AI","timestamp":1788016749227}@@questions:--}{++{"author":"Elias's AI","timestamp":1788016749227}@@questions.++}
 
 - Upstream: whose claims does this document rely on, and which of them did I verify myself, rather than inherit from the actor being checked?
 - Downstream: who will act on this document, and what does each reader need in order to act?
-feedback:: false
+{++{"author":"Elias's AI","timestamp":1788016749227}@@optional:: true{>>{"author":"Elias's AI","timestamp":1788016749227}@@Legacy #### Question converted to Question: Open with a fresh id; XLab's notebook callout gates nothing, hence optional. The invalid ++}feedback:: false{++{"author":"Elias's AI","timestamp":1788016749227}@@ line is dropped.<<}++}
 
 #### Text
 content::
@@ -78,7 +79,7 @@ The next exercise asks you to apply this directly. You will assemble a report fr
 
 \### The Context Distiller Exercise
 
-The next page is that exercise. Four reports are on the table; you pick one and
+{--{"author":"Elias's AI","timestamp":1788016751203}@@The--}{++{"author":"Elias's AI","timestamp":1788016751203}@@[[../Lenses/XLab Verification - v-context-distiller|The++} next {--{"author":"Elias's AI","timestamp":1788016751203}@@page--}{++{"author":"Elias's AI","timestamp":1788016751203}@@page]]++} is that exercise. Four reports are on the table; you pick one and
 work the whole chain — clip the facts that would change what a reader does,
 distil them, name who the report was built from and who reads it next, then
 thread each point to the readers who need it.
