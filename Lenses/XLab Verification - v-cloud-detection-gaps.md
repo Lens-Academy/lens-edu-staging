@@ -1,8 +1,8 @@
 ---
 id: '67977ae1-be51-4cc8-b464-5ccc714db95b'
 title: "2.2.3 Detection gaps and policy limits"
-tldr: {--{"author":"Elias's AI","timestamp":1788016189822}@@"Faithful alpha import of XLab lesson 2.2.3 Detection gaps--}{++{"author":"Elias's AI","timestamp":1788016189822}@@"A rule that counts compute per account is only as good as the unit it adds up over: split a run across accounts or days and every piece stays under the line. RAND models that gap; Carnegie asks whether closing it pushes customers toward providers++} and {--{"author":"Elias's AI","timestamp":1788016189822}@@policy limits."--}{++{"author":"Elias's AI","timestamp":1788016189822}@@countries the rule cannot reach."++}
-summary_for_tutor: {--{"author":"Elias's AI","timestamp":1788016189822}@@"Imported --}{++{"author":"Elias's AI","timestamp":1788016189822}@@"Reading lens adapted ++}from {++{"author":"Elias's AI","timestamp":1788016189822}@@XLab lesson 2.2.3. Two external readings with ++}XLab's {--{"author":"Elias's AI","timestamp":1788016189822}@@canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed--}{++{"author":"Elias's AI","timestamp":1788016189822}@@reading instructions: the RAND report by Moon et al. (2025) on detection gaps in a game-theoretic model of compute governance (read the assigned parts on rand.org; the report itself is not inlined), and Noah Tan's Carnegie article (2026)++} on {--{"author":"Elias's AI","timestamp":1788016189822}@@XLab."--}{++{"author":"Elias's AI","timestamp":1788016189822}@@the geopolitics of cloud controls, whose three assigned sections are inlined as article excerpts. No questions in this lens. If the learner asks about the BLOOM calculation, keep it as an illustration of how an evader exploits the unit a rule aggregates over, not as a threshold recommendation. Ends with a Works cited callout."++}
+tldr: "A rule that counts compute per account is only as good as the unit it adds up over: split a run across accounts or days and every piece stays under the line. RAND models that gap; Carnegie asks whether closing it pushes customers toward providers and countries the rule cannot reach."
+summary_for_tutor: "Reading lens adapted from XLab lesson 2.2.3. Two external readings with XLab's reading instructions: the RAND report by Moon et al. (2025) on detection gaps in a game-theoretic model of compute governance (read the assigned parts on rand.org; the report itself is not inlined), and Noah Tan's Carnegie article (2026) on the geopolitics of cloud controls, whose three assigned sections are inlined as article excerpts. No questions in this lens. If the learner asks about the BLOOM calculation, keep it as an illustration of how an evader exploits the unit a rule aggregates over, not as a threshold recommendation. Ends with a Works cited callout."
 tags: [wip]
 duration_minutes: 30
 ---
@@ -40,7 +40,7 @@ Read these parts in the original article:
 - In **The Case Against Cloud Controls**, begin with “Some analysts also contend that cloud restrictions risk pushing users in third-party countries toward China’s competing AI stack” and read to the end of the section.
 - **Cloud Controls Must Contend With “Who” and “What” They Restrict** in full.
 
-Extract the decisions the technical readings do not settle: which users and activities are covered, who bears the compliance burden, how evasion shifts across jurisdictions, and what over-broad coverage costs.{++{"author":"Elias's AI","timestamp":1788016201186}@@
+Extract the decisions the technical readings do not settle: which users and activities are covered, who bears the compliance burden, how evasion shifts across jurisdictions, and what over-broad coverage costs.
 {>>{"author":"Elias's AI","timestamp":1788016201186}@@The Carnegie article is already imported as articles/tan-the-geopolitical-debates-over-controlling-cloud-compute, so the three assigned sections are inlined below. The RAND report is not: the stored articles/moon-... file holds only the rand.org landing page (key takeaways, recommendations), not the report text, so that reading card stays a link.<<}
 
 #### Article
@@ -56,13 +56,13 @@ to:: policymakers will need to weigh the net security benefits of cloud controls
 #### Article
 source:: [[../articles/tan-the-geopolitical-debates-over-controlling-cloud-compute]]
 from:: ### Cloud Controls Must Contend With “Who” and “What” They Restrict
-to:: Whatever the answers may be, Washington will play an important role in determining the future of U.S.-China AI competition.++}
+to:: Whatever the answers may be, Washington will play an important role in determining the future of U.S.-China AI competition.
 
-{--{"author":"Elias's AI","timestamp":1788016201186}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-detection-gaps)*--}{++{"author":"Elias's AI","timestamp":1788016201186}@@#### Text
+#### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Both readings, Moon et al. (2025) for RAND and Tan (2026) for Carnegie, are cited inline above with their links.
 
 XLab. "2.2.3 Detection gaps and policy limits." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-detection-gaps)
 *The source lesson this page adapts.*
-:::++}
+:::

@@ -1,8 +1,8 @@
 ---
 id: 'db7d0ba6-4789-4018-8ea1-5b040ccb7528'
 title: "1.3.1 Context distiller"
-tldr: {--{"author":"Elias's AI","timestamp":1788016770726}@@"Faithful alpha import--}{++{"author":"Elias's AI","timestamp":1788016770726}@@"A system card, a government evals report, an IAEA safeguards report, and a $300 million export-control order: pick one and work it like an editor. Clip the handful++} of {--{"author":"Elias's AI","timestamp":1788016770726}@@XLab lesson 1.3.1 Context distiller."--}{++{"author":"Elias's AI","timestamp":1788016770726}@@facts that would change what someone does, rewrite each for a specific reader, name who the report was built from and who reads it next, then thread every point to a desk. A fact you never clipped can reach no one; that gap is the lesson."++}
-summary_for_tutor: {--{"author":"Elias's AI","timestamp":1788016770726}@@"Imported --}{++{"author":"Elias's AI","timestamp":1788016770726}@@"The Distiller exercise ++}from {++{"author":"Elias's AI","timestamp":1788016770726}@@XLab, reproduced as a report choice plus four open questions in ++}XLab's {--{"author":"Elias's AI","timestamp":1788016770726}@@canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed--}{++{"author":"Elias's AI","timestamp":1788016770726}@@workable order: clip and distil, identify upstream, identify downstream, thread. Four reports: the (fictional, in-universe) Claude Opus 4.7 System Card; the UK AISI Frontier AI Trends Report (2025); IAEA GOV/2026/8++} on {--{"author":"Elias's AI","timestamp":1788016770726}@@XLab."--}{++{"author":"Elias's AI","timestamp":1788016770726}@@Iran; the BIS settlement order against Seagate (2023). For each report a closed key callout holds XLab's core clippings with their distillations, the upstream and downstream keys with the reasons distractors fail, and each reader's needs with the fact that answers them. Grade the learner's chosen report against its key only; do not reveal keys before they commit. The r1 system card is fictional and says so; treat its numbers as teaching material, not as facts about a released model."++}
+tldr: "A system card, a government evals report, an IAEA safeguards report, and a $300 million export-control order: pick one and work it like an editor. Clip the handful of facts that would change what someone does, rewrite each for a specific reader, name who the report was built from and who reads it next, then thread every point to a desk. A fact you never clipped can reach no one; that gap is the lesson."
+summary_for_tutor: "The Distiller exercise from XLab, reproduced as a report choice plus four open questions in XLab's workable order: clip and distil, identify upstream, identify downstream, thread. Four reports: the (fictional, in-universe) Claude Opus 4.7 System Card; the UK AISI Frontier AI Trends Report (2025); IAEA GOV/2026/8 on Iran; the BIS settlement order against Seagate (2023). For each report a closed key callout holds XLab's core clippings with their distillations, the upstream and downstream keys with the reasons distractors fail, and each reader's needs with the fact that answers them. Grade the learner's chosen report against its key only; do not reveal keys before they commit. The r1 system card is fictional and says so; treat its numbers as teaching material, not as facts about a released model."
 tags: [wip]
 duration_minutes: 15
 ---
@@ -30,32 +30,27 @@ The Future of Life Institute’s AI Safety Index, a scorecard that grades AI com
 - **Downstream:** journalists (who need the headline grades), the graded labs (who need to know where they lost points), and the public (who need a simple comparison). Notice the grades compress detail by design; that’s what its audiences need.
 :::
 
-\## {--{"author":"Elias's AI","timestamp":1788016774544}@@Choose --}{++{"author":"Elias's AI","timestamp":1788016774544}@@Your Options (Pick One){>>{"author":"Elias's AI","timestamp":1788016774544}@@"Choose ++}and Distill a {--{"author":"Elias's AI","timestamp":1788016774544}@@Report
-
-\## Your Options (Pick One)--}{++{"author":"Elias's AI","timestamp":1788016774544}@@Report" was XLab's PageBreak title, imported as a duplicate heading; kept only the real heading.<<}++}
+\## Your Options (Pick One){>>{"author":"Elias's AI","timestamp":1788016774544}@@"Choose and Distill a Report" was XLab's PageBreak title, imported as a duplicate heading; kept only the real heading.<<}
 
 - **Claude 4 system card** (Anthropic, 2025) — an AI company’s own report on its newest model’s capabilities, risks, and safety testing.
 - **Frontier AI Trends Report** (UK AI Security Institute, December 2025) — a government institute’s public assessment of where frontier AI capabilities are heading, based on its testing of leading models.
 - **IAEA safeguards report on Iran** (GOV/2026/8) — international nuclear inspectors’ quarterly findings, the closest existing analogue to what an AI treaty inspectorate would publish.
 - **BIS settlement order against Seagate** (US Commerce Department, 2023) — the enforcement document behind a \$300 million fine for shipping hard drives to Huawei in violation of export controls.
 
-#### {--{"author":"Elias's AI","timestamp":1788016974835}@@Question--}{++{"author":"Elias's AI","timestamp":1788016974835}@@Question: Open++}
-{++{"author":"Elias's AI","timestamp":1788016974835}@@id:: 4bbefd68-b623-40f7-a582-fe32a9243ce7
-++}content:: {--{"author":"Elias's AI","timestamp":1788016974835}@@Choose one report above. Where--}{++{"author":"Elias's AI","timestamp":1788016974835}@@For each: where++} did it come from, {--{"author":"Elias's AI","timestamp":1788016974835}@@and --}who reads it next?
-{--{"author":"Elias's AI","timestamp":1788016974835}@@feedback:: false
-
-#### Text
-content:: **Interactive exercise:** XLab's `context-distiller` widget has no direct Lens equivalent yet. Complete it in --}{++{"author":"Elias's AI","timestamp":1788016974835}@@optional:: true{>>{"author":"Elias's AI","timestamp":1788016974835}@@Legacy #### Question converted to Question: Open with a fresh id, with XLab's notebook-callout wording restored; ++}the {--{"author":"Elias's AI","timestamp":1788016974835}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/policy-scoping/context-distiller). Its surrounding lesson text is preserved here.--}{++{"author":"Elias's AI","timestamp":1788016974835}@@callout gates nothing on XLab, hence optional. The invalid feedback:: false line is dropped.<<}++}
+#### Question: Open
+id:: 4bbefd68-b623-40f7-a582-fe32a9243ce7
+content:: For each: where did it come from, who reads it next?
+optional:: true{>>{"author":"Elias's AI","timestamp":1788016974835}@@Legacy #### Question converted to Question: Open with a fresh id, with XLab's notebook-callout wording restored; the callout gates nothing on XLab, hence optional. The invalid feedback:: false line is dropped.<<}
 
 #### Text
 content::
-{++{"author":"Elias's AI","timestamp":1788016974835}@@\## The Distiller
+\## The Distiller
 
-++}The exercise takes the five steps in the order that makes them workable: you clip
+The exercise takes the five steps in the order that makes them workable: you clip
 and distil first, then trace the actors, then thread. The two identification
 steps above are steps three and four on the rail.
 
-{--{"author":"Elias's AI","timestamp":1788016974835}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/context-distiller)*--}{++{"author":"Elias's AI","timestamp":1788016974835}@@#### Question: Choice
+#### Question: Choice
 id:: 21ffdd3a-ab25-4e20-9187-78f9e6d5870e
 content:: Pick one report. You will work it through every step below; the keys at the end are per report.
 options::
@@ -233,4 +228,4 @@ XLab. "1.3.1 Context distiller." *Verification*, XLab, University of Chicago, 20
 *The source lesson this page adapts, including the Distiller's four reports and their keys.*
 
 The four reports (Anthropic model cards, the AISI Frontier AI Trends Report, IAEA GOV/2026/8, the BIS Seagate order) are linked inline above and have no entry in XLab's citation registry.
-:::++}
+:::

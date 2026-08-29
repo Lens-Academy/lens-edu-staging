@@ -14,9 +14,9 @@ Remote attestation is often described as a chip proving its state. That descript
 
 The IETF’s Remote ATtestation procedureS architecture distinguishes three roles: an **Attester** produces evidence, a **Verifier** appraises that evidence against reference values and policy, and a **Relying Party** decides what to do with the result. This separation matters. The component that checks a signature need not be the institution that decides compliance, and neither automatically has authority to impose a consequence.
 
-{--{"author":"Elias's AI","timestamp":1788015942196}@@**Src**--}{++{"author":"Elias's AI","timestamp":1788015942196}@@:::callout {title="Source" tone="neutral" collapse="closed"}++}
-H. Birkholz et al., [“Remote ATtestation procedureS (RATS) Architecture”](https://www.rfc-editor.org/rfc/rfc9334.html) — IETF RFC 9334, January 2023.{++{"author":"Elias's AI","timestamp":1788015942196}@@
-:::++}
+:::callout {title="Source" tone="neutral" collapse="closed"}
+H. Birkholz et al., [“Remote ATtestation procedureS (RATS) Architecture”](https://www.rfc-editor.org/rfc/rfc9334.html) — IETF RFC 9334, January 2023.
+:::
 
 \#### The minimum vocabulary
 
@@ -36,17 +36,15 @@ H. Birkholz et al., [“Remote ATtestation procedureS (RATS) Architecture”](ht
 
 **Appraisal policy.** The rule that turns measured facts into a result such as “acceptable for this workload.” This is a policy judgment, not a property of the signature itself.
 
-{--{"author":"Elias's AI","timestamp":1788015944438}@@\## A deployed primitive
-
---}\#### A deployed primitive: current NVIDIA GPU attestation
+\#### A deployed primitive: current NVIDIA GPU attestation
 
 Current NVIDIA documentation describes an operational attestation chain for supported GPUs. Evidence is collected from the GPU, checked against signed Reference Integrity Measurements, evaluated locally or by NVIDIA’s Remote Attestation Service, and checked against certificate-revocation information. This is a useful deployed primitive because it makes the trust chain concrete.
 
 It also shows why implementation details matter. NVIDIA’s Blackwell multi-GPU documentation, updated August 1, 2026, states that each GPU is attested independently and that the process does **not** attest topology or switches. Supported Hopper Protected PCIe configurations can include additional multi-GPU and NVSwitch checks. A general statement such as “GPU attestation proves the cluster configuration” is therefore false. The answer depends on the product, configuration, evidence fields, and appraisal policy.
 
-{--{"author":"Elias's AI","timestamp":1788015950223}@@**Src**--}{++{"author":"Elias's AI","timestamp":1788015950223}@@:::callout {title="Sources" tone="neutral" collapse="closed"}++}
-NVIDIA, “Architecture Overview,” [*Attestation Quick Start Guide*](https://docs.nvidia.com/attestation/quick-start-guide/latest/architecture.html), current August 1, 2026; [“Blackwell Multi-GPU Attestation Example”](https://docs.nvidia.com/attestation/quick-start-guide/latest/attestation-examples/blackwell_multi_gpu.html), updated August 1, 2026; [“Hopper Multi-GPU (PPCIE) Attestation Example”](https://docs.nvidia.com/attestation/quick-start-guide/latest/attestation-examples/hopper_multi_gpu.html), current August 2026. First-party implementation documentation, not an independent adversarial evaluation.{++{"author":"Elias's AI","timestamp":1788015950223}@@
-:::++}
+:::callout {title="Sources" tone="neutral" collapse="closed"}
+NVIDIA, “Architecture Overview,” [*Attestation Quick Start Guide*](https://docs.nvidia.com/attestation/quick-start-guide/latest/architecture.html), current August 1, 2026; [“Blackwell Multi-GPU Attestation Example”](https://docs.nvidia.com/attestation/quick-start-guide/latest/attestation-examples/blackwell_multi_gpu.html), updated August 1, 2026; [“Hopper Multi-GPU (PPCIE) Attestation Example”](https://docs.nvidia.com/attestation/quick-start-guide/latest/attestation-examples/hopper_multi_gpu.html), current August 2026. First-party implementation documentation, not an independent adversarial evaluation.
+:::
 
 A simplified chain looks like this:
 
@@ -87,9 +85,9 @@ The same product can be strong against a remote tenant and weak against an owner
 
 \#### Activity: trust-chain autopsy
 
-{++{"author":"Elias's AI","timestamp":1788015961356}@@#### Question: Open
+#### Question: Open
 id:: 3336549c-4a1e-4092-afa1-11a1b6ba5a1a
-content:: ++}Take an attestation token or architecture diagram supplied with this section. Record:
+content:: Take an attestation token or architecture diagram supplied with this section. Record:
 
 1. The exact claim;
 2. The root or roots of trust;
@@ -99,11 +97,11 @@ content:: ++}Take an attestation token or architecture diagram supplied with thi
 6. The verifier and relying party;
 7. The strongest relevant adversary;
 8. One common-mode failure;
-9. One independent corroborating source.{++{"author":"Elias's AI","timestamp":1788015961356}@@
+9. One independent corroborating source.
 assessment-instructions:: This is an XLab writing or reflection exercise. XLab's source supplies no token or diagram; if the learner has none, point them to NVIDIA's Architecture Overview linked in this lens and let them work from it. Check that all nine items are addressed and that items 2 to 6 name a concrete component or actor rather than "the chip" or "NVIDIA" throughout. Identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
-{>>{"author":"Elias's AI","timestamp":1788015961356}@@The MDX says a token or diagram is "supplied with this section" but nothing is supplied in XLab's repo; reported to Elias as an XLab source gap.<<}++}
+{>>{"author":"Elias's AI","timestamp":1788015961356}@@The MDX says a token or diagram is "supplied with this section" but nothing is supplied in XLab's repo; reported to Elias as an XLab source gap.<<}
 
-{--{"author":"Elias's AI","timestamp":1788015961356}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-trusted-statement)*--}{++{"author":"Elias's AI","timestamp":1788015961356}@@#### Text
+#### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Birkholz, Henk, et al. "Remote ATtestation ProcedureS (RATS) Architecture." *RFC 9334*, RFC Editor, Jan. 2023. [rfc-editor.org](https://www.rfc-editor.org/rfc/rfc9334.html)
@@ -114,4 +112,4 @@ NVIDIA Corporation. "Architecture Overview." *NVIDIA Attestation Suite Documenta
 
 XLab. "2.1.2 From a chip to a trusted statement." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-trusted-statement)
 *The source lesson this page adapts. The Blackwell and Hopper multi-GPU attestation examples are cited inline above.*
-:::++}
+:::

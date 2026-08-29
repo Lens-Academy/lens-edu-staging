@@ -34,17 +34,15 @@ A treaty-grade accounting rule must define:
 
 Existing performance counters and management telemetry can measure useful quantities, but ordinary counters are not automatically suitable for adversarial verification. Hardware-mechanism surveys note that some existing counters can be reset or controlled by users. A stronger design needs a protected measurement path, secure state, authenticated reporting, freshness, and aggregation rules that the operator cannot silently rewrite.
 
-{--{"author":"Elias's AI","timestamp":1788015978225}@@**Src**--}{++{"author":"Elias's AI","timestamp":1788015978225}@@:::callout {title="Source" tone="neutral" collapse="closed"}++}
-O’Gara et al., *Hardware-Enabled Mechanisms for Verifying Responsible AI Development* — [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025; the sections on compute accounting, workload classification, cluster configuration, location verification, and offline licensing.{++{"author":"Elias's AI","timestamp":1788015978225}@@
-:::++}
+:::callout {title="Source" tone="neutral" collapse="closed"}
+O’Gara et al., *Hardware-Enabled Mechanisms for Verifying Responsible AI Development* — [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025; the sections on compute accounting, workload classification, cluster configuration, location verification, and offline licensing.
+:::
 
 Even perfect accounting verifies the threshold, not the policy goal. Algorithmic, architectural, and data improvements can produce more capability at the same counted compute. A fixed threshold therefore has an update condition.
 
-{--{"author":"Elias's AI","timestamp":1788015978225}@@**Prompt**--}{++{"author":"Elias's AI","timestamp":1788015978225}@@:::callout {title="Question to keep visible" tone="blue"}++}
-What quantity did the meter record, and how closely does that quantity match the legal rule?{--{"author":"Elias's AI","timestamp":1788015978225}@@
-
-\## Workload classification--}{++{"author":"Elias's AI","timestamp":1788015978225}@@
-:::++}
+:::callout {title="Question to keep visible" tone="blue"}
+What quantity did the meter record, and how closely does that quantity match the legal rule?
+:::
 
 \#### Workload classification
 
@@ -52,9 +50,9 @@ A compute counter cannot determine whether the operations were training, inferen
 
 A June 2026 preprint by Rahman and Tajdari tested whether temporal GPU telemetry could detect hidden machine-learning training. Across its full corpus, the study reported 98.2 percent binary classification accuracy over nine NVIDIA GPU models and twenty evasion families. The result is important evidence that training leaves detectable temporal patterns under tested conditions.
 
-{--{"author":"Elias's AI","timestamp":1788015982045}@@**Src**--}{++{"author":"Elias's AI","timestamp":1788015982045}@@:::callout {title="Source" tone="neutral" collapse="closed"}++}
-M. S. Rahman and M. Tajdari, *Detecting Hidden ML Training With Zero-Overhead Telemetry* — [arXiv:2606.19262](https://arxiv.org/abs/2606.19262), June 2026. A preprint, to be presented as a component demonstration.{++{"author":"Elias's AI","timestamp":1788015982045}@@
-:::++}
+:::callout {title="Source" tone="neutral" collapse="closed"}
+M. S. Rahman and M. Tajdari, *Detecting Hidden ML Training With Zero-Overhead Telemetry* — [arXiv:2606.19262](https://arxiv.org/abs/2606.19262), June 2026. A preprint, to be presented as a component demonstration.
+:::
 
 The limitations are equally important:
 
@@ -83,27 +81,27 @@ A verifier should not treat every weakness as a classifier problem.
 
 \#### Activity: from result to policy claim
 
-{++{"author":"Elias's AI","timestamp":1788015993267}@@#### Question: Open
+#### Question: Open
 id:: f4f47f8e-a90d-4e45-9a1e-ddeee1d901cf
-content:: ++}For the telemetry study, write four statements.
+content:: For the telemetry study, write four statements.
 
 - **Observation:** What did the experiment measure?
 - **Supported inference:** What conclusion is justified within that setting?
 - **Unsupported policy leap:** What stronger claim would exceed the evidence?
 - **Deployment dependencies:** What additional technical and institutional components would be required?
 
-A well-bounded answer will not claim that the study proves treaty-grade detection across frontier clusters or against a state controlling the measurement path.{++{"author":"Elias's AI","timestamp":1788015993267}@@
+A well-bounded answer will not claim that the study proves treaty-grade detection across frontier clusters or against a state controlling the measurement path.
 assessment-instructions:: This is an XLab writing or reflection exercise. Check all four statements are present and distinct. Observation should stay at the level of what was measured (temporal GPU telemetry, nine NVIDIA GPU models, twenty evasion families, single-node systems up to eight GPUs, 98.2 percent overall, 43–87 percent on the hardest unseen adversarial workloads). Supported inference should be bounded to tested conditions. Unsupported policy leap should be a real overclaim (treaty-grade detection across frontier multi-node clusters, or against a state controlling the measurement path). Deployment dependencies should include a tamper-resistant telemetry source, an authenticated channel, protected monitoring software, and institutional components. Mark down answers that present the study as an end-to-end verification regime. Identify one strong point and one important gap, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 O'Gara, Aidan, Gabriel Kulp, Will Hodgkins, et al. "Hardware-Enabled Mechanisms for Verifying Responsible AI Development." *arXiv*, Apr. 2025. [arxiv.org](https://arxiv.org/abs/2505.03742)
-*A study of hardware-enabled mechanisms for verifiable reporting of AI training activity: compute usage, cluster configuration, and workload claims.*++}
+*A study of hardware-enabled mechanisms for verifiable reporting of AI training activity: compute usage, cluster configuration, and workload claims.*
 
-{--{"author":"Elias's AI","timestamp":1788015993267}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-measuring-use)*--}{++{"author":"Elias's AI","timestamp":1788015993267}@@Rahman, Robi, and Sabiha Tajdari. "Detecting Hidden ML Training With Zero-Overhead Telemetry." *arXiv*, June 2026. [arxiv.org](https://arxiv.org/abs/2606.19262)
+Rahman, Robi, and Sabiha Tajdari. "Detecting Hidden ML Training With Zero-Overhead Telemetry." *arXiv*, June 2026. [arxiv.org](https://arxiv.org/abs/2606.19262)
 *A study classifying GPU workloads from privacy-preserving telemetry, reporting 98.2 percent accuracy at spotting concealed training runs.*
 
 XLab. "2.1.4 Measuring and classifying use." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-measuring-use)
 *The source lesson this page adapts.*
-:::++}
+:::

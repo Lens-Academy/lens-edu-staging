@@ -33,7 +33,7 @@ content::
 
 Each brief below is what XLab's bank card shows on this unit, plus the full-brief fields (audience, skills, prerequisites, sources). Open a brief to read it.
 
-{--{"author":"Elias's AI","timestamp":1788015917401}@@[BANK]--}{++{"author":"Elias's AI","timestamp":1788015917401}@@\## Technical Governance (1 brief)
+\## Technical Governance (1 brief)
 :::callout {title="Redraw the AI-vs-Human Capability Chart" tone="neutral" collapse="closed"}
 *The best-known chart of AI against human performance stops in 2023. Rebuild it at today's date and say what a threshold can honestly attach to.*
 
@@ -479,7 +479,7 @@ Fits this course: Lands on 1.1 — a pause agreement has to name a covered capab
 **Skills:** supply-chain analysis, comparative ranking, measurement design
 
 **Prerequisites:** Verification 1 — actors; Verification 2.1 — the hardware layer
-:::++}
+:::
 
 #### Text
 content::

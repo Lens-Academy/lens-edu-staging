@@ -41,22 +41,22 @@ Three questions recur throughout hardware verification.
 
 Hardware-rooted cryptography is often strongest on authenticity. Carefully designed measurement can improve correctness. Completeness usually requires evidence beyond the device itself.
 
-{++{"author":"Elias's AI","timestamp":1788015929329}@@\#### Notebook: initial claim map
+\#### Notebook: initial claim map
 
 The opening puzzle is the attestation-token scenario from [[../Lenses/XLab Verification - v-hw-attestation|2.1 Hardware]].
 
-++}#### Question: Open
+#### Question: Open
 id:: aff4f378-14ef-4cd4-b12d-249c4c66644e
 content:: Complete three sentences for the opening puzzle:
 
 - The artifact directly supports…
 - It could support… if…
-- It does not support…{++{"author":"Elias's AI","timestamp":1788015934302}@@
-assessment-instructions:: This is an XLab writing or reflection exercise. The artifact is a valid attestation token from each accelerator in a declared cluster. Check that the three sentences stay distinct: direct support should be limited to authenticity-type claims (device identity, certificate status, freshness, measured state); conditional support should name what the system would have had to be designed to measure; the third sentence should name claims outside the token (cumulative compute, workload class, topology, unregistered hardware, authority to suspend). Identify one strong point and one important gap, then ask one useful follow-up question. Do not imply that agreement with the source is required.++}
+- It does not support…
+assessment-instructions:: This is an XLab writing or reflection exercise. The artifact is a valid attestation token from each accelerator in a declared cluster. Check that the three sentences stay distinct: direct support should be limited to authenticity-type claims (device identity, certificate status, freshness, measured state); conditional support should name what the system would have had to be designed to measure; the third sentence should name claims outside the token (cumulative compute, workload class, topology, unregistered hardware, authority to suspend). Identify one strong point and one important gap, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788015934302}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-claim)*--}{++{"author":"Elias's AI","timestamp":1788015934302}@@:::callout {title="Works cited" tone="neutral" collapse="closed"}
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
 XLab. "2.1.1 Start with the claim, not the mechanism." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-claim)
 *The source lesson this page adapts.*
-:::++}
+:::

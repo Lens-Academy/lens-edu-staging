@@ -1,10 +1,10 @@
 ---
 id: '77e16c6b-824b-42e8-ad7c-5eec6b943f05'
 title: "2.4.3 Audits and inspections"
-tldr: {--{"author":"Elias's AI","timestamp":1788016160095}@@"Faithful alpha import of XLab lesson 2.4.3 Audits--}{++{"author":"Elias's AI","timestamp":1788016160095}@@"An audit, a routine inspection, and a challenge inspection answer three different questions, and each access level caps what an inspector may honestly conclude. Read Wasil, Brundage, and the OPCW managed-access rules, then draft an inspection order for Project Lattice that survives both evasion++} and {--{"author":"Elias's AI","timestamp":1788016160095}@@inspections."--}{++{"author":"Elias's AI","timestamp":1788016160095}@@a legitimate confidentiality objection."++}
-summary_for_tutor: {--{"author":"Elias's AI","timestamp":1788016160095}@@"Imported--}{++{"author":"Elias's AI","timestamp":1788016160095}@@"Three readings (Wasil et al. on access-dependent methods, Brundage et al. section 5.3 on levels of assurance, OPCW Verification Annex Part X paragraphs 38 to 50) with four guiding questions, then an optional drill rebuilt++} from XLab's {--{"author":"Elias's AI","timestamp":1788016160095}@@canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed --}{++{"author":"Elias's AI","timestamp":1788016160095}@@Build the inspection order lab: ten graded choice questions in four phases (purpose of audit, routine and challenge inspection; access ceiling for black-box, gray-box, and deep access; mandate clauses ++}on {--{"author":"Elias's AI","timestamp":1788016160095}@@XLab."--}{++{"author":"Elias's AI","timestamp":1788016160095}@@scope, preservation, and refusal; managed access), each followed by a Why callout citing the source, and a closing Inspection order and bounded finding callout. Hold the learner to the access ceiling: a conclusion may not exceed what the observed system, records, and period support."++}
-tags: [wip]{++{"author":"Elias's AI","timestamp":1788016160095}@@
-duration_minutes: 30++}
+tldr: "An audit, a routine inspection, and a challenge inspection answer three different questions, and each access level caps what an inspector may honestly conclude. Read Wasil, Brundage, and the OPCW managed-access rules, then draft an inspection order for Project Lattice that survives both evasion and a legitimate confidentiality objection."
+summary_for_tutor: "Three readings (Wasil et al. on access-dependent methods, Brundage et al. section 5.3 on levels of assurance, OPCW Verification Annex Part X paragraphs 38 to 50) with four guiding questions, then an optional drill rebuilt from XLab's Build the inspection order lab: ten graded choice questions in four phases (purpose of audit, routine and challenge inspection; access ceiling for black-box, gray-box, and deep access; mandate clauses on scope, preservation, and refusal; managed access), each followed by a Why callout citing the source, and a closing Inspection order and bounded finding callout. Hold the learner to the access ceiling: a conclusion may not exceed what the observed system, records, and period support."
+tags: [wip]
+duration_minutes: 30
 ---
 #### Text
 content::
@@ -41,7 +41,7 @@ OPCW | Chemical Weapons Convention, Verification Annex, Part X
 
 \## Four Sources
 
-{--{"author":"Elias's AI","timestamp":1788016215814}@@\## [Optional] Exercise:--}{++{"author":"Elias's AI","timestamp":1788016215814}@@:::callout {title="Optional:++} Four Sources (12–15 {--{"author":"Elias's AI","timestamp":1788016215814}@@minutes)--}{++{"author":"Elias's AI","timestamp":1788016215814}@@minutes)" tone="neutral" collapse="closed"}
+:::callout {title="Optional: Four Sources (12–15 minutes)" tone="neutral" collapse="closed"}
 **Build the inspection order.** A power anomaly has raised a concrete concern. Choose the mechanism, set the ceiling imposed by access, and write an order that can survive both evasion and a legitimate confidentiality objection. Every question in this exercise is optional.
 
 **Project Lattice.** A declared data center reports no training run above the treaty threshold. Independently obtained power-allocation and procurement records show a six-week expansion under the same project code. The records identify a facility and time period but not the workload. The agreement permits periodic inspections and a short-notice inspection when a specific concern cannot be resolved through consultation.
@@ -61,10 +61,10 @@ options::
 - Compel short-notice access to any site named in a state allegation, whether or not the audit contract permits it.
 - Issue the legally binding compliance judgment and impose the treaty response at the end of the engagement.
 shuffle:: true
-feedback-instructions:: If wrong: Keep assessment separate from recurring treaty verification, challenge access, and legal adjudication. Then: Brundage et al. define an audit as systematic third-party evaluation and verification against claims and standards. Its authority and conclusion remain bounded by the engagement.++}
+feedback-instructions:: If wrong: Keep assessment separate from recurring treaty verification, challenge access, and legal adjudication. Then: Brundage et al. define an audit as systematic third-party evaluation and verification against claims and standards. Its authority and conclusion remain bounded by the engagement.
 
 #### Text
-content::{--{"author":"Elias's AI","timestamp":1788016215814}@@ **Interactive exercise:** XLab's `human-audits-inspections` widget --}{++{"author":"Elias's AI","timestamp":1788016215814}@@
+content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
 Brundage et al. define an audit as systematic third-party evaluation and verification against claims and standards. Its authority and conclusion remain bounded by the engagement. Source: [Brundage et al., §§2 and 5](https://arxiv.org/html/2601.11699v4)
 
@@ -74,7 +74,7 @@ Independent audit: tests defined claims and practices against a standard within 
 #### Question: Choice
 id:: a8ab5eff-df08-4ca6-972f-c066048c9927
 optional:: true
-content:: Routine inspection. No anomaly ++}has {++{"author":"Elias's AI","timestamp":1788016215814}@@been reported. The agreement requires recurring confirmation of declared chip inventories, seals, records, and facility controls.
+content:: Routine inspection. No anomaly has been reported. The agreement requires recurring confirmation of declared chip inventories, seals, records, and facility controls.
 
 Which job belongs to a routine inspection?
 options::
@@ -253,15 +253,15 @@ content:: Alternative access. The inspection must determine whether Project Latt
 Which arrangement protects model and customer secrets while preserving the verification question?
 options::
 - [x] Let a vetted subset inspect the raw logs on site through a read-only query that exposes chip allocation, timestamps, and integrity data for the relevant period while masking unrelated customer fields; preserve the query and audit trail.
-- Accept a company-produced summary stating that ++}no {--{"author":"Elias's AI","timestamp":1788016215814}@@direct Lens equivalent yet. Complete--}{++{"author":"Elias's AI","timestamp":1788016215814}@@job exceeded the threshold because++} it {--{"author":"Elias's AI","timestamp":1788016215814}@@in --}{++{"author":"Elias's AI","timestamp":1788016215814}@@avoids disclosure of all proprietary information.
-- Withdraw ++}the {--{"author":"Elias's AI","timestamp":1788016215814}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-audits-inspections). Its surrounding lesson text --}{++{"author":"Elias's AI","timestamp":1788016215814}@@request whenever records contain mixed sensitive and relevant data because confidentiality takes precedence over verification.
+- Accept a company-produced summary stating that no job exceeded the threshold because it avoids disclosure of all proprietary information.
+- Withdraw the request whenever records contain mixed sensitive and relevant data because confidentiality takes precedence over verification.
 - Require publication of the full raw logs so outside observers can independently check every workload and customer record.
 shuffle:: true
-feedback-instructions:: If wrong: A managed alternative ++}is {--{"author":"Elias's AI","timestamp":1788016215814}@@preserved here.--}{++{"author":"Elias's AI","timestamp":1788016215814}@@adequate only if it answers the same compute-allocation question with evidence the inspected party does not control alone. Then: Wasil et al. allow limited access sufficient to test the prohibited activity without revealing the underlying task. Brundage et al. propose on-site access by a restricted team. OPCW managed access protects unrelated information while requiring alternative means to clarify the concern.++}
+feedback-instructions:: If wrong: A managed alternative is adequate only if it answers the same compute-allocation question with evidence the inspected party does not control alone. Then: Wasil et al. allow limited access sufficient to test the prohibited activity without revealing the underlying task. Brundage et al. propose on-site access by a restricted team. OPCW managed access protects unrelated information while requiring alternative means to clarify the concern.
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788016215814}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-audits-inspections)*--}{++{"author":"Elias's AI","timestamp":1788016215814}@@:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
 Wasil et al. allow limited access sufficient to test the prohibited activity without revealing the underlying task. Brundage et al. propose on-site access by a restricted team. OPCW managed access protects unrelated information while requiring alternative means to clarify the concern. Source: [Wasil et al.; Brundage et al.; OPCW Part X](https://www.opcw.org/chemical-weapons-convention/annexes/verification-annex/part-x-challenge-inspections-pursuant)
 
 Managed access: mask unrelated fields and restrict personnel, location, copying, and use—but preserve independent access to the allocation evidence needed to answer the same question.
@@ -295,4 +295,4 @@ Brundage et al. (2026), Frontier AI auditing, is cited inline above.
 
 XLab. "2.4.3 Audits and inspections." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-audits-inspections)
 *The source lesson this page adapts, including the Build the inspection order exercise.*
-:::{>>{"author":"Elias's AI","timestamp":1788016215814}@@Widget rebuilt from human-policy-labs.ts (AUDITS_INSPECTIONS_LAB). The lesson's Wasil link is the #S6.SS2 anchor, which is not itself in citations.json entries; the general html entry for the same paper is listed. Brundage 2601.11699 is only in pending.<<}++}
+:::{>>{"author":"Elias's AI","timestamp":1788016215814}@@Widget rebuilt from human-policy-labs.ts (AUDITS_INSPECTIONS_LAB). The lesson's Wasil link is the #S6.SS2 anchor, which is not itself in citations.json entries; the general html entry for the same paper is listed. Brundage 2601.11699 is only in pending.<<}

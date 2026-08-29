@@ -1,8 +1,8 @@
 ---
 id: '61088782-f0b8-4eeb-9787-1e6c80760ae9'
 title: "1.3 Upstream and downstream"
-tldr: {--{"author":"Elias's AI","timestamp":1788016738481}@@"Faithful alpha import --}{++{"author":"Elias's AI","timestamp":1788016738481}@@"Two documents from the same side agreeing with each other is not verification; it is one actor being consistent with itself. Sit on an IAEA team at Fordow in January 2023, watch a true sentence fail because every claim in it came from Iran, and rewrite it so each claim carries its source. Then ask ++}of {--{"author":"Elias's AI","timestamp":1788016738481}@@XLab lesson 1.3 Upstream--}{++{"author":"Elias's AI","timestamp":1788016738481}@@every report: whose claims am I relying on,++} and {--{"author":"Elias's AI","timestamp":1788016738481}@@downstream."--}{++{"author":"Elias's AI","timestamp":1788016738481}@@who acts on mine?"++}
-summary_for_tutor: {--{"author":"Elias's AI","timestamp":1788016738481}@@"Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises--}{++{"author":"Elias's AI","timestamp":1788016738481}@@"Worked case, then a memo brief. The Fordow case: a first-draft finding that is true in every clause but built only on Iran's declaration and the operator's records; the three upstream sources ranked by how much they deserve trust; the 83.7 percent swipe sample that broke the declaration; a revised finding that keeps each claim attached to its source; two downstream readers (the IAEA Board of Governors needs a determination, ISIS analysts need the raw discrepancy) and why a report++} must {--{"author":"Elias's AI","timestamp":1788016738481}@@be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788016738481}@@serve both. Two notebook prompts are optional Open questions (pause before reading on; the two questions to answer before writing). The memo slot for this lesson is the actor, authority, and evidence map (optional here). The Context Distiller exercise is the next lens. When discussing, keep the provenance test central: which claims were verified independently, which inherited from the actor being checked."++}
+tldr: "Two documents from the same side agreeing with each other is not verification; it is one actor being consistent with itself. Sit on an IAEA team at Fordow in January 2023, watch a true sentence fail because every claim in it came from Iran, and rewrite it so each claim carries its source. Then ask of every report: whose claims am I relying on, and who acts on mine?"
+summary_for_tutor: "Worked case, then a memo brief. The Fordow case: a first-draft finding that is true in every clause but built only on Iran's declaration and the operator's records; the three upstream sources ranked by how much they deserve trust; the 83.7 percent swipe sample that broke the declaration; a revised finding that keeps each claim attached to its source; two downstream readers (the IAEA Board of Governors needs a determination, ISIS analysts need the raw discrepancy) and why a report must serve both. Two notebook prompts are optional Open questions (pause before reading on; the two questions to answer before writing). The memo slot for this lesson is the actor, authority, and evidence map (optional here). The Context Distiller exercise is the next lens. When discussing, keep the provenance test central: which claims were verified independently, which inherited from the actor being checked."
 tags: [wip]
 duration_minutes: 10
 ---
@@ -20,10 +20,10 @@ Your first draft of the central finding reads:
 "Enrichment at Fordow is 60 percent U-235, below weapons grade, and the facility's operating records match the declaration."
 :::
 
-#### {--{"author":"Elias's AI","timestamp":1788016743664}@@Question--}{++{"author":"Elias's AI","timestamp":1788016743664}@@Question: Open++}
-{++{"author":"Elias's AI","timestamp":1788016743664}@@id:: bbb153b5-c932-4f0d-a379-bc451bb3c5fd
-++}content:: Pause before reading on. What is wrong with this sentence? Every clause in it is true.
-{++{"author":"Elias's AI","timestamp":1788016743664}@@optional:: true{>>{"author":"Elias's AI","timestamp":1788016743664}@@Legacy #### Question converted to Question: Open with a fresh id. XLab renders this as a notebook callout that gates nothing, hence optional. The invalid ++}feedback:: false{++{"author":"Elias's AI","timestamp":1788016743664}@@ line is dropped.<<}++}
+#### Question: Open
+id:: bbb153b5-c932-4f0d-a379-bc451bb3c5fd
+content:: Pause before reading on. What is wrong with this sentence? Every clause in it is true.
+optional:: true{>>{"author":"Elias's AI","timestamp":1788016743664}@@Legacy #### Question converted to Question: Open with a fresh id. XLab renders this as a notebook callout that gates nothing, hence optional. The invalid feedback:: false line is dropped.<<}
 
 #### Text
 content::
@@ -45,9 +45,7 @@ A revision that keeps each source attached to its claim:
 
 The revision is longer and less quotable. In exchange, every claim now carries its source, and a reader can weigh each one against the actor that produced it. That matters because your readers will apply the same test to you.
 
-{--{"author":"Elias's AI","timestamp":1788016745672}@@\##--}{++{"author":"Elias's AI","timestamp":1788016745672}@@\###++} Downstream: Who Acts on{--{"author":"Elias's AI","timestamp":1788016745672}@@ the Finding?
-
-\### Downstream:--}{++{"author":"Elias's AI","timestamp":1788016745672}@@ This?{>>{"author":"Elias's AI","timestamp":1788016745672}@@"Downstream:++} Who Acts on {--{"author":"Elias's AI","timestamp":1788016745672}@@This?--}{++{"author":"Elias's AI","timestamp":1788016745672}@@the Finding?" was XLab's PageBreak title, imported as a duplicate heading; kept only the real heading.<<}++}
+\### Downstream: Who Acts on This?{>>{"author":"Elias's AI","timestamp":1788016745672}@@"Downstream: Who Acts on the Finding?" was XLab's PageBreak title, imported as a duplicate heading; kept only the real heading.<<}
 
 Two readers will use this finding, and each needs something different from it.
 
@@ -61,13 +59,13 @@ A report written only as a determination gives the analysts nothing to check. A 
 
 No verification document stands alone. Every source upstream of you was produced by an actor with incentives, and everything you write becomes an upstream source for readers who will weigh your incentives in turn.
 
-#### {--{"author":"Elias's AI","timestamp":1788016749227}@@Question--}{++{"author":"Elias's AI","timestamp":1788016749227}@@Question: Open
-id:: 0a469f70-f02c-4813-8318-9b1d10a4652e++}
-content:: Before writing, answer two {--{"author":"Elias's AI","timestamp":1788016749227}@@questions:--}{++{"author":"Elias's AI","timestamp":1788016749227}@@questions.++}
+#### Question: Open
+id:: 0a469f70-f02c-4813-8318-9b1d10a4652e
+content:: Before writing, answer two questions.
 
 - Upstream: whose claims does this document rely on, and which of them did I verify myself, rather than inherit from the actor being checked?
 - Downstream: who will act on this document, and what does each reader need in order to act?
-{++{"author":"Elias's AI","timestamp":1788016749227}@@optional:: true{>>{"author":"Elias's AI","timestamp":1788016749227}@@Legacy #### Question converted to Question: Open with a fresh id; XLab's notebook callout gates nothing, hence optional. The invalid ++}feedback:: false{++{"author":"Elias's AI","timestamp":1788016749227}@@ line is dropped.<<}++}
+optional:: true{>>{"author":"Elias's AI","timestamp":1788016749227}@@Legacy #### Question converted to Question: Open with a fresh id; XLab's notebook callout gates nothing, hence optional. The invalid feedback:: false line is dropped.<<}
 
 #### Text
 content::
@@ -79,25 +77,25 @@ The next exercise asks you to apply this directly. You will assemble a report fr
 
 \### The Context Distiller Exercise
 
-{--{"author":"Elias's AI","timestamp":1788016751203}@@The--}{++{"author":"Elias's AI","timestamp":1788016751203}@@[[../Lenses/XLab Verification - v-context-distiller|The++} next {--{"author":"Elias's AI","timestamp":1788016751203}@@page--}{++{"author":"Elias's AI","timestamp":1788016751203}@@page]]++} is that exercise. Four reports are on the table; you pick one and
+[[../Lenses/XLab Verification - v-context-distiller|The next page]] is that exercise. Four reports are on the table; you pick one and
 work the whole chain — clip the facts that would change what a reader does,
 distil them, name who the report was built from and who reads it next, then
 thread each point to the readers who need it.
 
-#### {--{"author":"Elias's AI","timestamp":1788016762589}@@Text--}{++{"author":"Elias's AI","timestamp":1788016762589}@@Question: Open++}
-{++{"author":"Elias's AI","timestamp":1788016762589}@@id:: cec5c7fa-f530-4f33-83da-cadb4b7115a2
-++}content:: {--{"author":"Elias's AI","timestamp":1788016762589}@@**Import gap:** XLab persistent--}{++{"author":"Elias's AI","timestamp":1788016762589}@@Optional: **Actor–authority–evidence map** (Map, about 700 words)
+#### Question: Open
+id:: cec5c7fa-f530-4f33-83da-cadb4b7115a2
+content:: Optional: **Actor–authority–evidence map** (Map, about 700 words)
 
 Actor–authority–evidence map for any element of the supply chain.
 
-This output is a map, not a++} memo {--{"author":"Elias's AI","timestamp":1788016762589}@@desk has no clean Lens equivalent. Use--}{++{"author":"Elias's AI","timestamp":1788016762589}@@— build it as annotated rows, not paragraphs, carrying what the brief above asks each row to hold.
+This output is a map, not a memo — build it as annotated rows, not paragraphs, carrying what the brief above asks each row to hold.
 optional:: true
-assessment-instructions:: One element of++} the {--{"author":"Elias's AI","timestamp":1788016762589}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-upstream-downstream) for--}{++{"author":"Elias's AI","timestamp":1788016762589}@@advanced-AI supply chain is chosen and named. Score three things, roughly a third each: (1) the actors involved in that element are listed as rows; (2) each row states the authority that actor holds (a jurisdiction, a licence, ownership of a record, the power to interrupt); (3) each row states the evidence that would let an outside party verify what the actor is doing, and whether that evidence is produced by the actor itself or held by someone else. Reward rows that separate self-reported evidence from independently held evidence, the distinction++} this {--{"author":"Elias's AI","timestamp":1788016762589}@@element.--}{++{"author":"Elias's AI","timestamp":1788016762589}@@lesson teaches. No generic praise.
-feedback-instructions:: Name the row where the evidence is only the actor's own say-so and ask what independent stream could check it. One short paragraph.++}
+assessment-instructions:: One element of the advanced-AI supply chain is chosen and named. Score three things, roughly a third each: (1) the actors involved in that element are listed as rows; (2) each row states the authority that actor holds (a jurisdiction, a licence, ownership of a record, the power to interrupt); (3) each row states the evidence that would let an outside party verify what the actor is doing, and whether that evidence is produced by the actor itself or held by someone else. Reward rows that separate self-reported evidence from independently held evidence, the distinction this lesson teaches. No generic praise.
+feedback-instructions:: Name the row where the evidence is only the actor's own say-so and ask what independent stream could check it. One short paragraph.
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788016762589}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-upstream-downstream)*--}{++{"author":"Elias's AI","timestamp":1788016762589}@@:::callout {title="Works cited" tone="neutral" collapse="closed"}
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
 XLab. "1.3 Upstream and downstream." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-upstream-downstream)
 *The source lesson this page adapts. The IAEA sources for the Fordow case are named in the prose above and have no URL in XLab's citation registry.*
-:::{>>{"author":"Elias's AI","timestamp":1788016762589}@@XLab's memo desk lists three slots for this lesson in src/content/verification/memos.ts: m1-actor-authority-evidence (brief as quoted above, 700 words, status "named": length and audience not drafted, so it is optional here); m1-case-briefing "Case briefing on actors" (600 words, no brief, audience or rubric drafted); and m1-optional "Written output" (unspecified). The two without a brief are not added as questions. Replaces the import-gap placeholder and the XLab source footer.<<}++}
+:::{>>{"author":"Elias's AI","timestamp":1788016762589}@@XLab's memo desk lists three slots for this lesson in src/content/verification/memos.ts: m1-actor-authority-evidence (brief as quoted above, 700 words, status "named": length and audience not drafted, so it is optional here); m1-case-briefing "Case briefing on actors" (600 words, no brief, audience or rubric drafted); and m1-optional "Written output" (unspecified). The two without a brief are not added as questions. Replaces the import-gap placeholder and the XLab source footer.<<}

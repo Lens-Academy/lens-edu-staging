@@ -1,9 +1,8 @@
 ---
 id: '2f1c552a-1785-43d7-b8dd-41ae5f7dfadd'
 title: "1.1 Anatomy of a (pause) agreement"
-tldr: {--{"author":"Elias's AI","timestamp":1788016158226}@@"Faithful alpha import --}{++{"author":"Elias's AI","timestamp":1788016158226}@@"Read a treaty the way a mechanic reads an engine: find where 'should' turns into 'shall', which article does the prohibiting, where the verification method is hidden, and how a party gets out. Then practise on MIRI's draft ASI agreement, and optionally sort thirteen real and fictional clauses onto the seven organs every binding agreement has."
-summary_for_tutor: "Structure: a short reading ++}of {++{"author":"Elias's AI","timestamp":1788016158226}@@the Swiss Practice Guide to International Treaties (structure, interpretation, model final clauses), a collapsed aside with the Texas Legislative Council's statute-reading tips (the Article segment that follows the callout is that excerpt), then the assignment: four questions on MIRI's draft agreement (the linked optional paper lens); ++}XLab {--{"author":"Elias's AI","timestamp":1788016158226}@@lesson 1.1 --}{++{"author":"Elias's AI","timestamp":1788016158226}@@asks for any 3 of the 4, so all four are optional here. Then the optional ++}Anatomy {++{"author":"Elias's AI","timestamp":1788016158226}@@Drill: thirteen specimen texts, each placed on one ++}of {--{"author":"Elias's AI","timestamp":1788016158226}@@a (pause) agreement."
-summary_for_tutor: "Imported from--}{++{"author":"Elias's AI","timestamp":1788016158226}@@seven organs (rule, claims, evidence, confidentiality bargain, adversary, institution and consequences, gap) or the No-organ bin for advocacy; each specimen carries++} XLab's {--{"author":"Elias's AI","timestamp":1788016158226}@@canonical Verification curriculum. Preserve--}{++{"author":"Elias's AI","timestamp":1788016158226}@@verdict, its near-miss notes, and its source (sources are revealed after answering, so do not name a specimen's++} source {--{"author":"Elias's AI","timestamp":1788016158226}@@framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788016158226}@@before the learner commits); a closing priority pick with no right answer; and the full text of the fictional Reykjavik Protocol. When assessing treaty answers, ask for quotations from the text and attention to verbs (shall, may, must)."++}
+tldr: "Read a treaty the way a mechanic reads an engine: find where 'should' turns into 'shall', which article does the prohibiting, where the verification method is hidden, and how a party gets out. Then practise on MIRI's draft ASI agreement, and optionally sort thirteen real and fictional clauses onto the seven organs every binding agreement has."
+summary_for_tutor: "Structure: a short reading of the Swiss Practice Guide to International Treaties (structure, interpretation, model final clauses), a collapsed aside with the Texas Legislative Council's statute-reading tips (the Article segment that follows the callout is that excerpt), then the assignment: four questions on MIRI's draft agreement (the linked optional paper lens); XLab asks for any 3 of the 4, so all four are optional here. Then the optional Anatomy Drill: thirteen specimen texts, each placed on one of seven organs (rule, claims, evidence, confidentiality bargain, adversary, institution and consequences, gap) or the No-organ bin for advocacy; each specimen carries XLab's verdict, its near-miss notes, and its source (sources are revealed after answering, so do not name a specimen's source before the learner commits); a closing priority pick with no right answer; and the full text of the fictional Reykjavik Protocol. When assessing treaty answers, ask for quotations from the text and attention to verbs (shall, may, must)."
 tags: [wip]
 duration_minutes: 55
 ---
@@ -24,18 +23,16 @@ Review the following sections:
 - **Page 42 — Interpretation:** Articles 31–33 of the Vienna Convention and the order in which the principal interpretative methods are applied — ordinary meaning, context, and the treaty’s object and purpose;
 - **Annex E, page 47 — Model final clauses:** complete examples of provisions on signature, ratification, accession, and entry into force.
 
-{--{"author":"Elias's AI","timestamp":1788016161738}@@\## Reading--}{++{"author":"Elias's AI","timestamp":1788016161738}@@:::callout {title="Reading++} the Treaty Taking Too {--{"author":"Elias's AI","timestamp":1788016161738}@@Long?
-
---}{++{"author":"Elias's AI","timestamp":1788016161738}@@Long?" tone="neutral" collapse="closed"}
-++}Read **Look for key verbs** twice. It is question 1 of this unit, in the drafters’ own words.
+:::callout {title="Reading the Treaty Taking Too Long?" tone="neutral" collapse="closed"}
+Read **Look for key verbs** twice. It is question 1 of this unit, in the drafters’ own words.
 
 \### [Reading Statutes and Bills](https://tlc.texas.gov/docs/legref/readingabill.pdf)
 *“Tips for Reading and Understanding a Statute”, pp. 4–5, complete*
 Texas Legislative Council, Research Division, 85th Legislature
 
-{++{"author":"Elias's AI","timestamp":1788016161738}@@The excerpt follows below.
+The excerpt follows below.
 :::{>>{"author":"Elias's AI","timestamp":1788016161738}@@XLab folds this aside; segments cannot nest in a callout, so the prose and reading card are in the callout and the Article excerpt stays as the next segment.<<}
-++}
+
 #### Article
 source:: [[../articles/texas-reading-statutes-and-bills-for-the-85th-legislature-texas-legislative-council]]
 from:: ### Tips for Reading and Understanding a Statute
@@ -43,7 +40,7 @@ to:: Sec. 93.011. EMERGENCY CLOSING. (a) If the officers of a savings bank deter
 
 #### Text
 content::
-\## {--{"author":"Elias's AI","timestamp":1788016175235}@@Apply--}{++{"author":"Elias's AI","timestamp":1788016175235}@@Assignment
+\## Assignment
 
 Open [[../Lenses/XLab Verification - v-paper-scher-treaty|the draft agreement]] prepared by the MIRI Technical Governance Team — Scher, Abecassis, Barnett, and Abeyta.
 
@@ -59,9 +56,9 @@ Examine the Preamble and Article I. Identify and mark the exact point at which t
 
 Guidance: focus on the verbs used rather than on the section headings.
 optional:: true
-assessment-instructions:: Full credit needs three things: the learner quotes the specific words where the text first binds a specific actor (the transition out of preambular and purpose language into an operative obligation on a Party), names the grammatical markers on each side (aspirational or descriptive language such as recognizing, affirming, should, versus operative verbs such as shall, shall not, may not, addressed to a named Party), and shows++} the {--{"author":"Elias's AI","timestamp":1788016175235}@@Treaty-Reading Method--}{++{"author":"Elias's AI","timestamp":1788016175235}@@contrast with quotations from both sides. Partial credit for the right location without the verb analysis. Do not require agreement with the agreement's substance. No generic praise.++}
+assessment-instructions:: Full credit needs three things: the learner quotes the specific words where the text first binds a specific actor (the transition out of preambular and purpose language into an operative obligation on a Party), names the grammatical markers on each side (aspirational or descriptive language such as recognizing, affirming, should, versus operative verbs such as shall, shall not, may not, addressed to a named Party), and shows the contrast with quotations from both sides. Partial credit for the right location without the verb analysis. Do not require agreement with the agreement's substance. No generic praise.
 
-{--{"author":"Elias's AI","timestamp":1788016175235}@@\## Assignment--}{++{"author":"Elias's AI","timestamp":1788016175235}@@#### Question: Open
+#### Question: Open
 id:: e3c2359d-f159-4348-a44a-740924f23668
 content:: **2. Analyse the components of a prohibition**
 
@@ -73,11 +70,11 @@ Select one prohibition contained in Article IV, V, VI, or VIII. Identify:
 
 A prohibition may not contain all three types of requirement. Support your answer with references to the relevant text.
 optional:: true
-assessment-instructions:: Full credit: one prohibition from Article IV, V, VI, or VIII is named; each of the three requirement types (do, refrain, permit) is either filled with a quoted or closely paraphrased clause or explicitly marked as absent from that prohibition; the references are to the actual text. Penalize answers that describe the article's purpose instead of its three duties, and answers that invent a duty the text does not contain. No generic praise.++}
+assessment-instructions:: Full credit: one prohibition from Article IV, V, VI, or VIII is named; each of the three requirement types (do, refrain, permit) is either filled with a quoted or closely paraphrased clause or explicitly marked as absent from that prohibition; the references are to the actual text. Penalize answers that describe the article's purpose instead of its three duties, and answers that invent a duty the text does not contain. No generic praise.
 
-#### {--{"author":"Elias's AI","timestamp":1788016175235}@@Text--}{++{"author":"Elias's AI","timestamp":1788016175235}@@Question: Open++}
-{++{"author":"Elias's AI","timestamp":1788016175235}@@id:: 7d9b33a6-250c-41b3-aeb3-daae48c85383
-++}content:: {--{"author":"Elias's AI","timestamp":1788016175235}@@**Interactive exercise:** XLab's `treaty-workspace` widget has no direct Lens equivalent yet. Complete --}{++{"author":"Elias's AI","timestamp":1788016175235}@@**3. Locate the verification method**
+#### Question: Open
+id:: 7d9b33a6-250c-41b3-aeb3-daae48c85383
+content:: **3. Locate the verification method**
 
 For the prohibition selected in Question 2, determine where the method for verifying compliance is established. Is it:
 
@@ -89,34 +86,30 @@ Support your conclusion with a quotation from the agreement.
 
 Guidance: compare Articles VII and IX.
 optional:: true
-assessment-instructions:: Full credit: the learner picks one of the three locations for the prohibition chosen in Question 2 and supports ++}it {++{"author":"Elias's AI","timestamp":1788016175235}@@with a quotation from the agreement that shows where the method lives (the article itself, an annex, or a delegation to an institution or body). The comparison of Article VII (chip use verification) with Article IX (research restriction verification) should surface that the two prohibitions locate their methods differently. Partial credit for a correct location without a quotation. No generic praise.
+assessment-instructions:: Full credit: the learner picks one of the three locations for the prohibition chosen in Question 2 and supports it with a quotation from the agreement that shows where the method lives (the article itself, an annex, or a delegation to an institution or body). The comparison of Article VII (chip use verification) with Article IX (research restriction verification) should surface that the two prohibitions locate their methods differently. Partial credit for a correct location without a quotation. No generic praise.
 
 #### Question: Open
 id:: 9071fd5b-8b0f-4dd0-80bf-93960ebca7af
 content:: **4. Examine entry into force and withdrawal**
 
-Determine when the agreement enters into force and describe the procedure by which a Party may withdraw from it. Identify any applicable conditions or notice periods. Compare these provisions with the model clauses ++}in {++{"author":"Elias's AI","timestamp":1788016175235}@@Annex E of ++}the {--{"author":"Elias's AI","timestamp":1788016175235}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-anatomy). Its surrounding lesson text--}{++{"author":"Elias's AI","timestamp":1788016175235}@@Practice Guide to International Treaties.
+Determine when the agreement enters into force and describe the procedure by which a Party may withdraw from it. Identify any applicable conditions or notice periods. Compare these provisions with the model clauses in Annex E of the Practice Guide to International Treaties.
 
 Relevant provision: Article XV, Withdrawal and Duration.
 optional:: true
-assessment-instructions:: Full credit: the entry-into-force condition++} is {--{"author":"Elias's AI","timestamp":1788016175235}@@preserved here.--}{++{"author":"Elias's AI","timestamp":1788016175235}@@stated from the text, the withdrawal procedure is described with its notice period and any conditions quoted from Article XV, and at least one concrete comparison is drawn with the model final clauses in Annex E of the Practice Guide (for example on notice periods, on who receives the notification, or on conditions attached to withdrawal). Partial credit for entry into force and withdrawal without the comparison. No generic praise.
+assessment-instructions:: Full credit: the entry-into-force condition is stated from the text, the withdrawal procedure is described with its notice period and any conditions quoted from Article XV, and at least one concrete comparison is drawn with the model final clauses in Annex E of the Practice Guide (for example on notice periods, on who receives the notification, or on conditions attached to withdrawal). Partial credit for entry into force and withdrawal without the comparison. No generic praise.
 
 #### Text
 content::
-{>>{"author":"Elias's AI","timestamp":1788016175235}@@Native reproduction of XLab's treaty-workspace (src/lib/verification/data/treaty-workspace.ts and widgets/treaty-workspace.tsx). XLab's rule is "answer any 3 of the 4", so all four are optional with a bridge sentence. The two imported headings ("Apply the Treaty-Reading Method" was XLab's PageBreak title) are collapsed to the real "Assignment" heading.<<}++}
+{>>{"author":"Elias's AI","timestamp":1788016175235}@@Native reproduction of XLab's treaty-workspace (src/lib/verification/data/treaty-workspace.ts and widgets/treaty-workspace.tsx). XLab's rule is "answer any 3 of the 4", so all four are optional with a bridge sentence. The two imported headings ("Apply the Treaty-Reading Method" was XLab's PageBreak title) are collapsed to the real "Assignment" heading.<<}
 
-{--{"author":"Elias's AI","timestamp":1788016420133}@@#### Text
-content::
---}{--{"author":"Elias's AI","timestamp":1788016350518}@@\## [Optional] Drill: --}{++{"author":"Elias's AI","timestamp":1788016350518}@@:::callout {title="Optional: ++}Reassemble the Parts of an {--{"author":"Elias's AI","timestamp":1788016350518}@@Agreement
-
---}{++{"author":"Elias's AI","timestamp":1788016350518}@@Agreement" tone="neutral" collapse="closed"}
-++}A recall drill for the anatomy you just dissected.
+:::callout {title="Optional: Reassemble the Parts of an Agreement" tone="neutral" collapse="closed"}
+A recall drill for the anatomy you just dissected.
 
 **Every agreement that restrains anyone has the same seven organs.** Statements have some of them. Treaties have all of them, though not all healthy. In the next fifteen minutes you will read thirteen short texts, real and fictional, and place each one on the organ it implements. Three of them implement nothing at all.
 
 _13 specimens · about 15 minutes · drag each text to the organ it implements._
 
-{++{"author":"Elias's AI","timestamp":1788016350518}@@Sources are hidden until you place each card. Read the text, not the letterhead. Where a tag is arguable, a defensible second-best answer is accepted and discussed, because expert readers disagree about these too.
+Sources are hidden until you place each card. Read the text, not the letterhead. Where a tag is arguable, a defensible second-best answer is accepted and discussed, because expert readers disagree about these too.
 
 **The seven organs, and the bin:**
 
@@ -477,8 +470,8 @@ options::
 optional:: true
 feedback-instructions:: Correct: no organ. If right: "Every noun of the evidence and institution organs appears (protocols, audits, independent experts) and none is bound to anything. This is the promissory-note pattern, and real agreements carry it too: the BWC's verification protocol stayed 'to be negotiated' from 1975 until the effort collapsed in 2001, and the ban has run on trust ever since. A deferred organ is an absent organ until the day it is drafted." If the evidence: "The vocabulary of evidence is all here: audits, oversight, outside experts. Now ask the two binding questions. Who is bound? ('Labs and experts should' binds no one.) What procedure exists? (None; it is to be developed, jointly, later.) Vocabulary is not anatomy." If the institution & consequences: "It names overseers, which smells institutional. But no institution is created, empowered, funded, or given a decision rule. 'Overseen by independent outside experts' is a job posting, not an organ." Any other bin: "Run the tell: 'should,' unbound actors, procedures deferred to future joint work. Advocacy." Then reveal the source: FLI Open Letter, March 2023 (verbatim). No praise.
 
-++}#### Text
-content::{--{"author":"Elias's AI","timestamp":1788016350518}@@ **Interactive exercise:** --}{++{"author":"Elias's AI","timestamp":1788016350518}@@
+#### Text
+content::
 :::callout {title="Specimen 13: why (open after you have answered)" tone="neutral" collapse="closed"}
 **Source:** FLI Open Letter, March 2023 (verbatim).
 
@@ -514,7 +507,7 @@ options::
 - The institution & consequences
 - The gap
 optional:: true
-feedback-instructions:: There is no single right answer. Reply with ++}XLab's {--{"author":"Elias's AI","timestamp":1788016350518}@@`anatomy-drill` widget --}{++{"author":"Elias's AI","timestamp":1788016350518}@@judgment for the organ chosen, verbatim, then tell the learner to bring their pick to their cohort session and defend it. The rule: "A defensible first pick: definitions fail before inspectors do, and every later organ inherits the rule's precision. The negotiator's caution: definitional fights are where talks stall longest, and a perfect rule with a weak evidence organ is how you get a ban that runs on trust." The claims: "The analyst's pick. Getting the declared/undeclared decomposition written into the text disciplines everything downstream, because every mechanism must then name the branch it serves. Almost no real treaty makes it explicit, which is why so many have one branch standing empty." The evidence: "The obvious pick, and the one that eats the whole negotiation, because access is precisely what states resist. The CWC's record applies: the strongest access clause ever drafted ++}has {++{"author":"Elias's AI","timestamp":1788016350518}@@waited 28 years for someone willing to pay the political price of invoking it." The confidentiality bargain: "The professional's pick. Acceptability runs through this organ: managed access and attestation are what let a rival say yes to intrusion, and the RAND authors are blunt that much of this machinery needs years of R&D. Whoever builds it first sets the terms everyone else signs." The adversary: "The red-teamer's pick. An agreement drafted against ++}no {--{"author":"Elias's AI","timestamp":1788016350518}@@direct Lens equivalent yet. Complete--}{++{"author":"Elias's AI","timestamp":1788016350518}@@adversary collapses on first contact, and such agreements show themselves in unpriced carve-outs. Push to get the threat model in writing; you will be told++} it {++{"author":"Elias's AI","timestamp":1788016350518}@@is impolitic. It was impolitic ++}in {++{"author":"Elias's AI","timestamp":1788016350518}@@1972 as well, and the BWC shows ++}the {--{"author":"Elias's AI","timestamp":1788016350518}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-anatomy). Its surrounding lesson --}{++{"author":"Elias's AI","timestamp":1788016350518}@@bill." The institution & consequences: "The realist's pick. Findings without automatic consequences produced most of arms control's dead letters; 'may recommend measures' is the genre's epitaph. The caution: automatic consequences are also exactly what makes states hesitate to sign. This organ prices the deal." The gap: "The forecaster's pick. Compute is a decaying proxy, so an agreement without review machinery is accurate on signing day and a little more wrong every day after. The quiet problem is the voting rule: review that can be vetoed is a freeze with extra steps."
+feedback-instructions:: There is no single right answer. Reply with XLab's judgment for the organ chosen, verbatim, then tell the learner to bring their pick to their cohort session and defend it. The rule: "A defensible first pick: definitions fail before inspectors do, and every later organ inherits the rule's precision. The negotiator's caution: definitional fights are where talks stall longest, and a perfect rule with a weak evidence organ is how you get a ban that runs on trust." The claims: "The analyst's pick. Getting the declared/undeclared decomposition written into the text disciplines everything downstream, because every mechanism must then name the branch it serves. Almost no real treaty makes it explicit, which is why so many have one branch standing empty." The evidence: "The obvious pick, and the one that eats the whole negotiation, because access is precisely what states resist. The CWC's record applies: the strongest access clause ever drafted has waited 28 years for someone willing to pay the political price of invoking it." The confidentiality bargain: "The professional's pick. Acceptability runs through this organ: managed access and attestation are what let a rival say yes to intrusion, and the RAND authors are blunt that much of this machinery needs years of R&D. Whoever builds it first sets the terms everyone else signs." The adversary: "The red-teamer's pick. An agreement drafted against no adversary collapses on first contact, and such agreements show themselves in unpriced carve-outs. Push to get the threat model in writing; you will be told it is impolitic. It was impolitic in 1972 as well, and the BWC shows the bill." The institution & consequences: "The realist's pick. Findings without automatic consequences produced most of arms control's dead letters; 'may recommend measures' is the genre's epitaph. The caution: automatic consequences are also exactly what makes states hesitate to sign. This organ prices the deal." The gap: "The forecaster's pick. Compute is a decaying proxy, so an agreement without review machinery is accurate on signing day and a little more wrong every day after. The quiet problem is the voting rule: review that can be vetoed is a freeze with extra steps."
 
 #### Text
 content::
@@ -522,18 +515,18 @@ There is no single right answer here. Bring yours to your cohort session and def
 
 :::callout {title="The seven picks, judged (open after you have answered)" tone="neutral" collapse="closed"}
 1. **The rule.** A defensible first pick: definitions fail before inspectors do, and every later organ inherits the rule's precision. The negotiator's caution: definitional fights are where talks stall longest, and a perfect rule with a weak evidence organ is how you get a ban that runs on trust.
-2. **The claims.** The analyst's pick. Getting the declared/undeclared decomposition written into the ++}text {++{"author":"Elias's AI","timestamp":1788016350518}@@disciplines everything downstream, because every mechanism must then name the branch it serves. Almost no real treaty makes it explicit, which is why so many have one branch standing empty.
+2. **The claims.** The analyst's pick. Getting the declared/undeclared decomposition written into the text disciplines everything downstream, because every mechanism must then name the branch it serves. Almost no real treaty makes it explicit, which is why so many have one branch standing empty.
 3. **The evidence.** The obvious pick, and the one that eats the whole negotiation, because access is precisely what states resist. The CWC's record applies: the strongest access clause ever drafted has waited 28 years for someone willing to pay the political price of invoking it.
 4. **The confidentiality bargain.** The professional's pick. Acceptability runs through this organ: managed access and attestation are what let a rival say yes to intrusion, and the RAND authors are blunt that much of this machinery needs years of R&D. Whoever builds it first sets the terms everyone else signs.
 5. **The adversary.** The red-teamer's pick. An agreement drafted against no adversary collapses on first contact, and such agreements show themselves in unpriced carve-outs. Push to get the threat model in writing; you will be told it is impolitic. It was impolitic in 1972 as well, and the BWC shows the bill.
-6. **The institution & consequences.** The realist's pick. Findings without automatic consequences produced most of arms control's dead letters; 'may recommend measures' ++}is {--{"author":"Elias's AI","timestamp":1788016350518}@@preserved --}{++{"author":"Elias's AI","timestamp":1788016350518}@@the genre's epitaph. The caution: automatic consequences are also exactly what makes states hesitate to sign. This organ prices the deal.
+6. **The institution & consequences.** The realist's pick. Findings without automatic consequences produced most of arms control's dead letters; 'may recommend measures' is the genre's epitaph. The caution: automatic consequences are also exactly what makes states hesitate to sign. This organ prices the deal.
 7. **The gap.** The forecaster's pick. Compute is a decaying proxy, so an agreement without review machinery is accurate on signing day and a little more wrong every day after. The quiet problem is the voting rule: review that can be vetoed is a freeze with extra steps.
 :::
 
 :::callout {title="The Reykjavik Protocol — full text" tone="neutral" collapse="closed"}
-The fictional agreement several specimens were drawn from. Two specimens used strengthened versions of Articles VI and VIII; the original text appears ++}here.{++{"author":"Elias's AI","timestamp":1788016350518}@@ You will work with this document again in the dissection and the stress test.++}
+The fictional agreement several specimens were drawn from. Two specimens used strengthened versions of Articles VI and VIII; the original text appears here. You will work with this document again in the dissection and the stress test.
 
-{++{"author":"Elias's AI","timestamp":1788016350518}@@**Preamble.** The States Parties to this Protocol, recognizing that certain applications of advanced artificial intelligence may pose risks to international security, have agreed as follows:
+**Preamble.** The States Parties to this Protocol, recognizing that certain applications of advanced artificial intelligence may pose risks to international security, have agreed as follows:
 
 **Article I — Definitions.** (1) “Covered training run” means the training of a single general-purpose artificial intelligence model using more than 10²⁶ computational operations. (2) “Covered facility” means any installation with power capacity exceeding 10 megawatts operated for the purpose of artificial intelligence computation. (3) The fine-tuning, continued development, or adaptation of models trained before entry into force of this Protocol shall not constitute a covered training run.
 
@@ -556,9 +549,9 @@ The fictional agreement several specimens were drawn from. Two specimens used st
 **Article X — Review and amendment.** The thresholds and definitions in Article I may be amended by consensus of all States Parties at a Review Conference, the first of which shall convene three years after entry into force.
 :::
 
-++}#### Text
+#### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788016350518}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-anatomy)*--}{++{"author":"Elias's AI","timestamp":1788016350518}@@:::callout {title="Works cited" tone="neutral" collapse="closed"}
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
 Texas Legislative Council, Research Division. *Reading Statutes and Bills*. 85th Legislature. [tlc.texas.gov](https://tlc.texas.gov/docs/legref/readingabill.pdf)
 *A drafting office's short guide to reading legal text: how codes and statutes are organised, the parts of a statute and of a bill, tips for reading each, and three practice exercises.*
 
@@ -569,4 +562,4 @@ XLab. "1.1 Anatomy of a (pause) agreement." *Verification*, XLab, University of 
 *The source lesson this page adapts, including the treaty assignment and the Anatomy Drill.*
 
 The Swiss Practice Guide to International Treaties is cited inline above and has no entry in XLab's citation registry.
-:::++}
+:::

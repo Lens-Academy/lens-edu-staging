@@ -147,13 +147,11 @@ Council of the Inspectors General on Integrity and Efficiency (2025)
 
 \## On Paper
 
-{--{"author":"Elias's AI","timestamp":1788016058779}@@\## [Optional] Exercise:--}{++{"author":"Elias's AI","timestamp":1788016058779}@@:::callout {title="Optional:++} On Paper (7–10 {--{"author":"Elias's AI","timestamp":1788016058779}@@minutes)
-
---}{++{"author":"Elias's AI","timestamp":1788016058779}@@minutes)" tone="neutral" collapse="closed"}
-++}Below are five fragments of internal whistleblower policies. Each fragment is
+:::callout {title="Optional: On Paper (7–10 minutes)" tone="neutral" collapse="closed"}
+Below are five fragments of internal whistleblower policies. Each fragment is
 followed by one question about what the quoted language does — and does not —
 establish. For each question, choose the one best answer. The answers are
-revealed after you submit the whole {--{"author":"Elias's AI","timestamp":1788016058779}@@set.--}{++{"author":"Elias's AI","timestamp":1788016058779}@@set.{>>{"author":"Elias's AI","timestamp":1788016058779}@@XLab's fold text describes five policy fragments, but the widget data (human-reporting-protection.ts) is two cases with six steps each, reproduced below. Report to XLab as stale copy.<<}
+revealed after you submit the whole set.{>>{"author":"Elias's AI","timestamp":1788016058779}@@XLab's fold text describes five policy fragments, but the widget data (human-reporting-protection.ts) is two cases with six steps each, reproduced below. Report to XLab as stale copy.<<}
 
 **Follow the report.** Reconstruct one route out of the organization and one route from allegation to usable evidence. Every question in this exercise is optional.
 :::
@@ -173,10 +171,10 @@ options::
 - Technical expertise alone is enough, even when assessing or managing critical safety incidents is not part of the person's work.
 - A worker becomes covered only after the Attorney General accepts the report for investigation.
 shuffle:: true
-feedback-instructions:: If wrong: Use the job responsibility in §1107(b), not the person's seniority, employer alone, or the recipient's later decision. Then: Section 1107(b) ties covered-employee status to responsibility for assessing, managing, or addressing risk of critical safety incidents. Nadia's assigned work meets that definition on the facts given.++}
+feedback-instructions:: If wrong: Use the job responsibility in §1107(b), not the person's seniority, employer alone, or the recipient's later decision. Then: Section 1107(b) ties covered-employee status to responsibility for assessing, managing, or addressing risk of critical safety incidents. Nadia's assigned work meets that definition on the facts given.
 
 #### Text
-content::{--{"author":"Elias's AI","timestamp":1788016058779}@@ **Interactive exercise:** XLab's `human-reporting-protection` widget --}{++{"author":"Elias's AI","timestamp":1788016058779}@@
+content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
 Section 1107(b) ties covered-employee status to responsibility for assessing, managing, or addressing risk of critical safety incidents. Nadia's assigned work meets that definition on the facts given. Source: [California Labor Code §1107(b)](https://www.leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=5.1.&division=2.&lawCode=LAB&part=3.&title=)
 
@@ -210,7 +208,7 @@ optional:: true
 content:: Recipient. Does Nadia have to report internally before going to the Attorney General?
 options::
 - [x] No. The Attorney General is an expressly named recipient, and §1107.1 does not make internal reporting a prerequisite.
-- Yes. Protection begins only after the developer ++}has {++{"author":"Elias's AI","timestamp":1788016058779}@@received the report and missed a response deadline.
+- Yes. Protection begins only after the developer has received the report and missed a response deadline.
 - Yes. All catastrophic-risk reports must first go to the Office of Emergency Services rather than the Attorney General.
 - No, because §1107.1 expressly treats the Attorney General, any legislator, and the press as equivalent recipients.
 - Only if a manager with authority over Nadia gives permission for the external disclosure.
@@ -278,7 +276,7 @@ options::
 - It gives Nadia the same mandatory monthly investigation updates that §1107.1 requires from a large developer's internal process.
 - It establishes investigative competence as long as the intake system can accept an anonymous submission.
 shuffle:: true
-feedback-instructions:: If wrong: A legally permitted recipient, a protected identity, and an institution able to investigate are separate design questions. Then: AIWI/CARMA recommend that receiving agencies have or can obtain technical AI expertise. Their SB 53 analysis separately identifies uncertainty about the Attorney General's mandate where the report alleges catastrophic risk but ++}no {--{"author":"Elias's AI","timestamp":1788016058779}@@direct Lens equivalent yet. --}{++{"author":"Elias's AI","timestamp":1788016058779}@@legal violation.
+feedback-instructions:: If wrong: A legally permitted recipient, a protected identity, and an institution able to investigate are separate design questions. Then: AIWI/CARMA recommend that receiving agencies have or can obtain technical AI expertise. Their SB 53 analysis separately identifies uncertainty about the Attorney General's mandate where the report alleges catastrophic risk but no legal violation.
 
 #### Text
 content::
@@ -312,7 +310,7 @@ feedback-instructions:: If wrong: Preservation comes before a merits decision. K
 #### Text
 content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
-CIGIE requires accurate and complete case-file documentation and preservation of chain of custody. Early preservation protects records before routine deletion or deliberate alteration can remove them. Source: [CIGIE Quality Standards for Investigations, Accurate and ++}Complete {++{"author":"Elias's AI","timestamp":1788016058779}@@Documentation; Collecting Evidence](https://www.ignet.gov/sites/default/files/files/Quality%20Standards%20for%20Investigations%20July-2025.pdf#page=13)
+CIGIE requires accurate and complete case-file documentation and preservation of chain of custody. Early preservation protects records before routine deletion or deliberate alteration can remove them. Source: [CIGIE Quality Standards for Investigations, Accurate and Complete Documentation; Collecting Evidence](https://www.ignet.gov/sites/default/files/files/Quality%20Standards%20for%20Investigations%20July-2025.pdf#page=13)
 
 Preserve: Keep the original submission and metadata, create the case record, log handling, and protect relevant records from loss.
 :::
@@ -322,7 +320,7 @@ id:: 77d2e956-934a-49d7-b55f-c8ce43007308
 optional:: true
 content:: Authenticate. What would authentication establish at this stage?
 options::
-- [x] It would test the contractor's claimed access and the work order's origin and integrity; ++}it {++{"author":"Elias's AI","timestamp":1788016058779}@@would not establish that an unauthorized workload ran.
+- [x] It would test the contractor's claimed access and the work order's origin and integrity; it would not establish that an unauthorized workload ran.
 - A strong professional reputation would authenticate both the document and every inference the contractor draws from it.
 - The matching project code would authenticate the work order and prove the alleged workload without further records.
 - Without a cryptographic signature, the work order cannot be authenticated by any combination of source access, counterpart records, or system metadata.
@@ -344,16 +342,16 @@ optional:: true
 content:: Investigate. How should the office frame the investigation?
 options::
 - [x] Define the allegation and applicable rule, then lawfully pursue records and accounts that could support, qualify, or contradict it.
-- Collect only material that supports the contractor because exculpatory evidence belongs ++}in {++{"author":"Elias's AI","timestamp":1788016058779}@@a later adversarial response.
+- Collect only material that supports the contractor because exculpatory evidence belongs in a later adversarial response.
 - Begin by sending the full report and source identity to implicated management so it can define the scope and select the records.
 - Record a compliance finding at intake, then use the investigation to calculate the appropriate response.
-- Ask ++}the {--{"author":"Elias's AI","timestamp":1788016058779}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-reporting-protection). Its surrounding lesson text--}{++{"author":"Elias's AI","timestamp":1788016058779}@@contractor to infer which model ran; an informed inference can replace workload records when the source lacks access to them.
+- Ask the contractor to infer which model ran; an informed inference can replace workload records when the source lacks access to them.
 shuffle:: true
-feedback-instructions:: If wrong: The investigation tests an allegation. It++} is {--{"author":"Elias's AI","timestamp":1788016058779}@@preserved here.--}{++{"author":"Elias's AI","timestamp":1788016058779}@@not a search for support for a conclusion already recorded. Then: CIGIE requires objective collection and analysis of both exculpatory and incriminating evidence. Complaint evaluation also asks whether to investigate, refer, or take no further action under the office's authority and priorities.++}
+feedback-instructions:: If wrong: The investigation tests an allegation. It is not a search for support for a conclusion already recorded. Then: CIGIE requires objective collection and analysis of both exculpatory and incriminating evidence. Complaint evaluation also asks whether to investigate, refer, or take no further action under the office's authority and priorities.
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788016058779}@@\## Companies --}{++{"author":"Elias's AI","timestamp":1788016058779}@@:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
 CIGIE requires objective collection and analysis of both exculpatory and incriminating evidence. Complaint evaluation also asks whether to investigate, refer, or take no further action under the office's authority and priorities. Source: [CIGIE Quality Standards for Investigations, Complaint Evaluation; Executing Investigations](https://www.ignet.gov/sites/default/files/files/Quality%20Standards%20for%20Investigations%20July-2025.pdf#page=13)
 
 Investigate: Define the allegation and rule, then seek both supporting and contradictory evidence through lawful, independent methods.
@@ -366,9 +364,9 @@ content:: Corroborate. What does the utility record add, and what is still missi
 options::
 - [x] It independently supports the project code, dates, and capacity expansion; scheduler, lineage, access, and authorization records are still needed to identify the workload and its status.
 - It proves that an unauthorized frontier-model training run consumed the added capacity during those dates.
-- ++}A {++{"author":"Elias's AI","timestamp":1788016058779}@@second contractor repeating the first contractor's account would add more independent weight than records held by the utility or provider.
+- A second contractor repeating the first contractor's account would add more independent weight than records held by the utility or provider.
 - If the contractor may receive a reward, the matching utility record cannot corroborate any part of the account.
-- Because the contractor lacked workload access, evidence of infrastructure expansion has no verification value ++}and {--{"author":"Elias's AI","timestamp":1788016058779}@@B--}{++{"author":"Elias's AI","timestamp":1788016058779}@@should be excluded.
+- Because the contractor lacked workload access, evidence of infrastructure expansion has no verification value and should be excluded.
 shuffle:: true
 feedback-instructions:: If wrong: Match the independent record to the fact it can test. A power allocation can support an expansion without identifying the code or model that later used it. Then: Wasil et al. describe financial records and inspections as ways to test whistleblower claims. Their corroborative value remains claim-specific. Baker's Table 14 likewise separates personnel who know about infrastructure from personnel who know about AI activity and authorization.
 
@@ -420,9 +418,9 @@ content::
 CIGIE's complaint-evaluation standard expressly includes referral to another appropriate authority. Its documentation and information-management requirements continue to govern how the sending office records and protects the transfer. Source: [CIGIE Quality Standards for Investigations, Complaint Evaluation; Managing Investigative Information](https://www.ignet.gov/sites/default/files/files/Quality%20Standards%20for%20Investigations%20July-2025.pdf#page=13)
 
 Pass on: Make a documented referral to a competent, authorized body without losing the record, its restrictions, or the history of handling.
-:::++}
+:::
 
-{++{"author":"Elias's AI","timestamp":1788016058779}@@:::callout {title="Case 2 finding: The report has become usable evidence, but only for a bounded claim" tone="neutral" collapse="closed"}
+:::callout {title="Case 2 finding: The report has become usable evidence, but only for a bounded claim" tone="neutral" collapse="closed"}
 The preserved and authenticated work order, independently matched to the utility record, supports the claim that Project Lattice expanded infrastructure at the stated time. It does not establish which workload ran or whether a rule was breached. The transmitted package must state that limit and identify the technical and governance records still required.
 :::
 
@@ -432,7 +430,7 @@ The preserved and authenticated work order, independently matched to the utility
 **Evidence finding.** Preserved and corroborated records may support one fact without supporting the larger allegation. The transmitted package must say exactly where that boundary lies.
 :::
 
-++}\## Companies A and B (15–20 {--{"author":"Elias's AI","timestamp":1788016058779}@@min)--}{++{"author":"Elias's AI","timestamp":1788016058779}@@min){>>{"author":"Elias's AI","timestamp":1788016058779}@@XLab's heading says "Companies A and B", but the widget it wraps (human-institutions-judgment) is the "Audit the verifier" lab about the International AI Verification Office, and its eyebrow reads "Institutions and policy judgment · 2.4.4" although it sits in 2.4.2. Report to XLab.<<}
+\## Companies A and B (15–20 min){>>{"author":"Elias's AI","timestamp":1788016058779}@@XLab's heading says "Companies A and B", but the widget it wraps (human-institutions-judgment) is the "Audit the verifier" lab about the International AI Verification Office, and its eyebrow reads "Institutions and policy judgment · 2.4.4" although it sits in 2.4.2. Report to XLab.<<}
 
 \### Audit the verifier
 
@@ -455,10 +453,10 @@ options::
 - Technical expertise cures the financial and publication conflict because a capable auditor will recognize manipulation.
 - The conflict is immaterial if the provider discloses the payment relationship after publishing a favorable report.
 shuffle:: true
-feedback-instructions:: If wrong: Ask what happens to fees, access, scope, and publication when the auditor reaches an unwelcome conclusion. Then: Brundage et al. call for disclosed financial relationships, standardized terms that prevent auditor shopping, cooling-off periods, and payment models that reduce dependence on auditees.++}
+feedback-instructions:: If wrong: Ask what happens to fees, access, scope, and publication when the auditor reaches an unwelcome conclusion. Then: Brundage et al. call for disclosed financial relationships, standardized terms that prevent auditor shopping, cooling-off periods, and payment models that reduce dependence on auditees.
 
 #### Text
-content::{--{"author":"Elias's AI","timestamp":1788016058779}@@ **Interactive exercise:** XLab's `human-institutions-judgment` widget--}{++{"author":"Elias's AI","timestamp":1788016058779}@@
+content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
 Brundage et al. call for disclosed financial relationships, standardized terms that prevent auditor shopping, cooling-off periods, and payment models that reduce dependence on auditees. Source: [Brundage et al., Independent experts](https://arxiv.org/html/2601.11699v4)
 
@@ -467,7 +465,7 @@ Independence: deficient when the auditee controls selection, renewal, scope, or 
 
 #### Question: Choice
 id:: 8168b860-0c7b-4f46-bdf6-0753e9f7f75c
-content:: Competence. The assigned team consists entirely of model evaluators. It++} has no {++{"author":"Elias's AI","timestamp":1788016310284}@@compute-accounting, data-center, forensic interviewing, evidence-handling, or treaty-law expertise.
+content:: Competence. The assigned team consists entirely of model evaluators. It has no compute-accounting, data-center, forensic interviewing, evidence-handling, or treaty-law expertise.
 
 What competence does the Project Lattice inquiry require?
 options::
@@ -662,7 +660,7 @@ feedback-instructions:: If wrong: Separate the organizational decision from exec
 #### Text
 content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
-Wasil et al. require facility access, chip identifiers, activity logs, training records, and related technical measures to test operational AI-development claims. Human evidence can ++}direct {--{"author":"Elias's AI","timestamp":1788016314056}@@Lens equivalent yet. Complete --}{++{"author":"Elias's AI","timestamp":1788016314056}@@that inquiry but not replace it. Source: [Wasil et al., Access-dependent methods](https://arxiv.org/html/2408.16074v2#S6.SS2)
+Wasil et al. require facility access, chip identifiers, activity logs, training records, and related technical measures to test operational AI-development claims. Human evidence can direct that inquiry but not replace it. Source: [Wasil et al., Access-dependent methods](https://arxiv.org/html/2408.16074v2#S6.SS2)
 
 Technical/physical requirement: scheduler and activity logs, chip inventory, and facility evidence must establish execution, workload identity, participating hardware, and compute.
 :::
@@ -697,9 +695,9 @@ options::
 - [x] Find breach of the access and cooperation obligation, while recording that the underlying training-run allegation remains a separate unresolved question.
 - Find both the access breach and the prohibited run proved because refusal necessarily means the logs are incriminating.
 - Issue no compliance finding until the Office proves the underlying run; access duties cannot be breached independently.
-- Treat the access finding as the Office's authority to impose whatever enforcement measure ++}it {++{"author":"Elias's AI","timestamp":1788016058779}@@considers proportionate.
+- Treat the access finding as the Office's authority to impose whatever enforcement measure it considers proportionate.
 shuffle:: true
-feedback-instructions:: If wrong: Identify the obligation whose facts are already established, and keep it separate from the concealed conduct the records were meant to test. Then: A valid demand, an express duty, managed alternatives, and documented refusal can establish noncompliance with access. Whether refusal proves the underlying activity depends on a separate inference rule ++}in the {--{"author":"Elias's AI","timestamp":1788016316181}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-reporting-protection). Its surrounding lesson text --}{++{"author":"Elias's AI","timestamp":1788016316181}@@agreement.
+feedback-instructions:: If wrong: Identify the obligation whose facts are already established, and keep it separate from the concealed conduct the records were meant to test. Then: A valid demand, an express duty, managed alternatives, and documented refusal can establish noncompliance with access. Whether refusal proves the underlying activity depends on a separate inference rule in the agreement.
 
 #### Text
 content::
@@ -711,7 +709,7 @@ Compliance finding: the documented refusal establishes breach of the express acc
 
 #### Question: Choice
 id:: 95098595-f1f2-4d43-b32b-5cb9d9349a45
-content:: Enforcement. When ++}is {--{"author":"Elias's AI","timestamp":1788016058779}@@preserved here.--}{++{"author":"Elias's AI","timestamp":1788016058779}@@enforcement justified?
+content:: Enforcement. When is enforcement justified?
 options::
 - [x] When an authorized trigger or valid compliance finding exists and the council applies the treaty's authority, required process, proportionality, and urgency rules.
 - Whenever investigators hold a strong suspicion, even if the treaty assigns sanctions elsewhere and no compliance process has concluded.
@@ -745,11 +743,11 @@ The record identifies institutional weaknesses, names the mechanism of capture, 
 - Investigation: justified by a specific, plausible, partly corroborated concern and a realistic path to resolving evidence.
 - Compliance finding: the documented refusal establishes breach of the express access duty; it does not by itself establish the prohibited run.
 - Enforcement: requires an authorized trigger or valid finding, the designated decision-maker, required process, and a proportionate response—not suspicion alone.
-:::++}
+:::
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788016058779}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-reporting-protection)*--}{++{"author":"Elias's AI","timestamp":1788016058779}@@:::callout {title="Works cited" tone="neutral" collapse="closed"}
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
 California Legislature. "Whistleblower Protections: Catastrophic Risks in AI Foundation Models, Labor Code §§ 1107–1107.2." *California Legislative Information*, effective 1 Jan. 2026. [leginfo.legislature.ca.gov](https://www.leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=5.1.&division=2.&lawCode=LAB&part=3.&title=)
 *California's enacted protections for covered frontier-developer employees who disclose specified catastrophic-risk concerns or violations.*
 
@@ -778,4 +776,4 @@ The CIGIE Quality Standards for Investigations, Brundage et al. (2026), and the 
 
 XLab. "2.4.2 Reporting and protection." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-reporting-protection)
 *The source lesson this page adapts, including the Mechanism to Effect, Follow the report, and Audit the verifier exercises.*
-:::{>>{"author":"Elias's AI","timestamp":1788016058779}@@Widgets rebuilt from whistleblower-levers.ts, human-reporting-protection.ts, and human-policy-labs.ts (INSTITUTIONS_JUDGMENT_LAB). Options carry XLab's exact text; correct option listed first in the data, so shuffle is on. CIGIE and Brundage URLs are in citations.json pending, not entries, so they are noted inline rather than listed.<<}++}
+:::{>>{"author":"Elias's AI","timestamp":1788016058779}@@Widgets rebuilt from whistleblower-levers.ts, human-reporting-protection.ts, and human-policy-labs.ts (INSTITUTIONS_JUDGMENT_LAB). Options carry XLab's exact text; correct option listed first in the data, so shuffle is on. CIGIE and Brundage URLs are in citations.json pending, not entries, so they are noted inline rather than listed.<<}

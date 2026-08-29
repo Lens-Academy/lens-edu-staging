@@ -1,14 +1,14 @@
 ---
 id: '5991339a-c9ea-48cd-8b62-ded2834a0792'
 title: "1.2.2 Who can prove what"
-tldr: {--{"author":"Elias's AI","timestamp":1788016641293}@@"Faithful alpha import of XLab lesson 1.2.2 Who--}{++{"author":"Elias's AI","timestamp":1788016641293}@@"Verification is not something an actor has; it is an arrow between two of them: A++} can {--{"author":"Elias's AI","timestamp":1788016641293}@@prove what."--}{++{"author":"Elias's AI","timestamp":1788016641293}@@put a fact in front of a verifier about B that B did not volunteer. Draw the arrows on the board you built in 1.2, key them against Baker et al.'s four subgoals, and count. Ten of seventeen actors have no arrow at all, and one chip designer is holding up three of the four subgoals."++}
-summary_for_tutor: {--{"author":"Elias's AI","timestamp":1788016641293}@@"Imported--}{++{"author":"Elias's AI","timestamp":1788016641293}@@"One exercise on the 17-actor board++} from {++{"author":"Elias's AI","timestamp":1788016641293}@@1.2. The learner lists directed edges (A to B) and the Baker et al. subgoal each one settles (1.A declared uses are accurate, 1.B declared uses have the required properties, 2.A no undeclared use of a declared cluster, 2.B no undeclared clusters at all), graded against ++}XLab's {--{"author":"Elias's AI","timestamp":1788016641293}@@canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed --}{++{"author":"Elias's AI","timestamp":1788016641293}@@seven-edge key: Cloud providers to Frontier labs (1.A), NVIDIA to Frontier labs (1.B), NVIDIA to Cloud providers (2.A), TSMC to Proxies (2.B), NVIDIA to Proxies (2.B), Intelligence community to China (2.B), Intelligence community to Proxies (2.B). A reversed edge is reported as reversed, not as a miss. The key, the per-actor notes on why ten actors have no edge, and the closing finding (2.B has four edges, the other subgoals one each, NVIDIA ++}on {--{"author":"Elias's AI","timestamp":1788016641293}@@XLab."--}{++{"author":"Elias's AI","timestamp":1788016641293}@@three of seven, six of seven arrowheads point at a company or a shell) are in closed callouts; reveal them only after the learner commits. Every quoted mechanism is from Baker et al. 2025 (arXiv 2507.15916)."++}
+tldr: "Verification is not something an actor has; it is an arrow between two of them: A can put a fact in front of a verifier about B that B did not volunteer. Draw the arrows on the board you built in 1.2, key them against Baker et al.'s four subgoals, and count. Ten of seventeen actors have no arrow at all, and one chip designer is holding up three of the four subgoals."
+summary_for_tutor: "One exercise on the 17-actor board from 1.2. The learner lists directed edges (A to B) and the Baker et al. subgoal each one settles (1.A declared uses are accurate, 1.B declared uses have the required properties, 2.A no undeclared use of a declared cluster, 2.B no undeclared clusters at all), graded against XLab's seven-edge key: Cloud providers to Frontier labs (1.A), NVIDIA to Frontier labs (1.B), NVIDIA to Cloud providers (2.A), TSMC to Proxies (2.B), NVIDIA to Proxies (2.B), Intelligence community to China (2.B), Intelligence community to Proxies (2.B). A reversed edge is reported as reversed, not as a miss. The key, the per-actor notes on why ten actors have no edge, and the closing finding (2.B has four edges, the other subgoals one each, NVIDIA on three of seven, six of seven arrowheads point at a company or a shell) are in closed callouts; reveal them only after the learner commits. Every quoted mechanism is from Baker et al. 2025 (arXiv 2507.15916)."
 tags: [wip]
 duration_minutes: 20
 ---
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788016645422}@@1.2--}{++{"author":"Elias's AI","timestamp":1788016645422}@@[[../Lenses/XLab Verification - v-scoping-actors|1.2]]++} asked what part each actor plays in a declaration: who owes one, who holds
+[[../Lenses/XLab Verification - v-scoping-actors|1.2]] asked what part each actor plays in a declaration: who owes one, who holds
 evidence about one, who checks one, and who no declaration covers. That map is
 a description. This is what you do with it.
 
@@ -24,7 +24,7 @@ counting is not the score: it is which of the four subgoals turns out to be
 holding the whole regime up.
 
 #### Text
-content::{--{"author":"Elias's AI","timestamp":1788016696939}@@ **Interactive exercise:**--}{++{"author":"Elias's AI","timestamp":1788016696939}@@
+content::
 \## Who can prove what
 
 **The brief.** Same agreement, same board: no training runs above a compute threshold for three months. 1.2 asked what part each actor plays in a declaration. This asks what a verifier could actually do with them — who can produce evidence about whom, and which of the four things a verifier has to establish that evidence would settle.
@@ -45,7 +45,7 @@ An edge runs from an evidence source to the actor the evidence concerns. The ver
 #### Question: Open
 id:: 1ebdfc58-235f-4091-89a0-2f807289f888
 content:: Draw the edges. For each one, write the source actor, an arrow, the actor the evidence concerns, and the subgoal it completes (1.A, 1.B, 2.A or 2.B). One line per edge. Actors with no edge at all are a real answer, and there are more of them than you would guess.
-assessment-instructions::++} XLab's {--{"author":"Elias's AI","timestamp":1788016696939}@@`actor-edges` widget --}{++{"author":"Elias's AI","timestamp":1788016696939}@@key has seven edges: Cloud providers → Frontier labs (1.A); NVIDIA → Frontier labs (1.B); NVIDIA → Cloud providers (2.A); TSMC → Proxies (2.B); NVIDIA → Proxies (2.B); Intelligence community → China (2.B); Intelligence community → Proxies (2.B). Score: each key edge found with the right direction earns 12 points, with the right subgoal 2 more; scale to 100. A reversed edge (right pair, wrong direction) is a reversal, not a miss: report it as reversed and give no credit for it. Extra edges cost nothing but should be named. Edges drawn from ASML, BIS, California, the deployers, or the four host states are the ones the key deliberately leaves out; do not count them, and let the feedback explain why. No generic praise.
+assessment-instructions:: XLab's key has seven edges: Cloud providers → Frontier labs (1.A); NVIDIA → Frontier labs (1.B); NVIDIA → Cloud providers (2.A); TSMC → Proxies (2.B); NVIDIA → Proxies (2.B); Intelligence community → China (2.B); Intelligence community → Proxies (2.B). Score: each key edge found with the right direction earns 12 points, with the right subgoal 2 more; scale to 100. A reversed edge (right pair, wrong direction) is a reversal, not a miss: report it as reversed and give no credit for it. Extra edges cost nothing but should be named. Edges drawn from ASML, BIS, California, the deployers, or the four host states are the ones the key deliberately leaves out; do not count them, and let the feedback explain why. No generic praise.
 feedback-instructions:: List the key edges the learner found, the ones reversed, the ones missed with the mechanism from the key below, and the extras with the note from "Actors with no edge" below. Then say which subgoal on their board has only one mechanism holding it up. Two short paragraphs.
 
 #### Text
@@ -85,22 +85,22 @@ content::
 \### 2. Read the map
 
 :::callout {title="Where this regime is weakest (open after you have answered)" tone="neutral" collapse="closed"}
-Count the edges by subgoal. 2.B — no undeclared clusters anywhere — has four. The other three subgoals have one edge each, so three quarters of what a verifier has to establish rests on a single mechanism apiece. Baker’s standard for a robust regime is redundancy: layers stacked, so that a subgoal ++}has {++{"author":"Elias's AI","timestamp":1788016696939}@@more than one way of being completed. Three of the four subgoals on this board have ++}no {--{"author":"Elias's AI","timestamp":1788016696939}@@direct Lens equivalent yet. Complete--}{++{"author":"Elias's AI","timestamp":1788016696939}@@second way at all.
+Count the edges by subgoal. 2.B — no undeclared clusters anywhere — has four. The other three subgoals have one edge each, so three quarters of what a verifier has to establish rests on a single mechanism apiece. Baker’s standard for a robust regime is redundancy: layers stacked, so that a subgoal has more than one way of being completed. Three of the four subgoals on this board have no second way at all.
 
 Now count by actor instead, which is the sharper reading. One firm is on three of the seven edges and touches three of the four subgoals — and that is not a coincidence about NVIDIA, it is what a verification layer IS. The paper defines a layer as one mechanism per subgoal, and the on-chip layer is a chip designer’s to give or withhold. So the board does not show one weak link; it shows a regime resting on roughly one layer, held by a company that is not a party to the agreement.
 
 The paper calls the least robust subgoal the weak link and says the regime is only as good as that one. This map narrows the question rather than answering it — counting edges is not measuring robustness — but it does tell you where to ask.
 
-Now count arrowheads. Six of the seven edges point at a company or at a shell. Exactly one points at a party to the agreement, and it runs one way, out of one signatory’s intelligence service. Nothing on this board produces evidence about the United States, and the reason is not that the United States is transparent —++} it {++{"author":"Elias's AI","timestamp":1788016696939}@@is that the counterparty’s institutions are not on the roster and the neutral body that would be is the hollow ring on the third band. This is a map of a two-party agreement ++}in {++{"author":"Elias's AI","timestamp":1788016696939}@@which one party’s bureaus do all the checking, including of themselves.
+Now count arrowheads. Six of the seven edges point at a company or at a shell. Exactly one points at a party to the agreement, and it runs one way, out of one signatory’s intelligence service. Nothing on this board produces evidence about the United States, and the reason is not that the United States is transparent — it is that the counterparty’s institutions are not on the roster and the neutral body that would be is the hollow ring on the third band. This is a map of a two-party agreement in which one party’s bureaus do all the checking, including of themselves.
 
 Then read the third ring on its own, since that is where the last paragraph comes from. The export-control bureau, the intelligence community, the state legislature: one country’s, all three. 1.2 already told you the shelf marked “AI verification body” is empty; here it is, drawn empty, on the ring where the alternative would have gone.
 
-Then read what has no edge at all — ten of the seventeen. Some of those absences are the paper’s scope (enforcement is not verification), some are ++}the {--{"author":"Elias's AI","timestamp":1788016696939}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/policy-scoping/actor-edges). Its surrounding lesson text--}{++{"author":"Elias's AI","timestamp":1788016696939}@@roster’s (China brought no bureaus), and one++} is {--{"author":"Elias's AI","timestamp":1788016696939}@@preserved here.--}{++{"author":"Elias's AI","timestamp":1788016696939}@@the whole problem stated as a hole: four states hold the jurisdiction that makes the chain’s records producible, and not one of them signed anything.
+Then read what has no edge at all — ten of the seventeen. Some of those absences are the paper’s scope (enforcement is not verification), some are the roster’s (China brought no bureaus), and one is the whole problem stated as a hole: four states hold the jurisdiction that makes the chain’s records producible, and not one of them signed anything.
 
 Then read what has no node. The paper’s simplest and most implementation-ready layer runs on people — whistleblowers, interviews, intelligence. One of those three is on this board, because it happens to be an institution. The other two are not organisations, so a map of organisations has nowhere to put them, and you would never find them by drawing one.
 
 Baker §3.2, the weak link: “identify the subgoal whose mechanisms are collectively least robust. This subgoal is the ‘weak link’ of the regime—its robustness determines the regime’s overall robustness.” Baker §4, defining a verification layer: “three verification layers can be stacked together to achieve three layers of redundancy, for example.”
-:::{>>{"author":"Elias's AI","timestamp":1788016696939}@@Native reproduction of XLab's actor-edges widget (src/lib/verification/data/actor-workshop.ts: SUBGOALS, EDGE_KEY, EDGE_NOTES, EDGE_FINDING; brief from widgets/actor-edges.tsx). The drag-to-draw ring map is replaced by a typed edge list graded against the same key. "Module 2.1" in the intro refers to the hardware module lens set, outside this module; left unlinked.<<}++}
+:::{>>{"author":"Elias's AI","timestamp":1788016696939}@@Native reproduction of XLab's actor-edges widget (src/lib/verification/data/actor-workshop.ts: SUBGOALS, EDGE_KEY, EDGE_NOTES, EDGE_FINDING; brief from widgets/actor-edges.tsx). The drag-to-draw ring map is replaced by a typed edge list graded against the same key. "Module 2.1" in the intro refers to the hardware module lens set, outside this module; left unlinked.<<}
 
 #### Text
 content::
@@ -118,7 +118,7 @@ subgoals.
 The cast, the rings and the sentences that place each actor on one are 1.2's,
 and the workshop above opens on the board you built there.
 
-{--{"author":"Elias's AI","timestamp":1788016702105}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/actor-edges)*--}{++{"author":"Elias's AI","timestamp":1788016702105}@@#### Text
+#### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/abs/2507.15916)
@@ -126,4 +126,4 @@ Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agr
 
 XLab. "1.2.2 Who can prove what." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/actor-edges)
 *The source lesson this page adapts, including the edge exercise and its key.*
-:::++}
+:::
