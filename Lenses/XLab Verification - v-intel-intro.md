@@ -1,8 +1,8 @@
 ---
 id: '27cb8115-9790-4574-8090-4c3d56b1e230'
 title: "2.3 Intelligence: watching without permission"
-tldr: "Faithful alpha import of XLab lesson 2.3 Intelligence: watching without permission."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
+tldr: {--{"author":"Elias's AI","timestamp":1788015647158}@@"Faithful alpha import--}{++{"author":"Elias's AI","timestamp":1788015647158}@@"A state can lie in its declarations, but it cannot opt out++} of {--{"author":"Elias's AI","timestamp":1788015647158}@@XLab lesson 2.3 Intelligence: watching--}{++{"author":"Elias's AI","timestamp":1788015647158}@@thermodynamics, customs, payroll, or the power grid. Intelligence is reading those traces++} without {--{"author":"Elias's AI","timestamp":1788015647158}@@permission."--}{++{"author":"Elias's AI","timestamp":1788015647158}@@the target's cooperation. This short opener sets up the five questions the section answers: what to watch, whether it has ever worked, how to read ambiguity, whose satellites, and what to do next."++}
+summary_for_tutor: "Imported from XLab's {--{"author":"Elias's AI","timestamp":1788015647158}@@canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788015647158}@@Verification curriculum; a five-minute reading with no questions. It introduces intelligence (national technical means) as the evidence stream that works without the monitored actor's cooperation, using the physical footprint of a frontier training run (chips, power, heat, money, hiring) and stresses that ambiguity, not invisibility, is the core problem. Two short pop-up definitions (NTM; the Wasil et al. whistleblower vocabulary note) are rendered as collapsed callouts. If the learner asks, point them to the five sibling lenses 2.3.1 to 2.3.5 rather than answering those questions here."++}
 tags: [wip]
 duration_minutes: 5
 ---
