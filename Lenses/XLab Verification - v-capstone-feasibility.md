@@ -1,9 +1,10 @@
 ---
 id: '01252915-279a-48c6-b34a-97e51ce90203'
 title: "4.1 Feasibility Judgments"
-tldr: "Faithful alpha import of XLab lesson 4.1 Feasibility Judgments."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
-tags: [wip]
+tldr: {--{"author":"Elias's AI","timestamp":1788015954283}@@"Faithful alpha import--}{++{"author":"Elias's AI","timestamp":1788015954283}@@"Mechanisms age; the skill++} of {--{"author":"Elias's AI","timestamp":1788015954283}@@XLab lesson 4.1 Feasibility Judgments."--}{++{"author":"Elias's AI","timestamp":1788015954283}@@judging them does not. Check the bets you placed in 2.0 against the reference map, learn the four questions that turn 'is it feasible?' into an answer, survive three drill benches, and write the defended-ranking memo your capstone will build on."++}
+summary_for_tutor: "Imported from XLab's {--{"author":"Elias's AI","timestamp":1788015954283}@@canonical --}Verification {--{"author":"Elias's AI","timestamp":1788015954283}@@curriculum. Preserve--}{++{"author":"Elias's AI","timestamp":1788015954283}@@curriculum; preserve++} source framing. {--{"author":"Elias's AI","timestamp":1788015954283}@@XLab currently blocks cross-site embedding, so linked external exercises must be completed--}{++{"author":"Elias's AI","timestamp":1788015954283}@@Sequence: (1) Intuition check: the reference map for the twelve mechanisms rated in 2.0 (a table of rung labels on four metrics plus one closed callout per mechanism with XLab's explanation and sources), then an open reflection++} on {--{"author":"Elias's AI","timestamp":1788015954283}@@XLab."--}{++{"author":"Elias's AI","timestamp":1788015954283}@@one mechanism where Module 2 evidence changed the learner's view. (2) Four metrics of feasibility, each a callout with a source excerpt and what to glean. (3) Drill bench: three benches (evasion, regime, position) as graded choice questions, one numeric estimate and one short open answer, each followed by a closed 'Why' callout; give the why after each answer, do not reveal it before. (4) The defended-ranking memo (about 900 words, peer reviewed) that 4.2 receives. When the learner disagrees with the reference map, ask which metric and what evidence would settle it rather than defending the map."++}
+tags: [wip]{++{"author":"Elias's AI","timestamp":1788015954283}@@
+duration_minutes: 120++}
 ---
 #### Text
 content::
@@ -18,7 +19,8 @@ content:: **Interactive exercise:** XLab's `mechanism-sort-reveal` widget has no
 content::
 Return to your ranking from the beginning of the course.
 
-#### Question
+#### Question: Open
+id:: bb06a146-287c-498d-bd22-b27545fa1c9e
 content:: Choose one mechanism for which later evidence in Module 2 changed your view. What heuristics did you initially use? What evidence changed your judgment? What question should you have asked earlier? Where was your intuition accurate, and where was it off?
 feedback:: false
 

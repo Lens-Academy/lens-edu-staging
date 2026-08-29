@@ -29,15 +29,53 @@ If we're not focusing on a full pause, and more so on domestic enforcement and l
 
 For the purposes of this course, we will mainly focus on compute thresholds: they have historical precedent, they are straightforward to operationalize, and they are the most relevant choice for pause-style agreements. We generally orient more towards a pause because it encompasses the maximum possible range of verification possibilities and difficulties.
 
-\## Fuzzy Numbers: The Threshold Test Ban Treaty
+{--{"author":"Elias's AI","timestamp":1788015954749}@@\## Fuzzy--}{++{"author":"Elias's AI","timestamp":1788015954749}@@:::callout {title="Fuzzy++} Numbers: The Threshold Test Ban {--{"author":"Elias's AI","timestamp":1788015954749}@@Treaty
 
-This treaty capped underground nuclear tests at 150 kilotons. You could not directly observe yield, so verification rested on seismic measurement plus, eventually, agreed calibration and on-site hydrodynamic measurement under the 1990 protocol ([Federation of American Scientists](https://nuke.fas.org/control/ttbt/intro.htm)). Early on, US estimates of Soviet yields were disputed precisely because converting a seismic signal into a yield number carries uncertainty ([OTA, Seismic Verification of Nuclear Testing Treaties](https://www.princeton.edu/~ota/disk2/1988/8838/8838.PDF)).
+--}{++{"author":"Elias's AI","timestamp":1788015954749}@@Treaty" tone="neutral" collapse="closed"}
+++}This treaty capped underground nuclear tests at 150 kilotons. You could not directly observe yield, so verification rested on seismic measurement plus, eventually, agreed calibration and on-site hydrodynamic measurement under the 1990 protocol ([Federation of American Scientists](https://nuke.fas.org/control/ttbt/intro.htm)). Early on, US estimates of Soviet yields were disputed precisely because converting a seismic signal into a yield number carries uncertainty ([OTA, Seismic Verification of Nuclear Testing Treaties](https://www.princeton.edu/~ota/disk2/1988/8838/8838.PDF)).{++{"author":"Elias's AI","timestamp":1788015954749}@@
+:::++}
 
-\## More on Evals and Their Limitations
+{--{"author":"Elias's AI","timestamp":1788015954749}@@\## More--}{++{"author":"Elias's AI","timestamp":1788015954749}@@:::callout {title="More++} on Evals and Their {--{"author":"Elias's AI","timestamp":1788015954749}@@Limitations
 
-If you're interested in learning more about evals and their limitations, here are some resources:
+--}{++{"author":"Elias's AI","timestamp":1788015954749}@@Limitations" tone="neutral" collapse="closed"}
+++}If you're interested in learning more about evals and their limitations, here are some resources:
 
 - [Towards understanding-based safety evaluations](https://www.alignmentforum.org/posts/uqAdqrvxqGqeBHjTP/towards-understanding-based-safety-evaluations) (Alignment Forum)
-- [We need a science of evals](https://www.apolloresearch.ai/science/we-need-a-science-of-evals) (Apollo Research)
+- [We need a science of evals](https://www.apolloresearch.ai/science/we-need-a-science-of-evals) (Apollo Research){++{"author":"Elias's AI","timestamp":1788015954749}@@
+:::
 
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-thresholds)*
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+"Article 51: Classification of General-Purpose AI Models as General-Purpose AI Models with Systemic Risk." *EU Artificial Intelligence Act*, artificialintelligenceact.eu. [artificialintelligenceact.eu](https://artificialintelligenceact.eu/article/51/)
+*The consolidated text of the AI Act article that presumes systemic risk above 10^25 training FLOP.*
+
+"Executive Order 14110." *Wikipedia, The Free Encyclopedia*. [en.wikipedia.org](https://en.wikipedia.org/wiki/Executive_Order_14110)
+*The encyclopedia article on EO 14110's history, contents, and 2025 rescission.*
+
+Heim, Lennart, and Leonie Koessler. "Training Compute Thresholds: Features and Functions in AI Regulation." Centre for the Governance of AI, 7 Aug. 2024. [governance.ai](https://www.governance.ai/research-paper/training-compute-thresholds-features-and-functions-in-ai-regulation)
+*GovAI's analysis of how US and EU regulators use compute thresholds to pick out models warranting oversight, and where the metric strains.*
+
+Eriksson, Maria, Erasmo Purificato, Arman Noroozian, et al. "Can We Trust AI Benchmarks? An Interdisciplinary Review of Current Issues in AI Evaluation." *arXiv*, Feb. 2025. [arxiv.org](https://arxiv.org/html/2502.06559v1)
+*An interdisciplinary review of about 100 studies cataloguing what goes wrong in AI benchmarking, from dataset bias to data contamination.*
+
+Schuett, Jonas, Eunseo Choi, Kasumi Sugimoto, et al. *Survey on Thresholds for Advanced AI Systems*. Oxford Martin AI Governance Initiative, Aug. 2025. [aigi.ox.ac.uk](https://aigi.ox.ac.uk/wp-content/uploads/2025/08/Survey_on_thresholds_for_advanced_AI_systems_1.pdf)
+*An expert survey (N=166) on how governance thresholds for advanced AI (compute, capability, risk) should be set and by whom.*
+
+Hooker, Sara. "On the Limitations of Compute Thresholds as a Governance Strategy." *arXiv*, July 2024. [arxiv.org](https://arxiv.org/html/2407.05694v1)
+*The counterargument on thresholds: why compute cutoffs are a shaky governance proxy, since the compute-risk relationship is uncertain and moving.*
+
+Pistillo, Matteo, Suzanne Van Arsdale, Lennart Heim, and Christoph Winter. "The Role of Compute Thresholds for AI Governance." *George Washington Journal of Law & Technology*, Institute for Law & AI, Feb. 2025. [law-ai.org](https://law-ai.org/the-role-of-compute-thresholds-for-ai-governance/)
+*A law-journal article on how training-compute thresholds work as a regulatory trigger for frontier models.*++}
+
+{--{"author":"Elias's AI","timestamp":1788015954749}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-thresholds)*--}{++{"author":"Elias's AI","timestamp":1788015954749}@@Federation of American Scientists. "Threshold Test Ban Treaty." Federation of American Scientists. [nuke.fas.org](https://nuke.fas.org/control/ttbt/intro.htm)
+*The FAS primer on the 1974 treaty's 150-kiloton cap on underground tests: verification by seismic measurement, and the 1990 protocol's calibration and on-site hydrodynamic measures.*
+
+U.S. Congress, Office of Technology Assessment. *Seismic Verification of Nuclear Testing Treaties*. U.S. Government Printing Office, May 1988. [princeton.edu](https://www.princeton.edu/~ota/disk2/1988/8838/8838.PDF)
+*The OTA's 1988 assessment of how well seismology could verify nuclear test-ban limits, including why converting a seismic signal into a yield estimate carries uncertainty.*
+
+XLab. "1.0.1 Drawing the Line: Compute vs. Capability." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-thresholds)
+*The source lesson this page adapts.*
+
+The two evals readings above (Alignment Forum, Apollo Research) are cited inline and have no entry in XLab's citation registry.
+:::{>>{"author":"Elias's AI","timestamp":1788015954749}@@Both XLab folds become collapsed callouts; the XLab source footer becomes the Works cited callout.<<}++}
