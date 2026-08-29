@@ -131,7 +131,8 @@ options::
 
 #### Question: Open
 id:: 9eb1875a-84ab-459d-b2bb-1585ee3b23aa
-content:: Consider your strongest arguments and their strongest objections. Synthesize ideas from your earlier responses into a short essay answering: How robust is Plan A's verification regime, and where is it most likely to fail?
+{++{"author":"Elias's AI","timestamp":1788011685903}@@optional:: true
+++}content:: Consider your strongest arguments and their strongest objections. Synthesize ideas from your earlier responses into a short essay answering: How robust is Plan A's verification regime, and where is it most likely to fail?
 
 At the end, briefly justify the recommendation you selected above. (400 to 600 words)
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
@@ -148,7 +149,8 @@ Skim the [AI 2040 Verification Supplement](https://ai-2040.com/supplements/verif
 
 #### Question: Open
 id:: a927dcac-36c7-4330-b064-b64f7b867746
-content:: Identify the central restriction under Plan A and Plan S: what would inspectors actually need to establish before they could reasonably conclude that actors were complying? Then, compare: does Plan A or Plan S give verification the clearer and more tractable target?
+{++{"author":"Elias's AI","timestamp":1788011688092}@@optional:: true
+++}content:: Identify the central restriction under Plan A and Plan S: what would inspectors actually need to establish before they could reasonably conclude that actors were complying? Then, compare: does Plan A or Plan S give verification the clearer and more tractable target?
 
 Questions to consider:
 
@@ -166,7 +168,8 @@ content::
 
 #### Question: Open
 id:: 79d7f63c-67b0-4a54-aeb6-127a58ddbc4a
-content:: A clear rule is useful only if the available verification mechanisms can produce convincing evidence that actors are following it.
+{++{"author":"Elias's AI","timestamp":1788011690229}@@optional:: true
+++}content:: A clear rule is useful only if the available verification mechanisms can produce convincing evidence that actors are following it.
 
 For Plan A, use the Verification Supplement to identify the mechanisms that provide the strongest evidence of compliance. For Plan S, consider what combination of tools from this course could provide comparable assurance—for example, compute declarations, inspections, chip accounting, power monitoring, remote sensing, intelligence, or personnel reporting.
 
@@ -188,7 +191,8 @@ content::
 
 #### Question: Open
 id:: 3edc12a8-2c49-46c7-8029-54e1de5ff7ac
-content:: Now, zoom out from individual pieces of evidence to the scale of the regime. Compare how much compute, infrastructure, activity, and geography would need to remain visible to inspectors under Plan A vs. Plan S. Pay particular attention to what kinds of AI activity remain permitted under each agreement and what that means for the monitoring burden.
+{++{"author":"Elias's AI","timestamp":1788011692237}@@optional:: true
+++}content:: Now, zoom out from individual pieces of evidence to the scale of the regime. Compare how much compute, infrastructure, activity, and geography would need to remain visible to inspectors under Plan A vs. Plan S. Pay particular attention to what kinds of AI activity remain permitted under each agreement and what that means for the monitoring burden.
 
 Questions to consider:
 
