@@ -93,7 +93,27 @@ Then explain why the following conclusion is broader than the text permits:
 > If all declared nuclear material remains accounted for, the state has no nuclear-weapons programme.
 optional:: true
 assessment-instructions:: Model answer. (1) Immediate object: nuclear material; under a CSA a State accepts safeguards on all nuclear material in all peaceful nuclear activities within its territory, under its jurisdiction, or carried out under its control anywhere. (2) Obligation: to place that material under safeguards and allow the IAEA to verify; under the NPT, not to produce or otherwise acquire nuclear weapons. (3) Broader outcome: non-proliferation, verifying that safeguarded material is not diverted to nuclear weapons or other explosive devices. Why the conclusion overreaches: what is accounted for is declared material; Document 1 claims only that such material has not been diverted and says nothing about material or activities never declared. Moving to "no weapons programme" supplies an unstated premise: that the declaration is complete. Award full credit when all three identifications are correct and the completeness premise is named; partial credit otherwise. Penalize answers that do not distinguish the text's claims from the learner's inferences.
-feedback-instructions:: State which of the three identifications were right, whether the learner named the missing completeness premise, then share these Baker (2023) excerpts as reveal material: (a) §3.2.1: "CSAs are intended to (just) verify the peaceful use of nuclear materials at known nuclear facilities, rather than also detecting secret nuclear facilities." (b) §1.3: acquiring weapon-usable nuclear material is the hardest step in making nuclear weapons; uranium and plutonium are rare and emit radiation, which makes them unusually easy to track. (c) §3.2.3: detecting undeclared facilities has two steps, finding evidence suggesting a state might have undeclared facilities, and resolving suspicions about them. No generic praise.
+feedback-instructions:: State which of the three identifications were right, whether the learner named the missing completeness premise, then share these Baker (2023) excerpts as reveal material: (a) §3.2.1: "CSAs are intended to (just) verify the peaceful use of nuclear materials at known nuclear facilities, rather than also detecting secret nuclear facilities." (b) §1.3: acquiring weapon-usable nuclear material is the hardest step in making nuclear weapons; uranium and plutonium are rare and emit radiation, which makes them unusually easy to track. (c) §3.2.3: detecting undeclared facilities has two steps, finding evidence suggesting a state might have undeclared facilities, and resolving suspicions about them. No generic praise.{++{"author":"Elias's AI","timestamp":1788013848039}@@
+
+#### Text
+content::
+:::callout {title="Task 1: model answer (open after you have answered)" tone="neutral" collapse="closed"}
+1. The immediate object is nuclear material: under a CSA a State accepts safeguards on all nuclear material in all peaceful nuclear activities within its territory, under its jurisdiction, or carried out under its control anywhere.
+2. The obligation the State accepts is to place that material under safeguards and to allow the IAEA to verify, and, under the NPT, not to produce or otherwise acquire nuclear weapons. Safeguards are the technical measures by which the IAEA independently verifies that legal commitment.
+3. The broader outcome is non-proliferation: preventing the spread of nuclear weapons. Verification serves it for the exclusive purpose of establishing that safeguarded material is not diverted to nuclear weapons or other nuclear explosive devices.
+
+Why the conclusion is broader than the text permits: what is accounted for is material that has been declared and placed under safeguards, and Document 1 claims exactly one thing from that accounting, that such material has not been diverted. It says nothing about material or activities never declared. Moving from "all declared material is accounted for" to "no nuclear-weapons programme" supplies a premise the document does not: that the declaration is complete.
+:::
+
+:::callout {title="Baker (2023) on Task 1" tone="neutral" collapse="closed"}
+**§3.2.1 IAEA safeguard systems.** "Comprehensive Safeguards Agreements ('CSAs'): The IAEA negotiated a single template which it has used as the basis for all its agreements with NPT non-nuclear-weapon states. The resulting agreements are called CSAs. CSAs are intended to (just) verify the peaceful use of nuclear materials at known nuclear facilities, rather than also detecting secret nuclear facilities."
+
+**§1.3 Nuclear materials.** "The IAEA's efforts to verify horizontal nonproliferation focus on tracking uranium and plutonium, certain forms of which can be made to undergo nuclear explosions. A major reason for this focus is that acquiring such weapon-usable nuclear material is the hardest step in making nuclear weapons; in contrast, nuclear bomb design and assembly are relatively simple. Additionally, uranium and plutonium are relatively rare materials and emit radiation, which makes them unusually easy to track."
+
+**§3.2.3 IAEA verification of the absence of undeclared nuclear facilities.** "We can break down the process of detecting undeclared facilities into two steps: finding evidence suggesting that a state might have undeclared nuclear facilities (potentially at a specific location), and resolving suspicions about suspected undeclared nuclear facilities."
+
+Source: Mauricio Baker, [Nuclear Arms Control Verification and Lessons for AI Treaties](https://arxiv.org/abs/2304.04123) (2023), CC BY 4.0.
+:::++}
 
 #### Question: Open
 id:: 2fd21c66-3d30-4534-a862-8c1e24a831df
