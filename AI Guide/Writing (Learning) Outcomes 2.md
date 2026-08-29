@@ -47,7 +47,7 @@ A test may contain only gradable response segments and roleplays:
 - `Question: Ranking` with `assessment-instructions::`
 - `Roleplay`
 
-`Question: Rating`, ungraded variants, prose segments, and bare `#### Question` are invalid in tests. Use [[../Lenses/Response to question segments]] as single source of truth for question fields, defaults, and syntax.
+`Question: Rating`, ungraded variants, prose segments, and bare `#### Question` should not be used. Use [[../Lenses/Response to question segments]] as single source of truth for question fields, defaults, and syntax.
 
 
 ## How to create a learning outcome
