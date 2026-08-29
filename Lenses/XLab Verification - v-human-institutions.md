@@ -1,9 +1,10 @@
 ---
 id: '2f120b75-f5b9-49db-88f4-1a8cfe0683ef'
 title: "2.4.4 Institutions and policy judgment"
-tldr: "Faithful alpha import of XLab lesson 2.4.4 Institutions and policy judgment."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
-tags: [wip]
+tldr: {--{"author":"Elias's AI","timestamp":1788016225117}@@"Faithful alpha import of XLab lesson 2.4.4 Institutions--}{++{"author":"Elias's AI","timestamp":1788016225117}@@"The nuclear regime has a finder, a judge, an enforcer, and a standard; AI has candidates for the first++} and {--{"author":"Elias's AI","timestamp":1788016225117}@@policy judgment."--}{++{"author":"Elias's AI","timestamp":1788016225117}@@the third and nobody in the judge's chair. Read Brundage's audit design principles and Carlson on NPT noncompliance, then build the AI pipeline station by station and decide, across four dockets, when the evidence is enough to judge."++}
+summary_for_tutor: {--{"author":"Elias's AI","timestamp":1788016225117}@@"Imported--}{++{"author":"Elias's AI","timestamp":1788016225117}@@"Two readings (Brundage et al., audit design principles; Carlson, Defining Noncompliance) then two exercises rebuilt++} from {++{"author":"Elias's AI","timestamp":1788016225117}@@XLab widgets. (1) From Nuclear to AI Inspections, required: four open questions, one per station (finder, judge, enforcer, standard), a strain question, ++}XLab's {--{"author":"Elias's AI","timestamp":1788016225117}@@canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788016225117}@@commentary per station in closed callouts, and a final guideline of at most 50 words. (2) Optional The Standard of Proof: one allegation against Meridian Compute, four dockets each with an ungraded next-move choice and a 60 to 90 word defence, a self-check, the 2x2 reveal, a 50-word decision standard, and a transfer question. Grade the open answers against the commentary and the two self-check questions; push back when a learner's move reweighs the evidence in a docket where the institution was the weak part."++}
+tags: [wip]{++{"author":"Elias's AI","timestamp":1788016225117}@@
+duration_minutes: 25++}
 ---
 #### Text
 content::
