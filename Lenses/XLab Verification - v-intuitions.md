@@ -27,9 +27,9 @@ Your task is to write one of two open-ended essay prompts, consisting of shorter
 
 A: stress-test the Plan A verification supplement, or
 
-B: compare Plan A (verified slowdown) and Plan S (complete shutdown).{++{"author":"Elias's AI","timestamp":1788011700925}@@
+B: compare Plan A (verified slowdown) and Plan S (complete shutdown).
 
-All prompts below are marked optional so that you can complete the lens with either option; do all five parts of the option you choose.++}
+All prompts below are marked optional so that you can complete the lens with either option; do all five parts of the option you choose.
 
 :::callout {title="A writing good practice" tone="neutral" collapse="closed"}
 Clarify the source of each claim you make, and explicitly identify gaps, uncertainties, or ambiguities as they appear. You won't know everything, and you aren't expected to.
@@ -50,8 +50,8 @@ Plan A's verification problem has two broad parts. First, the regime needs confi
 
 #### Question: Open
 id:: 909a9ada-ee95-4dd2-9b6b-6ef51f617a3b
-{++{"author":"Elias's AI","timestamp":1788011675134}@@optional:: true
-++}content:: Choose the part of this system that you think carries the most verification weight. Focus on the proposed datacenter retrofit: optical network taps, reproducible workloads, trusted recomputation servers, network restrictions, and related safeguards. Which mechanism seems like the most important—that, if removed, would most endanger the verification regime's effectiveness? Do not use outside resources for this part of the exercise.
+optional:: true
+content:: Choose the part of this system that you think carries the most verification weight. Focus on the proposed datacenter retrofit: optical network taps, reproducible workloads, trusted recomputation servers, network restrictions, and related safeguards. Which mechanism seems like the most important—that, if removed, would most endanger the verification regime's effectiveness? Do not use outside resources for this part of the exercise.
 
 Questions to consider:
 
@@ -69,8 +69,8 @@ content::
 
 #### Question: Open
 id:: 8c3cd334-f50c-40ec-bcea-3ee0d83db3a9
-{++{"author":"Elias's AI","timestamp":1788011677974}@@optional:: true
-++}content:: Now that you have a good grasp on your ideas of the Verification Plan's strengths, let's turn to identifying its weak points. Identify at least one mechanism, assumption, or implementation step in Plan A that you think is especially vulnerable to failure. Explain why the weakness matters for the regime as a whole. This is arguably the most central prompt: only by red-teaming and finding vulnerabilities can a regime patch its holes.
+optional:: true
+content:: Now that you have a good grasp on your ideas of the Verification Plan's strengths, let's turn to identifying its weak points. Identify at least one mechanism, assumption, or implementation step in Plan A that you think is especially vulnerable to failure. Explain why the weakness matters for the regime as a whole. This is arguably the most central prompt: only by red-teaming and finding vulnerabilities can a regime patch its holes.
 
 Questions to consider:
 
@@ -87,8 +87,8 @@ content::
 
 #### Question: Open
 id:: 5e944a29-5989-48b0-bf4a-a4998a0eaa25
-{++{"author":"Elias's AI","timestamp":1788011679891}@@optional:: true
-++}content:: Choose the timeline milestone that seems least likely to accomplish on schedule. Then, look closely at the implementation sequence in 2029: chip declarations and inspections, datacenter retrofits, and the expansion of verification coverage across the world's major compute.
+optional:: true
+content:: Choose the timeline milestone that seems least likely to accomplish on schedule. Then, look closely at the implementation sequence in 2029: chip declarations and inspections, datacenter retrofits, and the expansion of verification coverage across the world's major compute.
 
 In your rationale, you might compare the proposal with an arms-control inspection regime, a large industrial mobilization, an export-control system, or another suitable verification parallel. For inspiration, you may use outside resources or click ahead to learn more about historical verification precedents in [[../Lenses/XLab Verification - v-precedents|Module 0.3]].
 
@@ -101,8 +101,8 @@ content::
 
 #### Question: Open
 id:: e9e4eaa9-198a-4031-a923-eba27efa51ae
-{++{"author":"Elias's AI","timestamp":1788011681493}@@optional:: true
-++}content:: The supplement estimates that some compute may remain hidden even after declarations and inspections, initially on the order of 0.5% of world AI-relevant compute. Your task is to decide how important that residual capacity is, and argue for whether the benign capacity threshold should be increased, decreased, or kept the same.
+optional:: true
+content:: The supplement estimates that some compute may remain hidden even after declarations and inspections, initially on the order of 0.5% of world AI-relevant compute. Your task is to decide how important that residual capacity is, and argue for whether the benign capacity threshold should be increased, decreased, or kept the same.
 
 Questions to consider:
 
@@ -124,8 +124,8 @@ Now imagine Plan A is moving from scenario to serious policy proposal. Decision-
 
 #### Question: Choice
 id:: 2bedfce0-14ef-4703-b810-2b7bf107ebdf
-{++{"author":"Elias's AI","timestamp":1788011683614}@@optional:: true
-++}content:: {--{"author":"Elias's AI","timestamp":1788011671570}@@Your recommendation on Plan A's verification regime:--}{++{"author":"Elias's AI","timestamp":1788011671570}@@At the end, select one of the three recommendations, and briefly justify why:++}
+optional:: true
+content:: At the end, select one of the three recommendations, and briefly justify why:
 options::
 - Adopt the verification approach largely as written
 - Adopt it only with significant amendments
@@ -133,8 +133,8 @@ options::
 
 #### Question: Open
 id:: 9eb1875a-84ab-459d-b2bb-1585ee3b23aa
-{++{"author":"Elias's AI","timestamp":1788011685903}@@optional:: true
-++}content:: Consider your strongest arguments and their strongest objections. Synthesize ideas from your earlier responses into a short essay answering: How robust is Plan A's verification regime, and where is it most likely to fail?
+optional:: true
+content:: Consider your strongest arguments and their strongest objections. Synthesize ideas from your earlier responses into a short essay answering: How robust is Plan A's verification regime, and where is it most likely to fail?
 
 At the end, briefly justify the recommendation you selected above. (400 to 600 words)
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
@@ -151,8 +151,8 @@ Skim the [AI 2040 Verification Supplement](https://ai-2040.com/supplements/verif
 
 #### Question: Open
 id:: a927dcac-36c7-4330-b064-b64f7b867746
-{++{"author":"Elias's AI","timestamp":1788011688092}@@optional:: true
-++}content:: Identify the central restriction under Plan A and Plan S: what would inspectors actually need to establish before they could reasonably conclude that actors were complying? Then, compare: does Plan A or Plan S give verification the clearer and more tractable target?
+optional:: true
+content:: Identify the central restriction under Plan A and Plan S: what would inspectors actually need to establish before they could reasonably conclude that actors were complying? Then, compare: does Plan A or Plan S give verification the clearer and more tractable target?
 
 Questions to consider:
 
@@ -170,8 +170,8 @@ content::
 
 #### Question: Open
 id:: 79d7f63c-67b0-4a54-aeb6-127a58ddbc4a
-{++{"author":"Elias's AI","timestamp":1788011690229}@@optional:: true
-++}content:: A clear rule is useful only if the available verification mechanisms can produce convincing evidence that actors are following it.
+optional:: true
+content:: A clear rule is useful only if the available verification mechanisms can produce convincing evidence that actors are following it.
 
 For Plan A, use the Verification Supplement to identify the mechanisms that provide the strongest evidence of compliance. For Plan S, consider what combination of tools from this course could provide comparable assurance—for example, compute declarations, inspections, chip accounting, power monitoring, remote sensing, intelligence, or personnel reporting.
 
@@ -193,8 +193,8 @@ content::
 
 #### Question: Open
 id:: 3edc12a8-2c49-46c7-8029-54e1de5ff7ac
-{++{"author":"Elias's AI","timestamp":1788011692237}@@optional:: true
-++}content:: Now, zoom out from individual pieces of evidence to the scale of the regime. Compare how much compute, infrastructure, activity, and geography would need to remain visible to inspectors under Plan A vs. Plan S. Pay particular attention to what kinds of AI activity remain permitted under each agreement and what that means for the monitoring burden.
+optional:: true
+content:: Now, zoom out from individual pieces of evidence to the scale of the regime. Compare how much compute, infrastructure, activity, and geography would need to remain visible to inspectors under Plan A vs. Plan S. Pay particular attention to what kinds of AI activity remain permitted under each agreement and what that means for the monitoring burden.
 
 Questions to consider:
 
@@ -212,8 +212,8 @@ content::
 
 #### Question: Open
 id:: 3d07b047-a892-40b9-960c-48de66645bea
-{++{"author":"Elias's AI","timestamp":1788011694261}@@optional:: true
-++}content:: Verification also depends on whether governments, firms, and third countries will accept the access, restrictions, and institutional arrangements necessary to produce credible evidence.
+optional:: true
+content:: Verification also depends on whether governments, firms, and third countries will accept the access, restrictions, and institutional arrangements necessary to produce credible evidence.
 
 Identify the hardest cooperation problem facing Plan A and the hardest facing Plan S. Compare how difficult each would be to overcome and how much the regime depends on solving it.
 
@@ -235,16 +235,16 @@ Policymakers are deciding whether a serious international AI agreement should mo
 
 #### Question: Choice
 id:: f519fd45-b860-4b6e-88b9-1231bf723d2c
-{++{"author":"Elias's AI","timestamp":1788011696377}@@optional:: true
-++}content:: Which {--{"author":"Elias's AI","timestamp":1788011673115}@@plan would you recommend?--}{++{"author":"Elias's AI","timestamp":1788011673115}@@creates the more robust verification regime: Plan A or Plan S? Make a recommendation:++}
+optional:: true
+content:: Which creates the more robust verification regime: Plan A or Plan S? Make a recommendation:
 options::
 - Plan A: verified slowdown
 - Plan S: complete shutdown
 
 #### Question: Open
 id:: dd10bf8f-8e94-4854-8f7a-48c317665d7b
-{++{"author":"Elias's AI","timestamp":1788011698603}@@optional:: true
-++}content:: You have already analyzed the comparison from four angles. Pull together the findings that matter most, consider the strongest argument against your own position, and answer: Which creates the more robust verification regime: Plan A or Plan S?
+optional:: true
+content:: You have already analyzed the comparison from four angles. Pull together the findings that matter most, consider the strongest argument against your own position, and answer: Which creates the more robust verification regime: Plan A or Plan S?
 
 Make a recommendation. Explain which considerations carry the most weight in your judgment, where important uncertainty remains, and what evidence or development would be most likely to change your view. (400 to 500 words)
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
@@ -255,7 +255,7 @@ content::
 
 #### Question: Open
 id:: 7f655c72-e353-42cc-87f1-bd7ada0f0593
-content:: Optional: {--{"author":"Elias's AI","timestamp":1788011730802}@@Essay:--}{++{"author":"Elias's AI","timestamp":1788011730802}@@Essay,++} what does success look like to you?
+content:: Optional: Essay, what does success look like to you?
 
 Describe your own plausible success scenario for advanced AI governance. Think several steps beyond any single verification mechanism: what does a world that has successfully managed the relevant risks actually look like, and what agreement or institutional arrangement gets us there?
 
