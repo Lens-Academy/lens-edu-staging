@@ -11,8 +11,11 @@ Step:
 1) read the two markdown files to form a mental model of the article. Both Markdown files will likely contain mistakes. But across them, an image of the corrected Markdown file should form in your head.
 2) If needed, read 1 or both HTML files.
 3) Decide which markdown file is a better starting point to be edited into the final corrected markdown. And then create the article.md by running this command exactly once:
-- node /home/penguin/code/lens-relay/ws2/lens-editor/server/add-article/select-review-base.mjs <version>
+node /home/penguin/code/lens-relay/ws2/lens-editor/server/add-article/select-review-base.mjs <version>
 with <version> = rendered or <version> = unrendered.
+
+
+
 
 The selector makes a byte-identical copy and then exposes only the selected candidate's deterministic Platform findings as /tmp/articles/EXAMPLE-JOB-ID/validation.json. Read those findings after selecting, then edit article.md in place. Do not replace or regenerate the whole article: recover missing material from the other candidate or HTML and preserve source wording.
 
