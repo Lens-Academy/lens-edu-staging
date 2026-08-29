@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787136969597}@@---
+---
 eval-id: C3
 target: rubric
 tags:
@@ -29,4 +29,3 @@ Criterion text must also be **literally true** as written, because a judge appli
 ## Pass examples (from the corpus)
 
 - *Intelligence as prediction plus steering* — each check names the idea ("distinguishes forming expectations from selecting actions") without mandating any phrasing, plus explicit fail conditions ("Fail if the answer conflates prediction with preference…") and "Grade the student's reasoning, not whether they use the authors' exact wording."
-++}
