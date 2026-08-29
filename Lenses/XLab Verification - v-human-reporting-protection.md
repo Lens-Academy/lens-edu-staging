@@ -467,7 +467,7 @@ Independence: deficient when the auditee controls selection, renewal, scope, or 
 
 #### Question: Choice
 id:: 8168b860-0c7b-4f46-bdf6-0753e9f7f75c
-content:: Competence. The assigned team consists entirely of model evaluators. It++} has no {++{"author":"Elias's AI","timestamp":1788016158236}@@compute-accounting, data-center, forensic interviewing, evidence-handling, or treaty-law expertise.
+content:: Competence. The assigned team consists entirely of model evaluators. It++} has no {++{"author":"Elias's AI","timestamp":1788016310284}@@compute-accounting, data-center, forensic interviewing, evidence-handling, or treaty-law expertise.
 
 What competence does the Project Lattice inquiry require?
 options::
@@ -607,7 +607,7 @@ Cultural capture: the institution internalizes the auditee's assumptions about n
 :::
 
 #### Question: Choice
-id:: 7b9e4d21-3c5a-4e8f-a1d6-2f0b8c9e4a37
+id:: db215da4-f203-4df1-a4ef-ce9aea409014
 content:: Political. Which fact is political capture?
 options::
 - [x] A minister narrows or delays the finding to protect a government, company, or diplomatic relationship.
@@ -628,7 +628,7 @@ Political capture: officials alter scope, timing, or conclusions to protect gove
 \### Evidence boundary
 
 #### Question: Choice
-id:: 2c6d8e4f-9a1b-4c3d-8e5f-6a7b8c9d0e1f
+id:: 73230f39-c644-4641-9e56-4f3ab39fb2d5
 content:: Human record. The engineers had access to the decision process, gave independent accounts, and produced authenticated contemporaneous messages showing the warning reached the executives.
 
 What can the human and documentary record establish here?
@@ -649,7 +649,7 @@ Human-mechanism finding: authenticated messages and independent sources can esta
 :::
 
 #### Question: Choice
-id:: 9d0e1f2a-3b4c-4d5e-8f6a-7b8c9d0e1f2a
+id:: 1bb57f33-042c-472d-a46f-65cfce763d72
 content:: Operational fact. What still requires technical or physical evidence?
 options::
 - [x] Whether the run occurred as described, which workload executed, which chips participated, and whether total compute crossed the treaty threshold.
