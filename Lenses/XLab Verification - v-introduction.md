@@ -233,7 +233,7 @@ How fast is fast? Two charts from Our World in Data's [brief history of artifici
 :::
 
 #### Text
-content:: Charts: [Our World in Data](https://ourworldindata.org/brief-history-of-ai).{>>{"author":"Elias's AI","timestamp":1788009452090}@@Proposed: link only to Our World in Data (the original), not XLab.<<}
+content:: Charts: [Our World in {--{"author":"Elias's AI","timestamp":1788011728883}@@Data](https://ourworldindata.org/brief-history-of-ai).--}{++{"author":"Elias's AI","timestamp":1788011728883}@@Data](https://ourworldindata.org/brief-history-of-ai).{>>{"author":"Elias's AI","timestamp":1788011728883}@@Delete this whole Text segment: the callout above now covers it. The edit tool could not remove a segment that already carries a pending change.<<}++}{>>{"author":"Elias's AI","timestamp":1788009452090}@@Proposed: link only to Our World in Data (the original), not XLab.<<}
 
 #### Text
 content::

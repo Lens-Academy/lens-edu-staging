@@ -255,7 +255,7 @@ content::
 
 #### Question: Open
 id:: 7f655c72-e353-42cc-87f1-bd7ada0f0593
-content:: Optional: Essay: what does success look like to you?
+content:: Optional: {--{"author":"Elias's AI","timestamp":1788011730802}@@Essay:--}{++{"author":"Elias's AI","timestamp":1788011730802}@@Essay,++} what does success look like to you?
 
 Describe your own plausible success scenario for advanced AI governance. Think several steps beyond any single verification mechanism: what does a world that has successfully managed the relevant risks actually look like, and what agreement or institutional arrangement gets us there?
 
