@@ -139,7 +139,8 @@ Hear what the top AI figures have to say:
 
 #### Text
 content::
-**Sam Altman**, CEO, OpenAI. *Authored OpenAI's original economic definition of AGI; has since argued the term is no longer precise enough to be useful.*
+{--{"author":"Elias's AI","timestamp":1788013660234}@@**Sam Altman**,--}{++{"author":"Elias's AI","timestamp":1788013660234}@@:::callout {title="Sam Altman,++} CEO, {--{"author":"Elias's AI","timestamp":1788013660234}@@OpenAI. --}{++{"author":"Elias's AI","timestamp":1788013660234}@@OpenAI" tone="neutral" collapse="closed"}
+++}*Authored OpenAI's original economic definition of AGI; has since argued the term is no longer precise enough to be useful.*
 
 *Definition.* OpenAI's founding charter defines AGI as "highly autonomous systems that outperform humans at most economically valuable work", the definition the rest of the industry spent a decade responding to. As systems improved, Altman's use of the term shifted. By mid-2025 he was calling AGI "not a super useful term", and by late 2025 he suggested that AGI, by any earlier definition, "went whooshing by" without transforming the world. His proposed bar for superintelligence is a system that outperforms any human, including one assisted by AI, at roles such as head of state, chief executive, or director of a major research lab.
 
@@ -147,9 +148,11 @@ content::
 
 *Relevance to this module.* A definition that moves as products approach it cannot anchor an agreement. This is one reason treaties are written around thresholds an outside party can measure, taken up in [[../Lenses/XLab Verification - v-scoping-thresholds|1.0.1 Drawing the Line: Compute vs. Capability]].
 
-Sources: [Time](https://time.com/7205596/sam-altman-superintelligence-agi/), [CNBC](https://www.cnbc.com/2025/08/11/sam-altman-says-agi-is-a-pointless-term-experts-agree.html), [Windows Central](https://www.windowscentral.com/artificial-intelligence/openai-ceo-sam-altman-claims-agi-might-have-already-whooshed-by), [80,000 Hours](https://80000hours.org/podcast/episodes/jan-leike-superalignment/).
+Sources: [Time](https://time.com/7205596/sam-altman-superintelligence-agi/), [CNBC](https://www.cnbc.com/2025/08/11/sam-altman-says-agi-is-a-pointless-term-experts-agree.html), [Windows Central](https://www.windowscentral.com/artificial-intelligence/openai-ceo-sam-altman-claims-agi-might-have-already-whooshed-by), [80,000 Hours](https://80000hours.org/podcast/episodes/jan-leike-superalignment/).{++{"author":"Elias's AI","timestamp":1788013663280}@@
+:::++}
 
-**Dario Amodei**, CEO, Anthropic. *Uses the term "powerful AI" rather than AGI; estimates arrival as early as 2026 or 2027.*
+{--{"author":"Elias's AI","timestamp":1788013663280}@@**Dario Amodei**,--}{++{"author":"Elias's AI","timestamp":1788013663280}@@:::callout {title="Dario Amodei,++} CEO, {--{"author":"Elias's AI","timestamp":1788013663280}@@Anthropic. --}{++{"author":"Elias's AI","timestamp":1788013663280}@@Anthropic" tone="neutral" collapse="closed"}
+++}*Uses the term "powerful AI" rather than AGI; estimates arrival as early as 2026 or 2027.*
 
 *Definition.* Amodei avoids the term AGI in favor of *powerful AI*: a system "smarter than a Nobel Prize winner across most relevant fields", able to work autonomously for days or weeks, operating at 10 to 100 times human speed, in millions of instances at once. His shorthand for this is "a country of geniuses in a datacenter". He has estimated arrival as early as 2026 or 2027.
 
@@ -157,9 +160,11 @@ Sources: [Time](https://time.com/7205596/sam-altman-superintelligence-agi/), [CN
 
 *Relevance to this module.* The framing is explicitly geopolitical. In a companion policy essay he argues that a nation holding powerful AI, facing one without it, could resemble "World War II Marines facing an army of medieval swordsmen". That comparison describes the arms-race incentive structure this module examines.
 
-Sources: [Machines of Loving Grace](https://darioamodei.com/essay/machines-of-loving-grace), [The Adolescence of Technology](https://darioamodei.com/essay/the-adolescence-of-technology), [Policy on the AI Exponential](https://darioamodei.com/post/policy-on-the-ai-exponential), [Axios](https://www.axios.com/2026/01/26/anthropic-ai-dario-amodei-humanity), [Mi3](https://www.mi-3.com.au/27-01-2026/anthropic-founder-warns-ai-entering-dangerous-adolescence-urges-urgent-guardrails).
+Sources: [Machines of Loving Grace](https://darioamodei.com/essay/machines-of-loving-grace), [The Adolescence of Technology](https://darioamodei.com/essay/the-adolescence-of-technology), [Policy on the AI Exponential](https://darioamodei.com/post/policy-on-the-ai-exponential), [Axios](https://www.axios.com/2026/01/26/anthropic-ai-dario-amodei-humanity), [Mi3](https://www.mi-3.com.au/27-01-2026/anthropic-founder-warns-ai-entering-dangerous-adolescence-urges-urgent-guardrails).{++{"author":"Elias's AI","timestamp":1788013665525}@@
+:::++}
 
-**Demis Hassabis**, CEO, Google DeepMind, Nobel laureate. *Defines AGI as the full range of human cognitive capabilities; advocates IAEA-style international monitoring.*
+{--{"author":"Elias's AI","timestamp":1788013665525}@@**Demis Hassabis**,--}{++{"author":"Elias's AI","timestamp":1788013665525}@@:::callout {title="Demis Hassabis,++} CEO, Google DeepMind, Nobel {--{"author":"Elias's AI","timestamp":1788013665525}@@laureate. --}{++{"author":"Elias's AI","timestamp":1788013665525}@@laureate" tone="neutral" collapse="closed"}
+++}*Defines AGI as the full range of human cognitive capabilities; advocates IAEA-style international monitoring.*
 
 *Definition.* Hassabis applies the strictest bar among the major labs: "a system that can exhibit all the cognitive capabilities humans can", including invention, creativity, continual learning, and long-horizon planning. Benchmark performance alone does not satisfy it; he notes that current models can win Olympiad-level competitions while failing simple tasks. On that standard he estimates five to ten years, centered near 2030.
 
