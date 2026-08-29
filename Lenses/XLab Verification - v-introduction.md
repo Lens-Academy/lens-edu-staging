@@ -25,16 +25,18 @@ source:: [[../video_transcripts/ted-the-catastrophic-risks-of-ai-and-a-safer-pat
 
 #### Text
 content::
-\## [Optional] Material
+{--{"author":"Elias's AI","timestamp":1788010844080}@@\## [Optional] Material
 
-The case at full strength, from the people who argue it most directly. Any one of these:
+--}{++{"author":"Elias's AI","timestamp":1788010844080}@@:::callout {title="Optional: Further Reading" tone="neutral" collapse="closed"}
+++}The case at full strength, from the people who argue it most directly. Any one of these:
 
 - [AI Is Grown, Not Built](https://www.theatlantic.com/technology/2025/09/if-anyone-builds-it-excerpt/684213/) — Eliezer Yudkowsky & Nate Soares, The Atlantic, September 2025. An edited excerpt of chapter 2 of *If Anyone Builds It, Everyone Dies*.
-- [Four Background Claims](https://intelligence.org/2015/07/24/four-background-claims/) — Nate Soares, MIRI, 2015. The assumptions doing the work beneath the argument.
+- [Four Background Claims](https://intelligence.org/2015/07/24/four-background-claims/) — Nate Soares, MIRI, 2015. The assumptions doing the work beneath the argument.{++{"author":"Elias's AI","timestamp":1788010844080}@@
+:::++}
 
 #### Question: Open
 id:: b7e5023a-0fed-4fc6-be79-0c7ece9f3106
-content:: [Optional] Task — The strongest objection.
+content:: {--{"author":"Elias's AI","timestamp":1788010846439}@@[Optional] Task —--}{++{"author":"Elias's AI","timestamp":1788010846439}@@Optional:++} The strongest objection.
 
 In a short written note, construct the strongest objection you can to the case above — and state what would change your mind, in either direction.
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
@@ -64,9 +66,10 @@ If models have already exhibited capabilities to deceive, exploit, and break int
 
 Such software exploitation is just one recent dangerous phenomenon. New and unprecedented risks will continually come to light.
 
-\## Misuse vs. misalignment
+{--{"author":"Elias's AI","timestamp":1788010848803}@@\## Misuse--}{++{"author":"Elias's AI","timestamp":1788010848803}@@:::callout {title="Misuse++} vs. {--{"author":"Elias's AI","timestamp":1788010848803}@@misalignment
 
-Misuse is harm caused by people using advanced AI systems for dangerous purposes.
+--}{++{"author":"Elias's AI","timestamp":1788010848803}@@misalignment" tone="neutral" collapse="closed"}
+++}Misuse is harm caused by people using advanced AI systems for dangerous purposes.
 
 - **Cyber operations.** AI could make it much easier to find vulnerabilities, develop exploits, conduct intrusions, and attack digital infrastructure at scale.
 - **Biological and chemical weapons.** Advanced models could help users design pathogens, toxins, or chemical agents and work through practical obstacles in developing them.
