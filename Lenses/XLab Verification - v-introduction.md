@@ -240,13 +240,13 @@ Source: [Pacing the Frontier](https://www.pacingthefrontier.com/), signatory com
 It’s clear that ASI is no longer a hypothetical risk. It will require deliberate and proactive action by labs and governments alike to avoid.
 
 :::callout {title="Optional: A Short History of AI Acceleration" tone="neutral" collapse="closed"}
-How fast is fast? Two charts from Our World in Data's [brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai) show the {--{"author":"Elias's AI","timestamp":1788014006336}@@pace: a timeline--}{++{"author":"Elias's AI","timestamp":1788014006336}@@pace.
+How fast is fast? Two charts from Our World in Data's [brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai) show the pace.
 
-![Timeline++} of notable {--{"author":"Elias's AI","timestamp":1788014006336}@@AI --}{++{"author":"Elias's AI","timestamp":1788014006336}@@artificial intelligence ++}systems {--{"author":"Elias's AI","timestamp":1788014006336}@@from 1940 on, and a chart--}{++{"author":"Elias's AI","timestamp":1788014006336}@@and their capabilities, 1940 to today](https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/ec3af0b6-4f4d-4a13-38d1-7f315f8f4c00/w=2332)
+![Timeline of notable artificial intelligence systems and their capabilities, 1940 to today](https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/ec3af0b6-4f4d-4a13-38d1-7f315f8f4c00/w=2332)
 
-![Test scores++} of{--{"author":"Elias's AI","timestamp":1788014006336}@@ how fast --}{++{"author":"Elias's AI","timestamp":1788014006336}@@ ++}AI systems {--{"author":"Elias's AI","timestamp":1788014006336}@@caught up with --}{++{"author":"Elias's AI","timestamp":1788014006336}@@on various capabilities relative to ++}human {--{"author":"Elias's AI","timestamp":1788014006336}@@performance on benchmarks (Kiela et al., 2023). The charts are interactive and cannot be embedded here; open them--}{++{"author":"Elias's AI","timestamp":1788014006336}@@performance, 1998 to today](https://ourworldindata.org/grapher/test-scores-ai-capabilities-relative-human-performance.png)
+![Test scores of AI systems on various capabilities relative to human performance, 1998 to today](https://ourworldindata.org/grapher/test-scores-ai-capabilities-relative-human-performance.png)
 
-Charts: Max Roser, [The brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai), Our World in Data (CC BY). Underlying benchmark data from Kiela et al., 2023. Interactive versions++} on{--{"author":"Elias's AI","timestamp":1788014006336}@@ Our World in Data.--}{++{"author":"Elias's AI","timestamp":1788014006336}@@ the linked page.++}
+Charts: Max Roser, [The brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai), Our World in Data (CC BY). Underlying benchmark data from Kiela et al., 2023. Interactive versions on the linked page.
 :::
 
 #### Text
@@ -280,7 +280,7 @@ options::
 - Trust: a handshake, a signature and a promise kept on honor alone.
 - Punish violations: sanctions, retaliation and consequences severe enough to deter misconduct.
 - Mutual transparency: open the books, show the facilities and publish the research.
-- {++{"author":"Elias's AI","timestamp":1788014279970}@@[x] ++}Neutral, privacy-preserving verification mechanisms: prove compliance without surrendering the secrets around it.
+- [x] Neutral, privacy-preserving verification mechanisms: prove compliance without surrendering the secrets around it.
 feedback-instructions:: Tell the learner the outcome of the option they chose, using the source verdicts. Trust collapses: works with friends, not with nation-state adversaries incentivized to gain a secret upper hand. Punishment arrives too late: deterrence depends on reliably tracking each party's actions, and an ex-post regime fails when consequences are immediate, far-reaching, and irreversible; no fine can bring back the dead. Transparency backfires: disclosure risks theft of proprietary information or prototypes, and each party is still incentivized to develop a secret advantage and fabricate compliance. Verification holds: if each party can verify the other's compliance without learning their secrets, knowing the other can do the same, they have fewer material incentives to dodge compliance. Two to four sentences, no praise.
 
 #### Text
@@ -389,6 +389,23 @@ One pattern jumps out fast. The field's center of gravity is the think-tank and 
 
 That unevenness is the opportunity. You are not arriving at a finished field. You are arriving at one with obvious empty squares, at a moment when which ones get filled is still open.
 
-*A snapshot, not a census. Efforts are illustrative examples, current to early 2026, and the field is moving quickly. Intensities are judgment calls meant to convey shape, not precise measurement.*
+*A snapshot, not a census. Efforts are illustrative examples, current to early 2026, and the field is moving quickly. Intensities are judgment calls meant to convey shape, not precise measurement.*{++{"author":"Elias's AI","timestamp":1788014479382}@@
+
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Yudkowsky, Eliezer, and Nate Soares. "AI Is Grown, Not Built." *The Atlantic*, 15 Sept. 2025. [theatlantic.com](https://www.theatlantic.com/technology/2025/09/if-anyone-builds-it-excerpt/684213/)
+*The Atlantic excerpt from If Anyone Builds It, Everyone Dies, arguing modern AI is grown through training rather than engineered.*
+
+Soares, Nate. "Four Background Claims." *Machine Intelligence Research Institute*, 24 July 2015. [intelligence.org](https://intelligence.org/2015/07/24/four-background-claims/)
+*MIRI's statement of the four background claims behind its case that smarter-than-human AI matters.*
+
+Employees of frontier AI companies. "Pacing the Frontier." July 2026. [pacingthefrontier.com](https://www.pacingthefrontier.com/)
+*An open letter from employees of frontier AI companies asking the U.S. government to support an international effort to build the technical and governance tools needed to deliberately pace automated AI development.*
+
+Roser, Max. "The Brief History of Artificial Intelligence: The World Has Changed Fast, What Might Be Next?" *Our World in Data*, 6 Dec. 2022. [ourworldindata.org](https://ourworldindata.org/brief-history-of-ai)
+*The Our World in Data article whose two charts this page reproduces: the timeline of notable AI systems, and test scores of AI systems relative to human performance.*
+
+XLab. "0.1 Introduction: Why Should You Care About AI Verification?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/introduction)
+*The source lesson this page adapts, including the leader profiles, the verification-problem exercise, and the landscape map.*
+:::++}
 {>>{"author":"Elias's AI","timestamp":1788009450337}@@Proposed: drop per-lesson XLab source footer.<<}
 

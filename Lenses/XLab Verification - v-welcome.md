@@ -41,7 +41,7 @@ content:: Optional: Write a short note that you can look back on after completin
 - What do you want to gain from this course?
 - Before beginning, brainstorm: what parts of AI verification intuitively seems hardest?
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
-optional:: true{++{"author":"Elias's AI","timestamp":1788014472221}@@
+optional:: true
 
 #### Text
 content::
@@ -51,4 +51,4 @@ Newman, Lily Hay. "OpenAI Didn't Notice Its AI Agents Using a Message Board to P
 
 XLab. "0.0 Welcome." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/welcome)
 *The source lesson this page adapts.*
-:::++}
+:::
