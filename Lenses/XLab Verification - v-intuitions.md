@@ -145,9 +145,9 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## Option B: Compare Plan A and Plan S
+\## Option B: Compare Plan A and Plan S{--{"author":"Elias's AI","timestamp":1788010875556}@@
 
-\## Option B: Compare Plan A and Plan S as Verification Problems
+\## Option B: Compare Plan A and Plan S--} as Verification Problems
 
 Plan A and Plan S aim at different kinds of AI agreements. Plan A permits substantial AI activity under a layered verification regime; Plan S calls for a much stronger halt on frontier AI development. Those choices shape the verification problem: what counts as compliance, what evidence inspectors can collect, how much of the AI ecosystem must remain visible, and which actors must cooperate.
 
@@ -171,9 +171,9 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## B2. Compare the evidence
+\## B2. {--{"author":"Elias's AI","timestamp":1788010877256}@@Compare the evidence
 
-\## B2. Which plan could provide stronger evidence of compliance?
+\## B2. --}Which plan could provide stronger evidence of compliance?
 
 #### Question: Open
 id:: 79d7f63c-67b0-4a54-aeb6-127a58ddbc4a
@@ -195,9 +195,9 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## B3. Compare the monitoring problem
+\## B3. {--{"author":"Elias's AI","timestamp":1788010878871}@@Compare the monitoring problem
 
-\## B3. Which plan creates the harder monitoring problem?
+\## B3. --}Which plan creates the harder monitoring problem?
 
 #### Question: Open
 id:: 3edc12a8-2c49-46c7-8029-54e1de5ff7ac
@@ -215,9 +215,9 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## B4. Compare political cooperation
+\## B4. {--{"author":"Elias's AI","timestamp":1788010880653}@@Compare political cooperation
 
-\## B4. Which regime could states actually cooperate on?
+\## B4. --}Which regime could states actually cooperate on?
 
 #### Question: Open
 id:: 3d07b047-a892-40b9-960c-48de66645bea
@@ -237,9 +237,9 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## B5. Final essay
+\## B5. Final essay{--{"author":"Elias's AI","timestamp":1788010882254}@@
 
-\## B5. Final essay
+\## B5. Final essay--}
 
 Policymakers are deciding whether a serious international AI agreement should more closely resemble Plan A or Plan S. They have asked which approach provides a verification regime strong enough to rely on.
 
