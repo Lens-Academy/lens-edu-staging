@@ -1,9 +1,10 @@
 ---
 id: '61088782-f0b8-4eeb-9787-1e6c80760ae9'
 title: "1.3 Upstream and downstream"
-tldr: "Faithful alpha import of XLab lesson 1.3 Upstream and downstream."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
+tldr: {--{"author":"Elias's AI","timestamp":1788016738481}@@"Faithful alpha import --}{++{"author":"Elias's AI","timestamp":1788016738481}@@"Two documents from the same side agreeing with each other is not verification; it is one actor being consistent with itself. Sit on an IAEA team at Fordow in January 2023, watch a true sentence fail because every claim in it came from Iran, and rewrite it so each claim carries its source. Then ask ++}of {--{"author":"Elias's AI","timestamp":1788016738481}@@XLab lesson 1.3 Upstream--}{++{"author":"Elias's AI","timestamp":1788016738481}@@every report: whose claims am I relying on,++} and {--{"author":"Elias's AI","timestamp":1788016738481}@@downstream."--}{++{"author":"Elias's AI","timestamp":1788016738481}@@who acts on mine?"++}
+summary_for_tutor: {--{"author":"Elias's AI","timestamp":1788016738481}@@"Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises--}{++{"author":"Elias's AI","timestamp":1788016738481}@@"Worked case, then a memo brief. The Fordow case: a first-draft finding that is true in every clause but built only on Iran's declaration and the operator's records; the three upstream sources ranked by how much they deserve trust; the 83.7 percent swipe sample that broke the declaration; a revised finding that keeps each claim attached to its source; two downstream readers (the IAEA Board of Governors needs a determination, ISIS analysts need the raw discrepancy) and why a report++} must {--{"author":"Elias's AI","timestamp":1788016738481}@@be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788016738481}@@serve both. Two notebook prompts are optional Open questions (pause before reading on; the two questions to answer before writing). The memo slot for this lesson is the actor, authority, and evidence map (optional here). The Context Distiller exercise is the next lens. When discussing, keep the provenance test central: which claims were verified independently, which inherited from the actor being checked."++}
 tags: [wip]
+duration_minutes: 10
 ---
 #### Text
 content::
@@ -19,9 +20,10 @@ Your first draft of the central finding reads:
 "Enrichment at Fordow is 60 percent U-235, below weapons grade, and the facility's operating records match the declaration."
 :::
 
-#### Question
-content:: Pause before reading on. What is wrong with this sentence? Every clause in it is true.
-feedback:: false
+#### {--{"author":"Elias's AI","timestamp":1788016743664}@@Question--}{++{"author":"Elias's AI","timestamp":1788016743664}@@Question: Open++}
+{++{"author":"Elias's AI","timestamp":1788016743664}@@id:: bbb153b5-c932-4f0d-a379-bc451bb3c5fd
+++}content:: Pause before reading on. What is wrong with this sentence? Every clause in it is true.
+{++{"author":"Elias's AI","timestamp":1788016743664}@@optional:: true{>>{"author":"Elias's AI","timestamp":1788016743664}@@Legacy #### Question converted to Question: Open with a fresh id. XLab renders this as a notebook callout that gates nothing, hence optional. The invalid ++}feedback:: false{++{"author":"Elias's AI","timestamp":1788016743664}@@ line is dropped.<<}++}
 
 #### Text
 content::
