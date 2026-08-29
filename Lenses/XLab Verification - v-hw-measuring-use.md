@@ -52,8 +52,9 @@ A compute counter cannot determine whether the operations were training, inferen
 
 A June 2026 preprint by Rahman and Tajdari tested whether temporal GPU telemetry could detect hidden machine-learning training. Across its full corpus, the study reported 98.2 percent binary classification accuracy over nine NVIDIA GPU models and twenty evasion families. The result is important evidence that training leaves detectable temporal patterns under tested conditions.
 
-**Src**
-M. S. Rahman and M. Tajdari, *Detecting Hidden ML Training With Zero-Overhead Telemetry* — [arXiv:2606.19262](https://arxiv.org/abs/2606.19262), June 2026. A preprint, to be presented as a component demonstration.
+{--{"author":"Elias's AI","timestamp":1788015982045}@@**Src**--}{++{"author":"Elias's AI","timestamp":1788015982045}@@:::callout {title="Source" tone="neutral" collapse="closed"}++}
+M. S. Rahman and M. Tajdari, *Detecting Hidden ML Training With Zero-Overhead Telemetry* — [arXiv:2606.19262](https://arxiv.org/abs/2606.19262), June 2026. A preprint, to be presented as a component demonstration.{++{"author":"Elias's AI","timestamp":1788015982045}@@
+:::++}
 
 The limitations are equally important:
 
