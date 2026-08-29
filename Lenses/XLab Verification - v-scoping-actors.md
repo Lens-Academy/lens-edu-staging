@@ -355,4 +355,29 @@ Supply-chain structure: Sastry, Heim, Belfield et al., [“Computing Power and t
 
 **Currency.** The concentration figures above are 2021–2023 data reported in 2021 and 2024 sources. Shares move; the structure — one EUV maker, one dominant leading-edge fab, a handful of clouds — has not. Re-verify a number before quoting it.
 
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-actors)*
+{--{"author":"Elias's AI","timestamp":1788016548550}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-actors)*--}{++{"author":"Elias's AI","timestamp":1788016548550}@@#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *arXiv*, Nov. 2025. [arxiv.org](https://arxiv.org/abs/2511.10783)
+*MIRI's draft international agreement to prevent the premature creation of artificial superintelligence, the treaty text several lessons read against.*
+
+"Article 51: Classification of General-Purpose AI Models as General-Purpose AI Models with Systemic Risk." *EU Artificial Intelligence Act*, artificialintelligenceact.eu. [artificialintelligenceact.eu](https://artificialintelligenceact.eu/article/51/)
+*The consolidated text of the AI Act article that presumes systemic risk above 10^25 training FLOP.*
+
+Sastry, Girish, Lennart Heim, Haydn Belfield, et al. "Computing Power and the Governance of Artificial Intelligence." *arXiv*, Feb. 2024. [arxiv.org](https://arxiv.org/abs/2402.08797)
+*The foundational survey of compute as a governance lever: why computing power is detectable, excludable, and quantifiable in ways algorithms and data are not.*
+
+Khan, Saif M., Alexander Mann, and Dahlia Peterson. *The Semiconductor Supply Chain: Assessing National Competitiveness*. Center for Security and Emerging Technology, Jan. 2021. [cset.georgetown.edu](https://cset.georgetown.edu/publication/the-semiconductor-supply-chain/)
+*CSET's mapping of the semiconductor supply chain and where national chokepoints sit.*
+
+Fist, Tim, Tao Burga, and Vivek Chilukuri. *Technology to Secure the AI Chip Supply Chain: A Working Paper*. Center for a New American Security, 2024. [cnas.org](https://www.cnas.org/publications/reports/technology-to-secure-the-ai-chip-supply-chain-a-primer)
+*Argues that export controls on AI chips are hard to enforce and easy to evade through shell companies, and proposes hardware-enabled mechanisms instead.*
+
+Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/abs/2507.15916)
+*The report whose Prover and Verifier frame and four subgoals give the workshop its rings; every ring test and placement reason quotes it.*
+
+XLab. "1.2 Actors: who does the treaty rely upon, apply to, and constrain?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-actors)
+*The source lesson this page adapts, including the five tables and the Actor Map Workshop.*
+
+The SB 53 bill text, the SB 53 reference site, METR's guide, the Future of Privacy Forum and White & Case summaries, the UN panel and Global Dialogue pages, and NIST CAISI are cited inline in Notes and sources and have no entry in XLab's citation registry.
+:::++}
