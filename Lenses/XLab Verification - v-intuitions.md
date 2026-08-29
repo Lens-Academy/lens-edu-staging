@@ -2,7 +2,7 @@
 id: '7a5bcc21-1cea-45f1-95d1-46c7896c94ec'
 title: "0.2 Building Verification Intuitions"
 tldr: "Faithful alpha import of XLab lesson 0.2 Building Verification Intuitions."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Learner picks Option A or B and writes the prompted sub-essays, then the final essay with a verdict choice. The drill bench at the end is six graded choice questions; give the 'why' after each answer."
 tags: [wip]
 duration_minutes: 200
 ---

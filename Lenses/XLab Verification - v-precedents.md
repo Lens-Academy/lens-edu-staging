@@ -2,7 +2,7 @@
 id: '128dc22b-db3d-4a02-80b8-939682746c85'
 title: "0.3 History, Precedents, Parallels"
 tldr: "Faithful alpha import of XLab lesson 0.3 History, Precedents, Parallels."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Three source documents, then five packet tasks: Task 5 is required, Tasks 1 to 4 optional (learner does at least one). Model answers and Baker (2023) excerpts are reveal material: share them only after the learner has answered."
 tags: [wip]
 duration_minutes: 60
 ---
