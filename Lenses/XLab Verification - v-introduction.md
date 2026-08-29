@@ -139,8 +139,8 @@ Hear what the top AI figures have to say:
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788013660234}@@**Sam Altman**,--}{++{"author":"Elias's AI","timestamp":1788013660234}@@:::callout {title="Sam Altman,++} CEO, {--{"author":"Elias's AI","timestamp":1788013660234}@@OpenAI. --}{++{"author":"Elias's AI","timestamp":1788013660234}@@OpenAI" tone="neutral" collapse="closed"}
-++}*Authored OpenAI's original economic definition of AGI; has since argued the term is no longer precise enough to be useful.*
+:::callout {title="Sam Altman, CEO, OpenAI" tone="neutral" collapse="closed"}
+*Authored OpenAI's original economic definition of AGI; has since argued the term is no longer precise enough to be useful.*
 
 *Definition.* OpenAI's founding charter defines AGI as "highly autonomous systems that outperform humans at most economically valuable work", the definition the rest of the industry spent a decade responding to. As systems improved, Altman's use of the term shifted. By mid-2025 he was calling AGI "not a super useful term", and by late 2025 he suggested that AGI, by any earlier definition, "went whooshing by" without transforming the world. His proposed bar for superintelligence is a system that outperforms any human, including one assisted by AI, at roles such as head of state, chief executive, or director of a major research lab.
 
@@ -148,11 +148,11 @@ content::
 
 *Relevance to this module.* A definition that moves as products approach it cannot anchor an agreement. This is one reason treaties are written around thresholds an outside party can measure, taken up in [[../Lenses/XLab Verification - v-scoping-thresholds|1.0.1 Drawing the Line: Compute vs. Capability]].
 
-Sources: [Time](https://time.com/7205596/sam-altman-superintelligence-agi/), [CNBC](https://www.cnbc.com/2025/08/11/sam-altman-says-agi-is-a-pointless-term-experts-agree.html), [Windows Central](https://www.windowscentral.com/artificial-intelligence/openai-ceo-sam-altman-claims-agi-might-have-already-whooshed-by), [80,000 Hours](https://80000hours.org/podcast/episodes/jan-leike-superalignment/).{++{"author":"Elias's AI","timestamp":1788013663280}@@
-:::++}
+Sources: [Time](https://time.com/7205596/sam-altman-superintelligence-agi/), [CNBC](https://www.cnbc.com/2025/08/11/sam-altman-says-agi-is-a-pointless-term-experts-agree.html), [Windows Central](https://www.windowscentral.com/artificial-intelligence/openai-ceo-sam-altman-claims-agi-might-have-already-whooshed-by), [80,000 Hours](https://80000hours.org/podcast/episodes/jan-leike-superalignment/).
+:::
 
-{--{"author":"Elias's AI","timestamp":1788013663280}@@**Dario Amodei**,--}{++{"author":"Elias's AI","timestamp":1788013663280}@@:::callout {title="Dario Amodei,++} CEO, {--{"author":"Elias's AI","timestamp":1788013663280}@@Anthropic. --}{++{"author":"Elias's AI","timestamp":1788013663280}@@Anthropic" tone="neutral" collapse="closed"}
-++}*Uses the term "powerful AI" rather than AGI; estimates arrival as early as 2026 or 2027.*
+:::callout {title="Dario Amodei, CEO, Anthropic" tone="neutral" collapse="closed"}
+*Uses the term "powerful AI" rather than AGI; estimates arrival as early as 2026 or 2027.*
 
 *Definition.* Amodei avoids the term AGI in favor of *powerful AI*: a system "smarter than a Nobel Prize winner across most relevant fields", able to work autonomously for days or weeks, operating at 10 to 100 times human speed, in millions of instances at once. His shorthand for this is "a country of geniuses in a datacenter". He has estimated arrival as early as 2026 or 2027.
 
@@ -160,11 +160,11 @@ Sources: [Time](https://time.com/7205596/sam-altman-superintelligence-agi/), [CN
 
 *Relevance to this module.* The framing is explicitly geopolitical. In a companion policy essay he argues that a nation holding powerful AI, facing one without it, could resemble "World War II Marines facing an army of medieval swordsmen". That comparison describes the arms-race incentive structure this module examines.
 
-Sources: [Machines of Loving Grace](https://darioamodei.com/essay/machines-of-loving-grace), [The Adolescence of Technology](https://darioamodei.com/essay/the-adolescence-of-technology), [Policy on the AI Exponential](https://darioamodei.com/post/policy-on-the-ai-exponential), [Axios](https://www.axios.com/2026/01/26/anthropic-ai-dario-amodei-humanity), [Mi3](https://www.mi-3.com.au/27-01-2026/anthropic-founder-warns-ai-entering-dangerous-adolescence-urges-urgent-guardrails).{++{"author":"Elias's AI","timestamp":1788013665525}@@
-:::++}
+Sources: [Machines of Loving Grace](https://darioamodei.com/essay/machines-of-loving-grace), [The Adolescence of Technology](https://darioamodei.com/essay/the-adolescence-of-technology), [Policy on the AI Exponential](https://darioamodei.com/post/policy-on-the-ai-exponential), [Axios](https://www.axios.com/2026/01/26/anthropic-ai-dario-amodei-humanity), [Mi3](https://www.mi-3.com.au/27-01-2026/anthropic-founder-warns-ai-entering-dangerous-adolescence-urges-urgent-guardrails).
+:::
 
-{--{"author":"Elias's AI","timestamp":1788013665525}@@**Demis Hassabis**,--}{++{"author":"Elias's AI","timestamp":1788013665525}@@:::callout {title="Demis Hassabis,++} CEO, Google DeepMind, Nobel {--{"author":"Elias's AI","timestamp":1788013665525}@@laureate. --}{++{"author":"Elias's AI","timestamp":1788013665525}@@laureate" tone="neutral" collapse="closed"}
-++}*Defines AGI as the full range of human cognitive capabilities; advocates IAEA-style international monitoring.*
+:::callout {title="Demis Hassabis, CEO, Google DeepMind, Nobel laureate" tone="neutral" collapse="closed"}
+*Defines AGI as the full range of human cognitive capabilities; advocates IAEA-style international monitoring.*
 
 *Definition.* Hassabis applies the strictest bar among the major labs: "a system that can exhibit all the cognitive capabilities humans can", including invention, creativity, continual learning, and long-horizon planning. Benchmark performance alone does not satisfy it; he notes that current models can win Olympiad-level competitions while failing simple tasks. On that standard he estimates five to ten years, centered near 2030.
 
@@ -172,11 +172,11 @@ Sources: [Machines of Loving Grace](https://darioamodei.com/essay/machines-of-lo
 
 *Relevance to this module.* His policy proposals are institutional: a CERN-style body for shared safety research and an IAEA-style agency to monitor high-risk projects. The IAEA is the nuclear world's verification agency, so the proposal amounts to a request for the infrastructure this course studies.
 
-Sources: [Davos 2026 transcript](https://aletteraday.substack.com/p/letters-314315-demis-hassabis-and), [Axios AI+ interview](https://vocal.media/journal/demis-hassabis-warns-about-ai-the-risk-of-a-catastrophic-scenario-is-not-zero).{++{"author":"Elias's AI","timestamp":1788013668356}@@
-:::++}
+Sources: [Davos 2026 transcript](https://aletteraday.substack.com/p/letters-314315-demis-hassabis-and), [Axios AI+ interview](https://vocal.media/journal/demis-hassabis-warns-about-ai-the-risk-of-a-catastrophic-scenario-is-not-zero).
+:::
 
-{--{"author":"Elias's AI","timestamp":1788013668356}@@**Shane Legg**,--}{++{"author":"Elias's AI","timestamp":1788013668356}@@:::callout {title="Shane Legg,++} Chief AGI Scientist, Google {--{"author":"Elias's AI","timestamp":1788013668356}@@DeepMind. --}{++{"author":"Elias's AI","timestamp":1788013668356}@@DeepMind" tone="neutral" collapse="closed"}
-++}*Coined the term AGI in 2001; has maintained a median forecast near 2028 since 2011.*
+:::callout {title="Shane Legg, Chief AGI Scientist, Google DeepMind" tone="neutral" collapse="closed"}
+*Coined the term AGI in 2001; has maintained a median forecast near 2028 since 2011.*
 
 *The term.* Legg proposed the phrase "artificial general intelligence" around 2001, at a time when the idea sat well outside mainstream research. His forecasts have been unusually stable since: a public median estimate near 2028, held since at least 2011. His 2008 doctoral thesis, *Machine Super Intelligence*, argued that a machine above human level could design still more capable machines, and that methods for managing that dynamic did not exist.
 
@@ -184,11 +184,11 @@ Sources: [Davos 2026 transcript](https://aletteraday.substack.com/p/letters-3143
 
 *Relevance to this module.* Legg's two-decade position is that capability has outpaced control. Verification does not resolve that problem; it addresses a narrower one, giving outside parties visibility into who is approaching dangerous capability levels while the control problem remains open.
 
-Sources: [MIT Technology Review](https://www.technologyreview.com/2025/10/30/1127057/agi-conspiracy-theory-artifcial-general-intelligence/), [Fortune](https://fortune.com/2025/04/04/google-deeepmind-agi-ai-2030-risk-destroy-humanity/).{++{"author":"Elias's AI","timestamp":1788013671295}@@
-:::++}
+Sources: [MIT Technology Review](https://www.technologyreview.com/2025/10/30/1127057/agi-conspiracy-theory-artifcial-general-intelligence/), [Fortune](https://fortune.com/2025/04/04/google-deeepmind-agi-ai-2030-risk-destroy-humanity/).
+:::
 
-{--{"author":"Elias's AI","timestamp":1788013671295}@@**Ilya Sutskever**,--}{++{"author":"Elias's AI","timestamp":1788013671295}@@:::callout {title="Ilya Sutskever,++} Co-founder, OpenAI; Founder, {--{"author":"Elias's AI","timestamp":1788013671295}@@SSI. --}{++{"author":"Elias's AI","timestamp":1788013671295}@@SSI" tone="neutral" collapse="closed"}
-++}*Central to the current technical paradigm; now leads a lab founded solely to build superintelligence safely.*
+:::callout {title="Ilya Sutskever, Co-founder, OpenAI; Founder, SSI" tone="neutral" collapse="closed"}
+*Central to the current technical paradigm; now leads a lab founded solely to build superintelligence safely.*
 
 *Definition.* Sutskever's objection to the standard definition is that it overshoots: "a human being is not an AGI". Humans do not arrive knowing every task; they learn. His model of superintelligence follows from that. Not a complete, all-knowing system, but one that can learn any job quickly, which he has described as "a superintelligent 15-year-old" whose competence develops through deployment.
 
@@ -196,11 +196,11 @@ Sources: [MIT Technology Review](https://www.technologyreview.com/2025/10/30/112
 
 *Relevance to this module.* If capabilities emerge during deployment rather than before release, there is no clean pre-release point at which a system can be inspected. This measurement problem is part of why current policy relies on compute thresholds, which can be assessed in advance, rather than capability evaluations (see [[../Lenses/XLab Verification - v-scoping-thresholds|1.0.1 Drawing the Line: Compute vs. Capability]]).
 
-Sources: [Dwarkesh Podcast](https://www.dwarkesh.com/p/ilya-sutskever-2), [The Decoder](https://the-decoder.com/ilya-sutskever-says-a-new-learning-paradigm-is-necessary-and-is-already-chasing-it/), [MIT Technology Review](https://www.technologyreview.com/2025/10/30/1127057/agi-conspiracy-theory-artifcial-general-intelligence/).{++{"author":"Elias's AI","timestamp":1788013673949}@@
-:::++}
+Sources: [Dwarkesh Podcast](https://www.dwarkesh.com/p/ilya-sutskever-2), [The Decoder](https://the-decoder.com/ilya-sutskever-says-a-new-learning-paradigm-is-necessary-and-is-already-chasing-it/), [MIT Technology Review](https://www.technologyreview.com/2025/10/30/1127057/agi-conspiracy-theory-artifcial-general-intelligence/).
+:::
 
-{--{"author":"Elias's AI","timestamp":1788013673949}@@**Jan Leike**,--}{++{"author":"Elias's AI","timestamp":1788013673949}@@:::callout {title="Jan Leike,++} former co-lead, Superalignment, OpenAI; now {--{"author":"Elias's AI","timestamp":1788013673949}@@Anthropic. --}{++{"author":"Elias's AI","timestamp":1788013673949}@@Anthropic" tone="neutral" collapse="closed"}
-++}*Co-led OpenAI's superalignment effort; resigned in 2024 over resourcing and priorities.*
+:::callout {title="Jan Leike, former co-lead, Superalignment, OpenAI; now Anthropic" tone="neutral" collapse="closed"}
+*Co-led OpenAI's superalignment effort; resigned in 2024 over resourcing and priorities.*
 
 *Background.* Leike co-led OpenAI's superalignment team with Sutskever. Its mandate was to solve the control problem for smarter-than-human systems within four years, supported by a public commitment of 20 percent of the company's compute. He resigned less than a year later, writing that the team had struggled to obtain the promised resources, that building smarter-than-human machines is "an inherently dangerous endeavor", and that safety work had taken "a backseat to shiny products". The team was dissolved shortly after his departure. He continued the same research agenda at Anthropic.
 
@@ -209,8 +209,8 @@ Sources: [Dwarkesh Podcast](https://www.dwarkesh.com/p/ilya-sutskever-2), [The D
 *Relevance to this module.* This episode is a documented case study for voluntary self-governance. A leading lab made a written, quantified commitment to itself, and competitive pressure eroded it within a year. Commitments between competitors require what internal commitments lack: independent means of checking compliance.
 
 Sources: [The National](https://www.thenationalnews.com/future/technology/2024/05/18/former-openai-executive-says-safety-has-taken-a-backseat-as-company-disbands-ai-risks-unit/), [Fast Company](https://www.fastcompany.com/91127491/former-openai-leader-jan-leike-blasts-company-for-ignoring-safety-culture), [VentureBeat](https://venturebeat.com/ai/openais-former-superalignment-leader-blasts-company-safety-culture-and-processes-have-taken-a-backseat).
-{++{"author":"Elias's AI","timestamp":1788013676107}@@:::
-++}
+:::
+
 #### Text
 content::
 Most notably, over 1,300 employees of frontier AI companies have signed a public [statement](https://www.pacingthefrontier.com/) to “request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.”
@@ -279,23 +279,23 @@ feedback-instructions:: Tell the learner the outcome of the option they chose, u
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788013686072}@@**Trust?** It collapses.--}{++{"author":"Elias's AI","timestamp":1788013686072}@@Test each answer:
+Test each answer:
 
 :::callout {title="Trust?" tone="neutral" collapse="closed"}
-**It collapses.**++} You could trust each other, and trust each other's trust. Works with friends, but not with nation-state adversaries incentivized to self-protect by gaining the secret upper hand, and especially not when dealing with the development of high-risk technologies.{++{"author":"Elias's AI","timestamp":1788013686072}@@
-:::++}
+**It collapses.** You could trust each other, and trust each other's trust. Works with friends, but not with nation-state adversaries incentivized to self-protect by gaining the secret upper hand, and especially not when dealing with the development of high-risk technologies.
+:::
 
-{--{"author":"Elias's AI","timestamp":1788013686072}@@**Punish violations?** It --}{++{"author":"Elias's AI","timestamp":1788013686072}@@:::callout {title="Punish violations?" tone="neutral" collapse="closed"}
-**It ++}arrives too {--{"author":"Elias's AI","timestamp":1788013686072}@@late.--}{++{"author":"Elias's AI","timestamp":1788013686072}@@late.**++} In the absence of trust, they could penalize violations of the agreement and preempt misconduct. But deterrence depends upon the reliability of tracking each party's actions. Moreover, an ex-post regime fails when consequences are immediate, far-reaching, and irreversible: no fine can bring back the dead.{++{"author":"Elias's AI","timestamp":1788013686072}@@
-:::++}
+:::callout {title="Punish violations?" tone="neutral" collapse="closed"}
+**It arrives too late.** In the absence of trust, they could penalize violations of the agreement and preempt misconduct. But deterrence depends upon the reliability of tracking each party's actions. Moreover, an ex-post regime fails when consequences are immediate, far-reaching, and irreversible: no fine can bring back the dead.
+:::
 
-{--{"author":"Elias's AI","timestamp":1788013686072}@@**Mutual transparency?** It backfires.--}{++{"author":"Elias's AI","timestamp":1788013686072}@@:::callout {title="Mutual transparency?" tone="neutral" collapse="closed"}
-**It backfires.**++} They could mutually disclose actions, but increased transparency risks theft of proprietary information or prototypes by adversaries. Each party is still incentivized to develop a secret advantage and fabricate compliance.{++{"author":"Elias's AI","timestamp":1788013686072}@@
-:::++}
+:::callout {title="Mutual transparency?" tone="neutral" collapse="closed"}
+**It backfires.** They could mutually disclose actions, but increased transparency risks theft of proprietary information or prototypes by adversaries. Each party is still incentivized to develop a secret advantage and fabricate compliance.
+:::
 
-{--{"author":"Elias's AI","timestamp":1788013686072}@@**Neutral,--}{++{"author":"Elias's AI","timestamp":1788013686072}@@:::callout {title="Neutral,++} privacy-preserving verification {--{"author":"Elias's AI","timestamp":1788013686072}@@mechanisms?** It holds.--}{++{"author":"Elias's AI","timestamp":1788013686072}@@mechanisms?" tone="neutral" collapse="closed"}
-**It holds.**++} What if you could mutually verify compliance without risking undue loss of privacy? If each party could verify the other's compliance without learning their secrets, knowing they can do the same, they have fewer material incentives to dodge compliance. Verification displaces the impossible promise of trust in a volatile adversary toward trust in a shared, robust verification regime.{++{"author":"Elias's AI","timestamp":1788013686072}@@
-:::++}
+:::callout {title="Neutral, privacy-preserving verification mechanisms?" tone="neutral" collapse="closed"}
+**It holds.** What if you could mutually verify compliance without risking undue loss of privacy? If each party could verify the other's compliance without learning their secrets, knowing they can do the same, they have fewer material incentives to dodge compliance. Verification displaces the impossible promise of trust in a volatile adversary toward trust in a shared, robust verification regime.
+:::
 
 #### Text
 content::
@@ -337,47 +337,47 @@ Verification for AI is a young field, and it is not spread evenly. Some corners 
 
 **Columns (who does the work).** *Academia*: university labs and published research. *Think tanks & nonprofits*: policy institutes and independent research organizations, the field's current center of gravity. *Industry*: frontier labs, chipmakers, and cloud providers, who hold the hardware and the data. *Gov & int'l*: states, agencies, and multinational bodies with the authority to mandate and enforce.
 
-{--{"author":"Elias's AI","timestamp":1788013687907}@@**Hardware mechanisms.**--}{++{"author":"Elias's AI","timestamp":1788013687907}@@:::callout {title="Hardware mechanisms" tone="neutral" collapse="closed"}++}
+:::callout {title="Hardware mechanisms" tone="neutral" collapse="closed"}
 - Academia (1): a thin but real base in hardware security (physically unclonable functions, trusted execution environments, secure boot), developed for general computer security. Supplies the building blocks that think-tank proposals assemble into governance mechanisms.
 - Think tanks (3): the intellectual center of gravity. RAND, *Hardware-Enabled Governance Mechanisms* (2024); CNAS, *Secure, Governable Chips* (2024); the FlexHEG report series (2025, commissioned by the UK's ARIA) proposing an on-chip "guarantee processor" for privacy-preserving compliance checks.
 - Industry (2): holds the substrate but is not building governance features. Confidential computing (e.g. NVIDIA), secure boot and attestation exist to protect the chip's owner, while verification tries to check on the owner. Same silicon, opposite goal.
-- Gov (1): nascent. ARIA commissioned FlexHEG; on-chip location verification has surfaced in US export-control debate. If any hardware mechanism matures, government is the actor that would mandate it.{++{"author":"Elias's AI","timestamp":1788013689560}@@
-:::++}
+- Gov (1): nascent. ARIA commissioned FlexHEG; on-chip location verification has surfaced in US export-control debate. If any hardware mechanism matures, government is the actor that would mandate it.
+:::
 
-{--{"author":"Elias's AI","timestamp":1788013689560}@@**Cryptographic methods.**--}{++{"author":"Elias's AI","timestamp":1788013689560}@@:::callout {title="Cryptographic methods" tone="neutral" collapse="closed"}++}
+:::callout {title="Cryptographic methods" tone="neutral" collapse="closed"}
 - Academia (3): a dense, fast-moving literature. Zero-knowledge ML (proofs that a model produced a given output or evaluation score without revealing weights), proof-of-learning (fragile so far: "more broken than you think"), secure multiparty computation. Largely disconnected from the governance actors who need it.
 - Think tanks (1): a handful of policy analyses on how ZKPs and secure computation could support AI treaties. A thin bridge and a clear candidate for growth.
 - Industry (1): zkML tooling and startups, mostly from the cryptography and blockchain world, not yet aimed at treaty-grade verification.
-- Gov (0): essentially empty. No public government program applies these methods to AI verification today. The mechanisms that could let one state verify another without seeing its secrets exist mainly as papers.{++{"author":"Elias's AI","timestamp":1788013691418}@@
-:::++}
+- Gov (0): essentially empty. No public government program applies these methods to AI verification today. The mechanisms that could let one state verify another without seeing its secrets exist mainly as papers.
+:::
 
-{--{"author":"Elias's AI","timestamp":1788013691418}@@**Compute--}{++{"author":"Elias's AI","timestamp":1788013691418}@@:::callout {title="Compute++} & supply {--{"author":"Elias's AI","timestamp":1788013691418}@@chain.**--}{++{"author":"Elias's AI","timestamp":1788013691418}@@chain" tone="neutral" collapse="closed"}++}
+:::callout {title="Compute & supply chain" tone="neutral" collapse="closed"}
 - Academia (1): some economics and computer science on compute trends and semiconductor supply chains.
 - Think tanks (3): one of the hottest squares. CSET (supply-chain analysis, the "AI Triad" framing), GovAI *Computing Power and the Governance of AI* (2024), RAND *Securing AI Model Weights* (2024), Epoch AI (compute and scaling data the whole field cites).
 - Industry (2): real activity driven by compliance: cloud know-your-customer, export-control licensing and end-use checks. Industry sits on the chokepoints; its cooperation makes verification there feasible at all.
-- Gov (3): the one place where government verification is genuinely muscular today: export control. US Bureau of Industry and Security; allied coordination with the Netherlands and Japan over lithography and tooling. The closest working analog to arms-control chokepoint monitoring.{++{"author":"Elias's AI","timestamp":1788013693467}@@
-:::++}
+- Gov (3): the one place where government verification is genuinely muscular today: export control. US Bureau of Industry and Security; allied coordination with the Netherlands and Japan over lithography and tooling. The closest working analog to arms-control chokepoint monitoring.
+:::
 
-{--{"author":"Elias's AI","timestamp":1788013693467}@@**Monitoring--}{++{"author":"Elias's AI","timestamp":1788013693467}@@:::callout {title="Monitoring++} & {--{"author":"Elias's AI","timestamp":1788013693467}@@intelligence.**--}{++{"author":"Elias's AI","timestamp":1788013693467}@@intelligence" tone="neutral" collapse="closed"}++}
+:::callout {title="Monitoring & intelligence" tone="neutral" collapse="closed"}
 - Academia (1): satellite analysis of data-center construction and research on energy signatures.
 - Think tanks (2): power draw, cooling, and chip procurement treated as compliance signals; the open-source cousin of national technical means.
 - Industry (1): holds the richest telemetry of all (cluster logs, usage monitoring) and does not share it.
-- Gov (2): real but classified. Intelligence-community tracking of chip procurement, data-center expansion, energy use, and financial flows: the modern equivalent of the test-ban sensor network, aimed at compute.{++{"author":"Elias's AI","timestamp":1788013695207}@@
-:::++}
+- Gov (2): real but classified. Intelligence-community tracking of chip procurement, data-center expansion, energy use, and financial flows: the modern equivalent of the test-ban sensor network, aimed at compute.
+:::
 
-{--{"author":"Elias's AI","timestamp":1788013695207}@@**Institutions--}{++{"author":"Elias's AI","timestamp":1788013695207}@@:::callout {title="Institutions++} & {--{"author":"Elias's AI","timestamp":1788013695207}@@agreements.**--}{++{"author":"Elias's AI","timestamp":1788013695207}@@agreements" tone="neutral" collapse="closed"}++}
+:::callout {title="Institutions & agreements" tone="neutral" collapse="closed"}
 - Academia (1): international-relations scholarship drawing verification lessons from nuclear, chemical, and biological regimes.
 - Think tanks (2): blueprints for a "CERN for AI" or an "IAEA for AI", plus treaty and verification-regime design. Long on designs, short on adoption.
 - Industry (2): voluntary self-governance, unverified by design: Anthropic's Responsible Scaling Policy, OpenAI's Preparedness Framework, Google DeepMind's Frontier Safety Framework. Commitments demonstrated without external verification, exactly the gap this course targets.
-- Gov (2): mostly evaluative and voluntary: the International Network of AI Safety Institutes (2024), US CAISI (housed in NIST), the UK AI Security Institute, and the IAEA and OPCW as living templates. The distance between this and the IAEA is the course's motivating gap.{++{"author":"Elias's AI","timestamp":1788013697451}@@
-:::++}
+- Gov (2): mostly evaluative and voluntary: the International Network of AI Safety Institutes (2024), US CAISI (housed in NIST), the UK AI Security Institute, and the IAEA and OPCW as living templates. The distance between this and the IAEA is the course's motivating gap.
+:::
 
-{--{"author":"Elias's AI","timestamp":1788013697451}@@**Evaluations--}{++{"author":"Elias's AI","timestamp":1788013697451}@@:::callout {title="Evaluations++} & {--{"author":"Elias's AI","timestamp":1788013697451}@@standards.**--}{++{"author":"Elias's AI","timestamp":1788013697451}@@standards" tone="neutral" collapse="closed"}++}
+:::callout {title="Evaluations & standards" tone="neutral" collapse="closed"}
 - Academia (2): benchmarks, red-teaming methods, and measurement science.
 - Think tanks (3): METR (dangerous-capability and autonomy evaluations) and Apollo Research (deception and scheming). The capability measurements any capability-based threshold would depend on.
 - Industry (2): in-house dangerous-capability evals and limited third-party pre-deployment testing. The evaluated party is often also the evaluator, the verification problem in miniature.
-- Gov (2): CAISI and the UK AI Security Institute, NIST standards, the UK's open-source "Inspect" tool. Independence and authority still being defined.{++{"author":"Elias's AI","timestamp":1788013700051}@@
-:::++}
+- Gov (2): CAISI and the UK AI Security Institute, NIST standards, the UK's open-source "Inspect" tool. Independence and authority still being defined.
+:::
 
 One pattern jumps out fast. The field's center of gravity is the think-tank and nonprofit column, not government or industry. Most of what exists today is analysis and proposal. The hard mechanisms, especially the cryptographic ones that would let a state check a rival without seeing its secrets, sit mostly in academic papers with no public-sector home. The single place where government verification is genuinely muscular is export control, one square in the whole grid.
 
