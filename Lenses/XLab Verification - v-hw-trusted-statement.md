@@ -14,8 +14,9 @@ Remote attestation is often described as a chip proving its state. That descript
 
 The IETF’s Remote ATtestation procedureS architecture distinguishes three roles: an **Attester** produces evidence, a **Verifier** appraises that evidence against reference values and policy, and a **Relying Party** decides what to do with the result. This separation matters. The component that checks a signature need not be the institution that decides compliance, and neither automatically has authority to impose a consequence.
 
-**Src**
-H. Birkholz et al., [“Remote ATtestation procedureS (RATS) Architecture”](https://www.rfc-editor.org/rfc/rfc9334.html) — IETF RFC 9334, January 2023.
+{--{"author":"Elias's AI","timestamp":1788015942196}@@**Src**--}{++{"author":"Elias's AI","timestamp":1788015942196}@@:::callout {title="Source" tone="neutral" collapse="closed"}++}
+H. Birkholz et al., [“Remote ATtestation procedureS (RATS) Architecture”](https://www.rfc-editor.org/rfc/rfc9334.html) — IETF RFC 9334, January 2023.{++{"author":"Elias's AI","timestamp":1788015942196}@@
+:::++}
 
 \#### The minimum vocabulary
 
@@ -35,9 +36,9 @@ H. Birkholz et al., [“Remote ATtestation procedureS (RATS) Architecture”](ht
 
 **Appraisal policy.** The rule that turns measured facts into a result such as “acceptable for this workload.” This is a policy judgment, not a property of the signature itself.
 
-\## A deployed primitive
+{--{"author":"Elias's AI","timestamp":1788015944438}@@\## A deployed primitive
 
-\#### A deployed primitive: current NVIDIA GPU attestation
+--}\#### A deployed primitive: current NVIDIA GPU attestation
 
 Current NVIDIA documentation describes an operational attestation chain for supported GPUs. Evidence is collected from the GPU, checked against signed Reference Integrity Measurements, evaluated locally or by NVIDIA’s Remote Attestation Service, and checked against certificate-revocation information. This is a useful deployed primitive because it makes the trust chain concrete.
 
