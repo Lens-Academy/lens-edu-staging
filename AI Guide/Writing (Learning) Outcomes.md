@@ -114,7 +114,7 @@ source:: [[../Lenses/My Topic]]
 
 Use [[../Lenses/Response to question segments]] as the single reference for question types, fields, defaults, and syntax. The same response segments work in surveys, lenses.
 
-Survey-specific rules:
+LO specific rules:
 
 - Surveys never grade. Do not use `assessment-instructions::` or `[x]` answer marks.
 - `#### Text` adds prose between questions, such as an introduction or section break. It takes `content::` but no `id::`. Its content is markdown; escape headings such as `\## Heading`.
