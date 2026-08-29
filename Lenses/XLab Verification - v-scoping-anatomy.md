@@ -43,12 +43,67 @@ to:: Sec. 93.011. EMERGENCY CLOSING. (a) If the officers of a savings bank deter
 
 #### Text
 content::
-\## Apply the Treaty-Reading Method
+\## {--{"author":"Elias's AI","timestamp":1788016175235}@@Apply--}{++{"author":"Elias's AI","timestamp":1788016175235}@@Assignment
 
-\## Assignment
+Open [[../Lenses/XLab Verification - v-paper-scher-treaty|the draft agreement]] prepared by the MIRI Technical Governance Team — Scher, Abecassis, Barnett, and Abeyta.
+
+Participants are not expected to read the document continuously from beginning to end. Instead, examine it article by article, focusing on the questions below.
+
+Read all 4 questions before beginning the examination of the agreement. Answer any 3 of the 4. All four are marked optional here so that the lens can be completed with any three; quote the words you are talking about.
+
+#### Question: Open
+id:: 5c257204-3687-4257-a4f3-ecb75d22e20f
+content:: **1. Distinguish between non-binding and binding provisions**
+
+Examine the Preamble and Article I. Identify and mark the exact point at which the text begins to impose a binding obligation on a specific actor. Explain which grammatical or legal features distinguish the provisions on either side of this point.
+
+Guidance: focus on the verbs used rather than on the section headings.
+optional:: true
+assessment-instructions:: Full credit needs three things: the learner quotes the specific words where the text first binds a specific actor (the transition out of preambular and purpose language into an operative obligation on a Party), names the grammatical markers on each side (aspirational or descriptive language such as recognizing, affirming, should, versus operative verbs such as shall, shall not, may not, addressed to a named Party), and shows++} the {--{"author":"Elias's AI","timestamp":1788016175235}@@Treaty-Reading Method--}{++{"author":"Elias's AI","timestamp":1788016175235}@@contrast with quotations from both sides. Partial credit for the right location without the verb analysis. Do not require agreement with the agreement's substance. No generic praise.++}
+
+{--{"author":"Elias's AI","timestamp":1788016175235}@@\## Assignment--}{++{"author":"Elias's AI","timestamp":1788016175235}@@#### Question: Open
+id:: e3c2359d-f159-4348-a44a-740924f23668
+content:: **2. Analyse the components of a prohibition**
+
+Select one prohibition contained in Article IV, V, VI, or VIII. Identify:
+
+- what a Party is required to do;
+- what a Party is required to refrain from doing;
+- what a Party is required to permit.
+
+A prohibition may not contain all three types of requirement. Support your answer with references to the relevant text.
+optional:: true
+assessment-instructions:: Full credit: one prohibition from Article IV, V, VI, or VIII is named; each of the three requirement types (do, refrain, permit) is either filled with a quoted or closely paraphrased clause or explicitly marked as absent from that prohibition; the references are to the actual text. Penalize answers that describe the article's purpose instead of its three duties, and answers that invent a duty the text does not contain. No generic praise.++}
+
+#### {--{"author":"Elias's AI","timestamp":1788016175235}@@Text--}{++{"author":"Elias's AI","timestamp":1788016175235}@@Question: Open++}
+{++{"author":"Elias's AI","timestamp":1788016175235}@@id:: 7d9b33a6-250c-41b3-aeb3-daae48c85383
+++}content:: {--{"author":"Elias's AI","timestamp":1788016175235}@@**Interactive exercise:** XLab's `treaty-workspace` widget has no direct Lens equivalent yet. Complete --}{++{"author":"Elias's AI","timestamp":1788016175235}@@**3. Locate the verification method**
+
+For the prohibition selected in Question 2, determine where the method for verifying compliance is established. Is it:
+
+- specified in the relevant article;
+- set out in an annex;
+- or left to an institution or other body to determine?
+
+Support your conclusion with a quotation from the agreement.
+
+Guidance: compare Articles VII and IX.
+optional:: true
+assessment-instructions:: Full credit: the learner picks one of the three locations for the prohibition chosen in Question 2 and supports ++}it {++{"author":"Elias's AI","timestamp":1788016175235}@@with a quotation from the agreement that shows where the method lives (the article itself, an annex, or a delegation to an institution or body). The comparison of Article VII (chip use verification) with Article IX (research restriction verification) should surface that the two prohibitions locate their methods differently. Partial credit for a correct location without a quotation. No generic praise.
+
+#### Question: Open
+id:: 9071fd5b-8b0f-4dd0-80bf-93960ebca7af
+content:: **4. Examine entry into force and withdrawal**
+
+Determine when the agreement enters into force and describe the procedure by which a Party may withdraw from it. Identify any applicable conditions or notice periods. Compare these provisions with the model clauses ++}in {++{"author":"Elias's AI","timestamp":1788016175235}@@Annex E of ++}the {--{"author":"Elias's AI","timestamp":1788016175235}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-anatomy). Its surrounding lesson text--}{++{"author":"Elias's AI","timestamp":1788016175235}@@Practice Guide to International Treaties.
+
+Relevant provision: Article XV, Withdrawal and Duration.
+optional:: true
+assessment-instructions:: Full credit: the entry-into-force condition++} is {--{"author":"Elias's AI","timestamp":1788016175235}@@preserved here.--}{++{"author":"Elias's AI","timestamp":1788016175235}@@stated from the text, the withdrawal procedure is described with its notice period and any conditions quoted from Article XV, and at least one concrete comparison is drawn with the model final clauses in Annex E of the Practice Guide (for example on notice periods, on who receives the notification, or on conditions attached to withdrawal). Partial credit for entry into force and withdrawal without the comparison. No generic praise.
 
 #### Text
-content:: **Interactive exercise:** XLab's `treaty-workspace` widget has no direct Lens equivalent yet. Complete it in the [original XLab lesson](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-anatomy). Its surrounding lesson text is preserved here.
+content::
+{>>{"author":"Elias's AI","timestamp":1788016175235}@@Native reproduction of XLab's treaty-workspace (src/lib/verification/data/treaty-workspace.ts and widgets/treaty-workspace.tsx). XLab's rule is "answer any 3 of the 4", so all four are optional with a bridge sentence. The two imported headings ("Apply the Treaty-Reading Method" was XLab's PageBreak title) are collapsed to the real "Assignment" heading.<<}++}
 
 #### Text
 content::
