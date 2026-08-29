@@ -24,7 +24,6 @@ Before editing, inspect both Markdown candidates completely and consult either H
 Create article.md by running exactly one of these commands once:
 - node /home/penguin/code/lens-relay/ws2/lens-editor/server/add-article/select-review-base.mjs <version>
 with <version> = rendered or <version> = unrendered.
-- node /home/penguin/code/lens-relay/ws2/lens-editor/server/add-article/select-review-base.mjs unrendered
 
 This is the only permitted shell command. It makes a byte-identical copy and records the selection. Never edit either candidate file or the selection record. After selecting, edit article.md in place. Do not replace or regenerate the whole article: recover missing material from the other candidate or HTML and preserve source wording.
 
