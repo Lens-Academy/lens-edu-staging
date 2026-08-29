@@ -221,7 +221,7 @@ State which neighbourhood you are comparing.
 :::
 ::::
 
-[^author-note]: This footnote uses standard Markdown footnote syntax.{++{"author":"Elias's AI","timestamp":1788012494825}@@
+[^author-note]: This footnote uses standard Markdown footnote syntax.{++{"author":"Elias's AI","timestamp":1788013205987}@@
 
 #### Text
 content::
@@ -235,7 +235,8 @@ Source:
 ::::callout {title="Quick check" tone="blue"}
 Answer before reading on.
 
-#### Question
+#### Question: Open
+id:: 3d0c2b7e-9f14-4a6b-8c5d-1e2f3a4b5c6d
 content:: In one sentence: what distinguishes a local minimum from a global one?
 optional:: true
 
@@ -249,7 +250,8 @@ Result:
 ::::callout {title="Quick check" tone="blue"}
 Answer before reading on.
 
-#### Question
+#### Question: Open
+id:: 3d0c2b7e-9f14-4a6b-8c5d-1e2f3a4b5c6d
 content:: In one sentence: what distinguishes a local minimum from a global one?
 optional:: true
 
