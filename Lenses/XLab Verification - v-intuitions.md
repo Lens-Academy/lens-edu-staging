@@ -260,7 +260,8 @@ content::
 
 \## [Optional] Additional Exercises & Materials
 
-#### Question
+#### Question: Open
+id:: 7f655c72-e353-42cc-87f1-bd7ada0f0593
 content:: [Optional] Task — Essay: what does success look like to you?
 
 Describe your own plausible success scenario for advanced AI governance. Think several steps beyond any single verification mechanism: what does a world that has successfully managed the relevant risks actually look like, and what agreement or institutional arrangement gets us there?
@@ -279,7 +280,8 @@ Keep this essay. You will return to it at the end of the track and see what, if 
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 optional:: true
 
-#### Question
+#### Question: Open
+id:: fbff5bec-4474-4ae1-8712-f9c97ceed1ff
 content:: [Optional] Explore AI 2027
 
 Read [AI 2027](https://ai-2027.com/), the same team’s earlier scenario, including both of its endings. As you read, ask the question this section trained: at which branch points would verification infrastructure have changed what the actors could credibly agree to?
