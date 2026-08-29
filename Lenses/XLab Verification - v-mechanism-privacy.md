@@ -44,6 +44,35 @@ The solution is **privacy-preserving verification**: mechanisms designed to veri
 
 No single mechanism provides complete verification. Hardware attestation and managed access can support bounded claims today. Workload telemetry has promising experimental results. Zero-knowledge proofs and secure multiparty computation are practical for selected tasks, but their use at frontier-training scale remains limited. A strong regime combines them: hardware provides trusted evidence, cloud mechanisms check selected computations, intelligence identifies suspicious activity, and inspectors resolve claims that remote methods cannot settle.
 
-Module 2 begins with the hardware layer. Section 2.1 examines how chips can identify themselves, report their state and location, measure workloads, and produce evidence that later cloud and institutional mechanisms can use.
+Module 2 begins with the hardware layer. {--{"author":"Elias's AI","timestamp":1788015881183}@@Section 2.1--}{++{"author":"Elias's AI","timestamp":1788015881183}@@[[../Lenses/XLab Verification - v-hw-attestation|Section 2.1]]++} examines how chips can identify themselves, report their state and location, measure workloads, and produce evidence that later cloud and institutional mechanisms can use.
 
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/mechanism-privacy)*
+{--{"author":"Elias's AI","timestamp":1788015881183}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/mechanism-privacy)*--}{++{"author":"Elias's AI","timestamp":1788015881183}@@#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+NVIDIA. "Hopper Single GPU Attestation Example." *NVIDIA Attestation Tools documentation*, NVIDIA. [docs.nvidia.com](https://docs.nvidia.com/attestation/quick-start-guide/latest/attestation-examples/hopper_single_gpu.html)
+*NVIDIA's own quick-start walkthrough of remotely attesting an H100 GPU in Confidential Computing mode: the working evidence that remote attestation already ships on AI hardware.*
+
+Tee, Wayne, and Jonathan Happel. "GPU Fingerprinting for Location Verification." *arXiv*, May 2026. [arxiv.org](https://arxiv.org/abs/2605.01930)
+*Proposes physical hardware fingerprints, rather than stored cryptographic keys an adversary with physical access could extract, as a way to re-identify individual GPUs, with up to 100 percent re-identification accuracy in small-scale tests.*
+
+Rahman, Robi, and Sabiha Tajdari. "Detecting Hidden ML Training With Zero-Overhead Telemetry." *arXiv*, June 2026. [arxiv.org](https://arxiv.org/abs/2606.19262)
+*A study classifying GPU workloads from privacy-preserving telemetry, reporting 98.2 percent accuracy at spotting concealed training runs.*
+
+Attestable. "From Verifiability to Model-Weight Security." Attestable. [attestable.com](https://attestable.com/blog/model-weights-security)
+*The company's own account of using sampled zero-knowledge output proofs to shrink a datacenter's security dependencies: early implementation evidence, as the lesson flags.*
+
+Peigné, Pierre, Ky Nguyen, and Paul Wang. "Zero knowledge verification for frontier AI training is possible." *arXiv*, June 2026. [arxiv.org](https://arxiv.org/abs/2606.05433)
+*The 2026 proposal estimating a future ZK system could verify dense frontier training at roughly 2–10 percent overhead, while naming thirteen unresolved technical problems and the training architectures it does not yet cover.*
+
+South, Tobin, Alexander Camuto, Shrey Jain, et al. "Verifiable evaluations of machine learning models using zkSNARKs." *arXiv*, Feb. 2024. [arxiv.org](https://arxiv.org/abs/2402.02675)
+*Shows a model's claimed evaluation results can be proved with zkSNARKs without revealing the weights behind them.*
+
+Huang, Pengzhi, Kiwan Maeng, and G. Edward Suh. "Beyond Latency: A System-Level Characterization of MPC and FHE for PPML." *arXiv*, Mar. 2026. [arxiv.org](https://arxiv.org/abs/2604.00169)
+*The system-level study of MPC (and FHE) for private machine learning behind the lesson's caveats: communication, preprocessing, memory, and latency are what keep large models hard.*
+
+Organisation for the Prohibition of Chemical Weapons. "Verification Annex, Part X: Challenge Inspections Pursuant to Article IX." *Chemical Weapons Convention*, OPCW. [opcw.org](https://www.opcw.org/chemical-weapons-convention/annexes/verification-annex/part-x-challenge-inspections-pursuant)
+*The CWC's managed-access rules: how an inspected state may shroud sensitive equipment and restrict analyses while challenge inspectors still resolve compliance questions.*
+
+XLab. "2.0.1 Privacy-Preserving Mechanisms." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/mechanism-privacy)
+*The source lesson this page adapts, including the five mechanism cards.*
+:::++}
