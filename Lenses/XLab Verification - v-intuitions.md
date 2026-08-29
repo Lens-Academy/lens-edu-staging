@@ -354,11 +354,67 @@ Scher and Thiergart, MIRI Technical Governance Team (2025)
 
 The primer bench: inspection games, credible commitment, and two-level games. One step at a time: commit, read why, then Continue.
 
-#### Text
-content:: **Interactive exercise:** XLab's `drills-primers` widget has no direct Lens equivalent yet. Complete it in the [original XLab lesson](https://aisafetytracks.com/tracks/verification/why-verification/building-intuitions). Its surrounding lesson text is preserved here.
+#### Question: Choice
+id:: b9535676-a824-44eb-a1c8-86556c0f0a80
+content:: In a well-designed inspection game, the inspector's optimal strategy drives the equilibrium violation rate to zero. True or false?
+options::
+- True
+- [x] False
+feedback-instructions:: Explain: false, and the word doing the damage is "zero". In Dresher-style inspection games the inspector has limited inspections, so the equilibrium involves randomized inspection and a nonzero violation rate. A regime that promises zero is overclaiming; a regime that prices the residual rate is doing game theory. Two or three sentences.
 
-#### Text
-content:: **Import gap:** XLab persistent memo desk has no clean Lens equivalent. Use the [original XLab lesson](https://aisafetytracks.com/tracks/verification/why-verification/building-intuitions) for this element.
+#### Question: Choice
+id:: 275e6f04-ff98-4616-8030-d36b03255ed9
+content:: Reputation, reciprocity, and retaliation can sustain compliance without any court, but every one of the three runs on detection. True or false?
+options::
+- [x] True
+- False
+feedback-instructions:: Explain: true. Each enforcement channel that works without a world government begins with noticing the violation. No detection, no deterrence; verification is upstream of every enforcement story. Two or three sentences.
+
+#### Question: Choice
+id:: 43fbcb43-c2b2-41ea-bee2-71882b642b3b
+content:: In Putnam's two-level game, a leader who signs in good faith and then fails domestic ratification has still defected, involuntarily. True or false?
+options::
+- [x] True
+- False
+feedback-instructions:: Explain: true. Two-level games distinguish voluntary defection (chose to cheat) from involuntary (couldn't deliver the home front). A verification regime must survive both; the second kind is why ratification constraints belong in feasibility analysis, not just bad faith. Two or three sentences.
+
+#### Question: Choice
+id:: 357a36a9-d41c-454c-a7e7-760afe1f3a0a
+content:: Series: sunk costs, tied hands, mechanical enforcement. Name the tightest concept that covers all three, and only them.
+options::
+- Game-theoretic concepts
+- [x] Fearon's ways of making a commitment credible
+- Forms of treaty punishment
+- Domestic ratification constraints
+shuffle:: true
+feedback-instructions:: Explain: the tightest true label wins. "Game-theoretic concepts" is true but hopelessly broad. Fearon (1997): burn resources up front (sunk cost), make backing down costly later (tied hands), or remove the choice entirely (mechanical enforcement). Two or three sentences.
+
+#### Question: Choice
+id:: bb588dec-c6e5-4fbf-a8fd-86c247d40895
+content:: Nine terms, deliberately over-stocked. Mark exactly the three terms that belong to strategic inspection.
+options::
+- [x] randomized inspection
+- tit-for-tat
+- [x] Dresher game
+- ratification constraint
+- [x] equilibrium violation rate
+- audience costs
+- grim trigger
+- cheap talk
+- Schelling focal point
+multi:: true
+shuffle:: true
+feedback-instructions:: Four families were mixed into the list: inspection games (randomized inspection: predictable inspectors are avoidable inspectors; Dresher game: the founding formalization of inspector vs. potential violator; equilibrium violation rate: the rate is nonzero at optimum), repeated cooperation (tit-for-tat, grim trigger), commitment credibility (audience costs, cheap talk), and coordination (Schelling focal point, ratification constraint belongs to two-level games). Name the family of each term the learner got wrong. Distractor density is part of the drill.
+
+#### Question: Choice
+id:: 3a2eb99c-70e9-4071-bd7c-78423aab2037
+content:: Syllogism. Premises: (1) No self-reporting mechanism is tamper-resistant. (2) All log-based regimes are self-reporting mechanisms. (3) Some treaty provisions are log-based regimes. Which conclusion follows necessarily? The full answer is the conclusion plus the picture: draw the circle diagram that justifies it.
+options::
+- No treaty provision is tamper-resistant
+- [x] Some treaty provisions are not tamper-resistant
+- Some tamper-resistant mechanisms are treaty provisions
+- All treaty provisions are self-reporting mechanisms
+feedback-instructions:: Explain by chaining the circles: the log-based circle sits wholly inside self-reporting (premise 2), and self-reporting is disjoint from tamper-resistant (premise 1); the treaty-provisions circle overlaps log-based (premise 3), so that overlap is forced outside tamper-resistant, an existential conclusion and nothing more. The rest of the provisions circle is unconstrained, which kills the "no" and "all" options; the third option is not derivable at all. Drawing the arrangement where the answer holds and the others fail is the justification.
 
 #### Text
 content::
