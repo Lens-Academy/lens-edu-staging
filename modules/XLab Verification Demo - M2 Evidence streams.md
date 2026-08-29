@@ -14,5 +14,5 @@ content::
 :::callout {title="Available in the full course" tone="blue"}
 Module 2 asks how compliance can produce evidence. It works through hardware, cloud, intelligence, and human or institutional mechanisms by the claims they test, the evidence they produce, their implementation demands, confidentiality costs, and failure modes.
 
-To go through it, sign up for the full course: [Compute Verification on Lens](https://lensacademy.org/courses/xlab-compute-verification).
+To go through it, sign up for the full course: [Compute Verification on Lens](https://lensacademy.org/courses/ai-verification).
 :::

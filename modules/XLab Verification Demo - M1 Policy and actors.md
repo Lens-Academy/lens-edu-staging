@@ -14,5 +14,5 @@ content::
 :::callout {title="This is where the demo ends" tone="blue"}
 Module 1 asks what exactly must be verified, and by whom: compute versus capability thresholds, effectiveness against feasibility, the anatomy of a pause agreement, and a map of every actor and lever across the compute supply chain.
 
-To go through it, sign up for the full course: [Compute Verification on Lens](https://lensacademy.org/courses/xlab-compute-verification).
+To go through it, sign up for the full course: [Compute Verification on Lens](https://lensacademy.org/courses/ai-verification).
 :::

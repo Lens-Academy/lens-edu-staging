@@ -14,5 +14,5 @@ content::
 :::callout {title="Available in the full course" tone="blue"}
 Module 4 asks what would be enough for a three-month emergency pause. It combines feasibility judgment, research practice, and regime design: you layer imperfect mechanisms, defend your choices, state your assumptions, and name the residual risk in a capstone project.
 
-To go through it, sign up for the full course: [Compute Verification on Lens](https://lensacademy.org/courses/xlab-compute-verification).
+To go through it, sign up for the full course: [Compute Verification on Lens](https://lensacademy.org/courses/ai-verification).
 :::

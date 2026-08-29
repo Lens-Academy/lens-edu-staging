@@ -14,5 +14,5 @@ content::
 :::callout {title="Available in the full course" tone="blue"}
 Module 3 asks how technical verification might work when parties have limited trust: the assumptions, design choices, adversarial circumvention, and unresolved problems of near-term low-trust compute verification.
 
-To go through it, sign up for the full course: [Compute Verification on Lens](https://lensacademy.org/courses/xlab-compute-verification).
+To go through it, sign up for the full course: [Compute Verification on Lens](https://lensacademy.org/courses/ai-verification).
 :::
