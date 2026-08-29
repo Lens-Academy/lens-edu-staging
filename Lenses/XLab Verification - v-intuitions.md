@@ -441,8 +441,8 @@ options::
 - No treaty provision is tamper-resistant
 - [x] Some treaty provisions are not tamper-resistant
 - Some tamper-resistant mechanisms are treaty provisions
-- All treaty provisions are self-reporting {--{"author":"Elias's AI","timestamp":1788014588121}@@mechanisms--}{++{"author":"Elias's AI","timestamp":1788014588121}@@mechanisms{>>{"author":"Elias's AI","timestamp":1788014588121}@@Order note: the "Works cited" segment currently lands before this question's "Why" callout; move it to the very end of the lens when accepting.<<}++}
-feedback-instructions:: Explain by chaining the circles: the log-based circle sits wholly inside self-reporting (premise 2), and self-reporting is disjoint from tamper-resistant (premise 1); the treaty-provisions circle overlaps log-based (premise 3), so that overlap is forced outside tamper-resistant, an existential conclusion and nothing more. The rest of the provisions circle is unconstrained, which kills the "no" and "all" options; the third option is not derivable at all. Drawing the arrangement where the answer holds and the others fail is the justification.{++{"author":"Elias's AI","timestamp":1788014499764}@@
+- All treaty provisions are self-reporting mechanisms{>>{"author":"Elias's AI","timestamp":1788014588121}@@Order note: the "Works cited" segment currently lands before this question's "Why" callout; move it to the very end of the lens when accepting.<<}
+feedback-instructions:: Explain by chaining the circles: the log-based circle sits wholly inside self-reporting (premise 2), and self-reporting is disjoint from tamper-resistant (premise 1); the treaty-provisions circle overlaps log-based (premise 3), so that overlap is forced outside tamper-resistant, an existential conclusion and nothing more. The rest of the provisions circle is unconstrained, which kills the "no" and "all" options; the third option is not derivable at all. Drawing the arrangement where the answer holds and the others fail is the justification.
 
 #### Text
 content::
@@ -461,7 +461,7 @@ Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement
 
 XLab. "0.2 Building Verification Intuitions." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/building-intuitions)
 *The source lesson this page adapts, including the essay prompts and the drill bench.*
-:::++}
+:::
 
 #### Text
 content::

@@ -57,9 +57,9 @@ A simple test to check if you are clear enough is to try explaining the project 
 - Conceptual AI Safety research may seem difficult to write a cohesive and tractable theory of change about—but it’s possible! See [this example by John Wentworth](https://www.lesswrong.com/posts/vh5ZjdmJYJgnbpq8C/the-plan-2025-update).
 - [Slow Food USA’s theory of change](https://slowfoodusa.org/theory-of-change/) — effective theory of change, conveyed in engaging and easy-to-parse visuals.
 
-{--{"author":"Elias's AI","timestamp":1788014647929}@@See the--}{++{"author":"Elias's AI","timestamp":1788014647929}@@![Slow Food USA's++} one-page{--{"author":"Elias's AI","timestamp":1788014647929}@@ diagram at [Our Theory --}{++{"author":"Elias's AI","timestamp":1788014647929}@@ theory ++}of {--{"author":"Elias's AI","timestamp":1788014647929}@@Change](https://slowfoodusa.org/theory-of-change/), Slow Food USA: --}{++{"author":"Elias's AI","timestamp":1788014647929}@@change: ++}assumptions and purpose at the top feed a mission, three pillars, and a tree whose canopy holds the future and vision, with values at the roots and roles and strategies {--{"author":"Elias's AI","timestamp":1788014647929}@@beneath.--}{++{"author":"Elias's AI","timestamp":1788014647929}@@beneath.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/xlab-verification-slow-food-theory-of-change.png)
+![Slow Food USA's one-page theory of change: assumptions and purpose at the top feed a mission, three pillars, and a tree whose canopy holds the future and vision, with values at the roots and roles and strategies beneath.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/xlab-verification-slow-food-theory-of-change.png)
 
-Image: [Our Theory of Change](https://slowfoodusa.org/theory-of-change/), Slow Food USA.++}{>>{"author":"Elias's AI","timestamp":1788009459586}@@Proposed: the image hotlinks XLab's asset server; link the original page instead. Alternative: copy the image into Lens.<<}
+Image: [Our Theory of Change](https://slowfoodusa.org/theory-of-change/), Slow Food USA.{>>{"author":"Elias's AI","timestamp":1788009459586}@@Proposed: the image hotlinks XLab's asset server; link the original page instead. Alternative: copy the image into Lens.<<}
 :::
 
 A common failure mode is conflating **outputs** with **outcomes**. Outputs are tangible products you produced: a paper, a benchmark, an eval, a workshop, a policy memo. They are easy to qualify and quantify. Outcomes are what changed because of those outputs: a lab altered a training procedure, a policymaker incorporated a threat model into a draft bill, a researcher updated their estimates. It’s more difficult but much more important to recognize and attribute outcomes. A project can generate impressive outputs—a well-cited paper, a popular benchmark, a successful conference—without any clarity as to how it actually creates change in the world.
@@ -89,7 +89,7 @@ feedback-instructions:: Point out any box where an output was written as an outc
 content::
 Theories of change are probabilistic, not deterministic: they depend on assumptions about how the world works that may be exaggerated or misguided. The point is not to predict the future; the point is to make your beliefs about why your work matters clear enough such that someone—could be your future self!—can notice discrepancies from reality, and course-correct.
 
-In sum: when someone asks you how your work changes the world, in a field that supposedly works towards saving it, you should have a ready, clear answer for them.{++{"author":"Elias's AI","timestamp":1788014492943}@@
+In sum: when someone asks you how your work changes the world, in a field that supposedly works towards saving it, you should have a ready, clear answer for them.
 
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 LiquiSearch. "Superconducting Super Collider: Cancellation." [liquisearch.com](https://www.liquisearch.com/superconducting_super_collider/cancellation)
@@ -112,4 +112,4 @@ Slow Food USA. "Our Theory of Change." [slowfoodusa.org](https://slowfoodusa.org
 
 XLab. "0.1.2 We Need More Theories of Change." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/theories-of-change)
 *The source lesson this page adapts.*
-:::++}{>>{"author":"Elias's AI","timestamp":1788009456054}@@Proposed: drop per-lesson XLab source footer.<<}
+:::{>>{"author":"Elias's AI","timestamp":1788009456054}@@Proposed: drop per-lesson XLab source footer.<<}

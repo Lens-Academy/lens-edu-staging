@@ -242,9 +242,9 @@ It’s clear that ASI is no longer a hypothetical risk. It will require delibera
 :::callout {title="Optional: A Short History of AI Acceleration" tone="neutral" collapse="closed"}
 How fast is fast? Two charts from Our World in Data's [brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai) show the pace.
 
-![Timeline of notable artificial intelligence systems and their capabilities, 1940 to {--{"author":"Elias's AI","timestamp":1788014644958}@@today](https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/ec3af0b6-4f4d-4a13-38d1-7f315f8f4c00/w=2332)--}{++{"author":"Elias's AI","timestamp":1788014644958}@@today](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/owid-timeline-notable-ai-systems.png)++}
+![Timeline of notable artificial intelligence systems and their capabilities, 1940 to today](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/owid-timeline-notable-ai-systems.png)
 
-![Test scores of AI systems on various capabilities relative to human performance, 1998 to {--{"author":"Elias's AI","timestamp":1788014644958}@@today](https://ourworldindata.org/grapher/test-scores-ai-capabilities-relative-human-performance.png)--}{++{"author":"Elias's AI","timestamp":1788014644958}@@today](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/owid-test-scores-ai-vs-human.png)++}
+![Test scores of AI systems on various capabilities relative to human performance, 1998 to today](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/owid-test-scores-ai-vs-human.png)
 
 Charts: Max Roser, [The brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai), Our World in Data (CC BY). Underlying benchmark data from Kiela et al., 2023. Interactive versions on the linked page.
 :::
@@ -389,7 +389,7 @@ One pattern jumps out fast. The field's center of gravity is the think-tank and 
 
 That unevenness is the opportunity. You are not arriving at a finished field. You are arriving at one with obvious empty squares, at a moment when which ones get filled is still open.
 
-*A snapshot, not a census. Efforts are illustrative examples, current to early 2026, and the field is moving quickly. Intensities are judgment calls meant to convey shape, not precise measurement.*{++{"author":"Elias's AI","timestamp":1788014479382}@@
+*A snapshot, not a census. Efforts are illustrative examples, current to early 2026, and the field is moving quickly. Intensities are judgment calls meant to convey shape, not precise measurement.*
 
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Yudkowsky, Eliezer, and Nate Soares. "AI Is Grown, Not Built." *The Atlantic*, 15 Sept. 2025. [theatlantic.com](https://www.theatlantic.com/technology/2025/09/if-anyone-builds-it-excerpt/684213/)
@@ -406,6 +406,6 @@ Roser, Max. "The Brief History of Artificial Intelligence: The World Has Changed
 
 XLab. "0.1 Introduction: Why Should You Care About AI Verification?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/introduction)
 *The source lesson this page adapts, including the leader profiles, the verification-problem exercise, and the landscape map.*
-:::++}
+:::
 {>>{"author":"Elias's AI","timestamp":1788009450337}@@Proposed: drop per-lesson XLab source footer.<<}
 
