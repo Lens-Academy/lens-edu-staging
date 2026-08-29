@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787136933754}@@---
+---
 eval-id: B1
 target: question
 tags:
@@ -33,4 +33,3 @@ Judge each question in the file separately; the check fails if any question fail
 
 - The *Trajectories with mechanisms and falsifiers* question (solar electricity cost trajectories) — deliberately set outside the course material; fully self-contained.
 - The *Decomposing an unanswerable question* question (driverless-taxi estimate) — supplies its whole scenario.
-++}
