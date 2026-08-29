@@ -74,11 +74,20 @@ zero-knowledge warhead-verification precedent (Glaser, Barak and Goldston,
 - Baker §2.3.3, on sharing and its limits.
 - *Six Layers*, on the national-versus-international architecture argument.
 
-**Unfinished writing**
+{--{"author":"Elias's AI","timestamp":1788015747456}@@**Unfinished writing**
 
-Two specified pieces are missing. The **Six Layers treatment** for this section
+--}{++{"author":"Elias's AI","timestamp":1788015747456}@@:::callout {title="Unfinished writing" tone="amber"}
+++}Two specified pieces are missing. The **Six Layers treatment** for this section
 has not been written up against its supporting context (NSS 2025 p. 13, Baker
 §2.3.3, *World Order* pp. 199–201). Neither have the **analysis questions on
-the treaty parts** that the section is meant to end on.
+the treaty parts** that the section is meant to end on.{++{"author":"Elias's AI","timestamp":1788015747456}@@
+:::
 
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-institutions)*
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+The readings this lesson names (the MIRI draft agreement, Baker, and *Six Layers*) are cited in the text without links; their full entries appear in the sibling lenses that link them.++}
+
+{--{"author":"Elias's AI","timestamp":1788015747456}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-institutions)*--}{++{"author":"Elias's AI","timestamp":1788015747456}@@XLab. "2.3.4 Intelligence institutions and treaty design." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-institutions)
+*The source lesson this page adapts.*
+:::++}
