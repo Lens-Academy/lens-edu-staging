@@ -65,8 +65,6 @@ The dominant defects in existing outcomes are recall tests and leading prompts. 
 - **Test the object, not the text.** The reading points at something (a mechanism, a distribution, a structural relationship). Test *that*, and prefer a case the readings do not contain. A question answerable by recalling the assigned text measures assignment completion. If the student can pass by remembering what an author said rather than by reasoning about the thing the author was describing, the question is wrong.
 - **Test the shape of the possibility space, including non-linear structure.** Where a topic has mathematical structure, the question should make that structure do work: not only "what happens" but under what interactions, thresholds, and combinations. Non-linear interactions between parts of a system are the most commonly untested and the most load-bearing: a student who models a system as a sum of independent parts will get the qualitative answer wrong whenever feedback, saturation, or a threshold matters. Ask by-when and under-what-conditions questions, not only whether-and-why ones.
 
-Temporary move: [[../../Lens/base/Deleted bits from 'writing learning outcomes']]
-
 ### Test Questions vs Practice Questions
 - distinguish between questions that test understanding of the world and questions that are good learning material but not good testing material.
 - All good test questions are good practice questions. Not all good practice questions are good test questions.
