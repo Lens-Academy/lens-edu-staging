@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1788008288485}@@---
+---
 tags:
   - validator-ignore
 ---
@@ -241,4 +241,3 @@ When all agents pass, report:
 - Every failure found and fixed.
 - Validator result.
 - Remaining human decisions.
-++}
