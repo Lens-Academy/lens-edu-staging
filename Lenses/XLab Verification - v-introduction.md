@@ -348,27 +348,31 @@ Verification for AI is a young field, and it is not spread evenly. Some corners 
 - Academia (3): a dense, fast-moving literature. Zero-knowledge ML (proofs that a model produced a given output or evaluation score without revealing weights), proof-of-learning (fragile so far: "more broken than you think"), secure multiparty computation. Largely disconnected from the governance actors who need it.
 - Think tanks (1): a handful of policy analyses on how ZKPs and secure computation could support AI treaties. A thin bridge and a clear candidate for growth.
 - Industry (1): zkML tooling and startups, mostly from the cryptography and blockchain world, not yet aimed at treaty-grade verification.
-- Gov (0): essentially empty. No public government program applies these methods to AI verification today. The mechanisms that could let one state verify another without seeing its secrets exist mainly as papers.
+- Gov (0): essentially empty. No public government program applies these methods to AI verification today. The mechanisms that could let one state verify another without seeing its secrets exist mainly as papers.{++{"author":"Elias's AI","timestamp":1788013691418}@@
+:::++}
 
-**Compute & supply chain.**
+{--{"author":"Elias's AI","timestamp":1788013691418}@@**Compute--}{++{"author":"Elias's AI","timestamp":1788013691418}@@:::callout {title="Compute++} & supply {--{"author":"Elias's AI","timestamp":1788013691418}@@chain.**--}{++{"author":"Elias's AI","timestamp":1788013691418}@@chain" tone="neutral" collapse="closed"}++}
 - Academia (1): some economics and computer science on compute trends and semiconductor supply chains.
 - Think tanks (3): one of the hottest squares. CSET (supply-chain analysis, the "AI Triad" framing), GovAI *Computing Power and the Governance of AI* (2024), RAND *Securing AI Model Weights* (2024), Epoch AI (compute and scaling data the whole field cites).
 - Industry (2): real activity driven by compliance: cloud know-your-customer, export-control licensing and end-use checks. Industry sits on the chokepoints; its cooperation makes verification there feasible at all.
-- Gov (3): the one place where government verification is genuinely muscular today: export control. US Bureau of Industry and Security; allied coordination with the Netherlands and Japan over lithography and tooling. The closest working analog to arms-control chokepoint monitoring.
+- Gov (3): the one place where government verification is genuinely muscular today: export control. US Bureau of Industry and Security; allied coordination with the Netherlands and Japan over lithography and tooling. The closest working analog to arms-control chokepoint monitoring.{++{"author":"Elias's AI","timestamp":1788013693467}@@
+:::++}
 
-**Monitoring & intelligence.**
+{--{"author":"Elias's AI","timestamp":1788013693467}@@**Monitoring--}{++{"author":"Elias's AI","timestamp":1788013693467}@@:::callout {title="Monitoring++} & {--{"author":"Elias's AI","timestamp":1788013693467}@@intelligence.**--}{++{"author":"Elias's AI","timestamp":1788013693467}@@intelligence" tone="neutral" collapse="closed"}++}
 - Academia (1): satellite analysis of data-center construction and research on energy signatures.
 - Think tanks (2): power draw, cooling, and chip procurement treated as compliance signals; the open-source cousin of national technical means.
 - Industry (1): holds the richest telemetry of all (cluster logs, usage monitoring) and does not share it.
-- Gov (2): real but classified. Intelligence-community tracking of chip procurement, data-center expansion, energy use, and financial flows: the modern equivalent of the test-ban sensor network, aimed at compute.
+- Gov (2): real but classified. Intelligence-community tracking of chip procurement, data-center expansion, energy use, and financial flows: the modern equivalent of the test-ban sensor network, aimed at compute.{++{"author":"Elias's AI","timestamp":1788013695207}@@
+:::++}
 
-**Institutions & agreements.**
+{--{"author":"Elias's AI","timestamp":1788013695207}@@**Institutions--}{++{"author":"Elias's AI","timestamp":1788013695207}@@:::callout {title="Institutions++} & {--{"author":"Elias's AI","timestamp":1788013695207}@@agreements.**--}{++{"author":"Elias's AI","timestamp":1788013695207}@@agreements" tone="neutral" collapse="closed"}++}
 - Academia (1): international-relations scholarship drawing verification lessons from nuclear, chemical, and biological regimes.
 - Think tanks (2): blueprints for a "CERN for AI" or an "IAEA for AI", plus treaty and verification-regime design. Long on designs, short on adoption.
 - Industry (2): voluntary self-governance, unverified by design: Anthropic's Responsible Scaling Policy, OpenAI's Preparedness Framework, Google DeepMind's Frontier Safety Framework. Commitments demonstrated without external verification, exactly the gap this course targets.
-- Gov (2): mostly evaluative and voluntary: the International Network of AI Safety Institutes (2024), US CAISI (housed in NIST), the UK AI Security Institute, and the IAEA and OPCW as living templates. The distance between this and the IAEA is the course's motivating gap.
+- Gov (2): mostly evaluative and voluntary: the International Network of AI Safety Institutes (2024), US CAISI (housed in NIST), the UK AI Security Institute, and the IAEA and OPCW as living templates. The distance between this and the IAEA is the course's motivating gap.{++{"author":"Elias's AI","timestamp":1788013697451}@@
+:::++}
 
-**Evaluations & standards.**
+{--{"author":"Elias's AI","timestamp":1788013697451}@@**Evaluations--}{++{"author":"Elias's AI","timestamp":1788013697451}@@:::callout {title="Evaluations++} & {--{"author":"Elias's AI","timestamp":1788013697451}@@standards.**--}{++{"author":"Elias's AI","timestamp":1788013697451}@@standards" tone="neutral" collapse="closed"}++}
 - Academia (2): benchmarks, red-teaming methods, and measurement science.
 - Think tanks (3): METR (dangerous-capability and autonomy evaluations) and Apollo Research (deception and scheming). The capability measurements any capability-based threshold would depend on.
 - Industry (2): in-house dangerous-capability evals and limited third-party pre-deployment testing. The evaluated party is often also the evaluator, the verification problem in miniature.
