@@ -49,7 +49,6 @@ A test may contain only gradable response segments and roleplays:
 
 `Question: Rating`, ungraded variants, prose segments, and bare `#### Question` should not be used. Use [[../Lenses/Response to question segments]] as single source of truth for question fields, defaults, and syntax.
 
-
 ## How to create a learning outcome
 
 1. Read the course file, the relevant module, and the content that currently teaches or motivates this capability. Read [[../Lenses/Response to question segments]] for question syntax.
