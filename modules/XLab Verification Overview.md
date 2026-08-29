@@ -7,23 +7,24 @@ tags: [wip]
 
 # Lens: About This Course
 id:: 8b2d3697-8a5f-4733-a40a-d6680ed45d54
-tldr:: This intermediate course develops technical, institutional, and legal judgment for making international AI agreements verifiable.
-summary_for_tutor:: Orient learners before XLab's numbered curriculum begins. Explain source and alpha status, direct feedback to XLab, then preview course purpose and five-module path. Do not teach later content in detail.
+tldr:: {++{"author":"Elias's AI","timestamp":1788015695787}@@Two rivals sign a deal to slow down AI. Neither trusts the other. ++}This {--{"author":"Elias's AI","timestamp":1788015695787}@@intermediate course develops--}{++{"author":"Elias's AI","timestamp":1788015695787}@@course is about how each could still check that the other kept its word: the++} technical, institutional, and legal {--{"author":"Elias's AI","timestamp":1788015695787}@@judgment for making international AI agreements verifiable.
+summary_for_tutor:: Orient learners before XLab's numbered curriculum begins. Explain source--}{++{"author":"Elias's AI","timestamp":1788015695787}@@machinery of verification.
+summary_for_tutor:: Orientation page before Module 0. Learner reads what the course asks, the five-module path,++} and {--{"author":"Elias's AI","timestamp":1788015695787}@@alpha status, direct feedback to XLab, then preview course purpose and five-module path.--}{++{"author":"Elias's AI","timestamp":1788015695787}@@that the material is an alpha from XLab with a feedback form.++} Do not teach later content in {--{"author":"Elias's AI","timestamp":1788015695787}@@detail.--}{++{"author":"Elias's AI","timestamp":1788015695787}@@detail; if asked, point to the module that covers it.++}
 #### Text
 content::
-\## Where this course comes from
+\## {--{"author":"Elias's AI","timestamp":1788015695787}@@Where--}{++{"author":"Elias's AI","timestamp":1788015695787}@@What++} this course {--{"author":"Elias's AI","timestamp":1788015695787}@@comes from--}{++{"author":"Elias's AI","timestamp":1788015695787}@@is about++}
 
-This is a faithful Lens import of [XLab's Verification course](https://aisafetytracks.com/tracks/verification), an intermediate curriculum on technical, institutional, and legal mechanisms that can make international AI agreements mutually credible and enforceable.
+{--{"author":"Elias's AI","timestamp":1788015695787}@@This--}{++{"author":"Elias's AI","timestamp":1788015695787}@@How could parties that do not trust one another verify meaningful limits on advanced AI development? That++} is {--{"author":"Elias's AI","timestamp":1788015695787}@@a faithful Lens import of [XLab's Verification course](https://aisafetytracks.com/tracks/verification), an intermediate curriculum on technical, institutional,--}{++{"author":"Elias's AI","timestamp":1788015695787}@@the question this course works through, from motivation and policy scope to concrete evidence, adversarial evasion,++} and {--{"author":"Elias's AI","timestamp":1788015695787}@@legal mechanisms that can make international AI agreements mutually credible--}{++{"author":"Elias's AI","timestamp":1788015695787}@@regime design. It was built by [XLab](https://xrisk.uchicago.edu/) at the University of Chicago++} and {--{"author":"Elias's AI","timestamp":1788015695787}@@enforceable.--}{++{"author":"Elias's AI","timestamp":1788015695787}@@is offered here on Lens.++}
 
-This is an **alpha version**. XLab is running a small paid cohort to test and calibrate its material before official launch. The curriculum will likely change substantially after that cohort. Treat sequence, framing, and exercises as provisional rather than settled.
+This is an **alpha version**. XLab is {--{"author":"Elias's AI","timestamp":1788015695787}@@running a small paid cohort to test and calibrate its material--}{++{"author":"Elias's AI","timestamp":1788015695787}@@testing and calibrating the material with a small cohort++} before official {--{"author":"Elias's AI","timestamp":1788015695787}@@launch. The--}{++{"author":"Elias's AI","timestamp":1788015695787}@@launch, and the++} curriculum will likely change{--{"author":"Elias's AI","timestamp":1788015695787}@@ substantially--} after {--{"author":"Elias's AI","timestamp":1788015695787}@@that cohort.--}{++{"author":"Elias's AI","timestamp":1788015695787}@@that.++} Treat sequence, framing, and exercises as {--{"author":"Elias's AI","timestamp":1788015695787}@@provisional rather than settled.--}{++{"author":"Elias's AI","timestamp":1788015695787}@@provisional.++}
 
-If you find something unclear, wrong, missing, or especially useful, please send feedback through [XLab's feedback form](https://forms.gle/KkWcHkKh87pygDzw9). Feedback helps XLab identify issues and improve its post-cohort rewrite.
+If you find something unclear, wrong, missing, or especially useful, please send feedback through [XLab's feedback form](https://forms.gle/KkWcHkKh87pygDzw9).{--{"author":"Elias's AI","timestamp":1788015695787}@@ Feedback helps XLab identify issues and improve its post-cohort rewrite.--}
 
-Some XLab exercises use custom interactive software that Lens cannot reproduce cleanly yet. Those pages preserve surrounding material and link to original XLab activity.
+{--{"author":"Elias's AI","timestamp":1788015695787}@@Some XLab exercises use custom interactive software that Lens cannot reproduce cleanly yet. Those pages preserve surrounding material and link to original XLab activity.
 
-\## What this course covers
+--}\##{--{"author":"Elias's AI","timestamp":1788015695787}@@ What this course covers
 
-Course asks how parties that do not trust one another could verify meaningful limits on advanced AI development. It moves from motivation and policy scope to concrete evidence, adversarial evasion, and regime design.
+Course asks how parties that do not trust one another could verify meaningful limits on advanced AI development. It moves from motivation and policy scope to concrete evidence, adversarial evasion, and regime design.--}{++{"author":"Elias's AI","timestamp":1788015695787}@@ The path++}
 
 \### Module 0: Foundations
 

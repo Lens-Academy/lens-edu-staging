@@ -1,9 +1,11 @@
 ---
 id: '53ac9af2-f8da-4859-9649-2e24c0d22e5c'
 title: "2.4 The human layer"
-tldr: "Faithful alpha import of XLab lesson 2.4 The human layer."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
-tags: [wip]
+tldr: {--{"author":"Elias's AI","timestamp":1788015702092}@@"Faithful alpha import--}{++{"author":"Elias's AI","timestamp":1788015702092}@@"Whistleblowers, interviews, audits, inspections: the cheapest verification tools to deploy and the easiest to fool. Like a witness on the stand, a person can be compelled to speak but not compelled to be truthful. This submodule teaches you to work out who could know, whether they would tell, and what an institution can honestly conclude from what they say."
+summary_for_tutor: "Opening page++} of {--{"author":"Elias's AI","timestamp":1788015702092}@@XLab lesson--}{++{"author":"Elias's AI","timestamp":1788015702092}@@submodule++} 2.4 {--{"author":"Elias's AI","timestamp":1788015702092}@@The--}{++{"author":"Elias's AI","timestamp":1788015702092}@@(the++} human {--{"author":"Elias's AI","timestamp":1788015702092}@@layer."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed--}{++{"author":"Elias's AI","timestamp":1788015702092}@@layer). One framing paragraph on human-based verification as enforceable but unreliable, then the four objectives for lenses 2.4.1 to 2.4.4. No questions++} on {--{"author":"Elias's AI","timestamp":1788015702092}@@XLab."--}{++{"author":"Elias's AI","timestamp":1788015702092}@@this page. If the learner asks about mechanisms, point them forward to 2.4.1 Insiders and human sources rather than lecturing here."++}
+tags: [wip]{++{"author":"Elias's AI","timestamp":1788015702092}@@
+duration_minutes: 3++}
 ---
 #### Text
 content::

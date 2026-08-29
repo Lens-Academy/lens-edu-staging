@@ -2,7 +2,7 @@
 id: '2e6bcfb5-ffc1-4274-a9eb-0dbe3524eb4d'
 slug: xlab-compute-verification
 title: "Compute Verification: XLab Alpha"
-description: "Faithful alpha import of XLab's complete compute-verification curriculum, preserving its five modules, lesson order, readings, and supported writing exercises. Unsupported custom interactions link back to their canonical XLab versions."
+description: {--{"author":"Elias's AI","timestamp":1788015702070}@@"Faithful alpha import of --}{++{"author":"Elias's AI","timestamp":1788015702070}@@"How could rival states check that each other actually stopped? ++}XLab's {--{"author":"Elias's AI","timestamp":1788015702070}@@complete compute-verification curriculum, preserving its five modules, lesson order, readings,--}{++{"author":"Elias's AI","timestamp":1788015702070}@@five-module course on making international AI agreements verifiable: why verification matters, what a treaty must cover and whom it binds, the hardware, cloud, intelligence, and human evidence streams, how a determined adversary evades them,++} and {--{"author":"Elias's AI","timestamp":1788015702070}@@supported writing exercises. Unsupported custom interactions link back to their canonical XLab versions."--}{++{"author":"Elias's AI","timestamp":1788015702070}@@a capstone that designs a regime for a three-month emergency pause. Alpha version."++}
 partner-name: XLab
 partner-url: https://aisafetytracks.com/verification/landing
 tags: [wip]

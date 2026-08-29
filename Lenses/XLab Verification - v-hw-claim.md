@@ -1,8 +1,8 @@
 ---
 id: '5cfb50dd-3ac7-4580-8861-8fb9253ea6f1'
 title: "2.1.1 Start with the claim, not the mechanism"
-tldr: "Faithful alpha import of XLab lesson 2.1.1 Start with the claim, not the mechanism."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
+tldr: {--{"author":"Elias's AI","timestamp":1788015702225}@@"Faithful alpha import of XLab lesson 2.1.1 Start with--}{++{"author":"Elias's AI","timestamp":1788015702225}@@"A chip can truthfully report six things and the treaty can still be broken. Learn to separate++} the {--{"author":"Elias's AI","timestamp":1788015702225}@@claim, not--}{++{"author":"Elias's AI","timestamp":1788015702225}@@policy goal,++} the {--{"author":"Elias's AI","timestamp":1788015702225}@@mechanism."--}{++{"author":"Elias's AI","timestamp":1788015702225}@@legal rule, and the narrow proposition a device actually tests, then ask three questions of any evidence: is it authentic, is it correct, is it complete?"++}
+summary_for_tutor: "Imported from XLab's {--{"author":"Elias's AI","timestamp":1788015702225}@@canonical --}Verification {--{"author":"Elias's AI","timestamp":1788015702225}@@curriculum. Preserve--}{++{"author":"Elias's AI","timestamp":1788015702225}@@curriculum; preserve++} source framing. {--{"author":"Elias's AI","timestamp":1788015702225}@@XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788015702225}@@Short reading: the working policy goal, legal rule and verification claim used throughout section 2.1; six narrow propositions hardware can test; authenticity, correctness, completeness. Ends with one open question (initial claim map) where the learner completes three sentences about the opening-puzzle artifact from lesson 2.1. Push the learner to keep the three sentences distinct and to name what remains outside the claim."++}
 tags: [wip]
 duration_minutes: 5
 ---
