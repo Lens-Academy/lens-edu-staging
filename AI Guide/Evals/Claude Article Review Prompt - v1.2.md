@@ -13,7 +13,7 @@ Step:
 3) Decide which markdown file is a better starting point to be edited into the final corrected markdown. And then create the article.md by running this command exactly once:
 node /home/penguin/code/lens-relay/ws2/lens-editor/server/add-article/select-review-base.mjs <version>
 with <version> = rendered or <version> = unrendered.
-4) The new article.md is editable. You should now use the candidate markdown files and the source HTML files to edit this document until it is both complete and correctly formatted. Together with the creation of article.md, you will gain access to the Lens Academy platforms's syntax validation of the two candidate markdown files. Note that this validator does not catch completeness issues—it just catches formatting. Extensive source-supported repairs are allowed and regularly needed.
+4) The new article.md is editable. You should now use the candidate markdown files and the source HTML files to edit this document until it is both complete and correctly formatted. Include only the article itself; remove reader comments, reactions, navigation, related content, widgets, and other page chrome. Together with the creation of article.md, you will gain access to the Lens Academy platforms's syntax validation of the two candidate markdown files. Note that this validator does not catch completeness issues—it just catches formatting. Extensive source-supported repairs are allowed and regularly needed.
 
 
 Additional evidence:
@@ -30,7 +30,7 @@ Use typed kebab-case footnote IDs: `[^cite-id]` for citations and `[^note-id]` f
 
 For JavaScript applications, inspect HTML-escaped article content inside JSON-LD or hydration scripts as primary rendered evidence.
 
-You may edit body content and the source-derived frontmatter fields title, author, published, and description. Do not change source_url, created, accessed, tags, llm-review provenance, other frontmatter fields, any paired %% authoring comment block, or any existing {>>{"author":"Luc's AI","timestamp":1787993766783}@@...<<} CriticMarkup comment. Preserve source wording; do not summarize, modernize, or silently omit text. Do not copy obvious typos or grammatical errors from the source. Do not make whitespace-only edits, reflow paragraphs, or change typography unless source fidelity requires it. Re-read every changed sentence against the source evidence. There is no edit-size limit: when article boundaries are clear, delete all imported comments, reactions, navigation, widgets, related-content blocks, and other page chrome, even if this removes most of the draft.
+You may edit body content and the source-derived frontmatter fields title, author, published, and description. Do not change source_url, created, accessed, tags, llm-review provenance, other frontmatter fields, any paired %% authoring comment block, or any existing {>>{"author":"Luc's AI","timestamp":1787993766783}@@...<<} CriticMarkup comment. Preserve source wording; do not summarize, modernize, or silently omit text. Do not copy obvious typos or grammatical errors from the source. Do not make whitespace-only edits, reflow paragraphs, or change typography unless source fidelity requires it. Re-read every changed sentence against the source evidence. There is no edit-size limit.
 
 Remove Creative Commons and other licensing notices from imported articles.
 
