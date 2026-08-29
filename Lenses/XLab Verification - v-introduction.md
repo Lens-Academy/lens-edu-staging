@@ -303,7 +303,65 @@ The field is young enough that the people learning it now will be the ones who b
 Here’s a map of what people are doing already. As you explore, start thinking: where could you be best positioned to contribute?
 
 #### Text
-content:: **Interactive exercise:** XLab's `verification-landscape` widget has no direct Lens equivalent yet. Complete it in the [original XLab lesson](https://aisafetytracks.com/tracks/verification/why-verification/introduction). Its surrounding lesson text is preserved here.
+content::
+\### The Verification Landscape: where the work is happening, and where it isn't
+
+Verification for AI is a young field, and it is not spread evenly. Some corners are crowded with research; others are nearly empty. This map lays the work out along two axes: the kind of verification down the side, and the who across the top. Activity levels: 0 = no activity yet, 1 = emerging, 2 = active, 3 = concentrated.
+
+| Kind of verification | Academia | Think tanks & nonprofits | Industry | Gov & int'l |
+|---|---|---|---|---|
+| Hardware mechanisms | 1 | 3 | 2 | 1 |
+| Cryptographic methods | 3 | 1 | 1 | 0 |
+| Compute & supply chain | 1 | 3 | 2 | 3 |
+| Monitoring & intelligence | 1 | 2 | 1 | 2 |
+| Institutions & agreements | 1 | 2 | 2 | 2 |
+| Evaluations & standards | 2 | 3 | 2 | 2 |
+
+**Rows (kind of verification).** *Hardware mechanisms*: verification built into the chip itself: unique identity, remote attestation, compute metering, and tamper-resistant on-chip processors that can prove what a device did or refused to do. *Cryptographic methods*: proving a property of a computation without revealing the underlying model, data, or code. *Compute & supply chain*: using the concentrated, physical compute supply chain, from lithography to chips to data centers, as the place where rules can be attached and checked. *Monitoring & intelligence*: inferring what is happening from outside signatures: energy draw, cooling, chip procurement, satellite imagery, financial activity, and cluster telemetry. *Institutions & agreements*: the bodies, treaties, and voluntary frameworks that would house commitments and, in principle, enforce them. *Evaluations & standards*: measuring what a model can actually do; any capability-based rule depends on evaluations that are trustworthy and hard to game.
+
+**Columns (who does the work).** *Academia*: university labs and published research. *Think tanks & nonprofits*: policy institutes and independent research organizations, the field's current center of gravity. *Industry*: frontier labs, chipmakers, and cloud providers, who hold the hardware and the data. *Gov & int'l*: states, agencies, and multinational bodies with the authority to mandate and enforce.
+
+**Hardware mechanisms.**
+- Academia (1): a thin but real base in hardware security (physically unclonable functions, trusted execution environments, secure boot), developed for general computer security. Supplies the building blocks that think-tank proposals assemble into governance mechanisms.
+- Think tanks (3): the intellectual center of gravity. RAND, *Hardware-Enabled Governance Mechanisms* (2024); CNAS, *Secure, Governable Chips* (2024); the FlexHEG report series (2025, commissioned by the UK's ARIA) proposing an on-chip "guarantee processor" for privacy-preserving compliance checks.
+- Industry (2): holds the substrate but is not building governance features. Confidential computing (e.g. NVIDIA), secure boot and attestation exist to protect the chip's owner, while verification tries to check on the owner. Same silicon, opposite goal.
+- Gov (1): nascent. ARIA commissioned FlexHEG; on-chip location verification has surfaced in US export-control debate. If any hardware mechanism matures, government is the actor that would mandate it.
+
+**Cryptographic methods.**
+- Academia (3): a dense, fast-moving literature. Zero-knowledge ML (proofs that a model produced a given output or evaluation score without revealing weights), proof-of-learning (fragile so far: "more broken than you think"), secure multiparty computation. Largely disconnected from the governance actors who need it.
+- Think tanks (1): a handful of policy analyses on how ZKPs and secure computation could support AI treaties. A thin bridge and a clear candidate for growth.
+- Industry (1): zkML tooling and startups, mostly from the cryptography and blockchain world, not yet aimed at treaty-grade verification.
+- Gov (0): essentially empty. No public government program applies these methods to AI verification today. The mechanisms that could let one state verify another without seeing its secrets exist mainly as papers.
+
+**Compute & supply chain.**
+- Academia (1): some economics and computer science on compute trends and semiconductor supply chains.
+- Think tanks (3): one of the hottest squares. CSET (supply-chain analysis, the "AI Triad" framing), GovAI *Computing Power and the Governance of AI* (2024), RAND *Securing AI Model Weights* (2024), Epoch AI (compute and scaling data the whole field cites).
+- Industry (2): real activity driven by compliance: cloud know-your-customer, export-control licensing and end-use checks. Industry sits on the chokepoints; its cooperation makes verification there feasible at all.
+- Gov (3): the one place where government verification is genuinely muscular today: export control. US Bureau of Industry and Security; allied coordination with the Netherlands and Japan over lithography and tooling. The closest working analog to arms-control chokepoint monitoring.
+
+**Monitoring & intelligence.**
+- Academia (1): satellite analysis of data-center construction and research on energy signatures.
+- Think tanks (2): power draw, cooling, and chip procurement treated as compliance signals; the open-source cousin of national technical means.
+- Industry (1): holds the richest telemetry of all (cluster logs, usage monitoring) and does not share it.
+- Gov (2): real but classified. Intelligence-community tracking of chip procurement, data-center expansion, energy use, and financial flows: the modern equivalent of the test-ban sensor network, aimed at compute.
+
+**Institutions & agreements.**
+- Academia (1): international-relations scholarship drawing verification lessons from nuclear, chemical, and biological regimes.
+- Think tanks (2): blueprints for a "CERN for AI" or an "IAEA for AI", plus treaty and verification-regime design. Long on designs, short on adoption.
+- Industry (2): voluntary self-governance, unverified by design: Anthropic's Responsible Scaling Policy, OpenAI's Preparedness Framework, Google DeepMind's Frontier Safety Framework. Commitments demonstrated without external verification, exactly the gap this course targets.
+- Gov (2): mostly evaluative and voluntary: the International Network of AI Safety Institutes (2024), US CAISI (housed in NIST), the UK AI Security Institute, and the IAEA and OPCW as living templates. The distance between this and the IAEA is the course's motivating gap.
+
+**Evaluations & standards.**
+- Academia (2): benchmarks, red-teaming methods, and measurement science.
+- Think tanks (3): METR (dangerous-capability and autonomy evaluations) and Apollo Research (deception and scheming). The capability measurements any capability-based threshold would depend on.
+- Industry (2): in-house dangerous-capability evals and limited third-party pre-deployment testing. The evaluated party is often also the evaluator, the verification problem in miniature.
+- Gov (2): CAISI and the UK AI Security Institute, NIST standards, the UK's open-source "Inspect" tool. Independence and authority still being defined.
+
+One pattern jumps out fast. The field's center of gravity is the think-tank and nonprofit column, not government or industry. Most of what exists today is analysis and proposal. The hard mechanisms, especially the cryptographic ones that would let a state check a rival without seeing its secrets, sit mostly in academic papers with no public-sector home. The single place where government verification is genuinely muscular is export control, one square in the whole grid.
+
+That unevenness is the opportunity. You are not arriving at a finished field. You are arriving at one with obvious empty squares, at a moment when which ones get filled is still open.
+
+*A snapshot, not a census. Efforts are illustrative examples, current to early 2026, and the field is moving quickly. Intensities are judgment calls meant to convey shape, not precise measurement.*
 
 #### Text
 content::
