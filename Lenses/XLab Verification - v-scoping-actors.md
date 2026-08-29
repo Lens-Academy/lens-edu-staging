@@ -32,7 +32,7 @@ Table 1.  The incentive vocabulary
 
 Keep in mind that these are postures, not fixed personality types. The same actor can comply on one obligation, hide on another, and free-ride on a third, all in the same quarter. The interesting question is never “is this actor good.” It is “what does this actor do under this rule, at this moment, given what it costs.” That cost framework will be recurring throughout the course and policy frameworks, so it’s important to internalize an understanding and instinct for it.
 
-Let’s start with nation-states, since they are the ones that sign. A state matters to verification roughly in proportion to what passes through its territory and its law. Six states cover most of the compute supply chain that 1.2.1 maps.
+Let’s start with nation-states, since they are the ones that sign. A state matters to verification roughly in proportion to what passes through its territory and its law. Six states cover most of the compute supply chain that {--{"author":"Elias's AI","timestamp":1788016433607}@@1.2.1--}{++{"author":"Elias's AI","timestamp":1788016433607}@@[[../Lenses/XLab Verification - v-interactive-map|1.2.1]]++} maps.
 
 Table 2.  States, by position on the compute supply chain
 
@@ -49,9 +49,9 @@ It’s also important to name the European Union. Even though as a whole, the EU
 
 Now, the next level.
 
-\## Institutions below, inside, and above the state
+\## {--{"author":"Elias's AI","timestamp":1788016435534}@@Institutions--}{++{"author":"Elias's AI","timestamp":1788016435534}@@Below the state{>>{"author":"Elias's AI","timestamp":1788016435534}@@"Institutions++} below, inside, and above the {--{"author":"Elias's AI","timestamp":1788016435534}@@state
 
-\## Below the state
+\## Below --}{++{"author":"Elias's AI","timestamp":1788016435534}@@state" was XLab's PageBreak title, imported as a duplicate heading; kept only ++}the {--{"author":"Elias's AI","timestamp":1788016435534}@@state--}{++{"author":"Elias's AI","timestamp":1788016435534}@@real heading.<<}++}
 
 Subnational governments regulate too, and this is often easier and/or happens earlier than federal regulation. California is this course’s running example because most frontier labs are physically headquartered there, and jurisdiction follows geography.
 
