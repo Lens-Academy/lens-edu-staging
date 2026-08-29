@@ -28,44 +28,6 @@ This guide has two parts:
 13. Spawn every validation agent below with its exact instructions, the LO file, its module, its teaching lenses and sources, and the course context. Each agent judges independently and never edits.
 14. Fix every failure. Spawn fresh versions of failed agents. Repeat until all checks pass. Report iteration count and failures to the user.
 
-## Minimal file shape
-
-```markdown
----
-id: '<learning-outcome-uuid>'
-learning-outcome: <observable capability>
-domain: "[[../Domains/<domain>]]"
-stage: beginner
-requires:
-  - "[[Other prerequisite LO]]"
----
-## Test:
-id:: <test-uuid>
-
-#### Question: Open
-id:: <question-uuid>
-content:: <self-contained test question>
-assessment-instructions:: <0-to-100 grading brief>
-feedback-instructions:: <optional learner-facing feedback brief>
-
-# Suggested Lenses:
-## Lens:
-source:: [[../Lenses/<candidate teaching lens>]]
-notes:: <optional author note>
-```
-
-One `## Test:` may contain several gradable questions or roleplays. Each item receives its own score. Current platform does not combine item scores into an LO-level pass/fail result. Test completes after learner submits every required item, regardless of scores. LO completion tracks completion of required content and test, not demonstrated mastery. Item scores contribute separately to course assessment.
-
-A test may contain only gradable response segments and roleplays:
-
-- `Question: Open` with `assessment-instructions::`
-- `Question: Choice` with at least one `[x]`
-- `Question: FillBlank` with at least one graded blank
-- `Question: Ranking` with `assessment-instructions::`
-- `Roleplay`
-
-`Question: Rating`, ungraded variants, prose segments, and bare `#### Question` are invalid in tests. Use [[../Lenses/Response to question segments]] as single source of truth for question fields, defaults, and syntax.
-
 ## Validation instructions
 
 Give every agent:

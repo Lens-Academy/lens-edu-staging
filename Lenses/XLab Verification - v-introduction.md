@@ -18,8 +18,11 @@ Module 0—this module—establishes the motivations for why verification is imp
 - Interrogate a concrete verification proposal and identify its general strengths, failure modes, and assumptions it depends on—then form a coherent, defendable position on it.
 - Reconstruct the causal logic of a historical verification regime and determine which parts of that logic can and cannot be transferred to AI treaty verification.
 
-[Watch: The Catastrophic Risks of AI — and a Safer Path | Yoshua Bengio | TED](https://www.youtube.com/watch?v=qe9QSCF-d88)
+#### Video
+source:: [[../video_transcripts/ted-the-catastrophic-risks-of-ai-and-a-safer-path-yoshua-bengio-ted]]
 
+#### Text
+content::
 \## [Optional] Material
 
 The case at full strength, from the people who argue it most directly. Any one of these:
