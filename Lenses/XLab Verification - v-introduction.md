@@ -244,9 +244,11 @@ Source: [Pacing the Frontier](https://www.pacingthefrontier.com/), signatory com
 
 It’s clear that ASI is no longer a hypothetical risk. It will require deliberate and proactive action by labs and governments alike to avoid.
 
-\## [Optional] A Short History of AI Acceleration
+{--{"author":"Elias's AI","timestamp":1788010934483}@@\## [Optional]--}{++{"author":"Elias's AI","timestamp":1788010934483}@@:::callout {title="Optional:++} A Short History of AI {--{"author":"Elias's AI","timestamp":1788010934483}@@Acceleration
 
-How fast is fast? Two charts from Our World in Data's [brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai) show the pace.
+--}{++{"author":"Elias's AI","timestamp":1788010934483}@@Acceleration" tone="neutral" collapse="closed"}
+++}How fast is fast? Two charts from Our World in Data's [brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai) show the {--{"author":"Elias's AI","timestamp":1788010934483}@@pace.--}{++{"author":"Elias's AI","timestamp":1788010934483}@@pace: a timeline of notable AI systems from 1940 on, and a chart of how fast AI systems caught up with human performance on benchmarks (Kiela et al., 2023). The charts are interactive and cannot be embedded here; open them on Our World in Data.
+:::++}
 
 #### Text
 content:: **Interactive charts:** XLab's `short-history` widget is a draggable timeline of notable AI systems (1940 to 2060) and a benchmark chart (data from Kiela et al., 2023), both adapted from Our World in Data. Lens has no chart segment yet. View the originals at [Our World in Data](https://ourworldindata.org/brief-history-of-ai).{>>{"author":"Elias's AI","timestamp":1788009452090}@@Proposed: link only to Our World in Data (the original), not XLab.<<}
