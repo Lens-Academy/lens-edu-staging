@@ -34,15 +34,17 @@ A treaty-grade accounting rule must define:
 
 Existing performance counters and management telemetry can measure useful quantities, but ordinary counters are not automatically suitable for adversarial verification. Hardware-mechanism surveys note that some existing counters can be reset or controlled by users. A stronger design needs a protected measurement path, secure state, authenticated reporting, freshness, and aggregation rules that the operator cannot silently rewrite.
 
-**Src**
-O’Gara et al., *Hardware-Enabled Mechanisms for Verifying Responsible AI Development* — [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025; the sections on compute accounting, workload classification, cluster configuration, location verification, and offline licensing.
+{--{"author":"Elias's AI","timestamp":1788015978225}@@**Src**--}{++{"author":"Elias's AI","timestamp":1788015978225}@@:::callout {title="Source" tone="neutral" collapse="closed"}++}
+O’Gara et al., *Hardware-Enabled Mechanisms for Verifying Responsible AI Development* — [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025; the sections on compute accounting, workload classification, cluster configuration, location verification, and offline licensing.{++{"author":"Elias's AI","timestamp":1788015978225}@@
+:::++}
 
 Even perfect accounting verifies the threshold, not the policy goal. Algorithmic, architectural, and data improvements can produce more capability at the same counted compute. A fixed threshold therefore has an update condition.
 
-**Prompt**
-What quantity did the meter record, and how closely does that quantity match the legal rule?
+{--{"author":"Elias's AI","timestamp":1788015978225}@@**Prompt**--}{++{"author":"Elias's AI","timestamp":1788015978225}@@:::callout {title="Question to keep visible" tone="blue"}++}
+What quantity did the meter record, and how closely does that quantity match the legal rule?{--{"author":"Elias's AI","timestamp":1788015978225}@@
 
-\## Workload classification
+\## Workload classification--}{++{"author":"Elias's AI","timestamp":1788015978225}@@
+:::++}
 
 \#### Workload classification
 
