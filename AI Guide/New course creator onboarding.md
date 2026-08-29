@@ -22,6 +22,8 @@ Read the course file first, then follow its module links from top to bottom. It 
 
 With the MCP, your AI will also have context on everything, so you can just ask it about whatever you want to know.
 
+C
+
 You can explore the learner-facing platform here:
 
 https://lensacademy.org/
