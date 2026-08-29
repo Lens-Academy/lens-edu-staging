@@ -1,13 +1,14 @@
 ---
 id: '5991339a-c9ea-48cd-8b62-ded2834a0792'
 title: "1.2.2 Who can prove what"
-tldr: "Faithful alpha import of XLab lesson 1.2.2 Who can prove what."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
+tldr: {--{"author":"Elias's AI","timestamp":1788016641293}@@"Faithful alpha import of XLab lesson 1.2.2 Who--}{++{"author":"Elias's AI","timestamp":1788016641293}@@"Verification is not something an actor has; it is an arrow between two of them: A++} can {--{"author":"Elias's AI","timestamp":1788016641293}@@prove what."--}{++{"author":"Elias's AI","timestamp":1788016641293}@@put a fact in front of a verifier about B that B did not volunteer. Draw the arrows on the board you built in 1.2, key them against Baker et al.'s four subgoals, and count. Ten of seventeen actors have no arrow at all, and one chip designer is holding up three of the four subgoals."++}
+summary_for_tutor: {--{"author":"Elias's AI","timestamp":1788016641293}@@"Imported--}{++{"author":"Elias's AI","timestamp":1788016641293}@@"One exercise on the 17-actor board++} from {++{"author":"Elias's AI","timestamp":1788016641293}@@1.2. The learner lists directed edges (A to B) and the Baker et al. subgoal each one settles (1.A declared uses are accurate, 1.B declared uses have the required properties, 2.A no undeclared use of a declared cluster, 2.B no undeclared clusters at all), graded against ++}XLab's {--{"author":"Elias's AI","timestamp":1788016641293}@@canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed --}{++{"author":"Elias's AI","timestamp":1788016641293}@@seven-edge key: Cloud providers to Frontier labs (1.A), NVIDIA to Frontier labs (1.B), NVIDIA to Cloud providers (2.A), TSMC to Proxies (2.B), NVIDIA to Proxies (2.B), Intelligence community to China (2.B), Intelligence community to Proxies (2.B). A reversed edge is reported as reversed, not as a miss. The key, the per-actor notes on why ten actors have no edge, and the closing finding (2.B has four edges, the other subgoals one each, NVIDIA ++}on {--{"author":"Elias's AI","timestamp":1788016641293}@@XLab."--}{++{"author":"Elias's AI","timestamp":1788016641293}@@three of seven, six of seven arrowheads point at a company or a shell) are in closed callouts; reveal them only after the learner commits. Every quoted mechanism is from Baker et al. 2025 (arXiv 2507.15916)."++}
 tags: [wip]
+duration_minutes: 20
 ---
 #### Text
 content::
-1.2 asked what part each actor plays in a declaration: who owes one, who holds
+{--{"author":"Elias's AI","timestamp":1788016645422}@@1.2--}{++{"author":"Elias's AI","timestamp":1788016645422}@@[[../Lenses/XLab Verification - v-scoping-actors|1.2]]++} asked what part each actor plays in a declaration: who owes one, who holds
 evidence about one, who checks one, and who no declaration covers. That map is
 a description. This is what you do with it.
 
