@@ -24,7 +24,7 @@ With the MCP, your AI will also have context on everything, so you can just ask 
 
 Changes by your AI will mostly appear as suggestions that you can accept in the file, or in bulk here: https://editor.lensacademy.org/review (Filter suggestions by your name)
 
-Once 
+
 
 You can explore the learner-facing platform here:
 
