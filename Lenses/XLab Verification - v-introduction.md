@@ -251,13 +251,13 @@ It’s clear that ASI is no longer a hypothetical risk. It will require delibera
 :::++}
 
 #### Text
-content:: **Interactive charts:** XLab's `short-history` widget is a draggable timeline of notable AI systems (1940 to 2060) and a benchmark chart (data from Kiela et al., 2023), both adapted from Our World in Data. Lens has no chart segment yet. View the originals at [Our World in Data](https://ourworldindata.org/brief-history-of-ai).{>>{"author":"Elias's AI","timestamp":1788009452090}@@Proposed: link only to Our World in Data (the original), not XLab.<<}
+content:: {--{"author":"Elias's AI","timestamp":1788010963577}@@**Interactive charts:** XLab's `short-history` widget is a draggable timeline of notable AI systems (1940 to 2060) and a benchmark chart (data from Kiela et al., 2023), both adapted from Our World in Data. Lens has no chart segment yet. View the originals at--}{++{"author":"Elias's AI","timestamp":1788010963577}@@Charts:++} [Our World in Data](https://ourworldindata.org/brief-history-of-ai).{>>{"author":"Elias's AI","timestamp":1788009452090}@@Proposed: link only to Our World in Data (the original), not XLab.<<}
 
 #### Text
 content::
-\## Why verification enters the picture
+{--{"author":"Elias's AI","timestamp":1788010961367}@@\## Why verification enters the picture
 
-\## Preventing ASI via International and Verifiable Agreements
+--}\## Preventing ASI via International and Verifiable Agreements
 
 We’ve established that ASI poses a material existential threat to humanity, with increasingly concerning real-world examples. How could an international agreement prevent the development of ASI from occurring, and how does verification fit into this solution?
 
