@@ -87,8 +87,91 @@ In each answer:
 - distinguish the text’s claims from your own inferences;
 - support your analysis with specific evidence.
 
-#### Text
-content:: **Interactive exercise:** XLab's `packet-tasks` widget has no direct Lens equivalent yet. Complete it in the [original XLab lesson](https://aisafetytracks.com/tracks/verification/why-verification/precedents). Its surrounding lesson text is preserved here.
+#### Question: Open
+id:: 5af30446-99ef-4208-becd-4ff2d17c5e60
+content:: **Task 1. Object and purpose** (optional; max 200 words)
+
+Document 1 refers to nuclear material, nuclear activities, and nuclear weapons. Identify:
+
+1. the immediate object to which comprehensive safeguards are applied;
+2. the obligation accepted by the state;
+3. the broader outcome that safeguards are intended to prevent.
+
+Then explain why the following conclusion is broader than the text permits:
+
+> If all declared nuclear material remains accounted for, the state has no nuclear-weapons programme.
+optional:: true
+assessment-instructions:: Model answer. (1) Immediate object: nuclear material; under a CSA a State accepts safeguards on all nuclear material in all peaceful nuclear activities within its territory, under its jurisdiction, or carried out under its control anywhere. (2) Obligation: to place that material under safeguards and allow the IAEA to verify; under the NPT, not to produce or otherwise acquire nuclear weapons. (3) Broader outcome: non-proliferation, verifying that safeguarded material is not diverted to nuclear weapons or other explosive devices. Why the conclusion overreaches: what is accounted for is declared material; Document 1 claims only that such material has not been diverted and says nothing about material or activities never declared. Moving to "no weapons programme" supplies an unstated premise: that the declaration is complete. Award full credit when all three identifications are correct and the completeness premise is named; partial credit otherwise. Penalize answers that do not distinguish the text's claims from the learner's inferences.
+feedback-instructions:: State which of the three identifications were right, whether the learner named the missing completeness premise, then share these Baker (2023) excerpts as reveal material: (a) §3.2.1: "CSAs are intended to (just) verify the peaceful use of nuclear materials at known nuclear facilities, rather than also detecting secret nuclear facilities." (b) §1.3: acquiring weapon-usable nuclear material is the hardest step in making nuclear weapons; uranium and plutonium are rare and emit radiation, which makes them unusually easy to track. (c) §3.2.3: detecting undeclared facilities has two steps, finding evidence suggesting a state might have undeclared facilities, and resolving suspicions about them. No generic praise.
+
+#### Question: Open
+id:: 2fd21c66-3d30-4534-a862-8c1e24a831df
+content:: **Task 2. Division of labour** (optional; max 200 words)
+
+Document 2 proposes three components:
+
+- chip-level activity logging;
+- inspection and analysis of the logs of a sufficient subset of chips;
+- supply-chain monitoring.
+
+For each component, identify the problem it solves. Then explain why removing any one component would create a distinct route for evasion.
+
+Your answer should show the division of labour among the three instruments, rather than merely describe how each instrument operates.
+optional:: true
+assessment-instructions:: Model answer. Chip-level logging creates a durable trace of which computations a chip took part in; without it, registered chips are used for a prohibited run that leaves no verifiable record. Log inspection and analysis turns the chips' records into a determination (whether a rules-violating run took place) from a sufficient sample; without it, logs accumulate but no one converts them into a detection. Supply-chain monitoring secures the completeness of the chip inventory from which the inspection sample is drawn; without it, a violator acquires unregistered chips that never enter the sample. The components are not interchangeable: a log nobody inspects detects nothing; an inspection with no attested log has nothing trustworthy to examine; both are useless against chips whose existence the verifier does not know of. Full credit requires a distinct evasion route per missing component, not just descriptions of each instrument.
+feedback-instructions:: Name any component whose evasion route was missing or duplicated another's. Then note: Baker independently supports the need for persistent chip records and complete chip accountancy. No generic praise.
+
+#### Question: Open
+id:: 361b5dfb-7542-47c2-8b20-ef80bc622435
+content:: **Task 3. Grounds and limits of the analogy** (optional; max 200 words)
+
+Identify three conditions that must hold for Shavit's system to provide credible assurance:
+
+- one concerning the technical structure of advanced AI development;
+- one concerning the chip supply chain;
+- one concerning the powers or capabilities of the verifier.
+
+For each condition:
+
+1. state whether it is explicit in Document 2 or inferred from the proposed mechanism;
+2. explain what conclusion would cease to be justified if the condition failed.
+optional:: true
+assessment-instructions:: Model answer. Technical structure: the training runs the rules target require large quantities of specialised data-centre chips. Explicit (Document 2 restricts its focus to specialised data-center chips and leaves personal devices alone). If it fails: a clean chip regime says nothing about a prohibited run reachable on far fewer chips or on personal devices. Supply chain: every chip is accounted for, so no actor can secretly acquire chips and underclaim its total. Explicit (stated purpose of the third component). If it fails: inspecting a subset no longer licenses a statement about all of an actor's chips; the sample is drawn from a mis-measured population. Verifier: inspectors can obtain and analyse the logs of a sufficient subset, and logging and attestation hold against a determined adversary. Part explicit (inspection step, confidentiality-preserving logging), part inferred (robustness against nation-state circumvention is what the framework "aspires to"; access is assumed rather than established). If it fails: "no violation found" no longer means "no violation". The three are distinct claims: what the prohibited activity needs, whether the verifier knows the population, whether it can read it. Full credit requires all three, each labelled explicit or inferred, each with the conclusion that fails.
+feedback-instructions:: Say which condition was weakest or missing. Then share Baker (2023) as reveal material: the correct analogy is verified accountancy of a chokepoint, not "chips are like uranium". Appendix A lists similarities (dual-use equipment and facilities; verified accounting of uranium in one case and high-end AI chips in the other) and differences (no analogue to environmental sampling for AI; nuclear M&V never had to verify information-technology use via source code, hardware, or models; the chip supply chain is highly concentrated while uranium sources are decentralized). §6.1: with certain preparations, the foreseeable challenges of hardware-based verification of rules on highly compute-intensive AI development would mostly be challenges that were successfully addressed in nuclear arms control; chip-based verification cannot address all important risks from AI. Executive summary: if rules' scope were highly compute-intensive AI development in data centers (so commodity chips offer no loophole), direct inspection costs would be lower than or roughly similar to those states accepted for nonproliferation. No generic praise.
+
+#### Question: Open
+id:: b6ac80e3-aa4f-4ce2-b8e8-3d1e38927887
+content:: **Task 4. Why Iraq was missed** (optional; max 200 words)
+
+Document 3 describes clandestine nuclear activities that remained undetected while routine safeguards continued at declared facilities.
+
+Explain how the safeguards system could be operating as designed and nevertheless fail in this case. In your answer, distinguish among:
+
+- failure to verify declared activity correctly;
+- failure to identify an undeclared object;
+- failure to possess or act upon information indicating where to investigate.
+
+Which of these best characterises the Iraq case, and why?
+optional:: true
+assessment-instructions:: Model answer. The second: a failure to identify an undeclared object. The first did not occur (routine verification of declared activity continued as designed), and the third is why the second persisted rather than a separate defect. Document 3 names the causes: access confined to defined strategic points at declared facilities while undeclared activities sat on safeguarded sites away from those points; detection techniques did not exist until environmental sampling; a "checklist" inspection culture narrowed how the duty was perceived; and for undeclared sites the fundamental problem is identifying locations to investigate, since wider access rights are of limited value without leads. The system can operate as designed and still fail because correct verification of what was declared is compatible with an undeclared object the design never undertook to find. More of the same inspections would not have closed it: the binding constraint was leads, not frequency or access. Full credit requires picking the second category, explaining the relation of the third to it, and citing Document 3's specific factors.
+feedback-instructions:: Say whether the learner picked the right category and whether they explained why the third factor is the cause of the second's persistence. Then share Baker (2023) as reveal material: §5.2: CSAs were not designed to detect secret nuclear facilities; negotiators assumed that secret facilities would be detected and reported by national intelligence agencies, that a self-contained fuel cycle was too hard for most states, that far-reaching inspector access was politically unacceptable, and that no good detection methods existed; fixes (Additional Protocols) required ratification by each state. §5.3: the system was substantially strengthened only after the salient failure of Iraq's nearly successful secret program, discovered through the First Gulf War; the IAEA then began using authorities it already had (earlier design information, environmental sampling) and agreed Additional Protocols with dozens of states. No generic praise.
+
+#### Question: Open
+id:: c8a29a26-9bb2-46bd-b44f-fc87f4f54bd9
+content:: **Task 5. Testing the hypothesis** (required; max 300 words)
+
+A policy team reaches the following conclusion:
+
+> Because advanced AI training depends on specialised chips, a regime of chip registration, logging, and inspection can verify that no prohibited AI development is occurring.
+
+Evaluate this conclusion using all three documents. Your answer must:
+
+1. identify the strongest valid parallel between nuclear safeguards and the proposed AI regime;
+2. identify the step in the argument placed under greatest pressure by the Iraq case;
+3. explain why that problem cannot be solved merely by inspecting registered chips more frequently;
+4. replace the original conclusion with a narrower claim that the evidence supports.
+assessment-instructions:: Model answer. (1) Strongest parallel: verified accountancy of a controlled, mandatory input, carried by a duty on the holder to declare it and accept verification (Document 1 places all nuclear material under safeguards; Document 2 requires every chip be accounted for and a sufficient subset's logs inspected). The parallel is accountancy of an input, not resemblance between uranium and chips. (2) Step under pressure: the move from "inspection of registered chips found no violation" to "no prohibited development is occurring", which requires the declaration to be complete; Document 3 shows completeness was absent in Iraq. (3) Why frequency cannot fix it: the defect is in the population, not the sampling rate; an unregistered chip is not in the frame the sample is drawn from, so no frequency reaches it; Document 3's own answer was a different instrument, information from states. (4) Narrower claim: where highly compute-intensive AI development requires large quantities of accounted-for specialised chips, chip registration, tamper-evident logging and inspection may provide reliable assurance that covered chips at declared locations have not been used in prohibited training; this does not by itself establish the absence of prohibited development using unregistered chips, undeclared facilities, commodity hardware, or other unmonitored inputs. Score each of the four parts at 25 points. Require that the narrowed claim actually restricts scope (covered chips, declared locations) rather than merely hedging.
+feedback-instructions:: Go part by part: which of the four were sound, which were missing or overbroad. Then share Baker (2023) as reveal material: §6.1's conclusion is deliberately narrow (hardware-based verification of rules on highly compute-intensive AI development; chip-based verification cannot address all important risks from AI); Appendix A's similarities and differences; and Appendix G.8's final line, worded exactly: "methods that have been widely used for nuclear arms control verification can be adapted to create a reliable system for verifying accounts of AI chips". Verifying accounts of AI chips, not verifying the absence of all prohibited AI development. That is the properly limited conclusion. No generic praise.
 
 #### Text
 content::
