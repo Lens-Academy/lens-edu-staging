@@ -4,6 +4,7 @@ title: "2.0.1 Privacy-Preserving Mechanisms"
 tldr: "Faithful alpha import of XLab lesson 2.0.1 Privacy-Preserving Mechanisms."
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
+duration_minutes: 10
 ---
 #### Text
 content::

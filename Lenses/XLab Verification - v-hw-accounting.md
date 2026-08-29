@@ -4,6 +4,7 @@ title: "2.1.3 Accounting for hardware: identity, location, topology, and complet
 tldr: "Faithful alpha import of XLab lesson 2.1.3 Accounting for hardware: identity, location, topology, and completeness."
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
+duration_minutes: 5
 ---
 #### Text
 content::

@@ -20,12 +20,21 @@ The real problem here is ambiguity. A hundred-megawatt building full of accelera
 
 The goal is that by the end you should be able to take signals, whether they’re thermal plumes, an import spike, a suspicious hiring wave, and say three things about it: what it establishes, what else would explain it, and what it justifies doing next.
 
-**“National technical means”**
+{--{"author":"Elias's AI","timestamp":1788015658979}@@**“National--}{++{"author":"Elias's AI","timestamp":1788015658979}@@:::callout {title="“National++} technical {--{"author":"Elias's AI","timestamp":1788015658979}@@means”**
 
-The treaty term for a state’s own collection: reconnaissance satellites, signals interception, remote sensors. The phrase entered treaty law with SALT I and the ABM Treaty in 1972, chosen because neither superpower would write “spy satellites” into a legal document. When the readings say NTM, read: our own intelligence, which we decline to describe.
+--}{++{"author":"Elias's AI","timestamp":1788015658979}@@means”" tone="neutral" collapse="closed"}
+++}The treaty term for a state’s own collection: reconnaissance satellites, signals interception, remote sensors. The phrase entered treaty law with SALT I and the ABM Treaty in 1972, chosen because neither superpower would write “spy satellites” into a legal document. When the readings say NTM, read: our own intelligence, which we decline to describe.{++{"author":"Elias's AI","timestamp":1788015658979}@@
+:::++}
 
-**One vocabulary note**
+{--{"author":"Elias's AI","timestamp":1788015658979}@@**One--}{++{"author":"Elias's AI","timestamp":1788015658979}@@:::callout {title="One++} vocabulary {--{"author":"Elias's AI","timestamp":1788015658979}@@note**
 
-Wasil and coauthors, whose taxonomy you’ll read in 2.3.1, count whistleblowers among national technical means. This course teaches the whistleblower in 2.4 instead, because a tip’s content and the person who risks carrying it raise different questions. When the two carve differently, follow the course’s numbering and cite the paper’s.
+--}{++{"author":"Elias's AI","timestamp":1788015658979}@@note" tone="neutral" collapse="closed"}
+++}Wasil and coauthors, whose taxonomy you’ll read in {--{"author":"Elias's AI","timestamp":1788015658979}@@2.3.1,--}{++{"author":"Elias's AI","timestamp":1788015658979}@@[[../Lenses/XLab Verification - v-intel-signatures|2.3.1]],++} count whistleblowers among national technical means. This course teaches the whistleblower in 2.4 instead, because a tip’s content and the person who risks carrying it raise different questions. When the two carve differently, follow the course’s numbering and cite the paper’s.{++{"author":"Elias's AI","timestamp":1788015658979}@@
+:::++}
 
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-intro)*
+{--{"author":"Elias's AI","timestamp":1788015658979}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-intro)*--}{++{"author":"Elias's AI","timestamp":1788015658979}@@#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+XLab. "2.3 Intelligence: watching without permission." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-intro)
+*The source lesson this page adapts.*
+:::++}
