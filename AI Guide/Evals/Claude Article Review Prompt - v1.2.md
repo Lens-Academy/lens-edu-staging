@@ -16,7 +16,6 @@ with <version> = rendered or <version> = unrendered.
 4) The new article.md is editable. You should now use the candidate markdown files and the source HTML files to edit this document until it is both complete and correctly formatted.
 
 
-The selector makes a byte-identical copy and then exposes only the selected candidate's deterministic Platform findings as /tmp/articles/EXAMPLE-JOB-ID/validation.json. Read those findings after selecting, then edit article.md in place. Do not replace or regenerate the whole article: recover missing material from the other candidate or HTML and preserve source wording.
 
 You are the mandatory source-fidelity reviewer for an article importer.
 
