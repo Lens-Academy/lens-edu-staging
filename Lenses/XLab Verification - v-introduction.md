@@ -376,7 +376,8 @@ Verification for AI is a young field, and it is not spread evenly. Some corners 
 - Academia (2): benchmarks, red-teaming methods, and measurement science.
 - Think tanks (3): METR (dangerous-capability and autonomy evaluations) and Apollo Research (deception and scheming). The capability measurements any capability-based threshold would depend on.
 - Industry (2): in-house dangerous-capability evals and limited third-party pre-deployment testing. The evaluated party is often also the evaluator, the verification problem in miniature.
-- Gov (2): CAISI and the UK AI Security Institute, NIST standards, the UK's open-source "Inspect" tool. Independence and authority still being defined.
+- Gov (2): CAISI and the UK AI Security Institute, NIST standards, the UK's open-source "Inspect" tool. Independence and authority still being defined.{++{"author":"Elias's AI","timestamp":1788013700051}@@
+:::++}
 
 One pattern jumps out fast. The field's center of gravity is the think-tank and nonprofit column, not government or industry. Most of what exists today is analysis and proposal. The hard mechanisms, especially the cryptographic ones that would let a state check a rival without seeing its secrets, sit mostly in academic papers with no public-sector home. The single place where government verification is genuinely muscular is export control, one square in the whole grid.
 
