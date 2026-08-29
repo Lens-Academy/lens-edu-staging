@@ -37,7 +37,7 @@ source:: [[../Lenses/<candidate teaching lens>]]
 notes:: <optional author note>
 ```
 
-One `## Test:` may contain several gradable questions or roleplays. Each item receives its own score. Current platform does not combine item scores into an LO-level pass/fail result. Test completes after learner submits every required item, regardless of scores. LO completion tracks completion of required content and test, not demonstrated mastery. Item scores contribute separately to course assessment.
+One `## Test:` may contain several gradable questions or roleplays. Each item receives its own score.
 
 A test may contain only gradable response segments and roleplays:
 
