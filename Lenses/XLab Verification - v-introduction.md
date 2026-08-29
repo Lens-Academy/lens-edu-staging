@@ -280,7 +280,7 @@ options::
 - Trust: a handshake, a signature and a promise kept on honor alone.
 - Punish violations: sanctions, retaliation and consequences severe enough to deter misconduct.
 - Mutual transparency: open the books, show the facilities and publish the research.
-- {--{"author":"Elias's AI","timestamp":1788014081790}@@[x] --}Neutral, privacy-preserving verification mechanisms: prove compliance without surrendering the secrets around it.
+- {++{"author":"Elias's AI","timestamp":1788014279970}@@[x] ++}Neutral, privacy-preserving verification mechanisms: prove compliance without surrendering the secrets around it.
 feedback-instructions:: Tell the learner the outcome of the option they chose, using the source verdicts. Trust collapses: works with friends, not with nation-state adversaries incentivized to gain a secret upper hand. Punishment arrives too late: deterrence depends on reliably tracking each party's actions, and an ex-post regime fails when consequences are immediate, far-reaching, and irreversible; no fine can bring back the dead. Transparency backfires: disclosure risks theft of proprietary information or prototypes, and each party is still incentivized to develop a secret advantage and fabricate compliance. Verification holds: if each party can verify the other's compliance without learning their secrets, knowing the other can do the same, they have fewer material incentives to dodge compliance. Two to four sentences, no praise.
 
 #### Text
