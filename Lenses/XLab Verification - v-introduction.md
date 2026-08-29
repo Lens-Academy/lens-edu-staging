@@ -279,13 +279,23 @@ feedback-instructions:: Tell the learner the outcome of the option they chose, u
 
 #### Text
 content::
-**Trust?** It collapses. You could trust each other, and trust each other's trust. Works with friends, but not with nation-state adversaries incentivized to self-protect by gaining the secret upper hand, and especially not when dealing with the development of high-risk technologies.
+{--{"author":"Elias's AI","timestamp":1788013686072}@@**Trust?** It collapses.--}{++{"author":"Elias's AI","timestamp":1788013686072}@@Test each answer:
 
-**Punish violations?** It arrives too late. In the absence of trust, they could penalize violations of the agreement and preempt misconduct. But deterrence depends upon the reliability of tracking each party's actions. Moreover, an ex-post regime fails when consequences are immediate, far-reaching, and irreversible: no fine can bring back the dead.
+:::callout {title="Trust?" tone="neutral" collapse="closed"}
+**It collapses.**++} You could trust each other, and trust each other's trust. Works with friends, but not with nation-state adversaries incentivized to self-protect by gaining the secret upper hand, and especially not when dealing with the development of high-risk technologies.{++{"author":"Elias's AI","timestamp":1788013686072}@@
+:::++}
 
-**Mutual transparency?** It backfires. They could mutually disclose actions, but increased transparency risks theft of proprietary information or prototypes by adversaries. Each party is still incentivized to develop a secret advantage and fabricate compliance.
+{--{"author":"Elias's AI","timestamp":1788013686072}@@**Punish violations?** It --}{++{"author":"Elias's AI","timestamp":1788013686072}@@:::callout {title="Punish violations?" tone="neutral" collapse="closed"}
+**It ++}arrives too {--{"author":"Elias's AI","timestamp":1788013686072}@@late.--}{++{"author":"Elias's AI","timestamp":1788013686072}@@late.**++} In the absence of trust, they could penalize violations of the agreement and preempt misconduct. But deterrence depends upon the reliability of tracking each party's actions. Moreover, an ex-post regime fails when consequences are immediate, far-reaching, and irreversible: no fine can bring back the dead.{++{"author":"Elias's AI","timestamp":1788013686072}@@
+:::++}
 
-**Neutral, privacy-preserving verification mechanisms?** It holds. What if you could mutually verify compliance without risking undue loss of privacy? If each party could verify the other's compliance without learning their secrets, knowing they can do the same, they have fewer material incentives to dodge compliance. Verification displaces the impossible promise of trust in a volatile adversary toward trust in a shared, robust verification regime.
+{--{"author":"Elias's AI","timestamp":1788013686072}@@**Mutual transparency?** It backfires.--}{++{"author":"Elias's AI","timestamp":1788013686072}@@:::callout {title="Mutual transparency?" tone="neutral" collapse="closed"}
+**It backfires.**++} They could mutually disclose actions, but increased transparency risks theft of proprietary information or prototypes by adversaries. Each party is still incentivized to develop a secret advantage and fabricate compliance.{++{"author":"Elias's AI","timestamp":1788013686072}@@
+:::++}
+
+{--{"author":"Elias's AI","timestamp":1788013686072}@@**Neutral,--}{++{"author":"Elias's AI","timestamp":1788013686072}@@:::callout {title="Neutral,++} privacy-preserving verification {--{"author":"Elias's AI","timestamp":1788013686072}@@mechanisms?** It holds.--}{++{"author":"Elias's AI","timestamp":1788013686072}@@mechanisms?" tone="neutral" collapse="closed"}
+**It holds.**++} What if you could mutually verify compliance without risking undue loss of privacy? If each party could verify the other's compliance without learning their secrets, knowing they can do the same, they have fewer material incentives to dodge compliance. Verification displaces the impossible promise of trust in a volatile adversary toward trust in a shared, robust verification regime.{++{"author":"Elias's AI","timestamp":1788013686072}@@
+:::++}
 
 #### Text
 content::
@@ -327,13 +337,14 @@ Verification for AI is a young field, and it is not spread evenly. Some corners 
 
 **Columns (who does the work).** *Academia*: university labs and published research. *Think tanks & nonprofits*: policy institutes and independent research organizations, the field's current center of gravity. *Industry*: frontier labs, chipmakers, and cloud providers, who hold the hardware and the data. *Gov & int'l*: states, agencies, and multinational bodies with the authority to mandate and enforce.
 
-**Hardware mechanisms.**
+{--{"author":"Elias's AI","timestamp":1788013687907}@@**Hardware mechanisms.**--}{++{"author":"Elias's AI","timestamp":1788013687907}@@:::callout {title="Hardware mechanisms" tone="neutral" collapse="closed"}++}
 - Academia (1): a thin but real base in hardware security (physically unclonable functions, trusted execution environments, secure boot), developed for general computer security. Supplies the building blocks that think-tank proposals assemble into governance mechanisms.
 - Think tanks (3): the intellectual center of gravity. RAND, *Hardware-Enabled Governance Mechanisms* (2024); CNAS, *Secure, Governable Chips* (2024); the FlexHEG report series (2025, commissioned by the UK's ARIA) proposing an on-chip "guarantee processor" for privacy-preserving compliance checks.
 - Industry (2): holds the substrate but is not building governance features. Confidential computing (e.g. NVIDIA), secure boot and attestation exist to protect the chip's owner, while verification tries to check on the owner. Same silicon, opposite goal.
-- Gov (1): nascent. ARIA commissioned FlexHEG; on-chip location verification has surfaced in US export-control debate. If any hardware mechanism matures, government is the actor that would mandate it.
+- Gov (1): nascent. ARIA commissioned FlexHEG; on-chip location verification has surfaced in US export-control debate. If any hardware mechanism matures, government is the actor that would mandate it.{++{"author":"Elias's AI","timestamp":1788013689560}@@
+:::++}
 
-**Cryptographic methods.**
+{--{"author":"Elias's AI","timestamp":1788013689560}@@**Cryptographic methods.**--}{++{"author":"Elias's AI","timestamp":1788013689560}@@:::callout {title="Cryptographic methods" tone="neutral" collapse="closed"}++}
 - Academia (3): a dense, fast-moving literature. Zero-knowledge ML (proofs that a model produced a given output or evaluation score without revealing weights), proof-of-learning (fragile so far: "more broken than you think"), secure multiparty computation. Largely disconnected from the governance actors who need it.
 - Think tanks (1): a handful of policy analyses on how ZKPs and secure computation could support AI treaties. A thin bridge and a clear candidate for growth.
 - Industry (1): zkML tooling and startups, mostly from the cryptography and blockchain world, not yet aimed at treaty-grade verification.
