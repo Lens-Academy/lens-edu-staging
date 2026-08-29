@@ -11,6 +11,45 @@ This guide has two parts:
 1. A creation workflow for making the file.
 2. Exact validation-agent instructions. Run every check after creation/editing, fix failures, then run fresh agents until all checks pass.
 
+## Minimal file shape
+
+```markdown
+---
+id: '<learning-outcome-uuid>'
+learning-outcome: <observable capability>
+domain: "[[../Domains/<domain>]]"
+stage: beginner
+requires:
+  - "[[Other prerequisite LO]]"
+---
+## Test:
+id:: <test-uuid>
+
+#### Question: Open
+id:: <question-uuid>
+content:: <self-contained test question>
+assessment-instructions:: <0-to-100 grading brief>
+feedback-instructions:: <optional learner-facing feedback brief>
+
+# Suggested Lenses:
+## Lens:
+source:: [[../Lenses/<candidate teaching lens>]]
+notes:: <optional author note>
+```
+
+One `## Test:` may contain several gradable questions or roleplays. Each item receives its own score. Current platform does not combine item scores into an LO-level pass/fail result. Test completes after learner submits every required item, regardless of scores. LO completion tracks completion of required content and test, not demonstrated mastery. Item scores contribute separately to course assessment.
+
+A test may contain only gradable response segments and roleplays:
+
+- `Question: Open` with `assessment-instructions::`
+- `Question: Choice` with at least one `[x]`
+- `Question: FillBlank` with at least one graded blank
+- `Question: Ranking` with `assessment-instructions::`
+- `Roleplay`
+
+`Question: Rating`, ungraded variants, prose segments, and bare `#### Question` are invalid in tests. Use [[../Lenses/Response to question segments]] as single source of truth for question fields, defaults, and syntax.
+
+
 ## How to create a learning outcome
 
 1. Read the course file, the relevant module, and the content that currently teaches or motivates this capability. Read [[../Lenses/Response to question segments]] for question syntax.
