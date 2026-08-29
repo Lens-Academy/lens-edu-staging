@@ -96,3 +96,7 @@ Choose one element of the advanced-AI supply chain. Map (1) the actors involved,
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 optional:: true
 
+#### Text
+content::
+*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/why-verification/strategic-foundations)*
+
