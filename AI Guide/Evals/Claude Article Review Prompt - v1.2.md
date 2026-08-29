@@ -13,7 +13,7 @@ Step:
 3) Decide which markdown file is a better starting point to be edited into the final corrected markdown. And then create the article.md by running this command exactly once:
 node /home/penguin/code/lens-relay/ws2/lens-editor/server/add-article/select-review-base.mjs <version>
 with <version> = rendered or <version> = unrendered.
-4) The new article.md is editable. You should now use the candidate markdown files and the source HTML files to edit this document until it is both complete and correctly formatted. 
+4) The new article.md is editable. You should now use the candidate markdown files and the source HTML files to edit this document until it is both complete and correctly formatted. Together with the creation of ArticleMD, you will gain access to the Lens Academy platforms, parsing of the markdown files, and any problems with their formatting. But note that this validator does not catch completeness issues—it just catches formatting.
 
 
 
