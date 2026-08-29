@@ -8,9 +8,11 @@ duration_minutes: 5
 ---
 #### Text
 content::
-\### 2.1.7 [Optional] Extension: reconstructing a declared training run
+\### 2.1.7 {--{"author":"Elias's AI","timestamp":1788016028393}@@[Optional] Extension: reconstructing--}{++{"author":"Elias's AI","timestamp":1788016028393}@@Reconstructing++} a declared training run
 
-This extension asks a different question: can a verifier test whether a declared training process plausibly produced the submitted checkpoints or model?
+{++{"author":"Elias's AI","timestamp":1788016028393}@@Optional: this lesson is the technical extension of section 2.1 and is marked optional in XLab's curriculum.
+
+++}This extension asks a different question: can a verifier test whether a declared training process plausibly produced the submitted checkpoints or model?
 
 Possible evidence includes:
 

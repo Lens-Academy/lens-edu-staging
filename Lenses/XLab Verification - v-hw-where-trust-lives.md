@@ -124,7 +124,9 @@ Hardware evidence can reduce disclosure by returning a bounded claim rather than
 
 \#### Activity: bilateral pilot review
 
-Compare an on-chip design with an off-chip design for the working pause rule. For each, record:
+{++{"author":"Elias's AI","timestamp":1788016025836}@@#### Question: Open
+id:: 340e01e2-a25a-4e09-a0d6-ecf15bf09fea
+content:: ++}Compare an on-chip design with an off-chip design for the working pause rule. For each, record:
 
 - What a U.S. delegation would distrust;
 - What a Chinese delegation would distrust;
@@ -135,6 +137,12 @@ Compare an on-chip design with an off-chip design for the working pause rule. Fo
 - The main abuse risk;
 - The smallest pilot that would produce decision-relevant evidence.
 
-Choose an architecture for a **pilot**, not immediate universal deployment. State the evidence the pilot must produce before the mechanism deserves a larger role.
+Choose an architecture for a **pilot**, not immediate universal deployment. State the evidence the pilot must produce before the mechanism deserves a larger role.{++{"author":"Elias's AI","timestamp":1788016025836}@@
+assessment-instructions:: This is an XLab writing or reflection exercise. Check that both designs are covered on all eight items, that the two delegations' distrust is not symmetric boilerplate (for example vendor- or foreign-controlled keys on one side, verifier-supplied hardware as an espionage channel on the other), that the answer counts independent failure modes rather than mechanism names, and that it ends with a pilot choice and the evidence the pilot must produce. Mark down answers that recommend immediate universal deployment. Identify one strong point and one important gap, then ask one useful follow-up question. Do not imply that agreement with the source is required.++}
 
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-where-trust-lives)*
+{--{"author":"Elias's AI","timestamp":1788016025836}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-where-trust-lives)*--}{++{"author":"Elias's AI","timestamp":1788016025836}@@#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+XLab. "2.1.6 Where should trust live?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-where-trust-lives)
+*The source lesson this page adapts. The NVIDIA H100 security whitepaper and Cankaya et al. are cited inline above.*
+:::++}
