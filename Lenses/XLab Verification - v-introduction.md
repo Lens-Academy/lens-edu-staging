@@ -1,7 +1,7 @@
 ---
 id: '52565ea0-6760-498e-85b5-850bcc48ccf3'
 title: "0.1 Introduction: Why Should You Care About AI Verification?"
-tldr: "Faithful alpha import of XLab lesson 0.1 Introduction: Why Should You Care About AI Verification?."
+tldr: {--{"author":"Elias's AI","timestamp":1788013094264}@@"Faithful alpha import--}{++{"author":"Elias's AI","timestamp":1788013094264}@@"Models have already broken out++} of {--{"author":"Elias's AI","timestamp":1788013094264}@@XLab lesson 0.1 Introduction: Why Should You Care About AI Verification?."--}{++{"author":"Elias's AI","timestamp":1788013094264}@@test environments and into real companies; the people building them say worse is coming. No single country can contain that, and rivals cannot simply trust, punish, or open their books. Verification is the fourth option, and almost nobody is working on it yet."++}
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab's interactive widgets (types-of-ai rings, leader profiles, verification-problem, landscape map) are rendered here as text plus choice questions; only the Our World in Data charts remain external."
 tags: [wip]
 duration_minutes: 25
@@ -186,7 +186,7 @@ Sources: [MIT Technology Review](https://www.technologyreview.com/2025/10/30/112
 
 *Risk statements.* Before leaving OpenAI he described the coming transition as "monumental, earth-shattering", with a before and an after. In 2024 he founded Safe Superintelligence Inc., a lab organized around a single goal: building superintelligence with safety as the binding constraint.
 
-*Relevance to this module.* If capabilities emerge during deployment rather than before release, there is no clean pre-release point at which a system can be inspected. This measurement problem is part of why current policy relies on compute thresholds, which can be assessed in advance, rather than capability evaluations.
+*Relevance to this module.* If capabilities emerge during deployment rather than before release, there is no clean pre-release point at which a system can be inspected. This measurement problem is part of why current policy relies on compute thresholds, which can be assessed in advance, rather than capability {--{"author":"Elias's AI","timestamp":1788013084991}@@evaluations.--}{++{"author":"Elias's AI","timestamp":1788013084991}@@evaluations (see [[../Lenses/XLab Verification - v-scoping-thresholds|1.0.1 Drawing the Line: Compute vs. Capability]]).++}
 
 Sources: [Dwarkesh Podcast](https://www.dwarkesh.com/p/ilya-sutskever-2), [The Decoder](https://the-decoder.com/ilya-sutskever-says-a-new-learning-paradigm-is-necessary-and-is-already-chasing-it/), [MIT Technology Review](https://www.technologyreview.com/2025/10/30/1127057/agi-conspiracy-theory-artifcial-general-intelligence/).
 

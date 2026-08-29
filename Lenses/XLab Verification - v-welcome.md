@@ -1,7 +1,7 @@
 ---
 id: '54b31be9-4b04-4248-8e8f-00c104d484f6'
 title: "0.0 Welcome"
-tldr: "Faithful alpha import of XLab lesson 0.0 Welcome."
+tldr: {--{"author":"Elias's AI","timestamp":1788013092064}@@"Faithful alpha import of XLab lesson 0.0 Welcome."--}{++{"author":"Elias's AI","timestamp":1788013092064}@@"Two rivals can agree to slow down AI, but the agreement is worth nothing unless each can check the other kept it. That checking problem is this course, and the field solving it is young enough that you could help build it."++}
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. One optional reflection at the end; do not grade it, just acknowledge briefly."
 tags: [wip]
 duration_minutes: 5

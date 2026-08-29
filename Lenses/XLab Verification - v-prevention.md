@@ -1,7 +1,7 @@
 ---
 id: '51cf347a-59cf-412c-8206-ba7e19ace234'
 title: "0.1.1 The world keeps getting saved and you don’t notice"
-tldr: "Faithful alpha import of XLab lesson 0.1.1 The world keeps getting saved and you don’t notice."
+tldr: {--{"author":"Elias's AI","timestamp":1788013097003}@@"Faithful alpha import--}{++{"author":"Elias's AI","timestamp":1788013097003}@@"Y2K did nothing because thousands++} of {--{"author":"Elias's AI","timestamp":1788013097003}@@XLab lesson 0.1.1 The world keeps getting saved--}{++{"author":"Elias's AI","timestamp":1788013097003}@@people fixed it first. Prevented catastrophes look like nothing happened, which is exactly why AI risk is easy to dismiss++} and {--{"author":"Elias's AI","timestamp":1788013097003}@@you don’t notice."--}{++{"author":"Elias's AI","timestamp":1788013097003}@@why treating it as a security problem takes deliberate effort."++}
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Reading only, no exercises."
 tags: [wip]
 duration_minutes: 5

@@ -14,10 +14,12 @@ The following excerpts describe the legal commitment underlying comprehensive sa
 
 \### [IAEA Safeguards: Serving Nuclear Non-Proliferation](https://www.iaea.org/sites/default/files/18/09/sg-serving-nuclear-non-proliferation.pdf)
 *“What are IAEA safeguards?”, p. 4; “Why do IAEA safeguards matter?”, p. 5; “Agreements and protocols” (the CSA entry), p. 7*
-International Atomic Energy Agency (2024)
+International Atomic Energy Agency (2024){--{"author":"Elias's AI","timestamp":1788013086698}@@
 
 
-#### Article
+--}{++{"author":"Elias's AI","timestamp":1788013086698}@@
+
+++}#### Article
 source:: [[../articles/grossi-iaea-safeguards-serving-nuclear-non-proliferation]]
 from:: ### What are IAEA safeguards?
 to:: Similar to the NPT, the Treaty for the Prohibition of Nuclear Weapons in Latin America and the Caribbean (Treaty of Tlatelolco, 1967) requires its parties to conclude a comprehensive safeguards agreement (CSA) with the IAEA – as do the other regional nuclear-weapon-free zone treaties, i.e. the South Pacific Nuclear Free Zone Treaty (Treaty of Rarotonga, 1985), the Southeast Asia Nuclear-Weapon-Free Zone Treaty (Treaty of Bangkok, 1995), the African Nuclear-Weapon-Free Zone Treaty (Treaty of Pelindaba, 1996) and the Central Asian Nuclear-Weapon-Free Zone Treaty (Treaty of Semipalatinsk, 2006).
@@ -43,10 +45,12 @@ content::
 
 \### [What does it take to catch a Chinchilla? Verifying Rules on Large-Scale Neural Network Training via Compute Monitoring](https://arxiv.org/abs/2303.11341)
 *§1.1 Contributions*
-Yonadav Shavit (2023) | CC BY 4.0
+Yonadav Shavit (2023) | CC BY 4.0{--{"author":"Elias's AI","timestamp":1788013088342}@@
 
 
-#### Article
+--}{++{"author":"Elias's AI","timestamp":1788013088342}@@
+
+++}#### Article
 source:: [[../articles/shavit-what-does-it-take-to-catch-a-chinchilla-verifying-rules-on-large-scale-neural-network-training-via-compute-monitoring]]
 from:: ### 1.1 Contributions
 to:: The system is compatible with many different rules on training runs (see Section [2.1](#S2.SS1 "2.1 What types of rules can we enforce by monitoring ML training? ‣ 2 The Problem: Detecting Violations of Large-Scale ML Training Rules ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")), including those based on the total chip-hours used to train a model, the type of data and algorithms used, and whether the produced model exceeds a performance threshold on selected benchmarks. To serve as a foundation for meaningful international coordination, the framework aspires to reliably detect violations of ML training rules _even in the face of nation-state hackers attempting to circumvent it_. At the same time, the system does not force ML developers to disclose their confidential training data or models. Also, as its focus is restricted to specialized data-center chips, the system does not affect individuals’ use of their personal computing devices.
@@ -57,10 +61,12 @@ content::
 
 \### [Experience and Challenges in WMD Treaty Verification: a Comparative View](https://www.dfat.gov.au/about-us/publications/Pages/background-papers-on-nuclear-verification-issues)
 *Background Papers on Nuclear Verification Issues, Paper 1 — §5.4 Implications for safeguards effectiveness; §5.7.2 Undeclared nuclear sites*
-John Carlson, Australian Safeguards and Non-Proliferation Office
+John Carlson, Australian Safeguards and Non-Proliferation Office{--{"author":"Elias's AI","timestamp":1788013090352}@@
 
 
-#### Article
+--}{++{"author":"Elias's AI","timestamp":1788013090352}@@
+
+++}#### Article
 source:: [[../articles/carlson-background-papers-on-nuclear-verification-issues]]
 from:: #### 5.4. Implications for safeguards effectiveness
 to:: refuses to conclude an additional protocol, Egyptian authorities cooperated with the IAEA in resolving the failures once they were detected.
