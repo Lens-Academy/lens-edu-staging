@@ -9,4 +9,6 @@ tags: [wip]
 ---
 %% Demo cut of [[XLab Compute Verification]]: shares the same lens files (v-welcome, v-introduction), so edits there show up here. %%
 
+# Module: [[../modules/XLab Verification Overview]]
+
 # Module: [[../modules/XLab Verification Demo - Welcome and Introduction]]
