@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1788004268694}@@---
+---
 tags:
   - validator-ignore
 ---
@@ -46,4 +46,4 @@ Treat the AI Guide and existing course files as source of truth. Do not guess sy
 
 Spend roughly 1 to 2 hours exploring the editor, Demo Course, and learner-facing platform. Then send Elias any questions your AI could not answer.
 
-If the editor link or MCP connection fails, let Elias know.++}
+If the editor link or MCP connection fails, let Elias know.
