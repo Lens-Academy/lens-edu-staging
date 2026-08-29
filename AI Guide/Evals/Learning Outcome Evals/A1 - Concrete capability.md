@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787136906554}@@---
+---
 eval-id: A1
 target: statement
 tags:
@@ -28,4 +28,3 @@ The statement describes something the learner *does* — explain, distinguish, p
 
 - "Given an unfamiliar question with no available reference class of its own, break it into sub-questions each of which has a reference class or a measurable quantity, state for each sub-question what evidence would settle it, combine them into an estimate, and name the sub-question whose error dominates the result." (*Decomposing an unanswerable question*) — long, but every clause is an observable action.
 - "Distinguish hostile from indifferent AI: explain why the core danger from superintelligent AI is not that it would be hostile toward humans, but that it would be indifferent to human values while pursuing its own goals: indifference is sufficient for extinction" (*Hostile vs. indifferent AI*) — the mechanism the learner must articulate is pinned.
-++}
