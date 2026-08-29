@@ -221,7 +221,7 @@ State which neighbourhood you are comparing.
 :::
 ::::
 
-[^author-note]: This footnote uses standard Markdown footnote syntax.{++{"author":"Elias's AI","timestamp":1788013205987}@@
+[^author-note]: This footnote uses standard Markdown footnote syntax.
 
 #### Text
 content::
@@ -258,4 +258,4 @@ optional:: true
 #### Text
 content:: The next section builds on this distinction.
 ::::
-{>>{"author":"Elias's AI","timestamp":1788012494825}@@Accept only after the platform PR "Allow segments inside callouts" is deployed; before that the platform renders this as broken text.<<}++}
+{>>{"author":"Elias's AI","timestamp":1788012494825}@@Accept only after the platform PR "Allow segments inside callouts" is deployed; before that the platform renders this as broken text.<<}
