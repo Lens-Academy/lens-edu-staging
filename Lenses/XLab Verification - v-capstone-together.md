@@ -14,14 +14,21 @@ Modules 2 and 3 introduced and applied four metrics of feasibility—technical f
 
 Then, in 4.2, you will choose a capstone project idea from a shared and regularly-updated project bank. Each project idea tackles the same cumulative goal: to build your own international verification model. Possible outputs include a treaty draft, policy memo, or longer research project proposal. You will also have the chance to propose your own project! After successful submission, we’ll invite you to reflect on your course experience, review prior written checkpoints to see how your thinking has grown and changed, and point you towards future opportunities and resources.
 
-\## Learning objectives
+{--{"author":"Elias's AI","timestamp":1788015716886}@@\## Learning objectives
 
-- Assess an unfamiliar or not-yet-built verification mechanism against all four feasibility dimensions.
-- Combine mechanisms into a Swiss-cheese style layered regime whose parts cover each other's failure modes.
-- Defend a design decision made under a hard constraint (a budget ceiling, an inspection quota, a state that will not ratify), naming what you cut and why.
-- State the residual risk your regime leaves open: which evasion routes stay viable, and which actors can afford them.
-- Produce a governance artifact in a working format (treaty text, policy memo, research proposal) with every mechanism claim anchored to a named precedent, provision, or source.
-- Revise a design in response to red-team critique, identifying any objections you cannot currently answer.
-- Choose the next step in verification work that fits your background and articulate how you can make an impact after graduating this course.
+---}{++{"author":"Elias's AI","timestamp":1788015716886}@@:::callout {title="By the end of this module, you will be able to:" tone="blue"}
+1.++} Assess an unfamiliar or not-yet-built verification mechanism against all four feasibility dimensions.
+{--{"author":"Elias's AI","timestamp":1788015716886}@@---}{++{"author":"Elias's AI","timestamp":1788015716886}@@2.++} Combine mechanisms into a Swiss-cheese style layered regime whose parts cover each other's failure modes.
+{--{"author":"Elias's AI","timestamp":1788015716886}@@---}{++{"author":"Elias's AI","timestamp":1788015716886}@@3.++} Defend a design decision made under a hard constraint (a budget ceiling, an inspection quota, a state that will not ratify), naming what you cut and why.
+{--{"author":"Elias's AI","timestamp":1788015716886}@@---}{++{"author":"Elias's AI","timestamp":1788015716886}@@4.++} State the residual risk your regime leaves open: which evasion routes stay viable, and which actors can afford them.
+{--{"author":"Elias's AI","timestamp":1788015716886}@@---}{++{"author":"Elias's AI","timestamp":1788015716886}@@5.++} Produce a governance artifact in a working format (treaty text, policy memo, research proposal) with every mechanism claim anchored to a named precedent, provision, or source.
+{--{"author":"Elias's AI","timestamp":1788015716886}@@---}{++{"author":"Elias's AI","timestamp":1788015716886}@@6.++} Revise a design in response to red-team critique, identifying any objections you cannot currently answer.
+{--{"author":"Elias's AI","timestamp":1788015716886}@@---}{++{"author":"Elias's AI","timestamp":1788015716886}@@7.++} Choose the next step in verification work that fits your background and articulate how you can make an impact after graduating this course.{++{"author":"Elias's AI","timestamp":1788015716886}@@
+:::++}
 
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/capstone/putting-it-all-together)*
+{--{"author":"Elias's AI","timestamp":1788015716886}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/capstone/putting-it-all-together)*--}{++{"author":"Elias's AI","timestamp":1788015716886}@@#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+XLab. "4.0 Putting it All Together." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/capstone/putting-it-all-together)
+*The source lesson this page adapts.*
+:::++}

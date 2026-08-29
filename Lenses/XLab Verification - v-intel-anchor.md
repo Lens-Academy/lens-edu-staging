@@ -65,15 +65,25 @@ contradicted by commercially available satellite imagery.
   Treaties*](https://doi.org/10.48550/arXiv.2304.04123) (2023). Appendix E is
   the source of the finding above.
 
-**Unfinished writing**
+{--{"author":"Elias's AI","timestamp":1788015719195}@@**Unfinished writing**
 
-Three specified pieces are not drafted. The **case briefs** — Iran (Natanz and
+--}{++{"author":"Elias's AI","timestamp":1788015719195}@@:::callout {title="Unfinished writing" tone="amber"}
+++}Three specified pieces are not drafted. The **case briefs** — Iran (Natanz and
 Arak, 2002–2003), Syria (Dair Alzour, 2007–2011), and Iran (Turquzabad, Varamin,
 and Marivan) — are meant to be presented as case files the learner opens one at
 a time; they have not been written. Neither has the **essay task** on how
 transferable this evidence is to AI, nor the **prompt randomizer** that assigns
 each learner targeted questions about particular claims, cases, and assumptions
 in Baker's analysis. The essay is deliberately specified so that it cannot be
-answered by copying Baker.
+answered by copying Baker.{++{"author":"Elias's AI","timestamp":1788015719195}@@
+:::
 
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-anchor)*
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Baker, Mauricio. "Nuclear Arms Control Verification and Lessons for AI Treaties." *arXiv*, Apr. 2023. [doi.org](https://doi.org/10.48550/arXiv.2304.04123)
+*A case study mining nuclear arms-control verification for lessons about what makes AI treaty verification hard and how to make it easier.*++}
+
+{--{"author":"Elias's AI","timestamp":1788015719195}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-anchor)*--}{++{"author":"Elias's AI","timestamp":1788015719195}@@XLab. "2.3.2 The empirical anchor: intelligence identifies, the regime resolves." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-anchor)
+*The source lesson this page adapts.*
+:::++}

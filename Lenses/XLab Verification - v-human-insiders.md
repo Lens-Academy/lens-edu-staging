@@ -1,9 +1,10 @@
 ---
 id: 'dae72ebf-335a-4bd5-b970-b2b3e72230ed'
 title: "2.4.1 Insiders and human sources"
-tldr: "Faithful alpha import of XLab lesson 2.4.1 Insiders and human sources."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
-tags: [wip]
+tldr: {--{"author":"Elias's AI","timestamp":1788015718276}@@"Faithful alpha import--}{++{"author":"Elias's AI","timestamp":1788015718276}@@"An insider's job title tells you where they stood, not what they saw. Read Baker et al. on whistleblower programs, interviews, and intelligence, then work six Project Lattice sources one at a time: what each could observe, what stayed out++} of {--{"author":"Elias's AI","timestamp":1788015718276}@@XLab lesson 2.4.1 Insiders and human sources."--}{++{"author":"Elias's AI","timestamp":1788015718276}@@view, and which record they never controlled could check the claim."++}
+summary_for_tutor: {--{"author":"Elias's AI","timestamp":1788015718276}@@"Imported --}{++{"author":"Elias's AI","timestamp":1788015718276}@@"Two excerpts from Baker et al. (2025), section 4.3 and Appendix A.8, are embedded as Article segments. Then an optional drill built ++}from XLab's {--{"author":"Elias's AI","timestamp":1788015718276}@@canonical Verification curriculum. Preserve--}{++{"author":"Elias's AI","timestamp":1788015718276}@@Who knows what? widget: six++} source {--{"author":"Elias's AI","timestamp":1788015718276}@@framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed --}{++{"author":"Elias's AI","timestamp":1788015718276}@@cards (evaluator, training engineer, infrastructure operator, procurement, contractor, executive), each with three graded choice questions ++}on {--{"author":"Elias's AI","timestamp":1788015718276}@@XLab."--}{++{"author":"Elias's AI","timestamp":1788015718276}@@observation, boundary, and corroboration, followed by a Project Lattice case report with four graded credibility questions, a final finding, and four failure modes. When the learner over-reaches, apply the widget's own line: a job title alone proves nothing; limit the claim to what the person could observe."++}
+tags: [wip]{++{"author":"Elias's AI","timestamp":1788015718276}@@
+duration_minutes: 30++}
 ---
 #### Text
 content::

@@ -34,7 +34,8 @@ source:: [[../Lenses/XLab Verification - v-hw-where-trust-lives]]
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-hw-reconstructing-run]]
-
+{++{"author":"Elias's AI","timestamp":1788015711981}@@optional:: true{>>{"author":"Elias's AI","timestamp":1788015711981}@@curriculum.ts marks v-hw-reconstructing-run optional: true; same pattern as v-strategic-foundations in the M0 module file.<<}
+++}
 # Lens:
 source:: [[../Lenses/XLab Verification - v-hw-policy-studio]]
 
