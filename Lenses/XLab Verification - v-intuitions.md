@@ -4,6 +4,7 @@ title: "0.2 Building Verification Intuitions"
 tldr: "Faithful alpha import of XLab lesson 0.2 Building Verification Intuitions."
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
+duration_minutes: 200
 ---
 #### Text
 content::
@@ -58,7 +59,7 @@ Questions to consider:
 - If a state had years to prepare an evasion strategy, where would you expect it to attack the system? Where would you most expect a motivated adversary to fail?
 - What other mechanisms does this one depend on, and what downstream mechanisms rely on this one's reliability?
 
-There is no right answer here, and you do not need to find a secret or definitive vulnerability. Decide how much confidence this mechanism deserves and explain why.
+There is no right answer here, and you do not need to find a secret or definitive vulnerability. Decide how much confidence this mechanism deserves and explain why. (200 to 250 words)
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
@@ -77,7 +78,7 @@ Questions to consider:
 - Which assumptions seem least reliable under tight timelines, strategic competition, or uneven cooperation among states and firms?
 - If this mechanism underperforms, what other parts of the verification regime compensate for it—and where might the failure cascade?
 
-After you have a good idea of a weakness you want to critique, explain which weakness, why it's most jeopardizing, and some ideas (not too long) about how you would go about strengthening it.
+After you have a good idea of a weakness you want to critique, explain which weakness, why it's most jeopardizing, and some ideas (not too long) about how you would go about strengthening it. (200 to 250 words)
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
@@ -92,7 +93,7 @@ content:: Choose the timeline milestone that seems least likely to accomplish on
 
 In your rationale, you might compare the proposal with an arms-control inspection regime, a large industrial mobilization, an export-control system, or another suitable verification parallel. For inspiration, you may use outside resources or click ahead to learn more about historical verification precedents in [[../Lenses/XLab Verification - v-precedents|Module 0.3]].
 
-Ask whether the precedent changes your estimate of what could realistically be built within Plan A's timeline.
+Ask whether the precedent changes your estimate of what could realistically be built within Plan A's timeline. (150 to 200 words)
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
@@ -112,7 +113,7 @@ Questions to consider:
 - Which other mechanisms in Plan A might constrain it?
 - Could algorithmic efficiency gaming realistically and substantively increase the capabilities of the hidden compute?
 
-Increased, decreased, or left the same, justify your proposal for the covert-compute margin.
+Increased, decreased, or left the same, justify your proposal for the covert-compute margin. (100 to 150 words)
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
