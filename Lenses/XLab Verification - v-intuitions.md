@@ -210,7 +210,8 @@ content::
 
 #### Question: Open
 id:: 3d07b047-a892-40b9-960c-48de66645bea
-content:: Verification also depends on whether governments, firms, and third countries will accept the access, restrictions, and institutional arrangements necessary to produce credible evidence.
+{++{"author":"Elias's AI","timestamp":1788011694261}@@optional:: true
+++}content:: Verification also depends on whether governments, firms, and third countries will accept the access, restrictions, and institutional arrangements necessary to produce credible evidence.
 
 Identify the hardest cooperation problem facing Plan A and the hardest facing Plan S. Compare how difficult each would be to overcome and how much the regime depends on solving it.
 
@@ -232,14 +233,16 @@ Policymakers are deciding whether a serious international AI agreement should mo
 
 #### Question: Choice
 id:: f519fd45-b860-4b6e-88b9-1231bf723d2c
-content:: Which {--{"author":"Elias's AI","timestamp":1788011673115}@@plan would you recommend?--}{++{"author":"Elias's AI","timestamp":1788011673115}@@creates the more robust verification regime: Plan A or Plan S? Make a recommendation:++}
+{++{"author":"Elias's AI","timestamp":1788011696377}@@optional:: true
+++}content:: Which {--{"author":"Elias's AI","timestamp":1788011673115}@@plan would you recommend?--}{++{"author":"Elias's AI","timestamp":1788011673115}@@creates the more robust verification regime: Plan A or Plan S? Make a recommendation:++}
 options::
 - Plan A: verified slowdown
 - Plan S: complete shutdown
 
 #### Question: Open
 id:: dd10bf8f-8e94-4854-8f7a-48c317665d7b
-content:: You have already analyzed the comparison from four angles. Pull together the findings that matter most, consider the strongest argument against your own position, and answer: Which creates the more robust verification regime: Plan A or Plan S?
+{++{"author":"Elias's AI","timestamp":1788011698603}@@optional:: true
+++}content:: You have already analyzed the comparison from four angles. Pull together the findings that matter most, consider the strongest argument against your own position, and answer: Which creates the more robust verification regime: Plan A or Plan S?
 
 Make a recommendation. Explain which considerations carry the most weight in your judgment, where important uncertainty remains, and what evidence or development would be most likely to change your view. (400 to 500 words)
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
