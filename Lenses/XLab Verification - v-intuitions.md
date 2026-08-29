@@ -27,7 +27,9 @@ Your task is to write one of two open-ended essay prompts, consisting of shorter
 
 A: stress-test the Plan A verification supplement, or
 
-B: compare Plan A (verified slowdown) and Plan S (complete shutdown).
+B: compare Plan A (verified slowdown) and Plan S (complete shutdown).{++{"author":"Elias's AI","timestamp":1788011700925}@@
+
+All prompts below are marked optional so that you can complete the lens with either option; do all five parts of the option you choose.++}
 
 :::callout {title="A writing good practice" tone="neutral" collapse="closed"}
 Clarify the source of each claim you make, and explicitly identify gaps, uncertainties, or ambiguities as they appear. You won't know everything, and you aren't expected to.
