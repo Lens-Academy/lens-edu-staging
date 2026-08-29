@@ -1,6 +1,6 @@
 ---
 id: '2e6bcfb5-ffc1-4274-a9eb-0dbe3524eb4d'
-slug: ai-verification
+slug: ai-verification-full-course
 slug-aliases: [xlab-compute-verification]
 title: "Compute Verification: XLab Alpha"
 description: "How could rival states check that each other actually stopped? XLab's five-module course on making international AI agreements verifiable: why verification matters, what a treaty must cover and whom it binds, the hardware, cloud, intelligence, and human evidence streams, how a determined adversary evades them, and a capstone that designs a regime for a three-month emergency pause. Alpha version."
