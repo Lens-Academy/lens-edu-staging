@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1788020210016}@@---
+---
 id: '113862b8-9f10-46cf-802d-c59f58bfbe00'
 slug: compute-verification-demo
 title: "Compute Verification: Demo"
@@ -10,4 +10,3 @@ tags: [wip]
 %% Demo cut of [[XLab Compute Verification]]: shares the same lens files (v-welcome, v-introduction), so edits there show up here. %%
 
 # Module: [[../modules/XLab Verification Demo - Welcome and Introduction]]
-++}
