@@ -32,8 +32,9 @@ Y. Shavit, *What Does It Take to Catch a Chinchilla? Verifying Rules on Large-Sc
 
 Proof-of-learning research shows both the promise and fragility of checkpoint-based verification. Jia and colleagues proposed proofs based on logged intermediate states. Subsequent work demonstrated adversarial constructions and serious weaknesses in the original approach. Choi, Shavit, and Duvenaud later proposed a broader toolkit for verifying claims about training data, while explicitly treating its tests as heuristic and noting substantial confidentiality and access assumptions.
 
-**Src**
-H. Jia et al., *Proof-of-Learning: Definitions and Practice* — [arXiv:2103.05633](https://arxiv.org/abs/2103.05633), 2021. R. Zhang et al., *Adversarial Examples for Proof-of-Learning* — [arXiv:2108.09454](https://arxiv.org/abs/2108.09454), IEEE Symposium on Security and Privacy, 2022. C. Fang et al., *Proof-of-Learning Is Currently More Broken Than You Think* — [arXiv:2208.03567](https://arxiv.org/abs/2208.03567), revised 2023. J. Choi, Y. Shavit, and D. Duvenaud, *Tools for Verifying Neural Models’ Training Data* — [arXiv:2307.00682](https://arxiv.org/abs/2307.00682), 2023.
+{--{"author":"Elias's AI","timestamp":1788016037775}@@**Src**--}{++{"author":"Elias's AI","timestamp":1788016037775}@@:::callout {title="Sources" tone="neutral" collapse="closed"}++}
+H. Jia et al., *Proof-of-Learning: Definitions and Practice* — [arXiv:2103.05633](https://arxiv.org/abs/2103.05633), 2021. R. Zhang et al., *Adversarial Examples for Proof-of-Learning* — [arXiv:2108.09454](https://arxiv.org/abs/2108.09454), IEEE Symposium on Security and Privacy, 2022. C. Fang et al., *Proof-of-Learning Is Currently More Broken Than You Think* — [arXiv:2208.03567](https://arxiv.org/abs/2208.03567), revised 2023. J. Choi, Y. Shavit, and D. Duvenaud, *Tools for Verifying Neural Models’ Training Data* — [arXiv:2307.00682](https://arxiv.org/abs/2307.00682), 2023.{++{"author":"Elias's AI","timestamp":1788016037775}@@
+:::++}
 
 Keep three claims separate:
 
