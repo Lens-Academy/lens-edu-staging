@@ -67,7 +67,8 @@ content::
 
 #### Question: Open
 id:: 8c3cd334-f50c-40ec-bcea-3ee0d83db3a9
-content:: Now that you have a good grasp on your ideas of the Verification Plan's strengths, let's turn to identifying its weak points. Identify at least one mechanism, assumption, or implementation step in Plan A that you think is especially vulnerable to failure. Explain why the weakness matters for the regime as a whole. This is arguably the most central prompt: only by red-teaming and finding vulnerabilities can a regime patch its holes.
+{++{"author":"Elias's AI","timestamp":1788011677974}@@optional:: true
+++}content:: Now that you have a good grasp on your ideas of the Verification Plan's strengths, let's turn to identifying its weak points. Identify at least one mechanism, assumption, or implementation step in Plan A that you think is especially vulnerable to failure. Explain why the weakness matters for the regime as a whole. This is arguably the most central prompt: only by red-teaming and finding vulnerabilities can a regime patch its holes.
 
 Questions to consider:
 
@@ -84,7 +85,8 @@ content::
 
 #### Question: Open
 id:: 5e944a29-5989-48b0-bf4a-a4998a0eaa25
-content:: Choose the timeline milestone that seems least likely to accomplish on schedule. Then, look closely at the implementation sequence in 2029: chip declarations and inspections, datacenter retrofits, and the expansion of verification coverage across the world's major compute.
+{++{"author":"Elias's AI","timestamp":1788011679891}@@optional:: true
+++}content:: Choose the timeline milestone that seems least likely to accomplish on schedule. Then, look closely at the implementation sequence in 2029: chip declarations and inspections, datacenter retrofits, and the expansion of verification coverage across the world's major compute.
 
 In your rationale, you might compare the proposal with an arms-control inspection regime, a large industrial mobilization, an export-control system, or another suitable verification parallel. For inspiration, you may use outside resources or click ahead to learn more about historical verification precedents in [[../Lenses/XLab Verification - v-precedents|Module 0.3]].
 
@@ -97,7 +99,8 @@ content::
 
 #### Question: Open
 id:: e9e4eaa9-198a-4031-a923-eba27efa51ae
-content:: The supplement estimates that some compute may remain hidden even after declarations and inspections, initially on the order of 0.5% of world AI-relevant compute. Your task is to decide how important that residual capacity is, and argue for whether the benign capacity threshold should be increased, decreased, or kept the same.
+{++{"author":"Elias's AI","timestamp":1788011681493}@@optional:: true
+++}content:: The supplement estimates that some compute may remain hidden even after declarations and inspections, initially on the order of 0.5% of world AI-relevant compute. Your task is to decide how important that residual capacity is, and argue for whether the benign capacity threshold should be increased, decreased, or kept the same.
 
 Questions to consider:
 
@@ -119,7 +122,8 @@ Now imagine Plan A is moving from scenario to serious policy proposal. Decision-
 
 #### Question: Choice
 id:: 2bedfce0-14ef-4703-b810-2b7bf107ebdf
-content:: {--{"author":"Elias's AI","timestamp":1788011671570}@@Your recommendation on Plan A's verification regime:--}{++{"author":"Elias's AI","timestamp":1788011671570}@@At the end, select one of the three recommendations, and briefly justify why:++}
+{++{"author":"Elias's AI","timestamp":1788011683614}@@optional:: true
+++}content:: {--{"author":"Elias's AI","timestamp":1788011671570}@@Your recommendation on Plan A's verification regime:--}{++{"author":"Elias's AI","timestamp":1788011671570}@@At the end, select one of the three recommendations, and briefly justify why:++}
 options::
 - Adopt the verification approach largely as written
 - Adopt it only with significant amendments
