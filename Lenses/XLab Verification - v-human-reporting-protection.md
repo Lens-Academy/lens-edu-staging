@@ -77,16 +77,60 @@ create a usable route. The route also has to survive monitored devices,
 physical surveillance, conflicts inside the receiving office, and the need for
 safe follow-up.
 
-\## What Makes Reporting Viable
+\## {--{"author":"Elias's AI","timestamp":1788015887817}@@What Makes Reporting Viable--}{++{"author":"Elias's AI","timestamp":1788015887817}@@Mechanism to Effect
 
-\## Mechanism to Effect
+The sources you have read so far describe four main buckets of mechanisms to protect whistleblowers. Map each mechanism to its main mode of leverage: whether it appeals to personal incentives, places a duty on the AI developer, appeals to upholding professional conduct, or utilizes legal remedies.++}
 
-#### Text
-content:: **Interactive exercise:** XLab's `whistleblower-levers` widget has no direct Lens equivalent yet. Complete it in the [original XLab lesson](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-reporting-protection). Its surrounding lesson text is preserved here.
+{--{"author":"Elias's AI","timestamp":1788015887817}@@\## Mechanism --}{++{"author":"Elias's AI","timestamp":1788015887817}@@#### Question: Choice
+id:: 3cfd8e7c-d7ee-4a23-aba5-4bfea26104dd
+content:: **Anti-retaliation protection.** California Labor Code §1107.1 bars specified rules, contracts, and retaliation for protected disclosures. ([California Labor Code §1107.1](https://www.leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=5.1.&division=2.&lawCode=LAB&part=3.&title=))
+options::
+- [x] A legal right and remedies
+- The reporter's incentives
+- A duty on the developer
+- Escalation as professional conduct
+feedback-instructions:: State what the course says this lever changes: Creates a legal right and remedies after protected reporting. One or two sentences.
+
+#### Question: Choice
+id:: d71082ba-53b9-438a-ac5c-8613fedfb7bb
+content:: **Financial reward.** Wasil et al. propose “financial incentives for verified information.” ([Wasil et al.](https://arxiv.org/html/2408.16074))
+options::
+- A legal right and remedies
+- [x] The reporter's incentives
+- A duty on the developer
+- Escalation as professional conduct
+feedback-instructions:: State what the course says this lever changes: Changes the reporter's incentives; it does not establish that the report is true. One or two sentences.
+
+#### Question: Choice
+id:: b3794742-0c9c-49a4-8722-3fa26257b7d6
+content:: **Mandatory reporting.** SB 53 says a frontier developer “shall report any critical safety incident … within 15 days.” ([SB 53, Business and Professions Code §22757.13(c)](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53))
+options::
+- A legal right and remedies
+- The reporter's incentives
+- [x] A duty on the developer
+- Escalation as professional conduct
+feedback-instructions:: State what the course says this lever changes: Places an affirmative reporting duty on the developer rather than waiting for an insider ++}to {--{"author":"Elias's AI","timestamp":1788015887817}@@Effect--}{++{"author":"Elias's AI","timestamp":1788015887817}@@volunteer information. One or two sentences.++}
+
+#### {--{"author":"Elias's AI","timestamp":1788015887817}@@Text--}{++{"author":"Elias's AI","timestamp":1788015887817}@@Question: Choice
+id:: 24b15fb6-6a29-46e6-9a1a-a7cba12a89fe++}
+content:: {--{"author":"Elias's AI","timestamp":1788015887817}@@**Interactive exercise:** XLab's `whistleblower-levers` widget has no direct Lens equivalent yet. Complete it --}{++{"author":"Elias's AI","timestamp":1788015887817}@@**Professional duty.** The ACM Code gives computing professionals an “obligation to report any signs of system risks that might result ++}in {++{"author":"Elias's AI","timestamp":1788015887817}@@harm.” ([ACM Code of Ethics §1.2](https://www.acm.org/binaries/content/assets/about/acm-code-of-ethics-and-professional-conduct.pdf))
+options::
+- A legal right and remedies
+- The reporter's incentives
+- A duty on ++}the {--{"author":"Elias's AI","timestamp":1788015887817}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-reporting-protection). Its surrounding lesson text is preserved here.--}{++{"author":"Elias's AI","timestamp":1788015887817}@@developer
+- [x] Escalation as professional conduct
+feedback-instructions:: State what the course says this lever changes: Makes escalation part of professional conduct, but supplies neither a safe channel nor a legal remedy on its own. One or two sentences.++}
 
 #### Text
 content::
-Sources: [Wasil et al.](https://arxiv.org/html/2408.16074), [SB 53, Business and Professions Code §22757.13(c)](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53), and [ACM Code of Ethics §1.2](https://www.acm.org/binaries/content/assets/about/acm-code-of-ethics-and-professional-conduct.pdf).
+{++{"author":"Elias's AI","timestamp":1788015887817}@@:::callout {title="What each lever changes (open after you have answered)" tone="neutral" collapse="closed"}
+- **Anti-retaliation protection:** Creates a legal right and remedies after protected reporting.
+- **Financial reward:** Changes the reporter’s incentives; it does not establish that the report is true.
+- **Mandatory reporting:** Places an affirmative reporting duty on the developer rather than waiting for an insider to volunteer information.
+- **Professional duty:** Makes escalation part of professional conduct, but supplies neither a safe channel nor a legal remedy on its own.
+:::
+
+++}Sources: [Wasil et al.](https://arxiv.org/html/2408.16074), [SB 53, Business and Professions Code §22757.13(c)](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53), and [ACM Code of Ethics §1.2](https://www.acm.org/binaries/content/assets/about/acm-code-of-ethics-and-professional-conduct.pdf).
 
 \## After the Report Arrives
 
