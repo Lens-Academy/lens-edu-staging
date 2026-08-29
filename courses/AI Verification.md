@@ -1,6 +1,6 @@
 ---
 id: 'e55df2ac-81af-4d77-9112-b6d946c27b1c'
-slug: {--{"author":"Elias's AI","timestamp":1788020728856}@@ai-verification--}{++{"author":"Elias's AI","timestamp":1788020728856}@@ai-verification-readings++}
+slug: ai-verification-readings
 title: Verifying International AI Agreements
 description: "Could rival states actually check that each other stopped? This course works through the AI 2040 compute-verification reading list — eleven papers, from Shavit's founding compute-monitoring proposal to the architectures being drafted now. Module 1 builds the foundations: why an unverifiable agreement is one nobody can rationally keep, why AI is harder to verify than nuclear weapons, and Shavit's three-part compute chain. Module 2 asks what is verifiable today, and finds — under deliberately pessimistic assumptions — that a great deal already is: data centres are the tractable case, AI in weapons is not, and where technology is missing you can often pay in access instead. Module 3 covers the mechanisms that make verification cheap: hardware-enabled guarantees, and verifying inference to catch steganographic weight exfiltration. Module 4 assembles a low-trust architecture that needs nobody to trust anybody's silicon, and maps the whole toolkit onto a concrete proposed treaty. The course ends where the field does: with the judgement that the binding constraint is political, and the argument for why that makes the engineering more urgent rather than less."
 authors:
