@@ -114,7 +114,7 @@ source:: [[../Lenses/My Topic]]
 
 Use [[../Lenses/Response to question segments]] as the single reference for question types, fields, defaults, and syntax. The same response segments work in surveys, lenses.
 
-LO specific rules:
+LO-specific rules:
 
 - LOs always need grader. Always use `assessment-instructions::` or `[x]` answer marks.
 
