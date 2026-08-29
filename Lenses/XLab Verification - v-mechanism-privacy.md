@@ -1,8 +1,8 @@
 ---
 id: 'd388005c-3e26-4e94-8851-692288c0cbea'
 title: "2.0.1 Privacy-Preserving Mechanisms"
-tldr: "Faithful alpha import of XLab lesson 2.0.1 Privacy-Preserving Mechanisms."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
+tldr: {--{"author":"Elias's AI","timestamp":1788015691725}@@"Faithful alpha import --}{++{"author":"Elias's AI","timestamp":1788015691725}@@"Rivals must prove compliance to each other without handing over the secrets an audit would expose. Meet the five ways out of that paradox, from a chip signing a report about itself to an inspector working under shrouds, and learn which ++}of {--{"author":"Elias's AI","timestamp":1788015691725}@@XLab lesson 2.0.1 Privacy-Preserving Mechanisms."--}{++{"author":"Elias's AI","timestamp":1788015691725}@@them work today and which are still papers."++}
+summary_for_tutor: "Imported from XLab's{--{"author":"Elias's AI","timestamp":1788015691725}@@ canonical--} Verification {--{"author":"Elias's AI","timestamp":1788015691725}@@curriculum. Preserve--}{++{"author":"Elias's AI","timestamp":1788015691725}@@curriculum; preserve++} source framing. {--{"author":"Elias's AI","timestamp":1788015691725}@@XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788015691725}@@A reading lens with no questions: the confidentiality vs. verifiability tension, then five mechanism cards (hardware identity and remote attestation, privacy-preserving workload telemetry, zero-knowledge proofs, secure multiparty computation, managed access) rendered as closed callouts with XLab's text and links to the Module 2 lenses that develop each. If asked, help the learner separate deployed primitives (attestation, managed access) from experimental results (telemetry) and research proposals (ZK, MPC at frontier scale)."++}
 tags: [wip]
 duration_minutes: 10
 ---
