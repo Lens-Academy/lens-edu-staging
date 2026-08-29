@@ -4,6 +4,7 @@ title: "0.1 Introduction: Why Should You Care About AI Verification?"
 tldr: "Faithful alpha import of XLab lesson 0.1 Introduction: Why Should You Care About AI Verification?."
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
+duration_minutes: 25
 ---
 #### Text
 content::
@@ -88,7 +89,51 @@ A key property of ASI would be recursive self-improvement, or RSI. A model capab
 Where does today's AI sit? Each ring contains the next; a system sits at the deepest ring it belongs to. Tap any example to see what it is and why it lands where it does.
 
 #### Text
-content:: **Interactive exercise:** XLab's `types-of-ai` widget has no direct Lens equivalent yet. Complete it in the [original XLab lesson](https://aisafetytracks.com/tracks/verification/why-verification/introduction). Its surrounding lesson text is preserved here.
+content::
+Each ring contains the next. A system sits at the deepest ring it belongs to.
+
+1. **AI**: the whole field, any system built to do things we would call intelligent.
+2. **Narrow AI**: built for one task or a narrow set of them. Everything that actually exists today lives here. Examples: Roomba (sensors and fixed rules, no learning from data), Boeing autopilot (engineered control laws), IBM Deep Blue (brute-force search plus hand-crafted evaluation), Word spell checker (dictionary and rules).
+3. **Machine Learning**: systems that learn patterns from data instead of being programmed rule by rule. Examples: Amazon's early spam filter, Chase credit scoring, JPMorgan fraud flagging (statistical models fit to historical data, no deep network).
+4. **Deep Learning**: machine learning with many-layered neural networks that learn their own features. Examples: Apple Photos recognition, Azure Speech to Text, FaceID (all discriminative, not generative).
+5. **Generative AI**: deep-learning systems that create new content. Examples: Midjourney, Sora, Suno, Adobe Firefly (generate images, video, or audio; not language models).
+6. **Large Language Model**: generative models that specialise in language. Examples: Mamba (state-space architecture), RWKV (recurrent architecture); LLMs that are not transformers.
+7. **Transformer LLMs**: language models built on the transformer (attention) architecture, today's mainstream. Examples: Claude, ChatGPT, Gemini, LLaMA.
+
+Beyond these rings: non-narrow AI is theoretical only right now (no real non-narrow AI models are known), and some regions are theoretically possible but would require an absurd quantity of resources.
+
+#### Question: Choice
+id:: a461d157-f6b2-416b-9c61-28b2bf2be861
+content:: Which is the deepest ring a Roomba belongs to?
+options::
+- [x] Narrow AI
+- Machine Learning
+- Deep Learning
+- Generative AI
+optional:: true
+feedback-instructions:: Roomba navigates with sensors and fixed rules. It does not learn from data, so it is narrow AI but not machine learning. Explain in one or two sentences.
+
+#### Question: Choice
+id:: 0594a403-1d2a-4203-9cc7-7bce55333971
+content:: Which is the deepest ring Midjourney belongs to?
+options::
+- Deep Learning
+- [x] Generative AI
+- Large Language Model
+- Transformer LLMs
+optional:: true
+feedback-instructions:: Midjourney generates images via diffusion. It is generative but not a language model. Explain in one or two sentences.
+
+#### Question: Choice
+id:: 9b3a4fa5-89e9-48fb-bab9-64abe13334d2
+content:: Which is the deepest ring Mamba belongs to?
+options::
+- Deep Learning
+- Generative AI
+- [x] Large Language Model
+- Transformer LLMs
+optional:: true
+feedback-instructions:: Mamba is a large language model that is NOT a transformer. It uses a state-space architecture instead of attention. Explain in one or two sentences.
 
 #### Text
 content::

@@ -9,7 +9,7 @@ A learning-outcome file defines one real-world learner capability by combining a
 This guide has two parts:
 
 1. A creation workflow for making the file.
-2. Exact validation-agent instructions. Run every check after creation, fix failures, then run fresh agents until all checks pass.
+2. Exact validation-agent instructions. Run every check after creation/editing, fix failures, then run fresh agents until all checks pass.
 
 ## How to create a learning outcome
 
