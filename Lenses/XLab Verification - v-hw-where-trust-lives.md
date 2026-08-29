@@ -14,8 +14,9 @@ Hardware verification can place trust inside the accelerator, in a separate digi
 
 Use one verification target for the comparison:
 
-**Prompt**
-Determine whether all covered compute in a declared data center is accounted for by permitted workloads.
+{--{"author":"Elias's AI","timestamp":1788016009977}@@**Prompt**--}{++{"author":"Elias's AI","timestamp":1788016009977}@@:::callout {title="Verification target" tone="blue"}++}
+Determine whether all covered compute in a declared data center is accounted for by permitted workloads.{++{"author":"Elias's AI","timestamp":1788016009977}@@
+:::++}
 
 \#### Architecture A: on-chip monitoring
 
