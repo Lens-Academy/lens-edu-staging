@@ -12,7 +12,7 @@ https://editor.lensacademy.org/b791602b/Lens-Edu/How-to-connect-Claude.md
 
 Your direct MCP URL is:
 
-https://relay.lensacademy.org/mcp/AAHqQBXaJK9NnaxJjJAssXEhazZA7N2ilyMo3ZUV (you can give this to)
+https://relay.lensacademy.org/mcp/AAHqQBXaJK9NnaxJjJAssXEhazZA7N2ilyMo3ZUV (you can give this to your AI and it should know what to do)
 
 Then look through the Demo Course:
 
