@@ -139,7 +139,7 @@ feedback-instructions:: Midjourney generates images via diffusion. It is generat
 
 #### Question: Choice
 id:: 9b3a4fa5-89e9-48fb-bab9-64abe13334d2
-content:: Which is the deepest ring Mamba belongs to?
+content:: {++{"author":"Elias's AI","timestamp":1788010858790}@@Optional: ++}Which is the deepest ring Mamba belongs to?
 options::
 - Deep Learning
 - Generative AI
