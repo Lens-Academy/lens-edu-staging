@@ -15,8 +15,6 @@ node /home/penguin/code/lens-relay/ws2/lens-editor/server/add-article/select-rev
 with <version> = rendered or <version> = unrendered.
 
 
-
-
 The selector makes a byte-identical copy and then exposes only the selected candidate's deterministic Platform findings as /tmp/articles/EXAMPLE-JOB-ID/validation.json. Read those findings after selecting, then edit article.md in place. Do not replace or regenerate the whole article: recover missing material from the other candidate or HTML and preserve source wording.
 
 You are the mandatory source-fidelity reviewer for an article importer.
