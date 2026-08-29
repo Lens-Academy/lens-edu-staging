@@ -1,8 +1,8 @@
 ---
 id: '70ee83e3-ccaa-4130-a72f-8a4310acc919'
 title: "1.2.1 Geographic supply-chain map"
-tldr: "Faithful alpha import of XLab lesson 1.2.1 Geographic supply-chain map."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
+tldr: {--{"author":"Elias's AI","timestamp":1788016569158}@@"Faithful alpha import--}{++{"author":"Elias's AI","timestamp":1788016569158}@@"One Dutch company builds every EUV machine on Earth; one island fabricates about 90 percent++} of {--{"author":"Elias's AI","timestamp":1788016569158}@@XLab lesson 1.2.1 Geographic supply-chain map."--}{++{"author":"Elias's AI","timestamp":1788016569158}@@leading-edge logic; three firms make nearly all high-bandwidth memory. Follow a chip from sand to model through fourteen countries and see where the chain pinches to a few known addresses, and where it fans out into places a verifier cannot see."++}
+summary_for_tutor: {--{"author":"Elias's AI","timestamp":1788016569158}@@"Imported--}{++{"author":"Elias's AI","timestamp":1788016569158}@@"Reading-only lens reproducing XLab's interactive supply-chain map as text: six supply-chain layers with why each matters for verification, the eight-stage pipeline++} from {++{"author":"Elias's AI","timestamp":1788016569158}@@materials to trained models, and fourteen country cards (primary layer, layers, actor roles, anchor facts, why it matters for verification), plus a link to ETO's Chip Explorer. Closes with ++}XLab's {--{"author":"Elias's AI","timestamp":1788016569158}@@canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788016569158}@@Notes and sources and a currency warning: concentration figures are 2021 to 2023 data. If the learner asks about a number, point them to the cited sources (CSET 2021; Sastry, Heim, Belfield et al. 2024; CNAS 2024) and remind them shares move while the structure has not."++}
 tags: [wip]
 ---
 #### Text
