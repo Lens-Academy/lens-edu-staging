@@ -366,3 +366,7 @@ That unevenness is the opportunity. You are not arriving at a finished field. Yo
 
 *A snapshot, not a census. Efforts are illustrative examples, current to early 2026, and the field is moving quickly. Intensities are judgment calls meant to convey shape, not precise measurement.*
 
+#### Text
+content::
+*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/why-verification/introduction)*
+
