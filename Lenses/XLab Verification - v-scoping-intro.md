@@ -1,22 +1,25 @@
 ---
 id: 'a437d1e1-46b1-4677-bb9c-b2358b02143c'
 title: "1.0 Introduction: what kind of policy are we trying to verify?"
-tldr: "Faithful alpha import of XLab lesson 1.0 Introduction: what kind of policy are we trying to verify?."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
+tldr: {--{"author":"Elias's AI","timestamp":1788015900067}@@"Faithful alpha import of XLab lesson 1.0 Introduction: what kind --}{++{"author":"Elias's AI","timestamp":1788015900067}@@"A goal like 'prevent premature ASI' cannot be inspected. A treaty turns it into a rule, and a rule into a claim someone can check: who did what, with which objects, under which conditions. Learn the four ingredients, watch Iraq slip through the gap between rule and claim, and meet the five kinds ++}of {--{"author":"Elias's AI","timestamp":1788015900067}@@policy are we trying--}{++{"author":"Elias's AI","timestamp":1788015900067}@@agreement a verifier might be asked++} to {--{"author":"Elias's AI","timestamp":1788015900067}@@verify?."--}{++{"author":"Elias's AI","timestamp":1788015900067}@@police."++}
+summary_for_tutor: {--{"author":"Elias's AI","timestamp":1788015900067}@@"Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788015900067}@@"Reading-only lens, no questions. Opens with the module objectives, then teaches the goal, legal rule, verification claim ladder; the four ingredients of a claim (actors, objects, activities, conditions); rules and claims as proxies that Goodhart's Law erodes; the NPT and Iraq example of a claim that missed undeclared material; and the Oxford AIGI taxonomy of five candidate agreement types with their risk-reduction versus cost trade. If the learner asks, help them decompose any policy into the three layers and four ingredients. Do not require agreement with the source."++}
 tags: [wip]
+duration_minutes: 5
 ---
 #### Text
 content::
 Now that we have a grasp of the motivations and big-picture qualities of an AI verification regime, it’s time to turn to the specifics. What could a verifiable treaty actually look like—what provisions, requirements, suggestions, agreements should there be? Who are the relevant actors that the treaty depends upon, affects, constrains, and authorizes as verifiers?
 
-\## Learning objectives
+{--{"author":"Elias's AI","timestamp":1788015908783}@@\## Learning objectives
 
-- Decompose a policy into its fundamental parts (the goal, the legal rule, and the verification claim, with its actors, objects, activities, and conditions) and distinguish what a treaty leaves explicit vs. intentionally implicit.
-- Name the major public and private actors relevant to an international AI agreement, how they connect to each other, and locate each on the compute supply chain.
-- Characterize each actor’s incentive structure—to comply, defect, hide, exaggerate, or free-ride.
-- Explain why verifiability is highest upstream in the supply chain (concentrated hardware, physical chokepoints) and lowest downstream (diffuse deployment).
-- Identify the ambiguities, loopholes, and potential evasion strategies in real treaty provisions.
-- Produce actor-aware written analysis: a report or briefing that accounts for its context, taking into account who produced the underlying information, and who will consume the output.
+---}{++{"author":"Elias's AI","timestamp":1788015908783}@@:::callout {title="By the end of this module, you will be able to:" tone="blue"}
+1.++} Decompose a policy into its fundamental parts (the goal, the legal rule, and the verification claim, with its actors, objects, activities, and conditions) and distinguish what a treaty leaves explicit vs. intentionally implicit.
+{--{"author":"Elias's AI","timestamp":1788015908783}@@---}{++{"author":"Elias's AI","timestamp":1788015908783}@@2.++} Name the major public and private actors relevant to an international AI agreement, how they connect to each other, and locate each on the compute supply chain.
+{--{"author":"Elias's AI","timestamp":1788015908783}@@---}{++{"author":"Elias's AI","timestamp":1788015908783}@@3.++} Characterize each actor’s incentive structure—to comply, defect, hide, exaggerate, or free-ride.
+{--{"author":"Elias's AI","timestamp":1788015908783}@@---}{++{"author":"Elias's AI","timestamp":1788015908783}@@4.++} Explain why verifiability is highest upstream in the supply chain (concentrated hardware, physical chokepoints) and lowest downstream (diffuse deployment).
+{--{"author":"Elias's AI","timestamp":1788015908783}@@---}{++{"author":"Elias's AI","timestamp":1788015908783}@@5.++} Identify the ambiguities, loopholes, and potential evasion strategies in real treaty provisions.
+{--{"author":"Elias's AI","timestamp":1788015908783}@@---}{++{"author":"Elias's AI","timestamp":1788015908783}@@6.++} Produce actor-aware written analysis: a report or briefing that accounts for its context, taking into account who produced the underlying information, and who will consume the output.{++{"author":"Elias's AI","timestamp":1788015908783}@@
+:::++}
 
 \## The Building Blocks of a Policy
 
@@ -39,9 +42,9 @@ Each claim and rule are built from the following four ingredients:
 Between January and June 2029 (condition), Microsoft (actor) ran no training job (activity) above 10²⁶ FLOP (condition) on the clusters at its Iowa data centers (objects).
 :::
 
-Each rule and claim is inherently a proxy: a workable but imprecise substitute for an unworkable but precise goal. The imperfection of proxies, however, risks losing specificity, coverage, and nuance. Motivated actors can exploit loopholes in rules, such that they technically present verifiable claims while actually undermining its underlying goal. The goal may erode the rule itself: see 
+Each rule and claim is inherently a proxy: a workable but imprecise substitute for an unworkable but precise goal. The imperfection of proxies, however, risks losing specificity, coverage, and nuance. Motivated actors can exploit loopholes in rules, such that they technically present verifiable claims while actually undermining its underlying goal. The goal may erode the rule itself: see{--{"author":"Elias's AI","timestamp":1788015911408}@@ 
 **Term**
-Goodhart’s Law. A lab could train a frontier model under a specified compute threshold, but have innovated enough algorithmic efficiency gains such that the model has dangerous capabilities anyway.
+Goodhart’s Law.--}{++{"author":"Elias's AI","timestamp":1788015911408}@@ **Goodhart’s Law** (when a measure becomes a target, it ceases to be a good measure; once actors are judged by a proxy rather than by the goal it stands in for, they optimize the proxy itself, and the correlation that made it worth measuring breaks down: compliance on paper alongside erosion of the goal in fact).++} A lab could train a frontier model under a specified compute threshold, but have innovated enough algorithmic efficiency gains such that the model has dangerous capabilities anyway.
 
 Here’s a historical example from nuclear nonproliferation of such proxy exploitation.
 

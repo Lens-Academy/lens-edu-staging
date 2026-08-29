@@ -1,8 +1,8 @@
 ---
 id: '1bfbd032-a554-41da-9025-2c644e774b84'
 title: "2.3.4 Intelligence institutions and treaty design"
-tldr: {--{"author":"Elias's AI","timestamp":1788015741689}@@"Faithful alpha import of XLab lesson 2.3.4 Intelligence institutions and treaty design."--}{++{"author":"Elias's AI","timestamp":1788015741689}@@"Treaties are strong on protecting spy satellites and weak on making spies share what they see. Nobody blinds the other side's sensors, but nobody is obliged to hand the verifier a tip either. Read the MIRI draft's Definition 17 as a text to mark up, not admire; you will red-line it in 2.3.5."++}
-summary_for_tutor: "Imported from XLab's {--{"author":"Elias's AI","timestamp":1788015741689}@@canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed--}{++{"author":"Elias's AI","timestamp":1788015741689}@@Verification curriculum; a five-minute reading with no questions. Its thesis is the asymmetric precedent: weak on sharing (no obligation on intelligence agencies to share with verifiers, Baker section 2.3.3), strong on protection (noninterference-with-NTM and no-deliberate-concealment clauses, which Gottemoeller called one of the easiest points of agreement in New START). It covers Six Layers' argument for national rather than international agencies, MIRI's Definition 17 as concrete treaty text, and the authentication problem for shared intelligence. The readings (MIRI draft pp. 20, 39 to 40; Baker 2.3.3; Six Layers) are listed without inline links; the learner is expected to have the MIRI draft from earlier lessons. The Unfinished writing callout is XLab's note that the Six Layers treatment and the treaty analysis questions are not yet written. The written output++} on {--{"author":"Elias's AI","timestamp":1788015741689}@@XLab."--}{++{"author":"Elias's AI","timestamp":1788015741689}@@this text lives in the next lens, 2.3.5."++}
+tldr: "Treaties are strong on protecting spy satellites and weak on making spies share what they see. Nobody blinds the other side's sensors, but nobody is obliged to hand the verifier a tip either. Read the MIRI draft's Definition 17 as a text to mark up, not admire; you will red-line it in 2.3.5."
+summary_for_tutor: "Imported from XLab's Verification curriculum; a five-minute reading with no questions. Its thesis is the asymmetric precedent: weak on sharing (no obligation on intelligence agencies to share with verifiers, Baker section 2.3.3), strong on protection (noninterference-with-NTM and no-deliberate-concealment clauses, which Gottemoeller called one of the easiest points of agreement in New START). It covers Six Layers' argument for national rather than international agencies, MIRI's Definition 17 as concrete treaty text, and the authentication problem for shared intelligence. The readings (MIRI draft pp. 20, 39 to 40; Baker 2.3.3; Six Layers) are listed without inline links; the learner is expected to have the MIRI draft from earlier lessons. The Unfinished writing callout is XLab's note that the Six Layers treatment and the treaty analysis questions are not yet written. The written output on this text lives in the next lens, 2.3.5."
 tags: [wip]
 duration_minutes: 5
 ---
@@ -74,20 +74,18 @@ zero-knowledge warhead-verification precedent (Glaser, Barak and Goldston,
 - Baker §2.3.3, on sharing and its limits.
 - *Six Layers*, on the national-versus-international architecture argument.
 
-{--{"author":"Elias's AI","timestamp":1788015747456}@@**Unfinished writing**
-
---}{++{"author":"Elias's AI","timestamp":1788015747456}@@:::callout {title="Unfinished writing" tone="amber"}
-++}Two specified pieces are missing. The **Six Layers treatment** for this section
+:::callout {title="Unfinished writing" tone="amber"}
+Two specified pieces are missing. The **Six Layers treatment** for this section
 has not been written up against its supporting context (NSS 2025 p. 13, Baker
 §2.3.3, *World Order* pp. 199–201). Neither have the **analysis questions on
-the treaty parts** that the section is meant to end on.{++{"author":"Elias's AI","timestamp":1788015747456}@@
+the treaty parts** that the section is meant to end on.
 :::
 
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-The readings this lesson names (the MIRI draft agreement, Baker, and *Six Layers*) are cited in the text without links; their full entries appear in the sibling lenses that link them.++}
+The readings this lesson names (the MIRI draft agreement, Baker, and *Six Layers*) are cited in the text without links; their full entries appear in the sibling lenses that link them.
 
-{--{"author":"Elias's AI","timestamp":1788015747456}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-institutions)*--}{++{"author":"Elias's AI","timestamp":1788015747456}@@XLab. "2.3.4 Intelligence institutions and treaty design." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-institutions)
+XLab. "2.3.4 Intelligence institutions and treaty design." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-institutions)
 *The source lesson this page adapts.*
-:::++}
+:::

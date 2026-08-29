@@ -13,14 +13,70 @@ content::
 \#### Before you begin
 
 **Core time:** 165–180 minutes, split into two sessions.
-**[Optional] Technical extension:** 35–45 minutes.
+{--{"author":"Elias's AI","timestamp":1788015904638}@@**[Optional]--}{++{"author":"Elias's AI","timestamp":1788015904638}@@**Optional:++} Technical {--{"author":"Elias's AI","timestamp":1788015904638}@@extension:**--}{++{"author":"Elias's AI","timestamp":1788015904638}@@extension**++} 35–45 minutes.
 
 During a three-month AI pause, a laboratory sends the verification authority a valid cryptographic statement from each of the 20,000 accelerators in its declared cluster. The laboratory says the tokens prove that the cluster complied.
 
 Before reading further, classify each conclusion as **supported**, **possibly supported if the system was designed to measure it**, or **unsupported by attestation alone**.
 
-#### Text
-content:: **Import gap:** XLab ClaimLedger component has no clean Lens equivalent. Use the [original XLab lesson](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-attestation) for this element.
+{++{"author":"Elias's AI","timestamp":1788015904638}@@Proposed conclusion:
+
+#### Question: Choice
+id:: 6aff61bf-8c5d-4188-9c8f-9a6049a74a2a
+content:: These are genuine covered devices.
+options::
+- Supported
+- Possibly supported if the system was designed to measure it
+- Unsupported by attestation alone
+
+#### Question: Choice
+id:: 45dad21d-3558-436f-9e49-171462974ece
+content:: Their certificates and approved configurations were valid when the evidence was checked.
+options::
+- Supported
+- Possibly supported if the system was designed to measure it
+- Unsupported by attestation alone
+
+#### Question: Choice
+id:: 188fe444-a629-4950-b799-a00b72dcfca5
+content:: The devices were connected in the declared cluster topology.
+options::
+- Supported
+- Possibly supported if the system was designed to measure it
+- Unsupported by attestation alone
+
+#### Question: Choice
+id:: 6e4a14c9-e6fa-4768-96a8-229d436e1d37
+content:: They performed inference rather than prohibited training.
+options::
+- Supported
+- Possibly supported if the system was designed to measure it
+- Unsupported by attestation alone
+
+#### Question: Choice
+id:: 9c7cd240-2fe5-4fc5-a7aa-ad3b927cf2a4
+content:: Their cumulative training compute remained below the treaty threshold.
+options::
+- Supported
+- Possibly supported if the system was designed to measure it
+- Unsupported by attestation alone
+
+++}#### {--{"author":"Elias's AI","timestamp":1788015904638}@@Text--}{++{"author":"Elias's AI","timestamp":1788015904638}@@Question: Choice++}
+{++{"author":"Elias's AI","timestamp":1788015904638}@@id:: f59b326b-8d99-4180-9aad-eb23fa74e4a1
+++}content:: {--{"author":"Elias's AI","timestamp":1788015904638}@@**Import gap:** XLab ClaimLedger component --}{++{"author":"Elias's AI","timestamp":1788015904638}@@No unregistered accelerators ran a separate prohibited workload.
+options::
+- Supported
+- Possibly supported if the system was designed to measure it
+- Unsupported by attestation alone
+
+#### Question: Choice
+id:: 021cf8df-687e-4fd4-be59-ff5341d41bd9
+content:: The treaty authority can suspend the devices.
+options::
+- Supported
+- Possibly supported if the system was designed to measure it
+- Unsupported by attestation alone
+{>>{"author":"Elias's AI","timestamp":1788015904638}@@XLab's ClaimLedger ++}has no {--{"author":"Elias's AI","timestamp":1788015904638}@@clean Lens equivalent. Use--}{++{"author":"Elias's AI","timestamp":1788015904638}@@answer key in either mode;++} the {--{"author":"Elias's AI","timestamp":1788015904638}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-attestation) for this element.--}{++{"author":"Elias's AI","timestamp":1788015904638}@@resolution is the closing prose of lesson 2.1.8. Left ungraded on purpose.<<}++}
 
 #### Text
 content::
@@ -32,13 +88,16 @@ A signed statement can be authentic and still be too narrow, stale, incomplete, 
 
 \#### What you will be able to do
 
-\## Learning objectives
+{--{"author":"Elias's AI","timestamp":1788015904638}@@\## Learning objectives
 
-1. **Bound a hardware claim.** Distinguish what a mechanism identifies, attests, measures, classifies, restricts, or reconstructs, then state what remains outside the claim.
+--}{++{"author":"Elias's AI","timestamp":1788015904638}@@:::callout {title="By the end of the core section, you will be able to:" tone="blue"}
+++}1. **Bound a hardware claim.** Distinguish what a mechanism identifies, attests, measures, classifies, restricts, or reconstructs, then state what remains outside the claim.
 2. **Trace the trust and authority chain.** Name who measures, signs, defines acceptable state, updates, revokes, appraises, decides, and enforces.
 3. **Invert the threat model.** Reassess the same mechanism when the operator is a cloud customer, a laboratory with physical control, or a state-backed owner.
 4. **Compare trust architectures.** Evaluate on-chip, off-chip, and hybrid designs for the same policy claim.
-5. **Recommend a bounded role.** State what hardware should carry in a layered regime, what it should not carry, which independent evidence must corroborate it, and what new evidence would change your recommendation.
+5. **Recommend a bounded role.** State what hardware should carry in a layered regime, what it should not carry, which independent evidence must corroborate it, and what new evidence would change your recommendation.{++{"author":"Elias's AI","timestamp":1788015904638}@@
+:::
+{>>{"author":"Elias's AI","timestamp":1788015904638}@@XLab's Objectives block here has scope="the core section", so the rendered lead sentence is "By the end of the core section, you will be able to:" rather than "this module".<<}++}
 
 \#### A map of the section
 
@@ -57,13 +116,15 @@ The rest of this section uses one repeated method:
 
 **State the claim. Trace the measurement and trust chain. Name the adversary. Price the mechanism. Bound the conclusion. Find the remaining hole.**
 
-\## Core source packet
+{--{"author":"Elias's AI","timestamp":1788015907067}@@\##--}{++{"author":"Elias's AI","timestamp":1788015907067}@@\####++} Core source packet
 
-\#### Core source packet
+{--{"author":"Elias's AI","timestamp":1788015907067}@@\#### Core source packet
 
 **Author note**
 
-The required reading should be embedded at the point of use rather than assigned as one block.
+--}{++{"author":"Elias's AI","timestamp":1788015907067}@@:::callout {title="Author note" tone="neutral"}
+++}The required reading should be embedded at the point of use rather than assigned as one block.{++{"author":"Elias's AI","timestamp":1788015907067}@@
+:::++}
 
 1. **IETF, RFC 9334, Remote ATtestation procedureS Architecture.** Read the roles and trust-model excerpts.
 2. **NVIDIA Attestation Quick Start Guide.** Inspect the architecture diagram, selected token claims, reference measurements, revocation roles, and the current multi-GPU limitation.

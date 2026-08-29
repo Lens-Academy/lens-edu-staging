@@ -1,8 +1,8 @@
 ---
 id: '918bf2d5-d209-455f-81b8-6d7e41dbc38d'
 title: "2.3.2 The empirical anchor: intelligence identifies, the regime resolves"
-tldr: {--{"author":"Elias's AI","timestamp":1788015710600}@@"Faithful alpha import--}{++{"author":"Elias's AI","timestamp":1788015710600}@@"Four times the IAEA investigated an undeclared nuclear facility. Three++} of {--{"author":"Elias's AI","timestamp":1788015710600}@@XLab lesson 2.3.2 The empirical anchor:--}{++{"author":"Elias's AI","timestamp":1788015710600}@@those investigations started with a national intelligence tip, and none started with safeguards. That is the whole division of labour in one sentence:++} intelligence {--{"author":"Elias's AI","timestamp":1788015710600}@@identifies,--}{++{"author":"Elias's AI","timestamp":1788015710600}@@finds the lead,++} the {--{"author":"Elias's AI","timestamp":1788015710600}@@regime resolves."--}{++{"author":"Elias's AI","timestamp":1788015710600}@@treaty machinery resolves it. Read for the fine print that keeps the finding honest."++}
-summary_for_tutor: "Imported from XLab's {--{"author":"Elias's AI","timestamp":1788015710600}@@canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788015710600}@@Verification curriculum; a five-minute reading with no questions. It states the module's empirical anchor from Baker (2023), Appendix E: of Iraq, North Korea, Iran and Syria, three IAEA investigations began with national intelligence tips and none through safeguards alone. It lists where undeclared activity can hide, then two caveats (the cases mostly predate Additional Protocols; intelligence evidence is suggestive but not decisive or internationally credible) and the falsifiability of cover stories. The Unfinished writing callout is XLab's own note that the case briefs, essay task and prompt randomizer are not yet written; do not improvise them. If the learner asks about the cases, stay with what Baker's appendix supports."++}
+tldr: "Four times the IAEA investigated an undeclared nuclear facility. Three of those investigations started with a national intelligence tip, and none started with safeguards. That is the whole division of labour in one sentence: intelligence finds the lead, the treaty machinery resolves it. Read for the fine print that keeps the finding honest."
+summary_for_tutor: "Imported from XLab's Verification curriculum; a five-minute reading with no questions. It states the module's empirical anchor from Baker (2023), Appendix E: of Iraq, North Korea, Iran and Syria, three IAEA investigations began with national intelligence tips and none through safeguards alone. It lists where undeclared activity can hide, then two caveats (the cases mostly predate Additional Protocols; intelligence evidence is suggestive but not decisive or internationally credible) and the falsifiability of cover stories. The Unfinished writing callout is XLab's own note that the case briefs, essay task and prompt randomizer are not yet written; do not improvise them. If the learner asks about the cases, stay with what Baker's appendix supports."
 tags: [wip]
 duration_minutes: 5
 ---
@@ -65,25 +65,23 @@ contradicted by commercially available satellite imagery.
   Treaties*](https://doi.org/10.48550/arXiv.2304.04123) (2023). Appendix E is
   the source of the finding above.
 
-{--{"author":"Elias's AI","timestamp":1788015719195}@@**Unfinished writing**
-
---}{++{"author":"Elias's AI","timestamp":1788015719195}@@:::callout {title="Unfinished writing" tone="amber"}
-++}Three specified pieces are not drafted. The **case briefs** — Iran (Natanz and
+:::callout {title="Unfinished writing" tone="amber"}
+Three specified pieces are not drafted. The **case briefs** — Iran (Natanz and
 Arak, 2002–2003), Syria (Dair Alzour, 2007–2011), and Iran (Turquzabad, Varamin,
 and Marivan) — are meant to be presented as case files the learner opens one at
 a time; they have not been written. Neither has the **essay task** on how
 transferable this evidence is to AI, nor the **prompt randomizer** that assigns
 each learner targeted questions about particular claims, cases, and assumptions
 in Baker's analysis. The essay is deliberately specified so that it cannot be
-answered by copying Baker.{++{"author":"Elias's AI","timestamp":1788015719195}@@
+answered by copying Baker.
 :::
 
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Baker, Mauricio. "Nuclear Arms Control Verification and Lessons for AI Treaties." *arXiv*, Apr. 2023. [doi.org](https://doi.org/10.48550/arXiv.2304.04123)
-*A case study mining nuclear arms-control verification for lessons about what makes AI treaty verification hard and how to make it easier.*++}
+*A case study mining nuclear arms-control verification for lessons about what makes AI treaty verification hard and how to make it easier.*
 
-{--{"author":"Elias's AI","timestamp":1788015719195}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-anchor)*--}{++{"author":"Elias's AI","timestamp":1788015719195}@@XLab. "2.3.2 The empirical anchor: intelligence identifies, the regime resolves." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-anchor)
+XLab. "2.3.2 The empirical anchor: intelligence identifies, the regime resolves." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-anchor)
 *The source lesson this page adapts.*
-:::++}
+:::

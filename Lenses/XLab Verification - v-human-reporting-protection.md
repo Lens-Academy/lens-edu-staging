@@ -1,10 +1,10 @@
 ---
 id: 'b14a66c9-7199-47ac-a777-14045193b072'
 title: "2.4.2 Reporting and protection"
-tldr: {--{"author":"Elias's AI","timestamp":1788015867205}@@"Faithful alpha import of XLab lesson 2.4.2 Reporting --}{++{"author":"Elias's AI","timestamp":1788015867205}@@"A whistleblower statute is a door, not a corridor. California's SB 53 lets a covered employee walk through to the Attorney General, but says nothing about who protects her name, whether the office can judge the claim, or how a contractor's work order becomes evidence. Follow two reports along their routes ++}and {--{"author":"Elias's AI","timestamp":1788015867205}@@protection."--}{++{"author":"Elias's AI","timestamp":1788015867205}@@find where each one stalls."++}
-summary_for_tutor: {--{"author":"Elias's AI","timestamp":1788015867205}@@"Imported--}{++{"author":"Elias's AI","timestamp":1788015867205}@@"A TED video link and four readings (California Labor Code 1107 to 1107.2, the AIWI/CARMA best-practice guide, Wasil et al. on whistleblowers, CIGIE Quality Standards for Investigations), then three drills rebuilt++} from {++{"author":"Elias's AI","timestamp":1788015867205}@@XLab widgets. (1) Mechanism to Effect: four graded choice questions mapping anti-retaliation protection, financial reward, mandatory reporting, and professional duty to their mode of leverage. (2) Optional Follow the report: two cases (Nadia reporting to the Attorney General; a contractor's work order) with six graded choice questions each and a finding per case. (3) Audit the verifier: ++}XLab's {--{"author":"Elias's AI","timestamp":1788015867205}@@canonical --}{++{"author":"Elias's AI","timestamp":1788015867205}@@institutions-judgment lab on the International AI ++}Verification {--{"author":"Elias's AI","timestamp":1788015867205}@@curriculum. Preserve--}{++{"author":"Elias's AI","timestamp":1788015867205}@@Office, fourteen graded choice questions across institution, capture, evidence boundary, and response. In feedback, cite the statute section or++} source {--{"author":"Elias's AI","timestamp":1788015867205}@@framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788015867205}@@named in the question's Why callout, and keep the line between what a statute protects and what an institution can actually do."++}
-tags: [wip]{++{"author":"Elias's AI","timestamp":1788015867205}@@
-duration_minutes: 60++}
+tldr: "A whistleblower statute is a door, not a corridor. California's SB 53 lets a covered employee walk through to the Attorney General, but says nothing about who protects her name, whether the office can judge the claim, or how a contractor's work order becomes evidence. Follow two reports along their routes and find where each one stalls."
+summary_for_tutor: "A TED video link and four readings (California Labor Code 1107 to 1107.2, the AIWI/CARMA best-practice guide, Wasil et al. on whistleblowers, CIGIE Quality Standards for Investigations), then three drills rebuilt from XLab widgets. (1) Mechanism to Effect: four graded choice questions mapping anti-retaliation protection, financial reward, mandatory reporting, and professional duty to their mode of leverage. (2) Optional Follow the report: two cases (Nadia reporting to the Attorney General; a contractor's work order) with six graded choice questions each and a finding per case. (3) Audit the verifier: XLab's institutions-judgment lab on the International AI Verification Office, fourteen graded choice questions across institution, capture, evidence boundary, and response. In feedback, cite the statute section or source named in the question's Why callout, and keep the line between what a statute protects and what an institution can actually do."
+tags: [wip]
+duration_minutes: 60
 ---
 #### Text
 content::
@@ -27,8 +27,7 @@ below California whistleblower protection statute, paying attention to what
 the statute does not say or leaves ambiguous: what types of disclosures are
 not protected? Can you hypothesize why?
 
-\### {--{"author":"Elias's AI","timestamp":1788015870042}@@[
-  title=](https://www.leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=5.1.&division=2.&lawCode=LAB&part=3.&title=)--}{++{"author":"Elias's AI","timestamp":1788015870042}@@[California Labor Code, Chapter 5.1: Whistleblower Protections — Catastrophic Risks in AI Foundation Models](https://www.leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=5.1.&division=2.&lawCode=LAB&part=3.&title=)++}
+\### [California Labor Code, Chapter 5.1: Whistleblower Protections — Catastrophic Risks in AI Foundation Models](https://www.leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=5.1.&division=2.&lawCode=LAB&part=3.&title=)
 California Legislature (effective 2026)
 
   Read §§1107–1107.2 in full.
@@ -43,9 +42,7 @@ void for every disclosure. The separate [AIWI/CARMA analysis of SB 53](https://a
 also notes that public disclosure is not expressly protected by the chapter.
 :::
 
-\## Broader Standards{--{"author":"Elias's AI","timestamp":1788015872220}@@
-
-\## Broader Standards--} in AI Whistleblowing
+\## Broader Standards in AI Whistleblowing
 
 Beyond explicit statutory enactments, see the below _AI Whistleblowing Law:
 Best Practice Guide_ for a more comprehensive framework for effective
@@ -77,11 +74,11 @@ create a usable route. The route also has to survive monitored devices,
 physical surveillance, conflicts inside the receiving office, and the need for
 safe follow-up.
 
-\## {--{"author":"Elias's AI","timestamp":1788015887817}@@What Makes Reporting Viable--}{++{"author":"Elias's AI","timestamp":1788015887817}@@Mechanism to Effect
+\## Mechanism to Effect
 
-The sources you have read so far describe four main buckets of mechanisms to protect whistleblowers. Map each mechanism to its main mode of leverage: whether it appeals to personal incentives, places a duty on the AI developer, appeals to upholding professional conduct, or utilizes legal remedies.++}
+The sources you have read so far describe four main buckets of mechanisms to protect whistleblowers. Map each mechanism to its main mode of leverage: whether it appeals to personal incentives, places a duty on the AI developer, appeals to upholding professional conduct, or utilizes legal remedies.
 
-{--{"author":"Elias's AI","timestamp":1788015887817}@@\## Mechanism --}{++{"author":"Elias's AI","timestamp":1788015887817}@@#### Question: Choice
+#### Question: Choice
 id:: 3cfd8e7c-d7ee-4a23-aba5-4bfea26104dd
 content:: **Anti-retaliation protection.** California Labor Code §1107.1 bars specified rules, contracts, and retaliation for protected disclosures. ([California Labor Code §1107.1](https://www.leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=5.1.&division=2.&lawCode=LAB&part=3.&title=))
 options::
@@ -109,28 +106,28 @@ options::
 - The reporter's incentives
 - [x] A duty on the developer
 - Escalation as professional conduct
-feedback-instructions:: State what the course says this lever changes: Places an affirmative reporting duty on the developer rather than waiting for an insider ++}to {--{"author":"Elias's AI","timestamp":1788015887817}@@Effect--}{++{"author":"Elias's AI","timestamp":1788015887817}@@volunteer information. One or two sentences.++}
+feedback-instructions:: State what the course says this lever changes: Places an affirmative reporting duty on the developer rather than waiting for an insider to volunteer information. One or two sentences.
 
-#### {--{"author":"Elias's AI","timestamp":1788015887817}@@Text--}{++{"author":"Elias's AI","timestamp":1788015887817}@@Question: Choice
-id:: 24b15fb6-6a29-46e6-9a1a-a7cba12a89fe++}
-content:: {--{"author":"Elias's AI","timestamp":1788015887817}@@**Interactive exercise:** XLab's `whistleblower-levers` widget has no direct Lens equivalent yet. Complete it --}{++{"author":"Elias's AI","timestamp":1788015887817}@@**Professional duty.** The ACM Code gives computing professionals an “obligation to report any signs of system risks that might result ++}in {++{"author":"Elias's AI","timestamp":1788015887817}@@harm.” ([ACM Code of Ethics §1.2](https://www.acm.org/binaries/content/assets/about/acm-code-of-ethics-and-professional-conduct.pdf))
+#### Question: Choice
+id:: 24b15fb6-6a29-46e6-9a1a-a7cba12a89fe
+content:: **Professional duty.** The ACM Code gives computing professionals an “obligation to report any signs of system risks that might result in harm.” ([ACM Code of Ethics §1.2](https://www.acm.org/binaries/content/assets/about/acm-code-of-ethics-and-professional-conduct.pdf))
 options::
 - A legal right and remedies
 - The reporter's incentives
-- A duty on ++}the {--{"author":"Elias's AI","timestamp":1788015887817}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-reporting-protection). Its surrounding lesson text is preserved here.--}{++{"author":"Elias's AI","timestamp":1788015887817}@@developer
+- A duty on the developer
 - [x] Escalation as professional conduct
-feedback-instructions:: State what the course says this lever changes: Makes escalation part of professional conduct, but supplies neither a safe channel nor a legal remedy on its own. One or two sentences.++}
+feedback-instructions:: State what the course says this lever changes: Makes escalation part of professional conduct, but supplies neither a safe channel nor a legal remedy on its own. One or two sentences.
 
 #### Text
 content::
-{++{"author":"Elias's AI","timestamp":1788015887817}@@:::callout {title="What each lever changes (open after you have answered)" tone="neutral" collapse="closed"}
+:::callout {title="What each lever changes (open after you have answered)" tone="neutral" collapse="closed"}
 - **Anti-retaliation protection:** Creates a legal right and remedies after protected reporting.
 - **Financial reward:** Changes the reporter’s incentives; it does not establish that the report is true.
 - **Mandatory reporting:** Places an affirmative reporting duty on the developer rather than waiting for an insider to volunteer information.
 - **Professional duty:** Makes escalation part of professional conduct, but supplies neither a safe channel nor a legal remedy on its own.
 :::
 
-++}Sources: [Wasil et al.](https://arxiv.org/html/2408.16074), [SB 53, Business and Professions Code §22757.13(c)](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53), and [ACM Code of Ethics §1.2](https://www.acm.org/binaries/content/assets/about/acm-code-of-ethics-and-professional-conduct.pdf).
+Sources: [Wasil et al.](https://arxiv.org/html/2408.16074), [SB 53, Business and Professions Code §22757.13(c)](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53), and [ACM Code of Ethics §1.2](https://www.acm.org/binaries/content/assets/about/acm-code-of-ethics-and-professional-conduct.pdf).
 
 \## After the Report Arrives
 

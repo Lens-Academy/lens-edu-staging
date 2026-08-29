@@ -1,9 +1,8 @@
 ---
 id: 'f78c8de0-f12f-446e-992b-a27c30dc3e84'
 title: "2.2.1 Provider records and workload observables"
-tldr: {--{"author":"Elias's AI","timestamp":1788015722669}@@"Faithful alpha import --}{++{"author":"Elias's AI","timestamp":1788015722669}@@"A cloud provider bills you for every GPU hour, so it already holds a ledger ++}of {++{"author":"Elias's AI","timestamp":1788015722669}@@who rented what, for how long. Read Heim et al. to work out what that ledger can prove about a training run, what it cannot, and where the provider's reach ends."
-summary_for_tutor: "Reading lens adapted from ++}XLab lesson {--{"author":"Elias's AI","timestamp":1788015722669}@@2.2.1 Provider records --}{++{"author":"Elias's AI","timestamp":1788015722669}@@2.2.1. An objectives callout, then Heim et al. (2024), Governing Through the Cloud: four executive-summary paragraphs as article excerpts, then sections 3.2, 3.3.2 to 3.3.4 and Appendix B (Table 4) inlined as article excerpts. No questions in this lens; the learner is told to keep two columns while reading (what record or signal exists; what conclusion it supports ++}and {--{"author":"Elias's AI","timestamp":1788015722669}@@workload observables."
-summary_for_tutor: "Imported --}{++{"author":"Elias's AI","timestamp":1788015722669}@@what it does not establish). If the learner asks for help, work ++}from {--{"author":"Elias's AI","timestamp":1788015722669}@@XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788015722669}@@the text: distinguish provider-controlled records from customer declarations, and separate workload classification (what kind) from compute accounting (how much). Ends with a Works cited callout."++}
+tldr: "A cloud provider bills you for every GPU hour, so it already holds a ledger of who rented what, for how long. Read Heim et al. to work out what that ledger can prove about a training run, what it cannot, and where the provider's reach ends."
+summary_for_tutor: "Reading lens adapted from XLab lesson 2.2.1. An objectives callout, then Heim et al. (2024), Governing Through the Cloud: four executive-summary paragraphs as article excerpts, then sections 3.2, 3.3.2 to 3.3.4 and Appendix B (Table 4) inlined as article excerpts. No questions in this lens; the learner is told to keep two columns while reading (what record or signal exists; what conclusion it supports and what it does not establish). If the learner asks for help, work from the text: distinguish provider-controlled records from customer declarations, and separate workload classification (what kind) from compute accounting (how much). Ends with a Works cited callout."
 tags: [wip]
 duration_minutes: 38
 ---
@@ -17,14 +16,12 @@ stolen weights all sit outside a provider's reach. In this module, you will
 learn what cloud providers can observe, how those observations become evidence,
 and where cloud oversight runs out.
 
-{--{"author":"Elias's AI","timestamp":1788015728956}@@\## Learning objectives
-
---}{++{"author":"Elias's AI","timestamp":1788015728956}@@:::callout {title="By the end of this submodule, you will be able to:" tone="blue"}
-++}1. Identify the identity, resource-use, and operational records a cloud provider can observe, and explain what each record supports—and what it still does not establish.
+:::callout {title="By the end of this submodule, you will be able to:" tone="blue"}
+1. Identify the identity, resource-use, and operational records a cloud provider can observe, and explain what each record supports—and what it still does not establish.
 2. Distinguish provider-controlled evidence from customer declarations, and assess the reliability of each when determining a workload's type, scale, and operator.
 3. Analyze how customer identification, beneficial-ownership checks, reporting thresholds, ongoing monitoring, and access controls turn cloud records into a verification regime—and how an evader could route around them.
-4. Assess where cloud oversight loses coverage, and identify which claims require corroboration from hardware, intelligence, or human verification mechanisms.{++{"author":"Elias's AI","timestamp":1788015728956}@@
-:::++}
+4. Assess where cloud oversight loses coverage, and identify which claims require corroboration from hardware, intelligence, or human verification mechanisms.
+:::
 
 \## 2.2.1 Provider records and workload observables
 
@@ -40,24 +37,14 @@ which claims remain beyond those records.
 
 \## Governing Through the Cloud: The Intermediary Role of Compute Providers in AI Regulation
 
-*Source: {--{"author":"Elias's AI","timestamp":1788015731585}@@XLab source material,--}{++{"author":"Elias's AI","timestamp":1788015731585}@@Lennart Heim, Tim Fist, Janet Egan, Sihao Huang, Stephen Zekany, Robert Trager, Michael A. Osborne, and Noa Zilberman (2024),++} [original](https://arxiv.org/abs/2403.08501)*
+*Source: Lennart Heim, Tim Fist, Janet Egan, Sihao Huang, Stephen Zekany, Robert Trager, Michael A. Osborne, and Noa Zilberman (2024), [original](https://arxiv.org/abs/2403.08501)*
 
 The executive-summary selections and complete sections below are reproduced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Citations and cross-references link to the pinned arXiv version.
 
 \### [Governing Through the Cloud](https://arxiv.org/abs/2403.08501)
 *selected paragraphs from the Executive Summary*
-Heim et al. (2024) | CC BY 4.0{--{"author":"Elias's AI","timestamp":1788015744302}@@
-
-**Governance Capacities —** We propose that compute providers can leverage their crucial role in the AI supply chain to secure infrastructure and serve as the intermediate node in support of regulatory objectives while maintaining customers’ privacy and rights. They can facilitate effective AI regulation via--}{++{"author":"Elias's AI","timestamp":1788015744302}@@
-{>>{"author":"Elias's AI","timestamp":1788015744302}@@The++} four{--{"author":"Elias's AI","timestamp":1788015744302}@@ key capacities: as securers, record keepers, verifiers, and, in some cases, even enforcers. Reporting represents a related yet distinct dimension, wherein compute providers provide information to authorities as mandated by law or regulations. (section 2)
-
-**Technical Feasibility —** Our analysis indicates these governance capabilities are likely to be technically feasible and possible to implement in a confidentiality- and privacy-preserving way using techniques available to compute providers today. Compute providers often collect a wide range of data on their customers and workloads, for the purposes of billing, marketing, service analysis, optimization, --}{++{"author":"Elias's AI","timestamp":1788015744302}@@ executive-summary paragraphs were pasted here verbatim ++}and{--{"author":"Elias's AI","timestamp":1788015744302}@@ fulfilling legal obligations. Much of this data could--} also{--{"author":"Elias's AI","timestamp":1788015744302}@@ be used to support identity verification, as well --}{++{"author":"Elias's AI","timestamp":1788015744302}@@ embedded ++}as{--{"author":"Elias's AI","timestamp":1788015744302}@@ verifying technical properties of workloads. At a minimum, providers have access to billing information and can access basic technical data on how their hardware is used. This likely makes it possible for compute providers to develop techniques to detect and classify certain relevant workloads (e.g., whether a workload involves training a frontier model) and to quantify --}{++{"author":"Elias's AI","timestamp":1788015744302}@@ ++}the {--{"author":"Elias's AI","timestamp":1788015744302}@@amount of compute consumed by a workload. Verification of more detailed properties of a workload, such as--}{++{"author":"Elias's AI","timestamp":1788015744302}@@four Article segments that follow, so++} the{--{"author":"Elias's AI","timestamp":1788015744302}@@ type of training data used, or whether a particular model evaluation was run, could be useful for governance purposes but is not currently possible without direct access to customer code and data. With further research and development efforts, compute providers may be able to offer “confidential computing” services to allow customers to prove these more detailed properties without otherwise revealing sensitive data. (section 3)
-
-**Technical and Governance Challenges —** To realize a robust governance model, several technical and governance challenges remain. These include identifying additional measurable properties of AI development that correspond to potential threats, making workload classification methods robust to potential evasion, and formulating privacy-preserving verification protocols. (section 5.1)
-
-The success of our proposed oversight scheme hinges on its multilateral adoption to prevent --}{++{"author":"Elias's AI","timestamp":1788015744302}@@ learner read them twice. Removed ++}the {--{"author":"Elias's AI","timestamp":1788015744302}@@migration of AI activities to jurisdictions with less stringent oversight. For an international framework to be durable and effective, it must address concerns--}{++{"author":"Elias's AI","timestamp":1788015744302}@@copy++} from{--{"author":"Elias's AI","timestamp":1788015744302}@@ non-US governments. Cooperation will need to account for complex privacy and oversight issues associated with globally spread data centers. Compute provider oversight may affect competition in --}{++{"author":"Elias's AI","timestamp":1788015744302}@@ ++}the {--{"author":"Elias's AI","timestamp":1788015744302}@@AI ecosystem and raise concerns about issues of national competitiveness, and, consequently, this may influence--}{++{"author":"Elias's AI","timestamp":1788015744302}@@Text segment;++} the{--{"author":"Elias's AI","timestamp":1788015744302}@@ ability of US providers to offer products globally, including to foreign public-sector customers. Industry-led privacy-preserving standards could help ensure trust, but further research is needed to incentivize broad international buy-in to a global framework. (section 1.4 and section 5.2)
-
-Read--}{++{"author":"Elias's AI","timestamp":1788015744302}@@ Article segments carry them. The "Read++} the following sections in {--{"author":"Elias's AI","timestamp":1788015744302}@@full. In Appendix B, use Table 4 as a map from each observable--}{++{"author":"Elias's AI","timestamp":1788015744302}@@full" instruction moves++} to its{--{"author":"Elias's AI","timestamp":1788015744302}@@ current availability and the verification task it might support.--}{++{"author":"Elias's AI","timestamp":1788015744302}@@ own Text segment before the section excerpts.<<}++}
+Heim et al. (2024) | CC BY 4.0
+{>>{"author":"Elias's AI","timestamp":1788015744302}@@The four executive-summary paragraphs were pasted here verbatim and also embedded as the four Article segments that follow, so the learner read them twice. Removed the copy from the Text segment; the Article segments carry them. The "Read the following sections in full" instruction moves to its own Text segment before the section excerpts.<<}
 
 #### Article
 source:: [[../articles/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation]]
@@ -79,20 +66,19 @@ source:: [[../articles/heim-governing-through-the-cloud-the-intermediary-role-of
 from:: The success of our proposed oversight scheme hinges on its multilateral adoption to prevent the migration of AI activities to jurisdictions with less stringent oversight. For an international framework to be durable and effective, it must address concerns from non-US governments. Cooperation will need to account for complex privacy and oversight issues associated with globally spread data centers. Compute provider oversight may affect competition in the AI ecosystem and raise concerns about issues of national competitiveness, and, consequently, this may influence the ability of US providers to offer products globally, including to foreign public-sector customers. Industry-led privacy-preserving standards could help ensure trust, but further research is needed to incentivize broad international buy-in to a global framework. ([Section 1.4](#S1.SS4 "1.4 Limitations and Future Research
 to:: The success of our proposed oversight scheme hinges on its multilateral adoption to prevent the migration of AI activities to jurisdictions with less stringent oversight. For an international framework to be durable and effective, it must address concerns from non-US governments. Cooperation will need to account for complex privacy and oversight issues associated with globally spread data centers. Compute provider oversight may affect competition in the AI ecosystem and raise concerns about issues of national competitiveness, and, consequently, this may influence the ability of US providers to offer products globally, including to foreign public-sector customers. Industry-led privacy-preserving standards could help ensure trust, but further research is needed to incentivize broad international buy-in to a global framework. ([Section 1.4](#S1.SS4 "1.4 Limitations and Future Research
 
-#### {--{"author":"Elias's AI","timestamp":1788015760505}@@Article--}{++{"author":"Elias's AI","timestamp":1788015760505}@@Text++}
-{--{"author":"Elias's AI","timestamp":1788015760505}@@source:: [[../articles/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation]]--}{++{"author":"Elias's AI","timestamp":1788015760505}@@content::++}
-{--{"author":"Elias's AI","timestamp":1788015760505}@@from:: ### 3.2 Record Keeping
-to:: Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation") below, mapped onto specific use cases for governance purposes.--}{++{"author":"Elias's AI","timestamp":1788015760505}@@Read the following sections in full. In Appendix B, use Table 4 as a map from each observable to its current availability and the verification task it might support.
+#### Text
+content::
+Read the following sections in full. In Appendix B, use Table 4 as a map from each observable to its current availability and the verification task it might support.
 
 #### Article
 source:: [[../articles/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation]]
 from:: ### 3.2 Record Keeping
-to::++} This information is based on conversations, public data collection, and privacy policies available from a representative sample of large and small compute providers ([AWS {--{"author":"Elias's AI","timestamp":1788015760505}@@2024g](#bib.bib26);--}{++{"author":"Elias's AI","timestamp":1788015760505}@@2024g];++} [CoreWeave {--{"author":"Elias's AI","timestamp":1788015760505}@@2022](#bib.bib45);--}{++{"author":"Elias's AI","timestamp":1788015760505}@@2022];++} [FluidStack {--{"author":"Elias's AI","timestamp":1788015760505}@@2022](#bib.bib73);--}{++{"author":"Elias's AI","timestamp":1788015760505}@@2022];++} [Google Cloud {--{"author":"Elias's AI","timestamp":1788015760505}@@2024c](#bib.bib81);--}{++{"author":"Elias's AI","timestamp":1788015760505}@@2024c];++} [Lambda Labs {--{"author":"Elias's AI","timestamp":1788015760505}@@2022](#bib.bib97);--}{++{"author":"Elias's AI","timestamp":1788015760505}@@2022];++} [Microsoft {--{"author":"Elias's AI","timestamp":1788015760505}@@2024a](#bib.bib104)).--}{++{"author":"Elias's AI","timestamp":1788015760505}@@2024a]).++}
+to:: This information is based on conversations, public data collection, and privacy policies available from a representative sample of large and small compute providers ([AWS 2024g]; [CoreWeave 2022]; [FluidStack 2022]; [Google Cloud 2024c]; [Lambda Labs 2022]; [Microsoft 2024a]).
 
 #### Article
 source:: [[../articles/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation]]
 from:: #### 3.3.2 Workload Classification
-to:: The difficulty of classifying workloads increases if a compute customer is actively trying to disguise the nature of their workload. This kind of obfuscation may become likely in cases where a customer has a strong financial, criminal, or political incentive to avoid regulatory oversight. Such incentives are likely to grow when frontier AI models become both more attractive for criminal activities and more economically lucrative. Analogous practices can be observed in the finance sector, where illicit actors have engaged in “structuring” (breaking up a single transaction into several smaller transactions) to avoid automated transaction reporting from their bank to the regulator ([Linn {--{"author":"Elias's AI","timestamp":1788015837875}@@2010](#bib.bib99))--}{++{"author":"Elias's AI","timestamp":1788015837875}@@2010])++}. We discuss and list these challenges in [Section 5.1](#S5.SS1 "5.1 Technical Challenges ‣ 5 Key Challenges ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation").
+to:: The difficulty of classifying workloads increases if a compute customer is actively trying to disguise the nature of their workload. This kind of obfuscation may become likely in cases where a customer has a strong financial, criminal, or political incentive to avoid regulatory oversight. Such incentives are likely to grow when frontier AI models become both more attractive for criminal activities and more economically lucrative. Analogous practices can be observed in the finance sector, where illicit actors have engaged in “structuring” (breaking up a single transaction into several smaller transactions) to avoid automated transaction reporting from their bank to the regulator ([Linn 2010]). We discuss and list these challenges in [Section 5.1](#S5.SS1 "5.1 Technical Challenges ‣ 5 Key Challenges ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation").
 
 #### Article
 source:: [[../articles/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation]]
@@ -111,9 +97,9 @@ to:: | Training dataset | _Workload classification, compute accounting, detailed
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788015774035}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud)*--}{++{"author":"Elias's AI","timestamp":1788015774035}@@:::callout {title="Works cited" tone="neutral" collapse="closed"}
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
 Heim et al. (2024), *Governing Through the Cloud*, is cited inline above with its arXiv link.
 
 XLab. "2.2.1 Provider records and workload observables." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud)
 *The source lesson this page adapts.*
-:::++}
+:::

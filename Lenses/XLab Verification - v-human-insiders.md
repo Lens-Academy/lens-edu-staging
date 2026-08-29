@@ -1,10 +1,10 @@
 ---
 id: 'dae72ebf-335a-4bd5-b970-b2b3e72230ed'
 title: "2.4.1 Insiders and human sources"
-tldr: {--{"author":"Elias's AI","timestamp":1788015718276}@@"Faithful alpha import--}{++{"author":"Elias's AI","timestamp":1788015718276}@@"An insider's job title tells you where they stood, not what they saw. Read Baker et al. on whistleblower programs, interviews, and intelligence, then work six Project Lattice sources one at a time: what each could observe, what stayed out++} of {--{"author":"Elias's AI","timestamp":1788015718276}@@XLab lesson 2.4.1 Insiders and human sources."--}{++{"author":"Elias's AI","timestamp":1788015718276}@@view, and which record they never controlled could check the claim."++}
-summary_for_tutor: {--{"author":"Elias's AI","timestamp":1788015718276}@@"Imported --}{++{"author":"Elias's AI","timestamp":1788015718276}@@"Two excerpts from Baker et al. (2025), section 4.3 and Appendix A.8, are embedded as Article segments. Then an optional drill built ++}from XLab's {--{"author":"Elias's AI","timestamp":1788015718276}@@canonical Verification curriculum. Preserve--}{++{"author":"Elias's AI","timestamp":1788015718276}@@Who knows what? widget: six++} source {--{"author":"Elias's AI","timestamp":1788015718276}@@framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed --}{++{"author":"Elias's AI","timestamp":1788015718276}@@cards (evaluator, training engineer, infrastructure operator, procurement, contractor, executive), each with three graded choice questions ++}on {--{"author":"Elias's AI","timestamp":1788015718276}@@XLab."--}{++{"author":"Elias's AI","timestamp":1788015718276}@@observation, boundary, and corroboration, followed by a Project Lattice case report with four graded credibility questions, a final finding, and four failure modes. When the learner over-reaches, apply the widget's own line: a job title alone proves nothing; limit the claim to what the person could observe."++}
-tags: [wip]{++{"author":"Elias's AI","timestamp":1788015718276}@@
-duration_minutes: 30++}
+tldr: "An insider's job title tells you where they stood, not what they saw. Read Baker et al. on whistleblower programs, interviews, and intelligence, then work six Project Lattice sources one at a time: what each could observe, what stayed out of view, and which record they never controlled could check the claim."
+summary_for_tutor: "Two excerpts from Baker et al. (2025), section 4.3 and Appendix A.8, are embedded as Article segments. Then an optional drill built from XLab's Who knows what? widget: six source cards (evaluator, training engineer, infrastructure operator, procurement, contractor, executive), each with three graded choice questions on observation, boundary, and corroboration, followed by a Project Lattice case report with four graded credibility questions, a final finding, and four failure modes. When the learner over-reaches, apply the widget's own line: a job title alone proves nothing; limit the claim to what the person could observe."
+tags: [wip]
+duration_minutes: 30
 ---
 #### Text
 content::
@@ -12,10 +12,7 @@ In this section, you will learn about the three main categories of human- or
 personnel-based verification: whistleblower programs, personnel interviews,
 and national intelligence activities. First, read the below excerpt of Baker's
 _Verifying International Agreements on AI_ paper, paying attention to each
-mechanism's unique strengths, failure modes, and applicable circumstances.{--{"author":"Elias's AI","timestamp":1788015722746}@@
-
-
---}{++{"author":"Elias's AI","timestamp":1788015722746}@@
+mechanism's unique strengths, failure modes, and applicable circumstances.
 
 \## Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment
 
@@ -25,18 +22,18 @@ This page reproduces [§4.3 “Personnel-Based Verification Layers”](https://a
 
 The source text and tables are reproduced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-++}#### Article
+#### Article
 source:: [[../articles/baker-verifying-international-agreements-on-ai-six-layers-of-verification-for-rules-on-large-scale-ai-development-and-deployment]]
 from:: ### 4.3 Personnel-Based Verification Layers
 to:: In contrast to other, more technical verification mechanisms, _personnel-based verification_ relies on the difficulty of having large groups of people collude without disclosures or leaks. Verifiers could systematically seek disclosures or leaks through whistleblower programs, interviews of personnel, and national intelligence activities. Intelligence activities, though, might involve cyber or signals intelligence, not only direct communication with personnel.
 
-#### {++{"author":"Elias's AI","timestamp":1788015725157}@@Text
+#### Text
 content::
 We'll pay special attention to whistleblower programs, which have the most
 historical precedence, existing infrastructure, and potential verifiability
 effectiveness.
 
-#### ++}Article
+#### Article
 source:: [[../articles/baker-verifying-international-agreements-on-ai-six-layers-of-verification-for-rules-on-large-scale-ai-development-and-deployment]]
 from:: #### A.8 Whistleblower Programs
 to:: Avoiding excess disclosure: Employees could be allowed to disclose only a very small amount of information to the Verifier, as discussed in above footnotes. Further, the Prover and Verifier could jointly state agreed-on, reasonable bounds of protected whistleblowing (including high-level descriptions of potential violations and information to investigate further, but excluding digital transfers of Prover models, data, or code outside of a confidentiality-preserving technology). Parties could also agree on what questions or information a Verifier may share with an employee, so that the Prover could learn from their employees if the Verifier is inappropriately pressuring them to disclose IP.
@@ -49,7 +46,7 @@ Even when the human source is truthful and legally allowed to report, however,
 reporting channels can still fail in various ways, which the next section will
 cover.
 
-{--{"author":"Elias's AI","timestamp":1788015819856}@@\## [Optional] Exercise: --}{++{"author":"Elias's AI","timestamp":1788015819856}@@:::callout {title="Optional: ++}Insider Report (8–10 {--{"author":"Elias's AI","timestamp":1788015819856}@@minutes)--}{++{"author":"Elias's AI","timestamp":1788015819856}@@minutes)" tone="neutral" collapse="closed"}
+:::callout {title="Optional: Insider Report (8–10 minutes)" tone="neutral" collapse="closed"}
 **Who knows what?**
 
 For each source, identify what they could observe, what they could not know, and which independent record could verify the claim. You will produce a short assessment for each source.
@@ -281,10 +278,10 @@ options::
 - Records held by counterparties: Vendor invoices, bank or ledger entries, shipping and customs records, serials, and receiving logs.
 - Provider telemetry and hardware inventory: Scheduler data held by the provider, power and network telemetry, hardware attestations, and a physical count.
 - [x] Utility, delivery, and inspection records: Power allocations, permits, delivery manifests, work orders, maintenance logs, and site inspection.
-feedback-instructions:: If the learner chose wrongly, say: Check utility, delivery, installation, maintenance, and inspection records. Then give the assessment: The supplier or contractor can describe what was installed, where, and when. They may not know how the capacity was used. Check utility allocations, delivery manifests, work orders, maintenance logs, and the site itself.++}
+feedback-instructions:: If the learner chose wrongly, say: Check utility, delivery, installation, maintenance, and inspection records. Then give the assessment: The supplier or contractor can describe what was installed, where, and when. They may not know how the capacity was used. Check utility allocations, delivery manifests, work orders, maintenance logs, and the site itself.
 
 #### Text
-content::{--{"author":"Elias's AI","timestamp":1788015819856}@@ **Interactive exercise:** XLab's `human-insiders` widget --}{++{"author":"Elias's AI","timestamp":1788015819856}@@
+content::
 :::callout {title="Assessment: Supplier or data-center contractor (open after you have answered)" tone="neutral" collapse="closed"}
 The supplier or contractor can describe what was installed, where, and when. They may not know how the capacity was used. Check utility allocations, delivery manifests, work orders, maintenance logs, and the site itself.
 :::
@@ -337,7 +334,7 @@ The executive or board member can describe decisions, warnings, and intent. They
 
 \### Case report · Project Lattice
 
-A cooling contractor reports that Project Lattice added power and chilled-water capacity for 1,024 accelerators over six weeks. The contractor ++}has {--{"author":"Elias's AI","timestamp":1788015819856}@@no direct Lens equivalent yet. Complete --}{++{"author":"Elias's AI","timestamp":1788015819856}@@applied for a financial reward and provides work-order code PX-814. A utility record obtained separately contains the same code and dates. The contractor did not have access to cluster workloads.
+A cooling contractor reports that Project Lattice added power and chilled-water capacity for 1,024 accelerators over six weeks. The contractor has applied for a financial reward and provides work-order code PX-814. A utility record obtained separately contains the same code and dates. The contractor did not have access to cluster workloads.
 
 Assess the report through access, incentives, consistency, and independent corroboration. Do not rely on the reporter's reputation.
 
@@ -364,7 +361,7 @@ id:: 3c57b0db-a5e9-4213-8952-14c26b939fac
 optional:: true
 content:: Incentives. How should the financial reward affect the assessment?
 options::
-- [x] Record the possible reward and the costs of reporting. Treat motive as a reason to check the claim carefully, not as proof that ++}it {++{"author":"Elias's AI","timestamp":1788015819856}@@is true or false.
+- [x] Record the possible reward and the costs of reporting. Treat motive as a reason to check the claim carefully, not as proof that it is true or false.
 - Assume the report is unreliable because the source may receive a reward.
 - Treat the personal risk of reporting as proof that the allegation is true.
 feedback-instructions:: If wrong, say: The reward may encourage a false report. Fear of retaliation or lost work may discourage a true one. Neither decides whether this report is accurate. Then: Incentives matter because they may shape whether and how someone reports. They do not replace evidence.
@@ -401,7 +398,7 @@ optional:: true
 content:: Independent corroboration. Which evidence adds the most weight to this report?
 options::
 - [x] The independently obtained utility log, followed by serial, receiving, scheduler, and authorization records from separate systems.
-- The contractor's reputation for honesty ++}in the {--{"author":"Elias's AI","timestamp":1788015819856}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-insiders). Its surrounding lesson text --}{++{"author":"Elias's AI","timestamp":1788015819856}@@local industry.
+- The contractor's reputation for honesty in the local industry.
 - A spreadsheet the contractor created after deciding to report.
 feedback-instructions:: If wrong, say: Use evidence created independently of the source and outside the source's control. Then: The matching project code and dates link the report to an external record. They support the claim that the site expanded, but not a claim about the workload.
 
@@ -418,15 +415,15 @@ The report supports a finding that Project Lattice expanded infrastructure at th
 
 **Failure modes to check**
 
-- **Selective truth.** The expansion may be real even if the claimed prohibited workload ++}is {--{"author":"Elias's AI","timestamp":1788015819856}@@preserved here.--}{++{"author":"Elias's AI","timestamp":1788015819856}@@not. Do not treat proof of infrastructure as proof of how it was used.
+- **Selective truth.** The expansion may be real even if the claimed prohibited workload is not. Do not treat proof of infrastructure as proof of how it was used.
 - **Coordinated cover story.** Matching accounts are not independent if managers selected, briefed, or monitored the speakers.
 - **Management staging.** A clean tour and selected records show what management chose to present. They do not rule out undeclared activity elsewhere.
 - **Suppression.** A lack of reports means little if staff have no safe reporting channel, cannot see the relevant declarations, or reasonably fear retaliation.
-:::++}
+:::
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788015819856}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-insiders)*--}{++{"author":"Elias's AI","timestamp":1788015819856}@@:::callout {title="Works cited" tone="neutral" collapse="closed"}
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
 Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/abs/2507.15916)
 *A six-layer verification framework whose personnel-based layers map which workers can observe different violations and why disclosures still need independent confirmation.*
 
@@ -435,4 +432,4 @@ Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agr
 
 XLab. "2.4.1 Insiders and human sources." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-insiders)
 *The source lesson this page adapts, including the Who knows what? source-assessment exercise.*
-:::{>>{"author":"Elias's AI","timestamp":1788015819856}@@Widget human-insiders rebuilt from src/lib/verification/data/human-insiders.ts: 18 source questions (6 actors x observe/boundary/corroborate), 4 credibility questions on the Project Lattice case report, final finding and failure modes. Option order follows the data file's choices order. All optional because XLab folds it as optional.<<}++}
+:::{>>{"author":"Elias's AI","timestamp":1788015819856}@@Widget human-insiders rebuilt from src/lib/verification/data/human-insiders.ts: 18 source questions (6 actors x observe/boundary/corroborate), 4 credibility questions on the Project Lattice case report, final finding and failure modes. Option order follows the data file's choices order. All optional because XLab folds it as optional.<<}

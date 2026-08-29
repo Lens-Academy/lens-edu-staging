@@ -1,10 +1,10 @@
 ---
 id: '102d18da-1125-432c-ad12-e01cb88dcdb1'
 title: "4.0 Putting it All Together"
-tldr: {--{"author":"Elias's AI","timestamp":1788015708820}@@"Faithful alpha import of XLab lesson 4.0 Putting it All Together."--}{++{"author":"Elias's AI","timestamp":1788015708820}@@"No one has built the verification paradigm yet, so this module hands you the toolbox and asks you to build it: learn to judge any mechanism's feasibility, then design and defend a layered regime as your capstone."++}
-summary_for_tutor: "Imported from XLab's {--{"author":"Elias's AI","timestamp":1788015708820}@@canonical --}Verification {--{"author":"Elias's AI","timestamp":1788015708820}@@curriculum. Preserve--}{++{"author":"Elias's AI","timestamp":1788015708820}@@curriculum; preserve++} source framing. {--{"author":"Elias's AI","timestamp":1788015708820}@@XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788015708820}@@A short module opener: three paragraphs of framing (the learner will scaffold their own verification regime; 4.1 teaches feasibility assessment, 4.2 is the capstone from a project bank) followed by the module objectives in a callout. No questions. If the learner asks what to do, point them forward to 4.1 and the capstone bank in 4.2."++}
-tags: [wip]{++{"author":"Elias's AI","timestamp":1788015708820}@@
-duration_minutes: 5++}
+tldr: "No one has built the verification paradigm yet, so this module hands you the toolbox and asks you to build it: learn to judge any mechanism's feasibility, then design and defend a layered regime as your capstone."
+summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. A short module opener: three paragraphs of framing (the learner will scaffold their own verification regime; 4.1 teaches feasibility assessment, 4.2 is the capstone from a project bank) followed by the module objectives in a callout. No questions. If the learner asks what to do, point them forward to 4.1 and the capstone bank in 4.2."
+tags: [wip]
+duration_minutes: 5
 ---
 #### Text
 content::
@@ -14,21 +14,19 @@ Modules 2 and 3 introduced and applied four metrics of feasibility—technical f
 
 Then, in 4.2, you will choose a capstone project idea from a shared and regularly-updated project bank. Each project idea tackles the same cumulative goal: to build your own international verification model. Possible outputs include a treaty draft, policy memo, or longer research project proposal. You will also have the chance to propose your own project! After successful submission, we’ll invite you to reflect on your course experience, review prior written checkpoints to see how your thinking has grown and changed, and point you towards future opportunities and resources.
 
-{--{"author":"Elias's AI","timestamp":1788015716886}@@\## Learning objectives
+:::callout {title="By the end of this module, you will be able to:" tone="blue"}
+1. Assess an unfamiliar or not-yet-built verification mechanism against all four feasibility dimensions.
+2. Combine mechanisms into a Swiss-cheese style layered regime whose parts cover each other's failure modes.
+3. Defend a design decision made under a hard constraint (a budget ceiling, an inspection quota, a state that will not ratify), naming what you cut and why.
+4. State the residual risk your regime leaves open: which evasion routes stay viable, and which actors can afford them.
+5. Produce a governance artifact in a working format (treaty text, policy memo, research proposal) with every mechanism claim anchored to a named precedent, provision, or source.
+6. Revise a design in response to red-team critique, identifying any objections you cannot currently answer.
+7. Choose the next step in verification work that fits your background and articulate how you can make an impact after graduating this course.
+:::
 
----}{++{"author":"Elias's AI","timestamp":1788015716886}@@:::callout {title="By the end of this module, you will be able to:" tone="blue"}
-1.++} Assess an unfamiliar or not-yet-built verification mechanism against all four feasibility dimensions.
-{--{"author":"Elias's AI","timestamp":1788015716886}@@---}{++{"author":"Elias's AI","timestamp":1788015716886}@@2.++} Combine mechanisms into a Swiss-cheese style layered regime whose parts cover each other's failure modes.
-{--{"author":"Elias's AI","timestamp":1788015716886}@@---}{++{"author":"Elias's AI","timestamp":1788015716886}@@3.++} Defend a design decision made under a hard constraint (a budget ceiling, an inspection quota, a state that will not ratify), naming what you cut and why.
-{--{"author":"Elias's AI","timestamp":1788015716886}@@---}{++{"author":"Elias's AI","timestamp":1788015716886}@@4.++} State the residual risk your regime leaves open: which evasion routes stay viable, and which actors can afford them.
-{--{"author":"Elias's AI","timestamp":1788015716886}@@---}{++{"author":"Elias's AI","timestamp":1788015716886}@@5.++} Produce a governance artifact in a working format (treaty text, policy memo, research proposal) with every mechanism claim anchored to a named precedent, provision, or source.
-{--{"author":"Elias's AI","timestamp":1788015716886}@@---}{++{"author":"Elias's AI","timestamp":1788015716886}@@6.++} Revise a design in response to red-team critique, identifying any objections you cannot currently answer.
-{--{"author":"Elias's AI","timestamp":1788015716886}@@---}{++{"author":"Elias's AI","timestamp":1788015716886}@@7.++} Choose the next step in verification work that fits your background and articulate how you can make an impact after graduating this course.{++{"author":"Elias's AI","timestamp":1788015716886}@@
-:::++}
-
-{--{"author":"Elias's AI","timestamp":1788015716886}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/capstone/putting-it-all-together)*--}{++{"author":"Elias's AI","timestamp":1788015716886}@@#### Text
+#### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 XLab. "4.0 Putting it All Together." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/capstone/putting-it-all-together)
 *The source lesson this page adapts.*
-:::++}
+:::
