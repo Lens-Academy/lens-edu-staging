@@ -84,9 +84,20 @@ work the whole chain — clip the facts that would change what a reader does,
 distil them, name who the report was built from and who reads it next, then
 thread each point to the readers who need it.
 
-#### Text
-content:: **Import gap:** XLab persistent memo desk has no clean Lens equivalent. Use the [original XLab lesson](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-upstream-downstream) for this element.
+#### {--{"author":"Elias's AI","timestamp":1788016762589}@@Text--}{++{"author":"Elias's AI","timestamp":1788016762589}@@Question: Open++}
+{++{"author":"Elias's AI","timestamp":1788016762589}@@id:: cec5c7fa-f530-4f33-83da-cadb4b7115a2
+++}content:: {--{"author":"Elias's AI","timestamp":1788016762589}@@**Import gap:** XLab persistent--}{++{"author":"Elias's AI","timestamp":1788016762589}@@Optional: **Actor–authority–evidence map** (Map, about 700 words)
+
+Actor–authority–evidence map for any element of the supply chain.
+
+This output is a map, not a++} memo {--{"author":"Elias's AI","timestamp":1788016762589}@@desk has no clean Lens equivalent. Use--}{++{"author":"Elias's AI","timestamp":1788016762589}@@— build it as annotated rows, not paragraphs, carrying what the brief above asks each row to hold.
+optional:: true
+assessment-instructions:: One element of++} the {--{"author":"Elias's AI","timestamp":1788016762589}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-upstream-downstream) for--}{++{"author":"Elias's AI","timestamp":1788016762589}@@advanced-AI supply chain is chosen and named. Score three things, roughly a third each: (1) the actors involved in that element are listed as rows; (2) each row states the authority that actor holds (a jurisdiction, a licence, ownership of a record, the power to interrupt); (3) each row states the evidence that would let an outside party verify what the actor is doing, and whether that evidence is produced by the actor itself or held by someone else. Reward rows that separate self-reported evidence from independently held evidence, the distinction++} this {--{"author":"Elias's AI","timestamp":1788016762589}@@element.--}{++{"author":"Elias's AI","timestamp":1788016762589}@@lesson teaches. No generic praise.
+feedback-instructions:: Name the row where the evidence is only the actor's own say-so and ask what independent stream could check it. One short paragraph.++}
 
 #### Text
 content::
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-upstream-downstream)*
+{--{"author":"Elias's AI","timestamp":1788016762589}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-upstream-downstream)*--}{++{"author":"Elias's AI","timestamp":1788016762589}@@:::callout {title="Works cited" tone="neutral" collapse="closed"}
+XLab. "1.3 Upstream and downstream." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-upstream-downstream)
+*The source lesson this page adapts. The IAEA sources for the Fordow case are named in the prose above and have no URL in XLab's citation registry.*
+:::{>>{"author":"Elias's AI","timestamp":1788016762589}@@XLab's memo desk lists three slots for this lesson in src/content/verification/memos.ts: m1-actor-authority-evidence (brief as quoted above, 700 words, status "named": length and audience not drafted, so it is optional here); m1-case-briefing "Case briefing on actors" (600 words, no brief, audience or rubric drafted); and m1-optional "Written output" (unspecified). The two without a brief are not added as questions. Replaces the import-gap placeholder and the XLab source footer.<<}++}
