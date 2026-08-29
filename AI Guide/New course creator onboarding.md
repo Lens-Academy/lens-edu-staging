@@ -22,7 +22,9 @@ Read the course file first, then follow its module links from top to bottom. It 
 
 With the MCP, your AI will also have context on everything, so you can just ask it about whatever you want to know.
 
-Changes by your AI will mostly appear as suggestions that you can accept in the file, or in bulk here: https://editor.lensacademy.org/review (Filter suglook for your name)
+Changes by your AI will mostly appear as suggestions that you can accept in the file, or in bulk here: https://editor.lensacademy.org/review (Filter suggestions by your name)
+
+Once 
 
 You can explore the learner-facing platform here:
 
