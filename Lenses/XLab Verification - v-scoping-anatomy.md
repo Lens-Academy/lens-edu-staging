@@ -105,9 +105,9 @@ assessment-instructions:: Full credit: the entry-into-force condition++} is {--{
 content::
 {>>{"author":"Elias's AI","timestamp":1788016175235}@@Native reproduction of XLab's treaty-workspace (src/lib/verification/data/treaty-workspace.ts and widgets/treaty-workspace.tsx). XLab's rule is "answer any 3 of the 4", so all four are optional with a bridge sentence. The two imported headings ("Apply the Treaty-Reading Method" was XLab's PageBreak title) are collapsed to the real "Assignment" heading.<<}++}
 
-#### Text
+{--{"author":"Elias's AI","timestamp":1788016420133}@@#### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788016350518}@@\## [Optional] Drill: --}{++{"author":"Elias's AI","timestamp":1788016350518}@@:::callout {title="Optional: ++}Reassemble the Parts of an {--{"author":"Elias's AI","timestamp":1788016350518}@@Agreement
+--}{--{"author":"Elias's AI","timestamp":1788016350518}@@\## [Optional] Drill: --}{++{"author":"Elias's AI","timestamp":1788016350518}@@:::callout {title="Optional: ++}Reassemble the Parts of an {--{"author":"Elias's AI","timestamp":1788016350518}@@Agreement
 
 --}{++{"author":"Elias's AI","timestamp":1788016350518}@@Agreement" tone="neutral" collapse="closed"}
 ++}A recall drill for the anatomy you just dissected.
