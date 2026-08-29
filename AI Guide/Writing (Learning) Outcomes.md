@@ -112,7 +112,7 @@ source:: [[../Lenses/My Topic]]
 
 ### Segments
 
-Use [[../Lenses/Response to question segments]] as the single reference for question types, fields, defaults, and syntax. The same response segments work in surveys, lenses.
+Use [[../Lenses/Response to question segments]] as the single reference for question types, fields, defaults, and syntax. The same response segments work in surveys and lenses.
 
 LO-specific rules:
 
