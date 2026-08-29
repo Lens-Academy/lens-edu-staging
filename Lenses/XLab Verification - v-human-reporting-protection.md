@@ -467,7 +467,7 @@ Independence: deficient when the auditee controls selection, renewal, scope, or 
 
 #### Question: Choice
 id:: 8168b860-0c7b-4f46-bdf6-0753e9f7f75c
-content:: Competence. The assigned team consists entirely of model evaluators. It++} has no {++{"author":"Elias's AI","timestamp":1788016058779}@@compute-accounting, data-center, forensic interviewing, evidence-handling, or treaty-law expertise.
+content:: Competence. The assigned team consists entirely of model evaluators. It++} has no {++{"author":"Elias's AI","timestamp":1788016158236}@@compute-accounting, data-center, forensic interviewing, evidence-handling, or treaty-law expertise.
 
 What competence does the Project Lattice inquiry require?
 options::
@@ -588,7 +588,7 @@ Informational capture: the auditee controls the evidentiary frame by selecting r
 :::
 
 #### Question: Choice
-id:: 1f3c2a84-6d0e-4f7b-9c21-5a8e7d3b2c10
+id:: 921faae2-f63f-4f84-9687-49cb6b9b8bd7
 content:: Cultural. Which fact is cultural capture?
 options::
 - [x] Through repeated staffing exchanges and socialization, the verifier adopts the developer's assumptions about what counts as normal, serious, or worth investigating.

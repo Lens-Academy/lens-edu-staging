@@ -198,11 +198,462 @@ Will the verification mechanism persist across technological and geopolitical ch
 The evasion, regime and position benches — module 3 and module 4, and the prep for the capstone. One step at a time: commit, read why, then Continue.
 
 #### Text
-content:: **Interactive exercise:** XLab's `drills-games` widget has no direct Lens equivalent yet. Complete it in the [original XLab lesson](https://aisafetytracks.com/tracks/verification/capstone/capstone-feasibility). Its surrounding lesson text is preserved here.
+content::{--{"author":"Elias's AI","timestamp":1788016140074}@@ **Interactive exercise:** XLab's `drills-games` widget --}{++{"author":"Elias's AI","timestamp":1788016140074}@@
+\### Evasion bench
 
-#### Text
-content:: **Import gap:** XLab persistent memo desk has no clean Lens equivalent. Use the [original XLab lesson](https://aisafetytracks.com/tracks/verification/capstone/capstone-feasibility) for this element.
+Classify four schemes against the taxonomy, then survive the statistics trap. (~7 min)
+
+#### Question: Choice
+id:: b3bcff05-c09b-4801-9cf9-a1ba7c37869a
+content:: A lab’s declared inference cluster shows training-shaped utilization: sustained all-to-all traffic in long nightly blocks, checkpoint-sized storage writes every few hours.
+
+Which of the eight evasion buckets is this?
+options::
+- Proxy organizations
+- Smuggled hardware
+- Threshold gaming
+- [x] Repurposed infrastructure
+- Distributed training
+shuffle:: true
+feedback-instructions:: Explain: bucket 5, repurposed infrastructure, training disguised as inference on legitimately held compute. Detectability is its weak flank: workload labels are cheap to fake, but utilization shape is not, which is why the cloud layer's telemetry is the natural tripwire here. Two or three sentences.
 
 #### Text
 content::
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/capstone/capstone-feasibility)*
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+Bucket 5, repurposed infrastructure — training disguised as inference on legitimately held compute. Detectability is its weak flank: workload labels are cheap to fake, but utilization shape is not, which is why the cloud layer’s telemetry is the natural tripwire here.
+:::
+
+#### Question: Choice
+id:: 48ba02dd-3a2c-412e-8c4d-7b2c734cff27
+content:: A subsidiary registered in a non-party state buys five thousand accelerators; its parent company is a treaty-bound lab. The chips never appear in the parent’s declarations.
+
+Which bucket?
+options::
+- [x] Proxy organizations
+- Weight exfiltration
+- False reporting
+- Tampering with verification mechanisms
+- Threshold gaming
+shuffle:: true
+feedback-instructions:: Explain: bucket 1, proxy organizations, the Meridian pattern from the actor bench, now as a scheme: legal separation used to break the paper trail between buyer and beneficiary. The counter lives at the chokepoint (chip registries follow the silicon, not the org chart) plus beneficial-ownership analysis. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+Bucket 1, proxy organizations — the Meridian pattern from the actor bench, now as a scheme: legal separation used to break the paper trail between buyer and beneficiary. The counter lives at the chokepoint (chip registries follow the silicon, not the org chart) plus beneficial-ownership analysis.
+:::
+
+#### Question: Choice
+id:: a522340c-1f5d-4c65-884b-37740844ffdf
+content:: Three sites in three jurisdictions each run training just below the notification threshold; the checkpoints are periodically merged.
+
+Which bucket?
+options::
+- Smuggled hardware
+- [x] Distributed training
+- Repurposed infrastructure
+- False reporting
+- Proxy organizations
+shuffle:: true
+feedback-instructions:: Explain: bucket 8, distributed training, sub-threshold fragmentation. It attacks the aggregation rule, not the sensor: each site is individually legal. The lesson: thresholds need language about combined runs and affiliated entities, or arithmetic becomes a loophole. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+Bucket 8, distributed training — sub-threshold fragmentation. It attacks the *aggregation rule*, not the sensor: each site is individually legal. Which is the lesson — thresholds need language about combined runs and affiliated entities, or arithmetic becomes a loophole.
+:::
+
+#### Question: Choice
+id:: 0c314899-c2df-4cfe-8da1-a8d7f0965da7
+content:: Extracted attestation keys are used to replay valid-looking quotes from a cluster whose actual firmware was replaced months ago.
+
+Which bucket?
+options::
+- [x] Tampering with verification mechanisms
+- Weight exfiltration
+- Threshold gaming
+- False reporting
+- Smuggled hardware
+shuffle:: true
+feedback-instructions:: Explain: bucket 7, tampering, the scheme aimed at the regime's own instruments rather than at the underlying rule. Nastiest property: it converts a verification signal from evidence into disinformation, which is why key compromise procedures and cross-layer corroboration are regime-design requirements, not nice-to-haves. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+Bucket 7, tampering — the scheme aimed at the regime’s own instruments rather than at the underlying rule. Nastiest property: it converts a verification signal from evidence into disinformation, which is why key compromise procedures and cross-layer corroboration are regime-design requirements, not nice-to-haves.
+:::
+
+#### Question: Choice
+id:: 22b578ab-8f1b-4da7-8ce1-94ec70d04ecf
+content:: Case: the treaty’s first monitoring year ends. Confirmed-violation findings are triple the pre-treaty estimate of covert activity. A columnist: “the treaty tripled cheating.” A minister proposes scrapping it.
+
+Did covert activity necessarily increase?
+options::
+- Yes — findings tripled
+- [x] No — the instrument changed; found violations and existing violations are different quantities
+- Cannot say anything from these numbers
+shuffle:: true
+feedback-instructions:: Explain: no. Before the treaty there was no monitoring, so the baseline "estimate" counted a fraction of an invisible total. Findings measure detection times incidence; the treaty changed the first factor massively. If the learner chose "Cannot say anything", note that this overcorrects: the numbers do say something, they bound detection performance. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+No — before the treaty there was no monitoring, so the baseline “estimate” counted a fraction of an invisible total. Findings measure detection × incidence; the treaty changed the first factor massively. (Answer C overcorrects: the numbers do say something — they bound detection performance.)
+:::
+
+#### Question: Choice
+id:: cbb77e16-57e8-4ed3-a8ca-45149fd1ba5b
+content:: The classic case, one century older: when steel helmets replaced cloth caps in the First World War, field hospitals recorded MORE head wounds — because soldiers who previously died were now surviving into the statistics.
+
+Name the shared error.
+options::
+- Base-rate neglect
+- [x] A selection effect: the observation instrument changed, so the observed sample changed
+- Sunk-cost reasoning
+- Circular reasoning
+shuffle:: true
+feedback-instructions:: Explain: both stories move cases across a visibility boundary (dead to wounded, invisible to detected) and both invite blaming the instrument for what it newly reveals. Verification regimes face this politically every year one: rising findings will be spun as regime failure when they are the regime working. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+Both stories move cases across a visibility boundary — dead→wounded, invisible→detected — and both invite blaming the instrument for what it newly reveals. Verification regimes face this politically every year one: rising findings will be spun as regime failure when they are the regime working. Brief accordingly.
+:::
+
+\### Regime bench
+
+Extract what the memo actually claims, sort strong from weak, counter both kinds, price the stack. (~10 min)
+
+MEMORANDUM — from the Deputy Minister for Strategy, re: the proposed verification regime. “(1) Every verification mechanism on offer can be defeated by a resourced adversary: attestation falls to physical access, proof-of-learning ++}has {++{"author":"Elias's AI","timestamp":1788016140074}@@been spoofed, customer vetting dissolves in reseller chains. (2) It follows that a regime stacked from such layers can be defeated too. (3) The BWC episode settles the politics: states will not accept intrusive verification — that protocol died, and so will this one. (4) And pause-grade inspection collides with legitimate secrecy: classified workloads, trade secrets, national-security systems. (5) Strategy should therefore preserve freedom of action and fund national capability instead.”
+
+#### Question: Choice
+id:: 65b5d768-2bda-4ea8-9715-f4e5141b9324
+content:: Before judging a text, establish what it says. Mark every statement the memo actually asserts.
+options::
+- [x] Individual verification mechanisms can each be defeated by a resourced adversary.
+- [x] A regime layered from defeatable mechanisms is itself defeatable.
+- Independent layers multiply detection probability.
+- [x] States will not accept intrusive verification; the BWC proves it.
+- Verification technology will mature substantially within a decade.
+- [x] Pause-grade inspection conflicts with legitimate secrecy.
+- [x] The ministry should preserve freedom of action and fund national capability.
+multi:: true
+feedback-instructions:: Five statements are asserted (sentences 1 to 5 of the memo) and two are phantoms. "Independent layers multiply detection probability": the memo asserts the opposite; marking it means reading your rebuttal into the author's mouth, the extraction error the source round punishes hardest. "Verification technology will mature substantially within a decade": never addressed, the classic planted distractor. Name each item the learner got wrong and which sentence, if any, asserts it. Close with: extraction precedes evaluation; you cannot sort strong from weak until the claim list is the author's and not yours.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+Extraction precedes evaluation: you cannot sort strong from weak until the claim list is the author’s and not yours. Five claims in, two phantoms out — now the sorting can start.
+
+- Individual verification mechanisms can each be defeated by a resourced adversary. Asserted — sentence (1), with three supporting examples.
+- A regime layered from defeatable mechanisms is itself defeatable. Asserted — sentence (2), flagged by its own “it follows”.
+- Independent layers multiply detection probability. The memo asserts the OPPOSITE. Marking this means reading your rebuttal into the author’s mouth — the extraction error the source round punishes hardest.
+- States will not accept intrusive verification; the BWC proves it. Asserted — sentence (3).
+- Verification technology will mature substantially within a decade. Never addressed — plausible-sounding and absent, the classic planted distractor.
+- Pause-grade inspection conflicts with legitimate secrecy. Asserted — sentence (4).
+- The ministry should preserve freedom of action and fund national capability. Asserted — sentence (5), the memo’s recommendation.
+:::
+
+Sorting rule from the source pedagogy: strong arguments get engaged on the merits; weak ones get their flaw named. Both earn marks — mislabeling earns none.
+
+#### Question: Choice
+id:: 90ef49c3-e8e5-455f-98d8-843612be993b
+content:: Memo sentence (1): “Every verification mechanism on offer can be defeated by a resourced adversary.”
+
+Strong or weak?
+options::
+- [x] Strong — engage it
+- Weak — name the flaw
+feedback-instructions:: Explain: strong. The course itself teaches it: attestation breaks under physical access, PoL was spoofed, KYC dissolves in reseller chains. Concede the premise honestly; the regime's answer is layering, never mechanism-perfection. Steelmanning the opponent's true premises is what makes the eventual rebuttal land. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+Strong — the course itself teaches it: attestation breaks under physical access, PoL was spoofed, KYC dissolves in reseller chains. Concede the premise honestly; the regime’s answer is layering, never mechanism-perfection. Steelmanning the opponent’s true premises is what makes the eventual rebuttal land.
+:::
+
+#### Question: Choice
+id:: 092d5aa3-86c4-4f1f-8dcc-6a2c242718af
+content:: Memo sentence (2): “It follows that a regime stacked from such layers can be defeated too.”
+
+Strong or weak?
+options::
+- Strong — engage it
+- [x] Weak — name the flaw
+feedback-instructions:: Explain: weak, a composition fallacy. What is true of each layer separately is not true of the stack, provided the layers fail independently. Note the memo's own tell: "it follows" marks the exact joint where the inference breaks. The learner will price this fallacy in numbers two steps from now. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+Weak — a composition fallacy: what is true of each layer separately is not true of the stack, *provided the layers fail independently*. Note the memo’s own tell — “it follows” marks the exact joint where the inference breaks. You will price this fallacy in numbers two steps from now.
+:::
+
+#### Question: Choice
+id:: fbceaea3-3472-4e9b-bdf4-97fd391ed607
+content:: Memo sentence (3): “The BWC episode settles the politics: states will not accept intrusive verification.”
+
+Strong or weak?
+options::
+- Strong — engage it
+- [x] Weak — name the flaw
+feedback-instructions:: Explain: weak, generalizing from one failure while the counterexamples run seventy years: IAEA safeguards, CWC managed access, START inspections. The honest residue is real, though: the BWC case proves political acceptability is a design constraint, which is exactly how the spine teaches it. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+Weak — generalizing from one failure while the counterexamples run seventy years: IAEA safeguards, CWC managed access, START inspections. The honest residue is real, though: the BWC case proves political acceptability is a design constraint, which is exactly how the spine teaches it.
+:::
+
+#### Question: Choice
+id:: 03007ab7-3417-4f2f-bdf0-99ac8582e031
+content:: Memo sentence (4): “Pause-grade inspection collides with legitimate secrecy — classified workloads, trade secrets, national-security systems.”
+
+Strong or weak?
+options::
+- [x] Strong — engage it
+- Weak — name the flaw
+feedback-instructions:: Explain: strong. The secrets-and-people bench exists because this is true. The engagement: confidentiality-preserving verification (ZK proofs, attestation) where the technology exists, managed access where it does not yet. A reply that dismisses the secrecy concern loses the reader who most needs convincing. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+Strong — the secrets-and-people bench exists because this is true. The engagement: confidentiality-preserving verification (ZK proofs, attestation) where the technology exists, managed access where it does not yet. A reply that dismisses the secrecy concern loses the reader who most needs convincing.
+:::
+
+Counterargument discipline, part two of the source format: for each argument, formulate the counter that MEETS it — not the author, not the vibe.
+
+#### Question: Choice
+id:: 0f617796-7c8e-403f-af0d-5fd413288a25
+content:: Which counterargument actually meets memo sentence (2) — the stack-fails-too inference?
+options::
+- [x] Three independent layers each missing 30% of the time jointly miss ~3% of the time — composition flips the odds, provided failures are independent
+- The Deputy Minister has ++}no {--{"author":"Elias's AI","timestamp":1788016140074}@@direct Lens equivalent yet. Complete--}{++{"author":"Elias's AI","timestamp":1788016140074}@@technical background in verification
+- Verification also builds trust between rivals, which has diplomatic value
+- Some verification mechanisms are in fact unbreakable
+feedback-instructions:: Explain: only the first meets the inference where it lives, and carries its own scope condition. The second attacks the author (the position bench dissects that move), the third changes the subject, and the fourth concedes the memo's frame by defending a claim the course itself rejects. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+Only the first meets the inference where it lives — and carries its own scope condition. The second attacks the author (the position bench dissects that move), the third changes the subject, and the fourth concedes the memo’s frame by defending a claim the course itself rejects.
+:::
+
+#### Question: Choice
+id:: 879e9745-77e9-48cc-ba12-d8d3e528488b
+content:: Which counterargument actually meets memo sentence (3) — the BWC-settles-the-politics claim?
+options::
+- [x] One dead protocol against seventy years of operating regimes — safeguards, CWC, START — is a sample of one, not a law; what the BWC proves is that acceptability is a design constraint
+- The BWC failure was two decades ago; the politics have changed since
+- Biology and AI are different technologies, so the case is irrelevant
+- States that reject verification are simply acting in bad faith
+feedback-instructions:: Explain: the first names the inferential flaw (overgeneralization) and salvages the argument's true residue, the strongest form of counterargument in the source rubric. The second asserts without showing, the third dodges the political claim it needs to answer, the fourth moralizes and concedes nothing. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+The first names the inferential flaw (overgeneralization) AND salvages the argument’s true residue — the strongest form of counterargument in the source rubric. The second asserts without showing, the third dodges the political claim++} it {++{"author":"Elias's AI","timestamp":1788016140074}@@needs to answer, the fourth moralizes and concedes nothing.
+:::
+
+The source tables demand counterarguments ++}in the {--{"author":"Elias's AI","timestamp":1788016140074}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/capstone/capstone-feasibility). Its surrounding lesson text --}{++{"author":"Elias's AI","timestamp":1788016140074}@@STRONG rows too — countering an argument you concede ++}is {--{"author":"Elias's AI","timestamp":1788016140074}@@preserved here.--}{++{"author":"Elias's AI","timestamp":1788016140074}@@sound is its own skill: you bound its scope, you never deny it.++}
+
+#### {++{"author":"Elias's AI","timestamp":1788016140074}@@Question: Choice
+id:: 92561c92-604e-4afa-a297-8c3aa9a1d9e5
+content:: Memo sentence (4) is strong — verification really does collide with legitimate secrecy. Which counter meets even a strong argument?
+options::
+- [x] Concede the collision, then bound it: confidentiality-preserving proofs where the technology exists, CWC-style managed access where it does not — the carve-out is a designed feature with seventy years of practice behind it
+- Secrecy claims are usually pretexts for having something to hide
+- Transparency simply matters more than secrecy
+- Trade secrets have no protection in international law anyway
+feedback-instructions:: Explain: concede-and-bound is the only move that survives contact with a true premise. The second option is the attribution reflex (the position bench dissects it), the third is a value assertion that persuades nobody who does not already agree, and the fourth is false, and silent about classified workloads, the collision's hardest case. Two or three sentences.
+
+#### ++}Text
+content::{--{"author":"Elias's AI","timestamp":1788016140074}@@ **Import gap:** --}{++{"author":"Elias's AI","timestamp":1788016140074}@@
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+Concede-and-bound is the only move that survives contact with a true premise. The second option is the attribution reflex (the position bench dissects it), the third is a value assertion that persuades nobody who does not already agree, and the fourth is false — and silent about classified workloads, the collision’s hardest case.
+:::
+
+Now price the composition fallacy — computed, not chosen. Assume three independent evidence streams — hardware, intelligence, human — each with a 70% chance of catching a given covert program.
+
+#### Question: FillBlank
+id:: 42700410-921e-4f75-8268-bc5fd7939339
+content:: What percentage of covert programs evades all three? Enter the number: {{number min 0 max 100 2.7}} %
+assessment-instructions:: Reference answer 2.7 (0.3 × 0.3 × 0.3 = 0.027). Give 100 for any answer between 2 and 3.5 inclusive, which is the range ++}XLab {--{"author":"Elias's AI","timestamp":1788016140074}@@persistent memo desk has --}{++{"author":"Elias's AI","timestamp":1788016140074}@@accepts. Give 50 for 0.027 or 0.03 (right computation, forgot to convert to percent). Give 0 otherwise.
+feedback-instructions:: Explain: 0.3 × 0.3 × 0.3 = 0.027, so 2.7%. Each mediocre layer alone misses one time in three; the stack misses one in thirty-seven. The proviso is load-bearing: layers sharing a blind spot (all fed by the same declarations, say) are one layer wearing three uniforms; independence is a design requirement, not a free assumption. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+0.3 × 0.3 × 0.3 = 0.027 → 2.7%. Each mediocre layer alone misses one time in three; the stack misses one in thirty-seven. The proviso is load-bearing: layers sharing a blind spot (all fed by the same declarations, say) are one layer wearing three uniforms — independence is a design requirement, not a free assumption.
+:::
+
+\### Position bench
+
+Critique vectors on a radical manifesto — all the rubric’s rows — then the prognostic analysis it never did, run on our own measure. (~9 min)
+
+Movement one — the critique taxonomy. The Zero Hour Manifesto demands an immediate, unconditional, permanent global shutdown of all AI development; its author is a 22-year-old movement founder. Four critique lines from the public debate follow. Classify each: does it attack the SPEAKER (personal traits, hidden interests) or the ARGUMENT (premises, program)? Both kinds appear in every real debate — only one kind carries evidential weight.
+
+#### Question: Choice
+id:: cc362678-d543-4aab-b458-9c5db56fcfd8
+content:: Critique line 1: “Twenty-two years old, never trained a model, never held a clearance — this is not someone who understands the systems she wants to shut down.”
+
+Speaker-directed or argument-directed?
+options::
+- [x] Speaker-directed — personal characteristics
+- Argument-directed — premises or program
+feedback-instructions:: Explain: speaker-directed, age and credentials, the source rubric's first family (personal characteristics: age, education, temperament). Cataloguing it is worth marks; relying on it is not: a claim's truth does not vary with its speaker's CV, and the strongest version of her argument survives her entirely. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+Speaker-directed: age and credentials — the source rubric’s first family (personal characteristics: age, education, temperament). Cataloguing it is worth marks; relying on it is not: a claim’s truth does not vary with its speaker’s CV, and the strongest version of her argument survives her entirely.
+:::
+
+#### Question: Choice
+id:: d146fc3d-9143-4e43-9d76-33d508425485
+content:: Critique line 2: “Follow the money — the movement’s donors hold short positions against AI companies. The manifesto is a trading strategy wearing a safety costume.”
+
+Speaker-directed or argument-directed?
+options::
+- [x] Speaker-directed — attribution of hidden motives
+- Argument-directed — premises or program
+feedback-instructions:: Explain: speaker-directed, second family: attribution, the speaker as instrument of concealed interests, declared goals diverging from real ones. Rhetorically devastating, evidentially empty: motives predict why someone argues, never whether the argument holds. Flag it, name it, and return to the claims. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+Speaker-directed, second family: attribution — the speaker as instrument of concealed interests, declared goals diverging from real ones. Rhetorically devastating, evidentially empty: motives predict WHY someone argues, never WHETHER the argument holds. Flag it, name it, and return to the claims.
+:::
+
+#### Question: Choice
+id:: ef7fa9f1-ee5a-44d6-b872-cc7c73d14b55
+content:: Critique line 3: “The manifesto treats catastrophe-absent-shutdown as certain. That axiom is contestable — and every demand downstream inherits its uncertainty.”
+
+Speaker-directed or argument-directed?
+options::
+- Speaker-directed — attribution of hidden motives
+- [x] Argument-directed — a contestable axiomatic premise
+feedback-instructions:: Explain: argument-directed, the axiom family, the source rubric's "contestable foundational premises". This is the critique that does real work: it locates the load-bearing assumption and prices everything built on it. Note it applies symmetrically: the foundations' securitization case must survive the same probe. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+Argument-directed: the axiom family — the source rubric’s “contestable foundational premises”. This is the critique that does real work: it locates the load-bearing assumption and prices everything built on it. Note it applies symmetrically — the foundations’ securitization case must survive the same probe.
+:::
+
+#### Question: Choice
+id:: 2d4883b3-93c3-4c1f-b7c7-45757aedce89
+content:: Critique line 4: “It demands the terminal measure immediately, offers no transition plan, and never once analyzes what its own success would cause.”
+
+Speaker-directed or argument-directed?
+options::
+- Speaker-directed — personal characteristics
+- [x] Argument-directed — non-constructiveness and missing prognostic analysis
+feedback-instructions:: Explain: argument-directed, and a double hit from the rubric: radicalism-without-program (all negation, ++}no {--{"author":"Elias's AI","timestamp":1788016140074}@@clean Lens equivalent. Use--}{++{"author":"Elias's AI","timestamp":1788016140074}@@positive design) and absent prognostic analysis (no accounting of++} the {--{"author":"Elias's AI","timestamp":1788016140074}@@[original --}{++{"author":"Elias's AI","timestamp":1788016140074}@@measure's own consequences). That second flaw is fixable, and movement two of this bench fixes it, on our own measure, so the critique cannot be returned to sender. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+Argument-directed, and a double hit from the rubric: radicalism-without-program (all negation, no positive design) and absent prognostic analysis (no accounting of the measure’s own consequences). That second flaw is fixable — and movement two of this bench fixes it, on our own measure, so the critique cannot be returned to sender.
+:::
+
+#### Question: Choice
+id:: 42e6609a-b738-40e3-9746-c9d2fdb6efc5
+content:: Critique line 5: “Her diagnosis is real and grave — which is exactly why this unserious prescription wrongs it. The gravity of the problem does not transfer to the proposal.”
+
+Speaker-directed or argument-directed?
+options::
+- Speaker-directed — it concedes her sincerity, so it must be about her
+- [x] Argument-directed — the importance-of-problem vs. adequacy-of-solution mismatch
+feedback-instructions:: Explain: argument-directed, the source rubric's subtlest row: a contradiction between the weight of the stated problem and the unsatisfactoriness of the proposed path. Conceding the diagnosis makes it more argument-directed, not less; nothing about the speaker is in play. The rubric's one remaining row, ideological capture, sits on the argument side too: it indicts the reasoning's incentives, not the person's character, though in street debate it constantly decays into attribution. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+Argument-directed — the source rubric’s subtlest row: a contradiction between the weight of the stated problem and the unsatisfactoriness of the proposed path. Conceding the diagnosis makes it MORE argument-directed, not less; nothing about the speaker is in play. (The rubric’s one remaining row — ideological capture — sits on the argument side too: it indicts the reasoning’s incentives, not the person’s character, though in street debate it constantly decays into attribution.)
+:::
+
+Movement two — the prognostic analysis the manifesto skipped, run honestly on the course’s own measure: an immediate emergency pause on all training runs above 10²⁵ FLOP. Source-pedagogy rule: a measure is not analyzed until you have named consequences for it and against it, across domains.
+
+#### Question: Choice
+id:: 2d0b748e-df18-4987-8e42-f01dccf7d436
+content:: Consequence card: “Compute-rich actors redirect spending into algorithmic efficiency, eroding what the FLOP threshold measures.”
+
+Does this cut for or against the measure as designed?
+options::
+- For — it shows the threshold binding
+- [x] Against — threshold-gaming pressure the design must anticipate
+feedback-instructions:: Explain: against, in the technical domain, the evasion taxonomy's bucket 3 arriving on schedule. Not fatal: it argues for effective-compute indexing and periodic threshold review rather than for no pause. Naming a consequence against your own preferred measure is the discipline being drilled. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+Against, in the technical domain — the evasion taxonomy’s bucket 3 arriving on schedule. Not fatal: it argues for effective-compute indexing and periodic threshold review rather than for no pause. Naming a consequence against your own preferred measure is the discipline being drilled.
+:::
+
+#### Question: Choice
+id:: e16ba894-a1cb-4eb8-b449-173f1504e729
+content:: Consequence card: “Verification infrastructure built for the pause — registries, telemetry, inspection corps — survives the pause and supports weaker regimes afterward.”
+
+For or against?
+options::
+- [x] For — durable institutional gains in the political domain
+- Against — sunk costs in the economic domain
+feedback-instructions:: Explain: for, institutionally, the foundations' design exception running forward: pause-grade machinery is reusable for caps, transparency, licensing. Regime design compounds; even a pause that lapses leaves the verification commons better than it found it. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+For, institutionally — the foundations’ design exception running forward: pause-grade machinery is reusable for caps, transparency, licensing. Regime design compounds; even a pause that lapses leaves the verification commons better than it found it.
+:::
+
+#### Question: Choice
+id:: 139208d1-6d1f-4cc8-b928-7d0d8fa58e53
+content:: Consequence card: “States that could never train at 10²⁵ FLOP bear no direct cost, while capable states bear all of it — resentment and defection pressure concentrate among exactly the parties whose compliance matters.”
+
+For or against?
+options::
+- For — the burden falls on those who created the risk
+- [x] Against — a political-economy strain concentrated where compliance is most needed
+feedback-instructions:: Explain: against, in the political domain, asymmetric burden with compliance-weighted stakes. The two-level-game primer predicts where this bites: capable states' domestic ratification. Mitigations (sunset clauses, shared monitoring budgets, technology-access provisions) belong in the capstone, not in denial. Two or three sentences.
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+Against, in the political domain — asymmetric burden with compliance-weighted stakes. The two-level-game primer predicts where this bites: capable states’ domestic ratification. Mitigations (sunset clauses, shared monitoring budgets, technology-access provisions) belong in the capstone, not in denial.
+:::
+
+#### Question: Open
+id:: 04c7a34f-3906-4c7c-bf8c-e4f09a47b1ec
+content:: Last commit, source-pedagogy category “other consequences named”: state one consequence of the pause in a domain the cards did not cover — economic, humanitarian, epistemic, ecological, your call. One or two sentences, with its direction.
+assessment-instructions:: There is no answer key. Give full credit if the learner names one consequence of an emergency pause on training runs above 10^25 FLOP in a domain the three cards did not cover (the cards covered algorithmic-efficiency redirection, reusable verification infrastructure, and asymmetric burden on capable states) and states its direction, for or against the measure. Give partial credit if the domain is new but the direction is missing, or the direction is stated but the consequence repeats a card. ++}XLab {--{"author":"Elias's AI","timestamp":1788016140074}@@lesson](https://aisafetytracks.com/tracks/verification/capstone/capstone-feasibility) --}{++{"author":"Elias's AI","timestamp":1788016140074}@@requires at least 60 characters.
+feedback-instructions:: Tell the learner: no key ++}for this {--{"author":"Elias's AI","timestamp":1788016140074}@@element.--}{++{"author":"Elias's AI","timestamp":1788016140074}@@one; the rubric habit is the point. The consequence table has more rows than any card deck, and capstone graders (like the source round's graders) award the rows you open yourself. Carry your answer into your own regime design. Two or three sentences.
+
+#### Text
+content::
+\## Defended-ranking memo
+
+#### Question: Open
+id:: d31b5568-5767-496e-8065-3a81639be8ab
+content:: Produce the defended-ranking memo: a recommended mechanism portfolio for one named policy goal, with residual blind spots and their owners — the artifact the 4.2 capstone receives. Defend the ranking against both your own initial guesses and the field’s published ratings.
+
+Audience: whoever acts on the 4.2 capstone — the portfolio is handed forward, not filed. (about 900 words; peer reviewed against the rubric)
+assessment-instructions:: This is the module's peer-reviewed written output (XLab memo slot m4-0-ranking-memo, about 900 words). Check for: one named policy goal; a recommended portfolio of mechanisms with a defended ranking; residual blind spots each assigned an owner (who covers it); an explicit defence against the learner's own initial 2.0 ratings and against published ratings from the module readings. Respond to the reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the reference map is required.
+{>>{"author":"Elias's AI","timestamp":1788016140074}@@XLab renders this as its persistent MemoDesk (a cross-lesson notebook, JavaScript-backed). The memo brief and audience are reproduced verbatim from memos.ts; the desk itself is not reproducible.<<}++}
+
+#### Text
+content::
+{--{"author":"Elias's AI","timestamp":1788016140074}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/capstone/capstone-feasibility)*--}{++{"author":"Elias's AI","timestamp":1788016140074}@@:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Sheehan, Matt. "China’s Views on AI Safety Are Changing—Quickly." Carnegie Endowment for International Peace, Aug. 2024. [carnegieendowment.org](https://carnegieendowment.org/research/2024/08/chinas-views-on-ai-safety-are-changing-quickly)
+*Sheehan reads the July 2024 Third Plenum decision, the first major CCP policy document to call for an AI safety supervision and regulation system, as evidence of Beijing’s accelerating turn toward frontier-AI safety oversight.*
+
+Wasil, Akash R., Tom Reed, Jack William Miller, et al. "Verification Methods for International AI Agreements." *arXiv*, Aug. 2024. [arxiv.org](https://arxiv.org/abs/2408.16074)
+*A survey of ten verification techniques for catching violations of international AI agreements, from unauthorized training runs to undeclared data centers.*
+
+Hooker, Sara. "On the Limitations of Compute Thresholds as a Governance Strategy." *arXiv*, July 2024. [arxiv.org](https://arxiv.org/html/2407.05694v1)
+*The counterargument on thresholds: why compute cutoffs are a shaky governance proxy, since the compute-risk relationship is uncertain and moving.*
+
+Shavit (2023), cited inline in the technical-feasibility card, has no verified citation entry yet. The reference-map sources are named inside each mechanism's callout.
+
+XLab. "4.1 Feasibility Judgments." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/capstone/capstone-feasibility)
+*The source lesson this page adapts, including the reference map and the drill bench.*
+:::++}
