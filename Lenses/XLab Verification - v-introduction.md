@@ -146,7 +146,7 @@ content::
 
 *Risk statements.* His risk assessments have not softened alongside the definitional shift. In 2023 he described the worst case as "lights out for all of us", and OpenAI's superalignment announcement warned that superintelligence could lead to the "disempowerment of humanity or even human extinction".
 
-*Relevance to this module.* A definition that moves as products approach it cannot anchor an agreement. This is one reason treaties are written around thresholds an outside party can measure, taken up in Module 1 (compute vs. capability).
+*Relevance to this module.* A definition that moves as products approach it cannot anchor an agreement. This is one reason treaties are written around thresholds an outside party can measure, taken up in {--{"author":"Elias's AI","timestamp":1788013081591}@@Module 1 (compute--}{++{"author":"Elias's AI","timestamp":1788013081591}@@[[../Lenses/XLab Verification - v-scoping-thresholds|1.0.1 Drawing the Line: Compute++} vs. {--{"author":"Elias's AI","timestamp":1788013081591}@@capability).--}{++{"author":"Elias's AI","timestamp":1788013081591}@@Capability]].++}
 
 Sources: [Time](https://time.com/7205596/sam-altman-superintelligence-agi/), [CNBC](https://www.cnbc.com/2025/08/11/sam-altman-says-agi-is-a-pointless-term-experts-agree.html), [Windows Central](https://www.windowscentral.com/artificial-intelligence/openai-ceo-sam-altman-claims-agi-might-have-already-whooshed-by), [80,000 Hours](https://80000hours.org/podcast/episodes/jan-leike-superalignment/).
 
