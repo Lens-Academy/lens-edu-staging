@@ -1,8 +1,8 @@
 ---
 id: 'e39bd85f-e2bf-4039-a3f1-f8f5291892b6'
 title: "2.1.5 Authorization, licensing, and control"
-tldr: "Faithful alpha import of XLab lesson 2.1.5 Authorization, licensing, and control."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
+tldr: {--{"author":"Elias's AI","timestamp":1788015723524}@@"Faithful alpha import of XLab lesson 2.1.5 Authorization, licensing, --}{++{"author":"Elias's AI","timestamp":1788015723524}@@"An off-switch for someone else's compute is only as acceptable as the answer to who holds the key, what happens when the licence server is down, ++}and {--{"author":"Elias's AI","timestamp":1788015723524}@@control."--}{++{"author":"Elias's AI","timestamp":1788015723524}@@who reverses a mistake. Assemble a full authorization chain from twelve components and find which ones fail together."++}
+summary_for_tutor: "Imported from XLab's {--{"author":"Elias's AI","timestamp":1788015723524}@@canonical --}Verification {--{"author":"Elias's AI","timestamp":1788015723524}@@curriculum. Preserve--}{++{"author":"Elias's AI","timestamp":1788015723524}@@curriculum; preserve++} source framing. {--{"author":"Elias's AI","timestamp":1788015723524}@@XLab currently blocks cross-site embedding, so linked external exercises--}{++{"author":"Elias's AI","timestamp":1788015723524}@@Reading on offline licensing, the twelve questions a policy designer++} must {--{"author":"Elias's AI","timestamp":1788015723524}@@be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788015723524}@@answer, Petrie's 2024 firmware-based design (author estimate, not deployment evidence), and why control authority is part of the mechanism. Ends with the build-the-authorization-chain open question. Check that the learner distinguishes components that measure from components that only authenticate, and names the common-mode failure if the manufacturer's root key is compromised."++}
 tags: [wip]
 duration_minutes: 5
 ---

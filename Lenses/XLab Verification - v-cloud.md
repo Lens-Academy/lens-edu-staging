@@ -1,9 +1,11 @@
 ---
 id: 'f78c8de0-f12f-446e-992b-a27c30dc3e84'
 title: "2.2.1 Provider records and workload observables"
-tldr: "Faithful alpha import of XLab lesson 2.2.1 Provider records and workload observables."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
+tldr: {--{"author":"Elias's AI","timestamp":1788015722669}@@"Faithful alpha import --}{++{"author":"Elias's AI","timestamp":1788015722669}@@"A cloud provider bills you for every GPU hour, so it already holds a ledger ++}of {++{"author":"Elias's AI","timestamp":1788015722669}@@who rented what, for how long. Read Heim et al. to work out what that ledger can prove about a training run, what it cannot, and where the provider's reach ends."
+summary_for_tutor: "Reading lens adapted from ++}XLab lesson {--{"author":"Elias's AI","timestamp":1788015722669}@@2.2.1 Provider records --}{++{"author":"Elias's AI","timestamp":1788015722669}@@2.2.1. An objectives callout, then Heim et al. (2024), Governing Through the Cloud: four executive-summary paragraphs as article excerpts, then sections 3.2, 3.3.2 to 3.3.4 and Appendix B (Table 4) inlined as article excerpts. No questions in this lens; the learner is told to keep two columns while reading (what record or signal exists; what conclusion it supports ++}and {--{"author":"Elias's AI","timestamp":1788015722669}@@workload observables."
+summary_for_tutor: "Imported --}{++{"author":"Elias's AI","timestamp":1788015722669}@@what it does not establish). If the learner asks for help, work ++}from {--{"author":"Elias's AI","timestamp":1788015722669}@@XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788015722669}@@the text: distinguish provider-controlled records from customer declarations, and separate workload classification (what kind) from compute accounting (how much). Ends with a Works cited callout."++}
 tags: [wip]
+duration_minutes: 38
 ---
 #### Text
 content::

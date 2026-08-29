@@ -26,25 +26,35 @@ If you find something unclear, wrong, missing, or especially useful, please send
 
 Course asks how parties that do not trust one another could verify meaningful limits on advanced AI development. It moves from motivation and policy scope to concrete evidence, adversarial evasion, and regime design.--}{++{"author":"Elias's AI","timestamp":1788015695787}@@ The path++}
 
-\### Module 0: Foundations
+{--{"author":"Elias's AI","timestamp":1788015723031}@@\### Module--}{++{"author":"Elias's AI","timestamp":1788015723031}@@:::callout {title="Module++} 0: {--{"author":"Elias's AI","timestamp":1788015723031}@@Foundations
 
-Why verification matters at all. Module connects AI risk and international coordination to core verification problem, develops intuitions using competing governance scenarios, and examines arms-control precedents and their limits.
+--}{++{"author":"Elias's AI","timestamp":1788015723031}@@Foundations" tone="blue"}
+++}Why verification matters at all. {--{"author":"Elias's AI","timestamp":1788015723031}@@Module connects --}{++{"author":"Elias's AI","timestamp":1788015723031}@@Connects ++}AI risk and international coordination to {++{"author":"Elias's AI","timestamp":1788015723031}@@the ++}core verification problem, {--{"author":"Elias's AI","timestamp":1788015723031}@@develops--}{++{"author":"Elias's AI","timestamp":1788015723031}@@builds++} intuitions {--{"author":"Elias's AI","timestamp":1788015723031}@@using competing governance scenarios,--}{++{"author":"Elias's AI","timestamp":1788015723031}@@by stress-testing a concrete slowdown plan,++} and examines arms-control precedents and their limits.{++{"author":"Elias's AI","timestamp":1788015723031}@@
+:::++}
 
-\### Module 1: Policy scoping and actors
+{--{"author":"Elias's AI","timestamp":1788015723031}@@\### Module--}{++{"author":"Elias's AI","timestamp":1788015723031}@@:::callout {title="Module++} 1: Policy scoping and {--{"author":"Elias's AI","timestamp":1788015723031}@@actors
 
-What exactly must be verified, and by whom? Module compares compute and capability thresholds, tests effectiveness against feasibility, examines anatomy of a pause agreement, and maps actors and leverage across compute supply chain.
+--}{++{"author":"Elias's AI","timestamp":1788015723031}@@actors" tone="blue"}
+++}What exactly must be verified, and by whom? {--{"author":"Elias's AI","timestamp":1788015723031}@@Module compares--}{++{"author":"Elias's AI","timestamp":1788015723031}@@Compares++} compute and capability thresholds, tests effectiveness against feasibility, {--{"author":"Elias's AI","timestamp":1788015723031}@@examines--}{++{"author":"Elias's AI","timestamp":1788015723031}@@dissects the++} anatomy of a pause agreement, and maps actors and leverage across {++{"author":"Elias's AI","timestamp":1788015723031}@@the ++}compute supply chain.{++{"author":"Elias's AI","timestamp":1788015723031}@@
+:::++}
 
-\### Module 2: Evidence streams
+{--{"author":"Elias's AI","timestamp":1788015723031}@@\### Module--}{++{"author":"Elias's AI","timestamp":1788015723031}@@:::callout {title="Module++} 2: Evidence {--{"author":"Elias's AI","timestamp":1788015723031}@@streams
 
-How can compliance produce evidence? Module evaluates hardware, cloud, intelligence, and human or institutional mechanisms by claims they test, evidence they produce, implementation demands, confidentiality costs, and failure modes.
+--}{++{"author":"Elias's AI","timestamp":1788015723031}@@streams" tone="blue"}
+++}How can compliance produce evidence? {--{"author":"Elias's AI","timestamp":1788015723031}@@Module evaluates --}{++{"author":"Elias's AI","timestamp":1788015723031}@@Evaluates ++}hardware, cloud, intelligence, and human or institutional mechanisms by {++{"author":"Elias's AI","timestamp":1788015723031}@@the ++}claims they test, {++{"author":"Elias's AI","timestamp":1788015723031}@@the ++}evidence they produce, {++{"author":"Elias's AI","timestamp":1788015723031}@@their ++}implementation demands, confidentiality costs, and failure modes.{++{"author":"Elias's AI","timestamp":1788015723031}@@
+:::++}
 
-\### Module 3: Covert development
+{--{"author":"Elias's AI","timestamp":1788015723031}@@\### Module--}{++{"author":"Elias's AI","timestamp":1788015723031}@@:::callout {title="Module++} 3: Covert {--{"author":"Elias's AI","timestamp":1788015723031}@@development
 
-How might technical verification work when parties have limited trust? Module studies assumptions, design choices, adversarial circumvention, and unresolved problems in near-term low-trust compute verification.
+--}{++{"author":"Elias's AI","timestamp":1788015723031}@@development" tone="blue"}
+++}How might technical verification work when parties have limited trust? {--{"author":"Elias's AI","timestamp":1788015723031}@@Module studies--}{++{"author":"Elias's AI","timestamp":1788015723031}@@Studies the++} assumptions, design choices, adversarial circumvention, and unresolved problems {--{"author":"Elias's AI","timestamp":1788015723031}@@in--}{++{"author":"Elias's AI","timestamp":1788015723031}@@of++} near-term low-trust compute verification.{++{"author":"Elias's AI","timestamp":1788015723031}@@
+:::++}
 
-\### Module 4: Capstone
+{--{"author":"Elias's AI","timestamp":1788015723031}@@\### Module--}{++{"author":"Elias's AI","timestamp":1788015723031}@@:::callout {title="Module++} 4: {--{"author":"Elias's AI","timestamp":1788015723031}@@Capstone
 
-What would be enough for three-month emergency pause? Module combines feasibility judgment, research practice, and regime design. Learner must layer imperfect mechanisms, defend choices, state assumptions, and identify residual risk.
+--}{++{"author":"Elias's AI","timestamp":1788015723031}@@Capstone" tone="blue"}
+++}What would be enough for {++{"author":"Elias's AI","timestamp":1788015723031}@@a ++}three-month emergency pause?{--{"author":"Elias's AI","timestamp":1788015723031}@@ Module combines--}{++{"author":"Elias's AI","timestamp":1788015723031}@@ Combines++} feasibility judgment, research practice, and regime design. {--{"author":"Elias's AI","timestamp":1788015723031}@@Learner must--}{++{"author":"Elias's AI","timestamp":1788015723031}@@You++} layer imperfect mechanisms, defend {++{"author":"Elias's AI","timestamp":1788015723031}@@your ++}choices, state {++{"author":"Elias's AI","timestamp":1788015723031}@@your ++}assumptions, and {--{"author":"Elias's AI","timestamp":1788015723031}@@identify --}{++{"author":"Elias's AI","timestamp":1788015723031}@@name the ++}residual risk.{++{"author":"Elias's AI","timestamp":1788015723031}@@
+:::++}
 
 \## How to {--{"author":"Elias's AI","timestamp":1788015713811}@@use this version--}{++{"author":"Elias's AI","timestamp":1788015713811}@@work through it++}
 

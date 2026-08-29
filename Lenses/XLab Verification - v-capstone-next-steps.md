@@ -1,9 +1,10 @@
 ---
 id: '75af0f47-9dc7-4a74-bccb-31089ad679f5'
 title: "Congratulations"
-tldr: "Faithful alpha import of XLab lesson Congratulations."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
-tags: [wip]
+tldr: {--{"author":"Elias's AI","timestamp":1788015727749}@@"Faithful alpha import of XLab lesson Congratulations."--}{++{"author":"Elias's AI","timestamp":1788015727749}@@"You have finished the most complete verification curriculum there is. Two things remain: tell us what you would work on next and what the course should do better, then pick the door out: a residency, a fellowship, a placement, or the listing where everything else lives."++}
+summary_for_tutor: "Imported from XLab's {--{"author":"Elias's AI","timestamp":1788015727749}@@canonical --}Verification {--{"author":"Elias's AI","timestamp":1788015727749}@@curriculum. Preserve--}{++{"author":"Elias's AI","timestamp":1788015727749}@@curriculum; preserve++} source framing. {--{"author":"Elias's AI","timestamp":1788015727749}@@XLab currently blocks cross-site embedding,--}{++{"author":"Elias's AI","timestamp":1788015727749}@@Closing page of the course: a congratulation, a link to the course feedback form, and five off-site opportunities (Frontier AI Security Residency, MATS, GovAI Fellowships, Horizon Fellowship, aisafety.com listing) with one-line descriptions. No questions. If the learner asks which opportunity fits them, ask about their background (technical, policy, or both) and time horizon, and point at the matching card; deadlines and cohorts change,++} so {--{"author":"Elias's AI","timestamp":1788015727749}@@linked external exercises must be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788015727749}@@send them to the listing for current status."++}
+tags: [wip]{++{"author":"Elias's AI","timestamp":1788015727749}@@
+duration_minutes: 15++}
 ---
 #### Text
 content::

@@ -1,8 +1,8 @@
 ---
 id: '39b85a0e-0cb9-47f8-a5b2-c0ff4433947e'
 title: "2.1.6 Where should trust live?"
-tldr: "Faithful alpha import of XLab lesson 2.1.6 Where should trust live?."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
+tldr: {--{"author":"Elias's AI","timestamp":1788015728150}@@"Faithful alpha import of XLab lesson 2.1.6 Where should trust live?."--}{++{"author":"Elias's AI","timestamp":1788015728150}@@"Moving trust does not remove it. Compare four places to put the monitor, inside the chip, on the network, on the power line, or all three, for one verification target, then choose the smallest pilot that a U.S. and a Chinese delegation would both accept."++}
+summary_for_tutor: "Imported from XLab's{--{"author":"Elias's AI","timestamp":1788015728150}@@ canonical--} Verification {--{"author":"Elias's AI","timestamp":1788015728150}@@curriculum. Preserve--}{++{"author":"Elias's AI","timestamp":1788015728150}@@curriculum; preserve++} source framing. {--{"author":"Elias's AI","timestamp":1788015728150}@@XLab currently blocks cross-site embedding, so linked external exercises must be completed --}{++{"author":"Elias's AI","timestamp":1788015728150}@@Reading comparing on-chip, off-chip digital, off-chip analog and hybrid architectures for one verification target, plus the confidentiality trade. Ends with the bilateral pilot review open question (eight items for each of two designs, then a pilot choice). Insist on counting independent failure modes, not mechanism names, and ++}on {--{"author":"Elias's AI","timestamp":1788015728150}@@XLab."--}{++{"author":"Elias's AI","timestamp":1788015728150}@@a pilot rather than universal deployment."++}
 tags: [wip]
 duration_minutes: 5
 ---

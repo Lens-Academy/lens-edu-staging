@@ -12,15 +12,31 @@ In this section, you will learn about the three main categories of human- or
 personnel-based verification: whistleblower programs, personnel interviews,
 and national intelligence activities. First, read the below excerpt of Baker's
 _Verifying International Agreements on AI_ paper, paying attention to each
-mechanism's unique strengths, failure modes, and applicable circumstances.
+mechanism's unique strengths, failure modes, and applicable circumstances.{--{"author":"Elias's AI","timestamp":1788015722746}@@
 
 
-#### Article
+--}{++{"author":"Elias's AI","timestamp":1788015722746}@@
+
+\## Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment
+
+Mauricio Baker, Gabriel Kulp, Oliver Marks, Miles Brundage, and Lennart Heim (2025). [arxiv.org](https://arxiv.org/abs/2507.15916v2)
+
+This page reproduces [§4.3 “Personnel-Based Verification Layers”](https://arxiv.org/html/2507.15916#S4.SS3) and [Appendix A.8 “Whistleblower Programs”](https://arxiv.org/html/2507.15916#A1.SS8) in full, including Tables 8, 9, and 14.
+
+The source text and tables are reproduced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+++}#### Article
 source:: [[../articles/baker-verifying-international-agreements-on-ai-six-layers-of-verification-for-rules-on-large-scale-ai-development-and-deployment]]
 from:: ### 4.3 Personnel-Based Verification Layers
 to:: In contrast to other, more technical verification mechanisms, _personnel-based verification_ relies on the difficulty of having large groups of people collude without disclosures or leaks. Verifiers could systematically seek disclosures or leaks through whistleblower programs, interviews of personnel, and national intelligence activities. Intelligence activities, though, might involve cyber or signals intelligence, not only direct communication with personnel.
 
-#### Article
+#### {++{"author":"Elias's AI","timestamp":1788015725157}@@Text
+content::
+We'll pay special attention to whistleblower programs, which have the most
+historical precedence, existing infrastructure, and potential verifiability
+effectiveness.
+
+#### ++}Article
 source:: [[../articles/baker-verifying-international-agreements-on-ai-six-layers-of-verification-for-rules-on-large-scale-ai-development-and-deployment]]
 from:: #### A.8 Whistleblower Programs
 to:: Avoiding excess disclosure: Employees could be allowed to disclose only a very small amount of information to the Verifier, as discussed in above footnotes. Further, the Prover and Verifier could jointly state agreed-on, reasonable bounds of protected whistleblowing (including high-level descriptions of potential violations and information to investigate further, but excluding digital transfers of Prover models, data, or code outside of a confidentiality-preserving technology). Parties could also agree on what questions or information a Verifier may share with an employee, so that the Prover could learn from their employees if the Verifier is inappropriately pressuring them to disclose IP.
