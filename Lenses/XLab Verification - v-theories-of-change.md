@@ -38,41 +38,14 @@ Being able to clearly communicate your theory of change is almost as, if not mor
 
 So, what does a good AI safety theory of change actually look like? This table maps out all the important elements of a robust theory of change:
 
-<table className="elements-grid">
-  <thead>
-    <tr>
-      <th>Inputs</th>
-      <th colSpan={2}>Outputs</th>
-      <th colSpan={3}>Outcome</th>
-    </tr>
-    <tr>
-      <th>What do we need?</th>
-      <th>What do we do?</th>
-      <th>Who do we reach?</th>
-      <th>Short-term</th>
-      <th>Intermediate</th>
-      <th>Long-term</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Resources<br />People</td>
-      <td>Activities</td>
-      <td>New audience<br />Collaborators</td>
-      <td>Knowledge increased</td>
-      <td>Behavior changed<br />Decision-making done</td>
-      <td>Conditions changed</td>
-    </tr>
-    <tr>
-      <th colSpan={3}>Assumptions</th>
-      <th colSpan={3}>External factors</th>
-    </tr>
-    <tr>
-      <td colSpan={3}>Internal / testable</td>
-      <td colSpan={3}>External / undefined</td>
-    </tr>
-  </tbody>
-</table>
+| Inputs | Outputs | | Outcome | | |
+|---|---|---|---|---|---|
+| What do we need? | What do we do? | Who do we reach? | Short-term | Intermediate | Long-term |
+| Resources, people | Activities | New audience, collaborators | Knowledge increased | Behavior changed, decision-making done | Conditions changed |
+
+| Assumptions | External factors |
+|---|---|
+| Internal / testable | External / undefined |
 
 A useful strategy is backchaining: start by specifying the long-term goal, then work backwards. What has to change for this outcome to be possible? How does your project contribute to creating those conditions? Each link in the chain should be an if-then claim. If we publish this benchmark, then labs will adopt it. If labs adopt it, then training procedures will incorporate the findings. If training procedures change, then deployed models will be safer, and “safer” here has to mean something specific: reward hacking rates, deception probes, behavior under distribution shift.
 
@@ -86,7 +59,7 @@ A useful strategy is backchaining: start by specifying the long-term goal, then 
 - Conceptual AI Safety research may seem difficult to write a cohesive and tractable theory of change about—but it’s possible! See [this example by John Wentworth](https://www.lesswrong.com/posts/vh5ZjdmJYJgnbpq8C/the-plan-2025-update).
 - [Slow Food USA’s theory of change](https://slowfoodusa.org/theory-of-change/) — effective theory of change, conveyed in engaging and easy-to-parse visuals.
 
-![Slow Food USA’s one-page theory of change: assumptions and purpose at the top feed a mission, three pillars, and a tree whose canopy holds the future and vision, with values at the roots and roles and strategies beneath.](/verification/assets/theories-of-change/slow-food-theory-of-change.png)
+![Slow Food USA’s one-page theory of change: assumptions and purpose at the top feed a mission, three pillars, and a tree whose canopy holds the future and vision, with values at the roots and roles and strategies beneath.](https://aisafetytracks.com/verification/assets/theories-of-change/slow-food-theory-of-change.png)
 
 Image: [Our Theory of Change](https://slowfoodusa.org/theory-of-change/), Slow Food USA.
 
