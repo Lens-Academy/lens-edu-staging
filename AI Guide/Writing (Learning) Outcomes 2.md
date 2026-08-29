@@ -11,7 +11,7 @@ This guide has two parts:
 1. A creation workflow for making the file.
 2. Exact validation-agent instructions. Run every check after creation/editing, fix failures, then run fresh agents until all checks pass.
 
-## Minimal file shape
+## Minimal LO file shape
 
 ```markdown
 ---
