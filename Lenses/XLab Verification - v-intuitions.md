@@ -138,7 +138,7 @@ options::
 id:: 9eb1875a-84ab-459d-b2bb-1585ee3b23aa
 content:: Consider your strongest arguments and their strongest objections. Synthesize ideas from your earlier responses into a short essay answering: How robust is Plan A's verification regime, and where is it most likely to fail?
 
-At the end, briefly justify the recommendation you selected above.
+At the end, briefly justify the recommendation you selected above. (400 to 600 words)
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
@@ -164,7 +164,7 @@ Questions to consider:
 - Could prohibited activity resemble or hide within activity that remains permitted?
 - Where might reasonable inspectors disagree about whether a violation has occurred?
 
-Make a preliminary judgment. Delineate your evidence-backed reasons from intuitions.
+Make a preliminary judgment. Delineate your evidence-backed reasons from intuitions. (100 to 150 words)
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
@@ -188,7 +188,7 @@ Questions to consider:
 - Where could multiple mechanisms share the same blind spot or unreliable assumption?
 - How much residual uncertainty would policymakers have to tolerate even when the regime appears to be working?
 
-Decide which plan could give decision-makers stronger grounds for confidence in compliance.
+Decide which plan could give decision-makers stronger grounds for confidence in compliance. (150 to 200 words)
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
@@ -208,7 +208,7 @@ Questions to consider:
 - Where could important activity fall outside the regime's field of view?
 - Does a broader prohibition make monitoring easier, or make gaps in coverage more consequential?
 
-Revisit your answer from Part 1. A rule that initially looked simpler may create a demanding monitoring problem once you consider how it would work across the real AI ecosystem.
+Revisit your answer from Part 1. A rule that initially looked simpler may create a demanding monitoring problem once you consider how it would work across the real AI ecosystem. (150 to 200 words)
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
@@ -230,7 +230,7 @@ Questions to consider:
 - What economic, strategic, or sovereignty costs would participation impose?
 - If one plan appears technically easier to verify but politically harder to implement, how much should that affect your assessment?
 
-By this point, you should have compared the regimes across four dimensions: clarity of the verification target, strength of the evidence, monitoring burden, and political cooperation.
+By this point, you should have compared the regimes across four dimensions: clarity of the verification target, strength of the evidence, monitoring burden, and political cooperation. (200 to 250 words)
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
