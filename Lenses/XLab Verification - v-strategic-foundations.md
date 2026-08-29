@@ -90,7 +90,7 @@ Draw on whichever pathway above is most relevant.
 
 #### Question: Open
 id:: c0c24764-3c26-41cd-a20e-3375a3aa7acd
-content:: [Optional] Written output — Actor, authority, and evidence map.
+content:: {--{"author":"Elias's AI","timestamp":1788010913655}@@[Optional] Written output —--}{++{"author":"Elias's AI","timestamp":1788010913655}@@Optional:++} Actor, authority, and evidence map.
 
 Choose one element of the advanced-AI supply chain. Map (1) the actors involved, (2) the authority each one holds, and (3) the evidence that would let an outside party verify what they are doing. Draw on whichever reading pathway above is most relevant to the element you pick.
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.

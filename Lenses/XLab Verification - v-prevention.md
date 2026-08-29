@@ -30,6 +30,8 @@ Verification is both essential to averting global catastrophe and incredibly har
 
 But before we do any of that, we need to first securitize ASI as the existential risk it is, and that necessitates grappling with why it can be so psychologically unintuitive. We need to actively resist the instinct to view the invisible as the unreal.
 
-\## The Risks of Securitization
+{--{"author":"Elias's AI","timestamp":1788010909839}@@\## The--}{++{"author":"Elias's AI","timestamp":1788010909839}@@:::callout {title="The++} Risks of {--{"author":"Elias's AI","timestamp":1788010909839}@@Securitization
 
-It's important to recognize that securitizing AI, or treating it as an existential risk and thus a top policy priority, can have some risks in and of itself. The perception of AI as having global catastrophic capabilities inevitably triggers incentives to use this unprecedented technology for self-serving interests. Therefore, securitizing AI must be carefully and tactfully executed in public discourse to minimize militarization and maximize cooperative intent.{>>{"author":"Elias's AI","timestamp":1788009454057}@@Proposed: drop per-lesson XLab source footer.<<}
+--}{++{"author":"Elias's AI","timestamp":1788010909839}@@Securitization" tone="neutral" collapse="closed"}
+++}It's important to recognize that securitizing AI, or treating it as an existential risk and thus a top policy priority, can have some risks in and of itself. The perception of AI as having global catastrophic capabilities inevitably triggers incentives to use this unprecedented technology for self-serving interests. Therefore, securitizing AI must be carefully and tactfully executed in public discourse to minimize militarization and maximize cooperative intent.{++{"author":"Elias's AI","timestamp":1788010909839}@@
+:::++}{>>{"author":"Elias's AI","timestamp":1788009454057}@@Proposed: drop per-lesson XLab source footer.<<}
