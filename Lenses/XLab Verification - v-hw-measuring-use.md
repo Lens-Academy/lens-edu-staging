@@ -83,13 +83,27 @@ A verifier should not treat every weakness as a classifier problem.
 
 \#### Activity: from result to policy claim
 
-For the telemetry study, write four statements.
+{++{"author":"Elias's AI","timestamp":1788015993267}@@#### Question: Open
+id:: f4f47f8e-a90d-4e45-9a1e-ddeee1d901cf
+content:: ++}For the telemetry study, write four statements.
 
 - **Observation:** What did the experiment measure?
 - **Supported inference:** What conclusion is justified within that setting?
 - **Unsupported policy leap:** What stronger claim would exceed the evidence?
 - **Deployment dependencies:** What additional technical and institutional components would be required?
 
-A well-bounded answer will not claim that the study proves treaty-grade detection across frontier clusters or against a state controlling the measurement path.
+A well-bounded answer will not claim that the study proves treaty-grade detection across frontier clusters or against a state controlling the measurement path.{++{"author":"Elias's AI","timestamp":1788015993267}@@
+assessment-instructions:: This is an XLab writing or reflection exercise. Check all four statements are present and distinct. Observation should stay at the level of what was measured (temporal GPU telemetry, nine NVIDIA GPU models, twenty evasion families, single-node systems up to eight GPUs, 98.2 percent overall, 43–87 percent on the hardest unseen adversarial workloads). Supported inference should be bounded to tested conditions. Unsupported policy leap should be a real overclaim (treaty-grade detection across frontier multi-node clusters, or against a state controlling the measurement path). Deployment dependencies should include a tamper-resistant telemetry source, an authenticated channel, protected monitoring software, and institutional components. Mark down answers that present the study as an end-to-end verification regime. Identify one strong point and one important gap, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-measuring-use)*
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+O'Gara, Aidan, Gabriel Kulp, Will Hodgkins, et al. "Hardware-Enabled Mechanisms for Verifying Responsible AI Development." *arXiv*, Apr. 2025. [arxiv.org](https://arxiv.org/abs/2505.03742)
+*A study of hardware-enabled mechanisms for verifiable reporting of AI training activity: compute usage, cluster configuration, and workload claims.*++}
+
+{--{"author":"Elias's AI","timestamp":1788015993267}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-measuring-use)*--}{++{"author":"Elias's AI","timestamp":1788015993267}@@Rahman, Robi, and Sabiha Tajdari. "Detecting Hidden ML Training With Zero-Overhead Telemetry." *arXiv*, June 2026. [arxiv.org](https://arxiv.org/abs/2606.19262)
+*A study classifying GPU workloads from privacy-preserving telemetry, reporting 98.2 percent accuracy at spotting concealed training runs.*
+
+XLab. "2.1.4 Measuring and classifying use." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-measuring-use)
+*The source lesson this page adapts.*
+:::++}
