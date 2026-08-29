@@ -239,7 +239,7 @@ It’s clear that ASI is no longer a hypothetical risk. It will require delibera
 How fast is fast? Two charts from Our World in Data's [brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai) show the pace.
 
 #### Text
-content:: **Interactive charts:** XLab's `short-history` widget is a draggable timeline of notable AI systems (1940 to 2060) and a benchmark chart (data from Kiela et al., 2023), both adapted from Our World in Data. Lens has no chart segment yet. View the originals at [Our World in Data](https://ourworldindata.org/brief-history-of-ai) or in the [XLab lesson](https://aisafetytracks.com/tracks/verification/why-verification/introduction).
+content:: **Interactive charts:** XLab's `short-history` widget is a draggable timeline of notable AI systems (1940 to 2060) and a benchmark chart (data from Kiela et al., 2023), both adapted from Our World in Data. Lens has no chart segment yet. View the originals at [Our World in Data](https://ourworldindata.org/brief-history-of-ai){--{"author":"Elias's AI","timestamp":1788009452090}@@ or --}{++{"author":"Elias's AI","timestamp":1788009452090}@@.{>>{"author":"Elias's AI","timestamp":1788009452090}@@Proposed: link only to Our World ++}in {--{"author":"Elias's AI","timestamp":1788009452090}@@the [XLab lesson](https://aisafetytracks.com/tracks/verification/why-verification/introduction).--}{++{"author":"Elias's AI","timestamp":1788009452090}@@Data (the original), not XLab.<<}++}
 
 #### Text
 content::
@@ -365,8 +365,8 @@ One pattern jumps out fast. The field's center of gravity is the think-tank and 
 That unevenness is the opportunity. You are not arriving at a finished field. You are arriving at one with obvious empty squares, at a moment when which ones get filled is still open.
 
 *A snapshot, not a census. Efforts are illustrative examples, current to early 2026, and the field is moving quickly. Intensities are judgment calls meant to convey shape, not precise measurement.*
-
+{--{"author":"Elias's AI","timestamp":1788009450337}@@
 #### Text
 content::
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/why-verification/introduction)*
+*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/why-verification/introduction)*--}{++{"author":"Elias's AI","timestamp":1788009450337}@@{>>{"author":"Elias's AI","timestamp":1788009450337}@@Proposed: drop per-lesson XLab source footer.<<}++}
 

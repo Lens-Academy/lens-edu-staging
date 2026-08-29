@@ -42,8 +42,8 @@ content:: [Optional] Reflection — Write a short note that you can look back on
 - Before beginning, brainstorm: what parts of AI verification intuitively seems hardest?
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 optional:: true
-
+{--{"author":"Elias's AI","timestamp":1788009448255}@@
 #### Text
 content::
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/why-verification/welcome)*
+*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/why-verification/welcome)*--}{++{"author":"Elias's AI","timestamp":1788009448255}@@{>>{"author":"Elias's AI","timestamp":1788009448255}@@Proposed: drop per-lesson XLab source footer; the course file's partner-url already credits XLab once.<<}++}
 
