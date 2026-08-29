@@ -4,7 +4,7 @@ Hey! Here is your Lens Editor link with edit access to the Lens Edu course folde
 
 https://editor.lensacademy.org/?t=AAHqQBXaJK9NnaxJjJAssXEhazZA7N2ilyMo3ZUV
 
-Please do not share this link. It acts as your access credential.
+Please do not share this link. It acts as your access credential. (click once and you are authenticated through cookies)
 
 First, connect Claude, Claude Code, Codex, or another MCP-compatible AI to Lens Relay. Setup instructions:
 
