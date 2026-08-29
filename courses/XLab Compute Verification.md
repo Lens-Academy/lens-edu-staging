@@ -13,26 +13,26 @@ tags: [wip]
 
 # Module: [[../modules/XLab Verification M0 Foundations]]
 
-# {++{"author":"Elias's AI","timestamp":1788009501547}@@Meeting: Why Verification
+# Meeting: Why Verification
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
-# ++}Module: [[../modules/XLab Verification M1 Policy and actors]]
+# Module: [[../modules/XLab Verification M1 Policy and actors]]
 
-# {++{"author":"Elias's AI","timestamp":1788009501547}@@Meeting: Policy Scoping and Actors
+# Meeting: Policy Scoping and Actors
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
-# ++}Module: [[../modules/XLab Verification M2 Evidence streams]]
+# Module: [[../modules/XLab Verification M2 Evidence streams]]
 
-# {++{"author":"Elias's AI","timestamp":1788009501547}@@Meeting: Evidence Streams
+# Meeting: Evidence Streams
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
-# ++}Module: [[../modules/XLab Verification M3 Covert development]]
+# Module: [[../modules/XLab Verification M3 Covert development]]
 
-# {++{"author":"Elias's AI","timestamp":1788009501547}@@Meeting: Covert Development
+# Meeting: Covert Development
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
-# ++}Module: [[../modules/XLab Verification M4 Trust without trust]]{++{"author":"Elias's AI","timestamp":1788009501547}@@
+# Module: [[../modules/XLab Verification M4 Trust without trust]]
 
 # Meeting: Capstone
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
-{>>{"author":"Elias's AI","timestamp":1788009501547}@@Proposed: one meeting after each module (Overview + M0 form unit 1). No meeting-doc-template or learner survey yet: no docs exist for this course, and no course-specific learner survey. Navigator surveys reuse the existing generic pair, same as AI Risk Fundamentals and AI Futures.<<}++}
+{>>{"author":"Elias's AI","timestamp":1788009501547}@@Proposed: one meeting after each module (Overview + M0 form unit 1). No meeting-doc-template or learner survey yet: no docs exist for this course, and no course-specific learner survey. Navigator surveys reuse the existing generic pair, same as AI Risk Fundamentals and AI Futures.<<}
