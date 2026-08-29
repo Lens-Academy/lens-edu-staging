@@ -7,4 +7,14 @@ tags: [wip]
 duration_minutes: 75
 ---
 #### Article
-source:: [[../articles/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence]]
+source:: [[../articles/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence]]{++{"author":"Elias's AI","timestamp":1788015968400}@@
+
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *arXiv*, Nov. 2025. [arxiv.org](https://arxiv.org/abs/2511.10783)
+*MIRI's draft international agreement to prevent the premature creation of artificial superintelligence, the treaty text several lessons read against. XLab pins version v3 of the paper, whose Article II holds the named threshold definitions.*
+
+XLab. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/prevent-premature-asi-treaty)
+*The source reading page this lens adapts.*
+:::{>>{"author":"Elias's AI","timestamp":1788015968400}@@XLab's curriculum pins arXiv 2511.10783v3 (v1 stated thresholds inline in Article IV; v3 moves them into Article II definitions). Worth checking that the imported article is v3.<<}++}
