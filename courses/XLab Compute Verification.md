@@ -7,6 +7,7 @@ partner-name: XLab
 partner-url: https://aisafetytracks.com/verification/landing
 tags: [wip]
 ---
+%% Source curriculum: https://aisafetytracks.com/tracks/verification (repo: https://github.com/XLabTracks/tracks) %%
 
 # Module: [[../modules/XLab Verification Overview]]
 
