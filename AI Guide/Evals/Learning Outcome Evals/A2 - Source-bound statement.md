@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787136921192}@@---
+---
 eval-id: A2
 target: statement
 tags:
@@ -32,4 +32,3 @@ The capability must survive outside this course. It **fails** when it amounts to
 ## On failure
 
 A2 failures route to **human triage**: is the underlying capability worth keeping (→ rephrase the statement source-free) or is it a reading's takeaway dressed as an outcome (→ delete or demote to practice material)?
-++}
