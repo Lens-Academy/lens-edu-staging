@@ -111,4 +111,9 @@ to:: | Training dataset | _Workload classification, compute accounting, detailed
 
 #### Text
 content::
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud)*
+{--{"author":"Elias's AI","timestamp":1788015774035}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud)*--}{++{"author":"Elias's AI","timestamp":1788015774035}@@:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Heim et al. (2024), *Governing Through the Cloud*, is cited inline above with its arXiv link.
+
+XLab. "2.2.1 Provider records and workload observables." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud)
+*The source lesson this page adapts.*
+:::++}
