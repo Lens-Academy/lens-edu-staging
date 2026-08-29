@@ -24,8 +24,4 @@ With the MCP, your AI will also have context on everything, so you can just ask 
 
 Changes by your AI will mostly appear as suggestions that you can accept in the file, or in bulk here: https://editor.lensacademy.org/review (Filter suggestions by your name)
 
-You can explore the learner-facing platform here:
-
-https://lensacademy.org/
-
 Spend roughly 1 to 2 hours exploring the editor, Demo Course, and platform. Then send me any questions your AI could not answer. If the editor link or MCP connection fails, let me know.
