@@ -47,6 +47,4 @@ What would be enough for three-month emergency pause? Module combines feasibilit
 
 \## How to use this version
 
-Read modules in order because later work builds on earlier actor, policy, and evidence models. Writing exercises can be completed directly in Lens. When page marks interactive import gap, use linked XLab activity, then return here to continue.
-
-Original course overview and current curriculum remain available at [aisafetytracks.com/tracks/verification](https://aisafetytracks.com/tracks/verification).
+Read modules in order because later work builds on earlier actor, policy, and evidence models. Exercises are completed directly in Lens.
