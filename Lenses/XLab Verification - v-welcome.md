@@ -32,7 +32,8 @@ The people who define the central concepts of AI verification and build its inst
 
 One of them could be you.
 
-#### Question
+#### Question: Open
+id:: 1c8c4629-9392-4c48-bce8-8dde6b908cf3
 content:: [Optional] Reflection — Write a short note that you can look back on after completing the course:
 
 - Why are you interested in learning about AI verification?

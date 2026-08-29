@@ -47,7 +47,8 @@ Plan A's verification problem has two broad parts. First, the regime needs confi
 
 \## A1. Identify the regime's strongest mechanism or recommendation
 
-#### Question
+#### Question: Open
+id:: 909a9ada-ee95-4dd2-9b6b-6ef51f617a3b
 content:: Choose the part of this system that you think carries the most verification weight. Focus on the proposed datacenter retrofit: optical network taps, reproducible workloads, trusted recomputation servers, network restrictions, and related safeguards. Which mechanism seems like the most important—that, if removed, would most endanger the verification regime's effectiveness? Do not use outside resources for this part of the exercise.
 
 Questions to consider:
