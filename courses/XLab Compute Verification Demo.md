@@ -1,6 +1,6 @@
 ---
 id: '113862b8-9f10-46cf-802d-c59f58bfbe00'
-slug: compute-verification-demo
+slug: compute-verification
 title: "Compute Verification: Demo"
 description: "A 30-minute taste of XLab's Compute Verification course: the welcome and lesson 0.1, why rival states cannot simply trust, punish, or open their books, and why verification is the fourth option almost nobody is working on yet."
 partner-name: XLab
