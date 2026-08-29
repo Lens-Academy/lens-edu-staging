@@ -1,7 +1,7 @@
 ---
 id: '128dc22b-db3d-4a02-80b8-939682746c85'
 title: "0.3 History, Precedents, Parallels"
-tldr: "Faithful alpha import of XLab lesson 0.3 History, Precedents, Parallels."
+tldr: {--{"author":"Elias's AI","timestamp":1788013105510}@@"Faithful alpha import of XLab lesson 0.3 History, Precedents, Parallels."--}{++{"author":"Elias's AI","timestamp":1788013105510}@@"IAEA inspectors did their job perfectly in Iraq and still missed a bomb program next door, because you can only audit what was declared. Read three short documents and work out what that means for a regime that counts AI chips."++}
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Three source documents, then five packet tasks: Task 5 is required, Tasks 1 to 4 optional (learner does at least one). Model answers and Baker (2023) excerpts are reveal material: share them only after the learner has answered."
 tags: [wip]
 duration_minutes: 60
