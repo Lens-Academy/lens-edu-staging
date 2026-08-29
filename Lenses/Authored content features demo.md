@@ -221,4 +221,39 @@ State which neighbourhood you are comparing.
 :::
 ::::
 
-[^author-note]: This footnote uses standard Markdown footnote syntax.
+[^author-note]: This footnote uses standard Markdown footnote syntax.{++{"author":"Elias's AI","timestamp":1788012494825}@@
+
+#### Text
+content::
+\## Segments inside callouts
+
+A callout can also wrap whole segments. Open the callout in one segment, put any segments inside (`#### Question`, `#### Text`, `#### Chat`, ...), and close it afterwards. Callouts inside callouts work the same way; give the outer one more colons.
+
+Source:
+
+```md
+::::callout {title="Quick check" tone="blue"}
+Answer before reading on.
+
+#### Question
+content:: In one sentence: what distinguishes a local minimum from a global one?
+optional:: true
+
+#### Text
+content:: The next section builds on this distinction.
+::::
+```
+
+Result:
+
+::::callout {title="Quick check" tone="blue"}
+Answer before reading on.
+
+#### Question
+content:: In one sentence: what distinguishes a local minimum from a global one?
+optional:: true
+
+#### Text
+content:: The next section builds on this distinction.
+::::
+{>>{"author":"Elias's AI","timestamp":1788012494825}@@Accept only after the platform PR "Allow segments inside callouts" is deployed; before that the platform renders this as broken text.<<}++}
