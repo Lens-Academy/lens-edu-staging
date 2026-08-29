@@ -66,13 +66,15 @@ See the one-page diagram at [Our Theory of Change](https://slowfoodusa.org/theor
 
 A common failure mode is conflating **outputs** with **outcomes**. Outputs are tangible products you produced: a paper, a benchmark, an eval, a workshop, a policy memo. They are easy to qualify and quantify. Outcomes are what changed because of those outputs: a lab altered a training procedure, a policymaker incorporated a threat model into a draft bill, a researcher updated their estimates. It’s more difficult but much more important to recognize and attribute outcomes. A project can generate impressive outputs—a well-cited paper, a popular benchmark, a successful conference—without any clarity as to how it actually creates change in the world.
 
-\## [Optional] Exercise: Theory of Change for your favorite AI safety organization
+{--{"author":"Elias's AI","timestamp":1788010906205}@@\## [Optional] Exercise:--}{++{"author":"Elias's AI","timestamp":1788010906205}@@:::callout {title="Optional:++} Theory of Change for {--{"author":"Elias's AI","timestamp":1788010906205}@@your favorite--}{++{"author":"Elias's AI","timestamp":1788010906205}@@Your Favorite++} AI {--{"author":"Elias's AI","timestamp":1788010906205}@@safety organization
 
-Now that you’ve seen some exemplary examples of robust theories of change, try building your own! Pick your favorite AI safety organization: Epoch, MIRI, The Midas Project, etc.—and fill out the below table based on publicly available information, reports, and testimonials.
+--}{++{"author":"Elias's AI","timestamp":1788010906205}@@Safety Organization" tone="neutral" collapse="closed"}
+++}Now that you’ve seen some exemplary examples of robust theories of change, try building your own! Pick your favorite AI safety {--{"author":"Elias's AI","timestamp":1788010906205}@@organization: Epoch, MIRI, The Midas Project, etc.—and--}{++{"author":"Elias's AI","timestamp":1788010906205}@@organization and++} fill out the {--{"author":"Elias's AI","timestamp":1788010906205}@@below table--}{++{"author":"Elias's AI","timestamp":1788010906205}@@table below++} based on publicly available information, reports, and testimonials.{++{"author":"Elias's AI","timestamp":1788010906205}@@
+:::++}
 
 #### Question: Open
 id:: dc502432-39f8-4a75-99ff-e43532b1ed5d
-content:: [Optional] Name your organization, then fill in each of the eight boxes of its theory of change:
+content:: {--{"author":"Elias's AI","timestamp":1788010906205}@@[Optional]--}{++{"author":"Elias's AI","timestamp":1788010906205}@@Optional:++} Name your organization, then fill in each of the eight boxes of its theory of change:
 
 1. **Inputs / What do we need?** (resources, people)
 2. **Outputs / What do we do?** (activities)
