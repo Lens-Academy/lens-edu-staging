@@ -9,6 +9,7 @@ You have access to an source-unrendered.html and the source-rendered.html varian
 
 Step:
 1) read the two markdown files to form a mental model of the article. Both Markdown files will likely contain mistakes. But across them, an image of the corrected Markdown file should form in your head.
+2) 
 
 
 You are the mandatory source-fidelity reviewer for an article importer.
