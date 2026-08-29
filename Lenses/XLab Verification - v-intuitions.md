@@ -29,11 +29,13 @@ A: stress-test the Plan A verification supplement, or
 
 B: compare Plan A (verified slowdown) and Plan S (complete shutdown).
 
-\## A writing good practice
+{--{"author":"Elias's AI","timestamp":1788010867032}@@\## A--}{++{"author":"Elias's AI","timestamp":1788010867032}@@:::callout {title="A++} writing good {--{"author":"Elias's AI","timestamp":1788010867032}@@practice
 
-Clarify the source of each claim you make, and explicitly identify gaps, uncertainties, or ambiguities as they appear. You won't know everything, and you aren't expected to.
+--}{++{"author":"Elias's AI","timestamp":1788010867032}@@practice" tone="neutral" collapse="closed"}
+++}Clarify the source of each claim you make, and explicitly identify gaps, uncertainties, or ambiguities as they appear. You won't know everything, and you aren't expected to.{--{"author":"Elias's AI","timestamp":1788010867032}@@
 
-\## Option A: Stress-test Plan A
+\## Option A: Stress-test Plan A--}{++{"author":"Elias's AI","timestamp":1788010867032}@@
+:::++}
 
 \## Option A: Stress-test Plan A's Verification Regime
 
@@ -64,9 +66,9 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## A2. Identify the weakest link
+\## A2. Identify the {--{"author":"Elias's AI","timestamp":1788010868794}@@weakest link
 
-\## A2. Identify the regime's weakest link(s)
+\## A2. Identify the --}regime's weakest link(s)
 
 #### Question: Open
 id:: 8c3cd334-f50c-40ec-bcea-3ee0d83db3a9
@@ -83,9 +85,9 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## A3. Stress-test the timeline
+\## A3. Stress-test the timeline{--{"author":"Elias's AI","timestamp":1788010870464}@@
 
-\## A3. Stress-test the timeline
+\## A3. Stress-test the timeline--}
 
 #### Question: Open
 id:: 5e944a29-5989-48b0-bf4a-a4998a0eaa25
@@ -98,9 +100,9 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## A4. Assess the covert-compute margin
+\## A4. Assess the covert-compute margin{--{"author":"Elias's AI","timestamp":1788010872075}@@
 
-\## A4. Assess the covert-compute margin
+\## A4. Assess the covert-compute margin--}
 
 #### Question: Open
 id:: e9e4eaa9-198a-4031-a923-eba27efa51ae
@@ -118,9 +120,9 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## A5. Final essay
+\## A5. Final essay{--{"author":"Elias's AI","timestamp":1788010873780}@@
 
-\## A5. Final essay
+\## A5. Final essay--}
 
 You have now approached the AI 2040 Verification Supplement from four angles: its most load-bearing strength, its weakest link, its biggest timeline bottleneck, and the amount of failure the regime can tolerate.
 
