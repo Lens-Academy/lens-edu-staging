@@ -81,11 +81,11 @@ Same government, five postures. When a proposal says “the US will verify,” y
 
 Is there a WHO for AI? An IAEA? As of mid-2026, there are some authorities but they don’t have a lot of real power or mechanisms to detect cheating. The UN has stood up the Independent International Scientific Panel on AI, forty scientists modeled on the IPCC and co-chaired by Yoshua Bengio and Maria Ressa, whose reports feed a new Global Dialogue on AI Governance that met for the first time in Geneva in July 2026. While this helps build a shared scientific picture of risk, it does not fix the verification function. No agency holds a chip registry. No inspector has challenge-inspection rights at a data center. No treaty gives anyone the authority over compute that the IAEA has held over fissile material since the 1970s. The institutional shelf marked “AI verification body” is empty. Some of the people reading this will help build what goes on it.
 
-\## Private actors along the supply chain
+\## Private {--{"author":"Elias's AI","timestamp":1788016438341}@@actors along the supply chain
 
-\## Private actors: reading the chain from top to bottom
+\## Private --}actors: reading the chain from top to bottom
 
-Now the companies. The useful way to hold them in your head is not alphabetical but positional: upstream to downstream, the same axis as the map in 1.2.1. Read the table from top to bottom and watch two numbers change as you go: how many actors exist at each stage, and how much each one can see.
+Now the companies. The useful way to hold them in your head is not alphabetical but positional: upstream to downstream, the same axis as the map in {--{"author":"Elias's AI","timestamp":1788016438341}@@1.2.1.--}{++{"author":"Elias's AI","timestamp":1788016438341}@@[[../Lenses/XLab Verification - v-interactive-map|1.2.1]].++} Read the table from top to bottom and watch two numbers change as you go: how many actors exist at each stage, and how much each one can see.
 
 Table 4.  Private actors, upstream to downstream
 
@@ -110,13 +110,13 @@ Counts:
 - Five or six hyperscale clouds.
 - A few dozen labs that matter.
 - Millions of deployers.
-- The chain narrows to almost nothing at the top and fans out to everything at the bottom. Verification has something to grab exactly where the count is small, which is why so many of the mechanisms in Module 2 bite upstream. Hold that thought; section 1.3 develops it properly.
+- The chain narrows to almost nothing at the top and fans out to everything at the bottom. Verification has something to grab exactly where the count is small, which is why so many of the mechanisms in Module 2 bite upstream. Hold that thought; section {--{"author":"Elias's AI","timestamp":1788016440427}@@1.3--}{++{"author":"Elias's AI","timestamp":1788016440427}@@[[../Lenses/XLab Verification - v-scoping-upstream-downstream|1.3]]++} develops it properly.
 
 Second, look at the labs’ row: A frontier lab can comply, publishing a safety framework and reporting under SB 53. It can hide, treating training details as trade secrets. It can exaggerate, describing its own precautions in the most flattering light, which is what critics call safety-washing. And it can free-ride on rivals’ restraint. Your job in verification is to price these different behaviors and balance their relevant incentives.
 
-\## Functional roles
+\## Functional {--{"author":"Elias's AI","timestamp":1788016442005}@@roles
 
-\## Functional roles: the second lens
+\## Functional --}roles: the second lens
 
 Public versus private tells you what an actor is, but not what an actor does for you, or to you, when you are trying to verify an agreement. Here, it can be helpful to ask what function the actor performs.
 
@@ -144,9 +144,9 @@ Which role dominates depends entirely on what the regime asks of it and what com
 
 Or try Taiwan. A chokepoint controller of the first rank, and simultaneously the actor with the most to lose if the chokepoint ever becomes a target. An actor’s roles can pull against each other, and when they do, its incentives tell you which one wins.
 
-\## Use the actor map
+\## {--{"author":"Elias's AI","timestamp":1788016443635}@@Use the actor map
 
-\## How to use this section
+\## --}How to use this section
 
 You now have three questions to ask of any actor you meet in a proposal, a news story, or an exercise, for the rest of this course. Where does it sit on the chain? That is position: Table 4. What can it do inside a regime? That is roles: Table 5. What does it want right now? That is posture: Table 1. Ask them in that order and most verification claims come apart usefully in your hands. “The cloud providers will report suspicious training runs” stops being a reassuring sentence and becomes three checkable ones: they sit mid-chain where visibility is high; they hold the logs; and they will report exactly to the degree that reporting costs less than not reporting.
 
