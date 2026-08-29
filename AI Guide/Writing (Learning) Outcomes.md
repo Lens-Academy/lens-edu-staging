@@ -110,7 +110,7 @@ source:: [[../Lenses/My Topic]]
 - Suggested lenses are **author-facing candidates only**: the platform doesn't import them; the module lists its teaching lenses explicitly, before the `# Learning Outcome:` ref. Outcome files without suggested lenses are valid too.
 - Skill-tree frontmatter is rolling out per `Lens/Learning Outcome Domain and Stage Proposal.md`: `domain:` (one of the 15 domains in `Lens/AI Safety Skill Taxonomy - Canonical Working Inventory.md`), `stage:` (Beginner, Intermediate, or Advanced), `requires:` (sparse; only genuine prerequisites, since they gate locked status). Set them on new outcomes.
 
-## Segments
+### Segments
 
 Use [[../Lenses/Response to question segments]] as the single reference for question types, fields, defaults, and syntax. The same response segments work in surveys, lenses, and learning-outcome tests.
 
