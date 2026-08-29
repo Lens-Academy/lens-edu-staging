@@ -48,7 +48,8 @@ Plan A's verification problem has two broad parts. First, the regime needs confi
 
 #### Question: Open
 id:: 909a9ada-ee95-4dd2-9b6b-6ef51f617a3b
-content:: Choose the part of this system that you think carries the most verification weight. Focus on the proposed datacenter retrofit: optical network taps, reproducible workloads, trusted recomputation servers, network restrictions, and related safeguards. Which mechanism seems like the most important—that, if removed, would most endanger the verification regime's effectiveness? Do not use outside resources for this part of the exercise.
+{++{"author":"Elias's AI","timestamp":1788011675134}@@optional:: true
+++}content:: Choose the part of this system that you think carries the most verification weight. Focus on the proposed datacenter retrofit: optical network taps, reproducible workloads, trusted recomputation servers, network restrictions, and related safeguards. Which mechanism seems like the most important—that, if removed, would most endanger the verification regime's effectiveness? Do not use outside resources for this part of the exercise.
 
 Questions to consider:
 
@@ -118,7 +119,7 @@ Now imagine Plan A is moving from scenario to serious policy proposal. Decision-
 
 #### Question: Choice
 id:: 2bedfce0-14ef-4703-b810-2b7bf107ebdf
-content:: Your recommendation on Plan A's verification regime:
+content:: {--{"author":"Elias's AI","timestamp":1788011671570}@@Your recommendation on Plan A's verification regime:--}{++{"author":"Elias's AI","timestamp":1788011671570}@@At the end, select one of the three recommendations, and briefly justify why:++}
 options::
 - Adopt the verification approach largely as written
 - Adopt it only with significant amendments
@@ -223,7 +224,7 @@ Policymakers are deciding whether a serious international AI agreement should mo
 
 #### Question: Choice
 id:: f519fd45-b860-4b6e-88b9-1231bf723d2c
-content:: Which plan would you recommend?
+content:: Which {--{"author":"Elias's AI","timestamp":1788011673115}@@plan would you recommend?--}{++{"author":"Elias's AI","timestamp":1788011673115}@@creates the more robust verification regime: Plan A or Plan S? Make a recommendation:++}
 options::
 - Plan A: verified slowdown
 - Plan S: complete shutdown
