@@ -1,9 +1,10 @@
 ---
 id: 'b14a66c9-7199-47ac-a777-14045193b072'
 title: "2.4.2 Reporting and protection"
-tldr: "Faithful alpha import of XLab lesson 2.4.2 Reporting and protection."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
-tags: [wip]
+tldr: {--{"author":"Elias's AI","timestamp":1788015867205}@@"Faithful alpha import of XLab lesson 2.4.2 Reporting --}{++{"author":"Elias's AI","timestamp":1788015867205}@@"A whistleblower statute is a door, not a corridor. California's SB 53 lets a covered employee walk through to the Attorney General, but says nothing about who protects her name, whether the office can judge the claim, or how a contractor's work order becomes evidence. Follow two reports along their routes ++}and {--{"author":"Elias's AI","timestamp":1788015867205}@@protection."--}{++{"author":"Elias's AI","timestamp":1788015867205}@@find where each one stalls."++}
+summary_for_tutor: {--{"author":"Elias's AI","timestamp":1788015867205}@@"Imported--}{++{"author":"Elias's AI","timestamp":1788015867205}@@"A TED video link and four readings (California Labor Code 1107 to 1107.2, the AIWI/CARMA best-practice guide, Wasil et al. on whistleblowers, CIGIE Quality Standards for Investigations), then three drills rebuilt++} from {++{"author":"Elias's AI","timestamp":1788015867205}@@XLab widgets. (1) Mechanism to Effect: four graded choice questions mapping anti-retaliation protection, financial reward, mandatory reporting, and professional duty to their mode of leverage. (2) Optional Follow the report: two cases (Nadia reporting to the Attorney General; a contractor's work order) with six graded choice questions each and a finding per case. (3) Audit the verifier: ++}XLab's {--{"author":"Elias's AI","timestamp":1788015867205}@@canonical --}{++{"author":"Elias's AI","timestamp":1788015867205}@@institutions-judgment lab on the International AI ++}Verification {--{"author":"Elias's AI","timestamp":1788015867205}@@curriculum. Preserve--}{++{"author":"Elias's AI","timestamp":1788015867205}@@Office, fourteen graded choice questions across institution, capture, evidence boundary, and response. In feedback, cite the statute section or++} source {--{"author":"Elias's AI","timestamp":1788015867205}@@framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788015867205}@@named in the question's Why callout, and keep the line between what a statute protects and what an institution can actually do."++}
+tags: [wip]{++{"author":"Elias's AI","timestamp":1788015867205}@@
+duration_minutes: 60++}
 ---
 #### Text
 content::
@@ -26,8 +27,8 @@ below California whistleblower protection statute, paying attention to what
 the statute does not say or leaves ambiguous: what types of disclosures are
 not protected? Can you hypothesize why?
 
-\### [
-  title=](https://www.leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=5.1.&division=2.&lawCode=LAB&part=3.&title=)
+\### {--{"author":"Elias's AI","timestamp":1788015870042}@@[
+  title=](https://www.leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=5.1.&division=2.&lawCode=LAB&part=3.&title=)--}{++{"author":"Elias's AI","timestamp":1788015870042}@@[California Labor Code, Chapter 5.1: Whistleblower Protections — Catastrophic Risks in AI Foundation Models](https://www.leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=5.1.&division=2.&lawCode=LAB&part=3.&title=)++}
 California Legislature (effective 2026)
 
   Read §§1107–1107.2 in full.
