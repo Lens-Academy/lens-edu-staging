@@ -249,7 +249,26 @@ Evaluate this conclusion using all three documents. Your answer must:
 3. explain why that problem cannot be solved merely by inspecting registered chips more frequently;
 4. replace the original conclusion with a narrower claim that the evidence supports.
 assessment-instructions:: Model answer. (1) Strongest parallel: verified accountancy of a controlled, mandatory input, carried by a duty on the holder to declare it and accept verification (Document 1 places all nuclear material under safeguards; Document 2 requires every chip be accounted for and a sufficient subset's logs inspected). The parallel is accountancy of an input, not resemblance between uranium and chips. (2) Step under pressure: the move from "inspection of registered chips found no violation" to "no prohibited development is occurring", which requires the declaration to be complete; Document 3 shows completeness was absent in Iraq. (3) Why frequency cannot fix it: the defect is in the population, not the sampling rate; an unregistered chip is not in the frame the sample is drawn from, so no frequency reaches it; Document 3's own answer was a different instrument, information from states. (4) Narrower claim: where highly compute-intensive AI development requires large quantities of accounted-for specialised chips, chip registration, tamper-evident logging and inspection may provide reliable assurance that covered chips at declared locations have not been used in prohibited training; this does not by itself establish the absence of prohibited development using unregistered chips, undeclared facilities, commodity hardware, or other unmonitored inputs. Score each of the four parts at 25 points. Require that the narrowed claim actually restricts scope (covered chips, declared locations) rather than merely hedging.
-feedback-instructions:: Go part by part: which of the four were sound, which were missing or overbroad. Then share Baker (2023) as reveal material: §6.1's conclusion is deliberately narrow (hardware-based verification of rules on highly compute-intensive AI development; chip-based verification cannot address all important risks from AI); Appendix A's similarities and differences; and Appendix G.8's final line, worded exactly: "methods that have been widely used for nuclear arms control verification can be adapted to create a reliable system for verifying accounts of AI chips". Verifying accounts of AI chips, not verifying the absence of all prohibited AI development. That is the properly limited conclusion. No generic praise.
+feedback-instructions:: Go part by part: which of the four were sound, which were missing or overbroad. Then share Baker (2023) as reveal material: §6.1's conclusion is deliberately narrow (hardware-based verification of rules on highly compute-intensive AI development; chip-based verification cannot address all important risks from AI); Appendix A's similarities and differences; and Appendix G.8's final line, worded exactly: "methods that have been widely used for nuclear arms control verification can be adapted to create a reliable system for verifying accounts of AI chips". Verifying accounts of AI chips, not verifying the absence of all prohibited AI development. That is the properly limited conclusion. No generic praise.{++{"author":"Elias's AI","timestamp":1788014506821}@@
+
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+International Atomic Energy Agency. *IAEA Safeguards: Serving Nuclear Non-Proliferation*. 2024. [iaea.org](https://www.iaea.org/sites/default/files/18/09/sg-serving-nuclear-non-proliferation.pdf)
+*Document 1: the legal commitment underlying comprehensive safeguards.*
+
+Shavit, Yonadav. "What Does It Take to Catch a Chinchilla? Verifying Rules on Large-Scale Neural Network Training via Compute Monitoring." *arXiv*, 2023. CC BY 4.0. [arxiv.org](https://arxiv.org/abs/2303.11341)
+*Document 2: the three-part compute-monitoring proposal.*
+
+Carlson, John. "Experience and Challenges in WMD Treaty Verification: A Comparative View." *Background Papers on Nuclear Verification Issues*, Paper 1, Australian Safeguards and Non-Proliferation Office. [dfat.gov.au](https://www.dfat.gov.au/about-us/publications/Pages/background-papers-on-nuclear-verification-issues)
+*Document 3: Iraq and undeclared infrastructure.*
+
+Baker, Mauricio. "Nuclear Arms Control Verification and Lessons for AI Treaties." *arXiv*, 2023. CC BY 4.0. [arxiv.org](https://arxiv.org/abs/2304.04123)
+*Source of the excerpts in the task reveals.*
+
+XLab. "0.3 History, Precedents, Parallels." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/precedents)
+*The source lesson this page adapts, including the five tasks and their model answers.*
+:::++}
 
 #### Text
 content::
