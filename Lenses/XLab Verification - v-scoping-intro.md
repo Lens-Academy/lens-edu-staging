@@ -66,4 +66,12 @@ Given these building blocks, what could a verifiable AI treaty actually look lik
 
 Confirming that a party shared the research it promised, a pooled project has no covert rival, or that no data center crossed a compute threshold are separate problems that require different mechanisms, levels of cooperation, evidence, timelines, and more. Each type of agreement buys a different amount of risk reduction at a different price. It’s easy to verify transferred knowledge, but mere information sharing realistically can’t do much to deter capability development for self-interested parties. On the other hand, it’s incredibly difficult to verify that zero illicit training runs are happening within a given nation, but successfully doing so will significantly increase the safety and predictability of model development. When weighing different policy options throughout this module, consider: how much risk does this agreement actually remove, and at what cost?
 
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-intro)*
+{--{"author":"Elias's AI","timestamp":1788015916941}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-intro)*--}{++{"author":"Elias's AI","timestamp":1788015916941}@@#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Harack, Ben, Robert F. Trager, Anka Reuel, et al. *Verification for International AI Governance*. Oxford Martin AI Governance Initiative, July 2025. [aigi.ox.ac.uk](https://aigi.ox.ac.uk/wp-content/uploads/2025/07/Verification_for_International_AI_Governance.pdf)
+*The Oxford Martin 172-page report on which international AI agreements could actually be verified, and with what machinery.*
+
+XLab. "1.0 Introduction: what kind of policy are we trying to verify?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-intro)
+*The source lesson this page adapts.*
+:::{>>{"author":"Elias's AI","timestamp":1788015916941}@@Goodhart's Law: XLab renders it as a hover gloss; the glossary definition is inlined in parentheses above. Replaces the per-lesson XLab source footer with the Works cited callout.<<}++}
