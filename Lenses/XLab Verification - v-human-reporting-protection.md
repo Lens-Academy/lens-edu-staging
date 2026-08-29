@@ -662,7 +662,7 @@ feedback-instructions:: If wrong: Separate the organizational decision from exec
 #### Text
 content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
-Wasil et al. require facility access, chip identifiers, activity logs, training records, and related technical measures to test operational AI-development claims. Human evidence can ++}direct {--{"author":"Elias's AI","timestamp":1788016058779}@@Lens equivalent yet. Complete --}{++{"author":"Elias's AI","timestamp":1788016058779}@@that inquiry but not replace it. Source: [Wasil et al., Access-dependent methods](https://arxiv.org/html/2408.16074v2#S6.SS2)
+Wasil et al. require facility access, chip identifiers, activity logs, training records, and related technical measures to test operational AI-development claims. Human evidence can ++}direct {--{"author":"Elias's AI","timestamp":1788016314056}@@Lens equivalent yet. Complete --}{++{"author":"Elias's AI","timestamp":1788016314056}@@that inquiry but not replace it. Source: [Wasil et al., Access-dependent methods](https://arxiv.org/html/2408.16074v2#S6.SS2)
 
 Technical/physical requirement: scheduler and activity logs, chip inventory, and facility evidence must establish execution, workload identity, participating hardware, and compute.
 :::
@@ -670,7 +670,7 @@ Technical/physical requirement: scheduler and activity logs, chip inventory, and
 \### Response
 
 #### Question: Choice
-id:: 4e5f6a7b-8c9d-4e0f-9a1b-2c3d4e5f6a7b
+id:: 39c0433a-7dc3-446b-9403-0ecfc88981ab
 content:: Investigation. What decision is supported before the withheld logs are obtained?
 options::
 - [x] Open or continue a focused investigation and preserve evidence: the concern is specific, plausible, partly corroborated, and points to records capable of resolving it.
@@ -689,7 +689,7 @@ Investigation: justified by a specific, plausible, partly corroborated concern a
 :::
 
 #### Question: Choice
-id:: 6a7b8c9d-0e1f-4a2b-8c3d-4e5f6a7b8c9d
+id:: 4b34d68d-8af8-43b2-97f1-9978fd3d0588
 content:: Compliance finding. The treaty expressly requires scheduler logs and chip inventory. The Office issued a valid demand, offered managed access, and the deadline expired without production.
 
 What compliance finding does the documented refusal support?
@@ -699,7 +699,7 @@ options::
 - Issue no compliance finding until the Office proves the underlying run; access duties cannot be breached independently.
 - Treat the access finding as the Office's authority to impose whatever enforcement measure ++}it {++{"author":"Elias's AI","timestamp":1788016058779}@@considers proportionate.
 shuffle:: true
-feedback-instructions:: If wrong: Identify the obligation whose facts are already established, and keep it separate from the concealed conduct the records were meant to test. Then: A valid demand, an express duty, managed alternatives, and documented refusal can establish noncompliance with access. Whether refusal proves the underlying activity depends on a separate inference rule ++}in the {--{"author":"Elias's AI","timestamp":1788016058779}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-reporting-protection). Its surrounding lesson text --}{++{"author":"Elias's AI","timestamp":1788016058779}@@agreement.
+feedback-instructions:: If wrong: Identify the obligation whose facts are already established, and keep it separate from the concealed conduct the records were meant to test. Then: A valid demand, an express duty, managed alternatives, and documented refusal can establish noncompliance with access. Whether refusal proves the underlying activity depends on a separate inference rule ++}in the {--{"author":"Elias's AI","timestamp":1788016316181}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-reporting-protection). Its surrounding lesson text --}{++{"author":"Elias's AI","timestamp":1788016316181}@@agreement.
 
 #### Text
 content::
@@ -710,7 +710,7 @@ Compliance finding: the documented refusal establishes breach of the express acc
 :::
 
 #### Question: Choice
-id:: 8c9d0e1f-2a3b-4c4d-9e5f-6a7b8c9d0e1f
+id:: 95098595-f1f2-4d43-b32b-5cb9d9349a45
 content:: Enforcement. When ++}is {--{"author":"Elias's AI","timestamp":1788016058779}@@preserved here.--}{++{"author":"Elias's AI","timestamp":1788016058779}@@enforcement justified?
 options::
 - [x] When an authorized trigger or valid compliance finding exists and the council applies the treaty's authority, required process, proportionality, and urgency rules.
