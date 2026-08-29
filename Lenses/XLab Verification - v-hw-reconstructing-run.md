@@ -46,11 +46,24 @@ Training transcripts and recomputation mainly address the first claim, with vary
 
 A June 2026 paper proposes a zero-knowledge architecture for frontier training claims, but it also identifies thirteen open problems and a critical requirement that has not yet been demonstrated at relevant scale: a zero-knowledge proof of backpropagation for a nontrivial model. Treat this as an ambitious research proposal, not evidence that zero-knowledge verification of frontier training is deployment-ready.
 
-**Src**
-*Zero Knowledge Verification for Frontier AI Training Is Possible* — [arXiv:2606.05433](https://arxiv.org/abs/2606.05433), June 2026. The paper presents an architecture and estimates, while documenting open problems and unproven critical components.
+{--{"author":"Elias's AI","timestamp":1788016048853}@@**Src**--}{++{"author":"Elias's AI","timestamp":1788016048853}@@:::callout {title="Source" tone="neutral" collapse="closed"}++}
+*Zero Knowledge Verification for Frontier AI Training Is Possible* — [arXiv:2606.05433](https://arxiv.org/abs/2606.05433), June 2026. The paper presents an architecture and estimates, while documenting open problems and unproven critical components.{++{"author":"Elias's AI","timestamp":1788016048853}@@
+:::++}
 
 \#### Activity: buy assurance with a verification budget
 
-You receive a declared transcript and a limited verification-compute budget. Allocate it among full rerunning, random segment sampling, checkpoint checks, code and data commitments, physical compute totals, telemetry-timing comparison, and random chip inspection. For each choice, record cost, confidentiality exposure, spoofing opportunity, expected assurance, and the claim that remains untested.
+{++{"author":"Elias's AI","timestamp":1788016048853}@@#### Question: Open
+id:: 25ad0482-15a3-4c5a-a717-c7a7b2ca6e29
+content:: Optional: ++}You receive a declared transcript and a limited verification-compute budget. Allocate it among full rerunning, random segment sampling, checkpoint checks, code and data commitments, physical compute totals, telemetry-timing comparison, and random chip inspection. For each choice, record cost, confidentiality exposure, spoofing opportunity, expected assurance, and the claim that remains untested.{++{"author":"Elias's AI","timestamp":1788016048853}@@
+optional:: true
+assessment-instructions:: This is an XLab writing or reflection exercise. Check that the allocation is explicit, that each chosen check records the five attributes, and that the learner says which of the three claims (declared-run correctness, declared-run completeness, fleet completeness) each check addresses and which remains untested. Mark down answers that treat transcript checks as evidence about fleet completeness. Identify one strong point and one important gap, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-reconstructing-run)*
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Peigné, Pierre, Ky Nguyen, and Paul Wang. "Zero knowledge verification for frontier AI training is possible." *arXiv*, June 2026. [arxiv.org](https://arxiv.org/abs/2606.05433)
+*The 2026 proposal estimating a future ZK system could verify dense frontier training at roughly 2–10 percent overhead, while naming thirteen unresolved technical problems and the training architectures it does not yet cover.*++}
+
+{--{"author":"Elias's AI","timestamp":1788016048853}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-reconstructing-run)*--}{++{"author":"Elias's AI","timestamp":1788016048853}@@XLab. "2.1.7 Reconstructing a declared training run." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-reconstructing-run)
+*The source lesson this page adapts. Shavit (2023), Jia et al. (2021), Zhang et al. (2022), Fang et al. (2023) and Choi, Shavit and Duvenaud (2023) are cited inline above.*
+:::++}

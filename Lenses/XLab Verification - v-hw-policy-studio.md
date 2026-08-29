@@ -51,9 +51,9 @@ The evidence supports a bounded judgment.
 
 A useful hardware recommendation therefore gives hardware a bounded job inside a layered regime. It names the corroborating evidence for the blind spot and the condition under which the recommendation expires.
 
-\## Hardware mechanism dossier
+{--{"author":"Elias's AI","timestamp":1788016050712}@@\## Hardware mechanism dossier
 
-\#### Hardware mechanism dossier
+--}\#### Hardware mechanism dossier
 
 Use the following common anatomy for any proposal.
 
@@ -85,8 +85,9 @@ Use the following common anatomy for any proposal.
 **Length:** 700–1,000 words.
 **Audience:** a named national delegation or joint drafting group considering a three-month U.S.–China pause.
 
-**Prompt**
-Assess the role one proposed hardware architecture should play in verifying a rule that prohibits unlicensed above-threshold training while permitting inference and approved safety evaluations. Recommend a bounded use, a pilot or deployment pathway, and the independent evidence needed to cover the mechanism’s principal blind spot.
+{--{"author":"Elias's AI","timestamp":1788016053767}@@**Prompt**--}{++{"author":"Elias's AI","timestamp":1788016053767}@@:::callout {title="Prompt" tone="blue"}++}
+Assess the role one proposed hardware architecture should play in verifying a rule that prohibits unlicensed above-threshold training while permitting inference and approved safety evaluations. Recommend a bounded use, a pilot or deployment pathway, and the independent evidence needed to cover the mechanism’s principal blind spot.{++{"author":"Elias's AI","timestamp":1788016053767}@@
+:::++}
 
 Your brief must include:
 
