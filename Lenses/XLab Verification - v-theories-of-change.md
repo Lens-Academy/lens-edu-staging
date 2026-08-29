@@ -87,4 +87,27 @@ feedback-instructions:: Point out any box where an output was written as an outc
 content::
 Theories of change are probabilistic, not deterministic: they depend on assumptions about how the world works that may be exaggerated or misguided. The point is not to predict the future; the point is to make your beliefs about why your work matters clear enough such that someone—could be your future self!—can notice discrepancies from reality, and course-correct.
 
-In sum: when someone asks you how your work changes the world, in a field that supposedly works towards saving it, you should have a ready, clear answer for them.{>>{"author":"Elias's AI","timestamp":1788009456054}@@Proposed: drop per-lesson XLab source footer.<<}
+In sum: when someone asks you how your work changes the world, in a field that supposedly works towards saving it, you should have a ready, clear answer for them.{++{"author":"Elias's AI","timestamp":1788014492943}@@
+
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+LiquiSearch. "Superconducting Super Collider: Cancellation." [liquisearch.com](https://www.liquisearch.com/superconducting_super_collider/cancellation)
+*A reference page on the SSC's 1993 cancellation, mirroring the Wikipedia article's Cancellation section under Creative Commons.*
+
+Jones, Richard M. "Looking Back: Why the SSC Was Terminated." *FYI: Science Policy News*, American Institute of Physics, 27 Oct. 1993. [aip.org](https://www.aip.org/fyi/1993/looking-back-why-ssc-was-terminated)
+*AIP's contemporaneous account of the eight factors behind Congress's 1993 termination of the Superconducting Super Collider, including the Clinton and O'Leary statements quoted here.*
+
+Sharkey, Lee, Marius Hobbhahn, and Beren Millidge. "Theories of Change for AI Auditing." Apollo Research, 13 Nov. 2023. [apolloresearch.ai](https://www.apolloresearch.ai/blog/theories-of-change-for-ai-auditing/)
+*Apollo Research's worked theory of change for AI auditing: causal mechanisms, explicit assumptions, and acknowledged failure modes.*
+
+Taylor, Mia. "Measurement Research Agenda." Center on Long-Term Risk, 16 June 2024. [longtermrisk.org](https://longtermrisk.org/measurement-research-agenda/#3_Theory_of_change)
+*CLR's research agenda on measuring properties of AI systems; its Theory of change section runs a product model and a field-building model in parallel.*
+
+Wentworth, John, and David Lorell. "The Plan: 2025 Update." *LessWrong*, 31 Dec. 2025. [lesswrong.com](https://www.lesswrong.com/posts/vh5ZjdmJYJgnbpq8C/the-plan-2025-update)
+*Wentworth's annual update on his alignment research plan, cited here as a cohesive, tractable theory of change for conceptual AI safety research.*
+
+Slow Food USA. "Our Theory of Change." [slowfoodusa.org](https://slowfoodusa.org/theory-of-change/)
+*The source page of the one-page infographic: an organization's whole theory of change made legible on a single sheet.*
+
+XLab. "0.1.2 We Need More Theories of Change." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/theories-of-change)
+*The source lesson this page adapts.*
+:::++}{>>{"author":"Elias's AI","timestamp":1788009456054}@@Proposed: drop per-lesson XLab source footer.<<}
