@@ -1,7 +1,7 @@
 ---
 id: '52565ea0-6760-498e-85b5-850bcc48ccf3'
 title: "0.1 Introduction: Why Should You Care About AI Verification?"
-tldr: {--{"author":"Elias's AI","timestamp":1788013094264}@@"Faithful alpha import--}{++{"author":"Elias's AI","timestamp":1788013094264}@@"Models have already broken out++} of {--{"author":"Elias's AI","timestamp":1788013094264}@@XLab lesson 0.1 Introduction: Why Should You Care About AI Verification?."--}{++{"author":"Elias's AI","timestamp":1788013094264}@@test environments and into real companies; the people building them say worse is coming. No single country can contain that, and rivals cannot simply trust, punish, or open their books. Verification is the fourth option, and almost nobody is working on it yet."++}
+tldr: "Models have already broken out of test environments and into real companies; the people building them say worse is coming. No single country can contain that, and rivals cannot simply trust, punish, or open their books. Verification is the fourth option, and almost nobody is working on it yet."
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab's interactive widgets (types-of-ai rings, leader profiles, verification-problem, landscape map) are rendered here as text plus choice questions; only the Our World in Data charts remain external."
 tags: [wip]
 duration_minutes: 25
@@ -96,8 +96,7 @@ Where does today's AI sit? Each ring contains the next; a system sits at the dee
 
 Beyond these rings: non-narrow AI is theoretical only right now (no real non-narrow AI models are known), and some regions are theoretically possible but would require an absurd quantity of resources.
 
-{--{"author":"Elias's AI","timestamp":1788011669882}@@Optional: three quick checks follow.
---}:::
+:::
 
 #### Question: Choice
 id:: a461d157-f6b2-416b-9c61-28b2bf2be861
@@ -146,7 +145,7 @@ content::
 
 *Risk statements.* His risk assessments have not softened alongside the definitional shift. In 2023 he described the worst case as "lights out for all of us", and OpenAI's superalignment announcement warned that superintelligence could lead to the "disempowerment of humanity or even human extinction".
 
-*Relevance to this module.* A definition that moves as products approach it cannot anchor an agreement. This is one reason treaties are written around thresholds an outside party can measure, taken up in {--{"author":"Elias's AI","timestamp":1788013081591}@@Module 1 (compute--}{++{"author":"Elias's AI","timestamp":1788013081591}@@[[../Lenses/XLab Verification - v-scoping-thresholds|1.0.1 Drawing the Line: Compute++} vs. {--{"author":"Elias's AI","timestamp":1788013081591}@@capability).--}{++{"author":"Elias's AI","timestamp":1788013081591}@@Capability]].++}
+*Relevance to this module.* A definition that moves as products approach it cannot anchor an agreement. This is one reason treaties are written around thresholds an outside party can measure, taken up in [[../Lenses/XLab Verification - v-scoping-thresholds|1.0.1 Drawing the Line: Compute vs. Capability]].
 
 Sources: [Time](https://time.com/7205596/sam-altman-superintelligence-agi/), [CNBC](https://www.cnbc.com/2025/08/11/sam-altman-says-agi-is-a-pointless-term-experts-agree.html), [Windows Central](https://www.windowscentral.com/artificial-intelligence/openai-ceo-sam-altman-claims-agi-might-have-already-whooshed-by), [80,000 Hours](https://80000hours.org/podcast/episodes/jan-leike-superalignment/).
 
@@ -186,7 +185,7 @@ Sources: [MIT Technology Review](https://www.technologyreview.com/2025/10/30/112
 
 *Risk statements.* Before leaving OpenAI he described the coming transition as "monumental, earth-shattering", with a before and an after. In 2024 he founded Safe Superintelligence Inc., a lab organized around a single goal: building superintelligence with safety as the binding constraint.
 
-*Relevance to this module.* If capabilities emerge during deployment rather than before release, there is no clean pre-release point at which a system can be inspected. This measurement problem is part of why current policy relies on compute thresholds, which can be assessed in advance, rather than capability {--{"author":"Elias's AI","timestamp":1788013084991}@@evaluations.--}{++{"author":"Elias's AI","timestamp":1788013084991}@@evaluations (see [[../Lenses/XLab Verification - v-scoping-thresholds|1.0.1 Drawing the Line: Compute vs. Capability]]).++}
+*Relevance to this module.* If capabilities emerge during deployment rather than before release, there is no clean pre-release point at which a system can be inspected. This measurement problem is part of why current policy relies on compute thresholds, which can be assessed in advance, rather than capability evaluations (see [[../Lenses/XLab Verification - v-scoping-thresholds|1.0.1 Drawing the Line: Compute vs. Capability]]).
 
 Sources: [Dwarkesh Podcast](https://www.dwarkesh.com/p/ilya-sutskever-2), [The Decoder](https://the-decoder.com/ilya-sutskever-says-a-new-learning-paradigm-is-necessary-and-is-already-chasing-it/), [MIT Technology Review](https://www.technologyreview.com/2025/10/30/1127057/agi-conspiracy-theory-artifcial-general-intelligence/).
 
@@ -233,7 +232,7 @@ How fast is fast? Two charts from Our World in Data's [brief history of artifici
 :::
 
 #### Text
-content:: Charts: [Our World in {--{"author":"Elias's AI","timestamp":1788011728883}@@Data](https://ourworldindata.org/brief-history-of-ai).--}{++{"author":"Elias's AI","timestamp":1788011728883}@@Data](https://ourworldindata.org/brief-history-of-ai).{>>{"author":"Elias's AI","timestamp":1788011728883}@@Delete this whole Text segment: the callout above now covers it. The edit tool could not remove a segment that already carries a pending change.<<}++}{>>{"author":"Elias's AI","timestamp":1788009452090}@@Proposed: link only to Our World in Data (the original), not XLab.<<}
+content:: Charts: [Our World in Data](https://ourworldindata.org/brief-history-of-ai).{>>{"author":"Elias's AI","timestamp":1788011728883}@@Delete this whole Text segment: the callout above now covers it. The edit tool could not remove a segment that already carries a pending change.<<}{>>{"author":"Elias's AI","timestamp":1788009452090}@@Proposed: link only to Our World in Data (the original), not XLab.<<}
 
 #### Text
 content::
@@ -264,7 +263,7 @@ options::
 - Punish violations: sanctions, retaliation and consequences severe enough to deter misconduct.
 - Mutual transparency: open the books, show the facilities and publish the research.
 - [x] Neutral, privacy-preserving verification mechanisms: prove compliance without surrendering the secrets around it.
-feedback-instructions:: Tell the learner the outcome of the option they chose, using the source verdicts. Trust collapses: works with friends, not with nation-state adversaries incentivized to gain a secret upper hand. Punishment arrives too late: deterrence depends on reliably tracking each party's actions, and an ex-post regime fails when consequences are immediate, far-reaching, and irreversible; no fine can bring back the dead. Transparency backfires: disclosure risks theft of proprietary information or prototypes, and each party is still incentivized to develop a secret advantage and fabricate compliance. Verification holds: if each party can verify the other's compliance without learning their secrets, knowing the {--{"author":"Elias's AI","timestamp":1788011668146}@@ther--}{++{"author":"Elias's AI","timestamp":1788011668146}@@other++} can do the same, they have {--{"author":"Elias's AI","timestamp":1788011668146}@@feweor--}{++{"author":"Elias's AI","timestamp":1788011668146}@@fewer++} material incentives to dodge compliance. Two to four sentences, no praise.
+feedback-instructions:: Tell the learner the outcome of the option they chose, using the source verdicts. Trust collapses: works with friends, not with nation-state adversaries incentivized to gain a secret upper hand. Punishment arrives too late: deterrence depends on reliably tracking each party's actions, and an ex-post regime fails when consequences are immediate, far-reaching, and irreversible; no fine can bring back the dead. Transparency backfires: disclosure risks theft of proprietary information or prototypes, and each party is still incentivized to develop a secret advantage and fabricate compliance. Verification holds: if each party can verify the other's compliance without learning their secrets, knowing the other can do the same, they have fewer material incentives to dodge compliance. Two to four sentences, no praise.
 
 #### Text
 content::
