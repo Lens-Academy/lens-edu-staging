@@ -16,7 +16,7 @@ This guide has two parts:
 ```markdown
 ---
 id: '<learning-outcome-uuid>'
-learning-outcome: <observable capability>
+learning-outcome: <observable capability description>
 domain: "[[../Domains/<domain>]]"
 stage: beginner
 requires:
