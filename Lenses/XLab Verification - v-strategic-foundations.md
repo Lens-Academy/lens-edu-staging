@@ -94,6 +94,15 @@ content:: Optional: Actor, authority, and evidence map.
 
 Choose one element of the advanced-AI supply chain. Map (1) the actors involved, (2) the authority each one holds, and (3) the evidence that would let an outside party verify what they are doing. Draw on whichever reading pathway above is most relevant to the element you pick.
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
-optional:: true
+optional:: true{++{"author":"Elias's AI","timestamp":1788014509000}@@
+
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+The nine readings above are cited in place with author, year, and link.
+
+XLab. "0.4 Strategic Foundations." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/strategic-foundations)
+*The source lesson this page adapts.*
+:::++}
 {>>{"author":"Elias's AI","timestamp":1788009465201}@@Proposed: drop per-lesson XLab source footer.<<}
 
