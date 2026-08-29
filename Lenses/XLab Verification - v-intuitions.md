@@ -362,7 +362,13 @@ content:: Reputation, reciprocity, and retaliation can sustain compliance withou
 options::
 - [x] True
 - False
-feedback-instructions:: Explain: true. Each enforcement channel that works without a world government begins with noticing the violation. No detection, no deterrence; verification is upstream of every enforcement story. Two or three sentences.
+feedback-instructions:: Explain: true. Each enforcement channel that works without a world government begins with noticing the violation. No detection, no deterrence; verification is upstream of every enforcement story. Two or three sentences.{++{"author":"Elias's AI","timestamp":1788013902843}@@
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+True. Each enforcement channel that works without a world government begins with noticing the violation. That is the primer's punchline and the whole track's premise: no detection, no deterrence. Verification is upstream of every enforcement story.
+:::++}
 
 #### Question: Choice
 id:: 43fbcb43-c2b2-41ea-bee2-71882b642b3b
@@ -370,7 +376,13 @@ content:: In Putnam's two-level game, a leader who signs in good faith and then 
 options::
 - [x] True
 - False
-feedback-instructions:: Explain: true. Two-level games distinguish voluntary defection (chose to cheat) from involuntary (couldn't deliver the home front). A verification regime must survive both; the second kind is why ratification constraints belong in feasibility analysis, not just bad faith. Two or three sentences.
+feedback-instructions:: Explain: true. Two-level games distinguish voluntary defection (chose to cheat) from involuntary (couldn't deliver the home front). A verification regime must survive both; the second kind is why ratification constraints belong in feasibility analysis, not just bad faith. Two or three sentences.{++{"author":"Elias's AI","timestamp":1788013905996}@@
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+True. Two-level games distinguish voluntary defection (chose to cheat) from involuntary (couldn't deliver the home front). A verification regime must survive both: the second kind is why ratification constraints belong in feasibility analysis, not just bad faith.
+:::++}
 
 #### Question: Choice
 id:: 357a36a9-d41c-454c-a7e7-760afe1f3a0a
@@ -381,7 +393,13 @@ options::
 - Forms of treaty punishment
 - Domestic ratification constraints
 shuffle:: true
-feedback-instructions:: Explain: the tightest true label wins. "Game-theoretic concepts" is true but hopelessly broad. Fearon (1997): burn resources up front (sunk cost), make backing down costly later (tied hands), or remove the choice entirely (mechanical enforcement). Two or three sentences.
+feedback-instructions:: Explain: the tightest true label wins. "Game-theoretic concepts" is true but hopelessly broad. Fearon (1997): burn resources up front (sunk cost), make backing down costly later (tied hands), or remove the choice entirely (mechanical enforcement). Two or three sentences.{++{"author":"Elias's AI","timestamp":1788013909129}@@
+
+#### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+The series rule: the tightest true label wins. "Game-theoretic concepts" is true but hopelessly broad; it earns zero on an olympiad table and it should here too. Fearon (1997): burn resources up front (sunk cost), make backing down costly later (tied hands), or remove the choice entirely (mechanical enforcement).
+:::++}
 
 #### Question: Choice
 id:: bb588dec-c6e5-4fbf-a8fd-86c247d40895
