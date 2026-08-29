@@ -152,7 +152,8 @@ Skim the [AI 2040 Verification Supplement](https://ai-2040.com/supplements/verif
 
 \## B1. Which plan gives verification the more tractable target?
 
-#### Question
+#### Question: Open
+id:: a927dcac-36c7-4330-b064-b64f7b867746
 content:: Identify the central restriction under Plan A and Plan S: what would inspectors actually need to establish before they could reasonably conclude that actors were complying? Then, compare: does Plan A or Plan S give verification the clearer and more tractable target?
 
 Questions to consider:
@@ -171,7 +172,8 @@ content::
 
 \## B2. Which plan could provide stronger evidence of compliance?
 
-#### Question
+#### Question: Open
+id:: 79d7f63c-67b0-4a54-aeb6-127a58ddbc4a
 content:: A clear rule is useful only if the available verification mechanisms can produce convincing evidence that actors are following it.
 
 For Plan A, use the Verification Supplement to identify the mechanisms that provide the strongest evidence of compliance. For Plan S, consider what combination of tools from this course could provide comparable assurance—for example, compute declarations, inspections, chip accounting, power monitoring, remote sensing, intelligence, or personnel reporting.
@@ -194,7 +196,8 @@ content::
 
 \## B3. Which plan creates the harder monitoring problem?
 
-#### Question
+#### Question: Open
+id:: 3edc12a8-2c49-46c7-8029-54e1de5ff7ac
 content:: Now, zoom out from individual pieces of evidence to the scale of the regime. Compare how much compute, infrastructure, activity, and geography would need to remain visible to inspectors under Plan A vs. Plan S. Pay particular attention to what kinds of AI activity remain permitted under each agreement and what that means for the monitoring burden.
 
 Questions to consider:
@@ -213,7 +216,8 @@ content::
 
 \## B4. Which regime could states actually cooperate on?
 
-#### Question
+#### Question: Open
+id:: 3d07b047-a892-40b9-960c-48de66645bea
 content:: Verification also depends on whether governments, firms, and third countries will accept the access, restrictions, and institutional arrangements necessary to produce credible evidence.
 
 Identify the hardest cooperation problem facing Plan A and the hardest facing Plan S. Compare how difficult each would be to overcome and how much the regime depends on solving it.
@@ -236,10 +240,15 @@ content::
 
 Policymakers are deciding whether a serious international AI agreement should more closely resemble Plan A or Plan S. They have asked which approach provides a verification regime strong enough to rely on.
 
-#### Text
-content:: **Import gap:** XLab VerdictSelect component has no clean Lens equivalent. Use the [original XLab lesson](https://aisafetytracks.com/tracks/verification/why-verification/building-intuitions) for this element.
+#### Question: Choice
+id:: f519fd45-b860-4b6e-88b9-1231bf723d2c
+content:: Which plan would you recommend?
+options::
+- Plan A: verified slowdown
+- Plan S: complete shutdown
 
-#### Question
+#### Question: Open
+id:: dd10bf8f-8e94-4854-8f7a-48c317665d7b
 content:: You have already analyzed the comparison from four angles. Pull together the findings that matter most, consider the strongest argument against your own position, and answer: Which creates the more robust verification regime: Plan A or Plan S?
 
 Make a recommendation. Explain which considerations carry the most weight in your judgment, where important uncertainty remains, and what evidence or development would be most likely to change your view.
