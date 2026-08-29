@@ -259,13 +259,13 @@ assessment-instructions:: This is an XLab writing or reflection exercise. Respon
 
 #### Text
 content::
-\## [Optional] Exercises and further reading
+\## {--{"author":"Elias's AI","timestamp":1788010883904}@@[Optional] Exercises and further reading
 
-\## [Optional] Additional Exercises & Materials
+\## [Optional] --}{++{"author":"Elias's AI","timestamp":1788010883904}@@Optional: ++}Additional Exercises {--{"author":"Elias's AI","timestamp":1788010883904}@@&--}{++{"author":"Elias's AI","timestamp":1788010883904}@@and++} Materials
 
 #### Question: Open
 id:: 7f655c72-e353-42cc-87f1-bd7ada0f0593
-content:: [Optional] Task — Essay: what does success look like to you?
+content:: {--{"author":"Elias's AI","timestamp":1788010885530}@@[Optional] Task —--}{++{"author":"Elias's AI","timestamp":1788010885530}@@Optional:++} Essay: what does success look like to you?
 
 Describe your own plausible success scenario for advanced AI governance. Think several steps beyond any single verification mechanism: what does a world that has successfully managed the relevant risks actually look like, and what agreement or institutional arrangement gets us there?
 
@@ -285,7 +285,7 @@ optional:: true
 
 #### Question: Open
 id:: fbff5bec-4474-4ae1-8712-f9c97ceed1ff
-content:: [Optional] Explore AI 2027
+content:: {--{"author":"Elias's AI","timestamp":1788010887401}@@[Optional]--}{++{"author":"Elias's AI","timestamp":1788010887401}@@Optional:++} Explore AI 2027
 
 Read [AI 2027](https://ai-2027.com/), the same team’s earlier scenario, including both of its endings. As you read, ask the question this section trained: at which branch points would verification infrastructure have changed what the actors could credibly agree to?
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
@@ -298,9 +298,9 @@ AI Futures Project (2025)
 
   The earlier scenario from the same team — how a race ends badly, dramatized. Read both of its endings.
 
-\## Curated readings
+\## Curated {--{"author":"Elias's AI","timestamp":1788010889039}@@readings
 
-\## Curated Readings
+\## Curated --}Readings
 
 You have now taken a position on a concrete verification regime. Use these readings to push on whichever part of your argument still feels least settled. Skim broadly; deep-read the one or two closest to the question you found hardest.
 
@@ -350,9 +350,9 @@ Scher and Thiergart, MIRI Technical Governance Team (2025)
   or mechanism closest to your essay and ask whether its evidence, access
   requirements, and remaining R&D gaps change your conclusion.
 
-\## Drill bench
+\## Drill bench{--{"author":"Elias's AI","timestamp":1788010890693}@@
 
-\## Drill bench
+\## Drill bench--}
 
 The primer bench: inspection games, credible commitment, and two-level games. One step at a time: commit, read why, then Continue.
 
