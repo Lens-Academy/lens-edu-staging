@@ -18,8 +18,7 @@ The fields:
 What learners see: while a requirement is unmet, "Mark section complete" is grayed out above a live "To finish this page:" checklist (e.g. "Send 2 messages to the Lens Tutor", "Answer question 2") — each item links to the spot.
 
 The five lenses below demonstrate each case. Preview the module and try them. %%
-{--{"author":"Elias's AI","timestamp":1787819771728}@@{>>{"author":"Elias's AI","timestamp":1787762010576}@@Blocked: do not accept the three Question: Open conversions in this file until the parseFields section-id bug is fixed (Lens Tasks 1217874728117362). With the bug, each inline lens's contentId becomes its question's id, which rekeys learner progress, and the validator reports false Duplicate UUIDs. The prose/tldr/summary changes are safe to accept now.<<}
---}
+
 # Lens: Lens with a 2-message minimum
 id:: 593ceb17-ebd3-4c31-b250-3229b758ffc6
 tldr:: What stops a learner from skipping past a discussion? This lens sets a two-message minimum, so "Mark section complete" stays locked until you have actually talked to the tutor.
