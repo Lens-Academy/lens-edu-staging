@@ -28,20 +28,37 @@ We'd love to hear about what next steps you think would be impactful for AI
 verification, as well as feedback on the course overall, in the feedback
 form below!
 
-#### Text
-content:: **Import gap:** NextSteps has no clean Lens equivalent. Use the [original XLab lesson](https://aisafetytracks.com/tracks/verification/capstone/capstone-next-steps) for this element.
+{--{"author":"Elias's AI","timestamp":1788015735759}@@#### Text--}{++{"author":"Elias's AI","timestamp":1788015735759}@@**[Course feedback form](https://docs.google.com/forms/d/e/1FAIpQLSf892SBfABEh7Zmbb3Aq8ckNp7YNnM2lKYG_GwSVhx21FmQmQ/viewform)** (Google Form)++}
+{--{"author":"Elias's AI","timestamp":1788015735759}@@content:: **Import gap:** NextSteps has no clean Lens equivalent. Use the [original XLab lesson](https://aisafetytracks.com/tracks/verification/capstone/capstone-next-steps) for this element.--}{++{"author":"Elias's AI","timestamp":1788015735759}@@What you would work on next in AI verification, and what this course should do better.++}
 
-#### Text
+{--{"author":"Elias's AI","timestamp":1788015735759}@@#### Text
 content::
-\## What's Next?
+--}\## What's Next?
 
 Find opportunities — the first four are open programmes with cohorts and
 deadlines, the last is the listing to browse for everything else,
 entry-level roles included.
 
-#### Text
-content:: **Import gap:** NextSteps has no clean Lens equivalent. Use the [original XLab lesson](https://aisafetytracks.com/tracks/verification/capstone/capstone-next-steps) for this element.
+{--{"author":"Elias's AI","timestamp":1788015744248}@@#### Text--}{++{"author":"Elias's AI","timestamp":1788015744248}@@**[Frontier AI Security Residency](https://www.securefrontier.ai)** (Residency)++}
+{--{"author":"Elias's AI","timestamp":1788015744248}@@content:: **Import gap:** NextSteps has no clean Lens equivalent. Use--}{++{"author":"Elias's AI","timestamp":1788015744248}@@An eight-week, fully funded residency in Cambridge, UK, on hardware verification and cyber security of frontier AI — run by ERA with Heron and++} the {--{"author":"Elias's AI","timestamp":1788015744248}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/capstone/capstone-next-steps)--}{++{"author":"Elias's AI","timestamp":1788015744248}@@Oxford Hardware AI Governance Lab. The most directly verification-focused programme on this list.
 
-#### Text
+**[MATS](https://www.matsprogram.org)** (Cohort programme)
+A full-time research programme pairing scholars with mentors in AI safety, including governance and technical governance work.
+
+**[GovAI Fellowships](https://www.governance.ai/opportunities)** (Fellowship)
+Summer and winter fellowships, and longer research roles, for people working on the governance of advanced AI.
+
+**[Horizon Fellowship](https://horizonpublicservice.org/programs/become-a-fellow/)** (Placement fellowship)
+Places funded fellows on emerging-technology policy inside US institutions — federal agencies, Congress and think tanks —++} for {++{"author":"Elias's AI","timestamp":1788015744248}@@6 or 12 months in Washington, DC. The closest thing on ++}this {--{"author":"Elias's AI","timestamp":1788015744248}@@element.--}{++{"author":"Elias's AI","timestamp":1788015744248}@@list to doing verification policy from inside a government.++}
+
+{++{"author":"Elias's AI","timestamp":1788015744248}@@**[See all — aisafety.com](https://aisafety.com)** (Listing)
+A running listing of fellowships, courses, workshops, conferences and entry-level jobs across the field — what is open changes constantly, so look here first.
+
+++}#### Text
 content::
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/capstone/capstone-next-steps)*
+{--{"author":"Elias's AI","timestamp":1788015744248}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/capstone/capstone-next-steps)*--}{++{"author":"Elias's AI","timestamp":1788015744248}@@:::callout {title="Works cited" tone="neutral" collapse="closed"}
+The opportunity links above are the lesson's own pointers and have no citation entries.
+
+XLab. "Congratulations." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/capstone/capstone-next-steps)
+*The source lesson this page adapts.*
+:::++}

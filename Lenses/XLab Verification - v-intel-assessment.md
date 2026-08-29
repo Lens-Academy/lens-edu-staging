@@ -58,18 +58,28 @@ loses the window in which the activity is observable.
 
 \## Readings
 
-- CIA, [*A Tradecraft Primer*](https://www.stat.berkeley.edu/~aldous/157/Papers/Tradecraft%20Primer-apr09.pdf)
-  — optional methodological material. Quality of Information Check (pp. 10–11),
+- {++{"author":"Elias's AI","timestamp":1788015734737}@@Optional: ++}CIA, [*A Tradecraft {--{"author":"Elias's AI","timestamp":1788015734737}@@Primer*](https://www.stat.berkeley.edu/~aldous/157/Papers/Tradecraft%20Primer-apr09.pdf)--}{++{"author":"Elias's AI","timestamp":1788015734737}@@Primer*](https://www.stat.berkeley.edu/~aldous/157/Papers/Tradecraft%20Primer-apr09.pdf).++}
+  {--{"author":"Elias's AI","timestamp":1788015734737}@@— optional methodological material.--}{++{"author":"Elias's AI","timestamp":1788015734737}@@Methodological material:++} Quality of Information Check (pp. 10–11),
   Indicators or Signposts of Change (pp. 12–13), and Analysis of Competing
   Hypotheses (pp. 14–16), applied directly to the case brief.
 
-**Unfinished writing**
+{--{"author":"Elias's AI","timestamp":1788015734737}@@**Unfinished writing**
 
-The section's main task is specified but not built. Learners are meant to
+--}{++{"author":"Elias's AI","timestamp":1788015734737}@@:::callout {title="Unfinished writing" tone="amber"}
+++}The section's main task is specified but not built. Learners are meant to
 produce **their own case brief from a packet of raw materials** — identifying
 and circling the relevant evidence, separating observations from inferences,
 considering alternative explanations, assessing source quality and
 corroboration, and stating both their confidence and what remains unresolved.
-The packet itself has not been assembled.
+The packet itself has not been assembled.{++{"author":"Elias's AI","timestamp":1788015734737}@@
+:::
 
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-assessment)*
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+United States Government. *A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis*. Mar. 2009. [stat.berkeley.edu](https://www.stat.berkeley.edu/~aldous/157/Papers/Tradecraft%20Primer-apr09.pdf)
+*The US government primer on structured analytic techniques, the intelligence-analysis tradecraft the assessment lesson draws on.*++}
+
+{--{"author":"Elias's AI","timestamp":1788015734737}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-assessment)*--}{++{"author":"Elias's AI","timestamp":1788015734737}@@XLab. "2.3.3 From signal to intelligence assessment." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-assessment)
+*The source lesson this page adapts.*
+:::++}

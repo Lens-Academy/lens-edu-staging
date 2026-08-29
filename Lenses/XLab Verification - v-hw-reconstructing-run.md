@@ -1,8 +1,8 @@
 ---
 id: 'fe43d166-6a95-4865-992f-f8448dfacb75'
-title: "2.1.7 [Optional] Extension: reconstructing a declared training run"
-tldr: "Faithful alpha import of XLab lesson 2.1.7 [Optional] Extension: reconstructing a declared training run."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
+title: "2.1.7 {--{"author":"Elias's AI","timestamp":1788015733144}@@[Optional] Extension: reconstructing--}{++{"author":"Elias's AI","timestamp":1788015733144}@@Reconstructing++} a declared training run"
+tldr: {--{"author":"Elias's AI","timestamp":1788015733144}@@"Faithful alpha import of XLab lesson 2.1.7 [Optional] Extension: reconstructing--}{++{"author":"Elias's AI","timestamp":1788015733144}@@"Can a verifier tell whether the declared training process really produced the submitted model? Proof-of-learning has been broken more than once, and zero-knowledge training proofs still have thirteen open problems. Spend++} a {--{"author":"Elias's AI","timestamp":1788015733144}@@declared training run."--}{++{"author":"Elias's AI","timestamp":1788015733144}@@limited verification budget and say which claim stays untested."++}
+summary_for_tutor: "Imported from XLab's{--{"author":"Elias's AI","timestamp":1788015733144}@@ canonical--} Verification {--{"author":"Elias's AI","timestamp":1788015733144}@@curriculum. Preserve--}{++{"author":"Elias's AI","timestamp":1788015733144}@@curriculum; preserve++} source framing. {--{"author":"Elias's AI","timestamp":1788015733144}@@XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788015733144}@@Optional technical extension: evidence for reconstructing a declared run, Shavit's decomposition, proof-of-learning and its adversarial breaks, and three claims to keep separate (declared-run correctness, declared-run completeness, fleet completeness). Ends with an optional open question allocating a verification-compute budget across seven checks. Push the learner to state which of the three claims each check addresses and which remains untested."++}
 tags: [wip]
 duration_minutes: 5
 ---
