@@ -13,7 +13,7 @@ This guide has two parts:
 
 ## How to create a learning outcome
 
-1. Read [[Course Authoring]], the course file, the relevant module, and the content that currently teaches or motivates this capability. Read [[../Lenses/Response to question segments]] for question syntax.
+1. Read the course file, the relevant module, and the content that currently teaches or motivates this capability. Read [[../Lenses/Response to question segments]] for question syntax.
 2. Identify a capability that matters outside the assigned reading. Start from what someone should be able to do in real work, advanced study, or sound reasoning. Do not start from a chapter and turn its takeaway into an outcome.
 3. Scope one testable skill. If two capabilities could reasonably be taught, tested, or improved independently, create separate learning-outcome files. A multi-clause statement is fine when every clause is a facet of one capability that stands or falls together.
 4. Write the `learning-outcome:` statement. Use an observable action such as explain, distinguish, identify, compare, analyze, evaluate, apply, produce, decompose, or state. Name the object and the important mechanism, criterion, or boundary. Avoid `understand`, `know`, `appreciate`, `be aware of`, `be familiar with`, and unqualified `reason about`.

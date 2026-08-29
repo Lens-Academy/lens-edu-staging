@@ -223,9 +223,11 @@ We have found a way to turn energy into compute, and compute into intelligence. 
 
 Signed because this statement helps establish common knowledge about the possible need for coordination mechanisms as automated AI research accelerates progress. I’d also like to see labs start designing these mechanisms voluntarily, even before the USG gets involved.
 
-**Signatory**
+**Micah Carroll**, Misalignment Preparedness, OpenAI
 
 At the current pace, every couple of weeks there will be new models which significantly increase the consequences of model misuse and misalignment. I worry that efforts to mitigate these risks may fail to keep up with the pace of development, and that margins for error will become increasingly small under international competitive pressures. In the near future, we may urgently want to enact an internationally coordinated slowdown, or an indefinite ban on AI development. Attempting to build the trust and infrastructure for taking such actions on short notice seems simply prudent – why would we not at least try to have this option? I fear that in an international race to the bottom of AI development, it is likely that no nation will win, and we will all lose together.
+
+Source: [Pacing the Frontier](https://www.pacingthefrontier.com/), signatory comments.
 
 It’s clear that ASI is no longer a hypothetical risk. It will require deliberate and proactive action by labs and governments alike to avoid.
 
@@ -234,7 +236,7 @@ It’s clear that ASI is no longer a hypothetical risk. It will require delibera
 How fast is fast? Two charts from Our World in Data's [brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai) show the pace.
 
 #### Text
-content:: **Interactive exercise:** XLab's `short-history` widget has no direct Lens equivalent yet. Complete it in the [original XLab lesson](https://aisafetytracks.com/tracks/verification/why-verification/introduction). Its surrounding lesson text is preserved here.
+content:: **Interactive charts:** XLab's `short-history` widget is a draggable timeline of notable AI systems (1940 to 2060) and a benchmark chart (data from Kiela et al., 2023), both adapted from Our World in Data. Lens has no chart segment yet. View the originals at [Our World in Data](https://ourworldindata.org/brief-history-of-ai) or in the [XLab lesson](https://aisafetytracks.com/tracks/verification/why-verification/introduction).
 
 #### Text
 content::
