@@ -31,8 +31,9 @@ Identity is a useful anchor for evidence from other mechanisms. It does not esta
 
 Location-verification proposals often use network timing or challenge-response measurements. A verifier sends unpredictable challenges and checks whether response times are consistent with the claimed region. Such protocols may make some forms of remote spoofing costly, but they depend on secure time, protected processing, network conditions, calibration, and a tolerable false-positive rate. Hardware-governance surveys continue to treat robust, scalable location verification as an open research area rather than a fielded treaty capability.
 
-**Src**
-O’Gara et al., *Hardware-Enabled Mechanisms for Verifying Responsible AI Development* — [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025.
+{--{"author":"Elias's AI","timestamp":1788015964085}@@**Src**--}{++{"author":"Elias's AI","timestamp":1788015964085}@@:::callout {title="Source" tone="neutral" collapse="closed"}++}
+O’Gara et al., *Hardware-Enabled Mechanisms for Verifying Responsible AI Development* — [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025.{++{"author":"Elias's AI","timestamp":1788015964085}@@
+:::++}
 
 A location claim should therefore state its resolution and error model. “Inside Country A,” “inside this data center,” and “inside this rack” are different claims.
 

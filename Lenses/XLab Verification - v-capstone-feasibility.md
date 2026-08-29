@@ -28,9 +28,9 @@ feedback:: false
 content::
 \## Four Metrics of Feasibility
 
-“Is this mechanism feasible?” is usually too vague to answer beyond an initial intuition check, like you did in 1.0.2. Feasibility depends on myriad factors, including what the mechanism must verify, whom it must cover, where it would operate, how soon it must be deployed, and what level of performance is required. A serious feasibility assessment should answer four connected questions, which you were introduced to at the beginning of Module 2:
+“Is this mechanism feasible?” is usually too vague to answer beyond an initial intuition check, like you did in {--{"author":"Elias's AI","timestamp":1788015963580}@@1.0.2.--}{++{"author":"Elias's AI","timestamp":1788015963580}@@[[../Lenses/XLab Verification - v-mechanism-effective|2.0]].{>>{"author":"Elias's AI","timestamp":1788015963580}@@MDX says "1.0.2", which does not exist in XLab's curriculum; the intuition check (Place your bets) is the mechanism-sort widget in 2.0. Reported to Elias for XLab.<<}++} Feasibility depends on myriad factors, including what the mechanism must verify, whom it must cover, where it would operate, how soon it must be deployed, and what level of performance is required. A serious feasibility assessment should answer four connected questions, which you were introduced to at the beginning of Module 2:
 
-:::callout {title="Technical feasibility" tone="blue"}
+:::callout {--{"author":"Elias's AI","timestamp":1788015955997}@@{title="Technical feasibility"--}{++{"author":"Elias's AI","timestamp":1788015955997}@@{title="1. Technical Feasibility"++} tone="blue"}
 Can the mechanism be built and operated at the required scale? Examine the maturity of its hardware and software, its error rates, cost, staffing needs, security, dependencies, and performance under realistic conditions. Keep the distinction between a promising component and a complete operational system. The existence of hardware attestation, for example, does not by itself prove that a full training claim can be reliably verified.
 
 **Source:** Shavit (2023), [What does it take to catch a Chinchilla?](https://arxiv.org/abs/2303.11341) (arXiv:2303.11341)
@@ -40,7 +40,7 @@ Can the mechanism be built and operated at the required scale? Examine the matur
 **What you should glean:** The author must chain three subsystems together before the mechanism can operate. Count the parts that exist today and the parts that are only proposals. The firmware, the training log, and the supply-chain monitor are each a separate engineering project, so the full system is far less mature than its most mature part.
 :::
 
-:::callout {title="Political feasibility" tone="purple"}
+:::callout {--{"author":"Elias's AI","timestamp":1788015957858}@@{title="Political feasibility"--}{++{"author":"Elias's AI","timestamp":1788015957858}@@{title="2. Political Feasibility"++} tone="purple"}
 Whose cooperation is required, and how easy is it to get them to agree? A verification system may depend on legislators, regulators, laboratories, cloud providers, chipmakers, standards bodies, inspectors, foreign governments, and/or enforcement agencies. Identify who must authorize, build, operate, provide access, interpret findings, and act on them. Then identify which actor could block implementation, and why: consider the benefits actors might receive, the costs and risks they might bear, and available alternatives.
 
 **Source:** Sheehan (Carnegie, Aug 2024), [China’s Views on AI Safety Are Changing—Quickly](https://carnegieendowment.org/research/2024/08/chinas-views-on-ai-safety-are-changing-quickly)
@@ -50,7 +50,7 @@ Whose cooperation is required, and how easy is it to get them to agree? A verifi
 **What you should glean:** One necessary actor put a new position into its most authoritative document type. This is direct data about political feasibility: a mechanism that needs the agreement of the Chinese government became easier to get in July 2024 than it was in 2023. Track the document type, not only the words, because a Plenum decision binds more actors than an op-ed does.
 :::
 
-:::callout {title="Verification effectiveness" tone="green"}
+:::callout {--{"author":"Elias's AI","timestamp":1788015959506}@@{title="Verification effectiveness"--}{++{"author":"Elias's AI","timestamp":1788015959506}@@{title="3. Verification Effectiveness"++} tone="green"}
 Would the mechanism produce evidence that matters? Ask what claim the evidence would actually support, how direct it is, whether it has been tested against adaptive evasion, and which actors or activities remain outside its coverage. A deployable mechanism may still contribute little to detecting, deterring, or demonstrating compliance.
 
 **Source:** Wasil, Reed, Miller & Barnett (2024), [Verification methods for international AI agreements](https://arxiv.org/abs/2408.16074) (arXiv:2408.16074)
@@ -60,7 +60,7 @@ Would the mechanism produce evidence that matters? Ask what claim the evidence w
 **What you should glean:** The mechanism is fully buildable, but the evidence it produces is weak against an adaptive adversary. A clean inspection report only supports the claim “we found nothing at the declared site on the agreed day.” Ask what claim the evidence supports, not whether the mechanism can run.
 :::
 
-:::callout {title="Durability" tone="amber"}
+:::callout {--{"author":"Elias's AI","timestamp":1788015961330}@@{title="Durability"--}{++{"author":"Elias's AI","timestamp":1788015961330}@@{title="4. Durability"++} tone="amber"}
 Will the verification mechanism persist across technological and geopolitical change, or is it easily rendered obsolete by capability jumps or the decline of a fraught inter-country relationship? A fixed compute threshold is relatively fragile because improvements in algorithms can move dangerous capabilities below the regulated line. Chip-level logging or attestation may be more durable because it is anchored in physical infrastructure with slower turnover. Durability is therefore comparative: even hardware-based mechanisms require updating as chips, supply chains, and evasion strategies change.
 
 **Source:** Hooker (2024), [On the Limitations of Compute Thresholds as a Governance Strategy](https://arxiv.org/html/2407.05694v1) (arXiv:2407.05694)

@@ -87,7 +87,9 @@ The same product can be strong against a remote tenant and weak against an owner
 
 \#### Activity: trust-chain autopsy
 
-Take an attestation token or architecture diagram supplied with this section. Record:
+{++{"author":"Elias's AI","timestamp":1788015961356}@@#### Question: Open
+id:: 3336549c-4a1e-4092-afa1-11a1b6ba5a1a
+content:: ++}Take an attestation token or architecture diagram supplied with this section. Record:
 
 1. The exact claim;
 2. The root or roots of trust;
@@ -97,6 +99,19 @@ Take an attestation token or architecture diagram supplied with this section. Re
 6. The verifier and relying party;
 7. The strongest relevant adversary;
 8. One common-mode failure;
-9. One independent corroborating source.
+9. One independent corroborating source.{++{"author":"Elias's AI","timestamp":1788015961356}@@
+assessment-instructions:: This is an XLab writing or reflection exercise. XLab's source supplies no token or diagram; if the learner has none, point them to NVIDIA's Architecture Overview linked in this lens and let them work from it. Check that all nine items are addressed and that items 2 to 6 name a concrete component or actor rather than "the chip" or "NVIDIA" throughout. Identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
+{>>{"author":"Elias's AI","timestamp":1788015961356}@@The MDX says a token or diagram is "supplied with this section" but nothing is supplied in XLab's repo; reported to Elias as an XLab source gap.<<}++}
 
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-trusted-statement)*
+{--{"author":"Elias's AI","timestamp":1788015961356}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-trusted-statement)*--}{++{"author":"Elias's AI","timestamp":1788015961356}@@#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Birkholz, Henk, et al. "Remote ATtestation ProcedureS (RATS) Architecture." *RFC 9334*, RFC Editor, Jan. 2023. [rfc-editor.org](https://www.rfc-editor.org/rfc/rfc9334.html)
+*The IETF architecture for remote attestation: the standard vocabulary of attesters, verifiers, and relying parties the hardware lessons use.*
+
+NVIDIA Corporation. "Architecture Overview." *NVIDIA Attestation Suite Documentation*, NVIDIA. [docs.nvidia.com](https://docs.nvidia.com/attestation/quick-start-guide/latest/architecture.html)
+*NVIDIA's documentation of its attestation architecture: how clients, cloud services, and GPU hardware form a verifiable chain of trust.*
+
+XLab. "2.1.2 From a chip to a trusted statement." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-trusted-statement)
+*The source lesson this page adapts. The Blackwell and Hopper multi-GPU attestation examples are cited inline above.*
+:::++}
