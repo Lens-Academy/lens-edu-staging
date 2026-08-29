@@ -1,9 +1,10 @@
 ---
 id: '102d18da-1125-432c-ad12-e01cb88dcdb1'
 title: "4.0 Putting it All Together"
-tldr: "Faithful alpha import of XLab lesson 4.0 Putting it All Together."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
-tags: [wip]
+tldr: {--{"author":"Elias's AI","timestamp":1788015708820}@@"Faithful alpha import of XLab lesson 4.0 Putting it All Together."--}{++{"author":"Elias's AI","timestamp":1788015708820}@@"No one has built the verification paradigm yet, so this module hands you the toolbox and asks you to build it: learn to judge any mechanism's feasibility, then design and defend a layered regime as your capstone."++}
+summary_for_tutor: "Imported from XLab's {--{"author":"Elias's AI","timestamp":1788015708820}@@canonical --}Verification {--{"author":"Elias's AI","timestamp":1788015708820}@@curriculum. Preserve--}{++{"author":"Elias's AI","timestamp":1788015708820}@@curriculum; preserve++} source framing. {--{"author":"Elias's AI","timestamp":1788015708820}@@XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788015708820}@@A short module opener: three paragraphs of framing (the learner will scaffold their own verification regime; 4.1 teaches feasibility assessment, 4.2 is the capstone from a project bank) followed by the module objectives in a callout. No questions. If the learner asks what to do, point them forward to 4.1 and the capstone bank in 4.2."++}
+tags: [wip]{++{"author":"Elias's AI","timestamp":1788015708820}@@
+duration_minutes: 5++}
 ---
 #### Text
 content::
