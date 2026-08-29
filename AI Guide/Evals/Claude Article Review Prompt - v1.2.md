@@ -42,5 +42,5 @@ This is review pass 1 of 3. When finished, respond with exactly one of:
 PASS
 REJECT: concise reason
 
-Use PASS only after article.md is complete and source-faithful. Large or extensive repairs are never a reason to reject. Use REJECT only when the source is inaccessible or not an article, substantive content is unavailable, or article boundaries cannot be determined without guessing.
+Use PASS only after article.md is complete and source-faithful. Large or extensive repairs are never a reason to reject. Use REJECT only when the source is inaccessible or not an article, substantive content is unavailable, or article boundaries cannot be reasonably determined.
 ```
