@@ -47,6 +47,6 @@ What would be enough for three-month emergency pause? Module combines feasibilit
 
 \## How to use this version
 
-Read modules in order because later work builds on earlier actor, policy, and evidence models. Writing exercises can be completed directly in Lens. When page marks interactive import gap, use linked XLab activity, then return here to continue.
+Read modules in order because later work builds on earlier actor, policy, and evidence models. {--{"author":"Elias's AI","timestamp":1788009468067}@@Writing exercises can be--}{++{"author":"Elias's AI","timestamp":1788009468067}@@Exercises are++} completed directly in {--{"author":"Elias's AI","timestamp":1788009468067}@@Lens. When page marks interactive--}{++{"author":"Elias's AI","timestamp":1788009468067}@@Lens.{>>{"author":"Elias's AI","timestamp":1788009468067}@@Proposed: Module 0 no longer has++} import {--{"author":"Elias's AI","timestamp":1788009468067}@@gap, use linked XLab activity, then return here--}{++{"author":"Elias's AI","timestamp":1788009468067}@@gaps; the XLab link at the top of this lens already points to the original. Modules 1++} to {--{"author":"Elias's AI","timestamp":1788009468067}@@continue.
 
-Original course overview and current curriculum remain available at [aisafetytracks.com/tracks/verification](https://aisafetytracks.com/tracks/verification).
+Original course overview and current curriculum remain available at [aisafetytracks.com/tracks/verification](https://aisafetytracks.com/tracks/verification).--}{++{"author":"Elias's AI","timestamp":1788009468067}@@4 still have gap notes, so keep the first sentence until those are converted.<<}++}
