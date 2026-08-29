@@ -172,9 +172,11 @@ Sources: [Machines of Loving Grace](https://darioamodei.com/essay/machines-of-lo
 
 *Relevance to this module.* His policy proposals are institutional: a CERN-style body for shared safety research and an IAEA-style agency to monitor high-risk projects. The IAEA is the nuclear world's verification agency, so the proposal amounts to a request for the infrastructure this course studies.
 
-Sources: [Davos 2026 transcript](https://aletteraday.substack.com/p/letters-314315-demis-hassabis-and), [Axios AI+ interview](https://vocal.media/journal/demis-hassabis-warns-about-ai-the-risk-of-a-catastrophic-scenario-is-not-zero).
+Sources: [Davos 2026 transcript](https://aletteraday.substack.com/p/letters-314315-demis-hassabis-and), [Axios AI+ interview](https://vocal.media/journal/demis-hassabis-warns-about-ai-the-risk-of-a-catastrophic-scenario-is-not-zero).{++{"author":"Elias's AI","timestamp":1788013668356}@@
+:::++}
 
-**Shane Legg**, Chief AGI Scientist, Google DeepMind. *Coined the term AGI in 2001; has maintained a median forecast near 2028 since 2011.*
+{--{"author":"Elias's AI","timestamp":1788013668356}@@**Shane Legg**,--}{++{"author":"Elias's AI","timestamp":1788013668356}@@:::callout {title="Shane Legg,++} Chief AGI Scientist, Google {--{"author":"Elias's AI","timestamp":1788013668356}@@DeepMind. --}{++{"author":"Elias's AI","timestamp":1788013668356}@@DeepMind" tone="neutral" collapse="closed"}
+++}*Coined the term AGI in 2001; has maintained a median forecast near 2028 since 2011.*
 
 *The term.* Legg proposed the phrase "artificial general intelligence" around 2001, at a time when the idea sat well outside mainstream research. His forecasts have been unusually stable since: a public median estimate near 2028, held since at least 2011. His 2008 doctoral thesis, *Machine Super Intelligence*, argued that a machine above human level could design still more capable machines, and that methods for managing that dynamic did not exist.
 
@@ -182,9 +184,11 @@ Sources: [Davos 2026 transcript](https://aletteraday.substack.com/p/letters-3143
 
 *Relevance to this module.* Legg's two-decade position is that capability has outpaced control. Verification does not resolve that problem; it addresses a narrower one, giving outside parties visibility into who is approaching dangerous capability levels while the control problem remains open.
 
-Sources: [MIT Technology Review](https://www.technologyreview.com/2025/10/30/1127057/agi-conspiracy-theory-artifcial-general-intelligence/), [Fortune](https://fortune.com/2025/04/04/google-deeepmind-agi-ai-2030-risk-destroy-humanity/).
+Sources: [MIT Technology Review](https://www.technologyreview.com/2025/10/30/1127057/agi-conspiracy-theory-artifcial-general-intelligence/), [Fortune](https://fortune.com/2025/04/04/google-deeepmind-agi-ai-2030-risk-destroy-humanity/).{++{"author":"Elias's AI","timestamp":1788013671295}@@
+:::++}
 
-**Ilya Sutskever**, Co-founder, OpenAI; Founder, SSI. *Central to the current technical paradigm; now leads a lab founded solely to build superintelligence safely.*
+{--{"author":"Elias's AI","timestamp":1788013671295}@@**Ilya Sutskever**,--}{++{"author":"Elias's AI","timestamp":1788013671295}@@:::callout {title="Ilya Sutskever,++} Co-founder, OpenAI; Founder, {--{"author":"Elias's AI","timestamp":1788013671295}@@SSI. --}{++{"author":"Elias's AI","timestamp":1788013671295}@@SSI" tone="neutral" collapse="closed"}
+++}*Central to the current technical paradigm; now leads a lab founded solely to build superintelligence safely.*
 
 *Definition.* Sutskever's objection to the standard definition is that it overshoots: "a human being is not an AGI". Humans do not arrive knowing every task; they learn. His model of superintelligence follows from that. Not a complete, all-knowing system, but one that can learn any job quickly, which he has described as "a superintelligent 15-year-old" whose competence develops through deployment.
 
@@ -192,9 +196,11 @@ Sources: [MIT Technology Review](https://www.technologyreview.com/2025/10/30/112
 
 *Relevance to this module.* If capabilities emerge during deployment rather than before release, there is no clean pre-release point at which a system can be inspected. This measurement problem is part of why current policy relies on compute thresholds, which can be assessed in advance, rather than capability evaluations (see [[../Lenses/XLab Verification - v-scoping-thresholds|1.0.1 Drawing the Line: Compute vs. Capability]]).
 
-Sources: [Dwarkesh Podcast](https://www.dwarkesh.com/p/ilya-sutskever-2), [The Decoder](https://the-decoder.com/ilya-sutskever-says-a-new-learning-paradigm-is-necessary-and-is-already-chasing-it/), [MIT Technology Review](https://www.technologyreview.com/2025/10/30/1127057/agi-conspiracy-theory-artifcial-general-intelligence/).
+Sources: [Dwarkesh Podcast](https://www.dwarkesh.com/p/ilya-sutskever-2), [The Decoder](https://the-decoder.com/ilya-sutskever-says-a-new-learning-paradigm-is-necessary-and-is-already-chasing-it/), [MIT Technology Review](https://www.technologyreview.com/2025/10/30/1127057/agi-conspiracy-theory-artifcial-general-intelligence/).{++{"author":"Elias's AI","timestamp":1788013673949}@@
+:::++}
 
-**Jan Leike**, former co-lead, Superalignment, OpenAI; now Anthropic. *Co-led OpenAI's superalignment effort; resigned in 2024 over resourcing and priorities.*
+{--{"author":"Elias's AI","timestamp":1788013673949}@@**Jan Leike**,--}{++{"author":"Elias's AI","timestamp":1788013673949}@@:::callout {title="Jan Leike,++} former co-lead, Superalignment, OpenAI; now {--{"author":"Elias's AI","timestamp":1788013673949}@@Anthropic. --}{++{"author":"Elias's AI","timestamp":1788013673949}@@Anthropic" tone="neutral" collapse="closed"}
+++}*Co-led OpenAI's superalignment effort; resigned in 2024 over resourcing and priorities.*
 
 *Background.* Leike co-led OpenAI's superalignment team with Sutskever. Its mandate was to solve the control problem for smarter-than-human systems within four years, supported by a public commitment of 20 percent of the company's compute. He resigned less than a year later, writing that the team had struggled to obtain the promised resources, that building smarter-than-human machines is "an inherently dangerous endeavor", and that safety work had taken "a backseat to shiny products". The team was dissolved shortly after his departure. He continued the same research agenda at Anthropic.
 
