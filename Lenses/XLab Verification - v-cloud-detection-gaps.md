@@ -40,6 +40,29 @@ Read these parts in the original article:
 - In **The Case Against Cloud Controls**, begin with “Some analysts also contend that cloud restrictions risk pushing users in third-party countries toward China’s competing AI stack” and read to the end of the section.
 - **Cloud Controls Must Contend With “Who” and “What” They Restrict** in full.
 
-Extract the decisions the technical readings do not settle: which users and activities are covered, who bears the compliance burden, how evasion shifts across jurisdictions, and what over-broad coverage costs.
+Extract the decisions the technical readings do not settle: which users and activities are covered, who bears the compliance burden, how evasion shifts across jurisdictions, and what over-broad coverage costs.{++{"author":"Elias's AI","timestamp":1788016201186}@@
+{>>{"author":"Elias's AI","timestamp":1788016201186}@@The Carnegie article is already imported as articles/tan-the-geopolitical-debates-over-controlling-cloud-compute, so the three assigned sections are inlined below. The RAND report is not: the stored articles/moon-... file holds only the rand.org landing page (key takeaways, recommendations), not the report text, so that reading card stays a link.<<}
 
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-detection-gaps)*
+#### Article
+source:: [[../articles/tan-the-geopolitical-debates-over-controlling-cloud-compute]]
+from:: ### What Do Cloud Controls Attempt to Solve?
+to:: Restricting only rentals to foreign data centers would naturally encourage Chinese firms to consider pivoting toward the other loophole—renting cloud compute directly from U.S.-based data centers.
+
+#### Article
+source:: [[../articles/tan-the-geopolitical-debates-over-controlling-cloud-compute]]
+from:: Some analysts also [contend](https://carnegieendowment.org/research/2024/12/ai-artificial-intelligence-export-united-states) that cloud restrictions risk pushing users in third-party countries toward China’s competing AI stack.
+to:: policymakers will need to weigh the net security benefits of cloud controls against the diplomatic costs of unilaterally extending U.S. regulatory reach into an inherently transnational service.
+
+#### Article
+source:: [[../articles/tan-the-geopolitical-debates-over-controlling-cloud-compute]]
+from:: ### Cloud Controls Must Contend With “Who” and “What” They Restrict
+to:: Whatever the answers may be, Washington will play an important role in determining the future of U.S.-China AI competition.++}
+
+{--{"author":"Elias's AI","timestamp":1788016201186}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-detection-gaps)*--}{++{"author":"Elias's AI","timestamp":1788016201186}@@#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Both readings, Moon et al. (2025) for RAND and Tan (2026) for Carnegie, are cited inline above with their links.
+
+XLab. "2.2.3 Detection gaps and policy limits." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-detection-gaps)
+*The source lesson this page adapts.*
+:::++}
