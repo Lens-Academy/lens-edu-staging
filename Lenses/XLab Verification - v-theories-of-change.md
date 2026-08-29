@@ -69,8 +69,22 @@ A common failure mode is conflating **outputs** with **outcomes**. Outputs are t
 
 Now that you’ve seen some exemplary examples of robust theories of change, try building your own! Pick your favorite AI safety organization: Epoch, MIRI, The Midas Project, etc.—and fill out the below table based on publicly available information, reports, and testimonials.
 
-#### Text
-content:: **Interactive exercise:** XLab's `theories-of-change` widget has no direct Lens equivalent yet. Complete it in the [original XLab lesson](https://aisafetytracks.com/tracks/verification/why-verification/theories-of-change). Its surrounding lesson text is preserved here.
+#### Question: Open
+id:: dc502432-39f8-4a75-99ff-e43532b1ed5d
+content:: [Optional] Name your organization, then fill in each of the eight boxes of its theory of change:
+
+1. **Inputs / What do we need?** (resources, people)
+2. **Outputs / What do we do?** (activities)
+3. **Outputs / Who do we reach?** (new audience, collaborators)
+4. **Outcome / Short-term** (knowledge increased)
+5. **Outcome / Intermediate** (behavior changed, decision-making done)
+6. **Outcome / Long-term** (conditions changed)
+7. **Assumptions** (internal / testable)
+8. **External factors** (external / undefined)
+placeholder:: Organization: ... 1. Inputs: ... 2. Activities: ...
+optional:: true
+assessment-instructions:: Check that all eight boxes are filled for a named organization, that outcomes describe what changed in the world rather than products produced (outputs vs outcomes distinction), and that assumptions are stated as testable if-then links. Score by completeness and by whether each box holds the right kind of content.
+feedback-instructions:: Point out any box where an output was written as an outcome, and any link in the chain that is not an if-then claim. One useful follow-up question. No generic praise.
 
 #### Text
 content::
