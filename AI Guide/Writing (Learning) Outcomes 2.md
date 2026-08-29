@@ -4,7 +4,7 @@ tags:
 ---
 # Writing Learning Outcomes 2 (AI Guide)
 
-A learning-outcome file defines one real-world learner capability by into a statement, a test, a grading brief, and optional suggestions for teaching it. It lives in `Lens Edu/Learning Outcomes/` and is imported into a module.
+A learning-outcome file defines one real-world learner capability by combining a statement, a test, a grading brief, and optional suggestions for teaching it. It lives in `Lens Edu/Learning Outcomes/` and is imported into a module.
 
 This guide has two parts:
 
