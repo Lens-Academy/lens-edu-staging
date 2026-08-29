@@ -130,7 +130,25 @@ For each component, identify the problem it solves. Then explain why removing an
 Your answer should show the division of labour among the three instruments, rather than merely describe how each instrument operates.
 optional:: true
 assessment-instructions:: Model answer. Chip-level logging creates a durable trace of which computations a chip took part in; without it, registered chips are used for a prohibited run that leaves no verifiable record. Log inspection and analysis turns the chips' records into a determination (whether a rules-violating run took place) from a sufficient sample; without it, logs accumulate but no one converts them into a detection. Supply-chain monitoring secures the completeness of the chip inventory from which the inspection sample is drawn; without it, a violator acquires unregistered chips that never enter the sample. The components are not interchangeable: a log nobody inspects detects nothing; an inspection with no attested log has nothing trustworthy to examine; both are useless against chips whose existence the verifier does not know of. Full credit requires a distinct evasion route per missing component, not just descriptions of each instrument.
-feedback-instructions:: Name any component whose evasion route was missing or duplicated another's. Then note: Baker independently supports the need for persistent chip records and complete chip accountancy. No generic praise.
+feedback-instructions:: Name any component whose evasion route was missing or duplicated another's. Then note: Baker independently supports the need for persistent chip records and complete chip accountancy. No generic praise.{++{"author":"Elias's AI","timestamp":1788013853452}@@
+
+#### Text
+content::
+:::callout {title="Task 2: model answer (open after you have answered)" tone="neutral" collapse="closed"}
+| Instrument | Problem it solves | Evasion if it is absent |
+|---|---|---|
+| Chip-level logging | Creates a durable trace of which computations a chip took part in | Registered chips are used for a prohibited run that leaves no verifiable record afterwards |
+| Log inspection and analysis | Turns the chips' records into a determination, whether a rules-violating run took place, from a sufficient sample | Logs accumulate but are never examined, so a violation leaves a record that no one converts into a detection |
+| Supply-chain monitoring | Secures the completeness of the chip inventory from which the inspection sample is drawn | A violator acquires unregistered chips that never enter the sample |
+
+The components are not interchangeable:
+
+- a log nobody inspects detects nothing;
+- an inspection with no attested log has nothing trustworthy to examine;
+- both are useless against chips whose existence the verifier does not know of.
+
+Baker independently supports the need for persistent chip records and complete chip accountancy.
+:::++}
 
 #### Question: Open
 id:: 361b5dfb-7542-47c2-8b20-ef80bc622435
