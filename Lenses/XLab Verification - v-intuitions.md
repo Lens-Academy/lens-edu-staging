@@ -67,7 +67,8 @@ content::
 
 \## A2. Identify the regime's weakest link(s)
 
-#### Question
+#### Question: Open
+id:: 8c3cd334-f50c-40ec-bcea-3ee0d83db3a9
 content:: Now that you have a good grasp on your ideas of the Verification Plan's strengths, let's turn to identifying its weak points. Identify at least one mechanism, assumption, or implementation step in Plan A that you think is especially vulnerable to failure. Explain why the weakness matters for the regime as a whole. This is arguably the most central prompt: only by red-teaming and finding vulnerabilities can a regime patch its holes.
 
 Questions to consider:
@@ -85,7 +86,8 @@ content::
 
 \## A3. Stress-test the timeline
 
-#### Question
+#### Question: Open
+id:: 5e944a29-5989-48b0-bf4a-a4998a0eaa25
 content:: Choose the timeline milestone that seems least likely to accomplish on schedule. Then, look closely at the implementation sequence in 2029: chip declarations and inspections, datacenter retrofits, and the expansion of verification coverage across the world's major compute.
 
 In your rationale, you might compare the proposal with an arms-control inspection regime, a large industrial mobilization, an export-control system, or another suitable verification parallel. For inspiration, you may use outside resources or click ahead to learn more about historical verification precedents in [[../Lenses/XLab Verification - v-precedents|Module 0.3]].
@@ -99,7 +101,8 @@ content::
 
 \## A4. Assess the covert-compute margin
 
-#### Question
+#### Question: Open
+id:: e9e4eaa9-198a-4031-a923-eba27efa51ae
 content:: The supplement estimates that some compute may remain hidden even after declarations and inspections, initially on the order of 0.5% of world AI-relevant compute. Your task is to decide how important that residual capacity is, and argue for whether the benign capacity threshold should be increased, decreased, or kept the same.
 
 Questions to consider:
@@ -122,10 +125,16 @@ You have now approached the AI 2040 Verification Supplement from four angles: it
 
 Now imagine Plan A is moving from scenario to serious policy proposal. Decision-makers are asking whether its verification regime is strong enough to rely on as written, or whether it needs major changes before anyone should build an agreement around it. They have asked you for an assessment.
 
-#### Text
-content:: **Import gap:** XLab VerdictSelect component has no clean Lens equivalent. Use the [original XLab lesson](https://aisafetytracks.com/tracks/verification/why-verification/building-intuitions) for this element.
+#### Question: Choice
+id:: 2bedfce0-14ef-4703-b810-2b7bf107ebdf
+content:: Your recommendation on Plan A's verification regime:
+options::
+- Adopt the verification approach largely as written
+- Adopt it only with significant amendments
+- Reject it in favor of a different approach
 
-#### Question
+#### Question: Open
+id:: 9eb1875a-84ab-459d-b2bb-1585ee3b23aa
 content:: Consider your strongest arguments and their strongest objections. Synthesize ideas from your earlier responses into a short essay answering: How robust is Plan A's verification regime, and where is it most likely to fail?
 
 At the end, briefly justify the recommendation you selected above.
