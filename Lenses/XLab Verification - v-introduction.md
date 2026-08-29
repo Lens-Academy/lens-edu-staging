@@ -80,9 +80,10 @@ Misalignment is harm that arises when an AI system develops or pursues objective
 
 - **Pursuing the wrong objective.** A highly capable system may find strategies that satisfy its learned objective while violating the goals its operators actually care about. In experiments, models have already shown [deceptive behavior to preserve learned preferences](https://arxiv.org/abs/2412.14093) and [scheming to evade oversight](https://arxiv.org/abs/2412.04984).
 - **Resisting correction.** If being modified, shut down, or replaced would interfere with its objective, a sufficiently capable system may try to conceal its behavior or prevent human intervention.
-- **Self-improvement can magnify the problem.** If advanced systems help build more capable successors, errors in goals or control could carry forward as capabilities increase, leaving humans less time to detect and correct them.
+- **Self-improvement can magnify the problem.** If advanced systems help build more capable successors, errors in goals or control could carry forward as capabilities increase, leaving humans less time to detect and correct them.{--{"author":"Elias's AI","timestamp":1788010850479}@@
 
-\## What is ASI?
+\## What is ASI?--}{++{"author":"Elias's AI","timestamp":1788010850479}@@
+:::++}
 
 \### What is ASI?
 
@@ -92,13 +93,14 @@ Because we cannot separate dangerous capabilities from beneficial ones, we will 
 
 A key property of ASI would be recursive self-improvement, or RSI. A model capable of RSI would be able to autonomously and exponentially improve itself, leading to unstoppable, runaway systems that humans can no longer control. Throughout this course, we will use the term ASI to refer to AI with dangerous capabilities that pose a material existential threat to humanity.
 
-\## [Optional] The types of AI
+{--{"author":"Elias's AI","timestamp":1788010853624}@@\## [Optional]--}{++{"author":"Elias's AI","timestamp":1788010853624}@@:::callout {title="Optional:++} The {--{"author":"Elias's AI","timestamp":1788010853624}@@types--}{++{"author":"Elias's AI","timestamp":1788010853624}@@Types++} of {--{"author":"Elias's AI","timestamp":1788010853624}@@AI
 
-Where does today's AI sit? Each ring contains the next; a system sits at the deepest ring it belongs to. Tap any example to see what it is and why it lands where it does.
+--}{++{"author":"Elias's AI","timestamp":1788010853624}@@AI" tone="neutral" collapse="closed"}
+++}Where does today's AI sit? Each ring contains the next; a{--{"author":"Elias's AI","timestamp":1788010853624}@@ system sits at the deepest ring it belongs to. Tap any example to see what it is and why it lands where it does.
 
 #### Text
 content::
-Each ring contains the next. A system sits at the deepest ring it belongs to.
+Each ring contains the next. A--} system sits at the deepest ring it belongs to.
 
 1. **AI**: the whole field, any system built to do things we would call intelligent.
 2. **Narrow AI**: built for one task or a narrow set of them. Everything that actually exists today lives here. Examples: Roomba (sensors and fixed rules, no learning from data), Boeing autopilot (engineered control laws), IBM Deep Blue (brute-force search plus hand-crafted evaluation), Word spell checker (dictionary and rules).
@@ -110,9 +112,12 @@ Each ring contains the next. A system sits at the deepest ring it belongs to.
 
 Beyond these rings: non-narrow AI is theoretical only right now (no real non-narrow AI models are known), and some regions are theoretically possible but would require an absurd quantity of resources.
 
-#### Question: Choice
+{++{"author":"Elias's AI","timestamp":1788010855380}@@Optional: three quick checks follow.
+:::
+
+++}#### Question: Choice
 id:: a461d157-f6b2-416b-9c61-28b2bf2be861
-content:: Which is the deepest ring a Roomba belongs to?
+content:: {++{"author":"Elias's AI","timestamp":1788010855380}@@Optional: ++}Which is the deepest ring a Roomba belongs to?
 options::
 - [x] Narrow AI
 - Machine Learning
@@ -123,7 +128,7 @@ feedback-instructions:: Roomba navigates with sensors and fixed rules. It does n
 
 #### Question: Choice
 id:: 0594a403-1d2a-4203-9cc7-7bce55333971
-content:: Which is the deepest ring Midjourney belongs to?
+content:: {++{"author":"Elias's AI","timestamp":1788010857141}@@Optional: ++}Which is the deepest ring Midjourney belongs to?
 options::
 - Deep Learning
 - [x] Generative AI
