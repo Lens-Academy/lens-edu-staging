@@ -26,8 +26,9 @@ Possible evidence includes:
 
 Yonadav Shavit’s 2023 compute-monitoring proposal decomposed a possible system into on-chip weight snapshots, records intended to support later verification of training, and supply-chain monitoring intended to prevent accumulation of untracked chips. This decomposition remains useful because it separates verification of a declared run from completeness of the fleet.
 
-**Src**
-Y. Shavit, *What Does It Take to Catch a Chinchilla? Verifying Rules on Large-Scale Neural Network Training via Compute Monitoring* — [arXiv:2303.11341](https://arxiv.org/abs/2303.11341), 2023.
+{--{"author":"Elias's AI","timestamp":1788016031740}@@**Src**--}{++{"author":"Elias's AI","timestamp":1788016031740}@@:::callout {title="Source" tone="neutral" collapse="closed"}++}
+Y. Shavit, *What Does It Take to Catch a Chinchilla? Verifying Rules on Large-Scale Neural Network Training via Compute Monitoring* — [arXiv:2303.11341](https://arxiv.org/abs/2303.11341), 2023.{++{"author":"Elias's AI","timestamp":1788016031740}@@
+:::++}
 
 Proof-of-learning research shows both the promise and fragility of checkpoint-based verification. Jia and colleagues proposed proofs based on logged intermediate states. Subsequent work demonstrated adversarial constructions and serious weaknesses in the original approach. Choi, Shavit, and Duvenaud later proposed a broader toolkit for verifying claims about training data, while explicitly treating its tests as heuristic and noting substantial confidentiality and access assumptions.
 
