@@ -1,8 +1,8 @@
 ---
 id: '3eadac2f-e82d-478a-9c1e-0b5a6136c211'
 title: "2.2.2 Customer identification and ongoing monitoring"
-tldr: {--{"author":"Elias's AI","timestamp":1788016126059}@@"Faithful alpha import of XLab lesson 2.2.2 Customer identification--}{++{"author":"Elias's AI","timestamp":1788016126059}@@"Banks learned the hard way that you must know who you are dealing with, and that customers split transactions to stay under reporting limits. Egan++} and {--{"author":"Elias's AI","timestamp":1788016126059}@@ongoing monitoring."--}{++{"author":"Elias's AI","timestamp":1788016126059}@@Heim port that playbook to compute providers: who gets identified, what is monitored after sign-up, and how a customer could split a job to stay under the threshold."++}
-summary_for_tutor: {--{"author":"Elias's AI","timestamp":1788016126059}@@"Imported--}{++{"author":"Elias's AI","timestamp":1788016126059}@@"Reading lens adapted++} from {--{"author":"Elias's AI","timestamp":1788016126059}@@XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788016126059}@@XLab lesson 2.2.2. Egan and Heim (2023), Oversight for Frontier AI through a Know-Your-Customer Scheme for Compute Providers, inlined as article excerpts: the opening of section 2, selected parts of Box 3 (financial-sector KYC obligations and implementation lessons), section 2.1, the opening of section 2.2 with Box 4, and sections 2.2.1 and 2.2.2. No questions in this lens. If the learner asks, help them connect the pieces: the compute threshold, customer identification, beneficial ownership, ongoing monitoring, reporting of high-risk profiles, and the two evasion routes (structuring and shell companies). Ends with a Works cited callout."++}
+tldr: "Banks learned the hard way that you must know who you are dealing with, and that customers split transactions to stay under reporting limits. Egan and Heim port that playbook to compute providers: who gets identified, what is monitored after sign-up, and how a customer could split a job to stay under the threshold."
+summary_for_tutor: "Reading lens adapted from XLab lesson 2.2.2. Egan and Heim (2023), Oversight for Frontier AI through a Know-Your-Customer Scheme for Compute Providers, inlined as article excerpts: the opening of section 2, selected parts of Box 3 (financial-sector KYC obligations and implementation lessons), section 2.1, the opening of section 2.2 with Box 4, and sections 2.2.1 and 2.2.2. No questions in this lens. If the learner asks, help them connect the pieces: the compute threshold, customer identification, beneficial ownership, ongoing monitoring, reporting of high-risk profiles, and the two evasion routes (structuring and shell companies). Ends with a Works cited callout."
 tags: [wip]
 duration_minutes: 22
 ---
@@ -18,41 +18,35 @@ connect customer identity, ongoing monitoring, reporting, and access decisions.
 
 *Source: Janet Egan and Lennart Heim (2023), [original](https://arxiv.org/abs/2310.13625)*
 
-The opening passage, selected parts of Box 3, complete §2.1, the opening of §2.2, and §§2.2.1–2.2.2 are reproduced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).{--{"author":"Elias's AI","timestamp":1788016129753}@@
+The opening passage, selected parts of Box 3, complete §2.1, the opening of §2.2, and §§2.2.1–2.2.2 are reproduced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-
-#### Article
-source:: [[../articles/egan-oversight-for-frontier-ai-through-a-know-your-customer-scheme-for-compute-providers]]
-from:: ###### Abstract
-to:: To address security and safety risks stemming from highly capable artificial intelligence (AI) models, we propose that the US government should ensure compute providers implement --}{++{"author":"Elias's AI","timestamp":1788016129753}@@
-
-\### [Oversight for Frontier AI through a ++}Know-Your-Customer {--{"author":"Elias's AI","timestamp":1788016129753}@@(KYC) schemes.--}{++{"author":"Elias's AI","timestamp":1788016129753}@@Scheme for++} Compute{--{"author":"Elias's AI","timestamp":1788016129753}@@ – the computational power and infrastructure required to train--}{++{"author":"Elias's AI","timestamp":1788016129753}@@ Providers](https://arxiv.org/abs/2310.13625)
+\### [Oversight for Frontier AI through a Know-Your-Customer Scheme for Compute Providers](https://arxiv.org/abs/2310.13625)
 *opening of §2*
-Egan++} and {--{"author":"Elias's AI","timestamp":1788016129753}@@run these AI models – is emerging as a node for oversight. KYC, a standard developed by--}{++{"author":"Elias's AI","timestamp":1788016129753}@@Heim (2023) | CC BY 4.0
-{>>{"author":"Elias's AI","timestamp":1788016129753}@@The abstract excerpt that was here is not part of++} the{--{"author":"Elias's AI","timestamp":1788016129753}@@ banking sector to identify and verify client identity, could provide a mechanism for greater public oversight--}{++{"author":"Elias's AI","timestamp":1788016129753}@@ XLab lesson. XLab quotes the opening++} of{--{"author":"Elias's AI","timestamp":1788016129753}@@ frontier AI development and close loopholes in existing export controls. Such a scheme has the potential to identify--}{++{"author":"Elias's AI","timestamp":1788016129753}@@ section 2++} and {--{"author":"Elias's AI","timestamp":1788016129753}@@warn stakeholders--}{++{"author":"Elias's AI","timestamp":1788016129753}@@selected parts++} of {--{"author":"Elias's AI","timestamp":1788016129753}@@potentially problematic and/or sudden advancements in AI capabilities, build--}{++{"author":"Elias's AI","timestamp":1788016129753}@@Box 3 instead; replaced accordingly.<<}
+Egan and Heim (2023) | CC BY 4.0
+{>>{"author":"Elias's AI","timestamp":1788016129753}@@The abstract excerpt that was here is not part of the XLab lesson. XLab quotes the opening of section 2 and selected parts of Box 3 instead; replaced accordingly.<<}
 
 #### Article
 source:: [[../articles/egan-oversight-for-frontier-ai-through-a-know-your-customer-scheme-for-compute-providers]]
-from:: The US++} government{--{"author":"Elias's AI","timestamp":1788016129753}@@ capacity for AI regulation, and allow for the development and implementation of more nuanced and targeted export controls. Unlike the strategy of limiting access to--}{++{"author":"Elias's AI","timestamp":1788016129753}@@ should introduce a KYC scheme that ensures adequate monitoring for advanced++} AI{--{"author":"Elias's AI","timestamp":1788016129753}@@ chip purchases, regulating the _digital access_ to --}{++{"author":"Elias's AI","timestamp":1788016129753}@@ cloud ++}compute{--{"author":"Elias's AI","timestamp":1788016129753}@@ offers more precise controls, allowing regulatory control over compute quantities, as well as--}{++{"author":"Elias's AI","timestamp":1788016129753}@@
-to:: The history of++} the {--{"author":"Elias's AI","timestamp":1788016129753}@@flexibility to suspend access at any time. To enact a --}{++{"author":"Elias's AI","timestamp":1788016129753}@@implementation of ++}KYC {--{"author":"Elias's AI","timestamp":1788016129753}@@scheme,--}{++{"author":"Elias's AI","timestamp":1788016129753}@@in++} the {--{"author":"Elias's AI","timestamp":1788016129753}@@US government will need to work closely with industry to (1) establish a dynamic threshold of compute that effectively captures high-risk frontier model development, while minimizing imposition on developers not engaged--}{++{"author":"Elias's AI","timestamp":1788016129753}@@financial sector could provide useful lessons for scheme design (Box 3).
+from:: The US government should introduce a KYC scheme that ensures adequate monitoring for advanced AI cloud compute
+to:: The history of the implementation of KYC in the financial sector could provide useful lessons for scheme design (Box 3).
 
 #### Text
 content::
-\### Box 3: Learning from KYC++} in {--{"author":"Elias's AI","timestamp":1788016129753}@@frontier AI; (2) set clear--}{++{"author":"Elias's AI","timestamp":1788016129753}@@the financial sector — selected++} requirements and {--{"author":"Elias's AI","timestamp":1788016129753}@@guidance for compute providers to keep records and report high-risk entities; (3) establish government capacity that allows--}{++{"author":"Elias's AI","timestamp":1788016129753}@@implementation lessons
+\### Box 3: Learning from KYC in the financial sector — selected requirements and implementation lessons
 
 #### Article
 source:: [[../articles/egan-oversight-for-frontier-ai-through-a-know-your-customer-scheme-for-compute-providers]]
-from:: This legislation creates obligations++} for {--{"author":"Elias's AI","timestamp":1788016129753}@@co-design, implementation, administration and enforcement of the scheme; and (4) engage internationally--}{++{"author":"Elias's AI","timestamp":1788016129753}@@financial institutions to:
-to:: report suspicious activity++} to {--{"author":"Elias's AI","timestamp":1788016129753}@@promote international alignment with the scheme--}{++{"author":"Elias's AI","timestamp":1788016129753}@@the US government.[^note-11]
+from:: This legislation creates obligations for financial institutions to:
+to:: report suspicious activity to the US government.[^note-11]
 
 #### Article
 source:: [[../articles/egan-oversight-for-frontier-ai-through-a-know-your-customer-scheme-for-compute-providers]]
-from:: _Implementation: obstacles++} and {--{"author":"Elias's AI","timestamp":1788016129753}@@support its long-term efficacy. While--}{++{"author":"Elias's AI","timestamp":1788016129753}@@adjustments_
-to:: Amendments made through++} the{--{"author":"Elias's AI","timestamp":1788016129753}@@ scheme will not address all AI risks, it complements existing proposed solutions--}{++{"author":"Elias's AI","timestamp":1788016129753}@@ _2001_ _PATRIOT Act_ have sought to address this++} by {--{"author":"Elias's AI","timestamp":1788016129753}@@allowing for--}{++{"author":"Elias's AI","timestamp":1788016129753}@@making structuring++} a {--{"author":"Elias's AI","timestamp":1788016129753}@@more precise and flexible approach to controlling the development of frontier AI models and unwanted AI proliferation.--}{++{"author":"Elias's AI","timestamp":1788016129753}@@criminal offense.
+from:: _Implementation: obstacles and adjustments_
+to:: Amendments made through the _2001_ _PATRIOT Act_ have sought to address this by making structuring a criminal offense.
 
 #### Text
 content::
-*Reproduced from Egan and Heim, Box 3, under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). [Open the paper on arXiv.](https://arxiv.org/abs/2310.13625)*++}
+*Reproduced from Egan and Heim, Box 3, under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). [Open the paper on arXiv.](https://arxiv.org/abs/2310.13625)*
 
 #### Article
 source:: [[../articles/egan-oversight-for-frontier-ai-through-a-know-your-customer-scheme-for-compute-providers]]
@@ -62,28 +56,28 @@ to:: Applying a specified FLOP threshold offers a feasible path to implementatio
 #### Article
 source:: [[../articles/egan-oversight-for-frontier-ai-through-a-know-your-customer-scheme-for-compute-providers]]
 from:: #### Regulatory impost is likely to be low, with few stakeholders affected
-to:: {--{"author":"Elias's AI","timestamp":1788016131864}@@Given the proposed threshold, only a small number of customers for a small number of US compute providers would be affected. Providers that offer, or use in-house, the most advanced computing power also tend to be the most resourced, such as Microsoft Azure, Google Cloud, NVIDIA, Amazon Web Services (AWS), and Oracle Cloud Infrastructure.\[[42](#bib.bibx42)\] These factors could help mitigate the risk of an overly costly, burdensome regime (criticisms often directed at KYC in the financial sector). In addition to having the bandwidth to implement KYC, these companies may already be working to control significant AI risks, given their public commitments to ethical and/or responsible AI.\[[9](#bib.bibx9)\] Microsoft has specifically called for the implementation of a KYC program in their report _Governing AI: A Blueprint for the Future,_\[[56](#bib.bibx56)\] --}and Amazon, Anthropic, Google, Inflection, Meta, Microsoft, OpenAI and NVIDIA, among others, have committed to further safeguards against risky {--{"author":"Elias's AI","timestamp":1788016131864}@@AI.\[[53](#bib.bibx53)\]--}{++{"author":"Elias's AI","timestamp":1788016131864}@@AI.++}
+to:: and Amazon, Anthropic, Google, Inflection, Meta, Microsoft, OpenAI and NVIDIA, among others, have committed to further safeguards against risky AI.
 
 #### Article
 source:: [[../articles/egan-oversight-for-frontier-ai-through-a-know-your-customer-scheme-for-compute-providers]]
 from:: ### 2.2 Requirements on compute providers – due diligence that identifies risk and implements controls
-to:: • {--{"author":"Elias's AI","timestamp":1788016133509}@@Conducting ongoing high-level usage monitoring to identify changes or emerging characteristics that could change the assessment: ◦ changes in contracts that bring entities into the KYC threshold or increase in procured cloud compute that exceeds the expected scope of the stated project ◦ use of compute different from what would be expected from the stated purpose (e.g. high-level usage patterns that may indicate AI training rather than AI deployment). • Sharing information with other compute providers to identify and mitigate evasion attempts while preserving privacy. • Assessing whether an entity would match a defined ‘high-risk’ profile and reporting these cases to the government. Factors that could be considered include: ◦ the US specially designated nationals and blocked persons list;[^30] ◦ the US Entity List.[^31] ◦ other entities restricted from accessing advanced AI chips under export controls.[^32] ◦ strong links to a country of concern, which may be informed by factors including that: \* the entity or beneficial owner/s are based in a country of concern \* there is evidence that the entity or beneficial owner/s have significant ties to a country of concern \* the entity’s board has significant ties to a country of concern \* director/s or senior management are currently affiliated with research institutions from a country of concern \* IP addresses originate in a country of concern \* evidence of large amounts of data going to/from a country of concern. ◦ the source of the entity’s capital or funding is not clear (which could potentially lead to requiring the entity to clarify their source or lose compute access). ◦ entities from countries on the [FATF high-risk jurisdiction list](https://www.fatf-gafi.org/content/fatf-gafi/en/publications/High-risk-and-other-monitored-jurisdictions/Call-for-action-June-2023.html).[^33] ◦ requests for significantly more compute power than is typically used to develop current cutting-edge models. • Using KYC to enforce established rules, which may include: ◦ updated Export Administration Regulations that restrict companies providing above-threshold compute to entities on the Entity List ◦ seeking confirmation of the entity’s implementation of safe-development practices, including cybersecurity standards (if the voluntary commitments agreed upon between industry and the White House become mandatory).[^34] • --}Maintaining records on the provision or denial of above-threshold compute to aid in investigations or demonstrate compliance, when needed.
+to:: • Maintaining records on the provision or denial of above-threshold compute to aid in investigations or demonstrate compliance, when needed.
 
 #### Article
 source:: [[../articles/egan-oversight-for-frontier-ai-through-a-know-your-customer-scheme-for-compute-providers]]
 from:: #### 2.2.1 Technical feasibility
-to:: {--{"author":"Elias's AI","timestamp":1788016135324}@@However, while compute providers can collect statements from customers on their planned use of cloud compute, this can be difficult to verify in practice. CSPs often take pride in their ability to offer privacy to their customers, with some providers designing ‘confidential compute’ offerings to make it technically impossible for compute providers to look in at the customer’s data.\[[41](#bib.bibx41)\] It is not always clear what compute is being used for, with both the training of foundational models and using AI models for inference requiring intensive compute power.\[[28](#bib.bibx28)\] Given the sensitive proprietary information and data involved in cutting-edge AI models, requirements that significantly affect privacy will likely generate significant industry backlash and diminish US industry power. The dispute between the FBI and Apple in 2016 is evidence of the tension between the US government’s security priorities and privacy principles held by the technology sector and general public.\[[32](#bib.bibx32)\] Further research and collaboration with industry is warranted to identify mechanisms that allow for more effective verification in a way that preserves privacy. A helpful starting point could be focusing on the types of clusters used and how the GPUs are networked, as well as chip hours, which tend to differ according to purpose. This information is known to the compute provider, as these requirements would generally be specified as part of a customer order. --}Thus, the implementation of the KYC scheme would not require the compute provider to access the underlying code, data, or any system level insights, maintaining appropriate privacy standards.
+to:: Thus, the implementation of the KYC scheme would not require the compute provider to access the underlying code, data, or any system level insights, maintaining appropriate privacy standards.
 
 #### Article
 source:: [[../articles/egan-oversight-for-frontier-ai-through-a-know-your-customer-scheme-for-compute-providers]]
 from:: #### 2.2.2 Mitigating attempts to evade detection
-to:: {--{"author":"Elias's AI","timestamp":1788016137014}@@Another detection evasion risk could arise from the use of shell companies to obscure an entity’s ultimate owners. The beneficial ownership information reporting requirement, commencing January 2024 in the US and is currently being adopted more broadly by FATF members, could help decrease this risk by requiring companies to disclose information on the people who ultimately own them.\[[20](#bib.bibx20)\] However, given the strategic and economic importance of advanced AI, it is likely that \[malicious\] actors will continue to try to obfuscate their identities. --}Given the relatively small numbers of entities seeking to access significant amounts of advanced AI compute in the near term, a government enforcement team could consider undertaking their own investigations and spot checks on companies.
+to:: Given the relatively small numbers of entities seeking to access significant amounts of advanced AI compute in the near term, a government enforcement team could consider undertaking their own investigations and spot checks on companies.
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788016138782}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-customer-identification)*--}{++{"author":"Elias's AI","timestamp":1788016138782}@@:::callout {title="Works cited" tone="neutral" collapse="closed"}
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
 Egan and Heim (2023), *Oversight for Frontier AI through a Know-Your-Customer Scheme for Compute Providers*, is cited inline above with its arXiv link.
 
 XLab. "2.2.2 Customer identification and ongoing monitoring." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-customer-identification)
 *The source lesson this page adapts.*
-:::++}
+:::

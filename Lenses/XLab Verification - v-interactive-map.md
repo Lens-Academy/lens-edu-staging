@@ -1,8 +1,8 @@
 ---
 id: '70ee83e3-ccaa-4130-a72f-8a4310acc919'
 title: "1.2.1 Geographic supply-chain map"
-tldr: {--{"author":"Elias's AI","timestamp":1788016569158}@@"Faithful alpha import--}{++{"author":"Elias's AI","timestamp":1788016569158}@@"One Dutch company builds every EUV machine on Earth; one island fabricates about 90 percent++} of {--{"author":"Elias's AI","timestamp":1788016569158}@@XLab lesson 1.2.1 Geographic supply-chain map."--}{++{"author":"Elias's AI","timestamp":1788016569158}@@leading-edge logic; three firms make nearly all high-bandwidth memory. Follow a chip from sand to model through fourteen countries and see where the chain pinches to a few known addresses, and where it fans out into places a verifier cannot see."++}
-summary_for_tutor: {--{"author":"Elias's AI","timestamp":1788016569158}@@"Imported--}{++{"author":"Elias's AI","timestamp":1788016569158}@@"Reading-only lens reproducing XLab's interactive supply-chain map as text: six supply-chain layers with why each matters for verification, the eight-stage pipeline++} from {++{"author":"Elias's AI","timestamp":1788016569158}@@materials to trained models, and fourteen country cards (primary layer, layers, actor roles, anchor facts, why it matters for verification), plus a link to ETO's Chip Explorer. Closes with ++}XLab's {--{"author":"Elias's AI","timestamp":1788016569158}@@canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788016569158}@@Notes and sources and a currency warning: concentration figures are 2021 to 2023 data. If the learner asks about a number, point them to the cited sources (CSET 2021; Sastry, Heim, Belfield et al. 2024; CNAS 2024) and remind them shares move while the structure has not."++}
+tldr: "One Dutch company builds every EUV machine on Earth; one island fabricates about 90 percent of leading-edge logic; three firms make nearly all high-bandwidth memory. Follow a chip from sand to model through fourteen countries and see where the chain pinches to a few known addresses, and where it fans out into places a verifier cannot see."
+summary_for_tutor: "Reading-only lens reproducing XLab's interactive supply-chain map as text: six supply-chain layers with why each matters for verification, the eight-stage pipeline from materials to trained models, and fourteen country cards (primary layer, layers, actor roles, anchor facts, why it matters for verification), plus a link to ETO's Chip Explorer. Closes with XLab's Notes and sources and a currency warning: concentration figures are 2021 to 2023 data. If the learner asks about a number, point them to the cited sources (CSET 2021; Sastry, Heim, Belfield et al. 2024; CNAS 2024) and remind them shares move while the structure has not."
 tags: [wip]
 duration_minutes: 15
 ---
@@ -13,7 +13,7 @@ The world map of AI compute: who makes what, where it flows, and where verificat
 Where an actor sits constrains both what it can observe and what leverage an agreement can apply. Use the map to find the stages where production is concentrated in a few jurisdictions, then compare those chokepoints with the more diffuse parts of the chain where activity becomes harder to see.
 
 #### Text
-content::{--{"author":"Elias's AI","timestamp":1788016617137}@@ **Interactive exercise:**--}{++{"author":"Elias's AI","timestamp":1788016617137}@@
+content::
 \## The Compute Supply Chain
 
 **Start here.** The whole story of this map is concentration. The chain crosses borders dozens of times, but the parts that matter for verification sit in a handful of countries — and each stage is a near-monopoly. Open a country for its role, or a layer to see exactly who would have to be in the room to verify it.
@@ -24,14 +24,14 @@ content::{--{"author":"Elias's AI","timestamp":1788016617137}@@ **Interactive ex
 
 \### Supply chain layers
 
-Colors on++} XLab's {--{"author":"Elias's AI","timestamp":1788016617137}@@`interactive-map` widget has --}{++{"author":"Elias's AI","timestamp":1788016617137}@@map show a country's primary layer. Most of the interesting countries sit in more than one.
+Colors on XLab's map show a country's primary layer. Most of the interesting countries sit in more than one.
 
 | Layer | To verify at this layer, you'd need | Stat |
 | --- | --- | --- |
 | Chip design & EDA | Where capability is born. The architectures and the design software behind every advanced chip belong to a handful of US and UK firms, so rules can attach here before a single wafer exists. | 2 EDA firms |
 | Equipment & materials | The narrowest chokepoint in the chain. A few firms in three allied countries build the tools and supply the chemistry every advanced fab depends on. | EUV: 1 company |
 | Fabrication | Nearly all frontier chips are made in a handful of known facilities. Few sites, known addresses, hard to hide — which is exactly what makes a verification regime imaginable. | ≈90% → 1 island |
-| Memory (HBM) | No high-bandwidth memory, ++}no {--{"author":"Elias's AI","timestamp":1788016617137}@@direct Lens equivalent yet. Complete --}{++{"author":"Elias's AI","timestamp":1788016617137}@@AI accelerator. HBM comes from three firms in two countries — a second countable chokepoint stacked right next to the first. | 3 firms, 2 countries |
+| Memory (HBM) | No high-bandwidth memory, no AI accelerator. HBM comes from three firms in two countries — a second countable chokepoint stacked right next to the first. | 3 firms, 2 countries |
 | Packaging, assembly & test | Where chips become products and fan out into the world — and where they can slip out of sight. Transshipment and diversion risk lives in this layer. | the evasion surface |
 | Compute & models | What the rules are ultimately about. Frontier-scale data centers are big, hot, and power-hungry — easy to find, harder to audit. The models inside them are hardest of all. | easy to find, hard to audit |
 
@@ -59,7 +59,7 @@ Every country card is tagged with the actor roles it plays in this module: capab
 - Applied Materials, Lam Research, and KLA build fab equipment; Micron makes HBM; Intel and new TSMC Arizona fabs bring some leading-edge production home
 - Hyperscalers run the largest GPU fleets; frontier labs — OpenAI, Anthropic, Google — train the models
 
-**Why ++}it {++{"author":"Elias's AI","timestamp":1788016617137}@@matters for verification.** Holds the design, software, and cloud levers, and writes the export rules (BIS). In any two-way international regime, it is also the actor everyone else would need to verify, while the same machinery could constrain its lead and its own firms.
+**Why it matters for verification.** Holds the design, software, and cloud levers, and writes the export rules (BIS). In any two-way international regime, it is also the actor everyone else would need to verify, while the same machinery could constrain its lead and its own firms.
 :::
 
 :::callout {title="China" tone="neutral" collapse="closed"}
@@ -67,16 +67,16 @@ Every country card is tagged with the actor roles it plays in this module: capab
 
 - DeepSeek and other labs train frontier-class models; a House committee concluded DeepSeek used export-restricted NVIDIA chips
 - SMIC pushes 7nm-class fabrication under sanctions; CXMT and YMTC build a domestic memory industry
-- Reporting suggests over $1B of controlled chips were smuggled ++}in {++{"author":"Elias's AI","timestamp":1788016617137}@@during a single three-month stretch
+- Reporting suggests over $1B of controlled chips were smuggled in during a single three-month stretch
 
-**Why it matters for verification.** The hardest test for any regime: ++}the {--{"author":"Elias's AI","timestamp":1788016617137}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/policy-scoping/interactive-map). --}{++{"author":"Elias's AI","timestamp":1788016617137}@@actor current rules try to exclude, and the counterparty a future agreement would have to verify without trust. It reads on-chip controls and inspections as surveillance and containment.
+**Why it matters for verification.** The hardest test for any regime: the actor current rules try to exclude, and the counterparty a future agreement would have to verify without trust. It reads on-chip controls and inspections as surveillance and containment.
 :::
 
 :::callout {title="Taiwan" tone="neutral" collapse="closed"}
 *Primary layer: Fabrication. Also: Packaging, assembly & test. Roles: chokepoint controller, information holder.*
 
 - TSMC fabricates roughly 90% of leading-edge logic — including every NVIDIA AI accelerator
-- ++}Its {--{"author":"Elias's AI","timestamp":1788016617137}@@surrounding lesson text --}{++{"author":"Elias's AI","timestamp":1788016617137}@@CoWoS advanced-packaging capacity gates how many accelerators exist at all
+- Its CoWoS advanced-packaging capacity gates how many accelerators exist at all
 
 **Why it matters for verification.** Nearly every frontier chip passes through a few known facilities. TSMC's customer records are a verification asset; the concentration makes Taiwan both the system's tightest physical chokepoint and a strategic point of failure it does not control.
 :::
@@ -103,7 +103,7 @@ Every country card is tagged with the actor roles it plays in this module: capab
 *Primary layer: Equipment & materials. Roles: chokepoint controller, information holder.*
 
 - ASML is the world's only maker of EUV lithography machines, required for every leading-edge chip
-- Only a few hundred EUV systems exist; each ++}is {--{"author":"Elias's AI","timestamp":1788016617137}@@preserved --}{++{"author":"Elias's AI","timestamp":1788016617137}@@tracked and serviced by ASML for its whole life
+- Only a few hundred EUV systems exist; each is tracked and serviced by ASML for its whole life
 
 **Why it matters for verification.** The cleanest chokepoint in the entire chain: one company, one country, machines too large and too rare to hide. The Netherlands is a small state carrying outsized weight in the 2023 equipment-control alignment.
 :::
@@ -114,7 +114,7 @@ Every country card is tagged with the actor roles it plays in this module: capab
 - Arm's architecture sits inside most of the world's chips, including NVIDIA's Grace CPUs
 - Google DeepMind; the AI Security Institute pioneered government evaluation of frontier models
 
-**Why it matters for verification.** A standards and evaluations power. Part of what any verification regime would check — the evals — is being defined ++}here.{++{"author":"Elias's AI","timestamp":1788016617137}@@
+**Why it matters for verification.** A standards and evaluations power. Part of what any verification regime would check — the evals — is being defined here.
 :::
 
 :::callout {title="Germany" tone="neutral" collapse="closed"}
@@ -182,17 +182,17 @@ Every country card is tagged with the actor roles it plays in this module: capab
 
 \### Anatomy of a Chip
 
-Explore the components inside an AI accelerator and connect them to the supply-chain stages shown above: [ETO Chip Explorer](https://chipexplorer.eto.tech/).{>>{"author":"Elias's AI","timestamp":1788016617137}@@Native reproduction of XLab's interactive-map widget data (src/lib/verification/data/interactive-map.ts): layers, pipeline, country cards, stats and chip-explorer link. The world map itself is an SVG drawn from that data at runtime with no static image in xlab/public, so the geographic picture is not reproduced; the data behind it is.<<}++}
+Explore the components inside an AI accelerator and connect them to the supply-chain stages shown above: [ETO Chip Explorer](https://chipexplorer.eto.tech/).{>>{"author":"Elias's AI","timestamp":1788016617137}@@Native reproduction of XLab's interactive-map widget data (src/lib/verification/data/interactive-map.ts): layers, pipeline, country cards, stats and chip-explorer link. The world map itself is an SVG drawn from that data at runtime with no static image in xlab/public, so the geographic picture is not reproduced; the data behind it is.<<}
 
 #### Text
 content::
-A geographic chokepoint is potential leverage, not verification by itself. It matters only when some authority can require a declaration, obtain a record, inspect a facility, or impose a technical control there. Carry that distinction into {--{"author":"Elias's AI","timestamp":1788016632624}@@1.2.2, --}{++{"author":"Elias's AI","timestamp":1788016632624}@@[[../Lenses/XLab Verification - v-actor-edges|1.2.2]], ++}which turns positions on the supply chain into evidence relationships: who can show a verifier something about whom.
+A geographic chokepoint is potential leverage, not verification by itself. It matters only when some authority can require a declaration, obtain a record, inspect a facility, or impose a technical control there. Carry that distinction into [[../Lenses/XLab Verification - v-actor-edges|1.2.2]], which turns positions on the supply chain into evidence relationships: who can show a verifier something about whom.
 
-{--{"author":"Elias's AI","timestamp":1788016632624}@@_Content current --}{++{"author":"Elias's AI","timestamp":1788016632624}@@\### Notes and sources
+\### Notes and sources
 
-The stage-by-stage structure comes from CSET’s [“The Semiconductor Supply Chain”](https://cset.georgetown.edu/publication/the-semiconductor-supply-chain/) (2021), including its account of assembly and test ++}as {++{"author":"Elias's AI","timestamp":1788016632624}@@the part of the chain with the lowest barriers to entry. The concentration figures come from Sastry, Heim, Belfield et al., [“Computing Power and the Governance ++}of {--{"author":"Elias's AI","timestamp":1788016632624}@@July 2026. --}{++{"author":"Elias's AI","timestamp":1788016632624}@@Artificial Intelligence”](https://arxiv.org/abs/2402.08797) (2024): ASML at 100% of EUV lithography, TSMC at roughly 90% of sub-7 nm logic in the cited 2022 data, and several critical steps with fewer than three suppliers. High-bandwidth memory entered the US export-control perimeter in 2024; Fist, Burga and Chilukuri describe that expansion in [“Technology to Secure the AI Chip Supply Chain”](https://www.cnas.org/publications/reports/technology-to-secure-the-ai-chip-supply-chain-a-primer) (CNAS, 2024).
+The stage-by-stage structure comes from CSET’s [“The Semiconductor Supply Chain”](https://cset.georgetown.edu/publication/the-semiconductor-supply-chain/) (2021), including its account of assembly and test as the part of the chain with the lowest barriers to entry. The concentration figures come from Sastry, Heim, Belfield et al., [“Computing Power and the Governance of Artificial Intelligence”](https://arxiv.org/abs/2402.08797) (2024): ASML at 100% of EUV lithography, TSMC at roughly 90% of sub-7 nm logic in the cited 2022 data, and several critical steps with fewer than three suppliers. High-bandwidth memory entered the US export-control perimeter in 2024; Fist, Burga and Chilukuri describe that expansion in [“Technology to Secure the AI Chip Supply Chain”](https://www.cnas.org/publications/reports/technology-to-secure-the-ai-chip-supply-chain-a-primer) (CNAS, 2024).
 
-**Currency.** ++}The {--{"author":"Elias's AI","timestamp":1788016632624}@@policy layer --}{++{"author":"Elias's AI","timestamp":1788016632624}@@concentration figures above use 2021–2023 data reported in 2021 and 2024 sources. Shares move; the structure — one EUV maker, one dominant leading-edge fab and a handful ++}of {--{"author":"Elias's AI","timestamp":1788016632624}@@this field --}{++{"author":"Elias's AI","timestamp":1788016632624}@@clouds — has not. Re-verify a number before quoting it. The policy layer ++}moves {--{"author":"Elias's AI","timestamp":1788016632624}@@monthly — re-verify--}{++{"author":"Elias's AI","timestamp":1788016632624}@@faster still: re-check++} dates, {--{"author":"Elias's AI","timestamp":1788016632624}@@thresholds,--}{++{"author":"Elias's AI","timestamp":1788016632624}@@thresholds++} and bill status before citing. {--{"author":"Elias's AI","timestamp":1788016632624}@@Key sources:--}{++{"author":"Elias's AI","timestamp":1788016632624}@@Later modules go deeper on the mechanisms named here.{>>{"author":"Elias's AI","timestamp":1788016632624}@@The italic "Content current as of July 2026 ...++} Congress.gov (H.R. 3447 / S. {--{"author":"Elias's AI","timestamp":1788016632624}@@1705), BIS export control rules, EU--}{++{"author":"Elias's AI","timestamp":1788016632624}@@1705) ..." paragraph is no longer in XLab's MDX; it was replaced by this Notes and sources section and Currency paragraph, copied from interactive-map.mdx.<<}
+**Currency.** The concentration figures above use 2021–2023 data reported in 2021 and 2024 sources. Shares move; the structure — one EUV maker, one dominant leading-edge fab and a handful of clouds — has not. Re-verify a number before quoting it. The policy layer moves faster still: re-check dates, thresholds and bill status before citing. Later modules go deeper on the mechanisms named here.{>>{"author":"Elias's AI","timestamp":1788016632624}@@The italic "Content current as of July 2026 ... Congress.gov (H.R. 3447 / S. 1705) ..." paragraph is no longer in XLab's MDX; it was replaced by this Notes and sources section and Currency paragraph, copied from interactive-map.mdx.<<}
 
 #### Text
 content::
@@ -203,11 +203,11 @@ Khan, Saif M., Alexander Mann, and Dahlia Peterson. *The Semiconductor Supply Ch
 Sastry, Girish, Lennart Heim, Haydn Belfield, et al. "Computing Power and the Governance of Artificial Intelligence." *arXiv*, Feb. 2024. [arxiv.org](https://arxiv.org/abs/2402.08797)
 *The foundational survey of compute as a governance lever: why computing power is detectable, excludable, and quantifiable in ways algorithms and data are not.*
 
-Fist, Tim, Tao Burga, and Vivek Chilukuri. *Technology to Secure the++} AI {--{"author":"Elias's AI","timestamp":1788016632624}@@Act Art. 51, CSIS, CRS R48642. Later modules go deeper--}{++{"author":"Elias's AI","timestamp":1788016632624}@@Chip Supply Chain: A Working Paper*. Center for a New American Security, 2024. [cnas.org](https://www.cnas.org/publications/reports/technology-to-secure-the-ai-chip-supply-chain-a-primer)
-*Argues that export controls++} on {--{"author":"Elias's AI","timestamp":1788016632624}@@every mechanism named here._--}{++{"author":"Elias's AI","timestamp":1788016632624}@@AI chips are hard to enforce and easy to evade through shell companies, and proposes hardware-enabled mechanisms instead. Cited here for the fact that US controls now reach all chips using advanced high-bandwidth memory.*++}
+Fist, Tim, Tao Burga, and Vivek Chilukuri. *Technology to Secure the AI Chip Supply Chain: A Working Paper*. Center for a New American Security, 2024. [cnas.org](https://www.cnas.org/publications/reports/technology-to-secure-the-ai-chip-supply-chain-a-primer)
+*Argues that export controls on AI chips are hard to enforce and easy to evade through shell companies, and proposes hardware-enabled mechanisms instead. Cited here for the fact that US controls now reach all chips using advanced high-bandwidth memory.*
 
-{--{"author":"Elias's AI","timestamp":1788016632624}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/interactive-map)*--}{++{"author":"Elias's AI","timestamp":1788016632624}@@XLab. "1.2.1 Geographic supply-chain map." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/interactive-map)
+XLab. "1.2.1 Geographic supply-chain map." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/interactive-map)
 *The source lesson this page adapts, including the map data reproduced above.*
 
 ETO's Chip Explorer is linked inline above and has no entry in XLab's citation registry.
-:::++}
+:::

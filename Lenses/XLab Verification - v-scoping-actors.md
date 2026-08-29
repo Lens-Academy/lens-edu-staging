@@ -1,8 +1,8 @@
 ---
 id: '76451830-cdb6-4160-9eae-ee72d0917f5b'
 title: "1.2 Actors: who does the treaty rely upon, apply to, and constrain?"
-tldr: {--{"author":"Elias's AI","timestamp":1788016429938}@@"Faithful alpha import of XLab lesson 1.2 Actors:--}{++{"author":"Elias's AI","timestamp":1788016429938}@@"Two governments sign a three-month pause on big training runs. On Wednesday morning,++} who {--{"author":"Elias's AI","timestamp":1788016429938}@@does--}{++{"author":"Elias's AI","timestamp":1788016429938}@@actually has to change what they do? Not the signatories:++} the {--{"author":"Elias's AI","timestamp":1788016429938}@@treaty rely upon, apply to,--}{++{"author":"Elias's AI","timestamp":1788016429938}@@labs, fabs, clouds and one Dutch lithography firm. Learn three lenses for any actor (where it sits, what it can do for or to a verifier, what it wants right now), then build the actor map yourself: who declares, who holds evidence, who verifies,++} and {--{"author":"Elias's AI","timestamp":1788016429938}@@constrain?."--}{++{"author":"Elias's AI","timestamp":1788016429938}@@who no declaration ever covers."++}
-summary_for_tutor: {--{"author":"Elias's AI","timestamp":1788016429938}@@"Imported--}{++{"author":"Elias's AI","timestamp":1788016429938}@@"Reading plus a workshop. The reading gives five tables: the incentive vocabulary (comply, defect, hide, exaggerate, free-ride), six states by supply-chain position, US institutions inside one signatory, private actors upstream to downstream, and six functional roles; then the three questions to ask of any actor (position, roles, posture). The Actor Map Workshop follows: study the 17-actor roster, then++} from {++{"author":"Elias's AI","timestamp":1788016429938}@@memory list everything a cloud provider can do inside a regime; a graded choice on what sits at the centre of the map (the regulated training run); place all 17 actors on Baker et al.'s four rings (Declares, Holds the evidence, Verifies, Outside the declaration), graded against XLab's key; a graded second-order question (removing the cloud providers stops a run soonest); and three optional written answers marked against ++}XLab's {--{"author":"Elias's AI","timestamp":1788016429938}@@canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed --}{++{"author":"Elias's AI","timestamp":1788016429938}@@key (Taiwan's roles, information holders in order of completeness, an actor that is capability holder and enforcement authority at once). The ring key and rationales sit in closed callouts; do not reveal them before the learner commits. The edge exercise built ++}on {--{"author":"Elias's AI","timestamp":1788016429938}@@XLab."--}{++{"author":"Elias's AI","timestamp":1788016429938}@@this board is the next lens, 1.2.2."++}
+tldr: "Two governments sign a three-month pause on big training runs. On Wednesday morning, who actually has to change what they do? Not the signatories: the labs, fabs, clouds and one Dutch lithography firm. Learn three lenses for any actor (where it sits, what it can do for or to a verifier, what it wants right now), then build the actor map yourself: who declares, who holds evidence, who verifies, and who no declaration ever covers."
+summary_for_tutor: "Reading plus a workshop. The reading gives five tables: the incentive vocabulary (comply, defect, hide, exaggerate, free-ride), six states by supply-chain position, US institutions inside one signatory, private actors upstream to downstream, and six functional roles; then the three questions to ask of any actor (position, roles, posture). The Actor Map Workshop follows: study the 17-actor roster, then from memory list everything a cloud provider can do inside a regime; a graded choice on what sits at the centre of the map (the regulated training run); place all 17 actors on Baker et al.'s four rings (Declares, Holds the evidence, Verifies, Outside the declaration), graded against XLab's key; a graded second-order question (removing the cloud providers stops a run soonest); and three optional written answers marked against XLab's key (Taiwan's roles, information holders in order of completeness, an actor that is capability holder and enforcement authority at once). The ring key and rationales sit in closed callouts; do not reveal them before the learner commits. The edge exercise built on this board is the next lens, 1.2.2."
 tags: [wip]
 duration_minutes: 35
 ---
@@ -32,7 +32,7 @@ Table 1.  The incentive vocabulary
 
 Keep in mind that these are postures, not fixed personality types. The same actor can comply on one obligation, hide on another, and free-ride on a third, all in the same quarter. The interesting question is never “is this actor good.” It is “what does this actor do under this rule, at this moment, given what it costs.” That cost framework will be recurring throughout the course and policy frameworks, so it’s important to internalize an understanding and instinct for it.
 
-Let’s start with nation-states, since they are the ones that sign. A state matters to verification roughly in proportion to what passes through its territory and its law. Six states cover most of the compute supply chain that {--{"author":"Elias's AI","timestamp":1788016433607}@@1.2.1--}{++{"author":"Elias's AI","timestamp":1788016433607}@@[[../Lenses/XLab Verification - v-interactive-map|1.2.1]]++} maps.
+Let’s start with nation-states, since they are the ones that sign. A state matters to verification roughly in proportion to what passes through its territory and its law. Six states cover most of the compute supply chain that [[../Lenses/XLab Verification - v-interactive-map|1.2.1]] maps.
 
 Table 2.  States, by position on the compute supply chain
 
@@ -49,9 +49,7 @@ It’s also important to name the European Union. Even though as a whole, the EU
 
 Now, the next level.
 
-\## {--{"author":"Elias's AI","timestamp":1788016435534}@@Institutions--}{++{"author":"Elias's AI","timestamp":1788016435534}@@Below the state{>>{"author":"Elias's AI","timestamp":1788016435534}@@"Institutions++} below, inside, and above the {--{"author":"Elias's AI","timestamp":1788016435534}@@state
-
-\## Below --}{++{"author":"Elias's AI","timestamp":1788016435534}@@state" was XLab's PageBreak title, imported as a duplicate heading; kept only ++}the {--{"author":"Elias's AI","timestamp":1788016435534}@@state--}{++{"author":"Elias's AI","timestamp":1788016435534}@@real heading.<<}++}
+\## Below the state{>>{"author":"Elias's AI","timestamp":1788016435534}@@"Institutions below, inside, and above the state" was XLab's PageBreak title, imported as a duplicate heading; kept only the real heading.<<}
 
 Subnational governments regulate too, and this is often easier and/or happens earlier than federal regulation. California is this course’s running example because most frontier labs are physically headquartered there, and jurisdiction follows geography.
 
@@ -81,11 +79,9 @@ Same government, five postures. When a proposal says “the US will verify,” y
 
 Is there a WHO for AI? An IAEA? As of mid-2026, there are some authorities but they don’t have a lot of real power or mechanisms to detect cheating. The UN has stood up the Independent International Scientific Panel on AI, forty scientists modeled on the IPCC and co-chaired by Yoshua Bengio and Maria Ressa, whose reports feed a new Global Dialogue on AI Governance that met for the first time in Geneva in July 2026. While this helps build a shared scientific picture of risk, it does not fix the verification function. No agency holds a chip registry. No inspector has challenge-inspection rights at a data center. No treaty gives anyone the authority over compute that the IAEA has held over fissile material since the 1970s. The institutional shelf marked “AI verification body” is empty. Some of the people reading this will help build what goes on it.
 
-\## Private {--{"author":"Elias's AI","timestamp":1788016438341}@@actors along the supply chain
+\## Private actors: reading the chain from top to bottom
 
-\## Private --}actors: reading the chain from top to bottom
-
-Now the companies. The useful way to hold them in your head is not alphabetical but positional: upstream to downstream, the same axis as the map in {--{"author":"Elias's AI","timestamp":1788016438341}@@1.2.1.--}{++{"author":"Elias's AI","timestamp":1788016438341}@@[[../Lenses/XLab Verification - v-interactive-map|1.2.1]].++} Read the table from top to bottom and watch two numbers change as you go: how many actors exist at each stage, and how much each one can see.
+Now the companies. The useful way to hold them in your head is not alphabetical but positional: upstream to downstream, the same axis as the map in [[../Lenses/XLab Verification - v-interactive-map|1.2.1]]. Read the table from top to bottom and watch two numbers change as you go: how many actors exist at each stage, and how much each one can see.
 
 Table 4.  Private actors, upstream to downstream
 
@@ -110,13 +106,11 @@ Counts:
 - Five or six hyperscale clouds.
 - A few dozen labs that matter.
 - Millions of deployers.
-- The chain narrows to almost nothing at the top and fans out to everything at the bottom. Verification has something to grab exactly where the count is small, which is why so many of the mechanisms in Module 2 bite upstream. Hold that thought; section {--{"author":"Elias's AI","timestamp":1788016440427}@@1.3--}{++{"author":"Elias's AI","timestamp":1788016440427}@@[[../Lenses/XLab Verification - v-scoping-upstream-downstream|1.3]]++} develops it properly.
+- The chain narrows to almost nothing at the top and fans out to everything at the bottom. Verification has something to grab exactly where the count is small, which is why so many of the mechanisms in Module 2 bite upstream. Hold that thought; section [[../Lenses/XLab Verification - v-scoping-upstream-downstream|1.3]] develops it properly.
 
 Second, look at the labs’ row: A frontier lab can comply, publishing a safety framework and reporting under SB 53. It can hide, treating training details as trade secrets. It can exaggerate, describing its own precautions in the most flattering light, which is what critics call safety-washing. And it can free-ride on rivals’ restraint. Your job in verification is to price these different behaviors and balance their relevant incentives.
 
-\## Functional {--{"author":"Elias's AI","timestamp":1788016442005}@@roles
-
-\## Functional --}roles: the second lens
+\## Functional roles: the second lens
 
 Public versus private tells you what an actor is, but not what an actor does for you, or to you, when you are trying to verify an agreement. Here, it can be helpful to ask what function the actor performs.
 
@@ -144,13 +138,11 @@ Which role dominates depends entirely on what the regime asks of it and what com
 
 Or try Taiwan. A chokepoint controller of the first rank, and simultaneously the actor with the most to lose if the chokepoint ever becomes a target. An actor’s roles can pull against each other, and when they do, its incentives tell you which one wins.
 
-\## {--{"author":"Elias's AI","timestamp":1788016443635}@@Use the actor map
-
-\## --}How to use this section
+\## How to use this section
 
 You now have three questions to ask of any actor you meet in a proposal, a news story, or an exercise, for the rest of this course. Where does it sit on the chain? That is position: Table 4. What can it do inside a regime? That is roles: Table 5. What does it want right now? That is posture: Table 1. Ask them in that order and most verification claims come apart usefully in your hands. “The cloud providers will report suspicious training runs” stops being a reassuring sentence and becomes three checkable ones: they sit mid-chain where visibility is high; they hold the logs; and they will report exactly to the degree that reporting costs less than not reporting.
 
-\## The Actor Map Workshop{++{"author":"Elias's AI","timestamp":1788016535133}@@ (18–22 min)
+\## The Actor Map Workshop (18–22 min)
 
 **The brief.** Suppose the United States and China sign an agreement tomorrow: no training runs above some compute threshold for three months. The section asked who has to change their behavior on Wednesday morning. The map asks the question after it: when the three months are up, who could show that they did, and who could show that somebody did not?
 
@@ -189,9 +181,9 @@ Study the roster, then close it. Everything after it is answered from memory.
 - **Frontier labs.** Model training. Roles: capability holder, information holder, victim. Postures: comply, hide, exaggerate, free-ride. They hold the most detailed private information in the system: what was trained, on what data, and what evaluations showed.
 - **Front companies, resellers, straw buyers** (proxies). Distribution, across every stage. Role: evasion pathway. Posture: defect. They exist to break the link between a name and an activity.
 - **Product builders and deployers.** Deployment, most downstream. Role: victim. Posture: free-ride. A diffuse downstream signal of what models can do.
-:::++}
+:::
 
-{--{"author":"Elias's AI","timestamp":1788016535133}@@\##--}{++{"author":"Elias's AI","timestamp":1788016535133}@@\### 2. Recall
+\### 2. Recall
 
 #### Question: Open
 id:: 3df5fa92-d84b-4198-af75-e744dc299b53
@@ -220,10 +212,10 @@ options::
 - The states that signed the agreement.
 - The frontier labs the obligations land on.
 - The chips the threshold is counted in.
-feedback-instructions:: Give XLab's reasoning for the option chosen. The activity: "The map is of a rule, and a rule is about an act. It is also what the verification literature centres: Baker's framework takes the approach of compute accounting, which is the same act said in compute. Put it in the centre and every ring becomes an answer to one question — what part do you play in accounting for this run?" The signatories: "'Not the people who signed. Governments do not train frontier models.' Centre them and the map says the treaty regulates its own signatories rather than an activity. Then watch for what looks like a contradiction two steps from now: the signatories do end up on the innermost RING, because in an international agreement the party that owes the declaration is the government. Owing a declaration and performing the act are different things, and the centre is the act."++} The {--{"author":"Elias's AI","timestamp":1788016535133}@@Actor Map Workshop (18–22 min)--}{++{"author":"Elias's AI","timestamp":1788016535133}@@labs: "Close, and it is why they sit on the first ring. But the labs are who does the act, not the act — and a map centred on them has nowhere to put a run that happens somewhere else, under someone else's name." The chips: "The chips are what makes the act countable from outside, which is a property of the mechanism rather than of the rule. Centre the map here and every institution on it becomes an afterthought." Two or three sentences, no praise.++}
+feedback-instructions:: Give XLab's reasoning for the option chosen. The activity: "The map is of a rule, and a rule is about an act. It is also what the verification literature centres: Baker's framework takes the approach of compute accounting, which is the same act said in compute. Put it in the centre and every ring becomes an answer to one question — what part do you play in accounting for this run?" The signatories: "'Not the people who signed. Governments do not train frontier models.' Centre them and the map says the treaty regulates its own signatories rather than an activity. Then watch for what looks like a contradiction two steps from now: the signatories do end up on the innermost RING, because in an international agreement the party that owes the declaration is the government. Owing a declaration and performing the act are different things, and the centre is the act." The labs: "Close, and it is why they sit on the first ring. But the labs are who does the act, not the act — and a map centred on them has nowhere to put a run that happens somewhere else, under someone else's name." The chips: "The chips are what makes the act countable from outside, which is a property of the mechanism rather than of the rule. Centre the map here and every institution on it becomes an afterthought." Two or three sentences, no praise.
 
 #### Text
-content::{--{"author":"Elias's AI","timestamp":1788016535133}@@ **Interactive exercise:**--}{++{"author":"Elias's AI","timestamp":1788016535133}@@
+content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
 **The regulated activity itself.** The map is of a rule, and a rule is about an act. It is also what the verification literature centres: Baker's framework takes the approach of compute accounting, which is the same act said in compute. Put it in the centre and every ring becomes an answer to one question — what part do you play in accounting for this run? Baker et al., §3.1, AI compute accounting: “it seeks to verify compliance on the basis that all large-scale AI compute use is accounted for in compliant activities.”
 
@@ -247,7 +239,7 @@ At the centre: **a training run above the threshold.** Around it, four rings. Ea
 id:: 8d8479c7-a8f1-49f9-8e3d-8f151a9a7a93
 content:: Place each of the seventeen actors on one ring: Declares, Holds the evidence, Verifies, or Outside the declaration. One line per actor: United States, China, Taiwan, Netherlands, Japan, South Korea, BIS, Intelligence community, California, No AI verification body, ASML, TSMC, NVIDIA, Cloud providers, Frontier labs, Proxies, Deployers.
 assessment-instructions:: Key: Declares: United States, China, Cloud providers, Frontier labs. Holds the evidence: Taiwan, Netherlands, Japan, South Korea, ASML, TSMC, NVIDIA. Verifies: BIS, Intelligence community, California, No AI verification body. Outside the declaration: Proxies, Deployers. Score the share of the seventeen placed on the key ring, scaled to 100. Two placements are meant to be argued with and earn credit when the learner gives the reason: a cloud provider on Declares (Baker names cloud compute providers among the Provers) and the proxies beside the deployers on Outside the declaration (opposite in intent, alike in the one property the ring names). No generic praise.
-feedback-instructions:: For every actor placed on the wrong ring, give the key ring and++} XLab's {--{"author":"Elias's AI","timestamp":1788016535133}@@`actor-workshop` widget --}{++{"author":"Elias's AI","timestamp":1788016535133}@@one-line reason from the placement key callout below. For correct placements, the ring name is the explanation; do not expand them. Then tell the learner to read the finished map.
+feedback-instructions:: For every actor placed on the wrong ring, give the key ring and XLab's one-line reason from the placement key callout below. For correct placements, the ring name is the explanation; do not expand them. Then tell the learner to read the finished map.
 
 #### Text
 content::
@@ -255,19 +247,19 @@ content::
 **Declares**
 
 - **United States.** In an international agreement the Prover is a government — the paper says so directly, and adds that it is the party “which could constrain private companies within its territory as part of the agreement”. So the signatory declares, and the buildings inside it are the machinery it verifies the other signatory WITH. That is the lesson’s own point about asking which building, drawn as two different rings.
-- **China.** The other Prover, and on this board that is all it is — because the roster ++}has no {--{"author":"Elias's AI","timestamp":1788016535133}@@direct Lens equivalent yet. Complete --}{++{"author":"Elias's AI","timestamp":1788016535133}@@row for its bureaus. The United States brings three institutions to the verifying ring and China brings none, which is a fact about this map rather than about the world, and worth holding on to when you read what the map claims.
+- **China.** The other Prover, and on this board that is all it is — because the roster has no row for its bureaus. The United States brings three institutions to the verifying ring and China brings none, which is a fact about this map rather than about the world, and worth holding on to when you read what the map claims.
 - **Cloud providers.** Baker puts them in the same parenthesis as the labs — the declarations are of ownership AND use of large-scale compute, and the cluster is theirs. They are also the actor the labs’ own declaration can be checked against, because of what the lesson says the position hands them: “between customer and machine: logs, billing, telemetry, and the power to interrupt a job”.
 - **Frontier labs.** They perform the regulated act, so they are the Prover: every obligation in the agreement is ultimately about what they did or did not train, and the declaration is theirs to make.
 
 **Holds the evidence**
 
-- **Taiwan.** The state does not hold the fab’s shipment records; the fab does. What Taiwan holds is the jurisdiction that makes those records a governable object at all — and ++}it {++{"author":"Elias's AI","timestamp":1788016535133}@@is not a party to this agreement, so nothing ++}in the {--{"author":"Elias's AI","timestamp":1788016535133}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-actors). --}{++{"author":"Elias's AI","timestamp":1788016535133}@@agreement compels it to exercise that.
+- **Taiwan.** The state does not hold the fab’s shipment records; the fab does. What Taiwan holds is the jurisdiction that makes those records a governable object at all — and it is not a party to this agreement, so nothing in the agreement compels it to exercise that.
 - **Netherlands.** One company in one country, and the country is the reason the company’s customer list is reachable. Export law over a single vendor is close to the strongest evidentiary lever anywhere on this board, and it belongs to a state that signed nothing.
-- **Japan.** Equipment and specialty materials: several quieter chokepoints, and the same shape as the Netherlands. ++}Its {--{"author":"Elias's AI","timestamp":1788016535133}@@surrounding --}{++{"author":"Elias's AI","timestamp":1788016535133}@@records matter to a verifier and its participation is voluntary.
+- **Japan.** Equipment and specialty materials: several quieter chokepoints, and the same shape as the Netherlands. Its records matter to a verifier and its participation is voluntary.
 - **South Korea.** High-bandwidth memory is scarce, essential to frontier training, and therefore countable — which makes the jurisdiction over the firms that make it an evidence position, not just a trade one.
 - **ASML.** The most upstream supplier there is — and upstream of Baker’s chain of custody, which begins at manufacturing. The tightest chokepoint on the board holds evidence about nobody, which is the sharpest thing this frame does to the roster.
-- **TSMC.** The chain of custody starts where the die is made. How many leading-edge parts exist at all, and who they were made for, is a fact only the fab holds — which is the same thing the ++}lesson {--{"author":"Elias's AI","timestamp":1788016535133}@@text--}{++{"author":"Elias's AI","timestamp":1788016535133}@@means by the “single tightest physical chokepoint in the system”, read as evidence rather than as leverage.
-- **NVIDIA.** Upstream of the run, not in it, and not a Prover for anybody else’s run. What it decides is whether accelerators ship with the security features a Verifier would read — which++} is {--{"author":"Elias's AI","timestamp":1788016535133}@@preserved --}{++{"author":"Elias's AI","timestamp":1788016535133}@@why it holds evidence about two different actors and no declaration of its own ++}here.{++{"author":"Elias's AI","timestamp":1788016535133}@@
+- **TSMC.** The chain of custody starts where the die is made. How many leading-edge parts exist at all, and who they were made for, is a fact only the fab holds — which is the same thing the lesson means by the “single tightest physical chokepoint in the system”, read as evidence rather than as leverage.
+- **NVIDIA.** Upstream of the run, not in it, and not a Prover for anybody else’s run. What it decides is whether accelerators ship with the security features a Verifier would read — which is why it holds evidence about two different actors and no declaration of its own here.
 
 **Verifies**
 
@@ -335,7 +327,7 @@ assessment-instructions:: XLab's marking key, 3 points: (1) the actor named hold
 #### Text
 content::
 {>>{"author":"Elias's AI","timestamp":1788016535133}@@Native reproduction of XLab's Actor Map Workshop from src/lib/verification/data/actor-workshop.ts and actor-map.ts (roster, recall target, core question, Baker rings and placement key, map finding, second-order question, closing questions and marking key). Note for Elias: in XLab's current repo, scoping-actors.mdx is cut to three paragraphs and the actor-workshop widget is no longer registered; the five tables above and the workshop are documented as XLab's own in docs/verification/module-1-log.md, so they are kept. XLab's ring map graphic (concentric SVG) is not reproduced; the placements are.<<}
-The edge exercise built on this board is the next lens: [[../Lenses/XLab Verification - v-actor-edges|1.2.2 Who can prove what]].++}
+The edge exercise built on this board is the next lens: [[../Lenses/XLab Verification - v-actor-edges|1.2.2 Who can prove what]].
 
 #### Text
 content::
@@ -355,7 +347,7 @@ Supply-chain structure: Sastry, Heim, Belfield et al., [“Computing Power and t
 
 **Currency.** The concentration figures above are 2021–2023 data reported in 2021 and 2024 sources. Shares move; the structure — one EUV maker, one dominant leading-edge fab, a handful of clouds — has not. Re-verify a number before quoting it.
 
-{--{"author":"Elias's AI","timestamp":1788016548550}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-actors)*--}{++{"author":"Elias's AI","timestamp":1788016548550}@@#### Text
+#### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *arXiv*, Nov. 2025. [arxiv.org](https://arxiv.org/abs/2511.10783)
@@ -380,4 +372,4 @@ XLab. "1.2 Actors: who does the treaty rely upon, apply to, and constrain?" *Ver
 *The source lesson this page adapts, including the five tables and the Actor Map Workshop.*
 
 The SB 53 bill text, the SB 53 reference site, METR's guide, the Future of Privacy Forum and White & Case summaries, the UN panel and Global Dialogue pages, and NIST CAISI are cited inline in Notes and sources and have no entry in XLab's citation registry.
-:::++}
+:::

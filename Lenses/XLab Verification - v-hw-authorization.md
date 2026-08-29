@@ -35,9 +35,9 @@ A complete authorization chain is:
 
 James Petrie’s 2024 firmware-based offline-licensing design is a useful proposal to analyze. It argues that some existing accelerators might support a minimal design through a firmware update if they already contain relevant security features. The proposed timeline is an author estimate, not deployment evidence. The paper also states that physical attacks remain a concern without additional hardware changes. No publicly documented, treaty-grade offline-licensing regime for frontier AI compute is operating as of August 2026.
 
-{--{"author":"Elias's AI","timestamp":1788015996611}@@**Src**--}{++{"author":"Elias's AI","timestamp":1788015996611}@@:::callout {title="Source" tone="neutral" collapse="closed"}++}
-J. Petrie, *Near-Term Enforcement of AI Chip Export Controls Using a Firmware-Based Design for Offline Licensing* — [arXiv:2404.18308](https://arxiv.org/abs/2404.18308), 2024.{++{"author":"Elias's AI","timestamp":1788015996611}@@
-:::++}
+:::callout {title="Source" tone="neutral" collapse="closed"}
+J. Petrie, *Near-Term Enforcement of AI Chip Export Controls Using a Firmware-Based Design for Offline Licensing* — [arXiv:2404.18308](https://arxiv.org/abs/2404.18308), 2024.
+:::
 
 \#### Control authority is part of the mechanism
 
@@ -55,19 +55,19 @@ The choice is not simply “control or no control.” It is a distribution of au
 
 \#### Activity: build the authorization chain
 
-{++{"author":"Elias's AI","timestamp":1788016007891}@@#### Question: Open
+#### Question: Open
 id:: 2d7cde29-94c1-4125-bc0f-c6a1b60e6683
-content:: ++}Assemble an end-to-end system for the working rule from the following components: device identity, attested firmware, protected counter, training classifier, signed record, cross-device aggregation, license token, revocation list, regulator, international notification, inspection trigger, and independent power measurement.
+content:: Assemble an end-to-end system for the working rule from the following components: device identity, attested firmware, protected counter, training classifier, signed record, cross-device aggregation, license token, revocation list, regulator, international notification, inspection trigger, and independent power measurement.
 
-Then answer: Which component measures the prohibited activity? Which only authenticates another component? Who decides the threshold was crossed? Which component can stop the activity? What detects an unregistered cluster? Which controls fail together if the manufacturer’s root key is compromised?{++{"author":"Elias's AI","timestamp":1788016007891}@@
+Then answer: Which component measures the prohibited activity? Which only authenticates another component? Who decides the threshold was crossed? Which component can stop the activity? What detects an unregistered cluster? Which controls fail together if the manufacturer’s root key is compromised?
 assessment-instructions:: This is an XLab writing or reflection exercise. Check that the learner answers all six questions and uses the listed components. Expected shape: the protected counter and training classifier measure; device identity, attested firmware and signed record authenticate; the regulator (not the chip) decides the threshold was crossed; the license token with revocation list can stop activity; independent power measurement, the inspection trigger and international notification are what can reach an unregistered cluster, since on-chip components see only registered devices; identity, attested firmware, protected counter, signed record and license token all fail together if the manufacturer's root key is compromised. Identify one strong point and one important gap, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Petrie, James. "Near-Term Enforcement of AI Chip Export Controls Using a Firmware-Based Design for Offline Licensing." *arXiv*, Apr. 2024. [arxiv.org](https://arxiv.org/abs/2404.18308)
-*A design for firmware-based offline licensing that would disable AI chips lacking a regulatory license, as a near-term export-control enforcement mechanism.*++}
+*A design for firmware-based offline licensing that would disable AI chips lacking a regulatory license, as a near-term export-control enforcement mechanism.*
 
-{--{"author":"Elias's AI","timestamp":1788016007891}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-authorization)*--}{++{"author":"Elias's AI","timestamp":1788016007891}@@XLab. "2.1.5 Authorization, licensing, and control." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-authorization)
+XLab. "2.1.5 Authorization, licensing, and control." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-authorization)
 *The source lesson this page adapts.*
-:::++}
+:::

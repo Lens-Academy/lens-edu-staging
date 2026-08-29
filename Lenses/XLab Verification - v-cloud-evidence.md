@@ -1,8 +1,8 @@
 ---
 id: 'eaadd7dc-7ba4-4cff-aa7c-6ad4e95f1a50'
 title: "2.2.4 Interpreting cloud evidence"
-tldr: {--{"author":"Elias's AI","timestamp":1788016206964}@@"Faithful alpha import of XLab lesson 2.2.4 Interpreting--}{++{"author":"Elias's AI","timestamp":1788016206964}@@"Nine short drills on one habit: reading a++} cloud {--{"author":"Elias's AI","timestamp":1788016206964}@@evidence."--}{++{"author":"Elias's AI","timestamp":1788016206964}@@record for exactly what it proves. A billing line, a KYC file, a power curve: each supports one conclusion and tempts you toward three more. Practice stopping at the first."++}
-summary_for_tutor: {--{"author":"Elias's AI","timestamp":1788016206964}@@"Imported --}{++{"author":"Elias's AI","timestamp":1788016206964}@@"Problem-set lens adapted ++}from {++{"author":"Elias's AI","timestamp":1788016206964}@@XLab lesson 2.2.4, a native reproduction of XLab's nine-task cloud-evidence drill. Tasks: six true or false statements; odd one out plus a one-sentence principle; select all available data categories; four matching questions (observable to strongest conclusion); a fill-the-gaps verification map; ordering the six stages of the Egan and Heim KYC scheme; naming four mechanisms; a case (qualify the evidence, multi-select); and a permissible-inference question. ++}XLab's {--{"author":"Elias's AI","timestamp":1788016206964}@@canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."--}{++{"author":"Elias's AI","timestamp":1788016206964}@@explanations sit in closed 'Why' callouts after each task and in the feedback instructions. Answers come from Heim et al. (2024), Egan and Heim (2023), Moon et al. (2025) and Tan (2026), read in lenses 2.2.1 to 2.2.3. When giving feedback, hold the learner to the qualifiers in each prompt: what the stated access and evidence support, and nothing beyond it."++}
+tldr: "Nine short drills on one habit: reading a cloud record for exactly what it proves. A billing line, a KYC file, a power curve: each supports one conclusion and tempts you toward three more. Practice stopping at the first."
+summary_for_tutor: "Problem-set lens adapted from XLab lesson 2.2.4, a native reproduction of XLab's nine-task cloud-evidence drill. Tasks: six true or false statements; odd one out plus a one-sentence principle; select all available data categories; four matching questions (observable to strongest conclusion); a fill-the-gaps verification map; ordering the six stages of the Egan and Heim KYC scheme; naming four mechanisms; a case (qualify the evidence, multi-select); and a permissible-inference question. XLab's explanations sit in closed 'Why' callouts after each task and in the feedback instructions. Answers come from Heim et al. (2024), Egan and Heim (2023), Moon et al. (2025) and Tan (2026), read in lenses 2.2.1 to 2.2.3. When giving feedback, hold the learner to the qualifiers in each prompt: what the stated access and evidence support, and nothing beyond it."
 tags: [wip]
 duration_minutes: 30
 ---
@@ -15,13 +15,13 @@ decide what it supports, what it cannot establish, who controls it, and what
 corroboration is still needed.
 
 #### Text
-content::{--{"author":"Elias's AI","timestamp":1788016280654}@@ **Interactive exercise:**--}{++{"author":"Elias's AI","timestamp":1788016280654}@@
+content::
 \## Cloud verification problem set
 
 *30 minutes*
 
 Answer from the assigned readings. Treat every qualifier as part of the question. Select only conclusions supported by the stated access and evidence.
-{>>{"author":"Elias's AI","timestamp":1788016280654}@@Native reproduction of++} XLab's {--{"author":"Elias's AI","timestamp":1788016280654}@@`cloud-evidence-drill`--}{++{"author":"Elias's AI","timestamp":1788016280654}@@cloud-evidence-drill widget (nine tasks). Prompts, statements, options, model answers and explanations are copied verbatim from src/lib/verification/data/cloud-evidence-drill.ts and the++} widget {++{"author":"Elias's AI","timestamp":1788016280654}@@component; the source links per task are the widget's own.<<}
+{>>{"author":"Elias's AI","timestamp":1788016280654}@@Native reproduction of XLab's cloud-evidence-drill widget (nine tasks). Prompts, statements, options, model answers and explanations are copied verbatim from src/lib/verification/data/cloud-evidence-drill.ts and the widget component; the source links per task are the widget's own.<<}
 
 \### Task 1 of 9: True or false (3 min)
 
@@ -120,7 +120,7 @@ Sources: [Moon et al., “Cloud Service Provider Monitoring Strategies” and �
 
 #### Question: Choice
 id:: 048366a3-8ef9-4e69-913e-cc37fb717c35
-content:: A provider has implemented the proposed KYC scheme and retains its ordinary billing and operational records. It ++}has no direct {--{"author":"Elias's AI","timestamp":1788016280654}@@Lens equivalent yet. --}{++{"author":"Elias's AI","timestamp":1788016280654}@@access to customer code or data. Select every category available under those conditions.
+content:: A provider has implemented the proposed KYC scheme and retains its ordinary billing and operational records. It has no direct access to customer code or data. Select every category available under those conditions.
 options::
 - [x] Customer name, billing address, IP addresses, and access times
 - [x] Requested hardware configuration and hours of use
@@ -206,7 +206,7 @@ Sources: [Heim et al., §3.2 and Appendix B, Table 4](https://arxiv.org/html/240
 
 #### Question: FillBlank
 id:: 94906aea-906a-4835-8207-2cc1e5732e18
-content:: ++}Complete {++{"author":"Elias's AI","timestamp":1788016280654}@@the verification map by matching each function to its mechanism. Use five terms from the bank. Three terms are not used.
+content:: Complete the verification map by matching each function to its mechanism. Use five terms from the bank. Three terms are not used.
 
 Term bank: KYC; record keeping; workload classification; compute accounting; reporting or escalation; attestation; model evaluation; source-code inspection.
 
@@ -235,7 +235,7 @@ items::
 - Provider continues monitoring for crossings and risk indicators
 - A crossing or high-risk profile is reported or subject to required controls
 assessment-instructions:: The authored order is the only fully correct order. Give partial credit for correct relative relationships: monitoring must come first, approaching the threshold must precede verification of the entity and owners, recording intended use follows verification, continued monitoring follows both, and reporting or required controls comes last.
-feedback-instructions:: Name the most important misplaced stage and why ++}it {++{"author":"Elias's AI","timestamp":1788016280654}@@belongs where it does under the scheme. Two sentences at most.
+feedback-instructions:: Name the most important misplaced stage and why it belongs where it does under the scheme. Two sentences at most.
 
 #### Text
 content::
@@ -271,7 +271,7 @@ Sources: [Heim et al., §3.2 and Appendix B, Table 4](https://arxiv.org/html/240
 id:: 2e0edfa6-5532-4c23-9b64-120a361a1675
 content:: A provider verifies a customer company and its recorded beneficial owners. The customer declares a rendering workload. It then requests tens of thousands of accelerators and shows sustained accelerator utilization, communication patterns associated with parallelization, and limited traffic to external networks. Select every conclusion supported by these facts.
 options::
-- [x] The account is associated with the company and owners verified ++}in the {--{"author":"Elias's AI","timestamp":1788016280654}@@[original XLab lesson](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-evidence). Its surrounding lesson text --}{++{"author":"Elias's AI","timestamp":1788016280654}@@KYC record.
+- [x] The account is associated with the company and owners verified in the KYC record.
 - [x] The technical pattern makes large-scale training more likely than the declared rendering workload.
 - [x] The discrepancy between the declaration and the technical pattern supports further review.
 - The provider has verified the model architecture and training dataset.
@@ -292,17 +292,17 @@ Sources: [Heim et al., §§3.3.2–3.3.4](https://arxiv.org/html/2403.08501v2#S3
 
 #### Question: Choice
 id:: 9ffcc965-5e91-4ade-ab15-68fd9dc936b3
-content:: Six accounts are registered to subsidiaries with the same verified beneficial owner. They run GPU sessions in sequence. Every session remains below a per-account FLOP threshold, but their aggregate compute exceeds it, and large data transfers precede the later sessions. Which response ++}is {--{"author":"Elias's AI","timestamp":1788016280654}@@preserved here.--}{++{"author":"Elias's AI","timestamp":1788016280654}@@justified?
+content:: Six accounts are registered to subsidiaries with the same verified beneficial owner. They run GPU sessions in sequence. Every session remains below a per-account FLOP threshold, but their aggregate compute exceeds it, and large data transfers precede the later sessions. Which response is justified?
 options::
 - Treat every account as compliant because each remained below the per-account threshold.
 - Issue a violation finding because aggregate compute alone proves that the owner conducted prohibited training.
 - [x] Open an investigation: test whether the rule aggregates commonly controlled accounts and whether the sessions form one training run.
 - Infer the resulting model’s capabilities from aggregate compute alone.
-feedback-instructions:: Two or three sentences. The pattern supports investigation. A finding still depends on the rule’s aggregation and coverage provisions and on evidence that the sessions form one training run. If the learner chose another option, say whether it ignores a documented detection gap or treats aggregate compute as proof of facts it cannot establish.++}
+feedback-instructions:: Two or three sentences. The pattern supports investigation. A finding still depends on the rule’s aggregation and coverage provisions and on evidence that the sessions form one training run. If the learner chose another option, say whether it ignores a documented detection gap or treats aggregate compute as proof of facts it cannot establish.
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788016280654}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-evidence)*--}{++{"author":"Elias's AI","timestamp":1788016280654}@@:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
 The pattern supports investigation. A finding still depends on the rule’s aggregation and coverage provisions and on evidence that the sessions form one training run.
 
 Sources: [Moon et al., “Cloud Service Provider Monitoring Strategies” and “Finding a Detection Gap”](https://www.rand.org/pubs/research_reports/RRA3686-1.html); [Moon et al., “Closing Detection Gaps”](https://www.rand.org/pubs/research_reports/RRA3686-1.html); [Egan and Heim, §§2.1–2.2.2](https://arxiv.org/html/2310.13625v1#S2.SS1); [Tan, “Cloud Controls Must Contend With ‘Who’ and ‘What’ They Restrict”](https://carnegieendowment.org/research/2026/05/the-geopolitical-debates-over-controlling-cloud-compute)
@@ -321,4 +321,4 @@ The readings this problem set draws on, Heim et al. (2024), Egan and Heim (2023)
 
 XLab. "2.2.4 Interpreting cloud evidence." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-evidence)
 *The source lesson this page adapts, including the nine-task problem set.*
-:::++}
+:::

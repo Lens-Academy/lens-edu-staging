@@ -31,9 +31,9 @@ Identity is a useful anchor for evidence from other mechanisms. It does not esta
 
 Location-verification proposals often use network timing or challenge-response measurements. A verifier sends unpredictable challenges and checks whether response times are consistent with the claimed region. Such protocols may make some forms of remote spoofing costly, but they depend on secure time, protected processing, network conditions, calibration, and a tolerable false-positive rate. Hardware-governance surveys continue to treat robust, scalable location verification as an open research area rather than a fielded treaty capability.
 
-{--{"author":"Elias's AI","timestamp":1788015964085}@@**Src**--}{++{"author":"Elias's AI","timestamp":1788015964085}@@:::callout {title="Source" tone="neutral" collapse="closed"}++}
-O’Gara et al., *Hardware-Enabled Mechanisms for Verifying Responsible AI Development* — [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025.{++{"author":"Elias's AI","timestamp":1788015964085}@@
-:::++}
+:::callout {title="Source" tone="neutral" collapse="closed"}
+O’Gara et al., *Hardware-Enabled Mechanisms for Verifying Responsible AI Development* — [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025.
+:::
 
 A location claim should therefore state its resolution and error model. “Inside Country A,” “inside this data center,” and “inside this rack” are different claims.
 
@@ -67,14 +67,14 @@ Hardware is therefore strongest for known, instrumented compute. The intelligenc
 
 \#### Try it
 
-{++{"author":"Elias's AI","timestamp":1788015973352}@@#### Question: Open
+#### Question: Open
 id:: 121faa9c-cabd-43ef-ad37-7be61a16e67d
-content:: ++}The treaty body wants to support the claim: “All covered accelerators at Site X are registered and accounted for.” Choose three evidence streams that do not share the same source. For each, name the actor that produces it and one way it could fail.
+content:: The treaty body wants to support the claim: “All covered accelerators at Site X are registered and accounted for.” Choose three evidence streams that do not share the same source. For each, name the actor that produces it and one way it could fail.
 
-A strong answer does not treat the site operator’s inventory, the site operator’s logs, and the site operator’s declaration as three independent streams.{++{"author":"Elias's AI","timestamp":1788015973352}@@
-assessment-instructions:: This is an XLab writing or reflection exercise. Full credit needs three streams with genuinely different producers (for example manufacturer or foundry production records, customs or shipping records, provider inventories, physical inspection and device counts, power or cooling or construction evidence, intelligence on diversion, insider reports), each with a named producing actor and one failure mode. Mark down answers whose three streams all originate with the site operator. Identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.++}
+A strong answer does not treat the site operator’s inventory, the site operator’s logs, and the site operator’s declaration as three independent streams.
+assessment-instructions:: This is an XLab writing or reflection exercise. Full credit needs three streams with genuinely different producers (for example manufacturer or foundry production records, customs or shipping records, provider inventories, physical inspection and device counts, power or cooling or construction evidence, intelligence on diversion, insider reports), each with a named producing actor and one failure mode. Mark down answers whose three streams all originate with the site operator. Identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
-{--{"author":"Elias's AI","timestamp":1788015973352}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-accounting)*--}{++{"author":"Elias's AI","timestamp":1788015973352}@@#### Text
+#### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 O'Gara, Aidan, Gabriel Kulp, Will Hodgkins, et al. "Hardware-Enabled Mechanisms for Verifying Responsible AI Development." *arXiv*, Apr. 2025. [arxiv.org](https://arxiv.org/abs/2505.03742)
@@ -82,4 +82,4 @@ O'Gara, Aidan, Gabriel Kulp, Will Hodgkins, et al. "Hardware-Enabled Mechanisms 
 
 XLab. "2.1.3 Accounting for hardware: identity, location, topology, and completeness." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-accounting)
 *The source lesson this page adapts.*
-:::++}
+:::

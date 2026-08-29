@@ -14,9 +14,9 @@ Hardware verification can place trust inside the accelerator, in a separate digi
 
 Use one verification target for the comparison:
 
-{--{"author":"Elias's AI","timestamp":1788016009977}@@**Prompt**--}{++{"author":"Elias's AI","timestamp":1788016009977}@@:::callout {title="Verification target" tone="blue"}++}
-Determine whether all covered compute in a declared data center is accounted for by permitted workloads.{++{"author":"Elias's AI","timestamp":1788016009977}@@
-:::++}
+:::callout {title="Verification target" tone="blue"}
+Determine whether all covered compute in a declared data center is accounted for by permitted workloads.
+:::
 
 \#### Architecture A: on-chip monitoring
 
@@ -42,11 +42,9 @@ Possible components include device identity, secure or measured boot, signed cou
 
 Current confidential-computing support on accelerators is a deployed security primitive, not proof of treaty compliance. For example, NVIDIA describes Hopper confidential computing as protecting code and data in use from the host and basic physical attacks under its stated threat model. A treaty adversary may be stronger than that threat model, and a confidential workload may still violate the treaty.
 
-{--{"author":"Elias's AI","timestamp":1788016012846}@@**Src**--}{++{"author":"Elias's AI","timestamp":1788016012846}@@:::callout {title="Source" tone="neutral" collapse="closed"}++}
-NVIDIA, [*NVIDIA H100 Tensor Core GPU Security*](https://images.nvidia.com/aem-dam/en-zz/Solutions/data-center/h100/PB-11133-001_v01.pdf) — the confidential-computing whitepaper and current product documentation.{--{"author":"Elias's AI","timestamp":1788016012846}@@
-
-\## Off-chip digital monitoring--}{++{"author":"Elias's AI","timestamp":1788016012846}@@
-:::++}
+:::callout {title="Source" tone="neutral" collapse="closed"}
+NVIDIA, [*NVIDIA H100 Tensor Core GPU Security*](https://images.nvidia.com/aem-dam/en-zz/Solutions/data-center/h100/PB-11133-001_v01.pdf) — the confidential-computing whitepaper and current product documentation.
+:::
 
 \#### Architecture B: off-chip digital monitoring
 
@@ -70,9 +68,9 @@ Possible components include network taps, server or rack gateways, input/output 
 
 Recent work has proposed fingerprinting or committing cluster input and output through external taps and secure gateways. These designs are research proposals. Their value is to make the trust-placement problem concrete, not to show that the engineering and political problems are solved.
 
-{--{"author":"Elias's AI","timestamp":1788016016327}@@**Src**--}{++{"author":"Elias's AI","timestamp":1788016016327}@@:::callout {title="Source" tone="neutral" collapse="closed"}++}
-A. Cankaya et al., *Fingerprinting All AI Cluster I/O Without Mutually Trusted Processors* — [arXiv:2606.10724](https://arxiv.org/abs/2606.10724), June 2026. Treat the architecture and implementation schedule as a research proposal.{++{"author":"Elias's AI","timestamp":1788016016327}@@
-:::++}
+:::callout {title="Source" tone="neutral" collapse="closed"}
+A. Cankaya et al., *Fingerprinting All AI Cluster I/O Without Mutually Trusted Processors* — [arXiv:2606.10724](https://arxiv.org/abs/2606.10724), June 2026. Treat the architecture and implementation schedule as a research proposal.
+:::
 
 \#### Architecture C: off-chip analog monitoring
 
@@ -124,9 +122,9 @@ Hardware evidence can reduce disclosure by returning a bounded claim rather than
 
 \#### Activity: bilateral pilot review
 
-{++{"author":"Elias's AI","timestamp":1788016025836}@@#### Question: Open
+#### Question: Open
 id:: 340e01e2-a25a-4e09-a0d6-ecf15bf09fea
-content:: ++}Compare an on-chip design with an off-chip design for the working pause rule. For each, record:
+content:: Compare an on-chip design with an off-chip design for the working pause rule. For each, record:
 
 - What a U.S. delegation would distrust;
 - What a Chinese delegation would distrust;
@@ -137,12 +135,12 @@ content:: ++}Compare an on-chip design with an off-chip design for the working p
 - The main abuse risk;
 - The smallest pilot that would produce decision-relevant evidence.
 
-Choose an architecture for a **pilot**, not immediate universal deployment. State the evidence the pilot must produce before the mechanism deserves a larger role.{++{"author":"Elias's AI","timestamp":1788016025836}@@
-assessment-instructions:: This is an XLab writing or reflection exercise. Check that both designs are covered on all eight items, that the two delegations' distrust is not symmetric boilerplate (for example vendor- or foreign-controlled keys on one side, verifier-supplied hardware as an espionage channel on the other), that the answer counts independent failure modes rather than mechanism names, and that it ends with a pilot choice and the evidence the pilot must produce. Mark down answers that recommend immediate universal deployment. Identify one strong point and one important gap, then ask one useful follow-up question. Do not imply that agreement with the source is required.++}
+Choose an architecture for a **pilot**, not immediate universal deployment. State the evidence the pilot must produce before the mechanism deserves a larger role.
+assessment-instructions:: This is an XLab writing or reflection exercise. Check that both designs are covered on all eight items, that the two delegations' distrust is not symmetric boilerplate (for example vendor- or foreign-controlled keys on one side, verifier-supplied hardware as an espionage channel on the other), that the answer counts independent failure modes rather than mechanism names, and that it ends with a pilot choice and the evidence the pilot must produce. Mark down answers that recommend immediate universal deployment. Identify one strong point and one important gap, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
-{--{"author":"Elias's AI","timestamp":1788016025836}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-where-trust-lives)*--}{++{"author":"Elias's AI","timestamp":1788016025836}@@#### Text
+#### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 XLab. "2.1.6 Where should trust live?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-where-trust-lives)
 *The source lesson this page adapts. The NVIDIA H100 security whitepaper and Cankaya et al. are cited inline above.*
-:::++}
+:::
