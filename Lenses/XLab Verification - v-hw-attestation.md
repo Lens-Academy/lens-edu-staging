@@ -132,7 +132,28 @@ The rest of this section uses one repeated method:
 4. **Rahman and Tajdari, Detecting Hidden ML Training With Zero-Overhead Telemetry.** Read the abstract, one adversarial-results table, the required hardware assumptions, and the limitations.
 5. **Baker et al., Verifying International Agreements on AI: Six Layers of Verification.** Read the on-chip, off-chip digital, and off-chip analog comparison.
 
-**Src**
-H. Birkholz et al., [“Remote ATtestation procedureS (RATS) Architecture”](https://www.rfc-editor.org/rfc/rfc9334.html), IETF RFC 9334, January 2023. NVIDIA, “Architecture Overview,” [*Attestation Quick Start Guide*](https://docs.nvidia.com/attestation/quick-start-guide/latest/architecture.html), documentation current August 1, 2026 — first-party implementation documentation, not an independent adversarial evaluation. T. O’Gara et al., “Hardware-Enabled Mechanisms for Verifying Responsible AI Development,” [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025. M. S. Rahman and M. Tajdari, “Detecting Hidden ML Training With Zero-Overhead Telemetry,” [arXiv:2606.19262](https://arxiv.org/abs/2606.19262), June 2026 — a preprint, presented as a component demonstration. Baker et al., “Verifying International Agreements on AI: Six Layers of Verification,” [arXiv:2507.15916](https://arxiv.org/abs/2507.15916), 2026.
+{--{"author":"Elias's AI","timestamp":1788015923669}@@**Src**--}{++{"author":"Elias's AI","timestamp":1788015923669}@@:::callout {title="Sources" tone="neutral" collapse="closed"}++}
+H. Birkholz et al., [“Remote ATtestation procedureS (RATS) Architecture”](https://www.rfc-editor.org/rfc/rfc9334.html), IETF RFC 9334, January 2023. NVIDIA, “Architecture Overview,” [*Attestation Quick Start Guide*](https://docs.nvidia.com/attestation/quick-start-guide/latest/architecture.html), documentation current August 1, 2026 — first-party implementation documentation, not an independent adversarial evaluation. T. O’Gara et al., “Hardware-Enabled Mechanisms for Verifying Responsible AI Development,” [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025. M. S. Rahman and M. Tajdari, “Detecting Hidden ML Training With Zero-Overhead Telemetry,” [arXiv:2606.19262](https://arxiv.org/abs/2606.19262), June 2026 — a preprint, presented as a component demonstration. Baker et al., “Verifying International Agreements on AI: Six Layers of Verification,” [arXiv:2507.15916](https://arxiv.org/abs/2507.15916), 2026.{++{"author":"Elias's AI","timestamp":1788015923669}@@
+:::
 
-*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-attestation)*
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Birkholz, Henk, et al. "Remote ATtestation ProcedureS (RATS) Architecture." *RFC 9334*, RFC Editor, Jan. 2023. [rfc-editor.org](https://www.rfc-editor.org/rfc/rfc9334.html)
+*The IETF architecture for remote attestation: the standard vocabulary of attesters, verifiers, and relying parties the hardware lessons use.*
+
+NVIDIA Corporation. "Architecture Overview." *NVIDIA Attestation Suite Documentation*, NVIDIA. [docs.nvidia.com](https://docs.nvidia.com/attestation/quick-start-guide/latest/architecture.html)
+*NVIDIA's documentation of its attestation architecture: how clients, cloud services, and GPU hardware form a verifiable chain of trust.*
+
+O'Gara, Aidan, Gabriel Kulp, Will Hodgkins, et al. "Hardware-Enabled Mechanisms for Verifying Responsible AI Development." *arXiv*, Apr. 2025. [arxiv.org](https://arxiv.org/abs/2505.03742)
+*A study of hardware-enabled mechanisms for verifiable reporting of AI training activity: compute usage, cluster configuration, and workload claims.*
+
+Rahman, Robi, and Sabiha Tajdari. "Detecting Hidden ML Training With Zero-Overhead Telemetry." *arXiv*, June 2026. [arxiv.org](https://arxiv.org/abs/2606.19262)
+*A study classifying GPU workloads from privacy-preserving telemetry, reporting 98.2 percent accuracy at spotting concealed training runs.*
+
+Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/abs/2507.15916)
+*A six-layer verification framework whose personnel-based layers map which workers can observe different violations and why disclosures still need independent confirmation.*++}
+
+{--{"author":"Elias's AI","timestamp":1788015923669}@@*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-attestation)*--}{++{"author":"Elias's AI","timestamp":1788015923669}@@XLab. "2.1 Hardware." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-attestation)
+*The source lesson this page adapts, including the opening claim ledger.*
+:::++}

@@ -41,13 +41,17 @@ Three questions recur throughout hardware verification.
 
 Hardware-rooted cryptography is often strongest on authenticity. Carefully designed measurement can improve correctness. Completeness usually requires evidence beyond the device itself.
 
-#### Question
+{++{"author":"Elias's AI","timestamp":1788015929329}@@\#### Notebook: initial claim map
+
+The opening puzzle is the attestation-token scenario from [[../Lenses/XLab Verification - v-hw-attestation|2.1 Hardware]].
+
+++}#### Question: Open
+id:: aff4f378-14ef-4cd4-b12d-249c4c66644e
 content:: Complete three sentences for the opening puzzle:
 
 - The artifact directly supports…
 - It could support… if…
 - It does not support…
-feedback:: false
 
 #### Text
 content::
