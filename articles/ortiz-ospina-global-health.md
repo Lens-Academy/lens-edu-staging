@@ -7,18 +7,20 @@ source_url: "https://ourworldindata.org/global-health"
 published: 2016-08-16
 created: 2026-08-29
 accessed: 2026-08-29
-llm-review:
-  date: 2026-08-29
-  model: "sonnet"
-  version: "article-qc-v1.2"
-  source:
-    fetched: 2026-08-29
-    kind: "live"
 description: "An overview of our research on global health."
 tags:
   - "article-importer"
----
-
+llm-review:
+  date: {--{"author":"Luc's AI","timestamp":1788096350789}@@2026-08-29--}{++{"author":"Luc's AI","timestamp":1788096350789}@@2026-08-30++}
+  model: "sonnet"
+  version: {--{"author":"Luc's AI","timestamp":1788096350599}@@"article-qc-v1.2"--}{++{"author":"Luc's AI","timestamp":1788096350599}@@"article-qc-v1.3"++}
+  source:
+    fetched: {--{"author":"Luc's AI","timestamp":1788096350372}@@2026-08-29--}{++{"author":"Luc's AI","timestamp":1788096350372}@@2026-08-30++}
+    kind: "live"
+{--{"author":"Luc's AI","timestamp":1788096350166}@@description: "An overview of our research on global health."
+tags:
+  - "article-importer"
+--}---
 %%
 Add discussion note here:
 
@@ -423,7 +425,7 @@ In richer countries like France, it represents a small fraction of total healthc
 
 While many countries, especially in the developing world, have made progress in reducing out-of-pocket expenses, others like Russia have seen these costs increase.
 
-![](https://ourworldindata.org/grapher/share-of-out-of-pocket-expenditure-on-healthcare.png?tab=map&imWidth=850)
+![](https://ourworldindata.org/grapher/share-of-out-of-pocket-expenditure-on-healthcare-by-country.png?tab=map&imWidth=850)
 
 ## Healthcare coverage
 
