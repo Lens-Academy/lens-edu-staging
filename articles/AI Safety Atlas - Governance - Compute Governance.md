@@ -12,8 +12,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/governance.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter4-a0a322670b21725098e1839edee61e6b3af18c4a900a1d2e5731d3efe4852f1a.pdf)*
 
 %%
@@ -77,7 +83,7 @@ The discussion in the next few subsections will focus on the elements of actuall
 
 **Training frontier AI models leaves multiple observable footprints which might allow us to detect concerning AI training runs.** The most reliable is energy consumption - training runs that might produce dangerous systems require massive power usage, often hundreds of megawatts, creating distinctive patterns ([Wasil et al., 2024](https://arxiv.org/abs/2408.16074);[ Shavit, 2023](https://arxiv.org/abs/2303.11341)). Besides energy, other technical indicators include network traffic patterns characteristic of model training, hardware procurement and shipping records, cooling system requirements and thermal signatures, infrastructure buildout like power substation construction ([Sastry et al., 2024](https://arxiv.org/abs/2402.08797);[ Shavit, 2023](https://arxiv.org/abs/2303.11341);[ Heim et al., 2024](https://arxiv.org/abs/2403.08501)). These signals become particularly powerful when combined - sudden spikes in both energy usage and network traffic at a facility containing known AI hardware strongly suggest active model training.
 
-**Regulations have already begun using compute thresholds to trigger oversight mechanisms.** The U.S. Executive Order on AI requires companies to notify the government about training runs exceeding $10^26$ operations - a threshold designed to capture the development of the most capable systems. The EU AI Act sets an even lower threshold of $10^25$ operations, requiring not just notification but also risk assessments and safety measures ([Heim & Koessler, 2024](https://arxiv.org/abs/2405.10799)). These thresholds help identify potentially risky development activities before they complete, enabling preventive rather than reactive governance.
+**Regulations have already begun using compute thresholds to trigger oversight mechanisms.** The U.S. Executive Order on AI requires companies to notify the government about training runs exceeding $10^{26}$ operations - a threshold designed to capture the development of the most capable systems. The EU AI Act sets an even lower threshold of $10^{25}$ operations, requiring not just notification but also risk assessments and safety measures ([Heim & Koessler, 2024](https://arxiv.org/abs/2405.10799)). These thresholds help identify potentially risky development activities before they complete, enabling preventive rather than reactive governance.
 
 ![Figure 4.11](https://ai-safety-atlas.com/_astro/59de5f71c7bf44805c8c348247f4120117459981ad5826085548c63f2e2b9b4a.DT6q2Mtb_25XqR4.webp)
 
