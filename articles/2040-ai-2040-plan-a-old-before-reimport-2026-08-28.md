@@ -2,8 +2,7 @@
 title: "AI 2040: Plan A"
 author:
   - "AI 2040"
-{--{"author":"Luc's AI","timestamp":1787926325266}@@source_url: "https://ai-2040.com/supplements/verification-plan"
---}published: 2026-08-20
+published: 2026-08-20
 created: 2026-08-20
 accessed: 2026-08-20
 allowAuthorInTitle: true

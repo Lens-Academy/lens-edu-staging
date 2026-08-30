@@ -34,7 +34,7 @@ TL;DR:
 
 _Cross-posted from_ [_Multiplier_](https://multipliercg.substack.com/p/the-case-for-ai-safety-capacity-building)
 
-I work on the [capacity-building team](https://coefficientgiving.org/funds/navigating-transformative-ai/funding-for-work-that-builds-capacity-to-address-risks-from-transformative-ai/) on the Global Catastrophic Risks-half of Coefficient Giving (formerly known as Open Philanthropy). Our remit is, roughly, to increase the amount of talent aiming to prevent unprecedented, globally catastrophic events. These days, we’re mostly focused on AI, and we’ve funded a number of projects and grantees that readers of this post might be familiar with– including MATS, BlueDot Impact, Constellation, 80,000 Hours, CEA, the Curve, {--{"author":"Luc's AI","timestamp":1787918819593}@@[FAR.AI](http://far.ai/)’s--}{++{"author":"Luc's AI","timestamp":1787918819593}@@[FAR.AI](http://far.ai)’s++} events, university groups, and many other workshops and projects.
+I work on the [capacity-building team](https://coefficientgiving.org/funds/navigating-transformative-ai/funding-for-work-that-builds-capacity-to-address-risks-from-transformative-ai/) on the Global Catastrophic Risks-half of Coefficient Giving (formerly known as Open Philanthropy). Our remit is, roughly, to increase the amount of talent aiming to prevent unprecedented, globally catastrophic events. These days, we’re mostly focused on AI, and we’ve funded a number of projects and grantees that readers of this post might be familiar with– including MATS, BlueDot Impact, Constellation, 80,000 Hours, CEA, the Curve, [FAR.AI](http://far.ai)’s events, university groups, and many other workshops and projects.
 
 The post aims to make the case that broadly, capacity-building work (including on AI risk) has been and continues to be extremely impactful, and to encourage people to consider pursuing relevant projects and careers.
 
@@ -134,7 +134,7 @@ Max got it into his head in high school that human-level AI was coming during hi
 
 **Claude’s summary:**
 
-Rachel got into effective altruism in high school through friends, and started a group at her university. She spent some time interning running retreats and {--{"author":"Luc's AI","timestamp":1787918819366}@@ended-up--}{++{"author":"Luc's AI","timestamp":1787918819366}@@ended up++} helping with Future Forum, a futurism conference that required a last-minute venue switch. She took a semester off to study AI safety, but decided she wasn't interested in research, and did web dev for a while. After running Manifest 2024, she started The Curve, and is now working on other field-building projects.
+Rachel got into effective altruism in high school through friends, and started a group at her university. She spent some time interning running retreats and ended up helping with Future Forum, a futurism conference that required a last-minute venue switch. She took a semester off to study AI safety, but decided she wasn't interested in research, and did web dev for a while. After running Manifest 2024, she started The Curve, and is now working on other field-building projects.
 
 **Rachel on what was most important:**
 

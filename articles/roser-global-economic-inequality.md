@@ -78,7 +78,7 @@ Beyond just two countries, how much does a person's home country matter for wher
 
 Inequality researcher Branko Milanovic studied this question and found that the country where a person lives explains *two-thirds* of the variation of income differences between all people in the world.[^cite-roser-2] Where a person lives is the most important factor of their income.
 
-For a variety of reasons — from family ties to the political restrictions that impede migration — very few people move between countries. Most of the world population {--{"author":"Luc's AI","timestamp":1787911252918}@@[[97%](https://ourworldindata.org/explorers/migration)]--}{++{"author":"Luc's AI","timestamp":1787911252918}@@[[96%](https://ourworldindata.org/grapher/migrant-populations?tab=line&country=~OWID_WRL&metric=immigrants&unit=share)]++} lives in the country they were born in. And so, for most people, it is not only the country they live in that determines their income but also the country they were born in.
+For a variety of reasons — from family ties to the political restrictions that impede migration — very few people move between countries. Most of the world population [[96%](https://ourworldindata.org/grapher/migrant-populations?tab=line&country=~OWID_WRL&metric=immigrants&unit=share)] lives in the country they were born in. And so, for most people, it is not only the country they live in that determines their income but also the country they were born in.
 
 This is not to say that a person's work ethic, talent, and skills do not matter for their income. They do. But it is to say that all these personal factors together matter much less than the factor that is entirely outside of a person's control: whether they are born into a large, productive economy or not.
 
@@ -138,11 +138,11 @@ What gives people the chance for a good life is when the entire society and econ
 
 I want to thank Joe Hasell and Toby Ord for their feedback on this article and visualizations.
 
-{--{"author":"Luc's AI","timestamp":1787911252608}@@-----}{++{"author":"Luc's AI","timestamp":1787911252608}@@#### The World Bank has updated its poverty and inequality data since the publication of this article
+#### The World Bank has updated its poverty and inequality data since the publication of this article
 
-This article uses a previous release of the World Bank's poverty and inequality data, in which incomes were expressed in 2011 international dollars.++}
+This article uses a previous release of the World Bank's poverty and inequality data, in which incomes were expressed in 2011 international dollars.
 
-{--{"author":"Luc's AI","timestamp":1787911252608}@@*This work is licensed under--}{++{"author":"Luc's AI","timestamp":1787911252608}@@The World Bank has since updated its methods, and now measures incomes in 2021 international-$. As part of these changes, the International Poverty Line used to measure extreme poverty has also been updated: from $1.90 a day (in 2011 prices) to $2.15 a day (in 2017 prices) to $3++} a {--{"author":"Luc's AI","timestamp":1787911252608}@@[Creative Commons Attribution 4.0 --}{++{"author":"Luc's AI","timestamp":1787911252608}@@day (in 2021 prices).
+The World Bank has since updated its methods, and now measures incomes in 2021 international-$. As part of these changes, the International Poverty Line used to measure extreme poverty has also been updated: from $1.90 a day (in 2011 prices) to $2.15 a day (in 2017 prices) to $3 a day (in 2021 prices).
 
 Because of the change of units, many of the figures mentioned in this article will differ from the latest World Bank figures.
 
@@ -150,11 +150,11 @@ Explore the latest data and read more about the World Bank's methodology:
 
 * [Poverty Data Explorer](https://ourworldindata.org/explorers/poverty-explorer)
 * [The $3 International Poverty Line](https://ourworldindata.org/new-international-poverty-line-3-dollars-per-day)
-* [From $1.90 to $2.15 a day: the updated ++}International {--{"author":"Luc's AI","timestamp":1787911252608}@@License](https://creativecommons.org/licenses/by/4.0/).*--}{++{"author":"Luc's AI","timestamp":1787911252608}@@Poverty Line](https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line)
+* [From $1.90 to $2.15 a day: the updated International Poverty Line](https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line)
 
 ## Continue reading on Our World in Data
 
-[How much economic growth is necessary to reduce global poverty substantially?](https://ourworldindata.org/poverty-minimum-growth-needed)++}
+[How much economic growth is necessary to reduce global poverty substantially?](https://ourworldindata.org/poverty-minimum-growth-needed)
 
 [^note-roser-1]: I have written a detailed description of this chart and the shown data in [my post on Global poverty in an unequal world](https://ourworldindata.org/higher-poverty-global-line).
 

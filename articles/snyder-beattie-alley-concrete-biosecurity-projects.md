@@ -91,8 +91,7 @@ Again, please fill in [this coordination form](https://docs.google.com/forms/d/e
 
 :::collapse
 *We thank Chris Bakerlee, Jamie Balsillie, Kevin Esvelt, Kyle Fish, Cate Hall, Holden Karnofsky, Grigory Khimulya, Mike Levine, and Carl Shulman for feedback on this post.*
-{--{"author":"Luc's AI","timestamp":1787919029261}@@
-*This work is licensed under a [Creative Commons Attribution 4.0 International License.](https://creativecommons.org/licenses/by/4.0/)*--}{++{"author":"Luc's AI","timestamp":1787919029261}@@:::++}
+:::
 
 [^note-snyder-1]: E.g. if biorisk was 1% in the next century, each of these interventions would cut the absolute risk of catastrophe by at least 0.01%
 

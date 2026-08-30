@@ -33,7 +33,7 @@ Add discussion note here:
 
 %%
 
-# Crucial {--{"author":"Luc's AI","timestamp":1787918120668}@@Consideration--}{++{"author":"Luc's AI","timestamp":1787918120668}@@consideration++}
+# Crucial consideration
 
 A **crucial consideration** is a consideration that warrants a major reassessment of a cause or intervention.
 

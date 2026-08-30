@@ -31,9 +31,9 @@ Add discussion note here:
 
 This is the final piece in the ["most important century" series](https://www.cold-takes.com/roadmap-for-the-most-important-century-series/), which has argued that there's a [high probability](https://www.cold-takes.com/forecasting-transformative-ai-whats-the-burden-of-proof/#some-rough-probabilities)[^note-karnofsky-1] that the coming decades will see:
 
-- The development of a technology like {--{"author":"Luc's AI","timestamp":1787911044150}@@**PASTA**--}{++{"author":"Luc's AI","timestamp":1787911044150}@@[PASTA](https://www.cold-takes.com/transformative-ai-timelines-part-1-of-4-what-kind-of-ai/)++} (process for automating scientific and technological advancement).
-- A resulting {--{"author":"Luc's AI","timestamp":1787911044150}@@**productivity explosion**--}{++{"author":"Luc's AI","timestamp":1787911044150}@@[productivity explosion](https://www.cold-takes.com/transformative-ai-timelines-part-1-of-4-what-kind-of-ai/#explosive-scientific-and-technological-advancement)++} leading to development of further transformative technologies.
-- The seed of a {--{"author":"Luc's AI","timestamp":1787911044150}@@**stable--}{++{"author":"Luc's AI","timestamp":1787911044150}@@[stable++} galaxy-wide {--{"author":"Luc's AI","timestamp":1787911044150}@@civilization**,--}{++{"author":"Luc's AI","timestamp":1787911044150}@@civilization](https://www.cold-takes.com/all-possible-views-about-humanitys-future-are-wild/),++} possibly featuring {--{"author":"Luc's AI","timestamp":1787911044150}@@digital people,--}{++{"author":"Luc's AI","timestamp":1787911044150}@@[digital people](https://www.cold-takes.com/how-digital-people-could-change-the-world/),++} or possibly run by {--{"author":"Luc's AI","timestamp":1787911044150}@@misaligned AI.--}{++{"author":"Luc's AI","timestamp":1787911044150}@@[misaligned AI](https://www.cold-takes.com/transformative-ai-timelines-part-1-of-4-what-kind-of-ai/#misaligned-ai-mysterious-potentially-dangerous-objectives).++}
+- The development of a technology like [PASTA](https://www.cold-takes.com/transformative-ai-timelines-part-1-of-4-what-kind-of-ai/) (process for automating scientific and technological advancement).
+- A resulting [productivity explosion](https://www.cold-takes.com/transformative-ai-timelines-part-1-of-4-what-kind-of-ai/#explosive-scientific-and-technological-advancement) leading to development of further transformative technologies.
+- The seed of a [stable galaxy-wide civilization](https://www.cold-takes.com/all-possible-views-about-humanitys-future-are-wild/), possibly featuring [digital people](https://www.cold-takes.com/how-digital-people-could-change-the-world/), or possibly run by [misaligned AI](https://www.cold-takes.com/transformative-ai-timelines-part-1-of-4-what-kind-of-ai/#misaligned-ai-mysterious-potentially-dangerous-objectives).
 
 When trying to call attention to an underrated problem, **it's typical to close on a "call to action":** a tangible, concrete action readers can take to help.
 
@@ -50,9 +50,9 @@ So instead of a call to action, I want to make a **call to vigilance.** If you'r
 
 This could mean:
 
-- Finding ways to interact more with, and learn more about, key topics/fields/industries such as AI (for obvious reasons), science and technology generally (as a lot of the "most important century" hypothesis runs through an {--{"author":"Luc's AI","timestamp":1787911043411}@@explosion--}{++{"author":"Luc's AI","timestamp":1787911043411}@@[explosion++} in scientific and technological {--{"author":"Luc's AI","timestamp":1787911043411}@@advancement),--}{++{"author":"Luc's AI","timestamp":1787911043411}@@advancement](https://www.cold-takes.com/transformative-ai-timelines-part-1-of-4-what-kind-of-ai/#impacts-of-pasta)),++} and relevant areas of policy and national security.
-- Taking opportunities (when you see them) to move your career in a direction that is more likely to be relevant (some thoughts {++{"author":"Luc's AI","timestamp":1787911043411}@@of mine ++}on this are {--{"author":"Luc's AI","timestamp":1787911043411}@@[here](/posts/bud2ssJLQ33pSemKH);--}{++{"author":"Luc's AI","timestamp":1787911043411}@@[here](https://forum.effectivealtruism.org/posts/bud2ssJLQ33pSemKH/my-current-impressions-on-career-choice-for-longtermists);++} also see [80,000 Hours](https://www.80000hours.org/)).
-- Connecting with other people interested in these topics (I believe this has been one of the biggest drivers of people coming to do high-impact work in the past). Currently, I think the [effective altruism](https://en.wikipedia.org/wiki/Effective_altruism) community is the best venue for this, and you can learn about how to connect with people via the [Centre for Effective Altruism](https://www.centreforeffectivealtruism.org/) (see the "Get involved" dropdown).{++{"author":"Luc's AI","timestamp":1787911043411}@@ If new ways of connecting with people come up in the future, I will likely post them on Cold Takes.++}
+- Finding ways to interact more with, and learn more about, key topics/fields/industries such as AI (for obvious reasons), science and technology generally (as a lot of the "most important century" hypothesis runs through an [explosion in scientific and technological advancement](https://www.cold-takes.com/transformative-ai-timelines-part-1-of-4-what-kind-of-ai/#impacts-of-pasta)), and relevant areas of policy and national security.
+- Taking opportunities (when you see them) to move your career in a direction that is more likely to be relevant (some thoughts of mine on this are [here](https://forum.effectivealtruism.org/posts/bud2ssJLQ33pSemKH/my-current-impressions-on-career-choice-for-longtermists); also see [80,000 Hours](https://www.80000hours.org/)).
+- Connecting with other people interested in these topics (I believe this has been one of the biggest drivers of people coming to do high-impact work in the past). Currently, I think the [effective altruism](https://en.wikipedia.org/wiki/Effective_altruism) community is the best venue for this, and you can learn about how to connect with people via the [Centre for Effective Altruism](https://www.centreforeffectivealtruism.org/) (see the "Get involved" dropdown). If new ways of connecting with people come up in the future, I will likely post them on Cold Takes.
 - And of course, taking any opportunities you see for [robustly helpful actions](https://www.cold-takes.com/p/f5eba675-6b0e-4f19-b2ad-b63a6bafc8fd/#robustly-helpful-actions).
 
 ## Buttons you can click
@@ -67,9 +67,9 @@ If you're a person we might wish we could find in the future, you can help now b
 
 ## Sharing a headspace
 
-In [This Can't Go On](https://www.cold-takes.com/this-cant-go-on/), I analogized the world to people on a plane blasting down the runway, without knowing why they're moving so fast or what's coming {--{"author":"Luc's AI","timestamp":1787911042936}@@next.--}{++{"author":"Luc's AI","timestamp":1787911042936}@@next:++}
+In [This Can't Go On](https://www.cold-takes.com/this-cant-go-on/), I analogized the world to people on a plane blasting down the runway, without knowing why they're moving so fast or what's coming next:
 
-{--{"author":"Luc's AI","timestamp":1787911042708}@@![Airplane blasting down--}{++{"author":"Luc's AI","timestamp":1787911042708}@@![Animated image of the view out++} the {--{"author":"Luc's AI","timestamp":1787911042708}@@runway at high speed](https://storage.ghost.io/c/c1/87/c187484b-b759-4728-8cb3-1c009c2c024e/content/images/2021/07/airplane-launch-compressed.gif)--}{++{"author":"Luc's AI","timestamp":1787911042708}@@airplane window as it blasts down the runway.](https://storage.ghost.io/c/c1/87/c187484b-b759-4728-8cb3-1c009c2c024e/content/images/2021/07/airplane-launch-compressed.gif)++}
+![Animated image of the view out the airplane window as it blasts down the runway.](https://storage.ghost.io/c/c1/87/c187484b-b759-4728-8cb3-1c009c2c024e/content/images/2021/07/airplane-launch-compressed.gif)
 
 As someone sitting on this plane, I'd love to be able to tell you I've figured out exactly what's going on and what future we need to be planning for. But I haven't.
 
@@ -82,7 +82,5 @@ Lacking answers, I've tried to at least show you what I do see:
 There's a lot I don't know. But if this is the most important century, I do feel confident that we as a civilization aren't yet up to the challenges it presents.
 
 If that's going to change, it needs to start with more people seeing the situation for what it is, taking it seriously, taking action when they can — and when not, staying vigilant.
-{--{"author":"Luc's AI","timestamp":1787911042465}@@
-*This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
---}
+
 [^note-karnofsky-1]: "I am forecasting more than a 10% chance transformative AI will be developed within 15 years (by 2036); a ~50% chance it will be developed within 40 years (by 2060); and a ~2/3 chance it will be developed this century (by 2100)."
