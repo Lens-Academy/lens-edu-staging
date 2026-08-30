@@ -12,8 +12,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/governance.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter4-a0a322670b21725098e1839edee61e6b3af18c4a900a1d2e5731d3efe4852f1a.pdf)*
 
 %%
@@ -37,7 +43,7 @@ Data fundamentally shapes AI capabilities and risks, but it is challenging to re
 
 **What are the key data governance concerns?** Several aspects of data require careful governance to promote safe AI development:
 
-- Training data** quality and safety is fundamental - low quality or harmful data can create unreliable or dangerous models**. For instance, technical data about biological weapons in training sets could enable models to assist in their development ([Anderljung et al., 2023](https://arxiv.org/abs/2307.03718)).
+- Training data **quality and safety is fundamental - low quality or harmful data can create unreliable or dangerous models**. For instance, technical data about biological weapons in training sets could enable models to assist in their development ([Anderljung et al., 2023](https://arxiv.org/abs/2307.03718)).
 - **Data poisoning and security pose increasingly serious threats**. Malicious actors could deliberately manipulate training data to create models that behave dangerously in specific situations while appearing safe during testing. This might involve injecting subtle patterns that only become apparent under certain conditions ([Longpre et al., 2024](https://arxiv.org/abs/2407.14933)).
 - **Data provenance and accountability help ensure we can trace where model behaviors come from**. Without clear tracking of training data sources and their characteristics, it becomes extremely difficult to diagnose and fix problems when models exhibit concerning behaviors ([Longpre et al., 2023](https://arxiv.org/abs/2310.16787)).
 - **Consent and rights frameworks protect both data creators and users**. Many current AI training practices operate in legal and ethical grey areas regarding data usage rights. Clear frameworks could help prevent unauthorized use while enabling legitimate innovation ([Longpre et al., 2024](https://arxiv.org/abs/2407.14933)).
