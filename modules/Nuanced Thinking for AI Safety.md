@@ -3,6 +3,10 @@ id: 'a06b34b2-f905-49e0-bdb3-3fdec4e709df'
 slug: nuanced-thinking-for-ai-safety
 title: Nuanced Thinking for AI Safety
 ---
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Nuanced thinking]]
+
 # Lens: Why Nuanced Thinking Matters for AI Safety
 id:: 8d341d3c-7ad4-44e6-9914-c8d21b9be500
 tldr:: The future is hard to predict, and it's hard to reason about what to do. In this module, you'll learn some techniques to help you think better about hard problems.
