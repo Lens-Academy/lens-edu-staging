@@ -10,8 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)*
 
 %%
@@ -42,3 +48,9 @@ Let's start with what these systems can actually do—and how quickly that list 
 ![Figure 1.1](https://ai-safety-atlas.com/_astro/954ddc42c48965ad869ad27a57cacdeb273883e1f00e0fa554e550babe8bd84f.B781Q3hr_ZFCV6i.webp)
 
 *Figure 1.1: We first explain foundation models, which have been continuously showing improved capabilities due to scale. Then examine empirically observed scaling laws. Based on these trends we look at some techniques that researchers use to try and forecast future AI progress.*
+
+:::hide
+### Acknowledgements
+
+We thank Jeanne Salle, Charles Martinet, Vincent Corruble, Diego Dorn, Josh Thorsteinson, Jonathan Claybrough, Alejandro Acelas, Jamie Raldua Veuthey, Alexandre Variengien, Léo Dana, Angélina Gentaz, Nicolas Guillard and Leo Karoubi for their valuable feedback and contributions.
+:::
