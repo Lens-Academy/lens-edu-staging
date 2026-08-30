@@ -10,8 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)*
 
 %%
@@ -70,7 +76,7 @@ In the next section we discuss just one of these factors that tends to be the mo
 
 *Figure 1.45: Comparison of slow vs fast takeoff. Showcasing that while described as linguistically slower than fast, it is by no means slow ([Christiano, 2018](https://sideways-view.com/2018/02/24/takeoff-speeds/)).*
 
-Understanding fast vs slow helps you get the overview of the takeoff debate, but there can be a bunch of other factors like - are there sudden jumps? (takeoff continuity), how many systems are ‘taking off’ at the same tim? (takeoff polarity), how architecturally similar are these systems? (takeoff similarity) . If you want to learn more feel free to read the details on these in the optional appendix.
+Understanding fast vs slow helps you get the overview of the takeoff debate, but there can be a bunch of other factors like - are there sudden jumps? (takeoff continuity), how many systems are ‘taking off’ at the same time? (takeoff polarity), how architecturally similar are these systems? (takeoff similarity). If you want to learn more feel free to read the details on these in the optional appendix.
 
 ## Takeoff Arguments
 
