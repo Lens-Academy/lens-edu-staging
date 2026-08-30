@@ -2,8 +2,7 @@
 title: "How AI could create the world’s biggest problems"
 author:
   - "Zershaaneh Qureshi"
-{--{"author":"Luc's AI","timestamp":1787926326471}@@source_url: "https://80000hours.org/problem-profiles/artificial-intelligence/"
---}published: 2026-06-23
+published: 2026-06-23
 created: 2026-06-29
 accessed: 2026-06-29
 description: "Could working on AI risks be the highest-impact career choice today? Explore why AI may trigger rapid, dramatic societal change — and what you can do about it."

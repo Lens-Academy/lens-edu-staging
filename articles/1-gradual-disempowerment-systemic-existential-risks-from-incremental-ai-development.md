@@ -8,7 +8,7 @@ author:
   - "David Krueger"
   - "David Duvenaud"
 source_url: "https://arxiv.org/abs/2501.16946"
-published: {--{"author":"Luc's AI","timestamp":1787917952744}@@2025-01-01--}{++{"author":"Luc's AI","timestamp":1787917952744}@@2025-01-29++}
+published: 2025-01-29
 created: 2026-06-21
 accessed: 2026-06-21
 description:
@@ -55,39 +55,17 @@ In this paper, we explore an alternative scenario: a ‘Gradual Disempowerment�
 
 Our argument is structured around six core claims:
 
-1.  {--{"author":"Luc's AI","timestamp":1787917951976}@@1.
-    
-    --}Humans currently engage with numerous large-scale societal systems (e.g. governments, economic systems) that are influenced by human action and, in turn, produce outcomes that shape our collective future (Giddens,, [1984](https://arxiv.org/html/2501.16946v2#bib.bib28)). These societal systems are fairly aligned[^note-1-1]—that is, they broadly incentivize and produce outcomes that satisfy human preferences. However, this alignment is neither automatic nor inherent.{--{"author":"Luc's AI","timestamp":1787917951976}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917951976}@@
+1.  Humans currently engage with numerous large-scale societal systems (e.g. governments, economic systems) that are influenced by human action and, in turn, produce outcomes that shape our collective future (Giddens,, [1984](https://arxiv.org/html/2501.16946v2#bib.bib28)). These societal systems are fairly aligned[^note-1-1]—that is, they broadly incentivize and produce outcomes that satisfy human preferences. However, this alignment is neither automatic nor inherent.
 
-++}2.  {--{"author":"Luc's AI","timestamp":1787917951976}@@2.
-    
-    --}There are effectively two ways these systems maintain their alignment: through explicit human actions (like voting and consumer choice), and implicitly through their reliance on human labor and cognition. The significance of the implicit alignment can be hard to recognize because we have never seen its absence.{--{"author":"Luc's AI","timestamp":1787917951976}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917951976}@@
+2.  There are effectively two ways these systems maintain their alignment: through explicit human actions (like voting and consumer choice), and implicitly through their reliance on human labor and cognition. The significance of the implicit alignment can be hard to recognize because we have never seen its absence.
 
-++}3.  {--{"author":"Luc's AI","timestamp":1787917951976}@@3.
-    
-    --}If these systems become less reliant on human labor and cognition, that would also decrease the extent to which humans could explicitly or implicitly align them. As a result, these systems—and the outcomes they produce—might drift further from providing what humans want.{--{"author":"Luc's AI","timestamp":1787917951976}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917951976}@@
+3.  If these systems become less reliant on human labor and cognition, that would also decrease the extent to which humans could explicitly or implicitly align them. As a result, these systems—and the outcomes they produce—might drift further from providing what humans want.
 
-++}4.  {--{"author":"Luc's AI","timestamp":1787917951976}@@4.
-    
-    --}Furthermore, to the extent that these systems already reward outcomes that are bad for humans, AI systems may more effectively follow these incentives, both reaping the rewards and causing the outcomes to diverge further from human preferences (Russell,, [2019](https://arxiv.org/html/2501.16946v2#bib.bib59)).{--{"author":"Luc's AI","timestamp":1787917951976}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917951976}@@
+4.  Furthermore, to the extent that these systems already reward outcomes that are bad for humans, AI systems may more effectively follow these incentives, both reaping the rewards and causing the outcomes to diverge further from human preferences (Russell,, [2019](https://arxiv.org/html/2501.16946v2#bib.bib59)).
 
-++}5.  {--{"author":"Luc's AI","timestamp":1787917951976}@@5.
-    
-    --}The societal systems we describe are interdependent, and so misalignment in one can aggravate the misalignment in others. For example, economic power can be used to influence policy and regulation, which in turn can generate further economic power or alter the economic landscape.{--{"author":"Luc's AI","timestamp":1787917951976}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917951976}@@
+5.  The societal systems we describe are interdependent, and so misalignment in one can aggravate the misalignment in others. For example, economic power can be used to influence policy and regulation, which in turn can generate further economic power or alter the economic landscape.
 
-++}6.  {--{"author":"Luc's AI","timestamp":1787917951976}@@6.
-    
-    --}If these societal systems become increasingly misaligned, especially in a correlated way, this would likely culminate in humans becoming {--{"author":"Luc's AI","timestamp":1787917951976}@@disempowered:--}{++{"author":"Luc's AI","timestamp":1787917951976}@@_disempowered_:++} unable to meaningfully command resources or influence outcomes. With sufficient disempowerment, even basic self-preservation and sustenance may become unfeasible. Such an outcome would be an existential catastrophe.
+6.  If these societal systems become increasingly misaligned, especially in a correlated way, this would likely culminate in humans becoming _disempowered_: unable to meaningfully command resources or influence outcomes. With sufficient disempowerment, even basic self-preservation and sustenance may become unfeasible. Such an outcome would be an existential catastrophe.
     
 
 In making this argument, we will largely focus on three systems: the economy, culture, and states. These systems collectively represent the foundations of our society: While analogous arguments could be made for other somewhat overlapping domains, such as research or law, this set seems sufficient to establish the nature and severity of a potential catastrophe.
@@ -164,7 +142,7 @@ Second, the economy might become so optimized for AI-centric activities that it 
 
 Finally, humans might lose the ability to meaningfully participate in economic decision-making at any level. Financial markets might move too quickly for human participants to engage with them, and the complexity of AI-driven economic systems might exceed human comprehension, rendering it impossible for humans to make informed economic decisions or effectively regulate economic activity. Much like cattle in an industrial farm — fed and housed by systems they neither comprehend nor influence — humans might become mere subjects of economic forces optimized for purposes beyond their understanding.
 
-![Refer to {--{"author":"Luc's AI","timestamp":1787917951729}@@caption](https://arxiv.org/html/2501.16946/x1.png)--}{++{"author":"Luc's AI","timestamp":1787917951729}@@caption](https://arxiv.org/html/2501.16946v2/gradfig2.png)++}
+![Refer to caption](https://arxiv.org/html/2501.16946v2/gradfig2.png)
 
 Figure 1: A simplified model of a potential future trajectory where AI displaces human labor and the fraction of unautomated tasks collapses to zero in a fixed amount of time. Note that wages grow during the initial period but then collapse before full automation is reached. Inspired by simulations in scenario analysis by Korinek and Suh, ([2024](https://arxiv.org/html/2501.16946v2#bib.bib42)).
 
@@ -232,27 +210,13 @@ Notably, AI-generated cultural artifacts will typically find their way back into
 
 Beyond shifting what kinds of cultural variants are selected for, AI systems could dramatically accelerate the pace of cultural evolution itself. This acceleration presents distinct risks, even if selection pressures remained human-centric. With vastly more computational power applied to generating and testing cultural variants, we might see:
 
--{--{"author":"Luc's AI","timestamp":1787917951450}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917951450}@@ ++}More effective exploitation of human cognitive biases: Just as A/B testing and recommendation algorithms have already optimized content to be increasingly addictive, AI systems could discover and exploit psychological vulnerabilities more efficiently than previous technologies. When scaled up, AI systems could systematically explore the space of possible cultural artifacts, optimizing for engagement or influence with greater power than humans.{--{"author":"Luc's AI","timestamp":1787917951450}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917951450}@@
+- More effective exploitation of human cognitive biases: Just as A/B testing and recommendation algorithms have already optimized content to be increasingly addictive, AI systems could discover and exploit psychological vulnerabilities more efficiently than previous technologies. When scaled up, AI systems could systematically explore the space of possible cultural artifacts, optimizing for engagement or influence with greater power than humans.
 
-++}-{--{"author":"Luc's AI","timestamp":1787917951450}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917951450}@@ ++}More extreme ideological variants: Cultural evolution could rapidly explore and refine ideas that are highly effective at spreading, even if they’re ultimately harmful to their human hosts. These might include more compelling conspiracy theories, more polarizing political narratives, or more absolutist moral frameworks. The natural limits imposed by the relative slowness of human cultural transmission and adaptation would no longer apply.{--{"author":"Luc's AI","timestamp":1787917951450}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917951450}@@
+- More extreme ideological variants: Cultural evolution could rapidly explore and refine ideas that are highly effective at spreading, even if they’re ultimately harmful to their human hosts. These might include more compelling conspiracy theories, more polarizing political narratives, or more absolutist moral frameworks. The natural limits imposed by the relative slowness of human cultural transmission and adaptation would no longer apply.
 
-++}-{--{"author":"Luc's AI","timestamp":1787917951450}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917951450}@@ ++}Faster erosion of equilibria that previously helped maintain social stability: Cultural practices and beliefs that evolved over centuries to balance competing interests and needs could be rapidly displaced by more immediately appealing but ultimately destructive alternatives.{--{"author":"Luc's AI","timestamp":1787917951450}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917951450}@@
+- Faster erosion of equilibria that previously helped maintain social stability: Cultural practices and beliefs that evolved over centuries to balance competing interests and needs could be rapidly displaced by more immediately appealing but ultimately destructive alternatives.
 
-++}-{--{"author":"Luc's AI","timestamp":1787917951450}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917951450}@@ ++}Reduced time for humans to develop cultural ”antibodies” against harmful patterns: Historically, societies have gradually developed resistance to dangerous ideological variants through experience and adaptation. Accelerated cultural evolution could overwhelm these natural correction mechanisms, introducing novel memetic hazards faster than human societies can learn to recognize and resist them.
+- Reduced time for humans to develop cultural ”antibodies” against harmful patterns: Historically, societies have gradually developed resistance to dangerous ideological variants through experience and adaptation. Accelerated cultural evolution could overwhelm these natural correction mechanisms, introducing novel memetic hazards faster than human societies can learn to recognize and resist them.
     
 
 This acceleration of cultural evolution represents a distinct risk from changes in selection pressures. Even if AI systems were optimizing for human engagement and appeal, the sheer speed and efficiency of this optimization could produce cultural patterns that are simultaneously appealing and deeply harmful.
@@ -383,25 +347,15 @@ In the final state, with AI systems providing most economic value and governance
 
 We have so far focused on how the economy, culture, and states could independently become misaligned. A natural objection is that the different societal systems might be able to keep each other aligned through checks and balances. Indeed, we naturally think of these systems as balancing each other: states regulate the market, culture influences government, and so on. However, here we discuss how relationships between systems might actually make them less aligned. Specifically, we argue that:
 
-1.  {--{"author":"Luc's AI","timestamp":1787917951166}@@1.
-    
-    --}The relationships between societal systems are {--{"author":"Luc's AI","timestamp":1787917951166}@@agnostic--}{++{"author":"Luc's AI","timestamp":1787917951166}@@**agnostic++} to human {--{"author":"Luc's AI","timestamp":1787917951166}@@values--}{++{"author":"Luc's AI","timestamp":1787917951166}@@values**++} — they do not inherently promote or protect alignment with human values. Consequently, as one system becomes less aligned, that influence also can be used to decrease the alignment of other systems{--{"author":"Luc's AI","timestamp":1787917951166}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917951166}@@
-++}2.  {--{"author":"Luc's AI","timestamp":1787917951166}@@2.
-    
-    --}Attempts to use one aligned system to moderate the misalignment of another can backfire by effectively {--{"author":"Luc's AI","timestamp":1787917951166}@@shifting--}{++{"author":"Luc's AI","timestamp":1787917951166}@@**shifting++} the {--{"author":"Luc's AI","timestamp":1787917951166}@@burden,--}{++{"author":"Luc's AI","timestamp":1787917951166}@@burden**,++} thus leaving the aligned system more vulnerable{--{"author":"Luc's AI","timestamp":1787917951166}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917951166}@@
+1.  The relationships between societal systems are **agnostic to human values** — they do not inherently promote or protect alignment with human values. Consequently, as one system becomes less aligned, that influence also can be used to decrease the alignment of other systems
+2.  Attempts to use one aligned system to moderate the misalignment of another can backfire by effectively **shifting the burden**, thus leaving the aligned system more vulnerable
 
-++}3.  {--{"author":"Luc's AI","timestamp":1787917951166}@@3.
-    
-    --}The misalignment is a result of {--{"author":"Luc's AI","timestamp":1787917951166}@@general incentives--}{++{"author":"Luc's AI","timestamp":1787917951166}@@**general incentives**++} which will likely apply to each individual system independently. In other words, humans and human institutions will be incentivized to take actions which will overall decrease the degree of influence which humans have over societal systems.
+3.  The misalignment is a result of **general incentives** which will likely apply to each individual system independently. In other words, humans and human institutions will be incentivized to take actions which will overall decrease the degree of influence which humans have over societal systems.
     
 
 We discuss each of these points in more detail below. Additionally, Figure [2](https://arxiv.org/html/2501.16946v2#S5.F2 "Figure 2 ‣ 5 Mutual Reinforcement ‣ Gradual Disempowerment: Systemic Existential Risks from Incremental AI Development") gives an overview of common ways societal systems interact and affect each other, which we unpack in a more detail in Appendix [A](https://arxiv.org/html/2501.16946v2#A1 "Appendix A Cross-system influence ‣ Gradual Disempowerment: Systemic Existential Risks from Incremental AI Development").
 
-![Refer to {--{"author":"Luc's AI","timestamp":1787917950918}@@caption](https://arxiv.org/html/2501.16946/x2.png)--}{++{"author":"Luc's AI","timestamp":1787917950918}@@caption](https://arxiv.org/html/2501.16946v2/gradfig1.png)++}
+![Refer to caption](https://arxiv.org/html/2501.16946v2/gradfig1.png)
 
 Figure 2: Some ways in which broad societal systems interact and influence each other.
 
@@ -409,21 +363,11 @@ Figure 2: Some ways in which broad societal systems interact and influence each 
 
 Given that the relationships between societal systems are as such agnostic to human values, the connections that ordinarily help maintain alignment can also be weaponized to decrease it. This is a common historical pattern:
 
--{--{"author":"Luc's AI","timestamp":1787917950617}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917950617}@@ ++}Many companies have successfully lobbied states to act against the public interest, or shaped culture in harmful ways through advertising and marketing schemes. For instance, the tobacco industry’s decades-long campaign used economic power to influence both state policy and cultural attitudes.{--{"author":"Luc's AI","timestamp":1787917950617}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917950617}@@
+- Many companies have successfully lobbied states to act against the public interest, or shaped culture in harmful ways through advertising and marketing schemes. For instance, the tobacco industry’s decades-long campaign used economic power to influence both state policy and cultural attitudes.
 
-++}-{--{"author":"Luc's AI","timestamp":1787917950617}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917950617}@@ ++}Many cultural movements have promoted political and economic shifts that have ultimately caused harm (often predictably or intentionally), largely but not exclusively directed at other groups of humans. Historical examples include various forms of economic and legally mandated discrimination being justified and perpetuated through cultural narratives.{--{"author":"Luc's AI","timestamp":1787917950617}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917950617}@@
+- Many cultural movements have promoted political and economic shifts that have ultimately caused harm (often predictably or intentionally), largely but not exclusively directed at other groups of humans. Historical examples include various forms of economic and legally mandated discrimination being justified and perpetuated through cultural narratives.
 
-++}-{--{"author":"Luc's AI","timestamp":1787917950617}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917950617}@@ ++}Many states have used their control of the economy and influence over culture to harm citizens, taxing or outright seizing resources and using their control of the flow of information to legitimize their actions.
+- Many states have used their control of the economy and influence over culture to harm citizens, taxing or outright seizing resources and using their control of the flow of information to legitimize their actions.
     
 
 As a result, we should not assume that the interplay between societal systems will ultimately protect or promote alignment with human preferences.
@@ -440,21 +384,11 @@ Similarly, we might hope that humans will be protected from potentially harmful 
 
 Crucially, the misalignment being described here does not need to emerge from a deliberate scheme or power-grab by AI systems. In the short-term, it is being incentivized by the perceived value that AI systems can bring to economic, cultural and state functions. For example, even now:
 
--{--{"author":"Luc's AI","timestamp":1787917950390}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917950390}@@ ++}Companies building AI systems are incentivized to push against some forms of AI regulation for the sake of their future profits.{--{"author":"Luc's AI","timestamp":1787917950390}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917950390}@@
+- Companies building AI systems are incentivized to push against some forms of AI regulation for the sake of their future profits.
 
-++}-{--{"author":"Luc's AI","timestamp":1787917950390}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917950390}@@ ++}States compete with each other on AI research and development, because of the potential economic and geostrategic benefits.{--{"author":"Luc's AI","timestamp":1787917950390}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917950390}@@
+- States compete with each other on AI research and development, because of the potential economic and geostrategic benefits.
 
-++}-{--{"author":"Luc's AI","timestamp":1787917950390}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917950390}@@ ++}Some humans are self-interestedly trying to reduce the stigma against romantic or otherwise intense personal relationships with AI agents.
+- Some humans are self-interestedly trying to reduce the stigma against romantic or otherwise intense personal relationships with AI agents.
     
 
 As we have argued, these incentives will likely grow stronger over time: as AI systems demonstrate their effectiveness, companies will face more pressure to adopt them, states will see greater strategic necessity in developing them, and individuals will find more personal benefit in embracing them.
@@ -483,21 +417,11 @@ To effectively address gradual disempowerment, we need to be able to detect and 
 
 For each of the major societal systems we have described, we can develop metrics tracking human influence:
 
--{--{"author":"Luc's AI","timestamp":1787917950148}@@   •
-    
-    Economic metrics:--}{++{"author":"Luc's AI","timestamp":1787917950148}@@ **Economic metrics:**++} Beyond traditional measures like labor share of GDP, we should also measure AI share of GDP, as a distinct category from either labor or capital. We need metrics capturing human control over economic decisions. This could include tracking the fraction of major corporate decisions made primarily by AI systems, the scale of unsupervised AI spending, and patterns in wealth distribution between AI-heavy and human-centric industries.{--{"author":"Luc's AI","timestamp":1787917950148}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917950148}@@
+- **Economic metrics:** Beyond traditional measures like labor share of GDP, we should also measure AI share of GDP, as a distinct category from either labor or capital. We need metrics capturing human control over economic decisions. This could include tracking the fraction of major corporate decisions made primarily by AI systems, the scale of unsupervised AI spending, and patterns in wealth distribution between AI-heavy and human-centric industries.
 
-++}-{--{"author":"Luc's AI","timestamp":1787917950148}@@   •
-    
-    Cultural metrics:--}{++{"author":"Luc's AI","timestamp":1787917950148}@@ **Cultural metrics:**++} We can measure the proportion of widely-consumed content created primarily by humans versus AI, track the prevalence and depth of human-AI interpersonal relationships, and analyze how cultural transmission patterns change as AI becomes more prevalent. While most machine learning benchmarks and evaluations focus on quantifiable STEM tasks, we should develop a broad spectrum of evaluations focusing on ability of frontier AI systems to influence humans on emotional level, write persuasive prose, or create new ideologies. Also, we should strengthen runtime monitoring of deployed AI systems and of the influence they have on their users.{--{"author":"Luc's AI","timestamp":1787917950148}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917950148}@@
+- **Cultural metrics:** We can measure the proportion of widely-consumed content created primarily by humans versus AI, track the prevalence and depth of human-AI interpersonal relationships, and analyze how cultural transmission patterns change as AI becomes more prevalent. While most machine learning benchmarks and evaluations focus on quantifiable STEM tasks, we should develop a broad spectrum of evaluations focusing on ability of frontier AI systems to influence humans on emotional level, write persuasive prose, or create new ideologies. Also, we should strengthen runtime monitoring of deployed AI systems and of the influence they have on their users.
 
-++}-{--{"author":"Luc's AI","timestamp":1787917950148}@@   •
-    
-    Political metrics:--}{++{"author":"Luc's AI","timestamp":1787917950148}@@ **Political metrics:**++} Key indicators might include the complexity of legislation (as a proxy for human comprehensibility); the role of AI systems in legal processes, policy formation, and security apparatuses; and the effectiveness of traditional democratic mechanisms in influencing outcomes.
+- **Political metrics:** Key indicators might include the complexity of legislation (as a proxy for human comprehensibility); the role of AI systems in legal processes, policy formation, and security apparatuses; and the effectiveness of traditional democratic mechanisms in influencing outcomes.
     
 
 Similar metrics should be developed for more narrow but significant societal systems, like research and education.
@@ -506,63 +430,33 @@ Similar metrics should be developed for more narrow but significant societal sys
 
 Given the mutual reinforcement dynamics we describe in Section [5](https://arxiv.org/html/2501.16946v2#S5 "5 Mutual Reinforcement ‣ Gradual Disempowerment: Systemic Existential Risks from Incremental AI Development"), it is crucial to track how changes in one domain affect others. This might involve:
 
--{--{"author":"Luc's AI","timestamp":1787917949887}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917949887}@@ ++}Early warning indicators for concerning feedback loops{--{"author":"Luc's AI","timestamp":1787917949887}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917949887}@@
+- Early warning indicators for concerning feedback loops
 
-++}-{--{"author":"Luc's AI","timestamp":1787917949887}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917949887}@@ ++}Analysis of AI participation in methods for translating power between societal systems, like lobbying and financial regulation{--{"author":"Luc's AI","timestamp":1787917949887}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917949887}@@
+- Analysis of AI participation in methods for translating power between societal systems, like lobbying and financial regulation
 
-++}-{--{"author":"Luc's AI","timestamp":1787917949887}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917949887}@@ ++}Historical analysis of similar dynamics in past technological transitions
+- Historical analysis of similar dynamics in past technological transitions
     
 
 #### 6.2.3 Research Priorities
 
 Several fundamental research questions need to be addressed. For example:
 
--{--{"author":"Luc's AI","timestamp":1787917949649}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917949649}@@ ++}How can we distinguish between beneficial AI augmentation of human capabilities and problematic displacement of human influence?{--{"author":"Luc's AI","timestamp":1787917949649}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917949649}@@
+- How can we distinguish between beneficial AI augmentation of human capabilities and problematic displacement of human influence?
 
-++}-{--{"author":"Luc's AI","timestamp":1787917949649}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917949649}@@ ++}What are the key thresholds or tipping points in these systems beyond which human influence becomes critically compromised?{--{"author":"Luc's AI","timestamp":1787917949649}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917949649}@@
+- What are the key thresholds or tipping points in these systems beyond which human influence becomes critically compromised?
 
-++}-{--{"author":"Luc's AI","timestamp":1787917949649}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917949649}@@ ++}How can we measure the effectiveness of various intervention strategies?
+- How can we measure the effectiveness of various intervention strategies?
     
 
 ### 6.3 Preventing Excessive AI Influence
 
 While measurement can help us understand the problem, we also need to consider what direct interventions could be effective in preventing the accumulation of excessive AI influence, including:
 
--{--{"author":"Luc's AI","timestamp":1787917949394}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917949394}@@ ++}Regulatory frameworks mandating human oversight for critical decisions, limiting AI autonomy in specific domains, and restricting AI ownership of assets or participation in markets{--{"author":"Luc's AI","timestamp":1787917949394}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917949394}@@
+- Regulatory frameworks mandating human oversight for critical decisions, limiting AI autonomy in specific domains, and restricting AI ownership of assets or participation in markets
 
-++}-{--{"author":"Luc's AI","timestamp":1787917949394}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917949394}@@ ++}Progressive taxation of AI-generated revenues both to redistribute resources to humans and to subsidize human participation in key sectors{--{"author":"Luc's AI","timestamp":1787917949394}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917949394}@@
+- Progressive taxation of AI-generated revenues both to redistribute resources to humans and to subsidize human participation in key sectors
 
-++}-{--{"author":"Luc's AI","timestamp":1787917949394}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917949394}@@ ++}Cultural norms supporting human agency and influence, and opposing AI that is overly autonomous or insufficiently accountable
+- Cultural norms supporting human agency and influence, and opposing AI that is overly autonomous or insufficiently accountable
     
 
 Crucially, these interventions will often involve sacrificing potential value. Furthermore, the more value they sacrifice, the greater the incentive to circumvent them: for example, companies may face strong economic incentives to delegate authority to AIs regardless of the spirit, or letter, of the law.
@@ -575,39 +469,17 @@ As such, interventions that seek to limit AI influence will likely serve mostly 
 
 Beyond preventing excessive AI influence, we need to actively strengthen human control over key societal systems. This will involve both enhancing existing mechanisms, and developing new ones, which may in turn require fundamental research. Approaches in this direction include:
 
--{--{"author":"Luc's AI","timestamp":1787917949066}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917949066}@@ ++}Developing faster, more representative, and more robust democratic processes.{--{"author":"Luc's AI","timestamp":1787917949066}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917949066}@@
+- Developing faster, more representative, and more robust democratic processes.
 
-++}-{--{"author":"Luc's AI","timestamp":1787917949066}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917949066}@@ ++}Requiring AI systems or their outputs to meet high levels of human understandability in order to ensure that humans continue to be able to autonomously navigate domains such as law, institutional processes or science.{--{"author":"Luc's AI","timestamp":1787917949066}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917949066}@@
+- Requiring AI systems or their outputs to meet high levels of human understandability in order to ensure that humans continue to be able to autonomously navigate domains such as law, institutional processes or science.
 
-++}-{--{"author":"Luc's AI","timestamp":1787917949066}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917949066}@@ ++}Developing AI delegates who can advocate for people’s interest with high fidelity, while also being better to keep up with the competitive dynamics that are causing the human replacement.{--{"author":"Luc's AI","timestamp":1787917949066}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917949066}@@
+- Developing AI delegates who can advocate for people’s interest with high fidelity, while also being better to keep up with the competitive dynamics that are causing the human replacement.
 
-++}-{--{"author":"Luc's AI","timestamp":1787917949066}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917949066}@@ ++}Making institutions more robust to human obsolescence.{--{"author":"Luc's AI","timestamp":1787917949066}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917949066}@@
+- Making institutions more robust to human obsolescence.
 
-++}-{--{"author":"Luc's AI","timestamp":1787917949066}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917949066}@@ ++}Investing in tools for forecasting future outcomes (such as conditional prediction markets, and tools for collective cooperation and bargaining) in order to increase humanity’s ability to anticipate and proactively steer the course.{--{"author":"Luc's AI","timestamp":1787917949066}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917949066}@@
+- Investing in tools for forecasting future outcomes (such as conditional prediction markets, and tools for collective cooperation and bargaining) in order to increase humanity’s ability to anticipate and proactively steer the course.
 
-++}-{--{"author":"Luc's AI","timestamp":1787917949066}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917949066}@@ ++}Research into the relationship between humans and larger multi-agent systems.
+- Research into the relationship between humans and larger multi-agent systems.
     
 
 Importantly, to mitigate the problem effectively, we need to go beyond simply making it easier for humans to influence societal systems: it is unclear, for instance, whether a direct democracy would actually do a better job of satisfying citizen preferences in the long term because, for example, it would leave the state more vulnerable to cultural misalignment. A key part of the challenge is clarifying what it even means for large, complex systems to serve the interests of individuals who are accustomed to thinking on smaller scales.
@@ -652,21 +524,11 @@ Unlike scenarios involving sudden technological discontinuities or overtly hosti
 
 Our analysis suggests three particularly concerning features of this scenario:
 
--{--{"author":"Luc's AI","timestamp":1787917948788}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917948788}@@ ++}First, the loss of human influence could occur even without any single transformative advance in AI capabilities. Instead, it might emerge from the cumulative effect of many smaller shifts in how societal systems operate and interact.{--{"author":"Luc's AI","timestamp":1787917948788}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917948788}@@
+- First, the loss of human influence could occur even without any single transformative advance in AI capabilities. Instead, it might emerge from the cumulative effect of many smaller shifts in how societal systems operate and interact.
 
-++}-{--{"author":"Luc's AI","timestamp":1787917948788}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917948788}@@ ++}Second, the effect can be driven not by any deliberate or even agentic action by AIs, but simply by individuals and institutions following their local incentives.{--{"author":"Luc's AI","timestamp":1787917948788}@@
-    
---}{++{"author":"Luc's AI","timestamp":1787917948788}@@
+- Second, the effect can be driven not by any deliberate or even agentic action by AIs, but simply by individuals and institutions following their local incentives.
 
-++}-{--{"author":"Luc's AI","timestamp":1787917948788}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1787917948788}@@ ++}Third, meaningfully preventing these risks will require substantial effort: more research and data collection, international coordination, comprehensive regulation, and major societal interventions grounded in novel fundamental research.
+- Third, meaningfully preventing these risks will require substantial effort: more research and data collection, international coordination, comprehensive regulation, and major societal interventions grounded in novel fundamental research.
     
 
 A distinctive feature of this challenge is that it may subvert our traditional mechanisms for course-correction, and cause types of harm we cannot easily conceptualize or even recognize in advance, potentially leaving us in a position from which it is impossible to recover.

@@ -95,7 +95,7 @@ I am concerned that seeing the world as improving is dependent on a worldview wi
 
 Also, many world improvements I expect to peter out before they become negative. But I am worried that some will not. For example, I think increased hedonism and individualism have both been a good force, but if overdone I would consider them to make the world worse, and it seems to me we are either almost or already there.
 
-I am generally concerned about trends to overshoot their original good aim by narrowly optimising too much. Optimising for profit is the clearest example. I wrote a bit more about this {--{"author":"Luc's AI","timestamp":1787920711236}@@here.--}{++{"author":"Luc's AI","timestamp":1787920711236}@@[here](https://forum.effectivealtruism.org/posts/BshFD6JvyqXypc5Aw/denise_melchin-s-shortform?commentId=Wxsv2rdk8CXAhYjse).++}
+I am generally concerned about trends to overshoot their original good aim by narrowly optimising too much. Optimising for profit is the clearest example. I wrote a bit more about this [here](https://forum.effectivealtruism.org/posts/BshFD6JvyqXypc5Aw/denise_melchin-s-shortform?commentId=Wxsv2rdk8CXAhYjse).
 
 If the world is not better than it was in the past, extrapolating towards expecting an even better future does not work. For me this is another argument on wanting to focus on making the future good instead of long or big.
 
@@ -145,6 +145,3 @@ Given that this is an important crux one might well consider it premature for me
 If anyone has any resources they want to point me to which might change my mind, I am keen to hear about them.
 
 *Thanks to AGB and Linch Zhang for providing comments on a draft of this post.*
-{--{"author":"Luc's AI","timestamp":1787920710019}@@
-*This work is licensed under a [Creative Commons Attribution 4.0 International License.](https://creativecommons.org/licenses/by/4.0/)*
---}

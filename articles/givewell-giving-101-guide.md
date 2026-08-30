@@ -28,7 +28,7 @@ Add discussion note here:
 
 %%
 
-# {--{"author":"Luc's AI","timestamp":1787918280020}@@GiveWell's Giving 101 Guide--}{++{"author":"Luc's AI","timestamp":1787918280020}@@Giving 101: The Basics++}
+# Giving 101: The Basics
 
 The key principles we recommend you keep in mind when deciding where to give:
 
@@ -56,13 +56,10 @@ That doesn't mean you should necessarily support international aid, but, just li
 
 * [Your Dollar Goes Further Overseas](https://www.givewell.org/want-to-change-peoples-lives-give-internationally)
 
-{--{"author":"Luc's AI","timestamp":1787918279525}@@-----}{++{"author":"Luc's AI","timestamp":1787918279525}@@:::collapse
+:::collapse
 [Next](https://www.givewell.org/giving101/Changing-Someones-Life)
-:::++}
+:::
 
-{--{"author":"Luc's AI","timestamp":1787918279525}@@1.--}{++{"author":"Luc's AI","timestamp":1787918279525}@@[^note-1]:++} On average, grants from our [Top Charities Fund](https://www.givewell.org/top-charities-fund) in 2021 saved a life for about $5,000. Learn more about our estimated cost to save a life in ["How We Produce Impact Estimates."](https://www.givewell.org/impact-estimates){--{"author":"Luc's AI","timestamp":1787918279525}@@
-
-*Originally published at [Giving 101: The Basics](https://www.givewell.org/giving101).*
-*Licensed under [CC BY-NC-SA 3.0 US](https://creativecommons.org/licenses/by-nc-sa/3.0/us/).*--}
+[^note-1]: On average, grants from our [Top Charities Fund](https://www.givewell.org/top-charities-fund) in 2021 saved a life for about $5,000. Learn more about our estimated cost to save a life in ["How We Produce Impact Estimates."](https://www.givewell.org/impact-estimates)
 
 {>>TODO: Licensed content<<}

@@ -1,7 +1,6 @@
 ---
 title: "Risks from power-seeking AI systems"
-{--{"author":"Luc's AI","timestamp":1787926325784}@@source_url: "https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/"
---}author:
+author:
   - "Cody Fenwick"
   - "Zershaaneh Qureshi"
 published: 2025-07-17

@@ -115,7 +115,7 @@ We greatly value your feedback and suggestions, particularly at this early stage
 ## References
 
 1. UNEP 2019: [Update on the global status of legal limits on lead in paint. September 2019](https://www.unenvironment.org/resources/report/2019-update-global-status-legal-limits-lead-paint)
-2. Lamphear et al. {--{"author":"Luc's AI","timestamp":1787919012396}@@2oo5:--}{++{"author":"Luc's AI","timestamp":1787919012396}@@2005:++} [Low-level environmental lead exposure and children’s intellectual function: an international pooled analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1257652/)
+2. Lamphear et al. 2005: [Low-level environmental lead exposure and children’s intellectual function: an international pooled analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1257652/)
 3. Reuben et al. 2019: [Association of childhood lead exposure with adult personality traits and lifelong mental health](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2720691)
 4. Attina & Trasande 2013: [Economic costs of childhood lead exposure in low-and middle-income countries](https://ehp.niehs.nih.gov/doi/full/10.1289/ehp.1206424)
 5. Gould 2009: [Childhood lead poisoning: Conservative estimates of the social and economic benefits of lead hazard control](https://ehp.niehs.nih.gov/doi/full/10.1289/ehp.0800408)
@@ -127,7 +127,6 @@ We greatly value your feedback and suggestions, particularly at this early stage
 11. Charity Entrepreneurship 2020: [Lead Paint Regulation](https://www.charityentrepreneurship.com/uploads/1/0/7/2/10726656/leadpaintregulation.pdf)
 12. Baumgartner et al. 2009: Lobbying and Policy Change: Who wins, who loses, and why?
 
-{--{"author":"Luc's AI","timestamp":1787919012062}@@*Originally published at [Introducing LEEP: Lead Exposure Elimination Project](https://forum.effectivealtruism.org/posts/fd96FtLFACeAshqJP/introducing-leep-lead-exposure-elimination-project).*
-*Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*--}{++{"author":"Luc's AI","timestamp":1787919012062}@@:::++}
+:::
 
 {>>TODO: Licensed content<<}

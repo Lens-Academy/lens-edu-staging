@@ -30,7 +30,7 @@ Add discussion note here:
 
 We will never know their names.
 
-The first victim could not have been recorded, for there was no written language to record it. They were someone’s daughter, or son, and someone’s friend, and they were loved by those around them. And they were in pain, covered in rashes, confused, scared, not knowing why this was happening to them or what they could do about it — {--{"author":"Luc's AI","timestamp":1787910875661}@@victims--}{++{"author":"Luc's AI","timestamp":1787910875661}@@victim++} of a mad, inhuman god. There was nothing to be done — humanity was not strong enough, not aware enough, not knowledgeable enough, to fight back against a monster that could not be seen.
+The first victim could not have been recorded, for there was no written language to record it. They were someone’s daughter, or son, and someone’s friend, and they were loved by those around them. And they were in pain, covered in rashes, confused, scared, not knowing why this was happening to them or what they could do about it — victim of a mad, inhuman god. There was nothing to be done — humanity was not strong enough, not aware enough, not knowledgeable enough, to fight back against a monster that could not be seen.
 
 It was in Ancient Egypt, where it attacked slave and pharaoh alike. In Rome, it effortlessly decimated armies. It killed in Syria. It killed in Moscow.  In India, five million dead. It killed a thousand Europeans every day in the 18th century. It killed more than ten million Native Americans. From the Peloponnesian War to the Civil War, it slew more soldiers and civilians than any weapon, any soldier, any army. (Not that this stopped the most foolish and empty souls from attempting to harness the demon as a weapon against their enemies.)
 
@@ -40,9 +40,7 @@ For a long time, there was no hope — only the bitter, hollow endurance of surv
 
 In China, in the 15th century, humanity began to fight back.
 
-It was observed that survivors of the mad god’s curse would never be touched again: They had taken a portion of that power into themselves, and were so protected from it. Not only that, but this power could be shared by consuming a remnant of the wounds. There was a price, for you could not take the god’s power without first defeating it — but a smaller battle, on humanity’s terms.{--{"author":"Luc's AI","timestamp":1787910875393}@@ 
-
---}{++{"author":"Luc's AI","timestamp":1787910875393}@@ ++}By the 16th century, the technique spread to India,{--{"author":"Luc's AI","timestamp":1787910875393}@@ then--} across Asia, the Ottoman Empire and, in the 18th century, Europe. In 1796, a more powerful technique was discovered by {--{"author":"Luc's AI","timestamp":1787910875393}@@Edward Jenner.--}{++{"author":"Luc's AI","timestamp":1787910875393}@@[Edward Jenner](http://en.wikipedia.org/wiki/Edward_Jenner).++}
+It was observed that survivors of the mad god’s curse would never be touched again: They had taken a portion of that power into themselves, and were so protected from it. Not only that, but this power could be shared by consuming a remnant of the wounds. There was a price, for you could not take the god’s power without first defeating it — but a smaller battle, on humanity’s terms. By the 16th century, the technique spread to India, across Asia, the Ottoman Empire and, in the 18th century, Europe. In 1796, a more powerful technique was discovered by [Edward Jenner](http://en.wikipedia.org/wiki/Edward_Jenner).
 
 An idea began to take hold: Perhaps the ancient god could be killed.
 
@@ -50,7 +48,7 @@ A whisper became a voice; a voice became a call; a call became a battle cry, swe
 
 And, inch by inch, humanity drove its enemy back. Fewer friends wept; fewer neighbors were crippled; fewer parents had to bury their children.
 
-At the dawn of the 20th century, for the first time, humanity banished the enemy from entire regions of the world. Humanity faltered many times in its efforts, but there were individuals who never gave up, who fought for the dream of a world where no child or loved one would ever fear the demon ever again. {--{"author":"Luc's AI","timestamp":1787910875126}@@Viktor Zhdanov,--}{++{"author":"Luc's AI","timestamp":1787910875126}@@[Viktor Zhdanov](http://en.wikipedia.org/wiki/Viktor_Zhdanov),++} who called for humanity to unite in a final push against the demon; the great tactician {--{"author":"Luc's AI","timestamp":1787910875126}@@Karel Raška,--}{++{"author":"Luc's AI","timestamp":1787910875126}@@[Karel Raška](http://en.wikipedia.org/wiki/Karel_Ra%C5%A1ka),++} who conceived of a strategy to annihilate the enemy; {--{"author":"Luc's AI","timestamp":1787910875126}@@Donald Henderson,--}{++{"author":"Luc's AI","timestamp":1787910875126}@@[Donald Henderson](http://en.wikipedia.org/wiki/Donald_Henderson),++} who led the efforts {--{"author":"Luc's AI","timestamp":1787910875126}@@in--}{++{"author":"Luc's AI","timestamp":1787910875126}@@of++} those final days.
+At the dawn of the 20th century, for the first time, humanity banished the enemy from entire regions of the world. Humanity faltered many times in its efforts, but there were individuals who never gave up, who fought for the dream of a world where no child or loved one would ever fear the demon ever again. [Viktor Zhdanov](http://en.wikipedia.org/wiki/Viktor_Zhdanov), who called for humanity to unite in a final push against the demon; the great tactician [Karel Raška](http://en.wikipedia.org/wiki/Karel_Ra%C5%A1ka), who conceived of a strategy to annihilate the enemy; [Donald Henderson](http://en.wikipedia.org/wiki/Donald_Henderson), who led the efforts of those final days.
 
 The enemy grew weaker. Millions became thousands, thousands became dozens. And then, when the enemy did strike, scores of humans came forth to defy it, protecting all those whom it might endanger.
 
@@ -58,10 +56,10 @@ The enemy’s last attack in the wild was on [Ali Maow Maalin](http://en.wikiped
 
 They found none.
 
-{--{"author":"Luc's AI","timestamp":1787910874580}@@Thirty-five--}{++{"author":"Luc's AI","timestamp":1787910874580}@@35++} years ago, on December 9th, 1979, humanity declared victory.
+35 years ago, on December 9th, 1979, humanity declared victory.
 
 This one evil, the horror from beyond memory, the monster that took 500 million people from this world, was destroyed.
 
 You are a member of the species that did that. Never forget what we are capable of when we band together and declare battle on what is broken in the world.
 
-[Happy Smallpox Eradication {--{"author":"Luc's AI","timestamp":1787910874299}@@Day.](https://en.wikipedia.org/wiki/Smallpox#Eradication)--}{++{"author":"Luc's AI","timestamp":1787910874299}@@Day](http://en.wikipedia.org/wiki/Smallpox#Eradication).++}
+[Happy Smallpox Eradication Day](http://en.wikipedia.org/wiki/Smallpox#Eradication).
