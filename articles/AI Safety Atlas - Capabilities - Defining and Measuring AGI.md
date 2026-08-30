@@ -10,8 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)*
 
 %%
@@ -62,7 +68,7 @@ Progress on safety requires clear definitions and measurement criteria. For safe
 
 *Figure 1.27: This is the continuous outlook of AI measuring performance. All points on this axis can be called artificial narrow intelligence (ANI) (except for the origin) ([Morris et al., 2024](https://arxiv.org/abs/2311.02462)).*
 
-**Definition: Artificial Narrow Intelligence (ANI)** — Weak AI—also called Narrow AI or Artificial Narrow Intelligence (ANI)—is AI trained and focused to perform specific tasks. Weak AI drives most of the AI that surrounds us today. 'Narrow' might be a more accurate descriptor for this type of AI as it is anything but weak; it enables some very robust applications, such as Apple's Siri, Amazon's Alexa, IBM Watson, and autonomous vehicles.
+**Definition: Artificial Narrow Intelligence (ANI)** — Weak AI—also called Narrow AI or Artificial Narrow Intelligence (ANI)—is AI trained and focused to perform specific tasks. Weak AI drives most of the AI that surrounds us today. 'Narrow' might be a more accurate descriptor for this type of AI as it is anything but weak; it enables some very robust applications, such as Apple's Siri, Amazon's Alexa, IBM Watson, and autonomous vehicles. ([IBM, 2023](https://www.ibm.com/topics/artificial-intelligence))
 
 **Capability alone isn’t enough to define and measure progress.** AlphaGo achieved superhuman capability at Go - better than any human ever. Yet ask it to write a sentence, solve an algebra problem, or recognize objects in an image, and you get nothing. This is where foundation models changed things. The shift from building one narrow system per task to training general-purpose models is why we suddenly need a framework measuring both axes - capability and generality. Pre-foundation model AIs maxed out the capability axis on some individual tasks. But systems in the last few years are climbing both axes simultaneously - getting better at specific capabilities while also expanding to more domains. Capability measures depth; generality measures breadth.
 
@@ -97,11 +103,11 @@ When experts say they see "sparks of AGI" in recent systems, they're observing p
 
 **Even though capability and generality exist on a continuum, certain thresholds still matter for safety planning.** A system performing well on 50% of domains poses different risks than one excelling at 90%, we can't ignore this reality even if generality is a continuous variable. When pressed for concrete thresholds - which are often demanded in discussions - here's our interpretation of roughly how terms map onto the (performance, generality) space:
 
-**Definition: Artificial General Intelligence (AGI)** — Matching a well-educated adult's cognitive versatility and proficiency. Often used interchangeably with Human level AI (HLAI). Using our definition, these would be systems achieving expert-level performance (80-90th percentile) across most cognitive domains (80-90%).
+**Definition: Artificial General Intelligence (AGI)** — Matching a well-educated adult's cognitive versatility and proficiency. Often used interchangeably with Human level AI (HLAI). Using our definition, these would be systems achieving expert-level performance (80-90th percentile) across most cognitive domains (80-90%). ([Hendrycks et al., 2025](https://arxiv.org/abs/2510.18212); [Morris et al., 2024](https://arxiv.org/abs/2311.02462))
 
-**Definition: Transformative AI (TAI)** — AI capable of triggering economic and social transitions comparable to the agricultural or industrial revolution.  TAI is defined by impact potential rather than cognitive architecture. Using our definition, this could mean moderate capability (60th percentile) across many economically important tasks (50% of domains), OR exceptional capability (99th percentile) on critical domains like automated ML R&D (20% of domains).
+**Definition: Transformative AI (TAI)** — AI capable of triggering economic and social transitions comparable to the agricultural or industrial revolution.  TAI is defined by impact potential rather than cognitive architecture. Using our definition, this could mean moderate capability (60th percentile) across many economically important tasks (50% of domains), OR exceptional capability (99th percentile) on critical domains like automated ML R&D (20% of domains). ([Karnofsky, 2016](https://www.openphilanthropy.org/research/some-background-on-our-views-regarding-advanced-artificial-intelligence/))
 
-**Definition: Artificial Superintelligence (ASI)** — Any intellect that greatly exceeds human cognitive capability across virtually all domains of interest. Using our definition, this represents systems achieving superhuman capability (>100%, greatly exceeding all humans) across virtually all cognitive domains (95%+ of domains).
+**Definition: Artificial Superintelligence (ASI)** — Any intellect that greatly exceeds human cognitive capability across virtually all domains of interest. Using our definition, this represents systems achieving superhuman capability (>100%, greatly exceeding all humans) across virtually all cognitive domains (95%+ of domains). ([Bostrom, 2014](https://psycnet.apa.org/record/2014-48585-000))
 
 ![Figure 1.31](https://ai-safety-atlas.com/_astro/39ee9c34f9952779378c4e0ed9e93ba3f4624c38a9f4560b75271731fec90dd0.DPhWDE50_Z1ihANy.webp)
 
