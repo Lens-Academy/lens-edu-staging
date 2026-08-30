@@ -10,8 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/risks.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter2-f858610ccd1d35291511150ffea3baaa2c282a11cef98d01d60514f7101f1318.pdf)*
 
 %%
@@ -80,7 +86,7 @@ This dilemma essentially highlights the challenge of predicting and controlling 
 ## Collective Action Problems
 
 > Since we have such a long history of thinking about this threat and what to do about it, from scientific conferences to Hollywood blockbusters, you might expect that humanity would shift into high gear with a mission to steer AI in a safer direction than out-of-control superintelligence. Think again.
-> — Max Tegmark
+> — Max Tegmark ([Tegmark, 2023](https://time.com/6273743/thinking-that-could-doom-us-with-ai/))
 
 **Collective action problems prevent the implementation of safety measures that would benefit everyone.** Even when all stakeholders agree that certain safety measures would be beneficial, structural barriers prevent their implementation. Individual actors face incentives to free-ride on others' safety investments or cannot credibly commit to cooperative agreements. Unlike race dynamics where competitive pressures directly undermine safety, collective action problems represent failures of cooperation that often arise as a consequence of competitive pressures.
 
