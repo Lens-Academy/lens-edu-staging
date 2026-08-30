@@ -1,17 +1,23 @@
 ---
-title: "Four Ideas You Already Agree With"
+title: "Four Ideas You Already Agree With (That Mean You're Probably on Board with Effective Altruism)"
 source_url: "https://www.givingwhatwecan.org/blog/four-things-you-already-agree-with-effective-altruism"
 author:
   - "Sam Deere"
-published: 2022-07-27
+published: 2016-03-23
 created: 2026-05-28
 description: "Four simple ideas — helping others matters, people are equal, helping more is better than helping less, and resources are limited — that most people already agree with. Taken together, they logically lead to effective altruism: thinking carefully about how to help the most people with our limited time and money."
 tags:
   - "ea-intro-program"
   - "effective-altruism"
   - work-in-progress
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -24,7 +30,7 @@ Here are four ideas that you probably already agree with. Three are about your v
 The four ideas are as follows:
 
 1. **It's important to help others** — when people are in need and we can help them, we think that we should. Sometimes we think it might even be morally required: most people think that millionaires should give something back. But it may surprise you to learn that those of us on or above the median wage in a rich country are [typically part of the global 5%](https://www.givingwhatwecan.org/get-involved/how-rich-am-i)[^note-deere-1] — maybe we can also afford to give back too.
-2. **People are equal**[^note-deere-2] — everyone has an equal claim to being happy, healthy, fulfilled and free, whatever their circumstances. All people matter, wherever they live, however rich they are, and whatever their ethnicity, age, gender, ability, religious views, etc.
+2. **People are equal**[^note-deere-2] — everyone has an equal claim to being happy, healthy, fulfilled and [free](http://www.dictionaryofobscuresorrows.com/post/23536922667/sonder), whatever their circumstances. All people matter, wherever they live, however rich they are, and whatever their ethnicity, age, gender, ability, religious views, etc.
 3. **Helping more is better than helping less** — all else being equal, we should save more lives, help people live longer, and make more people happier. Imagine twenty sick people lining a hospital ward, who'll die if you don't give them medicine. You have enough medicine for everyone, and no reason to hold onto it for later: would anyone really choose to arbitrarily save only *some* of the people if it was just as easy to save *all* of them?
 4. **Our resources are limited** — even millionaires have a finite amount of money they can spend. This is also true of our time — there are never enough hours in the day. Choosing to spend money or time on one option is an implicit choice [not to spend it on other options](https://en.wikipedia.org/wiki/Opportunity_cost) (whether we think about these options or not).
 
@@ -49,11 +55,11 @@ In order to be true to these values, we need to think about how we can help the 
 
 This is important, because there are [some causes](https://www.givingwhatwecan.org/cause-areas) where we can make a big impact for a small amount of money. In fact the best options are [much, much better than the average](https://80000hours.org/articles/effective-or-not/) — sometimes hundreds of times better. That might mean the difference between helping one person, and helping hundreds of people *for exactly the same amount of time or money*.
 
-Because a charity chosen at random *is almost certainly not making as big an impact as the* [*most effective charities*](https://www.givingwhatwecan.org/best-charities-to-donate-to-2022) (and let's face it, many causes we choose to support tend to be the result of either random chance, or systemic factors that mean we're only exposed to certain causes).
+Because a charity chosen at random *is almost certainly not making as big an impact as the* [*most effective {--{"author":"Luc's AI","timestamp":1788096008088}@@charities*](https://www.givingwhatwecan.org/best-charities-to-donate-to-2022)--}{++{"author":"Luc's AI","timestamp":1788096008088}@@charities*](https://www.givingwhatwecan.org/best-charities-to-donate-to-2026)++} (and let's face it, many causes we choose to support tend to be the result of either random chance, or systemic factors that mean we're only exposed to certain causes).
 
 And this matters, because if we don't choose well, then we're either not giving people equal consideration (that is, implicitly discriminating against some groups of people), or we're not helping as many people as we can (that is, allowing extra people to suffer or die, even though we could potentially help them).
 
-So, at first, every worthy cause — from cancer research, to climate justice, to animal sanctuaries, to preventing easily treatable diseases in places that we'll probably never visit — should be on the table... *except* that we also think it's better to help more people and we understand that we don't have the resources to help everyone. So we should first focus on the causes where we can help the most people for our limited time and money, **not just on those that we happen to have already heard about**.
+So, at first, every worthy cause — from cancer research, to climate justice, to animal sanctuaries, to preventing [easily treatable but unpronounceable](https://www.givingwhatwecan.org/charities/unlimit-health) diseases in places that we'll probably never visit — should be on the table... *except* that we also think it's better to help more people and we understand that we don't have the resources to help everyone. So we should first focus on the causes where we can help the most people for our limited time and money, **not just on those that we happen to have already heard about**.
 
 ![Women in Uganda holding bales of insecticide-treated bednets provided by the Against Malaria Foundation, one of Giving What We Can's Top Charities](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/wYjMsKsEkDPgHeAbS/nbbvuynsnhzvyu7shir9)
 
@@ -79,9 +85,20 @@ So please, think carefully about these ideas — the importance of altruism, equ
 
 If they do, then the next time you think about how to make the world a better place, give voice to these values by thinking *effectively*, as well as altruistically.
 
----
+{--{"author":"Luc's AI","timestamp":1788096007441}@@-----}{++{"author":"Luc's AI","timestamp":1788096007441}@@**Some resources for learning more about effective altruism:**++}
 
-*This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
+{--{"author":"Luc's AI","timestamp":1788096007441}@@*This work--}{++{"author":"Luc's AI","timestamp":1788096007441}@@- [What++} is {--{"author":"Luc's AI","timestamp":1788096007441}@@licensed under--}{++{"author":"Luc's AI","timestamp":1788096007441}@@Effective Altruism?](https://www.givingwhatwecan.org/what-is-effective-altruism)
+- This really quick [summary of effective altruism](http://web.archive.org/web/20171111054827/http:/www.ethics.org.au/on-ethics/blog/january-2016/effective-altruism)
+- The [Wikipedia entry on effective altruism](https://en.wikipedia.org/wiki/Effective_altruism)
+- [Doing Good Better](http://www.effectivealtruism.com/) by Will MacAskill
+- The [Effective Altruism Handbook](http://effective-altruism.com/ea/hx/effective_altruism_handbook_now_online/)
+
+**Some actions you can take that we think are really effective**
+
+- [Donate](https://www.givingwhatwecan.org/best-charities-to-donate-to-2026) to a charity recommended on the basis of its impact and cost-effectiveness — check out our [Top Charities](https://www.givingwhatwecan.org/best-charities-to-donate-to-2026), and [GiveWell's recommendations](http://www.givewell.org/charities/top-charities). If you'd like to support charities that increase the welfare of non-human animals effectively, check out [Animal Charity Evaluators](http://www.animalcharityevaluators.org/).
+- [Pledge](https://www.givingwhatwecan.org/pledge) to keep donating over the course of your lifetime — 11,204 people (and counting) have pledged to donate 10% of their lifetime income to the most effective charities, and 1,649 have made pledges of 1% or more of their income for a custom period.
+- Choose a career that's really high-impact by reading career advice from [80,000 Hours](https://80000hours.org/)
+- Start++} a {--{"author":"Luc's AI","timestamp":1788096007441}@@[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*--}{++{"author":"Luc's AI","timestamp":1788096007441}@@[chapter or discussion group](https://www.givingwhatwecan.org/get-involved/ea-groups) in your local area or at your university, and get other people interested in making a bigger difference++}
 
 [^note-deere-1]: The number pre-loaded into the calculator ($32,140USD) is the median personal income for someone 25 or older in the US, but you should substitute in your own income, country, and household details.
 
@@ -95,4 +112,4 @@ If they do, then the next time you think about how to make the world a better pl
 
 [^cite-deere-6]: Charities Aid Foundation, *UK Giving 2014*, p14.
 
-[^cite-deere-7]: https://www.nice.org.uk/news/blog/carrying-nice-over-the-threshold
+[^cite-deere-7]: National Institute for Health and Care Excellence (NICE), "[Carrying NICE over the threshold](https://www.nice.org.uk/news/blog/carrying-nice-over-the-threshold)."
