@@ -43,6 +43,8 @@ The previous chapter explored AI's rapidly advancing capabilities through scalin
 
 The following chapters examine the technical strategies, governance approaches, and evaluation methods needed to address this interconnected risk landscape while preserving AI's extraordinary potential for human benefit.
 
+:::hide
 ### Acknowledgements
 
 We thank Jeanne Salle, Charles Martinet, Vincent Corruble, Sebastian Gil, Alejandro Acelas, Evander Hammer, Mo Munem, Mateo Rendon, Kieron Kretschmar and Camille Berger for their valuable feedback and contributions.
+:::
