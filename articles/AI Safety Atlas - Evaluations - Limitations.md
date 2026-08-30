@@ -10,8 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/evaluations.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter5-e0b0931eaf5f5ef7fd351e37758cb446431d932fda8d13a1089e833162a070ed.pdf)*
 
 %%
@@ -50,7 +56,7 @@ Previous sections outlined various evaluation techniques and methodologies, but 
 **The resource reality**. Related to the problem of exploding number of evaluations is the sheer computational cost of running thorough evaluations. This creates another hard limit on what we can practically test. Making over 100,000 API calls just to properly assess performance on a single benchmark becomes prohibitively expensive when scaled across multiple capabilities and safety concerns. Independent researchers and smaller organizations often can't afford such comprehensive testing, and even if money isn't a bottleneck because you have state sponsorship, GPUs currently absolutely are. This can lead to potential blind spots in our understanding of model behavior. The resource constraints become even more pressing when we consider the need for repeated testing as models are updated or new capabilities emerge.
 
 > While these tests were conducted in line with current best practices, the findings should be considered preliminary. These tests were conducted in a limited time period with finite resources, which if extended could expand the scope of findings and the subsequent conclusions drawn.
-> — US and UK AI Safety Institute Evaluation of Claude 3.5 Sonnet
+> — US and UK AI Safety Institute Evaluation of Claude 3.5 Sonnet, 2023 ([US & UK AISI, 2024](https://www.aisi.gov.uk/work/pre-deployment-evaluation-of-anthropics-upgraded-claude-3-5-sonnet))
 
 :::callout {title="Ikigai Risks (I-Risks) - Risks from loss of existential purpose — Optional · 1 min read" tone="neutral" collapse="closed"}
 
