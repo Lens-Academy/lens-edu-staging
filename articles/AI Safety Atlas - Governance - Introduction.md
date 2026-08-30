@@ -12,8 +12,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/governance.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter4-a0a322670b21725098e1839edee61e6b3af18c4a900a1d2e5731d3efe4852f1a.pdf)*
 
 %%
@@ -33,3 +39,9 @@ Add discussion note here:
 ![Figure 4.1](https://ai-safety-atlas.com/_astro/d091db4aff7c1d59be2021b343eb16e39efeb4d57002ba43ac42ce8507ed7448.DBsKUdpA_kMDI7.webp)
 
 *Figure 4.1: Distinguishing AI models according to their level of potential harm and generality. We focus here on frontier AI models ([U.K. government, 2023](https://www.gov.uk/government/publications/frontier-ai-capabilities-and-risks-discussion-paper/frontier-ai-capabilities-and-risks-discussion-paper)).*
+
+:::hide
+### Acknowledgements
+
+We thank Léo Karoubi and Ines Belhadj for their valuable feedback and contributions.
+:::
