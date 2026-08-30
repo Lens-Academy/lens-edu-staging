@@ -9,8 +9,14 @@ accessed: 2026-07-10
 description: "There are a lot of problems in the world. We show you a way to figure out which are best to work on."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -408,7 +414,7 @@ If you’re interested in pursuing a career focusing on one of the world’s mos
 
 This is a supporting article in our [foundations series](https://80000hours.org/advanced-series/). Read the [next article](https://80000hours.org/articles/leverage/) in the series, or here are some others you might find interesting:
 
-[^cite-wiblin-problems-1]: [http://vizhub.healthdata.org/gbd-compare/](http://vizhub.healthdata.org/gbd-compare/)
+[^cite-wiblin-problems-1]: Data from the Global Burden of Disease 2013. [http://vizhub.healthdata.org/gbd-compare/](http://vizhub.healthdata.org/gbd-compare/)
 
 ## Footnotes
 
