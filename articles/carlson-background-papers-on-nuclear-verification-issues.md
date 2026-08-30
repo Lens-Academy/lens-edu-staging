@@ -502,11 +502,7 @@ Accordingly INFCIRC/153 was drafted in terms of safeguards procedures to be appl
 
 Not too much should be made of this apparent difference. Clearly nuclear weapons cannot be manufactured without nuclear material, so Article III.1 sets out the basic requirement that safeguards procedures should apply to all the nuclear material in the State. This means an obligation to declare all nuclear material so safeguards procedures can be applied to it. It does not mean that safeguards procedures are limited to nuclear material. As will be discussed, verification also needs to encompass relevant non-nuclear materials and items in order to be able to draw conclusions about the absence of undeclared nuclear material.
 
-INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the context of that document's focus on nuclear material. INFCIRC/153 provides that the Agency has the right and obligation to ensure safeguards are applied to all nuclear material in the State, to verify that such material is not diverted to nuclear weapons or nuclear explosive devices.
-
-\[3\]
-
-. This basic statement is elaborated further in the description of the "objective of safeguards", namely:
+INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the context of that document's focus on nuclear material. INFCIRC/153 provides that the Agency has the right and obligation to ensure safeguards are applied to all nuclear material in the State, to verify that such material is not diverted to nuclear weapons or nuclear explosive devices.[^note-3] This basic statement is elaborated further in the description of the "objective of safeguards", namely:
 
 "… the timely detection of diversion of significant quantities of nuclear material from peaceful nuclear activities to the manufacture of nuclear weapons or of other nuclear explosive devices or for purposes unknown..." [^note-4].
 
@@ -530,7 +526,7 @@ In parallel with the introduction of INFCIRC/540, the Agency has been developing
 
 With the emphasis now being given to undeclared nuclear activities, the safeguards system is reflecting more closely the intent of the NPT, that verification should have a view to preventing diversion.[^note-6] Of course safeguards as such cannot prevent diversion, except through the deterrent effect of the risk of detection. Prevention is likely to require the intervention of the international community – but effective intervention depends on timely warning. The Agency's duty to the international community is, where possible, to provide warning before, not after, a nuclear weapon program has proceeded beyond the point where intervention can be effective.
 
-### 4\. NUCLEAR WEAPONISATION
+### 4\. NUCLEAR WEAPONISATION[^note-7]
 
 Issues concerning the scope of verification and timely warning are directly relevant to the issue of weaponisation. "Weaponisation" is a shorthand term for the range of activities, in addition to the acquisition of fissile material, necessary for the manufacture of a nuclear weapon or nuclear explosive device. The manufacture of nuclear weapons obviously requires nuclear material, but many preparatory activities do not. Some relevant non-nuclear materials and activities are "dual-use", i.e. taken in isolation they do not necessarily indicate an intention to manufacture a nuclear weapon. While such an activity may be ambiguous, however, it may be less so in the context of other information about the State (e.g. discovery of undeclared nuclear material/activities).
 
@@ -555,9 +551,7 @@ The IAEA reports in the annual Safeguards Implementation Report (SIR) whether it
 
 Traditionally the Agency expressed its conclusions in terms of declared material:
 
-"All the information available to the Agency supports the conclusion that the nuclear material and other items placed under safeguards remained in peaceful nuclear activities or were otherwise adequately accounted for."
-
-[^note-9]
+"All the information available to the Agency supports the conclusion that the nuclear material and other items placed under safeguards remained in peaceful nuclear activities or were otherwise adequately accounted for."[^note-9]
 
 Once the Agency began to implement safeguards measures under the Additional Protocol, however, there was an expectation that it would also draw a conclusion about the absence of undeclared nuclear material/activities. The Agency did this for the first time in the SIR for 2000, when it reported:
 
@@ -593,6 +587,8 @@ Whether governments have confidence that a State's nuclear program is exclusivel
 For the safeguards system to be credible a close correlation is needed between safeguards outcomes and the expectations of the international community. It is essential to all parties that the safeguards system is able to provide confidence about a State's performance of its peaceful use commitments – or to provide timely warning if there are grounds for concern. A shared understanding of the safeguards mission – the objectives of the safeguards system – is essential to avoid misunderstandings and failure.
 
 ## Paper 3 - Safeguards in a Changing Environment
+
+John Carlson, Australian Safeguards and Non-Proliferation Office,
 
 RG Casey Bldg, John McEwen Crescent, Barton, ACT 0221, Australia
 
@@ -800,7 +796,11 @@ The safeguards system benefits from two important factors: the strongly held com
 
 ## Paper 4 - NPT Safeguards Agreements – Defining Non-compliance
 
+John Carlson, Director General, Australian Safeguards and Non-Proliferation Office
+
 [john.carlson@dfat.gov.au](mailto:john.carlson@dfat.gov.au)
+
+Paper dated 31 August 2008, publication pending.
 
 **The views in this paper are the author's, not necessarily those of the Australian Government.**
 
@@ -855,19 +855,11 @@ Some guidance can be found in the Statute, and by reflecting on the purpose behi
 
 **What kind of breaches are of actual or potential proliferation significance?** This is a judgment that needs to be made on the facts of each case, but obvious considerations would include:
 
-Â·
-
-Is there diversion of nuclear material to nuclear weapons, to purposes that could be related to production of nuclear weapons, or for "unknown" purposes (see below) that _could_ include nuclear weapons?
-
-Â·
-
-Where undeclared nuclear activities have been discovered, do these involve fissile material or production of fissile material [^note-25] – i.e. enrichment or reprocessing? If so, are the quantities involved significant, or is there indication of an intention to scale up the undeclared activities to produce significant quantities?
-
-What is the context of the safeguards breaches: is there a systematic pattern of breaches; are the nuclear materials and the activities involved of a nature that _could_ be relevant to nuclear weapons; might they be part of an overall program aimed at acquiring nuclear weapons?
-
+-   Is there diversion of nuclear material to nuclear weapons, to purposes that could be related to production of nuclear weapons, or for "unknown" purposes (see below) that _could_ include nuclear weapons?
+-   Where undeclared nuclear activities have been discovered, do these involve fissile material or production of fissile material [^note-25] – i.e. enrichment or reprocessing? If so, are the quantities involved significant, or is there indication of an intention to scale up the undeclared activities to produce significant quantities?
+-   What is the context of the safeguards breaches: is there a systematic pattern of breaches; are the nuclear materials and the activities involved of a nature that _could_ be relevant to nuclear weapons; might they be part of an overall program aimed at acquiring nuclear weapons?
 -   Is the IAEA being obstructed in carrying out its safeguards activities – e.g. inadequate cooperation with inspections, failure to produce records, interference with safeguards equipment, etc. – so that the IAEA is not able to exclude the existence of diversion or undeclared nuclear activities?
 -   What is the overall record of the state on performance of safeguards and non-proliferation commitments?
-    
 
 **Diversion** There are two elements to diversion: action and purpose. Regarding action, diversion is commonly taken to mean removal of nuclear material from safeguarded activities. More correctly, however, the term encompasses both removal of nuclear material from safeguards and failure to declare nuclear material for safeguards. The state's basic obligation is to accept safeguards and apply safeguards procedures on all nuclear material – any significant departure from this obligation could indicate diversion.
 
@@ -924,6 +916,8 @@ It is not appropriate to apply a rigid approach to determinations of non-complia
 Clarification of the issues involved in non-compliance determinations is important for all parties – states and the IAEA Secretariat as well as the Board. The development of guidelines to assist the Board, and indeed the Secretariat, could be very helpful. This paper has suggested some of the considerations that could inform the development of such guidelines.
 
 ## Paper 5 - Can a Fissile Material Cut-Off Treaty be Effectively Verified?
+
+John Carlson
 
 Published with some editorial changes in Arms Control Today, January/February 2005, pages 25-9.
 
@@ -1160,6 +1154,8 @@ John Carlson is Director General, Australian Safeguards and Non-Proliferation Of
 
 [^note-26]: There is also an obligation to declare locations outside facilities where nuclear material is customarily used.
 
+[^note-27]: See J Carlson, R Leslie and A Berriman, _Nuclear Weaponisation Activities: What is the Role of IAEA Safeguards?_, Annual Meeting of Institute of Nuclear Materials Management, Nashville, 16 ‑ 20 July 2006.
+
 [^note-28]: Paragraph 28.
 
 [^note-29]: Paragraph 19.
@@ -1173,5 +1169,3 @@ John Carlson is Director General, Australian Safeguards and Non-Proliferation Of
 [^note-33]: NPT safeguards used to be termed _full scope_ safeguards, but the usual term now is _comprehensive_ safeguards.
 
 [^note-34]: For a discussion of some ideas in this area see _Assessing Motivation as a Means of Determining the Risk of Proliferation_, Annette Berriman, Russell Leslie and John Carlson, 2004 Annual Meeting of the Institute of Nuclear Materials Management.
-
-[^note-27]: . See J Carlson, R Leslie and A Berriman, _Nuclear Weaponisation Activities:_ _What is the Role of IAEA Safeguards?_, Annual Meeting of Institute of Nuclear Materials Management,Nashville, 16 ‑ 20 July 2006.
