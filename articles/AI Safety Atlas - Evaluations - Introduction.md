@@ -10,8 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/evaluations.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter5-e0b0931eaf5f5ef7fd351e37758cb446431d932fda8d13a1089e833162a070ed.pdf)*
 
 %%
@@ -26,7 +32,7 @@ AI models are advancing so fast that our tests for their abilities become outdat
 ---
 
 > When you can measure what you are speaking about, and express it in numbers, you know something about it, when you cannot express it in numbers, your knowledge is of a meager and unsatisfactory kind; it may be the beginning of knowledge, but you have scarcely, in your thoughts advanced to the stage of science.
-> — Lord Kelvin
+> — Lord Kelvin ([Oxford Reference, 2016](https://www.oxfordreference.com/display/10.1093/acref/9780191826719.001.0001/q-oro-ed4-00006236))
 
 **The gap between what AI systems can do and what we can reliably measure creates a fundamental safety challenge.** In late 2024, AI researchers created FrontierMath, a benchmark of exceptionally difficult problems they predicted would "*resist AIs for several years*". Just a few months later, OpenAI's o3 model achieved 25.2% accuracy on these supposedly insurmountable problems. This pattern repeats across AI development: tools designed to measure AI capabilities become obsolete almost immediately as models rapidly surpass them. As AI systems approach potentially transformative capabilities in domains like cybersecurity, autonomous operation, and strategic planning, this evaluation gap becomes increasingly dangerous. We cannot afford to discover the full extent of advanced AI capabilities through their emergent real-world impacts.
 
@@ -50,6 +56,8 @@ AI models are advancing so fast that our tests for their abilities become outdat
 
 This introduction gave you the general overview of many of the concepts that we will be talking about throughout this chapter. The sections will largely proceed in the order that we introduced the ideas above. We begin by exploring how benchmarks have shaped AI development.
 
+:::hide
 ### Acknowledgements
 
 We thank Maxime Riché, Martin, Fabien Roger, Jeanne Salle, Camille Berger and Leo Karoubi for their valuable feedback and contributions.
+:::
