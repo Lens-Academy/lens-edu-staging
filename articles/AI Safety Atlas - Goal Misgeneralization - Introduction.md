@@ -9,8 +9,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/goal-misgeneralization.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter7-cba83c91bc6fb551d685a92a5bc018a4ba13062e1d8f7d7748144b59e4a4de1b.pdf)*
 
 %%
@@ -38,6 +44,8 @@ This chapter dives into the phenomenon of goal misgeneralization—perhaps the m
 
 **Mitigations focus on preventing and correcting goal misgeneralization across the development pipeline.** We explore training-time interventions like adversarial training and curriculum learning, post-training techniques like steering vectors and model editing, and deployment-time safeguards including runtime monitoring and sandboxing. As with all AI safety challenges explored in this book, we advocate for a defense-in-depth approach where multiple detection and mitigation measures are layered to provide robust defenses against goal misgeneralization.
 
+:::hide
 ### Acknowledgements
 
 We thank Charbel-Raphael Segerie, Emanuele Ascani, Jeanne Salle, Oscar Heitmann, Camille Berger, Josh Thorsteinson and Nicolas Guillard for their valuable feedback and contributions.
+:::
