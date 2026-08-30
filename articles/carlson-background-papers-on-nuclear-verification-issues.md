@@ -2,10 +2,10 @@
 title: "Background papers on nuclear verification issues"
 author:
   - "John Carlson"
-  - "Australian Safeguards"
+{--{"author":"Luc's AI","timestamp":1788094699071}@@  - "Australian Safeguards"
   - "Non-Proliferation Office"
   - "Director General"
-source_url: "https://www.dfat.gov.au/about-us/publications/Pages/background-papers-on-nuclear-verification-issues"
+--}source_url: "https://www.dfat.gov.au/about-us/publications/Pages/background-papers-on-nuclear-verification-issues"
 allowUnreachableUrl: true
 published: 2026-08-20
 created: 2026-08-20
@@ -13,14 +13,34 @@ accessed: 2026-08-20
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
+
+Author: Australian Safeguards and Non-Proliferation Office
+
+- **Paper 1** - Experience and Challenges in WMD Treaty Verification: a Comparative View
+    - Discusses general verification principles; comparative analysis of verification under the NPT (IAEA safeguards), Chemical Weapons Convention and Comprehensive Nuclear-Test-Ban Treaty
+    - (Some information dated (2006) but the issues remain current)
+- **Paper 2** - Defining the Safeguards Mission
+    - Discusses IAEA safeguards objectives, drawing conclusions, and the standard of proof
+- **Paper 3** - Safeguards in a Changing Environment
+    - Discusses the evolution of IAEA safeguards, safeguards challenges, and changing international expectations
+- **Paper 4** - NPT Safeguards Agreements – Defining Non-compliance
+    - Discusses considerations in reaching non-compliance findings, and the importance of consistency and predictability
+- **Paper 5** - Can a Fissile Material Cut-Off Treaty be Effectively Verified?
+    - Discusses verification issues relating to an FMCT
 
 ## Paper 1 - Experience and Challenges in WMD Treaty Verification: a Comparative View
 
