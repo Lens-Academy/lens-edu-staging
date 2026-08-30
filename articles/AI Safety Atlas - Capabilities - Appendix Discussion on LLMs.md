@@ -10,8 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)*
 
 %%
@@ -55,7 +61,7 @@ Scaling laws indicate that larger AIs tend to be more data efficient, requiring 
 **Stochastic Parrots: Do AIs only memorize information without truly compressing it?** There are two archetypal ways to represent information in an LLM: either memorize point by point, like a look-up table, or compress the information by only memorizing higher-level features, which we can then call "the world model". This is explained in the very important paper "Superposition, Memorization, and Double Descent" ([Anthropic, 2023](https://transformer-circuits.pub/2023/toy-double-descent/index.html)): it turns out that to store points, initially the model learns the position of all the points (pure memorization), then, if we increase the number of points, the model starts to compress this knowledge, and the model is now capable of generalization (and implements a simple model of the data).
 
 > Unfortunately, too few people understand the distinction between memorization and understanding. It's not some lofty question like ‘does the system have an internal world model?’, it's a very pragmatic behavior distinction: ‘is the system capable of broad generalization, or is it limited to local generalization?’
-> — Francois Chollet
+> — Francois Chollet ([Chollet, 2023](https://x.com/fchollet/status/1736079054313574578?s=20))
 
 *Figure 1.68*
 
