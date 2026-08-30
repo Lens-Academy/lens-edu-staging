@@ -10,8 +10,14 @@ accessed: 2026-08-21
 description: "An overview of what a neural network is, introduced in the context of recognizing hand-written digits."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -31,13 +37,13 @@ Text adaptation by [Josh Pullen](https://www.joshuapullen.com/)
 
 The program above can identify hand-drawn digits 0-9 reasonably accurately. Give it a whirl if you haven't already!
 
-Although it does generally work, it requires a bit of coaxing to get there. In particular, the digit images it receives need to be centered and about the right size, which is why there's a pre-processing step before the digit image gets passed along to the neural network.
+Although it does generally work, it requires a bit of coaxing to get there. In particular, the digit images it receives need to be centered and about the right size, which is why there's a pre-processing step before the digit image gets passed along to the neural network.[^note-1]
 
-While more modern neural networks can do a much better job at tasks like this, the network above is simple enough that you can understand exactly what it's doing and how it was trained with almost no background. It's also simple enough that you could train it on your own computer, while training more sophisticated networks can require a truly mind-boggling amount of computation.
+While more modern neural networks can do a much better job at tasks like this, the network above is simple enough that you can understand exactly what it's doing and how it was trained with almost no background. It's also simple enough that you could train it on your own computer, while training more sophisticated networks can require a truly mind-boggling amount of computation.[^note-2]
 
 On the surface, a machine recognizing handwritten digits may not seem particularly impressive. After all, you know how to identify digits, and I bet you don't even find it very hard. For example, you can tell instantly that these are all images of the digit three:
 
-![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/three-3s.jpg)
+{--{"author":"Luc's AI","timestamp":1788093546857}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/three-3s.jpg)--}{++{"author":"Luc's AI","timestamp":1788093546857}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/three-3s.jpg)++}
 
 Each three is drawn differently, so the particular light-sensitive cells in your eye that fire are different for each, but something in that crazy smart visual cortex of yours resolves all these as representing the same idea, while recognizing images of other numbers as their own distinct ideas.
 
@@ -45,7 +51,7 @@ But if I told you to sit down and write a program like the one shown above, that
 
 **Somehow identifying digits is incredibly easy for your brain to do, but almost impossible to describe _how_ to do.** The traditional methods of computer programming, with if statements and for loops and classes and objects and functions, just don't seem suitable to tackle this problem.
 
-But what if we could write a program that mimics the structure of your brain? That's the idea behind neural networks. The hope is that by writing brain-inspired software, we might be able to create programs that tackle the kinds of fuzzy and difficult-to-reason-about problems that your mind is so good at solving.
+But what if we could write a program that mimics the structure of your brain? That's the idea behind neural networks. The hope is that by writing brain-inspired software, we might be able to create programs that tackle the kinds of fuzzy and difficult-to-reason-about problems that your mind is so good at solving.[^note-3]
 
 Moreover, just as you learn by seeing many examples, the "learning" part of machine learning comes from the fact that we never give the program any specific instructions for how to identify digits. Instead, we'll show it many examples of hand-drawn digits together with labels for what they should be, and leave it up to the computer to adapt the network based on each new example.
 
@@ -57,7 +63,7 @@ This lesson is all about motivating and understanding the structure and mathemat
 
 There are many variants of neural networks, such as convolutional neural networks (CNN), recurrent neural networks (RNN), transformers, and countless others. In recent years there's been a boom in research of these variants. But the first step to understanding any of them is to build up the simplest, plain vanilla form with no added frills.
 
-![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/plain-vanilla.jpg)
+{--{"author":"Luc's AI","timestamp":1788093546385}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/plain-vanilla.jpg)--}{++{"author":"Luc's AI","timestamp":1788093546385}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/plain-vanilla.jpg)++}
 
 The simple network we're using to identify digits is just a few layers of neurons linked together.
 
@@ -67,7 +73,7 @@ Right now, when I say neuron, all I want you to think is "a thing that holds a n
 
 This number inside the neuron is called the "activation" of that neuron, and the image you might have in your mind is that each neuron is lit up when its activation is a high number.
 
-![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/activations.svg)
+{--{"author":"Luc's AI","timestamp":1788093546161}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/activations.svg)--}{++{"author":"Luc's AI","timestamp":1788093546161}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/activations.svg)++}
 
 Every neuron has an activation between 0.0 and 1.0, sort of analogous to how neurons in the brain can be active or inactive.
 
