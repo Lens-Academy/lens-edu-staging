@@ -1,6 +1,6 @@
 ---
 title: "This Can't Go On"
-source_url: https://www.cold-takes.com/this-cant-go-on/
+# source_url (stub disabled for full-import 2026-08-30): https://www.cold-takes.com/this-cant-go-on/
 author:
   - Holden Karnofsky
 published: 2021-08-03

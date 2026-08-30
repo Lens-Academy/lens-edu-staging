@@ -1,6 +1,6 @@
 ---
 title: "It Looks Like There Are Some Good Funding Opportunities in AI Safety Right Now"
-source_url: https://benjamintodd.substack.com/p/looks-like-there-are-some-good-funding
+# source_url (stub disabled for full-import 2026-08-30): https://benjamintodd.substack.com/p/looks-like-there-are-some-good-funding
 author:
   - Benjamin Todd
 published: 2024-12-21

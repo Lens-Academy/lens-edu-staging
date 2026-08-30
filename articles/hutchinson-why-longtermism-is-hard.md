@@ -1,6 +1,6 @@
 ---
 title: "Why I Find Longtermism Hard, and What Keeps Me Motivated"
-source_url: https://80000hours.org/2021/02/why-i-find-longtermism-hard/
+# source_url (stub disabled for full-import 2026-08-30): https://80000hours.org/2021/02/why-i-find-longtermism-hard/
 author:
   - Michelle Hutchinson
 published: 2021-02-22

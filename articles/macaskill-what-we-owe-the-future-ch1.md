@@ -1,6 +1,6 @@
 ---
 title: "What We Owe the Future, Chapter 1"
-source_url: https://forum.effectivealtruism.org/posts/rdigzNQqDgiou5AmZ/what-we-owe-the-future-chapter-1
+# source_url (stub disabled for full-import 2026-08-30): https://forum.effectivealtruism.org/posts/rdigzNQqDgiou5AmZ/what-we-owe-the-future-chapter-1
 author:
   - William MacAskill
 published: 2022-08-16

@@ -1,6 +1,6 @@
 ---
 title: "Making Beliefs Pay Rent"
-source_url: https://www.lesswrong.com/s/6xgy8XYEisLk3tCjH/p/a7n8GdKiAZRX86T5A
+# source_url (stub disabled for full-import 2026-08-30): https://www.lesswrong.com/s/6xgy8XYEisLk3tCjH/p/a7n8GdKiAZRX86T5A
 author:
   - Eliezer Yudkowsky
 published: 2015-06-16

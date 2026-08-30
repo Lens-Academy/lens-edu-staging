@@ -1,6 +1,6 @@
 ---
 title: "Factory farming"
-source_url: https://80000hours.org/problem-profiles/factory-farming/
+# source_url (stub disabled for full-import 2026-08-30): https://80000hours.org/problem-profiles/factory-farming/
 author:
   - Benjamin Hilton
 published: 2024-07-01

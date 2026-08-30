@@ -1,6 +1,6 @@
 ---
 title: "The Case for Reducing Existential Risk"
-source_url: https://80000hours.org/articles/existential-risks/
+# source_url (stub disabled for full-import 2026-08-30): https://80000hours.org/articles/existential-risks/
 author:
   - Benjamin Todd
 published: 2017-10-01
