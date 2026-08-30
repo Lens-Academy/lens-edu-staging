@@ -1,4 +1,4 @@
----
+{>>{"author":"Bibi Lee","timestamp":1788084836334}@@Would you be willing to update this with latest developments on corrigibility and what it solves vs what remains to be done?<<}---
 id: ce2d8b4c-03ba-4089-919c-2ab360fc5467
 reading_minutes: 15
 tutor_minutes: 5
