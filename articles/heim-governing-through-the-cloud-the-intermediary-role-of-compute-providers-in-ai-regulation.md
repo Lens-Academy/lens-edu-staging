@@ -16,8 +16,14 @@ accessed: 2026-08-20
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -25,9 +31,9 @@ Add discussion note here:
 
 %%
 
-See pages 1 of [Oxford-Cover.pdf](https://oxford-cover.pdf/)
+{--{"author":"Luc's AI","timestamp":1788095800223}@@See pages 1 of [Oxford-Cover.pdf](https://oxford-cover.pdf/)
 
-###### Abstract
+--}###### Abstract
 
 As jurisdictions around the world take their first steps toward regulating the most powerful AI systems, such as the EU AI Act and the US Executive Order 14110, there is a growing need for effective enforcement mechanisms that can verify compliance and respond to violations. We argue that compute providers should have legal obligations and ethical responsibilities associated with AI development and deployment, both to provide secure infrastructure and to serve as intermediaries for AI regulation. Compute providers can play an essential role in a regulatory ecosystem via four key capacities: as _securers_, safeguarding AI systems and critical infrastructure; as _record keepers_, enhancing visibility for policymakers; as _verifiers_ of customer activities, ensuring oversight; and as _enforcers_, taking actions against rule violations. We analyze the technical feasibility of performing these functions in a targeted and privacy-conscious manner and present a range of technical instruments. In particular, we describe how non-confidential information, to which compute providers largely already have access, can provide two key governance-relevant properties of a computational workload: its type—e.g., large-scale training or inference—and the amount of compute it has consumed. Using AI Executive Order 14110 as a case study, we outline how the US is beginning to implement record keeping requirements for compute providers. We also explore how verification and enforcement roles could be added to establish a comprehensive AI compute oversight scheme. We argue that internationalization will be key to effective implementation, and highlight the critical challenge of balancing confidentiality and privacy with risk mitigation as the role of compute providers in AI regulation expands.
 
@@ -49,7 +55,7 @@ Governance Capacities — We propose that compute providers can leverage their c
 | Governance Capacities |  |  |  |
 | --- | --- | --- | --- |
 | Security | Record Keeping | Verification | Enforcement |
-| Helping provide physical and cybersecurity measures to secure the AI model, related intellectual property, and personal and confidential data. | The selective collection, organization, and maintenance of high-level information of a compute provider’s infrastructure usage, such as a customer’s compute usage data.1 | Actively verifying customer identities, specific activities, and high-level AI systems’ properties. | Restriction or limitation of compute access to customers or workloads for non-compliant customers. |
+| Helping provide physical and cybersecurity measures to secure the AI model, related intellectual property, and personal and confidential data. | The selective collection, organization, and maintenance of high-level information of a compute provider’s infrastructure usage, such as a customer’s compute usage data.[^note-1] | Actively verifying customer identities, specific activities, and high-level AI systems’ properties. | Restriction or limitation of compute access to customers or workloads for non-compliant customers. |
 | Enables |  |  |  |
 | Enables shared security standards to protect the public good, such as safeguarding critical infrastructure and helping prevent model theft. | Increases visibility into AI development, links customers and their usage to real-world actors, and enables post-incident attributions and forensics. | Ensures that the deployment and development of AI systems adhere to regulations or company policies and reported properties. | Directly impacts the capability of customers to develop or deploy advanced AI systems, ensuring adherence to rules. |
 | Examples |  |  |  |
@@ -74,9 +80,9 @@ Directions ‣ 1 Introduction ‣ Governing Through the Cloud:The Intermediary R
 
 Conclusion — Compute providers are well-placed to support existing and future AI governance frameworks in a privacy-preserving manner. Many of the interventions we propose are feasible with the current capabilities of compute providers. However, realizing the full potential necessitates addressing technical and governance challenges, requiring concerted efforts in research and international cooperation. As governments and regulatory bodies move to address AI risks, compute providers stand as the intermediate node in ensuring the effective implementation of regulation. ([Section 6])
 
-Contents
+{--{"author":"Luc's AI","timestamp":1788095799537}@@Contents
 
-## 1 Introduction
+--}## 1 Introduction
 
 As governments, international organizations, and regional bodies formulate approaches for governing advanced AI, we ask: how can authorities gain visibility into development and deployment practices and enforce rules? The visibility is currently obscured because frontier AI development largely takes place within the private sector and often relies on self-reporting by AI companies, which may not always be reliable due to growing incentives to obfuscate the results ([Anderljung et al. 2023b]; [Mulani & Whittlestone 2023]; [Whittlestone & Clark 2021]). Ongoing governance processes worldwide require answers to this question.
 
@@ -150,7 +156,7 @@ Compute providers can facilitate effective AI regulation via four key capacities
 | Governance Capacities |  |  |  |
 | --- | --- | --- | --- |
 | Security | Record Keeping | Verification | Enforcement |
-| Helping provide physical and cybersecurity measures to secure the AI model, related intellectual property, and personal and confidential data. | The selective collection, organization, and maintenance of high-level information of a compute provider’s infrastructure usage, such as a customer’s compute usage data.13 | Actively verifying customer identities, specific activities, and high-level AI systems’ properties. | Restriction or limitation of compute access to customers or workloads for non-compliant customers. |
+| Helping provide physical and cybersecurity measures to secure the AI model, related intellectual property, and personal and confidential data. | The selective collection, organization, and maintenance of high-level information of a compute provider’s infrastructure usage, such as a customer’s compute usage data.[^note-13] | Actively verifying customer identities, specific activities, and high-level AI systems’ properties. | Restriction or limitation of compute access to customers or workloads for non-compliant customers. |
 | Enables |  |  |  |
 | Enables shared security standards to protect the public good, such as safeguarding critical infrastructure and helping prevent model theft. | Increases visibility into AI development, links customers and their usage to real-world actors, and enables post-incident attributions and forensics. | Ensures that the deployment and development of AI systems adhere to regulations or company policies and reported properties. | Directly impacts the capability of customers to develop or deploy advanced AI systems, ensuring adherence to rules. |
 | Examples |  |  |  |
@@ -549,7 +555,7 @@ Figure 2: Additional measures, implemented by the Department of Commerce, would 
 
 #### 4.1.1 Record Keeping and Reporting in the AI Executive Order
 
-The AI Executive Order acknowledges the importance of compute providers in AI regulation, and begins to impose record keeping and reporting requirements. First, under the authority of the Defense Production Act (DPA), it requires firms owning or developing clusters capable of collectively providing more than 1020 OP/s with more than 100 Gbit/s networking bandwidth[^note-32] to report its existence and location. Once implemented, this measure would provide the US Government with visibility of the most significant compute infrastructure in the US. While the high reporting threshold will not capture all compute clusters capable of training frontier AI, it will nevertheless be useful in identifying relevant industry stakeholders that would play a role in frontier AI governance.
+The AI Executive Order acknowledges the importance of compute providers in AI regulation, and begins to impose record keeping and reporting requirements. First, under the authority of the Defense Production Act (DPA), it requires firms owning or developing clusters capable of collectively providing more than 10²⁰ OP/s with more than 100 Gbit/s networking bandwidth[^note-32] to report its existence and location. Once implemented, this measure would provide the US Government with visibility of the most significant compute infrastructure in the US. While the high reporting threshold will not capture all compute clusters capable of training frontier AI, it will nevertheless be useful in identifying relevant industry stakeholders that would play a role in frontier AI governance.
 
 Additionally, leveraging the powers of the International Emergency Economic Powers Act (IEEPA), the AI Executive Order requires that compute providers identify and report to the Department of Commerce when a foreign person uses their services to train a frontier AI model.[^note-33] The Department of Commerce has proposed rules to implement this that would require US compute providers (and their foreign resellers) to maintain Customer Identification Programs.[^note-34]
 
@@ -567,7 +573,7 @@ Ensuring proportionate information security practices --- Given the potential ri
 
 Expanding and streamlining record keeping — While the proposed rules require US compute providers to keep records on foreign AI developers, significant AI-related risks may also arise from domestic AI development. This may make it appropriate to expand the role of compute providers to also undertake KYC on domestic developers of frontier AI to enable a more comprehensive oversight scheme (Smith 2023). Under the AI Executive Order, domestic AI developers are themselves accountable for reporting their own frontier training runs to the Department of Commerce. Using the compute provider to collect information that could then be used to validate these processes would help improve their effectiveness and ensure compliance. In this way, KYC could be implemented as a cohesive scheme, drawing on lessons from the financial sector (Egan & Heim 2023).
 
-In addition to using training compute thresholds, other measures should be employed to create a more precise risk-management system. The current 1026 operations threshold minimizes regulations on existing systems while capturing next-generation models that may pose significant dual-use risks. However, below-threshold compute could also be relevant in identifying problematic trends (e.g., from entities in particular geographic regions) and entities trying to break up workloads over multiple compute providers (Heim & Egan 2023). Furthermore, the threshold should be constantly re-evaluated as frontier AI evolves and algorithmic innovations reduce the cost of training powerful systems and if our understanding of how to predict risks from compute in particular systems grows (Pilz et al. 2024). On the training side, indicators like training data (similar to the biological sequence data criterion referenced in the AI Executive Order), the architecture of the AI model, or the way training is conducted could all be useful proxies for identifying risk levels from new AI systems. On the deployment side, which does not currently fall under the purview of the AI Executive Order, factors like the use of customer data (e.g., voice or images), the scale of deployment, the level of access to the outside world (e.g., via the internet or physical effectors), and the ability to act with limited direct supervision could be used to set a range of regulatory thresholds (Shavit et al. 2023). Developing more nuanced thresholds, beyond blunt compute capacity and usage, will require further research and collaboration between government, compute providers, AI developers, and broader civil society.
+In addition to using training compute thresholds, other measures should be employed to create a more precise risk-management system. The current 10²⁶ operations threshold minimizes regulations on existing systems while capturing next-generation models that may pose significant dual-use risks. However, below-threshold compute could also be relevant in identifying problematic trends (e.g., from entities in particular geographic regions) and entities trying to break up workloads over multiple compute providers (Heim & Egan 2023). Furthermore, the threshold should be constantly re-evaluated as frontier AI evolves and algorithmic innovations reduce the cost of training powerful systems and if our understanding of how to predict risks from compute in particular systems grows (Pilz et al. 2024). On the training side, indicators like training data (similar to the biological sequence data criterion referenced in the AI Executive Order), the architecture of the AI model, or the way training is conducted could all be useful proxies for identifying risk levels from new AI systems. On the deployment side, which does not currently fall under the purview of the AI Executive Order, factors like the use of customer data (e.g., voice or images), the scale of deployment, the level of access to the outside world (e.g., via the internet or physical effectors), and the ability to act with limited direct supervision could be used to set a range of regulatory thresholds (Shavit et al. 2023). Developing more nuanced thresholds, beyond blunt compute capacity and usage, will require further research and collaboration between government, compute providers, AI developers, and broader civil society.
 
 Enhancing verification roles — There is an opportunity to leverage compute providers’ verification capabilities to help ensure both foreign and domestic AI developers are complying with AI safety standards and requirements. The AI Executive Order requires AI developers to report the total amount of training compute and whether biological sequence data was used to train their frontier models, as well as the outcomes of safety testing. However, there are presently no verification methods specified for these requirements. The ability of compute providers to capture insights from the metrics described in [Section 3](#S3 "3 Technical Feasibility of Compute Providers’ Governance
 Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation") could enable verification to be performed while minimizing privacy tradeoffs. For example, rather than reporting all metrics to the US government, compute providers could instead only report when they have reasonable grounds to suspect a violation of regulations or standards has occurred. Verification mechanisms will need to be resilient against evasion and exploitation. For example, privacy-preserving information sharing between compute providers could be used to help identify and manage attempts to break training runs down into smaller segments, or to obfuscate compute utilization patterns. As regulatory frameworks develop, there may be an opportunity for compute providers to play a role in advancing both responsible training requirements for frontier model developers, including notification and use of secure infrastructure, and pre-deployment safeguards, for example by requiring frontier model providers to demonstrate they have government approvals prior to placing a model on the market. Such approvals could be made contingent on the evaluation of highly capable models to a specified standard (O’Brien et al. 2023).
@@ -729,6 +735,7 @@ Table 4: An overview of observable data attributes.
 | Workload hyperparameters | _Workload classification, compute accounting, detailed workload verification._ | Yes. Can potentially be made privacy-preserving using confidential computing techniques. | Possible to collect with customer consent. | Unclear (highly dependent on implementation). |
 | Training dataset | _Workload classification, compute accounting, detailed workload verification._ | Yes. Can potentially be made privacy-preserving using confidential computing techniques. | Possible to collect with customer consent. | Unclear (highly dependent on implementation). |
 
+:::hide
 ## References
 
 -   Aarne et al. (2024) Aarne, O., Fist, T., and Withers, C. Secure, Governable Chips. Technical report, Center for a New American Security, January 2024. URL [https://www.cnas.org/publications/reports/secure-governable-chips](https://www.cnas.org/publications/reports/secure-governable-chips).
@@ -904,6 +911,8 @@ Table 4: An overview of observable data attributes.
 -   Wikipedia contributors (2023) Wikipedia contributors. Hardware performance counter, August 2023. URL [https://en.wikipedia.org/w/index.php?title=Hardware\_performance\_counter&oldid=1169157291](https://en.wikipedia.org/w/index.php?title=Hardware_performance_counter&oldid=1169157291).
 -   Williams et al. (2008) Williams, S., Waterman, A., and Patterson, D. Roofline: An Insightful Visual Performance Model for Floating-Point Programs and Multicore Architectures, October 2008. URL [https://people.eecs.berkeley.edu/˜kubitron/cs252/handouts/papers/RooflineVyNoYellow.pdf](https://people.eecs.berkeley.edu/~kubitron/cs252/handouts/papers/RooflineVyNoYellow.pdf).
 
+:::
+
 [^note-1]: Focusing on essential data that informs without compromising privacy and confidentiality.
 [^note-2]: For a discussion of compute as a governance node, see Sastry et al. 2024.
 [^note-3]: Our focus is on the entities that own and operate data centers, prioritizing the “legal entity” level of abstraction over the physical locations or “data centers” themselves.
@@ -932,11 +941,11 @@ Table 4: An overview of observable data attributes.
 [^note-26]: See Section 3.C of Sastry et al. 2024.
 [^note-27]: Interviews conducted between October 2023 and February 2024
 [^note-28]: For an example of an approach for simulating workloads on large clusters, see Sliwko & Getov 2016.
-[^note-29]: For example, to meet the AI Executive Order’s reporting requirement of 1026 operations for a training run, a customer will need access to around 60,000 cutting-edge AI accelerators (Nvidia H100) for 90 days, assuming a utilization of 34%.
+[^note-29]: For example, to meet the AI Executive Order’s reporting requirement of 10²⁶ operations for a training run, a customer will need access to around 60,000 cutting-edge AI accelerators (Nvidia H100) for 90 days, assuming a utilization of 34%.
 [^note-30]: “Utilization” in this context refers to the usage as a proportion of the node’s theoretical peak computational performance.
 [^note-31]: Choi et al. 2023 propose a method for verifying training data, but it requires sharing of sensitive data with the verifier. Making the scheme fully privacy-preserving is discussed but left for future work by the authors.
 [^note-32]: Threshold as stipulated by the AI Executive Order. Note it is subject to updates.
-[^note-33]: In this case, models trained on with more than 1026 operations and occurring on frontier infrastructure.
+[^note-33]: In this case, models trained on with more than 10²⁶ operations and occurring on frontier infrastructure.
 [^note-34]: The proposed rules also require US IaaS providers and their foreign resellers to verify the identities of _all_ foreign customers. This broader measure has come under criticism for being ineffective in addressing cyber threats, giving rise to privacy issues, and impacting the competitiveness of US compute provision (National Security Telecommunications Advisory Committee 2023). This paper does not engage in analysis of this broader measure, and instead focuses on the subsection of compute for frontier AI. As outlined in the introduction, this narrower focus only captures a small number of AI firms and compute providers, which mitigates much of the concern around regulatory burden (see discussion in [Section 1.4](#S1.SS4 "1.4 Limitations and Future Research Directions ‣ 1 Introduction ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation").
 [^note-35]: Note, however, that strong cyber security at the infrastructure level alone is insufficient. AI firms will still need to implement and maintain strong cyber security practices on their own systems ([Section 3.1](#S3.SS1 "3.1 Security ‣ 3 Technical Feasibility of Compute Providers’ Governance Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation")).
 [^note-36]: For example, techniques to reduce the memory footprint of training are an active area of research (e.g., (Dettmers et al. 2022)).
