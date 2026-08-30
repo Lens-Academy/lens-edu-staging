@@ -1,6 +1,6 @@
 ---
 title: "A Framework for Comparing Global Problems in Terms of Expected Impact"
-# source_url (stub disabled for full-import 2026-08-30): https://80000hours.org/articles/problem-framework/
+source_url: https://80000hours.org/articles/problem-framework/
 author:
   - Robert Wiblin
 published: 2017-01-01

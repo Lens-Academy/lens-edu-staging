@@ -8,4 +8,4 @@ tags:
 ---
 
 #### Article
-source:: [[../articles/karnofsky-this-cant-go-on]]
+source:: [[../articles/karnofsky-this-cant-go-on-stub-tmp-2026-08-30]]
