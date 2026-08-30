@@ -10,8 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/risks.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter2-f858610ccd1d35291511150ffea3baaa2c282a11cef98d01d60514f7101f1318.pdf)*
 
 %%
@@ -26,7 +32,8 @@ AI's interconnected risks demand a multidisciplinary safety approach to preserve
 ---
 
 > Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.
-> — CAIS
+>
+> — CAIS, *Statement on AI Risk signed by hundreds of AI Experts*, 2023 ([CAIS, 2023](https://safe.ai/work/statement-on-ai-risk))
 
 This chapter shows that there are many possible risks from AI systems. Today's documented harms already affect thousands, and potential existential threats that could affect all future generations. There is a lot of disagreement and lack of consensus on what the biggest problems are. Dangerous capabilities are already emerging in current systems. We are seeing empirical demonstrations of misalignment and misuse risks. Many of these individual risks can interact with each other and further compound through systemic effects—misuse enables misalignment, competitive pressures amplify accidents, and coordination failures prevent collective safeguards.
 
