@@ -10,8 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/risks.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter2-f858610ccd1d35291511150ffea3baaa2c282a11cef98d01d60514f7101f1318.pdf)*
 
 %%
@@ -59,7 +65,7 @@ There are various properties of complex systems that we might want to pay attent
 
 **AIs can exploit users’ trust.** Already, hundreds of thousands of people pay for chatbots marketed as lovers and friends ([Tong, 2023](https://www.reuters.com/technology/what-happens-when-your-ai-chatbot-stops-loving-you-back-2023-03-18/)), and one man’s suicide has been partially attributed to interactions with a chatbot ([Xiang, 2023](https://www.vice.com/en/article/pkadgm/man-dies-by-suicide-after-talking-with-ai-chatbot-widow-says)). As AIs appear increasingly human-like, people will increasingly form relationships with them and grow to trust them. AIs that gather personal information through relationship-building or by accessing extensive personal data, such as a user’s email account or personal files, could leverage that information to enhance persuasion. Powerful actors that control those systems could exploit user trust by delivering personalized disinformation directly through people’s “friends.”
 
-**This erosion occurs both through intentional misuse and agent-agnostic systemic pressures.** While some actors deliberately deploy AI to pollute information environments for strategic advantage the more subtle risk comes from agent-agnostic systemic pressures.AI uniquely threatens epistemic stability through several cumulative mechanisms:
+**This erosion occurs both through intentional misuse and agent-agnostic systemic pressures.** While some actors deliberately deploy AI to pollute information environments for strategic advantage the more subtle risk comes from agent-agnostic systemic pressures. AI uniquely threatens epistemic stability through several cumulative mechanisms:
 
 - **Volume overwhelming verification**: AI exponentially increases content generation capacity, overwhelming human verification systems through sheer volume. It can generate plausible content orders of magnitude faster than humans can reliably verify it.
 - **Authenticity degradation**: AI progressively undermines verification through increasingly sophisticated impersonation capabilities.
