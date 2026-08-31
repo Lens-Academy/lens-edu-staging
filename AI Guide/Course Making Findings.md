@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1788183879779}@@# Course-making: findings and advice
+# Course-making: findings and advice
 
 Advice for making Lens courses, collected from three days of work (2026-08-28 to
 08-31) by Lauren working with AI; one of the AI instances assembled this file.
@@ -200,4 +200,3 @@ course-writing-generators.md is for).
   connecting the 78 orphaned practice lenses into the modules the student
   walked: it is the cheapest test of everything above, and if this file is
   right, it resolves his biggest complaint with no new writing.
-++}
