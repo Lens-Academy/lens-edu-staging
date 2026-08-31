@@ -50,7 +50,7 @@ To get suggest and comments working, please add this plugin. If you're missing i
 | Deletion     | `{ - - removed text - - }` |
 | Substitution | `{ ~ ~ old~>new ~ ~ }`     |
 | Comment      | `{ > > your comment < < }` |
-|              |(remove the extra spaces. i.e. use {++, not { + + )|
+|              |(remove the extra spaces. i.e. use `{++`, not `{ + +` )|
 
 
 
