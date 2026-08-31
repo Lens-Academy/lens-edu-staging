@@ -185,7 +185,7 @@ Questions to consider:
 - How much residual uncertainty would policymakers have to tolerate even when the regime appears to be working?
 
 Decide which plan could give decision-makers stronger grounds for confidence in compliance. (150 to 200 words)
-assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
+feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
 content::
@@ -204,7 +204,7 @@ Questions to consider:
 - Does a broader prohibition make monitoring easier, or make gaps in coverage more consequential?
 
 Revisit your answer from Part 1. A rule that initially looked simpler may create a demanding monitoring problem once you consider how it would work across the real AI ecosystem. (150 to 200 words)
-assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
+feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
 content::
