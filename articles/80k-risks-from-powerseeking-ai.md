@@ -276,6 +276,7 @@ Some have suggested that this might not be a bad thing. Perhaps AI systems would
 
 But we’re not comforted by the idea that an AI system that actively chose to undermine humanity would have control of the future because its developers failed to figure out how to control it. We think humanity can do much better than accidentally driving ourselves extinct. We should have a choice in how the future goes, and we should improve our ability to make good choices rather than falling prey to uncontrolled technology.
 
+:::hide
 #### How likely is an existential catastrophe from power-seeking AI?
 
 We feel very uncertain about this question, and the range of opinions from AI researchers is wide.
