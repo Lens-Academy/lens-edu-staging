@@ -98,7 +98,8 @@ content:: Take an attestation token or architecture diagram supplied with this s
 7. The strongest relevant adversary;
 8. One common-mode failure;
 9. One independent corroborating source.
-assessment-instructions:: This is an XLab writing or reflection exercise. XLab's source supplies no token or diagram; if the learner has none, point them to NVIDIA's Architecture Overview linked in this lens and let them work from it. Check that all nine items are addressed and that items 2 to 6 name a concrete component or actor rather than "the chip" or "NVIDIA" throughout. Identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
+assessment-instructions:: Check that all nine items are addressed and that items 2 to 6 name a concrete component or actor rather than "the chip" or "NVIDIA" throughout. Do not penalize a learner for having no token or diagram; XLab's source supplies none.
+feedback-instructions:: This is an XLab writing or reflection exercise. XLab's source supplies no token or diagram; if the learner has none, point them to NVIDIA's Architecture Overview linked in this lens and let them work from it. Identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 {>>{"author":"Elias's AI","timestamp":1788015961356}@@The MDX says a token or diagram is "supplied with this section" but nothing is supplied in XLab's repo; reported to Elias as an XLab source gap.<<}
 
 #### Text

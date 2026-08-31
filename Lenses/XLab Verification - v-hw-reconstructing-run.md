@@ -56,7 +56,8 @@ A June 2026 paper proposes a zero-knowledge architecture for frontier training c
 id:: 25ad0482-15a3-4c5a-a717-c7a7b2ca6e29
 content:: Optional: You receive a declared transcript and a limited verification-compute budget. Allocate it among full rerunning, random segment sampling, checkpoint checks, code and data commitments, physical compute totals, telemetry-timing comparison, and random chip inspection. For each choice, record cost, confidentiality exposure, spoofing opportunity, expected assurance, and the claim that remains untested.
 optional:: true
-assessment-instructions:: This is an XLab writing or reflection exercise. Check that the allocation is explicit, that each chosen check records the five attributes, and that the learner says which of the three claims (declared-run correctness, declared-run completeness, fleet completeness) each check addresses and which remains untested. Mark down answers that treat transcript checks as evidence about fleet completeness. Identify one strong point and one important gap, then ask one useful follow-up question. Do not imply that agreement with the source is required.
+assessment-instructions:: Check that the allocation is explicit, that each chosen check records the five attributes, and that the learner says which of the three claims (declared-run correctness, declared-run completeness, fleet completeness) each check addresses and which remains untested. Mark down answers that treat transcript checks as evidence about fleet completeness.
+feedback-instructions:: This is an XLab writing or reflection exercise. Identify one strong point and one important gap, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
 content::
