@@ -8,4 +8,4 @@ tags:
 ---
 
 #### Article
-source:: [[../articles/80k-summary-of-key-ideas]]
+source:: [[../articles/todd-summary-what-makes-for-a-high-impact-career]]
