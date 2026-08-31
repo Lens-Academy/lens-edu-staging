@@ -4,7 +4,7 @@ title: "Unit 2 Recap: Thinking About How We Think"
 tldr: "Two checks that put Unit 2 together: where the judgement sits, and where it leaves the person, when a tool does the work — and the five metacognitive traps your own thinking can fall into before any AI is involved."
 summary_for_tutor: "Recap lens at the end of Unit 2 of 'Thinking about Thinking'. A short Text frame sends the learner back to the unit's distinction between offloading a task and offloading the judgement about which tasks to delegate, and to the five metacognitive traps, then two graded Question chapters: (1) Person A and Person B, assessing the offloading-a-task versus metacognitive-laziness distinction, a valid example of arbitrary offloading, and the stakes of handing over oversight; (2) the five metacognitive traps (Forming, Dislodging, Assumption, Location, Achievement), assessing that the learner can name all five and give a real example of each, plus which is most likely to catch them. Score each per its rubric."
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

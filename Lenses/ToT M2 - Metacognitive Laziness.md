@@ -4,7 +4,7 @@ title: "Metacognitive Laziness"
 tldr: "Metacognitive laziness is the habit of letting the tool do the thinking metacognition is meant to do. The 'laziness' label misassigns the blame: AI platforms are designed to exploit the normal human tendency to offload cognition."
 summary_for_tutor: "Core teaching lens for Unit 2 of 'Thinking about Thinking', placed after the Metacognition and Arbitrary Offloading lenses. Authored content: metacognitive laziness defined (Fan, Tang & Le, 2024) — the habit of letting the tool do the thinking metacognition is meant to do; an explicit note that the 'laziness' label misassigns blame because AI platforms are designed to exploit the normal human tendency to offload cognition (Risko & Gilbert, 2016); the calculator example (task offloaded, judgement stays, versus oversight handed to the system); why LLMs push users toward it; a fair counterpoint; and a bridge to the Five Metacognitive Traps lens and Unit 3. Runs Check your Understanding (a merged recall and reflection) and a Learning Question; the wedge is a manager who asks the AI to decide which of their own tasks to delegate."
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

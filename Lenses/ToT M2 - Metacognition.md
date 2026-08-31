@@ -5,7 +5,7 @@ duration_minutes: 18
 tldr: "Metacognition is thinking about your own thinking: the monitoring and control that keep your reasoning honest. It is the oversight this unit is built around, and the thing that can break."
 summary_for_tutor: "Opening content lens for Unit 2 of 'Thinking about Thinking'. Defines metacognition (thinking about how we think) as two parts: monitoring (noticing what you know and where your thinking is going) and control (acting on that notice). Bridges to the next lens, arbitrary offloading, which is the moment you hand a judgement to the tool instead of making it yourself. Runs a merged Check your Understanding discussion, followed by the Learning Question; the wedge is a moment the student kept going without checking their own understanding."
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

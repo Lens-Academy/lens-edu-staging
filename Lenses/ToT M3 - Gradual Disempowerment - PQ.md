@@ -2,10 +2,10 @@
 id: '2e2fd8ba-01ce-425a-80f9-0e9fde83a359'
 title: "Where Is Your Line?"
 duration_minutes: 4
-tldr: {--{"author":"AI","timestamp":1787862136610}@@"Before the unit argues anything: picture--}{++{"author":"AI","timestamp":1787862136610}@@"Picture a team that lets++} an {--{"author":"AI","timestamp":1787862136610}@@organisation that quietly defers--}{++{"author":"AI","timestamp":1787862136610}@@AI take over++} more and more {--{"author":"AI","timestamp":1787862136610}@@to an--}{++{"author":"AI","timestamp":1787862136610}@@decisions. The++} AI{--{"author":"AI","timestamp":1787862136610}@@ that--} is convenient, fast, and usually right. {--{"author":"AI","timestamp":1787862136610}@@Draw your own--}{++{"author":"AI","timestamp":1787862136610}@@Nobody orders a handover. Where is your++} line between {--{"author":"AI","timestamp":1787862136610}@@competent use--}{++{"author":"AI","timestamp":1787862136610}@@using the AI well++} and handing over {--{"author":"AI","timestamp":1787862136610}@@control, and put it on record--}{++{"author":"AI","timestamp":1787862136610}@@control? Write your answer down++} before you read on."
+tldr: "Picture a team that lets an AI take over more and more decisions. The AI is convenient, fast, and usually right. Nobody orders a handover. Where is your line between using the AI well and handing over control? Write your answer down before you read on."
 summary_for_tutor: "Pre-reading question at the start of Unit 3 of 'Thinking about Thinking'. Asks the learner to imagine an organisation quietly deferring more and more to a convenient, fast, usually-correct AI, and to draw their own line between competent use and handing over control. Minimal brief: acknowledge, do not preview the unit's evidence or argument, send them to the next lens. Core lens 1, about 4 minutes."
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Question

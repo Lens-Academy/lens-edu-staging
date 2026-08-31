@@ -5,7 +5,7 @@ duration_minutes: 8
 tldr: "Gradual disempowerment is not a robot uprising. It is the same small judgement-delegations you met in Unit 2, repeated across a whole society, until no one is quite in charge. A gentle way in before the reading."
 summary_for_tutor: "Soft conceptual intro lens for Unit 3 of 'Thinking about Thinking', placed after the pre-reading question and before the Kulveit et al. reading lens. Authored text only: connects Units 1 and 2 (offloading, metacognitive laziness, oversight) to the idea of small delegations accumulating across many domains; stresses the loss is gradual and below any single alarming event, not a rebellion; uses the everyday navigation example; sets a calm expectation for the heavier reading ahead. Ends with one light grounding question that asks the student for a personal instance of quiet capability loss, with a minimal brief that does not preview the article."
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

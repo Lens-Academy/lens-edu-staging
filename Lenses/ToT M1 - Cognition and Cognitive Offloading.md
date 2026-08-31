@@ -6,7 +6,7 @@ summary_for_tutor: "Core teaching lens for Unit 1 of 'Thinking about Thinking'. 
 reading_minutes: 4
 tutor_minutes: 18
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

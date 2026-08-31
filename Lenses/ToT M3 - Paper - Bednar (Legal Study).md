@@ -6,7 +6,7 @@ tutor_minutes: 5
 tldr: "In a randomised study, law students who used AI early wrote better analysis. They also did better on later work done without AI. But when strong students used AI to revise their own work, the AI made the good work worse."
 summary_for_tutor: "Optional evidence lens for Unit 3 of 'Thinking about Thinking'. Presents Bednar and colleagues (2025): a randomised study of about 100 Minnesota law students. The claim the core course makes of this study: early AI use on synthesis improved analysis and later no-AI performance, while AI revision of already-strong memos made them worse; help versus harm tracks conditions. Authored intro flags that nuance. Inlines one excerpt from the imported article. Ends with one reflective 'Your turn' question asking the student to state the core idea and its implications for AI use and metacognition. If the student reaches this lens with terminology questions, remind them they can ask about any term."
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

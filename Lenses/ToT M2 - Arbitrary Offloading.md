@@ -5,7 +5,7 @@ duration_minutes: 20
 tldr: "Handing off a decision you cannot even evaluate, and following it anyway, is arbitrary offloading. The calculator leaves your judgement in place. Arbitrary offloading removes the judge. It is the sharpest form of lost oversight."
 summary_for_tutor: "Content lens for Unit 2 of 'Thinking about Thinking', following the Metacognition lens. Defines arbitrary offloading (delegating a decision you cannot evaluate and following it anyway), contrasts it with offloading a task (the calculator, judgement stays) introduced in Unit 1 and with metacognitive laziness (oversight of your own thinking is skipped, but the task may still be done by you), gives everyday and work examples, and explains why it is the danger case (no footing to notice error from the inside). Runs Check your Understanding and a Learning Question phase; the wedge is a colleague who lets the AI draft an analysis and signs off because 'it looks plausible'."
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

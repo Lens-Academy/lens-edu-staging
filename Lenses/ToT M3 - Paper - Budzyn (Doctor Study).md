@@ -5,7 +5,7 @@ reading_minutes: 5
 tldr: "After endoscopists worked with AI polyp detection, their detection rate on ordinary procedures fell by 6 percentage points. These are real patient outcomes. The drop showed up on procedures done without the AI."
 summary_for_tutor: "Optional evidence lens for Unit 3 of 'Thinking about Thinking'. Presents Budzyń and colleagues (2025), 'Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy', a multicentre observational study. The claim the core course makes of this study: after AI exposure, endoscopists' detection rate on non-AI procedures fell 6.0 percentage points; an objective field outcome showing harm under conditions where the tool does the whole job. Authored intro stresses the outcome is real clinical measurement, not self-report, and that the drop appeared on procedures done without the AI. Inlines one excerpt from the imported article. Remind the student they may ask about any unfamiliar term."
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

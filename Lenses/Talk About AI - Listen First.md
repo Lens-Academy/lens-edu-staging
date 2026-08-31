@@ -6,7 +6,7 @@ summary_for_tutor: "First skill lens of the How to Talk to People About AI cours
 authors:
   - Ben+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

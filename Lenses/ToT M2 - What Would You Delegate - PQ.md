@@ -4,7 +4,7 @@ title: "Pre-Reading Question: What Would You Delegate"
 tldr: "Before reading about metacognitive laziness: get your own current rule for what you hand to AI on the record."
 summary_for_tutor: "Priming question before the Unit 2 content lens of 'Thinking about Thinking'. The student writes down how they currently decide which tasks to hand to AI and which to do themselves, and whether they delegate even that decision. Minimal brief: acknowledge, do not preview the metacognitive-laziness argument, send them to the reading."
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Question
