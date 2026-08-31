@@ -1,5 +1,6 @@
 ---
 title: "Preventing Catastrophic Pandemics"
+source_url: https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/
 author:
   - 80,000 Hours
 published: 2020-04-01
@@ -18,8 +19,6 @@ tags:
 ---
 
 %%
-Source URL before re-import: https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/
-
 Add discussion note here:
 
 ...
