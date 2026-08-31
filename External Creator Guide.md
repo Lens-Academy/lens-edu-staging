@@ -2,7 +2,7 @@
 id: 716599ad-8353-4eb3-a303-222990e94e28
 title: External Creator Guide
 tags:
-  - wip
+  - work-in-progress
 ---
 This guide is for content creators who work in Google Docs (or similar tools) and submit content for the tech team to port into the learning platform. Creators do not need to touch Obsidian or learn any technical syntax — the focus is on content itself.
 

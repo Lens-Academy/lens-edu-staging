@@ -2,7 +2,7 @@
 id: bfa7e52d-3810-4b07-bd52-bb94eaa517ee
 title: Content Creation Guide
 tags:
-  - wip
+  - work-in-progress
 ---
 # Content Creation Guide
 
@@ -89,7 +89,7 @@ id: <generate a UUID — see Syntax Reference below>
 learning-outcome: "<the outcome from Step 1, starting with an action verb>"
 discussion: <Discord channel URL for this topic>
 tags:
-  - wip
+  - work-in-progress
 ---
 {>>What can the student do at the end of this module?<<}
 

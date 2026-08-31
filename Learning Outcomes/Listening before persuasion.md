@@ -5,7 +5,7 @@ authors:
   - Ben+Claude
 tags:
   - learning-outcome
-  - wip
+  - work-in-progress
 domain: "[[../Domains/Taking Action]]"
 stage: intermediate
 eval-results:
