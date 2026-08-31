@@ -35,7 +35,7 @@ We are two research scientists at the Machine Intelligence Research Institute, a
 
 ![If Anyone Builds It Everyone Dies by Eliezer Yudkowsky and Nate Soares|645x1000](https://cdn.theatlantic.com/media/files/61hjpxgdtil_uf10001000_ql80_.jpg)
 
-{--{"author":"AI","timestamp":1787567847071}@@This--}{++{"author":"AI","timestamp":1787567847071}@@_This++} essay has been adapted from the forthcoming book, If Anyone Builds It, Everyone {--{"author":"AI","timestamp":1787567847071}@@Dies.--}{++{"author":"AI","timestamp":1787567847071}@@Dies._++}
+_This essay has been adapted from the forthcoming book, If Anyone Builds It, Everyone Dies._
 
 Here’s what today’s AI “parents” do: Engineers assemble an enormous pile of highly specialized computer chips, a pile so large that powering them all takes as much [electricity](https://archive.is/o/blU6r/https://www.theatlantic.com/technology/archive/2023/08/ai-carbon-emissions-data-centers/675094/) as powering a small city. They design what’s called an “architecture,” which is—roughly speaking—billions of slots in computer memory holding billions of numbers hooked together by trillions of basic mathematical operations, in a simple repeating pattern. And they assemble a data set: trillions and trillions of words off the internet, whatever words they can scrape together. Then the AI begins training.
 
@@ -71,4 +71,4 @@ This all adds up to a worrying picture, where companies are racing to build a ki
 
 ![](https://cdn.theatlantic.com/media/img/book_reviews/2025/09/15/41ekHgUQSaL._SL500_/original.jpg)
 
-{--{"author":"AI","timestamp":1787567849842}@@[If--}{++{"author":"AI","timestamp":1787567849842}@@_[If++} Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All](https://archive.is/o/blU6r/https://bookshop.org/a/12476/9780316595643) By Eliezer Yudkowsky and Nate {--{"author":"AI","timestamp":1787567849842}@@Soares--}{++{"author":"AI","timestamp":1787567849842}@@Soares_++}
+_[If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All](https://archive.is/o/blU6r/https://bookshop.org/a/12476/9780316595643) By Eliezer Yudkowsky and Nate Soares_

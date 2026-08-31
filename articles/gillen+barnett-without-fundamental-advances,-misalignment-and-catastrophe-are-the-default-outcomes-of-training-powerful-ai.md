@@ -694,11 +694,11 @@ We have created these argument graphs because they help us to keep track of the 
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/GfZfDHZHCuYwrHGCd/vlju7lolcviebpfnzhws)
 
-{--{"author":"AI","timestamp":1787568461075}@@Graph--}{++{"author":"AI","timestamp":1787568461075}@@_Graph++} of dependencies for the claims of the overall {--{"author":"AI","timestamp":1787568461075}@@argument--}{++{"author":"AI","timestamp":1787568461075}@@argument_++}
+_Graph of dependencies for the claims of the overall argument_
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/GfZfDHZHCuYwrHGCd/ltwucqmn5ytamfadmfse)
 
-{--{"author":"AI","timestamp":1787568464035}@@Graph--}{++{"author":"AI","timestamp":1787568464035}@@_Graph++} of dependencies for the claims about AI control, made in Section {--{"author":"AI","timestamp":1787568464035}@@5--}{++{"author":"AI","timestamp":1787568464035}@@5_++}
+_Graph of dependencies for the claims about AI control, made in Section 5_
 
 # Appendix: Attack surfaces
 

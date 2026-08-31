@@ -156,7 +156,7 @@ What to do in each reply:
 #### Article
 source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## Comparison to our previous
-to:: {--{"author":"Lauren's AI","timestamp":1786840590946}@@## Takeoff from Superhuman Coder onward--}{++{"author":"Lauren's AI","timestamp":1786840590946}@@You can read more about these changes and their effects in our++}
+to:: You can read more about these changes and their effects in our
 
 #### Question
 content::

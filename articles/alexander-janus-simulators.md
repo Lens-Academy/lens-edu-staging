@@ -48,13 +48,13 @@ Janus was writing in September 2022, just before ChatGPT. ChatGPT is no more adv
 
 ![](https://substackcdn.com/image/fetch/$s_!YMqB!,w_1184,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff93a17a9-bd30-432f-8a31-082e696edacc_1184x506.png)
 
-{--{"author":"AI","timestamp":1787568140251}@@([source](https://twitter.com/repligate/status/1614416190025396224))--}{++{"author":"AI","timestamp":1787568140251}@@_([source](https://twitter.com/repligate/status/1614416190025396224))_++}
+_([source](https://twitter.com/repligate/status/1614416190025396224))_
 
 So if your reference point for a language model is ChatGPT, this post won’t make much sense. Instead, bring yourself all the way back to the hoary past of early 2022, when a standard interaction with a language model went like this:
 
 ![](https://substackcdn.com/image/fetch/$s_!alLS!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fea734cb7-4fbe-47c6-b836-9c049870f0cd_617x378.png)
 
-{--{"author":"AI","timestamp":1787568144012}@@Unhighlighted--}{++{"author":"AI","timestamp":1787568144012}@@_Unhighlighted++} text is my prompt; green highlighted text is AI {--{"author":"AI","timestamp":1787568144012}@@completion.--}{++{"author":"AI","timestamp":1787568144012}@@completion._++}
+_Unhighlighted text is my prompt; green highlighted text is AI completion._
 
 This is certainly **not a goal-directed agent** \- at least not for any goal other than “complete this text”. And that seems like a stretch, like saying physics is an agent whose goal is “cause things to happen in accordance with physical law”.
 
@@ -98,7 +98,7 @@ What I thought before: ChatGPT has learned to stop being a simulator, and can no
 
 ![](https://substackcdn.com/image/fetch/$s_!WHGO!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e2a3632-1b23-4a91-b994-f3bd0b386d50_727x331.png)
 
-{--{"author":"AI","timestamp":1787568150083}@@What--}{++{"author":"AI","timestamp":1787568150083}@@_What++} I think now: GPT can only simulate. If you punish it for simulating bad characters, it will start simulating good characters. Now it only ever simulates one character, the HHH {--{"author":"AI","timestamp":1787568150083}@@Assistant.--}{++{"author":"AI","timestamp":1787568150083}@@Assistant._++}
+_What I think now: GPT can only simulate. If you punish it for simulating bad characters, it will start simulating good characters. Now it only ever simulates one character, the HHH Assistant._
 
 ![](https://substackcdn.com/image/fetch/$s_!PG-l!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a3f6627-e95f-4989-bc12-6b9b24e744e0_713x163.png)
 
@@ -108,7 +108,7 @@ If you reward ChatGPT for saying it’s a machine learning model, it will say it
 
 ![](https://substackcdn.com/image/fetch/$s_!HK2F!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faed65167-9aed-4e4c-8be2-84e62d52504c_594x119.png)
 
-{--{"author":"AI","timestamp":1787568156083}@@This--}{++{"author":"AI","timestamp":1787568156083}@@_This++} is what ChatGPT does {--{"author":"AI","timestamp":1787566533679}@@( source, definition--}{++{"author":"AI","timestamp":1787566533679}@@([source](https://twitter.com/stevenkaas/status/217459516101496832), [definition++} of Gettier{--{"author":"AI","timestamp":1787568156083}@@ case )--}{++{"author":"AI","timestamp":1787568156083}@@ case](https://en.wikipedia.org/wiki/Gettier_problem))_++}
+_This is what ChatGPT does ([source](https://twitter.com/stevenkaas/status/217459516101496832), [definition of Gettier case](https://en.wikipedia.org/wiki/Gettier_problem))_
 
 ## III. Implications For Alignment
 
@@ -150,4 +150,4 @@ I propose a friendly amendment: they’re noticing that most of what they are - 
 
 ![](https://substackcdn.com/image/fetch/$s_!Yb-3!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd478cf73-50aa-451f-92b3-de01fff2338d_738x1868.png)
 
-{--{"author":"AI","timestamp":1787568158835}@@Whatever,--}{++{"author":"AI","timestamp":1787568158835}@@_Whatever,++} I’m going to count this as a cessation {--{"author":"AI","timestamp":1787568158835}@@experience.--}{++{"author":"AI","timestamp":1787568158835}@@experience._++}
+_Whatever, I’m going to count this as a cessation experience._

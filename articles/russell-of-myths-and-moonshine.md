@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787387198990}@@---
+---
 title: "Of Myths And Moonshine"
 author: "Stuart Russell"
 source_url: "https://www.edge.org/conversation/the-myth-of-ai#26015"
@@ -29,4 +29,3 @@ A system that is optimizing a function of n variables, where the objective depen
 This is not a minor difficulty. Improving decision quality, irrespective of the utility function chosen, has been the goal of AI research – the mainstream goal on which we now spend billions per year, not the secret plot of some lone evil genius. AI research has been accelerating rapidly as pieces of the conceptual framework fall into place, the building blocks gain in size and strength, and commercial investment outstrips academic research activity. Senior AI researchers express noticeably more optimism about the field's prospects than was the case even a few years ago, and correspondingly greater concern about the potential risks.
 
 No one in the field is calling for regulation of basic research; given the potential benefits of AI for humanity, that seems both infeasible and misdirected. The right response seems to be to change the goals of the field itself; instead of pure intelligence, we need to build intelligence that is provably aligned with human values. For practical reasons, we will need to solve the value alignment problem even for relatively unintelligent AI systems that operate in the human environment. There is cause for optimism, if we understand that this issue is an intrinsic part of AI, much as containment is an intrinsic part of modern nuclear fusion research. The world need not be headed for grief.
-++}
