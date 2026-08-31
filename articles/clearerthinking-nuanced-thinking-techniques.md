@@ -15,7 +15,7 @@ Add discussion note here:
 
 ...
 
-The user sees the following text not as plain article text but as an iframe of the original website embedded on our website. Depending on the original
+The user sees the following text not as plain article text but as an iframe of the original website embedded on our website. We often do this for 
 
 but as an interactive tool provided by clearerthinking.org, which is embedded in an iframe on our website.
 
