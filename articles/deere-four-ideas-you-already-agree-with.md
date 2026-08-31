@@ -55,7 +55,7 @@ In order to be true to these values, we need to think about how we can help the 
 
 This is important, because there are [some causes](https://www.givingwhatwecan.org/cause-areas) where we can make a big impact for a small amount of money. In fact the best options are [much, much better than the average](https://80000hours.org/articles/effective-or-not/) — sometimes hundreds of times better. That might mean the difference between helping one person, and helping hundreds of people *for exactly the same amount of time or money*.
 
-Because a charity chosen at random *is almost certainly not making as big an impact as the* [*most effective {--{"author":"Luc's AI","timestamp":1788096008088}@@charities*](https://www.givingwhatwecan.org/best-charities-to-donate-to-2022)--}{++{"author":"Luc's AI","timestamp":1788096008088}@@charities*](https://www.givingwhatwecan.org/best-charities-to-donate-to-2026)++} (and let's face it, many causes we choose to support tend to be the result of either random chance, or systemic factors that mean we're only exposed to certain causes).
+Because a charity chosen at random *is almost certainly not making as big an impact as the* [*most effective charities*](https://www.givingwhatwecan.org/best-charities-to-donate-to-2026) (and let's face it, many causes we choose to support tend to be the result of either random chance, or systemic factors that mean we're only exposed to certain causes).
 
 And this matters, because if we don't choose well, then we're either not giving people equal consideration (that is, implicitly discriminating against some groups of people), or we're not helping as many people as we can (that is, allowing extra people to suffer or die, even though we could potentially help them).
 
@@ -85,9 +85,9 @@ So please, think carefully about these ideas — the importance of altruism, equ
 
 If they do, then the next time you think about how to make the world a better place, give voice to these values by thinking *effectively*, as well as altruistically.
 
-{--{"author":"Luc's AI","timestamp":1788096007441}@@-----}{++{"author":"Luc's AI","timestamp":1788096007441}@@**Some resources for learning more about effective altruism:**++}
+**Some resources for learning more about effective altruism:**
 
-{--{"author":"Luc's AI","timestamp":1788096007441}@@*This work--}{++{"author":"Luc's AI","timestamp":1788096007441}@@- [What++} is {--{"author":"Luc's AI","timestamp":1788096007441}@@licensed under--}{++{"author":"Luc's AI","timestamp":1788096007441}@@Effective Altruism?](https://www.givingwhatwecan.org/what-is-effective-altruism)
+- [What is Effective Altruism?](https://www.givingwhatwecan.org/what-is-effective-altruism)
 - This really quick [summary of effective altruism](http://web.archive.org/web/20171111054827/http:/www.ethics.org.au/on-ethics/blog/january-2016/effective-altruism)
 - The [Wikipedia entry on effective altruism](https://en.wikipedia.org/wiki/Effective_altruism)
 - [Doing Good Better](http://www.effectivealtruism.com/) by Will MacAskill
@@ -98,7 +98,7 @@ If they do, then the next time you think about how to make the world a better pl
 - [Donate](https://www.givingwhatwecan.org/best-charities-to-donate-to-2026) to a charity recommended on the basis of its impact and cost-effectiveness — check out our [Top Charities](https://www.givingwhatwecan.org/best-charities-to-donate-to-2026), and [GiveWell's recommendations](http://www.givewell.org/charities/top-charities). If you'd like to support charities that increase the welfare of non-human animals effectively, check out [Animal Charity Evaluators](http://www.animalcharityevaluators.org/).
 - [Pledge](https://www.givingwhatwecan.org/pledge) to keep donating over the course of your lifetime — 11,204 people (and counting) have pledged to donate 10% of their lifetime income to the most effective charities, and 1,649 have made pledges of 1% or more of their income for a custom period.
 - Choose a career that's really high-impact by reading career advice from [80,000 Hours](https://80000hours.org/)
-- Start++} a {--{"author":"Luc's AI","timestamp":1788096007441}@@[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*--}{++{"author":"Luc's AI","timestamp":1788096007441}@@[chapter or discussion group](https://www.givingwhatwecan.org/get-involved/ea-groups) in your local area or at your university, and get other people interested in making a bigger difference++}
+- Start a [chapter or discussion group](https://www.givingwhatwecan.org/get-involved/ea-groups) in your local area or at your university, and get other people interested in making a bigger difference
 
 [^note-deere-1]: The number pre-loaded into the calculator ($32,140USD) is the median personal income for someone 25 or older in the US, but you should substitute in your own income, country, and household details.
 

@@ -61,13 +61,13 @@ Before we begin talking about concrete risk scenarios, we need a framework that 
 
 **Existential risks (x-risks) represent threats from which humanity could never recover its full potential.** Unlike catastrophic risks where recovery remains possible, existential risks either eliminate humanity entirely or permanently prevent civilization from reaching the technological, moral, or cultural heights it might otherwise achieve. AI-related existential risks include scenarios where advanced systems permanently disempower humanity, establish a stable unremovable totalitarian regime, or cause direct human extinction ([Bostrom, 2002](https://nickbostrom.com/existential/risks); [Conn, 2015](https://futureoflife.org/existential-risk/existential-risk/); [Ord, 2020](https://theprecipice.com/)). These risks demand preventative rather than reactive strategies because learning from failure becomes impossible by definition.[^note-atlas-1]
 
-{--{"author":"Luc's AI","timestamp":1788100325467}@@**Definition:--}{++{"author":"Luc's AI","timestamp":1788100325467}@@:::callout {title="Definition 2.1 —++} Existential risks {--{"author":"Luc's AI","timestamp":1788100325467}@@(x-risks)** — --}{++{"author":"Luc's AI","timestamp":1788100325467}@@(x-risks)" tone="neutral"}
+:::callout {title="Definition 2.1 — Existential risks (x-risks)" tone="neutral"}
 
-++}Existential risk is one where an adverse outcome would either annihilate Earth-originating intelligent life or permanently and drastically curtail its potential.{++{"author":"Luc's AI","timestamp":1788100325467}@@
+Existential risk is one where an adverse outcome would either annihilate Earth-originating intelligent life or permanently and drastically curtail its potential.
 
 (Bostrom, 2001)
 
-:::++}
+:::
 
 ![Figure 2.3](https://ai-safety-atlas.com/_astro/9cf11dd639554c11e1e514b72e486d912176d2d5df374869cac91f54bcb9b44b.C7PV4pfM_Z2rbMBR.webp)
 

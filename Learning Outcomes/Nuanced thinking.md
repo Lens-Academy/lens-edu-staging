@@ -1,4 +1,4 @@
-{++{"author":"Luc's AI","timestamp":1788119450927}@@---
+---
 id: '2b3bc4ba-4d2c-4473-a194-bbed3ee7e2d9'
 learning-outcome: "Apply probabilistic, gray, and multi-factor thinking to replace binary judgments with calibrated confidence, explicit tradeoffs, and analysis of relevant factors, while still reaching a clear conclusion."
 domain: "[[../Domains/Rationality and Epistemics]]"
@@ -29,4 +29,3 @@ Name the strongest part of the learner's reasoning. Then identify the one missin
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/Nuanced Thinking Techniques (Clearer Thinking)]]
-++}

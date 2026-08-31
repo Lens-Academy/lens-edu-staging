@@ -31,9 +31,7 @@ Add discussion note here:
 
 %%
 
-{--{"author":"Luc's AI","timestamp":1788095800223}@@See pages 1 of [Oxford-Cover.pdf](https://oxford-cover.pdf/)
-
---}###### Abstract
+###### Abstract
 
 As jurisdictions around the world take their first steps toward regulating the most powerful AI systems, such as the EU AI Act and the US Executive Order 14110, there is a growing need for effective enforcement mechanisms that can verify compliance and respond to violations. We argue that compute providers should have legal obligations and ethical responsibilities associated with AI development and deployment, both to provide secure infrastructure and to serve as intermediaries for AI regulation. Compute providers can play an essential role in a regulatory ecosystem via four key capacities: as _securers_, safeguarding AI systems and critical infrastructure; as _record keepers_, enhancing visibility for policymakers; as _verifiers_ of customer activities, ensuring oversight; and as _enforcers_, taking actions against rule violations. We analyze the technical feasibility of performing these functions in a targeted and privacy-conscious manner and present a range of technical instruments. In particular, we describe how non-confidential information, to which compute providers largely already have access, can provide two key governance-relevant properties of a computational workload: its type—e.g., large-scale training or inference—and the amount of compute it has consumed. Using AI Executive Order 14110 as a case study, we outline how the US is beginning to implement record keeping requirements for compute providers. We also explore how verification and enforcement roles could be added to establish a comprehensive AI compute oversight scheme. We argue that internationalization will be key to effective implementation, and highlight the critical challenge of balancing confidentiality and privacy with risk mitigation as the role of compute providers in AI regulation expands.
 
@@ -80,9 +78,7 @@ Directions ‣ 1 Introduction ‣ Governing Through the Cloud:The Intermediary R
 
 Conclusion — Compute providers are well-placed to support existing and future AI governance frameworks in a privacy-preserving manner. Many of the interventions we propose are feasible with the current capabilities of compute providers. However, realizing the full potential necessitates addressing technical and governance challenges, requiring concerted efforts in research and international cooperation. As governments and regulatory bodies move to address AI risks, compute providers stand as the intermediate node in ensuring the effective implementation of regulation. ([Section 6])
 
-{--{"author":"Luc's AI","timestamp":1788095799537}@@Contents
-
---}## 1 Introduction
+## 1 Introduction
 
 As governments, international organizations, and regional bodies formulate approaches for governing advanced AI, we ask: how can authorities gain visibility into development and deployment practices and enforce rules? The visibility is currently obscured because frontier AI development largely takes place within the private sector and often relies on self-reporting by AI companies, which may not always be reliable due to growing incentives to obfuscate the results ([Anderljung et al. 2023b]; [Mulani & Whittlestone 2023]; [Whittlestone & Clark 2021]). Ongoing governance processes worldwide require answers to this question.
 

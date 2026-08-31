@@ -2,10 +2,7 @@
 title: "Background papers on nuclear verification issues"
 author:
   - "John Carlson"
-{--{"author":"Luc's AI","timestamp":1788094699071}@@  - "Australian Safeguards"
-  - "Non-Proliferation Office"
-  - "Director General"
---}source_url: "https://www.dfat.gov.au/about-us/publications/Pages/background-papers-on-nuclear-verification-issues"
+source_url: "https://www.dfat.gov.au/about-us/publications/Pages/background-papers-on-nuclear-verification-issues"
 allowUnreachableUrl: true
 published: 2026-08-20
 created: 2026-08-20

@@ -43,7 +43,7 @@ While more modern neural networks can do a much better job at tasks like this, t
 
 On the surface, a machine recognizing handwritten digits may not seem particularly impressive. After all, you know how to identify digits, and I bet you don't even find it very hard. For example, you can tell instantly that these are all images of the digit three:
 
-{--{"author":"Luc's AI","timestamp":1788093546857}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/three-3s.jpg)--}{++{"author":"Luc's AI","timestamp":1788093546857}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/three-3s.jpg)++}
+![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/three-3s.jpg)
 
 Each three is drawn differently, so the particular light-sensitive cells in your eye that fire are different for each, but something in that crazy smart visual cortex of yours resolves all these as representing the same idea, while recognizing images of other numbers as their own distinct ideas.
 
@@ -63,7 +63,7 @@ This lesson is all about motivating and understanding the structure and mathemat
 
 There are many variants of neural networks, such as convolutional neural networks (CNN), recurrent neural networks (RNN), transformers, and countless others. In recent years there's been a boom in research of these variants. But the first step to understanding any of them is to build up the simplest, plain vanilla form with no added frills.
 
-{--{"author":"Luc's AI","timestamp":1788093546385}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/plain-vanilla.jpg)--}{++{"author":"Luc's AI","timestamp":1788093546385}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/plain-vanilla.jpg)++}
+![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/plain-vanilla.jpg)
 
 The simple network we're using to identify digits is just a few layers of neurons linked together.
 
@@ -73,23 +73,23 @@ Right now, when I say neuron, all I want you to think is "a thing that holds a n
 
 This number inside the neuron is called the "activation" of that neuron, and the image you might have in your mind is that each neuron is lit up when its activation is a high number.
 
-{--{"author":"Luc's AI","timestamp":1788093546161}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/activations.svg)--}{++{"author":"Luc's AI","timestamp":1788093546161}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/activations.svg)++}
+![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/activations.svg)
 
 Every neuron has an activation between 0.0 and 1.0, sort of analogous to how neurons in the brain can be active or inactive.
 
 All the information passing through our neural network is stored in these neurons. So we need to represent the inputs and outputs of our network (the images and digit predictions) in terms of these neuron values between 0.0 and 1.0.
 
-{--{"author":"Luc's AI","timestamp":1788093545950}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/pixel-values.jpg)--}{++{"author":"Luc's AI","timestamp":1788093545950}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/pixel-values.jpg)++}
+![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/pixel-values.jpg)
 
 Each pixel in the original image has a value between 0.0 (black) and 1.0 (white).
 
-All of our digit images have {--{"author":"Luc's AI","timestamp":1788093545737}@@`28--}{++{"author":"Luc's AI","timestamp":1788093545737}@@$28++} \times 28 = {--{"author":"Luc's AI","timestamp":1788093545737}@@784`--}{++{"author":"Luc's AI","timestamp":1788093545737}@@784$++} pixels, each with a brightness value between 0.0 (black) and 1.0 (white). To represent this in the network, we'll create a layer of 784 neurons, where each neuron corresponds to a particular pixel.
+All of our digit images have $28 \times 28 = 784$ pixels, each with a brightness value between 0.0 (black) and 1.0 (white). To represent this in the network, we'll create a layer of 784 neurons, where each neuron corresponds to a particular pixel.
 
 When we want to feed the network an image, we'll set each input neuron's activation to the brightness of its corresponding pixel.[^note-4]
 
 The last layer of our network will have 10 neurons, each representing one of the possible digits. The activation in these neurons, again some number between 0.0 and 1.0, will represent how much the system thinks an image corresponds to a given digit.
 
-{--{"author":"Luc's AI","timestamp":1788093545310}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/output-layer.jpg)--}{++{"author":"Luc's AI","timestamp":1788093545310}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/output-layer.jpg)++}
+![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/output-layer.jpg)
 
 The output layer of our network has 10 neurons. Each neuron corresponds to a particular digit that the image could contain.
 
@@ -117,7 +117,7 @@ But before jumping into the math for how one layer influences the next, or how t
 
 Well, when you or I recognize digits, we piece together various components like loops and lines.
 
-{--{"author":"Luc's AI","timestamp":1788093544653}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/loops-and-lines.jpg)--}{++{"author":"Luc's AI","timestamp":1788093544653}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/loops-and-lines.jpg)++}
+![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/loops-and-lines.jpg)
 
 Each digit can be broken into smaller, recognizable subcomponents.
 
@@ -131,13 +131,13 @@ Of course, this just kicks the problem down the road, because how would you reco
 
 Recognizing a loop can also break down into subproblems. One reasonable way to do that would be to first recognize the various edges that make it up.
 
-{--{"author":"Luc's AI","timestamp":1788093544106}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/loop-edges.jpg)--}{++{"author":"Luc's AI","timestamp":1788093544106}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/loop-edges.jpg)++}
+![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/loop-edges.jpg)
 
 A loop can be broken down into several small edges.
 
 Similarly, a long line, as you might see in the digits 1, 4 or 7, is really just a long edge. Or maybe you think of it as a certain pattern of several smaller edges.
 
-{--{"author":"Luc's AI","timestamp":1788093543897}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/line-edges.jpg)--}{++{"author":"Luc's AI","timestamp":1788093543897}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/line-edges.jpg)++}
+![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/line-edges.jpg)
 
 A long line is also just a bunch of edges.
 
@@ -151,7 +151,7 @@ Whether or not this is how our final network actually works is another question.
 
 You can imagine how being able to detect edges and patterns would also be useful for other image-recognition tasks.
 
-{--{"author":"Luc's AI","timestamp":1788093543366}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/edge-detection.jpg)--}{++{"author":"Luc's AI","timestamp":1788093543366}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/edge-detection.jpg)++}
+![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/edge-detection.jpg)
 
 Edge detection isn't just for digits! It's a useful step for all kinds of image-recognition problems. [Original lion image](https://en.wikipedia.org/wiki/File:Lion_waiting_in_Namibia.jpg) by Kevin Pluck, licensed under CC BY 2.0
 
@@ -169,7 +169,7 @@ With this as a general idea, how do you actually implement it? The goal is to ha
 
 To zoom in on one very specific example, let's say that the hope is for this one particular neuron in the second layer to pick up on whether or not the image has an edge in this spot here:
 
-{--{"author":"Luc's AI","timestamp":1788093542643}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/desired-edge.jpg)--}{++{"author":"Luc's AI","timestamp":1788093542643}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/desired-edge.jpg)++}
+![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/desired-edge.jpg)
 
 We want this one, specific neuron in the second layer to pick up on whether the image contains this one, specific edge.
 
@@ -187,18 +187,18 @@ Of course, these weights will interact and conflict in interesting ways, but the
 
 So to actually compute the value of this second-layer neuron, you take all the activations from the neurons in the first layer, and compute their weighted sum.
 
-{--{"author":"Luc's AI","timestamp":1788093542221}@@```--}{++{"author":"Luc's AI","timestamp":1788093542221}@@$$++}
+$$
 \textcolor{green}{w_1} a_1 +
 \textcolor{green}{w_2} a_2 +
 \textcolor{green}{w_3} a_3 +
 \textcolor{green}{w_4} a_4 +
 \cdots +
 \textcolor{green}{w_n} a_n
-{--{"author":"Luc's AI","timestamp":1788093542006}@@```--}{++{"author":"Luc's AI","timestamp":1788093542006}@@$$++}
+$$
 
 It's helpful to think of all those weights as being organized into a grid of their own:
 
-{--{"author":"Luc's AI","timestamp":1788093541734}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/weights-square-blue.jpg)--}{++{"author":"Luc's AI","timestamp":1788093541734}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/weights-square-blue.jpg)++}
+![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/weights-square-blue.jpg)
 
 Each weight is associated with one of the 784 input pixels. Arranging the weights into this 28x28 grid makes the correlations between the input image and the output activation clear.
 
@@ -206,7 +206,7 @@ I'm using blue pixels to indicate a positive weight, and red pixels to indicate 
 
 What if we made the weights associated with almost all the pixels 0, except for some positive weights associated with these pixels in the region where we want to detect an edge?
 
-{--{"author":"Luc's AI","timestamp":1788093541492}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/weights-attempt-1.jpg)--}{++{"author":"Luc's AI","timestamp":1788093541492}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/weights-attempt-1.jpg)++}
+![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/weights-attempt-1.jpg)
 
 With these weights, the neuron in the second layer will be more activated when pixels in this region are more activated.
 
@@ -214,7 +214,7 @@ Then taking a weighted sum of all pixel values really just amounts to adding up 
 
 But this pattern of weights will also pick up on big blobs of activated pixels! (Not just edges.) To really pick up on whether or not this is an edge, you might want to have some negative weights associated with the surrounding pixels. Then the sum will be largest when these pixels are bright, but the surrounding pixels are dark.
 
-{--{"author":"Luc's AI","timestamp":1788093541267}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/weights-attempt-2.jpg)--}{++{"author":"Luc's AI","timestamp":1788093541267}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/weights-attempt-2.jpg)++}
+![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/weights-attempt-2.jpg)
 
 By adding some negative weights above and below, we make sure the neuron is most activated when a narrow edge of pixels is turned on, but the surrounding pixels are dark.
 
@@ -222,9 +222,9 @@ By adding some negative weights above and below, we make sure the neuron is most
 
 The result of the weighted sum like this can be any number, but for this network we want the activations to be values between 0 and 1. So it's common to pump this weighted sum into some function that squishes the real number line into the range between 0 and 1.
 
-One common function that does this is called the "sigmoid" function, also known as a logistic curve, which we represent using the symbol {--{"author":"Luc's AI","timestamp":1788093541052}@@`\sigma`.--}{++{"author":"Luc's AI","timestamp":1788093541052}@@$\sigma$.++} Very negative inputs end up close to 0, very positive inputs end up close to 1, and it steadily increases around 0. So the activation of the neuron here will basically be a measure of how positive the weighted sum is.
+One common function that does this is called the "sigmoid" function, also known as a logistic curve, which we represent using the symbol $\sigma$. Very negative inputs end up close to 0, very positive inputs end up close to 1, and it steadily increases around 0. So the activation of the neuron here will basically be a measure of how positive the weighted sum is.
 
-{--{"author":"Luc's AI","timestamp":1788093540862}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/sigmoid.jpg)--}{++{"author":"Luc's AI","timestamp":1788093540862}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/sigmoid.jpg)++}
+![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/sigmoid.jpg)
 
 The sigmoid function is just the squishing function we need!
 
@@ -244,7 +244,7 @@ And that's just one neuron! Every other neuron in the second layer is also going
 
 And all of _this_ is just the connection from the first layer to the second. The connections between the other layers also have a bunch of weights and biases as well. All said and done, this network has 13,002 total weights and biases! 13,002 knobs and dials that can be tweaked to make this network behave in different ways.
 
-{--{"author":"Luc's AI","timestamp":1788093540440}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/13002-blue.jpg)--}{++{"author":"Luc's AI","timestamp":1788093540440}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/13002-blue.jpg)++}
+![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/13002-blue.jpg)
 
 This network has 13,002 weights and biases! That's a lot to handle.
 
@@ -270,7 +270,7 @@ First, organize all the activations from the first layer into a column vector.
 
 Next, organize all the weights as a matrix, where each row of this matrix corresponds to all the connections between neurons in the first layer and a particular neuron in the next layer.
 
-Then the product {--{"author":"Luc's AI","timestamp":1788093539933}@@`\textcolor{green}{W} a^{(0)}`--}{++{"author":"Luc's AI","timestamp":1788093539933}@@$\textcolor{green}{W} a^{(0)}$++} is a column vector containing all the weighted sums for the neurons in the next {--{"author":"Luc's AI","timestamp":1788093539933}@@layer.--}{++{"author":"Luc's AI","timestamp":1788093539933}@@layer.[^note-5]++}
+Then the product $\textcolor{green}{W} a^{(0)}$ is a column vector containing all the weighted sums for the neurons in the next layer.[^note-5]
 
 Instead of talking about adding the bias to each one of these values independently, we represent it by organizing all those biases into a vector, and adding the entire vector to the previous matrix-vector product:
 
@@ -282,7 +282,7 @@ Finally, I'll wrap a sigmoid on the outside here, which is meant to represent ap
 
 So, once you write this weight matrix and these vectors as their own symbols, you can communicate the full transition of activations from one layer to the next in a neat little expression:
 
-{--{"author":"Luc's AI","timestamp":1788093539275}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/matrix-math-videos/final-equation.png)--}{++{"author":"Luc's AI","timestamp":1788093539275}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/matrix-math-videos/final-equation.png)++}
+![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/matrix-math-videos/final-equation.png)
 
 This tiny expression represents the computation of all the neurons in the next layer based on all the neurons in the previous layer, using the chosen weights and biases.
 
@@ -294,7 +294,7 @@ Earlier I said to think of these neurons simply as "things that hold numbers". O
 
 And really, the entire network is just a function! It takes in 784 numbers as its input, and spits out 10 numbers as its output. It's an absurdly complicated function, because it takes over 13,000 parameters (weights and biases), and it involves iterating many matrix-vector products and sigmoid squishificaitons together. But it's just a function nonetheless.
 
-{--{"author":"Luc's AI","timestamp":1788093538774}@@![Image](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/neural-network-function.jpg)--}{++{"author":"Luc's AI","timestamp":1788093538774}@@![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/neural-network-function.jpg)++}
+![](https://storage.googleapis.com/3blue1brown-website-bucket/lessons/2017/neural-networks/neural-network-function.jpg)
 
 The entire neural network is a function that uses all its weights and biases to take in 784 input pixels and spit out 10 output numbers.
 

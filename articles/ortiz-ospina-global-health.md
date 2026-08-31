@@ -11,16 +11,13 @@ description: "An overview of our research on global health."
 tags:
   - "article-importer"
 llm-review:
-  date: {--{"author":"Luc's AI","timestamp":1788096350789}@@2026-08-29--}{++{"author":"Luc's AI","timestamp":1788096350789}@@2026-08-30++}
+  date: 2026-08-30
   model: "sonnet"
-  version: {--{"author":"Luc's AI","timestamp":1788096350599}@@"article-qc-v1.2"--}{++{"author":"Luc's AI","timestamp":1788096350599}@@"article-qc-v1.3"++}
+  version: "article-qc-v1.3"
   source:
-    fetched: {--{"author":"Luc's AI","timestamp":1788096350372}@@2026-08-29--}{++{"author":"Luc's AI","timestamp":1788096350372}@@2026-08-30++}
+    fetched: 2026-08-30
     kind: "live"
-{--{"author":"Luc's AI","timestamp":1788096350166}@@description: "An overview of our research on global health."
-tags:
-  - "article-importer"
---}---
+---
 %%
 Add discussion note here:
 

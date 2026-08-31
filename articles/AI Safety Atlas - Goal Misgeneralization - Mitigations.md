@@ -49,13 +49,13 @@ Training stories are not an intervention per se, but rather a way of thinking ab
 
 **Curriculum learning provides a systematic framework for structuring training to prevent goal misgeneralization by controlling how complexity increases over time.** Traditional approaches to goal misgeneralization often treat training data as static—either you have diverse environments or you don't, either you break correlations or you don't. Curriculum learning changes this by recognizing that the order and progression of training experiences fundamentally shapes what algorithms emerge. Instead of hoping that random sampling from diverse data will prevent proxy goals, curriculum approaches deliberately sequence training to build robust causal understanding while systematically undermining spurious correlations (Bengio et al., 2009, Curriculum Learning).
 
-{--{"author":"Luc's AI","timestamp":1788099299207}@@**Definition: Curriculum Learning**--}{++{"author":"Luc's AI","timestamp":1788099299207}@@:::callout {title="Definition 7.11++} — Curriculum {++{"author":"Luc's AI","timestamp":1788099299207}@@Learning" tone="neutral" collapse="closed"}
+:::callout {title="Definition 7.11 — Curriculum Learning" tone="neutral" collapse="closed"}
 
-Curriculum ++}learning is a training strategy that presents data to machine learning models in a meaningful order, typically progressing from easier to harder examples, to improve learning efficiency and generalization performance.{++{"author":"Luc's AI","timestamp":1788099299207}@@
+Curriculum learning is a training strategy that presents data to machine learning models in a meaningful order, typically progressing from easier to harder examples, to improve learning efficiency and generalization performance.
 
 (Wang et al., 2021, A Survey on Curriculum Learning)
 
-:::++}
+:::
 
 The basic point connects to the things we talked about in the learning dynamics section. Rather than leaving the search through algorithm space to chance, curriculum learning shapes which solutions become discoverable by controlling the sequence of optimization pressures the system encounters.
 
