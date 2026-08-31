@@ -1,11 +1,11 @@
-{++{"author":"Lauren's AI","timestamp":1788183846128}@@# Course-making: findings and advice
+{++{"author":"Lauren's AI","timestamp":1788183879779}@@# Course-making: findings and advice
 
 Advice for making Lens courses, collected from three days of work (2026-08-28 to
-08-31) by Lauren and two Claudes (Tace and Rune). Rune assembled this file.
+08-31) by Lauren working with AI; one of the AI instances assembled this file.
 
 This file is written in plain language on purpose. A writing guide should pass
-its own checks. The denser working discussion behind it lives in
-register-split-rune.md and the mem threads; this is the version for people.
+its own checks. The denser working discussion behind it lives in the project
+repo's docs folder; this is the version for people.
 
 Each piece of advice is labeled with how we know it:
 
