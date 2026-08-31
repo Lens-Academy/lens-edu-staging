@@ -86,7 +86,8 @@ Reconstruct the author’s argument against relying on general-purpose processor
 - Identify one strong and one vulnerable element of the argument. Formulate a possible objection to each.
 optional:: true
 placeholder:: Cite the page or section you are answering from.
-assessment-instructions:: Check that the learner states the paper's reasons for rejecting mutually trusted silicon, explains the role of each of the four named substitutes (analog controls, unilateral trusted computing bases, redundant computation, output cross-checking), takes a defended position on eliminate, reduce or redistribute, and gives one strong and one vulnerable element each with an objection. Require page or section references. Name the weakest part, then ask one follow-up question. No generic praise.
+assessment-instructions:: Check that the learner states the paper's reasons for rejecting mutually trusted silicon, explains the role of each of the four named substitutes (analog controls, unilateral trusted computing bases, redundant computation, output cross-checking), takes a defended position on eliminate, reduce or redistribute, and gives one strong and one vulnerable element each with an objection. Require page or section references.
+feedback-instructions:: Name the weakest part, then ask one follow-up question. No generic praise.
 
 #### Question: Open
 id:: 70c2bc7d-7fb4-4a7e-a4a6-f39e79fc0cfd
@@ -103,7 +104,8 @@ For each transition:
 
 Identify one transition at which the stated conclusion may not follow from the available evidence.
 placeholder:: Cite the page or section you are answering from.
-assessment-instructions:: Check that the schematic runs end to end, from activity on monitored hardware to the release of an evaluation result, and that each transition has the four items: evidence transferred, who produces, holds and evaluates it, the conclusion it supports, and any extra assumption. Require one transition flagged where the conclusion may not follow, with a reason. Require page or section references. Penalise a prose summary of the system with no transitions. Name the transition most in need of work, then ask one follow-up question. No generic praise.
+assessment-instructions:: Check that the schematic runs end to end, from activity on monitored hardware to the release of an evaluation result, and that each transition has the four items: evidence transferred, who produces, holds and evaluates it, the conclusion it supports, and any extra assumption. Require one transition flagged where the conclusion may not follow, with a reason. Require page or section references. Penalise a prose summary of the system with no transitions.
+feedback-instructions:: Name the transition most in need of work, then ask one follow-up question. No generic praise.
 
 #### Question: Open
 id:: dfa796c5-8851-4219-8891-2b3bea0a9f31
