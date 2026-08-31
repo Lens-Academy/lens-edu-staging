@@ -46,7 +46,7 @@ To get suggest and comments working, please add this plugin. If you're missing i
 ### Syntax Reference
 | Type         | Markup               |
 | ------------ | -------------------- |
-| Addition     | `{++new text++}`     |
+| Addition     | `{ + + new text + + }`     |
 | Deletion     | `{--removed text--}` |
 | Substitution | `{~~old~>new~~}`     |
 | Comment      | `{>>your comment<<}` |
