@@ -8,4 +8,4 @@ tags:
 ---
 
 #### Article
-source:: [[../articles/owid-global-health-old-before-reimport-2026-08-28]]
+source:: [[../archive/owid-global-health-old-before-reimport-2026-08-28]]
