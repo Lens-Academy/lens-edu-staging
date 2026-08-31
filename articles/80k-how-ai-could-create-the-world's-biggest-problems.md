@@ -1,5 +1,6 @@
 ---
 title: "How AI could create the world’s biggest problems"
+source_url: https://80000hours.org/problem-profiles/artificial-intelligence/
 author:
   - "Zershaaneh Qureshi"
 published: 2026-06-23
@@ -12,8 +13,6 @@ tags:
 ---
 
 %%
-Source URL before re-import: https://80000hours.org/problem-profiles/artificial-intelligence/
-
 Add discussion note here:
 
 ...
