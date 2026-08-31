@@ -33,7 +33,7 @@ id:: b7e5023a-0fed-4fc6-be79-0c7ece9f3106
 content:: Optional: The strongest objection.
 
 In a short written note, construct the strongest objection you can to the case above — and state what would change your mind, in either direction.
-assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
+feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 optional:: true
 
 #### Text
