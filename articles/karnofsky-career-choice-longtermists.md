@@ -1,5 +1,6 @@
 ---
 title: "My current impressions on career choice for longtermists"
+source_url: https://forum.effectivealtruism.org/posts/bud2ssJLQ33pSemKH/my-current-impressions-on-career-choice-for-longtermists
 author:
   - Holden Karnofsky
 published: 2021-06-04
@@ -16,8 +17,6 @@ tags:
 ---
 
 %%
-Source URL before re-import: https://forum.effectivealtruism.org/posts/bud2ssJLQ33pSemKH/my-current-impressions-on-career-choice-for-longtermists
-
 Add discussion note here:
 
 ...
