@@ -296,7 +296,7 @@ We’ve also seen:
 It’s also important to note that since all of the above surveys were gathered, we have seen more [evidence](https://80000hours.org/agi/guide/when-will-agi-arrive/) that humanity is significantly closer to producing very powerful AI systems than it previously seemed. We think this likely raises the level of risk, since we might have less time to solve the problems.
 
 We’ve reviewed many arguments and literature on a range of potentially existential threats, and we’ve consistently found that an AI-caused existential catastrophe seems most likely. And we think that even a relatively small likelihood of an extremely bad outcome like human extinction — such as a 1% chance — is worth taking very seriously.
-
+:::
 ### 4. People might create power-seeking AI systems without enough safeguards, despite the risks
 
 Given the above arguments, creating and deploying powerful AI systems could be extremely dangerous. But if it is so dangerous, shouldn’t we expect companies and others in charge of the technology to refrain from developing advanced AI systems unless they are confident it’s safe?
