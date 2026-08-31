@@ -52,7 +52,8 @@ content:: Complete three sentences for the opening puzzle:
 - The artifact directly supports…
 - It could support… if…
 - It does not support…
-assessment-instructions:: This is an XLab writing or reflection exercise. The artifact is a valid attestation token from each accelerator in a declared cluster. Check that the three sentences stay distinct: direct support should be limited to authenticity-type claims (device identity, certificate status, freshness, measured state); conditional support should name what the system would have had to be designed to measure; the third sentence should name claims outside the token (cumulative compute, workload class, topology, unregistered hardware, authority to suspend). Identify one strong point and one important gap, then ask one useful follow-up question. Do not imply that agreement with the source is required.
+assessment-instructions:: The artifact is a valid attestation token from each accelerator in a declared cluster. Check that the three sentences stay distinct: direct support should be limited to authenticity-type claims (device identity, certificate status, freshness, measured state); conditional support should name what the system would have had to be designed to measure; the third sentence should name claims outside the token (cumulative compute, workload class, topology, unregistered hardware, authority to suspend).
+feedback-instructions:: This is an XLab writing or reflection exercise. Identify one strong point and one important gap, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
 content::
