@@ -15,7 +15,7 @@ Add discussion note here:
 
 ...
 
-The user sees the following text not as plain article text but as an iframe of the original website embedded on our website. We often do this for highly interactive or multi-page websites, often containing multiple paths without a clear linear progression. The text you see below is a linear representation of the website the user sees. Bewa
+The user sees the following text not as plain article text but as an iframe of the original website embedded on our website. We often do this for highly interactive or multi-page websites, often containing multiple paths without a clear linear progression. The text you see below is a linear representation of the website the user sees. Beware the user may not see each part of it or may see thin
 
 but as an interactive tool provided by clearerthinking.org, which is embedded in an iframe on our website.
 
