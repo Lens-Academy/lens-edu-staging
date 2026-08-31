@@ -24,7 +24,7 @@ content:: \## Sign-up sheet
 Your facilitator reads this sheet — the brief you committed to, or the idea you proposed.
 
 Name the brief from the bank below you are taking (its title), or describe your own capstone idea: what you would build or write, and what it would show.
-assessment-instructions:: This is the capstone sign-up, not a graded exercise. If the learner named a brief from the bank, confirm it back in one sentence and ask one question about fit: their team size, the hours per week they have, or a listed prerequisite they have not covered. If the learner proposed their own idea, check that it is relevant to technical AI governance and aimed at an AI-safety-related theme, then ask them to name the deliverable and the audience if they have not. Do not grade or rank the choice.
+feedback-instructions:: This is the capstone sign-up, not a graded exercise. If the learner named a brief from the bank, confirm it back in one sentence and ask one question about fit: their team size, the hours per week they have, or a listed prerequisite they have not covered. If the learner proposed their own idea, check that it is relevant to technical AI governance and aimed at an AI-safety-related theme, then ask them to name the deliverable and the audience if they have not. Do not grade or rank the choice.
 {>>{"author":"Elias's AI","timestamp":1788015830841}@@XLab's CapstoneSignup is a logged-in form writing to XLab's database (a brief picker over the bank plus a proposal textarea with placeholder "What you would build or write, and what it would show.", and the facilitator reads the resulting sheet). The database sheet itself cannot be reproduced; this open question captures the same two inputs so the facilitator can read them on Lens.<<}
 
 #### Text

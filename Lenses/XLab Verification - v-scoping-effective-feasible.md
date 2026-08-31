@@ -24,7 +24,7 @@ content:: **Side A · The goal.** A policy you strongly believe in (or borrow on
 
 Then write the full policy in one line: "I support ___ at the cost of ___."
 optional:: true
-assessment-instructions:: Ungraded personal exercise. Check only that Side A names a policy and Side B names a real cost of enforcing that same policy (who pays, who is constrained, what enforcing it requires, or what happens to those who refuse), not a cost of the problem the policy addresses. One sentence of acknowledgement, no praise, no lecture.
+feedback-instructions:: Ungraded personal exercise. Check only that Side A names a policy and Side B names a real cost of enforcing that same policy (who pays, who is constrained, what enforcing it requires, or what happens to those who refuse), not a cost of the problem the policy addresses. One sentence of acknowledgement, no praise, no lecture.
 
 #### Question: Choice
 id:: 85f95777-151c-4619-8557-3bc3a52cee49
