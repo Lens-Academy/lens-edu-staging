@@ -1,5 +1,6 @@
 ---
 title: "Slow motion videos as AI risk intuition pumps"
+source_url: https://www.lesswrong.com/posts/Ccsx339LE9Jhoii9K/slow-motion-videos-as-ai-risk-intuition-pumps
 author:
   - "Andrew Critch"
 published: 2022-06-14
@@ -10,8 +11,6 @@ tags:
 ---
 
 %%
-Source URL before re-import: https://www.lesswrong.com/posts/Ccsx339LE9Jhoii9K/slow-motion-videos-as-ai-risk-intuition-pumps
-
 Add discussion note here:
 
 ...
