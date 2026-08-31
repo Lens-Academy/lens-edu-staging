@@ -24,8 +24,8 @@ content::
 :::callout {title="Optional: Further Reading" tone="neutral" collapse="closed"}
 The case at full strength, from the people who argue it most directly. Any one of these:
 
-- [AI Is Grown, Not Built](https://www.theatlantic.com/technology/2025/09/if-anyone-builds-it-excerpt/684213/) — Eliezer Yudkowsky & Nate Soares, The Atlantic, September 2025. An edited excerpt of chapter 2 of *If Anyone Builds It, Everyone Dies*.
-- [Four Background Claims](https://intelligence.org/2015/07/24/four-background-claims/) — Nate Soares, MIRI, 2015. The assumptions doing the work beneath the argument.
+- {--{"author":"Elias's AI","timestamp":1788186173486}@@[AI--}{++{"author":"Elias's AI","timestamp":1788186173486}@@[[../Lenses/AI Is Grown, Not Built|AI++} Is Grown, Not {--{"author":"Elias's AI","timestamp":1788186173486}@@Built](https://www.theatlantic.com/technology/2025/09/if-anyone-builds-it-excerpt/684213/)--}{++{"author":"Elias's AI","timestamp":1788186173486}@@Built]]++} — Eliezer Yudkowsky & Nate Soares, The Atlantic, September 2025. An edited excerpt of chapter 2 of *If Anyone Builds It, Everyone Dies*.
+- {--{"author":"Elias's AI","timestamp":1788186173486}@@[Four--}{++{"author":"Elias's AI","timestamp":1788186173486}@@[[../Lenses/Four Background Claims|Four++} Background {--{"author":"Elias's AI","timestamp":1788186173486}@@Claims](https://intelligence.org/2015/07/24/four-background-claims/)--}{++{"author":"Elias's AI","timestamp":1788186173486}@@Claims]]++} — Nate Soares, MIRI, 2015. The assumptions doing the work beneath the argument.
 :::
 
 #### Question: Open
