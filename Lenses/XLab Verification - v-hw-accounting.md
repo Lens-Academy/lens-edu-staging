@@ -72,7 +72,8 @@ id:: 121faa9c-cabd-43ef-ad37-7be61a16e67d
 content:: The treaty body wants to support the claim: “All covered accelerators at Site X are registered and accounted for.” Choose three evidence streams that do not share the same source. For each, name the actor that produces it and one way it could fail.
 
 A strong answer does not treat the site operator’s inventory, the site operator’s logs, and the site operator’s declaration as three independent streams.
-assessment-instructions:: This is an XLab writing or reflection exercise. Full credit needs three streams with genuinely different producers (for example manufacturer or foundry production records, customs or shipping records, provider inventories, physical inspection and device counts, power or cooling or construction evidence, intelligence on diversion, insider reports), each with a named producing actor and one failure mode. Mark down answers whose three streams all originate with the site operator. Identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
+assessment-instructions:: Full credit needs three streams with genuinely different producers (for example manufacturer or foundry production records, customs or shipping records, provider inventories, physical inspection and device counts, power or cooling or construction evidence, intelligence on diversion, insider reports), each with a named producing actor and one failure mode. Mark down answers whose three streams all originate with the site operator.
+feedback-instructions:: This is an XLab writing or reflection exercise. Identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
 content::
