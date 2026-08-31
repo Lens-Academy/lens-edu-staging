@@ -6,9 +6,9 @@ author:
 published: 2022-06-14
 created: 2026-02-06
 description: "tl;dr: When making the case for AI as a risk to humanity, trying showing people an evocative illustration of what differences in processing speeds ca…"
-tags:
+{--{"author":"AI","timestamp":1788202719070}@@tags:
   - validator-ignore
----
+--}---
 
 %%
 Add discussion note here:
