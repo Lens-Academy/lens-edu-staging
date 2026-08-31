@@ -637,7 +637,8 @@ id:: d31b5568-5767-496e-8065-3a81639be8ab
 content:: Produce the defended-ranking memo: a recommended mechanism portfolio for one named policy goal, with residual blind spots and their owners — the artifact the 4.2 capstone receives. Defend the ranking against both your own initial guesses and the field’s published ratings.
 
 Audience: whoever acts on the 4.2 capstone — the portfolio is handed forward, not filed. (about 900 words; peer reviewed against the rubric)
-assessment-instructions:: This is the module's peer-reviewed written output (XLab memo slot m4-0-ranking-memo, about 900 words). Check for: one named policy goal; a recommended portfolio of mechanisms with a defended ranking; residual blind spots each assigned an owner (who covers it); an explicit defence against the learner's own initial 2.0 ratings and against published ratings from the module readings. Respond to the reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the reference map is required.
+assessment-instructions:: This is the module's peer-reviewed written output (XLab memo slot m4-0-ranking-memo, about 900 words). Check for: one named policy goal; a recommended portfolio of mechanisms with a defended ranking; residual blind spots each assigned an owner (who covers it); an explicit defence against the learner's own initial 2.0 ratings and against published ratings from the module readings.
+feedback-instructions:: Respond to the reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the reference map is required.
 {>>{"author":"Elias's AI","timestamp":1788016140074}@@XLab renders this as its persistent MemoDesk (a cross-lesson notebook, JavaScript-backed). The memo brief and audience are reproduced verbatim from memos.ts; the desk itself is not reproducible.<<}
 
 #### Text

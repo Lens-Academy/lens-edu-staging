@@ -136,7 +136,8 @@ content:: Compare an on-chip design with an off-chip design for the working paus
 - The smallest pilot that would produce decision-relevant evidence.
 
 Choose an architecture for a **pilot**, not immediate universal deployment. State the evidence the pilot must produce before the mechanism deserves a larger role.
-assessment-instructions:: This is an XLab writing or reflection exercise. Check that both designs are covered on all eight items, that the two delegations' distrust is not symmetric boilerplate (for example vendor- or foreign-controlled keys on one side, verifier-supplied hardware as an espionage channel on the other), that the answer counts independent failure modes rather than mechanism names, and that it ends with a pilot choice and the evidence the pilot must produce. Mark down answers that recommend immediate universal deployment. Identify one strong point and one important gap, then ask one useful follow-up question. Do not imply that agreement with the source is required.
+assessment-instructions:: Check that both designs are covered on all eight items, that the two delegations' distrust is not symmetric boilerplate (for example vendor- or foreign-controlled keys on one side, verifier-supplied hardware as an espionage channel on the other), that the answer counts independent failure modes rather than mechanism names, and that it ends with a pilot choice and the evidence the pilot must produce. Mark down answers that recommend immediate universal deployment.
+feedback-instructions:: This is an XLab writing or reflection exercise. Identify one strong point and one important gap, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
 content::
