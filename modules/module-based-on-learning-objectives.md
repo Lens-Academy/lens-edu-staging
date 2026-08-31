@@ -26,7 +26,7 @@ We begin by examining the potential of AI and the risks and opportunities that t
 
 
 # Article: Four Background Claims (Optional)
-source:: [[../../articles/nate-soares-four-background-claims]]
+source:: [[../../articles/soares-four-background-claims]]
 optional:: true
 
 ## Text

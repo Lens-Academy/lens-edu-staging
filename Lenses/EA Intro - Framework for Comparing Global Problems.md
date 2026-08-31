@@ -7,4 +7,4 @@ tags:
 ---
 
 #### Article
-source:: [[../articles/wiblin-framework-for-comparing-global-problems]]
+source:: [[../articles/wiblin-how-can-you-figure-out-which-global-problem-is-most-pressing]]

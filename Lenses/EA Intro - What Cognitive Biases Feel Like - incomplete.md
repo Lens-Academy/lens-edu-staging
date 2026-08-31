@@ -8,4 +8,4 @@ tags:
 ---
 
 #### Article
-source:: [[../articles/chaosmage-what-cognitive-biases-feel-like-incomplete]]
+source:: [[../articles/chaosmage-what-cognitive-biases-feel-like-from-the-inside]]
