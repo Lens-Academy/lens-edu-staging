@@ -1,5 +1,6 @@
 ---
 title: "AI 2040: Plan A"
+source_url: https://ai-2040.com/supplements/verification-plan
 author:
   - "AI 2040"
 published: 2026-08-20
@@ -13,8 +14,6 @@ tags:
 ---
 
 %%
-Source URL before re-import: https://ai-2040.com/supplements/verification-plan
-
 Add discussion note here:
 
 ...
