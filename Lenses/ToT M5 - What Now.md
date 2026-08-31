@@ -6,7 +6,7 @@ summary_for_tutor: "Closing lens for Unit 5 of 'Thinking about Thinking' and for
 reading_minutes: 15
 tutor_minutes: 15
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

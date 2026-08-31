@@ -6,7 +6,7 @@ summary_for_tutor: "Recap lens at the end of Unit 5 and of the whole course 'Thi
 reading_minutes: 4
 tutor_minutes: 16
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

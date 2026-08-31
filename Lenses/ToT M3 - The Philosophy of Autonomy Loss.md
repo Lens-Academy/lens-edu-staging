@@ -6,7 +6,7 @@ tutor_minutes: 10
 tldr: "Optional deep-dive. Skill atrophy connects to gradual disempowerment through autonomy. Krook argues that even well-aligned AI hides a risk: the slow decline of human autonomy."
 summary_for_tutor: "Optional bonus lens for Unit 3 of 'Thinking about Thinking'. Presents Krook's philosophical argument connecting individual skill atrophy to gradual disempowerment. The claim the core course makes of this paper: autonomy, not machine rebellion, is the missing link between individual skill loss and societal disempowerment. Key moves: autonomy loss as the underappreciated risk; conservatorship analogy; why this is not an alignment problem; the tipping point where human decision-making becomes 'illogical'. This is a conceptual argument, not an empirical study. Three tutor questions draw out the philosophical bridge between skill loss and societal-level disempowerment."
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

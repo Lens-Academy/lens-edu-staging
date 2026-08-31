@@ -4,7 +4,7 @@ slug: xlab-ai-control
 title: "AI Control (XLab alpha)"
 description: "Alpha Lens edition of XLab's seven-module AI Control curriculum. Material may change substantially after XLab's paid pilot cohort."
 tags:
-  - wip
+  - work-in-progress
 partner-name: "XLab"
 partner-url: "https://xrisk.uchicago.edu/"
 ---

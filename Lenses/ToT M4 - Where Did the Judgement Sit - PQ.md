@@ -5,7 +5,7 @@ duration_minutes: 4
 tldr: "Before reading the practical rules for using AI: recall a recent AI conversation and put where the judgement sat on the record."
 summary_for_tutor: "Priming question before the Unit 4 guidance lens 'Choosing What to Delegate' in 'Thinking about Thinking'. The student recalls one task they handed to an AI this week and says where the judgement sat: with them, with the AI, or handed over without inspection, plus what made them trust or doubt it. Minimal brief: acknowledge, do not preview the three-stage frame or the unit's rules, send them to the reading."
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Question

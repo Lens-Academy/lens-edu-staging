@@ -6,7 +6,7 @@ tutor_minutes: 4
 tldr: "Two studies used the same kind of tool and got opposite results. Law students who used AI early wrote better work, and stayed better on tasks done without it. Endoscopists who worked with AI later found fewer polyps on procedures done without it. The difference is the conditions, not the tool."
 summary_for_tutor: "Core lens 4 of Unit 3 of 'Thinking about Thinking'. Compares Bednar et al. (2025, randomised controlled trial with about 100 Minnesota law students) and Budzyń et al. (2025, retrospective observational study at four Polish endoscopy centres, ACCEPT trial) to teach conditional effects, not a pro- or anti-AI verdict. For Bednar it covers the two-group design (AI in synthesis and revision, neither group in the application task), the 50 to 70 percent gain in synthesis, the carryover benefit to the no-AI application task, and the mixed revision results (help for weak memos, harm for strong ones). For Budzyń it covers the design (three months before and after AI introduction, 1,443 non-AI colonoscopies), the adenoma detection rate falling 6.0 percentage points (28.4 to 22.4), the 0.69 odds ratio, and that the drop appeared on procedures without the AI. It defines the clinical measure and flags the observational limit. Lists five conditions that separate help from harm (expertise, judgement in the loop, feedback, verifiability, stakes and time pressure). One question applies the divergence to the learner's own work. Cards link to the full Bednar and Budzyn paper lenses. About 12 minutes."
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

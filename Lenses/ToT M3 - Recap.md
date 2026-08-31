@@ -5,7 +5,7 @@ duration_minutes: 5
 tldr: "Redraw the line you drew at the start. Write a concrete rule for when an AI decides and when a person does. Ground it in one finding, and mark it as evidence or argument. Say what would move your rule. A colleague says the off-switch settles it. Show where you agree."
 summary_for_tutor: "Core lens 8 (final) of Unit 3 of 'Thinking about Thinking'. A short recap that sends the learner back to the line they drew in the opening lens, then one final written verdict: redraw that line as a concrete rule (when an AI decides, when a person does), ground it in one finding marked as evidence or argument, name a specific result that would move the rule, and say where the colleague's off-switch claim is right and where it is not. Reward a concrete, conditions-based rule that revisits the opening answer; correct use and labelling of at least one finding; separation of association from causation; a specific mind-change condition; and explicit engagement with the off-switch claim. A well-supported sceptical rule can pass. About 5 minutes."
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

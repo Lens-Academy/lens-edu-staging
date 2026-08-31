@@ -6,7 +6,7 @@ summary_for_tutor: "Practical guidance lens for Unit 4 of 'Thinking about Thinki
 reading_minutes: 7
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

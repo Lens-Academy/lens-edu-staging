@@ -6,7 +6,7 @@ summary_for_tutor: "Practice lens for Unit 4 of 'Thinking about Thinking', appli
 reading_minutes: 2
 tutor_minutes: 18
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text
