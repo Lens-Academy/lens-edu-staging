@@ -122,7 +122,8 @@ For each argument:
 The existence of a valid counterargument does not necessarily make an argument weak.
 optional:: true
 placeholder:: Cite the page or section you are answering from.
-assessment-instructions:: Check for three distinct arguments, each reconstructed in the learner's own words with a page or section reference, a reason it is comparatively strong, and a counterargument in its strongest form. Do not penalise an argument for having a counterargument. Name the argument whose reconstruction is thinnest, then ask one follow-up question. No generic praise.
+assessment-instructions:: Check for three distinct arguments, each reconstructed in the learner's own words with a page or section reference, a reason it is comparatively strong, and a counterargument in its strongest form. Do not penalise an argument for having a counterargument.
+feedback-instructions:: Name the argument whose reconstruction is thinnest, then ask one follow-up question. No generic praise.
 
 #### Question: Open
 id:: 7e54933d-e0e0-43c2-9fbf-0c5dd85da56d
@@ -144,7 +145,8 @@ For each position:
 Where possible, use another proposition from the paper to challenge the position. If an apparent contradiction can be resolved, explain the resolution.
 optional:: true
 placeholder:: Cite the page or section you are answering from.
-assessment-instructions:: Check that all four categories are covered (empirical claim, inference or generalisation, technical assumption, contradiction or tension), each with an exact location, a diagnosis of the weakness, and a counterargument. Give credit where the learner uses one proposition from the paper against another. Penalise vague weaknesses with no location. Name the weakest entry, then ask one follow-up question. No generic praise.
+assessment-instructions:: Check that all four categories are covered (empirical claim, inference or generalisation, technical assumption, contradiction or tension), each with an exact location, a diagnosis of the weakness, and a counterargument. Give credit where the learner uses one proposition from the paper against another. Penalise vague weaknesses with no location.
+feedback-instructions:: Name the weakest entry, then ask one follow-up question. No generic praise.
 
 #### Question: Open
 id:: 42b7feee-70e6-46af-b3f0-cd4f8ae03084
@@ -158,7 +160,8 @@ Select one technically consequential claim that may be false, overstated, contes
 - State what additional evidence would confirm or disconfirm the claim.
 optional:: true
 placeholder:: Cite the page or section you are answering from.
-assessment-instructions:: This is a research task and may draw on an external technical source. Check for an exact location, one of the five classifications with a justification, an evaluation grounded in a named reliable source or a complete technical argument, and a statement of confirming or disconfirming evidence. Penalise evaluations that only restate the paper. Name the weakest step, then ask one follow-up question. No generic praise.
+assessment-instructions:: This is a research task and may draw on an external technical source. Check for an exact location, one of the five classifications with a justification, an evaluation grounded in a named reliable source or a complete technical argument, and a statement of confirming or disconfirming evidence. Penalise evaluations that only restate the paper.
+feedback-instructions:: Name the weakest step, then ask one follow-up question. No generic praise.
 
 #### Question: Open
 id:: 15049c1d-8f2d-4631-9a6d-6c3208bf7a72
@@ -183,7 +186,8 @@ Classify each conclusion as:
 Justify every classification with reference to the paper.
 optional:: true
 placeholder:: Cite the page or section you are answering from.
-assessment-instructions:: Check that all five conclusions are classified as established, supported but not established, or not established, each with a justification that cites the paper. Expect the classifications to get weaker down the list: committed and replayable records bear directly on whether the declared computations occurred, and progressively less on purpose, completeness of capture, activity outside the perimeter, and attribution of intent. Penalise classifications with no reference. Name the classification least supported by its justification, then ask one follow-up question. No generic praise.
+assessment-instructions:: Check that all five conclusions are classified as established, supported but not established, or not established, each with a justification that cites the paper. Expect the classifications to get weaker down the list: committed and replayable records bear directly on whether the declared computations occurred, and progressively less on purpose, completeness of capture, activity outside the perimeter, and attribution of intent. Penalise classifications with no reference.
+feedback-instructions:: Name the classification least supported by its justification, then ask one follow-up question. No generic praise.
 
 #### Text
 content::
