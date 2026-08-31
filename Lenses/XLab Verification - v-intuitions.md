@@ -162,7 +162,7 @@ Questions to consider:
 - Where might reasonable inspectors disagree about whether a violation has occurred?
 
 Make a preliminary judgment. Delineate your evidence-backed reasons from intuitions. (100 to 150 words)
-assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
+feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
 content::
