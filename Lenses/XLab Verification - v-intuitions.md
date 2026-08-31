@@ -270,7 +270,7 @@ Questions to consider:
 - Where is your scenario most fragile, and what development would most likely force you to redesign it?
 
 Keep this essay. You will return to it at the end of the track and see what, if anything, you would now change. (500 to 800 words)
-assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
+feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 optional:: true
 
 #### Question: Open
