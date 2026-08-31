@@ -3,7 +3,7 @@ slug: xlab-control-m1
 title: "Introduction, overview, and threat modeling"
 id: 'e63906c8-c199-4a51-890a-9d65507c699a'
 tags:
-  - wip
+  - work-in-progress
 ---
 # Submodule: Welcome
 # Lens: Welcome to XLab's AI Control course

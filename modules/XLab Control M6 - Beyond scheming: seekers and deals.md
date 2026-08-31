@@ -3,7 +3,7 @@ slug: xlab-control-m6
 title: "Beyond scheming: seekers and deals"
 id: '4fe92ac0-9f60-44e1-bd07-3efd382c83ff'
 tags:
-  - wip
+  - work-in-progress
 ---
 # Submodule: Module 6
 # Lens: Module 6 overview

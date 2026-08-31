@@ -3,7 +3,7 @@ slug: xlab-control-m2
 title: "How useful is AI control?"
 id: '3e5a76ab-2655-410f-9218-48ced3675d7b'
 tags:
-  - wip
+  - work-in-progress
 ---
 # Submodule: Module 2
 # Lens: Module 2 overview

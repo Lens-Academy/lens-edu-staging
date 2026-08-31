@@ -3,7 +3,7 @@ slug: xlab-control-m3
 title: "A Taxonomy of Control"
 id: 'fd71ac77-89e2-4a9e-bfe9-3118d18a64fe'
 tags:
-  - wip
+  - work-in-progress
 ---
 # Submodule: Module 3
 # Lens: Module 3 overview

@@ -3,7 +3,7 @@ slug: xlab-control-m4
 title: "High-stakes control"
 id: 'a3021356-b660-43ca-be80-5bbb882b48bd'
 tags:
-  - wip
+  - work-in-progress
 ---
 # Submodule: Module 4
 # Lens: Module 4 overview

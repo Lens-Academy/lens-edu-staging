@@ -3,7 +3,7 @@ slug: xlab-control-m5
 title: "Low-stakes control: sabotage, sandbagging, and elicitation"
 id: '50b8725d-ced7-49f7-9955-0d22afae8fd1'
 tags:
-  - wip
+  - work-in-progress
 ---
 # Submodule: Module 5
 # Lens: Module 5 overview
