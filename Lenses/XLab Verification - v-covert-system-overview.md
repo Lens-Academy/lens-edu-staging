@@ -55,7 +55,8 @@ Identify the principal propositions that constitute the author’s approach to l
 
 Express each proposition in your own words and support it with a page or section reference. Explain the logical relationships among the propositions: which serve as assumptions, which describe mechanisms, and which state the intended results.
 placeholder:: Cite the page or section you are answering from.
-assessment-instructions:: Check that the learner lists several distinct propositions, each in their own words with a page or section reference, and sorts them into assumptions, mechanisms and intended results with the dependencies between them stated. Penalise paraphrase of the abstract without structure, missing references, and propositions that are the learner's conclusions rather than the author's. Name one missing or misclassified proposition, then ask one follow-up question. No generic praise.
+assessment-instructions:: Check that the learner lists several distinct propositions, each in their own words with a page or section reference, and sorts them into assumptions, mechanisms and intended results with the dependencies between them stated. Penalise paraphrase of the abstract without structure, missing references, and propositions that are the learner's conclusions rather than the author's.
+feedback-instructions:: Name one missing or misclassified proposition, then ask one follow-up question. No generic praise.
 
 #### Question: Open
 id:: 0fcb8824-a51d-4461-9f0e-3314e0e91366
@@ -70,7 +71,8 @@ The author argues that a verification system need not make every undeclared work
 - Assess whether the argument applies equally to a malicious prover and a malicious verifier. Justify your conclusion.
 optional:: true
 placeholder:: Cite the page or section you are answering from.
-assessment-instructions:: Check all five parts: premises and conclusion stated explicitly; two architectural choices named that actually rest on the argument; one premise picked as most vulnerable with a consequence traced; a counterargument in its strongest form; a reasoned verdict on prover versus verifier symmetry. Require page or section references. Reward the learner for separating the author's claims from their own. Name the weakest part, then ask one follow-up question. No generic praise.
+assessment-instructions:: Check all five parts: premises and conclusion stated explicitly; two architectural choices named that actually rest on the argument; one premise picked as most vulnerable with a consequence traced; a counterargument in its strongest form; a reasoned verdict on prover versus verifier symmetry. Require page or section references. Reward the learner for separating the author's claims from their own.
+feedback-instructions:: Name the weakest part, then ask one follow-up question. No generic praise.
 
 #### Question: Open
 id:: 18ac6dc1-86be-42bf-9d00-c0b7d7c74e5d
