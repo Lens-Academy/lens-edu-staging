@@ -639,6 +639,7 @@ We’ve also provided a more general argument [here](https://80000hours.org/prob
 ## Acknowledgements
 
 *We thank Neel Nanda, Ryan Greenblatt, Alex Lawsen, and Arden Koehler for providing feedback on a draft of this article. Benjamin Hilton wrote a previous version of this article, some of which was incorporated here.*
+:::
 
 [^note-80k-1]: All this really happened in a controlled evaluation conducted by researchers at METR, who were testing whether advanced AI systems might engage in deceptive behavior when pursuing their objectives. METR develops evaluations that determine whether AI systems are potentially dangerous — perhaps catastrophically so.
     
