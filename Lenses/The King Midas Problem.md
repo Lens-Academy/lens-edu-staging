@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787387319203}@@---
+---
 id: fdf25a6a-d799-492c-93df-b5274999f6dc
 reading_minutes: 1
 title: The King Midas Problem
@@ -9,4 +9,3 @@ summary_for_tutor: Single-quote lens presenting Stuart Russell's core argument f
 source:: [[../articles/russell-of-myths-and-moonshine]]
 from:: "A system that is optimizing a function of n variables"
 to:: "can have an irreversible impact on humanity."
-++}

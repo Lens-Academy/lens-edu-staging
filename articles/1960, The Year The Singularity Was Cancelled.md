@@ -80,9 +80,9 @@ This ([source](https://docs.google.com/spreadsheets/d/1xEkh4jhUup0qlG6EzBct6igvL
 
 ![](https://www.slatestarcodexabridged.com/attach/demographics_absolutedouble2.png?v=1597348637.png)
 
-{--{"author":"AI","timestamp":1787568114446}@@The--}{++{"author":"AI","timestamp":1787568114446}@@_The++} horizontal axis is years before 2020, a random year chosen so that we can put this in log scale without negative values screwing everything up. This is an arbitrary choice, but you can also graph it [with log GDP as the horizontal axis](https://docs.google.com/spreadsheets/d/e/2PACX-1vRp_3BVt-9hhvNMI2psXonsDqAimwo3EvDzbRHB1jx-oKIhoZ5qnofwyKN0XxS-DuMRLqaV-nl7ilme/pubchart?oid=1639717693&format=interactive) and find a similar {--{"author":"AI","timestamp":1787568114446}@@pattern.--}{++{"author":"AI","timestamp":1787568114446}@@pattern._++}
+_The horizontal axis is years before 2020, a random year chosen so that we can put this in log scale without negative values screwing everything up. This is an arbitrary choice, but you can also graph it [with log GDP as the horizontal axis](https://docs.google.com/spreadsheets/d/e/2PACX-1vRp_3BVt-9hhvNMI2psXonsDqAimwo3EvDzbRHB1jx-oKIhoZ5qnofwyKN0XxS-DuMRLqaV-nl7ilme/pubchart?oid=1639717693&format=interactive) and find a similar pattern._
 
-{--{"author":"AI","timestamp":1787568114446}@@The--}{++{"author":"AI","timestamp":1787568114446}@@_The++} vertical axis is the amount of time it took the world economy to double from that year, according to [this paper](https://delong.typepad.com/print/20061012_LRWGDP.pdf). So for example, if at some point the economy doubled every twenty years, the dot for that point is at twenty. The doubling time decreases throughout most of the period being examined, indicating hyperbolic {--{"author":"AI","timestamp":1787568114446}@@growth.--}{++{"author":"AI","timestamp":1787568114446}@@growth._++}
+_The vertical axis is the amount of time it took the world economy to double from that year, according to [this paper](https://delong.typepad.com/print/20061012_LRWGDP.pdf). So for example, if at some point the economy doubled every twenty years, the dot for that point is at twenty. The doubling time decreases throughout most of the period being examined, indicating hyperbolic growth._
 
 Hyperbolic growth, as mentioned before, shoots to infinity at some specific point. On this graph, that point is represented by the doubling time reaching zero. Once the economy doubles every zero years, you might as well call it infinite.
 
@@ -104,7 +104,7 @@ In fact…
 
 ![](https://www.slatestarcodexabridged.com/attach/demographics_capitadouble2.png?v=1597348637.png)
 
-{--{"author":"AI","timestamp":1787568117792}@@This--}{++{"author":"AI","timestamp":1787568117792}@@_This++} is a *really sketchy* graph of per capita income doubling times. It’s sketchy because until 1650, per capita income wasn’t really increasing at all. It was following a one-step-forward one-step-back pattern. But if you take out all the steps back and just watch how quickly it took the steps forward, you get something like {--{"author":"AI","timestamp":1787568117792}@@this.--}{++{"author":"AI","timestamp":1787568117792}@@this._++}
+_This is a *really sketchy* graph of per capita income doubling times. It’s sketchy because until 1650, per capita income wasn’t really increasing at all. It was following a one-step-forward one-step-back pattern. But if you take out all the steps back and just watch how quickly it took the steps forward, you get something like this._
 
 Even though per capita income tries to abstract out population, it displays the same pattern. Until 1960, we were on track for a singularity where everyone earned infinite money. After 1960, the graph “bounces back” and growth rates stabilize or even decrease.
 
@@ -120,7 +120,7 @@ So it looks like past predictions of a techno-economic singularity for the early
 
 ![](https://www.slatestarcodexabridged.com/attach/demographics_absolutedouble.png?v=1597348636.png) ![](https://www.slatestarcodexabridged.com/attach/demographics_doublebritain.png?v=1597348635.png)
 
-{--{"author":"AI","timestamp":1787568121059}@@The--}{++{"author":"AI","timestamp":1787568121059}@@_The++} first graph is the same one you saw in the last section, of absolute GWP doubling times. The second graph is the same, but limited to {--{"author":"AI","timestamp":1787568121059}@@Britain.--}{++{"author":"AI","timestamp":1787568121059}@@Britain._++}
+_The first graph is the same one you saw in the last section, of absolute GWP doubling times. The second graph is the same, but limited to Britain._
 
 Where’s the Industrial Revolution?
 

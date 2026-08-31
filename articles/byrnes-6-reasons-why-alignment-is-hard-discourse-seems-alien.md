@@ -76,7 +76,7 @@ This idea will come up over and over as we proceed, so I’ll address it up fron
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/d4HNRdw6z7Xqbnu5E/drcvpvcyr4gred95wdl4)
 
-{--{"author":"AI","timestamp":1787568503616}@@When--}{++{"author":"AI","timestamp":1787568503616}@@_When++} we compare “normal” motivations (a) with Approval Reward (b), the primary relation of object-level desires versus self-reflective meta-level desires (red arrows) is flipped. On the (a) side, we expect things like [reflective consistency](https://www.lesswrong.com/w/consequentialist-preferences-are-reflectively-stable-by) and goal-stabilization (cf. [instrumental convergence](https://www.lesswrong.com/w/instrumental-convergence)). On the (b) side, we don’t (necessarily); instead we may encounter radical goal-changes upon reflection and self-modification, along with a broader willingness for goals to {--{"author":"AI","timestamp":1787568506362}@@change.--}{++{"author":"AI","timestamp":1787568506362}@@change._++}
+_When we compare “normal” motivations (a) with Approval Reward (b), the primary relation of object-level desires versus self-reflective meta-level desires (red arrows) is flipped. On the (a) side, we expect things like [reflective consistency](https://www.lesswrong.com/w/consequentialist-preferences-are-reflectively-stable-by) and goal-stabilization (cf. [instrumental convergence](https://www.lesswrong.com/w/instrumental-convergence)). On the (b) side, we don’t (necessarily); instead we may encounter radical goal-changes upon reflection and self-modification, along with a broader willingness for goals to change._
 
 In the context of utility-maximizers etc., the starting point is generally that desires are associated with object-level things (whether due to the reward signals or the utility function). And from there, the meta-preferences will naturally line up with the object-level preferences.
 
@@ -157,7 +157,7 @@ Obviously, humans can make long-term plans to accomplish distant goals—for exa
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/d4HNRdw6z7Xqbnu5E/wc63g8z7cdmg8aw4osq0)
 
-{--{"author":"AI","timestamp":1787568473254}@@Even--}{++{"author":"AI","timestamp":1787568473254}@@_Even++} if a young child wants to grow up to become a doctor, they can and will take appropriate goal-oriented actions to advance this long-term plan, such as practicing surgical techniques (left) and watching training videos {--{"author":"AI","timestamp":1787568473254}@@(right).--}{++{"author":"AI","timestamp":1787568473254}@@(right)._++}
+_Even if a young child wants to grow up to become a doctor, they can and will take appropriate goal-oriented actions to advance this long-term plan, such as practicing surgical techniques (left) and watching training videos (right)._
 
 How does that work in the 18yo’s brain? Obviously not via anything like RL techniques that we know and love in AI today—for example, it does *not* work by episodic RL with an absurdly-close-to-unity [discount factor](https://en.wikipedia.org/w/index.php?title=Q-learning&oldid=1311484908#Discount_factor) that allows for 15-year time horizons. Indeed, the discount factor / time horizon is clearly irrelevant here! This 18yo has never become a doctor before!
 
@@ -191,7 +191,7 @@ If you extend this “Security Mindset Institution Design” attitude to an actu
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/d4HNRdw6z7Xqbnu5E/dvwuzggwqqqfjdlhunfl)
 
-{--{"author":"AI","timestamp":1787568476020}@@[Source](https://en.wikipedia.org/wiki/Homer_the_Vigilante)--}{++{"author":"AI","timestamp":1787568476020}@@*[Source](https://en.wikipedia.org/wiki/Homer_the_Vigilante)*++}
+*[Source](https://en.wikipedia.org/wiki/Homer_the_Vigilante)*
 
 …OK, you get the idea. That’s the “Security Mindset Institution Design” perspective.
 

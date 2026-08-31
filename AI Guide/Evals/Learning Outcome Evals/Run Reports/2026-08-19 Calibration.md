@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787137470342}@@---
+---
 tags:
   - validator-ignore
 ---
@@ -51,4 +51,3 @@ Provisional (AI-proposed, non-ground-truth) labels: 9/9 agree (goal-space B1+C2,
 The suite is usable at version 1. Before a full census: (1) Luc reviews the five beyond-label judgments above — confirming or overruling them extends the golden set either way; (2) decide whether `Compute accounting` A2 resolves to pass (field-canonical) or fail (rephrase/delete), which also sharpens the A2 boundary text.
 
 Runner spot-test after calibration: `AI is grown, not crafted` and `Intelligence as prediction plus steering` were stamped with `eval-results` (pending suggestions), and the staleness logic verified: stamp-stripped re-hash matches the stored `content-sha`; an in-content edit changes it.
-++}
