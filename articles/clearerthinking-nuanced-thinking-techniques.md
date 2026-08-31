@@ -15,7 +15,7 @@ Add discussion note here:
 
 ...
 
-The user sees the following text not as an article but as an interactive tool provided by clearerthinking.org, which is embedded in an iframe on our website.
+The user sees the following text not as an articlbut as an interactive tool provided by clearerthinking.org, which is embedded in an iframe on our website.
 
 %%
 
