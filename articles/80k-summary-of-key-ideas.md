@@ -1,6 +1,6 @@
 ---
 title: "Summary of 80,000 Hours' key ideas"
-source_url: https://80000hours.org/key-ideas/summary/
+# source_url (stub disabled for full-import 2026-08-31): https://80000hours.org/key-ideas/summary/
 allowAuthorInTitle: true
 author:
   - 80,000 Hours
