@@ -12,7 +12,17 @@ source:: [[../Lenses/XLab Verification - v-welcome]]
 source:: [[../Lenses/XLab Verification - v-introduction]]
 
 # Lens:
-source:: [[../Lenses/XLab Verification - v-prevention]]
+{++{"author":"Elias's AI","timestamp":1788186164365}@@optional:: true
+hide:: true
+source:: [[../Lenses/AI Is Grown, Not Built]]
+
+# Lens:
+optional:: true
+hide:: true
+source:: [[../Lenses/Four Background Claims]]
+
+# Lens:
+++}source:: [[../Lenses/XLab Verification - v-prevention]]
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-theories-of-change]]
