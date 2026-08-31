@@ -1,5 +1,6 @@
 ---
 title: "Expected Value: How to Make Decisions Under Uncertainty"
+source_url: https://non-trivial.org/lessons/making-decisions-under-uncertainty
 author:
   - Non-Trivial
 published: 2022-07-01
@@ -17,8 +18,6 @@ tags:
 ---
 
 %%
-Source URL before re-import: https://non-trivial.org/lessons/making-decisions-under-uncertainty
-
 Add discussion note here:
 
 ...
