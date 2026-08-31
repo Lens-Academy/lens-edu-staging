@@ -48,7 +48,7 @@ To get suggest and comments working, please add this plugin. If you're missing i
 | ------------ | -------------------- |
 | Addition     | `{ + + new text + + }`     |
 | Deletion     | `{ - - removed text - - }` |
-| Substitution | `{~~old~>new~~}`     |
+| Substitution | `{ ~ ~ old~>new ~ ~ }`     |
 | Comment      | `{>>your comment<<}` |
 |              |                      |
 
