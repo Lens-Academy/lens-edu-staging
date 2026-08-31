@@ -3,8 +3,10 @@ id: '31e572c3-991d-4778-ac9e-d2d1cbf14f22'
 title: "When AI Can Help"
 reading_minutes: 5
 tutor_minutes: 5
-tldr: {--{"author":"AI","timestamp":1787862159434}@@"A randomised study of--}{++{"author":"AI","timestamp":1787862159434}@@"In a randomised study,++} law students {--{"author":"AI","timestamp":1787862159434}@@found early, engaged--}{++{"author":"AI","timestamp":1787862159434}@@who used++} AI {--{"author":"AI","timestamp":1787862159434}@@use improved their written analysis and even helped--}{++{"author":"AI","timestamp":1787862159434}@@early wrote better analysis. They also did better on++} later work done without AI. But when strong students used AI to revise their own work, {--{"author":"AI","timestamp":1787862159434}@@it--}{++{"author":"AI","timestamp":1787862159434}@@the AI++} made the good work worse."
+tldr: "In a randomised study, law students who used AI early wrote better analysis. They also did better on later work done without AI. But when strong students used AI to revise their own work, the AI made the good work worse."
 summary_for_tutor: "Optional evidence lens for Unit 3 of 'Thinking about Thinking'. Presents Bednar and colleagues (2025): a randomised study of about 100 Minnesota law students. The claim the core course makes of this study: early AI use on synthesis improved analysis and later no-AI performance, while AI revision of already-strong memos made them worse; help versus harm tracks conditions. Authored intro flags that nuance. Inlines one excerpt from the imported article. Ends with one reflective 'Your turn' question asking the student to state the core idea and its implications for AI use and metacognition. If the student reaches this lens with terminology questions, remind them they can ask about any term."
+tags:
+  - wip
 ---
 
 #### Text
@@ -14,8 +16,8 @@ Bednar and colleagues (2025) ran a randomised study with about 100 Minnesota law
 
 #### Article
 source:: [[../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-research-offers-a-more-complicated-answer]]
-from:: {--{"author":"AI","timestamp":1787860972593}@@"Since the public release of ChatGPT in 2022,--}{++{"author":"AI","timestamp":1787860972593}@@"We conducted++} a {--{"author":"AI","timestamp":1787860972593}@@growing body of empirical research has suggested that generative AI systems could fundamentally reshape the practice of law."--}{++{"author":"AI","timestamp":1787860972593}@@randomized controlled trial involving approximately 100 upper-level students at the University of Minnesota Law School."++}
-to:: {--{"author":"AI","timestamp":1787860972593}@@"conditions--}{++{"author":"AI","timestamp":1787860972593}@@"This pattern suggests++} that {--{"author":"AI","timestamp":1787860972593}@@increase the likelihood that AI substitutes for--}{++{"author":"AI","timestamp":1787860972593}@@AI can sometimes displace or dilute++} careful {--{"author":"AI","timestamp":1787860972593}@@analysis rather than supporting it."--}{++{"author":"AI","timestamp":1787860972593}@@reasoning, even among relatively strong performers."++}
+from:: "We conducted a randomized controlled trial involving approximately 100 upper-level students at the University of Minnesota Law School."
+to:: "This pattern suggests that AI can sometimes displace or dilute careful reasoning, even among relatively strong performers."
 
 #### Question
 content::
