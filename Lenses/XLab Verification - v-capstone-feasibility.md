@@ -145,7 +145,7 @@ content:: Return to your ranking from the beginning of the course. Choose one me
 - What question should you have asked earlier?
 
 Pay attention to how your heuristics changed: where was your intuition accurate, and where was it off?
-assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
+feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
 content::

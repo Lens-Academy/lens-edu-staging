@@ -166,7 +166,7 @@ content:: As you’re going through this exercise, jot down in your notebook: wh
 - Politically feasible? → How difficult would it be to get the U.S. to agree? China? What must remain confidential, no matter what?
 - Effective? → What’s the minimum threshold of confidence or level of evidence a nation-state should have to ensure that a rival is compliant? What must a verifier be able to learn?
 - Durable? → What develops faster, hardware or software?
-assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required. Do not reveal XLab's reference ratings; those are compared in lesson 4.1.
+feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required. Do not reveal XLab's reference ratings; those are compared in lesson 4.1.
 
 #### Text
 content::
