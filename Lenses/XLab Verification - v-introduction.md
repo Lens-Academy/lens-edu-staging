@@ -21,12 +21,16 @@ source:: [[../video_transcripts/ted-the-catastrophic-risks-of-ai-and-a-safer-pat
 
 #### Text
 content::
-:::callout {title="Optional: Further Reading" tone="neutral" collapse="closed"}
+{--{"author":"Elias's AI","timestamp":1788194707865}@@:::callout {title="Optional:--}{++{"author":"Elias's AI","timestamp":1788194707865}@@\## Optional:++} Further{--{"author":"Elias's AI","timestamp":1788194707865}@@ Reading" tone="neutral" collapse="closed"}--}{++{"author":"Elias's AI","timestamp":1788194707865}@@ Reading++}
 The case at full strength, from the people who argue it most directly. Any one of these:
 
-- [[../Lenses/AI Is Grown, Not Built|AI Is Grown, Not Built]] — Eliezer Yudkowsky & Nate Soares, The Atlantic, September 2025. An edited excerpt of chapter 2 of *If Anyone Builds It, Everyone Dies*.
-- [[../Lenses/Four Background Claims|Four Background Claims]] — Nate Soares, MIRI, 2015. The assumptions doing the work beneath the argument.
-:::
+{--{"author":"Elias's AI","timestamp":1788194707865}@@- [[../Lenses/AI Is Grown, Not Built|AI--}{++{"author":"Elias's AI","timestamp":1788194707865}@@::card[[../Lenses/AI++} Is Grown, Not Built]]{--{"author":"Elias's AI","timestamp":1788194707865}@@ — --}{++{"author":"Elias's AI","timestamp":1788194707865}@@
+> ++}Eliezer Yudkowsky & Nate Soares, The Atlantic, September 2025. An edited excerpt of chapter 2 of *If Anyone Builds It, Everyone Dies*.{--{"author":"Elias's AI","timestamp":1788194707865}@@
+- [[../Lenses/Four Background Claims|Four--}{++{"author":"Elias's AI","timestamp":1788194707865}@@
+
+::card[[../Lenses/Four++} Background Claims]]{--{"author":"Elias's AI","timestamp":1788194707865}@@ —--}{++{"author":"Elias's AI","timestamp":1788194707865}@@
+>++} Nate Soares, MIRI, 2015. The assumptions doing the work beneath the argument.{--{"author":"Elias's AI","timestamp":1788194707865}@@
+:::--}
 
 #### Question: Open
 id:: b7e5023a-0fed-4fc6-be79-0c7ece9f3106
