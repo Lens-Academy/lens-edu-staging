@@ -8,9 +8,7 @@ published: 2025-07-17
 created: 2026-06-02
 accessed: 2026-06-02
 description: "Why do we think that reducing risks from AI is one of the most pressing issues of our time?"
-{--{"author":"AI","timestamp":1788202713264}@@tags:
-  - validator-ignore
---}---
+---
 
 %%
 Add discussion note here:
