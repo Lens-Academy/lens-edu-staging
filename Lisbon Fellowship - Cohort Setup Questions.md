@@ -47,7 +47,7 @@ Who should be emailing your participants, you or us? Ours send reminders and nud
 
 Is there a chat space for the fellowship, or is it just the sessions?
 
-**Answer:**
+**Answer:** We have a dedicated Discord channel for 
 
 
 ## 7. The last two weeks
