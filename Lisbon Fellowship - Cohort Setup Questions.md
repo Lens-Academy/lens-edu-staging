@@ -12,14 +12,14 @@ Elias is covering the course and the meeting docs. These are about how the cohor
 
 Are your sessions fully in person, and how long is each one? With about twenty people, are you running one group or several?
 
-**Answer:** Fully in person, 2 each session. We are running one group most likely but if we exceed 20 g we will split the groups into two.
+**Answer:** Fully in person, 2 each session. We are running one group most likely but if we exceed 20 good applicants we will split the groups into two.
 
 
 ## 2. Reading and written work
 
 When people come to a session, will they have done the reading and the written work beforehand, or are you doing it together in the room?
 
-**Answer:**
+**Answer:** 
 
 
 ## 3. Attendance
