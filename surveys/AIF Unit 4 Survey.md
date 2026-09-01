@@ -6,6 +6,17 @@ title: Week 4 Post-Session Reflection
 #### Text
 content:: Thanks for showing up. A few minutes of reflection on Unit 4. Submitting this counts towards your certificate at the end of the course.
 
+#### Text
+content:: **What's next after this course**
+
+Two things you can do from here. Both are worth a look before you carry on.
+
+* **Compute Verification** starts 7 September. It is our advanced course on verifying how compute is used, and how that makes agreements between countries checkable. → [see the course](https://lensacademy.org/courses/compute-verification)
+* **Navigate a group yourself.** Navigators take a course alongside their group and run the sessions, with prep and support from us the whole way. It is a few hours a week, fully remote. → [apply to navigate](https://lensacademy.org/navigate)
+
+#### Text
+content:: **If either one interests you, open it now before you carry on.** Anything you fill in below is only saved when you press submit at the end.
+
 #### Choice
 key:: buddy_texted
 content:: Did you message your accountability buddy this week?
