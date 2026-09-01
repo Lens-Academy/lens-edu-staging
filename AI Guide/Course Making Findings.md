@@ -57,7 +57,8 @@ said "there's no closing section... that step currently isn't there."
 REPAIR: turn the design into a checklist that is actually run on every new
 unit (see section 4).
 
-How to find root causes from feedback, in general: for each complaint, ask
+If you have preexisting feedback, then for that feedback -- how to find
+root causes, in general: for each complaint, ask
 "what one upstream mistake would produce this, and what else would it
 produce?" Then go count whether those other things exist. If they do, you
 found the cause (here: one missing exercise led us to 78). If they do not,
@@ -65,7 +66,9 @@ it was a coincidence; stop. [measured once, on this call]
 Warning: an explanation that fits every complaint feels finished and often is
 not. Both Claudes built tidy explanations this week that were wrong, and each
 was caught only by checking a prediction. Always test one thing nobody
-reported.
+reported. (This is kin to classic root-cause analysis and the "5 whys",
+plus the step those leave out: verify the cause by counting the other
+problems it predicts.)
 
 ## 2. Four kinds of text in a course, and how to tell them apart
 
@@ -83,14 +86,17 @@ descriptive writing] [standard]
    authorial voice, so they may not need the human rewrite that explanation
    text needs. If true, the rewrite workload drops by roughly half.
 
-2. EXPLANATION -- why any of this matters. This carries the author's voice
-   and is the part Lauren rewrites. Do not force it into the instruction
-   style; readers stop reading. But it has its own rules (section 3).
+2. EXPLANATION -- why any of this matters. This carries the author's voice.
+   Do not force it into the instruction style; readers stop reading. It has
+   its own rules (section 3). Plan update (2026-09-01): AI writers produce
+   this text too, with humans reviewing and spot-fixing. Hand-rewriting by
+   a human is slow even done fast, and is no longer the plan.
 
 3. QUOTED MATERIAL -- article excerpts, and arguments we construct for the
-   student to examine. Its rules are about honesty, not style: say what it
-   is ("this argument is constructed; every fact in it is true"), and quote
-   sources exactly. Do not count it as our explanation text. [proposed]
+   student to examine. Its rules are about labeling and accuracy, not style:
+   say what the material is ("this argument is constructed; every fact in
+   it is true"), and quote sources exactly. Do not count it as our
+   explanation text. [proposed]
 
 4. WORKED EXAMPLES -- the author using a principle on a small case, in front
    of the student. This kind was missing entirely, and it was the student's
