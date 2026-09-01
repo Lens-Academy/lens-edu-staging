@@ -1,6 +1,6 @@
 ---
-title: "Risks from power-seeking AI systems"
-source_url: https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/
+title: "Risks from power-seeking AI systems (backup before 2026-09-01 reimport)"
+# source_url: https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/
 author:
   - "Cody Fenwick"
   - "Zershaaneh Qureshi"
