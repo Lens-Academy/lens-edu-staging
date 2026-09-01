@@ -66,4 +66,4 @@ What do you actually want to be able to see about your participants week to week
 - Knowledge of the frontier risks (i.e. loss of control, misalignment, misuse, concentrations of power)
 - Timelines, why they matter and how we determine them
 - Possible solutions (i.e. slowdown, chip governance, research transparency)
-- The international political landscape (i.e. US-China relations, the development pipeline (ASML, TSMC, Nvidia), )
+- The international political landscape (i.e. US-China relations, the development pipeline (ASML, TSMC, Nvidia), the role of the EU)
