@@ -40,7 +40,7 @@ How do you want people to get in? Would you rather hand out a link and let your 
 
 Who should be emailing your participants, you or us? Ours send reminders and nudges automatically, and we would rather switch that off than have it surprise you.
 
-**Answer:**
+**Answer:** You can send automati
 
 
 ## 6. Chat space
