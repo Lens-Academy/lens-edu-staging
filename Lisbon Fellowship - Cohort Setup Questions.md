@@ -63,4 +63,4 @@ What do you actually want to be able to see about your participants week to week
 
 **Answer:** 
 - Fundamental knowledge and understanding of the basics of how AI works
-- Knowledge of
+- Knowledge of the frontier risks (i.e. loss of control, misal)
