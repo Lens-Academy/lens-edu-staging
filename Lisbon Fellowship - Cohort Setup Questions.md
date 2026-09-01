@@ -61,5 +61,5 @@ The last two weeks are talks rather than course content. Do those count toward f
 
 What do you actually want to be able to see about your participants week to week?
 
-**Answer:** I want to see if they have read the required readings and I want to be able to see their written answers. A progress tracker would be good
+**Answer:** I want to see if they have read the required readings and I want to be able to see their written answers. A progress tracker would be good and I prefer if it shows that they scrolled all the way
 
