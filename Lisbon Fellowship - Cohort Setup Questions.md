@@ -54,7 +54,7 @@ Is there a chat space for the fellowship, or is it just the sessions?
 
 The last two weeks are talks rather than course content. Do those count toward finishing, or is the certificate based on the first six weeks?
 
-**Answer:** These count towards finis
+**Answer:** These count towards finishing
 
 
 ## 8. What you want to see
