@@ -19,7 +19,7 @@ Are your sessions fully in person, and how long is each one? With about twenty p
 
 When people come to a session, will they have done the reading and the written work beforehand, or are you doing it together in the room?
 
-**Answer:** They should have done the readings beforehand. 10-15 minutes can be for writing during class, 
+**Answer:** They should have done the readings beforehand. 10-15 minutes can be for writing during class.
 
 
 ## 3. Attendance
