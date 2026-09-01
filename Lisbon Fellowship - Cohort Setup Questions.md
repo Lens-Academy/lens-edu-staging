@@ -1,0 +1,64 @@
+---
+title: Lisbon Fellowship - Cohort Setup Questions
+tags:
+  - work-in-progress
+---
+
+Questions for Caleb Price ahead of the Lisbon AI Safety Hub fellowship starting 6 October.
+
+Elias is covering the course and the meeting docs. These are about how the cohort runs on the platform. Type your answers under each question. No need to be thorough, a line each is plenty.
+
+## 1. Format and groups
+
+Are your sessions fully in person, and how long is each one? With about twenty people, are you running one group or several?
+
+**Answer:**
+
+
+## 2. Reading and written work
+
+When people come to a session, will they have done the reading and the written work beforehand, or are you doing it together in the room?
+
+**Answer:**
+
+
+## 3. Attendance
+
+How are you planning to know who actually turned up each week? And should turning up count toward earning the certificate, or is that purely the coursework?
+
+**Answer:**
+
+
+## 4. Sign-ups
+
+How do you want people to get in? Would you rather hand out a link and let your selected people sign themselves up, or give us the list and we set them up?
+
+**Answer:**
+
+
+## 5. Emails and reminders
+
+Who should be emailing your participants, you or us? Ours send reminders and nudges automatically, and we would rather switch that off than have it surprise you.
+
+**Answer:**
+
+
+## 6. Chat space
+
+Is there a chat space for the fellowship, or is it just the sessions?
+
+**Answer:**
+
+
+## 7. The last two weeks
+
+The last two weeks are talks rather than course content. Do those count toward finishing, or is the certificate based on the first six weeks?
+
+**Answer:**
+
+
+## 8. What you want to see
+
+What do you actually want to be able to see about your participants week to week?
+
+**Answer:**
