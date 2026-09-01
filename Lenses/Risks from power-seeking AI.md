@@ -11,7 +11,7 @@ content::
 The 80,000 Hours case for why reducing risks from power-seeking AI is one of the most pressing problems of our time.
 
 #### Article
-source:: [[../archive/80k-risks-from-powerseeking-ai-backup-before-reimport-2026-09-01]]
+source:: {--{"author":"AI","timestamp":1788271024181}@@[[../archive/80k-risks-from-powerseeking-ai-backup-before-reimport-2026-09-01]]--}{++{"author":"AI","timestamp":1788271024181}@@[[../articles/fenwick-loss-of-control]]++}
 
 
 #### Chat
