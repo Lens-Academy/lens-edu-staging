@@ -60,7 +60,13 @@ The typo guard at course.ts now contains-matches instead of prefix-matching /^su
 
 # Meeting: Facing the Challenge, part 1
 meeting-doc-template:: https://docs.google.com/document/d/1dW_VlZoAn6eLR0_ZY8XvQvRoVvr51a23XAXMAnH_bSI/edit
-survey:: [[../surveys/AIRF Weekly Survey]]
+survey:: [[../surveys/AIRF Session 4 Survey]] {>>{"author":"Turner's AI","timestamp":1788221486588}@@Repointed 2026-08-31 from AIRF Weekly Survey to a new meeting-4-only file, following the exact pattern used for Session 3 and Session 5. Reason: Compute Verification starts 7 Sep with zero navigators, and the session-4 surveys are the widest remaining recruiting channel before it does. AIRF Weekly Survey is shared by meetings 2 and 4, so appending the plugs to it in place would have put them on meeting 2 as well. AIRF Session 4 Survey is a byte-for-byte copy of AIRF Weekly Survey with a two-link block prepended, so every existing question keeps its key, wording and order and the pre/post comparison with Session 1 is untouched. Meeting 2 still points at AIRF Weekly Survey and was not touched.
+
+THE BLOCK IS AT THE TOP, AND THAT IS LOAD-BEARING, NOT STYLE. Three Text segments, no answer keys, placed before the first answerable segment, closing with the same warning Session 3 uses: "open it now before you carry on, anything you fill in below is only saved when you press submit". This satisfies the rule recorded on the Session 3 repoint - no answerable segment may precede an outbound link - because SurveyRenderer.tsx renders segment content through ReactMarkdown with NO custom link renderer (:143, :152), so survey links carry no target=_blank, and answers live in useState until Submit. A learner who clicks a link mid-survey loses every answer AND their attendance for the meeting.
+
+This is also why the plugs are here rather than as adhoc_questions: ad-hoc questions are appended AFTER the authored segments, which puts a clickable link below every answered question and makes that exact wipe likely rather than merely possible. If ad-hoc questions are ever used for outreach, their prompts must not contain links.
+
+The navigator link is /navigate, which is the NavigatorSignupWizard intake. Not /navigators, which is the marketing landing page.<<}
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 {>>{"author":"AI","timestamp":1786279506695}@@Course reduced from 6 meetings to 5. Units: M1 | M2+M3 | M4 | M5 | M6+M7, one meeting after each unit. All five meeting docs were updated for these boundaries on 2026-08-09; the old unit-4 doc (19-KJb0ZEVlVYJoVMOnY5xbAm6UJdynAFM0nm7NSg9dg) is retired.<<}
 
