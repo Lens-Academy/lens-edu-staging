@@ -26,7 +26,7 @@ When people come to a session, will they have done the reading and the written w
 
 How are you planning to know who actually turned up each week? And should turning up count toward earning the certificate, or is that purely the coursework?
 
-**Answer:** A sign-in sheet when participants arrive. They must complete 
+**Answer:** A sign-in sheet when participants arrive. They must attend 6/8 of the sessions to g
 
 
 ## 4. Sign-ups
