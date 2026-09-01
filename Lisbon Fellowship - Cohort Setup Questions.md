@@ -61,4 +61,4 @@ The last two weeks are talks rather than course content. Do those count toward f
 
 What do you actually want to be able to see about your participants week to week?
 
-**Answer:** Fundman
+**Answer:** Fundamental knowledge and understanding of 
