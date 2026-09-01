@@ -12,7 +12,7 @@ Elias is covering the course and the meeting docs. These are about how the cohor
 
 Are your sessions fully in person, and how long is each one? With about twenty people, are you running one group or several?
 
-**Answer:** Fully in person, 2 hours total
+**Answer:** Fully in person, 2 each session. We are running o
 
 
 ## 2. Reading and written work
