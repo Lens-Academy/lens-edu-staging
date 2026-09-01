@@ -33,7 +33,7 @@ How are you planning to know who actually turned up each week? And should turnin
 
 How do you want people to get in? Would you rather hand out a link and let your selected people sign themselves up, or give us the list and we set them up?
 
-**Answer:** I can give you the list and you set them up. (Q: How much time do you need for this? I)
+**Answer:** I can give you the list and you set them up. (Q: How much time do you need for this? Applicantions close one week beforet the)
 
 
 ## 5. Emails and reminders
