@@ -653,9 +653,6 @@ On _The 80,000 Hours Podcast_, we have a [number of in-depth interviews](https:/
 If you want to go into much more depth, the [AGI safety fundamentals](https://www.agisafetyfundamentals.com/) course is a good starting point. There are two tracks to choose from: [technical alignment](https://www.agisafetyfundamentals.com/ai-alignment-curriculum) or [AI governance](https://www.agisafetyfundamentals.com/ai-governance-curriculum). If you have a more technical background, you could try [_Intro to ML Safety_](https://course.mlsafety.org/about), a course from the [Center for AI Safety](https://www.safe.ai/).
 
 We’ve also provided a more general argument [here](https://80000hours.org/problem-profiles/artificial-intelligence/?v=1) for thinking AI could be a very big deal, highlighting the risks of power-seeking as well as other challenges raised by AI.
-
-:::hide
-
 ## Acknowledgements
 
 _We thank Neel Nanda, Ryan Greenblatt, Alex Lawsen, and Arden Koehler for providing feedback on a draft of this article. Benjamin Hilton wrote a previous version of this article, some of which was incorporated here._
