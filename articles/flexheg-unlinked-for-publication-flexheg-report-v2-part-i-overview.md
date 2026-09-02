@@ -44,7 +44,7 @@ We would like to thank Aaron Scher, Amanda El-Dakhkhni, Andrew Critch, Asher Bra
 
 ---
 
-<sup>1</sup> The report is based on an original concept developed by David ‘davidad’ Dalrymple. We expand the definition of flexHEGs somewhat compared to earlier work, including our interim report [1]. See [Appendix A](#) for an explanation of how and why, but this should not be relevant to readers who have not engaged with that prior work.
+<sup>1</sup> The report is based on an original concept developed by David ‘davidad’ Dalrymple. We expand the definition of flexHEGs somewhat compared to earlier work, including our interim report [1]. See {--{"author":"Luc's AI","timestamp":1788381668612}@@[Appendix A](#)--}{++{"author":"Luc's AI","timestamp":1788381668612}@@[[#^appendix-a-original-flexheg-vision|Appendix A]]++} for an explanation of how and why, but this should not be relevant to readers who have not engaged with that prior work.
 
 ## Executive Summary
 
@@ -144,7 +144,7 @@ In the flexHEG design, each of the AI chips (such as GPUs) would be placed in a 
 
 The guarantee processor would ideally be an open-source, standardized, general-purpose processor that sits between the AI chip and the rest of the world, able to locally access all information and instructions going to and from the chip as well as some aspects of the AI chip’s state.
 
-Crucially, the guarantee processor would be able to encrypt and authenticate data coming from the AI chip and from the guarantee processor itself, and thus enable privacy-preserving, sophisticated, and programmable verification schemes. Encryption would allow improved security through preventing anyone other than the intended recipient — such as the chip owner, a regulator, or a guarantee processor in another flexHEG device— from accessing or modifying the data sent from the guarantee processor. This would be similar to existing confidential computing systems [9]. Authenticated communication between flexHEG devices would enable verification schemes to be coordinated and scaled across arbitrary numbers of flexHEG devices, thus allowing verifiable claims about complex, distributed workloads (see further discussion in [Appendix B](#) and Part II).
+Crucially, the guarantee processor would be able to encrypt and authenticate data coming from the AI chip and from the guarantee processor itself, and thus enable privacy-preserving, sophisticated, and programmable verification schemes. Encryption would allow improved security through preventing anyone other than the intended recipient — such as the chip owner, a regulator, or a guarantee processor in another flexHEG device— from accessing or modifying the data sent from the guarantee processor. This would be similar to existing confidential computing systems [9]. Authenticated communication between flexHEG devices would enable verification schemes to be coordinated and scaled across arbitrary numbers of flexHEG devices, thus allowing verifiable claims about complex, distributed workloads (see further discussion in {--{"author":"Luc's AI","timestamp":1788381668988}@@[Appendix B](#)--}{++{"author":"Luc's AI","timestamp":1788381668988}@@[[#^appendix-b-governance-mechanisms|Appendix B]]++} and Part II).
 
 FlexHEGs would enable privacy-preserving verification by allowing detailed verified claims to be aggregated across devices to produce more abstract claims such as “this model was trained with less than  $X$  total FLOP”, without revealing exact FLOP values or other technical details.
 
@@ -164,7 +164,7 @@ Finally, the supply chain for the enclosures and guarantee processors would need
 
 ### How FlexHEGs Could Address Risks to International Security
 
-Several potential risks to international security can be seen as stemming from, or being exacerbated by, the international competitive dynamics discussed in the introduction. This section will outline some examples of governance mechanisms that FlexHEGs could enable to help address these risks. For more details on these mechanisms and many others, see [Appendix B](#), and for more in-depth discussion of each of these risks, see Part III.
+Several potential risks to international security can be seen as stemming from, or being exacerbated by, the international competitive dynamics discussed in the introduction. This section will outline some examples of governance mechanisms that FlexHEGs could enable to help address these risks. For more details on these mechanisms and many others, see {--{"author":"Luc's AI","timestamp":1788381669274}@@[Appendix B](#),--}{++{"author":"Luc's AI","timestamp":1788381669274}@@[[#^appendix-b-governance-mechanisms|Appendix B]],++} and for more in-depth discussion of each of these risks, see Part III.
 
 All of these risks are presently various degrees of speculative: We present them as examples to illustrate the potential of flexHEGs. The flexibility of the technology would allow actual mechanisms to be tailored to whatever risks prove most realistic, and adjusted as we learn more.
 
@@ -395,11 +395,11 @@ In addition to directly funding R&D efforts, if policymakers want to accelerate 
 
 <sup>11</sup> See “General-Purpose Workload Guarantees” and “Project 4” in Part II.
 
-<sup>12</sup> [§ 748, Supplement No., 8\(B\)\(11\)](#)
+<sup>12</sup> [§ 748, Supplement No., 8\(B\)\(11\)](https://www.federalregister.gov/documents/2025/01/15/2025-00636/framework-for-artificial-intelligence-diffusion#p-311)
 
-<sup>13</sup> [§ 748, Supplement No. 10, \(14\)\(d\)](#)
+<sup>13</sup> [§ 748, Supplement No. 10, \(14\)\(d\)](https://www.federalregister.gov/documents/2025/01/15/2025-00636/framework-for-artificial-intelligence-diffusion#p-345)
 
-<sup>14</sup> [§ 748, Supplement No. 10, \(14\)\(c\)](#)
+<sup>14</sup> [§ 748, Supplement No. 10, \(14\)\(c\)](https://www.federalregister.gov/documents/2025/01/15/2025-00636/framework-for-artificial-intelligence-diffusion#p-344)
 
 In many cases, a bottleneck to the above is that there are no applicable existing standards for the relevant components, such as tamper protections suitable for AI chips. The development of such standards is another measure through which policymakers could support the development of flexHEG technology.
 
@@ -502,7 +502,7 @@ Overall, it appears likely that the best way to achieve the spirit of the origin
 
 <sup>17</sup> See "Guarantee Update Process" in Part II.
 
-flexHEG devices for verification (and perhaps [binding commitments](#)) only, with no mechanism for forced updates.<sup>18</sup>
+flexHEG devices for verification (and perhaps {--{"author":"Luc's AI","timestamp":1788381670439}@@[binding commitments](#))--}{++{"author":"Luc's AI","timestamp":1788381670439}@@[[#^binding-commitments|binding commitments]])++} only, with no mechanism for forced updates.<sup>18</sup>
 
 ## Appendix B: Governance Mechanisms Enabled by FlexHEGs ^appendix-b-governance-mechanisms
 
@@ -516,18 +516,18 @@ The focus of this appendix will be on explaining how different mechanisms would 
 
 ### Categories of Guarantees
 
-- [Verification mechanisms](#) are mechanisms that allow the user of a chip (the **prover**) to make verifiable claims about what they have done or are doing with a flexHEG device to some other party (the **verifier**).
+- {--{"author":"Luc's AI","timestamp":1788381670828}@@[Verification mechanisms](#)--}{++{"author":"Luc's AI","timestamp":1788381670828}@@[[#^verification|Verification mechanisms]]++} are mechanisms that allow the user of a chip (the **prover**) to make verifiable claims about what they have done or are doing with a flexHEG device to some other party (the **verifier**).
   - Verification mechanisms can be based on verifiable sharing of detailed information, such as detailed logs of an entire training run, including snapshots of weights during training.
   - Alternatively, verification mechanisms can be **privacy-preserving** if a flexHEG device or set of devices can verify the details of the claim locally, and can thus only share the absolute minimum amount of information. A privacy-preserving verifiable claim might be of the form “the use of these devices up to X point in time has always been in compliance with Y ruleset”, with no additional information shared with the verifier.
-- [Rules](#) are guarantees that a given flexHEG device cannot be used to perform workloads that would violate a given ruleset. Typically a ruleset would initially be configured at the factory, and could be updated later with the right authorizations.
+- {--{"author":"Luc's AI","timestamp":1788381671072}@@[Rules](#)--}{++{"author":"Luc's AI","timestamp":1788381671072}@@[[#^rules|Rules]]++} are guarantees that a given flexHEG device cannot be used to perform workloads that would violate a given ruleset. Typically a ruleset would initially be configured at the factory, and could be updated later with the right authorizations.
 
 ---
 
 <sup>18</sup> See Part III.
 
-- [Binding commitments](#) are rules that the chip owner has voluntarily subjected their chips to, but in such a way that the user themselves cannot remove the rules for some period of time, and other parties can verify that this is the case.
-- [Discretionary enforcement mechanisms](#) are mechanisms that require some authority's approval for the device to perform some or any actions.
-- [Baseline rulesets](#) are simple, relatively restrictive rulesets that a flexHEG device could be configured to revert to if its operating license or full ruleset expire.
+- {--{"author":"Luc's AI","timestamp":1788381671413}@@[Binding commitments](#)--}{++{"author":"Luc's AI","timestamp":1788381671413}@@[[#^binding-commitments|Binding commitments]]++} are rules that the chip owner has voluntarily subjected their chips to, but in such a way that the user themselves cannot remove the rules for some period of time, and other parties can verify that this is the case.
+- {--{"author":"Luc's AI","timestamp":1788381671711}@@[Discretionary--}{++{"author":"Luc's AI","timestamp":1788381671711}@@[[#^discretionary-enforcement-mechanisms|Discretionary++} enforcement {--{"author":"Luc's AI","timestamp":1788381671711}@@mechanisms](#)--}{++{"author":"Luc's AI","timestamp":1788381671711}@@mechanisms]]++} are mechanisms that require some authority's approval for the device to perform some or any actions.
+- {--{"author":"Luc's AI","timestamp":1788381671993}@@[Baseline rulesets](#)--}{++{"author":"Luc's AI","timestamp":1788381671993}@@[[#^baseline-rulesets|Baseline rulesets]]++} are simple, relatively restrictive rulesets that a flexHEG device could be configured to revert to if its operating license or full ruleset expire.
 
 #### Verification ^verification
 
