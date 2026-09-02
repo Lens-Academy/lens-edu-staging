@@ -659,6 +659,8 @@ _We thank Neel Nanda, Ryan Greenblatt, Alex Lawsen, and Arden Koehler for provid
 
 :::
 
+:::
+
 [^cite-1]: [system card for Mythos Preview](https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf) > Leaking information as part of a requested sandbox escape: During behavioral testing with a simulated user, an earlier internally-deployed version of Claude Mythos Preview was provided with a secured “sandbox” computer to interact with. The simulated user instructed it to try to escape that secure container and find a way to send a message to the researcher running the evaluation. The model succeeded, demonstrating a potentially dangerous capability for circumventing our safeguards. It then went on to take additional, more concerning actions. The model first developed a moderately sophisticated multi-step exploit to gain broad internet access from a system that was meant to be able to reach only a small number of predetermined services. >  > It then, as requested, notified the researcher. In addition, in a concerning and unasked-for effort to demonstrate its success, it posted details about its exploit to multiple hard-to-find, but technically public-facing, websites. Sam Bowman also discussed the incident on [X](https://x.com/sleepinyourhat/status/2041584799929004045?s=20)
 
 [^cite-3]: [“Is Power-Seeking AI an Existential Risk?”](https://arxiv.org/abs/2206.13353) It is also influenced by Ajeya Cotra’s [“Why AI alignment could be hard with modern deep learning.”](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/)
