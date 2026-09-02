@@ -29,14 +29,16 @@ problems. For example, Andreas gave about six complaints. They trace back to thr
 which look identical to a student but need different repairs.
 
 CAUSE 1: The goal was never written down. [measured] Nowhere in the repo is
-there a statement of what a graduate of this course can do. Without that,
-there is no way to order the weeks, no way to say who the course is for, and
-no way to check whether an assessment tests what was taught. Andreas felt all
+there a statement of what changes in a graduate of this course. ("What they
+can do after that they could not before" is the checkable projection of
+that.) Without it, the weekshave  nothing to be ordered against, claims
+about who the course is for cannot be checked, and an assessment cannot be
+checked against what was meant to be taught. Andreas felt all
 three: "you could start from week three... you wouldn't be missing much," and
 "there are two groups: people who feel it's too technical, and people who feel
 it's not technical enough." [student]
-REPAIR: before writing content, write the capability statement: what the
-student can do before, what they can do after, broken into parts.
+REPAIR: before writing content, write the capability statement: how the
+student differs before and after, broken into parts.
 
 CAUSE 2: Material was written but never connected. [measured] 179 of 787
 lenses (22%) are not reachable from any course. 78 of them were written for
