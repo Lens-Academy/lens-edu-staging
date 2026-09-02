@@ -45,8 +45,8 @@ What would be enough for a three-month emergency pause? Combines feasibility jud
 id:: 104ef826-0784-423a-9edf-02e4927d3e0d
 tldr:: A one-time form about you, your background, and what you want from this course. It takes 10 to 13 minutes and you need to complete it before moving on.
 summary_for_tutor:: An intake form, not teaching material. If the learner asks about a question, explain what it is asking for and why we ask; do not answer it for them, do not speculate about how answers affect selection, and do not discuss other learners' answers.
-{++{"author":"Elias's AI","timestamp":1788355467257}@@duration_minutes:: 12
-++}#### Text
+duration_minutes:: 12
+#### Text
 content::
 \## Before you start
 
@@ -56,22 +56,13 @@ Questions marked **optional** can be skipped. Everything else is needed before y
 
 \## About you
 
-#### Question: {--{"author":"Elias's AI","timestamp":1788355474107}@@Open--}{++{"author":"Elias's AI","timestamp":1788355474107}@@FillBlank++}
-id:: {--{"author":"Elias's AI","timestamp":1788355474107}@@3680bc28-a86d-44a2-8ac8-e70dffb397a9--}{++{"author":"Elias's AI","timestamp":1788355474107}@@388b80f5-c2f1-48df-976e-f89a355ca4f2++}
-content::{++{"author":"Elias's AI","timestamp":1788355474107}@@
--++} First {--{"author":"Elias's AI","timestamp":1788355474107}@@name
-
-#### Question: Open--}{++{"author":"Elias's AI","timestamp":1788355474107}@@name: {{blank}}++}
-{--{"author":"Elias's AI","timestamp":1788355474107}@@id:: 950c0fd3-c468-4b70-ae2c-bf348ea6ba84
-content::--}{++{"author":"Elias's AI","timestamp":1788355474107}@@-++} Last {--{"author":"Elias's AI","timestamp":1788355474107}@@name
-
-#### Question: Open--}{++{"author":"Elias's AI","timestamp":1788355474107}@@name: {{blank}}++}
-{--{"author":"Elias's AI","timestamp":1788355474107}@@id:: 64dd857f-eaa5-492b-b151-954243b46ffa
-content::--}{++{"author":"Elias's AI","timestamp":1788355474107}@@-++} Email {--{"author":"Elias's AI","timestamp":1788355474107}@@address
-
-#### Question: Open
-id:: 939f03a6-d23a-4b32-9870-f0544e44ee86--}{++{"author":"Elias's AI","timestamp":1788355474107}@@address: {{blank}}++}
-{--{"author":"Elias's AI","timestamp":1788355474107}@@content::--}{++{"author":"Elias's AI","timestamp":1788355474107}@@-++} LinkedIn {--{"author":"Elias's AI","timestamp":1788355474107}@@URL--}{++{"author":"Elias's AI","timestamp":1788355474107}@@URL: {{blank}}++}
+#### Question: FillBlank
+id:: 388b80f5-c2f1-48df-976e-f89a355ca4f2
+content::
+- First name: {{blank}}
+- Last name: {{blank}}
+- Email address: {{blank}}
+- LinkedIn URL: {{blank}}
 
 #### Question: Open
 id:: 9b31f236-c7b2-4d22-b376-5fa504498b7c
