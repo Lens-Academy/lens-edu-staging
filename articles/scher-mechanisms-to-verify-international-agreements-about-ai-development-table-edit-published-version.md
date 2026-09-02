@@ -981,7 +981,7 @@ These individuals do not necessarily agree with the views in the paper, and all 
 
 Lisa was the Research Lead for the project, came up with the initial ideas and directions, contributed some original ideas for mechanisms, and did some editing. Aaron did the majority of the writing and did most of the analysis and mechanisms research.
 
-### Feasibility Estimates
+### Feasibility Estimates ^feasibility-estimates
 
 All the feasibility estimates assume significant political will to curb risks from frontier AI development (i.e., similar to the U.S. response to 9/11). The time estimates reflect our estimation of how long it would take to **design and implement** the given measure. They are dominated by technical R&D time for most mechanisms due to the assumption of strong political will. Approaches that require new AI chips tend to have long implementation timelines due to the time it takes for new chips to become a significant share of computing power (Heim, 2024a).
 
@@ -991,7 +991,7 @@ We have low confidence in most of the feasibility estimates. They are preliminar
 
 ### Building Blocks
 
-### Locating Compute Building Blocks
+### Locating Compute Building Blocks ^locating-compute-building-blocks
 
 | Building Block                       | Mechanism                            | Details                                                                                                                                                                                                                                           |
 |--------------------------------------|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1269,7 +1269,7 @@ High <1 year
 
 Includes inventory audits.
 
-Evaluation of chip designs and testing of chips in development
+Evaluation of chip designs and testing of chips in development ^chip-design-evaluation
 
 If on-chip mechanisms are used, there needs to be assurance that the manufactured chips actually have these mechanisms correctly implemented. To ensure chip designs have not been backdoored to circumvent governance measures, it may be necessary for international inspectors to evaluate these designs and confirm that a small number of randomly selected fabricated chips are implementing the intended design. Numerous tests like this may be necessary throughout the chip design process to ensure the on-chip mechanisms are implemented correctly.
 
@@ -1319,7 +1319,7 @@ Medium ▾ 2–5 years
 
 This likely requires that chips be hardened during manufacturing and equipped with flexible hardware mechanisms like operating licenses. Mechanisms that resist adversaries may be difficult to design.
 
-### --- Emergency chip shutdown
+### --- Emergency chip shutdown ^emergency-chip-shutdown
 
 |                                                                 |                                                                                                                                                                                                                                                                                                                                                       |
 |-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1752,7 +1752,7 @@ Medium ▾ 2–6 years
 | Feasibility        | Previous work (non-comprehensive)              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |             |                                   |                  |                                                |
 | Medium ▾ <1 year   | Heim et al. (2024); Baker et al. (Forthcoming) |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |             |                                   |                  |                                                |
 
-### Evaluations Building Blocks
+### Evaluations Building Blocks ^evaluations-building-blocks
 
 | Building Block                                               | Mechanism                                         | Details                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |--------------------------------------------------------------|---------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1771,7 +1771,7 @@ An audit trail demonstrating that deployments of a model are using the same mode
 
 Software audit trails are a standard tool. However, there may be some difficulties in applying them to AI deployment, such as including various efficiency optimizations in the audit trail. It is also unclear how effectively these could be made secure for the present use case.
 
-Redo evaluations in deployment
+Redo evaluations in deployment ^redo-evaluations-deployment
 
 One way for an external auditor to gain confidence that the model they evaluated is the same model that is deployed via a public API is simply to re-run the evaluations during deployment and check if the results match those from testing (or are similar enough, given that inference often uses sampling). This mechanism is less relevant to the international verification context because it relies on public API access, which is somewhat unlikely for frontier models in the international context (these models seem much more likely to only be deployed internally, with publicly available capabilities lagging behind). It is also unclear how effective this would be against adversarial efforts from developers.
 
@@ -1783,7 +1783,7 @@ One way for an external auditor to gain confidence that the model they evaluated
 
 Likely not relevant to the international verification context. One potential application to the international verification context would be to allow an evaluator to query a model that is not generally available externally and treat these queries like other requests. For instance, if an external auditor had access to the accounts of an AI developer employee, they could potentially determine if the inference model being served changes over time by analyzing the model responses.
 
-Secure evaluations
+Secure evaluations ^secure-evaluations
 
 TEEs for evaluation
 
@@ -1884,7 +1884,7 @@ High <1 year
 %% validator-ignore-next-line --code article.block-repeated-nearby --reason intentional-repeat-in-distinct-structured-entries %%
 Monitoring the capability level of internal AI systems, which are only deployed internally and are kept secret, is more difficult than monitoring externally deployed models.
 
-### Other Building Blocks
+### Other Building Blocks ^other-building-blocks
 
 | Building Block                                                                                                        | Mechanism              | Details                                                                                                                                                                                                                                           |
 |-----------------------------------------------------------------------------------------------------------------------|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -2000,7 +2000,7 @@ The tractability of this approach likely varies significantly with AI capability
 **Notes**  
  This is unlikely to be robust to physical attacks on chips (i.e., extraction of chip private key) unless substantial hardening measures are taken. If only pre-specified chips can run inference for a model, it is much easier to locate those chips and thus know where all inference is occurring.
 
-Bottlenecked, distributed inference
+Bottlenecked, distributed inference ^bottlenecked-inference
 
 One party or data center has some of the model weights and another has the other model weights. Both parties are required for inference to take place. A country could have one centralized and internationally monitored data center that performs a small but crucial part of inference computation (such as one layer of a model), ensuring international regulations are followed, but a majority of compute would not be directly monitored. This approach is useful because it reduces the amount of compute that needs to be monitored (i.e., cheaper and easier), and unmonitored compute could be located in secret data centers.
 
@@ -2135,11 +2135,11 @@ Philippe et al. (2019)
 
 This approach is conceptually similar to a prover privately implementing a blockchain (“Blockchain, 2024”) that sequentially includes all the data they may later want to reveal and then being able to selectively reveal the true value of any particular block.
 
-## Elaboration on Particular Mechanisms
+## Elaboration on Particular Mechanisms ^mechanism-elaboration
 
 This section elaborates on a few of the mechanisms described above that benefit from more clarity. These are largely derivative of existing ideas (we do not claim originality), but placing them in the context of international treaties may provide value to some readers.
 
-### Inference Classifiers
+### Inference Classifiers ^inference-classifiers
 
 #### Summary
 
@@ -2165,7 +2165,7 @@ It may be difficult (for political and security reasons) to develop a method for
 
 Such a classifier need not be very compute intensive, especially relative to the models being run. This could likely be done well for <10% of the model inference cost. Classifiers like these are useful for model developers as well, e.g., as part of an AI Control scheme (Clymer et al., 2024; Greenblatt, Shlegeris, et al., 2024), or to monitor for misuse, so there may be efforts to make these classifiers cheap and effective, independent of their use for international verification.
 
-### Shared Model Behavior Specifications: AIs Do Not Violate International Agreements
+### Shared Model Behavior Specifications: AIs Do Not Violate International Agreements ^shared-model-behavior-specifications
 
 #### Summary
 
@@ -2197,7 +2197,7 @@ One issue is that countries may not agree to this specification as there could b
 
 This mechanism does not add inference overhead. There is likely minimal training implementation cost, assuming a behavior specification is used already. This could add substantial complexity to default training behavior objectives due to the goal change problem discussed, but it is unclear.
 
-### Networking Equipment Interconnect Limits
+### Networking Equipment Interconnect Limits ^networking-interconnect-limits
 
 #### Summary
 
@@ -2297,7 +2297,7 @@ Fortunately, there is a large space between these two bounds.
 
 Another key limitation is that this calculation does not deal with distributed training, a topic we discuss in more depth in [a later section](#). Based on that discussion, we make a couple of adjustments.
 
-##### *Adjustments Based on Distributed Training*
+##### *Adjustments Based on Distributed Training* ^distributed-training-adjustments
 
 In a traditional data parallel approach such as that used in the Llama training, gradients need to be aggregated every training step (i.e., every batch), e.g., every 6.2 seconds for the above estimate. In a high-bandwidth setting, this aggregation is relatively fast, e.g., less than 6 seconds. Data parallel training can, in principle, be bottlenecked by the speed at which these gradients can be aggregated, as this time is idle GPU time (i.e., every 6.2 seconds, the GPUs have to wait for the global gradient update before processing the next batch, assuming these aren’t done simultaneously as they sometimes are). In this case, the goal of interconnect limits would be to extend this aggregation delay by sufficiently long, such that training is highly inefficient. Naively, if transferring a copy of gradients took 60 seconds, this would increase the required training time by ~10x compared to near-instantaneous synchronization (from ~6 to ~60 seconds per batch).
 
@@ -2311,7 +2311,7 @@ This limit is intended for demonstration purposes. It does not account for futur
 
 Compute would be unusable if this limit was imposed naively—it would take ~75 days to load the full Llama model into memory! Therefore, these interconnect limits should be implemented with modular networking equipment, such that high bandwidth is available occasionally for large data transfers—e.g., once every 48 hours. We leave those details to future work.
 
-#### *Interconnect Limits and Distributed Training*
+#### *Interconnect Limits and Distributed Training* ^interconnect-distributed-training
 
 We now discuss the vulnerability of this approach to advances in distributed training. Distributed training is a research sub-field with the goal of efficiently training large AI systems across many “islands of compute” (also referred to as: “workers”, “pods”, “nodes”) which have limited connection between them. For instance, the organization Prime Intellect (Prime Intellect Team, 2024) aims to enable training between compute nodes on different continents. Here, we discuss what distributed training means for interconnect bandwidth limits aimed at preventing training. While predicting future advances is difficult, we can examine previous research to obtain rough estimates for how much this might change the interconnect limits necessary. Given our suggested implementation of interconnect limits, the key factor to consider is how much communication each pod requires in a given setup; we assume a central server without strong interconnect limits (e.g., any unmonitored server outside a data center) that stores a central copy of a model, and most processing is occurring in pods which are under a governance regime and have limited interconnect bandwidth.
 
@@ -2337,7 +2337,7 @@ Again, this discussion of specific limits based on existing distributed training
 
 While the above discussion focuses primarily on data parallel training, we also need to discuss forms of parallelism with smaller communication requirements, specifically pipeline parallelism.
 
-### *Pipeline Parallelism*
+### *Pipeline Parallelism* ^pipeline-parallelism
 
 Pipeline parallelism shards a model vertically across different workers, e.g., the first two layers are on one worker, the next two on another worker, etc. So inter-pod communication corresponds to the activations or gradients for each token. As discussed by Erdil & Schneider-Joseph (2024), data parallelism is more effective when network latency is a limitation (due to only needing to communicate twice per batch), whereas pipeline parallelism or tensor parallelism are advantaged when bandwidth is the limitation.
 
@@ -2375,7 +2375,7 @@ There are some costs in hiring physical inspectors. Poorly set limits could make
 
 training if the limits are set in an informed way and adapted to respond to advances in training efficiency. However, it may be necessary to block the generation of images and other high-bandwidth-requiring content, which would be costly; this may be an acceptable cost given the high-stakes nature of the situation.
 
-### Signatures of High-Level Chip Measures
+### Signatures of High-Level Chip Measures ^signatures-high-level-chip-measures
 
 #### Summary
 
@@ -2415,7 +2415,7 @@ of leaking sensitive data. An additional uncertainty is how to respond to the cl
 
 It could be somewhat expensive and take months to years to mass produce the necessary monitoring equipment (e.g., which measures a chip's power draw or communication to other chips), but this likely does not require inventing substantially new technologies. Generally, permitting code access for international verification is extremely costly; in this case such access is temporary, which is a slight improvement due to data privacy, and we are optimistic that inspectors could pose little risk of leaking sensitive information when various precautions are taken.
 
-## Mechanisms Needed Early
+## Mechanisms Needed Early ^mechanisms-needed-early
 
 One way to think about the space of verification mechanisms is to ask: which mechanisms could be quickly implemented if there was substantial political will, and which need substantial work in advance or significant serial time? This section lays out which mechanisms are likely to need substantial work in advance of when they are needed:
 
@@ -2471,7 +2471,7 @@ Investment in AI chips, in general, may have negative downstream consequences, s
 
 Monitoring AI inference is difficult due to the requirement that *all* inference instances be monitored. One promising approach is to contain the weights of an AI system during training and deployment to a small number of physical locations (e.g., the data center it was trained in and maybe a few other data centers). This, in turn, requires extremely strong security around model weights, and this security being verifiable by another party to be secure against insider threats. As discussed by Nevo et al. (2024), model weight security robust against the most capable nation-state actors could take many years, so it is crucial that progress begins early.
 
-### What Compute Needs to Be Monitored?
+### What Compute Needs to Be Monitored? ^compute-to-monitor
 
 A key question for verification regimes is what compute they need to monitor, e.g., only data centers with more than 1,000 H100 equivalents? 10,000? 100,000? While it is infeasible to answer this question conclusively with current information, we aim to describe the key factors in this section.
 
@@ -2485,7 +2485,7 @@ In the future, there are likely to be times when substantial risk arises from in
 
 This report's focus on restricting large pre-training runs reflects that pre-training compute is sometimes a proxy for danger from AI systems, it is a major focus in AI governance research and policy, and it allows for a clear decomposition of the space of verification mechanisms. Pre-training compute is a highly imperfect proxy for risk because risk could arise from other AI activities; this section and report are nevertheless focused primarily on pre-training.
 
-### Algorithmic Progress
+### Algorithmic Progress ^algorithmic-progress
 
 As discussed by Pilz et al. (2024) and Tucker et al. (2020), compute becomes more efficient over time due to improvements in *hardware price performance* (i.e., FLOP purchasable per dollar) and *algorithmic efficiency* (i.e., performance per FLOP, also called “algorithmic progress”). These effects mean that, for a given capability level of an AI system, less hardware is needed to train a model to this capability level over time. The rate of hardware price performance improvement is estimated at ~1.3x per year (Epoch AI, n.d.).
 
@@ -2497,7 +2497,7 @@ There is additionally a “*performance effect*” (Pilz et al., 2024; Tucker et
 
 may continue to have the most capable AI systems (assuming those efficiency gains are broadly available). Therefore, if policy goals are concerned with the highest capabilities at a given point in time, it may be sufficient to focus on actors who direct large amounts of compute.
 
-### Distributed Training
+### Distributed Training ^distributed-training
 
 While algorithmic progress, hardware progress, and performance effects all affect the total amount of compute that may be worrisome, another dimension is how this compute is arranged. Naively, one might expect that compute can be discussed at the data center level, e.g., “Does this data center have enough AI chips to do a large training run?” However, this approach is imprecise because compute which is not geographically close can be pooled to do various AI activities. The field of *distributed training* (Douillard et al., 2024; Jaghouar et al., 2024)—see also “decentralized training” and “federated learning”—is specifically aimed at making it easier to train AI systems across data centers that are not geographically close or which have limited communication between them. Currently, large AI training runs usually occur in one or a small number of data centers (Fist & Datta, 2024): Gemini 1 and 1.5 are trained across multiple data centers (Gemini Team, 2024), the Llama 2 and 3 series of models are trained in one or two data centers (Dubey et al., 2024). Google does not report how many superpods, each with 4,096 chips, are used in that Gemini training, but public estimates place this at 12-19 superpods across an unknown number of data centers (Besiroglu, n.d.).
 
