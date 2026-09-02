@@ -1785,7 +1785,7 @@ Likely not relevant to the international verification context. One potential app
 
 Secure evaluations ^secure-evaluations
 
-TEEs for evaluation
+TEEs for evaluation ^tees-evaluation
 
 On-chip and data center-level security mechanisms allow for secure external evaluations. The model remains with the developer, an inspector can be confident that the evaluations were properly run and not spoofed, and the developer cannot see what evaluations were run.
 
