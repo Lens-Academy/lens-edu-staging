@@ -66,7 +66,7 @@ Which chart is the right one? Well, they're using exactly the same historical da
 
 Growing at a few percent a year is what we're all used to. But in full historical context, growing at a few percent a year is crazy. (It's the part where the blue line goes near-vertical.)
 
-This growth has gone on for longer than any of us can remember, but that isn't very long in the scheme of things - just a couple hundred years, out of thousands of years of human civilization. It's a huge acceleration, and it can't go on all that much longer. (I'll flesh out "it can't go on all that much longer" {--{"author":"Luc's AI","timestamp":1788377504913}@@[below](#why-cant-this-go-on).)--}{++{"author":"Luc's AI","timestamp":1788377504913}@@[[#^why-cant-this-go-on|below]].)++}
+This growth has gone on for longer than any of us can remember, but that isn't very long in the scheme of things - just a couple hundred years, out of thousands of years of human civilization. It's a huge acceleration, and it can't go on all that much longer. (I'll flesh out "it can't go on all that much longer" [[#^why-cant-this-go-on|below]].)
 
 The first chart suggests regularity and predictability. The second suggests volatility and dramatically different possible futures.
 
