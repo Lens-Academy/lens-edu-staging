@@ -132,7 +132,7 @@ On the other hand:
 
 There are likely many other relevant considerations. Our guess is that natural pandemics are becoming more frequent, but also much less damaging — such that overall danger will be lower. [^cite-11]. However, there are still open questions.
 
-### Engineered pathogens could be even more dangerous
+### Engineered pathogens could be even more dangerous ^engineered-pathogens-dangerous
 
 Even if natural pandemic risks are declining, the risks from engineered pathogens are almost certainly growing.
 
@@ -223,7 +223,7 @@ We guess that, all things considered, the former considerations are the more sig
 
 This image is borrowed from [Claire Zabel’s talk on biosecurity](https://www.effectivealtruism.org/articles/biosecurity-as-an-ea-cause-area-claire-zabel/).[^note-19]
 
-### Overall, the risk seems substantial
+### Overall, the risk seems substantial ^overall-risk-substantial
 
 We’ve seen a variety of estimates regarding the chances of an existential biological catastrophe, including the likelihood of an engineered pandemic.[^cite-20] Perhaps the best estimates come from the [Existential Risk Persuasion Tournament](https://forecastingresearch.org/xpt) (XPT).
 
@@ -254,7 +254,7 @@ But biosecurity and catastrophic risk reduction could be highly impactful for pe
 
 There is also substantial overlap between biosecurity and [other problems](https://80000hours.org/problem-profiles/), such as [global health](https://80000hours.org/problem-profiles/health-in-poor-countries/) (e.g. the [Global Health Security Agenda](https://ghsagenda.org/)), [factory farming](https://80000hours.org/problem-profiles/factory-farming/) (e.g. ‘ [One Health](https://web.archive.org/web/20200305193042/https://www.who.int/features/qa/one-health/en/) ‘ initiatives), and [AI](https://80000hours.org/problem-profiles/artificial-intelligence/).
 
-### How do catastrophic biorisks compare to AI risk?
+### How do catastrophic biorisks compare to AI risk? ^catastrophic-biorisks-vs-ai-risk
 
 Many of those who study existential risks believe that the greatest risks come from biology and [AI](https://80000hours.org/problem-profiles/artificial-intelligence/). Our guess is that threats from catastrophic pandemics are somewhat less pressing than threats stemming from advanced AI systems.
 
@@ -280,7 +280,7 @@ Finally, a note about how these issues relate:
 2.  **Biorisk could leave us more vulnerable to [power-seeking AI systems](https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/).** An engineered pathogen could be designed and deployed by an AI with relatively few resources (compared to what it would need to, say, launch a nuclear missile). As such, an AI system that escapes human control could use pathogens as a threat to negotiate with humanity, or as weapons of war to weaken human civilisation and seize power. (This idea [appears in AI 2027](https://ai-2027.com/race#:~:text=Eventually%20it%20finds%20the%20remaining%20humans%20too%20much%20of%20an%20impediment), an influential essay showing how an AI takeover might unfold.)
 3.  **There is policy overlap between reducing biorisk and AI risk.** Both require balancing the risk and reward of emerging technology, and the [policy skills](https://80000hours.org/skills/political-bureaucratic/) needed to succeed in these areas are similar. You could pursue a career to reduce risks in both areas at once.
 
-## There are clear actions we can take to reduce these risks
+## There are clear actions we can take to reduce these risks ^actions-reduce-biorisk
 
 The broader field of biosecurity and pandemic preparedness has made major contributions to reducing catastrophic risks. Many of the best ways to prepare for more probable but less severe outbreaks will also reduce the worst risks.
 
@@ -418,7 +418,7 @@ We’ve helped people formulate plans, find resources, and put them in touch wit
 -   Reports from Blueprint Biosecurity: [Blueprint for far-UVC](https://blueprintbiosecurity.org/works/blueprint-for-far-uvc/) and [Towards a theory of pandemic-proof PPE](https://blueprintbiosecurity.org/works/towards-a-theory-of-pandemic-proof-ppe/)
 -   [The Biodefense budget breakdown](https://councilonstrategicrisks.org/2025/12/09/us-biodefense-budget-breakdown-fiscal-year-2026-update/) by the Council on Strategic Risks
 
-#### Other resources
+#### Other resources ^other-resources
 
 -   For sceptical perspectives on the case for extreme risks from engineered pandemics, you can read [a series of posts](https://reflectivealtruism.com/category/exaggerating-the-risks/biorisk/) by David Thorstad, or the more recent [Omniscience is not omnipotence](https://eurydicelives.substack.com/p/omniscience-is-not-omnipotence).
 -   [The International Biosecurity and Biosafety Initiative (IBBIS)](https://ibbis.bio/) works to strengthen international biosecurity norms, and develop tools and incentives to uphold them.
@@ -438,7 +438,7 @@ We’ve helped people formulate plans, find resources, and put them in touch wit
 -   [US biosecurity policy resources, think tanks, and fellowships](https://emergingtechpolicy.org/areas/biosecurity-policy/?utm_source=80000hours.org&utm_medium=problem-profiles-preventing-catastrophic-pandemics)
 -   The [Engineering Biology Research Consortium](https://ebrc.org/resources/) maintains a list of [biosecurity opportunities](https://ebrc.org/resources/biosecurity-opportunities-nexus/) and provides resources and programs on bioengineering work more broadly.
 
-### Podcasts
+### Podcasts ^podcasts
 
 -   Podcast: [James Smith on why he quit everything to work on a biothreat nobody had heard of](https://80000hours.org/podcast/episodes/james-smith-mirror-biology-catastrophe/)
 -   Podcast: [Andrew Snyder-Beattie on the low-tech plan to patch humanity’s greatest weakness: engineered biological catastrophes](https://80000hours.org/podcast/episodes/andrew-snyder-beattie-four-pillars-biosecurity-pandemic/)

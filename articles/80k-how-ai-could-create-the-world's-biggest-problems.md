@@ -183,7 +183,7 @@ Like other technological breakthroughs, it could enable society to produce far m
 
 This could mean the transformation brought about by AI is _extremely_ rapid, and more dramatic than anything we’ve seen before.
 
-### 3\. This transformation could be extremely rapid and dramatic
+### 3\. This transformation could be extremely rapid and dramatic ^transformation-rapid-dramatic
 
 So what could happen as AIs automate more and more of the economy?
 
@@ -298,7 +298,7 @@ We’ve written a series of articles explaining the AI-related issues we think p
 
     [Preventing catastrophic pandemics](https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/)
 :::
-#### The speed of this transition could matter a lot
+#### The speed of this transition could matter a lot ^transition-speed
 
 There are two ways speed can matter critically to this transition:
 
@@ -315,7 +315,7 @@ There is lively debate over how soon advanced AI systems might arrive and how qu
 
 This means we can’t just ignore the risks or delay acting on them. We need to find robust solutions before it’s too late.
 
-### 5\. Work on these problems is tractable but neglected
+### 5\. Work on these problems is tractable but neglected ^work-tractable-neglected
 
 We’ve been helping people who want to work on this problem for over a decade. In this time, the field has grown substantially.
 
