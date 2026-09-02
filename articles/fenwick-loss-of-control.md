@@ -617,6 +617,7 @@ For example, you could:
 
 For advice on how you can use your career to help the future of AI go well _more broadly_, take a look at our [summary](https://80000hours.org/agi/guide/summary/), which includes tips for gaining the skills that are most in demand and choosing between different career paths.
 
+:::hide
 You can also see our [list of organisations](https://jobs.80000hours.org/organisations?refinementList[problem_areas][0]=AI+safety+%26+policy&refinementList[problem_areas][1]=Biosecurity+%26+pandemic+preparedness&refinementList[problem_areas][1]=AI+technical+safety&refinementList[problem_areas][2]=China-Western+relations&refinementList[problem_areas][2]=AI+safety+%26+policy&refinementList[problem_areas][3]=Forecastinghttps://jobs.80000hours.org/organisations?refinementList[problem_areas][0]=AI+policy+%26+governance&refinementList[problem_areas][3]=Forecasting&refinementList[problem_areas][4]=China-Western+relations) doing high impact work to address AI risks.
 
 ### Want one-on-one advice on pursuing this path?
