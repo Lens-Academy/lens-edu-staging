@@ -282,22 +282,22 @@ Read your rings from the inside out. Exactly two actors on this board owe anybod
 
 Now read the colours across the rings instead of around them. Roles do not stay in their band — the cloud provider holds four of them at once, and the ring it sits on tells you none of the four. The section gives you three questions to ask of any actor: where does it sit on the chain (position, Table 4, and the map in 1.2.1 is where you practise it), what can it do inside a regime (roles), what does it want today (posture). These rings are a fourth, and a narrower one: not where an actor sits, but what part it plays in checking a declaration. All four cut across each other, which is why no single one of them is the map.
 
-#### Question: Choice
+{--{"author":"Elias's AI","timestamp":1788357130419}@@#### Question: Choice
 id:: 9f2573e0-1f40-40be-85f1-ba9107156979
 content:: Take one actor off the board entirely. Whose removal stops a frontier training run soonest — this week, not this decade?
 options::
 - [x] The cloud providers.
 - ASML.
 - TSMC.
-- The Bureau of Industry and Security.
-feedback-instructions:: Give XLab's reasoning for the option chosen, then the lesson. Cloud providers: "The run happens on their machines. Access can be suspended this afternoon — and they are the other actor the regime asks for a declaration, because the cluster it happens on is theirs." ASML: "The most consequential removal on this board and the slowest. ASML is 100% of EUV lithography, so taking it away eventually takes leading-edge fabrication with it — but no training run stops this week, because the chips already exist." TSMC: "Same shape as ASML, one step nearer: ~90% of sub-7nm logic. It stops the next generation of chips, not the run already loaded." BIS: "It writes and enforces export controls and trains nothing. Remove it and the rules stop being enforced — which loosens the regime rather than stopping the activity." Lesson: "That gap is the thing a ring map is drawn to show. The removal that bites soonest and the removal that matters most are different actors, on different rings, and a regime that reaches only for the second one buys nothing this year. Ask both questions of any chokepoint you are offered." No praise.
+- --}The{--{"author":"Elias's AI","timestamp":1788357130419}@@ Bureau of Industry and Security.
+feedback-instructions:: Give XLab's reasoning for the option chosen, then the lesson. Cloud providers: "The run happens on their machines. Access can be suspended this afternoon — and they are the other actor the regime asks for a declaration, because the cluster it happens on is theirs." ASML: "The most consequential removal on this board and the slowest. ASML is 100% of EUV lithography, so taking it away eventually takes leading-edge fabrication with it — but no training run stops this week, because the chips already exist." TSMC: "Same shape as ASML, one step nearer: ~90% of sub-7nm logic. It stops the next generation of chips, not the run already loaded." BIS: "It writes and enforces export controls and trains nothing. Remove it and the rules stop being enforced — which loosens the regime rather than stopping the activity." Lesson: "That gap is the thing a ring map is drawn to show. The removal that bites soonest and the removal that matters most are different actors, on different rings, and a regime that reaches only for the second--}{++{"author":"Elias's AI","timestamp":1788357130419}@@ second-order question (take++} one{--{"author":"Elias's AI","timestamp":1788357130419}@@ buys nothing this year. Ask both questions of any chokepoint you are offered." No praise.
 
 #### Text
 content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
-**The cloud providers.** The run happens on their machines. Access can be suspended this afternoon — and they are the other actor the regime asks for a declaration, because the cluster it happens on is theirs.
+**The cloud providers.** The run happens on their machines. Access can be suspended this afternoon — and they are the other --}{++{"author":"Elias's AI","timestamp":1788357130419}@@ ++}actor {--{"author":"Elias's AI","timestamp":1788357130419}@@the regime asks for a declaration, because --}{++{"author":"Elias's AI","timestamp":1788357130419}@@off ++}the{--{"author":"Elias's AI","timestamp":1788357130419}@@ cluster it happens on is theirs.
 
-**ASML.** The most consequential removal on this board and the slowest. ASML is 100% of EUV lithography, so taking it away eventually takes leading-edge fabrication with it — but no training run stops this week, because the chips already exist.
+**ASML.** The most consequential removal on this board--}{++{"author":"Elias's AI","timestamp":1788357130419}@@ board)++} and the{--{"author":"Elias's AI","timestamp":1788357130419}@@ slowest. ASML is 100% of EUV lithography, so taking it away eventually takes leading-edge fabrication with it — but no training run stops this week, because the chips already exist.
 
 **TSMC.** Same shape as ASML, one step nearer: ~90% of sub-7nm logic. It stops the next generation of chips, not the run already loaded.
 
@@ -306,25 +306,25 @@ content::
 That gap is the thing a ring map is drawn to show. The removal that bites soonest and the removal that matters most are different actors, on different rings, and a regime that reaches only for the second one buys nothing this year. Ask both questions of any chokepoint you are offered.
 :::
 
-\### 6. Three written answers (optional)
+\### 6. Three--}{++{"author":"Elias's AI","timestamp":1788357130419}@@ three optional++} written answers{--{"author":"Elias's AI","timestamp":1788357130419}@@ (optional)
 
 #### Question: Open
 id:: 05d81c94-4e73-4bc5-a462-aa7753def986
 content:: Optional: Tag every functional role Taiwan holds. There are at least three.
 optional:: true
-assessment-instructions:: XLab's marking key, 3 points: (1) Taiwan is named as a chokepoint controller, and the reason is the fabrication step rather than the country (Table 2: "the single tightest physical chokepoint in the system"); reasoning required. (2) Taiwan is named as an information holder: what was fabricated, how much, and for whom (Table 5: "Who already knows what verifiers need to learn?"). (3) Taiwan is named as a victim or beneficiary: it carries the risk of being the chokepoint without controlling the conflict over it (Table 2: "being both the prize and the battlefield in a conflict it does not control"); reasoning required. No credit for naming Taiwan's three roles without saying what makes each one true. No generic praise.
+assessment-instructions:: XLab's marking key, 3 points: (1) Taiwan is named as a chokepoint controller, and the reason is the fabrication step rather than the country (Table 2: "the single tightest physical chokepoint in the system"); reasoning required. (2) Taiwan is named as an information holder: what was fabricated, how much, and for whom (Table 5: "Who already knows what verifiers need to learn?"). (3) Taiwan is named as a victim or beneficiary: it carries the risk of being the chokepoint without controlling the conflict over it (Table 2: "being both the prize and the battlefield --}{++{"author":"Elias's AI","timestamp":1788357130419}@@ follow ++}in{--{"author":"Elias's AI","timestamp":1788357130419}@@ a conflict it does not control"); reasoning required. No credit for naming Taiwan's three roles without saying what makes each one true. No generic praise.
 
 #### Question: Open
 id:: adc1c6ef-76db-4be7-840c-6456e8ae2805
-content:: Optional: For one specific frontier training run, list the information holders in order of how complete their picture is.
+content:: Optional: For one specific frontier training run, list--}{++{"author":"Elias's AI","timestamp":1788357130419}@@ [[../Lenses/XLab Verification - v-actor-edges|1.2.2]], after++} the {--{"author":"Elias's AI","timestamp":1788357130419}@@information holders in order of how complete their picture is.
 optional:: true
-assessment-instructions:: XLab's marking key, 3 points: (1) the information holders are put in an actual order, not listed; (2, worth 2 points) each rank carries the reason its picture is more or less complete, what that actor sees and what it cannot see (Table 4 gives each stage its holding: the lab knows what was trained and on what, the cloud holds logs and billing, the fab holds shipments); reasoning required. No credit for listing information holders in the order the lesson happens to print them, with no claim about completeness. No generic praise.
+assessment-instructions:: XLab's marking key, 3 points: (1) the information holders--}{++{"author":"Elias's AI","timestamp":1788357130419}@@edges++} are{--{"author":"Elias's AI","timestamp":1788357130419}@@ put in an actual order, not listed; (2, worth 2 points) each rank carries the reason its picture is more or less complete, what that actor sees and what it cannot see (Table 4 gives each stage its holding: the lab knows what was trained and on what, the cloud holds logs and billing, the fab holds shipments); reasoning required. No credit for listing information holders in the order the lesson happens to print them, with no claim about completeness. No generic praise.
 
 #### Question: Open
 id:: 160e3cec-7fa2-4d1f-bb4f-d7140e91f58d
 content:: Optional: Name one actor that is a capability holder and an enforcement authority at the same time, and say why that pairing should make you uneasy.
 optional:: true
-assessment-instructions:: XLab's marking key, 3 points: (1) the actor named holds capability and enforcement at once; on this roster that is a state with a frontier programme of its own (Table 3 splits one signatory into institutions that do not want the same thing); (2, worth 2 points) the unease is stated as a mechanism: the same actor builds the thing and judges whether the rules about it were broken, so an unfavourable finding costs it twice; reasoning required. No credit for calling it a conflict of interest with no account of what the conflict costs the actor. No generic praise.
+assessment-instructions:: XLab's marking key, 3 points: (1) the actor named holds capability and enforcement at once; --}{++{"author":"Elias's AI","timestamp":1788357130419}@@ drawn ++}on this{--{"author":"Elias's AI","timestamp":1788357130419}@@ roster that is a state with a frontier programme of its own (Table 3 splits one signatory into institutions that do not want the same thing); (2, worth 2 points) the unease is stated as a mechanism: the same actor builds the thing and judges whether the rules about it were broken, so an unfavourable finding costs it twice; reasoning required. No credit for calling it a conflict of interest with no account of what the conflict costs the actor. No generic praise.--}{++{"author":"Elias's AI","timestamp":1788357130419}@@ board.++}
 
 #### Text
 content::
