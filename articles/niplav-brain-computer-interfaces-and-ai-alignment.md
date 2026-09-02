@@ -56,9 +56,9 @@ _– [Tim Urban](https://waitbutwhy.com/), “[Neuralink and the Brain’s Magic
 
 However, this paragraph is not wholly clear on how this merging with AI systems is supposed to work.
 
-It could be interpreted as describing [input of cognition](#input-of-cognition) from humans into AI systems and vice versa, or simply non-AI [augmentation of human cognition](#improving-human-cognition).
+It could be interpreted as describing [[#^input-of-cognition|input of cognition]] from humans into AI systems and vice versa, or simply non-AI [[#^improving-human-cognition|augmentation of human cognition]].
 
-Assuming the interaction with an unaligned AI system, these would enable [easier neural takeover](#direct-neural-takeover-made-easy) or at least induce the removal of humans from the [centaur](https://en.wikipedia.org/wik/Advanced_chess) [due to convergent instrumental strategies](#removing-merged-humans-is-a-convergent-instrumenta)—well known failure modes in cases where [merging is just faster interaction](#merging-is-just-faster-interaction) between humans and AI systems.
+Assuming the interaction with an unaligned AI system, these would enable [[#^direct-neural-takeover|easier neural takeover]] or at least induce the removal of humans from the [centaur](https://en.wikipedia.org/wik/Advanced_chess) [[#^removing-merged-humans|due to convergent instrumental strategies]]—well known failure modes in cases where [[#^merging-is-faster-interaction|merging is just faster interaction]] between humans and AI systems.
 
 The comparison with the limbic system is leaky, because the limbic system is not best modeled as a more intelligent optimizer than the cortex with different goals.
 
@@ -70,7 +70,7 @@ A critical analysis of BCIs is made in [Jack 2020](https://forum.effectivealtrui
 
 ## Arguments For the Utility of Brain-Computer Interfaces in AI Alignment
 
-### Improving Human Cognition
+### Improving Human Cognition ^improving-human-cognition
 
 Just as writing or computers have improved the quality and speed of human cognition, BCIs could do the same, on a similar (or larger) scale. These advantages could arise out of several different advantages of BCIs over traditional perception:
 
@@ -116,7 +116,7 @@ If one were able to find parts of the human brain that hold the human utility fu
 
 Additionally, a human connected to an AI system via a BCI would have an easier time evaluating the cognition of [approval-directed agents](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/7Hr8t6xwuuxBTqADK), since they might be able to follow he cognition of the AI system in real-time, and spot undesirable thought processes (like e.g. attempts at [cognitive steganography](https://www.lesswrong.com/w/cognitive_steganography)).
 
-#### Input of Cognition
+#### Input of Cognition ^input-of-cognition
 
 Related to the aspect of augmenting humans using BCIs by outsourcing parts of cognition to computers, the inverse is also possible: identifying modules of AI systems that are most likely to be misaligned to humans or produce such misalignment, and replacing them with human cognition.
 
@@ -142,7 +142,7 @@ There seems to be a spectrum from biological humans to human imitations, roughly
 
 _– [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom), “Superintelligence: Paths, Dangers, Strategies” p. 143, 2014_
 
-### Direct Neural Takeover Made Easy
+### Direct Neural Takeover Made Easy ^direct-neural-takeover
 
 A common observation about AI alignment is that initially AI systems would be confined to computers, hopefully only with indirect contact to the outside world (i.e. no access to roboters, nanotechnology or factories). While there are some responses to these arguments (see i.e. [Yudkowsky 2016a](https://www.lesswrong.com/w/user_manipulation), [Yudkowsky 2016b](https://www.lesswrong.com/w/30b), \[Bostrom 2014 pp. 117-122\]("Superintelligence: Paths, Dangers, Strategies")), the proposal of connecting humans to potentially unaligned AI systems offers these counterarguments more weight.
 
@@ -162,7 +162,7 @@ If work on BCIs is net-positive in expectation for making AI go well, it might b
 
 For example, one can posit [neural network interpretability](https://www.lesswrong.com/posts/X2i9dQQK3gETCyqh2) as the [GiveDirectly](https://www.givedirectly.org/) of AI alignment: reasonably tractable, likely helpful in a large class of scenarios, with basically unlimited scaling and only slowly diminishing returns. And just as any new EA cause area must pass the first test of being more promising than GiveDirectly, so every alignment approach could be viewed as a competitor to interpretability work. Arguably, work on BCIs does not cross that threshold.
 
-### “Merging” is Just Faster Interaction
+### “Merging” is Just Faster Interaction ^merging-is-faster-interaction
 
 Most proposals of “merging” AI systems and humans using BCIs are proposals of speeding up the interaction betwen humans and computers (and possibly increasing the amount of information that humans can process): A human typing at a keyboard can likely perform all operations on the computer that a human connected to the computer via a BCI can, such as giving feedback in a [CIRL game](https://www.lesswrong.com/posts/rpRsksjrBXEDJuHHy/doc/bcis_and_alignment/cooperative_inverse_reinforcement_learning_hadfield_mendell_et_al_2016.pdf), interpreting a neural network, analysing the policy of a reinforcement learner etc. As such, BCIs offer no qualitatively new strategies for aligning AI systems.
 
@@ -178,13 +178,13 @@ When infrahuman AI systems are “merged” with humans in a way that is nontriv
 
 These bottlenecks might arise due to different speeds of cognition and increasingly alien abstractions by the AI systems that need to be translated into human concepts.
 
-### “Merging” AI Systems with Humans is Underspecified
+### “Merging” AI Systems with Humans is Underspecified ^merging-ai-with-humans
 
-To my knowledge, there is no publicly written up explanation of what it would mean for humans to “merge” with AI systems. I explore some of the possibilities in [this section](#merging-ai-systems-with-humans), but these mostly boil down faster interaction.
+To my knowledge, there is no publicly written up explanation of what it would mean for humans to “merge” with AI systems. I explore some of the possibilities in [[#^merging-ai-with-humans|this section]], but these mostly boil down faster interaction.
 
 It seems worrying that a complete company has been built on a vision that has no clearly articulated path to success.
 
-#### Removing Merged Humans is a Convergent Instrumental Strategy for AI Systems
+#### Removing Merged Humans is a Convergent Instrumental Strategy for AI Systems ^removing-merged-humans
 
 If a human being is merged with an unaligned AI system, the unaligned AI system has a [convergent instrumental drive](https://www.lesswrong.com/w/convergent_self_modification) to remove the (to it) unaligned human: If the human can interfere with the AI systems' actions or goals or policies, the AI system will not be able to fully maximize its utility. Therefore, for merging to be helpful with AI alignment, the AI system must already be aligned, or [not a maximizer](https://www.lesswrong.com/w/otherizer), the exact formulation of which is currently an open problem.
 
