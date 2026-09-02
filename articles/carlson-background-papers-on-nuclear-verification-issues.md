@@ -240,25 +240,25 @@ Iraq
 
 The DPRK case served to demonstrate the effectiveness of new analytical techniques, so from a technical perspective can be regarded as a success, though from a broader perspective the DPRK nuclear issue remains unresolved.
 
-As outlined below, the discovery of  
+As outlined below, the discovery of{--{"author":"Elias's AI","timestamp":1788357559019}@@  
 Iraq  
-'s clandestine nuclear program led to an extensive program to strengthen IAEA safeguards, which has been underway since the early 1990s. The factors mentioned above are being addressed by this program.
+'s --}{++{"author":"Elias's AI","timestamp":1788357559019}@@ Iraq's ++}clandestine nuclear program led to an extensive program to strengthen IAEA safeguards, which has been underway since the early 1990s. The factors mentioned above are being addressed by this program.
 
-It might be asked, if efforts to strengthen safeguards began in the 1990s, how was it that similar failures came to light a decade later, in the cases of  
-Iran  
-and Libya? Mention might also be made of undeclared nuclear activities discovered in the ROK and  
+It might be asked, if efforts to strengthen safeguards began in the 1990s, how was it that similar failures came to light a decade later, in the cases of{--{"author":"Elias's AI","timestamp":1788357559019}@@  
+--}{++{"author":"Elias's AI","timestamp":1788357559019}@@ ++}Iran{--{"author":"Elias's AI","timestamp":1788357559019}@@  
+--}{++{"author":"Elias's AI","timestamp":1788357559019}@@ ++}and Libya? Mention might also be made of undeclared nuclear activities discovered in the ROK and{--{"author":"Elias's AI","timestamp":1788357559019}@@  
 Egypt  
-, which the IAEA Board of Governors considered in late 2004 and early 2005 but determined did not constitute non-compliance.
+, --}{++{"author":"Elias's AI","timestamp":1788357559019}@@ Egypt, ++}which the IAEA Board of Governors considered in late 2004 and early 2005 but determined did not constitute non-compliance.
 
-These cases show that the establishment of new detection techniques takes some time, and particularly that restrictions on inspector access continue to be a substantial impediment to effective safeguards in those states that have not concluded an **additional protocol** (see below). In the case of the ROK, environmental sampling revealed indicators of undeclared uranium enrichment and plutonium separation experiments, but these could not be fully investigated until the ROK's additional protocol came into effect. In the case of  
+These cases show that the establishment of new detection techniques takes some time, and particularly that restrictions on inspector access continue to be a substantial impediment to effective safeguards in those states that have not concluded an **additional protocol** (see below). In the case of the ROK, environmental sampling revealed indicators of undeclared uranium enrichment and plutonium separation experiments, but these could not be fully investigated until the ROK's additional protocol came into effect. In the case of{--{"author":"Elias's AI","timestamp":1788357559019}@@  
 Egypt  
-, undeclared activities were first revealed through the IAEA's information collection and analysis activities. Although regrettably  
-Egypt  
-refuses to conclude an additional protocol, Egyptian authorities cooperated with the IAEA in resolving the failures once they were detected.
+, --}{++{"author":"Elias's AI","timestamp":1788357559019}@@ Egypt, ++}undeclared activities were first revealed through the IAEA's information collection and analysis activities. Although regrettably{--{"author":"Elias's AI","timestamp":1788357559019}@@  
+--}{++{"author":"Elias's AI","timestamp":1788357559019}@@ ++}Egypt{--{"author":"Elias's AI","timestamp":1788357559019}@@  
+--}{++{"author":"Elias's AI","timestamp":1788357559019}@@ ++}refuses to conclude an additional protocol, Egyptian authorities cooperated with the IAEA in resolving the failures once they were detected.
 
 #### 5.5. Strengthening the safeguards system
 
-The traditional safeguards system developed for the NPT was primarily focused on verifying declared nuclear materials and activities. It was assumed that development of fuel cycle capabilities independent of declared facilities would be beyond the resources of most states, and in any event would be readily detectable, and therefore if proliferation occurred it was likely to involve diversion of nuclear material from declared facilities. The discoveries made about Iraq 's clandestine enrichment program demonstrated that these assumptions were no longer valid.
+The traditional safeguards system developed for the NPT was primarily focused on verifying declared nuclear materials and activities. It was assumed that development of fuel cycle capabilities independent of declared facilities would be beyond the resources of most states, and in any event would be readily detectable, and therefore if proliferation occurred it was likely to involve diversion of nuclear material from declared facilities. The discoveries made about {--{"author":"Elias's AI","timestamp":1788357565704}@@Iraq 's--}{++{"author":"Elias's AI","timestamp":1788357565704}@@Iraq's++} clandestine enrichment program demonstrated that these assumptions were no longer valid.
 
 The program to strengthen safeguards is focusing particularly on establishing the technical capabilities and legal authority necessary for detection of undeclared nuclear activities. Central to these efforts is the effective use of information - involving collection and analysis of information that can enhance the IAEA's knowledge and understanding of nuclear programs - and providing more extensive rights of access to nuclear and nuclear-related locations, including for the resolution of questions arising from information analysis.
 
@@ -286,11 +286,11 @@ An important measure to counter undeclared activities at declared sites has been
 
 Clearly detecting undeclared nuclear activities at undeclared sites is more difficult - this is the greatest challenge currently facing safeguards. While it is possible indicators of undeclared nuclear activities could be detected through non-location-specific monitoring operations - such as wide area environmental monitoring (currently not considered sufficiently proven for deployment by the IAEA), or environmental analysis at a declared site fortuitously detecting emissions from another, undeclared, site - the fundamental problem here is identification of locations for investigation. Wider access rights are of limited practical value without leads on where to seek access. This requires information analysis - and is particularly dependent on information from states, whose information collection and analysis capabilities (including use of satellites and intelligence activities) are generally far greater than those of the IAEA.
 
-The importance of information broader than that available from traditional safeguards activities can be illustrated by the Iranian and Libyan cases. In the case of Iran  
-, there were long-running suspicions but, until relatively recently, no firm evidence. The extent of Iran  
-'s clandestine nuclear program started to be revealed after an Iranian dissident group identified specific locations that the IAEA was then able to ask to investigate. In the case of  
+The importance of information broader than that available from traditional safeguards activities can be illustrated by the Iranian and Libyan cases. In the case of {--{"author":"Elias's AI","timestamp":1788357563544}@@Iran  
+,--}{++{"author":"Elias's AI","timestamp":1788357563544}@@Iran,++} there were long-running suspicions but, until relatively recently, no firm evidence. The extent of {--{"author":"Elias's AI","timestamp":1788357563544}@@Iran  
+'s--}{++{"author":"Elias's AI","timestamp":1788357563544}@@Iran's++} clandestine nuclear program started to be revealed after an Iranian dissident group identified specific locations that the IAEA was then able to ask to investigate. In the case of{--{"author":"Elias's AI","timestamp":1788357563544}@@  
 Libya  
-, intelligence information enabled the interception of a shipment of centrifuge components bound for Libya. This led to the unraveling of an international illicit nuclear supply network, organized by the Pakistani AQ Khan, which was providing Libya with an entire centrifuge enrichment plant on a turn-key basis.
+, --}{++{"author":"Elias's AI","timestamp":1788357563544}@@ Libya, ++}intelligence information enabled the interception of a shipment of centrifuge components bound for Libya. This led to the unraveling of an international illicit nuclear supply network, organized by the Pakistani AQ Khan, which was providing Libya with an entire centrifuge enrichment plant on a turn-key basis.
 
 While states are an important source of information, it is also important that information available within the IAEA is used effectively. For example, it was disturbing to find that Libya 's early work on uranium conversion and other areas relevant to the nuclear fuel cycle had been assisted under the IAEA's Technical Cooperation Program. There was no process for safeguards inspectors to follow up on the results of such assistance. This is an area that requires further attention.
 
