@@ -26,7 +26,7 @@ Table 1.  The incentive vocabulary
 | --- | --- | --- |
 | Comply | Follow the agreement as written. | A lab that reports its large training runs accurately and on time. |
 | Defect | Covertly violate for advantage. | A state running a hidden cluster while its diplomats reaffirm the pause. |
-| Hide | Obscure assets or activities from view, whether or not any rule is being broken. | A firm treating its chip inventory as a trade secret. |
+| Hide | Obscure assets or activities from view, whether or not {--{"author":"Elias's AI","timestamp":1788357089916}@@any--}{++{"author":"Elias's AI","timestamp":1788357089916}@@a++} rule is being broken. | A firm treating its chip inventory as a trade secret. |
 | Exaggerate | Overstate compliance, safety, or capability. | Safety-washing by a lab; capability bluffing by a state. |
 | Free-ride | Enjoy the stability produced by others’ restraint without bearing its costs. | A state that signs nothing and benefits anyway. |
 
@@ -98,15 +98,17 @@ Table 4.  Private actors, upstream to downstream
 
 Take two things from this table.
 
-Counts:
+{--{"author":"Elias's AI","timestamp":1788357092539}@@Counts:--}{++{"author":"Elias's AI","timestamp":1788357092539}@@First, counts:++}
 
 - One EUV maker.
 - A handful of leading-edge fabs.
 - A few consequential chip designers.
 - Five or six hyperscale clouds.
 - A few dozen labs that matter.
-- Millions of deployers.
-- The chain narrows to almost nothing at the top and fans out to everything at the bottom. Verification has something to grab exactly where the count is small, which is why so many of the mechanisms in Module 2 bite upstream. Hold that thought; section [[../Lenses/XLab Verification - v-scoping-upstream-downstream|1.3]] develops it properly.
+- Millions of deployers.{--{"author":"Elias's AI","timestamp":1788357092539}@@
+- --}{++{"author":"Elias's AI","timestamp":1788357092539}@@
+
+++}The chain narrows to almost nothing at the top and fans out to everything at the bottom. Verification has something to grab exactly where the count is small, which is why so many of the mechanisms in Module 2 bite upstream. Hold that thought; section [[../Lenses/XLab Verification - v-scoping-upstream-downstream|1.3]] develops it properly.
 
 Second, look at the labs’ row: A frontier lab can comply, publishing a safety framework and reporting under SB 53. It can hide, treating training details as trade secrets. It can exaggerate, describing its own precautions in the most flattering light, which is what critics call safety-washing. And it can free-ride on rivals’ restraint. Your job in verification is to price these different behaviors and balance their relevant incentives.
 
@@ -142,7 +144,7 @@ Or try Taiwan. A chokepoint controller of the first rank, and simultaneously the
 
 You now have three questions to ask of any actor you meet in a proposal, a news story, or an exercise, for the rest of this course. Where does it sit on the chain? That is position: Table 4. What can it do inside a regime? That is roles: Table 5. What does it want right now? That is posture: Table 1. Ask them in that order and most verification claims come apart usefully in your hands. “The cloud providers will report suspicious training runs” stops being a reassuring sentence and becomes three checkable ones: they sit mid-chain where visibility is high; they hold the logs; and they will report exactly to the degree that reporting costs less than not reporting.
 
-\## The Actor Map Workshop (18–22 min)
+\## The Actor Map Workshop{--{"author":"Elias's AI","timestamp":1788357088004}@@ (18–22 min)--}
 
 **The brief.** Suppose the United States and China sign an agreement tomorrow: no training runs above some compute threshold for three months. The section asked who has to change their behavior on Wednesday morning. The map asks the question after it: when the three months are up, who could show that they did, and who could show that somebody did not?
 
