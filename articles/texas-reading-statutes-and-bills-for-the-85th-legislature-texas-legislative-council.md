@@ -128,7 +128,7 @@ Subsequent additions to the law were incorporated into the organization establis
 
 end of article designations for new laws relating to the same subject matter. Eventually, the statutes became confusing in their numbering and organization.
 
-**Session Laws.** The above two organizational schemes include the cumulative body of law up to a point in time. In contrast, session laws are the compilation of the laws enacted during a particular legislative session. Bills that are passed during each legislative session and not vetoed by the governor are assigned a session law chapter number by the secretary of state that corresponds with the order in which the enacted bill is filed with the secretary of state. This chapter designation is often used to identify a specific bill from a specific session, such as [Chapter 981 \(H.B. 1125\), Acts of the 74th Legislature, Regular Session, {--{"author":"Luc's AI","timestamp":1788381637591}@@1995](#).--}{++{"author":"Luc's AI","timestamp":1788381637591}@@1995](http://www.lrl.state.tx.us/scanned/sessionLaws/74-0/HB_1125_CH_981.pdf).++} Bills from each legislative session are compiled, organized by chapter number, published, and bound as the General and Special Laws, for that session.
+**Session Laws.** The above two organizational schemes include the cumulative body of law up to a point in time. In contrast, session laws are the compilation of the laws enacted during a particular legislative session. Bills that are passed during each legislative session and not vetoed by the governor are assigned a session law chapter number by the secretary of state that corresponds with the order in which the enacted bill is filed with the secretary of state. This chapter designation is often used to identify a specific bill from a specific session, such as [Chapter 981 \(H.B. 1125\), Acts of the 74th Legislature, Regular Session, 1995](http://www.lrl.state.tx.us/scanned/sessionLaws/74-0/HB_1125_CH_981.pdf). Bills from each legislative session are compiled, organized by chapter number, published, and bound as the General and Special Laws, for that session.
 
 Most bills amend the codes or civil statutes. Some bills, however, enact new law without reference to a *Vernon's Texas Civil Statutes* or code section, and these bills can be found in the session laws for that session and are usually incorporated into the civil statutes or a code, as appropriate, at a later time.
 
@@ -291,7 +291,7 @@ The all-capital-letter format helps distinguish bill sections and articles from 
 
 ### Additional Information
 
-See Section 3.10 of the [Texas Legislative Council Drafting {--{"author":"Luc's AI","timestamp":1788381636426}@@Manual](#)--}{++{"author":"Luc's AI","timestamp":1788381636426}@@Manual](http://www.tlc.texas.gov/docs/legref/draftingmanual.pdf)++} for a complete discussion of amendments to existing law.
+See Section 3.10 of the [Texas Legislative Council Drafting Manual](http://www.tlc.texas.gov/docs/legref/draftingmanual.pdf) for a complete discussion of amendments to existing law.
 
 **Format Conventions.** Bills can amend the codes and statutes by adding new language or changing or deleting existing language. Provisions that directly amend an existing statute must follow two format conventions. First, the language describing the statute being amended, also called the recital (see below), must refer to the official citation of that statute.
 
@@ -337,7 +337,7 @@ of 2008.
 
 ### Additional Information
 
-See Section 3.03 of the [Texas Legislative Council Drafting {--{"author":"Luc's AI","timestamp":1788381635809}@@Manual](#)--}{++{"author":"Luc's AI","timestamp":1788381635809}@@Manual](http://www.tlc.texas.gov/docs/legref/draftingmanual.pdf)++} for a discussion of the title or caption.
+See Section 3.03 of the [Texas Legislative Council Drafting Manual](http://www.tlc.texas.gov/docs/legref/draftingmanual.pdf) for a discussion of the title or caption.
 
 **Enacting Clause.** [Section 29, Article III, Texas Constitution](http://www.statutes.legis.state.tx.us/Docs/CN/htm/CN.3.htm#3.29), also requires every bill to include an enacting clause in the exact language below. The enacting clause is in all caps, is indented, and ends with a colon.
 
@@ -349,13 +349,13 @@ Since the bill is the vehicle for enactment of law, most of the provisions in a 
 
 Some of a bill's substantive provisions, however, do not amend a code or statute section and bear further discussion here.
 
-**Short Title.** A short title is neither required nor appropriate for most bills but sometimes is included in a bill to provide a convenient way of citing a major, cohesive body of law that deals comprehensively with a subject. Some short titles are not introduced as an amendment to a particular statute and, therefore, are found only in the bill, like the following example from [S.B. 572, 81st {--{"author":"Luc's AI","timestamp":1788381635231}@@Legislature](#):--}{++{"author":"Luc's AI","timestamp":1788381635231}@@Legislature](http://www.legis.state.tx.us/tlodocs/81R/billtext/html/SB00572F.HTM):++}
+**Short Title.** A short title is neither required nor appropriate for most bills but sometimes is included in a bill to provide a convenient way of citing a major, cohesive body of law that deals comprehensively with a subject. Some short titles are not introduced as an amendment to a particular statute and, therefore, are found only in the bill, like the following example from [S.B. 572, 81st Legislature](http://www.legis.state.tx.us/tlodocs/81R/billtext/html/SB00572F.HTM):
 
 ```
 SECTION 1. This Act shall be known as Jacob's Law.
 ```
 
-**Statement of Policy or Purpose.** A statement of policy or purpose is neither required nor appropriate for most bills but may be included when a substantial body of new law is introduced or when the operative provisions of a short bill do not clearly indicate what the bill is intended to accomplish. Some statements of policy or purpose are not introduced as an amendment to a statute and, therefore, are found only in the bill, like the following example from [S.B. 1026, 83rd {--{"author":"Luc's AI","timestamp":1788381634822}@@Legislature](#):--}{++{"author":"Luc's AI","timestamp":1788381634822}@@Legislature](http://www.legis.texas.gov/tlodocs/83R/billtext/html/SB01026F.htm):++}
+**Statement of Policy or Purpose.** A statement of policy or purpose is neither required nor appropriate for most bills but may be included when a substantial body of new law is introduced or when the operative provisions of a short bill do not clearly indicate what the bill is intended to accomplish. Some statements of policy or purpose are not introduced as an amendment to a statute and, therefore, are found only in the bill, like the following example from [S.B. 1026, 83rd Legislature](http://www.legis.texas.gov/tlodocs/83R/billtext/html/SB01026F.htm):
 
 ```
 SECTION 4.01. LEGISLATIVE INTENT OF NO SUBSTANTIVE CHANGE. This Act is enacted under Section 43, Article III, Texas Constitution. This Act is intended as a codification only, and no substantive change in the law is intended by this Act. This Act does not increase or decrease the territory of any special district of the state as those boundaries exist on the effective date of this Act.
@@ -376,7 +376,7 @@ SECTION 4. The Automobile Club Services Act (Article 1528d, Vernon's Texas Civil
 
 ### Additional Information
 
-See Section 3.11 of the [Texas Legislative Council Drafting {--{"author":"Luc's AI","timestamp":1788381634529}@@Manual](#)--}{++{"author":"Luc's AI","timestamp":1788381634529}@@Manual](http://www.tlc.texas.gov/docs/legref/draftingmanual.pdf)++} for a discussion of repealers.
+See Section 3.11 of the [Texas Legislative Council Drafting Manual](http://www.tlc.texas.gov/docs/legref/draftingmanual.pdf) for a discussion of repealers.
 
 ### Procedural Provisions
 
@@ -398,7 +398,7 @@ SECTION 3. NONSEVERABILITY. Section 1 of this Act, prohibiting the manufacture o
 
 ### Additional Information
 
-See Section 3.13 of the [Texas Legislative Council Drafting {--{"author":"Luc's AI","timestamp":1788381633859}@@Manual](#)--}{++{"author":"Luc's AI","timestamp":1788381633859}@@Manual](http://www.tlc.texas.gov/docs/legref/draftingmanual.pdf)++} for a discussion of severability and nonseverability clauses.
+See Section 3.13 of the [Texas Legislative Council Drafting Manual](http://www.tlc.texas.gov/docs/legref/draftingmanual.pdf) for a discussion of severability and nonseverability clauses.
 
 **Saving Provisions.** A saving provision “saves” from the application of a law certain conduct or legal relationships that occurred before or existed on the effective date of the law. The most common saving provision applies to criminal or civil offenses, as shown below.
 
@@ -418,7 +418,7 @@ SECTION 5.04. Not later than April 1, 2008, the Texas Commission of Licensing an
 
 ### **Additional Information**
 
-See Section 3.12 of the [\*Texas Legislative Council Drafting {--{"author":"Luc's AI","timestamp":1788381633518}@@Manual\*](#)--}{++{"author":"Luc's AI","timestamp":1788381633518}@@Manual\*](http://www.tlc.texas.gov/docs/legref/draftingmanual.pdf)++} for a discussion of transition provisions.
+See Section 3.12 of the [\*Texas Legislative Council Drafting Manual\*](http://www.tlc.texas.gov/docs/legref/draftingmanual.pdf) for a discussion of transition provisions.
 
 **Effective Date Provisions.** [Section 39, Article III, Texas Constitution](http://www.statutes.legis.state.tx.us/Docs/CN/htm/CN.3.htm#3.39), provides that a law, other than the general appropriations act, may not take effect “until ninety days after the adjournment of the session at which it was enacted” unless the legislature provides for an earlier effective date by a vote of two-thirds of the membership. There are standard types of effective date provisions: immediate effect, a specific effective date before the 91st day, a specific effective date after the 91st day, an effective date contingent on an event or expiration of a period of time, and an effective date contingent on passage of another bill or constitutional amendment. A bill may also be made effective contingent on an appropriation. Below are examples of the effective date provisions.
 
@@ -458,7 +458,7 @@ Finally, a bill may have no effective date provision; in that case, it is effect
 
 ### **Additional Information**
 
-See Section 3.14 of the [Texas Legislative Council Drafting {--{"author":"Luc's AI","timestamp":1788381632737}@@Manual](#)--}{++{"author":"Luc's AI","timestamp":1788381632737}@@Manual](http://www.tlc.texas.gov/docs/legref/draftingmanual.pdf)++} for a more thorough discussion of effective date provisions.
+See Section 3.14 of the [Texas Legislative Council Drafting Manual](http://www.tlc.texas.gov/docs/legref/draftingmanual.pdf) for a more thorough discussion of effective date provisions.
 
 ### Tips for Reading and Understanding a Bill
 
