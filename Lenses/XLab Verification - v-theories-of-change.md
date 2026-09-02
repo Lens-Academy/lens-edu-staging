@@ -57,7 +57,7 @@ A simple test to check if you are clear enough is to try explaining the project 
 - Conceptual AI Safety research may seem difficult to write a cohesive and tractable theory of change about—but it’s possible! See [this example by John Wentworth](https://www.lesswrong.com/posts/vh5ZjdmJYJgnbpq8C/the-plan-2025-update).
 - [Slow Food USA’s theory of change](https://slowfoodusa.org/theory-of-change/) — effective theory of change, conveyed in engaging and easy-to-parse visuals.
 
-![Slow Food USA's one-page theory of change: assumptions and purpose at the top feed a mission, three pillars, and a tree whose canopy holds the future and vision, with values at the roots and roles and strategies beneath.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/xlab-verification-slow-food-theory-of-change.png)
+![Slow Food USA's one-page theory of change: assumptions and purpose at the top feed a mission, three pillars, and a tree whose canopy holds the future and vision, with values at the roots and roles and strategies beneath.{--{"author":"Elias's AI","timestamp":1788356501752}@@](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/xlab-verification-slow-food-theory-of-change.png)--}{++{"author":"Elias's AI","timestamp":1788356501752}@@](https://raw.githubusercontent.com/XLabTracks/tracks/main/public/verification/assets/theories-of-change/slow-food-theory-of-change.png)++}
 
 Image: [Our Theory of Change](https://slowfoodusa.org/theory-of-change/), Slow Food USA.{>>{"author":"Elias's AI","timestamp":1788009459586}@@Proposed: the image hotlinks XLab's asset server; link the original page instead. Alternative: copy the image into Lens.<<}
 :::
