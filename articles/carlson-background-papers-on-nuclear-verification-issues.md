@@ -292,7 +292,7 @@ The importance of information broader than that available from traditional safeg
 Libya  
 , --}{++{"author":"Elias's AI","timestamp":1788357563544}@@ Libya, ++}intelligence information enabled the interception of a shipment of centrifuge components bound for Libya. This led to the unraveling of an international illicit nuclear supply network, organized by the Pakistani AQ Khan, which was providing Libya with an entire centrifuge enrichment plant on a turn-key basis.
 
-While states are an important source of information, it is also important that information available within the IAEA is used effectively. For example, it was disturbing to find that Libya 's early work on uranium conversion and other areas relevant to the nuclear fuel cycle had been assisted under the IAEA's Technical Cooperation Program. There was no process for safeguards inspectors to follow up on the results of such assistance. This is an area that requires further attention.
+While states are an important source of information, it is also important that information available within the IAEA is used effectively. For example, it was disturbing to find that {--{"author":"Elias's AI","timestamp":1788357567730}@@Libya 's--}{++{"author":"Elias's AI","timestamp":1788357567730}@@Libya's++} early work on uranium conversion and other areas relevant to the nuclear fuel cycle had been assisted under the IAEA's Technical Cooperation Program. There was no process for safeguards inspectors to follow up on the results of such assistance. This is an area that requires further attention.
 
 #### 5.8. Further steps in strengthening safeguards
 
