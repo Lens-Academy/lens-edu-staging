@@ -23,7 +23,7 @@ content::
 
 Much of this material is drawn from ([[#^bib-hutter-24uaibook2|Hutter et al. 2024]]). The book provides fuller explanations, additional context, and proofs omitted here.
 
-**Difficulty ratings.** Each subproblem is tagged with a rating in square brackets using Knuth's scale ([[#^bib-knuth-73a|Knuth 1973]]): roughly, **[00]** trivial, **[10]** 15–minute pencil-and-paper, **[20]** 1–2 hours, **[30]** several hours to a day, **[40]** a significant research result. Intermediate values are possible. See [[#C. Knuth's Difficulty Scale|Section C]] for the full scale.
+**Difficulty ratings.** Each subproblem is tagged with a rating in square brackets using Knuth's scale ([[#^bib-knuth-73a|Knuth 1973]]): roughly, **[00]** trivial, **[10]** 15–minute pencil-and-paper, **[20]** 1–2 hours, **[30]** several hours to a day, **[40]** a significant research result. Intermediate values are possible. See [[#^knuth-difficulty-scale|Section C]] for the full scale.
 
 Problems marked **($\ast$)** are less interesting/insightful and while the result may be used later, I would recommend skipping them on a first pass.
 
@@ -48,23 +48,23 @@ AIXI is the *action* half of **Universal AI**: it lifts the Bayesian mixture fro
 
 This exercise sheet builds towards three main results:
 
-- **On-policy value convergence** ([[#7. On-Policy Value Convergence of Bayes|Section 7]]): the Bayesian mixture $\xi$ learns to predict the value of any fixed policy as well as the true environment $\mu$.
-- **AIXI can't be fooled** ([[#8. AIXI Cannot Be Fooled in Deterministic Environments|Section 8]]): in deterministic environments, the Bayes-optimal agent is guaranteed non-zero value whenever optimal value is non-zero.
-- **Self-optimizing property** ([[#11. Proving the Self-Optimizing Property|Section 11]], advanced stretch goal): the Bayes-optimal policy $\pi_{\xi}^{*}$ learns to *act* as well as if it knew $\mu$, provided that any learnable policy can achieve this. This is the central theoretical justification for the AIXI agent.
+- **On-policy value convergence** ([[#^on-policy-value-convergence-bayes|Section 7]]): the Bayesian mixture $\xi$ learns to predict the value of any fixed policy as well as the true environment $\mu$.
+- **AIXI can't be fooled** ([[#^aixi-deterministic-no-fooling|Section 8]]): in deterministic environments, the Bayes-optimal agent is guaranteed non-zero value whenever optimal value is non-zero.
+- **Self-optimizing property** ([[#^proving-self-optimizing-property|Section 11]], advanced stretch goal): the Bayes-optimal policy $\pi_{\xi}^{*}$ learns to *act* as well as if it knew $\mu$, provided that any learnable policy can achieve this. This is the central theoretical justification for the AIXI agent.
 
-A good target is to complete [[#7. On-Policy Value Convergence of Bayes|Section 7]] and [[#8. AIXI Cannot Be Fooled in Deterministic Environments|8]]. The self-optimizing property ([[#9. Likelihood Ratios Are Martingales|Sections 9–11]]) requires substantial additional machinery (supermartingales, change of measure) and is an advanced stretch goal.
+A good target is to complete [[#^on-policy-value-convergence-bayes|Section 7]] and [[#^aixi-deterministic-no-fooling|8]]. The self-optimizing property ([[#^likelihood-ratios-martingales|Sections 9–11]]) requires substantial additional machinery (supermartingales, change of measure) and is an advanced stretch goal.
 
-**Critical path.** The three results share a common foundation ([[#0. Properties of Measures|Sections 0–4]]) and then diverge:
+**Critical path.** The three results share a common foundation ([[#^properties-of-measures|Sections 0–4]]) and then diverge:
 
 ![diagram](https://iliad-team.github.io/iliad-intensive/uploads/aixi/tikz-14e23c80befc.svg)
 
 **In summary:**
 
-- [[#0. Properties of Measures|Sections 0–4]] establish the Bayesian RL framework: measure algebra, mixture properties, existence of optimal policies, dominance, and linearity.
-- [[#5. The Expectimax Form of AIXI|Section 5]] derives the explicit expectimax form of AIXI.
-- [[#6. Bounding Expectation Differences by Total Variation|Sections 6–7]] prove *on-policy value convergence*: $V_{\xi}^{\pi}$ and $V_{\mu}^{\pi}$ become indistinguishable for any fixed $\pi$.
-- [[#8. AIXI Cannot Be Fooled in Deterministic Environments|Section 8]] shows *AIXI can't be fooled*: the Bayes-optimal agent achieves non-zero value whenever optimal value is non-zero (in deterministic environments).
-- [[#9. Likelihood Ratios Are Martingales|Sections 9–11]] (advanced stretch goal) prove the *self-optimizing property*: if any policy can learn to act optimally, $\pi_{\xi}^{*}$ inherits this.
+- [[#^properties-of-measures|Sections 0–4]] establish the Bayesian RL framework: measure algebra, mixture properties, existence of optimal policies, dominance, and linearity.
+- [[#^expectimax-form-aixi|Section 5]] derives the explicit expectimax form of AIXI.
+- [[#^expectation-differences-total-variation|Sections 6–7]] prove *on-policy value convergence*: $V_{\xi}^{\pi}$ and $V_{\mu}^{\pi}$ become indistinguishable for any fixed $\pi$.
+- [[#^aixi-deterministic-no-fooling|Section 8]] shows *AIXI can't be fooled*: the Bayes-optimal agent achieves non-zero value whenever optimal value is non-zero (in deterministic environments).
+- [[#^likelihood-ratios-martingales|Sections 9–11]] (advanced stretch goal) prove the *self-optimizing property*: if any policy can learn to act optimally, $\pi_{\xi}^{*}$ inherits this.
 
 \## Setup
 
@@ -263,7 +263,7 @@ $$
 w(\nu \mid \text{æ}_{<t}) ~:=~ w_{\nu} \,\frac{\nu(\text{æ}_{<t})}{\xi(\text{æ}_{<t})}, \qquad w(\nu \mid \epsilon) := w_{\nu}.
 $$
 
-See [[#A. Worked Example: Bayesian Mixture|Appendix A]] for a worked example.
+See [[#^bayesian-mixture-worked-example|Appendix A]] for a worked example.
 
 :::
 
@@ -1005,7 +1005,7 @@ which expands back into the $\max/\sum$ layers of the first display.
 
 \## On-Policy Value Convergence
 
-The following problems prove the first two main results: on-policy value convergence ([[#7. On-Policy Value Convergence of Bayes|Section 7]]), and that AIXI can't be fooled in deterministic environments ([[#8. AIXI Cannot Be Fooled in Deterministic Environments|Section 8]]). The path to the self-optimizing property (advanced stretch goal) resumes at [[#9. Likelihood Ratios Are Martingales|Section 9]].
+The following problems prove the first two main results: on-policy value convergence ([[#^on-policy-value-convergence-bayes|Section 7]]), and that AIXI can't be fooled in deterministic environments ([[#^aixi-deterministic-no-fooling|Section 8]]). The path to the self-optimizing property (advanced stretch goal) resumes at [[#^likelihood-ratios-martingales|Section 9]].
 
 \## 6. Bounding Expectation Differences by Total Variation ^expectation-differences-total-variation
 
@@ -1133,7 +1133,7 @@ As such, $F^{c}$ (the set of all infinite histories containing only finitely man
 
 :::callout {title="Definition" tone="purple"}
 
-**Definition 7.2 (Covering[^4]).** We say $Q$ **covers** $P$ if $Q$ is positive everywhere $P$ is: $P(A) > 0 \implies Q(A) > 0$ for all events $A$. Equivalently: any event that $Q$ rules out, $P$ also rules out. By [[#3. Dominance of the Bayesian Mixture|Section 3]], $\xi^{\pi}$ covers $\mu^{\pi}$.
+**Definition 7.2 (Covering[^4]).** We say $Q$ **covers** $P$ if $Q$ is positive everywhere $P$ is: $P(A) > 0 \implies Q(A) > 0$ for all events $A$. Equivalently: any event that $Q$ rules out, $P$ also rules out. By [[#^bayesian-mixture-dominance|Section 3]], $\xi^{\pi}$ covers $\mu^{\pi}$.
 
 :::
 
@@ -1188,7 +1188,7 @@ $$
 The proof reduces to a finite-horizon TV bound ([[#^prob-tv-finite|Exercise 7.1]]), a covering argument ([[#^prob-covering-proof|Exercise 7.2]]), and the Blackwell–Dubins theorem ([[#^prob-on-policy-proof|Exercise 7.3]]). The only ingredient we do not prove is Blackwell–Dubins itself, which we state as a given fact.
 
 :::callout {title="Exercise" tone="amber"}
-**Exercise 7.1 (Finite-horizon TV bound on value difference) [10].** Using [[#6. Bounding Expectation Differences by Total Variation|Section 6]], show that for finite $m$:
+**Exercise 7.1 (Finite-horizon TV bound on value difference) [10].** Using [[#^expectation-differences-total-variation|Section 6]], show that for finite $m$:
 
 $$
 \big|V_{\xi}^{\pi,m}(\text{æ}_{<t}) - V_{\mu}^{\pi,m}(\text{æ}_{<t})\big| ~\leq~ \mathrm{TV}[\mathcal{H}^{m-t+1}]\!\big(\xi^{\pi}(\cdot \mid \text{æ}_{<t}),\; \mu^{\pi}(\cdot \mid \text{æ}_{<t})\big),
@@ -1202,13 +1202,13 @@ where $\mathcal{H}^{m-t+1}:= (\mathcal{A} \times \mathcal{E})^{m-t+1}$ is the se
 
 :::callout {title="Solution" tone="neutral" collapse="closed"}
 
-We want to apply [[#6. Bounding Expectation Differences by Total Variation|Section 6]]. Identify:
+We want to apply [[#^expectation-differences-total-variation|Section 6]]. Identify:
 
 - $\Omega := \mathcal{H}^{m-t+1}= (\mathcal{A} \times \mathcal{E})^{m-t+1}$, the finite set of future history segments $\text{æ}_{t:m}$.
 - $P := \mu^{\pi}(\cdot \mid \text{æ}_{<t})$ and $Q := \xi^{\pi}(\cdot \mid \text{æ}_{<t})$, the conditional measures over $\Omega$.
 - $f(\text{æ}_{t:m}) := (1-\gamma)G_{t-1:m}$, which satisfies $f \in [0,1]$ by [[#^prob-bounded-value|Exercise 1.3]] (so $c = 1$).
 
-Then $V_{\nu}^{\pi,m}(\text{æ}_{<t}) = \sum_{\text{æ}_{t:m}}\nu^{\pi}(\text{æ}_{t:m}\mid \text{æ}_{<t})\, f(\text{æ}_{t:m})$ is exactly $\mathbb{E}_{P}[f]$ (for $\nu = \mu$) or $\mathbb{E}_{Q}[f]$ (for $\nu = \xi$). Applying [[#6. Bounding Expectation Differences by Total Variation|Section 6]]:
+Then $V_{\nu}^{\pi,m}(\text{æ}_{<t}) = \sum_{\text{æ}_{t:m}}\nu^{\pi}(\text{æ}_{t:m}\mid \text{æ}_{<t})\, f(\text{æ}_{t:m})$ is exactly $\mathbb{E}_{P}[f]$ (for $\nu = \mu$) or $\mathbb{E}_{Q}[f]$ (for $\nu = \xi$). Applying [[#^expectation-differences-total-variation|Section 6]]:
 
 $$
 \big|V_{\xi}^{\pi,m}(\text{æ}_{<t}) - V_{\mu}^{\pi,m}(\text{æ}_{<t})\big| ~=~ \big|\mathbb{E}_{Q}[f] - \mathbb{E}_{P}[f]\big| ~\leq~ 1 \cdot \mathrm{TV}[\mathcal{H}^{m-t+1}](P, Q).
@@ -1221,7 +1221,7 @@ $$
 
 ::::callout {title="Hint" tone="neutral" collapse="closed"}
 
-Use [[#3. Dominance of the Bayesian Mixture|Section 3]].
+Use [[#^bayesian-mixture-dominance|Section 3]].
 
 ::::
 :::
@@ -1231,7 +1231,7 @@ Use [[#3. Dominance of the Bayesian Mixture|Section 3]].
 
 :::callout {title="Solution" tone="neutral" collapse="closed"}
 
-By [[#3. Dominance of the Bayesian Mixture|Section 3]], $\xi^{\pi}(\text{æ}_{1:m}) \geq w_{\mu} \cdot \mu^{\pi}(\text{æ}_{1:m})$ for all histories and all $m$. So for any event $A$: $\mu^{\pi}(A) > 0 \implies \xi^{\pi}(A) \geq w_{\mu} \cdot \mu^{\pi}(A) > 0$. Hence $\xi^{\pi}$ covers $\mu^{\pi}$.
+By [[#^bayesian-mixture-dominance|Section 3]], $\xi^{\pi}(\text{æ}_{1:m}) \geq w_{\mu} \cdot \mu^{\pi}(\text{æ}_{1:m})$ for all histories and all $m$. So for any event $A$: $\mu^{\pi}(A) > 0 \implies \xi^{\pi}(A) \geq w_{\mu} \cdot \mu^{\pi}(A) > 0$. Hence $\xi^{\pi}$ covers $\mu^{\pi}$.
 
 :::
 
@@ -1373,13 +1373,13 @@ $$
 
 *Remark.* With the Solomonoff prior, $w_{\mu} = 2^{-K(\mu)}$ may be astronomically small. The result guarantees non-zero value, not near-optimal value.
 
-\## [[#9. Likelihood Ratios Are Martingales|Sections 9–11]]: Self-Optimizing Policy (Finite Model Class)
+\## [[#^likelihood-ratios-martingales|Sections 9–11]]: Self-Optimizing Policy (Finite Model Class)
 
 We now prove: if *any* policy can learn to act optimally, $\pi_{\xi}^{*}$ also learns. We restrict to finite $\mathcal{M} = \{\nu_{1}, \ldots, \nu_{N}\}$ where each $\nu_{i}$ is a proper probability measure.
 
 \## 9. Likelihood Ratios Are Martingales ^likelihood-ratios-martingales
 
-The following definition and theorem state the main goal of [[#9. Likelihood Ratios Are Martingales|Sections 9–11]].
+The following definition and theorem state the main goal of [[#^likelihood-ratios-martingales|Sections 9–11]].
 
 :::callout {title="Definition" tone="purple"}
 
@@ -1416,7 +1416,7 @@ If equality holds, it is a $\mu^{\pi}$-**martingale**.
 ^def-supermartingale
 
 
-**Intuition.** A supermartingale is a quantity whose expected future value, given the present, is no larger than its current value: it cannot "drift upward on average." A martingale is the equality case: expected future value equals current value. The key example is the **likelihood ratio** $X_{\nu,t}(\text{æ}_{1:t}) := \nu(\text{æ}_{1:t})/\mu(\text{æ}_{1:t})$: how much more (or less) likely the observed history is under $\nu$ than under the true environment $\mu$. Under $\mu$, this ratio is a martingale: the true environment does not, on average, favour any alternative $\nu$ over itself. Non-negativity plus the (super)martingale structure forces $X_{\nu,t}$ to converge (by Doob's theorem below), which is the engine behind the self-optimizing proof: it lets us separate environments that remain plausible ($X_{\nu,\infty}> 0$) from those that are eventually ruled out ($X_{\nu,\infty}= 0$), and handle each case differently in [[#11. Proving the Self-Optimizing Property|Section 11]].
+**Intuition.** A supermartingale is a quantity whose expected future value, given the present, is no larger than its current value: it cannot "drift upward on average." A martingale is the equality case: expected future value equals current value. The key example is the **likelihood ratio** $X_{\nu,t}(\text{æ}_{1:t}) := \nu(\text{æ}_{1:t})/\mu(\text{æ}_{1:t})$: how much more (or less) likely the observed history is under $\nu$ than under the true environment $\mu$. Under $\mu$, this ratio is a martingale: the true environment does not, on average, favour any alternative $\nu$ over itself. Non-negativity plus the (super)martingale structure forces $X_{\nu,t}$ to converge (by Doob's theorem below), which is the engine behind the self-optimizing proof: it lets us separate environments that remain plausible ($X_{\nu,\infty}> 0$) from those that are eventually ruled out ($X_{\nu,\infty}= 0$), and handle each case differently in [[#^proving-self-optimizing-property|Section 11]].
 
 ::::callout {title="Note" tone="neutral"}
 
@@ -1504,7 +1504,7 @@ $$
 X_{\xi,t}~:=~ \frac{\xi(\text{æ}_{1:t})}{\mu(\text{æ}_{1:t})}~=~ \frac{\sum_{\nu} w_{\nu} \nu(\text{æ}_{1:t})}{\mu(\text{æ}_{1:t})}~=~ \sum_{\nu} w_{\nu} \cdot \frac{\nu(\text{æ}_{1:t})}{\mu(\text{æ}_{1:t})}~=~ \sum_{\nu} w_{\nu} X_{\nu,t}.
 $$
 
-By [[#3. Dominance of the Bayesian Mixture|Section 3]]: $\xi(\text{æ}_{1:t}) \geq w_{\mu} \cdot \mu(\text{æ}_{1:t})$, so $X_{\xi,t}= \xi(\text{æ}_{1:t})/\mu(\text{æ}_{1:t}) \geq w_{\mu} > 0$.
+By [[#^bayesian-mixture-dominance|Section 3]]: $\xi(\text{æ}_{1:t}) \geq w_{\mu} \cdot \mu(\text{æ}_{1:t})$, so $X_{\xi,t}= \xi(\text{æ}_{1:t})/\mu(\text{æ}_{1:t}) \geq w_{\mu} > 0$.
 
 Since $\mathcal{M}$ is finite, $X_{\xi,t}= \sum_{\nu} w_{\nu} X_{\nu,t}$ is a finite sum of convergent sequences, so $X_{\xi,t}\to X_{\xi,\infty}:= \sum_{\nu} w_{\nu} X_{\nu,\infty}< \infty$ $\mu^{\pi}$-a.s., with $X_{\xi,\infty}\geq w_{\mu} > 0$.
 
@@ -1816,7 +1816,7 @@ $$
 
 \## B. Worked Example: Value Function ^value-function-worked-example
 
-Continuing from [[#A. Worked Example: Bayesian Mixture|Appendix A]]. Suppose the agent always predicts $H$ (policy $\pi_{H}$).
+Continuing from [[#^bayesian-mixture-worked-example|Appendix A]]. Suppose the agent always predicts $H$ (policy $\pi_{H}$).
 
 Under $\nu_{HH}$: always correct, $r_{t} = 1$ every step: $V_{\nu_{HH}}^{\pi_H}(\epsilon) = (1-\gamma) \sum_{k=0}^{\infty} \gamma^{k} \cdot 1 = 1$.
 
@@ -1872,9 +1872,9 @@ Jan Leike and Marcus Hutter (2015). [*Bad Universal Priors and Notions of Optima
 ^bib-leike-15badpriors
 
 
-[^1]: See [[#B. Worked Example: Value Function|Appendix B]] for a worked example. For simplicity, we consider only geometric discounting.
+[^1]: See [[#^value-function-worked-example|Appendix B]] for a worked example. For simplicity, we consider only geometric discounting.
 
-[^2]: The optimal value is defined as a $\sup$ over policies. In general, a supremum need not be attained (e.g. $\sup_{x \in (0,1)}x = 1$ but no $x \in (0,1)$ achieves it). [[#2. Existence of Optimal Policies|Section 2]] shows that the sup is attained in our setting.
+[^2]: The optimal value is defined as a $\sup$ over policies. In general, a supremum need not be attained (e.g. $\sup_{x \in (0,1)}x = 1$ but no $x \in (0,1)$ achieves it). [[#^existence-optimal-policies|Section 2]] shows that the sup is attained in our setting.
 
 [^3]: We are deliberately avoiding a formal treatment of measure theory here. Not all subsets of $(\mathcal{A} \times \mathcal{E})^{\infty}$ are measurable; we restrict to "nice" (measurable) sets built from finite-prefix conditions via countable set operations, which suffice for everything in this sheet. For a rigorous treatment using $\sigma$-algebras and probability measures, see ([[#^bib-hutter-24uaibook2|Hutter et al. 2024]], Chapter 2.2).
 
