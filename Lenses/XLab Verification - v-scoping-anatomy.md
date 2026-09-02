@@ -95,7 +95,7 @@ assessment-instructions:: Full credit: the learner picks one of the three locati
 id:: 9071fd5b-8b0f-4dd0-80bf-93960ebca7af
 content:: **4. Examine entry into force and withdrawal**
 
-Determine when the agreement enters into force and describe the procedure by which a Party may withdraw from it. Identify any applicable conditions or notice periods. Compare these provisions with the model clauses in Annex E of the Practice Guide to International Treaties.
+Determine {++{"author":"Elias's AI","timestamp":1788358908750}@@whether and ++}when the agreement enters into force and describe the procedure by which a Party may withdraw from it. Identify any applicable conditions or notice periods. Compare these provisions with the model clauses in Annex E of the Practice Guide to International Treaties.
 
 Relevant provision: Article XV, Withdrawal and Duration.
 placeholder:: Quote the words you are talking about.
