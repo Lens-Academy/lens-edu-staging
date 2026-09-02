@@ -893,7 +893,7 @@ Since the AI passed all of the company’s safety tests, the company believes it
 
 Eventually the AI system becomes used widely enough that shutting it down would be extremely costly. Understanding that it no longer needs to please humans, the AI system begins to pursue different goals, including some that humans wouldn’t approve of. It understands that it needs to avoid being shut down in order to do this, and takes steps to secure some of its physical hardware against being shut off. At this point, the AI system, which has become quite powerful, is pursuing a goal that is ultimately harmful to humans. By the time anyone realizes, it is difficult or impossible to stop this rogue AI from taking actions that endanger, harm, or even kill humans that are in the way of achieving its goal.
 
-### 5.5 Suggestions
+### 5.5 Suggestions ^55-suggestions
 
 In this section, we have discussed various ways in which we might lose our influence over the goals and actions of AIs. Whereas the risks associated with competitive pressures, malicious use, and organizational safety can be addressed with both social and technical interventions, AI control is an inherent problem with this technology and requires a greater proportion of technical effort. We will now discuss suggestions for mitigating this risk and highlight some important research areas for maintaining control.
 
@@ -1138,7 +1138,7 @@ Since AI catastrophic risk is a new challenge, albeit one that has been the subj
     
     Also, as AIs gain more power and autonomy, they might develop a drive for “self-preservation.” This would make them resistant to shutdown attempts and could allow them to anticipate and circumvent our attempts at control.
     
-    Lastly, while there are ways to deactivate individual AIs—and some will become harder and harder to deactivate—there is simply not an off-switch for AI development, which is why we propose a symmetric international off-switch in [Section 5.5](#S5.SS5 "5.5 Suggestions ‣ 5 Rogue AIs ‣ An Overview of Catastrophic AI Risks"). Overall, given all these challenges, it’s critical that we address potential AI risks proactively and put robust safeguards in place well before these problems arise.
+    Lastly, while there are ways to deactivate individual AIs—and some will become harder and harder to deactivate—there is simply not an off-switch for AI development, which is why we propose a symmetric international off-switch in {--{"author":"Luc's AI","timestamp":1788377303867}@@[Section--}{++{"author":"Luc's AI","timestamp":1788377303867}@@[[#^55-suggestions|Section++} {--{"author":"Luc's AI","timestamp":1788377303867}@@5.5](#S5.SS5 "5.5 Suggestions ‣ 5 Rogue AIs ‣ An Overview of Catastrophic AI Risks").--}{++{"author":"Luc's AI","timestamp":1788377303867}@@5.5]].++} Overall, given all these challenges, it’s critical that we address potential AI risks proactively and put robust safeguards in place well before these problems arise.
     
 3.  3.
     

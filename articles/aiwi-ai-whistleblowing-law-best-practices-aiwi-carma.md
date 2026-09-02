@@ -177,13 +177,13 @@ The Center for AI Risk Management & Alignment (CARMA) is a research and policy t
 
 CARMA brings together experts in artificial intelligence, broader computer science, policy, infrastructure resilience, complex systems, mechanism design, and international technology governance to address both acute and systemic risks from increasingly powerful AI systems.
 
-## Abra Ganz
+## Abra Ganz ^abra-ganz
 
 Abra Ganz is the Head of AI Policy at Pour Demain, where her focus is improving oversight of AI systems. She has advised on the establishment of the [EU AI Office’s whistleblowing channel,](https://aiwi.org/eu-ai-office-whistleblowing-channel/) and her work has been featured in [Transformer](https://www.transformernews.ai/p/sb-53-protects-whistleblowers-in), by [LawAI](https://aiwhistleblowerinitiative.substack.com/p/whistleblower-protections-in-sb-53), presented at [Harvard](https://cyber.harvard.edu/events/who-watches-warfighters-oversight-ai-dod) and IASEAI, among others. She holds affiliations with the Center for AI Risk Management and Alignment and the Oxford Martin AI Governance Initiative.
 
 Before working on oversight of the AI industry, Abra’s previous research spans various topics and institutions: Yale’s Digital Ethics Center (on infrastructure of the internet), ETH Zürich (on adversarial robustness), and MIT (on inverse reinforcement learning). Abra holds an undergraduate degree in Classics from the University of Oxford and a Master’s in Logic from the Institute of Logic, Language, and Computation at the University of Amsterdam.
 
-## Karl Koch
+## Karl Koch ^karl-koch
 
 Karl Koch is the Founder and Managing Director of AIWI, leading the organisation across its research & guidance, education, and policy work.
 

@@ -257,7 +257,7 @@ For verifying accounts, inspectors rely heavily on simple methods: visual observ
 
 To detect more subtle violations (e.g. removal of small amounts of nuclear material from many cans, or "dummy items"), inspectors use sensors (weight sensors, radiation detectors, and—rarely—X-ray scanners), and IAEA inspectors also take samples of materials for analysis at labs. At some facilities (especially areas where human presence is unsafe), IAEA inspectors install unattended equipment (e.g. item counters and radiation detectors).
 
-#### 2.2.2 Containment and surveillance
+#### 2.2.2 Containment and surveillance ^222-containment-and-surveillance
 
 To enable accounting verification in radioactive or otherwise inaccessible areas, and to reduce inspection frequency for stored items (in order to reduce costs), the IAEA uses containment and surveillance. That means putting nuclear materials in tamper-indicating containers and/or under the eye of on-site, IAEA-installed video surveillance cameras.
 
@@ -269,7 +269,7 @@ Deceptive actors may try to divert or tamper with regulated equipment and then h
 
 Serial numbers are used as unique identifiers to help detect the diversion of missiles in a few U.S.-U.S.S.R./Russia treaties. The IAEA also uses serial numbers to track nuclear fuel rod assemblies, and it uses more sophisticated types of unique identifiers in its tamper-indicating seals to make them harder to replace with counterfeits.
 
-#### 2.2.4 Design information verification
+#### 2.2.4 Design information verification ^224-design-information-verification
 
 The IAEA requires states to report information on the design of their nuclear facilities (e.g. their floorplans). It verifies this information through inspectors’ use of visual observation, simple length measurement tools, satellite images, and sometimes equipment that can detect modifications to a room or nearby underground rooms. These inspections are done both during and after facility construction.
 
@@ -1545,7 +1545,7 @@ This appendix assumes that the main types of violations this system is aiming to
     Verify that, of the cutting-edge AI chips at reported locations, not many lack required design features.
     
 
-### G.3 Detecting efforts to get cutting-edge AI chips to undeclared locations
+### G.3 Detecting efforts to get cutting-edge AI chips to undeclared locations ^g3-detecting-efforts-to-get-cutting-edge-ai-chips-to-undeclared-locations
 
 To verify that there are not many cutting-edge AI chips being used at undeclared locations, one approach is: verify that these chips could not have reached undeclared locations, on the grounds that any attempt at secretly producing cutting-edge AI chips or removing them from their declared locations would have been detected. This section describes how that detection could be done, for each potential method of secretly producing or moving these chips.
 
@@ -1717,7 +1717,7 @@ Alternatively, cutting-edge AI chips could be stored at declared data centers, w
 
 Zooming out, this approach could be combined with the one discussed in [the previous section] for redundancy. Next, we turn to the other subproblem of verification.
 
-### G.5 Detecting efforts to tamper with the design features of cutting-edge AI chips at known locations
+### G.5 Detecting efforts to tamper with the design features of cutting-edge AI chips at known locations ^g5-detecting-efforts-to-tamper-with-the-design-features-of-cutting-edge-ai-chips-at-known-locations
 
 To detect efforts to secretly tamper with large numbers of AI chips at known locations, one could use the following:[^note-150]
 
@@ -1805,7 +1805,7 @@ At cutting-edge data centers and cutting-edge AI chip storage facilities:
     
 -   •
     
-    [Video cameras](#S2.SS2.SSS2 "2.2.2 Containment and surveillance ‣ 2.2 M&V methods at declared facilities ‣ 2 Nuclear M&V Methods ‣ Nuclear Arms Control Verification and Lessons for AI Treaties")
+    {--{"author":"Luc's AI","timestamp":1788377304816}@@[Video cameras](#S2.SS2.SSS2 "2.2.2 Containment and surveillance ‣ 2.2 M&V methods at declared facilities ‣ 2 Nuclear M&V Methods ‣ Nuclear Arms Control Verification and Lessons for AI Treaties")--}{++{"author":"Luc's AI","timestamp":1788377304816}@@[[#^222-containment-and-surveillance|Video cameras]]++}
     
 -   •
     

@@ -20,7 +20,7 @@ Add discussion note here:
 
 John Carlson
 
--   [Factors in Determining Noncompliance](#table-1-factors-in-determining-noncompliance)
+-   [[#^table-1-factors-in-determining-noncompliance|Factors in Determining Noncompliance]]
 
 The process of determining noncompliance is an important aspect of the International Atomic Energy Agency (IAEA) safeguards system, as well as the only established mechanism for determining noncompliance with the nuclear Nonproliferation Treaty (NPT) itself. Noncompliance with an NPT safeguards agreement constitutes violation of Article III of the NPT, the obligation to accept safeguards on all nuclear material, and, depending on the circumstances, possibly a violation of Article II, the obligation not to acquire nuclear weapons.
 
@@ -152,7 +152,7 @@ It is inappropriate to apply a rigid approach to determinations of noncompliance
 
 Clarification of the issues involved in noncompliance determinations is important for all parties: states, the IAEA Secretariat, and the board. The development of guidelines to assist the board and, indeed, the secretariat could be very helpful in this regard.
 
-## Table 1: Factors in Determining Noncompliance
+## Table 1: Factors in Determining Noncompliance ^table-1-factors-in-determining-noncompliance
 
 | Table 1: Factors in Determining NoncomplianceIn recent years, the International Atomic Energy Agency Board of Governors has found five states to be in noncompliance with their agency safeguards agreements. In another two recent decisions on serious safeguards breaches, involving South Korea (2004) and Egypt (2005), the board did not find the states in noncompliance. The board weighed several factors in making its determination. |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- |
