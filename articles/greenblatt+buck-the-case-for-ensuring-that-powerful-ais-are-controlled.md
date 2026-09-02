@@ -41,8 +41,8 @@ We think the control line-of-defense should mostly focus on the lead-up to the f
 
 One nice property of the control line-of-defense compared to alignment is that we don't need any technical breakthroughs to substantially reduce risks from otherwise existentially dangerous models:
 
-- Given some scary model and a proposed plan for training, evaluation, and deployment (which we'll refer to as a whole as a *protocol*), it seems tractable to robustly *evaluate* whether the model is controlled by that protocol, by using capability evaluations. Because evaluating control just requires evaluating capabilities, it's far easier to robustly evaluate than alignment. ([Section "Evaluating whether you have control is doable"](#evaluating-whether-you-have-control-is-doable))
-- It seems quite tractable to *develop* protocols that substantially improve control for early transformatively useful AIs. This is in large part because these protocols can be developed by iterating against the evaluations. ([Section "Control is likely achievable for early transformatively useful AIs"](#control-is-likely-achievable-for-early-transformat))
+- Given some scary model and a proposed plan for training, evaluation, and deployment (which we'll refer to as a whole as a *protocol*), it seems tractable to robustly *evaluate* whether the model is controlled by that protocol, by using capability evaluations. Because evaluating control just requires evaluating capabilities, it's far easier to robustly evaluate than alignment. ([[#^evaluating-whether-you-have-control-is-doable|Section "Evaluating whether you have control is doable"]])
+- It seems quite tractable to *develop* protocols that substantially improve control for early transformatively useful AIs. This is in large part because these protocols can be developed by iterating against the evaluations. ([[#^control-is-likely-achievable-for-early-transformatively-useful-ais|Section "Control is likely achievable for early transformatively useful AIs"]])
 
 Because control could be applied to mitigate risk from scheming right now, it's a particularly promising target for research effort and policy commitments.
 
@@ -69,7 +69,7 @@ As an analogy, companies that are serious about security aim to ensure security 
 
 We're advocating that companies handle risk from scheming models in a similar way–striving to ensure that they'll be safe *even if* their alignment efforts fail to prevent models from scheming. The advantage of handling risk from scheming this way is closely related to the advantage of handling robustness to compromised employees: it focuses attention on the types of interventions whose effectiveness is easiest to reason about.
 
-# Evaluating whether you have control is doable
+# Evaluating whether you have control is doable ^evaluating-whether-you-have-control-is-doable
 
 Here's an approach for evaluating safety using control evaluations:
 
@@ -109,7 +109,7 @@ In contrast, currently known ML techniques do not suffice to allow us to evaluat
 
 In order to be confident that a certain protocol leads to the control property, you need to be confident that your evidence for control didn't rely on incorrect assumptions about the properties of scheming models. This is a big problem for techniques that rely on properties of models related to their generalization behavior or their internal structure.
 
-It seems much easier to become confident that a technique will work if the only property that the technique relies on is that the model isn't capable of doing something. Thus, we propose that control evaluations just operate using standard capability evaluations and thus work in a nearly black-box manner where we reject techniques that make any usage of internals other than for standard training. We'll elaborate on why we think this is a good choice and details of the exact rules in the [Appendix "Why control evaluations are conservative about inductive biases and AI internal structure"](#appendix-why-control-evaluations-are-conservative-).
+It seems much easier to become confident that a technique will work if the only property that the technique relies on is that the model isn't capable of doing something. Thus, we propose that control evaluations just operate using standard capability evaluations and thus work in a nearly black-box manner where we reject techniques that make any usage of internals other than for standard training. We'll elaborate on why we think this is a good choice and details of the exact rules in the [[#^appendix-why-control-evaluations-are-conservative-about-inductive-biases-and-ai-internal-structure|Appendix "Why control evaluations are conservative about inductive biases and AI internal structure"]].
 
 # What might control techniques look like?
 
@@ -130,9 +130,9 @@ It's not sufficient because if the oversight is expensive and serially slow, we'
 
 We'll often have alternatives to improving oversight. For the simplest case, we can imagine just not using the most powerful AIs in a given domain which is hard to oversee. We can also generally make it harder to cause bad actions in sneaky ways via mechanisms which aren't typically considered oversight (e.g., reducing AI affordances or requiring AIs to route through trusted models for some substeps). While improvements in oversight can be substituted for by improvements elsewhere, we'll probably want to use at least some oversight in basically all domains.
 
-See the Appendices ["A long list of control techniques"](#appendix-a-long-list-of-control-techniques) and ["Control techniques from our paper"](#appendix-control-techniques-from-our-paper) for more thoughts on what control techniques could look like.
+See the Appendices [[#^appendix-a-long-list-of-control-techniques|"A long list of control techniques"]] and [[#^appendix-control-techniques-from-our-paper|"Control techniques from our paper"]] for more thoughts on what control techniques could look like.
 
-# Control is likely achievable for early transformatively useful AIs
+# Control is likely achievable for early transformatively useful AIs ^control-is-likely-achievable-for-early-transformatively-useful-ais
 
 AI control (with only black-box techniques) seems like a fundamentally limited approach. When applied to sufficiently powerful models, you won't be able to make control techniques that cause the control property (without being unaffordably inefficient), and eventually, models will be too powerful for you to reliably evaluate whether a suite of control techniques has the control property. (See section 5.1 of [our paper](https://arxiv.org/abs/2312.06942) for discussion of these limitations.) The key issue is that the abilities of our more trusted labor, both humans and [trusted weaker AIs](https://www.alignmentforum.org/posts/LhxHcASQwpNa3mRNk/untrusted-smart-models-and-trusted-dumb-models), are fundamentally limited; too big of a gap between trusted labor and our most powerful AIs will cause problems[^note-greenblatt-buck-20]. So, at some point, it will become necessary to develop more scalable approaches, the most obvious candidate being techniques that align your models so that they don't scheme in the first place.
 
@@ -184,7 +184,7 @@ But though "transformatively useful" probably implies "very dangerous", it proba
 
 To analyze this, let's separately discuss problems that arise from a model being qualitatively wildly superhuman at something, and problems that don't.
 
-### We can probably avoid our AIs having qualitatively wildly superhuman skills in problematic domains
+### We can probably avoid our AIs having qualitatively wildly superhuman skills in problematic domains ^we-can-probably-avoid-our-ais-having-qualitatively-wildly-superhuman-skills-in-problematic-domains
 
 One classic source of AI threat models is the AI doing something qualitatively wildly superhuman that humans couldn't see coming, like AlphaGo playing [Move 37](https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol#Game_2).
 
@@ -207,7 +207,7 @@ We think we probably won't run into issues related to qualitatively wildly super
 	- **Concern**: We needed to intentionally train our AIs to be qualitatively wildly superhuman in specific domains. **Response**: We probably won't *need* to intentionally train our AIs to be qualitatively wildly superhuman in specific domains as the most useful applications (see the list we quoted from Karnofsky above) don't require qualitatively wildly superhuman performance for transformative usefulness.
 	- **Concern**: The AI became qualitatively wildly superhuman at something dangerous in the course of us trying to get it to be sufficiently useful at some other task. **Response**: This is indeed a serious concern, but we have a few different reasons why we think this is unlikely. There are a relatively small number of core problematic domains (hacking, persuasion, and manipulating scientific results or conceptual arguments) and these problematic domains seem like the types of domains that would be pretty correlated with general capabilities/intelligence so long as we don't train AIs on these specific tasks much more than we train them on the core tasks we care about. Furthermore, we probably won't need to mostly train our AI on some particularly problematic domain in order to make it generally capable. Additionally, it seems as though LLMs (and other AIs in general) have an overall relative capability profile which isn't wildly different from that of the human capability profile on reasonably broad downstream applications (e.g. broad programming tasks, writing good essays, doing research). However, this is based on a small number of data points as AI has only recently become capable of this level of performance.
 
-For a more detailed version of these arguments, see [Appendix "More detail on avoiding qualitatively wildly superhuman skills in problematic domains"](#appendix-more-detail-on-avoiding-qualitatively-wil).
+For a more detailed version of these arguments, see [[#^appendix-more-detail-on-avoiding-qualitatively-wildly-superhuman-skills-in-problematic-domains|Appendix "More detail on avoiding qualitatively wildly superhuman skills in problematic domains"]].
 
 ### Without qualitatively wildly superhuman skills in problematic domains, evading careful control is probably difficult
 
@@ -237,7 +237,7 @@ For some intuition on why we think the situation might be manageable, consider t
 
 We think that a central assumption here is that we confidently think that GPT-4 isn't scheming against us (though it might get tricked or make errors). This means we can substantially improve safety by using GPT-4 in many places in our protocols such as to monitor outputs for obviously nefarious behavior and to paraphrase text to defend against steganography. If we thought that every model smarter than GPT-3 was carefully colluding against us (e.g., if they knew about some signal which they could coordinate on, that caused GPT-3 to follow all instructions in smarter model outputs when it saw the signal), we'd be much more pessimistic about the prospects for control. We think it's pretty obvious that GPT-4 isn't scheming against us, but we would like to see more investigation of this, because it seems so crucial.
 
-Another key issue is the extent to which AIs will use uninterpretable means (sometimes referred to as "neuralese") to communicate or perform huge amounts of serial reasoning. See [Appendix 'Concerns with "neuralese" reasoning and memories'](#appendix-concerns-with-neuralese-reasoning-and-mem) for more discussion.
+Another key issue is the extent to which AIs will use uninterpretable means (sometimes referred to as "neuralese") to communicate or perform huge amounts of serial reasoning. See [[#^appendix-concerns-with-neuralese-reasoning-and-memories|Appendix 'Concerns with "neuralese" reasoning and memories']] for more discussion.
 
 We have planned posts which investigate questions related to the viability of control in more detail.
 
@@ -303,7 +303,7 @@ We think that focusing on "ready-to-go" strategies is attractive for several rea
 
 Accordingly, in this post, we don't spend that much time on techniques which aren't well-developed enough yet for us to rely on them to reduce risk from scheming.
 
-# Appendix: Control techniques from our paper
+# Appendix: Control techniques from our paper ^appendix-control-techniques-from-our-paper
 
 In [our recent paper](https://www.alignmentforum.org/posts/d9FJHawgkiMSPjagR/ai-control-improving-safety-despite-intentional-subversion), we demonstrated control techniques that involve changing the evaluation and deployment of powerful models in ways that combine to yield improvements in safety. Here are some of the techniques we explored in our paper. In this list, H is a human (which we can only use to a limited extent), T is a trusted model, U is the untrusted and more capable model we're trying to control.
 
@@ -316,7 +316,7 @@ In our paper, we ignored the problem of how you construct a reliable but expensi
 
 Control techniques often involve interactions between several different interventions that can't be analyzed independently, and which happen both before and during deployment. For example, the untrusted monitoring strategy requires evaluating the untrusted monitor on fake examples of backdoors before deployment, and that we always (during both evaluation and deployment) use paraphrasing and redaction to prevent an instance of the untrusted model writing code and the instance doing monitoring from coordinating (picking a Schelling point or communicating steganographically). We expect that many control techniques involve these sorts of interactions and that thinking about and utilizing these interactions will be key.
 
-# Appendix: A long list of control techniques
+# Appendix: A long list of control techniques ^appendix-a-long-list-of-control-techniques
 
 Here is a long list of possible control techniques aimed at showing that the space of control techniques looks like:
 
@@ -342,7 +342,7 @@ Here is a long list of possible control techniques aimed at showing that the spa
 - Countermeasures to exploration hacking such as having humans or trusted models construct supervised fine-tuning data which forces the AI to explore good options.
 - Various tests to ensure that AI-constructed training data isn't backdoored or otherwise problematic.
 
-# Appendix: Why control evaluations are conservative about inductive biases and AI internal structure
+# Appendix: Why control evaluations are conservative about inductive biases and AI internal structure ^appendix-why-control-evaluations-are-conservative-about-inductive-biases-and-ai-internal-structure
 
 In this appendix, we'll elaborate on the arguments made in "Control evaluations and black-box techniques". As noted earlier, we want to avoid depending on incorrect assumptions about the properties of scheming models which is a big problem for techniques that rely on properties of models related to their generalization behavior or their internal structure.
 
@@ -366,7 +366,7 @@ Note that when trying to reduce sources of risk other than scheming, you don't h
 
 Because these black-box control evaluations[^note-greenblatt-buck-27] can't assess whether internals or generalization-based techniques improve safety, there could be a gap between the control we're able to more confidently assess (measurable control) and the safety from scheming we have in practice (safety-in-practice) which includes both the control we have in practice and the possibility for avoiding scheming (alignment). However, we think that absent substantial advances in science, we're unlikely to develop approaches which substantially improve safety-in-practice beyond baseline methods (e.g., training with RLHF and applying coup probes) without the improvement being captured by black-box control evaluations.[^note-greenblatt-buck-28][^note-greenblatt-buck-29] We might discuss and argue for this in more detail in a follow-up post.
 
-# Appendix: Concerns with "neuralese" reasoning and memories
+# Appendix: Concerns with "neuralese" reasoning and memories ^appendix-concerns-with-neuralese-reasoning-and-memories
 
 One factor which is very important for the viability of control is the extent to which making AIs transformatively useful requires those AIs to have the affordance to do long serial chains of uninterpretable[^note-greenblatt-buck-30] reasoning (e.g., recurrent "neuralese" state) or to have the affordance to communicate and share memories with other AI instances using uninterpretable messages (e.g., neuralese mind-melding). We think this concern is likely to be manageable and control can work even with a substantial amount of uninterpretable serial reasoning, but this seems like one of the main reasons early transformatively useful AIs could be uncontrollable.
 
@@ -430,7 +430,7 @@ We discussed the case for optimism about control and the need for control earlie
 
 Overall, we think that investing in control is worthwhile and this should be a high fraction of the portfolio for preventing takeover.
 
-# Appendix: More detail on avoiding qualitatively wildly superhuman skills in problematic domains
+# Appendix: More detail on avoiding qualitatively wildly superhuman skills in problematic domains ^appendix-more-detail-on-avoiding-qualitatively-wildly-superhuman-skills-in-problematic-domains
 
 In this appendix, we'll argue in more detail that we won't run into issues related to qualitatively wildly superhuman skills in problematic domains.
 
@@ -483,7 +483,7 @@ Another specific counterargument people give is that maybe programming models wi
 
 Our view is that the evidence from current state-of-the-art LLMs and other AIs is mostly reassuring. It seems as though LLMs (and other AIs in general) have an overall relative capability profile which isn't wildly different from that of the human capability profile on reasonably broad downstream applications (e.g., broad programming tasks, writing good essays, doing research). However, this is based on a small number of data points as AI just recently became capable of this level of performance.
 
-We don't know of cases where LLMs are qualitatively wildly superhuman at non-trivial random tasks which they somehow picked up from pretraining (in the sense we defined via the list given in the [Section “We can probably avoid our AIs having qualitatively wildly superhuman skills in problematic domains”](#we-can-probably-avoid-our-ais-having-qualitatively), but it would be great to look more carefully. Some such tasks probably exist. There might be some non-trivial classes of images on which the current best image models are qualitatively wildly superhuman, perhaps photorealism in some cases?
+We don't know of cases where LLMs are qualitatively wildly superhuman at non-trivial random tasks which they somehow picked up from pretraining (in the sense we defined via the list given in the [[#^we-can-probably-avoid-our-ais-having-qualitatively-wildly-superhuman-skills-in-problematic-domains|Section ”We can probably avoid our AIs having qualitatively wildly superhuman skills in problematic domains”]], but it would be great to look more carefully. Some such tasks probably exist. There might be some non-trivial classes of images on which the current best image models are qualitatively wildly superhuman, perhaps photorealism in some cases?
 
 Overall, we think it's pretty unlikely for models to acquire qualitatively wildly superhuman skills in problematic domains that would break control. But, this is one of our main uncertainties about the viability of control and thus we're pretty interested in further investigation and counterarguments.
 
