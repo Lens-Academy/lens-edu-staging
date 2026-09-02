@@ -27,7 +27,6 @@ The case at full strength, from the people who argue it most directly. Any one o
 ::card[[../Lenses/AI Is Grown, Not Built]]
 
 ::card[[../Lenses/Four Background Claims]]
-> Nate Soares, MIRI, 2015. The assumptions doing the work beneath the argument.
 :::
 
 #### Question: Open
