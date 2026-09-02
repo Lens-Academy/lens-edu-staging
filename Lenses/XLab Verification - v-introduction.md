@@ -21,15 +21,15 @@ source:: [[../video_transcripts/ted-the-catastrophic-risks-of-ai-and-a-safer-pat
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788338716869}@@\## Optional:--}{++{"author":"Elias's AI","timestamp":1788338716869}@@:::callout {title="Optional:++} Further {--{"author":"Elias's AI","timestamp":1788338716869}@@Reading--}{++{"author":"Elias's AI","timestamp":1788338716869}@@Reading" tone="neutral" collapse="closed"}++}
+:::callout {title="Optional: Further Reading" tone="neutral" collapse="closed"}
 The case at full strength, from the people who argue it most directly. Any one of these:
 
 ::card[[../Lenses/AI Is Grown, Not Built]]
 > Eliezer Yudkowsky & Nate Soares, The Atlantic, September 2025. An edited excerpt of chapter 2 of *If Anyone Builds It, Everyone Dies*.
 
 ::card[[../Lenses/Four Background Claims]]
-> Nate Soares, MIRI, 2015. The assumptions doing the work beneath the argument.{++{"author":"Elias's AI","timestamp":1788338716869}@@
-:::++}
+> Nate Soares, MIRI, 2015. The assumptions doing the work beneath the argument.
+:::
 
 #### Question: Open
 id:: b7e5023a-0fed-4fc6-be79-0c7ece9f3106
