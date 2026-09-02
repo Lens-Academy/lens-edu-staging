@@ -16,15 +16,17 @@ content::
 
 A sixty-second exercise: before you scope policy for anyone else, audit one of your own.
 
-#### Question: Open
+{--{"author":"Elias's AI","timestamp":1788355762831}@@#### Question: Open
 id:: c7186c93-4751-4729-80c5-b57869936c9a
-content:: **Side A · The goal.** A policy you strongly believe in (or borrow one: Universal healthcare, School vouchers, A carbon tax, Banning phones in schools).
+content:: --}**Side A · The goal.** A policy you strongly believe in (or borrow one: Universal healthcare, School vouchers, A carbon tax, Banning phones in schools).
 
 **Side B · The price.** One real cost or downside of enforcing it. Be honest, one is enough. Stuck? Try a lens: Who pays? · Who is constrained? · What does enforcing it require? · What happens to those who refuse?
 
-Then write the full policy in one line: "I support ___ at the cost of ___."{++{"author":"Elias's AI","timestamp":1788355585414}@@
+Then write the full policy in one line:{--{"author":"Elias's AI","timestamp":1788355762831}@@ "I--}{++{"author":"Elias's AI","timestamp":1788355762831}@@
 
-The tutor reads your answer. Skip this one if you would rather not share the policy.++}
+#### Question: FillBlank
+id:: 57dc934f-9584-4a93-b1ca-4b7ff7ddfd3e
+content:: I++} support {--{"author":"Elias's AI","timestamp":1788355762831}@@___--}{++{"author":"Elias's AI","timestamp":1788355762831}@@{{blank}}++} at the cost of {--{"author":"Elias's AI","timestamp":1788355762831}@@___."--}{++{"author":"Elias's AI","timestamp":1788355762831}@@{{blank}}.++}
 optional:: true
 feedback-instructions:: Ungraded personal exercise. Check only that Side A names a policy and Side B names a real cost of enforcing that same policy (who pays, who is constrained, what enforcing it requires, or what happens to those who refuse), not a cost of the problem the policy addresses. One sentence of acknowledgement, no praise, no lecture.
 
