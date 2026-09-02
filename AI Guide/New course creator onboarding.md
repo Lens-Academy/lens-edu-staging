@@ -1,4 +1,4 @@
-# Message for a new course creator [warning: ]
+# Message for a new course creator [warning: contains cat typo, fixing...]
 
 Hey! Here is your Lens Editor link with edit access to the Lens Edu course folder:
 
