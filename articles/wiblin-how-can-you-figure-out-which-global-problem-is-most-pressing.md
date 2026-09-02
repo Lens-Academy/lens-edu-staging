@@ -178,11 +178,11 @@ If a problem helps with several columns, then focus on the column where the prob
 
 ## How to assess how neglected a problem is ^assess-neglectedness
 
-### Definition
+### Definition ^neglectedness-definition
 
 How many people, or dollars, are currently being dedicated to solving the problem?
 
-### Why is it important?
+### Why is it important? ^neglectedness-importance
 
 After a large amount of resources have been dedicated to a problem, you’ll hit _diminishing returns_. This is because people take the best opportunities for impact first, so as more and more resources get invested, it becomes harder and harder to make a difference. It’s therefore often better to focus on problems that have been neglected by others.
 
@@ -196,7 +196,7 @@ Also note that neglectedness is only a good proxy if the area is being neglected
 
 One particularly important way that a problem can end up neglected for bad reasons is if other people simply don’t value it. [This article](https://80000hours.org/2014/01/neglectedness-and-impact/) argues that if you care about something X times more than the average person, you should expect to be able to have X times as much impact by working on that area (by your lights). For instance, we think that the interests of future generations are dramatically undervalued by society, so by working on issues that aid future generations, we can have far more impact.
 
-### How to assess it
+### How to assess it ^neglectedness-assessment
 
 | **Crowdedness Score** | **What is the direct annual spending on the problem?** | **What is the number of full time staff working on the problem?** | **What is the number of active supporters of work on the problem?** |
 | --- | --- | --- | --- |
@@ -239,17 +239,17 @@ Finally, we are reluctant to give very high scores for neglectedness. Even obscu
 
 ## How to assess how solvable a problem is ^assess-solvability
 
-### Definition
+### Definition ^solvability-definition
 
 If we doubled direct effort on this problem, what fraction of the remaining problem would we expect to solve?
 
-### Why is it important?
+### Why is it important? ^solvability-importance
 
 Even if a problem is hugely important and highly neglected, that doesn’t mean it’s an important cause to focus on. There might simply be very little we can do about it.
 
 For example, ageing is a problem that is huge in scale: almost two thirds of global ill health is a result of ageing in some way. It’s also highly neglected: there are only a tiny number of research institutes focused on trying to prevent the causes of physical ageing (rather than to treat its symptoms, like cancer, stroke, Alzheimer’s, and so on). However, one reason it’s neglected is because many scientists believe it to be very hard to solve, which is a major reason against working on the problem right now (though its other advantages could be enough to offset this downside).
 
-### How to assess it
+### How to assess it ^solvability-assessment
 
 We use this rubric:
 
@@ -300,11 +300,11 @@ While personal fit is not assessed in our problem profiles, it is relevant to yo
 
 If you are comparing different problems you can use these extra scores to give a bonus to problems you are well suited to tackling.
 
-### Definition
+### Definition ^personal-fit-definition
 
 Given your skills, resources, knowledge, connections and passions, how likely are you to excel in this area?
 
-### How can it be assessed?
+### How can it be assessed? ^personal-fit-assessment
 
 -   What’s your most valuable career capital? Is it especially relevant to one problem and not the others?
 -   How motivated do you expect to be if you worked on this problem?
@@ -326,7 +326,7 @@ Bear in mind that it’s easy to underestimate the extent to which you can becom
 
 Finally, remember that a single problem can often be tackled in multiple ways. If you want to work on global health, you could work on the ground in the developing world, conduct biomedical research, go into politics and many other options besides. If one isn’t a good fit for you, another might be.
 
-## Other factors for comparing career opportunities
+## Other factors for comparing career opportunities ^other-factors
 
 To come to an all considered view on whether to take a job, you also need to consider the other factors in our [career framework](https://80000hours.org/articles/framework/), such as:
 
@@ -336,7 +336,7 @@ To come to an all considered view on whether to take a job, you also need to con
 
 In this article, we only cover comparisons of problem areas, but that’s not all that’s relevant.
 
-## How should we interpret the results?
+## How should we interpret the results? ^interpret-results
 
 If you’ve used our rubric above, you can add the scores together to get a rough answer of which problem will be more effective to work on.[^note-wiblin-problems-score-multiplication] Bear in mind that these scores are imprecise, and adding them increases the uncertainty even further, because we only measure each one imprecisely. This means you need to take your final summed score with a grain of salt – or rather a lot of salt.
 
@@ -348,7 +348,7 @@ Some other reasons for being modest about what such prioritisation research can 
 
 For more tips on making difficult judgement calls, take a look at [our checklist](https://80000hours.org/articles/making-an-assessment/).
 
-## How does this approach compare with ordinary cost-effectiveness analysis?
+## How does this approach compare with ordinary cost-effectiveness analysis? ^compare-cost-effectiveness
 
 What we want to know is this: ‘if I add an additional unit of resources to solving this problem, how much good will be accomplished’? The approach above looks at a problem from a bird’s eye view, and tries to assess how important it is to allocate more resources to solving it.
 
@@ -366,7 +366,7 @@ The main reason not to take this approach is that it’s extremely hard in many 
 
 It’s for this reason we have created the alternative framework above that can be applied to almost any problem.
 
-## Advantages and disadvantages of quantitative problem prioritisation
+## Advantages and disadvantages of quantitative problem prioritisation ^quantitative-prioritisation
 
 There are several benefits to going through the process above:
 
@@ -382,7 +382,7 @@ This is why we don’t simply go with the results of our scores. Rather, we cons
 
 For more on this topic, see [GiveWell’s discussion](http://blog.givewell.org/2014/06/10/sequence-thinking-vs-cluster-thinking/) of the weaknesses of ‘sequence thinking’ (which corresponds to an approach that’s heavily reliant on cost-effectiveness analysis) compared to ‘cluster thinking’. You can also see a [discussion of the pros and cons of quantification](http://reducing-suffering.org/quantify-with-care/).
 
-## How to factor in coordination?
+## How to factor in coordination? ^factor-coordination
 
 An individual can only focus on one or two areas at a time, but a large group of people working together should most likely spread out over several.
 
@@ -395,22 +395,22 @@ We call this the ‘portfolio approach’. [Read more](https://80000hours.org/ar
 
 Factoring in coordination can also have other effects on which problems to prioritise. For instance, it can be worth doing more work on an area than it first seems in order to compromise with or do moral trade with the other people you’re coordinating with. [Read more](https://80000hours.org/articles/coordination/#be-more-willing-to-compromise).
 
-## Conclusion
+## Conclusion ^conclusion
 
 We’ve shown how to compare different problems on each of our framework factors – scale, neglectedness, solvability and personal fit.
 
 While it is hard to measure effectiveness precisely, the differences identified between problems are often very large. This suggests that even inaccurate measurements could be a useful guide, compared to relying on intuition alone.
 
-### Want to help solve a pressing problem?
+### Want to help solve a pressing problem? ^help-pressing-problem
 
 If you’re interested in pursuing a career focusing on one of the world’s most pressing problems, our team might be able to speak with you one-on-one. We can help you consider which problems to prioritise. We can also help you consider your options, make connections with others working on the same issue, and possibly even help you find jobs or funding opportunities.
 
-## Further reading
+## Further reading ^further-reading
 
 -   [Crucial considerations and wise philanthropy](https://www.effectivealtruism.org/articles/crucial-considerations-and-wise-philanthropy-nick-bostrom/)
 -   [Take the portfolio approach to maximizing impact as a community.](https://80000hours.org/articles/coordination/#3-take-the-portfolio-approach)
 
-## Read next
+## Read next ^read-next
 
 This is a supporting article in our [foundations series](https://80000hours.org/advanced-series/). Read the [next article](https://80000hours.org/articles/leverage/) in the series, or here are some others you might find interesting:
 
