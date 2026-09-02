@@ -591,6 +591,7 @@ AI systems with excellent understanding of human morality could be even more dan
 
 :::
 
+:::hide
 ## How you can help
 
 [Above](#5-work-on-this-problem-is-neglected-and-tractable), we highlighted many approaches to mitigating the risks from power-seeking AI. You can use your career to help make this important work happen.
