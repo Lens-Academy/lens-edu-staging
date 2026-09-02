@@ -989,7 +989,7 @@ A feasibility rating of “High” indicates that there are no major technologic
 
 We have low confidence in most of the feasibility estimates. They are preliminary, quick, estimates, rather than a thorough analysis.
 
-### Building Blocks
+### Building Blocks ^building-blocks
 
 ### Locating Compute Building Blocks ^locating-compute-building-blocks
 
@@ -1079,7 +1079,7 @@ Medium ▾ 2–5 years
 
 If a FlexHEG is in place, additionally implementing location verification is likely easy and could be done in less than a year.
 
-Chip location tracking
+Chip location tracking ^chip-location-tracking
 
 Ping-based location tracking
 
@@ -1255,7 +1255,7 @@ High <1 year
 
 Covertly building a chip supply chain appears very difficult, and international regulations with [whistleblower programs](#) may be sufficient for detection.
 
-Physical inspection of fabs
+Physical inspection of fabs ^physical-inspection-fabs
 
 Physical inspection and continuous monitoring of fabs
 
@@ -1570,7 +1570,7 @@ Regardless of how they are manufactured, chips could be arranged in small pods w
 
 High 1–2 years
 
-Discussed [below](#)
+Discussed {--{"author":"Luc's AI","timestamp":1788382140856}@@[below](#)--}{++{"author":"Luc's AI","timestamp":1788382140856}@@[[#^networking-interconnect-limits|below]]++}
 
 Sensors for other properties of chips
 
@@ -1797,7 +1797,7 @@ Notes
 
 H100s already have confidential computing for single-chip setups, and it may not be too difficult to get this for multi-chip setups (Nertney, 2023). The adversarial robustness of current implementations is unclear, so new AI chips could be needed.
 
-Mutually trusted data center
+Mutually trusted data center ^mutually-trusted-data-center
 
 It may be necessary to run evaluations in a trusted data center where model details cannot leak, evaluations cannot leak, nor could a model developer spoof evaluation results. This level of security might come from a combination of improved chip security (it is likely difficult to gain mutual confidence in existing chips) and other security measures, such as reducing the amount of information that can leave the data center (Greenblatt, 2024) and using onsite staff who have limited external contact. While stronger chip security could take substantial R&D effort, lower-tech solutions that require more political will could be viable in the short-term.
 
@@ -1842,7 +1842,7 @@ As argued in previous work (Bucknall & Trager, 2023; Casper et al., 2024), effec
 |------------------|
 | Medium 1–4 years |
 
-General intelligence gathering to augment evaluations
+General intelligence gathering to augment evaluations ^intelligence-evaluation
 
 External deployment monitoring
 
