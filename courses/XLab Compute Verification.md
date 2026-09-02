@@ -11,6 +11,7 @@ tags: [wip]
 %% Source curriculum: https://aisafetytracks.com/tracks/verification (repo: https://github.com/XLabTracks/tracks) %%
 
 # Module: [[../modules/XLab Verification Overview]]
+intro-form:: true
 
 # Module: [[../modules/XLab Verification M0 Foundations]]
 
