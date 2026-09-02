@@ -55,7 +55,9 @@ content::
 \## Additional resources for this topic
 ::card[[../Lenses/IABIED - QA - Gradient Descent Matters]]
 > One-sentence hook saying what a curious learner gets from it.
-```
+```{++{"author":"Elias's AI","timestamp":1788339903055}@@
+
+All link and card forms with live examples — hooks, cards in closed callouts, module cards, hidden imports, image embeds: [[../Lenses/Links and cards demo]].++}
 
 ### What each `assessment-instructions::` brief must do
 
