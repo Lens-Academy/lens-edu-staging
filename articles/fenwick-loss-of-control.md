@@ -35,17 +35,17 @@ But what led us to this conclusion? Could AI really cause human extinction? We�
 
 To explain why, we break the argument down into five core claims:[^cite-3]
 
-1.  [Humans will likely build advanced AI systems with long-term goals](#1-humans-will-likely-build-advanced-ai-systems-wit).
-2.  [AIs with long-term goals may be inclined to seek power and aim to disempower humanity](#2-ais-with-long-term-goals-may-be-inclined-to-seek).
-3.  [These power-seeking AI systems could successfully disempower humanity and cause an existential catastrophe](#3-these-power-seeking-ai-systems-could-successfull).
-4.  [People might create power-seeking AI systems without enough safeguards, despite the risks](#4-people-might-create-power-seeking-ai-systems-wit).
-5.  [Work on this problem is neglected and tractable](#5-work-on-this-problem-is-neglected-and-tractable).
+1.  {--{"author":"Luc's AI","timestamp":1788373069499}@@[Humans will likely build advanced AI systems with long-term goals](#1-humans-will-likely-build-advanced-ai-systems-wit)--}{++{"author":"Luc's AI","timestamp":1788373069499}@@[[#^claim-1-long-term-goals]]++}.
+2.  {--{"author":"Luc's AI","timestamp":1788373069735}@@[AIs with long-term goals may be inclined to seek power and aim to disempower humanity](#2-ais-with-long-term-goals-may-be-inclined-to-seek)--}{++{"author":"Luc's AI","timestamp":1788373069735}@@[[#^claim-2-power-seeking]]++}.
+3.  {--{"author":"Luc's AI","timestamp":1788373069968}@@[These power-seeking AI systems could successfully disempower humanity and cause an existential catastrophe](#3-these-power-seeking-ai-systems-could-successfull)--}{++{"author":"Luc's AI","timestamp":1788373069968}@@[[#^claim-3-disempowerment]]++}.
+4.  {--{"author":"Luc's AI","timestamp":1788373070236}@@[People might create power-seeking AI systems without enough safeguards, despite the risks](#4-people-might-create-power-seeking-ai-systems-wit)--}{++{"author":"Luc's AI","timestamp":1788373070236}@@[[#^claim-4-insufficient-safeguards]]++}.
+5.  {--{"author":"Luc's AI","timestamp":1788373070491}@@[Work on this problem is neglected and tractable](#5-work-on-this-problem-is-neglected-and-tractable)--}{++{"author":"Luc's AI","timestamp":1788373070491}@@[[#^claim-5-neglected-tractable]]++}.
 
 After making the argument that the existential risk from power-seeking AI is a pressing world problem, we’ll discuss objections to this argument, and how you can work on it. (There are also other major risks from AI we discuss [elsewhere](https://80000hours.org/problem-profiles/).)
 
 If you’d like, you can watch our 10-minute video summarising the case for AI risk before reading further:
 
-### 1\. Humans will likely build advanced AI systems with long-term goals
+### 1\. Humans will likely build advanced AI systems with long-term goals ^claim-1-long-term-goals
 
 AI systems are getting better all the time. Epoch AI, a research organisation, tracks how AI systems perform on a range of tasks. While many observers previously predicted that AI progress would hit a wall before 2026, the improvement has been consistent:  
 ![Chart showing rising AI model accuracy from 2023–2026 across four benchmarks: GPQA Diamond, WeirdML V2, SWE-bench Verified, and FrontierMath.](https://80000hours.org/wp-content/uploads/2026/08/image2-e1786656297173.png)  
@@ -91,11 +91,11 @@ In this sense, AI systems will have _long-term goals_. They will model outcomes,
 
 And **third**, their advanced capabilities will mean they can do so much more than current systems. Software engineering is one domain where existing AI systems are quite capable, but AI companies have said they want to build AI systems that can outperform humans at most cognitive tasks.[^note-7] This means systems that can do much of the work of teachers, therapists, journalists, managers, scientists, engineers, CEOs, and more.
 
-The economic incentives for building these advanced AI systems are enormous, because they could potentially replace much of human labour and supercharge innovation. Some might think that such advanced systems are impossible to build, but as we discuss [below](#what-are-the-arguments-against-working-on-this-pro), we see no reason to be confident in that claim.
+The economic incentives for building these advanced AI systems are enormous, because they could potentially replace much of human labour and supercharge innovation. Some might think that such advanced systems are impossible to build, but as we discuss {--{"author":"Luc's AI","timestamp":1788373070757}@@[below](#what-are-the-arguments-against-working-on-this-pro)--}{++{"author":"Luc's AI","timestamp":1788373070757}@@[[#^arguments-against|below]]++}, we see no reason to be confident in that claim.
 
 And as long as such technology looks feasible, we should expect some companies will try to build it — and perhaps quite soon.[^note-8]
 
-### 2\. AIs with long-term goals may be inclined to seek power and aim to disempower humanity
+### 2\. AIs with long-term goals may be inclined to seek power and aim to disempower humanity ^claim-2-power-seeking
 
 So we currently have companies trying to build AI systems with goals over long time horizons, and we have reason to expect they’ll want to make these systems incredibly capable in other ways. This could be great for humanity, because automating labour and innovation might supercharge economic growth and allow us to solve countless societal problems.
 
@@ -199,7 +199,7 @@ This scenario raises two questions: could a power-seeking AI system really disem
 
 The next two sections address these questions.
 
-### 3\. These power-seeking AI systems could successfully disempower humanity and cause an existential catastrophe
+### 3\. These power-seeking AI systems could successfully disempower humanity and cause an existential catastrophe ^claim-3-disempowerment
 
 How could power-seeking AI systems actually disempower humanity? Any specific scenario will sound like sci-fi, but this shouldn’t make us think it’s impossible. The AI systems we have today were in the realm of sci-fi a decade or two ago.
 
@@ -257,7 +257,7 @@ Some have suggested that this might not be a bad thing. Perhaps AI systems would
 
 But we’re not comforted by the idea that an AI system that actively chose to undermine humanity would have control of the future because its developers failed to figure out how to control it. We think humanity can do much better than accidentally driving ourselves extinct. We should have a choice in how the future goes, and we should improve our ability to make good choices rather than falling prey to uncontrolled technology.
 
-#### How likely is an existential catastrophe from power-seeking AI?
+#### How likely is an existential catastrophe from power-seeking AI? ^catastrophe-likelihood
 
 We feel very uncertain about this question, and the range of opinions from AI researchers is wide. But while the subject remains controversial, there’s been increasingly wide recognition of the risks by experts and leading authorities. The [second International AI Safety Report](https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026), published in 2026 by a panel of more than 100 international experts and chaired by Yoshua Bengio, treats “loss of control” from AI as one of its named risk categories.
 
@@ -275,7 +275,7 @@ It’s also important to note that since all of the above surveys were gathered,
 
 We’ve reviewed many arguments and literature on a range of potentially existential threats, and we’ve consistently found that an AI-caused existential catastrophe seems most likely. And we think that even a relatively small likelihood of an extremely bad outcome like human extinction — such as a 1% chance — is worth taking very seriously.
 
-### 4\. People might create power-seeking AI systems without enough safeguards, despite the risks
+### 4\. People might create power-seeking AI systems without enough safeguards, despite the risks ^claim-4-insufficient-safeguards
 
 Given the above arguments, creating and deploying powerful AI systems could be extremely dangerous. But if it is so dangerous, shouldn’t we expect companies and others in charge of the technology to refrain from developing advanced AI systems unless they are confident it’s safe?
 
@@ -348,7 +348,7 @@ However, we haven’t seen substantial evidence that AI systems:
 -   Develop dangerous power-seeking tendencies without being prompted or manipulated to do so
 -   Are systematically trying to undermine human control
 
-### 5\. Work on this problem is neglected and tractable
+### 5\. Work on this problem is neglected and tractable ^claim-5-neglected-tractable
 
 In 2022, we estimated that there were about 300 people working on reducing catastrophic risks from AI. That number has clearly grown a lot. A [2025 analysis](https://forum.effectivealtruism.org/posts/7YDyziQxkWxbGmF3u/ai-safety-field-growth-analysis-2025) put the new total at 1,100 — and we think even this might be an undercount, since it only includes organisations that _explicitly_ brand themselves as working on ‘AI safety’.
 
@@ -409,9 +409,9 @@ The solutions aren’t only technical. Governance — at the company, country, a
 -   **International coordination**: we can foster global cooperation — for example, through treaties, international organisations, or multilateral agreements — to promote risk-mitigation and minimise racing.
 -   **Slowing or pausing scaling — if possible and appropriate**: [some argue](https://80000hours.org/podcast/episodes/zvi-mowshowitz-sleeper-agents-ai-updates/#pause-ai-campaign-013016) that we should slow down or halt all scaling of larger AI models — perhaps through industry-wide agreements or regulatory mandates — until we’re equipped to tackle these risks. However, even safety advocates disagree about [if or when this would be a good idea](https://80000hours.org/podcast/episodes/will-macaskill-ai-character-viatopia/#why-not-push-for-pausing-ai-development-014217).
 
-## What are the arguments against working on this problem?
+## What are the arguments against working on this problem? ^arguments-against
 
-As we said [above](#how-likely-is-an-existential-catastrophe-from-powe), we feel very uncertain about the likelihood of an existential catastrophe from the loss of control. Though we think the risks are significant enough to warrant much more attention, there are also arguments against working on the issue that are worth addressing.
+As we said {--{"author":"Luc's AI","timestamp":1788373071020}@@[above](#how-likely-is-an-existential-catastrophe-from-powe)--}{++{"author":"Luc's AI","timestamp":1788373071020}@@[[#^catastrophe-likelihood|above]]++}, we feel very uncertain about the likelihood of an existential catastrophe from the loss of control. Though we think the risks are significant enough to warrant much more attention, there are also arguments against working on the issue that are worth addressing.
 
 :::callout {title="Maybe advanced AI systems won't pursue their own goals; they'll just be tools controlled by humans." collapse="closed"}
 
@@ -423,7 +423,7 @@ There’s [some ambiguity](https://www.alignmentforum.org/posts/LDRQ5Zfqwi8GjzPY
 
 This means it could be easy to overestimate the chance that AIs will become goal-directed — but it could also be easy to _underestimate_ this chance. The uncertainty cuts both ways.
 
-In any case, as we’ve argued, AI companies seem [intent on automating human cognitive labour](#1-humans-will-likely-build-advanced-ai-systems-wit) — and creating goal-directed AI agents might just be the easiest or most straightforward way to do this.
+In any case, as we’ve argued, AI companies seem {--{"author":"Luc's AI","timestamp":1788373071287}@@[intent--}{++{"author":"Luc's AI","timestamp":1788373071287}@@[[#^claim-1-long-term-goals|intent++} on automating human cognitive {--{"author":"Luc's AI","timestamp":1788373071287}@@labour](#1-humans-will-likely-build-advanced-ai-systems-wit)--}{++{"author":"Luc's AI","timestamp":1788373071287}@@labour]]++} — and creating goal-directed AI agents might just be the easiest or most straightforward way to do this.
 
 In the short term, equipping human workers with sophisticated AI tools might be an attractive proposition. But as AIs get increasingly capable, we may reach a point where keeping a human in the loop actually produces worse results.
 
@@ -523,7 +523,7 @@ We aren’t fully convinced by this argument, though, because:
 
 -   Many critiques of current deep learning methods just haven’t stood the test of time. For example, Yann LeCun [claimed in 2022](https://x.com/cammakingminds/status/1659516423540965378) that deep learning-based models like ChatGPT would never be able to tell you what would happen if you placed an object on a table and then pushed that table — because “there’s no text in the world… that explains this.” But many AI models can now walk you through scenarios like this with ease. It’s possible that other critiques will similarly be proved wrong, and that scaling up current methods will produce AI systems which are advanced enough to pose serious risks.
 -   We think that powerful AI systems [might arrive very soon, possibly before 2030](https://80000hours.org/when-will-agi-arrive/). Even if those systems look quite different from existing AIs, they will likely share at least _some_ key features that are still relevant to our alignment efforts. And we’re more likely to be well-placed to mitigate the risks at that time if we’ve already developed a thriving research community dedicated to working on these problems, even if many of the approaches developed are made obsolete.
--   Even if current deep learning methods become totally irrelevant in the future, there is still work that people can do _now_ that might be useful for safety regardless of what our advanced AI systems actually look like. For example, many of the [governance and policy approaches](#5-work-on-this-problem-is-neglected-and-tractable) we discussed earlier could help to reduce the chance of deploying _any_ dangerous AI.
+-   Even if current deep learning methods become totally irrelevant in the future, there is still work that people can do _now_ that might be useful for safety regardless of what our advanced AI systems actually look like. For example, many of the {--{"author":"Luc's AI","timestamp":1788373071688}@@[governance--}{++{"author":"Luc's AI","timestamp":1788373071688}@@[[#^claim-5-neglected-tractable|governance++} and policy {--{"author":"Luc's AI","timestamp":1788373071688}@@approaches](#5-work-on-this-problem-is-neglected-and-tractable)--}{++{"author":"Luc's AI","timestamp":1788373071688}@@approaches]]++} we discussed earlier could help to reduce the chance of deploying _any_ dangerous AI.
 
 :::
 
@@ -531,7 +531,7 @@ We aren’t fully convinced by this argument, though, because:
 
 Someone could believe there are major risks from power-seeking AI, but be pessimistic about what additional research or policy work will accomplish, and so decide not to focus on it.
 
-However, we’re optimistic that this problem is tractable — and we highlighted earlier that [there are many approaches that could help us make progress on it](#5-work-on-this-problem-is-neglected-and-tractable).
+However, we’re optimistic that this problem is tractable — and we highlighted earlier that {--{"author":"Luc's AI","timestamp":1788373071972}@@[there--}{++{"author":"Luc's AI","timestamp":1788373071972}@@[[#^claim-5-neglected-tractable|there++} are many approaches that could help us make progress on {--{"author":"Luc's AI","timestamp":1788373071972}@@it](#5-work-on-this-problem-is-neglected-and-tractable)--}{++{"author":"Luc's AI","timestamp":1788373071972}@@it]]++}.
 
 We also think that given the stakes, it could make sense for many more people to work on reducing the risks from power-seeking AI, even if you think the chance of success is low. You’d have to think that it was _extremely_ difficult to reduce these risks in order to conclude that it’s better just to let them materialise and the chance of catastrophe play out.
 
@@ -594,7 +594,7 @@ AI systems with excellent understanding of human morality could be even more dan
 :::hide
 ## How you can help
 
-[Above](#5-work-on-this-problem-is-neglected-and-tractable), we highlighted many approaches to mitigating the risks from power-seeking AI. You can use your career to help make this important work happen.
+{--{"author":"Luc's AI","timestamp":1788373072225}@@[Above](#5-work-on-this-problem-is-neglected-and-tractable)--}{++{"author":"Luc's AI","timestamp":1788373072225}@@[[#^claim-5-neglected-tractable|Above]]++}, we highlighted many approaches to mitigating the risks from power-seeking AI. You can use your career to help make this important work happen.
 
 There are many ways to contribute — and you _don’t_ need to have a technical background.
 
