@@ -595,7 +595,7 @@ So the two failures have different meanings. Failure of continuity says that som
 
 **(c)** Give an example of a lexicographic preference over three outcomes and show that it violates continuity.
 
-**(d)** Write down the Allais pattern from [[#5. Lotteries and the von Neumann–Morgenstern axioms|Section 5]] and explain which axiom it violates.
+**(d)** Write down the Allais pattern from [[#^lotteries-von-neumann-morgenstern-axioms|Section 5]] and explain which axiom it violates.
 :::
 
 ^ex-vnm-failures
@@ -606,7 +606,7 @@ So the two failures have different meanings. Failure of continuity says that som
 1. Let $x\succ y$, $x\succ z$, with $y$ and $z$ incomparable (neither $y\succcurlyeq z$ nor $z\succcurlyeq y$). Any $u\colon\{x,y,z\}\to\mathbb{R}$ satisfies $u(y)\geq u(z)$ or $u(z)\geq u(y)$ because the reals are totally ordered, so the relation it represents is complete; incomparability cannot be encoded by a single real-valued function.
 2. Take $x\succ y\succ z\succ x$. Suppose you hold $x$ and are willing to pay some small $\varepsilon>0$ to exchange an item for one you strictly prefer. Since $z\succ x$ you pay to swap $x\to z$; since $y\succ z$ you pay to swap $z\to y$; since $x\succ y$ you pay to swap $y\to x$. You are back where you started, $3\varepsilon$ poorer, and the cycle can be run forever.
 3. Give outcomes two attributes and compare lexicographically (the first attribute decides unless tied): $A=(1,0)$, $B=(0,1)$, $C=(0,0)$, so $A\succ B\succ C$. Extend to lotteries by comparing expected attribute vectors lexicographically. Continuity would require some $p\in[0,1]$ with $B\sim pA+(1-p)C$. But that mixture has attribute vector $(p,0)$: for every $p>0$ it beats $B$ on the first attribute, and for $p=0$ it is $C\succ$-below $B$. No mixing weight produces indifference.
-4. With $h_{5}\succ h_{1}\succ h_{0}$ paying $5$, $1$ and $0$ million, the pattern of [[#5. Lotteries and the von Neumann–Morgenstern axioms|Section 5]] is
+4. With $h_{5}\succ h_{1}\succ h_{0}$ paying $5$, $1$ and $0$ million, the pattern of [[#^lotteries-von-neumann-morgenstern-axioms|Section 5]] is
 
 $$
 A = 1\cdot h_{1}, \qquad B = 0.89\,h_{1}+0.10\,h_{5}+0.01\,h_{0},

@@ -418,7 +418,7 @@ $$
 
 where the last step uses $\sum_{s'}T(s' \mid s, a) = 1$ and $\sum_{a} \pi(a \mid s) = 1$. Taking the maximum over $s$ gives $\|\mathcal{B}_{\pi} V - \mathcal{B}_{\pi} W\|_{\infty} \le \gamma\,\|V - W\|_{\infty}$, so $\mathcal{B}_{\pi}$ is a contraction with factor $\gamma$.
 
-By [[#^thm-banach|Theorem 3.1]], $\mathcal{B}_{\pi}$ has a unique fixed point. By the Bellman equation ([[#1. The Bellman equation|Section 1]]), $V_{\pi}$ satisfies $\mathcal{B}_{\pi} V_{\pi} = V_{\pi}$, so $V_{\pi}$ is this unique fixed point. The convergence statement also follows from [[#^thm-banach|Theorem 3.1]].
+By [[#^thm-banach|Theorem 3.1]], $\mathcal{B}_{\pi}$ has a unique fixed point. By the Bellman equation ([[#^bellman-equation|Section 1]]), $V_{\pi}$ satisfies $\mathcal{B}_{\pi} V_{\pi} = V_{\pi}$, so $V_{\pi}$ is this unique fixed point. The convergence statement also follows from [[#^thm-banach|Theorem 3.1]].
 
 :::
 
@@ -795,7 +795,7 @@ Each step weakens the bound by replacing realized information with something coa
 
 \## 6. Convergence of Q-learning
 
-The policy improvement theorem from [[#4. Policy improvement theorem|Section 4]] shows that we can in principle find an optimal policy in MDPs. However, it makes the uncomfortable assumption that we know the environment dynamics via the transition kernel $T$. In this problem, we prove that $Q$-learning, which does not make such an assumption, converges to the optimal action-value function, from which one can trivially extract an optimal policy by choosing actions greedily.
+The policy improvement theorem from [[#^policy-improvement-theorem|Section 4]] shows that we can in principle find an optimal policy in MDPs. However, it makes the uncomfortable assumption that we know the environment dynamics via the transition kernel $T$. In this problem, we prove that $Q$-learning, which does not make such an assumption, converges to the optimal action-value function, from which one can trivially extract an optimal policy by choosing actions greedily.
 
 \### Stochastic approximation theorem
 
@@ -911,7 +911,7 @@ Taking the maximum over $(s,a)$ gives $\|\mathcal{B}Q - \mathcal{B}Q'\|_{\infty}
 :::
 
 :::callout {title="Exercise" tone="amber"}
-**Exercise 6.2.** Define $Q^{*} \coloneqq Q_{\pi^*}$, the action-value function of the optimal policy $\pi^{*}$ from [[#3. Bellman operators and the existence of optimal policies|Section 3]]. We now show Bellman optimality equations and their consequences.
+**Exercise 6.2.** Define $Q^{*} \coloneqq Q_{\pi^*}$, the action-value function of the optimal policy $\pi^{*}$ from [[#^bellman-operators-optimal-policies|Section 3]]. We now show Bellman optimality equations and their consequences.
 
 **(a)** Show that $Q^{*}(s,a) = \sum_{s' \in \mathcal{S}}T(s' \mid s, a)\bigl[R(s,a,s') + \gamma\, V^{*}(s')\bigr]$.
 

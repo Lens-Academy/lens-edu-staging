@@ -50,10 +50,10 @@ $$
 
 How to construct a predictor $P$ such that $S^{\mu}_{\infty}$ is small (or at least finite)? Bayesian inference to the rescue: we choose as our predictor a *Bayesian mixture* $\xi$ over a countable class $\mathcal{M} = \{\nu_{1}, \nu_{2}, \dots\}$ of candidate environments, weighted by prior beliefs $w_{\nu}$ (formalized in [[#^def-mixture|Theorem 1.2]]). The main results we build up to are:
 
-- **Cumulative bound** ([[#4. Cumulative prediction error bound (main result)|Section 4]]): Assuming $\mu \in \mathcal{M}$, $S^{\mu}_{\infty} \leq -\ln w_{\mu}$. The higher the prior on $\mu$, the lower the prediction error.
+- **Cumulative bound** ([[#^cumulative-prediction-error-bound|Section 4]]): Assuming $\mu \in \mathcal{M}$, $S^{\mu}_{\infty} \leq -\ln w_{\mu}$. The higher the prior on $\mu$, the lower the prediction error.
 - **Explicit bound** ([[#^prob-bound-explicit-ex|Exercise 4.2]]): specialize to the Solomonoff prior $w_{\nu} = 2^{-K(\nu)}$ to get $S^{\mu}_{\infty} \leq K(\mu)\ln 2$, where $K$ is the *Kolmogorov complexity*.
 - **Pareto optimality** ([[#^prob-kl-pareto|Exercise 6.2]] and [[#^prob-sq-pareto|8.2]]): no other predictor weakly dominates $\xi$ on every $\nu \in \mathcal{M}$, for either KL or squared loss.
-- **Misspecified version** ([[#7. Misspecified models: when $\mu \notin \mathcal{M}$|Section 7]]): If $\mu \not\in \mathcal{M}$, the cumulative bound becomes $-\ln w_{\hat\mu}+ D_{n}(\mu \parallel \hat\mu)$: the constant complexity term plus an approximation term $D_{n}(\mu \parallel \hat\mu) = \sum_{t=1}^{n} d_{t}(\mu \parallel \hat\mu)$ that in general grows linearly in $n$, so $S^{\mu}_{\infty}$ diverges. Here $\hat{\mu}\in \mathcal{M}$ is the "closest" environment to $\mu$.
+- **Misspecified version** ([[#^misspecified-models|Section 7]]): If $\mu \not\in \mathcal{M}$, the cumulative bound becomes $-\ln w_{\hat\mu}+ D_{n}(\mu \parallel \hat\mu)$: the constant complexity term plus an approximation term $D_{n}(\mu \parallel \hat\mu) = \sum_{t=1}^{n} d_{t}(\mu \parallel \hat\mu)$ that in general grows linearly in $n$, so $S^{\mu}_{\infty}$ diverges. Here $\hat{\mu}\in \mathcal{M}$ is the "closest" environment to $\mu$.
 
 \## Notation
 
@@ -260,7 +260,7 @@ $$
 
 \## 2. KL divergence
 
-The KL divergence between two joint distributions over a length-$n$ history splits, by an inductive application of the chain rule for probabilities, into a sum of per-step conditional KLs. This telescoping identity lets us trade a single joint KL over an entire history for a sum of per-step KLs (and vice versa): exactly the bridge we will need in [[#4. Cumulative prediction error bound (main result)|Section 4]].
+The KL divergence between two joint distributions over a length-$n$ history splits, by an inductive application of the chain rule for probabilities, into a sum of per-step conditional KLs. This telescoping identity lets us trade a single joint KL over an entire history for a sum of per-step KLs (and vice versa): exactly the bridge we will need in [[#^cumulative-prediction-error-bound|Section 4]].
 
 We introduce two pieces of notation that will be used throughout the rest of the worksheet:
 
@@ -288,7 +288,7 @@ We write $D_{\infty}(\nu \parallel \rho) := \lim_{t \to \infty}D_{t}(\nu \parall
 - **(a)** $D_{n}(\nu \parallel \rho) \geq 0$, with equality iff $\nu(x_{1:n}) = \rho(x_{1:n})$ for every $x_{1:n}\in \mathbb{B}^{n}$ with $\nu(x_{1:n}) > 0$.
 - **(b)** $d_{t}(\nu \parallel \rho) \geq 0$, with equality iff $\nu(x_{t} \mid x_{<t}) = \rho(x_{t} \mid x_{<t})$ for every $x_{<t}$ with $\nu(x_{<t}) > 0$ and every $x_{t} \in \mathbb{B}$.
 
-Proof in [[#B. Proof of KL non-negativity|Section B]].
+Proof in [[#^proof-kl-non-negativity|Section B]].
 
 :::
 
@@ -336,7 +336,7 @@ $$
 
 \## 3. Mixture dominance ^mixture-dominance
 
-The mixture $\xi$ never assigns much less probability than any single environment weighted by its prior. This single inequality is the engine behind the cumulative bound of [[#4. Cumulative prediction error bound (main result)|Section 4]] below: dividing through gives $\mu(x)/\xi(x) \leq 1/w_{\mu}$, which is then fed into Pinsker and the chain rule in the proof of the main cumulative bound.
+The mixture $\xi$ never assigns much less probability than any single environment weighted by its prior. This single inequality is the engine behind the cumulative bound of [[#^cumulative-prediction-error-bound|Section 4]] below: dividing through gives $\mu(x)/\xi(x) \leq 1/w_{\mu}$, which is then fed into Pinsker and the chain rule in the proof of the main cumulative bound.
 
 :::callout {title="Exercise" tone="amber"}
 **Exercise 3.1 (Mixture dominance) [05].** Show that for every $\nu \in \mathcal{M}$ and every $x \in \mathbb{B}^{*}$,
@@ -387,7 +387,7 @@ $$
 
 ^thm-pinsker
 
-The proof of this inequality is mostly tedious algebra but is included in [[#A. Proof of Pinsker's inequality|Section A]].
+The proof of this inequality is mostly tedious algebra but is included in [[#^proof-pinskers-inequality|Section A]].
 
 :::callout {title="Definition" tone="purple"}
 
@@ -429,7 +429,7 @@ $$
 S^{\mu}_{\infty} ~\stackrel{(1)}{\leq}~ D^{\mu}_{\infty} ~\stackrel{(2)}{\leq}~ \lim_{n \to \infty}\sum_{x_{1:n}}\mu(x_{1:n}) \,\ln \tfrac{1}{w_\mu}~\stackrel{(3)}{=}~ -\ln w_{\mu}.
 $$
 
-*Step (1): Pinsker, pointwise.* For each $t$ and $x_{<t}$, both $\mu(\cdot \mid x_{<t})$ and $\xi(\cdot \mid x_{<t})$ are probability distributions on $\mathbb{B}$ ($\xi$ by [[#1. The mixture is a predictor|Section 1]]), so [[#^thm-pinsker|Theorem 4.1]] gives
+*Step (1): Pinsker, pointwise.* For each $t$ and $x_{<t}$, both $\mu(\cdot \mid x_{<t})$ and $\xi(\cdot \mid x_{<t})$ are probability distributions on $\mathbb{B}$ ($\xi$ by [[#^mixture-is-predictor|Section 1]]), so [[#^thm-pinsker|Theorem 4.1]] gives
 
 $$
 \sum_{x_t}\bigl(\xi(x_{t} \mid x_{<t}) - \mu(x_{t} \mid x_{<t})\bigr)^{2} \leq \sum_{x_t}\mu(x_{t} \mid x_{<t}) \,\ln \tfrac{\mu(x_t \mid x_{<t})}{\xi(x_t \mid x_{<t})}.
@@ -444,7 +444,7 @@ Multiplying by $\mu(x_{<t}) \geq 0$ and summing over $x_{<t}$ gives $s_{t}(\mu \
 :::
 
 :::callout {title="Exercise" tone="amber"}
-**Exercise 4.2 (Explicit complexity bound) [05].** Specialize [[#4. Cumulative prediction error bound (main result)|Section 4]] to the **Solomonoff prior** $w_{\nu} = 2^{-K(\nu)}$ (where $K(\nu)$ is the length of the shortest program computing $\nu$) to show
+**Exercise 4.2 (Explicit complexity bound) [05].** Specialize [[#^cumulative-prediction-error-bound|Section 4]] to the **Solomonoff prior** $w_{\nu} = 2^{-K(\nu)}$ (where $K(\nu)$ is the length of the shortest program computing $\nu$) to show
 
 $$
 S_{\infty}^{\mu}\leq K(\mu) \ln 2.
@@ -456,7 +456,7 @@ $$
 
 :::callout {title="Solution" tone="neutral" collapse="closed"}
 
-By [[#4. Cumulative prediction error bound (main result)|Section 4]], for *any* prior, $S_{\infty}^{\mu}\leq -\ln w_{\mu}$. The Solomonoff prior assigns $\mu$ the weight $w_{\mu} = 2^{-K(\mu)}$, so
+By [[#^cumulative-prediction-error-bound|Section 4]], for *any* prior, $S_{\infty}^{\mu}\leq -\ln w_{\mu}$. The Solomonoff prior assigns $\mu$ the weight $w_{\mu} = 2^{-K(\mu)}$, so
 
 $$
 S_{\infty}^{\mu}~\leq~ -\ln w_{\mu} ~=~ -\ln 2^{-K(\mu)}~=~ K(\mu) \ln 2.
@@ -532,7 +532,7 @@ $$
 \tfrac12 \cdot N ~\leq~ \sum_{t \,:\, \hat{x}_t \neq x_t^*}s_{t} ~\leq~ \sum_{t=1}^{\infty} s_{t} ~=~ S^{\mu}_{\infty} ~\leq~ -\ln w_{\mu},
 $$
 
-where the last step is [[#4. Cumulative prediction error bound (main result)|Section 4]]. Rearranging, $N \leq -2 \ln w_{\mu}$.
+where the last step is [[#^cumulative-prediction-error-bound|Section 4]]. Rearranging, $N \leq -2 \ln w_{\mu}$.
 
 :::
 
@@ -562,7 +562,7 @@ $$
 
 $\xi$ is **Pareto-optimal** (w.r.t. $\mathcal{F}$) if the only predictor that weakly dominates it is $\xi$ itself.
 
-We specialize $\mathcal{F}$ to $D_{n}(\nu \parallel \rho)$ in [[#6. Pareto optimality under KL loss|Section 6]] and to $S_{n}(\nu \parallel \rho)$ in [[#8. Pareto optimality under squared loss|Section 8]].
+We specialize $\mathcal{F}$ to $D_{n}(\nu \parallel \rho)$ in [[#^pareto-optimality-kl-loss|Section 6]] and to $S_{n}(\nu \parallel \rho)$ in [[#^pareto-optimality-squared-loss|Section 8]].
 
 :::
 
@@ -648,7 +648,7 @@ so [[#^eq-kl-weighted-dom|Equation 3]] forces $D_{n}(\xi \parallel \rho) \leq 0$
 
 \## 7. Misspecified models: when $\mu \notin \mathcal{M}$ ^misspecified-models
 
-The cumulative bound [[#4. Cumulative prediction error bound (main result)|Section 4]] assumed the true environment $\mu$ lives in the model class $\mathcal{M}$. What happens when it does not? We now show the bound *degrades gracefully*: it splits cleanly into a complexity term ("cost of not knowing which model is best"), exactly as before, plus a linear-in-time approximation term ("cost of no model being right"). See ([[#^bib-hutter-04uaibook|Hutter 2005]], §3.2.8) for the original treatment.
+The cumulative bound [[#^cumulative-prediction-error-bound|Section 4]] assumed the true environment $\mu$ lives in the model class $\mathcal{M}$. What happens when it does not? We now show the bound *degrades gracefully*: it splits cleanly into a complexity term ("cost of not knowing which model is best"), exactly as before, plus a linear-in-time approximation term ("cost of no model being right"). See ([[#^bib-hutter-04uaibook|Hutter 2005]], §3.2.8) for the original treatment.
 
 Throughout this section, we no longer assume $\mu \in \mathcal{M}$. We will state the bound in terms of an arbitrary $\hat\mu \in \mathcal{M}$, so taking the infimum over $\hat\mu$ on the right-hand side gives the tightest version by using the "closest" approximation of $\hat{\mu}\in \mathcal{M}$ to $\mu$.
 :::callout {title="Exercise" tone="amber"}
@@ -670,7 +670,7 @@ Use [[#^prob-dominance-ex|Exercise 3.1]].
 
 :::callout {title="Solution" tone="neutral" collapse="closed"}
 
-Mixture dominance applied to $\hat\mu \in \mathcal{M}$ ([[#3. Mixture dominance|Section 3]]) gives $\xi(x_{1:n}) \geq w_{\hat\mu}\, \hat\mu(x_{1:n})$ for every $x_{1:n}$. Hence $\mu(x_{1:n}) / \xi(x_{1:n}) \leq \mu(x_{1:n}) / (w_{\hat\mu}\, \hat\mu(x_{1:n}))$, and taking logs,
+Mixture dominance applied to $\hat\mu \in \mathcal{M}$ ([[#^mixture-dominance|Section 3]]) gives $\xi(x_{1:n}) \geq w_{\hat\mu}\, \hat\mu(x_{1:n})$ for every $x_{1:n}$. Hence $\mu(x_{1:n}) / \xi(x_{1:n}) \leq \mu(x_{1:n}) / (w_{\hat\mu}\, \hat\mu(x_{1:n}))$, and taking logs,
 
 $$
 \ln \frac{\mu(x_{1:n})}{\xi(x_{1:n})}~\leq~ -\ln w_{\hat\mu}\;+\; \ln \frac{\mu(x_{1:n})}{\hat\mu(x_{1:n})}.
@@ -685,13 +685,13 @@ Now take the $\mu$-expectation. The LHS becomes $D_{n}(\mu \parallel \xi)$; the 
 **Remark (Reading the two terms).** The right-hand side splits into two qualitatively different terms:
 
 - $-\ln w_{\hat\mu}$ is *constant in $n$*: under the Solomonoff prior, this is $K(\hat\mu)\ln 2$. The familiar "complexity" cost of search.
-- The approximation term $D_{n}(\mu \parallel \hat\mu) = \sum_{t=1}^{n} d_{t}(\mu \parallel \hat\mu)$ (by [[#^prob-telescope-ex|Exercise 2.1]]) is a sum of $n$ per-step KLs; in general it grows with $n$. It vanishes identically iff $\hat\mu$ matches $\mu$ on every $\mu$-reachable history, in particular when $\mu \in \mathcal{M}$ and we pick $\hat\mu = \mu$, recovering [[#4. Cumulative prediction error bound (main result)|Section 4]].
+- The approximation term $D_{n}(\mu \parallel \hat\mu) = \sum_{t=1}^{n} d_{t}(\mu \parallel \hat\mu)$ (by [[#^prob-telescope-ex|Exercise 2.1]]) is a sum of $n$ per-step KLs; in general it grows with $n$. It vanishes identically iff $\hat\mu$ matches $\mu$ on every $\mu$-reachable history, in particular when $\mu \in \mathcal{M}$ and we pick $\hat\mu = \mu$, recovering [[#^cumulative-prediction-error-bound|Section 4]].
 
 Combining with Pinsker ([[#^thm-pinsker|Theorem 4.1]]) gives the corresponding bound on $S^{\mu}_{\infty}$, which is infinite in general but inherits the rate of $\hat\mu$.
 
 :::
 
-Details on how to define the best choice of $\hat{\mu}$ are in [[#D. Best choice of $\hat{\mu}\in \mathcal{M}$.|Section D]].
+Details on how to define the best choice of $\hat{\mu}$ are in [[#^best-choice-model|Section D]].
 
 \## 8. Pareto optimality under squared loss ^pareto-optimality-squared-loss
 

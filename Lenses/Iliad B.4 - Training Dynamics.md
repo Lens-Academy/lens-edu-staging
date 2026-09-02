@@ -400,7 +400,7 @@ The general depth-$L$ result $\dot{W}= \sum_{k=1}^{L}(WW^{\top})^{(L-k)/L}(M-W)(
 
 \## 4. Rich regime: saddle-to-saddle ^rich-regime-saddle-to-saddle
 
-This is the core problem. We derive the exact solution of the rich regime dynamics directly from the self-consistent equation of [[#3. Gradient flow and conserved quantities|Section 3]], emphasizing the NTK perspective.
+This is the core problem. We derive the exact solution of the rich regime dynamics directly from the self-consistent equation of [[#^gradient-flow-conserved-quantities|Section 3]], emphasizing the NTK perspective.
 
 **Alignment assumption.** Start from the balanced gradient flow equation derived in [[#^ex-td-2civ|Exercise 3.6]]:
 
@@ -557,7 +557,7 @@ $$
 
 For a fixed ratio $w_{f}/s_{\alpha}$ and fixed $w_{0}$, the learning time scales as $t_{\alpha} \propto 1/s_{\alpha}$: **modes with larger singular values are learned faster**. The network learns features in decreasing order of their strength — a strong separation of timescales.
 
-**Contrast with the lazy regime** (anticipating [[#5. Lazy regime|Section 5]]): in the lazy regime the NTK is frozen at $K_{0} = 2w_{0} \gg 1$, so $\dot{w}_{\alpha} \approx 2w_{0}(s_{\alpha} - w_{\alpha})$. All modes converge at the same exponential rate $2w_{0}$, independent of $s_{\alpha}$. The rich regime has state-dependent NTK ($2w_{\alpha}$), creating a positive feedback loop — modes that are already large learn even faster — which amplifies the differences between $s_{\alpha}$ into a hierarchy of timescales $t_{1} \ll t_{2} \ll \cdots \ll t_{r}$. $\square$
+**Contrast with the lazy regime** (anticipating [[#^lazy-regime|Section 5]]): in the lazy regime the NTK is frozen at $K_{0} = 2w_{0} \gg 1$, so $\dot{w}_{\alpha} \approx 2w_{0}(s_{\alpha} - w_{\alpha})$. All modes converge at the same exponential rate $2w_{0}$, independent of $s_{\alpha}$. The rich regime has state-dependent NTK ($2w_{\alpha}$), creating a positive feedback loop — modes that are already large learn even faster — which amplifies the differences between $s_{\alpha}$ into a hierarchy of timescales $t_{1} \ll t_{2} \ll \cdots \ll t_{r}$. $\square$
 
 :::
 
@@ -592,9 +592,9 @@ This is an **implicit bias toward low-rank (simple) solutions**: at any finite t
 
 \## 5. Lazy regime ^lazy-regime
 
-We now show that large initialization freezes the NTK and eliminates the timescale separation found in [[#4. Rich regime: saddle-to-saddle|Section 4]]. For clarity, we work with the **diagonal scalar** model from [[#^ex-td-1a|Exercise 2.1]], so each mode $\alpha$ is independent. This avoids matrix algebra and isolates the essential mechanism.
+We now show that large initialization freezes the NTK and eliminates the timescale separation found in [[#^rich-regime-saddle-to-saddle|Section 4]]. For clarity, we work with the **diagonal scalar** model from [[#^ex-td-1a|Exercise 2.1]], so each mode $\alpha$ is independent. This avoids matrix algebra and isolates the essential mechanism.
 
-**Setup.** Consider a single mode: a depth-2 diagonal DLN with scalar weights $a, b$ learning a target $s > 0$. From [[#3. Gradient flow and conserved quantities|Section 3]] and [[#4. Rich regime: saddle-to-saddle|4]], the balanced gradient flow for $w = ab$ is:
+**Setup.** Consider a single mode: a depth-2 diagonal DLN with scalar weights $a, b$ learning a target $s > 0$. From [[#^gradient-flow-conserved-quantities|Section 3]] and [[#^rich-regime-saddle-to-saddle|4]], the balanced gradient flow for $w = ab$ is:
 
 $$
 \dot{w}= 2w(s - w)
@@ -652,7 +652,7 @@ $$
 \boxed{w(t) = s + (w_0 - s)\,e^{-2w_0 t}}
 $$
 
-This is **exponential** convergence to $s$ (contrast with the sigmoid of [[#4. Rich regime: saddle-to-saddle|Section 4]]). The learning timescale is:
+This is **exponential** convergence to $s$ (contrast with the sigmoid of [[#^rich-regime-saddle-to-saddle|Section 4]]). The learning timescale is:
 
 $$
 t_{\text{lazy}}\sim \frac{1}{2w_{0}}
@@ -708,7 +708,7 @@ In the lazy regime, all components of $M$ are learned simultaneously: signal and
 In practice, networks are neither purely lazy nor purely rich. Tu, Aranguri & Jacot (2024) provide a unified description. We develop the key ideas using the diagonal scalar model.
 
 :::callout {title="Exercise" tone="amber"}
-**Exercise 6.1 (The interpolating ODE).** In [[#4. Rich regime: saddle-to-saddle|Section 4]] and [[#5. Lazy regime|5]], we studied the same ODE $\dot{w}_{\alpha} = 2w_{\alpha}(s_{\alpha} - w_{\alpha})$ in two limits: small $w_{0}$ (rich) and large $w_{0}$ (lazy). A more general model for a depth-2 DLN with balanced initialization at scale $\sigma$ and width $n$ replaces the scalar NTK $2w_{\alpha}$ by:
+**Exercise 6.1 (The interpolating ODE).** In [[#^rich-regime-saddle-to-saddle|Section 4]] and [[#^lazy-regime|5]], we studied the same ODE $\dot{w}_{\alpha} = 2w_{\alpha}(s_{\alpha} - w_{\alpha})$ in two limits: small $w_{0}$ (rich) and large $w_{0}$ (lazy). A more general model for a depth-2 DLN with balanced initialization at scale $\sigma$ and width $n$ replaces the scalar NTK $2w_{\alpha}$ by:
 
 $$
 \dot{w}_{\alpha} = 2\sqrt{w_{\alpha}^{2} + \tau^{2}}\;(s_{\alpha} - w_{\alpha})
@@ -743,7 +743,7 @@ $$
 \dot{w}_{\alpha} \approx 2\tau(s_{\alpha} - w_{\alpha})
 $$
 
-This is a linear ODE with rate $2\tau$, independent of $s_{\alpha}$ — the frozen-NTK regime of [[#5. Lazy regime|Section 5]] (with $\tau$ playing the role of $w_{0}$). $\square$
+This is a linear ODE with rate $2\tau$, independent of $s_{\alpha}$ — the frozen-NTK regime of [[#^lazy-regime|Section 5]] (with $\tau$ playing the role of $w_{0}$). $\square$
 
 :::
 
