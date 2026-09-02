@@ -8,15 +8,15 @@ duration_minutes: 200
 ---
 #### Text
 content::
-\## 0.2: Building Verification Intuitions
+{--{"author":"Elias's AI","timestamp":1788357578777}@@\## 0.2: Building Verification Intuitions
 
-Now that we've established the foundational motivations for why verification is important, we'll dive into building key intuitions around the timelines, scope, and urgency of what a verification regime might actually look like. We'll do this by analyzing AI 2040: Plan A, the most detailed and well-known public attempt to forecast a successful AI slowdown and complement verification regime.
+--}Now that we've established the foundational motivations for why verification is important, we'll dive into building key intuitions around the timelines, scope, and urgency of what a verification regime might actually look like. We'll do this by analyzing AI 2040: Plan A, the most detailed and well-known public attempt to forecast a successful AI slowdown and complement verification regime.
 
 \## AI 2040: Plan A?
 
 What is the ideal end state? What agreement reaches it? What would verification have to cover for the agreement to hold? The most detailed public attempt to answer all three is AI 2040: Plan A, published by the AI Futures Project, the team behind the earlier AI 2027 scenario. While AI 2027 dramatized how a race ends badly, Plan A tells a dated, concrete story in which a US–China deal, layered verification, and a managed slowdown deliver a good outcome by 2040. Its [verification supplement](https://ai-2040.com/supplements/verification-plan) specifies the machinery: mutual compute declarations checked by inspections, datacenters retrofitted so that large-scale training is detectable, optical network taps feeding trusted recomputation servers, secure R&D facilities, and production caps on unverified hardware.
 
-\### [AI 2040: Plan A — verification supplement](https://ai-2040.com/supplements/verification-plan)
+\### [AI 2040: Plan A {--{"author":"Elias's AI","timestamp":1788357581673}@@— --}verification supplement](https://ai-2040.com/supplements/verification-plan)
 AI Futures Project
 
   The machinery behind Plan A, specified in full.
@@ -51,11 +51,11 @@ Plan A's verification problem has two broad parts. First, the regime needs confi
 #### Question: Open
 id:: 909a9ada-ee95-4dd2-9b6b-6ef51f617a3b
 optional:: true
-content:: Choose the part of this system that you think carries the most verification weight. Focus on the proposed datacenter retrofit: optical network taps, reproducible workloads, trusted recomputation servers, network restrictions, and related safeguards. Which mechanism seems like the most important—that, if removed, would most endanger the verification regime's effectiveness? Do not use outside resources for this part of the exercise.
+content:: Choose the part of this system that you think carries the most verification weight. Focus on the proposed datacenter retrofit: optical network taps, reproducible workloads, trusted recomputation servers, network restrictions, and related safeguards. Which mechanism seems like the most {--{"author":"Elias's AI","timestamp":1788357584762}@@important—that,--}{++{"author":"Elias's AI","timestamp":1788357584762}@@important, the one that,++} if removed, would most endanger the verification regime's effectiveness? Do not use outside resources for this part of the exercise.
 
 Questions to consider:
 
-- What types of evidence does it provide—implied, likely, or certain? Ambiguous (rough power signatures) or exact (the model weights themselves)?
+- What types of evidence does it {--{"author":"Elias's AI","timestamp":1788357586729}@@provide—implied,--}{++{"author":"Elias's AI","timestamp":1788357586729}@@provide: implied,++} likely, or certain? Ambiguous (rough power signatures) or exact (the model weights themselves)?
 - What kinds of cheating could it detect?
 - If a state had years to prepare an evasion strategy, where would you expect it to attack the system? Where would you most expect a motivated adversary to fail?
 - What other mechanisms does this one depend on, and what downstream mechanisms rely on this one's reliability?
