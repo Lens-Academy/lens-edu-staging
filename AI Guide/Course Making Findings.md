@@ -25,7 +25,7 @@ Each piece of advice is labeled with how we know it:
 ## 1. Three root causes of course defects
 
 A "root cause" here means: one upstream mistake that produces many visible
-problems. Andreas gave about six complaints. They trace back to three causes,
+problems. For example, Andreas gave about six complaints. They trace back to three causes,
 which look identical to a student but need different repairs.
 
 CAUSE 1: The goal was never written down. [measured] Nowhere in the repo is
