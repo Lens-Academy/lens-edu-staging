@@ -243,9 +243,9 @@ It’s clear that ASI is no longer a hypothetical risk. It will require delibera
 :::callout {title="Optional: A Short History of AI Acceleration" tone="neutral" collapse="closed"}
 How fast is fast? Two charts from Our World in Data's [brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai) show the pace.
 
-![Timeline of notable artificial intelligence systems and their capabilities, 1940 to today](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/owid-timeline-notable-ai-systems.png)
+![Timeline of notable artificial intelligence systems and their capabilities, 1940 to {--{"author":"Elias's AI","timestamp":1788356490207}@@today](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/owid-timeline-notable-ai-systems.png)--}{++{"author":"Elias's AI","timestamp":1788356490207}@@today](https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/ec3af0b6-4f4d-4a13-38d1-7f315f8f4c00/w=2332)++}
 
-![Test scores of AI systems on various capabilities relative to human performance, 1998 to today](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/owid-test-scores-ai-vs-human.png)
+![Test scores of AI systems on various capabilities relative to human performance, 1998 to {--{"author":"Elias's AI","timestamp":1788356490207}@@today](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/owid-test-scores-ai-vs-human.png)--}{++{"author":"Elias's AI","timestamp":1788356490207}@@today](https://ourworldindata.org/grapher/test-scores-ai-capabilities-relative-human-performance.png)++}
 
 Charts: Max Roser, [The brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai), Our World in Data (CC BY). Underlying benchmark data from Kiela et al., 2023. Interactive versions on the linked page.
 :::
