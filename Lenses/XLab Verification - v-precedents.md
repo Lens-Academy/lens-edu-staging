@@ -300,6 +300,25 @@ Each clause of that narrowing is doing work: "covered chips", because Document 2
 **Appendix G.8, Assessment.** "There are good reasons to tentatively consider the verification system described above highly reliable: it has at least 5 layers of defense for detecting any serious attempt to possess and use many cutting-edge AI chips at undeclared locations, and it has 3 layers of defense for detecting tampering with chips at declared locations." His conclusion, worded exactly: "Overall, this shows that methods that have been widely used for nuclear arms control verification can be adapted to create a reliable system for verifying accounts of AI chips." Verifying accounts of AI chips, not verifying the absence of all prohibited AI development. That is the properly limited conclusion.
 
 Source: Mauricio Baker, [Nuclear Arms Control Verification and Lessons for AI Treaties](https://arxiv.org/abs/2304.04123) (2023), CC BY 4.0.
-:::
+:::{++{"author":"Elias's AI","timestamp":1788357663380}@@
+
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+International Atomic Energy Agency. *IAEA Safeguards: Serving Nuclear Non-Proliferation*. 2024. [iaea.org](https://www.iaea.org/sites/default/files/18/09/sg-serving-nuclear-non-proliferation.pdf)
+*Document 1: the legal commitment underlying comprehensive safeguards.*
+
+Shavit, Yonadav. "What Does It Take to Catch a Chinchilla? Verifying Rules on Large-Scale Neural Network Training via Compute Monitoring." *arXiv*, 2023. CC BY 4.0. [arxiv.org](https://arxiv.org/abs/2303.11341)
+*Document 2: the three-part compute-monitoring proposal.*
+
+Carlson, John. "Experience and Challenges in WMD Treaty Verification: A Comparative View." *Background Papers on Nuclear Verification Issues*, Paper 1, Australian Safeguards and Non-Proliferation Office. [dfat.gov.au](https://www.dfat.gov.au/about-us/publications/Pages/background-papers-on-nuclear-verification-issues)
+*Document 3: Iraq and undeclared infrastructure.*
+
+Baker, Mauricio. "Nuclear Arms Control Verification and Lessons for AI Treaties." *arXiv*, 2023. CC BY 4.0. [arxiv.org](https://arxiv.org/abs/2304.04123)
+*Source of the excerpts in the task reveals.*
+
+XLab. "0.3 History, Precedents, Parallels." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/precedents)
+*The source lesson this page adapts, including the five tasks and their model answers.*
+:::++}
 {>>{"author":"Elias's AI","timestamp":1788009463303}@@Proposed: drop per-lesson XLab source footer.<<}
 
