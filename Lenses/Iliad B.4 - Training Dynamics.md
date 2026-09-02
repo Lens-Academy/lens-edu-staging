@@ -179,7 +179,7 @@ All $g_{l}$ and $g_{l}^{-1}$ factors cancel telescopically. This means every par
 
 :::
 
-\## 3. Gradient flow and conserved quantities
+\## 3. Gradient flow and conserved quantities ^gradient-flow-conserved-quantities
 
 We now study gradient flow: $\dot{\theta}(t) = -\nabla_{\theta} \mathcal{L}(\theta(t))$, the continuous-time limit of gradient descent with infinitesimal learning rate.
 
@@ -398,7 +398,7 @@ The general depth-$L$ result $\dot{W}= \sum_{k=1}^{L}(WW^{\top})^{(L-k)/L}(M-W)(
 
 :::
 
-\## 4. Rich regime: saddle-to-saddle
+\## 4. Rich regime: saddle-to-saddle ^rich-regime-saddle-to-saddle
 
 This is the core problem. We derive the exact solution of the rich regime dynamics directly from the self-consistent equation of [[#3. Gradient flow and conserved quantities|Section 3]], emphasizing the NTK perspective.
 
@@ -590,7 +590,7 @@ This is an **implicit bias toward low-rank (simple) solutions**: at any finite t
 
 :::
 
-\## 5. Lazy regime
+\## 5. Lazy regime ^lazy-regime
 
 We now show that large initialization freezes the NTK and eliminates the timescale separation found in [[#4. Rich regime: saddle-to-saddle|Section 4]]. For clarity, we work with the **diagonal scalar** model from [[#^ex-td-1a|Exercise 2.1]], so each mode $\alpha$ is independent. This avoids matrix algebra and isolates the essential mechanism.
 

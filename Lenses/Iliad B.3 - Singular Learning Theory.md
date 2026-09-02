@@ -69,7 +69,7 @@ Once you are done, we hope you will consider taking the scenic route some other 
 
 This tutorial was developed for the April 2026 Iliad Intensive. Some exercises were adapted from [[#^bib-furman2024|Furman 2024]].
 
-\## 1. Preliminaries
+\## 1. Preliminaries ^preliminaries
 
 In this section, we introduce basic terminology and notation for supervised deep learning and supervised Bayesian deep learning, along with some example neural network architectures and statistical models that we will repeatedly study throughout the tutorial.
 
@@ -307,7 +307,7 @@ Given a loss function, a **training algorithm** is a search algorithm that aims 
 
 Through many impressive feats of computer science and hardware/software engineering, we are able to run such training algorithms to find low-loss parameters within parameter spaces with billions of dimensions. The details are vitally important to the success of modern deep learning, but are beyond the scope of this tutorial. We only mention SGD in order to emphasise that *any local search method depends intimately on the properties of the parameter–function map.*
 
-\### 1.3 Statistical models and parameter–distribution maps
+\### 1.3 Statistical models and parameter–distribution maps ^statistical-models-parameter-distribution-maps
 
 The previous sections introduce neural networks and supervised deep learning within a framework of function approximation. An alternative approach is to view supervised learning as statistical inference, and particularly Bayesian inference. This statistical framework is commonly used within the SLT literature, and we will encounter it within this tutorial.
 
@@ -503,7 +503,7 @@ $$
 
 :::
 
-\### 1.4 Bayesian deep learning
+\### 1.4 Bayesian deep learning ^bayesian-deep-learning
 
 The principle of maximum likelihood, explored in the preceding exercises, is one approach to statistical inference. An alternative approach is **Bayesian inference**, which treats $w$ as a random variable and maintains a probability distribution over $\mathcal{W}$ reflecting our uncertainty about which parameter best explains the data. The majority of theoretical results in SLT have been developed within this setting ([[#^bib-watanabe2009|Watanabe 2009]]; [[#^bib-watanabe2018|Watanabe 2018]], cf.,).
 
@@ -709,11 +709,11 @@ The overall free energy is therefore determined by the region with the lowest lo
 
 :::
 
-\## 2. What is degeneracy?
+\## 2. What is degeneracy? ^what-is-degeneracy
 
 In this section, we define degeneracy as a property of parameter–function maps, and study the relationship between this property and other similar notions.
 
-\### 2.1 A definition of degeneracy
+\### 2.1 A definition of degeneracy ^definition-of-degeneracy
 
 Consider a neural network architecture with parameter space $\mathcal{W} \subseteq \mathbb{R}^{d}$ and parameter–function map $\Phi : \mathcal{W} \to \mathcal{F}$ ($w \mapsto f_{w}$). Say the parameter–function map is **degenerate at $w\in\mathcal{W}$** if there is a non-zero vector $v \in \mathbb{R}^{d}$ such that the directional derivative of the parameter–function map in the direction $v$ is zero:
 
@@ -1495,7 +1495,7 @@ By [[#^ex-fim-degeneracy|Exercise 2.12]], under mild regularity conditions, the 
 ^rem-strictly-singular
 
 
-\### 2.5 Degeneracy and the loss landscape
+\### 2.5 Degeneracy and the loss landscape ^degeneracy-loss-landscape
 
 In the preceding sections, we studied degeneracy as a property of parameter–function maps and parameter–distribution maps. We now consider the implications of degeneracy in these maps for the *loss landscape* in which deep learning algorithms operate.
 
@@ -1762,13 +1762,13 @@ This does not contradict [[#^ex-fim-hessian|Exercise 2.15]], which establishes $
 
 :::
 
-\## 3. The degeneracy hierarchy
+\## 3. The degeneracy hierarchy ^degeneracy-hierarchy
 
 We have so far explored different kinds of qualitative degeneracy in the loss landscape. A natural question arises: *how can we quantify the degree of degeneracy at a particular point in parameter space?* In this section, we introduce the local learning coefficient, a rich mathematical object that reflects the degree of degeneracy at a parameter, and we explore it from several perspectives.
 
 In this section and [[#4. Degeneracy and Bayesian deep learning|Section 4]] we assume that any population loss $L$ is a real analytic function. The precise definition of real analyticity is not important for this tutorial but interested readers can refer to ([[#^bib-watanabe2009|Watanabe 2009]]) (section 2). A property that will be useful is that such functions have a convergent Taylor expansion, in particular they have smooth derivatives of all orders.
 
-\### 3.1 The local learning coefficient via volume scaling asymptotics
+\### 3.1 The local learning coefficient via volume scaling asymptotics ^llc-volume-scaling
 
 The key idea is to measure the *volume* of near-optimal parameters. Consider a local minimum $w^{*} \in \mathcal{W}$ of the population loss $L$, and suppose we have a sufficiently small closed ball $B(w^{*})$ centred on $w^{*}$ such that $L(w) \geq L(w^{*})$ for all $w \in B(w^{*})$. Given a tolerance $\epsilon > 0$, define the **sublevel set**
 
@@ -2397,7 +2397,7 @@ by Equation [[#^eq-solve-llc|(39)]]
 
 :::
 
-\### 3.3 Local learning coefficients of deep linear networks
+\### 3.3 Local learning coefficients of deep linear networks ^llc-deep-linear-networks
 
 Having established the local learning coefficient as a measure of degeneracy in the loss landscape, we now compute it explicitly for the two-layer deep linear network introduced in [[#1. Preliminaries|Section 1]]. In [[#2. What is degeneracy?|Section 2]], we saw that DLN parameters exhibit varying degrees of degeneracy depending on the ranks of the component matrices ([[#^ex-dln-degeneracy|Exercise 2.9]], [[#^rem-rank|Remark 2.2]]). The LLC makes this hierarchy quantitative: different ranks correspond to different learning coefficients, confirming that lower-rank parameters are geometrically "simpler."
 
@@ -2491,7 +2491,7 @@ This tells us that the two-layer DLN is singular at every point in its loss land
 
 :::
 
-\## 4. Degeneracy and Bayesian deep learning
+\## 4. Degeneracy and Bayesian deep learning ^degeneracy-bayesian-deep-learning
 
 In [[#2. What is degeneracy?|Section 2]] and [[#3. The degeneracy hierarchy|3]], we studied the geometry of degeneracy in parameter space and introduced the local learning coefficient $\lambda(w^{*})$ as a measure of the degree of degeneracy at a local minimum $w^{*}$. We now show that this geometry has consequences for learning (in the Bayesian setting). In particular, it creates a trade-off between model fit and model complexity that drives learning, providing a mechanism for *internal model selection*.
 
@@ -2708,7 +2708,7 @@ $n^{*}/\log n^{*}$ is monotonically increasing for $n > e$ so for such $n$, incr
 
 :::
 
-\## 5. Further readings
+\## 5. Further readings ^further-readings
 
 We conclude by providing several pointers to additional literature and resources for those interested in investigating singular learning theory (SLT) in more detail.
 
