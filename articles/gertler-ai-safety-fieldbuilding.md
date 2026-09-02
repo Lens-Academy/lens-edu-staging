@@ -20,27 +20,27 @@ Add discussion note here:
 
 Table of Contents
 
--   [1 What do fieldbuilders work on?](#what-do-fieldbuilders-work-on)
--   [2 Why AI safety fieldbuilding can be highly impactful](#why-ai-safety-fieldbuilding-can-be-highly-impactfu)
-    -   [2.1 Fieldbuilding works](#fieldbuilding-works)
-    -   [2.2 AI safety needs more skilled people](#ai-safety-needs-more-skilled-people)
-    -   [2.3 The work is highly neglected](#the-work-is-highly-neglected)
-    -   [2.4 Helping others lets you multiply your impact](#helping-others-lets-you-multiply-your-impact)
--   [3 Potential downsides to working on fieldbuilding](#potential-downsides-to-working-on-fieldbuilding)
-    -   [3.1 Career capital may be lower](#career-capital-may-be-lower)
-    -   [3.2 The ‘career path’ isn’t as clear](#the-career-path-isnt-as-clear)
-    -   [3.3 Technical work often pays better](#technical-work-often-pays-better)
-    -   [3.4 Direct work can also grow capacity](#direct-work-can-also-grow-capacity)
--   [4 How can fieldbuilding backfire?](#how-can-fieldbuilding-backfire)
--   [5 Could you be a good fit?](#could-you-be-a-good-fit)
-    -   [5.1 Skills that will help you succeed](#skills-that-will-help-you-succeed)
-    -   [5.2 Promising professional backgrounds](#promising-professional-backgrounds)
--   [6 How to get started](#how-to-get-started)
--   [7 Find jobs in AI safety fieldbuilding](#find-jobs-in-ai-safety-fieldbuilding)
--   [8 Learn more](#learn-more)
-    -   [8.1 Top recommendations](#top-recommendations)
-    -   [8.2 Further recommendations](#further-recommendations)
--   [9 Acknowledgements](#acknowledgements)
+-   {--{"author":"Luc's AI","timestamp":1788377385934}@@[1--}{++{"author":"Luc's AI","timestamp":1788377385934}@@[[#^what-do-fieldbuilders-work-on|1++} What do fieldbuilders work {--{"author":"Luc's AI","timestamp":1788377385934}@@on?](#what-do-fieldbuilders-work-on)--}{++{"author":"Luc's AI","timestamp":1788377385934}@@on?]]++}
+-   [[#^why-ai-safety-fieldbuilding-can-be-highly-impactful|2 Why AI safety fieldbuilding can be highly impactful]]
+    -   {--{"author":"Luc's AI","timestamp":1788377386390}@@[2.1--}{++{"author":"Luc's AI","timestamp":1788377386390}@@[[#^fieldbuilding-works|2.1++} Fieldbuilding {--{"author":"Luc's AI","timestamp":1788377386390}@@works](#fieldbuilding-works)--}{++{"author":"Luc's AI","timestamp":1788377386390}@@works]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377386625}@@[2.2--}{++{"author":"Luc's AI","timestamp":1788377386625}@@[[#^ai-safety-needs-more-skilled-people|2.2++} AI safety needs more skilled {--{"author":"Luc's AI","timestamp":1788377386625}@@people](#ai-safety-needs-more-skilled-people)--}{++{"author":"Luc's AI","timestamp":1788377386625}@@people]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377386860}@@[2.3--}{++{"author":"Luc's AI","timestamp":1788377386860}@@[[#^the-work-is-highly-neglected|2.3++} The work is highly {--{"author":"Luc's AI","timestamp":1788377386860}@@neglected](#the-work-is-highly-neglected)--}{++{"author":"Luc's AI","timestamp":1788377386860}@@neglected]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377387128}@@[2.4--}{++{"author":"Luc's AI","timestamp":1788377387128}@@[[#^helping-others-lets-you-multiply-your-impact|2.4++} Helping others lets you multiply your {--{"author":"Luc's AI","timestamp":1788377387128}@@impact](#helping-others-lets-you-multiply-your-impact)--}{++{"author":"Luc's AI","timestamp":1788377387128}@@impact]]++}
+-   {--{"author":"Luc's AI","timestamp":1788377387366}@@[3--}{++{"author":"Luc's AI","timestamp":1788377387366}@@[[#^potential-downsides-to-working-on-fieldbuilding|3++} Potential downsides to working on {--{"author":"Luc's AI","timestamp":1788377387366}@@fieldbuilding](#potential-downsides-to-working-on-fieldbuilding)--}{++{"author":"Luc's AI","timestamp":1788377387366}@@fieldbuilding]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377387618}@@[3.1--}{++{"author":"Luc's AI","timestamp":1788377387618}@@[[#^career-capital-may-be-lower|3.1++} Career capital may be {--{"author":"Luc's AI","timestamp":1788377387618}@@lower](#career-capital-may-be-lower)--}{++{"author":"Luc's AI","timestamp":1788377387618}@@lower]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377387857}@@[3.2--}{++{"author":"Luc's AI","timestamp":1788377387857}@@[[#^the-career-path-isnt-as-clear|3.2++} The ‘career path’ isn’t as {--{"author":"Luc's AI","timestamp":1788377387857}@@clear](#the-career-path-isnt-as-clear)--}{++{"author":"Luc's AI","timestamp":1788377387857}@@clear]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377388092}@@[3.3--}{++{"author":"Luc's AI","timestamp":1788377388092}@@[[#^technical-work-often-pays-better|3.3++} Technical work often pays {--{"author":"Luc's AI","timestamp":1788377388092}@@better](#technical-work-often-pays-better)--}{++{"author":"Luc's AI","timestamp":1788377388092}@@better]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377388388}@@[3.4--}{++{"author":"Luc's AI","timestamp":1788377388388}@@[[#^direct-work-can-also-grow-capacity|3.4++} Direct work can also grow {--{"author":"Luc's AI","timestamp":1788377388388}@@capacity](#direct-work-can-also-grow-capacity)--}{++{"author":"Luc's AI","timestamp":1788377388388}@@capacity]]++}
+-   {--{"author":"Luc's AI","timestamp":1788377388657}@@[4--}{++{"author":"Luc's AI","timestamp":1788377388657}@@[[#^how-can-fieldbuilding-backfire|4++} How can fieldbuilding {--{"author":"Luc's AI","timestamp":1788377388657}@@backfire?](#how-can-fieldbuilding-backfire)--}{++{"author":"Luc's AI","timestamp":1788377388657}@@backfire?]]++}
+-   {--{"author":"Luc's AI","timestamp":1788377388896}@@[5--}{++{"author":"Luc's AI","timestamp":1788377388896}@@[[#^could-you-be-a-good-fit|5++} Could you be a good {--{"author":"Luc's AI","timestamp":1788377388896}@@fit?](#could-you-be-a-good-fit)--}{++{"author":"Luc's AI","timestamp":1788377388896}@@fit?]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377389132}@@[5.1--}{++{"author":"Luc's AI","timestamp":1788377389132}@@[[#^skills-that-will-help-you-succeed|5.1++} Skills that will help you {--{"author":"Luc's AI","timestamp":1788377389132}@@succeed](#skills-that-will-help-you-succeed)--}{++{"author":"Luc's AI","timestamp":1788377389132}@@succeed]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377389369}@@[5.2--}{++{"author":"Luc's AI","timestamp":1788377389369}@@[[#^promising-professional-backgrounds|5.2++} Promising professional {--{"author":"Luc's AI","timestamp":1788377389369}@@backgrounds](#promising-professional-backgrounds)--}{++{"author":"Luc's AI","timestamp":1788377389369}@@backgrounds]]++}
+-   {--{"author":"Luc's AI","timestamp":1788377389606}@@[6--}{++{"author":"Luc's AI","timestamp":1788377389606}@@[[#^how-to-get-started|6++} How to get {--{"author":"Luc's AI","timestamp":1788377389606}@@started](#how-to-get-started)--}{++{"author":"Luc's AI","timestamp":1788377389606}@@started]]++}
+-   {--{"author":"Luc's AI","timestamp":1788377389833}@@[7--}{++{"author":"Luc's AI","timestamp":1788377389833}@@[[#^find-jobs-in-ai-safety-fieldbuilding|7++} Find jobs in AI safety {--{"author":"Luc's AI","timestamp":1788377389833}@@fieldbuilding](#find-jobs-in-ai-safety-fieldbuilding)--}{++{"author":"Luc's AI","timestamp":1788377389833}@@fieldbuilding]]++}
+-   {--{"author":"Luc's AI","timestamp":1788377390071}@@[8--}{++{"author":"Luc's AI","timestamp":1788377390071}@@[[#^learn-more|8++} Learn {--{"author":"Luc's AI","timestamp":1788377390071}@@more](#learn-more)--}{++{"author":"Luc's AI","timestamp":1788377390071}@@more]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377390307}@@[8.1--}{++{"author":"Luc's AI","timestamp":1788377390307}@@[[#^top-recommendations|8.1++} Top {--{"author":"Luc's AI","timestamp":1788377390307}@@recommendations](#top-recommendations)--}{++{"author":"Luc's AI","timestamp":1788377390307}@@recommendations]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377390545}@@[8.2--}{++{"author":"Luc's AI","timestamp":1788377390545}@@[[#^further-recommendations|8.2++} Further {--{"author":"Luc's AI","timestamp":1788377390545}@@recommendations](#further-recommendations)--}{++{"author":"Luc's AI","timestamp":1788377390545}@@recommendations]]++}
+-   {--{"author":"Luc's AI","timestamp":1788377390770}@@[9 Acknowledgements](#acknowledgements)--}{++{"author":"Luc's AI","timestamp":1788377390770}@@[[#^acknowledgements|9 Acknowledgements]]++}
 
 In 2017, there were only a few dozen people working full time to reduce [risks from advanced AI](https://80000hours.org/problem-profiles/artificial-intelligence/). By 2025, there were over a thousand.[1](#fn-1 "Our estimates come from Stephen McAleese ([2022](https://forum.effectivealtruism.org/posts/3gmkrj3khJHndYGNe/estimating-the-current-and-future-number-of-ai-safety), [2025](https://forum.effectivealtruism.org/posts/7YDyziQxkWxbGmF3u/ai-safety-field-growth-analysis-2025)) and Benjamin Todd ([2017](https://x.com/ben_j_todd/status/1489985969931624451)).
 ")
@@ -59,7 +59,7 @@ Because of this dynamic, we think that AI safety fieldbuilding is **one of the m
 This is true even for people whose skills make them a strong fit for other AI safety roles. Fieldbuilding is a flexible career path that rewards many forms of talent, and we’ve seen many people who left promising technical research or policy careers and went on to do even more good as fieldbuilders.[3](#fn-3 "We agree with [this take](https://forum.effectivealtruism.org/posts/rAqKSSXankvys2Fzu/the-case-for-ai-safety-capacity-building-work) from Asya Bergal, a grantmaker at Coefficient Giving: \"I think many of the marginal hires at larger organizations doing AI safety technical or policy work [...] would be capable of founding (or being early employees of) organizations focused on building capacity in AI safety, and would have more impact by doing so.\"
 ") Whatever your background, we think this path is worth considering.
 
-## What do fieldbuilders work on?
+## What do fieldbuilders work on? ^what-do-fieldbuilders-work-on
 
 Fieldbuilding isn’t just one activity; there is no ‘standard’ fieldbuilding role. You might:
 
@@ -78,9 +78,9 @@ Real-world examples:
 -   Public communications projects like [AI in Context](https://www.youtube.com/@AI_In_Context), the [80,000 Hours Podcast](https://80000hours.org/podcast/), or [AI 2027](https://ai-2027.com/), which explain AI safety concerns to large audiences, and are often someone’s first introduction to the topic
 -   Grantmaking from organisations like [Coefficient Giving](https://coefficientgiving.org/) or [Longview Philanthropy](https://www.longview.org/), to support projects like those mentioned above
 
-## Why AI safety fieldbuilding can be highly impactful
+## Why AI safety fieldbuilding can be highly impactful ^why-ai-safety-fieldbuilding-can-be-highly-impactful
 
-### Fieldbuilding works
+### Fieldbuilding works ^fieldbuilding-works
 
 Before 2017, the field of AI safety barely existed. Only a handful of organisations and individuals were doing serious research on ways that advanced AI could [pose a catastrophic risk to humanity](https://80000hours.org/problem-profiles/artificial-intelligence/#why-we-think-advanced-ai-poses-the-worlds-most-pressing-problems).
 
@@ -92,7 +92,7 @@ We attribute some of this growth to the rise of advanced LLMs, which produced a 
 Putting the numbers aside, it makes intuitive sense that fieldbuilding would be effective. AI is progressing rapidly, and many people are already worried about it, so anyone making the case for working on AI risk won’t be starting from scratch.[5](#fn-5 "Public surveys tend to find that people are more worried than excited about AI and expect risks to outweigh benefits; these surveys seldom ask about catastrophic risk, but it's reasonable to think that someone who feels broadly uneasy about AI will be open to the idea.
 ") If you present the arguments well and provide the right resources, you could inspire many people to shift the focus of their careers.
 
-### AI safety needs more skilled people
+### AI safety needs more skilled people ^ai-safety-needs-more-skilled-people
 
 Right now, the AI industry is growing even faster than the field of AI safety (in terms of both funding and staff). As we [approach an era of transformative change](https://80000hours.org/agi/guide/when-will-agi-arrive/) from advanced AI, and the [catastrophic risks](https://80000hours.org/problem-profiles/) that era could bring, we’ll need more people across the board — from researchers and entrepreneurs to policy experts and podcasters.[6](#fn-6 "As of 2026, it seems plausible (though far from guaranteed) that an Anthropic IPO could soon inspire a surge of donations to AI safety work. This would free organisations to hire more staff and raise the funding available for new projects — further increasing the value of talent development.
 ")
@@ -105,7 +105,7 @@ Beyond finding and developing talent for existing roles, fieldbuilding can also 
 
 You could also create opportunities by starting something new. Like Tarbell with journalism, new fieldbuilding projects could help people join other neglected areas — like content creation, entrepreneurship, or public policy.
 
-### The work is highly neglected
+### The work is highly neglected ^the-work-is-highly-neglected
 
 We’ve spoken to leaders in organisations throughout the field, and they broadly agreed with the following points:
 
@@ -119,7 +119,7 @@ For example:
 -   Kairos and [Constellation](https://constellation.org/) (another fieldbuilding organisation) estimate that around 2,000 AI safety research fellows will be trained in 2026, and only around 300 non-research fellows.
 -   [IAPS](https://www.iaps.ai/) runs a three-month fellowship for people seeking policy roles. One round of the fellowship drew thousands of applications. At the same time, IAPS was hiring someone to help _run_ the fellowship — and only heard from a few qualified applicants. As with many other orgs we’ve spoken to, they’ve struggled to find skilled operations staff.
 
-### Helping others lets you multiply your impact
+### Helping others lets you multiply your impact ^helping-others-lets-you-multiply-your-impact
 
 In any career, your impact is limited by your time. Even if you work long hours, you probably won’t be as productive as ten people doing similar work.
 
@@ -132,11 +132,11 @@ BlueDot’s team is just seven people. By providing education and information to
 
 That’s not the only multiplier effect worth noting; fieldbuilding also lets you leverage your top skills across a wider range of opportunities. A skilled researcher who transitions to research _management_ can use their experience and judgment to shape dozens of projects instead of running a single project. An 80,000 Hours advisor might talk to a journalist, lawyer, and political staffer in a single day — applying the same sharp thinking on career choice across three different fields.
 
-## Potential downsides to working on fieldbuilding
+## Potential downsides to working on fieldbuilding ^potential-downsides-to-working-on-fieldbuilding
 
 While fieldbuilding is one of the most impactful paths we’ve found, it’s worth understanding these tradeoffs before you dive in.
 
-### Career capital may be lower
+### Career capital may be lower ^career-capital-may-be-lower
 
 “I’m a technical researcher who studies the leading AI models.”
 
@@ -158,7 +158,7 @@ However, fieldbuilding isn’t as disadvantaged as people often think. More than
 -   **Networking:** Fieldbuilding makes it easy to build a network within AI safety. You’ll meet a lot of people, and usually in social environments (events, fellowships) where they want to make connections. If you helped to create that environment (by planning the event or fellowship), you’re well-placed to leave a positive impression. And because the field is densely connected, a strong reputation spreads quickly.
 -   **Skills with lasting value:** Relative to most AI safety roles, fieldbuilding puts an emphasis on developing social and entrepreneurial skills. These skills are [hard to automate](https://80000hours.org/ai/guide/skills-ai-makes-valuable/) — AI progress is likely to make them more valuable, rather than less.
 
-### The ‘career path’ isn’t as clear
+### The ‘career path’ isn’t as clear ^the-career-path-isnt-as-clear
 
 There are reliable ways to explore careers in AI safety research or policy.
 
@@ -166,21 +166,21 @@ A budding researcher might take classes in machine learning, read AI safety pape
 
 A policy hopeful might study economics and political science, read relevant publications, make connections as a [campaign volunteer](https://80000hours.org/career-reviews/us-electoral-politics/#what-else-is-helpful), or apply for policy fellowships like those offered by [Horizon](https://horizonpublicservice.org/programs/become-a-fellow/) or [IAPS](https://www.iaps.ai/).
 
-Fieldbuilding lacks this kind of ‘one-size-fits-most’ pipeline. There are too many kinds of roles, and few programmes focused on training fieldbuilders. But we still have [plenty of advice](#how-to-get-started) for getting started.
+Fieldbuilding lacks this kind of ‘one-size-fits-most’ pipeline. There are too many kinds of roles, and few programmes focused on training fieldbuilders. But we still have [[#^how-to-get-started|plenty of advice]] for getting started.
 
-### Technical work often pays better
+### Technical work often pays better ^technical-work-often-pays-better
 
 The median technical role (research, engineering) pays more than the median fieldbuilding role. However, fieldbuilding pay isn’t necessarily _low_; many organisations offer highly competitive salaries, comparable to what you’d earn from a similar role in the private sector with the same experience and seniority.
 
 You can use our job board to check this for yourself. We don’t have a single ‘fieldbuilding’ filter, but most of [these roles](https://jobs.80000hours.org/?jobPk=17742&toggle%5Bsalary_algolia%5D=true&refinementList%5Btags_area%5D%5B0%5D=AI%20safety%20%26%20policy&refinementList%5Btags_skill%5D%5B0%5D=Operations&refinementList%5Btags_skill%5D%5B1%5D=Outreach&refinementList%5Btags_skill%5D%5B2%5D=Strategy) fit that category.
 
-### Direct work can also grow capacity
+### Direct work can also grow capacity ^direct-work-can-also-grow-capacity
 
 Direct work can have its own ‘fieldbuilding’ effects. As an academic, you could spend most of your time on research and still teach or train dozens of students. As a policy expert, you could draft an influential bill or white paper; [SB-1047](https://en.wikipedia.org/wiki/Safe_and_Secure_Innovation_for_Frontier_Artificial_Intelligence_Models_Act) catalysed widespread public discourse and likely served as many policymakers’ first exposure to core topics in AI governance.
 
 If your skills or background position you to have an exceptional impact through direct work, that could also become your best fieldbuilding opportunity — if you actually focus on those aspects of the job. (An academic who cares little for mentorship or management won’t do much to develop talent.)
 
-## How can fieldbuilding backfire?
+## How can fieldbuilding backfire? ^how-can-fieldbuilding-backfire
 
 Fieldbuilding often involves trying to influence what other people work on. This can have harmful consequences:
 
@@ -199,11 +199,11 @@ Some people think the field’s impact has been _mostly_ negative so far — for
 
 If you think that most current AI safety work is harmful, that’s a valid reason to avoid fieldbuilding. However, you could also support the specific work you think is beneficial; we’ve seen many critics of ‘mainstream’ AI safety do valuable fieldbuilding.
 
-## Could you be a good fit?
+## Could you be a good fit? ^could-you-be-a-good-fit
 
 There’s no single profile for a successful fieldbuilder, but the experts we’ve met tend to highlight a few broadly useful traits.
 
-### Skills that will help you succeed
+### Skills that will help you succeed ^skills-that-will-help-you-succeed
 
 **Versatility:** Most fieldbuilding organisations are small and fast-moving; the people who thrive in them tend to be adaptable and broadly competent.
 
@@ -221,7 +221,7 @@ It also helps to be well-informed on recent developments. We recommend [Don’t 
 
 That said, fieldbuilding is far from thankless! Your work will change people’s lives, and you’ll probably get to meet those people and experience their gratitude firsthand.
 
-### Promising professional backgrounds
+### Promising professional backgrounds ^promising-professional-backgrounds
 
 **People management:** AI safety has a lot of early-career people and few seasoned managers. Experienced staff are sometimes forced to manage out of necessity, even if it isn’t their [comparative advantage](https://80000hours.org/articles/coordination/#consider-your-comparative-advantage). If you can thrive in a managerial role, you’ll help your reports develop faster and reduce strain on your senior colleagues.
 
@@ -230,9 +230,9 @@ That said, fieldbuilding is far from thankless! Your work will change people’s
 **Entrepreneurship and organisation building:** AI safety has a lot of room to grow; there are many promising ideas to expand the field that no one has seriously tried.[8](#fn-8 "See these examples from Asya Bergal, or Coefficient Giving's ideas for talent development projects. (The second list is directly concerned with talent development for global health and wellbeing, but the ideas may carry over to AI safety.)
 ") We need founders and builders to fill those gaps. This includes recent graduates; we’ve seen many student organisers thrive in other fieldbuilding roles.
 
-## How to get started
+## How to get started ^how-to-get-started
 
-Because you don’t need any specific experience to become a fieldbuilder, **our strongest recommendation is to check the [AI fieldbuilding roles](#find-jobs-in-ai-safety-fieldbuilding) on our job board** and consider applying if you see a role that fits.
+Because you don’t need any specific experience to become a fieldbuilder, **our strongest recommendation is to check the [[#^find-jobs-in-ai-safety-fieldbuilding|AI fieldbuilding roles]] on our job board** and consider applying if you see a role that fits.
 
 Our other top recommendation is to consider fieldbuilding fellowships. Any AI safety generalist can apply to the [Generator Residency](https://generatorresidency.org/) (due April 27), which helps you launch a new idea within three months. The [Pathfinder Fellowship](https://pathfinder.kairos-project.org/) offers training and mentorship to help students develop campus AI safety groups.
 
@@ -256,7 +256,7 @@ If you already have experience:
     -   University groups have a strong track record: [MATS](https://matsprogram.org/), a leading AI safety fellowship, started as a part-time project run by Stanford students.
     -   If you’re a student, you can get help starting your own university group: check out the [Pathfinder Fellowship](https://pathfinder.kairos-project.org/).
 
-## Find jobs in AI safety fieldbuilding
+## Find jobs in AI safety fieldbuilding ^find-jobs-in-ai-safety-fieldbuilding
 
 Since fieldbuilding spans so many areas, we don’t have a single filter for it, but most of [these roles](https://jobs.80000hours.org/?jobPk=17742&toggle%5Bsalary_algolia%5D=true&refinementList%5Btags_area%5D%5B0%5D=AI%20safety%20%26%20policy&refinementList%5Btags_skill%5D%5B0%5D=Operations&refinementList%5Btags_skill%5D%5B1%5D=Outreach&refinementList%5Btags_skill%5D%5B2%5D=Strategy) fit the category.
 
@@ -268,16 +268,16 @@ We can help you compare options, make connections, and possibly even help you fi
 
 [APPLY TO SPEAK WITH OUR TEAM](https://80000hours.org/speak-with-us)
 
-## Learn more
+## Learn more ^learn-more
 
-### Top recommendations
+### Top recommendations ^top-recommendations
 
 -   If you aren’t very familiar with AI safety yet, we recommend starting with our [problem profile on risks from advanced AI](https://80000hours.org/problem-profiles/artificial-intelligence/) and our [guide to careers focused on helping AGI go well](https://80000hours.org/ai/guide/summary/)
 -   Our career profiles on [founding new projects](https://80000hours.org/career-reviews/founder-impactful-organisations/) and [operations management in high-impact organisations](https://80000hours.org/articles/operations-management/)
 -   Asya Bergal, a grantmaker at Coefficient Giving, shares [her own case for the importance of AI safety fieldbuilding](https://forum.effectivealtruism.org/posts/rAqKSSXankvys2Fzu/the-case-for-ai-safety-capacity-building-work)
 -   Leaders from Kairos and Constellation, two major fieldbuilding orgs: [AI Safety’s Biggest Talent Gap Isn’t Researchers. It’s Generalists.](https://forum.effectivealtruism.org/posts/k3nq7FxBCsrNFmAYi/ai-safety-s-biggest-talent-gap-isn-t-researchers-it-s-2)
 
-### Further recommendations
+### Further recommendations ^further-recommendations
 
 -   Our [top tips for successful networking](https://80000hours.org/2025/11/our-top-tips-for-successful-networking/)
 -   Our career profile on [research management](https://80000hours.org/career-reviews/research-management/)
@@ -292,7 +292,7 @@ We can help you compare options, make connections, and possibly even help you fi
 -   An AI policy specialist describes how [meeting fieldbuilders changed the trajectory of his career](https://forum.effectivealtruism.org/posts/cRsPfkyAKZ3crxynB/get-in-the-van)
 -   [Benjamin Todd on why we’re updating our career advice for the strangest time in history](https://80000hours.org/podcast/episodes/benjamin-todd-careers-in-age-of-ai/?utm_campaign=podcast__benjamin-todd&utm_source=80000+Hours+Podcast&utm_medium=podcast) (to further emphasise paths like AI safety fieldbuilding and operations)
 
-## Acknowledgements
+## Acknowledgements ^acknowledgements
 
 _Thanks to Arden Koehler, Asya Bergal, Benjamin Todd, Jake McKinnon, Lou Moran, Neav Topaz, Sudhanshu Kasewa, and Zershaaneh Qureshi for feedback on earlier drafts of this article, and many others for helpful conversations._
 
