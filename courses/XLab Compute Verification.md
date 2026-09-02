@@ -1,7 +1,7 @@
 ---
 id: '2e6bcfb5-ffc1-4274-a9eb-0dbe3524eb4d'
-slug: ai-verification-full-course
-slug-aliases: [xlab-compute-verification]
+slug: {--{"author":"Elias's AI","timestamp":1788360625316}@@ai-verification-full-course--}{++{"author":"Elias's AI","timestamp":1788360625316}@@compute-verification++}
+slug-aliases: {--{"author":"Elias's AI","timestamp":1788360625316}@@[xlab-compute-verification]--}{++{"author":"Elias's AI","timestamp":1788360625316}@@[ai-verification-full-course, xlab-compute-verification]++}
 title: "Compute Verification"
 description: "How could rival states check that each other actually stopped? A five-module course on making international AI agreements verifiable: why verification matters, what a treaty must cover and whom it binds, the hardware, cloud, intelligence, and human evidence streams, how a determined adversary evades them, and a capstone that designs a regime for a three-month emergency pause."
 partner-name: XLab
