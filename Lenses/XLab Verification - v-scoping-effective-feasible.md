@@ -22,11 +22,11 @@ content:: --}**Side A · The goal.** A policy you strongly believe in (or borrow
 
 **Side B · The price.** One real cost or downside of enforcing it. Be honest, one is enough. Stuck? Try a lens: Who pays? · Who is constrained? · What does enforcing it require? · What happens to those who refuse?
 
-Then write the full policy in one line:{--{"author":"Elias's AI","timestamp":1788355762831}@@ "I--}{++{"author":"Elias's AI","timestamp":1788355762831}@@
+Then write the full policy in one line:
 
 #### Question: FillBlank
 id:: 57dc934f-9584-4a93-b1ca-4b7ff7ddfd3e
-content:: I++} support {--{"author":"Elias's AI","timestamp":1788355762831}@@___--}{++{"author":"Elias's AI","timestamp":1788355762831}@@{{blank}}++} at the cost of {--{"author":"Elias's AI","timestamp":1788355762831}@@___."--}{++{"author":"Elias's AI","timestamp":1788355762831}@@{{blank}}.++}
+content:: I support {{blank}} at the cost of {{blank}}.
 optional:: true
 feedback-instructions:: Ungraded personal exercise. Check only that Side A names a policy and Side B names a real cost of enforcing that same policy (who pays, who is constrained, what enforcing it requires, or what happens to those who refuse), not a cost of the problem the policy addresses. One sentence of acknowledgement, no praise, no lecture.
 
