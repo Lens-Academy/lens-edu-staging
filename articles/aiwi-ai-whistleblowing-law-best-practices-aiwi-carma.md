@@ -37,22 +37,22 @@ Grounded in the US Office of the Whistleblower Ombuds’ Best Practice Whistlebl
 
 Contents +
 
--   [Introduction](#introduction)
+-   {--{"author":"Luc's AI","timestamp":1788377297444}@@[Introduction](#introduction)--}{++{"author":"Luc's AI","timestamp":1788377297444}@@[[#^introduction|Introduction]]++}
 -   Recommendations
-    -   [Scope of Protected Disclosures](#scope-of-protected-disclosures)
-    -   [Protected Individuals](#protected-individuals)
-    -   [Retaliation Protection](#retaliation-protection)
-    -   [Disclosure Channels](#disclosure-channels)
-    -   [Remedies](#remedies)
-    -   [Employee Notice Requirements](#employee-notice-requirements)
-    -   [Agency Requirements](#agency-requirements)
--   [About the AI Whistleblower Initiative (AIWI)](#about-the-ai-whistleblower-initiative-aiwi)
+    -   {--{"author":"Luc's AI","timestamp":1788377297691}@@[Scope--}{++{"author":"Luc's AI","timestamp":1788377297691}@@[[#^scope-of-protected-disclosures|Scope++} of Protected {--{"author":"Luc's AI","timestamp":1788377297691}@@Disclosures](#scope-of-protected-disclosures)--}{++{"author":"Luc's AI","timestamp":1788377297691}@@Disclosures]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377297928}@@[Protected Individuals](#protected-individuals)--}{++{"author":"Luc's AI","timestamp":1788377297928}@@[[#^protected-individuals|Protected Individuals]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377298240}@@[Retaliation Protection](#retaliation-protection)--}{++{"author":"Luc's AI","timestamp":1788377298240}@@[[#^retaliation-protection|Retaliation Protection]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377298641}@@[Disclosure Channels](#disclosure-channels)--}{++{"author":"Luc's AI","timestamp":1788377298641}@@[[#^disclosure-channels|Disclosure Channels]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377298927}@@[Remedies](#remedies)--}{++{"author":"Luc's AI","timestamp":1788377298927}@@[[#^remedies|Remedies]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377299177}@@[Employee--}{++{"author":"Luc's AI","timestamp":1788377299177}@@[[#^employee-notice-requirements|Employee++} Notice {--{"author":"Luc's AI","timestamp":1788377299177}@@Requirements](#employee-notice-requirements)--}{++{"author":"Luc's AI","timestamp":1788377299177}@@Requirements]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377299439}@@[Agency Requirements](#agency-requirements)--}{++{"author":"Luc's AI","timestamp":1788377299439}@@[[#^agency-requirements|Agency Requirements]]++}
+-   {--{"author":"Luc's AI","timestamp":1788377299687}@@[About--}{++{"author":"Luc's AI","timestamp":1788377299687}@@[[#^about-the-ai-whistleblower-initiative-aiwi|About++} the AI Whistleblower Initiative {--{"author":"Luc's AI","timestamp":1788377299687}@@(AIWI)](#about-the-ai-whistleblower-initiative-aiwi)--}{++{"author":"Luc's AI","timestamp":1788377299687}@@(AIWI)]]++}
 -   About the Center for AI Risk Management & Alignment (CARMA)
 -   About the Authors
-    -   [Abra Ganz](#abra-ganz)
-    -   [Karl Koch](#karl-koch)
+    -   {--{"author":"Luc's AI","timestamp":1788377300018}@@[Abra Ganz](#abra-ganz)--}{++{"author":"Luc's AI","timestamp":1788377300018}@@[[#^abra-ganz|Abra Ganz]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377300256}@@[Karl Koch](#karl-koch)--}{++{"author":"Luc's AI","timestamp":1788377300256}@@[[#^karl-koch|Karl Koch]]++}
 
-## Introduction
+## Introduction ^introduction
 
 Whistleblower protections are a critical mechanism for surfacing risks and have existed across many US states and the federal level for decades – albeit with strongly varying degrees of effectiveness. 
 
@@ -72,7 +72,7 @@ _References:_
 2.  _Green-Lowe, J., Fehrenbach, F., & Reddish, M. (2025). Silicon sentinels: Using whistleblower protections to manage information asymmetry and AI risk. Liberty University Law Review, 19(4), Article 5._
 3.  _Visit the [AIWI Contact Hub](https://aiwi.org/contact-hub) for a list of pro-bono whistleblower support counsel handling AI cases_
 
-## Scope of Protected Disclosures
+## Scope of Protected Disclosures ^scope-of-protected-disclosures
 
 **\[AI\] Include Dangers to Public Safety, Health, National Security independent of pathway.** AI whistleblower laws should specifically protect disclosures related to catastrophic risks. Ideally, this would be by including disclosures of ‘dangers to public health and safety’ as in New York’s state whistleblower protection laws. A lower bar would be to use language similar to SB-53 where a catastrophic risk is defined as a foreseeable material risk that a model could materially contribute to the death of or serious injury to more than 50 people or more than one billion dollars in damages. While California’s SB-53 includes specific risk pathways in their definition of Catastrophic/Critical Risks, and hence restricts material scope on this basis. Best practice would be to leave this open, allowing for all possible risks.
 
@@ -86,7 +86,7 @@ _References:_
 
 **Protect Assisting Investigations and Refusing to Break the Law.** Whistleblowing laws usually protect testifying, assisting in lawful investigations, and exercising appeal/complaint/grievance rights. In the AI context, this is especially important to protect evals orgs which might be called upon to assist an investigation. Best practice is also to protect refusal to follow an order that would require violating law, rule, or regulation.
 
-## Protected Individuals
+## Protected Individuals ^protected-individuals
 
 Protections must extend to all workers involved with AI development. Basic protections include all employees. Best practice would extend whistleblower protections to:
 
@@ -97,7 +97,7 @@ Protections must extend to all workers involved with AI development. Basic prote
 -   Close relatives and co-workers, where adverse action against them would reasonably dissuade the covered individual from engaging in protected activity
 -   Use ‘persons’ instead of ‘individuals’ (following USC definition and as precedented  in False Claims Act)
 
-## Retaliation Protection
+## Retaliation Protection ^retaliation-protection
 
 **Prohibited Conduct.** AI Companies should not retaliate against covered persons for disclosing protected information (as defined in section 1). Retaliation includes all forms of disadvantage or discrimination at the workplace, including dismissal, probation, job sanctions, punitive transfers, harassment, reduced duties or hours, withholding of promotions or training, loss of status and benefits, and threats of such actions. AI companies should neither adopt any policies violating covered persons rights to make protected disclosures. 
 
@@ -117,7 +117,7 @@ Protections must extend to all workers involved with AI development. Basic prote
 2.  Include a minimum 3-year statute of limitations on claims of whistleblower retaliation.
 3.  State that these protections are in addition to existing legal protections, not a replacement
 
-## Disclosure Channels
+## Disclosure Channels ^disclosure-channels
 
 #### Internal Channels
 
@@ -133,7 +133,7 @@ Covered persons  must be able to disclose information confidentially and anonym
 
 While public disclosures are protected in international best practices in cases of urgent or grave public danger, or persistently unaddressed wrongdoing, this is unprecedented in the US. An excellent whistleblower bill would however include such a provision, at minimum for cases where there is imminent and material danger to public health and safety.
 
-## Remedies
+## Remedies ^remedies
 
 **\[AI\] Equity Protection.** Compensation at frontier AI firms is heavily weighted toward equity or equity-like instruments (RSUs, stock options, profit participation units). Self-reported data indicates median total pay for engineers at Anthropic is approximately $557k per annum, with 44–57% from equity. Existing whistleblower statutes do not explicitly account for this, and, while case law makes it likely that lost equity can be recovered or potentially included in (doubled) backpay, introducing more clarity here is critical given the importance of the deterrent at hand. Best practice in this context requires explicitly including benefits,  including but not limited to equity or equity-like compensation, in compensatory relief remedies.
 
@@ -143,11 +143,11 @@ While public disclosures are protected in international best practices in cases 
 
 **Compensatory Relief.** Relief should cover all direct, indirect, and future consequences of reprisals, including back pay, reasonable attorney fees (one-directional, i.e. only claimable by an employee, not an employer, in case of a rejected retaliation claim, as in California), compensation for lost earnings and status, and compensation for pain and suffering. Ideally, following precedent in Dodd-Frank, back pay should be doubled.
 
-## Employee Notice Requirements
+## Employee Notice Requirements ^employee-notice-requirements
 
 AI Companies must provide clear notice to all covered employees of their rights and responsibilities, either through workplace postings or annual written notices that must be received and acknowledged.
 
-## Agency Requirements
+## Agency Requirements ^agency-requirements
 
 **\[AI\] Technical AI Expertise.** Agencies receiving AI-related disclosures (e.g. AGs’ offices, OES, federal regulators) must have, or have ready access to, technical AI expertise sufficient to evaluate disclosures. Without this, capacity to respond may be weak, undermining the effectiveness of the legislation.
 
@@ -159,7 +159,7 @@ AI Companies must provide clear notice to all covered employees of their rights 
 
 **Acknowledgment and investigation timelines.** Investigating bodies should acknowledge receipt of a disclosure within a defined period (the EU Whistleblowing Directive requires 7 days) and provide substantive feedback to the disclosing individual within a defined period (the EU Directive requires 3 months). Without mandatory timelines, potential whistleblowers are prone to believe that no action will be taken which is the primary deterrent to whistleblowing.
 
-## About the AI Whistleblower Initiative (AIWI)
+## About the AI Whistleblower Initiative (AIWI) ^about-the-ai-whistleblower-initiative-aiwi
 
 [The AI Whistleblower Initiative (AIWI)](https://aiwi.org/?utm_source=pdf&utm_medium=publication&utm_campaign=best-practice-guide) is an independent, non-profit dedicated to strengthening the position of frontier AI insiders in raising concerns and seeing them addressed effectively — through research, policy advocacy, and access to vetted legal and financial resources. Our research strengthens internal reporting channels, supports relevant legislation, and promotes the conditions under which concerns can reach individuals best placed to act on them, with source protection at its core.
 
