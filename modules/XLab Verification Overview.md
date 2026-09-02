@@ -45,7 +45,8 @@ What would be enough for a three-month emergency pause? Combines feasibility jud
 id:: 104ef826-0784-423a-9edf-02e4927d3e0d
 tldr:: A one-time form about you, your background, and what you want from this course. It takes 10 to 13 minutes and you need to complete it before moving on.
 summary_for_tutor:: An intake form, not teaching material. If the learner asks about a question, explain what it is asking for and why we ask; do not answer it for them, do not speculate about how answers affect selection, and do not discuss other learners' answers.
-#### Text
+{++{"author":"Elias's AI","timestamp":1788355467257}@@duration_minutes:: 12
+++}#### Text
 content::
 \## Before you start
 
