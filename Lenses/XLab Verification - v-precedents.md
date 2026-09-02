@@ -18,18 +18,24 @@ International Atomic Energy Agency (2024)
 
 #### Article
 source:: [[../articles/grossi-iaea-safeguards-serving-nuclear-non-proliferation]]
+from:: {--{"author":"Elias's AI","timestamp":1788357606735}@@### What are IAEA safeguards?
+to:: Similar to--}{++{"author":"Elias's AI","timestamp":1788357606735}@@Preventing++} the {--{"author":"Elias's AI","timestamp":1788357606735}@@NPT, the Treaty for the Prohibition of Nuclear Weapons in Latin America--}{++{"author":"Elias's AI","timestamp":1788357606735}@@spread of nuclear weapons is a complex task.
+to:: facilities++} and{--{"author":"Elias's AI","timestamp":1788357606735}@@ the Caribbean (Treaty of Tlatelolco, 1967) requires its parties--}{++{"author":"Elias's AI","timestamp":1788357606735}@@ other items subject++} to{--{"author":"Elias's AI","timestamp":1788357606735}@@ conclude a comprehensive --}{++{"author":"Elias's AI","timestamp":1788357606735}@@ ++}safeguards{--{"author":"Elias's AI","timestamp":1788357606735}@@ agreement (CSA) with the IAEA – as do the other regional nuclear-weapon-free zone treaties, i.e. the South Pacific Nuclear Free Zone Treaty (Treaty--}{++{"author":"Elias's AI","timestamp":1788357606735}@@ are used only for peaceful purposes.
+
+#### Article
+source:: [[../articles/grossi-iaea-safeguards-serving-nuclear-non-proliferation]]
 from:: ### What are IAEA safeguards?
-to:: Similar to the NPT, the Treaty for the Prohibition of Nuclear Weapons in Latin America and the Caribbean (Treaty of Tlatelolco, 1967) requires its parties to conclude a comprehensive safeguards agreement (CSA) with the IAEA – as do the other regional nuclear-weapon-free zone treaties, i.e. the South Pacific Nuclear Free Zone Treaty (Treaty of Rarotonga, 1985), the Southeast Asia Nuclear-Weapon-Free Zone Treaty (Treaty of Bangkok, 1995), the African Nuclear-Weapon-Free Zone Treaty (Treaty of Pelindaba, 1996) and the Central Asian Nuclear-Weapon-Free Zone Treaty (Treaty of Semipalatinsk, 2006).
+to:: to place all++} of {--{"author":"Elias's AI","timestamp":1788357606735}@@Rarotonga, 1985), the Southeast Asia Nuclear-Weapon-Free Zone Treaty (Treaty of Bangkok, 1995),--}{++{"author":"Elias's AI","timestamp":1788357606735}@@their nuclear material and activities under IAEA safeguards and to allow++} the {--{"author":"Elias's AI","timestamp":1788357606735}@@African Nuclear-Weapon-Free Zone Treaty (Treaty of Pelindaba, 1996) and the Central Asian Nuclear-Weapon-Free Zone Treaty (Treaty of Semipalatinsk, 2006).--}{++{"author":"Elias's AI","timestamp":1788357606735}@@IAEA to verify their commitments.++}
 
 #### Article
 source:: [[../articles/grossi-iaea-safeguards-serving-nuclear-non-proliferation]]
 from:: ### Why do IAEA safeguards matter?
-to:: (Photo Credit: UN Photo/Manuel Elias)
+to:: {--{"author":"Elias's AI","timestamp":1788357606735}@@(Photo Credit: UN Photo/Manuel Elias)
 
 #### Article
 source:: [[../articles/grossi-iaea-safeguards-serving-nuclear-non-proliferation]]
 from:: ### Nuclear material subject to safeguards
-to:: Uranium ore extracted by Brazil Nuclear Industries (INB) in Caeté, Brazil (Photo credit: Marcelo Corrêa/INB)
+to:: Uranium ore extracted by Brazil Nuclear Industries (INB) in Caeté, Brazil (Photo credit: Marcelo Corrêa/INB)--}{++{"author":"Elias's AI","timestamp":1788357606735}@@Only a few of these activities involve the type of nuclear material that could potentially be diverted to produce nuclear weapons or other nuclear explosive devices.++}
 
 #### Article
 source:: [[../articles/grossi-iaea-safeguards-serving-nuclear-non-proliferation]]
@@ -60,7 +66,7 @@ John Carlson, Australian Safeguards and Non-Proliferation Office
 #### Article
 source:: [[../articles/carlson-background-papers-on-nuclear-verification-issues]]
 from:: #### 5.4. Implications for safeguards effectiveness
-to:: refuses to conclude an additional protocol, Egyptian authorities cooperated with the IAEA in resolving the failures once they were detected.
+to:: {--{"author":"Elias's AI","timestamp":1788357609860}@@refuses to conclude an additional protocol, Egyptian authorities cooperated with the IAEA in resolving the failures once they were detected.--}{++{"author":"Elias's AI","timestamp":1788357609860}@@Environmental analysis and satellite imagery have since become well established safeguards techniques.++}
 
 #### Article
 source:: [[../articles/carlson-background-papers-on-nuclear-verification-issues]]
