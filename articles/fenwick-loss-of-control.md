@@ -35,11 +35,11 @@ But what led us to this conclusion? Could AI really cause human extinction? Weâ€
 
 To explain why, we break the argument down into five core claims:[^cite-3]
 
-1.  [[#^claim-1-long-term-goals]].
-2.  [[#^claim-2-power-seeking]].
-3.  [[#^claim-3-disempowerment]].
-4.  [[#^claim-4-insufficient-safeguards]].
-5.  [[#^claim-5-neglected-tractable]].
+[[#^claim-1-long-term-goals]].
+[[#^claim-2-power-seeking]].
+ [[#^claim-3-disempowerment]].
+ [[#^claim-4-insufficient-safeguards]].
+ [[#^claim-5-neglected-tractable]].
 
 After making the argument that the existential risk from power-seeking AI is a pressing world problem, weâ€™ll discuss objections to this argument, and how you can work on it. (There are also other major risks from AI we discuss [elsewhere](https://80000hours.org/problem-profiles/).)
 
