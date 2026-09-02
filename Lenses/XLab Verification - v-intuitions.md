@@ -76,7 +76,7 @@ Questions to consider:
 
 - What has to go right politically, technically, and operationally for this part of the plan to work?
 - Which assumptions seem least reliable under tight timelines, strategic competition, or uneven cooperation among states and firms?
-- If this mechanism underperforms, what other parts of the verification regime compensate for it—and where might the failure cascade?
+- If this mechanism underperforms, what other parts of the verification regime compensate for {--{"author":"Elias's AI","timestamp":1788357589230}@@it—and--}{++{"author":"Elias's AI","timestamp":1788357589230}@@it, and++} where might the failure cascade?
 
 After you have a good idea of a weakness you want to critique, explain which weakness, why it's most jeopardizing, and some ideas (not too long) about how you would go about strengthening it. (200 to 250 words)
 feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
@@ -173,7 +173,7 @@ id:: 79d7f63c-67b0-4a54-aeb6-127a58ddbc4a
 optional:: true
 content:: A clear rule is useful only if the available verification mechanisms can produce convincing evidence that actors are following it.
 
-For Plan A, use the Verification Supplement to identify the mechanisms that provide the strongest evidence of compliance. For Plan S, consider what combination of tools from this course could provide comparable assurance—for example, compute declarations, inspections, chip accounting, power monitoring, remote sensing, intelligence, or personnel reporting.
+For Plan A, use the Verification Supplement to identify the mechanisms that provide the strongest evidence of compliance. For Plan S, consider what combination of tools from this course could provide comparable {--{"author":"Elias's AI","timestamp":1788357591427}@@assurance—for example,--}{++{"author":"Elias's AI","timestamp":1788357591427}@@assurance, for example++} compute declarations, inspections, chip accounting, power monitoring, remote sensing, intelligence, or personnel reporting.
 
 Compare the quality of evidence each regime could realistically produce.
 
@@ -286,7 +286,7 @@ content::
 \### [AI 2027](https://ai-2027.com)
 AI Futures Project (2025)
 
-  The earlier scenario from the same team — how a race ends badly, dramatized. Read both of its endings.
+  The earlier scenario from the same {--{"author":"Elias's AI","timestamp":1788357593319}@@team —--}{++{"author":"Elias's AI","timestamp":1788357593319}@@team:++} how a race ends badly, dramatized. Read both of its endings.
 
 \## Curated Readings
 
@@ -310,7 +310,7 @@ Baker et al. (2025)
 \### [Verifying Restrictions on Frontier AI Research](https://arxiv.org/abs/2606.28694)
 Scher (2026)
 
-  If you chose Plan S — or remain unsure whether a stronger halt is actually
+  If you chose Plan {--{"author":"Elias's AI","timestamp":1788357595181}@@S —--}{++{"author":"Elias's AI","timestamp":1788357595181}@@S,++} or remain unsure whether a stronger halt is actually
   easier to verify. Read for the uncomfortable parts of a halt that compute
   monitoring alone does not solve: algorithmic research, experiments,
   personnel, code, and other less physically legible activity.
@@ -327,7 +327,7 @@ Oxford Martin AI Governance Initiative (2025)
 Scher et al. (2025)
 
   If you want to compare your own architecture against a concrete proposal
-  for an international halt — especially its verification sections and
+  for an international {--{"author":"Elias's AI","timestamp":1788357597209}@@halt —--}{++{"author":"Elias's AI","timestamp":1788357597209}@@halt,++} especially its verification sections and
   Appendix D. Read for one attempt to translate a pause posture into specific
   restrictions on compute and dangerous AI research.
 
@@ -436,7 +436,7 @@ Four families were mixed into the list: inspection games (the three you had to f
 
 #### Question: Choice
 id:: 3a2eb99c-70e9-4071-bd7c-78423aab2037
-content:: Syllogism. Premises: (1) No self-reporting mechanism is tamper-resistant. (2) All log-based regimes are self-reporting mechanisms. (3) Some treaty provisions are log-based regimes. Which conclusion follows necessarily? The full answer is the conclusion plus the picture: draw the circle diagram that justifies it.
+content:: Syllogism. Premises: (1) No self-reporting mechanism is tamper-resistant. (2) All log-based regimes are self-reporting mechanisms. (3) Some treaty provisions are log-based regimes. Which conclusion follows necessarily? The full answer is the conclusion plus the picture: {--{"author":"Elias's AI","timestamp":1788357599719}@@draw--}{++{"author":"Elias's AI","timestamp":1788357599719}@@the reveal below describes++} the circle diagram that justifies it.
 options::
 - No treaty provision is tamper-resistant
 - [x] Some treaty provisions are not tamper-resistant

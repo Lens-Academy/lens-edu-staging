@@ -54,7 +54,7 @@ content::
 \### Document 3. Iraq and undeclared infrastructure
 
 \### [Experience and Challenges in WMD Treaty Verification: a Comparative View](https://www.dfat.gov.au/about-us/publications/Pages/background-papers-on-nuclear-verification-issues)
-*Background Papers on Nuclear Verification Issues, Paper 1 — §5.4 Implications for safeguards effectiveness; §5.7.2 Undeclared nuclear sites*
+*Background Papers on Nuclear Verification Issues, Paper {--{"author":"Elias's AI","timestamp":1788357601854}@@1 —--}{++{"author":"Elias's AI","timestamp":1788357601854}@@1,++} §5.4 Implications for safeguards effectiveness; §5.7.2 Undeclared nuclear sites*
 John Carlson, Australian Safeguards and Non-Proliferation Office
 
 #### Article
