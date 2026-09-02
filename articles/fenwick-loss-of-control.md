@@ -37,9 +37,9 @@ To explain why, we break the argument down into five core claims:[^cite-3]
 
 [[#^claim-1-long-term-goals]].
 [[#^claim-2-power-seeking]].
- [[#^claim-3-disempowerment]].
- [[#^claim-4-insufficient-safeguards]].
- [[#^claim-5-neglected-tractable]].
+[[#^claim-3-disempowerment]].
+[[#^claim-4-insufficient-safeguards]].
+[[#^claim-5-neglected-tractable]].
 
 After making the argument that the existential risk from power-seeking AI is a pressing world problem, we’ll discuss objections to this argument, and how you can work on it. (There are also other major risks from AI we discuss [elsewhere](https://80000hours.org/problem-profiles/).)
 
