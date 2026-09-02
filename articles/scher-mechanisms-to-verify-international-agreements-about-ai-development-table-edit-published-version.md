@@ -37,7 +37,7 @@ International agreements about AI development may be required to reduce catastro
 
 Correspondence to: [aaron.scher@intelligence.org](mailto:aaron.scher@intelligence.org), [lisa@intelligence.org](mailto:lisa@intelligence.org)
 
-## Executive Summary
+## Executive Summary ^executive-summary
 
 ## About This Report
 
@@ -195,7 +195,7 @@ Many of the technical building blocks in this report are relevant to achieving t
 
 We assume general familiarity with common AI and AI governance concepts; “compute” is used to refer to both the hardware used in AI development and as a measurement of operations done by these chips (Gupta & Ranjan, 2024).
 
-### Verifying the Location of AI Compute
+### Verifying the Location of AI Compute ^locating-ai-compute
 
 ### Why This Policy Goal is Included
 
@@ -306,7 +306,7 @@ While decentralized access to AI compute is often considered desirable, an inter
 | **Feasibility** High ▾ &lt;2 year | | |
 | **Notes** These rules could be “disallow” or “allow” based, depending on risk. Countries might agree to reduce the proliferation of AI chips via shared export controls. It appears difficult to make such agreements robust to a country later deciding to break such an agreement. | | |
 
-## Verifying That Known Compute is Not Being Used for a Large Training Run
+## Verifying That Known Compute is Not Being Used for a Large Training Run ^known-compute-no-large-training
 
 ### Why This Policy Goal is Included
 
@@ -345,7 +345,7 @@ We use “data center” to refer to a physical space that houses compute and �
 
 A horizontal bar chart titled 'Hypothetical Compute Monitoring Process' showing five stages of monitoring across 10 compute clusters. The stages are: 1. No AI Chips (Excluded from further monitoring) - 0 to 2 clusters; 2. Interconnect Bandwidth Restrictions (No training) - 2 to 4 clusters; 3. Signature of High-Level Chip Measures (No training) - 4 to 6 clusters; 4. Partial Rerunning of Workloads (Small training only) - 6 to 8 clusters; 5. Code Review for Insecure Hardware (No training) - 8 to 10 clusters.
 
-Figure 1: A hypothetical breakdown of how different amounts of compute could be monitored using mechanisms discussed in this section. Parentheses include what the mechanism could tell us about some particular compute.
+Figure 1: A hypothetical breakdown of how different amounts of compute could be monitored using mechanisms discussed in this section. Parentheses include what the mechanism could tell us about some particular compute. ^figure-1-compute-monitoring
 
 ### Excluding Compute From Further Monitoring
 
@@ -353,13 +353,13 @@ Compute may be excluded from further monitoring due to its incapability to be us
 
 We now turn to compute that cannot be excluded on the basis of incapability. There are a few approaches to showing that a chip that could be useful for large training runs is not being used for this purpose. Trivially, chips could be [shut down](#) in emergency or transitory situations, drawing no power and thus not being useful for a violation. This is not desirable, however: AI systems could be creating large amounts of economic value or contributing to critical services, so completely shutting off AI compute may be very costly. Instead, we would like approaches that allow AI compute to continue doing activities that are permitted by an international agreement but not other activities—in this case, large AI training runs are not permitted. These approaches include partial re-running of chip activities to confirm that some declared use of compute happened as stated, workload classification based on high-level chip measures, classification using FlexHEGs, and other methods.
 
-### Partial Re-Running of Chip Activities
+### Partial Re-Running of Chip Activities ^partial-rerunning-chip-activities
 
 Data center operators could keep [registries of the activities of their chips](#), and these registries could be used to verify that chips were not used for a violation. In particular, the [partial re-running of chip activities](#) protocol (Choi et al., 2023; Jia et al., 2021; Shavit, 2023) and generalizations of it (Baker et al., Forthcoming) may be able to accomplish this goal. This approach involves a data center operator reporting enough information about a particular workload that this workload can be replicated in a [mutually trusted data center](#), confirming that the workload re-run matches the declared workload and, therefore, that the declared workload was actually how some compute was used. Re-running is not the only implementation method available to confirm a declared training run is correct, but we refer to these methods as re-running for simplicity. Ideally, this protocol is [zero-knowledge](#) in that the trusted data center could report only whether the declared workload is correct. Additionally, other properties of the workload could be confirmed in the trusted data center, e.g., the architecture of the model used, whether particular reported evaluation results are correct, and effectively all other information about the workload; these could still be reported in a zero-knowledge manner, only revealing the concise answer to governance-related questions without revealing the underlying data.
 
 Despite this approach being zero-knowledge in principle, there could be practical security challenges that make this difficult. The “trusted” data center needs to be mutually believed to not leak sensitive information, which could require new AI hardware or very strict security measures. This approach of keeping and verifying a registry of chip activities has a major downside in that it requires code access, even if this is intended to be secure. Code in the context of AI development is particularly sensitive, encapsulating model weights and architectures. In some of the potential futures where international verification is needed, this information is some of the most sensitive information a government has (i.e., akin to the location of nuclear weapons).
 
-### Workload Classification With High-Level Chip Measures
+### Workload Classification With High-Level Chip Measures ^workload-classification-high-level-measures
 
 Therefore, ideally, one could verify that AI chips are not taking part in a large training run based on just high-level information about these chips’ activities without code access. This could be implemented alongside a [registry](#) (i.e., acting as a secondary verification of that registry) or on its own. The primary approach here is to measure a chip’s activity with external sensors—e.g., a chip’s power draw, within-server bandwidth, between-server bandwidth, core utilization, etc.—and then to classify whether the chip is participating in a large training run, on this basis.
 
@@ -369,7 +369,7 @@ code or the manufacturing of new AI chips. A data center operator would claim th
 
 [Various other methods](#) could, speculatively, distinguish training and inference with just high-level information about chip activity (e.g., power draw, bandwidth utilization, numerical precision of computations). Many of these methods appear easily spoofable given the present threat model, e.g., by making training 20% slower in order to look like inference, within the budget of relevant actors. However, they could be made robust if they are [paired with temporary code access](#). Specifically, an inspector could take measurements of some chips' power draw while reviewing code to ensure the chips are conducting inference, and this creates a baseline, or signature, of the chip's power draw while conducting an approved activity (in this case, inference on a specific model). Later, the inspector would only monitor the power draw to ensure it is sufficiently close to the baseline.
 
-#### Workload Classification With FlexHEG Mechanisms
+#### Workload Classification With FlexHEG Mechanisms ^workload-classification-flexheg
 
 Workload classification could also take place via AI chips either reporting on their activities or having their activities restricted. Flexible Hardware-Enabled Guarantee, FlexHEG, refers to a design stack for AI chips that can securely implement a variety of governance functions, such as monitoring or restricting chip activities (Petrie et al., 2024). Work on FlexHEG mechanisms is in its early stages, so specific implementation details have not yet been determined. Similar ideas have also been referred to as “on-chip governance mechanisms” (Aarne et al., 2024) or “hardware-enabled governance mechanisms, HEMs” (Kulp et al., 2024); these concepts are somewhat overlapping, so we refer to “FlexHEG” for simplicity and to gesture at the implementations most relevant to verification of chip activities.
 
@@ -395,7 +395,7 @@ Trivially, [inspectors](#) could be granted access to large amounts of code, whi
 
 AI chips are sometimes used for non-AI activities. Fortunately, many of the methods that could be used to differentiate between AI workloads can also differentiate AI and non-AI workloads, such as [re-running chip activities](#), [inspectors reviewing code](#), or [classifying chip activity with high-level chip measures](#). For verifying particular non-AI activities, such as cryptocurrency mining, [Proof-of-Work](#) approaches could be used. In the future, it may be possible to develop Proof-of-Work-style approaches for other workloads (ideally including AI workloads, as [partial re-running](#) attempts to do), which could be used to verify that compute was used for some declared purpose.
 
-### Compute Accounting
+### Compute Accounting ^compute-accounting
 
 At its core, distinguishing large training runs from other AI workloads at the chip level is a difficult problem because both consist of basic arithmetic operations. The general approach to verifying that some compute (i.e., some number of chips for some time), which could be used for a violation, is not being used for a violation is to classify a *significant portion of chip time* as non-violations. This could include a combination of the above methods, e.g., partial re-running of certain workloads to confirm they were correctly reported and classifying workloads on the basis of either high-level chip
 
@@ -523,7 +523,7 @@ It is unclear how consistent these signatures will be over time, but previous re
 | Compute accounting | Compute accounting | Data center operators can demonstrate that their AI chips are not being used for a large training run by showing that they are being used for other things, as accomplished through <a href="#">partial re-running of chip activities</a> and <a href="#">other workload classification</a>. By summing declared and verified compute use and comparing it to total potential compute use, they can show that there is not enough compute left over for a violation. One difficulty here is that the quantity of declared chip uses may not correspond to the actual chip use. For example, chips often do redundant operations during training (“recomputation”) in order to save on memory, so a data center operator might claim to have done a training run with 10^{25} FLOP, but the chips actually did $1.5 \cdot 10^{25}$ FLOP because they did substantial recomputing. Forthcoming work from Baker and colleagues makes progress on this. |
 | | | **Feasibility**                      **Previous work** (non-comprehensive) <br> Medium ▾ &lt;1 year              Heim et al. (2024); Baker et al. (Forthcoming) |
 
-## Verifying the Authenticity of Model Evaluations
+## Verifying the Authenticity of Model Evaluations ^authentic-model-evaluations
 
 ### Why This Policy Goal is Included
 
@@ -601,7 +601,7 @@ High <1 year
 
 Monitoring the capability level of internal AI systems, which are only deployed internally and are kept secret, is more difficult than monitoring externally deployed models.
 
-### Verifying Various Policy Goals
+### Verifying Various Policy Goals ^various-policy-goals
 
 There are many other policy goals that international coordination on AI may aim to achieve. For instance, an international treaty could require every frontier AI development project to write a safety case that is reviewed by an international committee. This section discusses some self-report and verification building blocks that may help with these goals.
 
@@ -969,7 +969,7 @@ Table of contents:
 - [Verification Approach for All Frontier AI Development Following a Safety Case](#): An initial sketch of what a verification approach would look like for ensuring that all frontier AI development follows a safety case
 - [Hypothetical Futures](#): Three hypothetical stories about the future of AI development that motivate some of the framing choices in this report
 
-## Acknowledgments
+## Acknowledgments ^acknowledgments
 
 We are thankful to the following people for useful discussion or feedback during this project:
 
@@ -977,7 +977,7 @@ Ben Harack, Mauricio Baker, James Petrie, Ben Bucknall, Romeo Dean, Davis Brown,
 
 These individuals do not necessarily agree with the views in the paper, and all mistakes are our own.
 
-## Author Contributions Statement
+## Author Contributions Statement ^author-contributions
 
 Lisa was the Research Lead for the project, came up with the initial ideas and directions, contributed some original ideas for mechanisms, and did some editing. Aaron did the majority of the writing and did most of the analysis and mechanisms research.
 
