@@ -446,7 +446,7 @@ feedback-instructions:: Explain by chaining the circles: the log-based circle si
 
 #### Text
 content::
-:::callout {title="Works cited" tone="neutral" collapse="closed"}
+:::callout {--{"author":"Elias's AI","timestamp":1788357639800}@@{title="Works cited" tone="neutral" collapse="closed"}
 Dean, Romeo. "Verification Plan." *AI 2040*, AI Futures Project, 2026. [ai-2040.com](https://ai-2040.com/supplements/verification-plan)
 *The AI 2040 scenario's supplement laying out a three-phase technical plan for verifying a US-China slowdown agreement without trust.*
 
@@ -465,8 +465,27 @@ XLab. "0.2 Building Verification Intuitions." *Verification*, XLab, University o
 
 #### Text
 content::
-:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+:::callout --}{title="Why (open after you have answered)" tone="neutral" collapse="closed"}
 Chain the circles: the log-based circle sits wholly inside self-reporting (premise 2), and self-reporting is disjoint from tamper-resistant (premise 1); the treaty-provisions circle overlaps log-based (premise 3), so that overlap is forced outside tamper-resistant, an existential conclusion and nothing more. The rest of the provisions circle is unconstrained, which kills the "no" and "all" options; the third option is not derivable at all. Drawing the arrangement where your answer holds and the others fail IS the justification; that is the drill's scoring rule.
-:::
+:::{++{"author":"Elias's AI","timestamp":1788357648018}@@
+
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Dean, Romeo. "Verification Plan." *AI 2040*, AI Futures Project, 2026. [ai-2040.com](https://ai-2040.com/supplements/verification-plan)
+*The AI 2040 scenario's supplement laying out a three-phase technical plan for verifying a US-China slowdown agreement without trust.*
+
+Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/abs/2507.15916)
+*A six-layer verification framework whose personnel-based layers map which workers can observe different violations and why disclosures still need independent confirmation.*
+
+Harack, Ben, Robert F. Trager, Anka Reuel, et al. *Verification for International AI Governance*. Oxford Martin AI Governance Initiative, July 2025. [aigi.ox.ac.uk](https://aigi.ox.ac.uk/wp-content/uploads/2025/07/Verification_for_International_AI_Governance.pdf)
+*The Oxford Martin 172-page report on which international AI agreements could actually be verified, and with what machinery.*
+
+Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *arXiv*, Nov. 2025. [arxiv.org](https://arxiv.org/abs/2511.10783)
+*MIRI's draft international agreement to prevent the premature creation of artificial superintelligence, the treaty text several lessons read against.*
+
+XLab. "0.2 Building Verification Intuitions." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/building-intuitions)
+*The source lesson this page adapts, including the essay prompts and the drill bench.*
+:::++}
 {>>{"author":"Elias's AI","timestamp":1788009461717}@@Proposed: drop per-lesson XLab source footer.<<}
 
