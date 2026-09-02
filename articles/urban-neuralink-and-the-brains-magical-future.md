@@ -43,23 +43,23 @@ So wipe your brain clean of what it thinks it knows about itself and its future,
 
 Contents
 
-**[Part 1: The Human Colossus](#part-1-the-human-colossus)**
+**[[#^part-1-human-colossus|Part 1: The Human Colossus]]**
 
-**[Part 2: The Brain](#part-2-the-brain)**
+**[[#^part-2-brain|Part 2: The Brain]]**
 
-**[Part 3: Brain-Machine Interfaces](#part-3-brain-machine-interfaces)**
+**[[#^part-3-brain-machine-interfaces|Part 3: Brain-Machine Interfaces]]**
 
-**[Part 4: Neuralink’s Challenge](#part-4-neuralinks-challenge)**
+**[[#^part-4-neuralinks-challenge|Part 4: Neuralink’s Challenge]]**
 
-**[Part 5: The Wizard Era](#part-5-the-wizard-era)**
+**[[#^part-5-wizard-era|Part 5: The Wizard Era]]**
 
-**[Part 6: The Great Merger](#part-6-the-great-merger)**
+**[[#^part-6-great-merger|Part 6: The Great Merger]]**
 
 ![Notes key: Type 1 are fun notes for fun facts, extra thoughts, or further explanation. Type 2 are boring notes for sources and citations.](https://waitbutwhy.com/wp-content/uploads/2018/04/Notes-Key.png)
 
 ---
 
-## Part 1: The Human Colossus
+## Part 1: The Human Colossus ^part-1-human-colossus
 
 600 million years ago, no one really did anything, ever.
 
@@ -257,7 +257,7 @@ Finally, BMIs themselves are just a larger branch—not the tree’s trunk. In o
 
 So we’ll start with the brain, which will prepare us to learn about BMIs, which will teach us about what it’ll take to build a wizard hat, and that’ll set things up for an insane discussion about the future—which will get our heads right where they need to be to wrap themselves around why Elon thinks a wizard hat is such a critical piece of our future. And by the time we reach the end, this whole thing should click into place.
 
-## Part 2: The Brain
+## Part 2: The Brain ^part-2-brain
 
 ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-2.png)
 
@@ -629,7 +629,7 @@ But somehow, _none of this_ is why building effective brain-computer interfaces 
 
 So with our brain background tree trunk built, we’re ready to head up to our first branch.
 
-## Part 3: Brain-Machine Interfaces
+## Part 3: Brain-Machine Interfaces ^part-3-brain-machine-interfaces
 
 ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-3.png)
 
@@ -1105,7 +1105,7 @@ It’s also experimentally (not yet FDA approved) been able to mitigate certain 
 
 This is the state of the early BMI industry, and it’s the moment when Elon Musk is stepping into it. For him, and for Neuralink, today’s BMI industry is Point A. We’ve spent the whole post so far in the past, building up to the present moment. Now it’s time to step into the future—to figure out what Point B is and how we’re going to get there.
 
-## Part 4: Neuralink’s Challenge
+## Part 4: Neuralink’s Challenge ^part-4-neuralinks-challenge
 
 ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-4.png)
 
@@ -1334,7 +1334,7 @@ Anyway, I think about DPUs a lot and I always wonder what it would feel like to 
 
 I think I might finally have a descriptive picture of a piece of our shocking future. Let me paint it for you.
 
-## Part 5: The Wizard Era
+## Part 5: The Wizard Era ^part-5-wizard-era
 
 ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-5.png)
 
@@ -1760,7 +1760,7 @@ Elon’s urgency to get us into the Wizard Era is the final piece of the Neurali
 
 With Elon’s companies, there’s always some “result of the goal” that’s his real reason for starting the company—the piece that ties the company’s goal into humanity’s better future. In the case of Neuralink, it’s a piece that takes a lot of tree climbing to understand. But with the view from all the way up here, we’ve got everything we need for our final stretch of the road.
 
-## Part 6: The Great Merger
+## Part 6: The Great Merger ^part-6-great-merger
 
 ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-6.png)
 
