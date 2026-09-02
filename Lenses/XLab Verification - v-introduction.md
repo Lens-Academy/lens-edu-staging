@@ -25,7 +25,6 @@ content::
 The case at full strength, from the people who argue it most directly. Any one of these:
 
 ::card[[../Lenses/AI Is Grown, Not Built]]
-> Eliezer Yudkowsky & Nate Soares, The Atlantic, September 2025. An edited excerpt of chapter 2 of *If Anyone Builds It, Everyone Dies*.
 
 ::card[[../Lenses/Four Background Claims]]
 > Nate Soares, MIRI, 2015. The assumptions doing the work beneath the argument.
