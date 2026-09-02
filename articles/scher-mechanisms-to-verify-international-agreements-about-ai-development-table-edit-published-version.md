@@ -1873,7 +1873,7 @@ deployment
 monitoring via  
 HUMINT
 
-Human-based intelligence can help identify the capability level of secret AI projects. This could include spies, unintentional leaks, [whistleblowers](#), and [interviews](#) conducted by international authorities.
+Human-based intelligence can help identify the capability level of secret AI projects. This could include spies, unintentional leaks, {--{"author":"Luc's AI","timestamp":1788383244892}@@[whistleblowers](#),--}{++{"author":"Luc's AI","timestamp":1788383244892}@@whistleblowers,++} and {--{"author":"Luc's AI","timestamp":1788383244892}@@[interviews](#)--}{++{"author":"Luc's AI","timestamp":1788383244892}@@interviews++} conducted by international authorities.
 
 #### **Feasibility**
 
@@ -2014,7 +2014,7 @@ If carrying out a forward pass on a model requires multiple parties, each of tho
 
 Widely applied chip restrictions
 
-If nearly all AI chips in the world are under a governance authority with tools like [FlexHEGs](#), various [mechanisms for chip limiting or monitoring](#) could be applied, as discussed previously. For instance, chips could be restricted to only running inference or training on [certain models which have been approved by an international authority](#). If a substantial fraction of all AI chips were covered by such controls, this could increase confidence that inference was not being done on an unapproved model.
+If nearly all AI chips in the world are under a governance authority with tools like {--{"author":"Luc's AI","timestamp":1788383245460}@@[FlexHEGs](#),--}{++{"author":"Luc's AI","timestamp":1788383245460}@@FlexHEGs,++} various {--{"author":"Luc's AI","timestamp":1788383245460}@@[mechanisms--}{++{"author":"Luc's AI","timestamp":1788383245460}@@mechanisms++} for chip limiting or {--{"author":"Luc's AI","timestamp":1788383245460}@@monitoring](#)--}{++{"author":"Luc's AI","timestamp":1788383245460}@@monitoring++} could be applied, as discussed previously. For instance, chips could be restricted to only running inference or training on {--{"author":"Luc's AI","timestamp":1788383245460}@@[certain--}{++{"author":"Luc's AI","timestamp":1788383245460}@@certain++} models which have been approved by an international {--{"author":"Luc's AI","timestamp":1788383245460}@@authority](#).--}{++{"author":"Luc's AI","timestamp":1788383245460}@@authority.++} If a substantial fraction of all AI chips were covered by such controls, this could increase confidence that inference was not being done on an unapproved model.
 
 #### Feasibility
 
