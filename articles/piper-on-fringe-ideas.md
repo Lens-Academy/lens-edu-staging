@@ -7,8 +7,7 @@ published: 2019-08-19
 created: 2026-05-28
 description: "Kelsey Piper argues that speculative or 'fringe' EA work—like researching wild animal suffering—is essential for ensuring the movement remains open to moral progress and resilient against historical blind spots."
 tags:
-  - {--{"author":"AI","timestamp":1788202753060}@@validator-ignore
-  - --}ea-intro-program
+  - ea-intro-program
   - effective-altruism
   - moral-circle-expansion
   - moral-uncertainty
