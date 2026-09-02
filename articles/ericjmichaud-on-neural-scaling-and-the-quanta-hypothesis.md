@@ -287,7 +287,7 @@ While we obviously haven't fully enumerated the quanta in LLMs with these experi
 
 In the paper, we also noticed that the envelope of the cluster rank versus cluster size curves, across different choices of $n_{\rm clusters}$, eventually might follow something like a power law. However, this is super informal, and given the limitations of the clustering method itself, we ought to be cautious about interpreting this as decisive evidence for the theory.
 
-However, we could imagine one day having a much better method for automatically decomposing language models into parts. In some ways, this has been the central focus of mechanistic interpretability research over the last two years, which I'll discuss [below](#features-quanta-and-sparse-autoencoders).
+However, we could imagine one day having a much better method for automatically decomposing language models into parts. In some ways, this has been the central focus of mechanistic interpretability research over the last two years, which I'll discuss [[#^features-quanta-and-sparse-autoencoders|below]].
 
 ### Related work
 
@@ -327,7 +327,7 @@ _Figure 1 of ["On the Stepwise Nature of Self-Supervised Learning"](https://arxi
 
 I wish I could discuss all the works that have in some way built on or tested our theory—over a hundred papers have cited our work now. But I'll move on now to a more detailed discussion of various topics that have come up since we released our work. This will include some additional discussion of several other papers.
 
-## Features, quanta, and sparse autoencoders
+## Features, quanta, and sparse autoencoders ^features-quanta-and-sparse-autoencoders
 
 Over the last few years, the mechanistic interpretability community has developed many methods for automatically decomposing networks into sparsely activating mechanisms. The most prominent of these methods is the sparse autoencoder. In this section, I'll attempt to say a bit about the relationship between what we called "quanta" and the units that sparse autoencoders discover, "features".
 

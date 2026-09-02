@@ -34,14 +34,14 @@ This is one of many profiles we've written to help people find the most pressing
 
 Table of Contents
 
--   [1 Why might gradual disempowerment be an especially pressing problem?](#why-might-gradual-disempowerment-be-an-especially-)
--   [2 How pressing is this issue?](#how-pressing-is-this-issue)
--   [3 What are the arguments against this being a pressing problem?](#what-are-the-arguments-against-this-being-a-pressi)
--   [4 What can you do to help?](#what-can-you-do-to-help)
-    -   [4.1 Key organisations in this space](#key-organisations-in-this-space)
--   [5 Learn more](#learn-more)
+-   [[#^why-might-gradual-disempowerment-be-an-especially-pressing-problem|1 Why might gradual disempowerment be an especially pressing problem?]]
+-   {--{"author":"Luc's AI","timestamp":1788377356992}@@[2--}{++{"author":"Luc's AI","timestamp":1788377356992}@@[[#^how-pressing-is-this-issue|2++} How pressing is this {--{"author":"Luc's AI","timestamp":1788377356992}@@issue?](#how-pressing-is-this-issue)--}{++{"author":"Luc's AI","timestamp":1788377356992}@@issue?]]++}
+-   [[#^what-are-the-arguments-against-this-being-a-pressing-problem|3 What are the arguments against this being a pressing problem?]]
+-   {--{"author":"Luc's AI","timestamp":1788377357469}@@[4--}{++{"author":"Luc's AI","timestamp":1788377357469}@@[[#^what-can-you-do-to-help|4++} What can you do to {--{"author":"Luc's AI","timestamp":1788377357469}@@help?](#what-can-you-do-to-help)--}{++{"author":"Luc's AI","timestamp":1788377357469}@@help?]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377357713}@@[4.1--}{++{"author":"Luc's AI","timestamp":1788377357713}@@[[#^key-organisations-in-this-space|4.1++} Key organisations in this {--{"author":"Luc's AI","timestamp":1788377357713}@@space](#key-organisations-in-this-space)--}{++{"author":"Luc's AI","timestamp":1788377357713}@@space]]++}
+-   {--{"author":"Luc's AI","timestamp":1788377357939}@@[5--}{++{"author":"Luc's AI","timestamp":1788377357939}@@[[#^learn-more|5++} Learn {--{"author":"Luc's AI","timestamp":1788377357939}@@more](#learn-more)--}{++{"author":"Luc's AI","timestamp":1788377357939}@@more]]++}
 
-## Why might gradual disempowerment be an especially pressing problem?
+## Why might gradual disempowerment be an especially pressing problem? ^why-might-gradual-disempowerment-be-an-especially-pressing-problem
 
 Advancing technology has historically benefited humanity. The invention of fire, air conditioning, and antibiotics have all come with some downsides, but overall they’ve helped humans live healthier, happier, and more comfortable lives.
 
@@ -83,13 +83,13 @@ But this risk is that humanity could “hand over” control _unintentionally_ a
 
 We want to better understand these dynamics and risks to increase the prospects that the future goes well.
 
-## How pressing is this issue?
+## How pressing is this issue? ^how-pressing-is-this-issue
 
 We feel very uncertain about how likely various gradual disempowerment scenarios are. It is difficult to disentangle the possibilities from related risks of power-seeking AI systems and questions about the [moral status of digital minds](https://80000hours.org/problem-profiles/moral-status-digital-minds/), which are also hard to be certain about.
 
 Because the area is steeped in uncertainty, it’s unclear what the best interventions are. We think more work should be done to understand this problem and its potential solutions at least — and it’s likely some people should be focusing on it.
 
-## What are the arguments against this being a pressing problem?
+## What are the arguments against this being a pressing problem? ^what-are-the-arguments-against-this-being-a-pressing-problem
 
 There are several reasons you might not think this problem is very pressing:
 
@@ -98,7 +98,7 @@ There are several reasons you might not think this problem is very pressing:
 -   You might think there just aren’t good solutions to this problem.
 -   You might think the gradual disempowerment of humanity wouldn’t constitute an existential catastrophe. For example, perhaps it’d be good or nearly as good as other futures.
 
-## What can you do to help?
+## What can you do to help? ^what-can-you-do-to-help
 
 Given the relatively limited state of our knowledge on this topic, we’d guess the best way to help with this problem is likely carrying out more research to understand it better. (Read more about [research skills](https://80000hours.org/skills/research/).)
 
@@ -125,7 +125,7 @@ Kulveit et al. suggest some approaches to mitigating the risk of gradual disempo
     -   Research “ecosystem alignment” that maintains human values within complex socio-technical systems
     -   Develop frameworks for aligning civilisation-wide interactions between humans and AI
 
-### Key organisations in this space
+### Key organisations in this space ^key-organisations-in-this-space
 
 Some organisations where you might be able to do relevant research include:
 
@@ -140,7 +140,7 @@ You can also explore roles at other [organisations that work on AI safety and po
 
 [View all opportunities](https://jobs.80000hours.org/?refinementList%5Btags_area%5D%5B0%5D=AI%20safety%20%26%20policy)
 
-## Learn more
+## Learn more ^learn-more
 
 -   [Gradual Disempowerment: Systemic Existential Risks from Incremental AI Development](https://gradual-disempowerment.ai/) by Jan Kulveit et al.
 -   Our interview with David Duvenaud on [why ‘aligned AI’ could still kill democracy](https://80000hours.org/podcast/episodes/david-duvenaud-gradual-disempowerment/)
