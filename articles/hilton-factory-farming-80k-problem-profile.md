@@ -102,7 +102,7 @@ We’ll look at:
 
 We’ll then look at {--{"author":"Luc's AI","timestamp":1788377466160}@@[whether--}{++{"author":"Luc's AI","timestamp":1788377466160}@@[[#^there-are-promising-ways-of-solving-this-problem|whether++} there are ways to make {--{"author":"Luc's AI","timestamp":1788377466160}@@progress](#there-are-promising-ways-of-solving-this-problem)--}{++{"author":"Luc's AI","timestamp":1788377466160}@@progress]]++} and {--{"author":"Luc's AI","timestamp":1788377466160}@@[how--}{++{"author":"Luc's AI","timestamp":1788377466160}@@[[#^work-on-factory-farming-is-highly-neglected|how++} neglected factory farming {--{"author":"Luc's AI","timestamp":1788377466160}@@is](#work-on-factory-farming-is-highly-neglected)--}{++{"author":"Luc's AI","timestamp":1788377466160}@@is]]++} before discussing {--{"author":"Luc's AI","timestamp":1788377466160}@@[how--}{++{"author":"Luc's AI","timestamp":1788377466160}@@[[#^what-can-you-do-to-help|how++} you can help solve this problem with your {--{"author":"Luc's AI","timestamp":1788377466160}@@career](#what-can-you-do-to-help).--}{++{"author":"Luc's AI","timestamp":1788377466160}@@career]].++}
 
-## How many animals are in farms?
+## How many animals are in farms? ^how-many-animals-are-in-farms
 
 Every year, we kill somewhere between 400 billion and 3 trillion vertebrates (e.g. cows, chickens, fish) — some are killed for sport and some are dissected for experiments, but the vast majority are either slaughtered for food or die in farms before they’re old enough to be purposefully slaughtered.[^cite-2]
 
@@ -139,7 +139,7 @@ This table shows some estimates for various species. For vertebrates, we’ve on
 | Mealworms | 25–30 billion | 290–310 billion |
 | Black soldier flies | 8–16 billion | 190–300 billion |
 
-## How do we treat these animals?
+## How do we treat these animals? ^how-do-we-treat-these-animals
 
 Let’s go through some of the most commonly farmed animals and look at how they’re treated.
 
@@ -353,7 +353,7 @@ Live snails in sacks ready for transport, from [Touchstone Snails](https://touch
 Mealworm trays — (A) are larvae growing trays, (B) are adult reproductive trays. From [Insect mass production technologies](https://doi.org/10.1016/B978-0-12-802856-8.00006-5)
 :::
 
-## To what extent do animals deserve our moral consideration?
+## To what extent do animals deserve our moral consideration? ^to-what-extent-do-animals-deserve-our-moral-consideration
 
 On reading the above, it’s pretty clear that if even some animals deserve our moral consideration, something pretty awful is happening. But to what extent some or all animals deserve our moral consideration is, in fact, a subject of substantial debate.
 
@@ -365,7 +365,7 @@ We’re going to look at:
 
 Overall, we find that while there’s disagreement on these issues, and grappling with this [moral uncertainty](https://80000hours.org/articles/moral-uncertainty/) is tricky, there’s generally enough agreement on the science and among plausible moral theories that the correct approach is to give many species of nonhuman animals — including the ones we keep on factory farms — at least some non-negligible moral consideration.
 
-### Animal consciousness and pain
+### Animal consciousness and pain ^animal-consciousness-and-pain
 
 Many of the moral arguments {--{"author":"Luc's AI","timestamp":1788377467554}@@[we’ll--}{++{"author":"Luc's AI","timestamp":1788377467554}@@[[#^what-makes-something-deserving-of-moral-consideration|we’ll++} consider {--{"author":"Luc's AI","timestamp":1788377467554}@@below](#what-makes-something-deserving-of-moral-considerat)--}{++{"author":"Luc's AI","timestamp":1788377467554}@@below]]++} come down to whether animals are _conscious_ and whether they have the capacity to _feel pain_.
 
@@ -550,7 +550,7 @@ Overall, there are three takeaways we feel pretty confident in:
 
 It seems to us that, given the evidence we currently have and the huge uncertainty, it’s hard to justify thinking that the probability of consciousness for any factory farmed animal is less than, say, 5%. And for some animals (chickens, sheep, goats, cows, pigs), I think the chances of consciousness seem above 80%.
 
-### What makes something deserving of moral consideration?
+### What makes something deserving of moral consideration? ^what-makes-something-deserving-of-moral-consideration
 
 So, if some species of animals are conscious and have nociceptors (pain responses) or emotion, what does that imply about their moral status?
 
@@ -580,7 +580,7 @@ This suggests that on every mainstream view, there’s an argument that animals 
 
 There’s lots more to discuss here, and many more objections and counter-objections to consider. For a more in-depth discussion, we’d recommend [_Comparisons of Capacity for Welfare and Moral Status Across Species_](https://forum.effectivealtruism.org/posts/4Xg3dC6rrW4WFnSne/comparisons-of-capacity-for-welfare-and-moral-status-across) by Jason Shukraft.
 
-### Different moral approaches
+### Different moral approaches ^different-moral-approaches
 
 Many people believe some version of ‘welfarism’ — the view that the welfare of individuals is in fact the _only_ source of moral value.
 
@@ -644,7 +644,7 @@ Rather than just using neuron counts, we can attempt to come up with an estimate
 
 Ultimately, this is very difficult to do, and we haven’t found any work that does much better than the conclusion we already came to {--{"author":"Luc's AI","timestamp":1788377469445}@@[above](#animal-consciousness-and-pain):--}{++{"author":"Luc's AI","timestamp":1788377469445}@@[[#^animal-consciousness-and-pain|above]]:++} that it’s hard to justify thinking that the probability of consciousness for any adult factory farmed animal is less than around 5 percent.[^cite-147]
 
-#### Using welfare ranges
+#### Using welfare ranges ^using-welfare-ranges
 
 The most recent and most comprehensive approach to comparing animals to humans was pioneered by Jason Schukraft and Bob Fischer, two philosophers working for Rethink Priorities’ [Moral Weight Project](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw/p/hxtwzcsz8hQfGyZQM).
 
@@ -681,7 +681,7 @@ There are also some ways in which these could be _underestimates_ of welfare ran
 
 **Overall, we think the main thing we think this work shows is that extremely low welfare ranges (below 1%) are unlikely.** So we think it makes sense to conclude that adjusting for animals’ capacity for welfare likely doesn’t change our estimate of the scale of the problem of factory farming as a whole by very much.
 
-## How might factory farming change in the future?
+## How might factory farming change in the future? ^how-might-factory-farming-change-in-the-future
 
 Here’s a graph of the tonnes of meat consumed each year: [interactive chart](https://ourworldindata.org/grapher/global-meat-projections-to-2050?tab=chart).
 
@@ -786,7 +786,7 @@ This wouldn’t necessarily bring the end of factory farming. We’d probably al
 
 Overall though, the possibility of transformative AI makes us much more optimistic about the possibility of ending factory farming in the coming century — but it’s by no means a certainty.
 
-### What might happen to factory farming in the very long-run future?
+### What might happen to factory farming in the very long-run future? ^what-might-happen-to-factory-farming-in-the-very-long-run-future
 
 We’ve argued before that [there are strong reasons to consider the interests of all future generations](https://80000hours.org/articles/future-generations/) when assessing the scale of problems — and those arguments apply to future animals, as well as future humans.
 
@@ -816,7 +816,7 @@ Ultimately, I think the chances of long-term value lock-in related to animals ar
 
 So, overall, over the _very_ long-term, we’d guess that factory farming will come to an end.
 
-## There are promising ways of solving this problem
+## There are promising ways of solving this problem ^there-are-promising-ways-of-solving-this-problem
 
 [As in many areas](https://80000hours.org/articles/solutions/), the best approaches to solving factory farming are probably hundreds of times more cost effective than others.
 
@@ -888,7 +888,7 @@ As we’ve seen, the vast majority of the animals in factory farms are fish and 
 
 Similarly, work in non-western countries is likely to be more cost-effective overall.
 
-## Work on factory farming is highly neglected
+## Work on factory farming is highly neglected ^work-on-factory-farming-is-highly-neglected
 
 We’ve argued so far that factory farming is {--{"author":"Luc's AI","timestamp":1788377473991}@@[large--}{++{"author":"Luc's AI","timestamp":1788377473991}@@[[#^how-many-animals-are-in-farms|large++} in {--{"author":"Luc's AI","timestamp":1788377473991}@@scale](#how-many-animals-are-in-farms),--}{++{"author":"Luc's AI","timestamp":1788377473991}@@scale]],++} and that {--{"author":"Luc's AI","timestamp":1788377473991}@@[there--}{++{"author":"Luc's AI","timestamp":1788377473991}@@[[#^there-are-promising-ways-of-solving-this-problem|there++} are promising ways of solving the {--{"author":"Luc's AI","timestamp":1788377473991}@@problem](#there-are-promising-ways-of-solving-this-problem).--}{++{"author":"Luc's AI","timestamp":1788377473991}@@problem]].++} But work in this area is also pressing because it’s so neglected that the impact of an additional person working on it or donating to efforts in the area will tend to be high.
 
@@ -904,7 +904,7 @@ That means altogether, we’d estimate ~3,000 people are working on reducing har
 
 Within that, there are areas that we see as particularly neglected. Around 10 people are working full time on insect farming and maybe around 20–30 on shrimp farming.[^cite-166] And it seems like Coefficient Giving’s donors have decided [not to fund work on invertebrate welfare](https://forum.effectivealtruism.org/posts/foQPogaBeNKdocYvF/linkpost-an-update-from-good-ventures), so these areas are particularly neglected in funding. We’d also guess that factory farming in developing countries tends to be more neglected.
 
-## How can we compare the pressingness of factory farming to existential risks?
+## How can we compare the pressingness of factory farming to existential risks? ^how-can-we-compare-the-pressingness-of-factory-farming-to-existential-risks
 
 We think that reducing [risks to the continued existence of civilisation is a particularly pressing moral issue](https://80000hours.org/articles/existential-risks/).
 
@@ -1005,9 +1005,9 @@ As a result, the main options we recommend in this area are:
 -   {--{"author":"Luc's AI","timestamp":1788377478142}@@[Helping--}{++{"author":"Luc's AI","timestamp":1788377478142}@@[[#^helping-to-run-nonprofits|Helping++} to run {--{"author":"Luc's AI","timestamp":1788377478142}@@nonprofits](#helping-to-run-nonprofits)--}{++{"author":"Luc's AI","timestamp":1788377478142}@@nonprofits]]++}
 -   {--{"author":"Luc's AI","timestamp":1788377478494}@@[Founding--}{++{"author":"Luc's AI","timestamp":1788377478494}@@[[#^founding-something-new|Founding++} something {--{"author":"Luc's AI","timestamp":1788377478494}@@new](#founding-something-new)--}{++{"author":"Luc's AI","timestamp":1788377478494}@@new]]++}
 -   {--{"author":"Luc's AI","timestamp":1788377478842}@@[Government--}{++{"author":"Luc's AI","timestamp":1788377478842}@@[[#^government-and-policy|Government++} and {--{"author":"Luc's AI","timestamp":1788377478842}@@policy](#government-and-policy)--}{++{"author":"Luc's AI","timestamp":1788377478842}@@policy]]++}
--   [Corporate campaigning and activism](#corporate-campaigning-and-activism)
--   [Scientific and engineering research](#scientific-and-engineering-research)
--   [Strategy research and grantmaking](#strategy-research-and-grantmaking)
+-   {--{"author":"Luc's AI","timestamp":1788377479230}@@[Corporate--}{++{"author":"Luc's AI","timestamp":1788377479230}@@[[#^corporate-campaigning-and-activism|Corporate++} campaigning and {--{"author":"Luc's AI","timestamp":1788377479230}@@activism](#corporate-campaigning-and-activism)--}{++{"author":"Luc's AI","timestamp":1788377479230}@@activism]]++}
+-   {--{"author":"Luc's AI","timestamp":1788377479569}@@[Scientific--}{++{"author":"Luc's AI","timestamp":1788377479569}@@[[#^scientific-and-engineering-research|Scientific++} and engineering {--{"author":"Luc's AI","timestamp":1788377479569}@@research](#scientific-and-engineering-research)--}{++{"author":"Luc's AI","timestamp":1788377479569}@@research]]++}
+-   {--{"author":"Luc's AI","timestamp":1788377479984}@@[Strategy--}{++{"author":"Luc's AI","timestamp":1788377479984}@@[[#^strategy-research-and-grantmaking|Strategy++} research and {--{"author":"Luc's AI","timestamp":1788377479984}@@grantmaking](#strategy-research-and-grantmaking)--}{++{"author":"Luc's AI","timestamp":1788377479984}@@grantmaking]]++}
 
 We’ll go into some detail about each of these below.
 
@@ -1031,7 +1031,7 @@ Of course, no matter what your job is, if you have more wealth than you need you
 
 ### Earning to give
 
-As we [mentioned](#work-on-factory-farming-is-highly-neglected), there’s very little funding for factory farming relative to many other causes.
+As we {--{"author":"Luc's AI","timestamp":1788377480423}@@[mentioned](#work-on-factory-farming-is-highly-neglected),--}{++{"author":"Luc's AI","timestamp":1788377480423}@@[[#^work-on-factory-farming-is-highly-neglected|mentioned]],++} there’s very little funding for factory farming relative to many other causes.
 
 So one of the best ways to help might be by [earning to give](https://80000hours.org/articles/earning-to-give/), which means taking any job that’s higher paying in order to donate more.
 
@@ -1046,7 +1046,7 @@ We’d be particularly excited about people earning to give to support invertebr
 
 ### Helping to run nonprofits
 
-Many of the organisations working on the [most cost-effective solutions](#there-are-promising-ways-of-solving-this-problem) are nonprofits.
+Many of the organisations working on the {--{"author":"Luc's AI","timestamp":1788377480783}@@[most--}{++{"author":"Luc's AI","timestamp":1788377480783}@@[[#^there-are-promising-ways-of-solving-this-problem|most++} cost-effective {--{"author":"Luc's AI","timestamp":1788377480783}@@solutions](#there-are-promising-ways-of-solving-this-problem)--}{++{"author":"Luc's AI","timestamp":1788377480783}@@solutions]]++} are nonprofits.
 
 These organisations need people to help run them. That might mean working in management, HR, finance, accounting, law, fundraising, software, operations, marketing, communications, and more.
 
@@ -1083,7 +1083,7 @@ To learn more about this career path, read our [career review on founding impact
 
 There are two broad areas for government and policy work on factory farming:
 
--   Improving welfare standards on farms — as we [mentioned earlier](#there-are-promising-ways-of-solving-this-problem), there are lots of exciting opportunities for legislative reform
+-   Improving welfare standards on farms — as we {--{"author":"Luc's AI","timestamp":1788377481114}@@[mentioned earlier](#there-are-promising-ways-of-solving-this-problem),--}{++{"author":"Luc's AI","timestamp":1788377481114}@@[[#^there-are-promising-ways-of-solving-this-problem|mentioned earlier]],++} there are lots of exciting opportunities for legislative reform
 -   Removing barriers to and leveraging government support for alternative proteins — most of this work is currently carried out by the [Good Food Institute](https://gfi.org/policy/) and its [affiliates around the world](https://gfi.org/global/)
 
 Working in policy might mean working in the executive branch, lobbying from the outside, or possibly even running for office.
@@ -1092,7 +1092,7 @@ Our article on [policy and political skills](https://80000hours.org/skills/polit
 
 ### Corporate campaigning and activism
 
-Corporate campaigns — like those we [mentioned above](#there-are-promising-ways-of-solving-this-problem) working on improving the lives of caged chickens — are one of the most cost-effective ways people have found of improving welfare for currently farmed animals.
+Corporate campaigns — like those we {--{"author":"Luc's AI","timestamp":1788377481505}@@[mentioned above](#there-are-promising-ways-of-solving-this-problem)--}{++{"author":"Luc's AI","timestamp":1788377481505}@@[[#^there-are-promising-ways-of-solving-this-problem|mentioned above]]++} working on improving the lives of caged chickens — are one of the most cost-effective ways people have found of improving welfare for currently farmed animals.
 
 So learning how to effectively carry out these campaigns is a particularly useful skill set, especially if you can then go on to run entire teams or organisations of campaigners.
 
@@ -1111,7 +1111,7 @@ About [half of alternative protein job postings](https://www.animaladvocacycaree
 
 To get started on an alternative protein research career path, we’d recommend [this newcomer’s guide from the Good Food Institute](https://gfi.org/resource/student-resource-guide/).
 
-There are also lots of unanswered questions in animal welfare science. What are the relevant indicators for [animal consciousness](#animal-consciousness-and-pain)? How much pain do animals feel on farms in different situations? We have some vague answers to these questions, but better answers could importantly guide people’s actions — and we know far less for some animals, like fish and [invertebrates](https://80000hours.org/podcast/episodes/meghan-barrett-insect-pain-consciousness-sentience/).
+There are also lots of unanswered questions in animal welfare science. What are the relevant indicators for {--{"author":"Luc's AI","timestamp":1788377481888}@@[animal consciousness](#animal-consciousness-and-pain)?--}{++{"author":"Luc's AI","timestamp":1788377481888}@@[[#^animal-consciousness-and-pain|animal consciousness]]?++} How much pain do animals feel on farms in different situations? We have some vague answers to these questions, but better answers could importantly guide people’s actions — and we know far less for some animals, like fish and [invertebrates](https://80000hours.org/podcast/episodes/meghan-barrett-insect-pain-consciousness-sentience/).
 
 For this article, we leaned heavily on the work of the [Welfare Footprint Project](https://welfarefootprint.org/), who carefully analyse the effects of things like the [Better Chicken Commitment](https://welfarefootprint.org/broilers) or [banning gestation crates for sows](https://welfarefootprint.org/research-projects/welfare-reforms-for-pigs/). On insects, we’re excited about the work of the [Arthropoda Foundation](https://www.arthropodafoundation.org/).
 
@@ -1254,7 +1254,7 @@ Other nonprofit organisations working in the area:
 -   [Sébastien Moro on the most insane things fish can do](https://80000hours.org/podcast/episodes/sebastien-moro-fish-cognition-senses-social-lives/)
 -   [Beyond human minds: The bewildering frontier of consciousness in insects, AI, and more](https://80000hours.org/podcast/episodes/nonhuman-sentience-consciousness-compilation/) (a compilation episode of consciousness researchers)
 
-[^note-1]: _usually_ We can get some data on this question from the [United States Environmental Protection Agency](https://www.epa.gov/), which talks about “concentrated animal feeding operations” (CAFOs), defined by the USDA as farms where [animals are confined for 45 days or more in any 12-month period](https://www.epa.gov/npdes/animal-feeding-operations-afos), and where the number of animals confined reaches [a certain threshold, depending on the species](https://www.epa.gov/sites/default/files/2015-08/documents/sector_table.pdf), and where wastewater is managed in a certain way. We’d guess that almost all CAFOs are factory farms, but that many non-CAFOs are _also_ factory farms, either because they have animals in high-density conditions but have few animals, or because they have good wastewater management — so they don’t have the sort of environmental or pollution impact that the EPA cares about. The Sentience Institute combined EPA data on CAFOs with USDA Census of Agriculture data on total animal populations (see the numbers in [this spreadsheet](https://docs.google.com/spreadsheets/d/1iUpRFOPmAE5IO4hO4PyS4MP_kHzkuM_-soqAyVNQcJc/edit?gid=0#gid=0) to find the % of animals in factory farms in the US. They found that **98% of land animals in the US were factory-farmed in 2017**: -   99.96% of broiler (meat) chickens -   98% of egg-laying hens -   99.9% of turkeys -   98% of pigs -   70% of cows Unfortunately, there’s little data on the rest of the world. Based on our understanding of the regulatory landscape, we’d guess the situation is better in the EU but at least as bad elsewhere. We’d also guess that the situation for fish is even worse than for broiler chickens. As far as we can tell there is both very little regulation about fish welfare and very little consumer demand for high-welfare fish. We discuss more about how each animal is commonly treated [below](#how-do-we-treat-these-animals) If the number of animals is roughly proportional to population, keeping in mind that 90% of animals in the EU are factory farmed (which we’d guess is an underestimate) and 98% of animals in the US and elsewhere are factory farmed, then approximately 97.5% of animals globally are factory farmed. For more discussion, see [How many animals are factory farmed](https://ourworldindata.org/how-many-animals-are-factory-farmed) by Hannah Ritchie at Our World in Data.
+[^note-1]: _usually_ We can get some data on this question from the [United States Environmental Protection Agency](https://www.epa.gov/), which talks about “concentrated animal feeding operations” (CAFOs), defined by the USDA as farms where [animals are confined for 45 days or more in any 12-month period](https://www.epa.gov/npdes/animal-feeding-operations-afos), and where the number of animals confined reaches [a certain threshold, depending on the species](https://www.epa.gov/sites/default/files/2015-08/documents/sector_table.pdf), and where wastewater is managed in a certain way. We’d guess that almost all CAFOs are factory farms, but that many non-CAFOs are _also_ factory farms, either because they have animals in high-density conditions but have few animals, or because they have good wastewater management — so they don’t have the sort of environmental or pollution impact that the EPA cares about. The Sentience Institute combined EPA data on CAFOs with USDA Census of Agriculture data on total animal populations (see the numbers in [this spreadsheet](https://docs.google.com/spreadsheets/d/1iUpRFOPmAE5IO4hO4PyS4MP_kHzkuM_-soqAyVNQcJc/edit?gid=0#gid=0) to find the % of animals in factory farms in the US. They found that **98% of land animals in the US were factory-farmed in 2017**: -   99.96% of broiler (meat) chickens -   98% of egg-laying hens -   99.9% of turkeys -   98% of pigs -   70% of cows Unfortunately, there’s little data on the rest of the world. Based on our understanding of the regulatory landscape, we’d guess the situation is better in the EU but at least as bad elsewhere. We’d also guess that the situation for fish is even worse than for broiler chickens. As far as we can tell there is both very little regulation about fish welfare and very little consumer demand for high-welfare fish. We discuss more about how each animal is commonly treated {--{"author":"Luc's AI","timestamp":1788377482410}@@[below](#how-do-we-treat-these-animals)--}{++{"author":"Luc's AI","timestamp":1788377482410}@@[[#^how-do-we-treat-these-animals|below]]++} If the number of animals is roughly proportional to population, keeping in mind that 90% of animals in the EU are factory farmed (which we’d guess is an underestimate) and 98% of animals in the US and elsewhere are factory farmed, then approximately 97.5% of animals globally are factory farmed. For more discussion, see [How many animals are factory farmed](https://ourworldindata.org/how-many-animals-are-factory-farmed) by Hannah Ritchie at Our World in Data.
 
 [^cite-2]: [collated estimates of global captive vertebrate numbers](https://forum.effectivealtruism.org/posts/pT7AYJdaRp6ZdYfny/estimates-of-global-captive-vertebrate-numbers) We chose this research because it’s a collation of figures from the most widely used source — the Food and Agriculture Organization of the United Nations statistics database, [FAOSTAT](https://www.fao.org/faostat/en/#data). Where FAOSTAT data was unavailable Šimčikas used reasonable sources and noted his uncertainty, giving ranges instead of point estimates. For example, for the number of farmed fish, Šimčikas based his estimate on data from [Fishcount](https://fishcount.org.uk/fish-count-estimates-2/numbers-of-farmed-fish-slaughtered-each-year) (who later published that data [under peer review](https://doi.org/10.1017/awf.2023.4)) and noted its high uncertainty. Šimčikas noted issues with FAOSTAT and [discussed at least one of these with the Food and Agriculture Organization who agreed there was a mistake](https://forum.effectivealtruism.org/posts/pT7AYJdaRp6ZdYfny/estimates-of-global-captive-vertebrate-numbers#Chickens_bred_for_meat__broilers_) Overall, this source seems comprehensive, fairly reliable, and unlikely to be biased in any particular direction (even though Šimčikas was an animal advocacy researcher when he wrote the post).
 
@@ -1542,7 +1542,7 @@ Other nonprofit organisations working in the area:
 
 [^note-144]: We don’t necessarily have to reject the idea of binary moral status in order to do this — we could assign moral status to neurons themselves rather than to individuals. I don’t know of any philosophers who have argued for this position.
 
-[^cite-145]: Cow neuron counts from [_Vertebrate Neuron counts_](https://whatweowethefuture.com/wp-content/uploads/2023/06/Vertebrate-neuron-counts.pdf) by Jaoa Fabiano — for other data, see the [table above](#animal-consciousness-and-pain).
+[^cite-145]: Cow neuron counts from [_Vertebrate Neuron counts_](https://whatweowethefuture.com/wp-content/uploads/2023/06/Vertebrate-neuron-counts.pdf) by Jaoa Fabiano — for other data, see the {--{"author":"Luc's AI","timestamp":1788377482781}@@[table above](#animal-consciousness-and-pain).--}{++{"author":"Luc's AI","timestamp":1788377482781}@@[[#^animal-consciousness-and-pain|table above]].++}
 
 [^cite-146]: [What neural counts can and can’t tell us about moral weight](https://docs.google.com/document/d/1p50vw84-ry2taYmyOIl4B91j7wkCurlB/edit#heading=h.fa0u96sjryl0) > For there also are a large number of studies showing an inverse relationship between brain volume and the intensity of particular affective states. In particular, when it comes to chronic pain, by far the most commonly cited relationship between brain volume and chronic pain is a decrease in brain volume in regions commonly associated with the experience of pain. For example, see the Davis et al. (2008) article “Cortical thinning in IBS: implications for homeostatic, attention, and pain processing.”
 
