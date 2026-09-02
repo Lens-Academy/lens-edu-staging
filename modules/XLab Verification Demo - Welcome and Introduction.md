@@ -11,7 +11,7 @@ source:: [[../Lenses/XLab Verification - v-welcome]]
 # Lens:
 source:: [[../Lenses/XLab Verification - v-introduction]]
 
-# Lens:{++{"author":"Elias's AI","timestamp":1788186166734}@@
+# Lens:
 optional:: true
 hide:: true
 source:: [[../Lenses/AI Is Grown, Not Built]]
@@ -21,7 +21,7 @@ optional:: true
 hide:: true
 source:: [[../Lenses/Four Background Claims]]
 
-# Lens:++} Continue in the full course
+# Lens: Continue in the full course
 id:: 86ee50b1-7dc0-4b58-8f08-89ffea7ff547
 tldr:: The demo ends here. The rest of Module 0 builds the intuitions and precedents the whole course runs on.
 summary_for_tutor:: Sign-up page. The learner has finished the demo. Tell them what the rest of Module 0 covers if asked and point them to the full course link.
