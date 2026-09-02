@@ -308,7 +308,7 @@ options::
 - The gap (Verified proxy vs. actual goal; decay; review)
 - No organ (Advocacy: sounds load-bearing, binds no one)
 optional:: true
-feedback-instructions:: Correct: the institution & consequences. If right: "Institution and consequences: a finding procedure and an automatic, specified response. Now compare the original version in the source line. 'Shall suspend' versus 'may recommend' is one verb apart and a whole organ apart. Most real regimes carry the weak verb, and it is where they go to die." If the adversary: "It responds to a violator, but the adversary organ is the threat model that provisions are designed against, before anything happens. This clause is about after: what follows a finding. Consequences are the institution's teeth." Any other bin: "Follow the sequence: finding, then consequence, then referral. This is the institutional organ doing its job." Then reveal the source: Reykjavik Protocol, Article VIII, amended teaching text (fictional). The weak original read: the Council “may recommend measures to restore compliance.” No praise.
+feedback-instructions:: Correct: the institution & consequences. If right: "Institution and consequences: a finding procedure and an automatic, specified response. Now compare the original version in the source {--{"author":"Elias's AI","timestamp":1788357101560}@@line.--}{++{"author":"Elias's AI","timestamp":1788357101560}@@line that follows.++} 'Shall suspend' versus 'may recommend' is one verb apart and a whole organ apart. Most real regimes carry the weak verb, and it is where they go to die." If the adversary: "It responds to a violator, but the adversary organ is the threat model that provisions are designed against, before anything happens. This clause is about after: what follows a finding. Consequences are the institution's teeth." Any other bin: "Follow the sequence: finding, then consequence, then referral. This is the institutional organ doing its job." Then reveal the source: Reykjavik Protocol, Article VIII, amended teaching text (fictional). The weak original read: the Council “may recommend measures to restore compliance.” No praise.
 
 #### Text
 content::
@@ -565,5 +565,5 @@ Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement
 XLab. "1.1 Anatomy of a (pause) agreement." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-anatomy)
 *The source lesson this page adapts, including the treaty assignment and the Anatomy Drill.*
 
-The Swiss Practice Guide to International Treaties is cited inline above and has no entry in XLab's citation registry.
+The Swiss Practice Guide to International Treaties is cited inline {--{"author":"Elias's AI","timestamp":1788357103780}@@above and has no--}{++{"author":"Elias's AI","timestamp":1788357103780}@@above; XLab's citation registry holds it only as a pending++} entry {--{"author":"Elias's AI","timestamp":1788357103780}@@in XLab's citation registry.--}{++{"author":"Elias's AI","timestamp":1788357103780}@@without bibliographic fields.++}
 :::
