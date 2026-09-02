@@ -29,11 +29,11 @@ _Various people at Conjecture helped develop the ideas behind this post, especia
 
 **Executive summary**: This post proposes a strategy for safely accelerating alignment research. The plan is to set up human-in-the-loop systems which empower human agency rather than outsource it, and to use those systems to differentially accelerate progress on alignment. 
 
-1.  [Introduction](#introduction): An explanation of the context and motivation for this agenda.
-2.  [Automated Research Assistants](#automated-research-assistants): A discussion of why the paradigm of training AI systems to behave as autonomous agents is both counterproductive and dangerous.
-3.  [Becoming a Cyborg](#becoming-a-cyborg): A proposal for an alternative approach/frame, which focuses on a particular type of human-in-the-loop system I am calling a “cyborg”.
-4.  [Failure Modes](#failure-modes): An analysis of how this agenda could either fail to help or actively cause harm by accelerating AI research more broadly.
-5.  [Testimony of a Cyborg](#appendix-testimony-of-a-cyborg): A personal account of how Janus uses GPT as a part of their workflow, and how it relates to the cyborgism approach to intelligence augmentation.
+1.  [[#^introduction|Introduction]]: An explanation of the context and motivation for this agenda.
+2.  [[#^automated-research-assistants|Automated Research Assistants]]: A discussion of why the paradigm of training AI systems to behave as autonomous agents is both counterproductive and dangerous.
+3.  [[#^becoming-a-cyborg|Becoming a Cyborg]]: A proposal for an alternative approach/frame, which focuses on a particular type of human-in-the-loop system I am calling a “cyborg”.
+4.  [[#^failure-modes|Failure Modes]]: An analysis of how this agenda could either fail to help or actively cause harm by accelerating AI research more broadly.
+5.  [[#^appendix-testimony-of-a-cyborg|Testimony of a Cyborg]]: A personal account of how Janus uses GPT as a part of their workflow, and how it relates to the cyborgism approach to intelligence augmentation.
 
 ## Terminology
 
@@ -43,7 +43,7 @@ _Various people at Conjecture helped develop the ideas behind this post, especia
 -   **Simulator**: A [class of AI system](https://www.lesswrong.com/posts/vJFdjigzmcXMhNTsx/simulators) (of which GPT is a member). Simulators are generative predictive models, where the model makes a prediction (probability distribution) about how the state of a system will evolve, and then the state is updated by sampling from that prediction/distribution. The result is a process which “simulates” the training distribution, the limit of such a process being a system which faithfully generates trajectories sampled from the distribution implied by the training data.
 -   **Disempowerment**: The process of humans losing control of the long-term future to a powerful autonomous agent (or agents). This includes anything from our civilization being hijacked to outright human extinction.
 
-# Introduction
+# Introduction ^introduction
 
 There is a lot of [disagreement and confusion](https://www.lesswrong.com/posts/JKgGvJCzNoBQss2bq/beliefs-and-disagreements-about-automating-alignment) about the feasibility and risks associated with automating alignment research. Some see it as the default path toward building aligned AI, while others expect limited benefit from near term systems, expecting the ability to significantly speed up progress to appear well after misalignment and deception. Furthermore, progress in this area may directly shorten timelines or enable the creation of dual purpose systems which significantly speed up capabilities research. 
 
@@ -51,11 +51,11 @@ OpenAI recently released their [alignment plan](https://openai.com/blog/our-app
 
 The intention of this post is not to propose an end-all cure for the tricky problem of accelerating alignment using GPT models. Instead, **the purpose is to explicitly put another point on the map of possible strategies**, and to add nuance to the overall discussion. 
 
-At a high level, **the plan is to train and empower “cyborgs”, a specific kind of human-in-the-loop system which enhances and extends a human operator’s cognitive abilities without relying on outsourcing work to autonomous agents**. This differs from other ideas for accelerating alignment research by focusing primarily on _augmenting ourselves_ and our workflows to accommodate unprecedented forms of cognitive work afforded by non-agent machines, rather than [training autonomous agents to replace humans](#automated-research-assistants) at various parts of the research pipeline.
+At a high level, **the plan is to train and empower “cyborgs”, a specific kind of human-in-the-loop system which enhances and extends a human operator’s cognitive abilities without relying on outsourcing work to autonomous agents**. This differs from other ideas for accelerating alignment research by focusing primarily on _augmenting ourselves_ and our workflows to accommodate unprecedented forms of cognitive work afforded by non-agent machines, rather than [[#^automated-research-assistants|training autonomous agents to replace humans]] at various parts of the research pipeline.
 
 Some core claims:
 
-1.  GPT models are already useful for doing alignment research and intellectual augmentation more generally. This is explored [here](#appendix-testimony-of-a-cyborg).
+1.  GPT models are already useful for doing alignment research and intellectual augmentation more generally. This is explored [[#^appendix-testimony-of-a-cyborg|here]].
 2.  Their usefulness will improve both as we get better at using them and as capabilities increase.
 3.  Unless we manage to [coordinate around it](https://www.lesswrong.com/posts/uFNgRumrDTpBfQGrs/let-s-think-about-slowing-down-ai), the default outcome is that humanity will eventually be disempowered by a powerful autonomous agent (or agents).
 
@@ -63,9 +63,9 @@ Some core claims:
 
 The motivating goal of this agenda is to figure out how to extract as much useful cognitive work before disempowerment as possible. In particular, this means both trying to get maximum value from our current systems while avoiding things which would reduce the time we have left (interventions which focus on actively [buying time](https://www.lesswrong.com/posts/BbM47qBPzdSRruY4z/instead-of-technical-research-more-people-should-focus-on) mostly fall outside the scope of this post). Standard frames for thinking about this problem often fail on both of these dimensions by narrowing the focus to a specific flavor of automation. 
 
-# Automated Research Assistants
+# Automated Research Assistants ^automated-research-assistants
 
-Whenever we first try to invent something new, we usually start by taking an already existing technology and upgrading it, creating something which roughly fits into the basic framework we had before.[^cite-dupuis-cyborgism-3] For example, if you look at the very first automobiles, you can see they basically just took the design for a horse drawn carriage and [replaced the horse](https://en.wikipedia.org/wiki/Horseless_carriage) with a mechanical engine instead (check out this [hilarious patent](https://en.wikipedia.org/wiki/Horsey_Horseless)). Sometimes this kind of design is [intentional](https://en.wikipedia.org/wiki/Skeuomorph), but it’s often because our creativity is limited by what we already know, and that there exists an [Overton window](https://en.wikipedia.org/wiki/Overton_window) of sensible ways to deploy new technology without [seeming crazy](#neocortex-prosthesis).
+Whenever we first try to invent something new, we usually start by taking an already existing technology and upgrading it, creating something which roughly fits into the basic framework we had before.[^cite-dupuis-cyborgism-3] For example, if you look at the very first automobiles, you can see they basically just took the design for a horse drawn carriage and [replaced the horse](https://en.wikipedia.org/wiki/Horseless_carriage) with a mechanical engine instead (check out this [hilarious patent](https://en.wikipedia.org/wiki/Horsey_Horseless)). Sometimes this kind of design is [intentional](https://en.wikipedia.org/wiki/Skeuomorph), but it’s often because our creativity is limited by what we already know, and that there exists an [Overton window](https://en.wikipedia.org/wiki/Overton_window) of sensible ways to deploy new technology without [[#^neocortex-prosthesis|seeming crazy]].
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/v1675885024/mirroredImages/bxt7uCiHam4QXrQAA/tgmfscql0y3g6mwun47w.png)
 
@@ -121,7 +121,7 @@ As for oracles, they also need very similar “missing pieces” to agents:
 
 This strong overlap between oracles and agents makes an oracle look a lot like just an agent in a box with a limited channel to the outside world, rather than an entirely separate class of AI system. Even if you strongly believe that a powerful oracle would be safe, any research into building one will necessarily involve augmenting GPT in ways that bring us much closer to being able to deploy dangerous agents, and for this reason we should consider such research as similarly risky.
 
-# Becoming a Cyborg
+# Becoming a Cyborg ^becoming-a-cyborg
 
 Instead of trying to turn GPT into an agent, we can instead explore the space of using GPT _as a simulator_ and design human-in-the-loop systems which enhance a human’s abilities without outsourcing their agency to a machine. We currently have access to an alien intelligence, poorly suited to play the role of research assistant. Instead of trying to force it to be what it is not (which is both difficult and dangerous), **we can cast ourselves as research assistants** to a mad schizophrenic genius that needs to be kept on task, and whose valuable thinking needs to be extracted in novel and non-obvious ways.
 
@@ -191,7 +191,7 @@ A cyborg, in this frame, is a type of human-in-the-loop system which incorporate
 
 Prompting a simulator is a bit like rolling a ball over an uneven surface. The motion is perfectly logical, strictly obeying the physics of our universe, but the further we let it roll, the harder it will be to make predictions about where it will end up. A successful prompt engineer will have developed lots of good intuitions about how GPT generations will roll out, and as such, can more usefully “target” GPT to move in certain ways. Likewise, the art of making better cyborgs is in finding ways for the human operator to develop the intuition and precision necessary to steer GPT as if it were a part of their own cognition. The core of cyborgism is to reduce bandwidth constraints between humans and GPT in order to make this kind of deep integration possible.
 
-## Neocortex prosthesis
+## Neocortex prosthesis ^neocortex-prosthesis
 
 _Just flagging that I know very little about the brain and don’t have any background in neuroscience, and am nonetheless going to make big claims about how the human brain works._
 
@@ -244,7 +244,7 @@ Currently this research agenda is still relatively high level, but here are some
 
 This is a very incomplete list, but hopefully it points at the general shape of what research in this direction might look like. A near-term plan is to expand this list and start fleshing out the most promising directions.
 
-# Failure Modes
+# Failure Modes ^failure-modes
 
 There are three main ways that the cyborgism agenda could fail to differentially accelerate alignment research.
 
@@ -252,11 +252,11 @@ There are three main ways that the cyborgism agenda could fail to differentially
 
 ## Ineffective at accelerating alignment
 
-The first and most obvious risk is that none of this actually works, or at least, not enough to make any real difference. Much of the evidence for the effectiveness of cyborgism is [anecdotal](#appendix-testimony-of-a-cyborg), and so this is a distinct possibility. There is also a question of exactly how big the upside really is. If we only speed up the kinds of things we currently do now by some factor, this will only buy us so much. The real hope is that by augmenting ourselves and our workflows to work well with simulators, we can do **unprecedented forms of cognitive work**, because that is the kind of thing that could actually be game changing. This could just be mostly infeasible, bottlenecked by things we can’t yet see, and won’t have the ability to fix.
+The first and most obvious risk is that none of this actually works, or at least, not enough to make any real difference. Much of the evidence for the effectiveness of cyborgism is [[#^appendix-testimony-of-a-cyborg|anecdotal]], and so this is a distinct possibility. There is also a question of exactly how big the upside really is. If we only speed up the kinds of things we currently do now by some factor, this will only buy us so much. The real hope is that by augmenting ourselves and our workflows to work well with simulators, we can do **unprecedented forms of cognitive work**, because that is the kind of thing that could actually be game changing. This could just be mostly infeasible, bottlenecked by things we can’t yet see, and won’t have the ability to fix.
 
 Another failure mode is that, even if it is possible to do in principle, we fail to set up short enough feedback loops and we end up wasting all our time building tools which are mostly useless, or pursuing research directions that bear no fruit. If we don’t have a good contact with reality and maintain a strong connection to the people using our tools, there is a significant chance that we won’t be prepared to pivot away from something that just isn’t working.
 
-## Improves capabilities directly
+## Improves capabilities directly ^improves-capabilities-directly
 
 This agenda relies on building AI systems which are not autonomous agents in any sense[^note-dupuis-14], and this might give the impression that this is a straightforward thing to do. A reason why this might actually be really hard is that we need our AI systems to be useful, and usefulness and agency are not orthogonal. 
 
@@ -301,7 +301,7 @@ The intention of this agenda is to make some of the risks of accelerating alignm
 
 If the cyborgism agenda seems interesting to you and you want to discuss related topics with like minded people, please reach out! We also have a Discord server where we are organizing a community around this direction. Next steps involve directly attacking the object level of augmenting human thought, and so we are especially interested in getting fresh perspectives about this topic.
 
-# Appendix: Testimony of a Cyborg
+# Appendix: Testimony of a Cyborg ^appendix-testimony-of-a-cyborg
 
 _Everything in this section is written by Janus, and details their personal approach to using language models as a part of their workflow_:
 
@@ -396,7 +396,7 @@ I expect the next generation of models to be significantly more directly useful 
 [^note-dupuis-10]: Sidenote about myopia: While the model doesn’t “steer” the rollout, it may sacrifice accuracy by spending more cognitive resources reasoning about future tokens. At each point in the transformer, the representation is being optimized to lower the loss on all future tokens (for which it is in the context window), and so it may be reasoning about many tokens further than just the token which directly follows.
 [^note-dupuis-11]: Just as GPT generations are generally much weirder than the text they are trained on, so too are our dreams weirder than reality. Noticing these differences between dreams and reality is a big part of learning to lucid dream. [Oneironauts](https://en.wikipedia.org/wiki/Oneirology) have discovered all kinds of interesting features about dream generations, like how text tends to change when you look away, or clocks rarely show the same time twice, which point to the myopic nature of the dream generator.
 [^note-dupuis-12]: A related phenomenon: In school I would often get stuck on a class assignment, and then get up to ask the teacher for help. Right before they were about to help me, the answer would suddenly come to me, as if by magic. Clearly I had the ability to answer the question on my own, but I could only do it in the context where the teacher was about to answer it for me.
-[^note-dupuis-cyborgism-13]: This looks like making GPT “[more useful](#improves-capabilities-directly),” which if not done carefully may slide into standard capabilities research making GPT more agentic.
+[^note-dupuis-cyborgism-13]: This looks like making GPT “[[#^improves-capabilities-directly|more useful]],” which if not done carefully may slide into standard capabilities research making GPT more agentic.
 [^note-dupuis-14]: Rather, the system as a whole, Human + AI, functions as an agent.
 [^note-dupuis-15]: A valuable exercise is to observe the language that we normally use to describe accelerating alignment. (e.g. from the [OpenAI alignment plan](https://openai.com/blog/our-approach-to-alignment-research/): “AI systems can **take over** more and more of our alignment work and ultimately **conceive**, **implement**, **study**, and **develop** better alignment techniques than we have now.”, Training AI systems to **do** alignment research”) We very often describe AI as the active subject of the sentence, where the AI is the one taking action “doing things” that would normally only be done by humans. This can be a clue to the biases we have about how these systems will be used.
 [^note-dupuis-16]: This is certainly less true of some directions, like for example mechanistic interpretability.
