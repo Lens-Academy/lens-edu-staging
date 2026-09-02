@@ -1,6 +1,6 @@
 ---
-title: What Is ChatGPT Doing … and Why Does It Work?
-source_url: https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/
+title: What Is ChatGPT Doing … and Why Does It Work? (backup before 2026-09-02 reimport)
+# source_url: https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/
 allowUnreachableUrl: true
 author: Stephen Wolfram
 published: 2023-02-14
