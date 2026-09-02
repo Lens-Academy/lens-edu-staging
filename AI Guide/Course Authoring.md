@@ -82,3 +82,4 @@ Support learner agency by:
 Dispositions can be implicit in the learner-facing graph while explicit in the internal theory of change. Lens may intentionally design for agency and sustainable motivation without displaying "motivation achieved" or grading value alignment.
 
 - [Michael Noetel, "We all teach: here's how to do it better"](https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-all-teach-here-s-how-to-do-it-better)
+
