@@ -26,7 +26,7 @@ Both sides were trying to make a good decision, but scientists failed to explain
 
 AI safety in particular cannot afford this failure. A field concerned with existential risk to humanity needs legible and communicable theories of change, for two main reasons:
 
-1. **Decision-maker skepticism:** Policymakers—the people directly positioned to enact public change—are famously bad at caring about more abstract long-term justifications, not to mention their limited attention and resources. This makes sense: AI safety theories of change are harder to internalize and rationalize expenses for, while immediate economic or welfare consequences are easy to see and back.
+1. **Decision-maker skepticism:** {--{"author":"Elias's AI","timestamp":1788357516215}@@Policymakers—the--}{++{"author":"Elias's AI","timestamp":1788357516215}@@Policymakers, the++} people directly positioned to enact public {--{"author":"Elias's AI","timestamp":1788357516215}@@change—are--}{++{"author":"Elias's AI","timestamp":1788357516215}@@change, are++} famously bad at caring about more abstract long-term justifications, not to mention their limited attention and resources. This makes sense: AI safety theories of change are harder to internalize and rationalize expenses for, while immediate economic or welfare consequences are easy to see and back.
 
 2. **Tight timelines:** Frontier models are developing exponentially. Overton windows can be short and unpredictable. In the world of AI, an irreversible catastrophe could happen very unexpectedly and very fast. We cannot afford to waste time, resources, and talent in non-optimal directions.
 

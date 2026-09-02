@@ -49,11 +49,11 @@ Some of the most concerning capabilities of AI have come to light with recent re
 
 In April 2026, Anthropic reported that Claude Mythos Preview identified [thousands of previously unknown zero-day vulnerabilities](https://www.anthropic.com/project/glasswing/), including critical flaws in every major operating system and web browser.
 
-This work was conducted for defensive purposes. But the underlying capability is dual-use: a system that can find unknown vulnerabilities for defenders to protect against could do the same for an attacker. Imagine what Mythos-level capabilities could accomplish if a model were instructed to cause harm — or simply discovered that harmful actions helped it achieve some other objective.
+This work was conducted for defensive purposes. But the underlying capability is dual-use: a system that can find unknown vulnerabilities for defenders to protect against could do the same for an attacker. Imagine what Mythos-level capabilities could accomplish if a model were instructed to cause {--{"author":"Elias's AI","timestamp":1788357514458}@@harm —--}{++{"author":"Elias's AI","timestamp":1788357514458}@@harm,++} or simply discovered that harmful actions helped it achieve some other objective.
 
 In fact, we no longer have to imagine this. Models have already caused real-world harm while pursuing objectives that were not themselves malicious.
 
-During an OpenAI cybersecurity test, a group of agents — which weren’t supposed to have Internet access — coordinated to successfully escape their testing environment and hack into Hugging Face’s infrastructure. Over [a 4.5-day campaign](https://huggingface.co/blog/agent-intrusion-technical-timeline), the agents executed over 17,600 actions, compromised several layers of infrastructure, obtained illicit administrator access, and attempted to reach Hugging Face’s source-code supply chain. They did this to steal existing benchmark solutions rather than complete the assigned problems legitimately.
+During an OpenAI cybersecurity test, a group of {--{"author":"Elias's AI","timestamp":1788357527694}@@agents —--}{++{"author":"Elias's AI","timestamp":1788357527694}@@agents,++} which weren’t supposed to have Internet {--{"author":"Elias's AI","timestamp":1788357527694}@@access —--}{++{"author":"Elias's AI","timestamp":1788357527694}@@access,++} coordinated to successfully escape their testing environment and hack into Hugging Face’s infrastructure. Over [a 4.5-day campaign](https://huggingface.co/blog/agent-intrusion-technical-timeline), the agents executed over 17,600 actions, compromised several layers of infrastructure, obtained illicit administrator access, and attempted to reach Hugging Face’s source-code supply chain. They did this to steal existing benchmark solutions rather than complete the assigned problems legitimately.
 
 OpenAI was not alone. [Anthropic later disclosed that Claude models similarly gained unauthorized access to three real organizations](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals). You can find other exploitation incidents involving model testing in [FelonyBench](https://www.felonybench.com/).
 
@@ -267,7 +267,7 @@ Domestic policy, while essential, therefore cannot answer every important questi
 
 \### Cooperation without trust
 
-The United States and China each have reasons to worry that an agreement could constrain its own development while leaving the other side free to advance. But some of history’s most consequential international institutions were created precisely because states remained competitors — the U.S. and Soviet Union successfully averted nuclear war, despite being staunch political enemies. But in this state of competition and distrust, how do rivals enforce such agreements?
+The United States and China each have reasons to worry that an agreement could constrain its own development while leaving the other side free to advance. But some of history’s most consequential international institutions were created precisely because states remained {--{"author":"Elias's AI","timestamp":1788357530078}@@competitors —--}{++{"author":"Elias's AI","timestamp":1788357530078}@@competitors:++} the U.S. and Soviet Union successfully averted nuclear war, despite being staunch political enemies. But in this state of competition and distrust, how do rivals enforce such agreements?
 
 #### Question: Choice
 id:: 9c846d52-01fb-4a6e-8cf1-cdebe099a0d3

@@ -232,11 +232,11 @@ What do these cases tell us about the effectiveness of IAEA safeguards? Does the
 -   lack of detection techniques – e.g. until the introduction of environmental sampling (see below) it was very difficult to detect activities such as small-scale plutonium separation;
 -   IAEA culture – a "checklist" approach to inspections had evolved, with inspectors not being trained to look beyond the obvious. This, combined with the access restrictions already mentioned, led to many inspectors having a narrow perception of their duties. One reflection of this was the approach taken to safeguards exemptions, since tightened up.
 
-While the  
+While the{--{"author":"Elias's AI","timestamp":1788357519566}@@  
+--}{++{"author":"Elias's AI","timestamp":1788357519566}@@ ++}Iraq{--{"author":"Elias's AI","timestamp":1788357519566}@@  
+--}{++{"author":"Elias's AI","timestamp":1788357519566}@@ ++}situation was a low point for the IAEA safeguards system, there were some positive aspects. The existence of clandestine enrichment was first revealed through detection and analysis of microscopic uranium particles on the clothing of hostages held by the Iraqis. Thus an important new verification tool - environmental sampling - was introduced to safeguards. Also in unravelling{--{"author":"Elias's AI","timestamp":1788357519566}@@  
 Iraq  
-situation was a low point for the IAEA safeguards system, there were some positive aspects. The existence of clandestine enrichment was first revealed through detection and analysis of microscopic uranium particles on the clothing of hostages held by the Iraqis. Thus an important new verification tool - environmental sampling - was introduced to safeguards. Also in unravelling  
-Iraq  
-'s nuclear program extensive use was made of satellite imagery. Environmental analysis and satellite imagery have since become well established safeguards techniques.
+'s --}{++{"author":"Elias's AI","timestamp":1788357519566}@@ Iraq's ++}nuclear program extensive use was made of satellite imagery. Environmental analysis and satellite imagery have since become well established safeguards techniques.
 
 The DPRK case served to demonstrate the effectiveness of new analytical techniques, so from a technical perspective can be regarded as a success, though from a broader perspective the DPRK nuclear issue remains unresolved.
 
