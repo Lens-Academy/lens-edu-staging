@@ -458,7 +458,7 @@ on
 - [39] G. Kulp *et al.*, “Hardware-Enabled Governance Mechanisms: Developing Technical Solutions to Exempt Items Otherwise Classified Under Export Control Classification Numbers 3A090 and 4A090,” RAND Corporation, Jan. 2024. [Online]. Available: [https://www.rand.org/pubs/working\\_papers/WRA3056-1.html](https://www.rand.org/pubs/working_papers/WRA3056-1.html)
 - [40] M. Wortsman *et al.*, “Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time,” in *Proceedings of the 39th International Conference on Machine Learning*, PMLR, Jun. 2022, pp. 23965–23998. [Online]. Available: <https://proceedings.mlr.press/v162/wortsman22a.html>
 
-## Appendix A: The Original FlexHEG Vision
+## Appendix A: The Original FlexHEG Vision ^appendix-a-original-flexheg-vision
 
 The original vision for flexHEGs, developed by David ‘davidad’ Dalrymple, was a mechanism that would implement a transparent, updateable, multilaterally agreed-upon ruleset fully automatically on-device, while being free of any software bugs and impervious to physical tampering. This would mean that there would be no need for the device to send any information back to any authority, and no need for any authority to even know who owns each device or where it is. All of this would protect individuals from privacy violations and abuses of power, while allowing governments and everyone else to trust that the devices would enforce the rules and keep the world secure.
 
@@ -504,7 +504,7 @@ Overall, it appears likely that the best way to achieve the spirit of the origin
 
 flexHEG devices for verification (and perhaps [binding commitments](#)) only, with no mechanism for forced updates.<sup>18</sup>
 
-## Appendix B: Governance Mechanisms Enabled by FlexHEGs
+## Appendix B: Governance Mechanisms Enabled by FlexHEGs ^appendix-b-governance-mechanisms
 
 This appendix will provide more detailed sketches of how flexHEGs could be used to implement a wide range of guarantees of different types. It is intended to act as a reference for possible guarantee mechanisms, but should not be thought of as an exhaustive list, given the flexibility of flexHEGs.
 
@@ -529,7 +529,7 @@ The focus of this appendix will be on explaining how different mechanisms would 
 - [Discretionary enforcement mechanisms](#) are mechanisms that require some authority's approval for the device to perform some or any actions.
 - [Baseline rulesets](#) are simple, relatively restrictive rulesets that a flexHEG device could be configured to revert to if its operating license or full ruleset expire.
 
-#### Verification
+#### Verification ^verification
 
 #### Verifying Claims about Workloads
 
@@ -619,7 +619,7 @@ FlexHEG devices could be configured to keep detailed logs of what information th
 
 Combining this with other forms of verification allows verification of claims regarding the entire development and deployment history of a model, for example, that a given model has never been deployed without given safeguards in place.
 
-#### Rules
+#### Rules ^rules
 
 If flexHEG devices can verify a claim in a privacy-preserving way, i.e. if they can check the claim on-device based on receipts they have access to, they can likely also implement automatically enforced rules about such claims. For example, one of the most basic examples of a rule would be a rule limiting AI training workloads to a maximum compute threshold could be enforced by
 
@@ -639,13 +639,13 @@ In order to ensure that users actually install updates to rulesets, it may be de
 
 Compared to relying on verification, rules have the basic advantage that they directly prevent violations, rather than relying on some kind of oversight to identify violators and a system of punishments to deter them. This makes them potentially both more secure and privacy-preserving. On the other hand, rules are technically somewhat more challenging to implement, and whoever has the power to set the rules can also very cheaply exert great power over the uses of the devices. The complexities of these tradeoffs are discussed further in Part III.
 
-#### Binding Commitments
+#### Binding Commitments ^binding-commitments
 
 One middle path between verification and externally imposed rules could be binding commitments: FlexHEG devices could allow users to commit their devices to adhere to a ruleset for some fixed length of time, in such a way that even the user themselves cannot revoke this ruleset, and that the flexHEG devices can verify to other parties that the commitment has been made.
 
 This could allow a situation that preserves much of the advantages of rulesets, without requiring the parties to subject themselves to an external rulemaking process. Different parties could agree to make particular binding commitments, if the other party makes the same commitment.<sup>20</sup> To prevent a situation where commitments temporarily lapse, participants in this kind of decentralized rulemaking could commit to renew their binding commitments some time before their previous binding commitment expires, thus giving other parties some warning if one party appears to be intent on renegeing on their earlier commitments.
 
-#### Discretionary Enforcement Mechanisms
+#### Discretionary Enforcement Mechanisms ^discretionary-enforcement-mechanisms
 
 A ruleset would generally be the same for everyone, and thus whatever entity or group has the power to set the rules would not be able to easily exert arbitrary power over any particular actor. This is often desirable, but in some cases it may also be desirable to be able to use discretionary enforcement mechanisms that can target governance measures to a specific device or actor based on actions they have taken that are not observable on-device.
 
@@ -687,7 +687,7 @@ As a kind of meta-mechanism, it could be useful in some cases for various author
 
 <sup>23</sup> This could potentially be undermined if the authority refuses to respond to pings that do not de-anonymize themselves.
 
-#### Baseline Rulesets
+#### Baseline Rulesets ^baseline-rulesets
 
 Throughout this appendix we have alluded several times to the idea that in some cases it would be useful to have a baseline ruleset that devices could revert to if e.g. its operating license is not renewed, or its ruleset has expired. Such a baseline would limit the amount of power that the authority issuing the operating license or similar would have over device owners. In this sense a baseline ruleset could be thought of as a “bill of rights” that guarantees that some forms of computation are always irrevocably allowed.
 
