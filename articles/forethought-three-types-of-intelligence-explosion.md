@@ -314,7 +314,7 @@ Different IEs have different implications for the distribution of power, both in
 
 _Thanks to Will Aldred, Adam Bales, Fazl Barez, Stephen Clare, Max Dalton, Oscar Delaney, Daniel Eth, John Haltstead, Fin Moorhouse, Zershaaneh Qureshi, Ben Todd, Lizka Vaintrob and the governing explosive growth seminar group for helpful comments._
 
-## Appendix: Are there really just three feedback loops?
+## Appendix: Are there really just three feedback loops? ^appendix-are-there-really-just-three-feedback-loops
 
 The choice of three feedback loops, rather than fewer or more, is natural but somewhat arbitrary.
 
@@ -401,7 +401,7 @@ Overall, it’s hard to give a good estimate of the fastest speed, but it at lea
 
 [^note-forethought-three-types-3]:  Defining exactly how fast AI progress needs to be to qualify as an IE is ultimately fairly arbitrary. In this post we don’t make use of a specific definition.
 
-[^note-forethought-three-types-4]:  The choice of *three* feedback loops, rather than fewer or more, is natural but somewhat arbitrary. See [here](#appendix-are-there-really-just-three-feedback-loop) for further discussion.
+[^note-forethought-three-types-4]:  The choice of *three* feedback loops, rather than fewer or more, is natural but somewhat arbitrary. See [[#^appendix-are-there-really-just-three-feedback-loops|here]] for further discussion.
 
 [^note-forethought-three-types-5]:  Automated chip technology could also increase the *quantity* of AI chips, via process improvements which could enable the same number of fabs to produce more chips than before. 
 

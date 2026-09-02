@@ -20,41 +20,41 @@ Add discussion note here:
 
 26th March 2025
 
-[Summary](#summary)
+{--{"author":"Luc's AI","timestamp":1788377373369}@@[Summary](#summary)--}{++{"author":"Luc's AI","timestamp":1788377373369}@@[[#^summary|Summary]]++}
 
-[Key Points](#key-points)
+{--{"author":"Luc's AI","timestamp":1788377373748}@@[Key Points](#key-points)--}{++{"author":"Luc's AI","timestamp":1788377373748}@@[[#^key-points|Key Points]]++}
 
-[Introduction](#introduction)
+{--{"author":"Luc's AI","timestamp":1788377374064}@@[Introduction](#introduction)--}{++{"author":"Luc's AI","timestamp":1788377374064}@@[[#^introduction|Introduction]]++}
 
-[Where AI progress comes from](#where-ai-progress-comes-from)
+{--{"author":"Luc's AI","timestamp":1788377374337}@@[Where--}{++{"author":"Luc's AI","timestamp":1788377374337}@@[[#^where-ai-progress-comes-from|Where++} AI progress comes {--{"author":"Luc's AI","timestamp":1788377374337}@@from](#where-ai-progress-comes-from)--}{++{"author":"Luc's AI","timestamp":1788377374337}@@from]]++}
 
-[Improvements in AI software are already driving fast AI progress](#improvements-in-ai-software-are-already-driving-fa)
+[[#^improvements-in-ai-software-are-already-driving-fast-ai-progress|Improvements in AI software are already driving fast AI progress]]
 
-[AI progress will likely speed up as we approach ASARA](#ai-progress-will-likely-speed-up-as-we-approach-as)
+[[#^ai-progress-will-likely-speed-up-as-we-approach-asara|AI progress will likely speed up as we approach ASARA]]
 
-[What happens when we reach ASARA?](#what-happens-when-we-reach-asara)
+{--{"author":"Luc's AI","timestamp":1788377375394}@@[What--}{++{"author":"Luc's AI","timestamp":1788377375394}@@[[#^what-happens-when-we-reach-asara|What++} happens when we reach {--{"author":"Luc's AI","timestamp":1788377375394}@@ASARA?](#what-happens-when-we-reach-asara)--}{++{"author":"Luc's AI","timestamp":1788377375394}@@ASARA?]]++}
 
-[A toy model to demonstrate the dynamics of a software intelligence explosion](#a-toy-model-to-demonstrate-the-dynamics-of-a-softw)
+[[#^a-toy-model-to-demonstrate-the-dynamics-of-a-software-intelligence-explosion|A toy model to demonstrate the dynamics of a software intelligence explosion]]
 
-[Being more mathematically concrete: returns to software R&D](#being-more-mathematically-concrete-returns-to-soft)
+[[#^being-more-mathematically-concrete-returns-to-software-rd|Being more mathematically concrete: returns to software R&D]]
 
-[In the real world, are returns to software R&D greater or less than one?](#in-the-real-world-are-returns-to-software-rd-great)
+[[#^in-the-real-world-are-returns-to-software-rd-greater-or-less-than-one|In the real world, are returns to software R&D greater or less than one?]]
 
-[You might need fast growing computing power to discover better algorithms](#you-might-need-fast-growing-computing-power-to-dis)
+[[#^you-might-need-fast-growing-computing-power-to-discover-better-algorithms|You might need fast growing computing power to discover better algorithms]]
 
-[Progress might become bottlenecked by the time required to train new AI systems](#progress-might-become-bottlenecked-by-the-time-req)
+[[#^progress-might-become-bottlenecked-by-the-time-required-to-train-new-ai-systems|Progress might become bottlenecked by the time required to train new AI systems]]
 
-[Bringing it all together](#bringing-it-all-together)
+{--{"author":"Luc's AI","timestamp":1788377377373}@@[Bringing--}{++{"author":"Luc's AI","timestamp":1788377377373}@@[[#^bringing-it-all-together|Bringing++} it all {--{"author":"Luc's AI","timestamp":1788377377373}@@together](#bringing-it-all-together)--}{++{"author":"Luc's AI","timestamp":1788377377373}@@together]]++}
 
-[What can we do if an SIE is possible?](#what-can-we-do-if-an-sie-is-possible)
+{--{"author":"Luc's AI","timestamp":1788377377630}@@[What--}{++{"author":"Luc's AI","timestamp":1788377377630}@@[[#^what-can-we-do-if-an-sie-is-possible|What++} can we do if an SIE is {--{"author":"Luc's AI","timestamp":1788377377630}@@possible?](#what-can-we-do-if-an-sie-is-possible)--}{++{"author":"Luc's AI","timestamp":1788377377630}@@possible?]]++}
 
-[References](#references)
+{--{"author":"Luc's AI","timestamp":1788377377982}@@[References](#references)--}{++{"author":"Luc's AI","timestamp":1788377377982}@@[[#^references|References]]++}
 
-[Appendix: Justification for our formulation of r](#appendix-justification-for-our-formulation-of-r)
+{--{"author":"Luc's AI","timestamp":1788377378294}@@[Appendix:--}{++{"author":"Luc's AI","timestamp":1788377378294}@@[[#^appendix-justification-for-our-formulation-of-r|Appendix:++} Justification for our formulation of {--{"author":"Luc's AI","timestamp":1788377378294}@@r](#appendix-justification-for-our-formulation-of-r)--}{++{"author":"Luc's AI","timestamp":1788377378294}@@r]]++}
 
 Empirical evidence suggests that, if AI automates AI research, feedback loops could overcome diminishing returns, significantly accelerating AI progress
 
-## Summary
+## Summary ^summary
 
 AI companies are increasingly using AI systems to accelerate AI research and development. These systems assist with tasks like writing code, analyzing research papers, and generating training data. While current systems struggle with longer and less well-defined tasks, future systems may be able to independently handle the entire AI development cycle – from formulating research questions and designing experiments, to implementing, testing, and refining new AI systems.
 
@@ -74,14 +74,14 @@ We examine two major obstacles that could prevent an SIE: (1) the fixed amount o
 
 Finally, because such a dramatic acceleration in AI progress would exacerbate risks from AI, we discuss potential mitigations. These mitigations include monitoring for early signs of an SIE and implementing robust technical safeguards before automating AI R&D.
 
-## Key Points
+## Key Points ^key-points
 
 -   Even if hardware were held constant upon the creation of AI systems capable of fully automating AI R&D, software progress alone could plausibly enable faster and faster AI advancements, yielding a “software intelligence explosion.”
     
 -   If a software intelligence explosion were to occur, it could lead to incredibly fast AI progress, necessitating the development and implementation of strong policy and technical guardrails in advance.
     
 
-## Introduction
+## Introduction ^introduction
 
 Over the past few years, AI systems have increasingly been used by AI researchers to help conduct further AI R&D. Recent evidence [suggests](https://metr.org/AI_R_D_Evaluation_Report.pdf) cutting-edge AI systems can now exceed human expert performance on some AI R&D tasks when given short (2-hour) time windows, though humans demonstrate better performance with increasing time. Many researchers expect that in the coming years or decades, further advancements will lead to AI systems capable of fully automating all tasks involved in AI R&D. Systems of this sort, which we’ll refer to as _AI Systems for AI R&D Automation_, or _ASARA_, can be thought of as being able to substitute for any remote R&D workers at companies advancing the state of the art for AI.
 
@@ -107,7 +107,7 @@ In the rest of this piece, we’ll explain the dynamics that may lead to an SIE,
 
 Let’s now turn our attention to the dynamics that may lead to an SIE.
 
-## Where AI progress comes from
+## Where AI progress comes from ^where-ai-progress-comes-from
 
 In order to predict how AI progress will change after the creation of ASARA, we first need to understand where AI progress originates. As a general rule, AI progress comes from researchers doing one of two things:
 
@@ -140,7 +140,7 @@ But before we consider what happens after the creation of ASARA, let’s turn ou
 
 Figure 3: Diagram representing the current path by which software R&D yields AI progress.
 
-## Improvements in AI software are already driving fast AI progress
+## Improvements in AI software are already driving fast AI progress ^improvements-in-ai-software-are-already-driving-fast-ai-progress
 
 Historically, there’s been a lot of attention on how AI systems have become [bigger](https://ourworldindata.org/grapher/artificial-intelligence-parameter-count) and have been using [more computing power](https://epochai.org/blog/training-compute-of-frontier-ai-models-grows-by-4-5x-per-year). But software improvements are also responsible for much AI progress.
 
@@ -199,7 +199,7 @@ So to summarize:
 -   Software progress also enables qualitatively new capabilities, which are much more important than pure efficiency gains.[^note-forethought-will-ai-rd-ft-14]
     
 
-## AI progress will likely speed up as we approach ASARA
+## AI progress will likely speed up as we approach ASARA ^ai-progress-will-likely-speed-up-as-we-approach-asara
 
 In all likelihood, before we create AI systems that can automate _all_ AI R&D tasks (i.e., ASARA), we’ll create AI systems that can automate _most_ AI R&D tasks.[^note-forethought-will-ai-rd-ft-15] Such systems will presumably help researchers with both software R&D and hardware R&D, though in this piece we’re focusing just on the software side.
 
@@ -220,7 +220,7 @@ Already, AI has started to help AI researchers with AI software R&D. For example
 
 How should we expect AI software progress to change as more and more software R&D tasks are automated, often by systems that substantially outperform humans within their domain? Intuitively, this dynamic would [speed up](https://epoch.ai/blog/interviewing-ai-researchers-on-automation-of-ai-rnd) software progress considerably. Even if overall progress becomes bottlenecked by tasks that only humans are able to perform, human researchers would still be able to spend much more time focusing on these particular bottlenecked tasks, as AI systems would be performing all the other tasks.
 
-## What happens when we reach ASARA?
+## What happens when we reach ASARA? ^what-happens-when-we-reach-asara
 
 By the time we reach ASARA, it will be possible to automate _all_ tasks within AI software R&D. Notably, the amount of computing power it takes to train a new AI system tends to be _much_ larger than the amount of computing power it takes to run a copy of that AI system once it’s already trained. This means that if the computing power used to train ASARA systems is then repurposed to run these systems, a gigantic number of these systems could be run in parallel, likely implying much larger “cognitive output” from ASARA systems collectively than what’s currently available from human AI researchers.
 
@@ -242,7 +242,7 @@ Figure 4: Diagram of AI progress after the creation of ASARA and if hardware is 
 
 With humans completely cut out of the cycle, the feedback loop might go explosive, with progress getting faster and faster – i.e., an SIE. But whether or not we’d get that outcome would depend on the power of the feedback loop compared to countervailing forces.
 
-## A toy model to demonstrate the dynamics of a software intelligence explosion
+## A toy model to demonstrate the dynamics of a software intelligence explosion ^a-toy-model-to-demonstrate-the-dynamics-of-a-software-intelligence-explosion
 
 Let’s consider a toy model, representing the above feedback loop in the aftermath of achieving ASARA, with total computational power held constant. This toy model will demonstrate two competing dynamics:
 
@@ -287,7 +287,7 @@ In each of these two cases, we see both a) it gets “harder” over time to inc
 
 Table 2: Chart demonstrating the differentiator between a fizzle and an SIE in our toy model. Note the specific number of papers listed for each doubling in each scenario is simply illustrative; the important point is that the tipping point between a fizzle and an SIE is when the papers required for a subsequent doubling in efficiency is twice as large as the papers required for the current doubling. Colored font used to help readers follow along.
 
-## Being more mathematically concrete: returns to software R&D
+## Being more mathematically concrete: returns to software R&D ^being-more-mathematically-concrete-returns-to-software-rd
 
 We can capture the above considerations using a single variable, _returns to software R&D_ (r r). The variable r r quantifies, as software improves, how much harder it becomes to improve AI software further, with lower values of r r indicating it becomes much harder. Since we’re now outside the toy model, we’re not just focused on efficiency improvements but on capability improvements as well. (We’ll say that a capability improvement “doubles” software if it increases AI’s cognitive output by the same amount as if we had doubled efficiency.[^note-forethought-will-ai-rd-ft-20])
 
@@ -325,7 +325,7 @@ Figure 10: Even if there is an SIE, physical limits (as described in footnote 26
 
 As we’ve discussed, whether an SIE would happen at all depends on whether r r is above 1.
 
-## In the real world, are returns to software R&D greater or less than one?
+## In the real world, are returns to software R&D greater or less than one? ^in-the-real-world-are-returns-to-software-rd-greater-or-less-than-one
 
 Luckily, the formulation of r r above allows us to examine this variable before reaching ASARA. Once ASARA is achieved, we’ll simply be in the special case where the “work performed on software R&D” is being done by AI systems themselves, but today, r r would correspond to how many times AI software doubles for each doubling in the cumulative amount of _human-performed_ AI software R&D efforts. We can therefore estimate a value of r r if we can measure how AI software R&D is growing currently and relate this growth to the growth in AI software capacity.
 
@@ -366,7 +366,7 @@ So while r r may currently be above 1, it will have to eventually fall – at th
 
 While the discussion so far does hint towards the plausibility of an SIE, it’s far from a proof, and it might turn out to be wrong in important ways. Perhaps most notably, holding hardware constant may significantly decrease r r, for a very simple reason:
 
-## You might need fast growing computing power to discover better algorithms
+## You might need fast growing computing power to discover better algorithms ^you-might-need-fast-growing-computing-power-to-discover-better-algorithms
 
 The analyses for AI software progress conducted by groups like OpenAI and Epoch, discussed above, all occurred in a context of increasing computing power. [Perhaps](https://www.overcomingbias.com/p/why-does-hardware-grow-like-algorithmshtml) humans working on AI software R&D weren’t as responsible for software progress as we’re imagining, and instead the key enabler of this software progress was the increasing amount of hardware. After all, hardware can be used for running AI experiments (e.g., to find better algorithms), so more hardware would mean more and/or larger AI experiments. Take away the continued expansion of computing power, and maybe most of the software gains also dry up.
 
@@ -396,7 +396,7 @@ Accounting for the constant hardware, we might reduce our best-guess estimate of
 
 And there’s also another major reason that an SIE might be hindered, even if the value of r r implies that it “should” occur:
 
-## Progress might become bottlenecked by the time required to train new AI systems
+## Progress might become bottlenecked by the time required to train new AI systems ^progress-might-become-bottlenecked-by-the-time-required-to-train-new-ai-systems
 
 Under the current paradigm of AI, the most powerful systems are typically trained in two phases – a long “pretraining” phase and a much shorter “fine-tuning” phase. To simplify somewhat, the pretraining phase can be thought of as where the system primarily develops its capabilities, and the fine-tuning phase can be thought of as for modifying the system’s behavior in desired ways or honing specific capabilities. For instance, for LLMs, the pretraining phase could yield a system being able to imitate internet text (requiring traits such as fluency with grammatical structures, ability to do basic reasoning, internalizing various relationships between aspects of the world, and so on), and the fine-tuning phase could involve steering the system into acting according to a specific role (such as being a helpful and harmless question-answering system).
 
@@ -414,7 +414,7 @@ It’s worth noting that the time necessary to train frontier AI systems isn’t
 
 Again, this bottleneck is also an open question. Despite the possibilities above, it’s also possible all approaches for progress that don’t involve long training runs will either fail to pan out entirely or fail to sustain progress sufficiently, and maintaining r \> 1 r > 1 might preclude each subsequent training run getting shorter and shorter.
 
-## Bringing it all together
+## Bringing it all together ^bringing-it-all-together
 
 Given all the above, it seems at least decently likely that an SIE would occur if hardware were held constant upon the creation of ASARA and human social factors didn’t prevent it, though we can’t be confident either way.[^note-forethought-will-ai-rd-ft-44] If an SIE _does_ occur, it would _very quickly_ lead to _huge_ gains in AI capacity – soon after ASARA, progress might well have sped up to the point where AI software was doubling every few days or faster (compared to doubling every few months today).
 
@@ -424,7 +424,7 @@ And considering that hardware will most likely not be held constant around ASARA
 
 More research is warranted into both the likelihood of an SIE and how to govern it. In particular, further research into the likelihood of an SIE should try to approximately pin down r r for AI software R&D, and further research into governing an SIE should consider governance mechanisms that could either prevent an SIE or otherwise ensure successful governance of AI would continue throughout an SIE. Additionally, those evaluating AI governance proposals and scaling policies should consider if these policies are robust to an SIE.
 
-## What can we do if an SIE is possible?
+## What can we do if an SIE is possible? ^what-can-we-do-if-an-sie-is-possible
 
 Even if it turns out that an SIE is the expected default outcome, that does not make it a foregone conclusion. The actions leading up to an SIE would all be human choices, and likewise, human choices could set up processes that either avert this outcome or send it down a positive course. Setting up the right processes may be very difficult and require a high level of coordination, but such coordination is possible.
 
@@ -451,7 +451,7 @@ We’ll likely find it easier to coordinate successfully on policies if all rele
 
 By the time we see clear signs that an SIE may be approaching, it might be too late to implement necessary changes. Unless we can rule out the possibility, we should be proactive and figure out how to navigate the terrain ahead of time.
 
-## References
+## References ^references
 
 AI Impacts (2015). “Trends in the cost of computing.” _AI Impacts_.  
 [https://aiimpacts.org/trends-in-the-cost-of-computing/](https://aiimpacts.org/trends-in-the-cost-of-computing/)
@@ -693,7 +693,7 @@ Zheng, M. (2023). “Can GPT-4 Perform Neural Architecture Search?” _arXiv_.
 Zhou, A. _et al_. (2024). “Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models.” _Proceedings of the 41st International Conference on Machine Learning_.  
 [https://arxiv.org/abs/2310.04406v1](https://arxiv.org/abs/2310.04406v1)
 
-## Appendix: Justification for our formulation of r
+## Appendix: Justification for our formulation of r ^appendix-justification-for-our-formulation-of-r
 
 To reiterate, r r is defined as for each time the _cumulative amount of work performed on AI software R&D_ doubles, how many times does _AI software capacity_ double. Our toy model is also constructed to be consistent with this general relationship.
 

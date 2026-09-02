@@ -163,7 +163,7 @@ The speed of the industrial explosion will likely change over time. We can consi
 
 It’s hard to make substantive claims about the speed of the industrial explosion, as it requires making so many assumptions. Nevertheless, we can make some general claims.
 
-### Initial speed
+### Initial speed ^initial-speed
 
 #### One-time gain from AI-directed human labour
 
@@ -200,9 +200,9 @@ We’re uncertain about how large these uplifts might be, but it looks like – 
 
 As the industrial explosion transitions from AI-directed human labour to increasing and eventually full automation of physical labour, we can start to operationalise the speed of the industrial explosion in terms of robot doubling times: the time it takes to double the number of robots (and other types of physical actuators) in the world.[^note-forethought-industrial-ft-15]
 
-The most recent doubling in the number of robots in the world took [6 years](https://ifr.org/ifr-press-releases/news/record-of-4-million-robots-working-in-factories-worldwide). It’s hard to say how quickly self-replicating robots could double in number, but in [an appendix](#how-fast-could-robot-doubling-times-be-initially) we use a couple of approaches to tentatively estimate that with current physical technology (but abundant AI cognitive labour) this might be on the order of a year, rather than a month or a decade. It could be faster still if AI can quickly drive rapid technological progress without an industrial explosion happening first (for example, by quickly developing advanced nanotechnology).
+The most recent doubling in the number of robots in the world took [6 years](https://ifr.org/ifr-press-releases/news/record-of-4-million-robots-working-in-factories-worldwide). It’s hard to say how quickly self-replicating robots could double in number, but in {--{"author":"Luc's AI","timestamp":1788377370462}@@[an appendix](#how-fast-could-robot-doubling-times-be-initially)--}{++{"author":"Luc's AI","timestamp":1788377370462}@@[[#^how-fast-could-robot-doubling-times-be-initially|an appendix]]++} we use a couple of approaches to tentatively estimate that with current physical technology (but abundant AI cognitive labour) this might be on the order of a year, rather than a month or a decade. It could be faster still if AI can quickly drive rapid technological progress without an industrial explosion happening first (for example, by quickly developing advanced nanotechnology).
 
-### Acceleration
+### Acceleration ^acceleration
 
 If robot technology remains constant, the growth rate of robots and other physical actuators will be constant (ignoring resource constraints for simplicity) [^note-forethought-industrial-ft-16].
 
@@ -239,7 +239,7 @@ Instead, we can look at the fastest doubling times for biological organisms whic
 
 Still, fruit flies are physically weak and cognitively fairly basic; perhaps they are too limited to rebuild the full physical economy. Rats are a more conservative example, and in good conditions they can double in about 6 weeks.[^cite-forethought-industrial-ft-20]
 
-One source of scepticism here is that the earth can only carry so many robots, and we might reach the limit before robot technology becomes good enough for such quick doublings. But a [quick BOTEC](#how-quick-might-robot-doublings-become-by-the-time) suggests that, extrapolating the experience curves discussed above, we would get doubling times of less than a day before reaching the earth’s robot carrying capacity.
+One source of scepticism here is that the earth can only carry so many robots, and we might reach the limit before robot technology becomes good enough for such quick doublings. But a [[#^how-quick-might-robot-doublings-become-by-the-time-we-reach-the-earths-carrying-capacity|quick BOTEC]] suggests that, extrapolating the experience curves discussed above, we would get doubling times of less than a day before reaching the earth’s robot carrying capacity.
 
 It seems reasonable to use days or weeks as an upper bound on how fast robot doublings could become, based on biological analogies. This is very fast indeed.[^note-forethought-industrial-ft-21]
 
@@ -247,7 +247,7 @@ _Thanks to Owen Cotton-Barratt, Max Dalton, Oscar Delaney and Fin Moorhouse for 
 
 ## Appendices
 
-### How fast could robot doubling times be initially?
+### How fast could robot doubling times be initially? ^how-fast-could-robot-doubling-times-be-initially
 
 Once AI can manipulate robots as well as humans can manipulate their bodies, how fast will robot doubling times be?
 
@@ -332,7 +332,7 @@ There are a few related reasons to think that once physical labour is fully auto
 
 Overall, we can tentatively say that initial robot doubling times are likely to be on the order of a few years, rather than months or decades.
 
-### How quick might robot doublings become by the time we reach the earth’s carrying capacity?
+### How quick might robot doublings become by the time we reach the earth’s carrying capacity? ^how-quick-might-robot-doublings-become-by-the-time-we-reach-the-earths-carrying-capacity
 
 This calculation has three steps:
 
@@ -343,13 +343,13 @@ This calculation has three steps:
 3.  How much will this scale-up reduce the doubling time, based on experience curves for cost vs production?
     
 
-**Step 1.** [Above](#how-fast-could-robot-doubling-times-be-initially), we estimated that with current physical technology and abundant AI cognitive labour, robot doubling times might be about **one year**.
+**Step 1.** {--{"author":"Luc's AI","timestamp":1788377371088}@@[Above](#how-fast-could-robot-doubling-times-be-initially),--}{++{"author":"Luc's AI","timestamp":1788377371088}@@[[#^how-fast-could-robot-doubling-times-be-initially|Above]],++} we estimated that with current physical technology and abundant AI cognitive labour, robot doubling times might be about **one year**.
 
 **Step 2.** Today fewer than 100,000 humanoid robots have been produced.[^cite-forethought-industrial-ft-29] We expect that the earth’s robot carrying capacity will be constrained by energy not by raw materials.[^note-forethought-industrial-ft-30] Solar energy hitting the earth is [2e17 W](https://bionumbers.hms.harvard.edu/bionumber.aspx?id=100943&ver=3), whereas the human body uses [100W](https://hypertextbook.com/facts/2003/WeiLiangMok.shtml). If 5% of solar energy is used to run humanoid robots with efficiency matching humans, you could run 1e16/100 = 1e14 humanoid robots.
 
 That’s a scale up of robot production of 9 orders of magnitude (1e14/1e5 = 1e9).
 
-**Step 3.** [Above](#acceleration) we estimated that we might have to scale up robot production by 1-5 orders of magnitude to reduce the doubling time by one order of magnitude.
+**Step 3.** {--{"author":"Luc's AI","timestamp":1788377371338}@@[Above](#acceleration)--}{++{"author":"Luc's AI","timestamp":1788377371338}@@[[#^acceleration|Above]]++} we estimated that we might have to scale up robot production by 1-5 orders of magnitude to reduce the doubling time by one order of magnitude.
 
 Conservative calculation: robot doubling times fall by 9 / 5 = ~2 orders of magnitude to **a few days**.
 
@@ -375,7 +375,7 @@ This suggests we could reach the doubling times of days or weeks suggested by th
 
 [^note-forethought-industrial-ft-7]: It’s possible that wages for physical labour get higher at this point, though if the supply of physical labour increases a lot this is less clear. The human wage distribution might also get flatter, if AI is directing human physical motions such that humans become more substitutable.
 
-[^note-forethought-industrial-ft-8]: See [below](#initial-speed) for thoughts on how large this factor might be.
+[^note-forethought-industrial-ft-8]: See [[#^initial-speed|below]] for thoughts on how large this factor might be.
 
 [^note-forethought-industrial-ft-9]: This seems technologically feasible. Humans are proof-of-concept that human-level physical capabilities are possible. It would be surprising if evolution, which is a blind search process, had reached the physical limits of physical capabilities. Besides, variation among humans, and animals and specialised robots which outperform humans in specific areas, show that improvements on human capabilities are possible.
 
