@@ -14,14 +14,14 @@ tags:
 %%
 I think this article is a decent overivew. I don't necessarily want to spend a ton of attention on power concentration in our courses, but I think it's good to give our participants an idea that it exists. I think this is a good summary. I also spoke to somebody at Constellation who is working full time on power concentration, and they stated that they were one of only about 10 to 20 people working on this full time. He thought that this article was a very good starting point.
 %%
-## Why might AI-enabled power concentration be a pressing problem?
+## Why might AI-enabled power concentration be a pressing problem? ^why-might-ai-enabled-power-concentration-be-a-pressing-problem
 
 The main reasons we think AI-enabled power concentration is an especially pressing problem are:
 
-1.  Historically unprecedented levels of [automation could concentrate the power to get stuff done](#automation-could-concentrate-the-power-to-get-stuf), by reducing the value of human labour, empowering small groups with big AI workforces, and potentially giving one AI developer a huge capabilities advantage (if automating AI development leads to runaway AI progress).
-2.  [This could lead to unprecedented concentration of political power](#this-could-lead-to-unprecedented-concentration-of-). A small number of people could use a huge AI workforce to seize power over existing institutions, or render them obsolete by amassing enormous wealth.
-3.  [AI-enabled power concentration could cause enormous and lasting harm](#ai-enabled-power-concentration-could-cause-enormou), by disempowering most people politically, and enabling large-scale abuses of power.
-4.  [There are ways to reduce this risk, but very few are working on them](#there-are-ways-to-reduce-this-risk-but-very-few-ar).
+1.  Historically unprecedented levels of [[#^automation-could-concentrate-the-power-to-get-stuff-done|automation could concentrate the power to get stuff done]], by reducing the value of human labour, empowering small groups with big AI workforces, and potentially giving one AI developer a huge capabilities advantage (if automating AI development leads to runaway AI progress).
+2.  [[#^this-could-lead-to-unprecedented-concentration-of-political-power|This could lead to unprecedented concentration of political power]]. A small number of people could use a huge AI workforce to seize power over existing institutions, or render them obsolete by amassing enormous wealth.
+3.  [[#^ai-enabled-power-concentration-could-cause-enormous-and-lasting-harm|AI-enabled power concentration could cause enormous and lasting harm]], by disempowering most people politically, and enabling large-scale abuses of power.
+4.  [[#^there-are-ways-to-reduce-this-risk-but-very-few-are-working-on-them|There are ways to reduce this risk, but very few are working on them]].
 
 In this section we’ll go through each of these points in turn, but first we’ll give an illustrative scenario where power becomes extremely concentrated because of advanced AI. The scenario is very stylised and there are loads of other ways things could go, but it gives a more concrete sense of the kind of thing we’re worried about.
 
@@ -37,7 +37,7 @@ By 2035, the US economy has tripled while other nations have stagnated. Project 
 
 The executives are powerful enough to unilaterally seize control of the council and dictate terms to other nations, but they don’t need to. Through thousands of subtle nudges — a risk assessment here, a strategic recommendation there — their AI systems ensure every major decision aligns with their vision for humanity’s future.
 
-### Automation could concentrate the power to get stuff done
+### Automation could concentrate the power to get stuff done ^automation-could-concentrate-the-power-to-get-stuff-done
 
 We’ve always used technology to automate bits of human labour: water-powered mills replaced hand milling, the printing press replaced scribes, and the spinning jenny replaced hand spinning. This automation has had impacts on the distribution of power, some of them significant — the printing press helped shift power from the church towards city merchants; and factory machines shifted power from landowners to capitalists and towards industrialising countries.
 
@@ -63,11 +63,11 @@ Furthermore, _within_ these organisations, more and more employees may get repla
 
 It’s plausible that entry-level white collar jobs will be automated first. Organisations could become more top-heavy, with an expanded class of managers overseeing many AI agents.
 
-There are many other ways this could go, and it’s not a foregone conclusion that AI will lead to this kind of power concentration. Perhaps we’ll see a stronger shift from expensive pre-training to more accessible [inference scaling](https://www.tobyord.com/writing/inference-scaling-reshapes-ai-governance), and there will be a boom in the number of frontier companies, putting equally-powerful AI in more hands. There might be no intelligence explosion, or it might fizzle quickly, allowing laggards to catch up. If commercial competition remains high, consumers will have access to smarter and smarter models, which could even out differences in capabilities between humans and push towards greater egalitarianism. AI might allow for much more direct democracy by making it easier to aggregate preferences, and for greater [transparency](https://arxiv.org/pdf/2012.08347v1). And so on (more on this [below](#power-might-remain-distributed-by-default)).
+There are many other ways this could go, and it’s not a foregone conclusion that AI will lead to this kind of power concentration. Perhaps we’ll see a stronger shift from expensive pre-training to more accessible [inference scaling](https://www.tobyord.com/writing/inference-scaling-reshapes-ai-governance), and there will be a boom in the number of frontier companies, putting equally-powerful AI in more hands. There might be no intelligence explosion, or it might fizzle quickly, allowing laggards to catch up. If commercial competition remains high, consumers will have access to smarter and smarter models, which could even out differences in capabilities between humans and push towards greater egalitarianism. AI might allow for much more direct democracy by making it easier to aggregate preferences, and for greater [transparency](https://arxiv.org/pdf/2012.08347v1). And so on (more on this {--{"author":"Luc's AI","timestamp":1788377444338}@@[below](#power-might-remain-distributed-by-default)).--}{++{"author":"Luc's AI","timestamp":1788377444338}@@[[#^power-might-remain-distributed-by-default|below]]).++}
 
 So there are forces pushing against power concentration, as well as forces pushing towards it. It’s certainly possible that society naturally adjusts to these changes and successfully defends against AI-enabled power concentration. But given the speed that AI progress might reach, there’s a real risk that we don’t have enough time to adapt.
 
-### This could lead to unprecedented concentration of political power
+### This could lead to unprecedented concentration of political power ^this-could-lead-to-unprecedented-concentration-of-political-power
 
 So we could end up in a situation where most of the power to earn money and get stuff done is in the hands of the few.
 
@@ -165,7 +165,7 @@ This is the least well-studied of the three dynamics we’ve pointed to, but we 
 
 That list of factors might be missing important things and including things that are not really going to be problems — again, the area is understudied. But we’re including it to give a more concrete sense of how AI might erode (or be used to erode) the epistemic environment, making it harder for people to realise what’s happening and resist further power concentration. Epistemic interference in isolation probably won’t lead to extreme AI-enabled power concentration, but it could be a contributing factor.
 
-### AI-enabled power concentration could cause enormous and lasting harm
+### AI-enabled power concentration could cause enormous and lasting harm ^ai-enabled-power-concentration-could-cause-enormous-and-lasting-harm
 
 In a commonsense way, handing the keys of the future to a handful of people seems clearly wrong, and it’s something that most people would be strongly opposed to. We put a fair bit of weight on this intuitive case.
 
@@ -174,7 +174,7 @@ We also put some weight on specific arguments for ways in which AI-enabled power
 -   **It could lead to [tyranny](https://80000hours.org/problem-profiles/risks-of-stable-totalitarianism/).** Democracy usually stops small groups of extremists from taking the reins of government and using them to commit mass atrocities against their peoples, by requiring that a large chunk of the population supports the general direction of the government. If power became extremely concentrated, a small group could commit atrocities that most people would be appalled by. Many of the worst atrocities in human history were perpetrated by a small number of people who had unchecked power over their people (think of the Khmer Rouge murdering [a quarter](https://www.tandfonline.com/doi/abs/10.1080/1467271032000147041) of all Cambodians between 1975 and 1979). We can think of two main ways that AI-enabled power concentration could lead to tyranny:
     -   [**Malevolent**](https://forum.effectivealtruism.org/posts/LpkXtFXdsRd4rG8Kb/reducing-long-term-risks-from-malevolent-actors) **— or just extremely selfish — humans could end up in power**. Particularly for scenarios where power gets concentrated through AI-enabled power grabs, it seems quite likely that the sorts of humans who are willing to seize power will have other bad traits. They might actively want to cause harm.
     -   **Power corrupts**. Even if those in power start out with good intentions, they’d have no incentive to continue to promote the interests of most people if their power were secure. Whenever other people’s interests became inconvenient, there would be a strong temptation to backtrack, and no repercussions to doing so.
--   **It could lead us to miss out on [really good futures](https://www.forethought.org/research/better-futures).** AI-enabled power concentration might _not_ lead to tyranny in the most egregious sense: we might somehow end up with a [benevolent dictator](#the-future-might-still-be-all-right-even-if-theres) or an enlightened caste of powerful actors who keep an eye out for the rest of us. But even in this case, the future might be much less good than it could have been, because there’d be:
+-   **It could lead us to miss out on [really good futures](https://www.forethought.org/research/better-futures).** AI-enabled power concentration might _not_ lead to tyranny in the most egregious sense: we might somehow end up with a [[#^the-future-might-still-be-all-right-even-if-theres-ai-enabled-power-concentration|benevolent dictator]] or an enlightened caste of powerful actors who keep an eye out for the rest of us. But even in this case, the future might be much less good than it could have been, because there’d be:
     -   **Injustice and disempowerment.** AI-enabled power concentration would disempower the vast majority of people politically. From some philosophical perspectives,[22](#fn-22 "From other perspectives, justice and political empowerment are only *instrumentally* valuable, for example insofar as they prevent tyranny. If you hold this view, then provided a benevolent dictator who can permanently ensure that people have high welfare, there's no additional need for political empowerment.
         ") justice and political empowerment are intrinsically valuable, so this would make the future much less good.
     -   **Less diversity of values and ways of life.** A narrower set of people in power means a narrower set of values and preferences get represented into the future. Again, from many perspectives this kind of diversity is intrinsically valuable.
@@ -187,9 +187,9 @@ Extreme AI-enabled power concentration would also probably be hard to reverse, m
 -   If power becomes so concentrated there’s just one [global](https://www.forethought.org/research/could-one-country-outgrow-the-rest-of-the-world) [hegemon](https://arxiv.org/abs/2503.05628), then there won’t be any external threats to the regime.[23](#fn-23 "Even if there are still multiple powerful actors, AI might make it possible for states to make permanently binding commitments. This could lead to scenarios where a state uses threats to extort other states to recognise its regime in perpetuity.
     ")
 
-These harms need to be weighed against the [potential benefits](#ai-enabled-power-concentration-could-reduce-other-) from AI-enabled power concentration, like reducing competitive dynamics. We’re not certain how all of this will go down, but both our intuitions and the analysis above suggest that AI-enabled power concentration poses serious risks to human flourishing that we should work to avoid.
+These harms need to be weighed against the [[#^ai-enabled-power-concentration-could-reduce-other-risks-from-ai|potential benefits]] from AI-enabled power concentration, like reducing competitive dynamics. We’re not certain how all of this will go down, but both our intuitions and the analysis above suggest that AI-enabled power concentration poses serious risks to human flourishing that we should work to avoid.
 
-### There are ways to reduce this risk, but very few are working on them
+### There are ways to reduce this risk, but very few are working on them ^there-are-ways-to-reduce-this-risk-but-very-few-are-working-on-them
 
 Many people are working to prevent more moderate forms of power concentration. Considered broadly, a lot of the work that happens in governments, the legal system, and many parts of academia and civil society contributes to this.
 
@@ -212,7 +212,7 @@ This is in spite of the fact that there are concrete things we could do now to r
     -   All of the technical solutions above
 -   Build and deploy [AI tools](https://www.forethought.org/research/ai-tools-for-existential-security) that improve people’s ability to reason and coordinate, so they can resist epistemic interference
 
-To be clear, thinking about how to prevent AI-enabled power concentration is still at a very early stage. Not everyone currently working on this would support all of the interventions in that list, and it’s not clear how much of the problem would be solved even if we implemented the whole list. It might be that the structural forces pushing towards AI-enabled power concentration are [too strong to stop](#it-might-be-too-hard-to-stop-ai-enabled-power-conc).
+To be clear, thinking about how to prevent AI-enabled power concentration is still at a very early stage. Not everyone currently working on this would support all of the interventions in that list, and it’s not clear how much of the problem would be solved even if we implemented the whole list. It might be that the structural forces pushing towards AI-enabled power concentration are [[#^it-might-be-too-hard-to-stop-ai-enabled-power-concentration|too strong to stop]].
 
 But it certainly doesn’t seem inevitable that power will become extremely concentrated:
 
@@ -225,7 +225,7 @@ There’s a lot more work to be done here than there are people doing the work.
 
 We’ve touched on these arguments in other places in this article, but we’ve brought them all together here so it’s easier to see what the weakest points are in the argument for prioritising AI-enabled concentration of power, and to go into a bit more depth.
 
-### AI-enabled power concentration could reduce other risks from AI
+### AI-enabled power concentration could reduce other risks from AI ^ai-enabled-power-concentration-could-reduce-other-risks-from-ai
 
 Some forms of power concentration could reduce various other risks from AI:
 
@@ -241,9 +241,9 @@ That said:
 
 Weighing up these risks is complicated, and we’re not claiming there aren’t tradeoffs here. We currently think it isn’t clear whether the effects of AI-enabled power concentration net out as helpful or harmful for other AI risks. Given that power concentration is an important and neglected problem in its own right, we think it’s still very worth working on. (But we would encourage people working on AI-enabled concentration of power to keep in mind that their actions might influence these other issues, and try to avoid making them worse.)
 
-### The future might still be all right, even if there’s AI-enabled power concentration
+### The future might still be all right, even if there’s AI-enabled power concentration ^the-future-might-still-be-all-right-even-if-theres-ai-enabled-power-concentration
 
-For the reasons we went into [above](#why-might-ai-enabled-power-concentration-be-a-pres), we think extremely concentrated power is likely to be bad. But even if you agree, there are some reasons to think a future with AI-enabled power concentration could still turn out all right on some metrics:
+For the reasons we went into [[#^why-might-ai-enabled-power-concentration-be-a-pressing-problem|above]], we think extremely concentrated power is likely to be bad. But even if you agree, there are some reasons to think a future with AI-enabled power concentration could still turn out all right on some metrics:
 
 -   [**Material**](https://www.effectivealtruism.org/articles/ea-global-2018-paretotopian-goal-alignment) **[abundance](https://www.google.co.uk/books/edition/Radical_Abundance/eiE4DgAAQBAJ?hl=en&gbpv=0)**: AI might generate such enormous wealth that most people live in material conditions that are far better than those of the very richest today. In a world with AI-enabled power concentration, people would be politically disempowered, but if the powerful chose to allow it, they could still be materially well-off.
 -   **Reduced incentives for repression and brutality**: part of why autocracies repress their peoples is that their leaders are trying to shore up their own power. If power became so concentrated that leaders were guaranteed to remain in power forever, there’d no longer be rational incentives to do things like restrict freedom of speech or torture dissidents (but there’d still be irrational ones like spite or fanatical ideologies.)
@@ -251,7 +251,7 @@ For the reasons we went into [above](#why-might-ai-enabled-power-concentration-b
 
 Again, we don’t find these arguments particularly compelling, but believe they’re plausible enough to be worth considering and weighing.
 
-### Efforts to reduce AI-enabled power concentration could backfire
+### Efforts to reduce AI-enabled power concentration could backfire ^efforts-to-reduce-ai-enabled-power-concentration-could-backfire
 
 AI-enabled power concentration is a spicy topic, and efforts to prevent it could easily backfire. The more salient the risk of AI-enabled power concentration is, the more salient it is to power-seeking actors. Working to reduce AI-enabled power concentration could:
 
@@ -261,13 +261,13 @@ AI-enabled power concentration is a spicy topic, and efforts to prevent it could
 
 Some interventions might also reduce the probability that one actor ends up with too much power, but by increasing the probability that another actor does. For example, increasing government oversight over AI companies might make company power grabs harder, but simultaneously make it easier for government officials to orchestrate a power grab.
 
-We do think that preventing AI-enabled power concentration is a bit of a minefield, and that’s part of why we think that for now, most people should be [bearing the risk in mind](#what-can-you-do-to-help) rather than working on it directly. But there are ways of making this work less likely to backfire, like:
+We do think that preventing AI-enabled power concentration is a bit of a minefield, and that’s part of why we think that for now, most people should be {--{"author":"Luc's AI","timestamp":1788377445859}@@[bearing--}{++{"author":"Luc's AI","timestamp":1788377445859}@@[[#^what-can-you-do-to-help|bearing++} the risk in {--{"author":"Luc's AI","timestamp":1788377445859}@@mind](#what-can-you-do-to-help)--}{++{"author":"Luc's AI","timestamp":1788377445859}@@mind]]++} rather than working on it directly. But there are ways of making this work less likely to backfire, like:
 
 -   Being thoughtful and aware of backfire risks. If you don’t think you have good judgement on this sort of thing (or wouldn’t have anyone with good judgement to give you feedback), it’s probably best to work on something else.
 -   Using frames and language which are less adversarial. For example, ‘power grabs’ seems spicier than ‘power concentration’ as a framing.
 -   Focusing on kinds of work that are hard for power-seeking actors to misuse. For example, developing and implementing mitigations like transparency measures or alignment audits is harder for a power-seeking actor to make use of than detailed threat-modelling.
 
-### Power might remain distributed by default
+### Power might remain distributed by default ^power-might-remain-distributed-by-default
 
 Above, we argue that power could become extremely concentrated. But this isn’t inevitable, and the arguments may turn out to be wrong. For example:
 
@@ -278,7 +278,7 @@ Above, we argue that power could become extremely concentrated. But this isn’t
 
 We think that the probability that power becomes extremely concentrated is high enough to be very concerning. But we agree that it’s far from guaranteed.
 
-### It might be too hard to stop AI-enabled power concentration
+### It might be too hard to stop AI-enabled power concentration ^it-might-be-too-hard-to-stop-ai-enabled-power-concentration
 
 On the flip side, it might turn out that AI-enabled power concentration is not worth working on because it is too difficult to stop:
 
@@ -289,16 +289,16 @@ That said, we don’t think that we should give up yet:
 
 -   We don’t know yet how the structural dynamics will play out. We might be in a world where it is very possible to limit power concentration.
 -   It’s in almost everyone’s interests to prevent AI-enabled power concentration — including the interests of most powerful people today, since most of them stand to lose out if one small group gains control of most important decisions. It might be possible to coordinate to prevent power concentration and make defecting very costly.
--   There are already some interventions to prevent AI-enabled power concentration that look promising (see [above](#there-are-ways-to-reduce-this-risk-but-very-few-ar)). If this area receives more attention, we may well find more.
+-   There are already some interventions to prevent AI-enabled power concentration that look promising (see [[#^there-are-ways-to-reduce-this-risk-but-very-few-are-working-on-them|above]]). If this area receives more attention, we may well find more.
 
-## What can you do to help?
+## What can you do to help? ^what-can-you-do-to-help
 
 Because so little dedicated work has been done on preventing extreme AI-enabled power concentration to date, there aren’t yet interventions that we feel confident about directing lots of people towards. And there certainly aren’t many jobs working directly on this issue!
 
 For now, our main advice for most people is to:
 
 -   **Bear the risk of AI-enabled power concentration in mind.** We’re more likely to avoid AI-enabled power concentration if reasonable people are aware of this risk and want to prevent it. This is especially relevant if you work at an AI company or in AI governance and safety: policies or new technologies will often have knock-on effects on power concentration, and by being aware of this you might be able to avoid inadvertently increasing the risk.
--   **Be sensitive to the fact that efforts to reduce this risk could [backfire](#efforts-to-reduce-ai-enabled-power-concentration-c) or [increase other risks](#ai-enabled-power-concentration-could-reduce-other-).**
+-   **Be sensitive to the fact that efforts to reduce this risk could [[#^efforts-to-reduce-ai-enabled-power-concentration-could-backfire|backfire]] or [[#^ai-enabled-power-concentration-could-reduce-other-risks-from-ai|increase other risks]].**
 
 There are also some promising early-stage agendas, and we think that some people could start doing good work here already. We’d be really excited to see more people work on:
 
