@@ -606,7 +606,7 @@ You also don’t need to treat every moral theory as having a vote in your delib
 
 For us, both approaches point to giving at least some non-negligible moral weight to animals, and plausibly quite a lot — though your views could be sufficiently different that you disagree.
 
-### How many animals count morally the same as one human?
+### How many animals count morally the same as one human? ^how-many-animals-count-morally-the-same-as-one-human
 
 Even if animals deserve our moral consideration, it doesn’t mean that we should count animals the same way we count humans.
 
@@ -638,7 +638,7 @@ While this method is simple, and tempting, we think there are lots of [good obje
 
 As a result, we think we can’t conclude much just from neuron counts, other than that we should probably give somewhat more consideration to humans than to nonhuman animals. The extent of that additional moral consideration remains unclear — and neuron counts seem a poor proxy.
 
-#### Trying to estimate the probability of consciousness
+#### Trying to estimate the probability of consciousness ^trying-to-estimate-the-probability-of-consciousness
 
 Rather than just using neuron counts, we can attempt to come up with an estimate of how likely we think each species is to be conscious — and then weigh each individual by that probability.
 
@@ -703,7 +703,7 @@ Looking further ahead, meat consumption might stop rapidly increasing if much of
 
 But if you’re looking that far into the future, all the way to 2080, there are _so many things_ that might change about factory farming by then — not just the number of humans who can buy meat. Society’s values might have changed hugely. There might have been a major catastrophe, like a [nuclear war](https://80000hours.org/problem-profiles/nuclear-security/) or a [major pandemic](https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/). And perhaps most importantly, technology might completely change the picture.
 
-### How will factory farming be affected by technological advances?
+### How will factory farming be affected by technological advances? ^how-will-factory-farming-be-affected-by-technological-advances
 
 We asked some experts what technological advances might affect factory farming in the future. Here are the main things they mentioned:
 
@@ -716,7 +716,7 @@ We asked some experts what technological advances might affect factory farming i
 
 The two developments that seem most likely to completely change the picture are the development of price, taste, and convenience-competitive {--{"author":"Luc's AI","timestamp":1788377470591}@@[alternatives--}{++{"author":"Luc's AI","timestamp":1788377470591}@@[[#^when-might-we-develop-really-good-alternatives-to-meat|alternatives++} to animal {--{"author":"Luc's AI","timestamp":1788377470591}@@products](#when-might-we-develop-really-good-alternatives-to-)--}{++{"author":"Luc's AI","timestamp":1788377470591}@@products]]++} and the development of {--{"author":"Luc's AI","timestamp":1788377470591}@@[transformative AI](#how-could-ai-affect-factory-farming).--}{++{"author":"Luc's AI","timestamp":1788377470591}@@[[#^how-could-ai-affect-factory-farming|transformative AI]].++} We’ll look at each of these in more detail below.
 
-### When might we develop really good alternatives to meat?
+### When might we develop really good alternatives to meat? ^when-might-we-develop-really-good-alternatives-to-meat
 
 The development of a really good alternative to meat — one that is competitive with meat on price, taste, and convenience grounds — would be a game changer for factory farming.
 
@@ -744,7 +744,7 @@ We read the full report, along with some responses to it (by [the Good Food Inst
 
 That doesn’t mean that cultivated meat is a doomed project — it just means that without something radically changing (e.g. {--{"author":"Luc's AI","timestamp":1788377471024}@@[technological--}{++{"author":"Luc's AI","timestamp":1788377471024}@@[[#^how-could-ai-affect-factory-farming|technological++} progress substantially speeding up in {--{"author":"Luc's AI","timestamp":1788377471024}@@general](#how-could-ai-affect-factory-farming)),--}{++{"author":"Luc's AI","timestamp":1788377471024}@@general]]),++} it might take a long time until we can use a competitive meat alternative to end factory farming.
 
-### Would a competitive meat alternative end factory farming, and if so — when?
+### Would a competitive meat alternative end factory farming, and if so — when? ^would-a-competitive-meat-alternative-end-factory-farming-and-if-so-when
 
 There’s more to consider than just the technology. If we have the technology for products that are competitive with meat on their price, taste, and convenience, would that lead to the end of factory farming? If so, how long would that take?
 
@@ -766,7 +766,7 @@ But forecasting is really difficult when there are no clearly similar events to 
 
 Perhaps more importantly, the estimates from Rethink Priorities were made assuming that there won’t be some kind of transformative AI (and we’d guess that transformative AI wasn’t much on the minds of the Metaculus forecasters either). And AI could _massively_ change the picture.
 
-### How could AI affect factory farming?
+### How could AI affect factory farming? ^how-could-ai-affect-factory-farming
 
 As we’ve argued, we think there’s a decent chance that we’ll [develop AI systems that are hugely transformative for society within the next few decades](https://80000hours.org/problem-profiles/artificial-intelligence/#when-can-we-expect-to-develop-transformative-AI).
 
@@ -978,7 +978,7 @@ We’re not really sure how to compare the solvability of factory farming to exi
 
 It’s worth underlining again that these comparisons are hugely difficult and under-researched, so no one should take this analysis as definitive. But, putting the above reasoning together into a best guess, I have come to think that factory farming is likely more pressing than smaller-scale existential risks like nuclear war, but less pressing than the plausibly much larger [existential risk posed by AI](https://80000hours.org/problem-profiles/artificial-intelligence/). 80,000 Hours as an organisation continues to rank nuclear war as more pressing than factory farming, but there’s significant uncertainty and ongoing debates about these topics.
 
-## What are the major arguments against this problem being (especially) pressing?
+## What are the major arguments against this problem being (especially) pressing? ^what-are-the-major-arguments-against-this-problem-being-especially-pressing
 
 We just gave one major argument: that factory farming probably doesn’t influence the long-run future, whereas existential risks do. If you find the arguments for focusing on issues that can affect the long-run future persuasive, that means that if an existential risk is substantial, it’s plausibly a larger-_scale_ problem than factory farming.
 
@@ -993,7 +993,7 @@ There are also some reasons that you might be very pessimistic about our ability
 -   You might think that work on farmed animal welfare could [make lives worse for wild animals](https://reducing-suffering.org/vegetarianism-and-wild-animals/).
 -   You might think that the lack of growth in veganism and pro-animal attitudes over the past decades (since an initial surge in popularity in the West) suggests that moral attitudes to animals are highly resistant to change. If you’re also sceptical about technological change ending factory farming, you might just think the problem is intractable.
 
-## What can you do to help?
+## What can you do to help? ^what-can-you-do-to-help
 
 When people think about working in animal welfare, they might picture looking after chickens in a sanctuary or handing out leaflets in a shopping mall.
 
@@ -1029,7 +1029,7 @@ We expect these to change over time, so they’re a less useful guide if you thi
 
 Of course, no matter what your job is, if you have more wealth than you need you can help by [donating a portion of your income](https://80000hours.org/career-guide/making-a-difference/#1-donating-effectively) to the most cost-effective animal charities you can find. ([See here for a few recommendations](https://www.givingwhatwecan.org/donate/organizations#animal-welfare).)
 
-### Earning to give
+### Earning to give ^earning-to-give
 
 As we {--{"author":"Luc's AI","timestamp":1788377480423}@@[mentioned](#work-on-factory-farming-is-highly-neglected),--}{++{"author":"Luc's AI","timestamp":1788377480423}@@[[#^work-on-factory-farming-is-highly-neglected|mentioned]],++} there’s very little funding for factory farming relative to many other causes.
 
@@ -1044,7 +1044,7 @@ These paths are highly competitive, but if you’re exceptionally successful, yo
 
 We’d be particularly excited about people earning to give to support invertebrate welfare (e.g. insects, shrimp, and other crustaceans) because these areas [aren’t currently being funded by large donors like Coefficient Giving](https://forum.effectivealtruism.org/posts/foQPogaBeNKdocYvF/linkpost-an-update-from-good-ventures).
 
-### Helping to run nonprofits
+### Helping to run nonprofits ^helping-to-run-nonprofits
 
 Many of the organisations working on the {--{"author":"Luc's AI","timestamp":1788377480783}@@[most--}{++{"author":"Luc's AI","timestamp":1788377480783}@@[[#^there-are-promising-ways-of-solving-this-problem|most++} cost-effective {--{"author":"Luc's AI","timestamp":1788377480783}@@solutions](#there-are-promising-ways-of-solving-this-problem)--}{++{"author":"Luc's AI","timestamp":1788377480783}@@solutions]]++} are nonprofits.
 
@@ -1062,7 +1062,7 @@ You could also look at:
 -   [Fundraising skills (by Animal Advocacy Careers)](https://www.animaladvocacycareers.org/skills-profiles-fundraising)
 -   Our career reviews of [software engineering](https://80000hours.org/career-reviews/software-engineering/) and [operations management in high-impact organisations](https://80000hours.org/articles/operations-management/).
 
-### Founding something new
+### Founding something new ^founding-something-new
 
 Founding something is a difficult path — but, if you succeed, it can be hugely impactful.
 
@@ -1079,7 +1079,7 @@ If you’re interested in founding an alternative protein startup, take a look a
 
 To learn more about this career path, read our [career review on founding impactful organisations](https://80000hours.org/career-reviews/founder-impactful-organisations/).
 
-### Government and policy
+### Government and policy ^government-and-policy
 
 There are two broad areas for government and policy work on factory farming:
 
@@ -1090,7 +1090,7 @@ Working in policy might mean working in the executive branch, lobbying from the 
 
 Our article on [policy and political skills](https://80000hours.org/skills/political-bureaucratic/) goes into more detail, including a bunch of ideas about [how to get started in the area](https://80000hours.org/skills/political-bureaucratic/#how-to-get-started).
 
-### Corporate campaigning and activism
+### Corporate campaigning and activism ^corporate-campaigning-and-activism
 
 Corporate campaigns — like those we {--{"author":"Luc's AI","timestamp":1788377481505}@@[mentioned above](#there-are-promising-ways-of-solving-this-problem)--}{++{"author":"Luc's AI","timestamp":1788377481505}@@[[#^there-are-promising-ways-of-solving-this-problem|mentioned above]]++} working on improving the lives of caged chickens — are one of the most cost-effective ways people have found of improving welfare for currently farmed animals.
 
@@ -1098,7 +1098,7 @@ So learning how to effectively carry out these campaigns is a particularly usefu
 
 We haven’t looked into this area much, but we’d guess the best way to get started would be to volunteer with an organisation doing corporate campaigns, like [The Humane League](https://thehumaneleague.org/volunteer-with-us).
 
-### Scientific and engineering research
+### Scientific and engineering research ^scientific-and-engineering-research
 
 We think there are opportunities for scientists to help reduce factory farming by:
 
@@ -1121,7 +1121,7 @@ There’s other potentially useful research, such as the development of [in-ovo 
 
 If you’re interested in a career in research and just getting started, we’d suggest reading our [article on building research skills](https://80000hours.org/skills/research/).
 
-### Strategy research and grantmaking
+### Strategy research and grantmaking ^strategy-research-and-grantmaking
 
 These roles involve figuring out what we should be doing to best help farmed animals, and then making that happen.
 
@@ -1133,7 +1133,7 @@ For becoming a grantmaker, you should probably start by doing any other work in 
 
 You could also try testing your fit for research and strategy roles by doing a research project in your spare time or funded by a grant, perhaps on a topic from Coefficient Giving’s [list of social science research topics for animal welfare](https://www.openphilanthropy.org/research/social-science-research-topics-for-animal-welfare/).
 
-### Find vacancies on our job board
+### Find vacancies on our job board ^find-vacancies-on-our-job-board
 
 [View all opportunities](https://jobs.80000hours.org/?refinementList%5Btags_area%5D%5B0%5D=Animal%20welfare)
 
@@ -1143,7 +1143,7 @@ There are also other job boards that you might find helpful, including:
 -   [Alt Protein.Jobs](https://altprotein.jobs/?s=br9jf960) and [Alt Protein Careers](https://altproteincareers.com/) focus on alt protein jobs, while [ForceBrands](https://forcebrands.com/foodforce/jobs) and [Indie Bio](https://biotechjobs.indiebio.co/jobs) cover a wider range of related jobs (which may be useful for career capital).
 -   [Vegan Job Board](https://jobs.veganmainstream.com/) and [VeganJobs](https://veganjobs.com/) focus on advocacy and nonprofits.
 
-### Key organisations
+### Key organisations ^key-organisations
 
 The main **funders and grantmaking organisations** (donating $500,000+ a year) are:
 
@@ -1228,15 +1228,15 @@ Other nonprofit organisations working in the area:
 -   The [Humane Slaughter Association](https://www.hsa.org.uk/) helps farmers slaughter animals in higher-welfare ways.
 -   [Global Food Partners](https://globalfoodpartners.com/) are a consultancy to help companies in Asia meet cage-free goals.
 
-## Learn more
+## Learn more ^learn-more
 
-### Top recommendations
+### Top recommendations ^top-recommendations
 
 -   [Animal Advocacy Careers](https://www.animaladvocacycareers.org/) provides articles, advice, and a job board to help you find a career to try to end factory farming
 -   Podcast: [Lewis Bollard on the 7 most promising ways to end factory farming, and whether AI is going to be good or bad for animals](https://80000hours.org/podcast/episodes/lewis-bollard-factory-farm-advocacy-gains/)
 -   Podcast: [Seren Kell on the research gaps holding back alternative proteins from mass adoption](https://80000hours.org/podcast/episodes/seren-kell-alternative-proteins/)
 
-### Further recommendations
+### Further recommendations ^further-recommendations
 
 #### More resources
 
