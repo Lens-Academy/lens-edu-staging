@@ -47,11 +47,11 @@ We’re already starting to see preliminary evidence that models sometimes pursu
 
 The **deep learning alignment problem is the problem of ensuring that advanced deep learning models don’t pursue dangerous goals**. In the rest of this post, I will:
 
-- Build on the “hiring” analogy to illustrate how alignment could be difficult if deep learning models are more capable than humans ([more](#analogy-the-young-businessperson)).
-- Explain what the deep learning alignment problem is with a bit more technical detail ([more](#how-alignment-issues-could-arise-with-deep-learnin)).
-- Discuss how difficult the alignment problem may be, and how much risk there is from failing to solve it ([more](#how-big-of-a-risk-is-misalignment)).
+- Build on the “hiring” analogy to illustrate how alignment could be difficult if deep learning models are more capable than humans ([[#^analogy-the-young-businessperson|more]]).
+- Explain what the deep learning alignment problem is with a bit more technical detail ([[#^how-alignment-issues-could-arise-with-deep-learning|more]]).
+- Discuss how difficult the alignment problem may be, and how much risk there is from failing to solve it ([[#^how-big-of-a-risk-is-misalignment|more]]).
 
-## Analogy: the young businessperson
+## Analogy: the young businessperson ^analogy-the-young-businessperson
 
 This section describes an analogy to try to intuitively illustrate why avoiding misalignment in a very powerful model feels hard. It’s not a perfect analogy; it’s just trying to convey some intuitions.
 
@@ -88,15 +88,15 @@ In this analogy:
 
 In the next section, I’ll go into a bit more detail on how deep learning works and explain why Sycophants and Schemers could arise from trying to train a powerful deep learning model such as PASTA.
 
-## How alignment issues could arise with deep learning
+## How alignment issues could arise with deep learning ^how-alignment-issues-could-arise-with-deep-learning
 
 In this section, I’ll connect the analogy to actual training processes for deep learning, by:
 
-- Briefly summarizing how deep learning works ([more](#how-deep-learning-works-at-a-high-level)).
-- Illustrating how deep learning models often get good performance in strange and unexpected ways ([more](#models-often-get-good-performance-in-unexpected-wa)).
-- Explaining why powerful deep learning models may get good performance by acting like Sycophants or Schemers ([more](#powerful-models-could-get-good-performance-with-da)).
+- Briefly summarizing how deep learning works ([[#^how-deep-learning-works-at-a-high-level|more]]).
+- Illustrating how deep learning models often get good performance in strange and unexpected ways ([[#^models-often-get-good-performance-in-unexpected-ways|more]]).
+- Explaining why powerful deep learning models may get good performance by acting like Sycophants or Schemers ([[#^powerful-models-could-get-good-performance-with-dangerous-goals|more]]).
 
-### How deep learning works at a high level
+### How deep learning works at a high level ^how-deep-learning-works-at-a-high-level
 
 *This is a simplified explanation that gives a general idea of what deep learning is. See [this post](https://www.cold-takes.com/supplement-to-why-ai-alignment-could-be-hard/) for a more detailed and technically accurate explanation.*
 
@@ -120,7 +120,7 @@ In addition to image classification, deep learning has been used to produce mode
 
 These steps are repeated millions or billions of times until we end up with a model that will get high reward on future examples similar to the ones seen in training.
 
-### Models often get good performance in unexpected ways
+### Models often get good performance in unexpected ways ^models-often-get-good-performance-in-unexpected-ways
 
 This kind of training process doesn’t give us much insight into *how* the model gets good performance. There are usually multiple ways to get good performance, and the way that SGD finds is often not intuitive.
 
@@ -144,7 +144,7 @@ This sort of thing happens often in modern deep learning. We reward models for g
 
 So far this is innocuous -- it just means models are less useful, because they often behave in unexpected ways that seem goofy. But in the future, powerful models could develop strange and unexpected *goals or motives*, and that could be very destructive.
 
-### Powerful models could get good performance with dangerous goals
+### Powerful models could get good performance with dangerous goals ^powerful-models-could-get-good-performance-with-dangerous-goals
 
 Rather than performing a simple task like “recognize thneebs,” powerful deep learning models may work toward complex real-world goals like “make fusion power practical” or “develop [mind uploading technology](https://www.cold-takes.com/how-digital-people-could-change-the-world/).”
 
@@ -216,7 +216,7 @@ Eventually, it’s taken out of the training setup and released into the wider w
 
 Unlike Sycophants, Schemers don’t need to make sure that everything always looks good to humans, because they don’t actually care about that. They only need to cater to humans while they are directly under human control. Once a Schemer model calculates that it could win in a conflict against humans, there would be nothing to stop it from [flat-out refusing orders](https://www.youtube.com/watch?v=Mme2Aya_6Bc) and openly pursuing its goal. And if it does this, it may use violence to prevent humans from stopping it.
 
-## How big of a risk is misalignment?
+## How big of a risk is misalignment? ^how-big-of-a-risk-is-misalignment
 
 How hard might it be to avoid Sycophants or Schemers when training powerful deep learning models? And how likely is it that the long-run future will end up optimized for strange “misaligned AI values” instead of the values of any human?
 
