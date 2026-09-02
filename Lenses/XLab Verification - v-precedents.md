@@ -259,7 +259,7 @@ feedback-instructions:: Go part by part: which of the four were sound, which wer
 
 #### Text
 content::
-:::callout {title="Works cited" tone="neutral" collapse="closed"}
+:::callout {--{"author":"Elias's AI","timestamp":1788357655270}@@{title="Works cited" tone="neutral" collapse="closed"}
 International Atomic Energy Agency. *IAEA Safeguards: Serving Nuclear Non-Proliferation*. 2024. [iaea.org](https://www.iaea.org/sites/default/files/18/09/sg-serving-nuclear-non-proliferation.pdf)
 *Document 1: the legal commitment underlying comprehensive safeguards.*
 
@@ -278,7 +278,7 @@ XLab. "0.3 History, Precedents, Parallels." *Verification*, XLab, University of 
 
 #### Text
 content::
-:::callout {title="Task 5: model answer (open after you have answered)" tone="neutral" collapse="closed"}
+:::callout --}{title="Task 5: model answer (open after you have answered)" tone="neutral" collapse="closed"}
 **1. The strongest valid parallel.** Verified accountancy of a controlled, mandatory input, carried by a duty on the holder to declare it and accept verification. Document 1 places all nuclear material in peaceful activities under safeguards and obliges the IAEA to verify non-diversion; Document 2 requires that every chip be accounted for and that the logs of a sufficient subset be inspected. The parallel is the accountancy of an input, not any resemblance between uranium and chips, which is also why it survives the fact that the two materials behave nothing alike.
 
 **2. The step the Iraq case puts under greatest pressure.** The move from "inspection of registered chips found no violation" to "no prohibited development is occurring". That step needs the declaration to be complete, and completeness is what Document 3 shows was absent: undeclared activity sat on safeguarded sites but away from the strategic points inspectors could reach, and detecting undeclared activity at undeclared sites is named there as the greatest challenge facing safeguards.
