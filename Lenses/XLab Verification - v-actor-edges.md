@@ -106,9 +106,9 @@ Then read what has no node. The paper’s simplest and most implementation-ready
 Baker §3.2, the weak link: “identify the subgoal whose mechanisms are collectively least robust. This subgoal is the ‘weak link’ of the regime—its robustness determines the regime’s overall robustness.” Baker §4, defining a verification layer: “three verification layers can be stacked together to achieve three layers of redundancy, for example.”
 :::{>>{"author":"Elias's AI","timestamp":1788016696939}@@Native reproduction of XLab's actor-edges widget (src/lib/verification/data/actor-workshop.ts: SUBGOALS, EDGE_KEY, EDGE_NOTES, EDGE_FINDING; brief from widgets/actor-edges.tsx). The drag-to-draw ring map is replaced by a typed edge list graded against the same key. "Module 2.1" in the intro refers to the hardware module lens set, outside this module; left unlinked.<<}
 
-#### {++{"author":"Elias's AI","timestamp":1788357178564}@@Question: Choice
+#### {++{"author":"Elias's AI","timestamp":1788357192880}@@Question: Choice
 id:: 9f2573e0-1f40-40be-85f1-ba9107156979
-content:: Now take one off the board. Take one actor off the board entirely. Whose removal stops a frontier training run soonest — this week, not this decade?
+content:: Take one actor off the board entirely. Whose removal stops a frontier training run soonest — this week, not this decade?
 options::
 - [x] The cloud providers.
 - ASML.
