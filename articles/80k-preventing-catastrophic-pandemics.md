@@ -45,7 +45,7 @@ We believe this risk is one of the world’s most pressing problems. And because
 
 ### Scale
 
-Pandemics — especially engineered pandemics — pose a significant risk to humanity. Though the risk is difficult to assess, some researchers estimate that there is a greater than 1 in 10,000 chance of a biological catastrophe leading to [human extinction](https://80000hours.org/articles/existential-risks/) within the next 100 years, and potentially as high as 1 in 100. (See [below](#overall-the-risk-seems-substantial).) A biological catastrophe that doesn’t lead to extinction could still kill billions of people.
+Pandemics — especially engineered pandemics — pose a significant risk to humanity. Though the risk is difficult to assess, some researchers estimate that there is a greater than 1 in 10,000 chance of a biological catastrophe leading to [human extinction](https://80000hours.org/articles/existential-risks/) within the next 100 years, and potentially as high as 1 in 100. (See {--{"author":"Luc's AI","timestamp":1788377969313}@@[below](#overall-the-risk-seems-substantial).)--}{++{"author":"Luc's AI","timestamp":1788377969313}@@[[#^overall-risk-substantial|below]].)++} A biological catastrophe that doesn’t lead to extinction could still kill billions of people.
 
 ### Neglectedness
 
@@ -65,7 +65,7 @@ Historical events like the [Black Death](https://en.wikipedia.org/wiki/Black_Dea
 
 It is sobering to imagine the potential impact of a pandemic pathogen that is much more contagious and deadly than any we’ve seen so far.
 
-Unfortunately, such a pathogen is possible in principle, particularly in light of advancing biotechnology. With each passing year, it becomes easier to design and create biological agents with specific features (more on this [below](#engineered-pathogens-could-be-even-more-dangerous)). As the field advances, it may become increasingly feasible to engineer a pathogen that poses a major threat to all of humanity.
+Unfortunately, such a pathogen is possible in principle, particularly in light of advancing biotechnology. With each passing year, it becomes easier to design and create biological agents with specific features (more on this {--{"author":"Luc's AI","timestamp":1788377969047}@@[below](#engineered-pathogens-could-be-even-more-dangerous)).--}{++{"author":"Luc's AI","timestamp":1788377969047}@@[[#^engineered-pathogens-dangerous|below]]).++} As the field advances, it may become increasingly feasible to engineer a pathogen that poses a major threat to all of humanity.
 
 States or malicious non-state actors with access to these pathogens could use them as offensive weapons or wield them as threats to obtain leverage over others.
 
@@ -87,7 +87,7 @@ It is relatively uncommon for people in the broader field of biosecurity and pan
 
 In our view, the most severe biological disasters are disproportionately costly because they could endanger civilisation or contribute to [existential risk](https://80000hours.org/articles/existential-risks). This suggests that work to prevent the gravest outcomes in particular should receive more funding and attention than it currently does.
 
-In the rest of this section, we’ll compare the risks from natural and artificial pandemics. Later on, we’ll discuss [what kinds of work](#there-are-clear-actions-we-can-take-to-reduce-thes) can and should be done in this area.
+In the rest of this section, we’ll compare the risks from natural and artificial pandemics. Later on, we’ll discuss {--{"author":"Luc's AI","timestamp":1788377968749}@@[what--}{++{"author":"Luc's AI","timestamp":1788377968749}@@[[#^actions-reduce-biorisk|what++} kinds of {--{"author":"Luc's AI","timestamp":1788377968749}@@work](#there-are-clear-actions-we-can-take-to-reduce-thes)--}{++{"author":"Luc's AI","timestamp":1788377968749}@@work]]++} can and should be done in this area.
 
 We also have a [career review of biorisk research, strategy, and policy paths](https://80000hours.org/career-reviews/pandemic-prevention-biosecurity/), which gives more specific and concrete advice about impactful roles to aim for and how to enter the field.
 
@@ -157,7 +157,7 @@ Scientists can also make dangerous discoveries _unintentionally_ in lab work. Fo
 
 So while the march of science brings great progress, it also brings the potential for bad actors to intentionally produce new or modified pathogens. Even with the vast majority of scientific expertise focused on benefiting humanity, a much smaller group can use scientific advances to do great harm.
 
-If someone or some group has enough motivation, resources, and technical skill, it’s difficult to place an upper limit on how deadly a pandemic they might one day create. As technology progresses, the tools for creating a biological disaster will become increasingly accessible, and the barriers to achieving terrifying results may get lower and lower — raising the risk of a major attack. (AI technology is especially threatening — read more about this [below](#how-do-catastrophic-biorisks-compare-to-ai-risk).)
+If someone or some group has enough motivation, resources, and technical skill, it’s difficult to place an upper limit on how deadly a pandemic they might one day create. As technology progresses, the tools for creating a biological disaster will become increasingly accessible, and the barriers to achieving terrifying results may get lower and lower — raising the risk of a major attack. (AI technology is especially threatening — read more about this {--{"author":"Luc's AI","timestamp":1788377968458}@@[below](#how-do-catastrophic-biorisks-compare-to-ai-risk).)--}{++{"author":"Luc's AI","timestamp":1788377968458}@@[[#^catastrophic-biorisks-vs-ai-risk|below]].)++}
 
 ### Mirror bacteria illustrate the possibility of engineered catastrophic biorisks
 
@@ -540,6 +540,6 @@ We’ve helped people formulate plans, find resources, and put them in touch wit
 
 [^cite-28]: Our podcast episode with Richard Moulange also [covers this strategy](https://80000hours.org/podcast/episodes/richard-moulange-ai-bioweapons-biorisk/#intervention-2-get-ais-to-refuse-to-help-013258).
 
-[^cite-29]: Much has been written on specific technologies; for example, see [Broad-Spectrum Antiviral Agents: A Crucial Pandemic Tool](https://web.archive.org/web/20200612080637/https://www.tandfonline.com/doi/full/10.1080/14787210.2019.1635009) (2019). A number of the podcast episodes [listed above](#podcasts) discuss some of the most promising ideas, as do many of the papers in the [“Other resources” section](#other-resources).
+[^cite-29]: Much has been written on specific technologies; for example, see [Broad-Spectrum Antiviral Agents: A Crucial Pandemic Tool](https://web.archive.org/web/20200612080637/https://www.tandfonline.com/doi/full/10.1080/14787210.2019.1635009) (2019). A number of the podcast episodes {--{"author":"Luc's AI","timestamp":1788377968157}@@[listed above](#podcasts)--}{++{"author":"Luc's AI","timestamp":1788377968157}@@[[#^podcasts|listed above]]++} discuss some of the most promising ideas, as do many of the papers in the {--{"author":"Luc's AI","timestamp":1788377968157}@@[“Other--}{++{"author":"Luc's AI","timestamp":1788377968157}@@[[#^other-resources|“Other++} resources” {--{"author":"Luc's AI","timestamp":1788377968157}@@section](#other-resources).--}{++{"author":"Luc's AI","timestamp":1788377968157}@@section]].++}
 
-[^cite-30]: Though note that, as discussed [above](#engineered-pathogens-could-be-even-more-dangerous), researchers working on these technologies should be careful to mitigate risks from any dual-use findings that could cause harm.
+[^cite-30]: Though note that, as discussed {--{"author":"Luc's AI","timestamp":1788377967859}@@[above](#engineered-pathogens-could-be-even-more-dangerous),--}{++{"author":"Luc's AI","timestamp":1788377967859}@@[[#^engineered-pathogens-dangerous|above]],++} researchers working on these technologies should be careful to mitigate risks from any dual-use findings that could cause harm.
