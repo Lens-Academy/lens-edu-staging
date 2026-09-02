@@ -510,7 +510,7 @@ Recently, it has become popular to report Model FLOP Utilization (MFU), a measur
 
 High - <2 year
 
-See [below](#)
+See {--{"author":"Luc's AI","timestamp":1788383242956}@@[below](#)--}{++{"author":"Luc's AI","timestamp":1788383242956}@@below++}
 
 #### Notes
 
@@ -591,7 +591,7 @@ deployment
 monitoring via  
 HUMINT
 
-Human-based intelligence can help identify the capability level of secret AI projects. This could include spies, unintentional leaks, [whistleblowers](#), and [interviews](#) conducted by international authorities.
+Human-based intelligence can help identify the capability level of secret AI projects. This could include spies, unintentional leaks, {--{"author":"Luc's AI","timestamp":1788383243410}@@[whistleblowers](#),--}{++{"author":"Luc's AI","timestamp":1788383243410}@@whistleblowers,++} and {--{"author":"Luc's AI","timestamp":1788383243410}@@[interviews](#)--}{++{"author":"Luc's AI","timestamp":1788383243410}@@interviews++} conducted by international authorities.
 
 #### **Feasibility**
 
@@ -680,7 +680,7 @@ The tractability of this approach likely varies significantly with AI capability
 
 Widely applied chip restrictions
 
-If nearly all AI chips in the world are under a governance authority with tools like [FlexHEGs](#), various [mechanisms for chip limiting or monitoring](#) could be applied, as discussed previously. For instance, chips could be restricted to only running inference or training on [certain models which have been approved by an international authority](#). If a substantial fraction of all AI chips were covered by such controls, this could increase confidence that inference was not being done on an unapproved model.
+If nearly all AI chips in the world are under a governance authority with tools like {--{"author":"Luc's AI","timestamp":1788383243877}@@[FlexHEGs](#),--}{++{"author":"Luc's AI","timestamp":1788383243877}@@FlexHEGs,++} various {--{"author":"Luc's AI","timestamp":1788383243877}@@[mechanisms--}{++{"author":"Luc's AI","timestamp":1788383243877}@@mechanisms++} for chip limiting or {--{"author":"Luc's AI","timestamp":1788383243877}@@monitoring](#)--}{++{"author":"Luc's AI","timestamp":1788383243877}@@monitoring++} could be applied, as discussed previously. For instance, chips could be restricted to only running inference or training on {--{"author":"Luc's AI","timestamp":1788383243877}@@[certain--}{++{"author":"Luc's AI","timestamp":1788383243877}@@certain++} models which have been approved by an international {--{"author":"Luc's AI","timestamp":1788383243877}@@authority](#).--}{++{"author":"Luc's AI","timestamp":1788383243877}@@authority.++} If a substantial fraction of all AI chips were covered by such controls, this could increase confidence that inference was not being done on an unapproved model.
 
 #### Feasibility
 
@@ -1722,7 +1722,7 @@ It is unclear how this would be implemented and how reliable it would be.
 
 High - <2 year
 
-See [below](#)
+See {--{"author":"Luc's AI","timestamp":1788383244421}@@[below](#)--}{++{"author":"Luc's AI","timestamp":1788383244421}@@below++}
 
 #### Notes
 
