@@ -38,7 +38,7 @@ I work on the [capacity-building team](https://coefficientgiving.org/funds/navig
 
 The post aims to make the case that broadly, capacity-building work (including on AI risk) has been and continues to be extremely impactful, and to encourage people to consider pursuing relevant projects and careers.
 
-This post is written from my personal perspective; that said, my sense is that a number of CG staff and others in the AI safety space share my views. I include some quotes from them at the {--{"author":"Luc's AI","timestamp":1788377257640}@@[end--}{++{"author":"Luc's AI","timestamp":1788377257640}@@[[#^social-proof|end++} of this {--{"author":"Luc's AI","timestamp":1788377257640}@@post](#social-proof).--}{++{"author":"Luc's AI","timestamp":1788377257640}@@post]].++}
+This post is written from my personal perspective; that said, my sense is that a number of CG staff and others in the AI safety space share my views. I include some quotes from them at the [[#^social-proof|end of this post]].
 
 I’m writing this post partly out of a desire to correct what I perceive as an asymmetry in terms of how excited I and others at Coefficient Giving are about this kind of work vs. how much people in the EA and AI safety communities seem excited to work on it. The capacity-building team is one of three major teams working on AI risk at Coefficient; we currently have 11 staff, which is ⅓ of the total AI grantmaking capacity, and gave away over $150M in 2025. I started my stint at Coefficient Giving in 2021, working half-time on technical AI safety grantmaking and half-time on capacity-building grantmaking; among other reasons, I ultimately switched to working full-time on capacity-building, because my sense was that team was several times (maybe an order of magnitude) more impactful. Things seem somewhat different to me now (I think the set of opportunities in technical AI safety grantmaking looks significantly better than it did in 2021), but my sense is capacity-building as an area of work is still massively underrated relative to its impact.
 
@@ -46,9 +46,9 @@ I’m writing this post partly out of a desire to correct what I perceive as an
 
 The naive case for this kind of work (often called the [multiplier effect argument](https://80000hours.org/problem-profiles/promoting-effective-altruism/#multiplier-effect)) goes something like this: say you can spend a little time doing direct work yourself, or spend that same amount of time getting one of your equally talented friends into direct work for the rest of their life. Getting your friend into direct work is most likely the more impactful option, because you get to “multiply” your lifetime impact (in this case, by almost a factor of 2) by getting a whole additional person to spend their career on work you think is important.
 
-In fact, whether this argument goes through depends on a few premises: namely, how good the direct work you would have done would be, and how tractable it is to convince others who are similarly talented to you. I’m going to skip over the first premise for now (and attempt to address it in {--{"author":"Luc's AI","timestamp":1788377257640}@@[a--}{++{"author":"Luc's AI","timestamp":1788377257640}@@[[#^who-should-be-doing-this-work|a++} later {--{"author":"Luc's AI","timestamp":1788377257640}@@section](#who-should-be-doing-this-work))--}{++{"author":"Luc's AI","timestamp":1788377257640}@@section]])++} and present evidence that our team has collected over the years that makes me think that this work is very tractable– and in particular, that there are easy-to-execute interventions that reliably influence people’s career trajectories in substantial ways. A priori, you might think that people’s career choices happen randomly and chaotically enough that it’s difficult to make a substantive impact trying to change what people work on. But in fact, **both anecdotal evidence we’ve observed and larger scale data collection we’ve attempted (both presented below) suggest that intentional efforts make a big difference to individual career trajectories** (including the career trajectories of individuals who go on to do highly impactful work). I think that core stylized fact makes up the main case for why capacity-building work is worthwhile.
+In fact, whether this argument goes through depends on a few premises: namely, how good the direct work you would have done would be, and how tractable it is to convince others who are similarly talented to you. I’m going to skip over the first premise for now (and attempt to address it in [[#^who-should-be-doing-this-work|a later section]]) and present evidence that our team has collected over the years that makes me think that this work is very tractable– and in particular, that there are easy-to-execute interventions that reliably influence people’s career trajectories in substantial ways. A priori, you might think that people’s career choices happen randomly and chaotically enough that it’s difficult to make a substantive impact trying to change what people work on. But in fact, **both anecdotal evidence we’ve observed and larger scale data collection we’ve attempted (both presented below) suggest that intentional efforts make a big difference to individual career trajectories** (including the career trajectories of individuals who go on to do highly impactful work). I think that core stylized fact makes up the main case for why capacity-building work is worthwhile.
 
-I will briefly note that while the below case is focused on successes from capacity-building, I do think this work has the potential for harm, though my overall view is that efforts in this space executed by thoughtful, high-context individuals will be very positive in expectation. I briefly discuss this in {--{"author":"Luc's AI","timestamp":1788377257640}@@[this appendix](#Appendix).--}{++{"author":"Luc's AI","timestamp":1788377257640}@@[[#^appendix|this appendix]].++}
+I will briefly note that while the below case is focused on successes from capacity-building, I do think this work has the potential for harm, though my overall view is that efforts in this space executed by thoughtful, high-context individuals will be very positive in expectation. I briefly discuss this in [[#^appendix|this appendix]].
 
 ## Surveys
 
@@ -93,14 +93,14 @@ See the table below for a longer list of the commonly listed influences, sorted 
 | GPI | 2% | 5 |
 | Rethink Priorities | 2% | 5 |
 
-## Testimonials{++{"author":"Luc's AI","timestamp":1788377257640}@@ ^testimonials++}
+## Testimonials ^testimonials
 
 I’m not able to share the individual free-write responses from the survey above, but I recently personally asked some individuals who I think are doing high-impact work to tell me how they came to be doing that work, followed by what they thought the most important or counterfactual influences on their trajectories were.
 
 Below, I include Claude summaries of their overall stories along with their description of the most important influences, lightly edited. Some notes on the testimonials I've included:
 
 -   They're obviously to some extent cherry-picked by me, and are meant to give a flavor of the kind of data we've seen, rather than a faithful representation of all the ways people tend to come to be doing this work.
--   I chose to include individuals who started doing AI safety-relevant work relatively recently (within the last 5 years), but who I think are doing at least somewhat legibly impactful work now. This includes many people who got involved in 2022 or earlier, and similar to the survey data above, I would advise against directly extrapolating the effectiveness of the exact influences they discuss from that time period, though I think the broad classes of influences (university and local groups, certain content and works of writing, programs and events) continue to be very impactful today– see {--{"author":"Luc's AI","timestamp":1788377257640}@@[below](#what-tends-to-work).--}{++{"author":"Luc's AI","timestamp":1788377257640}@@[[#^what-tends-to-work|below]].++}
+-   I chose to include individuals who started doing AI safety-relevant work relatively recently (within the last 5 years), but who I think are doing at least somewhat legibly impactful work now. This includes many people who got involved in 2022 or earlier, and similar to the survey data above, I would advise against directly extrapolating the effectiveness of the exact influences they discuss from that time period, though I think the broad classes of influences (university and local groups, certain content and works of writing, programs and events) continue to be very impactful today– see [[#^what-tends-to-work|below]].
     -   Among other effects, I think prior to 2023, many more people doing impactful work in the AI safety space got involved via effective altruism rather than directly via AI safety-- nowadays, I think it's more common that people encounter AI safety right away.
 
 ### [Neel Nanda](https://www.linkedin.com/in/neel-nanda%F0%9F%94%B8-993580151/) (Senior Research Scientist at Google DeepMind)
@@ -217,7 +217,7 @@ Ryan read HPMOR and LessWrong in high school, but he didn't anticipate near-term
 6.  **CLR application:** exposed me to Jesse Clifton thought and deepened my understanding of Nick Bostrom, Anders Sandberg thought, all of which have been very influential to my work at MATS, etc.
 7.  **SERI MATS research phase:** gave me space to think deeply and read widely about AI safety, which was crucial to scaling MATS."
 
-# What tends to work?{++{"author":"Luc's AI","timestamp":1788377257640}@@ ^what-tends-to-work++}
+# What tends to work? ^what-tends-to-work
 
 While some of the interventions affecting people’s career trajectories are fairly idiosyncratic, we’ve noticed a few broad categories that tend to be impactful on people’s careers (many of which are featured in the testimonials above).
 
@@ -227,7 +227,7 @@ While some of the interventions affecting people’s career trajectories are fai
 -   **Groups:** University and local groups (at the national or city level), historically largely focused on AI safety or effective altruism, have been very impactful according to our data, and we suspect other group types (including those inside of companies or focused on specific professionals) would also do well.
 -   **Upskilling programs:** Courses, fellowships, bootcamps (often in-person, but sometimes online)-- e.g. [BlueDot’s online programs](https://bluedot.org/), [MATS](https://www.matsprogram.org/), [ARENA](https://www.arena.education/), [Tarbell](https://www.tarbellcenter.org/fellowship), and [many other](https://80000hours.org/2025/06/technical-ai-safety-upskilling-resources/#) [similar programs](https://www.aisafety.com/events-and-training).
 -   **Events:** Conferences, workshops, retreats– e.g. [EAGs](https://www.effectivealtruism.org/ea-global), [FAR AI’s alignment workshops](https://www.far.ai/events), [The Curve](https://thecurve.goldengateinstitute.org/), [GCP’s workshops](https://www.globalchallengesproject.org/), [ESPR](https://espr.camp/).
-    -   I think one way these tend to have impact is through giving people who are newer to a relevant space the opportunity to interact (ideally one-on-one) with professionals or those with more expertise (see {--{"author":"Luc's AI","timestamp":1788377257640}@@[Testimonials](#testimonials)--}{++{"author":"Luc's AI","timestamp":1788377257640}@@[[#^testimonials|Testimonials]]++} above).
+    -   I think one way these tend to have impact is through giving people who are newer to a relevant space the opportunity to interact (ideally one-on-one) with professionals or those with more expertise (see [[#^testimonials|Testimonials]] above).
 
 Notably, unlike content, in our experience **programs and events can have a sizable impact even if they don’t meet an exceedingly high-quality bar, making them a good bet for a wider range of people to work on**. Generalizing from anecdotes, I speculate that programs and events (especially in-person ones with other participants at a similar point in their careers) often have the effect of causing someone to take changing their career more seriously as a possibility, whereas previously they had been engaging e.g. online in a fairly abstract or detached way.
 
@@ -244,7 +244,7 @@ Notably, unlike content, in our experience **programs and events can have a siza
 -   **Larger-scale AI risk-specific events featuring newcomers**, similar to EAG
 -   **Bay-Area based AI risk programming** for mid-career professionals
 
-# Who should be doing this work?{++{"author":"Luc's AI","timestamp":1788377257640}@@ ^who-should-be-doing-this-work++}
+# Who should be doing this work? ^who-should-be-doing-this-work
 
 The above makes the case for why you might think capacity-building work is valuable, but doesn’t in itself provide a point of comparison for what someone could be doing otherwise, (namely direct work, which itself could have its own capacity-building benefits, e.g. by creating evidence that there’s important work to be done in an area).
 
@@ -280,7 +280,7 @@ I think Kairos has a very strong leadership team and important, neglected priori
 
 ## Starting or running your own capacity-building project or organization
 
-Our team is always [accepting applications](https://op-gcrcb-general-form.paperform.co/) for funding. {--{"author":"Luc's AI","timestamp":1788377257640}@@[This--}{++{"author":"Luc's AI","timestamp":1788377257640}@@[[#^what-tends-to-work|This++} section {--{"author":"Luc's AI","timestamp":1788377257640}@@above](#what-tends-to-work)--}{++{"author":"Luc's AI","timestamp":1788377257640}@@above]]++} as well as our [request for proposals](https://coefficientgiving.org/funds/navigating-transformative-ai/funding-for-work-that-builds-capacity-to-address-risks-from-transformative-ai/) describes some kinds of projects in AI capacity-building that we might be particularly excited to fund, but I also encourage people to form their own views about what might be effective and not anchor too strongly to past work.
+Our team is always [accepting applications](https://op-gcrcb-general-form.paperform.co/) for funding. [[#^what-tends-to-work|This section above]] as well as our [request for proposals](https://coefficientgiving.org/funds/navigating-transformative-ai/funding-for-work-that-builds-capacity-to-address-risks-from-transformative-ai/) describes some kinds of projects in AI capacity-building that we might be particularly excited to fund, but I also encourage people to form their own views about what might be effective and not anchor too strongly to past work.
 
 ## Working on a capacity-building project part-time
 
@@ -292,7 +292,7 @@ We’ve seen a lot of successful capacity-building work start or run completely 
 
 If you think you might be interested or a good fit for this kind of work, but aren’t sure where to start, **we would love it if you let us know by filling out this very short** [**expression of interest form**](https://forms.gle/1uyCUvMYBiubh3RT9)**.** We’ll reach out if there are projects or opportunities on our radar that we think might be a particularly good fit for you. (Note that we don’t expect to reach out to most respondents).
 
-# Social proof{++{"author":"Luc's AI","timestamp":1788377257640}@@ ^social-proof++}
+# Social proof ^social-proof
 
 This post is coming from my personal perspective, but my sense is my position here is directionally shared by at least some at CG and elsewhere in the AI safety space. I asked a few people who were not working on capacity-building, but I felt had substantial context on capacity-building efforts, to share their takes below:
 
@@ -336,7 +336,7 @@ Maybe something is like-- I think MATS and Redwood represented two different kin
 
 ---
 
-# Appendix{++{"author":"Luc's AI","timestamp":1788377257640}@@ ^appendix++}
+# Appendix ^appendix
 
 My post in large part focuses on the case for successes from capacity-building, but I do think there are a number of mechanisms through which work in the capacity-building category can do harm, e.g. by misrepresenting key ideas to broad audiences, alienating people who would otherwise have been sympathetic to this work, or empowering individuals who ultimately make the ecosystem worse. While I think these effects are real and material, **my overall view is that the negative impacts in the space have likely been substantially outweighed by the positives, and my expectation is that most efforts in this space executed by thoughtful, high-context individuals will be very positive in expectation**, such that I feel good about publishing broad encouragement to pursue this work on the current margin.
 

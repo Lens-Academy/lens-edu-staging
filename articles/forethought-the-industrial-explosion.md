@@ -200,7 +200,7 @@ We’re uncertain about how large these uplifts might be, but it looks like – 
 
 As the industrial explosion transitions from AI-directed human labour to increasing and eventually full automation of physical labour, we can start to operationalise the speed of the industrial explosion in terms of robot doubling times: the time it takes to double the number of robots (and other types of physical actuators) in the world.[^note-forethought-industrial-ft-15]
 
-The most recent doubling in the number of robots in the world took [6 years](https://ifr.org/ifr-press-releases/news/record-of-4-million-robots-working-in-factories-worldwide). It’s hard to say how quickly self-replicating robots could double in number, but in {--{"author":"Luc's AI","timestamp":1788377370462}@@[an appendix](#how-fast-could-robot-doubling-times-be-initially)--}{++{"author":"Luc's AI","timestamp":1788377370462}@@[[#^how-fast-could-robot-doubling-times-be-initially|an appendix]]++} we use a couple of approaches to tentatively estimate that with current physical technology (but abundant AI cognitive labour) this might be on the order of a year, rather than a month or a decade. It could be faster still if AI can quickly drive rapid technological progress without an industrial explosion happening first (for example, by quickly developing advanced nanotechnology).
+The most recent doubling in the number of robots in the world took [6 years](https://ifr.org/ifr-press-releases/news/record-of-4-million-robots-working-in-factories-worldwide). It’s hard to say how quickly self-replicating robots could double in number, but in [[#^how-fast-could-robot-doubling-times-be-initially|an appendix]] we use a couple of approaches to tentatively estimate that with current physical technology (but abundant AI cognitive labour) this might be on the order of a year, rather than a month or a decade. It could be faster still if AI can quickly drive rapid technological progress without an industrial explosion happening first (for example, by quickly developing advanced nanotechnology).
 
 ### Acceleration ^acceleration
 
@@ -343,13 +343,13 @@ This calculation has three steps:
 3.  How much will this scale-up reduce the doubling time, based on experience curves for cost vs production?
     
 
-**Step 1.** {--{"author":"Luc's AI","timestamp":1788377371088}@@[Above](#how-fast-could-robot-doubling-times-be-initially),--}{++{"author":"Luc's AI","timestamp":1788377371088}@@[[#^how-fast-could-robot-doubling-times-be-initially|Above]],++} we estimated that with current physical technology and abundant AI cognitive labour, robot doubling times might be about **one year**.
+**Step 1.** [[#^how-fast-could-robot-doubling-times-be-initially|Above]], we estimated that with current physical technology and abundant AI cognitive labour, robot doubling times might be about **one year**.
 
 **Step 2.** Today fewer than 100,000 humanoid robots have been produced.[^cite-forethought-industrial-ft-29] We expect that the earth’s robot carrying capacity will be constrained by energy not by raw materials.[^note-forethought-industrial-ft-30] Solar energy hitting the earth is [2e17 W](https://bionumbers.hms.harvard.edu/bionumber.aspx?id=100943&ver=3), whereas the human body uses [100W](https://hypertextbook.com/facts/2003/WeiLiangMok.shtml). If 5% of solar energy is used to run humanoid robots with efficiency matching humans, you could run 1e16/100 = 1e14 humanoid robots.
 
 That’s a scale up of robot production of 9 orders of magnitude (1e14/1e5 = 1e9).
 
-**Step 3.** {--{"author":"Luc's AI","timestamp":1788377371338}@@[Above](#acceleration)--}{++{"author":"Luc's AI","timestamp":1788377371338}@@[[#^acceleration|Above]]++} we estimated that we might have to scale up robot production by 1-5 orders of magnitude to reduce the doubling time by one order of magnitude.
+**Step 3.** [[#^acceleration|Above]] we estimated that we might have to scale up robot production by 1-5 orders of magnitude to reduce the doubling time by one order of magnitude.
 
 Conservative calculation: robot doubling times fall by 9 / 5 = ~2 orders of magnitude to **a few days**.
 

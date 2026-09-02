@@ -1138,7 +1138,7 @@ Since AI catastrophic risk is a new challenge, albeit one that has been the subj
     
     Also, as AIs gain more power and autonomy, they might develop a drive for “self-preservation.” This would make them resistant to shutdown attempts and could allow them to anticipate and circumvent our attempts at control.
     
-    Lastly, while there are ways to deactivate individual AIs—and some will become harder and harder to deactivate—there is simply not an off-switch for AI development, which is why we propose a symmetric international off-switch in {--{"author":"Luc's AI","timestamp":1788377303867}@@[Section--}{++{"author":"Luc's AI","timestamp":1788377303867}@@[[#^55-suggestions|Section++} {--{"author":"Luc's AI","timestamp":1788377303867}@@5.5](#S5.SS5 "5.5 Suggestions ‣ 5 Rogue AIs ‣ An Overview of Catastrophic AI Risks").--}{++{"author":"Luc's AI","timestamp":1788377303867}@@5.5]].++} Overall, given all these challenges, it’s critical that we address potential AI risks proactively and put robust safeguards in place well before these problems arise.
+    Lastly, while there are ways to deactivate individual AIs—and some will become harder and harder to deactivate—there is simply not an off-switch for AI development, which is why we propose a symmetric international off-switch in [[#^55-suggestions|Section 5.5]]. Overall, given all these challenges, it’s critical that we address potential AI risks proactively and put robust safeguards in place well before these problems arise.
     
 3.  3.
     

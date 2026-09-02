@@ -20,19 +20,19 @@ Add discussion note here:
 
 26th March 2025
 
-{--{"author":"Luc's AI","timestamp":1788377373369}@@[Summary](#summary)--}{++{"author":"Luc's AI","timestamp":1788377373369}@@[[#^summary|Summary]]++}
+[[#^summary|Summary]]
 
-{--{"author":"Luc's AI","timestamp":1788377373748}@@[Key Points](#key-points)--}{++{"author":"Luc's AI","timestamp":1788377373748}@@[[#^key-points|Key Points]]++}
+[[#^key-points|Key Points]]
 
-{--{"author":"Luc's AI","timestamp":1788377374064}@@[Introduction](#introduction)--}{++{"author":"Luc's AI","timestamp":1788377374064}@@[[#^introduction|Introduction]]++}
+[[#^introduction|Introduction]]
 
-{--{"author":"Luc's AI","timestamp":1788377374337}@@[Where--}{++{"author":"Luc's AI","timestamp":1788377374337}@@[[#^where-ai-progress-comes-from|Where++} AI progress comes {--{"author":"Luc's AI","timestamp":1788377374337}@@from](#where-ai-progress-comes-from)--}{++{"author":"Luc's AI","timestamp":1788377374337}@@from]]++}
+[[#^where-ai-progress-comes-from|Where AI progress comes from]]
 
 [[#^improvements-in-ai-software-are-already-driving-fast-ai-progress|Improvements in AI software are already driving fast AI progress]]
 
 [[#^ai-progress-will-likely-speed-up-as-we-approach-asara|AI progress will likely speed up as we approach ASARA]]
 
-{--{"author":"Luc's AI","timestamp":1788377375394}@@[What--}{++{"author":"Luc's AI","timestamp":1788377375394}@@[[#^what-happens-when-we-reach-asara|What++} happens when we reach {--{"author":"Luc's AI","timestamp":1788377375394}@@ASARA?](#what-happens-when-we-reach-asara)--}{++{"author":"Luc's AI","timestamp":1788377375394}@@ASARA?]]++}
+[[#^what-happens-when-we-reach-asara|What happens when we reach ASARA?]]
 
 [[#^a-toy-model-to-demonstrate-the-dynamics-of-a-software-intelligence-explosion|A toy model to demonstrate the dynamics of a software intelligence explosion]]
 
@@ -44,13 +44,13 @@ Add discussion note here:
 
 [[#^progress-might-become-bottlenecked-by-the-time-required-to-train-new-ai-systems|Progress might become bottlenecked by the time required to train new AI systems]]
 
-{--{"author":"Luc's AI","timestamp":1788377377373}@@[Bringing--}{++{"author":"Luc's AI","timestamp":1788377377373}@@[[#^bringing-it-all-together|Bringing++} it all {--{"author":"Luc's AI","timestamp":1788377377373}@@together](#bringing-it-all-together)--}{++{"author":"Luc's AI","timestamp":1788377377373}@@together]]++}
+[[#^bringing-it-all-together|Bringing it all together]]
 
-{--{"author":"Luc's AI","timestamp":1788377377630}@@[What--}{++{"author":"Luc's AI","timestamp":1788377377630}@@[[#^what-can-we-do-if-an-sie-is-possible|What++} can we do if an SIE is {--{"author":"Luc's AI","timestamp":1788377377630}@@possible?](#what-can-we-do-if-an-sie-is-possible)--}{++{"author":"Luc's AI","timestamp":1788377377630}@@possible?]]++}
+[[#^what-can-we-do-if-an-sie-is-possible|What can we do if an SIE is possible?]]
 
-{--{"author":"Luc's AI","timestamp":1788377377982}@@[References](#references)--}{++{"author":"Luc's AI","timestamp":1788377377982}@@[[#^references|References]]++}
+[[#^references|References]]
 
-{--{"author":"Luc's AI","timestamp":1788377378294}@@[Appendix:--}{++{"author":"Luc's AI","timestamp":1788377378294}@@[[#^appendix-justification-for-our-formulation-of-r|Appendix:++} Justification for our formulation of {--{"author":"Luc's AI","timestamp":1788377378294}@@r](#appendix-justification-for-our-formulation-of-r)--}{++{"author":"Luc's AI","timestamp":1788377378294}@@r]]++}
+[[#^appendix-justification-for-our-formulation-of-r|Appendix: Justification for our formulation of r]]
 
 Empirical evidence suggests that, if AI automates AI research, feedback loops could overcome diminishing returns, significantly accelerating AI progress
 

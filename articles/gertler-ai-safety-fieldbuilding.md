@@ -20,27 +20,27 @@ Add discussion note here:
 
 Table of Contents
 
--   {--{"author":"Luc's AI","timestamp":1788377385934}@@[1--}{++{"author":"Luc's AI","timestamp":1788377385934}@@[[#^what-do-fieldbuilders-work-on|1++} What do fieldbuilders work {--{"author":"Luc's AI","timestamp":1788377385934}@@on?](#what-do-fieldbuilders-work-on)--}{++{"author":"Luc's AI","timestamp":1788377385934}@@on?]]++}
+-   [[#^what-do-fieldbuilders-work-on|1 What do fieldbuilders work on?]]
 -   [[#^why-ai-safety-fieldbuilding-can-be-highly-impactful|2 Why AI safety fieldbuilding can be highly impactful]]
-    -   {--{"author":"Luc's AI","timestamp":1788377386390}@@[2.1--}{++{"author":"Luc's AI","timestamp":1788377386390}@@[[#^fieldbuilding-works|2.1++} Fieldbuilding {--{"author":"Luc's AI","timestamp":1788377386390}@@works](#fieldbuilding-works)--}{++{"author":"Luc's AI","timestamp":1788377386390}@@works]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377386625}@@[2.2--}{++{"author":"Luc's AI","timestamp":1788377386625}@@[[#^ai-safety-needs-more-skilled-people|2.2++} AI safety needs more skilled {--{"author":"Luc's AI","timestamp":1788377386625}@@people](#ai-safety-needs-more-skilled-people)--}{++{"author":"Luc's AI","timestamp":1788377386625}@@people]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377386860}@@[2.3--}{++{"author":"Luc's AI","timestamp":1788377386860}@@[[#^the-work-is-highly-neglected|2.3++} The work is highly {--{"author":"Luc's AI","timestamp":1788377386860}@@neglected](#the-work-is-highly-neglected)--}{++{"author":"Luc's AI","timestamp":1788377386860}@@neglected]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377387128}@@[2.4--}{++{"author":"Luc's AI","timestamp":1788377387128}@@[[#^helping-others-lets-you-multiply-your-impact|2.4++} Helping others lets you multiply your {--{"author":"Luc's AI","timestamp":1788377387128}@@impact](#helping-others-lets-you-multiply-your-impact)--}{++{"author":"Luc's AI","timestamp":1788377387128}@@impact]]++}
--   {--{"author":"Luc's AI","timestamp":1788377387366}@@[3--}{++{"author":"Luc's AI","timestamp":1788377387366}@@[[#^potential-downsides-to-working-on-fieldbuilding|3++} Potential downsides to working on {--{"author":"Luc's AI","timestamp":1788377387366}@@fieldbuilding](#potential-downsides-to-working-on-fieldbuilding)--}{++{"author":"Luc's AI","timestamp":1788377387366}@@fieldbuilding]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377387618}@@[3.1--}{++{"author":"Luc's AI","timestamp":1788377387618}@@[[#^career-capital-may-be-lower|3.1++} Career capital may be {--{"author":"Luc's AI","timestamp":1788377387618}@@lower](#career-capital-may-be-lower)--}{++{"author":"Luc's AI","timestamp":1788377387618}@@lower]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377387857}@@[3.2--}{++{"author":"Luc's AI","timestamp":1788377387857}@@[[#^the-career-path-isnt-as-clear|3.2++} The ‘career path’ isn’t as {--{"author":"Luc's AI","timestamp":1788377387857}@@clear](#the-career-path-isnt-as-clear)--}{++{"author":"Luc's AI","timestamp":1788377387857}@@clear]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377388092}@@[3.3--}{++{"author":"Luc's AI","timestamp":1788377388092}@@[[#^technical-work-often-pays-better|3.3++} Technical work often pays {--{"author":"Luc's AI","timestamp":1788377388092}@@better](#technical-work-often-pays-better)--}{++{"author":"Luc's AI","timestamp":1788377388092}@@better]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377388388}@@[3.4--}{++{"author":"Luc's AI","timestamp":1788377388388}@@[[#^direct-work-can-also-grow-capacity|3.4++} Direct work can also grow {--{"author":"Luc's AI","timestamp":1788377388388}@@capacity](#direct-work-can-also-grow-capacity)--}{++{"author":"Luc's AI","timestamp":1788377388388}@@capacity]]++}
--   {--{"author":"Luc's AI","timestamp":1788377388657}@@[4--}{++{"author":"Luc's AI","timestamp":1788377388657}@@[[#^how-can-fieldbuilding-backfire|4++} How can fieldbuilding {--{"author":"Luc's AI","timestamp":1788377388657}@@backfire?](#how-can-fieldbuilding-backfire)--}{++{"author":"Luc's AI","timestamp":1788377388657}@@backfire?]]++}
--   {--{"author":"Luc's AI","timestamp":1788377388896}@@[5--}{++{"author":"Luc's AI","timestamp":1788377388896}@@[[#^could-you-be-a-good-fit|5++} Could you be a good {--{"author":"Luc's AI","timestamp":1788377388896}@@fit?](#could-you-be-a-good-fit)--}{++{"author":"Luc's AI","timestamp":1788377388896}@@fit?]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377389132}@@[5.1--}{++{"author":"Luc's AI","timestamp":1788377389132}@@[[#^skills-that-will-help-you-succeed|5.1++} Skills that will help you {--{"author":"Luc's AI","timestamp":1788377389132}@@succeed](#skills-that-will-help-you-succeed)--}{++{"author":"Luc's AI","timestamp":1788377389132}@@succeed]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377389369}@@[5.2--}{++{"author":"Luc's AI","timestamp":1788377389369}@@[[#^promising-professional-backgrounds|5.2++} Promising professional {--{"author":"Luc's AI","timestamp":1788377389369}@@backgrounds](#promising-professional-backgrounds)--}{++{"author":"Luc's AI","timestamp":1788377389369}@@backgrounds]]++}
--   {--{"author":"Luc's AI","timestamp":1788377389606}@@[6--}{++{"author":"Luc's AI","timestamp":1788377389606}@@[[#^how-to-get-started|6++} How to get {--{"author":"Luc's AI","timestamp":1788377389606}@@started](#how-to-get-started)--}{++{"author":"Luc's AI","timestamp":1788377389606}@@started]]++}
--   {--{"author":"Luc's AI","timestamp":1788377389833}@@[7--}{++{"author":"Luc's AI","timestamp":1788377389833}@@[[#^find-jobs-in-ai-safety-fieldbuilding|7++} Find jobs in AI safety {--{"author":"Luc's AI","timestamp":1788377389833}@@fieldbuilding](#find-jobs-in-ai-safety-fieldbuilding)--}{++{"author":"Luc's AI","timestamp":1788377389833}@@fieldbuilding]]++}
--   {--{"author":"Luc's AI","timestamp":1788377390071}@@[8--}{++{"author":"Luc's AI","timestamp":1788377390071}@@[[#^learn-more|8++} Learn {--{"author":"Luc's AI","timestamp":1788377390071}@@more](#learn-more)--}{++{"author":"Luc's AI","timestamp":1788377390071}@@more]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377390307}@@[8.1--}{++{"author":"Luc's AI","timestamp":1788377390307}@@[[#^top-recommendations|8.1++} Top {--{"author":"Luc's AI","timestamp":1788377390307}@@recommendations](#top-recommendations)--}{++{"author":"Luc's AI","timestamp":1788377390307}@@recommendations]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377390545}@@[8.2--}{++{"author":"Luc's AI","timestamp":1788377390545}@@[[#^further-recommendations|8.2++} Further {--{"author":"Luc's AI","timestamp":1788377390545}@@recommendations](#further-recommendations)--}{++{"author":"Luc's AI","timestamp":1788377390545}@@recommendations]]++}
--   {--{"author":"Luc's AI","timestamp":1788377390770}@@[9 Acknowledgements](#acknowledgements)--}{++{"author":"Luc's AI","timestamp":1788377390770}@@[[#^acknowledgements|9 Acknowledgements]]++}
+    -   [[#^fieldbuilding-works|2.1 Fieldbuilding works]]
+    -   [[#^ai-safety-needs-more-skilled-people|2.2 AI safety needs more skilled people]]
+    -   [[#^the-work-is-highly-neglected|2.3 The work is highly neglected]]
+    -   [[#^helping-others-lets-you-multiply-your-impact|2.4 Helping others lets you multiply your impact]]
+-   [[#^potential-downsides-to-working-on-fieldbuilding|3 Potential downsides to working on fieldbuilding]]
+    -   [[#^career-capital-may-be-lower|3.1 Career capital may be lower]]
+    -   [[#^the-career-path-isnt-as-clear|3.2 The ‘career path’ isn’t as clear]]
+    -   [[#^technical-work-often-pays-better|3.3 Technical work often pays better]]
+    -   [[#^direct-work-can-also-grow-capacity|3.4 Direct work can also grow capacity]]
+-   [[#^how-can-fieldbuilding-backfire|4 How can fieldbuilding backfire?]]
+-   [[#^could-you-be-a-good-fit|5 Could you be a good fit?]]
+    -   [[#^skills-that-will-help-you-succeed|5.1 Skills that will help you succeed]]
+    -   [[#^promising-professional-backgrounds|5.2 Promising professional backgrounds]]
+-   [[#^how-to-get-started|6 How to get started]]
+-   [[#^find-jobs-in-ai-safety-fieldbuilding|7 Find jobs in AI safety fieldbuilding]]
+-   [[#^learn-more|8 Learn more]]
+    -   [[#^top-recommendations|8.1 Top recommendations]]
+    -   [[#^further-recommendations|8.2 Further recommendations]]
+-   [[#^acknowledgements|9 Acknowledgements]]
 
 In 2017, there were only a few dozen people working full time to reduce [risks from advanced AI](https://80000hours.org/problem-profiles/artificial-intelligence/). By 2025, there were over a thousand.[1](#fn-1 "Our estimates come from Stephen McAleese ([2022](https://forum.effectivealtruism.org/posts/3gmkrj3khJHndYGNe/estimating-the-current-and-future-number-of-ai-safety), [2025](https://forum.effectivealtruism.org/posts/7YDyziQxkWxbGmF3u/ai-safety-field-growth-analysis-2025)) and Benjamin Todd ([2017](https://x.com/ben_j_todd/status/1489985969931624451)).
 ")

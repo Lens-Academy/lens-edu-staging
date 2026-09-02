@@ -35,11 +35,11 @@ This is one of many profiles we've written to help people find the most pressing
 Table of Contents
 
 -   [[#^why-might-gradual-disempowerment-be-an-especially-pressing-problem|1 Why might gradual disempowerment be an especially pressing problem?]]
--   {--{"author":"Luc's AI","timestamp":1788377356992}@@[2--}{++{"author":"Luc's AI","timestamp":1788377356992}@@[[#^how-pressing-is-this-issue|2++} How pressing is this {--{"author":"Luc's AI","timestamp":1788377356992}@@issue?](#how-pressing-is-this-issue)--}{++{"author":"Luc's AI","timestamp":1788377356992}@@issue?]]++}
+-   [[#^how-pressing-is-this-issue|2 How pressing is this issue?]]
 -   [[#^what-are-the-arguments-against-this-being-a-pressing-problem|3 What are the arguments against this being a pressing problem?]]
--   {--{"author":"Luc's AI","timestamp":1788377357469}@@[4--}{++{"author":"Luc's AI","timestamp":1788377357469}@@[[#^what-can-you-do-to-help|4++} What can you do to {--{"author":"Luc's AI","timestamp":1788377357469}@@help?](#what-can-you-do-to-help)--}{++{"author":"Luc's AI","timestamp":1788377357469}@@help?]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377357713}@@[4.1--}{++{"author":"Luc's AI","timestamp":1788377357713}@@[[#^key-organisations-in-this-space|4.1++} Key organisations in this {--{"author":"Luc's AI","timestamp":1788377357713}@@space](#key-organisations-in-this-space)--}{++{"author":"Luc's AI","timestamp":1788377357713}@@space]]++}
--   {--{"author":"Luc's AI","timestamp":1788377357939}@@[5--}{++{"author":"Luc's AI","timestamp":1788377357939}@@[[#^learn-more|5++} Learn {--{"author":"Luc's AI","timestamp":1788377357939}@@more](#learn-more)--}{++{"author":"Luc's AI","timestamp":1788377357939}@@more]]++}
+-   [[#^what-can-you-do-to-help|4 What can you do to help?]]
+    -   [[#^key-organisations-in-this-space|4.1 Key organisations in this space]]
+-   [[#^learn-more|5 Learn more]]
 
 ## Why might gradual disempowerment be an especially pressing problem? ^why-might-gradual-disempowerment-be-an-especially-pressing-problem
 

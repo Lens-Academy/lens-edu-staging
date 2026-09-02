@@ -37,20 +37,20 @@ Grounded in the US Office of the Whistleblower Ombuds’ Best Practice Whistlebl
 
 Contents +
 
--   {--{"author":"Luc's AI","timestamp":1788377297444}@@[Introduction](#introduction)--}{++{"author":"Luc's AI","timestamp":1788377297444}@@[[#^introduction|Introduction]]++}
+-   [[#^introduction|Introduction]]
 -   Recommendations
-    -   {--{"author":"Luc's AI","timestamp":1788377297691}@@[Scope--}{++{"author":"Luc's AI","timestamp":1788377297691}@@[[#^scope-of-protected-disclosures|Scope++} of Protected {--{"author":"Luc's AI","timestamp":1788377297691}@@Disclosures](#scope-of-protected-disclosures)--}{++{"author":"Luc's AI","timestamp":1788377297691}@@Disclosures]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377297928}@@[Protected Individuals](#protected-individuals)--}{++{"author":"Luc's AI","timestamp":1788377297928}@@[[#^protected-individuals|Protected Individuals]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377298240}@@[Retaliation Protection](#retaliation-protection)--}{++{"author":"Luc's AI","timestamp":1788377298240}@@[[#^retaliation-protection|Retaliation Protection]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377298641}@@[Disclosure Channels](#disclosure-channels)--}{++{"author":"Luc's AI","timestamp":1788377298641}@@[[#^disclosure-channels|Disclosure Channels]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377298927}@@[Remedies](#remedies)--}{++{"author":"Luc's AI","timestamp":1788377298927}@@[[#^remedies|Remedies]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377299177}@@[Employee--}{++{"author":"Luc's AI","timestamp":1788377299177}@@[[#^employee-notice-requirements|Employee++} Notice {--{"author":"Luc's AI","timestamp":1788377299177}@@Requirements](#employee-notice-requirements)--}{++{"author":"Luc's AI","timestamp":1788377299177}@@Requirements]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377299439}@@[Agency Requirements](#agency-requirements)--}{++{"author":"Luc's AI","timestamp":1788377299439}@@[[#^agency-requirements|Agency Requirements]]++}
--   {--{"author":"Luc's AI","timestamp":1788377299687}@@[About--}{++{"author":"Luc's AI","timestamp":1788377299687}@@[[#^about-the-ai-whistleblower-initiative-aiwi|About++} the AI Whistleblower Initiative {--{"author":"Luc's AI","timestamp":1788377299687}@@(AIWI)](#about-the-ai-whistleblower-initiative-aiwi)--}{++{"author":"Luc's AI","timestamp":1788377299687}@@(AIWI)]]++}
+    -   [[#^scope-of-protected-disclosures|Scope of Protected Disclosures]]
+    -   [[#^protected-individuals|Protected Individuals]]
+    -   [[#^retaliation-protection|Retaliation Protection]]
+    -   [[#^disclosure-channels|Disclosure Channels]]
+    -   [[#^remedies|Remedies]]
+    -   [[#^employee-notice-requirements|Employee Notice Requirements]]
+    -   [[#^agency-requirements|Agency Requirements]]
+-   [[#^about-the-ai-whistleblower-initiative-aiwi|About the AI Whistleblower Initiative (AIWI)]]
 -   About the Center for AI Risk Management & Alignment (CARMA)
 -   About the Authors
-    -   {--{"author":"Luc's AI","timestamp":1788377300018}@@[Abra Ganz](#abra-ganz)--}{++{"author":"Luc's AI","timestamp":1788377300018}@@[[#^abra-ganz|Abra Ganz]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377300256}@@[Karl Koch](#karl-koch)--}{++{"author":"Luc's AI","timestamp":1788377300256}@@[[#^karl-koch|Karl Koch]]++}
+    -   [[#^abra-ganz|Abra Ganz]]
+    -   [[#^karl-koch|Karl Koch]]
 
 ## Introduction ^introduction
 

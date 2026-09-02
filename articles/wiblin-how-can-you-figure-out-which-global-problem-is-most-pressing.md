@@ -42,34 +42,34 @@ This framework is just one tool we use to compare different global problems, and
 
 Table of Contents
 
--   {--{"author":"Luc's AI","timestamp":1788377201134}@@[1--}{++{"author":"Luc's AI","timestamp":1788377201134}@@[[#^introducing-factors|1++} Introducing how we define the {--{"author":"Luc's AI","timestamp":1788377201134}@@factors](#introducing-how-we-define-the-factors)--}{++{"author":"Luc's AI","timestamp":1788377201134}@@factors]]++}
--   {--{"author":"Luc's AI","timestamp":1788377201427}@@[2--}{++{"author":"Luc's AI","timestamp":1788377201427}@@[[#^defining-problem|2++} Defining a problem {--{"author":"Luc's AI","timestamp":1788377201427}@@carefully](#defining-a-problem-carefully)--}{++{"author":"Luc's AI","timestamp":1788377201427}@@carefully]]++}
--   {--{"author":"Luc's AI","timestamp":1788377201726}@@[3--}{++{"author":"Luc's AI","timestamp":1788377201726}@@[[#^logarithmic-scale|3++} Creating a (logarithmic) {--{"author":"Luc's AI","timestamp":1788377201726}@@scale](#creating-a-logarithmic-scale)--}{++{"author":"Luc's AI","timestamp":1788377201726}@@scale]]++}
--   {--{"author":"Luc's AI","timestamp":1788377202015}@@[4--}{++{"author":"Luc's AI","timestamp":1788377202015}@@[[#^assess-scale|4++} How to assess {--{"author":"Luc's AI","timestamp":1788377202015}@@scale](#how-to-assess-scale)--}{++{"author":"Luc's AI","timestamp":1788377202015}@@scale]]++}
--   {--{"author":"Luc's AI","timestamp":1788377202271}@@[5--}{++{"author":"Luc's AI","timestamp":1788377202271}@@[[#^assess-neglectedness|5++} How to assess how neglected a problem {--{"author":"Luc's AI","timestamp":1788377202271}@@is](#how-to-assess-how-neglected-a-problem-is)--}{++{"author":"Luc's AI","timestamp":1788377202271}@@is]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377202569}@@[5.1 Definition](#definition-2)--}{++{"author":"Luc's AI","timestamp":1788377202569}@@[[#^neglectedness-definition|5.1 Definition]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377202859}@@[5.2--}{++{"author":"Luc's AI","timestamp":1788377202859}@@[[#^neglectedness-importance|5.2++} Why is it {--{"author":"Luc's AI","timestamp":1788377202859}@@important?](#why-is-it-important)--}{++{"author":"Luc's AI","timestamp":1788377202859}@@important?]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377203157}@@[5.3--}{++{"author":"Luc's AI","timestamp":1788377203157}@@[[#^neglectedness-assessment|5.3++} How to assess {--{"author":"Luc's AI","timestamp":1788377203157}@@it](#how-to-assess-it-2)--}{++{"author":"Luc's AI","timestamp":1788377203157}@@it]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377203438}@@[5.4--}{++{"author":"Luc's AI","timestamp":1788377203438}@@[[#^direct-indirect-future-effort|5.4++} A challenge – direct vs. indirect & future {--{"author":"Luc's AI","timestamp":1788377203438}@@effort](#a-challenge-direct-vs-indirect-future-effort)--}{++{"author":"Luc's AI","timestamp":1788377203438}@@effort]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377203717}@@[5.5--}{++{"author":"Luc's AI","timestamp":1788377203717}@@[[#^neglectedness-tips|5.5++} More tips on how to {--{"author":"Luc's AI","timestamp":1788377203717}@@assess](#more-tips-on-how-to-assess)--}{++{"author":"Luc's AI","timestamp":1788377203717}@@assess]]++}
--   {--{"author":"Luc's AI","timestamp":1788377203994}@@[6--}{++{"author":"Luc's AI","timestamp":1788377203994}@@[[#^assess-solvability|6++} How to assess how solvable a problem {--{"author":"Luc's AI","timestamp":1788377203994}@@is](#how-to-assess-how-solvable-a-problem-is)--}{++{"author":"Luc's AI","timestamp":1788377203994}@@is]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377204300}@@[6.1 Definition](#definition-3)--}{++{"author":"Luc's AI","timestamp":1788377204300}@@[[#^solvability-definition|6.1 Definition]]++}
+-   [[#^introducing-factors|1 Introducing how we define the factors]]
+-   [[#^defining-problem|2 Defining a problem carefully]]
+-   [[#^logarithmic-scale|3 Creating a (logarithmic) scale]]
+-   [[#^assess-scale|4 How to assess scale]]
+-   [[#^assess-neglectedness|5 How to assess how neglected a problem is]]
+    -   [[#^neglectedness-definition|5.1 Definition]]
+    -   [[#^neglectedness-importance|5.2 Why is it important?]]
+    -   [[#^neglectedness-assessment|5.3 How to assess it]]
+    -   [[#^direct-indirect-future-effort|5.4 A challenge – direct vs. indirect & future effort]]
+    -   [[#^neglectedness-tips|5.5 More tips on how to assess]]
+-   [[#^assess-solvability|6 How to assess how solvable a problem is]]
+    -   [[#^solvability-definition|6.1 Definition]]
     -   [[#^solvability-importance|6.2 Why is it important?]]
     -   [[#^solvability-assessment|6.3 How to assess it]]
-    -   {--{"author":"Luc's AI","timestamp":1788377205233}@@[6.4--}{++{"author":"Luc's AI","timestamp":1788377205233}@@[[#^solvability-challenges|6.4++} Challenges in {--{"author":"Luc's AI","timestamp":1788377205233}@@assessment](#challenges-in-assessment)--}{++{"author":"Luc's AI","timestamp":1788377205233}@@assessment]]++}
--   {--{"author":"Luc's AI","timestamp":1788377205543}@@[7--}{++{"author":"Luc's AI","timestamp":1788377205543}@@[[#^summed-scores|7++} What do the summed scores {--{"author":"Luc's AI","timestamp":1788377205543}@@mean?](#what-do-the-summed-scores-mean)--}{++{"author":"Luc's AI","timestamp":1788377205543}@@mean?]]++}
--   {--{"author":"Luc's AI","timestamp":1788377205808}@@[8--}{++{"author":"Luc's AI","timestamp":1788377205808}@@[[#^personal-fit|8++} How to assess personal {--{"author":"Luc's AI","timestamp":1788377205808}@@fit](#how-to-assess-personal-fit)--}{++{"author":"Luc's AI","timestamp":1788377205808}@@fit]]++}
+    -   [[#^solvability-challenges|6.4 Challenges in assessment]]
+-   [[#^summed-scores|7 What do the summed scores mean?]]
+-   [[#^personal-fit|8 How to assess personal fit]]
     -   [[#^personal-fit-definition|8.1 Definition]]
-    -   {--{"author":"Luc's AI","timestamp":1788377206371}@@[8.2--}{++{"author":"Luc's AI","timestamp":1788377206371}@@[[#^personal-fit-assessment|8.2++} How can it be {--{"author":"Luc's AI","timestamp":1788377206371}@@assessed?](#how-can-it-be-assessed)--}{++{"author":"Luc's AI","timestamp":1788377206371}@@assessed?]]++}
--   {--{"author":"Luc's AI","timestamp":1788377206633}@@[9--}{++{"author":"Luc's AI","timestamp":1788377206633}@@[[#^other-factors|9++} Other factors for comparing career {--{"author":"Luc's AI","timestamp":1788377206633}@@opportunities](#other-factors-for-comparing-career-opportunities)--}{++{"author":"Luc's AI","timestamp":1788377206633}@@opportunities]]++}
--   {--{"author":"Luc's AI","timestamp":1788377207016}@@[10--}{++{"author":"Luc's AI","timestamp":1788377207016}@@[[#^interpret-results|10++} How should we interpret the {--{"author":"Luc's AI","timestamp":1788377207016}@@results?](#how-should-we-interpret-the-results)--}{++{"author":"Luc's AI","timestamp":1788377207016}@@results?]]++}
+    -   [[#^personal-fit-assessment|8.2 How can it be assessed?]]
+-   [[#^other-factors|9 Other factors for comparing career opportunities]]
+-   [[#^interpret-results|10 How should we interpret the results?]]
 -   [[#^compare-cost-effectiveness|11 How does this approach compare with ordinary cost-effectiveness analysis?]]
 -   [[#^quantitative-prioritisation|12 Advantages and disadvantages of quantitative problem prioritisation]]
--   {--{"author":"Luc's AI","timestamp":1788377207837}@@[13--}{++{"author":"Luc's AI","timestamp":1788377207837}@@[[#^factor-coordination|13++} How to factor in {--{"author":"Luc's AI","timestamp":1788377207837}@@coordination?](#how-to-factor-in-coordination)--}{++{"author":"Luc's AI","timestamp":1788377207837}@@coordination?]]++}
--   {--{"author":"Luc's AI","timestamp":1788377208152}@@[14 Conclusion](#conclusion)--}{++{"author":"Luc's AI","timestamp":1788377208152}@@[[#^conclusion|14 Conclusion]]++}
-    -   {--{"author":"Luc's AI","timestamp":1788377208433}@@[14.1--}{++{"author":"Luc's AI","timestamp":1788377208433}@@[[#^help-pressing-problem|14.1++} Want to help solve a pressing {--{"author":"Luc's AI","timestamp":1788377208433}@@problem?](#want-to-help-solve-a-pressing-problem)--}{++{"author":"Luc's AI","timestamp":1788377208433}@@problem?]]++}
--   {--{"author":"Luc's AI","timestamp":1788377208688}@@[15--}{++{"author":"Luc's AI","timestamp":1788377208688}@@[[#^further-reading|15++} Further {--{"author":"Luc's AI","timestamp":1788377208688}@@reading](#further-reading)--}{++{"author":"Luc's AI","timestamp":1788377208688}@@reading]]++}
--   {--{"author":"Luc's AI","timestamp":1788377208944}@@[16--}{++{"author":"Luc's AI","timestamp":1788377208944}@@[[#^read-next|16++} Read {--{"author":"Luc's AI","timestamp":1788377208944}@@next](#read-next)--}{++{"author":"Luc's AI","timestamp":1788377208944}@@next]]++}
+-   [[#^factor-coordination|13 How to factor in coordination?]]
+-   [[#^conclusion|14 Conclusion]]
+    -   [[#^help-pressing-problem|14.1 Want to help solve a pressing problem?]]
+-   [[#^further-reading|15 Further reading]]
+-   [[#^read-next|16 Read next]]
 %% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
     -   [16.1 The case for reducing existential risks](https://80000hours.org/articles/problem-framework/#the-case-for-reducing-existential-risks)
 %% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
