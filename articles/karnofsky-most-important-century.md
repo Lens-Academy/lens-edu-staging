@@ -22,7 +22,7 @@ Add discussion note here:
 The "most important century" series of blog posts argues that **the 21st century could be the most important century ever for humanity,** via the development of advanced AI systems that could dramatically speed up scientific and technological advancement, getting us more quickly than most people imagine to a deeply unfamiliar future.
 
 You can get the **highlights from the series** via:
-* A [few-page summary (below)](#the-series-in-a-nutshell)
+* A [[#^the-series-in-a-nutshell|few-page summary (below)]]
 * Discussion of the series on [The Ezra Klein Show](https://www.nytimes.com/2021/10/05/podcasts/transcript-ezra-klein-interviews-holden-karnofsky.html) (NYT, 90 minutes) or [The 80,000 Hours podcast](https://80000hours.org/podcast/episodes/holden-karnofsky-most-important-century/) (2 hours)
 
 You can **read the whole series** as:
@@ -31,7 +31,7 @@ You can **read the whole series** as:
 * A single [printable pdf](https://www.cold-takes.com/assets/files/most-important-century-consolidated.pdf).
 * For Kindle, you can [buy a Kindle-formatted version for $0.99](https://smile.amazon.com/dp/B09GXJ4GJ3/) (the minimum price they let me set) or download [this AZW3 file](https://www.cold-takes.com/assets/files/most-important-century-kindle-file.azw3) for free (see [instructions](https://www.techwalla.com/articles/copy-azw-file-kindle) for putting this on your Kindle). There's also a [free ePub file](https://www.cold-takes.com/assets/files/most-important-century-ebook.epub) for other readers.
 
-## The series in a nutshell
+## The series in a nutshell ^the-series-in-a-nutshell
 
 I've spent most of my career looking for ways to do as much good as possible, per unit of money or time. I worked on finding evidence-backed charities working on global health and development (co-founding [GiveWell](https://www.givewell.org/)), and later moved into philanthropy that takes [more risks](https://www.openphilanthropy.org/blog/hits-based-giving) (co-founding [Open Philanthropy](https://www.openphilanthropy.org/)).
 

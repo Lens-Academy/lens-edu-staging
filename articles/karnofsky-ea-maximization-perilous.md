@@ -52,7 +52,7 @@ The upshot is that I think the core ideas of EA present constant temptations to 
 
 ![](https://res.cloudinary.com/cea/image/upload/v1673196955/mirroredImages/T975ydo3mx8onH3iS/b1fitveecxosw5eug08k.png)
 
-## How things would go if we were maximally “hard-core”
+## How things would go if we were maximally “hard-core” ^how-things-would-go-if-we-were-maximally-hard-core
 
 The general conceptual points behind my critique - “maximization is perilous unless you’re sure you have the right maximand” and “EA is centrally about maximizing something that we can’t define or measure and have massive disagreements about” - are hopefully reasonably clear and sufficiently explained above.
 
@@ -109,7 +109,7 @@ And I’m nervous about what I perceive as dynamics in some circles where people
 
 ## Brief appendix: spreading the goal of maximizing X can be bad for the goal of maximizing X
 
-There’s a potentially confusing interplay of arguments here. To some degree, I’m calling certain [potential dynamics](#how-things-would-go-if-we-were-maximally-hard-core) "pitfalls" because I think they would (in fact) be bad for most plausible EA maximands. You might think something like: “Either these dynamics would be bad for the right maximand, in which case you can’t complain that a maximizing mindset is the problem (since proper maximizing would avoid the pitfalls) … or they wouldn’t be bad for the right maximand, and maybe that means they’re just good.” I have a couple of responses to this:
+There’s a potentially confusing interplay of arguments here. To some degree, I’m calling certain {--{"author":"Luc's AI","timestamp":1788377502467}@@[potential dynamics](#how-things-would-go-if-we-were-maximally-hard-core)--}{++{"author":"Luc's AI","timestamp":1788377502467}@@[[#^how-things-would-go-if-we-were-maximally-hard-core|potential dynamics]]++} "pitfalls" because I think they would (in fact) be bad for most plausible EA maximands. You might think something like: “Either these dynamics would be bad for the right maximand, in which case you can’t complain that a maximizing mindset is the problem (since proper maximizing would avoid the pitfalls) … or they wouldn’t be bad for the right maximand, and maybe that means they’re just good.” I have a couple of responses to this:
 
 -   First, I think the “pitfalls” above are just _broadly bad and should give us pause._ The fact that a low-trust, bitterly divided EA community would probably be less effective is part of why I think it would be a bad thing, but only part of it. I think honesty is good partly because it seems usually instrumentally valuable, but I also think it’s just good, and would have some trouble being totally comfortable with any anti-honesty conclusion even if the reasoning seemed good.
 -   Second, I think you can simultaneously believe “X would be bad for the maximand we care about” and “Broadly promoting and accepting a goal of maximizing that maximand would cause X.” EA isn’t just a theoretical principle, it’s a set of ideas and messages that are intended to be broadly spread and shared. It’s not contradictory to believe that spreading a goal could be bad for the goal, and it seems like a live risk here.

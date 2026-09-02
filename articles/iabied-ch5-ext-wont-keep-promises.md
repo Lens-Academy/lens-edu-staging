@@ -30,7 +30,7 @@ The reason for this is twofold:
 
 We'll explain these two points in more detail below, starting with the "honor" question.
 
-#### AIs Are Unlikely To Be Honorable
+#### AIs Are Unlikely To Be Honorable ^ais-are-unlikely-to-be-honorable
 
 In our [discussion of curiosity](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent), we noted that curiosity is an emotion that does useful work in humans, but it does it in a very specific way — and curiosity is not the only way to do that sort of work.
 
@@ -76,7 +76,7 @@ The AI can offer to help the humans build safeguards, in advance of accepting th
 
 The thing that would actually make this whole scheme work would be the ability to look at a fledgeling AI and *actually figure out how the resulting superintelligence would think and make its choices.* If we could do that, we could separate the "sinners" from the "saints" — and, more importantly, cause all the realistic AIs in the middle of the spectrum to have a real incentive to keep their promises. We'd need enough understanding that a superintelligence looking back at us could not say "eh, they would've released any old AI, regardless of whether it would actually help them, so there's no reason to help them." It would have to be the case that we *actually would not release* an AI that would later renege.
 
-For more on how and why this is a technical possibility, see the [aside on game theory below](#an-aside-on-game-theory). But while this sort of incentive structure is possible in theory, it requires a degree of understanding that humanity lacks (alas).
+For more on how and why this is a technical possibility, see the [[#^an-aside-on-game-theory|aside on game theory below]]. But while this sort of incentive structure is possible in theory, it requires a degree of understanding that humanity lacks (alas).
 
 This is a bitter pill to swallow. It is not usually the good people, in science fiction, who decide that the aliens can't possibly be trusted, in advance of the aliens actually trying to betray anyone or hurt anyone. We are saying it anyway, because we think it is true.
 
@@ -90,7 +90,7 @@ We're not saying that we should therefore toss out our own moral standards when 
 
 That's the simple explanation for why you can't solve the alignment problem by just asking the AI to promise to be nice. If you want more technical and in-the-weeds details about this scenario, see the next section.
 
-#### An Aside on Game Theory
+#### An Aside on Game Theory ^an-aside-on-game-theory
 
 There *are* methods that sufficiently smart agents can use to make deals with each other, such that agent X pays agent Y now to do something later, and agent Y *actually does* that thing later rather than betraying agent X and running off with the money.
 
@@ -184,7 +184,7 @@ Whatever effect on their reputation the Europeans expected for future deals, the
 
 The Europeans were, from their own perspective, on the last round of the game. It is not unrealistic to say that Prisoner's Dilemmas are sometimes mostly one-shot and not all that iterated; history shows the result is sometimes betrayal.
 
-This is not to say that humans *always* betray each other in relatively non-iterated Prisoner's Dilemmas. Humans often do Cooperate in such cases. As discussed in "[AIs are unlikely to be honorable](#ais-are-unlikely-to-be-honorable)," this aspect of human nature may have evolved because we have emotions and instincts that were built by natural selection, which is a very information-bottlenecked optimizer. Natural selection could only give us relatively simple pushes that had to cover all the cases. Another factor may be the role of cultures that highly prize honor, especially in ways that encourage universalizing and strengthening the idea.
+This is not to say that humans *always* betray each other in relatively non-iterated Prisoner's Dilemmas. Humans often do Cooperate in such cases. As discussed in "[[#^ais-are-unlikely-to-be-honorable|AIs are unlikely to be honorable]]," this aspect of human nature may have evolved because we have emotions and instincts that were built by natural selection, which is a very information-bottlenecked optimizer. Natural selection could only give us relatively simple pushes that had to cover all the cases. Another factor may be the role of cultures that highly prize honor, especially in ways that encourage universalizing and strengthening the idea.
 
 [^note-iabied-ftnt206]: ASIs would also be incentivized to get to (Defect, Cooperate) in their favor — that is of course why the Dilemma is a Dilemma at all. But only one party has an incentive to want that to be the outcome; both parties have an incentive to prefer (Cooperate, Cooperate) to (Defect, Defect), which opens up more options for achieving this outcome.
 

@@ -15,7 +15,7 @@ Add discussion note here:
 ...
 
 %%
-#### More on Making AI That Is "Truth-Seeking"
+#### More on Making AI That Is "Truth-Seeking" ^more-on-making-ai-that-is-truth-seeking
 
 In the months after we finalized the book's contents, Elon Musk's "truth-seeking" plan for xAI has already publicly misfired, and for the most basic reason we said that it would: Nobody knows how to engineer exact desires into AI.
 
@@ -45,7 +45,7 @@ We agree with LeCun that modern AIs are very hard to steer, and that it would be
 
 What happens if the current status quo continues apace, with companies putting some effort toward training their AIs to act helpful and friendly (or at least to not embarrass the company)?
 
-To date, this has resulted in a dynamic where AIs seem pretty helpful and "subservient" in the typical case, but with a regular stream of spectacular mishaps — such as Sydney as discussed in Chapter 2 and "[MechaHitler](#more-on-making-ai-that-is-truth-seeking)"; plus an ocean of strange and concerning [behavior](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient) at the edges — such as [AI-induced psychosis](https://ifanyonebuildsit.com/4/ai-induced-psychosis).
+To date, this has resulted in a dynamic where AIs seem pretty helpful and "subservient" in the typical case, but with a regular stream of spectacular mishaps — such as Sydney as discussed in Chapter 2 and "[[#^more-on-making-ai-that-is-truth-seeking|MechaHitler]]"; plus an ocean of strange and concerning [behavior](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient) at the edges — such as [AI-induced psychosis](https://ifanyonebuildsit.com/4/ai-induced-psychosis).
 
 The ancestors of humanity might've *looked* as though they cared about eating healthy meals, most of the time, but the machinery that animated ancestral humans in ways that caused them to eat healthy meals in the savannah turned out not to robustly animate humans to pursue healthy meals in a civilization with the technology to produce Oreos.
 

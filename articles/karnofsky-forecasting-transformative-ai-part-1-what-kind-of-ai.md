@@ -44,9 +44,9 @@ To make this idea feel a bit more concrete, the rest of this post will discuss:
 
 Future pieces will discuss how soon we might expect something like PASTA to be developed.
 
-## Making PASTA
+## Making PASTA ^making-pasta
 
-I'll start with a very brief, simplified characterization of machine learning, which you can skip by clicking [here](#could-pasta-be-developed-via-machine-learning).
+I'll start with a very brief, simplified characterization of machine learning, which you can skip by clicking [[#^could-pasta-be-developed-via-machine-learning|here]].
 
 There are essentially two ways to "teach" a computer to do a task:
 
@@ -66,7 +66,7 @@ For example, [AlphaZero](https://en.wikipedia.org/wiki/AlphaZero) - an AI that h
 
 The latter approach is central for a lot of the recent progress in AI. This is especially true for tasks that are hard to “write down all the instructions” for. For example, humans are able to write down some reasonable guidelines for succeeding at chess, but we know very little about how we ourselves classify images (determine whether some image is of a dog, cat, or something else). So machine learning is particularly essential for tasks like classifying images.
 
-### Could PASTA be developed via machine learning?
+### Could PASTA be developed via machine learning? ^could-pasta-be-developed-via-machine-learning
 
 One obvious (but unrealistic) way of doing this might be something like this:
 
@@ -89,7 +89,7 @@ Developing PASTA will almost certainly be hugely harder and more expensive than 
 
 ## Impacts of PASTA
 
-### Explosive scientific and technological advancement
+### Explosive scientific and technological advancement ^explosive-scientific-and-technological-advancement
 
 I've previously talked about the idea of a potential [explosion in scientific and technological advancement](https://www.cold-takes.com/this-cant-go-on/#scientific-and-technological-advancement), which could lead to a [radically unfamiliar future](https://www.cold-takes.com/how-digital-people-could-change-the-world/).
 
@@ -113,7 +113,7 @@ Additionally: unlike digital copies of humans, PASTA systems might not be attach
 
 ### Misaligned AI: mysterious, potentially dangerous objectives
 
-If PASTA were developed as outlined [above](#making-pasta), it's possible that we might know *extremely* little about its inner workings.
+If PASTA were developed as outlined [[#^making-pasta|above]], it's possible that we might know *extremely* little about its inner workings.
 
 AlphaZero - like other modern deep learning systems - is in a sense very poorly understood. We know that it "works." But we don't really know "what it's thinking."
 
@@ -134,7 +134,7 @@ Or perhaps PASTA systems will end up with very weird, "random" objectives. Perha
 These are scary possibilities if we are talking about AI systems (or collections of systems) that may be more capable than humans in at least some domains.
 
 - PASTA systems might try to fool and defeat humans in order to achieve their goals.
-- They might succeed entirely, if they were able to outsmart and/or [outnumber](#explosive-scientific-and-technological-advancement) humans, hack critical systems, and/or develop more powerful weapons. (Just as humans have generally been able to defeat other animals to achieve our goals.)
+- They might succeed entirely, if they were able to outsmart and/or [[#^explosive-scientific-and-technological-advancement|outnumber]] humans, hack critical systems, and/or develop more powerful weapons. (Just as humans have generally been able to defeat other animals to achieve our goals.)
 - Or there might be conflict between different PASTA systems with different goals, perhaps partially (but not fully) controlled by humans with goals of their own. This could lead to general chaos and a hard-to-predict, possibly very bad long-run outcome.
 
 If you're interested in more discussion of whether an AI could or would have its own goals, I'd suggest checking out [Why AI alignment could be hard with modern deep learning](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/) (Cold Takes guest post), [Superintelligence (book)](https://smile.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom-ebook/dp/B00LOOCGB2/), [The case for taking AI seriously as a threat to humanity (Vox article)](https://www.vox.com/future-perfect/2018/12/21/18126576/ai-artificial-intelligence-machine-learning-safety-alignment), [Draft report on existential risk from power-seeking AI (Open Philanthropy analysis)](https://www.alignmentforum.org/posts/HduCjmXTBD4xYTegv/draft-report-on-existential-risk-from-power-seeking-ai) or one of the many other pieces on this topic.[^note-karnofsky-10]
