@@ -35,12 +35,12 @@ That is where this tutorial comes in. We aim to distil the essence of singular l
 
 **Contents.**  Specifically, the tutorial comprises the following four technical sections, each with definitions and guided exercises.
 
-1. "[[#1. Preliminaries|Section 1]]" reviews core deep learning concepts, defining our notation and some running examples. The central concept is that of the parameter–function map.
-2. "[[#2. What is degeneracy?|Section 2]]" defines degeneracy of parameter–function maps and relates it to symmetries, singularities of the Fisher information, and degenerate critical points of the loss landscape.
-3. "[[#3. The degeneracy hierarchy|Section 3]]" derives the local learning coefficient (LLC) as a quantitative measure of the degree of degeneracy of a critical point via a volume scaling approach, and surveys several other perspectives on the quantity.
-4. "[[#4. Degeneracy and Bayesian deep learning|Section 4]]" presents Watanabe's free energy formula connecting the LLC to Bayesian learning and discusses its implications.
+1. "[[#^preliminaries|Section 1]]" reviews core deep learning concepts, defining our notation and some running examples. The central concept is that of the parameter–function map.
+2. "[[#^what-is-degeneracy|Section 2]]" defines degeneracy of parameter–function maps and relates it to symmetries, singularities of the Fisher information, and degenerate critical points of the loss landscape.
+3. "[[#^degeneracy-hierarchy|Section 3]]" derives the local learning coefficient (LLC) as a quantitative measure of the degree of degeneracy of a critical point via a volume scaling approach, and surveys several other perspectives on the quantity.
+4. "[[#^degeneracy-bayesian-deep-learning|Section 4]]" presents Watanabe's free energy formula connecting the LLC to Bayesian learning and discusses its implications.
 
-We conclude with [[#5. Further readings|Section 5]], providing pointers for further study and surveying the literature on SLT and deep learning.
+We conclude with [[#^further-readings|Section 5]], providing pointers for further study and surveying the literature on SLT and deep learning.
 
 **Prerequisites.**
 
@@ -51,17 +51,17 @@ The following is an indicative list of mathematical concepts that will be helpfu
 - *Integration and analysis:* multivariate integrals, change of variables, volume in $\mathbb{R}^{d}$, asymptotic notation (big-$O$, little-$o$), computing basic limits and integrals.
 - *Probability:* probability simplex $\Delta(\cdot)$, conditional probability, probability density functions, independence, expectation, Bayes' rule, Gaussians, law of large numbers.
 
-[[#1. Preliminaries|Section 1]] reviews the basic framework of deep learning as parametric function approximation or statistical inference (parameter–function maps, deep linear networks, multi-layer perceptrons, loss functions, likelihood) along with Bayesian inference (prior, posterior, partition function, Bayesian free energy).
+[[#^preliminaries|Section 1]] reviews the basic framework of deep learning as parametric function approximation or statistical inference (parameter–function maps, deep linear networks, multi-layer perceptrons, loss functions, likelihood) along with Bayesian inference (prior, posterior, partition function, Bayesian free energy).
 
 Readers with more advanced backgrounds may appreciate occasional references to topics from algebraic geometry, fractal geometry, or statistical physics. However, these references are tangential and readers without these backgrounds can safely skip them.
 
 **Fast-track.**
 
-To paraphrase Euclid, there is no royal road to algebro-geometric learning theory. However, it is possible to get a bird's-eye view and the most important intuitions in a comparably short time. If this is what you are looking for, we recommend the following route through the tutorial. Assuming you are already somewhat comfortable with deep learning and Bayesian inference, skip [[#1. Preliminaries|Section 1]], and refer back only as needed. Then, proceed as follows.
+To paraphrase Euclid, there is no royal road to algebro-geometric learning theory. However, it is possible to get a bird's-eye view and the most important intuitions in a comparably short time. If this is what you are looking for, we recommend the following route through the tutorial. Assuming you are already somewhat comfortable with deep learning and Bayesian inference, skip [[#^preliminaries|Section 1]], and refer back only as needed. Then, proceed as follows.
 
-1. To understand parameter–function map versus loss landscape degeneracy: Read [[#2.1 A definition of degeneracy|Subsection 2.1]] and complete [[#^ex-univariate-degeneracy|Exercise 2.1]] and [[#^ex-cubic-degeneracy|2.2]]. Complete either [[#^ex-dln-degeneracy|Exercise 2.9]] or [[#^ex-mlp-degeneracy|2.10]]. Read [[#2.5 Degeneracy and the loss landscape|Subsection 2.5]] and complete your choice of Exercises [[#^ex-loss-landscape-degeneracy|2.14]] and/or [[#^ex-fim-hessian|2.15]].
-2. To understand the local learning coefficient via volume scaling: Read [[#3.1 The local learning coefficient via volume scaling asymptotics|Subsection 3.1]] and complete [[#^ex-llc-regular-case|Exercise 3.1]] and [[#^ex-quad-valley-scaling|3.2]] and [[#^ex-calculating-llc|3.4]] and [[#^ex-cubic-parameterisation|3.7]]. Read [[#3.3 Local learning coefficients of deep linear networks|Subsection 3.3]] and [[#^ex-dln-lc|Exercise 3.10]].
-3. To understand the relation between degeneracy and learning in the Bayesian case: Read all of [[#4. Degeneracy and Bayesian deep learning|Section 4]] (it is shorter). Complete [[#^ex-phase-transitions|Exercise 4.2]].
+1. To understand parameter–function map versus loss landscape degeneracy: Read [[#^definition-of-degeneracy|Subsection 2.1]] and complete [[#^ex-univariate-degeneracy|Exercise 2.1]] and [[#^ex-cubic-degeneracy|2.2]]. Complete either [[#^ex-dln-degeneracy|Exercise 2.9]] or [[#^ex-mlp-degeneracy|2.10]]. Read [[#^degeneracy-loss-landscape|Subsection 2.5]] and complete your choice of Exercises [[#^ex-loss-landscape-degeneracy|2.14]] and/or [[#^ex-fim-hessian|2.15]].
+2. To understand the local learning coefficient via volume scaling: Read [[#^llc-volume-scaling|Subsection 3.1]] and complete [[#^ex-llc-regular-case|Exercise 3.1]] and [[#^ex-quad-valley-scaling|3.2]] and [[#^ex-calculating-llc|3.4]] and [[#^ex-cubic-parameterisation|3.7]]. Read [[#^llc-deep-linear-networks|Subsection 3.3]] and [[#^ex-dln-lc|Exercise 3.10]].
+3. To understand the relation between degeneracy and learning in the Bayesian case: Read all of [[#^degeneracy-bayesian-deep-learning|Section 4]] (it is shorter). Complete [[#^ex-phase-transitions|Exercise 4.2]].
 
 Once you are done, we hope you will consider taking the scenic route some other time.
 
@@ -1287,7 +1287,7 @@ In the direction $(\delta a_{i}, \delta a_{j}) = (1, -1)$, this combined contrib
 
 \### 2.4 Degeneracy and information singularities
 
-In the preceding sections, we studied degeneracy as a property of parameter–function maps. In the statistical framework introduced in [[#1.3 Statistical models and parameter–distribution maps|Subsection 1.3]], the fundamental object is instead a parameter–distribution map $\Psi : \mathcal{W} \to \mathcal{D}$ ($w \mapsto p_{w} : \mathcal{X} \to \Delta(\mathcal{Y})$). In this section, we extend the definition of degeneracy to parameter–distribution maps and connect it to a classical quantity from statistics, the Fisher information matrix. We will show that under mild regularity conditions on the statistical model, the Fisher information matrix is singular at $w$ (has zero eigenvalues) if and only if the parameter–distribution map is degenerate at $w$.
+In the preceding sections, we studied degeneracy as a property of parameter–function maps. In the statistical framework introduced in [[#^statistical-models-parameter-distribution-maps|Subsection 1.3]], the fundamental object is instead a parameter–distribution map $\Psi : \mathcal{W} \to \mathcal{D}$ ($w \mapsto p_{w} : \mathcal{X} \to \Delta(\mathcal{Y})$). In this section, we extend the definition of degeneracy to parameter–distribution maps and connect it to a classical quantity from statistics, the Fisher information matrix. We will show that under mild regularity conditions on the statistical model, the Fisher information matrix is singular at $w$ (has zero eigenvalues) if and only if the parameter–distribution map is degenerate at $w$.
 
 Given a parameter–distribution map $\Psi : \mathcal{W} \to \mathcal{D}$, say that $\Psi$ is **degenerate at $w$ in direction $v$** if the conditional density does not change to first order:
 
@@ -1302,7 +1302,7 @@ $$
 
 Here, $D_{v} \Psi(w)$ is not a conditional distribution but a signed difference between conditional distributions, effectively a real function of $x$ and $y$ (in particular, it may include negative density changes). We mean that this function is zero for all $x \in \mathcal{X}$ and all $y \in \mathcal{Y}$.
 
-[[#^eq-dist-degeneracy|Equation 21]] extends the definition of degeneracy from [[#^eq-degeneracy|Equation 19]]. If $\Psi$ is constructed from a parameter–function map $\Phi$ via a noise model (as in [[#1.3 Statistical models and parameter–distribution maps|Subsection 1.3]]), then degeneracy of $\Phi$ at $w$ in direction $v$ implies degeneracy of $\Psi$ at $w$ in direction $v$, since $p(y \mid x, w)$ depends on $w$ only through $f_{w}(x)$.
+[[#^eq-dist-degeneracy|Equation 21]] extends the definition of degeneracy from [[#^eq-degeneracy|Equation 19]]. If $\Psi$ is constructed from a parameter–function map $\Phi$ via a noise model (as in [[#^statistical-models-parameter-distribution-maps|Subsection 1.3]]), then degeneracy of $\Phi$ at $w$ in direction $v$ implies degeneracy of $\Psi$ at $w$ in direction $v$, since $p(y \mid x, w)$ depends on $w$ only through $f_{w}(x)$.
 
 To relate degeneracy to the Fisher information matrix, we introduce two standard definitions.
 
@@ -1499,7 +1499,7 @@ By [[#^ex-fim-degeneracy|Exercise 2.12]], under mild regularity conditions, the 
 
 In the preceding sections, we studied degeneracy as a property of parameter–function maps and parameter–distribution maps. We now consider the implications of degeneracy in these maps for the *loss landscape* in which deep learning algorithms operate.
 
-Recall the definitions of loss functions from [[#1. Preliminaries|Section 1]]. In what follows, we assume that the per-example loss $L_{x,y}(w)$ depends on $w$ only through $\Phi(w)$, and work with the population loss $L(w) = \mathbb{E}_{(x,y) \sim q}[L_{x,y}(w)]$. For statistical models, we use the expected negative log likelihood $L(w) = \mathbb{E}_{(x,y) \sim q}[-\log p(y \mid x, w)]$ as our loss function. In either case, we assume that $L$ is twice-differentiable with respect to $w$.
+Recall the definitions of loss functions from [[#^preliminaries|Section 1]]. In what follows, we assume that the per-example loss $L_{x,y}(w)$ depends on $w$ only through $\Phi(w)$, and work with the population loss $L(w) = \mathbb{E}_{(x,y) \sim q}[L_{x,y}(w)]$. For statistical models, we use the expected negative log likelihood $L(w) = \mathbb{E}_{(x,y) \sim q}[-\log p(y \mid x, w)]$ as our loss function. In either case, we assume that $L$ is twice-differentiable with respect to $w$.
 
 Let us begin with some basic observations about the relationship between degeneracy in parameter–function maps and directional derivatives in the loss landscape.
 
@@ -1739,7 +1739,7 @@ If $k \geq 1$ and $l \geq 1$: the exponents $6k$ and $6l$ are both at least $6$,
 If $k = 0$: $L_{0,l}(\alpha,\beta) = 1 + \beta^{6l}$, which is independent of $\alpha$, so the Hessian has a zero first diagonal entry. Similarly if $l = 0$. In all cases, the origin is a degenerate minimum.
 3. Under the identity parameter–function map, $L_{1,1}(a,b) = a^{2} + b^{2}$ had a non-degenerate minimum at the origin ([[#^ex-loss-landscape-degeneracy|Exercise 2.14(b)]]). Under the cubic parameter–function map, the same loss became $\alpha^{6} + \beta^{6}$, which has a degenerate minimum at the origin. This shows that introducing degeneracy into the parameter–function map can convert a non-degenerate minimum into a degenerate one.
 
-For other $k,l$, $L_{k,l}$ was already degenerate at the origin under the non-degenerate parameterisation, the cubic function only makes it *more* degenerate (in terms of the order to which the loss vanishes in the degenerate direction(s); we will formally quantify this in [[#3. The degeneracy hierarchy|Section 3]]).
+For other $k,l$, $L_{k,l}$ was already degenerate at the origin under the non-degenerate parameterisation, the cubic function only makes it *more* degenerate (in terms of the order to which the loss vanishes in the degenerate direction(s); we will formally quantify this in [[#^degeneracy-hierarchy|Section 3]]).
 4. 1. The gradient is $\nabla L = (ab - 1)(b,\, a)$. At $(0, 0)$: $\nabla L = (0 - 1)(0, 0) = (0, 0)$. So $(0, 0)$ is a critical point.
 
 The Jacobian of $\Phi(a,b) = ab$ is $(b, a)$, which at $(0, 0)$ is $(0, 0)$. Every direction $v = (v_{1}, v_{2})$ gives $J v = b v_{1} + a v_{2} = 0$, so $\Phi$ is degenerate in every direction at $(0, 0)$.
@@ -1766,7 +1766,7 @@ This does not contradict [[#^ex-fim-hessian|Exercise 2.15]], which establishes $
 
 We have so far explored different kinds of qualitative degeneracy in the loss landscape. A natural question arises: *how can we quantify the degree of degeneracy at a particular point in parameter space?* In this section, we introduce the local learning coefficient, a rich mathematical object that reflects the degree of degeneracy at a parameter, and we explore it from several perspectives.
 
-In this section and [[#4. Degeneracy and Bayesian deep learning|Section 4]] we assume that any population loss $L$ is a real analytic function. The precise definition of real analyticity is not important for this tutorial but interested readers can refer to ([[#^bib-watanabe2009|Watanabe 2009]]) (section 2). A property that will be useful is that such functions have a convergent Taylor expansion, in particular they have smooth derivatives of all orders.
+In this section and [[#^degeneracy-bayesian-deep-learning|Section 4]] we assume that any population loss $L$ is a real analytic function. The precise definition of real analyticity is not important for this tutorial but interested readers can refer to ([[#^bib-watanabe2009|Watanabe 2009]]) (section 2). A property that will be useful is that such functions have a convergent Taylor expansion, in particular they have smooth derivatives of all orders.
 
 \### 3.1 The local learning coefficient via volume scaling asymptotics ^llc-volume-scaling
 
@@ -2285,8 +2285,8 @@ which converges for $\operatorname{Re}(z) > 0$ and extends to a meromorphic func
 In the algebraic geometry literature, $\lambda(w^{*})$ is called the **real log canonical threshold (RLCT)** of $L$ at $w^{*}$. We collect several consequences of this perspective.
 
 1. The fact that the LLC is a rational number follows directly from equation [[#^eq-rlct|(43)]].
-2. Equation [[#^eq-rlct|(43)]] suggests that we can compute $\lambda(w^{*})$ analytically by constructing an explicit resolution of singularities for $L(w) - L(w^{*})$ and reading off the exponents. This is difficult in practice for neural network loss functions, but has been achieved for some architectures, as we will see in [[#3.3 Local learning coefficients of deep linear networks|Subsection 3.3]].
-3. In [[#4. Degeneracy and Bayesian deep learning|Section 4]] we will state Watanabe's free energy formula connecting the Bayesian free energy to the LLC. The proof of this result makes repeated use of the monomialisation of the loss.
+2. Equation [[#^eq-rlct|(43)]] suggests that we can compute $\lambda(w^{*})$ analytically by constructing an explicit resolution of singularities for $L(w) - L(w^{*})$ and reading off the exponents. This is difficult in practice for neural network loss functions, but has been achieved for some architectures, as we will see in [[#^llc-deep-linear-networks|Subsection 3.3]].
+3. In [[#^degeneracy-bayesian-deep-learning|Section 4]] we will state Watanabe's free energy formula connecting the Bayesian free energy to the LLC. The proof of this result makes repeated use of the monomialisation of the loss.
 
 :::callout {title="Exercise" tone="blue"}
 **Exercise 3.8 (Computing the LLC via the RLCT).** Suppose that $L(w) = w_{1}^{2k_1}\cdots w_{d}^{2k_d}$ near $w^{*} = 0$, where $k_{j} \geq 0$ are integers with at least one $k_{j} > 0$. Show that
@@ -2399,7 +2399,7 @@ by Equation [[#^eq-solve-llc|(39)]]
 
 \### 3.3 Local learning coefficients of deep linear networks ^llc-deep-linear-networks
 
-Having established the local learning coefficient as a measure of degeneracy in the loss landscape, we now compute it explicitly for the two-layer deep linear network introduced in [[#1. Preliminaries|Section 1]]. In [[#2. What is degeneracy?|Section 2]], we saw that DLN parameters exhibit varying degrees of degeneracy depending on the ranks of the component matrices ([[#^ex-dln-degeneracy|Exercise 2.9]], [[#^rem-rank|Remark 2.2]]). The LLC makes this hierarchy quantitative: different ranks correspond to different learning coefficients, confirming that lower-rank parameters are geometrically "simpler."
+Having established the local learning coefficient as a measure of degeneracy in the loss landscape, we now compute it explicitly for the two-layer deep linear network introduced in [[#^preliminaries|Section 1]]. In [[#^what-is-degeneracy|Section 2]], we saw that DLN parameters exhibit varying degrees of degeneracy depending on the ranks of the component matrices ([[#^ex-dln-degeneracy|Exercise 2.9]], [[#^rem-rank|Remark 2.2]]). The LLC makes this hierarchy quantitative: different ranks correspond to different learning coefficients, confirming that lower-rank parameters are geometrically "simpler."
 
 Consider the two-layer DLN $f_{A,B}(x) = BAx$ with $A \in \mathbb{R}^{H \times M}$ and $B \in \mathbb{R}^{N \times H}$, so the parameter space is $\mathcal{W} = \mathbb{R}^{(M+N)H}$. Suppose the true input–output relationship is $y = B_{0} A_{0} x$ where $A_{0} \in \mathbb{R}^{H \times M}$, $B_{0} \in \mathbb{R}^{N \times H}$, and $r = \mathrm{rank}(B_{0} A_{0})$, and consider the population loss
 
@@ -2493,11 +2493,11 @@ This tells us that the two-layer DLN is singular at every point in its loss land
 
 \## 4. Degeneracy and Bayesian deep learning ^degeneracy-bayesian-deep-learning
 
-In [[#2. What is degeneracy?|Section 2]] and [[#3. The degeneracy hierarchy|3]], we studied the geometry of degeneracy in parameter space and introduced the local learning coefficient $\lambda(w^{*})$ as a measure of the degree of degeneracy at a local minimum $w^{*}$. We now show that this geometry has consequences for learning (in the Bayesian setting). In particular, it creates a trade-off between model fit and model complexity that drives learning, providing a mechanism for *internal model selection*.
+In [[#^what-is-degeneracy|Section 2]] and [[#^degeneracy-hierarchy|3]], we studied the geometry of degeneracy in parameter space and introduced the local learning coefficient $\lambda(w^{*})$ as a measure of the degree of degeneracy at a local minimum $w^{*}$. We now show that this geometry has consequences for learning (in the Bayesian setting). In particular, it creates a trade-off between model fit and model complexity that drives learning, providing a mechanism for *internal model selection*.
 
 \### 4.1 Watanabe's free energy formula
 
-Recall the Bayesian learning setup from [[#1.4 Bayesian deep learning|Subsection 1.4]]. We have a parameter–distribution map $\Psi : \mathcal{W} \to \mathcal{D}$ sending each parameter $w$ to a conditional distribution with density $p(y \mid x, w)$, a smooth positive prior $\varphi$ on $\mathcal{W}$, and a data set of $n$ i.i.d. examples from a data distribution $q$. Take the loss function to be the negative log-likelihood
+Recall the Bayesian learning setup from [[#^bayesian-deep-learning|Subsection 1.4]]. We have a parameter–distribution map $\Psi : \mathcal{W} \to \mathcal{D}$ sending each parameter $w$ to a conditional distribution with density $p(y \mid x, w)$, a smooth positive prior $\varphi$ on $\mathcal{W}$, and a data set of $n$ i.i.d. examples from a data distribution $q$. Take the loss function to be the negative log-likelihood
 
 $$
 L_{n}(w) = -\frac{1}{n}\sum_{i=1}^{n} \log p(y^{(i)}\mid x^{(i)}, w), \qquad L(w) = \mathbb{E}_{(x,y) \sim q}\!\left[-\log p(y \mid x, w)\right].

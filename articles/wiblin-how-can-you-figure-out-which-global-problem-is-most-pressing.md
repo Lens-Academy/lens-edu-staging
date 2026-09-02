@@ -58,18 +58,18 @@ Table of Contents
     -   [[#^solvability-assessment|6.3 How to assess it]]
     -   {--{"author":"Luc's AI","timestamp":1788377205233}@@[6.4--}{++{"author":"Luc's AI","timestamp":1788377205233}@@[[#^solvability-challenges|6.4++} Challenges in {--{"author":"Luc's AI","timestamp":1788377205233}@@assessment](#challenges-in-assessment)--}{++{"author":"Luc's AI","timestamp":1788377205233}@@assessment]]++}
 -   {--{"author":"Luc's AI","timestamp":1788377205543}@@[7--}{++{"author":"Luc's AI","timestamp":1788377205543}@@[[#^summed-scores|7++} What do the summed scores {--{"author":"Luc's AI","timestamp":1788377205543}@@mean?](#what-do-the-summed-scores-mean)--}{++{"author":"Luc's AI","timestamp":1788377205543}@@mean?]]++}
--   [8 How to assess personal fit](#how-to-assess-personal-fit)
-    -   [8.1 Definition](#definition)
-    -   [8.2 How can it be assessed?](#how-can-it-be-assessed)
--   [9 Other factors for comparing career opportunities](#other-factors-for-comparing-career-opportunities)
--   [10 How should we interpret the results?](#how-should-we-interpret-the-results)
--   [11 How does this approach compare with ordinary cost-effectiveness analysis?](#how-does-this-approach-compare-with-ordinary-cost-)
--   [12 Advantages and disadvantages of quantitative problem prioritisation](#advantages-and-disadvantages-of-quantitative-probl)
--   [13 How to factor in coordination?](#how-to-factor-in-coordination)
--   [14 Conclusion](#conclusion)
-    -   [14.1 Want to help solve a pressing problem?](#want-to-help-solve-a-pressing-problem)
--   [15 Further reading](#further-reading)
--   [16 Read next](#read-next)
+-   {--{"author":"Luc's AI","timestamp":1788377205808}@@[8--}{++{"author":"Luc's AI","timestamp":1788377205808}@@[[#^personal-fit|8++} How to assess personal {--{"author":"Luc's AI","timestamp":1788377205808}@@fit](#how-to-assess-personal-fit)--}{++{"author":"Luc's AI","timestamp":1788377205808}@@fit]]++}
+    -   [[#^personal-fit-definition|8.1 Definition]]
+    -   {--{"author":"Luc's AI","timestamp":1788377206371}@@[8.2--}{++{"author":"Luc's AI","timestamp":1788377206371}@@[[#^personal-fit-assessment|8.2++} How can it be {--{"author":"Luc's AI","timestamp":1788377206371}@@assessed?](#how-can-it-be-assessed)--}{++{"author":"Luc's AI","timestamp":1788377206371}@@assessed?]]++}
+-   {--{"author":"Luc's AI","timestamp":1788377206633}@@[9--}{++{"author":"Luc's AI","timestamp":1788377206633}@@[[#^other-factors|9++} Other factors for comparing career {--{"author":"Luc's AI","timestamp":1788377206633}@@opportunities](#other-factors-for-comparing-career-opportunities)--}{++{"author":"Luc's AI","timestamp":1788377206633}@@opportunities]]++}
+-   {--{"author":"Luc's AI","timestamp":1788377207016}@@[10--}{++{"author":"Luc's AI","timestamp":1788377207016}@@[[#^interpret-results|10++} How should we interpret the {--{"author":"Luc's AI","timestamp":1788377207016}@@results?](#how-should-we-interpret-the-results)--}{++{"author":"Luc's AI","timestamp":1788377207016}@@results?]]++}
+-   [[#^compare-cost-effectiveness|11 How does this approach compare with ordinary cost-effectiveness analysis?]]
+-   [[#^quantitative-prioritisation|12 Advantages and disadvantages of quantitative problem prioritisation]]
+-   {--{"author":"Luc's AI","timestamp":1788377207837}@@[13--}{++{"author":"Luc's AI","timestamp":1788377207837}@@[[#^factor-coordination|13++} How to factor in {--{"author":"Luc's AI","timestamp":1788377207837}@@coordination?](#how-to-factor-in-coordination)--}{++{"author":"Luc's AI","timestamp":1788377207837}@@coordination?]]++}
+-   {--{"author":"Luc's AI","timestamp":1788377208152}@@[14 Conclusion](#conclusion)--}{++{"author":"Luc's AI","timestamp":1788377208152}@@[[#^conclusion|14 Conclusion]]++}
+    -   {--{"author":"Luc's AI","timestamp":1788377208433}@@[14.1--}{++{"author":"Luc's AI","timestamp":1788377208433}@@[[#^help-pressing-problem|14.1++} Want to help solve a pressing {--{"author":"Luc's AI","timestamp":1788377208433}@@problem?](#want-to-help-solve-a-pressing-problem)--}{++{"author":"Luc's AI","timestamp":1788377208433}@@problem?]]++}
+-   {--{"author":"Luc's AI","timestamp":1788377208688}@@[15--}{++{"author":"Luc's AI","timestamp":1788377208688}@@[[#^further-reading|15++} Further {--{"author":"Luc's AI","timestamp":1788377208688}@@reading](#further-reading)--}{++{"author":"Luc's AI","timestamp":1788377208688}@@reading]]++}
+-   {--{"author":"Luc's AI","timestamp":1788377208944}@@[16--}{++{"author":"Luc's AI","timestamp":1788377208944}@@[[#^read-next|16++} Read {--{"author":"Luc's AI","timestamp":1788377208944}@@next](#read-next)--}{++{"author":"Luc's AI","timestamp":1788377208944}@@next]]++}
 %% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
     -   [16.1 The case for reducing existential risks](https://80000hours.org/articles/problem-framework/#the-case-for-reducing-existential-risks)
 %% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
