@@ -79,7 +79,7 @@ Table of Contents
 %% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
     -   [16.4 Join our newsletter and we’ll mail you a free book](https://80000hours.org/articles/problem-framework/#join-our-newsletter-and-well-mail-you-a-free-book)
 
-## Introducing how we define the factors
+## Introducing how we define the factors ^introducing-factors
 
 Ultimately what we want to know is the expected ‘good done’ per unit of resources invested in the problem. A unit of resources could be a year of labour or a dollar of donations, or some other measure.
 
@@ -103,7 +103,7 @@ Finally, if you’re trying to figure out what problem _you_ should work on, you
 
 Below we’ll discuss how to assess each in turn, but before that we have a few more remarks on how to set up the analysis.
 
-## Defining a problem carefully
+## Defining a problem carefully ^defining-problem
 
 Before you go on to make your assessment, make sure you have a clear description of the scope of the problems you want to compare. This will help you to be consistent when scoring each factor. For example, if we were evaluating ‘global health’ we would need to be clear about:
 
@@ -112,7 +112,7 @@ Before you go on to make your assessment, make sure you have a clear description
 
 A challenge of any framework of this kind will be that carefully chosen ‘narrow’ problems tend to do better than broadly defined ones. For example, ‘combating malaria’ will look more pressing than ‘global health’ because malaria is a particularly promising health problem to work on. Similarly, improving health in Kenya is going to look more impressive than improving health in Costa Rica. There’s nothing wrong with these findings – but they could create a misleading impression if a broadly defined problem is compared with a narrowly defined one. If someone were motivated they could make a problem look more or less pressing by defining it differently – and this is something to be aware of in interpreting these scores.
 
-## Creating a (logarithmic) scale
+## Creating a (logarithmic) scale ^logarithmic-scale
 
 If you try to compare different areas using these scores you’ll find they vary hugely. For instance, while about [$300bn is spent on global health annually](https://80000hours.org/problem-profiles/health-in-poor-countries/), under [$100m is spent trying to tackle factory farming](https://80000hours.org/problem-profiles/factory-farming/). So, factory farming is over 1,000 times more neglected than global health.
 
@@ -124,7 +124,7 @@ Using a logarithmic scale for each part also means that rather than having to mu
 
 To make the scores easy to read we put them all on a scale between 0 and 16. For comparisons of cost-effectiveness between different problems, we will just be looking at the _difference_ in score between them.
 
-## How to assess scale
+## How to assess scale ^assess-scale
 
 ### Definition
 
@@ -176,7 +176,7 @@ The rubric above reflects our own considered judgement calls at how to trade dif
 
 If a problem helps with several columns, then focus on the column where the problem has the largest effect. Since each row corresponds to a factor of ten, the top rows will dominate the overall assessment of scale.
 
-## How to assess how neglected a problem is
+## How to assess how neglected a problem is ^assess-neglectedness
 
 ### Definition
 
@@ -208,7 +208,7 @@ One particularly important way that a problem can end up neglected for bad reaso
 | 2 | $10 billion | 100000 | 100 million |
 | 0 | $100 billion | 1 million | 1 billion (i.e. everyone) |
 
-### A challenge – direct vs. indirect & future effort
+### A challenge – direct vs. indirect & future effort ^direct-indirect-future-effort
 
 Often resources are unintentionally dedicated to solving a problem by groups that may be self-interested, or working on an adjacent problem. We refer to this as ‘indirect effort’, in contrast with the ‘direct effort’ of groups consciously focused on the problem. These indirect efforts can be substantial. For example, not much money is spent on research to prevent the causes of ageing directly, but many parts of biomedical research are contributing by answering related questions or developing better methods. While this work may not be well targeted on reducing ageing specifically, much more is spent on biomedical research in general than anti-ageing research specifically. Most of the progress on preventing ageing is probably due to these indirect efforts.
 
@@ -220,7 +220,7 @@ One could also use a directed-weighted measure of effort. So long as it was appl
 
 Another challenge is how to take account of the fact that some problems might receive much more _future_ effort than others. We don’t have a general way to solve this, except (i) it’s reason not to give extremely low neglectedness scores to any area (ii) one can try to consider the future direction of resources rather than only resources today.
 
-### More tips on how to assess
+### More tips on how to assess ^neglectedness-tips
 
 Rather than trying to assess neglectedness directly, you can also consider rules of thumb like the following. These help you to work out how neglected it is and whether it’s being neglected for bad reasons.
 
@@ -237,7 +237,7 @@ If several different kinds of input are being dedicated to a problem, use the co
 
 Finally, we are reluctant to give very high scores for neglectedness. Even obscure problems usually attract the attention of some group in the world, and we may simply not know about them. So unless we’ve done a comprehensive search to show otherwise, we will assume that at least $1 million is being directed towards a problem.
 
-## How to assess how solvable a problem is
+## How to assess how solvable a problem is ^assess-solvability
 
 ### Definition
 
@@ -270,7 +270,7 @@ Some rules of thumb we consider include:
 
 In general, we’re looking to find the best interventions to make progress on the problem, then evaluate them based on (i) potential upside (ii) likelihood of upside. We consider all forms of evidence, from rigorous trial data and speculative arguments. We take a [Bayesian](https://en.wikipedia.org/wiki/Bayesian_inference) approach to evaluating both factors – our prior is that the intervention isn’t very effective, then we update away from that depending on the strength of the evidence (see an [example](https://80000hours.org/2012/12/how-to-judge-your-chances-of-success/)). [Read more about making these kinds of estimates](http://lesswrong.com/lw/hzu/model_combination_and_adjustment/).
 
-### Challenges in assessment
+### Challenges in assessment ^solvability-challenges
 
 This is typically the hardest of the three factors to score because it requires anticipating the future, rather than simply measuring things that currently exist.
 
@@ -282,7 +282,7 @@ Some approaches to solving problems are incremental (e.g. distributing bednets t
 
 As discussed above in _Neglectedness_, problems for which most of the work is being performed indirectly (e.g. by for-profits doing related things) will likely be solved more slowly through an increase in ‘direct’ work. This is because many promising approaches will already have been attempted by other groups.
 
-## What do the summed scores mean?
+## What do the summed scores mean? ^summed-scores
 
 To do a sanity-check we can add these scores and convert them back into a measure of actual impact from one additional person working on a problem:
 
@@ -294,7 +294,7 @@ To do a sanity-check we can add these scores and convert them back into a measur
 
 However, these figures are extremely approximate, so we don’t recommend putting weight on them specifically. Rather, we prefer to use the scores to make _relative comparisons_ rather than absolute estimates.
 
-## How to assess personal fit
+## How to assess personal fit ^personal-fit
 
 While personal fit is not assessed in our problem profiles, it is relevant to your personal decisions. If you enter an area that you find totally demotivating, then you’ll have almost no impact. Within a field, the top performers often have [10 to 100 times](https://80000hours.org/career-guide/personal-fit/) as much impact as the median.
 
