@@ -33,7 +33,7 @@ The case at full strength, from the people who argue it most directly. Any one o
 id:: b7e5023a-0fed-4fc6-be79-0c7ece9f3106
 content:: Optional: The strongest objection.
 
-In a short written note, construct the strongest objection you can to the case above — and state what would change your mind, in either direction.
+In a short written note, construct the strongest objection you can to the case {--{"author":"Elias's AI","timestamp":1788357533161}@@above —--}{++{"author":"Elias's AI","timestamp":1788357533161}@@above,++} and state what would change your mind, in either direction.
 feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 optional:: true
 
