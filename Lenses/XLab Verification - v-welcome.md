@@ -8,9 +8,7 @@ duration_minutes: 5
 ---
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788357507289}@@\## 0.0. Welcome
-
---}AI is already a transformative technology. AI systems can accelerate scientific research, write and audit software, and discover mathematical breakthroughs, just to name a {--{"author":"Elias's AI","timestamp":1788357507289}@@few—results--}{++{"author":"Elias's AI","timestamp":1788357507289}@@few: results++} that would have sounded impossible just a decade ago.
+AI is already a transformative technology. AI systems can accelerate scientific research, write and audit software, and discover mathematical breakthroughs, just to name a few: results that would have sounded impossible just a decade ago.
 
 But the same capabilities that can build secure computer systems can exploit them. The algorithm that revolutionizes cellular breakthroughs can also build a biological weapon capable of devastating millions, if not billions. As of mid-2026, we have seen AI demonstrate the capabilities to [hack multimillion-dollar companies](https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/), [create new viruses](https://www.bbc.com/news/articles/c5y3j3ngevmo), and play major roles in [military](https://www.wsj.com/livecoverage/iran-strikes-2026/card/u-s-strikes-in-middle-east-use-anthropic-hours-after-trump-ban-ozNO0iClZpfpL7K7ElJ2) and national security. With unprecedented benefit comes unprecedented risk.
 

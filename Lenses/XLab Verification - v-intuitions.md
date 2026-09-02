@@ -8,15 +8,13 @@ duration_minutes: 200
 ---
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1788357578777}@@\## 0.2: Building Verification Intuitions
-
---}Now that we've established the foundational motivations for why verification is important, we'll dive into building key intuitions around the timelines, scope, and urgency of what a verification regime might actually look like. We'll do this by analyzing AI 2040: Plan A, the most detailed and well-known public attempt to forecast a successful AI slowdown and complement verification regime.
+Now that we've established the foundational motivations for why verification is important, we'll dive into building key intuitions around the timelines, scope, and urgency of what a verification regime might actually look like. We'll do this by analyzing AI 2040: Plan A, the most detailed and well-known public attempt to forecast a successful AI slowdown and complement verification regime.
 
 \## AI 2040: Plan A?
 
 What is the ideal end state? What agreement reaches it? What would verification have to cover for the agreement to hold? The most detailed public attempt to answer all three is AI 2040: Plan A, published by the AI Futures Project, the team behind the earlier AI 2027 scenario. While AI 2027 dramatized how a race ends badly, Plan A tells a dated, concrete story in which a US–China deal, layered verification, and a managed slowdown deliver a good outcome by 2040. Its [verification supplement](https://ai-2040.com/supplements/verification-plan) specifies the machinery: mutual compute declarations checked by inspections, datacenters retrofitted so that large-scale training is detectable, optical network taps feeding trusted recomputation servers, secure R&D facilities, and production caps on unverified hardware.
 
-\### [AI 2040: Plan A {--{"author":"Elias's AI","timestamp":1788357581673}@@— --}verification supplement](https://ai-2040.com/supplements/verification-plan)
+\### [AI 2040: Plan A verification supplement](https://ai-2040.com/supplements/verification-plan)
 AI Futures Project
 
   The machinery behind Plan A, specified in full.
@@ -51,11 +49,11 @@ Plan A's verification problem has two broad parts. First, the regime needs confi
 #### Question: Open
 id:: 909a9ada-ee95-4dd2-9b6b-6ef51f617a3b
 optional:: true
-content:: Choose the part of this system that you think carries the most verification weight. Focus on the proposed datacenter retrofit: optical network taps, reproducible workloads, trusted recomputation servers, network restrictions, and related safeguards. Which mechanism seems like the most {--{"author":"Elias's AI","timestamp":1788357584762}@@important—that,--}{++{"author":"Elias's AI","timestamp":1788357584762}@@important, the one that,++} if removed, would most endanger the verification regime's effectiveness? Do not use outside resources for this part of the exercise.
+content:: Choose the part of this system that you think carries the most verification weight. Focus on the proposed datacenter retrofit: optical network taps, reproducible workloads, trusted recomputation servers, network restrictions, and related safeguards. Which mechanism seems like the most important, the one that, if removed, would most endanger the verification regime's effectiveness? Do not use outside resources for this part of the exercise.
 
 Questions to consider:
 
-- What types of evidence does it {--{"author":"Elias's AI","timestamp":1788357586729}@@provide—implied,--}{++{"author":"Elias's AI","timestamp":1788357586729}@@provide: implied,++} likely, or certain? Ambiguous (rough power signatures) or exact (the model weights themselves)?
+- What types of evidence does it provide: implied, likely, or certain? Ambiguous (rough power signatures) or exact (the model weights themselves)?
 - What kinds of cheating could it detect?
 - If a state had years to prepare an evasion strategy, where would you expect it to attack the system? Where would you most expect a motivated adversary to fail?
 - What other mechanisms does this one depend on, and what downstream mechanisms rely on this one's reliability?
@@ -76,7 +74,7 @@ Questions to consider:
 
 - What has to go right politically, technically, and operationally for this part of the plan to work?
 - Which assumptions seem least reliable under tight timelines, strategic competition, or uneven cooperation among states and firms?
-- If this mechanism underperforms, what other parts of the verification regime compensate for {--{"author":"Elias's AI","timestamp":1788357589230}@@it—and--}{++{"author":"Elias's AI","timestamp":1788357589230}@@it, and++} where might the failure cascade?
+- If this mechanism underperforms, what other parts of the verification regime compensate for it, and where might the failure cascade?
 
 After you have a good idea of a weakness you want to critique, explain which weakness, why it's most jeopardizing, and some ideas (not too long) about how you would go about strengthening it. (200 to 250 words)
 feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
@@ -173,7 +171,7 @@ id:: 79d7f63c-67b0-4a54-aeb6-127a58ddbc4a
 optional:: true
 content:: A clear rule is useful only if the available verification mechanisms can produce convincing evidence that actors are following it.
 
-For Plan A, use the Verification Supplement to identify the mechanisms that provide the strongest evidence of compliance. For Plan S, consider what combination of tools from this course could provide comparable {--{"author":"Elias's AI","timestamp":1788357591427}@@assurance—for example,--}{++{"author":"Elias's AI","timestamp":1788357591427}@@assurance, for example++} compute declarations, inspections, chip accounting, power monitoring, remote sensing, intelligence, or personnel reporting.
+For Plan A, use the Verification Supplement to identify the mechanisms that provide the strongest evidence of compliance. For Plan S, consider what combination of tools from this course could provide comparable assurance, for example compute declarations, inspections, chip accounting, power monitoring, remote sensing, intelligence, or personnel reporting.
 
 Compare the quality of evidence each regime could realistically produce.
 
@@ -286,7 +284,7 @@ content::
 \### [AI 2027](https://ai-2027.com)
 AI Futures Project (2025)
 
-  The earlier scenario from the same {--{"author":"Elias's AI","timestamp":1788357593319}@@team —--}{++{"author":"Elias's AI","timestamp":1788357593319}@@team:++} how a race ends badly, dramatized. Read both of its endings.
+  The earlier scenario from the same team: how a race ends badly, dramatized. Read both of its endings.
 
 \## Curated Readings
 
@@ -310,7 +308,7 @@ Baker et al. (2025)
 \### [Verifying Restrictions on Frontier AI Research](https://arxiv.org/abs/2606.28694)
 Scher (2026)
 
-  If you chose Plan {--{"author":"Elias's AI","timestamp":1788357595181}@@S —--}{++{"author":"Elias's AI","timestamp":1788357595181}@@S,++} or remain unsure whether a stronger halt is actually
+  If you chose Plan S, or remain unsure whether a stronger halt is actually
   easier to verify. Read for the uncomfortable parts of a halt that compute
   monitoring alone does not solve: algorithmic research, experiments,
   personnel, code, and other less physically legible activity.
@@ -327,7 +325,7 @@ Oxford Martin AI Governance Initiative (2025)
 Scher et al. (2025)
 
   If you want to compare your own architecture against a concrete proposal
-  for an international {--{"author":"Elias's AI","timestamp":1788357597209}@@halt —--}{++{"author":"Elias's AI","timestamp":1788357597209}@@halt,++} especially its verification sections and
+  for an international halt, especially its verification sections and
   Appendix D. Read for one attempt to translate a pause posture into specific
   restrictions on compute and dangerous AI research.
 
@@ -436,7 +434,7 @@ Four families were mixed into the list: inspection games (the three you had to f
 
 #### Question: Choice
 id:: 3a2eb99c-70e9-4071-bd7c-78423aab2037
-content:: Syllogism. Premises: (1) No self-reporting mechanism is tamper-resistant. (2) All log-based regimes are self-reporting mechanisms. (3) Some treaty provisions are log-based regimes. Which conclusion follows necessarily? The full answer is the conclusion plus the picture: {--{"author":"Elias's AI","timestamp":1788357599719}@@draw--}{++{"author":"Elias's AI","timestamp":1788357599719}@@the reveal below describes++} the circle diagram that justifies it.
+content:: Syllogism. Premises: (1) No self-reporting mechanism is tamper-resistant. (2) All log-based regimes are self-reporting mechanisms. (3) Some treaty provisions are log-based regimes. Which conclusion follows necessarily? The full answer is the conclusion plus the picture: the reveal below describes the circle diagram that justifies it.
 options::
 - No treaty provision is tamper-resistant
 - [x] Some treaty provisions are not tamper-resistant
@@ -446,28 +444,9 @@ feedback-instructions:: Explain by chaining the circles: the log-based circle si
 
 #### Text
 content::
-:::callout {--{"author":"Elias's AI","timestamp":1788357639800}@@{title="Works cited" tone="neutral" collapse="closed"}
-Dean, Romeo. "Verification Plan." *AI 2040*, AI Futures Project, 2026. [ai-2040.com](https://ai-2040.com/supplements/verification-plan)
-*The AI 2040 scenario's supplement laying out a three-phase technical plan for verifying a US-China slowdown agreement without trust.*
-
-Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/abs/2507.15916)
-*A six-layer verification framework whose personnel-based layers map which workers can observe different violations and why disclosures still need independent confirmation.*
-
-Harack, Ben, Robert F. Trager, Anka Reuel, et al. *Verification for International AI Governance*. Oxford Martin AI Governance Initiative, July 2025. [aigi.ox.ac.uk](https://aigi.ox.ac.uk/wp-content/uploads/2025/07/Verification_for_International_AI_Governance.pdf)
-*The Oxford Martin 172-page report on which international AI agreements could actually be verified, and with what machinery.*
-
-Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *arXiv*, Nov. 2025. [arxiv.org](https://arxiv.org/abs/2511.10783)
-*MIRI's draft international agreement to prevent the premature creation of artificial superintelligence, the treaty text several lessons read against.*
-
-XLab. "0.2 Building Verification Intuitions." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/building-intuitions)
-*The source lesson this page adapts, including the essay prompts and the drill bench.*
-:::
-
-#### Text
-content::
-:::callout --}{title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
 Chain the circles: the log-based circle sits wholly inside self-reporting (premise 2), and self-reporting is disjoint from tamper-resistant (premise 1); the treaty-provisions circle overlaps log-based (premise 3), so that overlap is forced outside tamper-resistant, an existential conclusion and nothing more. The rest of the provisions circle is unconstrained, which kills the "no" and "all" options; the third option is not derivable at all. Drawing the arrangement where your answer holds and the others fail IS the justification; that is the drill's scoring rule.
-:::{++{"author":"Elias's AI","timestamp":1788357648018}@@
+:::
 
 #### Text
 content::
@@ -486,6 +465,6 @@ Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement
 
 XLab. "0.2 Building Verification Intuitions." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/building-intuitions)
 *The source lesson this page adapts, including the essay prompts and the drill bench.*
-:::++}
+:::
 {>>{"author":"Elias's AI","timestamp":1788009461717}@@Proposed: drop per-lesson XLab source footer.<<}
 

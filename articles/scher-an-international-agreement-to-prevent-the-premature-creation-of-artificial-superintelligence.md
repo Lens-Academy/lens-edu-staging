@@ -5,7 +5,7 @@ author:
   - "David Abecassis"
   - "Peter Barnett"
   - "Brian Abeyta"
-source_url: {--{"author":"Elias's AI","timestamp":1788357105684}@@"https://arxiv.org/abs/2511.10783"--}{++{"author":"Elias's AI","timestamp":1788357105684}@@"https://arxiv.org/abs/2511.10783v3"++}
+source_url: "https://arxiv.org/abs/2511.10783v3"
 allowUnreachableUrl: true
 published: 2025-11-13
 created: 2026-07-28

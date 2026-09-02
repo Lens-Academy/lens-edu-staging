@@ -2,9 +2,9 @@
 id: '76451830-cdb6-4160-9eae-ee72d0917f5b'
 title: "1.2 Actors: who does the treaty rely upon, apply to, and constrain?"
 tldr: "Two governments sign a three-month pause on big training runs. On Wednesday morning, who actually has to change what they do? Not the signatories: the labs, fabs, clouds and one Dutch lithography firm. Learn three lenses for any actor (where it sits, what it can do for or to a verifier, what it wants right now), then build the actor map yourself: who declares, who holds evidence, who verifies, and who no declaration ever covers."
-summary_for_tutor: "Reading plus a workshop. The reading gives five tables: the incentive vocabulary (comply, defect, hide, exaggerate, free-ride), six states by supply-chain position, US institutions inside one signatory, private actors upstream to downstream, and six functional roles; then the three questions to ask of any actor (position, roles, posture). The Actor Map Workshop follows: study the 17-actor roster, then from memory list everything a cloud provider can do inside a regime; a graded choice on what sits at the centre of the map (the regulated training run); place all 17 actors on Baker et al.'s four rings (Declares, Holds the evidence, Verifies, Outside the declaration), graded against XLab's key; {--{"author":"Elias's AI","timestamp":1788357133912}@@a graded second-order question (removing--}{++{"author":"Elias's AI","timestamp":1788357133912}@@then read++} the{--{"author":"Elias's AI","timestamp":1788357133912}@@ cloud providers stops a run soonest); and three optional written answers marked against XLab's key (Taiwan's roles, information holders in order of completeness, an actor that is capability holder and enforcement authority at once). --}{++{"author":"Elias's AI","timestamp":1788357133912}@@ finished map. ++}The ring key and rationales sit in closed callouts; do not reveal them before the learner commits. The edge exercise built on this {--{"author":"Elias's AI","timestamp":1788357133912}@@board is --}{++{"author":"Elias's AI","timestamp":1788357133912}@@board, the second-order question (whose removal stops a run soonest) and ++}the {++{"author":"Elias's AI","timestamp":1788357133912}@@three optional written answers are in the ++}next lens, 1.2.2."
+summary_for_tutor: "Reading plus a workshop. The reading gives five tables: the incentive vocabulary (comply, defect, hide, exaggerate, free-ride), six states by supply-chain position, US institutions inside one signatory, private actors upstream to downstream, and six functional roles; then the three questions to ask of any actor (position, roles, posture). The Actor Map Workshop follows: study the 17-actor roster, then from memory list everything a cloud provider can do inside a regime; a graded choice on what sits at the centre of the map (the regulated training run); place all 17 actors on Baker et al.'s four rings (Declares, Holds the evidence, Verifies, Outside the declaration), graded against XLab's key; then read the finished map. The ring key and rationales sit in closed callouts; do not reveal them before the learner commits. The edge exercise built on this board, the second-order question (whose removal stops a run soonest) and the three optional written answers are in the next lens, 1.2.2."
 tags: [wip]
-duration_minutes: {--{"author":"Elias's AI","timestamp":1788357133912}@@35--}{++{"author":"Elias's AI","timestamp":1788357133912}@@25++}
+duration_minutes: 25
 ---
 #### Text
 content::
@@ -26,7 +26,7 @@ Table 1.  The incentive vocabulary
 | --- | --- | --- |
 | Comply | Follow the agreement as written. | A lab that reports its large training runs accurately and on time. |
 | Defect | Covertly violate for advantage. | A state running a hidden cluster while its diplomats reaffirm the pause. |
-| Hide | Obscure assets or activities from view, whether or not {--{"author":"Elias's AI","timestamp":1788357089916}@@any--}{++{"author":"Elias's AI","timestamp":1788357089916}@@a++} rule is being broken. | A firm treating its chip inventory as a trade secret. |
+| Hide | Obscure assets or activities from view, whether or not a rule is being broken. | A firm treating its chip inventory as a trade secret. |
 | Exaggerate | Overstate compliance, safety, or capability. | Safety-washing by a lab; capability bluffing by a state. |
 | Free-ride | Enjoy the stability produced by others’ restraint without bearing its costs. | A state that signs nothing and benefits anyway. |
 
@@ -98,17 +98,16 @@ Table 4.  Private actors, upstream to downstream
 
 Take two things from this table.
 
-{--{"author":"Elias's AI","timestamp":1788357092539}@@Counts:--}{++{"author":"Elias's AI","timestamp":1788357092539}@@First, counts:++}
+First, counts:
 
 - One EUV maker.
 - A handful of leading-edge fabs.
 - A few consequential chip designers.
 - Five or six hyperscale clouds.
 - A few dozen labs that matter.
-- Millions of deployers.{--{"author":"Elias's AI","timestamp":1788357092539}@@
-- --}{++{"author":"Elias's AI","timestamp":1788357092539}@@
+- Millions of deployers.
 
-++}The chain narrows to almost nothing at the top and fans out to everything at the bottom. Verification has something to grab exactly where the count is small, which is why so many of the mechanisms in Module 2 bite upstream. Hold that thought; section [[../Lenses/XLab Verification - v-scoping-upstream-downstream|1.3]] develops it properly.
+The chain narrows to almost nothing at the top and fans out to everything at the bottom. Verification has something to grab exactly where the count is small, which is why so many of the mechanisms in Module 2 bite upstream. Hold that thought; section [[../Lenses/XLab Verification - v-scoping-upstream-downstream|1.3]] develops it properly.
 
 Second, look at the labs’ row: A frontier lab can comply, publishing a safety framework and reporting under SB 53. It can hide, treating training details as trade secrets. It can exaggerate, describing its own precautions in the most flattering light, which is what critics call safety-washing. And it can free-ride on rivals’ restraint. Your job in verification is to price these different behaviors and balance their relevant incentives.
 
@@ -144,7 +143,7 @@ Or try Taiwan. A chokepoint controller of the first rank, and simultaneously the
 
 You now have three questions to ask of any actor you meet in a proposal, a news story, or an exercise, for the rest of this course. Where does it sit on the chain? That is position: Table 4. What can it do inside a regime? That is roles: Table 5. What does it want right now? That is posture: Table 1. Ask them in that order and most verification claims come apart usefully in your hands. “The cloud providers will report suspicious training runs” stops being a reassuring sentence and becomes three checkable ones: they sit mid-chain where visibility is high; they hold the logs; and they will report exactly to the degree that reporting costs less than not reporting.
 
-\## The Actor Map Workshop{--{"author":"Elias's AI","timestamp":1788357088004}@@ (18–22 min)--}
+\## The Actor Map Workshop
 
 **The brief.** Suppose the United States and China sign an agreement tomorrow: no training runs above some compute threshold for three months. The section asked who has to change their behavior on Wednesday morning. The map asks the question after it: when the three months are up, who could show that they did, and who could show that somebody did not?
 
@@ -190,7 +189,7 @@ Study the roster, then close it. Everything after it is answered from memory.
 #### Question: Open
 id:: 3df5fa92-d84b-4198-af75-e744dc299b53
 content:: Take one actor: a cloud provider. From memory, write down everything it can do inside a verification regime — and what it wants while doing it.
-assessment-instructions:: Six items make a full answer; score about 16 points each. Roles: chokepoint controller (it can suspend a customer's access this afternoon); information holder (its logs and billing records are the richest picture anywhere of who is computing what); enforcement authority (give it know-your-customer duties and it becomes the regime's front-line cop); evasion pathway (its reseller chains and mislabeled workloads are precisely how a determined actor reaches compute it should not have). Postures: comply and hide (Table 4's cloud row: "Comply and hide at once. Natural monitors, reluctant police."). Credit synonyms and paraphrases that capture the same capability or posture. No generic {--{"author":"Elias's AI","timestamp":1788357101597}@@praise.--}{++{"author":"Elias's AI","timestamp":1788357101597}@@praise.{>>{"author":"Elias's AI","timestamp":1788357101597}@@Course-creator note: the scoring rules in this lens are Lens-authored; XLab's widget only counts key matches and reversals.<<}++}
+assessment-instructions:: Six items make a full answer; score about 16 points each. Roles: chokepoint controller (it can suspend a customer's access this afternoon); information holder (its logs and billing records are the richest picture anywhere of who is computing what); enforcement authority (give it know-your-customer duties and it becomes the regime's front-line cop); evasion pathway (its reseller chains and mislabeled workloads are precisely how a determined actor reaches compute it should not have). Postures: comply and hide (Table 4's cloud row: "Comply and hide at once. Natural monitors, reluctant police."). Credit synonyms and paraphrases that capture the same capability or posture. No generic praise.{>>{"author":"Elias's AI","timestamp":1788357101597}@@Course-creator note: the scoring rules in this lens are Lens-authored; XLab's widget only counts key matches and reversals.<<}
 feedback-instructions:: One-turn mirror: name which of the six the learner got, list the ones missed with their one-line gloss, and close by telling them to move on. No re-teaching, no follow-up question.
 
 #### Text
@@ -240,8 +239,8 @@ At the centre: **a training run above the threshold.** Around it, four rings. Ea
 #### Question: Open
 id:: 8d8479c7-a8f1-49f9-8e3d-8f151a9a7a93
 content:: Place each of the seventeen actors on one ring: Declares, Holds the evidence, Verifies, or Outside the declaration. One line per actor: United States, China, Taiwan, Netherlands, Japan, South Korea, BIS, Intelligence community, California, No AI verification body, ASML, TSMC, NVIDIA, Cloud providers, Frontier labs, Proxies, Deployers.
-assessment-instructions:: Key: Declares: United States, China, Cloud providers, Frontier labs. Holds the evidence: Taiwan, Netherlands, Japan, South Korea, ASML, TSMC, NVIDIA. Verifies: BIS, Intelligence community, California, No AI verification body. Outside the declaration: Proxies, Deployers. Score the share of the seventeen placed on the key ring, scaled to 100. {--{"author":"Elias's AI","timestamp":1788357108452}@@Two placements are meant to be argued with and earn credit when the learner gives the reason: a cloud provider on Declares (Baker names cloud compute providers among the Provers)--}{++{"author":"Elias's AI","timestamp":1788357108452}@@Only exact key matches count; a placement off the key ring earns nothing however well it is argued. Two placements are the ones learners most often dispute: a cloud provider on Declares++} and the proxies beside the deployers on Outside the {--{"author":"Elias's AI","timestamp":1788357108452}@@declaration (opposite in intent, alike in the one property--}{++{"author":"Elias's AI","timestamp":1788357108452}@@declaration. They score like any other placement; their reasons belong in++} the{--{"author":"Elias's AI","timestamp":1788357108452}@@ ring names).--}{++{"author":"Elias's AI","timestamp":1788357108452}@@ feedback.++} No generic praise.
-feedback-instructions:: For every actor placed on the wrong ring, give the key ring and XLab's one-line reason from the placement key callout below.{++{"author":"Elias's AI","timestamp":1788357108452}@@ If the learner argued against the cloud providers on Declares or the proxies beside the deployers, answer the argument: Baker names cloud compute providers among the Provers; the proxies and the deployers are opposite in intent and alike in the one property the ring names.++} For correct placements, the ring name is the explanation; do not expand them. Then tell the learner to read the finished map.
+assessment-instructions:: Key: Declares: United States, China, Cloud providers, Frontier labs. Holds the evidence: Taiwan, Netherlands, Japan, South Korea, ASML, TSMC, NVIDIA. Verifies: BIS, Intelligence community, California, No AI verification body. Outside the declaration: Proxies, Deployers. Score the share of the seventeen placed on the key ring, scaled to 100. Only exact key matches count; a placement off the key ring earns nothing however well it is argued. Two placements are the ones learners most often dispute: a cloud provider on Declares and the proxies beside the deployers on Outside the declaration. They score like any other placement; their reasons belong in the feedback. No generic praise.
+feedback-instructions:: For every actor placed on the wrong ring, give the key ring and XLab's one-line reason from the placement key callout below. If the learner argued against the cloud providers on Declares or the proxies beside the deployers, answer the argument: Baker names cloud compute providers among the Provers; the proxies and the deployers are opposite in intent and alike in the one property the ring names. For correct placements, the ring name is the explanation; do not expand them. Then tell the learner to read the finished map.
 
 #### Text
 content::
@@ -282,49 +281,7 @@ Read your rings from the inside out. Exactly two actors on this board owe anybod
 
 Now read the colours across the rings instead of around them. Roles do not stay in their band — the cloud provider holds four of them at once, and the ring it sits on tells you none of the four. The section gives you three questions to ask of any actor: where does it sit on the chain (position, Table 4, and the map in 1.2.1 is where you practise it), what can it do inside a regime (roles), what does it want today (posture). These rings are a fourth, and a narrower one: not where an actor sits, but what part it plays in checking a declaration. All four cut across each other, which is why no single one of them is the map.
 
-{--{"author":"Elias's AI","timestamp":1788357130419}@@#### Question: Choice
-id:: 9f2573e0-1f40-40be-85f1-ba9107156979
-content:: Take one actor off the board entirely. Whose removal stops a frontier training run soonest — this week, not this decade?
-options::
-- [x] The cloud providers.
-- ASML.
-- TSMC.
-- --}The{--{"author":"Elias's AI","timestamp":1788357130419}@@ Bureau of Industry and Security.
-feedback-instructions:: Give XLab's reasoning for the option chosen, then the lesson. Cloud providers: "The run happens on their machines. Access can be suspended this afternoon — and they are the other actor the regime asks for a declaration, because the cluster it happens on is theirs." ASML: "The most consequential removal on this board and the slowest. ASML is 100% of EUV lithography, so taking it away eventually takes leading-edge fabrication with it — but no training run stops this week, because the chips already exist." TSMC: "Same shape as ASML, one step nearer: ~90% of sub-7nm logic. It stops the next generation of chips, not the run already loaded." BIS: "It writes and enforces export controls and trains nothing. Remove it and the rules stop being enforced — which loosens the regime rather than stopping the activity." Lesson: "That gap is the thing a ring map is drawn to show. The removal that bites soonest and the removal that matters most are different actors, on different rings, and a regime that reaches only for the second--}{++{"author":"Elias's AI","timestamp":1788357130419}@@ second-order question (take++} one{--{"author":"Elias's AI","timestamp":1788357130419}@@ buys nothing this year. Ask both questions of any chokepoint you are offered." No praise.
-
-#### Text
-content::
-:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
-**The cloud providers.** The run happens on their machines. Access can be suspended this afternoon — and they are the other --}{++{"author":"Elias's AI","timestamp":1788357130419}@@ ++}actor {--{"author":"Elias's AI","timestamp":1788357130419}@@the regime asks for a declaration, because --}{++{"author":"Elias's AI","timestamp":1788357130419}@@off ++}the{--{"author":"Elias's AI","timestamp":1788357130419}@@ cluster it happens on is theirs.
-
-**ASML.** The most consequential removal on this board--}{++{"author":"Elias's AI","timestamp":1788357130419}@@ board)++} and the{--{"author":"Elias's AI","timestamp":1788357130419}@@ slowest. ASML is 100% of EUV lithography, so taking it away eventually takes leading-edge fabrication with it — but no training run stops this week, because the chips already exist.
-
-**TSMC.** Same shape as ASML, one step nearer: ~90% of sub-7nm logic. It stops the next generation of chips, not the run already loaded.
-
-**The Bureau of Industry and Security.** It writes and enforces export controls and trains nothing. Remove it and the rules stop being enforced — which loosens the regime rather than stopping the activity.
-
-That gap is the thing a ring map is drawn to show. The removal that bites soonest and the removal that matters most are different actors, on different rings, and a regime that reaches only for the second one buys nothing this year. Ask both questions of any chokepoint you are offered.
-:::
-
-\### 6. Three--}{++{"author":"Elias's AI","timestamp":1788357130419}@@ three optional++} written answers{--{"author":"Elias's AI","timestamp":1788357130419}@@ (optional)
-
-#### Question: Open
-id:: 05d81c94-4e73-4bc5-a462-aa7753def986
-content:: Optional: Tag every functional role Taiwan holds. There are at least three.
-optional:: true
-assessment-instructions:: XLab's marking key, 3 points: (1) Taiwan is named as a chokepoint controller, and the reason is the fabrication step rather than the country (Table 2: "the single tightest physical chokepoint in the system"); reasoning required. (2) Taiwan is named as an information holder: what was fabricated, how much, and for whom (Table 5: "Who already knows what verifiers need to learn?"). (3) Taiwan is named as a victim or beneficiary: it carries the risk of being the chokepoint without controlling the conflict over it (Table 2: "being both the prize and the battlefield --}{++{"author":"Elias's AI","timestamp":1788357130419}@@ follow ++}in{--{"author":"Elias's AI","timestamp":1788357130419}@@ a conflict it does not control"); reasoning required. No credit for naming Taiwan's three roles without saying what makes each one true. No generic praise.
-
-#### Question: Open
-id:: adc1c6ef-76db-4be7-840c-6456e8ae2805
-content:: Optional: For one specific frontier training run, list--}{++{"author":"Elias's AI","timestamp":1788357130419}@@ [[../Lenses/XLab Verification - v-actor-edges|1.2.2]], after++} the {--{"author":"Elias's AI","timestamp":1788357130419}@@information holders in order of how complete their picture is.
-optional:: true
-assessment-instructions:: XLab's marking key, 3 points: (1) the information holders--}{++{"author":"Elias's AI","timestamp":1788357130419}@@edges++} are{--{"author":"Elias's AI","timestamp":1788357130419}@@ put in an actual order, not listed; (2, worth 2 points) each rank carries the reason its picture is more or less complete, what that actor sees and what it cannot see (Table 4 gives each stage its holding: the lab knows what was trained and on what, the cloud holds logs and billing, the fab holds shipments); reasoning required. No credit for listing information holders in the order the lesson happens to print them, with no claim about completeness. No generic praise.
-
-#### Question: Open
-id:: 160e3cec-7fa2-4d1f-bb4f-d7140e91f58d
-content:: Optional: Name one actor that is a capability holder and an enforcement authority at the same time, and say why that pairing should make you uneasy.
-optional:: true
-assessment-instructions:: XLab's marking key, 3 points: (1) the actor named holds capability and enforcement at once; --}{++{"author":"Elias's AI","timestamp":1788357130419}@@ drawn ++}on this{--{"author":"Elias's AI","timestamp":1788357130419}@@ roster that is a state with a frontier programme of its own (Table 3 splits one signatory into institutions that do not want the same thing); (2, worth 2 points) the unease is stated as a mechanism: the same actor builds the thing and judges whether the rules about it were broken, so an unfavourable finding costs it twice; reasoning required. No credit for calling it a conflict of interest with no account of what the conflict costs the actor. No generic praise.--}{++{"author":"Elias's AI","timestamp":1788357130419}@@ board.++}
+The second-order question (take one actor off the board) and the three optional written answers follow in [[../Lenses/XLab Verification - v-actor-edges|1.2.2]], after the edges are drawn on this board.
 
 #### Text
 content::

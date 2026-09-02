@@ -18,24 +18,18 @@ International Atomic Energy Agency (2024)
 
 #### Article
 source:: [[../articles/grossi-iaea-safeguards-serving-nuclear-non-proliferation]]
-from:: {--{"author":"Elias's AI","timestamp":1788357606735}@@### What are IAEA safeguards?
-to:: Similar to--}{++{"author":"Elias's AI","timestamp":1788357606735}@@Preventing++} the {--{"author":"Elias's AI","timestamp":1788357606735}@@NPT, the Treaty for the Prohibition of Nuclear Weapons in Latin America--}{++{"author":"Elias's AI","timestamp":1788357606735}@@spread of nuclear weapons is a complex task.
-to:: facilities++} and{--{"author":"Elias's AI","timestamp":1788357606735}@@ the Caribbean (Treaty of Tlatelolco, 1967) requires its parties--}{++{"author":"Elias's AI","timestamp":1788357606735}@@ other items subject++} to{--{"author":"Elias's AI","timestamp":1788357606735}@@ conclude a comprehensive --}{++{"author":"Elias's AI","timestamp":1788357606735}@@ ++}safeguards{--{"author":"Elias's AI","timestamp":1788357606735}@@ agreement (CSA) with the IAEA – as do the other regional nuclear-weapon-free zone treaties, i.e. the South Pacific Nuclear Free Zone Treaty (Treaty--}{++{"author":"Elias's AI","timestamp":1788357606735}@@ are used only for peaceful purposes.
+from:: Preventing the spread of nuclear weapons is a complex task.
+to:: facilities and other items subject to safeguards are used only for peaceful purposes.
 
 #### Article
 source:: [[../articles/grossi-iaea-safeguards-serving-nuclear-non-proliferation]]
 from:: ### What are IAEA safeguards?
-to:: to place all++} of {--{"author":"Elias's AI","timestamp":1788357606735}@@Rarotonga, 1985), the Southeast Asia Nuclear-Weapon-Free Zone Treaty (Treaty of Bangkok, 1995),--}{++{"author":"Elias's AI","timestamp":1788357606735}@@their nuclear material and activities under IAEA safeguards and to allow++} the {--{"author":"Elias's AI","timestamp":1788357606735}@@African Nuclear-Weapon-Free Zone Treaty (Treaty of Pelindaba, 1996) and the Central Asian Nuclear-Weapon-Free Zone Treaty (Treaty of Semipalatinsk, 2006).--}{++{"author":"Elias's AI","timestamp":1788357606735}@@IAEA to verify their commitments.++}
+to:: to place all of their nuclear material and activities under IAEA safeguards and to allow the IAEA to verify their commitments.
 
 #### Article
 source:: [[../articles/grossi-iaea-safeguards-serving-nuclear-non-proliferation]]
 from:: ### Why do IAEA safeguards matter?
-to:: {--{"author":"Elias's AI","timestamp":1788357606735}@@(Photo Credit: UN Photo/Manuel Elias)
-
-#### Article
-source:: [[../articles/grossi-iaea-safeguards-serving-nuclear-non-proliferation]]
-from:: ### Nuclear material subject to safeguards
-to:: Uranium ore extracted by Brazil Nuclear Industries (INB) in Caeté, Brazil (Photo credit: Marcelo Corrêa/INB)--}{++{"author":"Elias's AI","timestamp":1788357606735}@@Only a few of these activities involve the type of nuclear material that could potentially be diverted to produce nuclear weapons or other nuclear explosive devices.++}
+to:: Only a few of these activities involve the type of nuclear material that could potentially be diverted to produce nuclear weapons or other nuclear explosive devices.
 
 #### Article
 source:: [[../articles/grossi-iaea-safeguards-serving-nuclear-non-proliferation]]
@@ -60,13 +54,13 @@ content::
 \### Document 3. Iraq and undeclared infrastructure
 
 \### [Experience and Challenges in WMD Treaty Verification: a Comparative View](https://www.dfat.gov.au/about-us/publications/Pages/background-papers-on-nuclear-verification-issues)
-*Background Papers on Nuclear Verification Issues, Paper {--{"author":"Elias's AI","timestamp":1788357601854}@@1 —--}{++{"author":"Elias's AI","timestamp":1788357601854}@@1,++} §5.4 Implications for safeguards effectiveness; §5.7.2 Undeclared nuclear sites*
+*Background Papers on Nuclear Verification Issues, Paper 1, §5.4 Implications for safeguards effectiveness; §5.7.2 Undeclared nuclear sites*
 John Carlson, Australian Safeguards and Non-Proliferation Office
 
 #### Article
 source:: [[../articles/carlson-background-papers-on-nuclear-verification-issues]]
 from:: #### 5.4. Implications for safeguards effectiveness
-to:: {--{"author":"Elias's AI","timestamp":1788357609860}@@refuses to conclude an additional protocol, Egyptian authorities cooperated with the IAEA in resolving the failures once they were detected.--}{++{"author":"Elias's AI","timestamp":1788357609860}@@Environmental analysis and satellite imagery have since become well established safeguards techniques.++}
+to:: Environmental analysis and satellite imagery have since become well established safeguards techniques.
 
 #### Article
 source:: [[../articles/carlson-background-papers-on-nuclear-verification-issues]]
@@ -259,26 +253,7 @@ feedback-instructions:: Go part by part: which of the four were sound, which wer
 
 #### Text
 content::
-:::callout {--{"author":"Elias's AI","timestamp":1788357655270}@@{title="Works cited" tone="neutral" collapse="closed"}
-International Atomic Energy Agency. *IAEA Safeguards: Serving Nuclear Non-Proliferation*. 2024. [iaea.org](https://www.iaea.org/sites/default/files/18/09/sg-serving-nuclear-non-proliferation.pdf)
-*Document 1: the legal commitment underlying comprehensive safeguards.*
-
-Shavit, Yonadav. "What Does It Take to Catch a Chinchilla? Verifying Rules on Large-Scale Neural Network Training via Compute Monitoring." *arXiv*, 2023. CC BY 4.0. [arxiv.org](https://arxiv.org/abs/2303.11341)
-*Document 2: the three-part compute-monitoring proposal.*
-
-Carlson, John. "Experience and Challenges in WMD Treaty Verification: A Comparative View." *Background Papers on Nuclear Verification Issues*, Paper 1, Australian Safeguards and Non-Proliferation Office. [dfat.gov.au](https://www.dfat.gov.au/about-us/publications/Pages/background-papers-on-nuclear-verification-issues)
-*Document 3: Iraq and undeclared infrastructure.*
-
-Baker, Mauricio. "Nuclear Arms Control Verification and Lessons for AI Treaties." *arXiv*, 2023. CC BY 4.0. [arxiv.org](https://arxiv.org/abs/2304.04123)
-*Source of the excerpts in the task reveals.*
-
-XLab. "0.3 History, Precedents, Parallels." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/precedents)
-*The source lesson this page adapts, including the five tasks and their model answers.*
-:::
-
-#### Text
-content::
-:::callout --}{title="Task 5: model answer (open after you have answered)" tone="neutral" collapse="closed"}
+:::callout {title="Task 5: model answer (open after you have answered)" tone="neutral" collapse="closed"}
 **1. The strongest valid parallel.** Verified accountancy of a controlled, mandatory input, carried by a duty on the holder to declare it and accept verification. Document 1 places all nuclear material in peaceful activities under safeguards and obliges the IAEA to verify non-diversion; Document 2 requires that every chip be accounted for and that the logs of a sufficient subset be inspected. The parallel is the accountancy of an input, not any resemblance between uranium and chips, which is also why it survives the fact that the two materials behave nothing alike.
 
 **2. The step the Iraq case puts under greatest pressure.** The move from "inspection of registered chips found no violation" to "no prohibited development is occurring". That step needs the declaration to be complete, and completeness is what Document 3 shows was absent: undeclared activity sat on safeguarded sites but away from the strategic points inspectors could reach, and detecting undeclared activity at undeclared sites is named there as the greatest challenge facing safeguards.
@@ -300,7 +275,7 @@ Each clause of that narrowing is doing work: "covered chips", because Document 2
 **Appendix G.8, Assessment.** "There are good reasons to tentatively consider the verification system described above highly reliable: it has at least 5 layers of defense for detecting any serious attempt to possess and use many cutting-edge AI chips at undeclared locations, and it has 3 layers of defense for detecting tampering with chips at declared locations." His conclusion, worded exactly: "Overall, this shows that methods that have been widely used for nuclear arms control verification can be adapted to create a reliable system for verifying accounts of AI chips." Verifying accounts of AI chips, not verifying the absence of all prohibited AI development. That is the properly limited conclusion.
 
 Source: Mauricio Baker, [Nuclear Arms Control Verification and Lessons for AI Treaties](https://arxiv.org/abs/2304.04123) (2023), CC BY 4.0.
-:::{++{"author":"Elias's AI","timestamp":1788357663380}@@
+:::
 
 #### Text
 content::
@@ -319,6 +294,6 @@ Baker, Mauricio. "Nuclear Arms Control Verification and Lessons for AI Treaties.
 
 XLab. "0.3 History, Precedents, Parallels." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/precedents)
 *The source lesson this page adapts, including the five tasks and their model answers.*
-:::++}
+:::
 {>>{"author":"Elias's AI","timestamp":1788009463303}@@Proposed: drop per-lesson XLab source footer.<<}
 

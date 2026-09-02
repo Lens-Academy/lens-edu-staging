@@ -26,15 +26,14 @@ content::
 
 Colors on XLab's map show a country's primary layer. Most of the interesting countries sit in more than one.
 
-| Layer | {++{"author":"Elias's AI","timestamp":1788357203340}@@Why it matters for verification | Stat | ++}To verify at this layer, you'd need |{--{"author":"Elias's AI","timestamp":1788357203340}@@ Stat |
---}{++{"author":"Elias's AI","timestamp":1788357203340}@@
-| --- ++}| --- | --- | --- |
-| Chip design & EDA | Where capability is born. The architectures and the design software behind every advanced chip belong to a handful of US and UK firms, so rules can attach here before a single wafer exists. | 2 EDA firms |{++{"author":"Elias's AI","timestamp":1788357203340}@@ United States, United Kingdom |++}
-| Equipment & materials | The narrowest chokepoint in the chain. A few firms in three allied countries build the tools and supply the chemistry every advanced fab depends on. | EUV: 1 company |{++{"author":"Elias's AI","timestamp":1788357203340}@@ United States, Japan, Netherlands, Germany |++}
-| Fabrication | Nearly all frontier chips are made in a handful of known facilities. Few sites, known addresses, hard to hide — which is exactly what makes a verification regime imaginable. | ≈90% → 1 island |{++{"author":"Elias's AI","timestamp":1788357203340}@@ United States, China, Taiwan, South Korea, Germany |++}
-| Memory (HBM) | No high-bandwidth memory, no AI accelerator. HBM comes from three firms in two countries — a second countable chokepoint stacked right next to the first. | 3 firms, 2 countries |{++{"author":"Elias's AI","timestamp":1788357203340}@@ United States, China, South Korea |++}
-| Packaging, assembly & test | Where chips become products and fan out into the world — and where they can slip out of sight. Transshipment and diversion risk lives in this layer. | the evasion surface |{++{"author":"Elias's AI","timestamp":1788357203340}@@ Taiwan, Singapore, Malaysia, Vietnam, Thailand |++}
-| Compute & models | What the rules are ultimately about. Frontier-scale data centers are big, hot, and power-hungry — easy to find, harder to audit. The models inside them are hardest of all. | easy to find, hard to audit |{++{"author":"Elias's AI","timestamp":1788357203340}@@ United States, China, United Kingdom, Singapore, Malaysia, Thailand, United Arab Emirates, Saudi Arabia |++}
+| Layer | Why it matters for verification | Stat | To verify at this layer, you'd need |
+| --- | --- | --- | --- |
+| Chip design & EDA | Where capability is born. The architectures and the design software behind every advanced chip belong to a handful of US and UK firms, so rules can attach here before a single wafer exists. | 2 EDA firms | United States, United Kingdom |
+| Equipment & materials | The narrowest chokepoint in the chain. A few firms in three allied countries build the tools and supply the chemistry every advanced fab depends on. | EUV: 1 company | United States, Japan, Netherlands, Germany |
+| Fabrication | Nearly all frontier chips are made in a handful of known facilities. Few sites, known addresses, hard to hide — which is exactly what makes a verification regime imaginable. | ≈90% → 1 island | United States, China, Taiwan, South Korea, Germany |
+| Memory (HBM) | No high-bandwidth memory, no AI accelerator. HBM comes from three firms in two countries — a second countable chokepoint stacked right next to the first. | 3 firms, 2 countries | United States, China, South Korea |
+| Packaging, assembly & test | Where chips become products and fan out into the world — and where they can slip out of sight. Transshipment and diversion risk lives in this layer. | the evasion surface | Taiwan, Singapore, Malaysia, Vietnam, Thailand |
+| Compute & models | What the rules are ultimately about. Frontier-scale data centers are big, hot, and power-hungry — easy to find, harder to audit. The models inside them are hardest of all. | easy to find, hard to audit | United States, China, United Kingdom, Singapore, Malaysia, Thailand, United Arab Emirates, Saudi Arabia |
 
 \### The pipeline · sand to model
 
@@ -183,7 +182,7 @@ Every country card is tagged with the actor roles it plays in this module: capab
 
 \### Anatomy of a Chip
 
-{--{"author":"Elias's AI","timestamp":1788357206032}@@Explore--}{++{"author":"Elias's AI","timestamp":1788357206032}@@Optional: explore++} the components inside an AI accelerator and connect them to the supply-chain stages shown above: [ETO Chip Explorer](https://chipexplorer.eto.tech/).{>>{"author":"Elias's AI","timestamp":1788016617137}@@Native reproduction of XLab's interactive-map widget data (src/lib/verification/data/interactive-map.ts): layers, pipeline, country cards, stats and chip-explorer link. The world map itself is an SVG drawn from that data at runtime with no static image in xlab/public, so the geographic picture is not reproduced; the data behind it is.<<}
+Optional: explore the components inside an AI accelerator and connect them to the supply-chain stages shown above: [ETO Chip Explorer](https://chipexplorer.eto.tech/).{>>{"author":"Elias's AI","timestamp":1788016617137}@@Native reproduction of XLab's interactive-map widget data (src/lib/verification/data/interactive-map.ts): layers, pipeline, country cards, stats and chip-explorer link. The world map itself is an SVG drawn from that data at runtime with no static image in xlab/public, so the geographic picture is not reproduced; the data behind it is.<<}
 
 #### Text
 content::

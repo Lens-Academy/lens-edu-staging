@@ -46,7 +46,7 @@ Open [[../Lenses/XLab Verification - v-paper-scher-treaty|the draft agreement]] 
 
 Participants are not expected to read the document continuously from beginning to end. Instead, examine it article by article, focusing on the questions below.
 
-Read all 4 questions before beginning the examination of the agreement. Answer any 3 of the 4. All four are marked optional here so that the lens can be completed with any {--{"author":"Elias's AI","timestamp":1788357086531}@@three; quote the words you are talking about.--}{++{"author":"Elias's AI","timestamp":1788357086531}@@three.++}
+Read all 4 questions before beginning the examination of the agreement. Answer any 3 of the 4. All four are marked optional here so that the lens can be completed with any three.
 
 #### Question: Open
 id:: 5c257204-3687-4257-a4f3-ecb75d22e20f
@@ -55,8 +55,8 @@ content:: **1. Distinguish between non-binding and binding provisions**
 Examine the Preamble and Article I. Identify and mark the exact point at which the text begins to impose a binding obligation on a specific actor. Explain which grammatical or legal features distinguish the provisions on either side of this point.
 
 Guidance: focus on the verbs used rather than on the section headings.
-{++{"author":"Elias's AI","timestamp":1788357088587}@@placeholder:: Quote the words you are talking about.
-++}optional:: true
+placeholder:: Quote the words you are talking about.
+optional:: true
 assessment-instructions:: Full credit needs three things: the learner quotes the specific words where the text first binds a specific actor (the transition out of preambular and purpose language into an operative obligation on a Party), names the grammatical markers on each side (aspirational or descriptive language such as recognizing, affirming, should, versus operative verbs such as shall, shall not, may not, addressed to a named Party), and shows the contrast with quotations from both sides. Partial credit for the right location without the verb analysis. Do not require agreement with the agreement's substance. No generic praise.
 
 #### Question: Open
@@ -70,8 +70,8 @@ Select one prohibition contained in Article IV, V, VI, or VIII. Identify:
 - what a Party is required to permit.
 
 A prohibition may not contain all three types of requirement. Support your answer with references to the relevant text.
-{++{"author":"Elias's AI","timestamp":1788357090787}@@placeholder:: Quote the words you are talking about.
-++}optional:: true
+placeholder:: Quote the words you are talking about.
+optional:: true
 assessment-instructions:: Full credit: one prohibition from Article IV, V, VI, or VIII is named; each of the three requirement types (do, refrain, permit) is either filled with a quoted or closely paraphrased clause or explicitly marked as absent from that prohibition; the references are to the actual text. Penalize answers that describe the article's purpose instead of its three duties, and answers that invent a duty the text does not contain. No generic praise.
 
 #### Question: Open
@@ -87,8 +87,8 @@ For the prohibition selected in Question 2, determine where the method for verif
 Support your conclusion with a quotation from the agreement.
 
 Guidance: compare Articles VII and IX.
-{++{"author":"Elias's AI","timestamp":1788357093288}@@placeholder:: Quote the words you are talking about.
-++}optional:: true
+placeholder:: Quote the words you are talking about.
+optional:: true
 assessment-instructions:: Full credit: the learner picks one of the three locations for the prohibition chosen in Question 2 and supports it with a quotation from the agreement that shows where the method lives (the article itself, an annex, or a delegation to an institution or body). The comparison of Article VII (chip use verification) with Article IX (research restriction verification) should surface that the two prohibitions locate their methods differently. Partial credit for a correct location without a quotation. No generic praise.
 
 #### Question: Open
@@ -98,9 +98,9 @@ content:: **4. Examine entry into force and withdrawal**
 Determine when the agreement enters into force and describe the procedure by which a Party may withdraw from it. Identify any applicable conditions or notice periods. Compare these provisions with the model clauses in Annex E of the Practice Guide to International Treaties.
 
 Relevant provision: Article XV, Withdrawal and Duration.
-{++{"author":"Elias's AI","timestamp":1788357099294}@@placeholder:: Quote the words you are talking about.
-++}optional:: true
-assessment-instructions:: Full credit: the {++{"author":"Elias's AI","timestamp":1788357099294}@@learner notes that the draft contains no ++}entry-into-force {--{"author":"Elias's AI","timestamp":1788357099294}@@condition is stated from the text,--}{++{"author":"Elias's AI","timestamp":1788357099294}@@clause (Article XV gives only unlimited duration and withdrawal) and does not invent one;++} the withdrawal procedure is described {++{"author":"Elias's AI","timestamp":1788357099294}@@from Article XV ++}with its notice period {++{"author":"Elias's AI","timestamp":1788357099294}@@(12 months, notified to the CTB), the conditions that apply during that period (cooperation with CTB ++}and {--{"author":"Elias's AI","timestamp":1788357099294}@@any conditions quoted from --}{++{"author":"Elias's AI","timestamp":1788357099294}@@Executive Council certification, removal or permanent disabling of covered chip clusters and ASI-enabling assets), and continued exposure to ++}Article {--{"author":"Elias's AI","timestamp":1788357099294}@@XV,--}{++{"author":"Elias's AI","timestamp":1788357099294}@@XII after withdrawal;++} and at least one concrete comparison is drawn with the model final clauses in Annex E of the Practice Guide (for example on notice periods, on who receives the notification, or on conditions attached to withdrawal). Partial credit for{--{"author":"Elias's AI","timestamp":1788357099294}@@ entry into force and--} withdrawal without the comparison. No generic praise.
+placeholder:: Quote the words you are talking about.
+optional:: true
+assessment-instructions:: Full credit: the learner notes that the draft contains no entry-into-force clause (Article XV gives only unlimited duration and withdrawal) and does not invent one; the withdrawal procedure is described from Article XV with its notice period (12 months, notified to the CTB), the conditions that apply during that period (cooperation with CTB and Executive Council certification, removal or permanent disabling of covered chip clusters and ASI-enabling assets), and continued exposure to Article XII after withdrawal; and at least one concrete comparison is drawn with the model final clauses in Annex E of the Practice Guide (for example on notice periods, on who receives the notification, or on conditions attached to withdrawal). Partial credit for withdrawal without the comparison. No generic praise.
 
 #### Text
 content::
@@ -308,7 +308,7 @@ options::
 - The gap (Verified proxy vs. actual goal; decay; review)
 - No organ (Advocacy: sounds load-bearing, binds no one)
 optional:: true
-feedback-instructions:: Correct: the institution & consequences. If right: "Institution and consequences: a finding procedure and an automatic, specified response. Now compare the original version in the source {--{"author":"Elias's AI","timestamp":1788357101560}@@line.--}{++{"author":"Elias's AI","timestamp":1788357101560}@@line that follows.++} 'Shall suspend' versus 'may recommend' is one verb apart and a whole organ apart. Most real regimes carry the weak verb, and it is where they go to die." If the adversary: "It responds to a violator, but the adversary organ is the threat model that provisions are designed against, before anything happens. This clause is about after: what follows a finding. Consequences are the institution's teeth." Any other bin: "Follow the sequence: finding, then consequence, then referral. This is the institutional organ doing its job." Then reveal the source: Reykjavik Protocol, Article VIII, amended teaching text (fictional). The weak original read: the Council “may recommend measures to restore compliance.” No praise.
+feedback-instructions:: Correct: the institution & consequences. If right: "Institution and consequences: a finding procedure and an automatic, specified response. Now compare the original version in the source line that follows. 'Shall suspend' versus 'may recommend' is one verb apart and a whole organ apart. Most real regimes carry the weak verb, and it is where they go to die." If the adversary: "It responds to a violator, but the adversary organ is the threat model that provisions are designed against, before anything happens. This clause is about after: what follows a finding. Consequences are the institution's teeth." Any other bin: "Follow the sequence: finding, then consequence, then referral. This is the institutional organ doing its job." Then reveal the source: Reykjavik Protocol, Article VIII, amended teaching text (fictional). The weak original read: the Council “may recommend measures to restore compliance.” No praise.
 
 #### Text
 content::
@@ -565,5 +565,5 @@ Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement
 XLab. "1.1 Anatomy of a (pause) agreement." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-anatomy)
 *The source lesson this page adapts, including the treaty assignment and the Anatomy Drill.*
 
-The Swiss Practice Guide to International Treaties is cited inline {--{"author":"Elias's AI","timestamp":1788357103780}@@above and has no--}{++{"author":"Elias's AI","timestamp":1788357103780}@@above; XLab's citation registry holds it only as a pending++} entry {--{"author":"Elias's AI","timestamp":1788357103780}@@in XLab's citation registry.--}{++{"author":"Elias's AI","timestamp":1788357103780}@@without bibliographic fields.++}
+The Swiss Practice Guide to International Treaties is cited inline above; XLab's citation registry holds it only as a pending entry without bibliographic fields.
 :::

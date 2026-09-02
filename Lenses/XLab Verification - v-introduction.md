@@ -33,7 +33,7 @@ The case at full strength, from the people who argue it most directly. Any one o
 id:: b7e5023a-0fed-4fc6-be79-0c7ece9f3106
 content:: Optional: The strongest objection.
 
-In a short written note, construct the strongest objection you can to the case {--{"author":"Elias's AI","timestamp":1788357533161}@@above —--}{++{"author":"Elias's AI","timestamp":1788357533161}@@above,++} and state what would change your mind, in either direction.
+In a short written note, construct the strongest objection you can to the case above, and state what would change your mind, in either direction.
 feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 optional:: true
 
@@ -49,11 +49,11 @@ Some of the most concerning capabilities of AI have come to light with recent re
 
 In April 2026, Anthropic reported that Claude Mythos Preview identified [thousands of previously unknown zero-day vulnerabilities](https://www.anthropic.com/project/glasswing/), including critical flaws in every major operating system and web browser.
 
-This work was conducted for defensive purposes. But the underlying capability is dual-use: a system that can find unknown vulnerabilities for defenders to protect against could do the same for an attacker. Imagine what Mythos-level capabilities could accomplish if a model were instructed to cause {--{"author":"Elias's AI","timestamp":1788357514458}@@harm —--}{++{"author":"Elias's AI","timestamp":1788357514458}@@harm,++} or simply discovered that harmful actions helped it achieve some other objective.
+This work was conducted for defensive purposes. But the underlying capability is dual-use: a system that can find unknown vulnerabilities for defenders to protect against could do the same for an attacker. Imagine what Mythos-level capabilities could accomplish if a model were instructed to cause harm, or simply discovered that harmful actions helped it achieve some other objective.
 
 In fact, we no longer have to imagine this. Models have already caused real-world harm while pursuing objectives that were not themselves malicious.
 
-During an OpenAI cybersecurity test, a group of {--{"author":"Elias's AI","timestamp":1788357527694}@@agents —--}{++{"author":"Elias's AI","timestamp":1788357527694}@@agents,++} which weren’t supposed to have Internet {--{"author":"Elias's AI","timestamp":1788357527694}@@access —--}{++{"author":"Elias's AI","timestamp":1788357527694}@@access,++} coordinated to successfully escape their testing environment and hack into Hugging Face’s infrastructure. Over [a 4.5-day campaign](https://huggingface.co/blog/agent-intrusion-technical-timeline), the agents executed over 17,600 actions, compromised several layers of infrastructure, obtained illicit administrator access, and attempted to reach Hugging Face’s source-code supply chain. They did this to steal existing benchmark solutions rather than complete the assigned problems legitimately.
+During an OpenAI cybersecurity test, a group of agents, which weren’t supposed to have Internet access, coordinated to successfully escape their testing environment and hack into Hugging Face’s infrastructure. Over [a 4.5-day campaign](https://huggingface.co/blog/agent-intrusion-technical-timeline), the agents executed over 17,600 actions, compromised several layers of infrastructure, obtained illicit administrator access, and attempted to reach Hugging Face’s source-code supply chain. They did this to steal existing benchmark solutions rather than complete the assigned problems legitimately.
 
 OpenAI was not alone. [Anthropic later disclosed that Claude models similarly gained unauthorized access to three real organizations](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals). You can find other exploitation incidents involving model testing in [FelonyBench](https://www.felonybench.com/).
 
@@ -243,15 +243,14 @@ It’s clear that ASI is no longer a hypothetical risk. It will require delibera
 :::callout {title="Optional: A Short History of AI Acceleration" tone="neutral" collapse="closed"}
 How fast is fast? Two charts from Our World in Data's [brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai) show the pace.
 
-![Timeline of notable artificial intelligence systems and their capabilities, 1940 to {--{"author":"Elias's AI","timestamp":1788356490207}@@today](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/owid-timeline-notable-ai-systems.png)--}{++{"author":"Elias's AI","timestamp":1788356490207}@@today](https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/ec3af0b6-4f4d-4a13-38d1-7f315f8f4c00/w=2332)++}
+![Timeline of notable artificial intelligence systems and their capabilities, 1940 to today](https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/ec3af0b6-4f4d-4a13-38d1-7f315f8f4c00/w=2332)
 
-![Test scores of AI systems on various capabilities relative to human performance, 1998 to {--{"author":"Elias's AI","timestamp":1788356490207}@@today](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/owid-test-scores-ai-vs-human.png)--}{++{"author":"Elias's AI","timestamp":1788356490207}@@today](https://ourworldindata.org/grapher/test-scores-ai-capabilities-relative-human-performance.png)++}
+![Test scores of AI systems on various capabilities relative to human performance, 1998 to today](https://ourworldindata.org/grapher/test-scores-ai-capabilities-relative-human-performance.png)
 
 Charts: Max Roser, [The brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai), Our World in Data (CC BY). Underlying benchmark data from Kiela et al., 2023. Interactive versions on the linked page.
 :::
 
-{--{"author":"Elias's AI","timestamp":1788357630858}@@#### Text
-content:: Charts: [Our World in Data](https://ourworldindata.org/brief-history-of-ai).--}{>>{"author":"Elias's AI","timestamp":1788011728883}@@Delete this whole Text segment: the callout above now covers it. The edit tool could not remove a segment that already carries a pending change.<<}{>>{"author":"Elias's AI","timestamp":1788009452090}@@Proposed: link only to Our World in Data (the original), not XLab.<<}
+{>>{"author":"Elias's AI","timestamp":1788011728883}@@Delete this whole Text segment: the callout above now covers it. The edit tool could not remove a segment that already carries a pending change.<<}{>>{"author":"Elias's AI","timestamp":1788009452090}@@Proposed: link only to Our World in Data (the original), not XLab.<<}
 
 #### Text
 content::
@@ -267,7 +266,7 @@ Domestic policy, while essential, therefore cannot answer every important questi
 
 \### Cooperation without trust
 
-The United States and China each have reasons to worry that an agreement could constrain its own development while leaving the other side free to advance. But some of history’s most consequential international institutions were created precisely because states remained {--{"author":"Elias's AI","timestamp":1788357530078}@@competitors —--}{++{"author":"Elias's AI","timestamp":1788357530078}@@competitors:++} the U.S. and Soviet Union successfully averted nuclear war, despite being staunch political enemies. But in this state of competition and distrust, how do rivals enforce such agreements?
+The United States and China each have reasons to worry that an agreement could constrain its own development while leaving the other side free to advance. But some of history’s most consequential international institutions were created precisely because states remained competitors: the U.S. and Soviet Union successfully averted nuclear war, despite being staunch political enemies. But in this state of competition and distrust, how do rivals enforce such agreements?
 
 #### Question: Choice
 id:: 9c846d52-01fb-4a6e-8cf1-cdebe099a0d3

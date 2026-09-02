@@ -16,7 +16,7 @@ Put yourself on an IAEA verification team at the Fordow Fuel Enrichment Plant in
 
 Your first draft of the central finding reads:
 
-:::callout {--{"author":"Elias's AI","timestamp":1788357019110}@@{title="Initial finding" tone="red"}--}{++{"author":"Elias's AI","timestamp":1788357019110}@@{tone="red"}++}
+:::callout {tone="red"}
 "Enrichment at Fordow is 60 percent U-235, below weapons grade, and the facility's operating records match the declaration."
 :::
 
@@ -39,7 +39,7 @@ Here the independent stream is decisive. Inspectors swiped surfaces at Fordow an
 
 A revision that keeps each source attached to its claim:
 
-:::callout {--{"author":"Elias's AI","timestamp":1788357021367}@@{title="Revised finding" tone="green"}--}{++{"author":"Elias's AI","timestamp":1788357021367}@@{tone="green"}++}
+:::callout {tone="green"}
 "Iran declares enrichment at Fordow to 60 percent U-235, and the operating records kept by the Atomic Energy Organization of Iran agree with that declaration. Environmental swipe samples the Agency collected on 22 January 2023 contained particles enriched to 83.7 percent U-235, above the declared level and approaching weapons grade, and inspectors found two IR-6 cascades configured substantially differently from the declaration. Iran attributes the particles to unintended fluctuations while transitioning cascades toward 60 percent production. The Agency has not confirmed that account, and discussions to clarify the matter are ongoing."
 :::
 
@@ -84,18 +84,17 @@ thread each point to the readers who need it.
 
 #### Question: Open
 id:: cec5c7fa-f530-4f33-83da-cadb4b7115a2
-content:: {--{"author":"Elias's AI","timestamp":1788357023363}@@Optional: --}**Actor–authority–evidence map** (Map, about 700 words)
+content:: **Actor–authority–evidence map** (Map, about 700 words)
 
 Actor–authority–evidence map for any element of the supply chain.
 
 This output is a map, not a memo — build it as annotated rows, not paragraphs, carrying what the brief above asks each row to hold.
-{--{"author":"Elias's AI","timestamp":1788357025145}@@optional:: true
---}assessment-instructions:: One element of the advanced-AI supply chain is chosen and named. Score three things, roughly a third each: (1) the actors involved in that element are listed as rows; (2) each row states the authority that actor holds (a jurisdiction, a licence, ownership of a record, the power to interrupt); (3) each row states the evidence that would let an outside party verify what the actor is doing, and whether that evidence is produced by the actor itself or held by someone else. Reward rows that separate self-reported evidence from independently held evidence, the distinction this lesson teaches. No generic {--{"author":"Elias's AI","timestamp":1788357027115}@@praise.--}{++{"author":"Elias's AI","timestamp":1788357027115}@@praise.{>>{"author":"Elias's AI","timestamp":1788357027115}@@Course-creator note: this rubric is Lens-authored; XLab's slot says length, audience and review criteria are not drafted.<<}++}
-feedback-instructions:: Name the row where the evidence is only the actor's own say-so and ask what independent stream could check it. One short paragraph.{++{"author":"Elias's AI","timestamp":1788357027115}@@
+assessment-instructions:: One element of the advanced-AI supply chain is chosen and named. Score three things, roughly a third each: (1) the actors involved in that element are listed as rows; (2) each row states the authority that actor holds (a jurisdiction, a licence, ownership of a record, the power to interrupt); (3) each row states the evidence that would let an outside party verify what the actor is doing, and whether that evidence is produced by the actor itself or held by someone else. Reward rows that separate self-reported evidence from independently held evidence, the distinction this lesson teaches. No generic praise.{>>{"author":"Elias's AI","timestamp":1788357027115}@@Course-creator note: this rubric is Lens-authored; XLab's slot says length, audience and review criteria are not drafted.<<}
+feedback-instructions:: Name the row where the evidence is only the actor's own say-so and ask what independent stream could check it. One short paragraph.
 
 #### Text
 content::
-XLab also lists two written outputs for this lesson without briefs: a 600-word case briefing on actors, and an optional 600-word written output.++}
+XLab also lists two written outputs for this lesson without briefs: a 600-word case briefing on actors, and an optional 600-word written output.
 
 #### Text
 content::
