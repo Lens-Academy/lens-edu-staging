@@ -1774,11 +1774,11 @@ At cutting-edge fabs:
     
 -   •
     
-    [Tampering](#A7.SS5 "G.5 Detecting efforts to tamper with the design features of cutting-edge AI chips at known locations ‣ Appendix G How verification of AI chip accounts could be implemented ‣ Nuclear Arms Control Verification and Lessons for AI Treaties") and [diversion detection inspections](#A7.SS3 "G.3 Detecting efforts to get cutting-edge AI chips to undeclared locations ‣ Appendix G How verification of AI chip accounts could be implemented ‣ Nuclear Arms Control Verification and Lessons for AI Treaties")
+    {--{"author":"Luc's AI","timestamp":1788377546115}@@[Tampering](#A7.SS5 "G.5 Detecting efforts to tamper with the design features of cutting-edge AI chips at known locations ‣ Appendix G How verification of AI chip accounts could be implemented ‣ Nuclear Arms Control Verification --}{++{"author":"Luc's AI","timestamp":1788377546115}@@[[#^g5-detecting-efforts-to-tamper-with-the-design-features-of-cutting-edge-ai-chips-at-known-locations|Tampering]] ++}and{--{"author":"Luc's AI","timestamp":1788377546115}@@ Lessons for AI Treaties") and [diversion --}{++{"author":"Luc's AI","timestamp":1788377546115}@@ [[#^g3-detecting-efforts-to-get-cutting-edge-ai-chips-to-undeclared-locations|diversion ++}detection{--{"author":"Luc's AI","timestamp":1788377546115}@@ inspections](#A7.SS3 "G.3 Detecting efforts to get cutting-edge AI chips to undeclared locations ‣ Appendix G How verification of AI chip accounts could be implemented ‣ Nuclear Arms Control Verification and Lessons for AI Treaties")--}{++{"author":"Luc's AI","timestamp":1788377546115}@@ inspections]]++}
     
 -   •
     
-    [Design information verification](#S2.SS2.SSS4 "2.2.4 Design information verification ‣ 2.2 M&V methods at declared facilities ‣ 2 Nuclear M&V Methods ‣ Nuclear Arms Control Verification and Lessons for AI Treaties")
+    {--{"author":"Luc's AI","timestamp":1788377546453}@@[Design--}{++{"author":"Luc's AI","timestamp":1788377546453}@@[[#^224-design-information-verification|Design++} information{--{"author":"Luc's AI","timestamp":1788377546453}@@ verification](#S2.SS2.SSS4 "2.2.4 Design information verification ‣ 2.2 M&V methods at declared facilities ‣ 2 Nuclear M&V Methods ‣ Nuclear Arms Control Verification and Lessons for AI Treaties")--}{++{"author":"Luc's AI","timestamp":1788377546453}@@ verification]]++}
     
 -   •
     
@@ -1801,7 +1801,7 @@ At cutting-edge data centers and cutting-edge AI chip storage facilities:
     
 -   •
     
-    [Tampering](#A7.SS5 "G.5 Detecting efforts to tamper with the design features of cutting-edge AI chips at known locations ‣ Appendix G How verification of AI chip accounts could be implemented ‣ Nuclear Arms Control Verification and Lessons for AI Treaties") and [diversion detection inspections](#A7.SS3 "G.3 Detecting efforts to get cutting-edge AI chips to undeclared locations ‣ Appendix G How verification of AI chip accounts could be implemented ‣ Nuclear Arms Control Verification and Lessons for AI Treaties")
+    {--{"author":"Luc's AI","timestamp":1788377546774}@@[Tampering](#A7.SS5 "G.5 Detecting efforts to tamper with the design features of cutting-edge AI chips at known locations ‣ Appendix G How verification of AI chip accounts could be implemented ‣ Nuclear Arms Control Verification --}{++{"author":"Luc's AI","timestamp":1788377546774}@@[[#^g5-detecting-efforts-to-tamper-with-the-design-features-of-cutting-edge-ai-chips-at-known-locations|Tampering]] ++}and{--{"author":"Luc's AI","timestamp":1788377546774}@@ Lessons for AI Treaties") and [diversion --}{++{"author":"Luc's AI","timestamp":1788377546774}@@ [[#^g3-detecting-efforts-to-get-cutting-edge-ai-chips-to-undeclared-locations|diversion ++}detection{--{"author":"Luc's AI","timestamp":1788377546774}@@ inspections](#A7.SS3 "G.3 Detecting efforts to get cutting-edge AI chips to undeclared locations ‣ Appendix G How verification of AI chip accounts could be implemented ‣ Nuclear Arms Control Verification and Lessons for AI Treaties")--}{++{"author":"Luc's AI","timestamp":1788377546774}@@ inspections]]++}
     
 -   •
     
@@ -1809,7 +1809,7 @@ At cutting-edge data centers and cutting-edge AI chip storage facilities:
     
 -   •
     
-    [Design information verification](#S2.SS2.SSS4 "2.2.4 Design information verification ‣ 2.2 M&V methods at declared facilities ‣ 2 Nuclear M&V Methods ‣ Nuclear Arms Control Verification and Lessons for AI Treaties")
+    {--{"author":"Luc's AI","timestamp":1788377547167}@@[Design--}{++{"author":"Luc's AI","timestamp":1788377547167}@@[[#^224-design-information-verification|Design++} information{--{"author":"Luc's AI","timestamp":1788377547167}@@ verification](#S2.SS2.SSS4 "2.2.4 Design information verification ‣ 2.2 M&V methods at declared facilities ‣ 2 Nuclear M&V Methods ‣ Nuclear Arms Control Verification and Lessons for AI Treaties")--}{++{"author":"Luc's AI","timestamp":1788377547167}@@ verification]]++}
     
 
 At certain elimination facilities:
