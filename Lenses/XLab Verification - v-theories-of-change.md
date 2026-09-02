@@ -93,7 +93,7 @@ feedback-instructions:: Point out any box where an output was written as an outc
 
 #### Text
 content::
-Theories of change are probabilistic, not deterministic: they depend on assumptions about how the world works that may be exaggerated or misguided. The point is not to predict the future; the point is to make your beliefs about why your work matters clear enough such that someone—could be your future self!—can notice discrepancies from reality, and course-correct.
+Theories of change are probabilistic, not deterministic: they depend on assumptions about how the world works that may be exaggerated or misguided. The point is not to predict the future; the point is to make your beliefs about why your work matters clear enough {--{"author":"Elias's AI","timestamp":1788357550025}@@such --}that {--{"author":"Elias's AI","timestamp":1788357550025}@@someone—could be--}{++{"author":"Elias's AI","timestamp":1788357550025}@@someone, even++} your future {--{"author":"Elias's AI","timestamp":1788357550025}@@self!—can--}{++{"author":"Elias's AI","timestamp":1788357550025}@@self, can++} notice discrepancies from reality, and course-correct.
 
 In sum: when someone asks you how your work changes the world, in a field that supposedly works towards saving it, you should have a ready, clear answer for them.
 
