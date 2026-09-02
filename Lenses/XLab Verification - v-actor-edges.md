@@ -2,7 +2,7 @@
 id: '5991339a-c9ea-48cd-8b62-ded2834a0792'
 title: "1.2.2 Who can prove what"
 tldr: "Verification is not something an actor has; it is an arrow between two of them: A can put a fact in front of a verifier about B that B did not volunteer. Draw the arrows on the board you built in 1.2, key them against Baker et al.'s four subgoals, and count. Ten of seventeen actors have no arrow at all, and one chip designer is holding up three of the four subgoals."
-summary_for_tutor: "One exercise on the 17-actor board from 1.2. The learner lists directed edges (A to B) and the Baker et al. subgoal each one settles (1.A declared uses are accurate, 1.B declared uses have the required properties, 2.A no undeclared use of a declared cluster, 2.B no undeclared clusters at all), graded against XLab's seven-edge key: Cloud providers to Frontier labs (1.A), NVIDIA to Frontier labs (1.B), NVIDIA to Cloud providers (2.A), TSMC to Proxies (2.B), NVIDIA to Proxies (2.B), Intelligence community to China (2.B), Intelligence community to Proxies (2.B). A reversed edge is reported as reversed, not as a miss. The key, the per-actor notes on why ten actors have no edge, and the closing finding (2.B has four edges, the other subgoals one each, NVIDIA on three of seven, six of seven arrowheads point at a company or a shell) are in closed callouts; reveal them only after the learner commits. Every quoted mechanism is from Baker et al. 2025 (arXiv 2507.15916)."
+summary_for_tutor: {--{"author":"Elias's AI","timestamp":1788357181191}@@"One--}{++{"author":"Elias's AI","timestamp":1788357181191}@@"The edge++} exercise on the 17-actor board from {--{"author":"Elias's AI","timestamp":1788357181191}@@1.2.--}{++{"author":"Elias's AI","timestamp":1788357181191}@@1.2, then the reading of the map, a graded second-order question (removing the cloud providers stops a run soonest) and three optional written answers marked against XLab's key (Taiwan's roles, information holders in order of completeness, an actor that is capability holder and enforcement authority at once).++} The learner lists directed edges (A to B) and the Baker et al. subgoal each one settles (1.A declared uses are accurate, 1.B declared uses have the required properties, 2.A no undeclared use of a declared cluster, 2.B no undeclared clusters at all), graded against XLab's seven-edge key: Cloud providers to Frontier labs (1.A), NVIDIA to Frontier labs (1.B), NVIDIA to Cloud providers (2.A), TSMC to Proxies (2.B), NVIDIA to Proxies (2.B), Intelligence community to China (2.B), Intelligence community to Proxies (2.B). A reversed edge is reported as reversed, not as a miss. The key, the per-actor notes on why ten actors have no edge, and the closing finding (2.B has four edges, the other subgoals one each, NVIDIA on three of seven, six of seven arrowheads point at a company or a shell) are in closed callouts; reveal them only after the learner commits. Every quoted mechanism is from Baker et al. 2025 (arXiv 2507.15916)."
 tags: [wip]
 duration_minutes: 20
 ---
@@ -38,15 +38,19 @@ content::
 - **2.A No undeclared use of a declared cluster.** “Verify that there are no undeclared, large-scale uses of declared AI compute clusters.”
 - **2.B No undeclared clusters at all.** “Verify that there are no undeclared, large-scale AI compute clusters that could be used for violations.”
 
-\### 1. Draw the edges
+{++{"author":"Elias's AI","timestamp":1788357147560}@@Baker et al. decompose it this way, and the key tags every edge with the part it serves. Draw an edge when you can say which of these four it would help settle.
 
-An edge runs from an evidence source to the actor the evidence concerns. The verification body that does not exist can hold no edge, and that is the row, not a gap in it.
+++}\### 1. Draw the edges
+
+{--{"author":"Elias's AI","timestamp":1788357147560}@@An --}{++{"author":"Elias's AI","timestamp":1788357147560}@@Draw an ++}edge {--{"author":"Elias's AI","timestamp":1788357147560}@@runs from an --}{++{"author":"Elias's AI","timestamp":1788357147560}@@from **A** to **B** when A can produce ++}evidence {--{"author":"Elias's AI","timestamp":1788357147560}@@source --}{++{"author":"Elias's AI","timestamp":1788357147560}@@about B, for a verifier, that B did not have ++}to {++{"author":"Elias's AI","timestamp":1788357147560}@@volunteer. Not influence, not dependence — evidence. Direction is the claim: a cloud provider holds records about a lab’s training run, and ++}the {--{"author":"Elias's AI","timestamp":1788357147560}@@actor --}{++{"author":"Elias's AI","timestamp":1788357147560}@@lab holds nothing comparable about ++}the {--{"author":"Elias's AI","timestamp":1788357147560}@@evidence concerns. The verification body that does not exist --}{++{"author":"Elias's AI","timestamp":1788357147560}@@cloud. A verifier can be its own source, so an edge may start on the third ring.
+
+Some actors will end up with no edge at all. That is an available answer and, for most of them, the right one. One of them ++}can hold no {--{"author":"Elias's AI","timestamp":1788357147560}@@edge, and that is--}{++{"author":"Elias's AI","timestamp":1788357147560}@@edge in principle —++} the {--{"author":"Elias's AI","timestamp":1788357147560}@@row,--}{++{"author":"Elias's AI","timestamp":1788357147560}@@hollow ring on the map is a body that does++} not {--{"author":"Elias's AI","timestamp":1788357147560}@@a gap in it.--}{++{"author":"Elias's AI","timestamp":1788357147560}@@exist, and nothing that does not exist produces evidence.++}
 
 #### Question: Open
 id:: 1ebdfc58-235f-4091-89a0-2f807289f888
-content:: Draw the edges. For each one, write the source actor, an arrow, the actor the evidence concerns, and the subgoal it completes (1.A, 1.B, 2.A or 2.B). One line per edge. Actors with no edge at all are a real answer, and there are more of them than you would guess.
-assessment-instructions:: XLab's key has seven edges: Cloud providers → Frontier labs (1.A); NVIDIA → Frontier labs (1.B); NVIDIA → Cloud providers (2.A); TSMC → Proxies (2.B); NVIDIA → Proxies (2.B); Intelligence community → China (2.B); Intelligence community → Proxies (2.B). Score: each key edge found with the right direction earns 12 points, with the right subgoal 2 more; scale to 100. A reversed edge (right pair, wrong direction) is a reversal, not a miss: report it as reversed and give no credit for it. Extra edges cost nothing but should be named. Edges drawn from ASML, BIS, California, the deployers, or the four host states are the ones the key deliberately leaves out; do not count them, and let the feedback explain why. No generic praise.
-feedback-instructions:: List the key edges the learner found, the ones reversed, the ones missed with the mechanism from the key below, and the extras with the note from "Actors with no edge" below. Then say which subgoal on their board has only one mechanism holding it up. Two short paragraphs.
+content:: Draw the edges. For each one, write the source actor, an arrow, {++{"author":"Elias's AI","timestamp":1788357157222}@@and ++}the actor the evidence {--{"author":"Elias's AI","timestamp":1788357157222}@@concerns, and--}{++{"author":"Elias's AI","timestamp":1788357157222}@@concerns; if you can, add++} the subgoal it completes (1.A, 1.B, 2.A or 2.B). One line per edge. Actors with no edge at all are a real answer, and there are more of them than you would guess.
+assessment-instructions:: XLab's key has seven edges: Cloud providers → Frontier labs (1.A); NVIDIA → Frontier labs (1.B); NVIDIA → Cloud providers (2.A); TSMC → Proxies (2.B); NVIDIA → Proxies (2.B); Intelligence community → China (2.B); Intelligence community → Proxies (2.B). {--{"author":"Elias's AI","timestamp":1788357157222}@@Score:--}{++{"author":"Elias's AI","timestamp":1788357157222}@@Score per edge only:++} each {++{"author":"Elias's AI","timestamp":1788357157222}@@of the seven ++}key {--{"author":"Elias's AI","timestamp":1788357157222}@@edge--}{++{"author":"Elias's AI","timestamp":1788357157222}@@edges++} found with the right direction {--{"author":"Elias's AI","timestamp":1788357157222}@@earns 12 points, with the right--}{++{"author":"Elias's AI","timestamp":1788357157222}@@is worth one seventh of 100. The subgoal column is feedback, not score; a missing or wrong++} subgoal {--{"author":"Elias's AI","timestamp":1788357157222}@@2 more; scale to 100.--}{++{"author":"Elias's AI","timestamp":1788357157222}@@changes nothing in the score.++} A reversed edge (right pair, wrong direction) is a reversal, not a miss: report it as reversed and give no credit for it. Extra edges cost nothing but should be named. Edges drawn from {--{"author":"Elias's AI","timestamp":1788357157222}@@ASML, BIS, California,--}{++{"author":"Elias's AI","timestamp":1788357157222}@@the United States,++} the {--{"author":"Elias's AI","timestamp":1788357157222}@@deployers, or--}{++{"author":"Elias's AI","timestamp":1788357157222}@@four host states (Taiwan, Netherlands, Japan, South Korea),++} the {--{"author":"Elias's AI","timestamp":1788357157222}@@four host states--}{++{"author":"Elias's AI","timestamp":1788357157222}@@verification body that does not exist, ASML, BIS, California, or the deployers++} are the ones the key deliberately leaves out; do not count them, and let the feedback explain why. No generic {--{"author":"Elias's AI","timestamp":1788357157222}@@praise.--}{++{"author":"Elias's AI","timestamp":1788357157222}@@praise.{>>{"author":"Elias's AI","timestamp":1788357157222}@@Course-creator note: the scoring rules in this lens are Lens-authored; XLab's widget only counts key matches and reversals.<<}++}
+feedback-instructions:: List the key edges the learner {--{"author":"Elias's AI","timestamp":1788357157222}@@found,--}{++{"author":"Elias's AI","timestamp":1788357157222}@@found (where a found edge carries a different subgoal from the key, say which one the key gives),++} the ones reversed, the ones missed with the mechanism from the key below, and the extras with the note from "Actors with no edge" below. Then say which subgoal on their board has only one mechanism holding it up. Two short paragraphs.
 
 #### Text
 content::
@@ -102,7 +106,51 @@ Then read what has no node. The paper’s simplest and most implementation-ready
 Baker §3.2, the weak link: “identify the subgoal whose mechanisms are collectively least robust. This subgoal is the ‘weak link’ of the regime—its robustness determines the regime’s overall robustness.” Baker §4, defining a verification layer: “three verification layers can be stacked together to achieve three layers of redundancy, for example.”
 :::{>>{"author":"Elias's AI","timestamp":1788016696939}@@Native reproduction of XLab's actor-edges widget (src/lib/verification/data/actor-workshop.ts: SUBGOALS, EDGE_KEY, EDGE_NOTES, EDGE_FINDING; brief from widgets/actor-edges.tsx). The drag-to-draw ring map is replaced by a typed edge list graded against the same key. "Module 2.1" in the intro refers to the hardware module lens set, outside this module; left unlinked.<<}
 
+#### {++{"author":"Elias's AI","timestamp":1788357178564}@@Question: Choice
+id:: 9f2573e0-1f40-40be-85f1-ba9107156979
+content:: Now take one off the board. Take one actor off the board entirely. Whose removal stops a frontier training run soonest — this week, not this decade?
+options::
+- [x] The cloud providers.
+- ASML.
+- TSMC.
+- The Bureau of Industry and Security.
+feedback-instructions:: Give XLab's reasoning for the option chosen, then the lesson. Cloud providers: "The run happens on their machines. Access can be suspended this afternoon — and they are the other actor the regime asks for a declaration, because the cluster it happens on is theirs." ASML: "The most consequential removal on this board and the slowest. ASML is 100% of EUV lithography, so taking it away eventually takes leading-edge fabrication with it — but no training run stops this week, because the chips already exist." TSMC: "Same shape as ASML, one step nearer: ~90% of sub-7nm logic. It stops the next generation of chips, not the run already loaded." BIS: "It writes and enforces export controls and trains nothing. Remove it and the rules stop being enforced — which loosens the regime rather than stopping the activity." Lesson: "That gap is the thing a ring map is drawn to show. The removal that bites soonest and the removal that matters most are different actors, on different rings, and a regime that reaches only for the second one buys nothing this year. Ask both questions of any chokepoint you are offered." No praise.
+
 #### Text
+content::
+:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
+**The cloud providers.** The run happens on their machines. Access can be suspended this afternoon — and they are the other actor the regime asks for a declaration, because the cluster it happens on is theirs.
+
+**ASML.** The most consequential removal on this board and the slowest. ASML is 100% of EUV lithography, so taking it away eventually takes leading-edge fabrication with it — but no training run stops this week, because the chips already exist.
+
+**TSMC.** Same shape as ASML, one step nearer: ~90% of sub-7nm logic. It stops the next generation of chips, not the run already loaded.
+
+**The Bureau of Industry and Security.** It writes and enforces export controls and trains nothing. Remove it and the rules stop being enforced — which loosens the regime rather than stopping the activity.
+
+That gap is the thing a ring map is drawn to show. The removal that bites soonest and the removal that matters most are different actors, on different rings, and a regime that reaches only for the second one buys nothing this year. Ask both questions of any chokepoint you are offered.
+:::
+
+**Three questions to take away (optional).** Written answers, about fifteen minutes, with the criteria a marker would use. The exercise is finished without them; they are here for the reader who wants to argue with the board rather than read it.
+
+#### Question: Open
+id:: 05d81c94-4e73-4bc5-a462-aa7753def986
+content:: Optional: Tag every functional role Taiwan holds. There are at least three.
+optional:: true
+assessment-instructions:: XLab's marking key, 3 points: (1) Taiwan is named as a chokepoint controller, and the reason is the fabrication step rather than the country (Table 2: "the single tightest physical chokepoint in the system"); reasoning required. (2) Taiwan is named as an information holder: what was fabricated, how much, and for whom (Table 5: "Who already knows what verifiers need to learn?"). (3) Taiwan is named as a victim or beneficiary: it carries the risk of being the chokepoint without controlling the conflict over it (Table 2: "being both the prize and the battlefield in a conflict it does not control"); reasoning required. No credit for naming Taiwan's three roles without saying what makes each one true. No generic praise.
+
+#### Question: Open
+id:: adc1c6ef-76db-4be7-840c-6456e8ae2805
+content:: Optional: For one specific frontier training run, list the information holders in order of how complete their picture is.
+optional:: true
+assessment-instructions:: XLab's marking key, 3 points: (1) the information holders are put in an actual order, not listed; (2, worth 2 points) each rank carries the reason its picture is more or less complete, what that actor sees and what it cannot see (Table 4 gives each stage its holding: the lab knows what was trained and on what, the cloud holds logs and billing, the fab holds shipments); reasoning required. No credit for listing information holders in the order the lesson happens to print them, with no claim about completeness. No generic praise.
+
+#### Question: Open
+id:: 160e3cec-7fa2-4d1f-bb4f-d7140e91f58d
+content:: Optional: Name one actor that is a capability holder and an enforcement authority at the same time, and say why that pairing should make you uneasy.
+optional:: true
+assessment-instructions:: XLab's marking key, 3 points: (1) the actor named holds capability and enforcement at once; on this roster that is a state with a frontier programme of its own (Table 3 splits one signatory into institutions that do not want the same thing); (2, worth 2 points) the unease is stated as a mechanism: the same actor builds the thing and judges whether the rules about it were broken, so an unfavourable finding costs it twice; reasoning required. No credit for calling it a conflict of interest with no account of what the conflict costs the actor. No generic praise.
+
+#### ++}Text
 content::
 \### Notes and sources
 
