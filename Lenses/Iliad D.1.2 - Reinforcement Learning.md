@@ -85,7 +85,7 @@ for $k = 0, 1, 2, \ldots$. We write $\mathbb{E}_{\pi}[\,\cdot\,]$ for expectatio
 ^def-trajectory
 
 
-\## 1. The Bellman equation
+\## 1. The Bellman equation ^bellman-equation
 
 :::callout {title="Definition" tone="purple"}
 
@@ -288,7 +288,7 @@ Since $1 - \gamma^{2} > 0$ for $\gamma \in (0,1)$, the sign is determined by $1 
 
 :::
 
-\## 3. Bellman operators and the existence of optimal policies
+\## 3. Bellman operators and the existence of optimal policies ^bellman-operators-optimal-policies
 
 \### Banach fixed-point theorem
 
@@ -505,7 +505,7 @@ where the last equality is [[#^prob-v-pi-star|Exercise 3.6]]. Since $\pi$ was ar
 
 :::
 
-\## 4. Policy improvement theorem
+\## 4. Policy improvement theorem ^policy-improvement-theorem
 
 Given a policy $\pi$, define the **improved policy** $\pi'$ greedily with respect to $V_{\pi}$:
 

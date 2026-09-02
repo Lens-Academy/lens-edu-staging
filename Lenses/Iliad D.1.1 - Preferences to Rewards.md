@@ -196,7 +196,7 @@ $$
 
 Thus transitive preferences are precisely the *potential* part of the decomposition, with the potential given by the utility, while intransitive cycles show up as the rotational or cyclic part. If this language feels abstract, the key takeaway is simple: utility means all local comparisons come from one global ranking, whereas cycles are the leftover pattern that cannot be explained by any single scalar potential.
 
-\## 5. Lotteries and the von Neumann–Morgenstern axioms
+\## 5. Lotteries and the von Neumann–Morgenstern axioms ^lotteries-von-neumann-morgenstern-axioms
 
 Up to this point, we have just considered preferences over a countable set $\mathcal{H}^{*}$ without considering stochasticity. To introduce uncertainty, we expand the domain from trajectories to lotteries over trajectories.
 

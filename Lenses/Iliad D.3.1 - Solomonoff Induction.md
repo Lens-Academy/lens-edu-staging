@@ -73,7 +73,7 @@ For more background, see [the corresponding post on Solomonoff induction](https:
 
 :::
 
-\## 1. The mixture is a predictor
+\## 1. The mixture is a predictor ^mixture-is-predictor
 
 :::callout {title="Definition" tone="purple"}
 
@@ -334,7 +334,7 @@ $$
 
 :::
 
-\## 3. Mixture dominance
+\## 3. Mixture dominance ^mixture-dominance
 
 The mixture $\xi$ never assigns much less probability than any single environment weighted by its prior. This single inequality is the engine behind the cumulative bound of [[#4. Cumulative prediction error bound (main result)|Section 4]] below: dividing through gives $\mu(x)/\xi(x) \leq 1/w_{\mu}$, which is then fed into Pinsker and the chain rule in the proof of the main cumulative bound.
 
@@ -371,7 +371,7 @@ This is what makes $\xi_{U}$ *universal*: a single predictor dominates the entir
 
 :::
 
-\## 4. Cumulative prediction error bound (main result)
+\## 4. Cumulative prediction error bound (main result) ^cumulative-prediction-error-bound
 
 The next ingredient relates squared prediction error to KL divergence ([[#^bib-cover-06|Cover & Thomas 2006]], Lemma 11.6.1). We require the following inequality:
 
@@ -548,7 +548,7 @@ With $\ln 2 \approx 0.693$ the constant is just under $1.4$, so if the true envi
 
 :::
 
-\## 6. Pareto optimality under KL loss
+\## 6. Pareto optimality under KL loss ^pareto-optimality-kl-loss
 
 The final two sections establish that the Bayesian mixture $\xi$ is *uniquely Pareto-optimal* under both KL and squared prediction loss: no other predictor can do at least as well as $\xi$ on every environment $\nu \in \mathcal{M}$ without coinciding with $\xi$ entirely.
 
@@ -646,7 +646,7 @@ so [[#^eq-kl-weighted-dom|Equation 3]] forces $D_{n}(\xi \parallel \rho) \leq 0$
 
 :::
 
-\## 7. Misspecified models: when $\mu \notin \mathcal{M}$
+\## 7. Misspecified models: when $\mu \notin \mathcal{M}$ ^misspecified-models
 
 The cumulative bound [[#4. Cumulative prediction error bound (main result)|Section 4]] assumed the true environment $\mu$ lives in the model class $\mathcal{M}$. What happens when it does not? We now show the bound *degrades gracefully*: it splits cleanly into a complexity term ("cost of not knowing which model is best"), exactly as before, plus a linear-in-time approximation term ("cost of no model being right"). See ([[#^bib-hutter-04uaibook|Hutter 2005]], §3.2.8) for the original treatment.
 
@@ -693,7 +693,7 @@ Combining with Pinsker ([[#^thm-pinsker|Theorem 4.1]]) gives the corresponding b
 
 Details on how to define the best choice of $\hat{\mu}$ are in [[#D. Best choice of $\hat{\mu}\in \mathcal{M}$.|Section D]].
 
-\## 8. Pareto optimality under squared loss
+\## 8. Pareto optimality under squared loss ^pareto-optimality-squared-loss
 
 The squared specialization $\mathcal{F}(\nu, \rho) = S_{n}(\nu \parallel \rho)$ ([[#^def-s-infty|Theorem 4.2]]) lives one level down from KL: at the conditional distributions $\nu(\cdot \mid x_{<t})$. The natural Pythagorean decomposition at a fixed history uses *posterior* weights $w(\nu \mid x_{<t})$: those are the weights that make $\xi(x_{t} \mid x_{<t})$ the mean of the $\nu(x_{t} \mid x_{<t})$'s (via the posterior-predictive form, [[#^def-mixture|Theorem 1.2]]). The Pareto-optimality aggregation, however, uses prior weights $w_{\nu}$. Bridging the two takes one extra Bayes-rule step.
 
@@ -810,7 +810,7 @@ Since $\|\xi - \rho\|_{\xi}^{2}$ is a sum of non-negative terms and is itself $\
 
 :::
 
-\## A. Proof of Pinsker's inequality
+\## A. Proof of Pinsker's inequality ^proof-pinskers-inequality
 
 We first prove the following Lemma:
 
@@ -879,7 +879,7 @@ So $(\star)$ is exactly $2(p_{0} - q_{0})^{2} \leq p_{0} \ln \tfrac{p_0}{q_0}+ (
 
 :::
 
-\## B. Proof of KL non-negativity
+\## B. Proof of KL non-negativity ^proof-kl-non-negativity
 
 We prove [[#^thm-kl-nonneg|Theorem 2.2]]. The core is the elementary inequality
 
@@ -944,7 +944,7 @@ The class of all computable measures is countable but not enumerable (by the hal
 
 We dodge all of this: $\mathcal{M}$ is just *some* countable set of proper measures with $\mu \in \mathcal{M}$, and we assume $K(\nu)$ is defined for each $\nu \in \mathcal{M}$ when we need it. We never need $\xi$ itself to be in $\mathcal{M}$, nor do we need its computability, so we don't ask. See ([[#^bib-hutter-04uaibook|Hutter 2005]], §2.4.3) for the full Levin construction.
 
-\## D. Best choice of $\hat{\mu}\in \mathcal{M}$.
+\## D. Best choice of $\hat{\mu}\in \mathcal{M}$. ^best-choice-model
 
 The bound is valid for every $\hat\mu \in \mathcal{M}$. A tempting question: which $\hat\mu$ gives the tightest bound? The answer is genuinely setting-dependent.
 

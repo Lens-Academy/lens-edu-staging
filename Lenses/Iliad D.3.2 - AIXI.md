@@ -136,7 +136,7 @@ $$
 ^def-interaction
 
 
-\## 0. Properties of Measures
+\## 0. Properties of Measures ^properties-of-measures
 
 :::callout {title="Exercise" tone="amber"}
 **Exercise 0.1 (Factorization) [05].** Show that $\nu^{\pi}(\text{æ}_{1:t}) = \pi(\text{æ}_{1:t}) \cdot \nu(\text{æ}_{1:t})$.
@@ -463,7 +463,7 @@ $$
 
 :::
 
-\## 2. Existence of Optimal Policies
+\## 2. Existence of Optimal Policies ^existence-optimal-policies
 
 Recall that $V_{\nu}^{*}(\text{æ}_{<t}) := \sup_{\pi} V_{\nu}^{\pi}(\text{æ}_{<t})$ is defined as a supremum over all policies. In general, a supremum need not be achieved: for example, $\sup_{x \in (0,1)}x = 1$, but no $x \in (0,1)$ attains this value. This problem shows that in our setting, the supremum *is* attained, so an optimal policy $\pi_{\nu}^{*}$ with $V_{\nu}^{\pi_\nu^*}= V_{\nu}^{*}$ exists.
 
@@ -744,7 +744,7 @@ $$
 
 :::
 
-\## 3. Dominance of the Bayesian Mixture
+\## 3. Dominance of the Bayesian Mixture ^bayesian-mixture-dominance
 
 :::callout {title="Exercise" tone="amber"}
 **Exercise 3.1 [03].** Show that $\xi(\text{æ}_{<t}) \geq w_{\nu} \cdot \nu(\text{æ}_{<t})$ for every $\nu \in \mathcal{M}$.
@@ -915,7 +915,7 @@ $$
 
 :::
 
-\## 5. The Expectimax Form of AIXI
+\## 5. The Expectimax Form of AIXI ^expectimax-form-aixi
 
 We have specified AIXI only implicitly, as the Bayes-optimal policy $\pi_{\xi}^{*}$ ([[#^def-value|Theorem 0.4]]). We now unroll this definition into the explicit **expectimax** expression: an alternating sequence of maximizations over actions and $\xi$-expectations over percepts.
 
@@ -1007,7 +1007,7 @@ which expands back into the $\max/\sum$ layers of the first display.
 
 The following problems prove the first two main results: on-policy value convergence ([[#7. On-Policy Value Convergence of Bayes|Section 7]]), and that AIXI can't be fooled in deterministic environments ([[#8. AIXI Cannot Be Fooled in Deterministic Environments|Section 8]]). The path to the self-optimizing property (advanced stretch goal) resumes at [[#9. Likelihood Ratios Are Martingales|Section 9]].
 
-\## 6. Bounding Expectation Differences by Total Variation
+\## 6. Bounding Expectation Differences by Total Variation ^expectation-differences-total-variation
 
 :::callout {title="Definition" tone="purple"}
 
@@ -1076,7 +1076,7 @@ Therefore $|\mathbb{E}_{P}[f] - \mathbb{E}_{Q}[f]| \leq c \cdot \mathrm{TV}[\Ome
 
 :::
 
-\## 7. On-Policy Value Convergence of Bayes
+\## 7. On-Policy Value Convergence of Bayes ^on-policy-value-convergence-bayes
 
 The following definitions are needed for the on-policy value convergence theorem.
 
@@ -1292,7 +1292,7 @@ See ([[#^bib-blackwell-62|Blackwell & Dubins 1962]]). The proof uses the Radon�
 ^prob-auto4
 
 
-\## 8. AIXI Cannot Be Fooled in Deterministic Environments
+\## 8. AIXI Cannot Be Fooled in Deterministic Environments ^aixi-deterministic-no-fooling
 
 :::callout {title="Theorem" tone="purple"}
 
@@ -1377,7 +1377,7 @@ $$
 
 We now prove: if *any* policy can learn to act optimally, $\pi_{\xi}^{*}$ also learns. We restrict to finite $\mathcal{M} = \{\nu_{1}, \ldots, \nu_{N}\}$ where each $\nu_{i}$ is a proper probability measure.
 
-\## 9. Likelihood Ratios Are Martingales
+\## 9. Likelihood Ratios Are Martingales ^likelihood-ratios-martingales
 
 The following definition and theorem state the main goal of [[#9. Likelihood Ratios Are Martingales|Sections 9–11]].
 
@@ -1602,7 +1602,7 @@ Since $E_{\varepsilon} \subseteq E$, $\nu^{\pi}[E_{\varepsilon}] \leq \nu^{\pi}[
 
 :::
 
-\## 11. Proving the Self-Optimizing Property
+\## 11. Proving the Self-Optimizing Property ^proving-self-optimizing-property
 
 Fix a policy $\tilde\pi$ that is self-optimizing for $\mathcal{M}$ with respect to $\pi$ ([[#^def-selfopt|Theorem 9.1]]): its existence is the hypothesis of [[#^thm-selfopt|Theorem 9.2]]. For each $\nu \in \mathcal{M}$, define the **suboptimality gap**
 
@@ -1786,7 +1786,7 @@ This completes the proof of [[#^thm-selfopt|Theorem 9.2]].
 
 *Remark.* We do not need to know which policy $\tilde\pi$ is self-optimizing, or whether it is computable. Mere existence suffices. For countable $\mathcal{M}$, this final step is harder: a countable sum of $\mu^{\pi}$-a.s.-convergent sequences need not converge $\mu^{\pi}$-a.s. The general proof uses a "convergence of mixture tails" argument ([[#^bib-hutter-04uaibook|Hutter 2005]], Lem. 5.28).
 
-\## A. Worked Example: Bayesian Mixture
+\## A. Worked Example: Bayesian Mixture ^bayesian-mixture-worked-example
 
 :::callout {title="Note" tone="neutral"}
 
@@ -1814,7 +1814,7 @@ $$
 
 **Updated prediction:** $\xi(o_{2} = H \mid \text{æ}_{1}a_{2}) = \tfrac{2}{3}\cdot 1 + \tfrac{1}{3}\cdot \tfrac{1}{2}= \tfrac{5}{6}$.
 
-\## B. Worked Example: Value Function
+\## B. Worked Example: Value Function ^value-function-worked-example
 
 Continuing from [[#A. Worked Example: Bayesian Mixture|Appendix A]]. Suppose the agent always predicts $H$ (policy $\pi_{H}$).
 
@@ -1826,7 +1826,7 @@ The mixture value (by [[#^prob-linearity-inf|Exercise 4.2]]) is: $V_{\xi}^{\pi_H
 
 As the agent observes more heads ($\mu = \nu_{HH}$), the posterior on $\nu_{HH}$ increases towards 1, and $V_{\xi}^{\pi_H}\to V_{\nu_{HH}}^{\pi_H}= 1$. This is on-policy value convergence ([[#^thm-on-policy|Theorem 7.4]]) in action.
 
-\## C. Knuth's Difficulty Scale
+\## C. Knuth's Difficulty Scale ^knuth-difficulty-scale
 
 Each subproblem carries a difficulty rating in square brackets, following Knuth's rating scheme for exercises ([[#^bib-knuth-73a|Knuth 1973]]) in slightly adapted form. The rating assumes that the material in the preceding problems (on which the subproblem depends) has been understood. In-between values are possible.
 
