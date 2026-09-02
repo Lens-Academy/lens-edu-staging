@@ -15,7 +15,7 @@ For a prettier UI, you can use `::card` before the wikilink.
 
 ::card[[Roleplay demo]]
 
-::card[[video demo]]{++{"author":"Elias's AI","timestamp":1788339888915}@@
+::card[[video demo]]
 
 A blockquote line directly under a card renders as a hook that tells the learner what they get from it:
 
@@ -33,4 +33,4 @@ A card can target a module instead of a lens; it then shows the learner's progre
 
 ::card[[../modules/demo-module-with-hidden-imports]]
 
-Two footnotes: a card to a lens outside this module or course deep-links into whatever other module contains it, so import the target (hidden if you like) instead. And images are not linked this way at all — use standard markdown `![alt](url)`; the `![[...]]` embed form is not supported in lens or article text.++}
+Two footnotes: a card to a lens outside this module or course deep-links into whatever other module contains it, so import the target (hidden if you like) instead. And images are not linked this way at all — use standard markdown `![alt](url)`; the `![[...]]` embed form is not supported in lens or article text.

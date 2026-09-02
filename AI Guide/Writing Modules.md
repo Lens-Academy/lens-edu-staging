@@ -30,8 +30,8 @@ optional:: true                       ← learner may skip
 hide:: true                           ← hidden from the module page (requires optional:: true)
 ```
 
-- A {++{"author":"Elias's AI","timestamp":1788338937295}@@hidden lens (`hide:: true`) stays a member of the module: `::card[[lens]]` links to it resolve in-module without a sidebar entry. Linking a lens that is not a member deep-links into whatever other module contains it, even cross-course.
-- A ++}(sub-)module usually consists out of one or more LOs and one or more lenses
+- A hidden lens (`hide:: true`) stays a member of the module: `::card[[lens]]` links to it resolve in-module without a sidebar entry. Linking a lens that is not a member deep-links into whatever other module contains it, even cross-course.
+- A (sub-)module usually consists out of one or more LOs and one or more lenses
 - Submodules are optional ways to further structure modules into sensible chunks
 - Learning outcomes should be linked at the top of a (sub-)module. Their test is rendered at the end of it.
 - A `# Lens:` section has either `source::` (referenced) or `id::` + segments (inline), not both. Segment syntax: [[Writing Lenses]].
