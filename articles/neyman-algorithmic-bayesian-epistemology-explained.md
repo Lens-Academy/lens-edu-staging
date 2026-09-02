@@ -100,8 +100,7 @@ All proper scoring rules incentivize and expert to give an accurate forecast (by
 
 ([Click here](https://ericneyman.wordpress.com/2020/04/24/scoring-rules-part-3-incentivizing-precision/) for my old blog post summarizing this chapter!)
 
-Chapter 4: Arbitrage-free contract functions
---------------------------------------------
+## Chapter 4: Arbitrage-free contract functions ^chapter-4-arbitrage-free-contract-functions
 
 *(Joint work with my PhD advisor,* [*Tim Roughgarden*](https://timroughgarden.org/).)
 
@@ -142,7 +141,7 @@ In this chapter, I resolve Chun & Shachter’s question: **yes, preventing Jaime
 
 Why should this be possible? It’s because I can *pit Jaime, Ege, and Tamay against each other.* If there were only one expert, I could only reward the expert as a function of their own forecast. But if there are three experts, I can reward Jaime based on *how much better* his forecast was than Ege’s and Tamay’s. That’s the basic idea; if you want the details, go read Chapter 4!
 
-## \* Chapter 5: Quasi-arithmetic pooling
+## \* Chapter 5: Quasi-arithmetic pooling ^chapter-5-quasi-arithmetic-pooling
 
 *(Joint work with my PhD advisor,* [*Tim Roughgarden*](https://timroughgarden.org/).)
 
@@ -183,8 +182,7 @@ To formalize this intuition, I came up with a method of aggregating forecasts th
 
 In all of these senses, QA pooling seems like a really natural way to aggregate forecasts. I’m really excited to see QA pooling investigated further!
 
-Chapter 6: Learning weights for logarithmic pooling
----------------------------------------------------
+## Chapter 6: Learning weights for logarithmic pooling ^chapter-6-learning-weights-logarithmic-pooling
 
 *(Joint work with my PhD advisor,* [*Tim Roughgarden*](https://timroughgarden.org/).)
 
@@ -200,7 +198,7 @@ But what if you assume that the experts are actually calibrated? In many cases, 
 
 In this chapter, I prove that at least for the log scoring rule, you *can* learn weights for experts over time in a way that’s guaranteed to perform well on average, assuming that the experts are calibrated. (For readers familiar with online learning: the algorithm is similar to [online mirror descent](https://en.wikipedia.org/wiki/Mirror_descent) with a [Tsallis entropy](https://en.wikipedia.org/wiki/Tsallis_entropy) regularizer.)
 
-## \* Chapter 7: Robust aggregation of substitutable signals
+## \* Chapter 7: Robust aggregation of substitutable signals ^chapter-7-robust-aggregation
 
 *(Joint work with my PhD advisor,* [*Tim Roughgarden*](https://timroughgarden.org/).)
 
@@ -239,8 +237,7 @@ Beyond giving a theoretical grounding to some empirical results in forecast aggr
 
 Each of the bolded clauses can be varied. Relative to what baseline do we want to measure the aggregator’s performance? What sort of information does the aggregator get from the experts? Are the experts truthful or strategic? What assumptions are we making about the interactions between the experts’ information? What scoring rule are we using to evaluate the forecasts? In all, there are tons of different questions you can ask within the framework of robust forecast aggregation. I sometimes imagine this area as a playground with a bunch of neat problems that people have only just started exploring. I’m excited!
 
-Chapter 8: When does agreement imply accuracy?
-----------------------------------------------
+## Chapter 8: When does agreement imply accuracy? ^chapter-8-agreement-accuracy
 
 *(Joint work with* [*Raf Frongillo*](https://home.cs.colorado.edu/~raf/) *and* [*Bo Waggoner*](https://bowaggoner.com/).)
 
@@ -274,7 +271,7 @@ I’m excited about this result for a couple reasons. First, it provides another
 
 I generally think that the topic of agreement — and more generally, communication-constrained truth-seeking — is really neglected relative to how interesting it is, and I’d be really excited to see more work in this direction.
 
-## \* Chapter 9: Deductive circuit estimation
+## \* Chapter 9: Deductive circuit estimation ^chapter-9-deductive-circuit-estimation
 
 *(Joint work at the* [*Alignment Research Center*](https://www.alignment.org/theory/) *with* [*Paul Christiano*](https://paulfchristiano.com/), [*Jacob Hilton*](https://www.jacobh.co.uk/), [*Václav Rozhoň*](https://n.ethz.ch/~rozhonv/), and [*Mark Xu*](https://markxu.com/).)
 
