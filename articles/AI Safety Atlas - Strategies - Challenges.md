@@ -10,8 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/strategies.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter3-3b4d7eac4d5204791d44fcba443775e1f5e5b6af8a46856a00175a64d7c33722.pdf)*
 
 %%
@@ -26,7 +32,7 @@ Developing strategies to ensure the safety of increasingly capable AI systems pr
 > We do not know how to train systems to robustly behave well.
 > — Anthropic
 
-## The Nature of the Problem
+## The Nature of the Problem ^the-nature-of-the-problem
 
 Several intrinsic properties make AI safety a particularly hard problem :
 
@@ -50,7 +56,7 @@ Several intrinsic properties make AI safety a particularly hard problem :
 
 **AI safety is hard to measure.** Working on the problem can lead to an illusion of understanding, thereby creating the illusion of control. AI safety lacks clear feedback loops. Progress in AI capability advancement is relatively easy to measure and benchmark, while progress in safety is comparatively harder to measure. For example, it’s much easier to monitor the inference speed than to monitor the truthfulness of a system or monitor its safety properties.
 
-## Uncertainty and Disagreement
+## Uncertainty and Disagreement ^uncertainty-and-disagreement
 
 **The pre-paradigmatic nature of AI safety leads to significant disagreements among experts.** These differences in perspective are crucial to understanding when evaluating these proposed strategies.
 
@@ -58,7 +64,7 @@ Several intrinsic properties make AI safety a particularly hard problem :
 
 **Divergent Worldviews.** These disagreements often stem from fundamentally different worldviews. Some experts, like Robin Hanson, may approach AI risk through economic or evolutionary lenses, potentially leading to different conclusions about takeoff speeds and the likelihood of stable control compared to those focusing on agent foundations or technical alignment failures ([Hanson, 2023](https://www.overcomingbias.com/p/ai-risk-again)). Others, like Richard Sutton, have expressed views suggesting an acceptance or even embrace of AI potentially succeeding humanity, framing it as a natural evolutionary step rather than an existential catastrophe ([Sutton, 2023](https://www.youtube.com/watch?v=NgHFMolXs3U)). These differing philosophical stances influence strategic priorities.
 
-## Safety Washing
+## Safety Washing ^safety-washing
 
 The combination of high stakes, public concern, and lack of consensus creates fertile ground for "safety washing"—the practice of misleadingly portraying AI products, research, or practices as safer or more aligned with safety goals than they actually are ([Vaintrob, 2023](https://www.lesswrong.com/posts/PY3HEHc5fMQkTrQo4/beware-safety-washing)).
 
