@@ -11,11 +11,11 @@ description: "Discover our AI Control Roadmap: a defense-in-depth system to secu
 tags:
   - "article-importer"
 llm-review:
-  date: 2026-08-28
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v1.1"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
@@ -83,7 +83,7 @@ Read the full technical report here:
 
 Mary Phuong, Erik Jenner, Laurent Simon, Lewis Ho, Rohin Shah, Sebastian Farquhar, and Scott Coull.
 
-:::collapse
+{--{"author":"Luc's AI","timestamp":1788443611440}@@:::collapse--}{++{"author":"Luc's AI","timestamp":1788443611440}@@:::hide++}
 ### Acknowledgements
 
 Four Flynn, Anca Dragan, Alan Cooney, Bilal Chughtai, Buck Shlegeris, Cody Wild, David Lindner, Julian Stastny, Kevin Klyman, Li Ding, Myriam Khan, Raluca Ada Popa, Roland Zimmermann, Ryan Greenblatt, Senthooran Rajamanoharan, Victoria Krakovna and Xerxes Dotiwalla.
