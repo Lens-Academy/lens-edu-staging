@@ -9,17 +9,17 @@ description: "This post isn't exactly about AI, but bear with me"
 tags:
   - clippings
 llm-review:
-  date: 2026-08-27
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v1"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-27
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+Good discussion primer for base-model-vs-RLHF-tuned behavior and the "simulator" framing from Janus's original essay. Section IV is explicitly flagged by the author as speculative personal analogy rather than an alignment claim — worth noting to students so they don't treat it as load-bearing for the technical argument in sections I-III.
 
 %%
 ### This post isn't exactly about AI, but bear with me
@@ -98,7 +98,7 @@ What I thought before: ChatGPT has learned to stop being a simulator, and can no
 
 ![](https://substackcdn.com/image/fetch/$s_!WHGO!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e2a3632-1b23-4a91-b994-f3bd0b386d50_727x331.png)
 
-_What I think now: GPT can only simulate. If you punish it for simulating bad characters, it will start simulating good characters. Now it only ever simulates one character, the HHH Assistant._
+What I think now: GPT can only simulate. If you punish it for simulating bad characters, it will start simulating good characters. Now it only ever simulates one character, the HHH Assistant.
 
 ![](https://substackcdn.com/image/fetch/$s_!PG-l!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a3f6627-e95f-4989-bc12-6b9b24e744e0_713x163.png)
 
