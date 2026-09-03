@@ -17,11 +17,11 @@ tags:
   - existential-risk
   - work-in-progress
 llm-review:
-  date: 2026-08-28
-  model: "gpt-5.6-terra"
-  version: "article-qc-v1.1"
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
@@ -223,7 +223,7 @@ Or, you could carve things up by geographic hub (though not all organisations ar
 
 Or, you could carve up the landscape based on different "theories of victory", i.e. complete stories about how humanity successfully navigates the transition to a world with advanced AI. There's a lot more that could be said about all of this; the aim of this post has just been to give a concise overview of the kinds of work that are currently happening.
 
-:::collapse
+:::hide
 *Acknowledgements: this is my own synthesis of the landscape, but is inspired and/or draws directly from EA forum posts by [Allan Dafoe](https://forum.effectivealtruism.org/posts/42reWndoTEhFqu6T8/ai-governance-opportunity-and-theory-of-impact), [Luke Muehlhauser](https://forum.effectivealtruism.org/posts/M2SBwctwC6vBqAmZW/a-personal-take-on-longtermist-ai-governance) and [Convergence Analysis](https://forum.effectivealtruism.org/posts/oovy5XXdCL3TPwgLE/a-case-for-strategy-research-what-it-is-and-why-we-need-more#The_research_spine_of_effective_altruism__three_levels). Thanks also to Jess Whittlestone for helpful conversation, plus Matthijs Maas, Yun Gu, Konstantin Pilz, Caroline Baumöhl and especially a reviewer from SERI for feedback on a draft.*
 :::
 
