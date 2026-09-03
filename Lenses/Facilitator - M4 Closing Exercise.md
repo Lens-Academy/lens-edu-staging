@@ -5,6 +5,7 @@ summary_for_tutor: "A practical reflection exercise closing Module 4. The facili
 title: "Practical exercise"
 tags:
   - facilitator-training
+reading_minutes: 5
 ---
 #### Text
 content:: **Practical exercise (5 min)**
