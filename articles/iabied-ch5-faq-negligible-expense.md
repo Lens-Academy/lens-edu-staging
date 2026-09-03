@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -30,7 +36,7 @@ Even if the AI can easily make it into space and start building large-scale mach
 
 One of the more standard theories about how an advanced civilization might grow involves the civilization building a [Dyson sphere](https://en.wikipedia.org/wiki/Dyson_sphere) to capture more of the Sun's light. Other proposals involve harvesting even more energy by "[lifting](https://en.wikipedia.org/wiki/Star_lifting)" matter out of the star to fuse in power plants that capture almost all of the energy released by fusion (rather than letting most of it go to waste in the center of a star).
 
-None of these proposals *by default* leaves much sunlight falling upon Earth to keep the plants growing and the climate stable. The AI would have to go out of its way to leave us that.
+None of these proposals *by default* leaves much sunlight falling upon Earth to keep the plants growing and the climate stable. The AI would have to go out of its way to leave us that.[^note-iabied-note1]
 
 It might still seem like human energy demands are negligible. A human needs around 100 watts of power to live, which is chump change for the sort of entity that can harvest stars. Would a superintelligence not spare even the 800 gigawatts it would take to keep 8 billion humans alive?
 
@@ -42,6 +48,6 @@ The vast majority of humans do not spare the relatively negligible amounts of su
 
 [^note-iabied-ftnt177]: Additionally, if the AI did have preferences that involved humans in some way, this [probably wouldn't turn out well for us](https://ifanyonebuildsit.com/5/wont-ai-find-us-fascinating-or-historically-important).
 
-#### Notes
+{--{"author":"Luc's AI","timestamp":1788453724976}@@#### Notes
 
-[1] *go out of its way:* Stationary gaps in the coverage of the solar cells of a [Dyson swarm](https://iopscience.iop.org/article/10.1088/1402-4896/ac9e78) — or rather, gaps that follow Earth around in orbit — are physically possible*,* but they wouldn't be *easy* to set up (because the orbital velocity of a Dyson swarm between the Earth and the Sun would have to be higher than the orbital velocity of the Earth, in order for the solar cells to stay in orbit while closer to the Sun). And the infrared radiation emitted by the solar panels would cook Earth if it weren't carefully aimed, and so on. Preserving the Earth is not free, to a superintelligence running large-scale projects in the solar system and beyond. It's probably possible, but it would require effort.
+[1]--}{++{"author":"Luc's AI","timestamp":1788453724976}@@[^note-iabied-note1]:++} *go out of its way:* Stationary gaps in the coverage of the solar cells of a [Dyson swarm](https://iopscience.iop.org/article/10.1088/1402-4896/ac9e78) — or rather, gaps that follow Earth around in orbit — are physically possible*,* but they wouldn't be *easy* to set up (because the orbital velocity of a Dyson swarm between the Earth and the Sun would have to be higher than the orbital velocity of the Earth, in order for the solar cells to stay in orbit while closer to the Sun). And the infrared radiation emitted by the solar panels would cook Earth if it weren't carefully aimed, and so on. Preserving the Earth is not free, to a superintelligence running large-scale projects in the solar system and beyond. It's probably possible, but it would require effort.
