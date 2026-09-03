@@ -4,11 +4,11 @@ author: "Nate Soares"
 published: 2015-07-24
 source_url: https://intelligence.org/2015/07/24/four-background-claims/
 llm-review:
-  date: 2026-08-28
-  model: "gpt-5.6-terra"
-  version: "article-qc-v1.1"
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
@@ -22,7 +22,7 @@ MIRI's mission is to ensure that the creation of smarter-than-human artificial i
 
 In this post and my next one, I'll try to answer those questions. This post will lay out what I see as the four most important premises underlying our mission. Related posts include Eliezer Yudkowsky's "[Five Theses](http://intelligence.org/2013/05/05/five-theses-two-lemmas-and-a-couple-of-strategic-implications/)" and Luke Muehlhauser's "[Why MIRI?](https://intelligence.org/2014/04/20/why-miri/)"; this is my attempt to make explicit the claims that are in the background whenever I assert that our mission is of critical importance.
 
-## Claim #1: Humans have a very general ability to solve problems and achieve goals across diverse domains.
+## Claim #1: Humans have a very general ability to solve problems and achieve goals across diverse domains. ^claim-1
 
 We call this ability "intelligence," or "general intelligence." This isn't a [formal definition](https://intelligence.org/2013/06/19/what-is-intelligence-2/) - if we knew _exactly_ what general intelligence was, we'd be better able to program it into a computer - but we do think that there's a real phenomenon of general intelligence that we cannot yet replicate in code.
 
@@ -34,7 +34,7 @@ We call this ability "intelligence," or "general intelligence." This isn't a [fo
 
 **Further reading:** Salamon et al., "[How Intelligible is Intelligence?](https://intelligence.org/files/HowIntelligible.pdf)"
 
-## Claim #2: AI systems could become much more intelligent than humans.
+## Claim #2: AI systems could become much more intelligent than humans. ^claim-2
 
 Researchers at MIRI tend to lack strong beliefs about _when_ smarter-than-human machine intelligence will be developed. We do, however, expect that (a) human-equivalent machine intelligence will eventually be developed (likely within a century, barring catastrophe); and (b) machines can become significantly more intelligent than any human.
 
@@ -60,7 +60,7 @@ I furthermore expect it's possible to build _better_ reasoners (rather than just
 
 **Further reading:** Chalmers, "[The Singularity: A Philosophical Analysis](http://consc.net/papers/singularity.pdf)"
 
-## Claim #3: If we create highly intelligent AI systems, their decisions will shape the future.
+## Claim #3: If we create highly intelligent AI systems, their decisions will shape the future. ^claim-3
 
 Humans use their intelligence to create tools and plans and technology that allow them to shape their environments to their will (and fill them with refrigerators, and cars, and cities). We expect that systems which are even more intelligent would have even more ability to shape their surroundings, and thus, smarter-than-human AI systems could wind up with significantly more control over the future than humans have.
 
@@ -78,7 +78,7 @@ Historically, conflicts between humans have often ended with the technologically
 
 **Further reading:** Armstrong, _[Smarter Than Us](https://intelligence.org/smarter-than-us/)_
 
-## Claim #4: Highly intelligent AI systems won't be beneficial by default.
+## Claim #4: Highly intelligent AI systems won't be beneficial by default. ^claim-4
 
 We'd like to see the smarter-than-human AI systems of the future working together with humanity to build a better future; but that won't happen by default. In order to build AI systems that have a beneficial impact, we have to solve a number of technical challenges over and above building more powerful and general AI systems.
 
