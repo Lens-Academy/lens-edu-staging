@@ -51,9 +51,11 @@ feedback: it is one command, and here it would have surfaced the biggest
 student complaint plus 77 similar cases without needing a student.
 
 CAUSE 3: A good design shipped in Unit 1 and later units were built without
-it. [measured, small sample: one module checked per unit] Unit 1 has
-closing-reflection blocks ("revision" appears 5 times); the Unit 2 module we
-checked partially (6); the Unit 3 module, zero. Andreas was in week 3 when he
+it. [measured 2026-09-04, structure count on production, one module per
+unit; an earlier word-count proxy overcounted Unit 2] Unit 1 has a real
+closing lens ("# Lens: Revision 1" in the module file); Unit 2 has none --
+its apparent hits were the word "revision" in prose about AI 2027's authors
+revising their forecast; Unit 3, none. Andreas was in week 3 when he
 said "there's no closing section... that step currently isn't there."
 [student] The design existed only as prose and examples, so it did not carry.
 REPAIR: turn the design into a checklist that is actually run on every new
@@ -157,8 +159,12 @@ course-writing-generators.md is for).
 
 1. Unreachable-content check (see cause 2). One command. [measured]
 2. Term check: for every technical term, is its first use after its
-   introduction? [measured precedent: "METR" appeared 18 times and was
-   introduced nowhere]
+   introduction? [measured 2026-09-04, production, student order: "METR"
+   has 14 mentions; the first introduction is at mention 7 -- six uses
+   before any introduction -- and that introduction ("METR is an
+   independent organisation...") is itself the vouching rule 3(b)4
+   forbids. An earlier count, "18 times, introduced nowhere", was one
+   article's count from three weeks and one rebuild earlier.]
 3. Promise check: does the course landing page match what the weeks
    actually contain? Andreas signed up for forecasting and hit policy in
    week 3. [student]
