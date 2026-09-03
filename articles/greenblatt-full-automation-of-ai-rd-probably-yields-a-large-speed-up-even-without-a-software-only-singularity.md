@@ -9,12 +9,18 @@ accessed: 2026-07-02
 description: "Full automation likely yields a one-time speed-up and higher returns from compute"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+Greenblatt distinguishes two separate accelerants: a one-time speed-up from automating existing human labor, and a compute-returns effect that persists afterward, independent of whether "r" (the feedback-loop growth rate) exceeds 1. Useful for discussing why a software-only singularity isn't necessary for automation of AI R&D to matter a great deal.
 
 %%
 
