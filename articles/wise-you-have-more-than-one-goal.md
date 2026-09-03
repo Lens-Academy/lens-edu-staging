@@ -3,7 +3,7 @@ title: "You have more than one goal, and that's fine"
 source_url: https://web.archive.org/web/20200220221815/http://www.givinggladly.com/2019/02/you-have-more-than-one-goal-and-thats.html
 author:
   - Julia Wise
-published: 2019-02-20
+published: 2019-02-19
 created: 2019-02-20
 description: "A gentle pushback against applying cost-effectiveness to every corner of life. Julia Wise argues for keeping separate budgets — one for world-improvement, one for personal satisfaction — and being clear with yourself about which goal you're pursuing in any given decision."
 tags:
@@ -14,8 +14,14 @@ tags:
   - community
   - motivation
   - work-in-progress
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -38,5 +44,6 @@ If I donate to my friend's fundraiser for her sick uncle, I'm pursuing a goal. B
 I have another pot of money set aside for donating as effectively as I can. When I'm deciding what to do with that money, I turn on that bright light of cost-effectiveness and try to make as much progress as I can on the world's problems. That involves looking at the research on different interventions and choosing what I think will do the most to bring humanity forward in our struggle against pointless suffering, illness, and death. The best cause I can find usually ends up being one that I didn't previously have any personal connection to, and that doesn't nicely connect with my personal life. And that's fine, because personal meaning-making is not my goal here. I can look for personal meaning in the decision afterward, but that's not what drives the decision.
 
 When you make a decision, be clear with yourself about which goals you're pursuing. You don't have to argue that your choice is the best way of improving the world if that isn't actually the goal. It's fine to support your local arts organization because their work gives you joy, because you want to be active in your community, or because they helped you and you want to reciprocate. If you also have a goal of improving the world as much as you can, decide how much time and money you want to allocate to that goal, and try to use those resources as effectively as you can.
-
+{--{"author":"Luc's AI","timestamp":1788446735558}@@
 *This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
+--}
