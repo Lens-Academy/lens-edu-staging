@@ -44,13 +44,13 @@ To clarify the choice of terminology:
 
 - "Empathy" is intended to capture the idea that one *could* imagine oneself in another's position, and recognizes the other as having experiences that are worthy of consideration. It is not intended to refer to *literally feeling* what another feels, and is therefore distinct from the "empathy" critiqued in [Against Empathy](https://smile.amazon.com/Against-Empathy-Case-Rational-Compassion-ebook/dp/B01CY2LCZI/) (a book that acknowledges the multiple meanings of the term and explicitly focuses on one).
 
-## Conventional wisdom and intuition aren't good enough
+## Conventional wisdom and intuition aren't good enough ^conventional-wisdom-and-intuition-arent-good-enough
 
 In [The Expanding Circle](https://smile.amazon.com/dp/B005646EGY/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1), Peter Singer discusses how, over the course of history, "The circle of altruism has broadened from the family and tribe to the nation and race ... to all human beings" (and adds that "The process should not stop there").[^note-karnofsky-2]
 
 By today's standards, the earliest cases he describes are striking:
 
-> At first, [the] insider/outsider distinction applied even between the citizens of neighboring Greek city-states; thus there is a tombstone of the mid-fifth century B.C. which reads:
+> At {--{"author":"Luc's AI","timestamp":1788444269386}@@first,--}{++{"author":"Luc's AI","timestamp":1788444269386}@@first++} [the] insider/outsider distinction applied even between the citizens of neighboring Greek city-states; thus there is a tombstone of the mid-fifth century B.C. which reads:
 >
 > *This memorial is set over the body of a very good man. Pythion, from Megara, slew seven men and broke off seven spear points in their bodies ... This man, who saved three Athenian regiments ... having brought sorrow to no one among all men who dwell on earth, went down to the underworld felicitated in the eyes of all.*
 >
@@ -62,7 +62,7 @@ From today's vantage point, these seem like extraordinarily shameful behaviors, 
 
 Today's norms seem superior in some respects. For example, racism is much more rarely explicitly advocated (which is not to say that it is rarely practiced). However, we think today's norms are still fundamentally inadequate for the question of who deserves empathy and moral concern. One sign of this is the discourse in the U.S. around immigrants, which tends to avoid explicit racism but often to embrace nationalism ⁠— to exclude or downplay the rights and concerns of people who aren't American citizens (and even more so, people who aren't in the U.S. but would like to be).
 
-## Intellect vs. emotion
+### Intellect vs. emotion ^intellect-vs-emotion
 
 I sometimes hear the sentiment that moral atrocities tend to come from thinking of morality abstractly, losing sight of the basic emotional basis for empathy, and distancing oneself from the people one's actions affect.
 
@@ -72,9 +72,9 @@ Today, watching the casualness with which factory farm workers handle animals (a
 
 On the flipside, there seems to be at least some precedent for using logical reasoning to reach moral conclusions that look strikingly prescient in retrospect. For example, see Wikipedia on [Jeremy Bentham](https://en.wikipedia.org/wiki/Jeremy_Bentham), who is known for basing his morality on the straightforward, quantitative logic of utilitarianism:
 
-He advocated individual and economic freedom, the separation of church and state, freedom of expression, equal rights for women, the right to divorce, and the decriminalising of homosexual acts. [My note: he lived from 1747–1832, well before most of these views were common.] He called for the abolition of slavery, the abolition of the death penalty, and the abolition of physical punishment, including that of children. He has also become known in recent years as an early advocate of animal rights.
+> He advocated individual and economic freedom, the separation of church and state, freedom of expression, equal rights for women, the right to divorce, and the decriminalising of homosexual acts. [My note: he lived from 1747–1832, well before most of these views were common.] He called for the abolition of slavery, the abolition of the death penalty, and the abolition of physical punishment, including that of children. He has also become known in recent years as an early advocate of animal rights.
 
-## Aspiring to radical empathy
+## Aspiring to radical empathy ^aspiring-to-radical-empathy
 
 Who deserves empathy and moral concern? To the extent that we get this question wrong, we risk making atrocious choices. If we can get it right to an unusual degree, we might be able to do outsized amounts of good.
 
@@ -86,11 +86,11 @@ I think the uncertainty we have on this point warrants putting significant resou
 
 That said, I don't feel uncertain about all of our unusual choices. I'm confident that differences in geography, nationality, and race ought not affect moral concern, and our giving should reflect this.
 
-**Being extremely careful about too quickly dismissing "strange" arguments on this topic.** Relatively small numbers of people argue that [insects](http://reducing-suffering.org/do-bugs-feel-pain/), and even [some algorithms run on today's computers](http://petrl.org/), merit moral concern. It's easy and intuitive to laugh these viewpoints off, since they seem so strange on their face and have such radical implications. But as argued above, I think we should be highly suspicious of our instincts to dismiss unusual viewpoints on who merits moral concern. And the stakes could certainly be high if these viewpoints turn out to be more reasonable than they appear at first.
+**Be extremely careful about too quickly dismissing "strange" arguments on this topic.** Relatively small numbers of people argue that [insects](http://reducing-suffering.org/do-bugs-feel-pain/), and even [some algorithms run on today's computers](http://petrl.org/), merit moral concern. It's easy and intuitive to laugh these viewpoints off, since they seem so strange on their face and have such radical implications. But as argued above, I think we should be highly suspicious of our instincts to dismiss unusual viewpoints on who merits moral concern. And the stakes could certainly be high if these viewpoints turn out to be more reasonable than they appear at first.
 
 So far I remain unconvinced that insects, or any algorithms run on today's computers, are strong candidates for meriting moral concern. But I think it's important to keep an open mind.
 
-**Exploring the idea of supporting deeper analysis.** [Luke Muehlhauser](https://coefficientgiving.org/about/team/luke-muehlhauser) is currently exploring the current state of research and argumentation on the question of who merits moral concern (which he calls the question of moral patienthood). It's possible that if we identify gaps in the literature, and opportunities to become better informed, we'll recommend funding further work. In the near future, work along these lines could affect our priorities within [farm animal welfare](https://coefficientgiving.org/focus/us-policy/farm-animal-welfare) ⁠— for example, it could affect how we prioritize work focused on improving treatment of fish. Ideally, our views on moral patienthood would be informed by an extensive literature drawing on as much deep reflection, empirical investigation and principled argumentation as possible.
+**Explore the idea of supporting deeper analysis.** [Luke Muehlhauser](https://coefficientgiving.org/about/team/luke-muehlhauser) is currently exploring the current state of research and argumentation on the question of who merits moral concern (which he calls the question of moral patienthood). It's possible that if we identify gaps in the literature, and opportunities to become better informed, we'll recommend funding further work. In the near future, work along these lines could affect our priorities within [farm animal welfare](https://coefficientgiving.org/focus/us-policy/farm-animal-welfare) ⁠— for example, it could affect how we prioritize work focused on improving treatment of fish. Ideally, our views on moral patienthood would be informed by an extensive literature drawing on as much deep reflection, empirical investigation and principled argumentation as possible.
 
 **Don't limit ourselves to the "frontier." Widely recognized problems still do a great deal of damage.** In our work we often find ourselves [focusing](https://coefficientgiving.org/focus) on unconventional targets for charitable giving, such as farm animal welfare and potential risks from advanced artificial intelligence. This is because we often find that opportunities to do disproportionate amounts of good are in areas that have been, in our view, relatively neglected by others. However, our goal is to do the most good we can, not to seek out and support those causes which are most "radical" in our present society. When we see great opportunities to play a role in addressing harms in more widely-acknowledged areas ⁠— for example, in the [U.S. criminal justice system](https://coefficientgiving.org/focus/us-policy/criminal-justice-reform) ⁠— we take them.
 
@@ -100,6 +100,6 @@ So far I remain unconvinced that insects, or any algorithms run on today's compu
 
 [^note-karnofsky-3]: Pages 112–113.
 
-[^note-karnofsky-4]: Many examples available in the first chapter of [The Better Angels of Our Nature](https://smile.amazon.com/dp/B0052REUW0/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1).
+[^note-karnofsky-4]: Many examples available in the first chapter of [Better Angels of our Nature](https://smile.amazon.com/dp/B0052REUW0/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1).
 
 [^note-karnofsky-5]: As a side note, it is often tricky to avoid such language. We generally use the term "persons" when we want to refer to beings that merit moral concern, without pre-judging whether such beings are human and also without causing too much distraction for casual readers. A more precise term is "[moral patients.](http://www.ncbi.nlm.nih.gov/pubmed/19254100)"
