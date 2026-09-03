@@ -11,12 +11,18 @@ author:
 published: 2022-08-17
 created: 2026-02-19
 description: "We want to build safe, aligned artificial general intelligence (AGI) systems that pursue the intended goals of its designers. Causal influence diagrams (CIDs) are a way to model decision-making situa…"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This post summarizes "Discovering Agents" (Kenton et al., 2022), which proposes a causal, mechanism-based definition of agency and an algorithm for detecting agents from interventional data. Useful for framing discussions on why formal causal modelling (CIDs) matters for AI safety analysis, and as a companion to the linked arXiv paper for readers who want the full technical treatment.
 
 %%
 New, formal definition of agency gives clear principles for causal modelling of AI agents and the incentives they face
@@ -43,7 +49,7 @@ Combined, these results provide an extra layer of assurance that a modelling mis
 To help illustrate our method, consider the following example consisting of a world containing three squares, with a mouse starting in the middle square choosing to go left or right, getting to its next position and then potentially getting some cheese. The floor is icy, so the mouse might slip. Sometimes the cheese is on the right, but sometimes on the left.
 
 ![](https://lh3.googleusercontent.com/ES_lvqShn85Aht1wLYaUSRqrtWEP5RJ02JuWffqz7ch12sdibieRtltYSFb9CNlecjoraalcq6CTzj9qA18vMHAZb7kki_pbJ5oqh4NCJ_c=w1440-rw-lo)
-*The mouse and the cheese environment.*
+*The mouse and cheese environment.*
 
 This can be represented by the following CID:
 
@@ -53,6 +59,9 @@ This can be represented by the following CID:
 The intuition that the mouse would choose a different behaviour for different environment settings (iciness, cheese distribution) can be captured by a [mechanised causal graph](https://drive.google.com/file/d/1_OBLw9u29FrqROsLfhO6rIaWGK4xJ3il/view), which for each (object-level) variable, also includes a mechanism variable that governs how the variable depends on its parents. Crucially, we allow for links between mechanism variables.
 
 This graph contains additional mechanism nodes in black, representing the mouse's policy and the iciness and cheese distribution.
+
+![](https://lh3.googleusercontent.com/le3eeno-1GJCNqurogpt_oTLdxvLTJgOlwZPw2JKDCDRqbgbUmzssNZZZ4aYzvI-yx0sJyBPJt4lTiUSb3E6T3OEqPrJKoYbNTJk4BvBhCqL32hdEg=w1440-rw-lo)
+*Mechanised causal graph for the mouse and cheese environment.*
 
 Edges between mechanisms represent direct causal influence. The blue edges are special terminal edges – roughly, mechanism edges A~ → B~ that would still be there, even if the object-level variable A was altered so that it had no outgoing edges.
 
