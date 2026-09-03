@@ -2,6 +2,9 @@
 title: "Does AI Make Lawyers Worse at Thinking? New Research Offers a More Complicated Answer"
 author:
   - "Nicholas Bednar"
+  - "David R. Cleveland"
+  - "Allan Erbsen"
+  - "Daniel Schwarcz"
 source_url: "https://natlawreview.com/article/does-ai-make-lawyers-worse-thinking-new-research-offers-more-complicated-answer"
 published: 2026-04-15
 created: 2026-08-07
@@ -9,15 +12,21 @@ accessed: 2026-08-07
 description: "Since the public release of ChatGPT in 2022, a growing body of empirical research has suggested that generative AI systems could fundamentally reshape the practice of law. Yet many actors across the legal ecosystem remain hesitant to embrace these tools. One of the most common concerns is that reliance on AI may erode human legal reasoning and professional judgment. Until recently, however, that concern rested largely on intuition rather than evidence."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-
+{--{"author":"Luc's AI","timestamp":1788447422539}@@
 ### Email
 
 ### Email
@@ -33,7 +42,7 @@ Add discussion note here:
 **[Real Estate Attorney (0-5 Years Experience)](https://jobs.natlawreview.com/job/real-estate-attorney-0-5-years-experience/82779082/)**
 
 by:,,,, [The National Law Review's Guest Contributors - NLR](https://natlawreview.com/organization/national-law-review-s-guest-contributors)
-
+--}
 Since the public release of ChatGPT in 2022, a growing body of empirical research has suggested that generative AI systems could fundamentally reshape the practice of law. Yet many actors across the legal ecosystem remain hesitant to embrace these tools. One of the most common concerns is that reliance on AI may erode human legal reasoning and professional judgment. Until recently, however, that concern rested largely on intuition rather than evidence.
 
 In a [recent draft article](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6525800), we provide the first empirical evidence directly addressing how lawyers’ use of AI affects independent legal reasoning. We conducted a randomized controlled trial involving approximately 100 upper-level students at the University of Minnesota Law School. Participants completed a sequence of common lawyering tasks: synthesizing legal source materials, applying those materials to a client’s problem, and revising their initial memo. We randomly assigned participants to either a control group or an AI exposed group. The control group could not use AI until the final revision task. The AI exposed group used AI during the synthesis and revision stages, but not during the intervening application task, which allowed us to observe whether earlier AI use influenced later reasoning when AI was unavailable.
