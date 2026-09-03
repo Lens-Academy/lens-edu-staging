@@ -799,10 +799,11 @@ But for now it’s exciting to see what ChatGPT has already been able to do. At 
 ## Thanks ^thanks
 
 I’ve been following the development of neural nets now for about 43 years, and during that time I’ve interacted with many people about them. Among them—some from long ago, some from recently, and some across many years—have been: Giulio Alessandrini, Dario Amodei, Etienne Bernard, Taliesin Beynon, Sebastian Bodenstein, Greg Brockman, Jack Cowan, Pedro Domingos, Jesse Galef, Roger Germundsson, Robert Hecht-Nielsen, Geoff Hinton, John Hopfield, Yann LeCun, Jerry Lettvin, Jerome Louradour, Marvin Minsky, Eric Mjolsness, Cayden Pierce, Tomaso Poggio, Matteo Salvarezza, Terry Sejnowski, Oliver Selfridge, Gordon Shaw, Jonas Sjöberg, Ilya Sutskever, Gerry Tesauro and Timothee Verdier. For help with this piece, I’d particularly like to thank Giulio Alessandrini and Brad Klee.
-:::
 
 :::callout {title="Additional Resources" tone="neutral"}
 - [“Machine Learning for Middle Schoolers” »](https://writings.stephenwolfram.com/2017/05/machine-learning-for-middle-schoolers/)
 - _[Introduction to Machine Learning »](https://www.wolfram.com/language/introduction-machine-learning/)_
 - [Wolfram U Machine Learning Courses »](https://www.wolfram.com/wolfram-u/courses/catalog/?topic=machine-learning)
 :::
+
+::::
