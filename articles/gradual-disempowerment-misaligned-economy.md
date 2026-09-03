@@ -14,15 +14,21 @@ accessed: 2026-08-07
 description: "The Misaligned Economy section of 'Gradual Disempowerment' by Kulveit et al.: how AI as worker-replacing change displaces human labor and cognition, and the relative vs. absolute disempowerment distinction."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 ## Misaligned Economy
 
 ## The Current Economic Paradigm
 
-The modern economy allocates goods and services mostly based on supply and demand. That demand is largely driven by human desires and revealed preferences: US consumer spending is fairly stable at around 70% of GDP. Meanwhile, supply is also heavily driven by human labor (both manual and cognitive): the share of US GDP directed towards paying for labor has stayed remarkably stable at around 60% for over a century. These statistics reflect the nature of the modern economy: it is primarily a system of humans producing goods and services for other humans, with human preferences and human capabilities driving the majority of both supply and demand.
+The modern economy allocates goods and services mostly based on supply and demand. That demand is largely driven by human desires and revealed preferences: US consumer spending is fairly stable at around 70% of GDP. Meanwhile, supply is also heavily driven by human labor (both manual and cognitive): the share of US GDP directed towards paying for labor has stayed remarkably stable at around 60% for over a century.[^note-kaldor-stylized-fact] These statistics reflect the nature of the modern economy: it is primarily a system of humans producing goods and services for other humans, with human preferences and human capabilities driving the majority of both supply and demand.
 
-To give a concrete example, individual consumers in economically developed areas can reliably purchase coffee. This is possible because of the labor of countless individuals now and in the past, mostly motivated by self-interest, to create and maintain a complex system of production, transportation, and distribution — from farmers and agricultural scientists to logistics workers and baristas. As a consumer, the economy appears to helpfully provide goods and services. This apparent alignment occurs because consumers have money to spend, which in turn is mainly because consumers can perform useful economic work.
+To give a concrete example, individual consumers in economically developed areas can reliably purchase coffee. This is possible because of the labor of countless individuals now and in the past, mostly motivated by self-interest, to create and maintain a complex system of production, transportation, and distribution — from farmers and agricultural scientists to logistics workers and baristas. As a consumer, the economy appears to helpfully provide goods and services. This apparent alignment occurs because consumers have money to spend, which in turn is mainly because consumers can perform useful economic work.[^note-simplified-consumer-picture]
 
 But AI has the potential to disrupt this dynamic in a way that no previous technology has. If AI labor replaces human labor, then by default, money will cease to mainly flow to workers. We elaborate on the consequences of this change in the remainder of this section.
 
@@ -46,7 +52,7 @@ Humans use their economic power to explicitly steer the economy in several inten
 
 The more subtle but more significant point is that most of what drives the economy is implicit human preferences, revealed in consumer behavior and guiding productive labor. Some small amount of choices have already been delegated to systems like automated algorithms for product recommendation, trading, and logistics, but the majority of economic activity is guided by decisions and actions made by individual humans, to the point that it is almost hard to picture how the world would look if this were no longer true.
 
-Although the existing debate often focuses on the potential for AI to concentrate power among a small group of humans, we must also consider the possibility that a great deal of power is effectively handed over to AI systems, at the expense of humans. Attempts to closely oversee such AI labor to ensure continued human influence may prove ineffective since AI labor will likely occur on a scale that is far too fast, large and complex for humans to oversee.
+Although the existing debate often focuses on the potential for AI to concentrate power among a small group of humans, we must also consider the possibility that a great deal of power is effectively handed over to AI systems, at the expense of humans. Attempts to closely oversee such AI labor to ensure continued human influence may prove ineffective since AI labor will likely occur on a scale that is far too fast, large and complex for humans to oversee. Furthermore, some AI systems may even effectively own themselves.
 
 ## Transition to AI-dominated Economy
 
@@ -81,3 +87,11 @@ First, AI systems might outcompete humans for crucial scarce resources such as l
 Second, the economy might become so optimized for AI-centric activities that it fails to maintain infrastructure and supply chains which are critical for human survival. If human consumers command an ever-smaller share of economic resources, markets might stop producing resource-intensive human goods in favor of more profitable AI-focused activities. This could happen gradually and unevenly, potentially manifesting first as increasing costs of resource-intensive human-centric goods and services, before eventually making some necessities effectively unavailable. At the same time, as in the case of an AI-dominated economy, cognition could be comparably cheap, and some goods may be abundant — for example, entertainment in engaging virtual worlds populated by AI personae, or drugs making it easy to dwell in pleasurable mental states, due to AI-accelerated progress in biomedical sciences and drug design.
 
 Finally, humans might lose the ability to meaningfully participate in economic decision-making at any level. Financial markets might move too quickly for human participants to engage with them, and the complexity of AI-driven economic systems might exceed human comprehension, rendering it impossible for humans to make informed economic decisions or effectively regulate economic activity. Much like cattle in an industrial farm — fed and housed by systems they neither comprehend nor influence — humans might become mere subjects of economic forces optimized for purposes beyond their understanding.
+
+![A simplified model of a potential future trajectory where AI displaces human labor](https://gradual-disempowerment.ai/gradfig2.png)
+
+This illustration presents a simplified model of a potential future trajectory where AI displaces human labor and the fraction of unautomated tasks collapses to zero in a fixed amount of time. Note that wages grow during the initial period but then collapse before full automation is reached. Inspired by simulations in scenario analysis.
+
+[^note-kaldor-stylized-fact]: This observation is one of Nicholas Kaldor's "stylized facts."
+
+[^note-simplified-consumer-picture]: Here we present a simplified picture from the perspective of a consumer. There are many reasons why markets in practice deviate from the idealized model, including market asymmetries, externalities, monopolies, state interventions, and so on. The coffee supply chain is not free of such problems.
