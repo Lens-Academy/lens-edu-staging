@@ -9,8 +9,14 @@ accessed: 2026-07-09
 description: "TL;DR • AI safety organizations are capacity constrained by a lack of senior researchers who can mentor and supervise junior talent. This bottleneck…"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -92,6 +98,7 @@ Organizations offered several concrete recommendations for improving talent pipe
 
 Given rapid change and limited senior bandwidth, the priority is building durable capacity: developing researchers and practitioners who can contribute with increasing autonomy and eventually mentor others. If we get this right, we increase the field’s ability to absorb talent, set better agendas, and respond faster as the technical and governance landscape shifts—improving our odds of building AI systems that are safe, reliable, and aligned with human interests.
 
+:::hide
 ## **Acknowledgements**
 
 This report was produced by MATS Research as an update to the [**Talent Needs of Technical AI Safety Teams**](https://www.lesswrong.com/posts/QzQQvGJYDeaDE4Cfg/talent-needs-of-technical-ai-safety-teams) post published in May of 2024. John Teichman conducted all interviews, analyzed the data and authored the report. Ryan Kidd provided directional guidance and editorial support, and a number of people on the MATS team contributed helpful reviews.
@@ -99,3 +106,4 @@ This report was produced by MATS Research as an update to the [**Talent Needs of
 Thanks to our interviewees for their time and support, without which this work wouldn’t have been possible. We also thank [Coefficient Giving](https://coefficientgiving.org/), the [Survival and Flourishing Fund](https://survivalandflourishing.fund/), and [Longview Philanthropy](https://www.longview.org/), without whose donations we would be unable to run upcoming programs or retain [team members](https://www.matsprogram.org/team) essential to this report.
 
 To learn more about MATS, please visit our [website](http://matsprogram.org/). We are currently [accepting donations](https://manifund.org/projects/mats-funding) for our Summer 2026 Program and beyond!
+:::
