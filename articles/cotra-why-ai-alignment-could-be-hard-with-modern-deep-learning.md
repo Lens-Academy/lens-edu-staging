@@ -17,11 +17,11 @@ description: "Why would we program AI that wants to harm us? Because we might no
 tags:
   - "obsidian-web-clipper"
 llm-review:
-  date: 2026-08-27
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v2"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-27
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
@@ -247,6 +247,6 @@ If we don’t make further progress on this problem, then [over the coming decad
 
 And all this could happen [blindingly fast](https://www.cold-takes.com/the-duplicator/) relative to the pace of change we’ve gotten used to, meaning we wouldn’t have much time to correct course once things start to go off the rails. **This means we may need to develop techniques to ensure deep learning models won’t have dangerous goals, *before* they are powerful enough to be transformative**.
 
-:::collapse
+:::hide
 **Next in series:** [Forecasting transformative AI: what's the burden of proof?](https://www.cold-takes.com/forecasting-transformative-ai-whats-the-burden-of-proof/)
 :::
