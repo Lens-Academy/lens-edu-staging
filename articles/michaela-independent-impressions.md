@@ -15,17 +15,17 @@ tags:
   - rationality
   - work-in-progress
 llm-review:
-  date: 2026-08-28
-  model: "gpt-5.6-terra"
-  version: "article-qc-v1.1"
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+Short but widely-cited EA Forum post introducing terminology (independent impression vs. all-things-considered belief) that's since become common vocabulary in EA/rationalist discussions of epistemic deference. Useful as a quick-reference companion when discussing information cascades or peer disagreement.
 
 %%
 
@@ -49,6 +49,6 @@ For example: My independent impression is that it's plausible that an [unrecover
 
 *This term, this concept, and these suggested norms aren't at all original to me - see in particular [Naming beliefs](https://www.overcomingbias.com/2008/04/naming-beliefs.html), [this comment](https://forum.effectivealtruism.org/posts/WKPd79PESRGZHQ5GY/in-defence-of-epistemic-modesty?commentId=cubpmCn7XJE5FQYEq), and several of the posts tagged [Epistemic humility](https://forum.effectivealtruism.org/tag/epistemic-humility) (especially [this one](https://forum.effectivealtruism.org/posts/jhexFncC9KN76Z5ki/ea-concepts-share-impressions-before-credences)). But I wanted a clear, concise description of this specific set of terms and norms so that I could link to it whenever I say I'm reporting my independent impression, ask someone for theirs, or ask someone whether an opinion they've given is their independent impression or their all-things-considered belief.*
 
-:::collapse
+:::hide
 *My thanks to Lukas Finnveden for [suggesting I make this a top-level post](https://forum.effectivealtruism.org/posts/EMKf4Gyee7BsY2RP8/michaela-s-shortform?commentId=w3QwxtDRxeueg3ZEf#w3QwxtDRxeueg3ZEf) (it was originally a shortform).*
 :::

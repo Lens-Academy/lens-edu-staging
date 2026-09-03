@@ -44,7 +44,7 @@ It was observed that survivors of the mad god’s curse would never be touched a
 
 An idea began to take hold: Perhaps the ancient god could be killed.
 
-A whisper became a voice; a voice became a call; a call became a battle cry, sweeping across villages, cities, nations. Humanity began to cooperate, spreading the protective power across the globe, dispatching masters of the craft to protect whole populations. People who had once been sworn enemies joined in a common cause for this one battle. Governments mandated that all citizens protect themselves, for giving the ancient enemy a single life would put millions in danger.
+A whisper became a voice; a voice became a call; a call became a battle cry, sweeping across villages, cities, nations. Humanity began to cooperate, spreading the protective power across the globe, dispatching masters of the craft to protect whole populations. People who had once been sworn enemies joined in {--{"author":"Luc's AI","timestamp":1788443203480}@@a --}common cause for this one battle. Governments mandated that all citizens protect themselves, for giving the ancient enemy a single life would put millions in danger.
 
 And, inch by inch, humanity drove its enemy back. Fewer friends wept; fewer neighbors were crippled; fewer parents had to bury their children.
 
@@ -58,8 +58,8 @@ They found none.
 
 35 years ago, on December 9th, 1979, humanity declared victory.
 
-This one evil, the horror from beyond memory, the monster that took 500 million people from this world, was destroyed.
+This one evil, the horror from beyond memory, the monster that took 500 million people from this {--{"author":"Luc's AI","timestamp":1788443203243}@@world,--}{++{"author":"Luc's AI","timestamp":1788443203243}@@world —++} was destroyed.
 
-You are a member of the species that did that. Never forget what we are capable of when we band together and declare battle on what is broken in the world.
+You are a member of the species that did that. Never forget what we are capable of, when we band together and declare battle on what is broken in the world.
 
 [Happy Smallpox Eradication Day](http://en.wikipedia.org/wiki/Smallpox#Eradication).
