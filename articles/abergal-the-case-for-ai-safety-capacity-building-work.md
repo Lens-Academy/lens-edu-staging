@@ -11,17 +11,17 @@ description: "TL;DR: •  * I think many of the marginal hires at larger organiz
 tags:
   - "article-importer"
 llm-review:
-  date: 2026-08-28
-  model: "gpt-5.6-terra"
-  version: "article-qc-v1.1"
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+This post is written from the author's personal, first-person perspective as a Coefficient Giving (formerly Open Philanthropy) staff member, and draws heavily on self-reported survey data and cherry-picked testimonials the author explicitly flags as such — useful for discussing selection effects and the limits of retrospective career-influence evidence, alongside the substantive case for capacity-building work.
 
 %%
 
