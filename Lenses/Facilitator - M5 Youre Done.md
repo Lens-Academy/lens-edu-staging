@@ -5,6 +5,7 @@ summary_for_tutor: "Closing lens of the facilitator training. Tells the trainee 
 title: "You're done"
 tags:
   - facilitator-training
+reading_minutes: 2
 ---
 #### Text
 content:: You now have the conceptual baseline of facilitation. The rest is reps.
