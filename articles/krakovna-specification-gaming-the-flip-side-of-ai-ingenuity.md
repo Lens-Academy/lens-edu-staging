@@ -18,11 +18,11 @@ description:
 tags:
   - "article-importer"
 llm-review:
-  date: 2026-08-27
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v2"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-27
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
@@ -94,8 +94,10 @@ While many approaches have been proposed, ranging from reward modeling to agent 
 
 ![A collage of animated clips illustrating examples of specification gaming.](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/6227571a4fecbb9610562856_Fig208.gif)
 
+:::hide
 **Notes**
 
 We would like to thank Hado van Hasselt and Csaba Szepesvari for their feedback on this post.
 
 Custom figures by Paulo Estriga, Aleks Polozuns, and Adam Cain.
+:::
