@@ -10,8 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/specification-gaming.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter6-af895defbf8761a30ac565755f204072e09a5d599ca725f3de64de4b547c2f28.pdf)*
 
 %%
@@ -25,13 +31,17 @@ Reinforcement learning teaches AI agents through trial and error to maximize a r
 
 ---
 
-> **Warning:** This is meant as a recap. If you are already familiar with the basics you can skip directly to the next section.
+:::callout {title="Warning" tone="amber"}
+This is meant as a recap. If you are already familiar with the basics you can skip directly to the next section.
+:::
 
 The section provides a succinct reminder of several concepts in reinforcement learning (RL). It also disambiguates various often conflated terms such as rewards, values and utilities. The section ends with a discussion around distinguishing the concept of objectives that a reinforcement learning system might pursue from what it is being rewarded for. 
 
 ## Primer
 
-**Definition: Reinforcement Learning (RL)** — Reinforcement Learning (RL) focuses on developing agents that can learn from interactive experiences. RL is based on the concept of an agent learning through interaction with an environment and altering its behavior based on the feedback it receives through rewards after each action.
+:::callout {title="Definition: Reinforcement Learning (RL)" tone="blue"}
+Reinforcement Learning (RL) focuses on developing agents that can learn from interactive experiences. RL is based on the concept of an agent learning through interaction with an environment and altering its behavior based on the feedback it receives through rewards after each action.
+:::
 
 ::video[[../video_transcripts/openai-learning-dexterity]]
 
@@ -67,8 +77,10 @@ This loop continues until a terminal condition is reached or can run indefinitel
 
 ## Policies 
 
-**Definition: Reinforcement Learning Policy** — A policy helps the agent determine what action to take once it has received an observation. It is a function mapping from states to actions specifying what action to take in each state. Policies can be both deterministic or stochastic.
-
+{--{"author":"Luc's AI","timestamp":1788448279032}@@**Definition:--}{++{"author":"Luc's AI","timestamp":1788448279032}@@:::callout {title="Definition:++} Reinforcement Learning {--{"author":"Luc's AI","timestamp":1788448279032}@@Policy** — --}{++{"author":"Luc's AI","timestamp":1788448279032}@@Policy" tone="blue"}
+++}A policy helps the agent determine what action to take once it has received an observation. It is a function mapping from states to actions specifying what action to take in each state. Policies can be both deterministic or stochastic.
+{++{"author":"Luc's AI","timestamp":1788448279032}@@:::
+++}
 The goal of RL is to learn a policy (often denoted by $\pi$) that recommends the best action to take at any given moment in order to maximize total cumulative reward over time. The policy defines the mapping from states to actions and guides the agent's decision-making process.
 
 $$
@@ -89,15 +101,19 @@ In order to determine whether an action is better than another, the actions (or 
 
 ## Reward
 
-**Definition: Reward** — Reward refers to any signal or feedback mechanism used to guide the learning process and optimize the behavior of the model.
-
+{--{"author":"Luc's AI","timestamp":1788448278761}@@**Definition: Reward** — --}{++{"author":"Luc's AI","timestamp":1788448278761}@@:::callout {title="Definition: Reward" tone="blue"}
+++}Reward refers to any signal or feedback mechanism used to guide the learning process and optimize the behavior of the model.
+{++{"author":"Luc's AI","timestamp":1788448278761}@@:::
+++}
 The reward signal from the environment is a number that tells the agent how good or bad the current world state is. It is a way to provide an evaluation or measure of performance for the model's outputs or actions. The reward can be defined based on a specific task or objective, such as maximizing a score in a game or achieving a desired outcome in a real-world scenario. The training process for RL involves optimizing the model's parameters to maximize the expected reward. The model learns to generate actions or outputs that are more likely to receive higher rewards, leading to improved performance over time. Where does the reward come from? It is generated through a reward function.
 
-**Definition: Reward function** — A reward function defines the goal or objective in a reinforcement learning problem. It maps perceived states or state-action pairs of the environment to a single number.
+{--{"author":"Luc's AI","timestamp":1788448278471}@@**Definition: --}{++{"author":"Luc's AI","timestamp":1788448278471}@@:::callout {title="Definition: ++}Reward {--{"author":"Luc's AI","timestamp":1788448278471}@@function** — --}{++{"author":"Luc's AI","timestamp":1788448278471}@@function" tone="blue"}
+++}A reward function defines the goal or objective in a reinforcement learning problem. It maps perceived states or state-action pairs of the environment to a single number.
 
 $$
 R: (S \times A) \to \mathbb{R}; \quad r_t = R(s_t, a_t)
 $$
+:::
 
 The reward function provides immediate feedback to the agent, indicating the goodness or badness of a particular state or action. It is a mathematical function that maps the state-action pairs of an agent's environment to a scalar value, representing the desirability of being in that state and taking that action. It provides a measure of immediate feedback to the agent, indicating how well it is performing at each step.
 
