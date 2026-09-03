@@ -10,11 +10,11 @@ description:
 tags:
   - "article-importer"
 llm-review:
-  date: 2026-08-28
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v1.1"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
@@ -23,6 +23,8 @@ Add discussion note here:
 ...
 
 %%
+
+[Research Paper PDF](https://aipolicylab.se/wp-content/uploads/2026/02/Marit_Brademann_AIPL_Research_Paper-1.pdf)
 
 **Topic:** Arbitrary cognitive offloading to GenAI: Does the current policy landscape account for the right to quality education of children and youth in the European Union?  
   
@@ -35,7 +37,7 @@ This paper argues that the unmediated use of GenAI in educational settings under
 The paper concludes that arbitrary cognitive offloading via GenAI jeopardizes the normative goals of quality education, as defined by frameworks like UNICEF’s and Bloom’s Revised Taxonomy. It calls for a revision of the EU’s normative approach to general-purpose GenAI, emphasizing the need to protect young learners’ right to cognitive development and autonomy.
 
 **Keywords:** cognitive offloading, metacognition, AI in education, right to education, metacognitive laziness, OECD, EU AI Act, CULT
-
+{--{"author":"Luc's AI","timestamp":1788443049854}@@
 :::collapse
 ## Finished Externships
 
@@ -49,3 +51,4 @@ The paper concludes that arbitrary cognitive offloading via GenAI jeopardizes th
 | Rusydi Farhan | 2026 | Global Coordination and Policy Harmonization | [Discipline and Punishment in AI policy](https://aipolicylab.se/externships/rusydi-farhan/) | De Montfort University |
 | Chaeyeon Lim | 2026 | AI and Education | [Examining the evolving landscape of AI policies in educational settings](https://aipolicylab.se/externships/chaeyeon-lim/) | University College London |
 :::
+--}
