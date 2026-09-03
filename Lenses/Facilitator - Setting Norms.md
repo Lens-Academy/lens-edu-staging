@@ -7,6 +7,7 @@ authors:
   - Yatharth+Claude
 tags:
   - facilitator-training
+reading_minutes: 16
 ---
 #### Text
 content::

@@ -5,6 +5,7 @@ summary_for_tutor: "Optional-resources lens for Module 3 of the facilitator trai
 title: "Facilitator M3 — Overview of Optional Resources"
 tags:
   - facilitator-training
+reading_minutes: 24
 ---
 
 #### Text
