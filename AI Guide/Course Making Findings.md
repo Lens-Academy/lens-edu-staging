@@ -9,7 +9,13 @@ repo's docs folder; this is the version for people.
 
 Each piece of advice is labeled with how we know it:
 
-  [measured]  we counted or tested it this week; the number is included
+  [measured]  we counted or tested it; carries command, corpus, and date,
+              or it gets downgraded to [reported]. (Rule added 2026-09-04
+              after a verification pass found three of six [measured]
+              numbers had changed meaning while being copied from prose
+              summaries of the measurement rather than from its output.)
+  [reported]  someone measured it once, but the trail to the measurement
+              is incomplete
   [edits]     taken from Lauren's hand edits to Unit 1; before/after quotes
               are in course-writing-generators.md
   [standard]  taken from ASD-STE100, an aerospace writing standard we
@@ -149,8 +155,10 @@ can be split among reviewers. Three groups:
       defined term, a name, or has a stated reason to be there.
 
 What cannot be made into a yes/no rule -- say so and name who judges it,
-instead of pretending: whether the writing lands (Lauren judges; we measured
-that writing quality decides whether readers finish at all); whether the
+instead of pretending: whether the writing lands (Lauren judges; suggestive
+evidence: a small model-reader collapsed mid-read on AI prose in 4 of 7
+runs and on Lauren's or Spiral-rewritten prose in 0 of 10 -- small n,
+details in the spiral-and-roundtrip notes); whether the
 voice is hers (only she can write that); and choosing what to say in the
 first place (rules check writing; they do not produce it -- that is what
 course-writing-generators.md is for).
@@ -188,7 +196,8 @@ course-writing-generators.md is for).
    follows the last. [proposed] This is the only check on this list that
    finds problems that are not visible in the files. We tested this the
    hard way: nine defects were predicted by reading the files, and the
-   student's three biggest complaints were not among them. [measured]
+   student's three biggest complaints were not among them. [reported --
+   the nine-guess list has not been re-traced to its transcript]
 
 ## 5. Tools, and their limits
 
