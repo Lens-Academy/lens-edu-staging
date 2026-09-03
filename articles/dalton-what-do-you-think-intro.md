@@ -15,17 +15,17 @@ tags:
   - independent-impressions
   - work-in-progress
 llm-review:
-  date: 2026-08-28
-  model: "gpt-5.6-terra"
-  version: "article-qc-v1.1"
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+This short intro frames the session with an external critic's quote before pivoting to "independent impressions." Worth prompting discussion on how participants should balance forming their own view against deferring to domain experts, and whether the GiveWell example (asking beneficiaries about tradeoffs) is a satisfying response to the opening critique or just one data point.
 
 %%
 
