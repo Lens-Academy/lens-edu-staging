@@ -7,14 +7,20 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-#### We cover additional alignment proposals in the book.
+#### We cover additional alignment proposals in the book. ^we-cover-additional-alignment-proposals-in-the-book
 
 See also the extended discussions on [truth-seeking AI](https://ifanyonebuildsit.com/11/more-on-some-of-the-plans-we-critiqued-in-the-book#more-on-making-ai-that-is-truth-seeking), [submissive AI](https://ifanyonebuildsit.com/11/more-on-some-of-the-plans-we-critiqued-in-the-book#more-on-making-ai-that-is-submissive), and [using AIs to solve AI alignment](https://ifanyonebuildsit.com/11/more-on-some-of-the-plans-we-critiqued-in-the-book#more-on-making-ais-solve-the-problem), which go into a bit more depth about those proposals.
