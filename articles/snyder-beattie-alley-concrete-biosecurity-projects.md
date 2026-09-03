@@ -15,11 +15,11 @@ tags:
   - cause-prioritization
   - work-in-progress
 llm-review:
-  date: 2026-08-28
-  model: "gpt-5.6-terra"
-  version: "article-qc-v1.1"
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
@@ -89,7 +89,7 @@ Despite how promising and scalable we think some biosecurity interventions are, 
 
 Again, please fill in [this coordination form](https://docs.google.com/forms/d/e/1FAIpQLSc5Lao8hdqFU49ojhPW7TiM5aCTAJ0H1_qBzINAonHTyS951w/viewform?usp=sf_link) to stay informed of developments and opportunities.
 
-:::collapse
+:::hide
 *We thank Chris Bakerlee, Jamie Balsillie, Kevin Esvelt, Kyle Fish, Cate Hall, Holden Karnofsky, Grigory Khimulya, Mike Levine, and Carl Shulman for feedback on this post.*
 :::
 
