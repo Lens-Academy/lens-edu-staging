@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -42,7 +48,7 @@ There are four basic reasons why we think this:
 
 When humanity doesn't understand something, it can often seem intimidating and profoundly mysterious. It can be hard to imagine — or hard to appreciate emotionally! — what it would be like to deeply understand that topic in the future.
 
-There was once, among philosophers and scientists, a widespread belief in *[vitalism](https://ifanyonebuildsit.com/1/special-behavior-is-built-out-of-mundane-parts)*— the idea that biological processes could never be reduced to mere chemistry and physics. Life seemed like something special, something incomparably different from mere atoms and molecules, mere gravity and electromagnetism.
+There was once, among philosophers and scientists, a widespread belief in *[vitalism](https://ifanyonebuildsit.com/1/special-behavior-is-built-out-of-mundane-parts)* — the idea that biological processes could never be reduced to mere chemistry and physics. Life seemed like something special, something incomparably different from mere atoms and molecules, mere gravity and electromagnetism.
 
 The mistake of the vitalists has been a remarkably common one throughout history. People are quick to conclude that things which are mysterious today are *inherently* mysterious, unknowable even in principle.
 
@@ -110,7 +116,7 @@ It also seems relevant that there already exist fully understood AIs that are su
 
 When it comes to LLMs like ChatGPT, it's not entirely clear that there *could* exist a complete and *short* description of how they work. LLMs are large enough that they're allowed to have similar behavior for *many different contingent reasons*, if (for example) the machinery that makes that behavior happen occurs in a thousand different places inside the LLM. Understanding an LLM's [architecture](https://ifanyonebuildsit.com/2/a-full-description-of-an-llm) doesn't even begin to tell us about the roles played by the different inscrutable weights in the trained model.
 
-ChatGPT could turn out to be hard for scientists to understand, even after decades of study. But the existence of ChatGPT doesn't mean that intelligence has tobe messy in order to work. It just means that it would be an extremely bad idea to try to scale something like ChatGPT all the way to superintelligence, for reasons we'll cover in later chapters of the book.
+ChatGPT could turn out to be hard for scientists to understand, even after decades of study. But the existence of ChatGPT doesn't mean that intelligence has {--{"author":"Luc's AI","timestamp":1788454765414}@@tobe--}{++{"author":"Luc's AI","timestamp":1788454765414}@@to be++} messy in order to work. It just means that it would be an extremely bad idea to try to scale something like ChatGPT all the way to superintelligence, for reasons we'll cover in later chapters of the book.
 
 The fact that one particular mind is messy doesn't mean that it's impossible to understand intelligence. It doesn't even mean that it's impossible to understand ChatGPT someday.
 
