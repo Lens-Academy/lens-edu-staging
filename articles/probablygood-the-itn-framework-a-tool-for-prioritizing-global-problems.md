@@ -9,12 +9,18 @@ accessed: 2026-07-18
 description: "The ITN framework is a tool used to compare cause areas based on three key factors: Importance, Tractability, and Neglectedness. Learn more."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+The ITN framework originated in effective altruism cause-prioritization work; it's a heuristic for comparing causes, not a precise formula, and the three factors often trade off against each other (e.g. important + tractable causes tend to attract more resources and become less neglected). Worth discussing alongside the "limiting factor" alternative the article links to, and noting that personal fit (skills, experience, motivation) is presented here as a separate consideration from cause-level ITN scoring.
 
 %%
 
