@@ -138,7 +138,7 @@ options::
 
 #### Question: Open
 id:: d1f04440-6b43-4585-8e09-dd2017aeb70a
-content:: Where are you based most of the time? A city and country is enough, for example Oxford, United Kingdom. Name a few places if you are meaningfully in more than one. *(optional)*
+content:: Where are you based most of the time? A city and country is enough, for example Oxford, United Kingdom. Name a few places if you are meaningfully located in more than one. *(optional)*
 optional:: true
 
 #### Text
