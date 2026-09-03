@@ -10,17 +10,17 @@ description: "A discussion of whether animal advocacy or, more generally, expand
 tags:
   - "article-importer"
 llm-review:
-  date: 2026-08-28
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v1.1"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+{--{"author":"Luc's AI","timestamp":1788443833972}@@...--}{++{"author":"Luc's AI","timestamp":1788443833972}@@Baumann writes from an explicitly non-speciesist starting point that gives equal weight to future individuals' interests; useful discussion prompt is how the argument's force changes under different population-ethics or moral-uncertainty assumptions, and whether "improving people's values" is really the most tractable lever compared to the institutional/technical interventions he sets aside as out of scope.++}
 
 %%
 

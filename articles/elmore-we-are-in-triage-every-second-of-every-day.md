@@ -15,23 +15,23 @@ tags:
   - moral-psychology
   - work-in-progress
 llm-review:
-  date: 2026-08-28
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v1.1"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+This post leans on emotionally heavy real-world cases (alleged mercy killings after Hurricane Katrina, rationed oxygen after the 2010 Haiti earthquake) to make its point about identifiable-victim bias and scope insensitivity; flag the euthanasia content before group discussion, and note the piece is a personal blog cross-post rather than a formal EA text.
 
 %%
 
-# We Are in Triage Every Second of Every Day
+# We {--{"author":"Luc's AI","timestamp":1788443840597}@@Are--}{++{"author":"Luc's AI","timestamp":1788443840597}@@are++} in {--{"author":"Luc's AI","timestamp":1788443840597}@@Triage Every Second--}{++{"author":"Luc's AI","timestamp":1788443840597}@@triage every second++} of {--{"author":"Luc's AI","timestamp":1788443840597}@@Every Day--}{++{"author":"Luc's AI","timestamp":1788443840597}@@every day++}
 
-*(Cross-posted from [this blog post](https://mhollyelmoreblog.wordpress.com/2016/08/26/we-are-in-triage-every-second-of-every-day/).)*
+(Cross-posted from [this blog post](https://mhollyelmoreblog.wordpress.com/2016/08/26/we-are-in-triage-every-second-of-every-day/).)
 
 ***Spoilers ahead** — listen to the episode beforehand if you don't want to hear a rough summary first.*
 
