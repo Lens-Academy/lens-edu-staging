@@ -5,6 +5,7 @@ summary_for_tutor: "Opening lens for Module 3 (25 minutes: one short reading, tw
 title: "Preparing to Facilitate a Session"
 tags:
   - facilitator-training
+reading_minutes: 1
 ---
 #### Text
 content:: Most of what makes a session work is decided before anyone joins the call.
