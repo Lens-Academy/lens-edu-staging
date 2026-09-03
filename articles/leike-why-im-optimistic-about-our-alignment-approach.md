@@ -10,11 +10,11 @@ description: "Some arguments in favor and responses to common objections"
 tags:
   - "article-importer"
 llm-review:
-  date: 2026-08-27
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v2"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-27
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
@@ -39,7 +39,7 @@ Add discussion note here:
 
 Nevertheless, there is still so much to do and it’s critical to remember that aligning systems that are smarter than us will look very different than aligning today’s models. It’s also important to distinguish between optimism and caution: the burden of proof is always on showing that a new system is sufficiently aligned and we cannot shift the burden of proof to showing that the situation has changed compared to earlier systems.
 
-The last section [responds to some common objections to our approach](https://aligned.substack.com/i/88447351/common-objections).
+The last section {--{"author":"Luc's AI","timestamp":1788445129222}@@[responds--}{++{"author":"Luc's AI","timestamp":1788445129222}@@[[#^common-objections|responds++} to some common objections to our {--{"author":"Luc's AI","timestamp":1788445129222}@@approach](https://aligned.substack.com/i/88447351/common-objections).--}{++{"author":"Luc's AI","timestamp":1788445129222}@@approach]].++}
 
 ## My reasons for optimism
 
@@ -51,7 +51,7 @@ A few years ago it looked like the path to AGI was by training deep RL agents fr
 
 Large language models (LLMs) make this a lot easier: they come preloaded with a lot of humanity’s knowledge, including detailed knowledge about human preferences and values. Out of the box they aren’t agents who are trying to pursue their own goals in the world and their objective functions are quite malleable. For example, they are [surprisingly easy to train to behave more nicely](https://openai.com/blog/instruction-following/).
 
-### 1.2 The empirical evidence is looking favorably
+### 1.2 The empirical evidence is looking favorably ^the-empirical-evidence-is-looking-favorably
 
 Some of the most exciting alignment work from recent years has been empirical: [researchers](https://arxiv.org/abs/2209.14375) [build](https://arxiv.org/abs/2204.05862) [prototypes](https://arxiv.org/abs/2210.11416) of what they think more aligned systems could look like to see how well it would actually work and what the kinks are. This is not meant to diminish conceptual insights, but those are always on shaky ground if they aren’t backed by mathematical theorems or empirical evidence.
 
@@ -68,11 +68,11 @@ Some of the most exciting alignment work from recent years has been empirical: [
 
 Let’s not get carried away by this evidence. Just because it has been favorable so far, doesn’t mean it will continue to be. AI systems aren’t yet smarter than us, so we’re not facing the real problems yet. But the evidence so far still counts: if we had a substantially harder time aligning current AI systems, we should be more worried about aligning future AI systems. If we can’t win the game on easy mode, we shouldn’t expect to win the game on hard mode. But if we do win on easy mode, we might still fail on hard mode, and we need to be ready to work hard on it.
 
-## 2\. A more modest goal
+## 2\. A more modest goal ^a-more-modest-goal
 
 When thinking about solving alignment, it’s natural to picture trying to find [a once-and-for-all solution](https://aligned.substack.com/p/alignment-solution) to the whole problem. I used to think this way until the rise of LLMs. Finding this once-and-for-all solution could be very difficult, and we don’t really know how to do this. The task seems very daunting and it’s easy to be pessimistic about it.
 
-But that’s not what we humans need to do. Instead, we only need to build a minimal viable product: an [automated alignment researcher](https://aligned.substack.com/p/alignment-mvp) that helps us make more alignment progress faster. For example, if we automate the generation of most alignment work, we can focus its evaluation, [which I claim is a lot easier](https://aligned.substack.com/i/88447351/evaluation-is-easier-than-generation). In other words, on this path we likely don’t have to confront all the hardest challenges of the alignment problem on our own and instead can get AI to help us with them.
+But that’s not what we humans need to do. Instead, we only need to build a minimal viable product: an [automated alignment researcher](https://aligned.substack.com/p/alignment-mvp) that helps us make more alignment progress faster. For example, if we automate the generation of most alignment work, we can focus its evaluation, {--{"author":"Luc's AI","timestamp":1788445128396}@@[which--}{++{"author":"Luc's AI","timestamp":1788445128396}@@[[#^evaluation-easier-than-generation|which++} I claim is a lot {--{"author":"Luc's AI","timestamp":1788445128396}@@easier](https://aligned.substack.com/i/88447351/evaluation-is-easier-than-generation).--}{++{"author":"Luc's AI","timestamp":1788445128396}@@easier]].++} In other words, on this path we likely don’t have to confront all the hardest challenges of the alignment problem on our own and instead can get AI to help us with them.
 
 This has a bunch of advantages:
 
@@ -93,11 +93,11 @@ Each of these aspects should make our job noticeably easier than actually trying
 
 However, automated alignment research also requires more intense scrutiny on the research product: since this research would presumably inform how the next generation of AI systems is build, it is a path for AI systems to try to gain power over humans. Moreover, succeeding at this goal does not mean that humanity’s work on alignment is done, even if they don’t have the cognitive capabilities anymore to make meaningful intellectual contributions relative to AI.
 
-## 3\. Evaluation is easier than generation
+## 3\. Evaluation is easier than generation ^evaluation-easier-than-generation
 
 This principle is important because it allows us to easily get meaningful alignment work out of our systems. If it’s true, it means we can substantially accelerate our research if we focus our time and effort on evaluating what our systems are doing instead of doing this work ourselves (even if their generation ability isn’t quite as good as ours).
 
-This property is underlying [recursive reward modeling](https://deepmindsafetyresearch.medium.com/scalable-agent-alignment-via-reward-modeling-bf4ab06dfd84) (and to some extent [debate](https://openai.com/blog/debate/)): If evaluation is easier than generation, assisted humans have an advantage over similarly smart AI generators. As long as this is true, we can scale to harder and harder tasks by creating evaluation (and thus training) signals for AI systems doing those tasks. While recursive reward modeling won’t scale indefinitely, it also don’t need to. It just needs to scale far enough for us to be able to use it to [supervise a lot of alignment research](https://aligned.substack.com/i/88447351/a-more-modest-goal).
+This property is underlying [recursive reward modeling](https://deepmindsafetyresearch.medium.com/scalable-agent-alignment-via-reward-modeling-bf4ab06dfd84) (and to some extent [debate](https://openai.com/blog/debate/)): If evaluation is easier than generation, assisted humans have an advantage over similarly smart AI generators. As long as this is true, we can scale to harder and harder tasks by creating evaluation (and thus training) signals for AI systems doing those tasks. While recursive reward modeling won’t scale indefinitely, it also don’t need to. It just needs to scale far enough for us to be able to use it to {--{"author":"Luc's AI","timestamp":1788445127883}@@[supervise--}{++{"author":"Luc's AI","timestamp":1788445127883}@@[[#^a-more-modest-goal|supervise++} a lot of alignment {--{"author":"Luc's AI","timestamp":1788445127883}@@research](https://aligned.substack.com/i/88447351/a-more-modest-goal).--}{++{"author":"Luc's AI","timestamp":1788445127883}@@research]].++}
 
 _Evaluation is easier than generation_ is a very general property that holds across many domains:
 
@@ -151,7 +151,7 @@ A [once-and-for-all solution to alignment will look very different](https://alig
 
 Language models have gotten a lot smarter over the past 5 years and I expect that they will continue getting smarter over the next few years. I believe that there is nothing inherently special about our own cognitive abilities and at some point language models will be better at any limited-context text-in text-out tasks related to our own work than we are. A lot of alignment work can be phrased in this format and so they are quite well-suited for it. There is a lot more to be said about this topic, but this is not the place for it.
 
-## Common objections
+## Common objections ^common-objections
 
 I’m optimistic that we can produce progress that will end up convincing others of the merit of [our approach](https://openai.com/blog/our-approach-to-alignment-research/). Would it count if our automated alignment researcher writes papers on [embedded agency](https://arxiv.org/abs/1902.09469) that researchers working on this problem consider real progress on that agenda? What if language models produce novel interpretability insights that prove useful when understanding transformers? If we fundamentally distrust any alignment research produced by AI, we are potentially foreclosing ourselves to a big opportunity for progress.
 
@@ -165,7 +165,7 @@ A quick clarification on terminology: Some people consider recursive reward mode
 
 The first version of this objection comes from interpretations of the [obfuscated arguments problem](https://www.alignmentforum.org/posts/PJLABqQ962hZEqhdB/debate-update-obfuscated-arguments-problem): you can create examples of tasks that allow incorrect completions for which an aligned debate agent would have a very hard time to win against a malicious opponent. Put simply, there exist tasks that are much harder to evaluate than to generate the correct answer for (i.e. counterexamples to [the principle discussed above](https://aligned.substack.com/i/88447351/evaluation-is-easier-than-generation)). The write-up provides an example using primality testing: it’s easy to claim that a given number is prime, while refuting this claim in a debate setting would require actually finding a divisor (which is much more difficult due to the existence of statistical primality tests).
 
-The post claims that the same weakness also applies to iterated amplification, but don’t provide an argument and only mention how that would apply to the factored cognition version of amplification. However, unlike RRM, factored cognition doesn’t rely very much on the principle that evaluation is easier than generation. Supervising tasks for which evaluation isn’t easier than generation won’t work well with RRM, which is why it’s important that this principle [holds for alignment research](https://aligned.substack.com/i/88447351/a-more-modest-goal).
+The post claims that the same weakness also applies to iterated amplification, but don’t provide an argument and only mention how that would apply to the factored cognition version of amplification. However, unlike RRM, factored cognition doesn’t rely very much on the principle that evaluation is easier than generation. Supervising tasks for which evaluation isn’t easier than generation won’t work well with RRM, which is why it’s important that this principle {--{"author":"Luc's AI","timestamp":1788445127399}@@[holds--}{++{"author":"Luc's AI","timestamp":1788445127399}@@[[#^a-more-modest-goal|holds++} for alignment {--{"author":"Luc's AI","timestamp":1788445127399}@@research](https://aligned.substack.com/i/88447351/a-more-modest-goal).--}{++{"author":"Luc's AI","timestamp":1788445127399}@@research]].++}
 
 ### Eliciting latent knowledge
 
@@ -179,7 +179,7 @@ Let’s illustrate this using the primality testing analogy. For example, the ma
 
 Scenarios like this might incur a (potentially substantial) alignment tax because our model “knows” the right answer. If we can’t trust the model’s code and instead we have to run potentially much less efficient code, we incur a potentially significant additional cost that’s caused only from misalignment. We might struggle to supervise such tasks with RRM even though our models can perform them well. In the absence of another alignment technique (which we currently don’t have), we have to ask humans to do these tasks themselves.
 
-It’s unclear how much this actually matters in practice. If this issue was a wide-spread, we should be able to measure some of this using [our DC gap methodology](https://aligned.substack.com/i/88447351/the-empirical-evidence-is-looking-favorably). Maybe we’ll be able to detect this for larger models or for harder tasks, but right now we don’t have a clean enough exhibition of the problem to study.
+It’s unclear how much this actually matters in practice. If this issue was a wide-spread, we should be able to measure some of this using {--{"author":"Luc's AI","timestamp":1788445127109}@@[our--}{++{"author":"Luc's AI","timestamp":1788445127109}@@[[#^the-empirical-evidence-is-looking-favorably|our++} DC gap {--{"author":"Luc's AI","timestamp":1788445127109}@@methodology](https://aligned.substack.com/i/88447351/the-empirical-evidence-is-looking-favorably).--}{++{"author":"Luc's AI","timestamp":1788445127109}@@methodology]].++} Maybe we’ll be able to detect this for larger models or for harder tasks, but right now we don’t have a clean enough exhibition of the problem to study.
 
 [A recent paper](https://openreview.net/pdf?id=ETKGuby0hcs) suggests that we might be able to directly read out which statements a language model believes to be true; if this replicates this might be a path to mitigating this problem if it shows up in practice. Furthermore, better interpretability tools could help a lot with this problem because they could give us more direct access to a model’s latent knowledge.
 
@@ -227,13 +227,13 @@ This objection is commonly given by [MIRI](https://intelligence.org/) and MIRI-a
 
 ### Response
 
-Trying to model the thought processes of systems much smarter than you is pretty hopeless. However, if we understand our systems’ incentives (i.e. reward/loss functions) we can still make meaningful statements about what they’ll try to do. Reasoning about incentives alone wouldn’t avoid inner misalignment problems ([see below](https://aligned.substack.com/i/83984486/inner-alignment-problems)), so need to account for them explicitly.
+Trying to model the thought processes of systems much smarter than you is pretty hopeless. However, if we understand our systems’ incentives (i.e. reward/loss functions) we can still make meaningful statements about what they’ll try to do. Reasoning about incentives alone wouldn’t avoid inner misalignment problems {--{"author":"Luc's AI","timestamp":1788445126848}@@([see below](https://aligned.substack.com/i/83984486/inner-alignment-problems)),--}{++{"author":"Luc's AI","timestamp":1788445126848}@@([[#^inner-alignment-problems|see below]]),++} so need to account for them explicitly.
 
 It seems clear that a much weaker system can help us on our kind of alignment research and if we’re right, we will be able to demonstrate this empirically with relatively mundane AI systems that aren’t suffering from potentially catastrophic misalignment problems.
 
 A hypothetical example of a pretty safe AI system that is clearly useful to alignment research is a theorem-proving engine: given a formal mathematical statement, it produces a proof or counterexample. We can evaluate this proof procedurally with a proof checker, so we can be sure that only correct proofs (relative to a formal system of axioms that [we can’t ever prove to be non-contradictory](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems)) are produced. Such a system should meaningfully accelerate any alignment research work that is based on formal math, and it can also help formally verify and find security vulnerabilities in computer programs.
 
-## Inner alignment problems
+## Inner alignment problems ^inner-alignment-problems
 
 ### Inner alignment
 
