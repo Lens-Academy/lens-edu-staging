@@ -9,12 +9,18 @@ accessed: 2026-07-18
 description: "Learn how to evaluate the additional benefits caused by your actions with counterfactual impact. Compare different decisions and their potential outcomes."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This piece frames counterfactual impact mostly through career-choice examples (medicine, donation matching). It's worth prompting discussion on where counterfactual reasoning is tractable (e.g., clear replacement scenarios) versus where it's highly speculative (e.g., long-run career paths), and on how it interacts with concepts like opportunity cost and marginal impact covered elsewhere in the Core Concepts series.
 
 %%
 
@@ -64,5 +70,7 @@ After learning that only [1-2% of med school graduates plan on working in small 
 
 To sum it up: **counterfactual impact** is a crucial concept to consider if you want to really change the world for the better.
 
+:::callout {title="Additional resources" collapse="closed"}
 -   [Counterfactual considerations](https://concepts.effectivealtruism.org/concepts/counterfactual-considerations/)
 -   [How replaceable are the top candidates in large hiring rounds? Why the answer flips depending on the distribution of applicant ability](https://80000hours.org/2019/08/how-replaceable-are-top-candidates-in-large-hiring-rounds/)
+:::
