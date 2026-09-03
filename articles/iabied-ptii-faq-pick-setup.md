@@ -7,8 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -16,7 +22,7 @@ Add discussion note here:
 
 %%
 
-#### Because it's plausible and easy to write.
+#### Because it's plausible and easy to write. ^because-its-plausible-and-easy-to-write
 
 Every detail in a story about the future is an opportunity for that story to be wrong. We can't tell you exactly what technological breakthroughs will happen in what order, any more than we can tell you the exact weather pattern a month from now.
 
@@ -34,7 +40,7 @@ We expect the true future to be deeply strange, full of messy, contingent detail
 
 For a taste of how it might feel, imagine going back in time 100 years and trying to describe the daily lives and big problems of the modern world. Most people in 1925 had never listened to the radio, driven a car, or seen a refrigerator. In order to describe social media, globalization, and obesity, one wouldn't just need to explain a rich web of technologies; one would need to radically change the listener's worldview. No, the story we chose to tell is more plausible, and thus less realistic.
 
-#### There are many other ways the future could go.
+#### There are many other ways the future could go. ^there-are-many-other-ways-the-future-could-go
 
 Here are just a few alternative possibilities for how a story like this one could start:
 
