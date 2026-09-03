@@ -14,12 +14,18 @@ tags:
   - impartiality
   - animal-welfare
   - work-in-progress
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This short framing note precedes the main Radical Empathy chapter readings; it exists mainly to introduce the two key concepts (impartiality, and the importance of taking unusual moral ideas seriously) that the rest of the chapter builds on. A useful discussion prompt: ask participants for other historical cases where moral consensus later turned out to be wrong, and what that implies about ideas we might be too quick to dismiss today.
 
 %%
 
@@ -34,6 +40,7 @@ Key concepts from this chapter include:
 - **Impartiality:** helping those that need it the most (only discounting people according to location, time, and species if those factors are in fact morally relevant).
 - **The importance (and difficulty) of considering unusual ideas:** Society's consensus has been wrong about many things over history (e.g. the sun circling the Earth, the morality of slavery). In order to avoid making similar mistakes, we need to be open to considering unusual ideas and moral positions, while still thinking critically about the issues and acting cooperatively with others.
 
----
+{--{"author":"Luc's AI","timestamp":1788445938644}@@---
 
 *This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
+--}
