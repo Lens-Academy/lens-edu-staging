@@ -20,9 +20,9 @@ Add discussion note here:
 
 %%
 
-##### Back t o Basics Compilation | Finance & Development | PDF version
+##### Back t o Basics Compilation | Finance & Development | [PDF version](https://www.imf.org/external/Pubs/FT/fandd/basics/pdf/jahan-strategic-thinking.pdf) ^back-to-basics-compilation
 
-### IV. Economics in Action
+### IV. Economics in Action ^iv-economics-in-action
 
 _Game theory analyzes behavior when decisions must take into account the potential actions of opponents_
 
@@ -30,11 +30,11 @@ Anyone who has had to make a strategic decision taking into account what others 
 
 Because situations involving interdependent decisions arise frequently, so does the potential application of game theory in strategic thinking. Businesses competing in a market, diplomats negotiating a treaty, gamblers betting in a card game, and even those contemplating proposing marriage can use game theory.
 
-###### The science of strategy
+###### The science of strategy ^the-science-of-strategy
 
 The earliest example of a formal game-theoretic analysis was by Antoine Cournot in 1838, when he studied the business behavior of two firms (a duopoly in economic parlance) with identical costs producing the same products but vying for maximum profits in a limited market. The mathematician Émile Borel suggested a formal theory of games in 1921, which was furthered by Princeton mathematician John von Neumann later in the decade. But game theory became a field in its own right after the publication of _Theory of Games and Economic Behavior_ by von Neumann and economist Oskar Morgenstern in 1944. They studied “zero-sum” games, in which the interests of two players are so strictly opposed that the games are pure conflict—with one person’s gain always resulting in the other’s loss. A good example is chess, which has a winner and a loser. But games do not have to be zero sum. Players can engage in positive-sum games—for example, jointly writing this article generated benefits for both authors/players and was a win-win game. Similarly, games can result in mutual harm (negative sum)—for example, the failure to prevent a war. John Nash treated the more general and realistic case in which a game involves a mixture of common interests and rivalries and any number of players. Other theorists—most notably Reinhard Selten and John Harsanyi, who shared the 1994 Nobel Prize in economics with Nash—studied even more complex games with sequences of moves, and games in which one player has more information than the others.
 
-###### What’s in a game?
+###### What’s in a game? ^whats-in-a-game
 
 A game is the strategic interaction between two or more players. Each player has a set of possible strategies. For each strategy players pick, they receive a payoff, which is usually represented by a number. That payoff depends on the strategies of all players in the game. Payoffs can also have different meanings. For example, they can signify an amount of money or the number of years of happiness. Game theory presumes that players act rationally—that is, that they seek to maximize their own payoffs.
 
@@ -50,10 +50,14 @@ If players sacrifice for their partners, they obtain the worst outcome: each goe
 
 Modifying this game by letting the players move sequentially—that is, each player is aware of the other’s previous action—will yield a single equilibrium (see chart, right panel). If the wife moves first and decides to go to the ballet, the husband’s best option would be to go to the ballet. If the wife chooses boxing, the husband would definitely choose to go to the match. The wife’s basic strategy will be to “look ahead and reason backward.” The wife can anticipate where her husband’s decision will lead and use this information to calculate her best decision: in this case choosing ballet. In this type of game, there is a clear advantage to moving first.
 
-###### Nuclear deterrence
+###### Nuclear deterrence ^nuclear-deterrence
 
 The prisoner and spousal games involve only two players, and each has complete information about the game. Games become more complicated when more players are involved or if players do not all have access to the same information. It is not surprising that game theory has been applied to analysis of the nuclear arms race. The 2005 Nobel Prize winner in economics, Thomas Schelling, showed that the power to retaliate is a more effective deterrent than the ability to withstand an attack and proved that uncertainty about retaliation—which keeps the enemy guessing—may preserve peace more effectively than the threat of certain retaliation.
 
 Game theory has been used to analyze market power and how to regulate monopolies to protect consumers—an avenue of research that earned Jean Tirole the 2014 Nobel Prize in economics. Game theory has also revolutionized the field of information economics by studying games in which some players have more information than others. Three economists earned the Nobel Prize jointly in 2001 for their seminal work on games with asymmetric information: George Akerlof on the market for used cars, Michael Spence on signaling in labor markets through education, and Joseph Stiglitz on self-screening in insurance markets. Strategic thinking plays an important role in the theory of contracts as well, for which Oliver Hart and Bengt Holmstrom won the 2016 Nobel Prize jointly.
 
 Game theory has even been applied in evolutionary biology, where the players (in this case animals) are not necessarily rational beings. The hawk-dove game developed by John Maynard Smith in 1982 involves aggressive and nonaggressive behavior and provides insight into the survival of species. Game theory is being used by some to forecast the fate of the European Union. As long as there are interactive decisions to be made, game theory will be applied to inform them.
+
+:::callout {title="About the authors"}
+**SARWAT JAHAN** is a senior economist in the IMF’s Asia and Pacific Department. **AHMED SABER MAHMUD** is the associate director of the Applied Economics Program at Johns Hopkins University.
+:::
