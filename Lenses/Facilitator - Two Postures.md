@@ -5,6 +5,7 @@ summary_for_tutor: "Introduces two concepts from The Authentic Facilitator (Auth
 title: "1.4 Two postures worth knowing about"
 tags:
   - facilitator-training
+reading_minutes: 2
 ---
 #### Text
 content:: Two short concepts from *The Authentic Facilitator* (Authentic Revolution) that experienced facilitators reference often:
