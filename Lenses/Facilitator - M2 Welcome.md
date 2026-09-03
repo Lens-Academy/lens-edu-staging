@@ -5,6 +5,7 @@ summary_for_tutor: "Opening lens for Module 2 (35 minutes: two readings, one sho
 title: "How People Learn — Why Discussions Work"
 tags:
   - facilitator-training
+reading_minutes: 1
 ---
 #### Text
 content:: Facilitation works only if discussion produces learning. Most people assume it does. The evidence is more specific than that.
