@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This piece coins the "Lemoine effect" — the idea that AI warning signs get dismissed as premature the first time they appear, then can't be raised credibly later even as the underlying technology grows more capable. Good discussion prompt: ask students to find a more recent example (post-2025) of an AI behavior that was dismissed as "not really" dangerous or "not really" indicative of misalignment, and evaluate whether the authors' pattern holds up.
 
 %%
 We've sometimes heard it suggested that some future AI behavior or misuse — an AI "warning shot" — will suddenly shock the world into taking these issues seriously.
