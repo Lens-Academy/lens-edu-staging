@@ -9,8 +9,14 @@ accessed: 2026-07-28
 description: "The growing impacts of artificial intelligence (AI) are spurring states to consider international agreements that could help manage this rapidly evolving technology. The political feasibility of such agreements can hinge on their verifiability—the extent to which the states involved can determine whether other states are complying. This report analyzes several potential international agreements and ways&hellip;"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
