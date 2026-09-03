@@ -13,8 +13,14 @@ allowUnreachableUrl: true
 description: "This report documents an investigation of detection and monitoring mechanisms that cloud service providers could use to identify large artificial intelligence training runs."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -31,7 +37,11 @@ This report documents research and analysis conducted as part of a study to inve
 
 ## Recommendations
 
-## Topics
+{++{"author":"Luc's AI","timestamp":1788446587597}@@-   To develop effective AI governance, policymakers should support efforts to find detection gaps in compute-based monitoring schemes.
+-   Policymakers should continue to pursue both compute- and noncompute-based AI governance.
+-   Continuing research into effective thresholds for compute monitoring is required to create a robust compute-based monitoring framework that can adapt to technological progress.
+
+++}## {--{"author":"Luc's AI","timestamp":1788446587597}@@Topics--}{++{"author":"Luc's AI","timestamp":1788446587597}@@Document Details++}
 
 -   **Availability:** Web-Only
 -   **Year:** 2025
@@ -39,11 +49,15 @@ This report documents research and analysis conducted as part of a study to inve
 -   **DOI:** [https://doi.org/10.7249/RRA3686-1](https://doi.org/10.7249/RRA3686-1)
 -   **Document Number:** RR-A3686-1
 
+## Citation
+
 ### Chicago Manual of Style
 
 Moon, Alvin, Padmaja Vedula, Jesse Geneson, and Simon Bar-on, Strategies and Detection Gaps in a Game-Theoretic Model of Compute Governance. Santa Monica, CA: RAND Corporation, 2025. https://www.rand.org/pubs/research\_reports/RRA3686-1.html.
 
 [BibTeX](https://www.rand.org/content/rand/pubs/research_reports/RRA3686-1/_jcr_content/par/product.RRA3686-1.bib) [RIS](https://www.rand.org/content/rand/pubs/research_reports/RRA3686-1/_jcr_content/par/product.RRA3686-1.ris)
+
+## Research conducted by
 
 -   [RAND Global and Emerging Risks](https://www.rand.org/global-and-emerging-risks.html)
 
