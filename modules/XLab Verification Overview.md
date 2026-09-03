@@ -193,7 +193,7 @@ content:: Where did you hear about this course? Please be specific, for example 
 
 #### Question: Open
 id:: 17c34f4a-f17d-4924-8660-a0aa0e9557e5
-content:: Who is the most exceptional person you would nominate for this course? Include their email and LinkedIn. You can name more than one, and if they are a good fit we might reach out. *(optional)*
+content:: Who is the most exceptional person you would nominate for this course? Please include their email and linkedin below!  (You can nominate more than one, if they are a good fit we might reach out to them.) *(optional)*
 optional:: true
 
 #### Question: Open
