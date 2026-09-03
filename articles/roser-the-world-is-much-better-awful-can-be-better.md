@@ -1,11 +1,11 @@
 ---
-title: "The world is much better. The world is awful. The world can be much better."
+title: "The world is awful. The world is much better. The world can be much better."
 source_url: "https://ourworldindata.org/much-better-awful-can-be-better"
 author:
   - "Max Roser"
-published: 2022-08-22
+published: 2022-07-20
 created: 2026-05-28
-description: "All three statements are simultaneously true: the world has made enormous progress (child mortality down from 43% to 4%), the world is still awful (5.5 million children die each year), and the world can be much better (the EU shows a 10x lower rate is already achievable). Understanding all three perspectives is essential for motivated, effective action."
+description: "All three statements are simultaneously true: the world has made enormous progress (child mortality down from around 50% historically to 4.4% today), the world is still awful (5.9 million children die each year), and the world can be much better (the EU shows a roughly 10x lower rate is already achievable). Understanding all three perspectives is essential for motivated, effective action."
 tags:
   - "ea-intro-program"
   - "effective-altruism"
@@ -13,11 +13,11 @@ tags:
   - "progress"
   - work-in-progress
 llm-review:
-  date: 2026-08-27
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v2"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-27
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
@@ -113,15 +113,25 @@ For this, we have to remember that all three statements are true at the same tim
 
 ![A summary chart that shows all three previous charts at once — and says at the top 'All three statements are true at the same time'](https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/c422a6d2-9fb0-49ea-1ac8-31d9e48f2300/w=5178)
 
-:::collapse
+:::callout
+This is a revised and updated version published in February 2024. The last previous revision I had done in July 2022. The first version of this article was published in October 2018.
+:::
+
+:::hide
 **Acknowledgments:** I would like to thank Hannah Ritchie and Toby Ord for their feedback on this article.
 :::
 
 [^note-roser-1]: In a number of fundamental aspects – obviously [not all](https://ourworldindata.org/obesity) – we achieved very substantial progress. These aspects include [education](https://ourworldindata.org/global-rise-of-education), [political freedom](https://ourworldindata.org/democracy), [violence](https://ourworldindata.org/homicides), [poverty](https://ourworldindata.org/extreme-poverty), [nutrition](https://ourworldindata.org/hunger-and-undernourishment), and [some](https://ourworldindata.org/ozone-layer) [aspects](https://ourworldindata.org/natural-catastrophes) of environmental change. See also [my short history of global living conditions](https://ourworldindata.org/a-history-of-global-living-conditions-in-5-charts).
 
-[^cite-roser-2]: Except for the historical data, all data in this post is taken from IGME, the *UN Inter-agency Group for Child Mortality Estimation*. They publish their data here: [childmortality.org/data/World](https://childmortality.org/data/World). Their point estimate for the global number of deaths for children under 15 in 2021 is [5,862,574](https://ourworldindata.org/grapher/number-of-youth-deaths?tab=table). This means on average there are 5,862,574 / 365.25 = 16,051 child deaths per day, 5,862,574 / (365.25 * 24) = 669 child deaths every hour, and 5,862,574 / (365.25 * 24 * 60) = 11.15 child deaths every minute.
+[^cite-roser-2]: Except for the historical data, all data in this post is taken from IGME, the *UN Inter-agency Group for Child Mortality Estimation*. They publish their data here: [childmortality.org/data/World](https://childmortality.org/data/World).
 
-[^note-roser-3]: If we still suffered the poor health of our ancestors, more than 60 million children would die every year. How many children died at the time? We don't know because data on the number of global births at the time is not available. For the 1950s and 1960s, we have estimates of both the number of births and the mortality rate, and the records show that around 20 million children died every year. See the data shown [here](https://www.gatesnotes.com/Development/Max-Roser-three-facts-everyone-should-know). There was some variation over time and some differences between different locations. But as the linked article shows, the mortality rate was surprisingly similar in very different cultures. Whether in Ancient Rome, in hunter-gatherer-societies, in the pre-Columbian Americas, in Medieval Japan or Medieval England, in the European Renaissance, or in Imperial China, every second child died.
+    Their point estimate for the global number of deaths for children under 15 in 2021 is [5,862,574](https://ourworldindata.org/grapher/number-of-youth-deaths?tab=table).
+
+    This means on average there are 5,862,574 / 365.25 = 16,051 child deaths per day, 5,862,574 / (365.25 * 24) = 669 child deaths every hour, and 5,862,574 / (365.25 * 24 * 60) = 11.15 child deaths every minute.
+
+[^note-roser-3]: If we still suffered the poor health of our ancestors, more than 60 million children would die every year. How many children died at the time? We don't know because data on the number of global births at the time is not available. For the 1950s and 1960s, we have estimates of both the number of births and the mortality rate, and the records show that around 20 million children died every year. See the data shown [here](https://www.gatesnotes.com/Development/Max-Roser-three-facts-everyone-should-know).
+
+    There was some variation over time and some differences between different locations. But as the linked article shows, the mortality rate was surprisingly similar in very different cultures. Whether in Ancient Rome, in hunter-gatherer-societies, in the pre-Columbian Americas, in Medieval Japan or Medieval England, in the European Renaissance, or in Imperial China, every second child died.
 
 [^cite-roser-4]: See the world map on [the mortality of under-15-year-olds](https://ourworldindata.org/grapher/youth-mortality-rate).
 
@@ -133,4 +143,6 @@ For this, we have to remember that all three statements are true at the same tim
 
     The countries with the lowest mortality rates today include San Marino, Norway, Japan, Finland, Singapore, Iceland, and Slovenia, where 99.7% of all children survive. [This chart](https://ourworldindata.org/grapher/youth-mortality-rate?tab=table&country=~OWID_WRL) shows the ranking. However, because several of these countries are small, I did not base this text on the data from any single country but on a large world region where millions of children are born every year.
 
-[^note-roser-7]: The global number of child deaths, as reported above, is 5,862,574. 5,862,574 – 5,862,574 / (4.4 / 0.47) = 5,236,345 fewer children would die if the global mortality rate were 0.47% rather than 4.4%. The number of children who would die if the global mortality rate was 0.47% would be 5,862,574-5,236,345=626,229.
+[^note-roser-7]: The global number of child deaths, as reported above, is 5,862,574.
+
+    5,862,574 – 5,862,574 / (4.4 / 0.47) = 5,236,345 fewer children would die if the global mortality rate were 0.47% rather than 4.4%. The number of children who would die if the global mortality rate was 0.47% would be 5,862,574-5,236,345=626,229.
