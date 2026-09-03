@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -16,7 +22,7 @@ Add discussion note here:
 
 %%
 
-#### Probably not.
+#### Probably not. ^probably-not
 
 AIs don't need to be human-like in order to be great at solving problems. They don't even need to be human-like to be great at solving the problem "imitate humans."
 
