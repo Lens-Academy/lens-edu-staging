@@ -5,6 +5,7 @@ summary_for_tutor: "Optional-resources lens for Module 1 of the facilitator trai
 title: "Facilitator M1 — Overview of Optional Resources"
 tags:
   - facilitator-training
+reading_minutes: 11
 ---
 
 #### Text
