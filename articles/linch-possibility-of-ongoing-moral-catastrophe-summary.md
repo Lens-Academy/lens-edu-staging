@@ -14,17 +14,17 @@ tags:
   - cause-prioritization
   - work-in-progress
 llm-review:
-  date: 2026-08-28
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v1.1"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+This is an outline/summary of Evan G. Williams' paper "The Possibility of an Ongoing Moral Catastrophe" (Journal of Applied Philosophy, 2015), not the original paper itself. Useful as a quick primer on moral uncertainty and the case for hedging against unknown large-scale wrongs; the bracketed "LZ:" notes are a second author's added commentary, not Williams' own text.
 
 %%
 
