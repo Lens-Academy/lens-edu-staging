@@ -14,12 +14,18 @@ accessed: 2026-08-07
 description: "Gradual Disempowerment"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+{--{"author":"Luc's AI","timestamp":1788448799854}@@...--}{++{"author":"Luc's AI","timestamp":1788448799854}@@This is the executive summary/introduction of a longer, multi-page work; the full argument continues across five linked pages (Misaligned Economy, Misaligned Culture, Misaligned States, Mutual Reinforcement, Mitigating the Risk) hosted on the source site but not included in this import. Worth flagging for students that "alignment" here is defined broadly as a societal system satisfying human preferences, which differs from the narrower technical-AI-safety usage of the term — the paper's footnote 1 makes this explicit.++}
 
 %%
 
