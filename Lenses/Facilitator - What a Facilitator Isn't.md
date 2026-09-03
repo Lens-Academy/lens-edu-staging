@@ -5,6 +5,7 @@ summary_for_tutor: "Defines the facilitator role by its limits: not a teacher (e
 title: "1.3 What a facilitator isn't (and isn't responsible for)"
 tags:
   - facilitator-training
+reading_minutes: 4
 ---
 #### Text
 content:: The other half of clarity about your role is knowing where it ends.
