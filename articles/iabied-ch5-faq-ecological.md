@@ -1,5 +1,5 @@
 ---
-title: "Won't AI want to keep us happy and healthy for ecological preservation or similar drive?"
+title: "Won't AI want to keep us happy and healthy for the sake of ecological preservation or some similar drive?"
 source_url: https://ifanyonebuildsit.com/5/wont-ai-want-to-keep-us-happy-and-healthy-for-the-sake-of-ecological-preservation-or-some-similar-drive
 published: 2025-09-16
 author:
@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
