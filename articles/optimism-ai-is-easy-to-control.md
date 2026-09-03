@@ -10,17 +10,17 @@ description: "Why are billions of dollars being poured into artificial intellige
 tags:
   - "article-importer"
 llm-review:
-  date: 2026-08-27
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v2"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-27
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+This essay argues one side of an active, contested debate in AI safety (the "AI Optimist" position) and states its own conclusions, such as a ~1% takeover probability, as settled facts rather than open estimates. Pair it with a counterargument piece (e.g. from AI safety researchers more concerned about misalignment or takeover risk) so learners can weigh both perspectives rather than treat this as consensus.
 
 %%
 
