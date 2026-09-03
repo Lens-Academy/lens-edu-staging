@@ -9,8 +9,14 @@ accessed: 2026-07-18
 description: "Learn how to improve decision-making in your career by understanding and calculating the expected value of uncertain outcomes."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -45,3 +51,11 @@ How can you still intelligently make such a decision? Should you choose the path
 **Singer/songwriter:** If you’re able to be super-successful with your music, you estimate you could give $5,000,000 to [effective charities](https://probablygood.org/core-concepts/effective-giving/) over the course of your career. However, you think there’s only a _one in ten-thousand_ chance that this will happen–after all, it’s hard to become a star. Dividing $5,000,000 by ten thousand, we get an expected value of only $500. Donating $500 can do a lot of good, but this probably isn’t your best option if you want to do good in the world.
 
 Naturally, these are just _very_ rough calculations. If you’re seriously considering an important decision, you’ll likely want to investigate further, giving serious thought to the different variables and the numbers you assign to them. However, as we can see, even quick expected value calculations can give us useful ballpark estimates for important questions.
+
+:::callout {title="Additional resources" collapse="closed"}
+- [Hits-based giving](https://www.openphilanthropy.org/blog/hits-based-giving)
+- [Normative Theories of Rational Choice: Expected Utility](https://plato.stanford.edu/entries/rationality-normative-utility/)
+- [Why we can’t take expected value estimates literally (even when they’re unbiased)](https://blog.givewell.org/2011/08/18/why-we-cant-take-expected-value-estimates-literally-even-when-theyre-unbiased/)
+- [Expected Utility: Definition, Calculation, and Examples](https://www.investopedia.com/terms/e/expectedutility.asp)
+- [Humanizing expected value](https://forum.effectivealtruism.org/posts/aPJuhDz5NC72bdWYM/humanizing-expected-value)
+:::
