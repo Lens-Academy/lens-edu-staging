@@ -211,7 +211,11 @@ course-writing-generators.md is for).
 - Spiral (style rewriter): use the `personalize` command; `humanize`
   silently returns your input unchanged. After any rewrite, compare the
   meaning line by line, not just the tone -- a style pass once changed
-  facts while reading as a light edit. [measured]
+  facts while reading as a light edit (that case was a different
+  rewriter, not Spiral; the lesson transfers). [measured]
+  Note 2026-09-04: the prose tools were lost from the shared repo for
+  four days without anyone noticing (recovered from kept commits) --
+  cite a tool only after checking it exists.
 
 ## 6. What this file does not cover, honestly
 
