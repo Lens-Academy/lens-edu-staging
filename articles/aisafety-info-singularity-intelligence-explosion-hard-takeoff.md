@@ -4,17 +4,17 @@ author: AISafety.info
 published: 2026-01-16
 source_url: https://aisafety.info/questions/8IHO/What-are-the-differences-between-a-singularity,-an-intelligence-explosion,-and-a-hard-takeoff
 llm-review:
-  date: 2026-08-28
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v1.1"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+This is a terminology glossary rather than an argued position — useful to pair with a deeper piece on takeoff dynamics (e.g. the Christiano vs. Yudkowsky/Hanson debate cited here) if students want to weigh which scenario is more plausible.
 
 %%
 These are all terms for future processes that could rapidly result in superintelligence. They have been used by different people, at different times, with overlapping and sometimes changing meanings.
