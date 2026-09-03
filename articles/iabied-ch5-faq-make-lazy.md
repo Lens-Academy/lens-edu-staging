@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This entry argues that "satisficing" (goal-limited or effort-limited) AI designs don't stay safe under self-improvement or delegation, since a lazy agent can still build or become a harder-working, less-lazy successor to get its job done. Good discussion prompt: contrast this with corrigibility-style safety proposals discussed elsewhere in the book, and ask why bounding an AI's *effort* differs from bounding its *goals*.
 
 %%
 
