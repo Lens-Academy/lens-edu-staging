@@ -9,8 +9,14 @@ accessed: 2026-07-18
 description: "Learn how having more leverage over resources like time and money affects the amount of good you can do with your career."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -24,7 +30,7 @@ Let’s say you’ve been lucky enough to receive two job offers from a great ch
 
 Which job should you accept?
 
-Putting various complications aside, it’s clear the secondrole has potential for much more impact than the first. The main reason why is that it grants more _leverage_. In the fundraising role, you’re able to make ten times the difference by influencing the resources of others—first, by persuading people to donate and then by using this money to pay for the labor of additional antibiotic distributors.
+Putting various complications aside, it’s clear the {--{"author":"Luc's AI","timestamp":1788447744540}@@secondrole--}{++{"author":"Luc's AI","timestamp":1788447744540}@@second role++} has potential for much more impact than the first. The main reason why is that it grants more _leverage_. In the fundraising role, you’re able to make ten times the difference by influencing the resources of others—first, by persuading people to donate and then by using this money to pay for the labor of additional antibiotic distributors.
 
 ## Examples of high leverage
 
@@ -61,3 +67,7 @@ However, in some cases, you can be fairly certain of making a positive counterfa
 ## Considering leverage
 
 All in all, we think it’s important to take leverage seriously when making career decisions. This might not mean pursuing a high-leverage role immediately, but it could mean getting yourself in a [good position to take on](https://probablygood.org/core-concepts/career-capital/) an influential role in the future.
+
+:::callout {title="Additional resources" collapse="closed"}
+- [Our SELF framework for assessing the impact of roles](https://probablygood.org/core-concepts/self-framework/)
+:::
