@@ -14,17 +14,17 @@ tags:
   - economic-inequality
   - work-in-progress
 llm-review:
-  date: 2026-08-28
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v1.1"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+This article uses World Bank poverty data expressed in 2011 international-$, which the Bank has since revised (see the callout near the end of the article); figures like the $6.70/day poorer-half line will not match the latest World Bank releases. Worth prompting discussion on the growth-vs-redistribution framing: the piece argues redistribution alone cannot end poverty, which pairs well with debate on the scale and mechanisms of aid effectiveness.
 
 %%
 
@@ -32,7 +32,9 @@ Add discussion note here:
 
 ## How much does it matter to be born into a productive, industrialized economy?
 
-> **Note:** Since the publication of this article, the World Bank has updated its poverty data. See the note at the end for more information.
+:::callout {tone="amber"}
+**Note:** Since the publication of this article, the World Bank has updated its poverty data. See the note at the end for more information.
+:::
 
 What is most important for how healthy, wealthy, and educated you are is not who you are, but *where* you are. Your knowledge and how hard you work matter too, but much less than the one factor that is entirely outside anyone's control: whether you happen to be born into a productive, industrialized economy or not.
 
@@ -134,12 +136,13 @@ What we have seen in the data here is one of the most important insights of deve
 
 What gives people the chance for a good life is when the entire society and economy around them changes for the better. This is what development and economic growth are about: transforming a place so that what was previously only attainable for a few comes into reach for all.
 
+:::hide
 #### Acknowledgments
 
 I want to thank Joe Hasell and Toby Ord for their feedback on this article and visualizations.
+:::
 
-#### The World Bank has updated its poverty and inequality data since the publication of this article
-
+:::callout {title="The World Bank has updated its poverty and inequality data since the publication of this article" tone="amber"}
 This article uses a previous release of the World Bank's poverty and inequality data, in which incomes were expressed in 2011 international dollars.
 
 The World Bank has since updated its methods, and now measures incomes in 2021 international-$. As part of these changes, the International Poverty Line used to measure extreme poverty has also been updated: from $1.90 a day (in 2011 prices) to $2.15 a day (in 2017 prices) to $3 a day (in 2021 prices).
@@ -151,10 +154,13 @@ Explore the latest data and read more about the World Bank's methodology:
 * [Poverty Data Explorer](https://ourworldindata.org/explorers/poverty-explorer)
 * [The $3 International Poverty Line](https://ourworldindata.org/new-international-poverty-line-3-dollars-per-day)
 * [From $1.90 to $2.15 a day: the updated International Poverty Line](https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line)
+:::
 
+:::hide
 ## Continue reading on Our World in Data
 
 [How much economic growth is necessary to reduce global poverty substantially?](https://ourworldindata.org/poverty-minimum-growth-needed)
+:::
 
 [^note-roser-1]: I have written a detailed description of this chart and the shown data in [my post on Global poverty in an unequal world](https://ourworldindata.org/higher-poverty-global-line).
 
@@ -162,8 +168,15 @@ Explore the latest data and read more about the World Bank's methodology:
 
 [^cite-roser-3]: See [this map](https://ourworldindata.org/grapher/foreign-aid-given-as-a-share-of-national-income?tab=map) of Net ODA as a share of the donor country's GNI. Few countries reach the goal of 0.7% of national income, meaning the share of taxes paid on ODA is extremely small. I think it should be higher, development aid is one way in which the populations of the richest countries [can](http://millionssaved.cgdev.org/) improve the situation in the world's poorest places.
 
-[^note-roser-4]: One of the most important things to know about charities is that their impact varies hugely — some are ineffective or even do more harm than good. In contrast, others can do extremely good work on a large problem in a very cost-effective way. [GiveWell](https://www.givewell.org/) is a research team that finds the charities that make the biggest difference per each dollar or euro you donate. On their site, you will find their recommended charities and very transparent and in-depth research on how they arrived at these recommendations. Giving via GiveWell is one way to donate that I'd recommend. The way that I donate is via [Effective Altruism Funds](https://funds.effectivealtruism.org). They also rely on Givewell's research, but they also focus on other areas. As a donor, you can set your priorities between these different areas, but beyond that, you trust the team of the Effective Altruism Funds to make decisions for you. I pay into the 'Fund' with a recurring transfer every month.
+[^note-roser-4]: One of the most important things to know about charities is that their impact varies hugely — some are ineffective or even do more harm than good. In contrast, others can do extremely good work on a large problem in a very cost-effective way. [GiveWell](https://www.givewell.org/) is a research team that finds the charities that make the biggest difference per each dollar or euro you donate. On their site, you will find their recommended charities and very transparent and in-depth research on how they arrived at these recommendations. Giving via GiveWell is one way to donate that I'd recommend. The way that I donate is via [Effective Altruism Funds](https://funds.effectivealtruism.org). They also rely on Givewell's research, but they also focus on other areas. As a donor, you can set your priorities between these different areas, but beyond that, you trust the team of the [Effective Altruism Funds](https://funds.effectivealtruism.org) to make decisions for you. This has the advantage that their team has more knowledge about the various effective charities than you, or I can possibly know, which gives them the chance to give to those charities that have the greatest potential and need at a particular time. I pay into the 'Fund' with a recurring transfer every month.
 
 [^note-roser-5]: For evidence on this, see my post ['How much economic growth is necessary to reduce global poverty substantially?'](https://ourworldindata.org/poverty-minimum-growth-needed)
 
-[^note-roser-6]: In the world's richest countries, the maternal mortality ratio (MMR) is more than 100-fold lower than the global average (211/2=105.5-fold). In the world's richest countries, the MMR per 100,000 live births is 2; worldwide, it is 211. Worldwide, 295,000 mothers die every year. Every year 295,000 mothers die in childbirth. If the risk of death for mothers were globally as low as in the world's richest countries, 2,800 mothers would die. 292,200 mothers would not die.
+[^note-roser-6]: In the world's richest countries, the maternal mortality ratio (MMR) is more than 100-fold lower than the global average (211/2=105.5-fold). In the world's richest countries, the MMR per 100,000 live births is 2; worldwide, it is 211. [Source](https://ourworldindata.org/grapher/maternal-mortality-ratio-who-gho?tab=chart&time=latest&country=OWID_WRL~NOR)
+
+    - Worldwide, 295,000 mothers die every year. [Source](https://ourworldindata.org/grapher/number-of-maternal-deaths?tab=chart&time=latest&country=~OWID_WRL).
+    - This means (100,000/211)\*295,000 =139,810,426 births yearly.
+    - If the global MMR were 2 rather than 211 per 100,000, then this would result in (139,810,426/100,000)\*2=2,796 Deaths of mothers.
+    - [Or a more straightforward calculation of the same: 295,000/(211/2)=2,796]
+
+    Every year 295,000 mothers die in childbirth. If the risk of death for mothers were globally as low as in the world's richest countries, 2,800 mothers would die. 292,200 mothers would not die.
