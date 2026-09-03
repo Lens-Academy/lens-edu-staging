@@ -60,4 +60,5 @@ Optional frontmatter: `slug-aliases`, `partner-name`, `partner-logo`, `partner-l
 - Every facilitated meeting should also have a navigator survey linked with `facilitator-survey:: [[../surveys/Navigator Survey Name]]`. It uses the same survey file format, is shown only to facilitators, and unlocks when the meeting ends without requiring learner attendance or check-in. The same navigator survey can be reused across meetings; use a distinct first-session survey when intake or baseline questions differ.
 
 Before creating a new course:
-- Discuss target audience features and value proposition of that course with the user. 
+- Discuss target audience features and value proposition of that course with the user.
+- Thend discuss goal 
