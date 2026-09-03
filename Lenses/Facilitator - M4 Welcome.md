@@ -5,6 +5,7 @@ summary_for_tutor: "Opening lens for Module 4 (40 minutes: four frameworks, two 
 title: "Running the Session — In-the-Moment Craft"
 tags:
   - facilitator-training
+reading_minutes: 1
 ---
 #### Text
 content:: You're in the room. People are looking at you. What do you actually do?
