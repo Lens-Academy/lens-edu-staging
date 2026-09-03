@@ -38,6 +38,12 @@ Week 1 goals:
 meeting-doc-template:: https://docs.google.com/document/d/...
 survey:: [[../surveys/Course Post-Meeting Survey]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
+%%
+Week 1 goals:
+- Goal 1
+- Goal 2
+%%
+
 # Module: [[../modules/Course M2 Nonhuman Minds, Part 2]]
 # Meeting: Meeting 2 name
 meeting-doc-template:: https://docs.google.com/document/d/...
