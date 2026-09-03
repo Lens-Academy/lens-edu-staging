@@ -9,8 +9,14 @@ accessed: 2026-07-18
 description: "Use the concept of comparative advantage to leverage your unique strengths and skills to make the biggest impact, whatever role you're in."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -47,3 +53,9 @@ But if you don’t have good information about what skills are in demand, then y
 If you’re good at something that not many others are, and which can be applied to tackling important problems, then you might have a comparative advantage in this skill. And if you have a particular _set_ of skills that are rarely present together (for example, someone who is both technically gifted and a great [people manager](https://probablygood.org/career-profiles/people-management/)), then there’s an even greater chance that a career using all these skills will be your comparative advantage.
 
 However, when you aren’t even able to know where different skills are needed most, it might not be helpful to think in terms of comparative advantage. Instead, see our [career guide](https://probablygood.org/career-guide/) for an overview of the more general considerations you should consider when choosing an impactful career.
+
+:::callout {title="Additional resources" collapse="closed"}
+- [Wikipedia entry on comparative advantage](https://en.wikipedia.org/wiki/Comparative_advantage)
+- [Comparative advantage does not mean doing the thing you’re best at](https://forum.effectivealtruism.org/posts/T2jLCYHZxNq8iFTTg/comparative-advantage-does-not-mean-doing-the-thing-you-re)
+- [Khan Academy lesson on comparative advantage](https://www.khanacademy.org/economics-finance-domain/ap-macroeconomics/basic-economics-concepts-macro/scarcity-and-growth/a/lesson-summary-comparative-advantage-and-gains-from-trade)
+:::
