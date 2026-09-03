@@ -13,17 +13,17 @@ tags:
   - "scout-mindset"
   - work-in-progress
 llm-review:
-  date: 2026-08-28
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v1.1"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+This is a short framing piece that introduces Module 1's three key concepts (scope sensitivity, tradeoffs, scout mindset) but doesn't develop any of them in depth — best paired with the readings that unpack each concept rather than assigned standalone.
 
 %%
 
