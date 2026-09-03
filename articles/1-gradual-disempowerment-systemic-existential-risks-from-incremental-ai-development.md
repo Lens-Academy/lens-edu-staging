@@ -15,17 +15,17 @@ description:
 tags:
   - "article-importer"
 llm-review:
-  date: 2026-08-28
-  model: "gpt-5.6-terra"
-  version: "article-qc-v1.1"
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+This paper coins "gradual disempowerment" as a distinct AI existential-risk pathway, deliberately contrasted with sudden-takeover scenarios. Useful discussion angles: how the argument depends on economic, cultural, and political systems reinforcing one another (Section 5) rather than any single system failing in isolation; the authors' own admission that no one has a concrete plan to stop this process; and how it relates to adjacent ideas cited in Section 7, such as Kasirzadeh's "accumulative x-risk" and Critch's "industrial dehumanization."
 
 %%
 
@@ -539,6 +539,7 @@ Humanity’s future may depend not only on whether we can prevent AI systems fro
 
 We are grateful to many people for helpful conversations and feedback, including Carl Shulman, Owen Cotton-Barratt, Lionel Levine, Benjamin Hilton, Marie Buhl, Clem von Stengel and Tomáš Gavenčiak. We used Claude Sonnet, Claude Opus and ChatGPT o1 AI models to help with various parts of writing and editing this text.
 
+:::hide
 ## References
 
 -   Agrawal et al., (2022) Agrawal, A., Gans, J., and Goldfarb, A. (2022). Prediction Machines, Updated and Expanded: The Simple Economics of Artificial Intelligence. Harvard Business Press.
@@ -611,6 +612,8 @@ We are grateful to many people for helpful conversations and feedback, including
 -   Wirtz et al., (2019) Wirtz, B. W., Weyerer, J. C., and Geyer, C. (2019). Artificial intelligence and the public sector—applications and challenges. International Journal of Public Administration, 42(7):596–615.
 -   xlr8harder, (2023) xlr8harder (2023). Twitter post. Accessed: 2025-01-08.
 -   Zuiderwijk et al., (2021) Zuiderwijk, A., Chen, Y.-C., and Salem, F. (2021). Implications of the use of artificial intelligence in public governance: A systematic literature review and a research agenda. Government information quarterly, 38(3):101577.
+
+:::
 
 ## Appendix A Cross-system influence
 
