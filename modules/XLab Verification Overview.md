@@ -66,9 +66,7 @@ content::
 
 #### Question: Open
 id:: 9b31f236-c7b2-4d22-b376-5fa504498b7c
-content:: Please put your CV as markdown. (If you don't have one to hand, pass it through an AI to convert it. Copy-pasting your Linked-in is also fine.
-
-Your CV, as markdown. If you don't have one to hand, pass it through an AI to convert it, or paste your LinkedIn profile instead.
+content:: Please put your CV as markdown. (If you don't have one to hand, pass it through an AI to convert it. Copy-pasting your Linked-in is also fine.)
 
 #### Question: Open
 id:: f669fa4d-b13a-4223-9e46-8ee03071f92a
