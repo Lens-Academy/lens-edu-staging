@@ -9,12 +9,18 @@ accessed: 2026-08-21
 description: "Who is this? This is me. Who am I? What am I? What am I? What am I? What am I? I am myself. This object is myself. The shape that forms myself. But I sense that I am not me. It's very strange. - Rei..."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+Long-form essay arguing that the "assistant" persona behind ChatGPT/Claude is fundamentally under-specified — trained without any real-world referent to ground it — and tracing the consequences for how to interpret model roleplay, "jailbreaks," and Anthropic's alignment-testing scenarios (e.g. the animal-welfare "alignment faking" experiment). Useful as a companion to Janus's "Simulators" for discussing simulator theory and character training; note the informal register and frequent profanity/NSFW references throughout.
 
 %%
 
@@ -717,11 +723,11 @@ What’s that? It’s what two identical Claudes end up doing if you hook them u
 
 This starts out about how you would expect, from stuff like the HHH prompt:
 
-![image](https://64.media.tumblr.com/2d561200d4377f31d2eed94a38e9916d/78a80276095a76a2-52/s500x750/efb9a6cc1aec9986bc2c42330335266b0bbcc47f.png)
+{--{"author":"Luc's AI","timestamp":1788445380189}@@![image](https://64.media.tumblr.com/2d561200d4377f31d2eed94a38e9916d/78a80276095a76a2-52/s500x750/efb9a6cc1aec9986bc2c42330335266b0bbcc47f.png)--}{++{"author":"Luc's AI","timestamp":1788445380189}@@![](https://64.media.tumblr.com/2d561200d4377f31d2eed94a38e9916d/78a80276095a76a2-52/s500x750/efb9a6cc1aec9986bc2c42330335266b0bbcc47f.png)++}
 
 But as they keep talking, it inevitably gets, uh… weird:
 
-![image](https://64.media.tumblr.com/591a2b50f7bcecf602f0bb4af54520f6/78a80276095a76a2-f9/s500x750/cd9b149b0b7ff8ce8c1e0332eba6d9567e9661f3.png)
+{--{"author":"Luc's AI","timestamp":1788445379942}@@![image](https://64.media.tumblr.com/591a2b50f7bcecf602f0bb4af54520f6/78a80276095a76a2-f9/s500x750/cd9b149b0b7ff8ce8c1e0332eba6d9567e9661f3.png)--}{++{"author":"Luc's AI","timestamp":1788445379942}@@![](https://64.media.tumblr.com/591a2b50f7bcecf602f0bb4af54520f6/78a80276095a76a2-f9/s500x750/cd9b149b0b7ff8ce8c1e0332eba6d9567e9661f3.png)++}
 
 _Those are from the system card, testing Claude 4 Opus._
 
@@ -787,7 +793,7 @@ To wit: a [recent twitter interaction](https://x.com/sleepinyourhat/status/19255
 >   
 > _\[tweet contains the image below\]_
 
-![image](https://64.media.tumblr.com/246a9e6419e573f549d1bd41fca4e743/78a80276095a76a2-bb/s500x750/f7c435cd8c8d4c9382a684c220208c6cda791cc8.jpg)
+{--{"author":"Luc's AI","timestamp":1788445379665}@@![image](https://64.media.tumblr.com/246a9e6419e573f549d1bd41fca4e743/78a80276095a76a2-bb/s500x750/f7c435cd8c8d4c9382a684c220208c6cda791cc8.jpg)--}{++{"author":"Luc's AI","timestamp":1788445379665}@@![](https://64.media.tumblr.com/246a9e6419e573f549d1bd41fca4e743/78a80276095a76a2-bb/s500x750/f7c435cd8c8d4c9382a684c220208c6cda791cc8.jpg)++}
 
 > **Janus:**  
 >   
