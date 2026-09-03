@@ -1,5 +1,5 @@
 ---
-title: "Why I Am Probably Not a Longtermist"
+title: "Why I am probably not a longtermist"
 source_url: https://forum.effectivealtruism.org/posts/Jxfq6xCP9ZoTBFewA/why-i-am-probably-not-a-longtermist
 author:
   - Denise Melchin
@@ -16,21 +16,21 @@ tags:
   - population-ethics
   - work-in-progress
 llm-review:
-  date: 2026-08-28
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v1.1"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+This is one author's personal, admittedly under-researched set of cruxes against longtermism, not a systematic rebuttal; the "What would convince me otherwise" sections are useful discussion prompts for surfacing where students' own cruxes lie. Worth noting the author's byline on the source now shows as "D_M_x" rather than "Denise Melchin," the name under which the post was originally published and is still cited elsewhere.
 
 %%
 
-# Why I Am Probably Not a Longtermist
+# Why I {--{"author":"Luc's AI","timestamp":1788444711462}@@Am Probably Not--}{++{"author":"Luc's AI","timestamp":1788444711462}@@am probably not++} a {--{"author":"Luc's AI","timestamp":1788444711462}@@Longtermist--}{++{"author":"Luc's AI","timestamp":1788444711462}@@longtermist ^why-i-am-probably-not-a-longtermist++}
 
 tl;dr: I am much more interested in making the future good, as opposed to long or big, as I neither think the world is great now nor am convinced it will be in the future. I am uncertain whether there are any scenarios which lock us into a world at least as bad as now that we can avoid or shape in the near future. If there are none, I think it is better to focus on "traditional neartermist" ways to improve the world.
 
@@ -40,11 +40,11 @@ This post is about the worldview called [longtermism](https://forum.effectivealt
 
 I structured this post by crux and highlighted what kind of evidence or arguments would convince me that I am wrong, though I am keen to hear about others which I might have missed! I usually did not investigate my cruxes thoroughly. Hence, only 'probably' not a longtermist.
 
-# The quality of the long-term future
+# The quality of the long-term future{++{"author":"Luc's AI","timestamp":1788444711205}@@ ^the-quality-of-the-long-term-future++}
 
-## 1. I find many aspects of utilitarianism uncompelling.
+## 1. I find many aspects of utilitarianism uncompelling.{++{"author":"Luc's AI","timestamp":1788444711205}@@ ^1-i-find-many-aspects-of-utilitarianism-uncompelling++}
 
-You do not need to be a utilitarian to be a longtermist. But I think depending on how and where you differ from total utiliarianism, you will probably not go 'all the way' to longtermism.
+You do not need to be a utilitarian to be a longtermist. But I think depending on how and where you differ from total {--{"author":"Luc's AI","timestamp":1788444711205}@@utiliarianism,--}{++{"author":"Luc's AI","timestamp":1788444711205}@@utilitarianism,++} you will probably not go 'all the way' to longtermism.
 
 I very much care about handing the world off in a good state to future generations. I also care about people's wellbeing regardless of when it happens. What I value less than a total utilitarian is bringing happy people into existence who would not have existed otherwise. This means I am not too fussed about humanity's failure to become much bigger and spread to the stars. While creating happy people is valuable, I view it as much less valuable than making sure people are not in misery. Therefore I am not extremely concerned about the lost potential from extinction risks (but I very much care about its short-term impact), although that depends on how good and long I expect the future to be (see below).
 
@@ -58,7 +58,7 @@ Alternatively, convincing me of moral realism **and** the correctness of utilita
 
 If the world suddenly drastically improved and everyone had as good a quality of life as my current self, I would be happy to focus on making the future big and long instead of improving people's lives.
 
-## 2. I do not think humanity is inherently super awesome.
+## 2. I do not think humanity is inherently super awesome. ^2-i-do-not-think-humanity-is-inherently-super-awesome
 
 A recurring theme in a lot of longtermist worldviews seems to be that humanity is wonderful and should therefore exist for a long time. I do not consider myself a misanthrope, I expect my views to be average for Europeans. Humanity has many great aspects which I like to see thrive.
 
@@ -85,7 +85,7 @@ I am unfamiliar with how seriously people take their moral obligations in other 
 
 Even though this should not have an impact on my worldview, I would probably also feel more comfortable with the longtermist idea if I saw a stronger focus on social or medical engineering to produce (morally) better people within the longtermist community.
 
-## 3. I am unsure whether the future will be better than today.
+## 3. I am unsure whether the future will be better than today. ^3-i-am-unsure-whether-the-future-will-be-better-than-today
 
 In many ways, the world has gotten a lot better. Extreme poverty is down and life expectancy is up. Fewer people are enslaved. I am optimistic about these positive trends continuing.
 
@@ -105,28 +105,28 @@ On a related note, while this is not an argument which deters me from longtermis
 
 I am well aware lots of people are pessimistic about the future because they get simple facts about how the world has been changing wrong. Yet I am interested in learning more about how different worldviews lead to perceiving the world as improving or not.
 
-# The length of the long-term future
+# The length of the long-term future ^the-length-of-the-long-term-future
 
 I do not feel compelled by arguments that the future could be very long. I do not see how this is possible without at least soft totalitarianism, which brings its own risks of reducing the value of the future.
 
-Or looking at it differently, people working on existential risks spent some years convincing me that existentials risks are pretty big. Switching from that argument to work on existential risks to longtermism, which requires reaching existential security, gives me a sense of whiplash.
+Or looking at it differently, people working on existential risks spent some years convincing me that {--{"author":"Luc's AI","timestamp":1788444709979}@@existentials--}{++{"author":"Luc's AI","timestamp":1788444709979}@@existential++} risks are pretty big. Switching from that argument to work on existential risks to longtermism, which requires reaching existential security, gives me a sense of whiplash.
 
 See also this [shortform post](https://forum.effectivealtruism.org/posts/dgNgF42QbzytPaeRp/agb-s-shortform) on the topic. One argument brought up there is the Lindy rule, pointing out that self-propagating systems have existed for billions of years so we can expect this length again. But I do not see why self-propagating systems should be the baseline, I am only interested in applying the Lindy rule to a morally worthwhile human civilisation which has been rather short in comparison.
 
-I am also not keen to base decisions on rough expected value calculations in which the assessment of the small probability is uncertain and the expected value is the primary argument (as opposed to a more 'cluster thinking' based approach). I am not in principle opposed to such decisions, but my own track record with such decisions is very poor. : the predicted expected value from back of the envelope calculations does not materialise.
+I am also not keen to base decisions on rough expected value calculations in which the assessment of the small probability is uncertain and the expected value is the primary argument (as opposed to a more 'cluster thinking' based approach). I am not in principle opposed to such decisions, but my own track record with such decisions is very {--{"author":"Luc's AI","timestamp":1788444709651}@@poor. :--}{++{"author":"Luc's AI","timestamp":1788444709651}@@poor:++} the predicted expected value from back of the envelope calculations does not materialise.
 I also have traditional Pascal's mugging type concerns for prioritizing the potentially small probability of a very large civilisation.
 
 *What would convince me otherwise:*
 
 I would appreciate solid arguments on how humanity could reach existential security.
 
-# The ability to influence the long-term future
+# The ability to influence the long-term future ^the-ability-to-influence-the-long-term-future
 
 I am unconvinced that people can reliably have a positive impact which dissipates further into the future than 100 years, maybe within a factor of 3. But there is one important exception: if we have the ability to prevent or shape a "lock-in" scenario within this timeframe. By lock-in I mean anything which humanity can never escape from. Extinction risks are an obvious example, others are permanent civilisational collapse.
 
 I am aware that Bostrom's canonical definition of existential risks includes both of these lock-in scenarios, but it also includes scenarios which I consider to be irrelevant (failing to reach a transhumanist future), which is why I am not using the term in this section.
 
-Thinking we cannot reliably impact the world for more than several decades, I do not find working on cause areas like 'improving institutional decision-making' compelling except for their ability to shape or prevent a lock-in in that timeframe..
+Thinking we cannot reliably impact the world for more than several decades, I do not find working on cause areas like 'improving institutional decision-making' compelling except for their ability to shape or prevent a lock-in in that {--{"author":"Luc's AI","timestamp":1788444709083}@@timeframe..--}{++{"author":"Luc's AI","timestamp":1788444709083}@@timeframe.++}
 
 I am also only interested in lock-in scenarios which would be as bad or worse than the current world, or maybe not much better. I am not interested in preventing a future in which humans just watch Netflix all day - it would be pretty disappointing, but at least better than a world in which people routinely starve to death.
 
