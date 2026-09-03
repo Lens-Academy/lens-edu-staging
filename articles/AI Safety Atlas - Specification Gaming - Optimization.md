@@ -10,8 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/specification-gaming.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter6-af895defbf8761a30ac565755f204072e09a5d599ca725f3de64de4b547c2f28.pdf)*
 
 %%
@@ -33,10 +39,12 @@ Risks from optimization are everywhere in AI Safety. It is only touched on brief
 
 Optimization power plays a crucial role in reward hacking. Reward hacking occurs when RL agents exploit the difference between a true reward and a proxy reward. The increase in optimization power can lead to a higher likelihood of reward hacking behavior. In some cases, there are phase transitions where a moderate increase in optimization power results in a drastic increase in reward hacking.
 
-## Goodhart's Law
+## Goodhart's Law ^goodharts-law
 
-**Definition: Goodhart’s Law** — When a measure becomes a target, it ceases to be a good measure.
-
+{--{"author":"Luc's AI","timestamp":1788447300822}@@**Definition: Goodhart’s Law**--}{++{"author":"Luc's AI","timestamp":1788447300822}@@:::callout {title="Definition 6.5++} — {++{"author":"Luc's AI","timestamp":1788447300822}@@Goodhart's Law" tone="blue"}
+++}When a measure becomes a target, it ceases to be a good measure.
+{++{"author":"Luc's AI","timestamp":1788447300822}@@:::
+++}
 This notion initially stems from the work of Charles Goodhart in economic theory. However, it has emerged as one of the primary challenges in many different fields including AI alignment today.
 
 To illustrate this concept, the following is a story of a Soviet nail factory. The factory received instructions to produce as many nails as possible, with rewards for high output and penalties for low output. Within a few years, the factory had significantly increased its nail production—tiny nails that were essentially thumbtacks and proved impractical for their intended purpose. Consequently, the planners shifted the incentives: they decided to reward the factory based on the total weight of the nails produced. Within a few years, the factory began producing large, heavy nails—essentially lumps of steel—that were equally ineffective for nailing things.
