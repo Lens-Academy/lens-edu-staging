@@ -14,11 +14,11 @@ tags:
   - moral-philosophy
 allowUnreachableUrl: true
 llm-review:
-  date: 2026-08-27
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v2"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-27
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
@@ -32,11 +32,11 @@ Add discussion note here:
 
 ---
 
-One theme of our work is trying to help populations that many people don't feel are worth helping at all.
+One theme of our work is trying to help populations that many people don't feel are worth helping at all.{--{"author":"Luc's AI","timestamp":1788444270041}@@
 
-We've seen [major opportunities to improve the welfare of factory-farmed animals](https://coefficientgiving.org/blog/initial-grants-support-corporate-cage-free-reforms), because so few others are trying to do it. When working on [immigration reform](https://coefficientgiving.org/focus/us-policy/immigration-policy), we've seen big debates about how immigration affects [wages for people already in the U.S.](http://davidroodman.com/blog/2014/09/03/the-domestic-economic-impacts-of-immigration), and much less discussion of how it affects immigrants. Even our interest in [global health and development](http://coefficientgiving.org/focus/global-health-and-development) is fairly unusual: many Americans may agree that [charitable dollars go further overseas](http://www.givewell.org/giving101/Your-dollar-goes-further-overseas), but prefer to give domestically because they so strongly prioritize people in their own country compared to people in the rest of the world.[^cite-karnofsky-1]
+--}{++{"author":"Luc's AI","timestamp":1788444270041}@@ ++}We've seen [major opportunities to improve the welfare of factory-farmed animals](https://coefficientgiving.org/blog/initial-grants-support-corporate-cage-free-reforms), because so few others are trying to do it. When working on [immigration reform](https://coefficientgiving.org/focus/us-policy/immigration-policy), we've seen big debates about how immigration affects [wages for people already in the U.S.](http://davidroodman.com/blog/2014/09/03/the-domestic-economic-impacts-of-immigration), and much less discussion of how it affects immigrants. Even our interest in [global health and development](http://coefficientgiving.org/focus/global-health-and-development) is fairly unusual: many Americans may agree that [charitable dollars go further overseas](http://www.givewell.org/giving101/Your-dollar-goes-further-overseas), but prefer to give domestically because they so strongly prioritize people in their own country compared to people in the rest of the world.[^cite-karnofsky-1]
 
-The question "Who deserves empathy and moral concern?" is central for us. We think it's one of the most important questions for effective giving, and generally. Unfortunately, we don't think we can trust conventional wisdom and intuition on the matter: history has too many cases where entire populations were dismissed, mistreated and deprived of basic rights for reasons that fit the conventional wisdom of the time but today look indefensible. Instead, we aspire to **radical empathy**: working hard to extend empathy to everyone it should be extended to, even when it is unusual or seems strange to do so.
+The {--{"author":"Luc's AI","timestamp":1788444270041}@@question--}{++{"author":"Luc's AI","timestamp":1788444270041}@@question,++} "Who deserves empathy and moral concern?" is central for us. We think it's one of the most important questions for effective giving, and generally. Unfortunately, we don't think we can trust conventional wisdom and intuition on the matter: history has too many cases where entire populations were dismissed, mistreated and deprived of basic rights for reasons that fit the conventional wisdom of the time but today look indefensible. Instead, we aspire to **radical empathy**: working hard to extend empathy to everyone it should be extended to, even when it is unusual or seems strange to do so.
 
 To clarify the choice of terminology:
 
