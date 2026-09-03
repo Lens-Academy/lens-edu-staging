@@ -5,6 +5,7 @@ summary_for_tutor: "The course's final reflection exercise, closing Module 5. In
 title: "Final exercise"
 tags:
   - facilitator-training
+reading_minutes: 5
 ---
 #### Text
 content:: **Final exercise (5 min)**
