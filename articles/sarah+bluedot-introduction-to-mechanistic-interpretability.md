@@ -9,17 +9,17 @@ description: "Mechanistic Interpretability is an emerging field that seeks to un
 tags:
   - "obsidian-web-clipper"
 llm-review:
-  date: 2026-08-27
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v2"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-27
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+This is a 2024 introduction, so treat the specific empirical claims (e.g. sparse autoencoder neuron counts, "3% understood") as a snapshot rather than the current state of the field, which has moved quickly. Good prompts for discussion: is the features/circuits framework (and the universality hypothesis) still the dominant frame, or has it been superseded/qualified by newer work? How strong is the evidence so far that interpretability-driven interventions (e.g. feature steering) generalise to genuine safety guarantees rather than superficial behavioural changes?
 
 %%
 Mechanistic Interpretability is an emerging field that seeks to **understand the internal reasoning processes of trained neural networks** and gain insight into how and why they produce the outputs that they do. AI researchers currently have very little understanding of what is happening inside state-of-the-art models.[^note-sarah-bluedot-1]
