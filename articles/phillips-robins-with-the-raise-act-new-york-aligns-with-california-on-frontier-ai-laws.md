@@ -10,8 +10,14 @@ accessed: 2026-07-02
 description: "The bills differ in minor but meaningful ways, but their overwhelming convergence is key."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -19,7 +25,7 @@ Add discussion note here:
 
 %%
 
-![Hochel stading behind a dais, with a hand raised](https://assets.carnegieendowment.org/_/eyJrZXkiOiJpbWFnZXMva2F0aHktaG9jaHVsLW5ldy15b3JrLTIwMjYtR2V0dHlJbWFnZXMtMjI1NzA3Nzg5NWVkaXRlZC5qcGcifQ==)
+{--{"author":"Luc's AI","timestamp":1788448327070}@@![Hochel stading--}{++{"author":"Luc's AI","timestamp":1788448327070}@@![Hochul standing++} behind a dais, with a hand raised](https://assets.carnegieendowment.org/_/eyJrZXkiOiJpbWFnZXMva2F0aHktaG9jaHVsLW5ldy15b3JrLTIwMjYtR2V0dHlJbWFnZXMtMjI1NzA3Nzg5NWVkaXRlZC5qcGcifQ==)
 
 Hochul speaking in Albany in January. (Photo by Alejandra Villa Loarca/Newsday RM via Getty Images)
 
@@ -37,9 +43,11 @@ With California and New York aligning, the next question is whether other states
 
 The RAISE Act, which will come into effect January 1, 2027, draws heavily on the “trust but verify” framework of SB-53; in many cases, it directly copies the text of the California law. Most of the legislative findings––which frame the bill’s objectives and provide interpretive guidance about what the legislature believed and intended––are the same. RAISE borrows many of the key definitions from SB-53, including those for catastrophic risk, critical safety incident, and foundation model. Both laws apply their strictest requirements to AI models trained on more than 10^26 FLOPS and companies with annual gross revenue exceeding $500 million in the previous year.
 
+![table visualization](https://public.flourish.studio/visualisation/27447878/thumbnail)
+
 At the heart of both bills is an identical set of transparency requirements for frontier AI development. Like SB-53, RAISE requires companies to publish their approach to safety testing, risk mitigation, incident response, and cybersecurity controls. Companies can choose their methods and standards but must then adhere to whatever commitments they’ve made. They also have to report severe harms caused by AI—primarily those involving death, bodily injury, or major economic damage, along with deceptive model behavior that materially increases catastrophic risk—to government officials.
 
-Notably, the RAISE Act, like SB-53, requires even [models that are deployed only internally](https://arxiv.org/abs/2504.12170) —that is, for the private use of the companies developing them—to be covered by the frontier AI framework. The law also attempts to reduce the risk that state and federal requirements impose duplicative or conflicting burdens on developers. Drawing on SB-53, RAISE allows New York to designate a federal rule or standard as equivalent to the state transparency standard. If that happens, companies can comply with the state requirements simply by meeting the federal rule.
+Notably, the RAISE Act, like SB-53, requires even [models that are deployed only internally](https://arxiv.org/abs/2504.12170)—that is, for the private use of the companies developing them—to be covered by the frontier AI framework. The law also attempts to reduce the risk that state and federal requirements impose duplicative or conflicting burdens on developers. Drawing on SB-53, RAISE allows New York to designate a federal rule or standard as equivalent to the state transparency standard. If that happens, companies can comply with the state requirements simply by meeting the federal rule.
 
 RAISE didn’t start out as a carbon copy of SB-53. In its original form, the bill contained several stricter requirements for AI developers, including a bar on deploying models in New York that posed unreasonable risks of death or injury, broader incident reporting requirements, and higher fines for violations. After the state legislature passed the bill, Governor Kathy Hochul negotiated with the bill’s authors, pushing to move the text to more closely match SB-53. Hochul didn’t give a public explanation for the shift, but it likely reflected that the SB-53 framework was seen as less vulnerable to industry blowback.
 
