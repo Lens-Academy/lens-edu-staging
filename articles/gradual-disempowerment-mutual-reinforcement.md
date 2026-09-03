@@ -14,8 +14,14 @@ accessed: 2026-08-07
 description: "The Mutual Reinforcement section of 'Gradual Disempowerment' by Kulveit et al.: how relationships between societal systems can decrease rather than protect alignment."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 ## Mutual Reinforcement
 
 We have so far focused on how the economy, culture, and states could independently become misaligned. A natural objection is that the different societal systems might be able to keep each other aligned through checks and balances. Indeed, we naturally think of these systems as balancing each other: states regulate the market, culture influences government, and so on. However, here we discuss how relationships between systems might actually make them less aligned. Specifically, we argue that:
@@ -24,7 +30,9 @@ We have so far focused on how the economy, culture, and states could independent
 2.  Attempts to use one aligned system to moderate the misalignment of another can backfire by effectively **shifting the burden**, thus leaving the aligned system more vulnerable
 3.  The misalignment is a result of **general incentives** which will likely apply to each individual system independently. In other words, humans and human institutions will be incentivized to take actions which will overall decrease the degree of influence which humans have over societal systems.
 
-We discuss each of these points in more detail below.
+We discuss each of these points in more detail below. This illustration gives an overview of common ways societal systems interact and affect each other.
+
+![Mutual Reinforcement illustration](https://gradual-disempowerment.ai/gradfig1.png)
 
 ## Cross-System Influence is Agnostic to Human Values
 
