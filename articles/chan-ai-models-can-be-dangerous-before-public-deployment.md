@@ -6,18 +6,20 @@ source_url: "https://metr.org/blog/2025-01-17-ai-models-dangerous-before-public-
 published: 2025-01-17
 created: 2026-08-29
 accessed: 2026-08-29
-llm-review:
-  date: 2026-08-29
-  model: "sonnet"
-  version: "article-qc-v1.2"
-  source:
-    fetched: 2026-08-29
-    kind: "live"
 description: "Why pre-deployment testing is not an adequate framework for AI risk management"
 tags:
   - "article-importer"
----
-
+llm-review:
+  date: {--{"author":"Luc's AI","timestamp":1788443737720}@@2026-08-29--}{++{"author":"Luc's AI","timestamp":1788443737720}@@2026-09-03++}
+  model: "sonnet"
+  version: {--{"author":"Luc's AI","timestamp":1788443737497}@@"article-qc-v1.2"--}{++{"author":"Luc's AI","timestamp":1788443737497}@@"article-qc-v1.3"++}
+  source:
+    fetched: {--{"author":"Luc's AI","timestamp":1788443737295}@@2026-08-29--}{++{"author":"Luc's AI","timestamp":1788443737295}@@2026-09-03++}
+    kind: "live"
+{--{"author":"Luc's AI","timestamp":1788443737075}@@description: "Why pre-deployment testing is not an adequate framework for AI risk management"
+tags:
+  - "article-importer"
+--}---
 %%
 Add discussion note here:
 
