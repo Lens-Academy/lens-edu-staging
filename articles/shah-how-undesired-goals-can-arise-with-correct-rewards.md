@@ -13,17 +13,17 @@ description:
 tags:
   - "article-importer"
 llm-review:
-  date: 2026-08-27
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v2"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-27
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+Useful for contrasting goal misgeneralisation (GMG) with specification gaming: both produce undesired behaviour, but GMG can occur even under a fully correct reward specification, since capabilities generalise while the goal does not. The A1/A2 (intended vs. deceptive model) framing is worth flagging for discussion since it foreshadows later deceptive-alignment concerns.
 
 %%
 
