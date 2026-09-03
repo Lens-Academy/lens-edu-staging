@@ -1,5 +1,5 @@
 ---
-title: "What Could the Future Hold? And Why Care?"
+title: "What could the future hold? And why care?"
 source_url: https://forum.effectivealtruism.org/posts/a8myKSh4KWDmuj6BA/what-could-the-future-hold-and-why-care
 allowUnreachableUrl: true
 author:
@@ -15,6 +15,13 @@ tags:
   - forecasting
   - impartiality
   - work-in-progress
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
 %%
 Add discussion note here:
