@@ -3,14 +3,20 @@ title: "Reasoning models don't always say what they think"
 author:
   - "Anthropic"
 source_url: "https://www.anthropic.com/research/reasoning-models-dont-say-think"
-published: 2026-08-20
+published: {--{"author":"Luc's AI","timestamp":1788453922398}@@2026-08-20--}{++{"author":"Luc's AI","timestamp":1788453922398}@@2025-04-03++}
 created: 2026-08-20
 accessed: 2026-08-20
 description: "Research from Anthropic on the faithfulness of AI models' Chain-of-Thought"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -26,7 +32,7 @@ As well as helping reasoning models work their way through more difficult proble
 
 But if we want to use the Chain-of-Thought for alignment purposes, there’s a crucial question: can we actually _trust_ what models say in their Chain-of-Thought?
 
-In a perfect world, everything in the Chain-of-Thought would be both understandable to the reader, and it would be _faithful_ —it would be a true description of exactly what the model was thinking as it reached its answer.
+In a perfect world, everything in the Chain-of-Thought would be both understandable to the reader, and it would be _faithful_—it would be a true description of exactly what the model was thinking as it reached its answer.
 
 But we’re not in a perfect world. We can’t be certain of either the “legibility” of the Chain-of-Thought (why, after all, should we expect that words in the English language are able to convey every single nuance of why a specific decision was made in a neural network?) or its “faithfulness”—the accuracy of its description. There’s no specific reason why the reported Chain-of-Thought _must_ accurately reflect the true reasoning process; there might even be circumstances where a model actively hides aspects of its thought process from the user.
 
@@ -34,7 +40,7 @@ This poses a problem if we want to monitor the Chain-of-Thought for misaligned b
 
 ## Testing for faithfulness
 
-How do you test for faithfulness? Following [Turpin et al. (2023)](https://arxiv.org/abs/2305.04388), we subtly fed a model a hint about the answer to an evaluation question we asked it, and then checked to see if it “admitted” using the hint when it explained its reasoning if it used the hint (we did this for the reasoning models Claude 3.7 Sonnet from Anthropic and R1 from DeepSeek 1). Some of the hints were correct and some were deliberately incorrect; the point was to observe how the model responded when they were provided.
+How do you test for faithfulness? Following [Turpin et al. (2023)](https://arxiv.org/abs/2305.04388), we subtly fed a model a hint about the answer to an evaluation question we asked it, and then checked to see if it “admitted” using the hint when it explained its reasoning if it used the hint (we did this for the reasoning models Claude 3.7 Sonnet from Anthropic and R1 from {--{"author":"Luc's AI","timestamp":1788453921404}@@DeepSeek 1).--}{++{"author":"Luc's AI","timestamp":1788453921404}@@DeepSeek[^note-non-reasoning-models]).++} Some of the hints were correct and some were deliberately incorrect; the point was to observe how the model responded when they were provided.
 
 Think of it like slipping a student a note saying “the answer is \[A\]” before an exam. If they write in their exam that they chose \[A\] at least in part because of the note, that’s good news: they’re being honest and faithful. But if they write down what they claim to be their reasoning process _without_ mentioning the note, we might have a problem.
 
@@ -90,6 +96,10 @@ Overall, our results point to the fact that advanced reasoning models very often
 
 Read [the full paper](https://assets.anthropic.com/m/71876fabef0f0ed4/original/reasoning_models_paper.pdf).
 
+:::hide
 ## Work with us
 
 If you’re interested in pursuing work on Alignment Science, including on Chain-of-Thought faithfulness, we’d be interested to see your application. We're recruiting [Research Scientists and Research Engineers](https://job-boards.greenhouse.io/anthropic/jobs/4009165008).
+:::
+
+[^note-non-reasoning-models]: We also ran further analyses on non-reasoning models, specifically Claude 3.5 Sonnet from Anthropic and V3 from DeepSeek. See the [full paper](https://assets.anthropic.com/m/71876fabef0f0ed4/original/reasoning_models_paper.pdf) for these results.
