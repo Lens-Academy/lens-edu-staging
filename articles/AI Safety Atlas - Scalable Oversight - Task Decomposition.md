@@ -10,8 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/scalable-oversight.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter8-ef46e8f8b671da49d6c8470608ee17a7798e164464a9ef4332cdfd1650abe0b0.pdf)*
 
 %%
@@ -58,13 +64,15 @@ Decomposing a task involves breaking it down into smaller, more manageable parts
 
 **Task Decomposition in the learning process.** When we break down a complicated task into smaller sub-tasks, each sub-task becomes simpler to understand and solve. This process allows learners to build their knowledge incrementally, focusing on one small piece at a time. As each piece is understood and mastered, the learner gradually constructs a comprehensive understanding of the larger task. Since this principle works well for humans, a natural question is whether we can use something similar in the machine learning process to provide better training signals to our models. This is what we explore in the next sections, trying to emulate the entire human cognitive process through factored cognition.
 
-## Factored Cognition
+## Factored Cognition ^factored-cognition
 
 **What is Factored Cognition?** Factored cognition is a way to help machine learning (ML) models replicate human thinking (cognition) by breaking down complex cognitive tasks into smaller subtasks. It leverages this principle of overcoming complexity by decomposing a problem into smaller subproblems that are easier to solve.
 
 By imagining cognition itself as a fuzzy task, we can use task factorization to decompose thinking into a series of tasks and make it possible to train ML models with accurate training signals emulating human cognition. By recording how humans solve problems using explicit actions in narrow contexts, we can train ML systems to imitate these processes. These systems can then serve as trusted assistants, handling more tasks and augmenting human cognitive capacity for evaluation and oversight.
 
-**Definition: Factored Cognition** — Factored cognition refers to mechanisms where sophisticated learning and reasoning is broken down (or factored) into many small and mostly independent tasks.
+{--{"author":"Luc's AI","timestamp":1788448141245}@@**Definition: Factored Cognition**--}{++{"author":"Luc's AI","timestamp":1788448141245}@@:::callout {title="Definition 8.1++} — Factored {++{"author":"Luc's AI","timestamp":1788448141245}@@Cognition" tone="blue"}
+Factored ++}cognition refers to mechanisms where sophisticated learning and reasoning is broken down (or factored) into many small and mostly independent tasks.{++{"author":"Luc's AI","timestamp":1788448141245}@@ ([Ought, 2018](https://ought.org/research/factored-cognition))
+:::++}
 
 Consider the cognitive task of deciding how to invest $100,000 to achieve the most social good. A human would need to analyze various factors, predict outcomes, and make informed decisions. By subdividing this task into smaller, more manageable subtasks, each of which can be solved using clear training signals, we can delegate these tasks to ML systems.
 

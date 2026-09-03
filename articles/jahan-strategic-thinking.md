@@ -11,12 +11,18 @@ allowUnreachableUrl: true
 description: "By Sarwat Jahan and Ahmed Saber Mahmud - Game theory analyzes behavior when decisions must take into account the potential actions of opponents"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+{--{"author":"Luc's AI","timestamp":1788448138935}@@...--}{++{"author":"Luc's AI","timestamp":1788448138935}@@This is a short, general-audience primer (2018) rather than a rigorous treatment: the payoff matrix for the "battle of the sexes" example is described in prose but not reproduced as a table, since it is only referenced via an image ("see chart, left/right panel"). Instructors may want to supplement with an explicit payoff matrix and a more formal definition of Nash equilibrium.++}
 
 %%
 
