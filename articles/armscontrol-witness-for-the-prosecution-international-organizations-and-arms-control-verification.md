@@ -1,20 +1,26 @@
 ---
 title: "Witness for the Prosecution: International Organizations and Arms Control Verification"
 author:
-  - "Armscontrol"
+  - {--{"author":"Luc's AI","timestamp":1788445500382}@@"Armscontrol"--}{++{"author":"Luc's AI","timestamp":1788445500382}@@"Edward Ifft"++}
 source_url: "https://www.armscontrol.org/act/2005-11/features/witness-prosecution-international-organizations-and-arms-control-verification"
-published: 2005-01-28
+published: {--{"author":"Luc's AI","timestamp":1788445500118}@@2005-01-28--}{++{"author":"Luc's AI","timestamp":1788445500118}@@2005-11-01++}
 created: 2026-08-20
 accessed: 2026-08-20
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This 2005 piece is a first-person policy essay by a former U.S. arms control official, so its framing of "who decides compliance" reflects a U.S.-centric, Bush-era vantage point (contrast its emphasis on NTM and skepticism of international judgment with how the IAEA's later Iran findings and the 2015 JCPOA played out). Useful discussion prompts: the monitoring/verification/compliance distinction it opens with; the tension between "not being able to prove a negative" and demands for certainty; and whether "politically binding" commitments (e.g., the NPT's "13 steps") have held up better or worse than the author expected.
 
 %%
 
@@ -191,6 +197,7 @@ ENDNOTES
 
 ---
 
+%% validator-ignore-next-line --code article.block-repeated-nearby --reason intentional-repeat-in-distinct-structured-entries %%
 Edward Ifft is a retired Department of State official who served as deputy director of the On-Site Inspection Agency and senior advisor to the Defense Threat Reduction Agency. He is an adjunct professor in the security studies program of the School of Foreign Service at Georgetown University. The views expressed in this paper are those of the author and do not necessarily reflect the policy of the U.S. government.
 
 ---
@@ -234,7 +241,7 @@ ENDNOTES
 [^cite-9]: Office of the Press Secretary, The White House, March 7, 2005.
 [^cite-10]: See UN Security Council Resolutions 687, 1284, and 1441.
 [^cite-11]: For one of the earliest discussions of this issue, see Fred Ikle, “After Detection...What?” Foreign Affairs, January 1961.
-[^cite-12]: 9\. Vienna Convention on the Law of Treaties, art. 60, par. 3.
+[^cite-12]: Vienna Convention on the Law of Treaties, art. 60, par. 3.
 [^cite-13]: START Declarations.
 [^cite-14]: Lawrence Scheinman, “Disarmament: Have the Five Nuclear Powers Done Enough?” Arms Control Today, January/February 2005, pp. 6-11.
 [^cite-15]: For a discussion of this form of arms control, see Lewis A. Dunn and Victor Alessi, “Arms Control by Other Means,” Survival, vol. 42, no. 4 (2000), pp. 223-238.
