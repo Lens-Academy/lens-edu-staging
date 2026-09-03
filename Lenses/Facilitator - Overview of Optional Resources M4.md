@@ -5,6 +5,7 @@ summary_for_tutor: "An optional-resources index for Module 4, for facilitators w
 title: "Facilitator M4 — Overview of Optional Resources"
 tags:
   - facilitator-training
+reading_minutes: 35
 ---
 
 #### Text

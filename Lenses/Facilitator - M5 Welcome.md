@@ -5,6 +5,7 @@ summary_for_tutor: "Opening lens for Module 5 of the facilitator training, cover
 title: "Hard Moments, Coaching, and Closing"
 tags:
   - facilitator-training
+reading_minutes: 1
 ---
 #### Text
 content:: This module is the one you'll re-read most. The first time something goes wrong in a session, come back here.
