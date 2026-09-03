@@ -9,14 +9,27 @@ accessed: 2026-08-08
 description: "Discussions of cognitive offloading often miss a critical distinction: What AI does to a 45-year-old's brain is categorically different from what it does to a 14-year-old's."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
+
+:::callout {title="Key points"}
+- Adults who offload thinking to AI lose capacity they built. Children may never build it at all.
+- When students process information through the same model, the result may be similar minds.
+- Auditing AI output requires expertise the child is still supposed to be developing.
+- In a study, developers who delegated coding to AI produced working code but failed conceptual understanding.
+:::
 
 I've spent the past year or so writing about cognitive offloading, especially in children. I’ve argued that outsourcing to AI weakens critical thinking skills. I’ve read the recent research. I’m seeing the patterns play out in schools and universities.
 
@@ -26,11 +39,11 @@ If I use AI to summarize a research paper, the argument in favor is efficiency. 
 
 That's atrophy—a muscle I stopped exercising. It's weakened, but it still exists. I can rebuild it if needed.
 
-I mentioned Michael Gerlich's study on the negative correlation between AI offloading and critical thinking in a recent piece, "[Why Kids Can’t Resist Cognitive Offloading](https://www.psychologytoday.com/us/blog/the-algorithmic-mind/202512/why-kids-find-cognitive-offloading-irresistible)," but I missed a critical distinction. Participants over 46 showed higher critical thinking scores alongside lower AI reliance. Participant between 17-25 showed the inverse.
+I mentioned Michael Gerlich's study on the negative correlation between AI offloading and critical thinking in a recent piece, "[Why Kids Can’t Resist Cognitive Offloading](https://www.psychologytoday.com/us/blog/the-algorithmic-mind/202512/why-kids-find-cognitive-offloading-irresistible)," but I missed a critical distinction. Participants over 46 showed higher critical thinking scores alongside lower AI reliance. Participants between 17-25 showed the inverse.
 
 In my view, the most likely explanation for this is not generational preference but biological development. The older group probably offloaded tasks they already knew how to perform. The younger group offloaded task they never learned how to perform. These [neural](https://www.psychologytoday.com/us/basics/neuroscience "Psychology Today looks at neural") pathways for source evaluation and constructing arguments were never formed. You can’t atrophy a muscle that was never built.
 
-This is foreclosure—and foreclosure may not be reversible the way atrophy is.
+[This is foreclosure](https://connectedclassroom.org/what-is-cognitive-foreclosure)—and foreclosure may not be reversible the way atrophy is.
 
 ## The AI Audit Problem
 
@@ -44,7 +57,7 @@ But a young adult’s interaction is more likely to be substitution, where the A
 
 Shen and Tamkin's 2026 preprint showed this with software developers (adults) learning a new coding library. Developers who fully delegated to AI produced working code but failed conceptual quizzes afterward. They couldn't debug what the AI had written for them. They had the output without the understanding.
 
-Remember: These were adults with existing programming expertise. They performed 17 percent worse that the group without AI assistance.
+Remember: These were adults with existing programming expertise. They performed 17 percent worse {--{"author":"Luc's AI","timestamp":1788447826029}@@that--}{++{"author":"Luc's AI","timestamp":1788447826029}@@than++} the group without AI assistance.
 
 Now consider a child encountering programming for the first time with zero expertise to fall back on. There’s no reference to even compare AI output against. The substitution becomes foreclosure.
 
@@ -70,6 +83,7 @@ The downside of adult offloading is people get less sharp. The downside of adole
 
 **[Facebook](https://www.psychologytoday.com/us/basics/social-media "Psychology Today looks at Facebook")/LinkedIn image: Fabio Principe/Shutterstock**
 
+:::hide
 References
 
 Gerlich, M. (2025). AI tools in society: Impacts on cognitive offloading and the future of critical thinking. Societies, 15(1), 6. [https://doi.org/10.3390/soc15010006](https://doi.org/10.3390/soc15010006)
@@ -77,3 +91,4 @@ Gerlich, M. (2025). AI tools in society: Impacts on cognitive offloading and the
 Shen, J. H., & Tamkin, A. (2026). How AI impacts skill formation. arXiv preprint, arXiv:2601.20245. [https://doi.org/10.48550/arXiv.2601.20245](https://doi.org/10.48550/arXiv.2601.20245)
 
 Sourati, Z., Ziabari, A. S., & Dehghani, M. (2026). The homogenizing effect of large language models on human expression and thought. Trends in Cognitive Sciences. Advance online publication. [https://doi.org/10.1016/j.tics.2026.01.003](https://doi.org/10.1016/j.tics.2026.01.003)
+:::
