@@ -10,14 +10,20 @@ accessed: 2026-07-27
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+{--{"author":"Luc's AI","timestamp":1788447497424}@@...
 
-I think this article might be a good introduction into the why of theories of change because it feels quite illuminating and motivating in a way that the "Nailing the Basics" article is more of a how-to that misses some of the spark as well as the focus on what to actually focus on when making a theory of change.
+--}I think this article might be a good introduction into the why of theories of change because it feels quite illuminating and motivating in a way that the "Nailing the Basics" article is more of a how-to that misses some of the spark as well as the focus on what to actually focus on when making a theory of change.
 
 Though this article actually probably requires a short, like, 3-sentence introduction of what a theory of change is at the start, which could go in the introductory bit of text in the Lens that uses this article.
 
@@ -25,7 +31,7 @@ Maybe also introduce the term "backchaining"
 
 %%
 
-## Theory of Change
+## Theory of Change ^theory-of-change
 
 I am increasingly convinced that the difference between effective and ineffective people is their skill at developing a theory of change. Theory of change is a funny phrase — I first heard it in the nonprofit community, but it’s also widespread in politics and really applies to just about everything. Unfortunately, very few people seem to be very good at it.
 
