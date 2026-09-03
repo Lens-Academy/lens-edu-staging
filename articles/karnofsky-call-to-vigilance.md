@@ -15,17 +15,17 @@ tags:
   - existential-risk
   - work-in-progress
 llm-review:
-  date: 2026-08-28
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v1.1"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+This closing post of the "most important century" series deliberately avoids a single call to action, instead urging readers to build relevant knowledge and connections. Useful discussion prompt: what does "staying vigilant" concretely look like for a reader who isn't already working in AI, policy, or EA-adjacent fields?
 
 %%
 
