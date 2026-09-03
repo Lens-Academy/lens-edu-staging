@@ -9,8 +9,14 @@ accessed: 2026-08-20
 description: "California Codes"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -18,7 +24,21 @@ Add discussion note here:
 
 %%
 
-###### 1107.
+{++{"author":"Luc's AI","timestamp":1788448110735}@@### Labor Code - LAB ^labor-code-lab
+
+#### DIVISION 2. EMPLOYMENT REGULATION AND SUPERVISION [200 - 2699.8] ^division-2-employment-regulation-and-supervision
+
+_(Division 2 enacted by Stats. 1937, Ch. 90.)_
+
+#### PART 3. PRIVILEGES AND IMMUNITIES [920 - 1139] ^part-3-privileges-and-immunities
+
+_(Part 3 enacted by Stats. 1937, Ch. 90.)_
+
+##### CHAPTER 5.1. Whistleblower Protections: Catastrophic Risks in AI Foundation Models [1107 - 1107.2] ^chapter-5-1-whistleblower-protections
+
+_(Chapter 5.1 added by Stats. 2025, Ch. 138, Sec. 4.)_
+
+++}###### 1107.{++{"author":"Luc's AI","timestamp":1788448110735}@@ ^section-1107++}
 
   
 
@@ -60,7 +80,8 @@ For purposes of this chapter:
 
 _(Added by Stats. 2025, Ch. 138, Sec. 4. (SB 53) Effective January 1, 2026.)_
 
-###### 1107.1.
+###### 1107.1. ^section-1107-1
+
 
   
 
@@ -105,5 +126,11 @@ _(Added by Stats. 2025, Ch. 138, Sec. 4. (SB 53) Effective January 1, 2026.)_
 (j) (1) This section does not impair or limit the applicability of Section 1102.5, including with respect to the rights of employees who are not covered employees to report violations of this chapter or Chapter 25.1 (commencing with Section 22757.10) of Division 8 of the Business and Professions Code.
 
 (2) The remedies provided by this section are cumulative to each other and the remedies or penalties available under all other laws of this state.
+
+_(Added by Stats. 2025, Ch. 138, Sec. 4. (SB 53) Effective January 1, 2026.)_
+
+###### 1107.2. ^section-1107-2
+
+The loss of value of equity does not count as damage to or loss of property for the purposes of this chapter.
 
 _(Added by Stats. 2025, Ch. 138, Sec. 4. (SB 53) Effective January 1, 2026.)_
