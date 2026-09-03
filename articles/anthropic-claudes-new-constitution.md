@@ -10,11 +10,11 @@ description: "A new approach to a foundational document that expresses and shape
 tags:
   - "article-importer"
 llm-review:
-  date: 2026-08-27
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v1"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-27
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
