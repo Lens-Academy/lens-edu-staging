@@ -66,7 +66,7 @@ content::
 
 #### Question: Open
 id:: 9b31f236-c7b2-4d22-b376-5fa504498b7c
-content:: Please put your 
+content:: Please put your CV as markdown. (Pass CV through AI to create markdown if you don't have one. Copy-pasting your Linked-in is also fine.
 
 Your CV, as markdown. If you don't have one to hand, pass it through an AI to convert it, or paste your LinkedIn profile instead.
 
