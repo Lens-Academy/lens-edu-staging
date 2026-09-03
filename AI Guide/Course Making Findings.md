@@ -57,11 +57,15 @@ feedback: it is one command, and here it would have surfaced the biggest
 student complaint plus 77 similar cases without needing a student.
 
 CAUSE 3: A good design shipped in Unit 1 and later units were built without
-it. [measured 2026-09-04, structure count on production, one module per
-unit; an earlier word-count proxy overcounted Unit 2] Unit 1 has a real
-closing lens ("# Lens: Revision 1" in the module file); Unit 2 has none --
-its apparent hits were the word "revision" in prose about AI 2027's authors
-revising their forecast; Unit 3, none. Andreas was in week 3 when he
+it. [measured 2026-09-04, closing-check.py structure count on production,
+all five modules, inline lenses included] The design decayed in two steps:
+Unit 1 has the full revision ASK ("Revision 1": restate your model from
+memory, then change it); Unit 2 kept only a closing SUMMARY (a Text-only
+"Closing" lens -- recap prose, nothing the student does); Units 3 and 4
+have nothing; Unit 5 has one stray revisit-question. Ask, then summary,
+then absent. (This paragraph was corrected twice tonight as instruments
+improved -- word-count proxy, then file-walk, then inline-lens-aware walk
+each gave different answers; the run record explains.) Andreas was in week 3 when he
 said "there's no closing section... that step currently isn't there."
 [student] The design existed only as prose and examples, so it did not carry.
 REPAIR: turn the design into a checklist that is actually run on every new
