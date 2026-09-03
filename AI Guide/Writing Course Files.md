@@ -61,4 +61,4 @@ Optional frontmatter: `slug-aliases`, `partner-name`, `partner-logo`, `partner-l
 
 Before creating a new course:
 - Discuss target audience features and value proposition of that course with the user.
-- Thend discuss goal 
+- Thend discuss goals for each week
