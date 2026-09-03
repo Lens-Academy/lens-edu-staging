@@ -1,20 +1,26 @@
 ---
-title: "AI is on the March. Is the AI Safety Movement Ready? — Social Change Lab"
+title: "AI is on the March. Is the AI Safety Movement Ready?"
 author:
-  - "Socialchangelab"
+  - "Social Change Lab"
 source_url: "https://www.socialchangelab.org/ai-safety-movement"
-published: 2026-07-09
+published: 2025-08-01
 created: 2026-07-09
 accessed: 2026-07-09
-description: "A non-profit studying how social movements shape public opinion, policy, and social change. All our research is open access — explore our reports and resources."
+description: "AI is reshaping the world at unprecedented speed. This report maps the emerging civil-society response – who is organising, what strategies they are using, and where the gaps are."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is a press-summary of a longer report (linked via Google Drive, not independently verified here) rather than the primary research itself. Useful for discussing the funding gap and coordination challenges in AI safety civil society, and for comparing the "presentist harms vs. existential risk" split to tensions in other social movements.
 
 %%
 
@@ -25,6 +31,12 @@ AI safety
 **Published:** August 2025
 
 AI is reshaping the world at unprecedented speed. This report maps the emerging civil-society response – who is organising, what strategies they are using, and where the gaps are.
+
+:::callout {title="Key findings"}
+- **<0.1%** of global AI investment in 2024 went to safety research, out of over $250 billion invested in AI development
+- **2/3** of the UK public are worried about AI’s impact on jobs, democracy, and personal freedom - yet feel powerless to influence its direction
+- **4** strategic clusters of civil-society response identified: protest and mobilisation; narrative-shaping and watchdogs; public literacy and democratic engagement; and field-building and political lobbying
+:::
 
 ## Why this matters
 
@@ -42,6 +54,6 @@ The civic side of AI safety is small, underfunded, and loosely connected – but
 
 The findings above are a summary. The full report, including methodology and supporting evidence, is available on socialchangelab.org.
 
-[Read the report](https://drive.google.com/file/d/1yW-za20QE3U2zoEuEUUtDyp8GdEv0yqt/view?usp=sharing)
+[Read the report](https://drive.google.com/file/d/1yW-za20QE3U2zoEuEUUtDyp8GdEv0yqt/view?usp=sharing){--{"author":"Luc's AI","timestamp":1788446480525}@@
 
-AI safety
+AI safety--}
