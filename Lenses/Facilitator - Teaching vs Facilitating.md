@@ -5,6 +5,7 @@ summary_for_tutor: "Establishes the core teacher/facilitator distinction: a teac
 title: "1.1 The core distinction: teaching vs facilitating"
 tags:
   - facilitator-training
+reading_minutes: 8
 ---
 #### Text
 content:: A teacher's job is to **transfer knowledge**. The teacher is the source of information. Success looks like: at the end of the class, students know what the teacher knew at the start.

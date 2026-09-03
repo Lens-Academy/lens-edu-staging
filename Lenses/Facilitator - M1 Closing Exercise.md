@@ -5,6 +5,7 @@ summary_for_tutor: "A private reflection exercise closing Module 1 of facilitato
 title: "Closing exercise"
 tags:
   - facilitator-training
+reading_minutes: 5
 ---
 #### Text
 content:: **Closing exercise (5 min)**
