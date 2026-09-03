@@ -16,19 +16,18 @@ tags:
   - impartiality
   - work-in-progress
 ---
-
 %%
 Add discussion note here:
 
-...
+This is a short framing chapter rather than a full argument for longtermism — it previews the concepts (impartiality, forecasting, calibration) covered in the fuller readings that follow this module intro, so pair it with those for the substantive case.
 
 %%
 
-# What Could the Future Hold? And Why Care?
+# What {--{"author":"Luc's AI","timestamp":1788446014443}@@Could--}{++{"author":"Luc's AI","timestamp":1788446014443}@@could++} the {--{"author":"Luc's AI","timestamp":1788446014443}@@Future Hold?--}{++{"author":"Luc's AI","timestamp":1788446014443}@@future hold?++} And {--{"author":"Luc's AI","timestamp":1788446014443}@@Why Care?--}{++{"author":"Luc's AI","timestamp":1788446014443}@@why care?++}
 
 *By Max Dalton*
 
-In this chapter we explore what the future might be like, and why it might matter. We'll explore arguments for "longtermism"—the view that improving the long-term future is a key moral priority. This can bolster arguments for working on reducing some of the extinction risks that we covered in the last two weeks. We'll also explore some views on what our future could look like, and why it might be pretty different from the present.
+In this chapter we explore what the future might be like, and why it might matter. We'll explore arguments for "longtermism"—the view that improving the {--{"author":"Luc's AI","timestamp":1788446014198}@@long-term--}{++{"author":"Luc's AI","timestamp":1788446014198}@@long term++} future is a key moral priority. This can bolster arguments for working on reducing some of the extinction risks that we covered in the last two weeks. We'll also explore some views on what our future could look like, and why it might be pretty different from the present.
 
 Key concepts from this chapter include:
 
@@ -36,7 +35,8 @@ Key concepts from this chapter include:
 - **Forecasting:** Predicting the future is hard, but it can be worth doing in order to make our predictions more explicit and learn from our mistakes.
 
 You will also practice the skill of **calibration**, with the hope that when you say that something is 60% likely, it will happen about 60% of the time. This is important for making good judgments under uncertainty.
-
+{--{"author":"Luc's AI","timestamp":1788446013970}@@
 ---
 
 *This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
+--}

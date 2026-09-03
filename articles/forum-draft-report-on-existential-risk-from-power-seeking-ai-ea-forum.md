@@ -10,8 +10,14 @@ accessed: 2026-06-16
 description: "Joe Carlsmith announces a draft report evaluating the overall case for existential catastrophe from misaligned, power-seeking AI by 2070, including an initial quantitative probability estimate, prepared as part of Open Philanthropy's Worldview Investigations project."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
