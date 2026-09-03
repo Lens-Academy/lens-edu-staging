@@ -1,5 +1,5 @@
 ---
-title: "The Rocket Alignment Problem - Machine Intelligence Research Institute"
+title: "The Rocket Alignment Problem"
 source_url: https://intelligence.org/2018/10/03/rocket-alignment/
 author:
   - "Eliezer Yudkowsky"
@@ -9,17 +9,17 @@ description: "The following is a fictional dialogue building off of AI Alignment
 tags:
   - "obsidian-web-clipper"
 llm-review:
-  date: 2026-08-27
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v2"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-27
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+A fictional Socratic dialogue that uses a rocketry analogy to explain why MIRI's early theoretical research (tiling agents, logical uncertainty, corrigibility) targets basic conceptual confusion rather than near-term engineering advice. Useful as a companion piece to "AI Alignment: Why It's Hard, and Where to Start" (linked in the opening line) for discussing how to communicate the motivation behind foundational, pre-paradigmatic research.
 
 %%
 The following is a fictional dialogue building off of [AI Alignment: Why It’s Hard, and Where to Start](https://intelligence.org/2016/12/28/ai-alignment-why-its-hard-and-where-to-start/).
