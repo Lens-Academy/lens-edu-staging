@@ -2,7 +2,7 @@
 title: "500 Million, But Not a Single One More"
 source_url: https://laneless.substack.com/p/500-million-but-not-a-single-one-more
 author:
-  - jai
+  - Jai
 published: 2014-12-09
 created: 2026-05-28
 description: The story of how humanity eradicated smallpox — one of the most ambitious and successful coordinated efforts in history — and what it tells us about what's possible when people decide a problem is worth solving.
@@ -14,17 +14,17 @@ tags:
   - history
   - work-in-progress
 llm-review:
-  date: 2026-08-28
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v1.1"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+This is a deliberately mythic, personified retelling of smallpox's history rather than a conventional historical account — useful for discussing narrative framing in science communication, but pair it with a plain factual source (e.g. WHO's account of the Smallpox Eradication Programme) for students who want dates, mechanisms, and named organizations. Written in 2014 to mark the anniversary of the 1979 eradication declaration.
 
 %%
 
@@ -40,7 +40,7 @@ For a long time, there was no hope — only the bitter, hollow endurance of surv
 
 In China, in the 15th century, humanity began to fight back.
 
-It was observed that survivors of the mad god’s curse would never be touched again: They had taken a portion of that power into themselves, and were so protected from it. Not only that, but this power could be shared by consuming a remnant of the wounds. There was a price, for you could not take the god’s power without first defeating it — but a smaller battle, on humanity’s terms. By the 16th century, the technique spread to India, across Asia, the Ottoman Empire and, in the 18th century, Europe. In 1796, a more powerful technique was discovered by [Edward Jenner](http://en.wikipedia.org/wiki/Edward_Jenner).
+It was observed that survivors of the mad god’s curse would never be touched again: {--{"author":"Luc's AI","timestamp":1788443203822}@@They--}{++{"author":"Luc's AI","timestamp":1788443203822}@@they++} had taken a portion of that power into themselves, and were so protected from it. Not only that, but this power could be shared by consuming a remnant of the wounds. There was a price, for you could not take the god’s power without first defeating it — but a smaller battle, on humanity’s terms. By the 16th century, the technique {--{"author":"Luc's AI","timestamp":1788443203822}@@spread--}{++{"author":"Luc's AI","timestamp":1788443203822}@@spread,++} to India, across Asia, the Ottoman Empire and, in the 18th century, Europe. In 1796, a more powerful technique was discovered by [Edward Jenner](http://en.wikipedia.org/wiki/Edward_Jenner).
 
 An idea began to take hold: Perhaps the ancient god could be killed.
 
