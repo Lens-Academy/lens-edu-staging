@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is a normative/speculative closing essay from the "If Anyone Builds It, Everyone Dies" Chapter 5 online resources, not an empirical claim: the authors are explicit that their probability estimates (e.g., "significantly less than a 50 percent chance") and their guesses about AI consciousness are informed speculation, not established results. Useful for discussing what's at stake beyond extinction risk (the character of any surviving future) and for probing how much weight readers should put on such guesses.
 
 %%
 If anyone builds superintelligence, everyone dies. And the long-term future shaped by such a superintelligence is not likely to harbor beauty, wonder, or joy; it's more likely to be an empty place.
@@ -37,7 +43,7 @@ This sounded silly at the time, and today it sounds even sillier, because exactl
 
 The same pattern holds true for more general features of a human mind, like the way humans [do value-of-information calculations](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent#why-curiosity) by instinct and by emotion. The human way isn't the only way, and when you see the work it's doing you see that the human brain is not at the optimum of all possible ways to perform that function, if all you wanted was that function. No more than our neurons are the fastest possible computers, or our blood carries [the most oxygen](https://ifanyonebuildsit.com/6/nanotechnology-and-protein-synthesis#freitas-and-red-blood-cells) that any blood could carry.
 
-The main reason to expect a specificfeature of life or minds to show up in the distant future, is that *something actively wants it to be there*. That some intellect prefers that option over every other possible option.
+The main reason to expect a {--{"author":"Luc's AI","timestamp":1788449356876}@@specificfeature--}{++{"author":"Luc's AI","timestamp":1788449356876}@@specific feature++} of life or minds to show up in the distant future, is that *something actively wants it to be there*. That some intellect prefers that option over every other possible option.
 
 Human beings, if we make it that far, would presumably choose a long-term future that includes consciousness, and people that care about other people, and happiness (and joy and wonder and so on). We would probably choose *complicated* happiness bound to the events of our lives, not a drugged-out stupor. If the universe gets taken over by something that doesn't *positively want* the universe to be full of the good kind of happiness — as a terminal preference, not a questionably-efficient way of doing something else — we strongly worry that the universe doesn't end up happy.
 

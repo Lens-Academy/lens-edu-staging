@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -34,7 +40,7 @@ The flaw in this claim is that it's invalid to assume without further argument t
 
 Or consider the scenario: "AIs will blindly continue in whatever task they are given until their work wipes out humanity as a side effect, never knowing that humanity would have wanted something different."
 
-Here, the error is mechanomorphic. It takes for granted that a "mere machine" would do things "blindly" and unreflectively, without sensitivity to the consequences — like a runaway lawn mower. This is again a case where the argument is invalid, even if the conclusion ("AI is likely to wipe out humanity") is correct. If the AI is sufficiently skilled at predicting the world, it'll know exactly what its operators meant when they gave the AI some task. We're worried that ASI won't *care* what we want, not that it won't*know.*
+Here, the error is mechanomorphic. It takes for granted that a "mere machine" would do things "blindly" and unreflectively, without sensitivity to the consequences — like a runaway lawn mower. This is again a case where the argument is invalid, even if the conclusion ("AI is likely to wipe out humanity") is correct. If the AI is sufficiently skilled at predicting the world, it'll know exactly what its operators meant when they gave the AI some task. We're worried that ASI won't *care* what we want, not that it won't *know.*
 
 Or, combining both fallacies: One of the premises of *The Matrix* is that machines will regard human illogic and emotionality with *disgust*.
 
@@ -122,7 +128,7 @@ Kasparov seems to have expected this to look like Deep Blue only playing "logica
 
 In one sense, Deep Blue lacked just the gear that Kasparov thought it lacked.[^note-iabied-ftnt86] But that did not prevent it from finding moves that struck Kasparov as wonderful, and it did not prevent Deep Blue from winning.
 
-It was not that Deep Blue was missinga part that real human chess players would have and therefore played defective chess; that's like expecting a robotic arm containing no blood to fail in the same way as a bloodless human arm would fail.
+It was not that Deep Blue was {--{"author":"Luc's AI","timestamp":1788449355360}@@missinga--}{++{"author":"Luc's AI","timestamp":1788449355360}@@missing a++} part that real human chess players would have and therefore played defective chess; that's like expecting a robotic arm containing no blood to fail in the same way as a bloodless human arm would fail.
 
 Deep Blue was just playing Kasparov-level chess via a different kind of cognition.
 
@@ -185,7 +191,7 @@ If you subtracted this network from the modern chess machine *—* if you depriv
 
 So Kasparov was not wrong in the intuition that better "intuitive" board evaluation is helpful when playing chess. But he was wrong about the ability of sheer brute force to find moves that *felt* creative, intuitive, or inspired. Deep Blue had a dumb position evaluator and still found the creative-feeling moves.
 
-[^note-iabied-ftnt88]: An example can be found in *[Planet Stories](https://www.heritage-posters.co.uk/product/planet-stories-spring-1942-cover-art-poster-allen-anderson/)*[magazine](https://www.heritage-posters.co.uk/product/planet-stories-spring-1942-cover-art-poster-allen-anderson/).
+[^note-iabied-ftnt88]: An example can be found in *[Planet Stories](https://www.heritage-posters.co.uk/product/planet-stories-spring-1942-cover-art-poster-allen-anderson/)* [magazine](https://www.heritage-posters.co.uk/product/planet-stories-spring-1942-cover-art-poster-allen-anderson/).
 
 [^note-iabied-ftnt89]: Yes, we realize that by now, the modern internet may have pictures of brawny human men carrying off giant bugs. If those pictures don't exist already, they'll come into existence about twelve and a half seconds after this webpage goes public. But we don't think it was on any magazine covers back then.
 
