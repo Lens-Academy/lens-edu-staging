@@ -30,7 +30,8 @@ Links:
 
 %%
 Week 1 goals:
-- 
+- Goal 1
+- Goal 2
 %%
 # Module: [[../modules/Course M1 Intro, Part 1]]
 # Meeting: Meeting 1 name
