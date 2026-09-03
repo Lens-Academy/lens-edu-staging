@@ -13,17 +13,17 @@ tags:
   - "motivation"
   - work-in-progress
 llm-review:
-  date: 2026-08-27
+  date: 2026-09-03
   model: "sonnet"
-  version: "article-qc-v2"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-27
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+This is a foundational EA piece on scope insensitivity and "shut up and multiply" reasoning. Good discussion prompts: where do learners notice their own care-o-meter failing to scale with numbers, and how do they decide when to trust deliberate calculation over gut feeling? Worth flagging that the essay predates later EA-internal critiques of naive expected-value reasoning, so it pairs well with material presenting the other side.
 
 %%
 
