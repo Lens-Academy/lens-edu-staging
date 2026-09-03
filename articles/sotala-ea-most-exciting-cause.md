@@ -13,12 +13,18 @@ tags:
   - motivation
   - career-choice
   - work-in-progress
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is a short, informal forum post rather than a research piece — good for prompting discussion on framing: does casting EA as "exciting" (vs. "morally obligatory") change how compelling students find it? Worth pairing with Holden Karnofsky's "excited altruism" post it references.
 
 %%
 
@@ -37,5 +43,6 @@ Best of all? This isn't just some fuzzy feelgood thing where you're taking thing
 Here's an extra bonus. At the moment, the core of effective altruism is formed of smart, driven, and caring people from all around the world. When you become an effective altruist and start participating, you are joining a community of some of the most interesting people on Earth.
 
 A lot of people feel like life is meaningless, and that it doesn't offer any purpose that would feel worth pursuing. I've felt like that at times, too. But it's hard to find a purpose whose idea would be more compelling, exciting, or rewarding than that of effective altruism.
-
+{--{"author":"Luc's AI","timestamp":1788447054081}@@
 *This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
+--}
