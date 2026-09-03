@@ -1,7 +1,7 @@
 ---
 title: "Clarifying limitations of time horizon"
 author:
-  - "METR"
+  - "Thomas Kwa"
 source_url: "https://metr.org/notes/2026-01-22-time-horizon-limitations/"
 published: 2026-01-22
 created: 2026-07-02
@@ -9,8 +9,14 @@ accessed: 2026-07-02
 description: "Thomas Kwa responds to some misinterpretations of our time horizon work, and explains limitations and the core finding."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -62,7 +68,7 @@ Therefore, I’d like to clarify some of my beliefs about limitations of our met
         -   If an AI has a 3-year time horizon, does this mean an AI can competently substitute for a human for a 3-year long project with the same level of feedback from a manager, or be able to do the human’s job completely independently? We have no tasks involving multi-turn interaction with a human so there is no right answer.
     -   There is a [good argument](https://www.lesswrong.com/posts/deesrjitvXM4xYGZd/metr-measuring-ai-ability-to-complete-long-tasks?commentId=xQ7cW4WaiArDhchNA) that AGI would have an infinite time horizon and so time horizon will eventually start growing superexponentially. However, the AI Futures timelines model is highly sensitive to exactly how superexponential future time horizon growth will be, which we have little data on. This parameter, “Doubling Difficulty Growth Factor”, can change the date of the first Automated Coder AI between 2028 and 2050.
 
-## Despite these limitations, what conclusions do I still stand by?
+## Despite these limitations, what conclusions do I still stand by? ^despite-limitations-conclusions
 
 -   **Time horizon is a way to convert performance on a benchmark, along with human calibration data, into an intuitive measure of AI capability compared to humans.** Although estimates of time horizon are inherently imprecise, estimating time horizons that range over several orders of magnitude allows us to infer the rate of improvement on software/research tasks over time.
 -   **The most important numbers to estimate were the slope of the long-run trend** (one doubling every 6-7 months) and a linear extrapolation of this trend predicting when AIs would reach 1 month / 167 working hours time horizon (2030), not the exact time horizon of any particular model. I think the paper did well here.
