@@ -6,18 +6,20 @@ source_url: "https://80000hours.org/key-ideas-2023/summary/"
 published: 2021-09-14
 created: 2026-08-29
 accessed: 2026-08-29
-llm-review:
-  date: 2026-08-29
-  model: "sonnet"
-  version: "article-qc-v1.2"
-  source:
-    fetched: 2026-08-29
-    kind: "live"
 description: "TL;DR: Get good at something that lets you effectively contribute to big and neglected global problems. What ultimately makes for an impactful career? You can have more positive impact over the course of your career by aiming to: Help solve a more pressing problem. Many global issues should get more attention, but as individuals we should look for the biggest gaps in existing efforts."
 tags:
   - "article-importer"
----
-
+llm-review:
+  date: {--{"author":"Luc's AI","timestamp":1788443406384}@@2026-08-29--}{++{"author":"Luc's AI","timestamp":1788443406384}@@2026-09-03++}
+  model: "sonnet"
+  version: {--{"author":"Luc's AI","timestamp":1788443406131}@@"article-qc-v1.2"--}{++{"author":"Luc's AI","timestamp":1788443406131}@@"article-qc-v1.3"++}
+  source:
+    fetched: {--{"author":"Luc's AI","timestamp":1788443405858}@@2026-08-29--}{++{"author":"Luc's AI","timestamp":1788443405858}@@2026-09-03++}
+    kind: "live"
+{--{"author":"Luc's AI","timestamp":1788443405594}@@description: "TL;DR: Get good at something that lets you effectively contribute to big and neglected global problems. What ultimately makes for an impactful career? You can have more positive impact over the course of your career by aiming to: Help solve a more pressing problem. Many global issues should get more attention, but as individuals we should look for the biggest gaps in existing efforts."
+tags:
+  - "article-importer"
+--}---
 %%
 Add discussion note here:
 
@@ -29,7 +31,9 @@ Add discussion note here:
 
 ![](https://80000hours.org/wp-content/uploads/2023/05/80000hours_classical_painting_bright_colours_science_scientific_c3d4869e-b078-46d6-a3d8-a667ea84dae9.png)
 
+:::callout {tone="neutral"}
 This article summarises our old ‘key ideas’ series, which we stopped updating in 2023. We’d suggest reading [the summary of our career guide](https://80000hours.org/career-guide/summary/) instead.
+:::
 
 **TL;DR:** Get good at something that lets you effectively contribute to big and neglected global problems.
 
