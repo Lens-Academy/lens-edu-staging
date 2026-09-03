@@ -5,6 +5,7 @@ summary_for_tutor: "The welcome and framing lens for Module 1 ('Foundations: Wha
 title: "Foundations — What Is a Facilitator?"
 tags:
   - facilitator-training
+reading_minutes: 1
 ---
 #### Text
 content:: Before you learn how to facilitate, you need to know what a facilitator actually **is** — and what they aren't.
