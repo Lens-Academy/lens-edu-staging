@@ -9,17 +9,17 @@ description: "PASTA: Process for Automating Scientific and Technological Advance
 tags:
   - "obsidian-web-clipper"
 llm-review:
-  date: 2026-08-28
-  model: "gpt-5.6-terra"
-  version: "article-qc-v1.1"
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-03
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+This is Part 1 of a four-part Cold Takes series; the "PASTA" concept defined here (automation of scientific/technological advancement, distinct from general AI) is used as scaffolding throughout the rest of the series, so it's worth discussing whether students find this framing persuasive before moving to the later, more forecast-heavy posts.
 
 %%
 *Audio also available by searching Stitcher, Spotify, Google Podcasts, etc. for "Cold Takes Audio"*
@@ -87,7 +87,7 @@ In reality, I'd expect training to be faster and more practical due to things li
 
 Developing PASTA will almost certainly be hugely harder and more expensive than it was for AlphaZero. It may require a lot of ingenuity to get around obstacles that exist today (the picture above is surely radically oversimplified, and is there to give basic intuitions). But AI research is simultaneously getting cheaper [^note-karnofsky-8] and better-funded. I'll argue in future pieces that the odds of developing PASTA in the coming decades are substantial.
 
-## Impacts of PASTA
+## Impacts of PASTA ^impacts-of-pasta
 
 ### Explosive scientific and technological advancement ^explosive-scientific-and-technological-advancement
 
@@ -111,7 +111,7 @@ Why doesn't this feedback loop apply to today's computers and AIs? Because today
 
 Additionally: unlike digital copies of humans, PASTA systems might not be attached to their existing identity and personality. A PASTA system might quickly make any edits to its "mind" that made it more effective at pushing science and technology forward. This might (or might not, depending on a lot of details) lead to [recursive self-improvement and an "intelligence explosion."](https://en.wikipedia.org/wiki/Technological_singularity#Background) But even if this *didn't* pan out, simply being as good as humans at making more PASTA systems could cause explosive advancement for the same reasons the [digital people could](https://www.cold-takes.com/how-digital-people-could-change-the-world/#productivity).
 
-### Misaligned AI: mysterious, potentially dangerous objectives
+### Misaligned AI: mysterious, potentially dangerous objectives ^misaligned-ai-mysterious-potentially-dangerous-objectives
 
 If PASTA were developed as outlined [[#^making-pasta|above]], it's possible that we might know *extremely* little about its inner workings.
 
@@ -139,7 +139,7 @@ These are scary possibilities if we are talking about AI systems (or collections
 
 If you're interested in more discussion of whether an AI could or would have its own goals, I'd suggest checking out [Why AI alignment could be hard with modern deep learning](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/) (Cold Takes guest post), [Superintelligence (book)](https://smile.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom-ebook/dp/B00LOOCGB2/), [The case for taking AI seriously as a threat to humanity (Vox article)](https://www.vox.com/future-perfect/2018/12/21/18126576/ai-artificial-intelligence-machine-learning-safety-alignment), [Draft report on existential risk from power-seeking AI (Open Philanthropy analysis)](https://www.alignmentforum.org/posts/HduCjmXTBD4xYTegv/draft-report-on-existential-risk-from-power-seeking-ai) or one of the many other pieces on this topic.[^note-karnofsky-10]
 
-## Conclusion
+## Conclusion ^conclusion
 
 It's hard to predict what a world with PASTA might look like, but two salient possibilities would be:
 
@@ -148,7 +148,7 @@ It's hard to predict what a world with PASTA might look like, but two salient po
 
 The next 3 posts will argue that PASTA is more likely than not to be developed this century.
 
-:::collapse
+:::hide
 **Next in series:** [Why AI alignment could be hard with modern deep learning](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/)
 :::
 
