@@ -29,8 +29,14 @@ accessed: 2026-08-21
 description: "Continuous exposure to AI might reduce the ADR of standard non-AI assisted colonoscopy, suggesting a negative effect on endoscopist behaviour."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -79,6 +85,14 @@ Morgan, E ∙ Arnold, M ∙ Gini, A ∙ et al.
 **Global burden of colorectal cancer in 2020 and 2040: incidence and mortality estimates from GLOBOCAN**
 
 _Gut._ 2023; **72**:338-344
+
+2.
+
+Bretthauer, M ∙ Løberg, M ∙ Wieszczy, P ∙ et al., the NordICC Study Group
+
+**Effect of colonoscopy screening on risks of colorectal cancer and related death**
+
+_N Engl J Med._ 2022; **387**:1547-1556
 
 3.
 
