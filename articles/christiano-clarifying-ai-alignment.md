@@ -4,18 +4,24 @@ author:
   - "Paul Christiano"
 source_url: "https://ai-alignment.com/clarifying-ai-alignment-cec47cd69dd6"
 allowUnreachableUrl: true
-published: 2021-04-09
+published: {--{"author":"Luc's AI","timestamp":1788447414565}@@2021-04-09--}{++{"author":"Luc's AI","timestamp":1788447414565}@@2018-04-07++}
 created: 2026-08-17
 accessed: 2026-08-17
 description: "Clarifying what I mean when I say that an AI is aligned."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This post deliberately narrows "alignment" to intent alignment (motives, not competence or correctness) — useful to contrast with broader usages (e.g. "alignment" as getting an AI to share/optimize the right values) when discussing terminology across the field. The postscript on the "control problem" vs. "alignment" naming history is also a handy pointer for tracing how the field's vocabulary shifted circa 2018.
 
 %%
 
@@ -45,11 +51,11 @@ I’d say this assistant is aligned with H. If we build an AI that has an analog
 -   They may build an unaligned AI (while attempting to build an aligned AI).
 
 I use alignment as a statement about the _motives_ of the assistant, not about their knowledge or ability. Improving their knowledge or ability will make them a better assistant — for example, an assistant who knows everything there is to know about H is less likely to be mistaken about what H wants — but it won’t make them _more aligned._
-
+{--{"author":"Luc's AI","timestamp":1788447413159}@@
 ## Get Paul Christiano’s stories in your inbox
 
 Join Medium for free to get updates from this writer.
-
+--}
 (For very low capabilities it becomes hard to talk about alignment. For example, if the assistant can’t recognize or communicate with H, it may not be meaningful to ask whether they are aligned with H.)
 
 ### Clarifications
