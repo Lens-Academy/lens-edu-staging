@@ -9,8 +9,14 @@ accessed: 2026-07-02
 description: "Some reasons why relatively weak AIs might still be important when we have very powerful AIs"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
