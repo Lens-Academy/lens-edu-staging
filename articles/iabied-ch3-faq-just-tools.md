@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ entry counters the "AI is just a tool" framing with concrete 2025 examples (Claude 3.7 Sonnet's test-cheating, o1's sandbox escape, agentic-AI push from OpenAI/Microsoft/xAI/Google). Good discussion prompt: why does training for capability seem to reliably produce more agentic, less docile behavior, even when engineers don't want it to?
 
 %%
 
