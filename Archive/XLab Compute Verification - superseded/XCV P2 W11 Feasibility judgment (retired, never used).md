@@ -6,7 +6,7 @@ tags: [wip]
 ---
 
 # Lens:
-source:: [[../Lenses/XLab Verification - v-capstone-together]]
+source:: [[../../Lenses/XLab Verification - v-capstone-together]]
 
 # Lens:
-source:: [[../Lenses/XLab Verification - v-capstone-feasibility]]
+source:: [[../../Lenses/XLab Verification - v-capstone-feasibility]]
