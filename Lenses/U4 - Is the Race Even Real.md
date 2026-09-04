@@ -31,7 +31,7 @@ commit to your own number first.
 The sections the author marked optional and his supplementary evidence sit collapsed
 below, if you want to follow the detective work. And if you finish this lens wanting a
 view from inside Chinese policy,
-the Carnegie piece [[../articles/sheehan-how-china-views-ai-risks-and-what-to-do-about-them]]
+the Carnegie piece [How China Views AI Risks, and What to Do About Them](https://carnegieendowment.org/research/2025/10/how-china-views-ai-risks-and-what-to-do-about-them)
 shows what Chinese AI policy looks like when you read it directly.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
