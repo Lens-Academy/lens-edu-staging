@@ -92,4 +92,4 @@ The MIRI draft agreement this task red-lines is cited without a link in this les
 
 XLab. "2.3.5 From intelligence lead to verification action." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-action)
 *The source lesson this page adapts, including the red-line written output.*
-:::
+:::{>>{"author":"Elias's AI","timestamp":1788521470158}@@XLab's lesson named a "Definition 17" and separate "noninterference" and "no-deliberate-concealment" articles; none of those labels exists in arXiv:2511.10783v3. Corrected here and in 2.3.4 to Article II — Definitions item 17 and Article X ¶1(b)(i) to (iii), which 2.3.4 now quotes in full.<<}
