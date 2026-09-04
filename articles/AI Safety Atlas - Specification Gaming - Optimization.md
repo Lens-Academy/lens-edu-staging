@@ -41,10 +41,10 @@ Optimization power plays a crucial role in reward hacking. Reward hacking occurs
 
 ## Goodhart's Law ^goodharts-law
 
-{--{"author":"Luc's AI","timestamp":1788447300822}@@**Definition: Goodhart’s Law**--}{++{"author":"Luc's AI","timestamp":1788447300822}@@:::callout {title="Definition 6.5++} — {++{"author":"Luc's AI","timestamp":1788447300822}@@Goodhart's Law" tone="blue"}
-++}When a measure becomes a target, it ceases to be a good measure.
-{++{"author":"Luc's AI","timestamp":1788447300822}@@:::
-++}
+:::callout {title="Definition 6.5 — Goodhart's Law" tone="blue"}
+When a measure becomes a target, it ceases to be a good measure.
+:::
+
 This notion initially stems from the work of Charles Goodhart in economic theory. However, it has emerged as one of the primary challenges in many different fields including AI alignment today.
 
 To illustrate this concept, the following is a story of a Soviet nail factory. The factory received instructions to produce as many nails as possible, with rewards for high output and penalties for low output. Within a few years, the factory had significantly increased its nail production—tiny nails that were essentially thumbtacks and proved impractical for their intended purpose. Consequently, the planners shifted the incentives: they decided to reward the factory based on the total weight of the nails produced. Within a few years, the factory began producing large, heavy nails—essentially lumps of steel—that were equally ineffective for nailing things.

@@ -25,7 +25,7 @@ Add discussion note here:
 
 %%
 
-{--{"author":"Luc's AI","timestamp":1788448327070}@@![Hochel stading--}{++{"author":"Luc's AI","timestamp":1788448327070}@@![Hochul standing++} behind a dais, with a hand raised](https://assets.carnegieendowment.org/_/eyJrZXkiOiJpbWFnZXMva2F0aHktaG9jaHVsLW5ldy15b3JrLTIwMjYtR2V0dHlJbWFnZXMtMjI1NzA3Nzg5NWVkaXRlZC5qcGcifQ==)
+![Hochul standing behind a dais, with a hand raised](https://assets.carnegieendowment.org/_/eyJrZXkiOiJpbWFnZXMva2F0aHktaG9jaHVsLW5ldy15b3JrLTIwMjYtR2V0dHlJbWFnZXMtMjI1NzA3Nzg5NWVkaXRlZC5qcGcifQ==)
 
 Hochul speaking in Albany in January. (Photo by Alejandra Villa Loarca/Newsday RM via Getty Images)
 

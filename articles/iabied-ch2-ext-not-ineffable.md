@@ -116,7 +116,7 @@ It also seems relevant that there already exist fully understood AIs that are su
 
 When it comes to LLMs like ChatGPT, it's not entirely clear that there *could* exist a complete and *short* description of how they work. LLMs are large enough that they're allowed to have similar behavior for *many different contingent reasons*, if (for example) the machinery that makes that behavior happen occurs in a thousand different places inside the LLM. Understanding an LLM's [architecture](https://ifanyonebuildsit.com/2/a-full-description-of-an-llm) doesn't even begin to tell us about the roles played by the different inscrutable weights in the trained model.
 
-ChatGPT could turn out to be hard for scientists to understand, even after decades of study. But the existence of ChatGPT doesn't mean that intelligence has {--{"author":"Luc's AI","timestamp":1788454765414}@@tobe--}{++{"author":"Luc's AI","timestamp":1788454765414}@@to be++} messy in order to work. It just means that it would be an extremely bad idea to try to scale something like ChatGPT all the way to superintelligence, for reasons we'll cover in later chapters of the book.
+ChatGPT could turn out to be hard for scientists to understand, even after decades of study. But the existence of ChatGPT doesn't mean that intelligence has to be messy in order to work. It just means that it would be an extremely bad idea to try to scale something like ChatGPT all the way to superintelligence, for reasons we'll cover in later chapters of the book.
 
 The fact that one particular mind is messy doesn't mean that it's impossible to understand intelligence. It doesn't even mean that it's impossible to understand ChatGPT someday.
 

@@ -40,11 +40,11 @@ For a long time, there was no hope — only the bitter, hollow endurance of surv
 
 In China, in the 15th century, humanity began to fight back.
 
-It was observed that survivors of the mad god’s curse would never be touched again: {--{"author":"Luc's AI","timestamp":1788443203822}@@They--}{++{"author":"Luc's AI","timestamp":1788443203822}@@they++} had taken a portion of that power into themselves, and were so protected from it. Not only that, but this power could be shared by consuming a remnant of the wounds. There was a price, for you could not take the god’s power without first defeating it — but a smaller battle, on humanity’s terms. By the 16th century, the technique {--{"author":"Luc's AI","timestamp":1788443203822}@@spread--}{++{"author":"Luc's AI","timestamp":1788443203822}@@spread,++} to India, across Asia, the Ottoman Empire and, in the 18th century, Europe. In 1796, a more powerful technique was discovered by [Edward Jenner](http://en.wikipedia.org/wiki/Edward_Jenner).
+It was observed that survivors of the mad god’s curse would never be touched again: they had taken a portion of that power into themselves, and were so protected from it. Not only that, but this power could be shared by consuming a remnant of the wounds. There was a price, for you could not take the god’s power without first defeating it — but a smaller battle, on humanity’s terms. By the 16th century, the technique spread, to India, across Asia, the Ottoman Empire and, in the 18th century, Europe. In 1796, a more powerful technique was discovered by [Edward Jenner](http://en.wikipedia.org/wiki/Edward_Jenner).
 
 An idea began to take hold: Perhaps the ancient god could be killed.
 
-A whisper became a voice; a voice became a call; a call became a battle cry, sweeping across villages, cities, nations. Humanity began to cooperate, spreading the protective power across the globe, dispatching masters of the craft to protect whole populations. People who had once been sworn enemies joined in {--{"author":"Luc's AI","timestamp":1788443203480}@@a --}common cause for this one battle. Governments mandated that all citizens protect themselves, for giving the ancient enemy a single life would put millions in danger.
+A whisper became a voice; a voice became a call; a call became a battle cry, sweeping across villages, cities, nations. Humanity began to cooperate, spreading the protective power across the globe, dispatching masters of the craft to protect whole populations. People who had once been sworn enemies joined in common cause for this one battle. Governments mandated that all citizens protect themselves, for giving the ancient enemy a single life would put millions in danger.
 
 And, inch by inch, humanity drove its enemy back. Fewer friends wept; fewer neighbors were crippled; fewer parents had to bury their children.
 
@@ -58,7 +58,7 @@ They found none.
 
 35 years ago, on December 9th, 1979, humanity declared victory.
 
-This one evil, the horror from beyond memory, the monster that took 500 million people from this {--{"author":"Luc's AI","timestamp":1788443203243}@@world,--}{++{"author":"Luc's AI","timestamp":1788443203243}@@world —++} was destroyed.
+This one evil, the horror from beyond memory, the monster that took 500 million people from this world — was destroyed.
 
 You are a member of the species that did that. Never forget what we are capable of, when we band together and declare battle on what is broken in the world.
 

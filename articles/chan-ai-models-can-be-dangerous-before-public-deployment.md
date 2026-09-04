@@ -10,16 +10,13 @@ description: "Why pre-deployment testing is not an adequate framework for AI ris
 tags:
   - "article-importer"
 llm-review:
-  date: {--{"author":"Luc's AI","timestamp":1788443737720}@@2026-08-29--}{++{"author":"Luc's AI","timestamp":1788443737720}@@2026-09-03++}
+  date: 2026-09-03
   model: "sonnet"
-  version: {--{"author":"Luc's AI","timestamp":1788443737497}@@"article-qc-v1.2"--}{++{"author":"Luc's AI","timestamp":1788443737497}@@"article-qc-v1.3"++}
+  version: "article-qc-v1.3"
   source:
-    fetched: {--{"author":"Luc's AI","timestamp":1788443737295}@@2026-08-29--}{++{"author":"Luc's AI","timestamp":1788443737295}@@2026-09-03++}
+    fetched: 2026-09-03
     kind: "live"
-{--{"author":"Luc's AI","timestamp":1788443737075}@@description: "Why pre-deployment testing is not an adequate framework for AI risk management"
-tags:
-  - "article-importer"
---}---
+---
 %%
 Add discussion note here:
 

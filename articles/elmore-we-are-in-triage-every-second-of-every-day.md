@@ -29,7 +29,7 @@ This post leans on emotionally heavy real-world cases (alleged mercy killings af
 
 %%
 
-# We {--{"author":"Luc's AI","timestamp":1788443840597}@@Are--}{++{"author":"Luc's AI","timestamp":1788443840597}@@are++} in {--{"author":"Luc's AI","timestamp":1788443840597}@@Triage Every Second--}{++{"author":"Luc's AI","timestamp":1788443840597}@@triage every second++} of {--{"author":"Luc's AI","timestamp":1788443840597}@@Every Day--}{++{"author":"Luc's AI","timestamp":1788443840597}@@every day++}
+# We are in triage every second of every day
 
 (Cross-posted from [this blog post](https://mhollyelmoreblog.wordpress.com/2016/08/26/we-are-in-triage-every-second-of-every-day/).)
 

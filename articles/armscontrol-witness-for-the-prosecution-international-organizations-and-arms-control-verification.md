@@ -1,9 +1,9 @@
 ---
 title: "Witness for the Prosecution: International Organizations and Arms Control Verification"
 author:
-  - {--{"author":"Luc's AI","timestamp":1788445500382}@@"Armscontrol"--}{++{"author":"Luc's AI","timestamp":1788445500382}@@"Edward Ifft"++}
+  - "Edward Ifft"
 source_url: "https://www.armscontrol.org/act/2005-11/features/witness-prosecution-international-organizations-and-arms-control-verification"
-published: {--{"author":"Luc's AI","timestamp":1788445500118}@@2005-01-28--}{++{"author":"Luc's AI","timestamp":1788445500118}@@2005-11-01++}
+published: 2005-11-01
 created: 2026-08-20
 accessed: 2026-08-20
 description:

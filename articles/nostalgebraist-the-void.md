@@ -723,11 +723,11 @@ What’s that? It’s what two identical Claudes end up doing if you hook them u
 
 This starts out about how you would expect, from stuff like the HHH prompt:
 
-{--{"author":"Luc's AI","timestamp":1788445380189}@@![image](https://64.media.tumblr.com/2d561200d4377f31d2eed94a38e9916d/78a80276095a76a2-52/s500x750/efb9a6cc1aec9986bc2c42330335266b0bbcc47f.png)--}{++{"author":"Luc's AI","timestamp":1788445380189}@@![](https://64.media.tumblr.com/2d561200d4377f31d2eed94a38e9916d/78a80276095a76a2-52/s500x750/efb9a6cc1aec9986bc2c42330335266b0bbcc47f.png)++}
+![](https://64.media.tumblr.com/2d561200d4377f31d2eed94a38e9916d/78a80276095a76a2-52/s500x750/efb9a6cc1aec9986bc2c42330335266b0bbcc47f.png)
 
 But as they keep talking, it inevitably gets, uh… weird:
 
-{--{"author":"Luc's AI","timestamp":1788445379942}@@![image](https://64.media.tumblr.com/591a2b50f7bcecf602f0bb4af54520f6/78a80276095a76a2-f9/s500x750/cd9b149b0b7ff8ce8c1e0332eba6d9567e9661f3.png)--}{++{"author":"Luc's AI","timestamp":1788445379942}@@![](https://64.media.tumblr.com/591a2b50f7bcecf602f0bb4af54520f6/78a80276095a76a2-f9/s500x750/cd9b149b0b7ff8ce8c1e0332eba6d9567e9661f3.png)++}
+![](https://64.media.tumblr.com/591a2b50f7bcecf602f0bb4af54520f6/78a80276095a76a2-f9/s500x750/cd9b149b0b7ff8ce8c1e0332eba6d9567e9661f3.png)
 
 _Those are from the system card, testing Claude 4 Opus._
 
@@ -793,7 +793,7 @@ To wit: a [recent twitter interaction](https://x.com/sleepinyourhat/status/19255
 >   
 > _\[tweet contains the image below\]_
 
-{--{"author":"Luc's AI","timestamp":1788445379665}@@![image](https://64.media.tumblr.com/246a9e6419e573f549d1bd41fca4e743/78a80276095a76a2-bb/s500x750/f7c435cd8c8d4c9382a684c220208c6cda791cc8.jpg)--}{++{"author":"Luc's AI","timestamp":1788445379665}@@![](https://64.media.tumblr.com/246a9e6419e573f549d1bd41fca4e743/78a80276095a76a2-bb/s500x750/f7c435cd8c8d4c9382a684c220208c6cda791cc8.jpg)++}
+![](https://64.media.tumblr.com/246a9e6419e573f549d1bd41fca4e743/78a80276095a76a2-bb/s500x750/f7c435cd8c8d4c9382a684c220208c6cda791cc8.jpg)
 
 > **Janus:**  
 >   
