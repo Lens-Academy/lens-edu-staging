@@ -9,12 +9,18 @@ created: 2026-03-02
 description: "Suppose you want to build a robot to achieve some real-world goal for you—a goal that requires the robot to learn for itself and figure out a lot of…"
 tags:
   - "obsidian-web-clipper"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is a technical AI alignment/agent-foundations piece (MIRI/LessWrong, 2018) aimed at readers already comfortable with Bayesian probability, game theory, and basic computability/logic (e.g. Löb's theorem, Turing machines). It's a good discussion prompt for how "dualistic" assumptions (agent cleanly separated from environment) break down for embedded agents, but expect to pre-teach or link out on several prerequisite concepts.
 
 %%
 
@@ -68,7 +74,9 @@ In addition to hazards in her external environment, Emmy is going to have to wor
 
 Emmy is confusing, so let’s go back to Alexei. Marcus Hutter’s [AIXI](https://arxiv.org/abs/1202.6153) framework gives a good theoretical model for how agents like Alexei work:
 
-ak:\=argmaxak∑okrk…maxam∑omrm\[rk+…+rm\]∑q:U(q,a1..am)\=o1r1..omrm2−ℓ(q)
+{--{"author":"Luc's AI","timestamp":1788541545220}@@ak:\=argmaxak∑okrk…maxam∑omrm\[rk+…+rm\]∑q:U(q,a1..am)\=o1r1..omrm2−ℓ(q)--}{++{"author":"Luc's AI","timestamp":1788541545220}@@$$
+a_k := \arg\max_{a_k}\sum_{o_k r_k} \ldots \max_{a_m}\sum_{o_m r_m} [r_k+\ldots+r_m] \sum_{q\,:\,U(q,a_1..a_m)=o_1r_1..o_mr_m} 2^{-\ell(q)}
+$$++}
 
 The model has an agent and an environment that interact using actions, observations, and rewards. The agent sends out an action a, and then the environment sends out both an observation o and a reward r. This process repeats at each time k...m.
 
@@ -155,8 +163,10 @@ But remember: decision theory, embedded world-models, robust delegation, and sub
 
 Decision theory and artificial intelligence typically try to compute something resembling
 
-argmaxa ∈ Actions  f(a).
-
+{--{"author":"Luc's AI","timestamp":1788541544852}@@argmaxa ∈ Actions  --}{++{"author":"Luc's AI","timestamp":1788541544852}@@$$
+\underset{a \,\in\, Actions}{\text{argmax}} \; ++}f(a).
+{++{"author":"Luc's AI","timestamp":1788541544852}@@$$
+++}
  I.e., maximize some function of the action. This tends to assume that we can detangle things enough to see outcomes as a function of actions.
 
 For example, AIXI represents the agent and the environment as separate units which interact over time through clearly defined i/o channels, so that it can then choose actions maximizing reward.
