@@ -10,8 +10,14 @@ description: "A pdf version of this report is available here. …"
 read-time: "68 minutes"
 tags:
   - "obsidian-web-clipper"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -173,13 +179,13 @@ We can construct a simple definition of consequentialist goals based on the idea
 
 Here the actions affect the future state which affects success at achieving the goal; the only way the actions affect the goal is via the state.
 
-If a0..t  are early actions, st..t+k are a short sequence of states in the future[^note-gillen-barnett-13] and g is some internal representation of the outcome-goal in an AI, then a consequentialist goal has a property like MI(a0..t;g|st..t+k)≤ϵ.[^note-gillen-barnett-14] Given that we know what the future state is, knowing what the actions were doesn’t tell us any more about whether the goal was achieved (note this is an identical statement to the causal diagram above).
+If $a_{0..t}$  are early actions, $s_{t..t+k}$ are a short sequence of states in the future[^note-gillen-barnett-13] and g is some internal representation of the outcome-goal in an AI, then a consequentialist goal has a property like $MI(a_{0..t}; g \mid s_{t..t+k}) \le \epsilon$.[^note-gillen-barnett-14] Given that we know what the future state is, knowing what the actions were doesn’t tell us any more about whether the goal was achieved (note this is an identical statement to the causal diagram above).
 
 ### Non-consequentialist constraints
 
 There are also ways to specify behavior that don’t look like taking actions to achieve future outcomes, and instead are more like constraints on actions and intermediate states. Examples of such constraints: Always act “kindly”, or always follow a particular high-level procedure while completing a specific task, or always do a particular action upon particular observation. Humans also have plenty of similar shallow constraints; for example, disgust reactions, flinching, fear of heights. More [deontological](https://plato.stanford.edu/entries/ethics-deontological/) ethical prohibitions, like “don’t kill”, are also an example.
 
-One could define such non-consequentialist goal specification c as a variable that is primarily dependent on short term behavior and state, and not strongly dependent on the outcomes in the future, i.e. MI(st..t+k;c|a0..t,s0..t)≤ϵ. Here c is defined by modeling the agent as choosing actions that result in success according to c. Conditioning on the actions and states in the short term, the final states don’t give you additional information about whether the AI successfully followed its constraints.
+One could define such non-consequentialist goal specification c as a variable that is primarily dependent on short term behavior and state, and not strongly dependent on the outcomes in the future, i.e. {--{"author":"Luc's AI","timestamp":1788542263973}@@MI(st..t+k;c|a0..t,s0..t)≤ϵ.--}{++{"author":"Luc's AI","timestamp":1788542263973}@@$MI(s_{t..t+k}; c \mid a_{0..t}, s_{0..t}) \le \epsilon$.++} Here c is defined by modeling the agent as choosing actions that result in success according to c. Conditioning on the actions and states in the short term, the final states don’t give you additional information about whether the AI successfully followed its constraints.
 
  ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/GfZfDHZHCuYwrHGCd/rkzb6xxo2yiqpksvcl5j)
 
