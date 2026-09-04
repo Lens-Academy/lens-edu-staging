@@ -7,8 +7,8 @@ tags: [wip]
 
 # Lens: About This Course
 id:: 65e6f4de-e791-4945-ae34-b7879238e00d
-tldr:: The first course argued that a slowdown agreement would have to be checkable. This one is about the checking: what cloud records, satellites, insiders and inspections can honestly establish, what a determined evader does to each of them, and how to judge whether a mechanism is ready to carry a rule.
-summary_for_tutor:: Orientation page for the second course in the compute verification pair. The learner reads what these six weeks cover, that the first course is a prerequisite, that the capstone project is a separate course afterwards, and that the material is an alpha from XLab with a feedback form. Do not teach later content in detail; if asked, point to the week that covers it. If a learner has not done the first course, say plainly that this one starts from its results (mechanism criteria, the actors and supply chain, and the hardware mechanisms) and does not restate them.
+tldr:: The first course argued that a slowdown agreement would have to be checkable. This one is about the checking: what cloud records, satellites, insiders and inspections can honestly establish, and what a determined evader does to each of them.
+summary_for_tutor:: Orientation page for the second course in the compute verification pair. The learner reads what these five weeks cover, that the first course is a prerequisite, that the capstone is a separate course afterwards which begins with the feasibility judgments, and that the material is an alpha from XLab with a feedback form. Do not teach later content in detail; if asked, point to the week that covers it. If a learner has not done the first course, say plainly that this one starts from its results (mechanism criteria, the actors and supply chain, and the hardware mechanisms) and does not restate them.
 #### Text
 content::
 \## What this course is about
@@ -37,14 +37,10 @@ Where cloud oversight runs out, and what can be seen without the other side's co
 The cheapest verification tools to deploy and the easiest to fool. Who could know, whether they would tell, and what an institution can conclude from what they say: insiders and source credibility, whistleblower statutes and the route a report has to survive, audits and inspections and the access ceiling on any finding, and finally the institutional question of who finds, who judges, who enforces, and against what standard.
 :::
 
-:::callout {title="Week 9: A low-trust verification architecture" tone="blue"}
-One long close reading. A published working paper proposes a full technical system for verifying AI compute use between parties that do not trust each other. You reconstruct its argument, trace evidence from chip to verdict, and find the step where the conclusion outruns the proof.
+:::callout {title="Week 9: Covert development and the low-trust architecture" tone="blue"}
+The adversarial turn, then one long close reading. First a worked case: an evasion built by a red team and taken apart by a blue team, with the standard that operations are made inconclusive rather than invisible. Then a published working paper that proposes a full technical system for verifying AI compute use between parties who do not trust each other. You reconstruct its argument, trace evidence from chip to verdict, and find the step where the conclusion outruns the proof.
 :::
 
-:::callout {title="Week 10: Covert development and evasion" tone="blue"}
-The adversarial view of everything you have read. A worked case of an evasion built and then taken apart, why defining cheating comes before detecting it, a taxonomy of ten routes around an agreement, and a written expert review that asks which obligations of a draft treaty a proposed verification system could actually carry, and which it cannot touch.
-:::
-
-:::callout {title="Week 11: Feasibility judgment" tone="blue"}
-Mechanisms age; the skill of judging them does not. You check the bets you placed earlier against a reference map, learn four questions that turn "is it feasible?" into an answer, and write a defended ranking of the mechanisms. That memo is what the capstone course builds on.
+:::callout {title="Week 10: Evasion routes and the red team review" tone="blue"}
+Why defining cheating comes before detecting it, why layered defences only work when the layers fail differently, and a taxonomy of ten routes around an agreement. The week ends in the written output the course builds to: an expert review deciding which obligations of a draft treaty last week's verification system could actually carry, and which it cannot touch.
 :::

@@ -30,7 +30,7 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification Part 2 W09 Covert development and the low-trust architecture]]
 
-# Meeting: Reviewing the Low-Trust Architecture
+# Meeting: Covert Development and the Architecture Review
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification Part 2 W10 Evasion routes and the red team review]]
