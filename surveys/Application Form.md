@@ -16,12 +16,6 @@ short:: true
 required:: true
 
 #### Question
-key:: last_name
-content:: Last name
-short:: true
-required:: true
-
-#### Question
 key:: email
 content:: Email address
 short:: true
