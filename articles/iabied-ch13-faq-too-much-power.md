@@ -7,17 +7,23 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-#### The power to ban dangerous technology is already vested in governments.
+#### The power to ban dangerous technology is already vested in governments. ^the-power-to-ban-dangerous-technology-is-already-vested-in-governments
 
-Banning AI research on the path to smarter-than-human AI wouldn't make much of a difference with regard to state power. Governments legislate and regulate an enormous number of things. Restricting a single research program is potentially a big deal *to the AI industry*, but it's a drop in the bucket *to governments* and to society, which are accustomed to state involvement in many parts of life, and which have a precedent of banning dangerous technology such as chemical weapons.
+Banning AI research on the path to smarter-than-human AI wouldn't make much of a difference with regard to state power. Governments legislate and regulate an enormous number of things. Restricting a single research program is potentially a big deal *to the AI industry*, but it's a drop in the bucket *to governments* and to society, which are accustomed to state involvement in many parts of life, and which have a precedent of banning dangerous technology such as chemical weapons.[^note-treaties-bind-governments-too]
 
 Banning one additional tech isn't going to plunge the world into totalitarianism, any more than nuclear arms treaties led to totalitarianism.
 
@@ -26,3 +32,5 @@ This isn't to say that it's *no big deal* to ban a technology. We don't think th
 If humanity decided to put a stop to AI research and development today, the ban would not need to be particularly invasive. Today, creating a cutting-edge AI requires an extraordinary number of highly specialized computer chips drawing huge amounts of electrical power.
 
 Maybe in ten years it will be possible to do meaningful AI development on a consumer laptop, *if* humanity allows further improvements to computer chips and further research into AI algorithms. But humanity does not need to let that happen. Governments limiting AI R&D do not need to be any more invasive to the average person's life than governments controlling the proliferation of nuclear weapons technology -- so long as the world wakes up to the situation we're in and puts a stop to things *now*.
+
+[^note-treaties-bind-governments-too]: Keep in mind that we advocate for treaties under which *governments* can't build superintelligence, either. We aren't calling for a powerful technology to be built by state actors instead of corporations; we're calling for a lethally dangerous technology to *not be built at all*, at least in anything like today's world.
