@@ -6,18 +6,25 @@ author:
 published: 2022-06-15
 created: 2026-02-13
 description: "Nate Soares argues that one of the core problems with AI alignment is that an AI system's capabilities will likely generalize to new domains much fas…"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This post coined "sharp left turn" as a term of art in AI safety discourse and is frequently cited as the canonical statement of that concern; the evolution/IGF analogy is offered as an intuition pump rather than a formal argument, and later posts (linked by Soares as "here" and cross-referenced elsewhere on LessWrong) push back on how strong that analogy actually is. Worth pairing with a rebuttal (e.g. Quintin Pope's "Evolution provides no evidence for the sharp left turn") for balance.
 
 %%
-:::collapse
-(*This post was factored out of a larger post that I (Nate Soares) wrote, with help from Rob Bensinger, who also rearranged some pieces and added some text to smooth things out. I'm not terribly happy with it, but am posting it anyway (or, well, having Rob post it on my behalf while I travel) on the theory that it's better than nothing.*)
-:::
-
+{--{"author":"Luc's AI","timestamp":1788542466650}@@:::collapse
+--}(*This post was factored out of a larger post that I (Nate Soares) wrote, with help from Rob Bensinger, who also rearranged some pieces and added some text to smooth things out. I'm not terribly happy with it, but am posting it anyway (or, well, having Rob post it on my behalf while I travel) on the theory that it's better than nothing.*)
+{--{"author":"Luc's AI","timestamp":1788542466427}@@:::--}
+{++{"author":"Luc's AI","timestamp":1788542466427}@@---
+++}
 I expect navigating the acute risk period to be tricky for our civilization, for a number of reasons. Success looks to me to require clearing a variety of technical, sociopolitical, and moral hurdles, and while in principle sufficient mastery of solutions to the technical problems might substitute for solutions to the sociopolitical and other problems, it nevertheless looks to me like we need a lot of things to go right.
 
 Some sub-problems look harder to me than others. For instance, people are still regularly surprised when I tell them that I think the hard bits are much more technical than moral: it looks to me like figuring out how to aim an AGI at all is harder than figuring out where to aim it. [^note-soares-1]
@@ -34,7 +41,7 @@ What undermines my hope is that nobody seems to be working on the hard bits, and
 
 Below, I'll attempt to sketch out what I mean by "the hard bits" of the alignment problem. Although these look hard, I’m a believer in the capacity of humanity to solve technical problems at this level of difficulty when we put our minds to it. My concern is that I currently don’t think the field is *trying* to solve this problem. My hope in writing this post is to better point at the problem, with a follow-on hope that this causes new researchers entering the field to attack what seem to me to be the central challenges head-on.
 
-## Discussion of a problem
+## Discussion of a problem ^discussion-of-a-problem
 
 On my model, one of the most central technical challenges of alignment—and one that every viable alignment plan will probably need to grapple with—is the issue that capabilities generalize better than alignment.
 
@@ -83,7 +90,7 @@ Perhaps this is not convincing; perhaps to convince you we'd need to go deeper i
 
 Stating it again, in summary: my position is that capabilities generalize further than alignment (once capabilities start to generalize real well (which is a thing I predict will happen)). And this, by default, ruins your ability to direct the AGI (that has slipped down the capabilities well), and breaks whatever constraints you were hoping would keep it corrigible. And addressing the problem looks like finding some way to either keep your system aligned through that sharp left turn, or render it aligned afterwards.
 
-In an upcoming post (**edit**: [here](https://www.lesswrong.com/s/v55BhXbpJuaExkpcD/p/3pinFH3jerMzAvmza)), I’ll say more about how it looks to me like  ~nobody is working on this particular hard problem, by briefly reviewing a variety of current alignment research proposals. In short, I think that the field’s current range of approaches nearly all assume this problem away, or direct their attention elsewhere.  
+In an upcoming post (**edit**: {--{"author":"Luc's AI","timestamp":1788542465915}@@[here](https://www.lesswrong.com/s/v55BhXbpJuaExkpcD/p/3pinFH3jerMzAvmza)),--}{++{"author":"Luc's AI","timestamp":1788542465915}@@[here](https://www.lesswrong.com/posts/3pinFH3jerMzAvmza/on-how-various-plans-miss-the-hard-bits-of-the-alignment)),++} I’ll say more about how it looks to me like  ~nobody is working on this particular hard problem, by briefly reviewing a variety of current alignment research proposals. In short, I think that the field’s current range of approaches nearly all assume this problem away, or direct their attention elsewhere.  
  
 
 [^note-soares-1]: Furthermore, figuring where to aim it looks to me like more of a technical problem than a moral problem. Attempting to manually specify the nature of goodness is a doomed endeavor, of course, but that's fine, because we can instead specify processes for figuring out (the coherent extrapolation of) what humans value. Which still looks prohibitively difficult as a goal to give humanity's first AGI (which I expect to be deployed under significant time pressure), mind you, and I further recommend aiming humanity's first AGI systems at simple limited goals that end the acute risk period and then cede stewardship of the future to some process that can reliably do the "aim minds towards the right thing" thing. So today's alignment problems are a few steps removed from tricky moral questions, on my models.
