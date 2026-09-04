@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is a supplementary endnote to Chapter 6 of *If Anyone Builds It, Everyone Dies*, offered as examples supporting a claim made there. Readers arriving without that chapter's context should note the point being illustrated: a mechanistic understanding of a system (here, human vision) lets engineers deliberately produce effects — like these illusions — that trial-and-error tinkering would be unlikely to stumble on, an analogy the book applies to AI capabilities rather than vision science.
 
 %%
 In Chapter 6, we said that researchers have used the modern understanding of human visual processing and the visual cortex to come up with new optical illusions — illusions that could not have been produced fifty years ago, except by unlikely accident. Below, we cite a few representative examples.
