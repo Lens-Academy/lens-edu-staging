@@ -7,15 +7,21 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-#### Yes.
+#### Yes. ^yes
 
 Some of the unique features of the AI alignment challenge will make it easier than, say, engineering a nuclear power plant. Other features will make it harder. On the whole, nuclear weapons and nuclear power plants seem dramatically simpler to manage than smarter-than-human AI.
 
