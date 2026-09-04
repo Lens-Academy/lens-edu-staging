@@ -115,7 +115,7 @@ required:: true
 
 #### Question
 key:: location
-content:: Where are you based most of the time (e.g. Oxford, United Kingdom)? You can name a few places if you are meaningfully located there.
+content:: Where are you based most of the time (City, Country)? You can name a few places if you are meaningfully located there.
 short:: true
 
 #### Text
