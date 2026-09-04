@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+The chapter leans on the *Sphex* wasp anecdote as a teaching example, but per endnote [1] the authors flag that the "wasp always repeats the whole script" version popularized among computer scientists dropped Fabre's own caveat that a second colony learned to skip the repeated step after only two or three tries. Worth highlighting this nuance in discussion, since the anecdote is frequently retold in a stronger (and less accurate) form than the one given here.
 
 %%
 
