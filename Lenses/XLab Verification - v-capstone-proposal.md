@@ -22,7 +22,7 @@ A proposal is not a promise. It is a bet you can lose gracefully. At the start o
 - **Deliverable and done.** Format and length, then the three things the deliverable must contain before you would hand it over. Start from the brief's deliverable line if you took one from the bank; the bank says "two-page regime spec plus a one-page evasion annex", you say what goes in each page.
 - **Crappy version, realistic version.** The crappy version is what you can produce in your first 90-minute session this week, using only what you already know. It is allowed to be embarrassing. The realistic version is what you will deliver in week 5 if nothing goes unusually well. Write both; the gap between them is your plan.
 - **Inputs and unknowns.** What you carry in from the taught courses (your defended-ranking memo, a mechanism dossier, a red-team table), which two or three sources you start from, and the two things you do not know yet that could sink the project. The second half of this week exists to find those out.
-- **Hours.** The brief declares its own effort, 10 to 22 hours across the bank. This course gives you about 15 hours of project time at the default pace (see the course overview). If your brief asks for more, say now where the extra comes from: a partner, more hours a week, or a smaller realistic version.
+- **Hours.** The brief declares its own effort, 10 to 22 hours across the bank. This course gives you about 13 to 14 hours of project time across weeks 2 to 5 at the default pace (see the course overview). If your brief asks for more, say now where the extra comes from: a partner, more hours a week, or a smaller realistic version.
 
 :::callout {title="Illustrative example (made up, deliberately rough)" tone="neutral" collapse="closed"}
 Brief: "Does Switching Off the Cooling Switch Off the Training?" from the bank.
@@ -35,9 +35,9 @@ Brief: "Does Switching Off the Cooling Switch Off the Training?" from the bank.
 
 **Realistic version (week 5).** The table with every row I can source, rough magnitudes where I can compute them, an honest "unknown" where I cannot, and the two-page note.
 
-**Inputs and unknowns.** From the taught courses: my defended-ranking memo rated physical-layer inspection as durable but narrow; this project is the narrowness made concrete. Sources: the two listed on the brief, plus whatever the hardware-layer lessons cited on thermal signatures. Unknowns that could sink it: whether any public source gives numbers on running accelerators with the plant off, and whether the answer differs so much between cooling designs that one table cannot hold it. Week 2 plan: two hours of source hunting before writing anything else.
+**Inputs and unknowns.** From the taught courses: my defended-ranking memo rated physical-layer inspection as durable but narrow; this project is the narrowness made concrete. Sources: the two listed on the brief, plus whatever the hardware-layer lessons cited on thermal signatures. Unknowns that could sink it: whether any public source gives numbers on running accelerators with the plant off, and whether the answer differs so much between cooling designs that one table cannot hold it. Second session this week: ninety minutes of source hunting before writing anything else.
 
-**Hours.** Brief says 12 to 18. I have about 4 hours a week. Plan: 1.5 / 4 / 4 / 3 / 2.5. If I am behind in week 3, I drop the countermeasure column and deliver claim → observable → evasion only.
+**Hours.** Brief says 12 to 18. I have about 4 hours a week. Plan across weeks 2 to 5: 3 / 4 / 3.5 / 3. If I am behind at the draft handoff, I drop the countermeasure column and deliver claim → observable → evasion only.
 :::
 
 #### Question: Open
@@ -72,8 +72,8 @@ id:: 98bf1844-5780-4bc8-9cd0-82a3b2decdd3
 content::
 \## 4. Inputs and unknowns
 
-What do you carry in from the taught courses? Start with your defended-ranking memo from the feasibility lens: which of its judgments does this project build on or test? Which two or three sources will you start from (the brief's own sources count)? Then the two things you do not yet know that could sink the project, and how you will find out in week 2.
-assessment-instructions:: Give full credit when the answer names something specific from the learner's own earlier work (a memo judgment, a dossier, a red-team result), two or three starting sources by name or link, and two unknowns each with a way to resolve it in week 2. An unknown must be something that could change the plan, not a detail. Partial credit if the earlier work is mentioned only generically ("what I learned about hardware"), or the unknowns have no resolution plan.
+What do you carry in from the taught courses? Start with your defended-ranking memo from the feasibility lens: which of its judgments does this project build on or test? Which two or three sources will you start from (the brief's own sources count)? Then the two things you do not yet know that could sink the project, and how you will find out in your second session this week.
+assessment-instructions:: Give full credit when the answer names something specific from the learner's own earlier work (a memo judgment, a dossier, a red-team result), two or three starting sources by name or link, and two unknowns each with a way to resolve it this week. An unknown must be something that could change the plan, not a detail. Partial credit if the earlier work is mentioned only generically ("what I learned about hardware"), or the unknowns have no resolution plan.
 feedback-instructions:: If the unknowns are details rather than plan-changers, ask: if this turned out the bad way, what would you do differently? If the answer is nothing, it is not the unknown to chase. If no earlier work is named, ask which mechanism their defended-ranking memo rated, and whether this project would change that rating. Three sentences. No praise.
 
 #### Question: Open
@@ -81,7 +81,7 @@ id:: a789bd73-8fa4-4d49-930f-30c919a2faf0
 content::
 \## 5. Hours
 
-The brief's declared effort, the hours a week you can realistically give (you said in the intro form), a week-by-week split across the five weeks, and the first thing you will cut if you are behind at the week 3 checkpoint.
+The brief's declared effort, the hours a week you can realistically give (you said in the intro form), a week-by-week split across weeks 2 to 5, and the first thing you will cut if you are behind at the draft handoff at the end of week 3.
 assessment-instructions:: Give full credit when the numbers are present and consistent (the weekly split adds up to something near the brief's declared effort, or the learner says how they will close the gap: partner, more hours, smaller realistic version), and the cut is a named part of the deliverable rather than "work faster". Partial credit if the split is missing or the cut is vague.
 feedback-instructions:: Check the arithmetic and say what you find in one sentence. If the split adds up to less than the brief asks and nothing closes the gap, name the gap and ask which of the three fixes (partner, hours, smaller version) they choose. If the cut is "work faster", say that is not a cut and ask for a part of the deliverable. No praise.
 
