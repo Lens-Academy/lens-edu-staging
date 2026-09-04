@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This short piece expands on Chapter 10's "Before/After" framing: any alignment technique can only be tested on AI systems that are not yet capable of overpowering us (Before), but must hold up on systems that could kill us if they chose to (After). Useful for discussion of why "just test it empirically" objections to AI safety concerns miss the core difficulty — the case that matters can never be directly observed in advance. The Newtonian-mechanics/interstellar-delivery analogy in the final footnote is a good discussion prompt for why a strong track record of predictions doesn't guarantee success in an untested regime.
 
 %%
 As mentioned in the chapter, the fundamental difficulty researchers face in AI is this:
@@ -41,7 +47,7 @@ If the AI creates new successor AIs that are smarter than it, *those* AIs' inter
 
 Running the AI until it has the opportunity to betray you *for real,* in a way that's hard to fake, is an empirical test of those theories in an environment that differs fundamentally from any lab setting.
 
-Many a scientist (and many a programmer) knows that their theories of how a complicated system is going to work in a fundamentally new operating environment *often don't go well on the first try*.[^note-iabied-ftnt253] This is a research problem that calls for an "unfair" level of predictability, control, and theoretical insight, in a domain with unusually lowlevels of understanding — with all of our lives on the line if the experiment's result disconfirms the engineers' hopes.
+Many a scientist (and many a programmer) knows that their theories of how a complicated system is going to work in a fundamentally new operating environment *often don't go well on the first try*.[^note-iabied-ftnt253] This is a research problem that calls for an "unfair" level of predictability, control, and theoretical insight, in a domain with unusually low levels of understanding — with all of our lives on the line if the experiment's result disconfirms the engineers' hopes.
 
 This is why it seems *overdetermined,* from our perspective, that researchers should not rush ahead to push the frontier of AI as far as it can be pushed. This is a legitimately insane thing to attempt, and a legitimately insane thing for any government to let happen.
 
