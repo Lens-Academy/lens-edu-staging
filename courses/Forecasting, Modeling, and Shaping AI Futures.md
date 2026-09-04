@@ -2,7 +2,7 @@
 id: 63e18abf-7750-4915-b32b-273e1f5b2f95
 slug: ai-futures
 slug-aliases: ai-futurism
-title: "Advanced AI Safety Strategy"
+title: "AI Futurism: Forecasting & Strategy"
 description: "Learn to see the landscape of AI possibility and build a model of the future that is actually yours: what could happen, how anyone can know, and where the leverage is. You will guess before you read, keep a running model you revise from memory, and be told honestly where the field itself is uncertain. Unit 1 opens the course; further units release as the cohort proceeds."
 ---
 
