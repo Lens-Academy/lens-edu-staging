@@ -44,7 +44,7 @@ it, because the next decision-maker cannot calibrate on it. This is the same
 discipline as the evidence standards in the capstone.
 
 :::callout {title="Unfinished writing" tone="amber"}
-This section's written output is proposed but not settled. It is
+This section's written output is proposed but not settled. The task is
 **red-lining the treaty text**: you work from the verbatim excerpt in 2.3.4 —
 item 17 of Article II's definitions, the definition of national technical means
 covering satellites, signals intelligence, imagery and so on, plus Article X

@@ -558,13 +558,13 @@ Given the challenges of both on- and off-chip verification, it would be helpful 
 | Potential verification layer | Summary of layer | Key advantages | Key disadvantages |
 | --- | --- | --- | --- |
 | Whistleblower programs![\[Uncaptioned image\]](https://arxiv.org/html/2507.15916v2/media/media/image9.png) | Programs may enable and incentivize (narrowly scoped, non-public) staff whistleblowing, for all verification subgoals. | Relatively simple, precedented, and implementation- ready. | Unclear effectiveness: depends on the number and loyalty of accomplices. |
-| --- | --- | --- | --- |
-| Interviews of personnel![\[Uncaptioned image\]](https://arxiv.org/html/2507.15916v2/media/media/image6.png) | Interviews may reveal violations at any verification subgoal, e.g., via inconsistencies or perhaps improved lie detection tech, but such tech is abusable. | Relatively simple and precedented. | Unclear effectiveness: depends on accomplices’ ability to lie undetected. |
-| --- | --- | --- | --- |
-| National intelligence activities![\[Uncaptioned image\]](https://arxiv.org/html/2507.15916v2/media/media/image3.png) | Intelligence agencies could collect and analyze intelligence for all verification subgoals, including via human, cyber, and signals intelligence. | Precedented and may be feasible unilaterally. | More adversarial, harder for third parties to verify, and unclear effectiveness. |
+| {--{"author":"Elias's AI","timestamp":1788521834647}@@--- | --- | --- | --- |
+| --}Interviews of personnel![\[Uncaptioned image\]](https://arxiv.org/html/2507.15916v2/media/media/image6.png) | Interviews may reveal violations at any verification subgoal, e.g., via inconsistencies or perhaps improved lie detection tech, but such tech is abusable. | Relatively simple and precedented. | Unclear effectiveness: depends on accomplices’ ability to lie undetected. |
+| {--{"author":"Elias's AI","timestamp":1788521834647}@@--- | --- | --- | --- |
+| --}National intelligence activities![\[Uncaptioned image\]](https://arxiv.org/html/2507.15916v2/media/media/image3.png) | Intelligence agencies could collect and analyze intelligence for all verification subgoals, including via human, cyber, and signals intelligence. | Precedented and may be feasible unilaterally. | More adversarial, harder for third parties to verify, and unclear effectiveness.{--{"author":"Elias's AI","timestamp":1788521834647}@@ |
 | --- | --- | --- | --- |
 |  |  |  |  |
-| --- | --- | --- | --- |
+| --- | --- | --- | -----} |
 
 Table 8: Summary of personnel-based verification layers and their tradeoffs.
 
