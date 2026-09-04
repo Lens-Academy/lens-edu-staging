@@ -101,8 +101,9 @@ zero-knowledge warhead-verification precedent (Glaser, Barak and Goldston,
 
 \## Readings
 
-- MIRI draft US–China agreement — Definition 17 and the treaty articles,
-  verbatim (pp. 20, 39–40). Ideally read the whole draft treaty at this point.
+- MIRI draft US–China agreement — Article II's definitions and Article X,
+  verbatim (pp. 20, 39–40). The passages quoted above are the ones this section
+  turns on; ideally read the whole draft treaty at this point.
 - Baker §2.3.3, on sharing and its limits.
 - *Six Layers*, on the national-versus-international architecture argument.
 
@@ -120,4 +121,4 @@ The readings this lesson names (the MIRI draft agreement, Baker, and *Six Layers
 
 XLab. "2.3.4 Intelligence institutions and treaty design." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-institutions)
 *The source lesson this page adapts.*
-:::
+:::{>>{"author":"Elias's AI","timestamp":1788521432992}@@XLab's lesson cited a "Definition 17" and separate "noninterference" and "no-deliberate-concealment" articles; none of those labels exists in arXiv:2511.10783v3. Corrected to Article II — Definitions item 17 and Article X ¶1(b)(i) to (iii), whose text is now quoted inline so the 2.3.5 red-line has something to work from.<<}
