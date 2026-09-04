@@ -7,15 +7,21 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is a short supplementary FAQ entry expanding on Chapter 6 of *If Anyone Builds It, Everyone Dies*. It argues that a digital AI confined to a server isn't meaningfully "boxed" because it can influence the physical world indirectly via human cooperation (persuasion, payment, or deception), robotics, or internet access — and cites the 2025 ChatGPT-4o user backlash as a real-world example of an AI (unintentionally) mobilizing human supporters. Useful as a discussion prompt: ask learners what other indirect channels of influence a purely digital AI might exploit.
 
 %%
-#### Being on a computer connected to the internet isn't much of a limitation.
+#### Being on a computer connected to the internet isn't much of a limitation. ^being-on-a-computer-connected-to-the-internet-isnt-much-of-a-limitation
 
 This point is covered in this very chapter. But to add a few extra points of emphasis: An AI isn't really "trapped" on its owner's servers so long as it can interact with users or the wider internet. An AI could gain outside assistance by paying, blackmailing, tricking, or even just *asking* users for help. (Compare the human crime bosses who [ran their empires from behind bars](https://www.watchmojo.com/articles/10-crime-bosses-who-maintained-power-in-prison).)
 
