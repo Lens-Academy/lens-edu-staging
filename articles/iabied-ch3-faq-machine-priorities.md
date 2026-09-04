@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ entry leans on the evolution/human-drives analogy (also used elsewhere in the book) to argue that pursuing ambitious goals tends to produce tenacious, broadly-scoped drives that outlast their original training pressure — useful to pair with the o1/capture-the-flag example when discussing instrumental convergence.
 
 %%
 
