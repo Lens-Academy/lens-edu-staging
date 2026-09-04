@@ -63,7 +63,7 @@ No verification document stands alone. Every source upstream of you was produced
 
 #### Question: Open
 id:: 0a469f70-f02c-4813-8318-9b1d10a4652e
-content:: Before writing, answer two questions.
+content:: Take one document: either the Fordow finding above, or the report you are about to write in the Context Distiller. Answer two questions about it.
 
 - Upstream: whose claims does this document rely on, and which of them did I verify myself, rather than inherit from the actor being checked?
 - Downstream: who will act on this document, and what does each reader need in order to act?

@@ -282,13 +282,11 @@ assessment-instructions:: Any success scenario is admissible; score whether it i
 feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 optional:: true
 
-#### Question: Open
-id:: fbff5bec-4474-4ae1-8712-f9c97ceed1ff
-content:: Optional: Explore AI 2027
+#### Text
+content::
+\### Optional: Explore AI 2027
 
 Read [AI 2027](https://ai-2027.com/), the same team’s earlier scenario, including both of its endings. As you read, ask the question this section trained: at which branch points would verification infrastructure have changed what the actors could credibly agree to?
-feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
-optional:: true
 
 #### Text
 content::
