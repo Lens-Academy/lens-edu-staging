@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+Excerpt from Chapter 11 of *If Anyone Builds It, Everyone Dies* (Yudkowsky & Soares, 2025). Useful discussion prompt: the piece leans on analogies (aviation postmortems, NASA crew-risk thresholds, the Manhattan Project) to argue AI labs aren't treating alignment with commensurate rigor — worth asking students whether these comparisons hold up, and what a "seriously engineered" alignment effort would concretely look like in practice.
 
 %%
 AI companies are facing an extraordinarily difficult problem, in a situation where everyone's lives are at stake. Are they at least treating the situation with the gravity it merits?
