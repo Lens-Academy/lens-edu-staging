@@ -3,7 +3,7 @@ title: "Purchase Fuzzies and Utilons Separately"
 source_url: https://www.lesswrong.com/posts/3p3CYauiX8oLjmwRF/purchase-fuzzies-and-utilons-separately
 author:
   - Eliezer Yudkowsky
-published: 2010-04-06
+published: 2009-04-01
 created: 2026-05-28
 description: Why you should keep your warm fuzzy feelings and your actual world-improving efforts in separate mental accounts — and how mixing them leads to worse outcomes on both fronts.
 tags:
@@ -13,8 +13,14 @@ tags:
   - rationality
   - giving
   - work-in-progress
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -43,7 +49,7 @@ Well—who said that I *was* defending the act as a selfless good deed? It's a *
 
 Can I get away with that? That is, can I really get away with calling it a "selfish good deed", and still derive willpower restoration therefrom, rather than feeling guilt about it being selfish? Apparently I can. I'm surprised it works out that way, but it does. So long as I knock to tell them about the open trunk, and so long as the one says "Thank you!", my brain feels like it's done its wonderful good deed for the day.
 
-Your mileage may vary, of course. The problem with trying to work out an art of willpower restoration is that different things seem to work for different people. ([That is](http://www.overcomingbias.com/2008/11/chaotic-inversi.html): We're probing around on the level of surface phenomena without understanding the deeper rules that would also predict the variations.)
+Your mileage may vary, of course. The problem with trying to work out an art of willpower restoration is that different things seem to work for different people. ([That {--{"author":"Luc's AI","timestamp":1788542536884}@@is](http://www.overcomingbias.com/2008/11/chaotic-inversi.html):--}{++{"author":"Luc's AI","timestamp":1788542536884}@@is](https://www.greaterwrong.com/posts/NyFtHycJvkyNjXNsP/chaotic-inversion):++} We're probing around on the level of surface phenomena without understanding the deeper rules that would also predict the variations.)
 
 But if you find that you are like me in this aspect—that selfish good deeds still work—then I recommend that you *purchase warm fuzzies and utilons separately.* Not at the same time. Trying to do both at the same time just means that neither ends up done well. If status matters to you, purchase status separately too!
 
@@ -51,7 +57,7 @@ If I had to give advice to some new-minted billionaire entering the realm of cha
 
 - To purchase warm fuzzies, find some hard-working but poverty-stricken woman who's about to drop out of state college after her husband's hours were cut back, and personally, but anonymously, give her a cashier's check for $10,000. Repeat as desired.
 - To purchase status among your friends, donate $100,000 to the current sexiest X-Prize, or whatever other charity seems to offer the most stylishness for the least price. Make a big deal out of it, show up for their press events, and brag about it for the next five years.
-- Then—with absolute cold-blooded calculation—without [scope insensitivity](http://www.overcomingbias.com/2007/05/scope_insensiti.html) or [ambiguity aversion](http://en.wikipedia.org/wiki/Ambiguity_aversion)—without concern for status or warm fuzzies—figuring out some common scheme for converting outcomes to utilons, and trying to express uncertainty in percentage probabilitiess—find the charity that offers the greatest expected utilons per dollar. Donate up to however much money you wanted to give to charity, until their marginal efficiency drops below that of the next charity on the list.
+- Then—with absolute cold-blooded calculation—without [scope {--{"author":"Luc's AI","timestamp":1788542536617}@@insensitivity](http://www.overcomingbias.com/2007/05/scope_insensiti.html)--}{++{"author":"Luc's AI","timestamp":1788542536617}@@insensitivity](https://www.greaterwrong.com/posts/2ftJ38y9SRBCBsCzy/scope-insensitivity)++} or [ambiguity aversion](http://en.wikipedia.org/wiki/Ambiguity_aversion)—without concern for status or warm fuzzies—figuring out some common scheme for converting outcomes to utilons, and trying to express uncertainty in percentage probabilitiess—find the charity that offers the greatest expected utilons per dollar. Donate up to however much money you wanted to give to charity, until their marginal efficiency drops below that of the next charity on the list.
 
 I would furthermore advise the billionaire that what they spend on utilons should be at least, say, 20 times what they spend on warm fuzzies—5% overhead on keeping yourself altruistic seems reasonable, and I, your dispassionate judge, would have no trouble *validating* the warm fuzzies against a multiplier that large. Save that the original, fuzzy act really should be helpful rather than actively harmful.
 
@@ -61,4 +67,4 @@ But the main lesson is that all three of these things—warm fuzzies, status, an
 
 Of course, if you're not a millionaire or even a billionaire—then you can't be quite as *efficient* about things, can't so easily purchase in bulk. But I would still say—for warm fuzzies, find a relatively *cheap* charity with bright, vivid, ideally in-person and direct beneficiaries. Volunteer at a soup kitchen. Or just get your warm fuzzies from holding open doors for little old ladies. Let that be *validated* by your other efforts to purchase utilons, but don't *confuse* it with purchasing utilons. Status is probably cheaper to purchase by buying nice clothes.
 
-And when it comes to purchasing expected utilons—then, of course, [shut up and multiply](http://www.overcomingbias.com/2008/01/circular-altrui.html).
+And when it comes to purchasing expected utilons—then, of course, [shut up and {--{"author":"Luc's AI","timestamp":1788542536369}@@multiply](http://www.overcomingbias.com/2008/01/circular-altrui.html).--}{++{"author":"Luc's AI","timestamp":1788542536369}@@multiply](https://www.greaterwrong.com/posts/4ZzefKQwAtMo5yp99/circular-altruism).++}
