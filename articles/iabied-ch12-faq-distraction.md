@@ -7,12 +7,18 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ entry rebuts a common "whataboutism" objection to AI-risk advocacy. Useful discussion prompt: ask students to evaluate the authors' core distinguishing argument (capital and talent flowing specifically toward making AI *more* capable, unlike bioterrorism or nuclear proliferation) — is unprecedented investment really a reliable signal of unprecedented danger, or could it just reflect unprecedented commercial upside?
 
 %%
 #### The world is, unfortunately, big enough for multiple issues.
