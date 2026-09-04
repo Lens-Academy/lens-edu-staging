@@ -44,7 +44,7 @@ Week 3 goals:
 %%
 # Module: [[../modules/XLab Verification Capstone W3 Decide and draft]]
 
-# Meeting: Draft exchange
+# Meeting: Week 3: Decide and draft
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 %% Shape: a quick round on decisions made at the method check (who re-scoped or switched, in one sentence); then partners read each other's drafts live for about fifteen minutes using the reader's guide and give first reactions out loud (what they understood, where they stopped); whole group: each learner's hardest current problem in one sentence, and the group's best suggestion. The written review follows in week 4. %%
 
@@ -54,7 +54,7 @@ Week 4 goals:
 %%
 # Module: [[../modules/XLab Verification Capstone W4 Review and revise]]
 
-# Meeting: Review and respond
+# Meeting: Week 4: Review and revise
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 %% Shape: each learner brings one review point they rejected and their reason; the group takes the reviewer's side and red-teams the rejection; the learner leaves knowing whether it holds. Then a round on what is finished and what is still a labelled hole, so nobody arrives at week 5 with a surprise. %%
 
