@@ -7,10 +7,10 @@ partner-name: XLab
 partner-url: https://aisafetytracks.com/verification/landing
 tags: [wip]
 ---
-%% Source curriculum: https://aisafetytracks.com/tracks/verification (repo: https://github.com/XLabTracks/tracks). This is the project course that follows the two taught Compute Verification courses. XLab material: v-research-tips, v-capstone-project (bank and sign-up), v-capstone-next-steps (closing page). Everything between them is Lens scaffolding. %%
+%% Source curriculum: https://aisafetytracks.com/tracks/verification (repo: https://github.com/XLabTracks/tracks). This is the project course that follows the two taught Compute Verification courses. XLab material: v-capstone-together and v-capstone-feasibility (week 1, taught), v-research-tips, v-capstone-project (bank and sign-up), v-capstone-next-steps (closing page). Everything else is Lens scaffolding. %%
 
 %%
-Calendar assumption: five weeks at about 4 hours of self-study a week plus the 90-minute meeting. That is roughly 15 hours of project time and 5 hours of scaffolding, which fits the bank's median brief (around 16 hours). 20-to-22-hour briefs need an extra hour a week, a partner, or a smaller realistic version; the proposal asks the learner to choose.
+Calendar assumption: week 1 is taught at the taught-course budget (215 minutes). Weeks 2 to 5 are the project at about 4.5 hours of self-study a week plus the 90-minute meeting: roughly 13.5 hours of project time (180 / 240 / 210 / 180 minutes) and about 5 hours of scaffolding (bank 35, proposal 60, method check 30, draft handoff 30, peer review 75, done 45, closing 15). That fits the bank's 10-to-14-hour briefs; the median brief (about 16 hours) needs an extra hour a week or a partner; 20-to-22-hour briefs need a partner and a smaller realistic version. The proposal asks the learner to choose.
 
 Meetings introduce no content. Each is discussion, review, or accountability, and the shape is noted under its heading for whoever writes the meeting docs. Groups of 3 to 4; five learners at the longest per-person slot below still fit 90 minutes.
 %%
