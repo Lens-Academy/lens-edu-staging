@@ -14,12 +14,18 @@ llm_review_digest: "sha256:74e67009380e66bb8d4c96127c68213598a7d2baaa81327000b74
 llm_review_source_digest: "sha256:bfa16a3eeecd4b6125401ba0ca5181907376631117f8129e67f57874ddb89210"
 llm_review_source_fetched: 2026-08-19
 llm_review_source_kind: "live"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is one FAQ entry within Chapter 13 ("Shut It Down") of the companion site for *If Anyone Builds It, Everyone Dies*; it answers the objection that a ban on advanced AI development is infeasible by pointing to precedent (nuclear, pharma, housing) and arguing a targeted ban need not affect everyday AI use. Worth pairing with the sibling FAQ entries on warning shots and international verification for the fuller policy argument.
 
 %%
 #### Many technologies are banned or heavily regulated.
