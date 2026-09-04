@@ -7,15 +7,21 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ entry rebuts the "incremental progress will let us course-correct" argument. Worth discussing: the authors' distinction between an AI acting nice most of the time versus being genuinely aligned, and why they see partial/mostly-aligned outcomes as still likely catastrophic rather than "mostly fine."
 
 %%
-#### No. But "partial alignment" is still likely to be catastrophic.
+#### No. But "partial alignment" is still likely to be catastrophic. ^no-but-partial-alignment-is-still-likely-to-be-catastrophic
 
 One of the arguments for worrying less about superintelligence runs along the lines of: "AI will probably advance incrementally, allowing opportunities for trial-and-error improvements to keep AIs in check at every step; alignment doesn't have to be *perfect* for things to go okay." We don't think this view holds much hope, for a few reasons:
 
