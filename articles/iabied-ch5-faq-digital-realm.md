@@ -7,20 +7,26 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ entry answers an objection to Chapter 5 ("Its Favorite Things") of *If Anyone Builds It, Everyone Dies*: that a superintelligent AI might confine its goals to "digital" resources and leave the physical world alone. The authors' response is an analogy from human behavior (mining, satellites, silage, factories) rather than a formal argument, so instructors may want to pair it with the fuller Chapter 5 discussion of instrumental convergence for a more rigorous treatment.
 
 %%
 
-#### There is no "digital realm" independent of physical infrastructure.
+#### There is no "digital realm" independent of physical infrastructure. ^there-is-no-digital-realm-independent-of-physical-infrastructure
 
 See the discussion in Chapter 5 about how there isn't a distinct Digital Realm and Material Realm.
 
-#### Material resources are useful in the pursuit of most goals.
+#### Material resources are useful in the pursuit of most goals. ^material-resources-are-useful-in-the-pursuit-of-most-goals
 
 Humans and earlier hominids mostly lived above ground while we were evolving intelligence. We don't have a lot of built-in drives pointed uniquely at what happens a hundred meters below the surface of the Earth. Yet we ended up building giant pit mines.
 
