@@ -4,7 +4,7 @@ title: "4.2 Capstone project"
 tldr: "One piece of work that shows what you learned, on a problem you chose. Thirty briefs from the capstone bank are laid out below with the numbers that decide whether you can take one on (team, hours, weeks, mentor); or propose your own. Then put your name on the sheet."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. The capstone page: short framing (choose from the bank or propose your own), then the sign-up sheet as one open question (brief chosen or own proposal, in the learner's words), then the capstone bank reproduced as one closed callout per brief (30 course-fit briefs, grouped by track, each with summary, team, effort, duration, difficulty, deliverable, audience, skills, prerequisites and sources). Help the learner compare briefs against their background and hours; do not pick for them. If they propose their own idea, check it is relevant to technical AI governance and aimed at an AI-safety-related theme, and push them to state deliverable, audience and the realistic version."
 tags: [wip]
-duration_minutes: 360
+duration_minutes: 35
 ---
 #### Text
 content::
