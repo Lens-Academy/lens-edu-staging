@@ -39,16 +39,16 @@ Meetings add no new content. They are where your proposal gets challenged, your 
 
 \## The path
 
-:::callout {title="Week 1: Scope" tone="blue"}
-Read a working researcher's notes on doing research well. Read the bank, sign up for a brief or propose your own. Write the proposal: question, reader, deliverable, crappy version, hours. Start the crappy version. Meeting 1: two-minute pitches, review partners assigned.
+:::callout {title="Week 1: Feasibility judgment" tone="blue"}
+Taught content. Check the bets you placed on twelve mechanisms against a reference map, learn the four metrics that turn "is it feasible?" into an answer, survive three drill benches, and write the defended-ranking memo: a recommended portfolio for one policy goal with its blind spots named. Then a working researcher's notes on doing research well. Meeting 1: memos presented, blind spots hunted.
 :::
 
-:::callout {title="Week 2: First version" tone="blue"}
-Build the crappy version. Method check: what it taught you, and the decision: continue, re-scope, or switch brief. This is the last point at which switching is allowed. Meeting 2: decisions checked by the group.
+:::callout {title="Week 2: Scope" tone="blue"}
+Read the bank, sign up for a brief or propose your own. Write the proposal: question, reader, deliverable, crappy version, hours. Two sessions: build the crappy version, then chase the two unknowns that could sink the project. Meeting 2: two-minute pitches, review partners assigned.
 :::
 
-:::callout {title="Week 3: Draft" tone="blue"}
-Build toward a draft a stranger can read start to end, holes labelled. Hand it to your review partner with a reader's guide. Meeting 3: partners read each other's drafts live.
+:::callout {title="Week 3: Decide and draft" tone="blue"}
+Method check, right after meeting 2: what the first version taught you, and the decision: continue, re-scope, or switch brief. This is the last point at which switching is allowed. Then build toward a draft a stranger can read start to end, holes labelled, and hand it to your review partner with a reader's guide. Meeting 3: partners read each other's drafts live.
 :::
 
 :::callout {title="Week 4: Review and revise" tone="blue"}
@@ -61,7 +61,7 @@ Run the done checklist for your deliverable type. Submit with an abstract, limit
 
 \## How your work is read
 
-Nothing in this course is scored. Your proposal, checkpoints, review, and submission are read by your facilitator, and your draft and submission by your review partner. The AI tutor's job on every page is to make your answer more specific, not to grade it. Where the tutor pushes back, it is asking the question your facilitator would ask.
+Week 1 has drill questions with answers; nothing in the project weeks is scored. Your proposal, checkpoints, review, and submission are read by your facilitator, and your draft and submission by your review partner. The AI tutor's job on every page is to make your answer more specific, not to grade it. Where the tutor pushes back, it is asking the question your facilitator would ask.
 
 # Lens: Introduction Form
 id:: 36da2d0c-01d3-40dc-9d4b-ca2abe9d9e3e
@@ -111,7 +111,7 @@ options::
 
 #### Question: Open
 id:: 5d88a42e-0e26-4829-a523-a3e5de174ec3
-content:: If you already have a brief or an idea in mind, name it. Ideas at any stage are fine; the bank and the sign-up come in week 1. *(optional)*
+content:: If you already have a brief or an idea in mind, name it. Ideas at any stage are fine; the bank and the sign-up come in week 2. *(optional)*
 optional:: true
 
 #### Question: Choice
