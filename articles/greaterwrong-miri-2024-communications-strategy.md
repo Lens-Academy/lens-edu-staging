@@ -1,16 +1,22 @@
 ---
 title: "MIRI 2024 Communications Strategy"
 author:
-  - "Greaterwrong"
+  - "Gretta Duleba"
 source_url: "https://www.greaterwrong.com/posts/tKk37BFkMzchtZThx/miri-2024-communications-strategy"
-published: 2026-07-09
+published: 2024-05-29
 created: 2026-07-09
 accessed: 2026-07-09
 description: "As we explained in our MIRI 2024 Mission and Strategy update, MIRI has pivoted to prioritize policy, communications, and technical governance research over technical alignment research. This follow-up post goes into detail about our communications strategy. Our objective is to convince major powers to shut down the development of frontier AI systems worldwide before it is too late. We believe that nothing less than this will prevent future misaligned smarter-than-human AI systems from destroying humanity. Persuading governments worldwide to take sufficiently drastic action will not be easy, but we believe this is the most viable path."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -45,7 +51,7 @@ Now I’ll get into the details of how we’ll go about achieving our objective,
 -   Artifacts: What, concretely, are we planning to produce?
     
 
-## Audience
+### Audience
 
 The main audience we want to reach is policymakers – the people in a position to enact the sweeping regulation and policy we want – and their staff.
 
@@ -55,7 +61,7 @@ We also need to reach the general public. Policymakers, especially elected ones,
 
 Most of the content we produce for these three audiences will be fairly basic, 101-level material. However, we don’t want to abandon our efforts to reach deeply technical people as well. They are our biggest advocates, most deeply persuaded, most likely to convince others, and least likely to be swayed by charismatic campaigns in the opposite direction. And more importantly, discussions with very technical audiences are important for putting ourselves on trial. We want to be held to a high standard and only technical audiences can do that.
 
-## Message and Tone
+### Message and Tone
 
 Since I joined MIRI as the Communications Manager a year ago, several people have told me we should be more diplomatic and less bold. The way you accomplish political goals, they said, is to play the game. You can’t be too out there, you have to stay well within the Overton window, you have to be pragmatic. You need to hoard status and credibility points, and you shouldn’t spend any on being weird.
 
@@ -72,7 +78,7 @@ We do this for three reasons.
 
 These people who offer me advice often assume that we are rubes, country bumpkins coming to the big city for the first time, simply unaware of how the game is played, needing basic media training and tutoring. They may be surprised to learn that we arrived at our message and tone thoughtfully, having considered all the options. We communicate the way we do intentionally because we think it has the best chance of real success. We understand that we may be discounted or uninvited in the short term, but meanwhile our reputation as straight shooters with a clear and uncomplicated agenda remains intact. We also acknowledge that we are relatively new to the world of communications and policy, we’re not perfect, and it is very likely that we are making some mistakes or miscalculations; we’ll continue to pay attention and update our strategy as we learn.
 
-## Channels
+### Channels
 
 So far, we’ve experimented with op-eds, podcasts, and interviews with newspapers, magazines, and radio journalists. It’s hard to measure the effectiveness of these various channels, so we’re taking a wide-spectrum approach. We’re continuing to pursue all of these, and we’d like to expand into books, videos, and possibly film.
 
@@ -84,7 +90,7 @@ We envision a cycle in which someone unfamiliar with AI x-risk might hear about 
 
 These are pretty standard communications tactics in the modern era. However, mapping out this cycle allows us to identify where we may be losing people, where we need to get stronger, where we need to build out more infrastructure or capacity.
 
-## Artifacts
+### Artifacts
 
 What we find, when we map out that cycle, is that we have a lot of work to do almost everywhere, but that we should probably start with our rock content. That’s the foundation, the bedrock, the place where investment pays off the most over time.
 
@@ -99,7 +105,7 @@ And as such, we are currently exploring several communications projects in this 
 
 We have a lot more ideas than that, but we’re still deciding which ones we’ll invest in.
 
-## What We’re Not Doing
+### What We’re Not Doing
 
 Focus helps with execution; it is also important to say what the comms team is _not_ going to invest in.
 
