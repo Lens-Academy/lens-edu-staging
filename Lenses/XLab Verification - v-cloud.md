@@ -4,7 +4,7 @@ title: "2.2.1 Provider records and workload observables"
 tldr: "A cloud provider bills you for every GPU hour, so it already holds a ledger of who rented what, for how long. Read Heim et al. to work out what that ledger can prove about a training run, what it cannot, and where the provider's reach ends."
 summary_for_tutor: "Reading lens adapted from XLab lesson 2.2.1. An objectives callout, then Heim et al. (2024), Governing Through the Cloud: four executive-summary paragraphs as article excerpts, then sections 3.2, 3.3.2 to 3.3.4 and Appendix B (Table 4) inlined as article excerpts. No questions in this lens; the learner is told to keep two columns while reading (what record or signal exists; what conclusion it supports and what it does not establish). If the learner asks for help, work from the text: distinguish provider-controlled records from customer declarations, and separate workload classification (what kind) from compute accounting (how much). Ends with a Works cited callout."
 tags: [wip]
-duration_minutes: 38
+duration_minutes: {--{"author":"Elias's AI","timestamp":1788520413420}@@38--}{++{"author":"Elias's AI","timestamp":1788520413420}@@40++}
 ---
 #### Text
 content::

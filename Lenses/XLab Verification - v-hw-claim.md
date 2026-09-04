@@ -4,7 +4,7 @@ title: "2.1.1 Start with the claim, not the mechanism"
 tldr: "A chip can truthfully report six things and the treaty can still be broken. Learn to separate the policy goal, the legal rule, and the narrow proposition a device actually tests, then ask three questions of any evidence: is it authentic, is it correct, is it complete?"
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Short reading: the working policy goal, legal rule and verification claim used throughout section 2.1; six narrow propositions hardware can test; authenticity, correctness, completeness. Ends with one open question (initial claim map) where the learner completes three sentences about the opening-puzzle artifact from lesson 2.1. Push the learner to keep the three sentences distinct and to name what remains outside the claim."
 tags: [wip]
-duration_minutes: 5
+duration_minutes: {--{"author":"Elias's AI","timestamp":1788520414717}@@5--}{++{"author":"Elias's AI","timestamp":1788520414717}@@10++}
 ---
 #### Text
 content::
