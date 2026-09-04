@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This excerpt is adapted from Yudkowsky and Soares's book *If Anyone Builds It, Everyone Dies*, which argues that advanced AI poses an existential risk. The piece assumes rather than defends its central premise (that a superintelligence trained on an abstract value like symmetry, truth, or beauty would not spontaneously value humans); it may be worth pairing with readings that argue for indirect or emergent alignment strategies.
 
 %%
 
@@ -50,7 +56,7 @@ Synthetic meat is not an easy engineering problem at our tech level. Humanity is
 
 So things aren't looking good for the assumption we began with, for argument's sake — that an AI with alien preferences would keep humans around forever, in the name of "symmetry." Even in the unlikely case where the AI has a very strange notion of "symmetry" that ranks humans *very highly*, it's a lot harder to find a notion of symmetry that considers humans *optimal*. Either way, things aren't looking good for humanity.
 
-Realistically, a symmetry-loving superintelligence would not keep humans alive; if it kept us alive, there is no real chance that it would keep us healthy *and* happy *and* free. We've stacked on far too many nice-sounding coincidences, at that point. If the AI specifically cared about our welfareand wanted us to be happy *for that reason*, then that's one thing. But to imagine that far simpler, easier goals suffice seems like a fantasy.
+Realistically, a symmetry-loving superintelligence would not keep humans alive; if it kept us alive, there is no real chance that it would keep us healthy *and* happy *and* free. We've stacked on far too many nice-sounding coincidences, at that point. If the AI specifically cared about our {--{"author":"Luc's AI","timestamp":1788528775253}@@welfareand--}{++{"author":"Luc's AI","timestamp":1788528775253}@@welfare and++} wanted us to be happy *for that reason*, then that's one thing. But to imagine that far simpler, easier goals suffice seems like a fantasy.
 
 All of these arguments apply with equal force to "just make an AI that values truth" or "just make an AI that values beauty." It's just that those cases make it easier to get lost in the fantasy, because words like "truth" and "beauty" sound intuitively nicer than "symmetry."
 
