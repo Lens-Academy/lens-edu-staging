@@ -6,15 +6,21 @@ source_url: "https://www.lesswrong.com/posts/ERWeEA8op6s6tYCKy/what-cognitive-bi
 published: 2020-01-03
 created: 2026-07-14
 accessed: 2026-07-14
-description: "Building on the recent SSC post Why Doctors Think They’re The Best... …"
+description: "Building on the recent SSC post Why Doctors Think They’re The Best..."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+Good discussion starter for practicing perspective-taking: ask learners to fill in their own "inside view / outside view" row for a bias they recognize in themselves, then compare with a partner's outside view of them.
 
 %%
 
@@ -63,7 +69,7 @@ _The scientific term for this mismatch is:_ **hindsight bias**
 
 _The scientific term for this mismatch is:_ **optimism bias**
 
-## Why this is better than how we usually talk about biases
+## Why this is better than how we usually talk about biases ^why-this-is-better-than-how-we-usually-talk-about-biases
 
 Communication in abstracts is very hard. (See: [Illusion of Transparency: Why No One Understands You](https://www.lesswrong.com/posts/sSqoEw9eRP2kPKLCz/illusion-of-transparency-why-no-one-understands-you)) Therefore, it often fails. (See: [Explainers Shoot High. Aim Low!](https://www.lesswrong.com/posts/2TPph4EGZ6trEbtku/explainers-shoot-high-aim-low)) It is hard to even notice communication has failed. (See: [Double Illusion of Transparency](https://www.lesswrong.com/posts/sBBGxdvhKcppQWZZE/double-illusion-of-transparency)) Therefore it is hard to appreciate how rarely communication in abstracts actually succeeds.
 
@@ -77,7 +83,7 @@ Our highly demanding style of communication correctly predicts that LessWrongian
 
 The tables above show one way to do better that does the following.
 
--   It aims low - merely to help people [notice the flaws in their thinking](https://www.lesswrong.com/posts/46qnWRSR7L2eyNbMA/the-lens-that-sees-its-flaws). It will not, and does not need to, enable readers to write scientific papers on the subject.
+-   It aims {--{"author":"Luc's AI","timestamp":1788539874886}@@low - merely--}{++{"author":"Luc's AI","timestamp":1788539874886}@@low—merely++} to help people [notice the flaws in their thinking](https://www.lesswrong.com/posts/46qnWRSR7L2eyNbMA/the-lens-that-sees-its-flaws). It will not, and does not need to, enable readers to write scientific papers on the subject.
 -   It reduces biases into mismatches between Inside View and Outside View. It lists concrete observations from both views and juxtaposes them.
 -   These observations are written in a way that is hopefully general enough for most people to find they match their own experiences.
 -   It trusts readers to infer from these juxtaposed observations their own understanding of the phenomena. After all, generalizing over particulars is much easier than integrating generalizations and applying them to particulars. The understanding gained this way will be imprecise, but it has the advantage of actually arriving inside the reader’s mind.
@@ -87,4 +93,6 @@ What do you think about this? Should we communicate more concretely? If so, shou
 
 Would you like to correct these tables? Would you like to propose more analogous observations or other biases?
 
+:::hide
 Thanks to Simon, miniBill and others for helping with the draft of this post.
+:::
