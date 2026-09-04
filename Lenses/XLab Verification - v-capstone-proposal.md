@@ -90,8 +90,8 @@ id:: 19f674ea-ca1f-49b9-a486-8bc291670f95
 content:: How are you working on this?
 options::
 - Solo
-- Pair (name your partner in the next answer)
-- Team of three (name your partners in the next answer)
+- Pair (name your partner in your reply, and again to your facilitator at meeting 2)
+- Team of three (name your partners in your reply, and again to your facilitator at meeting 2)
 feedback-instructions:: Logistics, not an exercise: this is for the facilitator, so do not grade it and do not comment on whether solo or team is the better way to work. Acknowledge in one line. If they chose Pair or Team of three, ask for the partners' names in their reply and tell them to repeat the names to their facilitator at meeting 2, because none of the answers that follow captures them.
 
 #### Question: Choice
