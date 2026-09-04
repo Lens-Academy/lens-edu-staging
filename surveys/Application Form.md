@@ -34,11 +34,11 @@ short:: true
 placeholder:: https://www.linkedin.com/in/…
 required:: true
 
-#### Question
+{--{"author":"Luc","timestamp":1788512421356}@@#### Question
 key:: cv_markdown
 content:: CV in Markdown. (Pass your CV through an AI to create Markdown if you don't have one. Copy-pasting your LinkedIn is also fine.)
 max-chars:: 20000
-required:: true
+required:: true--}
 
 #### Question
 key:: other_profile_link
