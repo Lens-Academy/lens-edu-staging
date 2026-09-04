@@ -87,7 +87,7 @@ One question weighs especially heavily on their minds: **Who will control all th
 
 Congress settles on an important part of the answer: **Probably not us.**[18](https://ai-2040.com/footnotes#footnote-18)
 
-They hold a series of tense hearings on AI. They read the 2016 OpenAI emails discussing how OpenAI was founded in order to prevent Demis Hassabis from [becoming dictator](https://futurism.com/the-byte/openai-emails-elon-musk-agi).^([19](https://ai-2040.com/footnotes#footnote-19)) But who is preventing Sam or Elon from becoming dictator? Congress is unsatisfied with existing responses.
+They hold a series of tense hearings on AI. They read the 2016 OpenAI emails discussing how OpenAI was founded in order to prevent Demis Hassabis from [becoming dictator](https://futurism.com/the-byte/openai-emails-elon-musk-agi).[19](https://ai-2040.com/footnotes#footnote-19) But who is preventing Sam or Elon from becoming dictator? Congress is unsatisfied with existing responses.
 
 The result of this wakeup is the AI Transparency Act of 2027, an omnibus bill that does many things, some good and some bad, but doesn’t fundamentally change the situation.^([20](https://ai-2040.com/footnotes#footnote-20))
 
