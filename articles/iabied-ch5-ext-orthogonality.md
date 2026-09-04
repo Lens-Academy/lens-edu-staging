@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is an "online resources" supplement to Chapter 5 of *If Anyone Builds It, Everyone Dies*, continuing a dialogue introduced earlier in the chapter; the Correct-Nest aliens and the titanium-cube-maximizer are recurring thought experiments used across the book's companion site. Useful discussion prompt: is the orthogonality thesis a claim about all logically possible minds, or a narrower empirical claim about what gradient descent is likely to produce? The text's own answer is in the closing paragraphs (ease of instilling a goal is separate from whether the goal is orthogonal to intelligence).
 
 %%
 
@@ -44,7 +50,7 @@ In Chapter 5, we told the story of the Correct-Nest aliens, who evolved to find 
 
 **GIRL-BIRD:** I'll be rooting for you. But, okay, maybe a better way of saying it is: There's some complicated property possessed by good jokes, and our brains compute whether utterances have that property which we call "humor." And we're delighted when an utterance has that property. The *existence or absence of that property* is an objective fact about an utterance (as computed by you, in a given context). An alien could learn to do the calculation. But *the part where we find that property delightful* is not objective. It's less like a prediction and more like…well, it's not exactly a steering destination, but it is a further fact about us, that wouldn't be true about most aliens, because our humor evolved along some strange twisty evolutionary pathway that doesn't usually happen. It's not that the aliens are wrong about which jokes are funny; it's that their brains just aren't computing humor in the first place, any more than they are judging their dwellings by whether the number of stones within them are correct. They just don't care.
 
-**BOY-BIRD:** Gosh, that's a depressing view of the universe. Aliens that never laugh, that have nests with completely incorrect stones…surely if the aliens spent enoughtime thinking about it, they would realize how much they were missing out on? Living in wrong nests, not finding jokes funny, *completely* disregarding vanilla bird seed. Wouldn't they eventually figure out a way to correct those flaws and give themselves a sense of humor and everything else they're missing?
+**BOY-BIRD:** Gosh, that's a depressing view of the universe. Aliens that never laugh, that have nests with completely incorrect stones…surely if the aliens spent {--{"author":"Luc's AI","timestamp":1788529280097}@@enoughtime--}{++{"author":"Luc's AI","timestamp":1788529280097}@@enough time++} thinking about it, they would realize how much they were missing out on? Living in wrong nests, not finding jokes funny, *completely* disregarding vanilla bird seed. Wouldn't they eventually figure out a way to correct those flaws and give themselves a sense of humor and everything else they're missing?
 
 **GIRL-BIRD:** I could see aliens wanting to change and grow and add new goals, possibly. But why would they pick *those* exact changes to make?
 
