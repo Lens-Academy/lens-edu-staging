@@ -21,7 +21,7 @@ source:: [[../Lenses/XLab Verification - v-introduction]]
 # Lens:
 optional:: true
 hide:: true
-source:: [[../Lenses/AI Is Grown, Not Built]]
+source:: [[../Lenses/XLab Verification - v-ai-is-grown]]
 
 # Lens:
 optional:: true

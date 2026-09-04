@@ -21,7 +21,7 @@ content::
 :::callout {title="Optional: Further Reading" tone="neutral" collapse="closed"}
 The case at full strength, from the people who argue it most directly. Any one of these:
 
-::card[[../Lenses/AI Is Grown, Not Built]]
+::card[[../Lenses/XLab Verification - v-ai-is-grown]]
 
 ::card[[../Lenses/Four Background Claims]]
 :::
