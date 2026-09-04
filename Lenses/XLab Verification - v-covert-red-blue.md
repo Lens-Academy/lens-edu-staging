@@ -145,8 +145,8 @@ Article V should come out not provided, or partial at most for a narrow reading.
 
 Article VI should come out not provided. Fabrication, HBM and logic production, testing, packaging, assembly, sale, transfer and installation (VI.1(b)), the production halt for unmonitorable facilities (VI.2), the transfer authorization presumptions (VI.4(a) to (c)) and the production caps (VI.7) are supply-chain and legal instruments. No evidence from network traffic inside a data centre speaks to them.
 
-Penalise heavily: classifying V or VI as substantially covered; classifying IV or VII as not provided; any classification with no paragraph citation. Reward an answer that says explicitly which institution has to carry each uncovered obligation.
-feedback-instructions:: State which of the four classifications is least defensible and why, citing the paragraph. If the learner did not find VII.1(e) and VII.1(f), point at them, because they are the two paragraphs the whole coverage judgment turns on. Then ask one question: if you had to make the system cover one more article, which paragraph would you attack first, and with what mechanism? No generic praise.
+Penalise heavily: classifying V or VI as substantially covered; classifying IV or VII as not provided; any classification with no paragraph citation. Do not penalise a partial for IV or VII that is argued from the paragraphs. Reward an answer that says explicitly which institution has to carry each uncovered obligation.
+feedback-instructions:: State which of the four classifications is least defensible and why, citing the paragraph. If the learner cited no paragraph of VII.1 at all, name (c), (e) and (f) as the three candidates and ask which they would defend. If they did map the architecture onto one of those paragraphs and argued it, accept the mapping and say what the strongest objection to it would be, rather than steering them to a different paragraph. Then ask one question: if you had to make the system cover one more article, which paragraph would you attack first, and with what mechanism? No generic praise.
 
 #### Question: Open
 id:: 35aca165-0ea2-4d42-9903-184aaff4c6a7
