@@ -1046,10 +1046,10 @@ Background: A Verifier may wish to verify that a declared workload was actually 
 |--}  | Training data order is verifiably random (Choi et al., [2023](https://arxiv.org/html/2507.15916v2#bib.bib34))[^note-baker-105] |   | X |   |
 | {--{"author":"Elias's AI","timestamp":1788522711499}@@--- | --- | --- | --- | --- |
 | --}Compute constraint | Compute accounting limits the compute usable to generate spoofs[^note-baker-106] | ✓ | ✓ | ✓ |
-| --- | --- | --- | --- | --- |
-| Requiring more intermediate states to be replicable | Intermediate results, e.g., activations, are replicable (Sun et al., [2024b](https://arxiv.org/html/2507.15916v2#bib.bib197)) | ✓ | ✓ |   |
-| --- | --- | --- | --- | --- |
-|  | Optimizer states, e.g., gradients, are replicable | ✓ | X |   |{--{"author":"Elias's AI","timestamp":1788522170897}@@
+| {--{"author":"Elias's AI","timestamp":1788522715492}@@--- | --- | --- | --- | --- |
+| --}Requiring more intermediate states to be replicable | Intermediate results, e.g., activations, are replicable (Sun et al., [2024b](https://arxiv.org/html/2507.15916v2#bib.bib197)) | ✓ | ✓ |   |
+|{--{"author":"Elias's AI","timestamp":1788522719820}@@ --- | --- | --- | --- | --- |
+|--}  | Optimizer states, e.g., gradients, are replicable | ✓ | X |   |{--{"author":"Elias's AI","timestamp":1788522170897}@@
 | --- | --- | --- | --- | --- |--}
 | Requiring replication of specific logged values | Values securely logged by on-chip mechanisms (Shavit, [2023](https://arxiv.org/html/2507.15916v2#bib.bib187)) ([Section 4.1](https://arxiv.org/html/2507.15916v2#Sx5.SSx1 "4.1 On-Chip Verification Layer ‣ 4. Verification Mechanisms and Layers ‣ Verifying International Agreements on AI")) or network taps ([Appendix A.3](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx3 "A.3 Network Taps & Analysis ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")) are replicable | ✓ | ✓ | ✓ |
 | --- | --- | --- | --- | --- |
