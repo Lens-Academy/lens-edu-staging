@@ -35,7 +35,7 @@ short:: true
 
 #### Choice
 key:: education
-content:: Highest level of education
+content:: Highest level of education, or the one you're currently pursuing.
 options::
 - Bachelors
 - Masters
