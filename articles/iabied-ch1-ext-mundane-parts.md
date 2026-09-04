@@ -8,17 +8,17 @@ author:
 tags:
   - clippings
 llm-review:
-  date: 2026-08-28
+  date: 2026-09-04
   model: "sonnet"
-  version: "article-qc-v1.1"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-04
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+This is the opening piece of Chapter 1 of "If Anyone Builds It, Everyone Dies." The historical analogy (vitalism, Wöhler's urea synthesis, Lord Kelvin's skepticism about thermodynamics and life) is used to argue that intelligence, like earlier "mysterious" phenomena, will turn out to be mundane mechanism rather than something irreducibly special. Useful to discuss alongside Chapter 2's claims about interpretability and how little is understood about LLM internals, which this piece references directly.
 
 %%
 The industry race to achieve smarter-than-human AI is heating up. Against that backdrop, there's something especially tragic about the idea that humanity may end up destroying itself because some critical subset of the voting public or elected officials thinks that machine superintelligence is an impossible pipe dream. People who think that a machine could never be *truly* intelligent are liable to be blindsided by what's coming.
