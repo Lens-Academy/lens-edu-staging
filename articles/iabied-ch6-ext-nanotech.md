@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This excerpt argues from physics-based lower/upper-bound reasoning (Feynman, Drexler's *Nanosystems*, Freitas's red-blood-cell and ecophagy analyses) that a superintelligence could likely develop mechanosynthetic nanotechnology far exceeding biological machinery, including extinction-capable applications. Useful discussion prompt: how much confidence should we place in "physically possible therefore achievable by a sufficiently smart optimizer" arguments, given that Drexler's and Freitas's own estimates are explicitly conservative, contested within the nanotech field, and rely on engineering timelines that remain speculative.
 
 %%
 Human intelligence has given us many advantages over other species. One of the most consequential, however, has been our ability to invent new technologies. If developers race ahead and build smarter-than-human AI, then we can similarly expect a great deal of AI's power to come from its ability to advance scientific and technological frontiers. But what, concretely, does this look like? What not-yet-invented technologies are waiting for discovery?
@@ -33,7 +39,11 @@ Every cell of every organism in nature contains an enormous variety of intricate
 
 The bacterial flagellum functions similarly to the propeller of a boat, complete with an entire working motor that spins the flagellum to propel the bacterium through liquids:
 
+[Bacterial flagellum video](https://www.youtube.com/watch?v=cwDRZGj2nnY)
+
 Another example, which we mentioned in the book, is kinesin — a tiny protein that functions like a cargo robot. Kinesins "walk" down self-assembling fibers that traverse neurons, hauling neurotransmitters to their destination.
+
+[Kinesin video](https://www.youtube.com/watch?v=y-uuk4Pr2i8)
 
 The smaller a machine is, the faster it can generally operate; and machines as small as molecules operate very quickly. Kinesins take as many as [200 steps per second](https://www.cell.com/trends/biochemical-sciences/abstract/S0968-0004(04)00103-3), moving forward with one "foot" while the other foot holds fast to the microtubule it's on.[^note-iabied-ftnt228]
 
@@ -48,6 +58,8 @@ Looking at the feats of human engineers today, it may seem to strain credulity t
 But machines like that aren't just possible; they already exist. Algae are micron-wide, solar-powered, self-replicating factories that can double in population size in less than a day. And algae contain [ribosomes](https://en.wikipedia.org/wiki/Ribosome), which are biology's version of a universal 3D printer or a universal factory assembly line (universal when it comes to the building blocks of life, at least).
 
 Given the right set of instructions (encoded in messenger RNA), ribosomes will print out arbitrary structures that can be assembled from [proteins](https://en.wikipedia.org/wiki/Protein). This universality underpins the enormous complexity and variety of the biological world — all of the diversity of life on Earth is ultimately assembled by these universal factories, which can be found essentially unchanged in everything from porcupines to fruit flies to bacteria.
+
+[Ribosome video](https://www.youtube.com/watch?v=8dsTvBaUMvw)
 
 Ribosomes can even be used to assemble structures that are not themselves made of protein by using proteins as an intermediary. An example of a non-protein structure that ribosomes can build in this fashion is bone. Ribosomes produce proteins that fold up into weakly bound enzymes that catalyze some calcium and phosphorus into special reactants. These reactants then form a collagen matrix that shepherds the calcium and phosphorus into place to turn it into hard, crystalline bone.
 
@@ -109,11 +121,17 @@ The three main factors we see contributing to this are:
 
 Or, for a simpler example of evolution's messiness, consider the eye. Vertebrate eyes happened to evolve with their nerves (2 in the image below) sitting on top of the light-detecting cells (1). These nerves need to exit the eye through a hole in the back (3), and since this spot has a hole, it must lack light-detecting cells. This creates a blind spot (4) for all vertebrates, including humans, forcing the brain to do clever tricks to "fill in" the hole (e.g., with information from the other eye).
 
+![Depiction of a vertebrate eye (with nerves on the inconvenient side) and an octopus eye (with nerves on the convenient side).](https://ifanyonebuildsit.com/Online%20Resources%20%28All%20-%20Staged%20for%20Website%29/images/image2.png)
+*"Evolution eye" by C. C. MacDuff, CC BY-SA 3.0.*
+
 Octopuses evolved eyes independently, and, by chance, they happened to evolve the more sensible design — nerves go behind the light-detecting cells. This lets these cables exit the eye without creating any blind spot at all.
 
 Or consider the recurrent laryngeal nerve of the giraffe, which needs to connect the giraffe's throat to its brain so that it can operate the larynx. Rather than taking the direct path, this nerve travels from the throat, all the way down the full length of the giraffe's neck, awkwardly loops around the giraffe's aorta, travels all the way back up the neck to return to where it started, and then connects to the brain.
 
 The result is a nerve that's fifteen feet long (the black loop in the image below), resulting in signals taking ten to twenty times longer than necessary to travel between the giraffe's brain and its throat.
+
+![Depiction of the recurrent laryngeal nerve of the giraffe looping from the throat to around the aorta (the main artery coming off the heart) and back to the brain.](https://ifanyonebuildsit.com/Online%20Resources%20%28All%20-%20Staged%20for%20Website%29/images/image3.png)
+*by Vladamir V. Medeyko, CC BY-SA 2.0.*
 
 In fish, this design made sense because their version of a laryngeal nerve connected the brain to the gills — a straight shot. Take the same design and give the animal a neck, however, and keep lengthening the neck without ever redoing the wiring from scratch, and you get some very inefficient designs. Survivable, but inefficient.
 
@@ -125,7 +143,7 @@ A newly mutated gene conveying a 3 percent reproductive fitness advantage — re
 
 In population genetics, the rule of thumb is "one mutation, one death." If DNA copying errors introduce ten copies of a deleterious mutation in each new generation, then ten bearers of that mutation must die or fail to reproduce, per generation, in order to counterbalance the pressure of simple genetic noise.
 
-This is not quite as bad as it sounds, as a cost of maintaining genetic information. In a sexually reproducing species, you can end up with one person (or one embryo) carrying lots of deleterious mutations who dies — or fails to reproduce, or miscarries — and that can remove more than one mutated-gene-instance at a time. But this constraint is still the standard explanation for why humans have lost so many different useful adaptations that show up in chimpanzees and other primates. While natural selection was busy selecting for increased primate intelligence (for example), it had less room to preserve all of the subtle olfactory genes that allow for a richer sense of smell.. The relevant olfactory genes were useful for survival, but they weren't quite useful enough to stick around while evolution's "attention" was elsewhere.
+This is not quite as bad as it sounds, as a cost of maintaining genetic information. In a sexually reproducing species, you can end up with one person (or one embryo) carrying lots of deleterious mutations who dies — or fails to reproduce, or miscarries — and that can remove more than one mutated-gene-instance at a time. But this constraint is still the standard explanation for why humans have lost so many different useful adaptations that show up in chimpanzees and other primates. While natural selection was busy selecting for increased primate intelligence (for example), it had less room to preserve all of the subtle olfactory genes that allow for a richer sense of {--{"author":"Luc's AI","timestamp":1788531994036}@@smell..--}{++{"author":"Luc's AI","timestamp":1788531994036}@@smell.++} The relevant olfactory genes were useful for survival, but they weren't quite useful enough to stick around while evolution's "attention" was elsewhere.
 
 Most giraffes do not die as a result of their comically long laryngeal nerve. Maybe some giraffes manage to choke on twigs that would have survived if their brain were able to respond faster — but this is probably not very common. So it is simply not that high of a priority for natural selection, which only has so much optimization pressure to spread around. The slapdash giraffe design mostly works, it gets shoved out the door, and it's done.
 
@@ -240,11 +258,15 @@ The building blocks of proteins — amino acids — are molecules, typically mad
 
 Bodies get the twenty-or-so amino acids they need for protein synthesis from food, or by synthesizing them in the body, or by harvesting amino acids from past proteins. Ribosomes receive instructions from DNA that essentially say "use this amino acid, then this other amino acid, then this other amino acid, …, then stop." The amino acids are then carried (by small molecular machines called transfer RNA) to the ribosome, which builds the protein piece by piece.
 
+[Protein synthesis video](https://www.youtube.com/watch?v=2dV5s6v2v8Q)
+
 Notably, the above list consists of features that are highly valuable for evolution, but much less necessary for deliberate engineering. Evolution needs a relatively simple but flexible chemical structure that can be produced by common chemical reactions. A human or artificial designer is free to choose from a variety of unrelated molecules, rather than needing all of them to be closely related. They're also free to use building blocks that rarely arise in nature and to assemble these building blocks in complex top-down ways.
 
 This provides part of the impetus for exploring a third way to build very small things: *mechanosynthesis*, in which structures are built by directly moving atoms to the correct location, potentially using a ribosome-like machine to take in instructions and then assemble things far more varied than just different proteins. In the LEGO analogy, mechanosynthesis is like finally being able to work with individual LEGO pieces and place each one exactly where you want it.
 
 *Nanosystems* explores what kinds of new machines might be possible with mechanosynthesis. An example of the kind of design Drexler explores is a planetary gear scaled down to only [around 3,500 atoms](https://nanosyste.ms/mobile_interfaces_and_moving_parts/#10-7-8-planetary-gear-systems) in size:[^note-iabied-ftnt237]
+
+![Animation](https://chem.beloit.edu/classes/nanotech/nanorex/a8_qm_animation5.gif)
 
 Hemoglobin is made of around 10,000 atoms, not that far off from Drexler's gear. And some proteins get away with being a lot simpler. Insulin is made of only fifty-one amino acids, or around 800 atoms in total.
 
