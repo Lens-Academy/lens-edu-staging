@@ -7,12 +7,18 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+Useful for discussing how quickly AI capabilities can outpace expert predictions (e.g., the 2021 language-mastery claim versus ChatGPT's 2022 debut), and how the footnoted Grok/xAI incident echoes the story's fictional Galvanic/Sable dynamic in real life.
 
 %%
 
