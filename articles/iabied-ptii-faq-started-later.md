@@ -7,12 +7,18 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is one entry in the "If Anyone Builds It, Everyone Dies" companion FAQ, answering a reader question about whether delaying the story's timeline would give humanity a meaningful head start against a rogue superintelligence. Useful to pair with the book's Part III chapters on preparedness, which this entry explicitly forward-references.
 
 %%
 
