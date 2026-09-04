@@ -10,8 +10,14 @@ accessed: 2026-07-28
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -47,29 +53,31 @@ Element-wise operations executed by dedicated hardware acceleration can use non-
 
 Reductions sum multiple parallel elements into one. Floating-point addition is non-associative: $a+(b+c)\neq(a+b)+c$. Each addition rounds, and the rounding depends on the relative magnitudes of the operands (Goldberg, [1991](#bib.bib12 "What every computer scientist should know about floating-point arithmetic")).
 
-$c$ $p_{0}$ $+$ $p_{1}$ $+$ $p_{2}$ $+$ $p_{3}$ $+$
+{--{"author":"Luc's AI","timestamp":1788540804995}@@$c$ $p_{0}$ $+$ $p_{1}$ $+$ $p_{2}$ $+$ $p_{3}$ $+$--}{++{"author":"Luc's AI","timestamp":1788540804995}@@- **(a) Sequential:** $(((c+p_{0})+p_{1})+p_{2})+p_{3}$ — each operand is added in one at a time.++}
 
-(a) Sequential
+{--{"author":"Luc's AI","timestamp":1788540804995}@@(a) Sequential
 
 $p_{0}$ $p_{1}$ $p_{2}$ $p_{3}$ $p_{4}$ $p_{5}$ $p_{6}$ $p_{7}$ $+$ $+$ $+$ $+$ $c$ $+$ $+$ $+$ $+$
 
 (b) Group pairwise
 
-$c$ $p_{0}$ $p_{1}$ $p_{2}$ $p_{3}$ $p_{4}$ $p_{5}$ $p_{6}$ $+$
+--}{++{"author":"Luc's AI","timestamp":1788540804995}@@- **(b) Group pairwise:** $p_{0}$–$p_{7}$ are summed in pairs ($p_{0}+p_{1}$, $p_{2}+p_{3}$, $p_{4}+p_{5}$, $p_{6}+p_{7}$), the pair-sums are combined two at a time, and ++}$c$ {--{"author":"Luc's AI","timestamp":1788540804995}@@$p_{0}$ $p_{1}$ $p_{2}$ $p_{3}$ $p_{4}$ $p_{5}$ $p_{6}$ $+$--}{++{"author":"Luc's AI","timestamp":1788540804995}@@is folded in partway up the tree: $\big(c+(p_{0}+p_{1}+p_{2}+p_{3})\big)+(p_{4}+p_{5}+p_{6}+p_{7})$.++}
 
-(c) Fused, e.g. a single block FMA
+{--{"author":"Luc's AI","timestamp":1788540804995}@@(c)--}{++{"author":"Luc's AI","timestamp":1788540804995}@@- **(c)++} Fused, e.g. a single block {--{"author":"Luc's AI","timestamp":1788540804995}@@FMA
 
-$c$ $p_{0}$ $p_{1}$ $p_{2}$ $p_{3}$ $p_{4}$ $p_{5}$ $p_{6}$ $p_{7}$ $+$ $+$
+$c$ $p_{0}$ $p_{1}$ $p_{2}$ $p_{3}$ $p_{4}$ $p_{5}$ $p_{6}$ $p_{7}$ $+$ $+$--}{++{"author":"Luc's AI","timestamp":1788540804995}@@FMA:** $c+p_{0}+p_{1}+p_{2}+p_{3}+p_{4}+p_{5}+p_{6}$, summed in a single fused operation with one rounding.++}
 
-(d) Chain of fused, e.g. MMA or reduction across tensor cores
+{--{"author":"Luc's AI","timestamp":1788540804995}@@(d)--}{++{"author":"Luc's AI","timestamp":1788540804995}@@- **(d)++} Chain of fused, e.g. MMA or reduction across tensor {--{"author":"Luc's AI","timestamp":1788540804995}@@cores--}{++{"author":"Luc's AI","timestamp":1788540804995}@@cores:** two chained block FMAs, each with its own rounding — first $c+p_{0}+p_{1}+p_{2}+p_{3}$, then that result $+\,p_{4}+p_{5}+p_{6}+p_{7}$.++}
 
 Figure 1: Four summation topologies that compute $c+\sum_{i}p_{i}$. All produce the same result in exact arithmetic, but not in general under floating-point rounding. Adapted from (Xie et al., [2025](#bib.bib8 "MMA-Sim: bit-accurate reference model of tensor cores and matrix cores")).
+
+^fig-1-summation-topologies
 
 On a GPU computing a forward pass of a FFN or attention block in a transformer, there are two distinct factors deciding reduction orders of element summation (e.g. when computing a matrix element of a GEMM[^note-cankaya-4]):
 
 1.  1.
     
-    Hardware-level reduction: An NVIDIA GPU performs GEMMs in subdivided tiles, with the smallest sub-tiles allocated to tensor cores (NVIDIA Corporation, [2025e](#bib.bib30 "NVIDIA PTX ISA reference")). Tensor cores perform matrix multiply-accumulate (MMA) via chains (Figure [1](#S2.F1 "Figure 1 ‣ 2.2 Reductions ‣ 2 Root Causes of Apparent Non-Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs")(d)) of fused block multiply-add (block FMA) units. The topologies of both are fixed in silicon (i.e. the number of p-elements in block FMA as shown in Figure [1](#S2.F1 "Figure 1 ‣ 2.2 Reductions ‣ 2 Root Causes of Apparent Non-Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs")(c) and the chaining inside an MMA) (Khattak and Mikaitis, [2025](#bib.bib7 "Accurate models of NVIDIA tensor cores"); Xie et al., [2026](#bib.bib9 "Bit-accurate modeling of GPU matrix multiply-accumulate units: demystifying numerical discrepancy and accuracy"))[^cite-cankaya-5]. Software can chain many MMA operations together, but cannot change a single MMA’s reduction order[^note-cankaya-6]. CUDA cores, in contrast, are scalar Arithmetic Logic Units (ALUs) without internal reduction. Any multi-operand reduction on CUDA cores is orchestrated by software instructions (warp shuffles, shared-memory trees).
+    Hardware-level reduction: An NVIDIA GPU performs GEMMs in subdivided tiles, with the smallest sub-tiles allocated to tensor cores (NVIDIA Corporation, [2025e](#bib.bib30 "NVIDIA PTX ISA reference")). Tensor cores perform matrix multiply-accumulate (MMA) via chains (Figure [[#^fig-1-summation-topologies|1]](d)) of fused block multiply-add (block FMA) units. The topologies of both are fixed in silicon (i.e. the number of p-elements in block FMA as shown in Figure [[#^fig-1-summation-topologies|1]](c) and the chaining inside an MMA) (Khattak and Mikaitis, [2025](#bib.bib7 "Accurate models of NVIDIA tensor cores"); Xie et al., [2026](#bib.bib9 "Bit-accurate modeling of GPU matrix multiply-accumulate units: demystifying numerical discrepancy and accuracy"))[^cite-cankaya-5]. Software can chain many MMA operations together, but cannot change a single MMA’s reduction order[^note-cankaya-6]. CUDA cores, in contrast, are scalar Arithmetic Logic Units (ALUs) without internal reduction. Any multi-operand reduction on CUDA cores is orchestrated by software instructions (warp shuffles, shared-memory trees).
     
 2.  2.
     
@@ -248,6 +256,7 @@ Sparse random sampling makes even software-only emulation with no hardware-accel
 $$
 P_{detect}(\geq 1)=1-(1-p_{false})^{k}
 $$
+^eq-p-detect
 
 This works against a covert adversary that attempts to misreport a percentage of computation in large-scale AI inference. Verifying enough samples to provide strong statistical assurance requires only tens to hundreds of CPUs running continuously (see Appendix [[#^appendix-c-inference-flop-calculation|C]]), regardless of the prover’s total throughput.
 
@@ -336,7 +345,7 @@ For context, OpenRouter reports aggregate daily token traffic of approximately $
 
 #### Detection-probability scaling.
 
-Applying [Equation 1](#S6.E1 "In Cost of re-computation. ‣ 6 Implications for AI Governance ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs") to a covert adversary misreporting 0.1% of records ($p_{\text{false}}=10^{-3}$):
+Applying {--{"author":"Luc's AI","timestamp":1788540803825}@@[Equation 1](#S6.E1 "In Cost of re-computation. ‣ 6 Implications for AI Governance ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs") --}{++{"author":"Luc's AI","timestamp":1788540803825}@@[[#^eq-p-detect|Equation 1]] ++}to a covert adversary misreporting 0.1% of records ($p_{\text{false}}=10^{-3}$):
 
 $$
 P_{\text{detect}}(k=3{,}200)\approx 0.96,\qquad P_{\text{detect}}(k=32{,}000)\approx 1-10^{-14}.
