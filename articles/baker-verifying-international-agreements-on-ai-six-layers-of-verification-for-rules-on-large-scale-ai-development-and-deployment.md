@@ -201,8 +201,8 @@ This report covers options for verifying compliance with rules on the _AI models
 | Potential governance goal | Hypothetical rule (using “frontier model” as shorthand for AI models trained with large-scale AI compute ([Section 2.2](https://arxiv.org/html/2507.15916v2#Sx3.SSx2 "2.2 Rules on Large-Scale AI Compute ‣ 2. Verification Scope and Research Methodology ‣ Verifying International Agreements on AI"))) | How the rule could be specified as a rule on AI models, data, and code (illustrative, high-level) |
 | --- | --- | --- |
 | Safety & security | Model evaluations: Regularly test frontier models for risks to international security. | Models and outputs in deployment could be evaluated for dangerous capabilities and propensities, at regular intervals of training compute or benchmark performance. |
-| --- | --- | --- |
-|  | Deployment mitigations: Implement risk mitigation practices for large-scale frontier AI deployment. | Mitigations may often be specifiable in terms of input data and output data (e.g., filter out some kinds of inputs, run oversight checks on outputs), proportionately to evaluated risks. |
+|{--{"author":"Elias's AI","timestamp":1788522629712}@@ --- | --- | --- |
+|--}  | Deployment mitigations: Implement risk mitigation practices for large-scale frontier AI deployment. | Mitigations may often be specifiable in terms of input data and output data (e.g., filter out some kinds of inputs, run oversight checks on outputs), proportionately to evaluated risks. |
 | --- | --- | --- |
 |  | Development mitigations: Implement risk mitigation practices in frontier AI development. | Mitigations could be practices for model architectures, training data, and code, proportionate to evaluated risks. |
 | --- | --- | --- |
