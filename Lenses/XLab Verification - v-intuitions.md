@@ -139,6 +139,7 @@ optional:: true
 content:: Consider your strongest arguments and their strongest objections. Synthesize ideas from your earlier responses into a short essay answering: How robust is Plan A's verification regime, and where is it most likely to fail?
 
 At the end, briefly justify the recommendation you selected above. (400 to 600 words)
+assessment-instructions:: This is option A's final essay and it must build on the four earlier answers rather than start over. Four things, 25 points each: (1) the essay states how robust the regime is and where it is most likely to fail, and connects the two rather than listing them; (2) material from at least three of the four earlier angles appears, the load-bearing strength, the weakest link, the timeline bottleneck, and the tolerable covert margin; (3) the strongest objection to the learner's own position is stated and answered, not merely acknowledged; (4) the recommendation selected above, adopt largely as written, adopt only with significant amendments, or reject in favour of a different approach, is justified, and the justification matches the body of the essay. Any of the three recommendations can earn full credit. Penalise an essay whose verdict does not follow from its own findings. No generic praise.
 feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
@@ -164,6 +165,7 @@ Questions to consider:
 - Where might reasonable inspectors disagree about whether a violation has occurred?
 
 Make a preliminary judgment. Delineate your evidence-backed reasons from intuitions. (100 to 150 words)
+assessment-instructions:: Either plan is a defensible answer; score the reasoning. Four things, 25 points each: (1) the central restriction is stated for both plans, Plan A permitting substantial AI activity under a layered regime and Plan S calling for a much stronger halt on frontier development; (2) for each plan the answer says what inspectors would have to establish before concluding compliance, and what observable physical, computational or organisational trace the prohibited activity would leave; (3) the answer addresses whether prohibited activity could hide inside activity that stays permitted, and where reasonable inspectors could disagree about whether a violation occurred; (4) a preliminary judgment is made about which target is more tractable, with evidence-backed reasons kept separate from intuitions as the prompt requires. No generic praise.
 feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
