@@ -10,17 +10,17 @@ description: "TurnTrout discusses a common misconception in reinforcement learni
 tags:
   - "article-importer"
 llm-review:
-  date: 2026-08-27
+  date: 2026-09-04
   model: "sonnet"
-  version: "article-qc-v2"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-27
+    fetched: 2026-09-04
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+Note the essay's own scope caveat (added later, in the "ETA 9/18/23" line): the argument targets model-free policy gradient methods (e.g. PPO, REINFORCE), not RL in general. Worth prompting discussion of how the "reward chisels cognition rather than being optimized" framing extends (or doesn't) to model-based RL and to later shard-theory follow-ups.
 
 %%
 
@@ -91,7 +91,7 @@ But obviously these conditions aren’t true in the real world. Your learning al
     1.  Suppose the agent puts away trash in a blue room. Why won’t early-stage agents think thoughts like “If putting trash away will lead to the wall being blue, then execute `motor-subroutine-#642`”, and then this gets reinforced into blue-wall-focused cognition early on? [Why consider either scenario to begin with](https://www.readthesequences.com/Privileging-The-Hypothesis)?
 2.  But aren’t we implicitly selecting for agents with high cumulative reward, when we train those agents?
     1.  Yeah. But on its own, this argument can’t possibly imply that selected agents will probably be reward optimizers. The argument would [prove too much](https://slatestarcodex.com/2013/04/13/proving-too-much/). Evolution selected for inclusive genetic fitness, and it [did not get IGF optimizers](https://www.alignmentforum.org/posts/XPErvb8m9FapXCjhA/adaptation-executers-not-fitness-maximizers).
-        1.  "We're selecting for agents on reward $\rightarrow$  we get an agent which optimizes reward" is locally invalid. "We select for agents on X $\rightarrow$ we get an agent which optimizes X" is not true for the case of evolution, and so is not true in general. 
+        1.  "We're selecting for agents on reward {--{"author":"Luc's AI","timestamp":1788543022547}@@$\rightarrow$--}{++{"author":"Luc's AI","timestamp":1788543022547}@@→++}  we get an agent which optimizes reward" is locally invalid. "We select for agents on X {--{"author":"Luc's AI","timestamp":1788543022547}@@$\rightarrow$--}{++{"author":"Luc's AI","timestamp":1788543022547}@@→++} we get an agent which optimizes X" is not true for the case of evolution, and so is not true in general. 
         2.  Therefore, the argument isn't necessarily true in the AI reward-selection case. Even if RL _did_ happen to train reward optimizers and this post _were_ wrong, the selection argument is too weak on its own to establish that conclusion.
     2.  Here’s the more concrete response: Selection isn’t _just_ for agents which get lots of reward. 
         1.  For simplicity, consider the case where on the training distribution, the agent gets reward if and only if it reaches a goal state. Then any selection for reward is also selection for reaching the goal. And if the goal is the only red object, then selection for reward is _also_ selection for reaching red objects. 
