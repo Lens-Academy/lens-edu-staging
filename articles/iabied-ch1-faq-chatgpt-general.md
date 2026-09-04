@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ entry is deliberately dated to mid/late 2025 (it references GPT-5 and "as of August 2025"), so its assessment of ChatGPT's capabilities will likely read as stale to later readers — worth flagging that the authors' core distinction (general vs. superhuman/superintelligent AI) is meant to outlast the specific model comparisons.
 
 %%
 #### You could call it that if you'd like.
