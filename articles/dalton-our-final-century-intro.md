@@ -41,8 +41,3 @@ Key concepts from this session include:
 
 - **Expected value:** We're often uncertain about how much something will help. In such circumstances, it may make sense to weigh each of the outcomes by the likelihood that they occur and pick the action that looks best in expectation.
 - **Crucial considerations:** It can be extremely hard to figure out whether some action helps your goal or causes harm, particularly if you're trying to influence complex social systems or the long term. This is part of why it can make sense to do a lot of analysis of the interventions you're considering.
-{--{"author":"Luc's AI","timestamp":1788446124275}@@
----
-
-*This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
---}

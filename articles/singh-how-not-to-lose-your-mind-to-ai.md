@@ -38,17 +38,11 @@ The approaches that researchers and practitioners suggest for protecting cogniti
 
 ### Pre-delegation: before AI enters the loop
 
-{--{"author":"Luc's AI","timestamp":1788448524019}@@**The --}{++{"author":"Luc's AI","timestamp":1788448524019}@@:::callout {title="The ++}Pre-Delegation {--{"author":"Luc's AI","timestamp":1788448524019}@@Trap**
-
---}{++{"author":"Luc's AI","timestamp":1788448524019}@@Trap" tone="amber"}
-++}-{--{"author":"Luc's AI","timestamp":1788448524019}@@   --}{++{"author":"Luc's AI","timestamp":1788448524019}@@ ++}**The Problem:** We instinctively outsource the blank page before we even know what we think, conditioning ourselves to let models drive our initial direction.{--{"author":"Luc's AI","timestamp":1788448524019}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788448524019}@@
-++}-{--{"author":"Luc's AI","timestamp":1788448524019}@@   --}{++{"author":"Luc's AI","timestamp":1788448524019}@@ ++}**The Friction Fix:** Spend 5 minutes jotting down rough bullets of your baseline knowledge before prompting. If the domain is entirely blank, ask the AI for _diagnostic questions_, not answers.{--{"author":"Luc's AI","timestamp":1788448524019}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788448524019}@@
+:::callout {title="The Pre-Delegation Trap" tone="amber"}
+- **The Problem:** We instinctively outsource the blank page before we even know what we think, conditioning ourselves to let models drive our initial direction.
+- **The Friction Fix:** Spend 5 minutes jotting down rough bullets of your baseline knowledge before prompting. If the domain is entirely blank, ask the AI for _diagnostic questions_, not answers.
 :::
-++}
+
 The temptation at this stage is the most familiar one. A task lands in the inbox, the blank prompt box is right there, and the friction of writing out what you actually think before asking for help feels like time you don’t have. Skipping that step is the default mode for most people I know, including me. It’s also where we risk conditioning ourselves to offload our thinking to the models, gradually losing our cognitive and creative muscles.
 
 [A 2026 randomised trial](https://arxiv.org/abs/2604.04721) found that after just 10 to 15 minutes of AI-assisted problem-solving, participants performed worse than a control group on follow-up problems without AI, and were more likely to give up entirely. One proposed explanation is the removal of productive struggle: working through difficulty is how people develop competency and accurate self-knowledge of what they can do unaided, and when AI absorbs that struggle, the underlying capability erodes.
@@ -63,17 +57,11 @@ Both behaviours do the same thing in different forms. They keep our thinking ahe
 
 ### Engagement: while AI is in the loop
 
-{--{"author":"Luc's AI","timestamp":1788448523757}@@**The --}{++{"author":"Luc's AI","timestamp":1788448523757}@@:::callout {title="The ++}Engagement {--{"author":"Luc's AI","timestamp":1788448523757}@@Trap**
-
---}{++{"author":"Luc's AI","timestamp":1788448523757}@@Trap" tone="amber"}
-++}-{--{"author":"Luc's AI","timestamp":1788448523757}@@   --}{++{"author":"Luc's AI","timestamp":1788448523757}@@ ++}**The Problem:** Getting carried away by momentum, inadvertently editing the AI’s brief rather than authoring your own within a frame you didn’t choose.{--{"author":"Luc's AI","timestamp":1788448523757}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788448523757}@@
-++}-{--{"author":"Luc's AI","timestamp":1788448523757}@@   --}{++{"author":"Luc's AI","timestamp":1788448523757}@@ ++}**The Friction Fix:** Deploy the “nemesis prompt.” Force the model to find holes in its own logic and treat it as a sparring partner to push against, rather than an authority to defer to.{--{"author":"Luc's AI","timestamp":1788448523757}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788448523757}@@
+:::callout {title="The Engagement Trap" tone="amber"}
+- **The Problem:** Getting carried away by momentum, inadvertently editing the AI’s brief rather than authoring your own within a frame you didn’t choose.
+- **The Friction Fix:** Deploy the “nemesis prompt.” Force the model to find holes in its own logic and treat it as a sparring partner to push against, rather than an authority to defer to.
 :::
-++}
+
 Once the conversation with an AI on a task gets going, it’s easy to feel carried forward. You’re tweaking, improving and making progress. But at some point, almost without noticing, the origin of the work shifts. The draft you’re refining came from the model. The options you’re weighing were its suggestions. You’ve been thinking hard, but inside a frame you didn’t choose.
 
 [A 2026 Anthropic analysis](https://www.anthropic.com/research/AI-fluency-index) of nearly 10,000 Claude conversations found that users specified their preferred interaction style in only 30% of cases. In the remaining conversations, the AI’s defaults shaped the exchange. The authors note what ‘setting the terms of the exchange’ might look like: asking the model to push back on assumptions, walk through its reasoning before answering, or flag what it’s uncertain about. Most conversations don’t include instructions like these. The frame ends up being AI’s, not because anyone chose it, but because no one specified anything else.
@@ -88,17 +76,11 @@ Conversations with AI reward momentum over reflection. Without an interruption, 
 
 ### Evaluation: what to do with what AI delivers
 
-{--{"author":"Luc's AI","timestamp":1788448523488}@@**The --}{++{"author":"Luc's AI","timestamp":1788448523488}@@:::callout {title="The ++}Evaluation {--{"author":"Luc's AI","timestamp":1788448523488}@@Trap**
-
---}{++{"author":"Luc's AI","timestamp":1788448523488}@@Trap" tone="amber"}
-++}-{--{"author":"Luc's AI","timestamp":1788448523488}@@   --}{++{"author":"Luc's AI","timestamp":1788448523488}@@ ++}**The Problem:** “Fluency bias” - mistaking highly polished, well-structured output for objective truth or deep understanding.{--{"author":"Luc's AI","timestamp":1788448523488}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788448523488}@@
-++}-{--{"author":"Luc's AI","timestamp":1788448523488}@@   --}{++{"author":"Luc's AI","timestamp":1788448523488}@@ ++}**The Friction Fix:** Pay down your _epistemic debt_ by closing the chat and restating the causal logic in your own words. Never treat a substantive claim as settled until it survives contact with an independent source.{--{"author":"Luc's AI","timestamp":1788448523488}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788448523488}@@
+:::callout {title="The Evaluation Trap" tone="amber"}
+- **The Problem:** “Fluency bias” - mistaking highly polished, well-structured output for objective truth or deep understanding.
+- **The Friction Fix:** Pay down your _epistemic debt_ by closing the chat and restating the causal logic in your own words. Never treat a substantive claim as settled until it survives contact with an independent source.
 :::
-++}
+
 The temptation at the evaluation stage is different. By the time AI hands something back, it’s usually polished and well-structured. You’ve already spent effort on battling the model to get the desired output, and the friction of stress-testing what’s in front of you feels like overkill, especially when nothing about the output sets off an alarm.
 
 [Anthropic](https://www.anthropic.com/research/AI-fluency-index) identified a related pattern in user conversations with Claude at the evaluation stage. When outputs were more polished, users challenged the reasoning less, asked fewer questions about missing context, and verified fewer factual claims. They became more directive about format and presentation, and less evaluative about substance. The finding is correlational, so we cannot say polish causes the drop in scrutiny, but the pattern shows up across thousands of conversations.

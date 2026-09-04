@@ -128,7 +128,7 @@ Kasparov seems to have expected this to look like Deep Blue only playing "logica
 
 In one sense, Deep Blue lacked just the gear that Kasparov thought it lacked.[^note-iabied-ftnt86] But that did not prevent it from finding moves that struck Kasparov as wonderful, and it did not prevent Deep Blue from winning.
 
-It was not that Deep Blue was {--{"author":"Luc's AI","timestamp":1788449355360}@@missinga--}{++{"author":"Luc's AI","timestamp":1788449355360}@@missing a++} part that real human chess players would have and therefore played defective chess; that's like expecting a robotic arm containing no blood to fail in the same way as a bloodless human arm would fail.
+It was not that Deep Blue was missing a part that real human chess players would have and therefore played defective chess; that's like expecting a robotic arm containing no blood to fail in the same way as a bloodless human arm would fail.
 
 Deep Blue was just playing Kasparov-level chess via a different kind of cognition.
 

@@ -20,7 +20,7 @@ llm-review:
 %%
 Add discussion note here:
 
-{--{"author":"Luc's AI","timestamp":1788443833972}@@...--}{++{"author":"Luc's AI","timestamp":1788443833972}@@Baumann writes from an explicitly non-speciesist starting point that gives equal weight to future individuals' interests; useful discussion prompt is how the argument's force changes under different population-ethics or moral-uncertainty assumptions, and whether "improving people's values" is really the most tractable lever compared to the institutional/technical interventions he sets aside as out of scope.++}
+Baumann writes from an explicitly non-speciesist starting point that gives equal weight to future individuals' interests; useful discussion prompt is how the argument's force changes under different population-ethics or moral-uncertainty assumptions, and whether "improving people's values" is really the most tractable lever compared to the institutional/technical interventions he sets aside as out of scope.
 
 %%
 

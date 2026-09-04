@@ -40,7 +40,3 @@ Key concepts from this chapter include:
 - **Impartiality:** helping those that need it the most (only discounting people according to location, time, and species if those factors are in fact morally relevant).
 - **The importance (and difficulty) of considering unusual ideas:** Society's consensus has been wrong about many things over history (e.g. the sun circling the Earth, the morality of slavery). In order to avoid making similar mistakes, we need to be open to considering unusual ideas and moral positions, while still thinking critically about the issues and acting cooperatively with others.
 
-{--{"author":"Luc's AI","timestamp":1788445938644}@@---
-
-*This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
---}

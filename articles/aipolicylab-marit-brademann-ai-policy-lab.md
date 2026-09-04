@@ -37,18 +37,3 @@ This paper argues that the unmediated use of GenAI in educational settings under
 The paper concludes that arbitrary cognitive offloading via GenAI jeopardizes the normative goals of quality education, as defined by frameworks like UNICEF’s and Bloom’s Revised Taxonomy. It calls for a revision of the EU’s normative approach to general-purpose GenAI, emphasizing the need to protect young learners’ right to cognitive development and autonomy.
 
 **Keywords:** cognitive offloading, metacognition, AI in education, right to education, metacognitive laziness, OECD, EU AI Act, CULT
-{--{"author":"Luc's AI","timestamp":1788443049854}@@
-:::collapse
-## Finished Externships
-
-| Name | Year | Topic | Project | Organization |
-| --- | --- | --- | --- | --- |
-| [Tuva Falk](http://www.linkedin.com/in/tuvafalk) | 2025 | Designing Responsible AI | [The power of User-Selected Metrics](https://aipolicylab.se/externships/name/) | Umeå University |
-| [Tay Warner Macintosh](https://www.linkedin.com/in/tay-warner-mackintosh-2b970b296/) | 2025 | AI and Homelessness | [Ethical AI in the third sector - systems supporting people experiencing homelessness](https://aipolicylab.se/externships/name-2/) | University of Edinburgh |
-| [Kevin Harerimana](https://www.linkedin.com/in/kevin-harerimana-88641b1a4/) | 2025 | AI in Education | [Policy Recommendations for Equitable AI-Driven Education in sub-saharan Countries: Ensuring Accessibility and Fairness](https://aipolicylab.se/externships/name-3/) | Carnegie Mellon University |
-| Mariia Lesina | 2026 | AI and Human Rights | [Statelessness and AI](https://aipolicylab.se/externships/mariia-lesina/) | Lund University |
-| Viktoriia Babaievska | 2026 | AI and Data Privacy | [AI in Cross-Border Litigation and Arbitration](https://aipolicylab.se/externships/viktoriia-babaievska/) | University of Bologna |
-| Rusydi Farhan | 2026 | Global Coordination and Policy Harmonization | [Discipline and Punishment in AI policy](https://aipolicylab.se/externships/rusydi-farhan/) | De Montfort University |
-| Chaeyeon Lim | 2026 | AI and Education | [Examining the evolving landscape of AI policies in educational settings](https://aipolicylab.se/externships/chaeyeon-lim/) | University College London |
-:::
---}

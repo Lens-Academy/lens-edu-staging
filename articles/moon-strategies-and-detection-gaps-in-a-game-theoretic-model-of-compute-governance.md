@@ -37,11 +37,11 @@ This report documents research and analysis conducted as part of a study to inve
 
 ## Recommendations
 
-{++{"author":"Luc's AI","timestamp":1788446587597}@@-   To develop effective AI governance, policymakers should support efforts to find detection gaps in compute-based monitoring schemes.
+-   To develop effective AI governance, policymakers should support efforts to find detection gaps in compute-based monitoring schemes.
 -   Policymakers should continue to pursue both compute- and noncompute-based AI governance.
 -   Continuing research into effective thresholds for compute monitoring is required to create a robust compute-based monitoring framework that can adapt to technological progress.
 
-++}## {--{"author":"Luc's AI","timestamp":1788446587597}@@Topics--}{++{"author":"Luc's AI","timestamp":1788446587597}@@Document Details++}
+## Document Details
 
 -   **Availability:** Web-Only
 -   **Year:** 2025

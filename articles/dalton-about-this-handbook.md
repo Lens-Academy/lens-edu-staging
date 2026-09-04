@@ -80,11 +80,7 @@ We shouldn't lose sight of our privilege in being able to read and discuss these
 ## Explore further
 
 This handbook aims to introduce people to effective altruism in a structured manner. There are far too many relevant topics, ideas, and research for all but a small fraction of them to fit into this very short program. If you are interested in these topics, you may find it very useful to dive into the linked websites, and the websites those sites link to, and so on.
-{--{"author":"Luc's AI","timestamp":1788447660853}@@
----
 
-*This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
---}
 [^note-dalton-1]: This handbook is also accessible as a Google Doc version [here](https://docs.google.com/document/d/1ju83W3yFqvUBvsSrHadjEwazNBphCTmLWd-xZkVArBM/edit?usp=sharing).
 
 [^note-dalton-2]: Our goal is to introduce people to some of the core principles of effective altruism, to share the arguments for different problems that people in effective altruism work on, and to encourage you to think about what you want to do on the basis of those ideas. We also tried to give a balance of materials that is in line with the (significant) diversity of views on these topics within effective altruism. In drawing up the curriculum, we consulted community members, subject matter experts, and program facilitators. We think that these readings are interesting and give a good introduction, but we hope that you engage with them critically, rather than taking them all at face value. Once you've read this curriculum, we encourage you to explore other EA writings (e.g. on [this wiki](https://forum.effectivealtruism.org/topics/all)).

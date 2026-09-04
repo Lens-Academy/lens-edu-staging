@@ -39,7 +39,7 @@ Even if intelligence weren't subject to threshold effects, we're skeptical of th
 
 The problem is that AIs are grown rather than crafted, and nobody is anywhere close to figuring out how to grow AIs that robustly care about *anything* their designers want them to.
 
-That problem is not {--{"author":"Luc's AI","timestamp":1788454517154}@@solvedby--}{++{"author":"Luc's AI","timestamp":1788454517154}@@solved by++} growing more AIs at the earliest moment it's possible to grow them. The idea is practically a non sequitur. See also some of Soares's old writing on how [AI alignment requires serial effort](https://www.lesswrong.com/posts/4ujM6KBN4CyABCdJt/ai-alignment-researchers-don-t-seem-to-stack).
+That problem is not solved by growing more AIs at the earliest moment it's possible to grow them. The idea is practically a non sequitur. See also some of Soares's old writing on how [AI alignment requires serial effort](https://www.lesswrong.com/posts/4ujM6KBN4CyABCdJt/ai-alignment-researchers-don-t-seem-to-stack).
 
 The non sequitur was, nevertheless, picked up by OpenAI CEO Sam Altman, who [gave it as his excuse in 2023](https://www.obsolete.pub/p/sam-altmans-chip-ambitions-undercut) for OpenAI to rush ahead as fast as possible.
 
@@ -47,6 +47,4 @@ This excuse was then revealed to be hollow when that same Sam Altman rushed to b
 
 We think this is a decent case study in how executives at AI companies will latch onto whatever argument they think might fly to excuse racing ahead. We think that most such arguments can be dismissed on their merits, and we [recommend against](https://ifanyonebuildsit.com/12/workable-plans-will-involve-telling-ai-companies-no) putting any extra stock in an argument because an AI corporate executive has made it.
 
-{--{"author":"Luc's AI","timestamp":1788454516820}@@#### Notes
-
-[1]--}{++{"author":"Luc's AI","timestamp":1788454516820}@@[^note-large-light-bulb]:++} *large light bulb:* McMurray et al.'s [paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC4535334/) gives an average basal metabolic rate (the minimum resting energy consumption) of about 0.863 kilocalories per hour per kilogram, which works out to about 1 watt per kg or about 60-80 watts for a human. That's only [60-80% of total energy expenditure](https://pmc.ncbi.nlm.nih.gov/articles/PMC2818133/), which — including physical activity — is about 100 watts.
+[^note-large-light-bulb]: *large light bulb:* McMurray et al.'s [paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC4535334/) gives an average basal metabolic rate (the minimum resting energy consumption) of about 0.863 kilocalories per hour per kilogram, which works out to about 1 watt per kg or about 60-80 watts for a human. That's only [60-80% of total energy expenditure](https://pmc.ncbi.nlm.nih.gov/articles/PMC2818133/), which — including physical activity — is about 100 watts.

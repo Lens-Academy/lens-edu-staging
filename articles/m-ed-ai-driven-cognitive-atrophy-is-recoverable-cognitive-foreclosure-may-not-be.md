@@ -57,7 +57,7 @@ But a young adult’s interaction is more likely to be substitution, where the A
 
 Shen and Tamkin's 2026 preprint showed this with software developers (adults) learning a new coding library. Developers who fully delegated to AI produced working code but failed conceptual quizzes afterward. They couldn't debug what the AI had written for them. They had the output without the understanding.
 
-Remember: These were adults with existing programming expertise. They performed 17 percent worse {--{"author":"Luc's AI","timestamp":1788447826029}@@that--}{++{"author":"Luc's AI","timestamp":1788447826029}@@than++} the group without AI assistance.
+Remember: These were adults with existing programming expertise. They performed 17 percent worse than the group without AI assistance.
 
 Now consider a child encountering programming for the first time with zero expertise to fall back on. There’s no reference to even compare AI output against. The substitution becomes foreclosure.
 

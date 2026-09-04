@@ -24,7 +24,7 @@ Add discussion note here:
 
 %%
 
-{++{"author":"Luc's AI","timestamp":1788448110735}@@### Labor Code - LAB ^labor-code-lab
+### Labor Code - LAB ^labor-code-lab
 
 #### DIVISION 2. EMPLOYMENT REGULATION AND SUPERVISION [200 - 2699.8] ^division-2-employment-regulation-and-supervision
 
@@ -38,7 +38,7 @@ _(Part 3 enacted by Stats. 1937, Ch. 90.)_
 
 _(Chapter 5.1 added by Stats. 2025, Ch. 138, Sec. 4.)_
 
-++}###### 1107.{++{"author":"Luc's AI","timestamp":1788448110735}@@ ^section-1107++}
+###### 1107. ^section-1107
 
   
 

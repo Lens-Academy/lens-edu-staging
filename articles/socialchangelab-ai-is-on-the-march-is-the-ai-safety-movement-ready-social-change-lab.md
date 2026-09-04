@@ -54,6 +54,4 @@ The civic side of AI safety is small, underfunded, and loosely connected – but
 
 The findings above are a summary. The full report, including methodology and supporting evidence, is available on socialchangelab.org.
 
-[Read the report](https://drive.google.com/file/d/1yW-za20QE3U2zoEuEUUtDyp8GdEv0yqt/view?usp=sharing){--{"author":"Luc's AI","timestamp":1788446480525}@@
-
-AI safety--}
+[Read the report](https://drive.google.com/file/d/1yW-za20QE3U2zoEuEUUtDyp8GdEv0yqt/view?usp=sharing)
