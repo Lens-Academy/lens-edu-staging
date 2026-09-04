@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+The evolution/reproduction analogy is a strong discussion hook: ask learners what modern human behavior around contraception, sperm/egg donation, and entertainment reveals about how a system trained toward one proxy objective can end up with internal drives that only loosely track it once it gains more capability or control over its environment.
 
 %%
 
