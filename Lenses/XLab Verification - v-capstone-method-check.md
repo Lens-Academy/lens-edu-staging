@@ -51,6 +51,7 @@ options::
 - Continue as scoped
 - Continue, re-scoped (say how in the next answer)
 - Switch brief (give the full proposal for the new brief in the next answer)
+feedback-instructions:: Not graded, and the decision is the learner's; all three outcomes are fine. Acknowledge it in one line without endorsing or second-guessing it, then say what the next answer has to contain: for continue or re-scope, the restated realistic version and what is now out of scope; for a switch, the new brief's name followed by its full proposal. If they chose Switch, add that the replacement must be a bank brief rated at 10 to 14 hours, because about ten hours of project time remain, and that this is the last checkpoint at which switching is allowed. No praise.
 
 #### Question: Open
 id:: 15acf766-f87f-428b-a97a-a61de983eab5
