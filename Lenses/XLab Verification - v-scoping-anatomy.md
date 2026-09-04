@@ -93,6 +93,7 @@ A prohibition may not contain all three types of requirement. Support your answe
 placeholder:: Quote the words you are talking about.
 optional:: true
 assessment-instructions:: Full credit: one prohibition from Article IV, V, VI, or VIII is named; each of the three requirement types (do, refrain, permit) is either filled with a quoted or closely paraphrased clause or explicitly marked as absent from that prohibition; the references are to the actual text. Penalize answers that describe the article's purpose instead of its three duties, and answers that invent a duty the text does not contain. No generic praise.
+feedback-instructions:: Go through the three requirement types in order, do, refrain, permit. For each, say whether it was filled from the text, correctly marked absent, or missed. If a duty was described that the agreement does not contain, quote back what the text does say. If the answer gave the article's purpose instead of its duties, name the sentence that would have carried each one. Close by telling the learner to carry the same prohibition into question 3. No praise.
 
 #### Question: Open
 id:: 7d9b33a6-250c-41b3-aeb3-daae48c85383
@@ -110,6 +111,7 @@ Guidance: compare Articles VII and IX.
 placeholder:: Quote the words you are talking about.
 optional:: true
 assessment-instructions:: Full credit: the learner picks one of the three locations for the prohibition chosen in Question 2 and supports it with a quotation from the agreement that shows where the method lives (the article itself, an annex, or a delegation to an institution or body). The comparison of Article VII (chip use verification) with Article IX (research restriction verification) should surface that the two prohibitions locate their methods differently. Partial credit for a correct location without a quotation. No generic praise.
+feedback-instructions:: Say which of the three locations the learner chose and whether a quotation supports it; if none was given, name where in the agreement one would come from. Then, if Article VII was not compared with Article IX, say that the two prohibitions locate their methods differently and ask which of the two their own prohibition resembles. No praise.
 
 #### Question: Open
 id:: 9071fd5b-8b0f-4dd0-80bf-93960ebca7af
