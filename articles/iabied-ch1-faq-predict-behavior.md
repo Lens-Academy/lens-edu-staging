@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This entry makes a key distinction the book leans on repeatedly: unpredictability of an agent's specific moves is compatible with high predictability of the outcome it steers toward. Worth pairing with later discussion of instrumental convergence and optimization power.
 
 %%
 #### In some respects, but not in every respect.

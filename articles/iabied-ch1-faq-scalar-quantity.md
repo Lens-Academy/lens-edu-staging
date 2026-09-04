@@ -7,17 +7,23 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-#### No. But there are levels AI hasn't reached.
+#### No. But there are levels AI hasn't reached. ^no-but-there-are-levels-ai-hasnt-reached
 
-We've sometimes heard it suggested that the idea of superintelligence assumes that "intelligence" is a simple, one-dimensional quantity. Pour more AI research in, get more "intelligence" out — as though intelligence were less like a machine, and more like a fluid that you can just keep pumping out of the ground.
+We've sometimes heard it suggested that the idea of superintelligence assumes that "intelligence" is a simple, one-dimensional quantity.[^cite-davis-ethical-guidelines] Pour more AI research in, get more "intelligence" out — as though intelligence were less like a machine, and more like a fluid that you can just keep pumping out of the ground.
 
 We agree with the underlying critique: Intelligence isn't a simple scalar quantity. It may not always be straightforward to build smarter AIs by just throwing more computing hardware at the problem (although sometimes it will be, if the last decade is any indication). Likewise, gains in intelligence may not always translate directly into gains in power. The world is complicated, and capabilities can run into bottlenecks and plateaus.
 
@@ -27,6 +33,6 @@ Human intelligence has many limitations, and yet it put us on the moon. Animal i
 
 Artificial superintelligences could have limitations and complications as well, while still being able to blow humans out of the water. A qualitative gap could still open up between them and us, if researchers and engineers keep racing to create AIs that are ever-more capable.
 
-#### Notes
+{--{"author":"Luc's AI","timestamp":1788525694538}@@#### Notes
 
-[1] *heard it suggested:* See, for example, Ernest Davis's "[Ethical Guidelines for a Superintelligence](https://cs.nyu.edu/~davise/papers/Bostrom.pdf)."
+[1]--}{++{"author":"Luc's AI","timestamp":1788525694538}@@[^cite-davis-ethical-guidelines]:++} *heard it suggested:* See, for example, Ernest Davis's "[Ethical Guidelines for a Superintelligence](https://cs.nyu.edu/~davise/papers/Bostrom.pdf)."
