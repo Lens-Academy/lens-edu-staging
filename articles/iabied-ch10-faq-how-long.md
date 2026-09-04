@@ -7,15 +7,21 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+Discuss whether the Copernicus/Galileo analogy fully captures the alignment problem: ordinary science can recover from a wrong consensus because there are survivors to try again, whereas the authors argue an ASI mistake forecloses that option entirely.
 
 %%
-#### The difficulty isn't just the lack of time; it's the lethality of mistakes.
+#### The difficulty isn't just the lack of time; it's the lethality of mistakes. ^difficulty-isnt-lack-of-time
 
 "How long would it take?" is a [hard call](https://ifanyonebuildsit.com/2/obvious-insights-take-time), in part because it's somewhat missing the point. If researchers are tackling a problem in an unproductive way, they can potentially stay "stuck" indefinitely, even if the problem could in principle be solved quickly. It's hard to say today what it would look like to get "un-stuck" and make reliable progress on the problem, but it looks like it would require a pretty radical change in how science and engineering is usually done.
 
