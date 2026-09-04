@@ -5,7 +5,14 @@ title: "Module 0: Foundations"
 tags: [wip]
 ---
 
-# Lens:
+# {++{"author":"Elias's AI","timestamp":1788514612359}@@Submodule: 0.1 Why should you care about AI verification?
+# Learning Outcome:
+source:: [[../Learning Outcomes/Why a pause needs verification]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/The invisibility of prevented catastrophes]]
+
+# ++}Lens:
 source:: [[../Lenses/XLab Verification - v-welcome]]
 
 # Lens:
@@ -24,15 +31,28 @@ source:: [[../Lenses/Four Background Claims]]
 # Lens:
 source:: [[../Lenses/XLab Verification - v-prevention]]
 
-# Lens:
+# {++{"author":"Elias's AI","timestamp":1788514612359}@@Submodule: 0.1.2 We need more theories of change
+# Learning Outcome:
+source:: [[../Learning Outcomes/Evaluating a theory of change]]
+
+# ++}Lens:
 source:: [[../Lenses/XLab Verification - v-theories-of-change]]
 
-# Lens:
+# {++{"author":"Elias's AI","timestamp":1788514612359}@@Submodule: 0.2 Building verification intuitions
+# Learning Outcome:
+source:: [[../Learning Outcomes/Stress-testing a verification proposal]]
+
+# ++}Lens:
 source:: [[../Lenses/XLab Verification - v-intuitions]]
 
-# Lens:
+# {++{"author":"Elias's AI","timestamp":1788514612359}@@Submodule: 0.3 History, precedents, parallels
+# Learning Outcome:
+source:: [[../Learning Outcomes/Transfer from historical verification regimes]]
+
+# ++}Lens:
 source:: [[../Lenses/XLab Verification - v-precedents]]
 
-# Lens:
+# {++{"author":"Elias's AI","timestamp":1788514612359}@@Submodule: 0.4 Strategic foundations (optional)
+# ++}Lens:
 source:: [[../Lenses/XLab Verification - v-strategic-foundations]]
 optional:: true
