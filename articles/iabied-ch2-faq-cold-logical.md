@@ -7,15 +7,21 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-#### No.
+#### No. ^no
 
 Just because AIs run on computers doesn't mean their thinking must share the qualities we associate with computers, any more than your thinking must share the qualities associated with biology and chemistry and neurotransmitters.
 
@@ -27,7 +33,7 @@ The heuristic "machines cannot compete with humans" was wrong when Kasparov pred
 
 We'll expand on this point in one of the online supplements to Chapter 3: [Anthropomorphism and Mechanomorphism](https://ifanyonebuildsit.com/3/anthropomorphism-and-mechanomorphism).
 
-#### AIs are new, interesting, weird entities.
+#### AIs are new, interesting, weird entities. ^ais-are-new-interesting-weird-entities
 
 Airplanes fly, but they don't flap their wings. Robot arms function without soft skin or red blood. Transistors work very differently from neurons, and DeepBlue played world-beating chess without the kinds of thoughts that went on inside of Garry Kasparov. This is the usual course of technology.
 
