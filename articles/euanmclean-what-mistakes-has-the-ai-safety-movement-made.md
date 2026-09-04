@@ -9,8 +9,14 @@ accessed: 2026-07-09
 description: "This is the third of three posts summarizing what I learned when I interviewed 17 AI safety experts about their \"big picture\" of the existential AI r…"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -64,7 +70,7 @@ There was a general sense that the way we make sense of AI should be more empiri
 
 This criticism of “too much theoretical, not enough empirical” also applied to the types of research we are doing. 4 respondents focussed on this. This was more a complaint about past research, folks were typically more positive about the amount of empirical work going on now.
 
-2 people pointed at MIRI’s overreliance on idealized models of agency in their research, like [AIXI](https://www.lesswrong.com/w/aixi). [Adrià Garriga-Alonso](https://agarri.ga/) thought that [infrabayesianism](https://www.lesswrong.com/w/infra-bayesianism), parts of singular learning theory and John Wentworth’s [research programs](https://www.alignmentforum.org/users/johnswentworth) are unlikely to end up being helpful for safety:
+2 people pointed at MIRI’s overreliance on idealized models of agency in their research, like [AIXI](https://www.lesswrong.com/w/aixi). [Adrià Garriga-Alonso](https://agarri.ga/) thought that [infrabayesianism](https://www.lesswrong.com/w/infra-bayesianism), parts of singular learning theory and John Wentworth’s [research {--{"author":"Luc's AI","timestamp":1788537618714}@@programs](https://www.alignmentforum.org/users/johnswentworth)--}{++{"author":"Luc's AI","timestamp":1788537618714}@@programs](https://www.lesswrong.com/users/johnswentworth)++} are unlikely to end up being helpful for safety:
 
 > _“I think the theory-only projects of the past did not work that well, and the current ones will go the same way.” -_ Adrià Garriga-Alonso
 
