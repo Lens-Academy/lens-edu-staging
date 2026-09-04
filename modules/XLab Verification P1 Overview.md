@@ -18,7 +18,7 @@ How could parties that do not trust one another verify meaningful limits on adva
 
 \## How the course runs
 
-Five weeks. Each week you work through the material on your own, then meet your group for a discussion that introduces nothing new: it is there for the arguments the readings and exercises leave open.
+Five weeks. Each week you work through the material on your own, then meet your group to discuss the arguments the readings and exercises leave open.
 
 \## The five weeks
 
