@@ -23,6 +23,8 @@ Your first draft of the central finding reads:
 #### Question: Open
 id:: bbb153b5-c932-4f0d-a379-bc451bb3c5fd
 content:: Pause before reading on. What is wrong with this sentence? Every clause in it is true.
+assessment-instructions:: The flaw is provenance, and a full answer has four parts, 25 points each: (1) the 60 percent figure is Iran's own declaration, and Iran is the party the treaty binds; (2) the operating records are kept by the operator, the Atomic Energy Organization of Iran, which runs the plant, so they are the same side rather than a second source; (3) two sources produced by the same side agreeing is internal consistency, and the draft presents it as though it were confirmation; (4) no independently collected stream appears, such as the Agency's own swipe samples, seals and cameras, or satellite imagery. Credit part 3 however the learner reaches it. The explanation has not been read yet, so require the observation, not the vocabulary. No generic praise.
+feedback-instructions:: One turn. Say in a sentence each which of the four the learner got and which they missed, then send them into the paragraph that follows, which explains it. Do not teach provenance here and do not ask a follow-up question. No praise.
 optional:: true{>>{"author":"Elias's AI","timestamp":1788016743664}@@Legacy #### Question converted to Question: Open with a fresh id. XLab renders this as a notebook callout that gates nothing, hence optional. The invalid feedback:: false line is dropped.<<}
 
 #### Text
