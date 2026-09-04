@@ -30,5 +30,5 @@ content::
 :::callout {title="This is where the demo ends" tone="blue"}
 The rest of Module 0 continues from here: why prevented catastrophes look like nothing happened and what that does to AI risk, what a theory of change is and why a field working on existential risk cannot do without one, a stress test of AI 2040's Plan A verification regime, three arms-control documents and the Iraq case for what auditing can and cannot establish, and optional reading pathways in game theory and international relations.
 
-To go through it, sign up for the full course: [Compute Verification on Lens](https://lensacademy.org/courses/ai-verification).
+To go through it, sign up for the full course: [Compute Verification on Lens](https://lensacademy.org/courses/compute-verification).
 :::
