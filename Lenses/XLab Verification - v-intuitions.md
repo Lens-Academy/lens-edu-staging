@@ -209,6 +209,7 @@ Questions to consider:
 - Does a broader prohibition make monitoring easier, or make gaps in coverage more consequential?
 
 Revisit your answer from Part 1. A rule that initially looked simpler may create a demanding monitoring problem once you consider how it would work across the real AI ecosystem. (150 to 200 words)
+assessment-instructions:: Four things, 25 points each: (1) the monitoring burden is compared in scale, how much compute, infrastructure, activity and geography must stay visible under each plan, and the comparison turns on what each agreement still permits; (2) the answer says under which plan inspectors must draw the finer distinctions between permitted and prohibited activity, with a reason; (3) at least one place where important activity could fall outside the regime's field of view is named for each plan; (4) the answer takes a position on whether a broader prohibition makes monitoring easier or makes coverage gaps more consequential, and says whether that revises the judgment made in part 1. Penalise an answer that repeats the part 1 verdict without testing it against scale. No generic praise.
 feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
