@@ -2,12 +2,12 @@
 title: "Thousands of AI Authors on the Future of AI"
 author:
   - "Katja Grace"
-  - "Harlan Stewart 22footnotemark: 2"
-  - "Julia Fabienne Sandkühler 22footnotemark: 2"
-  - "Stephen Thomas 22footnotemark: 2"
+  - "Harlan Stewart"
+  - "Julia Fabienne Sandkühler"
+  - "Stephen Thomas"
   - "Ben Weinstein-Raun"
-  - "Jan Brauner 33footnotemark: 3"
-  - "Richard C. Korzekwa 22footnotemark: 2 33footnotemark: 3"
+  - "Jan Brauner"
+  - "Richard C. Korzekwa"
 source_url: "https://arxiv.org/abs/2401.02843"
 published: 2024-01-01
 created: 2026-06-21
@@ -15,12 +15,18 @@ accessed: 2026-06-21
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is the 2023 Expert Survey on Progress in AI (ESPAI), a self-reported, non-random sample of AI researchers (15% response rate) — treat the aggregate forecasts as evidence of researcher sentiment and its year-over-year shift, not as calibrated predictions. Section 5.2 (Caveats and limitations) and Appendix D discuss forecasting reliability and participation bias directly and are worth assigning alongside the headline numbers in Section 3.
 
 %%
 
@@ -52,7 +58,7 @@ In several parts of the survey, each participant randomly received questions on 
 
 Several questions asked participants to estimate how many years until a milestone will be feasible. In these questions, we asked participants to provide three year-probability pairs (either via the fixed-years framing or fixed-probabilities framing described above), which we used to approximate a probability distribution for that participant by fitting a gamma cumulative distribution function to these points.
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x1.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543381239}@@caption](https://arxiv.org/html/2401.02843/x1.png)--}{++{"author":"Luc's AI","timestamp":1788543381239}@@caption](https://arxiv.org/html/2401.02843/milestones.svg)++}
 
 Figure 1: Most milestones are predicted to have better than even odds of happening within the next ten years, though with a wide range of plausible dates. The figure shows aggregate distributions over when selected milestones are expected, including 39 tasks, four occupations, and two measures of general human-level performance (see Section [3.2](https://arxiv.org/html/2401.02843v3#S3.SS2 "3.2 How soon will human-level performance on all tasks or occupations be feasible? ‣ 3 Results on AI Progress ‣ Thousands of AI Authors on the Future of AI")), shown as solid circles, open circles, and solid squares respectively. Circles/squares represent the year where the aggregate distribution gives a milestone a 50% chance of being met, and intervals represent the range of years between 25% and 75% probability. Note that these intervals represent an aggregate of uncertainty expressed by participants, not estimation uncertainty. The displayed milestone descriptions are summaries; for full descriptions, see Appendix [C](https://arxiv.org/html/2401.02843v3#A3 "Appendix C Full Descriptions of Milestones ‣ Thousands of AI Authors on the Future of AI").
 
@@ -92,9 +98,9 @@ We defined High-Level Machine Intelligence (HLMI) thus:
 
 We asked for predictions, assuming “human scientific activity continues without major negative disruption.” We aggregated the results (n=1,714) by fitting gamma distributions, as with individual task predictions in [3.1](https://arxiv.org/html/2401.02843v3#S3.SS1 "3.1 How soon will 39 tasks be feasible for AI? ‣ 3 Results on AI Progress ‣ Thousands of AI Authors on the Future of AI").
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x2.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543380970}@@caption](https://arxiv.org/html/2401.02843/x2.png)--}{++{"author":"Luc's AI","timestamp":1788543380970}@@caption](https://arxiv.org/html/2401.02843/M-cdf_hlmi_mixture_gamma.png)++}
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x3.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543380678}@@caption](https://arxiv.org/html/2401.02843/x3.png)--}{++{"author":"Luc's AI","timestamp":1788543380678}@@caption](https://arxiv.org/html/2401.02843/M-cdf_faol_mixture_gamma.png)++}
 
 Figure 3: Aggregate forecast for 50th percentile arrival time of High-Level Machine intelligence (HLMI) dropped by 13 years between 2022 and 2023. The forecast for 50th percentile arrival time of Full Automation of Labor (FAOL) dropped by 48 years in the same period. However, there is still a lot of uncertainty. “Aggregate Forecast” is the mean distribution over all individual cumulative distribution functions. For comparison, we included the 2022 Aggregate Forecast. To give a sense of the range of responses, we included random subsets of individual 2023 and 2022 forecasts. Note that the thinner ‘confidence interval‘ in 2023 (compared to 2022) is due to our increased confidence about the average respondents’ views due to a larger sample size, not respondents’ predictions converging.
 
@@ -144,7 +150,7 @@ The fixed-years framing has been previously observed to produce systematically l
 
 The previously-observed framing effect was again observed in this survey. For example, the year with a 50% chance of HLMI from participants answering in the fixed-year frame (34 years) was twice as far into the future as that for participants answering in the fixed-probability frame (17 years). However, it’s notable that even the larger of these two is shorter than 2022’s combined forecast (37 years), demonstrating a substantial shift of predictions closer to the present (Fig [18](https://arxiv.org/html/2401.02843v3#A2.F18 "Figure 18 ‣ B.1 How soon will human-level performance on all tasks or occupations be feasible? ‣ Appendix B Supplementary Figures ‣ Thousands of AI Authors on the Future of AI") in Appendix [B](https://arxiv.org/html/2401.02843v3#A2 "Appendix B Supplementary Figures ‣ Thousands of AI Authors on the Future of AI")).
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x4.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543380420}@@caption](https://arxiv.org/html/2401.02843/x4.png)--}{++{"author":"Luc's AI","timestamp":1788543380420}@@caption](https://arxiv.org/html/2401.02843/speed_of_progress.svg)++}
 
 Figure 4: Most respondents indicated that the pace of progress in their area of AI increased between the first and second half of their time in a field. Participants were asked whether the second half of the time they had spent working in their area of AI saw more progress than the first half. The median time working in the area was 5 years.
 
@@ -156,7 +162,7 @@ We asked respondents which AI area they had worked in for the longest and whethe
 
 We asked about the sensitivity of progress in AI capabilities to changes in five inputs: 1) researcher effort, 2) decline in cost of computation, 3) effort put into increasing the size and availability of training datasets, 4) funding, and 5) progress in AI algorithms. We asked respondents to imagine that only half as much of each input had been available over the past decade,[^note-grace-2] and the effect they would expect this to have had on the rate of AI progress. The results are shown in Figure [5](https://arxiv.org/html/2401.02843v3#S3.F5 "Figure 5 ‣ 3.5 What causes AI progress? ‣ 3 Results on AI Progress ‣ Thousands of AI Authors on the Future of AI").
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x5.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543380131}@@caption](https://arxiv.org/html/2401.02843/x5.png)--}{++{"author":"Luc's AI","timestamp":1788543380131}@@caption](https://arxiv.org/html/2401.02843/M-causes_of_progress_1.svg)++}
 
 Figure 5: Estimated reduction in AI progress if inputs had been halved over the past decade. Red dots represent means. Boxes contain the 25th to 75th percentile range; middle lines are medians. Whiskers are the least and greatest values that are not more than 1.5 times the interquartile range from the median. Participants estimated that halving the drop in costs of computing would have had the greatest effect on AI progress over the last decade, while halving ‘researcher effort’ and ‘progress in AI algorithms’ would have had the least effect. Overall, all the included inputs were seen as having contributed substantially to AI progress.
 
@@ -176,7 +182,7 @@ We asked respondents about the possibility, after HLMI is hypothetically achieve
 
 The results to this first question are shown in Figure [6](https://arxiv.org/html/2401.02843v3#S3.F6 "Figure 6 ‣ 3.6 Will there be an intelligence explosion? ‣ 3 Results on AI Progress ‣ Thousands of AI Authors on the Future of AI").
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x6.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543379846}@@caption](https://arxiv.org/html/2401.02843/x6.png)--}{++{"author":"Luc's AI","timestamp":1788543379846}@@caption](https://arxiv.org/html/2401.02843/explosion_argument_correct.svg)++}
 
 Figure 6: Since 2016 a majority of respondents have thought that it’s either “quite likely,” “likely,” or an “about even chance” that technological progress becomes more than an order of magnitude faster within 5 years of HLMI being achieved.
 
