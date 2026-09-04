@@ -402,10 +402,10 @@ Defining verification mechanisms and layers. We define terms as follows:
 
 | Potential verification layer | Summary of layer | Key advantages | Key disadvantages |
 | --- | --- | --- | --- |
-| On-chip security features (i.e., secure boot, Confidential Computing)![\[Uncaptioned image\]](https://arxiv.org/html/2507.15916v2/media/media/image5.png) | Security features built into AI chips may enable verification, such as by ensuring that AI chips log traces of their activities for confidential analysis. | Offers maximum transparency into AI chips’ uses. | Poses unsolved technical problems and severe security challenges (e.g., untrusted suppliers). Insecure AI chips may need to be replaced. |
+| On-chip security features (i.e., secure boot, Confidential Computing)![\[Uncaptioned image\]](https://arxiv.org/html/2507.15916v2/media/media/image5.png) | Security features built into AI chips may enable verification, such as by ensuring that AI chips log traces of their activities for confidential analysis. | Offers maximum transparency into AI chips’ uses. | Poses unsolved technical problems and severe security challenges (e.g., untrusted suppliers). Insecure AI chips may need to be replaced. |{--{"author":"Elias's AI","timestamp":1788521805597}@@
 | --- | --- | --- | --- |
 |  |  |  |  |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- |--}
 
 Table 5: Summary of the on-chip verification layer and its tradeoffs.
 
