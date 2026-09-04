@@ -70,6 +70,6 @@ feedback-instructions:: At 1 or 2: ask what got in the way, in one question, and
 
 #### Text
 content::
-\## Before meeting 2
+\## After the decision
 
-Bring your decision and one sentence of reason. The meeting is where your group helps you check it: if you are re-scoping, they will ask what you cut; if you are switching, they will ask what the new crappy version is. If you continue, you leave the meeting with a target for the draft that is due at meeting 3: something a stranger can read start to end, with holes labelled.
+Write the decision and one line of reason at the top of your working document; your review partner sees it with the draft. Then go to this week's project work. The target is the draft due at meeting 3: something a stranger can read start to end, with holes labelled.
