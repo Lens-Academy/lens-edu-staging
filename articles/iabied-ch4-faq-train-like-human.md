@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ leans on the failure of Soviet "New Soviet Man" social engineering as evidence that training environments alone can't reliably install a target psychology in a mind not already predisposed toward it. Useful discussion prompt: what would count as evidence that an AI's trained behavior reflects internalized values rather than surface imitation, given the footnote's point that imitating a trait isn't the same as possessing it?
 
 %%
 
