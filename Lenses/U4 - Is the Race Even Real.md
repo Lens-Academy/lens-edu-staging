@@ -101,5 +101,5 @@ to:: "downplaying the possibility of reading “AGI” into the document."
 from:: "## Conclusion"
 to:: "the starting date for that alleged ambition is not 2017."
 
-#### Article
+{>>{"author":"aeipathy","timestamp":1788482226847}@@Article fails to embed. Furthermore article is out of date or misleading in some ways since the 7 months average is heavily weighted by the 14 month period it took for Chinese models to initially catch up.<<}#### Article
 source:: [[../articles/emberson-chinese-ai-models-have-lagged-the-us-frontier-by-7-months-on-average-since-2023]]
