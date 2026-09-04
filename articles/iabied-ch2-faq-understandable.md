@@ -7,15 +7,21 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This short FAQ answer hedges with "probably" and rests mainly on a historical analogy (biochemistry/vitalism) plus a couple of interpretability examples; the authors are explicit that the book's core safety argument doesn't depend on this claim. Good discussion prompt: does the analogy to past "mysteries that turned out to be understandable" hold for intelligence specifically, and how much weight should the linked "Intelligence Isn't Ineffable" extended discussion carry versus this brief version?
 
 %%
-#### Probably.
+#### Probably. ^probably
 
 Back before the days of biochemistry, you could have asked, "Is it even possible to understand this vital force that animates flesh? Even if it *is* made of comprehensible parts, why would you believe that our tiny little minds could comprehend what's really going on in there?"
 
