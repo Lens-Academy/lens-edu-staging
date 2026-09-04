@@ -131,7 +131,7 @@ assessment-instructions:: This is the spine of the review. Score 25 per article,
 
 Each article below lists the labels that can earn full marks. Grade against those sets and nothing else: a label inside its set is never penalised for being the less expected of the two, and a label outside it is wrong however well written.
 
-Article VII. Acceptable: substantial, or partial when the answer defendsit,  for example substantial for the chip use verification of VII.1 but partial for Article VII taken whole, because VII.3's remedy and VII.5's differentiated protocols are institutional rather than evidential. Not provided is wrong.
+Article VII. Acceptable: substantial, or partial when the answer defends it, for example substantial for the chip use verification of VII.1 but partial for Article VII taken whole, because VII.3's remedy and VII.5's differentiated protocols are institutional rather than evidential. Not provided is wrong.
 
 Which paragraph of VII.1 the architecture implements is a judgement neither source makes. Cankaya's paper does not cite the draft agreement, and the agreement was published months before the architecture. What follows is this course's reading, not a finding of either text, so a learner who argues a different mapping from the same paragraphs is doing the exercise correctly rather than getting it wrong.
 
