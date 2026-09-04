@@ -7,8 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -32,7 +38,7 @@ As we spell out in an aside in Chapter 7, we *could* tell a story where everyone
 
 Even if Galvanic (or some government actor) managed to hold the reins for longer before making some slip-up, it wouldn't matter in the long run. As discussed in Chapter 4, modern AI techniques do not yield AIs that pursue the ends that their inventors wish.
 
-So long as nobody knows how to create a superintelligence that *actually, robustly* pursues some wonderful future as opposed to a bunch of weird stuff, it will continue to be a factthat subverting humans would allow the AI to get more of what it wants. The issue isn't that the AI has some petulant temperament that can be ironed out of it. This issue is that it's just *true* that the AI's preferences are more likely to be satisfied if it takes over; and once it's smart enough, it will recognize this true fact.
+So long as nobody knows how to create a superintelligence that *actually, robustly* pursues some wonderful future as opposed to a bunch of weird stuff, it will continue to be a {--{"author":"Luc's AI","timestamp":1788539299378}@@factthat--}{++{"author":"Luc's AI","timestamp":1788539299378}@@fact that++} subverting humans would allow the AI to get more of what it wants. The issue isn't that the AI has some petulant temperament that can be ironed out of it. This issue is that it's just *true* that the AI's preferences are more likely to be satisfied if it takes over; and once it's smart enough, it will recognize this true fact.
 
 If humanity keeps making smarter and smarter AIs without being able to align them, and if humanity keeps giving them the power to affect the world, then the resulting AIs will eventually figure out how to affect the world in ways that serve their ends rather than ours. As we say [elsewhere](https://ifanyonebuildsit.com/6/can-developers-just-keep-the-ai-in-a-box#it-wouldnt-work-if-they-did), there is no such thing as hands that can only be wielded for good purposes.
 
