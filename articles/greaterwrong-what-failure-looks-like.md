@@ -9,8 +9,14 @@ accessed: 2026-07-02
 description: "The stereotyped image of AI catastrophe is a powerful, malicious AI system that takes its creators by surprise and quickly achieves a decisive advantage over the rest of humanity. I think this is probably not what failure will look like, and I want to try to paint a more realistic picture. I’ll tell the story in two parts: I think these are the most important problems if we fail to solve intent alignment. In practice these problems will interact with each other, and with other disruptions/instability caused by rapid progress. These problems are worse in worlds where progress is relatively fast, and fast takeoff can be a key risk factor, but I’m scared even if we have several years."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -35,7 +41,7 @@ With fast enough takeoff, my expectations start to look more like the caricature
 
 (None of the concerns in this post are novel.)
 
-## Part I: You get what you measure
+## Part I: You get what you measure ^part-i-you-get-what-you-measure
 
 If I want to convince Bob to vote for Alice, I can experiment with many different persuasion strategies and see which ones work. Or I can build good predictive models of Bob’s behavior and then search for actions that will lead him to vote for Alice. These are powerful techniques for achieving any goal that can be easily measured over short time periods.
 
@@ -79,7 +85,7 @@ Amongst intellectual elites there will be genuine ambiguity and uncertainty abou
 
 We might describe the result as “going out with a whimper.” Human reasoning gradually stops being able to compete with sophisticated, systematized manipulation and deception which is continuously improving by trial and error; human control over levers of power gradually becomes less and less effective; we ultimately lose any real ability to influence our society’s trajectory. By the time we spread through the stars our current values are just one of many forces in the world, not even a particularly strong one.
 
-## Part II: influence-seeking behavior is scary
+## Part II: influence-seeking behavior is scary ^part-ii-influence-seeking-behavior-is-scary
 
 There are some possible patterns that want to seek and expand their own influence—organisms, corrupt bureaucrats, companies obsessed with growth. If such patterns appear, they will tend to increase their own influence and so can come to dominate the behavior of large complex systems unless there is competition or a successful effort to suppress them.
 
