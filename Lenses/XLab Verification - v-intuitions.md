@@ -113,6 +113,7 @@ Questions to consider:
 - Could algorithmic efficiency gaming realistically and substantively increase the capabilities of the hidden compute?
 
 Increased, decreased, or left the same, justify your proposal for the covert-compute margin. (100 to 150 words)
+assessment-instructions:: The answer must land on increased, decreased or kept the same, and the verdict itself is not scored. Three things. (1, worth 40) An argument about what a well-resourced state could actually do with a covert cluster of roughly that size over several years, stated as capability rather than as adjectives. (2, worth 30) The other side is engaged, either the disadvantages such a project would face or the other Plan A mechanisms that would constrain it. (3, worth 30) Algorithmic efficiency is addressed: whether gains could make hidden compute worth materially more than its raw share of world AI-relevant compute suggests. Do not require a number. Penalise answers that call the margin too high or too low without saying what the hidden capacity would be used for. No generic praise.
 feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
