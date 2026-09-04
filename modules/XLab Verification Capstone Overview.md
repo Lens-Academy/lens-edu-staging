@@ -15,9 +15,9 @@ duration_minutes:: 10
 content::
 \## What this course is
 
-The two taught Compute Verification courses ended with a feasibility judgment: a defended ranking of mechanisms for one policy goal. This course asks you to turn judgment into work. You choose a brief from XLab's capstone bank, or propose your own, and produce one real piece of technical AI governance work: a regime spec, a threat model, a costed plan, a dossier, a protocol, a memo. Something a named reader could act on.
+The two taught Compute Verification courses gave you the mechanisms, the evidence each produces, and the ways a determined adversary gets around them. This course starts by teaching you to judge the feasibility of any mechanism, existing or not yet built, and the first week ends with a defended ranking of mechanisms for one policy goal. Then it asks you to turn judgment into work. You choose a brief from XLab's capstone bank, or propose your own, and produce one real piece of technical AI governance work: a regime spec, a threat model, a costed plan, a dossier, a protocol, a memo. Something a named reader could act on.
 
-We built this course on the open-source verification curriculum of [XLab](https://xrisk.uchicago.edu/) at the University of Chicago. The research tips, the capstone bank, and the closing page are XLab's. The scaffolding between them (proposal, method check, draft handoff, peer review, definition of done) is ours, added so that a 16-hour independent project survives contact with a five-week calendar and a cohort.
+We built this course on the open-source verification curriculum of [XLab](https://xrisk.uchicago.edu/) at the University of Chicago. The feasibility lessons, the research tips, the capstone bank, and the closing page are XLab's. The scaffolding around the project (proposal, method check, draft handoff, peer review, definition of done) is ours, added so that a 16-hour independent project survives contact with a four-week calendar and a cohort.
 
 :::callout {title="Alpha version" tone="amber"}
 XLab is testing and calibrating this material with a small cohort before official launch, and the curriculum will likely change after that. Treat sequence, framing, and exercises as provisional. If you find something unclear, wrong, missing, or especially useful, please send feedback through [XLab's feedback form](https://forms.gle/KkWcHkKh87pygDzw9).
@@ -25,7 +25,7 @@ XLab is testing and calibrating this material with a small cohort before officia
 
 \## Prerequisites
 
-Both taught Compute Verification courses, Part 1 and Part 2. The briefs in the bank list which lessons they build on, and the proposal in week 1 asks you to bring your defended-ranking memo from the feasibility lens. If you have not done the taught courses, you can still take a brief, but expect the prerequisites lines in the bank to cost you hours.
+Both taught Compute Verification courses, Part 1 and Part 2. The briefs in the bank list which lessons they build on, and week 1 of this course rates the mechanisms those courses taught. If you have not done the taught courses, you can still take a brief, but expect the prerequisites lines in the bank to cost you hours.
 
 \## The calendar, and what we assumed
 
