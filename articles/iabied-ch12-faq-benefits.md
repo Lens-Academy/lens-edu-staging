@@ -7,15 +7,21 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-#### Rushing ahead destroys those benefits.
+#### Rushing ahead destroys those benefits. ^rushing-ahead-destroys-those-benefits
 
 We're optimistic about how wonderful superintelligence could be, if it were steering the world toward wonderful ends. We'd personally consider it a great tragedy if humanity *never* created smarter-than-human minds.
 
