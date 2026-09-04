@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+Short FAQ entry from the "If Anyone Builds It, Everyone Dies" companion site, answering one objection to Chapter 2's argument that AI is grown via gradient descent rather than understood/crafted. Two brief counterpoints (past AI progress, natural selection) — useful as a quick discussion prompt but light on detail; pair with the Chapter 2 text for fuller context.
 
 %%
 #### Past AI progress hasn't required much understanding of intelligence.
