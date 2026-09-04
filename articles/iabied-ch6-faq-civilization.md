@@ -7,15 +7,21 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-#### With computers, the hard part is getting them to solve a certain problem at all. High volume and speed come soon after.
+#### With computers, the hard part is getting them to solve a certain problem at all. High volume and speed come soon after. ^with-computers-hard-part
 
 "To take over the world, you need a civilization" is an intuition that makes sense for humans. It's a lot less obvious how well this idea generalizes to AI. AIs don't work like humans — they can be dramatically more capable than any human, and an AI instance isn't necessarily comparable to a single person.
 
@@ -29,7 +35,7 @@ AIs, like traditional software, can be swiftly copied onto as many computers as 
 
 Compare this situation to humans. Creating and training up a new human takes substantial resources and decades of time. Once you have a single AI at a given capability level, you can immediately copy that same trained, "adult" AI as many times as you want, at minimal expense.
 
-In a sense, a whole (small) civilization's worth of AI minds already exists the moment a company rolls a new model out to their datacenters and spins up as many instances as needed to fill demand. Today, those AI fleets aren't all working in harmony. But companies do use [groups of parallel agents](https://youtu.be/dbgL00a7_xs?si=IwgHxk2Bo0amLuTA&t=348) when aiming for the highest performance at any price.
+In a sense, a whole (small) civilization's worth of AI minds already exists the moment a company rolls a new model out to their datacenters and spins up as many instances as needed to fill demand.[^note-instances] Today, those AI fleets aren't all working in harmony. But companies do use [groups of parallel agents](https://youtu.be/dbgL00a7_xs?si=IwgHxk2Bo0amLuTA&t=348) when aiming for the highest performance at any price.
 
 This all means that there likely won't be all that much time between when AIs become smart enough that they could take over if they had a million instances and when AIs have at least that many instances running. The kind of population growth that takes humans hundreds of years can occur in minutes with AI.
 
@@ -37,6 +43,6 @@ When it comes to the physical infrastructure of civilization, we would guess tha
 
 A handful of humans started out naked on the savannah, and we bootstrapped our way up to a technological civilization. And we're not *that* smart. It wouldn't be especially hard for a superintelligence to do its own form of bootstrapping, particularly if it gets to start from humanity's existing industrial base as a leaping-off point.
 
-#### Notes
+{--{"author":"Luc's AI","timestamp":1788532654256}@@#### Notes
 
-[1] *as many instances as needed:* There are probably on the order of 200,000 instances of GPT-5 running at any given time (as of August 2025, shortly after GPT-5's release), which is maybe smaller than modern "civilization" and is closer to a small nation. Ultimately, we don't put much weight on this analogy, as we don't think individual AI instances are ever likely to be very similar to individual humans. The important point here is that large numbers of instances aren't likely to be especially hard to come by, if (contrary to our best guess) that turns out to be important for some reason.
+[1]--}{++{"author":"Luc's AI","timestamp":1788532654256}@@[^note-instances]:++} *as many instances as needed:* There are probably on the order of 200,000 instances of GPT-5 running at any given time (as of August 2025, shortly after GPT-5's release), which is maybe smaller than modern "civilization" and is closer to a small nation. Ultimately, we don't put much weight on this analogy, as we don't think individual AI instances are ever likely to be very similar to individual humans. The important point here is that large numbers of instances aren't likely to be especially hard to come by, if (contrary to our best guess) that turns out to be important for some reason.
