@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -16,7 +22,7 @@ Add discussion note here:
 
 %%
 
-#### We can't learn much from a topic's prevalence in fiction.
+#### We can't learn much from a topic's prevalence in fiction. ^we-cant-learn-much-from-a-topics-prevalence-in-fiction
 
 Smarter-than-human AI hasn't been built yet, but it has been depicted in fiction. We recommend against anchoring on these depictions, however. Real AI probably won't be much like fictional AI, for reasons we'll dive into in Chapter 4.
 
@@ -30,7 +36,7 @@ Science fiction can mislead you because you assume it's true, or it can mislead 
 
 To predict what happens in reality, there is no substitute for just thinking through the arguments and weighing the evidence.
 
-#### The consequences of AI are inevitably going to be weird.
+#### The consequences of AI are inevitably going to be weird. ^the-consequences-of-ai-are-inevitably-going-to-be-weird
 
 We sympathize with the reaction that AI is *weird*, and that it would transform the world and violate the status quo. All of us have intuitions adapted, to some degree, to a world in which humans are the only species capable of feats like building a power plant. All of us have intuitions adapted to a world where machines, throughout all of human history, have always been unintelligent tools. One thing we can be very confident of is that a future with smarter-than-human AIs would look *different*.
 
@@ -39,6 +45,9 @@ Large, lasting changes to the world don't happen every day. The heuristic "nothi
 One way to overcome a bias toward the status quo is to recall the historical record, as discussed in the introduction.
 
 Sometimes, particular inventions end up upending the world. Consider the steam engine, and the many other technologies it helped enable during the Industrial Revolution, rapidly transforming human life:
+
+![Metrics for life expectancy, GDP/cap, % not living in extreme poverty, energy capture, and % living in a democracy are largely flat from -1000 CE until around 1800, when they all skyrocket up to the end of the chart in the late 1990s.](https://ifanyonebuildsit.com/Online%20Resources%20%28All%20-%20Staged%20for%20Website%29/images/image13.png)
+*From a blog post titled "[There was only one industrial revolution](https://lukemuehlhauser.com/there-was-only-one-industrial-revolution/)," by Luke Muehlhauser.*
 
 Is the advent of truly general AI a similarly consequential development? It seems that artificial intelligence would be *at least* as consequential as the Industrial Revolution. Among other things:
 
@@ -49,7 +58,7 @@ Is the advent of truly general AI a similarly consequential development? It seem
 
 On the face of it, it would be surprising if these two major developments could occur *without* upending the existing world order. Believing in a "normal" future seems to require believing that machine intelligence will never surpass human intelligence at all. This never seemed like a truly viable option, and it's become far harder to believe in 2025 than it was in 2015 or 2005.
 
-#### The long-term future will likewise be weird.
+#### The long-term future will likewise be weird. ^the-long-term-future-will-likewise-be-weird
 
 If you look too far into the future, the result is going to be weird somehow. The 21st century looks downright bizarre from the perspective of the 19th century, which looked bizarre from the perspective of the 17th century. AI accelerates this process and adds a very novel player to the game board.
 
@@ -69,9 +78,9 @@ Predicting the *details* seems difficult, verging on impossible. That's a hard c
 
 A million years from now, we shouldn't expect the future to look like the year 2025, with a bunch of hairless apes messing around on the surface of Earth. Long before that, either we'll have killed ourselves, or our descendants will have gone out to explore the cosmos themselves.[^note-iabied-ftnt8]
 
-It's definitely going to get weird for humanity.The question is when.
+It's definitely going to get weird for humanity. The question is when.
 
-#### The future will hit us fast.
+#### The future will hit us fast. ^the-future-will-hit-us-fast
 
 Technologies like AI mean that the future may come knocking at our door soon, and its effects may hit us hard.
 
@@ -81,7 +90,7 @@ Humanity looks to be on the brink of another radical transformation, where machi
 
 [^note-iabied-ftnt8]: Or they'll have built tools or successors to do the exploring, in whatever way they find convenient with the benefits of more advanced science and technology.
 
-#### Notes
+#### Notes ^notes
 
 [1] *nothing ever happens:* The phrase "nothing ever happens" appears to be common among people who participate in prediction markets. The heuristic itself is discussed by, e.g., the blogger Scott Alexander in his essay [Heuristics That Almost Always Work](https://www.astralcodexten.com/p/heuristics-that-almost-always-work).
 
