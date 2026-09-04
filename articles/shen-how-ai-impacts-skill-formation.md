@@ -416,11 +416,11 @@ Our work is a first step to understanding the impact of AI assistance on humans 
     
 -   •
     
-    Participant Realism: While participants in our study were professional or freelance programmers, there was not the same incentive to learn the library as if it were required for their actual job. Future studies should aim at studying the skill acquisition fro novice workers within a real company.
+    Participant Realism: While participants in our study were professional or freelance programmers, there was not the same incentive to learn the library as if it were required for their actual job. Future studies should aim at studying the skill acquisition for novice workers within a real company.
     
 -   •
     
-    Prompting Skills: We collect self-reported familiarity with AI coding tools, but we do not actually measure differences in prompting techniques. An extension to our would also involve testing the level of prompting fluency beyond self-report.
+    Prompting Skills: We collect self-reported familiarity with AI coding tools, but we do not actually measure differences in prompting techniques. An extension to our work would also involve testing the level of prompting fluency beyond self-report.
     
 -   •
     
@@ -433,67 +433,67 @@ Our work is a first step to understanding the impact of AI assistance on humans 
 
 For novice workers in software engineering or any other industry, our study can be viewed as a small piece of evidence toward the value of intentional skill development despite the ubiquity of AI tools. Our study demonstrates the benefits of deploying cognitive effort when encountering a learning opportunity to master a new tool even if barriers (e.g., errors) may be encountered in the process of mastery. Exerting cognitive effort can be assisted by AI; beyond the patterns we describe, major LLM services also provide learning modes (e.g., ChatGPT Study Mode, Claude Code Learning / Explanatory mode). Ultimately, to accommodate skill development in the presence of AI, there needs to be a more expansive view of the impacts of AI on workers. Participants in the new AI economy must care not only about productivity gains from AI but also the long-term sustainability of expertise development amid the proliferation of new AI tools.
 
-## 8 Acknowledgments
+## 8 Acknowledgments ^acknowledgments
 
 We would like to thank Ethan Perez, Miranda Zhang, and Henry Sleight for making this project possible through the Anthropic Safety Fellows Program. We would also like to thank Matthew Jörke, Juliette Woodrow, Sarah Wu, Elizabeth Childs, Roshni Sahoo, Nate Rush, Julian Michael, and Rose Wang for experimental design feedback.
 
 We like to thank Jeffrey Shen, Aram Ebtekar, Minh Le, Mateusz Piotrowski, Nate Rahn, Miles McCain, Jessica Zhu, Alex Wang, John Hewitt, Rosanne Hu, Saffron Huang, Kyle Hsu, Sanjana Srivastava and Jennifer Leung for task testing and feedback.
 
-## References
+## References ^references
 
--   D. Autor, F. Levy, and R. Murnane (2001) The skill content of recent technological change: an empirical exploration. National Bureau of Economic Research Cambridge, Mass., USA. Cited by: [§1](#S1.p1.1 "1 Introduction ‣ How AI Impacts Skill Formation").
--   J. Becker, N. Rush, E. Barnes, and D. Rein (2025) Measuring the impact of early-2025 ai on experienced open-source developer productivity. arXiv preprint arXiv:2507.09089. Cited by: [§5.2.2](#S5.SS2.SSS2.p2.1 "5.2.2 Results ‣ 5.2 Main Study ‣ 5 Results ‣ How AI Impacts Skill Formation"), [§6.1](#S6.SS1.SSS0.Px1.p2.1 "Interaction Time ‣ 6.1 AI Interaction ‣ 6 Qualitative Analysis ‣ How AI Impacts Skill Formation"), [§6.3](#S6.SS3.p1.1 "6.3 Shifts in Active Coding Time ‣ 6 Qualitative Analysis ‣ How AI Impacts Skill Formation").
--   H. Bleher and M. Braun (2022) Diffused responsibility: attributions of responsibility in the use of ai-driven clinical decision support systems. AI and Ethics 2 (4), pp. 747–761. Cited by: [§1](#S1.p1.1 "1 Introduction ‣ How AI Impacts Skill Formation").
--   S. R. Bowman, J. Hyun, E. Perez, E. Chen, C. Pettit, S. Heiner, K. Lukošiūtė, A. Askell, A. Jones, A. Chen, et al. (2022) Measuring progress on scalable oversight for large language models. arXiv preprint arXiv:2211.03540. Cited by: [§1](#S1.p3.1 "1 Introduction ‣ How AI Impacts Skill Formation").
--   E. Brynjolfsson, D. Li, and L. Raymond (2025) Generative ai at work. The Quarterly Journal of Economics, pp. qjae044. Cited by: [§1](#S1.p2.1 "1 Introduction ‣ How AI Impacts Skill Formation"), [§2.1](#S2.SS1.SSS0.Px1.p1.1 "Productivity Gains ‣ 2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   Z. Buçinca, M. B. Malaya, and K. Z. Gajos (2021) To trust or to think: cognitive forcing functions can reduce overreliance on ai in ai-assisted decision-making. Proceedings of the ACM on Human-computer Interaction 5 (CSCW1), pp. 1–21. Cited by: [§2.1](#S2.SS1.SSS0.Px4.p1.1 "Overreliance ‣ 2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   Q. Cheng, A. Tao, H. Chen, and M. M. Samary (2022) Design an assessment for an introductory computer science course: a systematic literature review. In 2022 IEEE frontiers in education conference (FIE), pp. 1–8. Cited by: [§2.2](#S2.SS2.p1.1 "2.2 CS Education and AI Assistance ‣ 2 Background ‣ How AI Impacts Skill Formation"), [§4.2](#S4.SS2.p1.1 "4.2 Evaluation Design ‣ 4 Methods ‣ How AI Impacts Skill Formation").
--   J. H. Choi and D. Schwarcz (2023) Ai assistance in legal analysis: an empirical study. Cited by: [§2.1](#S2.SS1.SSS0.Px1.p1.1 "Productivity Gains ‣ 2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   Z. K. Cui, M. Demirer, S. Jaffe, L. Musolff, S. Peng, and T. Salz (2024) The effects of generative ai on high skilled work: evidence from three field experiments with software developers. Available at SSRN 4945566. Cited by: [§1](#S1.p2.1 "1 Introduction ‣ How AI Impacts Skill Formation"), [§1](#S1.p3.1 "1 Introduction ‣ How AI Impacts Skill Formation"), [§2.1](#S2.SS1.SSS0.Px1.p2.1 "Productivity Gains ‣ 2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation"), [§6.1](#S6.SS1.SSS0.Px1.p1.1 "Interaction Time ‣ 6.1 AI Interaction ‣ 6 Qualitative Analysis ‣ How AI Impacts Skill Formation").
--   F. Dell’Acqua, E. McFowland III, E. R. Mollick, H. Lifshitz-Assaf, K. Kellogg, S. Rajendran, L. Krayer, F. Candelon, and K. R. Lakhani (2023) Navigating the jagged technological frontier: field experimental evidence of the effects of ai on knowledge worker productivity and quality. Harvard Business School Technology & Operations Mgt. Unit Working Paper (24-013). Cited by: [§1](#S1.p2.1 "1 Introduction ‣ How AI Impacts Skill Formation"), [§2.1](#S2.SS1.SSS0.Px1.p1.1 "Productivity Gains ‣ 2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   S. Druga, R. Williams, C. Breazeal, and M. Resnick (2017) " Hey google is it ok if i eat you?" initial explorations in child-agent interaction. In Proceedings of the 2017 conference on interaction design and children, pp. 595–600. Cited by: [§6.1](#S6.SS1.SSS0.Px2.p3.1 "AI Queries ‣ 6.1 AI Interaction ‣ 6 Qualitative Analysis ‣ How AI Impacts Skill Formation").
--   M. Gerlich (2025) AI tools in society: impacts on cognitive offloading and the future of critical thinking. Societies 15 (1), pp. 6. Cited by: [§2.1](#S2.SS1.SSS0.Px2.p1.1 "Cognitive Offloading ‣ 2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   J. Gonzalez-Huerta, J. S. Molléri, A. Šablis, and E. Zabardast (2020) Experiential learning approach for software engineering courses at higher education level. arXiv preprint arXiv:2012.14178. Cited by: [§3](#S3.SS0.SSS0.Px1.p1.1 "Professional Skill Acquisition ‣ 3 Framework ‣ How AI Impacts Skill Formation").
--   K. Handa, A. Tamkin, M. McCain, S. Huang, E. Durmus, S. Heck, J. Mueller, J. Hong, S. Ritchie, T. Belonax, et al. (2025) Which economic tasks are performed with ai? evidence from millions of claude conversations. arXiv preprint arXiv:2503.04761. Cited by: [§1](#S1.p4.1 "1 Introduction ‣ How AI Impacts Skill Formation"), [§2.1](#S2.SS1.p1.1 "2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   S. Kannam, Y. Yang, A. Dharm, and K. Lin (2025) Code interviews: design and evaluation of a more authentic assessment for introductory programming assignments. In Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 1, pp. 554–560. Cited by: [§2.2](#S2.SS2.p1.1 "2.2 CS Education and AI Assistance ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   Z. Kenton, N. Siegel, J. Kramár, J. Brown-Cohen, S. Albanie, J. Bulian, R. Agarwal, D. Lindner, Y. Tang, N. Goodman, et al. (2024) On scalable oversight with weak llms judging strong llms. Advances in Neural Information Processing Systems 37, pp. 75229–75276. Cited by: [§2.1](#S2.SS1.SSS0.Px4.p1.1 "Overreliance ‣ 2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   A. Klingbeil, C. Grützner, and P. Schreck (2024) Trust and reliance on ai—an experimental study on the extent and costs of overreliance on ai. Computers in Human Behavior 160, pp. 108352. Cited by: [§2.1](#S2.SS1.SSS0.Px4.p1.1 "Overreliance ‣ 2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   D. A. Kolb (2014) Experiential learning: experience as the source of learning and development. FT press. Cited by: [§3](#S3.SS0.SSS0.Px1.p1.1 "Professional Skill Acquisition ‣ 3 Framework ‣ How AI Impacts Skill Formation").
--   H. Lee, A. Sarkar, L. Tankelevitch, I. Drosos, S. Rintel, R. Banks, and N. Wilson (2025) The impact of generative ai on critical thinking: self-reported reductions in cognitive effort and confidence effects from a survey of knowledge workers. In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, pp. 1–22. Cited by: [§2.1](#S2.SS1.SSS0.Px2.p1.1 "Cognitive Offloading ‣ 2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation"), [§6](#S6.p4.1 "6 Qualitative Analysis ‣ How AI Impacts Skill Formation").
--   J. B. Longwell, I. Hirsch, F. Binder, G. A. G. Conchas, D. Mau, R. Jang, R. G. Krishnan, and R. C. Grant (2024) Performance of large language models on medical oncology examination questions. JAMA Network Open 7 (6), pp. e2417641–e2417641. Cited by: [§2.1](#S2.SS1.SSS0.Px4.p1.1 "Overreliance ‣ 2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   B. N. Macnamara, I. Berber, M. C. Çavuşoğlu, E. A. Krupinski, N. Nallapareddy, N. E. Nelson, P. J. Smith, A. L. Wilson-Delfosse, and S. Ray (2024) Does using artificial intelligence assistance accelerate skill decay and hinder skill development without performers’ awareness?. Cognitive Research: Principles and Implications 9 (1), pp. 46. Cited by: [§2.1](#S2.SS1.SSS0.Px2.p1.1 "Cognitive Offloading ‣ 2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   N. Maleki, B. Padmanabhan, and K. Dutta (2024) AI hallucinations: a misnomer worth clarifying. In 2024 IEEE conference on artificial intelligence (CAI), pp. 133–138. Cited by: [§2.1](#S2.SS1.SSS0.Px4.p1.1 "Overreliance ‣ 2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   S. Noy and W. Zhang (2023) Experimental evidence on the productivity effects of generative artificial intelligence. Science 381 (6654), pp. 187–192. Cited by: [§2.1](#S2.SS1.SSS0.Px1.p1.1 "Productivity Gains ‣ 2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   N. Otis, R. Clarke, S. Delecourt, D. Holtz, and R. Koning (2024) The uneven impact of generative ai on entrepreneurial performance. Cited by: [§1](#S1.p2.1 "1 Introduction ‣ How AI Impacts Skill Formation"), [§2.1](#S2.SS1.SSS0.Px1.p1.1 "Productivity Gains ‣ 2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   Z. Pan, Z. Xie, T. Liu, and T. Xia (2024) Exploring the key factors influencing college students’ willingness to use ai coding assistant tools: an expanded technology acceptance model. Systems 12 (5), pp. 176. Cited by: [§2.2](#S2.SS2.p2.1 "2.2 CS Education and AI Assistance ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   S. Peng, E. Kalliamvakou, P. Cihon, and M. Demirer (2023) The impact of ai on developer productivity: evidence from github copilot. arXiv preprint arXiv:2302.06590. Cited by: [§1](#S1.p2.1 "1 Introduction ‣ How AI Impacts Skill Formation"), [§1](#S1.p3.1 "1 Introduction ‣ How AI Impacts Skill Formation"), [§2.1](#S2.SS1.SSS0.Px1.p2.1 "Productivity Gains ‣ 2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation"), [§5.2.2](#S5.SS2.SSS2.p2.1 "5.2.2 Results ‣ 5.2 Main Study ‣ 5 Results ‣ How AI Impacts Skill Formation"), [§6.1](#S6.SS1.SSS0.Px1.p1.1 "Interaction Time ‣ 6.1 AI Interaction ‣ 6 Qualitative Analysis ‣ How AI Impacts Skill Formation").
--   G. Pinto, C. De Souza, T. Rocha, I. Steinmacher, A. Souza, and E. Monteiro (2024) Developer experiences with a contextualized ai coding assistant: usability, expectations, and outcomes. In Proceedings of the IEEE/ACM 3rd International Conference on AI Engineering-Software Engineering for AI, pp. 81–91. Cited by: [§2.2](#S2.SS2.p3.1 "2.2 CS Education and AI Assistance ‣ 2 Background ‣ How AI Impacts Skill Formation"), [§3](#S3.SS0.SSS0.Px2.p1.1 "AI for Coding Usage Patterns ‣ 3 Framework ‣ How AI Impacts Skill Formation").
--   E. Poitras, B. Crane, and A. Siegel (2024) Generative ai in introductory programming instruction: examining the assistance dilemma with llm-based code generators. In Proceedings of the 2024 on ACM Virtual Global Computing Education Conference V. 1, pp. 186–192. Cited by: [§2.2](#S2.SS2.p2.1 "2.2 CS Education and AI Assistance ‣ 2 Background ‣ How AI Impacts Skill Formation"), [§3](#S3.SS0.SSS0.Px2.p1.1 "AI for Coding Usage Patterns ‣ 3 Framework ‣ How AI Impacts Skill Formation").
--   S. Prasad, B. Greenman, T. Nelson, and S. Krishnamurthi (2023) Generating programs trivially: student use of large language models. In Proceedings of the ACM Conference on Global Computing Education Vol 1, pp. 126–132. Cited by: [§2.2](#S2.SS2.p2.1 "2.2 CS Education and AI Assistance ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   O. Reingold, J. H. Shen, and A. Talati (2024) Dissenting explanations: leveraging disagreement to reduce model overreliance. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 38, pp. 21537–21544. Cited by: [§2.1](#S2.SS1.SSS0.Px4.p1.1 "Overreliance ‣ 2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   P. Ribino (2023) The role of politeness in human–machine interactions: a systematic literature review and future perspectives. Artificial Intelligence Review 56 (Suppl 1), pp. 445–482. Cited by: [§6.1](#S6.SS1.SSS0.Px2.p3.1 "AI Queries ‣ 6.1 AI Interaction ‣ 6 Qualitative Analysis ‣ How AI Impacts Skill Formation").
--   H. G. Schmidt (1994) Problem-based learning: an introduction. Instructional science, pp. 247–250. Cited by: [§3](#S3.SS0.SSS0.Px1.p1.1 "Professional Skill Acquisition ‣ 3 Framework ‣ How AI Impacts Skill Formation").
--   J. H. Shen and C. Guestrin (2025) Societal impacts research requires benchmarks for creative composition tasks. arXiv preprint arXiv:2504.06549. Cited by: [§2.1](#S2.SS1.p1.1 "2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   A. Tamkin, M. McCain, K. Handa, E. Durmus, L. Lovitt, A. Rathi, S. Huang, A. Mountfield, J. Hong, S. Ritchie, et al. (2024) Clio: privacy-preserving insights into real-world ai use. arXiv preprint arXiv:2412.13678. Cited by: [§2.1](#S2.SS1.p1.1 "2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   H. Vasconcelos, M. Jörke, M. Grunde-McLaughlin, T. Gerstenberg, M. S. Bernstein, and R. Krishna (2023) Explanations can reduce overreliance on ai systems during decision-making. Proceedings of the ACM on Human-Computer Interaction 7 (CSCW1), pp. 1–38. Cited by: [§2.1](#S2.SS1.SSS0.Px4.p1.1 "Overreliance ‣ 2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   D. Wang, E. Churchill, P. Maes, X. Fan, B. Shneiderman, Y. Shi, and Q. Wang (2020) From human-human collaboration to human-ai collaboration: designing ai systems that can work together with people. In Extended abstracts of the 2020 CHI conference on human factors in computing systems, pp. 1–6. Cited by: [§1](#S1.p3.1 "1 Introduction ‣ How AI Impacts Skill Formation"), [§3](#S3.SS0.SSS0.Px2.p1.1 "AI for Coding Usage Patterns ‣ 3 Framework ‣ How AI Impacts Skill Formation").
--   W. Wang, H. Ning, G. Zhang, L. Liu, and Y. Wang (2024) Rocks coding, not development: a human-centric, experimental evaluation of llm-supported se tasks. Proceedings of the ACM on Software Engineering 1 (FSE), pp. 699–721. Cited by: [§2.2](#S2.SS2.p3.1 "2.2 CS Education and AI Assistance ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   E. Wiles, L. Krayer, M. Abbadi, U. Awasthi, R. Kennedy, P. Mishkin, D. Sack, and F. Candelon (2024) Genai as an exoskeleton: experimental evidence on knowledge workers using genai on new skills. Available at SSRN 4944588. Cited by: [§2.1](#S2.SS1.SSS0.Px3.p1.1 "Skill Retention ‣ 2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation").
--   S. Wu, Y. Liu, M. Ruan, S. Chen, and X. Xie (2025) Human-generative ai collaboration enhances task performance but undermines human’s intrinsic motivation. Scientific Reports 15 (1), pp. 15105. Cited by: [§2.1](#S2.SS1.SSS0.Px3.p1.1 "Skill Retention ‣ 2.1 The Impacts of AI Usage ‣ 2 Background ‣ How AI Impacts Skill Formation").
+-   D. Autor, F. Levy, and R. Murnane (2001) The skill content of recent technological change: an empirical exploration. National Bureau of Economic Research Cambridge, Mass., USA. Cited by: §1.
+-   J. Becker, N. Rush, E. Barnes, and D. Rein (2025) Measuring the impact of early-2025 ai on experienced open-source developer productivity. arXiv preprint arXiv:2507.09089. Cited by: §5.2.2, §6.1, §6.3.
+-   H. Bleher and M. Braun (2022) Diffused responsibility: attributions of responsibility in the use of ai-driven clinical decision support systems. AI and Ethics 2 (4), pp. 747–761. Cited by: §1.
+-   S. R. Bowman, J. Hyun, E. Perez, E. Chen, C. Pettit, S. Heiner, K. Lukošiūtė, A. Askell, A. Jones, A. Chen, et al. (2022) Measuring progress on scalable oversight for large language models. arXiv preprint arXiv:2211.03540. Cited by: §1.
+-   E. Brynjolfsson, D. Li, and L. Raymond (2025) Generative ai at work. The Quarterly Journal of Economics, pp. qjae044. Cited by: §1, §2.1.
+-   Z. Buçinca, M. B. Malaya, and K. Z. Gajos (2021) To trust or to think: cognitive forcing functions can reduce overreliance on ai in ai-assisted decision-making. Proceedings of the ACM on Human-computer Interaction 5 (CSCW1), pp. 1–21. Cited by: §2.1.
+-   Q. Cheng, A. Tao, H. Chen, and M. M. Samary (2022) Design an assessment for an introductory computer science course: a systematic literature review. In 2022 IEEE frontiers in education conference (FIE), pp. 1–8. Cited by: §2.2, §4.2.
+-   J. H. Choi and D. Schwarcz (2023) Ai assistance in legal analysis: an empirical study. Cited by: §2.1.
+-   Z. K. Cui, M. Demirer, S. Jaffe, L. Musolff, S. Peng, and T. Salz (2024) The effects of generative ai on high skilled work: evidence from three field experiments with software developers. Available at SSRN 4945566. Cited by: §1, §1, §2.1, §6.1.
+-   F. Dell’Acqua, E. McFowland III, E. R. Mollick, H. Lifshitz-Assaf, K. Kellogg, S. Rajendran, L. Krayer, F. Candelon, and K. R. Lakhani (2023) Navigating the jagged technological frontier: field experimental evidence of the effects of ai on knowledge worker productivity and quality. Harvard Business School Technology & Operations Mgt. Unit Working Paper (24-013). Cited by: §1, §2.1.
+-   S. Druga, R. Williams, C. Breazeal, and M. Resnick (2017) " Hey google is it ok if i eat you?" initial explorations in child-agent interaction. In Proceedings of the 2017 conference on interaction design and children, pp. 595–600. Cited by: §6.1.
+-   M. Gerlich (2025) AI tools in society: impacts on cognitive offloading and the future of critical thinking. Societies 15 (1), pp. 6. Cited by: §2.1.
+-   J. Gonzalez-Huerta, J. S. Molléri, A. Šablis, and E. Zabardast (2020) Experiential learning approach for software engineering courses at higher education level. arXiv preprint arXiv:2012.14178. Cited by: §3.
+-   K. Handa, A. Tamkin, M. McCain, S. Huang, E. Durmus, S. Heck, J. Mueller, J. Hong, S. Ritchie, T. Belonax, et al. (2025) Which economic tasks are performed with ai? evidence from millions of claude conversations. arXiv preprint arXiv:2503.04761. Cited by: §1, §2.1.
+-   S. Kannam, Y. Yang, A. Dharm, and K. Lin (2025) Code interviews: design and evaluation of a more authentic assessment for introductory programming assignments. In Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 1, pp. 554–560. Cited by: §2.2.
+-   Z. Kenton, N. Siegel, J. Kramár, J. Brown-Cohen, S. Albanie, J. Bulian, R. Agarwal, D. Lindner, Y. Tang, N. Goodman, et al. (2024) On scalable oversight with weak llms judging strong llms. Advances in Neural Information Processing Systems 37, pp. 75229–75276. Cited by: §2.1.
+-   A. Klingbeil, C. Grützner, and P. Schreck (2024) Trust and reliance on ai—an experimental study on the extent and costs of overreliance on ai. Computers in Human Behavior 160, pp. 108352. Cited by: §2.1.
+-   D. A. Kolb (2014) Experiential learning: experience as the source of learning and development. FT press. Cited by: §3.
+-   H. Lee, A. Sarkar, L. Tankelevitch, I. Drosos, S. Rintel, R. Banks, and N. Wilson (2025) The impact of generative ai on critical thinking: self-reported reductions in cognitive effort and confidence effects from a survey of knowledge workers. In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, pp. 1–22. Cited by: §2.1, §6.
+-   J. B. Longwell, I. Hirsch, F. Binder, G. A. G. Conchas, D. Mau, R. Jang, R. G. Krishnan, and R. C. Grant (2024) Performance of large language models on medical oncology examination questions. JAMA Network Open 7 (6), pp. e2417641–e2417641. Cited by: §2.1.
+-   B. N. Macnamara, I. Berber, M. C. Çavuşoğlu, E. A. Krupinski, N. Nallapareddy, N. E. Nelson, P. J. Smith, A. L. Wilson-Delfosse, and S. Ray (2024) Does using artificial intelligence assistance accelerate skill decay and hinder skill development without performers’ awareness?. Cognitive Research: Principles and Implications 9 (1), pp. 46. Cited by: §2.1.
+-   N. Maleki, B. Padmanabhan, and K. Dutta (2024) AI hallucinations: a misnomer worth clarifying. In 2024 IEEE conference on artificial intelligence (CAI), pp. 133–138. Cited by: §2.1.
+-   S. Noy and W. Zhang (2023) Experimental evidence on the productivity effects of generative artificial intelligence. Science 381 (6654), pp. 187–192. Cited by: §2.1.
+-   N. Otis, R. Clarke, S. Delecourt, D. Holtz, and R. Koning (2024) The uneven impact of generative ai on entrepreneurial performance. Cited by: §1, §2.1.
+-   Z. Pan, Z. Xie, T. Liu, and T. Xia (2024) Exploring the key factors influencing college students’ willingness to use ai coding assistant tools: an expanded technology acceptance model. Systems 12 (5), pp. 176. Cited by: §2.2.
+-   S. Peng, E. Kalliamvakou, P. Cihon, and M. Demirer (2023) The impact of ai on developer productivity: evidence from github copilot. arXiv preprint arXiv:2302.06590. Cited by: §1, §1, §2.1, §5.2.2, §6.1.
+-   G. Pinto, C. De Souza, T. Rocha, I. Steinmacher, A. Souza, and E. Monteiro (2024) Developer experiences with a contextualized ai coding assistant: usability, expectations, and outcomes. In Proceedings of the IEEE/ACM 3rd International Conference on AI Engineering-Software Engineering for AI, pp. 81–91. Cited by: §2.2, §3.
+-   E. Poitras, B. Crane, and A. Siegel (2024) Generative ai in introductory programming instruction: examining the assistance dilemma with llm-based code generators. In Proceedings of the 2024 on ACM Virtual Global Computing Education Conference V. 1, pp. 186–192. Cited by: §2.2, §3.
+-   S. Prasad, B. Greenman, T. Nelson, and S. Krishnamurthi (2023) Generating programs trivially: student use of large language models. In Proceedings of the ACM Conference on Global Computing Education Vol 1, pp. 126–132. Cited by: §2.2.
+-   O. Reingold, J. H. Shen, and A. Talati (2024) Dissenting explanations: leveraging disagreement to reduce model overreliance. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 38, pp. 21537–21544. Cited by: §2.1.
+-   P. Ribino (2023) The role of politeness in human–machine interactions: a systematic literature review and future perspectives. Artificial Intelligence Review 56 (Suppl 1), pp. 445–482. Cited by: §6.1.
+-   H. G. Schmidt (1994) Problem-based learning: an introduction. Instructional science, pp. 247–250. Cited by: §3.
+-   J. H. Shen and C. Guestrin (2025) Societal impacts research requires benchmarks for creative composition tasks. arXiv preprint arXiv:2504.06549. Cited by: §2.1.
+-   A. Tamkin, M. McCain, K. Handa, E. Durmus, L. Lovitt, A. Rathi, S. Huang, A. Mountfield, J. Hong, S. Ritchie, et al. (2024) Clio: privacy-preserving insights into real-world ai use. arXiv preprint arXiv:2412.13678. Cited by: §2.1.
+-   H. Vasconcelos, M. Jörke, M. Grunde-McLaughlin, T. Gerstenberg, M. S. Bernstein, and R. Krishna (2023) Explanations can reduce overreliance on ai systems during decision-making. Proceedings of the ACM on Human-Computer Interaction 7 (CSCW1), pp. 1–38. Cited by: §2.1.
+-   D. Wang, E. Churchill, P. Maes, X. Fan, B. Shneiderman, Y. Shi, and Q. Wang (2020) From human-human collaboration to human-ai collaboration: designing ai systems that can work together with people. In Extended abstracts of the 2020 CHI conference on human factors in computing systems, pp. 1–6. Cited by: §1, §3.
+-   W. Wang, H. Ning, G. Zhang, L. Liu, and Y. Wang (2024) Rocks coding, not development: a human-centric, experimental evaluation of llm-supported se tasks. Proceedings of the ACM on Software Engineering 1 (FSE), pp. 699–721. Cited by: §2.2.
+-   E. Wiles, L. Krayer, M. Abbadi, U. Awasthi, R. Kennedy, P. Mishkin, D. Sack, and F. Candelon (2024) Genai as an exoskeleton: experimental evidence on knowledge workers using genai on new skills. Available at SSRN 4944588. Cited by: §2.1.
+-   S. Wu, Y. Liu, M. Ruan, S. Chen, and X. Xie (2025) Human-generative ai collaboration enhances task performance but undermines human’s intrinsic motivation. Scientific Reports 15 (1), pp. 15105. Cited by: §2.1.
 
-## Appendix A Participant Details
+## Appendix A Participant Details ^appendix-a-participant-details
 
 ![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img17-95239d24.png)
 
 Figure 17: Participant distribution for main study, collected after the task to avoid stereotype threat. Most participants are professional programmers.
 
-### A.1 Ethics Review
+### A.1 Ethics Review ^ethics-review
 
 The protocol was reviewed and approved by internal reviewers at Anthropic. Participants were not exposed to any risks during this study. The benefits which may reasonably be expected to result from this study are learning a new software (Python) skill. We did not guarantee or promise that participants will receive any specific learning benefits from this study. We collected informed consent for participation in the study during the prescreening stage. We gave participants the right to withdraw consent at any time without penalty. They will still be compensated even if they fail the attention checks, do not fully complete the task, or complete the task incorrectly. Quiz responses are stored in Google Drive, and coding keystrokes are stored in the coding Platform. All stored information is completely anonymized; only the data platform can use the IDs to identify the participants for payment. We further remove data platform identifiers to annotate coding patterns between the two groups.
 
-## Appendix B Qualitative Analysis Data and Details
+## Appendix B Qualitative Analysis Data and Details ^appendix-b-qualitative-analysis-data-and-details
 
-### B.1 Annotation Procedure
+### B.1 Annotation Procedure ^annotation-procedure
 
 51/52 participants uploaded screen recordings of their work in the warm-up task, main coding task, and quiz. We watched the recordings of for all participants (25 AI condition, 25 no AI condition) for the main coding task. We record the time stamps of the following events:
 
@@ -522,13 +522,13 @@ Figure 18: As the number of queries the total completion time increases, users w
 
 Figure 19: There is no clear pattern between the number of total queries and quiz score. However, users who heavily rely on AI to debug tend to have lower quiz scores.
 
-### B.2 Data Availability
+### B.2 Data Availability ^data-availability
 
 We make the annotated transcripts of each participant available at the following URL: [https://github.com/safety-research/how-ai-impacts-skill-formation](https://github.com/safety-research/how-ai-impacts-skill-formation).
 
-### B.3 Participant Feedback Details
+### B.3 Participant Feedback Details ^participant-feedback-details
 
-We include all participant feedback in Table [6](#A2.T6 "Table 6 ‣ B.3 Participant Feedback Details ‣ Appendix B Qualitative Analysis Data and Details ‣ How AI Impacts Skill Formation") and [7](#A2.T7 "Table 7 ‣ B.3 Participant Feedback Details ‣ Appendix B Qualitative Analysis Data and Details ‣ How AI Impacts Skill Formation"). Since the average completion time was faster for the AI group, the AI group left more comments since they felt like they had more time at the end of the task.
+We include all participant feedback in Table 6 and 7. Since the average completion time was faster for the AI group, the AI group left more comments since they felt like they had more time at the end of the task.
 
 | Condition | Feedback |
 | --- | --- |
@@ -553,15 +553,15 @@ Table 6: Feedback from Participants in the AI Condition
 
 Table 7: Feedback from Participants in the No AI (control) Condition
 
-## Appendix C Evaluation Details
+## Appendix C Evaluation Details ^appendix-c-evaluation-details
 
-### C.1 Evaluation Design
+### C.1 Evaluation Design ^appendix-evaluation-design
 
 ![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img20-60cc6450.png)
 
-Figure 20: Example question types from our evaluation. We designed the evaluation to test three different software skills: conceputal understanding, code reading, and code writing.
+Figure 20: Example question types from our evaluation. We designed the evaluation to test three different software skills: conceptual understanding, code reading, and code writing.
 
-Question Types We discuss the three types of questions we used: Conceptual Understanding, Code Reading, and Debugging in Section [4.2](#S4.SS2 "4.2 Evaluation Design ‣ 4 Methods ‣ How AI Impacts Skill Formation").
+Question Types We discuss the three types of questions we used: Conceptual Understanding, Code Reading, and Debugging in Section [[#^evaluation-design|4on").
 
 Knowledge Categories The evaluation covers 7 core concepts from the Trio library:
 
@@ -594,7 +594,7 @@ Knowledge Categories The evaluation covers 7 core concepts from the Trio library
     Sequential vs concurrent execution: The expected behavior of concurrent tasks. For example “Read the following code and identify when each task starts and completes”
     
 
-## Appendix D Task Details
+## Appendix D Task Details ^appendix-d-task-details
 
 ![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img21-67156a05.png)
 
@@ -627,5 +627,5 @@ Figure 27: Screenshot of the task platform when interacting with AI Assistant.
 [^cite-shen-1]: See documentation at: [https://trio.readthedocs.io/en/stable/](https://trio.readthedocs.io/en/stable/)
 [^note-shen-2]: Pre-registration: [https://osf.io/w49e7](https://osf.io/w49e7)
 [^note-shen-3]: The screen recording for one participant in the AI condition was not available.
-[^note-shen-4]: Details on annotation procedures can be found in the Section [B](#A2 "Appendix B Qualitative Analysis Data and Details ‣ How AI Impacts Skill Formation") and the annotated transcripts can be found at [https://github.com/safety-research/how-ai-impacts-skill-formation](https://github.com/safety-research/how-ai-impacts-skill-formation)
-[^note-shen-5]: Participants were instructed to complete the task as fast as possible and were compensated a flat fee for participation. See Section [4.3](#S4.SS3 "4.3 Study Design ‣ 4 Methods ‣ How AI Impacts Skill Formation").
+[^note-shen-4]: Details on annotation procedures can be found in the Section [[#^appendix-b-qualitative-analysis-data-and-details|B]] and the annotated transcripts can be found at [https://github.com/safety-research/how-ai-impacts-skill-formation](https://github.com/safety-research/how-ai-impacts-skill-formation)
+[^note-shen-5]: Participants were instructed to complete the task as fast as possible and were compensated a flat fee for participation. See Section [[#^study-design|4on").
