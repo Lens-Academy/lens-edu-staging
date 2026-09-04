@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is a single FAQ answer excerpted from a much longer Chapter 5 FAQ page on the companion site for Yudkowsky and Soares's "If Anyone Builds It, Everyone Dies." It responds to a specific reader objection (that AI can't be dangerous without human-like evolved drives) and is best read alongside the book's broader instrumental convergence argument, linked in footnote 189.
 
 %%
 #### Those drives aren't necessary to motivate resource acquisition.
