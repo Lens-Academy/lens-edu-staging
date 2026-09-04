@@ -7,12 +7,18 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This entry is a short cover note, not the treaty itself: the actual draft treaty text and its annotations live on a separate page (linked as "The treaty can be found here"). Editors may want to pair this with that treaty document and with the neighboring FAQ "Will elected officials recognize this as a real threat?" for fuller context.
 
 %%
 Many people, including members of the U.S. House of Representatives and the Senate, have asked us what concrete and specific legislative proposals would actually help with this problem.
@@ -21,6 +27,6 @@ We are not policy experts, and we see many possible answers to that question, de
 
 We have much more to say on the latter count than the former. To that end, MIRI's technical governance team has put together a preliminary draft of one such proposal.
 
-This sketch of a treaty is designed for a world where world leaders have woken up to the realities of smarter-than-human AI. It's not the sort of thing that we predict would be passed tomorrow (as we write this), but it might not be so hard to get such a treaty ratified once the world is more aware of the danger -- a process that is already beginning and which will hopefully continue.
+This sketch of a treaty is designed for a world where world leaders have woken up to the realities of smarter-than-human AI. It's not the sort of thing that we predict would be passed tomorrow (as we write this), but it might not be so hard to get such a treaty ratified once the world is more aware of the danger -- a process that is [already beginning](https://ifanyonebuildsit.com/13/will-elected-officials-recognize-this-as-a-real-threat) and which will hopefully continue.
 
 [The treaty can be found here](https://ifanyonebuildsit.com/treaty), with many annotations. The drafting process drew deeply on historical precedent from other treaties, which are noted alongside the draft. We stress again that this is a starting point, not an ending point. We aren't policy experts, and we possibly made some foolish mistakes. Nevertheless, we hope this draft can serve as an inspiration and example of how such a treaty would be possible and in keeping with similar past legislative efforts.
