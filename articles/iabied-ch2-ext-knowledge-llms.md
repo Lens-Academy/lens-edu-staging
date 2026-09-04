@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is adapter commentary from the *If Anyone Builds It, Everyone Dies* authors, arguing that AI-policy people need at least rough technical literacy about LLMs. The MechaHitler/Grok incident and the SwiGLU "divine benevolence" quote are used to make the point that even AI builders can't reliably explain or predict their own systems' behavior. Good framing piece to pair with the more technical transformer breakdown it links to.
 
 %%
 What follows from understanding LLMs? How does it help us understand smarter-than-human AI and how to prevent everyone from dying?
@@ -73,6 +79,6 @@ There may come a time when a representative of the AI industry slings an arm aro
 
 [^note-iabied-ftnt66]: In some cases, AI mishaps can result from interactions between both factors. For our purposes, the important point is that one key factor is "AIs behaving in ways the programmers never wanted or anticipated," even if there are sometimes other factors at play.
 
-#### Notes
+#### Notes ^notes
 
 [1] *when they don't:* We discuss a few such people when answering [Do experts understand what's going on inside AIs?](https://ifanyonebuildsit.com/2/do-experts-understand-whats-going-on-inside-ais)
