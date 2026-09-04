@@ -10,7 +10,7 @@ content:: This form should take 10–13 minutes. Please be wary if you're taking
 content:: ### About you
 
 #### Question
-key:: first_name
+key:: name
 content:: First name
 short:: true
 required:: true
