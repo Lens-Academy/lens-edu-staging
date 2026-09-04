@@ -288,6 +288,8 @@ You have now tried to construct and detect an evasion scheme. Return to the taxo
 
 Scoring: 1 = very low or weak; 2 = low; 3 = moderate; 4 = high; 5 = very high. For verification effectiveness, a higher score is better for the verifier.
 
+Two things to hold while you read the routes below. The scores synthesize the sources cited at the end of this lens together with the course's own judgment; they are not direct findings of any single paper, and several of those sources are preprints that have not necessarily completed peer review. And where a route cites a criminal case, charging documents are allegations: defendants are presumed innocent unless and until guilt is established in court.
+
 \### Repurpose declared infrastructure
 
 | Technical feasibility for evader | Political and organizational feasibility | Verification effectiveness | Durability and harm |
