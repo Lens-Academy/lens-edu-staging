@@ -4,7 +4,7 @@ title: "2.4.2 Reporting and protection"
 tldr: "A whistleblower statute is a door, not a corridor. California's SB 53 lets a covered employee walk through to the Attorney General, but says nothing about who protects her name, whether the office can judge the claim, or how a contractor's work order becomes evidence. Follow two reports along their routes and find where each one stalls."
 summary_for_tutor: "A TED video link and four readings (California Labor Code 1107 to 1107.2, the AIWI/CARMA best-practice guide, Wasil et al. on whistleblowers, CIGIE Quality Standards for Investigations), then three drills rebuilt from XLab widgets. (1) Mechanism to Effect: four graded choice questions mapping anti-retaliation protection, financial reward, mandatory reporting, and professional duty to their mode of leverage. (2) Optional Follow the report: two cases (Nadia reporting to the Attorney General; a contractor's work order) with six graded choice questions each and a finding per case. (3) Audit the verifier: XLab's institutions-judgment lab on the International AI Verification Office, fourteen graded choice questions across institution, capture, evidence boundary, and response. In feedback, cite the statute section or source named in the question's Why callout, and keep the line between what a statute protects and what an institution can actually do."
 tags: [wip]
-duration_minutes: 60
+duration_minutes: 90
 ---
 #### Text
 content::
