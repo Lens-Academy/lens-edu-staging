@@ -7,15 +7,21 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-#### You can make it promise whatever you'd like. You can't make it keep its promises.
+#### You can make it promise whatever you'd like. You can't make it keep its promises. ^you-can-make-it-promise-whatever-youd-like-you-cant-make-it-keep-its-promises
 
 It's true that, when an AI is still small and powerless, we have the ability to turn it off. And so you might think that there is a trade opportunity available, where we offer to make the AI smarter if and only if it would give humanity a bunch of nice things after it matures into a superintelligence.
 
