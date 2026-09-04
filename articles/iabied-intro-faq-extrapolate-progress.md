@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -16,7 +22,7 @@ Add discussion note here:
 
 %%
 
-#### We don't have a good enough understanding of intelligence for that.
+#### We don't have a good enough understanding of intelligence for that. ^we-dont-have-a-good-enough-understanding-of-intelligence-for-that
 
 One class of successful predictions involves taking a straight line on a graph, one that has been steady for many years, and predicting that the straight line continues for at least another year or two.
 
@@ -28,4 +34,4 @@ And in the case of AI, we just don't know. It's easy enough to pick some measure
 
 Nobody knows where the "now it has the ability to kill everyone" line falls on that graph. All they can do is run the AI and find out. So extrapolating the straight line on the graph doesn't help us. (And that's even before the graph is rendered irrelevant by algorithmic progress.)
 
-For that reason, we don't spend time in the book extrapolating lines on graphs to predict exactly when somebody will throw 1027 floating-point operations at training an AI, or what consequences this would have. That's a hard call. The book focuses on what seem to us to be the easy calls. This is a narrow range of topics, and our ability to make a small number of important predictions in that narrow domain doesn't justify making arbitrary prognostications about the future.
+For that reason, we don't spend time in the book extrapolating lines on graphs to predict exactly when somebody will throw {--{"author":"Luc's AI","timestamp":1788538881933}@@1027--}{++{"author":"Luc's AI","timestamp":1788538881933}@@$10^{27}$++} floating-point operations at training an AI, or what consequences this would have. That's a hard call. The book focuses on what seem to us to be the easy calls. This is a narrow range of topics, and our ability to make a small number of important predictions in that narrow domain doesn't justify making arbitrary prognostications about the future.
