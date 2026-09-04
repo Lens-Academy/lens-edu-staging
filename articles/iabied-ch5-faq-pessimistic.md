@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -63,3 +69,7 @@ What matters is the arguments themselves, not someone's bias toward optimism or 
 [^note-iabied-ftnt191]: When we say we are more optimistic than average (about one technology or another), we mean that we *actually believe* the technology is more promising than the average person believes. *Dispositionally,* we see ourselves neither as optimists nor as pessimists, but as realists trying to navigate a complicated world. We are not trying to find a rosy picture to put our faith in, and we are not trying to find a dour picture to fuel our cynicism; we are simply trying to believe the truth. We believe this is the correct disposition when faced with high-stakes decisions.
 
 [^note-iabied-ftnt192]: To be clear: If the best you can do is say "I don't know, there are some happy tales and some gloomy tales, maybe it's fifty-fifty as to whether superintelligence would kill us or not," that's *way* more than sufficient to justify an aggressive international response, even if you weren't quite as worried as we personally are. But it also matters that people *understand the problem,* because otherwise the policy response is unlikely to be well-targeted and effective. And if you're just roughly comparing the number of good-sounding stories to the number of bad-sounding stories, then you aren't engaging with the arguments on either side, which is what would help build understanding.
+
+:::hide
+[Would smarter-than-human AI be conscious? →](https://ifanyonebuildsit.com/5/would-smarter-than-human-ai-be-conscious)
+:::
