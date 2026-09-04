@@ -49,11 +49,11 @@ This section's written output is proposed but not settled. The candidate is
 MIRI draft US–China agreement — item 17 of Article II's definitions, the
 definition of national technical means covering satellites, signals
 intelligence, imagery and so on, plus Article X ¶1(b)(i) and (ii), the
-noninterference and no-deliberate-concealment clauses — and go
-through it with a pencil, as a lawyer preparing for negotiations would.
+noninterference and no-deliberate-concealment clauses — and go through it with
+a pencil, as a lawyer preparing for negotiations would.
 
-The questions it would ask: what does the Article II definition omit? Whose satellites
-count as "national" — is a commercial constellation under government tasking
+The questions it would ask: what does the Article II definition omit? Whose
+satellites count as "national" — is a commercial constellation under government tasking
 NTM or not? The word "cyber" inside the definition — is that legalized
 intelligence collection, or a license to hack that Beijing strikes out first?
 And what does "deliberate concealment" mean for AI — is behind-the-meter power
