@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This excerpt from Yudkowsky and Soares's *If Anyone Builds It, Everyone Dies* presents the "instrumental convergence" argument as the authors frame it, without engaging counterarguments (e.g., whether current training methods actually produce the kind of open-ended, unbounded optimizer the argument assumes). Useful for discussing the logical structure of the claim ("useful for almost any goal") separately from whether its premises hold for real ASI development paths.
 
 %%
 #### Convergent Paths
@@ -82,7 +88,7 @@ These are all classes of action that an ASI is likely to converge on regardless 
 
 That's because these are instrumental targets that are useful in the pursuit of almost any goal. The "almost" here is important, because it's not as though there's any impossibility in the idea of a smarter-than-human AI that deeply cares about humans and takes our interests into account. But if we race to develop superintelligences that *don't* care about us one whit, then the likely outcome looks dire — and it looks dire in a way that's relatively insensitive to the details of the AI's steering target
 
-For more on howan ASI could actually *achieve* these instrumental targets, see Chapter 6.
+For more on {--{"author":"Luc's AI","timestamp":1788528588367}@@howan--}{++{"author":"Luc's AI","timestamp":1788528588367}@@how an++} ASI could actually *achieve* these instrumental targets, see Chapter 6.
 
 [^note-iabied-ftnt196]: We have met more than one person who professes to be extremely concerned about AI, because they're worried about AI managing to persuade humanity to stop reproducing and slowly extinguish itself over the next hundred years, and then they think any faster scenario than that is — not to the AI's taste, somehow?
 
