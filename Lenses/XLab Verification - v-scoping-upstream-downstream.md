@@ -67,6 +67,8 @@ content:: Before writing, answer two questions.
 
 - Upstream: whose claims does this document rely on, and which of them did I verify myself, rather than inherit from the actor being checked?
 - Downstream: who will act on this document, and what does each reader need in order to act?
+assessment-instructions:: Score the two questions separately, 50 points each, and accept either target: the Fordow finding above, or the report the learner is about to write. Upstream: every claim the document rests on is attributed to the actor that produced it, and the answer separates what the writer verified independently from what was inherited from the actor being checked. Downstream: each reader is named together with what that reader needs in order to act, and the readers need different things, one a determination measured against a standard, another the underlying discrepancy in enough detail to point its own collection at it. Penalise an upstream list that treats every source as equally trustworthy, and a downstream list that gives every reader the same thing. No generic praise.
+feedback-instructions:: Name any claim in the upstream list that came from the actor being checked and was not marked as such, and any reader whose stated need would be met by exactly the same text as another reader's. Then send the learner to the Context Distiller exercise. Two or three sentences, no praise.
 optional:: true{>>{"author":"Elias's AI","timestamp":1788016749227}@@Legacy #### Question converted to Question: Open with a fresh id; XLab's notebook callout gates nothing, hence optional. The invalid feedback:: false line is dropped.<<}
 
 #### Text

@@ -40,6 +40,8 @@ The Future of Life Institute’s AI Safety Index, a scorecard that grades AI com
 #### Question: Open
 id:: 4bbefd68-b623-40f7-a582-fe32a9243ce7
 content:: For each: where did it come from, who reads it next?
+assessment-instructions:: This is the warm-up, answered from the four one-line descriptions above and the worked example, before any full report text has been read. Do not grade it against the per-report keys further down the lesson. Score two things, 50 points each: (1) each of the four reports is given a producer and the interest that producer has in it, an AI company reporting on its own model, a government institute reporting on its own testing, an international inspectorate reporting after access was cut, an enforcement agency documenting a penalty it imposed; (2) each report is given at least one downstream reader together with what that reader would need from it. Credit any defensible reader. Penalise an answer that names producers and stops, and an answer that gives all four reports the same audience. No generic praise.
+feedback-instructions:: Name any report whose producer was given without its interest, and any report whose named reader would be served equally well by the other three. Then tell the learner to pick their report and start clipping. Do not preview the per-report keys. Two or three sentences, no praise.
 optional:: true{>>{"author":"Elias's AI","timestamp":1788016974835}@@Legacy #### Question converted to Question: Open with a fresh id, with XLab's notebook-callout wording restored; the callout gates nothing on XLab, hence optional. The invalid feedback:: false line is dropped.<<}
 
 #### Text
