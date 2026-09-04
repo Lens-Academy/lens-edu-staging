@@ -187,23 +187,25 @@ Problems of adapting **decision theory** to embedded agents include: 
 
 The most central example of why agents need to think about counterfactuals comes from counterfactuals about their own actions.
 
-The difficulty with **action counterfactuals** can be illustrated by the [five-and-ten problem](https://agentfoundations.org/item?id=1399). Suppose we have the option of taking a five dollar bill or a ten dollar bill, and all we care about in the situation is how much money we get. Obviously, we should take the $10.
+The difficulty with **action counterfactuals** can be illustrated by the [five-and-ten problem](https://agentfoundations.org/item?id=1399). Suppose we have the option of taking a five dollar bill or a ten dollar bill, and all we care about in the situation is how much money we get. Obviously, we should take the \$10.
 
-However, it is not so easy as it seems to reliably take the $10.
+However, it is not so easy as it seems to reliably take the \$10.
 
 If you reason about yourself as just another part of the environment, then you can know your own behavior. If you can know your own behavior, then it becomes difficult to reason about what would happen if you behaved *differently*.
 
-This throws a monkey wrench into many common reasoning methods. How do we formalize the idea “Taking the $10 would lead to *good* consequences, while taking the $5 would lead to *bad* consequences,” when sufficiently rich self-knowledge would reveal one of those scenarios as inconsistent?
+This throws a monkey wrench into many common reasoning methods. How do we formalize the idea “Taking the {--{"author":"Luc's AI","timestamp":1788541543771}@@$10--}{++{"author":"Luc's AI","timestamp":1788541543771}@@\$10++} would lead to *good* consequences, while taking the {--{"author":"Luc's AI","timestamp":1788541543771}@@$5--}{++{"author":"Luc's AI","timestamp":1788541543771}@@\$5++} would lead to *bad* consequences,” when sufficiently rich self-knowledge would reveal one of those scenarios as inconsistent?
 
-And if we *can't* formalize any idea like that, how do real-world agents figure out to take the $10 anyway?
+And if we *can't* formalize any idea like that, how do real-world agents figure out to take the {--{"author":"Luc's AI","timestamp":1788541543771}@@$10--}{++{"author":"Luc's AI","timestamp":1788541543771}@@\$10++} anyway?
 
-If we try to calculate the expected utility of our actions by Bayesian conditioning, as is common, knowing our own behavior leads to a divide-by-zero error when we try to calculate the expected utility of actions we know we don't take: ¬A implies P(A)\=0, which implies P(B&A)\=0, which implies
+If we try to calculate the expected utility of our actions by Bayesian conditioning, as is common, knowing our own behavior leads to a divide-by-zero error when we try to calculate the expected utility of actions we know we don't take:{--{"author":"Luc's AI","timestamp":1788541543771}@@ ¬A--} {++{"author":"Luc's AI","timestamp":1788541543771}@@$\lnot A$ ++}implies {--{"author":"Luc's AI","timestamp":1788541543771}@@P(A)\=0,--}{++{"author":"Luc's AI","timestamp":1788541543771}@@$P(A)=0$,++} which implies {--{"author":"Luc's AI","timestamp":1788541543771}@@P(B&A)\=0,--}{++{"author":"Luc's AI","timestamp":1788541543771}@@$P(B \& A)=0$,++} which implies
 
-P(B|A)\=P(B&A)P(A)\=00.
+{--{"author":"Luc's AI","timestamp":1788541543771}@@P(B|A)\=P(B&A)P(A)\=00.--}{++{"author":"Luc's AI","timestamp":1788541543771}@@$$
+P(B|A) = \frac{P(B \& A)}{P(A)} = \frac{0}{0}.
+$$++}
 
 Because the agent doesn't know how to separate itself from the environment, it gets gnashing internal gears when it tries to imagine taking different actions.
 
-But the biggest complication comes from Löb’s Theorem, which can make otherwise reasonable-looking agents take the $5 because “If I take the $10, I get $0”! And in a *stable* way—the problem can’t be solved by the agent learning or thinking about the problem more.
+But the biggest complication comes from Löb’s Theorem, which can make otherwise reasonable-looking agents take the \$5 because “If I take the \$10, I get \$0”! And in a *stable* way—the problem can’t be solved by the agent learning or thinking about the problem more.
 
 This might be hard to believe; so let’s look at a detailed example. The phenomenon can be illustrated by the behavior of simple logic-based agents reasoning about the five-and-ten problem.
 
@@ -225,17 +227,17 @@ In the version of the five-and-ten problem I gave, "P" is the proposition “if 
 
 Supposing it is provable, the agent will eventually find the proof, and return 5 in fact. This makes the sentence *true*, since the agent outputs 5 and the universe outputs 5, and since it’s false that the agent outputs 10. This is because false propositions like “the agent outputs 10” imply everything, *including* the universe outputting 5.
 
-The agent can (given enough time) prove all of this, in which case the agent in fact proves the proposition "if the agent outputs 5 the universe outputs 5, and if the agent outputs 10 the universe outputs 0". And as a result, the agent takes the $5.
+The agent can (given enough time) prove all of this, in which case the agent in fact proves the proposition "if the agent outputs 5 the universe outputs 5, and if the agent outputs 10 the universe outputs 0". And as a result, the agent takes the \$5.
 
-We call this a "spurious proof": the agent takes the $5 because it can prove that *if* it takes the $10 it has low value, *because* it takes the $5. It sounds circular, but sadly, is logically correct. More generally, when working in less proof-based settings, we refer to this as a problem of spurious counterfactuals.
+We call this a "spurious proof": the agent takes the \$5 because it can prove that *if* it takes the \$10 it has low value, *because* it takes the \$5. It sounds circular, but sadly, is logically correct. More generally, when working in less proof-based settings, we refer to this as a problem of spurious counterfactuals.
 
 The general pattern is: counterfactuals may spuriously mark an action as not being very good. This makes the AI not take the action. Depending on how the counterfactuals work, this may remove any feedback which would "correct" the problematic counterfactual; or, as we saw with proof-based reasoning, it may actively help the spurious counterfactual be "true".
 
 Note that because the proof-based examples are of significant interest to us, "counterfactuals" actually have to be **counter*****logicals***; we sometimes need to reason about logically impossible “possibilities”. This rules out most existing accounts of counterfactual reasoning.
 
-You may have noticed that I slightly cheated. The only thing that broke the symmetry and caused the agent to take the $5 was the fact that “5” was the action that was taken when a proof was found, and “10” was the default. We could instead consider an agent that looks for any proof at all about what actions lead to what utilities, and then takes the action that is better. This way, which action is taken is dependent on what order we search for proofs.
+You may have noticed that I slightly cheated. The only thing that broke the symmetry and caused the agent to take the \$5 was the fact that “5” was the action that was taken when a proof was found, and “10” was the default. We could instead consider an agent that looks for any proof at all about what actions lead to what utilities, and then takes the action that is better. This way, which action is taken is dependent on what order we search for proofs.
 
-Let’s assume we search for short proofs first. In this case, we will take the $10, since it is very easy to show that A()\=5 leads to U()\=5 and A()\=10 leads to U()\=10.
+Let’s assume we search for short proofs first. In this case, we will take the \$10, since it is very easy to show that A()\=5 leads to U()\=5 and A()\=10 leads to U()\=10.
 
 The problem is that spurious proofs can be short too, and don’t get much longer when the universe gets harder to predict. If we replace the universe with one that is provably functionally the same, but is harder to predict, the shortest proof will short-circuit the complicated universe and be spurious.
 
@@ -302,23 +304,23 @@ Well, maybe we *are* fooling ourselves. But there is still something we are conf
 
 So I'm not talking about agents who know their own actions because I think there's going to be a big problem with intelligent machines inferring their own actions in the future. Rather, the possibility of knowing your own actions illustrates something confusing about determining the consequences of your actions—a confusion which shows up even in the very simple case where everything about the world is known and you just need to choose the larger pile of money.
 
-For all that, *humans* don't seem to run into any trouble taking the $10.
+For all that, *humans* don't seem to run into any trouble taking the \$10.
 
 Can we take any inspiration from how humans make decisions?
 
-Well, suppose you're actually asked to choose between $10 and $5. You know that you'll take the $10. How do you reason about what *would* happen if you took the $5 instead?
+Well, suppose you're actually asked to choose between \$10 and \$5. You know that you'll take the \$10. How do you reason about what *would* happen if you took the \$5 instead?
 
-It seems easy if you can separate yourself from the world, so that you only think of external consequences (getting $5).
+It seems easy if you can separate yourself from the world, so that you only think of external consequences (getting \$5).
 
 ![](http://res.cloudinary.com/lesswrong-2-0/image/upload/v1672577367/mirroredImages/i3BTagvt3HbPMx6PN/fjtcwrwpkzrv9rlnayyl.png)
 
-If you think about *yourself* as well, the counterfactual starts seeming a bit more strange or contradictory. Maybe you have some absurd prediction about what the world would be like if you took the $5—like, "I'd have to be blind!" 
+If you think about *yourself* as well, the counterfactual starts seeming a bit more strange or contradictory. Maybe you have some absurd prediction about what the world would be like if you took the \$5—like, "I'd have to be blind!" 
 
-That's alright, though. In the end you still see that taking the $5 would lead to bad consequences, and you still take the $10, so you're doing fine.
+That's alright, though. In the end you still see that taking the \$5 would lead to bad consequences, and you still take the \$10, so you're doing fine.
 
 ![](http://res.cloudinary.com/lesswrong-2-0/image/upload/v1672577367/mirroredImages/i3BTagvt3HbPMx6PN/kcqkvodcewd0rdos5uib.png)
 
-The challenge for formal agents is that an agent can be in a similar position, except it is taking the $5, knows it is taking the $5, and can't figure out that it should be taking the $10 instead, because of the absurd predictions it makes about what happens when it takes the $10.
+The challenge for formal agents is that an agent can be in a similar position, except it is taking the \$5, knows it is taking the \$5, and can't figure out that it should be taking the \$10 instead, because of the absurd predictions it makes about what happens when it takes the \$10.
 
 It seems hard for a human to end up in a situation like that; yet when we try to write down a formal reasoner, we keep running into this kind of problem. So it indeed seems like human decision-making is doing something here that we don't yet understand.
 
@@ -366,7 +368,7 @@ So far, we've been discussing action counterfactuals—how to anticipate consequ
 
 Even if there is no one telling you a prediction about your future behavior, observation counterfactuals can still play a role in making the right decision. Consider the following game:
 
-Alice receives a card at random which is either High or Low. She may reveal the card if she wishes. Bob then gives his probability p that Alice has a high card. Alice always loses p2 dollars. Bob loses p2 if the card is low, and (1−p)2 if the card is high.
+Alice receives a card at random which is either High or Low. She may reveal the card if she wishes. Bob then gives his probability p that Alice has a high card. Alice always loses {--{"author":"Luc's AI","timestamp":1788541540296}@@p2--}{++{"author":"Luc's AI","timestamp":1788541540296}@@$p^2$++} dollars. Bob loses {--{"author":"Luc's AI","timestamp":1788541540296}@@p2--}{++{"author":"Luc's AI","timestamp":1788541540296}@@$p^2$++} if the card is low, and {--{"author":"Luc's AI","timestamp":1788541540296}@@(1−p)2--}{++{"author":"Luc's AI","timestamp":1788541540296}@@$(1-p)^2$++} if the card is high.
 
 Bob has a proper scoring rule, so does best by giving his true belief. Alice just wants Bob's belief to be as much toward "low" as possible.
 
@@ -374,7 +376,7 @@ Suppose Alice will play only this one time. She sees a low card. Bob is good at 
 
 Since Alice's card is low, if she shows it to Bob, she will lose no money, which is the best possible outcome. However, this means that in the counterfactual world where Alice sees a high card, she wouldn't be able to keep the secret—she might as well show her card in that case too, since her reluctance to show it would be as reliable a sign of "high".
 
-On the other hand, if Alice doesn't show her card, she loses 25¢—but then she can use the same strategy in the other world, rather than losing $1. So, before playing the game, Alice would want to visibly commit to not reveal; this makes expected loss 25¢, whereas the other strategy has expected loss 50¢. By taking observation counterfactuals into account, Alice is able to keep secrets—without them, Bob could perfectly infer her card from her actions.
+On the other hand, if Alice doesn't show her card, she loses 25¢—but then she can use the same strategy in the other world, rather than losing \$1. So, before playing the game, Alice would want to visibly commit to not reveal; this makes expected loss 25¢, whereas the other strategy has expected loss 50¢. By taking observation counterfactuals into account, Alice is able to keep secrets—without them, Bob could perfectly infer her card from her actions.
 
 This game is equivalent to the decision problem called [counterfactual mugging](https://www.lesswrong.com/posts/mg6jDEuQEjBGtibX7/counterfactual-mugging).
 
@@ -427,9 +429,9 @@ In a Bayesian setting, where an agent's uncertainty is quantified by a probabili
 
 In game theory, this same property is described by saying a prior has a "grain of truth”. It should be noted, though, that there are additional barriers to getting this property in a game-theoretic setting; so, in their common usage cases, "grain of truth" is technically demanding while "realizability" is a technical convenience.
 
-Realizability is not totally necessary in order for Bayesian reasoning to make sense. If you think of a set of hypotheses as “experts”, and the current posterior probability as how much you “trust” each expert, then learning according to Bayes' Law, P(h|e)\=P(e|h)⋅P(h)P(e), ensures a *relative bounded loss* property.
+Realizability is not totally necessary in order for Bayesian reasoning to make sense. If you think of a set of hypotheses as “experts”, and the current posterior probability as how much you “trust” each expert, then learning according to Bayes' Law, {--{"author":"Luc's AI","timestamp":1788541539687}@@P(h|e)\=P(e|h)⋅P(h)P(e),--}{++{"author":"Luc's AI","timestamp":1788541539687}@@$P(h|e) = \frac{P(e|h) \cdot P(h)}{P(e)}$,++} ensures a *relative bounded loss* property.
 
-Specifically, if you use a prior π, the amount worse you are in comparison to each expert h is at most  logπ(h), since you assign at least probability π(h)⋅h(e) to seeing a sequence of evidence e. Intuitively, π(h) is your initial trust in expert h, and in each case where it is even a little bit more correct than you, you increase your trust accordingly. The way you do this ensures you assign an expert probability 1 and hence copy it precisely before you lose more than logπ(h) compared to it.
+Specifically, if you use a prior π, the amount worse you are in comparison to each expert h is at most  {--{"author":"Luc's AI","timestamp":1788541539377}@@logπ(h),--}{++{"author":"Luc's AI","timestamp":1788541539377}@@$\log \pi(h)$,++} since you assign at least probability {--{"author":"Luc's AI","timestamp":1788541539377}@@π(h)⋅h(e)--}{++{"author":"Luc's AI","timestamp":1788541539377}@@$\pi(h) \cdot h(e)$++} to seeing a sequence of evidence e. Intuitively, π(h) is your initial trust in expert h, and in each case where it is even a little bit more correct than you, you increase your trust accordingly. The way you do this ensures you assign an expert probability 1 and hence copy it precisely before you lose more than {--{"author":"Luc's AI","timestamp":1788541539377}@@logπ(h)--}{++{"author":"Luc's AI","timestamp":1788541539377}@@$\log \pi(h)$++} compared to it.
 
 The prior AIXI is based on is the *Solomonoff prior*. It is defined as the output of a universal Turing machine (UTM) whose inputs are coin-flips.
 
@@ -823,11 +825,11 @@ So, how do we use this to optimize? A quantilizer selects from P, but discardin
 
 ![](http://res.cloudinary.com/lesswrong-2-0/image/upload/v1672577367/mirroredImages/i3BTagvt3HbPMx6PN/seffbk4uz4dmwfrxoo84.png)
 
-By quantilizing, we can guarantee that if we overestimate how good something is, we’re overestimating by at most cf in expectation. This is because in the worst case, all of the overestimation was of the f best options.
+By quantilizing, we can guarantee that if we overestimate how good something is, we’re overestimating by at most {--{"author":"Luc's AI","timestamp":1788541539056}@@cf--}{++{"author":"Luc's AI","timestamp":1788541539056}@@$c/f$++} in expectation. This is because in the worst case, all of the overestimation was of the f best options.
 
 ![](http://res.cloudinary.com/lesswrong-2-0/image/upload/v1672577367/mirroredImages/i3BTagvt3HbPMx6PN/wvee4cmvxcto86k411qa.png)
 
-We can therefore choose an acceptable risk level, r\=cf, and set the parameter f as cr.
+We can therefore choose an acceptable risk level, {--{"author":"Luc's AI","timestamp":1788541538692}@@r\=cf,--}{++{"author":"Luc's AI","timestamp":1788541538692}@@$r = c/f$,++} and set the parameter f as {--{"author":"Luc's AI","timestamp":1788541538692}@@cr.--}{++{"author":"Luc's AI","timestamp":1788541538692}@@$c/r$.++}
 
 Quantilization is in some ways very appealing, since it allows us to specify safe classes of actions without trusting every individual action in the class—or without trusting *any* individual action in the class.
 
@@ -1054,9 +1056,9 @@ Now, in some sense, we can trust simpler functions more. A short piece of code i
 
 Consider the set of all programs of length L. Some programs p will print 1 for a long time, but then print 0. We're trying to avoid that.
 
-Call the time-to-first-zero Wp.  (Wp\=∞ if the program p is trustworthy, i.e., if it never outputs 0.)
+Call the time-to-first-zero {--{"author":"Luc's AI","timestamp":1788541538406}@@Wp.--}{++{"author":"Luc's AI","timestamp":1788541538406}@@$W_p$.++}  {--{"author":"Luc's AI","timestamp":1788541538406}@@(Wp\=∞--}{++{"author":"Luc's AI","timestamp":1788541538406}@@($W_p = \infty$++} if the program p is trustworthy, i.e., if it never outputs 0.)
 
-The highest finite  Wp  out of all length-L programs is a form of the Busy Beaver function, so I will refer to it as BB(L). If we wanted to be completely sure that a random program of length L were trustworthy, we would need to observe BB(L) ones from that program.
+The highest finite  {--{"author":"Luc's AI","timestamp":1788541538013}@@Wp--}{++{"author":"Luc's AI","timestamp":1788541538013}@@$W_p$++}  out of all length-L programs is a form of the Busy Beaver function, so I will refer to it as BB(L). If we wanted to be completely sure that a random program of length L were trustworthy, we would need to observe BB(L) ones from that program.
 
 Now, a fact about the Busy Beaver function is that BB(n) grows faster than any computable function. So this kind of empirical trust-building takes uncomputably long to find the truth, in the worst case.
 
