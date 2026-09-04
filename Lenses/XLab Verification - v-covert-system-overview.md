@@ -18,7 +18,7 @@ In this module, you will tackle a comprehensive technical verification system pr
 
 \## Assignment
 
-Read Naci Cankaya’s working paper [A System Overview for Near-Term, Low-Trust AI Compute Verification](https://techgov.intelligence.org/research/a-system-overview-for-near-term-low-trust-ai-compute-verification).
+Read Naci Cankaya’s working paper **A System Overview for Near-Term, Low-Trust AI Compute Verification**, inlined in full below, from the version note through Appendix A1. It is also published [on the MIRI Technical Governance site](https://techgov.intelligence.org/research/a-system-overview-for-near-term-low-trust-ai-compute-verification).
 
 Answer Questions 1, 2 and 5 together with one of Questions 3, 4, 7 or 9. Support each answer with page or section references to the paper.
 

@@ -1,6 +1,6 @@
 ---
 id: 'f474b0eb-74c2-4a72-9720-afc3da082a56'
-slug: compute-verification-capstone
+slug: ai-verification-capstone
 title: "Compute Verification Capstone"
 description: "One taught week, then four weeks o onne piece of real technical AI governance work. Week 1 teaches how to judge any verification mechanism's feasibility and ends in a defended ranking of mechanisms for a policy goal. Then pick a brief from XLab's capstone bank (a regime spec, a threat model, a costed monitoring plan, a dossier, a protocol) or propose your own; scope it, build a first version, hand a draft to a peer, revise against their review, and show the finished thing to your group. About 3.5 hours in week 1 and 4.5 hours a week after, plus a 90-minute meeting; the briefs run 10 to 22 hours. Requires the two taught Compute Verification courses."
 partner-name: XLab
