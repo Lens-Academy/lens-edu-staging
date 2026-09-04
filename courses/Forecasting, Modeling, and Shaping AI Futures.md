@@ -31,14 +31,14 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Meeting: Unit 4
 meeting-doc-template:: https://docs.google.com/document/d/1JbdYP4R7MPRrNIncIxu2JjhDlPkBMRF5y4auPrZHYa4/edit
-survey:: [[../surveys/AIF Unit 4 Survey]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/unit-5-where-is-the-leverage|Unit 5: Where Is the Leverage?]]
 
 # Meeting: Unit 5
 meeting-doc-template:: https://docs.google.com/document/d/1YuCKnl7R8P4upzZzMTf6whEOYu23g_j936QDlpELwuk/edit
-survey:: [[../surveys/AIF Unit 5 Survey]]
+survey:: [[../surveys/AIF Final Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 %% Post-meeting surveys (2026-08-12): live in production; each meeting has its

@@ -81,16 +81,13 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 {>>{"author":"Turner's AI","timestamp":1786705668364}@@Meeting 5 was serving the generic AIRF Weekly Survey, same as meetings 2-4. That made the Session 1 intake a baseline with no endline: its four impact scales (risk_seriousness, agency_belief, motivation, next_step_clarity) were never asked again, even though the intake tells the learner in writing "We ask the same things again at the end, so the value is in the change, not the score." Repointed to the new AIRF Session 5 Survey, which re-asks all four under the SAME keys so a per-user pre/post delta is a straight join on user_id across meeting 1 and meeting 5. Also carries navigator feedback (quantitative + free text), the recommend score, and the next-cohort MORE/LESS questions ported from the old Week 6 Google Form. Dropped from that form: the Discord-handle question (the native survey already knows who is answering, which is the whole reason we moved off Forms) and the BlueDot question (already captured at intake as bluedot_history). NOTE the recommend score is 1-10, not the 0-10 of a textbook NPS: the platform's rating segments validate 1 <= value <= scale with MAX_RATING_SCALE = 10, so 0 is not expressible. Adjust any NPS formula accordingly, or read it as a 10-point recommend score.<<}
 
-%% Post-meeting surveys (2026-08-11): the survey:: lines above attach the native
-in-platform surveys, ported from the two AI Risk Fundamentals Google Forms.
-Meeting 1 uses the intake survey (baseline scales); meetings 2-5 use the weekly
-one. Keys match the AIF surveys wherever the question is the same
-(buddy_texted, content_value, group_connection, meeting_value, worked_well,
-could_improve) so the Ops CSV can be compared across courses; AIRF-only
-questions get their own keys.
-
-NOTE the course has 5 meeting markers by design (see the 2026-08-09 note above:
-reduced from 6 to 5). Every meeting now has both a marker and a survey. %%
+%% Impact surveys updated 2026-09-04. Meetings 1 and 2 use the shared
+post-meeting instrument. Meetings 3 and 4 use equivalent versioned instruments
+that preserve their outreach links. Meeting 5 uses the course-specific final
+instrument. Every meeting asks the same five 1-to-10 quality questions. The
+final meeting also asks the course completion questions. Historical survey
+files and IDs remain unchanged so old and current responses stay separate.
+The course has five meeting markers, and every meeting has a survey. %%
 
 {>>{"author":"Turner's AI","timestamp":1786589345987}@@CORRECTED 2026-08-13. This note used to end: "but cohort 5 still carries number_of_group_meetings = 6 and 6 real meetings per group. The 6th meeting therefore has no marker, and so no survey. That is the outstanding 6-to-5 reconciliation, not something these lines can fix." That reconciliation LANDED on 2026-08-11 and the note was never updated, so it described a resolved problem as outstanding. Measured against prod 2026-08-13 02:45Z: c5, c6, c7 and c8 all carry number_of_group_meetings = 5; every c5 and c6 group has exactly 5 meetings with max meeting_number = 5; and there are ZERO live meetings numbered 6 or higher anywhere in c5-c8. The five meeting-doc-template links above were also checked one by one against the templates actually used to build the c6 session-4 and session-5 docs today, and all five match.<<}
 
