@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+The Chernobyl/Challenger analogy is the crux of this argument. Worth flagging for discussion: does "normalization of deviance" in bureaucracies actually generalize to a hypothetical international AI safety institute, and how much weight should two historical case studies bear?
 
 %%
 #### Because we don't have the technical ability to build it safely.
