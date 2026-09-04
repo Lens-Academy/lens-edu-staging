@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This opening excerpt sets up the book's core methodological argument: analogies from biology (neurons, brains, arms) to AI are attractive but unreliable, because engineered systems routinely achieve the same function through radically different underlying mechanisms. Worth flagging for discussion: the argument's force depends on modern AI's internals being poorly understood ("nobody knows how they work inside," per Chapter 2) — readers might probe whether interpretability research narrows or widens the gap this chapter describes.
 
 %%
 When you only have one example of how something works, it's easy to imagine that it must only work that way.
