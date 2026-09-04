@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+Online-supplement chapter from *If Anyone Builds It, Everyone Dies*. Good discussion prompts: whether "value-of-information" calculation really captures everything human curiosity does (e.g. social bonding, aesthetic pleasure), and whether the titanium-cube-maximizer argument for value stability applies equally to an AI that hasn't yet crystallized stable terminal goals.
 
 %%
 Over the years, we've seen many arguments for rushing ahead to build superintelligence. One of the most common is that a superintelligent AI would surely have human-like emotions and desires. These sorts of arguments come in many forms, such as:
@@ -79,7 +85,7 @@ A mind that was superintelligently predicting the non-obvious value-of-informati
 
 The point here is not that every AI will definitely coldly calculate value-of-information. Maybe LLMs will get some instrumental strategies mixed into their terminal values just like humans did. The point is that there are *different ways to do the work* of acquiring high-value information. Human-style curiosity is one method. Pure value-of-information calculations are another method. Whatever mechanisms drive AIs to investigate and experiment on phenomena they don't understand — once they're smart enough to do that — will probably be a third method, because there are lots of different ways to motivate a complex mind to investigate surprises.
 
-A purely instrumental value-of-information calculation looks to us like the most likelyway for a superintelligence to do the work that curiosity does in humans: It's the way the work gets done in any smart mind that has no terminal preference for exploration, and it's the most efficient way to do the work (without ever getting distracted by, say, useless puzzle games). Even an AI that starts out with a basic curiosity drive might well choose to replace it with a more efficient and effective calculation, given the opportunity.[^note-iabied-ftnt140]
+A purely instrumental value-of-information calculation looks to us like the most likely way for a superintelligence to do the work that curiosity does in humans: It's the way the work gets done in any smart mind that has no terminal preference for exploration, and it's the most efficient way to do the work (without ever getting distracted by, say, useless puzzle games). Even an AI that starts out with a basic curiosity drive might well choose to replace it with a more efficient and effective calculation, given the opportunity.[^note-iabied-ftnt140]
 
 The basic drive is separate from the mental machinery that *endorses* or *appreciates* the drive. Just doing the math is a simple and effective solution, and many different minds might wind up there from many different starting points, so it's the most likely outcome. But "most likely" doesn't mean "guaranteed." A significantly easier call is that AIs won't *specifically* care about human-style curiosity*,* because it's one particular, quaint, inefficient way of doing the work.
 
@@ -165,7 +171,7 @@ The point of all of these examples isn't that humans are made of squishy feeling
 
 The idea of a "humorless" AI might make it sound like we're imagining something "cold and logical," like science fiction robots or Vulcans. But an AI that lacks a sense of humor might have its *own* incomprehensibly weird priorities, its own distant analogue of a "sense of humor," albeit not one that makes sense to a human. We're not saying that these AIs will be defective in the fashion of a Vulcan who loses at space chess because [they view their opponent's winning strategy as "illogical"](https://youtu.be/hEnxVwppE9M?t=26); we're saying that they won't have humanity's particular quirks.[^note-iabied-ftnt147]
 
-The problem we face with AIs isn't "a mere machine could never experience love and affection." The problem we face is that there are an enormous number of ways for a mind to be extremely effective, and the odds are very low that the AI will end up effective by following the same pathhuman brains followed to become effective.[^note-iabied-ftnt148]
+The problem we face with AIs isn't "a mere machine could never experience love and affection." The problem we face is that there are an enormous number of ways for a mind to be extremely effective, and the odds are very low that the AI will end up effective by following the same path human brains followed to become effective.[^note-iabied-ftnt148]
 
 In principle, AI could care about any number of human-like values, and could even *possess* any number of human-like qualities, if designers know how to craft an AI that has those features.
 
