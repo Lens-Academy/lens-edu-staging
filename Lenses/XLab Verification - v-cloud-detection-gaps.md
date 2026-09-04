@@ -4,7 +4,7 @@ title: "2.2.3 Detection gaps and policy limits"
 tldr: "A rule that counts compute per account is only as good as the unit it adds up over: split a run across accounts or days and every piece stays under the line. RAND models that gap; Carnegie asks whether closing it pushes customers toward providers and countries the rule cannot reach."
 summary_for_tutor: "Reading lens adapted from XLab lesson 2.2.3. Two external readings with XLab's reading instructions: the RAND report by Moon et al. (2025) on detection gaps in a game-theoretic model of compute governance (read the assigned parts on rand.org; the report itself is not inlined), and Noah Tan's Carnegie article (2026) on the geopolitics of cloud controls, whose three assigned sections are inlined as article excerpts. No questions in this lens. If the learner asks about the BLOOM calculation, keep it as an illustration of how an evader exploits the unit a rule aggregates over, not as a threshold recommendation. Ends with a Works cited callout."
 tags: [wip]
-duration_minutes: 30
+duration_minutes: {--{"author":"Elias's AI","timestamp":1788520420440}@@30--}{++{"author":"Elias's AI","timestamp":1788520420440}@@40++}
 ---
 #### Text
 content::
