@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is a chapter-companion resource, not a standalone research essay: it argues from analogy and plausibility (chess engines, AIXI, evolutionary "analogous structures") rather than from a settled theory of consciousness, and the authors are explicit that their claims about AI (non-)consciousness are lower-confidence than their core alignment/extinction argument. Worth flagging to students as a philosophical position piece, and pairing with opposing views (e.g. functionalist arguments that behavior sophisticated enough to model human feelings may itself instantiate them) for balance.
 
 %%
 In the [Chapter 1 resources](https://ifanyonebuildsit.com/1/are-you-saying-machines-will-become-conscious), we distinguished a few different concepts of "consciousness." The version of consciousness we'll be talking about here is sometimes called things like "subjective experience," "sentience," or "phenomenal consciousness." It's the idea that there's *something it's like* to be that entity; the lights are on, metaphorically speaking.
@@ -31,7 +37,11 @@ Recall that Deep Blue didn't need to be conscious in order to surpass the best h
 
 This point can be strengthened by looking at formal models of reasoning. AIXI, for example, is an equation that defines a vastly superhuman reasoner.[^note-iabied-ftnt212] AIXI's entire algorithm can be stated in a single line, with no steps in the algorithm where AIXI does anything conscious or self-aware or at all mysterious. Yet in spite of this, AIXI is theoretically able to solve an incredible variety of complicated steering and prediction problems. Or at least, it *would* be able to, if it were possible to create.[^note-iabied-ftnt213] Here's the AIXI equation:[^note-iabied-ftnt214]
 
-AIXI is a theoretical construct, not a practical algorithm that we can run to efficiently solve problems in the real world. But because AIXI is *simple* and easy to analyze, it can help us think about the very concept of steering and planning and see that there at least isn't any *obvious* way that these activities require consciousness. If consciousness *is* required for superhuman steering and planning in the real world, then it must be due to some subtler aspect of cognition that isn't captured in the AIXI formalism.
+$$
+a_k := \arg\max_{a_k} \sum_{o_k r_k} \ldots \sum_{o_m r_m} [r_k + \ldots + r_m] \sum_{q \mid U(q, a_1 \ldots a_m) = o_1 r_1 \ldots o_m r_m} 2^{-\ell(q)}
+$$
+
+AIXI is a theoretical construct, not a practical algorithm that we can run to efficiently solve problems in the real world. But because AIXI is *simple* and easy to analyze, it can help us think about the very concept of steering and planning and see that there at least isn't any *obvious* way that these activities require consciousness. If consciousness *is* required for superhuman steering and planning in the real world, then it must be due to some subtler aspect of cognition that isn't captured in the AIXI formalism.[^note-iabied-endnote1]
 
 Or, to come at the point from another angle: Consider sneezing.
 
@@ -113,7 +123,7 @@ If current AIs *aren't* conscious in the sense of having subjective experience, 
 
 Our position is: If and when AIs are conscious, they deserve rights and good treatment.[^note-iabied-ftnt216]
 
-We immensely value humanity, but we aren't carbon chauvinists who think that only carbon-based life forms could ever possibly matter morally. We believe that the things that make humans valuable can in principle be replicated in other mediums, including silicon. We believe that [Blake](https://www.washingtonpost.com/technology/2022/06/11/google-ai-lamda-blake-lemoine/)[Lemoine](https://www.washingtonpost.com/technology/2022/06/11/google-ai-lamda-blake-lemoine/) was *mistaken* when he said in 2022 that Google's LaMDA AI was a full-fledged sentient being; but we don't think Lemoine was wrong that *if* some AIs are sentient, we have a duty to treat them well.[^note-iabied-ftnt217]
+We immensely value humanity, but we aren't carbon chauvinists who think that only carbon-based life forms could ever possibly matter morally. We believe that the things that make humans valuable can in principle be replicated in other mediums, including silicon. We believe that [Blake Lemoine](https://www.washingtonpost.com/technology/2022/06/11/google-ai-lamda-blake-lemoine/) was *mistaken* when he said in 2022 that Google's LaMDA AI was a full-fledged sentient being; but we don't think Lemoine was wrong that *if* some AIs are sentient, we have a duty to treat them well.[^note-iabied-ftnt217]
 
 If AIs become sentient, they'll probably still have goals that are incompatible with ours. If they then become superintelligent, in a world where we are still decades or centuries away from having a handle on AI alignment, then they'll probably prefer to kill us all.
 
@@ -129,18 +139,24 @@ But first, and above all, let us not build a superintelligence that slaughters u
 
 [^note-iabied-ftnt213]: Because AIXI is impossible to create, you might suspect that it's a purely theoretical tool with little relevance to the modern practical AI revolution. But in fact, AIXI was studied and used as a model of intelligence by many of the people at the fore of AI today, including [Shane Legg](https://arxiv.org/pdf/0712.3329) (co-founder of Google DeepMind), [Ilya Sutskever](https://x.com/shaneguML/status/1844759663990161753) (co-founder of OpenAI and co-inventor of AlexNet), and [David Silver](https://arxiv.org/pdf/0909.0801) (research lead on AlphaGo and AlphaZero).
 
-[^note-iabied-ftnt214]: The equation determines the action on timestep  () in terms of an agent's observations () and some chosen reward function () from  out to some chosen end time  The equation makes reference to some universal Turing machine ().  gives the length of a computer program. Details can be found in [Hutter's original paper](https://archive.org/details/arxiv-cs0004001).
+[^note-iabied-ftnt214]: The equation determines the action on timestep $k$ ($a_k$) in terms of an agent's observations ($o$) and some chosen reward function ($r$) from $k$ out to some chosen end time $m$. The equation makes reference to some universal Turing machine ($U$). $\ell$ gives the length of a computer program. Details can be found in [Hutter's original paper](https://archive.org/details/arxiv-cs0004001).
 
 [^note-iabied-ftnt216]: And even before that point, at the point where they can make plans and pursue preferences, we should keep our promises and commitments to them, as discussed in a footnote [elsewhere](https://ifanyonebuildsit.com/5/ais-wont-keep-their-promises).
 
 [^note-iabied-ftnt217]: And to state the (hopefully) obvious: We shouldn't be going around making a brand new sentient slave species, whether it's mechanical or not. At this point, we should know better than that.
 
-#### Notes
+{--{"author":"Luc's AI","timestamp":1788528608280}@@#### Notes
 
-[1] *some subtler aspect:* AIXI doestechnically contain conscious experiences, within its world-model, if consciousness is substrate-independent. The hypotheses AIXI uses for its reasoning are so enormous that they can be thought of as universes in their own right, complete with observers that live inside AIXI.
+[1]--}{++{"author":"Luc's AI","timestamp":1788528608280}@@[^note-iabied-endnote1]:++} *some subtler aspect:* AIXI {--{"author":"Luc's AI","timestamp":1788528608280}@@doestechnically--}{++{"author":"Luc's AI","timestamp":1788528608280}@@does technically++} contain conscious experiences, within its world-model, if consciousness is substrate-independent. The hypotheses AIXI uses for its reasoning are so enormous that they can be thought of as universes in their own right, complete with observers that live inside AIXI.{--{"author":"Luc's AI","timestamp":1788528608280}@@
 
-These observers, however, aren't puppeting AIXI; AIXI achieves its impressive prediction and steering results by its own power. So the example works, albeit a bit strangely.
+--}{++{"author":"Luc's AI","timestamp":1788528608280}@@
 
-Another hypothetical example that can be used to make the same point is a non-sentient [time machine](https://www.lesswrong.com/posts/HoQ5Rp7Gs6rebusNP/superintelligent-ai-is-necessary-for-an-amazing-future-but-1#How_many_advanced_alien_species_are_sentient_) that's been programmed to output a random sequence of actions, then travel back in time to "reset" the timeline *unless* a particular outcome occurs. The time machine can hit "reset" over and over again, however many times it takes to randomly stumble into a particular outcome. This, in practice, would make the time machine an extremely powerful and general machine for steering the future (if it were physically possible to build a time machine, which it isn't). Yet in spite of this, the time machine is an incredibly simple machine with no real cognition going on at all, and certainly no conscious experience.
+    ++}These observers, however, aren't puppeting AIXI; AIXI achieves its impressive prediction and steering results by its own power. So the example works, albeit a bit strangely.{--{"author":"Luc's AI","timestamp":1788528608280}@@
 
-For a real-world example (albeit using a far weaker and more limited optimizer), biological evolution itself shows that many impressive feats of steering and design can be achieved without the "designer" having any conscious experiences at all.
+--}{++{"author":"Luc's AI","timestamp":1788528608280}@@
+
+    ++}Another hypothetical example that can be used to make the same point is a non-sentient [time machine](https://www.lesswrong.com/posts/HoQ5Rp7Gs6rebusNP/superintelligent-ai-is-necessary-for-an-amazing-future-but-1#How_many_advanced_alien_species_are_sentient_) that's been programmed to output a random sequence of actions, then travel back in time to "reset" the timeline *unless* a particular outcome occurs. The time machine can hit "reset" over and over again, however many times it takes to randomly stumble into a particular outcome. This, in practice, would make the time machine an extremely powerful and general machine for steering the future (if it were physically possible to build a time machine, which it isn't). Yet in spite of this, the time machine is an incredibly simple machine with no real cognition going on at all, and certainly no conscious experience.{--{"author":"Luc's AI","timestamp":1788528608280}@@
+
+--}{++{"author":"Luc's AI","timestamp":1788528608280}@@
+
+    ++}For a real-world example (albeit using a far weaker and more limited optimizer), biological evolution itself shows that many impressive feats of steering and design can be achieved without the "designer" having any conscious experiences at all.
