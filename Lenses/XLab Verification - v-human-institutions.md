@@ -4,7 +4,7 @@ title: "2.4.4 Institutions and policy judgment"
 tldr: "The nuclear regime has a finder, a judge, an enforcer, and a standard; AI has candidates for the first and the third and nobody in the judge's chair. Read Brundage's audit design principles and Carlson on NPT noncompliance, then build the AI pipeline station by station and decide, across four dockets, when the evidence is enough to judge."
 summary_for_tutor: "Two readings (Brundage et al., audit design principles; Carlson, Defining Noncompliance) then two exercises rebuilt from XLab widgets. (1) From Nuclear to AI Inspections, required: four open questions, one per station (finder, judge, enforcer, standard), a strain question, XLab's commentary per station in closed callouts, and a final guideline of at most 50 words. (2) Optional The Standard of Proof: one allegation against Meridian Compute, four dockets each with an ungraded next-move choice and a 60 to 90 word defence, a self-check, the 2x2 reveal, a 50-word decision standard, and a transfer question. Grade the open answers against the commentary and the two self-check questions; push back when a learner's move reweighs the evidence in a docket where the institution was the weak part."
 tags: [wip]
-duration_minutes: 25
+duration_minutes: 65
 ---
 #### Text
 content::

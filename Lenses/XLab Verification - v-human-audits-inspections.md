@@ -4,7 +4,7 @@ title: "2.4.3 Audits and inspections"
 tldr: "An audit, a routine inspection, and a challenge inspection answer three different questions, and each access level caps what an inspector may honestly conclude. Read Wasil, Brundage, and the OPCW managed-access rules, then draft an inspection order for Project Lattice that survives both evasion and a legitimate confidentiality objection."
 summary_for_tutor: "Three readings (Wasil et al. on access-dependent methods, Brundage et al. section 5.3 on levels of assurance, OPCW Verification Annex Part X paragraphs 38 to 50) with four guiding questions, then an optional drill rebuilt from XLab's Build the inspection order lab: ten graded choice questions in four phases (purpose of audit, routine and challenge inspection; access ceiling for black-box, gray-box, and deep access; mandate clauses on scope, preservation, and refusal; managed access), each followed by a Why callout citing the source, and a closing Inspection order and bounded finding callout. Hold the learner to the access ceiling: a conclusion may not exceed what the observed system, records, and period support."
 tags: [wip]
-duration_minutes: 30
+duration_minutes: 35
 ---
 #### Text
 content::
