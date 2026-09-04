@@ -43,8 +43,3 @@ Key concepts from this session include:
 **Thinking on the margin:** If you're donating $1, you should give that extra $1 to the intervention that can most cost-effectively improve the world. There are many great initiatives with a very high average impact per dollar that will have a low marginal impact because they can't get the same efficiency at scale (they display "diminishing marginal returns").
 
 **Fermi estimates:** When you're trying to make a decision, it can be useful to make a rough calculation for which option is best. Even if there's a lot of uncertainty, this can give you a rough answer, and can tell you which things are most important to estimate next.
-{--{"author":"Luc's AI","timestamp":1788446268233}@@
----
-
-*This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
---}

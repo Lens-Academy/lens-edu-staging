@@ -77,10 +77,10 @@ This loop continues until a terminal condition is reached or can run indefinitel
 
 ## Policies 
 
-{--{"author":"Luc's AI","timestamp":1788448279032}@@**Definition:--}{++{"author":"Luc's AI","timestamp":1788448279032}@@:::callout {title="Definition:++} Reinforcement Learning {--{"author":"Luc's AI","timestamp":1788448279032}@@Policy** — --}{++{"author":"Luc's AI","timestamp":1788448279032}@@Policy" tone="blue"}
-++}A policy helps the agent determine what action to take once it has received an observation. It is a function mapping from states to actions specifying what action to take in each state. Policies can be both deterministic or stochastic.
-{++{"author":"Luc's AI","timestamp":1788448279032}@@:::
-++}
+:::callout {title="Definition: Reinforcement Learning Policy" tone="blue"}
+A policy helps the agent determine what action to take once it has received an observation. It is a function mapping from states to actions specifying what action to take in each state. Policies can be both deterministic or stochastic.
+:::
+
 The goal of RL is to learn a policy (often denoted by $\pi$) that recommends the best action to take at any given moment in order to maximize total cumulative reward over time. The policy defines the mapping from states to actions and guides the agent's decision-making process.
 
 $$
@@ -101,14 +101,14 @@ In order to determine whether an action is better than another, the actions (or 
 
 ## Reward
 
-{--{"author":"Luc's AI","timestamp":1788448278761}@@**Definition: Reward** — --}{++{"author":"Luc's AI","timestamp":1788448278761}@@:::callout {title="Definition: Reward" tone="blue"}
-++}Reward refers to any signal or feedback mechanism used to guide the learning process and optimize the behavior of the model.
-{++{"author":"Luc's AI","timestamp":1788448278761}@@:::
-++}
+:::callout {title="Definition: Reward" tone="blue"}
+Reward refers to any signal or feedback mechanism used to guide the learning process and optimize the behavior of the model.
+:::
+
 The reward signal from the environment is a number that tells the agent how good or bad the current world state is. It is a way to provide an evaluation or measure of performance for the model's outputs or actions. The reward can be defined based on a specific task or objective, such as maximizing a score in a game or achieving a desired outcome in a real-world scenario. The training process for RL involves optimizing the model's parameters to maximize the expected reward. The model learns to generate actions or outputs that are more likely to receive higher rewards, leading to improved performance over time. Where does the reward come from? It is generated through a reward function.
 
-{--{"author":"Luc's AI","timestamp":1788448278471}@@**Definition: --}{++{"author":"Luc's AI","timestamp":1788448278471}@@:::callout {title="Definition: ++}Reward {--{"author":"Luc's AI","timestamp":1788448278471}@@function** — --}{++{"author":"Luc's AI","timestamp":1788448278471}@@function" tone="blue"}
-++}A reward function defines the goal or objective in a reinforcement learning problem. It maps perceived states or state-action pairs of the environment to a single number.
+:::callout {title="Definition: Reward function" tone="blue"}
+A reward function defines the goal or objective in a reinforcement learning problem. It maps perceived states or state-action pairs of the environment to a single number.
 
 $$
 R: (S \times A) \to \mathbb{R}; \quad r_t = R(s_t, a_t)

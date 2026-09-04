@@ -32,6 +32,3 @@ This is the short landing page for Module 6 of the EA Introductory Program's "Ri
 Transformative artificial intelligence may well be developed this century. If it is, it may begin to make many significant decisions for us, and rapidly accelerate changes like economic growth. Are we set up to deal with this new technology safely?
 
 You will also learn about strategies to prevent an AI-related catastrophe and the possibility of so-called "s-risks".
-{--{"author":"Luc's AI","timestamp":1788445699657}@@
-*This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
---}

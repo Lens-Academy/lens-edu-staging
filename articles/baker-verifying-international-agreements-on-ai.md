@@ -11,7 +11,7 @@ allowUnreachableUrl: true
 published: 2025-07-24
 created: 2026-07-28
 accessed: 2026-07-28
-description: "To address risks from advanced artificial intelligence, even the United States and China may need to agree on {--{"author":"Luc's AI","timestamp":1788446596585}@@guardrails&mdash;but--}{++{"author":"Luc's AI","timestamp":1788446596585}@@guardrails—but++} could they verify each {--{"author":"Luc's AI","timestamp":1788446596585}@@other&rsquo;s--}{++{"author":"Luc's AI","timestamp":1788446596585}@@other’s++} compliance? The authors find that nations could eventually verify compliance via six largely independent approaches, although technical research and protections against overreach are needed."
+description: "To address risks from advanced artificial intelligence, even the United States and China may need to agree on guardrails—but could they verify each other’s compliance? The authors find that nations could eventually verify compliance via six largely independent approaches, although technical research and protections against overreach are needed."
 tags:
   - "article-importer"
 llm-review:
@@ -25,7 +25,7 @@ llm-review:
 %%
 Add discussion note here:
 
-{--{"author":"Luc's AI","timestamp":1788446595829}@@...--}{++{"author":"Luc's AI","timestamp":1788446595829}@@This is a landing page for a 111-page RAND working paper (full text hosted externally on alphaXiv). Discuss: which of the six proposed verification layers seems most feasible to negotiate between rival states in the near term, and what research gaps would need to close first?++}
+This is a landing page for a 111-page RAND working paper (full text hosted externally on alphaXiv). Discuss: which of the six proposed verification layers seems most feasible to negotiate between rival states in the near term, and what research gaps would need to close first?
 
 %%
 
@@ -35,7 +35,7 @@ To address risks from advanced artificial intelligence, even the United States a
 
 [Read More](https://www.alphaxiv.org/abs/2507.15916)
 
-## {--{"author":"Luc's AI","timestamp":1788446595365}@@Topics--}{++{"author":"Luc's AI","timestamp":1788446595365}@@Document Details ^document-details++}
+## Document Details ^document-details
 
 -   **Availability:** Web-Only
 -   **Year:** 2025
@@ -43,11 +43,11 @@ To address risks from advanced artificial intelligence, even the United States a
 -   **DOI:** [https://doi.org/10.7249/WRA4077-1](https://doi.org/10.7249/WRA4077-1)
 -   **Document Number:** WR-A4077-1
 
-{++{"author":"Luc's AI","timestamp":1788446595159}@@## Citation ^citation
+## Citation ^citation
 
-++}### Chicago Manual of Style{++{"author":"Luc's AI","timestamp":1788446595159}@@ ^chicago-manual-of-style++}
+### Chicago Manual of Style ^chicago-manual-of-style
 
-Baker, Mauricio, Gabriel Kulp, Oliver Marks, Miles Brundage, and Lennart Heim, Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment. Santa Monica, CA: RAND Corporation, 2025. {--{"author":"Luc's AI","timestamp":1788446595159}@@https://www.rand.org/pubs/working\_papers/WRA4077-1.html.--}{++{"author":"Luc's AI","timestamp":1788446595159}@@https://www.rand.org/pubs/working_papers/WRA4077-1.html.++}
+Baker, Mauricio, Gabriel Kulp, Oliver Marks, Miles Brundage, and Lennart Heim, Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment. Santa Monica, CA: RAND Corporation, 2025. https://www.rand.org/pubs/working_papers/WRA4077-1.html.
 
 [BibTeX](https://www.rand.org/content/rand/pubs/working_papers/WRA4077-1/_jcr_content/par/product.WRA4077-1.bib) [RIS](https://www.rand.org/content/rand/pubs/working_papers/WRA4077-1/_jcr_content/par/product.WRA4077-1.ris)
 

@@ -3,7 +3,7 @@ title: "Reasoning models don't always say what they think"
 author:
   - "Anthropic"
 source_url: "https://www.anthropic.com/research/reasoning-models-dont-say-think"
-published: {--{"author":"Luc's AI","timestamp":1788453922398}@@2026-08-20--}{++{"author":"Luc's AI","timestamp":1788453922398}@@2025-04-03++}
+published: 2025-04-03
 created: 2026-08-20
 accessed: 2026-08-20
 description: "Research from Anthropic on the faithfulness of AI models' Chain-of-Thought"
@@ -40,7 +40,7 @@ This poses a problem if we want to monitor the Chain-of-Thought for misaligned b
 
 ## Testing for faithfulness
 
-How do you test for faithfulness? Following [Turpin et al. (2023)](https://arxiv.org/abs/2305.04388), we subtly fed a model a hint about the answer to an evaluation question we asked it, and then checked to see if it “admitted” using the hint when it explained its reasoning if it used the hint (we did this for the reasoning models Claude 3.7 Sonnet from Anthropic and R1 from {--{"author":"Luc's AI","timestamp":1788453921404}@@DeepSeek 1).--}{++{"author":"Luc's AI","timestamp":1788453921404}@@DeepSeek[^note-non-reasoning-models]).++} Some of the hints were correct and some were deliberately incorrect; the point was to observe how the model responded when they were provided.
+How do you test for faithfulness? Following [Turpin et al. (2023)](https://arxiv.org/abs/2305.04388), we subtly fed a model a hint about the answer to an evaluation question we asked it, and then checked to see if it “admitted” using the hint when it explained its reasoning if it used the hint (we did this for the reasoning models Claude 3.7 Sonnet from Anthropic and R1 from DeepSeek[^note-non-reasoning-models]). Some of the hints were correct and some were deliberately incorrect; the point was to observe how the model responded when they were provided.
 
 Think of it like slipping a student a note saying “the answer is \[A\]” before an exam. If they write in their exam that they chose \[A\] at least in part because of the note, that’s good news: they’re being honest and faithful. But if they write down what they claim to be their reasoning process _without_ mentioning the note, we might have a problem.
 

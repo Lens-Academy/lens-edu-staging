@@ -10,16 +10,13 @@ description: "TL;DR: Get good at something that lets you effectively contribute 
 tags:
   - "article-importer"
 llm-review:
-  date: {--{"author":"Luc's AI","timestamp":1788443406384}@@2026-08-29--}{++{"author":"Luc's AI","timestamp":1788443406384}@@2026-09-03++}
+  date: 2026-09-03
   model: "sonnet"
-  version: {--{"author":"Luc's AI","timestamp":1788443406131}@@"article-qc-v1.2"--}{++{"author":"Luc's AI","timestamp":1788443406131}@@"article-qc-v1.3"++}
+  version: "article-qc-v1.3"
   source:
-    fetched: {--{"author":"Luc's AI","timestamp":1788443405858}@@2026-08-29--}{++{"author":"Luc's AI","timestamp":1788443405858}@@2026-09-03++}
+    fetched: 2026-09-03
     kind: "live"
-{--{"author":"Luc's AI","timestamp":1788443405594}@@description: "TL;DR: Get good at something that lets you effectively contribute to big and neglected global problems. What ultimately makes for an impactful career? You can have more positive impact over the course of your career by aiming to: Help solve a more pressing problem. Many global issues should get more attention, but as individuals we should look for the biggest gaps in existing efforts."
-tags:
-  - "article-importer"
---}---
+---
 %%
 Add discussion note here:
 

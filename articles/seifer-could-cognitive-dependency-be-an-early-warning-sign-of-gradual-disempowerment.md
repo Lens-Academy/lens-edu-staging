@@ -78,7 +78,7 @@ These results suggest the potential behavioural micro-level mechanisms that coul
 
 Effective human oversight requires more than formal accountability for decision making. If over time people become less able to challenge AI outputs, being “in the loop” might not necessarily equate to meaningful human control.
 
-Neuroergonomics, the study of the brain at work, provides a useful precedent for thinking about this. Years of research, much of it on automation from the aviation industry and other safety critical domains, have shown that humans can struggle to monitor an automated process they are not actively involved {--{"author":"Luc's AI","timestamp":1788448442576}@@in 2.--}{++{"author":"Luc's AI","timestamp":1788448442576}@@in[^cite-automation-monitoring].++} Add to this automation {--{"author":"Luc's AI","timestamp":1788448442576}@@bias 3 --}{++{"author":"Luc's AI","timestamp":1788448442576}@@bias[^cite-automation-bias] ++}- the tendency to trust automated outputs over our own judgement - along with our brain’s preference for minimising cognitive {--{"author":"Luc's AI","timestamp":1788448442576}@@effort 4,--}{++{"author":"Luc's AI","timestamp":1788448442576}@@effort[^cite-cognitive-effort],++} and meaningful oversight gets harder to sustain. If it cannot be assumed, it has to be actively designed for and built into workflows.
+Neuroergonomics, the study of the brain at work, provides a useful precedent for thinking about this. Years of research, much of it on automation from the aviation industry and other safety critical domains, have shown that humans can struggle to monitor an automated process they are not actively involved in[^cite-automation-monitoring]. Add to this automation bias[^cite-automation-bias] - the tendency to trust automated outputs over our own judgement - along with our brain’s preference for minimising cognitive effort[^cite-cognitive-effort], and meaningful oversight gets harder to sustain. If it cannot be assumed, it has to be actively designed for and built into workflows.
 
 Currently these patterns are visible at the workplace level. The question is what happens if they become the default across wider societal systems, such as governments, courts, the media or science. As people outsource more judgement, institutions may find it easier to reduce human involvement, supporting the original paper’s concern that these systems could become less dependent on human cognition and labour.
 
@@ -127,15 +127,7 @@ Nothing here is set in stone. AI can expand human capability, but only if we are
 :::hide
 **References**
 
-{--{"author":"Luc's AI","timestamp":1788448442034}@@2 NASA (2023). ‘A meta-analytic approach to investigating the relationship between trust in automation and attention allocation. NASA Technical Report 20230008573. NASA Ames Research Center.
-
-Schaefer KE, Chen JY, Szalma JL, Hancock PA (2016). ‘A Meta-Analysis of Factors Influencing the Development of Trust in Automation: Implications for Understanding Autonomy in Future Systems’. Hum Factors. 58(3):377-400. doi: 10.1177/0018720816634228.
-
-3 Goddard K, Roudsari A, Wyatt JC (2012).’ Automation bias: a systematic review of frequency, effect mediators, and mitigators’. J Am Med Inform Assoc.19(1):121-7. doi: 10.1136/amiajnl-2011-000089.
-
-4 Christie ST and Schrater P (2015). ‘Cognitive cost as dynamic allocation of energetic resources’. Front. Neurosci. 9:289. doi: 10.3389/fnins.2015.00289
-
---}Kulveit, J., Douglas, R., Ammann, N., Turan, D., Krueger, D., & Duvenaud, D. (2025). ‘Systemic Existential Risks from Incremental AI Development’. arXiv:2501.16946
+Kulveit, J., Douglas, R., Ammann, N., Turan, D., Krueger, D., & Duvenaud, D. (2025). ‘Systemic Existential Risks from Incremental AI Development’. arXiv:2501.16946
 :::
 
 [^note-cognitive-dependency]: _\*These measures formed part of a four-item scale showing acceptable internal consistency (Cronbach’s alpha = 0.79). ‘Cognitive dependency’ is used as an interpretative label for the observed pattern. Related concepts in cognitive science and human-AI interaction research include cognitive offloading and automation bias._

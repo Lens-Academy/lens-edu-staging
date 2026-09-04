@@ -30,7 +30,7 @@ Let’s say you’ve been lucky enough to receive two job offers from a great ch
 
 Which job should you accept?
 
-Putting various complications aside, it’s clear the {--{"author":"Luc's AI","timestamp":1788447744540}@@secondrole--}{++{"author":"Luc's AI","timestamp":1788447744540}@@second role++} has potential for much more impact than the first. The main reason why is that it grants more _leverage_. In the fundraising role, you’re able to make ten times the difference by influencing the resources of others—first, by persuading people to donate and then by using this money to pay for the labor of additional antibiotic distributors.
+Putting various complications aside, it’s clear the second role has potential for much more impact than the first. The main reason why is that it grants more _leverage_. In the fundraising role, you’re able to make ten times the difference by influencing the resources of others—first, by persuading people to donate and then by using this money to pay for the labor of additional antibiotic distributors.
 
 ## Examples of high leverage
 

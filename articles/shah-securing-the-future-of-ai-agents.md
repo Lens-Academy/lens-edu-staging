@@ -83,7 +83,7 @@ Read the full technical report here:
 
 Mary Phuong, Erik Jenner, Laurent Simon, Lewis Ho, Rohin Shah, Sebastian Farquhar, and Scott Coull.
 
-{--{"author":"Luc's AI","timestamp":1788443611440}@@:::collapse--}{++{"author":"Luc's AI","timestamp":1788443611440}@@:::hide++}
+:::hide
 ### Acknowledgements
 
 Four Flynn, Anca Dragan, Alan Cooney, Bilal Chughtai, Buck Shlegeris, Cody Wild, David Lindner, Julian Stastny, Kevin Klyman, Li Ding, Myriam Khan, Raluca Ada Popa, Roland Zimmermann, Ryan Greenblatt, Senthooran Rajamanoharan, Victoria Krakovna and Xerxes Dotiwalla.
