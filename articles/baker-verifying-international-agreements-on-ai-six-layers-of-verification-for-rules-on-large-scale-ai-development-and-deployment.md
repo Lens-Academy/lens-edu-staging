@@ -800,15 +800,15 @@ Hardware security for Prover- vs Verifier-owned hardware. Significant hardware s
 | Component of infrastructure stack | 1\. How designs could be disclosed | 2\. How disclosed designs could be verified authentic | 3\. How disclosed designs could be comprehensively tested for vulnerabilities | 4\. How identified vulnerabilities could be mitigated |
 | --- | --- | --- | --- | --- |
 | Application (of the Verifier[^note-baker-78]) | Using open-source components,[^note-baker-79] open-sourcing design IP,[^note-baker-80] using a Verifier-trusted designer and foundry,[^note-baker-81] or making confidentiality-preserving IP disclosures.[^note-baker-82] | Secure boot,[^note-baker-83] secure compiler. | Formal verification of narrow design (with improved provers) \*,[^note-baker-84] red teaming \*, and standard design validation techniques like test cases \*. | Software/firmware patches, or key revocation where applicable. |
-| --- | --- | --- | --- | --- |
-| Operating system |  |  |  |  |
-| --- | --- | --- | --- | --- |
-| Hypervisor |  |  |  |  |
-| --- | --- | --- | --- | --- |
+| {--{"author":"Elias's AI","timestamp":1788521846106}@@--- | --- | --- | --- | --- |
+| --}Operating system |  |  |  |  |
+|{--{"author":"Elias's AI","timestamp":1788521846106}@@ --- | --- | --- | --- | --- |
+| --}{++{"author":"Elias's AI","timestamp":1788521846106}@@ ++}Hypervisor |  |  |  |  {--{"author":"Elias's AI","timestamp":1788521846106}@@|
+| --- | --- | --- | --- --}|{--{"author":"Elias's AI","timestamp":1788521846106}@@ --- |--}
 | Firmware |  | The above and below \*.[^note-baker-85] |  | The above or below \*.[^note-baker-86] |
-| --- | --- | --- | --- | --- |
-| Hardware |  | Delayering \*, scanning \*, and circuit verification \* for a random sample[^note-baker-87], and/or oversight of manufacturing \*. |  | Using alternative (non-hardware-based) verification methods \*, refraining from use of vulnerable hardware, or key revocation where applicable. |
-| --- | --- | --- | --- | --- |
+{--{"author":"Elias's AI","timestamp":1788521846106}@@| --- | --- | --- --}|{--{"author":"Elias's AI","timestamp":1788521846106}@@ --- | --- |
+| --}{++{"author":"Elias's AI","timestamp":1788521846106}@@ ++}Hardware |  | Delayering \*, scanning \*, and circuit verification \* for a random sample[^note-baker-87], and/or oversight of manufacturing \*. |  | Using alternative (non-hardware-based) verification methods \*, refraining from use of vulnerable hardware, or key revocation where applicable.{--{"author":"Elias's AI","timestamp":1788521846106}@@ |
+| --- | --- | --- | --- | -----} |
 |  | _\*: Technically challenging/ambitious (if one wishes to use this for strong, affordable, and timely security assurances)._ |  |  |  |
 
 Table 11: Overview of some options for comprehensively securing a technology stack for AI verification.
