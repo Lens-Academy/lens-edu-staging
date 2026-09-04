@@ -225,7 +225,7 @@ There were areas of agreement, however. For instance, a large majority of partic
 
 ### 3.8 Will AI in 2028 truthfully and intelligibly explain its decisions?
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x7.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543379571}@@caption](https://arxiv.org/html/2401.02843/x7.png)--}{++{"author":"Luc's AI","timestamp":1788543379571}@@caption](https://arxiv.org/html/2401.02843/explainability_likelihood.svg)++}
 
 Figure 8: Most respondents considered it unlikely that users of AI systems in 2028 will be able to know the true reasons for the AI systems’ choices, with only 20% giving it better than even odds. (n=912)
 
@@ -253,7 +253,7 @@ There is some ambiguity about the reason why a scenario might be considered conc
 
 We asked participants to assume that, at some point, “high-level machine intelligence” (HLMI) will exist, as defined in Section [3.2](https://arxiv.org/html/2401.02843v3#S3.SS2 "3.2 How soon will human-level performance on all tasks or occupations be feasible? ‣ 3 Results on AI Progress ‣ Thousands of AI Authors on the Future of AI"). Given this assumption for the sake of the question, we asked how good or bad they expect the overall impact of this to be “in the long run” for humanity.
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x8.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543379286}@@caption](https://arxiv.org/html/2401.02843/x8.png)--}{++{"author":"Luc's AI","timestamp":1788543379286}@@caption](https://arxiv.org/html/2401.02843/future_value_800.svg)++}
 
 Figure 10: Respondents exhibited diverse views on the expected goodness/badness of High Level Machine Intelligence (HLMI). We asked participants to assume, for the sake of the question, that HLMI will be built at some point. The figure shows a random selection of 800 responses on the positivity or negativity of long-run impacts of HLMI on humanity. Each vertical bar represents one participant and the bars are sorted left to right by a weighted sum of probabilities corresponding to overall optimism. Responses range from extremely optimistic to extremely pessimistic. Over a third of participants (38%) put at least a 10% chance on extremely bad outcomes (e.g. human extinction).
 
@@ -263,9 +263,9 @@ The median prediction for extremely bad outcomes, such as human extinction, was 
 
 Since 2022, mean overall probability on extreme outcomes (good or bad) has fallen slightly (Figure [11](https://arxiv.org/html/2401.02843v3#S4.F11 "Figure 11 ‣ 4.2 How good or bad for humans will High-Level Machine Intelligence be? ‣ 4 Results on Social Impacts of AI ‣ Thousands of AI Authors on the Future of AI")). The proportion of people who put at least a 10% chance on extremely bad outcomes (e.g. human extinction) has fallen from 48% in 2022 in 2023, and the mean prediction for this type of outcome is down from 14% to 9.0%.
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x9.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543378992}@@caption](https://arxiv.org/html/2401.02843/x9.png)--}{++{"author":"Luc's AI","timestamp":1788543378992}@@caption](https://arxiv.org/html/2401.02843/hlmi_impact_mean.svg)++}
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x10.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543378637}@@caption](https://arxiv.org/html/2401.02843/x10.png)--}{++{"author":"Luc's AI","timestamp":1788543378637}@@caption](https://arxiv.org/html/2401.02843/hlmi_impact_median.svg)++}
 
 Figure 11: Mean but not median predictions in 2023 (n=2704) about the consequences of HLMI have shifted slightly away from extreme outcomes compared to 2022 (n=559). Error bars indicate the standard error.
 
@@ -275,7 +275,7 @@ Appendix [A](https://arxiv.org/html/2401.02843v3#A1 "Appendix A Results Compari
 
 To further clarify views on the “extremely bad (e.g. human extinction)” scenarios in the question on overall impacts, participants were given one of three similar questions about human extinction. Their differences were intended to help isolate exactly how concerning different scenarios are, what respondents expect to happen, and how much difference working makes.
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x11.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543378284}@@caption](https://arxiv.org/html/2401.02843/x11.png)--}{++{"author":"Luc's AI","timestamp":1788543378284}@@caption](https://arxiv.org/html/2401.02843/extinction_questions.svg)++}
 
 Figure 12: Mean and median predictions to three questions on human extinction. Error bars indicate the standard error. (Question 1 n=149 in 2022 and 1321 in 2023. Question 2 n=162 in 2022 and 661 in 2023. Question 3 was asked only in 2023, n=655).
 
@@ -289,7 +289,7 @@ Table 2: Respondents’ estimates in 2022 and 2023 for the probability that AI c
 
 Answers to these questions were mostly consistent, with medians of 5% or 10%. These are also close to answers to the question on general value of long-run impact,[^note-grace-5], which might suggest the bulk of the “extremely bad (e.g. human extinction)” answers to that question is from human extinction or similarly permanent and severe disempowerment of the human species, as opposed to other outcomes that respondents to that question may have had in mind but that would have been less severe.
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x12.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543377966}@@caption](https://arxiv.org/html/2401.02843/x12.png)--}{++{"author":"Luc's AI","timestamp":1788543377966}@@caption](https://arxiv.org/html/2401.02843/extinction_risk_10p.svg)++}
 
 Figure 13: Percent of participants who gave a probability of 10% or higher to an extremely bad outcome of HLMI (e.g. human extinction) (see Section [4.2](https://arxiv.org/html/2401.02843v3#S4.SS2 "4.2 How good or bad for humans will High-Level Machine Intelligence be? ‣ 4 Results on Social Impacts of AI ‣ Thousands of AI Authors on the Future of AI")) or to the three questions specifically about human extinction or disempowerment.
 
@@ -349,7 +349,7 @@ The updated question is identical except for the inclusion of this example:
 
 In both variations, we asked, “How much should society prioritize AI safety research, relative to how much it is currently prioritized?” A Welch t-test found that the difference between the two framings was not significant ($t(1327)=-0.58,p=0.564,d=-0.03$), so the results were combined (n=1329). A large majority of respondents thought that AI safety research should be prioritized more than it currently is. The percentage of researchers who thought so increased compared to earlier surveys, but only slightly since 2022. (Figure [14](https://arxiv.org/html/2401.02843v3#S4.F14 "Figure 14 ‣ 4.6 How much should AI safety research be prioritized? ‣ 4 Results on Social Impacts of AI ‣ Thousands of AI Authors on the Future of AI"))
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x13.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543377674}@@caption](https://arxiv.org/html/2401.02843/x13.png)--}{++{"author":"Luc's AI","timestamp":1788543377674}@@caption](https://arxiv.org/html/2401.02843/ai_safety_priority.svg)++}
 
 Figure 14: 70% of respondents thought AI safety research should be prioritized more than it currently is. Developments since the 2022 survey have not substantially changed the proportion of participants who think AI safety should be prioritized “more” ore “much more”.
 
@@ -370,11 +370,11 @@ A second set of AI safety questions was based on Stuart Russell’s formulation 
     How hard do you think this problem is, compared to other problems in AI?
     
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x14.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543377376}@@caption](https://arxiv.org/html/2401.02843/x14.png)--}{++{"author":"Luc's AI","timestamp":1788543377376}@@caption](https://arxiv.org/html/2401.02843/ai_safety_importance.svg)++}
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x15.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543377376}@@caption](https://arxiv.org/html/2401.02843/x15.png)--}{++{"author":"Luc's AI","timestamp":1788543377376}@@caption](https://arxiv.org/html/2401.02843/ai_safety_today_value.svg)++}
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x16.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543377376}@@caption](https://arxiv.org/html/2401.02843/x16.png)--}{++{"author":"Luc's AI","timestamp":1788543377376}@@caption](https://arxiv.org/html/2401.02843/ai_safety_difficulty.svg)++}
 
 Figure 15: Attitudes towards Stuart Russell’s formulation of the alignment problem. Participants viewed the alignment problem as important and difficult, but not more valuable to work on than other problems.
 
@@ -552,11 +552,11 @@ Reprints and permissions requests should be directed to Katja Grace.
 
 ### A.1 How soon will High-level Machine Intelligence be feasible?
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x17.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543377076}@@caption](https://arxiv.org/html/2401.02843/x17.png)--}{++{"author":"Luc's AI","timestamp":1788543377076}@@caption](https://arxiv.org/html/2401.02843/A-quantile-cdfs-undergrad-region.svg)++}
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x18.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543377076}@@caption](https://arxiv.org/html/2401.02843/x18.png)--}{++{"author":"Luc's AI","timestamp":1788543377076}@@caption](https://arxiv.org/html/2401.02843/A-quantile-cdfs-time-in-field.svg)++}
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x19.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543377076}@@caption](https://arxiv.org/html/2401.02843/x19.png)--}{++{"author":"Luc's AI","timestamp":1788543377076}@@caption](https://arxiv.org/html/2401.02843/A-quantile-cdfs-citations.svg)++}
 
 Figure 17: Aggregate forecasts for time until HLMI were shorter for participants whose region of undergraduate study was Asia. Time in field did not have a significant effect on forecasts for time until HLMI. Citation count did not have a significant effect on forecasts for time until HLMI.
 
@@ -601,7 +601,7 @@ The similarity of answers across several slightly different questions, across th
 
 ### B.1 How soon will human-level performance on all tasks or occupations be feasible?
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x20.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543376760}@@caption](https://arxiv.org/html/2401.02843/x20.png)--}{++{"author":"Luc's AI","timestamp":1788543376760}@@caption](https://arxiv.org/html/2401.02843/framing-cdfs.svg)++}
 
 Figure 18: Participants who received questions framed in terms of fixed-years had later forecasts than those who received questions in terms of fixed-probabilities.
 
@@ -626,7 +626,7 @@ Figure 19: Two framings of the intelligence explosion question: How likely is an
 
 ### B.4 How much should AI safety research be prioritized?
 
-![Refer to caption](https://arxiv.org/html/2401.02843/x21.png)
+![Refer to {--{"author":"Luc's AI","timestamp":1788543376371}@@caption](https://arxiv.org/html/2401.02843/x21.png)--}{++{"author":"Luc's AI","timestamp":1788543376371}@@caption](https://arxiv.org/html/2401.02843/ai_safety_prioritization_biased_unbiased.svg)++}
 
 Figure 20: Two framings of the question “How much should AI safety research be prioritized?”, one including and one not including biased AI as an example.
 
