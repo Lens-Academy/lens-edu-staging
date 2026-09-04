@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -29,8 +35,8 @@ But it's not as bad as the grocery store analogy might lead you to believe, beca
 - Sometimes you can think harder until you find a similarly reliable but faster test.
 - Sometimes you can perform lots of faster but less reliable tests that can be run many times in parallel to yield similarly reliable results at a higher speed.
 - Sometimes you can perform many complicated tests at once, such that the data is complex and hard to interpret — which is a fine tradeoff if the cognition it takes to untangle the results is cheaper (from the perspective of an extremely fast-thinking mind) than running multiple tests.
-- Sometimes you can find a way to build other devices that perform the experiments much faster. For example, instead of sending many different requests to a biolab to have them synthesize drugs, can you find a way to send *one* request to a biolab, which will result in it synthesizing a *single bacterium* that contains the genetic code to produce all of the drugs you wish to synthesize? Similarly, can you create a bacterium that is sensitive to radio signals and will respond quickly to instructions from a fast-running AI — far more quickly than the excruciatingly slow humans running back and forth according to your instructions?
-- And sometimes you can simply take your top ten best guesses, figure out what you would do in each of those cases, build a complicated device that will work no matter whichway reality actually turns out to be, and skip the tests entirely.
+- Sometimes you can find a way to build other devices that perform the experiments much faster. For example, instead of sending many different requests to a biolab to have them synthesize drugs, can you find a way to send *one* request to a biolab, which will result in it synthesizing a *single bacterium* that contains the genetic code to produce all of the drugs you wish to synthesize? Similarly, can you create a bacterium that is sensitive to {--{"author":"Luc's AI","timestamp":1788533061519}@@radio signals--}{++{"author":"Luc's AI","timestamp":1788533061519}@@acoustic instructions from a speaker++} and will respond quickly to instructions from a fast-running AI — far more quickly than the excruciatingly slow humans running back and forth according to your instructions?
+- And sometimes you can simply take your top ten best guesses, figure out what you would do in each of those cases, build a complicated device that will work no matter {--{"author":"Luc's AI","timestamp":1788533061519}@@whichway--}{++{"author":"Luc's AI","timestamp":1788533061519}@@which way++} reality actually turns out to be, and skip the tests entirely.
 
 A civilization full of copies of Steve Jobs, Marie Curie, John von Neumann, and some of the world's greatest workers and programmers — if they were running at 10,000 times our speed — would *notice* that the key bottleneck was waiting on experimental results, and they could *work on that bottleneck* to reduce it.
 
@@ -48,7 +54,9 @@ As a case study: It took eight years for Einstein's theory of general relativity
 
 But that eight-year wait didn't block any real scientific progress.
 
-One reason for this is that Einstein's theory was clearly correct: It was already validated on data such as the movement of the perihelion of Mercury — inaccurately predicted by Newton's theory and accurately predicted by Einstein's. Human scientists didn't count this prediction as a win because the data had been collected before Einstein posed his theory. But "only new observations count" is the sort of crutch that a civilization needs when it has serious issues with [hindsight](https://web.archive.org/web/20170801042830/http://csml.som.ohio-state.edu:80/Music829C/hindsight.bias.html)[bias](https://web.archive.org/web/20170801042830/http://csml.som.ohio-state.edu:80/Music829C/hindsight.bias.html), [confirmation](http://www.stats.org.uk/statistical-inference/KlaymanHa1987.pdf)[bias](http://www.stats.org.uk/statistical-inference/KlaymanHa1987.pdf), and scientists cheating to [inflate the evidence for their](https://royalsocietypublishing.org/doi/10.1098/rsos.220346) [hypotheses](https://royalsocietypublishing.org/doi/10.1098/rsos.220346). None of these is a necessary feature of good reasoning. And indeed, careful thinkers were able to figure out whether Einstein's theory was correct well before the Eddington experiment, using the evidence already available to them.
+![The 29 May 1919 solar eclipse](https://ifanyonebuildsit.com/Online%20Resources%20%28All%20-%20Staged%20for%20Website%29/images/image4.png "ESO/Landessternwarte Heidelberg-Königstuhl/F. W. Dyson, A. S. Eddington, & C. Davidson - https://www.eso.org/public/images/potw1926a/")
+
+One reason for this is that Einstein's theory was clearly correct: It was already validated on data such as the movement of the perihelion of Mercury — inaccurately predicted by Newton's theory and accurately predicted by Einstein's. Human scientists didn't count this prediction as a win because the data had been collected before Einstein posed his theory. But "only new observations count" is the sort of crutch that a civilization needs when it has serious issues with [hindsight](https://web.archive.org/web/20170801042830/http://csml.som.ohio-state.edu:80/Music829C/hindsight.bias.html) [bias](https://web.archive.org/web/20170801042830/http://csml.som.ohio-state.edu:80/Music829C/hindsight.bias.html), [confirmation](http://www.stats.org.uk/statistical-inference/KlaymanHa1987.pdf) [bias](http://www.stats.org.uk/statistical-inference/KlaymanHa1987.pdf), and scientists cheating to [inflate the evidence for their](https://royalsocietypublishing.org/doi/10.1098/rsos.220346) [hypotheses](https://royalsocietypublishing.org/doi/10.1098/rsos.220346). None of these is a necessary feature of good reasoning. And indeed, careful thinkers were able to figure out whether Einstein's theory was correct well before the Eddington experiment, using the evidence already available to them.
 
 Additionally, there were faster methods of testing the theory — such as building telescopes and observing (the effects of) black holes, as predicted by Einstein's theory — which presumably could have been done in less than eight years by a sufficiently fast-thinking and competent civilization. Or if you already had space flight capabilities, you could test the clocks on satellites in less than a day. To assume that Einstein's theory *required* eight years to test would be to radically underestimate the power of intelligence.
 
