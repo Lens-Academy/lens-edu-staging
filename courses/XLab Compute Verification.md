@@ -8,7 +8,10 @@ partner-name: XLab
 partner-url: https://aisafetytracks.com/verification/landing
 tags: [wip]
 ---
-%% Source curriculum: https://aisafetytracks.com/tracks/verification (repo: https://github.com/XLabTracks/tracks) %%
+%% Source curriculum: https://aisafetytracks.com/tracks/verification (repo: https://github.com/XLabTracks/tracks) 
+
+Depreciated because 
+%%
 
 # Module: [[../modules/XLab Verification Overview]]
 intro-form:: true
