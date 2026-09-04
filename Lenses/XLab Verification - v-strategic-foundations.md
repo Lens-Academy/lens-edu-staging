@@ -93,6 +93,7 @@ id:: c0c24764-3c26-41cd-a20e-3375a3aa7acd
 content:: Optional: Actor, authority, and evidence map.
 
 Choose one element of the advanced-AI supply chain. Map (1) the actors involved, (2) the authority each one holds, and (3) the evidence that would let an outside party verify what they are doing. Draw on whichever reading pathway above is most relevant to the element you pick.
+assessment-instructions:: One element of the advanced-AI supply chain must be chosen and named; an answer about the chain as a whole has not done the exercise. Score three things, roughly a third each: (1) the actors involved in that element are listed, including at least one outside the firm that operates it, such as its regulator, its supplier, or its customer; (2) each actor carries the authority it actually holds, a jurisdiction, a licence, ownership of a record, a contractual right, or the power to interrupt; (3) each actor carries the evidence that would let an outside party verify what it is doing, with a note of who produces or holds that evidence. Reward answers that separate evidence the actor reports about itself from evidence held by someone else. Do not require any particular reading pathway to be cited. No generic praise.
 feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 optional:: true
 
