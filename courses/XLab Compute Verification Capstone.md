@@ -40,7 +40,7 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 %%
 Week 3 goals:
-- Decide continue, re-scope, or switch (last chance to switch); build a draft a stranger can read start to end, holes labelled; handit  to the review partner with a reader's guide.
+- Decide continue, re-scope, or switch (last chance to switch); build a draft a stranger can read start to end, holes labelled; hand it to the review partner with a reader's guide.
 %%
 # Module: [[../modules/XLab Verification Capstone W3 Decide and draft]]
 
