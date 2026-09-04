@@ -79,13 +79,13 @@ Most of their work is slop. But enough of it is good that people are paying ten 
 
 There is one job the AI companies want to automate more than any other—their own. They haven’t succeeded yet; no [recursive self-improvement](https://www.anthropic.com/institute/recursive-self-improvement) so far.[14](https://ai-2040.com/footnotes#footnote-14) But they seem to be getting closer, and they’re pulling up the ladder behind them: the strongest coding AIs refuse to help competitors with AI R&D.[15](https://ai-2040.com/footnotes#footnote-15) Even as the most bullish employees admit that things are taking a bit longer than planned, the skeptics notice that their usual dismissals are starting to ring hollow. Why exactly will AI never be able to do my job? What’s the barrier again?
 
-**Congress is starting to pay more attention.** They’ve long been hearing about AI: datacenters using too much water,[16](https://ai-2040.com/footnotes#footnote-16) chatbots encouraging suicide, [Mythos hacking](https://www.ibtimes.co.uk/anthropic-ai-breach-us-classified-systems-1804084) NSA systems—and of course, tech industry lobbyists warning that any whiff of regulation will make America immediately lose the race with China and spend the rest of history as a CCP tributary state.^([17](https://ai-2040.com/footnotes#footnote-17))
+**Congress is starting to pay more attention.** They’ve long been hearing about AI: datacenters using too much water,[16](https://ai-2040.com/footnotes#footnote-16) chatbots encouraging suicide, [Mythos hacking](https://www.ibtimes.co.uk/anthropic-ai-breach-us-classified-systems-1804084) NSA systems—and of course, tech industry lobbyists warning that any whiff of regulation will make America immediately lose the race with China and spend the rest of history as a CCP tributary state.[17](https://ai-2040.com/footnotes#footnote-17)
 
 Now they step back and ask: Where are we going with this? What does the world look like five, ten, or fifteen years from now? Will there still be jobs? What if there aren’t?
 
 One question weighs especially heavily on their minds: **Who will control all these AIs?**
 
-Congress settles on an important part of the answer: **Probably not us.**^([18](https://ai-2040.com/footnotes#footnote-18))
+Congress settles on an important part of the answer: **Probably not us.**[18](https://ai-2040.com/footnotes#footnote-18)
 
 They hold a series of tense hearings on AI. They read the 2016 OpenAI emails discussing how OpenAI was founded in order to prevent Demis Hassabis from [becoming dictator](https://futurism.com/the-byte/openai-emails-elon-musk-agi).^([19](https://ai-2040.com/footnotes#footnote-19)) But who is preventing Sam or Elon from becoming dictator? Congress is unsatisfied with existing responses.
 
