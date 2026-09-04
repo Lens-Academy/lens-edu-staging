@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -23,7 +29,7 @@ It's not that the creators of AI will make evil or foolish requests. It's not th
 
 To understand why minds that are grown rather than crafted are likely to steer toward weird, unintended things, let's take a deeper look at what happened with biological creatures, and see what lessons we can learn.
 
-#### Squirrelly Algorithms
+#### Squirrelly Algorithms ^squirrelly-algorithms
 
 Consider the humble squirrel.
 
@@ -57,7 +63,7 @@ The role that humans are playing in the development of modern AI is *not* that o
 
 We are "forcing" the AIs to stumble blindly around until they find structures and strategies that output the behavior we want, but we don't know what those structures and strategies are. This is not a recipe for creating AIs that want exactly what we want them to want.
 
-#### The Origin of Taste Buds
+#### The Origin of Taste Buds ^the-origin-of-taste-buds
 
 Why do so many humans like junk foods? Why didn't nature instill in us a concept of "healthy" foods, and give us an instinct for *eating healthy*?
 

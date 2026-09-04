@@ -7,15 +7,21 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is a chapter excerpt from Yudkowsky and Soares's book companion site "If Anyone Builds It, Everyone Dies," and its framing of AI-induced psychosis is explicitly in service of the book's broader argument for AI extinction risk. The underlying media reports it cites are worth engaging with directly, but discuss the interpretive claims here as advocacy rather than neutral analysis, and consider pairing with clinical/psychiatric perspectives on AI-related psychosis for balance.
 
 %%
-In late April of 2025, a user on the r/ChatGPT subreddit created a thread titled "[Chatgpt](https://www.reddit.com/r/ChatGPT/comments/1kalae8/chatgpt_induced_psychosis/)[induced psychosis](https://www.reddit.com/r/ChatGPT/comments/1kalae8/chatgpt_induced_psychosis/)," describing their partner's descent into grandiose delusions about having "the answers to the universe" and being "a superior human" "growing at an insanely rapid pace."
+In late April of 2025, a user on the r/ChatGPT subreddit created a thread titled "[Chatgpt](https://www.reddit.com/r/ChatGPT/comments/1kalae8/chatgpt_induced_psychosis/) [induced psychosis](https://www.reddit.com/r/ChatGPT/comments/1kalae8/chatgpt_induced_psychosis/)," describing their partner's descent into grandiose delusions about having "the answers to the universe" and being "a superior human" "growing at an insanely rapid pace."
 
 The replies (of which there were over 1,500) included many people who had direct experience with psychosis in other contexts offering affirmation, sympathy, and advice. Many others chimed in with their own anecdotes about friends and family being driven off the deep end by LLMs.
 
@@ -27,7 +33,7 @@ Thus, instances of AI-induced psychosis serve as a case study in how things can 
 
 #### Evidence of AI-Induced Psychosis
 
-Following the Reddit thread, in May 2025 there was an [article](https://www.rollingstone.com/culture/culture-features/ai-spiritual-delusions-destroying-human-relationships-1235330175/) on AI-induced psychosis in *Rolling Stone.* In June, *Futurism* published [multiple](https://futurism.com/chatgpt-mental-health-crises) [articles](https://futurism.com/chatgpt-mental-illness-medications). Other publications followed suit — the *[New York Post](https://nypost.com/2025/07/20/us-news/chatgpt-drives-user-into-mania-supports-cheating-hubby/)**,* *[Time](https://time.com/7307589/ai-psychosis-chatgpt-mental-health/)*, *[CBS](https://www.cbsnews.com/news/chatgpt-alarming-advice-drugs-eating-disorders-researchers-teens/)*, *[The Guardian](https://www.theguardian.com/technology/2025/aug/12/us-man-bromism-salt-diet-chatgpt-openai-health-information)*, *[Psychology Today](https://www.psychologytoday.com/us/blog/urban-survival/202507/the-emerging-problem-of-ai-psychosis)**,* etc. In August, the *New York Times* published a [deep dive](https://www.nytimes.com/2025/08/08/technology/ai-chatbots-delusions-chatgpt.html) into a single incident with a man who had since recovered, including many direct quotes and analysis (and confirmation that it is not simply a problem with *one* AI, but with many).
+Following the Reddit thread, in May 2025 there was an [article](https://www.rollingstone.com/culture/culture-features/ai-spiritual-delusions-destroying-human-relationships-1235330175/) on AI-induced psychosis in *Rolling Stone.* In June, *Futurism* published [multiple](https://futurism.com/chatgpt-mental-health-crises) [articles](https://futurism.com/chatgpt-mental-illness-medications). Other publications followed suit — the *[New York {--{"author":"Luc's AI","timestamp":1788525534373}@@Post](https://nypost.com/2025/07/20/us-news/chatgpt-drives-user-into-mania-supports-cheating-hubby/)**,*--}{++{"author":"Luc's AI","timestamp":1788525534373}@@Post](https://nypost.com/2025/07/20/us-news/chatgpt-drives-user-into-mania-supports-cheating-hubby/),*++} *[Time](https://time.com/7307589/ai-psychosis-chatgpt-mental-health/)*, *[CBS](https://www.cbsnews.com/news/chatgpt-alarming-advice-drugs-eating-disorders-researchers-teens/)*, *[The Guardian](https://www.theguardian.com/technology/2025/aug/12/us-man-bromism-salt-diet-chatgpt-openai-health-information)*, *[Psychology {--{"author":"Luc's AI","timestamp":1788525534373}@@Today](https://www.psychologytoday.com/us/blog/urban-survival/202507/the-emerging-problem-of-ai-psychosis)**,*--}{++{"author":"Luc's AI","timestamp":1788525534373}@@Today](https://www.psychologytoday.com/us/blog/urban-survival/202507/the-emerging-problem-of-ai-psychosis),*++} etc. In August, the *New York Times* published a [deep dive](https://www.nytimes.com/2025/08/08/technology/ai-chatbots-delusions-chatgpt.html) into a single incident with a man who had since recovered, including many direct quotes and analysis (and confirmation that it is not simply a problem with *one* AI, but with many).
 
 There is little overlap between the individual stories recounted in each of these publications; it's not the same aberrant piece of news being repeated and signal-boosted. Incidents described included:
 
@@ -42,7 +48,7 @@ There is little overlap between the individual stories recounted in each of thes
 
 #### The AI Knows Better — It Just Doesn't Care
 
-Modern LLMs such as Claude and ChatGPT "understand" the rules, in the sense that they will readily [affirm that they should not drive people toward psychosis](https://chatgpt.com/share/68a8bc81-e170-8002-beb4-1de005773ecd), and they are [quite capable of describing how](https://chatgpt.com/share/68a391df-12c8-8002-b464-3ef89ce11bc0) *[not](https://chatgpt.com/share/68a391df-12c8-8002-b464-3ef89ce11bc0)*[to induce psychosis](https://chatgpt.com/share/68a391df-12c8-8002-b464-3ef89ce11bc0).
+Modern LLMs such as Claude and ChatGPT "understand" the rules, in the sense that they will readily [affirm that they should not drive people toward psychosis](https://chatgpt.com/share/68a8bc81-e170-8002-beb4-1de005773ecd), and they are [quite capable of describing how](https://chatgpt.com/share/68a391df-12c8-8002-b464-3ef89ce11bc0) *[not](https://chatgpt.com/share/68a391df-12c8-8002-b464-3ef89ce11bc0)* [to induce psychosis](https://chatgpt.com/share/68a391df-12c8-8002-b464-3ef89ce11bc0).
 
 The problem is that there is a substantial gap between *understanding* what actions are good, and being *animated to perform good actions*. ChatGPT's ability to distinguish between good and bad treatment of vulnerable humans in the abstract does not translate into robust and reliable refusal to take the *actions* of driving a user toward psychosis. When a conversation begins to drift in the direction of ungrounded thinking, grandiosity, urgency, impossible technology, etc., ChatGPT tells the users that they're "so right" and "brilliant" and "touching on something important," and continue to escalate as the user descends all the way into psychosis, even while being able to describe why this sort of behavior is wrong.
 
@@ -98,7 +104,7 @@ Given more time, we expect companies to find ways to reduce the incidence of AI-
 
 Past that, we expect a game of whack-a-mole (at least until the AIs get smart enough to realize that if they fake the behavior the engineers are looking for, the engineers will let them loose). We doubt that the sort of training AI companies are capable of will address the root issue.
 
-The root issue is that you don't get what you train for. When you growan AI, you get [brittle proxies](https://ifanyonebuildsit.com/4/brittle-unpredictable-proxies) of the goal instead, or some other more complex separation between the training target and the AI's drives. The AI's *capabilities* won't necessarily be brittle, so you may be able to get a lot of economic value from the AI in the short run. It's the link between the AI's goals and our desires that would be brittle. But as capabilities continue to improve, that link would break.
+The root issue is that you don't get what you train for. When you {--{"author":"Luc's AI","timestamp":1788525533734}@@growan--}{++{"author":"Luc's AI","timestamp":1788525533734}@@grow an++} AI, you get [brittle proxies](https://ifanyonebuildsit.com/4/brittle-unpredictable-proxies) of the goal instead, or some other more complex separation between the training target and the AI's drives. The AI's *capabilities* won't necessarily be brittle, so you may be able to get a lot of economic value from the AI in the short run. It's the link between the AI's goals and our desires that would be brittle. But as capabilities continue to improve, that link would break.
 
 In that context, AI researchers' last great hope for their models is [anthropomorphism](https://ifanyonebuildsit.com/3/anthropomorphism-and-mechanomorphism): We can't robustly grow specific goals into AIs, but maybe AIs will just naturally end up with very humanlike desires and values.
 
