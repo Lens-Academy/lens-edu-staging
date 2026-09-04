@@ -37,8 +37,8 @@ short:: true
 key:: education
 content:: Highest level of completed or pursuing education.
 options::
+
 - Bachelors
-- High School
 - Masters
 - PhD
 required:: true
