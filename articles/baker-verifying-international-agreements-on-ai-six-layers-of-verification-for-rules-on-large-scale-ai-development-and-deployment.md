@@ -373,10 +373,10 @@ Beyond implementing specific verification mechanisms, international verification
 | {--{"author":"Elias's AI","timestamp":1788522676397}@@--- | --- |
 | --}Acting on ambiguities: What should be done if the Verifier encounters ambiguous indicators of a potential violation? | As increasingly escalatory and costly options, the Verifier could: request clarifications, carry out focused investigations, demand the narrow application of more intrusive verification measures, demand temporary pauses of AI compute clusters, or impose partial penalties ([Appendix B.3](https://arxiv.org/html/2507.15916v2#Ax1.SSx2.SSSx3 "B.3 Acting on Ambiguous Findings ‣ B. Broader Regime Design ‣ Appendices ‣ Verifying International Agreements on AI")). |
 | {--{"author":"Elias's AI","timestamp":1788522679819}@@--- | --- |
-| --}Attributing violations: How to determine whether a cloud provider or a compute user is to blame for a violation, and whether a corporate violation of international rules is government-backed? | Attribution could potentially be done via reporting requirements. With appropriate communication channels, a cloud provider or host government may be reasonably expected to detect violations on their compute/territory more quickly than an international Verifier and to report them. Thus, reporting could indicate that the reported party is complicit; failure to report could indicate that the party with reporting responsibilities is complicit. |
+| --}Attributing violations: How to determine whether a cloud provider or a compute user is to blame for a violation, and whether a corporate violation of international rules is government-backed? | Attribution could potentially be done via reporting requirements. With appropriate communication channels, a cloud provider or host government may be reasonably expected to detect violations on their compute/territory more quickly than an international Verifier and to report them. Thus, reporting could indicate that the reported party is complicit; failure to report could indicate that the party with reporting responsibilities is complicit. |{--{"author":"Elias's AI","timestamp":1788522683491}@@
 | --- | --- |
 |  |  |
-| --- | --- |
+| --- | --- |--}
 
 Table 4: Some broader challenges for verification and high-level options to address them.
 
@@ -445,8 +445,8 @@ On-chip verification faces severe, unsolved hardware security challenges (Table 
 | Challenge for attaining confidence in AI chips’ hardware security features[^note-baker-44] | Description |
 | --- | --- |
 | Mixed track records | Hardware security features have a track record that is mixed at best. There have been multiple cases of individual, low-budget researchers circumventing the hardware security features of leading companies.[^note-baker-45] On the other hand, some track records have improved in recent years.[^note-baker-46] |
-| --- | --- |
-| Lacking security practices | Most high-performance chips, including AI chips, appear to be designed contrary to important security practices, such as external red teaming by leading security experts[^note-baker-47] and use of Hardware Security Modules (HSMs).[^note-baker-48] |
+| {--{"author":"Elias's AI","timestamp":1788522687084}@@--- | --- |
+| --}Lacking security practices | Most high-performance chips, including AI chips, appear to be designed contrary to important security practices, such as external red teaming by leading security experts[^note-baker-47] and use of Hardware Security Modules (HSMs).[^note-baker-48] |
 | --- | --- |
 | Performance-security tradeoffs | There are often tradeoffs between a chip’s performance and its security, incentivizing higher performance and faster releases at the expense of security.[^note-baker-49] |
 | --- | --- |
