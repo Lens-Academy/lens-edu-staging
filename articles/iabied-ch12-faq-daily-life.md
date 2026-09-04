@@ -7,15 +7,21 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+The authors point to their own financial and career choices (leaving high-paying jobs, not saving for retirement) as evidence of sincere belief. Worth flagging for discussion: this is a "revealed preferences" argument, and students should consider what it does and doesn't establish about the underlying claims.
 
 %%
-#### It dramatically affects our priorities.
+#### It dramatically affects our priorities. ^it-dramatically-affects-our-priorities
 
 In 2014, Soares left the tech industry and took one-third of his previous salary to work on this problem, because it seemed important and because few other people were working on it. And he was over a decade late relative to Yudkowsky, who founded MIRI in 2000 when he was about twenty years old, and has dedicated his life to the issue. So, yes, it affects our daily lives.
 
