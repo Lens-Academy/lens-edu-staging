@@ -35,7 +35,7 @@ The briefs in the bank declare their own effort: 10 to 22 hours, most around 14 
 - A brief at the bank's median (around 16 hours) needs about one more hour a week, or a partner.
 - A 20-to-22-hour brief needs a partner (most of those briefs say 1 to 2 people) and a smaller realistic version. The proposal in week 2 asks you to say which.
 
-Meetings add no new content. They are where your proposal gets challenged, your decision gets checked, your draft gets read, your rejection of a review gets red-teamed, and your finished work gets shown.
+Meetings are where your proposal gets challenged, your decision gets checked, your draft gets read, your rejection of a review gets red-teamed, and your finished work gets shown.
 
 \## The path
 
