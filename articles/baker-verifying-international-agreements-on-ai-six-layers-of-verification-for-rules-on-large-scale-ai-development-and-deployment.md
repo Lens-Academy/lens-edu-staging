@@ -1062,12 +1062,12 @@ Background: A Verifier may wish to verify that a declared workload was actually 
 |--}  | The performance of model checkpoints fits the functional form of AI scaling laws (Kaplan et al., [2020](https://arxiv.org/html/2507.15916v2#bib.bib114); Hoffmann et al., [2022](https://arxiv.org/html/2507.15916v2#bib.bib98); Villalobos, [2023](https://arxiv.org/html/2507.15916v2#bib.bib220)) | ✓ | X | X |
 |{--{"author":"Elias's AI","timestamp":1788522738542}@@ --- | --- | --- | --- | --- |
 |--}  | Most gradients generated in training are not highly similar to each other[^note-baker-108] | ✓ | X |   |
-| --- | --- | --- | --- | --- |
-| Sensitivity and cross-system analyses | Perturbing or replacing a component (e.g., weights, data, training algorithm) has the expected effects | ✓ | ✓ | ✓ |
-| --- | --- | --- | --- | --- |
-| Origin constraint | A model used for large-scale inference has a declared training history | X | ✓ |   |
-| --- | --- | --- | --- | --- |
-| Data and code constraints | For example, code for AI training has the structure of gradient descent, in terms of code factorization.[^note-baker-109] ([Appendix A.5](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx5 "A.5 Data and Code Validation ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI").) | ✓ | ✓ | ✓ |
+| {--{"author":"Elias's AI","timestamp":1788522741991}@@--- | --- | --- | --- | --- |
+| --}Sensitivity and cross-system analyses | Perturbing or replacing a component (e.g., weights, data, training algorithm) has the expected effects | ✓ | ✓ | ✓ |
+| {--{"author":"Elias's AI","timestamp":1788522745285}@@--- | --- | --- | --- | --- |
+| --}Origin constraint | A model used for large-scale inference has a declared training history | X | ✓ |   |
+| {--{"author":"Elias's AI","timestamp":1788522748337}@@--- | --- | --- | --- | --- |
+| --}Data and code constraints | For example, code for AI training has the structure of gradient descent, in terms of code factorization.[^note-baker-109] ([Appendix A.5](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx5 "A.5 Data and Code Validation ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI").) | ✓ | ✓ | ✓ |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
 | --- | --- | --- | --- | --- |
