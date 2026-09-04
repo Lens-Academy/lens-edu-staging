@@ -12,8 +12,14 @@ accessed: 2026-07-28
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -39,67 +45,94 @@ Akash R. Wasil1,2, Tom Reed2, Jack William Miller2, Peter Barnett3
 
 Efforts to maximize the benefits and minimize the global security risks of advanced AI may lead to international agreements. This paper outlines methods that could be used to verify compliance with such agreements. The verification methods we cover are focused on detecting two potential violations:
 
-Violations to verify • Unauthorized AI development (for example, AI development that goes beyond a FLOP threshold set by an international agreement, or the execution of a training run that has not received a license). • Unauthorized data centers (for example, data centers that go beyond a maximum computing capacity limit or networking limit set by an international agreement).
+{--{"author":"Luc's AI","timestamp":1788539156431}@@Violations--}{++{"author":"Luc's AI","timestamp":1788539156431}@@**Violations++} to {--{"author":"Luc's AI","timestamp":1788539156431}@@verify • --}{++{"author":"Luc's AI","timestamp":1788539156431}@@verify**
+
+- ++}Unauthorized AI development (for example, AI development that goes beyond a FLOP threshold set by an international agreement, or the execution of a training run that has not received a license).{--{"author":"Luc's AI","timestamp":1788539156431}@@ •--}{++{"author":"Luc's AI","timestamp":1788539156431}@@
+-++} Unauthorized data centers (for example, data centers that go beyond a maximum computing capacity limit or networking limit set by an international agreement).
 
 We identify 10 verification methods and divide them into three categories:
 
-1.  1.
+1.{--{"author":"Luc's AI","timestamp":1788539156080}@@  1.
     
-    National technical means. Methods that can be used by nations unilaterally.
+    National --}{++{"author":"Luc's AI","timestamp":1788539156080}@@ **National ++}technical {--{"author":"Luc's AI","timestamp":1788539156080}@@means.--}{++{"author":"Luc's AI","timestamp":1788539156080}@@means.**++} Methods that can be used by nations unilaterally.{--{"author":"Luc's AI","timestamp":1788539156080}@@
     
-2.  2.
+2.  --}{++{"author":"Luc's AI","timestamp":1788539156080}@@
+++}2.{--{"author":"Luc's AI","timestamp":1788539156080}@@
     
-    Access-dependent methods. Methods that require a nation to grant access to national or international inspectors
+    Access-dependent methods.--}{++{"author":"Luc's AI","timestamp":1788539156080}@@ **Access-dependent methods.**++} Methods that require a nation to grant access to national or international inspectors{--{"author":"Luc's AI","timestamp":1788539156080}@@
     
-3.  3.
+--}{++{"author":"Luc's AI","timestamp":1788539156080}@@
+++}3.{--{"author":"Luc's AI","timestamp":1788539156080}@@  3.
     
-    Hardware-dependent methods. Methods that require agreements pertaining to advanced hardware
+    Hardware-dependent methods.--}{++{"author":"Luc's AI","timestamp":1788539156080}@@ **Hardware-dependent methods.**++} Methods that require agreements pertaining to advanced hardware{--{"author":"Luc's AI","timestamp":1788539156080}@@
     
 
-National technical means 1. Remote sensing: Detect unauthorized data centers and semiconductor manufacturing via visual and thermal signatures. 2. Whistleblowers: Incentivize insiders to report non-compliance. 3. Energy monitoring: Detect power consumption patterns that suggest the potential presence of large GPU clusters. 4. Customs data analysis: Track the movement of critical AI hardware and raw materials. 5. Financial intelligence: Monitor large financial transactions related to AI development.
+National--}{++{"author":"Luc's AI","timestamp":1788539156080}@@
 
-Access-dependent methods 1. Data center inspections: Conduct inspections of sites to assess the size of a data center, verify compliance with hardware agreements, and verify compliance with other safety and security agreements. 2. Semiconductor manufacturing facility inspections: Conduct inspections of sites to determine the quantity of chip production and verify that chip production conforms to any agreements around advanced hardware. 3. AI developer inspections: Conduct inspections of AI development facilities via interviews, document and training transcript audits, and potential code reviews.
+**National++} technical {--{"author":"Luc's AI","timestamp":1788539156080}@@means --}{++{"author":"Luc's AI","timestamp":1788539156080}@@means**
 
-Hardware-dependent methods 1. Chip location tracking: Automatic location tracking of advanced AI chips. 2. Chip-based reporting: Automatic notification if chips are used for unauthorized purposes.
+++}1. Remote sensing: Detect unauthorized data centers and semiconductor manufacturing via visual and thermal signatures.{--{"author":"Luc's AI","timestamp":1788539156080}@@ --}{++{"author":"Luc's AI","timestamp":1788539156080}@@
+++}2. Whistleblowers: Incentivize insiders to report non-compliance.{--{"author":"Luc's AI","timestamp":1788539156080}@@ --}{++{"author":"Luc's AI","timestamp":1788539156080}@@
+++}3. Energy monitoring: Detect power consumption patterns that suggest the potential presence of large GPU clusters.{--{"author":"Luc's AI","timestamp":1788539156080}@@ --}{++{"author":"Luc's AI","timestamp":1788539156080}@@
+++}4. Customs data analysis: Track the movement of critical AI hardware and raw materials.{--{"author":"Luc's AI","timestamp":1788539156080}@@ --}{++{"author":"Luc's AI","timestamp":1788539156080}@@
+++}5. Financial intelligence: Monitor large financial transactions related to AI development.
+
+{--{"author":"Luc's AI","timestamp":1788539156080}@@Access-dependent methods --}{++{"author":"Luc's AI","timestamp":1788539156080}@@**Access-dependent methods**
+
+++}1. Data center inspections: Conduct inspections of sites to assess the size of a data center, verify compliance with hardware agreements, and verify compliance with other safety and security agreements.{--{"author":"Luc's AI","timestamp":1788539156080}@@ --}{++{"author":"Luc's AI","timestamp":1788539156080}@@
+++}2. Semiconductor manufacturing facility inspections: Conduct inspections of sites to determine the quantity of chip production and verify that chip production conforms to any agreements around advanced hardware.{--{"author":"Luc's AI","timestamp":1788539156080}@@ --}{++{"author":"Luc's AI","timestamp":1788539156080}@@
+++}3. AI developer inspections: Conduct inspections of AI development facilities via interviews, document and training transcript audits, and potential code reviews.
+
+{--{"author":"Luc's AI","timestamp":1788539156080}@@Hardware-dependent methods --}{++{"author":"Luc's AI","timestamp":1788539156080}@@**Hardware-dependent methods**
+
+++}1. Chip location tracking: Automatic location tracking of advanced AI chips.{--{"author":"Luc's AI","timestamp":1788539156080}@@ --}{++{"author":"Luc's AI","timestamp":1788539156080}@@
+++}2. Chip-based reporting: Automatic notification if chips are used for unauthorized purposes.
 
 ### Limitations and considerations
 
 The verification methods we propose have some limitations, and there are many complicated national and international considerations that would influence if and how they are implemented. Some of these include:
 
--   •
+-{--{"author":"Luc's AI","timestamp":1788539155836}@@   •
     
-    Invasiveness: Some methods (especially on-site inspections) may be seen as intrusive and could raise concerns about privacy and sovereignty. Several factors could influence a nation’s willingness to accept invasive measures (e.g., the amount of international tension or distrust between nations, the degree to which nations are concerned about risks from advanced AI, the exact types of risks that nations find most concerning.)
+    Invasiveness: --}{++{"author":"Luc's AI","timestamp":1788539155836}@@ **Invasiveness**: ++}Some methods (especially on-site inspections) may be seen as intrusive and could raise concerns about privacy and sovereignty. Several factors could influence a nation’s willingness to accept invasive measures (e.g., the amount of international tension or distrust between nations, the degree to which nations are concerned about risks from advanced AI, the exact types of risks that nations find most concerning.){--{"author":"Luc's AI","timestamp":1788539155836}@@
     
--   •
+--}{++{"author":"Luc's AI","timestamp":1788539155836}@@
+++}-{--{"author":"Luc's AI","timestamp":1788539155836}@@   •
     
-    Imperfect detection: No single method is foolproof. However, the combination of multiple methods could create a “Swiss chees” model, where the weaknesses of one method are covered by the strengths of others.
+    Imperfect detection:--}{++{"author":"Luc's AI","timestamp":1788539155836}@@ **Imperfect detection**:++} No single method is foolproof. However, the combination of multiple methods could create a “Swiss {--{"author":"Luc's AI","timestamp":1788539155836}@@chees”--}{++{"author":"Luc's AI","timestamp":1788539155836}@@cheese”++} model, where the weaknesses of one method are covered by the strengths of others.{--{"author":"Luc's AI","timestamp":1788539155836}@@
     
--   •
+--}{++{"author":"Luc's AI","timestamp":1788539155836}@@
+++}-{--{"author":"Luc's AI","timestamp":1788539155836}@@   •
     
-    Developmental stage: Some methods (especially the hardware-dependent ones) may require additional R&D. Furthermore, unlike methods that have been used for decades in other areas, the real-world effectiveness of some hardware-dependent methods has not yet been determined.
+    Developmental stage: --}{++{"author":"Luc's AI","timestamp":1788539155836}@@ **Developmental stage**: ++}Some methods (especially the hardware-dependent ones) may require additional R&D. Furthermore, unlike methods that have been used for decades in other areas, the real-world effectiveness of some hardware-dependent methods has not yet been determined.{--{"author":"Luc's AI","timestamp":1788539155836}@@
     
-
+--}{++{"author":"Luc's AI","timestamp":1788539155836}@@
+++}
 ### Future Directions
 
 Our work provides a foundation for discussions on AI governance verification, but several key areas require further research:
 
--   •
+-{--{"author":"Luc's AI","timestamp":1788539155563}@@   •
     
-    Red-teaming exercises for verification regimes. Future work could examine how adversaries might attempt to circumvent a verification regime, describe potential evasion methods, and develop robust countermeasures to improve the effectiveness of the verification regime.
+    Red-teaming --}{++{"author":"Luc's AI","timestamp":1788539155563}@@ **Red-teaming ++}exercises for verification {--{"author":"Luc's AI","timestamp":1788539155563}@@regimes.--}{++{"author":"Luc's AI","timestamp":1788539155563}@@regimes**.++} Future work could examine how adversaries might attempt to circumvent a verification regime, describe potential evasion methods, and develop robust countermeasures to improve the effectiveness of the verification regime.{--{"author":"Luc's AI","timestamp":1788539155563}@@
     
--   •
+--}{++{"author":"Luc's AI","timestamp":1788539155563}@@
+++}-{--{"author":"Luc's AI","timestamp":1788539155563}@@   •
     
-    Design of international AI governance institutions. Future work could examine how international AI governance institutions should be designed, potentially drawing lessons from existing international bodies. Such work could explore questions such as: (a) what specific powers should be granted to the international institution, (b) how the institution should make core decisions, (c) how power is distributed between nations, and (d) how to handle potential violations or instances of non-compliance.
+    Design --}{++{"author":"Luc's AI","timestamp":1788539155563}@@ **Design ++}of international AI governance {--{"author":"Luc's AI","timestamp":1788539155563}@@institutions.--}{++{"author":"Luc's AI","timestamp":1788539155563}@@institutions.**++} Future work could examine how international AI governance institutions should be designed, potentially drawing lessons from existing international bodies. Such work could explore questions such as: (a) what specific powers should be granted to the international institution, (b) how the institution should make core decisions, (c) how power is distributed between nations, and (d) how to handle potential violations or instances of non-compliance.{--{"author":"Luc's AI","timestamp":1788539155563}@@
     
--   •
+--}{++{"author":"Luc's AI","timestamp":1788539155563}@@
+++}-{--{"author":"Luc's AI","timestamp":1788539155563}@@   •
     
-    Enforcement strategies. Future work could examine what kinds of responses could be issued if non-compliance is discovered. This includes examining how such responses can be proportionate to the severity of the violation.
+    Enforcement strategies.--}{++{"author":"Luc's AI","timestamp":1788539155563}@@ **Enforcement strategies.**++} Future work could examine what kinds of responses could be issued if non-compliance is discovered. This includes examining how such responses can be proportionate to the severity of the violation.{--{"author":"Luc's AI","timestamp":1788539155563}@@
     
--   •
+--}{++{"author":"Luc's AI","timestamp":1788539155563}@@
+++}-{--{"author":"Luc's AI","timestamp":1788539155563}@@   •
     
-    Development of tamper-proof and privacy-preserving hardware-enabled verification mechanisms. Future R&D efforts could improve the effectiveness, feasibility, robustness, or desirability of various hardware-dependent verification methods.
+    Development --}{++{"author":"Luc's AI","timestamp":1788539155563}@@ **Development ++}of tamper-proof and privacy-preserving hardware-enabled verification {--{"author":"Luc's AI","timestamp":1788539155563}@@mechanisms.--}{++{"author":"Luc's AI","timestamp":1788539155563}@@mechanisms**.++} Future R&D efforts could improve the effectiveness, feasibility, robustness, or desirability of various hardware-dependent verification methods.{--{"author":"Luc's AI","timestamp":1788539155563}@@
     
-
+--}{++{"author":"Luc's AI","timestamp":1788539155563}@@
+++}
 ## Introduction
 
 ‘
@@ -122,15 +155,17 @@ In this paper, we provide an overview of verification methods for international 
 
 An international agreement on AI could take many forms, depending on how the technology and its associated risks evolve. In scenarios where continued AI development leads to substantial acknowledged global security risks, we anticipate that verification methods would need to be capable of detecting two primary types of potential violations:
 
-1.  1.
+1.{--{"author":"Luc's AI","timestamp":1788539155322}@@  1.
     
-    Unauthorized data centers. International governance of AI could plausibly set restrictions on the form, size, quantity, and location of large-scale computing facilities. Verification methods would therefore be needed to detect the construction or operation of data centers that violate these agreed-upon standards.
+    Unauthorized --}{++{"author":"Luc's AI","timestamp":1788539155322}@@ **Unauthorized ++}data {--{"author":"Luc's AI","timestamp":1788539155322}@@centers.--}{++{"author":"Luc's AI","timestamp":1788539155322}@@centers**.++} International governance of AI could plausibly set restrictions on the form, size, quantity, and location of large-scale computing facilities. Verification methods would therefore be needed to detect the construction or operation of data centers that violate these agreed-upon standards.{--{"author":"Luc's AI","timestamp":1788539155322}@@
     
-2.  2.
+--}{++{"author":"Luc's AI","timestamp":1788539155322}@@
+++}2.{--{"author":"Luc's AI","timestamp":1788539155322}@@  2.
     
-    Unauthorized training runs. An effective international system for governing AI would likely include restrictions on the scale and characteristics of AI development. Beyond detecting unauthorised data centers, methods to verify that known data centers are compliant with agreed-upon standards would also be necessary. For example, an agreement might stipulate that AI training runs should not exceed a certain FLOP[^cite-wasil-3] threshold (Heim [2024](https://arxiv.org/html/2408.16074v2#bib.bib20)), use specific types of training data, or employ certain training algorithms. Verification methods would be needed to detect whether AI development activities occurring within facilities violate such standards.
+    Unauthorized --}{++{"author":"Luc's AI","timestamp":1788539155322}@@ **Unauthorized ++}training {--{"author":"Luc's AI","timestamp":1788539155322}@@runs.--}{++{"author":"Luc's AI","timestamp":1788539155322}@@runs**.++} An effective international system for governing AI would likely include restrictions on the scale and characteristics of AI development. Beyond detecting unauthorised data centers, methods to verify that {--{"author":"Luc's AI","timestamp":1788539155322}@@known--}{++{"author":"Luc's AI","timestamp":1788539155322}@@*known*++} data centers are compliant with agreed-upon standards would also be necessary. For example, an agreement might stipulate that AI training runs should not exceed a certain FLOP[^cite-wasil-3] threshold (Heim [2024](https://arxiv.org/html/2408.16074v2#bib.bib20)), use specific types of training data, or employ certain training algorithms. Verification methods would be needed to detect whether AI development activities occurring within facilities violate such standards.{--{"author":"Luc's AI","timestamp":1788539155322}@@
     
-
+--}{++{"author":"Luc's AI","timestamp":1788539155322}@@
+++}
 ## Methodology
 
 Our process for compiling verification methods involved a few steps: (a) reviewing relevant literature on AI verification and international AI governance, (b) reviewing relevant literature on verification methods for agreements in other fields (e.g., nuclear security, biosecurity, arms control), and (c) conducting informal interviews with experts in technical AI governance. Through this process, we identified 10 verification methods. For each verification method, we examined its application in other fields to inform our description of how the method could be used in the context of AI disagreements and to inform our section about the method’s precedent in other fields. We also grouped the methods into categories based on the circumstances in which they could be implemented: universally (national technical means), only in cases where a nation provides access (access-dependent), or only in cases in which nations have agreed to rules around the design of advanced hardware (hardware-dependent). Our process is not intended to be systematic and our work should not be considered a comprehensive overview of verification methods. Rather, it is meant to serve as an initial step toward better understanding a set of specific verification methods and their limitations.
@@ -163,27 +198,32 @@ Non-state actors have also demonstrated the power of commercial imagery; for exa
 
 Insiders with knowledge of undeclared facilities or operations could provide valuable information not detectable through external means. Potential whistleblowers include employees, contractors, or local residents aware of suspicious activities. Governments could incentivize whistleblowing by:
 
-1.  1.
+1.{--{"author":"Luc's AI","timestamp":1788539155044}@@  1.
     
-    Establishing robust protection frameworks specifically for AI and technology sectors;
+    --}{++{"author":"Luc's AI","timestamp":1788539155044}@@ ++}Establishing robust protection frameworks specifically for AI and technology sectors;{--{"author":"Luc's AI","timestamp":1788539155044}@@
     
-2.  2.
+2.  --}{++{"author":"Luc's AI","timestamp":1788539155044}@@
+++}2.{--{"author":"Luc's AI","timestamp":1788539155044}@@
     
-    Offering financial incentives for verified information;
+    --}{++{"author":"Luc's AI","timestamp":1788539155044}@@ ++}Offering financial incentives for verified information;{--{"author":"Luc's AI","timestamp":1788539155044}@@
     
-3.  3.
+3.  --}{++{"author":"Luc's AI","timestamp":1788539155044}@@
+++}3.{--{"author":"Luc's AI","timestamp":1788539155044}@@
     
-    Creating secure, anonymous reporting channels;
+    --}{++{"author":"Luc's AI","timestamp":1788539155044}@@ ++}Creating secure, anonymous reporting channels;{--{"author":"Luc's AI","timestamp":1788539155044}@@
     
-4.  4.
+--}{++{"author":"Luc's AI","timestamp":1788539155044}@@
+++}4.{--{"author":"Luc's AI","timestamp":1788539155044}@@  4.
     
-    Providing legal support and job protection;
+    --}{++{"author":"Luc's AI","timestamp":1788539155044}@@ ++}Providing legal support and job protection;{--{"author":"Luc's AI","timestamp":1788539155044}@@
     
-5.  5.
+5.  --}{++{"author":"Luc's AI","timestamp":1788539155044}@@
+++}5.{--{"author":"Luc's AI","timestamp":1788539155044}@@
     
-    Developing international cooperation for cross-border whistleblower protection (Loyens and Vandekerckhove [2018](https://arxiv.org/html/2408.16074v2#bib.bib29)).
+    --}{++{"author":"Luc's AI","timestamp":1788539155044}@@ ++}Developing international cooperation for cross-border whistleblower protection (Loyens and Vandekerckhove [2018](https://arxiv.org/html/2408.16074v2#bib.bib29)).{--{"author":"Luc's AI","timestamp":1788539155044}@@
     
-
+--}{++{"author":"Luc's AI","timestamp":1788539155044}@@
+++}
 It is important to note that incentivization alone may not be sufficient to ensure the effectiveness of whistleblower schemes, given that determined adversaries might attempt to physically or digitally block employees from contacting a verifying authority.
 
 One possible solution to this limitation is to implement regular in-person communication with employees, such as through semi-structured interviews (Wasil et al. [2024a](https://arxiv.org/html/2408.16074v2#bib.bib57)).[^note-wasil-5]
@@ -226,35 +266,42 @@ National technical means offer a valuable starting point for verifying complianc
 
 On-site inspections involve physical visits to declared data centers to verify compliance with agreements on computing power. These inspections would focus on several aspects, including (but not limited to):
 
--   •
+-{--{"author":"Luc's AI","timestamp":1788539154681}@@   •
     
-    Chip identifiers. AI-capable chips could be required to have unique identifiers (Aarne, Fist, and Withers [2024](https://arxiv.org/html/2408.16074v2#bib.bib1)). Inspectors could catalog these identifiers to ensure they match declared inventories.
+    Chip identifiers.--}{++{"author":"Luc's AI","timestamp":1788539154681}@@ *Chip identifiers.*++} AI-capable chips could be required to have unique identifiers (Aarne, Fist, and Withers [2024](https://arxiv.org/html/2408.16074v2#bib.bib1)). Inspectors could catalog these identifiers to ensure they match declared inventories.{--{"author":"Luc's AI","timestamp":1788539154681}@@
     
--   •
+--}{++{"author":"Luc's AI","timestamp":1788539154681}@@
+++}-{--{"author":"Luc's AI","timestamp":1788539154681}@@   •
     
-    Chip activity logs. Require chips to have activity logs that inspectors can analyze to verify that: (1) chips are being used in accordance with their declared purposes and within agreed-upon limits, and (2) only licensed code is being executed on the chips (Shavit [2023](https://arxiv.org/html/2408.16074v2#bib.bib47)).
+    Chip --}{++{"author":"Luc's AI","timestamp":1788539154681}@@ *Chip ++}activity {--{"author":"Luc's AI","timestamp":1788539154681}@@logs.--}{++{"author":"Luc's AI","timestamp":1788539154681}@@logs.*++} Require chips to have activity logs that inspectors can analyze to verify that: (1) chips are being used in accordance with their declared purposes and within agreed-upon limits, and (2) only licensed code is being executed on the chips (Shavit [2023](https://arxiv.org/html/2408.16074v2#bib.bib47)).{--{"author":"Luc's AI","timestamp":1788539154681}@@
     
--   •
+--}{++{"author":"Luc's AI","timestamp":1788539154681}@@
+++}-{--{"author":"Luc's AI","timestamp":1788539154681}@@   •
     
-    FLOP/s limit compliance. Ensuring the data center’s total computing power is below agreed thresholds.
+    FLOP/s --}{++{"author":"Luc's AI","timestamp":1788539154681}@@ *FLOP/s ++}limit {--{"author":"Luc's AI","timestamp":1788539154681}@@compliance.--}{++{"author":"Luc's AI","timestamp":1788539154681}@@compliance.*++} Ensuring the data center’s total computing power is below agreed thresholds.{--{"author":"Luc's AI","timestamp":1788539154681}@@
     
--   •
+--}{++{"author":"Luc's AI","timestamp":1788539154681}@@
+++}-{--{"author":"Luc's AI","timestamp":1788539154681}@@   •
     
-    Certified chip usage. Verifying that only approved chip models are in use.
+    Certified --}{++{"author":"Luc's AI","timestamp":1788539154681}@@ *Certified ++}chip {--{"author":"Luc's AI","timestamp":1788539154681}@@usage.--}{++{"author":"Luc's AI","timestamp":1788539154681}@@usage.*++} Verifying that only approved chip models are in use.{--{"author":"Luc's AI","timestamp":1788539154681}@@
     
--   •
+--}{++{"author":"Luc's AI","timestamp":1788539154681}@@
+++}-{--{"author":"Luc's AI","timestamp":1788539154681}@@   •
     
-    Security measures. Verifying implementation of required security protocols.
+    Security measures.--}{++{"author":"Luc's AI","timestamp":1788539154681}@@ *Security measures.*++} Verifying implementation of required security protocols.{--{"author":"Luc's AI","timestamp":1788539154681}@@
     
--   •
+--}{++{"author":"Luc's AI","timestamp":1788539154681}@@
+++}-{--{"author":"Luc's AI","timestamp":1788539154681}@@   •
     
-    Training run evidence. Examining records and transcripts of large-scale AI training activities.
+    Training --}{++{"author":"Luc's AI","timestamp":1788539154681}@@ *Training ++}run {--{"author":"Luc's AI","timestamp":1788539154681}@@evidence.--}{++{"author":"Luc's AI","timestamp":1788539154681}@@evidence.*++} Examining records and transcripts of large-scale AI training activities.{--{"author":"Luc's AI","timestamp":1788539154681}@@
     
--   •
+--}{++{"author":"Luc's AI","timestamp":1788539154681}@@
+++}-{--{"author":"Luc's AI","timestamp":1788539154681}@@   •
     
-    Hardware integrity. Inspecting for any evidence of chip tampering (Aarne, Fist, and Withers [2024](https://arxiv.org/html/2408.16074v2#bib.bib1)).
+    Hardware integrity.--}{++{"author":"Luc's AI","timestamp":1788539154681}@@ *Hardware integrity.*++} Inspecting for any evidence of chip tampering (Aarne, Fist, and Withers [2024](https://arxiv.org/html/2408.16074v2#bib.bib1)).{--{"author":"Luc's AI","timestamp":1788539154681}@@
     
-
+--}{++{"author":"Luc's AI","timestamp":1788539154681}@@
+++}
 In addition to requiring periodic inspections, an agreement could also require continuous monitoring of certain facilities. In a continuous monitoring setup, inspectors are present at facilities at all times to catch any violations of agreements (such as tampering with hardware). A final possible implementation is challenge inspections, similar to those conducted by the Organization for the Prohibition of Chemical Weapons (OPCW), where inspections can be called for on short notice based on suspicions of non-compliance (Organisation for the Prohibition of Chemical Weapons [1997](https://arxiv.org/html/2408.16074v2#bib.bib37)).
 
 Precedent. The New START treaty signed by the USA and Russia provides for 18 annual on-site inspections for the American and Russian inspections (US Department of State). These inspections allow for specific verification activities, such as confirming the number of reentry vehicles on deployed missiles, counting nuclear weapons on bombers, and verifying the conversion or elimination of weapon systems. The treaty’s approach of allowing a limited number of highly structured inspections, focused on counting and verifying specific hardware, is a suggestive precedent for inspections of data centers. Notably, an earlier treaty (START I) also provided for continuous monitoring of specific facilities (Arms Control Association [2022](https://arxiv.org/html/2408.16074v2#bib.bib3)).
@@ -271,18 +318,20 @@ As with the inspections of data centers, continuous monitoring could also be use
 
 Precedent. The use of on-site inspections for monitoring compliance with international agreements has been well-established in other domains, particularly in controlling extreme risks.
 
-1.  1.
+1.{--{"author":"Luc's AI","timestamp":1788539154424}@@  1.
     
-    Organization for the Prohibition of Chemical Weapons (OPCW). The OPCW conducts inspections at facilities that produce toxic chemicals and their precursors. These inspections involve an initial tour, followed by a detailed inspection plan, physical inspections, and a review of the facility’s records to verify compliance. The intensity and duration of inspections vary depending on the perceived risk, with chemicals categorized into three schedules based on their threat level (OPCW [2024](https://arxiv.org/html/2408.16074v2#bib.bib35)).
+    Organization --}{++{"author":"Luc's AI","timestamp":1788539154424}@@ *Organization ++}for the Prohibition of Chemical Weapons {--{"author":"Luc's AI","timestamp":1788539154424}@@(OPCW).--}{++{"author":"Luc's AI","timestamp":1788539154424}@@(OPCW).*++} The OPCW conducts inspections at facilities that produce toxic chemicals and their precursors. These inspections involve an initial tour, followed by a detailed inspection plan, physical inspections, and a review of the facility’s records to verify compliance. The intensity and duration of inspections vary depending on the perceived risk, with chemicals categorized into three schedules based on their threat level (OPCW [2024](https://arxiv.org/html/2408.16074v2#bib.bib35)).{--{"author":"Luc's AI","timestamp":1788539154424}@@
     
-2.  2.
+--}{++{"author":"Luc's AI","timestamp":1788539154424}@@
+++}2.{--{"author":"Luc's AI","timestamp":1788539154424}@@  2.
     
-    Preparatory Commission for the Comprehensive Nuclear-Test-Ban Treaty Organization (CTBTO). The CTBTO, although not fully operational due to the Comprehensive Nuclear-Test-Ban Treaty’s pending entry into force, has established protocols for on-site inspections (OSI). These inspections are intended to verify compliance with the treaty, particularly in detecting and investigating potential nuclear explosions. If the treaty enters into force, an OSI could be initiated upon the request of a State Party. The inspection area could cover up to 1000 km2 (The Comprehensive Nuclear-Test-Ban Treaty Organisation [2024](https://arxiv.org/html/2408.16074v2#bib.bib50)).
+    Preparatory --}{++{"author":"Luc's AI","timestamp":1788539154424}@@ *Preparatory ++}Commission for the Comprehensive Nuclear-Test-Ban Treaty Organization {--{"author":"Luc's AI","timestamp":1788539154424}@@(CTBTO).--}{++{"author":"Luc's AI","timestamp":1788539154424}@@(CTBTO).*++} The CTBTO, although not fully operational due to the Comprehensive Nuclear-Test-Ban Treaty’s pending entry into force, has established protocols for on-site inspections (OSI). These inspections are intended to verify compliance with the treaty, particularly in detecting and investigating potential nuclear explosions. If the treaty enters into force, an OSI could be initiated upon the request of a State Party. The inspection area could cover up to 1000 {--{"author":"Luc's AI","timestamp":1788539154424}@@km2--}{++{"author":"Luc's AI","timestamp":1788539154424}@@km²++} (The Comprehensive Nuclear-Test-Ban Treaty Organisation [2024](https://arxiv.org/html/2408.16074v2#bib.bib50)).{--{"author":"Luc's AI","timestamp":1788539154424}@@
     
-
+--}{++{"author":"Luc's AI","timestamp":1788539154424}@@
+++}
 #### ON-SITE INSPECTIONS OF AI DEVELOPERS
 
-An international inspection team could visit an AI development facility to ensure that developers are running authorized code, properly implementing model evaluations and safeguards, and assess safety culture and security concerns. Inspections could involve various components, such as reviewing code (Casper et al. [2024](https://arxiv.org/html/2408.16074v2#bib.bib12)), assessing compliance with commitments from safety cases[^cite-wasil-6], and conducting semi-structured interviews with key personnel to solicit security-relevant concerns (see Wasil et al. ([2024a](https://arxiv.org/html/2408.16074v2#bib.bib57))). Inspections could uncover the usage of unauthorized or unlicensed AI algorithms. A number of privacy-preserving technologies in development could facilitate such inspections without being overly intrusive. .[^note-wasil-7]
+An international inspection team could visit an AI development facility to ensure that developers are running authorized code, properly implementing model evaluations and safeguards, and assess safety culture and security concerns. Inspections could involve various components, such as reviewing code (Casper et al. [2024](https://arxiv.org/html/2408.16074v2#bib.bib12)), assessing compliance with commitments from safety cases[^cite-wasil-6], and conducting semi-structured interviews with key personnel to solicit security-relevant concerns (see Wasil et al. ([2024a](https://arxiv.org/html/2408.16074v2#bib.bib57))). Inspections could uncover the usage of unauthorized or unlicensed AI algorithms. A number of privacy-preserving technologies in development could facilitate such inspections without being overly intrusive.[^note-wasil-7]
 
 Precedent. The closest precedent is the IAEA’s use of on-site inspections, as discussed above. Their approach demonstrates the feasibility of conducting thorough on-site inspections in sensitive, high-tech environments, which could be adapted for AI development facilities. The key difference is that AI inspections would focus more on software and computational resources rather than physical materials, requiring inspectors with specialized expertise in AI technologies and development practices.
 
@@ -302,15 +351,17 @@ Chip location tracking involves implementing a system to monitor the movement an
 
 Precedent. The concept of tracking and monitoring critical technology has several precedents across different industries, particularly where security, compliance, and international regulation are concerned.
 
--   •
+-{--{"author":"Luc's AI","timestamp":1788539153885}@@   •
     
-    Nuclear Material Tracking. The IAEA monitors and tracks nuclear materials globally using systems like the Integrated Nuclear Fuel Cycle Information System (International Atomic Energy Agency [2024b](https://arxiv.org/html/2408.16074v2#bib.bib25)). The IAEA also maintains a databse of incidents involving trafficking or other unauthorized uses of nuclear or radioactive materials (International Atomic Energy Agency [2024a](https://arxiv.org/html/2408.16074v2#bib.bib24)).
+    Nuclear --}{++{"author":"Luc's AI","timestamp":1788539153885}@@ *Nuclear ++}Material {--{"author":"Luc's AI","timestamp":1788539153885}@@Tracking.--}{++{"author":"Luc's AI","timestamp":1788539153885}@@Tracking.*++} The IAEA monitors and tracks nuclear materials globally using systems like the Integrated Nuclear Fuel Cycle Information System (International Atomic Energy Agency [2024b](https://arxiv.org/html/2408.16074v2#bib.bib25)). The IAEA also maintains a {--{"author":"Luc's AI","timestamp":1788539153885}@@databse--}{++{"author":"Luc's AI","timestamp":1788539153885}@@database++} of incidents involving trafficking or other unauthorized uses of nuclear or radioactive materials (International Atomic Energy Agency [2024a](https://arxiv.org/html/2408.16074v2#bib.bib24)).{--{"author":"Luc's AI","timestamp":1788539153885}@@
     
--   •
+--}{++{"author":"Luc's AI","timestamp":1788539153885}@@
+++}-{--{"author":"Luc's AI","timestamp":1788539153885}@@   •
     
-    Pharmaceutical Supply Chain Tracking. The Drug Supply Chain Security Act (DSCSA) in the United States currently outlines steps to achieve, “an interoperable and electronic way to identify and trace certain prescription drugs at the package level as they move through the supply chain” (U.S. Food and Drug Administration [2024](https://arxiv.org/html/2408.16074v2#bib.bib55)).
+    Pharmaceutical --}{++{"author":"Luc's AI","timestamp":1788539153885}@@ *Pharmaceutical ++}Supply Chain {--{"author":"Luc's AI","timestamp":1788539153885}@@Tracking.--}{++{"author":"Luc's AI","timestamp":1788539153885}@@Tracking.*++} The Drug Supply Chain Security Act (DSCSA) in the United States currently outlines steps to achieve, “an interoperable and electronic way to identify and trace certain prescription drugs at the package level as they move through the supply chain” (U.S. Food and Drug Administration [2024](https://arxiv.org/html/2408.16074v2#bib.bib55)).{--{"author":"Luc's AI","timestamp":1788539153885}@@
     
-
+--}{++{"author":"Luc's AI","timestamp":1788539153885}@@
+++}
 #### CHIP-BASED REPORTING
 
 Chip-based reporting involves implementing mechanisms within AI-capable chips and closely associated hardware (e.g., networking cards) to automatically detect and signal when they are being used in ways that violate agreed-upon constraints. These constraints might include thresholds on the number of chips connected together, or specific operations the chip is not authorized to perform. By embedding these reporting mechanisms at the lowest levels of the software stack — within the firmware and drivers of the AI-capable chips or associated networking devices — it may become more challenging for developers to bypass these safeguards. As one moves up the software stack, toward components that operate at higher levels of abstraction, it becomes easier for developers to replace authorized programs with their own software, potentially circumventing the constraints. Therefore, focusing on the lower levels of the stack, such as firmware, which is the (often read-only) software residing on the device (NASA [2004](https://arxiv.org/html/2408.16074v2#bib.bib32)), and the drivers, which allow the operating system to communicate with the device (Microsoft [2023](https://arxiv.org/html/2408.16074v2#bib.bib31)), is crucial for effective enforcement of constraints. These components are typically developed by the chip maker, further limiting the number of developers who could foreseeably edit reporting mechanisms.
@@ -341,35 +392,48 @@ Additionally, the verification methods are at different levels of maturity: some
 
 Our work provides a starting point for discussions about verification methods, but there are many open questions that can be addressed by future work. Some of these directions include:
 
--   •
+-{--{"author":"Luc's AI","timestamp":1788539153410}@@   •
     
-    Red-teaming exercises for international verification. In a “red-team” step, the authors could brainstorm how an adversary might try to hide an unauthorized training run or unauthorized data center. Then, in a “blue team” step, the authors could identify how one or more verification methods could catch the adversary. Then, in a subsequent “red team” step, the authors could brainstorm if there are feasible ways for the adversary to avoid or undermine the verification method(s). This process could be used to determine likely ways that adversaries may try to evade verification methods and highlight ways of strengthening international verification regimes.
+    Red-teaming --}{++{"author":"Luc's AI","timestamp":1788539153410}@@ **Red-teaming ++}exercises for international {--{"author":"Luc's AI","timestamp":1788539153410}@@verification.--}{++{"author":"Luc's AI","timestamp":1788539153410}@@verification**.++} In a “red-team” step, the authors could brainstorm how an adversary might try to hide an unauthorized training run or unauthorized data center. Then, in a “blue team” step, the authors could identify how one or more verification methods could catch the adversary. Then, in a subsequent “red team” step, the authors could brainstorm if there are feasible ways for the adversary to avoid or undermine the verification method(s). This process could be used to determine likely ways that adversaries may try to evade verification methods and highlight ways of strengthening international verification regimes.{--{"author":"Luc's AI","timestamp":1788539153410}@@
     
--   •
-    
-    Design of international AI governance institutions. Compliance with international agreements is often verified by international institutions. Some early work has proposed international organizations that could set and verify compliance with safety standards (Ho et al. [2023](https://arxiv.org/html/2408.16074v2#bib.bib21); Cass-Beggs et al. [2024](https://arxiv.org/html/2408.16074v2#bib.bib13)), certify national licensing agencies (Trager et al. [2023](https://arxiv.org/html/2408.16074v2#bib.bib51)), verify compliance with a variety of potential agreements (see Maas and Villalobos ([2023](https://arxiv.org/html/2408.16074v2#bib.bib30))), and participate in joint AI safety research (Cass-Beggs et al. [2024](https://arxiv.org/html/2408.16074v2#bib.bib13)). One avenue for future research is to provide more details about how an international verification agency could be structured, how decision-making power is distributed between nations, how the agency handles disputes over non-compliance, and what powers ought to be granted to the agency. Such work could draw from best practices or lessons learned from the design and implementation of other international institutions (such as the IAEA and the OPCW) and bilateral or multilateral agreements (such as the Strategic Arms Reduction Treaties and the Wassenaar Agreement).
-    
--   •
-    
-    Enforcement of international agreements. Our paper focused on verification– detecting whether or not nations are complying with an agreement. A separate important question is enforcement– how nations should react in the event that non-compliance is identified. Such work could examine what kinds of responses would be proportionate to the violation. For example, evidence of small-scale chip smuggling would warrant a less strong response than evidence of an illegal or unauthorized training run.
-    
--   •
-    
-    Research on hardware-enabled mechanisms to enhance verification and/or enforcement. Hardware-enabled mechanisms can unlock new verification methods and make existing verification methods more robust. Some hardware-enabled mechanisms are ready to be implemented swiftly, while others may take several years of research to further develop. Additionally, there are open questions relating to how to make hardware-enabled mechanisms more tamper-proof and privacy-preserving (see Kulp et al. ([2024](https://arxiv.org/html/2408.16074v2#bib.bib28))).
-    
--   •
-    
-    Detecting unauthorized AI deployment or inference. Our paper focuses on detecting unauthorized AI development. Nations may also wish to have agreements in which they agree not to deploy advanced AI systems in certain ways (for example, nations might prohibit AI from being deployed in the context of nuclear systems, military R&D research, or AI R&D research that could trigger uncontrolled AI development.) Future work could examine verification methods that could detect the unauthorized deployment of AI systems, potentially through hardware-enabled licenses that detect the presence of unauthorized code used for inference.
-    
--   •
-    
-    Detecting compliance with agreements around model evaluations. International agreements may require that certain kinds of model evaluations are conducted to detect potential safety or security issues (see Shevlane et al. ([2023](https://arxiv.org/html/2408.16074v2#bib.bib48))). Reliable risk evaluations and risk mitigation strategies could become a minimum safety bar imposed by international agreements. Future work could examine verification methods that allow international authorities to ensure that parties are implementing a set of internationally-required model evaluations, as well as any specific model evaluations that a developer proposed as part of a safety case or licensing application (see (Clymer et al. [2024](https://arxiv.org/html/2408.16074v2#bib.bib14); Wasil et al. [2024b](https://arxiv.org/html/2408.16074v2#bib.bib58))).
-    
--   •
-    
-    Actions the international community can take in the immediate future. In the future, nations may be concerned enough about AI global security risks to warrant ambitious international agreements that require verification methods. For the immediate future, however, nations are interested in improving their understanding of global security risks. There are many actions that governments and civil society groups can participate in to increase global understanding of AI progress and AI risks. Examples include efforts like the UK and Seoul AI Safety Summits (see Bletchley Declaration ([2023](https://arxiv.org/html/2408.16074v2#bib.bib9))), the establishment of the US and UK AI Safety Institutes and the Chinese AI Safety Network, Track II Dialogues between Western scientists and Chinese scientists (see International Dialogues on AI Safety ([2023](https://arxiv.org/html/2408.16074v2#bib.bib26))), and plans for how to respond to AI-related emergencies (see Wasil et al. ([2024c](https://arxiv.org/html/2408.16074v2#bib.bib60))).
-    
+--}{++{"author":"Luc's AI","timestamp":1788539153410}@@
 
+++}-{--{"author":"Luc's AI","timestamp":1788539153410}@@   •
+    
+    Design --}{++{"author":"Luc's AI","timestamp":1788539153410}@@ **Design ++}of international AI governance {--{"author":"Luc's AI","timestamp":1788539153410}@@institutions.--}{++{"author":"Luc's AI","timestamp":1788539153410}@@institutions.**++} Compliance with international agreements is often verified by international institutions. Some early work has proposed international organizations that could set and verify compliance with safety standards (Ho et al. [2023](https://arxiv.org/html/2408.16074v2#bib.bib21); Cass-Beggs et al. [2024](https://arxiv.org/html/2408.16074v2#bib.bib13)), certify national licensing agencies (Trager et al. [2023](https://arxiv.org/html/2408.16074v2#bib.bib51)), verify compliance with a variety of potential agreements (see Maas and Villalobos ([2023](https://arxiv.org/html/2408.16074v2#bib.bib30))), and participate in joint AI safety research (Cass-Beggs et al. [2024](https://arxiv.org/html/2408.16074v2#bib.bib13)). One avenue for future research is to provide more details about how an international verification agency could be structured, how decision-making power is distributed between nations, how the agency handles disputes over non-compliance, and what powers ought to be granted to the agency. Such work could draw from best practices or lessons learned from the design and implementation of other international institutions (such as the IAEA and the OPCW) and bilateral or multilateral agreements (such as the Strategic Arms Reduction Treaties and the Wassenaar Agreement).{--{"author":"Luc's AI","timestamp":1788539153410}@@
+    
+--}{++{"author":"Luc's AI","timestamp":1788539153410}@@
+
+++}-{--{"author":"Luc's AI","timestamp":1788539153410}@@   •
+    
+    Enforcement --}{++{"author":"Luc's AI","timestamp":1788539153410}@@ **Enforcement ++}of international {--{"author":"Luc's AI","timestamp":1788539153410}@@agreements.--}{++{"author":"Luc's AI","timestamp":1788539153410}@@agreements.**++} Our paper focused on {--{"author":"Luc's AI","timestamp":1788539153410}@@verification–--}{++{"author":"Luc's AI","timestamp":1788539153410}@@*verification*–++} detecting whether or not nations are complying with an agreement. A separate important question is {--{"author":"Luc's AI","timestamp":1788539153410}@@enforcement–--}{++{"author":"Luc's AI","timestamp":1788539153410}@@*enforcement*–++} how nations should react in the event that non-compliance is identified. Such work could examine what kinds of responses would be proportionate to the violation. For example, evidence of small-scale chip smuggling would warrant a less strong response than evidence of an illegal or unauthorized training run.{--{"author":"Luc's AI","timestamp":1788539153410}@@
+    
+--}{++{"author":"Luc's AI","timestamp":1788539153410}@@
+
+++}-{--{"author":"Luc's AI","timestamp":1788539153410}@@   •
+    
+    Research --}{++{"author":"Luc's AI","timestamp":1788539153410}@@ **Research ++}on hardware-enabled mechanisms to enhance verification and/or {--{"author":"Luc's AI","timestamp":1788539153410}@@enforcement.--}{++{"author":"Luc's AI","timestamp":1788539153410}@@enforcement.**++} Hardware-enabled mechanisms can unlock new verification methods and make existing verification methods more robust. Some hardware-enabled mechanisms are ready to be implemented swiftly, while others may take several years of research to further develop. Additionally, there are open questions relating to how to make hardware-enabled mechanisms more tamper-proof and privacy-preserving (see Kulp et al. ([2024](https://arxiv.org/html/2408.16074v2#bib.bib28))).{--{"author":"Luc's AI","timestamp":1788539153410}@@
+    
+--}{++{"author":"Luc's AI","timestamp":1788539153410}@@
+
+++}-{--{"author":"Luc's AI","timestamp":1788539153410}@@   •
+    
+    Detecting --}{++{"author":"Luc's AI","timestamp":1788539153410}@@ **Detecting ++}unauthorized AI deployment or {--{"author":"Luc's AI","timestamp":1788539153410}@@inference.--}{++{"author":"Luc's AI","timestamp":1788539153410}@@inference.**++} Our paper focuses on detecting unauthorized AI {--{"author":"Luc's AI","timestamp":1788539153410}@@development.--}{++{"author":"Luc's AI","timestamp":1788539153410}@@*development*.++} Nations may also wish to have agreements in which they agree not to {--{"author":"Luc's AI","timestamp":1788539153410}@@deploy--}{++{"author":"Luc's AI","timestamp":1788539153410}@@*deploy*++} advanced AI systems in certain ways (for example, nations might prohibit AI from being deployed in the context of nuclear systems, military R&D research, or AI R&D research that could trigger uncontrolled AI development.) Future work could examine verification methods that could detect the unauthorized deployment of AI systems, potentially through hardware-enabled licenses that detect the presence of unauthorized code used for inference.{--{"author":"Luc's AI","timestamp":1788539153410}@@
+    
+--}{++{"author":"Luc's AI","timestamp":1788539153410}@@
+
+++}-{--{"author":"Luc's AI","timestamp":1788539153410}@@   •
+    
+    Detecting --}{++{"author":"Luc's AI","timestamp":1788539153410}@@ **Detecting ++}compliance with agreements around model {--{"author":"Luc's AI","timestamp":1788539153410}@@evaluations.--}{++{"author":"Luc's AI","timestamp":1788539153410}@@evaluations**.++} International agreements may require that certain kinds of model evaluations are conducted to detect potential safety or security issues (see Shevlane et al. ([2023](https://arxiv.org/html/2408.16074v2#bib.bib48))). Reliable risk evaluations and risk mitigation strategies could become a minimum safety bar imposed by international agreements. Future work could examine verification methods that allow international authorities to ensure that parties are implementing a set of internationally-required model evaluations, as well as any specific model evaluations that a developer proposed as part of a safety case or licensing application (see (Clymer et al. [2024](https://arxiv.org/html/2408.16074v2#bib.bib14); Wasil et al. [2024b](https://arxiv.org/html/2408.16074v2#bib.bib58))).{--{"author":"Luc's AI","timestamp":1788539153410}@@
+    
+--}{++{"author":"Luc's AI","timestamp":1788539153410}@@
+
+++}-{--{"author":"Luc's AI","timestamp":1788539153410}@@   •
+    
+    Actions --}{++{"author":"Luc's AI","timestamp":1788539153410}@@ **Actions ++}the international community can take in the immediate {--{"author":"Luc's AI","timestamp":1788539153410}@@future.--}{++{"author":"Luc's AI","timestamp":1788539153410}@@future.**++} In the future, nations may be concerned enough about AI global security risks to warrant ambitious international agreements that require verification methods. For the immediate future, however, nations are interested in improving their understanding of global security risks. There are many actions that governments and civil society groups can participate in to increase global understanding of AI progress and AI risks. Examples include efforts like the UK and Seoul AI Safety Summits (see Bletchley Declaration ([2023](https://arxiv.org/html/2408.16074v2#bib.bib9))), the establishment of the US and UK AI Safety Institutes and the Chinese AI Safety Network, Track II Dialogues between Western scientists and Chinese scientists (see International Dialogues on AI Safety ([2023](https://arxiv.org/html/2408.16074v2#bib.bib26))), and plans for how to respond to AI-related emergencies (see Wasil et al. ([2024c](https://arxiv.org/html/2408.16074v2#bib.bib60))).{--{"author":"Luc's AI","timestamp":1788539153410}@@
+    
+--}{++{"author":"Luc's AI","timestamp":1788539153410}@@
+++}
 ## Conclusion
 
 Our work provides an initial step toward a better understanding of how compliance with international AI agreements could be verified. Efforts to improve our understanding of verification methods will be especially important if global security risks from advanced AI become concerning enough to motivate coordinated national and international action. We believe some AI governance work should aim to prepare in advance for such scenarios. Such “future-oriented” AI governance work could address questions that would inform policymaking efforts in scenarios where concerns about global security risks became significantly stronger. Our hope is that our work on verification methods illustrates an example of promising work in this category.
@@ -453,7 +517,7 @@ Table 1: Limitations of methods and possible solutions using complementary metho
 | Data center inspections | Inspections can only be carried out with the agreement of the host nation, potentially allowing time for concealment of violations. Thorough inspections are also both invasive and very resource-intensive, requiring significant time, expertise and resources. | Chip location tracking, if implemented, can be verified during inspections to ensure that the physical location of AI-capable chips matches their reported locations. Whistleblower information can guide inspectors to look for specific evidence of non-compliance that might otherwise be overlooked. |
 | Fab inspection | Like all inspections, these inspections are also resource-intensive, invasive and pose threats to intellectual property. The technological complexity of chip manufacturing may also make it challenging for inspectors to detect potential violations without highly specialized expertise. | Chip location tracking, if implemented, can be initiated during the inspection process, ensuring that newly manufactured AI-capable chips are properly registered and tracked from the point of production. |
 | AI developer inspection | Unlike hardware, software can be quickly modified or hidden, making violations difficult to detect. Such inspections also require highly specialized knowledge, and may pose a disproportionate risk to proprietary algorithms and research. | Whistleblowers can provide insider information about development practices, guiding inspectors to specific areas or systems of concern. Financial intelligence can be cross-referenced to ensure declared AI projects match financial records. |
-| Chip location tracking | Requires agreement on chip manufacturing standards. Sophisticated actors may find ways to disable tracking mechanisms. The effectiveness of this intervention would be limited to the production of new chips. | On-site inspectionsof manufacturing sites can ensure that chips are being made with the required location tracking mechanisms. Satellite imagery can provide additional, more precise location tracking. |
+| Chip location tracking | Requires agreement on chip manufacturing standards. Sophisticated actors may find ways to disable tracking mechanisms. The effectiveness of this intervention would be limited to the production of new chips. | On-site {--{"author":"Luc's AI","timestamp":1788539153153}@@inspectionsof--}{++{"author":"Luc's AI","timestamp":1788539153153}@@inspections of++} manufacturing sites can ensure that chips are being made with the required location tracking mechanisms. Satellite imagery can provide additional, more precise location tracking. |
 | Fixed set reporting | Requires agreement on chip manufacturing standards. False positives/negatives: Balancing sensitivity to catch violations without triggering false alarms is difficult. The effectiveness of this intervention would be limited to the production of new chips. | On-site inspections of data centers can be triggered by automatic signals of non-compliance, allowing for rapid verification of potential violations. |
 | Firmware-based reporting | Requires agreement on chip manufacturing and implementation standards; difficult to implement; may come with an economic or computational cost. | On-site inspections could be triggered by automatic signals of non-compliance, allowing for rapid verification of potential violations. |
 
