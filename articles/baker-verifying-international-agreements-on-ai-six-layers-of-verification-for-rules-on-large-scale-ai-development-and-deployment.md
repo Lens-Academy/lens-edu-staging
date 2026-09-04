@@ -473,11 +473,11 @@ To avoid the tradeoffs of on-chip verification, another approach could be to sep
 | Potential verification layer | Summary of layer | Key advantages | Key disadvantages |
 | --- | --- | --- | --- |
 | Off-chip network tap (and analysis) (e.g. “FlexHEGs”)![\[Uncaptioned image\]](https://arxiv.org/html/2507.15916v2/media/media/image2.png) | Mutually vetted devices could intercept data exchanged between chips, then check for discrepancies with declared uses. | Could be retrofitted to existing AI chips and optimized for security. | Poses technical, logistical, and security challenges. Strongest versions need redesigned chip-adjacent hardware. |
-| --- | --- | --- | --- |
-| Off-chip analog sensors (and analysis, e.g., proof-of-learning)![\[Uncaptioned image\]](https://arxiv.org/html/2507.15916v2/media/media/image1.png) | Physically secured chips could check that (i) declared AI compute uses are accurate (e.g., reproducible) and (ii) their compute use adds up to the expected total (estimated with analog sensors, e.g., power meters, in AI data centers). | Could be retrofitted to existing AI chips and optimized for security. | Poses unsolved technical problems. Likely requires separate trusted clusters for analysis, and manufacturing & installing sensors. |
+| {--{"author":"Elias's AI","timestamp":1788521823826}@@--- | --- | --- | --- |
+| --}Off-chip analog sensors (and analysis, e.g., proof-of-learning)![\[Uncaptioned image\]](https://arxiv.org/html/2507.15916v2/media/media/image1.png) | Physically secured chips could check that (i) declared AI compute uses are accurate (e.g., reproducible) and (ii) their compute use adds up to the expected total (estimated with analog sensors, e.g., power meters, in AI data centers). | Could be retrofitted to existing AI chips and optimized for security. | Poses unsolved technical problems. Likely requires separate trusted clusters for analysis, and manufacturing & installing sensors.{--{"author":"Elias's AI","timestamp":1788521823826}@@ |
 | --- | --- | --- | --- |
 |  |  |  |  |
-| --- | --- | --- | --- |
+| --- | --- | --- | -----} |
 
 Table 7: Summary of off-chip verification layers and their tradeoffs.
 
