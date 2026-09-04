@@ -1,5 +1,5 @@
 ---
-title: "Why don't you care about non-human entities?"
+title: "Why don't you care about the values of any entities other than humans?"
 source_url: https://ifanyonebuildsit.com/5/why-dont-you-care-about-the-values-of-any-entities-other-than-humans
 published: 2025-09-16
 author:
@@ -7,16 +7,22 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ entry addresses the "specieism"/cosmopolitanism objection to the book's argument; it cross-references Chapter 12 and two other Chapter 5 FAQ entries ("consciousness" and "losing the future") that may be worth reading alongside it for full context.
 
 %%
 
-#### We do! We have broad cosmopolitan values. We don't think AIs will fulfill them, and we consider this a great tragedy.
+#### We do! We have broad cosmopolitan values. We don't think AIs will fulfill them, and we consider this a great tragedy. ^we-do-we-have-broad-cosmopolitan-values
 
 We advocate against building machines that would kill us all and bring the future to ruin. Some people object on grounds such as:
 
