@@ -11,9 +11,6 @@ content::
 :::callout {title="By the end of this module, you will be able to:" tone="blue"}
 1. Explain why ASI development constitutes an existential risk, why it produces arms-race incentives that individual state preferences cannot overcome, and why only a robust verification regime materially mitigates ASI risk.
 2. Explain why successful prevention is invisible, and why that makes the risk psychologically easy to dismiss.
-3. Discern what makes a good, workable theory of change.
-4. Interrogate a concrete verification proposal and identify its general strengths, failure modes, and assumptions it depends on—then form a coherent, defendable position on it.
-5. Reconstruct the causal logic of a historical verification regime and determine which parts of that logic can and cannot be transferred to AI treaty verification.
 :::
 
 #### Video

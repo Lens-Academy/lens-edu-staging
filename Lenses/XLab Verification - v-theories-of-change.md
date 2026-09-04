@@ -8,6 +8,10 @@ duration_minutes: 10
 ---
 #### Text
 content::
+:::callout {title="By the end of this module, you will be able to:" tone="blue"}
+Judge whether a stated theory of change is good and workable: where its outputs are mislabelled as outcomes, where a link is not an if-then claim, and which unstated assumptions the chain depends on.
+:::
+
 \## Why are theories of change important?
 
 How exactly does your project contribute to making the world a better place? This seems like an obvious question for researchers to be able to answer, especially those working in high-impact areas like AI safety. But it can be concerningly easy to handwave a fuzzy “good impact” to justify all sorts of work. This risks obfuscating truly useful projects as indistinguishable from those that only appear to be so at first glance.
