@@ -158,7 +158,7 @@ Interception of communications and electronic emissions — who is talking to wh
 :::
 
 :::callout {title="CYBER, Cyber intelligence" tone="neutral" collapse="closed"}
-Collection from networks and systems themselves. MIRI's Definition 17 names it inside national technical means.
+Collection from networks and systems themselves. MIRI's draft names it inside national technical means, at item 17 of Article II's definitions.
 
 **Picks up.** Operational signatures — what a facility is actually running.
 

@@ -48,7 +48,8 @@ This section's written output is proposed but not settled. The task is
 **red-lining the treaty text**: you work from the verbatim excerpt in 2.3.4 —
 item 17 of Article II's definitions, the definition of national technical means
 covering satellites, signals intelligence, imagery and so on, plus Article X
-¶1(b)(i) and (ii), the noninterference and no-deliberate-concealment clauses —
+¶1(b) and its clauses (i), (ii) and (iii): noninterference, no deliberate
+concealment, and cooperation that is encouraged but not obligated —
 and go through it with a pencil, as a lawyer preparing for negotiations would.
 
 The questions it asks: what does the Article II definition omit? Whose
@@ -69,7 +70,7 @@ id:: b1cfa8da-fe64-4ad4-975b-1a6b08111099
 content::
 \### Written output, 2.3, Red-line: Red-line the NTM article
 
-Work from the treaty text quoted in 2.3.4: item 17 of Article II's definitions, plus Article X ¶1(b) and its clauses (i), (ii) and (iii). Mark at least three gaps or ambiguities, starting from your four answers if you like, and redraft the one provision whose failure you judge most consequential. Then confront the question the historical record says drafters avoid: write the sharing clause the text lacks, or defend its absence in three sentences. Test whatever you write against 2.3.4’s rule, that states sign what is symmetric, cheap, and checkable, and finish with the both-capitals test: one paragraph on why Washington accepts your article, one on why Beijing does.
+Work from the treaty text quoted in 2.3.4: item 17 of Article II's definitions, plus Article X ¶1(b) and its clauses (i), (ii) and (iii). Mark at least three gaps or ambiguities, starting from your four answers if you like, and redraft the one provision whose failure you judge most consequential. Then confront the question the historical record says drafters avoid: write the binding sharing clause the text declines to impose, since ¶1(b)(iii) encourages cooperation but obligates nothing, or defend its absence in three sentences. Test whatever you write against 2.3.4’s rule, that states sign what is symmetric, cheap, and checkable, and finish with the both-capitals test: one paragraph on why Washington accepts your article, one on why Beijing does.
 
 **Reader:** The drafters of a US–China agreement, read in both capitals.
 
