@@ -10,8 +10,14 @@ accessed: 2026-07-28
 description: "As advanced machine learning systems’ capabilities begin to play a significant role in geopolitics and societal order, it may become imperative that (1) governments be able to enforce rules on the development of advanc…"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -19,11 +25,11 @@ Add discussion note here:
 
 %%
 
-###### Abstract
+###### Abstract ^abstract
 
 As advanced machine learning systems’ capabilities begin to play a significant role in geopolitics and societal order, it may become imperative that (1) governments be able to enforce rules on the development of advanced ML systems within their borders, and (2) countries be able to verify each other’s compliance with potential future international agreements on advanced ML development. This work analyzes one mechanism to achieve this, by monitoring the computing hardware used for large-scale NN training. The framework’s primary goal is to provide governments high confidence that no actor uses large quantities of specialized ML chips to execute a training run in violation of agreed rules. At the same time, the system does not curtail the use of consumer computing devices, and maintains the privacy and confidentiality of ML practitioners’ models, data, and hyperparameters. The system consists of interventions at three stages: (1) using on-chip firmware to occasionally save snapshots of the the neural network weights stored in device memory, in a form that an inspector could later retrieve; (2) saving sufficient information about each training run to prove to inspectors the details of the training run that had resulted in the snapshotted weights; and (3) monitoring the chip supply chain to ensure that no actor can avoid discovery by amassing a large quantity of un-tracked chips. The proposed design decomposes the ML training rule verification problem into a series of narrow technical challenges, including a new variant of the Proof-of-Learning problem \[Jia et al. ’21\].
 
-## 1 Introduction
+## 1 Introduction ^introduction
 
 Many of the remarkable advances of the past 5 years in deep learning have been driven by a continuous increase in the quantity of _training compute_ used to develop cutting-edge models \[[25](https://arxiv.org/html/2303.11341#bib.bibx25), [21](https://arxiv.org/html/2303.11341#bib.bibx21), [54](https://arxiv.org/html/2303.11341#bib.bibx54)\]. Such large-scale training has been made possible through the concurrent use of hundreds or thousands of specialized accelerators with high inter-chip communication bandwidth (such as Google TPUs, NVIDIA A100 and H100 GPUs, or AMD MI250 GPUs), employed for a span of weeks or months to compute thousands or millions of gradient updates. We refer to these specialized accelerators as _ML chips_, which we distinguish from consumer-oriented GPUs with lower interconnect bandwidth (e.g., the NVIDIA RTX 4090, used in gaming computers).
 
@@ -35,150 +41,150 @@ These training runs’ current need for large quantities of specialized chips le
 
 Such a system of verification-based checks and balances, distinguishing between “safe” and “dangerous” ML model training, might seem infeasible. Yet a similar system has been created before. At the dawn of the nuclear age, nations faced an analogous problem: reactor-grade uranium (used for energy) and weapons-grade uranium (used to build nuclear bombs) could be produced using the same types of centrifuges, just run for longer and in a different configuration. In response, in 1970 the nations of the world adopted the Treaty on the Non-Proliferation of Nuclear Weapons (NPT) and empowered the International Atomic Energy Agency (IAEA) to verify countries’ commitments to limiting the spread of nuclear weapons, while still harnessing the benefits of nuclear power. This verification framework has helped the world avoid nuclear conflict for over 50 years, and helped limit nuclear weapons proliferation to just 9 countries while spreading the benefits of safe nuclear power to 33 \[[40](https://arxiv.org/html/2303.11341#bib.bibx40)\]. If future progress in machine learning creates the domestic or international political will for enacting rules on large-scale ML development, it is important that the ML community is ready with technical means for verifying such rules.
 
-### 1.1 Contributions
+### 1.1 Contributions ^contributions
 
 In this paper, we propose a monitoring framework for enforcing rules on the _training_ of ML[^note-shavit-2] models using large quantities of specialized ML chips. Its goal is to enable governments to verify that companies and other governments have complied with agreed guardrails on the development of ML models that would otherwise pose a danger to society or to international stability. The objective of this work is to lay out a possible system design, analyze its technical and logistical feasibility, and highlight important unsolved challenges that must be addressed to make it work.
 
 The proposed solution has three parts:
 
-1.  1.
+1.  {--{"author":"Luc's AI","timestamp":1788542934458}@@1.
     
-    To prove compliance, an ML chip owner employs firmware that logs limited information about that chip’s activity, with their employment of that firmware attested via hardware features. We propose an activity logging strategy that is both lightweight, and maintains the confidentiality of the chip-owner’s trade secrets and private data, based on the NN weights present in the device’s high-bandwidth memory.
+    --}To prove compliance, an ML chip owner employs firmware that logs limited information about that chip’s activity, with their employment of that firmware attested via hardware features. We propose an activity logging strategy that is both lightweight, and maintains the confidentiality of the chip-owner’s trade secrets and private data, based on the NN weights present in the device’s high-bandwidth memory.
     
-2.  2.
+2.  {--{"author":"Luc's AI","timestamp":1788542934458}@@2.
     
-    By inspecting and analyzing the logs of a sufficient subset of the chips, inspectors can provably determine whether the chip-owner executed a rules-violating training run in the past few months, with high probability.
+    --}By inspecting and analyzing the logs of a sufficient subset of the chips, inspectors can provably determine whether the chip-owner executed a rules-violating training run in the past few months, with high probability.
     
-3.  3.
+3.  {--{"author":"Luc's AI","timestamp":1788542934458}@@3.
     
-    Compute-producing countries leverage supply-chain monitoring to ensure that each chip is accounted for, so that actors can’t secretly acquire more ML chips and then underclaim their total to hide from inspectors.
+    --}Compute-producing countries leverage supply-chain monitoring to ensure that each chip is accounted for, so that actors can’t secretly acquire more ML chips and then underclaim their total to hide from inspectors.
     
 
-The system is compatible with many different rules on training runs (see Section [2.1](#S2.SS1 "2.1 What types of rules can we enforce by monitoring ML training? ‣ 2 The Problem: Detecting Violations of Large-Scale ML Training Rules ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")), including those based on the total chip-hours used to train a model, the type of data and algorithms used, and whether the produced model exceeds a performance threshold on selected benchmarks. To serve as a foundation for meaningful international coordination, the framework aspires to reliably detect violations of ML training rules _even in the face of nation-state hackers attempting to circumvent it_. At the same time, the system does not force ML developers to disclose their confidential training data or models. Also, as its focus is restricted to specialized data-center chips, the system does not affect individuals’ use of their personal computing devices.
+The system is compatible with many different rules on training runs (see Section{--{"author":"Luc's AI","timestamp":1788542934458}@@ [2.1](#S2.SS1 "2.1 What types of rules can we enforce by monitoring ML training? ‣ 2 The Problem: Detecting Violations of Large-Scale ML Training Rules ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")),--}{++{"author":"Luc's AI","timestamp":1788542934458}@@ [[#^what-types-of-rules|2.1]]),++} including those based on the total chip-hours used to train a model, the type of data and algorithms used, and whether the produced model exceeds a performance threshold on selected benchmarks. To serve as a foundation for meaningful international coordination, the framework aspires to reliably detect violations of ML training rules _even in the face of nation-state hackers attempting to circumvent it_. At the same time, the system does not force ML developers to disclose their confidential training data or models. Also, as its focus is restricted to specialized data-center chips, the system does not affect individuals’ use of their personal computing devices.
 
-Section [2](#S2 "2 The Problem: Detecting Violations of Large-Scale ML Training Rules ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.") introduces the problem of verifying rules on large-scale ML training. Section [3](#S3 "3 Solution Overview ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.") provides an overview of the solution, and describes the occasional inspections needed to validate compliance. Sections [4](#S4 "4 On the chip ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."), [5](#S5 "5 At the data-center ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."), and [6](#S6 "6 At the supply chain ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.") discuss the interventions at the chip-level, data-center-level, and supply-chain respectively. Section [7](#S7 "7 Discussion ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.") concludes with a discussion of the proposal’s benefits for different stakeholders, and lays out near-term next steps.
+Section {--{"author":"Luc's AI","timestamp":1788542934458}@@[2](#S2 "2 The Problem: Detecting Violations of Large-Scale ML Training Rules ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.") --}{++{"author":"Luc's AI","timestamp":1788542934458}@@[[#^the-problem|2]] ++}introduces the problem of verifying rules on large-scale ML training. Section{--{"author":"Luc's AI","timestamp":1788542934458}@@ [3](#S3 "3 Solution Overview ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")--}{++{"author":"Luc's AI","timestamp":1788542934458}@@ [[#^solution-overview|3]]++} provides an overview of the solution, and describes the occasional inspections needed to validate compliance. Sections{--{"author":"Luc's AI","timestamp":1788542934458}@@ [4](#S4 "4 On the chip ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."), [5](#S5 "5 At the data-center ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."), --}{++{"author":"Luc's AI","timestamp":1788542934458}@@ [[#^on-the-chip|4]], [[#^at-the-data-center|5]], ++}and{--{"author":"Luc's AI","timestamp":1788542934458}@@ [6](#S6 "6 At the supply chain ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")--}{++{"author":"Luc's AI","timestamp":1788542934458}@@ [[#^at-the-supply-chain|6]]++} discuss the interventions at the chip-level, data-center-level, and supply-chain respectively. Section{--{"author":"Luc's AI","timestamp":1788542934458}@@ [7](#S7 "7 Discussion ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.") --}{++{"author":"Luc's AI","timestamp":1788542934458}@@ [[#^discussion|7]] ++}concludes with a discussion of the proposal’s benefits for different stakeholders, and lays out near-term next steps.
 
-### 1.2 Limitations
+### 1.2 Limitations{++{"author":"Luc's AI","timestamp":1788542934458}@@ ^limitations++}
 
-The proposed system’s usefulness depends on the continued importance of large-scale training to produce the most advanced (and thus most dangerous) ML models, a topic of uncertainty and ongoing disagreement within the ML community. The framework’s focus is also restricted only to training runs executed on specialized data-center accelerators, which are today effectively necessary to complete the largest-scale training runs without a large efficiency penalty. In Appendix [A](#A1 "Appendix A Discussion on future training requirements ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."), we discuss whether these two trends are likely to continue. Additionally, hundreds of thousands of ML chips have already been sold, many of which do not have the hardware security features required by the framework, and may not be retrofittable nor even locatable by governments. These older chips’ importance may gradually decrease with Moore’s Law. But combined with the possibility of less-efficient training using non-specialized chips, these unmonitored compute sources present an implicit lower bound on the minimum training run size that can be verifiably detected by the proposed system. Still, it may be the case that frontier training runs, which result in models with new emergent capabilities to which society most needs time to adapt, are more likely to require large quantities of monitorable compute.
+The proposed system’s usefulness depends on the continued importance of large-scale training to produce the most advanced (and thus most dangerous) ML models, a topic of uncertainty and ongoing disagreement within the ML community. The framework’s focus is also restricted only to training runs executed on specialized data-center accelerators, which are today effectively necessary to complete the largest-scale training runs without a large efficiency penalty. In Appendix{--{"author":"Luc's AI","timestamp":1788542934458}@@ [A](#A1 "Appendix A Discussion on future training requirements ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."),--}{++{"author":"Luc's AI","timestamp":1788542934458}@@ [[#^appendix-a|A]],++} we discuss whether these two trends are likely to continue. Additionally, hundreds of thousands of ML chips have already been sold, many of which do not have the hardware security features required by the framework, and may not be retrofittable nor even locatable by governments. These older chips’ importance may gradually decrease with Moore’s Law. But combined with the possibility of less-efficient training using non-specialized chips, these unmonitored compute sources present an implicit lower bound on the minimum training run size that can be verifiably detected by the proposed system. Still, it may be the case that frontier training runs, which result in models with new emergent capabilities to which society most needs time to adapt, are more likely to require large quantities of monitorable compute.
 
 More generally, the framework does not apply to small-scale ML training, which can often be done with small quantities of consumer GPUs. We acknowledge that the training of smaller models (or fine-tuning of existing large models) can be used to cause substantial societal harm (e.g., computer vision models for autonomous terrorism drones \[[44](https://arxiv.org/html/2303.11341#bib.bibx44)\]). Separately, if a model is produced by a large-scale training run in violation of a future law or agreement, that model’s weights may from then on be copied undetectably, and it can be deployed using consumer GPUs \[[55](https://arxiv.org/html/2303.11341#bib.bibx55)\] (as ML inference requires far lower inter-chip communication bandwidth). Preventing the proliferation of dangerous trained models is itself a major challenge, and beyond the scope of this work. More broadly, society is likely to need laws and regulations to limit the harms from bad actors’ misusing such ML models. However, exhaustively _enforcing_ such rules at the hardware-level would require surveilling and policing individual citizens’ use of their personal computers, which would be highly unacceptable on ethical grounds. This work instead focuses attention upstream, regulating whether and how the most dangerous models _are created in the first place_.
 
 Lastly, rather than proposing a comprehensive shovel-ready solution, this work provides a high-level solution design. Its contribution is in isolating a set of open problems whose solution would be sufficient to enable a system that achieves the policy goal. If these problems prove unsolvable, the system’s design will need to be modified, or its guarantees scaled back. We hope that by providing a specific proposal to which the community can respond, we will initiate a cycle of feedback, iteration, and counter-proposals that eventually culminates in an efficient and effective method for verifying compliance with large-scale ML training rules.
 
-### 1.3 Related Work
+### 1.3 Related Work ^related-work
 
 This paper joins an existing literature examining the role that compute may play in the governance of AI. Early work by Hwang \[[23](https://arxiv.org/html/2303.11341#bib.bibx23)\] highlighted the potential of computing power to shape the social impact of ML. Concurrent work by Sastry et al. \[[51](https://arxiv.org/html/2303.11341#bib.bibx51)\] identifies attributes of compute that make it a uniquely useful lever for governance, and provides an overview of policy options. Closely-related work by Baker \[[4](https://arxiv.org/html/2303.11341#bib.bibx4)\] draws lessons from nuclear arms control for the compute-based verification of international agreements on large-scale ML.
 
 Rather than focusing on specific policies, the work proposes a technical platform for verifying many possible regulations and agreements on ML development. Already, the EU AI Act has proposed establishing risk-based regulations on AI products \[[61](https://arxiv.org/html/2303.11341#bib.bibx61)\], while US senators have proposed an “Algorithmic Accountability Act” to oversee algorithms used in critical decisions \[[11](https://arxiv.org/html/2303.11341#bib.bibx11)\], and the Cyberspace Administration of China (CAC) has established an “algorithm registry” for overseeing recommender systems \[[43](https://arxiv.org/html/2303.11341#bib.bibx43)\]. Internationally, many previous works have discussed the general feasibility and desirability of AI arms control \[[47](https://arxiv.org/html/2303.11341#bib.bibx47), [12](https://arxiv.org/html/2303.11341#bib.bibx12), [37](https://arxiv.org/html/2303.11341#bib.bibx37)\], with \[[52](https://arxiv.org/html/2303.11341#bib.bibx52)\] highlighting the importance of verification measures to the success of potential AI arms control regimes. Past work has also explored the benefits of international coordination on non-military AI regulation \[[13](https://arxiv.org/html/2303.11341#bib.bibx13)\].
 
-The proposed solution involves proving that a rule-violating ML training run was _not_ done, in part by proving which other training runs _were_ done. The analysis of the latter problem is heavily inspired by the literature on Proof-of-Learning \[[24](https://arxiv.org/html/2303.11341#bib.bibx24), [15](https://arxiv.org/html/2303.11341#bib.bibx15)\] (discussed further in Section [5](#S5 "5 At the data-center ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")). Other works has have used tools from cryptography to train NN models securely across multiple parties \[[63](https://arxiv.org/html/2303.11341#bib.bibx63)\], and to securely prove the correctness of NN inference \[[30](https://arxiv.org/html/2303.11341#bib.bibx30)\]. However, these approaches suffer large efficiency penalties and cannot yet be scaled to cutting-edge model training, rendering them nonviable as a method for verifying rules on large-scale training runs.
+The proposed solution involves proving that a rule-violating ML training run was _not_ done, in part by proving which other training runs _were_ done. The analysis of the latter problem is heavily inspired by the literature on Proof-of-Learning \[[24](https://arxiv.org/html/2303.11341#bib.bibx24), [15](https://arxiv.org/html/2303.11341#bib.bibx15)\] (discussed further in Section [[#^at-the-data-center|5]]). Other works has have used tools from cryptography to train NN models securely across multiple parties \[[63](https://arxiv.org/html/2303.11341#bib.bibx63)\], and to securely prove the correctness of NN inference \[[30](https://arxiv.org/html/2303.11341#bib.bibx30)\]. However, these approaches suffer large efficiency penalties and cannot yet be scaled to cutting-edge model training, rendering them nonviable as a method for verifying rules on large-scale training runs.
 
-## 2 The Problem: Detecting Violations of Large-Scale ML Training Rules
+## 2 The Problem: Detecting Violations of Large-Scale ML Training Rules ^the-problem
 
 We focus on the setting in which one party (the “Verifier”) seeks to verify that a given set of ML training rules is being followed, and another party (the “Prover”) is developing the ML system and wants to prove to the Verifier that it is complying with those rules. The Verifier can request that the Prover take actions, such as disclosing information on training runs, in order to help the Verifier determine the Prover’s compliance. The Prover is a “covert adversary” \[[2](https://arxiv.org/html/2303.11341#bib.bibx2)\] – they may benefit from _violating_ the ML training rule, but will only seek to violate the rule _if they can still appear compliant_ to the Verifier. There are two real-world Prover-Verifier relationships we are particularly interested in:
 
--   •
+-   {--{"author":"Luc's AI","timestamp":1788542933157}@@•
     
-    _Domestic Oversight_: Governments have a clear interest that the ML systems developed by companies operating within their borders comply with certain rules. Regulators can level both civil and criminal penalties on organizations caught violating rules, and often require organizations to maintain records that prove regulatory compliance (e.g., financial transaction record-keeping requirements).
+    --}_Domestic Oversight_: Governments have a clear interest that the ML systems developed by companies operating within their borders comply with certain rules. Regulators can level both civil and criminal penalties on organizations caught violating rules, and often require organizations to maintain records that prove regulatory compliance (e.g., financial transaction record-keeping requirements).
     
--   •
+-   {--{"author":"Luc's AI","timestamp":1788542933157}@@•
     
-    _International Oversight_: The most significant types of ML training rules may be those enforced internationally (on companies and governments in multiple countries), and verified by other governments or international bodies. These include enforcing globally-beneficial rules (e.g., combatting disinformation), and verifying arms control agreements (e.g., limiting the development of autonomous code-generating cyberweapons). There is precedent for countries abiding by international agreements with strict monitoring regimes when they stand to benefit, such as Russia’s historically allowing random U.S. inspections of its missiles as a part of the START treaties, in exchange for certainty that the U.S. was abiding by the same missile limits \[[53](https://arxiv.org/html/2303.11341#bib.bibx53)\].
+    --}_International Oversight_: The most significant types of ML training rules may be those enforced internationally (on companies and governments in multiple countries), and verified by other governments or international bodies. These include enforcing globally-beneficial rules (e.g., combatting disinformation), and verifying arms control agreements (e.g., limiting the development of autonomous code-generating cyberweapons). There is precedent for countries abiding by international agreements with strict monitoring regimes when they stand to benefit, such as Russia’s historically allowing random U.S. inspections of its missiles as a part of the START treaties, in exchange for certainty that the U.S. was abiding by the same missile limits \[[53](https://arxiv.org/html/2303.11341#bib.bibx53)\].
     
 
 Thus, the problem we address is: what minimal set of verifiable actions can the Verifier require the Prover to take that would enable the Verifier to detect, with high probability, whether the Prover violated any training rules?
 
-### 2.1 What types of rules can we enforce by monitoring ML training?
+### 2.1 What types of rules can we enforce by monitoring ML training?{++{"author":"Luc's AI","timestamp":1788542932862}@@ ^what-types-of-rules++}
 
-It is important that standards and agreements on ML training focus on preventing concrete harm, and otherwise leave society free to realize the broad benefits of highly-capable ML systems. Indeed, there are many types of ML models that should not only be legal to train, but that should open-sourced so that all of society can benefit from them \[[58](https://arxiv.org/html/2303.11341#bib.bibx58)\]. The proposed framework focuses only on enforcing rules on the training of those more dangerous models whose creation and distribution would substantially harm society or international security. Indeed, as mentioned in Section [1.2](#S1.SS2 "1.2 Limitations ‣ 1 Introduction ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."), this framework _could not_ prevent smaller-scale training of ML models, and thus limits the risk of overreach by authoritarian Verifiers. Below are some informative properties that a Verifier could determine by monitoring the training process of an ML model:
+It is important that standards and agreements on ML training focus on preventing concrete harm, and otherwise leave society free to realize the broad benefits of highly-capable ML systems. Indeed, there are many types of ML models that should not only be legal to train, but that should open-sourced so that all of society can benefit from them \[[58](https://arxiv.org/html/2303.11341#bib.bibx58)\]. The proposed framework focuses only on enforcing rules on the training of those more dangerous models whose creation and distribution would substantially harm society or international security. Indeed, as mentioned in Section{--{"author":"Luc's AI","timestamp":1788542932862}@@ [1.2](#S1.SS2 "1.2 Limitations ‣ 1 Introduction ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."), --}{++{"author":"Luc's AI","timestamp":1788542932862}@@ [[#^limitations|1.2]], ++}this framework _could not_ prevent smaller-scale training of ML models, and thus limits the risk of overreach by authoritarian Verifiers. Below are some informative properties that a Verifier could determine by monitoring the training process of an ML model:
 
--   •
+-   {--{"author":"Luc's AI","timestamp":1788542932862}@@•
     
-    _Total training compute_, which has proven to be an indicator for ML models’ capabilities \[[25](https://arxiv.org/html/2303.11341#bib.bibx25), [59](https://arxiv.org/html/2303.11341#bib.bibx59)\].
+    --}_Total training compute_, which has proven to be an indicator for ML models’ capabilities \[[25](https://arxiv.org/html/2303.11341#bib.bibx25), [59](https://arxiv.org/html/2303.11341#bib.bibx59)\].
     
--   •
+-   {--{"author":"Luc's AI","timestamp":1788542932862}@@•
     
-    _Properties of the training data_, such as whether a language model’s text dataset contains code for cybersecurity exploits.
+    --}_Properties of the training data_, such as whether a language model’s text dataset contains code for cybersecurity exploits.
     
--   •
+-   {--{"author":"Luc's AI","timestamp":1788542932862}@@•
     
-    _Properties of the hyperparameters_, such as the fraction of steps trained via reinforcement learning.
+    --}_Properties of the hyperparameters_, such as the fraction of steps trained via reinforcement learning.
     
--   •
+-   {--{"author":"Luc's AI","timestamp":1788542932862}@@•
     
-    _The resulting model’s performance on benchmarks designed to elicit its capabilities_, including whether the model’s capabilities exceed agreed-on thresholds, and including interactive benchmarks (e.g. finetuning the model on a particular task).
+    --}_The resulting model’s performance on benchmarks designed to elicit its capabilities_, including whether the model’s capabilities exceed agreed-on thresholds, and including interactive benchmarks (e.g. finetuning the model on a particular task).
     
--   •
+-   {--{"author":"Luc's AI","timestamp":1788542932862}@@•
     
-    Combinations of the above — for example, “if a model was trained on RL-for-code-generation for greater than $X$ FLOPs, then it should not be trained beyond $Y$ performance on $Z$ benchmarks.”
+    --}Combinations of the above — for example, “if a model was trained on RL-for-code-generation for greater than $X$ FLOPs, then it should not be trained beyond $Y$ performance on $Z$ benchmarks.”
     
 
 Ultimately, these rule thresholds should be selected based on the model capabilities that would result. Current “scaling law” extrapolations are not yet able to reliably predict ML models’ downstream capabilities \[[16](https://arxiv.org/html/2303.11341#bib.bibx16)\], so finding principled methods for deciding on rule-thresholds that achieve desired policy outcomes is an important area for future work.
 
 If a Verifier can reliably detect the aforementioned training run properties, that would allow them to mandate several types of rules, such as:
 
--   •
+-   {--{"author":"Luc's AI","timestamp":1788542932610}@@•
     
-    _Reporting requirements_ on large training runs, to make domestic regulators aware of new capabilities or as a confidence-building measure between companies/competitors \[[22](https://arxiv.org/html/2303.11341#bib.bibx22)\].
+    --}_Reporting requirements_ on large training runs, to make domestic regulators aware of new capabilities or as a confidence-building measure between companies/competitors \[[22](https://arxiv.org/html/2303.11341#bib.bibx22)\].
     
--   •
+-   {--{"author":"Luc's AI","timestamp":1788542932610}@@•
     
-    _Bans or approval-requirements_ for training runs considered overly likely to result in models that would threaten society or international stability. Approval could be conditioned on meeting additional requirements (e.g., willingness to comply with downstream regulations on model use, increased security to prevent model-theft, greater access for auditors).
+    --}_Bans or approval-requirements_ for training runs considered overly likely to result in models that would threaten society or international stability. Approval could be conditioned on meeting additional requirements (e.g., willingness to comply with downstream regulations on model use, increased security to prevent model-theft, greater access for auditors).
     
--   •
+-   {--{"author":"Luc's AI","timestamp":1788542932610}@@•
     
-    _Requiring that any trained model be modified to include post-hoc safety mitigations_ if the unmodified model could be expected to pose a severe accident risk absent those mitigations. Such safety assessments and mitigations (such as “Helpful and Harmless” finetuning \[[3](https://arxiv.org/html/2303.11341#bib.bibx3)\]) may involve a prohibitive upfront cost that companies/governments would otherwise avoid. However, once they have been forced to make the investment and built a less accident-prone model, they may then prefer to use the safer version. Such rules allow all parties to coordinate spending more resources on safe and responsible innovation, without fearing that their competitors may secretly undercut them by rushing ahead without addressing negative externalities.
+    --}_Requiring that any trained model be modified to include post-hoc safety mitigations_ if the unmodified model could be expected to pose a severe accident risk absent those mitigations. Such safety assessments and mitigations (such as “Helpful and Harmless” finetuning \[[3](https://arxiv.org/html/2303.11341#bib.bibx3)\]) may involve a prohibitive upfront cost that companies/governments would otherwise avoid. However, once they have been forced to make the investment and built a less accident-prone model, they may then prefer to use the safer version. Such rules allow all parties to coordinate spending more resources on safe and responsible innovation, without fearing that their competitors may secretly undercut them by rushing ahead without addressing negative externalities.
     
 
-### 2.2 Other Practical Requirements
+### 2.2 Other Practical Requirements ^other-practical-requirements
 
 There are several other considerations for such a monitoring system to be practical. Its cost should be limited, both by limiting changes to current hardware, and by minimizing the ongoing compliance costs to the Prover and enforcement costs to the Verifier. The system should also not pose a high risk of leaking the Prover’s proprietary information, including model weights, training data, or hyperparameters. Most importantly, the system must be robust to cheating attempts, even by highly-resourced adversaries such as government hacking groups, who may be willing to employ sophisticated hardware, software, and even supply-chain attacks.
 
-## 3 Solution Overview
+## 3 Solution Overview ^solution-overview
 
-In this section, we outline a high-level technical plan, illustrated in Figure [1](#S3.F1 "Figure 1 ‣ 3 Solution Overview ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."), for Verifiers to monitor Provers’ ML chips for evidence that a large rule-violating training occurred.
+In this section, we outline a high-level technical plan, illustrated in Figure {--{"author":"Luc's AI","timestamp":1788542931637}@@[1](#S3.F1 "Figure 1 ‣ 3 Solution Overview ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."),--}{++{"author":"Luc's AI","timestamp":1788542931637}@@[[#^figure-1|1]],++} for Verifiers to monitor Provers’ ML chips for evidence that a large rule-violating training occurred.
 
 ![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shavit-what-does-it-take-to-catch-a-chinchilla-verifying-rules-on-large-scale-neural-network-training-via-compute-monitoring-img1-23934538.png)
 
-Figure 1: Overview of the proposed monitoring framework.
+Figure 1: Overview of the proposed monitoring framework.{++{"author":"Luc's AI","timestamp":1788542931290}@@ ^figure-1++}
 
-The framework revolves around chip inspections: the Verifier will inspect a sufficient random sample of the Prover’s chips (Section [3.2](#S3.SS2 "3.2 How many ML chips does the Verifier need to inspect? ‣ 3 Solution Overview ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")), and confirm that none of these chips contributed to a rule-violating training run. For the Verifier to ascertain compliance from simply inspecting a chip, we will need interventions at three stages: on the chip, at the Prover’s data-center, and in the supply chain.
+The framework revolves around chip inspections: the Verifier will inspect a sufficient random sample of the Prover’s chips (Section {--{"author":"Luc's AI","timestamp":1788542931290}@@[3.2](#S3.SS2 "3.2 How many ML chips does the Verifier need to inspect? ‣ 3 Solution Overview ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")), --}{++{"author":"Luc's AI","timestamp":1788542931290}@@[[#^how-many-chips|3.2]]), ++}and confirm that none of these chips contributed to a rule-violating training run. For the Verifier to ascertain compliance from simply inspecting a chip, we will need interventions at three stages: on the chip, at the Prover’s data-center, and in the supply chain.
 
--   •
+-   {--{"author":"Luc's AI","timestamp":1788542931290}@@•
     
-    _On the chip_ (Section [4](#S4 "4 On the chip ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")): When the Verifier gets access to a Prover’s chip, they need to be able to confirm whether or not that chip was involved in a rule-violating training run. Given that rule violation depends only on the code that was run, our solution will necessitate that ML chips logging infrequent traces of their activity, with logging done via hardware-backed firmware. We suggest that ML chips’ firmware occasionally log a copy of the current state of the chip’s high-bandwidth memory to long-term storage, and in particular, that it logs the shard of the NN’s weights stored in memory. These _weight-snapshots_ can serve as a fingerprint of the NN training that took place on each chip.
+    --}_On the chip_ (Section {--{"author":"Luc's AI","timestamp":1788542931290}@@[4](#S4 "4 On the chip ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")): --}{++{"author":"Luc's AI","timestamp":1788542931290}@@[[#^on-the-chip|4]]): ++}When the Verifier gets access to a Prover’s chip, they need to be able to confirm whether or not that chip was involved in a rule-violating training run. Given that rule violation depends only on the code that was run, our solution will necessitate that ML chips logging infrequent traces of their activity, with logging done via hardware-backed firmware. We suggest that ML chips’ firmware occasionally log a copy of the current state of the chip’s high-bandwidth memory to long-term storage, and in particular, that it logs the shard of the NN’s weights stored in memory. These _weight-snapshots_ can serve as a fingerprint of the NN training that took place on each chip.
     
--   •
+-   {--{"author":"Luc's AI","timestamp":1788542931290}@@•
     
-    _At the data-center_ (Section [5](#S5 "5 At the data-center ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")): The Verifier needs a way to interpret the chips’ logs, and determine whether or not they are evidence for a rule-violating training run. To that end, the Prover, who is training the model, will be required to store a transcript of the training process — including training data, hyperparameters, and intermediate weight checkpoints — for each model they train. Using protocols similar to “Proof-of-Learning” \[[24](https://arxiv.org/html/2303.11341#bib.bibx24)\], these training transcripts may serve as provenance for the logged weight-snapshots, which are themselves the result of the same training process. In practice, for each (hash of a) weight-snapshot logged by a chip, the Prover provides the Verifier (the hashed version of) the matching training transcript. Then the Prover and Verifier jointly and securely verify that, with high probability, retraining using the training transcript would have indeed resulted in the logged weight-snapshot (and that no other valid training transcript could have resulted in that snapshot). Finally, now that the Verifier knows an approximate training transcript of the training run that had been executed on that chip at that time, they can examine properties of the training transcript to confirm that the Prover has complied with the agreed upon rules.
+    --}_At the data-center_ (Section {--{"author":"Luc's AI","timestamp":1788542931290}@@[5](#S5 "5 At the data-center ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")): --}{++{"author":"Luc's AI","timestamp":1788542931290}@@[[#^at-the-data-center|5]]): ++}The Verifier needs a way to interpret the chips’ logs, and determine whether or not they are evidence for a rule-violating training run. To that end, the Prover, who is training the model, will be required to store a transcript of the training process — including training data, hyperparameters, and intermediate weight checkpoints — for each model they train. Using protocols similar to “Proof-of-Learning” \[[24](https://arxiv.org/html/2303.11341#bib.bibx24)\], these training transcripts may serve as provenance for the logged weight-snapshots, which are themselves the result of the same training process. In practice, for each (hash of a) weight-snapshot logged by a chip, the Prover provides the Verifier (the hashed version of) the matching training transcript. Then the Prover and Verifier jointly and securely verify that, with high probability, retraining using the training transcript would have indeed resulted in the logged weight-snapshot (and that no other valid training transcript could have resulted in that snapshot). Finally, now that the Verifier knows an approximate training transcript of the training run that had been executed on that chip at that time, they can examine properties of the training transcript to confirm that the Prover has complied with the agreed upon rules.
     
--   •
+-   {--{"author":"Luc's AI","timestamp":1788542931290}@@•
     
-    _At the supply chain_ (Section [6](#S6 "6 At the supply chain ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")): The Verifier needs to know which ML chips the Prover owns, so that the Verifier can randomly inspect a representative sample of those chips, to confirm their ownership and that their logging mechanisms are reporting correctly. Without this chip-ownership verification step, a Prover might covertly acquire a large quantity of chips and use them for training without ever notifying the Verifier. Keeping track of chip-ownership is viable because the cutting-edge data-center chip supply chain is highly concentrated, meaning that chips originate from a few initial chokepoints and can be monitored thereafter.
+    --}_At the supply chain_ (Section{--{"author":"Luc's AI","timestamp":1788542931290}@@ [6](#S6 "6 At the supply chain ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")):--}{++{"author":"Luc's AI","timestamp":1788542931290}@@ [[#^at-the-supply-chain|6]]):++} The Verifier needs to know which ML chips the Prover owns, so that the Verifier can randomly inspect a representative sample of those chips, to confirm their ownership and that their logging mechanisms are reporting correctly. Without this chip-ownership verification step, a Prover might covertly acquire a large quantity of chips and use them for training without ever notifying the Verifier. Keeping track of chip-ownership is viable because the cutting-edge data-center chip supply chain is highly concentrated, meaning that chips originate from a few initial chokepoints and can be monitored thereafter.
     
 
 These steps, put together, enable a chain of guarantees.
 
--   •
+-   {--{"author":"Luc's AI","timestamp":1788542930956}@@•
     
-    When any organization wants to train a large rule-violating ML model, they must do so using chips that the Verifier is aware of.
+    --}When any organization wants to train a large rule-violating ML model, they must do so using chips that the Verifier is aware of.
     
--   •
+-   {--{"author":"Luc's AI","timestamp":1788542930956}@@•
     
-    These chips will occasionally log weight-snapshots. Each time a chip logs a weight-snapshot, the Prover must report the log to the Verifier, along with (hashes of) training transcripts that establish the provenance of that weight-snapshot.
+    --}These chips will occasionally log weight-snapshots. Each time a chip logs a weight-snapshot, the Prover must report the log to the Verifier, along with (hashes of) training transcripts that establish the provenance of that weight-snapshot.
     
--   •
+-   {--{"author":"Luc's AI","timestamp":1788542930956}@@•
     
-    If the Prover tries to hide the logs from every chip involved in the training run, the Verifier will eventually find out, because it will sample and physically inspect at least one of those chips with high probability.
+    --}If the Prover tries to hide the logs from every chip involved in the training run, the Verifier will eventually find out, because it will sample and physically inspect at least one of those chips with high probability.
     
--   •
+-   {--{"author":"Luc's AI","timestamp":1788542930956}@@•
     
-    Also, the hashed training transcripts that the Prover provides along with the logged weight-snapshot need to be authentic, reflecting the training run that was run on the chip. If they are not authentic, they will be caught by the Verifier’s transcript verification procedure.
+    --}Also, the hashed training transcripts that the Prover provides along with the logged weight-snapshot need to be authentic, reflecting the training run that was run on the chip. If they are not authentic, they will be caught by the Verifier’s transcript verification procedure.
     
--   •
+-   {--{"author":"Luc's AI","timestamp":1788542930956}@@•
     
-    If the training transcript _is_ authentic, and the run violated the rules, then the Verifier can tell, and will catch the Prover.
+    --}If the training transcript _is_ authentic, and the run violated the rules, then the Verifier can tell, and will catch the Prover.
     
 
 Thus, so long as the Prover complies with the Verifier’s steps, the Verifier will detect the Prover’s rule-violation with high probability. Just as in financial audits, a Prover’s refusal to comply with the verification steps would itself represent an indication of guilt.
