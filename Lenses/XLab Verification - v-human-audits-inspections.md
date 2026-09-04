@@ -155,7 +155,7 @@ feedback-instructions:: If wrong: More evidence widens the supported claim, but 
 #### Text
 content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
-Brundage et al. associate gray-box access, extensive documentation, monitoring, and cross-functional interviews with greater assurance, while reserving deception-resistant claims for substantially higher access levels. Source: [Brundage et al., §5.3.3](https://arxiv.org/html/2601.11699v4#S5.SS3)
+Brundage et al. associate gray-box access, extensive documentation, monitoring, and cross-functional interviews with greater assurance, while reserving deception-resistant claims for substantially higher access levels. Source: [Brundage et al., §5.3.3](https://arxiv.org/pdf/2601.11699v4#page=30)
 
 Gray-box ceiling: supports selected system and practice claims, but cannot rule out omitted evidence or active deception when the auditee controls selection and follow-up.
 :::
@@ -177,7 +177,7 @@ feedback-instructions:: If wrong: Deep access raises the ceiling; it does not er
 #### Text
 content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
-Higher assurance requires wider access and fewer assumptions, but Brundage et al. still require explicit scope, reasoning, validity conditions, and renewed assessment when systems change. Source: [Brundage et al., Executive Summary and §5.3](https://arxiv.org/html/2601.11699v4#S5.SS3)
+Higher assurance requires wider access and fewer assumptions, but Brundage et al. still require explicit scope, reasoning, validity conditions, and renewed assessment when systems change. Source: [Brundage et al., Executive Summary and §5.3](https://arxiv.org/pdf/2601.11699v4#page=29)
 
 Deep-access ceiling: can support scoped organization-level and historical findings, subject to completeness, stated assumptions, and expiry conditions.
 :::
