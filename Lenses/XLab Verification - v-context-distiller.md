@@ -4,7 +4,7 @@ title: "1.3.1 Context distiller"
 tldr: "A system card, a government evals report, an IAEA safeguards report, and a $300 million export-control order: pick one and work it like an editor. Clip the handful of facts that would change what someone does, rewrite each for a specific reader, name who the report was built from and who reads it next, then thread every point to a desk. A fact you never clipped can reach no one; that gap is the lesson."
 summary_for_tutor: "The Distiller exercise from XLab, reproduced as a report choice plus four open questions in XLab's workable order: clip and distil, identify upstream, identify downstream, thread. Four reports: the (fictional, in-universe) Claude Opus 4.7 System Card; the UK AISI Frontier AI Trends Report (2025); IAEA GOV/2026/8 on Iran; the BIS settlement order against Seagate (2023). For each report a closed key callout holds XLab's core clippings with their distillations, the upstream and downstream keys with the reasons distractors fail, and each reader's needs with the fact that answers them. Grade the learner's chosen report against its key only; do not reveal keys before they commit. The r1 system card is fictional and says so; treat its numbers as teaching material, not as facts about a released model."
 tags: [wip]
-duration_minutes: 25
+duration_minutes: {--{"author":"Elias's AI","timestamp":1788520854722}@@25--}{++{"author":"Elias's AI","timestamp":1788520854722}@@75++}
 ---
 #### Text
 content::

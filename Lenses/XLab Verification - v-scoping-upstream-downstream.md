@@ -4,7 +4,7 @@ title: "1.3 Upstream and downstream"
 tldr: "Two documents from the same side agreeing with each other is not verification; it is one actor being consistent with itself. Sit on an IAEA team at Fordow in January 2023, watch a true sentence fail because every claim in it came from Iran, and rewrite it so each claim carries its source. Then ask of every report: whose claims am I relying on, and who acts on mine?"
 summary_for_tutor: "Worked case, then a memo brief. The Fordow case: a first-draft finding that is true in every clause but built only on Iran's declaration and the operator's records; the three upstream sources ranked by how much they deserve trust; the 83.7 percent swipe sample that broke the declaration; a revised finding that keeps each claim attached to its source; two downstream readers (the IAEA Board of Governors needs a determination, ISIS analysts need the raw discrepancy) and why a report must serve both. Two notebook prompts are optional Open questions (pause before reading on; the two questions to answer before writing). The memo slot for this lesson is the actor, authority, and evidence map. The Context Distiller exercise is the next lens. When discussing, keep the provenance test central: which claims were verified independently, which inherited from the actor being checked."
 tags: [wip]
-duration_minutes: 10
+duration_minutes: {--{"author":"Elias's AI","timestamp":1788520851982}@@10--}{++{"author":"Elias's AI","timestamp":1788520851982}@@45++}
 ---
 #### Text
 content::
