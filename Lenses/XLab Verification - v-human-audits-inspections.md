@@ -133,7 +133,7 @@ feedback-instructions:: If wrong: Tie the conclusion to the system, settings, in
 #### Text
 content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
-Brundage et al. warn against abstraction errors: behavior of one exposed system does not establish organization-level facts or the properties of systems the auditor could not see. Source: [Brundage et al., §§5.2–5.3](https://arxiv.org/pdf/2601.11699v4#page=28)
+Brundage et al. warn against abstraction errors: behavior of one exposed system does not establish organization-level facts or the properties of systems the auditor could not see. Source: [Brundage et al., §§5.2–5.3](https://arxiv.org/pdf/2601.11699v4#page=25)
 
 Black-box ceiling: supports a behavioral statement about the tested system and conditions, not a claim about training history or the organization as a whole.
 :::
