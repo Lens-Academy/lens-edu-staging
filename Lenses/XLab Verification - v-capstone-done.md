@@ -127,7 +127,7 @@ content::
 
 Open your week 2 proposal. What changed between it and what you submitted: the question, the reader, the scope, the hours? What would you scope differently next time, and what would you keep?
 assessment-instructions:: Give full credit when the learner names at least two concrete differences between the proposal and the submission and draws one lesson about scoping that is stated as their own (what they would do differently or keep, and why). Partial credit if the differences are generic or the lesson is a platitude ("plan better"). If nothing changed, give full credit for an account of why the proposal held, with evidence.
-feedback-instructions:: Reflect the lesson back in one sentence in their terms and ask whether it would have been visible at week 1 or only after the crappy version. Do not supply a lesson of your own. Then point them to the next lens: the course's closing page. Two sentences. No praise.
+feedback-instructions:: Reflect the lesson back in one sentence in their terms and ask whether it would have been visible at the proposal or only after the crappy version. Do not supply a lesson of your own. Then point them to the next lens: the course's closing page. Two sentences. No praise.
 
 #### Text
 content::
