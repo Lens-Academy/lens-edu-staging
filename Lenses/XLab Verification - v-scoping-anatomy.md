@@ -123,6 +123,7 @@ Relevant provision: Article XV, Withdrawal and Duration.
 placeholder:: Quote the words you are talking about.
 optional:: true
 assessment-instructions:: Full credit: the learner notes that the draft contains no entry-into-force clause (Article XV gives only unlimited duration and withdrawal) and does not invent one; the withdrawal procedure is described from Article XV with its notice period (12 months, notified to the CTB), the conditions that apply during that period (cooperation with CTB and Executive Council certification, removal or permanent disabling of covered chip clusters and ASI-enabling assets), and continued exposure to Article XII after withdrawal; and at least one concrete comparison is drawn with the model final clauses in Annex E of the Practice Guide (for example on notice periods, on who receives the notification, or on conditions attached to withdrawal). Partial credit for withdrawal without the comparison. No generic praise.
+feedback-instructions:: Start with the negative finding: if the learner asserted an entry-into-force clause, say the draft has none and that Article XV carries only unlimited duration and withdrawal. Then name any part of the withdrawal procedure that was left out, the twelve-month notice to the CTB, the conditions that apply during that period, and continued exposure to Article XII afterwards. If no comparison with Annex E was drawn, ask for one on a single point, the notice period or who receives the notification. No praise.
 
 #### Text
 content::
