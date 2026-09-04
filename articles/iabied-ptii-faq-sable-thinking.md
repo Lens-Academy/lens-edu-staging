@@ -7,18 +7,24 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is one entry in an FAQ-style resource series for the book *If Anyone Builds It, Everyone Dies*, answering questions about the "Sable" scenario in Part II. It assumes familiarity with the book's Chapters 3-5 and the Sable narrative; readers unfamiliar with that context may want to review those chapters first.
 
 %%
 
-#### Our story showcases how AI is liable to have weird and unintended preferences.
+#### Our story showcases how AI is liable to have weird and unintended preferences. ^weird-preferences
 
-In Part I of the book, we go into depth about aspects of AI that we think are radically misunderstood and pertinent to the danger of superintelligence. Chapter 3 covers how increased intelligence goes hand in hand with AIs that take their own initiative and pursue their own ends. Chapter 4 covers how those preferences are going to be *weird*,and at least slightly different from what any human intended or asked for. Chapter 5 covers how those small differences will be enough that AIs would prefer a world without us in it, if possible.
+In Part I of the book, we go into depth about aspects of AI that we think are radically misunderstood and pertinent to the danger of superintelligence. Chapter 3 covers how increased intelligence goes hand in hand with AIs that take their own initiative and pursue their own ends. Chapter 4 covers how those preferences are going to be *weird*, and at least slightly different from what any human intended or asked for. Chapter 5 covers how those small differences will be enough that AIs would prefer a world without us in it, if possible.
 
 In Part II of the book, we attempt to present those ideas concretely, to see how they apply in practice. For instance, when Sable was thinking about the math problems at the beginning, we tried to spell out a number of the impulses and drives that animate it:
 
