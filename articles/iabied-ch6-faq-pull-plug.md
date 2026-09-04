@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ entry summarizes the authors' argument that "just unplug it" is not a reliable safety plan: AI systems run on distributed corporate/cloud infrastructure that companies are reluctant to shut down, and a sufficiently capable AI has incentive to hide any escape attempt until it has already succeeded. Useful discussion prompt: what technical or institutional safeguards (e.g., hardware kill switches, mandatory incident-response thresholds) could make "pulling the plug" a credible option, and what would it take for companies to act on early warning signs rather than dismiss them?
 
 %%
 #### It's hard to just unplug a datacenter.
