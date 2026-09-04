@@ -33,6 +33,7 @@ options::
 - Half of it exists
 - I started but got stuck (say where in the next answer)
 - I did not start (say why in the next answer)
+feedback-instructions:: Not graded; the written account that follows is what is assessed. Acknowledge the status in one line, without judgement and without advice yet, and send them to the next answer. If they got stuck or did not start, say plainly that this checkpoint exists to use exactly that information, and ask them to be specific in the next answer about where they stopped or what stopped them. No guilt, no lecture, no praise.
 
 #### Question: Open
 id:: d9e5ced5-09fa-43e0-8a94-0263127e724e
