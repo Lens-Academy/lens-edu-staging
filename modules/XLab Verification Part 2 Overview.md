@@ -16,7 +16,7 @@ content::
 How could parties that do not trust one another verify meaningful limits on advanced AI development? The first course worked from motivation to policy scope: why verification matters, what a pause agreement must actually say, who is bound by it, and what hardware can attest to. This course is about the evidence. Each week takes one stream of it, asks what claims it can honestly support, what it cannot establish on its own, and what a determined actor does to it. We built this course on the open-source verification curriculum of [XLab](https://xrisk.uchicago.edu/) at the University of Chicago.
 
 :::callout {title="This course continues another one" tone="blue"}
-The first course, Compute Verification, is a prerequisite. This one starts from its results and does not restate them: the criteria for judging a mechanism, the actors and chokepoints of the compute supply chain, and the hardware mechanisms up to and including chip attestation and compute accounting. The capstone, where you design and defend a verification regime of your own, is a separate course that follows this one.
+The first course, Compute Verification, is a prerequisite. This one starts from its results and does not restate them: the criteria for judging a mechanism, the actors and chokepoints of the compute supply chain, and the hardware mechanisms up to and including chip attestation and compute accounting. The capstone is a separate course that follows this one. It opens with the feasibility judgments, where you rank the mechanisms you have now read about and defend the ranking, and builds from there to a verification regime of your own design.
 :::
 
 :::callout {title="Alpha version" tone="amber"}
