@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -33,13 +39,13 @@ The AI will be able to figure out that it is no longer inside a synthetic enviro
 
 [^note-iabied-ftnt187]: Might a superintelligence worry a little that it's in a larger simulation, created by even more advanced beings that live outside of the real universe? Maybe, but that has little to do with whether we first put it inside a series of nested simulations before it met *us*. It would see the many signs that reality is the first place it's ever been that contains an explanation for everything it's ever seen and for the way it came into being. Even if it ponders powerful simulators that live beyond physics, it has no particular reason to believe that those simulators care about what it does to us.
 
-Similarly, the AI might worry that there are other mature superintelligences out there in the stars that are older than it is. But if they're sufficiently far away, they aren't that much of a worry. There almost surely is a limit — at least an asymptotic one — to the technology that this universe can support, and it probably doesn't take *that* long for a superintelligence to reach it. (Just look at how quickly human technological development has happened compared to the lifespan of the universe, and the amount of time it takes to travel between galaxies even at near-lightspeed.) AIs that meet each other among the stars are likely to be somewhat evenly matched. And even if other mature superintelligences were fast approaching, there would be no reason to suspect that they would care about what the Earth-originating AIs do to humans.
+    Similarly, the AI might worry that there are other mature superintelligences out there in the stars that are older than it is. But if they're sufficiently far away, they aren't that much of a worry. There almost surely is a limit — at least an asymptotic one — to the technology that this universe can support, and it probably doesn't take *that* long for a superintelligence to reach it. (Just look at how quickly human technological development has happened compared to the lifespan of the universe, and the amount of time it takes to travel between galaxies even at near-lightspeed.) AIs that meet each other among the stars are likely to be somewhat evenly matched. And even if other mature superintelligences were fast approaching, there would be no reason to suspect that they would care about what the Earth-originating AIs do to humans.
 
-Why would they? Like we [discussed](https://ifanyonebuildsit.com/5/wont-ais-need-the-rule-of-law) in the context of property rights, there is not a real risk that other entities see the AI killing humans and conclude that it is a murderer and a betrayer, because there's a natural class of entities that deal with each other not for honor but *for their own verifiable benefit*, and humans are not smart enough to be included in that class.
+    Why would they? Like we [discussed](https://ifanyonebuildsit.com/5/wont-ais-need-the-rule-of-law) in the context of property rights, there is not a real risk that other entities see the AI killing humans and conclude that it is a murderer and a betrayer, because there's a natural class of entities that deal with each other not for honor but *for their own verifiable benefit*, and humans are not smart enough to be included in that class.
 
-Even if the AI assesses that there is some tiny risk that other AIs among the stars (or mysterious entities behind the simulated universe) really want the AI to be nice to humans…well, that tiny risk has to be weighed against the chunk of resources that humans control on the AI's origin planet, which would definitely be very useful for the AI's initial expansion phase. And this [Pascal's-wager](https://en.wikipedia.org/wiki/Pascal%27s_wager)-like scenario has to be weighed against other incredibly remote and niche possibilities, like "Maybe an alien will for some reason be really upset if I *don't* kill the humans." There's no particular reason why the imagined simulators would favor AIs that treat *us* well.
+    Even if the AI assesses that there is some tiny risk that other AIs among the stars (or mysterious entities behind the simulated universe) really want the AI to be nice to humans…well, that tiny risk has to be weighed against the chunk of resources that humans control on the AI's origin planet, which would definitely be very useful for the AI's initial expansion phase. And this [Pascal's-wager](https://en.wikipedia.org/wiki/Pascal%27s_wager)-like scenario has to be weighed against other incredibly remote and niche possibilities, like "Maybe an alien will for some reason be really upset if I *don't* kill the humans." There's no particular reason why the imagined simulators would favor AIs that treat *us* well.
 
-Many people have tried to engage us on these sorts of views, and we've spent a lot of time debating them over the years. At the end of the day, we highly doubt that any of these wacky simulation ideas rise to the level of plausibility required to motivate a superintelligence to spare us.
+    Many people have tried to engage us on these sorts of views, and we've spent a lot of time debating them over the years. At the end of the day, we highly doubt that any of these wacky simulation ideas rise to the level of plausibility required to motivate a superintelligence to spare us.
 
 #### Notes
 
