@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -37,7 +43,7 @@ When we use the word "conscious," we're specifically thinking of "having subject
 
 Our best guess is that AIs today are probably not conscious (although we're more uncertain every year), and that subjective experience isn't necessary for superintelligence.
 
-But these are just guesses, albeit ones based on a reasonable amount of thinking and theorizing. We don't think it's at all *silly* to worry that some current or future AI systems might be conscious, or even to worry about whether we might be badly mistreating current AIs, especially when they do things like threaten to kill themselves after failing to debug code.
+But these are just guesses, albeit ones based on a reasonable amount of thinking and theorizing. We don't think it's at all *silly* to worry that some current or future AI systems might be conscious, or even to worry about whether we might be badly mistreating current AIs, especially when they do things like threaten to kill themselves[^cite-iabied-ftnt1] after failing to debug code.
 
 Any entity that would constitute a superintelligence by our lights would necessarily be extremely good at modeling itself — thinking about its own computations, improving its mental heuristics, understanding and predicting the impacts of its own behavior on the surrounding environment, etc. But our best guess is that human-style self-aware consciousness is just *one particular way* that a mind can effectively model itself; it's not a necessary prerequisite for reflective reasoning.
 
@@ -53,6 +59,6 @@ We'll go into more detail on why we think prediction and steering probably don't
 
 [^note-iabied-ftnt25]: Depending on your psychological and philosophical views, you might think that these topics are connected. We're more skeptical of a strong, tight connection here; but if there is a connection, it still seems valuable to explicitly distinguish these different subject matters. If, for example, self-modeling turns out to be inextricably linked to consciousness, that's an important fact that should be discussed and hashed out explicitly, not an assumption that we should bake in at the outset.
 
-#### Notes
+{--{"author":"Luc's AI","timestamp":1788525244080}@@#### Notes
 
-[1] *threaten to kill themselves:* Users report that Google's Gemini AI [threatens to uninstall itself](https://x.com/venturetwins/status/1936483773035798906) from projects, or to [delete all its code](https://x.com/DuncanHaldane/status/1937204975035384028), when it's having trouble completing some task.
+[1]--}{++{"author":"Luc's AI","timestamp":1788525244080}@@[^cite-iabied-ftnt1]:++} *threaten to kill themselves:* Users report that Google's Gemini AI [threatens to uninstall itself](https://x.com/venturetwins/status/1936483773035798906) from projects, or to [delete all its code](https://x.com/DuncanHaldane/status/1937204975035384028), when it's having trouble completing some task.
