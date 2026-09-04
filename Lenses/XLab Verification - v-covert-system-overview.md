@@ -4,7 +4,7 @@ title: "3.0 A system overview for near-term, low-trust AI compute verification"
 tldr: "Read one engineer's blueprint for checking a rival's AI compute without trusting them, then take it apart the way a reviewer would: state its problem, map its argument, trace evidence from chip to verdict, and find the step where the conclusion outruns the proof."
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. The lens is a close-reading assignment on Naci Cankaya's paper 'A System Overview for Near-Term, Low-Trust AI Compute Verification' (MIRI Technical Governance Team). Nine questions: 1, 2 and 5 are required; 3, 4, 7 and 9 are marked optional so the learner can pick any one of them (they must do at least one); 6 and 8 are optional. Every answer should cite a page or section of the paper and separate the author's claims from the learner's own conclusions. Do not summarise the paper for the learner; push them back to the text, check that reconstructed arguments name premises and conclusions, and treat well-reasoned disagreement with the author as success."
 tags: [wip]
-duration_minutes: 15
+duration_minutes: 210
 ---
 #### Text
 content::
