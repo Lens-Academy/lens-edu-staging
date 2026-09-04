@@ -100,10 +100,10 @@ options::
 - I have someone I can ask, and have told them
 - I have someone in mind but have not asked yet
 - I do not have one and the brief says optional
-- I do not have one and the brief says recommended or required (tell your facilitator at meeting 1)
+- I do not have one and the brief says recommended or required (tell your facilitator at meeting 2)
 
 #### Text
 content::
-\## Before meeting 1
+\## Before meeting 2
 
-Bring a two-minute spoken version of this proposal: the question, the reader, the deliverable, the crappy version. Your group will ask the two questions that matter most at this stage: who acts on this, and what can you show us next week. Your facilitator will pair projects into review partners at the meeting; you will read each other's drafts in weeks 3 and 4.
+Bring a two-minute spoken version of this proposal (the question, the reader, the deliverable, the crappy version) and the crappy version itself from this week's first session. Your group will ask the two questions that matter most at this stage: who acts on this, and what did building the first version teach you. Your facilitator will pair projects into review partners at the meeting; you will read each other's drafts in weeks 3 and 4.
