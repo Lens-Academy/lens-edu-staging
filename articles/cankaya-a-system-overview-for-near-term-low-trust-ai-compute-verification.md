@@ -9,12 +9,18 @@ accessed: 2026-07-28
 description: "Version 0.2, working draft • This is a working draft of my current best idea for a privacy-preserving, retrofittable AI compute verification system,…"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is an explicit working draft (v0.2) soliciting expert critique via "Cunningham's law," not a finished proposal. Readers should weigh the many open research questions and the author's own caveats (e.g. the threat model in section 2b is flagged as under-developed) as heavily as the reference architecture itself. Useful discussion prompts: how the proposal would need to change for a misaligned-model (rather than colluding-human-coalition) threat model, raised by a commenter but left largely out of scope; and whether the token/symbol-level evidence-capture goal is the right level of granularity compared to coarser, faster-to-deploy alternatives.
 
 %%
 
@@ -597,6 +603,10 @@ Verifiable compute is needed badly needed as AI becomes more powerful, and the s
 
 The amount of compute needed for e.g. 90% confidence of 0.1% maximum false reports does not scale with the amount of monitored compute. If a randomly sampled batch of devices (sample size n) is checked and every check finds a flaw if there is one, the random sample can upper-bound the total fraction of flawed devices (p) with a certain probability P(detect ≥ 1) .
 
+$$
+P(\text{detect} \geq 1) = 1 - (1-p)^n
+$$
+
 The finer the granularity of evidence reporting, the more favourable the statistics of random sampling. For example, if individual forward passes are re-computed, rather than whole sequence generations or batches, the samples are smaller, but not necessarily less informative for AI governance-relevant criteria.
 
 | Checked samples (n) | 95% confidence that p ≤ | Detects 1% flaw rate with | Detects 0.1% flaw rate with |
@@ -660,4 +670,3 @@ Same statistics, ten times the cost. The certified ceiling is a function of the 
 [^note-cankaya-21]: Memory operations are checked differently: TrustGuard avoids duplicating the whole memory subsystem by using MACs and a Bonsai Merkle Tree to verify cache-line integrity and freshness, while output operations are held until all relevant instruction and memory dependencies have been verified. The reference architecture does not rely on authenticated memory outsourced to the same untrusted processor being checked, and does not rely on using a verification protocol that depends on guarding a key from the untrusted processor. Instead, all devices use their own, independent memory and processing. However, the sentry buys a critical property by re-executing _only_ the arithmetic and merely _verifying_ memory integrity: while the untrusted processor performs all the instruction preparation, scheduling, and memory management that dominate a processor's complexity,  the sentry’s 3543 LoC are amenable to formal verification.
 [^note-cankaya-22]: Hardware Description Language
 [^note-cankaya-23]: The perplexity gap is small and shrinks with scale: OPT-125M moves 26.56 to 26.65, LLaMA-2-7B 7.036 to 7.049, LLaMA-2-13B 6.520 to 6.528. The paper's summary is that the increase stays under 0.1 everywhere and falls below 0.01 by 13B.
-[^note-cankaya-24]: Network monitoring at the physical, rather than the application layer
