@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is the authors' explanation for why LLMs hallucinate, framed as an analogy to a text-prediction "roleplay" rather than a claim backed by mechanistic evidence (see footnote on internal motivations). Worth discussing alongside more recent, technical accounts of hallucination (e.g., OpenAI's research on hallucinations as a consequence of training/evaluation incentives) and whether reliability has improved since this was written in mid-2025.
 
 %%
 #### Hallucinations reveal both a limitation and a misalignment.
