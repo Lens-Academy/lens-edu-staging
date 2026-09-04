@@ -9,8 +9,14 @@ accessed: 2026-07-18
 description: "John Wentworth argues that becoming one of the best in the world at *one* specific skill is hard, but it's not as hard to become the best in the worl…"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -32,7 +38,7 @@ Having reached that Pareto frontier, you will have circumvented the GEM: you wil
 
 Let’s dig into a few details of this approach…
 
-## Elbow Room
+## Elbow Room ^elbow-room
 
 There are many table tennis players, but only one best player in the world. This is a side effect of ranking people on one dimension: there’s only going to be one point furthest to the right (absent a tie).
 
@@ -44,13 +50,13 @@ Problem is, for GEM purposes, elbow room matters. Maybe I’m the on the pareto 
 
 This brings up another aspect…
 
-## Problem Density
+## Problem Density ^problem-density
 
 Claiming a spot on a Pareto frontier gives you some chunk of the skill-space to call your own. But that’s only useful to the extent that your territory contains useful problems.
 
-Two pieces factor in here. First, how large a territory can you claim? This is about elbow room, as in the diagram above. Second, what’s the density of useful problems within this region of skill-space? The table tennis/sprinting space doesn’t have a whole lot going on. Statistics and gerontology sounds more promising. Cryptography and monetary economics is probably a particularly rich Pareto frontier these days. (And of course, we don’t need to stop at two dimensions - but we’re going to stop there in this post in order to keep things simple.)
+Two pieces factor in here. First, how large a territory can you claim? This is about elbow room, as in the diagram above. Second, what’s the density of useful problems within this region of skill-space? The table tennis/sprinting space doesn’t have a whole lot going on. Statistics and gerontology sounds more promising. Cryptography and monetary economics is probably a particularly rich Pareto frontier these days. (And of course, we don’t need to stop at two {--{"author":"Luc's AI","timestamp":1788540689105}@@dimensions - but--}{++{"author":"Luc's AI","timestamp":1788540689105}@@dimensions—but++} we’re going to stop there in this post in order to keep things simple.)
 
-## Dimensionality
+## Dimensionality ^dimensionality
 
 One problem with this whole GEM-vs-Pareto concept: if chasing a Pareto frontier makes it easier to circumvent GEM and gain a big windfall, then why doesn’t everyone chase a Pareto frontier? Apply GEM to the entire system: why haven’t people already picked up the opportunities lying on all these Pareto frontiers?
 
