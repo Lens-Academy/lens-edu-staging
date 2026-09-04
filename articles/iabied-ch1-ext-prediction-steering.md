@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is a companion/expansion piece for Chapter 1 of *If Anyone Builds It, Everyone Dies*; it presumes the book's core "intelligence as prediction and steering" framing and previews ideas (utility functions, the VNM theorem, goal alignment) developed further in later chapters, so it may read best alongside or after that chapter.
 
 %%
 If you ask a wise physicist what an engine is, they might start by pointing at a rocket engine, a combustion engine, and a hamster wheel, and say, "Those are all engines," and then point at a rock and say, "But that is not."
