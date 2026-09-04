@@ -56,7 +56,7 @@ required:: true
 
 #### Question
 key:: universities
-content:: Universities studied or working at. (Include a few if needed.)
+content:: Universities studied or working at. (You can add multiple).)
 required:: true
 
 #### Choice
