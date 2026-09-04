@@ -4,7 +4,7 @@ title: "2.3.1 Observable signatures of undeclared AI development"
 tldr: "A covert training site leaks like a hidden factory: a footprint from orbit, a rooftop where snow never settles, a power line you cannot bury quietly, a GPU import spike, a hiring wave. Learn what each signature can honestly establish, its main caveat, and which of seven collection disciplines picks it up."
 summary_for_tutor: "Imported from XLab's Verification curriculum; a ten-minute reading with no questions. It catalogues the observable signatures of undeclared frontier-AI development (overhead imagery, thermal, energy and the power grid, procurement and financial intelligence, open sources), each with what it establishes and its caveat, sorts them into four families (facility, resource-flow, organizational, operational), and ends with the collection map: seven intelligence disciplines (OSINT, HUMINT, SIGINT, CYBER, IMINT, GEOINT, MASINT) rendered as collapsed callouts with what each picks up and its characteristic limit. Keep the identify/resolve distinction in view: intelligence identifies, the regime resolves. If the learner asks about a signature, press the standing red-team question: would it survive an adversary who knows it is being watched? The Unfinished writing callout is XLab's own note about parts not yet built; do not invent that content."
 tags: [wip]
-duration_minutes: 10
+duration_minutes: {--{"author":"Elias's AI","timestamp":1788520427099}@@10--}{++{"author":"Elias's AI","timestamp":1788520427099}@@25++}
 ---
 #### Text
 content::
