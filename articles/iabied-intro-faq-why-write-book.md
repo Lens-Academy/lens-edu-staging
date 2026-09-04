@@ -8,8 +8,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -17,7 +23,7 @@ Add discussion note here:
 
 %%
 
-#### Because the situation seems genuinely serious and urgent.
+#### Because the situation seems genuinely serious and urgent. ^because-the-situation-seems-genuinely-serious-and-urgent
 
 If you carefully consider a topic, you can sometimes see one of history's zigs or zags coming.
 
