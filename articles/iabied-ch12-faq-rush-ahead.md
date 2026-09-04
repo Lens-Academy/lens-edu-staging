@@ -7,12 +7,18 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This entry rebuts the "safety through a friendly first-mover" argument: since no one currently knows how to reliably align a superintelligence, the identity or intentions of whoever builds it first don't change the outcome. Useful to pair with the Chapter 11 FAQ on AI engineers' scientific maturity when discussing competitive/race dynamics.
 
 %%
 #### No.
