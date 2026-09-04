@@ -1231,10 +1231,10 @@ A core problem here is that there is no simple way to deduce an AI chip’s rate
 | {--{"author":"Elias's AI","timestamp":1788521865010}@@--- | --- | --- |
 | --}_Option B:_ Estimate hardware FLOP from measurements, and cap the allowed hardware FLOP per model FLOP. | Conservatively estimate _hardware OP_ based on analog measurements. | $\text{Hardware-OP accounted for }=$ $\text{Declared\ model\ OP}\cdot\frac{\text{HFU}}{\text{MFU}}$, where _Declared Model OP_ are verified via Subgoal 1.A, and $\frac{HFU}{MFU}$ is estimated conservatively (i.e., low, an estimate of 1 being most conservative). |
 | {--{"author":"Elias's AI","timestamp":1788521868451}@@--- | --- | --- |
-| --}_Option C:_ Check that workloads’ physical signatures are accounted for (i.e., do fine-grained workload classification). | Count the active AI _chip-hours_ (e.g., GPU-hours, TPU-hours). | $\text{Chip-hours accounted for }=\text{Chip-hours with an expected physical signature}$, where the expected physical signature corresponds to a workload verified in Subgoal 1.A, is measured with external sensors, and may consist of a power draw pattern over time, input/output bandwidth pattern over time, etc. |
+| --}_Option C:_ Check that workloads’ physical signatures are accounted for (i.e., do fine-grained workload classification). | Count the active AI _chip-hours_ (e.g., GPU-hours, TPU-hours). | $\text{Chip-hours accounted for }=\text{Chip-hours with an expected physical signature}$, where the expected physical signature corresponds to a workload verified in Subgoal 1.A, is measured with external sensors, and may consist of a power draw pattern over time, input/output bandwidth pattern over time, etc. |{--{"author":"Elias's AI","timestamp":1788521889434}@@
 | --- | --- | --- |
 |  |  |  |
-| --- | --- | --- |
+| --- | --- | --- |--}
 
 Table 13: Three implementation options for compute accounting via off-chip analog sensors.
 
