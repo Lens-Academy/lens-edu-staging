@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -16,7 +22,7 @@ Add discussion note here:
 
 %%
 
-#### AIs won't run on a human sense of novelty.
+#### AIs won't run on a human sense of novelty. ^ais-wont-run-on-a-human-sense-of-novelty
 
 A common objection we hear is: Suppose that an AI were just trying to make as many tiny titanium cubes as possible. Wouldn't the AI get *bored* of that eventually?
 
