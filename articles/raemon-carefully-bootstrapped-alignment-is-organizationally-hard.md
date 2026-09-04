@@ -1,15 +1,21 @@
 ---
-title: "Carefully Bootstrapped Alignment is organizationally hard"
+title: "\"Carefully Bootstrapped Alignment\" is organizationally hard"
 source_url: "https://www.lesswrong.com/posts/thkAtqoQwN6DtaiGT/carefully-bootstrapped-alignment-is-organizationally-hard"
 author:
   - "Raemon"
 published: 2023-03-17
 created: 2026-02-27
-description: "The plan of \"use AI to help us navigate superintelligence\" is not just technically hard, but organizationally hard. If you're building AGI, your comp…"
+description: "In addition to technical challenges, plans to safely develop AI face lots of organizational challenges. If you're running an AI lab, youneed a  concrete plan for handling that."
 tags:
   - "obsidian-web-clipper"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -165,7 +171,7 @@ I think the actual "next actions" here are pretty context dependent. 
 
 If you work at an AI company, read this post and are like "This seems important, but I don't really know what to do about this. There are too many things on my plate to focus on this, or there's too many obstacles to make progress", I'm interested in chatting with you about the details of the obstacles. 
 
-If you work at an AI company and are like "I dunno. *Maybe* there's something here, but I'm skeptical", I'm interested in talking with you about that and getting a sense of what your [cruxes](https://crux%20about%20b.%20e.g.,%20my%20cruxes%20for%20"it's%20raining/) are.
+If you work at an AI company and are like "I dunno. *Maybe* there's something here, but I'm skeptical", I'm interested in talking with you about that and getting a sense of what your {--{"author":"Luc's AI","timestamp":1788542682115}@@[cruxes](https://crux%20about%20b.%20e.g.,%20my%20cruxes%20for%20"it's%20raining/)--}{++{"author":"Luc's AI","timestamp":1788542682115}@@[cruxes](https://Crux%20about%20B.%20E.g.,%20my%20cruxes%20for%20"it's%20raining)++} are.
 
 If you *don't* work at an AI company but are working on a fairly significant project to have an affect on this space (i.e. coming at this more from a perspective of regulation rather than internal culture/practices), I'm interested in chatting about how I think culture/practices fit in with other aspects of this domain.
 
