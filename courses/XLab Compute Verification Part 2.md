@@ -15,22 +15,22 @@ intro-form:: true
 
 # Module: [[../modules/XLab Verification Part 2 W06 Hardware judgment and cloud records]]
 
-# Meeting: Hardware Maturity and Cloud Records
+# Meeting: Week 6: Hardware judgment and cloud records
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../modules/XLab Verification Part 2 W07 Cloud limits and intelligence]]
 
-# Meeting: Where Cloud Oversight Ends, and What Intelligence Sees
+# Meeting: Week 7: Cloud limits and intelligence
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification Part 2 W08 The human layer]]
 
-# Meeting: People, Institutions, and the Standard of Proof
+# Meeting: Week 8: The human layer
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification Part 2 W09 Covert development and the low-trust architecture]]
 
-# Meeting: Covert Development and the Architecture Review
+# Meeting: Week 9: Covert development and the low-trust architecture
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification Part 2 W10 Evasion routes and the red team review]]
