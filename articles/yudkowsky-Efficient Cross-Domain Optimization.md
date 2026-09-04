@@ -6,19 +6,25 @@ author:
 published: 2008-10-28
 created: 2026-04-12
 description: "Previously in series:  Measuring Optimization Power …"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+Part of Yudkowsky's 2008 "optimization" sequence on LessWrong; the "efficient cross-domain optimization" framing here is foundational to later discussions of AI capability and alignment on the site, but the essay predates and does not engage with subsequent formalizations of "optimization power" (e.g. via causal/counterfactual accounts).
 
 %%
 
 **Previously in series**: [Measuring Optimization Power](https://www.lesswrong.com/lw/va/measuring_optimization_power)
-
+{--{"author":"Luc's AI","timestamp":1788541043648}@@
 hello world
-
+--}
 Is Deep Blue "intelligent"? It was powerful enough at optimizing chess boards to defeat Kasparov, perhaps the most skilled chess player humanity has ever fielded.
 
 A bee builds hives, and a beaver builds dams; but a bee doesn't build dams and a beaver doesn't build hives. A human, watching, thinks, "Oh, I see how to do it" and goes on to build a dam using a honeycomb structure for extra strength.
