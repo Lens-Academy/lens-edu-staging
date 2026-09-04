@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ entry previews arguments the book develops later: the difficulty of "robust laziness" (Chapter 5) and the near-impossibility of corrigibility (Chapter 5). Useful discussion prompt: the Grok "MechaHitler" and Gemini "diverse Nazis" incidents are offered as real-world evidence that even simple, deliberate steering instructions produce unintended and hard-to-predict behavior — worth asking students whether they find these examples persuasive analogues for harder alignment failures.
 
 %%
 
