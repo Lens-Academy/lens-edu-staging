@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -16,7 +22,7 @@ Add discussion note here:
 
 %%
 
-#### What horses remain, remain because we like them.
+#### What horses remain, remain because we like them. ^what-horses-remain-remain-because-we-like-them
 
 Having the same fate that horses had at the start of the 20th century — the same catastrophic collapse in population and massive upsurge in death, destroying [upwards of 80 percent of the horse population](https://datapaddock.com/usda-horse-total-1850-2012) from its peak around 1910 — would be the worst thing that has happened in human history. And that was in a world where horses continued to be economically useful for some farm work, as well as for sports and novelty experiences to sell to rich people.
 
@@ -28,6 +34,6 @@ But yes, some horses survived. A small number continued to be useful. Others wer
 
 For humans to stick around in a world where we rushed into unleashing superintelligent AI, we would either need to stay useful to the AI or have the AI care about us in particular.
 
-But we can't stay useful, because AIs can (from their perspective) get more use out of our matter and energy by rearranging us into any number of more efficient configurations. Technological progress unlocks many newoptions for a superintelligence; it won't just be stuck relying on humans.
+But we can't stay useful, because AIs can (from their perspective) get more use out of our matter and energy by rearranging us into any number of more efficient configurations. Technological progress unlocks many {--{"author":"Luc's AI","timestamp":1788529899883}@@newoptions--}{++{"author":"Luc's AI","timestamp":1788529899883}@@new options++} for a superintelligence; it won't just be stuck relying on humans.
 
 So it all comes down to whether the AIs care about us — and they're unlikely to care about us [even a small amount](https://ifanyonebuildsit.com/5/wont-ais-care-at-least-a-little-about-humans), if we race to superintelligence as fast as we can.
