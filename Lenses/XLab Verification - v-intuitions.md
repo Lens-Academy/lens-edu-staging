@@ -278,6 +278,7 @@ Questions to consider:
 - Where is your scenario most fragile, and what development would most likely force you to redesign it?
 
 Keep this essay. You will return to it at the end of the track and see what, if anything, you would now change. (500 to 800 words)
+assessment-instructions:: Any success scenario is admissible; score whether it is specified well enough that the learner could later notice it going wrong. Four things, 25 points each: (1) the answer says what would make the outcome a success and which risks or tradeoffs remain acceptable inside it, so the bar is stated rather than assumed; (2) the agreement or institutional settlement that sustains the outcome is named, along with the actors whose participation it needs and the hardest coordination problem among them; (3) what verification must establish with high confidence is separated from where the regime can tolerate residual uncertainty; (4) the scenario's own fragility is stated, the technological and geopolitical assumptions it leans on hardest and the development that would force a redesign. Penalise a description of a good world with no institution or mechanism holding it there. No generic praise.
 feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 optional:: true
 
