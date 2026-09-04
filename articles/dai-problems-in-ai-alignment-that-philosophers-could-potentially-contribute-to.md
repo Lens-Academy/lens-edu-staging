@@ -9,8 +9,14 @@ accessed: 2026-06-21
 description: "(This was originally a comment that I wrote as a follow up to my question for William MacAskill's AMA. I'm moving it since it's perhaps more on-topic…"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
