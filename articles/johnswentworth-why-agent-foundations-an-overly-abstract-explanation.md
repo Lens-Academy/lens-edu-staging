@@ -9,6 +9,13 @@ accessed: 2026-08-21
 description: "Let’s say you’re relatively new to the field of AI alignment. You notice a certain cluster of people in the field who claim that no substantive progress is likely to be made on alignment without first solving various foundational questions of agency. These sound like a bunch of weird pseudophilosophical questions, like “what does it mean for some chunk of the world to do optimization?”, or “how does an agent model a world bigger than itself?”, or “how do we ‘point’ at things?”, or in my case “how does abstraction work?”. You feel confused about why otherwise-smart-seeming people expect these weird pseudophilosophical questions to be unavoidable for engineering aligned AI. You go look for an explainer, but all you find is bits and pieces of worldview scattered across many posts, plus one post which does address the question but does so entirely in metaphor. Nobody seems to have written a straightforward explanation for why foundational questions of agency must be solved in order to significantly move the needle on alignment."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
 %%
 Add discussion note here:
