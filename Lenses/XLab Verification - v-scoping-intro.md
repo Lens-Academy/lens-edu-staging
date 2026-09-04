@@ -4,7 +4,7 @@ title: "1.0 Introduction: what kind of policy are we trying to verify?"
 tldr: "A goal like 'prevent premature ASI' cannot be inspected. A treaty turns it into a rule, and a rule into a claim someone can check: who did what, with which objects, under which conditions. Learn the four ingredients, watch Iraq slip through the gap between rule and claim, and meet the five kinds of agreement a verifier might be asked to police."
 summary_for_tutor: "Reading-only lens, no questions. Opens with the module objectives, then teaches the goal, legal rule, verification claim ladder; the four ingredients of a claim (actors, objects, activities, conditions); rules and claims as proxies that Goodhart's Law erodes; the NPT and Iraq example of a claim that missed undeclared material; and the Oxford AIGI taxonomy of five candidate agreement types with their risk-reduction versus cost trade. If the learner asks, help them decompose any policy into the three layers and four ingredients. Do not require agreement with the source."
 tags: [wip]
-duration_minutes: 5
+duration_minutes: {--{"author":"Elias's AI","timestamp":1788520381312}@@5--}{++{"author":"Elias's AI","timestamp":1788520381312}@@10++}
 ---
 #### Text
 content::
