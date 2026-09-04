@@ -4,14 +4,20 @@ author:
   - "Alex Mallen"
   - "Buck Shlegeris"
 source_url: "https://www.lesswrong.com/posts/FeaJcWkC6fuRAMsfp/the-behavioral-selection-model-for-predicting-ai-motivations-1"
-published: 2026-05-27
+published: 2025-12-04
 created: 2026-07-02
 accessed: 2026-07-02
 description: "Highly capable AI systems might end up deciding the future. Understanding what will drive those decisions is therefore one of the most important questions we can ask. Many people have proposed different answers. Some predict that powerful AIs will learn to intrinsically pursue reward. Others respond by saying reward is not the optimization target, and instead reward “chisels” a combination of context-dependent cognitive patterns into the AI. Some argue that powerful AIs might end up with an almost arbitrary long-term goal."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -279,5 +285,3 @@ Sometimes behaviors are best explained by cultural/memetic selection pressures. 
 [^note-greaterwrong-19]: Other notions of simplicity are discussed in Carlsmith.
 [^cite-greaterwrong-20]: I list some more (still not exhaustive) possibilities for held-out oversight signals here: Developers might honeypot models and use [alignment auditing agents](https://alignment.anthropic.com/2025/automated-auditing/); they might look at [chains of thought](https://arxiv.org/abs/2507.11473); they might use monitors in production usage; they might improve the quality of their oversight during the course of training, so that they are able to notice new reward-hacks as training goes on; they might be able to make inferences based on training dynamics or by extrapolating from smaller-scale experiments; they might use “honest tests”, which I’ll mention later.
 [^note-greaterwrong-21]: I also think it’s quite plausible that selection pressures produce powerful AIs that nonetheless have out-of-touch models of the consequences of their actions. E.g., when an aligned AI gets a suboptimal reward for not hardcoding an answer to an erroneous test case, SGD might _not_ update it to want to hardcode answers to test cases, but instead to believe that hardcoding answers to test cases is what the developers wanted. These two hypotheses make different predictions about generalization behavior, e.g., in cases where developers convince the AI that they don’t want hardcoded outputs.
-[^note-greaterwrong-22]: People often express confusion about how reward-seekers will behave in deployment. Supposing the AI solely seeks “reward on the episode”, what does it do when “reward on the episode” doesn’t appear in its model of the world? I think there is genuine ambiguity about how reward-seekers (and fitness-seekers more broadly) behave in deployment, but we can make some predictions.
-[^note-greaterwrong-23]: One case is what I call the “wireheader,” which cares about _activation patterns correlated with_ causes of deployment influence. This is neither a cause nor a consequence of selection. Instead, the wireheader’s internal proxies were tied to selection by training (analogous to the role of valenced emotions like happiness in humans), so it therefore behaves similarly to other fitness-seekers overall, but has some different behaviors (e.g. it would choose to enter [the experience machine](https://en.wikipedia.org/wiki/Experience_machine)).
