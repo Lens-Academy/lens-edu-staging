@@ -10,8 +10,14 @@ accessed: 2026-08-10
 description: "Takes the method of asking experts what fraction of the way to AGI the field has come, and works out what the resulting timelines and resource requirements would have to be."
 tags:
   - "hand-imported-from-lw-corpus"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 _This post was written by Mark Xu based on interviews with Carl Shulman. It was paid for by Open Philanthropy but is not representative of their views. A draft was sent to Robin Hanson for review but received no response._
 
 # Summary
