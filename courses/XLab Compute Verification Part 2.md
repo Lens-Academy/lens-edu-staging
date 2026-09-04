@@ -8,7 +8,7 @@ partner-url: https://aisafetytracks.com/verification/landing
 tags: [wip]
 ---
 %% Source curriculum: https://aisafetytracks.com/tracks/verification (repo: https://github.com/XLabTracks/tracks) %%
-%% Weeks 6 to 11 of the ten-week recut of XLab Compute Verification. Weeks 1 to 5 are the first course; the capstone project is a third course. XLab's module 3 is split across two weeks here because its five lenses total 460 minutes: week 9 is the Cankaya close reading alone (210), week 10 the four restored evasion lessons (250). No meeting-doc-template is linked: the existing docs assume the old five-module shape. %%
+%% Weeks 6 to 10 of the recut of XLab Compute Verification. Weeks 1 to 5 are the first course; the capstone is a third course and carries v-capstone-together and v-capstone-feasibility. XLab's module 3 is split across weeks 9 and 10 here because its five lenses total 460 minutes: week 9 opens with the covert-development framing lens and then the Cankaya close reading (245), week 10 runs the evasion material and the red team review (215). No meeting-doc-template is linked: the existing docs assume the old five-module shape. %%
 
 # Module: [[../modules/XLab Verification Part 2 Overview]]
 intro-form:: true
