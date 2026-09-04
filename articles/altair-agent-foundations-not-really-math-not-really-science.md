@@ -8,8 +8,14 @@ created: 2026-02-27
 description: "These ideas are not well-communicated, and I'm hoping readers can help me understand them better in the comments. …"
 tags:
   - "obsidian-web-clipper"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -41,7 +47,7 @@ One thing that makes agent foundations different from science is that **we're tr
 
 With normal science, there's a phenomenon that we observe, and what we want is to figure out the underlying laws. With AI systems, it's more accurate to say that **we know the underlying laws** (such as the mathematics of computation, and the "initial conditions" of learning algorithms) **and we're trying to figure out what phenomena will occur** (e.g. what fraction of them will undergo instrumental convergence).
 
-So, I don't think that what we're lacking is data or information about the nature of agents -- **we're lacking** ***understanding*** **of the information we already have.** The reason I'm not thinking about experiments is because I don't feel any pull toward gaining more information of that type. I'm not confused in a way where looking at something in the territory will resolve my confusion. I believe the answers to my research questions are already contained within what we know, in the same way that the truth-value of conjectures is already contained within the logic, axioms, and definitions.
+So, I don't think that what we're lacking is data or information about the nature of {--{"author":"Luc's AI","timestamp":1788523878672}@@agents -- **we're--}{++{"author":"Luc's AI","timestamp":1788523878672}@@agents—**we're++} lacking** ***understanding*** **of the information we already have.** The reason I'm not thinking about experiments is because I don't feel any pull toward gaining more information of that type. I'm not confused in a way where looking at something in the territory will resolve my confusion. I believe the answers to my research questions are already contained within what we know, in the same way that the truth-value of conjectures is already contained within the logic, axioms, and definitions.
 
 If we were trying to figure out chemistry and material science, then we absolutely would need tons of information, because our everyday observations are simply insufficient information to pin down the true theory of matter. There are tons of ways that the underlying laws of physics of stuff could be, and you can't simply figure it out by thinking about it.
 
