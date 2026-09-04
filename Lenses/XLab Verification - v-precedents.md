@@ -8,6 +8,10 @@ duration_minutes: 75
 ---
 #### Text
 content::
+:::callout {title="By the end of this module, you will be able to:" tone="blue"}
+Reconstruct the causal logic of a historical verification regime, from what it observes to the compliance judgement it licenses, and determine which parts of that logic transfer to AI treaty verification and which do not.
+:::
+
 \### Document 1. The Object and Scope of IAEA Safeguards
 
 The following excerpts describe the legal commitment underlying comprehensive safeguards and the object against which compliance is assessed.
