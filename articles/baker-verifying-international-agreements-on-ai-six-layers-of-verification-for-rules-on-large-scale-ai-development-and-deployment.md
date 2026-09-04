@@ -1058,10 +1058,10 @@ Background: A Verifier may wish to verify that a declared workload was actually 
 | --}Requiring consistency with empirical trends | The norm of the weight changes lacks abrupt jumps (Choi et al., [2023](https://arxiv.org/html/2507.15916v2#bib.bib34)) | ✓ | X |   |
 |{--{"author":"Elias's AI","timestamp":1788522731496}@@ --- | --- | --- | --- | --- |
 |--}  | Models memorize the data most recently trained on (Choi et al., [2023](https://arxiv.org/html/2507.15916v2#bib.bib34)) | ✓ | X |   |
-| --- | --- | --- | --- | --- |
-|  | The performance of model checkpoints fits the functional form of AI scaling laws (Kaplan et al., [2020](https://arxiv.org/html/2507.15916v2#bib.bib114); Hoffmann et al., [2022](https://arxiv.org/html/2507.15916v2#bib.bib98); Villalobos, [2023](https://arxiv.org/html/2507.15916v2#bib.bib220)) | ✓ | X | X |
-| --- | --- | --- | --- | --- |
-|  | Most gradients generated in training are not highly similar to each other[^note-baker-108] | ✓ | X |   |
+|{--{"author":"Elias's AI","timestamp":1788522735462}@@ --- | --- | --- | --- | --- |
+|--}  | The performance of model checkpoints fits the functional form of AI scaling laws (Kaplan et al., [2020](https://arxiv.org/html/2507.15916v2#bib.bib114); Hoffmann et al., [2022](https://arxiv.org/html/2507.15916v2#bib.bib98); Villalobos, [2023](https://arxiv.org/html/2507.15916v2#bib.bib220)) | ✓ | X | X |
+|{--{"author":"Elias's AI","timestamp":1788522738542}@@ --- | --- | --- | --- | --- |
+|--}  | Most gradients generated in training are not highly similar to each other[^note-baker-108] | ✓ | X |   |
 | --- | --- | --- | --- | --- |
 | Sensitivity and cross-system analyses | Perturbing or replacing a component (e.g., weights, data, training algorithm) has the expected effects | ✓ | ✓ | ✓ |
 | --- | --- | --- | --- | --- |
