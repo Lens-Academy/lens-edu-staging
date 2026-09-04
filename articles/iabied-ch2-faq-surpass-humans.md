@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -29,7 +35,7 @@ We've been fortunate enough to have direct observational evidence of both points
 
 This doesn't look to us like a world where human data is the key limitation, compared to the real limitations being things like the AI's architecture, or the amount of computation it's able to use before playing.
 
-Students can exceed their masters.
+Students can exceed their masters.[^note-exceed-their-masters]
 
 #### Perhaps by whatever other method works. Success often requires such skills, so gradient descent will find them.
 
@@ -43,10 +49,10 @@ It doesn't matter that Brahe never managed to figure out that law of nature. The
 
 If you kept training and training and training that AI until it was doing better and better and better at predicting what Brahe would write down in the late 1500s, that AI would have every reason to develop scientific insights that Brahe never could. An AI will do *better at its task of predicting humans* if it becomes smarter than the humans it's predicting, because sometimes the humans write down records of phenomena that they themselves cannot perfectly predict.
 
-There's a separate question of whether modern architectures and training processes and data are *enough*for AIs to exceed their teachers. Modern LLMs look like they're not quite there yet. But there's no theoretical impediment to the very idea of exceeding your teacher. Training an AI on predicting humans is enough to let it surpass us, in principle*.*
+There's a separate question of whether modern architectures and training processes and data are {--{"author":"Luc's AI","timestamp":1788523478414}@@*enough*for--}{++{"author":"Luc's AI","timestamp":1788523478414}@@*enough* for++} AIs to exceed their teachers. Modern LLMs look like they're not quite there {--{"author":"Luc's AI","timestamp":1788523478414}@@yet.--}{++{"author":"Luc's AI","timestamp":1788523478414}@@yet.[^note-not-quite-there-yet]++} But there's no theoretical impediment to the very idea of exceeding your teacher. Training an AI on predicting humans is enough to let it surpass us, in principle*.*
 
-#### Notes
+{--{"author":"Luc's AI","timestamp":1788523478414}@@#### Notes
 
-[1] *exceed their masters:* Since drafting this answer in early 2025, signs have already emerged that modern AIs can [do novel mathematical work](https://x.com/SebastienBubeck/status/1958198661139009862?t=g_GKty7CZ525HV78YKzR-w) and [outperform human mathematicians](https://x.com/mathematics_inc/status/1966194751847461309) in some ways. You could say that these AIs are just learning human techniques and then applying them more consistently or more tenaciously or faster, but, well, that's one way that students can exceed their masters, if the skills they're learning are sufficiently flexible and general. The skills that AIs learn as we write this don't quite seem general enough for them to beat the best humans at the most visionary research, but the AIs are certainly crossing lines that used to be considered important.
+[1] --}{++{"author":"Luc's AI","timestamp":1788523478414}@@[^note-exceed-their-masters]: ++}*exceed their masters:* Since drafting this answer in early 2025, signs have already emerged that modern AIs can [do novel mathematical work](https://x.com/SebastienBubeck/status/1958198661139009862?t=g_GKty7CZ525HV78YKzR-w) and [outperform human mathematicians](https://x.com/mathematics_inc/status/1966194751847461309) in some ways. You could say that these AIs are just learning human techniques and then applying them more consistently or more tenaciously or faster, but, well, that's one way that students can exceed their masters, if the skills they're learning are sufficiently flexible and general. The skills that AIs learn as we write this don't quite seem general enough for them to beat the best humans at the most visionary research, but the AIs are certainly crossing lines that used to be considered important.
 
-[2] *not quite there yet:* For example, studies into LLMs trained on orbital trajectories [show](https://arxiv.org/abs/2507.06952) that they fail to apply Newtonian mechanics.
+{--{"author":"Luc's AI","timestamp":1788523478414}@@[2]--}{++{"author":"Luc's AI","timestamp":1788523478414}@@[^note-not-quite-there-yet]:++} *not quite there yet:* For example, studies into LLMs trained on orbital trajectories [show](https://arxiv.org/abs/2507.06952) that they fail to apply Newtonian mechanics.
