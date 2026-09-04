@@ -4,7 +4,7 @@ title: "2.3.5 From intelligence lead to verification action"
 tldr: "You have a lead. Now act like a regime that wants to survive its first ambiguous case: compare against declarations, escalate one rung at a time, and write down what you could not resolve. Then take a pencil to the MIRI draft's NTM article as a negotiator would and red-line it for both capitals."
 summary_for_tutor: "Imported from XLab's Verification curriculum. A short reading (compare against declarations; the escalation ladder of tasking more collection, seeking corroboration, triggering an audit or challenge inspection; recording confidence, dissent and unresolved blind spots), followed by the module's peer-reviewed written output: red-line the NTM article (about 700 words). The learner works from the treaty text quoted in 2.3.4: item 17 of MIRI's Article II definitions plus Article X ¶1(b)(i) to (iii), the noninterference, no-deliberate-concealment and encouraged-but-not-obligated cooperation clauses. They then mark at least three gaps, redraft one provision, write or defend the absence of a sharing clause, test it against the rule that states sign what is symmetric, cheap and checkable, and end with one paragraph each on why Washington and Beijing accept it. Assess on the five listed criteria. Expect the discovery that noninterference is easy and drafting dies on sharing; do not hand it to the learner before they write. The Unfinished writing callout is XLab's own note that this task is proposed but not settled."
 tags: [wip]
-duration_minutes: {--{"author":"Elias's AI","timestamp":1788520434969}@@90--}{++{"author":"Elias's AI","timestamp":1788520434969}@@60++}
+duration_minutes: 60
 ---
 #### Text
 content::

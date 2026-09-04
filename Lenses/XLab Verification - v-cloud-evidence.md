@@ -4,7 +4,7 @@ title: "2.2.4 Interpreting cloud evidence"
 tldr: "Nine short drills on one habit: reading a cloud record for exactly what it proves. A billing line, a KYC file, a power curve: each supports one conclusion and tempts you toward three more. Practice stopping at the first."
 summary_for_tutor: "Problem-set lens adapted from XLab lesson 2.2.4, a native reproduction of XLab's nine-task cloud-evidence drill. Tasks: six true or false statements; odd one out plus a one-sentence principle; select all available data categories; four matching questions (observable to strongest conclusion); a fill-the-gaps verification map; ordering the six stages of the Egan and Heim KYC scheme; naming four mechanisms; a case (qualify the evidence, multi-select); and a permissible-inference question. XLab's explanations sit in closed 'Why' callouts after each task and in the feedback instructions. Answers come from Heim et al. (2024), Egan and Heim (2023), Moon et al. (2025) and Tan (2026), read in lenses 2.2.1 to 2.2.3. When giving feedback, hold the learner to the qualifiers in each prompt: what the stated access and evidence support, and nothing beyond it."
 tags: [wip]
-duration_minutes: {--{"author":"Elias's AI","timestamp":1788520422522}@@30--}{++{"author":"Elias's AI","timestamp":1788520422522}@@40++}
+duration_minutes: 40
 ---
 #### Text
 content::

@@ -4,7 +4,7 @@ title: "1.1 Anatomy of a (pause) agreement"
 tldr: "Read a treaty the way a mechanic reads an engine: find where 'should' turns into 'shall', which article does the prohibiting, where the verification method is hidden, and how a party gets out. Then practise on MIRI's draft ASI agreement, and optionally sort thirteen real and fictional clauses onto the seven organs every binding agreement has."
 summary_for_tutor: "Structure: a short reading of the Swiss Practice Guide to International Treaties (structure, interpretation, model final clauses), a collapsed aside with the Texas Legislative Council's statute-reading tips (the Article segment that follows the callout is that excerpt), then the assignment: four questions on MIRI's draft agreement (the linked optional paper lens); XLab asks for any 3 of the 4, so all four are optional here. Then the optional Anatomy Drill: thirteen specimen texts, each placed on one of seven organs (rule, claims, evidence, confidentiality bargain, adversary, institution and consequences, gap) or the No-organ bin for advocacy; each specimen carries XLab's verdict, its near-miss notes, and its source (sources are revealed after answering, so do not name a specimen's source before the learner commits); a closing priority pick with no right answer; and the full text of the fictional Reykjavik Protocol. When assessing treaty answers, ask for quotations from the text and attention to verbs (shall, may, must)."
 tags: [wip]
-duration_minutes: {--{"author":"Elias's AI","timestamp":1788520389522}@@55--}{++{"author":"Elias's AI","timestamp":1788520389522}@@90++}
+duration_minutes: 90
 ---
 #### Text
 content::
@@ -23,7 +23,7 @@ Review the following sections:
 - **Page 42 — Interpretation:** Articles 31–33 of the Vienna Convention and the order in which the principal interpretative methods are applied — ordinary meaning, context, and the treaty’s object and purpose;
 - **Annex E, page 47 — Model final clauses:** complete examples of provisions on signature, ratification, accession, and entry into force.
 
-{++{"author":"Elias's AI","timestamp":1788518948245}@@The three excerpts follow.
+The three excerpts follow.
 
 #### Article
 source:: [[../articles/schenker-practice-guide-to-international-treaties]]
@@ -42,7 +42,7 @@ to:: <sup>157</sup> Taken from the Treaty on Mutual Legal Assistance in Criminal
 
 #### Text
 content::
-++}:::callout {title="Reading the Treaty Taking Too Long?" tone="neutral" collapse="closed"}
+:::callout {title="Reading the Treaty Taking Too Long?" tone="neutral" collapse="closed"}
 Read **Look for key verbs** twice. It is question 1 of this unit, in the drafters’ own words.
 
 \### [Reading Statutes and Bills](https://tlc.texas.gov/docs/legref/readingabill.pdf)
@@ -578,14 +578,12 @@ content::
 Texas Legislative Council, Research Division. *Reading Statutes and Bills*. 85th Legislature. [tlc.texas.gov](https://tlc.texas.gov/docs/legref/readingabill.pdf)
 *A drafting office's short guide to reading legal text: how codes and statutes are organised, the parts of a statute and of a bill, tips for reading each, and three practice exercises.*
 
-{++{"author":"Elias's AI","timestamp":1788518518996}@@Schenker, Claude. *Practice Guide to International Treaties*. Directorate of International Law, Swiss Federal Department of Foreign Affairs, 2023. [eda.admin.ch](https://www.eda.admin.ch/content/dam/eda/en/documents/publications/Voelkerrecht/Practice-Guide-to-International-Treatie-2023_EN.pdf)
+Schenker, Claude. *Practice Guide to International Treaties*. Directorate of International Law, Swiss Federal Department of Foreign Affairs, 2023. [eda.admin.ch](https://www.eda.admin.ch/content/dam/eda/en/documents/publications/Voelkerrecht/Practice-Guide-to-International-Treatie-2023_EN.pdf)
 *The Swiss drafting office's handbook: how a treaty is structured, how it is interpreted under the Vienna Convention, and model final clauses on signature, ratification, accession, entry into force, and withdrawal.*
 
-++}Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *arXiv*, Nov. 2025. [arxiv.org](https://arxiv.org/abs/2511.10783)
+Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *arXiv*, Nov. 2025. [arxiv.org](https://arxiv.org/abs/2511.10783)
 *MIRI's draft international agreement to prevent the premature creation of artificial superintelligence, the treaty text several lessons read against.*
 
 XLab. "1.1 Anatomy of a (pause) agreement." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-anatomy)
-*The source lesson this page adapts, including the treaty assignment and the Anatomy Drill.*{--{"author":"Elias's AI","timestamp":1788518525660}@@
-
-The Swiss Practice Guide to International Treaties is cited inline above; XLab's citation registry holds it only as a pending entry without bibliographic fields.--}
+*The source lesson this page adapts, including the treaty assignment and the Anatomy Drill.*
 :::

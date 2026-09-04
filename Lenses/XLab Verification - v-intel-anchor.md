@@ -4,7 +4,7 @@ title: "2.3.2 The empirical anchor: intelligence identifies, the regime resolves
 tldr: "Four times the IAEA investigated an undeclared nuclear facility. Three of those investigations started with a national intelligence tip, and none started with safeguards. That is the whole division of labour in one sentence: intelligence finds the lead, the treaty machinery resolves it. Read for the fine print that keeps the finding honest."
 summary_for_tutor: "Imported from XLab's Verification curriculum; a five-minute reading with no questions. It states the module's empirical anchor from Baker (2023), Appendix E: of Iraq, North Korea, Iran and Syria, three IAEA investigations began with national intelligence tips and none through safeguards alone. It lists where undeclared activity can hide, then two caveats (the cases mostly predate Additional Protocols; intelligence evidence is suggestive but not decisive or internationally credible) and the falsifiability of cover stories. The Unfinished writing callout is XLab's own note that the case briefs, essay task and prompt randomizer are not yet written; do not improvise them. If the learner asks about the cases, stay with what Baker's appendix supports."
 tags: [wip]
-duration_minutes: {--{"author":"Elias's AI","timestamp":1788520428865}@@5--}{++{"author":"Elias's AI","timestamp":1788520428865}@@10++}
+duration_minutes: 10
 ---
 #### Text
 content::

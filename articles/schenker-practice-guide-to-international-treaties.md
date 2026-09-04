@@ -2,8 +2,8 @@
 title: "Practice Guide to International Treaties"
 author:
   - "Claude Schenker"
-source_url: {--{"author":"Elias's AI","timestamp":1788518931344}@@"https://drive.usercontent.google.com/download?id=1OYx5orZtrq1kDMqp5nwPREqm2M8T9Vjn&export=download"--}{++{"author":"Elias's AI","timestamp":1788518931344}@@"https://www.eda.admin.ch/content/dam/eda/en/documents/publications/Voelkerrecht/Practice-Guide-to-International-Treatie-2023_EN.pdf"++}
-published: {--{"author":"Elias's AI","timestamp":1788518931344}@@2023-03-01--}{++{"author":"Elias's AI","timestamp":1788518931344}@@2023++}
+source_url: "https://www.eda.admin.ch/content/dam/eda/en/documents/publications/Voelkerrecht/Practice-Guide-to-International-Treatie-2023_EN.pdf"
+published: 2023
 created: 2026-09-04
 accessed: 2026-09-04
 llm-review:
@@ -1091,13 +1091,11 @@ termination of the treaty through desuetude (non-use over time), the emergence o
 
 ### F. Interpretation ^f-interpretation
 
-{--{"author":"Elias's AI","timestamp":1788518941047}@@- 194--}{++{"author":"Elias's AI","timestamp":1788518941047}@@<sup>194</sup>++} The interpretation aims to determine the precise meaning of a treaty provision. Articles 31 to 33 of the Vienna Convention, which contain reasonably detailed rules on the interpretation of treaties, are deemed customary law. Article 31 paragraph 1 stipulates that a treaty must be interpreted in good faith<sup>150</sup> in accordance with the ordinary meaning given to the terms of the treaty (literal interpretation) in their context (systematic) and in the light of its object and purpose (teleological<sup>151</sup>). The importance of the subsequent practice of the parties should also be underlined (Art. 31 para. 3 VCLT).{--{"author":"Elias's AI","timestamp":1788518941047}@@
-- 195 --}{++{"author":"Elias's AI","timestamp":1788518941047}@@
+<sup>194</sup> The interpretation aims to determine the precise meaning of a treaty provision. Articles 31 to 33 of the Vienna Convention, which contain reasonably detailed rules on the interpretation of treaties, are deemed customary law. Article 31 paragraph 1 stipulates that a treaty must be interpreted in good faith<sup>150</sup> in accordance with the ordinary meaning given to the terms of the treaty (literal interpretation) in their context (systematic) and in the light of its object and purpose (teleological<sup>151</sup>). The importance of the subsequent practice of the parties should also be underlined (Art. 31 para. 3 VCLT).
 
-<sup>195</sup> ++}Consideration should firstly be given to the natural and ordinary meaning of the terms of the treaty. Where they have a clear and precise meaning according to their usual definition and general context at the time of the conclusion of the treaty, it is not necessary to deviate from their natural meaning and to use other means of interpretation.{--{"author":"Elias's AI","timestamp":1788518941047}@@
-- 196--}{++{"author":"Elias's AI","timestamp":1788518941047}@@
+<sup>195</sup> Consideration should firstly be given to the natural and ordinary meaning of the terms of the treaty. Where they have a clear and precise meaning according to their usual definition and general context at the time of the conclusion of the treaty, it is not necessary to deviate from their natural meaning and to use other means of interpretation.
 
-<sup>196</sup>++} Secondary and subsidiary status is therefore given to preparatory works (historical interpretation) and other supplementary means of interpretation (Art. 32 VCLT). Recourse to supplementary means should only be made for the purposes of confirmation or if the interpretation, based on the natural and ordinary meaning of the terms of the treaty, leads to results that are clearly different from those intended by the parties. The circumstances of the treaty's conclusion and the analysis of the joint will of the parties are part of these supplementary means.
+<sup>196</sup> Secondary and subsidiary status is therefore given to preparatory works (historical interpretation) and other supplementary means of interpretation (Art. 32 VCLT). Recourse to supplementary means should only be made for the purposes of confirmation or if the interpretation, based on the natural and ordinary meaning of the terms of the treaty, leads to results that are clearly different from those intended by the parties. The circumstances of the treaty's conclusion and the analysis of the joint will of the parties are part of these supplementary means.
 
 \* \* \*
 
