@@ -120,7 +120,7 @@ required:: true
 
 #### Question
 key:: proud_projects
-content:: Describe 1–3 projects you've done that you're most proud of (work-related is fine). Say exactly what you were responsible for. Prioritise being concise, concrete and showing outputs — links are great! (100–200 words.)
+content:: Describe 1–3 projects you've done that you're most proud of (work-related is fine). Say exactly what you were responsible for. Prioritise being concise, concrete and showing outputs — links are great! (100–200 words.) (Feel free to use voice-to-text to save your time.)
 max-chars:: 2000
 required:: true
 
