@@ -4,7 +4,9 @@ title: Navigator Session 1 Debrief
 ---
 
 #### Text
-content:: You just ran your first session, thank you! This is how we improve the run sheet, session structure and guidance week to week. Takes about five minutes.\n\nBe blunt: this is about fixing the system, not evaluating you. If something was broken, dense or confusing, that is the most useful thing you can tell us.
+content:: You just ran your first session, thank you! This is how we improve the run sheet, session structure and guidance week to week. Takes about five minutes.
+
+Be blunt: this is about fixing the system, not evaluating you. If something was broken, dense or confusing, that is the most useful thing you can tell us.
 
 #### Text
 content:: — The run sheet —
