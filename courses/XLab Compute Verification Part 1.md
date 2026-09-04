@@ -47,7 +47,9 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification P1 W4 Evidence and its readers]]
 
-# Meeting: Evidence, Its Readers, and What Makes a Mechanism Work
+# Module: [[../modules/XLab Verification P1 W4 Mechanism effectiveness]]
+
+# Meeting: Week 4: Evidence and its readers
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification P1 W5 Hardware verification]]
