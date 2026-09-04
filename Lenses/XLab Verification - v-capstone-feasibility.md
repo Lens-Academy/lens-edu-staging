@@ -145,7 +145,7 @@ content:: Return to your ranking from the beginning of the course. Choose one me
 - What question should you have asked earlier?
 
 Pay attention to how your heuristics changed: where was your intuition accurate, and where was it off?
-feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
+feedback-instructions:: Reflection on the learner's own earlier ratings; there is no key. Check that all three parts arrived: the heuristic they used when they placed the bet in 2.0, the Module 2 evidence that changed the judgment, and the question they should have asked earlier. Name any part they skipped. Where they disagree with the reference map, do not defend it: ask which of the four metrics the disagreement sits on and what evidence would settle it. Do not re-teach the mechanism they picked. Close with one question about the heuristic rather than about the mechanism. No praise.
 
 #### Text
 content::
