@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -78,6 +84,8 @@ But even in the best-case scenario, where earnest people are trying hard to dist
 We've made the argument that the modern field of AI is an alchemy, not a science. Still, it may seem surprising that well-funded corporations with a large number of technical employees would have such weak plans and protocols.
 
 For a case study, consider website password requirements. Long-but-memorable passwords are much harder for machines to guess than shorter gibberish with numbers, capitals, and special characters, as illustrated by a well-known *[xkcd](https://xkcd.com/936/)*[comic](https://xkcd.com/936/) in 2011:
+
+![The password "Tr0ub4dor&3" is shown to take 3 days to guess at 1000 guesses/sec while being hard to remember. The password "correct horse battery staple" is shown to take 550 years to guess at 1000 guess/sec while being something you have already memorized.](https://ifanyonebuildsit.com/Online%20Resources%20%28All%20-%20Staged%20for%20Website%29/images/image1.png)
 
 The person who wrote the old NIST guidelines calling for gibberish passwords [apologized for his mistake](https://www.wsj.com/articles/the-man-who-wrote-those-password-rules-has-a-new-tip-n3v-r-m1-d-1502124118) in 2017, when the guidelines were retracted. And yet, in 2025, banks and other institutions that ought to be full of security experts still require the ineffective and hard-to-remember gibberish strings.
 
