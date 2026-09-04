@@ -53,14 +53,14 @@ noninterference and no-deliberate-concealment clauses — and go through it with
 a pencil, as a lawyer preparing for negotiations would.
 
 The questions it would ask: what does the Article II definition omit? Whose
-satellites count as "national" — is a commercial constellation under government tasking
-NTM or not? The word "cyber" inside the definition — is that legalized
+satellites count as "national" — is a commercial constellation under
+government tasking NTM or not? The word "cyber" inside the definition — is that legalized
 intelligence collection, or a license to hack that Beijing strikes out first?
 And what does "deliberate concealment" mean for AI — is behind-the-meter power
 generation camouflage, or ordinary industrial practice?
 
-The precedent suggests Article X's noninterference clause (¶1(b)(i)) should be the easy part, and
-that drafting dies on the sharing clause. That is the discovery the task is
+The precedent suggests Article X's noninterference clause (¶1(b)(i)) should be
+the easy part, and that drafting dies on the sharing clause. That is the discovery the task is
 built to produce. It has not been built.
 :::
 
