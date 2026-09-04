@@ -7,8 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -29,6 +35,12 @@ The coalition won't survive if a bundle of other issues gets packaged with super
 
 If you care about other AI-related issues, we urge you to work on addressing them. But we ask that you not *package* those issues with superintelligence. If we're going to make it through this, nothing should be packaged with the survival of humanity.
 
+Part of why you live in whichever country you live in, and not a heap of radioactive rubble left in the wake of World War III, is that the East and the West managed to agree that nuclear war was a realistic and serious threat to humanity decades ago. The East and the West respectively said that the West and the East were an *additional* terrible threat to humanity. But they wisely treated the two threats -- nuclear annihilation versus ideological defeat -- as different in kind.
+
+From the perspective of the West, it was better that humanity should be *less* threatened by nuclear war even if still threatened by the East, which meant cooperating with the East long enough to lay a direct line between Washington and Moscow, and cooperate on nonproliferation treaties and other arrangements.
+
 Too many countries need to coordinate. Too many factions are divided (even internally) for it to be possible to avert catastrophe if only people who agree on everything can act together.
+
+We happily and unreservedly make common cause with the people who are concerned about other issues in the world. We will unhesitatingly work with people we disagree with politically. We have issued this desperate message to the world because we believe it, and we think this problem needs to be addressed *immediately* at the international level.
 
 Whoever you are -- whatever you're fighting for, here or elsewhere -- if you want an end to the breakneck development of smarter-than-human AI, we're in this fight together.
