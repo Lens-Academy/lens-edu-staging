@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is a supplementary online resource for Chapter 4 of *If Anyone Builds It, Everyone Dies*, not a self-contained essay; the authors explicitly flag their claims about LLM "shallowness" as a speculative, evolving guess (written August 2025) rather than settled science. Good for discussing how training-process differences (natural selection vs. gradient descent) bear on whether AI systems can be expected to acquire humanlike values by default.
 
 %%
 #### Comparing Natural Selection and Gradient Descent
@@ -43,7 +49,7 @@ Optimization is not a magic ritual where you throw in a few key ingredients that
 
 Someone can of course fine-tune an LLM to predict what humans will say about how terrible it is to betray a friend. This is not remotely like the problem that natural selection optimized genes to solve, in the course of producing at least some people who would not betray their friends. Rather, the LLM's "experience" is more like being shut up inside a box, told to predict a conversation between two extremely alien creatures that are less similar to it than they are to a jellyfish, and being given trillions of examples of alien conversation and trillions of hours to figure it out.
 
-Being able to solve this problem does require some form of intelligence. But you don't have to become drunkto predict the sorts of things alien creatures ("humans") will say when intoxicated.[^note-iabied-ftnt155] You don't have to become truly friendly to understand friendliness or to predict and imitate the behavior of friendly creatures.
+Being able to solve this problem does require some form of intelligence. But you don't have to become drunk to predict the sorts of things alien creatures ("humans") will say when intoxicated.[^note-iabied-ftnt155] You don't have to become truly friendly to understand friendliness or to predict and imitate the behavior of friendly creatures.
 
 #### Circa-2024 LLMs and AI "Shallowness"
 
