@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -28,7 +34,7 @@ Schmidhuber was right that keeping humans around and paying them to produce scie
 
 But Schmidhuber seems to have missed that there are *even more effective* ways to attain simple explanations of varied sensory observations.
 
-You could, for example, build an enormous number of devices that produce complicated observations from some simple "seed" (e.g., a pseudo-random number generator), and then reveal that seed.
+You could, for example, build an enormous number of devices that produce complicated observations from some simple "seed" (e.g., a pseudo-random number generator), and then reveal that seed.[^note-reveal-that-seed]
 
 The more such devices the AI creates around it, the better it will do at making novel observations and then finding simple explanations for them. No need for humans. No need for art.
 
@@ -56,7 +62,7 @@ In the early 20th century, evolutionary biologists pondered the question of why 
 
 The answer to this puzzle is that moderation might be better for the fox population as a *whole*, but eating extra bunnies and having extra kids is better for any *individual* fox. *Even if the population collapses and most of the individual's cubs die*, that individual still tends to get a higher proportion of their genes in the *surviving fraction* of the next generation.
 
-The genetic selection pressures on individuals turn out to dramatically outweigh the genetic selection pressures on groups in almost all cases. And so the "greedy" genes propagate, and the boom-bust cycles continue.
+The genetic selection pressures on individuals turn out to dramatically outweigh the genetic selection pressures on groups in almost all cases.[^note-genetic-selection-pressures] And so the "greedy" genes propagate, and the boom-bust cycles continue.
 
 Evolutionary biologists solved this riddle theoretically, but that didn't stop them from putting their theory to the test. In the late 1970s, Michael J. Wade and his colleagues [created artificial conditions](https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1558-5646.1977.tb00991.x) under which the group selection pressures dominated the individual pressures. They had to work with a species of beetles, which have much shorter generations than foxes, but they succeeded at breeding beetles that kept their population growth in check.
 
@@ -74,8 +80,8 @@ They're *better* solutions, perhaps, to a human eye. But non-human optimization 
 
 The hypothesis that non-human optimizers produce humane results has been tested, and found wanting.
 
-#### Notes
+{--{"author":"Luc's AI","timestamp":1788528189724}@@#### Notes
 
-[1] *reveal that seed:* I (Yudkowsky) presented this counterargument to Schmidhuber in a live Q&A after Schmidhuber's [talk on the subject](https://vimeo.com/7441291) at the 2009 Singularity Summit, a conference hosted by MIRI (which was then called the Singularity Institute).
+[1]--}{++{"author":"Luc's AI","timestamp":1788528189724}@@[^note-reveal-that-seed]:++} *reveal that seed:* I (Yudkowsky) presented this counterargument to Schmidhuber in a live Q&A after Schmidhuber's [talk on the subject](https://vimeo.com/7441291) at the 2009 Singularity Summit, a conference hosted by MIRI (which was then called the Singularity Institute).
 
-[2] *genetic selection pressures:* The topic of individual selection versus group selection used to be a fierce debate. A consensus eventually emerged that substantial group selection pressures occur rarely at best. George C. Williams's book *[Adaptation and Natural Selection](https://books.google.com/books?hl=en&lr=&id=gkBhDwAAQBAJ&oi=fnd&pg=PP1&ots=Ch8ulE8NzS&sig=mxIwoqfSWZ0ScvIRh7dzzrJatJ4#v=onepage&q&f=false)* was widely considered clarifying, on this issue.
+{--{"author":"Luc's AI","timestamp":1788528189724}@@[2]--}{++{"author":"Luc's AI","timestamp":1788528189724}@@[^note-genetic-selection-pressures]:++} *genetic selection pressures:* The topic of individual selection versus group selection used to be a fierce debate. A consensus eventually emerged that substantial group selection pressures occur rarely at best. George C. Williams's book *[Adaptation and Natural Selection](https://books.google.com/books?hl=en&lr=&id=gkBhDwAAQBAJ&oi=fnd&pg=PP1&ots=Ch8ulE8NzS&sig=mxIwoqfSWZ0ScvIRh7dzzrJatJ4#v=onepage&q&f=false)* was widely considered clarifying, on this issue.
