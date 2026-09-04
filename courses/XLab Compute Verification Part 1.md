@@ -31,12 +31,18 @@ facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../modules/XLab Verification P1 W2 Precedents and policy scope]]
 
-# Meeting: Precedents and Where to Draw the Line
+# Module: [[../modules/XLab Verification P1 W2 Policy scope]]
+
+# Module: [[../modules/XLab Verification P1 W2 Strategic foundations]]
+
+# Meeting: Week 2: Precedents and policy scope
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification P1 W3 Treaty anatomy and actors]]
 
-# Meeting: Treaty Anatomy and Who a Pause Binds
+# Module: [[../modules/XLab Verification P1 W3 Treaty actors]]
+
+# Meeting: Week 3: Treaty anatomy and actors
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification P1 W4 Evidence and its readers]]
