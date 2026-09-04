@@ -92,6 +92,7 @@ options::
 - Solo
 - Pair (name your partner in the next answer)
 - Team of three (name your partners in the next answer)
+feedback-instructions:: Logistics, not an exercise: this is for the facilitator, so do not grade it and do not comment on whether solo or team is the better way to work. Acknowledge in one line. If they chose Pair or Team of three, ask for the partners' names in their reply and tell them to repeat the names to their facilitator at meeting 2, because none of the answers that follow captures them.
 
 #### Question: Choice
 id:: 1db58e68-41b4-495e-8251-7c8e90ff0360
@@ -101,6 +102,7 @@ options::
 - I have someone in mind but have not asked yet
 - I do not have one and the brief says optional
 - I do not have one and the brief says recommended or required (tell your facilitator at meeting 2)
+feedback-instructions:: Logistics, not an exercise: this is for the facilitator, so do not grade it and do not judge the brief they chose. Acknowledge in one line. If they have someone in mind but have not asked, ask when they will. If they have none and the brief says mentor recommended or required, tell them to raise it with their facilitator at meeting 2 as the option says, and ask what one question they would want a mentor to answer first. Do not suggest particular people.
 
 #### Text
 content::

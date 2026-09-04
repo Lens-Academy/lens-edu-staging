@@ -220,6 +220,7 @@ options::
 - Open a formal investigation
 - Issue a compliance judgment
 - Refer for enforcement
+feedback-instructions:: Ungraded on purpose: there is no marked key here, and the written defence that follows is what is assessed. Acknowledge the move in one line without saying whether it is right, and send the learner to the defence. Do not name a correct move, do not compare this docket with the others, and do not preview the grid the closing callouts reveal.
 
 #### Question: Open
 id:: f0a7ff29-3986-447d-a94c-6aef848d50fc
