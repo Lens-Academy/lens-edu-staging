@@ -4,7 +4,7 @@ title: "2.1.6 Where should trust live?"
 tldr: "Moving trust does not remove it. Compare four places to put the monitor, inside the chip, on the network, on the power line, or all three, for one verification target, then choose the smallest pilot that a U.S. and a Chinese delegation would both accept."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading comparing on-chip, off-chip digital, off-chip analog and hybrid architectures for one verification target, plus the confidentiality trade. Ends with the bilateral pilot review open question (eight items for each of two designs, then a pilot choice). Insist on counting independent failure modes, not mechanism names, and on a pilot rather than universal deployment."
 tags: [wip]
-duration_minutes: 5
+duration_minutes: {--{"author":"Elias's AI","timestamp":1788520635492}@@5--}{++{"author":"Elias's AI","timestamp":1788520635492}@@30++}
 ---
 #### Text
 content::
