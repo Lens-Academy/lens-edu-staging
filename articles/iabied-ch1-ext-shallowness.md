@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+The cited examples (Claude 3.7 Sonnet on Pokémon, KataGo exploits, multimodal clock-reading, doctor-riddle flubs) are snapshots from mid-to-late 2025; flag to students that these specific failure modes may already be outdated given the pace of model releases, and that the authors themselves note this shallowness may not persist.
 
 %%
 In the chapter, we wrote that you can "see a shallowness" in the intelligence of current AIs (as of mid-to-late 2025), if you know where to look. If you haven't seen it yourself yet, here are a few places you might look:
