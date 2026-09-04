@@ -10,8 +10,14 @@ accessed: 2026-07-09
 description: "Disclaimer: This post is preliminary and doesn't yet fully align with the rigorous standards we typically aim for in LessWrong publications. It recap…"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -162,8 +168,7 @@ A distinguishing factor for neurotech approaches is their reliance on hardware i
 
 Another significant contributor to overall development cost and time is compliance with regulatory guidelines, such as ethical review and potential new medical legislation, before legally using WBE technology. This difference between neurotech and non-neurotech approaches is noteworthy, as the latter less frequently require ethical evaluation in the current legal landscape.
 
-##   
-**Tradeoff on Investment: Maximally Accelerating a Single Technology vs. Diversifying Investment**
+## **Tradeoff on Investment: Maximally Accelerating a Single Technology vs. Diversifying Investment**
 
 When contemplating resource allocation in AI alignment, a key strategic question arises: Should investment be concentrated in a single expensive technology, like WBE, to maximize its R&D speed, or should resources be spread across multiple approaches, each with a sub-maximum R&D pace? (This tradeoff is mostly only valid under the assumption of finite investment resources relative to cost, which does seem likely soon.)
 
@@ -187,9 +192,12 @@ On the other hand, it may be possible that the total pot of resources is substan
 
 Neurotech-based AI alignment strategies and their potential impact are in early stages but hold promise as exploratory solutions. If you feel that you have insights to contribute to further discussions or would like to participate in future workshops, we encourage you to get involved. Given the complexity, multi-disciplinary, and nascent nature of these approaches, additional perspectives are particularly valuable at this stage. We also host a slack space for online discussions which we welcome new members to. To reach out, feel free to respond through LessWrong or contact us directly at [sumner@convergentresearch.org](mailto:sumner@convergentresearch.org) or [lisa.thiergart@gmail.com](mailto:lisa.thiergart@gmail.com).
 
+:::hide
 # Acknowledgements
 
 We like to express our gratitude to all the participants of the Neurotech and AI alignment workshop. Thank you for devoting your time and contributing to an insightful and productive discussion that has significantly deepened our understanding of this critical area. We also thank Milan Cvitkovic, David Dalrymple and Bogdan Cirstea for providing feedback on an earlier version of this post. Finally, we’d like to offer special thanks to David Dalrymple for delivering a compelling keynote presentation that set the stage for our discussions. 
+
+:::
 
 [^note-lisathiergart-1]: Cyborgism (especially in a recent alignment agenda) is sometimes used more narrowly to mean “ using AI (primarily pretrained GPT models) to augment human cognition". However in this workshop we intentionally do not restrict the term to language model cooperation and also include uses associated with the term “cyborg”.
 [^note-lisathiergart-2]: There are some concerns with this approach. For example, if the AI is able to directly influence an individual's decision-making processes, there is a risk that the individual's autonomy could be compromised. There are also ethical concerns associated with cyborgism. For example, if the integration of AI is only available to a select group of individuals, it could exacerbate existing inequalities and create new ones.

@@ -8,8 +8,14 @@ created: 2026-02-27
 description: "Disclaimer: Post written in a personal capacity. These are personal opinions and do not in any way represent my employer's views • TL;DR: …"
 tags:
   - "obsidian-web-clipper"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -80,7 +86,7 @@ So, where does interpretability fit into this pragmatic portfolio? I see several
 
 Firstly, safeguards can be categorised as follows:
 
-1. **Evaluation**: We take a system and perform extensive tests on it for desired properties, like a tendency towards misalignment or sandbagging
+1. **Evaluation**: We take a system and perform extensive tests on it for undesired properties, like a tendency towards misalignment or sandbagging
 2. **Monitoring**: When we deploy a system we are always running some checks at inference, which try to catch and mitigate bad behaviour
 	1. Importantly, this needs to be cheap to be run in production, while evaluations can be more expensive and slow
 
@@ -93,7 +99,7 @@ How can interp help?
 2. **Enhancing Black-Box Evaluations:** Interpretability might make our external checks more effective. For example:
 	- Could we use steering vectors identified via interpretability to **manipulate whether the model thinks it’s in an eval?** Maybe we can test it more effectively if we can trick it into thinking it's *not* in a honeypot or evaluation setting.
 	- Can we use interpretability to better elicit information from token forcing? We can make the model say “my secret plan is”, and even if it tries to internally suppress awareness or obfuscate the output perhaps interpretability can prevent that?
-	- Interpretability may provide a sanity check that our black box methods are not missing something, e.g. whether a model is using an eval only because it knows it’s in one and is deliberately underperforming.
+	- Interpretability may provide a sanity check that our black box methods are not missing something, e.g. whether a model is {--{"author":"Luc's AI","timestamp":1788538423295}@@using--}{++{"author":"Luc's AI","timestamp":1788538423295}@@passing++} an eval only because it knows it’s in one and is deliberately underperforming.
 3. **Debugging mysterious behaviour**: One particularly interesting form of evaluation (or offline monitoring) is taking particularly weird or unexpected examples of model behaviour, e.g. it seeming to put vulnerabilities in critical code, and trying to debug what’s going on and see if it’s real alignment or not. I think interpretability methods may prove very good at raising unexpected hypotheses, and piecing together what’s happening (e.g. [this proof of concept](https://transformer-circuits.pub/2025/attribution-graphs/biology.html))
 	- I expect these kinds of potential warning shots to happen, and anything that can add more signal here would be great.
 	- Even if we don’t trust the interpretability method fully, the hypotheses generated can be verified by other means.
@@ -108,6 +114,6 @@ Let's stop framing interpretability as the *one true path* to reliably detecting
 
 [^note-nanda-1]: While this post was inspired by Dario's post and ensuing discussion, this is a common belief I've encountered, and this post is not intended to call out him specifically!
 [^note-nanda-2]: More specifically, I basically think the only way we might get high reliability is by using pre-superintelligent systems that are sufficiently aligned/controlled to either do a ton of automated research and find some breakthroughs, or by using them as a core part of a monitoring or scalable oversight scheme. But the human research trajectory is hard.
-[^note-nanda-3]: Defining “safety” is kinda messy, for the purposes of this post you can interpret it as evaluating ‘is the model thinking misaligned thoughts', or monitoring for ‘is the model currently knowingly taking high-stakes actions against what we want’
+[^note-nanda-3]: Defining “safety” is kinda messy, for the purposes of this post you can interpret it as evaluating ‘is the model thinking misaligned thoughts' or monitoring for ‘is the model currently knowingly taking high-stakes actions against what we want’
 [^note-nanda-4]: I’m not sure what the best precise definition of highly reliable is here, maybe 99.9% chance of stopping a catastrophic outcome? It’s not key to my argument.
-[^note-nanda-5]: Obviously, [Chain of Thought can fail to reflect the model’s true reasoning](https://arxiv.org/abs/2503.08679). But I think that for tasks at the limits of its ability it likely needs to use the chain of thought for intermediate steps in the computation, creating an incentive to store key info in there. Of course, there are many ways this can fail. in there. Of course, there are many ways this can fail.
+[^note-nanda-5]: Obviously, [Chain of Thought can fail to reflect the model’s true reasoning](https://arxiv.org/abs/2503.08679). But I think that for tasks at the limits of its ability it likely needs to use the chain of thought for intermediate steps in the computation, creating an incentive to store key info in there. Of course, there are many ways this can fail.
