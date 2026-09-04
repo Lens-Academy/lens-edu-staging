@@ -77,6 +77,7 @@ Guidance: focus on the verbs used rather than on the section headings.
 placeholder:: Quote the words you are talking about.
 optional:: true
 assessment-instructions:: Full credit needs three things: the learner quotes the specific words where the text first binds a specific actor (the transition out of preambular and purpose language into an operative obligation on a Party), names the grammatical markers on each side (aspirational or descriptive language such as recognizing, affirming, should, versus operative verbs such as shall, shall not, may not, addressed to a named Party), and shows the contrast with quotations from both sides. Partial credit for the right location without the verb analysis. Do not require agreement with the agreement's substance. No generic praise.
+feedback-instructions:: Say whether the learner quoted the words at the transition or only pointed at a location, and whether the verbs on both sides were named. Give the markers they left out: recognizing, affirming and should on the preambular side, shall, shall not and may not addressed to a named Party on the operative side. If the learner argued for a boundary earlier or later than the first operative obligation, answer the argument rather than overruling it. Two short paragraphs, no praise.
 
 #### Question: Open
 id:: e3c2359d-f159-4348-a44a-740924f23668
