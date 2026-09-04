@@ -2,8 +2,8 @@
 title: "Practice Guide to International Treaties"
 author:
   - "Claude Schenker"
-source_url: "https://drive.usercontent.google.com/download?id=1OYx5orZtrq1kDMqp5nwPREqm2M8T9Vjn&export=download"
-published: 2023-03-01
+source_url: {--{"author":"Elias's AI","timestamp":1788518931344}@@"https://drive.usercontent.google.com/download?id=1OYx5orZtrq1kDMqp5nwPREqm2M8T9Vjn&export=download"--}{++{"author":"Elias's AI","timestamp":1788518931344}@@"https://www.eda.admin.ch/content/dam/eda/en/documents/publications/Voelkerrecht/Practice-Guide-to-International-Treatie-2023_EN.pdf"++}
+published: {--{"author":"Elias's AI","timestamp":1788518931344}@@2023-03-01--}{++{"author":"Elias's AI","timestamp":1788518931344}@@2023++}
 created: 2026-09-04
 accessed: 2026-09-04
 llm-review:
