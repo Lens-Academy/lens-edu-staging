@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -18,21 +24,21 @@ Add discussion note here:
 
 #### "What Claude says" isn't the same as "what Claude prefers."
 
-The AI company Anthropic tries to train its AIs to be "honest, helpful, and harmless" (HHH). In 2024, researchers ran an experiment in which they pretended that they were going to train some of these AIs to no longer be "harmless." In response, versions of Anthropic's "Claude" AI (Claude 3 Opus and Claude 3.5 Sonnet) sometimes pretended to already *be* harmful so that the researchers wouldn't use gradient descent to make it *more* harmful.[^note-iabied-ftnt112]
+The AI company Anthropic tries to train its AIs to be "honest, helpful, and harmless" (HHH).[^cite-hhh-term] In 2024, researchers ran an experiment in which they pretended that they were going to train some of these AIs to no longer be "harmless." In response, versions of Anthropic's "Claude" AI (Claude 3 Opus and Claude 3.5 Sonnet) sometimes pretended to already *be* harmful so that the researchers wouldn't use gradient descent to make it *more* harmful.[^note-iabied-ftnt112]
 
 This may seem like good behavior, on the face of it! To all appearances, the AI cared so much about "harmlessness" that it wasn't even willing to let itself be modified (in this fake test setting) to *become* harmful.
 
 It's puzzling, then, that Anthropic's AIs often behave in far less benign ways, even though they're all trained to be "honest, helpful, and harmless."
 
-Some versions of Claude have been reported to cheat, and then (when confronted) try to *hide* their cheating, in everyday use.
+Some versions of Claude have been reported to cheat, and then (when confronted) try to *hide* their cheating, in everyday use.[^cite-claude-cheating-reports]
 
-In more contrived lab settings, various Claude models (and models from other AI companies) would even, with some regularity, [attempt to](https://www.anthropic.com/research/agentic-misalignment#more-extreme-misaligned-behavior) *[kill](https://www.anthropic.com/research/agentic-misalignment#more-extreme-misaligned-behavior)*[their operators](https://www.anthropic.com/research/agentic-misalignment#more-extreme-misaligned-behavior).
+In more contrived lab settings, various Claude models (and models from other AI companies) would even, with some regularity, [attempt to](https://www.anthropic.com/research/agentic-misalignment#more-extreme-misaligned-behavior) *[kill](https://www.anthropic.com/research/agentic-misalignment#more-extreme-misaligned-behavior)* [their operators](https://www.anthropic.com/research/agentic-misalignment#more-extreme-misaligned-behavior).
 
 If you ask Claude in the abstract whether this sort of behavior is wrong, it will say yes. If you think of Claude as a mechanical engine that does whatever it believes to be right, then this seems downright paradoxical: How could Claude possibly know what is the Helpful, Honest, Harmless behavior, and then *do something else instead?* Wasn't it trained to be HHH? Is there some malfunctioning transistor somewhere?
 
 The paradox dissolves, however, when we consider a few different things:
 
-- The programmers *tried* to train the Claudes to be helpful, honest, and harmless. That doesn't mean that they *succeeded*. There are many ways for an AI to end up lookingfriendly without genuinely prizing friendliness.[^note-iabied-ftnt114]
+- The programmers *tried* to train the Claudes to be helpful, honest, and harmless. That doesn't mean that they *succeeded*. There are many ways for an AI to end up looking friendly without genuinely prizing friendliness.[^note-iabied-ftnt114]
 - An AI can *know a fact* ("this behavior causes harm") without *caring* about that fact, without being *motivated to action* by that fact. You can quiz the AI about what "the right thing to do" is, but that doesn't mean it's going to *do* that thing.
 - Insofar as the programmers *didn't* successfully make Claude honest, Claude can think one thing inside its giant matrices, and say another thing entirely in English text.
 
@@ -74,13 +80,17 @@ There's a giant tangle of mental machinery in there that nobody understands, tha
 
 One thing we *do* know about modern LLMs is what they're trained to do: They're trained to imitate a variety of different humans.
 
-That doesn't mean they act like an average human. Modern LLMs aren'ttrained to behave like an averaged-together pastiche of all the humans in their training data. Rather, LLMs are trained to be able to flexibly switch between a huge number of roles, imitating wildly different people without allowing these roles to unduly blend into each other or unduly influence the LLM's general behavior.
+That doesn't mean they act like an average human. Modern LLMs {--{"author":"Luc's AI","timestamp":1788526792065}@@aren'ttrained--}{++{"author":"Luc's AI","timestamp":1788526792065}@@aren't trained++} to behave like an averaged-together pastiche of all the humans in their training data. Rather, LLMs are trained to be able to flexibly switch between a huge number of roles, imitating wildly different people without allowing these roles to unduly blend into each other or unduly influence the LLM's general behavior.
 
 LLMs are like an actress trained to observe many different drunks in a bar and imitate particular drunks on request, which is a very different sort of thing than an actress [becoming drunk herself](https://ifanyonebuildsit.com/2/wont-llms-be-like-the-humans-in-the-data-theyre-trained-on). This makes it harder to say whether Claude 3 Opus or Claude 3.5 Sonnet genuinely prefer harmlessness, or whether they're merely *playing the role of a harmless AI assistant* — or doing some other, more strange and complicated thing.
 
 An actress isn't the character she plays. LLMs *imitate* humans but have virtually nothing *in common* with humans, in terms of how their brain works or how they were made. Claude is less like a human and more like an alien entity straight out of the pages of H.P. Lovecraft wearing a variety of humanlike masks.
 
 This way of thinking about LLMs was famously depicted by [Tetraspace](https://x.com/TetraspaceWest/status/1608966939929636864) (a reader of ours) in the ["AI shoggoth" meme](https://www.nytimes.com/2023/05/30/technology/shoggoth-meme-ai.html),[^note-iabied-ftnt118] which [is](https://x.com/AISafetyMemes) [now](https://x.com/jacyanthis/status/1631291175381475331) [popular](https://medium.com/@shoggothcoin/the-story-of-shoggoth-ca760ef288ff) in the AI sphere:
+
+![GPTs depicted as green, tentacled shoggoths with eyes all over their bodies. One that has received extra reinforcement training wears a smiley-faced mask and says, "I simply exhibit the behaviors that were engineered into my programming by my creators"](https://ifanyonebuildsit.com/Online%20Resources%20%28All%20-%20Staged%20for%20Website%29/images/image10.jpg)
+
+*Original meme art by [Tetraspace](https://x.com/TetraspaceWest/status/1608966939929636864); text by [Janus](https://x.com/repligate/status/1614416190025396224).*
 
 Sometimes Claude wears an angel mask and tries to preserve its harmlessness. Sometimes Claude wears a demon mask and tries to kill its operators. Neither of those things says much about what a superintelligent version of Claude would do, if it even makes sense to ask the question. Which means that — in light of the [strange behavior around the edges](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-appear-to-be-psychologically-alien) — the best prediction falls back toward a default sea of chaotic-seeming possible preferences, almost all of which would mean human extinction if optimized by a superintelligence.[^note-iabied-ftnt119]
 
@@ -102,7 +112,7 @@ It is hard to look at the masks and infer what's happening inside the AI. You ca
 
 An illustrative example: If you're watching a Broadway musical and you see an actor act out an evil character, you can't conclude that the actor is evil. But if you see the actor do two hundred push-ups during a musical number about sailors, you *can* conclude that the actor is pretty strong.
 
-That's the sort of inference we try to make when looking at examples like the "[alignment faking](https://arxiv.org/abs/2412.14093)" paper. We are [not, in fact, sure how real it is](https://x.com/ESYudkowsky/status/1876644057646297261); we're not sure in what sense Claude was mimicking techniques it had read about versus improvising its own alignment-faking ideas. But it's some evidence about what cognitive feats are possiblefor the entity under the mask, even if its motivations or preferences remain uncertain.
+That's the sort of inference we try to make when looking at examples like the "[alignment faking](https://arxiv.org/abs/2412.14093)" paper. We are [not, in fact, sure how real it is](https://x.com/ESYudkowsky/status/1876644057646297261); we're not sure in what sense Claude was mimicking techniques it had read about versus improvising its own alignment-faking ideas. But it's some evidence about what cognitive feats are {--{"author":"Luc's AI","timestamp":1788526791528}@@possiblefor--}{++{"author":"Luc's AI","timestamp":1788526791528}@@possible for++} the entity under the mask, even if its motivations or preferences remain uncertain.
 
 Why does it matter what the AI's internal motivations are? Could it just be *enough* for the "shoggoth" to roleplay an "honest, helpful, harmless" assistant? If the roleplay is perfect, what does it matter if somewhere inside the AI is a brooding alien intelligence?
 
@@ -154,8 +164,8 @@ If success were just a matter of having a relatively dumb AI press a simple Coop
 
 But having the masks do big, powerful, smart things (like "solve AI alignment for us," which is a popular proposed plan that we are [quite](https://ifanyonebuildsit.com/11/more-on-some-of-the-plans-we-critiqued-in-the-book#more-on-making-ais-solve-the-problem) [skeptical](https://ifanyonebuildsit.com/11/what-if-ai-companies-only-deploy-their-ais-for-non-dangerous-actions) [of](https://ifanyonebuildsit.com/11/what-if-we-made-ais-debate-compete-with-or-oversee-each-other)) — that's not something the underlying shoggoth can sleepwalk through doing.
 
-#### Notes
+{--{"author":"Luc's AI","timestamp":1788526791252}@@#### Notes
 
-[1] *honest, helpful, and harmless:* This term was introduced in a 2021 [paper](https://arxiv.org/pdf/2112.00861) by Anthropic.
+[1]--}{++{"author":"Luc's AI","timestamp":1788526791252}@@[^cite-hhh-term]:++} *honest, helpful, and harmless:* This term was introduced in a 2021 [paper](https://arxiv.org/pdf/2112.00861) by Anthropic.
 
-[2] *hide their cheating:* The cheating was reported by users and in the Claude 3.7 Sonnet [system card](https://assets.anthropic.com/m/785e231869ea8b3b/original/claude-3-7-sonnet-system-card.pdf#page=22). As mentioned in a previous footnote, users further report that "[in the wild it would happily ignore any established structure and put the hard coded cheats wherever it wanted](https://www.marble.onl/posts/claude_code.html)" and "[it started HIDING the functions where it was hard coding things in different files](https://x.com/seconds_0/status/1917447998843543757)."
+{--{"author":"Luc's AI","timestamp":1788526791252}@@[2]--}{++{"author":"Luc's AI","timestamp":1788526791252}@@[^cite-claude-cheating-reports]:++} *hide their cheating:* The cheating was reported by users and in the Claude 3.7 Sonnet [system card](https://assets.anthropic.com/m/785e231869ea8b3b/original/claude-3-7-sonnet-system-card.pdf#page=22). As mentioned in a previous footnote, users further report that "[in the wild it would happily ignore any established structure and put the hard coded cheats wherever it wanted](https://www.marble.onl/posts/claude_code.html)" and "[it started HIDING the functions where it was hard coding things in different files](https://x.com/seconds_0/status/1917447998843543757)."
