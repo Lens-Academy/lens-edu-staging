@@ -7,15 +7,21 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-#### Warning signs don't help if you don't know what to do with them.
+#### Warning signs don't help if you don't know what to do with them. ^warning-signs-dont-help-if-you-dont-know-what-to-do-with-them
 
 In the Chapter 2 resources, we looked at some problems with relying on warning signs in the [English chain-of-thought scratchpads](https://ifanyonebuildsit.com/2/but-some-ais-partly-think-in-english-doesnt-that-help) found in some reasoning models.
 
@@ -55,11 +61,11 @@ If we had a mature theory of intelligence, we would probably be able to look at 
 
 But we're not there yet. AI corporate executives are like Stockton Rush — experts on the sidelines are shouting "That new technology will kill people!" and the corporate executives are responding "Don't worry, I'm measuring it!" while having no idea a) what the measurements *mean,* or b) what to do if those measurements are worrying. Except that this time, the whole human species is loaded into the metaphorical submarine.
 
-#### AI is not the kind of mature engineering field that's equipped for this kind of problem.
+#### AI is not the kind of mature engineering field that's equipped for this kind of problem. ^ai-is-not-the-kind-of-mature-engineering-field-thats-equipped-for-this-kind-of-problem
 
 Stockton Rush was working in the sort of field where, after his submarine imploded, experts could look over the wreckage and analyze the exact cause of failure.[^note-iabied-ftnt267] The engineering field was mature to the point where experts could (and [did](https://www.nytimes.com/2023/06/20/us/oceangate-titanic-missing-submersible.html)) guess the technical issues in advance, and could sort them out conclusively after the fact.
 
-It wouldn't be the same with AI. If humanity killed itself with superintelligence tomorrow, and then miraculously went back in time to a week before the disaster began, experts *still* would not know what the AI had been thinking. Maybe they could study the failure and learna little more about how AI actually works. Maybe that would be one step down the path of maturity in the discipline of AI engineering, toward the sort of field that could have safety manuals and a thorough account of the pressures that affect a particular kind of artificial mind as it gets smarter.
+It wouldn't be the same with AI. If humanity killed itself with superintelligence tomorrow, and then miraculously went back in time to a week before the disaster began, experts *still* would not know what the AI had been thinking. Maybe they could study the failure and {--{"author":"Luc's AI","timestamp":1788527801364}@@learna--}{++{"author":"Luc's AI","timestamp":1788527801364}@@learn a++} little more about how AI actually works. Maybe that would be one step down the path of maturity in the discipline of AI engineering, toward the sort of field that could have safety manuals and a thorough account of the pressures that affect a particular kind of artificial mind as it gets smarter.
 
 But the field isn't there yet, today. It isn't close.
 
@@ -79,7 +85,7 @@ Experts in the *mature* field of chemistry can figure out how to transmute tiny 
 
 AI alignment is still in the immature phase.
 
-An immature field has lots of people who say, "Well, I'm just working on measuring it," because measuring outputs is far easier than developing the theory of what constitutes a warning sign, and what to do if you see one. A mature field would have experts discussing the dynamics that govern an AI's internalsand how those may change as the AI's intelligence increases or as its environment changes. They'd have theories about exactly what will change as the AI gets a little smarter, and they'd be comparing different theories to specific observed data. They'd know what parts of the AI's cognition need to be monitored, and they would understand precisely what all the signals meant.
+An immature field has lots of people who say, "Well, I'm just working on measuring it," because measuring outputs is far easier than developing the theory of what constitutes a warning sign, and what to do if you see one. A mature field would have experts discussing the dynamics that govern an AI's {--{"author":"Luc's AI","timestamp":1788527801108}@@internalsand--}{++{"author":"Luc's AI","timestamp":1788527801108}@@internals and++} how those may change as the AI's intelligence increases or as its environment changes. They'd have theories about exactly what will change as the AI gets a little smarter, and they'd be comparing different theories to specific observed data. They'd know what parts of the AI's cognition need to be monitored, and they would understand precisely what all the signals meant.
 
 An immature field has lots of people saying: "We'll just have the AIs figure it out somehow and do the alignment work."
 
@@ -87,7 +93,7 @@ Perhaps you can't wade into every debate about an individual plan and tell wheth
 
 And that does not bode well for humanity, in a situation where we do not have the luxury of learning by trial and error.
 
-[^note-iabied-ftnt266]: It's not clear how much these warning signs are coming from the AI roleplaying the way it thinks an AI is supposed to behave versus how much it's thinking strategically. The fact that we can't tell which warning signs are real isn't encouraging; it means engineers are much more likely to charge ahead saying "eh, that one probably wasn't real." They might even be right mostof the time, but most of the time isn't good enough when one failure is lethal.
+[^note-iabied-ftnt266]: It's not clear how much these warning signs are coming from the AI roleplaying the way it thinks an AI is supposed to behave versus how much it's thinking strategically. The fact that we can't tell which warning signs are real isn't encouraging; it means engineers are much more likely to charge ahead saying "eh, that one probably wasn't real." They might even be right most of the time, but most of the time isn't good enough when one failure is lethal.
 
 It's also not clear how long this sort of warning sign will keep happening. Modern AIs are still dumb enough to occasionally mistake tests for reality, but this regime won't last forever and is already [starting to end](https://arxiv.org/html/2505.23836). An AI that knows it's being tested might stop exhibiting the worrying behavior in places overseers can see it, even if the underlying tendency remains.
 
