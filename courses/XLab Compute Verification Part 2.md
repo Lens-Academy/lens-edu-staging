@@ -28,12 +28,12 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Meeting: People, Institutions, and the Standard of Proof
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
-# Module: [[../modules/XLab Verification Part 2 W09 A low-trust verification architecture]]
+# Module: [[../modules/XLab Verification Part 2 W09 Covert development and the low-trust architecture]]
 
 # Meeting: Reviewing the Low-Trust Architecture
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
-# Module: [[../modules/XLab Verification Part 2 W10 Covert development and evasion]]
+# Module: [[../modules/XLab Verification Part 2 W10 Evasion routes and the red team review]]
 
 # Meeting: Evasion Routes and the Red Team Review
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]

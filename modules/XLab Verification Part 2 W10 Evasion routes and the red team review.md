@@ -1,12 +1,9 @@
 ---
 id: '79959fb5-ae86-4574-8635-aa46dea3bb6f'
-slug: xlab-verification-p2-covert-development-evasion
-title: "Week 10: Covert development and evasion"
+slug: xlab-verification-p2-evasion-red-team-review
+title: "Week 10: Evasion routes and the red team review"
 tags: [wip]
 ---
-
-# Lens:
-source:: [[../Lenses/XLab Verification - v-covert-what-is-it]]
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-covert-how-to-cheat]]
