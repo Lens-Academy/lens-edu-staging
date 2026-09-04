@@ -7,16 +7,22 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is a very short entry that leans heavily on a single argument (optimization tends to push unconstrained variables to extremes) and explicitly defers the fuller discussion to Chapters 5 and 6. Editors may want to note for readers that this page functions more as a bridge/pointer than a self-contained argument.
 
 %%
 
-#### The weirdness is evidence that their actual pursuits aren't our intended pursuits.
+#### The weirdness is evidence that their actual pursuits aren't our intended pursuits. ^the-weirdness-is-evidence-that-their-actual-pursuits-arent-our-intended-pursuits
 
 This matters more as the AI gets more options. Once an AI becomes superintelligent, practically every choice becomes extreme, as the AI gains access to a world of different options that no human or AI has ever had. Like how almost all of your food options, here in a technological civilization, are "extreme" compared to what options your ancestors had available to them.
 
