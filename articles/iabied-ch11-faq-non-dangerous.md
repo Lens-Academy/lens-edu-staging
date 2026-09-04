@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ entry rebuts the "just deploy AI for non-dangerous tasks" family of proposals (e.g., AIs that only persuade politicians, or only output mathematical proofs). Worth prompting discussion on: whether readers can think of a genuinely narrow AI capability that would be both world-saving and safety-preserving, and whether the authors' "red cars/blue cars" generality argument applies equally to today's narrow AI tools.
 
 %%
 #### Actions that seem benign can still require dangerous capabilities.
