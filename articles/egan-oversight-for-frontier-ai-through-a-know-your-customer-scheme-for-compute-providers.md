@@ -7,15 +7,21 @@ source_url: "https://arxiv.org/abs/2310.13625"
 published: 2023-10-20
 created: 2026-08-20
 accessed: 2026-08-20
-description:
+description: "Proposes that the US government require compute providers to implement a Know-Your-Customer scheme, using cloud compute access as a node to identify high-risk frontier AI development, close export-control gaps, and build government capacity for AI oversight."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+Written in October 2023, this proposal predates the compute/KYC-style reporting requirements later introduced in US export-control and AI-safety rulemaking; readers should treat the policy landscape it describes (e.g. the 2023 National Cybersecurity Strategy, pending EU AI Act text, and the January 2024 FinCEN beneficial-ownership deadline) as a snapshot rather than current law, and compare against subsequent US and international compute-governance developments.
 
 %%
 
