@@ -2,7 +2,7 @@
 id: 'cdf9b92f-8075-4491-94bd-03f7547b9ffd'
 slug: compute-verification-part-2
 title: "Compute Verification, Part 2: Evidence and Evasion"
-description: "The second half of XLab's compute verification curriculum, and it assumes the first. Six weeks on the evidence a verification regime can actually collect and on what a determined actor does to it: judging how mature hardware verification really is and briefing a delegation on it, reading cloud provider records and know-your-customer schemes for exactly what they prove, the detection gaps that remain, intelligence signatures and the treaty text that protects satellites but obliges nobody to share what they see, whistleblowers and audits and the institutions that judge them, a close reading of a published low-trust compute verification architecture, ten routes around an agreement worked as a red team and blue team review, and a defended ranking of the mechanisms. Requires the first Compute Verification course, whose results it starts from rather than restates. The capstone project is a separate course that follows."
+description: "The second half of XLab's compute verification curriculum, and it assumes the first. Five weeks on the evidence a verification regime can actually collect and on what a determined actor does to it: judging how mature hardware verification really is and briefing a delegation on it, reading cloud provider records and know-your-customer schemes for exactly what they prove, the detection gaps that remain, intelligence signatures and the treaty text that protects satellites but obliges nobody to share what they see, whistleblowers and audits and the institutions that judge them, a close reading of a published low-trust compute verification architecture, and a taxonomy of evasion routes worked up into a red team and blue team reviewof wh at that architecture could and could not enforce. Requires the first Compute Verification course, whose results it starts from rather than restates. The capstone, where you judge the feasibility of each mechanism and design a regime of your own, is a separate course that follows."
 partner-name: XLab
 partner-url: https://aisafetytracks.com/verification/landing
 tags: [wip]
@@ -38,7 +38,3 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Meeting: Evasion Routes and the Red Team Review
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
-# Module: [[../modules/XLab Verification Part 2 W11 Feasibility judgment]]
-
-# Meeting: Ranking the Mechanisms
-facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
