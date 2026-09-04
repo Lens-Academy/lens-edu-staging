@@ -24,7 +24,7 @@ Week 1 goals:
 %%
 # Module: [[../modules/XLab Verification Capstone W1 Feasibility judgment]]
 
-# Meeting: Defended rankings
+# Meeting: Week 1: Feasibility judgment
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 %% Shape: each learner gives their defended-ranking memo in two minutes (policy goal, portfolio, residual blind spot and its owner); the group finds the blind spot they did not name; a round on one mechanism each rated differently from the reference map and what evidence would settle it. Close with a heads-up that the bank opens next week and the intro-form answers on hours, team, and mentor will be used to pair. %%
 
@@ -34,7 +34,7 @@ Week 2 goals:
 %%
 # Module: [[../modules/XLab Verification Capstone W2 Scope]]
 
-# Meeting: Pitch and pair
+# Meeting: Week 2: Scope
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 %% Shape: two-minute pitch each (question, reader, deliverable, crappy version) plus one sentence on what building the crappy version taught them; the group asks "who acts on this?" and "what would make you switch?"; the facilitator pairs projects into review partners; everyone states their week 3 hours out loud. Learners who marked a brief as mentor-required with no mentor are flagged here. The continue / re-scope / switch decision is written by the learner right after this meeting, in the method check lens. %%
 

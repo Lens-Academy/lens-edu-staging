@@ -35,6 +35,6 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification Part 2 W10 Evasion routes and the red team review]]
 
-# Meeting: Evasion Routes and the Red Team Review
+# Meeting: Week 10: Evasion routes and the red team review
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
