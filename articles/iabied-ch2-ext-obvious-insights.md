@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -35,7 +41,13 @@ Another key trick is as follows. In the book, we give an example of gradient des
 
 This list of operations is no mistake. Multiplication, addition, and "replace it with zero if it's negative" are, more or less, the three critical operations in a neural network. The first two are the operators that make up a "matrix multiplication," and the last one introduces a "nonlinearity" and thereby allows the network to learn nonlinear functions.
 
-The formula for "replace it with zero if it's negative" is  and is called a rectified linear unit (ReLU).[^note-iabied-ftnt67] The formula that people originally tried to use was the "sigmoid" formula:
+The formula for "replace it with zero if it's negative" is $y = \max(x, 0)$ and is called a rectified linear unit (ReLU).[^note-iabied-ftnt67] The formula that people originally tried to use was the "sigmoid" formula:
+
+$$
+\frac{e^x}{1+e^x}
+$$
+
+![](https://ifanyonebuildsit.com/Online%20Resources%20%28All%20-%20Staged%20for%20Website%29/images/image7.png)
 
 There were good reasons for guessing that the more complicated "sigmoid" formula would work! From a shallow perspective, it makes the outputs range sensibly from 0 to 1 in a smooth way; and from a deeper perspective, it has some useful connections to probability theory. Even some modern deep neural networks use something like a sigmoid on some steps. But if you are just going to use one nonlinearity, a ReLU works much better.
 
