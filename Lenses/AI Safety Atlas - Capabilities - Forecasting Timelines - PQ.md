@@ -4,7 +4,7 @@ title: "Pre-Reading Question - Forecasting Timelines"
 tldr: "Before anyone shows you a trend line, name the number. Writing it down now is the only way to find out later whether the evidence moved you or you just absorbed a mood."
 summary_for_tutor: "Priming question before the Forecasting Timelines section. The student commits to a number of years until essentially-full automation of remote cognitive work, plus one sentence on what would most move it. The point is to capture an uncalibrated point estimate before the chapter argues that a date is really an interval, so the reflection lens at the end of the module can cash it in. The tutor records the forecast and does not improve it."
 reading_minutes: 0
-tutor_minutes: 3
+tutor_minutes: 5
 ---
 
 #### Text
