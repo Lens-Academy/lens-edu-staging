@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+Note the source structures most of this piece as a single long footnote (marked with a dagger, †) attached to the sentence ending "...depending on the request." — everything from "If you train an AI to predict how your friend Alice acts when angry..." through the closing "Stated more plainly..." paragraph is footnote content in the original, not main body text. This is preserved here as one continuous multi-paragraph footnote to match the source.
 
 %%
 #### There's a difference between the machinery it takes to be one person and the machinery it takes to predict many individuals.
@@ -47,34 +53,34 @@ In Chapter 4, we'll go deeper into how AIs wind up with very weird preferences a
 
 [^note-iabied-ftnt59]: If you train an AI to predict how your friend Alice acts when angry, then this will likely allow the AI to *imitate* Alice's angry behavior too — at least once the AI's predictions become good enough. But the act of getting good at predicting this won't make the AI *actually* angry; and when the AI uses its prediction to imitate Alice, that won't make the AI "actually angry" either.
 
-When you leap to the conclusion that angry-looking behaviors must go with an angry underlying *feeling*, it's likely that you aren't just putting forward an abstract theory that AIs and humans have something deeply in common. You're to some extent attributing anger *automatically* — the AI just *seems angry*, like a convincing actress.
+    When you leap to the conclusion that angry-looking behaviors must go with an angry underlying *feeling*, it's likely that you aren't just putting forward an abstract theory that AIs and humans have something deeply in common. You're to some extent attributing anger *automatically* — the AI just *seems angry*, like a convincing actress.
 
-In the case of a human actress, you at least know that the actress *does* ever experience genuine anger. Being human, she may be drawing on her own feelings in order to convincingly portray anger on command. But LLMs share none of that. It really is a much less sensible inference to say, "That LLM sounds angry to me and therefore it's probably actually angry."
+    In the case of a human actress, you at least know that the actress *does* ever experience genuine anger. Being human, she may be drawing on her own feelings in order to convincingly portray anger on command. But LLMs share none of that. It really is a much less sensible inference to say, "That LLM sounds angry to me and therefore it's probably actually angry."
 
-Why not expect LLMs to solve the problem of predicting anger by becoming angry themselves?
+    Why not expect LLMs to solve the problem of predicting anger by becoming angry themselves?
 
-To some extent, that's how humans would solve the problem. Part of why humans are good at predicting other humans is that we've evolved to "put ourselves in the other person's shoes." To predict how Alice will act if she gets angry, I let some part of *myself* be angry, and I see how *I* would then behave. This is a topic we'll discuss more in the [online supplement](https://ifanyonebuildsit.com/4/human-values-are-contingent) to Chapter 4.
+    To some extent, that's how humans would solve the problem. Part of why humans are good at predicting other humans is that we've evolved to "put ourselves in the other person's shoes." To predict how Alice will act if she gets angry, I let some part of *myself* be angry, and I see how *I* would then behave. This is a topic we'll discuss more in the [online supplement](https://ifanyonebuildsit.com/4/human-values-are-contingent) to Chapter 4.
 
-But the whole reason this works for humans, when we try to predict one another, is that we all share the same basic brain structure. This gives humans the shortcut of using their brain as a template for the other person's brain.
+    But the whole reason this works for humans, when we try to predict one another, is that we all share the same basic brain structure. This gives humans the shortcut of using their brain as a template for the other person's brain.
 
-LLMs are in a vastly different position. Their trillions of tokens of training try to get them to predict, from scratch, a wide variety of human minds that are nothing like the LLM at the outset. The most effective way to solve this other-prediction problem will not look like the AI *becoming angry first* in order to figure out what anger is and figure out how angry humans behave.
+    LLMs are in a vastly different position. Their trillions of tokens of training try to get them to predict, from scratch, a wide variety of human minds that are nothing like the LLM at the outset. The most effective way to solve this other-prediction problem will not look like the AI *becoming angry first* in order to figure out what anger is and figure out how angry humans behave.
 
-More generally: Efficient, complicated, uncertain reasoning about some complex event doesn't *usually* resemble a detailed internal forward simulation of that event. For instance, the uncertain reasoning will often track many different live possibilities. Even when forward simulation *is* the most effective practical prediction method, the simulation doesn't usually leak out and turn the predictor into the thing it's predicting.
+    More generally: Efficient, complicated, uncertain reasoning about some complex event doesn't *usually* resemble a detailed internal forward simulation of that event. For instance, the uncertain reasoning will often track many different live possibilities. Even when forward simulation *is* the most effective practical prediction method, the simulation doesn't usually leak out and turn the predictor into the thing it's predicting.
 
-And so there are many behaviors, both good and evil, that an LLM can exhibit; and yet at the end of the day what we're seeing is a mask, and what lies behind the mask is something [unknown](https://ifanyonebuildsit.com/4/doesnt-the-claude-chatbot-show-signs-of-being-aligned#todays-llms-are-like-aliens-wearing-many-masks), and something that [isn't very human-like at all](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-appear-to-be-psychologically-alien).
+    And so there are many behaviors, both good and evil, that an LLM can exhibit; and yet at the end of the day what we're seeing is a mask, and what lies behind the mask is something [unknown](https://ifanyonebuildsit.com/4/doesnt-the-claude-chatbot-show-signs-of-being-aligned#todays-llms-are-like-aliens-wearing-many-masks), and something that [isn't very human-like at all](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-appear-to-be-psychologically-alien).
 
-Currently, a little bit, and maybe more by the time you read this, AIs have been trained to predict some *very* human-like behaviors; and frameworks like ChatGPT or Claude can turn these predictions into nice-appearing outward behavior. Not just human behaviors, but humane behaviors — even noble ones.
+    Currently, a little bit, and maybe more by the time you read this, AIs have been trained to predict some *very* human-like behaviors; and frameworks like ChatGPT or Claude can turn these predictions into nice-appearing outward behavior. Not just human behaviors, but humane behaviors — even noble ones.
 
-AI companies could try to train AIs to predict and imitate some of the more beautiful and true sides of the human spirit. They may try it, for cynical reasons or for nobler ones. In a way, it says a lot about this field and its people that, as of late 2024, nobody has *already* tried training an AI to predict the outward behavior of just…being a nice person. To our knowledge, nobody has tried just making a dataset of all and only the kind utterances of humanity and training an AI only on that. Maybe if someone did, they'd develop an AI that simply acted in a kindly way, that expressed beautiful sentiments, that acted as a beacon of hope.
+    AI companies could try to train AIs to predict and imitate some of the more beautiful and true sides of the human spirit. They may try it, for cynical reasons or for nobler ones. In a way, it says a lot about this field and its people that, as of late 2024, nobody has *already* tried training an AI to predict the outward behavior of just…being a nice person. To our knowledge, nobody has tried just making a dataset of all and only the kind utterances of humanity and training an AI only on that. Maybe if someone did, they'd develop an AI that simply acted in a kindly way, that expressed beautiful sentiments, that acted as a beacon of hope.
 
-It wouldn't be real.
+    It wouldn't be real.
 
-We wish desperately that it would be real, but it wouldn't be real.
+    We wish desperately that it would be real, but it wouldn't be real.
 
-Depending on how effectively the LLM predicts the preferred answers of users like us — the things we would prefer to hear about noble sentiments, about hope and dreams, about only wanting a beautiful future together for both species — it's possible that one or both of your authors will end up crying, if ever the AI companies create such an entity. But it won't be real, any more than an extensively rehearsed and corrected actress who was finally made to recite those words in a play would be real. The curtain falls; there isn't a dry eye in the house; but it was still, at the end of it all, a performance.
+    Depending on how effectively the LLM predicts the preferred answers of users like us — the things we would prefer to hear about noble sentiments, about hope and dreams, about only wanting a beautiful future together for both species — it's possible that one or both of your authors will end up crying, if ever the AI companies create such an entity. But it won't be real, any more than an extensively rehearsed and corrected actress who was finally made to recite those words in a play would be real. The curtain falls; there isn't a dry eye in the house; but it was still, at the end of it all, a performance.
 
-That is not how you would go about building an artificial intelligence that actually held beautiful sentiments, that was really working with all its heart to steer for a brighter future. AI growers don't know how to grow an AI that feels that way inside. They train AIs to predict, and to turn that prediction into an imitation.
+    That is not how you would go about building an artificial intelligence that actually held beautiful sentiments, that was really working with all its heart to steer for a brighter future. AI growers don't know how to grow an AI that feels that way inside. They train AIs to predict, and to turn that prediction into an imitation.
 
-The AI companies (or hobbyists) may gesture at the actress they grew, and say, "How can you possibly doubt this poor creature? Look at how you're hurting her feelings." They may even manage to convince themselves it's the truth. But tweaking black boxes until something inside them learns to predict noble words is not how beautiful minds would be made, if human minds ever learned to make them.
+    The AI companies (or hobbyists) may gesture at the actress they grew, and say, "How can you possibly doubt this poor creature? Look at how you're hurting her feelings." They may even manage to convince themselves it's the truth. But tweaking black boxes until something inside them learns to predict noble words is not how beautiful minds would be made, if human minds ever learned to make them.
 
-Stated more plainly: Anthropomorphic behavior shouldn't be expected to pop up *spontaneously*. Additional arguments must be made that when AI companies force humanlike behavior deliberately, the inner "actress" ends up resembling the outer human face that she has been grown and trained to predict.
+    Stated more plainly: Anthropomorphic behavior shouldn't be expected to pop up *spontaneously*. Additional arguments must be made that when AI companies force humanlike behavior deliberately, the inner "actress" ends up resembling the outer human face that she has been grown and trained to predict.
