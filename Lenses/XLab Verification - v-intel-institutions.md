@@ -55,35 +55,26 @@ satellite, aerial, cyber, signals, and thermal-imagery remote sensing, and
 Article X ¶1(b) carries the noninterference and no-concealment language
 borrowed from the ABM Treaty, INF, CTBT, and New START.
 
-It is a real text, and it is meant to be marked up rather than admired. Here it
-is, in full:
+It is a real text, and it is meant to be marked up rather than admired. Here
+are the two passages, from the paper itself.
 
 **Article II — Definitions, item 17**
 
-> National Technical Means (NTM) includes satellite, aerial, cyber, signals,
-> imagery (including thermal), and other remote-sensing capabilities employed
-> by Parties for verification consistent with this Agreement.
+#### Article
+source:: [[../articles/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence]]
+from:: National Technical Means (NTM) includes satellite
+to:: for verification consistent with this Agreement.
 
+#### Text
+content::
 **Article X — Information Consolidation and Challenge Inspections, ¶1(b)**
 
-> For the purpose of providing assurance of compliance with the provisions of
-> this Agreement, each Party uses National Technical Means (NTM) of
-> verification at its disposal in a manner consistent with generally recognized
-> principles of international law.
->
-> **i.** Each Party undertakes not to interfere with the National Technical
-> Means of verification of other Parties operating in accordance with the
-> above.
->
-> **ii.** Each Party undertakes not to use deliberate concealment measures
-> which impede verification by national technical means of compliance with the
-> provisions of this Agreement.
->
-> **iii.** Parties are encouraged, but not obligated, to cooperate in the
-> effort to detect dangerous AI activities in non-Party countries. Parties are
-> encouraged, but not obligated, to support the NTM of Parties directed at
-> non-Parties, as relevant to this Agreement.
+#### Article
+from:: For the purpose of providing assurance of compliance
+to:: as relevant to this Agreement.
 
+#### Text
+content::
 Read ¶1(b)(iii) against (i) and (ii). Protection is an undertaking; sharing is
 an encouragement. That is the asymmetry of this whole section sitting in one
 paragraph, and 2.3.5 asks you to draft the obligation it declines to impose.
