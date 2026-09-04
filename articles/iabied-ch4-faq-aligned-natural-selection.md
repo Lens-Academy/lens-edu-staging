@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -24,6 +30,8 @@ Sperm and egg banks *pay the donors for their trouble,* rather than the other wa
 
 Most tyrants throughout history didn't even *attempt* to use their power to have thousands of children. And actual birth rates in the world today are [falling](https://ourworldindata.org/global-decline-fertility-rate).
 
+![A drop in births per woman is seen across different world regions between 1950 and 2023. All regions show decline. The most industrialized regions drop from roughly 3-4 births per woman to 2 or fewer over this period.](https://ifanyonebuildsit.com/Online%20Resources%20(All%20-%20Staged%20for%20Website)/images/image8.png "From Our World in Data, sourced from UN WPP (2024); HFD (2024) https://ourworldindata.org/fertility-rate")
+
 Many humans prize having children, but many others don't, and it's extremely rare for anyone to try to *maximize* their number of offspring (e.g., by interfacing with sperm banks as much as possible). Instead, humans largely jockey for things like sex, fame, and power — things that are at best messy *proxies* for reproductive fitness.
 
 Nevertheless, one might look at this picture and say: Well, humans wound up caring a *little* about having children, even if that care is less than maximal. Maybe AIs will have a *little* care about us, and toss us some sort of bone, rather than killing us all.
@@ -36,7 +44,7 @@ For instance: Our drive for children is not *quite* a drive for genetic propagat
 
 We expect that lots of parents would be thrilled to hear that their children got the treatment. And maybe there would be a number of holdouts at first, but we expect that if the technology were proven to work, and if it became cheap and reliable, that it would eventually become ubiquitous. Which reveals us for what we are: people who like having *children*, having families, having fun — not people who like *propagating our DNA*.
 
-It seems to us that most humans simply don't care about genetic fitness *at all,* in the deep sense. Wecare about [proxies](https://ifanyonebuildsit.com/4/brittle-unpredictable-proxies), like friendship and love and family and children. We maybe even care about passing on some of our traits to the next generation. But *genes*, specifically?
+It seems to us that most humans simply don't care about genetic fitness *at all,* in the deep sense. {--{"author":"Luc's AI","timestamp":1788526431604}@@Wecare--}{++{"author":"Luc's AI","timestamp":1788526431604}@@We care++} about [proxies](https://ifanyonebuildsit.com/4/brittle-unpredictable-proxies), like friendship and love and family and children. We maybe even care about passing on some of our traits to the next generation. But *genes*, specifically?
 
 Every time that humanity has unlocked a technology that let us get more of what we like — such as tasty foods, or sex without reproduction — humanity has taken the bargain. We aren't technologically advanced enough that we're *able* to trade away genomes for longer and healthier lives. But that sort of thing looks possible in physical principle,[^note-iabied-ftnt129] and so it doesn't look good for natural selection in the long run.
 
