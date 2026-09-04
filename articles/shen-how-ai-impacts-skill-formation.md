@@ -567,7 +567,7 @@ Table 7: Feedback from Participants in the No AI (control) Condition
 
 Figure 20: Example question types from our evaluation. We designed the evaluation to test three different software skills: conceptual understanding, code reading, and code writing.
 
-Question Types We discuss the three types of questions we used: Conceptual Understanding, Code Reading, and Debugging in Section [[#^evaluation-design|4.n").
+Question Types We discuss the three types of questions we used: Conceptual Understanding, Code Reading, and Debugging in Section [[#^evaluation-design|4.2]].
 
 Knowledge Categories The evaluation covers 7 core concepts from the Trio library:
 
@@ -634,4 +634,4 @@ Figure 27: Screenshot of the task platform when interacting with AI Assistant.
 [^note-shen-2]: Pre-registration: [https://osf.io/w49e7](https://osf.io/w49e7)
 [^note-shen-3]: The screen recording for one participant in the AI condition was not available.
 [^note-shen-4]: Details on annotation procedures can be found in the Section [[#^appendix-b-qualitative-analysis-data-and-details|B]] and the annotated transcripts can be found at [https://github.com/safety-research/how-ai-impacts-skill-formation](https://github.com/safety-research/how-ai-impacts-skill-formation)
-[^note-shen-5]: Participants were instructed to complete the task as fast as possible and were compensated a flat fee for participation. See Section [[#^study-design|4.n").
+[^note-shen-5]: Participants were instructed to complete the task as fast as possible and were compensated a flat fee for participation. See Section [[#^study-design|4.3]].
