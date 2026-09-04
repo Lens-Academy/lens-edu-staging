@@ -7,15 +7,21 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-#### Happy, healthy, free people aren't the most efficient solution to almost any problem.
+#### Happy, healthy, free people aren't the most efficient solution to almost any problem. ^happy-healthy-free-people-arent-the-most-efficient-solution-to-almost-any-problem
 
 Once you're a superintelligence, almost no problems benefit from including humans in the mix.
 
