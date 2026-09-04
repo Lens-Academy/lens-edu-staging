@@ -7,16 +7,22 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ entry defends the speculative technologies used in Chapter 9's ending as extrapolations pushed toward known physical limits, not as firm predictions; it pairs well with the linked Chapter 6 supplement on nanotechnology for readers who want the deeper technical grounding.
 
 %%
 
-#### Because it constitutes our actual best guess according to what's physically possible.
+#### Because it constitutes our actual best guess according to what's physically possible. ^because-it-constitutes-our-actual-best-guess-according-to-whats-physically-possible
 
 Chapter 9 depicts a superintelligence pushing its technology all the way to the limits of physical possibility. The exact technologies we name are all speculative, in a sense — but even though the *exact* technology that a superintelligence would unlock is difficult to call, the fact that it would run close to the physical limits is an easier call. So we made our best guesses about how technology would look if it were pushed close to the physical limits of what's possible.
 

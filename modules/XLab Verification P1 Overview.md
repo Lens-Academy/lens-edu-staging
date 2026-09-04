@@ -44,7 +44,7 @@ The first evidence stream, worked in detail. What a signed attestation actually 
 
 \## What comes after
 
-This is the first of two courses on XLab's verification curriculum. The second continues through the remaining evidence streams (cloud, intelligence, human and institutional) and how a determined adversary evades them. The capstone, where you design a verification regime for a three-month emergency pause and defend it, is a separate course after that.
+This is the first of two courses on XLab's verification curriculum. The second continues through the remaining evidence streams (cloud, intelligence, human and institutional) and how a determined adversary evades them. After completing both courses, you will take on a guided capstone project that brings everything you have learned together: designing and defending a verification regime for a three-month emergency pause.
 
 # Lens: Introduction Form
 id:: b408f7bf-60cd-4960-8a4b-58b2f177f40b
