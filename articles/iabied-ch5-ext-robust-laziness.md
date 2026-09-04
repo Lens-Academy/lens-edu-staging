@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This entry responds to the "just make it lazy" objection to AI risk arguments. Useful discussion prompt: is "laziness" actually a stable disposition in humans, or does it just look that way because human effort is bounded by fatigue and mortality in ways that needn't apply to an AI given more capability?
 
 %%
 Why not just make AIs lazy?
