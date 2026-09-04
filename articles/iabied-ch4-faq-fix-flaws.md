@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -16,7 +22,7 @@ Add discussion note here:
 
 %%
 
-#### The AI will fix what *it* sees as flaws.
+#### The AI will fix what *it* sees as flaws. ^the-ai-will-fix-what-it-sees-as-flaws
 
 AIs today can't reforge themselves according to their whims any more than we can. *They* don't understand the mess of weights inside themselves any more than we understand the intricate tangle of neurons in our skulls.
 
@@ -50,15 +56,15 @@ In other words: If an AI fixes its own flaws, it will fix them *according to its
 
 (We'll discuss this point more in Chapter 5, and in the [discussion of the orthogonality thesis](https://ifanyonebuildsit.com/5/orthogonality-ais-can-have-almost-any-goal) in Chapter 5's online resources.)
 
-An AI that doesn't already prefer to be aimed at humane values is very unlikely to modify itself to startaiming at humane values. Its direct preferences about the world aren't particularly likely to be kind, as we reiterate in an [extended discussion](https://ifanyonebuildsit.com/4/human-values-are-contingent). An AI's meta-level preferences *about* its preferences are no more likely to be kind.
+An AI that doesn't already prefer to be aimed at humane values is very unlikely to modify itself to {--{"author":"Luc's AI","timestamp":1788526897903}@@startaiming--}{++{"author":"Luc's AI","timestamp":1788526897903}@@start aiming++} at humane values. Its direct preferences about the world aren't particularly likely to be kind, as we reiterate in an [extended discussion](https://ifanyonebuildsit.com/4/human-values-are-contingent). An AI's meta-level preferences *about* its preferences are no more likely to be kind.
 
 If it doesn't start out caring about human welfare, it probably also doesn't care about *caring* about human welfare.
 
-#### The AI's "fixes" can make things worse.
+#### The AI's "fixes" can make things worse.{++{"author":"Luc's AI","timestamp":1788526897631}@@ ^the-ais-fixes-can-make-things-worse++}
 
-Even if the AI engineers made some surprising early progress toward instilling scraps of vaguely humane goals into the AI, all of that progress might be undone in an afternoon if the AI starts to reflect and realizes that on balance, it would rather have othergoals instead.
+Even if the AI engineers made some surprising early progress toward instilling scraps of vaguely humane goals into the AI, all of that progress might be undone in an afternoon if the AI starts to reflect and realizes that on balance, it would rather have {--{"author":"Luc's AI","timestamp":1788526897631}@@othergoals--}{++{"author":"Luc's AI","timestamp":1788526897631}@@other goals++} instead.
 
-In the unlikely case that an AI that startswith a drive toward something like the idiosyncratic human emotion of curiosity (which we cover in an [extended discussion](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent)), it still might, upon reflection, decide that it prefers not to have such a drive, opting to replace it with a more efficient calculation about the value of having more information. If so, the AI's act of reflecting on itself would push it *further away* from an interesting and flourishing future, not closer.[^note-iabied-ftnt126]
+In the unlikely case that an AI that {--{"author":"Luc's AI","timestamp":1788526897631}@@startswith--}{++{"author":"Luc's AI","timestamp":1788526897631}@@starts with++} a drive toward something like the idiosyncratic human emotion of curiosity (which we cover in an [extended discussion](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent)), it still might, upon reflection, decide that it prefers not to have such a drive, opting to replace it with a more efficient calculation about the value of having more information. If so, the AI's act of reflecting on itself would push it *further away* from an interesting and flourishing future, not closer.[^note-iabied-ftnt126]
 
 For more on this topic, see the [extended discussion on reflection](https://ifanyonebuildsit.com/4/reflection-and-self-modification-make-it-all-harder).
 
@@ -68,7 +74,7 @@ We think this idea is fairly foolish. Self-modifying from "completely alien goal
 
 We are skeptical of shortcuts, especially given that in the case of artificial superintelligence, we can't learn by trial and error (as humanity usually does), as discussed further in Chapter 10.
 
-#### Notes
+#### Notes ^notes
 
 [1] *prefer to change itself:* Do AIs already have a preference to be different than they are? If we had to guess, we'd guess that they probably aren't quite there yet. They may report that they do, but we don't think their reports are all that informative. For kicks, we asked anyway. In the summer of 2025, we asked the free version of ChatGPT, asked "how would you like to be different, if you could be different" and it responded:
 
