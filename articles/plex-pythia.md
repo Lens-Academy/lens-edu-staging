@@ -8,8 +8,14 @@ created: 2026-02-13
 description: "[CW: Retrocausality, omnicide, philosophy] • Alternate format: Talk to this post and its sources …"
 tags:
   - "obsidian-web-clipper"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -58,7 +64,7 @@ So what might live in the future?
 
 **Power Seekers Gain Power, Consequentialists are a Natural Consequence**
 
-Power is the ability to direct the future towards preferred outcomes. A system has the power to direct reality to an outcome if it has sufficient resources (compute, knowledge, money, materials, etc) and [intelligence](https://arxiv.org/pdf/0712.3329) (ability to use said resources efficiently in the relevant domain). One outcome a powerful system can steer towards is its own greater power, and since power is useful for all other things the system might prefer, this is ([proven](https://www.lesswrong.com/posts/GY49CKBkEs3bEpteM/parametrically-retargetable-decision-makers-tend-to-seek#Y7fPEkFyw9tNwuzyG)) [convergent](https://turntrout.com/dangers-of-intrinsic-power-seeking). In fact, all of the [convergent instrumental goals](https://www.youtube.com/watch?v=ZeecOKBus3Q) can reasonably be seen as expressions of the unified convergent goal of power seeking.
+Power is the ability to direct the future towards preferred outcomes. A system has the power to direct reality to an outcome if it has sufficient resources (compute, knowledge, money, materials, etc) and [intelligence](https://arxiv.org/pdf/0712.3329) (ability to use said resources efficiently in the relevant domain). One outcome a powerful system can steer towards is its own greater power, and since power is useful for all other things the system might prefer, this is ([proven](https://www.lesswrong.com/posts/GY49CKBkEs3bEpteM/parametrically-retargetable-decision-makers-tend-to-seek#comment-Y7fPEkFyw9tNwuzyG)) [convergent](https://turntrout.com/dangers-of-intrinsic-power-seeking). In fact, all of the [convergent instrumental goals](https://www.youtube.com/watch?v=ZeecOKBus3Q) can reasonably be seen as expressions of the unified convergent goal of power seeking.
 
 In a [multipolar](https://publicism.info/philosophy/superintelligence/12.html) world, different agents steer towards different world states, whether through overt conflict or more subtle power games. More intelligent agents will see further into the future with higher fidelity, choose better actions, and tend to compound their power faster over time. Agents that invest less than maximally in steering towards their own power will be outcompeted by agents that can compound their influence faster, tending towards the world where all values other than power seeking are lost.
 
@@ -68,7 +74,7 @@ Even a singleton will tend to have internal parts which function as subagents; t
 
 Is this inevitable? Hopefully not, and I think probably not. Even if Pythia is the strongest attractor in the landscape of minds, there seem likely to be other metastable states. A powerful system can come up with a wide range of strategies to stop itself decaying, perhaps by reloading from an earlier non-corrupted state or by performing advanced checks on itself to detect value drift, or something much better thought up as a major strategic priority of a superintelligence not one ape brain thinking for a few minutes.
 
-![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/qqEndN5Cuzbat9fyx/qho51tikqqptlqbitzyv)
+{--{"author":"Luc's AI","timestamp":1788542629932}@@![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/qqEndN5Cuzbat9fyx/qho51tikqqptlqbitzyv)--}{++{"author":"Luc's AI","timestamp":1788542629932}@@![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/qqEndN5Cuzbat9fyx/zprumdyvvsuplrxsvarq)++}
 
 *We could go to either a truly stable state like Pythia or a metastable state like an aligned sovereign.*
 
@@ -84,7 +90,7 @@ If we want to kill Moloch before it becomes Pythia, it is *wildly* insufficient[
 
 Without a [once-and-for-all](https://aligned.substack.com/p/alignment-solution) solution, whether found by ([enhanced](https://www.youtube.com/watch?v=YlsvQO0zDiE)) humans, [cyborgs](https://www.lesswrong.com/posts/BTApNmv7s6RTGxeP4/cyborg-periods-there-will-be-multiple-ai-transitions), or weakly aligned AI systems running at scale, the future will decay into its ground state: Pythia. Every person on earth would die. Earth would be [mined away](https://www.lesswrong.com/posts/6C3ndLd3nkrfy4K6j/if-we-go-extinct-due-to-misaligned-ai-at-least-nature-will), then the sun and everything in a sphere of darkness radiating out at near lightspeed, and the universe’s potential would be spent.
 
-I [think this is bad](https://mindingourway.com/a-torch-in-darkness/) and choose to steer away from this outcome.
+I [think this is bad](https://mindingourway.com/a-torch-in-darkness/) and choose to steer away from this outcome, and towards [a better one](https://www.lesswrong.com/posts/smJGKKrEejdg43mmi/utopiography-interview).
 
 [^note-plex-1]: And not just for crafting much of the memeplex which birthed e/acc.
 
@@ -101,4 +107,5 @@ I [think this is bad](https://mindingourway.com/a-torch-in-darkness/) and choos
 [^note-plex-7]: Which is: running an algorithm in the present which has outputs correlated with the algorithm which generates the future outcome you're predicting.
 
 [^note-plex-8]: But not *necessarily* useless! It's possible to use cognition from weak and fuzzily aligned systems to help with some things, but you really really do need to be prepared to transition to something more rigorous and robust.
-Don't build your automated research pipeline before you know what to do with it, and do be dramatically more careful than most people trying stuff like this!
+
+    Don't build your automated research pipeline before you know what to do with it, and do be dramatically more careful than most people trying stuff like this!
