@@ -559,7 +559,10 @@ content::
 Texas Legislative Council, Research Division. *Reading Statutes and Bills*. 85th Legislature. [tlc.texas.gov](https://tlc.texas.gov/docs/legref/readingabill.pdf)
 *A drafting office's short guide to reading legal text: how codes and statutes are organised, the parts of a statute and of a bill, tips for reading each, and three practice exercises.*
 
-Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *arXiv*, Nov. 2025. [arxiv.org](https://arxiv.org/abs/2511.10783)
+{++{"author":"Elias's AI","timestamp":1788518518996}@@Schenker, Claude. *Practice Guide to International Treaties*. Directorate of International Law, Swiss Federal Department of Foreign Affairs, 2023. [eda.admin.ch](https://www.eda.admin.ch/content/dam/eda/en/documents/publications/Voelkerrecht/Practice-Guide-to-International-Treatie-2023_EN.pdf)
+*The Swiss drafting office's handbook: how a treaty is structured, how it is interpreted under the Vienna Convention, and model final clauses on signature, ratification, accession, entry into force, and withdrawal.*
+
+++}Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *arXiv*, Nov. 2025. [arxiv.org](https://arxiv.org/abs/2511.10783)
 *MIRI's draft international agreement to prevent the premature creation of artificial superintelligence, the treaty text several lessons read against.*
 
 XLab. "1.1 Anatomy of a (pause) agreement." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-anatomy)
