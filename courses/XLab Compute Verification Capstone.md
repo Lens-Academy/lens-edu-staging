@@ -20,27 +20,27 @@ intro-form:: true
 
 %%
 Week 1 goals:
-- Read the research tips; choose a brief or propose one; write the proposal; start the crappy version.
+- Judge any mechanism's feasibility on the four metrics; write the defended-ranking memo; read the research tips.
 %%
 # Module: [[../modules/XLab Verification Capstone W1 Feasibility judgment]]
 
-# Meeting: Pitch and pair
+# Meeting: Defended rankings
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
-%% Shape: two-minute pitch each (question, reader, deliverable, crappy version); the group asks "who acts on this?" and "what can you show us next week?"; the facilitator pairs projects into review partners; everyone states their week 2 hours out loud. Learners who marked a brief as mentor-required with no mentor are flagged here. %%
+%% Shape: each learner gives their defended-ranking memo in two minutes (policy goal, portfolio, residual blind spot and its owner); the group finds the blind spot they did not name; a round on one mechanism each rated differently from the reference map and what evidence would settle it. Close with a heads-up that the bank opens next week and the intro-form answers on hours, team, and mentor will be used to pair. %%
 
 %%
 Week 2 goals:
-- Finish the crappy version; resolve the two unknowns; decide continue, re-scope, or switch (last chance to switch).
+- Choose a brief or propose one; write the proposal; build the crappy version; chase the two unknowns.
 %%
 # Module: [[../modules/XLab Verification Capstone W2 Scope]]
 
-# Meeting: Method check
+# Meeting: Pitch and pair
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
-%% Shape: each learner states their decision and one sentence of reason; the group checks it (re-scopers say what they cut, switchers say what the new crappy version is, continuers say what surprised them); everyone leaves with a target for the draft due at meeting 3. %%
+%% Shape: two-minute pitch each (question, reader, deliverable, crappy version) plus one sentence on what building the crappy version taught them; the group asks "who acts on this?" and "what would make you switch?"; the facilitator pairs projects into review partners; everyone states their week 3 hours out loud. Learners who marked a brief as mentor-required with no mentor are flagged here. The continue / re-scope / switch decision is written by the learner right after this meeting, in the method check lens. %%
 
 %%
 Week 3 goals:
-- A draft a stranger can read start to end, holes labelled; handed to the review partner with a reader's guide.
+- Decide continue, re-scope, or switch (last chance to switch); build a draft a stranger can read start to end, holes labelled; handit  to the review partner with a reader's guide.
 %%
 # Module: [[../modules/XLab Verification Capstone W3 Decide and draft]]
 
