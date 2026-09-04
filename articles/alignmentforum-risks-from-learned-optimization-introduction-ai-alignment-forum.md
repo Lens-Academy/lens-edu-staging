@@ -14,17 +14,17 @@ description: "Introduces the concept of mesa-optimization—when a learned model
 tags:
   - "article-importer"
 llm-review:
-  date: 2026-08-27
+  date: 2026-09-04
   model: "sonnet"
-  version: "article-qc-v1"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-27
+    fetched: 2026-09-04
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+This is post 1 of a 5-part sequence introducing mesa-optimization terminology (base/mesa-optimizer, inner/outer alignment, pseudo-alignment); students should read it as foundational vocabulary rather than a complete argument, since the paper's substantive claims (conditions for mesa-optimization, deceptive alignment) are developed in the later posts this one previews.
 
 %%
 

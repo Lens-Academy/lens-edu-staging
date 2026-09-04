@@ -56,9 +56,9 @@ id:: 15acf766-f87f-428b-a97a-a61de983eab5
 content::
 \## Revised plan
 
-If continuing or re-scoping: restate the realistic version in light of this week, and list what is now out of scope. If switching: the new brief's name, then the proposal in full (question and reader, deliverable and done, crappy version by the end of week 3, hours), because your facilitator will read this instead of your week 1 proposal.
+If continuing or re-scoping: restate the realistic version in light of this week, and list what is now out of scope. If switching: the new brief's name, then the proposal in full (question and reader, deliverable and done, crappy version within two days and a draft by the handoff at the end of this week, hours), because your facilitator will read this instead of your week 2 proposal.
 assessment-instructions:: Give full credit when the realistic version is restated concretely (contents, not adjectives) and at least one thing is named as cut or explicitly confirmed as still in. For a switch, require the full proposal: a one-sentence question, a reader by role and decision, a deliverable with three checkable contents, a crappy version deliverable within a week, and hours. Partial credit if the restatement is a copy of the week 1 version with no evidence it was reconsidered, or a switch proposal is missing parts.
-feedback-instructions:: Compare the restated version with what they said they learned. If the learning implies a change the plan does not make, point at the gap in one sentence. If it is a switch, check that the new brief fits the remaining three weeks (about 10 hours of project time at the default pace) and say so if it does not. No praise; end by telling them what to have ready for meeting 2: the decision and one sentence of reason.
+feedback-instructions:: Compare the restated version with what they said they learned. If the learning implies a change the plan does not make, point at the gap in one sentence. If it is a switch, check that the new brief fits the remaining three weeks (about 10 hours of project time at the default pace) and say so if it does not. No praise; end by telling them to write the decision and one line of reason at the top of their working document, where their review partner will see it with the draft.
 
 #### Question: Rating
 id:: 8ceedcc2-ad9c-41c5-a57b-aa37b3f24e15
@@ -66,7 +66,7 @@ content:: Hours this week against your plan.
 scale:: 5
 low-label:: Well below plan
 high-label:: Above plan
-feedback-instructions:: At 1 or 2: ask what got in the way, in one question, and suggest one concrete fix such as a fixed weekly slot or a smaller realistic version; no guilt, no lecture. At 3: one sentence, move on. At 4 or 5: ask whether the extra hours went into the crappy version or into reading, and if reading, remind them that the draft is due in a week. One or two sentences.
+feedback-instructions:: At 1 or 2: ask what got in the way, in one question, and suggest one concrete fix such as a fixed weekly slot or a smaller realistic version; no guilt, no lecture. At 3: one sentence, move on. At 4 or 5: ask whether the extra hours went into the crappy version or into reading, and if reading, remind them that the draft is due at the end of this week. One or two sentences.
 
 #### Text
 content::
