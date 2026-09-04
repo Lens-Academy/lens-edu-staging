@@ -4,7 +4,7 @@ title: "1.0.2 Policies must be effective and feasible"
 tldr: "A global ban on fossil fuels would end emissions tomorrow and be dead by Friday; a voluntary pledge would be signed by everyone and change nothing. Every policy sits somewhere on that plane. Price your own favourite policy first, then sort eleven anti-ASI policy buckets, from lab self-governance to a coordinated halt, by how much they deter and how gettable they are."
 summary_for_tutor: "Three exercises around the effectiveness versus feasibility frame. (1) Everything comes with a cost: the learner names a policy they believe in and one real cost of enforcing it, then rates how hard that was (optional, personal). (2) Scoping an anti-ASI policy: two five-rung scales, eleven policy buckets each with a historical parallel, then the learner places every bucket on the feasibility x effectiveness plane (graded against XLab's reference cells, one step off counts as close) and answers the securitization question (coordinated halt is the design target). (3) The module's stakeholder map memo for a hypothetical pause treaty (about 800 words, peer reviewed on XLab). Reference placements and rationales are in the closed callouts; share them only after the learner has committed. The corners are settled, the middle band is contestable, so accept argued deviations."
 tags: [wip]
-duration_minutes: {--{"author":"Elias's AI","timestamp":1788520387411}@@35--}{++{"author":"Elias's AI","timestamp":1788520387411}@@75++}
+duration_minutes: 75
 ---
 #### Text
 content::

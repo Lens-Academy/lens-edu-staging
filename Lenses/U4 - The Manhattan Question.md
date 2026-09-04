@@ -35,7 +35,7 @@ would take. The authors then give their own argument about whether such a projec
 help. You will have your own answer to that last question before they give you theirs.
 
 Here is a related state strategy, for later rather than now. What if the plan is for
-states to threaten each other's datacenters instead? {--{"author":"Elias's AI","timestamp":1788520280472}@@[[../articles/delaney-crucial-considerations-in-asi-deterrence]] [[delaney-crucial-considerations-in-asi-deterrence]]--}{++{"author":"Elias's AI","timestamp":1788520280472}@@Oscar Delaney's [Crucial considerations in ASI deterrence](https://oscardelaney.substack.com/p/crucial-considerations-in-asi-deterrence)++}
+states to threaten each other's datacenters instead? Oscar Delaney's [Crucial considerations in ASI deterrence](https://oscardelaney.substack.com/p/crucial-considerations-in-asi-deterrence)
 takes that idea seriously.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the authors' own work.*
