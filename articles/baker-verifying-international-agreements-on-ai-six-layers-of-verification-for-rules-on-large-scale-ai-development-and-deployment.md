@@ -606,13 +606,13 @@ The number of human personnel needed for AI development and deployment could fal
 | AI model (or model family) | Number of “core contributors”[^note-baker-68] | Number of “contributors” (including core contributors) |
 | --- | --- | --- |
 | GPT-4 (OpenAI) | 85 (excl. Microsoft) | 287 (excl. Microsoft) |
-| --- | --- | --- |
-| Llama 3 (Meta) | 222 | 529 |
-| --- | --- | --- |
-| Gemini (Google DeepMind) | 712 | 1254 |
+| {--{"author":"Elias's AI","timestamp":1788521790267}@@--- | --- | --- |
+| --}Llama 3 (Meta) | 222 | 529{--{"author":"Elias's AI","timestamp":1788521790267}@@ |
+| --- | -----} |{--{"author":"Elias's AI","timestamp":1788521790267}@@ --- |--}
+| Gemini (Google DeepMind) | 712 | 1254{--{"author":"Elias's AI","timestamp":1788521790267}@@ |
 | --- | --- | --- |
 |  |  |  |
-| --- | --- | --- |
+| --- | --- | -----} |
 
 Table 9: The number of contributors and core contributors publicly listed for several prominent AI models. Note these are not defined consistently, and they likely exclude various employees who could blow the whistle on certain violations, e.g., data center construction/maintenance staff, supplier company staff, or other AI developer staff such as product staff.
 
