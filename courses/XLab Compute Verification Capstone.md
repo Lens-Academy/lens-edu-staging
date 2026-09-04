@@ -46,7 +46,7 @@ Week 3 goals:
 
 # Meeting: Draft exchange
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
-%% Shape: partners read each other's drafts live for about fifteen minutes using the reader's guide, then give first reactions out loud (what they understood, where they stopped); whole group: each learner's hardest current problem in one sentence, and the group's best suggestion. The written review follows in week 4. %%
+%% Shape: a quick round on decisions made at the method check (who re-scoped or switched, in one sentence); then partners read each other's drafts live for about fifteen minutes using the reader's guide and give first reactions out loud (what they understood, where they stopped); whole group: each learner's hardest current problem in one sentence, and the group's best suggestion. The written review follows in week 4. %%
 
 %%
 Week 4 goals:
