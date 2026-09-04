@@ -67,7 +67,7 @@ feedback-instructions:: If wrong: Keep assessment separate from recurring treaty
 #### Text
 content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
-Brundage et al. define an audit as systematic third-party evaluation and verification against claims and standards. Its authority and conclusion remain bounded by the engagement. Source: [Brundage et al., §§2 and 5](https://arxiv.org/html/2601.11699v4)
+Brundage et al. define an audit as systematic third-party evaluation and verification against claims and standards. Its authority and conclusion remain bounded by the engagement. Source: [Brundage et al., §§2 and 5](https://arxiv.org/pdf/2601.11699v4)
 
 Independent audit: tests defined claims and practices against a standard within a stated engagement scope.
 :::
@@ -294,7 +294,7 @@ Organisation for the Prohibition of Chemical Weapons. "Verification Annex, Part 
 
 Brundage, Miles, Noemi Dreksler, Aidan Homewood, et al. "Frontier AI Auditing: Toward Rigorous Third-Party Assessment of Safety and Security Practices at Leading AI Companies." *arXiv*, Jan. 2026. [arxiv.org](https://arxiv.org/pdf/2601.11699v4#page=29)
 *§§5.3.1 to 5.3.3, pages 29 to 35, define the four AI Assurance Levels and the access each one requires.*
-{>>{"author":"Elias's AI","timestamp":1788521760470}@@Entry expanded from the previous "cited inline above" line and pointed at the PDF, because the arXiv HTML render of this paper is truncated mid-§5.3.3. Every Brundage link in this file now uses the PDF with a page anchor.<<}
+{>>{"author":"Elias's AI","timestamp":1788521760470}@@Entry expanded from the previous "cited inline above" line and pointed at the PDF, because the arXiv HTML render of this paper is truncated mid-§5.3.3. Every Brundage link in this file now {--{"author":"Elias's AI","timestamp":1788523010322}@@uses the PDF with a page anchor.--}{++{"author":"Elias's AI","timestamp":1788523010322}@@points at the PDF.++}<<}
 
 XLab. "2.4.3 Audits and inspections." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-audits-inspections)
 *The source lesson this page adapts, including the Build the inspection order exercise.*
