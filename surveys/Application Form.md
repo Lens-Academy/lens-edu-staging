@@ -113,7 +113,7 @@ content:: ### Career and intention
 
 #### Question
 key:: why_applying
-content:: Why are you applying to this course? How does it fit within your career plans? (100–200 words. Prioritise being concise and concrete; bullet points are fine.) 
+content:: Why are you applying to this course? How does it fit within your career plans? (100–200 words. Prioritise being concise and concrete; bullet points are fine. Feel free to use ) 
 max-chars:: 2000
 required:: true
 
