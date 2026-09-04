@@ -9,8 +9,14 @@ accessed: 2026-08-11
 description: 'A critique of the AI 2040 scenario, arguing it is selectively optimistic about which parts of the future it treats as tractable.'
 tags:
   - "hand-imported-from-lw-corpus"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 *Some context for this post: I’ve been working part-time as a consultant for* [*the AI Futures Project*](https://www.aifutures.org/) *over the last year. Most of the work I’ve done for them has involved critiquing and suggesting improvements for their* [*AI 2040 scenario*](https://ai-2040.com/)—some of which were addressed, and some of which weren’t. To their credit, they asked me to write up my remaining critiques into a post that would accompany its launch. In the rest of this post I’ll discuss my three biggest high-level criticisms of AI 2040.
 
 *Before doing so, I want to emphasize that there are many interesting and thought-provoking details in the scenario. I’ve focused on the high-level framing of the scenario because that’s where my main disagreements lie; given the scope of these disagreements, it’s hard to evaluate the details.*
@@ -19,8 +25,7 @@ tags:
 
 *Finally: the preview image for the substack version of this post comes from* [*this video*](https://x.com/visakanv/status/1471180144186331136?s=46) *of a dad shouting to his son “don’t crash into the tree!” The relevance will hopefully become apparent.*
 
-Forecast vs recommendation
---------------------------
+## Forecast vs recommendation ^forecast-vs-recommendation
 
 The most important thing about AI 2040 is that it’s neither a forecast nor a set of recommendations, but rather something in between: an optimistic forecast. The key benefit of the optimistic forecast format is that it’s able to convey many details of good futures, showing us how they could all fit together. The key downside, however, is that it’s hard for readers to know which parts of the scenario the authors consider to be actively desirable, versus neutral, versus undesirable but included for the sake of realism.
 
@@ -34,8 +39,7 @@ So another way of putting the “forecast vs recommendation” problem is that, 
 
 My personal opinion is that the scenario is mainly valuable for the details it sketches out, and the actual *timeline* that it gives should be largely ignored. Indeed, I recommended to the authors that they remove all dates after the deal is implemented, to indicate that the pace of progress from that point on should depend on factors that are very unpredictable to us (like the speed at which alignment research progress, or what citizens vote for). Unfortunately, putting “2040” in the title instead means that the single-sentence summary many people will hear is: their recommended future involves handing over power to AIs by 2040. I worry that (like the original AI 2027 scenario) this title is optimizing too much for catchiness, while failing to convey the core message of the scenario.
 
-International vs domestic interventions
----------------------------------------
+## International vs domestic interventions ^international-vs-domestic-interventions
 
 AI 2040 is structured around the idea of defusing the race with China. However, I’m concerned that this is another case where mistaken evaluations of what’s politically feasible make the scenario counterproductive. [As Katja Grace has pointed out](https://worldspiritsockpuppet.substack.com/p/ai-as-a-trojan-horse-race), the “race” metaphor is a misleading one, because it bakes in the idea that being ahead is “winning”. I’d add a stronger claim: that well before reaching superintelligence, both the US and China will see serious internal political disruption from AI, which will make both of them very cautious about continued progress. So we shouldn’t expect the future of AI to be well-described as a race, except insofar as the “race” metaphor becomes a self-fulfilling prophecy (like it has between domestic AI companies).
 
@@ -55,8 +59,7 @@ To be clear, I’m not claiming that the US and China definitely *won’t* race 
 
 This assumption is conveyed throughout AI 2040—e.g. through the main flow chart of possible options, through statements like “the US and China don’t trust each other” and “neither side trusts the other to honor Plan A”, and through the focus on ensuring that the treaty is fully verifiable. Because of this, Plan A underrates the importance of domestic politics. Even if we ultimately need a highly-verifiable treaty, it would be much more robust if it were grounded in existing domestic regulation. Conversely, a deal that’s top-down from the beginning could easily be used as a way of consolidating domestic power.
 
-Fast takeoff
-------------
+## Fast takeoff ^fast-takeoff
 
 My sense is that the AI 2040 authors underrate the criticisms I’ve raised above in large part because they expect superintelligence so imminently. My third criticism of AI 2040 is that it buys too uncritically into the idea of a sharp takeoff of AI capabilities. I’m not denying the possibility that this could occur in principle. And it’s true that the last decade (and especially the last 5 years) of AI capabilities progress have been blindingly fast in most measurable ways—far faster than almost anyone (except a few prescient forecasters like Legg, Amodei, Kokotajlo, Leike, and Kurzweil) predicted. However, the real-world impacts of AI (aside from the ballooning revenues of AI companies) have been underwhelming thus far, especially when compared to the progress in measured capabilities.
 
