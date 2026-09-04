@@ -7,15 +7,21 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-#### Their thoughts are hard to read.
+#### Their thoughts are hard to read. ^their-thoughts-are-hard-to-read
 
 Many people working in the AI industry, including a handful of lab leaders, have at various points in discussion with us raised the objection:
 
@@ -35,7 +41,7 @@ Can you solve the problem by just using other AIs to monitor the AIs and make su
 
 If the brilliant human scientists who grow the AIs can't figure out what the AI is thinking, weak AIs will likely also have trouble doing so. And the sort of AI that *is* smart enough to do so is liable to be dangerous in its own right, and isn't likely to do exactly what you asked; there's a chicken-and-egg problem here.
 
-#### We wouldn't know what to do if we caught one having dangerous thoughts.
+#### We wouldn't know what to do if we caught one having dangerous thoughts. ^we-wouldnt-know-what-to-do-if-we-caught-one-having-dangerous-thoughts
 
 Another flaw in this plan: Even if AI researchers *could* read an AI's mind well enough to catch the warning signs, what would they do when they saw one?
 
@@ -55,7 +61,7 @@ It would be [even harder](https://ifanyonebuildsit.com/3/smart-ais-spot-lies-and
 
 If we're extremely lucky, the heroes working on AI interpretability will advance their field to the point where it's possible to set up some alarms that trigger in a fraction of the cases where AIs have a deceptive thought. But then what? When the alarm goes off, will everyone just stop? Or will profoundly thoughtless engineers retrain the AI until it learns to hide its thoughts better and the alarms stop going off?
 
-Indeed, we (Yudkowsky and Soares) started working on the AI alignment problem beforeit was clear that gradient descent was going to become the dominant paradigm. Back in those days when nothing in AI was working at all, it seemed a decent bet that humanity would figure out how the heck intelligence works on the path to creating it, and *even then,* we expected the AI alignment problem to be difficult (for a variety of reasons, such as the ways that the AI would [change itself over time](https://ifanyonebuildsit.com/4/reflection-and-self-modification-make-it-all-harder). Reading the AI's thoughts would be one step back toward the slightly easier problem of aligning a mind that humans *did* understand, but only one step: Reading a mind is a far cry from understanding a mind in detail, or from knowing how to change it.
+Indeed, we (Yudkowsky and Soares) started working on the AI alignment problem {--{"author":"Luc's AI","timestamp":1788528281004}@@beforeit--}{++{"author":"Luc's AI","timestamp":1788528281004}@@before it++} was clear that gradient descent was going to become the dominant paradigm. Back in those days when nothing in AI was working at all, it seemed a decent bet that humanity would figure out how the heck intelligence works on the path to creating it, and *even then,* we expected the AI alignment problem to be difficult (for a variety of reasons, such as the ways that the AI would [change itself over time](https://ifanyonebuildsit.com/4/reflection-and-self-modification-make-it-all-harder). Reading the AI's thoughts would be one step back toward the slightly easier problem of aligning a mind that humans *did* understand, but only one step: Reading a mind is a far cry from understanding a mind in detail, or from knowing how to change it.
 
 Reading the AI's thoughts is not a solution to the challenge. It's helpful, but it's not a solution. We don't think there *are* any feasible technological solutions that are accessible from where we stand today. Which means that humanity just needs to back off from the challenge.[^note-iabied-ftnt264]
 
