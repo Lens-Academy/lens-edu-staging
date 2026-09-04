@@ -1068,9 +1068,9 @@ Background: A Verifier may wish to verify that a declared workload was actually 
 | --}Origin constraint | A model used for large-scale inference has a declared training history | X | ✓ |   |
 | {--{"author":"Elias's AI","timestamp":1788522748337}@@--- | --- | --- | --- | --- |
 | --}Data and code constraints | For example, code for AI training has the structure of gradient descent, in terms of code factorization.[^note-baker-109] ([Appendix A.5](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx5 "A.5 Data and Code Validation ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI").) | ✓ | ✓ | ✓ |
-| --- | --- | --- | --- | --- |
+{--{"author":"Elias's AI","timestamp":1788522751688}@@| --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |--}
 
 Table 12: Possible constraints to rule out spoofs in partial workload re-execution. This compilation is non-exhaustive. A yellow square denotes partial applicability, i.e., applicability to some forms of the workload type.
 
@@ -1431,8 +1431,8 @@ Challenges and mitigations:
 | Type of violation | Some employees who would have information about the violation |
 | --- | --- |
 | Non-compliant declarations of large-scale AI development or deployment (intended to be detected by Subgoals 1.A or 1.B) | • AI researchers and engineers who contribute to the declared activity and thus could notice if model origins, output origins, or evaluations/properties are falsely declared, or if workloads are designed to spoof verification • Officials who deliberate on, order, or coordinate the violation (e.g., senior executives, top advisory bodies, and lower-level managers, in government and colluding companies) • Spoofers: researchers and engineers who circumvent on- and off-chip verification mechanisms, if these are present[^note-baker-142] |
-| --- | --- |
-| Undeclared, large-scale uses of known AI compute clusters (intended to be detected by Subgoal 2.A) | • AI researchers and engineers who contribute to the undeclared activity, or to another compliant activity that is altered to hide the non-compliant activity • Officials who deliberate on, order, or coordinate the violation • Spoofers: Researchers and engineers who circumvent on- and off-chip verification mechanisms, if these are present • Compute cluster oversight or management staff |
+| {--{"author":"Elias's AI","timestamp":1788522755713}@@--- | --- |
+| --}Undeclared, large-scale uses of known AI compute clusters (intended to be detected by Subgoal 2.A) | • AI researchers and engineers who contribute to the undeclared activity, or to another compliant activity that is altered to hide the non-compliant activity • Officials who deliberate on, order, or coordinate the violation • Spoofers: Researchers and engineers who circumvent on- and off-chip verification mechanisms, if these are present • Compute cluster oversight or management staff |
 | --- | --- |
 | Undeclared, large-scale AI compute (intended to be detected by Subgoal 2.B) | • AI researchers and engineers who contribute to the undeclared activity, or to another compliant activity that is altered to hide the non-compliant activity • Officials who deliberate on, order, or coordinate the violation • Spoofers: Staff who circumvent other verification mechanisms, if present (e.g., by diverting chips and breaking compliance locks) • Data center construction and operations staff (e.g., maintenance and security staff) • Supplier staff who supply e.g., AI chips, energy, and other data center equipment • Compute cluster design and setup staff • Administrative (e.g., relevant finance, procurement, legal) staff |
 | --- | --- |
