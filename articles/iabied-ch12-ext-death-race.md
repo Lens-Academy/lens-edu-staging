@@ -7,8 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -25,7 +31,7 @@ A cynical, game-theoretic rejoinder might go like this:
 
 Maybe that answer is enough, for a cynic.
 
-Simple game-theoretic explanations like this often misunderstand or oversimplify real human psychology, but this explanation may also contain a grain of truth. An engineer may think that *probably* everyone will die from ASI, but that their own actions don't affect that probability much.*Meanwhile*, they get to have insane amounts of money, cool toys, and powwows with big, important people looking at them respectfully. Maybe they'll become the god-kings of Earth if ASI *doesn't* kill everyone, but *only if their company wins the race to build ASI…*
+Simple game-theoretic explanations like this often misunderstand or oversimplify real human psychology, but this explanation may also contain a grain of truth. An engineer may think that *probably* everyone will die from ASI, but that their own actions don't affect that probability much. *Meanwhile*, they get to have insane amounts of money, cool toys, and powwows with big, important people looking at them respectfully. Maybe they'll become the god-kings of Earth if ASI *doesn't* kill everyone, but *only if their company wins the race to build ASI…*
 
 From the perspective of an OpenAI researcher who recognizes the danger: If they *don't* work for OpenAI, probably OpenAI destroys the world anyway. (Even if OpenAI shut down, Google would destroy the world anyway.) But if they *do* work for OpenAI, they get six-to-seven-figure salaries, and if they *don't* die, perhaps they'll accrue extra power and fame by being on the winning team. So each individual's personal game-theoretic incentives push them toward collectively destroying the world.
 
