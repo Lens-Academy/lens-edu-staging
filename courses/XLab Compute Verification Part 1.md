@@ -22,7 +22,11 @@ intro-form:: true
 
 # Module: [[../modules/XLab Verification P1 W1 Why verification]]
 
-# Meeting: Why Verification, and Whether Plan A Holds
+# Module: [[../modules/XLab Verification P1 W1 Theories of change]]
+
+# Module: [[../modules/XLab Verification P1 W1 Building verification intuitions]]
+
+# Meeting: Week 1: Why verification
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../modules/XLab Verification P1 W2 Precedents and policy scope]]
