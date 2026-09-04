@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -23,7 +29,7 @@ Our ancestral environment did not include the deep ocean, nor were our forebears
 
 Our ancestors were, somehow, selected to be *good at solving problems*, broadly construed, despite our ancient ancestors rarely facing an engineering trial more complicated than building a spear.
 
-Do humans possess a *perfect* ability to solve problems? No, obviously not. Humans can't seem to learn to play chess as well as the best chess-playing AIs, at least within the time limits of the game. Superhuman levels of chess performance are demonstrably possible, and humans can't reach those levels unaided. Our intelligence is not universal — that is, we can't learn to do *everything* that is physically doable. So this "generality" stuff that humans have is not about being able to do everything doable using our brains alone. Nevertheless, there's something immensely more general about a human's ability to learn and solve new problems, compared to the learning and problem-solving ability of a narrow chess AI like [Deep Blue](https://www.ibm.com/history/deep-blue).
+Do humans possess a *perfect* ability to solve problems? No, obviously not. Humans can't seem to learn to play chess as well as the best chess-playing AIs, at least within the time limits of the game. Superhuman levels of chess performance are demonstrably possible, and humans can't reach those levels unaided. Our intelligence is not universal — that is, we can't learn to do *everything* that is physically doable.[^note-not-universal] So this "generality" stuff that humans have is not about being able to do everything doable using our brains alone. Nevertheless, there's something immensely more general about a human's ability to learn and solve new problems, compared to the learning and problem-solving ability of a narrow chess AI like [Deep Blue](https://www.ibm.com/history/deep-blue).
 
 But generality isn't all-or-nothing. It admits of degrees.
 
@@ -65,6 +71,8 @@ There seem to be types of learning that are less like memorizing driving routes 
 
 We'll have more to say about this topic in Chapter 3.
 
-#### Notes
+{--{"author":"Luc's AI","timestamp":1788524491212}@@#### Notes--}{++{"author":"Luc's AI","timestamp":1788524491212}@@:::hide
+[Is "intelligence" a simple scalar quantity? →](https://ifanyonebuildsit.com/1/is-intelligence-a-simple-scalar-quantity)
+:::++}
 
-[1] *not universal:* A formal definition of "universal intelligence" was put forth by [Legg and Hutter](https://arxiv.org/abs/0712.3329) in 2007.
+{--{"author":"Luc's AI","timestamp":1788524490956}@@[1]--}{++{"author":"Luc's AI","timestamp":1788524490956}@@[^note-not-universal]:++} *not universal:* A formal definition of "universal intelligence" was put forth by [Legg and Hutter](https://arxiv.org/abs/0712.3329) in 2007.
