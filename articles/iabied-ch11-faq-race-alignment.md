@@ -7,21 +7,27 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-#### We strongly recommend against this entire AI paradigm.
+#### We strongly recommend against this entire AI paradigm. ^we-strongly-recommend-against-this-entire-ai-paradigm
 
 Current methods in AI present needlessly difficult challenges for alignment, for the reasons we've discussed in earlier chapters. We don't see a reason in principle why humanity couldn't build an aligned superintelligence, with a sufficiently strong understanding of what we were doing and a different array of formal tools. But the entire current approach to AI seems like a dead end from an alignment and robustness perspective, even if it's perfectly good from a capabilities perspective.
 
-We're not advocating for the "good old-fashioned" AI that reigned from the 1950s to the 1990s. Those techniques were misguided and failed, for reasons that we consider fairly obvious. There are *other options* besides the extremely shallow attempts of the 1980s, and AIs that are grown with almost zero understanding of their internals.
+We're not advocating for the "good old-fashioned" AI that reigned from the 1950s to the 1990s. Those techniques were misguided and failed, for reasons that we consider fairly obvious.[^note-fairly-obvious] There are *other options* besides the extremely shallow attempts of the 1980s, and AIs that are grown with almost zero understanding of their internals.
 
-#### There's plenty of meaningful work that could be done now.
+#### There's plenty of meaningful work that could be done now. ^theres-plenty-of-meaningful-work-that-could-be-done-now
 
 Sydney Bing [gaslit](https://x.com/MovingToTheSun/status/1625156575202537474) and [threatened](https://x.com/sethlazar/status/1626257535178280960) users. We still don't know exactly why; we still don't know exactly what was going through its head. Likewise for cases where AIs (in the wild) are [overly sycophantic](https://www.axios.com/2025/07/07/ai-sycophancy-chatbots-mental-health), [seem to actively try to drive people mad](https://ifanyonebuildsit.com/4/ai-induced-psychosis), [reportedly cheat and try to hide it](https://assets.anthropic.com/m/785e231869ea8b3b/original/claude-3-7-sonnet-system-card.pdf), or [persistently and repeatedly declare themselves Hitler](https://www.theguardian.com/technology/2025/jul/09/grok-ai-praised-hitler-antisemitism-x-ntwnfb). Likewise for cases in controlled and extreme environments where AIs [fake alignment](https://arxiv.org/abs/2412.14093), [engage in blackmail](https://www.anthropic.com/research/agentic-misalignment), [resist shutdown](https://palisaderesearch.org/blog/shutdown-resistance), or [try to kill their operators](https://www.anthropic.com/research/agentic-misalignment).
 
@@ -33,6 +39,6 @@ Any corporate executives who *actually were* making AI solely to make it possibl
 
 As for those who have kept pushing even past all the warning signs? The obvious inference is that they were never actually building AI just for the sake of solving alignment, no matter what they said to console fears back when they were justifying their reckless behavior in the 2010s.
 
-#### Notes
+{--{"author":"Luc's AI","timestamp":1788528216211}@@#### Notes
 
-[1] *fairly obvious:* Yudkowsky has been criticising the flaws in old designs since [at least 2008](https://www.lesswrong.com/posts/p7ftQ6acRkgo6hqHb/dreams-of-ai-design).
+[1]--}{++{"author":"Luc's AI","timestamp":1788528216211}@@[^note-fairly-obvious]:++} *fairly obvious:* Yudkowsky has been criticising the flaws in old designs since [at least 2008](https://www.lesswrong.com/posts/p7ftQ6acRkgo6hqHb/dreams-of-ai-design).
