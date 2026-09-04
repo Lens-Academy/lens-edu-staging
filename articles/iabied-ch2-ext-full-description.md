@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -33,6 +39,8 @@ The next step is turning each of these tokens into a "vector" of numbers. Llama 
 
 To turn each token into a vector, every possible token is assigned a weight for every possible position in the vector. So that's where we get our first chunk of billions of parameters:
 
+128,256 × 16,384 = 2,101,248,000
+
 Two billion parameters down. Four hundred and three billion left to go!
 
 Just to say it again — no human tells Llama what any of the tokens mean, invents the vector of 16,384 numbers that a word translates to, or knows what the vector of numbers means for any word. All of those two billion parameters got there by gradient descent. The numbers get tweaked, along with other parameters we'll introduce, to increase the probability assigned to the true next token.[^note-iabied-ftnt70]
@@ -44,6 +52,8 @@ For each of those words, we look up that word in the LLM's dictionary and load i
 1,000 words × (16,384 numbers / word) = 16,384,000 numbers total. We call these the "activations" in the first "layer" of Llama's computations (i.e., its cognition, its mental activity).
 
 You can imagine them as being arranged into a flat rectangle on the floor that's 1,000 numbers across (the length of the input) by 16,384 numbers wide (numbers per word in the first layer). Here's one such vector, with the color of each pixel corresponding to the number in the vector:
+
+![A depiction of the vector for the activations in the first layer of Llama, with each pixel corresponding to a number in the vector.](https://ifanyonebuildsit.com/Online%20Resources%20%28All%20-%20Staged%20for%20Website%29/images/image12.png)
 
 (They're not the most scrutable artifacts.)
 
@@ -118,6 +128,51 @@ To grapple with a thousand words, a Llama uses 405 billion inscrutable little pa
 
 We sometimes call these arrangements "giant inscrutable matrices," because if you actually stare at some of Llama's parameters — even the simplest ones stored in the simple dictionary at the base of the vast stack of layers — the first few parameters for the word "right" look like this:
 
+```
+[-0.00089263916015625,     0.01092529296875,
+  0.00102996826171875,    -0.004302978515625,
+ -0.00830078125,          -0.0021820068359375,
+ -0.005645751953125,      -0.002166748046875,
+ -0.00141143798828125,    -0.00482177734375,
+  0.005889892578125,       0.004119873046875,
+ -0.007537841796875,      -0.00823974609375,
+  0.00848388671875,       -0.000965118408203125,
+ -0.00003123283386230469, -0.004608154296875,
+  0.0087890625,           -0.0096435546875,
+ -0.0048828125,           -0.00665283203125,
+  0.0101318359375,         0.004852294921875,
+ -0.0024871826171875,     -0.0126953125,
+  0.006622314453125,       0.0101318359375,
+ -0.01300048828125,       -0.006256103515625,
+ -0.00537109375,           0.005859375,
+```
+
+…and on and on for 16,384 numbers. As for what these numbers *mean,* nobody on the face of the Earth presently knows.
+
+I (Soares) timed myself reciting the first thirty-two numbers out loud to six significant digits. It took me two minutes and four seconds. To recite all the parameters for the word "right," even with that abbreviation, would take me more than seventeen hours. At the end of reciting them, I would be no wiser than before about what the word "right" means to Llama.
+
+To recite all of Llama's parameters, speaking at 150 words per minute and never stopping to eat, drink, or sleep, would take a human 5,133 years. To recite all the activations corresponding to a thousand words in Llama's token dictionary would take seventy-six days straight. To write out all the calculations used to process a single token for a 1,000-word input would take, if you wrote a savant-like 150 calculations a minute without taking any breaks, over ten million years.
+
+And that's just to generate one syllable! To write a whole sentence would take many times longer.
+
+And if you personally did all of those calculations with your very own brain, at the end of the (at least) ten million years it would take you would be no wiser than before about what Llama had been thinking before it uttered its next word. You would know no more of Llama's thoughts than a neuron knows about a human brain.
+
+In that imaginary world where you haven't long since died of old age, being able to carry out an individual local calculation doesn't mean your own brain knows anything about what Llama is thinking or how Llama is thinking it.
+
+If you put all of Llama's 405 billion parameters into an Excel spreadsheet on an ordinary-sized computer screen, the spreadsheet would be the size of 6,250 American football fields, or 4,000 soccer fields, or half the size of Manhattan.
+
+If you had one nickel for each computation in our 1,000 tokens example, you'd have 810 trillion nickels. If you tried to deposit them at the bank, you would need 203 million truckloads of nickels, each weighing 44,000 pounds.
+
+Llama 3.1 405B is *not* yet roughly as large as a human brain. (A human brain has around 100 trillion synapses.)
+
+405B can, however, apparently talk like a person.
+
+And if anyone slings their arm around your shoulder and confides to you in a cynical tone that it's all really just numbers, please keep in mind that we are talking about *really rather a lot of numbers*.
+
+A human neuron can be understood as "just" chemistry, if you study biochemistry and the chemicals binding to chemicals that make the little flashes of electrical depolarization travel around a human brain. But it's *a lot* of chemistry. And it turns out that very simple things, in large enough quantities, arranged just so, can land rockets on the Moon.
+
+A similar sort of caution applies to a large language model. The word "large" is not for show.
+
 [^note-iabied-ftnt68]: Some people refer to open-weight models as "open-source" models. This description does not seem quite right to us. Meta released the final weights, but did not release the exact computer program that *trained* Llama 3.1, or the huge collection of data Llama was trained on. So even if you were willing to spend millions of dollars to do it, you could not actually run the program that Meta ran to *grow* Llama 3.1. Meta didn't release the AI-growing code, only the grown and tuned AI.
 
 Furthermore, even if Meta did release the data and the training program, we don't think that the resulting program would merit the label "open-source," which was traditionally reserved for computer programs that published ("opened") their human-readable "source code." Releasing the incomprehensible 1s and 0s (the "binary code," if you will) does not traditionally meet the requirements for a program to be considered "open source." But AIs are *just* inscrutable numbers; there is no human-comprehensible source to be released. So there's a sense in which modern AIs *can't* be open-sourced; no human-comprehensible source code exists. Any attempt to publish an AI is necessarily a radically different practice than open-sourcing traditional software.
@@ -142,9 +197,9 @@ query X key #b = (-1 \* -2) + (+1 \* +1) + (-2 \* + 1) = 2 + 1 + -2 = 1
 
 We're now going to mix the values together and produce an average value weighted by the degree to which queries match keys. This weighted-average value is the answer to the query that gets passed on for further processing.
 
-The strength of the raw match gets scaled exponentially to become this weight. For simplicity, let's use the powers of two. #a gets weight  #b gets weight  If we add them together, that's a total weight of
+The strength of the raw match gets scaled exponentially to become this weight. For simplicity, let's use the powers of two. #a gets weight $2^3=8$. #b gets weight $2^1=2$. If we add them together, that's a total weight of $10$.
 
-So now the answer to the query is  of value #a1 plus  of value #b:
+So now the answer to the query is 8/10 of value #a1 plus 2/10 of value #b:
 
 (0.8 × [0, 3, 1, 2]) + (0.2 × [2, -2, 0, 1])
 
