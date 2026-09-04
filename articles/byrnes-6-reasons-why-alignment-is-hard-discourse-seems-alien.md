@@ -6,12 +6,18 @@ author:
 published: 2025-12-03
 created: 2026-02-13
 description: "TL;DR: AI alignment has a culture clash. On one side, the “technical-alignment-is-hard” / “rational agents” school-of-thought argues that we should expect future powerful AIs to be power-seeking ruthless consequentialists. On the other side, people observe that both humans and LLMs are obviously capable of behaving like, well, not that. The latter group accuses the former of head-in-the-clouds abstract theorizing gone off the rails, while the former accuses the latter of mindlessly assuming that the future will always be the same as the present, rather than trying to understand things …"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+Byrnes frames a live technical-alignment debate as hinging on whether future AGI will possess anything like human "Approval Reward"; students should note this is his own speculative neuroscience-of-motivation framework (built on his earlier "Social drives" posts), not settled consensus, and that §6 depends on a separate linked post rather than standing alone.
 
 %%
 # tl;dr
@@ -84,8 +90,7 @@ After all, consider: what’s the main effect of ‘me wanting X’? It’s ‘m
 
 By contrast, in humans, self-reflective (meta)preferences mostly ([though not exclusively](https://www.lesswrong.com/posts/73xBjgoHuiKvJ5WRk/intuitive-self-models-2-conscious-awareness#2_5_2_Positive_valence_S_X__models_also_tend_to_go_with_X_s_that_are_object_level_motivating__other_things_equal_)) come from Approval Reward. By and large, our “true”, endorsed, ego-syntonic desires are approximately whatever kinds of desires would impress our friends and idols (see [previous post §3.1](https://www.lesswrong.com/posts/fPxgFHfs5yHzYqgG7/social-drives-2-approval-reward-from-norm-enforcement-to#3_1__How_I_think_of_myself__winds_up_wildly_skewed_towards__what_s_socially_admired_)).
 
-Box: More detailed argument about where self-reflective preferences come from
-
+:::callout {title="Box: More detailed argument about where self-reflective preferences come from" collapse="closed"}
 The actual effects of “me wanting X” are
 
 - (1) I may act on that desire, and thus get X (and stuff correlated with X),
@@ -98,6 +103,7 @@ Any of these three pathways can lead to a meta-preference wherein “me wanting 
 (What about (2A)? That’s another funny “non-default” case. Like Approval Reward, this might circumvent many “alignment-is-hard” arguments, at least in principle. But it has its own issues. Anyway, I’ll be putting the (2A) possibility aside for this post.)
 
 (Actually, human Approval Reward in practice probably involves a dash of (2A) on top of the (2B)—most people are imperfect at hiding their true intentions from others.)
+:::
 
 …OK, finally, let’s jump into those “6 reasons” that I promised in the title!
 
@@ -239,7 +245,9 @@ but rather
 
 For my part, I’m obviously very interested in the question of whether we can and should put Approval Reward (and [Sympathy Reward](https://www.lesswrong.com/posts/KuBiv9cCbZ6ALjHFw/social-drives-1-sympathy-reward-from-compassion-to)) into Brain-Like AGI, and what might go right and wrong if we do so. More on that in (hopefully) upcoming posts!
 
+:::hide
 *Thanks Seth Herd, Linda Linsefors, Charlie Steiner, Simon Skade, Jeremy Gillen, and Justis Mills for critical comments on earlier drafts.*
+:::
 
 [^note-byrnes-1]:
 	…and by extension today’s LLMs, [which (I claim) get their powers mainly from imitating humans](https://www.lesswrong.com/posts/bnnKGSCHJghAvqPjS/foom-and-doom-2-technical-alignment-is-hard#2_3_1__Where_do_you_get_your_capabilities_from__).
@@ -257,7 +265,7 @@ For my part, I’m obviously very interested in the question of whether we can a
 [^note-byrnes-7]:
 	…At least to a first approximation. Here are some technicalities: (1) Other pathways also exist, and *can* generate a force for desire preservation. (2) There’s also a loopy thing where Approval Reward influences self-reflective desires, which in turn influence Approval Reward, e.g. by changing who you admire. (See [Approval Reward post §5](https://www.lesswrong.com/posts/fPxgFHfs5yHzYqgG7/social-drives-2-approval-reward-from-norm-enforcement-to#5__Approval_Reward___Typical_Mind_Fallacy____reward_for_sharing_special_interests_)–[§6](https://www.lesswrong.com/posts/fPxgFHfs5yHzYqgG7/social-drives-2-approval-reward-from-norm-enforcement-to#6__How_robust_are_the_effects_of_Approval_Reward_).) This can (mildly) lock in desires. (3) Even Approval Reward itself leads *not only* to “proud feeling about what I’m up to right now” ([Approval Reward post §3.2](https://www.lesswrong.com/posts/fPxgFHfs5yHzYqgG7/social-drives-2-approval-reward-from-norm-enforcement-to#3_2_The_habit_of_imagining_how_one_looks_in_other_people_s_eyes__10_000_times_a_day)), which does not particularly induce desire-preservation, *but also* to “desire to actually interact with and impress a real live human sometime in the future”, which is on the left side of that figure in §0.3, and which (being [consequentialist](https://www.lesswrong.com/posts/KDMLJEXTWtkZWheXt/consequentialism-and-corrigibility)) *does* induce desire-preservation and the other instrumental convergence stuff.
 [^note-byrnes-8]:
-	If an Approval-Reward-free AGI wants X and wants Y, then it could get more X by no longer wanting Y, and it could get more Y by no longer wanting X. So there’s a possibility that AGI reflection could lead to “total victory” where one desire erases another. But I (tentatively) think that’s unlikely, and that the more likely outcome is that the AGI would continue to want both X and Y, and to split its time and resources between them. A big part of my intuition is: you can theoretically have a consequentialist utility-maximizer with utility function U\=log(X)+log(Y) , and it will generally split its time between X and Y forever, and [this agent is reflectively stable](https://www.lesswrong.com/w/consequentialist-preferences-are-reflectively-stable-by). (The logarithm ensures that X and Y have diminishing returns. Or if that’s not diminishing *enough*, consider U\=loglogX+loglogY, etc.)
+	If an Approval-Reward-free AGI wants X and wants Y, then it could get more X by no longer wanting Y, and it could get more Y by no longer wanting X. So there’s a possibility that AGI reflection could lead to “total victory” where one desire erases another. But I (tentatively) think that’s unlikely, and that the more likely outcome is that the AGI would continue to want both X and Y, and to split its time and resources between them. A big part of my intuition is: you can theoretically have a consequentialist utility-maximizer with utility function {--{"author":"Luc's AI","timestamp":1788524632065}@@U\=log(X)+log(Y) ,--}{++{"author":"Luc's AI","timestamp":1788524632065}@@$U = \log(X) + \log(Y)$,++} and it will generally split its time between X and Y forever, and [this agent is reflectively stable](https://www.lesswrong.com/w/consequentialist-preferences-are-reflectively-stable-by). (The logarithm ensures that X and Y have diminishing returns. Or if that’s not diminishing *enough*, consider {--{"author":"Luc's AI","timestamp":1788524632065}@@U\=loglogX+loglogY,--}{++{"author":"Luc's AI","timestamp":1788524632065}@@$U = \log\log X + \log\log Y$,++} etc.)
 [^note-byrnes-9]:
 	To show how widespread this is, I don’t want to cherry-pick, so my two examples will be the two most recent movies that I happen to have watched, as I’m sitting down to write this paragraph. These are: [Avengers: Infinity War](https://en.wikipedia.org/wiki/Avengers:_Infinity_War) & [Ant-Man and the Wasp](https://en.wikipedia.org/wiki/Ant-Man_and_the_Wasp). (Don’t judge, I like watching dumb action movies while I exercise.)
 	*Spoilers for the Marvel Cinematic Universe film series (pre-2020) below:*
