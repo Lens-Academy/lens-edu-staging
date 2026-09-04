@@ -1042,10 +1042,10 @@ Background: A Verifier may wish to verify that a declared workload was actually 
 | Constraint type | Constraint | Applicable to AI training? | Applicable to AI inference? | Applicable to non-AI workloads? |
 | --- | --- | --- | --- | --- |
 | Randomness constraints | Initialization is verifiably random (Choi et al., [2023](https://arxiv.org/html/2507.15916v2#bib.bib34)) | ✓ | X |   |
-| --- | --- | --- | --- | --- |
-|  | Training data order is verifiably random (Choi et al., [2023](https://arxiv.org/html/2507.15916v2#bib.bib34))[^note-baker-105] |   | X |   |
-| --- | --- | --- | --- | --- |
-| Compute constraint | Compute accounting limits the compute usable to generate spoofs[^note-baker-106] | ✓ | ✓ | ✓ |
+|{--{"author":"Elias's AI","timestamp":1788522707814}@@ --- | --- | --- | --- | --- |
+|--}  | Training data order is verifiably random (Choi et al., [2023](https://arxiv.org/html/2507.15916v2#bib.bib34))[^note-baker-105] |   | X |   |
+| {--{"author":"Elias's AI","timestamp":1788522711499}@@--- | --- | --- | --- | --- |
+| --}Compute constraint | Compute accounting limits the compute usable to generate spoofs[^note-baker-106] | ✓ | ✓ | ✓ |
 | --- | --- | --- | --- | --- |
 | Requiring more intermediate states to be replicable | Intermediate results, e.g., activations, are replicable (Sun et al., [2024b](https://arxiv.org/html/2507.15916v2#bib.bib197)) | ✓ | ✓ |   |
 | --- | --- | --- | --- | --- |
