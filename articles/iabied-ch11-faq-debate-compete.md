@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -37,6 +43,6 @@ Even if we ignore those issues, we're still stuck with the issues that we've alr
 
 Stepping back even further:
 
-The proposed plan here is that we don't know how to make smart AIs that want good things for us, so we're going to make a bunch of AIs and pit them against each other in a clever arrangement where we're supposed to benefit anyway. Structurally, we believe that this plan just sounds pretty crazy on its face, and that it doesn't actuallyget better if you look at the details. It doesn't seem at all like the sort of thing humanity can pull off properly [on the first try](https://ifanyonebuildsit.com/10/a-closer-look-at-before-and-after), in a situation where we don't have the luxury of learning from trial and error.
+The proposed plan here is that we don't know how to make smart AIs that want good things for us, so we're going to make a bunch of AIs and pit them against each other in a clever arrangement where we're supposed to benefit anyway. Structurally, we believe that this plan just sounds pretty crazy on its face, and that it doesn't {--{"author":"Luc's AI","timestamp":1788527376426}@@actuallyget--}{++{"author":"Luc's AI","timestamp":1788527376426}@@actually get++} better if you look at the details. It doesn't seem at all like the sort of thing humanity can pull off properly [on the first try](https://ifanyonebuildsit.com/10/a-closer-look-at-before-and-after), in a situation where we don't have the luxury of learning from trial and error.
 
 [^note-iabied-ftnt265]: For more on how AIs would have no trouble colluding with AIs that betray humans, see our answer to [Won't AIs need the rule of law?](https://ifanyonebuildsit.com/5/wont-ais-need-the-rule-of-law)
