@@ -91,9 +91,9 @@ To complete these subgoals, states could create six layers of verification—six
 | --}Interviews of personnel ([Section 4.3](https://arxiv.org/html/2507.15916v2#Sx5.SSx3 "4.3 Personnel-Based Verification Layers ‣ 4. Verification Mechanisms and Layers ‣ Verifying International Agreements on AI"))![\[Uncaptioned image\]](https://arxiv.org/html/2507.15916v2/media/media/image6.png) | Interviews may reveal violations at any verification subgoal, e.g., via inconsistencies or perhaps improved lie detection tech, but such tech is abusable. | Relatively simple and precedented. | Unclear effectiveness: depends on accomplices’ ability to lie undetected. |
 | {--{"author":"Elias's AI","timestamp":1788521954057}@@--- | --- | --- | --- |
 | --}National intelligence activities ([Section 4.3](https://arxiv.org/html/2507.15916v2#Sx5.SSx3 "4.3 Personnel-Based Verification Layers ‣ 4. Verification Mechanisms and Layers ‣ Verifying International Agreements on AI"))![\[Uncaptioned image\]](https://arxiv.org/html/2507.15916v2/media/media/image3.png) | Intelligence agencies could collect and analyze intelligence for all verification subgoals, including via human, cyber, and signals intelligence. | Precedented and may be feasible unilaterally. | More adversarial, harder for third parties to verify, and unclear effectiveness. |
-| --- | --- | --- | --- |
+{--{"author":"Elias's AI","timestamp":1788521957128}@@| --- | --- | --- | --- |
 |  |  |  |  |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- |--}
 
 Table 1: Six layers for verifying the compliance of large-scale AI development and deployment. Green (red) icons are Verifier-(un)trusted.
 
