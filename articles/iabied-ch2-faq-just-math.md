@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -20,6 +26,8 @@ Add discussion note here:
 Strictly speaking, an AI isn't "just" math. It's a physical machine whose operations can be described mathematically. If that machine has outputs that can be read by humans, or if it has outputs that are connected to robot bodies, then it is just as capable of affecting the world as you are (using "only" bioelectrical signals inside your brain).
 
 Compare:
+
+![A joke image suggesting that you can survive a tiger attack by remembering that the tiger is "just a bunch of atoms and biochemical reactions."](https://ifanyonebuildsit.com/Online%20Resources%20(All%20-%20Staged%20for%20Website)/images/image5.png "from How to Survive a Tiger Attack, WikiHow.com")
 
 For more on this subject, see Chapter 6.
 
@@ -37,7 +45,7 @@ And while it's *cool* that an endless variety of things can be built out of extr
 
 Sometimes, yes, we don't know all the rules for how something adds up, and then the step from simpler things to complicated things can feel very mysterious, and can in fact surprise us. But when we *do* understand how a complicated thing is made out of simpler parts, it ends up feeling as straightforward as building a model racecar out of LEGOs. When you can see how it works, it's all there in the blocks.
 
-The same is true for neural networks. We don't understand how the complex behavior of modern AIs arises from such simple parts the way we understand binary image formats and LEGOs. We don't even understand the "psychology" and "neuroscience" of AIs as well as we understand how the molecules and chemicals in a human neuron add up to human thought. That doesn't mean the knowledge *isn't there* or *can't exist*;it just means that we don't have it yet.
+The same is true for neural networks. We don't understand how the complex behavior of modern AIs arises from such simple parts the way we understand binary image formats and LEGOs. We don't even understand the "psychology" and "neuroscience" of AIs as well as we understand how the molecules and chemicals in a human neuron add up to human thought. That doesn't mean the knowledge *isn't there* or *can't exist*; it just means that we don't have it yet.
 
 Even without understanding why AIs work, humans can train them to play good chess. With enough parameters and arithmetic operations, we can train AIs to the point where they start talking like a person. You could say that the complicated patterns animating an AI to talk are "just math." But it's not "math" like questions on a high school math quiz. It's "just math" in the same way that a complete human brain is "just chemistry."
 
