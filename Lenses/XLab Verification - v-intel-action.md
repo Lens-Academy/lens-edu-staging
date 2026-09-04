@@ -46,19 +46,20 @@ discipline as the evidence standards in the capstone.
 :::callout {title="Unfinished writing" tone="amber"}
 This section's written output is proposed but not settled. The candidate is
 **red-lining the treaty text**: learners receive a verbatim excerpt from the
-MIRI draft US–China agreement — Definition 17, the definition of national
-technical means covering satellites, signals intelligence, imagery and so on,
-plus the noninterference and no-deliberate-concealment articles — and go
+MIRI draft US–China agreement — item 17 of Article II's definitions, the
+definition of national technical means covering satellites, signals
+intelligence, imagery and so on, plus Article X ¶1(b)(i) and (ii), the
+noninterference and no-deliberate-concealment clauses — and go
 through it with a pencil, as a lawyer preparing for negotiations would.
 
-The questions it would ask: what does Definition 17 omit? Whose satellites
+The questions it would ask: what does the Article II definition omit? Whose satellites
 count as "national" — is a commercial constellation under government tasking
 NTM or not? The word "cyber" inside the definition — is that legalized
 intelligence collection, or a license to hack that Beijing strikes out first?
 And what does "deliberate concealment" mean for AI — is behind-the-meter power
 generation camouflage, or ordinary industrial practice?
 
-The precedent suggests the noninterference clause should be the easy part, and
+The precedent suggests Article X's noninterference clause (¶1(b)(i)) should be the easy part, and
 that drafting dies on the sharing clause. That is the discovery the task is
 built to produce. It has not been built.
 :::
@@ -68,7 +69,7 @@ id:: b1cfa8da-fe64-4ad4-975b-1a6b08111099
 content::
 \### Written output, 2.3, Red-line: Red-line the NTM article
 
-Work from the verbatim MIRI text you annotated in 2.3.4: Definition 17 plus the noninterference and no-deliberate-concealment articles. Mark at least three gaps or ambiguities, starting from your four answers if you like, and redraft the one provision whose failure you judge most consequential. Then confront the question the historical record says drafters avoid: write the sharing clause the text lacks, or defend its absence in three sentences. Test whatever you write against 2.3.4’s rule, that states sign what is symmetric, cheap, and checkable, and finish with the both-capitals test: one paragraph on why Washington accepts your article, one on why Beijing does.
+Work from the treaty text quoted in 2.3.4: item 17 of Article II's definitions, plus Article X ¶1(b) and its clauses (i), (ii) and (iii). Mark at least three gaps or ambiguities, starting from your four answers if you like, and redraft the one provision whose failure you judge most consequential. Then confront the question the historical record says drafters avoid: write the sharing clause the text lacks, or defend its absence in three sentences. Test whatever you write against 2.3.4’s rule, that states sign what is symmetric, cheap, and checkable, and finish with the both-capitals test: one paragraph on why Washington accepts your article, one on why Beijing does.
 
 **Reader:** The drafters of a US–China agreement, read in both capitals.
 
