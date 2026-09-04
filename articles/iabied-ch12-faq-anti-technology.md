@@ -7,15 +7,21 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ entry distinguishes AI risk from other technology risks by scope: personal risk, customer risk, bystander risk, and species-level risk. Useful for discussing the precautionary principle and why analogies to past technologies (nuclear power, industrialization) can break down when the downside is irreversible and global.
 
 %%
-#### No. Superintelligent AI is a very unusual case.
+#### No. Superintelligent AI is a very unusual case. ^no-superintelligent-ai-is-a-very-unusual-case
 
 We publicly champion technologies such as [nuclear energy](https://x.com/ESYudkowsky/status/1908309414932832301), [cryonics](https://x.com/ESYudkowsky/status/1828822384054575537), [human intelligence augmentation](https://x.com/ESYudkowsky/status/1737305573018702258), and [human challenge trials for medical testing](https://x.com/ESYudkowsky/status/1321152172797554688).
 
