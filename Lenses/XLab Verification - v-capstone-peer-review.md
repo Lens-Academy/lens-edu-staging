@@ -82,7 +82,7 @@ content::
 \## Revision plan
 
 The three changes you will make this week, in order, with hours against each, and what you drop if the first takes longer than planned.
-assessment-instructions:: Give full credit when three changes are named concretely, ordered, with hours that sum to roughly the learner's remaining weekly budget (about three hours at the default pace, more if they said so in the proposal), and a named drop. Partial credit if changes are vague, hours are missing, or the drop is "work faster".
+assessment-instructions:: Give full credit when three changes are named concretely, ordered, with hours that sum to roughly the learner's remaining weekly budget (about three and a half hours at the default pace, more if they said so in the proposal), and a named drop. Partial credit if changes are vague, hours are missing, or the drop is "work faster".
 feedback-instructions:: Check whether the first change is the one that most improves the deliverable for its reader, or the easiest. If the easiest, ask what the reader gets from it. Confirm the arithmetic in one sentence. Then tell them what to bring to meeting 4: the one review point they rejected, and why. No praise.
 
 #### Text
