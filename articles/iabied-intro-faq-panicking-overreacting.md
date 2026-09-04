@@ -7,16 +7,22 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ entry is from the promotional site for the book *If Anyone Builds It, Everyone Dies* by Eliezer Yudkowsky and Nate Soares; it's a brief, high-level response and points readers to the book's introduction for the fuller argument.
 
 %%
 
-#### Yes. But this doesn't mean that nothing is ever *actually* dangerous.
+#### Yes. But this doesn't mean that nothing is ever *actually* dangerous. ^yes-but-this-doesnt-mean-that-nothing-is-ever-actually-dangerous
 
 Sometimes people overreact to problems. Some people are fatalistic. Some social panics are groundless. None of this means that we live in a perfectly safe world.
 
