@@ -169,4 +169,6 @@ key:: anything_else
 content:: Anything else we should change before next week?
 
 #### Text
-content:: — Grow the crew —\n\nNavigating gets better with more good people in the rotation. If someone comes to mind, grab your referral link at [lensacademy.org/referrals](https://lensacademy.org/referrals). It is tagged to you, so we know who to thank.
+content:: — Grow the crew —
+
+Navigating gets better with more good people in the rotation. If someone comes to mind, grab your referral link at [lensacademy.org/referrals](https://lensacademy.org/referrals). It is tagged to you, so we know who to thank.
