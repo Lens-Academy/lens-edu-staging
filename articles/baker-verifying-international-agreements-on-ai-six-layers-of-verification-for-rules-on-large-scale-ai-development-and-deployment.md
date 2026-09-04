@@ -1052,12 +1052,12 @@ Background: A Verifier may wish to verify that a declared workload was actually 
 |--}  | Optimizer states, e.g., gradients, are replicable | ✓ | X |   |{--{"author":"Elias's AI","timestamp":1788522170897}@@
 | --- | --- | --- | --- | --- |--}
 | Requiring replication of specific logged values | Values securely logged by on-chip mechanisms (Shavit, [2023](https://arxiv.org/html/2507.15916v2#bib.bib187)) ([Section 4.1](https://arxiv.org/html/2507.15916v2#Sx5.SSx1 "4.1 On-Chip Verification Layer ‣ 4. Verification Mechanisms and Layers ‣ Verifying International Agreements on AI")) or network taps ([Appendix A.3](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx3 "A.3 Network Taps & Analysis ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")) are replicable | ✓ | ✓ | ✓ |
-| --- | --- | --- | --- | --- |
-| Time or order constraints | Values were produced in specific time intervals or orders[^note-baker-107] | ✓ | ✓ | ✓ |
-| --- | --- | --- | --- | --- |
-| Requiring consistency with empirical trends | The norm of the weight changes lacks abrupt jumps (Choi et al., [2023](https://arxiv.org/html/2507.15916v2#bib.bib34)) | ✓ | X |   |
-| --- | --- | --- | --- | --- |
-|  | Models memorize the data most recently trained on (Choi et al., [2023](https://arxiv.org/html/2507.15916v2#bib.bib34)) | ✓ | X |   |
+| {--{"author":"Elias's AI","timestamp":1788522723815}@@--- | --- | --- | --- | --- |
+| --}Time or order constraints | Values were produced in specific time intervals or orders[^note-baker-107] | ✓ | ✓ | ✓ |
+| {--{"author":"Elias's AI","timestamp":1788522727520}@@--- | --- | --- | --- | --- |
+| --}Requiring consistency with empirical trends | The norm of the weight changes lacks abrupt jumps (Choi et al., [2023](https://arxiv.org/html/2507.15916v2#bib.bib34)) | ✓ | X |   |
+|{--{"author":"Elias's AI","timestamp":1788522731496}@@ --- | --- | --- | --- | --- |
+|--}  | Models memorize the data most recently trained on (Choi et al., [2023](https://arxiv.org/html/2507.15916v2#bib.bib34)) | ✓ | X |   |
 | --- | --- | --- | --- | --- |
 |  | The performance of model checkpoints fits the functional form of AI scaling laws (Kaplan et al., [2020](https://arxiv.org/html/2507.15916v2#bib.bib114); Hoffmann et al., [2022](https://arxiv.org/html/2507.15916v2#bib.bib98); Villalobos, [2023](https://arxiv.org/html/2507.15916v2#bib.bib220)) | ✓ | X | X |
 | --- | --- | --- | --- | --- |
