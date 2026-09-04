@@ -10,21 +10,21 @@ description: "Learn to see the landscape of AI possibility and build a model of 
 
 # Meeting: Unit 1
 meeting-doc-template:: https://docs.google.com/document/d/1lqbblsgNwgeBa6JEhgH5qk-hlPSUsZRcYAH-IMmSYD8/edit
-survey:: [[../surveys/AIF Unit 1 Survey]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../modules/unit-2-how-do-we-know|Unit 2: How Do We Know?]]
 
 # Meeting: Unit 2
 meeting-doc-template:: https://docs.google.com/document/d/1ueFST_L_ei4mvZYKOe1v5io1CqrHwqDwZKSLNcCM-qM/edit
-survey:: [[../surveys/AIF Unit 2 Survey]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/unit-3-how-could-it-go-wrong|Unit 3: How Could It Go Wrong?]]
 
 # Meeting: Unit 3
 meeting-doc-template:: https://docs.google.com/document/d/1OELeSrzaLpyNVUoLRAnRmelxAuu8JBkw5WwhOEP9yZk/edit
-survey:: [[../surveys/AIF Unit 3 Survey]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/unit-4-whats-the-plan|Unit 4: What's the Plan?]]
