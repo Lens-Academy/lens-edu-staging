@@ -144,12 +144,14 @@ id:: adc1c6ef-76db-4be7-840c-6456e8ae2805
 content:: Optional: For one specific frontier training run, list the information holders in order of how complete their picture is.
 optional:: true
 assessment-instructions:: XLab's marking key, 3 points: (1) the information holders are put in an actual order, not listed; (2, worth 2 points) each rank carries the reason its picture is more or less complete, what that actor sees and what it cannot see (Table 4 gives each stage its holding: the lab knows what was trained and on what, the cloud holds logs and billing, the fab holds shipments); reasoning required. No credit for listing information holders in the order the lesson happens to print them, with no claim about completeness. No generic praise.
+feedback-instructions:: First say whether the answer is an ordering with a claim behind it or a list. Then take the ranks whose reason is missing and give what that actor sees and what it cannot: the lab knows what was trained and on what, the cloud holds logs and billing, the fab holds shipments. If the order matches the order the lesson prints and no argument was made for it, say so plainly. Do not restate ranks the learner justified. No praise.
 
 #### Question: Open
 id:: 160e3cec-7fa2-4d1f-bb4f-d7140e91f58d
 content:: Optional: Name one actor that is a capability holder and an enforcement authority at the same time, and say why that pairing should make you uneasy.
 optional:: true
 assessment-instructions:: XLab's marking key, 3 points: (1) the actor named holds capability and enforcement at once; on this roster that is a state with a frontier programme of its own (Table 3 splits one signatory into institutions that do not want the same thing); (2, worth 2 points) the unease is stated as a mechanism: the same actor builds the thing and judges whether the rules about it were broken, so an unfavourable finding costs it twice; reasoning required. No credit for calling it a conflict of interest with no account of what the conflict costs the actor. No generic praise.
+feedback-instructions:: Say whether the actor named really holds both roles at once on this roster, and whether the unease was put as a mechanism or as a label. If the answer stops at conflict of interest, name the cost: the same actor builds the thing and judges whether the rules about it were broken, so an unfavourable finding costs it twice. Then ask which institution inside that actor would make the finding, which is Table 3's point. No praise.
 
 #### Text
 content::
