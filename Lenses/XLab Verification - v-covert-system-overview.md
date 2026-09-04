@@ -31,6 +31,13 @@ In your answers:
 - state explicitly when the available evidence does not justify a definite conclusion;
 - formulate counterarguments in their strongest plausible form.
 
+#### Article
+source:: [[../articles/cankaya-a-system-overview-for-near-term-low-trust-ai-compute-verification]]
+from:: "**Version 0.2, working draft**"
+to:: "| 10,000 | 5% | ~108,000 | 1 in 1,600 | 0.0028% |"
+
+#### Text
+content::
 \## Questions
 
 Read all 9 questions before beginning. Answer Questions 1, 2, 5, and any one question out of questions 3, 4, 7 or 9. Questions 6 and 8 are optional.
