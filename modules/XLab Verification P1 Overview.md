@@ -8,16 +8,13 @@ tags: [wip]
 # Lens: About This Course
 id:: ad19bb9d-1f42-48c2-ae70-2fe8636035a0
 tldr:: Two rivals sign a deal to slow down AI. Neither trusts the other. This course is about how each could still check that the other kept its word, and it takes you as far as the first evidence stream: hardware.
-summary_for_tutor:: Orientation page before Week 1. Learner reads what the course asks of them each week, that this is the first of two courses on the same curriculum with a separate capstone course after them, and that the material is an alpha from XLab with a feedback form. Do not teach later content in detail; if asked, point to the week that covers it, or say that cloud, intelligence, human mechanisms and covert development belong to the second course.
+summary_for_tutor:: Orientation page before Week 1. Learner reads what the course asks of them each week, that this is the first of two courses on the same curriculum with a separate capstone course after them, and that the course is based on XLab's open-source verification curriculum. Do not teach later content in detail; if asked, point to the week that covers it, or say that cloud, intelligence, human mechanisms and covert development belong to the second course.
+reading_minutes:: 3
 #### Text
 content::
 \## What this course is about
 
-How could parties that do not trust one another verify meaningful limits on advanced AI development? That is the question this course works through, from motivation and policy scope to the first concrete evidence stream. We built this course on the open-source verification curriculum of [XLab](https://xrisk.uchicago.edu/) at the University of Chicago.
-
-:::callout {title="Alpha version" tone="amber"}
-XLab is testing and calibrating this material with a small cohort before official launch, and the curriculum will likely change after that. Treat sequence, framing, and exercises as provisional. If you find something unclear, wrong, missing, or especially useful, please send feedback through [XLab's feedback form](https://forms.gle/KkWcHkKh87pygDzw9).
-:::
+How could parties that do not trust one another verify meaningful limits on advanced AI development? This Lens Academy course works through that question, from motivation and policy scope to the first concrete evidence stream. It is based on [XLab's](https://xrisk.uchicago.edu/) open-source verification curriculum. To send feedback directly to XLab, use [their feedback form](https://forms.gle/KkWcHkKh87pygDzw9).
 
 \## How the course runs
 
