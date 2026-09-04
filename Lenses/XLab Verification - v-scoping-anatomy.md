@@ -566,7 +566,7 @@ Texas Legislative Council, Research Division. *Reading Statutes and Bills*. 85th
 *MIRI's draft international agreement to prevent the premature creation of artificial superintelligence, the treaty text several lessons read against.*
 
 XLab. "1.1 Anatomy of a (pause) agreement." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-anatomy)
-*The source lesson this page adapts, including the treaty assignment and the Anatomy Drill.*
+*The source lesson this page adapts, including the treaty assignment and the Anatomy Drill.*{--{"author":"Elias's AI","timestamp":1788518525660}@@
 
-The Swiss Practice Guide to International Treaties is cited inline above; XLab's citation registry holds it only as a pending entry without bibliographic fields.
+The Swiss Practice Guide to International Treaties is cited inline above; XLab's citation registry holds it only as a pending entry without bibliographic fields.--}
 :::
