@@ -93,8 +93,8 @@ zero-knowledge warhead-verification precedent (Glaser, Barak and Goldston,
 \## Readings
 
 - MIRI draft US–China agreement — Article II's definitions and Article X,
-  verbatim (pp. 20, 39–40). The passages quoted above are the ones this section
-  turns on; ideally read the whole draft treaty at this point.
+  verbatim (pp. 20, 39–40). The passages excerpted above are the ones this
+  section turns on; ideally read the whole draft treaty at this point.
 - Baker §2.3.3, on sharing and its limits.
 - *Six Layers*, on the national-versus-international architecture argument.
 

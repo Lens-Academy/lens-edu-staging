@@ -1505,19 +1505,19 @@ AI compute is relatively specialized and large in its physical footprint, making
 | Resource used for AI development and deployment | Specialization: To what extent is the resource narrowly used for large-scale AI? | Physical footprint: How large is the physical footprint of this resource? |
 | --- | --- | --- |
 | Compute: high-end AI chips, typically in data centers | Relatively specialized | Relatively large[^note-baker-150] |
-| --- | --- | --- |
-| Data: AI training datasets | Somewhat[^note-baker-151] | Small |
-| --- | --- | --- |
-| Algorithms: e.g., model architectures and optimization algorithms for large-scale AI | Relatively specialized[^note-baker-152] | Small |
-| --- | --- | --- |
-| Human capital: frontier AI researchers and engineers | Somewhat[^note-baker-153] | Medium |
-| --- | --- | --- |
+| {--{"author":"Elias's AI","timestamp":1788521813368}@@--- | --- | --- |
+| --}Data: AI training datasets | Somewhat[^note-baker-151] | Small |
+| {--{"author":"Elias's AI","timestamp":1788521813368}@@--- | --- | --- |
+| --}Algorithms: e.g., model architectures and optimization algorithms for large-scale AI | Relatively specialized[^note-baker-152] | Small{--{"author":"Elias's AI","timestamp":1788521813368}@@ |
+| --- | --- | --- --}{++{"author":"Elias's AI","timestamp":1788521813368}@@ ++}|
+| Human capital: frontier AI researchers and engineers | Somewhat[^note-baker-153] | Medium{--{"author":"Elias's AI","timestamp":1788521813368}@@ |
+| --- | --- | -----} |
 | Electricity: power for data centers | Somewhat, in some cases[^note-baker-154] | Relatively large[^note-baker-155] |
-| --- | --- | --- |
-| Water: water for the cooling systems of data centers | No | Varies[^note-baker-156] |
+{--{"author":"Elias's AI","timestamp":1788521813368}@@| --- --}| {--{"author":"Elias's AI","timestamp":1788521813368}@@--- | --- |
+| --}Water: water for the cooling systems of data centers | No | Varies[^note-baker-156]{--{"author":"Elias's AI","timestamp":1788521813368}@@ |
 | --- | --- | --- |
 |  |  |  |
-| --- | --- | --- |
+| --- | --- | -----} |
 
 Table 16: Prominent resources used for AI development and deployment (Buchanan, [2020](https://arxiv.org/html/2507.15916v2#bib.bib26); Pilz and Heim, [2023](https://arxiv.org/html/2507.15916v2#bib.bib165)), by two properties that make verification less intrusive: specialization and physical footprint. More specialized resources can be overseen with less need to oversee unrelated activities, which could pose major confidentiality and logistical challenges.
 
