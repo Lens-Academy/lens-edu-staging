@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is a curated quote compilation from the authors' own book-promotion site, not a neutral survey — worth flagging to students that "p(doom)" figures are self-reported, elicited in varied contexts (interviews, podcasts, forum posts) over several years, and (per the authors' own footnote) may reflect very different underlying beliefs about whether catastrophe is avoidable. Good discussion prompt: why might selection and elicitation effects make these numbers hard to compare to one another.
 
 %%
 
