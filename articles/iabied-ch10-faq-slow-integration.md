@@ -7,15 +7,21 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-#### That scenario still ends in catastrophe.
+#### That scenario still ends in catastrophe. ^that-scenario-still-ends-in-catastrophe
 
 If AI passes some unknown [critical threshold](https://ifanyonebuildsit.com/1/will-ai-cross-critical-thresholds-and-take-off) and shoots up in intelligence very quickly, that makes alignment especially hard. But speed is not where the central difficulty comes from. The central difficulty lies in the difference between [Before and After](https://ifanyonebuildsit.com/10/a-closer-look-at-before-and-after).
 
@@ -27,7 +33,7 @@ In those several years, researchers would learn more about how AIs work. Researc
 
 At that point, researchers will have some pool of tricks and hacks they came up with to make AIs that *can't* take over more reliable and profitable. They would need this set of existing tricks and hacks to generalize to AIs that *can* take over. And they would need this to work on the first try.
 
-At the end of the day, sufficiently capable AIs will be lethally dangerous; and we can only learn from experimental failures that aren't lethal. This looks like a morehopeless problem if AI progress exhibits threshold effects, as seems likely. But that doesn't mean that there's a realistic chance that everything turns out great if we grow enormous numbers of opaque smarter-than-human AIs, but we do it *slowly*.
+At the end of the day, sufficiently capable AIs will be lethally dangerous; and we can only learn from experimental failures that aren't lethal. This looks like a {--{"author":"Luc's AI","timestamp":1788526661547}@@morehopeless--}{++{"author":"Luc's AI","timestamp":1788526661547}@@more hopeless++} problem if AI progress exhibits threshold effects, as seems likely. But that doesn't mean that there's a realistic chance that everything turns out great if we grow enormous numbers of opaque smarter-than-human AIs, but we do it *slowly*.
 
 One way to tell that there must be a difficult transition point *somewhere* is to consider a world full of billions of superintelligent AIs that are serving humans despite not actually caring about the humans' interests. In reality, the world would never get to such a state, assuming we're using anything like modern machine learning to build the AIs; things would go off the rails far sooner than that. But predicting exactly when and how is a hard call. Considering the extreme case makes it clear that at *some* point, things would go off the rails.
 
