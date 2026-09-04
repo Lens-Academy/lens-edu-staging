@@ -40,5 +40,6 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../modules/XLab Verification M4 Trust without trust]]
 
 # Meeting: Capstone
+meeting-doc-template:: https://docs.google.com/document/d/1pPDKqPZtu9TsJ_j994MuRnHupY3kklRpMXDvno8P_70/edit
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 {>>{"author":"Elias's AI","timestamp":1788009501547}@@Proposed: one meeting after each module (Overview + M0 form unit 1). No meeting-doc-template or learner survey yet: no docs exist for this course, and no course-specific learner survey. Navigator surveys reuse the existing generic pair, same as AI Risk Fundamentals and AI Futures.<<}
