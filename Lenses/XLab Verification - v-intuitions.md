@@ -231,6 +231,7 @@ Questions to consider:
 - If one plan appears technically easier to verify but politically harder to implement, how much should that affect your assessment?
 
 By this point, you should have compared the regimes across four dimensions: clarity of the verification target, strength of the evidence, monitoring burden, and political cooperation. (200 to 250 words)
+assessment-instructions:: Four things, 25 points each: (1) one hardest cooperation problem is named for Plan A and one for Plan S, and they are different problems rather than the same complaint stated twice; (2) for each, the actors with the strongest incentive to refuse participation, demand exemptions or withdraw later are identified; (3) the price of participation is stated, the commercially or militarily sensitive access verification would require and the economic, strategic or sovereignty cost it imposes; (4) the answer says how much each regime depends on solving its problem, and takes a position on how to weigh a plan that is technically easier to verify but politically harder to implement. Penalise answers that treat political difficulty as one undifferentiated obstacle. No generic praise.
 feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
@@ -253,6 +254,7 @@ optional:: true
 content:: You have already analyzed the comparison from four angles. Pull together the findings that matter most, consider the strongest argument against your own position, and answer: Which creates the more robust verification regime: Plan A or Plan S?
 
 Make a recommendation. Explain which considerations carry the most weight in your judgment, where important uncertainty remains, and what evidence or development would be most likely to change your view. (400 to 500 words)
+assessment-instructions:: This is option B's final essay and it must pull the four earlier comparisons together rather than start over. Four things, 25 points each: (1) a recommendation is made between Plan A and Plan S, and it matches the choice selected above; (2) material from at least three of the four angles appears, clarity of the verification target, strength of the evidence, monitoring burden and political cooperation, and the answer says which considerations carry the most weight and why; (3) the strongest argument against the learner's own position is stated and answered; (4) the remaining uncertainty is named, together with the evidence or development most likely to change the learner's view. Either plan can earn full credit. Penalise an essay that lists the four dimensions without ranking them. No generic praise.
 feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
