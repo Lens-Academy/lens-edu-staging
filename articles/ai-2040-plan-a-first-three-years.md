@@ -15,7 +15,7 @@ tags:
   - "hand-converted"
 ---
 
-AI companies are racing to build AIs that are smarter than humans in every way. In [AI 2027](https://ai-2027.com/), we predicted that this would result in either extinction or irreversible concentration of power.^([1](https://ai-2040.com/footnotes#footnote-1))
+AI companies are racing to build AIs that are smarter than humans in every way. In [AI 2027](https://ai-2027.com/), we predicted that this would result in either extinction or irreversible concentration of power.[1](https://ai-2040.com/footnotes#footnote-1)
 
 Plan A is our positive vision for what should happen instead.
 
@@ -23,11 +23,11 @@ In this scenario, humanity delays the development of superintelligence until 204
 
 **Plan A is our positive vision for how humanity can avoid AI-driven existential catastrophe and reach a flourishing future.** It’s informed by conversations with experts at major U.S. frontier AI companies, direct experience at OpenAI, tabletop exercises, and discussions with policymakers, national security experts, and AI policy leaders. We recommend an international deal to avoid a dangerous race to superintelligence. The deal involves [total research transparency](https://ai-2040.com/supplements/transparency-plan) for AI R&D, which allows the nations of the world to understand what’s happening and [enforce guardrails](https://www.ai-2040.com/supplements/verification-plan). The result is multiple companies across multiple countries scaling slowly and safely together towards superintelligence, instead of racing each other in secrecy.
 
-**Plan A is primarily a recommendation, not a prediction.** This scenario is *not* our best guess as to what the future will actually look like. Instead, it’s a vehicle for communicating and stress-testing our policy recommendations. While the *implementation* of Plan A is a recommendation and not what we actually expect to happen, the *subsequent effects depicted* are predictions.^([2](https://ai-2040.com/footnotes#footnote-2))
+**Plan A is primarily a recommendation, not a prediction.** This scenario is *not* our best guess as to what the future will actually look like. Instead, it’s a vehicle for communicating and stress-testing our policy recommendations. While the *implementation* of Plan A is a recommendation and not what we actually expect to happen, the *subsequent effects depicted* are predictions.[2](https://ai-2040.com/footnotes#footnote-2)
 
 In this AI 2040 scenario, Plan A is implemented successfully, albeit imperfectly and only in the nick of time.
 
-We contrast Plan A with 4 alternative plans (B, C, D, and S), which correspond to the main ways the US could respond (or not) to the challenges of superintelligence.^([3](https://ai-2040.com/footnotes#footnote-3))
+We contrast Plan A with 4 alternative plans (B, C, D, and S), which correspond to the main ways the US could respond (or not) to the challenges of superintelligence.[3](https://ai-2040.com/footnotes#footnote-3)
 
 **AI companies will probably succeed at their stated goal of building smarter-than-human AI systems within the next 1 to 10 years.**
 
