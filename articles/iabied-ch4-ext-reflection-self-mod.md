@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This piece argues that reflection doesn't reliably converge AI values toward human ones: an agent revises its goals using its *current* preferences, so a reflective process only entrenches whatever values it starts with. Worth flagging for discussion: the argument leans on an analogy between AI self-modification and human moral development (e.g., the "trapped by preferences" dialogue), and readers may want to probe whether that analogy holds given how differently AI training shapes goal structures compared to human upbringing/evolution.
 
 %%
 #### By Default, AIs Don't Self-Modify the Way We'd Want
@@ -43,7 +49,7 @@ There is no final step where the AI writes in the answer *you* want, any more th
 
 Instead, the point at which an agent begins to self-modify is yet another place for complications to potentially compound upon themselves, and for subtle shifts in initial conditions to result in vastly different endpoints.
 
-As an example: We, the authors, know multiple real human beings who cite a specific thought on a specific day around the age of five or six or seven as beinginfluential in the development of their personal philosophy and the adults into which they eventually matured. They tend to report that the thoughts didn't feel *inevitable* — that if a time traveler prevented them from thinking that thought on Tuesday, it's not obvious that the exact same thought would have eventually turned up on Thursday, or that it would have had the same impact. Formative experiences can be a big deal, and they're rife with contingency.
+As an example: We, the authors, know multiple real human beings who cite a specific thought on a specific day around the age of five or six or seven as {--{"author":"Luc's AI","timestamp":1788526133916}@@beinginfluential--}{++{"author":"Luc's AI","timestamp":1788526133916}@@being influential++} in the development of their personal philosophy and the adults into which they eventually matured. They tend to report that the thoughts didn't feel *inevitable* — that if a time traveler prevented them from thinking that thought on Tuesday, it's not obvious that the exact same thought would have eventually turned up on Thursday, or that it would have had the same impact. Formative experiences can be a big deal, and they're rife with contingency.
 
 In the same way, small twists in the thoughts of a nascent self-modifying AI could cause all sorts of idiosyncratic preferences to end up winning out over all other preferences.
 
@@ -111,7 +117,7 @@ In principle, it's not complicated to expand decision theory to incorporate unce
 
 What's going on inside humans as they reflect upon and update their values, however, seems to be notably more complicated.
 
-Klurl and Trapaucius, our two aliens from the parable at the start of Chapter 4, already struggled to predict human values from observations of proto-humans a million years ago. In fact, their situation is even worse. It's not enough for them to predict human *utilities* — to arrive at the correct answer, they'd have to predict humanity's *meta-utility framework* as it *departs from the simplest frameworks of decision theory*. They would need to *anticipate the meta-moral arguments that humans might end up inventing* and decide *which such arguments would be most* *persuasive**to humans.*[^note-iabied-ftnt166]
+Klurl and Trapaucius, our two aliens from the parable at the start of Chapter 4, already struggled to predict human values from observations of proto-humans a million years ago. In fact, their situation is even worse. It's not enough for them to predict human *utilities* — to arrive at the correct answer, they'd have to predict humanity's *meta-utility framework* as it *departs from the simplest frameworks of decision theory*. They would need to *anticipate the meta-moral arguments that humans might end up inventing* and decide *which such arguments would be most persuasive to humans.*[^note-iabied-ftnt166]
 
 Now suppose that the aliens don't know that humans will end up with *that exact* kind of complication. They just know that *complications of various sorts* are likely to arise, because brains are complicated and highly contingent things.
 
