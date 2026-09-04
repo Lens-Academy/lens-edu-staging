@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -16,7 +22,7 @@ Add discussion note here:
 
 %%
 
-#### Kindness looks contingent on the particulars of our biology and ancestry.
+#### Kindness looks contingent on the particulars of our biology and ancestry. ^kindness-looks-contingent-on-the-particulars-of-our-biology-and-ancestry
 
 Kindness does not look like the sort of property that every mind ends up with, for a variety of reasons. Here's four, which we cover in more depth in the extended discussions:
 
