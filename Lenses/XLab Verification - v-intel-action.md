@@ -53,8 +53,9 @@ and go through it with a pencil, as a lawyer preparing for negotiations would.
 
 The questions it asks: what does the Article II definition omit? Whose
 satellites count as "national" — is a commercial constellation under
-government tasking NTM or not? The word "cyber" inside the definition — is that legalized
-intelligence collection, or a license to hack that Beijing strikes out first?
+government tasking NTM or not? The word "cyber" inside the definition — is that
+legalized intelligence collection, or a license to hack that Beijing strikes
+out first?
 And what does "deliberate concealment" mean for AI — is behind-the-meter power
 generation camouflage, or ordinary industrial practice?
 
