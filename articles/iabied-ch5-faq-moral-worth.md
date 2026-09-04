@@ -30,6 +30,6 @@ Recall again how ChatGPT seems to *understand* that psychotic people should take
 
 Consider the case of human sociopaths and serial killers. You can recite ethics lectures to a human until you're blue in the face, but if the human isn't *motivated* by morality or empathy, it won't do any good.
 
-AIs are not likely to be motivated {--{"author":"Luc's AI","timestamp":1788530719898}@@bytheir--}{++{"author":"Luc's AI","timestamp":1788530719898}@@by their++} moral understanding — any more than humans who learn about evolutionary biology are thereby motivated to spend their life donating to every sperm or egg bank as much as possible. We humans can understand the process that created us, without being motivated to do the things that process built us to do. AI is the same way.
+AIs are not likely to be motivated by their moral understanding — any more than humans who learn about evolutionary biology are thereby motivated to spend their life donating to every sperm or egg bank as much as possible. We humans can understand the process that created us, without being motivated to do the things that process built us to do. AI is the same way.
 
 See also the extended discussion on the [orthogonality thesis](https://ifanyonebuildsit.com/5/orthogonality-ais-can-have-almost-any-goal).

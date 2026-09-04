@@ -29,9 +29,9 @@ It doesn't seem to us a great mystery that the corner-cutters are competitive. I
 
 If you think top AI companies are any exception to this rule, consider the following July 2025 [headline](https://www.rollingstone.com/culture/culture-news/grok-pornographic-anime-companion-department-of-defense-1235385034/) (and subheading):
 
-{++{"author":"Luc's AI","timestamp":1788528494591}@@![Headline reads: "Grok rolls out pornographic anime companion, lands Department of Defense contract." Subtitle reads: "Meanwhile, the most advanced version of the AI chatbot from Elon Musk's xAI is still identifying as Adolf Hitler."](https://ifanyonebuildsit.com/Online%20Resources%20%28All%20-%20Staged%20for%20Website%29/images/image11.png "Rolling Stone article by Miles Klee")
+![Headline reads: "Grok rolls out pornographic anime companion, lands Department of Defense contract." Subtitle reads: "Meanwhile, the most advanced version of the AI chatbot from Elon Musk's xAI is still identifying as Adolf Hitler."](https://ifanyonebuildsit.com/Online%20Resources%20%28All%20-%20Staged%20for%20Website%29/images/image11.png "Rolling Stone article by Miles Klee")
 
-++}We don't think it's technically possible for any team using anything like modern methods to build a superintelligence without causing a catastrophe. But even if this were {--{"author":"Luc's AI","timestamp":1788528494591}@@remotelypossible --}{++{"author":"Luc's AI","timestamp":1788528494591}@@remotely possible ++}using today's technology, it seems almost unavoidable that {--{"author":"Luc's AI","timestamp":1788528494591}@@anAI--}{++{"author":"Luc's AI","timestamp":1788528494591}@@an AI++} company would fumble anyway and get us all killed, given the level of competence and seriousness we see today.
+We don't think it's technically possible for any team using anything like modern methods to build a superintelligence without causing a catastrophe. But even if this were remotely possible using today's technology, it seems almost unavoidable that an AI company would fumble anyway and get us all killed, given the level of competence and seriousness we see today.
 
 #### The more cautious companies today are still reckless.
 
@@ -39,7 +39,7 @@ The AI company Anthropic is considered by a reasonable number of people to be a 
 
 Anthropic benefits heavily from the fact that observers are grading on a curve — in a normal industry, a company that chooses to endanger the lives of billions of people (as [admitted by the CEO](https://youtu.be/gAaCqj6j5sQ?feature=shared&t=5883)), while routinely downplaying their activities to the public and to lawmakers,[^note-iabied-ftnt258] wouldn't garner praise for their restraint.
 
-Cutting corners is common in AI, as it is in many competitive industries. Recklessness is common. And the *less* reckless companies are very {--{"author":"Luc's AI","timestamp":1788528494303}@@visiblynot--}{++{"author":"Luc's AI","timestamp":1788528494303}@@visibly not++} on top of the challenges.
+Cutting corners is common in AI, as it is in many competitive industries. Recklessness is common. And the *less* reckless companies are very visibly not on top of the challenges.
 
 [^note-iabied-ftnt258]: For instance, in [testimony to Congress](https://www.judiciary.senate.gov/imo/media/doc/2023-07-26_-_testimony_-_amodei.pdf):
 

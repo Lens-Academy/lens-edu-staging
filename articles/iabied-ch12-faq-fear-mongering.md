@@ -25,7 +25,7 @@ This is a companion-site FAQ entry rebutting the "AI risk talk is just corporate
 
 Throughout the book, we've laid out our case for the claim that rushing ahead on AI is likely to get us all killed. In Chapter 3, we discussed how AI will have its own drives and goals. In Chapters 4 and 5, we discussed why AI is likely to pursue ends that nobody intended, and in Chapter 6, we spelled out how machine superintelligences will have not just a motive but a *means* to kill us all.
 
-{--{"author":"Luc's AI","timestamp":1788529926807}@@Theseare--}{++{"author":"Luc's AI","timestamp":1788529926807}@@These are++} the sorts of claims we beg you to evaluate when deciding whether the race to superintelligence should be put to a stop. A person can't figure out whether AI research is on track to kill us all by arguing back and forth about the schemes of corporate executives.
+These are the sorts of claims we beg you to evaluate when deciding whether the race to superintelligence should be put to a stop. A person can't figure out whether AI research is on track to kill us all by arguing back and forth about the schemes of corporate executives.
 
 Are the CEOs trying to drum up hype by talking about "AI risk"?
 

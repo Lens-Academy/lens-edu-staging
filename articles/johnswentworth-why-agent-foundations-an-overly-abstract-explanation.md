@@ -32,7 +32,7 @@ Note that this post is not an attempt to address people who already have strong 
 
 ## Starting Point: The Obvious Stupid Idea
 
-Let’s start from the obvious stupid idea for how to produce an aligned AI: have humans label {--{"author":"Luc's AI","timestamp":1788540791839}@@policies/​plans/​actions/​outcomes--}{++{"author":"Luc's AI","timestamp":1788540791839}@@policies/plans/actions/outcomes++} as good or bad, and then train an AI to optimize for the good things and avoid the bad things. (This is intentionally general enough to cover a broad range of setups; if you want something more specific, picture RL from human feedback.)
+Let’s start from the obvious stupid idea for how to produce an aligned AI: have humans label policies/plans/actions/outcomes as good or bad, and then train an AI to optimize for the good things and avoid the bad things. (This is intentionally general enough to cover a broad range of setups; if you want something more specific, picture RL from human feedback.)
 
 Assuming that this strategy could be efficiently implemented at scale, why would it not produce an aligned AI?
 
@@ -64,9 +64,9 @@ Returning to our two alignment subproblems from earlier:
 > 2.  The trained system will likely end up implementing strategies which do “good”-labeled things in the training environment, but those strategies will not necessarily continue to do the things humans would consider “good” in other environments. The canonical analogy here is to human evolution: humans use condoms, even though evolution selected us to maximize reproductive fitness.
 >     
 
-Goodhart in the context of problem (1): train a powerful AI to make things look good to humans, and we have the same problem as instagram food, but with _way_ more optimization power applied. Think “Potemkin village world”—a world designed to look amazing, but with nothing behind the facade. Maybe not even any living humans behind the facade—after all, even generally-happy real humans will inevitably sometimes put forward appearances which would not appeal to the {--{"author":"Luc's AI","timestamp":1788540791628}@@“good”/​”bad”-labellers.--}{++{"author":"Luc's AI","timestamp":1788540791628}@@“good”/”bad”-labellers.++}
+Goodhart in the context of problem (1): train a powerful AI to make things look good to humans, and we have the same problem as instagram food, but with _way_ more optimization power applied. Think “Potemkin village world”—a world designed to look amazing, but with nothing behind the facade. Maybe not even any living humans behind the facade—after all, even generally-happy real humans will inevitably sometimes put forward appearances which would not appeal to the “good”/”bad”-labellers.
 
-Goodhart in the context of problem (2): pretend our {--{"author":"Luc's AI","timestamp":1788540791408}@@“good”/​”bad”--}{++{"author":"Luc's AI","timestamp":1788540791408}@@“good”/”bad”++} labels are perfect, but the system ends up optimizing for some target which doesn’t quite track our “good” labels, especially in new environments. Then that system ends up optimizing for whatever proxy it learned; we get the AI-equivalent of humans wearing condoms despite being optimized for reproductive fitness. And the AI then optimizes for that really hard.
+Goodhart in the context of problem (2): pretend our “good”/”bad” labels are perfect, but the system ends up optimizing for some target which doesn’t quite track our “good” labels, especially in new environments. Then that system ends up optimizing for whatever proxy it learned; we get the AI-equivalent of humans wearing condoms despite being optimized for reproductive fitness. And the AI then optimizes for that really hard.
 
 Now, we’ve only talked about the problems with one particular alignment strategy. (We even explicitly picked a pretty stupid one.) But we’ve already seen the same basic issue come up in two different subproblems: Goodhart’s Law means that proxies which might at first glance seem approximately-fine will break down when lots of optimization pressure is applied. And when we’re talking about aligning powerful future AI, we’re talking about a _lot_ of optimization pressure. That’s the key idea which generalizes to other alignment strategies: crappy proxies won’t cut it when we start to apply a lot of optimization pressure.
 
@@ -94,7 +94,7 @@ We might accidentally stumble on successful alignment techniques. ([Alignment By
 
 Aside from that, I also think the world provides lots of evidence that we are unlikely to accidentally stumble on successful alignment techniques, as well as lots of evidence that various specific classes of things which people suggest will not work. This evidence largely comes from failure to solve analogous existing problems “by default”. That’s a story for another post, though.
 
-## What “True Names” Do We {--{"author":"Luc's AI","timestamp":1788540791189}@@Want/​Need--}{++{"author":"Luc's AI","timestamp":1788540791189}@@Want/Need++} For Alignment?
+## What “True Names” Do We Want/Need For Alignment?
 
 What kind of “True Names” are needed for the two alignment subproblems discussed earlier?
 
@@ -103,7 +103,7 @@ What kind of “True Names” are needed for the two alignment subproblems discu
 > 2.  The trained system will likely end up implementing strategies which do “good”-labeled things in the training environment, but those strategies will not necessarily continue to do the things humans would consider “good” in other environments. The canonical analogy here is to human evolution: humans use condoms, even though evolution selected us to maximize reproductive fitness.
 >     
 
-In the first subproblem, our {--{"author":"Luc's AI","timestamp":1788540790944}@@“good”/​”bad”--}{++{"author":"Luc's AI","timestamp":1788540790944}@@“good”/”bad”++} labeling process is an imperfect proxy of what we actually want, and that proxy breaks down under optimization pressure. If we had the “True Name” of human values (insofar as such a thing exists), that would potentially solve the problem. Alternatively, rather than figuring out a “True Name” for human values directly, we could figure out a “pointer” to human values—something from which the “True Name” of human values could be automatically _generated_ (analogous to the way that a True Name of nail-value is implicitly generated in an efficient market). Or, we could figure out the “True Names” of various other things as a substitute, like “do what I mean” or “corrigibility”.
+In the first subproblem, our “good”/”bad” labeling process is an imperfect proxy of what we actually want, and that proxy breaks down under optimization pressure. If we had the “True Name” of human values (insofar as such a thing exists), that would potentially solve the problem. Alternatively, rather than figuring out a “True Name” for human values directly, we could figure out a “pointer” to human values—something from which the “True Name” of human values could be automatically _generated_ (analogous to the way that a True Name of nail-value is implicitly generated in an efficient market). Or, we could figure out the “True Names” of various other things as a substitute, like “do what I mean” or “corrigibility”.
 
 In the second subproblem, the goals in the trained system are an imperfect proxy of the goals on which the system is trained, and that proxy breaks down when the trained system optimizes for it in a new environment. If we had the “True Names” of things like optimizers and goals, we could inspect a trained system directly to see if it contained any “[inner optimizer](https://www.greaterwrong.com/tag/inner-alignment)” with a goal very different from what we intended. Ideally, we could also apply such techniques to physical systems like humans, e.g. as a way to point to human values.
 
@@ -128,7 +128,7 @@ Regardless of the exact starting point, seekers of “True Names” quickly find
 
 ## Aside: Generalizability
 
-Instead of framing all this in terms of Goodhart’s Law, we could instead frame it in terms of generalizability. Indeed, Goodhart’s Law itself can be viewed as a {--{"author":"Luc's AI","timestamp":1788540790715}@@case/​driver--}{++{"author":"Luc's AI","timestamp":1788540790715}@@case/driver++} of generalization failure: optimization by default pushes things into new regimes, and Goodhart’s Law consists of a proxy failing to generalize as intended into those new regimes.
+Instead of framing all this in terms of Goodhart’s Law, we could instead frame it in terms of generalizability. Indeed, Goodhart’s Law itself can be viewed as a case/driver of generalization failure: optimization by default pushes things into new regimes, and Goodhart’s Law consists of a proxy failing to generalize as intended into those new regimes.
 
 In this frame, a “True Name” is a mathematical formulation which _robustly generalizes as intended_.
 

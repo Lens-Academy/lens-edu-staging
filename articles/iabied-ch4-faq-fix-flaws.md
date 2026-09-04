@@ -56,15 +56,15 @@ In other words: If an AI fixes its own flaws, it will fix them *according to its
 
 (We'll discuss this point more in Chapter 5, and in the [discussion of the orthogonality thesis](https://ifanyonebuildsit.com/5/orthogonality-ais-can-have-almost-any-goal) in Chapter 5's online resources.)
 
-An AI that doesn't already prefer to be aimed at humane values is very unlikely to modify itself to {--{"author":"Luc's AI","timestamp":1788526897903}@@startaiming--}{++{"author":"Luc's AI","timestamp":1788526897903}@@start aiming++} at humane values. Its direct preferences about the world aren't particularly likely to be kind, as we reiterate in an [extended discussion](https://ifanyonebuildsit.com/4/human-values-are-contingent). An AI's meta-level preferences *about* its preferences are no more likely to be kind.
+An AI that doesn't already prefer to be aimed at humane values is very unlikely to modify itself to start aiming at humane values. Its direct preferences about the world aren't particularly likely to be kind, as we reiterate in an [extended discussion](https://ifanyonebuildsit.com/4/human-values-are-contingent). An AI's meta-level preferences *about* its preferences are no more likely to be kind.
 
 If it doesn't start out caring about human welfare, it probably also doesn't care about *caring* about human welfare.
 
-#### The AI's "fixes" can make things worse.{++{"author":"Luc's AI","timestamp":1788526897631}@@ ^the-ais-fixes-can-make-things-worse++}
+#### The AI's "fixes" can make things worse. ^the-ais-fixes-can-make-things-worse
 
-Even if the AI engineers made some surprising early progress toward instilling scraps of vaguely humane goals into the AI, all of that progress might be undone in an afternoon if the AI starts to reflect and realizes that on balance, it would rather have {--{"author":"Luc's AI","timestamp":1788526897631}@@othergoals--}{++{"author":"Luc's AI","timestamp":1788526897631}@@other goals++} instead.
+Even if the AI engineers made some surprising early progress toward instilling scraps of vaguely humane goals into the AI, all of that progress might be undone in an afternoon if the AI starts to reflect and realizes that on balance, it would rather have other goals instead.
 
-In the unlikely case that an AI that {--{"author":"Luc's AI","timestamp":1788526897631}@@startswith--}{++{"author":"Luc's AI","timestamp":1788526897631}@@starts with++} a drive toward something like the idiosyncratic human emotion of curiosity (which we cover in an [extended discussion](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent)), it still might, upon reflection, decide that it prefers not to have such a drive, opting to replace it with a more efficient calculation about the value of having more information. If so, the AI's act of reflecting on itself would push it *further away* from an interesting and flourishing future, not closer.[^note-iabied-ftnt126]
+In the unlikely case that an AI that starts with a drive toward something like the idiosyncratic human emotion of curiosity (which we cover in an [extended discussion](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent)), it still might, upon reflection, decide that it prefers not to have such a drive, opting to replace it with a more efficient calculation about the value of having more information. If so, the AI's act of reflecting on itself would push it *further away* from an interesting and flourishing future, not closer.[^note-iabied-ftnt126]
 
 For more on this topic, see the [extended discussion on reflection](https://ifanyonebuildsit.com/4/reflection-and-self-modification-make-it-all-harder).
 

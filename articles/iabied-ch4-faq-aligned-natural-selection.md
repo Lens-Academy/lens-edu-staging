@@ -44,7 +44,7 @@ For instance: Our drive for children is not *quite* a drive for genetic propagat
 
 We expect that lots of parents would be thrilled to hear that their children got the treatment. And maybe there would be a number of holdouts at first, but we expect that if the technology were proven to work, and if it became cheap and reliable, that it would eventually become ubiquitous. Which reveals us for what we are: people who like having *children*, having families, having fun — not people who like *propagating our DNA*.
 
-It seems to us that most humans simply don't care about genetic fitness *at all,* in the deep sense. {--{"author":"Luc's AI","timestamp":1788526431604}@@Wecare--}{++{"author":"Luc's AI","timestamp":1788526431604}@@We care++} about [proxies](https://ifanyonebuildsit.com/4/brittle-unpredictable-proxies), like friendship and love and family and children. We maybe even care about passing on some of our traits to the next generation. But *genes*, specifically?
+It seems to us that most humans simply don't care about genetic fitness *at all,* in the deep sense. We care about [proxies](https://ifanyonebuildsit.com/4/brittle-unpredictable-proxies), like friendship and love and family and children. We maybe even care about passing on some of our traits to the next generation. But *genes*, specifically?
 
 Every time that humanity has unlocked a technology that let us get more of what we like — such as tasty foods, or sex without reproduction — humanity has taken the bargain. We aren't technologically advanced enough that we're *able* to trade away genomes for longer and healthier lives. But that sort of thing looks possible in physical principle,[^note-iabied-ftnt129] and so it doesn't look good for natural selection in the long run.
 

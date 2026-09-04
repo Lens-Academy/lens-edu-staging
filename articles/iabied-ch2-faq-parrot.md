@@ -77,14 +77,12 @@ None of this is an argument that LLMs in particular will learn those patterns to
 
 We'll have more to say, in Chapter 3, about how an AI might generalize from a narrow set of examples to a more general capacity.
 
-{--{"author":"Luc's AI","timestamp":1788540409703}@@#### Notes
+[^cite-jurafsky-slp]: *n-gram system:* This example is taken from Jurafsky & Martin's *[Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/3.pdf)*, 3rd Edition.
 
-[1]--}{++{"author":"Luc's AI","timestamp":1788540409703}@@[^cite-jurafsky-slp]:++} *n-gram system:* This example is taken from Jurafsky & Martin's *[Speech and Language {--{"author":"Luc's AI","timestamp":1788540409703}@@Processing](https://web.stanford.edu/~jurafsky/slp3/3.pdf)**,*--}{++{"author":"Luc's AI","timestamp":1788540409703}@@Processing](https://web.stanford.edu/~jurafsky/slp3/3.pdf)*,++} 3rd Edition.
+[^cite-anthropic-tracing-thoughts]: *more than just one word ahead:* See the [Anthropic blog](https://www.anthropic.com/research/tracing-thoughts-language-model#does-claude-plan-its-rhymes) for details.
 
-{--{"author":"Luc's AI","timestamp":1788540409703}@@[2]--}{++{"author":"Luc's AI","timestamp":1788540409703}@@[^cite-anthropic-tracing-thoughts]:++} *more than just one word ahead:* See the [Anthropic blog](https://www.anthropic.com/research/tracing-thoughts-language-model#does-claude-plan-its-rhymes) for details.
+[^cite-lecun-alphago]: *people who argued:* For instance, Yann LeCun argued in the wake of AlphaGo's victory over Lee Sedol that AlphaGo was "[not true artificial intelligence](https://www.information-age.com/google-deepminds-alphago-victory-not-true-ai-says-facebooks-ai-chief-1116/)" because it relied on supervised learning.
 
-{--{"author":"Luc's AI","timestamp":1788540409703}@@[3]--}{++{"author":"Luc's AI","timestamp":1788540409703}@@[^cite-lecun-alphago]:++} *people who argued:* For instance, Yann LeCun argued in the wake of AlphaGo's victory over Lee Sedol that AlphaGo was "[not true artificial intelligence](https://www.information-age.com/google-deepminds-alphago-victory-not-true-ai-says-facebooks-ai-chief-1116/)" because it relied on supervised learning.
+[^cite-alphazero-preprint]: *only three days:* Figure 1, p. 4 of the [AlphaZero preprint](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphazero-shedding-new-light-on-chess-shogi-and-go/alphazero_preprint.pdf): "20 blocks over 3 days."
 
-{--{"author":"Luc's AI","timestamp":1788540409703}@@[4]--}{++{"author":"Luc's AI","timestamp":1788540409703}@@[^cite-alphazero-preprint]:++} *only three days:* Figure 1, p. 4 of the [AlphaZero preprint](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphazero-shedding-new-light-on-chess-shogi-and-go/alphazero_preprint.pdf): "20 blocks over 3 days."
-
-{--{"author":"Luc's AI","timestamp":1788540409703}@@[5]--}{++{"author":"Luc's AI","timestamp":1788540409703}@@[^cite-nyt-hundred-years]:++} *a hundred years:* One such prediction was made by George Johnson [in the](https://www.nytimes.com/1997/07/29/science/to-test-a-powerful-computer-play-an-ancient-game.html) *[New York Times](https://www.nytimes.com/1997/07/29/science/to-test-a-powerful-computer-play-an-ancient-game.html)*.
+[^cite-nyt-hundred-years]: *a hundred years:* One such prediction was made by George Johnson [in the](https://www.nytimes.com/1997/07/29/science/to-test-a-powerful-computer-play-an-ancient-game.html) *[New York Times](https://www.nytimes.com/1997/07/29/science/to-test-a-powerful-computer-play-an-ancient-game.html)*.
