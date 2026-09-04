@@ -39,6 +39,4 @@ Any corporate executives who *actually were* making AI solely to make it possibl
 
 As for those who have kept pushing even past all the warning signs? The obvious inference is that they were never actually building AI just for the sake of solving alignment, no matter what they said to console fears back when they were justifying their reckless behavior in the 2010s.
 
-{--{"author":"Luc's AI","timestamp":1788528216211}@@#### Notes
-
-[1]--}{++{"author":"Luc's AI","timestamp":1788528216211}@@[^note-fairly-obvious]:++} *fairly obvious:* Yudkowsky has been criticising the flaws in old designs since [at least 2008](https://www.lesswrong.com/posts/p7ftQ6acRkgo6hqHb/dreams-of-ai-design).
+[^note-fairly-obvious]: *fairly obvious:* Yudkowsky has been criticising the flaws in old designs since [at least 2008](https://www.lesswrong.com/posts/p7ftQ6acRkgo6hqHb/dreams-of-ai-design).

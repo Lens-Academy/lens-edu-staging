@@ -22,9 +22,7 @@ Part of Yudkowsky's 2008 "optimization" sequence on LessWrong; the "efficient cr
 %%
 
 **Previously in series**: [Measuring Optimization Power](https://www.lesswrong.com/lw/va/measuring_optimization_power)
-{--{"author":"Luc's AI","timestamp":1788541043648}@@
-hello world
---}
+
 Is Deep Blue "intelligent"? It was powerful enough at optimizing chess boards to defeat Kasparov, perhaps the most skilled chess player humanity has ever fielded.
 
 A bee builds hives, and a beaver builds dams; but a bee doesn't build dams and a beaver doesn't build hives. A human, watching, thinks, "Oh, I see how to do it" and goes on to build a dam using a honeycomb structure for extra strength.

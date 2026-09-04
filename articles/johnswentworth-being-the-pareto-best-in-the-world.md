@@ -54,7 +54,7 @@ This brings up another aspect…
 
 Claiming a spot on a Pareto frontier gives you some chunk of the skill-space to call your own. But that’s only useful to the extent that your territory contains useful problems.
 
-Two pieces factor in here. First, how large a territory can you claim? This is about elbow room, as in the diagram above. Second, what’s the density of useful problems within this region of skill-space? The table tennis/sprinting space doesn’t have a whole lot going on. Statistics and gerontology sounds more promising. Cryptography and monetary economics is probably a particularly rich Pareto frontier these days. (And of course, we don’t need to stop at two {--{"author":"Luc's AI","timestamp":1788540689105}@@dimensions - but--}{++{"author":"Luc's AI","timestamp":1788540689105}@@dimensions—but++} we’re going to stop there in this post in order to keep things simple.)
+Two pieces factor in here. First, how large a territory can you claim? This is about elbow room, as in the diagram above. Second, what’s the density of useful problems within this region of skill-space? The table tennis/sprinting space doesn’t have a whole lot going on. Statistics and gerontology sounds more promising. Cryptography and monetary economics is probably a particularly rich Pareto frontier these days. (And of course, we don’t need to stop at two dimensions—but we’re going to stop there in this post in order to keep things simple.)
 
 ## Dimensionality ^dimensionality
 

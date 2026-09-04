@@ -33,6 +33,4 @@ Human intelligence has many limitations, and yet it put us on the moon. Animal i
 
 Artificial superintelligences could have limitations and complications as well, while still being able to blow humans out of the water. A qualitative gap could still open up between them and us, if researchers and engineers keep racing to create AIs that are ever-more capable.
 
-{--{"author":"Luc's AI","timestamp":1788525694538}@@#### Notes
-
-[1]--}{++{"author":"Luc's AI","timestamp":1788525694538}@@[^cite-davis-ethical-guidelines]:++} *heard it suggested:* See, for example, Ernest Davis's "[Ethical Guidelines for a Superintelligence](https://cs.nyu.edu/~davise/papers/Bostrom.pdf)."
+[^cite-davis-ethical-guidelines]: *heard it suggested:* See, for example, Ernest Davis's "[Ethical Guidelines for a Superintelligence](https://cs.nyu.edu/~davise/papers/Bostrom.pdf)."

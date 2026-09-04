@@ -105,6 +105,4 @@ At some unknown point, if we continue down this path, we will run at breakneck s
 
 [^note-iabied-ftnt254]: As we observe in the book's Chapter 10 endnote 6, physicists do not actually give neutron multiplication factors in percentages. We give them that way for clarity, for reasons discussed in the aforementioned endnote.
 
-{--{"author":"Luc's AI","timestamp":1788526211594}@@#### Notes
-
-[1]--}{++{"author":"Luc's AI","timestamp":1788526211594}@@[^note-iabied-note1]:++} *first thermonuclear weapon:* Castle Bravo was not the first detonation of a thermonuclear (hydrogen) *device;* that distinction belongs to the building-sized "Mike" of the [Ivy Mike test](https://en.wikipedia.org/wiki/Ivy_Mike), which did not rely on lithium.
+[^note-iabied-note1]: *first thermonuclear weapon:* Castle Bravo was not the first detonation of a thermonuclear (hydrogen) *device;* that distinction belongs to the building-sized "Mike" of the [Ivy Mike test](https://en.wikipedia.org/wiki/Ivy_Mike), which did not rely on lithium.

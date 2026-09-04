@@ -30,8 +30,6 @@ By depicting Galvanic as being on the more paranoid end of the spectrum (while s
 
 We happen to believe that the most reckless AI companies would be markedly more reckless than Galvanic, for reasons we'll get into in Chapter 11. And it's the most reckless companies that matter here, not the most responsible. If three responsible companies avoid building a machine superintelligence because it would be too dangerous, but a fourth irresponsible company rushes ahead, then superintelligence gets built in that fourth lab.
 
-Today, corporate executives at the labs argue, "Better me than {--{"author":"Luc's AI","timestamp":1788539146041}@@them!"--}{++{"author":"Luc's AI","timestamp":1788539146041}@@them!"[^note-better-me-than-them]++} Today, executives only exercise as much caution as they can manage without slowing down at all, which we would guess results in {--{"author":"Luc's AI","timestamp":1788539146041}@@lesscaution--}{++{"author":"Luc's AI","timestamp":1788539146041}@@less caution++} than Galvanic is depicted as taking with Sable.
+Today, corporate executives at the labs argue, "Better me than them!"[^note-better-me-than-them] Today, executives only exercise as much caution as they can manage without slowing down at all, which we would guess results in less caution than Galvanic is depicted as taking with Sable.
 
-{--{"author":"Luc's AI","timestamp":1788539146041}@@#### Notes
-
-[1]--}{++{"author":"Luc's AI","timestamp":1788539146041}@@[^note-better-me-than-them]:++} *better me than them:* For instance, in a [YouTube clip](https://www.youtube.com/watch?v=cFIlta1GkiE&t=2126s), the CEO of xAI talks about realizing that he could be either a spectator or a participant in the AI race, and deciding that he wants to be a participant.
+[^note-better-me-than-them]: *better me than them:* For instance, in a [YouTube clip](https://www.youtube.com/watch?v=cFIlta1GkiE&t=2126s), the CEO of xAI talks about realizing that he could be either a spectator or a participant in the AI race, and deciding that he wants to be a participant.

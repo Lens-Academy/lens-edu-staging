@@ -59,6 +59,4 @@ We'll go into more detail on why we think prediction and steering probably don't
 
 [^note-iabied-ftnt25]: Depending on your psychological and philosophical views, you might think that these topics are connected. We're more skeptical of a strong, tight connection here; but if there is a connection, it still seems valuable to explicitly distinguish these different subject matters. If, for example, self-modeling turns out to be inextricably linked to consciousness, that's an important fact that should be discussed and hashed out explicitly, not an assumption that we should bake in at the outset.
 
-{--{"author":"Luc's AI","timestamp":1788525244080}@@#### Notes
-
-[1]--}{++{"author":"Luc's AI","timestamp":1788525244080}@@[^cite-iabied-ftnt1]:++} *threaten to kill themselves:* Users report that Google's Gemini AI [threatens to uninstall itself](https://x.com/venturetwins/status/1936483773035798906) from projects, or to [delete all its code](https://x.com/DuncanHaldane/status/1937204975035384028), when it's having trouble completing some task.
+[^cite-iabied-ftnt1]: *threaten to kill themselves:* Users report that Google's Gemini AI [threatens to uninstall itself](https://x.com/venturetwins/status/1936483773035798906) from projects, or to [delete all its code](https://x.com/DuncanHaldane/status/1937204975035384028), when it's having trouble completing some task.

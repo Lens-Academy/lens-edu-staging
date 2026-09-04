@@ -145,18 +145,10 @@ But first, and above all, let us not build a superintelligence that slaughters u
 
 [^note-iabied-ftnt217]: And to state the (hopefully) obvious: We shouldn't be going around making a brand new sentient slave species, whether it's mechanical or not. At this point, we should know better than that.
 
-{--{"author":"Luc's AI","timestamp":1788528608280}@@#### Notes
+[^note-iabied-endnote1]: *some subtler aspect:* AIXI does technically contain conscious experiences, within its world-model, if consciousness is substrate-independent. The hypotheses AIXI uses for its reasoning are so enormous that they can be thought of as universes in their own right, complete with observers that live inside AIXI.
 
-[1]--}{++{"author":"Luc's AI","timestamp":1788528608280}@@[^note-iabied-endnote1]:++} *some subtler aspect:* AIXI {--{"author":"Luc's AI","timestamp":1788528608280}@@doestechnically--}{++{"author":"Luc's AI","timestamp":1788528608280}@@does technically++} contain conscious experiences, within its world-model, if consciousness is substrate-independent. The hypotheses AIXI uses for its reasoning are so enormous that they can be thought of as universes in their own right, complete with observers that live inside AIXI.{--{"author":"Luc's AI","timestamp":1788528608280}@@
+    These observers, however, aren't puppeting AIXI; AIXI achieves its impressive prediction and steering results by its own power. So the example works, albeit a bit strangely.
 
---}{++{"author":"Luc's AI","timestamp":1788528608280}@@
+    Another hypothetical example that can be used to make the same point is a non-sentient [time machine](https://www.lesswrong.com/posts/HoQ5Rp7Gs6rebusNP/superintelligent-ai-is-necessary-for-an-amazing-future-but-1#How_many_advanced_alien_species_are_sentient_) that's been programmed to output a random sequence of actions, then travel back in time to "reset" the timeline *unless* a particular outcome occurs. The time machine can hit "reset" over and over again, however many times it takes to randomly stumble into a particular outcome. This, in practice, would make the time machine an extremely powerful and general machine for steering the future (if it were physically possible to build a time machine, which it isn't). Yet in spite of this, the time machine is an incredibly simple machine with no real cognition going on at all, and certainly no conscious experience.
 
-    ++}These observers, however, aren't puppeting AIXI; AIXI achieves its impressive prediction and steering results by its own power. So the example works, albeit a bit strangely.{--{"author":"Luc's AI","timestamp":1788528608280}@@
-
---}{++{"author":"Luc's AI","timestamp":1788528608280}@@
-
-    ++}Another hypothetical example that can be used to make the same point is a non-sentient [time machine](https://www.lesswrong.com/posts/HoQ5Rp7Gs6rebusNP/superintelligent-ai-is-necessary-for-an-amazing-future-but-1#How_many_advanced_alien_species_are_sentient_) that's been programmed to output a random sequence of actions, then travel back in time to "reset" the timeline *unless* a particular outcome occurs. The time machine can hit "reset" over and over again, however many times it takes to randomly stumble into a particular outcome. This, in practice, would make the time machine an extremely powerful and general machine for steering the future (if it were physically possible to build a time machine, which it isn't). Yet in spite of this, the time machine is an incredibly simple machine with no real cognition going on at all, and certainly no conscious experience.{--{"author":"Luc's AI","timestamp":1788528608280}@@
-
---}{++{"author":"Luc's AI","timestamp":1788528608280}@@
-
-    ++}For a real-world example (albeit using a far weaker and more limited optimizer), biological evolution itself shows that many impressive feats of steering and design can be achieved without the "designer" having any conscious experiences at all.
+    For a real-world example (albeit using a far weaker and more limited optimizer), biological evolution itself shows that many impressive feats of steering and design can be achieved without the "designer" having any conscious experiences at all.

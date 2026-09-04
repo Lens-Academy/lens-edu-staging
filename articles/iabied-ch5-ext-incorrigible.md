@@ -58,6 +58,4 @@ Unfortunately, corrigibility appears to be an *especially difficult* sort of goa
 
 The upshot of this is that corrigibility seems like an important concept to keep in mind in the long run, if researchers many decades from now are in a fundamentally better position to aim AIs at goals. But it doesn't seem like a live possibility today; modern AI companies are unlikely to be able to make AIs that behave corrigibly in a manner that would survive the transition to superintelligence. And worse still, the tension between corrigibility and intelligence means that if you try to make something that is very capable and very corrigible, this process is highly likely to either break the AI's capability, break its corrigibility, or both.
 
-{--{"author":"Luc's AI","timestamp":1788528409634}@@#### Notes
-
-[1] *we proposed:*--}{++{"author":"Luc's AI","timestamp":1788528409634}@@[^note-we-proposed]:++} The linked paper is dated to its appearance in a 2015 workshop, but it was previously published as a [whitepaper](https://intelligence.org/2014/10/18/new-report-corrigibility/) in 2014.
+[^note-we-proposed]: The linked paper is dated to its appearance in a 2015 workshop, but it was previously published as a [whitepaper](https://intelligence.org/2014/10/18/new-report-corrigibility/) in 2014.

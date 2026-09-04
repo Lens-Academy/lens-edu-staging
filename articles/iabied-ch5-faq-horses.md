@@ -34,6 +34,6 @@ But yes, some horses survived. A small number continued to be useful. Others wer
 
 For humans to stick around in a world where we rushed into unleashing superintelligent AI, we would either need to stay useful to the AI or have the AI care about us in particular.
 
-But we can't stay useful, because AIs can (from their perspective) get more use out of our matter and energy by rearranging us into any number of more efficient configurations. Technological progress unlocks many {--{"author":"Luc's AI","timestamp":1788529899883}@@newoptions--}{++{"author":"Luc's AI","timestamp":1788529899883}@@new options++} for a superintelligence; it won't just be stuck relying on humans.
+But we can't stay useful, because AIs can (from their perspective) get more use out of our matter and energy by rearranging us into any number of more efficient configurations. Technological progress unlocks many new options for a superintelligence; it won't just be stuck relying on humans.
 
 So it all comes down to whether the AIs care about us — and they're unlikely to care about us [even a small amount](https://ifanyonebuildsit.com/5/wont-ais-care-at-least-a-little-about-humans), if we race to superintelligence as fast as we can.
