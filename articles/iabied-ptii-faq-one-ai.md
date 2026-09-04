@@ -7,12 +7,18 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is one entry in an author FAQ accompanying the book *If Anyone Builds It, Everyone Dies*; it answers a reader question about why the book's scenario features a single dominant AI rather than several competing systems. Useful discussion prompt: is the "qualitative gap" analogy to human/chimpanzee cognition persuasive, or does it understate how much coordination among competing AI labs could change outcomes?
 
 %%
 
