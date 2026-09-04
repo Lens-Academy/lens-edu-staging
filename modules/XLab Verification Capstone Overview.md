@@ -29,11 +29,11 @@ Both taught Compute Verification courses, Part 1 and Part 2. The briefs in the b
 
 \## The calendar, and what we assumed
 
-The briefs in the bank declare their own effort: 10 to 22 hours, most around 14 to 20. The taught courses ran at about 3.5 hours of self-study a week plus a 90-minute meeting. We planned this course at about **4 hours of self-study a week for five weeks**, plus the same 90-minute meeting. That gives you roughly **15 hours of project time** and about 5 hours of scoping, checkpoints, and peer review.
+The briefs in the bank declare their own effort: 10 to 22 hours, most around 14 to 20. The taught courses ran at about 3.5 hours of self-study a week plus a 90-minute meeting. Week 1 of this course keeps that budget. We planned weeks 2 to 5 at about **4.5 hours of self-study a week**, plus the same 90-minute meeting. That gives you roughly **13 to 14 hours of project time** and about 5 hours of scoping, checkpoints, and peer review.
 
-- A brief at the bank's median (around 16 hours) fits.
-- A 10-hour brief leaves room to go deeper, or to take on an extra scenario.
-- A 20-to-22-hour brief needs about one more hour a week, a partner (most of those briefs say 1 to 2 people), or a smaller realistic version. The proposal in week 1 asks you to say which.
+- A brief the bank rates at 10 to 14 hours fits.
+- A brief at the bank's median (around 16 hours) needs about one more hour a week, or a partner.
+- A 20-to-22-hour brief needs a partner (most of those briefs say 1 to 2 people) and a smaller realistic version. The proposal in week 2 asks you to say which.
 
 Meetings add no new content. They are where your proposal gets challenged, your decision gets checked, your draft gets read, your rejection of a review gets red-teamed, and your finished work gets shown.
 
