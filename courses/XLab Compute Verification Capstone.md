@@ -64,6 +64,6 @@ Week 5 goals:
 %%
 # Module: [[../modules/XLab Verification Capstone W5 Finish and showcase]]
 
-# Meeting: Showcase
+# Meeting: Week 5: Finish and showcase
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 %% Shape: three minutes each on four beats (reader and decision, the answer, the least-sure thing, the ask of the room), then five minutes of questions; closing round on the next step each person takes with the work, with a date. The closing page in the module points at XLab's feedback form and the opportunities listing. %%
