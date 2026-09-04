@@ -9,8 +9,14 @@ accessed: 2026-08-17
 description: "In the previous post, I argued that simply knowing that an AI system is superintelligent does not imply that it must be goal-directed. However, there…"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -31,7 +37,7 @@ Note that these arguments have different implications than the argument that sup
 
 Then you could try to create alternative designs for AI systems such that they can do the things that goal-directed agents can do without themselves being goal-directed. You could also try to persuade AI researchers of these facts, so that they don’t build goal-directed systems.
 
-### Economic efficiency: goal-directed humans
+### Economic efficiency: goal-directed humans ^economic-efficiency-goal-directed-humans
 
 Humans want to build powerful AI systems in order to help them achieve their goals -- it seems quite clear that humans are at least partially goal-directed. As a result, it seems natural that they would build AI systems that are also goal-directed.
 
@@ -41,15 +47,15 @@ Even so, you could imagine that even the small part of the work that the human c
 
 Another example would be a [corrigible](https://www.alignmentforum.org/posts/fkLYhTQteAu5SinAc/corrigibility) agent, which could be extremely powerful while not being goal-directed over the long term. (Though the meanings of “goal-directed” and “corrigible” are sufficiently fuzzy that this is not obvious and depends on the definitions we settle on for each.)
 
-### Economic efficiency: beyond human performance
+### Economic efficiency: beyond human performance ^economic-efficiency-beyond-human-performance
 
 Another benefit of goal-directed behavior is that it allows us to find novel ways of achieving our goals that we may not have thought of, such as AlphaGo’s move 37. Goal-directed behavior is one of the few methods we know of that allow AI systems to exceed human performance.
 
 I think this is a good argument for goal-directed behavior, but given the problems of goal-directed behavior I think it’s worth searching for alternatives, such as the two examples in the previous section (optimizing over a day, and corrigibility). Alternatively, we could learn human reasoning, and execute it for a longer subjective time than humans would, in order to make better decisions. Or we could have systems that remain uncertain about the goal and clarify what they should do when there are multiple very different options (though this has its own problems).
 
-### Current progress in reinforcement learning
+### Current progress in reinforcement learning ^current-progress-in-reinforcement-learning
 
-If we had to guess today which paradigm would lead to AI systems that can exceed human performance, I would guess reinforcement learning (RL). In RL, we have a reward function and we seek to choose actions that maximize the sum of expected discounted rewards. This sounds a lot like an agent that is searching over actions for the best one according to a measure of goodness (the reward function \[1\]), which I said previously is a goal-directed agent. And the math behind RL says that the agent should be trying to maximize its reward for the rest of time, which makes it long-term \[2\].
+If we had to guess today which paradigm would lead to AI systems that can exceed human performance, I would guess reinforcement learning (RL). In RL, we have a reward function and we seek to choose actions that maximize the sum of expected discounted rewards. This sounds a lot like an agent that is searching over actions for the best one according to a measure of goodness (the reward {--{"author":"Luc's AI","timestamp":1788542796774}@@function \[1\]),--}{++{"author":"Luc's AI","timestamp":1788542796774}@@function[^note-q-function]),++} which I said previously is a goal-directed agent. And the math behind RL says that the agent should be trying to maximize its reward for the rest of time, which makes it {--{"author":"Luc's AI","timestamp":1788542796774}@@long-term \[2\].--}{++{"author":"Luc's AI","timestamp":1788542796774}@@long-term[^note-discounting].++}
 
 That said, current RL agents learn to replay behavior that in their past experience worked well, and typically do not generalize outside of the training distribution. This does not seem like a search over actions to find ones that are the best. In particular, you shouldn’t expect a treacherous turn, since the whole point of a treacherous turn is that you don’t see it coming because it never happened before.
 
@@ -61,7 +67,7 @@ These arguments lead me to believe that we’ll probably have to do something th
 
 Overall, it is certainly possible that improved RL agents will look like dangerous long-term goal-directed agents, but this does not seem to be the case today and there seem to be serious difficulties in scaling current algorithms to superintelligent AI systems that can optimize over the long term. (I’m not arguing for long timelines here, since I wouldn’t be surprised if we figured out some way that _wasn’t_ vanilla deep RL to optimize over the long term, but that method need not be goal-directed.)
 
-### Existing intelligent agents are goal-directed
+### Existing intelligent agents are goal-directed ^existing-intelligent-agents-are-goal-directed
 
 So far, humans and perhaps animals are the only example of generally intelligent agents that we know of, and they seem to be quite goal-directed. This is some evidence that we should expect intelligent agents that we build to also be goal-directed.
 
@@ -69,7 +75,7 @@ Ultimately we are observing a correlation between two things with sample size 1,
 
 However, this is specifically about agents that were created by evolution, which did a relatively stupid blind search over a large space, and we could use a different method to develop AI systems. So this argument makes me more wary of creating AI systems using evolutionary searches over large spaces, but it doesn’t make me much more confident that all good AI systems must be goal-directed.
 
-### Interpretability
+### Interpretability ^interpretability
 
 Another argument for building a goal-directed agent is that it allows us to predict what it’s going to do in novel circumstances. While you may not be able to predict the specific actions it will take, you can predict some features of the final world state, in the same way that if I were to play Magnus Carlsen at chess, [I can’t predict how he will play, but I can predict that he will win](https://www.alignmentforum.org/posts/rEDpaTTEzhPLz4fHh/expected-creative-surprises).
 
@@ -77,12 +83,12 @@ I do not understand the intent behind this argument. It seems as though faced wi
 
 I also think that we would typically be able to predict significantly _more_ about what any AI system we actually build will do (than if we modeled it as trying to achieve some goal). This is because “agent seeking a particular goal” is one of the simplest models we can build, and with any system we have more information on, we start refining the model to make it better.
 
-### Summary
+### Summary ^summary
 
 Overall, I think there are good reasons to think that “by default” we would develop goal-directed AI systems, because the things we want AIs to do can be easily phrased as goals, and because the stated goal of reinforcement learning is to build goal-directed agents (although they do not look like goal-directed agents today). As a result, it seems important to figure out ways to get the powerful capabilities of goal-directed agents through agents that are not themselves goal-directed. In particular, this suggests that we will need to figure out ways to build AI systems that do not involve specifying a utility function that the AI should optimize, or even learning a utility function that the AI then optimizes.
 
----
+{--{"author":"Luc's AI","timestamp":1788542795797}@@---
 
-\[1\] Technically, actions are chosen according to the Q function, but the distinction isn’t important here.
+\[1\]--}{++{"author":"Luc's AI","timestamp":1788542795797}@@[^note-q-function]:++} Technically, actions are chosen according to the Q function, but the distinction isn’t important here.
 
-\[2\] Discounting does cause us to prioritize short-term rewards over long-term ones. On the other hand, discounting seems mostly like a hack to make the math not spit out infinities, and so that learning is more stable. On the third hand, infinite horizon MDPs with undiscounted reward aren't solvable unless you almost surely enter an absorbing state. So discounting complicates the picture, but not in a particularly interesting way, and I don’t want to rest an argument against long-term goal-directed behavior on the presence of discounting.
+{--{"author":"Luc's AI","timestamp":1788542795797}@@\[2\]--}{++{"author":"Luc's AI","timestamp":1788542795797}@@[^note-discounting]:++} Discounting does cause us to prioritize short-term rewards over long-term ones. On the other hand, discounting seems mostly like a hack to make the math not spit out infinities, and so that learning is more stable. On the third hand, infinite horizon MDPs with undiscounted reward aren't solvable unless you almost surely enter an absorbing state. So discounting complicates the picture, but not in a particularly interesting way, and I don’t want to rest an argument against long-term goal-directed behavior on the presence of discounting.
