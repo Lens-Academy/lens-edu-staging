@@ -1,10 +1,13 @@
 ---
 id: 'e0e496a9-91d4-402e-abbd-79567e1ce823'
 slug: xlab-verification-capstone-w3
-title: "Week 3: Draft"
+title: "Week 3: Decide and draft"
 tags: [wip]
 ---
-%% Week 3. Self-study about 270 minutes: project work 240, draft handoff 30. Only ours. The draft goes to the review partner before meeting 3. %%
+%% Week 3. Self-study about 300 minutes: method check 30 (right after meeting 2; last point at which switching brief is allowed), project work 240, draft handoff 30. Only ours. The draft goes to the review partner before meeting 3. %%
+
+# Lens:
+source:: [[../Lenses/XLab Verification - v-capstone-method-check]]
 
 # Lens: Build toward the draft
 id:: 09d8148b-d85e-41c3-af68-7eccdd908758
@@ -15,7 +18,7 @@ duration_minutes:: 240
 content::
 \## This week's project work
 
-About four hours. The target is the draft described in the next lens: in order, holes labelled, first paragraph says what it is, shareable.
+About four hours, after the method check. The target is the draft described in the next lens: in order, holes labelled, first paragraph says what it is, shareable. If you switched brief at the method check, the first ninety minutes go to the new brief's crappy version; the rest to the draft.
 
 Spend the hours in this order:
 
