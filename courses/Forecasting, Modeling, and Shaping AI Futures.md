@@ -41,9 +41,8 @@ meeting-doc-template:: https://docs.google.com/document/d/1YuCKnl7R8P4upzZzMTf6w
 survey:: [[../surveys/AIF Final Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
-%% Post-meeting surveys (2026-08-12): live in production; each meeting has its
-own survey file. Impact scales (model explicitness, judgment confidence,
-agency, leverage clarity) appear only in the Unit 1 baseline and the Unit 5
-final reflection; Units 2-4 ask weekly pulse questions (group connection,
-meeting value, content value). surveys/AIF Post-Meeting Survey.md is attached
-to nothing. %%
+%% Impact surveys updated 2026-09-04. Units 1 to us; e the shared
+post-meeting instrument. Unit 5 uses the course-specific final instrument.
+Every meeting asks the same five 1-to-10 quality questions. The final meeting
+also asks the course completion questions. Historical survey files and IDs
+remain unchanged so old and current responses stay separate. %%
