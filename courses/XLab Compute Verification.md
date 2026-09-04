@@ -10,7 +10,7 @@ tags: [wip]
 ---
 %% Source curriculum: https://aisafetytracks.com/tracks/verification (repo: https://github.com/XLabTracks/tracks) 
 
-Depreciated because 
+Depreciated because it doesn't fit into 5 weeks
 %%
 
 # Module: [[../modules/XLab Verification Overview]]
