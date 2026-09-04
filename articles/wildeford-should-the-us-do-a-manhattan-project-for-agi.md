@@ -104,7 +104,7 @@ The response would be swift and predictable. A rival government may feel forced 
 
 Unlike with the Manhattan Project, however, the key stage of an AI race could unfold in mere months, with even less room for safety compromises under the pressures of national security. That could heighten the risk of a catastrophic accident arising from AI systems due to hasty deployment.
 
-This dynamic could be mitigated if multiple companies join the project, which would at least nullify the commercial race. However, according to our forecasters, this is unlikely to happen — they think there is less than a 50% chance that a government-led project would involve more than AI company, primarily due to the coordination costs involved in such programs.
+This dynamic could be mitigated if multiple companies join the project, which would at least nullify the commercial race. However, according to our forecasters, this is unlikely to happen — they think there is less than a 50% chance that a government-led project would involve more than one AI company, primarily due to the coordination costs involved in such programs.
 
 In some circumstances, the AI arms race caused by a government-led AGI project could even [trigger a great power war](https://peterwildeford.substack.com/p/mutual-sabotage-of-ai-probably-wont). As noted above, a US project could be perceived as an attempt to achieve a decisive strategic advantage unparalleled since the advent of nuclear weapons. In such circumstances, a rival might also consider [escalatory actions](https://nationalsecurity.ai/), such as a cyberattack on data centers or even threats of missile strikes, which could then escalate into an all-out war.
 

@@ -148,7 +148,7 @@ The intern is talking to the engineer as you walk up to the water cooler. You're
 
 "Ok, yeah. Ok." The intern drinks some water. "But. I see why you can undercut strategies which take a loss on one answer to try and get an advantage on another answer. So it won't lie to you to manipulate you."
 
-"I for one welcome our new robot overlords," you but in. They ignore you.
+"I for one welcome our new robot overlords," you butt in. They ignore you.
 
 "But what I was really worried about was self-fulfilling prophecies. The prediction manipulates its own answer. So you don't get undercut."
 
