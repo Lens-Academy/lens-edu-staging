@@ -25,7 +25,7 @@ Add discussion note here:
 
 As we noted in Chapter 4, there are numerous ways for AIs to wind up caring about strange ends that are not what anyone actually wanted. It doesn't matter if humanity makes a thousand AIs, if those thousand AIs all care about slightly different weird ends.
 
-For a world of diverse AIs to permanently harbor happy, healthy, free people, we need at least some of those AIs to *specifically* {--{"author":"Luc's AI","timestamp":1788526521264}@@wantflourishing--}{++{"author":"Luc's AI","timestamp":1788526521264}@@want flourishing++} people to stick around. Not just in the sense that they assure us that they care about that when they're young, but in the sense that this is *actually* the most efficient answer to whatever questions their actions (or the actions of their descendants) are an answer to, as discussed in Chapter 5.
+For a world of diverse AIs to permanently harbor happy, healthy, free people, we need at least some of those AIs to *specifically* want flourishing people to stick around. Not just in the sense that they assure us that they care about that when they're young, but in the sense that this is *actually* the most efficient answer to whatever questions their actions (or the actions of their descendants) are an answer to, as discussed in Chapter 5.
 
 For more background on this problem, see:
 

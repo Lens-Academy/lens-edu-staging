@@ -71,7 +71,7 @@ And poor Thomas Midgley, Jr., discussed in the parable for Chapter 12, certainly
 
 Fisher, Newton, and Midgley deluded themselves into thinking that something dangerous was safe. That's a perfectly normal way for scientists to end up doing something self-destructive. Unfortunately, the story with AI labs isn't quite so simple.
 
-Not all AI company CEOs deny that smarter-than-human AI is a threat. Many explicitly acknowledge the danger and talk about reconciling themselves to it. Corporate executives at many of the frontier AI labs are on the record saying the technology they're {--{"author":"Luc's AI","timestamp":1788528716306}@@developinghas--}{++{"author":"Luc's AI","timestamp":1788528716306}@@developing has++} a substantial chance of killing every human alive.
+Not all AI company CEOs deny that smarter-than-human AI is a threat. Many explicitly acknowledge the danger and talk about reconciling themselves to it. Corporate executives at many of the frontier AI labs are on the record saying the technology they're developing has a substantial chance of killing every human alive.
 
 Shortly before co-founding OpenAI, Sam Altman [wrote](https://web.archive.org/web/20150312004255/https://blog.samaltman.com/machine-intelligence-part-1): "Development of superhuman machine intelligence is probably the greatest threat to the continued existence of humanity."
 
@@ -195,7 +195,7 @@ It's not the sort of thing you say if you're hearing the words coming out of you
 
 Another part of the story, perhaps, is that the people running the leading AI labs are the kinds of people who were able to convince themselves that building a superintelligence would be okay, despite (in almost all cases) having seen the arguments that this is lethal. (We know because we spoke to many of them beforehand.)
 
-{++{"author":"Luc's AI","timestamp":1788528714377}@@To understand why somebody chooses an option, it also helps to understand what their alternatives were -- to understand what menu of options they were choosing from.
+To understand why somebody chooses an option, it also helps to understand what their alternatives were -- to understand what menu of options they were choosing from.
 
 What happened if somebody in 2015 actually *believed,* and then *said publicly,* that they legitimately expected ASI to destroy the world? What if, instead of "but in the meantime, there will be great companies," the heads of AI labs were the sort to break the mood and say, "and that is *wildly unacceptable*"?
 
@@ -215,7 +215,7 @@ But the "China" rejoinder has the right *feel.* It gets the vibes right. It's th
 
 (Or so we guess.)
 
-++}The people who genuinely understood superintelligence and the threat it poses simply *didn't start AI companies.* The people who did are those who found some way to convince themselves that everything would be fine.
+The people who genuinely understood superintelligence and the threat it poses simply *didn't start AI companies.* The people who did are those who found some way to convince themselves that everything would be fine.
 
 #### Normal Humans, Unusual Tech
 

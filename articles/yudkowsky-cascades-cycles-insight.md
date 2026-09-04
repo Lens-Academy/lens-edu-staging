@@ -4,17 +4,17 @@ author: Eliezer Yudkowsky
 published: 2008-11-24
 source_url: https://www.lesswrong.com/posts/dq3KsCsqNotWc8nAK/cascades-cycles-insight
 llm-review:
-  date: 2026-08-28
+  date: 2026-09-04
   model: "sonnet"
-  version: "article-qc-v1.1"
+  version: "article-qc-v1.3"
   source:
-    fetched: 2026-08-28
+    fetched: 2026-09-04
     kind: "live"
 ---
 %%
 Add discussion note here:
 
-...
+This post is part of Yudkowsky's 2008 exchange with Robin Hanson on AI takeoff dynamics (the "Foom" debate). It proposes cascades, cycles, and insight as three distinct mechanisms by which locally continuous optimization pressure can produce discontinuous jumps in capability — a framework Yudkowsky develops further in the subsequent Hard Takeoff and Recursive Self-Improvement posts. Useful to pair with those for readers wanting the fuller argument.
 
 %%
 
@@ -54,7 +54,7 @@ The notion of cycles as a source of _discontinuity_ might seem counterintuitive,
 
 Once upon a time, in a squash court beneath Stagg Field at the University of Chicago, physicists were building a shape like a giant doorknob out of alternate layers of graphite and uranium...
 
-The key number for the "pile" is the effective neutron multiplication factor. When a uranium atom splits, it releases neutrons - some right away, some after delay while byproducts decay further. Some neutrons escape the pile, some neutrons strike another uranium atom and cause an additional fission. The effective neutron multiplication factor, denoted _k_, is the average number of neutrons from a single fissioning uranium atom that cause another fission. At _k_ less than 1, the pile is "subcritical". At _k_>= 1, the pile is "critical". Fermi calculates that the pile will reach _k_=1 between layers 56 and 57.
+The key number for the "pile" is the effective neutron multiplication factor. When a uranium atom splits, it releases neutrons - some right away, some after delay while byproducts decay further. Some neutrons escape the pile, some neutrons strike another uranium atom and cause an additional fission. The effective neutron multiplication factor, denoted _k_, is the average number of neutrons from a single fissioning uranium atom that cause another fission. At _k_ less than 1, the pile is "subcritical". At _k_ >= 1, the pile is "critical". Fermi calculates that the pile will reach _k_=1 between layers 56 and 57.
 
 On December 2nd in 1942, with layer 57 completed, Fermi orders the final experiment to begin. All but one of the control rods (strips of wood covered with neutron-absorbing cadmium foil) are withdrawn. At 10:37am, Fermi orders the final control rod withdrawn about half-way out. The geiger counters click faster, and a graph pen moves upward. "This is not it," says Fermi, "the trace will go to this point and level off," indicating a spot on the graph. In a few minutes the graph pen comes to the indicated point, and does not go above it. Seven minutes later, Fermi orders the rod pulled out another foot. Again the radiation rises, then levels off. The rod is pulled out another six inches, then another, then another.
 

@@ -71,8 +71,8 @@ There seem to be types of learning that are less like memorizing driving routes 
 
 We'll have more to say about this topic in Chapter 3.
 
-{--{"author":"Luc's AI","timestamp":1788524491212}@@#### Notes--}{++{"author":"Luc's AI","timestamp":1788524491212}@@:::hide
+:::hide
 [Is "intelligence" a simple scalar quantity? →](https://ifanyonebuildsit.com/1/is-intelligence-a-simple-scalar-quantity)
-:::++}
+:::
 
-{--{"author":"Luc's AI","timestamp":1788524490956}@@[1]--}{++{"author":"Luc's AI","timestamp":1788524490956}@@[^note-not-universal]:++} *not universal:* A formal definition of "universal intelligence" was put forth by [Legg and Hutter](https://arxiv.org/abs/0712.3329) in 2007.
+[^note-not-universal]: *not universal:* A formal definition of "universal intelligence" was put forth by [Legg and Hutter](https://arxiv.org/abs/0712.3329) in 2007.

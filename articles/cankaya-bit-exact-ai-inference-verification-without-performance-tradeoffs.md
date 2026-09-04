@@ -53,21 +53,13 @@ Element-wise operations executed by dedicated hardware acceleration can use non-
 
 Reductions sum multiple parallel elements into one. Floating-point addition is non-associative: $a+(b+c)\neq(a+b)+c$. Each addition rounds, and the rounding depends on the relative magnitudes of the operands (Goldberg, [1991](#bib.bib12 "What every computer scientist should know about floating-point arithmetic")).
 
-{--{"author":"Luc's AI","timestamp":1788540804995}@@$c$ $p_{0}$ $+$ $p_{1}$ $+$ $p_{2}$ $+$ $p_{3}$ $+$--}{++{"author":"Luc's AI","timestamp":1788540804995}@@- **(a) Sequential:** $(((c+p_{0})+p_{1})+p_{2})+p_{3}$ — each operand is added in one at a time.++}
+- **(a) Sequential:** $(((c+p_{0})+p_{1})+p_{2})+p_{3}$ — each operand is added in one at a time.
 
-{--{"author":"Luc's AI","timestamp":1788540804995}@@(a) Sequential
+- **(b) Group pairwise:** $p_{0}$–$p_{7}$ are summed in pairs ($p_{0}+p_{1}$, $p_{2}+p_{3}$, $p_{4}+p_{5}$, $p_{6}+p_{7}$), the pair-sums are combined two at a time, and $c$ is folded in partway up the tree: $\big(c+(p_{0}+p_{1}+p_{2}+p_{3})\big)+(p_{4}+p_{5}+p_{6}+p_{7})$.
 
-$p_{0}$ $p_{1}$ $p_{2}$ $p_{3}$ $p_{4}$ $p_{5}$ $p_{6}$ $p_{7}$ $+$ $+$ $+$ $+$ $c$ $+$ $+$ $+$ $+$
+- **(c) Fused, e.g. a single block FMA:** $c+p_{0}+p_{1}+p_{2}+p_{3}+p_{4}+p_{5}+p_{6}$, summed in a single fused operation with one rounding.
 
-(b) Group pairwise
-
---}{++{"author":"Luc's AI","timestamp":1788540804995}@@- **(b) Group pairwise:** $p_{0}$–$p_{7}$ are summed in pairs ($p_{0}+p_{1}$, $p_{2}+p_{3}$, $p_{4}+p_{5}$, $p_{6}+p_{7}$), the pair-sums are combined two at a time, and ++}$c$ {--{"author":"Luc's AI","timestamp":1788540804995}@@$p_{0}$ $p_{1}$ $p_{2}$ $p_{3}$ $p_{4}$ $p_{5}$ $p_{6}$ $+$--}{++{"author":"Luc's AI","timestamp":1788540804995}@@is folded in partway up the tree: $\big(c+(p_{0}+p_{1}+p_{2}+p_{3})\big)+(p_{4}+p_{5}+p_{6}+p_{7})$.++}
-
-{--{"author":"Luc's AI","timestamp":1788540804995}@@(c)--}{++{"author":"Luc's AI","timestamp":1788540804995}@@- **(c)++} Fused, e.g. a single block {--{"author":"Luc's AI","timestamp":1788540804995}@@FMA
-
-$c$ $p_{0}$ $p_{1}$ $p_{2}$ $p_{3}$ $p_{4}$ $p_{5}$ $p_{6}$ $p_{7}$ $+$ $+$--}{++{"author":"Luc's AI","timestamp":1788540804995}@@FMA:** $c+p_{0}+p_{1}+p_{2}+p_{3}+p_{4}+p_{5}+p_{6}$, summed in a single fused operation with one rounding.++}
-
-{--{"author":"Luc's AI","timestamp":1788540804995}@@(d)--}{++{"author":"Luc's AI","timestamp":1788540804995}@@- **(d)++} Chain of fused, e.g. MMA or reduction across tensor {--{"author":"Luc's AI","timestamp":1788540804995}@@cores--}{++{"author":"Luc's AI","timestamp":1788540804995}@@cores:** two chained block FMAs, each with its own rounding — first $c+p_{0}+p_{1}+p_{2}+p_{3}$, then that result $+\,p_{4}+p_{5}+p_{6}+p_{7}$.++}
+- **(d) Chain of fused, e.g. MMA or reduction across tensor cores:** two chained block FMAs, each with its own rounding — first $c+p_{0}+p_{1}+p_{2}+p_{3}$, then that result $+\,p_{4}+p_{5}+p_{6}+p_{7}$.
 
 Figure 1: Four summation topologies that compute $c+\sum_{i}p_{i}$. All produce the same result in exact arithmetic, but not in general under floating-point rounding. Adapted from (Xie et al., [2025](#bib.bib8 "MMA-Sim: bit-accurate reference model of tensor cores and matrix cores")).
 
@@ -345,7 +337,7 @@ For context, OpenRouter reports aggregate daily token traffic of approximately $
 
 #### Detection-probability scaling.
 
-Applying {--{"author":"Luc's AI","timestamp":1788540803825}@@[Equation 1](#S6.E1 "In Cost of re-computation. ‣ 6 Implications for AI Governance ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs") --}{++{"author":"Luc's AI","timestamp":1788540803825}@@[[#^eq-p-detect|Equation 1]] ++}to a covert adversary misreporting 0.1% of records ($p_{\text{false}}=10^{-3}$):
+Applying [[#^eq-p-detect|Equation 1]] to a covert adversary misreporting 0.1% of records ($p_{\text{false}}=10^{-3}$):
 
 $$
 P_{\text{detect}}(k=3{,}200)\approx 0.96,\qquad P_{\text{detect}}(k=32{,}000)\approx 1-10^{-14}.
