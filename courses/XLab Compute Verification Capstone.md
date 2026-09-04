@@ -22,7 +22,7 @@ intro-form:: true
 Week 1 goals:
 - Read the research tips; choose a brief or propose one; write the proposal; start the crappy version.
 %%
-# Module: [[../modules/XLab Verification Capstone W1 Scope]]
+# Module: [[../modules/XLab Verification Capstone W1 Feasibility judgment]]
 
 # Meeting: Pitch and pair
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
@@ -32,7 +32,7 @@ facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 Week 2 goals:
 - Finish the crappy version; resolve the two unknowns; decide continue, re-scope, or switch (last chance to switch).
 %%
-# Module: [[../modules/XLab Verification Capstone W2 First version]]
+# Module: [[../modules/XLab Verification Capstone W2 Scope]]
 
 # Meeting: Method check
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
@@ -42,7 +42,7 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 Week 3 goals:
 - A draft a stranger can read start to end, holes labelled; handed to the review partner with a reader's guide.
 %%
-# Module: [[../modules/XLab Verification Capstone W3 Draft]]
+# Module: [[../modules/XLab Verification Capstone W3 Decide and draft]]
 
 # Meeting: Draft exchange
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
