@@ -89,7 +89,7 @@ Congress settles on an important part of the answer: **Probably not us.**[18](ht
 
 They hold a series of tense hearings on AI. They read the 2016 OpenAI emails discussing how OpenAI was founded in order to prevent Demis Hassabis from [becoming dictator](https://futurism.com/the-byte/openai-emails-elon-musk-agi).[19](https://ai-2040.com/footnotes#footnote-19) But who is preventing Sam or Elon from becoming dictator? Congress is unsatisfied with existing responses.
 
-The result of this wakeup is the AI Transparency Act of 2027, an omnibus bill that does many things, some good and some bad, but doesn’t fundamentally change the situation.^([20](https://ai-2040.com/footnotes#footnote-20))
+The result of this wakeup is the AI Transparency Act of 2027, an omnibus bill that does many things, some good and some bad, but doesn’t fundamentally change the situation.[20](https://ai-2040.com/footnotes#footnote-20)
 
 ### Incremental AI Policy Wishlist
 
@@ -105,7 +105,7 @@ While new verification technology is not strictly necessary for an international
 
 We give more detail in our [verification supplement](https://ai-2040.com/supplements/verification-plan).
 
-In 2026, big AI companies spend roughly half their compute budget on AI R&D (which includes training frontier models and also running large experiments.)^([21](https://ai-2040.com/footnotes#footnote-21)) We could limit the fraction of compute spent on AI R&D. This would slow capabilities progress, giving the world a bit more time to react and prepare for each new wave of AI capabilities.^([22](https://ai-2040.com/footnotes#footnote-22))
+In 2026, big AI companies spend roughly half their compute budget on AI R&D (which includes training frontier models and also running large experiments.)[21](https://ai-2040.com/footnotes#footnote-21) We could limit the fraction of compute spent on AI R&D. This would slow capabilities progress, giving the world a bit more time to react and prepare for each new wave of AI capabilities.^([22](https://ai-2040.com/footnotes#footnote-22))
 
 The US should gather AI-relevant intelligence, especially on the compute supply chain and AI datacenters. Furthermore, it would be helpful for Plan A to direct AI companies to stop recycling AI chips, because decommissioned chips are one of the most promising routes for [covert projects to acquire chips](https://www.ai-2040.com/supplements/covert-ai-projects#how-much-compute-will-be-decommissioned-by-default) later.
 
