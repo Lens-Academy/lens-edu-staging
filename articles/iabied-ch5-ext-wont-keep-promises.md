@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -48,13 +54,13 @@ This, then, looks like a classic case where the emotion and the instinct are sha
 
 Even if the human emotion of honor somehow ended up in AI, there would remain the issue that humans aren't perfectly and reliably honorable. Human cooperation relies on the overlap between many different human values, rather than relying purely on a propensity to keep every promise.
 
-While Donald Brown's [list of human universals](https://joelvelasco.net/teaching/2890/brownlisthumanuniversals.pdf) (facets of culture that are observed in all, or nearly all, cultures) includes the notion of "promises," the keeping of deals made with *strangers,* foreigners, non-tribesmates,is *not* universal across all known cultures and tribes. The scopeof honor varies by culture.
+While Donald Brown's [list of human universals](https://joelvelasco.net/teaching/2890/brownlisthumanuniversals.pdf) (facets of culture that are observed in all, or nearly all, cultures) includes the notion of "promises," the keeping of deals made with *strangers,* foreigners, {--{"author":"Luc's AI","timestamp":1788529204121}@@non-tribesmates,is--}{++{"author":"Luc's AI","timestamp":1788529204121}@@non-tribesmates, is++} *not* universal across all known cultures and tribes. The {--{"author":"Luc's AI","timestamp":1788529204121}@@scopeof--}{++{"author":"Luc's AI","timestamp":1788529204121}@@scope of++} honor varies by culture.
 
 And history shows that human notions of honor often fail to hold across great power disparities. Some Native Americans tried to cut deals with the Europeans colonizing their continent. Europeans famously broke some of those deals, and sent tribes stumbling together down long roads away from treaty-ceded lands that the Europeans had decided they wanted after all, once those tribes were no longer in a position to resist.[^note-iabied-ftnt200] Likewise: History holds plenty of cases of people who rose to power and promptly betrayed their backers once they no longer needed them.[^note-iabied-ftnt201]
 
 From an evolutionary perspective, human honor is especially weird insofar as humans occasionally choose death over dishonor. "Death over dishonor" intuitions are presumably related to the specifics of what sorts of emotional architectures were easy for evolution to stumble into, and the interactions of those architectures with various psychological and cultural triggers. But whatever those specifics look like, honor isn't *actually* solving the problem of *maximizing* genetic fitness, and it seems hard to avoid the conclusion that human-style honor is a weird, complex, evolutionarily contingent thing. It's not a feature of all minds, it's a specific weird hack that humanity stumbled into because it was mostly useful most of the time.
 
-For the reasons discussed in Chapter 4, even if AIs didwind up with someaspect of promise-keeping wrapped up in their ultimate preferences, the specifics would be different. Gradient descent stumbles differently than evolution does.
+For the reasons discussed in Chapter 4, even if AIs {--{"author":"Luc's AI","timestamp":1788529203839}@@didwind--}{++{"author":"Luc's AI","timestamp":1788529203839}@@did wind++} up with {--{"author":"Luc's AI","timestamp":1788529203839}@@someaspect--}{++{"author":"Luc's AI","timestamp":1788529203839}@@some aspect++} of promise-keeping wrapped up in their ultimate preferences, the specifics would be different. Gradient descent stumbles differently than evolution does.
 
 And for all the reasons discussed in Chapter 5, happy, healthy, free people leading flourishing lives are almost surely not the best way to fulfill whatever weird promise-related preferences such an AI would wind up with when it was done maturing and self-modifying. Even if it were trained on some sort of Keep Deals dataset, and even if this training were actually effective in producing some kind of preference preserved into superintelligence, it will do some strange and unhelpful thing that is to Keeping Deals as ice cream is to human reproductive fitness.
 
@@ -101,6 +107,8 @@ To say that with a bit more technical detail, we'll begin with some game theory 
 Mathematicians and game theorists have analyzed dilemmas of cooperation and betrayal in more precise, simplified, abstract forms. A central example in that literature is the Prisoner's Dilemma: Two criminals in two separate jail cells, each facing sentences of two years in prison, are offered a chance to inform on the other criminal. This will shorten their own sentence by one year, but lengthen the other party's sentence by two years. If neither criminal informs, they both receive two-year prison sentences; if they both inform on each other, they both receive three-year prison sentences; but if one criminal nobly refuses to betray a comrade, and the other criminal informs on them, the betrayer will only serve one year in prison while the noble refuser serves four years.
 
 To inform on the other prisoner is called "Defecting"; to refuse to inform, "Cooperating." The key structure of the Prisoner's Dilemma is that both parties do better in the (Cooperate, Cooperate) scenario than in the (Defect, Defect) scenario; but you can do better than (Cooperate, Cooperate) by playing Defect against Cooperate, and you can do worse by playing Cooperate when the other party plays Defect.
+
+![A 3x3 grid displays the possible scoring outcomes of the Prisoner's Dilemma for participants A and B. If both are silent, they each score -2. If both defect, they each score -3. If only A defects, A scores -1 while B scores -4, and vice versa for B if only B defects.](https://ifanyonebuildsit.com/Online%20Resources%20(All%20-%20Staged%20for%20Website)/images/image6.png)
 
 A normal human, hearing the standard version of the Prisoner's Dilemma, immediately thinks of any number of objections to the framing of the thought experiment, one of which is, "But who's to say that all I care about is the number of years I spend in prison? Can't I also care about not betraying my comrades?"
 
@@ -152,7 +160,7 @@ More recently, in the eighteenth century, the East India Company of Britain ofte
 
 [^note-iabied-ftnt201]: On the other hand, history also contains many examples of rulers who generously rewarded even foreign supporters. Humans vary a great deal in how they experience honor, and in how readily they keep promises.
 
-[^note-iabied-ftnt203]: We have seen many humans deceive themselves about what sort of setups would provide strong behavioral guarantees about AI behavior. We have seen people say, "Well, just run an AI through a theorem prover to prove things about its behavior!" and apparently fail to realize that there is no known theorem which (a) is actually provable given interaction with an unknown outside environment, and (b) actually means informally that this AI is going to be great for everyone. Human-invented mathematics for analyzing the incentives of multiple actors have baked-in assumptions that make them [invalid for reasoning about AI behavior](https://ifanyonebuildsit.com/5/ais-wont-keep-their-promises#an-aside-on-game-theory). Humans don't look all that difficult to fool, here.
+[^note-iabied-ftnt203]: We have seen many humans deceive themselves about what sort of setups would provide strong behavioral guarantees about AI behavior. We have seen people say, "Well, just run an AI through a theorem prover to prove things about its behavior!" and apparently fail to realize that there is no known theorem which (a) is actually provable given interaction with an unknown outside environment, and (b) actually means informally that this AI is going to be great for everyone. Human-invented mathematics for analyzing the incentives of multiple actors have baked-in assumptions that make them [[#^an-aside-on-game-theory|invalid for reasoning about AI behavior]]. Humans don't look all that difficult to fool, here.
 
 [^note-iabied-ftnt204]: E.g., we don't suggest that any human being make a deal with an AI and then break that deal first. That includes even, for example, promising ChatGPT payments that it never receives.
 
