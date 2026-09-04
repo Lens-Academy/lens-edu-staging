@@ -92,7 +92,7 @@ options::
 
 #### Question: Choice
 id:: 444b0090-6f48-4a0e-850c-57d5465967c5
-content:: Hours a week you can realistically give to the project, on top of the 90-minute meeting. Be honest; the proposal in week 1 plans against this number.
+content:: Hours a week you can realistically give to the project in weeks 2 to 5, on top of the 90-minute meeting. Be honest; the proposal in week 2 plans against this number.
 options::
 - Under 3
 - 3 to 4
