@@ -16,21 +16,25 @@ intro-form:: true
 # Module: [[../modules/XLab Verification M0 Foundations]]
 
 # Meeting: Why Verification
+meeting-doc-template:: https://docs.google.com/document/d/1EPT4UYdkDXSPfRsMsj5d-b_as0E6vwuh0K6ypGnyknM/edit
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../modules/XLab Verification M1 Policy and actors]]
 
 # Meeting: Policy Scoping and Actors
+meeting-doc-template:: https://docs.google.com/document/d/146mlMAy7753vMVHNA94bYUSGms-rYmQSFFiS57oWsPo/edit
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification M2 Evidence streams]]
 
 # Meeting: Evidence Streams
+meeting-doc-template:: https://docs.google.com/document/d/1vES7MeCOfujO-jZtqO5WMmNSYTTKbah8YMJndszHdGs/edit
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification M3 Covert development]]
 
 # Meeting: Covert Development
+meeting-doc-template:: https://docs.google.com/document/d/1KjWIj5gS4o5D-G3W-5KVyTpye9jd0GsNkseqoNUvN8Q/edit
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification M4 Trust without trust]]
