@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -37,7 +43,7 @@ Even if that's hard, AIs may redesign themselves to become visibly and legibly t
 
 Humans, by contrast, can't engage in these sorts of deals. If an AI says, "Sure, let's both oversee the creation of a new AI that we both trust," humans are unlikely to be skilled enough to propose a trustworthy mind design of our own, nor will we be skilled enough to tell the difference between proposals that will cheat us and those that will not. Even if there is a natural cluster of minds that are skilled enough to identify and reject the swindlers, we think it is extremely unlikely that humanity is in that class.
 
-#### Humans won't have the leverage to enforce property rights.
+#### Humans won't have the leverage to enforce property rights. ^humans-wont-have-the-leverage-to-enforce-property-rights
 
 Suppose that someone managed to set up a city in which, on day one of the city's founding, all of the big decisions were to be made by mice.
 
