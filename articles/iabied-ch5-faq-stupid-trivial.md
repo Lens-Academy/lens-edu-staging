@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ entry restates and extends the orthogonality-thesis point made via the titanium cube maximizer footnote in the Chapter 4 resources; pairing the two may help readers who found the cube maximizer example counterintuitive the first time.
 
 %%
 #### AIs can intelligently pursue different things than a human would.
