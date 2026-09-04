@@ -8,8 +8,14 @@ created: 2026-02-27
 description: "The AI Control Agenda, in its own words: …"
 tags:
   - "obsidian-web-clipper"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -101,7 +107,7 @@ Again, the diagram:
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/8wBN8cdNAv3c7vt6p/p3tq3tsp2rqfdltckvqx)
 
-In most worlds, early transformative AGI isn’t what kills us, whether via scheming or otherwise. It’s later, stronger AI which kills us. The big failure mode of early transformative AGI is that it *doesn’t actually solve* the alignment problems of stronger AI. In particular, if early AGI makes us *think* we can handle stronger AI, then that’s a central path by which we die. And most of that probability-mass doesn’t come from intentional deception - it comes from slop, from the problem being hard to verify, from humans being bad at science in domains which we don’t already understand deeply, from (relatively predictable if one is actually paying attention to it) failures of techniques to generalize, etc.
+In most worlds, early transformative AGI isn’t what kills us, whether via scheming or otherwise. It’s later, stronger AI which kills us. The big failure mode of early transformative AGI is that it *doesn’t actually solve* the alignment problems of stronger AI. In particular, if early AGI makes us *think* we can handle stronger AI, then that’s a central path by which we die. And most of that probability-mass doesn’t come from intentional {--{"author":"Luc's AI","timestamp":1788540907751}@@deception - it--}{++{"author":"Luc's AI","timestamp":1788540907751}@@deception—it++} comes from slop, from the problem being hard to verify, from humans being bad at science in domains which we don’t already understand deeply, from (relatively predictable if one is actually paying attention to it) failures of techniques to generalize, etc.
 
 [^note-wentworth-1]:
 	I hear a lot of researchers assign doom probabilities in the 2%-20% range, because they think that’s about how likely it is for early transformative AGI to intentionally scheme successfully. I think that range of probabilities is pretty sensible *for successful intentional scheming of early AGI*… that’s just not where most of the doom-mass is.
