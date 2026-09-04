@@ -7,15 +7,21 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is one FAQ entry from the online supplement to Chapter 1 of *If Anyone Builds It, Everyone Dies* (Yudkowsky & Soares), not a standalone essay — it assumes readers are already familiar with the chapter's argument that human brains aren't near the physical limits of possible cognition. The core claim to press on with students: the "10,000x faster" estimate rests on a deliberately generous illustrative model (transistors vs. neural spikes), not a rigorous simulation result, as the footnote itself concedes.
 
 %%
-#### Very smart.
+#### Very smart. ^very-smart
 
 For every bullet in Chapter 1's list of reasons why human brains aren't near the limits of physical possibility, machines *could* get near those limits.
 
