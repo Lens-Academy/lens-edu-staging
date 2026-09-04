@@ -9,7 +9,7 @@ description: "Last week, while talking to an LLM (a large language model, which 
 tags:
   - obsidian-web-clipper
 llm-review:
-  date: 2026-08-28
+  date: 2026-09-04
   model: "sonnet"
   version: "article-qc-v1.3"
   source:
