@@ -11,7 +11,7 @@ content:: ### About you
 
 #### Question
 key:: name
-content:: First name
+content:: First and last name. Or however you want to be called.
 short:: true
 required:: true
 
