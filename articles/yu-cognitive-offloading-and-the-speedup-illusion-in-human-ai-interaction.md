@@ -15,8 +15,14 @@ accessed: 2026-08-08
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -157,10 +163,13 @@ Finally, our study relies on between-subjects aggregates to avoid carryover bias
 
 Through a large-scale behavioral study on cognitive offloading, we highlight an asymmetric miscalibration and show that AI assistance can create a speedup illusion where tasks feel shorter to complete because the process becomes less effortful. We point out the dissociation between time and effort, finding that AI assistance always leads to effort reduction but not time reduction.
 
+:::hide
 ## Acknowledgments
 
 We would like to thank members of the Social Interaction Lab (SoIL) and the Jurafsky lab for their valuable feedback on the project. In addition, we thank Polina Tsvilodub and Charley Wu for their helpful feedback on the draft.
+:::
 
+:::hide
 ## References
 
 -   S. Ahn (2025) Preserving critical thinking in the age of large language models: the paradox of cognitive load and efficiency. The Korean Journal of Medicine 100 (5), pp. 197–200. Cited by: [A feedback loop: risks of overreliance.](#Sx4.SSx3.SSS0.Px2.p1.1 "A feedback loop: risks of overreliance. ‣ Discussion ‣ Cognitive offloading and the speedup illusion in human-AI interaction").
@@ -200,7 +209,7 @@ We would like to thank members of the Social Interaction Lab (SoIL) and the Jura
 -   R. Shelby, F. Diaz, and V. Prabhakaran (2025) Taxonomy of user needs and actions. arXiv preprint arXiv:2510.06124. Cited by: [Task Construction](#Sx2.SSx2.p1.1 "Task Construction ‣ Methods ‣ Cognitive offloading and the speedup illusion in human-AI interaction").
 -   S. B. Shum (2024) Generative ai for critical analysis practical tools cognitive offloading and human agency. In CEUR Workshop Proceedings, Cited by: [A feedback loop: risks of overreliance.](#Sx4.SSx3.SSS0.Px2.p2.1 "A feedback loop: risks of overreliance. ‣ Discussion ‣ Cognitive offloading and the speedup illusion in human-AI interaction").
 -   M. Stadler, M. Bannert, and M. Sailer (2024) Cognitive ease at a cost: llms reduce mental effort but compromise depth in student scientific inquiry. Computers in Human Behavior 160, pp. 108386. Cited by: [Introduction](#Sx1.p3.1 "Introduction ‣ Cognitive offloading and the speedup illusion in human-AI interaction").
--   J. Steele (2020) What is (perception of) effort? objective and subjective effort during attempted task performance. PsyArXiv. External Links: [Link](https://arxiv.org/html/2605.23177v1/osf.io/preprints/psyarxiv/kbyhm_v1), [Document](https://dx.doi.org/10.31234/osf.io/kbyhm) Cited by: [Subjective mental effort differs from time.](#Sx3.SSx3.SSS0.Px3.p1.4 "Subjective mental effort differs from time. ‣ Results ‣ Cognitive offloading and the speedup illusion in human-AI interaction").
+-   J. Steele (2020) What is (perception of) effort? objective and subjective effort during attempted task performance. PsyArXiv. External Links: [Link](https://osf.io/preprints/psyarxiv/kbyhm_v1), [Document](https://dx.doi.org/10.31234/osf.io/kbyhm) Cited by: [Subjective mental effort differs from time.](#Sx3.SSx3.SSS0.Px3.p1.4 "Subjective mental effort differs from time. ‣ Results ‣ Cognitive offloading and the speedup illusion in human-AI interaction").
 -   B. Sturgeon, D. Samuelson, J. Haimes, and J. R. Anthis (2025) HumanAgencyBench: scalable evaluation of human agency support in ai assistants. arXiv preprint arXiv:2509.08494. Cited by: [A feedback loop: risks of overreliance.](#Sx4.SSx3.SSS0.Px2.p2.1 "A feedback loop: risks of overreliance. ‣ Discussion ‣ Cognitive offloading and the speedup illusion in human-AI interaction").
 -   B. Wahn, L. Schmitz, F. N. Gerster, and M. Weiss (2023) Offloading under cognitive load: humans are willing to offload parts of an attentionally demanding task to an algorithm. Plos one 18 (5), pp. e0286102. Cited by: [Introduction](#Sx1.p2.1 "Introduction ‣ Cognitive offloading and the speedup illusion in human-AI interaction").
 -   Z. Z. Wang, Y. Shao, O. Shaikh, D. Fried, G. Neubig, and D. Yang (2025) How do AI agents do human work? comparing ai and human workflows across diverse occupations. arXiv preprint arXiv:2510.22780. Cited by: [Introduction](#Sx1.p2.1 "Introduction ‣ Cognitive offloading and the speedup illusion in human-AI interaction"), [Subjective mental effort differs from time.](#Sx3.SSx3.SSS0.Px3.p1.4 "Subjective mental effort differs from time. ‣ Results ‣ Cognitive offloading and the speedup illusion in human-AI interaction").
@@ -208,6 +217,7 @@ We would like to thank members of the Social Interaction Lab (SoIL) and the Jura
 -   G. Yeo and A. Neal (2008) Subjective cognitive effort: a model of states, traits, and time.. Journal of Applied Psychology 93 (3), pp. 617. Cited by: [People miscalibrate the time that AI assistance saves.](#Sx3.SSx3.SSS0.Px2.p4.8 "People miscalibrate the time that AI assistance saves. ‣ Results ‣ Cognitive offloading and the speedup illusion in human-AI interaction").
 -   E. Yurt and I. Kasarci (2024) A questionnaire of artificial intelligence use motives: a contribution to investigating the connection between ai and motivation. International Journal of Technology in Education 7 (2). Cited by: [Limitations and Future Directions](#Sx4.SSx1.p1.1 "Limitations and Future Directions ‣ Discussion ‣ Cognitive offloading and the speedup illusion in human-AI interaction").
 -   G. Zauberman, B. K. Kim, S. A. Malkoc, and J. R. Bettman (2009) Discounting time and time discounting: subjective time perception and intertemporal preferences. Journal of Marketing Research 46 (4), pp. 543–556. Cited by: [People conflate effort reduction with time reduction.](#Sx4.SSx3.SSS0.Px1.p1.1 "People conflate effort reduction with time reduction. ‣ Discussion ‣ Cognitive offloading and the speedup illusion in human-AI interaction").
+:::
 
 [^note-yu-1]: This study was approved by the Stanford Institutional Review Board (IRB) under protocol 83204 and pre-registered at [OSF](https://osf.io/8x9j6). The data and code can be accessed at [GitHub](https://github.com/sunnyych/cognitive_offloading_cogsci).
 [^note-yu-2]: Without an anchor, participants’ predictions for “another participant” would conflate two separate beliefs: the average competence of an unknown other and the predicted speedup given that competence. Anchoring on “highly intelligent” matches the implicit competence assumption participants likely bring to the AI condition for these tasks (a capable assistant).
