@@ -9,12 +9,18 @@ accessed: 2026-07-09
 description: "The purpose of this post is to sketch some ways that Brain Computer Interface (BCI) technology might help with various AI alignment techniques. Rough…"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is a speculative, conversational 2021 post rather than a rigorous proposal — treat the "enhancement / merge / alignment aid" taxonomy and the specific alignment-technique tie-ins (imitative amplification, debate/approval-based amplification, value learning) as prompts for discussion, not settled conclusions. Useful framing question for readers: what resolution/scale of BCI data would actually be needed before any of these alignment-aid uses become feasible?
 
 %%
 
