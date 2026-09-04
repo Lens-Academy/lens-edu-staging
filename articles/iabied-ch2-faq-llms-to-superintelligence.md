@@ -7,21 +7,27 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-#### It isn't clear, but researchers are finding ways to overcome old LLM limitations.
+#### It isn't clear, but researchers are finding ways to overcome old LLM limitations. ^it-isnt-clear-but-researchers-are-finding-ways-to-overcome-old-llm-limitations
 
 People used to say: "LLMs only think in a single pass and can't perform long or recursive chains of reasoning." Now LLMs are being used to produce long chains of reasoning that the models then review and extend. This has enhanced the abilities of modern AIs.
 
 AI is a moving target. The researchers in this field can see the obstacles, and they're doing their best to surmount them.
 
-#### Other approaches may achieve superintelligence soon, even if LLMs don't.
+#### Other approaches may achieve superintelligence soon, even if LLMs don't. ^other-approaches-may-achieve-superintelligence-soon-even-if-llms-dont
 
 [The field is good at overcoming obstacles](https://ifanyonebuildsit.com/1/but-arent-there-big-obstacles-to-reaching-superintelligence#the-field-is-good-at-overcoming-obstacles), including coming up with new AI architectures and approaches. We didn't write *If Anyone Builds It, Everyone Dies* to warn people about LLMs in particular. We wrote it to warn people about superintelligence.
 
