@@ -23,7 +23,26 @@ Review the following sections:
 - **Page 42 — Interpretation:** Articles 31–33 of the Vienna Convention and the order in which the principal interpretative methods are applied — ordinary meaning, context, and the treaty’s object and purpose;
 - **Annex E, page 47 — Model final clauses:** complete examples of provisions on signature, ratification, accession, and entry into force.
 
-:::callout {title="Reading the Treaty Taking Too Long?" tone="neutral" collapse="closed"}
+{++{"author":"Elias's AI","timestamp":1788518948245}@@The three excerpts follow.
+
+#### Article
+source:: [[../articles/schenker-practice-guide-to-international-treaties]]
+from:: ## III. Content of treaties
+to:: <sup>64</sup> In principle, the annexes have to be considered as an integral part of the treaties. They may also have to be signed by the plenipotentiaries depending on their form (e.g. protocol), at least as far as bilateral treaties are concerned, with the exception of lists, maps and of course the exchange of notes for which initialling is preferred.
+
+#### Article
+source:: [[../articles/schenker-practice-guide-to-international-treaties]]
+from:: ### F. Interpretation
+to:: <sup>196</sup> Secondary and subsidiary status is therefore given to preparatory works (historical interpretation) and other supplementary means of interpretation (Art. 32 VCLT). Recourse to supplementary means should only be made for the purposes of confirmation or if the interpretation, based on the natural and ordinary meaning of the terms of the treaty, leads to results that are clearly different from those intended by the parties. The circumstances of the treaty's conclusion and the analysis of the joint will of the parties are part of these supplementary means.
+
+#### Article
+source:: [[../articles/schenker-practice-guide-to-international-treaties]]
+from:: ## ANNEX E - Final clauses of a treaty. Examples of provisions
+to:: <sup>157</sup> Taken from the Treaty on Mutual Legal Assistance in Criminal Matters between the Swiss Confederation and the Republic of Indonesia (SR 0.351.942.7).
+
+#### Text
+content::
+++}:::callout {title="Reading the Treaty Taking Too Long?" tone="neutral" collapse="closed"}
 Read **Look for key verbs** twice. It is question 1 of this unit, in the drafters’ own words.
 
 \### [Reading Statutes and Bills](https://tlc.texas.gov/docs/legref/readingabill.pdf)
