@@ -7,15 +7,21 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-#### More breakthroughs might make it effectively impossible to stop people from making superintelligence.
+#### More breakthroughs might make it effectively impossible to stop people from making superintelligence. ^more-breakthroughs-might-make-it-effectively-impossible-to-stop-people-from-making-superintelligence
 
 In the book, we mentioned how a single paper in 2017 kicked off the entire LLM revolution by describing an algorithm that made it practical to train useful AIs on specialized commercial hardware.
 
