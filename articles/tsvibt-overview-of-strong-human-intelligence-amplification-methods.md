@@ -9,8 +9,14 @@ accessed: 2026-07-29
 description: "How can we make many humans who are very good at solving difficult problems? …"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
