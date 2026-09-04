@@ -29,10 +29,11 @@ Wasil et al. (2024)
   Read On-site Inspections of Data Centers, On-site Inspections of AI
   Developers, and Key Takeaways.
 
-\### [§5.3 Levels of assurance](https://arxiv.org/html/2601.11699v4#S5.SS3)
+\### [§5.3 Levels of assurance](https://arxiv.org/pdf/2601.11699v4#page=29)
 Brundage et al. (2026)
 
-  Read §§5.3.1–5.3.3.
+  Read §§5.3.1–5.3.3, pages 29–35 of the PDF.
+{>>{"author":"Elias's AI","timestamp":1788521728531}@@Repointed from the arXiv HTML render (#S5.SS3), which stops mid-§5.3.3 at the AI Assurance Levels table header and delivers about 950 of the 2,690 assigned words. The PDF carries §§5.3.1 to 5.3.3 in full on pages 29 to 35.<<}
 
 \### [Challenge inspections: general rules and managed access](https://www.opcw.org/chemical-weapons-convention/annexes/verification-annex/part-x-challenge-inspections-pursuant)
 OPCW | Chemical Weapons Convention, Verification Annex, Part X
@@ -132,7 +133,7 @@ feedback-instructions:: If wrong: Tie the conclusion to the system, settings, in
 #### Text
 content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
-Brundage et al. warn against abstraction errors: behavior of one exposed system does not establish organization-level facts or the properties of systems the auditor could not see. Source: [Brundage et al., §§5.2–5.3](https://arxiv.org/html/2601.11699v4#S5.SS3)
+Brundage et al. warn against abstraction errors: behavior of one exposed system does not establish organization-level facts or the properties of systems the auditor could not see. Source: [Brundage et al., §§5.2–5.3](https://arxiv.org/pdf/2601.11699v4#page=28)
 
 Black-box ceiling: supports a behavioral statement about the tested system and conditions, not a claim about training history or the organization as a whole.
 :::
