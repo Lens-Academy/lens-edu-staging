@@ -91,7 +91,7 @@ They hold a series of tense hearings on AI. They read the 2016 OpenAI emails dis
 
 The result of this wakeup is the AI Transparency Act of 2027, an omnibus bill that does many things, some good and some bad, but doesn’t fundamentally change the situation.^([20](https://ai-2040.com/footnotes#footnote-20))
 
-Incremental AI Policy Wishlist
+### Incremental AI Policy Wishlist
 
 Our main recommendation is to begin negotiating something like Plan A as soon as possible. But in this scenario, we depict Plan A happening imperfectly and only in the nick of time. So here is a list of less ambitious ideas that still help.
 

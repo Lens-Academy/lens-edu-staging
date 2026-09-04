@@ -13,7 +13,7 @@ summary_for_tutor:: Orientation page before Module 0. Learner reads what the cou
 content::
 \## What this course is about
 
-How could parties that do not trust one another verify meaningful limits on advanced AI development? That is the question this course works through, from motivation and policy scope to concrete evidence, adversarial evasion, and regime design. It was built by [XLab](https://xrisk.uchicago.edu/) at the University of Chicago and is offered here on Lens.
+How could parties that do not trust one another verify meaningful limits on advanced AI development? That is the question this course works through, from motivation and policy scope to concrete evidence, adversarial evasion, and regime design. We built this course on the open-source verification curriculum of [XLab](https://xrisk.uchicago.edu/) at the University of Chicago.
 
 :::callout {title="Alpha version" tone="amber"}
 XLab is testing and calibrating this material with a small cohort before official launch, and the curriculum will likely change after that. Treat sequence, framing, and exercises as provisional. If you find something unclear, wrong, missing, or especially useful, please send feedback through [XLab's feedback form](https://forms.gle/KkWcHkKh87pygDzw9).

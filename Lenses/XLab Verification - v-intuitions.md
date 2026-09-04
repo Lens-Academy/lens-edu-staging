@@ -4,7 +4,7 @@ title: "0.2 Building Verification Intuitions"
 tldr: "Take the most detailed public plan for a verified AI slowdown, AI 2040's Plan A, and treat it like an engineer treats a bridge design: find the load-bearing part, the weakest weld, the unrealistic schedule, and how much hidden compute it can survive. Then write your verdict."
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Learner picks Option A or B and writes the prompted sub-essays, then the final essay with a verdict choice. The drill bench at the end is six graded choice questions; give the 'why' after each answer."
 tags: [wip]
-duration_minutes: 200
+duration_minutes: {--{"author":"Elias's AI","timestamp":1788520360612}@@200--}{++{"author":"Elias's AI","timestamp":1788520360612}@@150++}
 ---
 #### Text
 content::
