@@ -62,8 +62,8 @@ Our own view, after decades of trying to better understand this issue and think 
 
 We don't know whether that threshold will in fact be hit in the near future, or whether it's still a decade away, etc. History shows that timing new technologies is a lot harder than predicting that a technology will be developed at all. But we believe that the evidence of danger is vastly greater than is needed to justify an aggressive international response today. That argument is, of course, sketched out in the book.
 
-{--{"author":"Luc's AI","timestamp":1788538900081}@@#### Notes--}{++{"author":"Luc's AI","timestamp":1788538900081}@@[^note-poaching]: *poaching:* From [Bloomberg](https://www.bloomberg.com/news/articles/2025-07-09/meta-poached-apple-s-pang-with-pay-package-over-200-million), July 2025: "Meta CEO Mark Zuckerberg has now successfully hired more than ten OpenAI researchers, as well as top researchers and engineers from Anthropic, Google and other startups."++}
+[^note-poaching]: *poaching:* From [Bloomberg](https://www.bloomberg.com/news/articles/2025-07-09/meta-poached-apple-s-pang-with-pay-package-over-200-million), July 2025: "Meta CEO Mark Zuckerberg has now successfully hired more than ten OpenAI researchers, as well as top researchers and engineers from Anthropic, Google and other startups."
 
-{--{"author":"Luc's AI","timestamp":1788538899849}@@[1] *poaching:* From [Bloomberg](https://www.bloomberg.com/news/articles/2025-07-09/meta-poached-apple-s-pang-with-pay-package-over-200-million), July 2025: "Meta CEO Mark Zuckerberg has now successfully hired more than ten OpenAI researchers, as well as top researchers--}{++{"author":"Luc's AI","timestamp":1788538899849}@@:::hide
-[Aren't people always panicking++} and {--{"author":"Luc's AI","timestamp":1788538899849}@@engineers from Anthropic, Google and other startups."--}{++{"author":"Luc's AI","timestamp":1788538899849}@@overreacting to things? →](https://ifanyonebuildsit.com/intro/arent-people-always-panicking-and-overreacting-to-things)
-:::++}
+:::hide
+[Aren't people always panicking and overreacting to things? →](https://ifanyonebuildsit.com/intro/arent-people-always-panicking-and-overreacting-to-things)
+:::

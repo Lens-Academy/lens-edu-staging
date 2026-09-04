@@ -26,7 +26,7 @@ This FAQ entry from Yudkowsky and Soares's companion site to *If Anyone Builds I
 
 Many of the things people ask us to try to predict for them, we in fact have no way of knowing. When Leo Szilard wrote a letter warning the USA about nuclear weaponry in 1939, he did not and could not include any note along the lines of, "The first atomic weapon will be ready to detonate for testing in six years."
 
-This would have been very valuable information! But even when you are the first person to correctly predict nuclear chain reactions, as Szilard was — even when you're the very first one to see that a technology is {--{"author":"Luc's AI","timestamp":1788539012592}@@possibleand--}{++{"author":"Luc's AI","timestamp":1788539012592}@@possible and++} will be consequential {--{"author":"Luc's AI","timestamp":1788539012592}@@—you--}{++{"author":"Luc's AI","timestamp":1788539012592}@@— you++} cannot predict exactly when that technology will arrive.
+This would have been very valuable information! But even when you are the first person to correctly predict nuclear chain reactions, as Szilard was — even when you're the very first one to see that a technology is possible and will be consequential — you cannot predict exactly when that technology will arrive.
 
 There are easy calls and hard calls. We do not pretend to be able to make hard calls, such as exactly when the dangerous sort of AI will be produced.
 

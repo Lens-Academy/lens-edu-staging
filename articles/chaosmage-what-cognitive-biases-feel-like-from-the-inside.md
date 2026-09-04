@@ -83,7 +83,7 @@ Our highly demanding style of communication correctly predicts that LessWrongian
 
 The tables above show one way to do better that does the following.
 
--   It aims {--{"author":"Luc's AI","timestamp":1788539874886}@@low - merely--}{++{"author":"Luc's AI","timestamp":1788539874886}@@low—merely++} to help people [notice the flaws in their thinking](https://www.lesswrong.com/posts/46qnWRSR7L2eyNbMA/the-lens-that-sees-its-flaws). It will not, and does not need to, enable readers to write scientific papers on the subject.
+-   It aims low—merely to help people [notice the flaws in their thinking](https://www.lesswrong.com/posts/46qnWRSR7L2eyNbMA/the-lens-that-sees-its-flaws). It will not, and does not need to, enable readers to write scientific papers on the subject.
 -   It reduces biases into mismatches between Inside View and Outside View. It lists concrete observations from both views and juxtaposes them.
 -   These observations are written in a way that is hopefully general enough for most people to find they match their own experiences.
 -   It trusts readers to infer from these juxtaposed observations their own understanding of the phenomena. After all, generalizing over particulars is much easier than integrating generalizations and applying them to particulars. The understanding gained this way will be imprecise, but it has the advantage of actually arriving inside the reader’s mind.
