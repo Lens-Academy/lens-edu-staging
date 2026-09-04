@@ -189,6 +189,7 @@ Questions to consider:
 - How much residual uncertainty would policymakers have to tolerate even when the regime appears to be working?
 
 Decide which plan could give decision-makers stronger grounds for confidence in compliance. (150 to 200 words)
+assessment-instructions:: Four things, 25 points each: (1) named mechanisms from the Plan A Verification Supplement are used for Plan A, not generic verification talk; (2) a combination of tools from this course is assembled for Plan S, which has no supplement of its own, drawn from compute declarations, inspections, chip accounting, power monitoring, remote sensing, intelligence or personnel reporting; (3) compliance claims are sorted by how directly they can be observed against how much inference they need, and the answer says whether the mechanisms would corroborate each other independently or share a blind spot or an unreliable assumption; (4) the answer names the residual uncertainty policymakers would still carry while the regime is working, and decides which plan gives stronger grounds for confidence. Penalise answers that count mechanisms instead of asking whether their failure modes are independent. No generic praise.
 feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 
 #### Text
