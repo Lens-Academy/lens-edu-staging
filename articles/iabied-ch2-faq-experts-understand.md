@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This piece argues interpretability research is real but far behind what would be needed to safely steer AI; pair it with Chapter 4's alignment material so students don't conflate "we can see some of what's happening" with "we can control it." The Transluce 9.9-vs-9.11 demo is a good concrete example for discussing what mechanistic interpretability techniques (like activation-level debugging) can and can't currently do.
 
 %%
 #### No.
@@ -24,6 +30,8 @@ In a 2023 [briefing](https://x.com/martin_casado/status/1720517026538778657) to 
 This claim was sufficiently ridiculous that the researchers at the top AI labs who work on trying to understand modern AIs came out and said: No, absolutely not, are you crazy?
 
 Neel Nanda, who runs the mechanistic interpretability team at Google DeepMind, [spoke up](https://x.com/NeelNanda5/status/1799203292066558403):
+
+![](https://ifanyonebuildsit.com/Online%20Resources%20%28All%20-%20Staged%20for%20Website%29/images/image9.png)
 
 Almost any researcher in machine learning should have known that this statement was false. It's not within the bounds of reasonable misinterpretation.
 
