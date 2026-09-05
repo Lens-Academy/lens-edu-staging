@@ -1,6 +1,8 @@
 ---
 id: '439e49e5-cdd9-4b7a-a48a-b5659e457cf1'
 title: "A3. Stress-test the timeline"
+tldr: "Use a concrete precedent to test whether Plan A's implementation dates are plausible."
+summary_for_tutor: "Use a concrete precedent to test whether Plan A's implementation dates are plausible. This lens belongs to an optional essay route or optional extension; respect the learner's route choice."
 duration_minutes: 15
 tags: [wip]
 add_to_ai_context:
