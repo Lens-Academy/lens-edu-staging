@@ -1,6 +1,6 @@
 ---
 id: '783c38a6-2552-4902-96bf-48de75aa30ad'
-title: "2.0 What makes a verification mechanism effective?"
+title: "What makes a verification mechanism effective?"
 tldr: "Before you learn how any verification mechanism works, write down your guesses: how buildable, how sellable, how much it proves, and how fast it rots. Rank twelve mechanisms on four lanes, seal the set, and see in Module 4 how far the evidence moved you."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Opens with the module objectives and four metric definitions (technical feasibility, political feasibility, verification effectiveness, durability), each with XLab's low and high anchor examples. The mechanism-sort widget is rendered as four ungraded Ranking questions (twelve mechanisms per metric, listed in a callout) plus an open question on the heuristics used. Do not reveal the reference map; that comparison belongs to lesson 4.1. Then the Swiss-cheese section and five evidence taxonomies as closed callouts with three optional choice checks built from the taxonomy data."
 tags: [wip]
