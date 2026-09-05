@@ -67,22 +67,7 @@ IMAGE SLOT. Same instructions as above, for the "after" drawing with the recall 
 
 Every unit now sits inside one part of the book, with one deliberate exception: U3 opens on the Chapter 4 and 5 extension readings, which are Part I material used as a bridge into the scenario.
 
-The threads drawn on the after diagram, with the outcome at each end:
-
-| Thread | From | To |
-|---|---|---|
-| Goals | Intro, hard vs. easy calls | U3, goals and instrumental convergence |
-| Goals | Ch 5, goal-space argument | U3, goals and instrumental convergence |
-| Goals | Ch 5, hostile vs. indifferent | Ch 9, cosmic stakes |
-| Method | Intro, hard vs. easy calls | Coda, path vs. outcome |
-| Training and values | Ch 2, behavior vs. values | Ch 4, you don't get what you train for |
-| Training and values | Ch 2, grown not crafted | Ch 11, alignment as alchemy |
-| Training and values | Ch 3, wanting emerges from training | Ch 11, superalignment objection |
-| Capability | Ch 1, prediction plus steering | Ch 6, Aztec warrior |
-| Capability | Ch 1, machine advantages | Ch 10, five curses, via the curse of speed |
-| Unrepeatability | Ch 10, five curses | Ch 12, one-chance problem |
-
-Ten threads, two of which terminate on outcomes that do not exist yet. Both of those are in U3.
+The coloured lines on the after diagram are the recall threads. There are ten of them, grouped into five families, and two terminate on outcomes that do not exist yet. Both of those are in U3. The full list, and what we would build for each, is in the next section.
 
 #### Text
 content::
