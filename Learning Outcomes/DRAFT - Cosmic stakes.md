@@ -55,10 +55,7 @@ Score according to the following rubric.
 
 # Suggested Lenses:
 ## Lens:
-source:: {--{"author":"AI","timestamp":1788617508973}@@[[../_deprecated/DRAFT - Ch9 Cosmic Stakes - PQ - MERGED]]
-
-## Lens:
-source:: --}[[../Lenses/DRAFT - Ch9 Cosmic Stakes (from film lens)]]
+source:: [[../Lenses/DRAFT - Ch9 Cosmic Stakes (from film lens)]]
 
 ## Lens:
 source:: [[../Lenses/IABIED - QA - The Ending]]
