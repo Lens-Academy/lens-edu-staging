@@ -1,6 +1,6 @@
 ---
 id: '3eadac2f-e82d-478a-9c1e-0b5a6136c211'
-title: "2.2.2 Customer identification and ongoing monitoring"
+title: "Customer identification and ongoing monitoring"
 tldr: "Banks learned the hard way that you must know who you are dealing with, and that customers split transactions to stay under reporting limits. Egan and Heim port that playbook to compute providers: who gets identified, what is monitored after sign-up, and how a customer could split a job to stay under the threshold."
 summary_for_tutor: "Reading lens adapted from XLab lesson 2.2.2. Egan and Heim (2023), Oversight for Frontier AI through a Know-Your-Customer Scheme for Compute Providers, inlined as article excerpts: the opening of section 2, selected parts of Box 3 (financial-sector KYC obligations and implementation lessons), section 2.1, the opening of section 2.2 with Box 4, and sections 2.2.1 and 2.2.2. No questions in this lens. If the learner asks, help them connect the pieces: the compute threshold, customer identification, beneficial ownership, ongoing monitoring, reporting of high-risk profiles, and the two evasion routes (structuring and shell companies). Ends with a Works cited callout."
 tags: [wip]
