@@ -132,8 +132,6 @@ content::
 
 Recording these so the same ground does not get re-argued.
 
-**The Coda into Chapter 13.** We first proposed that the Coda's path-versus-outcome discipline should be recalled when weighing the book's own proposals for what to do. On a closer reading the Coda's claim is narrower: depicting a world containing superintelligence realistically is what makes any particular depiction unlikely. That points back at the film, not forward at Chapter 13. Dropped.
-
 **Chapter 6 into Chapter 12, on irreversibility.** Real as a chapter-level thread, and it fails the both-ends rule. Chapter 6's outcomes are the Aztec warrior analogy and the refrigerator thought experiment, neither of which is about there being no second attempt. The same ground is already carried by the Chapter 10 into Chapter 12 thread, which is anchored at both ends, so we are leaving this one untethered rather than writing a Chapter 6 outcome to hold it up.
 
 **Fiction as argument, not prediction.** This outcome receives no thread, and we think that is correct rather than a hole. It synthesizes several Part I ideas without resting on any one of them, so anchoring it would mean inventing a dependency the book does not have.
