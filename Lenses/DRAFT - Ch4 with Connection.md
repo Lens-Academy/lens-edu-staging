@@ -4,7 +4,7 @@ reading_minutes: 25
 tutor_minutes: 20
 title: You Don't Get What You Train For (connection draft)
 tldr: You trained it to be helpful. But helpful in training isn't the same as wanting to be helpful later. Chapter 4 explains why, and it gets worse.
-summary_for_tutor: "DRAFT, orphaned. A modification of [[../Lenses/IABIED - You Don't Get What You Train For]] that inserts one retrieval beat between Processing and the Learning Question. Phase 3 asks the student which earlier idea this chapter leans on, without naming it; the answer key lives only in assessment-instructions. Everything else is unchanged from the live lens. Not referenced by any module."
+summary_for_tutor: "DRAFT, orphaned. A modification of [[IABIED - You Don't Get What You Train For]] that inserts one retrieval beat between Processing and the Learning Question. Phase 3 asks the student which earlier idea this chapter leans on, without naming it; the answer key lives only in assessment-instructions. Everything else is unchanged from the live lens. Not referenced by any module."
 tags:
   - wip
 authors:
@@ -38,7 +38,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: Unchanged from the live lens. See [[../Lenses/IABIED - You Don't Get What You Train For]], Phase 1. Copy the brief across verbatim when this draft is promoted.
+assessment-instructions:: Unchanged from the live lens. See [[IABIED - You Don't Get What You Train For]], Phase 1. Copy the brief across verbatim when this draft is promoted.
 
 #### Question: Open
 id:: '516c5d21-6c7f-4bb6-8f35-2747b28ef617'
@@ -46,7 +46,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize, just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: Unchanged from the live lens. See [[../Lenses/IABIED - You Don't Get What You Train For]], Phase 2. Copy the brief across verbatim when this draft is promoted.
+assessment-instructions:: Unchanged from the live lens. See [[IABIED - You Don't Get What You Train For]], Phase 2. Copy the brief across verbatim when this draft is promoted.
 
 #### Question: Open
 id:: 'c383da66-5c78-4f49-91d5-d785af158821'
@@ -94,7 +94,7 @@ content::
 \## Phase 4: Learning Question
 A lab announces: "We ran our model through a million test conversations. It was honest and helpful in every single one. A million clean tests is strong evidence it's safe to deploy." Using Chapter 4, explain why the authors would not be reassured, and be specific about what those test results can and cannot tell you about what the model will do once deployed.
 
-assessment-instructions:: Unchanged from the live lens (see [[../Lenses/IABIED - You Don't Get What You Train For]], Phase 3) except for the three additions below. Copy that brief across verbatim when this draft is promoted, then add:
+assessment-instructions:: Unchanged from the live lens (see [[IABIED - You Don't Get What You Train For]], Phase 3) except for the three additions below. Copy that brief across verbatim when this draft is promoted, then add:
 
 - **What this phase assesses has not changed.** It is Chapter 4's outcome, and nothing else. The previous phase asked the student to name an earlier idea; that is not part of what you are assessing here and must not become a second thing they have to get right. Do not open by returning to it, do not require them to use it, and do not treat an answer that never mentions it as incomplete. A student who rebuts the million-tests claim entirely from Chapter 4's own material has answered this question well.
 - **Use the connection only as a rescue.** If the student stalls on why behavioral evidence cannot settle the question, you may point back to what they said in the previous phase as a way in, in one sentence. That is the only role it has here.

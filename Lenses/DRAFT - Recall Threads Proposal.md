@@ -144,7 +144,7 @@ Recording these so the same ground does not get re-argued.
 content::
 \## Two worked examples
 
-::card[[../Lenses/DRAFT - Ch4 with Reach-Back]]
+::card[[DRAFT - Ch4 with Connection]]
 
 > The smallest version. One retrieval beat inserted into an existing five-beat reading lens, everything else untouched, so the diff is the proposal.
 
