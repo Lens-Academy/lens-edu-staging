@@ -45,6 +45,7 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../modules/XLab Verification P1 W3 Treaty actors]]
 
 # Meeting: Week 3: Treaty anatomy and actors
+meeting-doc-template:: https://docs.google.com/document/d/1PrMEqwpkCV5yOFGvdh6j_ZAwPRXI1aP3bUOIo9b1Aek/edit
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification P1 W4 Evidence and its readers]]
@@ -52,6 +53,7 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../modules/XLab Verification P1 W4 Mechanism effectiveness]]
 
 # Meeting: Week 4: Evidence and its readers
+meeting-doc-template:: https://docs.google.com/document/d/1e7G8VJXFa_TNd-K58X98kJt38JnOorWISeU3nFgi8Jk/edit
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification P1 W5 Hardware verification]]
