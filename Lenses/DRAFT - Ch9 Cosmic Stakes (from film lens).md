@@ -153,4 +153,4 @@ content::
 \## Additional resources for this topic
 ::card[[../Lenses/IABIED - QA - The Ending]]
 
-> If you are stui
+> If you are stuill uncertain about 
