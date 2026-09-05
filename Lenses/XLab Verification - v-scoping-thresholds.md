@@ -1,6 +1,6 @@
 ---
 id: 'd7c78491-f02b-42e9-8c7e-459cf25b3e8d'
-title: "1.0.1 Drawing the Line: Compute vs. Capability"
+title: "Drawing the Line: Compute vs. Capability"
 tldr: "A speed limit works because a radar gun gives one number nobody can argue with. A treaty on advanced AI needs the same: a line you can measure before the harm exists. Compute (FLOP) is that radar gun; capability evals measure the danger more directly but too late and too fuzzily. See why pause-style agreements draw the line in FLOP."
 summary_for_tutor: "Reading-only lens, no questions. Contrasts compute thresholds (FLOP: black-and-white, measurable early, externally verifiable, but underinclusive as algorithms improve) with capability thresholds (more direct, but evals are unreliable, measured after training, hard to verify externally) in a paired table, then argues that pause-style agreements favor compute lines while softer regimes can use capability. Two collapsed asides: the Threshold Test Ban Treaty's fuzzy 150-kiloton yield line, and further reading on evals. If asked, help the learner articulate the mirror-image trade-off; do not require agreement with the source."
 tags: [wip]
