@@ -36,7 +36,7 @@ and it supplies its own scenario, so it can be posed cold.
 id:: '7a5516a3-1bac-469a-9508-9cd91f621b98'
 #### Question: Open
 content::
-Someone follows the argument up to a point. They accept that a sufficiently capable AI pursuing goals of its own could end humanity. But they treat everything after that as unknowable: the story stops at extinction, and speculating about what a machine does over the following millennia is science fiction rather than argument.
+A friend follows the argument up to a point. They accept that a sufficiently capable AI pursuing goals of its own could end humanity. But they treat everything after that as unknowable: the story stops at extinction, and speculating about what a machine does over the following millennia is science fiction rather than argument.
 
 Explain why the reasoning that predicts the takeover also constrains what follows it. In your answer, be specific about what would have to be true for the expansion to stop.
 
