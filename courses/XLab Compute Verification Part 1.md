@@ -13,7 +13,7 @@ This course is the first five weeks of the re-cut ten-week run of that curriculu
 
 Each week is about 3.5 hours of self-study plus a 1.5 hour discussion. Core self-study per week: W1 220 min, W2 170, W3 210, W4 170, W5 155. Optional lenses add 80 min in W2, 75 in W3, 30 in W5.
 
-No meeting-doc-template links: the existing meeting docs assume the old five-module structure, so new docs are needed before a cohort runs this. No learner survey either, for the same reason the parent course has none: there is no course-specific one yet. Navigator surveys reuse the generic pair.
+Meeting docs: five new docs built from this course's weekly material (September 2026), one per meeting, linked below. The old five-module docs are not used. No learner survey, for the same reason the parent course has none: there is no course-specific one yet. Navigator surveys reuse the generic pair.
 
 Target audience and value proposition are inherited from the parent course and have not been confirmed for this split. %%
 
@@ -27,6 +27,7 @@ intro-form:: true
 # Module: [[../modules/XLab Verification P1 W1 Building verification intuitions]]
 
 # Meeting: Week 1: Why verification
+meeting-doc-template:: https://docs.google.com/document/d/1vmkuAGQ2eRBqj6IMzQ6PkZyHnCYxipGJouPJOKm2z4c/edit
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../modules/XLab Verification P1 W2 Precedents and policy scope]]
@@ -36,6 +37,7 @@ facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 # Module: [[../modules/XLab Verification P1 W2 Strategic foundations]]
 
 # Meeting: Week 2: Precedents and policy scope
+meeting-doc-template:: https://docs.google.com/document/d/1otRIAJ84NXSyPsHelypCmLdnmfa-yjrzL6dN_kuwucc/edit
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification P1 W3 Treaty anatomy and actors]]
