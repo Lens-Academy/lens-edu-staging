@@ -8,7 +8,7 @@ summary_for_tutor: "DRAFT, orphaned. An internal proposal document written as a 
 tags:
   - wip
 authors:
-  - Elias+Claude
+  - "TODO+Claude"
 ---
 
 #### Text
