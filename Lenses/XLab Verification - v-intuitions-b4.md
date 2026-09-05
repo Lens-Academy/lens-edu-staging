@@ -5,6 +5,7 @@ duration_minutes: 20
 tags: [wip]
 add_to_ai_context:
   - "[[../articles/2040-ai-2040-plan-a]]"
+  - "[[../articles/2040-plan-a-faq]]"
 ---
 #### Text
 content::
