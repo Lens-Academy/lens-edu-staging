@@ -10,7 +10,9 @@ duration_minutes: 5
 content::
 The world is [quietly but constantly being saved](https://www.lesswrong.com/posts/qnvmZCjzspceWdgjC/the-world-keeps-getting-saved-and-you-don-t-notice). It's easy not to notice or care, because, well, the catastrophe didn't happen.
 
-But such public perception, or lack thereof, can obscure how difficult the true, behind-the-scenes work of saving the world is. Y2K didn't collapse the world's economic and information infrastructure because experts spent hundreds of hours fixing it, not because the issue was exaggerated.
+But such public perception, or lack thereof, can obscure how difficult the true, behind-the-scenes work of saving the world is. Y2K[^y2k] didn't collapse the world's economic and information infrastructure because governments and companies spent years finding, repairing, and testing affected systems, not because the issue was exaggerated.
+
+[^y2k]: **Y2K**, or the Year 2000 problem, was a software flaw caused by many computer systems storing years with two digits. When 1999 became 2000, those systems could interpret “00” as 1900, producing wrong calculations or failures in systems that depended on dates. Extensive remediation prevented major national disruptions. Further reading: [NIST's contemporary explanation](https://www.nist.gov/news-events/news/1998/05/daley-says-nist-help-small-manufacturers-avoid-millennium-bug) and [the U.S. Government Accountability Office's retrospective](https://files.gao.gov/reports/105184/index.html).
 
 AI risk is especially susceptible to such public ignorance. Algorithms are invisible and intangible, unlike bombs sitting in siloes. Commercial chatbots seem helpful and benevolent. AI capabilities are exponentially increasing, and we are notoriously terrible at internalizing hockey-stick timelines. The layman considers these and concludes that AI will probably not kill everyone.
 
