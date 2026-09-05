@@ -93,7 +93,7 @@ Where does today's AI sit? These levels move from broad labels to more specific 
 6. **Large Language Model**: generative models that specialise in language. Example: RWKV, a recurrent LLM that is not a transformer.
 7. **Transformer LLMs**: language models built on the transformer (attention) architecture, today's mainstream. Examples: Claude, ChatGPT, Gemini, LLaMA.
 
-Beyond these rings: non-narrow AI is theoretical only right now (no real non-narrow AI models are known), and some regions are theoretically possible but would require an absurd quantity of resources.
+Beyond these levels: non-narrow AI remains theoretical; no real non-narrow AI models are known.
 
 :::
 
