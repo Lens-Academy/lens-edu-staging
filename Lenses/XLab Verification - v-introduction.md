@@ -86,11 +86,11 @@ A key property of ASI would be recursive self-improvement, or RSI. A model capab
 Where does today's AI sit? These levels move from broad labels to more specific types. They describe what kind of system something is, not how capable it is. A system can fit several levels; choose the most specific one that applies.
 
 1. **AI**: the whole field, any system built to do things we would call intelligent.
-2. **Narrow AI**: built for one task or a narrow set of them. Everything that actually exists today lives here. Examples: Roomba (sensors and fixed rules, no learning from data), Boeing autopilot (engineered control laws), IBM Deep Blue (brute-force search plus hand-crafted evaluation), Word spell checker (dictionary and rules).
+2. **Narrow AI**: built for one task or a narrow set of them. Everything that actually exists today lives here. Examples: Boeing autopilot (engineered control laws), IBM Deep Blue (brute-force search plus hand-crafted evaluation), Word spell checker (dictionary and rules).
 3. **Machine Learning**: systems that learn patterns from data instead of being programmed rule by rule. Examples: Amazon's early spam filter, Chase credit scoring, JPMorgan fraud flagging (statistical models fit to historical data, no deep network).
 4. **Deep Learning**: machine learning with many-layered neural networks that learn their own features. Examples: Apple Photos recognition, Azure Speech to Text, FaceID (all discriminative, not generative).
-5. **Generative AI**: deep-learning systems that create new content. Examples: Midjourney, Sora, Suno, Adobe Firefly (generate images, video, or audio; not language models).
-6. **Large Language Model**: generative models that specialise in language. Examples: Mamba (state-space architecture), RWKV (recurrent architecture); LLMs that are not transformers.
+5. **Generative AI**: deep-learning systems that create new content. Examples: Sora, Suno, and Adobe Firefly (generate video, audio, or images; not language models).
+6. **Large Language Model**: generative models that specialise in language. Example: RWKV, a recurrent LLM that is not a transformer.
 7. **Transformer LLMs**: language models built on the transformer (attention) architecture, today's mainstream. Examples: Claude, ChatGPT, Gemini, LLaMA.
 
 Beyond these rings: non-narrow AI is theoretical only right now (no real non-narrow AI models are known), and some regions are theoretically possible but would require an absurd quantity of resources.
