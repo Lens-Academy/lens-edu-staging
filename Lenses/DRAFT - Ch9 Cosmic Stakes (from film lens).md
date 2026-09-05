@@ -35,6 +35,8 @@ content::
 
 TODO. Two or three sentences to the learner. The job of this paragraph is to say that the film stopped short: it covered Realization and Expansion, and the scenario has one more move in it. Avoid summarizing that move here, since the reading is about to do it.
 
+The film ends with 
+
 TODO. One sentence connecting back to Unit 2. The candidate connection is the distinction between an AI that is hostile and one that is indifferent: indifference is the property that scales, and this chapter is what scaling looks like. Check this against the chapter before committing to it.
 
 As you read, hold on to one thing: which earlier idea from this course this chapter is the endpoint of.
