@@ -97,28 +97,6 @@ Beyond these levels: non-narrow AI remains theoretical; no real non-narrow AI mo
 
 :::
 
-#### Question: Choice
-id:: a461d157-f6b2-416b-9c61-28b2bf2be861
-content:: Optional: Which is the most specific category below that describes a Roomba (a robot vacuum that drives around a home and cleans floors)?
-options::
-- [x] Narrow AI
-- Machine Learning
-- Deep Learning
-- Generative AI
-optional:: true
-feedback-instructions:: Roomba navigates with sensors and fixed rules. It does not learn from data, so it is narrow AI but not machine learning. Explain in one or two sentences.
-
-#### Question: Choice
-id:: 0594a403-1d2a-4203-9cc7-7bce55333971
-content:: Optional: Which is the most specific category below that describes Midjourney (a tool that creates images from text prompts)?
-options::
-- Deep Learning
-- [x] Generative AI
-- Large Language Model
-- Transformer LLMs
-optional:: true
-feedback-instructions:: Midjourney generates images via diffusion. It is generative but not a language model. Explain in one or two sentences.
-
 #### Text
 content::
 Even the people in charge of developing superintelligence, who have the most incentive to obfuscate dangerous capabilities, have expressed public concerns over the catastrophic risks arising from their technology.
