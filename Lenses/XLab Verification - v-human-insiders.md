@@ -1,6 +1,6 @@
 ---
 id: 'dae72ebf-335a-4bd5-b970-b2b3e72230ed'
-title: "2.4.1 Insiders and human sources"
+title: "Insiders and human sources"
 tldr: "An insider's job title tells you where they stood, not what they saw. Read Baker et al. on whistleblower programs, interviews, and intelligence, then work six Project Lattice sources one at a time: what each could observe, what stayed out of view, and which record they never controlled could check the claim."
 summary_for_tutor: "Two excerpts from Baker et al. (2025), section 4.3 and Appendix A.8, are embedded as Article segments. Then an optional drill built from XLab's Who knows what? widget: six source cards (evaluator, training engineer, infrastructure operator, procurement, contractor, executive), each with three graded choice questions on observation, boundary, and corroboration, followed by a Project Lattice case report with four graded credibility questions, a final finding, and four failure modes. When the learner over-reaches, apply the widget's own line: a job title alone proves nothing; limit the claim to what the person could observe."
 tags: [wip]
