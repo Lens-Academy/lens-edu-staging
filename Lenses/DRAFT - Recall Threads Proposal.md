@@ -97,6 +97,49 @@ We think the beats belong at unit boundaries and at the points where a unit has 
 
 #### Text
 content::
+\## Which links become prompts
+
+Not every connection in the book earns a prompt. Three rules decided this list.
+
+**A prompt needs an outcome anchor at both ends.** A link between two chapters is not enough. If the earlier end has no learning outcome, there is nothing the learner was assessed on and nothing for the tutor to key against, so the link is a proposal for a new outcome rather than a prompt.
+
+**Within-unit links are prerequisites, not prompts.** Reading two chapters in the same week already carries the connection. Declaring those edges adds bookkeeping, and since prerequisites gate locked status, it also risks locking learners who read out of order.
+
+**The prompt lives at the target, not on the line.** This is what makes the work tractable. Ten threads are not ten new files. They are one added segment in each target lens, and where two threads share a target they share a segment.
+
+\### The ten threads
+
+| Thread | From | To | What gets built | Status |
+|---|---|---|---|---|
+| Goals | Intro, hard vs. easy calls | Goals and instrumental convergence | One segment in the new U3 opener, carrying both incoming threads | Outcome to write |
+| Goals | Ch 5, goal-space argument | Goals and instrumental convergence | Same segment as above | Outcome to write |
+| Goals | Ch 5, hostile vs. indifferent | Ch 9, cosmic stakes | Split across the pre-reading prediction and the closing comparison | Drafted |
+| Method | Intro, hard vs. easy calls | Coda, path vs. outcome | One segment in the Coda lens | Not started |
+| Training and values | Ch 2, behavior vs. values | Ch 4, you don't get what you train for | One segment in the Chapter 4 lens | Drafted |
+| Training and values | Ch 2, grown not crafted | Ch 11, alignment as alchemy | One segment in the Chapter 11 lens, carrying both incoming threads | Not started |
+| Training and values | Ch 3, wanting emerges from training | Ch 11, superalignment objection | Same segment as above | Not started |
+| Capability | Ch 1, prediction plus steering | Ch 6, Aztec warrior | One segment in the Chapter 6 lens | Not started |
+| Capability | Ch 1, machine advantages | Ch 10, five curses | One segment in the Chapter 10 lens, keyed on the curse of speed | Not started |
+| Unrepeatability | Ch 10, five curses | Ch 12, one-chance problem | One segment in the Chapter 12 lens, keyed on Chernobyl appearing twice for different reasons | Not started |
+
+Ten threads land on eight target lenses. The build is eight added segments, two of which are drafted, plus the two new U3 outcomes.
+
+#### Text
+content::
+\## Links we looked at and did not adopt
+
+Recording these so the same ground does not get re-argued.
+
+**The Coda into Chapter 13.** We first proposed that the Coda's path-versus-outcome discipline should be recalled when weighing the book's own proposals for what to do. On a closer reading the Coda's claim is narrower: depicting a world containing superintelligence realistically is what makes any particular depiction unlikely. That points back at the film, not forward at Chapter 13. Dropped.
+
+**Chapter 6 into Chapter 12, on irreversibility.** Real as a chapter-level thread, and it fails the both-ends rule. Chapter 6's outcomes are the Aztec warrior analogy and the refrigerator thought experiment, neither of which is about there being no second attempt. The same ground is already carried by the Chapter 10 into Chapter 12 thread, which is anchored at both ends, so we are leaving this one untethered rather than writing a Chapter 6 outcome to hold it up.
+
+**Fiction as argument, not prediction.** This outcome receives no thread, and we think that is correct rather than a hole. It synthesises several Part I ideas without resting on any one of them, so anchoring it would mean inventing a dependency the book does not have.
+
+**U5 as a whole.** Five of the six outcomes in the final unit have no thread reaching them, which looks alarming on the diagram. Our reading is that it is a property of the book rather than a defect in the course. Parts I and II establish what the problem is; Part III argues what should be done about it, and those overlap less than the diagram's emptiness suggests. What U5 actually depends on is the conclusion of the whole argument rather than any individual concept from it, and that dependency is already tested in one place: the synthesis question in the final module, where the student presents the chain unaided. If we are wrong about this, the fix is not more threads into U5 but a closer look at that one synthesis question, which is currently tagged work in progress.
+
+#### Text
+content::
 \## Two worked examples
 
 ::card[[../Lenses/DRAFT - Ch4 with Reach-Back]]
