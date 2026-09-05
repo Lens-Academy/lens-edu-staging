@@ -75,7 +75,7 @@ The colored lines on the after diagram are the recall threads. There are ten of 
 content::
 \## What we found when we looked
 
-Three things, in increasing order of how much they surprised us.
+Three general obseration:
 
 **The course already has a check for this, and almost nothing passes it.** [[../AI Guide/Evals/Learning Outcome Evals/B1 - Answerable without the text]] asks whether a question could be posed to someone who has the capability but never read the assigned text, with the pass boundary being that it could be asked at a random moment. In the census recorded at [[../AI Guide/Evals/Learning Outcome Evals/Run Reports/2026-08-24 Run]], 22 of the 23 active learning outcomes in this course failed it. Every test is scaffolded on its own chapter, so none of them can be asked cold.
 
