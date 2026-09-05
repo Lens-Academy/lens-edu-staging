@@ -95,9 +95,9 @@ A lab announces: "We ran our model through a million test conversations. It was 
 
 assessment-instructions:: Unchanged from the live lens (see [[../Lenses/IABIED - You Don't Get What You Train For]], Phase 3) except for the three additions below. Copy that brief across verbatim when this draft is promoted, then add:
 
-- The student has just been asked to name the earlier idea this chapter rests on. Open by holding them to whatever they said there. If they identified the behavior-versus-values distinction, require them to use it here rather than restating the ice cream argument: the million clean tests are behavioral evidence, and the question is what behavioral evidence can establish about values.
-- If they missed the connection in the previous phase, do not re-teach it. Let this question surface it: their answer will either reach for it unprompted, which is the outcome we want, or it will not, in which case name it once at the calibration summary and stop.
-- In the calibration summary, give the test-readiness verdict as written in the live brief, and add one sentence on whether the student reached for earlier material on their own or only when pushed.
+- **What this phase assesses has not changed.** It is Chapter 4's outcome, and nothing else. The previous phase asked the student to name an earlier idea; that is not part of what you are assessing here and must not become a second thing they have to get right. Do not open by returning to it, do not require them to use it, and do not treat an answer that never mentions it as incomplete. A student who rebuts the million-tests claim entirely from Chapter 4's own material has answered this question well.
+- **Use the connection only as a rescue.** If the student stalls on why behavioral evidence cannot settle the question, you may point back to what they said in the previous phase as a way in, in one sentence. That is the only role it has here.
+- **Report, do not grade.** The test-readiness verdict is about Chapter 4 alone, exactly as the live brief specifies. After it, add one separate sentence noting whether the student reached for earlier material on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgement about the student, and it should read that way.
 
 #### Text
 content::
