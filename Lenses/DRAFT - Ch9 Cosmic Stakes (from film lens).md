@@ -153,4 +153,4 @@ content::
 \## Additional resources for this topic
 ::card[[../Lenses/IABIED - QA - The Ending]]
 
-> If you are still uncertain about why the world w
+> If you are still uncertain about why the world would likely come to an 
