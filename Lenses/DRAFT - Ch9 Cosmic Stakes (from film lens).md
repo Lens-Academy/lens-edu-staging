@@ -67,7 +67,7 @@ What not to do:
 - Say whether the prediction is right, close, or wrong. You must not indicate this even indirectly, and not by tone.
 - Preview, hint at, or gesture toward what the chapter says.
 - Ask a follow-up question or invite a second attempt.
-- Fill in reasoning they did not supply. A thin prediction is still a usable prior, and a student who realises mid-reading that their prediction was thin has learned the thing this beat exists to teach.
+- Fill in reasoning they did not supply. A thin prediction is still a usable prior, and a student who realizes mid-reading that their prediction was thin has learned the thing this beat exists to teach.
 
 If the student says they have no idea: that is a legitimate answer and worth recording as one. Ask them to write down what would need to be true for the AI to simply stop, then send them on. Do not push for more.
 
