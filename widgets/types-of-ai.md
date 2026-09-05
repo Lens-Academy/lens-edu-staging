@@ -10,19 +10,23 @@ tags: [wip]
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The types of AI</title>
 <!-- Ported from XLab Tracks (github.com/XLabTracks/tracks), Verification track widget "types-of-ai". -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <style>
   :root {
-    --border: #e2e8f0;
-    --muted: #f1f5f9;
-    --muted-fg: #64748b;
-    --fg: #0f172a;
+    --border: #e8e5df;
+    --muted: #faf8f3;
+    --muted-fg: #5a5a5a;
+    --fg: #1a1a1a;
     --card: #ffffff;
-    --primary: #b91c1c;
+    --primary: #b87018;
+    --font-ui: "DM Sans", Arial, sans-serif;
+    --font-heading: "Newsreader", Georgia, serif;
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-family: var(--font-ui);
     font-size: 14px;
     line-height: 1.5;
     color: var(--fg);
@@ -41,11 +45,11 @@ tags: [wip]
     background: var(--card);
     border-radius: 12px;
     padding: 16px;
-    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+    box-shadow: none;
   }
   @media (min-width: 860px) { .panel { position: sticky; top: 8px; } }
   .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted-fg); margin: 0; }
-  .panel h2 { font-size: 16px; margin: 4px 0 0; }
+  .panel h2 { font-family: var(--font-heading); font-weight: 600; font-size: 20px; margin: 4px 0 0; }
   .panel p { margin: 8px 0 0; }
   .hint { color: var(--muted-fg); font-style: italic; margin: 0; }
   .small { color: var(--muted-fg); font-size: 12px; }
@@ -163,12 +167,12 @@ tags: [wip]
   function buildDiagram() {
     var defs = make("defs", {});
     var pattern = make("pattern", { id: "hatch", width: 13, height: 13, patternUnits: "userSpaceOnUse", patternTransform: "rotate(45)" }, defs);
-    make("line", { x1: 0, y1: 0, x2: 0, y2: 13, stroke: "rgba(100,116,139,0.25)", "stroke-width": 1.4 }, pattern);
+    make("line", { x1: 0, y1: 0, x2: 0, y2: 13, stroke: "rgba(90,90,90,0.2)", "stroke-width": 1.4 }, pattern);
 
     var bg = make("rect", { x: 0, y: 0, width: VBW, height: VBH, fill: "transparent" });
     bg.addEventListener("click", function () { setView({ kind: "none" }); });
 
-    make("circle", { cx: AI.cx, cy: AI.cy, r: AI.r, fill: "#f1f5f9" });
+    make("circle", { cx: AI.cx, cy: AI.cy, r: AI.r, fill: "#f3f1ec" });
     make("circle", { cx: AI.cx, cy: AI.cy, r: AI.r, fill: "url(#hatch)" });
 
     AI_LEVELS.forEach(function (lvl, i) {
@@ -177,7 +181,7 @@ tags: [wip]
       if (i === 0) {
         ring.setAttribute("fill", "transparent");
       } else {
-        ring.setAttribute("fill", "#b91c1c");
+        ring.setAttribute("fill", "#b87018");
         ring.setAttribute("fill-opacity", redOpacity(i));
       }
       ring.addEventListener("click", function (e) { e.stopPropagation(); setView({ kind: "level", i: i }); });
@@ -186,7 +190,7 @@ tags: [wip]
 
     AI_LEVELS.forEach(function (lvl, i) {
       var c = levelCircle(i);
-      var light = i > 0 && redOpacity(i) >= 0.45;
+      var light = i > 0 && redOpacity(i) >= 0.6;
       var isDisk = i === AI_LEVELS.length - 1;
       var nameY, exTop;
       if (i === 0) {
@@ -203,7 +207,7 @@ tags: [wip]
       var label = make("text", {
         x: c.cx, y: nameY, "text-anchor": "middle", "dominant-baseline": "middle",
         "font-size": NAME_FS, "class": "label",
-        fill: light ? "#fff" : "#0f172a", stroke: light ? "rgba(0,0,0,0.30)" : "#fff", "stroke-width": 5
+        fill: light ? "#fff" : "#1a1a1a", stroke: light ? "rgba(60,35,5,0.35)" : "#fff", "stroke-width": 5
       });
       label.textContent = lvl.name;
       label.addEventListener("click", function (e) { e.stopPropagation(); setView({ kind: "level", i: i }); });
@@ -222,7 +226,7 @@ tags: [wip]
           var t = make("text", {
             x: x + it.w / 2, y: y, "text-anchor": "middle", "dominant-baseline": "middle",
             "font-size": EX_FS, "class": "pill",
-            fill: light ? "#fff" : "#0f172a", stroke: light ? "rgba(0,0,0,0.34)" : "#fff", "stroke-width": 4
+            fill: light ? "#fff" : "#1a1a1a", stroke: light ? "rgba(60,35,5,0.4)" : "#fff", "stroke-width": 4
           }, g);
           t.textContent = it.ex.name;
           g.style.cursor = "pointer";
@@ -239,10 +243,10 @@ tags: [wip]
     rings.forEach(function (ring, i) {
       var selected = selLevel === i;
       if (i === 0) {
-        ring.setAttribute("stroke", selected ? "#0f172a" : "rgba(100,116,139,0.4)");
+        ring.setAttribute("stroke", selected ? "#1a1a1a" : "rgba(90,90,90,0.4)");
         ring.setAttribute("stroke-width", selected ? 3 : 1.5);
       } else {
-        ring.setAttribute("stroke", selected ? "#0f172a" : "#fff");
+        ring.setAttribute("stroke", selected ? "#1a1a1a" : "#fff");
         ring.setAttribute("stroke-opacity", selected ? 1 : 0.4);
         ring.setAttribute("stroke-width", selected ? 3 : 1.25);
       }

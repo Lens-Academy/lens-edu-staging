@@ -10,22 +10,26 @@ tags: [wip]
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The verification problem</title>
 <!-- Ported from XLab Tracks (github.com/XLabTracks/tracks), Verification track widget "verification-problem". -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <style>
   :root {
-    --border: #e2e8f0;
-    --muted: #f1f5f9;
-    --muted-fg: #64748b;
-    --fg: #0f172a;
+    --border: #e8e5df;
+    --muted: #faf8f3;
+    --muted-fg: #5a5a5a;
+    --fg: #1a1a1a;
     --card: #ffffff;
-    --ring: #0f172a;
-    --comply: #15803d;
-    --defect: #b91c1c;
-    --brand: #1d4ed8;
+    --ring: #1a1a1a;
+    --comply: #7a4a0d;
+    --defect: #8a5a2b;
+    --brand: #b87018;
+    --font-ui: "DM Sans", Arial, sans-serif;
+    --font-heading: "Newsreader", Georgia, serif;
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-family: var(--font-ui);
     font-size: 14px;
     line-height: 1.5;
     color: var(--fg);
@@ -43,7 +47,7 @@ tags: [wip]
   @media (min-width: 720px) {
     .head-grid { grid-template-columns: 1fr 14rem; align-items: end; }
   }
-  h1 { font-size: 26px; line-height: 1.15; letter-spacing: -0.01em; margin: 0; max-width: 42rem; }
+  h1 { font-family: var(--font-heading); font-weight: 600; font-size: 30px; line-height: 1.15; margin: 0; max-width: 42rem; }
   .lede { color: var(--muted-fg); margin: 12px 0 0; max-width: 42rem; }
   .prompt-box {
     border: 1px solid var(--border);
@@ -67,24 +71,24 @@ tags: [wip]
     cursor: pointer;
     transition: background-color 120ms;
   }
-  .option:hover { background: #f8fafc; }
+  .option:hover { background: var(--muted); }
   .option:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
-  .option.is-open { box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--ring); }
+  .option.is-open { border-color: var(--brand); box-shadow: 0 0 0 1px var(--brand); }
   .option-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
   .option-label { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted-fg); }
   .inspected { display: none; align-items: center; gap: 4px; font-size: 11px; font-weight: 500; color: var(--comply); }
   .option.is-seen .inspected { display: inline-flex; }
-  .option-question { display: block; margin-top: 20px; font-size: 18px; font-weight: 600; letter-spacing: -0.01em; }
+  .option-question { display: block; margin-top: 20px; font-family: var(--font-heading); font-size: 20px; font-weight: 600; }
   .option-summary { display: block; margin-top: 6px; color: var(--muted-fg); }
   .option-cta { display: block; margin-top: 16px; font-size: 12px; font-weight: 500; color: var(--brand); }
-  .detail { display: none; border-top: 1px solid var(--border); background: #f8fafc; padding: 16px; }
+  .detail { display: none; border-top: 1px solid var(--border); background: var(--muted); padding: 16px; }
   .detail.is-open { display: block; }
   .detail-card { border: 1px solid var(--border); background: var(--card); border-radius: 8px; padding: 16px 20px; }
   .detail-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
   .verdict { margin: 0; }
   .verdict.holds { color: var(--comply); }
   .verdict.fails { color: var(--defect); }
-  .outcome { margin: 6px 0 0; font-size: 20px; font-weight: 600; letter-spacing: -0.01em; display: flex; align-items: center; gap: 8px; }
+  .outcome { margin: 6px 0 0; font-family: var(--font-heading); font-size: 22px; font-weight: 600; display: flex; align-items: center; gap: 8px; }
   .close {
     font: inherit; border: 0; background: transparent; color: var(--muted-fg);
     width: 32px; height: 32px; border-radius: 6px; cursor: pointer; font-size: 18px; line-height: 1;
