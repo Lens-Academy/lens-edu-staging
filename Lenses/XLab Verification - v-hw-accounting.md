@@ -1,6 +1,6 @@
 ---
 id: 'e9aefe42-bbdf-4ea0-be7f-2ee033558aa8'
-title: "2.1.3 Accounting for hardware: identity, location, topology, and completeness"
+title: "Accounting for hardware: identity, location, topology, and completeness"
 tldr: "A registry is a spreadsheet, not a sensor. Identity, location, cluster topology and completeness are four different claims, and the hardest one is negative: no compute existed outside the declared system. Pick three independent evidence streams that could support it."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on device identity, location verification (timing and challenge-response, still an open research area), cluster topology, and completeness. Ends with the Try it open question: three evidence streams that do not share a source for the claim that all covered accelerators at Site X are registered. Do not accept the site operator's inventory, logs and declaration as three independent streams."
 tags: [wip]

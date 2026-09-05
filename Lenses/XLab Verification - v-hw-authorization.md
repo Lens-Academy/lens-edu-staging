@@ -1,6 +1,6 @@
 ---
 id: 'e39bd85f-e2bf-4039-a3f1-f8f5291892b6'
-title: "2.1.5 Authorization, licensing, and control"
+title: "Authorization, licensing, and control"
 tldr: "An off-switch for someone else's compute is only as acceptable as the answer to who holds the key, what happens when the licence server is down, and who reverses a mistake. Assemble a full authorization chain from twelve components and find which ones fail together."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on offline licensing, the twelve questions a policy designer must answer, Petrie's 2024 firmware-based design (author estimate, not deployment evidence), and why control authority is part of the mechanism. Ends with the build-the-authorization-chain open question. Check that the learner distinguishes components that measure from components that only authenticate, and names the common-mode failure if the manufacturer's root key is compromised."
 tags: [wip]
