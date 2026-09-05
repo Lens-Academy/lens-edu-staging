@@ -120,9 +120,21 @@ content::
 
 ---
 
+::card[[../Lenses/DRAFT - Ch9 Cosmic Stakes - PQ]]
+
+> The prediction half. Taken straight after the film ends, before the chapter is read, so the chapter meets a committed prior instead of a blank page.
+
+---
+
 ::card[[../Lenses/DRAFT - Ch9 Cosmic Stakes (from film lens)]]
 
-> The other kind. A new lens for material the film leaves out, built as a pair with the film lens so the scenario and its endpoint read as one unit.
+> The other kind. A new lens for material the film leaves out, built as a pair with the film lens so the scenario and its endpoint read as one unit. Closes by returning the learner to their own prediction.
+
+---
+
+::card[[../Learning Outcomes/DRAFT - Cosmic stakes]]
+
+> The outcome those two lenses teach toward. Its test question is written to pass B1, which none of the course's existing questions currently do.
 
 #### Text
 content::
