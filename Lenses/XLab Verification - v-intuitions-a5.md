@@ -1,6 +1,8 @@
 ---
 id: '05467dde-01e4-4f8f-a1eb-2c79d5a44eb6'
 title: "A5. Final recommendation"
+tldr: "Combine your four analyses into a defensible recommendation on Plan A."
+summary_for_tutor: "Combine your four analyses into a defensible recommendation on Plan A. This lens belongs to an optional essay route or optional extension; respect the learner's route choice."
 duration_minutes: 30
 tags: [wip]
 add_to_ai_context:

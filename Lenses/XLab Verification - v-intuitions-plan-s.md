@@ -1,6 +1,8 @@
 ---
 id: '2107077d-80d2-4959-8d35-a28e2337d293'
 title: "Option B: Read about Plan S"
+tldr: "Read the authors' discussion of Plan S before comparing its verification demands with Plan A."
+summary_for_tutor: "Read the authors' discussion of Plan S before comparing its verification demands with Plan A. This lens belongs to an optional essay route or optional extension; respect the learner's route choice."
 duration_minutes: 15
 tags: [wip]
 add_to_ai_context:

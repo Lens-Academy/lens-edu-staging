@@ -1,6 +1,8 @@
 ---
 id: '8e5eed3a-bce7-4063-8e0a-5ea53167bdc7'
 title: "A4. Covert-compute margin"
+tldr: "Assess what hidden compute could accomplish and how much residual capacity the deal can tolerate."
+summary_for_tutor: "Assess what hidden compute could accomplish and how much residual capacity the deal can tolerate. This lens belongs to an optional essay route or optional extension; respect the learner's route choice."
 duration_minutes: 10
 tags: [wip]
 add_to_ai_context:
