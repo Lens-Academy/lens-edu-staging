@@ -164,7 +164,7 @@ content::
 content::
 \## What this proposal does not settle
 
-Four open questions, all of which need a decision from someone other than the author.
+Four open questions:
 
 **Assessment load.** Every retrieval beat is another tutor conversation. We have not costed what that does to a unit's total time, and U1 and U2 are already the units learners describe as heavy.
 
