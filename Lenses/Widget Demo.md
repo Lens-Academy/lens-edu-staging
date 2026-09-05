@@ -8,7 +8,7 @@ tags: [wip]
 
 #### Text
 content::
-This lens demonstrates the **Widget** segment: an interactive page written as HTML in the editor's `widgets/` folder and embedded inline between ordinary text segments. Try the one below and test all four answers.
+This lens demonstrates the **Widget** segment: an interactive page written as HTML in the editor's `widgets/` folder and embedded inline between ordinary text segments. Try the one below and test all four answer{--{"author":"E2","timestamp":1788611050092}@@s.--}
 
 #### Widget
 source:: [[../widgets/verification-problem]]
