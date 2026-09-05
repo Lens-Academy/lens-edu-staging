@@ -74,8 +74,8 @@ Pending suggestions (CriticMarkup) inside a widget file are stripped like everyw
 
 Widgets sit inside the reading column of a lesson, so they should look like part of it, not like a foreign site. The platform's own tokens:
 
-- **Type.** UI and labels: `"DM Sans", Arial, sans-serif`. Headings: `"Newsreader", Georgia, serif` (weight 500 to 600). Long reading text: `"Source Serif 4", Georgia, serif`. Load DM Sans and Newsreader from Google Fonts in the widget's `<head>`:
-  `<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">`
+- **Type.** UI and labels: `"DM Sans", Arial, sans-serif`. Headings: `"Newsreader", Georgia, serif` (weight 500 to 600). Long reading text: `"Source Serif 4", Georgia, serif`. Load DM Sans and Newsreader from Google Fonts in the widget's `<head>`, non-blocking so a slow font server never delays the page (a widget that has not finished loading after 8 seconds is shown as broken):
+  `<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">`
 - **Colour.** Page `#faf8f3`, cards `#ffffff`, text `#1a1a1a`, muted text `#5a5a5a`, borders `#e8e5df`, accent `#b87018` (hover `#9a5c10`, white text on it). Use the accent for the one thing that matters (selection, the "correct" state, a heat scale). Greys and one accent; no second brand colour.
 - **Shape.** 1px borders, 8px radius, generous whitespace, 14px base text, 1.5 line height. No drop shadows heavier than a hairline. Buttons are quiet (border + hover background), not filled, unless they are the primary action.
 - **Behaviour.** Everything clickable is a `<button>` or `<a>` (keyboard reachable), state changes are visible without colour alone, and the widget works at 360px wide (stack columns with a media query; a wide grid may scroll horizontally inside its own box, never the page).
