@@ -1,6 +1,6 @@
 ---
 title: The verification landscape
-summary_for_tutor: A heat-map of where AI verification work is happening. Rows are kinds of verification (hardware mechanisms, cryptographic methods, compute and supply chain, monitoring and intelligence, institutions and agreements, evaluations and standards); columns are who does the work (academia, think tanks and nonprofits, industry, government and international). Darker squares mean more activity. The learner taps a square to read who works there and how it connects, or a row or column label to read what it means. The pattern to notice - the think-tank column is the field's centre of gravity, export control is the one muscular government square, and cryptographic methods have no government home at all - is spelled out in the visible text below the grid. Content ported from XLab's Verification track (snapshot, early 2026).
+summary_for_tutor: A heat-map of where AI verification work is happening. Rows are kinds of verification (hardware mechanisms, cryptographic methods, compute and supply chain, monitoring and intelligence, institutions and agreements, evaluations and standards); columns are who does the work (academia, think tanks and nonprofits, industry, government and international). Darker squares mean more activity. The learner taps a square to read who works there and how it connects, or a row or column label to read what it means. Patterns worth drawing out are that the think-tank column is the field's centre of gravity, export control is the one muscular government square, and cryptographic methods have no government home at all. Content ported from XLab's Verification track (snapshot, early 2026).
 tags: [wip]
 ---
 <!doctype html>
@@ -11,7 +11,7 @@ tags: [wip]
 <title>The verification landscape</title>
 <!-- Ported from XLab Tracks (github.com/XLabTracks/tracks), Verification track widget "verification-landscape". -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <style>
   :root {
     --bg: #ffffff;
@@ -82,9 +82,6 @@ tags: [wip]
     width: 28px; height: 28px; border-radius: 6px; cursor: pointer; font-size: 18px; line-height: 1;
   }
   .close:hover { color: var(--text); background: var(--border); }
-  .foot { margin-top: 20px; color: var(--text); }
-  .foot p { margin: 8px 0 0; }
-  .foot .disclaim { color: var(--muted); font-size: 12px; }
 </style>
 </head>
 <body>
@@ -105,12 +102,6 @@ tags: [wip]
 
 <div class="detail" id="detail" aria-live="polite">
   <p class="hint">Select any square, row, or column to read about it.</p>
-</div>
-
-<div class="foot">
-  <p>One pattern jumps out fast. The field's center of gravity is the think-tank and nonprofit column, not government or industry. Most of what exists today is analysis and proposal. The hard mechanisms, especially the cryptographic ones that would let a state check a rival without seeing its secrets, sit mostly in academic papers with no public-sector home. The single place where government verification is genuinely muscular is export control, one square in the whole grid.</p>
-  <p>That unevenness is the opportunity. You are not arriving at a finished field. You are arriving at one with obvious empty squares, at a moment when which ones get filled is still open.</p>
-  <p class="disclaim">A snapshot, not a census. Efforts are illustrative examples, current to early 2026, and the field is moving quickly. Intensities are judgment calls meant to convey shape, not precise measurement.</p>
 </div>
 
 <script>
