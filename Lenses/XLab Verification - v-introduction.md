@@ -110,7 +110,7 @@ feedback-instructions:: Roomba navigates with sensors and fixed rules. It does n
 
 #### Question: Choice
 id:: 0594a403-1d2a-4203-9cc7-7bce55333971
-content:: Optional: Which is the most specific category below that describes Midjourney?
+content:: Optional: Which is the most specific category below that describes Midjourney (a tool that creates images from text prompts)?
 options::
 - Deep Learning
 - [x] Generative AI
@@ -121,14 +121,14 @@ feedback-instructions:: Midjourney generates images via diffusion. It is generat
 
 #### Question: Choice
 id:: 9b3a4fa5-89e9-48fb-bab9-64abe13334d2
-content:: Optional: Which is the most specific category below that describes Mamba?
+content:: Optional: Which is the most specific category below that describes a text-generating model built with Mamba (a neural-network architecture that processes sequences using selective state spaces instead of transformer attention)?
 options::
 - Deep Learning
 - Generative AI
 - [x] Large Language Model
 - Transformer LLMs
 optional:: true
-feedback-instructions:: Mamba is a large language model that is NOT a transformer. It uses a state-space architecture instead of attention. Explain in one or two sentences.
+feedback-instructions:: A text-generating model built with Mamba can be a large language model without being a transformer. Mamba uses selective state spaces instead of transformer attention. Explain in one or two sentences.
 
 #### Text
 content::
