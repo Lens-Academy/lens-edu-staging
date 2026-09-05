@@ -166,7 +166,7 @@ content::
 
 Four open questions:
 
-**Assessment load.** Every retrieval beat is another tutor conversation. We have not costed what that does to a unit's total time, and U1 and U2 are already the units learners describe as heavy concep.
+**Assessment load.** Every retrieval beat is another tutor conversation. We have not costed what that does to a unit's total time, and U1 and U2 are already the most heavliy .
 
 **The pending eval fixes.** The fix pass recorded at [[../AI Guide/Evals/Learning Outcome Evals/Run Reports/2026-08-24 Fix Pass]] produced repairs for 46 outcome files as pending suggestions. We do not know whether they have been accepted. Two of the threads proposed here terminate on outcomes named in that batch.
 
