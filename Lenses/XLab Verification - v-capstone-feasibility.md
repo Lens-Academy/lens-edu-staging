@@ -1,6 +1,6 @@
 ---
 id: '01252915-279a-48c6-b34a-97e51ce90203'
-title: "4.1 Feasibility Judgments"
+title: "Feasibility Judgments"
 tldr: "Mechanisms age; the skill of judging them does not. Check the bets you placed in 2.0 against the reference map, learn the four questions that turn 'is it feasible?' into an answer, survive three drill benches, and write the defended-ranking memo your capstone will build on."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Sequence: (1) Intuition check: the reference map for the twelve mechanisms rated in 2.0 (a table of rung labels on four metrics plus one closed callout per mechanism with XLab's explanation and sources), then an open reflection on one mechanism where Module 2 evidence changed the learner's view. (2) Four metrics of feasibility, each a callout with a source excerpt and what to glean. (3) Drill bench: three benches (evasion, regime, position) as graded choice questions, one numeric estimate and one short open answer, each followed by a closed 'Why' callout; give the why after each answer, do not reveal it before. (4) The defended-ranking memo (about 900 words, peer reviewed) that 4.2 receives. When the learner disagrees with the reference map, ask which metric and what evidence would settle it rather than defending the map."
 tags: [wip]
