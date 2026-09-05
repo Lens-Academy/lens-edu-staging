@@ -1,6 +1,6 @@
 ---
 id: '2f1c552a-1785-43d7-b8dd-41ae5f7dfadd'
-title: "1.1 Anatomy of a (pause) agreement"
+title: "Anatomy of a (pause) agreement"
 tldr: "Read a treaty the way a mechanic reads an engine: find where 'should' turns into 'shall', which article does the prohibiting, where the verification method is hidden, and how a party gets out. Then practise on MIRI's draft ASI agreement, and optionally sort thirteen real and fictional clauses onto the seven organs every binding agreement has."
 summary_for_tutor: "Structure: a short reading of the Swiss Practice Guide to International Treaties (structure, interpretation, model final clauses), a collapsed aside with the Texas Legislative Council's statute-reading tips (the Article segment that follows the callout is that excerpt), then the assignment: four questions on MIRI's draft agreement (the linked optional paper lens); XLab asks for any 3 of the 4, so all four are optional here. Then the optional Anatomy Drill: thirteen specimen texts, each placed on one of seven organs (rule, claims, evidence, confidentiality bargain, adversary, institution and consequences, gap) or the No-organ bin for advocacy; each specimen carries XLab's verdict, its near-miss notes, and its source (sources are revealed after answering, so do not name a specimen's source before the learner commits); a closing priority pick with no right answer; and the full text of the fictional Reykjavik Protocol. When assessing treaty answers, ask for quotations from the text and attention to verbs (shall, may, must)."
 tags: [wip]

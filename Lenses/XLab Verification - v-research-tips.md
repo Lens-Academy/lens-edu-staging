@@ -1,6 +1,6 @@
 ---
 id: 'a3548642-ee18-4da6-9ebc-5750e2c50915'
-title: "4.1.1 How to Do Research Well"
+title: "How to Do Research Well"
 tldr: "A working researcher's notes on how he wishes he did research: pick questions someone will act on, find the tractable corner of an intractable question, do the crappy version first. Read it before you scope your capstone."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. One reading: Aaron Scher's (MIRI) research tips, embedded in full as an article (project selection and scoping, thinking process, non-thinking process). No questions. If the learner discusses it, connect the advice to their capstone choice in 4.2: what is the action-relevant question, what is the realistic (35%) version, what is the crappy first version. The source document is a living Google Doc; the article is a snapshot."
 tags: [wip]
