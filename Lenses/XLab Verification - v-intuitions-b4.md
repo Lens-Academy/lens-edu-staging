@@ -1,6 +1,8 @@
 ---
 id: '1acf7a9b-5225-4767-8a2f-e60f9add74ae'
 title: "B4. Political cooperation"
+tldr: "Identify each plan's hardest cooperation problem and weigh its consequences."
+summary_for_tutor: "Identify each plan's hardest cooperation problem and weigh its consequences. This lens belongs to an optional essay route or optional extension; respect the learner's route choice."
 duration_minutes: 20
 tags: [wip]
 add_to_ai_context:

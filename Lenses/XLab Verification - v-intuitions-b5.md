@@ -1,6 +1,8 @@
 ---
 id: '5c1b1bef-f940-40b1-8321-0be2d52c8b5e'
 title: "B5. Final comparison"
+tldr: "Recommend Plan A or Plan S using your four comparisons and the strongest objection."
+summary_for_tutor: "Recommend Plan A or Plan S using your four comparisons and the strongest objection. This lens belongs to an optional essay route or optional extension; respect the learner's route choice."
 duration_minutes: 25
 tags: [wip]
 add_to_ai_context:
