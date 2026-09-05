@@ -2,7 +2,7 @@
 id: '7a5bcc21-1cea-45f1-95d1-46c7896c94ec'
 title: "Building Verification Intuitions"
 tldr: "Take the most detailed public plan for a verified AI slowdown, AI 2040's Plan A, and treat it like an engineer treats a bridge design: find the load-bearing part, the weakest weld, the unrealistic schedule, and how much hidden compute it can survive. Then write your verdict."
-summary_for_tutor: "Introduces the verification exercise and the two alternative essay routes. The next lens embeds Plan A; each essay step and drill group has its own lens."
+summary_for_tutor: "Introduces the verification exercise and the two alternative essay routes. The next lens embeds Plan A. Each optional route keeps its four preparatory responses and final essay together. Further exploration and ungraded primer practice are separate."
 tags: [wip]
 duration_minutes: 5
 ---
@@ -28,11 +28,12 @@ A: stress-test the Plan A verification supplement, or
 
 B: compare Plan A (verified slowdown) and Plan S (complete shutdown).
 
-Read [[../Lenses/XLab Verification - v-intuitions-plan-a|Plan A on the next page]], then complete all five parts of one route.
-The route lenses are marked optional so you can skip the route you did not choose.
+Read [[../Lenses/XLab Verification - v-intuitions-plan-a|Plan A on the next page]], then choose **one** of the two optional essay lenses.
+Complete all four short responses and the final essay inside your chosen lens.
+Both essay lenses are marked optional so you can skip the option you did not choose; you are asked to complete one, not skip both.
 
-- **Option A:** start with [[../Lenses/XLab Verification - v-intuitions-a1|A1. Strongest mechanism]].
-- **Option B:** start with [[../Lenses/XLab Verification - v-intuitions-plan-s|the Plan S reading]], then [[../Lenses/XLab Verification - v-intuitions-b1|B1. Verification target]].
+- **Option A:** [[../Lenses/XLab Verification - v-intuitions-a1|Stress-test Plan A]], including A1–A4 and final essay A5.
+- **Option B:** [[../Lenses/XLab Verification - v-intuitions-b1|Compare Plan A and Plan S]], including the Plan S reading, B1–B4, and final essay B5.
 
 After your final essay, continue to [[../Lenses/XLab Verification - v-intuitions-drills-1|the drill bench]].
 The success-scenario essay and further reading are optional.
