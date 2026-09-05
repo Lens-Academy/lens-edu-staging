@@ -4,11 +4,11 @@ reading_minutes: 0
 tutor_minutes: 0
 title: Ascension (draft skeleton)
 tldr: "TODO. One sentence to the learner. An analogy beats a summary."
-summary_for_tutor: "DRAFT SKELETON, orphaned. A copy of [[../Lenses/IABIED - One Extinction Scenario (Video)]] with the video swapped for Chapter 9 and every claim about the chapter's content left as a TODO, because whoever drafted this could not open Lens Edu Private. Intended to sit immediately after the film lens in U3 so the scenario stops at Expansion and the chapter supplies Ascension. Not referenced by any module."
+summary_for_tutor: "DRAFT SKELETON, orphaned. A copy of [[../Lenses/IABIED - One Extinction Scenario (Video)]] with the video swapped for Chapter 9 and every claim about the chapter's content left as a TODO, because whoever drafted this could not open Lens Edu Private. Sits after [[../Lenses/DRAFT - Ch9 Cosmic Stakes - PQ]], which takes a prediction before the reading; the final segment returns to that prediction. Intended to sit immediately after the film lens in U3 so the scenario stops at Expansion and the chapter supplies Ascension. Not referenced by any module."
 tags:
   - wip
 authors:
-  - Elias+Claude
+  - "TODO+Claude"
 ---
 
 %%
