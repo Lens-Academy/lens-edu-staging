@@ -2,13 +2,13 @@
 id: '8a4e5bcf-28d0-4a8e-bff1-f4e386eef7de'
 reading_minutes: 25
 tutor_minutes: 20
-title: You Don't Get What You Train For (reach-back draft)
+title: You Don't Get What You Train For (connection draft)
 tldr: You trained it to be helpful. But helpful in training isn't the same as wanting to be helpful later. Chapter 4 explains why, and it gets worse.
 summary_for_tutor: "DRAFT, orphaned. A modification of [[../Lenses/IABIED - You Don't Get What You Train For]] that inserts one retrieval beat between Processing and the Learning Question. Phase 3 asks the student which earlier idea this chapter leans on, without naming it; the answer key lives only in assessment-instructions. Everything else is unchanged from the live lens. Not referenced by any module."
 tags:
   - wip
 authors:
-  - Elias+Claude
+  - "TODO+Claude"
 ---
 
 %%
@@ -51,7 +51,7 @@ assessment-instructions:: Unchanged from the live lens. See [[../Lenses/IABIED -
 #### Question: Open
 id:: 'c383da66-5c78-4f49-91d5-d785af158821'
 content::
-\## Phase 3: Reach back
+\## Phase 3: Connection
 This chapter's argument does not start from nothing. It leans on something you already worked through earlier in this course, and it never stops to say so.
 
 Without looking anything up, write down which earlier idea it is leaning on, and what work that idea is doing here.
