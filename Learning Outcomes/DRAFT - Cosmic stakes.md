@@ -38,7 +38,7 @@ id:: '7a5516a3-1bac-469a-9508-9cd91f621b98'
 content::
 A friend follows the argument up to a point. They accept that a sufficiently capable AI pursuing goals of its own could end humanity. But they treat everything after that as unknowable: the story stops at extinction, and speculating about what a machine does over the following millennia is pointless guesswork.
 
-Explain why the reasoning that predicts the takeover also constrains what follows it. In your answer, be specific about what would have to be true for the expansion to stop.
+Explain why the reasoning that predicts the takeover also predicts what follows it. In your answer, be specific about what would have to be true for the expansion to stop.
 
 assessment-instructions::
 Score according to the following rubric.
