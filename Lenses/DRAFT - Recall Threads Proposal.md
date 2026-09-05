@@ -17,7 +17,7 @@ content::
 
 The book is modular in structure, but its concepts thread across parts without being called back in a linear consumption of the book. There is an implicit expectation that readers connect the sections themselves, which most will not do unprompted. This proposal is to modify the existing learning experience to provide learners explicit opportunities to connect new knowledge to prior concepts.
 
-The present iteration of the course exemplifi Each learning outcome is taught in the module where its chapter is read, tested at the end of that module, and never asked for again. A learner can complete the course having met every concept exactly once.
+The present iteration of the course exemplifies the flaws of a lean a Each learning outcome is taught in the module where its chapter is read, tested at the end of that module, and never asked for again. A learner can complete the course having met every concept exactly once.
 
 The proposed fix is not chapter cross-references. Telling someone which principle applies removes the work that makes the principle stick. The fix is to prompt people to search for the principles they have learned and then decide which ones are applicable. This results in user actively having to scour through the concepts they've previously learned and judge how they might be connected to or apply towards the concept they're currently encountering.
 
