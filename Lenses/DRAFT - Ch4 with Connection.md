@@ -54,9 +54,7 @@ content::
 \## Phase 3: Connection
 This chapter's argument does not start from nothing. It leans on something you already worked through earlier in this course, and it never stops to say so.
 
-Without looking anything up, write down which earlier idea it is leaning on, and what work that idea is doing here.
-
-If more than one comes to mind, say which one you think is load-bearing and why.
+Without looking anything up, write down which earlier idea it is leaning on, and what work that idea is doing here. If more than one comes to mind, say which one you think is load-bearing and why.
 
 assessment-instructions:: The student has read Chapter 4 ("You Don't Get What You Train For"), written a free recall, and reflected on it. They have now been asked to name the earlier idea this chapter rests on. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
 
