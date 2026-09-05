@@ -1,6 +1,8 @@
 ---
 id: '5b8107db-ec0c-4424-8150-5d8185361e65'
 title: "Drills: Cooperation and commitment"
+tldr: "Practice distinguishing domestic cooperation constraints from credible commitment."
+summary_for_tutor: "Practice distinguishing domestic cooperation constraints from credible commitment. Preserve the source framing and respond to the learner's reasoning."
 duration_minutes: 5
 tags: [wip]
 ---
