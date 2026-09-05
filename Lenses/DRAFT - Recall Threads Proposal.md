@@ -148,7 +148,7 @@ content::
 
 ---
 
-::card[[../Lens Edu/_deprecated/DRAFT - Ch9 Cosmic Stakes - PQ - MERGED]]
+::card[[../_deprecated/DRAFT - Ch9 Cosmic Stakes - PQ - MERGED]]
 
 > The prediction half. Taken straight after the film ends, before the chapter is read, so the chapter meets a committed prior instead of a blank page.
 
