@@ -1,4 +1,5 @@
 ---
+id: 'a1d2e3f4-5b6c-4d7e-8f90-1a2b3c4d5e04'
 title: Broken widget (demo)
 summary_for_tutor: A deliberately invalid widget used to show what learners see when a widget file has errors. It has no content.
 tags: [wip]

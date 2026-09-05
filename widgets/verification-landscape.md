@@ -1,4 +1,5 @@
 ---
+id: 'a1d2e3f4-5b6c-4d7e-8f90-1a2b3c4d5e03'
 title: The verification landscape
 summary_for_tutor: A heat-map of where AI verification work is happening. Rows are kinds of verification (hardware mechanisms, cryptographic methods, compute and supply chain, monitoring and intelligence, institutions and agreements, evaluations and standards); columns are who does the work (academia, think tanks and nonprofits, industry, government and international). Darker squares mean more activity. The learner taps a square to read who works there and how it connects, or a row or column label to read what it means. Patterns worth drawing out are that the think-tank column is the field's centre of gravity, export control is the one muscular government square, and cryptographic methods have no government home at all. Content ported from XLab's Verification track (snapshot, early 2026).
 tags: [wip]

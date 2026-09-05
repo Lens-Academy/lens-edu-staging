@@ -38,5 +38,13 @@ Finally, what a learner sees when a widget file has errors. The file below is br
 #### Widget
 source:: [[../widgets/broken-demo]]
 
+#### Text
+content::
+Last: a widget that **remembers**. Name an organisation and fill the eight boxes of a theory of change. Your entries are saved to your account (reload the page and they are still there), the tutor can see them, and this page cannot be marked complete until all eight boxes are filled. When you are done, the widget offers to send the canvas to the tutor for a review.
+
+#### Widget
+source:: [[../widgets/theories-of-change]]
+required:: true
+
 #### Chat
 instructions:: The learner has just used two interactive widgets: one testing four answers to the verification problem (trust, punish, transparency, verification), one mapping AI categories as concentric rings. Ask where they would place AlphaFold (a deep-learning system that predicts protein structures; not generative language, not a transformer LLM in the chatbot sense) and probe their reasoning about the ring boundaries. Keep it to a short exchange.

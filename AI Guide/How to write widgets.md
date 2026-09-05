@@ -14,6 +14,7 @@ Widgets live in `widgets/<name>.md`. The `.md` extension is kept on purpose: the
 
 ```markdown
 ---
+id: '3f2a9c1e-7b4d-4e8f-a1c2-5d6e7f8a9b0c'
 title: The types of AI
 summary_for_tutor: A concentric diagram of AI categories; the learner taps a ring or an example system to read why it sits there.
 height: auto
@@ -35,6 +36,7 @@ tags: [wip]
 
 Frontmatter fields:
 
+- `id`: a UUID (`uuidgen | tr A-Z a-z`, quoted), required. It is the key a learner's saved state is stored under, so it never changes once learners have used the widget. The same widget placed in two lenses shares the learner's state.
 - `title`: shown to screen readers and in the "could not be loaded" notice.
 - `summary_for_tutor`: what the widget shows and what the learner does with it. The AI tutor cannot see the learner's clicks; it sees this summary plus the widget's visible text. A widget that builds its content in JavaScript has no visible text at parse time, so the summary is then the tutor's only view of it. Write it as if briefing a colleague who cannot see the screen.
 - `height`: `auto` (default, the frame follows the content) or a fixed CSS length such as `480px` (the frame keeps that height and the page scrolls inside).
