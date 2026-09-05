@@ -84,6 +84,34 @@ Do not preview the Coda. They read it next, and it is the piece that says how to
 
 However this ends, do not end on doom. Send them on to the Coda.
 
+#### Question: Open
+id:: 'c383da66-5c78-4f49-91d5-d785af158822'
+content::
+\## Back to your prediction
+
+Before you read this, you wrote down what you thought the AI would do over the following centuries.
+
+Go back and look at it.
+
+Where were you wrong, and what were you reasoning from when you got it wrong?
+
+assessment-instructions:: Before reading, the student predicted the AI's long-run behavior after humanity is gone, in [[../Lenses/DRAFT - Ch9 Cosmic Stakes - PQ]]. They have now read the chapter and been asked to compare.
+
+This beat exists because a prediction the student writes down and never revisits is wasted. Its job is to make the gap between their prior and the chapter visible to them, and to get them to name what produced the gap.
+
+Response length: 80 to 150 words. Short paragraphs only. No lists.
+
+The three patterns worth naming, if you see them:
+- **They predicted the AI stops.** The most common and the most useful error. What they were reasoning from is usually a satiable goal, or a picture in which we were the reason for the behavior. Ask which of the two it was.
+- **They predicted expansion but for the wrong reason.** Often an AI that wants to grow, rather than one for which growth serves whatever else it wants. Worth separating, because the second survives contact with the objection that the AI might not care about being large.
+- **They got it roughly right.** Do not stop there. Ask what would have had to be different about the AI for their prediction to fail, and whether they could have said that beforehand.
+
+Do not congratulate accuracy or soften inaccuracy. A wrong prediction that the student can now explain is the outcome this pair of lenses was built for, and saying so plainly is better than reassurance.
+
+TODO. Once the chapter has been read, add a short list of the specific claims it makes that a student's prior is most likely to have missed, so the tutor has something concrete to compare against rather than the three generic patterns above.
+
+Close by sending them to the Coda, which is the piece that says how to weigh this specific story against the general argument. Do not preview it.
+
 #### Text
 content::
 \## Additional resources for this topic
