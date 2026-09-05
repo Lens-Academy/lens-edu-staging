@@ -19,7 +19,7 @@ The book is modular in structure, but its concepts thread across parts without b
 
 Our course inherits that shape and adds a second layer of the same problem. Each learning outcome is taught in the module where its chapter is read, tested at the end of that module, and never asked for again. A learner can complete the course having met every concept exactly once.
 
-The proposed fix is not chapter cross-references. Telling someone which principle applies removes the work that makes the principle stick. The fix is to prompt people to search for the principles they have learned and then decide which ones are applicable. This results in user actively having to scour through the concepts they've previously learned and judge how they might be connected to or apply towards the concept they're cu.
+The proposed fix is not chapter cross-references. Telling someone which principle applies removes the work that makes the principle stick. The fix is to prompt people to search for the principles they have learned and then decide which ones are applicable. This results in user actively having to scour through the concepts they've previously learned and judge how they might be connected to or apply towards the concept they're currently encountering.
 
 #### Text
 content::
