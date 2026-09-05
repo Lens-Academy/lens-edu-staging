@@ -37,7 +37,7 @@ The film ended with Sable taking over the Earth from humanity, but the story doe
 
 TODO. One sentence connecting back to Unit 2. The candidate connection is the distinction between an AI that is hostile and one that is indifferent: indifference is the property that scales, and this chapter is what scaling looks like. Check this against the chapter before committing to it.
 
-Has Sable been indifferent or hostile towards humanity in its takeover and does the differ even a difference if humanity ends up extinct either way?
+Has Sable been indifferent or hostile towards humanity in its takeover and does the difference even matter if humanity ends up extinct either way?
 
 As you read, hold on to one thing: which earlier idea from this course this chapter is the endpoint of.
 
