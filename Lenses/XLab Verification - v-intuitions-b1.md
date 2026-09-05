@@ -1,6 +1,8 @@
 ---
 id: '83491b96-6c8a-4109-a14e-1b66b73eb028'
 title: "B1. Verification target"
+tldr: "Compare what inspectors would need to establish under Plan A and Plan S."
+summary_for_tutor: "Compare what inspectors would need to establish under Plan A and Plan S. This lens belongs to an optional essay route or optional extension; respect the learner's route choice."
 duration_minutes: 10
 tags: [wip]
 add_to_ai_context:
