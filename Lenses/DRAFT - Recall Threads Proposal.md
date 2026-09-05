@@ -40,7 +40,7 @@ Alt text should describe the ladder, not just say "diagram".
 |---|---|---|---|
 | U1 | Intro, 1, 2 | 5 | |
 | U2 | 3, 4, 5 | 4 | |
-| U3 | 6, film for 7 to 9, Coda | 4 | Straddles the Part I and Part II boundary. Chapters 7, 8 and 9 carry no learning outcomes at all in the versi |
+| U3 | 6, film for 7 to 9, Coda | 4 | Straddles the Part I and Part II boundary. Chapters 7, 8 and 9 carry no learning outcomes at all in the version with the film |
 | U4 | 10, 11 | 4 | |
 | U5 | 12, 13, 14, Closing Words | 6 | |
 
