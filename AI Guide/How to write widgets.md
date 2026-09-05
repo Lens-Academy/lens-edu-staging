@@ -49,7 +49,44 @@ Embed it from a lens with a `#### Widget` segment:
 source:: [[../widgets/types-of-ai]]
 ```
 
-Optional on the segment: `height::` overrides the file's height for that one placement. A widget can be used by several lenses.
+Optional on the segment: `height::` overrides the file's height for that one placement; `required:: true` makes the lens wait for the widget's `Lens.complete()` before the learner can mark it complete (widgets gate nothing by default). A widget can be used by several lenses.
+
+## Saving state, completing, talking to the tutor
+
+Every widget page gets a `window.Lens` object from the platform. Nothing to include; it is there before your script runs.
+
+```js
+// Restore: called once with the learner's saved state (null on first visit)
+// and whether they completed the widget before. Render from it.
+Lens.onState(function (state, meta) {
+  if (state) { org = state.org; boxes = state.boxes; }
+  if (meta.completed) { /* show the finished view */ }
+});
+
+// Save: call on every meaningful change. The second argument is the text the
+// AI tutor reads instead of your JSON: write it like a note to a colleague who
+// cannot see the screen ("Organisation: ACME. Inputs: money. Outputs: ...").
+Lens.saveState({ org: org, boxes: boxes }, summaryText);
+
+// Complete: the learner did what the exercise asks. Gates the lens when the
+// segment has required:: true; harmless otherwise.
+Lens.complete();
+
+// Ask the tutor: opens a tutor turn from inside the widget. The first text is
+// what the learner sees as their own message; the second is a private note
+// only the model gets (the state behind the click, what you want the tutor
+// to do with it).
+Lens.promptTutor("Can you stress-test my theory of change?", "Canvas: ... Ask one question that tests the weakest assumption.");
+```
+
+Rules that follow from how this is wired:
+
+- State is per learner and per widget file (`id`), stored on the Lens account (or the anonymous session), saved a moment after the last change and again when the page closes. Keep it small (64 KB) and plain JSON.
+- The tutor sees the summary from `saveState`, not the JSON, and only when it changed since the tutor last saw it, so save the summary in one clean paragraph. A widget that never saves is invisible to the tutor beyond `summary_for_tutor`.
+- `Lens.onState` may fire after your page has rendered its empty state; render from the callback, not before it.
+- Outside the platform (opening the HTML in a browser tab, the editor preview) `window.Lens` does not exist. Guard calls with `if (window.Lens)` so the page still works standalone.
+
+Live example with all four calls: `widgets/theories-of-change.md` in [[../Lenses/Widget Demo]].
 
 ## Rules the frame imposes
 
