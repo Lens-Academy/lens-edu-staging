@@ -99,7 +99,7 @@ Beyond these levels: non-narrow AI remains theoretical; no real non-narrow AI mo
 
 #### Question: Choice
 id:: a461d157-f6b2-416b-9c61-28b2bf2be861
-content:: Optional: Which is the most specific category below that describes a Roomba?
+content:: Optional: Which is the most specific category below that describes a Roomba (a robot vacuum that drives around a home and cleans floors)?
 options::
 - [x] Narrow AI
 - Machine Learning
