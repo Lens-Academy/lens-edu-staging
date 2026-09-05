@@ -119,17 +119,6 @@ options::
 optional:: true
 feedback-instructions:: Midjourney generates images via diffusion. It is generative but not a language model. Explain in one or two sentences.
 
-#### Question: Choice
-id:: 9b3a4fa5-89e9-48fb-bab9-64abe13334d2
-content:: Optional: Which is the most specific category below that describes a text-generating model built with Mamba (a way to build text-generating AI without using a transformer)?
-options::
-- Deep Learning
-- Generative AI
-- [x] Large Language Model
-- Transformer LLMs
-optional:: true
-feedback-instructions:: A text-generating model built with Mamba can be a large language model without being a transformer. Mamba uses selective state spaces instead of transformer attention. Explain in one or two sentences.
-
 #### Text
 content::
 Even the people in charge of developing superintelligence, who have the most incentive to obfuscate dangerous capabilities, have expressed public concerns over the catastrophic risks arising from their technology.
