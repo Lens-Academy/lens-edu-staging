@@ -61,7 +61,7 @@ IMAGE SLOT. Same instructions as above, for the "after" drawing with the recall 
 | Intro | Introduction | 1 | Pulled into its own section, the way `intro-form` is used in Compute Verification's [[../modules/XLab Verification Overview]] |
 | U1 | 1, 2, 3 | 5 | |
 | U2 | 4, 5, 6 | 5 | Chapter 6 refolds, so the unit sits inside Part I |
-| U3 | Chapter 4 and 5 extensions, film for 7 and 8, 9, Coda | 4 | The film covers 7 and 8 only, so Chapter 9 returns as a reading. Two new outcomes in the form of instrumental convergence and cosmic stakes  |
+| U3 | Chapter 4 and 5 extensions, film for 7 and 8, 9, Coda | 4 | The film covers 7 and 8 only, so Chapter 9 returns as a reading. Two new outcomes in the form of instrumental convergence and cosmic stakes [[../ |
 | U4 | 10, 11 | 4 | |
 | U5 | 12, 13, 14, Closing Words | 6 | |
 
