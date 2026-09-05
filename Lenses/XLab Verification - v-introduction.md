@@ -99,7 +99,7 @@ Beyond these levels: non-narrow AI remains theoretical; no real non-narrow AI mo
 
 #### Question: Choice
 id:: a461d157-f6b2-416b-9c61-28b2bf2be861
-content:: Optional: Which is the deepest ring a Roomba belongs to?
+content:: Optional: Which is the most specific category below that describes a Roomba?
 options::
 - [x] Narrow AI
 - Machine Learning
@@ -110,7 +110,7 @@ feedback-instructions:: Roomba navigates with sensors and fixed rules. It does n
 
 #### Question: Choice
 id:: 0594a403-1d2a-4203-9cc7-7bce55333971
-content:: Optional: Which is the deepest ring Midjourney belongs to?
+content:: Optional: Which is the most specific category below that describes Midjourney?
 options::
 - Deep Learning
 - [x] Generative AI
@@ -121,7 +121,7 @@ feedback-instructions:: Midjourney generates images via diffusion. It is generat
 
 #### Question: Choice
 id:: 9b3a4fa5-89e9-48fb-bab9-64abe13334d2
-content:: Optional: Which is the deepest ring Mamba belongs to?
+content:: Optional: Which is the most specific category below that describes Mamba?
 options::
 - Deep Learning
 - Generative AI
