@@ -1,6 +1,8 @@
 ---
 id: 'f6e3a043-4785-4f24-848c-fd70e6518b69'
 title: "B2. Evidence of compliance"
+tldr: "Compare the quality and independence of evidence the two regimes could produce."
+summary_for_tutor: "Compare the quality and independence of evidence the two regimes could produce. This lens belongs to an optional essay route or optional extension; respect the learner's route choice."
 duration_minutes: 15
 tags: [wip]
 add_to_ai_context:

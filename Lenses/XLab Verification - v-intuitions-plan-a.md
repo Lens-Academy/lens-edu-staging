@@ -22,7 +22,7 @@ to:: **Phase 3. Improve robustness.** Over time the US and China improve the sta
 
 #### Article
 from:: Concrete inference-only retrofitting proposal.
-to::     
+to:: 1.  Removing major scale out interconnect and e.g., installing some simple sensors and other physical security mechanisms might also suffice for verifying inference-only for an initial phase of a deal (e.g., 1 year) until higher assurance measures are ready for larger amounts of compute and higher stakes workloads.
 
 #### Article
 from:: ## 2029-2030: Deal Implementation

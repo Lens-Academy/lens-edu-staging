@@ -1,6 +1,8 @@
 ---
 id: '1381524c-5ba1-4384-966c-59af520dd024'
 title: "B3. Monitoring burden"
+tldr: "Compare the scale and blind spots of monitoring under the two plans."
+summary_for_tutor: "Compare the scale and blind spots of monitoring under the two plans. This lens belongs to an optional essay route or optional extension; respect the learner's route choice."
 duration_minutes: 15
 tags: [wip]
 add_to_ai_context:
