@@ -1,6 +1,8 @@
 ---
 id: '550baa77-d9d5-4910-afed-36a2ce0fae99'
 title: "Drills: Concepts and logic"
+tldr: "Classify verification concepts and test a conclusion using logical premises."
+summary_for_tutor: "Classify verification concepts and test a conclusion using logical premises. Preserve the source framing and respond to the learner's reasoning."
 duration_minutes: 5
 tags: [wip]
 ---
