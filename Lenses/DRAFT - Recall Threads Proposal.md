@@ -116,13 +116,13 @@ Not every connection in the book earns a prompt. Three rules decided this list.
 | Goals | Ch 5, hostile vs. indifferent | Ch 9, cosmic stakes | Split across the pre-reading prediction and the closing comparison | Drafted |
 | Method | Intro, hard vs. easy calls | Coda, path vs. outcome | One segment in the Coda lens | Not started |
 | Training and values | Ch 2, behavior vs. values | Ch 4, you don't get what you train for | One segment in the Chapter 4 lens | Drafted |
-| Training and values | Ch 2, grown not crafted | Ch 11, alignment as alchemy | One segment in the Chapter 11 lens, carrying both incoming threads | Not started |
-| Training and values | Ch 3, wanting emerges from training | Ch 11, superalignment objection | Same segment as above | Not started |
-| Capability | Ch 1, prediction plus steering | Ch 6, Aztec warrior | One segment in the Chapter 6 lens | Not started |
-| Capability | Ch 1, machine advantages | Ch 10, five curses | One segment in the Chapter 10 lens, keyed on the curse of speed | Not started |
-| Unrepeatability | Ch 10, five curses | Ch 12, one-chance problem | One segment in the Chapter 12 lens, keyed on Chernobyl appearing twice for different reasons | Not started |
+| Training and values | Ch 2, grown not crafted | Ch 11, alignment as alchemy | One segment in [[../Lenses/IABIED - Alchemy Not Science]] | Not started |
+| Training and values | Ch 3, wanting emerges from training | Ch 11, superalignment objection | One segment in [[../Lenses/IABIED - Strong Superalignment Objection]], which is a separate lens | Not started |
+| Capability | Ch 1, prediction plus steering | Ch 6, Aztec warrior | One segment in the Aztec warrior lens | Not started |
+| Capability | Ch 1, machine advantages | Ch 10, five curses | One segment in the five curses lens, keyed on the curse of speed | Not started |
+| Unrepeatability | Ch 10, five curses | Ch 12, one-chance problem | One segment in the one-chance problem lens, keyed on Chernobyl appearing twice for different reasons | Not started |
 
-Ten threads land on eight target lenses. The build is eight added segments, two of which are drafted, plus the two new U3 outcomes.
+Ten threads land on nine target lenses. Only the two goals threads share a target, because the new U3 opener is one lens carrying one outcome; Chapter 11's two outcomes are taught in two separate lenses, so they need a segment each. The build is nine added segments, two of which are drafted, plus the two new U3 outcomes.
 
 #### Text
 content::
