@@ -2,7 +2,7 @@
 id: '2568958e-1e5c-4017-8519-66d002bf002d'
 learning-outcome: "Explain why an indifferent superintelligence would not stop at Earth: the scale of what follows a takeover is a consequence of the same reasoning that predicts the takeover, not an additional assumption"
 authors:
-  - "TODO+Claude"
+  - Andreas+Claude
 tags:
   - learning-outcome
   - wip
@@ -55,10 +55,10 @@ Score according to the following rubric.
 
 # Suggested Lenses:
 ## Lens:
-source:: [[../_deprecated/DRAFT - Ch9 Cosmic Stakes - PQ - MERGED]]
+source:: {--{"author":"AI","timestamp":1788617508973}@@[[../_deprecated/DRAFT - Ch9 Cosmic Stakes - PQ - MERGED]]
 
 ## Lens:
-source:: [[../Lenses/DRAFT - Ch9 Cosmic Stakes (from film lens)]]
+source:: --}[[../Lenses/DRAFT - Ch9 Cosmic Stakes (from film lens)]]
 
 ## Lens:
 source:: [[../Lenses/IABIED - QA - The Ending]]
