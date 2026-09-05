@@ -81,7 +81,7 @@ Three general obseration:
 
 **The course already makes participants form connections correctly, albeit in one dimension.** Your Leverage, Talk to One Person, How Did It Go and Your Ongoing Action form an arc across four modules that explicitly reopens itself: the welcome text of the fourth module returns the learner to the commitment they made in the third. The behavioral thread calls itself back. The conceptual threads do not. So the proposal is to do to the concepts what has already been done with the action plan.
 
-**One lens states the pattern backwards.** In [[../Lenses/IABIED - One Extinction Scenario (Video)]], the tutor brief instructs the AI to test whether the learner's objection attacks the underlying mechanism, and then names the three mechanisms it should test against. Three units of prior learning, listed precisely, addressed to the tutor. The learner is asked which step they found hardest to believe, and is required to retrieve nothing. (Possible Lens to rework)
+**One lens states the pattern backwards.** In [[../Lenses/IABIED - One Extinction Scenario (Video)]], the tutor brief instructs the AI to test whether the learner's objection attacks the underlying mechanism, and then names the three mechanisms it should test against. Three units of prior learning, listed precisely, addressed to the tutor. The learner is asked which step they found hardest to believe, and is required to retrieve nothing. (Possible lens to rework in the future).
 
 #### Text
 content::
