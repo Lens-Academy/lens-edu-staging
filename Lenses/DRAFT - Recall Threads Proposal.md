@@ -170,6 +170,6 @@ Four open questions:
 
 **The pending eval fixes.** The fix pass recorded at [[../AI Guide/Evals/Learning Outcome Evals/Run Reports/2026-08-24 Fix Pass]] produced repairs for 46 outcome files as pending suggestions. We do not know whether they have been accepted. Two of the threads proposed here terminate on outcomes named in that batch.
 
-**Whether the extension readings move or duplicate.** The instrumental convergence passage is currently optional material under Chapters 6 and 8. Making it required earlier means either moving it or having it appear twice. Optional first and required later is spaced repetition by construction, but it can also read as padding.
+**Whether the extension readings move or duplicate.** The instrumental convergence passage is currently optional material under Chapters 6 and 8. Making it required earlier means either moving it or having it appear twice. Optional first and required later is spaced repetition by construction, but it can also read as padding to the most prudent readers.
 
 **Version control.** These drafts are orphaned and tagged wip precisely because we do not yet know what the review path looks like for changes of this size.
