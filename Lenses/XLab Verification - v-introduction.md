@@ -2,7 +2,7 @@
 id: '52565ea0-6760-498e-85b5-850bcc48ccf3'
 title: "0.1 Introduction: Why Should You Care About AI Verification?"
 tldr: "Models have already broken out of test environments and into real companies; the people building them say worse is coming. No single country can contain that, and rivals cannot simply trust, punish, or open their books. Verification is the fourth option, and almost nobody is working on it yet."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab's interactive widgets (types-of-ai rings, leader profiles, verification-problem, landscape map) are rendered here as text plus choice questions; only the Our World in Data charts remain external."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab's interactive widgets (types-of-AI levels, leader profiles, verification-problem, landscape map) are rendered here as text plus choice questions; only the Our World in Data charts remain external."
 tags: [wip]
 duration_minutes: 50
 ---
@@ -83,7 +83,7 @@ Because we cannot separate dangerous capabilities from beneficial ones, we will 
 A key property of ASI would be recursive self-improvement, or RSI. A model capable of RSI would be able to autonomously and exponentially improve itself, leading to unstoppable, runaway systems that humans can no longer control. Throughout this course, we will use the term ASI to refer to AI with dangerous capabilities that pose a material existential threat to humanity.
 
 :::callout {title="Optional: The Types of AI" tone="neutral" collapse="closed"}
-Where does today's AI sit? Each ring contains the next; a system sits at the deepest ring it belongs to.
+Where does today's AI sit? These levels move from broad labels to more specific types. They describe what kind of system something is, not how capable it is. A system can fit several levels; choose the most specific one that applies.
 
 1. **AI**: the whole field, any system built to do things we would call intelligent.
 2. **Narrow AI**: built for one task or a narrow set of them. Everything that actually exists today lives here. Examples: Roomba (sensors and fixed rules, no learning from data), Boeing autopilot (engineered control laws), IBM Deep Blue (brute-force search plus hand-crafted evaluation), Word spell checker (dictionary and rules).
