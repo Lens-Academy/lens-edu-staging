@@ -1,6 +1,6 @@
 ---
 id: '70ee83e3-ccaa-4130-a72f-8a4310acc919'
-title: "1.2.1 Geographic supply-chain map"
+title: "Geographic supply-chain map"
 tldr: "One Dutch company builds every EUV machine on Earth; one island fabricates about 90 percent of leading-edge logic; three firms make nearly all high-bandwidth memory. Follow a chip from sand to model through fourteen countries and see where the chain pinches to a few known addresses, and where it fans out into places a verifier cannot see."
 summary_for_tutor: "Reading-only lens reproducing XLab's interactive supply-chain map as text: six supply-chain layers with why each matters for verification, the eight-stage pipeline from materials to trained models, and fourteen country cards (primary layer, layers, actor roles, anchor facts, why it matters for verification), plus a link to ETO's Chip Explorer. Closes with XLab's Notes and sources and a currency warning: concentration figures are 2021 to 2023 data. If the learner asks about a number, point them to the cited sources (CSET 2021; Sastry, Heim, Belfield et al. 2024; CNAS 2024) and remind them shares move while the structure has not."
 tags: [wip]
