@@ -8,7 +8,7 @@ tldr: Nobody sat down and programmed ChatGPT to have conversations. Instead, eng
 ---
 #### Text
 content::
-We don’t "build" intelligence brick by brick; instead, we create conditions for it to develop using massive datasets. This "growth" leads to emergent properties, skills that the system wasn't explicitly taught and that often surprise the creators themselves. The {--{"author":"Elias's AI","timestamp":1788553710367}@@first material in this module--}{++{"author":"Elias's AI","timestamp":1788553710367}@@article below++} examines these features of the current AI development paradigm and explores the consequences of such an approach.
+We don’t "build" intelligence brick by brick; instead, we create conditions for it to develop using massive datasets. This "growth" leads to emergent properties, skills that the system wasn't explicitly taught and that often surprise the creators themselves. The article below examines these features of the current AI development paradigm and explores the consequences of such an approach.
 
 #### Article
 source:: [[../articles/yudkowsky-soares-ai-is-grown-not-built|yudkowsky-soares-ai-is-grown-not-built]]
