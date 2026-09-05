@@ -121,7 +121,7 @@ feedback-instructions:: Midjourney generates images via diffusion. It is generat
 
 #### Question: Choice
 id:: 9b3a4fa5-89e9-48fb-bab9-64abe13334d2
-content:: Optional: Which is the most specific category below that describes a text-generating model built with Mamba (a neural-network architecture that processes sequences using selective state spaces instead of transformer attention)?
+content:: Optional: Which is the most specific category below that describes a text-generating model built with Mamba (a way to build text-generating AI without using a transformer)?
 options::
 - Deep Learning
 - Generative AI
