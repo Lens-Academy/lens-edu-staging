@@ -59,4 +59,5 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../modules/XLab Verification P1 W5 Hardware verification]]
 
 # Meeting: Week 5: Hardware verification
+meeting-doc-template:: https://docs.google.com/document/d/1zIA1oR3qo6GMkTFYpgcMqPgJNT4e4bWbqlNzJdMOyME/edit
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
