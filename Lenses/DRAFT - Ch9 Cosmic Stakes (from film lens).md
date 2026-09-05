@@ -46,7 +46,7 @@ id:: 'e76baf31-29e8-49c5-b237-a21640e83473'
 content::
 \## Before you read on
 
-The story you just watched ends with humanity gone.
+The story you just watched ends with Sable taking humanity gone.
 
 Before reading further, commit to an answer. A few sentences is plenty, and a guess is fine.
 
