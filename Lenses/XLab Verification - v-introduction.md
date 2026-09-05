@@ -233,39 +233,20 @@ Domestic policy, while essential, therefore cannot answer every important questi
 
 The United States and China each have reasons to worry that an agreement could constrain its own development while leaving the other side free to advance. But some of history’s most consequential international institutions were created precisely because states remained competitors: the U.S. and Soviet Union successfully averted nuclear war, despite being staunch political enemies. But in this state of competition and distrust, how do rivals enforce such agreements?
 
-#### Question: Choice
-id:: 9c846d52-01fb-4a6e-8cf1-cdebe099a0d3
-content::
-\### Two rivals. One treaty. Zero trust.
-
-Two adversarial states have signed a mutual agreement limiting a dangerous technology. Neither believes the other for a second.
-
-How do you know the other party will uphold its obligations, and how does it know you will follow yours? Pick the answer you think holds.
-options::
-- Trust: a handshake, a signature and a promise kept on honor alone.
-- Punish violations: sanctions, retaliation and consequences severe enough to deter misconduct.
-- Mutual transparency: open the books, show the facilities and publish the research.
-- [x] Neutral, privacy-preserving verification mechanisms: prove compliance without surrendering the secrets around it.
-feedback-instructions:: Tell the learner the outcome of the option they chose, using the source verdicts. Trust collapses: works with friends, not with nation-state adversaries incentivized to gain a secret upper hand. Punishment arrives too late: deterrence depends on reliably tracking each party's actions, and an ex-post regime fails when consequences are immediate, far-reaching, and irreversible; no fine can bring back the dead. Transparency backfires: disclosure risks theft of proprietary information or prototypes, and each party is still incentivized to develop a secret advantage and fabricate compliance. Verification holds: if each party can verify the other's compliance without learning their secrets, knowing the other can do the same, they have fewer material incentives to dodge compliance. Two to four sentences, no praise.
-
-#### Text
-content::
-Test each answer:
-
-:::callout {title="Trust?" tone="neutral" collapse="closed"}
-**It collapses.** You could trust each other, and trust each other's trust. Works with friends, but not with nation-state adversaries incentivized to self-protect by gaining the secret upper hand, and especially not when dealing with the development of high-risk technologies.
+:::callout {title="Trust?" tone="neutral"}
+You could trust each other, and trust each other's trust. Works with friends, but not with nation-state adversaries incentivized to self-protect by gaining the secret upper hand, and especially not when dealing with the development of high-risk technologies.
 :::
 
-:::callout {title="Punish violations?" tone="neutral" collapse="closed"}
-**It arrives too late.** In the absence of trust, they could penalize violations of the agreement and preempt misconduct. But deterrence depends upon the reliability of tracking each party's actions. Moreover, an ex-post regime fails when consequences are immediate, far-reaching, and irreversible: no fine can bring back the dead.
+:::callout {title="Punish violations?" tone="neutral"}
+In the absence of trust, they could penalize violations of the agreement and preempt misconduct. But deterrence depends upon the reliability of tracking each party's actions. Moreover, an ex-post regime fails when consequences are immediate, far-reaching, and irreversible: no fine can bring back the dead.
 :::
 
-:::callout {title="Mutual transparency?" tone="neutral" collapse="closed"}
-**It backfires.** They could mutually disclose actions, but increased transparency risks theft of proprietary information or prototypes by adversaries. Each party is still incentivized to develop a secret advantage and fabricate compliance.
+:::callout {title="Mutual transparency?" tone="neutral"}
+They could mutually disclose actions, but increased transparency risks theft of proprietary information or prototypes by adversaries. Each party is still incentivized to develop a secret advantage and fabricate compliance.
 :::
 
-:::callout {title="Neutral, privacy-preserving verification mechanisms?" tone="neutral" collapse="closed"}
-**It holds.** What if you could mutually verify compliance without risking undue loss of privacy? If each party could verify the other's compliance without learning their secrets, knowing they can do the same, they have fewer material incentives to dodge compliance. Verification displaces the impossible promise of trust in a volatile adversary toward trust in a shared, robust verification regime.
+:::callout {title="Neutral, privacy-preserving verification mechanisms?" tone="neutral"}
+It holds. What if you could mutually verify compliance without risking undue loss of privacy? If each party could verify the other's compliance without learning their secrets, knowing the other can do the same, they have fewer material incentives to dodge compliance. Verification displaces the impossible promise of trust in a volatile adversary toward trust in a shared, robust verification regime.
 :::
 
 #### Text
