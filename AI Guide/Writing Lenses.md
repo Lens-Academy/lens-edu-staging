@@ -85,7 +85,7 @@ Fields per segment:
 - `#### Video`: none required. Optional: `source`, `from`, `to`, `optional`.
 - Question segments: use [[../Lenses/Response to question segments]] as the single reference for types, fields, defaults, syntax, and grading behavior.
 - `#### Roleplay`: required `id`, `content`, `ai-instructions`. Optional: `opening-message`, `assessment-instructions`, `user-customizable`, `feedback`, `optional`.
-- `#### Widget`: required `source` (a `widgets/` file). Optional: `height`. See [[../AI Guide/How to write widgets]].
+- `#### Widget`: required `source` (a `widgets/` file). Optional: `height`, `required` (true: the lens waits for the widget's `Lens.complete()`). See [[../AI Guide/How to write widgets]].
 
 Non-question defaults: `feedback` is false on roleplays; `hidePreviousContent*` is false on chats.
 
