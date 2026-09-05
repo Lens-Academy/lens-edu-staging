@@ -15,7 +15,7 @@ authors:
 content::
 \## The problem
 
-The book is modular in structure, but its concepts thread across parts without being called back in a linear consumption of the book. There is an implicit expectation that readers connect the sections themselves, which most will not do unprompted. This proposal is to modify the existing learning experience to provide learners explicit opportu
+The book is modular in structure, but its concepts thread across parts without being called back in a linear consumption of the book. There is an implicit expectation that readers connect the sections themselves, which most will not do unprompted. This proposal is to modify the existing learning experience to provide learners explicit opportunities to connect new knowledge to prior concepts.
 
 Our course inherits that shape and adds a second layer of the same problem. Each learning outcome is taught in the module where its chapter is read, tested at the end of that module, and never asked for again. A learner can complete the course having met every concept exactly once.
 
