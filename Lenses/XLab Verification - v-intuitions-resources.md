@@ -1,6 +1,8 @@
 ---
 id: '40a6cd76-7aac-4fd8-a61e-f901e64b7bd8'
 title: "Optional: Further reading and references"
+tldr: "Find further reading and source references for questions your essay leaves open."
+summary_for_tutor: "Find further reading and source references for questions your essay leaves open. This lens belongs to an optional essay route or optional extension; respect the learner's route choice."
 duration_minutes: 5
 tags: [wip]
 ---

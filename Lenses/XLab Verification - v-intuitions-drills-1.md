@@ -1,6 +1,8 @@
 ---
 id: 'd274604f-c1e4-4538-ad50-dde3c49a6d66'
 title: "Drills: Inspection and enforcement"
+tldr: "Practice reasoning about inspection games and the detection needed for enforcement."
+summary_for_tutor: "Practice reasoning about inspection games and the detection needed for enforcement. Preserve the source framing and respond to the learner's reasoning."
 duration_minutes: 5
 tags: [wip]
 ---

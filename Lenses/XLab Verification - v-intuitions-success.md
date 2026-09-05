@@ -1,6 +1,8 @@
 ---
 id: '572be6c8-55e4-438d-8a5d-2d0dcf108cd9'
 title: "Optional: Your success scenario"
+tldr: "Describe a plausible successful AI-governance settlement and its fragile assumptions."
+summary_for_tutor: "Describe a plausible successful AI-governance settlement and its fragile assumptions. This lens belongs to an optional essay route or optional extension; respect the learner's route choice."
 duration_minutes: 35
 tags: [wip]
 add_to_ai_context:
