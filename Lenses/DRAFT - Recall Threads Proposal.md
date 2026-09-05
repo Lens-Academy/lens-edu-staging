@@ -150,13 +150,7 @@ content::
 
 ---
 
-{--{"author":"AI","timestamp":1788617518416}@@::card[[../_deprecated/DRAFT - Ch9 Cosmic Stakes - PQ - MERGED]]
-
-> The prediction half. Taken straight after the film ends, before the chapter is read, so the chapter meets a committed prior instead of a blank page.
-
----
-
---}::card[[../Lenses/DRAFT - Ch9 Cosmic Stakes (from film lens)]]
+::card[[../Lenses/DRAFT - Ch9 Cosmic Stakes (from film lens)]]
 
 > The other kind. A new lens for material the film leaves out, built as a pair with the film {--{"author":"AI","timestamp":1788617518416}@@lens so--}{++{"author":"AI","timestamp":1788617518416}@@lens. Takes a prediction before++} the {--{"author":"AI","timestamp":1788617518416}@@scenario--}{++{"author":"AI","timestamp":1788617518416}@@reading++} and {--{"author":"AI","timestamp":1788617518416}@@its endpoint read as one unit. Closes by returning the learner to their own prediction.--}{++{"author":"AI","timestamp":1788617518416}@@returns the learner to it afterwards, so the chapter meets a committed prior instead of a blank page.++}
 
