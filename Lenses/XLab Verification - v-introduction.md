@@ -183,21 +183,21 @@ Most notably, over 1,300 employees of frontier AI companies have signed a public
 
 Four of them, on why they signed:
 
-:::callout {title="Ilya Sutskever, CEO, Safe Superintelligence Inc." tone="neutral" collapse="closed"}
+:::callout {title="Ilya Sutskever, CEO, Safe Superintelligence Inc." tone="neutral"}
 Future AI will be extraordinarily powerful compared to anything that exists today, and dealing with this future power will require unprecedented measures, such as the ones described here. The problem statement is real.
 
 This works only if it is done internationally, and it has to be done well: a bad implementation can make things worse.
 :::
 
-:::callout {title="Jasjeet Sekhon, Chief Strategy Officer, Google DeepMind" tone="neutral" collapse="closed"}
+:::callout {title="Jasjeet Sekhon, Chief Strategy Officer, Google DeepMind" tone="neutral"}
 We have found a way to turn energy into compute, and compute into intelligence. The benefits will be enormous, from curing diseases to understanding the cosmos. We can capture the benefits of the coming intelligence explosion while managing its risks, but only if we build the tools to pace the frontier of the riskiest capabilities before we need them, so we protect people and keep the social trust that innovation depends on. I believe smart technical and governance tools will be needed to sustain rapid innovation, vigorous competition, and robust safety.
 :::
 
-:::callout {title="John Schulman, Chief Scientist, Thinking Machines" tone="neutral" collapse="closed"}
+:::callout {title="John Schulman, Chief Scientist, Thinking Machines" tone="neutral"}
 Signed because this statement helps establish common knowledge about the possible need for coordination mechanisms as automated AI research accelerates progress. I’d also like to see labs start designing these mechanisms voluntarily, even before the USG gets involved.
 :::
 
-:::callout {title="Micah Carroll, Misalignment Preparedness, OpenAI" tone="neutral" collapse="closed"}
+:::callout {title="Micah Carroll, Misalignment Preparedness, OpenAI" tone="neutral"}
 At the current pace, every couple of weeks there will be new models which significantly increase the consequences of model misuse and misalignment. I worry that efforts to mitigate these risks may fail to keep up with the pace of development, and that margins for error will become increasingly small under international competitive pressures. In the near future, we may urgently want to enact an internationally coordinated slowdown, or an indefinite ban on AI development. Attempting to build the trust and infrastructure for taking such actions on short notice seems simply prudent – why would we not at least try to have this option? I fear that in an international race to the bottom of AI development, it is likely that no nation will win, and we will all lose together.
 :::
 
