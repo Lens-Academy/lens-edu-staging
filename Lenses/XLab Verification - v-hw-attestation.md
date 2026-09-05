@@ -1,6 +1,6 @@
 ---
 id: 'b481c94e-9a3a-4118-b4e9-7bd13a1c488d'
-title: "2.1 Hardware"
+title: "Hardware"
 tldr: "A lab hands you 20,000 valid cryptographic tokens and says they prove the cluster complied with the pause. Before reading anything, judge seven conclusions those tokens might support. You will grade your own answers at the end of the hardware section."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Opening lens of section 2.1. The ClaimLedger puzzle is seven ungraded choice questions (supported / possibly supported if the system was designed to measure it / unsupported by attestation alone); do not give the answers, they are revealed in lesson 2.1.8. Then the central question, the core-section objectives, the function map table, the repeated method, and the core source packet. If the learner asks about a claim, ask what the token actually measured rather than telling them the verdict."
 tags: [wip]

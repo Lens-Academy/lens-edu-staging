@@ -1,6 +1,6 @@
 ---
 id: '53ac9af2-f8da-4859-9649-2e24c0d22e5c'
-title: "2.4 The human layer"
+title: "The human layer"
 tldr: "Whistleblowers, interviews, audits, inspections: the cheapest verification tools to deploy and the easiest to fool. Like a witness on the stand, a person can be compelled to speak but not compelled to be truthful. This submodule teaches you to work out who could know, whether they would tell, and what an institution can honestly conclude from what they say."
 summary_for_tutor: "Opening page of submodule 2.4 (the human layer). One framing paragraph on human-based verification as enforceable but unreliable, then the four objectives for lenses 2.4.1 to 2.4.4. No questions on this page. If the learner asks about mechanisms, point them forward to 2.4.1 Insiders and human sources rather than lecturing here."
 tags: [wip]
