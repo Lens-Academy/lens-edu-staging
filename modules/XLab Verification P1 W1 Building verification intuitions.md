@@ -20,43 +20,7 @@ source:: [[../Lenses/XLab Verification - v-intuitions-a1]]
 optional:: true
 
 # Lens:
-source:: [[../Lenses/XLab Verification - v-intuitions-a2]]
-optional:: true
-
-# Lens:
-source:: [[../Lenses/XLab Verification - v-intuitions-a3]]
-optional:: true
-
-# Lens:
-source:: [[../Lenses/XLab Verification - v-intuitions-a4]]
-optional:: true
-
-# Lens:
-source:: [[../Lenses/XLab Verification - v-intuitions-a5]]
-optional:: true
-
-# Lens:
-source:: [[../Lenses/XLab Verification - v-intuitions-plan-s]]
-optional:: true
-
-# Lens:
 source:: [[../Lenses/XLab Verification - v-intuitions-b1]]
-optional:: true
-
-# Lens:
-source:: [[../Lenses/XLab Verification - v-intuitions-b2]]
-optional:: true
-
-# Lens:
-source:: [[../Lenses/XLab Verification - v-intuitions-b3]]
-optional:: true
-
-# Lens:
-source:: [[../Lenses/XLab Verification - v-intuitions-b4]]
-optional:: true
-
-# Lens:
-source:: [[../Lenses/XLab Verification - v-intuitions-b5]]
 optional:: true
 
 # Lens:
@@ -64,14 +28,4 @@ source:: [[../Lenses/XLab Verification - v-intuitions-success]]
 optional:: true
 
 # Lens:
-source:: [[../Lenses/XLab Verification - v-intuitions-resources]]
-optional:: true
-
-# Lens:
 source:: [[../Lenses/XLab Verification - v-intuitions-drills-1]]
-
-# Lens:
-source:: [[../Lenses/XLab Verification - v-intuitions-drills-2]]
-
-# Lens:
-source:: [[../Lenses/XLab Verification - v-intuitions-drills-3]]
