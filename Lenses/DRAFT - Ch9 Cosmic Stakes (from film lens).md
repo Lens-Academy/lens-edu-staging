@@ -153,4 +153,4 @@ content::
 \## Additional resources for this topic
 ::card[[../Lenses/IABIED - QA - The Ending]]
 
-> TODO. One sentence hook saying what a curious learner gets from it. Read the card first; it was written against this chapter and may already say what this lens needs to say.
+> If you are stui
