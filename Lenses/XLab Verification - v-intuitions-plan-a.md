@@ -30,4 +30,4 @@ to:: Also by the end of 2030, the US and China have set up hardened cold storage
 
 #### Text
 content::
-Continue with [[../Lenses/XLab Verification - v-intuitions-a1|Option A: Stress-test Plan A]] or [[../Lenses/XLab Verification - v-intuitions-plan-s|Option B: Compare Plan A and Plan S]].
+Continue with [[../Lenses/XLab Verification - v-intuitions-a1|Option A: Stress-test Plan A]] or [[../Lenses/XLab Verification - v-intuitions-b1|Option B: Compare Plan A and Plan S]].
