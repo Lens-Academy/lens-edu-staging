@@ -23,10 +23,8 @@ partner-url: https://ai-safety-atlas.com/
 
 # Module: [[../modules/AI Safety Atlas - Governance|Chapter 4: Governance]]
 
-# Module: [[../modules/Lisbon Fellowship - Chapter 5 Evaluations, Part 1|Chapter 5: Evaluations, Part 1]]
-
 %% Week 4 %%
-# Module: [[../modules/Lisbon Fellowship - Chapter 5 Evaluations, Part 2|Chapter 5: Evaluations, Part 2]]
+# Module: [[../modules/AI Safety Atlas - Evaluations|Chapter 5: Evaluations]]
 
 # Module: [[../modules/Lisbon Fellowship - Chapter 6 Specification Gaming, Part 1|Chapter 6: Specification Gaming, Part 1]]
 
