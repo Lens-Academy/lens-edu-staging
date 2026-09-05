@@ -85,6 +85,7 @@ Fields per segment:
 - `#### Video`: none required. Optional: `source`, `from`, `to`, `optional`.
 - Question segments: use [[../Lenses/Response to question segments]] as the single reference for types, fields, defaults, syntax, and grading behavior.
 - `#### Roleplay`: required `id`, `content`, `ai-instructions`. Optional: `opening-message`, `assessment-instructions`, `user-customizable`, `feedback`, `optional`.
+- `#### Widget`: required `source` (a `widgets/` file). Optional: `height`. See [[../AI Guide/How to write widgets]].
 
 Non-question defaults: `feedback` is false on roleplays; `hidePreviousContent*` is false on chats.
 
@@ -103,6 +104,8 @@ A bare `#### Question` is legacy syntax. Do not write it in new or edited conten
 **Question segments**: use [[../Lenses/Response to question segments]].
 
 **Roleplay**: learner talks with a persona defined in `ai-instructions::`; `content::` sets the scene for the learner, `opening-message::` is the persona's first line.
+
+**Widget**: embeds an interactive HTML page from `widgets/` inline (a clickable diagram, a sorting exercise, a simulation). The file is frontmatter plus a complete HTML document; the platform renders it in a sandboxed, self-sizing frame and gives the tutor its `summary_for_tutor` and visible text. Authoring rules, validation and the Lens look: [[../AI Guide/How to write widgets]].
 
 **Resource cards:** inside a `content::` value, `::card[[../Lenses/Name]]` followed by a `> blockquote` description renders a linked card, used for "Additional resources" footers.
 
