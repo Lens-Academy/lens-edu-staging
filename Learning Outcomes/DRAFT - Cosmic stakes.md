@@ -47,7 +47,7 @@ Score according to the following rubric.
 
 **2** — Asserts that expansion continues but gives no mechanism, or grounds it in the AI wanting to expand for its own sake. *Example: "It would keep growing because that's what intelligent systems do."*
 
-**3** — Identifies the mechanism: whatever the AI's terminal goals are, more resources and more secure control serve almost any of them, so acquisition does not stop when the local obstacle is removed. Humanity's absence removes a constraint rather than a motive. *Example: "The reason it took over was that we were in the way of something it was pursuing. Removing us does not complete that pursuit. Whatever it was optimising for, more matter and energy help, so it carries on."*
+**3** — Identifies the mechanism: whatever the AI's terminal goals are, more resources and more secure control serve almost any of them, so acquisition does not stop when the local obstacle is removed. Humanity's absence removes a constraint rather than fulfills a goal. *Example: "The reason it took over was that we were in the way of something it was pursuing. Removing us does not complete that pursuit. Whatever it was optimising for, more matter and energy help, so it carries on."*
 
 **4** — As above, plus answers the second half properly: expansion stops only if the goal is genuinely satiable, or if physics runs out. Notes that a satiable goal is a narrow special case rather than the default, which is the same reasoning that made human-compatible goals a narrow case. *Example: Adds "It would stop only if what it wanted had a finish line. Most goals do not. That is the same point as before: the goals that would leave us alone are a thin slice of the space, and so are the goals that would stop."*
 
