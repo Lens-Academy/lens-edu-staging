@@ -1,6 +1,6 @@
 ---
 id: '3caea549-faad-4153-b4d8-85def1479af4'
-title: "2.1.8 Policy judgment: what role should hardware play?"
+title: "Policy judgment: what role should hardware play?"
 tldr: "The most common error is calling a demo a regime. Separate five maturity stages, fill in the hardware mechanism dossier, and write the section's deliverable: a 700 to 1,000 word hardware assurance brief for a delegation weighing a three-month U.S.-China pause. Then grade your opening-puzzle answers."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. The five maturity stages, the August 2026 assessment, the dossier anatomy, then the hardware assurance brief as a graded open question with XLab's rubric weights in the assessment instructions (claim fidelity 25, trust chain 20, adversary 20, feasibility 15, layering 10, audience and update 10). Finally the return to the opening puzzle: the seven claims from lesson 2.1 are listed for the learner to compare with their earlier answers, followed by XLab's resolution. Review the brief against the eight required elements before scoring."
 tags: [wip]

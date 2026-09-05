@@ -1,6 +1,6 @@
 ---
 id: 'f531b3cd-2f33-44c7-8c2b-407afa6a8500'
-title: "2.1.4 Measuring and classifying use"
+title: "Measuring and classifying use"
 tldr: "Counting FLOP and knowing whether they were training are two different problems, and a 98.2 percent classifier that drops to 43 percent on unseen adversarial workloads is a component demo, not a treaty regime. Practise turning an experimental result into exactly the policy claim it supports."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on compute accounting rules, the Rahman and Tajdari telemetry study and its limitations, and a table separating adversary moves by what they attack. Ends with the from-result-to-policy-claim open question (observation, supported inference, unsupported policy leap, deployment dependencies). Reject answers that claim the study proves treaty-grade detection across frontier clusters or against a state controlling the measurement path."
 tags: [wip]
