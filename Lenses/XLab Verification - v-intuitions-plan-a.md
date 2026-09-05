@@ -1,6 +1,8 @@
 ---
 id: 'b70db51f-a981-4675-93c9-ac224ccfae3e'
 title: "Read Plan A: Verification Regime"
+tldr: "Read the mechanisms and implementation sequence before judging Plan A's verification regime."
+summary_for_tutor: "Read the mechanisms and implementation sequence before judging Plan A's verification regime. Preserve the source framing and respond to the learner's reasoning."
 duration_minutes: 45
 tags: [wip]
 add_to_ai_context:

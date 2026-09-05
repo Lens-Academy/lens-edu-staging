@@ -1,6 +1,8 @@
 ---
 id: '9d141617-3806-43ac-b93a-9846d521357a'
 title: "A2. Weakest link"
+tldr: "Trace a vulnerable assumption or mechanism through the rest of the verification regime."
+summary_for_tutor: "Trace a vulnerable assumption or mechanism through the rest of the verification regime. This lens belongs to an optional essay route or optional extension; respect the learner's route choice."
 duration_minutes: 20
 tags: [wip]
 add_to_ai_context:

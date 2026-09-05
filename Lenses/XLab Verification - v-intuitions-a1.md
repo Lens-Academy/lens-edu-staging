@@ -1,6 +1,8 @@
 ---
 id: '7f66b58a-83fb-483b-a41c-7e5564e40df3'
 title: "A1. Strongest mechanism"
+tldr: "Identify the specific retrofit mechanism whose removal would most weaken Plan A."
+summary_for_tutor: "Identify the specific retrofit mechanism whose removal would most weaken Plan A. This lens belongs to an optional essay route or optional extension; respect the learner's route choice."
 duration_minutes: 20
 tags: [wip]
 add_to_ai_context:
