@@ -128,7 +128,7 @@ Ten threads land on nine target lenses. Only the two goals threads share a targe
 
 #### Text
 content::
-\## Links we looked at and did not adopt
+\## Links looked at and did not adopt
 
 Recording these so the same ground does not get re-argued.
 
