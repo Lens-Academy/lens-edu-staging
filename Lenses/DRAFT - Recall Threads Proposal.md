@@ -67,7 +67,9 @@ IMAGE SLOT. Same instructions as above, for the "after" drawing with the recall 
 
 Every unit now sits inside one part of the book, with one deliberate exception: U3 opens on the Chapter 4 and 5 extension readings, which are Part I material used as a bridge into the scenario.
 
+%%
 The colored lines on the after diagram are the recall threads. There are ten of them, grouped into five families, and two terminate on outcomes that do not exist yet. Both of those are in U3. The full list, and what we would build for each, is in the next section.
+
 
 #### Text
 content::
