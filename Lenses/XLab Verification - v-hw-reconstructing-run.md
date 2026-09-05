@@ -1,6 +1,6 @@
 ---
 id: 'fe43d166-6a95-4865-992f-f8448dfacb75'
-title: "2.1.7 Reconstructing a declared training run"
+title: "Reconstructing a declared training run"
 tldr: "Can a verifier tell whether the declared training process really produced the submitted model? Proof-of-learning has been broken more than once, and zero-knowledge training proofs still have thirteen open problems. Spend a limited verification budget and say which claim stays untested."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Optional technical extension: evidence for reconstructing a declared run, Shavit's decomposition, proof-of-learning and its adversarial breaks, and three claims to keep separate (declared-run correctness, declared-run completeness, fleet completeness). Ends with an optional open question allocating a verification-compute budget across seven checks. Push the learner to state which of the three claims each check addresses and which remains untested."
 tags: [wip]
