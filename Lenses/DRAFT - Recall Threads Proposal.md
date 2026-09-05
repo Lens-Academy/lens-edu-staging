@@ -138,7 +138,7 @@ Recording these so the same ground does not get re-argued.
 
 **U5 as a whole.** Five of the six outcomes in the final unit have no thread reaching them, which looks alarming on the diagram. Our reading is that it is a property of the book rather than a defect in the course. Parts I and II establish what the problem is; Part III argues what should be done about it, and those overlap less than the diagram's emptiness suggests. What U5 actually depends on is the conclusion of the whole argument rather than any individual concept from it, and that dependency is already tested in one place: the synthesis question in the final module, where the student presents the chain unaided. If we are wrong about this, the fix is not more threads into U5 but a closer look at that one synthesis question, which is currently tagged work in progress.
 
-**Orthogonality Thesis.** A critical concept that the book never explicitly names outright, but feels adequately covered by the learning outcome of "Intelligence is direction-agnostic". Basically if a new learning outcome should be added from the book at some point, orthogonality seems li
+**Orthogonality Thesis.** A critical concept that the book never explicitly names outright, but feels adequately covered by the learning outcome of "Intelligence is direction-agnostic". Basically if a new learning outcome should be added from the book at some point in the future, orthogonality seems like the prime candidate.
 
 #### Text
 content::
