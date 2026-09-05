@@ -40,16 +40,15 @@ Being able to clearly communicate your theory of change is almost as, if not mor
 
 So, what does a good AI safety theory of change actually look like? This table maps out all the important elements of a robust theory of change:
 
-| Element | Question | What goes here |
-|---|---|---|
-| Inputs | What do we need? | Resources, people |
-| Outputs | What do we do? | Activities |
-| Outputs | Who do we reach? | New audience, collaborators |
-| Outcome (short-term) | What changes first? | Knowledge increased |
-| Outcome (intermediate) | What changes next? | Behavior changed, decision-making done |
-| Outcome (long-term) | What is different in the end? | Conditions changed |
-| Assumptions | What must hold for the chain to work? | Internal / testable |
-| External factors | What is outside your control? | External / undefined |
+| Inputs | Outputs | Outputs | Outcome | Outcome | Outcome |
+|---|---|---|---|---|---|
+| What do we need? | What do we do? | Who do we reach? | What changes first? | What changes next? | What is different in the end? |
+| *Resources, people* | *Activities* | *New audience, collaborators* | *Knowledge increased* | *Behavior changed, decision-making done* | *Conditions changed* |
+
+| Assumptions | External factors |
+|---|---|
+| What must hold for the chain to work? | What is outside your control? |
+| *Internal / testable* | *External / undefined* |
 
 A useful strategy is backchaining: start by specifying the long-term goal, then work backwards. What has to change for this outcome to be possible? How does your project contribute to creating those conditions? Each link in the chain should be an if-then claim. If we publish this benchmark, then labs will adopt it. If labs adopt it, then training procedures will incorporate the findings. If training procedures change, then deployed models will be safer, and “safer” here has to mean something specific: reward hacking rates, deception probes, behavior under distribution shift.
 
