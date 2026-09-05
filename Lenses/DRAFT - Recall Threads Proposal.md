@@ -23,6 +23,69 @@ The proposed fix is not chapter cross-references. Telling someone which principl
 
 #### Text
 content::
+\## The structure now
+
+%%
+IMAGE SLOT. Replace the line below with the exported "before" drawing once it is hosted.
+Lenses take standard markdown images only, and the target has to be a URL: the ![[...]]
+embed form is not supported. The pattern the XLab lenses use is
+  https://raw.githubusercontent.com/<org>/<repo>/main/public/<path>/<file>.png
+Export the Excalidraw canvas to PNG or SVG, commit it there, and paste the raw URL.
+Alt text should describe the ladder, not just say "diagram".
+%%
+
+*[Before diagram goes here]*
+
+| Unit | Chapters | Outcomes | Notes |
+|---|---|---|---|
+| U1 | Intro, 1, 2 | 5 | |
+| U2 | 3, 4, 5 | 4 | |
+| U3 | 6, film for 7 to 9, Coda | 4 | Straddles the Part I and Part II boundary. Chapters 7, 8 and 9 carry no outcomes at all |
+| U4 | 10, 11 | 4 | |
+| U5 | 12, 13, 14, Closing Words | 6 | |
+
+Two things this table is meant to make visible. U3 is the only unit whose bracket does not sit inside a single part of the book, and it is also the unit carrying three chapters with no learning outcome attached to any of them. Instrumental convergence sits in that gap: the outcome exists in the vault at [[../Learning Outcomes/Instrumental sub-goal convergence]] and no module references it.
+
+#### Text
+content::
+\## The structure proposed
+
+%%
+IMAGE SLOT. Same instructions as above, for the "after" drawing with the recall threads.
+%%
+
+*[After diagram goes here]*
+
+| Unit | Chapters | Outcomes | Change |
+|---|---|---|---|
+| Intro | Introduction | 1 | Pulled into its own section, the way `intro-form` is used in [[../modules/XLab Verification Overview]] |
+| U1 | 1, 2, 3 | 5 | |
+| U2 | 4, 5, 6 | 5 | Chapter 6 refolds, so the unit sits inside Part I |
+| U3 | Chapter 4 and 5 extensions, film for 7 and 8, 9, Coda | 4 | The film covers 7 and 8 only, so Chapter 9 returns as a reading. Two new outcomes |
+| U4 | 10, 11 | 4 | |
+| U5 | 12, 13, 14, Closing Words | 6 | |
+
+Every unit now sits inside one part of the book, with one deliberate exception: U3 opens on the Chapter 4 and 5 extension readings, which are Part I material used as a bridge into the scenario.
+
+The threads drawn on the after diagram, with the outcome at each end:
+
+| Thread | From | To |
+|---|---|---|
+| Goals | Intro, hard vs. easy calls | U3, goals and instrumental convergence |
+| Goals | Ch 5, goal-space argument | U3, goals and instrumental convergence |
+| Goals | Ch 5, hostile vs. indifferent | Ch 9, cosmic stakes |
+| Method | Intro, hard vs. easy calls | Coda, path vs. outcome |
+| Training and values | Ch 2, behavior vs. values | Ch 4, you don't get what you train for |
+| Training and values | Ch 2, grown not crafted | Ch 11, alignment as alchemy |
+| Training and values | Ch 3, wanting emerges from training | Ch 11, superalignment objection |
+| Capability | Ch 1, prediction plus steering | Ch 6, Aztec warrior |
+| Capability | Ch 1, machine advantages | Ch 10, five curses, via the curse of speed |
+| Unrepeatability | Ch 10, five curses | Ch 12, one-chance problem |
+
+Ten threads, two of which terminate on outcomes that do not exist yet. Both of those are in U3.
+
+#### Text
+content::
 \## What we found when we looked
 
 Three things, in increasing order of how much they surprised us.
