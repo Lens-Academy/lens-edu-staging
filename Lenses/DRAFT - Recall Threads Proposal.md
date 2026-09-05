@@ -122,7 +122,7 @@ Not every connection in the book earns a prompt. Three rules decided this list.
 | Training and values | Ch 3, wanting emerges from training | Ch 11, superalignment objection | One segment in [[../Lenses/IABIED - Strong Superalignment Objection]], which is a separate lens | Not started |
 | Capability | Ch 1, prediction plus steering | Ch 6, Aztec warrior | One segment in the Aztec warrior lens | Not started |
 | Capability | Ch 1, machine advantages | Ch 10, five curses | One segment in the five curses lens, keyed on the curse of speed | Not started |
-| Unrepeatability | Ch 10, five curses | Ch 12, one-chance problem | One segment in the one-chance problem lens, keyed on Chernobyl appearing twice for different reasons | Not started |
+| Irreversibilty | Ch 10, five curses | Ch 12, one-chance problem | One segment in the one-chance problem lens, keyed on Chernobyl appearing twice for different reasons | Not started |
 
 Ten threads land on nine target lenses. Only the two goals threads share a target, because the new U3 opener is one lens carrying one outcome; Chapter 11's two outcomes are taught in two separate lenses, so they need a segment each. The build is nine added segments, two of which are drafted, plus the two new U3 outcomes.
 
