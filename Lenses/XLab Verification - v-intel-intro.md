@@ -1,6 +1,6 @@
 ---
 id: '27cb8115-9790-4574-8090-4c3d56b1e230'
-title: "2.3 Intelligence: watching without permission"
+title: "Intelligence: watching without permission"
 tldr: "A state can lie in its declarations, but it cannot opt out of thermodynamics, customs, payroll, or the power grid. Intelligence is reading those traces without the target's cooperation. This short opener sets up the five questions the section answers: what to watch, whether it has ever worked, how to read ambiguity, whose satellites, and what to do next."
 summary_for_tutor: "Imported from XLab's Verification curriculum; a five-minute reading with no questions. It introduces intelligence (national technical means) as the evidence stream that works without the monitored actor's cooperation, using the physical footprint of a frontier training run (chips, power, heat, money, hiring) and stresses that ambiguity, not invisibility, is the core problem. Two short pop-up definitions (NTM; the Wasil et al. whistleblower vocabulary note) are rendered as collapsed callouts. If the learner asks, point them to the five sibling lenses 2.3.1 to 2.3.5 rather than answering those questions here."
 tags: [wip]
