@@ -1,6 +1,6 @@
 ---
 id: 'b9bf7a86-0221-4b6e-8980-29e23fa7f435'
-title: "0.1.2 We Need More Theories of Change"
+title: "We Need More Theories of Change"
 tldr: "Congress cancelled a $11B collider because nobody could say why it mattered. A theory of change is the chain of if-then claims from what you do to what changes in the world; if you cannot state it, neither can the people deciding whether to fund or act on your work."
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. The optional exercise asks the learner to fill an eight-box theory-of-change table for a real AI safety organization; check outputs vs outcomes and if-then links."
 tags: [wip]
