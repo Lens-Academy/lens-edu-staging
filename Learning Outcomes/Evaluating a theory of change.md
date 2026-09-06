@@ -5,8 +5,8 @@ domain: "[[../Domains/Strategy]]"
 stage: intermediate
 authors:
   - Elias+Claude
-tags:
-  - wip
+tags:{--{"author":"AI","timestamp":1788700144848}@@
+  - wip--}{++{"author":"AI","timestamp":1788700144848}@@ []++}
 ---
 ## Test:
 id:: 8a5bc487-32a6-4dd1-856d-04e39f4ecc33
