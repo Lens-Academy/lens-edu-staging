@@ -81,12 +81,21 @@ to:: The result will be fewer confrontations between individual states and great
 #### Text
 content::
 
-\### [Monitoring and Verification in Arms Control](https://www.congress.gov/crs-product/R41201)
+\### Monitoring and Verification in Arms Control
 Amy F. Woolf (2011)
 
   A practical primer on monitoring and verification regimes: treaty
   obligations, technical collection, inspections, confidence building,
   analysis, and political judgment.
+
+#### Article
+source:: [[../articles/service-monitoring-and-verification-in-arms-control]]
+from:: ## Introduction ^introduction
+to:: These benefits may be difficult to measure and hard to factor into a net assessment of the value of the new START Treaty. Nevertheless, some argue that, when combined with the fact that the treaty will provide the United States with unprecedented access to information about Russian nuclear forces and a measure of predictability about the future direction of those forces, the benefits of the treaty to U.S. national security interests far outweigh any uncertainties that may arise due to the changes in the verification regime.[^cite-48]
+
+#### Text
+content::
+
 
 \## International bargaining and domestic implementation
 
