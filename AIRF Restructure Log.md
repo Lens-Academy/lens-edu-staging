@@ -134,19 +134,58 @@ All eight run the same `Reading Assignment`, `Phase 1: Recall`, `Phase 2: Proces
 
 ## 5. The welcome lens question
 
-**The current state.** Only two dedicated welcome lenses exist, [[Lenses/IABIED - M4 Welcome]] and [[Lenses/IABIED - M5 Welcome]]. Other modules open differently or not at all. So there is no consistent object to maintain, which is most of why they feel staggered.
+**Corrected inventory.** My first pass found two welcome lenses and concluded from that. A fuller search found four different patterns across seven modules, which is a stronger case than the one I made.
 
-**The M4 one has gone stale, and the staleness is instructive.** Its visible learner text is a single paragraph. Below it sits a `%%` block containing a pedagogical note and a `#### Chat` segment that briefs the tutor on Sable's weight-stealing, the virus cover story and the Coda's framing, and lists this week's reading as chapters 7, 8, 9 and the Coda. All of that predates the film replacement. A welcome in its own file is a file nobody opens when the module changes.
+| Module | Pattern |
+|---|---|
+| M1 | Inline lens, id `c9e0e94a`. Not a module welcome at all: it is a **course** orientation, with tldr "Welcome to the book club", explaining the five units, the reading load and the Discord cohorts |
+| M3 | Inline `# Submodule: Part 3 Welcome` wrapping `# Lens: Part 3 Welcome`, id `caf48b0b`. The only one using a Submodule wrapper |
+| M4 | Standalone lens file [[Lenses/IABIED - M4 Welcome]] |
+| M5 | Standalone lens file [[Lenses/IABIED - M5 Welcome]] |
+| M2, M6, M7 | No welcome-named opener found. Confirm before stage 4 |
 
-**Recommendation: retire the standalone welcome lenses and replace them with two things.**
+So four patterns: a course orientation living inside a module, a Submodule-wrapped inline lens, two standalone files, and three modules with nothing. That is the staggering.
 
-A course-level overview in the new intro module, modelled on [[modules/XLab Verification Overview]]: a short "what this course is about" section, then one `:::callout` per unit. That file is the first thing every learner sees, so it is the one most likely to be kept current.
+**Two of them are already wrong, in different ways.**
 
-Then a short inline welcome in each module file, in the style the AIV modules use: a `# Lens: Welcome` heading with `tldr::` and `summary_for_tutor::` and two or three sentences of framing. Inline means it cannot drift into a separate file that nobody opens.
+M4's is stale. Its visible learner text is one paragraph; below it a `%%` block holds a pedagogical note and a whole `#### Chat` segment briefing the tutor on Sable's weight-stealing and the virus cover story, and listing this week's reading as chapters 7, 8, 9 and the Coda. That predates the film replacement.
 
-**The argument against.** A course-level overview is read once, at the start, and a learner arriving at unit 4 will not go back to it. That is what the inline welcomes are for, and it is why the recommendation is both rather than either.
+M3's is the overhang, written down. Its visible text ends "can't we just stop it? That's where the next module begins", and its `summary_for_tutor` states that chapter 6 now opens the next module where it sets up the film. Both become false the moment chapter 6 refolds into U2. This is the clearest single artefact of the structural problem the restructure exists to fix, and it has to be rewritten regardless of what we decide about welcomes generally.
 
-**What it costs.** Three of five units change contents, so every welcome needs rewriting regardless. Replacing is barely more work than updating, and it removes two files from the maintenance surface.
+**Recommendation, unchanged but better supported: retire the standalone files and replace with two things.**
+
+A course-level overview in the new M1, modelled on [[modules/XLab Verification Overview]]: a "what this course is about" section, then one `:::callout` per unit. M1's existing orientation lens is already most of this and should move into it rather than be rewritten from scratch. Note that its stated reading load per unit changes under the restructure.
+
+Then a short inline welcome in each module, in the AIV style: `# Lens: Welcome` with `tldr::`, `summary_for_tutor::` and two or three sentences. Inline is the load-bearing part. Both of the drifted welcomes are the ones that live in their own files or their own wrapper.
+
+**The argument against.** A course overview is read once and a learner arriving at unit 4 will not go back to it. That is what the inline welcomes are for, which is why the recommendation is both rather than either.
+
+---
+
+## 8. Second-order dependencies
+
+Found by scanning for phrasing that assumes the current structure. The guess that learning outcomes would be independent turns out to be wrong: several bake in course-internal module labels.
+
+### Breaks under the restructure
+
+| File | What breaks | Fix |
+|---|---|---|
+| [[modules/IABIED M3 Nonhuman Minds, Part 3]], Part 3 Welcome | Visible text hands chapter 6 to the next module; `summary_for_tutor` says the same | Rewrite. Chapter 6 is now in this unit |
+| [[Learning Outcomes/Fiction as argument, not prediction]] | Rubric level 5 requires "M4's emotional work" and that "Chapters 7–9 already made the dynamics feel real". Chapter 9 is now read, not felt through the film | Rewrite level 5. Already flagged C3 in the 2026-08-24 run for the same text |
+| [[Lenses/IABIED - One Extinction Scenario (Video)]] | States it replaces chapters 7 to 9 | Change to 7 and 8 |
+| [[Lenses/IABIED - M4 Welcome]] | Reading list and hidden Chat segment assume chapters 7 to 9 plus Coda | Superseded by the section 5 decision |
+| M1 orientation lens | States the per-unit reading load and that one unit is mostly a film | Move to the new M1 and restate |
+| [[Lenses/IABIED - Overview of Optional Resources M1]], [[Lenses/IABIED - Overview of Optional Resources M4]], [[Lenses/IABIED - Overview of Optional Resources M5]] | Module numbers in the **filenames**. Under the renumbering, "M1" content becomes M2 | Rename, and check every inbound link. Renaming is the riskiest edit in the plan |
+
+### Pre-existing, not caused by us
+
+| File | Issue |
+|---|---|
+| [[Learning Outcomes/Indifference, not malice]] | The statement, the test question and rubric level 3 all reference "the M3 goal-space argument". Three course-internal labels in one outcome, and the outcome is used by other courses whose M3 is different material |
+| [[Learning Outcomes/Instrumental sub-goal convergence]] | Same problem: the statement references "the M3 argument". Relevant to us because this is the outcome we are importing into U3 |
+| [[Learning Outcomes/Goal conflict as a physical fact]] | A chapter 7 outcome, not used by this course. Worth a look when U3 is rebuilt, since chapter 7 currently carries nothing here |
+
+**The general lesson for stage 3.** Outcomes are shared across courses, so a module label inside an outcome is a landmine: it resolves differently depending on which course imported it. Any outcome we touch should have module and chapter labels stripped rather than updated. That is the same thing B1 asks for, arrived at from a different direction.
 
 ---
 
