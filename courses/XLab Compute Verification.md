@@ -37,12 +37,14 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Meeting: Evidence Streams
 meeting-doc-template:: https://docs.google.com/document/d/1vES7MeCOfujO-jZtqO5WMmNSYTTKbah8YMJndszHdGs/edit
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification M3 Covert development]]
 
 # Meeting: Covert Development
 meeting-doc-template:: https://docs.google.com/document/d/1KjWIj5gS4o5D-G3W-5KVyTpye9jd0GsNkseqoNUvN8Q/edit
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification M4 Trust without trust]]
