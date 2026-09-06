@@ -68,6 +68,15 @@ A June 2026 preprint by Rahman and Tajdari tested whether temporal GPU telemetry
 Robi Rahman and Sabiha Tajdari, *Detecting Hidden ML Training With Zero-Overhead Telemetry* — [arXiv:2606.19262](https://arxiv.org/abs/2606.19262), June 2026. A preprint, to be presented as a component demonstration.
 :::
 
+Read what the study measured, what it found, and what the authors say it does and does not establish.
+
+#### Article
+source:: [[../articles/rahman-detecting-hidden-ml-training-with-zero-overhead-telemetry]]
+from:: ## 4 Methodology ^4-methodology
+to:: We invite researchers and ML experts to red-team our classifier and publish evasion strategies that might defeat it, so that we can iterate on any such findings to ultimately strengthen its robustness.
+
+#### Text
+content::
 The limitations are equally important:
 
 - Detection of previously unseen white-box evasion strategies after hardening ranged from 43 to 87 percent in Table 5;
