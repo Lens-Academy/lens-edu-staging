@@ -28,8 +28,19 @@ Brundage et al. (2026)
 \### [Defining Noncompliance: NPT Safeguards Agreements](https://www.armscontrol.org/act/2009-05/iran-nuclear-briefs/defining-noncompliance-npt-safeguards-agreements)
 John Carlson, Australian Safeguards and Non-Proliferation Office (2009)
 
-  Read “Determining noncompliance” and “Standard of proof”, and keep the
-  five-case table beside them.
+  Read “Determining noncompliance” and “Standard of proof”, then compare the cases in Table 1.
+
+#### Article
+source:: [[../articles/armscontrol-defining-noncompliance-npt-safeguards-agreements-arms-control-association]]
+from:: **Determining Noncompliance**
+to:: In these circumstances, the onus is then on the state to show that nonpeaceful purposes are not intended. It can attempt to do this through full cooperation with and transparency to the IAEA.
+
+#### Article
+from:: ## Table 1: Factors in Determining Noncompliance ^table-1-factors-in-determining-noncompliance
+to:: | *Egypt irradiated and dissolved very small quantities of uranium and thorium but did not separate any plutonium or uranium-233.Source: John Carlson, based on IAEA reports |  |  |  |  |  |  |  |
+
+#### Text
+content::
 
 \## Exercise: From Nuclear to AI Inspections
 
