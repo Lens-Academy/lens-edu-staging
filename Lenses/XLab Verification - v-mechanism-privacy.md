@@ -2,7 +2,7 @@
 id: 'd388005c-3e26-4e94-8851-692288c0cbea'
 title: "Privacy-Preserving Mechanisms"
 tldr: "Rivals must prove compliance to each other without handing over the secrets an audit would expose. Meet the five ways out of that paradox, from a chip signing a report about itself to an inspector working under shrouds, and learn which of them work today and which are still papers."
-summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. A reading lens with no questions: the confidentiality vs. verifiability tension, then five mechanism cards (hardware identity and remote attestation, privacy-preserving workload telemetry, zero-knowledge proofs, secure multiparty computation, managed access) rendered as closed callouts with XLab's text and links to the Module 2 lenses that develop each. If asked, help the learner separate deployed primitives (attestation, managed access) from experimental results (telemetry) and research proposals (ZK, MPC at frontier scale)."
+summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. A reading lens with no questions: the confidentiality vs. verifiability tension, then five mechanism cards (hardware identity and remote attestation, privacy-preserving workload telemetry, zero-knowledge proofs, secure multiparty computation, managed access) rendered as closed callouts with XLab's text and links to {--{"author":"AI","timestamp":1788699997421}@@the Module 2 lenses that develop each--}{++{"author":"AI","timestamp":1788699997421}@@hardware lenses in Week 5 and previews of topics in Part 2++}. If asked, help the learner separate deployed primitives (attestation, managed access) from experimental results (telemetry) and research proposals (ZK, MPC at frontier scale)."
 tags: [wip]
 duration_minutes: 10
 ---
@@ -10,7 +10,7 @@ duration_minutes: 10
 content::
 A key tension common to any verification mechanism in this module is *confidentiality vs. verifiability*. Rival states are inherently incentivized to not disclose any information to each other, much less about the development of potentially dangerous and proprietary technologies. The last thing China wants is for the U.S. to steal development secrets through an invasive or insecure audit system. Yet the model of verification relies entirely upon the reliable mutual disclosure of information. Thus arises the verifier’s paradox: how do you gain enough access to confirm compliance, but not enough to enable espionage?
 
-The solution is **privacy-preserving verification**: mechanisms designed to verify compliance while conveying minimum or zero excess information to verifier parties. Here are a few previews of privacy-preserving mechanisms you will learn about throughout Module 2:
+The solution is **privacy-preserving verification**: mechanisms designed to verify compliance while conveying minimum or zero excess information to verifier parties. Here are {--{"author":"AI","timestamp":1788700001140}@@a few --}previews of privacy-preserving {--{"author":"AI","timestamp":1788700001140}@@mechanisms you will learn about throughout Module 2:--}{++{"author":"AI","timestamp":1788700001140}@@mechanisms. Week 5 examines hardware; Part 2 continues with cloud, intelligence, and human mechanisms:++}
 
 :::callout {title="Hardware identity and remote attestation" tone="neutral" collapse="closed"}
 *Diagram: a chip inside a facility sends a signed attestation report to the verifier; the verifier gets no direct access to the workload or weights.*
