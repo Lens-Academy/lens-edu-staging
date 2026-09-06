@@ -1,7 +1,6 @@
 ---
 id: '2e6bcfb5-ffc1-4274-a9eb-0dbe3524eb4d'
-slug: {--{"author":"AI","timestamp":1788699680029}@@compute-verification
-slug-aliases: [ai-verification-full-course, xlab-compute-verification, ai-verification]--}{++{"author":"AI","timestamp":1788699680029}@@compute-verification-outdated++}
+slug: compute-verification-outdated
 title: "Compute Verification"
 description: "How could rival states check that each other actually stopped? A five-module course on making international AI agreements verifiable: why verification matters, what a treaty must cover and whom it binds, the hardware, cloud, intelligence, and human evidence streams, how a determined adversary evades them, and a capstone that designs a regime for a three-month emergency pause."
 partner-name: XLab
