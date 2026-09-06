@@ -28,12 +28,25 @@ to:: As long as there are interactive decisions to be made, game theory will be 
 #### Text
 content::
 
-\### [Game Theory](https://plato.stanford.edu/entries/game-theory/)
+\### Game Theory
 Don Ross (rev. 2023)
 
   A deeper introduction to strategic interaction, from utility and equilibrium
   to repeated games and commitment, including the distinction between passive
   environments and strategic agents. Focus on §1 and §6.
+
+#### Article
+source:: [[../articles/ross-game-theory-stanford-encyclopedia-of-philosophy]]
+from:: ## 1\. Philosophical and Historical Motivation
+to:: In doing this, we will need to introduce, define and illustrate the basic elements and techniques of game theory.
+
+#### Article
+source:: [[../articles/ross-game-theory-stanford-encyclopedia-of-philosophy]]
+from:: ## 6\. Commitment
+to:: Commitment through concern for reputation is the cement of society, but any such natural bonding agent will be far from perfectly effective.
+
+#### Text
+content::
 
 \### [Signaling Foreign Policy Interests: Tying Hands versus Sinking Costs](https://doi.org/10.1177/0022002797041001004)
 James D. Fearon (1997)
@@ -44,12 +57,20 @@ James D. Fearon (1997)
 
 \## Detection, attribution, and response
 
-\### [Witness for the Prosecution: International Organizations and Arms Control Verification](https://www.armscontrol.org/act/2005-11/features/witness-prosecution-international-organizations-and-arms-control-verification)
+\### Witness for the Prosecution: International Organizations and Arms Control Verification
 Edward Ifft (2005)
 
   Explains how arms-control evidence is gathered, interpreted, converted into
   compliance judgments, and connected to institutional authority and
-  proportionate response. Selected sections.
+  proportionate response. Read from the definition of verification through the recommendations.
+
+#### Article
+source:: [[../articles/armscontrol-witness-for-the-prosecution-international-organizations-and-arms-control-verification]]
+from:: In the arms control lexicon,
+to:: The result will be fewer confrontations between individual states and greater security for all.
+
+#### Text
+content::
 
 \### [Monitoring and Verification in Arms Control](https://www.congress.gov/crs-product/R41201)
 Amy F. Woolf (2011)
