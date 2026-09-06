@@ -10,6 +10,14 @@ Frontmatter: required `id`; optional `title`, `tldr` (one-sentence takeaway, ≤
 
 The patterns below come from the **AI Risk Fundamentals** course (`IABIED` prefix, built around *If Anyone Builds It, Everyone Dies*), the current quality bar. Reuse the structure; adapt the content. Read a real example before writing: `Lens Edu/Lenses/IABIED - AI Is Grown, Not Crafted.md` is the canonical reading lens.
 
+## Write from the student's current perspective
+
+- Include instructions that help students act, choose, or understand the purpose of an activity.
+- Use meaningful activity names, not internal IDs or authoring terminology.
+- Explain choices by what students will explore, not how the platform organizes them.
+- Give directions when students need them. Don't repeat visible UI labels or add reminders against hypothetical mistakes.
+- Before finishing, ask of every instruction: "What does this help the student do now?" Cut it if there is no useful answer.
+
 ## Estimate every lens's time
 
 When you create or change a lens, estimate the learner's real start-to-finish time and set it at the top: prefer `reading_minutes` + `tutor_minutes` (content time + AI-conversation time, displayed split; either alone works, `tutor_minutes: 0` means no tutor time), or one `duration_minutes` total, never both. Estimate from what the learner actually does, not a word-count formula (dense readings are slower, required back-and-forth costs more than a quick answer, count off-page work like "read chapter 2"), round to a friendly number, and re-estimate in the same edit whenever you change a lens. Rendered example: the Demo Course's "Lens duration demo" module.
