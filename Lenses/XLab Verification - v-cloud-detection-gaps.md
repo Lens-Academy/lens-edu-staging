@@ -27,6 +27,33 @@ Read these parts in the original report:
 
 Do not turn the BLOOM calculation into a timeless threshold recommendation. Its job here is to show how an evader can exploit the unit over which a rule aggregates activity.
 
+#### Article
+source:: [[../articles/moon-strategies-and-detection-gaps-in-a-game-theoretic-model-of-compute-governance-rra3686-1]]
+from:: ## Findings and Recommendations ^findings-and-recommendations
+to:: - Continuing research into effective thresholds for compute monitoring is required to create a robust compute-based monitoring framework that can adapt to technological progress.
+
+#### Article
+source:: [[../articles/moon-strategies-and-detection-gaps-in-a-game-theoretic-model-of-compute-governance-rra3686-1]]
+from:: #### Cloud Service Provider Monitoring Strategies ^cloud-service-provider-monitoring
+to:: See the section on data transfers and cluster sizes (“Large Data Transfers and Number of Graphics Processing Units”) for a discussion of a variant of the detection game involving more than one CSP.
+
+#### Article
+source:: [[../articles/moon-strategies-and-detection-gaps-in-a-game-theoretic-model-of-compute-governance-rra3686-1]]
+from:: ### Finding Detection Gaps ^finding-detection-gaps
+to:: In this calculation, the number of accounts used by the evader is not strictly determined. Increasing the number of FLOPs per session from  $10^{22}$  to just under  $10^{23}$  will decrease the number of accounts required for training at the cost of extending the length of a session. The calculations to determine this relationship are straightforward, and we omit them.
+
+#### Article
+source:: [[../articles/moon-strategies-and-detection-gaps-in-a-game-theoretic-model-of-compute-governance-rra3686-1]]
+from:: ### Closing Detection Gaps ^closing-detection-gaps
+to:: In this section, we outline four CSP threshold strategies that close our model’s detection gap. We also mention several proposals for AI governance in the literature that are not based on thresholds and relate them to our problem of detecting AI training.
+
+#### Article
+source:: [[../articles/moon-strategies-and-detection-gaps-in-a-game-theoretic-model-of-compute-governance-rra3686-1]]
+from:: ### *Output and User Identity* ^output-and-user-identity
+to:: [^note-shell-companies]: Given the existing policies and procedures of detecting shell companies and countering illicit use, such as those followed by such organizations as the Financial Action Task Force and the U.S. Department of the Treasury’s Financial Crimes Enforcement Network, detecting illicit use for AI training might require additional nuances to these policies (Financial Crimes Enforcement Network, undated; U.S. Department of the Treasury, undated).
+
+#### Text
+content::
 RAND shows how evasion depends on what a rule measures and how activity is
 grouped. Carnegie then asks what broader coverage would cost—and whether it
 would push users toward providers or jurisdictions beyond the rule.
