@@ -88,6 +88,29 @@ Rules that follow from how this is wired:
 
 Live example with all four calls: `widgets/theories-of-change.md` in [[../Lenses/Widget Demo]].
 
+## Scoring an answer
+
+A widget can have any number of things scored, each with its own instructions, and it can build those instructions at runtime. `Lens.submit` stores the answer, has the AI assessor grade it in the background (0 to 100), and resolves with the score once it is in (or `null` if grading takes longer than a minute). Show the score however fits the widget; the platform draws nothing.
+
+```js
+Lens.submit({
+  item: "canvas",                       // your key for the thing scored; one widget, many items
+  question: "Build a theory of change for an AI verification organisation.",
+  answer: summaryText,                  // what the learner produced, as text
+  assessmentInstructions: "100 when every box names a concrete, checkable step and each output plausibly causes the next outcome. Take 15 off per box that only restates the label.",
+  feedbackInstructions: "Name the weakest link first, then one question that would test it."  // optional
+}).then(function (result) {
+  showScore(result.score);              // 0 to 100, or null
+  lastResponseId = result.responseId;   // keep it if you want tutor feedback later
+});
+
+// Tutor feedback on a scored answer: the tutor gets the question, the answer,
+// the grade and your feedback instructions. The text is the learner's bubble.
+Lens.requestFeedback(lastResponseId, "Can I get feedback on my canvas?");
+```
+
+What the assessor sees is exactly what you send: the question, the answer and the assessment instructions, nothing from the widget's screen. Write the instructions as a marking scheme (what earns full marks, what loses them). Every `submit` is a new attempt; nothing stops a learner from submitting again. Scores are for practice: the learner, the tutor and ops see them, course standings do not count them.
+
 ## Rules the frame imposes
 
 - **One file, no build step.** Plain HTML, CSS and JavaScript. Libraries are fine when loaded from a CDN `<script src>`; there is no bundler and no npm.
