@@ -5,8 +5,8 @@ domain: "[[../Domains/Governance and Policy]]"
 stage: intermediate
 authors:
   - Elias+Claude
-tags:
-  - wip
+tags:{--{"author":"AI","timestamp":1788700148260}@@
+  - wip--}{++{"author":"AI","timestamp":1788700148260}@@ []++}
 ---
 ## Test:
 id:: 6e124856-c5d2-425f-af25-07634eee19a3
