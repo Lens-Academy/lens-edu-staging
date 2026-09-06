@@ -19,7 +19,7 @@ content::
 
 \## Feasibility Intuitions
 
-Before we dive in, let’s first identify some baseline intuitions: fill out the following graph with your pre-course understanding of the relative efficacy of each mechanism across four metrics: (You’ll get to revisit your initial rankings in [[../Lenses/XLab Verification - v-capstone-feasibility|Module 4]]—to see how they’ve changed and measure against current evidence.)
+Before we dive in, {--{"author":"AI","timestamp":1788700027242}@@let’s first identify some--}{++{"author":"AI","timestamp":1788700027242}@@record your++} baseline intuitions: {--{"author":"AI","timestamp":1788700027242}@@fill out the following graph with your pre-course understanding of the relative efficacy of--}{++{"author":"AI","timestamp":1788700027242}@@rank++} each mechanism across four {--{"author":"AI","timestamp":1788700027242}@@metrics: (You’ll get to revisit your initial--}{++{"author":"AI","timestamp":1788700027242}@@metrics using your current understanding. Keep these++} rankings {--{"author":"AI","timestamp":1788700027242}@@in [[../Lenses/XLab Verification - v-capstone-feasibility|Module 4]]—to see how they’ve changed--}{++{"author":"AI","timestamp":1788700027242}@@so you can revisit them as you learn more in Part 2++} and {--{"author":"AI","timestamp":1788700027242}@@measure against current evidence.)--}{++{"author":"AI","timestamp":1788700027242}@@the separate capstone.++}
 
 **1. Technical feasibility.** Does the technical infrastructure and requisite research exist to build and run this mechanism at operable scale today? Includes technological maturity, dependencies, cost, and small-enough error rates.
 
@@ -46,7 +46,7 @@ Before we dive in, let’s first identify some baseline intuitions: fill out the
 | FLOP-threshold reporting; algorithmic efficiency gains push dangerous capabilities below any fixed threshold within a few years. | Mechanisms rooted in chip hardware, which takes long to mature and go obsolete. |
 {>>{"author":"Elias's AI","timestamp":1788015800260}@@XLab's SlidingScale is a static display (a rail with the Low and High anchor texts), not an input, so it is reproduced as a two-column table rather than a Rating question. The ratings themselves happen in the mechanism-sort widget, reproduced below as four Ranking questions.<<}
 
-Before the mechanism weeks begin, record your intuitions. Rate each mechanism on four metrics; every rating drops it onto the ranking lanes below, so you can see your full ordering take shape. Seal the set, then compare against the reference map in 4.1.
+Before the mechanism weeks begin, record your intuitions. Rate each mechanism on four metrics; every rating drops it onto the ranking lanes below, so you can see your full ordering take shape. {--{"author":"AI","timestamp":1788700031587}@@Seal--}{++{"author":"AI","timestamp":1788700031587}@@Keep++} the {--{"author":"AI","timestamp":1788700031587}@@set, then compare against--}{++{"author":"AI","timestamp":1788700031587}@@set for comparison with++} the reference map in {--{"author":"AI","timestamp":1788700031587}@@4.1.--}{++{"author":"AI","timestamp":1788700031587}@@the separate capstone.++}
 
 :::callout {title="The twelve mechanisms" tone="neutral" collapse="closed"}
 **Hardware**
@@ -87,7 +87,7 @@ Before the mechanism weeks begin, record your intuitions. Rate each mechanism on
 **Durability.** How fast does it decay, from technical progress, adversary adaptation, or political change? Does technical progress erode its assumptions? Can adversaries adapt around it? Does it survive political change? A high scorer works about as well in five years as today. Rungs: Leaking now, Decaying, Needs upkeep, Ages slowly, Decade-proof.
 :::
 
-Rank the twelve mechanisms on each metric, most to least. There is no grading here; the reference map and your gap from it are revealed in [[../Lenses/XLab Verification - v-capstone-feasibility|4.1]].
+Rank the twelve mechanisms on each metric, most to least. There is no grading here; {++{"author":"AI","timestamp":1788700034412}@@comparison with ++}the reference map {--{"author":"AI","timestamp":1788700034412}@@and your gap from it are revealed in [[../Lenses/XLab Verification - v-capstone-feasibility|4.1]].--}{++{"author":"AI","timestamp":1788700034412}@@belongs to the separate capstone.++}
 
 #### Question: Ranking
 id:: 4adc193c-7e97-41da-a7ce-76d9fb8907e8
