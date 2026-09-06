@@ -12,13 +12,21 @@ Short reading pathways in game theory and international relations. Learners may 
 
 \## Strategic actors and credible commitments
 
-\### [Strategic Thinking](https://www.imf.org/external/Pubs/FT/fandd/basics/66-strategic-thinking.htm)
+\### Strategic Thinking
 Sarwat Jahan and Ahmed Saber Mahmud (2015)
 
   A short, nontechnical primer on players, strategies, payoffs, equilibrium,
   simultaneous and sequential moves, repeated games, and incomplete
   information. A good place to test out of this pathway if these are already
   familiar.
+
+#### Article
+source:: [[../articles/jahan-strategic-thinking]]
+from:: Anyone who has had to make a strategic decision taking into account what others will do has used game theory.
+to:: As long as there are interactive decisions to be made, game theory will be applied to inform them.
+
+#### Text
+content::
 
 \### [Game Theory](https://plato.stanford.edu/entries/game-theory/)
 Don Ross (rev. 2023)
