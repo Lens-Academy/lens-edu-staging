@@ -95,8 +95,12 @@ tags: [wip]
 </div>
 
 <div class="done" id="done">
-  <span>All eight boxes filled. Want the tutor to stress-test the chain?</span>
-  <button type="button" id="ask" class="primary">Ask the tutor to review it</button>
+  <span id="done-text">All eight boxes filled. Get it scored, or ask the tutor to stress-test the chain.</span>
+  <span class="nav">
+    <button type="button" id="score" class="primary">Score my canvas</button>
+    <button type="button" id="feedback" hidden>Get feedback on the score</button>
+    <button type="button" id="ask">Ask the tutor to review it</button>
+  </span>
 </div>
 
 <script>
