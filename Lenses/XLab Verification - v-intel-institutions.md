@@ -102,9 +102,6 @@ source:: [[../articles/baker-nuclear-arms-control-verification-and-lessons-for-a
 from:: #### 2.3.3 Intelligence sharing
 to:: The sharing of information between treaty-implementing agencies and national intelligence agencies (or between multiple national intelligence agencies) can help treaty verifiers reach conclusions that would be harder to reach with more limited information. Nuclear arms control treaties have no requirements for national intelligence agencies to share their information; the process is voluntary, informal, and inconsistent.
 
-#### Text
-content::
-
 #### Article
 source:: [[../articles/baker-verifying-international-agreements-on-ai-six-layers-of-verification-for-rules-on-large-scale-ai-development-and-deployment]]
 from:: Verifier—bilateral or third-party? Though this report’s focus is not on institution design, it is worth noting that Provers may more easily trust that a third-party Verifier will act in good faith, rather than seeking to steal information or compromise equipment. On the other hand, third-party Verifiers may take longer to set up and may not be as effective. In particular, third parties would lack major states’ intelligence capabilities, though intelligence sharing may help. These tradeoffs might be eased through intermediate options, such as a national verification office that hires citizens of third-party countries to conduct interviews.
