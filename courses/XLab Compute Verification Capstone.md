@@ -36,6 +36,7 @@ Week 2 goals:
 # Module: [[../modules/XLab Verification Capstone W2 Scope]]
 
 # Meeting: Week 2: Scope
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 %% Shape: two-minute pitch each (question, reader, deliverable, crappy version) plus one sentence on what building the crappy version taught them; the group asks "who acts on this?" and "what would make you switch?"; the facilitator pairs projects into review partners; everyone states their week 3 hours out loud. Learners who marked a brief as mentor-required with no mentor are flagged here. The continue / re-scope / switch decision is written by the learner right after this meeting, in the method check lens. %%
 
