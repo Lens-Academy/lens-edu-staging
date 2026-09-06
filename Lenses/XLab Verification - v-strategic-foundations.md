@@ -107,7 +107,7 @@ Robert D. Putnam (1988)
   concept of win-sets.
 
 #### Article
-source:: [[../articles/putnam-diplomacy-and-domestic-politics-the-logic-of-two-level-games-11]]
+source:: [[../articles/putnam-diplomacy-and-domestic-politics-the-logic-of-two-level-games]]
 from:: ### Two-level games: a metaphor for domestic-international interactions ^two-level-games-a-metaphor
 to:: $Y_M$  represent the maximum outcomes for  $X$  and  $Y$ , respectively, while  $X_1$  and  $Y_1$  represent the minimal outcomes that could be ratified. At this stage any agreement in the range between  $X_1$  and  $Y_1$  could be ratified by both parties. If the win-set of  $Y$  were contracted to, say,  $Y_2$  (perhaps by requiring a larger majority for ratification), outcomes between  $Y_1$  and  $Y_2$  would no longer be feasible, and the range of feasible agreements would thus be truncated in  $Y$ 's favor. However, if  $Y$ , emboldened by this success, were to reduce its win-set still further to  $Y_3$  (perhaps by requiring unanimity for ratification), the negotiators would suddenly find themselves deadlocked, for the win-sets no longer overlap at all.[^note-43]
 
