@@ -19,7 +19,7 @@ Read how the RATS architecture assigns roles and distributes trust.
 #### Article
 source:: [[../articles/birkholz-rfc-9334-remote-attestation-procedures-rats-architecture]]
 from:: ### 4.1. Roles ^4-1
-to:: Reference Values
+to:: A role performed by an entity (typically a manufacturer) whose Reference Values help Verifiers appraise Evidence to determine if acceptable known Claims have been recorded by the Attester.
 
 #### Article
 source:: [[../articles/birkholz-rfc-9334-remote-attestation-procedures-rats-architecture]]
