@@ -16,11 +16,13 @@ intro-form:: true
 # Module: [[../modules/XLab Verification Part 2 W06 Hardware judgment and cloud records]]
 
 # Meeting: Week 6: Hardware judgment and cloud records
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../modules/XLab Verification Part 2 W07 Cloud limits and intelligence]]
 
 # Meeting: Week 7: Cloud limits and intelligence
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification Part 2 W08 The human layer]]
