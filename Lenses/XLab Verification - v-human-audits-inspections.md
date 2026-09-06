@@ -40,6 +40,14 @@ OPCW | Chemical Weapons Convention, Verification Annex, Part X
 
   Read paragraphs 38–50.
 
+#### Article
+source:: [[../articles/opcw-part-x-challenge-inspections-pursuant-to-article-ix]]
+from:: 38.  The inspected State Party shall provide access within the requested perimeter as well as, if different, the final perimeter. The extent and nature of access to a particular place or places within these perimeters shall be negotiated between the inspection team and the inspected State Party on a managed access basis.
+to:: 50.  This may be accomplished by means of, inter alia, the partial removal of a shroud or environmental protection cover, at the discretion of the inspected State Party, by means of a visual inspection of the interior of an enclosed space from its entrance, or by other methods.
+
+#### Text
+content::
+
 \## Four Sources
 
 :::callout {title="Optional: Four Sources (12–15 minutes)" tone="neutral" collapse="closed"}
