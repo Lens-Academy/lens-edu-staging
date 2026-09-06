@@ -14,9 +14,20 @@ Remote attestation is often described as a chip proving its state. That descript
 
 The IETF’s Remote ATtestation procedureS architecture distinguishes three roles: an **Attester** produces evidence, a **Verifier** appraises that evidence against reference values and policy, and a **Relying Party** decides what to do with the result. This separation matters. The component that checks a signature need not be the institution that decides compliance, and neither automatically has authority to impose a consequence.
 
-:::callout {title="Source" tone="neutral" collapse="closed"}
-H. Birkholz et al., [“Remote ATtestation procedureS (RATS) Architecture”](https://www.rfc-editor.org/rfc/rfc9334.html) — IETF RFC 9334, January 2023.
-:::
+Read how the RATS architecture assigns roles and distributes trust.
+
+#### Article
+source:: [[../articles/birkholz-rfc-9334-remote-attestation-procedures-rats-architecture]]
+from:: ### 4.1. Roles ^4-1
+to:: Reference Values
+
+#### Article
+source:: [[../articles/birkholz-rfc-9334-remote-attestation-procedures-rats-architecture]]
+from:: ## 7. Trust Model ^7
+to:: As discussed in [[#^7-3|Section 7.3]], authentication or attestation in both directions might be needed. Typically, one side's identity or Evidence in this case must be considered safe to share with an untrusted entity in order to bootstrap the sequence. See [[#^11|Section 11]] for more discussion.
+
+#### Text
+content::
 
 \#### The minimum vocabulary
 
