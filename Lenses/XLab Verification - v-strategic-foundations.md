@@ -48,12 +48,21 @@ to:: Commitment through concern for reputation is the cement of society, but any
 #### Text
 content::
 
-\### [Signaling Foreign Policy Interests: Tying Hands versus Sinking Costs](https://doi.org/10.1177/0022002797041001004)
+\### Signaling Foreign Policy Interests: Tying Hands versus Sinking Costs
 James D. Fearon (1997)
 
   Explains two ways to make foreign-policy signals credible: tying hands
   through future audience costs, and sinking costs in advance, and compares
-  their strategic effects. Read pp. 68–75.
+  their strategic effects.
+
+#### Article
+source:: [[../articles/archive-signaling-foreign-policy-interests-tying-hands-versus-sinking-costs]]
+from:: ## TYING HANDS VERSUS SINKING COSTS ^tying-hands-versus-sinking
+to:: In the tying-hands case, payoffs are as follows. If the challenger does not challenge, the defender gets its value for the prize,  $v_D$ , and the challenger gets its value for the status quo, 0. If C challenges and the defender does not respond, the defender pays the price of the signal,  $m$ , and the challenger gets its value for prevailing on the issue, so payoffs are  $(-m, v_C)$ . If conflict occurs, payoffs are  $(pv_D - c_D, (1-p)v_C - c_C)$ . Note that in this case, the audience costs  $m$  are paid by the defender only if the defender backs down or backs away from a challenge.
+
+#### Text
+content::
+
 
 \## Detection, attribution, and response
 
