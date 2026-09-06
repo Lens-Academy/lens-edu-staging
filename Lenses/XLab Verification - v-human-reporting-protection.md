@@ -32,6 +32,14 @@ California Legislature (effective 2026)
 
   Read §§1107–1107.2 in full.
 
+#### Article
+source:: [[../articles/legislature-codes-display-text]]
+from:: ###### 1107. ^section-1107
+to:: The loss of value of equity does not count as damage to or loss of property for the purposes of this chapter.
+
+#### Text
+content::
+
 :::callout {title="What the contract clause covers" tone="blue"}
 The operative language says a developer "shall not … enter into a … contract that prevents a covered employee from disclosing." — [California Labor Code §1107.1(a)](https://www.leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=5.1.&division=2.&lawCode=LAB&part=3.&title=)
 
