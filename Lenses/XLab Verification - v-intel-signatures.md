@@ -198,8 +198,15 @@ content::
 - [Scher et al., *An International Agreement to Prevent the Premature Creation
   of Artificial Superintelligence*](https://arxiv.org/abs/2511.10783) —
   Appendix D, on architecture-dependent power consumption.
-- [Wasil et al., *Verification methods for international AI
-  agreements*](https://arxiv.org/abs/2408.16074) — selected pages.
+Read Wasil et al.’s national technical means section, focusing on what each method can detect and how it can be evaded.
+
+#### Article
+source:: [[../articles/wasil-verification-methods-for-international-ai-agreements]]
+from:: ### National Technical Means
+to:: National technical means offer a valuable starting point for verifying compliance with AI governance agreements. Nations already have extensive experience using these methods to verify compliance with other kinds of international agreements. These methods can plausibly be used to detect large-scale AI infrastructure and unusual patterns in energy consumption, hardware imports, and financial transactions. However, these methods have important limitations. In particular, adversaries could attempt to disguise data centers as other high-energy facilities like power plants, or when compute is distributed across multiple smaller sites.
+
+#### Text
+content::
 
 :::callout {title="Unfinished writing" tone="amber"}
 Two pieces this section is specified to carry are not built yet: the

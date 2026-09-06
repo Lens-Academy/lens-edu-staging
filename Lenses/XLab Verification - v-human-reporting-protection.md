@@ -82,7 +82,15 @@ monitored devices to surveillance.
 \### [Whistleblowers](https://arxiv.org/html/2408.16074v2#Sx5.SSx1.SSSx2)
 Wasil et al. (2024)
 
-  Read the five proposals and the limitation that follows them.
+Read the five proposals and the limitation that follows them.
+
+#### Article
+source:: [[../articles/wasil-verification-methods-for-international-ai-agreements]]
+from:: #### WHISTLEBLOWERS
+to:: One possible solution to this limitation is to implement regular in-person communication with employees, such as through semi-structured interviews (Wasil et al. [2024a](https://arxiv.org/html/2408.16074v2#bib.bib57)).[^note-wasil-5]
+
+#### Text
+content::
 
 Baker proposes a similar solution against this problem of physical access,
 including visits to a building that the verifier physically secures, as you
