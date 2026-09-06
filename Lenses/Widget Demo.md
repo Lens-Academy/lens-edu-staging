@@ -46,5 +46,12 @@ Last: a widget that **remembers**. Name an organisation and fill the eight boxes
 source:: [[../widgets/theories-of-change]]
 required:: true
 
+#### Text
+content::
+One more: a widget that scores **several things separately**. Pick a verification mechanism, then write three short answers. Each has its own marking scheme, and the third one's scheme is built at runtime from your own second answer. Every score comes with a feedback button that sends that answer, its score and item-specific instructions to the tutor.
+
+#### Widget
+source:: [[../widgets/verification-critique]]
+
 #### Chat
 instructions:: The learner has just used two interactive widgets: one testing four answers to the verification problem (trust, punish, transparency, verification), one mapping AI categories as concentric rings. Ask where they would place AlphaFold (a deep-learning system that predicts protein structures; not generative language, not a transformer LLM in the chatbot sense) and probe their reasoning about the ring boundaries. Keep it to a short exchange.
