@@ -41,10 +41,20 @@ to:: Access-dependent methods can allow for in-depth inspections of key faciliti
 #### Text
 content::
 
-\### [§5.3 Levels of assurance](https://arxiv.org/pdf/2601.11699v4#page=29)
+\### §5.3 Levels of assurance
 Brundage et al. (2026)
 
-  Read §§5.3.1–5.3.3, pages 29–35 of the PDF.
+  Read §§5.3.1–5.3.3: what a level of assurance means, the four AI Assurance
+  Levels, and what each one can and cannot detect.
+
+#### Article
+source:: [[../articles/brundage-frontier-ai-auditing-toward-rigorous-third-party-assessment-of-safety-and-security-practices-at-leading-ai-companies-pdf]]
+from:: ## 5.3 Levels of assurance ^5-3-levels-of
+to:: **Who audits:** One or more accredited lead auditors and a range of subcontractors performing various functions. Government involvement is likely necessary for legitimacy, enforcement, and access to national security information. May require multi-jurisdictional representation and security clearances.
+
+#### Text
+content::
+
 {>>{"author":"Elias's AI","timestamp":1788521728531}@@Repointed from the arXiv HTML render (#S5.SS3), which stops mid-§5.3.3 at the AI Assurance Levels table header and delivers about 950 of the 2,690 assigned words. The PDF carries §§5.3.1 to 5.3.3 in full on pages 29 to 35.<<}
 
 \### Challenge inspections: general rules and managed access
