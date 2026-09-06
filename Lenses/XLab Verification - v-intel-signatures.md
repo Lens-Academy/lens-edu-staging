@@ -195,10 +195,14 @@ The physics a facility emits — thermal, effluent, radar and geophysical signat
 content::
 \## Readings
 
-- [Scher et al., *An International Agreement to Prevent the Premature Creation
-  of Artificial Superintelligence*](https://arxiv.org/abs/2511.10783) —
-  Appendix D, on architecture-dependent power consumption.
-Read Wasil et al.’s national technical means section, focusing on what each method can detect and how it can be evaded.
+Read Scher et al. on locating and consolidating AI chips, then Wasil et al.'s
+national technical means section, focusing on what each method can detect and
+how it can be evaded.
+
+#### Article
+source:: [[../articles/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence]]
+from:: ## Appendix D Locating and consolidating AI chips
+to:: International verification transitions to sustained intelligence gathering, primarily aimed at detecting potential state-run secret projects. Ongoing verification relies on continuous satellite monitoring, regular facility inspections, and interviews with industry personnel. This sustained effort ensures that the initial consolidation remains intact and that no significant number of existing chips fall outside of the monitoring framework.
 
 #### Article
 source:: [[../articles/wasil-verification-methods-for-international-ai-agreements]]
