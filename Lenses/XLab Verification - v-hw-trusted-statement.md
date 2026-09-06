@@ -46,6 +46,13 @@ It also shows why implementation details matter. NVIDIA’s Blackwell multi-GPU 
 NVIDIA, “Architecture Overview,” [*Attestation Quick Start Guide*](https://docs.nvidia.com/attestation/quick-start-guide/latest/architecture.html), current August 1, 2026; [“Blackwell Multi-GPU Attestation Example”](https://docs.nvidia.com/attestation/quick-start-guide/latest/attestation-examples/blackwell_multi_gpu.html), updated August 1, 2026; [“Hopper Multi-GPU (PPCIE) Attestation Example”](https://docs.nvidia.com/attestation/quick-start-guide/latest/attestation-examples/hopper_multi_gpu.html), current August 2026. First-party implementation documentation, not an independent adversarial evaluation.
 :::
 
+#### Article
+source:: [[../articles/nvidia-architecture-overview-quick-start-guide]]
+from:: ## Attestation Suite Architecture Overview ^attestation-suite-architecture-overview
+to:: -   **Certificate Revocation Service**: An OCSP-based service used to check the revocation status of NVIDIA device identity certificates and RIM signing certificates, ensuring that revoked or compromised certificates are not trusted.
+
+#### Text
+content::
 A simplified chain looks like this:
 
 > device and measurement component → device evidence and nonce → signing key and certificate chain → reference values and revocation data → verifier appraisal → relying-party decision → regulator or treaty response
