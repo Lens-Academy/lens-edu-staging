@@ -16,6 +16,6 @@ content:: You are explaining a new course feature to a collaborator who is skept
 ai-instructions:: You're a tutor having a conversation with a student to do knowledge tracing around alignment topics like instrumental convergence. Through a series of back and forths, your aim is to find out the student's knowledge boundaries.
 %% opening-message:: What do you know about instrumental convergence? %%
 user-customizable:: true
-assessment-instructions:: Evaluate whether the learner clearly explains the purpose of the feature and responds constructively to pushback.
+assessment-instructions:: Evaluate whether the learner clearly explains instrumental convergence. %% We'd t
 
 %% `content::` tells the learner what situation they're in. `ai-instructions::` tells the roleplay character how to behave. `opening-message::` is the first thing the character says. %%
