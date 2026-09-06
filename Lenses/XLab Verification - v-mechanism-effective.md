@@ -8,9 +8,9 @@ duration_minutes: 40
 ---
 #### Text
 content::
-In this module, you will learn about four main areas of verification mechanisms: hardware, cloud, intelligence, and human. Each layer has its own strengths and weaknesses, evaluated on important metrics like technical feasibility and political feasibility.
+{--{"author":"AI","timestamp":1788700020116}@@In this module, you will learn about --}{++{"author":"AI","timestamp":1788700020116}@@This module introduces ++}four main areas of verification mechanisms: hardware, cloud, intelligence, and human.{++{"author":"AI","timestamp":1788700020116}@@ Week 5 examines hardware in detail; Part 2 continues with the other three.++} Each layer has its own strengths and weaknesses, evaluated on important metrics like technical feasibility and political feasibility.
 
-:::callout {title="By the end of this module, you will be able to:" tone="blue"}
+:::callout {{--{"author":"AI","timestamp":1788700023255}@@title="By the end of this module, --}{++{"author":"AI","timestamp":1788700023255}@@title="Across Parts 1 and 2, ++}you will {--{"author":"AI","timestamp":1788700023255}@@be able to:"--}{++{"author":"AI","timestamp":1788700023255}@@work toward these goals:"++} tone="blue"}
 1. Explain the relative strengths, weaknesses, current state of implementation, and most realistic path forward for hardware, cloud, intelligence, and human mechanisms, including overlaps and dependencies.
 2. Evaluate any verification mechanism by the claims they test, the evidence they produce, cost of implementation, deployment maturity, and principal failure modes, including actors likely to break it and why.
 3. Explain the confidentiality–verifiability tension and identify the most promising privacy-preserving verification mechanisms.
