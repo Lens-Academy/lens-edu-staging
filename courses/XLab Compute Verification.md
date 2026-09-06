@@ -23,12 +23,14 @@ intro-form:: true
 
 # Meeting: Why Verification
 meeting-doc-template:: https://docs.google.com/document/d/1EPT4UYdkDXSPfRsMsj5d-b_as0E6vwuh0K6ypGnyknM/edit
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../modules/XLab Verification M1 Policy and actors]]
 
 # Meeting: Policy Scoping and Actors
 meeting-doc-template:: https://docs.google.com/document/d/146mlMAy7753vMVHNA94bYUSGms-rYmQSFFiS57oWsPo/edit
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification M2 Evidence streams]]
