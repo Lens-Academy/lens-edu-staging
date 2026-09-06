@@ -22,18 +22,12 @@ The next lens embeds the verification supplement so you can read it here.
 
 In the next lens, you will read and gauge the feasibility and robustness of Plan A yourself. Read with a critical but thoughtful eye. For every date, percentage, and recommendation, ask yourself: what assumptions have to be true in order for this to hold? What existing or historical precedents have pointed to this mechanism succeeding or failing? What alternative solutions or estimates could there be, and how does this hold up against them? What is left uncertain? Remember: there is no correct answer, but you want to back your opinions with logic and evidence.
 
-Your task is to write one of two open-ended essay prompts, consisting of shorter, prompted questions linking into a more cohesive essay at the end:
+Read [[../Lenses/XLab Verification - v-intuitions-plan-a|Plan A on the next page]], then choose an essay option:
 
-A: stress-test the Plan A verification supplement, or
+- **Option A:** [[../Lenses/XLab Verification - v-intuitions-a1|Stress-test Plan A]]. Assess whether its verification regime would work and where it could fail.
+- **Option B:** [[../Lenses/XLab Verification - v-intuitions-b1|Compare Plan A and Plan S]]. Read about Plan S, then weigh a verified slowdown against a complete shutdown.
 
-B: compare Plan A (verified slowdown) and Plan S (complete shutdown).
-
-Read [[../Lenses/XLab Verification - v-intuitions-plan-a|Plan A on the next page]], then choose **one** of the two optional essay lenses.
-Complete all four short responses and the final essay inside your chosen lens.
-Both essay lenses are marked optional so you can skip the option you did not choose; you are asked to complete one, not skip both.
-
-- **Option A:** [[../Lenses/XLab Verification - v-intuitions-a1|Stress-test Plan A]], including A1–A4 and final essay A5.
-- **Option B:** [[../Lenses/XLab Verification - v-intuitions-b1|Compare Plan A and Plan S]], including the Plan S reading, B1–B4, and final essay B5.
+In either option, four short responses help you develop your argument for the final essay.
 
 After your final essay, continue to [[../Lenses/XLab Verification - v-intuitions-drills-1|the drill bench]].
 The success-scenario essay and further reading are optional.
