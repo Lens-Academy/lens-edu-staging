@@ -36,6 +36,7 @@ from:: **Determining Noncompliance**
 to:: In these circumstances, the onus is then on the state to show that nonpeaceful purposes are not intended. It can attempt to do this through full cooperation with and transparency to the IAEA.
 
 #### Article
+source:: [[../articles/armscontrol-defining-noncompliance-npt-safeguards-agreements-arms-control-association]]
 from:: ## Table 1: Factors in Determining Noncompliance ^table-1-factors-in-determining-noncompliance
 to:: | *Egypt irradiated and dissolved very small quantities of uranium and thorium but did not separate any plutonium or uranium-233.Source: John Carlson, based on IAEA reports |  |  |  |  |  |  |  |
 
