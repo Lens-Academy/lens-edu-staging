@@ -97,12 +97,20 @@ Hawkins, Lake, Nielson and Tierney (2006)
 
 \## Supply-chain structure and bargaining power
 
-\### [Weaponized Interdependence: How Global Economic Networks Shape State Coercion](https://direct.mit.edu/isec/article/44/1/42/12237/Weaponized-Interdependence-How-Global-Economic)
+\### Weaponized Interdependence: How Global Economic Networks Shape State Coercion
 Henry Farrell and Abraham L. Newman (2019)
 
   Shows how states exploit control over central nodes in financial and
   information networks through panopticon and chokepoint effects. Read
-  pp. 42–61.
+  pp. 42–61 and the paragraph that continues onto p. 62.
+
+#### Article
+source:: [[../articles/farrell-weaponized-interdependence-how-global-economic-networks-shape-state-coercion]]
+from:: In May 2018, Donald Trump announced
+to:: The recurrence of such problems has led to concerns about vulnerability to sabotage.
+
+#### Text
+content::
 
 \### [Economic Interdependence, Bargaining Power, and Political Influence](https://doi.org/10.1017/S0020818300027703)
 R. Harrison Wagner (1988)
