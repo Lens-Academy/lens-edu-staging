@@ -28,6 +28,7 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../modules/XLab Verification Part 2 W08 The human layer]]
 
 # Meeting: Week 8: The human layer
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification Part 2 W09 Covert development and the low-trust architecture]]
