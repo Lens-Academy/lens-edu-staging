@@ -44,6 +44,20 @@ Even perfect accounting verifies the threshold, not the policy goal. Algorithmic
 What quantity did the meter record, and how closely does that quantity match the legal rule?
 :::
 
+Read the proposal for verifiable training and inference and its open research questions.
+
+#### Article
+source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
+from:: ### 2.2 Verifiable AI training and inference ^2-2-verifiable-ai
+to:: Figure 3: Adapted from: ([Heim et al., 2024](#bib.bib21)).
+
+#### Article
+source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
+from:: #### 2.2.4 Open research questions ^2-2-4-open
+to:: How can dataset verification be reliably performed in distributed systems, accounting for challenges like pipeline parallelism and data parallelism, where only subsets of GPUs interact with input data?
+
+#### Text
+content::
 \#### Workload classification
 
 A compute counter cannot determine whether the operations were training, inference, evaluation, fine-tuning, or another permitted activity. Workload classification uses additional signals, such as temporal GPU telemetry, memory behavior, communication patterns, or authenticated code and configuration.

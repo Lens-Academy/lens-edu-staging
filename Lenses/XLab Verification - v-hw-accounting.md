@@ -3,7 +3,7 @@ id: 'e9aefe42-bbdf-4ea0-be7f-2ee033558aa8'
 title: "Accounting for hardware: identity, location, topology, and completeness"
 tldr: "A registry is a spreadsheet, not a sensor. Identity, location, cluster topology and completeness are four different claims, and the hardest one is negative: no compute existed outside the declared system. Pick three independent evidence streams that could support it."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on device identity, location verification (timing and challenge-response, still an open research area), cluster topology, and completeness. Ends with the Try it open question: three evidence streams that do not share a source for the claim that all covered accelerators at Site X are registered. Do not accept the site operator's inventory, logs and declaration as three independent streams."
-tags: [wip]
+tags: {--{"author":"AI","timestamp":1788700172470}@@[wip]--}{++{"author":"AI","timestamp":1788700172470}@@[]++}
 duration_minutes: 20
 ---
 #### Text
@@ -58,6 +58,30 @@ A collection of individually authenticated devices is not automatically a cluste
 
 Current attestation support illustrates the distinction. Some configurations can report more about protected interconnects, while others attest devices independently. The treaty claim must follow the evidence, not the marketing category.
 
+Compare the proposals for cluster configuration and location, then consider their open research questions.
+
+#### Article
+source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
+from:: ### 2.3 Verifiable cluster configuration ^2-3-verifiable-cluster
+to:: Figure 5: AI Computing Cluster. Adapted from: [Kulp et al. (2024)](#bib.bib34).
+
+#### Article
+source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
+from:: #### 2.3.4 Open research questions ^2-3-4-open
+to:: Is there a way to securely update which chips are permitted in the pod so that broken hardware can be replaced?
+
+#### Article
+source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
+from:: ### 2.4 Location verification ^2-4-location-verification
+to:: AI chips could be designed to make it possible for an external regulatory authority to securely and reliably determine their location and take policy actions based on a chip’s location. Alternatively, the chip could determine its own location and respond directly, such as restricting operation when located in an area known to be subject to export controls. There are a number of technical approaches to location verification which can be used alone or in tandem to provide location estimates that are accurate and robust against adversarial tampering.
+
+#### Article
+source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
+from:: #### 2.4.4 Open research questions ^2-4-4-open
+to:: How can this protocol be made compatible with desires for strong cybersecurity at data centers that might involve airgapping?
+
+#### Text
+content::
 \#### Completeness
 
 The hardest claim is often negative: no relevant compute existed outside the declared system.
