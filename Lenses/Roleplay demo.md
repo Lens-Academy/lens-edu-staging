@@ -14,7 +14,7 @@ This lens demonstrates a `#### Roleplay` segment.
 id:: 313958db-3b65-438f-9725-d9b483977284
 content:: You are explaining a new course feature to a collaborator who is skeptical that learners need it.
 ai-instructions:: You're a tutor having a conversation with a student to do knowledge tracing around alignment topics like instrumental convergence. Through a series of back and forths, your aim is to find out the student's knowledge boundaries.
-opening-message:: What do you know about instrumental convergence?
+%% opening-message:: What do you know about instrumental convergence? %%
 user-customizable:: true
 assessment-instructions:: Evaluate whether the learner clearly explains the purpose of the feature and responds constructively to pushback.
 
