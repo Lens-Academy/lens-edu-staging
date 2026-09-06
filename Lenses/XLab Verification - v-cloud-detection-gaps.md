@@ -58,7 +58,7 @@ RAND shows how evasion depends on what a rule measures and how activity is
 grouped. Carnegie then asks what broader coverage would cost—and whether it
 would push users toward providers or jurisdictions beyond the rule.
 
-\### [The Geopolitical Debates Over Controlling Cloud Compute](https://carnegieendowment.org/research/2026/05/the-geopolitical-debates-over-controlling-cloud-compute)
+\### The Geopolitical Debates Over Controlling Cloud Compute
 Noah Tan | Carnegie Endowment for International Peace (2026)
 
 Read the following excerpts:

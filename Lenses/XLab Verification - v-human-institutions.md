@@ -25,7 +25,7 @@ Brundage et al. (2026)
   Read the eight design principles in the Executive Summary, from Scope of
   Risks through Clarity.
 
-\### [Defining Noncompliance: NPT Safeguards Agreements](https://www.armscontrol.org/act/2009-05/iran-nuclear-briefs/defining-noncompliance-npt-safeguards-agreements)
+\### Defining Noncompliance: NPT Safeguards Agreements
 John Carlson, Australian Safeguards and Non-Proliferation Office (2009)
 
   Read “Determining noncompliance” and “Standard of proof”, then compare the cases in Table 1.
