@@ -81,12 +81,21 @@ Amy F. Woolf (2011)
 
 \## International bargaining and domestic implementation
 
-\### [Diplomacy and Domestic Politics: The Logic of Two-Level Games](https://doi.org/10.1017/S0020818300027697)
+\### Diplomacy and Domestic Politics: The Logic of Two-Level Games
 Robert D. Putnam (1988)
 
   Models diplomacy as a two-level game in which governments bargain
   internationally while securing domestic ratification, introducing the
-  concept of win-sets. Read pp. 433–441.
+  concept of win-sets.
+
+#### Article
+source:: [[../articles/putnam-diplomacy-and-domestic-politics-the-logic-of-two-level-games-11]]
+from:: ### Two-level games: a metaphor for domestic-international interactions ^two-level-games-a-metaphor
+to:: $Y_M$  represent the maximum outcomes for  $X$  and  $Y$ , respectively, while  $X_1$  and  $Y_1$  represent the minimal outcomes that could be ratified. At this stage any agreement in the range between  $X_1$  and  $Y_1$  could be ratified by both parties. If the win-set of  $Y$  were contracted to, say,  $Y_2$  (perhaps by requiring a larger majority for ratification), outcomes between  $Y_1$  and  $Y_2$  would no longer be feasible, and the range of feasible agreements would thus be truncated in  $Y$ 's favor. However, if  $Y$ , emboldened by this success, were to reduce its win-set still further to  $Y_3$  (perhaps by requiring unanimity for ratification), the negotiators would suddenly find themselves deadlocked, for the win-sets no longer overlap at all.[^note-43]
+
+#### Text
+content::
+
 
 \### [Delegation under Anarchy: States, International Organizations, and Principal-Agent Theory](https://doi.org/10.1017/CBO9780511491368.002)
 Hawkins, Lake, Nielson and Tierney (2006)
