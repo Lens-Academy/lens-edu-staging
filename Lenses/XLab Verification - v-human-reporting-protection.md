@@ -31,7 +31,7 @@ below California whistleblower protection statute, paying attention to what
 the statute does not say or leaves ambiguous: what types of disclosures are
 not protected? Can you hypothesize why?
 
-\### [California Labor Code, Chapter 5.1: Whistleblower Protections — Catastrophic Risks in AI Foundation Models](https://www.leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=5.1.&division=2.&lawCode=LAB&part=3.&title=)
+\### California Labor Code, Chapter 5.1: Whistleblower Protections — Catastrophic Risks in AI Foundation Models
 California Legislature (effective 2026)
 
   Read §§1107–1107.2 in full.
