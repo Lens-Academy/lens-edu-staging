@@ -17,7 +17,11 @@ Watch the below video to hear about the historical importance of
 whistleblowers—but also why individuals often don't say something when they
 see something.
 
-[Watch: How whistle-blowers shape history | Kelly Richmond Pope | TED](https://youtu.be/51k3UASQE5E?si=mE8eD7RrB_yvHrpJ)
+#### Video
+source:: [[../video_transcripts/ted-how-whistle-blowers-shape-history-kelly-richmond-pope]]
+
+#### Text
+content::
 
 \## Whistleblower Statutes
 
