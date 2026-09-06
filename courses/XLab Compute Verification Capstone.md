@@ -25,6 +25,7 @@ Week 1 goals:
 # Module: [[../modules/XLab Verification Capstone W1 Feasibility judgment]]
 
 # Meeting: Week 1: Feasibility judgment
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 %% Shape: each learner gives their defended-ranking memo in two minutes (policy goal, portfolio, residual blind spot and its owner); the group finds the blind spot they did not name; a round on one mechanism each rated differently from the reference map and what evidence would settle it. Close with a heads-up that the bank opens next week and the intro-form answers on hours, team, and mentor will be used to pair. %%
 

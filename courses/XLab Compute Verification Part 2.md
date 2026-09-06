@@ -34,10 +34,12 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../modules/XLab Verification Part 2 W09 Covert development and the low-trust architecture]]
 
 # Meeting: Week 9: Covert development and the low-trust architecture
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification Part 2 W10 Evasion routes and the red team review]]
 
 # Meeting: Week 10: Evasion routes and the red team review
+survey:: [[../surveys/CV2 Final Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
