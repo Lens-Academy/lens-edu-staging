@@ -26,8 +26,20 @@ precedent. As you read, keep the following questions in mind:
 \### [Access-dependent verification methods](https://arxiv.org/html/2408.16074v2#S6.SS2)
 Wasil et al. (2024)
 
-  Read On-site Inspections of Data Centers, On-site Inspections of AI
-  Developers, and Key Takeaways.
+Read how inspections of data centers and AI developers work, and where access-dependent methods fall short.
+
+#### Article
+source:: [[../articles/wasil-verification-methods-for-international-ai-agreements]]
+from:: #### ON-SITE INSPECTIONS OF DATA CENTERS
+to:: The most significant precedent for the detailed inspection of hardware is the IAEA’s mandated use of bespoke tamper-evident containment seals for nuclear materials (International Atomic Energy Agency [2011](https://arxiv.org/html/2408.16074v2#bib.bib23)). These seals – each of which bears a unique identifier – are designed to provide clear evidence of any tampering or unauthorized access. IAEA inspectors examine these seals during on-site visits, allowing them to detect any undeclared movement or use of nuclear materials.
+
+#### Article
+source:: [[../articles/wasil-verification-methods-for-international-ai-agreements]]
+from:: #### ON-SITE INSPECTIONS OF AI DEVELOPERS
+to:: Access-dependent methods can allow for in-depth inspections of key facilities such as AI development facilities, hardware manufacturing facilities, and data centers. If international inspectors have sufficient access to these facilities, this provides a great deal of robustness to a verification regime. However, such methods may be perceived as invasive, and they may rely on the permission of nations that are suspected of unauthorized activity. Access-dependent methods can also be somewhat flexible depending on the amount of political will and the level of access that nations are willing to provide. To preserve privacy or trade secrets, inspectors may receive limited access– enough access to verify that an unauthorized training run is not being conducted but not enough access to see exactly what kind of tasks are being performed.
+
+#### Text
+content::
 
 \### [§5.3 Levels of assurance](https://arxiv.org/pdf/2601.11699v4#page=29)
 Brundage et al. (2026)
