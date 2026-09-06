@@ -120,6 +120,32 @@ Hardware evidence can reduce disclosure by returning a bounded claim rather than
 - How abuse is audited;
 - What happens when parties disagree about the verifier or reference values.
 
+\#### Compare the verification layers
+
+Read the on-chip and off-chip summaries and analyses from *Six Layers of Verification*.
+
+#### Article
+source:: [[../articles/baker-verifying-international-agreements-on-ai-six-layers-of-verification-for-rules-on-large-scale-ai-development-and-deployment]]
+from:: ### 4.1 On-Chip Verification Layer
+to:: In the “on-chip” verification layer, the Prover’s AI chips _help_ _verify their own compliance_ through built-in security features. In other words, this verification layer distinctively assumes (and tries to verify) that the Prover’s AI chips will implement specialized behaviors that enable verification, due to features physically built into the chips during manufacturing. To achieve robust verification with hardware security features, some already common hardware security features would need to be (i) present on the Prover’s chips, (ii) unusually secure, and (iii) used in particular ways. We describe these features and their uses next.
+
+#### Article
+source:: [[../articles/baker-verifying-international-agreements-on-ai-six-layers-of-verification-for-rules-on-large-scale-ai-development-and-deployment]]
+from:: #### 4.1.2 Analysis
+to:: To avoid the tradeoffs of on-chip verification, another approach could be to separate AI hardware from verification hardware, so that each can be specialized for its own purpose. This motivates the “off-chip” verification layers we consider next.
+
+#### Article
+source:: [[../articles/baker-verifying-international-agreements-on-ai-six-layers-of-verification-for-rules-on-large-scale-ai-development-and-deployment]]
+from:: ### 4.2 Off-Chip Verification Layers
+to:: “Off-chip” verification layers aim to avoid the security challenges of on-chip mechanisms by verifying AI chips’ activities using _separate devices_, rather than security features built into the AI chips. These separate devices could be (i) attached sensors to monitor the AI chips, and (ii) separate chips to analyze the sensor data and Provers’ declarations. With these, the Verifier would aim to detect discrepancies between a Prover’s declarations and their actual chip use, such as by detecting that chips’ input data or power draw patterns tell a different story than the Prover’s claims. The external devices could be mutually vetted to enable trust.
+
+#### Article
+source:: [[../articles/baker-verifying-international-agreements-on-ai-six-layers-of-verification-for-rules-on-large-scale-ai-development-and-deployment]]
+from:: #### 4.2.2 Analysis
+to:: Given the challenges of both on- and off-chip verification, it would be helpful if there were also simpler approaches to verification, or more broadly, approaches with different tradeoffs. This is where personnel-based verification comes in.
+
+#### Text
+content::
 \#### Activity: bilateral pilot review
 
 #### Question: Open
