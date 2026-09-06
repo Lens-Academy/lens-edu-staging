@@ -2,7 +2,7 @@
 id: '67977ae1-be51-4cc8-b464-5ccc714db95b'
 title: "Detection gaps and policy limits"
 tldr: "A rule that counts compute per account is only as good as the unit it adds up over: split a run across accounts or days and every piece stays under the line. RAND models that gap; Carnegie asks whether closing it pushes customers toward providers and countries the rule cannot reach."
-summary_for_tutor: "Reading lens adapted from XLab lesson 2.2.3. Two external readings with XLab's reading instructions: the RAND report by Moon et al. (2025) on detection gaps in a game-theoretic model of compute governance (read the assigned parts on rand.org; the report itself is not inlined), and Noah Tan's Carnegie article (2026) on the geopolitics of cloud controls, whose three assigned sections are inlined as article excerpts. No questions in this lens. If the learner asks about the BLOOM calculation, keep it as an illustration of how an evader exploits the unit a rule aggregates over, not as a threshold recommendation. Ends with a Works cited callout."
+summary_for_tutor: "Reading lens adapted from XLab lesson 2.2.3. Two external readings with XLab's reading instructions: the RAND report by Moon et al. (2025) on detection gaps in a game-theoretic model of compute governance, with all assigned sections included, and Noah Tan's Carnegie article (2026) on the geopolitics of cloud controls, whose three assigned sections are inlined as article excerpts. No questions in this lens. If the learner asks about the BLOOM calculation, keep it as an illustration of how an evader exploits the unit a rule aggregates over, not as a threshold recommendation. Ends with a Works cited callout."
 tags: [wip]
 duration_minutes: 40
 ---
@@ -18,7 +18,7 @@ across providers and jurisdictions.
 \### [Strategies and Detection Gaps in a Game-Theoretic Model of Compute Governance](https://www.rand.org/pubs/research_reports/RRA3686-1.html)
 Moon, Vedula, Geneson, and Bar-on | RAND Corporation (2025)
 
-Read these parts in the original report:
+Read the following excerpts:
 
 - **Summary → Findings and Recommendations** (printed pp. iv–v).
 - **Cloud Service Provider Monitoring Strategies** through the end of **Detection Game** (printed pp. 4–5). Identify the mandatory metrics, the reporting rule, and the win condition.
@@ -61,7 +61,7 @@ would push users toward providers or jurisdictions beyond the rule.
 \### [The Geopolitical Debates Over Controlling Cloud Compute](https://carnegieendowment.org/research/2026/05/the-geopolitical-debates-over-controlling-cloud-compute)
 Noah Tan | Carnegie Endowment for International Peace (2026)
 
-Read these parts in the original article:
+Read the following excerpts:
 
 - **What Do Cloud Controls Attempt to Solve?** in full.
 - In **The Case Against Cloud Controls**, begin with “Some analysts also contend that cloud restrictions risk pushing users in third-party countries toward China’s competing AI stack” and read to the end of the section.
