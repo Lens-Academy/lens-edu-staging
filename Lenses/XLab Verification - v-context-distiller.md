@@ -219,6 +219,16 @@ Claude Opus 4.7 leads GPT-5.4 (“xhigh”) by approximately 79 ELO points, impl
 On ARC-AGI-2, Claude Opus 4.7 achieved a new high score for Opus-class models, at 75.83% on Max thinking. *(8.11, p. 212)*
 :::
 
+\### Frontier AI Trends Report
+
+#### Article
+source:: [[../articles/ai-security-institute-frontier-ai-trends-report]]
+from:: ## Executive Summary ^executive-summary
+to:: -   We include SEM error bars in figures where relevant. Small differences between data points should not be over-interpreted.
+
+#### Text
+content::
+
 \### IAEA safeguards report on Iran
 
 #### Article
