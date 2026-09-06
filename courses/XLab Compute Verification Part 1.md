@@ -1,7 +1,7 @@
 ---
 id: '9192ac45-c551-420f-a6dd-5985f5daa5a8'
-slug: ai-verification-1{++{"author":"AI","timestamp":1788699719784}@@
-slug-aliases: [compute-verification, ai-verification-full-course, xlab-compute-verification, ai-verification]++}
+slug: ai-verification-1
+slug-aliases: [compute-verification, ai-verification-full-course, xlab-compute-verification, ai-verification]
 title: "Compute Verification, Part 1"
 description: "How could rival states check that each other actually stopped? Five weeks on the front half of making an international AI agreement verifiable: why a slowdown is worth nothing without verification, what nuclear safeguards do and do not transfer, how a policy goal turns into a claim someone can test, who a pause actually binds across the compute supply chain, where a verification report's claims come from and who acts on them, and what a chip can and cannot prove about the work it did. The first of two courses on XLab's verification curriculum; the capstone is a separate course."
 partner-name: XLab
