@@ -47,3 +47,5 @@ meeting-doc-template:: https://docs.google.com/document/d/138vOAvli6XwSgFjyFgEy7
 # Module: [[../modules/Lisbon Fellowship - Chapter 7 Goal Misgeneralization, Part 2|Chapter 7: Goal Misgeneralization, Part 2]]
 
 # Module: [[../modules/AI Safety Atlas - Scalable Oversight|Chapter 8: Scalable Oversight]]
+# Meeting: Session 6: Goal Misgeneralization Part 2, Scalable Oversight
+meeting-doc-template:: https://docs.google.com/document/d/1HjZdnhqBTre4J_yqEcxm3MV9Q6066saq1Z90a07Mnvw/edit
