@@ -162,15 +162,22 @@ Once the verifier receives the report, there are still careful standards they
 should abide by to ensure that the report's information is protected, used,
 and disclosed without compromising the reporter's confidentiality, the
 integrity of the evidence, or the fairness of what follows for the accused.
-Read the below excerpts from [Quality Standards for
-Investigations](https://www.ignet.gov/sites/default/files/files/Quality%20Standards%20for%20Investigations%20July-2025.pdf)
-for four key principles that a reliable verifier should adhere to.
+Read the below excerpts from the Quality Standards for Investigations for four
+key principles that a reliable verifier should adhere to.
 
-\### [Quality Standards for Investigations](https://www.ignet.gov/sites/default/files/files/Quality%20Standards%20for%20Investigations%20July-2025.pdf#page=13)
+\### Quality Standards for Investigations
 Council of the Inspectors General on Integrity and Efficiency (2025)
 
   Read the four qualitative standards: planning, execution, reporting, and
   information management.
+
+#### Article
+source:: [[../articles/cigie-quality-standards-for-investigations]]
+from:: ## QUALITY STANDARDS FOR INVESTIGATIONS QUALITATIVE STANDARDS ^quality-standards-for-investigations-3
+to:: - Adequate controls over electronic case files, to include backup procedures and protection from cyberthreats.
+
+#### Text
+content::
 
 \## On Paper
 
