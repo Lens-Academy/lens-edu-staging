@@ -59,8 +59,15 @@ implementation of whistleblower protections. The core idea is: "whistleblower ri
 \### [AI Whistleblowing Law: Best Practice Guide](https://aiwi.org/ai-whistleblowing-law-best-practice/)
 Abra Ganz and Karl Koch | AIWI and CARMA (2026)
 
-  Read the Introduction and all seven recommendation sections; stop before
-  the biographies.
+  Read the Introduction and all seven recommendation sections.
+
+#### Article
+source:: [[../articles/aiwi-ai-whistleblowing-law-best-practices-aiwi-carma]]
+from:: ## Introduction ^introduction
+to:: **Acknowledgment and investigation timelines.** Investigating bodies should acknowledge receipt of a disclosure within a defined period (the EU Whistleblowing Directive requires 7 days) and provide substantive feedback to the disclosing individual within a defined period (the EU Directive requires 3 months). Without mandatory timelines, potential whistleblowers are prone to believe that no action will be taken which is the primary deterrent to whistleblowing.
+
+#### Text
+content::
 
 \## Can the Report Leave the Organization?
 
