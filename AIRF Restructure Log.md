@@ -104,9 +104,11 @@ All eight run the same `Reading Assignment`, `Phase 1: Recall`, `Phase 2: Proces
 
 | File | Change | Status |
 |---|---|---|
-| [[Lenses/IABIED - M4 Welcome]] | Stale. Its hidden `#### Chat` segment still briefs the tutor as though the student read chapters 7, 8, 9 and the Coda | `blocked` on the section 5 decision |
-| [[Lenses/IABIED - M5 Welcome]] | Same decision | `blocked` |
-| Modules without a welcome lens | Same decision | `blocked` |
+| M1 orientation lens | Move to the new M1 as the course overview, restate the reading load | `todo` |
+| M3 Part 3 Welcome | Rewrite. Currently hands chapter 6 to the next module | `todo` |
+| [[Lenses/IABIED - M4 Welcome]] | Retire, replace with an inline welcome | `todo` |
+| [[Lenses/IABIED - M5 Welcome]] | Retire, replace with an inline welcome | `todo` |
+| M2, M6, M7 | Confirm what they currently open with, then add inline welcomes | `todo` |
 
 ### Stage 5, resources
 
@@ -121,7 +123,7 @@ All eight run the same `Reading Assignment`, `Phase 1: Recall`, `Phase 2: Proces
 
 ## 4. Order, and why
 
-**Stage 0 before anything.** Every recall prompt terminates on an outcome. If the pending fix-pass repairs are still unaccepted, we would be building on text-scaffolded questions and then rebuilding.
+**Renaming before anything else in stage 1.** Three lens filenames carry module numbers and the modules renumber. Do the renames first, in one pass, checking inbound links, so later edits are made against stable paths.
 
 **Structure before content.** Moving a chapter between modules changes which lenses are in scope. Writing recall segments first would mean rewriting them.
 
