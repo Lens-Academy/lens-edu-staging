@@ -10,10 +10,10 @@ add_to_ai_context:
 ---
 #### Text
 content::
-- **Option A:** Read the sections below closely before writing your essay.
-- **Option B:** Skim the sections below, then read the Plan S FAQ in Option B.
+For both options, focus on the plan's summary, concrete inference-only retrofit, and 2029–2030 implementation sequence, including third-party participation.
 
-Focus on the plan's summary, concrete inference-only retrofit, and 2029–2030 implementation sequence, including third-party participation.
+- **Option A:** Read these sections closely before writing your essay.
+- **Option B:** Skim these sections, then read the Plan S discussion and FAQ in Option B.
 
 #### Article
 source:: [[../articles/2040-ai-2040-plan-a]]
