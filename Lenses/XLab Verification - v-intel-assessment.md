@@ -58,10 +58,17 @@ loses the window in which the activity is observable.
 
 \## Readings
 
-- Optional: CIA, [*A Tradecraft Primer*](https://www.stat.berkeley.edu/~aldous/157/Papers/Tradecraft%20Primer-apr09.pdf).
-  Methodological material: Quality of Information Check (pp. 10–11),
-  Indicators or Signposts of Change (pp. 12–13), and Analysis of Competing
-  Hypotheses (pp. 14–16), applied directly to the case brief.
+Optional: three techniques from the CIA's *A Tradecraft Primer* — the Quality
+of Information Check, Indicators or Signposts of Change, and Analysis of
+Competing Hypotheses. Apply them to a case brief.
+
+#### Article
+source:: [[../articles/government-a-tradecraft-primer-structured-analytic-techniques-for-improving-intelligence-analysis]]
+from:: ### QUALITY OF INFORMATION CHECK ^quality-of-information
+to:: **ACH Matrix of Terrorism in Tokyo.** In March 1995, a largely unknown group attacked the Tokyo subways by using a highly lethal nerve agent known as sarin. ACH provides a mechanism to carefully examine all the evidence and possible explanations for understanding what type of group could have been responsible. In simplified form, the above matrix arrays each piece of evidence on the vertical axis and then evaluates each in terms of the item's consistency with four possible explanations for the terrorist attack in Tokyo (horizontal axis). Analysts rate a piece of evidence as consistent (C); inconsistent (I); or neutral (N). This process allows analysts to see that some evidence will be consistent with more than one hypothesis and be less valuable in disproving hypotheses.
+
+#### Text
+content::
 
 :::callout {title="Unfinished writing" tone="amber"}
 The section's main task is specified but not built. Learners are meant to
