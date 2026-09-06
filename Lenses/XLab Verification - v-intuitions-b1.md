@@ -18,7 +18,7 @@ The first four responses develop the arguments for your final essay; keep them i
 content::
 Plan A and Plan S aim at different kinds of AI agreements. Plan A permits substantial AI activity under a layered verification regime; Plan S calls for a much stronger halt on frontier AI development. Those choices shape the verification problem: what counts as compliance, what evidence inspectors can collect, how much of the AI ecosystem must remain visible, and which actors must cooperate.
 
-Review [[../Lenses/XLab Verification - v-intuitions-plan-a|the embedded Verification Supplement]], then read the Plan S discussion in the FAQ below.
+Read the Plan S discussion and FAQ, then compare the two plans using the questions below.
 Plan S has no equivalent verification supplement, so infer what a credible regime would require using mechanisms from this course.
 
 #### Article
