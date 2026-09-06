@@ -31,16 +31,19 @@ Recorded so they do not get re-argued. Each entry is the decision, then the reas
 
 ---
 
-## 2. Open decisions
+## 2. Decisions resolved on greenlight
 
-| Decision | Blocks | Notes |
-|---|---|---|
-| Are the 2026-08-24 fix-pass suggestions accepted? | Everything in stage 3 | 46 outcome files have pending repairs. Two threads terminate on outcomes in that batch |
-| Is a cohort mid-flight? | Stage 1 | Published ids must not change under a running cohort |
-| Where does U2 split into M2 and M3? | Stage 1 | Chapters 4 and 5 then 6, or chapter 4 then 5 and 6 |
-| Do the extension readings move or duplicate? | Stage 2 | Optional in U2 and required in U3 is spaced repetition by construction, but can read as padding |
-| Welcome lenses: keep, rewrite, or replace? | Stage 4 | See section 5 |
-| Assessment load per unit | Stage 3 | Each recall beat is another tutor conversation |
+| Decision | Resolution |
+|---|---|
+| 2026-08-24 fix-pass suggestions | **Ignore.** Not ours to resolve. The draft was reviewed and approved on its own terms |
+| Cohort mid-flight | **Not a blocker.** A cohort is running, but nothing here goes live until it completes. Published ids must not change once it does |
+| Where U2 splits | **It does not.** U2 is chapters 4 to 6 in one module |
+| Module numbering | M1 becomes the Introduction alone; M2 and M3 become Nonhuman Minds parts 1 and 2. So **M1 = Introduction, M2 = chapters 1 to 3 (U1), M3 = chapters 4 to 6 (U2), M4 = U3, M5 = U4, M6 and M7 = U5** |
+| Extension readings move or duplicate | **Duplicate, framed as "if you haven't already read".** Having read something before is not the same as having been tested on it or asked to explore it |
+| Assessment load | **Fine.** Each recall moment runs a couple of turns, and the proposal was approved with them in |
+| Welcome lenses | **Replace.** See section 5 |
+
+Nothing is blocking. Section 8 holds the dependency scan, which raises decisions to take as each file is touched rather than up front.
 
 ---
 
