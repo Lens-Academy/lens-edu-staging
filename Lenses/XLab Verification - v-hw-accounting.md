@@ -14,6 +14,15 @@ A registry of covered accelerators can support several verification tasks. It ca
 
 A registry is not a sensor. It is an institutional record whose value depends on how entries are created and reconciled.
 
+Read O’Gara et al.’s overview of hardware-enabled verification mechanisms.
+
+#### Article
+source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
+from:: ### 2.1 Overview and scope ^2-1-overview-and
+to:: While this is not an exhaustive list, these mechanisms represent promising tools to enhance the governance of advanced AI systems and create incentives for international collaboration on AI safety.
+
+#### Text
+content::
 \#### Identity
 
 A device credential can help a verifier distinguish a genuine covered device from an unauthenticated substitute. The verifier still needs to know:

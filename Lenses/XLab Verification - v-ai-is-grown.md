@@ -5,7 +5,7 @@ tldr: "Nobody sat down and programmed ChatGPT to have conversations. Instead, en
 summary_for_tutor: "Optional further reading offered from 0.1 Introduction, for learners who want the case for advanced AI risk at full strength. Covers how modern AI systems are grown through training rather than designed line by line: engineers understand the training process but not the resulting system, which produces emergent and sometimes surprising behaviour. Establishes that this opacity is a feature of the current paradigm, not a temporary limitation. The learner reads the article, answers one explain-it-to-a-friend question, then discusses it with you."
 reading_minutes: 10
 tutor_minutes: 5
-tags: [wip]
+tags: {--{"author":"AI","timestamp":1788700166052}@@[wip]--}{++{"author":"AI","timestamp":1788700166052}@@[]++}
 ---
 #### Text
 content::
