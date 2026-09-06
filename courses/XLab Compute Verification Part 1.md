@@ -65,4 +65,5 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Meeting: Week 5: Hardware verification
 meeting-doc-template:: https://docs.google.com/document/d/1zIA1oR3qo6GMkTFYpgcMqPgJNT4e4bWbqlNzJdMOyME/edit
+survey:: [[../surveys/CV1 Final Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
