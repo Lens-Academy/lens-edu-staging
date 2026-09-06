@@ -339,7 +339,7 @@ content::
 13. “the Denied Person … may not, directly or indirectly, participate in any way in any transaction involving any commodity, software or technology … including, but not limited to: A. Applying for, obtaining, or using any license, license exception, or export control document;” *Order Penalty & terms, Order, Sixth, p. 13*
 :::
 
-Read your report through before clipping. XLab does not hand you the PDF with passages marked; it offers a pool of candidate passages per report, core facts plus deliberate decoys, and shows the full document only for the system card. The pools are reproduced above; clip from them.
+Read your report through before clipping. The passages are not marked for you: each report has a pool of candidate passages, core facts alongside deliberate decoys. The pools are reproduced above; clip from them.
 
 \### 1 and 2. Clip, then distil
 
