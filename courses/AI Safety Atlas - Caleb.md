@@ -12,16 +12,22 @@ partner-url: https://ai-safety-atlas.com/
 # Module: [[../modules/AI Safety Atlas - Capabilities|Chapter 1: Capabilities]]
 
 # Module: [[../modules/Lisbon Fellowship - Chapter 2 Risks, Part 1|Chapter 2: Risks, Part 1]]
+# Meeting: Session 1: Capabilities, Risks Part 1
+meeting-doc-template:: https://docs.google.com/document/d/1NrXA1G4F1vAnquvuY0UEobTgi4KLckx4huiEyP2rs-c/edit
 
 %% Week 2 %%
 # Module: [[../modules/Lisbon Fellowship - Chapter 2 Risks, Part 2|Chapter 2: Risks, Part 2]]
 
 # Module: [[../modules/Lisbon Fellowship - Chapter 3 Strategies, Part 1|Chapter 3: Strategies, Part 1]]
+# Meeting: Session 2: Risks Part 2, Strategies Part 1
+meeting-doc-template:: https://docs.google.com/document/d/1v2vV520FQbry8AsdhWkpSNC_ihvkQqkU0wXa76DZRoM/edit
 
 %% Week 3 %%
 # Module: [[../modules/Lisbon Fellowship - Chapter 3 Strategies, Part 2|Chapter 3: Strategies, Part 2]]
 
 # Module: [[../modules/AI Safety Atlas - Governance|Chapter 4: Governance]]
+# Meeting: Session 3: Strategies Part 2, Governance
+meeting-doc-template:: https://docs.google.com/document/d/1IcUGd2geuTRtteWSpUX5l9uRGdiksnAM1qp1bx5Zp_I/edit
 
 %% Week 4 %%
 # Module: [[../modules/AI Safety Atlas - Evaluations|Chapter 5: Evaluations]]
