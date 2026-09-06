@@ -23,7 +23,7 @@ precedent. As you read, keep the following questions in mind:
 - What level of assurance does each arrangement produce, and what errors or
   deception can it still miss?
 
-\### [Access-dependent verification methods](https://arxiv.org/html/2408.16074v2#S6.SS2)
+\### Access-dependent verification methods
 Wasil et al. (2024)
 
 Read how inspections of data centers and AI developers work, and where access-dependent methods fall short.
@@ -47,7 +47,7 @@ Brundage et al. (2026)
   Read §§5.3.1–5.3.3, pages 29–35 of the PDF.
 {>>{"author":"Elias's AI","timestamp":1788521728531}@@Repointed from the arXiv HTML render (#S5.SS3), which stops mid-§5.3.3 at the AI Assurance Levels table header and delivers about 950 of the 2,690 assigned words. The PDF carries §§5.3.1 to 5.3.3 in full on pages 29 to 35.<<}
 
-\### [Challenge inspections: general rules and managed access](https://www.opcw.org/chemical-weapons-convention/annexes/verification-annex/part-x-challenge-inspections-pursuant)
+\### Challenge inspections: general rules and managed access
 OPCW | Chemical Weapons Convention, Verification Annex, Part X
 
   Read paragraphs 38–50.
