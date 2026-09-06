@@ -19,11 +19,18 @@ about the evidence it handles?
 Explore the below frontier AI auditing design principles and a historical
 nuclear parallel for features of effective institutions.
 
-\### [Frontier AI auditing: design principles](https://arxiv.org/html/2601.11699v4)
+\### Frontier AI auditing: design principles
 Brundage et al. (2026)
 
-  Read the eight design principles in the Executive Summary, from Scope of
-  Risks through Clarity.
+  Read the eight design principles, from Scope of Risks through Clarity.
+
+#### Article
+source:: [[../articles/brundage-frontier-ai-auditing-toward-rigorous-third-party-assessment-of-safety-and-security-practices-at-leading-ai-companies-pdf]]
+from:: - **Scope of risks: Comprehensive coverage of four key risk categories.** Frontier AI auditing should focus on four risk categories: risks from (1) intentional misuse of frontier AI systems (e.g., for cyberattacks); (2) unintended frontier AI system behavior (e.g., errors harming the user, their property, or third parties due to pursuing the wrong goal or having an unreliable performance profile); (3) information security (e.g., theft of an AI model or user data); and (4) emergent social phenomena (e.g., addiction to AI or facilitation of self-harm). For each category of risks, auditors should (a) verify company claims and (b) evaluate the company's systems and practices against its stated safety and security policies, applicable regulations, and industry best practices.
+to:: - **Clarity: Clear communication of audit results.** Stakeholders must be able to understand the audit results. These should be communicated in audit reports with a standardized structure, covering the audit's scope, level of assurance, conclusions, reasoning, and recommendations. Results should be communicated appropriately to different stakeholders: to protect sensitive information, auditors and companies can publish summarized or redacted versions for external stakeholders while sharing full, unredacted audit reports with boards, company executives, and, in some cases, regulatory bodies.
+
+#### Text
+content::
 
 \### Defining Noncompliance: NPT Safeguards Agreements
 John Carlson, Australian Safeguards and Non-Proliferation Office (2009)
