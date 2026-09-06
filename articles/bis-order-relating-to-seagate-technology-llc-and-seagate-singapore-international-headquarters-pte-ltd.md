@@ -1,7 +1,7 @@
 ---
 title: "Order Relating to Seagate Technology LLC and Seagate Singapore International Headquarters PTE. LTD."
 author:
-  - "TKENDLER"
+  - {--{"author":"Elias's AI","timestamp":1788701987817}@@"TKENDLER"--}{++{"author":"Elias's AI","timestamp":1788701987817}@@"Bureau of Industry and Security"++}
 source_url: "https://www.thewirechina.com/wp-content/uploads/2024/10/Seagate-Order.pdf"
 published: 2023-04-19
 created: 2026-09-06
