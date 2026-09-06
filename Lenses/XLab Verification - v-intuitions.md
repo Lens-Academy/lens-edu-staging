@@ -29,9 +29,6 @@ Read [[../Lenses/XLab Verification - v-intuitions-plan-a|Plan A on the next page
 
 In either option, four short responses help you develop your argument for the final essay.
 
-After your final essay, continue to [[../Lenses/XLab Verification - v-intuitions-drills-1|the drill bench]].
-The success-scenario essay and further reading are optional.
-
 :::callout {title="A writing good practice" tone="neutral" collapse="closed"}
 Clarify the source of each claim you make, and explicitly identify gaps, uncertainties, or ambiguities as they appear. You won't know everything, and you aren't expected to.
 :::
