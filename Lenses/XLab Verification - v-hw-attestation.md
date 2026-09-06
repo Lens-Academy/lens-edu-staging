@@ -114,17 +114,12 @@ The rest of this section uses one repeated method:
 
 **State the claim. Trace the measurement and trust chain. Name the adversary. Price the mechanism. Bound the conclusion. Find the remaining hole.**
 
-\#### Core source packet
+\#### Readings across this section
 
-:::callout {title="Author note" tone="neutral"}
-The required reading should be embedded at the point of use rather than assigned as one block.
-:::
-
-1. **IETF, RFC 9334, Remote ATtestation procedureS Architecture.** Read the roles and trust-model excerpts.
-2. **NVIDIA Attestation Quick Start Guide.** Inspect the architecture diagram, selected token claims, reference measurements, revocation roles, and the current multi-GPU limitation.
-3. **O’Gara et al., Hardware-Enabled Mechanisms for Verifying Responsible AI Development.** Read the mechanism map and selected open questions on accounting, workload classification, location, configuration, and licensing.
-4. **Rahman and Tajdari, Detecting Hidden ML Training With Zero-Overhead Telemetry.** Read the abstract, one adversarial-results table, the required hardware assumptions, and the limitations.
-5. **Baker et al., Verifying International Agreements on AI: Six Layers of Verification.** Read the on-chip, off-chip digital, and off-chip analog comparison.
+- **RATS and NVIDIA:** who makes an attestation claim, who checks it, and what current systems leave unverified.
+- **O’Gara et al.:** mechanisms and open questions for accounting, workload classification, location, configuration, and licensing.
+- **Rahman and Tajdari:** telemetry results, adversarial tests, hardware assumptions, and limitations.
+- **Baker et al., Six Layers:** on-chip, off-chip digital, and off-chip analog verification.
 
 :::callout {title="Sources" tone="neutral" collapse="closed"}
 H. Birkholz et al., [“Remote ATtestation procedureS (RATS) Architecture”](https://www.rfc-editor.org/rfc/rfc9334.html), IETF RFC 9334, January 2023. NVIDIA, “Architecture Overview,” [*Attestation Quick Start Guide*](https://docs.nvidia.com/attestation/quick-start-guide/latest/architecture.html), documentation current August 1, 2026 — first-party implementation documentation, not an independent adversarial evaluation. T. O’Gara et al., “Hardware-Enabled Mechanisms for Verifying Responsible AI Development,” [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025. M. S. Rahman and M. Tajdari, “Detecting Hidden ML Training With Zero-Overhead Telemetry,” [arXiv:2606.19262](https://arxiv.org/abs/2606.19262), June 2026 — a preprint, presented as a component demonstration. Baker et al., “Verifying International Agreements on AI: Six Layers of Verification,” [arXiv:2507.15916](https://arxiv.org/abs/2507.15916), 2026.
