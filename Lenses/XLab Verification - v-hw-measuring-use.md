@@ -56,10 +56,10 @@ Robi Rahman and Sabiha Tajdari, *Detecting Hidden ML Training With Zero-Overhead
 
 The limitations are equally important:
 
-- Difficult previously unseen adversarial workloads produced materially lower performance, reported in the study as 43–87 percent for the hardest cases;
+- Detection of previously unseen white-box evasion strategies after hardening ranged from 43 to 87 percent in Table 5;
 - Experiments were limited to single-node systems of up to eight GPUs;
 - Frontier-scale multi-node clusters were not tested;
-- Custom low-level kernels were not exhaustively covered;
+- Evasion using custom CUDA kernels was not tested;
 - The experiments used NVIDIA hardware;
 - Treaty relevance depends on a tamper-resistant telemetry source, an authenticated channel, and protected monitoring software;
 - Simple static heuristics are inadequate, because some inference configurations occupy the same basic utilization or arithmetic-intensity range as training.
