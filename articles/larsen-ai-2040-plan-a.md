@@ -170,3 +170,88 @@ Eventually the President and his protégé converge on one plan; the opposition 
 Slow down at least a bit for safety and governance?
 
 Let’s make a deal with China. But what?
+
+%% Restored the Plan S branch omitted by interactive-page extraction, from https://ai-2040.com/print/scenario?altplans=1&plan=A&supplements=0 . Source wording preserved; duplicate left/right sidenotes consolidated into footnotes. %%
+
+## Plan S: Shutdown
+
+*“Once men turned their thinking over to machines in the hope that this would set them free. But that only permitted other men with machines to enslave them.”*
+
+*– [Frank Herbert, Dune](https://www.goodreads.com/quotes/842526-once-men-turned-their-thinking-over-to-machines-in-the).*
+
+**The new President seeks a global moratorium on AI development.**
+
+He gives a speech:
+
+“We stand now at the precipice. If we continue on the path towards artificial superintelligence, the result could easily be AI takeover, World War 3, or some sort of AI-powered permanent oligarchy. Therefore, let’s *not* continue. This solution has been obvious for years, but the tech companies sowed enough division and confusion to keep us asleep. It’s time to wake up and do the obvious thing. This administration will seek an international agreement to halt AI development at the current level.”
+
+“We do not need to build god,” he says. “We do not need to race China to build god. What we need is for nobody to build god.”
+
+To the surprise of some, China agrees. They had been looking forward to the Chinese Century and thought they were on track to realize it, before AI came along. They were getting nervous about the US’s compute advantage, and worried about the things the US might do to them if it got to superintelligence first.[^note-plan-s-1]
+
+The goal of the deal is to grind AI research & development to a halt worldwide. This means that the vast majority of existing AI chips are tracked, monitored, and verified to not be doing any large training runs. Doing AI research to discover better algorithms is also banned. Enforcement doesn’t have to be perfect to be good enough; a few hundred people with a few thousand GPUs simply can’t build superintelligence, at least not anytime soon.
+
+Existing datacenters stay online, and existing AIs continue running on them. AI projects reallocate compute from training and research to inference; the result is approximately a doubling of availability and usage limits. The US and China have human and AI auditors overseeing each other’s AI projects to make sure they aren’t doing any AI R&D.[^note-plan-s-2] AI companies’ valuations crash, but not to zero; there’s still profit to be made building products on top of existing AI models.[^note-plan-s-3]
+
+Over the next few years, all other major world powers agree to support the moratorium, though it takes much effort.[^note-plan-s-4] By the end of 2030, the Consortium covers 99% of global AI compute and 100% of advanced chip fabrication capacity. Chip fabs are allowed to keep scaling up, but in a slow and highly regulated fashion, and besides, there isn’t as much demand now that AI capabilities are frozen.[^note-plan-s-5]
+
+For the past decade, coding up complicated scaffolds had often been a losing game, because new models would come along that could do the task with a much simpler setup. Now, that changes. Software companies invest millions of man-hours and trillions of tokens of AI labor into building gigantic polished software products with AI integrated at every level. Ironically, by completely pausing AI progress in 2029, and only allowing scaffolding improvements, we STILL end up with a crazy sci-fi future that includes artificial intelligences that would have been called AGI by most people in the past.
+
+The economy took a hit when the moratorium was announced, but not nearly enough to erase the gains during the years leading up to it. AI revenue grows significantly in the early 2030s, albeit much more slowly than it would have done without the pause on development. Trillions of dollars of investment shifts from betting on AGI to betting on various kinds of it’s-not-AI-it’s-just-a-tool. That, and other exciting frontiers like space and robotics.[^note-plan-s-6]
+
+There is much debate about when, if ever, frontier AI development should be resumed. For now the US and China, in consultation with other nations, are starting to build up case law of more specific rules and regulations about what’s allowed and what isn’t. After all, there are numerous compelling examples of valuable, obviously benign AI designs and research projects. It’s not fashionable these days to hype your product as using AI—quite the opposite—but many things that would have been called AI in the twenties are now allowed to proceed; basically the kinds of AI that really are just tools and not autonomous agents.[^note-plan-s-7]
+
+What about the covert projects? What about small teams with small hidden GPU clusters, doing illegal research towards AGI?
+
+This sort of thing will be happening all over the world, but it won’t matter that much. AI progress is heavily dependent on large datacenters, both for training the models and for doing the research. Moreover, the covert projects struggle to recruit AI researcher talent. AI research is strictly banned in all major nations, and it becomes as taboo among computer scientists as human cloning research is among biologists. No-one qualified enough to get a job in the legitimate tech industry wants anything to do with AGI. The result is that the pace of AI progress, while nonzero, would be at least ten times slower than it was before the moratorium on AI R&D went into effect.[^note-plan-s-8]
+
+Nevertheless. What will 2040 look like? What about 2050? What about 2060? Hard to say. The shutdown deal will last for some time, but probably not forever.
+
+We are sympathetic to Plan S and think that it might be better than Plan A.[^note-plan-s-9] However, we recommend Plan A instead. Here’s our thinking:
+
+The main downside of Plan S is that the shutdown deal will probably break down eventually. Because of this, it’s important to make as much progress as fast as possible to reduce the risks of AI: especially via alignment progress, and diffusing and integrating AI broadly into society to improve wakeup, epistemics, and the distribution of power. In Plan A, we continue scaling AI capabilities, but slowly and safely. AI safety research can proceed with highly capable AIs and with massive compute budgets. In Plan S, since the relevant type of AI research is banned, no such progress can be made.
+
+The best versions of Plan S are those that acknowledge that the deal will eventually end, and simply say “First (step 1) we should stop making frontier AIs more capable, because the AIs and AI companies are getting more powerful every day and there’s so much uncertainty about where it’s headed and how fast. Then (step 2) once the world has had several years to think about things and plan a safe and broadly beneficial path forward, we can resume.”[^note-plan-s-10]
+
+Step 1 of Plan S has the advantage of being easier to implement than Plan A. It’s simpler and thus less likely to be botched by well-meaning but inexpert regulators, or perverted/captured by tech companies or other powerful interests. This is an important point, but it only applies to Step 1. If and when AI development resumes, doing it right will probably require a significant amount of regulatory complexity. In fact we suspect that the best version of Step 2 would probably look a lot like Plan A…
+
+So when deciding between Plan A vs. Plan S, an important question, we think, is “After we stop, when and how would we start again?”
+
+One possibility is that the eventual reboot of AI progress would happen under circumstances as good as, or better than, Plan A. For example, perhaps the nations of the world would spend the 2030s negotiating a more fleshed out, less hasty, more thought-through version of Plan A that is significantly better in several ways. Perhaps the tech companies’ corrupting influence over politics would diminish, and the general level of understanding of AI in the world would increase as the scientific literature and universities have time to catch up to the pre-2029 developments.
+
+Another possibility, though, is that the eventual reboot of AI progress would happen under worse circumstances than Plan A: Perhaps it would happen after the slowdown deal broke down or became less effective, perhaps during a world war, perhaps in secret government projects, perhaps in a world with vastly more compute lying around to quickly scale up AI training runs and experiments with, leading to a faster takeoff.[^note-plan-s-11] Insofar as something like this is in store, then it would be much better to do Plan A now (despite the risks) than to do Plan S.
+
+So whether you prefer Plan A or Plan S might come down to how optimistic you are about the future of a US-China deal, and your assessment of technical alignment and control difficulty:
+
+You should prefer Plan S insofar as you think the deal is stable and insofar as you think that scaling to more capable AIs early in the deal doesn’t help much with safety or poses risks outweighing its helpfulness. In that case, there’s no rush, we can first stop the race and then plan out a way to proceed. The shutdown deal (Step 1) will last years, decades even. During that time the world will come up with a better plan for proceeding (Step 2) that’s at least as good as Plan A, and possibly significantly better, plus we’d be more prepared to implement it and would be less likely to mess it up.
+
+You should prefer Plan A if you think the deal is unstable and that scaling to more capable AIs early in the deal is helpful and safe. In this case, Plan A, while still risky, is less risky than whatever madness might happen years later when geopolitical winds shift.
+
+We are uncertain, but overall think that a well-implemented version of Plan A is probably going to work to avoid loss of control and concentration of power risks, whereas we think that even a well-implemented version of Plan S would plausibly collapse within a decade or so into another dangerous race to ASI.
+
+Separately, there is the issue of political feasibility. Plan A is more friendly to the AI companies and therefore less likely to be strongly opposed by them and their lobbyists, propaganda, etc. On the other hand, Plan S is simpler and avoids more risk in the near-term, which may make it easier to rally public support around and harder to botch.
+
+
+[^note-plan-s-1]: To spell it out more: They were concerned that the US might use their massive AI advantage to cripple Chinese AI projects via cyberattacks, physical sabotage, or other means, and then use the resulting even-bigger, longer-lasting AI advantage to dictate terms to the CCP or even overthrow it entirely. Preventing loss-of-control risk was merely an added bonus.
+
+[^note-plan-s-2]: For details on how a treaty like this might look, see [this paper](https://arxiv.org/pdf/2511.10783). Another similar proposal is [A Narrow Path](https://www.narrowpath.co/).
+
+[^note-plan-s-3]: If all large new training runs are prevented, the valuations of some existing AI companies might actually rise, because their models would no longer face competition. However, by and large most AI valuations tend to price in the possibility of fast capability growth, and so on average they will crash.
+
+[^note-plan-s-4]: Achieving this is more difficult than it is in the Plan A scenario, because in the Plan A scenario, AI progress within the deal is going to continue, and even though it’s going at a throttled, cautious pace, it’ll probably still be faster than what many countries could achieve on their own. Whereas in Plan S, AI progress is halted within the deal, meaning that countries outside the deal can hope to get an economic and military advantage for themselves even if they are proceeding at a snail’s pace on only a million GPUs. (Whether they in fact get that advantage depends on whether the countries in the deal notice and stop them…)
+
+[^note-plan-s-5]: Demand for AI chips will continue to grow in absolute terms, as people find more ways to integrate existing AI models into the economy. But the rate of growth will be less explosive than it would have been had AI progress continued.
+
+[^note-plan-s-6]: In the 2030s, the price of energy should be starting to drop as solar power continues decades-long trends of incremental improvements and economies of scale. Also, launch costs to orbit should be about an order of magnitude cheaper than in 2026, thanks to Starship. In general, [scientific progress in many domains will have continued](https://www.lesswrong.com/posts/Ww5xKq5brC4xAJY7o/what-will-2040-probably-look-like-assuming-no-singularity) and the world will feel increasingly cyberpunk.
+
+[^note-plan-s-7]: More notes on the sorts of large neural networks that would plausibly be prohibited under Plan S:
+    (i) Autonomous agents, (ii) Those that can significantly accelerate AI research, (iii) Those that are good at persuading or manipulating people, (iv) Those with dangerous capabilities more generally, such as bioweapon assistance, (v) [Self-aware / situationally aware](https://theaidigest.org/self-awareness) neural networks.
+
+[^note-plan-s-8]: We analyze these dynamics much more in our [Covert AI Projects Supplement](https://ai-2040.com/supplements/covert-ai-projects#brendan-halstead-thomas-larsen). The supplement analyzes things from a Plan A perspective. The main difference is that in Plan S, covert projects will go much slower because there are no legal projects that are leaking algorithmic progress, and no risk of distillation.
+
+[^note-plan-s-9]: We think it’s at least better than plans B, C, and D, for example.
+
+[^note-plan-s-10]: Analogy: Suppose a bus finds itself driving off-road in the fog, at high speed. The passengers debate with the driver how dangerous this is and what is to be done about it. The driver says “You wanna get to your destination, don’t you?” It’s reasonable in this situation to reply “**First**, let’s stop the bus for a while, **then** let’s figure out how to proceed. We’ll need a plan for how to proceed eventually, but it’s unreasonable to barrel blindly through the fog while waiting for such a plan to be fleshed out.”
+
+[^note-plan-s-11]: Perhaps it would happen in a world devastated by climate change or pandemics or some other sort of civilizational catastrophe.
+
