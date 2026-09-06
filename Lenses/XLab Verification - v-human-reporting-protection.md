@@ -60,7 +60,7 @@ Beyond explicit statutory enactments, see the below _AI Whistleblowing Law:
 Best Practice Guide_ for a more comprehensive framework for effective
 implementation of whistleblower protections. The core idea is: "whistleblower rights must override confidentiality/nondisclosure agreements." — [AIWI/CARMA, Retaliation Protection](https://aiwi.org/ai-whistleblowing-law-best-practice/)
 
-\### [AI Whistleblowing Law: Best Practice Guide](https://aiwi.org/ai-whistleblowing-law-best-practice/)
+\### AI Whistleblowing Law: Best Practice Guide
 Abra Ganz and Karl Koch | AIWI and CARMA (2026)
 
   Read the Introduction and all seven recommendation sections.
@@ -79,7 +79,7 @@ Even if a whistleblower is incentivized to report, it doesn't matter if there
 are physical barriers preventing them from disclosing the report, from
 monitored devices to surveillance.
 
-\### [Whistleblowers](https://arxiv.org/html/2408.16074v2#Sx5.SSx1.SSSx2)
+\### Whistleblowers
 Wasil et al. (2024)
 
 Read the five proposals and the limitation that follows them.
