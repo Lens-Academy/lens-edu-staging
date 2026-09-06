@@ -15,7 +15,7 @@ split or reroute workloads to avoid scrutiny. The RAND reading examines these
 technical gaps; the Carnegie article asks whether broader controls can work
 across providers and jurisdictions.
 
-\### [Strategies and Detection Gaps in a Game-Theoretic Model of Compute Governance](https://www.rand.org/pubs/research_reports/RRA3686-1.html)
+\### Strategies and Detection Gaps in a Game-Theoretic Model of Compute Governance
 Moon, Vedula, Geneson, and Bar-on | RAND Corporation (2025)
 
 Read the following excerpts:
