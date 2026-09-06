@@ -3,7 +3,7 @@ id: 'e39bd85f-e2bf-4039-a3f1-f8f5291892b6'
 title: "Authorization, licensing, and control"
 tldr: "An off-switch for someone else's compute is only as acceptable as the answer to who holds the key, what happens when the licence server is down, and who reverses a mistake. Assemble a full authorization chain from twelve components and find which ones fail together."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on offline licensing, the twelve questions a policy designer must answer, Petrie's 2024 firmware-based design (author estimate, not deployment evidence), and why control authority is part of the mechanism. Ends with the build-the-authorization-chain open question. Check that the learner distinguishes components that measure from components that only authenticate, and names the common-mode failure if the manufacturer's root key is compromised."
-tags: [wip]
+tags: {--{"author":"AI","timestamp":1788700179353}@@[wip]--}{++{"author":"AI","timestamp":1788700179353}@@[]++}
 duration_minutes: 25
 ---
 #### Text
@@ -53,6 +53,20 @@ A technically sound off-switch can be politically unacceptable when its control 
 
 The choice is not simply “control or no control.” It is a distribution of authority, risk, and failure.
 
+Read how offline licensing could work and which technical and policy questions remain open.
+
+#### Article
+source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
+from:: ### 2.5 Offline Licensing ^2-5-offline-licensing
+to:: In certain scenarios, AI developers or governments may wish to implement licensing regimes for AI accelerators. For example, when exporting AI chips to countries with a heightened risk of theft of AI chips or onward re-export towards export-controlled countries, it may be desirable to introduce licenses that limit the benefits of such activities by restricting the chip’s functionality if it is stolen or diverted. More generally, this licensing mechanism would prevent the unlicensed use of AI chips, providing a flexible mechanism to monitor and control AI development and deployment in cases where the risks warrant such a scheme and where it is authorized by national regulation or corporate policies. Licenses could be implemented in the form of cryptographic keys that act as temporary passwords, unlocking a chip’s capacity to perform a specified amount of computational work, such as a set number of operations or memory transfers. Once this computational work has been performed, the license would expire, and the chip would shut down or operate only at a reduced capacity. The chip operator would then need to acquire a new license from a license provider to resume full use of the chip.
+
+#### Article
+source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
+from:: #### 2.5.4 Open research questions ^2-5-4-open
+to:: How should licenses be issued? This is primarily a policy question, not a technical question. However, technical researchers could enable more desirable policy choices, such as designing systems for multi-party provision of licenses that enable multilateral AI governance.
+
+#### Text
+content::
 \#### Activity: build the authorization chain
 
 #### Question: Open
