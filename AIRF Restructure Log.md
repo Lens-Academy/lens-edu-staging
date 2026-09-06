@@ -53,18 +53,19 @@ Nothing is blocking. Section 8 holds the dependency scan, which raises decisions
 
 | File | Change | Status |
 |---|---|---|
-| 2026-08-24 fix pass, 46 outcome files | Accept or reject pending suggestions | `todo` |
 | [[courses/AI Risk Fundamentals]] | Fix the `%%` block labelled "comment from student", which is facilitator-side analysis mislabelled as learner evidence | `todo` |
 
 ### Stage 1, structure
 
+Renumbering note: every module below shifts by one. Do the renaming and the content moves in one pass, and check inbound links each time, since three lens filenames carry module numbers (section 8).
+
 | File | Change | Status |
 |---|---|---|
-| [[courses/AI Risk Fundamentals]] | New unit boundaries, add intro module, add resources module | `todo` |
-| New intro module | `intro-form`, carries the Introduction and *Hard calls vs. easy calls* | `todo` |
-| [[modules/IABIED M1 Intro and Nonhuman Minds, Part 1]] | Introduction out, chapter 3 in | `todo` |
-| [[modules/IABIED M2 Nonhuman Minds, Part 2]] | Rebalance against the U2 split decision | `todo` |
-| [[modules/IABIED M3 Nonhuman Minds, Part 3]] | Chapter 6 in | `todo` |
+| [[courses/AI Risk Fundamentals]] | New unit boundaries, new module list, add intro module, add resources module | `todo` |
+| New M1, Introduction | `intro-form`. Carries the Introduction, *Hard calls vs. easy calls*, and the course overview moved out of the old M1 | `todo` |
+| [[modules/IABIED M1 Intro and Nonhuman Minds, Part 1]] | Becomes M2, Nonhuman Minds part 1. Introduction and orientation lens out, chapter 3 in | `todo` |
+| [[modules/IABIED M2 Nonhuman Minds, Part 2]] | Merges into the new M3 | `todo` |
+| [[modules/IABIED M3 Nonhuman Minds, Part 3]] | Becomes M3, Nonhuman Minds part 2, carrying chapters 4 to 6. Part 3 Welcome rewritten | `todo` |
 | [[modules/IABIED M4 One Extinction Scenario]] | Chapter 6 out, U3 opener and chapter 9 in | `todo` |
 | [[modules/IABIED M5 Facing The Challenge, Part 1]] | No structural change | `todo` |
 | [[modules/IABIED M6 Facing The Challenge, Part 2]] | No structural change | `todo` |
