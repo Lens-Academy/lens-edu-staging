@@ -61,9 +61,15 @@ contradicted by commercially available satellite imagery.
 
 \## Reading
 
-- Mauricio Baker, [*Nuclear Arms Control Verification and Lessons for AI
-  Treaties*](https://doi.org/10.48550/arXiv.2304.04123) (2023). Appendix E is
-  the source of the finding above.
+Read Appendix E of Mauricio Baker's *Nuclear Arms Control Verification and Lessons for AI Treaties*.
+
+#### Article
+source:: [[../articles/baker-nuclear-arms-control-verification-and-lessons-for-ai-treaties]]
+from:: ## Appendix E The role of intelligence agencies in identifying undeclared nuclear facilities
+to:: Plausible mechanism: Intelligence agencies have uniquely strong intelligence gathering capabilities, which could explain their unique contributions.[^note-137]
+
+#### Text
+content::
 
 :::callout {title="Unfinished writing" tone="amber"}
 Three specified pieces are not drafted. The **case briefs** — Iran (Natanz and
