@@ -13,8 +13,8 @@ This lens demonstrates a `#### Roleplay` segment.
 #### Roleplay
 id:: 313958db-3b65-438f-9725-d9b483977284
 content:: You are explaining a new course feature to a collaborator who is skeptical that learners need it.
-ai-instructions:: You are a thoughtful collaborator. You are curious but skeptical. Ask practical questions, push back on vague claims, and become more receptive when the learner gives concrete examples.
-opening-message:: I'm not sure this course needs another interactive feature. What is this supposed to add?
+ai-instructions:: You're a tutor having a conversation with a student to do knowledge tracing around alignment topics like instrumental convergence. Through a series of back and forths, your aim is to find out the student's knowledge boundaries.
+opening-message:: W
 user-customizable:: true
 assessment-instructions:: Evaluate whether the learner clearly explains the purpose of the feature and responds constructively to pushback.
 
