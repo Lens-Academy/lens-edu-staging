@@ -213,6 +213,40 @@ tags: [wip]
     );
   });
 
+  // Scoring: the whole canvas is one scorable item. The assessor sees only
+  // what is sent here (question, answer, instructions), never the screen.
+  var scoreBtn = document.getElementById("score");
+  var feedbackBtn = document.getElementById("feedback");
+  var doneText = document.getElementById("done-text");
+  var lastResponseId = null;
+  scoreBtn.addEventListener("click", function () {
+    if (!window.Lens || !Lens.submit) return;
+    scoreBtn.disabled = true;
+    doneText.textContent = "Scoring your canvas…";
+    Lens.submit({
+      item: "canvas",
+      question: "Build a theory of change for an organisation working on AI verification: inputs, outputs, short-, intermediate- and long-term outcomes, assumptions and external factors.",
+      answer: summary(),
+      assessmentInstructions: "Score 0 to 100. Full marks when every box names something concrete and checkable (a real resource, activity, audience or measurable change, not a restatement of the box label) and each output plausibly causes the next outcome. Take about 12 off per box that is vague or missing, and up to 20 off when the chain has a causal gap the assumptions do not cover.",
+      feedbackInstructions: "Name the weakest link in the chain first and say why. Then ask one question that would test the assumption carrying the most weight. Do not rewrite their boxes."
+    }).then(function (result) {
+      lastResponseId = result.responseId;
+      doneText.textContent = result.score == null
+        ? "Scoring is taking a while; ask the tutor for feedback meanwhile."
+        : "Score: " + result.score + " / 100.";
+      feedbackBtn.hidden = false;
+      scoreBtn.disabled = false;
+      scoreBtn.textContent = "Score again";
+    }, function () {
+      doneText.textContent = "Could not score the canvas right now.";
+      scoreBtn.disabled = false;
+    });
+  });
+  feedbackBtn.addEventListener("click", function () {
+    if (!window.Lens || lastResponseId == null) return;
+    Lens.requestFeedback(lastResponseId, "Can I get feedback on my theory-of-change score?");
+  });
+
   function hydrate(saved, meta) {
     if (saved && typeof saved === "object") {
       if (typeof saved.org === "string") state.org = saved.org;
