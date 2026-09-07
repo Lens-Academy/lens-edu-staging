@@ -3,7 +3,7 @@ id: 057f198a-b1ec-4035-90ab-bd041025880c
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-topic: "[[../Domains/11 Strategy/Decomposing AI risk]]"
+topic: "[[../Domains and Topics/11 Strategy/Decomposing AI risk]]"
 stage: intermediate
 ---
 
