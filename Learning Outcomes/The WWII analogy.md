@@ -5,7 +5,7 @@ reading-from: "beginning of chapter"
 reading-to: "…as was also true about World War II. But we don't know how else humanity could survive."
 authors:
   - Chris+Claude
-topic: "[[../Domains/10 Governance and Policy/International coordination]]"
+topic: "[[../Domains and Topics/10 Governance and Policy/International coordination]]"
 stage: beginner
 eval-results:
   content-sha: 734b92a1
