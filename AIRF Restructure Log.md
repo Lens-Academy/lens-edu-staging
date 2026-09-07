@@ -33,6 +33,11 @@ Recorded so they do not get re-argued. Each entry is the decision, then the reas
 
 **Threads we dropped.** Coda into chapter 13, dropped on a closer reading of what the Coda claims. Chapter 6 into chapter 12 on irreversibility, left untethered because chapter 6 has no outcome to anchor it and chapter 10 already carries that ground. *Fiction as argument* receives nothing, because it synthesises Part I rather than resting on any single piece of it.
 
+**Answering the note that moved chapter 6 out of U2 in the first place.** A CriticMarkup note at the foot of the U2 module records the original reasoning: chapter 6 was moved to the scenario module because it opens that unit and sets up the film, matching the book's own handoff, since chapter 6 ends with the story's first line. Our counter-argument, for the record rather than to delete the note:
+
+- The instrumental convergence lens now performs the same setup function at the head of U3, tied to a different learning outcome, and additionally serves as synthesis and recall of the previous unit's work. The handoff is preserved, by a different vehicle.
+- The flow from chapter 6's last lines into the story was already broken. The module made readers stop and litigate chapter 6's ideas through two learning outcomes, two pre-questions and two reading lenses before reaching the film. Moving the chapter to another unit does not break a continuity that the unit's own structure had already interrupted.
+
 ---
 
 ## 2. Decisions resolved on greenlight
