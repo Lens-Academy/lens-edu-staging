@@ -118,9 +118,11 @@ to:: your median should be roughly 10 years earlier than hers, all else equal: 2
 
 #### Question
 content::
-\## Give a number
+\## {--{"author":"Lauren's AI","timestamp":1788824490689}@@Give --}{++{"author":"Lauren's AI","timestamp":1788824490689}@@His number against yours
 
-Now you give a number: **given a trillion times more compute than was available in 2016, how likely is TAI?**
+You committed to ++}a number{--{"author":"Lauren's AI","timestamp":1788824490689}@@
+
+Now you give a number: **given a trillion times more compute than was available in 2016, how likely--}{++{"author":"Lauren's AI","timestamp":1788824490689}@@ before reading his. He says 90 percent, with an inside view near 99. Ajeya Cotra, whose model he++} is {--{"author":"Lauren's AI","timestamp":1788824490689}@@TAI?**--}{++{"author":"Lauren's AI","timestamp":1788824490689}@@arguing with, says 50.++}
 {>>{"author":"lauren (chrome@what)","timestamp":1787818724284}@@TODO: need to move this question earlier in the article, before he gives his answer, and put the rest of the article in a spoiler block. also need to be able to put a timer so people can intentionally think for at least a certain amount of time.<<}
 Note on **subjective probability**: we'll get into this in more detail later, but putting a probability on something that will happen only once is a bit of a subjective activity. One way to think about it: when asked for the probability of an event (such as TAI), consider all worlds you think could turn out to be possible. Then: in what percentage of the worlds you imagine does the event occur? That percentage is your probability.
 

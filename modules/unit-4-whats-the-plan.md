@@ -48,7 +48,13 @@ One disagreement runs through the unit and is adjudicated nowhere: The Ten Peopl
 the lab as where the solution lives; Aligned to Whom treats the lab, specifically its
 org chart, as where the threat lives. The Aligned to Whom framing points at the tension
 in passing; the closer lays it out in full. The course does not think that question is
-settled. The 90-minute meeting stages it. %%
+settled. The 90-minute meeting stages it.{++{"author":"Lauren's AI","timestamp":1788824485447}@@
+
+Live-cohort rule (2026-09-08): while a cohort is inside this unit, do not split,
+reorder, rename or remove lenses. Add new material only as a new lens appended
+at the end. Adding or removing a lens moves the scoring denominator overnight;
+a question inside an existing lens does not. Keep reading and tutor minutes
+accurate when content changes.++} %%
 
 # Submodule: The playbook
 
