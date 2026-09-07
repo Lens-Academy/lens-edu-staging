@@ -56,7 +56,7 @@ The actual learning content. A Lens combines:
 - Introductory text (context for the student)
 - An AI chat discussion (to check understanding and explore ideas)
 
-{++{"author":"Elias's AI","timestamp":1788764346016}@@### Link to a file, or copy it on purpose
+### Link to a file, or copy it on purpose
 
 Every file here can be used from more than one place. A course lists its modules by reference, a module lists its lenses with `source::`, and surveys are linked the same way. So when the same material belongs in a second course, link to the file that already exists.
 
@@ -70,7 +70,7 @@ The choice is per file, not per course. Re-cutting a course does not mean duplic
 
 A needless copy also forks the content for good. Every correction made to one side from then on is invisible to the other, and nobody can tell which one is current.
 
-++}#### Using templates
+#### Using templates
 See [[Obsidian Setup#Using Templates]]
 
 ---
