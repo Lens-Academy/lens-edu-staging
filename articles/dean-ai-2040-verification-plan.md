@@ -754,7 +754,17 @@ This is an ambitious verification scale, and it also relies on extremely good in
 
 **Recomputation budget:** 1%
 
-The source chart plots P(detected) against rogue deployment size (1 to 10M H100e, log scale) within 1 hour, 1 week and 1 month. [Chart in the source article](https://ai-2040.com/supplements/verification-plan).
+{--{"author":"Elias's AI","timestamp":1788793670690}@@The --}{++{"author":"Elias's AI","timestamp":1788793670690}@@*Table adaptation of the ++}source chart {--{"author":"Elias's AI","timestamp":1788793670690}@@plots --}{++{"author":"Elias's AI","timestamp":1788793670690}@@at its default setting (2034, packets of 100 H100e-hours, 1% recomputation budget). Values follow the [appendix](https://ai-2040.com/supplements/verification-plan#appendix-packet-based-verification) formula ++}P(detected) {--{"author":"Elias's AI","timestamp":1788793670690}@@against--}{++{"author":"Elias's AI","timestamp":1788793670690}@@= 1 − e^(−C · N_fake), where C is the recomputation budget and N_fake the number of++} rogue {++{"author":"Elias's AI","timestamp":1788793670690}@@packets. The source chart is interactive and also shows other years and packet sizes.*
+
+| Rogue ++}deployment size {--{"author":"Elias's AI","timestamp":1788793670690}@@(1 to 10M H100e, log scale) within--}{++{"author":"Elias's AI","timestamp":1788793670690}@@(H100e) | P(detected) within 1 hour | Within++} 1 {--{"author":"Elias's AI","timestamp":1788793670690}@@hour,--}{++{"author":"Elias's AI","timestamp":1788793670690}@@week | Within++} 1 {--{"author":"Elias's AI","timestamp":1788793670690}@@week and --}{++{"author":"Elias's AI","timestamp":1788793670690}@@month |
+| ---: | ---: | ---: | ---: |
+| ++}1 {--{"author":"Elias's AI","timestamp":1788793670690}@@month. [Chart in the source article](https://ai-2040.com/supplements/verification-plan).--}{++{"author":"Elias's AI","timestamp":1788793670690}@@| 0.01% | 1.7% | 6.9% |
+| 10 | 0.1% | 15% | 51% |
+| 100 | 1.0% | 81% | 99.9% |
+| 1K | 9.5% | ~100% | ~100% |
+| 10K | 63% | ~100% | ~100% |
+| 100K | 99.995% | ~100% | ~100% |
+| 1M | ~100% | ~100% | ~100% |++}
 
 ### 2035: Moving the datacenters to the ocean
 
