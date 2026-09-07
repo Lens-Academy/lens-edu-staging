@@ -3,7 +3,7 @@ id: 8b4f4622-06cc-4070-b22f-31eda7e9e9ed
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-topic: "[[../Domains/14 Effective Altruism/Effective altruism foundations]]"
+topic: "[[../Domains and Topics/14 Effective Altruism/Effective altruism foundations]]"
 stage: intermediate
 ---
 
