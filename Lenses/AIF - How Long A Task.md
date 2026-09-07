@@ -32,10 +32,11 @@ Their approach has three parts.
 content::
 \## What have they found (on AIs up to 2025)
 
-Two pre-read questions.
+{--{"author":"Lauren's AI","timestamp":1788772149195}@@Two--}{++{"author":"Lauren's AI","timestamp":1788772149195}@@Three++} pre-read questions.
 
 1. What would you expect is the number, in human-equivalent hours, that their method gave for AIs up to the end of 2025?
-2. What would you guess are the primary things that cause this number to change?
+2. What would you guess are the primary things that cause this number to change?{++{"author":"Lauren's AI","timestamp":1788772149195}@@
+3. METR can only test the models that labs let it test. What would you want to know about METR before you trusted its number? One or two sentences.++}
 {>>{"author":"lauren (chrome@what)","timestamp":1787828595204}@@this doesn't feel right to ask. we should have something earlier in the course that gets into outcomes. all the articles so far are on the core capability trajectory, but determining what that flowers into requires understanding a lot more stuff.<<}
 Your reasoning is at least as important as your number. Then scroll down to see the answer.
 {>>{"author":"lauren (chrome@what)","timestamp":1787828656913}@@we need the article to be spoiler-tagged or something?<<}

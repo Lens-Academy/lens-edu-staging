@@ -50,7 +50,9 @@ content::
 
 Without scrolling back, restate your ten-year model from memory, and then change it. What did this module actually move? Name at least one number or mechanism that was not in your day-zero version, and one thing you believed at the start that you now hold more loosely. If nothing moved, say that too, and say what you'd need to see to move.
 
-assessment-instructions:: The student wrote a day-zero model of the next ten years of AI at the start of this module, and has since done three lenses: a compute thought experiment, measured base rates for discontinuous progress, and a wedge about what a trend line licenses.
+{++{"author":"Lauren's AI","timestamp":1788772152146}@@max-time:: 8:00
+
+++}assessment-instructions:: The student wrote a day-zero model of the next ten years of AI at the start of this module, and has since done three lenses: a compute thought experiment, measured base rates for discontinuous progress, and a wedge about what a trend line licenses.
 
 Compare against nothing. You do not have their original text and should not ask for it. Restating from memory rather than scrolling back is deliberate: it is the skill being practiced.
 
