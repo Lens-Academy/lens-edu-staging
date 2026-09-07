@@ -1,7 +1,7 @@
 ---
 title: "Plan A FAQ"
 author:
-  - "AI 2040"
+  - "AI {--{"author":"Elias's AI","timestamp":1788769604614}@@2040"--}{++{"author":"Elias's AI","timestamp":1788769604614}@@Futures Project"++}
 source_url: "https://ai-2040.com/supplements/faq"
 published: {--{"author":"Elias's AI","timestamp":1788767489164}@@2026-09-05--}{++{"author":"Elias's AI","timestamp":1788767489164}@@2026-07-09++}
 created: 2026-09-05
