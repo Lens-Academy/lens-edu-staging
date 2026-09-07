@@ -21,7 +21,7 @@ Just to second on this where participants have found the workload to be quite in
 Also to talk briefly about the module construction, I concur that the contracted pacing has led to difficulties as the first 6 chapters of the book are the most dense, but leaving Chapter 6 for M3 also gives you a weird overhang where the discussion ends up fixating on Part II.
 M3 in general was quite weird since the prior format offered better interrogation of the underlying issues. The video scenario ends shy of the cosmic stakes framing of Chapter 9. I believe there was also no explicit naming of instrumental convergence in this version, which I take to be a critical blunder as I would say most of my participants did not infer this themselves.
 %%
-# Module: [[../modules/IABIED M1 Intro and Nonhuman Minds, Part 1]]
+# Module: [[../modules/IABIED M1 Introduction]]
 
 # Meeting: Introduction
 meeting-doc-template:: https://docs.google.com/document/d/1VbHf5ENp0fOjqATTMLbKYhhbUvPqvi7Ugs32THIum1g/edit
@@ -34,7 +34,7 @@ The three baseline scales (risk_seriousness / agency_belief / motivation) delibe
 LIVE as of 2026-08-18. The platform side shipped in #531/#532: course.ts reads facilitator-survey::, and core/surveys/native.py serves it as a kind='facilitator' survey that unlocks on meeting end alone, with no check-in requirement (the navigator DM is routed by group roster, not attendance).<<}
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]] {>>{"author":"Turner's AI","timestamp":1786479585670}@@Native port of the AI Risk Fundamentals Week 1 Google Form (baseline scales + buddy handle + BlueDot history), matching the AIF Unit 1 pattern. Meeting 1 gets this intake survey; meetings 2-5 get the generic AIRF Weekly Survey. The Discord-handle question is deliberately dropped: the platform already knows who is answering, which is the whole reason the native surveys avoid the identity-matching problem the Google forms had.<<}
 
-# Module: [[../modules/IABIED M2 Nonhuman Minds, Part 2]]
+# Module: [[../modules/IABIED M2 Nonhuman Minds, Part 1]]
 
 # Module: [[../modules/IABIED M3 Nonhuman Minds, Part 3]]
 

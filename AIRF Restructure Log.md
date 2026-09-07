@@ -64,7 +64,7 @@ Reference, not a stage. Done once, before execution. Found by scanning for phras
 
 | File | What breaks | Handled in |
 |---|---|---|
-| [[modules/IABIED M3 Nonhuman Minds, Part 3]], Part 3 Welcome | Visible text hands chapter 6 to the next module; `summary_for_tutor` says the same | Stage 1 and 4 |
+| [[modules/IABIED M3 Nonhuman Minds, Part 2]], Part 3 Welcome | Visible text hands chapter 6 to the next module; `summary_for_tutor` says the same | Stage 1 and 4 |
 | [[Learning Outcomes/Fiction as argument, not prediction]] | Rubric level 5 requires "M4's emotional work" and that "Chapters 7–9 already made the dynamics feel real". Chapter 9 is now read, not felt through the film. Already flagged C3 in the 2026-08-24 run | Stage 2 |
 | [[Lenses/IABIED - One Extinction Scenario (Video)]] | States it replaces chapters 7 to 9. Should be 7 and 8 | Stage 2 |
 | [[Lenses/IABIED - M4 Welcome]] | Reading list and hidden Chat segment assume chapters 7 to 9 plus Coda | Stage 4 |
@@ -279,7 +279,7 @@ Before review, run at least one live pass through:
 |---|---|---|---|---|
 | 2026-09 | Relabelled the structural-improvement comment from "student" to "student-to-navigator" | [[courses/AI Risk Fundamentals]] | It is facilitator-side analysis. Labelled as learner evidence it gets read as cohort feedback, which is how it was read once already | Direct, by Andreas |
 | 2026-09 | Slugs changed on five modules: `m1`→`u1`, `m4`→`u3`, `m5`→`u4`, `m6`→`u5`, `m7`→`what-next` | Five IABIED module files | Old slugs would silently point at different content after the restructure. Units are the more stable object than module numbers | **Pending suggestions.** Five separate ones to accept |
-| 2026-09 | **Corrected:** old M1 goes to `iabied-intro`, not `iabied-u1` | [[modules/IABIED M1 Intro and Nonhuman Minds, Part 1]] | Redistribute rather than merge (see below). Old M1 becomes the Introduction module | Direct, since it edited my own pending change |
+| 2026-09 | **Corrected:** old M1 goes to `iabied-intro`, not `iabied-u1` | [[modules/IABIED M1 Introduction]] | Redistribute rather than merge (see below). Old M1 becomes the Introduction module | Direct, since it edited my own pending change |
 | 2026-09 | Slugs on the two held modules: old M2 → `u1`, old M3 → `u2` | Two IABIED module files | Follows from the same decision | Pending suggestions |
 | 2026-09 | **Decision: redistribute content across the seven existing modules rather than creating an intro module and merging M2 into M3.** Old M1 becomes Introduction, old M2 becomes U1, old M3 becomes U2 | Plan-level | `Course Authoring` line 32: never change the id of already-published content, because learner progress is keyed on it. Redistributing creates and destroys no module ids. Merging would destroy one and mint one. It also removes the merge step entirely | Plan only |
 | 2026-09 | Archived three orphaned `Overview of Optional Resources` lenses to `_deprecated`, suffixed `- ORPHANED` | M1, M4, M5 variants | No live module referenced them. Each move reported **0 links rewritten**, which confirms it | **Direct.** `move` has no suggestion mode |
