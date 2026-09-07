@@ -788,6 +788,7 @@ For $N_{\text{fake}} = 1$ this gives $P(\text{catch}) = C$. To catch a single fa
 The Poisson formula is accurate whenever $N_{\text{fake}}$ is at least a few dozen and $C$ is small (say under 10%). For $N_{\text{fake}} = 100$, the exact required budget for 99% catch is 4.5%, vs Poisson's 4.6%, which is very close. For $N_{\text{fake}} = 1000$ the exact answer is 0.459%, vs Poisson's 0.46%. The two agree better as $N_{\text{fake}}$ grows. Things only diverge in the small-$N_{\text{fake}}$ corner, which is also exactly the corner where random sampling stops being useful and you have to recompute everything.
 
 So the practical takeaway: random sampling buys you a lot once you're catching attacks that span at least dozens of packets. To catch attacks below that, shrink packets (decrease $p$) so the same fake compute-work spans more packets.
+:::
 
 ### A.4 Worked Examples
 
