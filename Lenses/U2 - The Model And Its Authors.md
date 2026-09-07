@@ -54,7 +54,7 @@ This is a one-turn response.
 #### Article
 source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## AGI timelines forecasting methods
-to:: Our previous model with median parameters predicted superhuman coder
+to:: {--{"author":"Lauren's AI","timestamp":1788825284414}@@Our previous model with median parameters predicted superhuman coder--}{++{"author":"Lauren's AI","timestamp":1788825284414}@@possibility of time horizon doublings getting easier or harder at higher horizons++}
 
 #### Question
 content::
