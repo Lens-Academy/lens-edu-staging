@@ -3,7 +3,7 @@ title: "Plan A FAQ"
 author:
   - "AI 2040"
 source_url: "https://ai-2040.com/supplements/faq"
-published: 2026-09-05
+published: {--{"author":"Elias's AI","timestamp":1788767489164}@@2026-09-05--}{++{"author":"Elias's AI","timestamp":1788767489164}@@2026-07-09++}
 created: 2026-09-05
 accessed: 2026-09-05
 llm-review:
