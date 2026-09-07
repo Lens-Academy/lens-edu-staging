@@ -552,7 +552,17 @@ By default, these computational steps execute with randomness, but if they can b
 
 **Recomputation budget:** 1%
 
-The source chart plots P(detected) against rogue deployment size (1 to 10M H100e, log scale) within 1 hour, 1 week and 1 month. [Chart in the source article](https://ai-2040.com/supplements/verification-plan).
+{--{"author":"Elias's AI","timestamp":1788793665968}@@The --}{++{"author":"Elias's AI","timestamp":1788793665968}@@*Table adaptation of the ++}source chart {--{"author":"Elias's AI","timestamp":1788793665968}@@plots --}{++{"author":"Elias's AI","timestamp":1788793665968}@@at its default setting (2034, packets of 100 H100e-hours, 1% recomputation budget). Values follow the [appendix](https://ai-2040.com/supplements/verification-plan#appendix-packet-based-verification) formula ++}P(detected) {--{"author":"Elias's AI","timestamp":1788793665968}@@against--}{++{"author":"Elias's AI","timestamp":1788793665968}@@= 1 − e^(−C · N_fake), where C is the recomputation budget and N_fake the number of++} rogue {++{"author":"Elias's AI","timestamp":1788793665968}@@packets. The source chart is interactive and also shows other years and packet sizes.*
+
+| Rogue ++}deployment size {--{"author":"Elias's AI","timestamp":1788793665968}@@(1 to 10M H100e, log scale) within--}{++{"author":"Elias's AI","timestamp":1788793665968}@@(H100e) | P(detected) within 1 hour | Within++} 1 {--{"author":"Elias's AI","timestamp":1788793665968}@@hour,--}{++{"author":"Elias's AI","timestamp":1788793665968}@@week | Within++} 1 {--{"author":"Elias's AI","timestamp":1788793665968}@@week and --}{++{"author":"Elias's AI","timestamp":1788793665968}@@month |
+| ---: | ---: | ---: | ---: |
+| ++}1 {--{"author":"Elias's AI","timestamp":1788793665968}@@month. [Chart in the source article](https://ai-2040.com/supplements/verification-plan).--}{++{"author":"Elias's AI","timestamp":1788793665968}@@| 0.01% | 1.7% | 6.9% |
+| 10 | 0.1% | 15% | 51% |
+| 100 | 1.0% | 81% | 99.9% |
+| 1K | 9.5% | ~100% | ~100% |
+| 10K | 63% | ~100% | ~100% |
+| 100K | 99.995% | ~100% | ~100% |
+| 1M | ~100% | ~100% | ~100% |++}
 
 The concrete regime we imagine for the first few years of the deal is to still use network taps for evidence collection, and partial recomputation of randomly selected reproducible packets to verify correctness. The same high level approach as inference-only, with smaller and smaller packet sizes over time by moving the network taps to lower levels of the backend network.
 :::
