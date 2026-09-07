@@ -3,7 +3,7 @@ title: "Frontier AI Trends Report"
 author:
   - "AI Security Institute"
 source_url: "https://www.aisi.gov.uk/frontier-ai-trends-report"
-published: {--{"author":"Elias's AI","timestamp":1788762154919}@@2026-09-06--}{++{"author":"Elias's AI","timestamp":1788762154919}@@2025-12-18++}
+published: 2025-12-18
 created: 2026-09-06
 accessed: 2026-09-06
 llm-review:
@@ -13,7 +13,7 @@ llm-review:
   source:
     fetched: 2026-09-06
     kind: "live"
-description: {--{"author":"Elias's AI","timestamp":1788762155321}@@"The--}{++{"author":"Elias's AI","timestamp":1788762155321}@@"AISI's first public, evidence-based analysis of trends in frontier++} AI {--{"author":"Elias's AI","timestamp":1788762155321}@@Security Institute is a directorate--}{++{"author":"Elias's AI","timestamp":1788762155321}@@capabilities, drawing on two years++} of {--{"author":"Elias's AI","timestamp":1788762155321}@@the Department of Science, Innovation,--}{++{"author":"Elias's AI","timestamp":1788762155321}@@frontier model testing across cyber, chemistry++} and {--{"author":"Elias's AI","timestamp":1788762155321}@@Technology that facilitates rigorous research--}{++{"author":"Elias's AI","timestamp":1788762155321}@@biology, autonomy, and other domains critical++} to {--{"author":"Elias's AI","timestamp":1788762155321}@@enable advanced AI governance."--}{++{"author":"Elias's AI","timestamp":1788762155321}@@national security."++}
+description: "AISI's first public, evidence-based analysis of trends in frontier AI capabilities, drawing on two years of frontier model testing across cyber, chemistry and biology, autonomy, and other domains critical to national security."
 tags:
   - "article-importer"
 ---
@@ -327,7 +327,7 @@ However, they are currently unlikely to succeed in real-world conditions. We tra
 
 The highest-performing model from early 2023 achieved a success rate of less than 5% across 11 of our 20 RepliBench evaluations. By summer 2025, two frontier models had achieved a success rate of over 60% (Figure 16).
 
-![](https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6939e868e665e6216c3f6f13_{--{"author":"Elias's AI","timestamp":1788762154535}@@Figure%2016%20(1).webp--}{++{"author":"Elias's AI","timestamp":1788762154535}@@Figure%2016%20%281%29.webp++})
+![](https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6939e868e665e6216c3f6f13_Figure%2016%20%281%29.webp)
 
 Figure 16. Frontier model performance of open and closed-weight models on AISI’s self-replication evaluations over time. These 11 tasks are a subset of the 20 in our RepliBench paper and cover four threat models: obtaining weights, obtaining compute, replicating onto compute, and persisting onto compute. For more on open-weight models, see Section 7.
 

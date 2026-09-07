@@ -3,7 +3,7 @@ title: "Architecture Overview — Quick Start Guide"
 author:
   - "Nvidia"
 source_url: "https://docs.nvidia.com/attestation/quick-start-guide/latest/architecture.html"
-published: {--{"author":"Elias's AI","timestamp":1788762155946}@@2026-09-06--}{++{"author":"Elias's AI","timestamp":1788762155946}@@2026-08-01++}
+published: 2026-08-01
 created: 2026-09-06
 accessed: 2026-09-06
 llm-review:

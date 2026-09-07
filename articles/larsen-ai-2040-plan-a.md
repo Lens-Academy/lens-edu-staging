@@ -30,7 +30,7 @@ Add discussion note here:
 
 %%
 
-AI companies are racing to build AIs that are smarter than humans in every way. In [AI 2027](https://ai-2027.com/), we predicted that this would result in either extinction or irreversible concentration of power.{--{"author":"Elias's AI","timestamp":1788762182652}@@[1](https://ai-2040.com/footnotes#footnote-1)--}{++{"author":"Elias's AI","timestamp":1788762182652}@@[^note-1]++}
+AI companies are racing to build AIs that are smarter than humans in every way. In [AI 2027](https://ai-2027.com/), we predicted that this would result in either extinction or irreversible concentration of power.[^note-1]
 
 Plan A is our positive vision for what should happen instead.
 
@@ -39,21 +39,21 @@ In this scenario, humanity delays the development of superintelligence until 204
 :::callout {title="What is Plan A?" collapse="closed"}
 **Plan A is our positive vision for how humanity can avoid AI-driven existential catastrophe and reach a flourishing future.** It’s informed by conversations with experts at major U.S. frontier AI companies, direct experience at OpenAI, tabletop exercises, and discussions with policymakers, national security experts, and AI policy leaders. We recommend an international deal to avoid a dangerous race to superintelligence. The deal involves [total research transparency](https://ai-2040.com/supplements/transparency-plan) for AI R&D, which allows the nations of the world to understand what’s happening and [enforce guardrails](https://www.ai-2040.com/supplements/verification-plan). The result is multiple companies across multiple countries scaling slowly and safely together towards superintelligence, instead of racing each other in secrecy.
 
-**Plan A is primarily a recommendation, not a prediction.** This scenario is _not_ our best guess as to what the future will actually look like. Instead, it’s a vehicle for communicating and stress-testing our policy recommendations. While the _implementation_ of Plan A is a recommendation and not what we actually expect to happen, the _subsequent effects depicted_ are predictions.{--{"author":"Elias's AI","timestamp":1788762182951}@@[2](https://ai-2040.com/footnotes#footnote-2)--}{++{"author":"Elias's AI","timestamp":1788762182951}@@[^note-2]++}
+**Plan A is primarily a recommendation, not a prediction.** This scenario is _not_ our best guess as to what the future will actually look like. Instead, it’s a vehicle for communicating and stress-testing our policy recommendations. While the _implementation_ of Plan A is a recommendation and not what we actually expect to happen, the _subsequent effects depicted_ are predictions.[^note-2]
 
 In this AI 2040 scenario, Plan A is implemented successfully, albeit imperfectly and only in the nick of time.
 
-We contrast Plan A with 4 alternative plans (B, C, D, and S), which correspond to the main ways the US could respond (or not) to the challenges of superintelligence.{--{"author":"Elias's AI","timestamp":1788762183242}@@[3](https://ai-2040.com/footnotes#footnote-3)--}{++{"author":"Elias's AI","timestamp":1788762183242}@@[^note-3]++}
+We contrast Plan A with 4 alternative plans (B, C, D, and S), which correspond to the main ways the US could respond (or not) to the challenges of superintelligence.[^note-3]
 :::
 
 :::callout {title="Why did we write this?" collapse="closed"}
 **AI companies will probably succeed at their stated goal of building smarter-than-human AI systems within the next 1 to 10 years.**
 
-The industry has convinced itself that controlling superintelligent AI can be figured out on the fly, and thus has no remotely adequate plan. We think this situation is terrible and could easily get us all killed.{--{"author":"Elias's AI","timestamp":1788762183636}@@[4](https://ai-2040.com/footnotes#footnote-4)--}{++{"author":"Elias's AI","timestamp":1788762183636}@@[^note-4]++} We do not expect whoever “wins the race” to have much of a lead, and we do not expect them to unilaterally slow down to reduce existential risk.{--{"author":"Elias's AI","timestamp":1788762183942}@@[5](https://ai-2040.com/footnotes#footnote-5)--}{++{"author":"Elias's AI","timestamp":1788762183942}@@[^note-5]++} If this race continues,{--{"author":"Elias's AI","timestamp":1788762184250}@@[6](https://ai-2040.com/footnotes#footnote-6)--}{++{"author":"Elias's AI","timestamp":1788762184250}@@[^note-6]++} we do not expect humans to maintain effective control as their AIs become superintelligent.{--{"author":"Elias's AI","timestamp":1788762184557}@@[7](https://ai-2040.com/footnotes#footnote-7)--}{++{"author":"Elias's AI","timestamp":1788762184557}@@[^note-7]++}
+The industry has convinced itself that controlling superintelligent AI can be figured out on the fly, and thus has no remotely adequate plan. We think this situation is terrible and could easily get us all killed.[^note-4] We do not expect whoever “wins the race” to have much of a lead, and we do not expect them to unilaterally slow down to reduce existential risk.[^note-5] If this race continues,[^note-6] we do not expect humans to maintain effective control as their AIs become superintelligent.[^note-7]
 
-Moreover, even if the AI companies somehow align their AIs, the result will be an unprecedented concentration of power—that is, the result will be a situation where a tiny group of people, or possibly just a single individual, is effectively in control of the world’s only army of superintelligences for some months, and will be presented by said superintelligences with various options for how to proceed, some of which will _de facto_ amount to taking over the world.{--{"author":"Elias's AI","timestamp":1788762184925}@@[8](https://ai-2040.com/footnotes#footnote-8)--}{++{"author":"Elias's AI","timestamp":1788762184925}@@[^note-8]++}
+Moreover, even if the AI companies somehow align their AIs, the result will be an unprecedented concentration of power—that is, the result will be a situation where a tiny group of people, or possibly just a single individual, is effectively in control of the world’s only army of superintelligences for some months, and will be presented by said superintelligences with various options for how to proceed, some of which will _de facto_ amount to taking over the world.[^note-8]
 
-As best as we can guess, the CEOs of OpenAI, Anthropic, xAI, and Google DeepMind understand this and are proceeding anyway, perhaps because they think they are the lesser evil and will use their immense power responsibly, unlike Xi Jinping or rival CEOs.{--{"author":"Elias's AI","timestamp":1788762185291}@@[9](https://ai-2040.com/footnotes#footnote-9)--}{++{"author":"Elias's AI","timestamp":1788762185291}@@[^note-9]++}
+As best as we can guess, the CEOs of OpenAI, Anthropic, xAI, and Google DeepMind understand this and are proceeding anyway, perhaps because they think they are the lesser evil and will use their immense power responsibly, unlike Xi Jinping or rival CEOs.[^note-9]
 
 While we agree that it is generally correct to choose the lesser evil, we don’t think we should advocate for a strategy that has such a scarily high chance of leading to human extinction or global dictatorship. Instead, we wish to advocate for something that is actually good. If enough people do likewise, it can happen.
 
@@ -65,7 +65,7 @@ So, we wrote a scenario outlining that possible world.
 
 We think most AI policy proposals fall apart under [scenario scrutiny](https://blog.aifutures.org/p/scenario-scrutiny-for-ai-policy) —that is, if you try to write down a detailed and plausible scenario in which that proposal succeeds, you will find it difficult to do so, and you will realize the plan is less likely to work than it seemed, or has more unpleasant side-effects than its proponents acknowledged.
 
-Perhaps that’s why scenario scrutiny is so rare in AI policy. Everyone wants to say that their own favorite policies will have great consequences and that the policies of their rivals will have terrible consequences. Applying scenario scrutiny to their own favorite policies might surface uncomfortable issues with them; meanwhile, applying scenario scrutiny to their rival’s policies is a lot of work for little rhetorical gain.{--{"author":"Elias's AI","timestamp":1788762185591}@@[10](https://ai-2040.com/footnotes#footnote-10)--}{++{"author":"Elias's AI","timestamp":1788762185591}@@[^note-10]++}
+Perhaps that’s why scenario scrutiny is so rare in AI policy. Everyone wants to say that their own favorite policies will have great consequences and that the policies of their rivals will have terrible consequences. Applying scenario scrutiny to their own favorite policies might surface uncomfortable issues with them; meanwhile, applying scenario scrutiny to their rival’s policies is a lot of work for little rhetorical gain.[^note-10]
 
 We think the discourse would be improved if more AI policy proposals were subjected to scenario scrutiny. So we’re starting with our own, even though this opens us up to criticism. We hope critics will judge us against the existing state-of-the-art for plans to navigate the AI transition (if they can find any) and not against some hazy but pleasant fantasy where no one has to make any hard choices yet everything will probably be fine.
 
@@ -73,7 +73,7 @@ What of the immense difficulty of predicting the effect our policy would have in
 :::
 
 :::callout {title="AI timelines?" collapse="closed"}
-Plan A is our ambitious proposal for what to do, and we’d like to see something like it implemented soon because we are uncertain about how much time remains.{--{"author":"Elias's AI","timestamp":1788762185897}@@[11](https://ai-2040.com/footnotes#footnote-11)--}{++{"author":"Elias's AI","timestamp":1788762185897}@@[^note-11]++} But for purposes of writing a concrete scenario, we need a concrete timeline.
+Plan A is our ambitious proposal for what to do, and we’d like to see something like it implemented soon because we are uncertain about how much time remains.[^note-11] But for purposes of writing a concrete scenario, we need a concrete timeline.
 
 **The timeline of this scenario is:**
 
@@ -85,12 +85,12 @@ Plan A is our ambitious proposal for what to do, and we’d like to see somethin
     
 -   In 2035, we pause at top-human-expert level AI in order to maintain human control.
     
--   In 2040, we unpause and scale to superintelligence.{--{"author":"Elias's AI","timestamp":1788762186362}@@[12](https://ai-2040.com/footnotes#footnote-12)--}{++{"author":"Elias's AI","timestamp":1788762186362}@@[^note-12]++} (**Hence the title: AI 2040**)
+-   In 2040, we unpause and scale to superintelligence.[^note-12] (**Hence the title: AI 2040**)
     
 
 In our previous scenario, [AI 2027](https://ai-2027.com/), AI fully automated the process of building smarter AIs in 2027, leading to an intelligence explosion and superintelligence within the year. The two differences in this scenario are (1) the default timeline is now 2030, and (2) thanks to governance actions, generally-superhuman AIs first appear in 2040.
 
-**We changed the default timeline because we want our portfolio of scenarios to reflect our uncertainty about AI timelines.** AI 2027’s titular year was chosen because, at the time we started writing, Daniel thought there was roughly a 50% chance that things would go that fast or faster.{--{"author":"Elias's AI","timestamp":1788762186824}@@[13](https://ai-2040.com/footnotes#footnote-13)--}{++{"author":"Elias's AI","timestamp":1788762186824}@@[^note-13]++} At the time we started writing Plan A, 2030 was the corresponding year for Thomas. **Daniel currently thinks things will probably go somewhat faster than depicted in this scenario**; you can read more about our team’s views on timelines [here](https://blog.aifutures.org/p/q1-2026-timelines-update) and [here.](https://www.aifuturesmodel.com/)
+**We changed the default timeline because we want our portfolio of scenarios to reflect our uncertainty about AI timelines.** AI 2027’s titular year was chosen because, at the time we started writing, Daniel thought there was roughly a 50% chance that things would go that fast or faster.[^note-13] At the time we started writing Plan A, 2030 was the corresponding year for Thomas. **Daniel currently thinks things will probably go somewhat faster than depicted in this scenario**; you can read more about our team’s views on timelines [here](https://blog.aifutures.org/p/q1-2026-timelines-update) and [here.](https://www.aifuturesmodel.com/)
 
 We changed the governance actions because **this scenario is primarily a recommendation, not a prediction.** Conducting a full-speed intelligence explosion is wildly reckless and concentrates power to an extreme degree.
 :::
@@ -101,19 +101,19 @@ America has two workforces now. The first is people, 165 million of them. The se
 
 Most of their work is slop. But enough of it is good that people are paying ten billion dollars a month for AIs that can, in theory at least, do anything on a computer that an employee can.
 
-There is one job the AI companies want to automate more than any other—their own. They haven’t succeeded yet; no [recursive self-improvement](https://www.anthropic.com/institute/recursive-self-improvement) so far.{--{"author":"Elias's AI","timestamp":1788762187199}@@[14](https://ai-2040.com/footnotes#footnote-14)--}{++{"author":"Elias's AI","timestamp":1788762187199}@@[^note-14]++} But they seem to be getting closer, and they’re pulling up the ladder behind them: the strongest coding AIs refuse to help competitors with AI R&D.{--{"author":"Elias's AI","timestamp":1788762187535}@@[15](https://ai-2040.com/footnotes#footnote-15)--}{++{"author":"Elias's AI","timestamp":1788762187535}@@[^note-15]++} Even as the most bullish employees admit that things are taking a bit longer than planned, the skeptics notice that their usual dismissals are starting to ring hollow. Why exactly will AI never be able to do my job? What’s the barrier again?
+There is one job the AI companies want to automate more than any other—their own. They haven’t succeeded yet; no [recursive self-improvement](https://www.anthropic.com/institute/recursive-self-improvement) so far.[^note-14] But they seem to be getting closer, and they’re pulling up the ladder behind them: the strongest coding AIs refuse to help competitors with AI R&D.[^note-15] Even as the most bullish employees admit that things are taking a bit longer than planned, the skeptics notice that their usual dismissals are starting to ring hollow. Why exactly will AI never be able to do my job? What’s the barrier again?
 
-**Congress is starting to pay more attention.** They’ve long been hearing about AI: datacenters using too much water,{--{"author":"Elias's AI","timestamp":1788762187895}@@[16](https://ai-2040.com/footnotes#footnote-16)--}{++{"author":"Elias's AI","timestamp":1788762187895}@@[^note-16]++} chatbots encouraging suicide, [Mythos hacking](https://www.ibtimes.co.uk/anthropic-ai-breach-us-classified-systems-1804084) NSA systems—and of course, tech industry lobbyists warning that any whiff of regulation will make America immediately lose the race with China and spend the rest of history as a CCP tributary state.{--{"author":"Elias's AI","timestamp":1788762188186}@@[17](https://ai-2040.com/footnotes#footnote-17)--}{++{"author":"Elias's AI","timestamp":1788762188186}@@[^note-17]++}
+**Congress is starting to pay more attention.** They’ve long been hearing about AI: datacenters using too much water,[^note-16] chatbots encouraging suicide, [Mythos hacking](https://www.ibtimes.co.uk/anthropic-ai-breach-us-classified-systems-1804084) NSA systems—and of course, tech industry lobbyists warning that any whiff of regulation will make America immediately lose the race with China and spend the rest of history as a CCP tributary state.[^note-17]
 
 Now they step back and ask: Where are we going with this? What does the world look like five, ten, or fifteen years from now? Will there still be jobs? What if there aren’t?
 
 One question weighs especially heavily on their minds: **Who will control all these AIs?**
 
-Congress settles on an important part of the answer: **Probably not us.**{--{"author":"Elias's AI","timestamp":1788762188519}@@[18](https://ai-2040.com/footnotes#footnote-18)--}{++{"author":"Elias's AI","timestamp":1788762188519}@@[^note-18]++}
+Congress settles on an important part of the answer: **Probably not us.**[^note-18]
 
-They hold a series of tense hearings on AI. They read the 2016 OpenAI emails discussing how OpenAI was founded in order to prevent Demis Hassabis from [becoming dictator](https://futurism.com/the-byte/openai-emails-elon-musk-agi).{--{"author":"Elias's AI","timestamp":1788762188871}@@[19](https://ai-2040.com/footnotes#footnote-19)--}{++{"author":"Elias's AI","timestamp":1788762188871}@@[^note-19]++} But who is preventing Sam or Elon from becoming dictator? Congress is unsatisfied with existing responses.
+They hold a series of tense hearings on AI. They read the 2016 OpenAI emails discussing how OpenAI was founded in order to prevent Demis Hassabis from [becoming dictator](https://futurism.com/the-byte/openai-emails-elon-musk-agi).[^note-19] But who is preventing Sam or Elon from becoming dictator? Congress is unsatisfied with existing responses.
 
-The result of this wakeup is the AI Transparency Act of 2027, an omnibus bill that does many things, some good and some bad, but doesn’t fundamentally change the situation.{--{"author":"Elias's AI","timestamp":1788762189174}@@[20](https://ai-2040.com/footnotes#footnote-20)--}{++{"author":"Elias's AI","timestamp":1788762189174}@@[^note-20]++}
+The result of this wakeup is the AI Transparency Act of 2027, an omnibus bill that does many things, some good and some bad, but doesn’t fundamentally change the situation.[^note-20]
 
 ::::callout {title="Incremental AI Policy Wishlist"}
 Our main recommendation is to begin negotiating something like Plan A as soon as possible. But in this scenario, we depict Plan A happening imperfectly and only in the nick of time. So here is a list of less ambitious ideas that still help.
@@ -135,7 +135,7 @@ We give more detail in our [verification supplement](https://ai-2040.com/supplem
 :::
 
 :::callout {title="Limit AI R&D budgets" collapse="closed"}
-In 2026, big AI companies spend roughly half their compute budget on AI R&D (which includes training frontier models and also running large experiments.){--{"author":"Elias's AI","timestamp":1788762189495}@@[21](https://ai-2040.com/footnotes#footnote-21)--}{++{"author":"Elias's AI","timestamp":1788762189495}@@[^note-21]++} We could limit the fraction of compute spent on AI R&D. This would slow capabilities progress, giving the world a bit more time to react and prepare for each new wave of AI capabilities.{--{"author":"Elias's AI","timestamp":1788762189921}@@[22](https://ai-2040.com/footnotes#footnote-22)--}{++{"author":"Elias's AI","timestamp":1788762189921}@@[^note-22]++}
+In 2026, big AI companies spend roughly half their compute budget on AI R&D (which includes training frontier models and also running large experiments.)[^note-21] We could limit the fraction of compute spent on AI R&D. This would slow capabilities progress, giving the world a bit more time to react and prepare for each new wave of AI capabilities.[^note-22]
 :::
 
 :::callout {title="AI Compute Tracking" collapse="closed"}
@@ -149,7 +149,7 @@ High quality AI talent is important for almost any policy intervention. The US g
 
 ## 2028: AI on the Ballot ^2028-ai-on-the
 
-The 2028 election cycle is heated, as usual. AI is the biggest topic. The datacenters now under construction cost twice as much as the entire US military budget.{--{"author":"Elias's AI","timestamp":1788762190236}@@[23](https://ai-2040.com/footnotes#footnote-23)--}{++{"author":"Elias's AI","timestamp":1788762190236}@@[^note-23]++}
+The 2028 election cycle is heated, as usual. AI is the biggest topic. The datacenters now under construction cost twice as much as the entire US military budget.[^note-23]
 
 Most white-collar professions are seeing disruption like software engineering saw in 2026; such jobs now heavily involve managing AI agents. AI companies have industrialized the training process: Executives say “let’s move into \[profession\] this year” and then the company interviews professionals, buys data, creates training environments, etc. until their AIs get traction. Then the AIs rapidly improve as they are used more widely in the field and accumulate more real-world data.
 
@@ -159,7 +159,7 @@ AI experts warn that the [intelligence explosion](https://en.wikipedia.org/wiki/
 
 On the default path, the next presidential term will see AIs that are far beyond human level, created entirely by AIs, themselves created entirely by other AIs, without any human in the loop since several generations back. Will those AIs be obedient, aligned, etc.? Why? Who will control them if so? How exactly is all of this supposed to end well?
 
-Having put humanity on this path, the AI companies find it acceptable. But most people don’t. Forget thinking about his _legacy_ —the President is starting to think about what’ll happen to _him_ after he leaves office and the world gets transformed.{--{"author":"Elias's AI","timestamp":1788762190533}@@[24](https://ai-2040.com/footnotes#footnote-24)--}{++{"author":"Elias's AI","timestamp":1788762190533}@@[^note-24]++} Both presidential candidates keep getting asked what they’ll do about AI, and try out increasingly dramatic ideas on the campaign trail. The discourse bounces back and forth across all of the options displayed below, and more.
+Having put humanity on this path, the AI companies find it acceptable. But most people don’t. Forget thinking about his _legacy_ —the President is starting to think about what’ll happen to _him_ after he leaves office and the world gets transformed.[^note-24] Both presidential candidates keep getting asked what they’ll do about AI, and try out increasingly dramatic ideas on the campaign trail. The discourse bounces back and forth across all of the options displayed below, and more.
 
 Eventually the President and his protégé converge on one plan; the opposition candidate converges on another. Then it’s Election Day.
 

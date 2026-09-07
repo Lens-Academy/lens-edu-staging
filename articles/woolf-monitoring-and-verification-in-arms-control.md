@@ -1,9 +1,7 @@
 ---
 title: "Monitoring and Verification in Arms Control"
 author:
-  - {--{"author":"Elias's AI","timestamp":1788762157729}@@"Congressional Research Service"
-  - "Library of Congress"
-  - "USA"--}{++{"author":"Elias's AI","timestamp":1788762157729}@@"Amy F. Woolf"++}
+  - "Amy F. Woolf"
 source_url: "https://www.everycrsreport.com/files/20111223_R41201_2fcad05f9ca9463621634e2ac69d2e17cc2f5390.pdf"
 published: 2011-12-23
 created: 2026-09-06
