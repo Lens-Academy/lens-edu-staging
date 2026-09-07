@@ -4,7 +4,7 @@ discussion: <discord url>
 learning-outcome: "Given a claim that rests on how many credentialed people endorse it, state what the endorsement does and does not establish, and name the evidence that would actually settle the question."
 tags:
   - learning-outcome
-domain: "[[../Domains/Strategy]]"
+topic: "[[../Domains/11 Strategy/Decomposing AI risk]]"
 stage: intermediate
 eval-results:
   content-sha: 8ac9ac1c

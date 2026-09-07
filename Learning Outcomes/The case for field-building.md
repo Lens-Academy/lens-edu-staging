@@ -1,7 +1,7 @@
 ---
 id: a0dfd2b9-d6d9-4209-9079-958f9f9499f2
 learning-outcome: Explain the theory of change for AI safety field-building — why growing the people and institutions working on safety is a force-multiplier, resting on the talent/capacity-constraint premise
-domain: "[[../Domains/Capacity Building]]"
+topic: "[[../Domains/12 Capacity Building/Field-building]]"
 stage: intermediate
 eval-results:
   content-sha: 4d8625cc
