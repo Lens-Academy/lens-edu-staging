@@ -5,7 +5,7 @@ reading-from: "beginning of chapter"
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-topic: "[[../Domains/11 Strategy/One chance to get it right]]"
+topic: "[[../Domains and Topics/11 Strategy/One chance to get it right]]"
 stage: beginner
 eval-results:
   content-sha: 4b9b4ebf
