@@ -167,47 +167,31 @@ All eight run the same `Reading Assignment`, `Phase 1: Recall`, `Phase 2: Proces
 
 ---
 
-## 4. Order, and why
+## 6. Welcome lenses: the evidence behind the decision
 
-**Renaming before anything else in stage 1.** Three lens filenames carry module numbers and the modules renumber. Do the renames first, in one pass, checking inbound links, so later edits are made against stable paths.
+**Corrected inventory, twice over.** My first pass found two welcome lenses. My second found four patterns. Both undercounted. Every IABIED module opens with a `# Submodule: Welcome` (M3's is `# Submodule: Part 3 Welcome`). The slot is uniform; what sits inside it is not.
 
-**Structure before content.** Moving a chapter between modules changes which lenses are in scope. Writing recall segments first would mean rewriting them.
-
-**New content before recall segments.** Two of the ten threads terminate on outcomes that do not exist yet, both in U3.
-
-**Welcomes after structure.** A welcome that previews a unit cannot be written until the unit's contents are settled, and three of five units change.
-
-**Glossary last.** Stages 2 and 3 introduce new terms. A glossary written first would need reconciling against them.
-
----
-
-## 5. The welcome lens question
-
-**Corrected inventory.** My first pass found two welcome lenses and concluded from that. A fuller search found four different patterns across seven modules, which is a stronger case than the one I made.
-
-| Module | Pattern |
+| Module | What fills the Welcome submodule |
 |---|---|
-| M1 | Inline lens, id `c9e0e94a`. Not a module welcome at all: it is a **course** orientation, with tldr "Welcome to the book club", explaining the five units, the reading load and the Discord cohorts |
-| M3 | Inline `# Submodule: Part 3 Welcome` wrapping `# Lens: Part 3 Welcome`, id `caf48b0b`. The only one using a Submodule wrapper |
-| M4 | Standalone lens file [[Lenses/IABIED - M4 Welcome]] |
-| M5 | Standalone lens file [[Lenses/IABIED - M5 Welcome]] |
-| M2, M6, M7 | No welcome-named opener found. Confirm before stage 4 |
+| M1 | An inline lens that is not a module welcome at all: a **course** orientation, tldr "Welcome to the book club", covering the five units, the reading load and the Discord cohorts |
+| M2 | Inline lens |
+| M3 | Inline lens, under a differently-named wrapper, `Part 3 Welcome` |
+| M4 | `source::` pointing at the standalone file [[Lenses/IABIED - M4 Welcome]] |
+| M5 | `source::` pointing at the standalone file [[Lenses/IABIED - M5 Welcome]] |
+| M6 | Inline lens |
+| M7 | Confirm |
 
-So four patterns: a course orientation living inside a module, a Submodule-wrapped inline lens, two standalone files, and three modules with nothing. That is the staggering.
+This makes the case stronger rather than weaker, and changes what the work is. We are not adding welcomes to modules that lack them. We are making the contents of a slot that already exists on every module consistent, which is a smaller and safer change than replacing a structure.
 
-**Two of them are already wrong, in different ways.**
+**Two of the seven are already wrong, in different ways.**
 
 M4's is stale. Its visible learner text is one paragraph; below it a `%%` block holds a pedagogical note and a whole `#### Chat` segment briefing the tutor on Sable's weight-stealing and the virus cover story, and listing this week's reading as chapters 7, 8, 9 and the Coda. That predates the film replacement.
 
-M3's is the overhang, written down. Its visible text ends "can't we just stop it? That's where the next module begins", and its `summary_for_tutor` states that chapter 6 now opens the next module where it sets up the film. Both become false the moment chapter 6 refolds into U2. This is the clearest single artefact of the structural problem the restructure exists to fix, and it has to be rewritten regardless of what we decide about welcomes generally.
+M3's is the overhang, written down. Its visible text ends "can't we just stop it? That's where the next module begins", and its `summary_for_tutor` states that chapter 6 now opens the next module where it sets up the film. Both go false the moment chapter 6 refolds. Note which two drifted: the two in separate files, and the one under a non-standard wrapper.
 
-**Recommendation, unchanged but better supported: retire the standalone files and replace with two things.**
+**Decision.** Keep the `# Submodule: Welcome` slot on every module. Fill it inline everywhere, in the AIV style: `# Lens: Welcome` with `tldr::`, `summary_for_tutor::` and two or three sentences of framing. Retire the two standalone files and rename M3's wrapper to match the rest. Move M1's course orientation out to the new M1 as a course overview modelled on [[modules/XLab Verification Overview]], with a `:::callout` per unit, and restate the reading load, which changes.
 
-A course-level overview in the new M1, modelled on [[modules/XLab Verification Overview]]: a "what this course is about" section, then one `:::callout` per unit. M1's existing orientation lens is already most of this and should move into it rather than be rewritten from scratch. Note that its stated reading load per unit changes under the restructure.
-
-Then a short inline welcome in each module, in the AIV style: `# Lens: Welcome` with `tldr::`, `summary_for_tutor::` and two or three sentences. Inline is the load-bearing part. Both of the drifted welcomes are the ones that live in their own files or their own wrapper.
-
-**The argument against.** A course overview is read once and a learner arriving at unit 4 will not go back to it. That is what the inline welcomes are for, which is why the recommendation is both rather than either.
+**The argument against.** A course overview is read once and a learner arriving at unit 4 will not go back to it. That is what the inline welcomes are for, which is why the answer is both rather than either.
 
 ---
 
