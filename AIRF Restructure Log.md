@@ -234,7 +234,7 @@ Before review, run at least one live pass through:
 - The flipped film objection test.
 - `validate_content` on the course after each stage, not only at the end.
 
-## 7. Log
+## 8. Log
 
 | Date | Change | Files | Why | How it landed |
 |---|---|---|---|---|
