@@ -150,13 +150,16 @@ All eight run the same `Reading Assignment`, `Phase 1: Recall`, `Phase 2: Proces
 
 ### Stage 4, welcomes
 
+Every module already has a `# Submodule: Welcome`. The work is making its contents consistent, not adding the slot.
+
 | File | Change | Status |
 |---|---|---|
-| M1 orientation lens | Move to the new M1 as the course overview, restate the reading load | `todo` |
-| M3 Part 3 Welcome | Rewrite. Currently hands chapter 6 to the next module | `todo` |
-| [[Lenses/IABIED - M4 Welcome]] | Retire, replace with an inline welcome | `todo` |
-| [[Lenses/IABIED - M5 Welcome]] | Retire, replace with an inline welcome | `todo` |
-| M2, M6, M7 | Confirm what they currently open with, then add inline welcomes | `todo` |
+| New M1 | Receives the old M1 course orientation as a course overview, `:::callout` per unit, reading load restated | `todo` |
+| M2 (old M1) | Inline welcome, now framing chapters 1 to 3 | `todo` |
+| M3 | Rename the `Part 3 Welcome` wrapper to `Welcome`, rewrite for chapters 4 to 6. Currently hands chapter 6 to the next module | `todo` |
+| M4 | Retire [[Lenses/IABIED - M4 Welcome]], replace inline. Stale reading list and hidden Chat segment go with it | `todo` |
+| M5 | Retire [[Lenses/IABIED - M5 Welcome]], replace inline | `todo` |
+| M6, M7 | Confirm M7, then bring both to the same shape | `todo` |
 
 ### Stage 5, resources
 
