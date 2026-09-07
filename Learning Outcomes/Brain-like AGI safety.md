@@ -1,7 +1,7 @@
 ---
 id: 3f90d667-22c5-4c2f-89cf-f78d883454ba
 learning-outcome: Explain the brain-like AGI safety agenda (Byrnes) — the two-subsystem model, why such an AGI is dangerous by default, and the proposed fix of reverse-engineering the brain's innate reward system
-topic: "[[../Domains/3 Alignment/The alignment research landscape]]"
+topic: "[[../Domains and Topics/3 Alignment/The alignment research landscape]]"
 stage: advanced
 eval-results:
   content-sha: 114e09c9
