@@ -3,7 +3,7 @@ id: b4ea9db0-afaa-472a-b4f1-7bb5edb766f4
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-domain: "[[../Domains/Strategy]]"
+topic: "[[../Domains/11 Strategy/Timelines and forecasting]]"
 stage: intermediate
 ---
 

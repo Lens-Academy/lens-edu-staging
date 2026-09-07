@@ -3,7 +3,7 @@ id: a511a38f-f603-44c7-ae93-d13cffaa67b4
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-domain: none
+topic: none
 ---
 
 > **Not in the skill tree:** Not a priority for the AI-safety tree.

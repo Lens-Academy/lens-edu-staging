@@ -3,7 +3,7 @@ id: c94e404a-58d6-4539-ae74-9622229f6efb
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-domain: none
+topic: none
 ---
 
 > **Not in the skill tree:** EA-cause content from the partnership course.

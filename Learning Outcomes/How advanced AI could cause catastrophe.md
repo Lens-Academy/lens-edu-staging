@@ -3,7 +3,7 @@ id: 67747e63-d9f2-4f46-870d-e95b50d86e14
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-domain: "[[../Domains/Strategy]]"
+topic: "[[../Domains/11 Strategy/The core extinction argument]]"
 stage: intermediate
 ---
 

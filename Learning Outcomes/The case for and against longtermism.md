@@ -3,7 +3,7 @@ id: 8e35c52d-7243-47bf-92f9-b6a7fb59dbb2
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-domain: none
+topic: none
 ---
 
 > **Not in the skill tree:** Longtermism likely isn't the right motivational lens for AIS; parts may return as an optimistic lens.
