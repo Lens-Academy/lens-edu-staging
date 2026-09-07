@@ -3,7 +3,7 @@ id: a5cd2dd6-6351-4af7-9781-4b235dcbfa66
 learning-outcome: "Articulate at least one concrete action the student will take"
 tags:
   - work-in-progress
-topic: "[[../Domains/13 Taking Action/Your path into AI safety]]"
+topic: "[[../Domains and Topics/13 Taking Action/Your path into AI safety]]"
 stage: intermediate
 ---
 
