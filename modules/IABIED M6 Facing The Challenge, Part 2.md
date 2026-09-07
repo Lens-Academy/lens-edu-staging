@@ -1,6 +1,6 @@
 ---
 id: affbc92c-6a16-4b2a-9f70-9325e4083434
-slug: iabied-m6
+slug: {--{"author":"AI","timestamp":1788760289117}@@iabied-m6--}{++{"author":"AI","timestamp":1788760289117}@@iabied-u5++}
 title: "Facing the Challenge, Part 2"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings:
