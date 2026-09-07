@@ -23,5 +23,8 @@ This body is deliberately ordinary Markdown. When embedded in a Lens, the platfo
 - article typography
 - excerpt boundaries and controls
 - article media treatment
+- widgets embedded in the article body, like the one below
+
+![[../widgets/ai-2040-deal-timeline]]
 
 General authored-content features such as hidden text, Lens notes, footnotes, callouts, and math are demonstrated in the separate **Authored content features demo** Lens.
