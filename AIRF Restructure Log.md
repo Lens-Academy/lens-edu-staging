@@ -13,7 +13,7 @@ Git records what changed. This file records why, what it depended on, and what w
 
 **Working practice.** Edits to files we did not write go in as suggestions for review, never as overwrites. New files we author can be written directly. Each entry in section 8 should say which of the two it was, so nothing lands silently.
 
-**Prior art we cannot read.** There is an existing `Lens/base/IABIED/IABIED Course Build Notes` directory containing a module build algorithm, per-module decision logs, an example module file, and specs including one for a "Supplementary Resources Lens (the 'Overview of Optional Resources' Lens in the Dive Deeper submodule)". That last one bears directly on stage 5. The relay key cannot open any of it. Someone with access should check it before stage 5 is designed, so we follow the existing spec rather than reinvent it.
+**Prior art we are not using.** There is a `Lens/base/IABIED/IABIED Course Build Notes` directory containing a module build algorithm, per-module decision logs and a spec for a "Supplementary Resources Lens". The relay key cannot open it. Decision: ignore it. The live modules were presumably built from those notes and have moved on since, so the modules are the better reference, and [[AI Guide/Course Authoring]] is the authority for how to write. Noted only so nobody later thinks it was missed.
 
 ---
 
