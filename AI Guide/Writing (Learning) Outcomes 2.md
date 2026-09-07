@@ -17,7 +17,7 @@ This guide has two parts:
 ---
 id: '<learning-outcome-uuid>'
 learning-outcome: <observable capability description>
-domain: "[[../Domains/<domain>]]"
+topic: "[[../Domains/<N> <Domain>/<Topic>]]"
 stage: beginner
 requires:
   - "[[Other prerequisite LO]]"
@@ -60,7 +60,7 @@ A test may contain only gradable response segments and roleplays:
 7. Write `assessment-instructions::` for every test item. Define observable evidence for a defensible 0 to 100 score. State which elements are load-bearing, what partial performance looks like, what alternative reasoning is acceptable, and what should not be penalized. Grade reasoning, not agreement.
 8. Add `feedback-instructions::` when the learner should receive tutor feedback. Keep feedback guidance out of `assessment-instructions::`: assessment decides the score; feedback decides what the tutor says.
 9. Check practice alignment. The module must teach and let learners practise every capability the test grades, with feedback before the test. Practice should exercise the same skill without copying the test answer.
-10. Add filename and metadata. Filename is learner-visible: a unique, course-independent noun phrase of 2 to 6 words, sentence case, with no course prefix. Add stable UUIDs for the learning outcome, test, and every response segment. Add `domain:`, `stage:`, and genuine `requires:` links when the LO belongs in the skill tree.
+10. Add filename and metadata. Filename is learner-visible: a unique, course-independent noun phrase of 2 to 6 words, sentence case, with no course prefix. Add stable UUIDs for the learning outcome, test, and every response segment. Add `topic:`, `stage:`, and genuine `requires:` links when the LO belongs in the skill tree.
 11. Add suggested lenses only when useful. They are author-facing candidates; the platform does not import them automatically. The module explicitly determines which teaching lenses appear before the LO test.
 12. Add the LO to the right module or submodule. Run `validate_content` with `accept_drafts: true`.
 13. Spawn every validation agent below with its exact instructions, the LO file, its module, its teaching lenses and sources, and the course context. Each agent judges independently and never edits.
@@ -206,7 +206,7 @@ Check current Lens syntax and behavior, using [[Course Authoring]] and [[../Lens
 7. Test contains only gradable questions or roleplays. No Text, Chat, Article, Video, Rating, ungraded response, or bare legacy Question.
 8. Every Open and Ranking item has `assessment-instructions::`; Choice has at least one `[x]`; FillBlank has at least one graded blank; Roleplay is gradable.
 9. Question fields and syntax match canonical response-segment reference.
-10. `domain:`, `stage:`, and `requires:` are valid when present. Prerequisites are sparse and genuine because they gate locked status.
+10. `topic:`, `stage:`, and `requires:` are valid when present. Prerequisites are sparse and genuine because they gate locked status.
 11. Suggested lenses use relative wikilinks and are clearly author-facing.
 12. Module imports LO in intended module/submodule and places teaching lenses before generated test.
 13. Draft uses `wip`; production module does not reference wip LO.

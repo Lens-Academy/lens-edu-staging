@@ -1,7 +1,7 @@
 ---
 id: '3d3c4314-a6dd-4f39-bb26-0b772a1865e6'
 learning-outcome: "Given a stated theory of change, identify where outputs are mislabelled as outcomes, where a link is not an if-then claim, and which unstated assumptions the chain depends on, and say what would have to be observed to know whether a link held."
-domain: "[[../Domains/Strategy]]"
+topic: "[[../Domains/11 Strategy/Theories of change]]"
 stage: intermediate
 authors:
   - Elias+Claude
