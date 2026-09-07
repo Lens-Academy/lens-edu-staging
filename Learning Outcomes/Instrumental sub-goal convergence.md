@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-topic: "[[../Domains/3 Alignment/Instrumental convergence and power-seeking]]"
+topic: "[[../Domains and Topics/3 Alignment/Instrumental convergence and power-seeking]]"
 stage: beginner
 requires:
   - "[[Goals and instrumental convergence]]"

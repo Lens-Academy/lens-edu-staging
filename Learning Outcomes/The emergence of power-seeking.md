@@ -2,7 +2,7 @@
 id: 7d1b910a-6540-4923-b764-f7a7570971fd
 discussion: <discord url>
 learning-outcome: Participants can state the agency, motivation, and incentive prerequisites for AI power seeking in instrumental convergence models and explain how power-seeking behavior can arise from these prerequisites within such models. 
-topic: "[[../Domains/3 Alignment/Instrumental convergence and power-seeking]]"
+topic: "[[../Domains and Topics/3 Alignment/Instrumental convergence and power-seeking]]"
 stage: intermediate
 requires:
   - "[[Goals and instrumental convergence]]"
