@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-topic: "[[../Domains/1 Artificial Intelligence/Machine advantages]]"
+topic: "[[../Domains and Topics/1 Artificial Intelligence/Machine advantages]]"
 stage: beginner
 eval-results:
   content-sha: 0417e790
