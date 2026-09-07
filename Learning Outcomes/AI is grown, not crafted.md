@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Artificial Intelligence]]"
+topic: "[[../Domains/1 Artificial Intelligence/Grown, not crafted]]"
 stage: beginner
 eval-results:
   content-sha: 98360650

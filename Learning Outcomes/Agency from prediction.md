@@ -2,7 +2,7 @@
 id: 0ae0c651-8f39-4187-8f5f-594abbc7978a
 discussion: <discord url>
 learning-outcome: Participants can explain the “Pythia” argument for how agency can emerge from advanced prediction
-domain: "[[../Domains/Agent Foundations]]"
+topic: "[[../Domains/4 Agent Foundations/Agency]]"
 stage: intermediate
 requires:
   - "[[A causal definition of agency]]"

@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Alignment]]"
+topic: "[[../Domains/3 Alignment/You don't get what you train for]]"
 stage: beginner
 requires:
   - "[[AI is grown, not crafted]]"

@@ -1,7 +1,7 @@
 ---
 id: eaa7fe83-fbab-4aaa-9372-de7e320929df
 learning-outcome: Understand the basic decomposition of risks into AI misalignment, misuse, power grabs, and others
-domain: "[[../Domains/Strategy]]"
+topic: "[[../Domains/11 Strategy/Decomposing AI risk]]"
 stage: intermediate
 eval-results:
   content-sha: b061cacd
