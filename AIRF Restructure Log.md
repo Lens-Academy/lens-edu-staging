@@ -153,26 +153,26 @@ No module is created, merged or retired. All seven files persist and only their 
 | Module slugs, all seven | `iabied-intro`, `iabied-u1` to `iabied-u5`, `iabied-what-next` | `done` |
 | Three `IABIED - Overview of Optional Resources M1 / M4 / M5` lenses | Orphaned. Archived to `_deprecated` | `done` |
 
-**1b. Filenames.** Three no longer describe their contents. `move` rewrites inbound links, including the course file's `# Module:` links.
+**1b. Filenames. Done.** `move` rewrote all inbound links, including the course file's `# Module:` links, verified after the fact.
 
 | From | To | Status |
 |---|---|---|
-| `IABIED M1 Intro and Nonhuman Minds, Part 1` | `IABIED M1 Introduction` | `todo` |
-| `IABIED M2 Nonhuman Minds, Part 2` | `IABIED M2 Nonhuman Minds, Part 1` | `todo` |
-| `IABIED M3 Nonhuman Minds, Part 3` | `IABIED M3 Nonhuman Minds, Part 2` | `todo` |
+| `IABIED M1 Intro and Nonhuman Minds, Part 1` | `IABIED M1 Introduction` | `done` |
+| `IABIED M2 Nonhuman Minds, Part 2` | `IABIED M2 Nonhuman Minds, Part 1` | `done` |
+| `IABIED M3 Nonhuman Minds, Part 3` | `IABIED M3 Nonhuman Minds, Part 2` | `done` |
 
-**1c. Frontmatter.** `title` and `readings` on each of the four modules that change, plus `intro-form` on M1. M1 also carries a `discussion` Discord channel distinct from the one M2 to M7 share; decide whether that channel belongs to the intro module or should move with chapters 1 and 2.
+**1c is folded into 1d and no longer exists as a separate step.** It was going to change `title` and `readings` ahead of the content moves, which would have left three modules whose frontmatter described contents they did not yet have. That is the same drift this project exists to remove. Frontmatter and content change together, per module.
 
-**1d. Content moves.** Whole `# Submodule:` blocks, each carrying its `add_to_ai_context`, outcome refs, lens refs, Dive Deeper index and hidden QA imports.
+**1d. Content and frontmatter, one module at a time.** Whole `# Submodule:` blocks move, each carrying its `add_to_ai_context`, outcome refs, lens refs, Dive Deeper index and hidden QA imports. `title` and `readings` change in the same edit.
 
-| Block | From | To |
-|---|---|---|
-| `Ch1 - Intelligence` | M1 | M2 |
-| `Ch2 - Grown, not crafted` | M1 | M2 |
-| `Ch4 - You Don't Get What You Train For` | M2 | M3 |
-| `Ch6 - We'd Lose` | M4 | M3 |
+| Module | Blocks in | Blocks out | New title | New readings |
+|---|---|---|---|---|
+| M1 | none | `Ch1 - Intelligence`, `Ch2 - Grown, not crafted` | Introduction | Introduction only |
+| M2 | Ch1, Ch2 from M1 | `Ch4 - You Don't Get What You Train For` | proposed: Grown, Not Crafted | Ch 1, 2, 3 |
+| M3 | Ch4 from M2, `Ch6 - We'd Lose` from M4 | none | proposed: We'd Lose | Ch 4, 5, 6 |
+| M4 | none | Ch6 | unchanged | Coda; Ch 9 added in stage 2 |
 
-Net result: M1 keeps Welcome and Ch0. M2 becomes Ch1, Ch2, Ch3. M3 becomes Ch4, Ch5, Ch6. M4 loses Ch6 and later gains the U3 opener and Ch9 in stage 2. M5, M6 and M7 are untouched.
+M5, M6 and M7 are untouched. Titles are display-only and easy to change later; the two marked "proposed" are suggestions, not decisions.
 
 Do not strip the Obsidian comment block in M3's welcome: it holds drafted framing for chapter 6 from when the chapter lived there, and chapter 6 is coming back.
 
