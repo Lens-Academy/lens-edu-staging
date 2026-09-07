@@ -151,7 +151,10 @@ Do the slug changes first, before any content edits (section 3).
 | [[Learning Outcomes/Instrumental sub-goal convergence]] | De-orphan, rewrite the test to pass B1 | `todo` |
 | [[Learning Outcomes/Goals and instrumental convergence]] | Check against the above, decide which is used | `todo` |
 | [[Learning Outcomes/The core extinction argument]] | `requires` points at *Why we'd lose*, which this course never teaches. Repoint at the chapter 6 pair. Test block is empty | `todo` |
-| [[Lenses/IABIED - One Extinction Scenario (Video)]] | Flip the objection test: the brief currently names the three mechanisms to the tutor, the learner should name them | `todo` |
+| [[Lenses/IABIED - One Extinction Scenario (Video)]] | Flip the objection test: the brief currently names the three mechanisms to the tutor, the learner should name them. Also states it replaces chapters 7 to 9; should be 7 and 8 | `todo` |
+| [[Learning Outcomes/Fiction as argument, not prediction]] | Rubric level 5 requires "M4's emotional work" and that chapters 7 to 9 made the dynamics feel real. Rewrite for a chapter 9 that is read rather than watched, and strip the module label while there | `todo` |
+| [[Learning Outcomes/Goal conflict as a physical fact]] | A chapter 7 outcome not used by this course. **Decide:** import it to U3, where chapter 7 currently carries nothing, or leave it out to keep U3 light. Not a default yes | `todo` |
+| [[Learning Outcomes/Indifference, not malice]] | Not used by this course; belongs to the Fundamental Difficulties modules. Its "M3 goal-space argument" label is a landmine but fixing it is an edit to another course's live content. **Hand off rather than fix.** Raise it with that course's owner | `todo` |
 
 ### Stage 3, recall segments
 
