@@ -373,6 +373,7 @@ In order to balance the benefits of ZDR (AI users having strong privacy guarante
 | Total ZDR | 100% | There are very aggressive classifiers, refusals, anti-jailbreaking and models that are not capable in high-risk domains (e.g., AI R&D). | No | 100K H100e |
 | Probabilistic ZDR | 99.9%(Random sampling, goes to transparent public database if flagged as high-risk by classifiers) | Random sampling that goes to classifiers and to transparent public database if flagged as high-risk | Yes | 100M H100e |
 | No ZDR | Variable based on classifiers (Random sampling, goes to transparent public database if flagged as high-risk by classifiers) | Normal classifier, refusals, unlearning etc. mitigations, and compression / distillation mitigations. | Yes | 100B H100e |
+:::
 
 ### August - September 2029: Inference-only ready on 95% of world compute
 
@@ -382,6 +383,7 @@ With several of the largest compute owners joining the deal over the summer, 95%
 
 In both Canada and Mongolia, mutually constructed datacenters come online at around 1GW in Canada and 2GW scale in Mongolia by September (around 2% of world compute) scaling to around 15% of global compute by the end of the year. Companies are allowed to start hosting compute in these clusters and bid over space as it comes online. Initially, only very small experiments get approved and there is red teaming and iteration on the verification and security measures to test and improve their efficacy.
 
+:::collapse
 #### An overview of possible verification approaches.
 
 Existing work on AI verification ([Baker et. al.](https://arxiv.org/abs/2507.15916), [Scher et. al.](https://arxiv.org/abs/2506.15867), [Harack et. al.](https://aigi.ox.ac.uk/publications/verification-for-international-ai-governance/), [Cankaya et. al.](https://aigi.ox.ac.uk/wp-content/uploads/2026/04/Fingerprinting_All_AI_Cluster_IO.pdf)) introduces many concepts and proposals that could be leveraged or developed to perform R&D verification.
@@ -411,8 +413,10 @@ Five key verification metrics we care about include:
     
 
 What verification solution to choose will likely have complex tradeoffs between these metrics. Our current best guess is to primarily rely on on-path information collection (i.e., network taps) and then partial recomputation as the verification algorithm, since it seems most likely to be robustly scalable to extremely high coverage and confidence.
+:::
 
-Key ingredients to any verification approach that we will assume are pursued.
+:::collapse
+#### Key ingredients to any verification approach that we will assume are pursued.
 
 Drawing on previous AI verification work ([Baker et. al.](https://arxiv.org/abs/2507.15916), [Scher et. al.](https://arxiv.org/abs/2506.15867), [Harack et. al.](https://aigi.ox.ac.uk/publications/verification-for-international-ai-governance/), [Cankaya et. al.](https://aigi.ox.ac.uk/wp-content/uploads/2026/04/Fingerprinting_All_AI_Cluster_IO.pdf)) we think there should be many layers of defense in any verification approach. In other parts of this supplement we typically focus on the verification approach that we think can do the heaviest lifting, but we think many other measures will also be necessary or at the very least helpful, including:
 
@@ -421,6 +425,7 @@ Drawing on previous AI verification work ([Baker et. al.](https://arxiv.org/abs/
 -   **Human-based methods.** Whistleblower programs, interviews of personnel, and embedded auditors could go a long way in uncovering large-scale violations, especially early on. We don't rely on these as load-bearing in any of our proposals, but we see them being very useful supplements, particularly during the early stages before more robust technical mechanisms are ready to come online.
     
 -   **Mutually trusted manufacturing and supply chain security measures.** Many verification mechanisms will depend on hardware, e.g., network taps, recomputation servers, tamper-evident enclosures, etc., actually being what they claim to be. This creates a desire for mutual verification of the manufacturing and supply chain for verification hardware itself. Harack et al. note that off-chip mechanisms in particular might be mutually verified through non-invasive downstream tests or cooperative production at trailing-node fabs. There's also the promising idea of sidestepping the mutual trust problem in some areas with synchronized unilateral checks: [Cankaya](https://nacicankaya.substack.com/p/catching-misreporting-about-ml-hardware-bd2) proposes using passive optical fiber splitters (no digital logic, just fused glass) so both parties can independently observe network traffic without needing to trust the other's hardware, combined with unilaterally trusted devices to independently implement their own verification.
+:::
     
 
 ### Early 2030: Full R&D verification underway
@@ -433,7 +438,8 @@ The high level capability schedule we recommend is to scale to the maximum capab
 
 But even with a desired high level capability schedule in mind it may be hard to actually enforce this level of capabilities progress, especially to the extent that capabilities progress is unpredictable from inputs (e.g., compute), hard to measure, or fast paced by default. Our best guess is that harsh compute caps, and then a mixture of quality ad-hoc rules will be sufficient, as explained in more detail in the below box.
 
-Research Titration: How to control the speed of R&D progress?
+:::collapse
+#### Research Titration: How to control the speed of R&D progress?
 
 This part of the plan ultimately relies on regulatory competence on what is likely to be a thorny, complex, unpredictable problem of deciding what speed is the correct speed to titrate research to. This is therefore a weaker part of the plan that we are worried about, and hope that future work could improve on the ideas of how to navigate it well. Ultimately, this is one of the core reasons that we recommend Total Research Transparency, because we think it can help there be more accurate and effective regulatory decisions. We do think there are some promising approaches that tradeoff between requiring less regulatory competence, and being a more accurate proxy for the research titration goal being attempted. These two concepts we’ll refer to as:
 
@@ -454,6 +460,7 @@ We highlight a few approaches below, and roughly where we think they fall on thi
     
 
 *Figure: Research Titration Approaches: research titration approaches plotted by ease of implementation against regulatory accuracy. Suggested progression: compute caps (about 2030), then human-interpretable requirement, quality ad-hoc rules, and safety-case burden of proof (about 2035).* [View the original figure in the source article](https://ai-2040.com/supplements/verification-plan).
+:::
 
 With a particular set of rules on research in place, there is a separate problem of enforcing these rules are actually followed. We can divide the problem of enforcing the R&D rules into two parts:
 
@@ -464,7 +471,8 @@ With a particular set of rules on research in place, there is a separate problem
 
 Our view is that workload verification is solvable in a similar way to what we discussed previously (evidence collection via network taps, and then partial recomputation of randomly selected reproducible packets), whereas workload approval will be closely tied to the form of AI R&D rules that are in place (e.g., are they just experiment compute caps? Are there specific banned techniques? Are there specific required techniques?) and our overall baseline proposal for approval is for this to just be manually carried out by teams of auditors in the R&D clusters.
 
-**Workload Approval.**
+:::collapse
+#### Workload Approval.
 
 The core difficulty here is that it might be unclear whether the workload follows the rules, especially as the rules are more ad-hoc. Also, it might be possible for AI companies to do adversarial attacks, like trying to encode a non-compliant workload inside a workload that looks compliant on the surface. As the regime progresses and they have more and more compute under mutual verification, attacks like this that exploit tiny percentages of the total compute for a non-compliant purpose might become significant.
 
@@ -478,10 +486,12 @@ Possible mitigations we can think of are:
     
 
 A potential overall regime to use is to maintain ‘white’ lists of code and data that has been vetted and approved to be used, and/or ‘black’ lists of code/data that is banned, and/or ‘gold’ lists of techniques that are required on every workload of a certain type. Then the workload approval problem can be reduced to simply checking against these lists in order to approve or deny a workload. It might be drastically harder to implement a covertly rogue workload using only whitelisted code, but it also might just punt the problem to whatever the process is for populating these lists. At least this might help with making workload approval a more transparent process that companies and even the broader public can contribute to (at least on everything that is publicly available, which later into the deal might exclude some internally discovered algorithms that there is an attempt to keep secure through the embargo mechanism we describe in our transparency proposal).
+:::
 
 ![](https://ai-2040.com/verification-plan/image9.png)
 
-**Workload Verification.**
+:::collapse
+#### Workload Verification.
 
 We also mentioned multiple different types of evidence collection or verification that might be used. Our guess is that in order to reach extremely high levels of assurance, which will be increasingly necessary in Plan A (more on this later), a reproducibility mandate, combined with complete (and increasingly granular) on-path evidence collection, paired with a partial recomputation based verification algorithm, will be a viable approach. That being said, we are not confident that another approach (e.g., using low latency challenges and validity checks) might not be able to reach the same levels of assurance at lower costs or higher levels of assurance at equal costs. For the purposes of making the case that the verification problem will be viable, we will talk about the complete (and increasingly granular) on-path evidence collection with partial recomputation based verification algorithm.
 
@@ -498,6 +508,7 @@ By default, these computational steps execute with randomness, but if they can b
 *Figure: Catching a rogue internal deployment: P(detected) against rogue deployment size (1 to 10M H100e, log scale), within 1 hour, 1 week and 1 month.* [View the original figure in the source article](https://ai-2040.com/supplements/verification-plan).
 
 The concrete regime we imagine for the first few years of the deal is to still use network taps for evidence collection, and partial recomputation of randomly selected reproducible packets to verify correctness. The same high level approach as inference-only, with smaller and smaller packet sizes over time by moving the network taps to lower levels of the backend network.
+:::
 
 ![](https://ai-2040.com/verification-plan/image8.png)
 
@@ -556,6 +567,7 @@ AI hardware design improvements and/or paradigm shifts might make it easy to def
 
 Similarly we want other high risk scientific domains such as biology research to have R&D restricted. Our default proposal for this is to rely on inference refusals and monitoring on the majority of public deployment, and then potentially set up dedicated locations that allow high-stakes hardware and other scientific research to be carried out in mutually verified research labs, where we make some (not necessarily identical) security-transparency tradeoff choices, and mutually verify that the companies follow the titration rules on hardware R&D, which can also be some combination of safety cases, ad-hoc rules, human interpretability requirements and resource caps (similar to software research).
 
+:::collapse
 #### Inference restrictions, monitoring and refusals for high-risk domains.
 
 One downside of publicly deploying highly capable models is that they could enable dangerous research, or illegal projects could use those models to help them with AI research, or directly distill the outputs of these models to help train their models. In order for broad inference deployment to not lead to distillation, illegal project uplift, or other dangerous research, there needs to not only be correct output verification, but also some sufficient combination of refusals, monitoring, and compression.
@@ -576,7 +588,9 @@ One downside of publicly deploying highly capable models is that they could enab
         
 
 We currently think these are tractable mitigations that will allow a lot of broad deployment, but are uncertain. There should be ongoing testing for distillation and detecting dangerous research.
+:::
 
+:::collapse
 #### Hardware research restrictions.
 
 1.  **Setting rules on hardware research**
@@ -593,6 +607,7 @@ We currently think these are tractable mitigations that will allow a lot of broa
         
 
 Overall, we are very uncertain about how to verify hardware research rules, and have the current sense that it might be harder than software (but also think it's plausibly easier). That being said the default speed and risk level, and therefore the overall slowdown required we think is likely to be lower.
+:::
 
 ### 2032: Cap & Trade for Robots and Compute
 
@@ -602,6 +617,7 @@ In Plan A we propose a cap starting in 2032 that limits the number of robots and
 
 Actually enforcing the cap & trade permit rules might be very difficult if robot and/or AI compute production happens all over the world, so we propose centralizing new built up industrial capacity and robots in special economic zones (SEZs) to make for easier enforcement of the cap & trade rules.
 
+:::collapse
 #### How to enforce the cap & trade rules.
 
 Our proposal for this is to centralize all the built up industrial capacity and robots in special economic zones (SEZs), to centralize the enforcement and associated surveillance in these restricted zones, and allow the rest of the economy to not be subjected to any hardware verification checks.
@@ -609,9 +625,11 @@ Our proposal for this is to centralize all the built up industrial capacity and 
 The SEZs can then have a similar high level verification approach to either hardware research and/or the inference-only and software R&D approach, where production gets broken up into discrete steps, and these get randomly, manually audited by humans (and/or with trusted AI monitoring assistance).
 
 The rest of the economy can then be left unverified, but should probably have upper bounds on the robots, power and other potential inputs to hardware production. If these bounds are low, then there can be minimal surveillance outside of the SEZs. That being said, we guess the bounds might be too costly to keep sufficiently low because people really want diffused robots. So it might be good to have reliable geolocation on the diffused robots and maybe random inspections. In order to avoid too much diffused compute as well, we also propose that robots have very little unverified edge compute, and instead largely be served via the cloud on the monitored (ideally automated by AIs to be privacy preserving) and verified inference-only clusters, until there is robust edge compute verification.
+:::
 
 The same cap and trade principle is extended to other products and services that are destabilizing in unrestricted quantities, but can be safe in lower quantities. Two major examples are products with edge compute and unmonitored inference. Things that might particularly rely on edge compute include self-driving cars and consumer compute, while unmonitored inference might be particularly valuable to governments for military operations. Under cap and trade the regime can accommodate these activities being legal, under safe societal-scale caps that maintain the stability of the deal. Then there can be markets for the permits the people, firms and the government can bid between each other to have the rights for.
 
+:::collapse
 #### Unverified edge compute cap.
 
 **We propose a cap of 30M effective-H100e of unverified edge compute being allowed to exist in the world, with estimates of 25M [effective](https://ai-2040.com/supplements/compute-supplement#appendix-the-effective-h100e-model) H100e predating the deal, there are only 5M credits available for new unverified production.** **With sufficient edge verification measures, the compute can be exempt.**
@@ -625,6 +643,7 @@ We expect the cap we propose to lead to rapid innovation in ‘edge verification
 On top of the unverified consumer compute cap, it might be desirable to have a certain effective-H100e cutoff (e.g., with specific compute, bandwidth, memory capacity and networking speed thresholds) for consumer compute that is allowed to be sold in single units (to the extent that the difficulty of gathering chips into a covert project or detection therefore scales more closely with the absolute number of chips than with the compute). There might also be a tier of compute that we require to have location tracking measures (to make use by a covert project easier to detect).
 
 *Figure: Chip Flow Restrictions, 2032: chip flow restrictions, 2032. Devices plotted by compute per device (H100e) against cross-chip interconnect speed (GB/s). The AI-relevant floor is 4,000 TPP (about 0.25 H100e, compute supplement §1.1). Consumer compute below the floor is uncapped; unverified edge compute above it is capped at 30M H100e (25M already in the world pre-deal plus 5M new credits); verified edge compute is exempt.* [View the original figure in the source article](https://ai-2040.com/supplements/verification-plan).
+:::
 
 Putting together research titration and production capping, we have the following overview:
 
@@ -753,6 +772,7 @@ Plotting confidence against coverage for several verification budgets (i.e., dif
 
 These curves show the confidence-coverage relationship at different values of $N_{\text{verified}}$. Higher $N_{\text{verified}}$ gives you higher assurance (shifts the curve right). Since $N_{\text{verified}} = C / s$, **the curve can be shifted higher either by (1) increasing the recomputation budget $C$ or (2) shrinking the packet size $s$.**
 
+:::collapse
 #### When the Poisson approximation breaks down.
 
 The product $C \cdot N_{\text{fake}}$ (recomputation budget times number of fake packets) is the single quantity that determines 99% catch probability: it just needs to exceed about 4.6.
