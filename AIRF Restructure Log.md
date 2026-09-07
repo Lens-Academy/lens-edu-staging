@@ -148,8 +148,9 @@ Do the slug changes first, before any content edits (section 3).
 
 | File | Change | Status |
 |---|---|---|
-| Module slugs, all seven | `iabied-intro`, `iabied-u1` to `iabied-u5`, `iabied-what-next`. Aliases on M5 to M7 only, if modules support them | `todo` |
-| Three `IABIED - Overview of Optional Resources M1 / M4 / M5` lenses | Orphaned. Archive rather than carry them through the restructure | `todo` |
+| Module slugs, all seven | `iabied-intro`, `iabied-u1` to `iabied-u5`, `iabied-what-next` | `done` |
+| [[courses/AI Risk Fundamentals]], meeting titles | Meeting 1 is "Introduction" and meeting 2 is "Nonhuman Minds". After the change meeting 1 covers chapters 1 to 3 and the Introduction has its own pre-meeting module | `todo` |
+| Three `IABIED - Overview of Optional Resources M1 / M4 / M5` lenses | Orphaned. Archive rather than carry them through the restructure | `done` |
 | [[courses/AI Risk Fundamentals]] | New unit boundaries, new module list, add intro module, add resources module | `todo` |
 | New M1, Introduction | `intro-form`. Carries the Introduction, *Hard calls vs. easy calls*, and the course overview moved out of the old M1 | `todo` |
 | [[modules/IABIED M1 Intro and Nonhuman Minds, Part 1]] | Becomes M2, Nonhuman Minds part 1. Introduction and orientation lens out, chapter 3 in | `todo` |
