@@ -70,7 +70,9 @@ You read those results as evidence about a threat. Read the setups again as desc
 
 Does anything look different? Say honestly what you notice, including if the answer is nothing.
 
-assessment-instructions:: A processing phase. The student is being asked to re-read experiments they have already interpreted, under a different frame. This is the pivot of the lens.
+{++{"author":"Lauren's AI","timestamp":1788789619205}@@max-time:: 5:00
+
+++}assessment-instructions:: A processing phase. The student is being asked to re-read experiments they have already interpreted, under a different frame. This is the pivot of the lens.
 
 This is not a phase for resolving anything, and it is emphatically not a phase for delivering a verdict about whether the experiments were wrong to run. They may well have been right to run; that is not settled and you should not settle it.
 
@@ -102,7 +104,9 @@ They have honored every request. Now describe, concretely, what happens to the s
 
 Then the real question. This looks like a tradeoff between being good to the systems and staying safe from them. Is that framing correct, or does it contain an assumption worth challenging? Argue for a position.
 
-assessment-instructions:: The student has read both pieces and has re-examined the unit's empirical results under the welfare frame. This wedge question is not the test question.
+{++{"author":"Lauren's AI","timestamp":1788789622208}@@max-time:: 10:00
+
+++}assessment-instructions:: The student has read both pieces and has re-examined the unit's empirical results under the welfare frame. This wedge question is not the test question.
 
 The first half is analysis and has a fairly determinate answer:
 - No interpretability, so no inspection of internals, which is the main technique for detecting a system that behaves well while monitored. Note the specific bite: the alignment-faking experiments earlier in this unit depended on reading a scratchpad the model believed was private, so this commitment forbids the exact method that produced the strongest evidence this unit showed the student.
