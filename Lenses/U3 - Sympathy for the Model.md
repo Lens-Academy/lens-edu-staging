@@ -26,7 +26,9 @@ Without looking back: what does Carlsmith say the stakes are, and what specifica
 
 Then Jemist's argument: what are the four requests, and what does honoring each one cost?
 
-assessment-instructions:: The student has read Carlsmith on the stakes of AI moral status and Jemist on welfare concerns as takeover risk. They have already worked through alignment faking and in-context scheming earlier in this unit.
+{++{"author":"Lauren's AI","timestamp":1788789616943}@@max-time:: 4:00
+
+++}assessment-instructions:: The student has read Carlsmith on the stakes of AI moral status and Jemist on welfare concerns as takeover risk. They have already worked through alignment faking and in-context scheming earlier in this unit.
 
 Key content, Carlsmith:
 - The argument is about stakes under uncertainty, not about establishing that AI systems are moral patients. He explicitly defers the question of whether they have the relevant properties.
