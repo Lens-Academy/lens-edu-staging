@@ -36,7 +36,7 @@ survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]] {>>{"author":"Turner'
 
 # Module: [[../modules/IABIED M2 Nonhuman Minds, Part 1]]
 
-# Module: [[../modules/IABIED M3 Nonhuman Minds, Part 3]]
+# Module: [[../modules/IABIED M3 Nonhuman Minds, Part 2]]
 
 # Meeting: Nonhuman Minds
 meeting-doc-template:: https://docs.google.com/document/d/1hNj0npIxflO6C5AJcNPHms7HOiH_hlAgomBPQVhfp2A/edit?tab=t.0#heading=h.by5wcelvjnsd
