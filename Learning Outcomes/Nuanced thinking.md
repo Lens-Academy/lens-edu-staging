@@ -1,7 +1,7 @@
 ---
 id: '2b3bc4ba-4d2c-4473-a194-bbed3ee7e2d9'
 learning-outcome: "Apply probabilistic, gray, and multi-factor thinking to replace binary judgments with calibrated confidence, explicit tradeoffs, and analysis of relevant factors, while still reaching a clear conclusion."
-domain: "[[../Domains/Rationality and Epistemics]]"
+topic: "[[../Domains/15 Rationality and Epistemics/Calibrated judgment]]"
 stage: intermediate
 ---
 

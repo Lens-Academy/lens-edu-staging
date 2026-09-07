@@ -1,7 +1,7 @@
 ---
 id: 'c622ee21-b4c8-4a5c-be48-b32378abd01f'
 learning-outcome: "Given a historical verification regime, reconstruct the chain from what it observes to the compliance judgement it licenses, name the assumption that makes that chain valid and where the regime fails to reach, and determine which parts of that logic transfer to AI treaty verification and which do not."
-domain: "[[../Domains/Governance and Policy]]"
+topic: "[[../Domains/10 Governance and Policy/Verifying AI agreements]]"
 stage: intermediate
 authors:
   - Elias+Claude
