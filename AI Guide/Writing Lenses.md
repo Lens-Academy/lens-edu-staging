@@ -69,7 +69,7 @@ All link and card forms with live examples — hooks, cards in closed callouts, 
 
 ### What each `assessment-instructions::` brief must do
 
-All three share a house style: state who the student is and what they just did; give the key concepts of the reading as a checklist; set response length ("80–150 words. Short paragraphs only. No lists."); and ban generic praise ("Do not over-validate. Avoid generic praise (great job, excellent recall, well done)").
+All three share a house style: state who the student is and what they just did; give the key concepts of the reading as a checklist; set response length ("80–150 words. Short paragraphs only. No lists."); and ban generic praise ("Do not over-validate. Avoid generic praise (great job, excellent recall, well done)").{++{"author":"Lauren's AI","timestamp":1788772741560}@@ Two more clauses belong in every brief, added 2026-09-07 after students in the AI Futures cohort reported learning to ignore the tutor: the tutor does not argue with a student who says they do not understand (it restates the question differently on a second failure instead of repeating it), and it grades only against criteria the page or a prior required page supplied. Target stance, in Elias's words: "rigorous, specific, supportive, diagnostic".++}
 
 **Phase 1: Recall (one turn).** The tutor is "diagnostic, not instructional: a brief, honest mirror": acknowledge what's correct without inflation, name what's missing without lecturing, correct errors in one sentence, normalize gaps, close with a calibrating sentence. Explicitly: no re-teaching, no follow-up questions, no inviting dialogue: "This is a one-turn response. Tell them to move on."
 
