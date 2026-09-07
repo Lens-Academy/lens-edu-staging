@@ -1,7 +1,7 @@
 ---
 id: 'f9703ad5-d028-4ba5-baa1-8e5285ddfb4e'
 learning-outcome: "Explain the decision principle behind Marginal and counterfactual impact"
-topic: "[[../Domains/14 Effective Altruism/Impact reasoning]]"
+topic: "[[../Domains and Topics/14 Effective Altruism/Impact reasoning]]"
 stage: beginner
 tags:
   - skill-tree-placeholder
