@@ -56,7 +56,19 @@ The actual learning content. A Lens combines:
 - Introductory text (context for the student)
 - An AI chat discussion (to check understanding and explore ideas)
 
-#### Using templates
+{++{"author":"Elias's AI","timestamp":1788764328235}@@### Link to a file, or copy it on purpose
+
+Every file here can be used from more than one place. A course lists its modules by reference, a module lists its lenses with `source::`, and surveys are linked the same way. So when the same material belongs in a second course, link to the file that already exists.
+
+Copy a file when this course genuinely needs the material to read differently and the other course has to keep what it has. That copy is a new thing and gets new ids, which is correct, because it is a different thing.
+
+The choice is per file, not per course. Re-cutting a course does not mean duplicating everything in it: link the files that stay the same, copy only the ones that have to differ.
+
+**Why an unnecessary copy hurts.** Every file and every section carries an `id::`, and that id is the only thing tying a student to work they have already done: their completions, their answers, their scores, and what the course lets them move past. A copy carries new ids, so to the platform it is material nobody has ever seen. Everyone who finished the original is shown it as unfinished, and their answers stay attached to the file that was copied from. In September 2026 a five-week re-cut shipped as copies of files that had not meaningfully changed, and eighty students in two running cohorts were asked to redo an intake form they had already completed, on the morning of their first meeting.
+
+A needless copy also forks the content for good. Every correction made to one side from then on is invisible to the other, and nobody can tell which one is current.
+
+++}#### Using templates
 See [[Obsidian Setup#Using Templates]]
 
 ---
