@@ -1,6 +1,6 @@
 ---
 id: ae539bbd-3ab0-4ff1-8eeb-a90edf5b2edb
-slug: iabied-m2
+slug: {--{"author":"AI","timestamp":1788804402870}@@iabied-m2--}{++{"author":"AI","timestamp":1788804402870}@@iabied-u1++}
 title: Learning to Want
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings:
