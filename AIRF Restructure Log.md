@@ -144,22 +144,41 @@ This maps onto the stages in section 5 in order: stage 0, then 1, 2, 3, 4, 5.
 
 ### Stage 1, structure
 
-Do the slug changes first, before any content edits (section 3).
+No module is created, merged or retired. All seven files persist and only their contents move. Order within the stage: renames first so later edits run against stable paths, then frontmatter, then content, then the course file.
+
+**1a. Done.**
 
 | File | Change | Status |
 |---|---|---|
 | Module slugs, all seven | `iabied-intro`, `iabied-u1` to `iabied-u5`, `iabied-what-next` | `done` |
-| [[courses/AI Risk Fundamentals]], meeting titles | Meeting 1 is "Introduction" and meeting 2 is "Nonhuman Minds". After the change meeting 1 covers chapters 1 to 3 and the Introduction has its own pre-meeting module | `todo` |
-| Three `IABIED - Overview of Optional Resources M1 / M4 / M5` lenses | Orphaned. Archive rather than carry them through the restructure | `done` |
-| [[courses/AI Risk Fundamentals]] | New unit boundaries, new module list, add intro module, add resources module | `todo` |
-| New M1, Introduction | `intro-form`. Carries the Introduction, *Hard calls vs. easy calls*, and the course overview moved out of the old M1 | `todo` |
-| [[modules/IABIED M1 Intro and Nonhuman Minds, Part 1]] | Becomes M2, Nonhuman Minds part 1. Introduction and orientation lens out, chapter 3 in | `todo` |
-| [[modules/IABIED M2 Nonhuman Minds, Part 2]] | Merges into the new M3 | `todo` |
-| [[modules/IABIED M3 Nonhuman Minds, Part 3]] | Becomes M3, Nonhuman Minds part 2, carrying chapters 4 to 6 | `todo` |
-| [[modules/IABIED M4 One Extinction Scenario]] | Chapter 6 out, U3 opener and chapter 9 in | `todo` |
-| [[modules/IABIED M5 Facing The Challenge, Part 1]] | No structural change | `todo` |
-| [[modules/IABIED M6 Facing The Challenge, Part 2]] | No structural change | `todo` |
-| [[modules/IABIED M7 What Happens Next]] | No structural change | `todo` |
+| Three `IABIED - Overview of Optional Resources M1 / M4 / M5` lenses | Orphaned. Archived to `_deprecated` | `done` |
+
+**1b. Filenames.** Three no longer describe their contents. `move` rewrites inbound links, including the course file's `# Module:` links.
+
+| From | To | Status |
+|---|---|---|
+| `IABIED M1 Intro and Nonhuman Minds, Part 1` | `IABIED M1 Introduction` | `todo` |
+| `IABIED M2 Nonhuman Minds, Part 2` | `IABIED M2 Nonhuman Minds, Part 1` | `todo` |
+| `IABIED M3 Nonhuman Minds, Part 3` | `IABIED M3 Nonhuman Minds, Part 2` | `todo` |
+
+**1c. Frontmatter.** `title` and `readings` on each of the four modules that change, plus `intro-form` on M1. M1 also carries a `discussion` Discord channel distinct from the one M2 to M7 share; decide whether that channel belongs to the intro module or should move with chapters 1 and 2.
+
+**1d. Content moves.** Whole `# Submodule:` blocks, each carrying its `add_to_ai_context`, outcome refs, lens refs, Dive Deeper index and hidden QA imports.
+
+| Block | From | To |
+|---|---|---|
+| `Ch1 - Intelligence` | M1 | M2 |
+| `Ch2 - Grown, not crafted` | M1 | M2 |
+| `Ch4 - You Don't Get What You Train For` | M2 | M3 |
+| `Ch6 - We'd Lose` | M4 | M3 |
+
+Net result: M1 keeps Welcome and Ch0. M2 becomes Ch1, Ch2, Ch3. M3 becomes Ch4, Ch5, Ch6. M4 loses Ch6 and later gains the U3 opener and Ch9 in stage 2. M5, M6 and M7 are untouched.
+
+Do not strip the `%%` block in M3's welcome: it holds drafted framing for chapter 6 from when the chapter lived there, and chapter 6 is coming back.
+
+**1e. Course file.** Smaller than expected. Meeting boundaries currently sit as M1, meeting 1, M2 and M3, meeting 2. They need to become M1 and M2, meeting 1, M3, meeting 2. **Only the first `# Meeting:` block moves**, down past M2. Meeting 2's position is unchanged, as are meetings 3, 4 and 5, and the module order never changes. Retitle meeting 1 and meeting 2, which are currently "Introduction" and "Nonhuman Minds". The resources module is stage 5, not here.
+
+**1f. Check card targets resolve.** Each Dive Deeper index lens cards QA lenses that the module separately imports with `optional` and `hide`. Those imports must sit in the same module as the lens that cards them. M6 already carries two such imports under Ch12 solely because they are card targets inside a Ch12 lens, so the pattern exists and can cross submodules. After the moves, verify every `::card` target in a moved lens is still imported in its new module. `validate_content` may or may not catch this; check it directly.
 
 ### Stage 2, new content
 
