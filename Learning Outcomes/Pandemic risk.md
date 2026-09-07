@@ -3,7 +3,7 @@ id: 1d611cfc-97df-44e2-aca6-e2a196a03a63
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-topic: "[[../Domains/9 Biosecurity/Biological risk from AI]]"
+topic: "[[../Domains and Topics/9 Biosecurity/Biological risk from AI]]"
 stage: intermediate
 ---
 
