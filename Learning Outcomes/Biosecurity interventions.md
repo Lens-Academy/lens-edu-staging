@@ -3,7 +3,7 @@ id: 805f62c4-60da-4e7d-ac91-b5a29071ece1
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-domain: "[[../Domains/Biosecurity]]"
+topic: "[[../Domains/9 Biosecurity/Pandemic defence]]"
 stage: intermediate
 requires:
   - "[[Pandemic risk]]"

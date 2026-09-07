@@ -3,7 +3,7 @@ id: 6ab43838-41bd-4453-a4da-f82d047c53fb
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-domain: none
+topic: none
 ---
 
 > **Not in the skill tree:** EA-specific framing; not an AI-safety capability.
