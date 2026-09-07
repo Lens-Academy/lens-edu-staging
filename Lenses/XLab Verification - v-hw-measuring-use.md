@@ -49,7 +49,7 @@ Read the proposal for verifiable training and inference and its open research qu
 #### Article
 source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
 from:: ### 2.2 Verifiable AI training and inference ^2-2-verifiable-ai
-to:: Figure 3: Adapted from: ([Heim et al., 2024](#bib.bib21)).
+to:: Figure 3: Adapted from: (Heim et al., 2024).
 
 #### Article
 source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]

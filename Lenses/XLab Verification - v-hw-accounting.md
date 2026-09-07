@@ -63,7 +63,7 @@ Compare the proposals for cluster configuration and location, then consider thei
 #### Article
 source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
 from:: ### 2.3 Verifiable cluster configuration ^2-3-verifiable-cluster
-to:: Figure 5: AI Computing Cluster. Adapted from: [Kulp et al. (2024)](#bib.bib34).
+to:: Figure 5: AI Computing Cluster. Adapted from: Kulp et al. (2024).
 
 #### Article
 source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
