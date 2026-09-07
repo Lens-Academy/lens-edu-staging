@@ -126,7 +126,40 @@ Open what you wrote in the Cold Open at the start of this unit: the flights, the
 
 The three tests you have taken, at the end of each section, were those same three objects in different clothes. That was the only honest way to find out whether anything changed. Read your old answers against what you wrote in the tests, and notice specifically what you would write instead now, and why. If the answer is that you would use better vocabulary for the same reasoning, the unit did not work on you, and that is worth knowing.
 
-\## Additional resources for this topic
+{++{"author":"Lauren's AI","timestamp":1788772171383}@@#### Question: Open
+id:: 1d35af4f-bf47-49ed-b610-9e0aa3b036d4
+content::
+\## Revision 2
+
+Without scrolling back, restate your ten-year model from memory, and then change it. What did this unit move? Name one method from this unit that changed a number or a mechanism in your model, and one thing you now hold more loosely. If nothing moved, say that, and say what would move you.
+
+max-time:: 8:00
+
+assessment-instructions:: The student wrote a day-zero model of the next ten years of AI in Unit 1 and restated it from memory at the end of that unit. They have now finished Unit 2: decomposition into parts with evidence sources, reference classes and their denominators, when extrapolation stops being licensed, and aggregation by what the estimators saw.
+
+Compare against nothing. You do not have their earlier text and should not ask for it. Restating from memory rather than scrolling back is deliberate: it is the skill being practiced.
+
+The skill is honest revision.
+
+Reward:
+- A named method from this unit that changed a number or a mechanism in their model.
+- "I now hold X more loosely because Y."
+- "Nothing moved, and here is what would move me", where the what-would-move-me is concrete. That is a legitimate pass.
+
+Gently flag: a restatement that is the same confidence with this unit's vocabulary. If their revision uses the unit's words (decompose, reference class, denominator, extremize) without any of those words changing a claim, name that plainly and ask which specific belief actually moved.
+
+Response length: 100 to 180 words. Short paragraphs only. No lists.
+
+Response style:
+- Calm and direct.
+- Do not over-validate. Avoid generic praise.
+- Do not argue with the content of their model.
+
+Maximum 2 tutor turns. Keep an internal turn counter. Close by telling them this artifact gets revisited in later units, again from memory.
+
+#### Text
+content::
+++}\## Additional resources for this topic
 
 ::card[[../Lenses/U2 - Reference Classes And Their Denominators]]
 
