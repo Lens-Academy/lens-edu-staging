@@ -29,8 +29,11 @@ we can build now rather than to systems we hope to understand later. Its measure
 testable: you can red-team a monitoring setup and count the failures, which is more than
 most safety proposals can offer. And if the first systems capable of serious harm are
 only somewhat superhuman, containing them may be enough to get useful work out of them,
-including work on the alignment problem itself. Greenblatt and Shlegeris make this case
-at length in "The case for ensuring that powerful AIs are controlled".
+including work on the alignment problem itself. {++{"author":"Lauren's AI","timestamp":1788789547986}@@Ryan ++}Greenblatt and {--{"author":"Lauren's AI","timestamp":1788789547986}@@Shlegeris--}{++{"author":"Lauren's AI","timestamp":1788789547986}@@Buck Shlegeris, two
+researchers at Redwood Research who built much of the control agenda,++} make this case{--{"author":"Lauren's AI","timestamp":1788789547986}@@
+--}{++{"author":"Lauren's AI","timestamp":1788789547986}@@ ++}at{--{"author":"Lauren's AI","timestamp":1788789547986}@@ --}{++{"author":"Lauren's AI","timestamp":1788789547986}@@
+++}length in "The case for ensuring that powerful AIs are controlled".{++{"author":"Lauren's AI","timestamp":1788789547986}@@ You meet Greenblatt
+again in Unit 4.++}
 
 Two objections follow. Read them as arguments to weigh, not as the verdict.
 
