@@ -1,6 +1,6 @@
 ---
 id: 43f09573-606d-4a92-aabf-fcbede97cf34
-slug: {--{"author":"AI","timestamp":1788760282317}@@iabied-m5--}{++{"author":"AI","timestamp":1788760282317}@@iabied-u4++}
+slug: iabied-u4
 title: "Facing the Challenge, Part 1"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings:
