@@ -421,7 +421,20 @@ Five key verification metrics we care about include:
 -   **Assurance curve.** The assurance curve captures information about the level of **coverage** (the % of the AI compute that the verification solution makes claims about) and **confidence** (with what probability is the verification solution correct about the claims it makes on the covered resources). We define an assurance curve as a set of relevant (coverage, confidence) values. We care about the entire 2D curve, because it's important to know where handoff and covert project risks cross over.[^note-verification-plan-14]
     
 
-The source chart plots confidence against coverage (log scale, 90% to eight nines) for N_ver = 100, 10K and 10M. [Chart in the source article](https://ai-2040.com/supplements/verification-plan).
+{--{"author":"Elias's AI","timestamp":1788793646041}@@The--}{++{"author":"Elias's AI","timestamp":1788793646041}@@**Assurance curves for three verification budgets**
+
+*Table adaptation of the++} source {--{"author":"Elias's AI","timestamp":1788793646041}@@chart plots confidence against--}{++{"author":"Elias's AI","timestamp":1788793646041}@@chart. N_ver is the number of packets the verifier audits. Values are computed from the formulas in the [appendix](https://ai-2040.com/supplements/verification-plan#a3-the-assurance-curve):++} coverage {--{"author":"Elias's AI","timestamp":1788793646041}@@(log scale, 90% to eight nines) for--}{++{"author":"Elias's AI","timestamp":1788793646041}@@= 1 − F\*, confidence = 1 − e^(−N_ver · F\*), where F\* is the largest fraction of fake packets tolerated without detection.*
+
+| Coverage | Confidence at++} N_ver = {--{"author":"Elias's AI","timestamp":1788793646041}@@100,--}{++{"author":"Elias's AI","timestamp":1788793646041}@@100 | N_ver =++} 10K {--{"author":"Elias's AI","timestamp":1788793646041}@@and 10M. [Chart in the source article](https://ai-2040.com/supplements/verification-plan).--}{++{"author":"Elias's AI","timestamp":1788793646041}@@| N_ver = 10M |
+| --- | ---: | ---: | ---: |
+| 90% | 99.995% | ~100% | ~100% |
+| 99% | 63% | ~100% | ~100% |
+| 99.9% | 9.5% | 99.995% | ~100% |
+| 99.99% | 1.0% | 63% | ~100% |
+| 5 nines | 0.1% | 9.5% | ~100% |
+| 6 nines | 0.01% | 1.0% | 99.995% |
+| 7 nines | 0.001% | 0.1% | 63% |
+| 8 nines | 0.0001% | 0.01% | 9.5% |++}
 
 -   **Execution difficulty.** How difficult would it be to implement the verification solution correctly? For example, if there are load-bearing parts of the verification solution that require a large amount of expert human labor for e.g., setting up the verification software, manufacturing and installing devices, physical security enforcement and monitoring, etc.
     
@@ -479,7 +492,14 @@ We highlight a few approaches below, and roughly where we think they fall on thi
 4.  **Compute and resource caps.** simple caps on R&D compute. This is extremely easy to implement and verify, but it might just be very inaccurate. Knowing how much progress will result from certain compute and other resource (e.g., human researcher) thresholds will be an uncertain modelling question, that likely will have wide error bars. In the early stages of a deal though, setting these very low seems like a good, easy to implement starter, which can then be escalated to more accurate approaches given time to ramp capacity.
     
 
-The source chart plots these approaches by ease of implementation against regulatory accuracy, with a suggested progression: compute caps (about 2030), then human-interpretable requirement, quality ad-hoc rules, and safety-case burden of proof (about 2035). [Chart in the source article](https://ai-2040.com/supplements/verification-plan).
+*Table adaptation of the source chart, which places the four approaches on a diagonal from easy and inaccurate to hard and accurate. The suggested progression runs down the table.*
+
+| Approach | Ease of implementation | Regulatory accuracy | Suggested timing |
+| --- | --- | --- | --- |
+| Compute caps: simple caps on R&D compute | Easiest | Lowest | ~2030 |
+| Human-interpretable requirement: all approved techniques understood end-to-end by some group of humans | Easier | Lower | after compute caps |
+| Quality ad-hoc rules: case-by-case decisions on permitted research directions and speed | Harder | Higher | before safety cases |
+| Safety case burden of proof: all R&D requires strong safety case arguments before approval | Hardest | Highest | ~2035 |
 :::
 
 With a particular set of rules on research in place, there is a separate problem of enforcing these rules are actually followed. We can divide the problem of enforcing the R&D rules into two parts:
@@ -515,7 +535,16 @@ We also mentioned multiple different types of evidence collection or verificatio
 
 Another useful concept for thinking about the verification problem is to think of AI workloads as discrete series of steps.
 
-The source chart shows packet sizes from coarse to fine: full training run, training phases, gradient steps, layer forward/backward passes, GPU kernel calls, individual instructions. Each chunk is f(input) → output. [Chart in the source article](https://ai-2040.com/supplements/verification-plan).
+{--{"author":"Elias's AI","timestamp":1788793653897}@@The--}{++{"author":"Elias's AI","timestamp":1788793653897}@@*Table adaptation of the++} source {--{"author":"Elias's AI","timestamp":1788793653897}@@chart--}{++{"author":"Elias's AI","timestamp":1788793653897}@@chart, which++} shows {--{"author":"Elias's AI","timestamp":1788793653897}@@packet sizes from coarse to fine: full--}{++{"author":"Elias's AI","timestamp":1788793653897}@@the same workload sliced at each of these levels. Every chunk at every level is one f(input) → output step.*
+
+| Granularity | Packet |
+| --- | --- |
+| 1 (coarsest) | Full++} training {--{"author":"Elias's AI","timestamp":1788793653897}@@run, training phases, gradient steps, layer forward/backward passes, GPU kernel calls, individual instructions. Each chunk is f(input) → output. [Chart in the source article](https://ai-2040.com/supplements/verification-plan).--}{++{"author":"Elias's AI","timestamp":1788793653897}@@run |
+| 2 | Training phases |
+| 3 | Gradient steps |
+| 4 | Layer forward/backward passes |
+| 5 | GPU kernel calls |
+| 6 (finest) | Individual instructions |++}
 
 By default, these computational steps execute with randomness, but if they can be forced to be reproducible (e.g., seeded randomness is fine), then we can have a predictable relationship between the granularity of the evidence collection and the assurance level of the verification algorithm. This is because partial recomputation with random sampling with some small percentage of the workload being recomputed has favourable scaling of detection probability as you decrease the size of the individual workload packets that you check the correctness of. More detail on this in the [appendix](https://ai-2040.com/supplements/verification-plan#appendix-packet-based-verification).
 
