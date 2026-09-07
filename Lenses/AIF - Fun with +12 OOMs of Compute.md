@@ -112,7 +112,43 @@ What to do in each reply:
 
 After 2 tutor replies, close the phase and send them on.
 
-#### Article
+#### {++{"author":"Lauren's AI","timestamp":1788824514723}@@Question
+content::
+\## Your number first
+
+The author is about to give his own probability. Commit to yours before you see it: **in his hypothetical, with a trillion times the compute of 2016, how likely is TAI by the end of 2020?**
+
+Note on **subjective probability**: we'll get into this in more detail later, but putting a probability on something that will happen only once is a bit of a subjective activity. One way to think about it: when asked for the probability of an event (such as TAI), consider all worlds you think could turn out to be possible. Then: in what percentage of the worlds you imagine does the event occur? That percentage is your probability.
+
+When you answer, also write down something about what leads you to your number. If you can show your work in detail, that's ideal. If you wrote down disagreements above, you're looking for how they lead you to imagine a particular set of possible-worlds.
+
+In particular, write down in what ways you're reasoning from an *inside view* or an *outside view*. An inside view is a description based on your understanding of mechanisms and processes. An *outside view* is a description based on comparisons to types of historical events that seem similar.
+
+(Hopefully by the end of the course you'll feel moderately comfortable with either!)
+
+Bonus: write down what would change your probability by at least 20% in the next year. What would make at least 20% of the possible-worlds you're imagining turn out to be impossible?
+
+max-time:: 8:00
+
+assessment-instructions:: The student has read the author's five answers and is now committing to their own probability. They have NOT yet read the author's own answer to this question (his 90 percent, his inside view near 99, and his comparison with Ajeya Cotra's 50 percent). Do not reveal any of those numbers, and do not hint whether their number is high or low.
+
+Up to 3 tutor turns, then offer to continue or close.
+
+The pass bar is: a number, plus which of the five scenarios carries it, plus a concrete thing learnable within a year that would move it twenty points. A number with no named movers falls short of the bar. Exception the student-facing text explicitly offers: "nothing could move me, and here is what that means about the number". A thoughtful version of that meets the bar; engage with what they say an unmovable number is tracking rather than demanding movers anyway.
+
+Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items.
+
+Response style:
+- Calm, rigorous, and educational.
+- Do not over-validate. Avoid generic praise.
+- If the answer is vague, ask for precision.
+
+What to do in each reply:
+1. Argue the student toward ownership of their number, not toward any particular value.
+2. If they cannot name anything that would move them twenty points, take that seriously and ask what an unmovable number is tracking.
+3. Close by telling them the author's own number comes next, and to notice what it does to theirs.
+
+#### ++}Article
 from:: ## Question Two: In this hypothetical, what's the probability that TAI appears by end of 2020?
 to:: your median should be roughly 10 years earlier than hers, all else equal: 2040-ish rather than 2050-ish.
 
