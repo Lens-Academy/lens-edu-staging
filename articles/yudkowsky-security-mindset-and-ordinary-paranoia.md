@@ -313,7 +313,3 @@ Though this itself is not really a reduced statement and still has too much goal
 ---
 
 To be continued in: **[Security Mindset and the Logistic Success Curve](https://www.lesswrong.com/posts/cpdsMuAHSWhWnKdog/security-mindset-and-the-logistic-success-curve)**
-{--{"author":"Luc's AI","timestamp":1788541343626}@@
-x
-
-Security Mindset and Ordinary Paranoia — LessWrong--}

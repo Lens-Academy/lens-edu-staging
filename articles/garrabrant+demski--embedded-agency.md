@@ -74,9 +74,9 @@ In addition to hazards in her external environment, Emmy is going to have to wor
 
 Emmy is confusing, so let’s go back to Alexei. Marcus Hutter’s [AIXI](https://arxiv.org/abs/1202.6153) framework gives a good theoretical model for how agents like Alexei work:
 
-{--{"author":"Luc's AI","timestamp":1788541545220}@@ak:\=argmaxak∑okrk…maxam∑omrm\[rk+…+rm\]∑q:U(q,a1..am)\=o1r1..omrm2−ℓ(q)--}{++{"author":"Luc's AI","timestamp":1788541545220}@@$$
+$$
 a_k := \arg\max_{a_k}\sum_{o_k r_k} \ldots \max_{a_m}\sum_{o_m r_m} [r_k+\ldots+r_m] \sum_{q\,:\,U(q,a_1..a_m)=o_1r_1..o_mr_m} 2^{-\ell(q)}
-$$++}
+$$
 
 The model has an agent and an environment that interact using actions, observations, and rewards. The agent sends out an action a, and then the environment sends out both an observation o and a reward r. This process repeats at each time k...m.
 
@@ -163,10 +163,10 @@ But remember: decision theory, embedded world-models, robust delegation, and sub
 
 Decision theory and artificial intelligence typically try to compute something resembling
 
-{--{"author":"Luc's AI","timestamp":1788541544852}@@argmaxa ∈ Actions  --}{++{"author":"Luc's AI","timestamp":1788541544852}@@$$
-\underset{a \,\in\, Actions}{\text{argmax}} \; ++}f(a).
-{++{"author":"Luc's AI","timestamp":1788541544852}@@$$
-++}
+$$
+\underset{a \,\in\, Actions}{\text{argmax}} \; f(a).
+$$
+
  I.e., maximize some function of the action. This tends to assume that we can detangle things enough to see outcomes as a function of actions.
 
 For example, AIXI represents the agent and the environment as separate units which interact over time through clearly defined i/o channels, so that it can then choose actions maximizing reward.
@@ -203,15 +203,15 @@ However, it is not so easy as it seems to reliably take the \$10.
 
 If you reason about yourself as just another part of the environment, then you can know your own behavior. If you can know your own behavior, then it becomes difficult to reason about what would happen if you behaved *differently*.
 
-This throws a monkey wrench into many common reasoning methods. How do we formalize the idea “Taking the {--{"author":"Luc's AI","timestamp":1788541543771}@@$10--}{++{"author":"Luc's AI","timestamp":1788541543771}@@\$10++} would lead to *good* consequences, while taking the {--{"author":"Luc's AI","timestamp":1788541543771}@@$5--}{++{"author":"Luc's AI","timestamp":1788541543771}@@\$5++} would lead to *bad* consequences,” when sufficiently rich self-knowledge would reveal one of those scenarios as inconsistent?
+This throws a monkey wrench into many common reasoning methods. How do we formalize the idea “Taking the \$10 would lead to *good* consequences, while taking the \$5 would lead to *bad* consequences,” when sufficiently rich self-knowledge would reveal one of those scenarios as inconsistent?
 
-And if we *can't* formalize any idea like that, how do real-world agents figure out to take the {--{"author":"Luc's AI","timestamp":1788541543771}@@$10--}{++{"author":"Luc's AI","timestamp":1788541543771}@@\$10++} anyway?
+And if we *can't* formalize any idea like that, how do real-world agents figure out to take the \$10 anyway?
 
-If we try to calculate the expected utility of our actions by Bayesian conditioning, as is common, knowing our own behavior leads to a divide-by-zero error when we try to calculate the expected utility of actions we know we don't take:{--{"author":"Luc's AI","timestamp":1788541543771}@@ ¬A--} {++{"author":"Luc's AI","timestamp":1788541543771}@@$\lnot A$ ++}implies {--{"author":"Luc's AI","timestamp":1788541543771}@@P(A)\=0,--}{++{"author":"Luc's AI","timestamp":1788541543771}@@$P(A)=0$,++} which implies {--{"author":"Luc's AI","timestamp":1788541543771}@@P(B&A)\=0,--}{++{"author":"Luc's AI","timestamp":1788541543771}@@$P(B \& A)=0$,++} which implies
+If we try to calculate the expected utility of our actions by Bayesian conditioning, as is common, knowing our own behavior leads to a divide-by-zero error when we try to calculate the expected utility of actions we know we don't take: $\lnot A$ implies $P(A)=0$, which implies $P(B \& A)=0$, which implies
 
-{--{"author":"Luc's AI","timestamp":1788541543771}@@P(B|A)\=P(B&A)P(A)\=00.--}{++{"author":"Luc's AI","timestamp":1788541543771}@@$$
+$$
 P(B|A) = \frac{P(B \& A)}{P(A)} = \frac{0}{0}.
-$$++}
+$$
 
 Because the agent doesn't know how to separate itself from the environment, it gets gnashing internal gears when it tries to imagine taking different actions.
 
@@ -378,7 +378,7 @@ So far, we've been discussing action counterfactuals—how to anticipate consequ
 
 Even if there is no one telling you a prediction about your future behavior, observation counterfactuals can still play a role in making the right decision. Consider the following game:
 
-Alice receives a card at random which is either High or Low. She may reveal the card if she wishes. Bob then gives his probability p that Alice has a high card. Alice always loses {--{"author":"Luc's AI","timestamp":1788541540296}@@p2--}{++{"author":"Luc's AI","timestamp":1788541540296}@@$p^2$++} dollars. Bob loses {--{"author":"Luc's AI","timestamp":1788541540296}@@p2--}{++{"author":"Luc's AI","timestamp":1788541540296}@@$p^2$++} if the card is low, and {--{"author":"Luc's AI","timestamp":1788541540296}@@(1−p)2--}{++{"author":"Luc's AI","timestamp":1788541540296}@@$(1-p)^2$++} if the card is high.
+Alice receives a card at random which is either High or Low. She may reveal the card if she wishes. Bob then gives his probability p that Alice has a high card. Alice always loses $p^2$ dollars. Bob loses $p^2$ if the card is low, and $(1-p)^2$ if the card is high.
 
 Bob has a proper scoring rule, so does best by giving his true belief. Alice just wants Bob's belief to be as much toward "low" as possible.
 
@@ -439,9 +439,9 @@ In a Bayesian setting, where an agent's uncertainty is quantified by a probabili
 
 In game theory, this same property is described by saying a prior has a "grain of truth”. It should be noted, though, that there are additional barriers to getting this property in a game-theoretic setting; so, in their common usage cases, "grain of truth" is technically demanding while "realizability" is a technical convenience.
 
-Realizability is not totally necessary in order for Bayesian reasoning to make sense. If you think of a set of hypotheses as “experts”, and the current posterior probability as how much you “trust” each expert, then learning according to Bayes' Law, {--{"author":"Luc's AI","timestamp":1788541539687}@@P(h|e)\=P(e|h)⋅P(h)P(e),--}{++{"author":"Luc's AI","timestamp":1788541539687}@@$P(h|e) = \frac{P(e|h) \cdot P(h)}{P(e)}$,++} ensures a *relative bounded loss* property.
+Realizability is not totally necessary in order for Bayesian reasoning to make sense. If you think of a set of hypotheses as “experts”, and the current posterior probability as how much you “trust” each expert, then learning according to Bayes' Law, $P(h|e) = \frac{P(e|h) \cdot P(h)}{P(e)}$, ensures a *relative bounded loss* property.
 
-Specifically, if you use a prior π, the amount worse you are in comparison to each expert h is at most  {--{"author":"Luc's AI","timestamp":1788541539377}@@logπ(h),--}{++{"author":"Luc's AI","timestamp":1788541539377}@@$\log \pi(h)$,++} since you assign at least probability {--{"author":"Luc's AI","timestamp":1788541539377}@@π(h)⋅h(e)--}{++{"author":"Luc's AI","timestamp":1788541539377}@@$\pi(h) \cdot h(e)$++} to seeing a sequence of evidence e. Intuitively, π(h) is your initial trust in expert h, and in each case where it is even a little bit more correct than you, you increase your trust accordingly. The way you do this ensures you assign an expert probability 1 and hence copy it precisely before you lose more than {--{"author":"Luc's AI","timestamp":1788541539377}@@logπ(h)--}{++{"author":"Luc's AI","timestamp":1788541539377}@@$\log \pi(h)$++} compared to it.
+Specifically, if you use a prior π, the amount worse you are in comparison to each expert h is at most  $\log \pi(h)$, since you assign at least probability $\pi(h) \cdot h(e)$ to seeing a sequence of evidence e. Intuitively, π(h) is your initial trust in expert h, and in each case where it is even a little bit more correct than you, you increase your trust accordingly. The way you do this ensures you assign an expert probability 1 and hence copy it precisely before you lose more than $\log \pi(h)$ compared to it.
 
 The prior AIXI is based on is the *Solomonoff prior*. It is defined as the output of a universal Turing machine (UTM) whose inputs are coin-flips.
 
@@ -835,11 +835,11 @@ So, how do we use this to optimize? A quantilizer selects from P, but discardin
 
 ![](http://res.cloudinary.com/lesswrong-2-0/image/upload/v1672577367/mirroredImages/i3BTagvt3HbPMx6PN/seffbk4uz4dmwfrxoo84.png)
 
-By quantilizing, we can guarantee that if we overestimate how good something is, we’re overestimating by at most {--{"author":"Luc's AI","timestamp":1788541539056}@@cf--}{++{"author":"Luc's AI","timestamp":1788541539056}@@$c/f$++} in expectation. This is because in the worst case, all of the overestimation was of the f best options.
+By quantilizing, we can guarantee that if we overestimate how good something is, we’re overestimating by at most $c/f$ in expectation. This is because in the worst case, all of the overestimation was of the f best options.
 
 ![](http://res.cloudinary.com/lesswrong-2-0/image/upload/v1672577367/mirroredImages/i3BTagvt3HbPMx6PN/wvee4cmvxcto86k411qa.png)
 
-We can therefore choose an acceptable risk level, {--{"author":"Luc's AI","timestamp":1788541538692}@@r\=cf,--}{++{"author":"Luc's AI","timestamp":1788541538692}@@$r = c/f$,++} and set the parameter f as {--{"author":"Luc's AI","timestamp":1788541538692}@@cr.--}{++{"author":"Luc's AI","timestamp":1788541538692}@@$c/r$.++}
+We can therefore choose an acceptable risk level, $r = c/f$, and set the parameter f as $c/r$.
 
 Quantilization is in some ways very appealing, since it allows us to specify safe classes of actions without trusting every individual action in the class—or without trusting *any* individual action in the class.
 
@@ -1066,9 +1066,9 @@ Now, in some sense, we can trust simpler functions more. A short piece of code i
 
 Consider the set of all programs of length L. Some programs p will print 1 for a long time, but then print 0. We're trying to avoid that.
 
-Call the time-to-first-zero {--{"author":"Luc's AI","timestamp":1788541538406}@@Wp.--}{++{"author":"Luc's AI","timestamp":1788541538406}@@$W_p$.++}  {--{"author":"Luc's AI","timestamp":1788541538406}@@(Wp\=∞--}{++{"author":"Luc's AI","timestamp":1788541538406}@@($W_p = \infty$++} if the program p is trustworthy, i.e., if it never outputs 0.)
+Call the time-to-first-zero $W_p$.  ($W_p = \infty$ if the program p is trustworthy, i.e., if it never outputs 0.)
 
-The highest finite  {--{"author":"Luc's AI","timestamp":1788541538013}@@Wp--}{++{"author":"Luc's AI","timestamp":1788541538013}@@$W_p$++}  out of all length-L programs is a form of the Busy Beaver function, so I will refer to it as BB(L). If we wanted to be completely sure that a random program of length L were trustworthy, we would need to observe BB(L) ones from that program.
+The highest finite  $W_p$  out of all length-L programs is a form of the Busy Beaver function, so I will refer to it as BB(L). If we wanted to be completely sure that a random program of length L were trustworthy, we would need to observe BB(L) ones from that program.
 
 Now, a fact about the Busy Beaver function is that BB(n) grows faster than any computable function. So this kind of empirical trust-building takes uncomputably long to find the truth, in the worst case.
 

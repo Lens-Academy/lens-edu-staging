@@ -44,17 +44,9 @@ However, it is also possible for a neural network to itself run an optimization 
 
 The possibility of mesa-optimizers has important implications for the safety of advanced machine learning systems. When a base optimizer generates a mesa-optimizer, safety properties of the base optimizer’s objective may not transfer to the mesa-optimizer. Thus, we explore two primary questions related to the safety of mesa-optimizers:
 
-1.{--{"author":"Luc's AI","timestamp":1788542925403}@@  1.
-    
-    Mesa-optimization: --}{++{"author":"Luc's AI","timestamp":1788542925403}@@ **Mesa-optimization:** ++}Under what circumstances will learned algorithms be optimizers?{--{"author":"Luc's AI","timestamp":1788542925403}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542925403}@@
-++}2.{--{"author":"Luc's AI","timestamp":1788542925403}@@  2.
-    
-    Inner alignment:--}{++{"author":"Luc's AI","timestamp":1788542925403}@@ **Inner alignment:**++} When a learned algorithm is an optimizer, what will its objective be, and how can it be aligned?{--{"author":"Luc's AI","timestamp":1788542925403}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542925403}@@
-++}
+1. **Mesa-optimization:** Under what circumstances will learned algorithms be optimizers?
+2. **Inner alignment:** When a learned algorithm is an optimizer, what will its objective be, and how can it be aligned?
+
 Once we have introduced our framework in [[#^1-introduction|section 1]], we will address the first question in [[#^2-conditions-for-mesa-optimization|section 2]], begin addressing the second question in [[#^3-the-inner-alignment-problem|section 3]], and finally delve deeper into a specific aspect of the second question in [[#^4-deceptive-alignment|section 4]].
 
 ### 1.1 Base optimizers and mesa-optimizers
@@ -123,17 +115,9 @@ Not all machine learning systems exhibit mesa-optimization, but some might. We s
 
 In this section, we consider how the following two components of a particular machine learning system might influence whether it will produce a mesa-optimizer:
 
-1.{--{"author":"Luc's AI","timestamp":1788542924393}@@  1.
-    
-    The task:--}{++{"author":"Luc's AI","timestamp":1788542924393}@@ **The task:**++} The training distribution and base objective function.{--{"author":"Luc's AI","timestamp":1788542924393}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542924393}@@
-++}2.{--{"author":"Luc's AI","timestamp":1788542924393}@@  2.
-    
-    The --}{++{"author":"Luc's AI","timestamp":1788542924393}@@ **The ++}base {--{"author":"Luc's AI","timestamp":1788542924393}@@optimizer:--}{++{"author":"Luc's AI","timestamp":1788542924393}@@optimizer:**++} The machine learning algorithm and model architecture.{--{"author":"Luc's AI","timestamp":1788542924393}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542924393}@@
-++}
+1. **The task:** The training distribution and base objective function.
+2. **The base optimizer:** The machine learning algorithm and model architecture.
+
 We deliberately choose to present theoretical considerations for why mesa-optimization may or may not occur rather than provide concrete examples. Mesa-optimization is a phenomenon that we believe will occur mainly in machine learning systems that are more advanced than those that exist today.[^note-hubinger-11] Thus, an attempt to induce mesa-optimization in a current machine learning system would likely require us to use an artificial setup specifically designed to induce mesa-optimization. Moreover, the limited interpretability of neural networks, combined with the fact that there is no general and precise definition of “optimizer,” means that it would be hard to evaluate whether a given model is a mesa-optimizer.
 
 ### 2.1 The task
@@ -194,21 +178,13 @@ Second, we hypothesize that the details of a machine learning model’s architec
 
 We can then formulate a notion of reachability, the difficulty for the base optimizer to find any given learned algorithm, which we can analyze in the case of a local optimization process. A local optimization process might fail to find a particular learned algorithm that would perform very well on the base objective if the learned algorithm is surrounded by other algorithms that perform poorly on the base objective. For a mesa-optimizer to be produced by a local optimization process, it needs to not only perform well on the base objective, but also be reachable; that is, there needs to be a path through the space of learned algorithms to it that is approximately monotonically increasing. Furthermore, the degree to which the path only need be approximate—that is, the degree to which ML training procedures can escape local optima—is likely to be critical, as optimization algorithms are complex enough that it might require a significant portion of the algorithm to be present before performance gains start being realized.
 
-{--{"author":"Luc's AI","timestamp":1788542922082}@@Model capacity.--}{++{"author":"Luc's AI","timestamp":1788542922082}@@**Model capacity.**++} One key factor likely to determine the reachability of mesa-optimizers in a given machine learning system is its model capacity—that is, how extensive is the set of algorithms (or how expressive is the model space) capable of being found by the base optimizer. The larger the model capacity, the broader the space of possible learned algorithms, and thus the more likely that it will be able to find one that is a mesa-optimizer, assuming the base optimizer is incentivized to do so. For example, architectures that explicitly give the algorithm access to a wide range of possible computations, such as recurrent neural networks or neural Turing machines,\[neural\_tms\] seem more likely to produce mesa-optimizers. Furthermore, the size of a model imposes a hard limit on the complexity of the functions it is able to represent. Thus, to the degree that the base optimizer is selecting based on performance, it will be driven to “squeeze out” as much performance as it can for any given model capacity, leading to an inductive bias in favor of relatively compressed policies.
+**Model capacity.** One key factor likely to determine the reachability of mesa-optimizers in a given machine learning system is its model capacity—that is, how extensive is the set of algorithms (or how expressive is the model space) capable of being found by the base optimizer. The larger the model capacity, the broader the space of possible learned algorithms, and thus the more likely that it will be able to find one that is a mesa-optimizer, assuming the base optimizer is incentivized to do so. For example, architectures that explicitly give the algorithm access to a wide range of possible computations, such as recurrent neural networks or neural Turing machines,\[neural\_tms\] seem more likely to produce mesa-optimizers. Furthermore, the size of a model imposes a hard limit on the complexity of the functions it is able to represent. Thus, to the degree that the base optimizer is selecting based on performance, it will be driven to “squeeze out” as much performance as it can for any given model capacity, leading to an inductive bias in favor of relatively compressed policies.
 
-{--{"author":"Luc's AI","timestamp":1788542922082}@@Inductive biases.--}{++{"author":"Luc's AI","timestamp":1788542922082}@@**Inductive biases.**++} Another important factor is the degree to which the base optimizer is explicitly or implicitly biased in various ways. The nature of these inductive biases will contribute to the likelihood of a mesa-optimizer being selected for. One of the most important kinds of inductive bias is simplicity bias, which would almost certainly be exhibited by almost all base optimizers. We identify two basic ways in which simplicity bias can manifest itself, in addition to the one due to model capacity as mentioned above:
+**Inductive biases.** Another important factor is the degree to which the base optimizer is explicitly or implicitly biased in various ways. The nature of these inductive biases will contribute to the likelihood of a mesa-optimizer being selected for. One of the most important kinds of inductive bias is simplicity bias, which would almost certainly be exhibited by almost all base optimizers. We identify two basic ways in which simplicity bias can manifest itself, in addition to the one due to model capacity as mentioned above:
 
-1.{--{"author":"Luc's AI","timestamp":1788542922082}@@  1.
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542922082}@@ ++}An explicit penalty due to parameter regularization or architectural constraints such as weight-sharing or sparse connections.{--{"author":"Luc's AI","timestamp":1788542922082}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542922082}@@
-++}2.{--{"author":"Luc's AI","timestamp":1788542922082}@@  2.
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542922082}@@ ++}An implicit bias due to the model architecture. For example, it has been shown that neural networks are more likely to fit a simple function to a set of training data, even when no regularization is used.\[nn\_simp\_bias\]{--{"author":"Luc's AI","timestamp":1788542922082}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542922082}@@
-++}
+1. An explicit penalty due to parameter regularization or architectural constraints such as weight-sharing or sparse connections.
+2. An implicit bias due to the model architecture. For example, it has been shown that neural networks are more likely to fit a simple function to a set of training data, even when no regularization is used.\[nn\_simp\_bias\]
+
 The more a base optimizer is biased towards simple solutions, the more it will be incentivized to find a compressed policy such as a mesa-optimizer.
 
 The base optimizer could also be biased in other ways. For example, it could be biased towards algorithms with a low time or space complexity. If we view mesa-optimization as delegation of optimization work, a time penalty on the learned algorithm is likely to incentivize the base optimizer to do more precomputation itself by pre-computing relevant heuristics rather than delegating optimization work to the learned algorithm. Thus, we hypothesize that penalizing description length will favor mesa-optimizers while penalizing time complexity will disfavor them. This suggests the following speculative conjecture: neither a minimal-depth nor minimal-size boolean circuit that solves a problem can be a mesa-optimizer.\[paul\_minimal\_circuits\]
@@ -241,22 +217,10 @@ What are the different ways in which a mesa-optimizer can be pseudo-aligned?
 
 There is currently no complete theory of the factors that affect whether a mesa-optimizer will be pseudo-aligned—that is, whether it will appear aligned on the training data, while actually optimizing for something other than the base objective. Nevertheless, we outline a basic classification of ways in which a mesa-optimizer could be pseudo-aligned:
 
-1.{--{"author":"Luc's AI","timestamp":1788542921005}@@  1.
-    
-    Proxy alignment,
-    
-2.  --}{++{"author":"Luc's AI","timestamp":1788542921005}@@ **Proxy alignment,**
-++}2.{--{"author":"Luc's AI","timestamp":1788542921005}@@
-    
-    Approximate alignment,--}{++{"author":"Luc's AI","timestamp":1788542921005}@@ **Approximate alignment,**++} and{--{"author":"Luc's AI","timestamp":1788542921005}@@
-    
-3.  --}{++{"author":"Luc's AI","timestamp":1788542921005}@@
-++}3.{--{"author":"Luc's AI","timestamp":1788542921005}@@
-    
-    Suboptimality alignment.
-    
---}{++{"author":"Luc's AI","timestamp":1788542921005}@@ **Suboptimality alignment.**
-++}
+1. **Proxy alignment,**
+2. **Approximate alignment,** and
+3. **Suboptimality alignment.**
+
 **Proxy alignment.** The basic idea of proxy alignment is that a mesa-optimizer can learn to optimize for some proxy of the base objective instead of the base objective itself. We’ll start by considering two special cases of proxy alignment: side-effect alignment and instrumental alignment.
 
 First, a mesa-optimizer is side-effect aligned if optimizing for the mesa-objective $O_{\text{mesa}}$ has the direct causal result of increasing the base objective $O_{\text{base}}$ in the training distribution, and thus when the mesa-optimizer optimizes $O_{\text{mesa}}$ it results in an increase in $O_{\text{base}}$. For an example of side-effect alignment, suppose that we are training a cleaning robot. Consider a robot that optimizes the number of times it has swept a dusty floor. Sweeping a floor causes the floor to be cleaned, so this robot would be given a good score by the base optimizer. However, if during deployment it is offered a way to make the floor dusty again after cleaning it (e.g. by scattering the dust it swept up back onto the floor), the robot will take it, as it can then continue sweeping dusty floors.
@@ -267,7 +231,7 @@ We propose that it is possible to understand the general interaction between sid
 
 Suppose we model a task as a causal graph with nodes for all possible attributes of that task and arrows between nodes for all possible relationships between those attributes. Then we can also think of the mesa-objective $O_{\text{mesa}}$ and the base objective $O_{\text{base}}$ as nodes in this graph. For $O_{\text{mesa}}$ to be pseudo-aligned, there must exist some node $X$ such that $X$ is an ancestor of both $O_{\text{mesa}}$ and $O_{\text{base}}$ in the training distribution, and such that $O_{\text{mesa}}$ and $O_{\text{base}}$ increase with $X$. If $X=O_{\text{mesa}}$, this is side-effect alignment, and if $X=O_{\text{base}}$, this is instrumental alignment.
 
-This represents the most generalized form of a relationship between $O_{\text{mesa}}$ and $O_{\text{base}}$ that can contribute to pseudo-alignment. Specifically, consider the causal graph given in [figure {--{"author":"Luc's AI","timestamp":1788542920385}@@2](#S3.F2--}{++{"author":"Luc's AI","timestamp":1788542920385}@@2.++} "In 3.1{--{"author":"Luc's AI","timestamp":1788542920385}@@ Pseudo-alignment ‣ 3 The inner alignment problem ‣ Risks --}{++{"author":"Luc's AI","timestamp":1788542920385}@@ MERGEDA ++}from Learned Optimization in Advanced Machine Learning {--{"author":"Luc's AI","timestamp":1788542920385}@@Systems").--}{++{"author":"Luc's AI","timestamp":1788542920385}@@ENDMARK++} A mesa-optimizer with mesa-objective $O_{\text{mesa}}$ will decide to optimize $X$ as an instrumental goal of optimizing $O_{\text{mesa}}$, since $X$ increases $O_{\text{mesa}}$. This will then result in $O_{\text{base}}$ increasing, since optimizing for $X$ has the side-effect of increasing $O_{\text{base}}$. Thus, in the general case, side-effect and instrumental alignment can work together to contribute to pseudo-alignment over the training distribution, which is the general case of proxy alignment.
+This represents the most generalized form of a relationship between $O_{\text{mesa}}$ and $O_{\text{base}}$ that can contribute to pseudo-alignment. Specifically, consider the causal graph given in [figure 2. "In 3.1 MERGEDA from Learned Optimization in Advanced Machine Learning ENDMARK A mesa-optimizer with mesa-objective $O_{\text{mesa}}$ will decide to optimize $X$ as an instrumental goal of optimizing $O_{\text{mesa}}$, since $X$ increases $O_{\text{mesa}}$. This will then result in $O_{\text{base}}$ increasing, since optimizing for $X$ has the side-effect of increasing $O_{\text{base}}$. Thus, in the general case, side-effect and instrumental alignment can work together to contribute to pseudo-alignment over the training distribution, which is the general case of proxy alignment.
 
 ![Refer to caption](https://ar5iv.labs.arxiv.org/html/1906.01820/assets/3_1.jpg)
 
@@ -351,17 +315,9 @@ For the sake of this example, we will assume that the agent knows all of the abo
 
 We can distinguish two ways that a base objective function could be incorporated into a mesa-optimizer:[^note-hubinger-22]
 
-1.{--{"author":"Luc's AI","timestamp":1788542917283}@@  1.
-    
-    Internalization --}{++{"author":"Luc's AI","timestamp":1788542917283}@@ **Internalization ++}of the base {--{"author":"Luc's AI","timestamp":1788542917283}@@objective.--}{++{"author":"Luc's AI","timestamp":1788542917283}@@objective.**++} The mesa-objective function gets adjusted towards the base objective function to the point where it is robustly aligned.{--{"author":"Luc's AI","timestamp":1788542917283}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542917283}@@
-++}2.{--{"author":"Luc's AI","timestamp":1788542917283}@@  2.
-    
-    Modeling --}{++{"author":"Luc's AI","timestamp":1788542917283}@@ **Modeling ++}of the base {--{"author":"Luc's AI","timestamp":1788542917283}@@objective.--}{++{"author":"Luc's AI","timestamp":1788542917283}@@objective.**++} The base objective is incorporated into the mesa-optimizer’s epistemic model rather than its objective, leaving open the possibility that the objective could still be misaligned.{--{"author":"Luc's AI","timestamp":1788542917283}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542917283}@@
-++}
+1. **Internalization of the base objective.** The mesa-objective function gets adjusted towards the base objective function to the point where it is robustly aligned.
+2. **Modeling of the base objective.** The base objective is incorporated into the mesa-optimizer’s epistemic model rather than its objective, leaving open the possibility that the objective could still be misaligned.
+
 In the former case, information about the base objective flows into the learned algorithm via the optimization performed by the base optimizer—the base objective is built into the mesa-optimizer as it is adapted by the base optimizer. But there is another possibility: information about the base objective could enter through the mesa-optimizer’s input channel instead. In this case, the base objective will be represented in the learned algorithm in a different—and potentially more unstable—way than if the base objective had been incorporated through optimization.[^note-hubinger-23] In such a case, the information describing the base objective does not become internalized in the mesa-objective, potentially leading to deceptive alignment.
 
 ### 4.1 Safety concerns arising from deceptive alignment
@@ -380,22 +336,10 @@ What conditions are necessary for a mesa-optimizer to become deceptively aligned
 
 We propose that for deceptive alignment to occur the following conditions must be satisfied:
 
-1.{--{"author":"Luc's AI","timestamp":1788542916878}@@  1.
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542916878}@@ ++}The mesa-optimizer must have an objective that extends across parameter updates.[^note-hubinger-25]{--{"author":"Luc's AI","timestamp":1788542916878}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542916878}@@
-++}2.{--{"author":"Luc's AI","timestamp":1788542916878}@@  2.
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542916878}@@ ++}The mesa-optimizer must be able to model the fact that it is being selected to achieve a particular base objective and must have some model of what that objective is.[^note-hubinger-26]{--{"author":"Luc's AI","timestamp":1788542916878}@@
-    
-3.  --}{++{"author":"Luc's AI","timestamp":1788542916878}@@
-++}3.{--{"author":"Luc's AI","timestamp":1788542916878}@@
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542916878}@@ ++}The mesa-optimizer must expect the threat of modification[^note-hubinger-27] to eventually go away, either due to training ending or because of actions taken by the mesa-optimizer.{--{"author":"Luc's AI","timestamp":1788542916878}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542916878}@@
-++}
+1. The mesa-optimizer must have an objective that extends across parameter updates.[^note-hubinger-25]
+2. The mesa-optimizer must be able to model the fact that it is being selected to achieve a particular base objective and must have some model of what that objective is.[^note-hubinger-26]
+3. The mesa-optimizer must expect the threat of modification[^note-hubinger-27] to eventually go away, either due to training ending or because of actions taken by the mesa-optimizer.
+
 If the first condition is not satisfied, then the mesa-optimizer has no incentive to influence the outcome of parameter updates and will just always defect. If the second condition is not satisfied, then the mesa-optimizer will not see a reason to sacrifice gains in its current episode, as it expects future gains to be independent of what happens in this episode. If the third condition is not satisfied, then the mesa-optimizer will not expect any benefit from temporarily acting in accordance with the base objective, and will thus either always defect or never defect. One must distinguish the question of whether these conditions are possible from whether they are likely, however. We examine the factors involved in each of these conditions below.
 
 **The mesa-optimizer must have an objective that extends across parameter updates.** It is not clear under what conditions such objectives would be incentivized. The most plausible scenario is likely one in which such an objective is encouraged by the training setup, as there seem to be situations in which this would be required for good performance. For example, the agent might be tasked with solving an environment in which its actions can have permanent consequences across episodes or where planning between episodes is otherwise necessary.
@@ -410,17 +354,9 @@ This suggests that it may be desirable for the programmers to limit the mesa-opt
 
 Even if the programmers successfully limit access to this information, however, there may still be other channels through which information about the base objective could enter the mesa-optimizer in unintended ways:
 
--{--{"author":"Luc's AI","timestamp":1788542915800}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542915800}@@ ++}The mesa-optimizer could reason about why it is given the particular tasks it is being asked to solve. Most mesa-optimizers would need a prior over the sorts of tasks they are likely to receive, and a mesa-optimizer might be able to learn about the existence of the base optimizer by inspecting this prior.{--{"author":"Luc's AI","timestamp":1788542915800}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542915800}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542915800}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542915800}@@ ++}The mesa-optimizer might be able to reason about itself and about why it is the kind of thing that it is, and observe that it is well-designed to accomplish some goal.{--{"author":"Luc's AI","timestamp":1788542915800}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542915800}@@
-++}
+- The mesa-optimizer could reason about why it is given the particular tasks it is being asked to solve. Most mesa-optimizers would need a prior over the sorts of tasks they are likely to receive, and a mesa-optimizer might be able to learn about the existence of the base optimizer by inspecting this prior.
+- The mesa-optimizer might be able to reason about itself and about why it is the kind of thing that it is, and observe that it is well-designed to accomplish some goal.
+
 However, these two strategies might require a much more advanced mesa-optimizer.
 
 **The mesa-optimizer must expect the threat of modification to eventually go away, either due to training ending or because of actions taken by the mesa-optimizer.** First, note that this condition is a statement about the mesa-optimizer’s expectations, not necessarily the actual truth. Second, even if there is no point at which training stops by design, so long as there exists some way for the mesa-optimizer to execute a treacherous turn, there is always some way for it to remove the threat of modification. For the mesa-optimizer to act on such a strategy, however, it has to actually be aware of some way for it to do so. Conversely, a mesa-optimizer that mistakenly believes it has an opportunity to defect might also exhibit deceptive alignment.
@@ -445,22 +381,10 @@ Will a mesa-optimizer with extensive training still be deceptive?
 
 In the limit of training on a diverse set of tasks, we expect joint optimization of both the base and mesa- objectives to be unstable. Assuming that the mesa-optimizer converges towards behavior that is optimal from the perspective of the base optimizer, the mesa-optimizer must somehow learn the base objective. We identify three distinct ways in which this can happen:
 
-1.{--{"author":"Luc's AI","timestamp":1788542914469}@@  1.
-    
-    Robust --}{++{"author":"Luc's AI","timestamp":1788542914469}@@ **Robust ++}alignment through {--{"author":"Luc's AI","timestamp":1788542914469}@@internalization.--}{++{"author":"Luc's AI","timestamp":1788542914469}@@internalization.**++} The mesa-objective function gets adjusted towards the base objective function, removing any pseudo-alignment.{--{"author":"Luc's AI","timestamp":1788542914469}@@
-    
-2.  --}{++{"author":"Luc's AI","timestamp":1788542914469}@@
-++}2.{--{"author":"Luc's AI","timestamp":1788542914469}@@
-    
-    Crystallization --}{++{"author":"Luc's AI","timestamp":1788542914469}@@ **Crystallization ++}of deceptive {--{"author":"Luc's AI","timestamp":1788542914469}@@alignment.--}{++{"author":"Luc's AI","timestamp":1788542914469}@@alignment.**++} Information about the base objective is increasingly incorporated into the mesa-optimizer’s epistemic model without its objective becoming robustly aligned. The mesa-optimizer ends up fully optimizing for the base objective, but only for instrumental reasons, without its mesa-objective getting changed.{--{"author":"Luc's AI","timestamp":1788542914469}@@
-    
-3.  --}{++{"author":"Luc's AI","timestamp":1788542914469}@@
-++}3.{--{"author":"Luc's AI","timestamp":1788542914469}@@
-    
-    Robust --}{++{"author":"Luc's AI","timestamp":1788542914469}@@ **Robust ++}alignment through {--{"author":"Luc's AI","timestamp":1788542914469}@@corrigibility.--}{++{"author":"Luc's AI","timestamp":1788542914469}@@corrigibility.**++} Information about the base objective is incorporated into the mesa-optimizer’s epistemic model and its objective is modified to “point to” that information. This situation would correspond to a mesa-optimizer that is corrigible\[corrigibility\] with respect to the base objective (though not necessarily the programmer’s intentions).{--{"author":"Luc's AI","timestamp":1788542914469}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542914469}@@
-++}
+1. **Robust alignment through internalization.** The mesa-objective function gets adjusted towards the base objective function, removing any pseudo-alignment.
+2. **Crystallization of deceptive alignment.** Information about the base objective is increasingly incorporated into the mesa-optimizer’s epistemic model without its objective becoming robustly aligned. The mesa-optimizer ends up fully optimizing for the base objective, but only for instrumental reasons, without its mesa-objective getting changed.
+3. **Robust alignment through corrigibility.** Information about the base objective is incorporated into the mesa-optimizer’s epistemic model and its objective is modified to “point to” that information. This situation would correspond to a mesa-optimizer that is corrigible\[corrigibility\] with respect to the base objective (though not necessarily the programmer’s intentions).
+
 To distinguish between the two different paths to robust alignment, we will use the term internally aligned to refer to the first case and the term corrigibly aligned to refer to the last case. We analyze some ways in which these different paths may be more or less attractive below.
 
 **There are more paths to deceptive alignment than to robust alignment.** Since the future value of its objective depends on the parameter updates, a mesa-optimizer that meets the three criteria for deceptive alignment is likely to have a strong incentive to understand the base objective better. Even a robustly aligned mesa-optimizer that meets the criteria is incentivized to figure out the base objective in order to determine whether or not it will be modified, since before doing so it has no way of knowing its own level of alignment with the base optimizer. Mesa-optimizers that are capable of reasoning about their incentives will, therefore, attempt to get more information about the base objective. Furthermore, once a mesa-optimizer learns about the base objective, the selection pressure acting on its objective will significantly decrease, potentially leading to a crystallization of the mesa-objective. However, due to unidentifiability (as discussed in [[#^3-the-inner-alignment-problem|section 3]]), most mesa-objectives that are aligned on the training data will be pseudo-aligned rather than robustly aligned. Thus, the most likely sort of objective to become crystallized is a pseudo-aligned one, leading to deceptive alignment.
@@ -497,47 +421,15 @@ First, it would significantly limit the use cases for the system. Machine learni
 
 Second, there are subtle forms of distributional shift that seem very difficult to eliminate. For example, if the mesa-optimizer is able to detect the presence of parameter updates—via any state carried over between steps, for instance—then it would always experience a form of distributional shift at deployment. Running the system for a longer amount of time (or giving the system access to some form of long-term memories) would also constitute a form of distributional shift. Some examples of differences that a mesa-optimizer might be able to detect include:
 
--{--{"author":"Luc's AI","timestamp":1788542913844}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542913844}@@ ++}Training in a simulated environment and deploying in the real world.{--{"author":"Luc's AI","timestamp":1788542913844}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542913844}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542913844}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542913844}@@ ++}Running the system for a different amount of time during training and testing.{--{"author":"Luc's AI","timestamp":1788542913844}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542913844}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542913844}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542913844}@@ ++}If a model is able to learn from its past experiences, then having access to more memories, or having access to the kinds of memories it would form at later time steps (if there is a difference between the two).{--{"author":"Luc's AI","timestamp":1788542913844}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542913844}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542913844}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542913844}@@ ++}The presence of adversarial-example-type attacks by an adversary during deployment.{--{"author":"Luc's AI","timestamp":1788542913844}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542913844}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542913844}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542913844}@@ ++}Encountering something that is very hard to compute during training, but that is likely to eventually be computed during deployment (e.g. a factorization of RSA 2048\[paul\_robust\_corrigibility\]).{--{"author":"Luc's AI","timestamp":1788542913844}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542913844}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542913844}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542913844}@@ ++}The ability of the base optimizer to modify the learned algorithm during training but not at other times.{--{"author":"Luc's AI","timestamp":1788542913844}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542913844}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542913844}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542913844}@@ ++}The ability of the programmers to correct for perceived errors during training and testing but not deployment.{--{"author":"Luc's AI","timestamp":1788542913844}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542913844}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542913844}@@   •
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542913844}@@ ++}The presence or absence of good opportunities for the mesa-optimizer to defect against its programmers.{--{"author":"Luc's AI","timestamp":1788542913844}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542913844}@@
-++}
+- Training in a simulated environment and deploying in the real world.
+- Running the system for a different amount of time during training and testing.
+- If a model is able to learn from its past experiences, then having access to more memories, or having access to the kinds of memories it would form at later time steps (if there is a difference between the two).
+- The presence of adversarial-example-type attacks by an adversary during deployment.
+- Encountering something that is very hard to compute during training, but that is likely to eventually be computed during deployment (e.g. a factorization of RSA 2048\[paul\_robust\_corrigibility\]).
+- The ability of the base optimizer to modify the learned algorithm during training but not at other times.
+- The ability of the programmers to correct for perceived errors during training and testing but not deployment.
+- The presence or absence of good opportunities for the mesa-optimizer to defect against its programmers.
+
 Furthermore, it should be noted that it is not strictly necessary that a mesa-optimizer be able to detect the difference between training and deployment in order for it to be incentivized to behave deceptively. Consider again the example in [figure 3](#S4.F3 "In 4 Deceptive alignment ‣ Risks from Learned Optimization in Advanced Machine Learning Systems"), but suppose this time that the mesa-optimizer is unable to detect which episode it is currently in. The mesa-optimizer is then facing a decision problem similar to the “absent-minded driver problem.”\[absent\_minded\_driver\] If we apply the same reasoning as in the absent-minded driver problem to our example in [figure 3](#S4.F3 "In 4 Deceptive alignment ‣ Risks from Learned Optimization in Advanced Machine Learning Systems"), the planning-optimal policy for the mesa-optimizer is to defect with probability $p\approx 0.61$. Thus, the mesa-optimizer need not be able to detect when training has ended for it to be incentivized to “gamble” and randomly defect with some probability. Furthermore, a deceptively aligned mesa-optimizer might also try to look for opportunities to defect that would be exceptionally good conditional on it currently not being trained, but that are rare enough to be unlikely to come up during training.
 
 ## 5 Related work ^5-related-work
@@ -574,156 +466,49 @@ More research is needed to understand the nature of mesa-optimization in order t
 
 In this paper, we have argued for the existence of two basic AI safety problems: the problem that mesa-optimizers may arise even when not desired (unintended mesa-optimization), and the problem that mesa-optimizers may not be aligned with the original system’s objective (the inner alignment problem). However, our work is still only speculative. We are thus left with several possibilities:
 
-1.{--{"author":"Luc's AI","timestamp":1788542911288}@@  1.
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542911288}@@ ++}If mesa-optimizers are very unlikely to occur in advanced ML systems (and we do not develop them on purpose), then mesa-optimization and inner alignment are not concerns.{--{"author":"Luc's AI","timestamp":1788542911288}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542911288}@@
-++}2.{--{"author":"Luc's AI","timestamp":1788542911288}@@  2.
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542911288}@@ ++}If mesa-optimizers are not only likely to occur but also difficult to prevent, then solving both inner alignment and outer alignment becomes critical for achieving confidence in highly capable AI systems.{--{"author":"Luc's AI","timestamp":1788542911288}@@
-    
-3.  --}{++{"author":"Luc's AI","timestamp":1788542911288}@@
-++}3.{--{"author":"Luc's AI","timestamp":1788542911288}@@
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542911288}@@ ++}If mesa-optimizers are likely to occur in future AI systems by default, and there turns out to be some way of preventing mesa-optimizers from arising, then instead of solving the inner alignment problem, it may be better to design systems to not produce a mesa-optimizer at all. Furthermore, in such a scenario, some parts of the outer alignment problem may not need to be solved either: if an AI system can be prevented from implementing any sort of optimization algorithm, then there may be more situations where it is safe for the system to be trained on an objective that is not perfectly aligned with the programmer’s intentions. That is, if a learned algorithm is not an optimizer, it might not optimize the objective to such an extreme that it would cease to produce positive outcomes.{--{"author":"Luc's AI","timestamp":1788542911288}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542911288}@@
-++}
+1. If mesa-optimizers are very unlikely to occur in advanced ML systems (and we do not develop them on purpose), then mesa-optimization and inner alignment are not concerns.
+2. If mesa-optimizers are not only likely to occur but also difficult to prevent, then solving both inner alignment and outer alignment becomes critical for achieving confidence in highly capable AI systems.
+3. If mesa-optimizers are likely to occur in future AI systems by default, and there turns out to be some way of preventing mesa-optimizers from arising, then instead of solving the inner alignment problem, it may be better to design systems to not produce a mesa-optimizer at all. Furthermore, in such a scenario, some parts of the outer alignment problem may not need to be solved either: if an AI system can be prevented from implementing any sort of optimization algorithm, then there may be more situations where it is safe for the system to be trained on an objective that is not perfectly aligned with the programmer’s intentions. That is, if a learned algorithm is not an optimizer, it might not optimize the objective to such an extreme that it would cease to produce positive outcomes.
+
 Our uncertainty on this matter is a potentially significant hurdle to determining the best approaches to AI safety. If we do not know the relative difficulties of the inner alignment problem and the unintended optimization problem, then it is unclear how to adequately assess approaches that rely on solving one or both of these problems (such as Iterated Distillation and Amplification\[amplification\] or AI safety via debate\[debate\]). We therefore suggest that it is both an important and timely task for future AI safety work to pin down the conditions under which the inner alignment problem and the unintended optimization problem are likely to occur as well as the techniques needed to solve them.
 
 ## 7 Glossary
 
 ### 7.1 Section 1 Glossary
 
--{--{"author":"Luc's AI","timestamp":1788542910601}@@   •
-    
-    Base optimizer:--}{++{"author":"Luc's AI","timestamp":1788542910601}@@ **Base optimizer:**++} A {--{"author":"Luc's AI","timestamp":1788542910601}@@base optimizer--}{++{"author":"Luc's AI","timestamp":1788542910601}@@*base optimizer*++} is an optimizer that searches through algorithms according to some objective.{--{"author":"Luc's AI","timestamp":1788542910601}@@
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542910601}@@
-    ++}-{--{"author":"Luc's AI","timestamp":1788542910601}@@   –
-        
-        Base objective:--}{++{"author":"Luc's AI","timestamp":1788542910601}@@ **Base objective:**++} A {--{"author":"Luc's AI","timestamp":1788542910601}@@base objective--}{++{"author":"Luc's AI","timestamp":1788542910601}@@*base objective*++} is the objective of a base optimizer.{--{"author":"Luc's AI","timestamp":1788542910601}@@
-        
-    
---}{++{"author":"Luc's AI","timestamp":1788542910601}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542910601}@@   •
-    
-    Behavioral objective:--}{++{"author":"Luc's AI","timestamp":1788542910601}@@ **Behavioral objective:**++} The {--{"author":"Luc's AI","timestamp":1788542910601}@@behavioral objective--}{++{"author":"Luc's AI","timestamp":1788542910601}@@*behavioral objective*++} is what an optimizer appears to be optimizing for. Formally, the behavioral objective is the objective recovered from perfect inverse reinforcement learning.{--{"author":"Luc's AI","timestamp":1788542910601}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542910601}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542910601}@@   •
-    
-    Inner alignment:--}{++{"author":"Luc's AI","timestamp":1788542910601}@@ **Inner alignment:**++} The {--{"author":"Luc's AI","timestamp":1788542910601}@@inner--}{++{"author":"Luc's AI","timestamp":1788542910601}@@*inner++} alignment {--{"author":"Luc's AI","timestamp":1788542910601}@@problem--}{++{"author":"Luc's AI","timestamp":1788542910601}@@problem*++} is the problem of aligning the base and mesa- objectives of an advanced ML system.{--{"author":"Luc's AI","timestamp":1788542910601}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542910601}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542910601}@@   •
-    
-    Learned algorithm: --}{++{"author":"Luc's AI","timestamp":1788542910601}@@ **Learned algorithm:** ++}The algorithms that a base optimizer is searching through are called {--{"author":"Luc's AI","timestamp":1788542910601}@@learned algorithms.
-    
---}{++{"author":"Luc's AI","timestamp":1788542910601}@@*learned algorithms.*
-++}-{--{"author":"Luc's AI","timestamp":1788542910601}@@   •
-    
-    Mesa-optimizer: --}{++{"author":"Luc's AI","timestamp":1788542910601}@@ **Mesa-optimizer:** ++}A {--{"author":"Luc's AI","timestamp":1788542910601}@@mesa-optimizer--}{++{"author":"Luc's AI","timestamp":1788542910601}@@*mesa-optimizer*++} is a learned algorithm that is itself an optimizer.{--{"author":"Luc's AI","timestamp":1788542910601}@@
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542910601}@@
-    ++}-{--{"author":"Luc's AI","timestamp":1788542910601}@@   –
-        
-        Mesa-objective: --}{++{"author":"Luc's AI","timestamp":1788542910601}@@ **Mesa-objective:** ++}A {--{"author":"Luc's AI","timestamp":1788542910601}@@mesa-objective--}{++{"author":"Luc's AI","timestamp":1788542910601}@@*mesa-objective*++} is the objective of a mesa-optimizer.{--{"author":"Luc's AI","timestamp":1788542910601}@@
-        
-    --}{++{"author":"Luc's AI","timestamp":1788542910601}@@
-    ++}-{--{"author":"Luc's AI","timestamp":1788542910601}@@   –
-        
-        Mesa-optimization: Mesa-optimization--}{++{"author":"Luc's AI","timestamp":1788542910601}@@ **Mesa-optimization:** *Mesa-optimization*++} refers to the situation in which a learned algorithm found by a base optimizer is itself an optimizer.{--{"author":"Luc's AI","timestamp":1788542910601}@@
-        
-    
---}{++{"author":"Luc's AI","timestamp":1788542910601}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542910601}@@   •
-    
-    Meta-optimizer: --}{++{"author":"Luc's AI","timestamp":1788542910601}@@ **Meta-optimizer:** ++}A {--{"author":"Luc's AI","timestamp":1788542910601}@@meta-optimizer--}{++{"author":"Luc's AI","timestamp":1788542910601}@@*meta-optimizer*++} is a system which is tasked with producing a base optimizer.{--{"author":"Luc's AI","timestamp":1788542910601}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542910601}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542910601}@@   •
-    
-    Optimizer: --}{++{"author":"Luc's AI","timestamp":1788542910601}@@ **Optimizer:** ++}An {--{"author":"Luc's AI","timestamp":1788542910601}@@optimizer--}{++{"author":"Luc's AI","timestamp":1788542910601}@@*optimizer*++} is a system that internally searches through some space of possible outputs, policies, plans, strategies, etc. looking for those that do well according to some internally-represented objective function.{--{"author":"Luc's AI","timestamp":1788542910601}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542910601}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542910601}@@   •
-    
-    Outer alignment:--}{++{"author":"Luc's AI","timestamp":1788542910601}@@ **Outer alignment:**++} The {--{"author":"Luc's AI","timestamp":1788542910601}@@outer--}{++{"author":"Luc's AI","timestamp":1788542910601}@@*outer++} alignment {--{"author":"Luc's AI","timestamp":1788542910601}@@problem--}{++{"author":"Luc's AI","timestamp":1788542910601}@@problem*++} is the problem of aligning the base objective of an advanced ML system with the desired goal of the programmers.{--{"author":"Luc's AI","timestamp":1788542910601}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542910601}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542910601}@@   •
-    
-    Pseudo-alignment: --}{++{"author":"Luc's AI","timestamp":1788542910601}@@ **Pseudo-alignment:** ++}A mesa-optimizer is {--{"author":"Luc's AI","timestamp":1788542910601}@@pseudo-aligned--}{++{"author":"Luc's AI","timestamp":1788542910601}@@*pseudo-aligned*++} with the base objective if it appears aligned on the training data but is not robustly aligned.{--{"author":"Luc's AI","timestamp":1788542910601}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542910601}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542910601}@@   •
-    
-    Robust alignment:--}{++{"author":"Luc's AI","timestamp":1788542910601}@@ **Robust alignment:**++} A mesa-optimizer is {--{"author":"Luc's AI","timestamp":1788542910601}@@robustly aligned--}{++{"author":"Luc's AI","timestamp":1788542910601}@@*robustly aligned*++} with the base objective if it robustly optimizes for the base objective across distributions.{--{"author":"Luc's AI","timestamp":1788542910601}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542910601}@@
-++}
+- **Base optimizer:** A *base optimizer* is an optimizer that searches through algorithms according to some objective.
+    - **Base objective:** A *base objective* is the objective of a base optimizer.
+- **Behavioral objective:** The *behavioral objective* is what an optimizer appears to be optimizing for. Formally, the behavioral objective is the objective recovered from perfect inverse reinforcement learning.
+- **Inner alignment:** The *inner alignment problem* is the problem of aligning the base and mesa- objectives of an advanced ML system.
+- **Learned algorithm:** The algorithms that a base optimizer is searching through are called *learned algorithms.*
+- **Mesa-optimizer:** A *mesa-optimizer* is a learned algorithm that is itself an optimizer.
+    - **Mesa-objective:** A *mesa-objective* is the objective of a mesa-optimizer.
+    - **Mesa-optimization:** *Mesa-optimization* refers to the situation in which a learned algorithm found by a base optimizer is itself an optimizer.
+- **Meta-optimizer:** A *meta-optimizer* is a system which is tasked with producing a base optimizer.
+- **Optimizer:** An *optimizer* is a system that internally searches through some space of possible outputs, policies, plans, strategies, etc. looking for those that do well according to some internally-represented objective function.
+- **Outer alignment:** The *outer alignment problem* is the problem of aligning the base objective of an advanced ML system with the desired goal of the programmers.
+- **Pseudo-alignment:** A mesa-optimizer is *pseudo-aligned* with the base objective if it appears aligned on the training data but is not robustly aligned.
+- **Robust alignment:** A mesa-optimizer is *robustly aligned* with the base objective if it robustly optimizes for the base objective across distributions.
+
 ### 7.2 Section 2 Glossary
 
--{--{"author":"Luc's AI","timestamp":1788542910309}@@   •
-    
-    Local --}{++{"author":"Luc's AI","timestamp":1788542910309}@@ **Local ++}optimization {--{"author":"Luc's AI","timestamp":1788542910309}@@process:--}{++{"author":"Luc's AI","timestamp":1788542910309}@@process:**++} A {--{"author":"Luc's AI","timestamp":1788542910309}@@local--}{++{"author":"Luc's AI","timestamp":1788542910309}@@*local++} optimization {--{"author":"Luc's AI","timestamp":1788542910309}@@process--}{++{"author":"Luc's AI","timestamp":1788542910309}@@process*++} is an optimizer that uses local hill-climbing as its means of search.{--{"author":"Luc's AI","timestamp":1788542910309}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542910309}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542910309}@@   •
-    
-    Reachability: --}{++{"author":"Luc's AI","timestamp":1788542910309}@@ **Reachability:** ++}The {--{"author":"Luc's AI","timestamp":1788542910309}@@reachability--}{++{"author":"Luc's AI","timestamp":1788542910309}@@*reachability*++} of a learned algorithm refers to the difficulty for the base optimizer to find that learned algorithm.{--{"author":"Luc's AI","timestamp":1788542910309}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542910309}@@
-++}
+- **Local optimization process:** A *local optimization process* is an optimizer that uses local hill-climbing as its means of search.
+- **Reachability:** The *reachability* of a learned algorithm refers to the difficulty for the base optimizer to find that learned algorithm.
+
 ### 7.3 Section 3 Glossary
 
--{--{"author":"Luc's AI","timestamp":1788542909987}@@   •
-    
-    Approximate alignment:--}{++{"author":"Luc's AI","timestamp":1788542909987}@@ **Approximate alignment:**++} An {--{"author":"Luc's AI","timestamp":1788542909987}@@approximately aligned--}{++{"author":"Luc's AI","timestamp":1788542909987}@@*approximately aligned*++} mesa-optimizer is a pseudo-aligned mesa-optimizer where the base and mesa- objectives are approximately the same up to some degree of approximation error due to the difficulty of representing the base objective in the mesa-optimizer.{--{"author":"Luc's AI","timestamp":1788542909987}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542909987}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542909987}@@   •
-    
-    Proxy alignment: --}{++{"author":"Luc's AI","timestamp":1788542909987}@@ **Proxy alignment:** ++}A {--{"author":"Luc's AI","timestamp":1788542909987}@@proxy aligned--}{++{"author":"Luc's AI","timestamp":1788542909987}@@*proxy aligned*++} mesa-optimizer is a pseudo-aligned mesa-optimizer that has learned to optimize for some proxy of the base objective instead of the base objective itself.{--{"author":"Luc's AI","timestamp":1788542909987}@@
-    
-    --}{++{"author":"Luc's AI","timestamp":1788542909987}@@
-    ++}-{--{"author":"Luc's AI","timestamp":1788542909987}@@   –
-        
-        Instrumental alignment: Instrumental alignment--}{++{"author":"Luc's AI","timestamp":1788542909987}@@ **Instrumental alignment:** *Instrumental alignment*++} is a type of proxy alignment in which the mesa-optimizer optimizes the proxy as an instrumental goal of increasing the mesa-objective in the training distribution.{--{"author":"Luc's AI","timestamp":1788542909987}@@
-        
-    --}{++{"author":"Luc's AI","timestamp":1788542909987}@@
-    ++}-{--{"author":"Luc's AI","timestamp":1788542909987}@@   –
-        
-        Side-effect alignment: Side-effect alignment --}{++{"author":"Luc's AI","timestamp":1788542909987}@@ **Side-effect alignment:** *Side-effect alignment* ++}is a type of proxy alignment in which optimizing for the mesa-objective has the direct causal result of increasing the base objective in the training distribution.{--{"author":"Luc's AI","timestamp":1788542909987}@@
-        
-    
---}{++{"author":"Luc's AI","timestamp":1788542909987}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542909987}@@   •
-    
-    Suboptimality alignment:--}{++{"author":"Luc's AI","timestamp":1788542909987}@@ **Suboptimality alignment:**++} A {--{"author":"Luc's AI","timestamp":1788542909987}@@suboptimality aligned--}{++{"author":"Luc's AI","timestamp":1788542909987}@@*suboptimality aligned*++} mesa-optimizer is a pseudo-aligned mesa-optimizer in which some deficiency, error, or limitation causes it to exhibit aligned behavior.{--{"author":"Luc's AI","timestamp":1788542909987}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542909987}@@
-++}
+- **Approximate alignment:** An *approximately aligned* mesa-optimizer is a pseudo-aligned mesa-optimizer where the base and mesa- objectives are approximately the same up to some degree of approximation error due to the difficulty of representing the base objective in the mesa-optimizer.
+- **Proxy alignment:** A *proxy aligned* mesa-optimizer is a pseudo-aligned mesa-optimizer that has learned to optimize for some proxy of the base objective instead of the base objective itself.
+    - **Instrumental alignment:** *Instrumental alignment* is a type of proxy alignment in which the mesa-optimizer optimizes the proxy as an instrumental goal of increasing the mesa-objective in the training distribution.
+    - **Side-effect alignment:** *Side-effect alignment* is a type of proxy alignment in which optimizing for the mesa-objective has the direct causal result of increasing the base objective in the training distribution.
+- **Suboptimality alignment:** A *suboptimality aligned* mesa-optimizer is a pseudo-aligned mesa-optimizer in which some deficiency, error, or limitation causes it to exhibit aligned behavior.
+
 ### 7.4 Section 4 Glossary
 
--{--{"author":"Luc's AI","timestamp":1788542909656}@@   •
-    
-    Corrigible alignment:--}{++{"author":"Luc's AI","timestamp":1788542909656}@@ **Corrigible alignment:**++} A {--{"author":"Luc's AI","timestamp":1788542909656}@@corrigibly aligned--}{++{"author":"Luc's AI","timestamp":1788542909656}@@*corrigibly aligned*++} mesa-optimizer is a robustly aligned mesa-optimizer that has a mesa-objective that “points to” its epistemic model of the base objective.{--{"author":"Luc's AI","timestamp":1788542909656}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542909656}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542909656}@@   •
-    
-    Deceptive alignment:--}{++{"author":"Luc's AI","timestamp":1788542909656}@@ **Deceptive alignment:**++} A {--{"author":"Luc's AI","timestamp":1788542909656}@@deceptively aligned--}{++{"author":"Luc's AI","timestamp":1788542909656}@@*deceptively aligned*++} mesa-optimizer is a pseudo-aligned mesa-optimizer that has enough information about the base objective to seem more fit from the perspective of the base optimizer than it actually is.{--{"author":"Luc's AI","timestamp":1788542909656}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542909656}@@
-++}-{--{"author":"Luc's AI","timestamp":1788542909656}@@   •
-    
-    Internal alignment: --}{++{"author":"Luc's AI","timestamp":1788542909656}@@ **Internal alignment:** ++}An {--{"author":"Luc's AI","timestamp":1788542909656}@@internally aligned--}{++{"author":"Luc's AI","timestamp":1788542909656}@@*internally aligned*++} mesa-optimizer is a robustly aligned mesa-optimizer that has internalized the base objective in its mesa-objective.{--{"author":"Luc's AI","timestamp":1788542909656}@@
-    
---}{++{"author":"Luc's AI","timestamp":1788542909656}@@
-++}
+- **Corrigible alignment:** A *corrigibly aligned* mesa-optimizer is a robustly aligned mesa-optimizer that has a mesa-objective that “points to” its epistemic model of the base objective.
+- **Deceptive alignment:** A *deceptively aligned* mesa-optimizer is a pseudo-aligned mesa-optimizer that has enough information about the base objective to seem more fit from the perspective of the base optimizer than it actually is.
+- **Internal alignment:** An *internally aligned* mesa-optimizer is a robustly aligned mesa-optimizer that has internalized the base objective in its mesa-objective.
+
 [^note-hubinger-1]: As a concrete example of what a neural network optimizer might look like, consider TreeQN.\[treeqn\] TreeQN, as described in Farquhar et al., is a Q-learning agent that performs model-based planning (via tree search in a latent representation of the environment states) as part of its computation of the Q-function. Though their agent is an optimizer by design, one could imagine a similar algorithm being learned by a DQN agent with a sufficiently expressive approximator for the Q function. Universal Planning Networks, as described by Srinivas et al.,\[univ\_plan\_net\] provide another example of a learned system that performs optimization, though the optimization there is built-in in the form of SGD via automatic differentiation. However, research such as that in Andrychowicz et al.\[grad\_by\_grad\] and Duan et al.\[rl2\] demonstrate that optimization algorithms can be learned by RNNs, making it possible that a Universal Planning Networks-like agent could be entirely learned—assuming a very expressive model space—including the internal optimization steps. Note that while these examples are taken from reinforcement learning, optimization might in principle take place in any sufficiently expressive learned system.
 [^note-hubinger-2]: Previous work in this space has often centered around the concept of “optimization daemons,”\[arbital\_daemons\] a framework that we believe is potentially misleading and hope to supplant. Notably, the term “optimization daemon” came out of discussions regarding the nature of humans and evolution, and, as a result, carries anthropomorphic connotations.
 [^note-hubinger-3]: The word mesa has been proposed as the opposite of meta.\[mesa\] The duality comes from thinking of meta-optimization as one layer above the base optimizer and mesa-optimization as one layer below.

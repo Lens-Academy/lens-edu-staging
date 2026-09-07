@@ -74,7 +74,7 @@ Even a singleton will tend to have internal parts which function as subagents; t
 
 Is this inevitable? Hopefully not, and I think probably not. Even if Pythia is the strongest attractor in the landscape of minds, there seem likely to be other metastable states. A powerful system can come up with a wide range of strategies to stop itself decaying, perhaps by reloading from an earlier non-corrupted state or by performing advanced checks on itself to detect value drift, or something much better thought up as a major strategic priority of a superintelligence not one ape brain thinking for a few minutes.
 
-{--{"author":"Luc's AI","timestamp":1788542629932}@@![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/qqEndN5Cuzbat9fyx/qho51tikqqptlqbitzyv)--}{++{"author":"Luc's AI","timestamp":1788542629932}@@![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/qqEndN5Cuzbat9fyx/zprumdyvvsuplrxsvarq)++}
+![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/qqEndN5Cuzbat9fyx/zprumdyvvsuplrxsvarq)
 
 *We could go to either a truly stable state like Pythia or a metastable state like an aligned sovereign.*
 
