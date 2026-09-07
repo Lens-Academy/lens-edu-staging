@@ -6,8 +6,8 @@ summary_for_tutor: "Compatibility link for an earlier split lens. Direct learner
 duration_minutes: 1
 tags: [wip]
 add_to_ai_context:
-  - "[[../articles/2040-ai-2040-plan-a]]"
-  - "[[../articles/2040-plan-a-faq]]"
+  - "[[../articles/dean-ai-2040-verification-plan]]"
+  - "[[../articles/ai-futures-project-plan-a-faq]]"
 ---
 #### Text
 content::

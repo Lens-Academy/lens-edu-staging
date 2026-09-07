@@ -6,7 +6,7 @@ summary_for_tutor: "Read the mechanisms and implementation sequence before judgi
 duration_minutes: 45
 tags: [wip]
 add_to_ai_context:
-  - "[[../articles/2040-ai-2040-plan-a]]"
+  - "[[../articles/dean-ai-2040-verification-plan]]"
 ---
 #### Text
 content::
@@ -16,7 +16,7 @@ For both options, focus on the plan's summary, concrete inference-only retrofit,
 - **Option B:** Skim these sections, then read the Plan S discussion and FAQ in Option B.
 
 #### Article
-source:: [[../articles/2040-ai-2040-plan-a]]
+source:: [[../articles/dean-ai-2040-verification-plan]]
 from:: ## Summary of the Plan
 to:: **Phase 3. Improve robustness.** Over time the US and China improve the stability and durability of the verification regime, especially through hardware security, verification robustness, and more.
 

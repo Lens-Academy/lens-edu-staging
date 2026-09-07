@@ -6,8 +6,8 @@ summary_for_tutor: "One optional essay route. Complete B1–B4 as preparatory re
 duration_minutes: 110
 tags: [wip]
 add_to_ai_context:
-  - "[[../articles/2040-ai-2040-plan-a]]"
-  - "[[../articles/2040-plan-a-faq]]"
+  - "[[../articles/dean-ai-2040-verification-plan]]"
+  - "[[../articles/ai-futures-project-plan-a-faq]]"
   - "[[../articles/larsen-ai-2040-plan-a]]"
 ---
 #### Text
@@ -28,7 +28,7 @@ from:: ## Plan S: Shutdown
 to:: Separately, there is the issue of political feasibility. Plan A is more friendly to the AI companies and therefore less likely to be strongly opposed by them and their lobbyists, propaganda, etc. On the other hand, Plan S is simpler and avoids more risk in the near-term, which may make it easier to rally public support around and harder to botch.
 
 #### Article
-source:: [[../articles/2040-plan-a-faq]]
+source:: [[../articles/ai-futures-project-plan-a-faq]]
 from:: **Q: Plan A is complicated. Shouldn’t we do a simpler and more straightforward plan, like shutting it all down (Plan S)?**
 to:: Our proposed implementation of Plan A is very complicated, and even a good implementation will incur significant existential risk. However, all simpler plans that we are aware of would incur even more risk than Plan A. In particular the main issue with Plan S is that it does worse than Plan A at making forward progress towards solving the safety/alignment problems that prevent further capability scaling, because we are shut down at an earlier capability level. This is bad because at some point, both Plan A and Plan S will break down and return to racing, and in Plan S, much less alignment progress will have been made by this point. That said, we are very sympathetic to Plan S and could imagine being convinced that some version of it is better after all.
 

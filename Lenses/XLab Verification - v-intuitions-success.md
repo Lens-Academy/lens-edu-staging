@@ -6,7 +6,7 @@ summary_for_tutor: "Optional extensions, separate from completing Option A or B.
 duration_minutes: 40
 tags: [wip]
 add_to_ai_context:
-  - "[[../articles/2040-ai-2040-plan-a]]"
+  - "[[../articles/dean-ai-2040-verification-plan]]"
 ---
 #### Text
 content::

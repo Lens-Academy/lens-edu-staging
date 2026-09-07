@@ -6,7 +6,7 @@ summary_for_tutor: "One optional essay route. Complete A1–A4 as preparatory re
 duration_minutes: 95
 tags: [wip]
 add_to_ai_context:
-  - "[[../articles/2040-ai-2040-plan-a]]"
+  - "[[../articles/dean-ai-2040-verification-plan]]"
 ---
 #### Text
 content::
