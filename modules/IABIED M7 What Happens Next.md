@@ -1,6 +1,6 @@
 ---
 id: 08699f65-4d31-4570-b46e-3e0cb5b2ffe4
-slug: iabied-m7
+slug: {--{"author":"AI","timestamp":1788760298525}@@iabied-m7--}{++{"author":"AI","timestamp":1788760298525}@@iabied-what-next++}
 title: "What Happens Next"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 ---
