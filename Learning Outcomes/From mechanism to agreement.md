@@ -1,7 +1,7 @@
 ---
 id: 'a8b96d09-37b6-4c3b-8902-d9609aec1fea'
 learning-outcome: "Evaluate how a verification scheme maps onto the obligations of a concrete proposed AI treaty, and judge where the binding constraint on such an agreement is technical versus political"
-topic: "[[../Domains/10 Governance and Policy/Verifying AI agreements]]"
+topic: "[[../Domains and Topics/10 Governance and Policy/Verifying AI agreements]]"
 stage: advanced
 requires:
   - "[[A low-trust compute verification architecture]]"
