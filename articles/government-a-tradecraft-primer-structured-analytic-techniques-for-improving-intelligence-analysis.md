@@ -39,7 +39,7 @@ This primer highlights structured analytic techniques—some widely used in the 
 
 ## Table of Contents ^t-a-b-l
 
-|                                                           |    |
+| Contents | Page |
 |-----------------------------------------------------------|----|
 | Introduction .....                                        | 1  |
 | How To Use These Techniques .....                         | 5  |

@@ -3,7 +3,7 @@ title: "Architecture Overview — Quick Start Guide"
 author:
   - "Nvidia"
 source_url: "https://docs.nvidia.com/attestation/quick-start-guide/latest/architecture.html"
-published: 2026-09-06
+published: {--{"author":"Elias's AI","timestamp":1788762155946}@@2026-09-06--}{++{"author":"Elias's AI","timestamp":1788762155946}@@2026-08-01++}
 created: 2026-09-06
 accessed: 2026-09-06
 llm-review:
@@ -13,7 +13,7 @@ llm-review:
   source:
     fetched: 2026-09-06
     kind: "live"
-description:
+description: "Overview of the NVIDIA Attestation Suite: how the Attestation SDK, the RIM Service, and the Remote Attestation Service or local verifier form a verifiable chain of trust from GPU hardware to the client."
 tags:
   - "article-importer"
 ---

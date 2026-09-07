@@ -1,9 +1,9 @@
 ---
 title: "Signaling Foreign Policy Interests: Tying Hands versus Sinking Costs"
 author:
-  - "Archive"
+  - {--{"author":"Elias's AI","timestamp":1788762156809}@@"Archive"--}{++{"author":"Elias's AI","timestamp":1788762156809}@@"James D. Fearon"++}
 source_url: "https://web.archive.org/web/20241124204351id_/https://web.stanford.edu/group/fearon-research/cgi-bin/wordpress/wp-content/uploads/2013/10/Signaling-Foreign-Policy-Interests-Tying-Hands-versus-Sinking-Costs.pdf"
-published: 2007-10-26
+published: {--{"author":"Elias's AI","timestamp":1788762157144}@@2007-10-26--}{++{"author":"Elias's AI","timestamp":1788762157144}@@1997-02-01++}
 created: 2026-09-06
 accessed: 2026-09-06
 llm-review:

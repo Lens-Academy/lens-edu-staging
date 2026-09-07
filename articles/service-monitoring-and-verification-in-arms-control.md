@@ -1,9 +1,9 @@
 ---
 title: "Monitoring and Verification in Arms Control"
 author:
-  - "Congressional Research Service"
+  - {--{"author":"Elias's AI","timestamp":1788762157729}@@"Congressional Research Service"
   - "Library of Congress"
-  - "USA"
+  - "USA"--}{++{"author":"Elias's AI","timestamp":1788762157729}@@"Amy F. Woolf"++}
 source_url: "https://www.everycrsreport.com/files/20111223_R41201_2fcad05f9ca9463621634e2ac69d2e17cc2f5390.pdf"
 published: 2011-12-23
 created: 2026-09-06
@@ -63,7 +63,7 @@ This report will be updated as needed.
 
 # Contents ^contents
 
-|                                                                                |    |
+| Contents | Page |
 |--------------------------------------------------------------------------------|----|
 | Introduction.....                                                              | 1  |
 | Monitoring and Verification in Arms Control.....                               | 3  |
@@ -86,14 +86,14 @@ This report will be updated as needed.
 
 ## Tables ^tables
 
-|                                            |    |
+| Tables | Page |
 |--------------------------------------------|----|
 | Table 1. On-Site Inspections in START..... | 19 |
 |--------------------------------------------|----|
 
 ## Contacts ^contacts
 
-|                                 |    |
+| Contacts | Page |
 |---------------------------------|----|
 | Author Contact Information..... | 25 |
 |---------------------------------|----|

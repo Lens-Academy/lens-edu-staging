@@ -91,7 +91,7 @@ As the capabilities of artificial intelligence (AI) technologies continue to imp
 
 ## Contents --- ^contents
 
-|                                                                                              |     |
+| Contents | Page |
 |----------------------------------------------------------------------------------------------|-----|
 | About This Report.....                                                                       | iii |
 | Summary .....                                                                                | iv  |
@@ -356,7 +356,7 @@ In practice, the training of AI models is highly parallelized, meaning that the 
 
 ## Abbreviations --- ^abbreviations
 
-|       |                                                                          |
+| Abbreviation | Definition |
 |-------|--------------------------------------------------------------------------|
 | AI    | artificial intelligence                                                  |
 | BLOOM | BigScience Large Open-Science Open-Access Multilingual Language<br>Model |
