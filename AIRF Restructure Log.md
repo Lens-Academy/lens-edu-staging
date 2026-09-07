@@ -236,6 +236,6 @@ Before review, run at least one live pass through:
 
 ## 7. Log
 
-| Date | Change | Files | Why |
-|---|---|---|---|
-| | | | |
+| Date | Change | Files | Why | How it landed |
+|---|---|---|---|---|
+| 2026-09 | Relabelled the structural-improvement comment from "student" to "student-to-navigator" | [[courses/AI Risk Fundamentals]] | It is facilitator-side analysis. Labelled as learner evidence it gets read as cohort feedback, which is how it was read once already | Direct, by Andreas |
