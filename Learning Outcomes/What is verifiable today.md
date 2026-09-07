@@ -1,7 +1,7 @@
 ---
 id: 'b5b5b628-c9fb-409c-a64f-4a3313c24a8f'
 learning-outcome: "Assess which international AI agreements are verifiable with existing or near-term technology, and explain why data-center-based development and deployment is the tractable case while mobile AI-enabled systems are the hard case"
-domain: "[[../Domains/Governance and Policy]]"
+topic: "[[../Domains/10 Governance and Policy/Verifying AI agreements]]"
 stage: advanced
 requires:
   - "[[Verification methods and their evasions]]"

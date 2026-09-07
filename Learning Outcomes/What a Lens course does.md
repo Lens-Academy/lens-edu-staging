@@ -1,7 +1,7 @@
 ---
 id: '6d1fedd4-4862-4dee-8380-af7056d6f105'
 learning-outcome: "Name what a Lens course does that a reading list plus a discussion group cannot, and state what evidence would show whether it works."
-domain: none
+topic: none
 stage: beginner
 tags:
   - product-tour

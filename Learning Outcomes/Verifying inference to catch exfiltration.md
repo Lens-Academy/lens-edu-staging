@@ -1,7 +1,7 @@
 ---
 id: '172fd6b4-511f-4649-baf2-e0f2a8433259'
 learning-outcome: "Explain how verifying LLM inference detects steganographic model-weight exfiltration, why the non-determinism of GPU arithmetic is the crux of the problem, and why bit-exact re-computation strengthens the guarantee"
-domain: "[[../Domains/Governance and Policy]]"
+topic: "[[../Domains/10 Governance and Policy/Verifying AI agreements]]"
 stage: advanced
 requires:
   - "[[Hardware-enabled guarantees]]"
