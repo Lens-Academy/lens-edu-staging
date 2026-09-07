@@ -306,12 +306,14 @@ Deal implementation timeline, Jan 2029 to Jan 2031:
 
 Within a week of starting Plan A negotiations, the US and China have carried out a compute declaration and supply chain record audit, allowing each other to send a few hundred people into each other’s countries to inspect and audit records. This lets them reduce their already relatively small uncertainties over each other’s compute. Each side’s best guess is now that the other could have hidden at most around 1.5M H100e from the declaration (with the 80% CI reaching about 4M), which is about 4% of the leading AI company’s R&D compute and about 0.5% of total world compute. For our estimates and reasoning on how much compute a covert project could probably hide see the [covert projects supplement](https://ai-2040.com/supplements/covert-ai-projects#section-2-preventing-covert-compute-procurement).
 
-| Party | Declared compute (Jan 2029) |
-| --- | ---: |
-| US | 224M H100e |
-| China | 26M H100e |
+| Party | Declared compute (Jan 2029) |{++{"author":"Elias's AI","timestamp":1788793623915}@@ Plausibly undeclared |++}
+| --- | ---: |{++{"author":"Elias's AI","timestamp":1788793623915}@@ ---: |++}
+| US | 224M H100e |{++{"author":"Elias's AI","timestamp":1788793623915}@@ ~1.5M H100e |++}
+| China | 26M H100e |{--{"author":"Elias's AI","timestamp":1788793623915}@@
 
-{--{"author":"Elias's AI","timestamp":1788773360373}@@*Figure: Chip declaration result: declared versus--}{++{"author":"Elias's AI","timestamp":1788773360373}@@The source chart also shows the++} plausibly undeclared {--{"author":"Elias's AI","timestamp":1788773360373}@@compute, one --}{++{"author":"Elias's AI","timestamp":1788773360373}@@remainder next to these declared totals (one ++}square = 250K {--{"author":"Elias's AI","timestamp":1788773360373}@@H100e.* [View the original figure--}{++{"author":"Elias's AI","timestamp":1788773360373}@@H100e). [Chart++} in the source article](https://ai-2040.com/supplements/verification-plan).
+*Figure: Chip declaration result: declared versus--}{++{"author":"Elias's AI","timestamp":1788793623915}@@ ~1.5M H100e |
+
+*Table adaptation of the++} {--{"author":"Elias's AI","timestamp":1788793623915}@@plausibly undeclared compute, one square = 250K H100e.* [View the original figure in the source article](https://ai-2040.com/supplements/verification-plan).--}{++{"author":"Elias's AI","timestamp":1788793623915}@@source chart, which draws compute in blocks of 250K H100e; the undeclared figures are read at that block resolution.*++}
 
 More detail on the suggested interventions by cluster size bucket below:
 
@@ -332,7 +334,23 @@ The US and China need to minimize the plausible flow of future compute productio
 2.  Temporary, mutual cold storage holding facilities: compute directed here will be guarded until it is able to be set up for R&D (training and experiments) once new secure, mutually verified R&D clusters are set up.
     
 
-{--{"author":"Elias's AI","timestamp":1788773360958}@@*Figure: Chip Flow Restrictions, 2029: chip flow restrictions, 2029. Tier 0 (unrestricted consumer) versus Tier 1 (subject --}{++{"author":"Elias's AI","timestamp":1788773360958}@@The source chart plots example devices (from an iPhone 16 Pro Max up ++}to {--{"author":"Elias's AI","timestamp":1788773360958}@@the deal: inference-only or cold storage), plotted--}{++{"author":"Elias's AI","timestamp":1788773360958}@@a GB200 NVL72)++} by compute {--{"author":"Elias's AI","timestamp":1788773360958}@@(H100e)--}{++{"author":"Elias's AI","timestamp":1788773360958}@@in H100e++} against cross-chip interconnect speed {--{"author":"Elias's AI","timestamp":1788773360958}@@(GB/s), with example devices--}{++{"author":"Elias's AI","timestamp":1788773360958}@@in GB/s, splitting Tier 0 (unrestricted consumer)++} from {--{"author":"Elias's AI","timestamp":1788773360958}@@an iPhone 16 Pro Max up to a GB200 NVL72.--}{++{"author":"Elias's AI","timestamp":1788773360958}@@Tier 1 (subject to the deal: inference-only or cold storage).++} Tier 1 begins above roughly 10 TB memory capacity (scale-up) or HBM-class memory bandwidth (about 1.5 {--{"author":"Elias's AI","timestamp":1788773360958}@@TB/s).* [View the original figure--}{++{"author":"Elias's AI","timestamp":1788773360958}@@TB/s). [Chart++} in the source article](https://ai-2040.com/supplements/verification-plan).
+{--{"author":"Elias's AI","timestamp":1788793631260}@@*Figure: Chip Flow Restrictions, 2029: chip flow restrictions, 2029. Tier 0 (unrestricted consumer) versus Tier 1 (subject to the deal: inference-only or cold storage), plotted by compute (H100e) against cross-chip interconnect speed (GB/s), with example devices from--}{++{"author":"Elias's AI","timestamp":1788793631260}@@**Chip flow restrictions, 2029: example devices by compute and interconnect**
+
+*Table adaptation of the source chart. Compute and interconnect values are read off the chart's log axes and are approximate. Tier 0 is unrestricted consumer compute.++} {--{"author":"Elias's AI","timestamp":1788793631260}@@an iPhone 16 Pro Max up to a GB200 NVL72. Tier 1--}{++{"author":"Elias's AI","timestamp":1788793631260}@@Tier 1 is subject to the deal (inference-only or cold storage) and++} begins above roughly 10 TB memory capacity (scale-up) or HBM-class memory bandwidth (about 1.5 {--{"author":"Elias's AI","timestamp":1788793631260}@@TB/s).* [View the original figure in the source article](https://ai-2040.com/supplements/verification-plan).--}{++{"author":"Elias's AI","timestamp":1788793631260}@@TB/s).*
+
+| Device | Compute (H100e) | Cross-chip interconnect (GB/s) | Memory capacity | HBM-class bandwidth | Tier |
+| --- | ---: | ---: | ---: | --- | --- |
+| iPhone 16 Pro Max | ~0.01 | ~1 | 8 GB | No | Tier 0 |
+| Tesla HW3 | ~0.06 | ~0.1 | 16 GB | No | Tier 0 |
+| M4 Max MacBook | ~0.035 | ~10 | 128 GB | No | Tier 0 |
+| RTX 4090 | ~0.17 | ~30 | 24 GB | No | Tier 0 |
+| DGX Spark | ~0.25 | ~25 | 128 GB | No | Tier 0 |
+| H20 | ~0.3 | ~64 | 96 GB | Yes | Tier 1 |
+| RTX 5090 | ~0.33 | ~64 | 32 GB | Yes | Tier 1 |
+| H100 (PCIe) | 1 | ~64 | 80 GB | Yes | Tier 1 |
+| B200 | ~2.5 | ~1,800 | 192 GB | Yes | Tier 1 |
+| DGX 8×H100 | ~8 | ~400 | 640 GB | Yes | Tier 1 |
+| GB200 NVL72 | ~180 | ~3,600 | ~13 TB | Yes | Tier 1 |++}
 
 At first, we propose that any chip with low enough interconnect, compute, memory and bandwidth can be produced unrestricted. Then by 2032, we tentatively propose a cap, with a slight alleviation of the compute threshold (to give room for more consumer applications that might require higher edge compute) and a tightening of the interconnect threshold (to hopefully lower their potential usefulness in a covert project if diverted). More on this in the [2032 section](https://ai-2040.com/supplements/verification-plan#2032-cap-and-trade-for-robots-and-compute).
 :::
