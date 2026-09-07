@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-topic: "[[../Domains/3 Alignment/You don't get what you train for]]"
+topic: "[[../Domains and Topics/3 Alignment/You don't get what you train for]]"
 stage: beginner
 eval-results:
   content-sha: c70864ab
