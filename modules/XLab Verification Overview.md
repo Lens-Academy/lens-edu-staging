@@ -43,8 +43,8 @@ What would be enough for a three-month emergency pause? Combines feasibility jud
 
 # Lens: Introduction Form
 id:: 104ef826-0784-423a-9edf-02e4927d3e0d
-tldr:: A one-time form about you, your background, and what you want from this course. It takes 10 to 13 minutes and you need to complete it before moving on.
-summary_for_tutor:: An intake form, not teaching material. If the learner asks about a question, explain what it is asking for and why we ask; do not answer it for them, do not speculate about how answers affect selection, and do not discuss other learners' answers.
+tldr:: {--{"author":"Elias's AI","timestamp":1788763995753}@@A one-time--}{++{"author":"Elias's AI","timestamp":1788763995753}@@The introduction++} form {--{"author":"Elias's AI","timestamp":1788763995753}@@about you, your background, and what you want from this course. It takes 10 to 13 minutes and you need to complete --}{++{"author":"Elias's AI","timestamp":1788763995753}@@moved to the Compute Verification, Part 1 course overview. Fill ++}it {--{"author":"Elias's AI","timestamp":1788763995753}@@before moving on.--}{++{"author":"Elias's AI","timestamp":1788763995753}@@in there.++}
+summary_for_tutor:: {--{"author":"Elias's AI","timestamp":1788763995753}@@An intake form,--}{++{"author":"Elias's AI","timestamp":1788763995753}@@A pointer page,++} not teaching material. {--{"author":"Elias's AI","timestamp":1788763995753}@@If the learner asks about a question, explain what it is asking for--}{++{"author":"Elias's AI","timestamp":1788763995753}@@The intake form now lives in the Compute Verification, Part 1 course overview,++} and{--{"author":"Elias's AI","timestamp":1788763995753}@@ why we ask; do not answer it for them, do not speculate about how--} answers{--{"author":"Elias's AI","timestamp":1788763995753}@@ affect selection, and do not discuss other learners' answers.
 duration_minutes:: 12
 #### Text
 content::
@@ -52,7 +52,7 @@ content::
 
 This form takes 10 to 13 minutes. Please be wary if you're taking longer.
 
-Questions marked **optional** can be skipped. Everything else is needed before you can move on to Module 0.
+Questions marked **optional** can be skipped. Everything else is needed before you can move --}{++{"author":"Elias's AI","timestamp":1788763995753}@@ given ++}on{--{"author":"Elias's AI","timestamp":1788763995753}@@ to Module 0.
 
 \## About you
 
@@ -138,7 +138,7 @@ options::
 
 #### Question: Open
 id:: d1f04440-6b43-4585-8e09-dd2017aeb70a
-content:: Where are you based most of the time? A city and country is enough, for example Oxford, United Kingdom. Name a few places if you are meaningfully located in more than one. *(optional)*
+content:: Where are you based most of --}{++{"author":"Elias's AI","timestamp":1788763995753}@@ the old form were carried over. If ++}the{--{"author":"Elias's AI","timestamp":1788763995753}@@ time? A city and country is enough, for example Oxford, United Kingdom. Name a few places if you are meaningfully located in more than one. *(optional)*
 optional:: true
 
 #### Text
@@ -151,11 +151,11 @@ content:: Why are you applying to this course, and how does it fit your career p
 
 #### Question: Open
 id:: da016999-8b97-4520-8025-e74faa7e4d9d
-content:: Describe one to three projects you are most proud of. Work counts. Say exactly what you were responsible for, and show outputs where you can. Links are great. 100 to 200 words.
+content:: Describe one to three projects you are most proud of. Work counts. Say exactly what you were responsible for, and show outputs --}{++{"author":"Elias's AI","timestamp":1788763995753}@@ learner asks ++}where{--{"author":"Elias's AI","timestamp":1788763995753}@@ you can. Links are great. 100--} to {--{"author":"Elias's AI","timestamp":1788763995753}@@200 words.
 
 #### Question: Open
 id:: 27c15d9a-2f91-491a-b0c0-43622c685b5f
-content:: Which courses, programs or fellowships in AI safety have you done, or are you doing?
+content:: Which courses, programs or fellowships --}{++{"author":"Elias's AI","timestamp":1788763995753}@@fill ++}in{--{"author":"Elias's AI","timestamp":1788763995753}@@ AI safety have you done, --}{++{"author":"Elias's AI","timestamp":1788763995753}@@ ++}or{--{"author":"Elias's AI","timestamp":1788763995753}@@ are you doing?
 
 #### Question: Choice
 id:: 172f4d0b-5af1-4f31-b4a0-33cdd38f4d4c
@@ -169,42 +169,44 @@ options::
 
 #### Question: Rating
 id:: addb722b-f927-4472-b1bf-597dfe7063cf
-content:: How strongly do you intend to move into AI safety full-time in the next 3 to 12 months? Pick 10 if you are already working in it full-time or in a paid fellowship.
+content:: How strongly do you intend to move into AI safety full-time in--}{++{"author":"Elias's AI","timestamp":1788763995753}@@ check++} the{--{"author":"Elias's AI","timestamp":1788763995753}@@ next 3 to 12 months? Pick 10 if you are already working in it full-time or in a paid fellowship.
 scale:: 10
 labels::
-- No intention to
+- No intention--}{++{"author":"Elias's AI","timestamp":1788763995753}@@ form, send them++} to{--{"author":"Elias's AI","timestamp":1788763995753}@@
 - Very unlikely
 - Unlikely
-- Leaning against it
-- Genuinely unsure
-- Leaning towards it
+- Leaning against it--}{++{"author":"Elias's AI","timestamp":1788763995753}@@ the link on this page.++}
+{--{"author":"Elias's AI","timestamp":1788763995753}@@- Genuinely unsure--}{++{"author":"Elias's AI","timestamp":1788763995753}@@reading_minutes:: 1++}
+{--{"author":"Elias's AI","timestamp":1788763995753}@@- Leaning towards it
 - Likely
 - Very likely
-- Actively working towards it now
-- Already full-time or in a paid fellowship
+- Actively working towards it now--}{++{"author":"Elias's AI","timestamp":1788763995753}@@tutor_minutes:: 0++}
+{--{"author":"Elias's AI","timestamp":1788763995753}@@- Already full-time or in a paid fellowship
 
-#### Text
+--}#### Text
 content::
-\## Before you go
+\##{--{"author":"Elias's AI","timestamp":1788763995753}@@ Before you go
 
 #### Question: Open
 id:: 38912e12-cdbc-4a6a-87cd-52471116c3d5
-content:: Where did you hear about this course? Please be specific, for example "saw it in the [community] chat" or "referred by [program]".
+content:: Where did you hear about this course? Please be specific, for example "saw it --}{++{"author":"Elias's AI","timestamp":1788763995753}@@ This form has moved
+
+The introduction form now lives ++}in the{--{"author":"Elias's AI","timestamp":1788763995753}@@ [community] chat" or "referred by [program]".
 
 #### Question: Open
 id:: 17c34f4a-f17d-4924-8660-a0aa0e9557e5
-content:: Who is the most exceptional person you would nominate for this course? Please include their email and linkedin below! (You can nominate more than one, if they are a good fit we might reach out to them.) *(optional)*
+content:: Who is the most exceptional person--}{++{"author":"Elias's AI","timestamp":1788763995753}@@ [Compute Verification, Part 1 course overview](https://lensacademy.org/courses/ai-verification-1/module/xlab-verification-p1-overview#introduction-form). Answers++} you {--{"author":"Elias's AI","timestamp":1788763995753}@@would nominate for this course? Please include their email and linkedin below! (You can nominate more than one, if they are a good fit we might reach out--}{++{"author":"Elias's AI","timestamp":1788763995753}@@already gave here were carried over, so open that page++} to{--{"author":"Elias's AI","timestamp":1788763995753}@@ them.) *(optional)*
 optional:: true
 
 #### Question: Open
 id:: 47e6e626-cc57-47dc-b88b-c203b173b65c
-content:: Any feedback on this form, or on Lens generally? *(optional)*
+content:: Any feedback on this form,--}{++{"author":"Elias's AI","timestamp":1788763995753}@@ check them++} or {--{"author":"Elias's AI","timestamp":1788763995753}@@on Lens generally? *(optional)*
 optional:: true
 
 #### Text
 content::
 :::callout {title="Sharing your data with other AI safety organisations" tone="blue"}
-If you opt in, we may share parts of your application and course participation, such as your discussion contributions and attendance, with organisations we trust and think are making a positive contribution to the field. Those organisations sometimes email people about jobs and other opportunities that could be a good next step after this course.
+If you opt in, we may share parts of your application and course participation, such as your discussion contributions and attendance, with organisations we trust and think are making a positive contribution to --}{++{"author":"Elias's AI","timestamp":1788763995753}@@to finish ++}the{--{"author":"Elias's AI","timestamp":1788763995753}@@ field. Those organisations sometimes email people about jobs and other opportunities that could be a good next step after this course.
 
 We will only share it if you say yes below. **It will not affect your application in any way**, and you can opt out at any time.
 :::
@@ -214,4 +216,4 @@ id:: 43426286-b1b9-4047-9730-2f8408e5fecb
 content:: Can we share your data with third-party AI safety organisations?
 options::
 - Yes, you can share my data
-- No, please keep my data to Lens{>>{"author":"Elias's AI","timestamp":1788009468067}@@Proposed: Module 0 no longer has import gaps; the XLab link at the top of this lens already points to the original. Modules 1 to 4 still have gap notes, so keep the first sentence until those are converted.<<}
+- No, please keep my data to Lens--}{++{"author":"Elias's AI","timestamp":1788763995753}@@ form.++}{>>{"author":"Elias's AI","timestamp":1788009468067}@@Proposed: Module 0 no longer has import gaps; the XLab link at the top of this lens already points to the original. Modules 1 to 4 still have gap notes, so keep the first sentence until those are converted.<<}
