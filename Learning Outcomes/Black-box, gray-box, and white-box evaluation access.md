@@ -1,7 +1,7 @@
 ---
 id: 'fbe57954-82e2-4008-8c2a-35385f2000fb'
 learning-outcome: "Interpret results from Black-box, gray-box, and white-box evaluation access"
-topic: "[[../Domains/6 Evaluations/What evaluations are for]]"
+topic: "[[../Domains and Topics/6 Evaluations/What evaluations are for]]"
 stage: intermediate
 tags:
   - skill-tree-placeholder
