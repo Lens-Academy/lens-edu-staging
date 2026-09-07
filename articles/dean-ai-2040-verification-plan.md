@@ -695,7 +695,27 @@ We expect the cap we propose to lead to rapid innovation in ‘edge verification
 
 On top of the unverified consumer compute cap, it might be desirable to have a certain effective-H100e cutoff (e.g., with specific compute, bandwidth, memory capacity and networking speed thresholds) for consumer compute that is allowed to be sold in single units (to the extent that the difficulty of gathering chips into a covert project or detection therefore scales more closely with the absolute number of chips than with the compute). There might also be a tier of compute that we require to have location tracking measures (to make use by a covert project easier to detect).
 
-The source chart plots devices by compute per device (H100e) against cross-chip interconnect speed (GB/s). The AI-relevant floor is 4,000 TPP (about 0.25 H100e, compute supplement §1.1). Consumer compute below the floor is uncapped; unverified edge compute above it is capped at 30M H100e (25M already in the world pre-deal plus 5M new credits); verified edge compute is exempt. [Chart in the source article](https://ai-2040.com/supplements/verification-plan).
+{--{"author":"Elias's AI","timestamp":1788793679083}@@The source chart plots --}{++{"author":"Elias's AI","timestamp":1788793679083}@@**Chip flow restrictions, 2032: example ++}devices {--{"author":"Elias's AI","timestamp":1788793679083}@@by compute per device (H100e) against cross-chip --}{++{"author":"Elias's AI","timestamp":1788793679083}@@against the AI-relevant floor**
+
+*Table adaptation of the source chart. Compute and ++}interconnect {--{"author":"Elias's AI","timestamp":1788793679083}@@speed (GB/s).--}{++{"author":"Elias's AI","timestamp":1788793679083}@@values are read off the chart's log axes and are approximate.++} The AI-relevant floor is 4,000 {--{"author":"Elias's AI","timestamp":1788793679083}@@TPP (about--}{++{"author":"Elias's AI","timestamp":1788793679083}@@TPP, about++} 0.25 {--{"author":"Elias's AI","timestamp":1788793679083}@@H100e, compute--}{++{"author":"Elias's AI","timestamp":1788793679083}@@H100e ([compute++} supplement {--{"author":"Elias's AI","timestamp":1788793679083}@@§1.1). Consumer compute below--}{++{"author":"Elias's AI","timestamp":1788793679083}@@§1.1](https://ai-2040.com/supplements/compute-supplement)).*
+
+| Device | Compute per device (H100e) | Cross-chip interconnect (GB/s) | Memory capacity | HBM-class bandwidth | Relative to AI-relevant floor |
+| --- | ---: | ---: | ---: | --- | --- |
+| iPhone 16 Pro Max | ~0.01 | ~1 | 8 GB | No | Below |
+| Tesla HW3 | ~0.06 | ~0.1 | 16 GB | No | Below |
+| M4 Pro MacBook | ~0.035 | ~10 | 128 GB | No | Below |
+| DGX Spark | ~0.12 | ~25 | 128 GB | No | Below |
+| H20 | ~0.15 | ~64 | 96 GB | Yes | Below |
+| RTX 4090 | ~0.33 | ~30 | 24 GB | No | Above |
+| RTX 5090 | ~0.42 | ~64 | 32 GB | Yes | Above |
+| H100 (PCIe) | 1 | ~64 | 80 GB | Yes | Above |
+| DGX 8×H100 | ~8 | ~400 | 640 GB | Yes | Above |
+| GB200 NVL72 | ~180 | ~3,600 | ~13 TB | Yes | Above |
+
+| Category shown in++} the {--{"author":"Elias's AI","timestamp":1788793679083}@@floor is uncapped; unverified edge--}{++{"author":"Elias's AI","timestamp":1788793679083}@@chart | Treatment |
+| --- | --- |
+| Consumer++} compute {--{"author":"Elias's AI","timestamp":1788793679083}@@above it is capped at--}{++{"author":"Elias's AI","timestamp":1788793679083}@@below the AI-relevant floor | Unverified edge-compute cap of++} 30M {--{"author":"Elias's AI","timestamp":1788793679083}@@H100e (25M--}{++{"author":"Elias's AI","timestamp":1788793679083}@@H100e: 25M++} already in the world pre-deal plus 5M new {--{"author":"Elias's AI","timestamp":1788793679083}@@credits); verified--}{++{"author":"Elias's AI","timestamp":1788793679083}@@credits |
+| Verified++} edge compute {--{"author":"Elias's AI","timestamp":1788793679083}@@is exempt. [Chart in--}{++{"author":"Elias's AI","timestamp":1788793679083}@@| Exempt from++} the {--{"author":"Elias's AI","timestamp":1788793679083}@@source article](https://ai-2040.com/supplements/verification-plan).--}{++{"author":"Elias's AI","timestamp":1788793679083}@@cap |++}
 :::
 
 Putting together research titration and production capping, we have the following overview:
@@ -734,8 +754,6 @@ Through the 2030s the total amount of AI compute in the world grows explosively.
 | 2032 | 3B H100e |
 | 2034 | 60B H100e |
 
-[Chart in the source article](https://ai-2040.com/supplements/verification-plan).
-
 The verification assurance curve needs to improve such that any potential nonnegligible rogue internal deployment would have a high chance of detection. By 2034, with one packet collected per hour from each frontier GPU (~100 H100e each, so ~100 H100e-hour packets) and a 1% recomputation budget, the appendix math shows the verifier catches any rogue internal deployment at 99% confidence after it accumulates ~46,000 H100e-hours of unapproved work, so a sustained 10K H100e deployment is detected within ~4.6 hours, a 1K within ~46 hours, and so on.
 
 | Year | Tap granularity | Compute per tap |
@@ -743,8 +761,6 @@ The verification assurance curve needs to improve such that any potential nonneg
 | 2030 | Per-server tap | ~4K H100e |
 | 2032 | Per-shelf tap | ~400 H100e |
 | 2034 | Per-GPU tap | ~100 H100e |
-
-[Chart in the source article](https://ai-2040.com/supplements/verification-plan).
 
 Workload: ~GPT-3 sized training run (100K H100e-hours)
 
