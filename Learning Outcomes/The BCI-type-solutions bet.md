@@ -1,7 +1,7 @@
 ---
 id: 3499fbaa-176d-4eda-afb6-cbff0522c783
 learning-outcome: Explain the theory of change behind BCI-type (human-side) AI safety solutions — the human-AI capability/bandwidth gap and the family's sub-threads (merge, cyborgism, cognitive enhancement, whole-brain emulation, neural feedback)
-topic: "[[../Domains/11 Strategy/Human-side solutions]]"
+topic: "[[../Domains and Topics/11 Strategy/Human-side solutions]]"
 stage: advanced
 eval-results:
   content-sha: df3f8b1f
