@@ -4,6 +4,7 @@ author:
   - "Bureau of Industry and Security"
 source_url: "https://www.thewirechina.com/wp-content/uploads/2024/10/Seagate-Order.pdf"
 published: 2023-04-19
+allowAuthorInTitle: true
 created: 2026-09-06
 accessed: 2026-09-06
 llm-review:
