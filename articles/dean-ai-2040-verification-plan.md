@@ -73,9 +73,7 @@ Our recommended solutions come in three phases.
 | China | 26M | 9% |
 | Rest of world | 39M | 14% |
 
-{--{"author":"Elias's AI","timestamp":1788793618916}@@[View the original figure in the source article](https://ai-2040.com/supplements/verification-plan).
-
---}This is what we think implementing the deal would look like in 2029 in our scenario, with an inference-only retrofit of all the medium and large AI datacenters (>10K H100e, or approx. >$100M), and this being enough to cover ~99% of world AI-relevant compute. Then keeping tabs on the rest of the smaller clusters and taking measures to avoid them being possibly used in a covert project. We are not confident in the modelling of this [concentration in datacenter sizes](https://ai-2040.com/supplements/compute-supplement#14-datacenter-sizes), so the exact cutoffs and interventions may need to be different.
+This is what we think implementing the deal would look like in 2029 in our scenario, with an inference-only retrofit of all the medium and large AI datacenters (>10K H100e, or approx. >$100M), and this being enough to cover ~99% of world AI-relevant compute. Then keeping tabs on the rest of the smaller clusters and taking measures to avoid them being possibly used in a covert project. We are not confident in the modelling of this [concentration in datacenter sizes](https://ai-2040.com/supplements/compute-supplement#14-datacenter-sizes), so the exact cutoffs and interventions may need to be different.
 
 **Phase 3. Improve robustness.** Over time the US and China improve the stability and durability of the verification regime, especially through hardware security, verification robustness, and more.
 
@@ -306,14 +304,12 @@ Deal implementation timeline, Jan 2029 to Jan 2031:
 
 Within a week of starting Plan A negotiations, the US and China have carried out a compute declaration and supply chain record audit, allowing each other to send a few hundred people into each other’s countries to inspect and audit records. This lets them reduce their already relatively small uncertainties over each other’s compute. Each side’s best guess is now that the other could have hidden at most around 1.5M H100e from the declaration (with the 80% CI reaching about 4M), which is about 4% of the leading AI company’s R&D compute and about 0.5% of total world compute. For our estimates and reasoning on how much compute a covert project could probably hide see the [covert projects supplement](https://ai-2040.com/supplements/covert-ai-projects#section-2-preventing-covert-compute-procurement).
 
-| Party | Declared compute (Jan 2029) |{++{"author":"Elias's AI","timestamp":1788793623915}@@ Plausibly undeclared |++}
-| --- | ---: |{++{"author":"Elias's AI","timestamp":1788793623915}@@ ---: |++}
-| US | 224M H100e |{++{"author":"Elias's AI","timestamp":1788793623915}@@ ~1.5M H100e |++}
-| China | 26M H100e |{--{"author":"Elias's AI","timestamp":1788793623915}@@
+| Party | Declared compute (Jan 2029) | Plausibly undeclared |
+| --- | ---: | ---: |
+| US | 224M H100e | ~1.5M H100e |
+| China | 26M H100e | ~1.5M H100e |
 
-*Figure: Chip declaration result: declared versus--}{++{"author":"Elias's AI","timestamp":1788793623915}@@ ~1.5M H100e |
-
-*Table adaptation of the++} {--{"author":"Elias's AI","timestamp":1788793623915}@@plausibly undeclared compute, one square = 250K H100e.* [View the original figure in the source article](https://ai-2040.com/supplements/verification-plan).--}{++{"author":"Elias's AI","timestamp":1788793623915}@@source chart, which draws compute in blocks of 250K H100e; the undeclared figures are read at that block resolution.*++}
+*Table adaptation of the source chart, which draws compute in blocks of 250K H100e; the undeclared figures are read at that block resolution.*
 
 More detail on the suggested interventions by cluster size bucket below:
 
@@ -334,9 +330,9 @@ The US and China need to minimize the plausible flow of future compute productio
 2.  Temporary, mutual cold storage holding facilities: compute directed here will be guarded until it is able to be set up for R&D (training and experiments) once new secure, mutually verified R&D clusters are set up.
     
 
-{--{"author":"Elias's AI","timestamp":1788793631260}@@*Figure: Chip Flow Restrictions, 2029: chip flow restrictions, 2029. Tier 0 (unrestricted consumer) versus Tier 1 (subject to the deal: inference-only or cold storage), plotted by compute (H100e) against cross-chip interconnect speed (GB/s), with example devices from--}{++{"author":"Elias's AI","timestamp":1788793631260}@@**Chip flow restrictions, 2029: example devices by compute and interconnect**
+**Chip flow restrictions, 2029: example devices by compute and interconnect**
 
-*Table adaptation of the source chart. Compute and interconnect values are read off the chart's log axes and are approximate. Tier 0 is unrestricted consumer compute.++} {--{"author":"Elias's AI","timestamp":1788793631260}@@an iPhone 16 Pro Max up to a GB200 NVL72. Tier 1--}{++{"author":"Elias's AI","timestamp":1788793631260}@@Tier 1 is subject to the deal (inference-only or cold storage) and++} begins above roughly 10 TB memory capacity (scale-up) or HBM-class memory bandwidth (about 1.5 {--{"author":"Elias's AI","timestamp":1788793631260}@@TB/s).* [View the original figure in the source article](https://ai-2040.com/supplements/verification-plan).--}{++{"author":"Elias's AI","timestamp":1788793631260}@@TB/s).*
+*Table adaptation of the source chart. Compute and interconnect values are read off the chart's log axes and are approximate. Tier 0 is unrestricted consumer compute. Tier 1 is subject to the deal (inference-only or cold storage) and begins above roughly 10 TB memory capacity (scale-up) or HBM-class memory bandwidth (about 1.5 TB/s).*
 
 | Device | Compute (H100e) | Cross-chip interconnect (GB/s) | Memory capacity | HBM-class bandwidth | Tier |
 | --- | ---: | ---: | ---: | --- | --- |
@@ -350,7 +346,7 @@ The US and China need to minimize the plausible flow of future compute productio
 | H100 (PCIe) | 1 | ~64 | 80 GB | Yes | Tier 1 |
 | B200 | ~2.5 | ~1,800 | 192 GB | Yes | Tier 1 |
 | DGX 8×H100 | ~8 | ~400 | 640 GB | Yes | Tier 1 |
-| GB200 NVL72 | ~180 | ~3,600 | ~13 TB | Yes | Tier 1 |++}
+| GB200 NVL72 | ~180 | ~3,600 | ~13 TB | Yes | Tier 1 |
 
 At first, we propose that any chip with low enough interconnect, compute, memory and bandwidth can be produced unrestricted. Then by 2032, we tentatively propose a cap, with a slight alleviation of the compute threshold (to give room for more consumer applications that might require higher edge compute) and a tightening of the interconnect threshold (to hopefully lower their potential usefulness in a covert project if diverted). More on this in the [2032 section](https://ai-2040.com/supplements/verification-plan#2032-cap-and-trade-for-robots-and-compute).
 :::
@@ -373,15 +369,13 @@ While the inference-only retrofit is being carried out, the US and China then ag
 
 Starting in April and through the rest of 2029, most of the richest 20 countries in the world, and important semiconductor supply chain countries join the deal by doing a compute declaration and allowing the inference-only retrofitting to their datacenters, including: Germany, Japan, UK, India, France, Brazil, Canada, Mexico, Italy, Australia, South Korea, Spain, UAE, Saudi Arabia, Taiwan, Netherlands, Switzerland.
 
-| Party | Declared compute (mid 2029) |{++{"author":"Elias's AI","timestamp":1788793640813}@@ Plausibly undeclared |++}
-| --- | ---: |{++{"author":"Elias's AI","timestamp":1788793640813}@@ ---: |++}
-| US | 224M H100e |{++{"author":"Elias's AI","timestamp":1788793640813}@@ ~0.5M H100e |++}
-| China | 26M H100e |{++{"author":"Elias's AI","timestamp":1788793640813}@@ ~0.5M H100e |++}
-| Rest of world | 39M H100e |{--{"author":"Elias's AI","timestamp":1788793640813}@@
+| Party | Declared compute (mid 2029) | Plausibly undeclared |
+| --- | ---: | ---: |
+| US | 224M H100e | ~0.5M H100e |
+| China | 26M H100e | ~0.5M H100e |
+| Rest of world | 39M H100e | ~0.5M H100e |
 
-*Figure: Chip declaration result: declared versus--}{++{"author":"Elias's AI","timestamp":1788793640813}@@ ~0.5M H100e |
-
-*Table adaptation of the++} {--{"author":"Elias's AI","timestamp":1788793640813}@@plausibly undeclared compute, one square = 250K H100e.* [View the original figure in the source article](https://ai-2040.com/supplements/verification-plan).--}{++{"author":"Elias's AI","timestamp":1788793640813}@@source chart, which draws compute in blocks of 250K H100e; the undeclared figures are read at that block resolution.*++}
+*Table adaptation of the source chart, which draws compute in blocks of 250K H100e; the undeclared figures are read at that block resolution.*
 
 ### June - July 2029: Construction of new highly secure (SL5) inference-only clusters begins
 
@@ -421,11 +415,11 @@ Five key verification metrics we care about include:
 -   **Assurance curve.** The assurance curve captures information about the level of **coverage** (the % of the AI compute that the verification solution makes claims about) and **confidence** (with what probability is the verification solution correct about the claims it makes on the covered resources). We define an assurance curve as a set of relevant (coverage, confidence) values. We care about the entire 2D curve, because it's important to know where handoff and covert project risks cross over.[^note-verification-plan-14]
     
 
-{--{"author":"Elias's AI","timestamp":1788793646041}@@The--}{++{"author":"Elias's AI","timestamp":1788793646041}@@**Assurance curves for three verification budgets**
+**Assurance curves for three verification budgets**
 
-*Table adaptation of the++} source {--{"author":"Elias's AI","timestamp":1788793646041}@@chart plots confidence against--}{++{"author":"Elias's AI","timestamp":1788793646041}@@chart. N_ver is the number of packets the verifier audits. Values are computed from the formulas in the [appendix](https://ai-2040.com/supplements/verification-plan#a3-the-assurance-curve):++} coverage {--{"author":"Elias's AI","timestamp":1788793646041}@@(log scale, 90% to eight nines) for--}{++{"author":"Elias's AI","timestamp":1788793646041}@@= 1 − F\*, confidence = 1 − e^(−N_ver · F\*), where F\* is the largest fraction of fake packets tolerated without detection.*
+*Table adaptation of the source chart. N_ver is the number of packets the verifier audits. Values are computed from the formulas in the [appendix](https://ai-2040.com/supplements/verification-plan#a3-the-assurance-curve): coverage = 1 − F\*, confidence = 1 − e^(−N_ver · F\*), where F\* is the largest fraction of fake packets tolerated without detection.*
 
-| Coverage | Confidence at++} N_ver = {--{"author":"Elias's AI","timestamp":1788793646041}@@100,--}{++{"author":"Elias's AI","timestamp":1788793646041}@@100 | N_ver =++} 10K {--{"author":"Elias's AI","timestamp":1788793646041}@@and 10M. [Chart in the source article](https://ai-2040.com/supplements/verification-plan).--}{++{"author":"Elias's AI","timestamp":1788793646041}@@| N_ver = 10M |
+| Coverage | Confidence at N_ver = 100 | N_ver = 10K | N_ver = 10M |
 | --- | ---: | ---: | ---: |
 | 90% | 99.995% | ~100% | ~100% |
 | 99% | 63% | ~100% | ~100% |
@@ -434,7 +428,7 @@ Five key verification metrics we care about include:
 | 5 nines | 0.1% | 9.5% | ~100% |
 | 6 nines | 0.01% | 1.0% | 99.995% |
 | 7 nines | 0.001% | 0.1% | 63% |
-| 8 nines | 0.0001% | 0.01% | 9.5% |++}
+| 8 nines | 0.0001% | 0.01% | 9.5% |
 
 -   **Execution difficulty.** How difficult would it be to implement the verification solution correctly? For example, if there are load-bearing parts of the verification solution that require a large amount of expert human labor for e.g., setting up the verification software, manufacturing and installing devices, physical security enforcement and monitoring, etc.
     
@@ -535,16 +529,16 @@ We also mentioned multiple different types of evidence collection or verificatio
 
 Another useful concept for thinking about the verification problem is to think of AI workloads as discrete series of steps.
 
-{--{"author":"Elias's AI","timestamp":1788793653897}@@The--}{++{"author":"Elias's AI","timestamp":1788793653897}@@*Table adaptation of the++} source {--{"author":"Elias's AI","timestamp":1788793653897}@@chart--}{++{"author":"Elias's AI","timestamp":1788793653897}@@chart, which++} shows {--{"author":"Elias's AI","timestamp":1788793653897}@@packet sizes from coarse to fine: full--}{++{"author":"Elias's AI","timestamp":1788793653897}@@the same workload sliced at each of these levels. Every chunk at every level is one f(input) → output step.*
+*Table adaptation of the source chart, which shows the same workload sliced at each of these levels. Every chunk at every level is one f(input) → output step.*
 
 | Granularity | Packet |
 | --- | --- |
-| 1 (coarsest) | Full++} training {--{"author":"Elias's AI","timestamp":1788793653897}@@run, training phases, gradient steps, layer forward/backward passes, GPU kernel calls, individual instructions. Each chunk is f(input) → output. [Chart in the source article](https://ai-2040.com/supplements/verification-plan).--}{++{"author":"Elias's AI","timestamp":1788793653897}@@run |
+| 1 (coarsest) | Full training run |
 | 2 | Training phases |
 | 3 | Gradient steps |
 | 4 | Layer forward/backward passes |
 | 5 | GPU kernel calls |
-| 6 (finest) | Individual instructions |++}
+| 6 (finest) | Individual instructions |
 
 By default, these computational steps execute with randomness, but if they can be forced to be reproducible (e.g., seeded randomness is fine), then we can have a predictable relationship between the granularity of the evidence collection and the assurance level of the verification algorithm. This is because partial recomputation with random sampling with some small percentage of the workload being recomputed has favourable scaling of detection probability as you decrease the size of the individual workload packets that you check the correctness of. More detail on this in the [appendix](https://ai-2040.com/supplements/verification-plan#appendix-packet-based-verification).
 
@@ -552,17 +546,17 @@ By default, these computational steps execute with randomness, but if they can b
 
 **Recomputation budget:** 1%
 
-{--{"author":"Elias's AI","timestamp":1788793665968}@@The --}{++{"author":"Elias's AI","timestamp":1788793665968}@@*Table adaptation of the ++}source chart {--{"author":"Elias's AI","timestamp":1788793665968}@@plots --}{++{"author":"Elias's AI","timestamp":1788793665968}@@at its default setting (2034, packets of 100 H100e-hours, 1% recomputation budget). Values follow the [appendix](https://ai-2040.com/supplements/verification-plan#appendix-packet-based-verification) formula ++}P(detected) {--{"author":"Elias's AI","timestamp":1788793665968}@@against--}{++{"author":"Elias's AI","timestamp":1788793665968}@@= 1 − e^(−C · N_fake), where C is the recomputation budget and N_fake the number of++} rogue {++{"author":"Elias's AI","timestamp":1788793665968}@@packets. The source chart is interactive and also shows other years and packet sizes.*
+*Table adaptation of the source chart at its default setting (2034, packets of 100 H100e-hours, 1% recomputation budget). Values follow the [appendix](https://ai-2040.com/supplements/verification-plan#appendix-packet-based-verification) formula P(detected) = 1 − e^(−C · N_fake), where C is the recomputation budget and N_fake the number of rogue packets. The source chart is interactive and also shows other years and packet sizes.*
 
-| Rogue ++}deployment size {--{"author":"Elias's AI","timestamp":1788793665968}@@(1 to 10M H100e, log scale) within--}{++{"author":"Elias's AI","timestamp":1788793665968}@@(H100e) | P(detected) within 1 hour | Within++} 1 {--{"author":"Elias's AI","timestamp":1788793665968}@@hour,--}{++{"author":"Elias's AI","timestamp":1788793665968}@@week | Within++} 1 {--{"author":"Elias's AI","timestamp":1788793665968}@@week and --}{++{"author":"Elias's AI","timestamp":1788793665968}@@month |
+| Rogue deployment size (H100e) | P(detected) within 1 hour | Within 1 week | Within 1 month |
 | ---: | ---: | ---: | ---: |
-| ++}1 {--{"author":"Elias's AI","timestamp":1788793665968}@@month. [Chart in the source article](https://ai-2040.com/supplements/verification-plan).--}{++{"author":"Elias's AI","timestamp":1788793665968}@@| 0.01% | 1.7% | 6.9% |
+| 1 | 0.01% | 1.7% | 6.9% |
 | 10 | 0.1% | 15% | 51% |
 | 100 | 1.0% | 81% | 99.9% |
 | 1K | 9.5% | ~100% | ~100% |
 | 10K | 63% | ~100% | ~100% |
 | 100K | 99.995% | ~100% | ~100% |
-| 1M | ~100% | ~100% | ~100% |++}
+| 1M | ~100% | ~100% | ~100% |
 
 The concrete regime we imagine for the first few years of the deal is to still use network taps for evidence collection, and partial recomputation of randomly selected reproducible packets to verify correctness. The same high level approach as inference-only, with smaller and smaller packet sizes over time by moving the network taps to lower levels of the backend network.
 :::
@@ -695,9 +689,9 @@ We expect the cap we propose to lead to rapid innovation in ‘edge verification
 
 On top of the unverified consumer compute cap, it might be desirable to have a certain effective-H100e cutoff (e.g., with specific compute, bandwidth, memory capacity and networking speed thresholds) for consumer compute that is allowed to be sold in single units (to the extent that the difficulty of gathering chips into a covert project or detection therefore scales more closely with the absolute number of chips than with the compute). There might also be a tier of compute that we require to have location tracking measures (to make use by a covert project easier to detect).
 
-{--{"author":"Elias's AI","timestamp":1788793679083}@@The source chart plots --}{++{"author":"Elias's AI","timestamp":1788793679083}@@**Chip flow restrictions, 2032: example ++}devices {--{"author":"Elias's AI","timestamp":1788793679083}@@by compute per device (H100e) against cross-chip --}{++{"author":"Elias's AI","timestamp":1788793679083}@@against the AI-relevant floor**
+**Chip flow restrictions, 2032: example devices against the AI-relevant floor**
 
-*Table adaptation of the source chart. Compute and ++}interconnect {--{"author":"Elias's AI","timestamp":1788793679083}@@speed (GB/s).--}{++{"author":"Elias's AI","timestamp":1788793679083}@@values are read off the chart's log axes and are approximate.++} The AI-relevant floor is 4,000 {--{"author":"Elias's AI","timestamp":1788793679083}@@TPP (about--}{++{"author":"Elias's AI","timestamp":1788793679083}@@TPP, about++} 0.25 {--{"author":"Elias's AI","timestamp":1788793679083}@@H100e, compute--}{++{"author":"Elias's AI","timestamp":1788793679083}@@H100e ([compute++} supplement {--{"author":"Elias's AI","timestamp":1788793679083}@@§1.1). Consumer compute below--}{++{"author":"Elias's AI","timestamp":1788793679083}@@§1.1](https://ai-2040.com/supplements/compute-supplement)).*
+*Table adaptation of the source chart. Compute and interconnect values are read off the chart's log axes and are approximate. The AI-relevant floor is 4,000 TPP, about 0.25 H100e ([compute supplement §1.1](https://ai-2040.com/supplements/compute-supplement)).*
 
 | Device | Compute per device (H100e) | Cross-chip interconnect (GB/s) | Memory capacity | HBM-class bandwidth | Relative to AI-relevant floor |
 | --- | ---: | ---: | ---: | --- | --- |
@@ -712,10 +706,10 @@ On top of the unverified consumer compute cap, it might be desirable to have a c
 | DGX 8×H100 | ~8 | ~400 | 640 GB | Yes | Above |
 | GB200 NVL72 | ~180 | ~3,600 | ~13 TB | Yes | Above |
 
-| Category shown in++} the {--{"author":"Elias's AI","timestamp":1788793679083}@@floor is uncapped; unverified edge--}{++{"author":"Elias's AI","timestamp":1788793679083}@@chart | Treatment |
+| Category shown in the chart | Treatment |
 | --- | --- |
-| Consumer++} compute {--{"author":"Elias's AI","timestamp":1788793679083}@@above it is capped at--}{++{"author":"Elias's AI","timestamp":1788793679083}@@below the AI-relevant floor | Unverified edge-compute cap of++} 30M {--{"author":"Elias's AI","timestamp":1788793679083}@@H100e (25M--}{++{"author":"Elias's AI","timestamp":1788793679083}@@H100e: 25M++} already in the world pre-deal plus 5M new {--{"author":"Elias's AI","timestamp":1788793679083}@@credits); verified--}{++{"author":"Elias's AI","timestamp":1788793679083}@@credits |
-| Verified++} edge compute {--{"author":"Elias's AI","timestamp":1788793679083}@@is exempt. [Chart in--}{++{"author":"Elias's AI","timestamp":1788793679083}@@| Exempt from++} the {--{"author":"Elias's AI","timestamp":1788793679083}@@source article](https://ai-2040.com/supplements/verification-plan).--}{++{"author":"Elias's AI","timestamp":1788793679083}@@cap |++}
+| Consumer compute below the AI-relevant floor | Unverified edge-compute cap of 30M H100e: 25M already in the world pre-deal plus 5M new credits |
+| Verified edge compute | Exempt from the cap |
 :::
 
 Putting together research titration and production capping, we have the following overview:
@@ -770,17 +764,17 @@ This is an ambitious verification scale, and it also relies on extremely good in
 
 **Recomputation budget:** 1%
 
-{--{"author":"Elias's AI","timestamp":1788793670690}@@The --}{++{"author":"Elias's AI","timestamp":1788793670690}@@*Table adaptation of the ++}source chart {--{"author":"Elias's AI","timestamp":1788793670690}@@plots --}{++{"author":"Elias's AI","timestamp":1788793670690}@@at its default setting (2034, packets of 100 H100e-hours, 1% recomputation budget). Values follow the [appendix](https://ai-2040.com/supplements/verification-plan#appendix-packet-based-verification) formula ++}P(detected) {--{"author":"Elias's AI","timestamp":1788793670690}@@against--}{++{"author":"Elias's AI","timestamp":1788793670690}@@= 1 − e^(−C · N_fake), where C is the recomputation budget and N_fake the number of++} rogue {++{"author":"Elias's AI","timestamp":1788793670690}@@packets. The source chart is interactive and also shows other years and packet sizes.*
+*Table adaptation of the source chart at its default setting (2034, packets of 100 H100e-hours, 1% recomputation budget). Values follow the [appendix](https://ai-2040.com/supplements/verification-plan#appendix-packet-based-verification) formula P(detected) = 1 − e^(−C · N_fake), where C is the recomputation budget and N_fake the number of rogue packets. The source chart is interactive and also shows other years and packet sizes.*
 
-| Rogue ++}deployment size {--{"author":"Elias's AI","timestamp":1788793670690}@@(1 to 10M H100e, log scale) within--}{++{"author":"Elias's AI","timestamp":1788793670690}@@(H100e) | P(detected) within 1 hour | Within++} 1 {--{"author":"Elias's AI","timestamp":1788793670690}@@hour,--}{++{"author":"Elias's AI","timestamp":1788793670690}@@week | Within++} 1 {--{"author":"Elias's AI","timestamp":1788793670690}@@week and --}{++{"author":"Elias's AI","timestamp":1788793670690}@@month |
+| Rogue deployment size (H100e) | P(detected) within 1 hour | Within 1 week | Within 1 month |
 | ---: | ---: | ---: | ---: |
-| ++}1 {--{"author":"Elias's AI","timestamp":1788793670690}@@month. [Chart in the source article](https://ai-2040.com/supplements/verification-plan).--}{++{"author":"Elias's AI","timestamp":1788793670690}@@| 0.01% | 1.7% | 6.9% |
+| 1 | 0.01% | 1.7% | 6.9% |
 | 10 | 0.1% | 15% | 51% |
 | 100 | 1.0% | 81% | 99.9% |
 | 1K | 9.5% | ~100% | ~100% |
 | 10K | 63% | ~100% | ~100% |
 | 100K | 99.995% | ~100% | ~100% |
-| 1M | ~100% | ~100% | ~100% |++}
+| 1M | ~100% | ~100% | ~100% |
 
 ### 2035: Moving the datacenters to the ocean
 
@@ -847,18 +841,18 @@ The confidence formula comes from [§A.2](https://ai-2040.com/supplements/verifi
 
 Plotting confidence against coverage for several verification budgets (i.e., different values of $N_{\text{verified}}$):
 
-{--{"author":"Elias's AI","timestamp":1788793687300}@@The--}{++{"author":"Elias's AI","timestamp":1788793687300}@@*Table adaptation of the++} source {--{"author":"Elias's AI","timestamp":1788793687300}@@chart plots confidence against coverage (log scale,--}{++{"author":"Elias's AI","timestamp":1788793687300}@@chart, computed from the two formulas above.*
+*Table adaptation of the source chart, computed from the two formulas above.*
 
 | Coverage | Confidence at $N_{\text{verified}} = 100$ | $N_{\text{verified}} = 10\text{K}$ | $N_{\text{verified}} = 10\text{M}$ |
 | --- | ---: | ---: | ---: |
-|++} 90% {--{"author":"Elias's AI","timestamp":1788793687300}@@to eight nines) for N_ver = 100, 10K and 10M. [Chart in the source article](https://ai-2040.com/supplements/verification-plan).--}{++{"author":"Elias's AI","timestamp":1788793687300}@@| 99.995% | ~100% | ~100% |
+| 90% | 99.995% | ~100% | ~100% |
 | 99% | 63% | ~100% | ~100% |
 | 99.9% | 9.5% | 99.995% | ~100% |
 | 99.99% | 1.0% | 63% | ~100% |
 | 5 nines | 0.1% | 9.5% | ~100% |
 | 6 nines | 0.01% | 1.0% | 99.995% |
 | 7 nines | 0.001% | 0.1% | 63% |
-| 8 nines | 0.0001% | 0.01% | 9.5% |++}
+| 8 nines | 0.0001% | 0.01% | 9.5% |
 
 These curves show the confidence-coverage relationship at different values of $N_{\text{verified}}$. Higher $N_{\text{verified}}$ gives you higher assurance (shifts the curve right). Since $N_{\text{verified}} = C / s$, **the curve can be shifted higher either by (1) increasing the recomputation budget $C$ or (2) shrinking the packet size $s$.**
 
