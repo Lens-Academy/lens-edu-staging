@@ -30,7 +30,9 @@ Every factual claim your colleague makes is true. The fit really is 0.97, it rea
 
 Where does the argument stop being licensed by the data? And what would you have to know, that they have not told you, before the fourteen-month figure meant anything?
 
-assessment-instructions:: The student has completed the compute lens (Fun with +12 OOMs, what compute buys) and the base-rates lens (When Progress Jumps, base rates for discontinuities). Those are the tools this wedge wants. Refer to lenses by name, never by number; numbering conventions differ across files.
+{++{"author":"Lauren's AI","timestamp":1788772632510}@@max-time:: 10:00
+
+++}assessment-instructions:: The student has completed the compute lens (Fun with +12 OOMs, what compute buys) and the base-rates lens (When Progress Jumps, base rates for discontinuities). Those are the tools this wedge wants. Refer to lenses by name, never by number; numbering conventions differ across files.
 
 This is a deliberate wedge, not the test question. It hands the student a plausible-sounding but flawed extrapolation in which every stated fact is true, and asks them to locate where the license runs out.
 
@@ -73,7 +75,9 @@ content::
 
 The critique was the easy half. Now construct. Write two genuinely different trajectories for this benchmark over the next two years. They must differ in mechanism, not just in speed: name what drives each one (the trend's own momentum, the approach hitting a ceiling, the benchmark ceasing to measure the skill, anything you can defend). For each trajectory, give one observation checkable within a year or two that would count against it. Then the quiet part: name one assumption both of your trajectories share.
 
-assessment-instructions:: The student has just critiqued the colleague's extrapolation and is now constructing the two-trajectory version of the same situation. This is the direct rehearsal for the module's graded test: two mechanism-distinct trajectories, a named driver for each, a checkable observation against each, and one shared assumption.
+{++{"author":"Lauren's AI","timestamp":1788772634431}@@max-time:: 15:00
+
+++}assessment-instructions:: The student has just critiqued the colleague's extrapolation and is now constructing the two-trajectory version of the same situation. This is the direct rehearsal for the module's graded test: two mechanism-distinct trajectories, a named driver for each, a checkable observation against each, and one shared assumption.
 
 Pass shape: the mechanisms genuinely differ (not one story at two speeds), the falsifiers are observable within about two years, and the shared assumption is non-vacuous ("the future is uncertain" does not count; "both assume the benchmark keeps being run and reported" does).
 

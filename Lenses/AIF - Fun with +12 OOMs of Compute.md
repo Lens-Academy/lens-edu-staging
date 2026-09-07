@@ -132,7 +132,9 @@ When you answer, also write down something about what leads you to your number. 
 
  Bonus: write down what change your probability by at least 20% in the next year. What would make at least 20% of the possible-worlds you're imagining turn out to be impossible?
 
-assessment-instructions:: The student has read the author's Question Two, his 90 percent, and the comparison with Ajeya's 50 percent. They are now committing to their own number.
+{++{"author":"Lauren's AI","timestamp":1788772627361}@@max-time:: 8:00
+
+++}assessment-instructions:: The student has read the author's Question Two, his 90 percent, and the comparison with Ajeya's 50 percent. They are now committing to their own number.
 
 Up to 3 tutor turns, then offer to continue or close.
 
