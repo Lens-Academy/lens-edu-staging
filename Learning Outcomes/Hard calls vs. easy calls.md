@@ -7,7 +7,7 @@ tags:
   - learning-outcome
 authors:
   - Chris+Claude
-topic: "[[../Domains/15 Rationality and Epistemics/Calibrated judgment]]"
+topic: "[[../Domains and Topics/15 Rationality and Epistemics/Calibrated judgment]]"
 stage: beginner
 eval-results:
   content-sha: 6834f98a
