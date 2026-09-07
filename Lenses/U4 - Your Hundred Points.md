@@ -66,4 +66,34 @@ Do not grade. Do not score. Do not praise. There is no correct allocation at thi
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 10
+max-time:: 10{++{"author":"Lauren's AI","timestamp":1788789558490}@@
+
+#### Question
+content::
+\## Revision 3
+
+The allocation above is a bet. This question is about the model behind the bet. Without scrolling back, restate your ten-year model from memory, and then change it. What did this unit move? Name one strategy lever from this unit that changed a number or a mechanism in your model, and one thing you now hold more loosely. If nothing moved, say that, and say what would move you.
+
+max-time:: 8:00
+
+assessment-instructions:: The student wrote a day-zero model of the next ten years of AI in Unit 1 and has restated it from memory at the end of each unit since. They have now finished Unit 4, which walked through rival strategies for reducing AI risk (technical alignment, treaties, inside-lab practice, national projects, anti-concentration guardrails, buying time) and ended with them allocating 100 points across those levers.
+
+Compare against nothing. You do not have their earlier text and should not ask for it. Restating from memory rather than scrolling back is deliberate: it is the skill being practiced.
+
+The skill is honest revision.
+
+Reward:
+- A named lever from this unit that changed a number or a mechanism in their model.
+- "I now hold X more loosely because Y."
+- "Nothing moved, and here is what would move me", where the what-would-move-me is concrete. That is a legitimate pass.
+
+Gently flag: a restatement that is the same confidence with this unit's vocabulary. If their revision uses the unit's words (lever, allocation, concentration, buying time) without any of those words changing a claim, name that plainly and ask which specific belief actually moved.
+
+Response length: 100 to 180 words. Short paragraphs only. No lists.
+
+Response style:
+- Calm and direct.
+- Do not over-validate. Avoid generic praise.
+- Do not argue with the content of their model.
+
+Maximum 2 tutor turns. Keep an internal turn counter. Close by telling them Unit 5 asks for this model one last time, with their name attached.++}
