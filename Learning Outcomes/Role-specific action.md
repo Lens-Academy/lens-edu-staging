@@ -5,7 +5,7 @@ reading-from: "So—how do we un-write our fate?"
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-domain: "[[../Domains/Taking Action]]"
+topic: "[[../Domains/13 Taking Action/Advocacy and movement strategy]]"
 stage: beginner
 eval-results:
   content-sha: 191bd5db

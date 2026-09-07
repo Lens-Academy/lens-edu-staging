@@ -5,7 +5,7 @@ reading-from: "beginning of chapter"
 reading-to: "With ASI, there is no second time."
 authors:
   - Chris+Claude
-domain: "[[../Domains/Strategy]]"
+topic: "[[../Domains/11 Strategy/One chance to get it right]]"
 stage: beginner
 eval-results:
   content-sha: f0502c15
