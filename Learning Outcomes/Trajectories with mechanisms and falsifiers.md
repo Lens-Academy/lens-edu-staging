@@ -1,7 +1,7 @@
 ---
 id: '5b3c0b0d-1191-4e10-9893-89965f849e66'
 learning-outcome: Produce at least two distinct, technically-grounded trajectories for AI capability over the next decade, each with a named driving mechanism and a stated observation that would count against it.
-domain: none
+topic: none
 stage: beginner
 authors:
   - Lauren+Claude

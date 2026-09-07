@@ -1,7 +1,7 @@
 ---
 id: 'bb7a45a3-3a37-4741-b102-9c654bed4164'
 learning-outcome: Given several estimates of the same quantity, determine how much the estimators' information overlaps, state whether the correct aggregate lies inside or outside the range of the individual estimates, and explain why averaging is the right move under one overlap structure and the wrong move under another.
-domain: none
+topic: none
 stage: intermediate
 eval-results:
   content-sha: 1b865cb2

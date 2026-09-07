@@ -1,7 +1,7 @@
 ---
 id: 'bfee82b6-8588-4467-b262-289dbde09149'
 learning-outcome: State the disagreement between two rival accounts of what makes alignment hard, one holding that alignment fails to generalize as capabilities generalize, the other that the target was never a well-defined thing to point at; identify what observation would distinguish them; and determine which account a given proposed solution implicitly assumes.
-domain: none
+topic: none
 stage: advanced
 eval-results:
   content-sha: b8be80a2

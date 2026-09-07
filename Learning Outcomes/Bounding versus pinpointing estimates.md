@@ -1,7 +1,7 @@
 ---
 id: 'b64206ee-e2e8-4687-ab9d-a2308e86cfde'
 learning-outcome: Given an unfamiliar quantitative estimate of a future event, determine whether the estimate's method can locate the answer or only bound it from one side, state which side the bound is on and what assumption puts it there, and name a case where the bound is uninformative.
-domain: none
+topic: none
 stage: intermediate
 eval-results:
   content-sha: baa6a260
