@@ -83,6 +83,14 @@ This is what we think implementing the deal would look like in 2029 in our scena
 
 We recommend focusing pre-deal effort on sprinting towards a minimal verification package that can be used to securely retrofit 99% of the world's AI compute to be verified as inference-only, and for at least 99% of the world's AI compute to be known-to-exist (at least to intelligence agencies) with low uncertainty, so that it can’t be hidden from a future compute declaration (and therefore verification regime) with plausible deniability.[^note-verification-plan-9]
 
+:::collapse
+#### Why do we recommend this?
+
+If the year is 2029, and there is no verification progress relative to today, our best guess is that frontier AI services would need to mostly (e.g., 90%) stay offline for 6-12 months in the wake of a deal if both sides wanted to be highly confident there wasn’t fast frontier AI development continuing. If there were a minimum-viable inference-only retrofitting solution prepared, the equivalent period would be more like 2-5 months. The difference between these in terms of economic impact might be in the trillions of dollars by 2029. Of course, it would be even better if there was a more general verification solution ready, that could e.g., also allow approved training and experiments to continue, but we think this is likely to be harder, and only provide a marginal gain on top of an inference-only solution, because most of the economic upside can be retained by only keeping inference online (since training and experiments will be intentionally limited under a slowdown deal anyway, especially at first while negotiations on how to proceed with AI development are negotiated).
+
+Even with such a verification solution ready, the maximum verification coverage of a deal is still bounded by the percentage of the world's compute that can be brought under the deal. If the US, China, or any other actor has plausible deniability on how much compute they have, they can use that plausible deniability to hide compute from the deal, and use it as unverified compute in a covert project. But if the total unknown compute is under 1% of world compute, we think any such covert effort is likely to be inconsequential: our [covert project supplement](https://ai-2040.com/supplements/covert-ai-projects#section-6-overall-risk-estimate) models this directly, and estimates roughly a 13% chance that a competently-pursued covert project reaches deal-undermining AI before detection or handoff, under our recommended scaling strategy. These estimates apply to the start of the deal: as the deal goes on, the uncertainty should narrow and the plausible covert stock should shrink, as tracing and audits converge, detection efforts accumulate (see the [detection estimates](https://ai-2040.com/supplements/covert-ai-projects#section-3-detecting-covert-ai-infrastructure) in the covert project supplement), and more compute is brought under verification. Of course, the lower the unknown compute is, the better but we think around 1% of world compute is likely to be an achievable target and sufficient for a stable deal.
+:::
+
 **Top priority recommendations:**
 
 1.  **Invest in verification R&D with a specific focus on developing a secure inference-only retrofitting plan with around 80% of total verification R&D effort.**
@@ -97,6 +105,18 @@ We recommend focusing pre-deal effort on sprinting towards a minimal verificatio
 ## Phase 2. Implement the deal
 
 To set up a stable deal, we recommend immediately carrying out a mutual compute declaration and supply chain records audit to maximize the amount of compute that is brought under the deal. Then implementing the best available inference-only verification solution to this compute to enforce a brief pause on training and experiments. In parallel, we recommend a sprint to set up a verification regime for resumed training and experiments.
+
+:::collapse
+#### Why do we recommend this?
+
+Given that unknown compute can’t be brought under the verification of a deal, the first priority should be to minimize the amount of compute that is unknown. The urgent action needed for this is to immediately carry out a declaration of existing compute and compute currently in transit or production. Both the US and China should then be able to carry out an audit and inspection of each other’s declaration, and compare it against their private intelligence efforts (to the extent they properly prepared this) to resolve their uncertainties over how much compute each other have.
+
+Around 85% of global compute should be owned by US or Chinese entities, so aiming for 99% of compute being under the deal will require rolling out such a declaration agreement to the other 5-10 nations that will likely make up the rest of this gap. The level of urgency of extending this to other nations will depend on the uncertainty intelligence agencies have over how much compute these other nations have, how likely it seems that these other nations would successfully be able to hide significant quantities of it without detection.
+
+Following this declaration, we recommend a brief AI R&D pause (i.e., new training runs and experiments), with existing compute being converted to inference-only. As explained above, we think this achieves the goal of a deal (slowdown in AI progress) while keeping most of the economic upside (AI services and products keep running), while also being relatively easier to verify. Whatever the best inference-only verification solution that is ready should be used. We currently recommend aiming for a network-tap and recomputation based approach, but more R&D is needed to figure out if another approach will be better. It’s also possible that only an inferior solution will be ready, but still sufficient to be used in the initial setup of a deal until something better is ready.
+
+Finally, we recommend setting up the verification regime for resuming training and experiments as a separate effort that happens after the deal begins because we think there are important properties of R&D verification to decide on once the deal is setup, and also extremely high security requirements needed for the R&D verification to enable a stable deal going forward. In particular, there is a decision to make about what level of transparency to aim for (we recommend a ‘Total Research Transparency’ regime, but more on the possibilities to decide between in our [transparency supplement](https://ai-2040.com/supplements/transparency-plan)), and in any case there are high security requirements, so we believe that the verified datacenters will need to be built from scratch. If new construction is deemed to take unacceptably long, or there is a sufficiently secure retrofitting solution for R&D verification, then there could be an interim period where pre-existing datacenters are used for R&D. That being said, we think after around 2 years, when verification and security requirements are elevated, and something like 90% of the world’s compute will be new post-deal compute anyway, we recommend more strongly having new, post-deal, highly secure datacenters.
+:::
 
 **Top priority recommendations:**
 
@@ -113,17 +133,26 @@ To set up a stable deal, we recommend immediately carrying out a mutual compute 
     1.  We recommend a specific regime we call Total Research Transparency in the Plan A scenario, but as explained in our [transparency supplement](https://ai-2040.com/supplements/transparency-plan), there are conditions under which a different approach may be better. Regardless of the regime, there should be some combination of highly secure R&D clusters and highly secure post-deal inference clusters built, because across most transparency regimes we imagine at least AI model weights and verification correctness requiring [SL5](https://www.rand.org/pubs/research_reports/RRA2849-1.html) (robust to nation state actors) level security. Because of this we think these clusters should be built from scratch.
         
 
-What AI R&D agreements should actually be verified?
+:::collapse
+#### What AI R&D agreements should actually be verified?
 
 The primary purpose of the deal is to create the conditions that can allow for slowing down AI development in order to increase safety, by paying safety taxes in safety resource allocation (e.g., doing alignment research instead of capabilities research) or development directions (e.g., agreeing to not pursue a certain research direction or use a certain efficient algorithm that might be less safe). Overall, we refer to this safety focused slow down on AI research as ‘AI research titration’. The method of AI research titration may be crude at first (e.g., harsh experiment compute caps) and become more sophisticated over time (e.g., case by case decisions informed by scientific understanding of capabilities externalities).
 
 We additionally think that a deal may have to deal with potentially destabilizing levels of hardware research, and hardware production levels. In the Plan A scenario we recommend hardware research titration and a cap & trade policy on robots and compute production to deal with the risks from these sources. All of this is explored in more detail in the [Plan A verification story](https://ai-2040.com/supplements/verification-plan#verifying-the-deal-in-our-plan-a-scenario).
+:::
 
 ## Phase 3. Improve Robustness
 
 Once a deal has been set up, we expect many improvements to its robustness will be possible. We recommend investing heavily in hardware security; improving the verification regime; pursuing favorable trade-offs in hardware design that favor deal robustness (e.g., by making verification easier, improving various security properties, differentially favoring the actors in the deal over covert projects, etc.); and reducing incentives to pull out of the deal (e.g., through mutually assured compute destruction, and balancing deal dissolution outcomes between actors).
 
-Concrete ideas for deal robustness
+:::collapse
+#### Why do we recommend this?
+
+We expect there to be many achievable improvements to the robustness of the deal. Given that the deal breaking down is one of the biggest threats to Plan A succeeding, as explored in our [deal decline supplement](https://ai-2040.com/supplements/deal-decline), reducing the incentive to pull out of the deal is a core part of improving the deal’s stability. Covertly defecting from the deal is another core threat to the deal (as explored in our [covert project supplement](https://ai-2040.com/supplements/covert-ai-projects)), so another core part of improving the deal’s robustness is making the verification regime better, both on the level of assurance of known compute and reducing the amount of unknown compute; improving various other security properties, like model weights security; and more generally making it harder for potential defecting actors to make or steal progress.
+:::
+
+:::collapse
+#### Concrete ideas for deal robustness
 
 **Deal dissolution contingencies and incentive shaping.**
 
@@ -178,6 +207,7 @@ One of the core recommendations we make in Plan A is that to the extent capabili
 **Hardware-software co-design.**
 
 If it proves technically possible, transition to new AI algorithms that run poorly on pre-deal compute but well on newly designed and manufactured post-deal compute. For instance, introduce new model architectures and number formats different from those for which pre-deal compute was optimized. This way, covert projects cannot easily steal algorithms from the Consortium and run them on mostly pre-deal dark compute.
+:::
 
 ## Verifying the deal in our Plan A scenario
 
@@ -193,6 +223,7 @@ The intelligence agencies in the US begin internally keeping tabs on AI compute 
 
 The US executive branch starts expressing interest in deal optionality and verification measures that could enable this. After a series of [RFIs](https://en.wikipedia.org/wiki/Request_for_information) they choose to focus efforts on a network-tap and recomputation centered approach for an inference-only retrofitting solution. The prospect of installing devices in each other’s datacenters raises initial alarm bells but it's a tractable security problem to work on. Ultimately due to the sheer simplicity of some of the possible network tap designs (essentially a piece of glass splitting optical signals), and parallel investment into various physical security agendas, it becomes a palpable possibility that these taps might actually be worth producing en-masse in case they were to be needed. Unilaterally trusted recomputation servers (that the network taps redirect traffic to and are responsible for actually performing the verification) are more complicated and thus harder to trust by default, but there are large investments made here. The R&D programs are purposely transparent and open sourced to build trust. China also sees the incentive to develop and build their own symmetrical solution in a similarly transparent way. In the latter half of the year, they agree to mutual information sharing about important verification-relevant information which is otherwise not sensitive, especially about each other’s networking and computing paradigms, which is necessary in order to build compatible network taps and recomputation servers.[^note-verification-plan-13] Several pilots from different sources of funding and different places around the world are carried out over the course of the year, improvements to the designs are iterated on, and preparations are made to increase production scales. Ultimately the US and China end up opting for network tap solutions with extremely simple optical splitting designs that have minimal room for any vulnerabilities, rather than some of the more ambitious designs that we propose in the box below, or different [cryptographic based-approaches](https://pearlresearch.ai/), which are more uncertain, but if they work (at sufficiently low cost) they might be even better and easier to trust.
 
+:::collapse
 #### Concrete inference-only retrofitting proposal.
 
 Our current best guess is that the US and China should aim for an inference-only solution that uses network taps and a recomputation server. It appears to us to capture the vast majority of the upside in enabling an initial slowdown deal to be highly verified and low economic cost, while being achievable and easy to build. We are less confident in the second part of this, which is why we more confidently recommend RFIs and iteration starting as soon as possible on piloting and iterating on approaches.
@@ -233,11 +264,13 @@ One potential upgrade to this proposal would be to build more complex ‘secure 
 A rough sketch for what these secure network gateways might look like. There are data path directions (input and output) with network splitters on each path that log data flow to be organized into packets that are randomly sampled and then sent to a secure recomputing server. In a boot phase, these gateways can additionally check that exclusively whitelisted model weights are being uploaded to the inference unit. Some of the hardware security properties you might want for these gateways are precedented, for example, see [iPhone secure enclaves](https://support.apple.com/guide/security/the-secure-enclave-sec59b0b31ff/web) and [PUFs](https://en.wikipedia.org/wiki/Types_of_physical_unclonable_function).
 
 These could be used in place of the network taps in a similar setup as before.
+:::
 
 ![](https://ai-2040.com/verification-plan/image1.png)
 
 On top of this key effort to build the network-tap and recomputation centered approach, there is also significant funding (order of $100M) mobilized into R&D for other approaches, including software-only and cryptography-centric (e.g., [ZKPs](https://en.wikipedia.org/wiki/Zero-knowledge_proof)) approaches, and a similar pool for physical security R&D (order of $100M) that supplements the inference-only retrofitting solution.
 
+:::collapse
 #### Other promising verification directions.
 
 Instead of the partial recomputation approach we sketched out, it might be possible to verify inference-only in other ways, e.g.:
@@ -253,6 +286,7 @@ Instead of the partial recomputation approach we sketched out, it might be possi
 3.  Crude hardware modifications.
     
     1.  Removing major scale out interconnect and e.g., installing some simple sensors and other physical security mechanisms might also suffice for verifying inference-only for an initial phase of a deal (e.g., 1 year) until higher assurance measures are ready for larger amounts of compute and higher stakes workloads.
+:::
         
 
 ### 2028: Chip tracking is mature
@@ -284,6 +318,7 @@ More detail on the suggested interventions by cluster size bucket below:
 
 The chip declaration also involves keeping extremely close tabs on all new compute production, and any chips above certain performance metrics of AI-relevance need to either be directed to known locations to be included under the verification measures. While lower powered consumer compute production can likely remain unrestricted.
 
+:::collapse
 #### Chip flow restrictions.
 
 The US and China need to minimize the plausible flow of future compute production to illegal projects. This means they need to monitor its manufacturing and guard its transportation. Luckily AI compute manufacturing is highly centralized in few facilities around the world, and this should continue to be the case through 2029. We think it is highly tractable for them to successfully account for 100% of the new AI compute production (along with critical components like high performance AI memory and networking); our [covert project supplement](https://ai-2040.com/supplements/covert-ai-projects#section-2-preventing-covert-compute-procurement) estimates diversion from post-deal production can be kept to approximately zero, with very high confidence that the total is under 100K H100e. We recommend having companies be allowed to direct new compute they purchase to one of two places.
@@ -296,6 +331,7 @@ The US and China need to minimize the plausible flow of future compute productio
 *Figure: Chip Flow Restrictions, 2029: chip flow restrictions, 2029. Tier 0 (unrestricted consumer) versus Tier 1 (subject to the deal: inference-only or cold storage), plotted by compute (H100e) against cross-chip interconnect speed (GB/s), with example devices from an iPhone 16 Pro Max up to a GB200 NVL72. Tier 1 begins above roughly 10 TB memory capacity (scale-up) or HBM-class memory bandwidth (about 1.5 TB/s).* [View the original figure in the source article](https://ai-2040.com/supplements/verification-plan).
 
 At first, we propose that any chip with low enough interconnect, compute, memory and bandwidth can be produced unrestricted. Then by 2032, we tentatively propose a cap, with a slight alleviation of the compute threshold (to give room for more consumer applications that might require higher edge compute) and a tightening of the interconnect threshold (to hopefully lower their potential usefulness in a covert project if diverted). More on this in the [2032 section](https://ai-2040.com/supplements/verification-plan#2032-cap-and-trade-for-robots-and-compute).
+:::
 
 ### Feb 2029: Inference-only retrofit begins
 
@@ -327,7 +363,8 @@ Starting in April and through the rest of 2029, most of the richest 20 countries
 
 As part of the transparency regime, the plan is to do broad public deployment of approved frontier models, but under SL5 model weights security achieved through SL5 output verification and distillation mitigations. The plan is to offer a mixture of [Zero Data Retention](https://code.claude.com/docs/en/zero-data-retention) (ZDR) inference for consumers, and transparent inference for higher-risk deployments. More on this in our [transparency supplement](https://ai-2040.com/supplements/transparency-plan). We think these clusters probably need to be built from scratch to reach SL5 model weights security and verification integrity.
 
-Zero Data Retention (ZDR) inference
+:::collapse
+#### Zero Data Retention (ZDR) inference
 
 In order to balance the benefits of ZDR (AI users having strong privacy guarantees) with the risks (AI being used for existentially dangerous applications), we propose 3 tiers of privacy offerings for inference during the deal:
 
