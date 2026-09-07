@@ -15,7 +15,7 @@ Some overarching non-learning outcomes we want to achieve:
 %%
 
 %%
-Structural improvement (comment from student-to-navig)
+Structural improvement (comment from student-to-navigator)
 
 Just to second on this where participants have found the workload to be quite intensive. My impression on it is that there was miscalculation, misunderstanding, or underestimation from some participants in this regard. The pace also allows few opportunities for recalibration.
 Also to talk briefly about the module construction, I concur that the contracted pacing has led to difficulties as the first 6 chapters of the book are the most dense, but leaving Chapter 6 for M3 also gives you a weird overhang where the discussion ends up fixating on Part II.
