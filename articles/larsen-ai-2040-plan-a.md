@@ -8,7 +8,7 @@ author:
   - "Ryan Greenblatt"
   - "Daniel Kokotajlo"
 source_url: "https://ai-2040.com/?choices=plan-s-root"
-published: {--{"author":"Elias's AI","timestamp":1788767487948}@@2026-09-06--}{++{"author":"Elias's AI","timestamp":1788767487948}@@2026-07-09++}
+published: 2026-07-09
 created: 2026-09-06
 accessed: 2026-09-06
 llm-review:
