@@ -20,7 +20,13 @@ before the next lens asks what a curve licenses; What a Curve Licenses teaches
 where an extrapolation stops being licensed by its data. Revision 1 and the alignment-door pointer serve the running-model habit{>>{"author":"lauren","timestamp":1787665958298}@@needs ASD-STE100 rewrite<<},
 not new content. Editing rule of thumb: if a change doesn't help a student
 build, defend, or revise a mechanism-based trajectory, it doesn't belong in
-this module. %%
+this module.{++{"author":"Lauren's AI","timestamp":1788824473325}@@
+
+Live-cohort rule (2026-09-08): while a cohort is inside this unit, do not split,
+reorder, rename or remove lenses. Add new material only as a new lens appended
+at the end. Adding or removing a lens moves the scoring denominator overnight;
+a question inside an existing lens does not. Keep reading and tutor minutes
+accurate when content changes.++} %%
 
 # Lens: Half of What We Teach You Here Is Wrong
 source:: [[../Lenses/AIF - Half of What We Teach You Here Is Wrong]]
