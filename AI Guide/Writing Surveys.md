@@ -87,7 +87,7 @@ high-label:: A lot
 
 #### Choice
 key:: buddy_texted
-content:: Did you message your accountability buddy this week?
+content:: Did you message your accountability buddy since the last meeting?
 options::
 - Yes
 - No
