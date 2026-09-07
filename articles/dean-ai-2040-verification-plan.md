@@ -73,9 +73,9 @@ Our recommended solutions come in three phases.
 | China | 26M | 9% |
 | Rest of world | 39M | 14% |
 
-{--{"author":"Elias's AI","timestamp":1788773366192}@@[View the original figure--}{++{"author":"Elias's AI","timestamp":1788773366192}@@[Chart++} in the source article](https://ai-2040.com/supplements/verification-plan).
+{--{"author":"Elias's AI","timestamp":1788793618916}@@[View the original figure in the source article](https://ai-2040.com/supplements/verification-plan).
 
-This is what we think implementing the deal would look like in 2029 in our scenario, with an inference-only retrofit of all the medium and large AI datacenters (>10K H100e, or approx. >$100M), and this being enough to cover ~99% of world AI-relevant compute. Then keeping tabs on the rest of the smaller clusters and taking measures to avoid them being possibly used in a covert project. We are not confident in the modelling of this [concentration in datacenter sizes](https://ai-2040.com/supplements/compute-supplement#14-datacenter-sizes), so the exact cutoffs and interventions may need to be different.
+--}This is what we think implementing the deal would look like in 2029 in our scenario, with an inference-only retrofit of all the medium and large AI datacenters (>10K H100e, or approx. >$100M), and this being enough to cover ~99% of world AI-relevant compute. Then keeping tabs on the rest of the smaller clusters and taking measures to avoid them being possibly used in a covert project. We are not confident in the modelling of this [concentration in datacenter sizes](https://ai-2040.com/supplements/compute-supplement#14-datacenter-sizes), so the exact cutoffs and interventions may need to be different.
 
 **Phase 3. Improve robustness.** Over time the US and China improve the stability and durability of the verification regime, especially through hardware security, verification robustness, and more.
 
@@ -301,8 +301,6 @@ Deal implementation timeline, Jan 2029 to Jan 2031:
 - **Jul 2030:** first generation of post-deal models released
 - **Sep–Oct 2030:** SL5 inference clusters rollout reaches 30%
 - **Jan 2031:** mature safety-case-based R&D rules in place
-
-[Timeline chart in the source article](https://ai-2040.com/supplements/verification-plan).
 
 ### Jan 2029: Mutual Chip Declaration and Inspection
 
