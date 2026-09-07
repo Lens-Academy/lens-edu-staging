@@ -91,6 +91,20 @@ Renaming descriptively does not fix the remap. `iabied-nonhuman-minds-2` would m
 
 Either way this needs a comms pass over meeting docs, cohort materials and anywhere else a module URL was pasted. Log those as they are found.
 
+### Surveys and meetings
+
+Checked, and the news is mostly good. **Surveys attach to meetings, not modules**, via `survey::` and `facilitator-survey::` on each `# Meeting:` block in the course file. The meeting count stays at five and the meetings keep their order, so nothing renumbers.
+
+The AIRF learner surveys are also content-agnostic. `AIRF Session 1 Survey` is baseline rating scales, buddy handle, BlueDot history and open feedback, with no reference to any chapter, module or concept. Nothing in it breaks when the reading behind meeting 1 changes.
+
+| Item | Finding |
+|---|---|
+| `AIRF Session 1 / 3 / 4 / 5`, `AIRF Weekly`, `Navigator Post-Meeting`, `Navigator Session 1 Debrief` | No chapter or module references found. Expected to need no changes |
+| **Meeting titles** | Meeting 1 is titled "Introduction" and meeting 2 "Nonhuman Minds". After the restructure meeting 1 covers chapters 1 to 3 and the Introduction sits in its own pre-meeting module, so both titles need renaming |
+| **`meeting-doc-template::` Google Docs** | Five external templates, one per meeting. These hold the actual per-meeting discussion content, and the content behind meetings 1, 2 and 3 all change. This is the largest external dependency and belongs in the comms pass |
+
+**Do not edit survey files casually.** The course file records that `AIRF Session 3` and `Session 4` are byte-for-byte copies of `AIRF Weekly Survey` with a block added, specifically so every question keeps its key, wording and order and the pre/post rating comparison against Session 1 stays valid. It also records a hard rule learned the hard way: no answerable segment may precede an outbound link, because answers live in React state until submit and survey links carry no `target=_blank`, so a learner who clicks a link mid-survey loses every answer and their attendance. If a survey ever does need touching, read those notes first.
+
 ### Pre-existing, not caused by us
 
 | File | Issue |
