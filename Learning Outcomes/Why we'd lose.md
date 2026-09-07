@@ -3,7 +3,7 @@ id: 42c5126e-6eeb-42c4-8ba6-d60199ca656d
 learning-outcome: "Articulate why a superintelligence with misaligned goals would defeat humanity, even starting from limited resources"
 tags:
   - work-in-progress
-topic: "[[../Domains/11 Strategy/The core extinction argument]]"
+topic: "[[../Domains and Topics/11 Strategy/The core extinction argument]]"
 stage: intermediate
 ---
 
