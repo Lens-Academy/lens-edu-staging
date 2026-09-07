@@ -45,7 +45,7 @@ Two survey answers drive platform behavior beyond storage, and the platform find
 ```markdown
 #### Choice
 key:: buddy_texted
-content:: Did you message your accountability buddy this week?
+content:: Did you message your accountability buddy since the last meeting?
 options::
 - Yes
 - No
