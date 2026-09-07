@@ -477,8 +477,7 @@ A potential overall regime to use is to maintain ‘white’ lists of code and d
 
 ![](https://ai-2040.com/verification-plan/image9.png)
 
-:::collapse
-#### Workload Verification.
+:::callout {title="Workload Verification." tone="neutral" collapse="closed"}
 
 We also mentioned multiple different types of evidence collection or verification that might be used. Our guess is that in order to reach extremely high levels of assurance, which will be increasingly necessary in Plan A (more on this later), a reproducibility mandate, combined with complete (and increasingly granular) on-path evidence collection, paired with a partial recomputation based verification algorithm, will be a viable approach. That being said, we are not confident that another approach (e.g., using low latency challenges and validity checks) might not be able to reach the same levels of assurance at lower costs or higher levels of assurance at equal costs. For the purposes of making the case that the verification problem will be viable, we will talk about the complete (and increasingly granular) on-path evidence collection with partial recomputation based verification algorithm.
 
@@ -554,8 +553,7 @@ AI hardware design improvements and/or paradigm shifts might make it easy to def
 
 Similarly we want other high risk scientific domains such as biology research to have R&D restricted. Our default proposal for this is to rely on inference refusals and monitoring on the majority of public deployment, and then potentially set up dedicated locations that allow high-stakes hardware and other scientific research to be carried out in mutually verified research labs, where we make some (not necessarily identical) security-transparency tradeoff choices, and mutually verify that the companies follow the titration rules on hardware R&D, which can also be some combination of safety cases, ad-hoc rules, human interpretability requirements and resource caps (similar to software research).
 
-:::collapse
-#### Inference restrictions, monitoring and refusals for high-risk domains.
+:::callout {title="Inference restrictions, monitoring and refusals for high-risk domains." tone="neutral" collapse="closed"}
 
 One downside of publicly deploying highly capable models is that they could enable dangerous research, or illegal projects could use those models to help them with AI research, or directly distill the outputs of these models to help train their models. In order for broad inference deployment to not lead to distillation, illegal project uplift, or other dangerous research, there needs to not only be correct output verification, but also some sufficient combination of refusals, monitoring, and compression.
 
@@ -577,8 +575,7 @@ One downside of publicly deploying highly capable models is that they could enab
 We currently think these are tractable mitigations that will allow a lot of broad deployment, but are uncertain. There should be ongoing testing for distillation and detecting dangerous research.
 :::
 
-:::collapse
-#### Hardware research restrictions.
+:::callout {title="Hardware research restrictions." tone="neutral" collapse="closed"}
 
 1.  **Setting rules on hardware research**
     
@@ -604,8 +601,7 @@ In Plan A we propose a cap starting in 2032 that limits the number of robots and
 
 Actually enforcing the cap & trade permit rules might be very difficult if robot and/or AI compute production happens all over the world, so we propose centralizing new built up industrial capacity and robots in special economic zones (SEZs) to make for easier enforcement of the cap & trade rules.
 
-:::collapse
-#### How to enforce the cap & trade rules.
+:::callout {title="How to enforce the cap & trade rules." tone="neutral" collapse="closed"}
 
 Our proposal for this is to centralize all the built up industrial capacity and robots in special economic zones (SEZs), to centralize the enforcement and associated surveillance in these restricted zones, and allow the rest of the economy to not be subjected to any hardware verification checks.
 
@@ -616,8 +612,7 @@ The rest of the economy can then be left unverified, but should probably have up
 
 The same cap and trade principle is extended to other products and services that are destabilizing in unrestricted quantities, but can be safe in lower quantities. Two major examples are products with edge compute and unmonitored inference. Things that might particularly rely on edge compute include self-driving cars and consumer compute, while unmonitored inference might be particularly valuable to governments for military operations. Under cap and trade the regime can accommodate these activities being legal, under safe societal-scale caps that maintain the stability of the deal. Then there can be markets for the permits the people, firms and the government can bid between each other to have the rights for.
 
-:::collapse
-#### Unverified edge compute cap.
+:::callout {title="Unverified edge compute cap." tone="neutral" collapse="closed"}
 
 **We propose a cap of 30M effective-H100e of unverified edge compute being allowed to exist in the world, with estimates of 25M [effective](https://ai-2040.com/supplements/compute-supplement#appendix-the-effective-h100e-model) H100e predating the deal, there are only 5M credits available for new unverified production.** **With sufficient edge verification measures, the compute can be exempt.**
 
@@ -759,8 +754,7 @@ Plotting confidence against coverage for several verification budgets (i.e., dif
 
 These curves show the confidence-coverage relationship at different values of $N_{\text{verified}}$. Higher $N_{\text{verified}}$ gives you higher assurance (shifts the curve right). Since $N_{\text{verified}} = C / s$, **the curve can be shifted higher either by (1) increasing the recomputation budget $C$ or (2) shrinking the packet size $s$.**
 
-:::collapse
-#### When the Poisson approximation breaks down.
+:::callout {title="When the Poisson approximation breaks down." tone="neutral" collapse="closed"}
 
 The product $C \cdot N_{\text{fake}}$ (recomputation budget times number of fake packets) is the single quantity that determines 99% catch probability: it just needs to exceed about 4.6.
 
