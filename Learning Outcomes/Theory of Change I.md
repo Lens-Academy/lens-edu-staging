@@ -1,7 +1,7 @@
 ---
 id: '4f96e154-1e57-4de3-82c4-9e1b4858ebd1'
 learning-outcome: "Explain why theories of change are important."
-domain: "[[../Domains/Effective Altruism]]"
+topic: "[[../Domains/11 Strategy/Theories of change]]"
 stage: beginner
 eval-results:
   content-sha: 0b9a3b63

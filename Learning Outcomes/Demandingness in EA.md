@@ -3,7 +3,7 @@ id: 89e408a9-8a03-4b34-be69-69c941b51507
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-domain: none
+topic: none
 ---
 
 > **Not in the skill tree:** Needs a from-scratch AIS version (framing + copyright); excluded until then.

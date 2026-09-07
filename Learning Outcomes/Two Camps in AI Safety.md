@@ -1,7 +1,7 @@
 ---
 id: '809100e4-b7d7-4556-abe4-d91e8c45641f'
 learning-outcome: "Identify two broad camps in AI safety described by Jason Hausenloy, and summarize some of the main ways their views and preferred approaches differ."
-domain: "[[../Domains/Strategy]]"
+topic: "[[../Domains/11 Strategy/The research landscape]]"
 stage: intermediate
 eval-results:
   content-sha: a98cb744

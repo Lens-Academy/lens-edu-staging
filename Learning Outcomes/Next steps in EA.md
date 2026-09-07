@@ -3,7 +3,7 @@ id: 8a610770-11cb-4e25-96aa-652e302f1ae8
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-domain: none
+topic: none
 ---
 
 > **Not in the skill tree:** EA-community onboarding, not AIS content.
