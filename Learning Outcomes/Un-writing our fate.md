@@ -5,7 +5,7 @@ reading-from: "beginning of chapter"
 reading-to: "And civilization lived."
 authors:
   - Chris+Claude
-domain: "[[../Domains/Governance and Policy]]"
+topic: "[[../Domains/10 Governance and Policy/International coordination]]"
 stage: beginner
 eval-results:
   content-sha: c3cb608a
