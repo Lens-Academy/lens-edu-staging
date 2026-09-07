@@ -174,7 +174,7 @@ No module is created, merged or retired. All seven files persist and only their 
 
 Net result: M1 keeps Welcome and Ch0. M2 becomes Ch1, Ch2, Ch3. M3 becomes Ch4, Ch5, Ch6. M4 loses Ch6 and later gains the U3 opener and Ch9 in stage 2. M5, M6 and M7 are untouched.
 
-Do not strip the \`%%` block in M3's welcome: it holds drafted framing for chapter 6 from when the chapter lived there, and chapter 6 is coming back.
+Do not strip the `%%` block in M3's welcome: it holds drafted framing for chapter 6 from when the chapter lived there, and chapter 6 is coming back.
 
 **1e. Course file.** Smaller than expected. Meeting boundaries currently sit as M1, meeting 1, M2 and M3, meeting 2. They need to become M1 and M2, meeting 1, M3, meeting 2. **Only the first `# Meeting:` block moves**, down past M2. Meeting 2's position is unchanged, as are meetings 3, 4 and 5, and the module order never changes. Retitle meeting 1 and meeting 2, which are currently "Introduction" and "Nonhuman Minds". The resources module is stage 5, not here.
 
