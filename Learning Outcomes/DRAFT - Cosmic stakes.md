@@ -6,7 +6,7 @@ authors:
 tags:
   - learning-outcome
   - wip
-domain: "[[../Domains/Strategy]]"
+topic: "[[../Domains/11 Strategy/Loss of control and takeover]]"
 stage: intermediate
 requires:
   - "[[Hostile vs. indifferent AI]]"

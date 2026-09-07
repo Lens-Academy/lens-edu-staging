@@ -1,5 +1,4 @@
 ---
-domain-number: 7
 start-stage: intermediate
 ---
 %%
