@@ -56,7 +56,7 @@ James D. Fearon (1997)
   their strategic effects.
 
 #### Article
-source:: [[../articles/archive-signaling-foreign-policy-interests-tying-hands-versus-sinking-costs]]
+source:: [[../articles/fearon-signaling-foreign-policy-interests-tying-hands-versus-sinking-costs]]
 from:: ## TYING HANDS VERSUS SINKING COSTS ^tying-hands-versus-sinking
 to:: In the tying-hands case, payoffs are as follows. If the challenger does not challenge, the defender gets its value for the prize,  $v_D$ , and the challenger gets its value for the status quo, 0. If C challenges and the defender does not respond, the defender pays the price of the signal,  $m$ , and the challenger gets its value for prevailing on the issue, so payoffs are  $(-m, v_C)$ . If conflict occurs, payoffs are  $(pv_D - c_D, (1-p)v_C - c_C)$ . Note that in this case, the audience costs  $m$  are paid by the defender only if the defender backs down or backs away from a challenge.
 
@@ -89,7 +89,7 @@ Amy F. Woolf (2011)
   analysis, and political judgment.
 
 #### Article
-source:: [[../articles/service-monitoring-and-verification-in-arms-control]]
+source:: [[../articles/woolf-monitoring-and-verification-in-arms-control]]
 from:: ## Introduction ^introduction
 to:: These benefits may be difficult to measure and hard to factor into a net assessment of the value of the new START Treaty. Nevertheless, some argue that, when combined with the fact that the treaty will provide the United States with unprecedented access to information about Russian nuclear forces and a measure of predictability about the future direction of those forces, the benefits of the treaty to U.S. national security interests far outweigh any uncertainties that may arise due to the changes in the verification regime.[^cite-48]
 
