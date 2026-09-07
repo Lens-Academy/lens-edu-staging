@@ -373,13 +373,15 @@ While the inference-only retrofit is being carried out, the US and China then ag
 
 Starting in April and through the rest of 2029, most of the richest 20 countries in the world, and important semiconductor supply chain countries join the deal by doing a compute declaration and allowing the inference-only retrofitting to their datacenters, including: Germany, Japan, UK, India, France, Brazil, Canada, Mexico, Italy, Australia, South Korea, Spain, UAE, Saudi Arabia, Taiwan, Netherlands, Switzerland.
 
-| Party | Declared compute (mid 2029) |
-| --- | ---: |
-| US | 224M H100e |
-| China | 26M H100e |
-| Rest of world | 39M H100e |
+| Party | Declared compute (mid 2029) |{++{"author":"Elias's AI","timestamp":1788793640813}@@ Plausibly undeclared |++}
+| --- | ---: |{++{"author":"Elias's AI","timestamp":1788793640813}@@ ---: |++}
+| US | 224M H100e |{++{"author":"Elias's AI","timestamp":1788793640813}@@ ~0.5M H100e |++}
+| China | 26M H100e |{++{"author":"Elias's AI","timestamp":1788793640813}@@ ~0.5M H100e |++}
+| Rest of world | 39M H100e |{--{"author":"Elias's AI","timestamp":1788793640813}@@
 
-{--{"author":"Elias's AI","timestamp":1788773361463}@@*Figure: Chip declaration result: declared versus--}{++{"author":"Elias's AI","timestamp":1788773361463}@@The source chart also shows the++} plausibly undeclared {--{"author":"Elias's AI","timestamp":1788773361463}@@compute, one --}{++{"author":"Elias's AI","timestamp":1788773361463}@@remainder next to these declared totals (one ++}square = 250K {--{"author":"Elias's AI","timestamp":1788773361463}@@H100e.* [View the original figure--}{++{"author":"Elias's AI","timestamp":1788773361463}@@H100e). [Chart++} in the source article](https://ai-2040.com/supplements/verification-plan).
+*Figure: Chip declaration result: declared versus--}{++{"author":"Elias's AI","timestamp":1788793640813}@@ ~0.5M H100e |
+
+*Table adaptation of the++} {--{"author":"Elias's AI","timestamp":1788793640813}@@plausibly undeclared compute, one square = 250K H100e.* [View the original figure in the source article](https://ai-2040.com/supplements/verification-plan).--}{++{"author":"Elias's AI","timestamp":1788793640813}@@source chart, which draws compute in blocks of 250K H100e; the undeclared figures are read at that block resolution.*++}
 
 ### June - July 2029: Construction of new highly secure (SL5) inference-only clusters begins
 
