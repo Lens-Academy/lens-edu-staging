@@ -1,6 +1,6 @@
 ---
 id: bb0ace07-d21c-43e0-80dd-be00cd785c3d
-slug: iabied-u1
+slug: iabied-intro
 title: "Introduction: Grown, Not Crafted"
 readings: 
   - "Introduction: Hard Calls and Easy Calls"
