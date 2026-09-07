@@ -43,11 +43,57 @@ Recorded so they do not get re-argued. Each entry is the decision, then the reas
 | Assessment load | **Fine.** Each recall moment runs a couple of turns, and the proposal was approved with them in |
 | Welcome lenses | **Replace.** See section 5 |
 
-Nothing is blocking. Section 8 holds the dependency scan, which raises decisions to take as each file is touched rather than up front.
+Nothing is blocking. Read section 3 before starting: its findings are folded into the stage tables in section 5, but the general lesson is not.
 
 ---
 
-## 3. File inventory
+## 3. Dependency scan
+
+Reference, not a stage. Done once, before execution. Found by scanning for phrasing that assumes the current structure. The guess that learning outcomes would be independent turns out to be wrong: several bake in course-internal module labels.
+
+### Breaks under the restructure
+
+| File | What breaks | Handled in |
+|---|---|---|
+| [[modules/IABIED M3 Nonhuman Minds, Part 3]], Part 3 Welcome | Visible text hands chapter 6 to the next module; `summary_for_tutor` says the same | Stage 1 and 4 |
+| [[Learning Outcomes/Fiction as argument, not prediction]] | Rubric level 5 requires "M4's emotional work" and that "Chapters 7–9 already made the dynamics feel real". Chapter 9 is now read, not felt through the film. Already flagged C3 in the 2026-08-24 run | Stage 2 |
+| [[Lenses/IABIED - One Extinction Scenario (Video)]] | States it replaces chapters 7 to 9. Should be 7 and 8 | Stage 2 |
+| [[Lenses/IABIED - M4 Welcome]] | Reading list and hidden Chat segment assume chapters 7 to 9 plus Coda | Stage 4 |
+| M1 orientation lens | States the per-unit reading load and that one unit is mostly a film | Stage 4 |
+| Three `Overview of Optional Resources M1 / M4 / M5` lenses | Module numbers in the filenames | Stage 1, first |
+| Module slugs `iabied-m1` to `iabied-m7` | Slugs carry module numbers. Renumbering makes each slug point at different content | Stage 1, first. See below |
+
+### The slug problem, which is the real renaming risk
+
+Renaming files is cheap: `move` rewrites inbound links automatically. Slugs are not. `iabied-m1` currently means Introduction plus chapters 1 and 2; after the restructure it would mean Introduction alone, and every other slug shifts by one. Anything holding a slug outside the vault, in meeting docs, cohort emails or Discord, would silently land on the wrong module.
+
+Recommendation: drop the numbers. Use content-descriptive slugs (`iabied-intro`, `iabied-nonhuman-minds-1`, `iabied-nonhuman-minds-2`, `iabied-scenario`, `iabied-challenge-1`, `iabied-challenge-2`, `iabied-what-next`). One break now, in the window where nothing is live, and the numbering never has to move again. It has already moved once, when the course went from six weeks to five.
+
+### Pre-existing, not caused by us
+
+| File | Issue |
+|---|---|
+| [[Learning Outcomes/Indifference, not malice]] | The statement, the test question and rubric level 3 all reference "the M3 goal-space argument". The outcome is used by other courses whose M3 is different material |
+| [[Learning Outcomes/Instrumental sub-goal convergence]] | Same problem: the statement references "the M3 argument". Relevant because this is the outcome we are importing into U3 |
+| [[Learning Outcomes/Goal conflict as a physical fact]] | A chapter 7 outcome, not used by this course. Worth a look when U3 is rebuilt, since chapter 7 currently carries nothing here |
+
+**The general lesson.** Outcomes are shared across courses, so a module label inside an outcome resolves differently depending on which course imported it. Any outcome we touch should have module and chapter labels stripped rather than renumbered. That is what B1 asks for, arrived at from a different direction.
+
+---
+
+## 4. Order of execution
+
+1. **Slugs and filenames first.** Both carry module numbers, and everything downstream should be edited against stable paths.
+2. **Structure before content.** Moving a chapter between modules changes which lenses are in scope. Writing recall segments first would mean rewriting them.
+3. **New content before recall segments.** Two of the ten threads terminate on outcomes that do not exist yet, both in U3.
+4. **Welcomes after structure.** A welcome that previews a unit cannot be written until the unit's contents are settled, and three of five units change.
+5. **Glossary last.** Stages 2 and 3 introduce new terms. A glossary written first would need reconciling against them.
+
+This maps onto the stages in section 5 in order: stage 0, then 1, 2, 3, 4, 5.
+
+---
+
+## 5. File inventory
 
 ### Stage 0, preconditions
 
