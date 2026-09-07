@@ -1,7 +1,7 @@
 ---
 id: '1a8ea19f-21ba-4804-b4a4-66d33b76a9a5'
 learning-outcome: "Interpret results from General capability evaluations"
-domain: '[[../Domains/Evaluations]]'
+topic: "[[../Domains/6 Evaluations/Capability evaluations]]"
 stage: intermediate
 tags:
   - skill-tree-placeholder
