@@ -3,7 +3,7 @@ id: d4c2baf8-5be3-4cec-b33a-0d4f06a5478d
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-domain: none
+topic: none
 ---
 
 > **Not in the skill tree:** Replaced by an AIS-framed personal-fit / comparative-advantage LO (planned).
