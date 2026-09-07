@@ -96,6 +96,16 @@ Renaming descriptively does not fix the remap. `iabied-nonhuman-minds-2` would m
 
 Either way this needs a comms pass over meeting docs, cohort materials and anywhere else a module URL was pasted. Log those as they are found.
 
+### A concurrent workstream, not ours
+
+Noticed 2026-09 between two validation runs. The `Domains` folder has been restructured from fourteen flat files into a numbered subfolder tree with a `_domain_metadata.md` per folder, and the outcome frontmatter field `domain:` has been renamed to `topic:` with values repointed into the new tree. The sweep included our draft files, so nothing of ours needs migrating.
+
+Two consequences.
+
+**Twelve validation errors now attribute to this course and are not ours.** They are topic files inside the new folders missing an integer `domain-number` field. Between the two runs the vault went from 2,656 to 2,722 files validated and from 299 to 620 total issues, so the migration is mid-flight. Do not fix these; they belong to whoever is running that workstream. Do check that the count does not grow when we validate after our own changes, because a rising count could hide one of ours.
+
+**Coordinate before stage 3.** That workstream is editing the same outcome files we are about to add recall segments to, and it has already rewritten frontmatter across the whole folder once.
+
 ### Surveys and meetings
 
 Checked, and the news is mostly good. **Surveys attach to meetings, not modules**, via `survey::` and `facilitator-survey::` on each `# Meeting:` block in the course file. The meeting count stays at five and the meetings keep their order, so nothing renumbers.
