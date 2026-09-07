@@ -288,7 +288,21 @@ The intelligence agencies have been keeping close track of new compute productio
 
 ## 2029-2030: Deal Implementation
 
-*Figure: Deal Implementation Timeline (detailed): timeline of deal implementation, Jan 2029 to Jan 2031: mutual chip declaration, R&D pause, SL5 datacenter construction, inference-only retrofit reaching 50%, 80% and 95%, R&D verification rollout (2% to 20%), first major training runs approved, SL5 inference clusters rollout (5% to 30%), first post-deal models released, mature safety-case-based R&D rules.* [View the original figure in the source article](https://ai-2040.com/supplements/verification-plan).
+Deal implementation timeline, Jan 2029 to Jan 2031 (dates read from the source chart):
+
+- **Jan 2029:** mutual chip declaration; R&D pause begins
+- **Feb 2029:** SL5 datacenter construction begins; inference-only retrofit reaches 50% of compute
+- **Apr–May 2029:** inference-only retrofit at 80%
+- **Sep–Oct 2029:** inference-only retrofit at 95%
+- **Nov–Dec 2029:** R&D resumes; R&D verification rollout begins (2% of compute)
+- **Feb 2030:** first major training runs approved
+- **Mar 2030:** R&D verification rollout reaches 20%
+- **Jun 2030:** SL5 inference clusters rollout begins (5%)
+- **Jul 2030:** first generation of post-deal models released
+- **Sep–Oct 2030:** SL5 inference clusters rollout reaches 30%
+- **Jan 2031:** mature safety-case-based R&D rules in place
+
+[Timeline chart in the source article](https://ai-2040.com/supplements/verification-plan).
 
 ### Jan 2029: Mutual Chip Declaration and Inspection
 
