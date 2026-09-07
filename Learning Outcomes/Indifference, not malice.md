@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Strategy]]"
+topic: "[[../Domains/11 Strategy/The core extinction argument]]"
 stage: beginner
 requires:
   - "[[Hostile vs. indifferent AI]]"

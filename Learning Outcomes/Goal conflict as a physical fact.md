@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Alignment]]"
+topic: "[[../Domains/3 Alignment/Instrumental convergence and power-seeking]]"
 stage: beginner
 eval-results:
   content-sha: e96e8b8c
