@@ -3,7 +3,7 @@ id: 7932d074-8072-477f-9b13-9c6e7ce3df9a
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-topic: "[[../Domains/15 Rationality and Epistemics/Quantitative reasoning]]"
+topic: "[[../Domains and Topics/15 Rationality and Epistemics/Quantitative reasoning]]"
 stage: intermediate
 ---
 
