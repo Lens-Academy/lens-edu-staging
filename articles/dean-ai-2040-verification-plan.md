@@ -847,7 +847,18 @@ The confidence formula comes from [§A.2](https://ai-2040.com/supplements/verifi
 
 Plotting confidence against coverage for several verification budgets (i.e., different values of $N_{\text{verified}}$):
 
-The source chart plots confidence against coverage (log scale, 90% to eight nines) for N_ver = 100, 10K and 10M. [Chart in the source article](https://ai-2040.com/supplements/verification-plan).
+{--{"author":"Elias's AI","timestamp":1788793687300}@@The--}{++{"author":"Elias's AI","timestamp":1788793687300}@@*Table adaptation of the++} source {--{"author":"Elias's AI","timestamp":1788793687300}@@chart plots confidence against coverage (log scale,--}{++{"author":"Elias's AI","timestamp":1788793687300}@@chart, computed from the two formulas above.*
+
+| Coverage | Confidence at $N_{\text{verified}} = 100$ | $N_{\text{verified}} = 10\text{K}$ | $N_{\text{verified}} = 10\text{M}$ |
+| --- | ---: | ---: | ---: |
+|++} 90% {--{"author":"Elias's AI","timestamp":1788793687300}@@to eight nines) for N_ver = 100, 10K and 10M. [Chart in the source article](https://ai-2040.com/supplements/verification-plan).--}{++{"author":"Elias's AI","timestamp":1788793687300}@@| 99.995% | ~100% | ~100% |
+| 99% | 63% | ~100% | ~100% |
+| 99.9% | 9.5% | 99.995% | ~100% |
+| 99.99% | 1.0% | 63% | ~100% |
+| 5 nines | 0.1% | 9.5% | ~100% |
+| 6 nines | 0.01% | 1.0% | 99.995% |
+| 7 nines | 0.001% | 0.1% | 63% |
+| 8 nines | 0.0001% | 0.01% | 9.5% |++}
 
 These curves show the confidence-coverage relationship at different values of $N_{\text{verified}}$. Higher $N_{\text{verified}}$ gives you higher assurance (shifts the curve right). Since $N_{\text{verified}} = C / s$, **the curve can be shifted higher either by (1) increasing the recomputation budget $C$ or (2) shrinking the packet size $s$.**
 
