@@ -67,15 +67,27 @@ Reference, not a stage. Done once, before execution. Found by scanning for phras
 | Three `Overview of Optional Resources M1 / M4 / M5` lenses | Not a dependency after all. No live module references them; the only inbound links are from `Lens/Deprecated modules` and the IABIED build notes. Orphaned remnants | Archive, not rename |
 | Module slugs `iabied-m1` to `iabied-m7` | Slugs carry module numbers. Renumbering makes each slug point at different content | Stage 1, first. See below |
 
-### The slug problem, and why renaming does not solve it
+### The slug problem, and the scheme we chose
 
-To be clear about a phrase I used badly: slugs are not links the vault rewrites because internal references between files use wikilinks, not slugs. Slugs are for platform URLs. So this is the external-dependency case, not a permissions one. Editing the `slug:` field is easy; what is not easy is finding everything outside the vault holding the old value.
+To be clear about a phrase I used badly: slugs are not links the vault rewrites because internal references between files use wikilinks, not slugs. Slugs are for platform URLs. So this is the external-dependency case, not a permissions one.
 
-**And renaming them descriptively does not fix it.** `iabied-nonhuman-minds-2` would mean chapters 3 and 4 today and chapters 4 to 6 afterwards. That is the same silent remap with words instead of numbers. Since M2 and M3 merge and a new module appears at the front, there is no content-preserving mapping from old slugs to new ones under any naming scheme.
+Renaming descriptively does not fix the remap. `iabied-nonhuman-minds-2` would mean chapters 3 and 4 today and chapters 4 to 6 afterwards: the same silent remap with words instead of numbers. Since M2 and M3 merge and a new module appears at the front, no naming scheme preserves the old mapping.
 
-So the decision is not what to call them. It is whether an old slug should resolve to something or to nothing.
+**Scheme chosen: `iabied-intro`, `iabied-u1` to `iabied-u5`, `iabied-what-next`.** Reason: units are the more stable object. The 6-to-5 reconciliation changed module boundaries; unit count has held at five, and every diagram and decision in this restructure is expressed in units. M6 and M7 both sit in U5, so M6 takes `iabied-u5` and M7 takes `iabied-what-next`, which matches its content. If the pair ever needs to read as a pair, `iabied-u5-what-next` is a drop-in.
 
-Recommendation: mint slugs that have never existed before, so an old link fails visibly rather than landing quietly on the wrong module. A dead link gets reported; a wrong one gets read. Whether the platform 404s or redirects on an unknown slug is a question for whoever owns it.
+**Which old slugs can be kept alive.** Three map one to one and three do not:
+
+| Old slug | Old content | New home | Clean? |
+|---|---|---|---|
+| `iabied-m1` | Intro + ch 1-2 | Splits across new M1 and M2 | No |
+| `iabied-m2` | Ch 3-4 | Merges into new M3 | No |
+| `iabied-m3` | Ch 5 | Merges into new M3 | No |
+| `iabied-m4` | Ch 6 + film + Coda | Ch 6 leaves; rest stays | No |
+| `iabied-m5` | Ch 10-11 | New M5 | Yes |
+| `iabied-m6` | Ch 12-14 | New M6 | Yes |
+| `iabied-m7` | Synthesis | New M7 | Yes |
+
+`slug-aliases` exists as a field and is used on four course files. [[AI Guide/Writing Course Files]] documents it under **course** frontmatter, and no module file uses it, so whether modules accept it is unknown. **Worth checking with whoever owns the platform.** If they do, the right answer is: new slugs everywhere, aliases only on M5, M6 and M7 where the mapping is clean, and no alias on M1 to M4 so those old links fail visibly rather than landing on the wrong content. Break loudly only where breaking is unavoidable.
 
 Either way this needs a comms pass over meeting docs, cohort materials and anywhere else a module URL was pasted. Log those as they are found.
 
