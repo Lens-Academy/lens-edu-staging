@@ -4,6 +4,8 @@ slug: ai-futures
 slug-aliases: ai-futurism
 title: "AI Futurism: Forecasting & Strategy"
 description: "Learn to see the landscape of AI possibility and build a model of the future that is actually yours: what could happen, how anyone can know, and where the leverage is. You will guess before you read, keep a running model you revise from memory, and be told honestly where the field itself is uncertain. Unit 1 opens the course; further units release as the cohort proceeds."
+tags:
+  - visible-in-skilltree
 ---
 
 # Module: [[../modules/what-could-possibly-happen|Unit 1: What Could Possibly Happen?]]
