@@ -239,3 +239,6 @@ Before review, run at least one live pass through:
 | Date | Change | Files | Why | How it landed |
 |---|---|---|---|---|
 | 2026-09 | Relabelled the structural-improvement comment from "student" to "student-to-navigator" | [[courses/AI Risk Fundamentals]] | It is facilitator-side analysis. Labelled as learner evidence it gets read as cohort feedback, which is how it was read once already | Direct, by Andreas |
+| 2026-09 | Slugs changed on five modules: `m1`→`u1`, `m4`→`u3`, `m5`→`u4`, `m6`→`u5`, `m7`→`what-next` | Five IABIED module files | Old slugs would silently point at different content after the restructure. Units are the more stable object than module numbers | **Pending suggestions.** Five separate ones to accept |
+| 2026-09 | Held: slugs on old M2 and old M3 | Two IABIED module files | Those two merge into one U2 module and the survivor is a merge-step decision, not a slug-step one | Not touched |
+| 2026-09 | Archived three orphaned `Overview of Optional Resources` lenses to `_deprecated`, suffixed `- ORPHANED` | M1, M4, M5 variants | No live module referenced them. Each move reported **0 links rewritten**, which confirms it | **Direct.** `move` has no suggestion mode |
