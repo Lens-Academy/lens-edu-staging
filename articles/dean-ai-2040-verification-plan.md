@@ -288,7 +288,7 @@ The intelligence agencies have been keeping close track of new compute productio
 
 ## 2029-2030: Deal Implementation
 
-Deal implementation timeline, Jan 2029 to Jan 2031 (dates read from the source chart):
+Deal implementation timeline, Jan 2029 to Jan 2031:
 
 - **Jan 2029:** mutual chip declaration; R&D pause begins
 - **Feb 2029:** SL5 datacenter construction begins; inference-only retrofit reaches 50% of compute
