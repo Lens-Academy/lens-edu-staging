@@ -1,6 +1,6 @@
 ---
 id: facd7d51-434f-426c-988a-dc8f70095457
-slug: iabied-m4
+slug: {--{"author":"AI","timestamp":1788760275550}@@iabied-m4--}{++{"author":"AI","timestamp":1788760275550}@@iabied-u3++}
 title: "One Extinction Scenario"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings:
