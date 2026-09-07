@@ -109,12 +109,12 @@ This maps onto the stages in section 5 in order: stage 0, then 1, 2, 3, 4, 5.
 
 ### Stage 1, structure
 
-Do the slug and filename changes first, in one pass, before any content edits (section 3).
+Do the slug changes first, before any content edits (section 3).
 
 | File | Change | Status |
 |---|---|---|
-| Module slugs, all seven | Move from `iabied-m1` to `iabied-m7` to content-descriptive slugs | `todo` |
-| Three `Overview of Optional Resources M1 / M4 / M5` lenses | Rename off module numbers | `todo` |
+| Module slugs, all seven | Mint new slugs. Do not reuse `iabied-m1` to `iabied-m7` under any scheme | `todo` |
+| Three `IABIED - Overview of Optional Resources M1 / M4 / M5` lenses | Orphaned. Archive rather than carry them through the restructure | `todo` |
 | [[courses/AI Risk Fundamentals]] | New unit boundaries, new module list, add intro module, add resources module | `todo` |
 | New M1, Introduction | `intro-form`. Carries the Introduction, *Hard calls vs. easy calls*, and the course overview moved out of the old M1 | `todo` |
 | [[modules/IABIED M1 Intro and Nonhuman Minds, Part 1]] | Becomes M2, Nonhuman Minds part 1. Introduction and orientation lens out, chapter 3 in | `todo` |
