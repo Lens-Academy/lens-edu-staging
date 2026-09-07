@@ -60,14 +60,20 @@ Reference, not a stage. Done once, before execution. Found by scanning for phras
 | [[Lenses/IABIED - One Extinction Scenario (Video)]] | States it replaces chapters 7 to 9. Should be 7 and 8 | Stage 2 |
 | [[Lenses/IABIED - M4 Welcome]] | Reading list and hidden Chat segment assume chapters 7 to 9 plus Coda | Stage 4 |
 | M1 orientation lens | States the per-unit reading load and that one unit is mostly a film | Stage 4 |
-| Three `Overview of Optional Resources M1 / M4 / M5` lenses | Module numbers in the filenames | Stage 1, first |
+| Three `Overview of Optional Resources M1 / M4 / M5` lenses | Not a dependency after all. No live module references them; the only inbound links are from `Lens/Deprecated modules` and the IABIED build notes. Orphaned remnants | Archive, not rename |
 | Module slugs `iabied-m1` to `iabied-m7` | Slugs carry module numbers. Renumbering makes each slug point at different content | Stage 1, first. See below |
 
-### The slug problem, which is the real renaming risk
+### The slug problem, and why renaming does not solve it
 
-Renaming files is cheap: `move` rewrites inbound links automatically. Slugs are not. `iabied-m1` currently means Introduction plus chapters 1 and 2; after the restructure it would mean Introduction alone, and every other slug shifts by one. Anything holding a slug outside the vault, in meeting docs, cohort emails or Discord, would silently land on the wrong module.
+To be clear about a phrase I used badly: slugs are not links the vault rewrites because internal references between files use wikilinks, not slugs. Slugs are for platform URLs. So this is the external-dependency case, not a permissions one. Editing the `slug:` field is easy; what is not easy is finding everything outside the vault holding the old value.
 
-Recommendation: drop the numbers. Use content-descriptive slugs (`iabied-intro`, `iabied-nonhuman-minds-1`, `iabied-nonhuman-minds-2`, `iabied-scenario`, `iabied-challenge-1`, `iabied-challenge-2`, `iabied-what-next`). One break now, in the window where nothing is live, and the numbering never has to move again. It has already moved once, when the course went from six weeks to five.
+**And renaming them descriptively does not fix it.** `iabied-nonhuman-minds-2` would mean chapters 3 and 4 today and chapters 4 to 6 afterwards. That is the same silent remap with words instead of numbers. Since M2 and M3 merge and a new module appears at the front, there is no content-preserving mapping from old slugs to new ones under any naming scheme.
+
+So the decision is not what to call them. It is whether an old slug should resolve to something or to nothing.
+
+Recommendation: mint slugs that have never existed before, so an old link fails visibly rather than landing quietly on the wrong module. A dead link gets reported; a wrong one gets read. Whether the platform 404s or redirects on an unknown slug is a question for whoever owns it.
+
+Either way this needs a comms pass over meeting docs, cohort materials and anywhere else a module URL was pasted. Log those as they are found.
 
 ### Pre-existing, not caused by us
 
