@@ -93,7 +93,9 @@ The objection sounds reasonable and it is wrong in a specific way. Find it.
 
 What is it about this particular failure that defeats the correction it assumes?
 
-assessment-instructions:: The student has read Christiano and previously built their own no-schemer mechanism. This question is a deliberate wedge, not the test question. It hands them a plausible objection whose flaw is the mechanism they need to articulate.
+{++{"author":"Lauren's AI","timestamp":1788789635464}@@max-time:: 10:00
+
+++}assessment-instructions:: The student has read Christiano and previously built their own no-schemer mechanism. This question is a deliberate wedge, not the test question. It hands them a plausible objection whose flaw is the mechanism they need to articulate.
 
 Learning outcome for this lens: explain how interaction between separately-benign optimizers produces an outcome no part selected, and identify the structural conditions the argument requires.
 
