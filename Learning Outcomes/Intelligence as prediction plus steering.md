@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-topic: "[[../Domains/1 Artificial Intelligence/What intelligence is]]"
+topic: "[[../Domains and Topics/1 Artificial Intelligence/What intelligence is]]"
 stage: beginner
 eval-results:
   content-sha: 2fd083f6
