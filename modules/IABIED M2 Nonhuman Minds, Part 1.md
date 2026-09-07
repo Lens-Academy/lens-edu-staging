@@ -43,7 +43,303 @@ Discussion topics to explore:
 Ask what they found surprising or new. Check if they can explain the ice cream analogy in their own words, since it's a key concept.
 %%
 
-# Submodule: Ch3 - Learning to Want
+# Submodule: {++{"author":"AI","timestamp":1788817730243}@@Ch1 - Intelligence
+add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]
+
+# Learning Outcome: IABIED - Define Intelligence
+source:: ![[../Learning Outcomes/Intelligence as prediction plus steering]]
+
+# Learning Outcome: IABIED - Machine Advantages and Intelligence Explosion
+source:: ![[../Learning Outcomes/Machine advantages and intelligence explosion]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - Define Intelligence - PQ]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - Define Intelligence]]
+
+%%
+Luc: "Pre-questioning can be powerful, but it can also lock people into false beliefs, and on that specific topic, I do not want that locking to occur. So I'd rather not have them think about this before they read. Whereas defining intelligence is something where I'm happy for them to have that pre-thinking."
+
+# Lens:
+source:: ![[../Lenses/IABIED - Machine Advantages and Intelligence Explosion - PQ]]
+%%
+
+# Lens:
+source:: ![[../Lenses/IABIED - Machine Advantages and Intelligence Explosion]]
+
+# Lens: Dive Deeper: Chapter 1
+id:: c18583a7-9d9a-4c75-98c0-800b1f83ea53
+tldr:: Chapter 1's optional Q&As field the objections about intelligence itself: is "intelligence" even a meaningful concept, is it one thing or many, and how smart could a superintelligence actually get? Skim the few that catch your eye.
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 1 (Humanity's Special Power). Links the book website's supplementary Q&A cards covering the meaningfulness and measurability of intelligence, human-level and general intelligence, critical thresholds, prospects and obstacles for superintelligence, machine creativity and consciousness, and intelligence as prediction and steering. A navigation and index lens only; it carries no standalone teaching content of its own.
+optional:: true
+reading_minutes:: 2
+
+#### Text
+content::
+Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+
+Skim whatever catches your eye.
+
+::card[[../Lenses/IABIED - QA - Is Intelligence Meaningful]]
+::card[[../Lenses/IABIED - QA - Human-Level Intelligence]]
+::card[[../Lenses/IABIED - QA - Intelligence as Multiple Skills]]
+::card[[../Lenses/IABIED - QA - Intelligence Overrated]]
+::card[[../Lenses/IABIED - QA - General Intelligence]]
+::card[[../Lenses/IABIED - QA - Intelligence as Scalar]]
+::card[[../Lenses/IABIED - QA - AI Critical Thresholds]]
+::card[[../Lenses/IABIED - QA - ChatGPT as General Intelligence]]
+::card[[../Lenses/IABIED - QA - How Smart Could Superintelligence Get]]
+::card[[../Lenses/IABIED - QA - Obstacles to Superintelligence]]
+::card[[../Lenses/IABIED - QA - Predicting Superintelligence]]
+::card[[../Lenses/IABIED - QA - Machines Fundamentally Uncreative]]
+::card[[../Lenses/IABIED - QA - Something Special About Humans]]
+::card[[../Lenses/IABIED - QA - Machines Becoming Conscious]]
+::card[[../Lenses/IABIED - QA - Intelligence as Prediction and Steering]]
+::card[[../Lenses/IABIED - QA - Shallowness of Current AIs]]
+::card[[../Lenses/IABIED - QA - Power of Intelligence]]
+::card[[../Lenses/IABIED - QA - Special Behavior from Mundane Parts]]
+::card[[../Lenses/IABIED - QA - Same Work Different Ways]]
+
+# Lens: IABIED - QA - Is Intelligence Meaningful
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Is Intelligence Meaningful]]
+
+# Lens: IABIED - QA - Human-Level Intelligence
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Human-Level Intelligence]]
+
+# Lens: IABIED - QA - Intelligence as Multiple Skills
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Intelligence as Multiple Skills]]
+
+# Lens: IABIED - QA - Intelligence Overrated
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Intelligence Overrated]]
+
+# Lens: IABIED - QA - General Intelligence
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - General Intelligence]]
+
+# Lens: IABIED - QA - Intelligence as Scalar
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Intelligence as Scalar]]
+
+# Lens: IABIED - QA - AI Critical Thresholds
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - AI Critical Thresholds]]
+
+# Lens: IABIED - QA - ChatGPT as General Intelligence
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - ChatGPT as General Intelligence]]
+
+# Lens: IABIED - QA - How Smart Could Superintelligence Get
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - How Smart Could Superintelligence Get]]
+
+# Lens: IABIED - QA - Obstacles to Superintelligence
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Obstacles to Superintelligence]]
+
+# Lens: IABIED - QA - Predicting Superintelligence
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Predicting Superintelligence]]
+
+# Lens: IABIED - QA - Machines Fundamentally Uncreative
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Machines Fundamentally Uncreative]]
+
+# Lens: IABIED - QA - Something Special About Humans
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Something Special About Humans]]
+
+# Lens: IABIED - QA - Machines Becoming Conscious
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Machines Becoming Conscious]]
+
+# Lens: IABIED - QA - Intelligence as Prediction and Steering
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Intelligence as Prediction and Steering]]
+
+# Lens: IABIED - QA - Shallowness of Current AIs
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Shallowness of Current AIs]]
+
+# Lens: IABIED - QA - Power of Intelligence
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Power of Intelligence]]
+
+# Lens: IABIED - QA - Special Behavior from Mundane Parts
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Special Behavior from Mundane Parts]]
+
+# Lens: IABIED - QA - Same Work Different Ways
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Same Work Different Ways]]
+
+# Submodule: Ch2 - Grown, not crafted
+add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/02 - Chapter 2 - Grown, Not Crafted]]
+
+# Learning Outcome: IABIED - AI Is Grown, Not Crafted
+source:: ![[../Learning Outcomes/AI is grown, not crafted]]
+
+# Learning Outcome: IABIED - Behavior Is Not Values
+source:: ![[../Learning Outcomes/Behavior vs. values]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - AI Is Grown, Not Crafted - PQ]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - AI Is Grown, Not Crafted]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - Behavior Is Not Values - PQ]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - Behavior Is Not Values]]
+
+# Lens: Dive Deeper: Chapter 2
+id:: e131a5fb-ed8a-4719-842f-1e6ead7f0fe3
+tldr:: Chapter 2's optional Q&As dig into how modern LLMs actually work and what "grown, not crafted" really means: aren't AIs just math, just parroting, just predicting the next token? Skim the few that catch your eye.
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 2 (Grown, Not Crafted). Links the book website's supplementary Q&A cards covering gradient descent, whether experts understand AI internals, thinking in English, the "just math" and "just parroting" objections, training-data limits, hallucinations, resource constraints, and the path from LLMs to superintelligence. A navigation and index lens only; it carries no standalone teaching content of its own.
+optional:: true
+reading_minutes:: 2
+
+#### Text
+content::
+Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+
+Skim whatever catches your eye.
+
+::card[[../Lenses/IABIED - QA - Gradient Descent Matters]]
+::card[[../Lenses/IABIED - QA - Do Experts Understand AIs]]
+::card[[../Lenses/IABIED - QA - Intelligence Understandable]]
+::card[[../Lenses/IABIED - QA - AIs Think in English]]
+::card[[../Lenses/IABIED - QA - AIs Just Math]]
+::card[[../Lenses/IABIED - QA - Just Predicting Next Token]]
+::card[[../Lenses/IABIED - QA - AIs Just Parroting]]
+::card[[../Lenses/IABIED - QA - Cold and Logical AIs]]
+::card[[../Lenses/IABIED - QA - LLMs Like Their Training Data]]
+::card[[../Lenses/IABIED - QA - Surpassing Humans from Human Data]]
+::card[[../Lenses/IABIED - QA - Building Without Understanding]]
+::card[[../Lenses/IABIED - QA - Hallucinations Show Weakness]]
+::card[[../Lenses/IABIED - QA - Running Out of Resources]]
+::card[[../Lenses/IABIED - QA - LLMs to Superintelligence]]
+::card[[../Lenses/IABIED - QA - Knowledge of LLMs]]
+::card[[../Lenses/IABIED - QA - Obvious Insights Take Time]]
+::card[[../Lenses/IABIED - QA - Full Description of an LLM]]
+::card[[../Lenses/IABIED - QA - Intelligence Isn't Ineffable]]
+
+# Lens: IABIED - QA - Gradient Descent Matters
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Gradient Descent Matters]]
+
+# Lens: IABIED - QA - Do Experts Understand AIs
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Do Experts Understand AIs]]
+
+# Lens: IABIED - QA - Intelligence Understandable
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Intelligence Understandable]]
+
+# Lens: IABIED - QA - AIs Think in English
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - AIs Think in English]]
+
+# Lens: IABIED - QA - AIs Just Math
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - AIs Just Math]]
+
+# Lens: IABIED - QA - Just Predicting Next Token
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Just Predicting Next Token]]
+
+# Lens: IABIED - QA - AIs Just Parroting
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - AIs Just Parroting]]
+
+# Lens: IABIED - QA - Cold and Logical AIs
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Cold and Logical AIs]]
+
+# Lens: IABIED - QA - LLMs Like Their Training Data
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - LLMs Like Their Training Data]]
+
+# Lens: IABIED - QA - Surpassing Humans from Human Data
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Surpassing Humans from Human Data]]
+
+# Lens: IABIED - QA - Building Without Understanding
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Building Without Understanding]]
+
+# Lens: IABIED - QA - Hallucinations Show Weakness
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Hallucinations Show Weakness]]
+
+# Lens: IABIED - QA - Running Out of Resources
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Running Out of Resources]]
+
+# Lens: IABIED - QA - LLMs to Superintelligence
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - LLMs to Superintelligence]]
+
+# Lens: IABIED - QA - Knowledge of LLMs
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Knowledge of LLMs]]
+
+# Lens: IABIED - QA - Obvious Insights Take Time
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Obvious Insights Take Time]]
+
+# Lens: IABIED - QA - Full Description of an LLM
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Full Description of an LLM]]
+
+# Lens: IABIED - QA - Intelligence Isn't Ineffable
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Intelligence Isn't Ineffable]]
+
+# Submodule: ++}Ch3 - Learning to Want
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/03 - Chapter 3 - Learning to Want]]
 
 # Learning Outcome: Explain Wanting Emerges from Training
