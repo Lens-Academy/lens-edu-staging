@@ -3,7 +3,7 @@ id: '026de78b-1adf-4e13-ad90-22348646c003'
 reading_minutes: 20
 tutor_minutes: 20
 title: "The Decomposition Loop"
-tldr: The best forecasters in a four-year tournament were not the smartest people, and they were not the domain experts. They were the people who broke questions into parts they could check, and who had forecast before.
+tldr: {--{"author":"Lauren's AI","timestamp":1788825234735}@@The best forecasters in a four-year tournament were not the smartest people,--}{++{"author":"Lauren's AI","timestamp":1788825234735}@@In a four-year tournament, the strongest predictor of forecasting accuracy was having forecast well before, then time spent deliberating++} and {--{"author":"Lauren's AI","timestamp":1788825234735}@@they were not the--}{++{"author":"Lauren's AI","timestamp":1788825234735}@@working in a team. Intelligence and++} domain {--{"author":"Lauren's AI","timestamp":1788825234735}@@experts. They were the people who broke questions into parts they could check, and who had forecast before.--}{++{"author":"Lauren's AI","timestamp":1788825234735}@@expertise helped too, and ranked below those. The reading ends with a five-step method for taking a question apart.++}
 summary_for_tutor: "The spine reading of the unit. Kokotajlo's summary of Good Judgment Project findings, which contains both the empirical result (what predicts forecasting accuracy) and the five-step method (Fermi-ize, outside view on sub-questions, seek other perspectives, iterate, aggregate). The lens runs the standard recall, processing, learning-question structure. The Phase 3 wedge attacks the assumption that the loop is a checklist rather than a search for tractable sub-questions."
 authors:
   - Claude
