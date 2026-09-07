@@ -91,7 +91,9 @@ Consider his five, and consider your answer from above. Answer three to five of 
 - Where do you think he might still be wrong?
 - What confused you, and why?
 
-assessment-instructions:: The student has their own list and has now read the author's five answers.
+{++{"author":"Lauren's AI","timestamp":1788772624795}@@max-time:: 6:00
+
+++}assessment-instructions:: The student has their own list and has now read the author's five answers.
 
 The skill being practiced is accurate diffing and evaluation of the claims.
 
