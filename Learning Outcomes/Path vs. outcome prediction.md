@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-topic: "[[../Domains/11 Strategy/Predicting outcomes, not paths]]"
+topic: "[[../Domains and Topics/11 Strategy/Predicting outcomes, not paths]]"
 stage: beginner
 requires:
   - "[[Hard calls vs. easy calls]]"

@@ -8,7 +8,7 @@ authors:
   - Chris+Claude
 tags:
   - optional
-topic: "[[../Domains/11 Strategy/Predicting outcomes, not paths]]"
+topic: "[[../Domains and Topics/11 Strategy/Predicting outcomes, not paths]]"
 stage: beginner
 eval-results:
   content-sha: ae70fd93

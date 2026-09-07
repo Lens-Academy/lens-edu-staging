@@ -3,7 +3,7 @@ id: af509211-48dc-4e2a-b20b-5048628774ae
 learning-outcome: "Explain why the specific pathway is fiction but the endpoint is predictable"
 tags:
   - work-in-progress
-topic: "[[../Domains/11 Strategy/Predicting outcomes, not paths]]"
+topic: "[[../Domains and Topics/11 Strategy/Predicting outcomes, not paths]]"
 stage: intermediate
 ---
 
