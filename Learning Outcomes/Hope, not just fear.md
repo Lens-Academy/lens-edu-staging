@@ -6,7 +6,7 @@ authors:
 tags:
   - learning-outcome
   - work-in-progress
-topic: "[[../Domains/13 Taking Action/Talking about AI risk]]"
+topic: "[[../Domains and Topics/13 Taking Action/Talking about AI risk]]"
 stage: intermediate
 eval-results:
   content-sha: 3bf8cec2
