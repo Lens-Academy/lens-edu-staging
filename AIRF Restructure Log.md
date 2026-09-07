@@ -165,34 +165,7 @@ Then a short inline welcome in each module, in the AIV style: `# Lens: Welcome` 
 
 ---
 
-## 8. Second-order dependencies
-
-Found by scanning for phrasing that assumes the current structure. The guess that learning outcomes would be independent turns out to be wrong: several bake in course-internal module labels.
-
-### Breaks under the restructure
-
-| File | What breaks | Fix |
-|---|---|---|
-| [[modules/IABIED M3 Nonhuman Minds, Part 3]], Part 3 Welcome | Visible text hands chapter 6 to the next module; `summary_for_tutor` says the same | Rewrite. Chapter 6 is now in this unit |
-| [[Learning Outcomes/Fiction as argument, not prediction]] | Rubric level 5 requires "M4's emotional work" and that "Chapters 7–9 already made the dynamics feel real". Chapter 9 is now read, not felt through the film | Rewrite level 5. Already flagged C3 in the 2026-08-24 run for the same text |
-| [[Lenses/IABIED - One Extinction Scenario (Video)]] | States it replaces chapters 7 to 9 | Change to 7 and 8 |
-| [[Lenses/IABIED - M4 Welcome]] | Reading list and hidden Chat segment assume chapters 7 to 9 plus Coda | Superseded by the section 5 decision |
-| M1 orientation lens | States the per-unit reading load and that one unit is mostly a film | Move to the new M1 and restate |
-| [[Lenses/IABIED - Overview of Optional Resources M1]], [[Lenses/IABIED - Overview of Optional Resources M4]], [[Lenses/IABIED - Overview of Optional Resources M5]] | Module numbers in the **filenames**. Under the renumbering, "M1" content becomes M2 | Rename, and check every inbound link. Renaming is the riskiest edit in the plan |
-
-### Pre-existing, not caused by us
-
-| File | Issue |
-|---|---|
-| [[Learning Outcomes/Indifference, not malice]] | The statement, the test question and rubric level 3 all reference "the M3 goal-space argument". Three course-internal labels in one outcome, and the outcome is used by other courses whose M3 is different material |
-| [[Learning Outcomes/Instrumental sub-goal convergence]] | Same problem: the statement references "the M3 argument". Relevant to us because this is the outcome we are importing into U3 |
-| [[Learning Outcomes/Goal conflict as a physical fact]] | A chapter 7 outcome, not used by this course. Worth a look when U3 is rebuilt, since chapter 7 currently carries nothing here |
-
-**The general lesson for stage 3.** Outcomes are shared across courses, so a module label inside an outcome is a landmine: it resolves differently depending on which course imported it. Any outcome we touch should have module and chapter labels stripped rather than updated. That is the same thing B1 asks for, arrived at from a different direction.
-
----
-
-## 6. Testing
+## 7. Testing
 
 Before review, run at least one live pass through:
 
