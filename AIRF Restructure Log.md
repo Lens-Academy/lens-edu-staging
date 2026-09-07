@@ -178,11 +178,13 @@ No module is created, merged or retired. All seven files persist and only their 
 | Module | Blocks in | Blocks out | New title | New readings |
 |---|---|---|---|---|
 | M1 | none | `Ch1 - Intelligence`, `Ch2 - Grown, not crafted` | Introduction | Introduction only |
-| M2 | Ch1, Ch2 from M1 | `Ch4 - You Don't Get What You Train For` | proposed: Grown, Not Crafted | Ch 1, 2, 3 |
-| M3 | Ch4 from M2, `Ch6 - We'd Lose` from M4 | none | proposed: We'd Lose | Ch 4, 5, 6 |
+| M2 | Ch1, Ch2 from M1 | `Ch4 - You Don't Get What You Train For` | Nonhuman Minds, Part 1 | Ch 1, 2, 3 |
+| M3 | Ch4 from M2, `Ch6 - We'd Lose` from M4 | none | Nonhuman Minds, Part 2 | Ch 4, 5, 6 |
 | M4 | none | Ch6 | unchanged | Coda; Ch 9 added in stage 2 |
 
-M5, M6 and M7 are untouched. Titles are display-only and easy to change later; the two marked "proposed" are suggestions, not decisions.
+M5, M6 and M7 are untouched. Titles match the meeting titles.
+
+Within 1d, all four block moves land before any frontmatter changes, so the intermediate state is deliberately inconsistent and 1d is not complete until the frontmatter lands.
 
 Do not strip the Obsidian comment block in M3's welcome: it holds drafted framing for chapter 6 from when the chapter lived there, and chapter 6 is coming back.
 
