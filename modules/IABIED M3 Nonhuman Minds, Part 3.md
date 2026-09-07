@@ -1,6 +1,6 @@
 ---
 id: 5fe83b25-9dbf-44fa-b966-c6f7d938095e
-slug: {--{"author":"AI","timestamp":1788804410287}@@iabied-m3--}{++{"author":"AI","timestamp":1788804410287}@@iabied-u2++}
+slug: iabied-u2
 title: "Its Favorite Things"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings: 
