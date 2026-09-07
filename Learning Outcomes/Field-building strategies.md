@@ -1,7 +1,7 @@
 ---
 id: 010c71fc-937a-4094-aca2-63e4ad598598
 learning-outcome: Compare AI safety field-building strategies (courses, fellowships, org-building) and explain the 2026 shift in the binding constraint from junior-talent supply to absorptive/mentorship capacity
-topic: "[[../Domains/12 Capacity Building/Field-building]]"
+topic: "[[../Domains and Topics/12 Capacity Building/Field-building]]"
 stage: intermediate
 requires:
   - "[[The case for field-building]]"

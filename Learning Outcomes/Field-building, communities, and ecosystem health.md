@@ -1,7 +1,7 @@
 ---
 id: '2f9cf190-662e-4ad0-a97a-92de705ca0c0'
 learning-outcome: "Build a theory of change for Field-building, communities, and ecosystem health"
-topic: "[[../Domains/12 Capacity Building/Field-building]]"
+topic: "[[../Domains and Topics/12 Capacity Building/Field-building]]"
 stage: intermediate
 tags:
   - skill-tree-placeholder
