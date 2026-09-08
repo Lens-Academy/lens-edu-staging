@@ -43,7 +43,7 @@ Discussion topics to explore:
 Ask what they found surprising or new. Check if they can explain the ice cream analogy in their own words, since it's a key concept.
 %%
 
-# Submodule: {++{"author":"AI","timestamp":1788817730243}@@Ch1 - Intelligence
+# Submodule: Ch1 - Intelligence
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]
 
 # Learning Outcome: IABIED - Define Intelligence
@@ -339,7 +339,7 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Intelligence Isn't Ineffable]]
 
-# Submodule: ++}Ch3 - Learning to Want
+# Submodule: Ch3 - Learning to Want
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/03 - Chapter 3 - Learning to Want]]
 
 # Learning Outcome: Explain Wanting Emerges from Training
