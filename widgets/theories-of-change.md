@@ -112,7 +112,7 @@ tags: [wip]
     { id: "outcome-mid", band: "Outcome", label: "Intermediate", cue: "Behavior changed · decision-making done" },
     { id: "outcome-long", band: "Outcome", label: "Long-term", cue: "Conditions changed" },
     { id: "assumptions", band: "Assumptions", label: "Assumptions", cue: "Internal / testable" },
-    { id: "external", band: "External factors", label: "External factors", cue: "External / undefined" }
+    { id: "external", band: "External factors", label: "External factors", cue: "External / outside our control" }
   ];
   var LAYOUT = [
     ["band", "Inputs", "span2"], ["band", "Outputs", "span2"], ["band", "Outcome", "span2"],
@@ -123,6 +123,7 @@ tags: [wip]
     ["cell", "assumptions", "span3"], ["cell", "external", "span3"]
   ];
 
+  var STORE_KEY = "lens-widget-theories-of-change";
   var state = { org: "", boxes: {} };
   var step = 0;
   var completed = false;
@@ -173,11 +174,15 @@ tags: [wip]
   }
 
   function persist() {
-    if (!window.Lens) return;
-    Lens.saveState({ org: state.org, boxes: state.boxes }, summary());
-    if (!completed && filledCount() === BOXES.length && state.org.trim()) {
-      completed = true;
-      Lens.complete();
+    if (window.Lens) {
+      Lens.saveState({ org: state.org, boxes: state.boxes }, summary());
+      if (!completed && filledCount() === BOXES.length && state.org.trim()) {
+        completed = true;
+        Lens.complete();
+      }
+    } else {
+      // Standalone (the editor preview): keep the canvas in localStorage so the lede is true.
+      try { localStorage.setItem(STORE_KEY, JSON.stringify({ org: state.org, boxes: state.boxes })); } catch (e) {}
     }
   }
 
@@ -204,7 +209,8 @@ tags: [wip]
   edText.addEventListener("input", function () { state.boxes[BOXES[step].id] = edText.value; render(); persist(); });
   prevBtn.addEventListener("click", function () { if (step > 0) { step--; render(); edText.focus(); } });
   nextBtn.addEventListener("click", function () { if (step < BOXES.length - 1) { step++; render(); edText.focus(); } else { render(); } });
-  document.getElementById("ask").addEventListener("click", function () {
+  var askBtn = document.getElementById("ask");
+  askBtn.addEventListener("click", function () {
     if (!window.Lens) return;
     Lens.promptTutor(
       "Here is my theory of change for " + (state.org.trim() || "my organisation") + ". Can you stress-test the chain?",
@@ -263,7 +269,18 @@ tags: [wip]
   }
 
   render();
-  if (window.Lens) { Lens.onState(hydrate); }
+  if (window.Lens) {
+    Lens.onState(hydrate);
+  } else {
+    // Nothing here can reach a tutor or an assessor, so do not offer it.
+    scoreBtn.hidden = true;
+    feedbackBtn.hidden = true;
+    askBtn.hidden = true;
+    doneText.textContent = "All eight boxes filled.";
+    var raw = null;
+    try { raw = localStorage.getItem(STORE_KEY); } catch (e) {}
+    if (raw) { try { hydrate(JSON.parse(raw), null); } catch (e) {} }
+  }
 </script>
 </body>
 </html>

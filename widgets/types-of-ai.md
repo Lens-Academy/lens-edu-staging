@@ -34,13 +34,21 @@ tags: [wip]
     background: var(--card);
   }
   .layout { display: grid; gap: 16px; align-items: start; }
+  /* Grid items default to min-width: auto, which would let the 640px diagram widen the whole page. */
+  .layout > * { min-width: 0; }
   @media (min-width: 860px) { .layout { grid-template-columns: minmax(0, 1fr) 16rem; } }
-  .diagram { border: 1px solid var(--border); border-radius: 12px; overflow: hidden; background: var(--card); }
-  svg { display: block; width: 100%; height: auto; user-select: none; -webkit-user-select: none; }
+  .diagram { border: 1px solid var(--border); border-radius: 12px; overflow-x: auto; overflow-y: hidden; background: var(--card); -webkit-overflow-scrolling: touch; }
+  svg { display: block; width: 100%; min-width: 640px; height: auto; user-select: none; -webkit-user-select: none; }
+  .scroll-note { color: var(--muted-fg); font-size: 12px; margin: 6px 0 0; }
+  @media (min-width: 700px) { .scroll-note { display: none; } }
   .ring { cursor: pointer; }
   .label { cursor: pointer; font-weight: 600; paint-order: stroke; stroke-linejoin: round; }
   .pill { cursor: pointer; paint-order: stroke; stroke-linejoin: round; }
   .pill.is-active { font-weight: 600; text-decoration: underline; }
+  .ring:focus-visible { outline: none; stroke: #1a1a1a; stroke-width: 4; stroke-dasharray: 10 6; }
+  .pill-group:focus-visible { outline: none; }
+  .pill-group:focus-visible rect { fill: rgba(184, 112, 24, 0.18); stroke: #1a1a1a; stroke-width: 1.5; }
+  .pill-group:focus-visible .pill { font-weight: 600; text-decoration: underline; }
   .panel {
     border: 1px solid var(--border);
     background: var(--card);
@@ -70,8 +78,11 @@ tags: [wip]
 </head>
 <body>
 <div class="layout">
-  <div class="diagram">
-    <svg id="svg" viewBox="0 0 1180 1240" role="img" aria-label="Concentric rings of AI categories with example systems"></svg>
+  <div>
+    <div class="diagram">
+      <svg id="svg" viewBox="0 0 1180 1240" role="group" aria-label="Concentric rings of AI categories with example systems. Tab through the rings and the example systems."></svg>
+    </div>
+    <p class="scroll-note">The diagram scrolls sideways on a narrow screen.</p>
   </div>
   <aside class="panel" id="panel" aria-live="polite"></aside>
 </div>
@@ -113,7 +124,7 @@ tags: [wip]
     ] }
   ];
   var AI_REGIONS = {
-    theoretical: { label: "Theoretical only", body: "Right now is theoretical-only. There are no real non-narrow AI models known right now." },
+    theoretical: { label: "Theoretical only", body: "This is theoretical only. There are no real non-narrow AI models known today." },
     absurd: { label: "Possible but absurd", body: "Theoretically possible but would require an absurd quantity of resources. Less likely to occur." }
   };
   var PROMPT = "Tap any system to see what it is and why it sits at this ring, not the next one in.";
@@ -162,6 +173,16 @@ tags: [wip]
     return node;
   }
 
+  function activatable(node, label, fn) {
+    node.setAttribute("tabindex", "0");
+    node.setAttribute("role", "button");
+    node.setAttribute("aria-label", label);
+    node.addEventListener("click", fn);
+    node.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") { e.preventDefault(); fn(e); }
+    });
+  }
+
   var view = { kind: "none" };
   var rings = [], labels = [], pills = [];
 
@@ -185,7 +206,7 @@ tags: [wip]
         ring.setAttribute("fill", "#b87018");
         ring.setAttribute("fill-opacity", redOpacity(i));
       }
-      ring.addEventListener("click", function (e) { e.stopPropagation(); setView({ kind: "level", i: i }); });
+      activatable(ring, lvl.name, function (e) { e.stopPropagation(); setView({ kind: "level", i: i }); });
       rings.push(ring);
     });
 
@@ -231,7 +252,7 @@ tags: [wip]
           }, g);
           t.textContent = it.ex.name;
           g.style.cursor = "pointer";
-          g.addEventListener("click", function (e) { e.stopPropagation(); setView({ kind: "example", i: i, ei: ei }); });
+          activatable(g, it.ex.name + ", in " + lvl.name, function (e) { e.stopPropagation(); setView({ kind: "example", i: i, ei: ei }); });
           pills.push({ node: t, i: i, ei: ei });
           x += it.w + EX_GAP;
         });

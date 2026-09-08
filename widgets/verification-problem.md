@@ -59,7 +59,8 @@ tags: [wip]
     font-weight: 500;
     margin: 0;
   }
-  .options { display: grid; gap: 12px; padding: 16px; }
+  .options { display: grid; gap: 12px; padding: 16px; list-style: none; margin: 0; }
+  .options > li { display: grid; }
   @media (min-width: 640px) { .options { grid-template-columns: 1fr 1fr; padding: 20px; } }
   .option {
     font: inherit;
@@ -113,7 +114,7 @@ tags: [wip]
     </div>
   </header>
 
-  <div class="options" id="options" role="list"></div>
+  <ul class="options" id="options" role="list"></ul>
 
   <div class="detail" id="detail" role="region" aria-live="polite">
     <div class="detail-card">
@@ -190,9 +191,9 @@ tags: [wip]
   }
 
   OPTIONS.forEach(function (option) {
+    var item = el("li");
     var button = el("button", "option");
     button.type = "button";
-    button.setAttribute("role", "listitem");
     button.dataset.id = option.id;
 
     var top = el("span", "option-top");
@@ -204,7 +205,8 @@ tags: [wip]
     button.appendChild(el("span", "option-cta", "Test this answer →"));
 
     button.addEventListener("click", function () { inspect(option); });
-    optionsEl.appendChild(button);
+    item.appendChild(button);
+    optionsEl.appendChild(item);
   });
 
   function render() {

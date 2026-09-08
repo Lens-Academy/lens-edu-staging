@@ -34,8 +34,10 @@ tags: [wip]
   .plot { overflow-x: auto; }
   svg { display: block; width: 100%; height: auto; font-family: var(--font-ui); font-size: 12px; }
   @media (max-width: 640px) {
-    /* On a phone the plot scrolls sideways inside its own box instead of shrinking the labels below legibility. */
-    #tl { min-width: 560px; }
+    /* On a phone the plot scrolls sideways inside its own box instead of shrinking the labels below legibility.
+       The timeline is deliberately not given a min-width: it has its own zoom, and a scroll box on top of that
+       zoom cut the annotation blocks mid-word. It fits the box at every zoom level, so "Whole timeline" really
+       does show 1940 to 2060 and a zoomed annotation is never sliced by the edge of the box. */
     #ts { min-width: 620px; }
     .tooltip { left: 8px !important; right: 8px; transform: none !important; }
   }
@@ -88,8 +90,8 @@ tags: [wip]
 <figure>
   <figcaption><h2>A timeline of notable artificial intelligence systems</h2></figcaption>
   <div class="card">
-    <div class="plot">
-      <svg id="tl" viewBox="0 0 900 330" role="group" tabindex="0" aria-label="A timeline of notable artificial intelligence systems, 1940 to 2060. Draggable when zoomed; arrow keys pan, plus and minus zoom, Home resets."></svg>
+    <div class="plot" id="tl-plot">
+      <svg id="tl" viewBox="0 0 900 330" role="group" tabindex="0" aria-label="A timeline of notable artificial intelligence systems, 1940 to 2060. Draggable when zoomed; arrow keys pan, plus and minus zoom, Home resets. The back and next buttons frame one annotation at a time."></svg>
     </div>
     <div class="controls" id="tl-controls"></div>
   </div>
@@ -184,6 +186,7 @@ tags: [wip]
   /* ---------- Timeline ---------- */
   var tl = document.getElementById("tl");
   var tlControls = document.getElementById("tl-controls");
+  var tlGroups = [], tlBoxes = [], focusBox = null;
   function tlx(year) { return TL.x0 + ((year - TL.yr0) / (TL.yr1 - TL.yr0)) * (TL.x1 - TL.x0); }
   function zoom() { return TL_ZOOMS[state.zi]; }
   function viewW() { return TL.w / zoom(); }
@@ -196,9 +199,19 @@ tags: [wip]
     var cx = state.pan.x + viewW() / 2, cy = state.pan.y + viewH() / 2;
     state.zi = next;
     state.pan = clampPan({ x: cx - viewW() / 2, y: cy - viewH() / 2 });
-    if (state.zi > 0) state.explored.timeline = true;
+    if (state.zi > 0) {
+      state.explored.timeline = true;
+      var b = nearestBox();
+      if (b) frameBox(b);
+    }
   }
-  function resetTimeline() { state.zi = 0; state.pan = { x: 0, y: 0 }; }
+  var tlPlot = document.getElementById("tl-plot");
+  function resetTimeline() {
+    state.zi = 0;
+    state.pan = { x: 0, y: 0 };
+    focusBox = null;
+    if (tlPlot) tlPlot.scrollLeft = 0;
+  }
 
   function buildTimeline() {
     clear(tl);
@@ -211,6 +224,7 @@ tags: [wip]
       var t = sv("text", { x: tlx(y), y: TL.axisY + 28, "text-anchor": "middle", fill: "#5a5a5a" }, tl);
       t.textContent = String(y);
     }
+    tlGroups = [];
     MILESTONES.forEach(function (m) {
       var lineH = 16;
       var blockBottom = m.y + (m.lines.length + 1) * lineH;
@@ -219,11 +233,59 @@ tags: [wip]
       sv("path", { d: "M " + (tlx(m.year) - 3.5) + " " + (TL.axisY - 10) + " L " + tlx(m.year) + " " + (TL.axisY - 4) + " L " + (tlx(m.year) + 3.5) + " " + (TL.axisY - 10), fill: "none", stroke: "#5a5a5a", "stroke-width": 1 }, g);
       var name = sv("text", { x: m.x, y: m.y + lineH, fill: "#1a1a1a", "font-weight": 600 }, g);
       name.textContent = m.name;
+      var texts = [name];
       m.lines.forEach(function (l, i) {
         var t = sv("text", { x: m.x, y: m.y + (i + 2) * lineH, fill: "#5a5a5a" }, g);
         t.textContent = l;
+        texts.push(t);
       });
+      tlGroups.push({ m: m, g: g, texts: texts, h: (m.lines.length + 1) * lineH });
     });
+    measureAnnotations();
+  }
+
+  // Measure each annotation block so a zoom or a step can frame it whole instead of
+  // slicing a line down the middle. Falls back to a character estimate where the
+  // browser cannot measure text.
+  function measureAnnotations() {
+    tlBoxes = tlGroups.map(function (entry) {
+      var w = 0;
+      entry.texts.forEach(function (node) {
+        var tw = 0;
+        try { tw = node.getComputedTextLength(); } catch (err) { tw = 0; }
+        if (!tw) tw = node.textContent.length * 6.1;
+        if (tw > w) w = tw;
+      });
+      return { x: entry.m.x, y: entry.m.y, w: w, h: entry.h, g: entry.g };
+    }).sort(function (a, b) { return a.x - b.x; });
+  }
+  function boxCentre(b) { return b.x + b.w / 2; }
+  function frameBox(b) {
+    var padX = 12, padY = 10, vw = viewW(), vh = viewH();
+    var x = b.w <= vw ? boxCentre(b) - vw / 2 : b.x - padX;
+    var y = b.h <= vh ? b.y + b.h / 2 - vh / 2 : b.y - padY;
+    state.pan = clampPan({ x: x, y: y });
+    focusBox = b;
+  }
+  function nearestBox() {
+    var cx = state.pan.x + viewW() / 2, best = null, bd = Infinity;
+    tlBoxes.forEach(function (b) {
+      var d = Math.abs(boxCentre(b) - cx);
+      if (d < bd) { bd = d; best = b; }
+    });
+    return best;
+  }
+  function stepAnnotation(dir) {
+    if (!tlBoxes.length) return;
+    var cx = state.pan.x + viewW() / 2, best = null;
+    tlBoxes.forEach(function (b) {
+      var c = boxCentre(b);
+      if (dir > 0 ? c > cx + 4 : c < cx - 4) {
+        if (!best || (dir > 0 ? c < boxCentre(best) : c > boxCentre(best))) best = b;
+      }
+    });
+    if (!best) best = dir > 0 ? tlBoxes[tlBoxes.length - 1] : tlBoxes[0];
+    frameBox(best);
   }
 
   function yearRangeText() {
@@ -234,6 +296,11 @@ tags: [wip]
 
   function renderTimeline() {
     tl.setAttribute("viewBox", state.pan.x + " " + state.pan.y + " " + viewW() + " " + viewH());
+    // When one annotation has been framed, hold the neighbouring blocks back so a half-visible
+    // line from the block next door does not read as the framed one being cut off.
+    tlBoxes.forEach(function (b) {
+      b.g.setAttribute("opacity", focusBox && state.zi > 0 && b !== focusBox ? "0.2" : "1");
+    });
     tl.classList.toggle("grab", state.zi > 0);
     clear(tlControls);
     var zg = el("span", "group");
@@ -242,12 +309,12 @@ tags: [wip]
     tlControls.appendChild(zg);
     if (state.zi > 0) {
       var pg = el("span", "group");
-      pg.appendChild(btn("←", function () { movePan(-viewW() / 6, 0); update(); }, { aria: "Pan left" }));
-      pg.appendChild(btn("→", function () { movePan(viewW() / 6, 0); update(); }, { aria: "Pan right" }));
+      pg.appendChild(btn("← Back", function () { stepAnnotation(-1); update(); }, { aria: "Previous annotation" }));
+      pg.appendChild(btn("Next →", function () { stepAnnotation(1); update(); }, { aria: "Next annotation" }));
       tlControls.appendChild(pg);
       tlControls.appendChild(btn("Whole timeline", function () { resetTimeline(); update(); }, { className: "link" }));
     }
-    var ro = el("span", "readout", state.zi === 0 ? "Zoom in to read the annotations, then drag to move along." : yearRangeText());
+    var ro = el("span", "readout", state.zi === 0 ? "Zoom in to read the annotations, then step or drag along." : yearRangeText() + ", drag to move along");
     ro.setAttribute("aria-live", "polite");
     tlControls.appendChild(ro);
   }
@@ -264,6 +331,7 @@ tags: [wip]
     if (!rect.width) return;
     var k = viewW() / rect.width;
     state.pan = clampPan({ x: drag.x - (e.clientX - drag.px) * k, y: drag.y - (e.clientY - drag.py) * k });
+    focusBox = null;
     renderTimeline();
   });
   function endDrag() { if (drag) { drag = null; update(); } }
@@ -272,10 +340,10 @@ tags: [wip]
   tl.addEventListener("keydown", function (e) {
     var step = viewW() / 12;
     var handled = true;
-    if (e.key === "ArrowLeft") movePan(-step, 0);
-    else if (e.key === "ArrowRight") movePan(step, 0);
-    else if (e.key === "ArrowUp") movePan(0, -step / 2);
-    else if (e.key === "ArrowDown") movePan(0, step / 2);
+    if (e.key === "ArrowLeft") { focusBox = null; movePan(-step, 0); }
+    else if (e.key === "ArrowRight") { focusBox = null; movePan(step, 0); }
+    else if (e.key === "ArrowUp") { focusBox = null; movePan(0, -step / 2); }
+    else if (e.key === "ArrowDown") { focusBox = null; movePan(0, step / 2); }
     else if (e.key === "Home") resetTimeline();
     else if (e.key === "+" || e.key === "=") zoomTo(Math.min(state.zi + 1, TL_ZOOMS.length - 1));
     else if (e.key === "-") zoomTo(Math.max(state.zi - 1, 0));

@@ -25,7 +25,7 @@ tags: [wip]
     --heat0: #f3f1ec;
     --heat1: #f0dcc0;
     --heat2: #d9a262;
-    --heat3: #b87018;
+    --heat3: #a35f0a;
     --font-ui: "DM Sans", Arial, sans-serif;
     --font-heading: "Newsreader", Georgia, serif;
   }
@@ -39,6 +39,7 @@ tags: [wip]
     color: var(--text);
     background: var(--bg);
   }
+  h1 { font-family: var(--font-heading); font-weight: 600; font-size: 22px; line-height: 1.2; margin: 0 0 12px; }
   .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
   .legend { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px; }
   .swatches { display: flex; gap: 3px; }
@@ -63,11 +64,12 @@ tags: [wip]
   }
   .cell:hover, .cell:focus-visible { transform: scale(1.03); z-index: 2; outline: none; }
   .cell.is-active { box-shadow: inset 0 0 0 3px var(--text); }
-  .cell .org { font-size: 9px; line-height: 1.15; font-weight: 500; }
-  .cell .n { position: absolute; right: 6px; bottom: 4px; font-size: 9px; line-height: 1; opacity: 0.7; }
+  .cell .org { font-size: 10px; line-height: 1.15; font-weight: 500; }
+  .cell .n { position: absolute; right: 6px; bottom: 4px; font-size: 10px; line-height: 1; font-weight: 600; }
+  /* Dark ink on every ramp step except the darkest, which is the only one white passes on. */
   .cell.h0 { background-color: var(--heat0); color: var(--text); }
   .cell.h1 { background: var(--heat1); color: var(--text); }
-  .cell.h2 { background: var(--heat2); color: #fff; }
+  .cell.h2 { background: var(--heat2); color: var(--text); }
   .cell.h3 { background: var(--heat3); color: #fff; }
   .detail { margin-top: 20px; min-height: 96px; border: 1px solid var(--accent); padding: 16px; background: #fdfcfa; position: relative; }
   .detail .hint { color: var(--muted); font-style: italic; margin: 0; }
@@ -86,6 +88,7 @@ tags: [wip]
 </style>
 </head>
 <body>
+<h1>The verification landscape</h1>
 <div class="legend eyebrow">
   <span>Less activity</span>
   <span class="swatches">
@@ -107,6 +110,7 @@ tags: [wip]
 
 <script>
   var HEATWORD = ["No activity yet", "Emerging", "Active", "Concentrated"];
+  var AXIS_WORD = { row: "row", col: "column" };
   var ROWS = [
     { key: "hw", name: "Hardware mechanisms", desc: "Verification built into the chip itself: unique identity, remote attestation, compute metering, and tamper-resistant on-chip processors that can prove what a device did or refused to do." },
     { key: "crypto", name: "Cryptographic methods", desc: "Proving a property of a computation without revealing the underlying model, data, or code. The math behind checking compliance without surrendering secrets." },
@@ -236,14 +240,18 @@ tags: [wip]
       detail.appendChild(el("p", "eyebrow", sel.axis === "row" ? "Kind of verification" : "Who does the work"));
       detail.appendChild(el("h2", null, o.name));
       detail.appendChild(el("p", null, o.desc));
-      detail.appendChild(el("p", "sub", "Tap a square in this " + sel.axis + " to see who is working there."));
+      detail.appendChild(el("p", "sub", "Tap a square in this " + AXIS_WORD[sel.axis] + " to see who is working there."));
       return;
     }
     var r = ROWS[sel.ri], c = COLS[sel.ci], d = CELLS[r.key][c.key];
     detail.appendChild(el("p", "eyebrow", r.name + " × " + c.name));
     var h = el("h2");
     if (d.gap) h.appendChild(el("span", "gap", "Open gap. "));
-    h.appendChild(document.createTextNode(r.name + " here is " + HEATWORD[d.i].toLowerCase() + "."));
+    // Level 0's word is a whole sentence, so it leads instead of being slotted into "... here is ...".
+    var headline = d.i === 0
+      ? HEATWORD[0] + " for " + r.name.charAt(0).toLowerCase() + r.name.slice(1) + "."
+      : r.name + " here is " + HEATWORD[d.i].toLowerCase() + ".";
+    h.appendChild(document.createTextNode(headline));
     detail.appendChild(h);
     detail.appendChild(el("p", "sub", "Activity " + d.i + " / 3 · " + HEATWORD[d.i]));
     detail.appendChild(el("p", null, d.state));
