@@ -26,11 +26,11 @@ traces a widely repeated claim back to its source. The claim is that China decla
 goal of building AGI in 2017. The source is one phrase in one planning document, and a
 translation. The second reading is a short data insight from Epoch AI. It measures the
 US-China capability gap rather than describing it. Its title gives the answer away, so
-commit to your own number first.{++{"author":"Lauren's AI","timestamp":1788789562246}@@ One caveat to carry into it: the average it reports
+commit to your own number first. One caveat to carry into it: the average it reports
 covers the whole period since 2023, and the first year of that period is when Chinese
 models were still catching up. Over the more recent part of the window the gap is
 smaller. Retrieved 2026-09-07; the figure moves, so check the date on anything you
-repeat.++}
+repeat.
 
 The sections the author marked optional and his supplementary evidence sit collapsed
 below, if you want to follow the detective work. And if you finish this lens wanting a
