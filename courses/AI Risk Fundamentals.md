@@ -28,7 +28,7 @@ intro-form:: true
 
 # Module: [[../modules/IABIED M2 Nonhuman Minds, Part 1]]
 
-# Meeting: Nonhuman Minds, Part 1
+# Meeting: Introduction and Nonhuman Minds, Part 1
 meeting-doc-template:: https://docs.google.com/document/d/1VbHf5ENp0fOjqATTMLbKYhhbUvPqvi7Ugs32THIum1g/edit
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]] {>>{"author":"Turner's AI","timestamp":1786809891204}@@SAMPLE FOR HAMZA - the intake half of the pair. Meeting 1 gets the fuller debrief (background, baseline scales, growth interest, referral prompt); meetings 2-5 get the short recurring one. Exactly the pattern the learner surveys already use on this course - AIRF Session 1 Survey here, AIRF Weekly Survey below.
 
