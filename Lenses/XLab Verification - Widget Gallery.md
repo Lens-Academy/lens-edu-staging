@@ -1598,6 +1598,35 @@ These entries replace static images or lost charts inside imported articles. A w
 
 #### Text
 content::
+\#### Assurance curves for three verification budgets (AssuranceCurve)
+
+**Decision: widget.** The curve's whole lesson is the shape: at N_ver = 100 the confidence collapses as coverage climbs past 99%, and each factor of 100 in audited packets buys back two nines of coverage. The eight-row table in the article gives the sampled points but not the trade-off, and a learner cannot ask it for a coverage the table does not list.
+
+**Target lens:** [[../Lenses/XLab Verification - v-intuitions-plan-a]]
+
+**Where it goes:** after `*Table adaptation of the source chart. N_ver is the number of packets the verifier audits. Values are computed from the formulas...` (article line 420, under the bold caption **Assurance curves for three verification budgets**). This spot is inside the collapsed callout "An overview of possible verification approaches." (lines 403 to 445), which is the only occurrence inside the lens's Article ranges. If a widget cannot be embedded inside a `:::callout` (no article in the repo does it yet), use the appendix occurrence instead: after `*Table adaptation of the source chart, computed from the two formulas above.*` at line 844, which is top-level body text but falls outside the Week 1 lens ranges.
+
+**What it replaces:** the eight-row coverage-against-confidence table at article lines 422 to 431 (repeated verbatim at lines 846 to 856). Keep the table below the embed as the text fallback; the appendix copy can stay untouched.
+
+**In XLab:** not an XLab exercise. Source is the AI 2040 verification supplement, `AssuranceCurve` at source MDX lines 350 and 705, the first inside a collapsed detail box, the second in the appendix.
+
+**Learner time:** 4
+
+Hovers the chart or presses a coverage point (90%, 99%, 99.9%, 99.99%, 5 to 8 nines) and reads the exact confidence for all three budgets at once, and can hide or show each curve to compare two budgets cleanly. Done means at least three different coverage points have been read.
+
+:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
+The three budgets (N_ver = 100, 10K, 10M), their dash patterns, the axis mappings and the curve construction are copied from the page's chunk 4857, which is the React component. The curves are not traced from the picture: they are recomputed from the appendix formulas, coverage = 1 - F* and confidence = 1 - exp(-N_ver * F*), which is character for character what the component computes (`1 - Math.exp(-nVerified * Math.pow(10, logF))`). Recomputing those formulas at F* = 10^-1 to 10^-8 reproduces the article's table exactly (90% / N_ver 100 gives 99.99546%, shown as 99.995%; 99.99% / N_ver 10K gives 63.212%, shown as 63%; 8 nines / N_ver 10M gives 9.516%, shown as 9.5%), so the article table and the widget agree on every cell.
+
+Adapted: the source clips the confidence axis at 8 nines and the widget keeps that clip, so a reading of "~100%" means "at or beyond the top of the axis" exactly as in the source. Axis titles are verbatim ("Coverage (log scale)", "Confidence"). Data sources: `work/ai2040/lazy-assurance.js` (chunk 4857), `work/ai2040/svg-assurance1.svg` (rendered chart, byte-identical to `svg-assurance2.svg`, confirming the two placements are the same chart).
+
+Uncertain: none.
+:::
+
+#### Widget
+source:: [[../widgets/ai-2040-assurance-curve]]
+
+#### Text
+content::
 \#### Chip declaration result, Jan 2029 and mid 2029 (ChipDeclarationResult, ChipDeclarationResultGlobal)
 
 **Decision: widget.** Two waffle charts at one square = 250K H100e make the asymmetry legible (the US block is nine times China's) and the plausibly-undeclared outline shrinks from six squares to two when the rest of the world joins; the two two-row tables in the article state the totals but show neither the scale nor the shrinkage.
@@ -1627,6 +1656,37 @@ source:: [[../widgets/ai-2040-chip-declaration]]
 
 #### Text
 content::
+\#### Chip flow restrictions, 2029 and 2032 (ChipRestrictions2029, ChipRestrictions2032)
+
+**Decision: widget.** The point of both charts is a two-dimensional boundary: where a device sits on interconnect against compute decides whether the deal touches it, and the 2032 chart moves the line so that the same RTX 4090 crosses from unrestricted to above the AI-relevant floor. The article's two tables list the devices but flatten the boundary into a "Tier" column, so the learner cannot see which device is close to the line or why.
+
+**Target lens:** [[../Lenses/XLab Verification - v-intuitions-plan-a]]
+
+**Where it goes:** after `*Table adaptation of the source chart. Compute and interconnect values are read off the chart's log axes and are approximate...` (article line 335, under the bold caption **Chip flow restrictions, 2029: example devices by compute and interconnect**). One embed only: the widget's year switch carries the 2032 view, so do not add a second embed at line 694 (the 2032 caption). Caution: both spots sit inside collapsed `:::callout` blocks (lines 324 to 352 and 680 to 713) and no article in the repo yet embeds a widget inside a callout; the only demonstrated embed is at top level in `articles/Article annotation and text collapse demo.md`. If an embed inside a callout does not render, put it immediately after line 352 (the closing `:::`, just above "### Feb 2029: Inference-only retrofit begins") instead.
+
+**What it replaces:** the 2029 device table at article lines 337 to 349, and the 2032 device table plus the two-row treatment table at lines 696 to 712. Both tables should stay as the text fallback below the embed.
+
+**In XLab:** not an XLab exercise. Source is the AI 2040 verification supplement, `ChipRestrictions2029` (source MDX line 283) and `ChipRestrictions2032` (source MDX line 585), both inside collapsed detail boxes in the source too.
+
+**Learner time:** 5
+
+Switches between the 2029 and 2032 charts and presses a device to read its compute, cross-chip interconnect, memory capacity and memory bandwidth, and which side of the line it falls on. In 2029 the line is the L-shaped Tier 0 / Tier 1 boundary; in 2032 it is the AI-relevant floor with the 30M H100e unverified edge-compute cap. Done means both years have been viewed and at least three devices inspected.
+
+:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
+Device names, compute, interconnect, memory and bandwidth are copied field for field from the page's chunks 6617 and 8343, which are the React components. So are the axis ranges, the dot-radius formula `r = 2 + 2 log10(memory / 8)`, the HBM threshold of 1500 GB/s, the 2029 boundary (`s(50)` on the interconnect axis and `x(0.4)` on the compute axis) and the 2032 floor constant `4000 / 15800`. The tier rule in the widget (`interconnect < 50 && compute < 0.4` is Tier 0) is read off the source's own boundary drawing, which is a horizontal segment at compute 0.4 running left from interconnect 50 and a vertical segment at interconnect 50 running down from there. Legend and label strings ("Tier 0: Unrestricted / consumer", "Tier 1: Subject to deal / inference-only or cold storage", "AI-relevant floor: 4,000 TPP", "Unverified edge-compute cap / 30M H100e / 25M already in world (pre-deal) / + 5M new credits", "Verified edge compute exempt") are verbatim from those chunks.
+
+Note the source deliberately gives some devices different numbers in the two years, and the widget preserves that: DGX Spark 0.25 in 2029 against 0.12 in 2032, H20 0.3 against 0.148, RTX 4090 0.17 against 0.33, RTX 5090 0.33 against 0.419, M4 Max MacBook in 2029 against M4 Pro MacBook in 2032, and B200 present in 2029 but absent in 2032. The article's two tables reproduce all of this correctly.
+
+Adapted: only the colours, which are remapped to the Lens palette. The source's arrow in "Verified edge compute → exempt" and its "≈" and "§" glyphs are kept as they are; the one rewrite is the em dash in "below the AI-relevant floor, capped at 30M H100e", which becomes a comma. Data sources: `work/ai2040/lazy-chip2029.js` (chunk 6617), `work/ai2040/lazy-chip2032.js` (chunk 8343), and the rendered `svg-chip2029.svg` / `svg-chip2032.svg` for label checking.
+
+Uncertain: the source component gives no units caption for the 2032 "Consumer compute below the AI-relevant floor, capped at 30M H100e" band, so the widget states the cap in the policy panel rather than drawing it on the axes, as the source does.
+:::
+
+#### Widget
+source:: [[../widgets/ai-2040-chip-flow]]
+
+#### Text
+content::
 \#### Compute locations by datacenter size, January 1, 2029 (AIDatacenters2029Hybrid)
 
 **Decision: widget.** The source treemap carries the US, China and rest-of-world split inside every size band (57 / 7 / 10 datacenters in the 1M to 10M band, and so on) plus the visual proportion that makes "99% of world compute sits above 10K H100e" concrete, and none of that survives in the three flat tables the import left behind.
@@ -1653,6 +1713,210 @@ Uncertain: none. The article's own three tables agree with the SVG on every numb
 
 #### Widget
 source:: [[../widgets/ai-2040-compute-locations]]
+
+#### Text
+content::
+\#### Deal Implementation Timeline, detailed (TimelineLineDetailedClean)
+
+**Decision: widget.** `LENS/widgets/ai-2040-deal-timeline.md` was built for this article before this pass; it is a static SVG timeline with nothing to click. Not duplicated. A corrected copy is in `OUT/widgets/ai-2040-deal-timeline.md` under the same id, see Fidelity.
+
+**Target lens:** [[../Lenses/XLab Verification - v-intuitions-plan-a]]
+
+**Where it goes:** after `- **Jan 2031:** mature safety-case-based R&D rules in place` (article line 301, the last bullet of the list introduced by "Deal implementation timeline, Jan 2029 to Jan 2031:" at line 289). Top-level body text, not inside a callout, and inside the lens's third Article range (`from:: ## 2029-2030: Deal Implementation`). It is currently embedded only in `articles/Article annotation and text collapse demo.md` and has never been placed in this article.
+
+**What it replaces:** nothing is removed. The 11-bullet list at article lines 291 to 301 is the prose the import left in place of the figure; it should stay above the embed as the text version, with the chart following it.
+
+**In XLab:** not an XLab exercise. Source is the AI 2040 verification supplement, `TimelineLineDetailedClean` at source MDX line 250.
+
+**Learner time:** 2
+
+Reads the two-year sequence in one picture: the January 2029 declaration and the pause, the inference-only retrofit climbing 50, 80, 95 percent through 2029, R&D resuming in November with the verification rollout going 2 to 20 percent, the first approved training runs and first post-deal release in 2030, the SL5 inference cluster rollout at 5 then 30 percent, and mature safety-case rules by January 2031. Nothing to click, so there is no completion condition and the widget makes no Lens calls.
+
+:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
+Every label in the existing widget matches the rendered source chart word for word (checked against `work/ai2040/svg-timeline.svg`).
+
+The marker positions did not. The existing widget places events at months 1.0, 1.5, 2.2, 10.1 and spans at 2.2 / 4.2 / 8.1 and 10.1, which are estimates from the picture. The source carries exact dates in its events JSON (chunk 4126) and converts them with `(year - 2029) * 12 + (month - 1) + (day - 1) / daysInMonth`. The true values are: mutual chip declaration 2029-01-24 (0.742), R&D pause begins 2029-02-10 (1.321), SL5 construction begins 2029-03-01 (2.0), inference-only retrofit 50% 2029-03-01, 80% 2029-05-01, 95% 2029-09-01 (2.0 / 4.0 / 8.0), R&D verification rollout 2% 2029-11-01 and 20% 2030-03-01 (10.0 / 14.0), R&D resumes 2029-11-01 (10.0), first major training runs approved 2030-02-01 (13.0), SL5 inference clusters 5% 2030-06-01 and 30% 2030-09-01 (17.0 / 20.0), first generation of post-deal models released 2030-06-16 (17.5), mature safety-case-based R&D rules 2031-01-01 (24.0). `OUT/widgets/ai-2040-deal-timeline.md` is the same file with those numbers substituted, a provenance comment added, and one clause added to `summary_for_tutor`; the id, title, markup and styling are untouched. Uploading it updates the existing widget in place. Errors were at most about nine days at a two-year scale, so this is a correctness fix, not a visible one.
+
+Two things worth flagging to whoever owns the article text. First, the article's bullet list and the chart disagree slightly: the bullets say the retrofit reaches 50% in Feb 2029 and 95% in Sep to Oct 2029, and that the first post-deal models are released in Jul 2030, while the chart's dates are 2029-03-01, 2029-09-01 and 2030-06-16. Second, the source's events JSON continues past the chart's window (hardware research approval 2031-07, inference concentrated in 5 to 10 clusters 2031-09, first SEZs 2032-01, cap and trade 2032-04, hardware concentrated 2033-07, first ocean solar farms 2033-11, first ocean datacenters 2034-07); the source's "short" layout hides them and the widget correctly does the same.
+
+The existing widget also does not use the Lens starter stylesheet (it is Georgia with the source's dark red) and makes no `window.Lens` calls. That is defensible for a static figure and was not changed.
+:::
+
+#### Widget
+source:: [[../widgets/ai-2040-deal-timeline]]
+
+#### Text
+content::
+\#### Catching a rogue internal deployment (VerificationAssurance)
+
+**Decision: widget.** The source chart is interactive on the source page: two sliders (year, and therefore pool and default packet size; and packet size from 1 to 10K H100e-hours) change the curves, and the whole argument of the 2034 section is that shrinking the packet is worth as much as raising the budget. The article's fixed seven-row table freezes one slider setting and loses the lever.
+
+**Target lens:** [[../Lenses/XLab Verification - v-intuitions-plan-a]]
+
+**Where it goes:** after `*Table adaptation of the source chart at its default setting (2034, packets of 100 H100e-hours, 1% recomputation budget)...` (article line 549, under the **Pool:** and **Recomputation budget:** lines). This occurrence sits inside the collapsed callout "Workload Verification." (lines 526 to 562) and is the one inside the lens's third Article range. If a widget cannot be embedded inside a `:::callout`, use the second occurrence instead: after the identical caption at line 767 in "### 2034: Verification improvements", which is top-level body text but falls outside the Week 1 lens ranges. One embed only; do not place both.
+
+**What it replaces:** the seven-row rogue-size-against-P(detected) table at article lines 551 to 559, repeated verbatim at lines 769 to 777. Keep the table below the embed as the text fallback; the second copy can stay untouched.
+
+**In XLab:** not an XLab exercise. Source is the AI 2040 verification supplement, `VerificationAssurance` at source MDX lines 456 and 627.
+
+**Learner time:** 5
+
+Moves the year slider (2030, 2032, 2034, 2040, which sets the verified pool and the default packet size) and the packet-size slider (1 to 10K H100e-hours), then hovers the chart or presses a rogue-deployment size to read P(detected) within one hour, one week and one month, together with the number of rogue packets that implies. Curves can be hidden individually. Done means the learner has moved a slider away from the default and read at least three different rogue sizes.
+
+:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
+Year options and their pool sizes and notes ("~400M H100e" / "one packet per server rack per hour (~10K H100e per packet)" through "~1T H100e" / "one packet per GPU every ~6 minutes (~10 H100e per packet)"), the three time windows and their dash patterns, the 1% recomputation budget, and the axis mappings are copied from the page's chunk 6441, which is the React component behind the sliders. The curves are recomputed from the appendix formula P(detected) = 1 - exp(-C * N_fake) with N_fake = size * hours / packet, which is exactly the component's expression `1 - Math.exp(-(0.01 * 10^r * hours / packet))`. Recomputing at the 2034 default (packet 100, C = 1%) reproduces the article's table cell for cell (10 H100e over a week gives 15.46%, shown as 15%; 100 over a month gives 99.925%, shown as 99.9%; 10K within an hour gives 63.212%, shown as 63%).
+
+Fixed in this pass: the finish condition previously fired after a single slider nudge, which a learner could trip without reading anything. It now requires a slider change plus three distinct rogue sizes read from the size buttons, and `summary_for_tutor` and the on-screen status line were updated to match. Verified by driving the two range inputs and the size buttons in jsdom: complete fires exactly once, on the third size button after a slider move.
+
+Adapted: the source clips the P(detected) axis at four nines, and the widget keeps that clip, so "~100%" means at or beyond the top of the axis. The widget adds an N_fake column to the readout table, which is not new data (it is `size * hours / packet`, the quantity the source's own formula uses) but makes the appendix formula visible. Data sources: `work/ai2040/lazy-rogue.js` (chunk 6441), `work/ai2040/svg-pdet1.svg` (byte-identical to `svg-pdet2.svg`, confirming the two placements are the same chart at the same default).
+
+Uncertain: none.
+:::
+
+#### Widget
+source:: [[../widgets/ai-2040-rogue-detection]]
+
+#### Text
+content::
+\#### World AI compute growth, 2026 to 2034 (ComputeGrowth)
+
+**Decision: nothing to port.** Four labelled data points. The article's two-column table carries every number and every year the chart shows, and there is no interaction the chart offers that the table does not.
+
+**Target lens:** [[../Lenses/XLab Verification - v-intuitions-plan-a]]
+
+**Where it goes:** n/a. The chart's spot is the two-column table at article lines 744 to 749 in "### 2034: Verification improvements", top-level body text, outside the Week 1 lens ranges.
+
+**What it replaces:** nothing. The table at article lines 744 to 749 stays as it is.
+
+**In XLab:** not an XLab exercise. Source is the AI 2040 verification supplement, `ComputeGrowth` at source MDX line 615.
+
+**Learner time:** 0
+
+Nothing; no widget was built.
+
+:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
+The rendered chart (`work/ai2040/svg-worldcompute.svg`) carries exactly eight text nodes: 2026 / 20M, 2030 / 500M, 2032 / 3B, 2034 / 60B. The article's table reproduces all four rows verbatim, including the units. Nothing is lost.
+
+One inconsistency inside the source itself, worth a footnote rather than a widget: this chart puts world AI compute at 3B H100e in 2032 and 60B in 2034, while the rogue-detection chart's own year presets on the same page use "~3B H100e" for 2032 but "~33B H100e" for 2034, and the article's "Late 2030" paragraph gives a global ~930M H100e for end-2030 against this chart's 500M for 2030. The widget `ai-2040-rogue-detection` shows the 33B figure because that is what its source component contains; this note records the discrepancy so nobody treats it as a porting error.
+:::
+
+#### Text
+content::
+\#### Diagram figures kept as images (image1, image3, image6 x2, image8, image9, image11, image13)
+
+**Decision: nothing to port.** These are the article's eight `![](https://ai-2040.com/verification-plan/imageN.png)` lines, and unlike the thirteen SVG charts they were not lost: they still render from the source host and each is a hand-drawn schematic, not data. There is no series, no axis and no parameter to move, so an interactive version would be a redraw with no new affordance, and redrawing a schematic by hand is exactly the kind of eyeballing this pass is meant to avoid.
+
+**Target lens:** [[../Lenses/XLab Verification - v-intuitions-plan-a]]
+
+**Where it goes:** n/a. The eight lines are at article lines 223, 254, 261, 362, 411, 524, 564 and 717. Lines 223, 254 and 261 are the retrofit proposal and secure network gateway figures; 223 and 254 sit inside the callout "Concrete inference-only retrofitting proposal." (lines 219 to 259), which the lens embeds as its second Article range, and 261 is just below it. Line 362 repeats image6 in "### Feb 2029: Inference-only retrofit begins". Line 411 is the verification-approaches landscape inside the callout "An overview of possible verification approaches." Line 524 is the workload approval and verification figure, line 564 the five-step workload flow, and line 717 the research-titration-plus-production-capping overview in the 2032 section.
+
+**What it replaces:** nothing. All eight image lines stay.
+
+**In XLab:** not XLab exercises. Source is the AI 2040 verification supplement; these are raster figures on the source page rather than inline SVG components.
+
+**Learner time:** 0
+
+Nothing; no widget was built.
+
+:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
+Seven distinct images across eight lines: image6 appears twice (lines 223 and 362). They are hotlinked from ai-2040.com, which is the same host the source page serves them from, so the brief's rule on external images is satisfied and nothing needs to be inlined.
+
+One gap the import did leave: the numbered five-step description that belongs with the workload flow figure (Declaration, Approval, Evidence collection, Verification, Evaluations and release) survives as prose at article lines 566 to 575, immediately below image8, so the figure and its legend are still together. The other seven images carry their explanation in the surrounding prose too. No caption text is missing.
+:::
+
+#### Text
+content::
+\#### Example packet sizes and verification logging granularity (WorkloadChunking, LoggingGranularity)
+
+**Decision: nothing to port.** These are two pictures of one idea, the same workload sliced at ever finer grain, and the interactive form of that idea is already in this article: the rogue-detection widget's packet-size slider runs over exactly the values these two charts illustrate (10K, 1K, 100 and 10 H100e-hours) and shows what the slicing buys. Building a third slicing widget would repeat the lesson without adding a lever.
+
+**Target lens:** [[../Lenses/XLab Verification - v-intuitions-plan-a]]
+
+**Where it goes:** n/a. The chunking chart's spot is after `*Table adaptation of the source chart, which shows the same workload sliced at each of these levels...` (article line 532), inside the collapsed callout "Workload Verification." (lines 526 to 562). The logging-granularity chart's spot is the three-row table at article lines 753 to 757 in "### 2034: Verification improvements", top-level body text.
+
+**What it replaces:** nothing. The six-row granularity table at article lines 534 to 541 and the three-row tap table at lines 753 to 757 stay as they are.
+
+**In XLab:** not an XLab exercise. Source is the AI 2040 verification supplement, `WorkloadChunking` at source MDX line 454 and `LoggingGranularity` at source MDX line 621.
+
+**Learner time:** 0
+
+Nothing; no widget was built.
+
+:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
+`WorkloadChunking` (chunk 4083, rendered as `svg-granularity.svg`) draws six rows over the same 730-unit bar with 1, 3, 16, 60, 150 and 400 chunks, labelled "Full training run", "Training phases", "Gradient steps", "Layer forward/backward", "GPU kernel calls", "Individual instructions", with a coarse-to-fine arrow and the caption "Each chunk: f(input) -> output". Its own title is "Example Packet Sizes". The article's table carries all six labels and the caption's meaning; the only thing it drops is the chunk counts, and those are illustrative drawing counts rather than curriculum values, which is why reproducing them interactively would look more precise than the source is.
+
+`LoggingGranularity` (chunk 2174, rendered as `svg-taps.svg`) has three rows: 2030 "Per-server tap" / "~4K H100e per server"; 2032 "Per-shelf tap" / "~400 H100e per shelf"; 2034 "Per-GPU tap" / "~100 H100e per GPU", each drawn as a 100K H100e-hour workload divided into `round(100000 / packetHours)` cells, that is 25, 250 and 1000 cells, under the caption "Workload: ~GPT-3 sized training run (100K H100e-hours)". The article's table carries the years, the tap names and the compute per tap, and the workload line survives at article line 759. The derived cell counts (25 / 250 / 1000) are the only thing lost, and each is just 100K divided by the compute per tap.
+
+Nothing here is uncertain or estimated; both were read from the components and confirmed against the rendered SVGs.
+:::
+
+:::callout {title="Proposed native segments" tone="neutral" collapse="closed"}
+Field names are written `key: :` so this page parses; join the colons when pasting.
+
+n/a. Both tables already carry the content, and the interactive treatment lives in `widgets/ai-2040-rogue-detection.md`.
+:::
+
+#### Text
+content::
+\#### Verification Plan Timeline, 2026 to 2036+ (verificationTimeline)
+
+**Decision: nothing to port.** It is a phase strip, not an exercise: seven numbered milestones laid on a year axis inside three labelled phases. There is nothing for a learner to do that reading the article's own Phase 1 / Phase 2 / Phase 3 paragraphs and its year headings does not already do, and the one interactive timeline in this article (ai-2040-deal-timeline) already covers the dense 2029 to 2031 middle at much higher resolution.
+
+**Target lens:** [[../Lenses/XLab Verification - v-intuitions-plan-a]]
+
+**Where it goes:** would have gone after `**Phase 3. Improve robustness.** Over time the US and China improve the stability and durability of the verification regime...` (article line 78), at the end of the "Summary of the Plan" section. Inside the lens's first Article range.
+
+**What it replaces:** nothing. This figure was dropped silently in the import: unlike the other twelve charts it left behind no table, no prose paragraph and no image link. See the recommendation below.
+
+**In XLab:** not an XLab exercise. Source is the AI 2040 verification supplement, `verificationTimeline` at source MDX line 17, core body text, not inside a Fold.
+
+**Learner time:** 0
+
+Nothing; no widget was built.
+
+:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
+Verbatim content of the lost figure, from the rendered `work/ai2040/svg-phases.svg`: an axis running 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036+, with seven numbered markers, 1 "Chip tracking", 2 "Verification R&D funding", 3 "Mutual Chip Declaration", 4 "Inference-only retrofit", 5 "R&D verification", 6 "Hardware cap & trade", 7 "Verification improvements", grouped under three spans, "Phase 1: Preparing / 2026-2028", "Phase 2: Implementing / 2029-2030", "Phase 3: Improving / 2031-2036+". The figure's own title is "Verification Plan Timeline - ai-2040.com".
+
+Recommendation for the article, not for a widget: because this is the reading's only compact map of the whole plan and nothing replaced it, add a three-row table under the Phase 3 paragraph using exactly those strings, for example Phase / Years / Milestones with "Phase 1: Preparing | 2026-2028 | Chip tracking; Verification R&D funding", "Phase 2: Implementing | 2029-2030 | Mutual Chip Declaration; Inference-only retrofit; R&D verification", "Phase 3: Improving | 2031-2036+ | Hardware cap & trade; Verification improvements". The milestone-to-phase assignment above is read from the marker x positions against the phase spans in the same SVG, not guessed.
+
+Also worth flagging: this figure and the detailed deal timeline disagree on two dates. The phase strip puts "R&D restarts + total research transparency" at "From August 2029" and "First new frontier release" at "June 2030"; the detailed chart's events JSON has R&D resuming 2029-11-01 and the first release 2030-06-16, and the article's bullet list says Nov to Dec 2029 and Jul 2030. Both source charts are the source's own, so this is an inconsistency in the source, not in the port.
+:::
+
+:::callout {title="Proposed native segments" tone="neutral" collapse="closed"}
+Field names are written `key: :` so this page parses; join the colons when pasting.
+
+n/a. The gap is editorial (a missing table), not an exercise.
+:::
+
+#### Text
+content::
+\#### Research titration approaches (ResearchTitrationApproaches)
+
+**Decision: nothing to port.** The chart places four regulatory approaches on a diagonal from easy-and-inaccurate to hard-and-accurate, and the article's four-row table already carries every one of its strings: the approach names, their bodies, their ease and accuracy ranks and the two suggested years. The x and y coordinates behind the diagonal are illustrative layout, not measurements, so an interactive version would invent precision the source does not have.
+
+**Target lens:** [[../Lenses/XLab Verification - v-intuitions-plan-a]]
+
+**Where it goes:** n/a. Had one been built it would have gone after `*Table adaptation of the source chart, which places the four approaches on a diagonal from easy and inaccurate to hard and accurate...` (article line 489), inside the collapsed callout "Research Titration: How to control the speed of R&D progress?" (lines 469 to 497).
+
+**What it replaces:** nothing. The four-row table at article lines 491 to 496 stays exactly as it is.
+
+**In XLab:** not an XLab exercise. Source is the AI 2040 verification supplement, `ResearchTitrationApproaches` at source MDX line 407, inside a collapsed detail box.
+
+**Learner time:** 0
+
+Nothing; no widget was built.
+
+:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
+Checked against the component (`work/ai2040/lazy-titration.js`) and the rendered `svg-titration.svg`. The four points are: "Safety case burden of proof" at (0.1, 0.93), year "~2035"; "Quality ad-hoc rules" at (0.35, 0.75), no year; "Human-interpretable requirement" at (0.62, 0.5), no year; "Compute caps" at (0.87, 0.2), year "~2030". Axis labels are "Ease of Implementation / How little regulatory competence is required" running Hard to Easy, and "Regulatory Accuracy / How well the approach tracks the correct research speed" running Low to High, with an arrow labelled "Suggested progression".
+
+Two small things the article's table smooths over and which the caption should probably carry: the axis directions are reversed from the usual reading (the ease axis runs Hard on the left to Easy on the right), and the source's arrow is labelled "Suggested progression" rather than by date, so the table's "before safety cases" and "after compute caps" entries in the Suggested timing column are the article editor's rendering of the arrow, not source strings. The source itself only labels "~2030" on compute caps and "~2035" on safety cases.
+:::
+
+:::callout {title="Proposed native segments" tone="neutral" collapse="closed"}
+Field names are written `key: :` so this page parses; join the colons when pasting.
+
+n/a. The table already carries the content; no Lens segment is needed.
+:::
 
 #### Text
 content::
