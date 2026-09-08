@@ -22,6 +22,7 @@ enforce-voice:: true
 
 #### Question
 content:: Which of these options feels most meaningful, and which feels most realistic?
+assessment-instructions:: Grade only whether both halves of the question are answered, never which options the student chooses. Check that the student (1) identifies an option they find most meaningful, (2) identifies an option they find most realistic, and (3) says something about the gap between the two, or about why the same option serves both. Award 100 when both halves are answered with some reasoning about the difference or the match; 70 to 90 when both halves are answered but the reasoning is thin; 40 to 60 when only one half is answered; 0 to 20 only for an empty or off topic answer. Naming the same option twice is a valid answer. Be generous with honest personal reflection.
 enforce-voice:: true
 
 #### Question
