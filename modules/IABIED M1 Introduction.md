@@ -1,11 +1,9 @@
 ---
 id: bb0ace07-d21c-43e0-80dd-be00cd785c3d
 slug: iabied-intro
-title: "Introduction: {--{"author":"AI","timestamp":1788839656234}@@Grown, Not Crafted"--}{++{"author":"AI","timestamp":1788839656234}@@Hard Calls and Easy Calls"++}
+title: "Introduction: Hard Calls and Easy Calls"
 readings: 
-  - "Introduction: Hard Calls and Easy Calls"{--{"author":"AI","timestamp":1788839656234}@@
-  - "Chapter 1: Humanity's Special Power"
-  - "Chapter 2: Grown, Not Crafted"--}
+  - "Introduction: Hard Calls and Easy Calls"
 discussion: https://discord.com/channels/1440725236843806762/1494711781648629921
 ---
 
