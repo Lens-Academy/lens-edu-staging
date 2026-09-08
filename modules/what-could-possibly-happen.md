@@ -20,13 +20,13 @@ before the next lens asks what a curve licenses; What a Curve Licenses teaches
 where an extrapolation stops being licensed by its data. Revision 1 and the alignment-door pointer serve the running-model habit{>>{"author":"lauren","timestamp":1787665958298}@@needs ASD-STE100 rewrite<<},
 not new content. Editing rule of thumb: if a change doesn't help a student
 build, defend, or revise a mechanism-based trajectory, it doesn't belong in
-this module.{++{"author":"Lauren's AI","timestamp":1788824473325}@@
+this module.
 
 Live-cohort rule (2026-09-08): while a cohort is inside this unit, do not split,
 reorder, rename or remove lenses. Add new material only as a new lens appended
 at the end. Adding or removing a lens moves the scoring denominator overnight;
 a question inside an existing lens does not. Keep reading and tutor minutes
-accurate when content changes.++} %%
+accurate when content changes. %%
 
 # Lens: Half of What We Teach You Here Is Wrong
 source:: [[../Lenses/AIF - Half of What We Teach You Here Is Wrong]]
@@ -56,9 +56,9 @@ content::
 
 Without scrolling back, restate your ten-year model from memory, and then change it. What did this module actually move? Name at least one number or mechanism that was not in your day-zero version, and one thing you believed at the start that you now hold more loosely. If nothing moved, say that too, and say what you'd need to see to move.
 
-{++{"author":"Lauren's AI","timestamp":1788772152146}@@max-time:: 8:00
+max-time:: 8:00
 
-++}assessment-instructions:: The student wrote a day-zero model of the next ten years of AI at the start of this module, and has since done three lenses: a compute thought experiment, measured base rates for discontinuous progress, and a wedge about what a trend line licenses.
+assessment-instructions:: The student wrote a day-zero model of the next ten years of AI at the start of this module, and has since done three lenses: a compute thought experiment, measured base rates for discontinuous progress, and a wedge about what a trend line licenses.
 
 Compare against nothing. You do not have their original text and should not ask for it. Restating from memory rather than scrolling back is deliberate: it is the skill being practiced.
 
