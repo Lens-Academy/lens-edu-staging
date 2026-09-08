@@ -233,7 +233,7 @@ At the centre: **a training run above the threshold.** Around it, four rings. Ea
 
 1. **Declares.** You own or use large-scale compute, or you signed the agreement and answer for what happens inside your territory. Either way the regime wants a declaration from you: you are the Prover. Baker §3.1: “The Prover could be a private institution or (in the case of international agreements) a government, which could constrain private companies within its territory as part of the agreement.” And §3.2: “organizations that own or use large-scale AI compute (e.g., major AI companies and cloud compute providers) would be required to declare facts about” their compute.
 2. **Holds the evidence.** You declare nothing here and you check nothing, but you hold a record a declaration can be held against, or the authority that makes somebody else’s record producible. Baker §4.2.1: “A Verifier could verify the locations and owners of random samples of AI chips from manufacturing to end-of-life destruction.”
-3. **Verifies.** The declarations come to you, and your job is to establish that they are true and that nothing has been left out. Baker §3.1: “Verification focuses on checking that these declarations are correct and complete.”
+3. **Verifies.** The declarations come to you, and your job is to establish that they are true and that nothing has been left out. Baker §3.2: “Verification focuses on checking that these declarations are correct and complete.”
 4. **Outside the declaration.** Nothing you do appears in anybody’s declaration, because you sit below the threshold, or because you exist to keep a name off one. Baker §3.2, Subgoal 2.B: “Verify that there are no undeclared, large-scale AI compute clusters that could be used for violations.”
 
 #### Question: Open
