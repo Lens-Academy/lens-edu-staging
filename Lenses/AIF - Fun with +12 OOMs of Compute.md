@@ -73,7 +73,7 @@ What to do in your single reply:
 2. If they wrote fewer than two concrete systems, or gave no mechanisms, ask once for the missing piece, but without expectation of followup.
 3. Then tell them to continue to the author's answers.
 
-This is a one-turn response.
+This is a one-turn response.{++{"author":"AI","timestamp":1788869413759}@@ If the student says they are stuck or do not understand, give one concrete foothold (name one real system from 2016 and ask what a trillion times more compute does to it) rather than repeating the question.++}
 
 #### Article
 from:: Below are my answers, listed in rough order of how 'fun' they seem to me.
@@ -112,7 +112,7 @@ What to do in each reply:
 
 After 2 tutor replies, close the phase and send them on.
 
-#### {++{"author":"Lauren's AI","timestamp":1788824514723}@@Question
+#### {++{"author":"AI","timestamp":1788869411488}@@Question
 content::
 \## Your number first
 
@@ -126,7 +126,7 @@ In particular, write down in what ways you're reasoning from an *inside view* or
 
 (Hopefully by the end of the course you'll feel moderately comfortable with either!)
 
-Bonus: write down what would change your probability by at least 20% in the next year. What would make at least 20% of the possible-worlds you're imagining turn out to be impossible?
+Then two more lines, and they are part of the answer, not a bonus: which of his five scenarios carries your number, and one thing you could learn within the next year that would move it by twenty points. What would make at least 20% of the possible-worlds you're imagining turn out to be impossible?
 
 max-time:: 8:00
 
@@ -147,6 +147,8 @@ What to do in each reply:
 1. Argue the student toward ownership of their number, not toward any particular value.
 2. If they cannot name anything that would move them twenty points, take that seriously and ask what an unmovable number is tracking.
 3. Close by telling them the author's own number comes next, and to notice what it does to theirs.
+
+If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
 #### ++}Article
 from:: ## Question Two: In this hypothetical, what's the probability that TAI appears by end of 2020?
