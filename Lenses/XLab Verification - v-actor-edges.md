@@ -125,7 +125,7 @@ content::
 
 **TSMC.** Same shape as ASML, one step nearer: ~90% of sub-7nm logic. It stops the next generation of chips, not the run already loaded.
 
-**The Bureau of Industry and Security.** It writes and enforces export controls and trains nothing. Remove it and the rules stop being enforced — which loosens the regime rather than stopping the activity.
+**The Bureau of Industry and Security.** It writes and enforces export controls and trains nothing. Remove it and the rules stop being enforced, which loosens the regime rather than stopping the activity.
 
 That gap is the thing a ring map is drawn to show. The removal that bites soonest and the removal that matters most are different actors, on different rings, and a regime that reaches only for the second one buys nothing this year. Ask both questions of any chokepoint you are offered.
 :::
@@ -163,7 +163,7 @@ M. Baker, G. Kulp, O. Marks, M. Brundage & L. Heim,
 Rules on Large-Scale AI Development and Deployment”](https://arxiv.org/abs/2507.15916)
 (2025). Quotations are matched against the committed copy of the paper at test
 time, so a quote that drifts fails the build rather than sitting on the page.
-Module 2.1 assigns the same report for its layers; this section uses its
+Week 5 assigns the same report for its layers; this section uses its
 subgoals.
 
 The cast, the rings and the sentences that place each actor on one are 1.2's,
