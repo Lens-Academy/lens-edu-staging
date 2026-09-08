@@ -38,6 +38,8 @@ tags: [wip]
   button[aria-pressed="true"], button[aria-checked="true"] { border-color: var(--text); box-shadow: 0 0 0 1px var(--text); font-weight: 600; }
   .chart-box { border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 8px; overflow-x: auto; }
   .chart-box svg { display: block; width: 100%; height: auto; min-width: 520px; font-family: var(--font-ui); }
+  /* On a phone the chart keeps its authored size and scrolls inside its box, rather than shrinking its labels to about 7px. */
+  @media (max-width: 560px) { .chart-box svg { min-width: 740px; } }
   .axis text { font-size: 11px; fill: var(--muted); }
   .grid line { stroke: var(--border); stroke-width: 1; }
   .pt { cursor: pointer; }
@@ -250,12 +252,54 @@ function drawChart() {
       pointsG.appendChild(g);
     });
   }
-  // A few direct labels so the chart reads without hovering.
+  // A few direct labels so the chart reads without hovering. The 2025 to 2026 points
+  // sit close together, so each label takes the first offset that clears the markers,
+  // the scenario labels and the labels already placed, instead of a fixed offset.
+  var taken = [];
+  function boxOf(x1, y1, x2, y2) { return { x1: x1, y1: y1, x2: x2, y2: y2 }; }
+  function overlaps(b) {
+    for (var i = 0; i < taken.length; i++) {
+      var t = taken[i];
+      if (b.x1 < t.x2 && b.x2 > t.x1 && b.y1 < t.y2 && b.y2 > t.y1) return true;
+    }
+    return false;
+  }
+  METR.forEach(function (m) {
+    var mx = sx(decYear(m.date)), my = sy(m[state.view][0]);
+    taken.push(boxOf(mx - 7, my - 7, mx + 7, my + 7));
+  });
+  if (state.agents && state.view === "p80") {
+    AGENTS.forEach(function (a) {
+      var ax = sx(a.x), ay = sy(a.minutes);
+      taken.push(boxOf(ax - 8, ay - 8, ax + 8, ay + 8));
+      taken.push(boxOf(ax - 10 - a.name.length * 5.6, ay - 5, ax - 8, ay + 7));
+    });
+  }
   ["gpt_4", "claude_3_7_sonnet_inspect", "claude_mythos_preview_early_inspect"].forEach(function (k) {
     var m = METR.filter(function (q) { return q.key === k; })[0];
     var x = sx(decYear(m.date)), y = sy(m[state.view][0]);
-    var right = x > W - 150;
-    pointsG.appendChild(svgEl("text", { "class": "lbl", x: right ? x - 10 : x + 10, y: right ? y - 10 : y - 8, "text-anchor": right ? "end" : "start", "font-size": "11", fill: "#5a5a5a" }, m.name));
+    var w = m.name.length * 5.6;
+    var cands = [];
+    [-8, -21, -34, 14, 27, -47, 40].forEach(function (dy) {
+      cands.push({ anchor: "start", x: x + 10, y: y + dy });
+      cands.push({ anchor: "end", x: x - 10, y: y + dy });
+    });
+    var pick = null;
+    for (var i = 0; i < cands.length && !pick; i++) {
+      var c = cands[i];
+      var left = c.anchor === "start" ? c.x : c.x - w;
+      var b = boxOf(left, c.y - 9, left + w, c.y + 3);
+      if (b.x1 < ML || b.x2 > W - MR || b.y1 < MT || b.y2 > H - MB) continue;
+      if (!overlaps(b)) pick = { c: c, b: b };
+    }
+    if (!pick) {
+      var right = x > W - 150;
+      var c0 = { anchor: right ? "end" : "start", x: right ? x - 10 : x + 10, y: y - 8 };
+      var l0 = right ? c0.x - w : c0.x;
+      pick = { c: c0, b: boxOf(l0, c0.y - 9, l0 + w, c0.y + 3) };
+    }
+    taken.push(pick.b);
+    pointsG.appendChild(svgEl("text", { "class": "lbl", x: pick.c.x, y: pick.c.y, "text-anchor": pick.c.anchor, "font-size": "11", fill: "#5a5a5a" }, m.name));
   });
   if (state.current) {
     var cur = pointsG.querySelector('[data-key="' + state.current + '"]');

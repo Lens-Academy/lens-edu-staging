@@ -36,7 +36,9 @@ tags: [wip]
   button.is-active { border-color: var(--text); box-shadow: 0 0 0 1px var(--text); }
   .years button.is-seen::after { content: " ✓"; color: var(--muted); }
   .layout { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 16px; align-items: start; }
-  .chart { width: 100%; height: auto; display: block; }
+  .layout > * { min-width: 0; }
+  .chartbox { overflow-x: auto; }
+  .chart { width: 100%; min-width: 720px; height: auto; display: block; }
   .chart text { font-family: var(--font-ui); }
   .chart .dev { cursor: pointer; }
   .chart .dev circle.ring { fill: none; stroke: var(--accent); stroke-width: 3; opacity: 0; }
@@ -62,7 +64,7 @@ tags: [wip]
   .legend .d.ring { background: none; border: 1px dashed var(--text); }
   .status { font-size: 12px; color: var(--muted); margin-top: 8px; }
   .status.is-done { color: var(--text); font-weight: 500; }
-  @media (max-width: 700px) { .layout { grid-template-columns: 1fr; } body { padding: 10px; } }
+  @media (max-width: 700px) { .layout { grid-template-columns: minmax(0, 1fr); } body { padding: 10px; } }
 </style>
 </head>
 <body>
@@ -74,7 +76,7 @@ tags: [wip]
   <div class="years" id="years" role="group" aria-label="Year"></div>
   <div class="layout">
     <div>
-      <svg id="chart" class="chart" viewBox="0 0 760 640" role="img" aria-label="Scatter chart of devices by interconnect speed and compute"></svg>
+      <div class="chartbox"><svg id="chart" class="chart" viewBox="0 0 760 640" role="img" aria-label="Scatter chart of devices by interconnect speed and compute"></svg></div>
       <div class="legend" id="legend"></div>
     </div>
     <div class="side">
@@ -115,7 +117,7 @@ tags: [wip]
       title: "Chip Flow Restrictions, 2032",
       yLabel: "Compute per device (H100e)",
       floor: 4000 / 15800,
-      floorLabel: "AI-relevant floor: 4,000 TPP ≈ 0.25 H100e (compute supplement §1.1)",
+      floorLabel: ["AI-relevant floor: 4,000 TPP ≈ 0.25 H100e", "(compute supplement §1.1)"],
       consumer: ["Consumer compute", "below the AI-relevant floor, capped at 30M H100e"],
       cap: { total: 30, preDeal: 25, credits: 5 },
       devices: [
@@ -192,7 +194,8 @@ tags: [wip]
     } else {
       var fy = sy(view.floor);
       svg.appendChild(el("line", { x1: PX0, y1: fy, x2: PX1, y2: fy, stroke: "#b87018", "stroke-width": 2, "stroke-dasharray": "8 4" }));
-      svg.appendChild(el("text", { x: PX1 - 8, y: fy - 8, "text-anchor": "end", "font-size": 13, "font-style": "italic", fill: "#1a1a1a" }, view.floorLabel));
+      svg.appendChild(el("text", { x: PX0 + 6, y: fy - 26, "font-size": 13, "font-style": "italic", fill: "#1a1a1a", style: "paint-order:stroke;stroke:#ffffff;stroke-width:3px" }, view.floorLabel[0]));
+      svg.appendChild(el("text", { x: PX0 + 6, y: fy - 10, "font-size": 13, "font-style": "italic", fill: "#1a1a1a", style: "paint-order:stroke;stroke:#ffffff;stroke-width:3px" }, view.floorLabel[1]));
       svg.appendChild(el("text", { x: PX0 + 14, y: PY1 - 34, "font-size": 19, "font-weight": 700, fill: "#1a1a1a" }, view.consumer[0]));
       svg.appendChild(el("text", { x: PX0 + 14, y: PY1 - 14, "font-size": 13, "font-style": "italic", fill: "#1a1a1a" }, view.consumer[1]));
     }

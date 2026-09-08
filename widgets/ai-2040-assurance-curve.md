@@ -29,7 +29,8 @@ tags: [wip]
   .lede { color: var(--muted); margin: 4px 0 12px; max-width: 46rem; }
   .card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: #fff; }
   .formula { font-size: 13px; color: var(--muted); margin: 0 0 8px; }
-  .chart { width: 100%; height: auto; display: block; touch-action: none; }
+  .chartbox { overflow-x: auto; }
+  .chart { width: 100%; min-width: 720px; height: auto; display: block; touch-action: none; }
   .chart text { font-family: var(--font-ui); }
   .legend { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
   button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 6px 10px; cursor: pointer; }
@@ -62,7 +63,7 @@ tags: [wip]
 
 <div class="card">
   <p class="formula">Coverage = 1 - F*. Confidence = 1 - e^(-N_ver * F*). F* is the largest fraction of fake packets tolerated without detection.</p>
-  <svg id="chart" class="chart" viewBox="0 0 1000 620" role="img" aria-label="Confidence against coverage, three curves for N_ver = 100, 10K and 10M"></svg>
+  <div class="chartbox"><svg id="chart" class="chart" viewBox="0 0 1000 530" role="img" aria-label="Confidence against coverage, three curves for N_ver = 100, 10K and 10M"></svg></div>
   <div class="legend" id="legend" aria-label="Show or hide a budget"></div>
   <div class="probe">
     <div class="row" id="probe-row"><span class="lbl">Read values at coverage</span></div>
@@ -94,10 +95,22 @@ tags: [wip]
     return 60 + (t - (-8)) / 8 * 380;
   }
   function confidence(n, logF) { return 1 - Math.exp(-n * Math.pow(10, logF)); }
+  function trimZeros(s) {
+    if (s.indexOf(".") < 0) return s;
+    while (s.length > 1 && s.charAt(s.length - 1) === "0") s = s.slice(0, -1);
+    if (s.charAt(s.length - 1) === ".") s = s.slice(0, -1);
+    return s;
+  }
+  // Formats the coverage the probe is actually sitting on. Only an exact power of
+  // ten gets the "n nines" name; anything in between prints as a percentage with
+  // enough decimals to stay distinct from the tick either side of it.
   function fmtCoverage(logF) {
     if (logF >= 0) return "0%";
     var e = -logF;
-    return e <= 4.01 ? ((1 - Math.pow(10, logF)) * 100).toFixed(Math.max(0, Math.round(e) - 2)) + "%" : Math.round(e) + " nines";
+    var whole = Math.abs(e - Math.round(e)) < 1e-9;
+    if (whole && e > 4.01) return Math.round(e) + " nines";
+    var dec = whole ? Math.max(0, Math.round(e) - 2) : Math.min(12, Math.max(0, Math.ceil(e) - 1));
+    return trimZeros(((1 - Math.pow(10, logF)) * 100).toFixed(dec)) + "%";
   }
   function fmtAxisY(p) {
     if (p === 0) return "0";
@@ -123,7 +136,9 @@ tags: [wip]
   }
   function fmtF(logF) {
     var f = Math.pow(10, logF);
-    return f >= 0.001 ? (f * 100).toString() + "%" : f.toExponential(0);
+    var whole = Math.abs(logF - Math.round(logF)) < 1e-9;
+    if (f >= 0.001) return trimZeros((f * 100).toFixed(6)) + "%";
+    return whole ? f.toExponential(0) : f.toExponential(2);
   }
 
   var svg = document.getElementById("chart");
@@ -182,18 +197,6 @@ tags: [wip]
       svg.appendChild(d);
       probeDots.push(d);
     }
-    var widths = SERIES.map(function (s) { return 24 * s.label.length * 0.55 + 36 + 12; });
-    var total = widths.reduce(function (a, b) { return a + b; }, 0) + 36 * (SERIES.length - 1);
-    var x = (1000 - total) / 2;
-    for (i = 0; i < SERIES.length; i++) {
-      var g = el("g", { transform: "translate(" + x + ", 570)" });
-      var ln = el("line", { x1: 0, y1: 0, x2: 36, y2: 0, stroke: "#1a1a1a", "stroke-width": 3.5 });
-      if (SERIES[i].dash) ln.setAttribute("stroke-dasharray", SERIES[i].dash);
-      g.appendChild(ln);
-      g.appendChild(el("text", { x: 48, y: 6, "font-size": 22, fill: "#1a1a1a" }, SERIES[i].label));
-      svg.appendChild(g);
-      x += widths[i] + 36;
-    }
   }
 
   var readout = document.getElementById("readout");
@@ -236,7 +239,7 @@ tags: [wip]
       var tr = h("tr");
       var lam = SERIES[i].nVerified * Math.pow(10, state.probeLog);
       tr.appendChild(h("td", null, SERIES[i].label + (state.visible[i] ? "" : " (hidden)")));
-      tr.appendChild(h("td", "n", lam >= 100 ? Math.round(lam).toLocaleString("en-US") : (Math.round(lam * 10000) / 10000).toString()));
+      tr.appendChild(h("td", "n", lam >= 100 ? Math.round(lam).toLocaleString("en-US") : (lam >= 0.001 ? String(Math.round(lam * 10000) / 10000) : fmtSmall(lam))));
       tr.appendChild(h("td", "n", fmtConf(confidence(SERIES[i].nVerified, state.probeLog))));
       table.appendChild(tr);
     }

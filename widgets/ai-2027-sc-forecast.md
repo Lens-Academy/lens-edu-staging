@@ -38,6 +38,8 @@ tags: [wip]
   button.is-seen::before { content: "\2713 "; color: var(--accent); }
   .chart-box { border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 8px; overflow-x: auto; }
   .chart-box svg { display: block; width: 100%; height: auto; min-width: 560px; font-family: var(--font-ui); }
+  /* On a phone the chart keeps its authored size and scrolls inside its box, rather than shrinking its labels to about 7px. */
+  @media (max-width: 560px) { .chart-box svg { min-width: 780px; } }
   .axis text { font-size: 11px; fill: var(--muted); }
   .grid line { stroke: var(--border); stroke-width: 1; }
   .row { cursor: pointer; }

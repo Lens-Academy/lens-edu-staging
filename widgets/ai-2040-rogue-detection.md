@@ -37,7 +37,8 @@ tags: [wip]
   .ticks span { flex: 1; text-align: center; }
   .ticks span:first-child { text-align: left; }
   .ticks span:last-child { text-align: right; }
-  .chart { width: 100%; height: auto; display: block; margin-top: 8px; touch-action: none; }
+  .chartbox { overflow-x: auto; margin-top: 8px; }
+  .chart { width: 100%; min-width: 720px; height: auto; display: block; touch-action: none; }
   .chart text { font-family: var(--font-ui); }
   .legend { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
   button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 6px 10px; cursor: pointer; }
@@ -87,7 +88,7 @@ tags: [wip]
   </div>
   <p class="note" id="gpu-note"></p>
 
-  <svg id="chart" class="chart" viewBox="0 0 1000 620" role="img" aria-label="P(detected) against rogue deployment size, three curves for 1 hour, 1 week and 1 month"></svg>
+  <div class="chartbox"><svg id="chart" class="chart" viewBox="0 0 1000 620" role="img" aria-label="P(detected) against rogue deployment size, three curves for 1 hour, 1 week and 1 month"></svg></div>
 
   <div class="legend" id="legend" aria-label="Show or hide a time window"></div>
 
