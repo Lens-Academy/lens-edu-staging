@@ -8,7 +8,7 @@ duration_minutes: 75
 ---
 #### Text
 content::
-You can think about maximizing the positive impact of a policy by evaluating it along two axes: effectiveness and feasibility. Say your goal was to reduce carbon emissions. An immediate global ban on fossil fuel extraction would eradicate emissions overnight, but is all but completely unenforceable. No economy could withstand the shock; no major emitter would comply. On the other hand, voluntary self-reported emission pledges are easy to agree with—but precisely because they are impossible to enforce. Any country and company could happily sign while continuing to emit. In other words, a policy that is effective but unfeasible is bad; a policy that is feasible but ineffective is also bad.
+You can think about maximizing the positive impact of a policy by evaluating it along two axes: effectiveness and feasibility. Say your goal was to reduce carbon emissions. An immediate global ban on fossil fuel extraction would eradicate emissions overnight, but is all but completely unenforceable. No economy could withstand the shock; no major emitter would comply. On the other hand, voluntary self-reported emission pledges are easy to agree with, precisely because they are impossible to enforce. Any country and company could happily sign while continuing to emit. In other words, a policy that is effective but unfeasible is bad; a policy that is feasible but ineffective is also bad.
 
 #### Text
 content::
@@ -16,7 +16,7 @@ content::
 
 A sixty-second exercise: before you scope policy for anyone else, audit one of your own.
 
-**Side A · The goal.** A policy you strongly believe in (or borrow one: Universal healthcare, School vouchers, A carbon tax, Banning phones in schools).
+**Side A · The goal.** A policy you strongly believe in (or borrow one: universal healthcare, school vouchers, a carbon tax, banning phones in schools).
 
 **Side B · The price.** One real cost or downside of enforcing it. Be honest, one is enough. Stuck? Try a lens: Who pays? · Who is constrained? · What does enforcing it require? · What happens to those who refuse?
 
@@ -30,7 +30,7 @@ feedback-instructions:: Ungraded personal exercise. Check only that Side A names
 
 #### Question: Choice
 id:: 85f95777-151c-4619-8557-3bc3a52cee49
-content:: Naming the price — how easy was it?
+content:: Naming the price: how easy was it?
 options::
 - Almost instant
 - Took some thought

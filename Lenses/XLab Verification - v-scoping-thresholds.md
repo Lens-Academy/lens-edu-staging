@@ -16,14 +16,14 @@ The two contenders for operational thresholds are compute and capability. The ta
 
 | Compute | | Capability |
 | --- | :---: | --- |
-| *Definition.* The line is drawn at total training compute, in FLOP. Examples in current policy: the [EU AI Act's 10²⁵ FLOP systemic-risk presumption](https://artificialintelligenceact.eu/article/51/) and the [10²⁶ FLOP reporting threshold in the now-rescinded US EO 14110](https://en.wikipedia.org/wiki/Executive_Order_14110). | | *Definition.* The line is drawn at what the model can do, e.g. is capable of engineering a deadly pathogen that can infect humans en masse. |
-| **Pro.** Black-and-white: a FLOP count is an enforceable threshold without ambiguity ([GovAI](https://www.governance.ai/research-paper/training-compute-thresholds-features-and-functions-in-ai-regulation)). | ⇄ | **Con.** Evals are currently unreliable and qualitatively ambiguous — sensitive to prompting and elicitation effort, plagued by contamination, with no consensus on what score means "dangerous" ([Can We Trust AI Benchmarks?](https://arxiv.org/html/2502.06559v1)). |
+| *Definition.* The line is drawn at total training compute, in FLOP. Examples from recent policy: the [EU AI Act's 10²⁵ FLOP systemic-risk presumption](https://artificialintelligenceact.eu/article/51/) and the [10²⁶ FLOP reporting threshold in the now-rescinded US EO 14110](https://en.wikipedia.org/wiki/Executive_Order_14110). | | *Definition.* The line is drawn at what the model can do, e.g. is capable of engineering a deadly pathogen that can infect humans en masse. |
+| **Pro.** Black-and-white: a FLOP count is an enforceable threshold without ambiguity ([GovAI](https://www.governance.ai/research-paper/training-compute-thresholds-features-and-functions-in-ai-regulation)). | ⇄ | **Con.** Evals are currently unreliable and qualitatively ambiguous: sensitive to prompting and elicitation effort, plagued by contamination, with no consensus on what score means "dangerous" ([Can We Trust AI Benchmarks?](https://arxiv.org/html/2502.06559v1)). |
 | **Pro.** Measurable early and externally verifiable: you can check it before and during a training run, not just after, which is what treaty enforcement requires. | ⇄ | **Con.** Measured too late: capabilities are assessed after training, when the thing a pause is meant to prevent already exists. <br /><br /> **Con.** Hard to verify externally: a contestable measurement makes a weak treaty trigger ([Oxford AIGI survey](https://aigi.ox.ac.uk/wp-content/uploads/2025/08/Survey_on_thresholds_for_advanced_AI_systems_1.pdf)). |
 | **Con.** Algorithmic efficiency improvements can make compute thresholds underinclusive: models trained below the line can gain the risky capabilities the threshold is trying to regulate ([Hooker](https://arxiv.org/html/2407.05694v1); [Institute for Law & AI](https://law-ai.org/the-role-of-compute-thresholds-for-ai-governance/)). Regulators partly compensate by making thresholds adjustable ([the EU Commission can amend its figure by delegated act](https://artificialintelligenceact.eu/article/51/)). | ⇄ | **Pro.** Measures danger more directly than compute by targeting the specific qualitative harms models may enact. |
 
 \### When Should Treaties Use Compute vs. Capability?
 
-In the event of pursuing a full or temporary pause, the treaty is focused on hard-line enforcement, which favors the objectivity of a compute threshold. Each party needs to definitively recognize which models to shut off, and they need to trust that their counterpart is following the same rule — which you only get with a black-and-white FLOP line. Timelines will also be tighter and less negotiable with a pause-based agreement, given its urgency: regulators cannot afford to deal with potentially wishy-washy capability definitions.
+In the event of pursuing a full or temporary pause, the treaty is focused on hard-line enforcement, which favors the objectivity of a compute threshold. Each party needs to definitively recognize which models to shut off, and they need to trust that their counterpart is following the same rule, which you only get with a black-and-white FLOP line. Timelines will also be tighter and less negotiable with a pause-based agreement, given its urgency: regulators cannot afford to deal with potentially wishy-washy capability definitions.
 
 If we're not focusing on a full pause, and more so on domestic enforcement and lighter observation- and resource-sharing-based policies, then capability thresholds can more realistically come into the picture. If regulators believe they have the time to pace development and experiment with evaluations, the definitional specificity of qualitative capabilities can be useful for knowledge.
 
@@ -44,7 +44,7 @@ If you're interested in learning more about evals and their limitations, here ar
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 "Article 51: Classification of General-Purpose AI Models as General-Purpose AI Models with Systemic Risk." *EU Artificial Intelligence Act*, artificialintelligenceact.eu. [artificialintelligenceact.eu](https://artificialintelligenceact.eu/article/51/)
-*The consolidated text of the AI Act article that presumes systemic risk above 10^25 training FLOP.*
+*The consolidated text of the AI Act article that presumes systemic risk above 10²⁵ training FLOP.*
 
 "Executive Order 14110." *Wikipedia, The Free Encyclopedia*. [en.wikipedia.org](https://en.wikipedia.org/wiki/Executive_Order_14110)
 *The encyclopedia article on EO 14110's history, contents, and 2025 rescission.*
@@ -73,5 +73,4 @@ U.S. Congress, Office of Technology Assessment. *Seismic Verification of Nuclear
 XLab. "1.0.1 Drawing the Line: Compute vs. Capability." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-thresholds)
 *The source lesson this page adapts.*
 
-The two evals readings above (Alignment Forum, Apollo Research) are cited inline and have no entry in XLab's citation registry.
-:::{>>{"author":"Elias's AI","timestamp":1788015954749}@@Both XLab folds become collapsed callouts; the XLab source footer becomes the Works cited callout.<<}
+:::{>>{"author":"Elias's AI","timestamp":1788850026176}@@The two evals readings (Alignment Forum, Apollo Research) are cited inline and have no entry in XLab's citation registry. Moved out of learner view: it was an author note inside the Works cited callout.<<}{>>{"author":"Elias's AI","timestamp":1788015954749}@@Both XLab folds become collapsed callouts; the XLab source footer becomes the Works cited callout.<<}
