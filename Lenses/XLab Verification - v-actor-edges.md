@@ -101,27 +101,27 @@ Then read the third ring on its own, since that is where the last paragraph come
 
 Then read what has no edge at all — ten of the seventeen. Some of those absences are the paper’s scope (enforcement is not verification), some are the roster’s (China brought no bureaus), and one is the whole problem stated as a hole: four states hold the jurisdiction that makes the chain’s records producible, and not one of them signed anything.
 
-Then read what has no node. The paper’s simplest and most implementation-ready layer runs on people — whistleblowers, interviews, intelligence. One of those three is on this board, because it happens to be an institution. The other two are not organisations, so a map of organisations has nowhere to put them, and you would never find them by drawing one.
+Then read what has no node. The paper’s simplest and most implementation-ready layer runs on people: whistleblowers, interviews, intelligence. One of those three is on this board, because it happens to be an institution. The other two are not organisations, so a map of organisations has nowhere to put them, and you would never find them by drawing one.
 
 Baker §3.2, the weak link: “identify the subgoal whose mechanisms are collectively least robust. This subgoal is the ‘weak link’ of the regime—its robustness determines the regime’s overall robustness.” Baker §4, defining a verification layer: “three verification layers can be stacked together to achieve three layers of redundancy, for example.”
 :::{>>{"author":"Elias's AI","timestamp":1788016696939}@@Native reproduction of XLab's actor-edges widget (src/lib/verification/data/actor-workshop.ts: SUBGOALS, EDGE_KEY, EDGE_NOTES, EDGE_FINDING; brief from widgets/actor-edges.tsx). The drag-to-draw ring map is replaced by a typed edge list graded against the same key. "Module 2.1" in the intro refers to the hardware module lens set, outside this module; left unlinked.<<}
 
 #### Question: Choice
 id:: 9f2573e0-1f40-40be-85f1-ba9107156979
-content:: Take one actor off the board entirely. Whose removal stops a frontier training run soonest — this week, not this decade?
+content:: Take one actor off the board entirely. Whose removal stops a frontier training run soonest: this week, not this decade?
 options::
 - [x] The cloud providers.
 - ASML.
 - TSMC.
 - The Bureau of Industry and Security.
-feedback-instructions:: Give XLab's reasoning for the option chosen, then the lesson. Cloud providers: "The run happens on their machines. Access can be suspended this afternoon — and they are the other actor the regime asks for a declaration, because the cluster it happens on is theirs." ASML: "The most consequential removal on this board and the slowest. ASML is 100% of EUV lithography, so taking it away eventually takes leading-edge fabrication with it — but no training run stops this week, because the chips already exist." TSMC: "Same shape as ASML, one step nearer: ~90% of sub-7nm logic. It stops the next generation of chips, not the run already loaded." BIS: "It writes and enforces export controls and trains nothing. Remove it and the rules stop being enforced — which loosens the regime rather than stopping the activity." Lesson: "That gap is the thing a ring map is drawn to show. The removal that bites soonest and the removal that matters most are different actors, on different rings, and a regime that reaches only for the second one buys nothing this year. Ask both questions of any chokepoint you are offered." No praise.
+feedback-instructions:: Give XLab's reasoning for the option chosen, then the lesson. Cloud providers: "The run happens on their machines. Access can be suspended this afternoon, and they are the other actor the regime asks for a declaration, because the cluster it happens on is theirs." ASML: "The most consequential removal on this board and the slowest. ASML is 100% of EUV lithography, so taking it away eventually takes leading-edge fabrication with it, but no training run stops this week, because the chips already exist." TSMC: "Same shape as ASML, one step nearer: ~90% of sub-7nm logic. It stops the next generation of chips, not the run already loaded." BIS: "It writes and enforces export controls and trains nothing. Remove it and the rules stop being enforced, which loosens the regime rather than stopping the activity." Lesson: "That gap is the thing a ring map is drawn to show. The removal that bites soonest and the removal that matters most are different actors, on different rings, and a regime that reaches only for the second one buys nothing this year. Ask both questions of any chokepoint you are offered." No praise.
 
 #### Text
 content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
-**The cloud providers.** The run happens on their machines. Access can be suspended this afternoon — and they are the other actor the regime asks for a declaration, because the cluster it happens on is theirs.
+**The cloud providers.** The run happens on their machines. Access can be suspended this afternoon, and they are the other actor the regime asks for a declaration, because the cluster it happens on is theirs.
 
-**ASML.** The most consequential removal on this board and the slowest. ASML is 100% of EUV lithography, so taking it away eventually takes leading-edge fabrication with it — but no training run stops this week, because the chips already exist.
+**ASML.** The most consequential removal on this board and the slowest. ASML is 100% of EUV lithography, so taking it away eventually takes leading-edge fabrication with it, but no training run stops this week, because the chips already exist.
 
 **TSMC.** Same shape as ASML, one step nearer: ~90% of sub-7nm logic. It stops the next generation of chips, not the run already loaded.
 
