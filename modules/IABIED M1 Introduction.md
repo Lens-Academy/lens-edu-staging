@@ -122,7 +122,7 @@ source:: ![[../Lenses/IABIED - QA - AI Experts on Catastrophe]]
 # Lens: IABIED - QA - Leo Szilard Saw the Future
 optional:: true
 hide:: true
-source:: ![[../Lenses/IABIED - QA - Leo Szilard Saw the Future]]
+source:: ![[../Lenses/IABIED - QA - Leo Szilard Saw the Future]]{--{"author":"AI","timestamp":1788834827499}@@
 
 # Submodule: Ch1 - Intelligence
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]
@@ -418,5 +418,5 @@ source:: ![[../Lenses/IABIED - QA - Full Description of an LLM]]
 # Lens: IABIED - QA - Intelligence Isn't Ineffable
 optional:: true
 hide:: true
-source:: ![[../Lenses/IABIED - QA - Intelligence Isn't Ineffable]]
+source:: ![[../Lenses/IABIED - QA - Intelligence Isn't Ineffable]]--}
 
