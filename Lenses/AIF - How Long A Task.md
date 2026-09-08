@@ -30,7 +30,7 @@ Their approach has three parts.
 content::
 \## What have they found (on AIs up to 2025)
 
-{--{"author":"Lauren's AI","timestamp":1788772149195}@@Two--}{++{"author":"Lauren's AI","timestamp":1788772149195}@@Three++} pre-read questions.
+Three pre-read questions.
 
 1. What would you expect is the number, in human-equivalent hours, that their method gave for AIs up to the end of 2025?
 2. What would you guess are the primary things that cause this number to change?{++{"author":"AI","timestamp":1788872860393}@@
