@@ -246,9 +246,21 @@ Every module already has a `# Submodule: Welcome`. The work is making its conten
 | Companion pieces | Not yet scoped | `todo` |
 | Extended readings | Not yet scoped | `todo` |
 
----
+### Stage 6, meeting docs
 
-## 6. Welcome lenses: the evidence behind the decision
+Last, and deliberately so. Scope cannot be assessed until the restructure above is finished, because what each meeting has to cover is exactly what changes. Nothing else waits on this: it is fully downstream, with no dependencies pointing back into stages 1 to 5.
+
+| File | Change | Status |
+|---|---|---|
+| Meeting 1 doc | Now covers Introduction plus chapters 1 to 3, was Introduction plus chapters 1 and 2 | `todo` |
+| Meeting 2 doc | Now covers chapters 4 to 6, was chapters 3 to 5. Its next-unit pointer names Ch 6 + film + Coda + Your Leverage and will be wrong | `todo` |
+| Meeting 3 doc | Loses chapter 6, gains the U3 opener and chapter 9 | `todo` |
+| Meeting 4 doc | Expected unchanged | `todo` |
+| Meeting 5 doc | Expected unchanged | `todo` |
+
+The docs are reachable through the `meeting-doc-template::` links on each `# Meeting:` block. They may warrant restructuring in their own right rather than only patching, which is a decision for whoever owns them once the shape above is settled. Note the history recorded in the course file: meeting 2's doc once ran an outdated session for three days because a link was believed repointed and was not, so verify by opening the doc rather than by trusting the link.
+
+---
 
 **Corrected inventory, twice over.** My first pass found two welcome lenses. My second found four patterns. Both undercounted. Every IABIED module opens with a `# Submodule: Welcome` (M3's is `# Submodule: Part 3 Welcome`). The slot is uniform; what sits inside it is not.
 
