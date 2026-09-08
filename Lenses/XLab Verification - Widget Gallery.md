@@ -293,11 +293,13 @@ Nothing interactive was dropped. There is no sorting or matching task in this pa
 :::
 
 :::callout {title="Proposed native segments" tone="neutral" collapse="closed"}
+Field names are written `key: :` so this page parses; join the colons when pasting.
+
 Already on the page; keep them unchanged, including the existing ids (learners may have responses stored under them). Reproduced here verbatim from the lens so the orchestrator can diff:
 
 \#### Question: Open
-id:: 5af30446-99ef-4208-becd-4ff2d17c5e60
-content:: **Task 1. Object and purpose** (optional; max 200 words)
+id: : 5af30446-99ef-4208-becd-4ff2d17c5e60
+content: : **Task 1. Object and purpose** (optional; max 200 words)
 
 Document 1 refers to nuclear material, nuclear activities, and nuclear weapons. Identify:
 
@@ -308,14 +310,14 @@ Document 1 refers to nuclear material, nuclear activities, and nuclear weapons. 
 Then explain why the following conclusion is broader than the text permits:
 
 > If all declared nuclear material remains accounted for, the state has no nuclear-weapons programme.
-optional:: true
-assessment-instructions:: Model answer. (1) Immediate object: nuclear material; under a CSA a State accepts safeguards on all nuclear material in all peaceful nuclear activities within its territory, under its jurisdiction, or carried out under its control anywhere. (2) Obligation: to place that material under safeguards and allow the IAEA to verify; under the NPT, not to produce or otherwise acquire nuclear weapons. (3) Broader outcome: non-proliferation, verifying that safeguarded material is not diverted to nuclear weapons or other explosive devices. Why the conclusion overreaches: what is accounted for is declared material; Document 1 claims only that such material has not been diverted and says nothing about material or activities never declared. Moving to "no weapons programme" supplies an unstated premise: that the declaration is complete. Award full credit when all three identifications are correct and the completeness premise is named; partial credit otherwise. Penalize answers that do not distinguish the text's claims from the learner's inferences.
-feedback-instructions:: State which of the three identifications were right, whether the learner named the missing completeness premise, then share these Baker (2023) excerpts as reveal material: (a) §3.2.1: "CSAs are intended to (just) verify the peaceful use of nuclear materials at known nuclear facilities, rather than also detecting secret nuclear facilities." (b) §1.3: acquiring weapon-usable nuclear material is the hardest step in making nuclear weapons; uranium and plutonium are rare and emit radiation, which makes them unusually easy to track. (c) §3.2.3: detecting undeclared facilities has two steps, finding evidence suggesting a state might have undeclared facilities, and resolving suspicions about them. No generic praise.
+optional: : true
+assessment-instructions: : Model answer. (1) Immediate object: nuclear material; under a CSA a State accepts safeguards on all nuclear material in all peaceful nuclear activities within its territory, under its jurisdiction, or carried out under its control anywhere. (2) Obligation: to place that material under safeguards and allow the IAEA to verify; under the NPT, not to produce or otherwise acquire nuclear weapons. (3) Broader outcome: non-proliferation, verifying that safeguarded material is not diverted to nuclear weapons or other explosive devices. Why the conclusion overreaches: what is accounted for is declared material; Document 1 claims only that such material has not been diverted and says nothing about material or activities never declared. Moving to "no weapons programme" supplies an unstated premise: that the declaration is complete. Award full credit when all three identifications are correct and the completeness premise is named; partial credit otherwise. Penalize answers that do not distinguish the text's claims from the learner's inferences.
+feedback-instructions: : State which of the three identifications were right, whether the learner named the missing completeness premise, then share these Baker (2023) excerpts as reveal material: (a) §3.2.1: "CSAs are intended to (just) verify the peaceful use of nuclear materials at known nuclear facilities, rather than also detecting secret nuclear facilities." (b) §1.3: acquiring weapon-usable nuclear material is the hardest step in making nuclear weapons; uranium and plutonium are rare and emit radiation, which makes them unusually easy to track. (c) §3.2.3: detecting undeclared facilities has two steps, finding evidence suggesting a state might have undeclared facilities, and resolving suspicions about them. No generic praise.
 
 
 \#### Question: Open
-id:: 2fd21c66-3d30-4534-a862-8c1e24a831df
-content:: **Task 2. Division of labour** (optional; max 200 words)
+id: : 2fd21c66-3d30-4534-a862-8c1e24a831df
+content: : **Task 2. Division of labour** (optional; max 200 words)
 
 Document 2 proposes three components:
 
@@ -326,14 +328,14 @@ Document 2 proposes three components:
 For each component, identify the problem it solves. Then explain why removing any one component would create a distinct route for evasion.
 
 Your answer should show the division of labour among the three instruments, rather than merely describe how each instrument operates.
-optional:: true
-assessment-instructions:: Model answer. Chip-level logging creates a durable trace of which computations a chip took part in; without it, registered chips are used for a prohibited run that leaves no verifiable record. Log inspection and analysis turns the chips' records into a determination (whether a rules-violating run took place) from a sufficient sample; without it, logs accumulate but no one converts them into a detection. Supply-chain monitoring secures the completeness of the chip inventory from which the inspection sample is drawn; without it, a violator acquires unregistered chips that never enter the sample. The components are not interchangeable: a log nobody inspects detects nothing; an inspection with no attested log has nothing trustworthy to examine; both are useless against chips whose existence the verifier does not know of. Full credit requires a distinct evasion route per missing component, not just descriptions of each instrument.
-feedback-instructions:: Name any component whose evasion route was missing or duplicated another's. Then note: Baker independently supports the need for persistent chip records and complete chip accountancy. No generic praise.
+optional: : true
+assessment-instructions: : Model answer. Chip-level logging creates a durable trace of which computations a chip took part in; without it, registered chips are used for a prohibited run that leaves no verifiable record. Log inspection and analysis turns the chips' records into a determination (whether a rules-violating run took place) from a sufficient sample; without it, logs accumulate but no one converts them into a detection. Supply-chain monitoring secures the completeness of the chip inventory from which the inspection sample is drawn; without it, a violator acquires unregistered chips that never enter the sample. The components are not interchangeable: a log nobody inspects detects nothing; an inspection with no attested log has nothing trustworthy to examine; both are useless against chips whose existence the verifier does not know of. Full credit requires a distinct evasion route per missing component, not just descriptions of each instrument.
+feedback-instructions: : Name any component whose evasion route was missing or duplicated another's. Then note: Baker independently supports the need for persistent chip records and complete chip accountancy. No generic praise.
 
 
 \#### Question: Open
-id:: 361b5dfb-7542-47c2-8b20-ef80bc622435
-content:: **Task 3. Grounds and limits of the analogy** (optional; max 200 words)
+id: : 361b5dfb-7542-47c2-8b20-ef80bc622435
+content: : **Task 3. Grounds and limits of the analogy** (optional; max 200 words)
 
 Identify three conditions that must hold for Shavit's system to provide credible assurance:
 
@@ -345,14 +347,14 @@ For each condition:
 
 1. state whether it is explicit in Document 2 or inferred from the proposed mechanism;
 2. explain what conclusion would cease to be justified if the condition failed.
-optional:: true
-assessment-instructions:: Model answer. Technical structure: the training runs the rules target require large quantities of specialised data-centre chips. Explicit (Document 2 restricts its focus to specialised data-center chips and leaves personal devices alone). If it fails: a clean chip regime says nothing about a prohibited run reachable on far fewer chips or on personal devices. Supply chain: every chip is accounted for, so no actor can secretly acquire chips and underclaim its total. Explicit (stated purpose of the third component). If it fails: inspecting a subset no longer licenses a statement about all of an actor's chips; the sample is drawn from a mis-measured population. Verifier: inspectors can obtain and analyse the logs of a sufficient subset, and logging and attestation hold against a determined adversary. Part explicit (inspection step, confidentiality-preserving logging), part inferred (robustness against nation-state circumvention is what the framework "aspires to"; access is assumed rather than established). If it fails: "no violation found" no longer means "no violation". The three are distinct claims: what the prohibited activity needs, whether the verifier knows the population, whether it can read it. Full credit requires all three, each labelled explicit or inferred, each with the conclusion that fails.
-feedback-instructions:: Say which condition was weakest or missing. Then share Baker (2023) as reveal material: the correct analogy is verified accountancy of a chokepoint, not "chips are like uranium". Appendix A lists similarities (dual-use equipment and facilities; verified accounting of uranium in one case and high-end AI chips in the other) and differences (no analogue to environmental sampling for AI; nuclear M&V never had to verify information-technology use via source code, hardware, or models; the chip supply chain is highly concentrated while uranium sources are decentralized). §6.1: with certain preparations, the foreseeable challenges of hardware-based verification of rules on highly compute-intensive AI development would mostly be challenges that were successfully addressed in nuclear arms control; chip-based verification cannot address all important risks from AI. Executive summary: if rules' scope were highly compute-intensive AI development in data centers (so commodity chips offer no loophole), direct inspection costs would be lower than or roughly similar to those states accepted for nonproliferation. No generic praise.
+optional: : true
+assessment-instructions: : Model answer. Technical structure: the training runs the rules target require large quantities of specialised data-centre chips. Explicit (Document 2 restricts its focus to specialised data-center chips and leaves personal devices alone). If it fails: a clean chip regime says nothing about a prohibited run reachable on far fewer chips or on personal devices. Supply chain: every chip is accounted for, so no actor can secretly acquire chips and underclaim its total. Explicit (stated purpose of the third component). If it fails: inspecting a subset no longer licenses a statement about all of an actor's chips; the sample is drawn from a mis-measured population. Verifier: inspectors can obtain and analyse the logs of a sufficient subset, and logging and attestation hold against a determined adversary. Part explicit (inspection step, confidentiality-preserving logging), part inferred (robustness against nation-state circumvention is what the framework "aspires to"; access is assumed rather than established). If it fails: "no violation found" no longer means "no violation". The three are distinct claims: what the prohibited activity needs, whether the verifier knows the population, whether it can read it. Full credit requires all three, each labelled explicit or inferred, each with the conclusion that fails.
+feedback-instructions: : Say which condition was weakest or missing. Then share Baker (2023) as reveal material: the correct analogy is verified accountancy of a chokepoint, not "chips are like uranium". Appendix A lists similarities (dual-use equipment and facilities; verified accounting of uranium in one case and high-end AI chips in the other) and differences (no analogue to environmental sampling for AI; nuclear M&V never had to verify information-technology use via source code, hardware, or models; the chip supply chain is highly concentrated while uranium sources are decentralized). §6.1: with certain preparations, the foreseeable challenges of hardware-based verification of rules on highly compute-intensive AI development would mostly be challenges that were successfully addressed in nuclear arms control; chip-based verification cannot address all important risks from AI. Executive summary: if rules' scope were highly compute-intensive AI development in data centers (so commodity chips offer no loophole), direct inspection costs would be lower than or roughly similar to those states accepted for nonproliferation. No generic praise.
 
 
 \#### Question: Open
-id:: b6ac80e3-aa4f-4ce2-b8e8-3d1e38927887
-content:: **Task 4. Why Iraq was missed** (optional; max 200 words)
+id: : b6ac80e3-aa4f-4ce2-b8e8-3d1e38927887
+content: : **Task 4. Why Iraq was missed** (optional; max 200 words)
 
 Document 3 describes clandestine nuclear activities that remained undetected while routine safeguards continued at declared facilities.
 
@@ -363,14 +365,14 @@ Explain how the safeguards system could be operating as designed and nevertheles
 - failure to possess or act upon information indicating where to investigate.
 
 Which of these best characterises the Iraq case, and why?
-optional:: true
-assessment-instructions:: Model answer. The second: a failure to identify an undeclared object. The first did not occur (routine verification of declared activity continued as designed), and the third is why the second persisted rather than a separate defect. Document 3 names the causes: access confined to defined strategic points at declared facilities while undeclared activities sat on safeguarded sites away from those points; detection techniques did not exist until environmental sampling; a "checklist" inspection culture narrowed how the duty was perceived; and for undeclared sites the fundamental problem is identifying locations to investigate, since wider access rights are of limited value without leads. The system can operate as designed and still fail because correct verification of what was declared is compatible with an undeclared object the design never undertook to find. More of the same inspections would not have closed it: the binding constraint was leads, not frequency or access. Full credit requires picking the second category, explaining the relation of the third to it, and citing Document 3's specific factors.
-feedback-instructions:: Say whether the learner picked the right category and whether they explained why the third factor is the cause of the second's persistence. Then share Baker (2023) as reveal material: §5.2: CSAs were not designed to detect secret nuclear facilities; negotiators assumed that secret facilities would be detected and reported by national intelligence agencies, that a self-contained fuel cycle was too hard for most states, that far-reaching inspector access was politically unacceptable, and that no good detection methods existed; fixes (Additional Protocols) required ratification by each state. §5.3: the system was substantially strengthened only after the salient failure of Iraq's nearly successful secret program, discovered through the First Gulf War; the IAEA then began using authorities it already had (earlier design information, environmental sampling) and agreed Additional Protocols with dozens of states. No generic praise.
+optional: : true
+assessment-instructions: : Model answer. The second: a failure to identify an undeclared object. The first did not occur (routine verification of declared activity continued as designed), and the third is why the second persisted rather than a separate defect. Document 3 names the causes: access confined to defined strategic points at declared facilities while undeclared activities sat on safeguarded sites away from those points; detection techniques did not exist until environmental sampling; a "checklist" inspection culture narrowed how the duty was perceived; and for undeclared sites the fundamental problem is identifying locations to investigate, since wider access rights are of limited value without leads. The system can operate as designed and still fail because correct verification of what was declared is compatible with an undeclared object the design never undertook to find. More of the same inspections would not have closed it: the binding constraint was leads, not frequency or access. Full credit requires picking the second category, explaining the relation of the third to it, and citing Document 3's specific factors.
+feedback-instructions: : Say whether the learner picked the right category and whether they explained why the third factor is the cause of the second's persistence. Then share Baker (2023) as reveal material: §5.2: CSAs were not designed to detect secret nuclear facilities; negotiators assumed that secret facilities would be detected and reported by national intelligence agencies, that a self-contained fuel cycle was too hard for most states, that far-reaching inspector access was politically unacceptable, and that no good detection methods existed; fixes (Additional Protocols) required ratification by each state. §5.3: the system was substantially strengthened only after the salient failure of Iraq's nearly successful secret program, discovered through the First Gulf War; the IAEA then began using authorities it already had (earlier design information, environmental sampling) and agreed Additional Protocols with dozens of states. No generic praise.
 
 
 \#### Question: Open
-id:: c8a29a26-9bb2-46bd-b44f-fc87f4f54bd9
-content:: **Task 5. Testing the hypothesis** (required; max 300 words)
+id: : c8a29a26-9bb2-46bd-b44f-fc87f4f54bd9
+content: : **Task 5. Testing the hypothesis** (required; max 300 words)
 
 A policy team reaches the following conclusion:
 
@@ -382,8 +384,8 @@ Evaluate this conclusion using all three documents. Your answer must:
 2. identify the step in the argument placed under greatest pressure by the Iraq case;
 3. explain why that problem cannot be solved merely by inspecting registered chips more frequently;
 4. replace the original conclusion with a narrower claim that the evidence supports.
-assessment-instructions:: Model answer. (1) Strongest parallel: verified accountancy of a controlled, mandatory input, carried by a duty on the holder to declare it and accept verification (Document 1 places all nuclear material under safeguards; Document 2 requires every chip be accounted for and a sufficient subset's logs inspected). The parallel is accountancy of an input, not resemblance between uranium and chips. (2) Step under pressure: the move from "inspection of registered chips found no violation" to "no prohibited development is occurring", which requires the declaration to be complete; Document 3 shows completeness was absent in Iraq. (3) Why frequency cannot fix it: the defect is in the population, not the sampling rate; an unregistered chip is not in the frame the sample is drawn from, so no frequency reaches it; Document 3's own answer was a different instrument, information from states. (4) Narrower claim: where highly compute-intensive AI development requires large quantities of accounted-for specialised chips, chip registration, tamper-evident logging and inspection may provide reliable assurance that covered chips at declared locations have not been used in prohibited training; this does not by itself establish the absence of prohibited development using unregistered chips, undeclared facilities, commodity hardware, or other unmonitored inputs. Score each of the four parts at 25 points. Require that the narrowed claim actually restricts scope (covered chips, declared locations) rather than merely hedging.
-feedback-instructions:: Go part by part: which of the four were sound, which were missing or overbroad. Then share Baker (2023) as reveal material: §6.1's conclusion is deliberately narrow (hardware-based verification of rules on highly compute-intensive AI development; chip-based verification cannot address all important risks from AI); Appendix A's similarities and differences; and Appendix G.8's final line, worded exactly: "methods that have been widely used for nuclear arms control verification can be adapted to create a reliable system for verifying accounts of AI chips". Verifying accounts of AI chips, not verifying the absence of all prohibited AI development. That is the properly limited conclusion. No generic praise.
+assessment-instructions: : Model answer. (1) Strongest parallel: verified accountancy of a controlled, mandatory input, carried by a duty on the holder to declare it and accept verification (Document 1 places all nuclear material under safeguards; Document 2 requires every chip be accounted for and a sufficient subset's logs inspected). The parallel is accountancy of an input, not resemblance between uranium and chips. (2) Step under pressure: the move from "inspection of registered chips found no violation" to "no prohibited development is occurring", which requires the declaration to be complete; Document 3 shows completeness was absent in Iraq. (3) Why frequency cannot fix it: the defect is in the population, not the sampling rate; an unregistered chip is not in the frame the sample is drawn from, so no frequency reaches it; Document 3's own answer was a different instrument, information from states. (4) Narrower claim: where highly compute-intensive AI development requires large quantities of accounted-for specialised chips, chip registration, tamper-evident logging and inspection may provide reliable assurance that covered chips at declared locations have not been used in prohibited training; this does not by itself establish the absence of prohibited development using unregistered chips, undeclared facilities, commodity hardware, or other unmonitored inputs. Score each of the four parts at 25 points. Require that the narrowed claim actually restricts scope (covered chips, declared locations) rather than merely hedging.
+feedback-instructions: : Go part by part: which of the four were sound, which were missing or overbroad. Then share Baker (2023) as reveal material: §6.1's conclusion is deliberately narrow (hardware-based verification of rules on highly compute-intensive AI development; chip-based verification cannot address all important risks from AI); Appendix A's similarities and differences; and Appendix G.8's final line, worded exactly: "methods that have been widely used for nuclear arms control verification can be adapted to create a reliable system for verifying accounts of AI chips". Verifying accounts of AI chips, not verifying the absence of all prohibited AI development. That is the properly limited conclusion. No generic praise.
 
 
 Optional additions, none required: `placeholder:: Write your answer, then submit to see what Baker says on the same ground.` on each of the five segments (XLab's textarea placeholder, verbatim); and the two missing §5.2 fragments in the "Baker (2023) on Task 4" callout.
@@ -503,16 +505,18 @@ Sources: `src/components/verification/widgets/treaty-workspace.tsx`, `src/compon
 :::
 
 :::callout {title="Proposed native segments" tone="neutral" collapse="closed"}
+Field names are written `key: :` so this page parses; join the colons when pasting.
+
 Already on the page; no change needed. The four existing segments are, in short (full text and instructions are in the lens file at the ids above):
 
 ```
 \#### Question: Open
-id:: 5c257204-3687-4257-a4f3-ecb75d22e20f
-content:: **1. Distinguish between non-binding and binding provisions** ...
-placeholder:: Quote the words you are talking about.
-optional:: true
-assessment-instructions:: ...
-feedback-instructions:: ...
+id: : 5c257204-3687-4257-a4f3-ecb75d22e20f
+content: : **1. Distinguish between non-binding and binding provisions** ...
+placeholder: : Quote the words you are talking about.
+optional: : true
+assessment-instructions: : ...
+feedback-instructions: : ...
 ```
 (and likewise e3c2359d-f159-4348-a44a-740924f23668 for question 2, 7d9b33a6-250c-41b3-aeb3-daae48c85383 for question 3, 9071fd5b-8b0f-4dd0-80bf-93960ebca7af for question 4).
 
@@ -843,6 +847,8 @@ Sources: `src/content/lessons/verification/hardware-*.mdx` (nine files, HEAD of 
 :::
 
 :::callout {title="Proposed native segments" tone="neutral" collapse="closed"}
+Field names are written `key: :` so this page parses; join the colons when pasting.
+
 n/a: every activity already has an Open segment in its lens and every Prompt is already a callout; nothing to add.
 :::
 
@@ -1333,6 +1339,8 @@ Writes a few sentences per station (finder, judge, enforcer, standard) in answer
 :::
 
 :::callout {title="Proposed native segments" tone="neutral" collapse="closed"}
+Field names are written `key: :` so this page parses; join the colons when pasting.
+
 Keep the existing segments and ids. Only replace the em-dash lines with these (content:: values and callout bodies, ready to paste):
 
 Finder prompt (segment `36895df0-f049-478c-807f-f3ca5c5c60af`), second paragraph:
@@ -1484,6 +1492,8 @@ Checked src/components/verification/widgets/compute-verification.tsx, src/lib/ve
 :::
 
 :::callout {title="Proposed native segments" tone="neutral" collapse="closed"}
+Field names are written `key: :` so this page parses; join the colons when pasting.
+
 Already in place. The nine existing Question: Open segments in [[../Lenses/XLab Verification - v-covert-system-overview]] are the proposal; no new segments and no new uuids needed. If the orchestrator wants XLab's completion rule enforced, the only lever Lens has is marking Questions 1, 2 and 5 as non-optional (they already are) and leaving 3, 4, 7, 9, 6, 8 `optional:: true` (they already are).
 :::
 
@@ -1553,6 +1563,8 @@ Checked XLab's ten prompts at commit cbd2f3ee against the Lens segments: the Len
 :::
 
 :::callout {title="Proposed native segments" tone="neutral" collapse="closed"}
+Field names are written `key: :` so this page parses; join the colons when pasting.
+
 Already present in the lens; nothing to paste.
 :::
 
@@ -1583,6 +1595,64 @@ content::
 \## Readings embedded by the course
 
 These entries replace static images or lost charts inside imported articles. A widget goes into the article body on its own line as `![[../widgets/<name>]]`, so every lens that excerpts the article shows it in place.
+
+#### Text
+content::
+\#### Chip declaration result, Jan 2029 and mid 2029 (ChipDeclarationResult, ChipDeclarationResultGlobal)
+
+**Decision: widget.** Two waffle charts at one square = 250K H100e make the asymmetry legible (the US block is nine times China's) and the plausibly-undeclared outline shrinks from six squares to two when the rest of the world joins; the two two-row tables in the article state the totals but show neither the scale nor the shrinkage.
+
+**Target lens:** [[../Lenses/XLab Verification - v-intuitions-plan-a]]
+
+**Where it goes:** after `*Table adaptation of the source chart, which draws compute in blocks of 250K H100e; the undeclared figures...` (article line 312, in "### Jan 2029: Mutual Chip Declaration and Inspection"). One embed only: the widget's date switch already carries the mid-2029 view, so do not add a second embed at line 378. Both spots are in ordinary body text, not inside a callout. Inside the lens's third Article range (`from:: ## 2029-2030: Deal Implementation`).
+
+**What it replaces:** two prose tables, at article lines 307 to 310 (Jan 2029: US 224M / China 26M, ~1.5M each undeclared) and lines 372 to 376 (mid 2029: plus rest of world 39M, ~0.5M each). Both tables should stay where they are as the text fallback; the widget goes above the first one.
+
+**In XLab:** not an XLab exercise. Source is the AI 2040 verification supplement, `ChipDeclarationResult` (source MDX line 254) and `ChipDeclarationResultGlobal` (source MDX line 305), core body text, not inside a Fold.
+
+**Learner time:** 3
+
+Switches between January 2029 (US and China) and mid 2029 (with the rest of the world), hovers or presses a block to see how many 250K H100e squares it holds and what that is in H100e, and presses a party to read its declared total against its plausibly undeclared outline. Done means both dates have been viewed.
+
+:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
+Party labels, declared totals (224M, 26M, 39M), the block lists, the grid sizes (US 60x15, China 15x7, rest of world 23x7) and the 250K H100e square size are copied from the page's chunk 7228, which is the React component itself. The two undeclared-cell counts were not read off a picture: the rendered `svg-decl-jan.svg` carries 12 outlined cells over two parties (6 each, 1.5M H100e) and `svg-decl-mid.svg` carries 6 over three parties (2 each, 0.5M H100e), matching the component's `undeclCells` default of 6 and the global variant's 2, and matching the article's two tables.
+
+The block-placement routine in the widget is a line-for-line port of the component's own layout function. Verified mechanically: the widget renders 329 rects in the January view and every one of them matches an `(x, y, width, height)` present in the source's rendered SVG, with none missing. Colours are remapped to the Lens palette (ink for the US, accent for China, ink hatch for the rest of the world). Data sources: `work/ai2040/lazy-chipdecl.js` (chunk 7228), `work/ai2040/svg-decl-jan.svg`, `work/ai2040/svg-decl-mid.svg`.
+
+Uncertain: the article's caption says the undeclared figures are "read at that block resolution", which is right; the chart cannot express a value finer than 250K H100e, and the surrounding prose gives the real estimate as "around 1.5M H100e (with the 80% CI reaching about 4M)". The widget shows the block figure and does not restate the CI.
+:::
+
+#### Widget
+source:: [[../widgets/ai-2040-chip-declaration]]
+
+#### Text
+content::
+\#### Compute locations by datacenter size, January 1, 2029 (AIDatacenters2029Hybrid)
+
+**Decision: widget.** The source treemap carries the US, China and rest-of-world split inside every size band (57 / 7 / 10 datacenters in the 1M to 10M band, and so on) plus the visual proportion that makes "99% of world compute sits above 10K H100e" concrete, and none of that survives in the three flat tables the import left behind.
+
+**Target lens:** [[../Lenses/XLab Verification - v-intuitions-plan-a]]
+
+**Where it goes:** after `*Table adaptation of the source figure. Compute quantities use H100-equivalent units (H100e); K = thousand...` (article line 53, under the bold caption **Compute locations by datacenter size, January 1, 2029 (scenario projection)**). Inside the lens's first Article range (`from:: ## Summary of the Plan`).
+
+**What it replaces:** three prose tables (datacenter size bands, other compute locations, region totals) at article lines 55 to 74. Keep all three directly below the embed as the text fallback: they are quotable, they are what a screen reader gets, and the widget adds interaction rather than new numbers. Nothing needs to be deleted.
+
+**In XLab:** not an XLab exercise. Source is the AI 2040 verification supplement (https://ai-2040.com/supplements/verification-plan), `AIDatacenters2029Hybrid` directive at source MDX line 46, core body text, not inside a Fold.
+
+**Learner time:** 4
+
+Presses one of nine location bands (six datacenter size bands, compute in transit, AI consumer, non-AI consumer) and reads its datacenter count, total compute, share of world compute, the verification measure the plan applies to it, and how the datacenters in that band split between the US, China and the rest of the world. A region filter dims everything outside one region so the learner can see, for instance, that China's compute is concentrated in the same bands as the US but at a tenth of the scale. Done means all six datacenter size bands have been opened.
+
+:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
+Every rectangle is the source page's own SVG geometry, parsed from the rendered chart (viewBox `0 0 681 523.407`, 849 rects). Region comes from each rect's fill in that SVG: `#111111` = US, `#8b0000` = China, `url(#dcpol-ink-bars)` = rest of world. The per-band rect counts (1, 74, 257, 497) reproduce the source's own band labels exactly, which is the check that the fill-to-region mapping is right. Band labels, the `N DCs·compute·share` strings, and the region footer line are copied verbatim from the SVG text nodes. The three verification-measure brackets are assigned by their vertical extents in the source SVG (`x=484` spans y 0 to 305.407, so inference-only covers the four datacenter bands plus in-transit; `x=171.196` spans 313.407 to 385.407; `x=216.987` spans 445.407 to 519.407), not by eye.
+
+Adapted: colours are remapped to the Lens palette (ink for US, accent #b87018 for China, ink hatch for rest of world) and the source's dark red is dropped. The 1K to 10K and under-1K bands are drawn by the source as one block per region rather than one rect per datacenter, so the widget shows no per-region count there and says so. The ampersand label "Cap & Trade" is rendered as "Cap and Trade" to avoid an entity in text content; the source's "(if unverified)" subtitle is kept. Data sources: `work/ai2040/svg-treemap.svg` (rendered chart, fetched from the live page), `work/ai2040/page.html`.
+
+Uncertain: none. The article's own three tables agree with the SVG on every number, so the import lost the picture and the region split, not the figures.
+:::
+
+#### Widget
+source:: [[../widgets/ai-2040-compute-locations]]
 
 #### Text
 content::
