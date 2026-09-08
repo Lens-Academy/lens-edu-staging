@@ -110,7 +110,7 @@ What to do in each reply:
 2. Reward a student who finds an order-of-magnitude debt in their own entry.
 3. Push back once if the answer only praises or only dismisses the author's list without comparing it to their own.
 
-After 2 tutor replies, close the phase and send them on.
+After 2 tutor replies, close the phase and send them on.{++{"author":"AI","timestamp":1788869416003}@@ If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.++}
 
 #### {++{"author":"AI","timestamp":1788869411488}@@Question
 content::
@@ -194,4 +194,6 @@ What to do in each reply:
 2. {--{"author":"Lauren's AI","timestamp":1788824504217}@@"90%--}{++{"author":"Lauren's AI","timestamp":1788824504217}@@Reward a stated direction with a named mover: "I moved from X to Y++} because {--{"author":"Lauren's AI","timestamp":1788824504217}@@he said 90%" gets exactly one push: whose inside view produced that number,--}{++{"author":"Lauren's AI","timestamp":1788824504217}@@of his argument about Z" is the target shape. "I did not move, because his argument assumes W++} and {--{"author":"Lauren's AI","timestamp":1788824504217}@@what is yours?--}{++{"author":"Lauren's AI","timestamp":1788824504217}@@I do not" meets the bar equally.++}
 3. {--{"author":"Lauren's AI","timestamp":1788824504217}@@If they cannot name anything that would move them twenty points, take that seriously and ask what an unmovable number--}{++{"author":"Lauren's AI","timestamp":1788824504217}@@A number that jumps to 90 "because he said 90" gets exactly one push: whose inside view produced that number, and what++} is {--{"author":"Lauren's AI","timestamp":1788824504217}@@tracking.--}{++{"author":"Lauren's AI","timestamp":1788824504217}@@yours?++}
 
-On close: tell them their number gets revisited at module end, and give a brief calibration on what they have solid and what is still borrowed.
+On close: tell them their number gets revisited at module end, and give a brief calibration on what they have solid and what is still borrowed.{++{"author":"AI","timestamp":1788869418262}@@
+
+If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.++}
