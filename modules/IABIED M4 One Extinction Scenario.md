@@ -4,7 +4,6 @@ slug: iabied-u3
 title: "One Extinction Scenario"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings:
-  - "Chapter 6: We'd Lose"
   - "Coda"
 ---
 
