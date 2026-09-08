@@ -8,12 +8,12 @@ duration_minutes: 10
 ---
 #### Text
 content::
-Now that we have a grasp of the motivations and big-picture qualities of an AI verification regime, it’s time to turn to the specifics. What could a verifiable treaty actually look like—what provisions, requirements, suggestions, agreements should there be? Who are the relevant actors that the treaty depends upon, affects, constrains, and authorizes as verifiers?
+Now that we have a grasp of the motivations and big-picture qualities of an AI verification regime, it’s time to turn to the specifics. What could a verifiable treaty actually look like: what provisions, requirements, suggestions, agreements should there be? Who are the relevant actors that the treaty depends upon, affects, constrains, and authorizes as verifiers?
 
 :::callout {title="By the end of this module, you will be able to:" tone="blue"}
 1. Decompose a policy into its fundamental parts (the goal, the legal rule, and the verification claim, with its actors, objects, activities, and conditions) and distinguish what a treaty leaves explicit vs. intentionally implicit.
 2. Name the major public and private actors relevant to an international AI agreement, how they connect to each other, and locate each on the compute supply chain.
-3. Characterize each actor’s incentive structure—to comply, defect, hide, exaggerate, or free-ride.
+3. Characterize each actor’s incentive structure: to comply, defect, hide, exaggerate, or free-ride.
 4. Explain why verifiability is highest upstream in the supply chain (concentrated hardware, physical chokepoints) and lowest downstream (diffuse deployment).
 5. Identify the ambiguities, loopholes, and potential evasion strategies in real treaty provisions.
 6. Produce actor-aware written analysis: a report or briefing that accounts for its context, taking into account who produced the underlying information, and who will consume the output.
