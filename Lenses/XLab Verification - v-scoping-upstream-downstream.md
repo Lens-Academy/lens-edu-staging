@@ -82,7 +82,7 @@ The next exercise asks you to apply this directly. You will assemble a report fr
 \### The Context Distiller Exercise
 
 [[../Lenses/XLab Verification - v-context-distiller|The next page]] is that exercise. Four reports are on the table; you pick one and
-work the whole chain — clip the facts that would change what a reader does,
+work the whole chain: clip the facts that would change what a reader does,
 distil them, name who the report was built from and who reads it next, then
 thread each point to the readers who need it.
 
