@@ -27,7 +27,8 @@ tags: [wip]
   .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0; }
   .top { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; margin-bottom: 14px; }
   .progress { font-size: 12px; color: var(--muted); }
-  .grid { display: grid; gap: 12px; }
+  .grid { display: grid; gap: 12px; list-style: none; margin: 0; padding: 0; }
+  .grid > li { display: grid; }
   @media (min-width: 640px) { .grid { grid-template-columns: 1fr 1fr; } }
   .card {
     font: inherit; color: inherit; text-align: left; cursor: pointer;
@@ -79,7 +80,7 @@ tags: [wip]
   <span class="progress" id="progress"></span>
 </div>
 
-<div class="grid" id="grid" role="list"></div>
+<ul class="grid" id="grid" role="list"></ul>
 
 <div class="detail" id="detail" role="region" aria-live="polite"></div>
 <p class="done" id="done">All six profiles read.</p>
@@ -259,8 +260,8 @@ tags: [wip]
   }
 
   FIGURES.forEach(function (f) {
+    var item = el("li");
     var b = el("button", "card"); b.type = "button";
-    b.setAttribute("role", "listitem");
     b.setAttribute("aria-label", "View profile: " + f.name + ", " + f.role);
     var w = who(f); w.insertBefore(avatar(f, false), w.firstChild);
     b.appendChild(w);
@@ -271,7 +272,8 @@ tags: [wip]
     b.appendChild(cta);
     b.addEventListener("click", function () { openProfile(f.key); });
     cards[f.key] = b;
-    grid.appendChild(b);
+    item.appendChild(b);
+    grid.appendChild(item);
   });
 
   function summary() {

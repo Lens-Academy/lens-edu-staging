@@ -207,10 +207,13 @@ tags: [wip]
     easeEl.appendChild(b);
   });
 
+  // Learners often type their own full stop; trim one before appending ours.
+  function noStop(text) { return String(text == null ? "" : text).trim().replace(/\s*\.\s*$/, ""); }
+
   function summary() {
-    var goal = state.policy.trim() || "(not written yet)";
+    var goal = noStop(state.policy) || "(not written yet)";
     var lines = ["Side A (the goal): " + goal + "."];
-    if (state.flipped || state.faced) lines.push("Side B (the price): " + (state.price.trim() || "(not written yet)") + ".");
+    if (state.flipped || state.faced) lines.push("Side B (the price): " + (noStop(state.price) || "(not written yet)") + ".");
     if (!state.faced) {
       lines.push(state.flipped ? "The card is flipped to Side B; the learner has not faced the tradeoff yet." : "The card shows Side A; not flipped yet.");
     } else if (!state.ease) {
@@ -218,12 +221,12 @@ tags: [wip]
     } else {
       var e = easeByKey(state.ease);
       lines.push("Rated naming the price as: " + e.label + ". Reflection shown: " + e.line);
-      lines.push("Full policy: I support " + state.policy.trim() + " at the cost of " + state.price.trim() + ".");
+      lines.push("Full policy: I support " + noStop(state.policy) + " at the cost of " + noStop(state.price) + ".");
     }
     if (state.history.length) {
       var prev = state.history.map(function (h) {
         var he = easeByKey(h.ease);
-        return "I support " + h.policy + " at the cost of " + h.price + " (" + (he ? he.label.toLowerCase() : "unrated") + ")";
+        return "I support " + noStop(h.policy) + " at the cost of " + noStop(h.price) + " (" + (he ? he.label.toLowerCase() : "unrated") + ")";
       });
       lines.push("Earlier cards: " + prev.join("; ") + ".");
     }
@@ -269,9 +272,9 @@ tags: [wip]
       branchEl.textContent = chosen.line;
       fullEl.textContent = "";
       fullEl.appendChild(document.createTextNode("I support "));
-      fullEl.appendChild(el("b", null, state.policy));
+      fullEl.appendChild(el("b", null, noStop(state.policy)));
       fullEl.appendChild(document.createTextNode(" at the cost of "));
-      fullEl.appendChild(el("b", null, state.price));
+      fullEl.appendChild(el("b", null, noStop(state.price)));
       fullEl.appendChild(document.createTextNode("."));
     }
   }
