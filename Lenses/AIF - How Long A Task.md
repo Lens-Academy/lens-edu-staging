@@ -18,9 +18,7 @@ Let's assume we want to measure how close AI is to being able to do that. Later 
 
 By far the{>>{"author":"lauren (chrome@what)","timestamp":1787823523443}@@7:38:41<<} most common type of interaction with AIs is to describe a task and get a mostly-self-contained result. Among those tasks, a common type of task is making or changing software. Many of the tasks one would do as part of making software have a pretty clear success or fail criteria. So we can ask how big of a programming task the AI can do.
 
-{--{"author":"Lauren's AI","timestamp":1788772145974}@@METR is an independent organisation that runs those measurements. They test models--}{++{"author":"Lauren's AI","timestamp":1788772145974}@@The measurements in this lens come from METR, a group++} that {--{"author":"Lauren's AI","timestamp":1788772145974}@@labs give them access to, then publish their results.
-
-(Considering what effects that might or might not have on the alignment of--}{++{"author":"Lauren's AI","timestamp":1788772145974}@@gives AI models programming tasks and publishes how far the models get. The labs that make the models decide which models++} METR{--{"author":"Lauren's AI","timestamp":1788772145974}@@ as an organization is, for now, left as an exercise to the reader. We'll get to organizations later.)--}{++{"author":"Lauren's AI","timestamp":1788772145974}@@ can test.++}
+The measurements in this lens come from METR, a group that gives AI models programming tasks and publishes how far the models get. The labs that make the models decide which models METR can test.
 
 Their approach has three parts.
 
