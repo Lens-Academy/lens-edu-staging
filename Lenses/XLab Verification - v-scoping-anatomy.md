@@ -269,7 +269,7 @@ content:: Optional: Specimen 5 of 13. Place this text on the organ it implements
 > Inspectors shall not access, copy, or transmit model parameters, training data, or source code. Verification shall proceed through managed-access procedures and hardware attestation of workload properties.
 options::
 - The rule (Definitions, thresholds, scope, duration)
-- The claims (What parties must be able to prove — declared & undeclared)
+- The claims (What parties must be able to prove: declared & undeclared)
 - The evidence (Access, inspections, monitoring, timeliness)
 - [x] The confidentiality bargain (What the verifier must NOT see)
 - The adversary (The threat model provisions are written against)
@@ -296,7 +296,7 @@ content:: Optional: Specimen 6 of 13. Place this text on the organ it implements
 > Each State Party has the right to request an on-site challenge inspection of any facility or location in the territory or in any other place under the jurisdiction or control of any other State Party … and to have this inspection conducted anywhere without delay.
 options::
 - The rule (Definitions, thresholds, scope, duration)
-- The claims (What parties must be able to prove — declared & undeclared)
+- The claims (What parties must be able to prove: declared & undeclared)
 - [x] The evidence (Access, inspections, monitoring, timeliness)
 - The confidentiality bargain (What the verifier must NOT see)
 - The adversary (The threat model provisions are written against)
@@ -323,7 +323,7 @@ content:: Optional: Specimen 7 of 13. Place this text on the organ it implements
 > Upon a finding of non-compliance, Parties shall suspend the violating Party's access to covered chips and cloud compute, and the matter shall be referred to the Security Council.
 options::
 - The rule (Definitions, thresholds, scope, duration)
-- The claims (What parties must be able to prove — declared & undeclared)
+- The claims (What parties must be able to prove: declared & undeclared)
 - The evidence (Access, inspections, monitoring, timeliness)
 - The confidentiality bargain (What the verifier must NOT see)
 - The adversary (The threat model provisions are written against)
@@ -350,7 +350,7 @@ content:: Optional: Specimen 8 of 13. Place this text on the organ it implements
 > A Party may withdraw upon ninety days' notice if it decides that extraordinary events related to the subject matter of this Protocol have jeopardized its supreme interests.
 options::
 - The rule (Definitions, thresholds, scope, duration)
-- The claims (What parties must be able to prove — declared & undeclared)
+- The claims (What parties must be able to prove: declared & undeclared)
 - The evidence (Access, inspections, monitoring, timeliness)
 - The confidentiality bargain (What the verifier must NOT see)
 - The adversary (The threat model provisions are written against)
