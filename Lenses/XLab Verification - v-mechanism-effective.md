@@ -39,7 +39,7 @@ Before we dive in, {--{"author":"AI","timestamp":1788700027242}@@let’s first i
 | --- | --- |
 | Voluntary lab commitments, as self-reported evidence can hide much and proves little. | On-chip cryptographic attestation, which proves the specific claim about the specific workload. |
 
-**4. Durability.** How fast does the mechanism’s viability decay—from technical progress, adversary adaptation, or political change?
+**4. Durability.** How fast does the mechanism’s viability decay, from technical progress, adversary adaptation, or political change?
 
 | Low | High |
 | --- | --- |
