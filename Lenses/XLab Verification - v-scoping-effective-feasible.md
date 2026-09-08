@@ -211,9 +211,9 @@ content::
 
 **Compute controls.** Compute controls are the enforcement backbone, not the target; the question securitization asks is what that backbone must be strong enough to hold up. Design it for the halt and it serves every weaker bucket on the way.
 
-**Transparency and information-sharing.** Transparency is the scaffolding, not the target. Under a securitized framing you build the mechanism set that could support a halt — transparency is what it stands on along the way.
+**Transparency and information-sharing.** Transparency is the scaffolding, not the target. Under a securitized framing you build the mechanism set that could support a halt; transparency is what it stands on along the way.
 
-**Uncoordinated domestic regulation.** Securitization is precisely the move past ordinary domestic politics. A domestic design target leaves the existential problem — the international race — unsolved.
+**Uncoordinated domestic regulation.** Securitization is precisely the move past ordinary domestic politics. A domestic design target leaves the existential problem, the international race, unsolved.
 
 **Self-governance (status quo).** If you truly accept the existential framing, “trust me” is the one answer ruled out from the start. Verification exists to replace it with “check me.”
 :::{>>{"author":"Elias's AI","timestamp":1788016104215}@@Native reproduction of XLab's policy-scoping widget (src/lib/verification/data/policy-scoping.ts): the two scales, the eleven bucket cards with historical parallels, the 5x5 sort (as an Open question graded against the reference cells), the reference map, and the securitization exception. XLab's log notes the reference cells and rung scales are builder-authored apparatus awaiting owner review.<<}

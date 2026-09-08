@@ -13,7 +13,7 @@ Short reading pathways in game theory and international relations. Learners may 
 \## Strategic actors and credible commitments
 
 \### Strategic Thinking
-Sarwat Jahan and Ahmed Saber Mahmud (2015)
+Sarwat Jahan and Ahmed Saber Mahmud (2018)
 
   A short, nontechnical primer on players, strategies, payoffs, equilibrium,
   simultaneous and sequential moves, repeated games, and incomplete

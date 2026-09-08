@@ -259,14 +259,14 @@ content::
 - **Japan.** Equipment and specialty materials: several quieter chokepoints, and the same shape as the Netherlands. Its records matter to a verifier and its participation is voluntary.
 - **South Korea.** High-bandwidth memory is scarce, essential to frontier training, and therefore countable, which makes the jurisdiction over the firms that make it an evidence position, not just a trade one.
 - **ASML.** The most upstream supplier there is, and upstream of Baker’s chain of custody, which begins at manufacturing. The tightest chokepoint on the board holds evidence about nobody, which is the sharpest thing this frame does to the roster.
-- **TSMC.** The chain of custody starts where the die is made. How many leading-edge parts exist at all, and who they were made for, is a fact only the fab holds — which is the same thing the lesson means by the “single tightest physical chokepoint in the system”, read as evidence rather than as leverage.
-- **NVIDIA.** Upstream of the run, not in it, and not a Prover for anybody else’s run. What it decides is whether accelerators ship with the security features a Verifier would read — which is why it holds evidence about two different actors and no declaration of its own here.
+- **TSMC.** The chain of custody starts where the die is made. How many leading-edge parts exist at all, and who they were made for, is a fact only the fab holds, which is the same thing the lesson means by the “single tightest physical chokepoint in the system”, read as evidence rather than as leverage.
+- **NVIDIA.** Upstream of the run, not in it, and not a Prover for anybody else’s run. What it decides is whether accelerators ship with the security features a Verifier would read, which is why it holds evidence about two different actors and no declaration of its own here.
 
 **Verifies**
 
-- **BIS.** A government body receiving and checking declarations is exactly Baker’s Verifier, and the lesson calls it the “de facto compute-governance agency today”. Its own instrument — export control — is enforcement, which Baker puts outside the frame on purpose.
+- **BIS.** A government body receiving and checking declarations is exactly Baker’s Verifier, and the lesson calls it the “de facto compute-governance agency today”. Its own instrument, export control, is enforcement, which Baker puts outside the frame on purpose.
 - **Intelligence community.** A Verifier that also produces its own evidence. Baker gives national intelligence every subgoal at once, and it is the only actor on this board that can reach a facility nobody ever declared.
-- **California.** It made frontier developers report, which is a declaration regime. Verification is what happens to a declaration afterwards — so on this map it is a Verifier that has, as yet, nothing to check the reports against.
+- **California.** It made frontier developers report, which is a declaration regime. Verification is what happens to a declaration afterwards, so on this map it is a Verifier that has, as yet, nothing to check the reports against.
 - **No AI verification body.** The paper allows two kinds of Verifier: “The Verifier could be a government body or a third party.” Every government body on this ring belongs to one signatory. The third party is this row, and it is empty — no chip registry, no challenge-inspection right at a data centre, no procedure for resolving an allegation. It is drawn because a ring with only one party’s institutions on it is a claim, and the claim is false.
 
 **Outside the declaration**
