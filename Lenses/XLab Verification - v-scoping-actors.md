@@ -147,7 +147,7 @@ You now have three questions to ask of any actor you meet in a proposal, a news 
 
 **The brief.** Suppose the United States and China sign an agreement tomorrow: no training runs above some compute threshold for three months. The section asked who has to change their behavior on Wednesday morning. The map asks the question after it: when the three months are up, who could show that they did, and who could show that somebody did not?
 
-**Four rings: what part of a declaration you play.** A verification regime runs on declarations — somebody states what they own and what they did with it, somebody else establishes the statement is true and complete. Every actor is somewhere in that.
+**Four rings: what part of a declaration you play.** A verification regime runs on declarations: somebody states what they own and what they did with it, somebody else establishes the statement is true and complete. Every actor is somewhere in that.
 
 \### 1. Study
 
@@ -188,7 +188,7 @@ Study the roster, then close it. Everything after it is answered from memory.
 
 #### Question: Open
 id:: 3df5fa92-d84b-4198-af75-e744dc299b53
-content:: Take one actor: a cloud provider. From memory, write down everything it can do inside a verification regime — and what it wants while doing it.
+content:: Take one actor: a cloud provider. From memory, write down everything it can do inside a verification regime, and what it wants while doing it.
 assessment-instructions:: Six items make a full answer; score about 16 points each. Roles: chokepoint controller (it can suspend a customer's access this afternoon); information holder (its logs and billing records are the richest picture anywhere of who is computing what); enforcement authority (give it know-your-customer duties and it becomes the regime's front-line cop); evasion pathway (its reseller chains and mislabeled workloads are precisely how a determined actor reaches compute it should not have). Postures: comply and hide (Table 4's cloud row: "Comply and hide at once. Natural monitors, reluctant police."). Credit synonyms and paraphrases that capture the same capability or posture. No generic praise.{>>{"author":"Elias's AI","timestamp":1788357101597}@@Course-creator note: the scoring rules in this lens are Lens-authored; XLab's widget only counts key matches and reversals.<<}
 feedback-instructions:: One-turn mirror: name which of the six the learner got, list the ones missed with their one-line gloss, and close by telling them to move on. No re-teaching, no follow-up question.
 
@@ -209,11 +209,11 @@ content::
 id:: d119e50f-5b65-4d75-836e-e844943abfe7
 content:: A pause agreement forbids training runs above a compute threshold. When you draw this map, what goes in the centre?
 options::
-- [x] The regulated activity itself — a training run above the threshold.
+- [x] The regulated activity itself: a training run above the threshold.
 - The states that signed the agreement.
 - The frontier labs the obligations land on.
 - The chips the threshold is counted in.
-feedback-instructions:: Give XLab's reasoning for the option chosen. The activity: "The map is of a rule, and a rule is about an act. It is also what the verification literature centres: Baker's framework takes the approach of compute accounting, which is the same act said in compute. Put it in the centre and every ring becomes an answer to one question — what part do you play in accounting for this run?" The signatories: "'Not the people who signed. Governments do not train frontier models.' Centre them and the map says the treaty regulates its own signatories rather than an activity. Then watch for what looks like a contradiction two steps from now: the signatories do end up on the innermost RING, because in an international agreement the party that owes the declaration is the government. Owing a declaration and performing the act are different things, and the centre is the act." The labs: "Close, and it is why they sit on the first ring. But the labs are who does the act, not the act — and a map centred on them has nowhere to put a run that happens somewhere else, under someone else's name." The chips: "The chips are what makes the act countable from outside, which is a property of the mechanism rather than of the rule. Centre the map here and every institution on it becomes an afterthought." Two or three sentences, no praise.
+feedback-instructions:: Give XLab's reasoning for the option chosen. The activity: "The map is of a rule, and a rule is about an act. It is also what the verification literature centres: Baker's framework takes the approach of compute accounting, which is the same act said in compute. Put it in the centre and every ring becomes an answer to one question: what part do you play in accounting for this run?" The signatories: "'Not the people who signed. Governments do not train frontier models.' Centre them and the map says the treaty regulates its own signatories rather than an activity. Then watch for what looks like a contradiction two steps from now: the signatories do end up on the innermost RING, because in an international agreement the party that owes the declaration is the government. Owing a declaration and performing the act are different things, and the centre is the act." The labs: "Close, and it is why they sit on the first ring. But the labs are who does the act, not the act — and a map centred on them has nowhere to put a run that happens somewhere else, under someone else's name." The chips: "The chips are what makes the act countable from outside, which is a property of the mechanism rather than of the rule. Centre the map here and every institution on it becomes an afterthought." Two or three sentences, no praise.
 
 #### Text
 content::
