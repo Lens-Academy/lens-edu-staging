@@ -24,9 +24,9 @@ Without looking back: what are the two failure modes, and how does each begin?
 
 Then, in one sentence: which of the two, if either, did you construct yourself in the pre-test?
 
-{++{"author":"Lauren's AI","timestamp":1788789631205}@@max-time:: 4:00
+max-time:: 4:00
 
-++}assessment-instructions:: The student has just read Christiano's "What failure looks like" and previously attempted to construct a no-schemer catastrophe themselves.
+assessment-instructions:: The student has just read Christiano's "What failure looks like" and previously attempted to construct a no-schemer catastrophe themselves.
 
 Key content:
 - Part I, "You get what you measure": we can optimize hard for measurable proxies, so those proxies come to determine what gets built, funded, and elected. The proxies come apart from what we actually wanted, gradually and across every domain at once. Human ability to correct this erodes because the systems that would identify the problem are themselves selected on the same proxies.
@@ -60,9 +60,9 @@ How did this land against what you expected?
 
 If the reading matched your pre-test answer, say what you now think you were already relying on that you had not made explicit. If it did not, say where the divergence is: did he include something you ruled out, or rule out something you leaned on?
 
-{++{"author":"Lauren's AI","timestamp":1788789634390}@@max-time:: 5:00
+max-time:: 5:00
 
-++}assessment-instructions:: A processing phase. The student is comparing a reading against a position they committed to before reading it. Help them articulate the comparison; do not resolve it.
+assessment-instructions:: A processing phase. The student is comparing a reading against a position they committed to before reading it. Help them articulate the comparison; do not resolve it.
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
 
@@ -93,9 +93,9 @@ The objection sounds reasonable and it is wrong in a specific way. Find it.
 
 What is it about this particular failure that defeats the correction it assumes?
 
-{++{"author":"Lauren's AI","timestamp":1788789635464}@@max-time:: 10:00
+max-time:: 10:00
 
-++}assessment-instructions:: The student has read Christiano and previously built their own no-schemer mechanism. This question is a deliberate wedge, not the test question. It hands them a plausible objection whose flaw is the mechanism they need to articulate.
+assessment-instructions:: The student has read Christiano and previously built their own no-schemer mechanism. This question is a deliberate wedge, not the test question. It hands them a plausible objection whose flaw is the mechanism they need to articulate.
 
 Learning outcome for this lens: explain how interaction between separately-benign optimizers produces an outcome no part selected, and identify the structural conditions the argument requires.
 
