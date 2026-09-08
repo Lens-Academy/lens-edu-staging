@@ -248,7 +248,7 @@ tags: [wip]
   var routeByN = {};
   ROUTES.forEach(function (r) { routeByN[r.n] = r; });
 
-  var state = { q: "", sort: "sectionb", view: "list", open: [], compare: [], seen: [] };
+  var state = { q: "", actor: "", sort: "sectionb", view: "list", open: [], compare: [], seen: [] };
   var completed = false;
 
   var listEl = document.getElementById("list");
@@ -271,27 +271,42 @@ tags: [wip]
   function tokens(str) { return str.split(";").map(function (t) { return t.trim(); }).filter(Boolean); }
   function norm(s) { return s.charAt(0).toLowerCase() + s.slice(1); }
 
+  // The exact actor tokens a route carries, from its own actor list and its score row.
+  function routeActors(r) {
+    var set = {};
+    tokens(r.actors).forEach(function (t) { set[norm(t)] = true; });
+    var s = scoredByN[r.n];
+    if (s) tokens(s.who).forEach(function (t) { set[norm(t)] = true; });
+    return set;
+  }
+
   // Actor chips: the actor names that recur across the most routes, computed from the data.
   function actorChips() {
     var counts = {};
     ROUTES.forEach(function (r) {
-      var set = {};
-      tokens(r.actors).forEach(function (t) { set[norm(t)] = true; });
-      var s = scoredByN[r.n];
-      if (s) tokens(s.who).forEach(function (t) { set[norm(t)] = true; });
-      Object.keys(set).forEach(function (k) { counts[k] = (counts[k] || 0) + 1; });
+      Object.keys(routeActors(r)).forEach(function (k) { counts[k] = (counts[k] || 0) + 1; });
     });
     return Object.keys(counts).filter(function (k) { return counts[k] >= 3; })
       .sort(function (a, b) { return counts[b] - counts[a] || a.localeCompare(b); }).slice(0, 8)
       .map(function (k) { return { text: k, count: counts[k] }; });
   }
 
+  // A chip is an exact actor filter, over the same tokens the chip count was computed from.
+  // The text box stays a substring search across name, layers, actors and who.
   function matches(r) {
+    if (state.actor && !Object.prototype.hasOwnProperty.call(routeActors(r), state.actor)) return false;
     var q = state.q.trim().toLowerCase();
     if (!q) return true;
     var s = scoredByN[r.n];
     var hay = [r.name, r.layers, r.actors, s ? s.who : ""].join(" | ").toLowerCase();
     return hay.indexOf(q) !== -1;
+  }
+
+  function filterLabel() {
+    var parts = [];
+    if (state.actor) parts.push("actor “" + state.actor + "”");
+    if (state.q.trim()) parts.push("“" + state.q.trim() + "”");
+    return parts.join(" and ");
   }
 
   function sorted(routes) {
@@ -319,7 +334,7 @@ tags: [wip]
     var lines = [];
     lines.push("Evasion route explorer (Section B). View: " + (state.view === "matrix" ? "score matrix" : "route cards") +
       ", sorted by " + SORTS.filter(function (s) { return s.key === state.sort; })[0].label.replace(" (high first)", "") + ".");
-    lines.push(state.q.trim() ? "Filter \"" + state.q.trim() + "\": " + vis.length + " of 10 routes shown (" + vis.map(function (r) { return r.n + ". " + r.name; }).join("; ") + ")." : "No filter; all 10 routes shown.");
+    lines.push(filterLabel() ? "Filter " + filterLabel() + ": " + vis.length + " of 10 routes shown (" + vis.map(function (r) { return r.n + ". " + r.name; }).join("; ") + ")." : "No filter; all 10 routes shown.");
     lines.push("Routes opened so far: " + (state.seen.length ? state.seen.slice().sort(function (a, b) { return a - b; }).map(function (n) { return n + ". " + routeByN[n].name; }).join("; ") : "none") +
       " (" + SCORED.filter(function (s) { return has(state.seen, s.n); }).length + " of 7 scored routes).");
     if (state.compare.length) {
@@ -353,6 +368,7 @@ tags: [wip]
     render(); persist();
   }
   function setFilter(q) { state.q = q; render(); persist(); }
+  function setActor(a) { state.actor = a; render(); persist(); }
 
   function scoreBlock(s, key) {
     var c = CRITERIA.filter(function (x) { return x.key === key; })[0];
@@ -495,22 +511,22 @@ tags: [wip]
     chipsEl.textContent = "";
     chipsEl.appendChild(el("span", "lbl", "Actors that recur:"));
     actorChips().forEach(function (c) {
-      var active = state.q.trim().toLowerCase() === c.text.toLowerCase();
+      var active = state.actor === c.text;
       var b = el("button", "chip" + (active ? " is-active" : ""), (active ? "✓ " : "") + c.text + " (" + c.count + ")"); b.type = "button";
       b.setAttribute("aria-pressed", active ? "true" : "false");
-      b.addEventListener("click", function () { qEl.value = active ? "" : c.text; setFilter(qEl.value); });
+      b.addEventListener("click", function () { setActor(active ? "" : c.text); });
       chipsEl.appendChild(b);
     });
   }
 
   function renderStatus(vis) {
     statusEl.textContent = "";
-    statusEl.appendChild(el("span", null, vis.length + " of 10 routes shown" + (state.q.trim() ? " for “" + state.q.trim() + "”" : "") + "."));
+    statusEl.appendChild(el("span", null, vis.length + " of 10 routes shown" + (filterLabel() ? " for " + filterLabel() : "") + "."));
     var seenScored = SCORED.filter(function (s) { return has(state.seen, s.n); }).length;
     statusEl.appendChild(el("span", seenScored === SCORED.length ? "done" : "", seenScored === SCORED.length ? "✓ All seven scored routes read." : seenScored + " of 7 scored routes read."));
-    if (state.q.trim()) {
+    if (filterLabel()) {
       var clr = el("button", "chip", "Clear filter"); clr.type = "button";
-      clr.addEventListener("click", function () { qEl.value = ""; setFilter(""); });
+      clr.addEventListener("click", function () { qEl.value = ""; state.actor = ""; setFilter(""); });
       statusEl.appendChild(clr);
     }
   }
@@ -537,6 +553,7 @@ tags: [wip]
   function hydrate(saved, meta) {
     if (saved && typeof saved === "object") {
       if (typeof saved.q === "string") state.q = saved.q;
+      if (typeof saved.actor === "string" && actorChips().some(function (c) { return c.text === saved.actor; })) state.actor = saved.actor;
       if (SORTS.some(function (s) { return s.key === saved.sort; })) state.sort = saved.sort;
       if (saved.view === "matrix" || saved.view === "list") state.view = saved.view;
       ["open", "compare", "seen"].forEach(function (k) {

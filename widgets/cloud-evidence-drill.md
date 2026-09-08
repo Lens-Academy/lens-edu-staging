@@ -432,8 +432,9 @@ tags: [wip]
     b.appendChild(box); b.appendChild(el("span", null, text));
     return b;
   }
-  function selectBox(options, value, placeholder, disabled, onChange) {
+  function selectBox(options, value, placeholder, disabled, onChange, label) {
     var s = el("select"), o0 = el("option", null, placeholder); o0.value = ""; s.appendChild(o0);
+    s.setAttribute("aria-label", label || placeholder);
     options.forEach(function (opt) { var o = el("option", null, opt.text); o.value = opt.value; s.appendChild(o); });
     s.value = value || ""; s.disabled = disabled;
     s.addEventListener("change", function () { onChange(s.value); });
@@ -544,7 +545,7 @@ tags: [wip]
     MATCH_ROWS.forEach(function (row) {
       var card = el("label", "card"); card.style.display = "block";
       var t = el("span", null, row.observable); t.style.fontWeight = "500"; t.style.display = "block"; card.appendChild(t);
-      card.appendChild(selectBox(opts, a[row.id], "Choose a conclusion", done, function (val) { if (val) a[row.id] = val; else delete a[row.id]; change(i); }));
+      card.appendChild(selectBox(opts, a[row.id], "Choose a conclusion", done, function (val) { if (val) a[row.id] = val; else delete a[row.id]; change(i); }, "Choose a conclusion for: " + row.observable));
       grid.appendChild(card);
     });
     root.appendChild(grid);
@@ -567,7 +568,7 @@ tags: [wip]
     PIPELINE_GAPS.forEach(function (gap) {
       var row = el("label", "gap-row");
       row.appendChild(el("span", null, gap.before));
-      row.appendChild(selectBox(opts, a[gap.id], "Choose a term", done, function (val) { if (val) a[gap.id] = val; else delete a[gap.id]; change(i); }));
+      row.appendChild(selectBox(opts, a[gap.id], "Choose a term", done, function (val) { if (val) a[gap.id] = val; else delete a[gap.id]; change(i); }, "Choose a term for: " + gap.before));
       rows.appendChild(row);
     });
     box.appendChild(rows); root.appendChild(box);
@@ -639,7 +640,7 @@ tags: [wip]
       CONCEPT_ROWS.forEach(function (row) {
         var card = el("label", "card"); card.style.display = "block";
         card.appendChild(el("span", null, row.description));
-        card.appendChild(selectBox(opts, a[row.id], "Choose a mechanism", false, function (val) { if (val) a[row.id] = val; else delete a[row.id]; change(i); }));
+        card.appendChild(selectBox(opts, a[row.id], "Choose a mechanism", false, function (val) { if (val) a[row.id] = val; else delete a[row.id]; change(i); }, "Choose a mechanism for: " + row.description));
         grid.appendChild(card);
       });
       root.appendChild(grid);

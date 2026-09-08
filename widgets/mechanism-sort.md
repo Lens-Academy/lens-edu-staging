@@ -245,11 +245,7 @@ tags: [wip]
   function rungIndex(v) { return Math.min(4, Math.floor(v * 5)); }
   function valuesOf(id) { return store.values[id] || {}; }
   function isComplete(v) { return METRICS.every(function (m) { return typeof v[m.key] === "number"; }); }
-  function laneStagger(id) {
-    var idx = -1;
-    for (var i = 0; i < MECHANISMS.length; i++) if (MECHANISMS[i].id === id) idx = i;
-    return ((idx % 5) - 2) * 8;
-  }
+  var MARK_STEP = 15;
   function shape(layer, extraClass) {
     var s = el("span", "shape " + layer + (extraClass ? " " + extraClass : ""));
     s.setAttribute("aria-hidden", "true");
@@ -442,22 +438,36 @@ tags: [wip]
       head.appendChild(el("span", "name", mt.name));
       head.appendChild(el("span", "ends", mt.rungs[0] + " → " + mt.rungs[4]));
       block.appendChild(head);
+      var rungCounts = [0, 0, 0, 0, 0];
+      var spots = [];
+      ids.forEach(function (id) {
+        var val = valuesOf(id)[mt.key];
+        if (typeof val !== "number") return;
+        var r = rungIndex(val);
+        spots.push({ id: id, val: val, rung: r, rank: rungCounts[r] });
+        rungCounts[r] += 1;
+      });
+      var maxStack = 1;
+      for (var ri = 0; ri < rungCounts.length; ri++) if (rungCounts[ri] > maxStack) maxStack = rungCounts[ri];
       var lane = el("div", "lane");
+      lane.style.height = Math.max(56, maxStack * MARK_STEP + 8) + "px";
       lane.setAttribute("role", "group");
       lane.setAttribute("aria-label", mt.name + " lane, " + mt.rungs[0] + " on the left to " + mt.rungs[4] + " on the right");
       lane.appendChild(el("div", "rail"));
       var field = el("div", "field");
-      ids.forEach(function (id) {
+      spots.forEach(function (spot) {
+        var id = spot.id;
         var m = mechById(id);
-        var val = valuesOf(id)[mt.key];
-        if (typeof val !== "number") return;
+        var val = spot.val;
+        var stacked = rungCounts[spot.rung];
+        var offset = (spot.rank - (stacked - 1) / 2) * MARK_STEP;
         var b = el("button", "mark" + (selected === id ? " is-selected" : ""));
         b.type = "button";
         b.setAttribute("aria-label", m.title + ", " + mt.rungs[rungIndex(val)] + ", " + Math.round(val * 100));
         b.setAttribute("aria-pressed", selected === id ? "true" : "false");
         b.title = m.short + ": " + mt.rungs[rungIndex(val)];
         b.style.left = (val * 100) + "%";
-        b.style.top = "calc(50% + " + laneStagger(id) + "px)";
+        b.style.top = "calc(50% + " + offset + "px)";
         b.appendChild(shape(m.layer));
         b.addEventListener("click", function () { select(id); });
         field.appendChild(b);

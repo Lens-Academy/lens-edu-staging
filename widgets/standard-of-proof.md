@@ -30,6 +30,7 @@ tags: [wip]
   li { margin: 2px 0; }
   .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0; }
   .card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: #fff; margin-top: 12px; }
+  [hidden] { display: none !important; }
   .allegation { border-color: var(--accent); background: var(--surface); }
   .allegation p.quote { margin-top: 6px; font-weight: 500; font-size: 15px; }
   .intro { margin-top: 16px; max-width: 44rem; }
@@ -143,7 +144,7 @@ tags: [wip]
     <p class="keynote" id="key-foot"></p>
   </section>
 
-  <section class="card">
+  <section class="card" id="assessor">
     <p class="eyebrow">Assessor</p>
     <p class="body" id="score-text">Send your four defences to the assessor. Each docket is graded against the marking key above.</p>
     <ul class="scores plain" id="scores"></ul>
@@ -421,6 +422,7 @@ tags: [wip]
   var finalCount = document.getElementById("final-count");
   var transferTa = document.getElementById("transfer");
   var scoreBtn = document.getElementById("score");
+  var assessorEl = document.getElementById("assessor");
   var feedbackBtn = document.getElementById("feedback");
   var scoreText = document.getElementById("score-text");
   var scoresEl = document.getElementById("scores");
@@ -447,7 +449,10 @@ tags: [wip]
     submitBtn.disabled = state.submitted || !ready();
     resetBtn.hidden = !state.submitted;
     resetBtn.disabled = !state.submitted;
-    scoreBtn.disabled = !state.submitted;
+    var hasAssessor = !!(window.Lens && Lens.submit);
+    assessorEl.hidden = !hasAssessor;
+    scoreBtn.hidden = !hasAssessor;
+    scoreBtn.disabled = !hasAssessor || !state.submitted;
     feedbackBtn.disabled = feedbackBtn.hidden;
     afterEl.classList.toggle("is-visible", state.submitted);
 
