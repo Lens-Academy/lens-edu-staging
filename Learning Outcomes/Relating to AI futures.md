@@ -17,6 +17,7 @@ id:: 07be3052-f86d-4ae7-8f95-33134b0b9cd8
 
 #### Question
 content:: Among these common first steps, (Learn more, Talk to people in the field, Help spread understanding, Apply for a program or fellowship, Engage politically or institutionally, and Donate), which seem most interesting to you personally?
+assessment-instructions:: This is a personal-preference question. Never grade which options the student picks; every option is equally valid. Check that the student (1) names at least one of the listed first steps, or a clearly comparable step of their own, and (2) says something about why it appeals to them that is tied to their own situation, skills, or interests rather than a generic endorsement. Award 100 when a choice is identified and the reason is specific to this student; 70 to 90 when a choice is named with a thin or generic reason; 30 to 60 when the answer is on topic but names no recognizable option and no reason; 0 to 20 only for an empty, off topic, or non responsive answer. Be generous with honest short answers; brevity is not a fault, and "none of these appeal to me" scores full marks when the student says why.
 enforce-voice:: true
 
 #### Question
