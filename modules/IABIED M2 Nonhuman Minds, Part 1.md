@@ -1,12 +1,12 @@
 ---
 id: ae539bbd-3ab0-4ff1-8eeb-a90edf5b2edb
 slug: iabied-u1
-title: {--{"author":"AI","timestamp":1788839661344}@@Learning to Want--}{++{"author":"AI","timestamp":1788839661344}@@"Nonhuman Minds, Part 1"++}
+title: "Nonhuman Minds, Part 1"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings:
-  - "Chapter {--{"author":"AI","timestamp":1788839661344}@@3: Learning to Want"--}{++{"author":"AI","timestamp":1788839661344}@@1: Humanity's Special Power"++}
-  - "Chapter {--{"author":"AI","timestamp":1788839661344}@@4: You Don't Get What You Train For"--}{++{"author":"AI","timestamp":1788839661344}@@2: Grown, Not Crafted"
-  - "Chapter 3: Learning to Want"++}
+  - "Chapter 1: Humanity's Special Power"
+  - "Chapter 2: Grown, Not Crafted"
+  - "Chapter 3: Learning to Want"
 ---
 
 # Submodule: Welcome
