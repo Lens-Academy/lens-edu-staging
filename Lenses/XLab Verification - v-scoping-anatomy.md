@@ -186,7 +186,7 @@ content:: Optional: Specimen 2 of 13. Place this text on the organ it implements
 > Each Party shall have the right to conduct eighteen short-notice, on-site inspections of the other Party's declared facilities each year.
 options::
 - The rule (Definitions, thresholds, scope, duration)
-- The claims (What parties must be able to prove — declared & undeclared)
+- The claims (What parties must be able to prove: declared & undeclared)
 - [x] The evidence (Access, inspections, monitoring, timeliness)
 - The confidentiality bargain (What the verifier must NOT see)
 - The adversary (The threat model provisions are written against)
@@ -213,7 +213,7 @@ content:: Optional: Specimen 3 of 13. Place this text on the organ it implements
 > This pause should be public and verifiable, and include all key actors.
 options::
 - The rule (Definitions, thresholds, scope, duration)
-- The claims (What parties must be able to prove — declared & undeclared)
+- The claims (What parties must be able to prove: declared & undeclared)
 - The evidence (Access, inspections, monitoring, timeliness)
 - The confidentiality bargain (What the verifier must NOT see)
 - The adversary (The threat model provisions are written against)
@@ -242,7 +242,7 @@ content:: Optional: Specimen 4 of 13. Place this text on the organ it implements
 > Assurance requires establishing two things: that declared facilities are running only permitted workloads, and that no undeclared facilities or chip stockpiles exist.
 options::
 - The rule (Definitions, thresholds, scope, duration)
-- [x] The claims (What parties must be able to prove — declared & undeclared)
+- [x] The claims (What parties must be able to prove: declared & undeclared)
 - The evidence (Access, inspections, monitoring, timeliness)
 - The confidentiality bargain (What the verifier must NOT see)
 - The adversary (The threat model provisions are written against)
