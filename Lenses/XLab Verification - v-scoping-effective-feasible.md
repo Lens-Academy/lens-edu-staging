@@ -190,7 +190,7 @@ Two reference thresholds worth carrying: EU AI Act Art. 51 presumes systemic ris
 
 Ordinary balancing weighs effectiveness against feasibility. **Securitization** breaks the scale: if ASI development is an existential threat, nothing can be traded against survival. Accept that framing, and one bucket becomes the **design target for verification mechanisms**. Which?
 
-*Securitization: treating an issue as an existential security matter, lifting it out of normal political balancing — because nothing can be traded against survival. A strong move with a history of abuse, which is why the threat model must be argued, not stipulated.*
+*Securitization: treating an issue as an existential security matter, lifting it out of normal political balancing, because nothing can be traded against survival. A strong move with a history of abuse, which is why the threat model must be argued, not stipulated.*
 
 #### Question: Choice
 id:: 3bfd8e5c-88d3-499f-accc-83458f7ec368
@@ -220,7 +220,7 @@ content::
 
 #### Text
 content::
-**Design for the hardest case.** Verification strong enough to support a full pause — chip registries, compute metering, inspection rights — supports every weaker bucket for free. The reverse is not true. That is why this track studies verification against the pause, even if what gets signed first is transparency.
+**Design for the hardest case.** Verification strong enough to support a full pause (chip registries, compute metering, inspection rights) supports every weaker bucket for free. The reverse is not true. That is why this track studies verification against the pause, even if what gets signed first is transparency.
 
 #### Question: Open
 id:: fbdb0b00-1038-4943-a043-8c2e8d8242be
