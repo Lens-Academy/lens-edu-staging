@@ -61,7 +61,7 @@ The typo guard at course.ts now contains-matches instead of prefix-matching /^su
 
 # Module: [[../modules/IABIED M5 Facing The Challenge, Part 1]]
 
-# Meeting: Facing the Challenge, part 1
+# Meeting: Facing the Challenge, Part 1
 meeting-doc-template:: https://docs.google.com/document/d/1dW_VlZoAn6eLR0_ZY8XvQvRoVvr51a23XAXMAnH_bSI/edit
 survey:: [[../surveys/AIRF Meeting 4 Impact Survey v2]] {>>{"author":"Turner's AI","timestamp":1788221486588}@@Repointed 2026-08-31 from AIRF Weekly Survey to a new meeting-4-only file, following the exact pattern used for Session 3 and Session 5. Reason: Compute Verification starts 7 Sep with zero navigators, and the session-4 surveys are the widest remaining recruiting channel before it does. AIRF Weekly Survey is shared by meetings 2 and 4, so appending the plugs to it in place would have put them on meeting 2 as well. AIRF Session 4 Survey is a byte-for-byte copy of AIRF Weekly Survey with a two-link block prepended, so every existing question keeps its key, wording and order and the pre/post comparison with Session 1 is untouched. Meeting 2 still points at AIRF Weekly Survey and was not touched.
 
