@@ -267,19 +267,19 @@ content::
 - **BIS.** A government body receiving and checking declarations is exactly Baker’s Verifier, and the lesson calls it the “de facto compute-governance agency today”. Its own instrument, export control, is enforcement, which Baker puts outside the frame on purpose.
 - **Intelligence community.** A Verifier that also produces its own evidence. Baker gives national intelligence every subgoal at once, and it is the only actor on this board that can reach a facility nobody ever declared.
 - **California.** It made frontier developers report, which is a declaration regime. Verification is what happens to a declaration afterwards, so on this map it is a Verifier that has, as yet, nothing to check the reports against.
-- **No AI verification body.** The paper allows two kinds of Verifier: “The Verifier could be a government body or a third party.” Every government body on this ring belongs to one signatory. The third party is this row, and it is empty — no chip registry, no challenge-inspection right at a data centre, no procedure for resolving an allegation. It is drawn because a ring with only one party’s institutions on it is a claim, and the claim is false.
+- **No AI verification body.** The paper allows two kinds of Verifier: “The Verifier could be a government body or a third party.” Every government body on this ring belongs to one signatory. The third party is this row, and it is empty: no chip registry, no challenge-inspection right at a data centre, no procedure for resolving an allegation. It is drawn because a ring with only one party’s institutions on it is a claim, and the claim is false.
 
 **Outside the declaration**
 
 - **Proxies.** A declaration cannot cover a name that exists to “break the link between a name and an activity”. They are Subgoal 2.B in person: the undeclared cluster the whole second half of the framework was built to find.
-- **Deployers.** Outside every declaration for the opposite reason — below the threshold. Baker defines large-scale in thousands of chips over months, so millions of actors who “benefit from safety and bear none of its costs” are outside the regime by construction rather than by evasion.
+- **Deployers.** Outside every declaration for the opposite reason: below the threshold. Baker defines large-scale in thousands of chips over months, so millions of actors who “benefit from safety and bear none of its costs” are outside the regime by construction rather than by evasion.
 :::
 
 \### 5. What the finished map says
 
-Read your rings from the inside out. Exactly two actors on this board owe anybody a declaration; everything outside them either holds evidence about that declaration, or checks it, or is not covered by any declaration at all. A verification regime is a much smaller object than the map of who matters — most of this board it does not reach, and half of it cannot help.
+Read your rings from the inside out. Exactly two actors on this board owe anybody a declaration; everything outside them either holds evidence about that declaration, or checks it, or is not covered by any declaration at all. A verification regime is a much smaller object than the map of who matters: most of this board it does not reach, and half of it cannot help.
 
-Now read the colours across the rings instead of around them. Roles do not stay in their band — the cloud provider holds four of them at once, and the ring it sits on tells you none of the four. The section gives you three questions to ask of any actor: where does it sit on the chain (position, Table 4, and the map in 1.2.1 is where you practise it), what can it do inside a regime (roles), what does it want today (posture). These rings are a fourth, and a narrower one: not where an actor sits, but what part it plays in checking a declaration. All four cut across each other, which is why no single one of them is the map.
+Now read the colours across the rings instead of around them. Roles do not stay in their band: the cloud provider holds four of them at once, and the ring it sits on tells you none of the four. The section gives you three questions to ask of any actor: where does it sit on the chain (position, Table 4, and the map in 1.2.1 is where you practise it), what can it do inside a regime (roles), what does it want today (posture). These rings are a fourth, and a narrower one: not where an actor sits, but what part it plays in checking a declaration. All four cut across each other, which is why no single one of them is the map.
 
 The second-order question (take one actor off the board) and the three optional written answers follow in [[../Lenses/XLab Verification - v-actor-edges|1.2.2]], after the edges are drawn on this board.
 
