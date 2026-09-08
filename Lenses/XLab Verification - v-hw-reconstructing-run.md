@@ -33,7 +33,7 @@ Y. Shavit, *What Does It Take to Catch a Chinchilla? Verifying Rules on Large-Sc
 Proof-of-learning research shows both the promise and fragility of checkpoint-based verification. Jia and colleagues proposed proofs based on logged intermediate states. Subsequent work demonstrated adversarial constructions and serious weaknesses in the original approach. Choi, Shavit, and Duvenaud later proposed a broader toolkit for verifying claims about training data, while explicitly treating its tests as heuristic and noting substantial confidentiality and access assumptions.
 
 :::callout {title="Sources" tone="neutral" collapse="closed"}
-H. Jia et al., *Proof-of-Learning: Definitions and Practice* — [arXiv:2103.05633](https://arxiv.org/abs/2103.05633), 2021. R. Zhang et al., *Adversarial Examples for Proof-of-Learning* — [arXiv:2108.09454](https://arxiv.org/abs/2108.09454), IEEE Symposium on Security and Privacy, 2022. C. Fang et al., *Proof-of-Learning Is Currently More Broken Than You Think* — [arXiv:2208.03567](https://arxiv.org/abs/2208.03567), revised 2023. J. Choi, Y. Shavit, and D. Duvenaud, *Tools for Verifying Neural Models’ Training Data* — [arXiv:2307.00682](https://arxiv.org/abs/2307.00682), 2023.
+H. Jia et al., *Proof-of-Learning: Definitions and Practice*, [arXiv:2103.05633](https://arxiv.org/abs/2103.05633), 2021. R. Zhang et al., *Adversarial Examples for Proof-of-Learning*, [arXiv:2108.09454](https://arxiv.org/abs/2108.09454), IEEE Symposium on Security and Privacy, 2022. C. Fang et al., *Proof-of-Learning Is Currently More Broken Than You Think*, [arXiv:2208.03567](https://arxiv.org/abs/2208.03567), revised 2023. J. Choi, Y. Shavit, and D. Duvenaud, *Tools for Verifying Neural Models’ Training Data*, [arXiv:2307.00682](https://arxiv.org/abs/2307.00682), 2023.
 :::
 
 Keep three claims separate:
@@ -47,7 +47,7 @@ Training transcripts and recomputation mainly address the first claim, with vary
 A June 2026 paper proposes a zero-knowledge architecture for frontier training claims, but it also identifies thirteen open problems and a critical requirement that has not yet been demonstrated at relevant scale: a zero-knowledge proof of backpropagation for a nontrivial model. Treat this as an ambitious research proposal, not evidence that zero-knowledge verification of frontier training is deployment-ready.
 
 :::callout {title="Source" tone="neutral" collapse="closed"}
-*Zero Knowledge Verification for Frontier AI Training Is Possible* — [arXiv:2606.05433](https://arxiv.org/abs/2606.05433), June 2026. The paper presents an architecture and estimates, while documenting open problems and unproven critical components.
+*Zero Knowledge Verification for Frontier AI Training Is Possible*, [arXiv:2606.05433](https://arxiv.org/abs/2606.05433), June 2026. The paper presents an architecture and estimates, while documenting open problems and unproven critical components.
 :::
 
 \#### Activity: buy assurance with a verification budget

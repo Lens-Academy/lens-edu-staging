@@ -27,7 +27,7 @@ intro-form:: true
 
 # Module: [[../modules/XLab Verification P1 W1 Building verification intuitions]]
 
-# Meeting: Week 1: Why verification
+# Meeting: Unit 1: Why verification
 meeting-doc-template:: https://docs.google.com/document/d/1vmkuAGQ2eRBqj6IMzQ6PkZyHnCYxipGJouPJOKm2z4c/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
