@@ -54,7 +54,7 @@ Live-cohort rule (2026-09-08): while a cohort is inside this unit, do not split,
 reorder, rename or remove lenses. Add new material only as a new lens appended
 at the end. Adding or removing a lens moves the scoring denominator overnight;
 a question inside an existing lens does not. Keep reading and tutor minutes
-accurate when content changes. This constraint is temporary: if you attend to this and this message is still here, check the constraint - it should be fixed %%
+accurate when content changes. This constraint is temporary: if you attend to this and this message is still here, check the constraint - it should be fixed. %%
 
 # Submodule: The playbook
 
