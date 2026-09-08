@@ -75,7 +75,6 @@ Skim whatever catches your eye.
 
 ::card[[../Lenses/IABIED - QA - Story Started Later]]
 ::card[[../Lenses/IABIED - QA - Sable's Expansion Phase]]
-::card[[../Lenses/IABIED - QA - Instrumental Convergence]]
 {>>{"author":"Elias's AI","timestamp":1784730265976}@@'Instrumental Convergence' was a hidden import without a card in the old Dive Deeper submodule (unreachable for learners); carded it here under Ch8.<<}
 
 ## Lens: IABIED - QA - Story Started Later
@@ -87,11 +86,6 @@ source:: ![[../Lenses/IABIED - QA - Story Started Later]]
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Sable's Expansion Phase]]
-
-## Lens: IABIED - QA - Instrumental Convergence
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Instrumental Convergence]]
 
 ## Lens: Dive Deeper: Chapter 9
 id:: b3132948-6f00-4d18-89f1-40d46c96e92c
