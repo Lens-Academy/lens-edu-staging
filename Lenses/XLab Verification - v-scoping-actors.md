@@ -292,7 +292,7 @@ The edge exercise built on this board is the next lens: [[../Lenses/XLab Verific
 content::
 \### Notes and sources
 
-The draft agreement this section reads its cast out of: Scher, Abecassis, Barnett & Abeyta, [“An International Agreement to Prevent the Premature Creation of Artificial Superintelligence”](https://arxiv.org/abs/2511.10783) (2025), Appendix A — the treaty 1.1 dissects.
+The draft agreement this section reads its cast out of: Scher, Abecassis, Barnett & Abeyta, [“An International Agreement to Prevent the Premature Creation of Artificial Superintelligence”](https://arxiv.org/abs/2511.10783) (2025), Appendix A, the treaty 1.1 dissects.
 
 [California SB 53](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53), the Transparency in Frontier Artificial Intelligence Act, signed September 29, 2025; core duties effective January 1, 2026 ([Future of Privacy Forum](https://fpf.org/blog/californias-sb-53-the-first-frontier-ai-law-explained/) and [White & Case](https://www.whitecase.com/insight-alert/california-enacts-landmark-ai-transparency-law-transparency-frontier-artificial) summaries).
 
@@ -302,9 +302,9 @@ The draft agreement this section reads its cast out of: Scher, Abecassis, Barnet
 
 [NIST Center for AI Standards and Innovation (CAISI)](https://www.nist.gov/caisi), formerly the US AI Safety Institute; pre-deployment testing agreements with frontier developers.
 
-Supply-chain structure: Sastry, Heim, Belfield et al., [“Computing Power and the Governance of Artificial Intelligence”](https://arxiv.org/abs/2402.08797) (2024) — ASML at 100% of EUV lithography, TSMC at ~90% of sub-7nm logic (2022 data), and “several critical steps … have fewer than three suppliers”; CSET, [“The Semiconductor Supply Chain”](https://cset.georgetown.edu/publication/the-semiconductor-supply-chain/) (2021) — the stage-by-stage picture, including that assembly and test has the lowest barriers to entry. High-bandwidth memory is inside the export-control perimeter: the US controls were “expanded again, this time affecting all chips using advanced high-bandwidth memory” — Fist, Burga & Chilukuri, [“Technology to Secure the AI Chip Supply Chain”](https://www.cnas.org/publications/reports/technology-to-secure-the-ai-chip-supply-chain-a-primer) (CNAS, 2024). Incentive vocabulary and role taxonomy: this module’s introduction.
+Supply-chain structure: Sastry, Heim, Belfield et al., [“Computing Power and the Governance of Artificial Intelligence”](https://arxiv.org/abs/2402.08797) (2024): ASML at 100% of EUV lithography, TSMC at ~90% of sub-7nm logic (2022 data), and “several critical steps … have fewer than three suppliers”; CSET, [“The Semiconductor Supply Chain”](https://cset.georgetown.edu/publication/the-semiconductor-supply-chain/) (2021): the stage-by-stage picture, including that assembly and test has the lowest barriers to entry. High-bandwidth memory is inside the export-control perimeter: the US controls were “expanded again, this time affecting all chips using advanced high-bandwidth memory” (Fist, Burga & Chilukuri, [“Technology to Secure the AI Chip Supply Chain”](https://www.cnas.org/publications/reports/technology-to-secure-the-ai-chip-supply-chain-a-primer) (CNAS, 2024)). Incentive vocabulary and role taxonomy: this module’s introduction.
 
-**Currency.** The concentration figures above are 2021–2023 data reported in 2021 and 2024 sources. Shares move; the structure — one EUV maker, one dominant leading-edge fab, a handful of clouds — has not. Re-verify a number before quoting it.
+**Currency.** The concentration figures above are 2021–2023 data reported in 2021 and 2024 sources. Shares move; the structure (one EUV maker, one dominant leading-edge fab, a handful of clouds) has not. Re-verify a number before quoting it.
 
 #### Text
 content::
