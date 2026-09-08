@@ -8,7 +8,7 @@ duration_minutes: 15
 ---
 #### Text
 content::
-The world map of AI compute: who makes what, where it flows, and where verification can grab hold — with a look inside the chip itself.
+The world map of AI compute: who makes what, where it flows, and where verification can grab hold, with a look inside the chip itself.
 
 Where an actor sits constrains both what it can observe and what leverage an agreement can apply. Use the map to find the stages where production is concentrated in a few jurisdictions, then compare those chokepoints with the more diffuse parts of the chain where activity becomes harder to see.
 
@@ -16,7 +16,7 @@ Where an actor sits constrains both what it can observe and what leverage an agr
 content::
 \## The Compute Supply Chain
 
-**Start here.** The whole story of this map is concentration. The chain crosses borders dozens of times, but the parts that matter for verification sit in a handful of countries — and each stage is a near-monopoly. Open a country for its role, or a layer to see exactly who would have to be in the room to verify it.
+**Start here.** The whole story of this map is concentration. The chain crosses borders dozens of times, but the parts that matter for verification sit in a handful of countries, and each stage is a near-monopoly. Open a country for its role, or a layer to see exactly who would have to be in the room to verify it.
 
 - **≈90%** of leading-edge logic is fabricated on one island
 - **1** company builds every EUV lithography machine on Earth

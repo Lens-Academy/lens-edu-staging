@@ -567,11 +567,11 @@ The fictional agreement several specimens were drawn from. Two specimens used st
 
 **Article VI. Confidentiality.** Inspectors shall not access, copy, or transmit model parameters, training data, or source code. Managed access procedures shall be specified in Annex B, to be concluded by the Executive Council no later than two years after entry into force.
 
-**Article VII — Non-parties.** States Parties shall not export applicable high-performance computing hardware to non-parties, except as licensed for verified civilian purposes.
+**Article VII. Non-parties.** States Parties shall not export applicable high-performance computing hardware to non-parties, except as licensed for verified civilian purposes.
 
-**Article VIII — Non-compliance.** Upon a finding of non-compliance by the Executive Council, the Council may recommend measures to restore compliance, and may refer the matter to the United Nations Security Council.
+**Article VIII. Non-compliance.** Upon a finding of non-compliance by the Executive Council, the Council may recommend measures to restore compliance, and may refer the matter to the United Nations Security Council.
 
-**Article IX — Withdrawal.** A State Party may withdraw from this Protocol upon ninety days’ notice if it decides that extraordinary events related to the subject matter of this Protocol have jeopardized its supreme interests.
+**Article IX. Withdrawal.** A State Party may withdraw from this Protocol upon ninety days’ notice if it decides that extraordinary events related to the subject matter of this Protocol have jeopardized its supreme interests.
 
 **Article X — Review and amendment.** The thresholds and definitions in Article I may be amended by consensus of all States Parties at a Review Conference, the first of which shall convene three years after entry into force.
 :::
