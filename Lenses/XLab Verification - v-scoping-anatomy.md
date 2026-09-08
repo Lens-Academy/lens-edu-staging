@@ -377,7 +377,7 @@ content:: Optional: Specimen 9 of 13. Place this text on the organ it implements
 > We call for a prohibition on the development of superintelligence, not lifted before there is (1) broad scientific consensus that it will be done safely and controllably, and (2) strong public buy-in.
 options::
 - The rule (Definitions, thresholds, scope, duration)
-- The claims (What parties must be able to prove — declared & undeclared)
+- The claims (What parties must be able to prove: declared & undeclared)
 - The evidence (Access, inspections, monitoring, timeliness)
 - The confidentiality bargain (What the verifier must NOT see)
 - The adversary (The threat model provisions are written against)
@@ -406,7 +406,7 @@ content:: Optional: Specimen 10 of 13. Place this text on the organ it implement
 > The fine-tuning, continued development, or adaptation of models trained before entry into force shall not constitute a covered training run.
 options::
 - [x] The rule (Definitions, thresholds, scope, duration)
-- The claims (What parties must be able to prove — declared & undeclared)
+- The claims (What parties must be able to prove: declared & undeclared)
 - The evidence (Access, inspections, monitoring, timeliness)
 - The confidentiality bargain (What the verifier must NOT see)
 - The adversary (The threat model provisions are written against)
@@ -433,7 +433,7 @@ content:: Optional: Specimen 11 of 13. Place this text on the organ it implement
 > Because a covert program could evade facility-level monitoring by spreading training across many small sites, unmonitored chip holdings anywhere are capped at the equivalent of 16 H100 chips, roughly $500,000 of hardware.
 options::
 - The rule (Definitions, thresholds, scope, duration)
-- The claims (What parties must be able to prove — declared & undeclared)
+- The claims (What parties must be able to prove: declared & undeclared)
 - The evidence (Access, inspections, monitoring, timeliness)
 - The confidentiality bargain (What the verifier must NOT see)
 - [x] The adversary (The threat model provisions are written against)
@@ -460,7 +460,7 @@ content:: Optional: Specimen 12 of 13. Place this text on the organ it implement
 > Recognizing that training compute is an imperfect proxy for model capability, the thresholds in Article I shall be reviewed annually and may be lowered by a two-thirds vote of the Conference of Parties.
 options::
 - The rule (Definitions, thresholds, scope, duration)
-- The claims (What parties must be able to prove — declared & undeclared)
+- The claims (What parties must be able to prove: declared & undeclared)
 - The evidence (Access, inspections, monitoring, timeliness)
 - The confidentiality bargain (What the verifier must NOT see)
 - The adversary (The threat model provisions are written against)
