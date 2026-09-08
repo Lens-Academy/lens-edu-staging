@@ -35,7 +35,7 @@ A treaty-grade accounting rule must define:
 Existing performance counters and management telemetry can measure useful quantities, but ordinary counters are not automatically suitable for adversarial verification. Hardware-mechanism surveys note that some existing counters can be reset or controlled by users. A stronger design needs a protected measurement path, secure state, authenticated reporting, freshness, and aggregation rules that the operator cannot silently rewrite.
 
 :::callout {title="Source" tone="neutral" collapse="closed"}
-O’Gara et al., *Hardware-Enabled Mechanisms for Verifying Responsible AI Development* — [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025; the sections on compute accounting, workload classification, cluster configuration, location verification, and offline licensing.
+O’Gara et al., *Hardware-Enabled Mechanisms for Verifying Responsible AI Development*, [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025; the sections on compute accounting, workload classification, cluster configuration, location verification, and offline licensing.
 :::
 
 Even perfect accounting verifies the threshold, not the policy goal. Algorithmic, architectural, and data improvements can produce more capability at the same counted compute. A fixed threshold therefore has an update condition.
@@ -65,7 +65,7 @@ A compute counter cannot determine whether the operations were training, inferen
 A June 2026 preprint by Rahman and Tajdari tested whether temporal GPU telemetry could detect hidden machine-learning training. Across its full corpus, the study reported 98.2 percent binary classification accuracy over nine NVIDIA GPU models and twenty evasion families. The result is important evidence that training leaves detectable temporal patterns under tested conditions.
 
 :::callout {title="Source" tone="neutral" collapse="closed"}
-Robi Rahman and Sabiha Tajdari, *Detecting Hidden ML Training With Zero-Overhead Telemetry* — [arXiv:2606.19262](https://arxiv.org/abs/2606.19262), June 2026. A preprint, to be presented as a component demonstration.
+Robi Rahman and Sabiha Tajdari, *Detecting Hidden ML Training With Zero-Overhead Telemetry*, [arXiv:2606.19262](https://arxiv.org/abs/2606.19262), June 2026. A preprint, to be presented as a component demonstration.
 :::
 
 Read what the study measured, what it found, and what the authors say it does and does not establish.
