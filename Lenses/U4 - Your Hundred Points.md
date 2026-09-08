@@ -66,7 +66,7 @@ Do not grade. Do not score. Do not praise. There is no correct allocation at thi
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 10{++{"author":"Lauren's AI","timestamp":1788789558490}@@
+max-time:: 10
 
 #### Question
 content::
@@ -96,4 +96,4 @@ Response style:
 - Do not over-validate. Avoid generic praise.
 - Do not argue with the content of their model.
 
-Maximum 2 tutor turns. Keep an internal turn counter. Close by telling them Unit 5 asks for this model one last time, with their name attached.++}
+Maximum 2 tutor turns. Keep an internal turn counter. Close by telling them Unit 5 asks for this model one last time, with their name attached.

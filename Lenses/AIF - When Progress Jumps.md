@@ -97,9 +97,9 @@ Did any of the technologies you expected to have large jumps turn up in their re
 
 And, based on this article, does anything change about the intuitions you shared in the opening question?
 {>>{"author":"lauren (chrome@what)","timestamp":1787822052780}@@7:14:10<<}
-{++{"author":"Lauren's AI","timestamp":1788772630115}@@max-time:: 8:00
+max-time:: 8:00
 
-++}assessment-instructions:: The student has committed to three guesses and has now read the measured figures.
+assessment-instructions:: The student has committed to three guesses and has now read the measured figures.
 
 Grade the READING, not the guess. A student whose guesses were far off but who now uses the figures correctly is passing.
 
