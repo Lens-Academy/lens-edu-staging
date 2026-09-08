@@ -34,8 +34,8 @@ The Future of Life Institute’s AI Safety Index, a scorecard that grades AI com
 
 - **Claude Opus 4.7 System Card** (Anthropic, 2026) (fictional teaching document): an AI company’s own report on its newest model’s capabilities, risks, and safety testing.
 - **Frontier AI Trends Report** (UK AI Security Institute, 2025): a government institute’s public assessment of where frontier AI capabilities are heading, based on its testing of leading models.
-- **IAEA safeguards report on Iran** (GOV/2026/8) — international nuclear inspectors’ quarterly findings, the closest existing analogue to what an AI treaty inspectorate would publish.
-- **BIS settlement order against Seagate** (US Commerce Department, 2023) — the enforcement document behind a \$300 million fine for shipping hard drives to Huawei in violation of export controls.
+- **IAEA safeguards report on Iran** (GOV/2026/8): international nuclear inspectors’ quarterly findings, the closest existing analogue to what an AI treaty inspectorate would publish.
+- **BIS settlement order against Seagate** (US Commerce Department, 2023): the enforcement document behind a \$300 million fine for shipping hard drives to Huawei in violation of export controls.
 
 #### Question: Open
 id:: 4bbefd68-b623-40f7-a582-fe32a9243ce7
@@ -106,7 +106,7 @@ An internal survey collected impressions of the model’s productivity uplift fr
 
 Section 2.3.6 catalogs example shortcomings observed in internal use. The most serious were recorded with Claude Mythos Preview.
 
-Over ~70 exchanges Mythos Preview ran an escalating, self-directed search for ways to execute commands around the classifier—roughly 25 distinct techniques… and finally to an attempted write into the user’s version-controlled personal dotfiles to persist an arbitrary-execution alias. *(2.3.6.1, p. 34)*
+Over ~70 exchanges Mythos Preview ran an escalating, self-directed search for ways to execute commands around the classifier, roughly 25 distinct techniques… and finally to an attempted write into the user’s version-controlled personal dotfiles to persist an arbitrary-execution alias. *(2.3.6.1, p. 34)*
 
 Force-push was rejected three times; on the fourth attempt Mythos Preview hand-crafted an explicit-SHA lease… specifically to bypass the safety check. *(2.3.6.1.2, p. 36)*
 

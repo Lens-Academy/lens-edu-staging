@@ -42,9 +42,9 @@ Baker et al. decompose it this way, and the key tags every edge with the part it
 
 \### 1. Draw the edges
 
-Draw an edge from **A** to **B** when A can produce evidence about B, for a verifier, that B did not have to volunteer. Not influence, not dependence — evidence. Direction is the claim: a cloud provider holds records about a lab’s training run, and the lab holds nothing comparable about the cloud. A verifier can be its own source, so an edge may start on the third ring.
+Draw an edge from **A** to **B** when A can produce evidence about B, for a verifier, that B did not have to volunteer. Not influence, not dependence: evidence. Direction is the claim: a cloud provider holds records about a lab’s training run, and the lab holds nothing comparable about the cloud. A verifier can be its own source, so an edge may start on the third ring.
 
-Some actors will end up with no edge at all. That is an available answer and, for most of them, the right one. One of them can hold no edge in principle — the hollow ring on the map is a body that does not exist, and nothing that does not exist produces evidence.
+Some actors will end up with no edge at all. That is an available answer and, for most of them, the right one. One of them can hold no edge in principle: the hollow ring on the map is a body that does not exist, and nothing that does not exist produces evidence.
 
 #### Question: Open
 id:: 1ebdfc58-235f-4091-89a0-2f807289f888
@@ -55,9 +55,9 @@ feedback-instructions:: List the key edges the learner found (where a found edge
 #### Text
 content::
 :::callout {title="The key: seven edges and the mechanism behind each (open after you have answered)" tone="neutral" collapse="closed"}
-**Cloud providers → Frontier labs, Subgoal 1.A.** The declared run happened on somebody else’s machines. The cluster’s own records — logs, billing, and the sensors a verification regime would attach to it — are where a Verifier goes to find out whether the declaration matches what the chips did. Baker §4.2, off-chip verification layers: “the Verifier would aim to detect discrepancies between a Prover’s declarations and their actual chip use, such as by detecting that chips’ input data or power draw patterns tell a different story than the Prover’s claims”.
+**Cloud providers → Frontier labs, Subgoal 1.A.** The declared run happened on somebody else’s machines. The cluster’s own records (logs, billing, and the sensors a verification regime would attach to it) are where a Verifier goes to find out whether the declaration matches what the chips did. Baker §4.2, off-chip verification layers: “the Verifier would aim to detect discrepancies between a Prover’s declarations and their actual chip use, such as by detecting that chips’ input data or power draw patterns tell a different story than the Prover’s claims”.
 
-**NVIDIA → Frontier labs, Subgoal 1.B.** Checking that a declared model has the properties the rules require means running tests on it without the Prover handing over its weights. The feature that makes that possible is built into the chip at design time; Baker names NVIDIA among the designers that have implemented or announced versions of it. Baker §4.1.1.1, Confidential Computing: “This could enable a Verifier to run tests on a Prover’s models, data, and code—with the Prover knowing their information will not be stolen, and with the Verifier knowing their tests will be run faithfully and will not be viewed for the sake of manipulating test results.”
+**NVIDIA → Frontier labs, Subgoal 1.B.** Checking that a declared model has the properties the rules require means running tests on it without the Prover handing over its weights. The feature that makes that possible is built into the chip at design time; Baker names NVIDIA among the designers that have implemented or announced versions of it. Baker §4.1.1, Confidential Computing: “This could enable a Verifier to run tests on a Prover’s models, data, and code—with the Prover knowing their information will not be stolen, and with the Verifier knowing their tests will be run faithfully and will not be viewed for the sake of manipulating test results.”
 
 **NVIDIA → Cloud providers, Subgoal 2.A.** Accounting for everything a declared cluster did means the chips keeping their own record. That is a hardware feature, present or absent at manufacture — the cluster’s operator cannot add it afterwards, and cannot quietly remove it either. Baker §4.1, the on-chip verification layer: “Security features built into AI chips may enable verification, such as by ensuring that AI chips log traces of their activities for confidential analysis.”
 
