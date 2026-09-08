@@ -77,7 +77,7 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/IABIED M7 What Happens Next]]
 
-# Meeting: Facing the Challenge, part 2
+# Meeting: Facing the Challenge, Part 2 & What Happens Next
 meeting-doc-template:: https://docs.google.com/document/d/1rewnfH3QqcK_WhwD2i1ylfVyldH3sXb6eA45dDeQJ6M/edit?tab=t.0#heading=h.by5wcelvjnsd
 survey:: [[../surveys/AIRF Final Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
