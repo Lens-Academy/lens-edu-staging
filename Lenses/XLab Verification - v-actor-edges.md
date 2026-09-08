@@ -15,8 +15,8 @@ a description. This is what you do with it.
 Verification is not a property an actor has. It is a relation between two of
 them: somebody can put a fact in front of a verifier about somebody else, and
 that fact settles one of the four things a verifier has to establish. Drawing
-those relations is the exercise below, and the key for it is Baker et al.'s —
-the same report module 2.1 assigns when it gets to hardware.
+those relations is the exercise below, and the key for it is Baker et al.'s,
+the same report Week 5 assigns when it gets to hardware.
 
 Two things worth knowing before you start. Actors with no edge at all are a
 real answer and there are more of them than you would guess. And the point of
@@ -27,7 +27,7 @@ holding the whole regime up.
 content::
 \## Who can prove what
 
-**The brief.** Same agreement, same board: no training runs above a compute threshold for three months. 1.2 asked what part each actor plays in a declaration. This asks what a verifier could actually do with them — who can produce evidence about whom, and which of the four things a verifier has to establish that evidence would settle.
+**The brief.** Same agreement, same board: no training runs above a compute threshold for three months. 1.2 asked what part each actor plays in a declaration. This asks what a verifier could actually do with them: who can produce evidence about whom, and which of the four things a verifier has to establish that evidence would settle.
 
 **The board.** The key placement from 1.2, if you have not placed it yourself: *Declares:* United States, China, Cloud providers, Frontier labs. *Holds the evidence:* Taiwan, Netherlands, Japan, South Korea, ASML, TSMC, NVIDIA. *Verifies:* BIS, Intelligence community, California, and the hollow ring for the AI verification body that does not exist. *Outside the declaration:* Proxies, Deployers. Placing it is the workshop in 1.2, and it is worth doing first. Nothing here is gated on it.
 

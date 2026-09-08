@@ -8,7 +8,7 @@ duration_minutes: 75
 ---
 #### Text
 content::
-An alignment researcher and Congressional staffer have very different backgrounds, context levels, and priorities when reading the same AI model safety evaluation — and so will come away with separate conclusions, assumptions, and action items. You just learned about the importance of considering upstream context and downstream consequences: now, you will apply this knowledge to distilling audience-specific information from a real report.
+An alignment researcher and Congressional staffer have very different backgrounds, context levels, and priorities when reading the same AI model safety evaluation, and so will come away with separate conclusions, assumptions, and action items. You just learned about the importance of considering upstream context and downstream consequences: now, you will apply this knowledge to distilling audience-specific information from a real report.
 
 \## The Five Steps
 
@@ -32,8 +32,8 @@ The Future of Life Institute’s AI Safety Index, a scorecard that grades AI com
 
 \## Your Options (Pick One){>>{"author":"Elias's AI","timestamp":1788016774544}@@"Choose and Distill a Report" was XLab's PageBreak title, imported as a duplicate heading; kept only the real heading.<<}
 
-- **Claude Opus 4.7 System Card** (Anthropic, 2026) (fictional teaching document) — an AI company’s own report on its newest model’s capabilities, risks, and safety testing.
-- **Frontier AI Trends Report** (UK AI Security Institute, 2025) — a government institute’s public assessment of where frontier AI capabilities are heading, based on its testing of leading models.
+- **Claude Opus 4.7 System Card** (Anthropic, 2026) (fictional teaching document): an AI company’s own report on its newest model’s capabilities, risks, and safety testing.
+- **Frontier AI Trends Report** (UK AI Security Institute, 2025): a government institute’s public assessment of where frontier AI capabilities are heading, based on its testing of leading models.
 - **IAEA safeguards report on Iran** (GOV/2026/8) — international nuclear inspectors’ quarterly findings, the closest existing analogue to what an AI treaty inspectorate would publish.
 - **BIS settlement order against Seagate** (US Commerce Department, 2023) — the enforcement document behind a \$300 million fine for shipping hard drives to Huawei in violation of export controls.
 
