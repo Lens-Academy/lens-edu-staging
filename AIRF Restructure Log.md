@@ -150,7 +150,7 @@ This maps onto the stages in section 5 in order: stage 0, then 1, 2, 3, 4, 5.
 
 | File | Change | Status |
 |---|---|---|
-| [[courses/AI Risk Fundamentals]] | Relabel the {--{"author":"AI","timestamp":1788817673661}@@`%%`--}{++{"author":"AI","timestamp":1788817673661}@@author comment++} {--{"author":"AI","timestamp":1788817673661}@@block wrongly attributed--}{++{"author":"AI","timestamp":1788817673661}@@misattributed++} to a student | `done` |
+| [[courses/AI Risk Fundamentals]] | Relabel the author comment misattributed to a student | `done` |
 
 ### Stage 1, structure
 
