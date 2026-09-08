@@ -715,8 +715,8 @@ tags: [wip]
   var revealBtn = btn("", C.revealBtn, "reveal");
   var resetBtn = btn("quiet", "↺ " + C.resetBtn, "reset");
   resetBtn.style.textAlign = "center";
-  var status = el("p", "status", "");
-  controls.appendChild(checkBtn); controls.appendChild(revealBtn); controls.appendChild(resetBtn); controls.appendChild(status);
+  var statusLine = el("p", "status", "");
+  controls.appendChild(checkBtn); controls.appendChild(revealBtn); controls.appendChild(resetBtn); controls.appendChild(statusLine);
   exBlock.appendChild(controls);
   aside.appendChild(exBlock);
   checkBtn.addEventListener("click", check);
@@ -1034,22 +1034,22 @@ tags: [wip]
     var total = BUCKETS.length, placed = placedCount();
     checkBtn.disabled = placed !== total;
     revealBtn.disabled = !S.checkedOnce || S.keyOn;
-    clear(status);
+    clear(statusLine);
     if (allVerdicts()) {
       if (allRight()) {
-        status.appendChild(el("b", null, total + " of " + total + " on the mark."));
+        statusLine.appendChild(el("b", null, total + " of " + total + " on the mark."));
       } else {
-        status.appendChild(el("b", null, String(rightCount())));
-        status.appendChild(document.createTextNode(" on the mark · "));
-        status.appendChild(el("b", null, String(closeCount())));
-        status.appendChild(document.createTextNode(" close · "));
-        status.appendChild(el("b", null, String(total - rightCount() - closeCount())));
-        status.appendChild(document.createTextNode(" off; drag and re-check"));
+        statusLine.appendChild(el("b", null, String(rightCount())));
+        statusLine.appendChild(document.createTextNode(" on the mark · "));
+        statusLine.appendChild(el("b", null, String(closeCount())));
+        statusLine.appendChild(document.createTextNode(" close · "));
+        statusLine.appendChild(el("b", null, String(total - rightCount() - closeCount())));
+        statusLine.appendChild(document.createTextNode(" off; drag and re-check"));
       }
     } else if (placed === total) {
-      status.textContent = "All placed; check when ready";
+      statusLine.textContent = "All placed; check when ready";
     } else {
-      status.textContent = placed + " of " + total + " placed";
+      statusLine.textContent = placed + " of " + total + " placed";
     }
 
     // results
