@@ -26,9 +26,9 @@ Without looking back, state each position in two sentences. Then state, in one s
 
 If you cannot find a disagreement, say so plainly. That is a real possible answer and more useful than a manufactured one.
 
-{++{"author":"Lauren's AI","timestamp":1788789624448}@@max-time:: 4:00
+max-time:: 4:00
 
-++}assessment-instructions:: The student has read Soares on the sharp left turn and Wentworth on the pointers problem.
+assessment-instructions:: The student has read Soares on the sharp left turn and Wentworth on the pointers problem.
 
 Soares's position: capabilities generalize further than alignment. Once a system's capabilities start generalizing well beyond the training environment, into regimes that allow significant reshaping of the world, the alignment predictably fails to generalize with them. This ruins your ability to direct the system and breaks whatever constraints you were relying on for corrigibility. His framing: the problem is keeping the system aligned through that transition, or realigning it afterwards, and he claims most of the field assumes this problem away.
 
@@ -62,9 +62,9 @@ Which of the two, on first reading, felt more like the real problem to you?
 
 Then: is that a judgment about the arguments, or about which one is easier to picture? Soares describes an event. Wentworth describes a condition. Events are easier to imagine.
 
-{++{"author":"Lauren's AI","timestamp":1788789626719}@@max-time:: 5:00
+max-time:: 5:00
 
-++}assessment-instructions:: A processing phase. The student is reporting an intuition and being asked to examine its source. Do not adjudicate which position is correct; neither the field nor this course has settled it.
+assessment-instructions:: A processing phase. The student is reporting an intuition and being asked to examine its source. Do not adjudicate which position is correct; neither the field nor this course has settled it.
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
 
@@ -93,9 +93,9 @@ Which of the two authors would consider this aimed at the right problem, and whi
 
 Then, the harder half: is there a version of this research program that both authors would agree is worth doing? If yes, describe it. If no, say what makes it impossible.
 
-{++{"author":"Lauren's AI","timestamp":1788789628982}@@max-time:: 10:00
+max-time:: 10:00
 
-++}assessment-instructions:: The student has read both positions. This wedge hands them a proposal that is squarely aimed at one author's problem while being close to irrelevant to the other's. It is not the test question.
+assessment-instructions:: The student has read both positions. This wedge hands them a proposal that is squarely aimed at one author's problem while being close to irrelevant to the other's. It is not the test question.
 
 Learning outcome for this lens: state the disagreement between the two accounts, identify a distinguishing observation, and determine which account a proposed solution implicitly assumes.
 
