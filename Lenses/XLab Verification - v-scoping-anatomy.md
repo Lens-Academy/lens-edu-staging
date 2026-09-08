@@ -159,7 +159,7 @@ content:: Optional: Specimen 1 of 13. Place this text on the organ it implements
 > New training runs using more than 10²⁴ computational operations (FLOP) are prohibited. Runs between 10²² and 10²⁴ FLOP require monitoring.
 options::
 - [x] The rule (Definitions, thresholds, scope, duration)
-- The claims (What parties must be able to prove — declared & undeclared)
+- The claims (What parties must be able to prove: declared & undeclared)
 - The evidence (Access, inspections, monitoring, timeliness)
 - The confidentiality bargain (What the verifier must NOT see)
 - The adversary (The threat model provisions are written against)
