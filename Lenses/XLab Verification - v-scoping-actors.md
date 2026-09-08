@@ -2,7 +2,7 @@
 id: '76451830-cdb6-4160-9eae-ee72d0917f5b'
 title: "Actors: who does the treaty rely upon, apply to, and constrain?"
 tldr: "Two governments sign a three-month pause on big training runs. On Wednesday morning, who actually has to change what they do? Not the signatories: the labs, fabs, clouds and one Dutch lithography firm. Learn three lenses for any actor (where it sits, what it can do for or to a verifier, what it wants right now), then build the actor map yourself: who declares, who holds evidence, who verifies, and who no declaration ever covers."
-summary_for_tutor: "Reading plus a workshop. The reading gives five tables: the incentive vocabulary (comply, defect, hide, exaggerate, free-ride), six states by supply-chain position, US institutions inside one signatory, private actors upstream to downstream, and six functional roles; then the three questions to ask of any actor (position, roles, posture). The Actor Map Workshop follows: study the 17-actor roster, then from memory list everything a cloud provider can do inside a regime; a graded choice on what sits at the centre of the map (the regulated training run); place all 17 actors on Baker et al.'s four rings (Declares, Holds the evidence, Verifies, Outside the declaration), graded against XLab's key; then read the finished map. The ring key and rationales sit in closed callouts; do not reveal them before the learner commits. The edge exercise built on this board, the second-order question (whose removal stops a run soonest) and the three optional written answers are in the next lens, 1.2.2."
+summary_for_tutor: "Reading plus a workshop. The reading gives five tables: the incentive vocabulary (comply, defect, hide, exaggerate, free-ride), six states by supply-chain position, US institutions inside one signatory, private actors upstream to downstream, and six functional roles; then the three questions to ask of any actor (position, roles, posture). The Actor Map Workshop follows: study the 17-actor roster, then from memory list everything a cloud provider can do inside a regime; a graded choice on what sits at the centre of the map (the regulated training run); place all 17 actors on Baker et al.'s four rings (Declares, Holds the evidence, Verifies, Outside the declaration), graded against XLab's key; then read the finished map. The ring key and rationales sit in closed callouts; do not reveal them before the learner commits. The edge exercise built on this board, the second-order question (whose removal stops a run soonest) and the three optional written answers are in 1.2.2, the lens after the supply-chain map."
 tags: [wip]
 duration_minutes: 60
 ---
@@ -57,7 +57,7 @@ In September 2025 California enacted SB 53, the Transparency in Frontier Artific
 
 Every frontier developer must publish a transparency report when it deploys a new frontier model, report critical safety incidents to the state’s Office of Emergency Services within fifteen days (twenty-four hours if there is imminent risk of death or serious physical injury), and tell its employees they have whistleblower rights. Large frontier developers carry more on top: a published framework describing how they identify and mitigate catastrophic risks, fuller transparency reports, and an internal channel for anonymous reports.
 
-Notice what happened there. A state legislature bound the world’s leading labs to reporting duties before any international mechanism existed. When you design a regime later in this course, remember that some of its machinery may already exist two levels below the treaty. Often, it might be easier to pass state level legislation before federal legislation follows.
+Notice what happened there. A state legislature bound the world’s leading labs to reporting duties before any international mechanism existed. When you design a regime in the capstone course, remember that some of its machinery may already exist two levels below the treaty. Often, it might be easier to pass state level legislation before federal legislation follows.
 
 \### Inside the state
 
@@ -107,7 +107,7 @@ First, counts:
 - A few dozen labs that matter.
 - Millions of deployers.
 
-The chain narrows to almost nothing at the top and fans out to everything at the bottom. Verification has something to grab exactly where the count is small, which is why so many of the mechanisms in Module 2 bite upstream. Hold that thought; section [[../Lenses/XLab Verification - v-scoping-upstream-downstream|1.3]] develops it properly.
+The chain narrows to almost nothing at the top and fans out to everything at the bottom. Verification has something to grab exactly where the count is small, which is why so many of the mechanisms you will meet from Week 5 onwards, and in Part 2, bite upstream. Hold that thought; section [[../Lenses/XLab Verification - v-scoping-upstream-downstream|1.3]] develops it properly.
 
 Second, look at the labs’ row: A frontier lab can comply, publishing a safety framework and reporting under SB 53. It can hide, treating training details as trade secrets. It can exaggerate, describing its own precautions in the most flattering light, which is what critics call safety-washing. And it can free-ride on rivals’ restraint. Your job in verification is to price these different behaviors and balance their relevant incentives.
 
@@ -286,7 +286,7 @@ The second-order question (take one actor off the board) and the three optional 
 #### Text
 content::
 {>>{"author":"Elias's AI","timestamp":1788016535133}@@Native reproduction of XLab's Actor Map Workshop from src/lib/verification/data/actor-workshop.ts and actor-map.ts (roster, recall target, core question, Baker rings and placement key, map finding, second-order question, closing questions and marking key). Note for Elias: in XLab's current repo, scoping-actors.mdx is cut to three paragraphs and the actor-workshop widget is no longer registered; the five tables above and the workshop are documented as XLab's own in docs/verification/module-1-log.md, so they are kept. XLab's ring map graphic (concentric SVG) is not reproduced; the placements are.<<}
-The edge exercise built on this board is the next lens: [[../Lenses/XLab Verification - v-actor-edges|1.2.2 Who can prove what]].
+The edge exercise built on this board comes after the supply-chain map: [[../Lenses/XLab Verification - v-actor-edges|1.2.2 Who can prove what]].
 
 #### Text
 content::

@@ -65,7 +65,7 @@ content::
 Before the buckets: the two words doing the work. Read both scales before the buckets.
 
 :::callout {title="What is effectiveness?" tone="neutral" collapse="closed"}
-**Effectiveness.** How much the policy actually deters ASI development — measured against the global race, not against one country’s labs. Low to high:
+**Effectiveness.** How much the policy actually deters ASI development, measured against the global race, not against one country’s labs. Low to high:
 
 1. **Symbolic.** Signals concern; changes no developer’s plans.
 2. **Marginal.** Slows the already-willing; the race continues around it.
@@ -230,7 +230,7 @@ For a hypothetical pause treaty, place every relevant actor on the supply chain,
 
 Reader: The drafting team for a hypothetical pause treaty.
 
-This output is a map, not a memo — build it as annotated rows, not paragraphs, carrying what the brief above asks each row to hold.
+This output is a map, not a memo: build it as annotated rows, not paragraphs, carrying what the brief above asks each row to hold.
 assessment-instructions:: This is the module's written output. Score on four things, 25 points each: (1) coverage: the actors span the supply chain from equipment and fabrication through chip design, cloud, labs, and downstream deployers, plus the signatory states and at least one non-signatory host state; (2) each actor carries an incentive class (comply, defect, hide, exaggerate, free-ride) that fits what the actor stands to gain or lose under a pause; (3) each actor carries the leverage it actually holds (a chokepoint, records, a jurisdiction, the power to interrupt a job); (4) two or three actors are singled out as regime-collapsing, with a reason that follows from their position and leverage rather than from their size. Accept any defensible set of collapse actors; penalize rows that name an actor without an incentive or a leverage. Rows, not prose, is the intended form. No generic praise.
 feedback-instructions:: Name the one row whose incentive or leverage is least defended and ask the learner to argue it. Then point to any stage of the supply chain with no actor on the map. Keep it to two short paragraphs.
 
