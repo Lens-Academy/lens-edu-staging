@@ -36,7 +36,7 @@ A complete authorization chain is:
 James Petrie’s 2024 firmware-based offline-licensing design is a useful proposal to analyze. It argues that some existing accelerators might support a minimal design through a firmware update if they already contain relevant security features. The proposed timeline is an author estimate, not deployment evidence. The paper also states that physical attacks remain a concern without additional hardware changes. No publicly documented, treaty-grade offline-licensing regime for frontier AI compute is operating as of August 2026.
 
 :::callout {title="Source" tone="neutral" collapse="closed"}
-J. Petrie, *Near-Term Enforcement of AI Chip Export Controls Using a Minimal Firmware-Based Design for Offline Licensing*, [arXiv:2404.18308](https://arxiv.org/abs/2404.18308), 2024.
+J. Petrie, *Near-Term Enforcement of AI Chip Export Controls Using a Firmware-Based Design for Offline Licensing*, [arXiv:2404.18308](https://arxiv.org/abs/2404.18308), 2024.
 :::
 
 \#### Control authority is part of the mechanism
