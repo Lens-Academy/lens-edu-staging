@@ -363,7 +363,7 @@ feedback-instructions:: Correct: the institution & consequences. If right: "Exit
 #### Text
 content::
 :::callout {title="Specimen 8: why (open after you have answered)" tone="neutral" collapse="closed"}
-**Source:** Standard withdrawal language, modeled on NPT Article X — the clause North Korea invoked in 2003.
+**Source:** Standard withdrawal language, modeled on NPT Article X, the clause North Korea invoked in 2003.
 
 **The institution & consequences.** Exit is part of the institution organ, and it is always read against a clock. If withdrawal takes ninety days and a covert sprint to the prohibited capability takes sixty, the exit clause is a hole through every other organ. Always read the exit at the speed of the breakout it permits.
 
@@ -430,7 +430,7 @@ content::
 id:: 456f0f0f-229f-473b-8af8-1055d24d6608
 content:: Optional: Specimen 11 of 13. Place this text on the organ it implements.
 
-> Because a covert program could evade facility-level monitoring by spreading training across many small sites, unmonitored chip holdings anywhere are capped at the equivalent of 16 H100 chips — roughly $500,000 of hardware.
+> Because a covert program could evade facility-level monitoring by spreading training across many small sites, unmonitored chip holdings anywhere are capped at the equivalent of 16 H100 chips, roughly $500,000 of hardware.
 options::
 - The rule (Definitions, thresholds, scope, duration)
 - The claims (What parties must be able to prove — declared & undeclared)
@@ -524,7 +524,7 @@ Where this goes next: the full dissection applies these seven tags to a real pro
 
 #### Question: Choice
 id:: 4fa08fd1-7d0d-4e4b-9491-f7e03c70670c
-content:: Optional: One last drag. You are staffing the delegation that will negotiate a real training pause. Resources are finite. Drag the organ you would put at the top of the negotiating agenda:
+content:: Optional: One last pick. You are staffing the delegation that will negotiate a real training pause. Resources are finite. Choose the organ you would put at the top of the negotiating agenda:
 options::
 - The rule
 - The claims
