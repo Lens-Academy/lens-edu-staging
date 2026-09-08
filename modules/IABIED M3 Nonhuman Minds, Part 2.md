@@ -1,10 +1,12 @@
 ---
 id: 5fe83b25-9dbf-44fa-b966-c6f7d938095e
 slug: iabied-u2
-title: "Its Favorite Things"
+title: "Nonhuman Minds, Part 2"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings: 
+  - "Chapter 4: You Don't Get What You Train For"
   - "Chapter 5: Its Favorite Things"
+  - "Chapter 6: We'd Lose"
 ---
 
 # Submodule: Part 3 Welcome
