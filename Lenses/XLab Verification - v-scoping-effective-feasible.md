@@ -36,14 +36,14 @@ options::
 - Took some thought
 - Genuinely hard
 optional:: true
-feedback-instructions:: Reply with XLab's line for the option chosen, verbatim, and nothing else. Almost instant: "The cost was there all along — it just isn't the half we practice saying out loud." Took some thought: "Conviction keeps the goal in sharp focus and the price in the blur." Genuinely hard: "When a policy feels cost-free, its costs usually land on someone outside our view — or no one has looked yet."
+feedback-instructions:: Reply with XLab's line for the option chosen, verbatim, and nothing else. Almost instant: "The cost was there all along; it just isn't the half we practice saying out loud." Took some thought: "Conviction keeps the goal in sharp focus and the price in the blur." Genuinely hard: "When a policy feels cost-free, its costs usually land on someone outside our view, or no one has looked yet."
 
 #### Text
 content::
 :::callout {title="Both sides of the card (open after you have answered)" tone="neutral" collapse="closed"}
-- **Almost instant:** The cost was there all along — it just isn’t the half we practice saying out loud.
+- **Almost instant:** The cost was there all along; it just isn’t the half we practice saying out loud.
 - **Took some thought:** Conviction keeps the goal in sharp focus and the price in the blur.
-- **Genuinely hard:** When a policy feels cost-free, its costs usually land on someone outside our view — or no one has looked yet.
+- **Genuinely hard:** When a policy feels cost-free, its costs usually land on someone outside our view, or no one has looked yet.
 
 The question is never just *what do we want to accomplish?* It is *what are we willing to compromise to get it?*
 :::{>>{"author":"Elias's AI","timestamp":1788016006832}@@Native reproduction of XLab's policy-cost flip card (src/lib/verification/data/policy-cost.ts). The widget stores nothing and gates nothing, so both prompts are optional.<<}
@@ -158,7 +158,7 @@ Binding agreement to stop or hard-cap frontier development, bilateral or broadly
 
 \### The sort
 
-Always think about policy in terms of tradeoffs — price them, don’t pick favorites.
+Always think about policy in terms of tradeoffs: price them, don’t pick favorites.
 
 #### Question: Open
 id:: ec436b24-4b82-4a3f-b079-a37edc4c4aef
