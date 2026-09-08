@@ -39,7 +39,7 @@ Editorially, this chapter feels like a weird collection of oddities. It's harder
 
 Really, the learning outcome here distills back to the power of intelligence (plus technology). 
 %%
-# Submodule: {++{"author":"AI","timestamp":1788835923027}@@Ch4 - You Don't Get What You Train For
+# Submodule: Ch4 - You Don't Get What You Train For
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/04 - Chapter 4 - You Don't Get What You Train For]]
 
 # Learning Outcome: Explain You Don't Get What You Train For
@@ -167,7 +167,7 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - AI-Induced Psychosis]]
 
-# Submodule: ++}Ch5 - Its Favorite Things
+# Submodule: Ch5 - Its Favorite Things
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]
 
 # Learning Outcome: IABIED - Define the Goal-Space Argument
