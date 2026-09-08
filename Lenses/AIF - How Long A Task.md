@@ -33,9 +33,9 @@ content::
 Three pre-read questions.
 
 1. What would you expect is the number, in human-equivalent hours, that their method gave for AIs up to the end of 2025?
-2. What would you guess are the primary things that cause this number to change?{++{"author":"AI","timestamp":1788872860393}@@
-3. Before you repeat a number like this to someone else, what would you want to know about how it was measured? One or two sentences.++}
-{>>{"author":"lauren (chrome@what)","timestamp":1787828595204}@@this doesn't feel right to ask. we should have something earlier in the course that gets into outcomes. all the articles so far are on the core capability trajectory, but determining what that flowers into requires understanding a lot more stuff.<<}
+2. What would you guess are the primary things that cause this number to change?
+3. Before you repeat a number like this to someone else, what would you want to know about how it was measured? One or two sentences.
+
 Your reasoning is at least as important as your number. Then scroll down to see the answer.
 {>>{"author":"lauren (chrome@what)","timestamp":1787828656913}@@we need the article to be spoiler-tagged or something?<<}
 max-time:: 5:00
@@ -44,9 +44,9 @@ assessment-instructions:: The student has not seen METR's figures. They are in t
 
 One turn, diagnostic. Do NOT reveal the measured horizon, the doubling time, or whether their number is high or low. Do not hint by reacting.
 
-Your only job this turn is to make the second answer sharper. If they named a category rather than a mechanism, for example "more compute" or "better models", ask which specific thing that buys them. If they named a real mechanism, ask what they would expect to see first if it were already happening.{++{"author":"AI","timestamp":1788872862916}@@
+Your only job this turn is to make the second answer sharper. If they named a category rather than a mechanism, for example "more compute" or "better models", ask which specific thing that buys them. If they named a real mechanism, ask what they would expect to see first if it were already happening.
 
-On the third answer, do not answer it for them. Note in one sentence what they said they would want to know. Do not steer them toward trusting or doubting METR; the point is the habit of asking, not a verdict on one group. The reading that follows describes the method, so tell them to check their question against it.++}
+On the third answer, do not answer it for them. Note in one sentence what they said they would want to know. Do not steer them toward trusting or doubting METR; the point is the habit of asking, not a verdict on one group. The reading that follows describes the method, so tell them to check their question against it.
 
 Response length: 60 to 110 words. Short paragraphs. No lists.
 
