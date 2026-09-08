@@ -22,7 +22,7 @@ Staging and production are two different repositories, `lens-edu-staging` and `l
 
 ## The document model
 
-Every content file is markdown with two kinds of structure: YAML frontmatter on top (file-level metadata, `key: value`) and a body of nested headings. A heading's section can carry its own metadata as `key:: value` lines under it; a value runs until the next `key::` or heading. Headings inside multi-line values must be escaped (e.g. `\## Heading`). Unknown frontmatter fields are tolerated, but the platform only acts on documented fields.
+Every content file is markdown with two kinds of structure: YAML frontmatter on top (file-level metadata, `key: value`) and a body of nested headings. A heading's section can carry its own metadata as `key:: value` lines under it; a value runs until the next `key::` or heading. Headings inside multi-line values must be escaped (e.g. `\## {--{"author":"Elias's AI","timestamp":1788858852486}@@Heading`).--}{++{"author":"Elias's AI","timestamp":1788858852486}@@Heading`); inside a fenced code block nothing counts as structure. Segments can be grouped: `#### Callout: Title` … `#### End Callout` draws a box around the segments between them, nested to any depth (see [[../Lenses/Nested callouts demo]]).++} Unknown frontmatter fields are tolerated, but the platform only acts on documented fields.
 
 ## Rules that apply everywhere
 
