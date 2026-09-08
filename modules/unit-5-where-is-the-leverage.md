@@ -71,13 +71,13 @@ no fabricated specifics.
 
 Meeting fodder (90 min): facilitator brings that week's headline and the room replays
 the lunch-table exercise live; students read their day-zero quote and final signposts
-aloud; track choices compared against final hundred-point allocations.{++{"author":"Lauren's AI","timestamp":1788824487706}@@
+aloud; track choices compared against final hundred-point allocations.
 
 Live-cohort rule (2026-09-08): while a cohort is inside this unit, do not split,
 reorder, rename or remove lenses. Add new material only as a new lens appended
 at the end. Adding or removing a lens moves the scoring denominator overnight;
 a question inside an existing lens does not. Keep reading and tutor minutes
-accurate when content changes.++} %%
+accurate when content changes. %%
 
 # Submodule: The handoff
 
