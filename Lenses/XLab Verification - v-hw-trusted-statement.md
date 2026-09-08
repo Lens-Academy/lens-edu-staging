@@ -49,7 +49,7 @@ content::
 
 \#### A deployed primitive: current NVIDIA GPU attestation
 
-Current NVIDIA documentation describes an operational attestation chain for supported GPUs. Evidence is collected from the GPU, checked against signed Reference Integrity Measurements, evaluated locally or by NVIDIA’s Remote Attestation Service, and checked against certificate-revocation information. This is a useful deployed primitive because it makes the trust chain concrete.
+Current NVIDIA documentation describes an operational attestation chain for supported GPUs. Evidence is collected from the GPU, checked against signed Reference Integrity Manifests, evaluated locally or by NVIDIA’s Remote Attestation Service, and checked against certificate-revocation information. This is a useful deployed primitive because it makes the trust chain concrete.
 
 It also shows why implementation details matter. NVIDIA’s Blackwell multi-GPU documentation, updated August 1, 2026, states that each GPU is attested independently and that the process does **not** attest topology or switches. Supported Hopper Protected PCIe configurations can include additional multi-GPU and NVSwitch checks. A general statement such as “GPU attestation proves the cluster configuration” is therefore false. The answer depends on the product, configuration, evidence fields, and appraisal policy.
 
