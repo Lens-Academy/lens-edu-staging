@@ -137,7 +137,10 @@ tags: [wip]
   function fmtSmall(v) {
     if (v <= 0) return "0";
     var d = -Math.floor(Math.log10(v)) + 1;
-    return v.toFixed(Math.min(12, d)).replace(/0+$/, "").replace(/\.$/, "");
+    var s = v.toFixed(Math.min(12, d));
+    while (s.length > 1 && s.charAt(s.length - 1) === "0") s = s.slice(0, -1);
+    if (s.charAt(s.length - 1) === ".") s = s.slice(0, -1);
+    return s;
   }
   function fmtP(p) {
     if (p >= 0.99999) return "~100%";
