@@ -37,6 +37,7 @@ enforce-voice:: true
 
 #### Question
 content:: What did you take away from this course for yourself?
+assessment-instructions:: Check that the student (1) names at least one specific thing from the course, such as an idea, argument, reading, exercise, or conversation, rather than giving a general verdict on the course, and (2) says what it changed or confirmed for them personally. Award 100 when something identifiable from the course is tied to a personal takeaway; 70 to 90 when a specific takeaway is named but the personal link is thin; 40 to 60 for a generic reaction such as "it was interesting" or "I learned a lot" with nothing identifiable from the course; 0 to 20 only for an empty or off topic answer. A takeaway that is critical of the course, or that reports the student moving away from the positions the material argued for, earns full marks when it is specific. Grade specificity and honesty, not satisfaction or agreement.
 enforce-voice:: true
 
 
