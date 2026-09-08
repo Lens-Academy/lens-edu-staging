@@ -259,6 +259,7 @@ Last, and deliberately so. Scope cannot be assessed until the restructure above 
 | Meeting 3 doc | Loses chapter 6, gains the U3 opener and chapter 9 | `todo` |
 | Meeting 4 doc | Expected unchanged | `todo` |
 | Meeting 5 doc | Expected unchanged | `todo` |
+| **Intake form for M1** | **Deferred here deliberately.** Not a copy job: the XLab forms are course-specific (Part 1 runs 10 to 13 minutes on background and goals, the Capstone 5 minutes on project briefs and mentor pairing) and none of those questions transfer. The blocker is not effort but overlap: `AIRF Session 1 Survey` already collects baseline scales, buddy handle and BlueDot history on meeting 1, and its keys are reused by `AIRF Session 5 Survey` for the pre/post join. Adding a form first requires deciding what belongs pre-meeting versus in that survey, and how the two datasets relate. Needs approval on both the data collected and how it is processed | `todo` |
 
 The docs are reachable through the `meeting-doc-template::` links on each `# Meeting:` block. They may warrant restructuring in their own right rather than only patching, which is a decision for whoever owns them once the shape above is settled. Note the history recorded in the course file: meeting 2's doc once ran an outdated session for three days because a link was believed repointed and was not, so verify by opening the doc rather than by trusting the link.
 
