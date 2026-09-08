@@ -487,7 +487,7 @@ content:: Optional: Specimen 13 of 13. Place this text on the organ it implement
 > AI labs and independent experts should use this pause to jointly develop and implement a set of shared safety protocols for advanced AI design and development that are rigorously audited and overseen by independent outside experts.
 options::
 - The rule (Definitions, thresholds, scope, duration)
-- The claims (What parties must be able to prove — declared & undeclared)
+- The claims (What parties must be able to prove: declared & undeclared)
 - The evidence (Access, inspections, monitoring, timeliness)
 - The confidentiality bargain (What the verifier must NOT see)
 - The adversary (The threat model provisions are written against)
@@ -550,14 +550,14 @@ There is no single right answer here. Bring yours to your cohort session and def
 7. **The gap.** The forecaster's pick. Compute is a decaying proxy, so an agreement without review machinery is accurate on signing day and a little more wrong every day after. The quiet problem is the voting rule: review that can be vetoed is a freeze with extra steps.
 :::
 
-:::callout {title="The Reykjavik Protocol — full text" tone="neutral" collapse="closed"}
+:::callout {title="The Reykjavik Protocol: full text" tone="neutral" collapse="closed"}
 The fictional agreement several specimens were drawn from. Two specimens used strengthened versions of Articles VI and VIII; the original text appears here. You will work with this document again in the dissection and the stress test.
 
 **Preamble.** The States Parties to this Protocol, recognizing that certain applications of advanced artificial intelligence may pose risks to international security, have agreed as follows:
 
-**Article I — Definitions.** (1) “Covered training run” means the training of a single general-purpose artificial intelligence model using more than 10²⁶ computational operations. (2) “Covered facility” means any installation with power capacity exceeding 10 megawatts operated for the purpose of artificial intelligence computation. (3) The fine-tuning, continued development, or adaptation of models trained before entry into force of this Protocol shall not constitute a covered training run.
+**Article I. Definitions.** (1) “Covered training run” means the training of a single general-purpose artificial intelligence model using more than 10²⁶ computational operations. (2) “Covered facility” means any installation with power capacity exceeding 10 megawatts operated for the purpose of artificial intelligence computation. (3) The fine-tuning, continued development, or adaptation of models trained before entry into force of this Protocol shall not constitute a covered training run.
 
-**Article II — Core obligation.** No State Party shall conduct, authorize, or knowingly permit within its jurisdiction any covered training run for a period of five years from entry into force.
+**Article II. Core obligation.** No State Party shall conduct, authorize, or knowingly permit within its jurisdiction any covered training run for a period of five years from entry into force.
 
 **Article III — Declarations.** (1) Each State Party shall, within 180 days, declare all covered facilities and all holdings of applicable high-performance computing hardware exceeding one thousand units, as specified in Annex A. (2) Declarations shall be updated annually.
 
