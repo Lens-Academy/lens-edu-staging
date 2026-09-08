@@ -573,7 +573,7 @@ The fictional agreement several specimens were drawn from. Two specimens used st
 
 **Article IX. Withdrawal.** A State Party may withdraw from this Protocol upon ninety days’ notice if it decides that extraordinary events related to the subject matter of this Protocol have jeopardized its supreme interests.
 
-**Article X — Review and amendment.** The thresholds and definitions in Article I may be amended by consensus of all States Parties at a Review Conference, the first of which shall convene three years after entry into force.
+**Article X. Review and amendment.** The thresholds and definitions in Article I may be amended by consensus of all States Parties at a Review Conference, the first of which shall convene three years after entry into force.
 :::
 
 #### Text

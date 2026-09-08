@@ -30,10 +30,10 @@ Colors on XLab's map show a country's primary layer. Most of the interesting cou
 | --- | --- | --- | --- |
 | Chip design & EDA | Where capability is born. The architectures and the design software behind every advanced chip belong to a handful of US and UK firms, so rules can attach here before a single wafer exists. | 2 EDA firms | United States, United Kingdom |
 | Equipment & materials | The narrowest chokepoint in the chain. A few firms in three allied countries build the tools and supply the chemistry every advanced fab depends on. | EUV: 1 company | United States, Japan, Netherlands, Germany |
-| Fabrication | Nearly all frontier chips are made in a handful of known facilities. Few sites, known addresses, hard to hide — which is exactly what makes a verification regime imaginable. | ≈90% → 1 island | United States, China, Taiwan, South Korea, Germany |
-| Memory (HBM) | No high-bandwidth memory, no AI accelerator. HBM comes from three firms in two countries — a second countable chokepoint stacked right next to the first. | 3 firms, 2 countries | United States, China, South Korea |
-| Packaging, assembly & test | Where chips become products and fan out into the world — and where they can slip out of sight. Transshipment and diversion risk lives in this layer. | the evasion surface | Taiwan, Singapore, Malaysia, Vietnam, Thailand |
-| Compute & models | What the rules are ultimately about. Frontier-scale data centers are big, hot, and power-hungry — easy to find, harder to audit. The models inside them are hardest of all. | easy to find, hard to audit | United States, China, United Kingdom, Singapore, Malaysia, Thailand, United Arab Emirates, Saudi Arabia |
+| Fabrication | Nearly all frontier chips are made in a handful of known facilities. Few sites, known addresses, hard to hide, which is exactly what makes a verification regime imaginable. | ≈90% → 1 island | United States, China, Taiwan, South Korea, Germany |
+| Memory (HBM) | No high-bandwidth memory, no AI accelerator. HBM comes from three firms in two countries: a second countable chokepoint stacked right next to the first. | 3 firms, 2 countries | United States, China, South Korea |
+| Packaging, assembly & test | Where chips become products and fan out into the world, and where they can slip out of sight. Transshipment and diversion risk lives in this layer. | the evasion surface | Taiwan, Singapore, Malaysia, Vietnam, Thailand |
+| Compute & models | What the rules are ultimately about. Frontier-scale data centers are big, hot, and power-hungry: easy to find, harder to audit. The models inside them are hardest of all. | easy to find, hard to audit | United States, China, United Kingdom, Singapore, Malaysia, Thailand, United Arab Emirates, Saudi Arabia |
 
 \### The pipeline · sand to model
 
@@ -44,9 +44,9 @@ Upstream · concentrated · most verifiable → downstream · diffuse · hardest
 3. **Equipment** (Equipment & materials). *100% of EUV lithography comes from one Dutch company built around German optics.* ASML, Applied Materials and Tokyo Electron build the machines without which no leading-edge chip exists. Their customer base is small and highly visible, and they know which fabs receive each system.
 4. **Fabrication** (Fabrication). *Roughly 90% of leading-edge logic is made on one island, mostly by one company.* TSMC, Samsung and Intel turn designs into physical chips and retain the production and customer records of what was made, how many and for whom. Their compliance sits between US rules and Chinese customers.
 5. **Memory (HBM)** (Memory). *Three firms in two countries. No HBM, no accelerator.* SK Hynix, Samsung and Micron make the high-bandwidth memory beside every frontier accelerator, creating another small set of producers through which the chain must pass. The Korean firms also balance US controls against substantial exposure to China.
-6. **Packaging & test** (Packaging, assembly & test). *Where chips fan out into products — and where diversion risk begins.* Advanced-packaging lines such as TSMC's CoWoS remain concentrated enough for chips to be counted. Ordinary assembly-and-test firms are more numerous, have the lowest barriers to entry in the chain and are largely absent from policy debates.
+6. **Packaging & test** (Packaging, assembly & test). *Where chips fan out into products, and where diversion risk begins.* Advanced-packaging lines such as TSMC's CoWoS remain concentrated enough for chips to be counted. Ordinary assembly-and-test firms are more numerous, have the lowest barriers to entry in the chain and are largely absent from policy debates.
 7. **Data centers** (Compute & models). *Gigawatt facilities visible from space: easy to find, harder to audit.* AWS, Microsoft Azure, Google Cloud, Oracle, Alibaba and specialists such as CoreWeave sit between customers and machines. Their logs, billing and telemetry make them natural monitors, and they can interrupt a job, but reseller chains and mislabeled workloads weaken what they can attribute to a customer.
-8. **Trained models** (Compute & models). *A handful of labs — but what happens inside them is the hardest thing of all to verify.* OpenAI, Anthropic, Google DeepMind, Meta, xAI and their Chinese peers hold the fullest account of what they trained and evaluated. They can report, hide trade secrets, overstate precautions or benefit from a rival's restraint. Millions of downstream deployers reveal what models can do, while resellers, contractors and front companies can break the link between a named customer and an activity.
+8. **Trained models** (Compute & models). *A handful of labs, but what happens inside them is the hardest thing of all to verify.* OpenAI, Anthropic, Google DeepMind, Meta, xAI and their Chinese peers hold the fullest account of what they trained and evaluated. They can report, hide trade secrets, overstate precautions or benefit from a rival's restraint. Millions of downstream deployers reveal what models can do, while resellers, contractors and front companies can break the link between a named customer and an activity.
 
 \### The countries
 
@@ -57,7 +57,7 @@ Every country card is tagged with the actor roles it plays in this module: capab
 
 - NVIDIA and AMD design the accelerators; Synopsys and Cadence control the chip-design software (EDA) nearly everyone uses
 - Applied Materials, Lam Research, and KLA build fab equipment; Micron makes HBM; Intel and new TSMC Arizona fabs bring some leading-edge production home
-- Hyperscalers run the largest GPU fleets; frontier labs — OpenAI, Anthropic, Google — train the models
+- Hyperscalers run the largest GPU fleets; frontier labs (OpenAI, Anthropic, Google) train the models
 
 **Why it matters for verification.** Holds the design, software, and cloud levers, and writes the export rules (BIS). In any two-way international regime, it is also the actor everyone else would need to verify, while the same machinery could constrain its lead and its own firms.
 :::
@@ -75,7 +75,7 @@ Every country card is tagged with the actor roles it plays in this module: capab
 :::callout {title="Taiwan" tone="neutral" collapse="closed"}
 *Primary layer: Fabrication. Also: Packaging, assembly & test. Roles: chokepoint controller, information holder.*
 
-- TSMC fabricates roughly 90% of leading-edge logic — including every NVIDIA AI accelerator
+- TSMC fabricates roughly 90% of leading-edge logic, including every NVIDIA AI accelerator
 - Its CoWoS advanced-packaging capacity gates how many accelerators exist at all
 
 **Why it matters for verification.** Nearly every frontier chip passes through a few known facilities. TSMC's customer records are a verification asset; the concentration makes Taiwan both the system's tightest physical chokepoint and a strategic point of failure it does not control.
@@ -84,7 +84,7 @@ Every country card is tagged with the actor roles it plays in this module: capab
 :::callout {title="South Korea" tone="neutral" collapse="closed"}
 *Primary layer: Memory (HBM). Also: Fabrication. Roles: chokepoint controller, capability holder.*
 
-- SK Hynix and Samsung supply most of the world's HBM — the stacked memory sitting beside every AI accelerator
+- SK Hynix and Samsung supply most of the world's HBM, the stacked memory sitting beside every AI accelerator
 - US export controls extended to HBM in Dec 2024; Korean fabs in China now run on annually renewed licenses
 
 **Why it matters for verification.** Accelerators cannot ship without HBM. This second countable chokepoint sits inside a state balancing export exposure to China against alliance pressure from the United States.
@@ -114,7 +114,7 @@ Every country card is tagged with the actor roles it plays in this module: capab
 - Arm's architecture sits inside most of the world's chips, including NVIDIA's Grace CPUs
 - Google DeepMind; the AI Security Institute pioneered government evaluation of frontier models
 
-**Why it matters for verification.** A standards and evaluations power. Part of what any verification regime would check — the evals — is being defined here.
+**Why it matters for verification.** A standards and evaluations power. Part of what any verification regime would check, the evals, is being defined here.
 :::
 
 :::callout {title="Germany" tone="neutral" collapse="closed"}
@@ -130,7 +130,7 @@ Every country card is tagged with the actor roles it plays in this module: capab
 *Primary layer: Compute & models. Also: Packaging, assembly & test. Roles: evasion pathway, information holder.*
 
 - Major data-center, finance, and logistics hub for the region
-- Feb 2025: three men charged with fraud over servers with NVIDIA chips declared for Malaysia — reportedly ~$390M worth
+- Feb 2025: three men charged with fraud over servers with NVIDIA chips declared for Malaysia, reportedly ~$390M worth
 
 **Why it matters for verification.** Where paper trails and physical trails diverge. A large share of chip billing routes through Singapore entities, which makes it the know-your-customer pressure point.
 :::
@@ -150,7 +150,7 @@ Every country card is tagged with the actor roles it plays in this module: capab
 - Intel's largest assembly-and-test plant operates near Ho Chi Minh City
 - Packaging investment is growing as supply chains diversify
 
-**Why it matters for verification.** Every new assembly hub widens the surface a tracking regime has to cover. Diversification is resilience for industry — and dispersion for verifiers.
+**Why it matters for verification.** Every new assembly hub widens the surface a tracking regime has to cover. Diversification is resilience for industry, and dispersion for verifiers.
 :::
 
 :::callout {title="Thailand" tone="neutral" collapse="closed"}
@@ -159,7 +159,7 @@ Every country card is tagged with the actor roles it plays in this module: capab
 - Named alongside Malaysia as a routing country in the Nov 2025 US smuggling indictment
 - Growing assembly, test, and data-center investment
 
-**Why it matters for verification.** A live piece of the evasion map: restricted chips moved through third countries to obscure their true destination — exactly what location verification is meant to catch.
+**Why it matters for verification.** A live piece of the evasion map: restricted chips moved through third countries to obscure their true destination: exactly what location verification is meant to catch.
 :::
 
 :::callout {title="United Arab Emirates" tone="neutral" collapse="closed"}
@@ -177,7 +177,7 @@ Every country card is tagged with the actor roles it plays in this module: capab
 - HUMAIN launched in 2025 with major NVIDIA and AMD agreements
 - Gigawatt-scale data-center plans tied to sovereign investment
 
-**Why it matters for verification.** The same experiment as the UAE: compute-for-conditions deals — which only mean something if the conditions can actually be checked.
+**Why it matters for verification.** The same experiment as the UAE: compute-for-conditions deals, which only mean something if the conditions can actually be checked.
 :::
 
 \### Anatomy of a Chip
@@ -192,7 +192,7 @@ A geographic chokepoint is potential leverage, not verification by itself. It ma
 
 The stage-by-stage structure comes from CSET’s [“The Semiconductor Supply Chain”](https://cset.georgetown.edu/publication/the-semiconductor-supply-chain/) (2021), including its account of assembly and test as the part of the chain with the lowest barriers to entry. The concentration figures come from Sastry, Heim, Belfield et al., [“Computing Power and the Governance of Artificial Intelligence”](https://arxiv.org/abs/2402.08797) (2024): ASML at 100% of EUV lithography, TSMC at roughly 90% of sub-7 nm logic in the cited 2022 data, and several critical steps with fewer than three suppliers. High-bandwidth memory entered the US export-control perimeter in 2024; Fist, Burga and Chilukuri describe that expansion in [“Technology to Secure the AI Chip Supply Chain”](https://www.cnas.org/publications/reports/technology-to-secure-the-ai-chip-supply-chain-a-primer) (CNAS, 2024).
 
-**Currency.** The concentration figures above use 2021–2023 data reported in 2021 and 2024 sources. Shares move; the structure — one EUV maker, one dominant leading-edge fab and a handful of clouds — has not. Re-verify a number before quoting it. The policy layer moves faster still: re-check dates, thresholds and bill status before citing. Later modules go deeper on the mechanisms named here.{>>{"author":"Elias's AI","timestamp":1788016632624}@@The italic "Content current as of July 2026 ... Congress.gov (H.R. 3447 / S. 1705) ..." paragraph is no longer in XLab's MDX; it was replaced by this Notes and sources section and Currency paragraph, copied from interactive-map.mdx.<<}
+**Currency.** The concentration figures above use 2021–2023 data reported in 2021 and 2024 sources. Shares move; the structure (one EUV maker, one dominant leading-edge fab and a handful of clouds) has not. Re-verify a number before quoting it. The policy layer moves faster still: re-check dates, thresholds and bill status before citing. Later modules go deeper on the mechanisms named here.{>>{"author":"Elias's AI","timestamp":1788016632624}@@The italic "Content current as of July 2026 ... Congress.gov (H.R. 3447 / S. 1705) ..." paragraph is no longer in XLab's MDX; it was replaced by this Notes and sources section and Currency paragraph, copied from interactive-map.mdx.<<}
 
 #### Text
 content::
