@@ -61,7 +61,7 @@ to:: Sec. 93.011. EMERGENCY CLOSING. (a) If the officers of a savings bank deter
 content::
 \## Assignment
 
-Open [[../Lenses/XLab Verification - v-paper-scher-treaty|the draft agreement]] prepared by the MIRI Technical Governance Team — Scher, Abecassis, Barnett, and Abeyta.
+Open [[../Lenses/XLab Verification - v-paper-scher-treaty|the draft agreement]] prepared by the MIRI Technical Governance Team (Scher, Abecassis, Barnett, and Abeyta).
 
 Participants are not expected to read the document continuously from beginning to end. Instead, examine it article by article, focusing on the questions below.
 
@@ -134,14 +134,14 @@ A recall drill for the anatomy you just dissected.
 
 **Every agreement that restrains anyone has the same seven organs.** Statements have some of them. Treaties have all of them, though not all healthy. In the next fifteen minutes you will read thirteen short texts, real and fictional, and place each one on the organ it implements. Three of them implement nothing at all.
 
-_13 specimens · about 15 minutes · drag each text to the organ it implements._
+_13 specimens · about 15 minutes · choose the organ each text implements._
 
-Sources are hidden until you place each card. Read the text, not the letterhead. Where a tag is arguable, a defensible second-best answer is accepted and discussed, because expert readers disagree about these too.
+Each specimen's source sits in a collapsed note below it; open it after you have answered. Read the text, not the letterhead. Where a tag is arguable, a defensible second-best answer is accepted and discussed, because expert readers disagree about these too.
 
 **The seven organs, and the bin:**
 
 1. **The rule.** Definitions, thresholds, scope, duration. What exactly is prohibited, for whom, above what line, for how long. Rules live in their definitions.
-2. **The claims.** What parties must be able to prove — declared & undeclared. Everything declared is compliant, and nothing undeclared exists. Every mechanism serves one branch.
+2. **The claims.** What parties must be able to prove: declared & undeclared. Everything declared is compliant, and nothing undeclared exists. Every mechanism serves one branch.
 3. **The evidence.** Access, inspections, monitoring, timeliness. How anyone would know. Judge it by access and by speed against the breakout clock.
 4. **The confidentiality bargain.** What the verifier must NOT see. What stays secret, and the machinery that makes intrusion acceptable. No one signs without it.
 5. **The adversary.** The threat model provisions are written against. Reconstructed from clauses that only make sense as answers to a specific evasion.
@@ -358,7 +358,7 @@ options::
 - The gap (Verified proxy vs. actual goal; decay; review)
 - No organ (Advocacy: sounds load-bearing, binds no one)
 optional:: true
-feedback-instructions:: Correct: the institution & consequences. If right: "Exit is part of the institution organ, and it is always read against a clock. If withdrawal takes ninety days and a covert sprint to the prohibited capability takes sixty, the exit clause is a hole through every other organ. Always read the exit at the speed of the breakout it permits." If the rule: "It has a rule's grammar, but its subject is the agreement itself, not the prohibited activity. Clauses about how bindingness ends belong to the institution organ. The question they raise is not 'what is banned' but 'what is this ban worth in a crisis.'" Any other bin: "This governs how the agreement's grip ends. Institutional organ: exit is one of its parts." Then reveal the source: standard withdrawal language, modeled on NPT Article X — the clause North Korea invoked in 2003. No praise.
+feedback-instructions:: Correct: the institution & consequences. If right: "Exit is part of the institution organ, and it is always read against a clock. If withdrawal takes ninety days and a covert sprint to the prohibited capability takes sixty, the exit clause is a hole through every other organ. Always read the exit at the speed of the breakout it permits." If the rule: "It has a rule's grammar, but its subject is the agreement itself, not the prohibited activity. Clauses about how bindingness ends belong to the institution organ. The question they raise is not 'what is banned' but 'what is this ban worth in a crisis.'" Any other bin: "This governs how the agreement's grip ends. Institutional organ: exit is one of its parts." Then reveal the source: standard withdrawal language, modeled on NPT Article X, the clause North Korea invoked in 2003. No praise.
 
 #### Text
 content::
