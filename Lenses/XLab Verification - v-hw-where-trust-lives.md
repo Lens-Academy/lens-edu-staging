@@ -43,7 +43,7 @@ Possible components include device identity, secure or measured boot, signed cou
 Current confidential-computing support on accelerators is a deployed security primitive, not proof of treaty compliance. For example, NVIDIA describes Hopper confidential computing as protecting code and data in use from the host and basic physical attacks under its stated threat model. A treaty adversary may be stronger than that threat model, and a confidential workload may still violate the treaty.
 
 :::callout {title="Source" tone="neutral" collapse="closed"}
-NVIDIA, [*NVIDIA H100 Tensor Core GPU Security*](https://images.nvidia.com/aem-dam/en-zz/Solutions/data-center/h100/PB-11133-001_v01.pdf) — the confidential-computing whitepaper and current product documentation.
+NVIDIA, [*NVIDIA H100 Tensor Core GPU Security*](https://images.nvidia.com/aem-dam/en-zz/Solutions/data-center/h100/PB-11133-001_v01.pdf), the confidential-computing whitepaper and current product documentation.
 :::
 
 \#### Architecture B: off-chip digital monitoring
@@ -69,7 +69,7 @@ Possible components include network taps, server or rack gateways, input/output 
 Recent work has proposed fingerprinting or committing cluster input and output through external taps and secure gateways. These designs are research proposals. Their value is to make the trust-placement problem concrete, not to show that the engineering and political problems are solved.
 
 :::callout {title="Source" tone="neutral" collapse="closed"}
-A. Cankaya et al., *Fingerprinting All AI Cluster I/O Without Mutually Trusted Processors* — [arXiv:2606.10724](https://arxiv.org/abs/2606.10724), June 2026. Treat the architecture and implementation schedule as a research proposal.
+N. Cankaya et al., *Fingerprinting All AI Cluster I/O Without Mutually Trusted Processors*, [arXiv:2606.10724](https://arxiv.org/abs/2606.10724), June 2026. Treat the architecture and implementation schedule as a research proposal.
 :::
 
 \#### Architecture C: off-chip analog monitoring
