@@ -262,6 +262,8 @@ The docs are reachable through the `meeting-doc-template::` links on each `# Mee
 
 ---
 
+## 6. Welcome lenses: the evidence behind the decision
+
 **Corrected inventory, twice over.** My first pass found two welcome lenses. My second found four patterns. Both undercounted. Every IABIED module opens with a `# Submodule: Welcome` (M3's is `# Submodule: Part 3 Welcome`). The slot is uniform; what sits inside it is not.
 
 | Module | What fills the Welcome submodule |
