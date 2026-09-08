@@ -16,9 +16,9 @@ Most forecasts reach you as a number. This one comes with its working shown. It 
 
 That makes it useful twice. It is useful for what it concludes. It is also useful for what it shows about how a conclusion like that gets built, including the points where two people run the same model and get different numbers.
 
-{++{"author":"Lauren's AI","timestamp":1788772737567}@@One term before you start. The authors write "AGI" throughout: artificial general intelligence, their name for an AI that can do most of what a human professional does at a computer. The model itself is about a narrower milestone, an AI that does the coding part of AI research on its own.
+One term before you start. The authors write "AGI" throughout: artificial general intelligence, their name for an AI that can do most of what a human professional does at a computer. The model itself is about a narrower milestone, an AI that does the coding part of AI research on its own.
 
-++}Before you read any of it, you build your own version of their set of methods.
+Before you read any of it, you build your own version of their set of methods.
 
 #### Question
 content::
@@ -54,7 +54,7 @@ This is a one-turn response.
 #### Article
 source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## AGI timelines forecasting methods
-to:: {--{"author":"Lauren's AI","timestamp":1788825284414}@@Our previous model with median parameters predicted superhuman coder--}{++{"author":"Lauren's AI","timestamp":1788825284414}@@possibility of time horizon doublings getting easier or harder at higher horizons++}
+to:: possibility of time horizon doublings getting easier or harder at higher horizons
 
 #### Question
 content::
