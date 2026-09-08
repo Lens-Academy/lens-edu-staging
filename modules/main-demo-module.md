@@ -58,7 +58,11 @@ The lenses show in the same order in the learner's UI as in this module file. Le
 
 %% Now that we have a feel for how modules and learning outcomes work, let's look at shared authored-content features inside a normal Lens. %%
 # Lens:
-source:: [[../Lenses/Authored content features demo]]
+source:: [[../Lenses/Authored content features demo]]{++{"author":"Elias's AI","timestamp":1788858817866}@@
+
+%% Callouts can hold whole segments (questions, excerpts, widgets, further callouts), nested to any depth, and a callout inside an article can hold a question too: %%
+# Lens:
+source:: [[../Lenses/Nested callouts demo]]++}
 
 %% Article segments add source-specific presentation around imported prose. First see how excerpt boundaries work: %%
 # Lens:
