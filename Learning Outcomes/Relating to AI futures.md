@@ -32,6 +32,7 @@ enforce-voice:: true
 
 #### Question
 content:: What would be a reasonable next step for you after this course to address that missing piece?
+assessment-instructions:: This asks for the concrete action that follows from the gap named in the previous question. Check that the student (1) names an action rather than an intention, so "read this report", "email this person", or "apply to this program" rather than "learn more", (2) describes something they could plausibly start soon, and (3) links it to the gap they identified. Award 100 for a specific, plausible step that addresses the stated gap; 70 to 90 for a specific step whose link to the gap is loose; 40 to 60 when the action is so vague that the student could not tell whether they had done it; 0 to 20 only for an empty or off topic answer. Do not judge the ambition of the step: a small realistic step scores as well as a large one.
 enforce-voice:: true
 
 #### Question
