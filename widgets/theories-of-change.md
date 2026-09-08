@@ -185,7 +185,7 @@ tags: [wip]
     var box = BOXES[step];
     BOXES.forEach(function (b) {
       var btn = byId[b.id], v = (state.boxes[b.id] || "").trim();
-      btn.querySelector(".txt").textContent = v || "—";
+      btn.querySelector(".txt").textContent = v || "(empty)";
       btn.classList.toggle("is-empty", !v);
       btn.classList.toggle("is-active", b.id === box.id);
       btn.setAttribute("aria-current", b.id === box.id ? "step" : "false");
