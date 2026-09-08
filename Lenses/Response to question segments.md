@@ -215,4 +215,8 @@ feedback-instructions:: Explain most important misplaced relationship and why it
 - Normal lenses may contain graded practice or ungraded reflection.
 - Learning Outcome tests require gradable `Question: Open` and `Question: Choice`. `Question: FillBlank` may mix graded and ungraded blanks. `Question: Ranking` is graded when it has `assessment-instructions::`.
 - `Question: Open` grading needs `assessment-instructions::`; `Question: FillBlank` with expected answers uses base assessor automatically; `Question: Choice` grading needs `[x]`.
-- `Question: Rating` and wholly ungraded `Question: FillBlank` never affect score. %%
+- `Question: Rating` and wholly ungraded `Question: FillBlank` never affect score. %%{++{"author":"Elias's AI","timestamp":1788858838153}@@
+
+%% Where a question can sit:
+- Between `#### Callout: Title` and `#### End Callout`, boxed with the segments around it (see [[../Lenses/Nested callouts demo]]).
+- Inside an article body, as a `:::question{type="open"}` block whose body is the same `id::`, `content::` and option fields as the segment, closed with `:::`. It appears in every lens that embeds that part of the article and on the article's own page, and it is answered and graded like any question. A `:::callout` around it is drawn as a box (see [[../Lenses/Article annotation and text collapse demo]]). %%++}

@@ -8,10 +8,15 @@ tags: [wip]
 
 #### Text
 content::
-This lens demonstrates the **Widget** segment: an interactive page written as HTML in the editor's `widgets/` folder and embedded inline between ordinary text segments. Try the one below and test all four answers.
+This lens demonstrates the **Widget** segment: an interactive page written as HTML in the editor's `widgets/` folder and embedded inline between ordinary text segments. Try the one below and test all four answers.{++{"author":"Elias's AI","timestamp":1788858834477}@@ (It sits inside a `#### Callout:` box, which any segment can.)
+
+#### Callout: Try it
+tone:: blue++}
 
 #### Widget
-source:: [[../widgets/verification-problem]]
+source:: [[../widgets/verification-problem]]{++{"author":"Elias's AI","timestamp":1788858834477}@@
+
+#### End Callout++}
 
 #### Text
 content::
