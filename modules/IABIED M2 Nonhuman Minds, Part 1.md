@@ -405,7 +405,7 @@ source:: ![[../Lenses/IABIED - QA - The Road to Wanting]]
 # Lens: IABIED - QA - Smart AIs Spot Lies
 optional:: true
 hide:: true
-source:: ![[../Lenses/IABIED - QA - Smart AIs Spot Lies]]
+source:: ![[../Lenses/IABIED - QA - Smart AIs Spot Lies]]{--{"author":"AI","timestamp":1788836396501}@@
 
 # Submodule: Ch4 - You Don't Get What You Train For
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/04 - Chapter 4 - You Don't Get What You Train For]]
@@ -533,7 +533,7 @@ source:: ![[../Lenses/IABIED - QA - Reflection and Self-Modification]]
 # Lens: IABIED - QA - AI-Induced Psychosis
 optional:: true
 hide:: true
-source:: ![[../Lenses/IABIED - QA - AI-Induced Psychosis]]
+source:: ![[../Lenses/IABIED - QA - AI-Induced Psychosis]]--}
 
 
 
