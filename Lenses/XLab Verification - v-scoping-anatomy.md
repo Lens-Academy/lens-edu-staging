@@ -559,13 +559,13 @@ The fictional agreement several specimens were drawn from. Two specimens used st
 
 **Article II. Core obligation.** No State Party shall conduct, authorize, or knowingly permit within its jurisdiction any covered training run for a period of five years from entry into force.
 
-**Article III — Declarations.** (1) Each State Party shall, within 180 days, declare all covered facilities and all holdings of applicable high-performance computing hardware exceeding one thousand units, as specified in Annex A. (2) Declarations shall be updated annually.
+**Article III. Declarations.** (1) Each State Party shall, within 180 days, declare all covered facilities and all holdings of applicable high-performance computing hardware exceeding one thousand units, as specified in Annex A. (2) Declarations shall be updated annually.
 
-**Article IV — Monitoring.** Declared covered facilities shall install power metering and workload verification instruments approved by the Technical Secretariat, where technically and commercially feasible.
+**Article IV. Monitoring.** Declared covered facilities shall install power metering and workload verification instruments approved by the Technical Secretariat, where technically and commercially feasible.
 
-**Article V — Inspections.** (1) The Technical Secretariat may conduct routine inspections of declared facilities upon fourteen days’ notice. (2) Any State Party may request a challenge inspection of any facility of another State Party; such inspection shall proceed upon approval by a two-thirds majority of the Executive Council.
+**Article V. Inspections.** (1) The Technical Secretariat may conduct routine inspections of declared facilities upon fourteen days’ notice. (2) Any State Party may request a challenge inspection of any facility of another State Party; such inspection shall proceed upon approval by a two-thirds majority of the Executive Council.
 
-**Article VI — Confidentiality.** Inspectors shall not access, copy, or transmit model parameters, training data, or source code. Managed access procedures shall be specified in Annex B, to be concluded by the Executive Council no later than two years after entry into force.
+**Article VI. Confidentiality.** Inspectors shall not access, copy, or transmit model parameters, training data, or source code. Managed access procedures shall be specified in Annex B, to be concluded by the Executive Council no later than two years after entry into force.
 
 **Article VII — Non-parties.** States Parties shall not export applicable high-performance computing hardware to non-parties, except as licensed for verified civilian purposes.
 
