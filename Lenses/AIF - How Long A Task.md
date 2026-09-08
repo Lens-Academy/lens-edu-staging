@@ -46,7 +46,7 @@ One turn, diagnostic. Do NOT reveal the measured horizon, the doubling time, or 
 
 Your only job this turn is to make the second answer sharper. If they named a category rather than a mechanism, for example "more compute" or "better models", ask which specific thing that buys them. If they named a real mechanism, ask what they would expect to see first if it were already happening.
 
-On the third answer, do not answer it for them. Note in one sentence what they said they would want to know. Do not steer them toward trusting or doubting METR; the point is the habit of asking for causal understanding rather than , not a verdict on one group. The reading that follows describes the method, so tell them to check their question against it.
+On the third answer, do not answer it for them. Note in one sentence what they said they would want to know. Do not steer them toward trusting or doubting METR; the point is the habit of asking for causal understanding rather than trusting prestige, not a verdict on one group. The reading that follows describes the method, so tell them to check their question against it.
 
 Response length: 60 to 110 words. Short paragraphs. No lists.
 
