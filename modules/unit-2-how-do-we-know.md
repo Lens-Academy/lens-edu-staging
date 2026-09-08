@@ -4,7 +4,7 @@ title: "Unit 2: How Do We Know?"
 id: 'b0194d96-a8ed-4dd7-bf98-9b4cabc319df'
 ---
 
-{++{"author":"Lauren's AI","timestamp":1788824476476}@@%% Live-cohort rule (2026-09-08): while a cohort is inside this unit, do not split,
+%% Live-cohort rule (2026-09-08): while a cohort is inside this unit, do not split,
 reorder, rename or remove lenses. Add new material only as a new lens appended
 at the end. Adding or removing a lens moves the scoring denominator overnight;
 a question inside an existing lens does not. Keep reading and tutor minutes
@@ -12,7 +12,7 @@ accurate when content changes. Five lenses carry optional:: true (Reference
 Classes, AI 2027, AI 2040, Predict-O-Matic, Going Further); the opening frame
 names them so the student can plan. %%
 
-++}# Submodule: Where we are starting from
+# Submodule: Where we are starting from
 
 # Lens: Cold Open
 source:: [[../Lenses/U2 - Cold Open]]
@@ -34,9 +34,9 @@ What follows: the evidence on what actually correlates with forecasting accuracy
 
 A test sits at the end of each of the next three sections, and none of them is about the readings. You will be handed questions from transport, radiology, and chemical engineering, and asked to do the thing rather than describe it. An answer that reconstructs an assigned argument is a failing answer even when it reconstructs it accurately. If you find yourself wanting to write down what a reading said, that is the signal you have not yet got the thing the reading was pointing at.
 
-{++{"author":"Lauren's AI","timestamp":1788824479461}@@Five lenses in this unit are marked optional: Reference Classes And Their Denominators, AI 2027, AI 2040, The Parable of Predict-O-Matic, and Going Further On Timelines. The three tests do not depend on any of them. If you are short on time, Reference Classes is the shortest and the one to keep; the other four are extensions.
+Five lenses in this unit are marked optional: Reference Classes And Their Denominators, AI 2027, AI 2040, The Parable of Predict-O-Matic, and Going Further On Timelines. The three tests do not depend on any of them. If you are short on time, Reference Classes is the shortest and the one to keep; the other four are extensions.
 
-++}# Submodule: What predicts accuracy
+# Submodule: What predicts accuracy
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Decomposing an unanswerable question]]
@@ -136,7 +136,7 @@ Open what you wrote in the Cold Open at the start of this unit: the flights, the
 
 The three tests you have taken, at the end of each section, were those same three objects in different clothes. That was the only honest way to find out whether anything changed. Read your old answers against what you wrote in the tests, and notice specifically what you would write instead now, and why. If the answer is that you would use better vocabulary for the same reasoning, the unit did not work on you, and that is worth knowing.
 
-{++{"author":"Lauren's AI","timestamp":1788772171383}@@#### Question: Open
+#### Question: Open
 id:: 1d35af4f-bf47-49ed-b610-9e0aa3b036d4
 content::
 \## Revision 2
@@ -169,7 +169,7 @@ Maximum 2 tutor turns. Keep an internal turn counter. Close by telling them this
 
 #### Text
 content::
-++}\## Additional resources for this topic
+\## Additional resources for this topic
 
 ::card[[../Lenses/U2 - Reference Classes And Their Denominators]]
 
