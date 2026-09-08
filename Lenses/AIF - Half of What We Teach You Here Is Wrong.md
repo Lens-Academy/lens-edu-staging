@@ -58,9 +58,9 @@ Don't think at great length; this is a pre-test, so just try to sketch what seem
 
 We'll return to this later to review what insights you had. Be precise enough to be wrong. Expect to be surprised. 
 
-{++{"author":"Lauren's AI","timestamp":1788772622978}@@max-time:: 10:00
+max-time:: 10:00
 
-++}assessment-instructions:: The student is at the very start of the course and has just been told that half of what follows may be wrong, and that they will be asked to guess before most readings. They have now written their pre-course guesses about the next ten years of AI.
+assessment-instructions:: The student is at the very start of the course and has just been told that half of what follows may be wrong, and that they will be asked to guess before most readings. They have now written their pre-course guesses about the next ten years of AI.
 
 Do not grade predictive correctness. There is no right answer here and saying so is part of the job.
 
