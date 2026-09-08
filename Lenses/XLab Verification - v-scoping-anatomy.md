@@ -19,9 +19,9 @@ Claude Schenker, Directorate of International Law, Swiss Federal Department of F
 
 Review the following sections:
 
-- **Pages 13–15 — Structure of a treaty:** the title and preamble, the main body, the final clauses, and the annexes;
-- **Page 42 — Interpretation:** Articles 31–33 of the Vienna Convention and the order in which the principal interpretative methods are applied — ordinary meaning, context, and the treaty’s object and purpose;
-- **Annex E, page 47 — Model final clauses:** complete examples of provisions on signature, ratification, accession, and entry into force.
+- **Pages 13–15, Structure of a treaty:** the title and preamble, the main body, the final clauses, and the annexes;
+- **Page 42, Interpretation:** Articles 31–33 of the Vienna Convention and the order in which the principal interpretative methods are applied: ordinary meaning, context, and the treaty’s object and purpose;
+- **Annex E, page 47, Model final clauses:** complete examples of provisions on signature, ratification, accession, and entry into force.
 
 The three excerpts follow.
 
@@ -43,7 +43,7 @@ to:: <sup>157</sup> Taken from the Treaty on Mutual Legal Assistance in Criminal
 #### Text
 content::
 :::callout {title="Reading the Treaty Taking Too Long?" tone="neutral" collapse="closed"}
-Read **Look for key verbs** twice. It is question 1 of this unit, in the drafters’ own words.
+Read **Look for key verbs** twice. It is question 1 of the assignment below, in the drafters’ own words.
 
 \### [Reading Statutes and Bills](https://tlc.texas.gov/docs/legref/readingabill.pdf)
 *“Tips for Reading and Understanding a Statute”, pp. 4–5, complete*
