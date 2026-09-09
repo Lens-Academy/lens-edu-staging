@@ -334,10 +334,14 @@ tags: []
       lines.push("  The margin: " + (state[s.id].margin.trim() || "(not written yet)"));
       lines.push("  The binding constraint: " + (state[s.id].binding.trim() || "(not written yet)"));
     });
-    var rows = spreadTable().slice().sort(function (x, y) { return y.spread - x.spread; });
-    if (rows[0] && rows[0].spread > 0) {
+    var rows = spreadTable();
+    var hi = 0, lo = Infinity;
+    rows.forEach(function (r) { if (r.spread > hi) hi = r.spread; if (r.spread < lo) lo = r.spread; });
+    if (hi > 0) {
+      var movers = rows.filter(function (r) { return r.spread === hi; }).map(function (r) { return r.label; });
+      var stayers = rows.filter(function (r) { return r.spread === lo; }).map(function (r) { return r.label; });
       lines.push("");
-      lines.push("Largest swing across the three regimes: " + rows[0].label + ", spread " + fmt(rows[0].spread) + " researchers. Smallest swing: " + rows[rows.length - 1].label + ", spread " + fmt(rows[rows.length - 1].spread) + ".");
+      lines.push("Widest swing across the three regimes: " + movers.join(", ") + " (spread " + fmt(hi) + " researchers). Narrowest: " + stayers.join(", ") + " (spread " + fmt(lo) + ").");
     }
     lines.push("Scenarios answered (allocation totals " + TOTAL + " and both defences written): " + answeredCount() + " of " + SCENARIOS.length + ".");
     return lines.join("\n");
