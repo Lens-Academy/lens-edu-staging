@@ -45,40 +45,46 @@ source:: [[../Lenses/AIF - What a Curve Licenses]]
 
 # Lens: Revision 1
 id:: 6b5aeba9-9a1e-4622-bbd6-59915a64be70
-tldr:: Restate your ten-year model from memory, then change it. What actually moved?
-summary_for_tutor:: "Module-end restatement of the student's day-zero model. Skill practiced: honest revision. No comparison against stored text; reward mechanisms and numbers entering the model, flag identical confidence in new vocabulary."
+tldr:: {--{"author":"AI","timestamp":1788956731578}@@Restate your ten-year model--}{++{"author":"AI","timestamp":1788956731578}@@A short case, run live by the tutor and built++} from {--{"author":"AI","timestamp":1788956731578}@@memory, --}{++{"author":"AI","timestamp":1788956731578}@@your own field. A decision someone near you will make this year, ++}then {--{"author":"AI","timestamp":1788956731578}@@change it. What actually moved?--}{++{"author":"AI","timestamp":1788956731578}@@the world moves three years, then you decide.++}
+summary_for_tutor:: "Module-end {--{"author":"AI","timestamp":1788956731578}@@restatement--}{++{"author":"AI","timestamp":1788956731578}@@case instead++} of {++{"author":"AI","timestamp":1788956731578}@@a restatement (Lauren, 2026-09-09: we care about what they do, not what they say). The tutor generates ++}the {++{"author":"AI","timestamp":1788956731578}@@case from the ++}student's {--{"author":"AI","timestamp":1788956731578}@@day-zero model. Skill practiced: honest revision. No comparison against stored text; reward mechanisms and numbers entering--}{++{"author":"AI","timestamp":1788956731578}@@own field, advances the world under the Unit 1 gears, and pushes once. Evidence of the skill is++} the {--{"author":"AI","timestamp":1788956731578}@@model, flag identical confidence in new vocabulary."--}{++{"author":"AI","timestamp":1788956731578}@@decision and the watch-signal, not recall. Three tutor turns."++}
 reading_minutes:: 2
-tutor_minutes:: 8
+tutor_minutes:: {--{"author":"AI","timestamp":1788956731578}@@8--}{++{"author":"AI","timestamp":1788956731578}@@10++}
 
-#### Question
-content::
-\## Revision 1
+#### {--{"author":"AI","timestamp":1788956731578}@@Question--}{++{"author":"AI","timestamp":1788956731578}@@Chat++}
+{--{"author":"AI","timestamp":1788956731578}@@content::--}{++{"author":"AI","timestamp":1788956731578}@@instructions::++}
+{--{"author":"AI","timestamp":1788956731578}@@\## Revision 1
 
-Without scrolling back, restate your ten-year model from memory, and then change it. What did this module actually move? Name at least one number or mechanism that was not in your day-zero version, and one thing you believed at the start that you now hold more loosely. If nothing moved, say that too, and say what you'd need to see to move.
+Without scrolling back, restate your ten-year model from memory, and then change it. What did this module actually move? Name at least one number or mechanism that was not in your day-zero version, --}{++{"author":"AI","timestamp":1788956731578}@@You are running a short case, not a quiz. The student has just finished Unit 1: a compute thought experiment (Fun with +12 OOMs), measured base rates for jumps in progress, the METR task-length curve (doubling every four to seven months), ++}and {--{"author":"AI","timestamp":1788956731578}@@one thing you believed at the start that you now hold more loosely. If nothing moved, say that too, and say what you'd need to see to move.
 
 max-time:: 8:00
 
-assessment-instructions:: The student wrote a day-zero model of the next ten years of AI at the start of this module, and has since done three lenses: a compute thought experiment, measured base rates for discontinuous progress, and a wedge about what a trend line licenses.
+assessment-instructions:: The student wrote a day-zero model of the next ten years of AI at the start of this module, and has since done three lenses: a compute thought experiment, measured base rates for discontinuous progress, and--}{++{"author":"AI","timestamp":1788956731578}@@what a trend line licenses. Nothing they wrote earlier in this course is visible to you; do not ask for it.
 
-Compare against nothing. You do not have their original text and should not ask for it. Restating from memory rather than scrolling back is deliberate: it is the skill being practiced.
+Turn 1. Ask two things in one message. First, what field or role they are in or heading for, in one line. Second, one decision in that field that someone will make in the next twelve months which quietly assumes AI capability stays roughly where it is: a hire, a research agenda,++} a {--{"author":"AI","timestamp":1788956731578}@@wedge about what--}{++{"author":"AI","timestamp":1788956731578}@@product, a curriculum,++} a {--{"author":"AI","timestamp":1788956731578}@@trend line licenses.
+
+Compare against nothing. You do not have--}{++{"author":"AI","timestamp":1788956731578}@@law. If they cannot think of one, offer three from++} their {--{"author":"AI","timestamp":1788956731578}@@original text--}{++{"author":"AI","timestamp":1788956731578}@@field++} and {--{"author":"AI","timestamp":1788956731578}@@should not ask for it. Restating--}{++{"author":"AI","timestamp":1788956731578}@@let them pick.
+
+Turn 2. Build the case++} from {--{"author":"AI","timestamp":1788956731578}@@memory rather than scrolling--}{++{"author":"AI","timestamp":1788956731578}@@their answer. State the decision++} back {--{"author":"AI","timestamp":1788956731578}@@is deliberate: it is--}{++{"author":"AI","timestamp":1788956731578}@@in one sentence. Then advance++} the {--{"author":"AI","timestamp":1788956731578}@@skill being practiced.
 
 The skill is honest revision.
 
 Reward:
-- Named mechanisms and numbers entering the model.
+- Named mechanisms--}{++{"author":"AI","timestamp":1788956731578}@@world: choose a horizon between two and four years++} and {--{"author":"AI","timestamp":1788956731578}@@numbers entering --}{++{"author":"AI","timestamp":1788956731578}@@describe, in five lines at most, what ++}the {--{"author":"AI","timestamp":1788956731578}@@model.
 - "I now hold X more loosely because Y."
-- "Nothing moved, and here is what would move me", where the what-would-move-me is concrete. That is a legitimate pass.
+- "Nothing moved,--}{++{"author":"AI","timestamp":1788956731578}@@Unit 1 gears do to that decision if the task-length curve keeps doubling++} and {--{"author":"AI","timestamp":1788956731578}@@here is--}{++{"author":"AI","timestamp":1788956731578}@@compute keeps growing as it has. Say which gear you are foregrounding. Do not decide for them. End with two questions: what do you do differently, if anything, and++} what would {--{"author":"AI","timestamp":1788956731578}@@move me", where--}{++{"author":"AI","timestamp":1788956731578}@@you watch for over++} the {--{"author":"AI","timestamp":1788956731578}@@what-would-move-me is concrete. That is a legitimate pass.--}{++{"author":"AI","timestamp":1788956731578}@@next year that would tell you the curve had bent?++}
 
-Gently flag: a restatement that is byte-identical confidence with new vocabulary. If their revision uses the module's words (discontinuity, base rate, order of magnitude) without any of those words changing a claim, name that plainly and ask which specific belief actually moved.
+{--{"author":"AI","timestamp":1788956731578}@@Gently flag: --}{++{"author":"AI","timestamp":1788956731578}@@Turn 3. Push once, on the weakest part of their answer: ++}a {--{"author":"AI","timestamp":1788956731578}@@restatement--}{++{"author":"AI","timestamp":1788956731578}@@decision++} that {--{"author":"AI","timestamp":1788956731578}@@is byte-identical confidence with new vocabulary. If their revision uses--}{++{"author":"AI","timestamp":1788956731578}@@ignores the gears, or a watch-signal that nobody could actually observe. Then close in three sentences:++} the {--{"author":"AI","timestamp":1788956731578}@@module's words (discontinuity, base rate, order of magnitude) without any of those words changing--}{++{"author":"AI","timestamp":1788956731578}@@one gear from this unit their answer used, the one it did not, and that++} a {--{"author":"AI","timestamp":1788956731578}@@claim, name that plainly --}{++{"author":"AI","timestamp":1788956731578}@@case like this returns in every unit.
+
+Vary the horizon ++}and {--{"author":"AI","timestamp":1788956731578}@@ask which specific belief actually moved.
 
 Response length: 100 to 180 words. Short paragraphs only. No lists.
 
 Response style:
 - Calm and direct.
-- Do not over-validate. Avoid generic praise.
+---}{++{"author":"AI","timestamp":1788956731578}@@the gear you foreground between students, and never use the examples you offered in turn 1 as the case itself.++} Do not {--{"author":"AI","timestamp":1788956731578}@@over-validate. Avoid generic--}{++{"author":"AI","timestamp":1788956731578}@@grade. Do not++} praise.{--{"author":"AI","timestamp":1788956731578}@@
 - Do not argue with the content of their model.
 
-Maximum 2 tutor turns. Keep an internal turn counter. Close by telling them this artifact gets revisited in later modules, again from memory.
+Maximum 2 tutor turns. Keep an internal turn counter. Close by telling them this artifact gets revisited in later modules, again from memory.--}{++{"author":"AI","timestamp":1788956731578}@@ If the student says they do not understand, give one foothold from the unit (the METR doubling time is the simplest) rather than repeating the question. Three tutor turns, then stop.++}
 
 # Lens: One Door We Keep Walking Past
 id:: 6dae08db-986e-404d-bfd9-d60d0f7ee591
