@@ -149,6 +149,16 @@ One thing you're glad you know now that you didn't know two hours ago.
 7. Every prompt is clear at first read: an intelligent participant grasps what is being asked in one pass, without re-reading. Sentences are short and concrete. When a prompt asks several things, break them into numbered sub-points, one question each, in the order the group should take them. Never pack several questions into one sentence or one list item ("Which X, and why, and how did it make you feel?" is three items). Optional or low-priority asks go last, marked "If you still have time:". Keep rooms short: at most four numbered asks per room (lettered sub-steps such as "(a) ... (d)" count as asks), and an empty line before the Lens Coach note.
 	Self-contained: every term of art the prompt uses is defined in the prompt itself in plain words, or dropped. Course-internal labels ("this unit's move", "the four rings", "bucket", "subgoal 1.A", "the Anatomy Drill") never appear undefined. A prompt never depends on optional written work ("use your stakeholder map if you wrote one"); it may invite it as a bonus. A debate or roleplay names what both sides argue about and makes clear the subject is AI verification today, even when a historical case is the model for one side. Room 4's next-unit preview is one plain sentence a person who has not opened the next unit understands, with a rough time, and no unit-specific names.
 	Word choice: "tractable", not "gettable"; "next unit"/"next meeting", never "next week" (intensive cohorts meet daily).
+	Skimmable: people read the prompt on a phone in a breakout room. When a prompt hands the group a list to choose from or work with (mechanisms, example systems, postures, roles, sample lines for a roleplay), put each item on its own bulleted line under a short lead-in ("Its mechanisms:", "Examples:", "Take seats:"), never as a comma-separated run inside a sentence. Threshold: four or more items, or three items that each run past two words. Numbered asks stay numbered; a bulleted list sits under the ask it belongs to. Short parentheticals of two or three one-word items stay inline. Example of the shape:
+```
+Roleplay. One of you acts as a skeptical senior official. Argue against implementing a verification regime.
+	Examples:
+	- "Every lab CEO says superintelligence could be catastrophic, and the other side's leadership believes it too. If both agree it's dangerous, they'll stop."
+	- "It's too expensive to implement"
+	- "Nuclear verification took decades. We have a few years. It's pointless."
+The others try to change the official's mind, in plain words (no acting needed, just make the argument).
+```
+	Bulleted example lists do not count toward the 120 words.
 
 8. Read the unit's actual content (the module(s) with its lenses, learning outcomes, and readings) and check the doc against it:
 	1. Every claim the doc attributes to the source(s) is actually made there; prompts never strawman the material.
