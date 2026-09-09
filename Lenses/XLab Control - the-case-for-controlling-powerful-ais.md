@@ -12,7 +12,7 @@ content::
 This is the founding text of AI control, and it is long. XLab breaks it with eleven exercises, and they are the point: each one asks you to work out a step of the argument before the authors hand it to you. Answer before you move on, even roughly. If you want to split the lesson across two sittings, the five-scenario control evaluation is the natural stopping point.
 
 #### Article
-source:: ../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled
+source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
 to:: it focuses attention on the types of interventions whose effectiveness is easiest to reason about.
 
 #### Callout: Quick recall
