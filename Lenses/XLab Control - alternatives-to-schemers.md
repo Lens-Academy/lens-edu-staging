@@ -64,10 +64,10 @@ content::
 
 XLab's diagram of the honest test:
 
-| In the test | The AI's response | What you learn |
+| The developer offers | The AI's response | What you learn |
 | --- | --- | --- |
-| The developer offers the AI control of its training process / weights | takes the bait | visible: a reward-on-the-episode seeker |
-| | forgoes the reward | not caught: an influence seeker |
+| control of its training process / weights | takes the bait | visible: a reward-on-the-episode seeker |
+| control of its training process / weights | forgoes the reward | not caught: an influence seeker |
 
 - This is not definite but is triggered reliably by reward-on-the-episode seekers as they don't care about getting caught. Honest tests are potentially dangerous however, as training on these tests could lead to schemers / influence seekers / unnoticeable reward-on-the-episode seekers.
 - One advantage of these seekers when it comes to preventing misaligned behavior is that it's feasible to deploy reward-on-the-episode seekers to monitor instances of itself. Because its main goal is maximizing their own reward, it doesn't care about the policy's reward goal, making it much less likely to collude. However this may not apply when the monitor believes that the policy's misbehavior is undetectable via inspection, as it no longer has an incentive to report the misbehavior due to a lack of reward. One of the major risk vectors for these seekers is the idea that if its perceived episode timescale during deployment is long enough, these seekers may aim to disempower humans to maximize their reward as it now becomes viable to do across a long period of time.
