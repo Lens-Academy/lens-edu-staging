@@ -1,7 +1,7 @@
 ---
 id: '592a8880-6d5c-40a4-8734-7360d76eaeea'
 title: "Next Steps"
-tldr: "You reached the end of the track. This is the door out of the reading room: the fellowships that take people from where you are now into paid control research, the labs and institutes doing the work, and the two boards where everything else gets posted. XLab's own list, ported as they have it."
+tldr: "You reached the end of the track. This is the door out of the reading room: the fellowships and programs that take people from where you are now into doing control research, the labs and institutes doing it, and two boards that collect the rest of the openings. XLab's own list, ported as they have it."
 summary_for_tutor: "The closing lens of the XLab AI Control track. It is a resource roster, not an argument: XLab's congratulation paragraph, then three lists of external links (AI safety research programs and fellowships, safety organizations and groups, opportunities boards). There is nothing to test or discuss here. If a learner asks which route suits them, help them reason from what they enjoyed in the track (empirical evaluations, protocol design, theory, engineering) rather than ranking the programs, and note that fellowship deadlines move, so the linked pages are the authority on dates."
 reading_minutes: 5
 tutor_minutes: 0
