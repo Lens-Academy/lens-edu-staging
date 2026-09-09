@@ -132,6 +132,32 @@ Transfer (apply the unit's mechanism to a case the text never mentions):
 The book's mechanism in one line: train hard on a proxy, and you grow preferences that only correlate with what you wanted. Now leave AI: pick a system your group knows well (hiring, school grades, social media feeds, dating apps) and trace the same mechanism through it. Where did optimizing the measurable thing grow something nobody asked for? Then bring it back: does the fix people usually propose there work for AI, or does it fail for the reasons the book gives?
 ```
 
+Good example pattern, state it, break it, fix it, price it (when a room works on a specific text, open with what the text says in three to five bulleted lines so a table where nobody finished the reading can start; then break it, repair it, and price the repair):
+```
+MIRI's draft treaty, in five lines:
+- training runs above 10^24 FLOP are banned; runs between 10^22 and 10^24 only under monitoring
+- every chip cluster bigger than 16 H100s moves into a declared, monitored data centre; chip production is tracked
+- research that advances toward superintelligence is banned, checked through interviews, whistleblowers and intelligence
+- a treaty body with inspectors and an executive council of the signatories runs it
+- leaving takes twelve months' notice; during those months your chips are removed or disabled
+Your group is a country that signed and now wants to cheat.
+1. How would you do it? (Use any clause you read, or one line from the list.)
+2. What would you change about the treaty to make that kind of cheating less likely, or impossible?
+3. What are the problems with your change? Would some countries refuse to join because of it?
+```
+
+Good example pattern, smallest set, then remove one (the group builds a minimal answer, then one ask takes a piece of it away or turns it hostile; the best insight of the room usually appears there):
+```
+Who do we need to convince to create a stable pause? Is there a minimal set of actors which, once convinced, can force everyone else to comply?
+Actors:
+- Governments: United States, China, Taiwan, Netherlands, Japan, South Korea, California
+- Agencies: BIS (US export control), the intelligence community
+- Firms: ASML, TSMC, NVIDIA, the cloud providers, the frontier labs
+1. Pick the smallest set of actors that, if they agree, force everyone else in. For each one: what does it control that leaves the others no choice?
+2. Now pick one actor in your set and imagine it is strongly opposed. How many more actors does it take to make the pause hold, and which?
+3. If you still have time: which actor in your set is hardest to convince, and what would it take?
+```
+
 3. **Room 4 leaves participants with a clear plan/next step.** Example prompts:
 
 ```
