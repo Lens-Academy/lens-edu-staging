@@ -153,3 +153,13 @@ One thing you're glad you know now that you didn't know two hours ago.
 8. Read the unit's actual content (the module(s) with its lenses, learning outcomes, and readings) and check the doc against it:
 	1. Every claim the doc attributes to the source(s) is actually made there; prompts never strawman the material.
 	2. The main rooms target the unit's central content (what its learning outcomes care about), not a side detail.
+
+### Agent 3: Cold reader
+This agent gets the Session Doc tab only: no lenses, no course file, no run-sheet, no glossary. Its brief, verbatim:
+
+"You are a participant who skimmed half of this unit's reading and is now in a breakout room with three strangers and 20 minutes. For each room: (1) restate in one sentence what the group has to produce; (2) say what the answer is about (AI verification today, a historical case, something else); (3) list every word or phrase you cannot define from the doc in front of you; (4) say whether you could start talking within 30 seconds of reading it. Report PASS or FAIL per room. A room FAILS if any of: you cannot state the task in one sentence, the subject is ambiguous, the list in (3) is non-empty, or you would need to re-read the prompt. Do not guess at meanings; if a phrase is unclear, list it."
+
+Agents 1 and 2 read the lenses before the doc, so they cannot see jargon: they already know what "the move" or "the four rings" means. Agent 3 exists because the meeting-2 docs of Compute Verification Part 1 passed Agents 1 and 2 and then confused most of a cohort (September 2026).
+
+### Delivery: the doc participants see is a copy
+Group session docs are copied from the master when the cohort's meetings are created, not when the meeting starts. Editing the master after that reaches nobody enrolled. To change a live doc, list the copies (`meetings.session_doc_url` for the cohort) and patch each one in place; `lens_meeting_doc_scripts/update_doc.py` does this from a spec.
