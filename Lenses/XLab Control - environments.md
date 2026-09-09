@@ -9,7 +9,7 @@ tags: []
 ---
 #### Text
 content::
-A [[../Lenses/XLab Control - detection-mitigations|control protocol]]'s effectiveness is determined by whether scheming models under its measures would be capable of executing a subversion strategy and increasing the probability of an unacceptable outcome. In order to properly evaluate our control protocols, we need proxy deployments where a red team, acting as the untrusted model, does their best to break the protocol within their affordances. An environment is the structure that mimics deployment circumstances.
+A control protocol's effectiveness is determined by whether scheming models under its measures would be capable of executing a subversion strategy and increasing the probability of an unacceptable outcome. In order to properly evaluate our control protocols, we need proxy deployments where a red team, acting as the untrusted model, does their best to break the protocol within their affordances. An environment is the structure that mimics deployment circumstances.
 
 Each environment typically has:
 
