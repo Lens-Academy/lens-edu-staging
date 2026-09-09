@@ -19,7 +19,7 @@ The post links out to four readings that appear elsewhere in this course: [[../L
 
 #### Article
 source:: [[../articles/shlegeris-how-to-prevent-collusion-when-using-untrusted-models-to-monitor-each-other]]
-from:: Suppose you’ve trained a really clever AI model, and you’re planning to deploy it in an agent scaffold
+from:: Suppose you’ve trained a really clever AI model, and you’re planning to deploy it in an agent scaffold that allows it to run code or take other actions. You’re worried that this model is
 to:: I don’t present empirical evidence in this post, though all of this is strongly informed by experimental evidence from control evaluations my collaborators and I have done.
 
 #### Question: Open
