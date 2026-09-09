@@ -62,6 +62,15 @@ And add one or multiple questions after that. Examples:
 	2. What's something, completely unrelated to AI, that you've been enjoying lately?
 ```
 
+Good example pattern, how one specific reading made you feel (name the reading, let one person who read it summarise it for the others, ask which part produced the feeling; this is what makes a room with uneven reading work):
+```
+	2. MIRI's draft treaty is a full legal text for preventing artificial superintelligence:
+		- bans on big training runs
+		- covered chips removed or disabled
+		- twelve months' notice to leave
+		One person who read it sums it up in a minute for the others. Then go around: how did it make you feel, and which part did that?
+```
+
 2. **Rooms 2 and 3 lead to high-quality, engaging work on this unit**: a discussion of the content, action-plan work, or practice. Some examples:
 
 Claim, strongest counterargument, stress-test, verdict:
