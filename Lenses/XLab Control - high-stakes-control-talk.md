@@ -21,7 +21,7 @@ The first is his verdict on the present. He thinks catastrophic risk in the near
 
 The second is his list of what will not be built by default. Public evaluation of techniques that are not black-box, threat modelling for vastly superhuman systems, and preparation for suddenly losing an affordance we currently lean on, such as a monitorable chain of thought, are all things he expects the field to have to choose deliberately. The rest of this module works through that ground in detail, starting with [[../Lenses/XLab Control - what-is-high-stakes|What is High Stakes?]]. The asynchronous and real-time monitors he describes as today's state of the art return in [[../Lenses/XLab Control - monitoring-and-mitigation|Monitoring and Mitigation]], and the control environments he credits outside organisations with building are the subject of [[../Lenses/XLab Control - environment-construction|Environment construction]].
 
-%% The imported YouTube caption track stops at roughly 25:20 of a 30:19 video, so the transcript panel ends mid-sentence during the section on maintaining an accurate public estimate of risk. The video itself plays to the end. Worth re-importing if YouTube's captions are ever completed. %}
+%% The imported YouTube caption track stops at roughly 25:20 of a 30:19 video, so the transcript panel ends mid-sentence during the section on maintaining an accurate public estimate of risk. The video itself plays to the end. Worth re-importing if YouTube's captions are ever completed. %%
 
 #### Video
 source:: [[../video_transcripts/far-ai-aryan-bhatt-the-high-stakes-control-roadmap-now-to-the-singularity]]
