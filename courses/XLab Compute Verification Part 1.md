@@ -47,7 +47,7 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification P1 W3 Treaty actors]]
 
-# Meeting: Unit 3: Treaty anatomy and actors
+# Meeting: Unit 3: Treaty anatomy and actors 
 meeting-doc-template:: https://docs.google.com/document/d/1PrMEqwpkCV5yOFGvdh6j_ZAwPRXI1aP3bUOIo9b1Aek/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
