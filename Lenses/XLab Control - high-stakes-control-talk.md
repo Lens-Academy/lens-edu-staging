@@ -17,7 +17,7 @@ Everything in it hangs on one pair of words he keeps returning to. **Mitigation*
 
 Two moments are worth listening for.
 
-The first is his verdict on the present. He thinks catastrophic risk in the near term is quite low, and says so plainly, but not because the mitigations are strong: mostly because current AIs are not capable enough. That reasoning is the whole argument for urgency, because it expires.
+The first is his verdict on the present. He thinks catastrophic risk in the near term is quite low, and says so plainly, but not because the mitigations are strong: mostly because current AIs are not capable enough. That is why he treats preparation as urgent rather than reassuring: the reason risk is low today is a reason that expires, and he says the current techniques are not clearly enough for a world where models are capable enough to do harm if misaligned.
 
 The second is his list of what will not be built by default. Public evaluation of techniques that are not black-box, threat modelling for vastly superhuman systems, and preparation for suddenly losing an affordance we currently lean on, such as a monitorable chain of thought, are all things he expects the field to have to choose deliberately. The rest of this module works through that ground in detail, starting with [[../Lenses/XLab Control - what-is-high-stakes|What is High Stakes?]]. The asynchronous and real-time monitors he describes as today's state of the art return in [[../Lenses/XLab Control - monitoring-and-mitigation|Monitoring and Mitigation]], and the control environments he credits outside organisations with building are the subject of [[../Lenses/XLab Control - environment-construction|Environment construction]].
 
