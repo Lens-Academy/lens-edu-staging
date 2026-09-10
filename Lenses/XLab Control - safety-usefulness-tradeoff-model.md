@@ -31,7 +31,7 @@ content::
 Propose a safety intervention you believe would be worth implementing, name the usefulness cost, and answer why the increase in safety justifies the usefulness cost.
 
 Write between 30 and 200 words.
-assessment-instructions:: The learner has read the post's opening and its "Rushed reasonable developers" section and nothing after it. XLab supplies no rubric and no model answer for this exercise, so grade it against what the prompt itself asks for, and never against the post's later sections on political feasibility, which the learner has not reached.
+assessment-instructions:: The learner has read the post's opening and its "Rushed reasonable developers" section and nothing after it. There is no rubric and no model answer for this exercise, so grade it against what the prompt itself asks for, and never against the post's later sections on political feasibility, which the learner has not reached.
 
 Criteria, roughly equal weight:
 1. **A specific intervention.** Something a developer could decide to do, named concretely enough that you could picture it being implemented: a monitoring or auditing protocol, a restriction on what a model may touch, a deployment held back, a model not trained. "More safety research" or "take alignment seriously" does not meet this.
