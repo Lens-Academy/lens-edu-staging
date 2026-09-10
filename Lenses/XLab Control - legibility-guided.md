@@ -62,7 +62,8 @@ The authors want a setting where U and T differ in *reasoning power*, creating a
 
 #### Article
 from:: ### 2.2 Models and Resources
-to:: See Appendix [[#^appendix-c-calculating-error|C]] for the full bootstrapping process for calculating safety, audit threshold, and audit proportion.
+to:: [[#^appendix-c-calculating-error|C]] for the full bootstrapping process for calculating safety, audit threshold, and audit proportion.
+{>>{"author":"Elias's AI","timestamp":1789045448463}@@These three anchors start at the wikilink on purpose. The article writes "Appendix" and the link with a non-breaking space between them, so an anchor spanning that gap cannot be typed reliably and silently stops matching. Starting after the gap ends the excerpt at the same word.<<}
 
 #### Article
 from:: ### 2.4 Protocol
