@@ -83,7 +83,7 @@ tags: []
 </head>
 <body>
 <section class="card">
-  <p class="eyebrow">The world</p>
+  <p class="eyebrow">Scenario card</p>
   <h2 id="scenario-title"></h2>
   <p class="hint" id="scenario-blurb" style="margin-top:6px"></p>
   <div class="cols" style="margin-top:12px">
