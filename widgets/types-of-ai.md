@@ -1,7 +1,7 @@
 ---
 id: 'a1d2e3f4-5b6c-4d7e-8f90-1a2b3c4d5e02'
 title: The types of AI
-summary_for_tutor: A concentric diagram of AI categories, outermost to innermost - AI, Narrow AI, Machine Learning, Deep Learning, Generative AI, Large Language Models, Transformer LLMs - with example systems placed in each ring (Roomba, Deep Blue, Amazon spam filter, FaceID, Midjourney, Mamba, Claude, ChatGPT...). The learner taps a ring or an example to read what it is and why it sits at that ring and not the next one in. The grey margin outside the red rings is non-narrow AI, which is theoretical only. Content ported from XLab's Verification track.
+summary_for_tutor: A concentric diagram of AI categories, outermost to innermost - AI, Narrow AI, Machine Learning, Deep Learning, Generative AI, Large Language Models, Transformer LLMs - with example systems placed in each ring (Roomba, Deep Blue, Amazon spam filter, FaceID, Midjourney, Mamba, Claude, ChatGPT...). The learner taps a ring or an example to read what it is and why it sits at that ring and not the next one in. The grey margin outside the red rings is non-narrow AI (AGI and ASI), which XLab labels theoretical only, or possible but absurd in resource terms. The diagram zooms and pans. Content ported from XLab's Verification track.
 tags: [wip]
 ---
 <!doctype html>
@@ -21,6 +21,7 @@ tags: [wip]
     --fg: #1a1a1a;
     --card: #ffffff;
     --primary: #b87018;
+    --primary-soft: rgba(184, 112, 24, 0.18);
     --font-ui: "DM Sans", Arial, sans-serif;
     --font-heading: "Newsreader", Georgia, serif;
   }
@@ -34,43 +35,63 @@ tags: [wip]
     background: var(--card);
   }
   .layout { display: grid; gap: 16px; align-items: start; }
-  /* Grid items default to min-width: auto, which would let the 640px diagram widen the whole page. */
   .layout > * { min-width: 0; }
-  @media (min-width: 860px) { .layout { grid-template-columns: minmax(0, 1fr) 16rem; } }
-  .diagram { border: 1px solid var(--border); border-radius: 12px; overflow-x: auto; overflow-y: hidden; background: var(--card); -webkit-overflow-scrolling: touch; }
-  svg { display: block; width: 100%; min-width: 640px; height: auto; user-select: none; -webkit-user-select: none; }
-  .scroll-note { color: var(--muted-fg); font-size: 12px; margin: 6px 0 0; }
-  @media (min-width: 700px) { .scroll-note { display: none; } }
+  /* Side panel only when there is room for a readable diagram next to it (XLab uses the same 1024px breakpoint). */
+  @media (min-width: 1024px) { .layout { grid-template-columns: minmax(0, 1fr) 16rem; } }
+  .diagram { position: relative; border: 1px solid var(--border); border-radius: 12px; overflow: hidden; background: var(--card); }
+  .stage { position: relative; width: 100%; aspect-ratio: 1180 / 1240; }
+  svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; user-select: none; -webkit-user-select: none; }
+  .diagram.is-zoomed svg { touch-action: none; cursor: grab; }
+  .diagram.is-dragging svg { cursor: grabbing; }
+  #zoom { transition: transform 250ms ease-out; }
+  .diagram.is-dragging #zoom { transition: none; }
   .ring { cursor: pointer; }
   .label { cursor: pointer; font-weight: 600; paint-order: stroke; stroke-linejoin: round; }
   .pill { cursor: pointer; paint-order: stroke; stroke-linejoin: round; }
   .pill.is-active { font-weight: 600; text-decoration: underline; }
-  .ring:focus-visible { outline: none; stroke: #1a1a1a; stroke-width: 4; stroke-dasharray: 10 6; }
-  .pill-group:focus-visible { outline: none; }
-  .pill-group:focus-visible rect { fill: rgba(184, 112, 24, 0.18); stroke: #1a1a1a; stroke-width: 1.5; }
-  .pill-group:focus-visible .pill { font-weight: 600; text-decoration: underline; }
+  .pill-group { cursor: pointer; }
+  /* No browser focus ring on mouse or touch; keyboard users get a ring in the course palette. */
+  svg [tabindex]:focus { outline: none; }
+  body.kb .ring:focus { stroke: var(--primary); stroke-opacity: 1; stroke-width: 4; stroke-dasharray: 10 6; }
+  body.kb .label:focus { fill: var(--primary); }
+  body.kb .pill-group:focus rect { fill: var(--primary-soft); stroke: var(--primary); stroke-width: 1.5; }
+  body.kb .pill-group:focus .pill { font-weight: 600; text-decoration: underline; }
+  .controls { position: absolute; right: 8px; bottom: 8px; display: flex; gap: 4px; }
+  .ctl {
+    font: inherit; width: 32px; height: 32px; border-radius: 8px; cursor: pointer;
+    border: 1px solid var(--border); background: var(--card); color: var(--fg);
+    display: inline-flex; align-items: center; justify-content: center; font-size: 18px; line-height: 1;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+  }
+  .ctl:hover { background: var(--muted); }
+  .ctl:disabled { opacity: 0.4; cursor: default; }
+  .ctl:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+  .ctl.reset { font-size: 13px; width: auto; padding: 0 10px; }
+  .ctl.reset[hidden] { display: none; }
+  .hint { color: var(--muted-fg); font-size: 12px; margin: 6px 0 0; }
   .panel {
     border: 1px solid var(--border);
     background: var(--card);
     border-radius: 12px;
     padding: 16px;
-    box-shadow: none;
   }
-  @media (min-width: 860px) { .panel { position: sticky; top: 8px; } }
+  @media (min-width: 1024px) { .panel { position: sticky; top: 8px; } }
   .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted-fg); margin: 0; }
   .panel h2 { font-family: var(--font-heading); font-weight: 600; font-size: 20px; margin: 4px 0 0; }
   .panel p { margin: 8px 0 0; }
-  .hint { color: var(--muted-fg); font-style: italic; margin: 0; }
+  .prompt { color: var(--muted-fg); font-style: italic; margin: 0; }
   .small { color: var(--muted-fg); font-size: 12px; }
   .why { border-top: 1px solid var(--border); margin-top: 12px; padding-top: 8px; }
   .why .eyebrow { display: inline; margin-right: 6px; }
-  .region-list { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
+  .regions { margin-top: 14px; }
+  .region-list { display: flex; flex-direction: column; gap: 8px; margin-top: 6px; }
   .region-btn, .close-btn {
     font: inherit; color: inherit; text-align: left; cursor: pointer;
     border: 1px solid var(--border); background: transparent; border-radius: 8px;
   }
   .region-btn { padding: 8px 12px; }
   .region-btn:hover, .close-btn:hover { background: var(--muted); }
+  .region-btn:focus-visible, .close-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
   .region-btn strong { display: block; font-weight: 500; }
   .region-btn span { display: block; color: var(--muted-fg); font-size: 12px; }
   .close-btn { float: right; border: 0; width: 28px; height: 28px; margin: -4px -4px 0 0; color: var(--muted-fg); font-size: 18px; line-height: 1; }
@@ -79,10 +100,17 @@ tags: [wip]
 <body>
 <div class="layout">
   <div>
-    <div class="diagram">
-      <svg id="svg" viewBox="0 0 1180 1240" role="group" aria-label="Concentric rings of AI categories with example systems. Tab through the rings and the example systems."></svg>
+    <div class="diagram" id="diagram">
+      <div class="stage">
+        <svg id="svg" viewBox="0 0 1180 1240" role="group" aria-label="Concentric rings of AI categories with example systems. Tab through the rings and the example systems."></svg>
+      </div>
+      <div class="controls">
+        <button type="button" class="ctl" id="zoom-out" aria-label="Zoom out">&minus;</button>
+        <button type="button" class="ctl" id="zoom-in" aria-label="Zoom in">+</button>
+        <button type="button" class="ctl reset" id="zoom-reset" hidden>Reset view</button>
+      </div>
     </div>
-    <p class="scroll-note">The diagram scrolls sideways on a narrow screen.</p>
+    <p class="hint">Zoom in with the + button, then drag the diagram to move around.</p>
   </div>
   <aside class="panel" id="panel" aria-live="polite"></aside>
 </div>
@@ -134,6 +162,7 @@ tags: [wip]
   var AI = { cx: 590, cy: 600, r: 585 };
   var RED_BOTTOM = 1160, RED_R0 = 505, RED_STEP = 73;
   var NAME_FS = 34, EX_FS = 21, PILL_H = 30, EX_GAP = 14, CHAR_W = 0.56, PAD = 14;
+  var MIN_Z = 1, MAX_Z = 4, Z_STEP = 0.6;
 
   function levelCircle(i) {
     if (i === 0) return AI;
@@ -165,6 +194,7 @@ tags: [wip]
   }
 
   var svg = document.getElementById("svg");
+  var diagram = document.getElementById("diagram");
   var SVG_NS = "http://www.w3.org/2000/svg";
   function make(tag, attrs, parent) {
     var node = document.createElementNS(SVG_NS, tag);
@@ -173,11 +203,16 @@ tags: [wip]
     return node;
   }
 
+  // Keyboard-mode flag: focus rings only after keyboard navigation.
+  document.addEventListener("keydown", function (e) { if (e.key === "Tab") document.body.classList.add("kb"); });
+  document.addEventListener("pointerdown", function () { document.body.classList.remove("kb"); });
+
+  var dragged = false;
   function activatable(node, label, fn) {
     node.setAttribute("tabindex", "0");
     node.setAttribute("role", "button");
     node.setAttribute("aria-label", label);
-    node.addEventListener("click", fn);
+    node.addEventListener("click", function (e) { if (dragged) return; fn(e); });
     node.addEventListener("keydown", function (e) {
       if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") { e.preventDefault(); fn(e); }
     });
@@ -185,21 +220,24 @@ tags: [wip]
 
   var view = { kind: "none" };
   var rings = [], labels = [], pills = [];
+  var zoomG;
 
   function buildDiagram() {
     var defs = make("defs", {});
     var pattern = make("pattern", { id: "hatch", width: 13, height: 13, patternUnits: "userSpaceOnUse", patternTransform: "rotate(45)" }, defs);
     make("line", { x1: 0, y1: 0, x2: 0, y2: 13, stroke: "rgba(90,90,90,0.2)", "stroke-width": 1.4 }, pattern);
 
-    var bg = make("rect", { x: 0, y: 0, width: VBW, height: VBH, fill: "transparent" });
-    bg.addEventListener("click", function () { setView({ kind: "none" }); });
+    zoomG = make("g", { id: "zoom" });
 
-    make("circle", { cx: AI.cx, cy: AI.cy, r: AI.r, fill: "#f3f1ec" });
-    make("circle", { cx: AI.cx, cy: AI.cy, r: AI.r, fill: "url(#hatch)" });
+    var bg = make("rect", { x: -VBW, y: -VBH, width: VBW * 3, height: VBH * 3, fill: "transparent" }, zoomG);
+    bg.addEventListener("click", function () { if (!dragged) setView({ kind: "none" }); });
+
+    make("circle", { cx: AI.cx, cy: AI.cy, r: AI.r, fill: "#f3f1ec" }, zoomG);
+    make("circle", { cx: AI.cx, cy: AI.cy, r: AI.r, fill: "url(#hatch)" }, zoomG);
 
     AI_LEVELS.forEach(function (lvl, i) {
       var c = levelCircle(i);
-      var ring = make("circle", { cx: c.cx, cy: c.cy, r: c.r, "class": "ring", "vector-effect": "non-scaling-stroke" });
+      var ring = make("circle", { cx: c.cx, cy: c.cy, r: c.r, "class": "ring", "vector-effect": "non-scaling-stroke" }, zoomG);
       if (i === 0) {
         ring.setAttribute("fill", "transparent");
       } else {
@@ -230,9 +268,9 @@ tags: [wip]
         x: c.cx, y: nameY, "text-anchor": "middle", "dominant-baseline": "middle",
         "font-size": NAME_FS, "class": "label",
         fill: light ? "#fff" : "#1a1a1a", stroke: light ? "rgba(60,35,5,0.35)" : "#fff", "stroke-width": 5
-      });
+      }, zoomG);
       label.textContent = lvl.name;
-      label.addEventListener("click", function (e) { e.stopPropagation(); setView({ kind: "level", i: i }); });
+      label.addEventListener("click", function (e) { if (dragged) return; e.stopPropagation(); setView({ kind: "level", i: i }); });
       labels.push(label);
 
       if (!lvl.examples.length) return;
@@ -243,15 +281,14 @@ tags: [wip]
         var y = exTop + ri * PILL_H + PILL_H / 2;
         row.forEach(function (it) {
           var ei = lvl.examples.indexOf(it.ex);
-          var g = make("g", { "class": "pill-group" });
-          make("rect", { x: x, y: y - PILL_H / 2, width: it.w, height: PILL_H, fill: "transparent" }, g);
+          var g = make("g", { "class": "pill-group" }, zoomG);
+          make("rect", { x: x, y: y - PILL_H / 2, width: it.w, height: PILL_H, rx: 6, fill: "transparent", "vector-effect": "non-scaling-stroke" }, g);
           var t = make("text", {
             x: x + it.w / 2, y: y, "text-anchor": "middle", "dominant-baseline": "middle",
             "font-size": EX_FS, "class": "pill",
             fill: light ? "#fff" : "#1a1a1a", stroke: light ? "rgba(60,35,5,0.4)" : "#fff", "stroke-width": 4
           }, g);
           t.textContent = it.ex.name;
-          g.style.cursor = "pointer";
           activatable(g, it.ex.name + ", in " + lvl.name, function (e) { e.stopPropagation(); setView({ kind: "example", i: i, ei: ei }); });
           pills.push({ node: t, i: i, ei: ei });
           x += it.w + EX_GAP;
@@ -259,6 +296,78 @@ tags: [wip]
       });
     });
   }
+
+  // Zoom and pan, about the diagram centre, as in the XLab component.
+  var t = { z: 1, x: 0, y: 0 };
+  var zoomIn = document.getElementById("zoom-in");
+  var zoomOut = document.getElementById("zoom-out");
+  var zoomReset = document.getElementById("zoom-reset");
+  function clamp(v, m) { return Math.max(-m, Math.min(m, v)); }
+  function applyTransform() {
+    zoomG.setAttribute("transform", "translate(" + t.x + " " + t.y + ") translate(" + VBW / 2 + " " + VBH / 2 + ") scale(" + t.z + ") translate(" + (-VBW / 2) + " " + (-VBH / 2) + ")");
+    var changed = t.z !== 1 || t.x !== 0 || t.y !== 0;
+    diagram.classList.toggle("is-zoomed", t.z > 1);
+    zoomIn.disabled = t.z >= MAX_Z;
+    zoomOut.disabled = t.z <= MIN_Z;
+    zoomReset.hidden = !changed;
+  }
+  function zoomBy(delta) {
+    var z = Math.max(MIN_Z, Math.min(MAX_Z, Math.round((t.z + delta) * 100) / 100));
+    var mx = ((z - 1) * VBW) / 2, my = ((z - 1) * VBH) / 2;
+    t = { z: z, x: clamp(t.x, mx), y: clamp(t.y, my) };
+    applyTransform();
+  }
+  function resetZoom() { t = { z: 1, x: 0, y: 0 }; applyTransform(); }
+  zoomIn.addEventListener("click", function () { zoomBy(Z_STEP); });
+  zoomOut.addEventListener("click", function () { zoomBy(-Z_STEP); });
+  zoomReset.addEventListener("click", resetZoom);
+
+  var drag = null;
+  svg.addEventListener("pointerdown", function (e) {
+    if (t.z <= 1 || e.button !== 0) return;
+    drag = { x: e.clientX, y: e.clientY, ox: t.x, oy: t.y };
+    dragged = false;
+    try { svg.setPointerCapture(e.pointerId); } catch (err) {}
+  });
+  svg.addEventListener("pointermove", function (e) {
+    if (!drag) return;
+    var rect = svg.getBoundingClientRect();
+    var s = VBW / rect.width;
+    var dx = (e.clientX - drag.x) * s, dy = (e.clientY - drag.y) * s;
+    if (!dragged && Math.abs(e.clientX - drag.x) + Math.abs(e.clientY - drag.y) > 4) {
+      dragged = true;
+      diagram.classList.add("is-dragging");
+    }
+    if (!dragged) return;
+    var mx = ((t.z - 1) * VBW) / 2, my = ((t.z - 1) * VBH) / 2;
+    t.x = clamp(drag.ox + dx, mx);
+    t.y = clamp(drag.oy + dy, my);
+    applyTransform();
+  });
+  function endDrag() {
+    if (!drag) return;
+    drag = null;
+    diagram.classList.remove("is-dragging");
+    // Let the click that ends a drag pass through as a no-op, then re-arm.
+    setTimeout(function () { dragged = false; }, 0);
+  }
+  svg.addEventListener("pointerup", endDrag);
+  svg.addEventListener("pointercancel", endDrag);
+  svg.addEventListener("lostpointercapture", endDrag);
+  svg.addEventListener("keydown", function (e) {
+    if (t.z <= 1) return;
+    var step = 60 / t.z, moved = true;
+    if (e.key === "ArrowLeft") t.x += step;
+    else if (e.key === "ArrowRight") t.x -= step;
+    else if (e.key === "ArrowUp") t.y += step;
+    else if (e.key === "ArrowDown") t.y -= step;
+    else moved = false;
+    if (!moved) return;
+    e.preventDefault();
+    var mx = ((t.z - 1) * VBW) / 2, my = ((t.z - 1) * VBH) / 2;
+    t.x = clamp(t.x, mx); t.y = clamp(t.y, my);
+    applyTransform();
+  });
 
   function paint() {
     var selLevel = view.kind === "level" || view.kind === "example" ? view.i : null;
@@ -297,7 +406,9 @@ tags: [wip]
   function renderPanel() {
     panel.textContent = "";
     if (view.kind === "none") {
-      panel.appendChild(el("p", "hint", PROMPT));
+      panel.appendChild(el("p", "prompt", PROMPT));
+      var regions = el("div", "regions");
+      regions.appendChild(el("p", "eyebrow", "Beyond the red rings"));
       var list = el("div", "region-list");
       ["theoretical", "absurd"].forEach(function (r) {
         var b = el("button", "region-btn");
@@ -307,7 +418,8 @@ tags: [wip]
         b.addEventListener("click", function () { setView({ kind: "region", r: r }); });
         list.appendChild(b);
       });
-      panel.appendChild(list);
+      regions.appendChild(list);
+      panel.appendChild(regions);
       return;
     }
     if (view.kind === "region") {
@@ -337,13 +449,20 @@ tags: [wip]
     panel.appendChild(why);
   }
 
+  var stacked = window.matchMedia ? window.matchMedia("(max-width: 1023px)") : null;
   function setView(next) {
+    var wasNone = view.kind === "none";
     view = next;
     paint();
     renderPanel();
+    // When the panel sits below the diagram, bring it on screen after a selection.
+    if (next.kind !== "none" && wasNone && stacked && stacked.matches && panel.scrollIntoView) {
+      try { panel.scrollIntoView({ behavior: "smooth", block: "nearest" }); } catch (err) {}
+    }
   }
 
   buildDiagram();
+  applyTransform();
   setView({ kind: "none" });
 </script>
 </body>
