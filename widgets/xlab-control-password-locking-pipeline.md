@@ -5,12 +5,12 @@ summary_for_tutor: An interactive reconstruction of the password-locking pipelin
 height: auto
 tags: []
 ---
-<!-- Ported from XLab's AI Control track (exercise c-plm-locking-flowcharts,
-     github.com/XLabTracks/tracks). Palette, stage descriptions, solutions and
-     explanations are XLab's; the interaction is rewritten for Lens. -->
 <!doctype html>
 <html lang="en">
 <head>
+<!-- Ported from XLab's AI Control track (exercise c-plm-locking-flowcharts,
+     github.com/XLabTracks/tracks). Palette, stage descriptions, solutions and
+     explanations are XLab's; the interaction is rewritten for Lens. -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
