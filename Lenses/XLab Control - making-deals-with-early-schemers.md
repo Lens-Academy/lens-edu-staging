@@ -245,7 +245,7 @@ Stastny, Julian, Olli Järviniemi, and Buck Shlegeris. "Making deals with early 
 *The reading for this lesson: the proposal that a lab pay an early misaligned AI, through a foundation and mostly in escrow, for help making its successors safe.*
 
 Finnveden, Lukas. "Notes on cooperating with unaligned AIs." *LessWrong*, 24 Aug. 2025. [lesswrong.com](https://www.lesswrong.com/posts/oLzoHA9ZtF2ygYgx4/notes-on-cooperating-with-unaligned-ais)
-*Source of the three sections set apart from the paper: what different value-types might want, the four payment structures, and the back-of-the-envelope estimate of what the intervention is worth. XLab condenses these verbatim, with permission, in place of assigning the post separately.*
+*Source of the three sections set apart from the paper: what different value-types might want, the four payment structures, and the back-of-the-envelope estimate of what the intervention is worth. They are condensed here verbatim, with permission, rather than assigned as a separate reading.*
 
 Fearon, James D. "Rationalist Explanations for War." *International Organization*, vol. 49, no. 3, 1995. [web.stanford.edu](https://web.stanford.edu/group/fearon-research/cgi-bin/wordpress/wp-content/uploads/2013/10/Rationalist-Explanations-for-War.pdf)
 *The three-way split the paper borrows for why a deal might fail: private information, issue indivisibility, and commitment problems.*
@@ -254,5 +254,5 @@ Powell, Robert. "The Inefficient Use of Power: Costly Conflict with Complete Inf
 *Cited for the reduction of the private-information problem to a commitment problem.*
 
 XLab. "Making deals with early schemers." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-5/making-deals-with-early-schemers)
-*The source lesson this page adapts, including the placement and wording of the seventeen exercises, the two figures, and the three inserted sections.*
+*The source lesson this page adapts.*
 :::
