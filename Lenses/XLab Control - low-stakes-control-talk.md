@@ -39,5 +39,5 @@ Hebbar, Vivek. "Low-stakes Control." *ControlConf*, FAR.AI, published 14 May 202
 *The talk this lesson is built around: Redwood Research on why research sabotage may be a low-stakes threat model, and what incrimination, online training and evaluation methodology each have to offer against it.*
 
 XLab. "Low-stakes control (ControlConf talk)." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/low-stakes-control/low-stakes-control-talk)
-*The source lesson this page adapts. XLab's page is two sentences of framing and the same video embed, with no exercises.*
+*The source lesson this page adapts.*
 :::

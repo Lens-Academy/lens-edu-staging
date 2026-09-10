@@ -33,5 +33,5 @@ Bhatt, Aryan. "The high stakes control roadmap: now to the singularity." *FAR.AI
 *The talk this lesson is built around: Redwood Research's high-stakes control lead on what the frontier companies have shipped, what will not happen by default, and the three priorities he wants held from now to the singularity.*
 
 XLab. "The high-stakes control roadmap (talk)." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-4/high-stakes-control-talk)
-*The source lesson this page adapts. XLab embeds a self-hosted copy of the same recording with no other content on the page; this lens plays the version published on FAR.AI's channel so that a transcript comes with it.*
+*The source lesson this page adapts.*
 :::
