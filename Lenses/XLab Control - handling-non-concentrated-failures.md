@@ -39,7 +39,7 @@ assessment-instructions:: The learner has just read the opening of Greenblatt's 
 #### End Callout
 
 #### Article
-from:: ## Online training
+from:: Once we consider online training (including of models used for monitoring and auditing) the situation becomes more complex.
 to:: it would take nearly an indefinite period to train away the problematic behavior if it would ever be trained away at all.
 
 #### Widget
