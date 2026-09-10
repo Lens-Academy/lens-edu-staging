@@ -122,7 +122,7 @@ content::
 
 The paper states it "can analytically solve" this problem, and it is in fact a tractable derivation. The five-part exercise below works through it by hand, one step at a time: set up the red team's win probability as a function of its attack rate $p$, use the same rare-event approximation that shows up all over this field to make it differentiable, and solve for the optimal $p^*$. You may need a pen and paper.
 
-#### Callout: Understanding check: the optimal attack rate
+#### Callout: Understanding check, the optimal attack rate
 tone:: amber
 
 #### Question: Open
