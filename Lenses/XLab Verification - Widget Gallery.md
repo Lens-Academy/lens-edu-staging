@@ -9,7 +9,7 @@ duration_minutes: 90
 
 #### Text
 content::
-This page collects every interactive built for Compute Verification Parts 1 and 2 from XLab's Verification track and from the readings the course embeds. Entries leave this page once they are placed in the course; placed so far: The Verification Landscape, The Verification Problem. Each entry says which lens it belongs to, where in that lens it goes, and what it would replace, so placement is a copy-paste decision per entry. Entries marked native say that our own question segments already do the job, with the proposed segment text in a collapsed note. Entries are ordered by module and lens. Every widget below is live: try it.
+This page collects every interactive built for Compute Verification Parts 1 and 2 from XLab's Verification track and from the readings the course embeds. Entries leave this page once they are placed in the course; placed so far: The Types of AI, The Verification Landscape, The Verification Problem. Each entry says which lens it belongs to, where in that lens it goes, and what it would replace, so placement is a copy-paste decision per entry. Entries marked native say that our own question segments already do the job, with the proposed segment text in a collapsed note. Entries are ordered by module and lens. Every widget below is live: try it.
 
 #### Text
 content::
@@ -20,34 +20,6 @@ Module file: [[../modules/XLab Verification P1 W1 Why verification]]
 #### Text
 content::
 \### Lens: [[../Lenses/XLab Verification - v-introduction]]
-
-#### Text
-content::
-\#### The Types of AI (types-of-ai)
-
-**Decision: widget.** Ported earlier; rebuilt on 2026-09-10 after review (full-width diagram with zoom and pan instead of sideways scrolling, focus ring in the course palette, region buttons grouped under a heading).
-
-**Target lens:** [[../Lenses/XLab Verification - v-introduction]]
-
-**Where it goes:** after the Text segment paragraph ending "Throughout this course, we will use the term ASI to refer to AI with dangerous capabilities that pose a material existential threat to humanity."; the Widget segment sits between that Text segment and the Text segment beginning "Even the people in charge of developing superintelligence".
-
-**What it replaces:** the collapsed callout "Optional: The Types of AI" at the end of the first Text segment (a numbered prose list of the seven levels with their examples plus the "non-narrow AI remains theoretical" line). The callout is a prose reproduction of the widget data; remove it, since the widget shows every level, example and "why here" explanation. Because XLab marks this exercise optional, keep the "Optional" signal somewhere: either a one-line Text segment "Optional: The Types of AI" above the widget, or leave the callout collapsed with only its first sentence and the widget below it.
-
-**In XLab:** <VerificationExercise id="types-of-ai" /> in introduction.mdx, optional, inside <Fold label="Optional: The Types of AI">
-
-**Learner time:** 5 minutes
-
-Taps rings of a concentric diagram (AI, Narrow AI, Machine Learning, Deep Learning, Generative AI, Large Language Model, Transformer LLMs) or the example systems placed in each ring (Roomba, Deep Blue, FaceID, Midjourney, Mamba, Claude, ...) to read what each is and why it sits at that ring and not the next one in. Two buttons in the panel, under the heading "Beyond the red rings", explain the grey margin outside the rings: XLab's two notes on non-narrow AI (theoretical only; possible but absurd). Zoom in with the + and - buttons (four levels, as in XLab) and drag or arrow-key the diagram to move around; Reset view returns to the whole diagram. Below 1024 px the panel sits under the diagram and scrolls into view on the first selection. Nothing gates completion.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-- Diffed AI_LEVELS, AI_REGIONS and the prompt string against XLab `src/lib/verification/data/types-of-ai.ts` at commit b68d6cd (2026-08-25), the latest change to that file, with a script (OUT/qa/diff_ported.mjs). Every level name, blurb, example name, "what" and "why" string is identical apart from nine em dashes that Lens renders as colons, commas or periods (the one permitted rewrite). AI_REGIONS and the prompt are identical. The panel strings from the component ("Beyond real AI", "Level", "Why here", "Back to level", "AI that is not narrow, out in the grey margin. Tap to read.", "Tap a system in this ring to see why it sits here, not one ring deeper.") match XLab's component at b68d6cd. No drift; no corrected copy written.
-- Review fixes (2026-09-10): the diagram previously had a 640 px minimum width and a two-column layout from 860 px, so at typical page widths it scrolled sideways; now it fills the column and the side panel only appears from 1024 px (XLab's breakpoint), with XLab's zoom in / zoom out / reset buttons and drag-to-pan added (same 1 to 4 range, 0.6 steps, zoom about the centre). Clicking a ring or system showed the browser's blue focus outline on the SVG element; the outline is now suppressed for pointer input and keyboard users get a dashed ring in the course amber. The two region buttons now sit under an eyebrow "Beyond the red rings" (added text; XLab's own labels and bodies are unchanged).
-- On the two regions: they are XLab's. The data file (AI_REGIONS in types-of-ai.ts, present at HEAD 93847c7f) defines exactly "Theoretical only" and "Possible but absurd", and XLab's component renders them as two buttons in the panel's resting state. They annotate the grey hatched margin, the part of the AI disk outside Narrow AI, which is where general AI (AGI, ASI) would sit. XLab's first version (commit 612adc59, 2026-08-08) said so explicitly ("the outer ring is where AGI and ASI would sit"); the later copy edit (1e8b150) cut that phrase, which is why the two buttons read as orphaned. Restoring a phrase like XLab's original would help; that is a wording change to XLab's data, so it is left for the editors.
-- The port makes no Lens SDK calls (no saveState or complete), matching XLab, which has no completion condition for this widget.
-:::
-
-#### Widget
-source:: [[../widgets/types-of-ai]]
 
 #### Text
 content::
@@ -81,34 +53,102 @@ source:: [[../widgets/what-do-they-say]]
 
 #### Text
 content::
-\#### A Short History of AI Acceleration (short-history)
+\#### A Short History of AI Acceleration, timeline (short-history)
 
-**Decision: widget.** A zoomable, pannable timeline and a six-series line chart with hover readout, series toggles and a data table are things two static OWID images cannot do; XLab's file holds all the data for both charts, so both are drawn, nothing is linked out for lack of data.
+**Decision: widget.** A 120 year span with six multi-line annotations cannot be read at once in a 700px column, so the learner has to be able to move along it; that is a thing a static image cannot do, and it is the whole point of the figure.
 
 **Target lens:** [[../Lenses/XLab Verification - v-introduction]]
 
-**Where it goes:** replaces the collapsed callout "Optional: A Short History of AI Acceleration" at the end of the Text segment that begins "Most notably, over 1,300 employees of frontier AI companies have signed a public statement"; the Widget segment goes right after that Text segment (after "It's clear that ASI is no longer a hypothetical risk. It will require deliberate and proactive action by labs and governments alike to avoid.") and before the "Preventing ASI via International and Verifiable Agreements" Text segment.
+**Where it goes:** after the Text segment that ends "It's clear that ASI is no longer a hypothetical risk. It will require deliberate and proactive action by labs and governments alike to avoid." The sequence at that spot becomes: Text segment (lede, "Optional: A Short History of AI Acceleration" plus "How fast is fast?...") -> Widget short-history (this timeline) -> Text segment (timeline caption and credit) -> Widget short-history-scores -> Text segment (scores caption and credit). It sits before the "Preventing ASI via International and Verifiable Agreements" Text segment.
 
-**What it replaces:** the collapsed callout holding the intro sentence, two hotlinked OWID chart images and the credit line. The widget carries its own "Optional" eyebrow, the intro sentence, both charts and the OWID credit with link, so the callout should go entirely. If the editors want the "Optional" collapse behaviour kept, the callout can stay with just its first sentence and the OWID link, followed by the Widget segment.
+**What it replaces:** the collapsed callout "Optional: A Short History of AI Acceleration", which today holds one intro sentence, two hotlinked Our World in Data images and a credit line. The callout should go entirely: its sentence becomes the lede Text segment, its two images become these two widgets, and its credit becomes the two caption Text segments. There is a pending CriticMarkup comment on that Text segment from Elias's AI asking for the whole segment to be deleted, so the removal is already agreed. No collapsed fallback is needed; the widget degrades to a readable static timeline if scripting is off, because the first paint happens before any interaction.
 
-**In XLab:** <VerificationExercise id="short-history" /> in introduction.mdx, optional, inside <Fold label="Optional: A Short History of AI Acceleration">
+**In XLab:** <VerificationExercise id="short-history" /> in introduction.mdx, optional, inside <Fold label="Optional: A Short History of AI Acceleration">. XLab's ShortHistory component draws both figures; this widget is the first of them.
 
-**Learner time:** 5 minutes
+**Learner time:** 3 minutes
 
-Zooms into the 1940 to 2060 timeline (four zoom levels, plus and minus buttons or keys) and drags or pans along it to read the six milestone annotations (1945 first digital computers, Theseus, Perceptron Mark I, TD-Gammon, AlexNet, 2024 human-comparable language and image recognition). On the test-scores chart they hover or step year by year to read each capability's score relative to human performance, hide and show series with the legend buttons to isolate one line, and can open a data table of all points. A status line shows when both figures have been explored; that is the completion condition.
+The timeline opens zoomed in on roughly 1940 to 2015, so the annotation text is at full reading size straight away. The learner drags the axis, uses the left and right pan buttons, or the arrow keys, to move along it, and the plus and minus buttons to change zoom over XLab's four levels; "Whole timeline" returns to 1940 to 2060. Each milestone is a card carrying its year, its name and XLab's description, joined by a leader line to an arrowhead and a dot on the axis at that year. A counter tracks how many of the six milestones have been brought fully into view, and the exercise completes when all six have been, which means the learner has to travel from the 1940s cluster out to 2024.
 
 :::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-- Data source: XLab `src/components/verification/widgets/short-history.tsx` at commit 1e8b150 (2026-08-20). Timeline geometry (viewBox 900 by 330, axis at y 272, 1940 to 2060, boundary 2024, annotation positions), the four zoom factors, the six milestone texts, the six series with every data point, plot geometry (1998 to 2023, 25 to minus 100), grid values, x ticks, the "Human performance, as the benchmark, is set to zero" note, both figure captions, the description paragraph and the OWID credit text are verbatim.
-- Em dash rewrites: the two em dashes in the AlexNet annotation (around "a neural network with many layers") became commas; the em dash in the OWID article title (between "Changed Fast" and "What Might Be Next?") became a comma, the same rewrite the Lens callout uses.
-- Colours changed: XLab's series colours are theme tokens whose fallbacks fail a colour-vision check (#946b00 vs #bf4f00, deutan ΔE 1.8; #1a1614 is below the chroma floor). Replaced by a six-slot categorical palette that passes the dataviz validator on white (#2a78d6, #eb6834, #1baf7a, #eda100, #e87ba4, #008300; contrast warning on three, mitigated by direct labels, dash patterns and the table view). Assigned in the fixed order of XLab's series list. XLab's per-milestone name shading (accent mixed toward foreground) is dropped; names are plain text colour. Chart series colours are data encoding, not chrome, which is why the "greys plus one accent" rule is not applied to them.
-- Interaction kept: viewBox zoom and pan with drag, arrow keys, Home, plus and minus; pan buttons and "Whole timeline" appear only when zoomed; year range readout. Crosshair, per-series dots (smaller and faded when interpolated between data points), tooltip with values sorted by score, legend toggles that refuse to hide the last visible series, "Show all six".
-- Added beyond XLab: an HTML legend button row (XLab toggled series by clicking the SVG labels; the Lens rule wants buttons), "Earlier year" / "Later year" / "Clear year" buttons and arrow keys on the chart so the readout is reachable without a mouse, a "Show data table" toggle, a status line, and a completion condition (XLab has none): complete when the timeline has been zoomed at least once and a year has been inspected or a series toggled or the table opened.
-- At widths up to 640px both plots keep a minimum width and scroll sideways inside their own box; the tooltip pins full-width under the chart top instead of flipping off-screen.
-- The XLab lesson's own intro line ("How fast is fast? Two charts from Our World in Data's brief history of artificial intelligence show the pace.") is included as the widget's lede, without the inline link; the OWID link is in each figure's credit.
+- Data source: XLab `src/components/verification/widgets/short-history.tsx` (the `Timeline` component and the `MILESTONES`, `TL`, `TL_ZOOMS`, `TL_BOUNDARY` constants). All six milestone names and every description line are verbatim, including XLab's own line breaks, which are kept as written. The 1940 to 2060 span, the 2024 boundary with its solid to faded axis change and its larger dot, the decade ticks, and the zoom ladder [1, 1.6, 2.4, 3.4] are XLab's.
+- Em dash rewrites: the two em dashes in the AlexNet description (around "a neural network with many layers") became commas. Nothing else in the visible text changed.
+- Zoom and pan mechanics, as XLab has them: four zoom levels; zooming keeps the centre of the current view; panning is clamped to the ends of the span; drag with pointer capture; arrow keys pan by a twelfth of the view; plus and minus zoom; Home resets. What changed is the axis of the zoom. XLab scales a fixed 900 by 330 SVG through its viewBox, which scales the annotation type down with it: at a 700px Lens column their whole-timeline view renders the annotations at about 9px, which is the "very small" Elias saw, and their zoom crops vertically as well as horizontally, so at any zoom above 1 the learner can lose the axis off the bottom of the frame while the annotations they are reading point at nothing visible. Here the SVG is drawn at 1:1 pixels instead: text is always 12px, zoom changes only how many years fit across the frame (120, 75, 50, 35), and the axis is always in view. Zoom is therefore visible as the decade ticks and the milestone markers spreading apart, and the year range readout changing.
+- Annotation placement is now computed rather than hand set, and this is the fix for the arrow that pointed at nothing. XLab hard codes each annotation's x and y in SVG units, independent of where its year falls on the axis, and then draws the leader line at the year's true x. For four of the six the two are close enough to read as connected; for AlexNet they are 60 units apart (text block at x 580, marker at x 519) and for the 2024 annotation 41 units apart (text at 640, marker at 599), so their leader lines float in empty space next to the block. That is XLab's bug, reproduced faithfully in the first port, and it is what Elias saw "at 2010" (the nearest decade label to AlexNet's 2012 marker). Here each card is left anchored on its own marker, shifted left only when it would run off the canvas, and the leader drops from the card's bottom corner straight onto the marker, with an elbow only in the shifted case. Every arrow lands on a dot at its year.
+- The "things move to the right because they don't have enough space to the left" effect was also XLab's fixed layout: their 1945 block starts at x 14 while the marker is at 76, and everything after it is pushed rightwards to clear the block before it. Lanes are now assigned greedily by x at the current zoom, so a block only moves down a lane when it genuinely overlaps its neighbour, and cards never have to slide sideways away from their marker.
+- Added beyond XLab: the year is printed in the accent colour at the head of each card, so an annotation identifies itself even when its leader passes behind a card in a lower lane; a hover or focus highlight that accents one card, its leader and its marker together; a card background so crossing leader lines pass behind text rather than through it; the milestones-seen counter; and a completion condition (XLab has none), which is all six milestones brought fully into view.
+- Dropped from XLab: their vertical panning, which only existed because their zoom crops vertically, and their per-milestone `shade(pct)` name tinting, whose token mix is not reproducible in plain CSS and carries no meaning.
+- At 360px the layout recomputes to five lanes and everything stays inside the frame; cards whose marker sits near the right of the current view are cut by the frame edge until the learner pans, which is the expected behaviour of a pannable timeline rather than an overflow. The page itself never scrolls sideways (scrollWidth equals clientWidth at 360). On a frame narrower than the widest card, where a card could never be framed whole, that card counts as seen once its start is in view, so the exercise stays finishable.
+- Layout is recomputed on resize and again once DM Sans has loaded, so card widths are measured against the real glyphs; where the browser cannot measure text (jsdom, first paint) a per character estimate is used.
+:::
+
+:::callout {title="Proposed Text segments around this widget" tone="neutral" collapse="closed"}
+Field names are written `key: :` so this page parses; join the colons when pasting.
+
+The prose that used to live inside the widget and inside the Lens callout, as Lens Text segments. The first goes before this widget, the second between this widget and the scores widget.
+
+```
+\#### Text
+content: :
+\### Optional: A Short History of AI Acceleration
+
+How fast is fast? Two charts from Our World in Data's [brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai) show the pace.
+```
+
+```
+\#### Text
+content: :
+**A timeline of notable artificial intelligence systems.** Chart: Max Roser, [The brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai), Our World in Data, 6 Dec. 2022. Licensed CC BY 4.0; chart redrawn.
+```
 :::
 
 #### Widget
 source:: [[../widgets/short-history]]
+
+#### Text
+content::
+\#### A Short History of AI Acceleration, test scores (short-history-scores)
+
+**Decision: widget.** Six overlapping lines over 25 years cannot be read off a static image: the learner needs to isolate one capability, and to read the values in a given year. Both are things the Our World in Data original does interactively and the Lens page currently does not.
+
+**Target lens:** [[../Lenses/XLab Verification - v-introduction]]
+
+**Where it goes:** directly after the Text segment that carries the timeline's caption and credit ("**A timeline of notable artificial intelligence systems.** Chart: Max Roser..."), which is itself directly after the Widget segment for short-history. A Text segment with this chart's caption and credit follows it, and then the existing "Preventing ASI via International and Verifiable Agreements" Text segment.
+
+**What it replaces:** the second hotlinked Our World in Data image inside the collapsed callout "Optional: A Short History of AI Acceleration", and the part of the callout's credit line that reads "Underlying benchmark data from Kiela et al., 2023. Interactive versions on the linked page." The whole callout goes; there is a pending CriticMarkup comment on that Text segment from Elias's AI asking for exactly that.
+
+**In XLab:** <VerificationExercise id="short-history" /> in introduction.mdx, optional, inside <Fold label="Optional: A Short History of AI Acceleration">. XLab's ShortHistory component draws both figures; this widget is the second of them, their `TestScores` component.
+
+**Learner time:** 3 minutes
+
+The learner moves the pointer across the plot, or focuses it and uses the arrow keys, and gets a crosshair with a readout of every visible series in that year, sorted highest to lowest, with values read off the line between two data points marked with an approximately sign. Six legend buttons hide and show individual series so a single capability can be followed on its own, and hovering or focusing one of them brings that line forward in the plot. "Show data table" opens every underlying data point as a table. The widget is complete once the learner has read a year, hidden a series or opened the table.
+
+:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
+- Data source: XLab `src/components/verification/widgets/short-history.tsx` (the `SERIES`, `TS`, `gridValues`, `xTicks` constants and the `TestScores` component). All six series names and all 37 data points are verbatim, as are the grid values, the x ticks, the zero baseline and its label "Human performance, as the benchmark, is set to zero". The interpolation rule for a year between two points, the sorting of the readout by value, and the smaller faded dot for an interpolated value are XLab's.
+- Em dash rewrites: none needed in this figure's own text.
+- Colours changed: XLab's series colours are theme tokens whose fallbacks fail a colour vision check (#946b00 against #bf4f00 is deutan delta-E 1.8, and #1a1614 is below the chroma floor). They are replaced by a six slot categorical palette validated on white with `dataviz/scripts/validate_palette.js --mode light --surface "#ffffff"`: #2a78d6, #eb6834, #1baf7a, #eda100, #e87ba4, #008300, all checks pass with a contrast warning on three slots. The slots are assigned in the fixed order of XLab's series list, so the mapping is stable. Each series also keeps a distinct dash pattern, which is XLab's own `--sh-dash-N` idea made concrete, so colour is never the only cue. Chart series colours are data encoding, not chrome, which is why the "greys plus one accent" rule is not applied to them.
+- One legend, on reviewer instruction. XLab puts the series names to the right of the plot as direct labels with elbow connectors to each line's last point, and makes those labels the toggles. The first port kept those and added a row of legend buttons underneath, which is the duplication Elias flagged. The single legend is now the button row, because the Lens rule requires everything clickable to be a button and an SVG `<g>` with `role="switch"` is not one. Removing the right hand label column frees 245 units of plot width, so the plot now runs the full width of the figure. The direct labelling that column provided is recovered on interaction instead: hovering or focusing a legend button dims the other five lines, and the hover readout names every series at the crosshair. If the direct labels are wanted back, the trade is plot width against static labelling and the label column can be restored in `renderChart`.
+- Year stepper buttons removed, on reviewer instruction: "Earlier year", "Later year" and "Clear year" are gone. Arrow key stepping on the focused plot is kept, because it costs nothing and is the only way a keyboard user can reach the readout at all; Escape clears it. The remaining controls are the legend buttons, "Show data table", and "Show all six" once a series is hidden.
+- The plot is drawn in a 700 by 340 user space so that at a 700px Lens column its type renders at its true 12px rather than being scaled down. Below about 620px the figure scrolls sideways inside its own box, which never scrolls the page (scrollWidth equals clientWidth at 360px).
+- Added beyond XLab: the legend buttons themselves, the emphasis on hover, a "Show data table" toggle with every data point, a year label at the top of the crosshair, a status line, and a completion condition (XLab has none): complete once a year has been read, a series hidden or the table opened.
+- Dropped from XLab: their `ordered` sort of the legend by last value, which only existed to stack the right hand label column without crossings and has no meaning once the labels are buttons in source order.
+:::
+
+:::callout {title="Proposed Text segments around this widget" tone="neutral" collapse="closed"}
+Field names are written `key: :` so this page parses; join the colons when pasting.
+
+The prose that used to sit inside the widget, as a Lens Text segment placed directly after it. XLab's explainer sentence about the minus 100 baseline is included here; if the editors would rather the learner read it before touching the chart, it can be lifted into the preceding Text segment instead, and nothing else changes.
+
+```
+\#### Text
+content: :
+**Test scores of AI systems on various capabilities relative to human performance.** Within each domain, the initial performance of the AI is set to −100. Human performance is used as a baseline, set to zero. When the AI's performance crosses the zero line, it scored more points than humans.
+
+Chart: Max Roser, [The brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai), Our World in Data, 6 Dec. 2022. Licensed CC BY 4.0; chart redrawn. Underlying data from Kiela et al., 2023.
+```
+:::
+
+#### Widget
+source:: [[../widgets/short-history-scores]]
 
 #### Text
 content::
