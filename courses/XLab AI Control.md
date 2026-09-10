@@ -8,7 +8,10 @@ tags:
 partner-name: "XLab"
 partner-url: "https://xrisk.uchicago.edu/"
 ---
-%%%%
+%%
+Links:
+
+%%
 
 # Module: [[../modules/XLab Control M1 - Introduction, overview, and threat modeling]]
 # Module: [[../modules/XLab Control M2 - How useful is AI control?]]
