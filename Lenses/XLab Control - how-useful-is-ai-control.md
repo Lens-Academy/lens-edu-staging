@@ -235,10 +235,10 @@ Wentworth, John. "The Case Against AI Control Research." *LessWrong*, 21 Jan. 20
 *The post this lesson answers: it argues that intentional scheming in early transformatively useful AI is a small slice of the x-risk probability mass, and that the median doom path is slop rather than scheming.*
 
 Greenblatt, Ryan, and Buck Shlegeris. "The case for ensuring that powerful AIs are controlled." *LessWrong*, 24 Jan. 2024. [lesswrong.com](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled)
-*The statement of the control agenda, and the source XLab's glossary cites for its definitions of scheming and of a control evaluation. It is the opening lesson of Module 1 in this course.*
+*The statement of the control agenda, and the source of the definitions of scheming and of a control evaluation. It is the opening lesson of Module 1 in this course.*
 
 Greenblatt, Ryan, and Thomas Larsen. "A Technical Safety Roadmap." Talk excerpt, XLab, 2026. [aisafetytracks.com](https://aisafetytracks.com/videos/what_can_go_wrong.mp4)
-*A seven-minute clip XLab plays before its arguments-against-control exercise. It is hosted by XLab with no upstream link, so it is cited here rather than embedded.*
+*A seven-minute clip on what can go wrong, worth watching before the arguments-against-control exercise. The clip cannot be embedded, so open the link to watch it.*
 
 Leike, Jan. "Self-exfiltration is a key dangerous capability." *Aligned*, 13 Sept. 2023. [aligned.substack.com](https://aligned.substack.com/p/self-exfiltration)
 *The post XLab links for exfiltration: why a model getting its own weights out of the lab is the capability that removes every other safety measure at once.*
