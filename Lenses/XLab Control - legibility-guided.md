@@ -82,7 +82,7 @@ assessment-instructions:: The learner has read the setting but none of the resul
 
 #### Article
 from:: ## 3 Experiments
-to:: We find that code with lying comments is not necessarily more suspicious than code without lying comments (see Appendix [[#^e-3-attack-policy|E.3]] for details).
+to:: [[#^e-3-attack-policy|E.3]] for details).
 
 #### Text
 content::
