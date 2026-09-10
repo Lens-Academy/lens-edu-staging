@@ -11,8 +11,6 @@ tags: []
 content::
 \#### Before you read
 
-By Julian Stastny and Buck Shlegeris (Redwood Research), May 8, 2025. XLab reproduces the post in full, with permission.
-
 [[../Lenses/XLab Control - handling-non-concentrated-failures|Notes on handling non-concentrated failures with AI control]] set up the low-stakes setting, where no single action is a catastrophe and harm accumulates instead. This post asks what a misaligned model can do inside that setting by doing its job badly on purpose.
 
 The authors call that sandbagging, and they open by separating it from the more familiar failure modes: overoptimizing a reward function means a model performs better on your metric than an aligned one would, and scheming usually means a model performs about as well as an aligned one while not being aligned. Sandbagging is the case where the model performs worse, so the usual argument that training makes models perform well according to your measurements has to be examined rather than assumed. The post covers why we want good performance in the first place, why training partly resolves sandbagging, a strategy called exploration hacking that could defeat training, and the countermeasures available. The authors say up front that they are highly uncertain how hard preventing sandbagging will be, and that the answer depends on the domain.
