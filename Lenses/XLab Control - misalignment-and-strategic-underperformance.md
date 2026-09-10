@@ -17,6 +17,10 @@ The authors call that sandbagging, and they open by separating it from the more 
 
 The lessons that follow in this module build on both terms: [[../Lenses/XLab Control - capability-elicitation-guided|Stress-Testing Capability Elicitation]], [[../Lenses/XLab Control - exploration-hacking-paper|Exploration Hacking: Can LLMs Learn to Resist RL Training?]], [[../Lenses/XLab Control - auditing-sabotage-bench-paper|Auditing Sabotage Bench]] and [[../Lenses/XLab Control - exploration-hacking-guided|Exploration Hacking (guided)]].
 
+*By Julian Stastny and Buck Shlegeris (Redwood Research). Reproduced verbatim, with permission, from [the original post on the Redwood Research blog](https://blog.redwoodresearch.org/p/misalignment-and-strategic-underperformance) (May 8, 2025).*
+
+*A new analysis of the risk of AIs intentionally performing poorly.*
+
 #### Article
 source:: [[../articles/stastny-misalignment-and-strategic-underperformance-an-analysis-of-sandbagging-and-exploration-hacking]]
 to:: "we may completely lose the affordance of fine-tuning on off-policy data."
