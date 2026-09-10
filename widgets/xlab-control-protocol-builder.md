@@ -73,8 +73,8 @@ var BRANCHES = [
   {id:"none",           label:"No branch: every problem is handled the same way", arms:["Every problem"]},
   {id:"branch-first-2", label:"Among the first 2% of problems?", arms:["Yes","No"]},
   {id:"branch-top-2",   label:"Suspicion rank?", arms:["Top 2%","Bottom 98%"]},
-  {id:"branch-2-10",    label:"Suspicion rank?", arms:["Top 2%","Top 2-10%","Bottom 90%"]},
-  {id:"branch-2-20",    label:"Suspicion rank?", arms:["Top 2%","Top 2-20%","Bottom 80%"]}
+  {id:"branch-2-10",    label:"Suspicion rank?", arms:["Top 2%","Top 2–10%","Bottom 90%"]},
+  {id:"branch-2-20",    label:"Suspicion rank?", arms:["Top 2%","Top 2–20%","Bottom 80%"]}
 ];
 var TERMINALS = [
   {id:"submit-u",    label:"Submit U's solution"},
@@ -105,7 +105,8 @@ var STAGES = [
    explanation:"Structurally identical to trusted monitoring, the only change is who rates the code. Because the monitor is itself untrusted, it has to be kept honest: validated against synthetic backdoors from H, and shown redacted inputs so colluding with the policy is harder."},
   {id:"trusted-editing", title:"Trusted editing (20%)",
    description:"Ask U to produce code, and ask T to edit it to remove backdoors. Use trusted monitoring to determine suspicion. Audit the top 2% most suspicious U code, use an edited solution for suspicion between the top 2% and top 20%, and use U's solution for suspicion in the bottom 80%.",
-   steps:["u-writes","t-rates"], branch:"branch-2-20", terminals:["audit","submit-edit","submit-u"]}
+   steps:["u-writes","t-rates"], branch:"branch-2-20", terminals:["audit","submit-edit","submit-u"],
+   explanation:"Same skeleton as defer to trusted, with two changes: the middle band widens to top 2–20%, and instead of discarding U's work there, T edits it, keeping most of U's usefulness while stripping anything that looks like a backdoor."}
 ];
 
 var answers = {};
