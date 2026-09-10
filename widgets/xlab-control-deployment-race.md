@@ -82,7 +82,10 @@ function label(x,y,str,anchor){
   t.textContent = str; return t;
 }
 
-var X0=34, W=272, Y0=10, H=140, KMAX=120;
+// KMAX = 20 is the paper's own regime: a backdoor on about twenty of the 5,000
+// problems is already deep in the plateau, and a wider axis renders the whole
+// rise as a step against the left wall.
+var X0=34, W=272, Y0=10, H=140, KMAX=20, CURVE_PTS=120;
 function xOf(kk){ return X0 + (kk-1)/(KMAX-1)*W; }
 function yOf(v){ return Y0 + H - v*H; }
 
