@@ -314,11 +314,12 @@ The control window has two dimensions: capability room and calendar time. Here a
 <g stroke="currentColor" stroke-opacity="0.35"><line x1="40" y1="330" x2="350" y2="330"/><line x1="420" y1="330" x2="730" y2="330"/></g>
 <rect x="95" y="322" width="55" height="16" fill="#2e9e6b" fill-opacity="0.35" stroke="#2e9e6b"/>
 <rect x="475" y="322" width="208" height="16" fill="#2e9e6b" fill-opacity="0.35" stroke="#2e9e6b"/>
-<g stroke="currentColor" stroke-opacity="0.55" stroke-width="1.5" stroke-dasharray="5 4"><line x1="40" y1="378" x2="66" y2="378"/></g>
-<g stroke="#d9534f" stroke-width="2"><line x1="40" y1="402" x2="66" y2="402"/></g>
+<g stroke="#4a7fd4" stroke-width="1.5" stroke-dasharray="5 4"><line x1="40" y1="378" x2="66" y2="378"/></g>
+<g stroke="#d9534f" stroke-width="1.5" stroke-dasharray="5 4"><line x1="40" y1="402" x2="66" y2="402"/></g>
 <rect x="40" y="420" width="26" height="12" fill="#2e9e6b" fill-opacity="0.35" stroke="#2e9e6b"/>
-<circle cx="53" cy="450" r="4.5" fill="#4a7fd4" stroke="currentColor" stroke-opacity="0.3"/>
-<g fill="currentColor" fill-opacity="0.75" font-size="11"><text x="76" y="382">transformatively useful</text><text x="76" y="406">control frontier: the capability level beyond which no affordable protocol retains the control property</text><text x="76" y="430">control window</text><text x="76" y="454">model generation</text></g>
+<circle cx="47" cy="450" r="4.5" fill="#2e9e6b" stroke="#1e6b48"/>
+<circle cx="61" cy="450" r="4.5" fill="#ffffff" stroke="#2e9e6b" stroke-width="1.75"/>
+<g fill="currentColor" fill-opacity="0.75" font-size="11"><text x="76" y="382">transformatively useful</text><text x="76" y="406">control frontier: the capability level beyond which no affordable protocol retains the control property</text><text x="76" y="430">control window</text><text x="76" y="454">model generation, solid inside the window and hollow past the frontier</text></g>
 </svg>
 
 **Same start, different futures.** Both worlds cross the *transformatively useful* line at the same moment. In **World A** the control frontier sits far above, so protocols scale across several model generations, but capabilities race there in little time. In **World B** the frontier is near, so only one generation stays controllable, yet the lab lingers inside the window for years. Read the lower timelines alone and A looks like the worse deal, but that flat "window in time" view hides that A packs four controllable generations into its sliver where B fits one. Time is only one of the window's dimensions.

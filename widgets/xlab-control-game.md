@@ -317,13 +317,18 @@ function drawLine(svg, xs, ys, markIdx, xlab, xlo, xhi){
 }
 
 // ---------- state ----------
-var b = 0.02, d = 0.08, q = 0.97, tab = 0;
+// dw is the WIDTH of the defer band (d - b), not the absolute threshold, so
+// raising the audit budget shifts the band rather than eating it. The effective
+// defer threshold handed to the model is b + dw.
+var b = 0.02, dw = 0.08, q = 0.97, tab = 0;
 var cache = null;
 
+function dEff(){ return b + dw; }
+
 function currentSolve(wantGrid){
-  var key = b + "|" + d + "|" + q + "|" + (wantGrid ? 1 : 0);
+  var key = b + "|" + dw + "|" + q + "|" + (wantGrid ? 1 : 0);
   if(cache && cache.key === key) return cache.val;
-  var v = solve(b, d, q, wantGrid);
+  var v = solve(b, dEff(), q, wantGrid);
   cache = {key:key, val:v};
   return v;
 }
@@ -337,8 +342,8 @@ function renderProtocol(pane, sol){
   var s2 = svgEl("svg",{viewBox:"0 0 300 150",role:"img","aria-label":"Safety against usefulness as the defer band is swept"});
   c2.appendChild(s2); row.appendChild(c2);
   pane.appendChild(row);
-  drawDists(s1, b, d, q, sol);
-  drawFrontier(s2, b, q, b, d);
+  drawDists(s1, b, dEff(), q, sol);
+  drawFrontier(s2, b, q, b, dEff());
   pane.appendChild(el("p","note","The grey curve is the frontier traced by sweeping the defer band at this audit budget and monitor quality; the dot is where your protocol sits on it. A better monitor or a larger budget lifts the whole curve up and to the right."));
 }
 
