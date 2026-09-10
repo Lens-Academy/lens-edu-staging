@@ -24,9 +24,9 @@ content::
 
 By the end of this section you will be able to:
 
-- Compare synchronous, semi-synchronous, and asynchronous monitoring, and analyze their latency–safety tradeoffs in frontier deployments
+- Compare synchronous, semi-synchronous, and asynchronous monitoring, and analyze their latency-safety tradeoffs in frontier deployments
 - Identify the oversight, latency, and recovery challenges that deployment-scale monitoring must solve
-- Evaluate resampling protocols and their safety–usefulness tradeoffs in agentic high-stakes settings
+- Evaluate resampling protocols and their safety-usefulness tradeoffs in agentic high-stakes settings
 
 \## What follows in this section
 
