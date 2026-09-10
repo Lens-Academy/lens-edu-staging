@@ -101,7 +101,7 @@ We can split potential regimes, the bundle of conditions that we use to describe
 | **Epistemic state** | What do we justifiably think it's worth? | confidence in alignment, interpretability findings, the track record, evaluation results |
 | **Resource state** | Can we afford to act on what we think? | political will (the account), and the prices the regime charges: usefulness tax, compute, delay |
 
-XLab's diagram labels the arrow running from the world state to the epistemic state `measured ≠ actual`, and draws the resource state as a shop: political will is the account, filled by staff, the public and government; the aisles are the prices the regime sets (usefulness tax, compute, delay), each paid out of that account; a technique is the basket you fill, and control's basket holds tax, compute and delay. Incidents & evidence, public buy-in, and passed policy are what put money back in the account.
+XLab's diagram labels the arrow running from the world state to the epistemic state `measured ≠ actual`, and draws the resource state as a shop: political will is the account, filled by staff, the public and government; the aisles are the prices the regime sets (usefulness tax, compute, delay), each paid out of that account; a technique is the basket you fill, and control's basket is a lot of usefulness tax, some compute, and very little delay, though the same basket can carry different price tags in different worlds. Incidents & evidence, public buy-in, and passed policy are what put money back in the account.
 
 Note that we can index regimes by capability stage, from "marginally speeds up human researchers" to "runs research autonomously" ([a breakdown of AI capability levels focused on AI R&D labor acceleration](https://www.lesswrong.com/posts/LjgcRbptarrRfJWtR/a-breakdown-of-ai-capability-levels-focused-on-ai-r-and-d)). Even though capability itself moves continuously, splitting it into stages can help us reason more effectively about them.
 
@@ -121,7 +121,7 @@ It's reasonable to assume that we can't know the full world state, as there is i
 
 \### Epistemic state: what we know
 
-The second part is our picture of the world state:
+The second part is our picture of the world state, and it is not necessarily a subset of it:
 
 - **The lab's confidence in its alignment methods**
 - **Findings from looking inside models (interpretability), and how much we trust them**
