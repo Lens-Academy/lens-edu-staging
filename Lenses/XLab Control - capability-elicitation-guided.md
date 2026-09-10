@@ -11,7 +11,7 @@ tags: []
 content::
 \## Before you start
 
-This is the guided walkthrough of the paper. XLab collapses and restructures several of its sections so that each design choice arrives as a question before it arrives as an answer, and stops you six times to write down what you would do next. If you would rather read the paper straight through, [[../Lenses/XLab Control - capability-elicitation-paper|the ungated version]] is the same text with nothing between the sections.
+This is the guided walkthrough of the paper. Several of its sections are collapsed and restructured here so that each design choice arrives as a question before it arrives as an answer, and you will be stopped six times to write down what you would do next. If you would rather read the paper straight through, [[../Lenses/XLab Control - capability-elicitation-paper|the ungated version]] is the same text with nothing between the sections.
 
 The abstract and the introduction's summary of findings are held back here on purpose. So are the results, until after you have said what you expect.
 
@@ -157,7 +157,7 @@ to:: All plots report the standard error of the mean over 3 seeds.
 
 #### Text
 content::
-XLab pulls the following forward from the paper's appendix C.2, because the next checkpoint turns on it.
+The following is pulled forward from the paper's appendix C.2, because the next checkpoint turns on it.
 
 #### Article
 from:: ### C.2 Password-locking with a single password

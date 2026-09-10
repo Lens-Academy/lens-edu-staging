@@ -42,7 +42,7 @@ By the end of the module you will be able to answer three questions about any re
 
 **safety budget**: The extent to which a developer is willing to sacrifice usefulness for safety. On the cheap end this means implementing safety measures; on the expensive end, refraining from training or deploying models at all. (Definition from [[../Lenses/XLab Control - safety-usefulness-tradeoff-model|Efficient tradeoffs and the safety-usefulness tradeoff model]].)
 
-**political will**: The willingness of a developer (or government, or public) to give up usefulness, speed, or competitive position for safety. (XLab's glossary credits [[../Lenses/XLab Control - safety-usefulness-tradeoff-model|Efficient tradeoffs and the safety-usefulness tradeoff model]].)
+**political will**: The willingness of a developer (or government, or public) to give up usefulness, speed, or competitive position for safety. (Definition from [[../Lenses/XLab Control - safety-usefulness-tradeoff-model|Efficient tradeoffs and the safety-usefulness tradeoff model]].)
 :::
 
 #### Text
