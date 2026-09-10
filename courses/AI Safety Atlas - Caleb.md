@@ -21,7 +21,7 @@ facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 # Module: [[../modules/Lisbon Fellowship - Chapter 2 Risks, Part 2|Chapter 2: Risks, Part 2]]
 
 # Module: [[../modules/Lisbon Fellowship - Chapter 3 Strategies, Part 1|Chapter 3: Strategies, Part 1]]
-# Meeting: Session 2: Risks Part 2, Strategies Part 1
+# Meeting: Week 2
 meeting-doc-template:: https://docs.google.com/document/d/1v2vV520FQbry8AsdhWkpSNC_ihvkQqkU0wXa76DZRoM/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
@@ -30,7 +30,7 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../modules/Lisbon Fellowship - Chapter 3 Strategies, Part 2|Chapter 3: Strategies, Part 2]]
 
 # Module: [[../modules/AI Safety Atlas - Governance|Chapter 4: Governance]]
-# Meeting: Session 3: Strategies Part 2, Governance
+# Meeting: Week 3
 meeting-doc-template:: https://docs.google.com/document/d/1IcUGd2geuTRtteWSpUX5l9uRGdiksnAM1qp1bx5Zp_I/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
