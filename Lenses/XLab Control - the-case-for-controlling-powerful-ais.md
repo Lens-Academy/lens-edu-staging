@@ -309,7 +309,7 @@ The control window has two dimensions: capability room and calendar time. Here a
 <g fill="#2e9e6b" stroke="#1e6b48"><circle cx="97" cy="217" r="4.5"/><circle cx="115" cy="182" r="4.5"/><circle cx="131" cy="140" r="4.5"/><circle cx="144" cy="98" r="4.5"/><circle cx="530" cy="211" r="4.5"/></g>
 <g fill="#ffffff" stroke="#2e9e6b" stroke-width="1.75"><circle cx="683" cy="185" r="4.5"/><circle cx="722" cy="157" r="4.5"/></g>
 <g fill="currentColor" fill-opacity="0.4" font-size="10"><text x="48" y="238">M0</text><text x="428" y="238">M0</text></g>
-<g fill="currentColor" fill-opacity="0.75" font-size="10"><text x="86" y="208">M1</text><text x="106" y="173">M2</text><text x="122" y="131">M3</text><text x="152" y="92">M4</text><text x="521" y="202">M1</text><text x="691" y="179">M2</text><text x="730" y="151">M3</text></g>
+<g fill="currentColor" fill-opacity="0.75" font-size="10"><text x="86" y="208">M1</text><text x="104" y="173">M2</text><text x="120" y="131">M3</text><text x="149" y="92">M4</text><text x="521" y="202">M1</text><text x="691" y="179">M2</text><text x="730" y="151">M3</text></g>
 <g fill="currentColor" fill-opacity="0.55" font-size="10"><text x="30" y="310">window projected onto time</text><text x="410" y="310">window projected onto time</text></g>
 <g stroke="currentColor" stroke-opacity="0.35"><line x1="40" y1="330" x2="350" y2="330"/><line x1="420" y1="330" x2="730" y2="330"/></g>
 <rect x="95" y="322" width="55" height="16" fill="#2e9e6b" fill-opacity="0.35" stroke="#2e9e6b"/>
