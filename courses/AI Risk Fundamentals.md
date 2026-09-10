@@ -9,6 +9,8 @@ tags:
   - visible-in-skilltree
 ---
 
+application-survey:: [[../surveys/Application Form]]
+
 %%
 Some overarching non-learning outcomes we want to achieve:
 [[../Outcomes/Dummy - Agency to contribute]]
