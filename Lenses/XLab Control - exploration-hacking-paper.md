@@ -19,7 +19,7 @@ The paper gives its own map. Section 3 formalizes exploration hacking, Section 4
 
 \#### About the length
 
-This is a long reading, and most of its length is not argument. Counting the words in the version XLab renders: roughly 9,500 words of main text from the abstract through the conclusion, roughly 1,800 words of references, and roughly 18,600 words of appendices. The main text carries the argument and its ten figures. The appendices are hyperparameters, prompts, dataset descriptions, results tables and example transcripts, and they are material to look things up in rather than to read front to back.
+This is a long reading, and most of its length is not argument. Counting the words in this version: roughly 9,500 words of main text from the abstract through the conclusion, roughly 1,800 words of references, and roughly 18,600 words of appendices. The main text carries the argument and its ten figures. The appendices are hyperparameters, prompts, dataset descriptions, results tables and example transcripts, and they are material to look things up in rather than to read front to back.
 
 Appendix A is the one detour worth taking. It holds the full MDP formulation, the taxonomy of exploration hacking strategies, and the capability decomposition, and the guided lesson builds directly on that decomposition.
 
