@@ -101,7 +101,8 @@ var STAGES = [
    explanation:"The new middle band (top 2–10%) is code too suspicious to trust but not suspicious enough to spend an H point on, so the protocol throws U's version away and submits T's instead, trading a little usefulness for safety."},
   {id:"untrusted-monitoring", title:"Untrusted monitoring",
    description:"Produce code using U, and ask a separate copy of U (the untrusted monitor) to monitor how suspicious it looks. Audit the top 2% most suspicious code. Evaluate this untrusted monitor on synthetic examples of backdoors (produced by H) to ensure it is doing its best, and use the untrusted monitor on redacted problem statements and code to make collusion harder.",
-   steps:["u-writes","u-rates"], branch:"branch-top-2", terminals:["audit","submit-u"]},
+   steps:["u-writes","u-rates"], branch:"branch-top-2", terminals:["audit","submit-u"],
+   explanation:"Structurally identical to trusted monitoring, the only change is who rates the code. Because the monitor is itself untrusted, it has to be kept honest: validated against synthetic backdoors from H, and shown redacted inputs so colluding with the policy is harder."},
   {id:"trusted-editing", title:"Trusted editing (20%)",
    description:"Ask U to produce code, and ask T to edit it to remove backdoors. Use trusted monitoring to determine suspicion. Audit the top 2% most suspicious U code, use an edited solution for suspicion between the top 2% and top 20%, and use U's solution for suspicion in the bottom 80%.",
    steps:["u-writes","t-rates"], branch:"branch-2-20", terminals:["audit","submit-edit","submit-u"]}
