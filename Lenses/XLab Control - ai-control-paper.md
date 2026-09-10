@@ -513,5 +513,5 @@ Google. "Classification: ROC and AUC." *Machine Learning Crash Course*, Google. 
 *A short primer on ROC curves and AUC, for the signal-detection reading of the monitor.*
 
 XLab. "AI Control: Improving Safety Despite Intentional Subversion." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/introduction/ai-control-paper)
-*The source lesson this page adapts, including its derivation of the red team's best response and its interactive demos.*
+*The source lesson this page adapts.*
 :::
