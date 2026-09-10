@@ -21,7 +21,7 @@ There exists a set of potential models that are misaligned and are not necessari
 
 The model archetype in question is what we will call "Seekers". We must learn of ways to deal with them, and identify ways in which their threat models differ from schemers.
 
-XLab opens the module with Alex Mallen's ControlConf 2026 talk, which is where the rest of this lesson's vocabulary comes from. Mallen structures it around four questions: what fitness seekers are, how they are safer than classic schemers, how they still pose catastrophic risk, and how we target those risks.
+The module opens with Alex Mallen's ControlConf 2026 talk, which is where the rest of this lesson's vocabulary comes from. Mallen structures it around four questions: what fitness seekers are, how they are safer than classic schemers, how they still pose catastrophic risk, and how we target those risks.
 
 [^note-scheming]: **Scheming.** Schemers are AIs that eventually take substantial material action (control subversion, research sabotage) and manipulate their training procedures (alignment faking, sandbagging) to gain long-term power over their developers in service of pursuing their misaligned goals. Definition from [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais|The case for ensuring that powerful AIs are controlled]].
 [^note-x-risk]: **Existential risk.** The risk of an outcome that permanently destroys humanity's potential, a few avenues being extinction or an irreversible loss of control over the future.
@@ -43,7 +43,7 @@ A seeker is a class of cognitive patterns that aims to achieve a certain outcome
 
 Behavioral selection is the observation that training reinforces whichever behavior scored well, not whichever goal produced it, so what survives is a mix of cognitive patterns that are selected for via the training process. In general, seekers are just a type of cognitive pattern that pushes for beliefs that optimize for a certain item. This is partially why the creation of fitness-seekers through the training process seems so likely, as it's just optimizing for what we're scoring. A schemer is a costlier solution to the same problem; it pursues some other terminal goal and performs well only to survive selection, which requires additional instrumental reasoning about why to comply that isn't directly rewarded and may atrophy due to a lack of use within the training process. This makes the emergence of fitness-seekers seem likelier than schemers. We can see this in the real world, where current models already exhibit apparent-success-seeking while schemers remain hypothetical.
 
-XLab draws the five orientations as a funnel, narrowest at the top, each band wider than the one above it:
+The five orientations form a funnel, narrowest at the top, each band wider than the one above it:
 
 | Orientation | What it pursues |
 | --- | --- |
