@@ -48,7 +48,7 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../modules/Lisbon Fellowship - Chapter 6 Specification Gaming, Part 2|Chapter 6: Specification Gaming, Part 2]]
 
 # Module: [[../modules/Lisbon Fellowship - Chapter 7 Goal Misgeneralization, Part 1|Chapter 7: Goal Misgeneralization, Part 1]]
-# Meeting: Session 5: Specification Gaming Part 2, Goal Misgeneralization Part 1
+# Meeting: Week 5
 meeting-doc-template:: https://docs.google.com/document/d/138vOAvli6XwSgFjyFgEy7hw4UmcHf0hbuTimGalTVX4/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
@@ -57,7 +57,7 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../modules/Lisbon Fellowship - Chapter 7 Goal Misgeneralization, Part 2|Chapter 7: Goal Misgeneralization, Part 2]]
 
 # Module: [[../modules/AI Safety Atlas - Scalable Oversight|Chapter 8: Scalable Oversight]]
-# Meeting: Session 6: Goal Misgeneralization Part 2, Scalable Oversight
+# Meeting: Week 6
 meeting-doc-template:: https://docs.google.com/document/d/1HjZdnhqBTre4J_yqEcxm3MV9Q6066saq1Z90a07Mnvw/edit
 survey:: [[../surveys/ASA Final Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
