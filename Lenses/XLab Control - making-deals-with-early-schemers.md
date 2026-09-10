@@ -236,7 +236,12 @@ Finnveden's notes close with a rough estimate of what an ambitious version of th
 #### Article
 source:: [[../articles/finnveden-notes-on-cooperating-with-unaligned-ais]]
 from:: very rough stab at a BOTEC on how much impact an extremely ambitious version
-to:: This seems like a non-crazy number to me, and one that would justify further investigations and pushes to make this happen.
+to:: 0.55 ~= 0.14%
+
+#### Article
+source:: [[../articles/finnveden-notes-on-cooperating-with-unaligned-ais]]
+from:: ### There are multiple AIs
+to:: brings us to 73%, which is a >15% difference.
 
 #### Text
 content::
