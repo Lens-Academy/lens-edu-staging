@@ -12,7 +12,7 @@ partner-url: https://ai-safety-atlas.com/
 # Module: [[../modules/AI Safety Atlas - Capabilities|Chapter 1: Capabilities]]
 
 # Module: [[../modules/Lisbon Fellowship - Chapter 2 Risks, Part 1|Chapter 2: Risks, Part 1]]
-# Meeting: Session 1: Capabilities, Risks Part 1
+# Meeting: Week 1
 meeting-doc-template:: https://docs.google.com/document/d/1NrXA1G4F1vAnquvuY0UEobTgi4KLckx4huiEyP2rs-c/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
