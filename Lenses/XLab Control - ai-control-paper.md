@@ -484,6 +484,9 @@ assessment-instructions:: Full marks for: because the monitor is the same untrus
 from:: #### 3.4.3 Defer to Trusted
 to:: Table 7: Detailed Safety and Usefulness Results for All Protocols.
 
+#### Widget
+source:: [[../widgets/xlab-control-safety-usefulness-frontier]]
+
 #### Callout: Frontier check
 tone:: amber
 
