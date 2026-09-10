@@ -87,7 +87,7 @@ Three instances in a row, Episode 1 to Episode 2 to Episode 3, each pass a messa
 
 - Remotely-influenceable reward seekers are a subcategory of ROTEs that respond to distant influences given to them by a third-party bad actor. There are two ways that distant influences can occur: retroactive reward, where reward is promised to be delivered long after the action is run, and anthropic capture, where it believes it is in a simulation & acts differently as a result.
 
-XLab's diagram of the two distant incentives:
+The two distant incentives:
 
 | Route | How it works |
 | --- | --- |
@@ -152,7 +152,7 @@ Risks and mitigations here follow [Mallen, "Risk from fitness-seeking AIs: mecha
 - Long-term measurements
     - chain short-term forecasts together to incentivize objectives beyond immediate reward, giving more accurate results
 
-XLab draws this as four short-term forecasts, f₁ to f₄, chained end to end across a long-term measurement horizon, so that the chain carries objectives beyond immediate reward.
+Four short-term forecasts, f₁ to f₄, chain end to end across a long-term measurement horizon, so that the chain carries objectives beyond immediate reward.
 
 - Trusted reward descriptions
     - train the AI to take developer reward descriptions at face value, so behavior can be redirected with zero additional training

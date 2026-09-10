@@ -36,11 +36,11 @@ By the end of the module you will be able to answer three questions about any re
 
 **untrusted model**: A model powerful enough that scheming cannot be ruled out while having little evidence of aligned behavior.
 
-**control evaluation**: An evaluation that stages mock attacks to estimate whether a protocol would catch a real schemer trying its best to subvert it. (XLab's glossary credits [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais|The case for ensuring that powerful AIs are controlled]].)
+**control evaluation**: An evaluation that stages mock attacks to estimate whether a protocol would catch a real schemer trying its best to subvert it. (Definition from [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais|The case for ensuring that powerful AIs are controlled]].)
 
 **situational awareness**: A model's knowledge of what it is and what situation it is in, for instance whether it is being evaluated or it is actually deployed. Hidden situational awareness can lead to behaviors like sandbagging.
 
-**safety budget**: The extent to which a developer is willing to sacrifice usefulness for safety. On the cheap end this means implementing safety measures; on the expensive end, refraining from training or deploying models at all. (XLab's glossary credits [[../Lenses/XLab Control - safety-usefulness-tradeoff-model|Efficient tradeoffs and the safety-usefulness tradeoff model]].)
+**safety budget**: The extent to which a developer is willing to sacrifice usefulness for safety. On the cheap end this means implementing safety measures; on the expensive end, refraining from training or deploying models at all. (Definition from [[../Lenses/XLab Control - safety-usefulness-tradeoff-model|Efficient tradeoffs and the safety-usefulness tradeoff model]].)
 
 **political will**: The willingness of a developer (or government, or public) to give up usefulness, speed, or competitive position for safety. (XLab's glossary credits [[../Lenses/XLab Control - safety-usefulness-tradeoff-model|Efficient tradeoffs and the safety-usefulness tradeoff model]].)
 :::
