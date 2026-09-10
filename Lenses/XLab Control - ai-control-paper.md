@@ -101,7 +101,7 @@ assessment-instructions:: Full marks for both halves. What: the distribution of 
 
 #### Article
 from:: ### 2.4 Miscellaneous Other Simplifications and Assumptions
-to:: See [[#^3-results|Section 3]] for more detailed descriptions of protocols and red team strategies.
+to:: for more detailed descriptions of protocols and red team strategies.
 
 #### Text
 content::
