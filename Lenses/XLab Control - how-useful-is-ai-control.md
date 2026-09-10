@@ -241,19 +241,19 @@ Greenblatt, Ryan, and Thomas Larsen. "A Technical Safety Roadmap." Talk excerpt,
 *A seven-minute clip on what can go wrong, worth watching before the arguments-against-control exercise. The clip cannot be embedded, so open the link to watch it.*
 
 Leike, Jan. "Self-exfiltration is a key dangerous capability." *Aligned*, 13 Sept. 2023. [aligned.substack.com](https://aligned.substack.com/p/self-exfiltration)
-*The post XLab links for exfiltration: why a model getting its own weights out of the lab is the capability that removes every other safety measure at once.*
+*On exfiltration: why a model getting its own weights out of the lab is the capability that removes every other safety measure at once.*
 
 Gan, Eric, Vivek Hebbar, and Julian Stastny. "Research Sabotage in ML Codebases." *LessWrong*, 30 Apr. 2026. [lesswrong.com](https://www.lesswrong.com/posts/LByP4qsF8a4g7Pz3p/research-sabotage-in-ml-codebases)
-*The post XLab links for research sabotage: a benchmark of deliberately flawed ML research code, and how often models and humans catch the flaws.*
+*On research sabotage: a benchmark of deliberately flawed ML research code, and how often models and humans catch the flaws.*
 
 Sett, Gaurav. "How AI Can Automate AI Research and Development." *RAND Corporation*, 24 Oct. 2024. [rand.org](https://www.rand.org/pubs/commentary/2024/10/how-ai-can-automate-ai-research-and-development.html)
-*The commentary XLab links for automated AI R&D: how labs are already using AI to accelerate work on the next generation of models.*
+*On automated AI R&D: how labs are already using AI to accelerate work on the next generation of models.*
 
 Anthropic. "When AI builds itself." *Anthropic*. [anthropic.com](https://www.anthropic.com/institute/recursive-self-improvement)
-*The page XLab links for recursive self-improvement, describing how far AI has already gone in automating the work that builds its successors.*
+*On recursive self-improvement: how far AI has already gone in automating the work that builds its successors.*
 
 Shlegeris, Buck. "Scalable oversight as a quantitative rather than qualitative problem." *LessWrong*, 6 July 2024. [lesswrong.com](https://www.lesswrong.com/posts/6AT4vhYzww56CR6cm/scalable-oversight-as-a-quantitative-rather-than-qualitative)
-*The post XLab links for scalable oversight, arguing it is a question of how cheaply humans can check AI work rather than whether they can check it at all.*
+*On scalable oversight: arguing it is a question of how cheaply humans can check AI work rather than whether they can check it at all.*
 
 "Pareto principle." *Wikipedia*. [en.wikipedia.org](https://en.wikipedia.org/wiki/Pareto_principle)
 *The 80/20 heuristic XLab invokes when arguing for spreading effort across additive fields rather than concentrating it.*
