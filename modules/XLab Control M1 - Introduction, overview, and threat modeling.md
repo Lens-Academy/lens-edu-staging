@@ -8,6 +8,8 @@ tags:
 # Submodule: Welcome
 # Lens: Welcome to XLab's AI Control course
 id:: 661f1953-fa90-4ba5-a4b1-3e7aeb0c2d0a
+reading_minutes:: 3
+tutor_minutes:: 0
 #### Text
 content::
 \## Alpha course

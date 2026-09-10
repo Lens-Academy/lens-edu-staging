@@ -232,13 +232,17 @@ function renderPanel(){
   var reset = el("button", null, "Clear");
   reset.onclick = function(){ answers[stage.id] = blank(); checked[stage.id]=false; commit(); };
   act.appendChild(reset);
+  var solvedNow = false;
   if(show){
-    var ok = isSolved(stage);
-    act.appendChild(el("span", "verdict " + (ok ? "ok" : "bad"),
-      ok ? "Correct. That is the row Table 2 gives for this protocol."
-         : "Not yet. Green slots match Table 2; red ones do not."));
+    solvedNow = isSolved(stage);
+    act.appendChild(el("span", "verdict " + (solvedNow ? "ok" : "bad"),
+      solvedNow ? "Correct. That is the row Table 2 gives for this protocol."
+                : "Not yet. Green slots match Table 2; red ones do not."));
   }
   panel.appendChild(act);
+  if(solvedNow && stage.explanation){
+    panel.appendChild(el("p","explain", stage.explanation));
+  }
 
   var done = 0;
   STAGES.forEach(function(s){ if(solved[s.id]) done++; });
