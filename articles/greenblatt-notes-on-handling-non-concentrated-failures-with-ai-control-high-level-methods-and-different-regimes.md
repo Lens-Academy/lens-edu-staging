@@ -3,7 +3,7 @@ title: "Notes on handling non-concentrated failures with AI control: high level 
 author:
   - "Ryan Greenblatt"
 source_url: "https://blog.redwoodresearch.org/p/notes-on-handling-non-concentrated"
-published: 2025-04-06
+published: 2025-03-29
 created: 2026-07-02
 accessed: 2026-07-02
 description: "What are the methods and issues when failures occur diffusely over many actions?"

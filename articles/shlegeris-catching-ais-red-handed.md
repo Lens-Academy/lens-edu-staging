@@ -4,7 +4,7 @@ author:
   - "Ryan Greenblatt"
   - "Buck Shlegeris"
 source_url: "https://redwoodresearch.substack.com/p/catching-ais-red-handed"
-published: 2024-05-08
+published: 2024-05-07
 created: 2026-07-02
 accessed: 2026-07-02
 description: "If your AIs are trying to escape, it's crucial to think about whether you can catch them before they succeed, because catching them red-handed gives you lots of options you didn't have before."
