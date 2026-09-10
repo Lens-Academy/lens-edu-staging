@@ -306,7 +306,7 @@ The control window has two dimensions: capability room and calendar time. Here a
 <g stroke="#d9534f" stroke-width="1.5" stroke-dasharray="5 4"><line x1="40" y1="90" x2="350" y2="90"/><line x1="420" y1="185" x2="730" y2="185"/></g>
 <g fill="none" stroke="currentColor" stroke-opacity="0.8" stroke-width="2.5"><polyline points="40,252 70,241 95,220 112,190 128,150 142,105 158,55"/><polyline points="420,252 450,241 475,220 520,212 580,203 640,193 683,185 700,177 712,167 722,157 730,146"/></g>
 <g fill="#d4d4d4" stroke="#a3a3a3"><circle cx="55" cy="247" r="4.5"/><circle cx="435" cy="247" r="4.5"/></g>
-<g fill="#2e9e6b" stroke="#1e6b48"><circle cx="97" cy="217" r="4.5"/><circle cx="117" cy="182" r="4.5"/><circle cx="133" cy="140" r="4.5"/><circle cx="147" cy="98" r="4.5"/><circle cx="530" cy="211" r="4.5"/></g>
+<g fill="#2e9e6b" stroke="#1e6b48"><circle cx="97" cy="217" r="4.5"/><circle cx="115" cy="182" r="4.5"/><circle cx="131" cy="140" r="4.5"/><circle cx="144" cy="98" r="4.5"/><circle cx="530" cy="211" r="4.5"/></g>
 <g fill="#ffffff" stroke="#2e9e6b" stroke-width="1.75"><circle cx="683" cy="185" r="4.5"/><circle cx="722" cy="157" r="4.5"/></g>
 <g fill="currentColor" fill-opacity="0.4" font-size="10"><text x="48" y="238">M0</text><text x="428" y="238">M0</text></g>
 <g fill="currentColor" fill-opacity="0.75" font-size="10"><text x="86" y="208">M1</text><text x="106" y="173">M2</text><text x="122" y="131">M3</text><text x="152" y="92">M4</text><text x="521" y="202">M1</text><text x="691" y="179">M2</text><text x="730" y="151">M3</text></g>
