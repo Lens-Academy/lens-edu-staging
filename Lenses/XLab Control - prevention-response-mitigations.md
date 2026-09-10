@@ -119,10 +119,10 @@ Stopping low-severity and diffuse threats doesn't require immediate action, as t
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Greenblatt, Ryan. "An overview of control measures." *Redwood Research blog*, 6 Apr. 2025. [blog.redwoodresearch.org](https://blog.redwoodresearch.org/p/an-overview-of-control-measures)
-*One of the two sources XLab assembled this lesson from: Redwood's catalogue of measures a lab could deploy to keep an untrusted model under control.*
+*One of the two sources this lesson is assembled from: Redwood's catalogue of measures a lab could deploy to keep an untrusted model under control.*
 
 Phuong, Mary, Erik Jenner, Laurent Simon, Lewis Ho, Rohin Shah, Sebastian Farquhar, and Scott Coull. "GDM AI Control Roadmap." *arXiv*, 13 July 2026. [arxiv.org](https://arxiv.org/abs/2607.13087)
-*The other source XLab assembled this lesson from: Google DeepMind's roadmap for AI control.*
+*The other source this lesson is assembled from: Google DeepMind's roadmap for AI control.*
 
 Hubinger, Evan. "When can we trust model evaluations?" *LessWrong*, 28 July 2023. [lesswrong.com](https://www.lesswrong.com/posts/dBmfb76zx6wjPsBC7/when-can-we-trust-model-evaluations#2__Behavioral_RL_Fine_Tuning_Evaluations)
 *The section on behavioral RL fine-tuning evaluations, which is where the lesson's definition of exploration hacking points.*
@@ -140,10 +140,10 @@ Open Source Security Foundation. "Supply-chain Levels for Software Artifacts (SL
 *The software supply-chain security standard the lesson names as a way to keep unaudited code out of critical systems.*
 
 Greenblatt, Ryan, Buck Shlegeris, Kshitij Sachan, and Fabien Roger. "AI Control: Improving Safety Despite Intentional Subversion." *arXiv*, 12 Dec. 2023. [arxiv.org](https://arxiv.org/abs/2312.06942)
-*The source XLab's glossary gives for the control protocol and backdoor definitions in the key-terms box.*
+*The source of the control protocol and backdoor definitions in the key-terms box.*
 
 Stastny, Julian. "Misalignment and Strategic Underperformance: An Analysis of Sandbagging and Exploration Hacking." *Redwood Research blog*, 8 May 2025. [blog.redwoodresearch.org](https://blog.redwoodresearch.org/p/misalignment-and-strategic-underperformance)
-*The source XLab's glossary gives for the sandbagging definition in the key-terms box.*
+*The source of the sandbagging definition in the key-terms box.*
 
 XLab. "Prevention and Response Mitigations." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/areas-of-control-work/prevention-response-mitigations)
 *The source lesson this page adapts.*

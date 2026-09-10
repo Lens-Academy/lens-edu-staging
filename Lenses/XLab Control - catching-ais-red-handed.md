@@ -95,7 +95,7 @@ Greenblatt, Ryan, and Buck Shlegeris. "Catching AIs red-handed." *Redwood Resear
 *The reading this lesson is built around: the argument that a single caught escape attempt changes a lab's position, and eight strategies for using it.*
 
 Greenblatt, Ryan. "To be legible, evidence of misalignment probably has to be behavioral." *LessWrong*, 15 Apr. 2025. [lesswrong.com](https://www.lesswrong.com/posts/4QRvFCzhFbedmNfp4/to-be-legible-evidence-of-misalignment-probably-has-to-be)
-*One of the two posts XLab points learners at for the second free-response question, on what kind of evidence of misalignment can actually be made legible to outsiders.*
+*One of the two posts to read for the second free-response question, on what kind of evidence of misalignment can actually be made legible to outsiders.*
 
 Shlegeris, Buck. "Behavioral red-teaming is unlikely to produce clear, strong evidence that models aren't scheming." *Redwood Research blog*, 10 Oct. 2024. [blog.redwoodresearch.org](https://blog.redwoodresearch.org/p/behavioral-red-teaming-is-unlikely)
 *The second post XLab points learners at, arguing that behavioral red-teaming will not settle the question either way.*
