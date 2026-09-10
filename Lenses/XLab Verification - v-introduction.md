@@ -95,7 +95,6 @@ Hear what the top AI figures have to say:
 
 #### Widget
 source:: [[../widgets/what-do-they-say]]
-required:: true
 #### Text
 content::
 Most notably, over 1,300 employees of frontier AI companies have signed a public [statement](https://www.pacingthefrontier.com/) to “request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.”
