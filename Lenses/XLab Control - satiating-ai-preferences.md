@@ -15,7 +15,7 @@ Alex Mallen's case, in his own summary: some unintended AI preferences are cheap
 
 The post sets out its own route. It motivates satiation by analogy to satiating hunger, then paints a picture of how satiating cheaply-satisfied preferences could have averted takeover in Ajeya Cotra's "Without Specific Countermeasures", then works out a concrete behavioral methodology for identifying and satiating such preferences, and finally goes through the challenges and the benefits in more depth.
 
-XLab stops you twice for recall, once after the section on eliciting an AI's preferences and once just before the conclusion. Those stops are kept here, in the same places.
+You will be stopped twice for recall, once after the section on eliciting an AI's preferences and once just before the conclusion.
 
 After this, [[../Lenses/XLab Control - spillway-motivation|the spillway motivation]] takes up the design question Mallen raises near the end of this post: whether developers can deliberately aim reward-hacking into a controlled motivation that can then be satiated away.
 

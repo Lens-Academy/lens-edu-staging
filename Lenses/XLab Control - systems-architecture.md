@@ -51,7 +51,7 @@ assessment-instructions:: The learner has just read the compromise section and i
 content::
 \## The same picture, one threat at a time
 
-Shlegeris redraws his architecture for each compromise he describes. This version, adapted from XLab's, puts those redraws onto a single picture. Step through it and watch where each attack path starts, and which machine it has to reach.
+Shlegeris redraws his architecture for each compromise he describes. This version puts those redraws onto a single picture. Step through it and watch where each attack path starts, and which machine it has to reach.
 
 #### Widget
 source:: [[../widgets/xlab-control-agent-architecture-threats]]
