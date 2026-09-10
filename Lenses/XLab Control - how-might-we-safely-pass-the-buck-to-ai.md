@@ -31,5 +31,5 @@ Clymer, Josh. "How might we safely pass the buck to AI?" *Redwood Research blog*
 *The reading for this lesson: the case that safely handing AI development to AI agents, rather than aligning superintelligence directly, should be the end goal of technical safety work, and the capability and trust conditions under which that handoff improves safety.*
 
 XLab. "How might we safely pass the buck to AI?" *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/introduction/how-might-we-safely-pass-the-buck-to-ai)
-*The source lesson this page adapts. XLab renders Clymer's post in full and adds no framing and no exercises of its own.*
+*The source lesson this page adapts.*
 :::

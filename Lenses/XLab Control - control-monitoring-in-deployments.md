@@ -39,5 +39,5 @@ Lindner, David, Charlie Griffin, Tomek Korbak, Roland S. Zimmermann, Geoffrey Ir
 *The paper this lesson assigns: the four deployment dynamics that break simplified control monitoring, the synchronous, semi-synchronous and asynchronous protocols, the safety case sketch and its six claims, and four case studies pricing each protocol against a different attack vector.*
 
 XLab. "Practical challenges of control monitoring in frontier AI deployments." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-4/control-monitoring-in-deployments)
-*The source lesson this page adapts. XLab renders the paper in full and adds no framing or exercises of its own.*
+*The source lesson this page adapts.*
 :::
