@@ -25,7 +25,9 @@ tags: [wip]
   .card { border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 8px; }
   .plot { overflow: hidden; }
   svg { display: block; width: 100%; height: auto; font-family: var(--font-ui); }
-  svg:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; border-radius: 4px; }
+  /* No browser focus ring on click; keyboard users get a ring in the course accent. */
+  svg:focus { outline: none; }
+  body.kb svg:focus { outline: 2px solid var(--accent, #b87018); outline-offset: 2px; border-radius: 4px; }
   .grab { cursor: grab; touch-action: pan-y; }
   .grab:active { cursor: grabbing; }
   .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 8px; }
@@ -58,6 +60,8 @@ tags: [wip]
 <p class="credit" id="tl-credit"></p>
 
 <script>
+  document.addEventListener("keydown", function (e) { if (e.key === "Tab") document.body.classList.add("kb"); });
+  document.addEventListener("pointerdown", function () { document.body.classList.remove("kb"); });
 (function () {
   "use strict";
 
