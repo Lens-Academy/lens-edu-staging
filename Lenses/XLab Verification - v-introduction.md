@@ -2,7 +2,7 @@
 id: '52565ea0-6760-498e-85b5-850bcc48ccf3'
 title: "Introduction: Why Should You Care About AI Verification?"
 tldr: "Models have already broken out of test environments and into real companies; the people building them say worse is coming. No single country can contain that, and rivals cannot simply trust, punish, or open their books. Verification is the fourth option, and almost nobody is working on it yet."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab's interactive widgets (types-of-AI levels, leader profiles, verification-problem, landscape map) are rendered here as text plus choice questions; only the Our World in Data charts remain external."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. The verification-problem exercise is an interactive widget; XLab's other interactives (types-of-AI levels, leader profiles, landscape map) are rendered here as text plus choice questions; only the Our World in Data charts remain external."
 tags: [wip]
 duration_minutes: 50
 ---
@@ -233,21 +233,8 @@ Domestic policy, while essential, therefore cannot answer every important questi
 
 The United States and China each have reasons to worry that an agreement could constrain its own development while leaving the other side free to advance. But some of history’s most consequential international institutions were created precisely because states remained competitors: the U.S. and Soviet Union successfully averted nuclear war, despite being staunch political enemies. But in this state of competition and distrust, how do rivals enforce such agreements?
 
-:::callout {title="Trust?" tone="neutral"}
-You could trust each other, and trust each other's trust. Works with friends, but not with nation-state adversaries incentivized to self-protect by gaining the secret upper hand, and especially not when dealing with the development of high-risk technologies.
-:::
-
-:::callout {title="Punish violations?" tone="neutral"}
-In the absence of trust, they could penalize violations of the agreement and preempt misconduct. But deterrence depends upon the reliability of tracking each party's actions. Moreover, an ex-post regime fails when consequences are immediate, far-reaching, and irreversible: no fine can bring back the dead.
-:::
-
-:::callout {title="Mutual transparency?" tone="neutral"}
-They could mutually disclose actions, but increased transparency risks theft of proprietary information or prototypes by adversaries. Each party is still incentivized to develop a secret advantage and fabricate compliance.
-:::
-
-:::callout {title="Neutral, privacy-preserving verification mechanisms?" tone="neutral"}
-It holds. What if you could mutually verify compliance without risking undue loss of privacy? If each party could verify the other's compliance without learning their secrets, knowing the other can do the same, they have fewer material incentives to dodge compliance. Verification displaces the impossible promise of trust in a volatile adversary toward trust in a shared, robust verification regime.
-:::
+#### Widget
+source:: [[../widgets/verification-problem]]
 
 #### Text
 content::
