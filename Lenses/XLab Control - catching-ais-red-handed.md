@@ -101,5 +101,5 @@ Shlegeris, Buck. "Behavioral red-teaming is unlikely to produce clear, strong ev
 *The second of those posts, arguing that behavioral red-teaming will not settle the question either way.*
 
 XLab. "Catching AIs red-handed." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/introduction/catching-ais-red-handed)
-*The source lesson this page adapts, including its note on whether catching is an appropriate win condition.*
+*The source lesson this page adapts.*
 :::

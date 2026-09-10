@@ -109,5 +109,5 @@ Shlegeris, Buck. "How to prevent collusion when using untrusted models to monito
 *The reading this lesson is built around: an adversarial analysis of whether untrusted monitoring survives a monitor that wants to lie about its twin, and what defenses hold up if the two can agree on a signal.*
 
 XLab. "How to prevent collusion in untrusted monitoring (guided)." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-4/collusion-guided)
-*The source lesson this page adapts, including the five written checkpoints and the points in the post where they interrupt it.*
+*The source lesson this page adapts.*
 :::

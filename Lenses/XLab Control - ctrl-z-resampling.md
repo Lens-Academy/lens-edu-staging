@@ -144,5 +144,5 @@ Greenblatt, Ryan, Buck Shlegeris, Kshitij Sachan, and Fabien Roger. "AI Control:
 *The earlier control evaluation this paper extends, from single-step backdoored code to a multi-step agent.*
 
 XLab. "Ctrl-Z: Controlling AI Agents via Resampling." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-4/ctrl-z-resampling)
-*The source lesson this page adapts, including its thirteen recall checks and the "Defer to resample, mechanically" demo ported above.*
+*The source lesson this page adapts.*
 :::

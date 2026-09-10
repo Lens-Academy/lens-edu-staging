@@ -347,5 +347,5 @@ Greenblatt, Ryan. "Notes on countermeasures for exploration hacking (aka sandbag
 *The countermeasure catalogue the paper's Section 5 builds on, cited there alongside the UK AI Security Institute's statement that mitigating exploration hacking matters.*
 
 XLab. "Exploration Hacking (guided)." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/low-stakes-control/exploration-hacking-guided)
-*The source lesson this page adapts, including its eight inserted teaching sections, its ten written checkpoints and the points in the paper where they interrupt it.*
+*The source lesson this page adapts.*
 :::

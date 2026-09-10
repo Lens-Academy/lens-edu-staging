@@ -56,5 +56,5 @@ Christiano, Paul. "Low-stakes alignment." *AI Alignment Forum*, 30 Apr. 2021. [a
 *The decomposition the "high-stakes"/"low-stakes" pair descends from, and the reason Redwood avoided that pair in writing.*
 
 XLab. "How can we solve diffuse threats like research sabotage with AI control?" *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/introduction/diffuse-threats-research-sabotage)
-*The source lesson this page adapts, including its three recall prompts and its note on terminology.*
+*The source lesson this page adapts.*
 :::

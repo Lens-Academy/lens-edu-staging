@@ -317,5 +317,5 @@ Kokotajlo, Daniel, Scott Alexander, Thomas Larsen, Eli Lifland, and Romeo Dean. 
 *The scenario the closing exercise asks the learner to skim, used as the concrete trajectory against which to locate control's marginal value.*
 
 XLab. "Determining the usefulness." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/how-useful-is-ai-control/determining-the-usefulness)
-*The source lesson this page adapts, including the two free-response exercises and the four diagrams.*
+*The source lesson this page adapts.*
 :::
