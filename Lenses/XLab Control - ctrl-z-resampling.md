@@ -143,6 +143,16 @@ assessment-instructions:: The learner is being checked on section 4 of the Ctrl-
 
 #### Text
 content::
+\## How far this carries
+
+The last stretch is the authors' own accounting: how the two monitors are tuned against each other, then the ways their setup may make the blue team's job too easy, and the ways it may make it too hard.
+
+#### Article
+from:: "For every protocol that the blue team proposes"
+to:: "our results demonstrate that effective control protocols can be constructed for complex multi-step environments while maintaining high task performance."
+
+#### Text
+content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Bhatt, Aryan, Cody Rushing, Adam Kaufman, Tyler Tracy, Vasil Georgiev, David Matolcsi, Akbir Khan, and Buck Shlegeris. "Ctrl-Z: Controlling AI Agents via Resampling." *arXiv*, Apr. 2025. [arxiv.org](https://arxiv.org/abs/2504.10374)
 *The paper this lesson assigns: the first control evaluation run in an agent environment, and the source of every protocol and number the recall questions ask about.*
