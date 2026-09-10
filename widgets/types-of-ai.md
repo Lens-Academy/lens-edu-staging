@@ -1,7 +1,7 @@
 ---
 id: 'a1d2e3f4-5b6c-4d7e-8f90-1a2b3c4d5e02'
 title: The types of AI
-summary_for_tutor: A concentric diagram of AI categories, outermost to innermost - AI, Narrow AI, Machine Learning, Deep Learning, Generative AI, Large Language Models, Transformer LLMs - with example systems placed in each ring (Roomba, Deep Blue, Amazon spam filter, FaceID, Midjourney, Mamba, Claude, ChatGPT...). The learner taps a ring or an example to read what it is and why it sits at that ring and not the next one in. The grey margin outside the red rings is non-narrow AI (AGI and ASI), which XLab labels theoretical only, or possible but absurd in resource terms. The diagram zooms and pans. Content ported from XLab's Verification track.
+summary_for_tutor: A concentric diagram of AI categories, outermost to innermost - AI, Narrow AI, Machine Learning, Deep Learning, Generative AI, Large Language Models, Transformer LLMs - with example systems placed in each ring (Roomba, Deep Blue, Amazon spam filter, FaceID, Midjourney, Mamba, Claude, ChatGPT...). The learner taps a ring or an example to read what it is and why it sits at that ring and not the next one in. The grey margin outside the coloured rings is non-narrow AI (AGI and ASI), which XLab labels theoretical only, or possible but absurd in resource terms. The diagram zooms and pans. Content ported from XLab's Verification track.
 tags: [wip]
 ---
 <!doctype html>
@@ -408,7 +408,7 @@ tags: [wip]
     if (view.kind === "none") {
       panel.appendChild(el("p", "prompt", PROMPT));
       var regions = el("div", "regions");
-      regions.appendChild(el("p", "eyebrow", "Beyond the red rings"));
+      regions.appendChild(el("p", "eyebrow", "The grey margin"));
       var list = el("div", "region-list");
       ["theoretical", "absurd"].forEach(function (r) {
         var b = el("button", "region-btn");

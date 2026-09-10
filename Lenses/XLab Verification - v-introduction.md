@@ -82,20 +82,10 @@ Because we cannot separate dangerous capabilities from beneficial ones, we will 
 
 A key property of ASI would be recursive self-improvement, or RSI. A model capable of RSI would be able to autonomously and exponentially improve itself, leading to unstoppable, runaway systems that humans can no longer control. Throughout this course, we will use the term ASI to refer to AI with dangerous capabilities that pose a material existential threat to humanity.
 
-:::callout {title="Optional: The Types of AI" tone="neutral" collapse="closed"}
-Where does today's AI sit? These levels move from broad labels to more specific types. They describe what kind of system something is, not how capable it is. A system can fit several levels; choose the most specific one that applies.
+*Optional: The Types of AI. Where does today's AI sit? Tap a ring or a system in the diagram to see what it is and why it sits at that level and not the next one in.*
 
-1. **AI**: the whole field, any system built to do things we would call intelligent.
-2. **Narrow AI**: built for one task or a narrow set of them. Everything that actually exists today lives here. Examples: Boeing autopilot (engineered control laws), IBM Deep Blue (brute-force search plus hand-crafted evaluation), Word spell checker (dictionary and rules).
-3. **Machine Learning**: systems that learn patterns from data instead of being programmed rule by rule. Examples: Amazon's early spam filter, Chase credit scoring, JPMorgan fraud flagging (statistical models fit to historical data, no deep network).
-4. **Deep Learning**: machine learning with many-layered neural networks that learn their own features. Examples: Apple Photos recognition, Azure Speech to Text, FaceID (all discriminative, not generative).
-5. **Generative AI**: deep-learning systems that create new content. Examples: Sora, Suno, and Adobe Firefly (generate video, audio, or images; not language models).
-6. **Large Language Model**: generative models that specialise in language. Example: RWKV, a recurrent LLM that is not a transformer.
-7. **Transformer LLMs**: language models built on the transformer (attention) architecture, today's mainstream. Examples: Claude, ChatGPT, Gemini, LLaMA.
-
-Beyond these levels: non-narrow AI remains theoretical; no real non-narrow AI models are known.
-
-:::
+#### Widget
+source:: [[../widgets/types-of-ai]]
 
 #### Text
 content::
