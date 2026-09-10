@@ -256,7 +256,7 @@ Shlegeris, Buck. "Scalable oversight as a quantitative rather than qualitative p
 *On scalable oversight: arguing it is a question of how cheaply humans can check AI work rather than whether they can check it at all.*
 
 "Pareto principle." *Wikipedia*. [en.wikipedia.org](https://en.wikipedia.org/wiki/Pareto_principle)
-*The 80/20 heuristic XLab invokes when arguing for spreading effort across additive fields rather than concentrating it.*
+*The 80/20 heuristic behind the argument for spreading effort across additive fields rather than concentrating it.*
 
 XLab. "How useful is AI control?" *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/how-useful-is-ai-control/how-useful-is-ai-control)
 *The source lesson this page adapts, including Exercise 2.1 and its example responses.*

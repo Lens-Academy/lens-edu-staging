@@ -197,7 +197,7 @@ Four short-term forecasts, f₁ to f₄, chain end to end across a long-term mea
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Mallen, Alex. "Control for non-schemers." *ControlConf 2026*, FAR.AI and Redwood Research, published 12 June 2026. [youtube.com](https://www.youtube.com/watch?v=w5wwXGwklaI)
-*The 24-minute talk XLab embeds at the top of the lesson, and the source of its fitness-seeker vocabulary: what fitness seekers are, how they are safer than schemers, how they still pose catastrophic risk, and how control mitigations change for them. XLab hosts its own copy of the recording at [pub-6aa497758c494e29857d4dd613e4ac39.r2.dev](https://pub-6aa497758c494e29857d4dd613e4ac39.r2.dev/control-for-non-schemers-mallen.mp4).*
+*The 24-minute talk at the top of this lesson, and the source of its fitness-seeker vocabulary: what fitness seekers are, how they are safer than schemers, how they still pose catastrophic risk, and how control mitigations change for them. A copy of the recording is mirrored at [pub-6aa497758c494e29857d4dd613e4ac39.r2.dev](https://pub-6aa497758c494e29857d4dd613e4ac39.r2.dev/control-for-non-schemers-mallen.mp4).*
 
 Mallen, Alex. "Fitness-Seekers: Generalizing the Reward-Seeking Threat Model." *Redwood Research blog*, 29 Jan. 2026. [blog.redwoodresearch.org](https://blog.redwoodresearch.org/p/fitness-seekers-generalizing-the)
 *The source of the behavioral selection account of how seekers come to exist, and of the figure of three maximally-fit motivation families.*
