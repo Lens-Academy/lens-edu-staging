@@ -45,7 +45,7 @@ When we are building these evals, we may use the following strategies/tools to i
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Greenblatt, Ryan, and Buck Shlegeris. "The case for ensuring that powerful AIs are controlled." *LessWrong*, 24 Jan. 2024. [lesswrong.com](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled)
-*The post XLab's glossary cites for its definition of a scheming model, and the statement of the control agenda whose red team versus blue team evaluation this lesson describes.*
+*The source of the definition of a scheming model, and the statement of the control agenda whose red team versus blue team evaluation this lesson describes.*
 
 XLab. "Control Evaluations." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/areas-of-control-work/control-evaluations)
 *The source lesson this page adapts.*
