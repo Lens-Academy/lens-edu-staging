@@ -52,5 +52,5 @@ Shlegeris, Buck. "Efficient tradeoffs and the safety-usefulness tradeoff model."
 *The whole of this lesson's reading: the safety-usefulness tradeoff model, the two levers it implies, and the argument about the conditions under which it stops applying.*
 
 XLab. "Efficient tradeoffs and the safety-usefulness tradeoff model." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/how-useful-is-ai-control/safety-usefulness-tradeoff-model)
-*The source lesson this page adapts, including the free-response exercise and the point in the reading where it interrupts.*
+*The source lesson this page adapts.*
 :::

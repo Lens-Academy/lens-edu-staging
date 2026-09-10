@@ -72,5 +72,5 @@ Cotra, Ajeya. "Without specific countermeasures, the easiest path to transformat
 *The takeover story Mallen retells: the source of Alex the reward-seeking AI and of the catch-and-punish ratchet that satiation is supposed to break.*
 
 XLab. "The case for satiating cheaply-satisfied AI preferences." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-5/satiating-ai-preferences)
-*The source lesson this page adapts, including the two Quick recall blocks and their placement.*
+*The source lesson this page adapts.*
 :::
