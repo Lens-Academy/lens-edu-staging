@@ -94,5 +94,5 @@ Pan, Alexa. "A taxonomy of barriers to trading with early misaligned AIs." *Less
 *The whole of this lesson's reading: the three-branch taxonomy of what could stop a deal with an early misaligned AI, the author's key takeaways and disagreements with earlier work, and an appendix of open research questions.*
 
 XLab. "A taxonomy of barriers to trading with early misaligned AIs." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-5/barriers-to-trading)
-*The source lesson this page adapts, including the five exercises and the payment map demo rebuilt here as a widget.*
+*The source lesson this page adapts.*
 :::

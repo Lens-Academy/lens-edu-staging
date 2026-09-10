@@ -86,5 +86,5 @@ Greenblatt, Ryan. "An overview of areas of control work." *Redwood Research blog
 *The reading for this lens: a map of eight areas of control research and implementation, roughly ordered by how much investment the author thinks each warrants.*
 
 XLab. "An overview of areas of control work." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/areas-of-control-work/an-overview-of-areas-of-control-work)
-*The source lesson this page adapts, including both free-response exercises and their rubrics.*
+*The source lesson this page adapts.*
 :::

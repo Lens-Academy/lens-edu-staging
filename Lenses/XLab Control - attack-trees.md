@@ -104,5 +104,5 @@ Greenblatt, Ryan, Buck Shlegeris, Kshitij Sachan, and Fabien Roger. "AI Control:
 *The source of the practice scenario: the untrusted model, the backdoor definition, and the three affordances the bench hands the blue team.*
 
 XLab. "Attack Trees." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/introduction/attack-trees)
-*The source lesson this page adapts, including the tips section and the practice bench.*
+*The source lesson this page adapts.*
 :::
