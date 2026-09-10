@@ -65,7 +65,7 @@ input[type=range] { width: 100%; accent-color: var(--accent); margin: 4px 0 0; }
       <input type="range" id="sC" min="0" max="500" step="1" value="300">
     </div>
     <div class="lever">
-      <label for="sQ"><span class="name">Chance a bad action is noticed (q = audited x caught)</span><span class="val" id="vQ"></span></label>
+      <label for="sQ"><span class="name">Chance a bad action is noticed (q = audited × caught)</span><span class="val" id="vQ"></span></label>
       <input type="range" id="sQ" min="-400" max="-30.103" step="1" value="-200">
     </div>
     <div class="lever">
