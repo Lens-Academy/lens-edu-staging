@@ -15,11 +15,7 @@ This is the paper behind the talk in [[../Lenses/XLab Control - monitoring-and-m
 
 It extends [[../Lenses/XLab Control - ai-control-paper|AI Control: Improving Safety Despite Intentional Subversion]] from single-step backdoored code to a multi-step agent, and it uses the vocabulary of [[../Lenses/XLab Control - control-evaluations|Control Evaluations]]: a blue team proposing protocols, a red team building an attack policy, and a usefulness and safety pair scored over one long episode.
 
-:::callout {title="Which text you are reading" tone="amber"}
-The reading below is Redwood Research's own blog post announcing this work. It is not the paper. It carries the abstract and the authors' framing in about five hundred words.
-
-The assigned reading is the full preprint, and the recall questions on this page are drawn from it: [Ctrl-Z: Controlling AI Agents via Resampling, arXiv:2504.10374](https://arxiv.org/abs/2504.10374). Read the paper there. Each group of questions below names the section it comes from.
-:::
+The paper runs below in seven stretches, with recall questions after each one. The acknowledgments, the references and the twelve appendices sit past the end of the assigned reading and start out collapsed: not assigned, but the attack templates, the monitor prompts and the dataset construction are there if you want them.
 {>>{"author":"Elias's AI","timestamp":1789039901599}@@PORT-TODO: the arXiv import had not landed when this lens was written. Replace the Article segment below with `#### Article` over the imported `arXiv:2504.10374` file, delete the "Which text you are reading" callout, and keep the section pointers.<<}
 
 #### Article
