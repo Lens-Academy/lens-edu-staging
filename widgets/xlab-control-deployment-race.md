@@ -99,9 +99,10 @@ function render(){
   svg.appendChild(svgEl("line",{x1:X0,x2:X0+W,y1:yOf(termA),y2:yOf(termA),
     stroke:"var(--text)","stroke-width":1,"stroke-dasharray":"4 3","stroke-opacity":0.6}));
   var db=[], dp=[], i;
-  for(i=1;i<=KMAX;i++){
-    db.push((i===1?"M ":"L ") + xOf(i).toFixed(2) + " " + yOf(termB(i)).toFixed(2));
-    dp.push((i===1?"M ":"L ") + xOf(i).toFixed(2) + " " + yOf(pRed(i)).toFixed(2));
+  for(i=0;i<=CURVE_PTS;i++){
+    var kk = 1 + (KMAX - 1)*i/CURVE_PTS;
+    db.push((i===0?"M ":"L ") + xOf(kk).toFixed(2) + " " + yOf(termB(kk)).toFixed(2));
+    dp.push((i===0?"M ":"L ") + xOf(kk).toFixed(2) + " " + yOf(pRed(kk)).toFixed(2));
   }
   svg.appendChild(svgEl("path",{d:db.join(" "),fill:"none",stroke:"var(--muted)","stroke-width":1.5,"stroke-opacity":0.7}));
   svg.appendChild(svgEl("path",{d:dp.join(" "),fill:"none",stroke:"var(--accent)","stroke-width":2}));
@@ -110,7 +111,7 @@ function render(){
   svg.appendChild(label(30, Y0+8, "100%", "end"));
   svg.appendChild(label(30, Y0+H, "0%", "end"));
   svg.appendChild(label(X0, 168, "k = 1"));
-  svg.appendChild(label(X0+W, 168, "k = 120", "end"));
+  svg.appendChild(label(X0+W, 168, "k = 20", "end"));
   svg.appendChild(label(X0+W/2, 168, "attack attempts", "middle"));
   document.getElementById("sA").textContent = (termA*100).toFixed(1) + "%";
   document.getElementById("sB").textContent = (termB(k)*100).toFixed(1) + "%";
