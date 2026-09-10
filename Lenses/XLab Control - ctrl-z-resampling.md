@@ -155,10 +155,7 @@ to:: "our results demonstrate that effective control protocols can be constructe
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Bhatt, Aryan, Cody Rushing, Adam Kaufman, Tyler Tracy, Vasil Georgiev, David Matolcsi, Akbir Khan, and Buck Shlegeris. "Ctrl-Z: Controlling AI Agents via Resampling." *arXiv*, Apr. 2025. [arxiv.org](https://arxiv.org/abs/2504.10374)
-*The paper this lesson assigns: the first control evaluation run in an agent environment, and the source of every protocol and number the recall questions ask about.*
-
-Shlegeris, Buck. "Ctrl-Z: Controlling AI Agents via Resampling." *Redwood Research Blog*, 16 Apr. 2025. [redwoodresearch.substack.com](https://redwoodresearch.substack.com/p/ctrl-z-controlling-ai-agents-via)
-*Redwood's own announcement of the paper, embedded above in place of the paper itself.*
+*The reading on this page: the first control evaluation run in an agent environment, and the source of every protocol and number the recall questions ask about.*
 
 Greenblatt, Ryan, Buck Shlegeris, Kshitij Sachan, and Fabien Roger. "AI Control: Improving Safety Despite Intentional Subversion." *arXiv*, Dec. 2023. [arxiv.org](https://arxiv.org/abs/2312.06942)
 *The earlier control evaluation this paper extends, from single-step backdoored code to a multi-step agent.*
