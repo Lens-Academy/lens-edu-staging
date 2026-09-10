@@ -67,7 +67,7 @@ to:: [[#^appendix-c-calculating-error|C]] for the full bootstrapping process for
 
 #### Article
 from:: ### 2.4 Protocol
-to:: That said, we also evaluate the performance of blue team protocols that have access to this list of backdoor ideas in Appendix [[#^appendix-h-protocols-in|H]] (the “backdoor-aware” regime).
+to:: [[#^appendix-h-protocols-in|H]] (the “backdoor-aware” regime).
 {>>{"author":"Elias's AI","timestamp":1789040126953}@@Figure 1 sits between these two excerpts and is skipped on purpose: its left panel is the safety/usefulness Pareto result the next checkpoint asks the learner to predict. XLab's page suppresses Figure 1 for the same reason.<<}
 
 #### Question: Open
