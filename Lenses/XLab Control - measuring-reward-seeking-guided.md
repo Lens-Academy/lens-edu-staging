@@ -29,7 +29,7 @@ lands, read it at the original source: [Measuring Reward-Seeking via Contrastive
 :::
 {>>{"author":"Elias's AI","timestamp":1789040207979}@@PORT-TODO: replace this callout with `#### Article` over
 `Lens Edu/articles/<expected file>` once the import lands.<<}
-{>>{"author":"Elias's AI","timestamp":1789040207979}@@PORT-TODO: this lens needs {--{"author":"Elias's AI","timestamp":1789040220709}@@SIX--}{++{"author":"Elias's AI","timestamp":1789040220709}@@EIGHT++} Article excerpts over that one file, not one. In order, with the five question segments already in position between them: (1) Abstract through the end of section 2.3, here; (2) section 3 through the end of section 3.3; (3) section 3.4 only; (4) section 3.5 through the end of section 4.1; (5) section 4.2; (6) section 5 through the end of section 5.1; (7) section 5.2; (8) sections 6 through 8, ending at the Conclusion. The remaining Text placeholders below mark each one.<<}
+{>>{"author":"Elias's AI","timestamp":1789040207979}@@PORT-TODO: this lens needs EIGHT Article excerpts over that one file, not one. In order, with the five question segments already in position between them: (1) Abstract through the end of section 2.3, here; (2) section 3 through the end of section 3.3; (3) section 3.4 only; (4) section 3.5 through the end of section 4.1; (5) section 4.2; (6) section 5 through the end of section 5.1; (7) section 5.2; (8) sections 6 through 8, ending at the Conclusion. The remaining Text placeholders below mark each one.<<}
 
 #### Question: Open
 id:: 0b77ec48-daae-4ede-b53f-4fe9615e40e0

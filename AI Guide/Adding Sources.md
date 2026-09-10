@@ -6,7 +6,7 @@ tags:
 
 ## Required import workflow
 
-- **Articles should go through the article importer.** Add them with Lens Editor's [Add Article](https://editor.lensacademy.org/add-article) UI or MCP {--{"author":"Elias's AI","timestamp":1789039936719}@@`import_article`,--}{++{"author":"Elias's AI","timestamp":1789039936719}@@`import_source`,++} and use `import_status` to check completion. Never hand-write an article or create/move a new file into `Lens Edu/articles` through generic MCP tools. In the exceptional case where manual creation is genuinely necessary, explain this workflow and its consequences to the user, and obtain explicit permission.
+- **Articles should go through the article importer.** Add them with Lens Editor's [Add Article](https://editor.lensacademy.org/add-article) UI or MCP `import_source`, and use `import_status` to check completion. Never hand-write an article or create/move a new file into `Lens Edu/articles` through generic MCP tools. In the exceptional case where manual creation is genuinely necessary, explain this workflow and its consequences to the user, and obtain explicit permission.
 
 **Never create a source file manually.** Add every external source through Lens Editor's **Add Source** page or MCP `import_source`. One importer handles all of them: webpages, PDFs, and YouTube videos, including sources that need cleanup. A YouTube URL imports the video's transcript instead of an article. Submitting a URL that is already in the library is not an error; the job comes back `skipped` with a link to the document that already holds it.
 
