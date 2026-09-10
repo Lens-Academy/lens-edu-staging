@@ -11,6 +11,8 @@ Git records what changed. This file records why, what it depended on, and what w
 
 **Status key:** `todo`, `drafted`, `in progress`, `done`, `blocked`, `parked`.
 
+**Dates:** full `YYYY-MM-DD`. Every entry in section 8 reading `2026-09` happened on **2026-09-10**; they predate this convention and are left rather than churned.
+
 **Working practice.** Edits to files we did not write go in as suggestions for review, never as overwrites. New files we author can be written directly. Each entry in section 8 should say which of the two it was, so nothing lands silently.
 
 **Prior art we are not using.** There is a `Lens/base/IABIED/IABIED Course Build Notes` directory containing a module build algorithm, per-module decision logs and a spec for a "Supplementary Resources Lens". The relay key cannot open it. Decision: ignore it. The live modules were presumably built from those notes and have moved on since, so the modules are the better reference, and [[AI Guide/Course Authoring]] is the authority for how to write. Noted only so nobody later thinks it was missed.
