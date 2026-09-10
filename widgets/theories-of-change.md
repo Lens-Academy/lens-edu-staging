@@ -2,7 +2,7 @@
 id: 'c3f8b1e2-7d94-4a6b-9e15-2b0c4d8f6a71'
 title: Theory of change
 height: auto
-summary_for_tutor: "A theory-of-change canvas laid out as a single vertical chain. The learner names an organisation (real or imagined), then fills eight boxes grouped into five stages in causal order: Inputs (what do we need), Outputs (what do we do; who do we reach), Outcome (short-term, intermediate, long-term), then Assumptions and External factors, which sit under the chain rather than in it. Each stage is one full-width band with one heading; every box has its own text area, and a Back / Next box stepper walks through them one at a time. Their entries are saved and shown to you in the widget-state block as they write. The widget is complete when the organisation is named and all eight boxes have text. Help them tighten each link in the chain: does each output plausibly cause the next outcome, and which assumptions carry the most weight? Content ported from XLab's Verification track."
+summary_for_tutor: "A theory-of-change canvas laid out as a single vertical chain. The learner names an organisation (real or imagined), then fills eight boxes grouped into five stages in causal order: Inputs (what do we need), Outputs (what do we do; who do we reach), Outcome (short-term, intermediate, long-term), then Assumptions and External factors, which sit under the chain rather than in it. Each stage is one full-width band with one heading and its own text areas, filled in any order. Their entries are saved and shown to you in the widget-state block as they write. A "Get feedback" button at the bottom submits the whole chain for assessment and then requests written feedback, so a feedback turn from this widget is the learner asking you to read their canvas. The widget is complete when the organisation is named and all eight boxes have text. Help them tighten each link in the chain: does each output plausibly cause the next outcome, and which assumptions carry the most weight? Content ported from XLab's Verification track."
 tags: [wip]
 ---
 <!doctype html>
@@ -32,16 +32,7 @@ tags: [wip]
   }
   input:focus, textarea:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
   textarea { min-height: 80px; resize: vertical; }
-  .org { margin-bottom: 12px; max-width: 28rem; }
-
-  /* Stepper toolbar: progress on the left, Back / Next box on the right. */
-  .toolbar {
-    display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between;
-    border: 1px solid var(--border); border-radius: 8px; background: var(--surface);
-    padding: 8px 12px; margin-bottom: 16px;
-  }
-  .progress { font-size: 12px; color: var(--muted); }
-  .nav { display: flex; gap: 8px; }
+  .org { margin-bottom: 16px; max-width: 28rem; }
 
   /* One full-width band per stage. Never side by side, at any width. */
   .chain { display: block; }
@@ -53,7 +44,6 @@ tags: [wip]
   .items { display: block; padding: 12px 14px; }
   .item { display: block; width: 100%; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 10px 12px; }
   .item + .item { margin-top: 10px; }
-  .item.is-active { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
   .item-head { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; justify-content: space-between; }
   .item-label { margin: 0; font-size: 13px; font-weight: 600; }
   .item-status { font-size: 11px; color: var(--muted); margin-left: auto; }
@@ -75,37 +65,35 @@ tags: [wip]
   button:disabled { opacity: 0.5; cursor: default; }
   button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
   button.primary:hover { background: var(--accent-hover); }
-  .done { margin-top: 16px; padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); display: none; }
-  .done.is-visible { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; }
+  /* Feedback panel, at the very bottom, under the whole chain. */
+  .feedback { margin-top: 20px; padding: 14px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); }
+  .feedback h2 { font-family: var(--font-heading); font-weight: 600; font-size: 18px; margin: 0 0 4px; }
+  .fb-lede { margin: 0 0 10px; font-size: 13px; color: var(--muted); max-width: 42rem; }
+  .fb-hint { margin: 8px 0 0; font-size: 12px; color: var(--muted); }
+  .fb-out { margin: 10px 0 0; padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; background: #fff; font-size: 13px; }
+  .fb-out p { margin: 0 0 6px; }
+  .fb-out p:last-child { margin-bottom: 0; }
+  button.is-busy { opacity: 0.7; }
 </style>
 </head>
 <body>
 <p class="eyebrow">Exercise</p>
 <h1>Build a theory of change</h1>
-<p class="lede">Pick an organisation, real or imagined, that works on AI verification. Fill the chain one box at a time, from the top down; each box asks what has to be true for the next one to happen. Your entries are saved as you type.</p>
+<p class="lede">Pick an organisation, real or imagined, that works on AI verification. Fill the chain from the top down, in whatever order suits you; each box asks what has to be true for the next one to happen. Your entries are saved as you type.</p>
 
 <div class="org">
   <label for="org">Organisation</label>
   <input id="org" type="text" placeholder="e.g. a treaty verification body, a chip-tracking startup, a research lab">
 </div>
 
-<div class="toolbar">
-  <span class="progress" id="progress"></span>
-  <span class="nav">
-    <button type="button" id="prev">Back</button>
-    <button type="button" id="next" class="primary">Next box</button>
-  </span>
-</div>
-
 <div class="chain" id="chain" aria-label="Your theory of change, top to bottom"></div>
 
-<div class="done" id="done">
-  <span id="done-text">All eight boxes filled. Get it scored, or ask the tutor to stress-test the chain.</span>
-  <span class="nav">
-    <button type="button" id="score" class="primary">Score my canvas</button>
-    <button type="button" id="feedback" hidden>Get feedback on the score</button>
-    <button type="button" id="ask">Ask the tutor to review it</button>
-  </span>
+<div class="feedback">
+  <h2>Feedback</h2>
+  <p class="fb-lede">Ask for a read of the whole chain: what is unclear, where a link between two stages is missing or not credible, where an output is written as an outcome, and which assumptions are still implicit.</p>
+  <button type="button" id="get-feedback" class="primary" disabled>Get feedback</button>
+  <p class="fb-hint" id="fb-hint"></p>
+  <div class="fb-out" id="fb-out" hidden></div>
 </div>
 
 <script>
@@ -140,18 +128,17 @@ tags: [wip]
 
   var STORE_KEY = "lens-widget-theories-of-change";
   var state = { org: "", boxes: {} };
-  var step = 0;
   var completed = false;
-  var itemEl = {};
+  var busy = false;
+  var lastResponseId = null;
   var areaEl = {};
   var statusEl = {};
 
   var chain = document.getElementById("chain");
   var orgInput = document.getElementById("org");
-  var progress = document.getElementById("progress");
-  var prevBtn = document.getElementById("prev");
-  var nextBtn = document.getElementById("next");
-  var done = document.getElementById("done");
+  var fbBtn = document.getElementById("get-feedback");
+  var fbHint = document.getElementById("fb-hint");
+  var fbOut = document.getElementById("fb-out");
 
   function el(tag, className, text) {
     var n = document.createElement(tag);
@@ -196,13 +183,11 @@ tags: [wip]
     item.appendChild(area);
     area.addEventListener("input", function () {
       state.boxes[b.id] = area.value;
-      step = BOXES.indexOf(b);
       render();
       persist();
     });
-    area.addEventListener("focus", function () { step = BOXES.indexOf(b); render(); });
     item.addEventListener("click", function (ev) { if (ev.target !== area) area.focus(); });
-    itemEl[b.id] = item; areaEl[b.id] = area; statusEl[b.id] = st;
+    areaEl[b.id] = area; statusEl[b.id] = st;
     return item;
   }
 
@@ -250,73 +235,76 @@ tags: [wip]
   }
 
   function render() {
-    var box = BOXES[step];
     BOXES.forEach(function (b) {
       var v = (state.boxes[b.id] || "").trim();
       var area = areaEl[b.id];
       if (area.value !== (state.boxes[b.id] || "")) area.value = state.boxes[b.id] || "";
       statusEl[b.id].textContent = v ? "✓ filled" : "";
-      itemEl[b.id].classList.toggle("is-active", b.id === box.id);
-      itemEl[b.id].setAttribute("aria-current", b.id === box.id ? "step" : "false");
     });
-    progress.textContent = filledCount() + " of " + BOXES.length + " boxes filled";
-    prevBtn.disabled = step === 0;
-    nextBtn.textContent = step === BOXES.length - 1 ? "Done" : "Next box";
-    done.classList.toggle("is-visible", filledCount() === BOXES.length);
+    var ready = !!state.org.trim() && filledCount() > 0;
+    if (!busy) fbBtn.disabled = !ready || !window.Lens;
+    if (busy) {
+      fbHint.textContent = "";
+    } else if (!window.Lens) {
+      fbHint.textContent = "Feedback needs the Lens lesson page; it is not available in this preview.";
+    } else if (!ready) {
+      fbHint.textContent = "Name the organisation and fill at least one box, then ask for feedback.";
+    } else if (filledCount() < BOXES.length) {
+      fbHint.textContent = "You can ask now, or fill the remaining boxes first: " + filledCount() + " of " + BOXES.length + " are filled.";
+    } else {
+      fbHint.textContent = "";
+    }
   }
 
-  function goTo(i) {
-    step = Math.max(0, Math.min(BOXES.length - 1, i));
+  orgInput.addEventListener("input", function () { state.org = orgInput.value; render(); persist(); });
+
+  // Feedback. The platform has no call that returns feedback text into the frame:
+  // Lens.submit resolves with a score only, and Lens.requestFeedback delivers the
+  // written feedback as a tutor turn beside the page. So one button does both, and
+  // the panel below says where the writing landed.
+  function fbClear() { while (fbOut.firstChild) fbOut.removeChild(fbOut.firstChild); }
+  function fbLine(text) { var n = document.createElement("p"); n.textContent = text; fbOut.appendChild(n); }
+  function fbDone(label) {
+    busy = false;
+    fbBtn.classList.remove("is-busy");
+    fbBtn.textContent = label;
     render();
-    areaEl[BOXES[step].id].focus();
   }
 
-  orgInput.addEventListener("input", function () { state.org = orgInput.value; persist(); });
-  prevBtn.addEventListener("click", function () { goTo(step - 1); });
-  nextBtn.addEventListener("click", function () { goTo(step + 1); });
-
-  var askBtn = document.getElementById("ask");
-  askBtn.addEventListener("click", function () {
-    if (!window.Lens) return;
-    Lens.promptTutor(
-      "Here is my theory of change for " + (state.org.trim() || "my organisation") + ". Can you stress-test the chain?",
-      "The learner asks for a review of their theory-of-change canvas. Current canvas:\n" + summary() +
-      "\nCheck each link (inputs to outputs to outcomes) for a plausible causal step, name the assumption that carries the most weight, and ask one question that would test it. Do not rewrite their boxes for them."
-    );
-  });
-
-  // Scoring: the whole canvas is one scorable item. The assessor sees only
-  // what is sent here (question, answer, instructions), never the screen.
-  var scoreBtn = document.getElementById("score");
-  var feedbackBtn = document.getElementById("feedback");
-  var doneText = document.getElementById("done-text");
-  var lastResponseId = null;
-  scoreBtn.addEventListener("click", function () {
-    if (!window.Lens || !Lens.submit) return;
-    scoreBtn.disabled = true;
-    doneText.textContent = "Scoring your canvas...";
+  fbBtn.addEventListener("click", function () {
+    if (busy || !window.Lens || !Lens.submit) return;
+    busy = true;
+    fbBtn.disabled = true;
+    fbBtn.classList.add("is-busy");
+    fbBtn.textContent = "Reading your chain...";
+    fbHint.textContent = "";
+    fbOut.hidden = false;
+    fbClear();
+    fbLine("Sent. Waiting for the read of your theory of change.");
+    var atSend = filledCount();
     Lens.submit({
       item: "canvas",
       question: "Build a theory of change for an organisation working on AI verification: inputs, outputs, short-, intermediate- and long-term outcomes, assumptions and external factors.",
       answer: summary(),
       assessmentInstructions: "Score 0 to 100. Full marks when every box names something concrete and checkable (a real resource, activity, audience or measurable change, not a restatement of the box label) and each output plausibly causes the next outcome. Take about 12 off per box that is vague or missing, and up to 20 off when the chain has a causal gap the assumptions do not cover.",
-      feedbackInstructions: "Name the weakest link in the chain first and say why. Then ask one question that would test the assumption carrying the most weight. Do not rewrite their boxes."
+      feedbackInstructions: "Read the whole chain as one argument and comment on four things, in this order. First, anything unclear: a box a reader could not act on or picture. Second, the links between stages: name the one place where the step from a stage to the next is missing or not credible, and say what would have to be true for it to hold. Third, outputs written as outcomes: outputs are tangible products the organisation produced, outcomes are what changed because of them, so flag any box that names a product where a change belongs. Fourth, assumptions left implicit: name a belief the chain depends on that is not written in the Assumptions box. Be specific about their words. Do not rewrite their boxes for them."
     }).then(function (result) {
       lastResponseId = result.responseId;
-      doneText.textContent = result.score == null
-        ? "Scoring is taking a while; ask the tutor for feedback meanwhile."
-        : "Score: " + result.score + " / 100.";
-      feedbackBtn.hidden = false;
-      scoreBtn.disabled = false;
-      scoreBtn.textContent = "Score again";
+      if (Lens.requestFeedback && lastResponseId != null) {
+        Lens.requestFeedback(lastResponseId, "Can you give me feedback on my theory of change?");
+      }
+      fbClear();
+      fbLine("Your feedback is being written in the tutor conversation beside this page: what is unclear, the weakest link between two stages, any output written as an outcome, and the assumptions you have left implicit.");
+      if (result.score != null) fbLine("The assessor also scored the chain " + result.score + " out of 100.");
+      if (atSend < BOXES.length) {
+        fbLine("You asked with " + atSend + " of " + BOXES.length + " boxes filled, so the read only covers what was there. Fill the rest and ask again.");
+      }
+      fbDone("Get feedback again");
     }, function () {
-      doneText.textContent = "Could not score the canvas right now.";
-      scoreBtn.disabled = false;
+      fbClear();
+      fbLine("Could not reach the assessor just now. Your entries are saved; try again in a moment.");
+      fbDone("Get feedback");
     });
-  });
-  feedbackBtn.addEventListener("click", function () {
-    if (!window.Lens || lastResponseId == null) return;
-    Lens.requestFeedback(lastResponseId, "Can I get feedback on my theory-of-change score?");
   });
 
   function hydrate(saved, meta) {
@@ -328,24 +316,24 @@ tags: [wip]
     }
     completed = !!(meta && meta.completed);
     orgInput.value = state.org;
-    var first = -1;
-    for (var i = 0; i < BOXES.length; i++) { if (!(state.boxes[BOXES[i].id] || "").trim()) { first = i; break; } }
-    step = first === -1 ? BOXES.length - 1 : first;
     render();
+    // Start the cursor in the organisation field, but only on a canvas that has no
+    // name yet, and without scrolling the lesson page to the widget.
+    if (!state.org.trim()) {
+      try { orgInput.focus({ preventScroll: true }); } catch (e) {}
+    }
   }
 
   render();
   if (window.Lens) {
     Lens.onState(hydrate);
   } else {
-    // Nothing here can reach a tutor or an assessor, so do not offer it.
-    scoreBtn.hidden = true;
-    feedbackBtn.hidden = true;
-    askBtn.hidden = true;
-    doneText.textContent = "All eight boxes filled.";
-    var raw = null;
+    // Standalone (the editor preview): nothing here can reach an assessor, so the
+    // button stays disabled and render() explains why.
+    var raw = null, saved = null;
     try { raw = localStorage.getItem(STORE_KEY); } catch (e) {}
-    if (raw) { try { hydrate(JSON.parse(raw), null); } catch (e) {} }
+    if (raw) { try { saved = JSON.parse(raw); } catch (e) {} }
+    hydrate(saved, null);
   }
 </script>
 </body>
