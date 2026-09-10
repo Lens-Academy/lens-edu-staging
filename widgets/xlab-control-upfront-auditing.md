@@ -76,7 +76,9 @@ button.is-active{border-color:var(--text);box-shadow:0 0 0 1px var(--text)}
   <div><p class="k">Blue team win</p><p class="v" id="sWin">-</p></div>
 </div>
 
-<div class="ctl" style="margin-top:16px">
+<p class="note" style="margin-top:18px">Everything above is Figure 3. What follows goes past it: the paper reports only the optimising red team, so to see <em>why</em> p* is where it is, take the attack rate off its optimum yourself.</p>
+
+<div class="ctl">
   <label for="prate"><span class="name">Attack rate p (drag off the optimum)</span><span class="val" id="prateV">-</span></label>
   <input type="range" id="prate" min="0" max="1000" step="1" value="500" aria-label="Attack rate">
   <div style="margin-top:6px"><button id="snap" class="is-active">Hold p at its optimum</button></div>
