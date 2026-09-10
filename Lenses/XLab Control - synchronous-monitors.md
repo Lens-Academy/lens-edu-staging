@@ -67,5 +67,5 @@ Kaufman, Adam, and James Lucassen. "Blocking Live Failures with Synchronous Moni
 *The post this lesson assigns: the detection-versus-prevention split, attack latency and rate of damage as the two axes that decide whether an asynchronous monitor is enough, and the case for blocking monitors where they are not.*
 
 XLab. "Blocking live failures with synchronous monitors." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-4/synchronous-monitors)
-*The source lesson this page adapts, including the five recall prompts and the latency-against-damage figure.*
+*The source lesson this page adapts.*
 :::

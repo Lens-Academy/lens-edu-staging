@@ -77,5 +77,5 @@ Woodruff, Anders Cairns, and Alex Mallen. "Fail safe(r) at alignment by channeli
 *The reading for this lesson: the proposal that developers deliberately install a satiable score-seeking motivation for reward-hacking pressure to run into, and switch it off in deployment.*
 
 XLab. "Fail safe(r) at alignment by channeling reward-hacking into a 'spillway' motivation." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-5/spillway-motivation)
-*The source lesson this page adapts, including its four-step routing diagram, its side-by-side comparison of the two mechanisms, and its four Quick recall prompts.*
+*The source lesson this page adapts.*
 :::

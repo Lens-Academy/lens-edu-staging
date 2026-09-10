@@ -66,5 +66,5 @@ Shlegeris, Buck. "A basic systems architecture for AI agents that do autonomous 
 *The post this lesson assigns, also posted to LessWrong: the inference/scaffold/execution split, and each threat scenario redrawn as a compromise of a specific machine.*
 
 XLab. "A basic systems architecture for AI agents that do autonomous research." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-4/systems-architecture)
-*The source lesson this page adapts, including its four recall prompts and its step-through version of the architecture diagram.*
+*The source lesson this page adapts.*
 :::

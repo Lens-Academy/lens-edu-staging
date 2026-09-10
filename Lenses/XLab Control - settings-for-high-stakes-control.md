@@ -63,5 +63,5 @@ Kaufman, Adam. "BashArena and Control Setting Design." *Redwood Research blog*, 
 *The optional follow-up: what Redwood learned about control setting design from building BashArena.*
 
 XLab. "Why it's hard to make settings for high-stakes control research." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-4/settings-for-high-stakes-control)
-*The source lesson this page adapts, including the placement and wording of the two recall questions.*
+*The source lesson this page adapts.*
 :::
