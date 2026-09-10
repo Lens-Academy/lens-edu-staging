@@ -305,13 +305,13 @@ Greenblatt, Ryan. "Current AIs seem pretty misaligned to me." *LessWrong*, 15 Ap
 *The source of the five caricatured worlds (Easyland, Slopolis, Hackistan, Schemeria, Lurkville) that this lesson uses as reference points for the world state.*
 
 Greenblatt, Ryan, and Thomas Larsen. "A Technical Safety Roadmap." Talk excerpt, XLab, 2026. [aisafetytracks.com](https://aisafetytracks.com/videos/regimes_for_misalignment.mp4)
-*The clip on regimes for misalignment that XLab plays just before its five worlds diagram. It is hosted by XLab with no upstream link, so it is cited here rather than embedded.*
+*A clip on regimes for misalignment, worth watching just before the five worlds diagram. The clip cannot be embedded, so open the link to watch it.*
 
 Shlegeris, Buck. "Efficient tradeoffs and the safety-usefulness tradeoff model." *Redwood Research Blog*, 8 June 2026. [blog.redwoodresearch.org](https://blog.redwoodresearch.org/p/efficient-tradeoffs-and-the-safety)
-*The post XLab's glossary credits for "safety budget" and "political will", and the source of the two levers (improve the technique, grow the budget).*
+*The source of the "safety budget" and "political will" definitions, and the source of the two levers (improve the technique, grow the budget).*
 
 Greenblatt, Ryan, and Buck Shlegeris. "The case for ensuring that powerful AIs are controlled." *LessWrong*, 24 Jan. 2024. [lesswrong.com](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled)
-*The post XLab's glossary credits for its definitions of "scheming" and "control evaluation".*
+*The source of the definitions of "scheming" and "control evaluation".*
 
 Kokotajlo, Daniel, Scott Alexander, Thomas Larsen, Eli Lifland, and Romeo Dean. "AI 2027." *AI Futures Project*, Apr. 2025. [ai-2027.com](https://ai-2027.com/)
 *The scenario the closing exercise asks the learner to skim, used as the concrete trajectory against which to locate control's marginal value.*
