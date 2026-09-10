@@ -131,10 +131,14 @@ function drawRoc(svg, monitors){
   svg.appendChild(svgEl("line",{x1:xOf(0),y1:yOf(0),x2:xOf(1),y2:yOf(1),stroke:"var(--muted)","stroke-width":1,"stroke-dasharray":"3 3","stroke-opacity":0.4}));
   svg.appendChild(svgEl("line",{x1:xOf(BUDGET),x2:xOf(BUDGET),y1:Y0,y2:Y0+H,stroke:"var(--muted)","stroke-width":1,"stroke-dasharray":"2 2","stroke-opacity":0.6}));
   monitors.forEach(function(m){
+    // Sweep the decision threshold, not the FPR: sampling FPR uniformly puts
+    // almost no points in the low-FPR elbow, which is exactly where the 2%
+    // operating point sits, and the marked dot then floats off the polyline.
     var d = [], i;
-    for(i=0;i<=140;i++){
-      var f = Math.max(1e-4, Math.min(0.9999, i/140));
-      d.push((i===0?"M ":"L ") + xOf(f).toFixed(1) + " " + yOf(tprAt(m.mu, m.sd, f)).toFixed(1));
+    for(i=0;i<=200;i++){
+      var t = 6 - 12*i/200;
+      var f = 1 - Phi(t);
+      d.push((i===0?"M ":"L ") + xOf(f).toFixed(1) + " " + yOf(Phi((m.mu - t)/m.sd)).toFixed(1));
     }
     svg.appendChild(svgEl("path",{d:d.join(" "),fill:"none",stroke:m.color,"stroke-width":1.75}));
     svg.appendChild(svgEl("circle",{cx:xOf(BUDGET),cy:yOf(tprAt(m.mu,m.sd,BUDGET)),r:3,fill:m.color,stroke:"#fff","stroke-width":1}));
