@@ -8,6 +8,9 @@ tags:
 partner-name: "XLab"
 partner-url: "https://xrisk.uchicago.edu/"
 ---
+
+application-survey:: [[../surveys/Application Form]]
+
 %%
 Links:
 - XLab original: https://aisafetytracks.com/tracks/control

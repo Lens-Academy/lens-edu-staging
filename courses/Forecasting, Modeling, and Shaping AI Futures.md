@@ -8,6 +8,8 @@ tags:
   - visible-in-skilltree
 ---
 
+application-survey:: [[../surveys/Application Form]]
+
 # Module: [[../modules/what-could-possibly-happen|Unit 1: What Could Possibly Happen?]]
 
 # Meeting: Unit 1
