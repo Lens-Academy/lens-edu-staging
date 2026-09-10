@@ -1,7 +1,8 @@
 ---
 id: 'c3f8b1e2-7d94-4a6b-9e15-2b0c4d8f6a71'
 title: Theory of change
-summary_for_tutor: "A theory-of-change canvas. The learner names an organisation (real or imagined) and fills eight boxes, one at a time: Inputs (what do we need), Outputs (what do we do; who do we reach), Outcomes (short-term, intermediate, long-term), Assumptions, and External factors. Their entries are saved and shown to you in the widget-state block as they write. The widget is complete when all eight boxes have text. Help them tighten each link in the chain: does each output plausibly cause the next outcome, and which assumptions carry the most weight? Content ported from XLab's Verification track."
+height: auto
+summary_for_tutor: "A theory-of-change canvas laid out as a single vertical chain. The learner names an organisation (real or imagined), then fills eight boxes grouped into five stages in causal order: Inputs (what do we need), Outputs (what do we do; who do we reach), Outcome (short-term, intermediate, long-term), then Assumptions and External factors, which sit under the chain rather than in it. Each stage is one full-width band with one heading; every box has its own text area, and a Back / Next box stepper walks through them one at a time. Their entries are saved and shown to you in the widget-state block as they write. The widget is complete when the organisation is named and all eight boxes have text. Help them tighten each link in the chain: does each output plausibly cause the next outcome, and which assumptions carry the most weight? Content ported from XLab's Verification track."
 tags: [wip]
 ---
 <!doctype html>
@@ -30,27 +31,42 @@ tags: [wip]
     border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px;
   }
   input:focus, textarea:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
-  textarea { min-height: 96px; resize: vertical; }
-  .org { margin-bottom: 16px; max-width: 28rem; }
-  .canvas { display: grid; gap: 4px; grid-template-columns: repeat(6, minmax(0, 1fr)); }
-  .band { background: var(--surface); text-align: center; font-size: 11px; font-weight: 600; padding: 6px 4px; border-radius: 4px; }
-  .cell {
-    font: inherit; color: inherit; text-align: left; vertical-align: top; cursor: pointer;
-    min-height: 72px; padding: 8px; border: 1px solid var(--border); border-radius: 4px; background: #fff;
-    white-space: pre-wrap; font-size: 11px; line-height: 1.35;
+  textarea { min-height: 80px; resize: vertical; }
+  .org { margin-bottom: 12px; max-width: 28rem; }
+
+  /* Stepper toolbar: progress on the left, Back / Next box on the right. */
+  .toolbar {
+    display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between;
+    border: 1px solid var(--border); border-radius: 8px; background: var(--surface);
+    padding: 8px 12px; margin-bottom: 16px;
   }
-  .cell:hover { background: var(--surface); }
-  .cell.is-active { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
-  .cell.is-empty { color: var(--muted); }
-  .cell .lbl { display: block; font-weight: 600; margin-bottom: 2px; color: var(--text); }
-  .span2 { grid-column: span 2; }
-  .span3 { grid-column: span 3; }
-  .span6 { grid-column: span 6; }
-  .editor { margin-top: 16px; border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: var(--surface); }
-  .editor h2 { font-family: var(--font-heading); font-weight: 600; font-size: 20px; margin: 0; }
-  .cue { color: var(--muted); font-size: 12px; margin: 2px 0 10px; }
-  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; margin-top: 12px; }
+  .progress { font-size: 12px; color: var(--muted); }
   .nav { display: flex; gap: 8px; }
+
+  /* One full-width band per stage. Never side by side, at any width. */
+  .chain { display: block; }
+  .stage { display: block; width: 100%; border: 1px solid var(--border); border-radius: 8px; background: #fff; overflow: hidden; }
+  .stage-head { background: var(--surface); border-bottom: 1px solid var(--border); border-left: 3px solid var(--accent); padding: 10px 14px; }
+  .stage-head h2 { font-family: var(--font-heading); font-weight: 600; font-size: 20px; line-height: 1.25; margin: 0; }
+  .stage-q { margin: 3px 0 0; font-size: 13px; color: var(--muted); }
+  .stage-def { margin: 6px 0 0; font-size: 12px; line-height: 1.45; color: var(--muted); }
+  .items { display: block; padding: 12px 14px; }
+  .item { display: block; width: 100%; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 10px 12px; }
+  .item + .item { margin-top: 10px; }
+  .item.is-active { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+  .item-head { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; justify-content: space-between; }
+  .item-label { margin: 0; font-size: 13px; font-weight: 600; }
+  .item-status { font-size: 11px; color: var(--muted); margin-left: auto; }
+  .item-cue { margin: 1px 0 8px; font-size: 12px; color: var(--muted); }
+
+  /* Connectors. Solid arrow along the causal chain, dashed rule down to the context bands. */
+  .arrow { display: flex; justify-content: center; padding: 6px 0; }
+  .arrow svg { display: block; }
+  .ctx-rule { border-top: 1px dashed var(--border); margin: 20px 0 14px; }
+  .stage.is-context { border-style: dashed; }
+  .stage.is-context .stage-head { border-left-color: var(--muted); }
+  .chain > .stage + .stage { margin-top: 12px; }
+
   button {
     font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff;
     padding: 8px 12px; cursor: pointer;
@@ -59,40 +75,29 @@ tags: [wip]
   button:disabled { opacity: 0.5; cursor: default; }
   button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
   button.primary:hover { background: var(--accent-hover); }
-  .progress { font-size: 12px; color: var(--muted); }
-  .done { margin-top: 12px; padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; background: #fff; display: none; }
+  .done { margin-top: 16px; padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); display: none; }
   .done.is-visible { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; }
-  @media (max-width: 600px) {
-    .canvas { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    .span2, .span3, .span6 { grid-column: span 2; }
-  }
 </style>
 </head>
 <body>
 <p class="eyebrow">Exercise</p>
 <h1>Build a theory of change</h1>
-<p class="lede">Pick an organisation, real or imagined, that works on AI verification. Fill the canvas one box at a time; each box asks what has to be true for the next one to happen. Your entries are saved as you type.</p>
+<p class="lede">Pick an organisation, real or imagined, that works on AI verification. Fill the chain one box at a time, from the top down; each box asks what has to be true for the next one to happen. Your entries are saved as you type.</p>
 
 <div class="org">
   <label for="org">Organisation</label>
   <input id="org" type="text" placeholder="e.g. a treaty verification body, a chip-tracking startup, a research lab">
 </div>
 
-<div class="canvas" id="canvas" aria-label="Theory of change canvas"></div>
-
-<div class="editor">
-  <p class="eyebrow" id="ed-band"></p>
-  <h2 id="ed-label"></h2>
-  <p class="cue" id="ed-cue"></p>
-  <textarea id="ed-text" aria-label="Box text"></textarea>
-  <div class="row">
-    <span class="progress" id="progress"></span>
-    <span class="nav">
-      <button type="button" id="prev">Back</button>
-      <button type="button" id="next" class="primary">Next box</button>
-    </span>
-  </div>
+<div class="toolbar">
+  <span class="progress" id="progress"></span>
+  <span class="nav">
+    <button type="button" id="prev">Back</button>
+    <button type="button" id="next" class="primary">Next box</button>
+  </span>
 </div>
+
+<div class="chain" id="chain" aria-label="Your theory of change, top to bottom"></div>
 
 <div class="done" id="done">
   <span id="done-text">All eight boxes filled. Get it scored, or ask the tutor to stress-test the chain.</span>
@@ -112,29 +117,37 @@ tags: [wip]
     { id: "outcome-mid", band: "Outcome", label: "Intermediate", cue: "Behavior changed · decision-making done" },
     { id: "outcome-long", band: "Outcome", label: "Long-term", cue: "Conditions changed" },
     { id: "assumptions", band: "Assumptions", label: "Assumptions", cue: "Internal / testable" },
-    { id: "external", band: "External factors", label: "External factors", cue: "External / outside our control" }
+    { id: "external", band: "External factors", label: "External factors", cue: "External / undefined" }
   ];
-  var LAYOUT = [
-    ["band", "Inputs", "span2"], ["band", "Outputs", "span2"], ["band", "Outcome", "span2"],
-    ["cell", "inputs-need", "span2"], ["cell", "outputs-do", "span1"], ["cell", "outputs-reach", "span1"],
-    ["cell", "outcome-short", "span2"], ["gap", "", "span2"], ["gap", "", "span2"],
-    ["cell", "outcome-mid", "span1"], ["cell", "outcome-long", "span1"],
-    ["band", "Assumptions", "span3"], ["band", "External factors", "span3"],
-    ["cell", "assumptions", "span3"], ["cell", "external", "span3"]
+
+  // One band per stage, in causal order. "question" is XLab's own guiding question for
+  // the stage (only where the stage has a single one); "definition" is XLab's sentence
+  // from the lesson, kept because outputs and outcomes are the pair learners confuse.
+  // "chain" marks the three causal stages; the last two sit under the chain, not in it.
+  var STAGES = [
+    { band: "Inputs", question: "What do we need?", chain: true, boxes: ["inputs-need"] },
+    {
+      band: "Outputs", chain: true, boxes: ["outputs-do", "outputs-reach"],
+      definition: "Outputs are tangible products you produced: a paper, a benchmark, an eval, a workshop, a policy memo."
+    },
+    {
+      band: "Outcome", chain: true, boxes: ["outcome-short", "outcome-mid", "outcome-long"],
+      definition: "Outcomes are what changed because of those outputs: a lab altered a training procedure, a policymaker incorporated a threat model into a draft bill, a researcher updated their estimates."
+    },
+    { band: "Assumptions", chain: false, boxes: ["assumptions"] },
+    { band: "External factors", chain: false, boxes: ["external"] }
   ];
 
   var STORE_KEY = "lens-widget-theories-of-change";
   var state = { org: "", boxes: {} };
   var step = 0;
   var completed = false;
-  var byId = {};
+  var itemEl = {};
+  var areaEl = {};
+  var statusEl = {};
 
-  var canvas = document.getElementById("canvas");
+  var chain = document.getElementById("chain");
   var orgInput = document.getElementById("org");
-  var edBand = document.getElementById("ed-band");
-  var edLabel = document.getElementById("ed-label");
-  var edCue = document.getElementById("ed-cue");
-  var edText = document.getElementById("ed-text");
   var progress = document.getElementById("progress");
   var prevBtn = document.getElementById("prev");
   var nextBtn = document.getElementById("next");
@@ -149,18 +162,68 @@ tags: [wip]
   function boxById(id) { for (var i = 0; i < BOXES.length; i++) if (BOXES[i].id === id) return BOXES[i]; return null; }
   function filledCount() { var n = 0; BOXES.forEach(function (b) { if ((state.boxes[b.id] || "").trim()) n++; }); return n; }
 
-  LAYOUT.forEach(function (item) {
-    var kind = item[0], key = item[1], span = item[2];
-    if (kind === "band") { canvas.appendChild(el("div", "band " + span, key)); return; }
-    if (kind === "gap") { canvas.appendChild(el("div", span)); return; }
-    var b = boxById(key);
-    var btn = el("button", "cell " + span); btn.type = "button";
-    btn.setAttribute("aria-label", b.label + ": edit this box");
-    btn.appendChild(el("span", "lbl", b.label));
-    btn.appendChild(el("span", "txt", ""));
-    btn.addEventListener("click", function () { step = BOXES.indexOf(b); render(); edText.focus(); });
-    byId[b.id] = btn;
-    canvas.appendChild(btn);
+  function arrow() {
+    var wrap = el("div", "arrow");
+    wrap.setAttribute("aria-hidden", "true");
+    var ns = "http://www.w3.org/2000/svg";
+    var svg = document.createElementNS(ns, "svg");
+    svg.setAttribute("width", "18"); svg.setAttribute("height", "26"); svg.setAttribute("viewBox", "0 0 18 26");
+    var line = document.createElementNS(ns, "path");
+    line.setAttribute("d", "M9 1 V21 M2 15 L9 22 L16 15");
+    line.setAttribute("fill", "none");
+    line.setAttribute("stroke", "#b87018");
+    line.setAttribute("stroke-width", "1.6");
+    line.setAttribute("stroke-linecap", "round");
+    line.setAttribute("stroke-linejoin", "round");
+    svg.appendChild(line);
+    wrap.appendChild(svg);
+    return wrap;
+  }
+
+  function buildItem(b, hideLabel) {
+    var item = el("div", "item");
+    item.setAttribute("data-box", b.id);
+    var head = el("div", "item-head");
+    if (!hideLabel) head.appendChild(el("p", "item-label", b.label));
+    var st = el("span", "item-status", "");
+    head.appendChild(st);
+    item.appendChild(head);
+    item.appendChild(el("p", "item-cue", b.cue));
+    var area = document.createElement("textarea");
+    area.id = "t-" + b.id;
+    area.placeholder = "Fill in this box, then move to the next one.";
+    area.setAttribute("aria-label", b.label + " (" + b.cue + ")");
+    item.appendChild(area);
+    area.addEventListener("input", function () {
+      state.boxes[b.id] = area.value;
+      step = BOXES.indexOf(b);
+      render();
+      persist();
+    });
+    area.addEventListener("focus", function () { step = BOXES.indexOf(b); render(); });
+    item.addEventListener("click", function (ev) { if (ev.target !== area) area.focus(); });
+    itemEl[b.id] = item; areaEl[b.id] = area; statusEl[b.id] = st;
+    return item;
+  }
+
+  STAGES.forEach(function (stage, i) {
+    if (i > 0) chain.appendChild(stage.chain ? arrow() : el("div", "ctx-rule"));
+    var sec = el("section", "stage" + (stage.chain ? "" : " is-context"));
+    var head = el("div", "stage-head");
+    head.appendChild(el("h2", null, stage.band));
+    if (stage.question) head.appendChild(el("p", "stage-q", stage.question));
+    if (stage.definition) head.appendChild(el("p", "stage-def", stage.definition));
+    sec.appendChild(head);
+    var items = el("div", "items");
+    stage.boxes.forEach(function (id) {
+      var b = boxById(id);
+      // Do not print the box label twice: drop it when the stage heading or its
+      // guiding question already says the same words.
+      var hide = b.label === stage.band || b.label === stage.question;
+      items.appendChild(buildItem(b, hide));
+    });
+    sec.appendChild(items);
+    chain.appendChild(sec);
   });
 
   function summary() {
@@ -189,26 +252,29 @@ tags: [wip]
   function render() {
     var box = BOXES[step];
     BOXES.forEach(function (b) {
-      var btn = byId[b.id], v = (state.boxes[b.id] || "").trim();
-      btn.querySelector(".txt").textContent = v || "(empty)";
-      btn.classList.toggle("is-empty", !v);
-      btn.classList.toggle("is-active", b.id === box.id);
-      btn.setAttribute("aria-current", b.id === box.id ? "step" : "false");
+      var v = (state.boxes[b.id] || "").trim();
+      var area = areaEl[b.id];
+      if (area.value !== (state.boxes[b.id] || "")) area.value = state.boxes[b.id] || "";
+      statusEl[b.id].textContent = v ? "✓ filled" : "";
+      itemEl[b.id].classList.toggle("is-active", b.id === box.id);
+      itemEl[b.id].setAttribute("aria-current", b.id === box.id ? "step" : "false");
     });
-    edBand.textContent = box.band;
-    edLabel.textContent = box.label;
-    edCue.textContent = box.cue;
-    if (edText.value !== (state.boxes[box.id] || "")) edText.value = state.boxes[box.id] || "";
     progress.textContent = filledCount() + " of " + BOXES.length + " boxes filled";
     prevBtn.disabled = step === 0;
     nextBtn.textContent = step === BOXES.length - 1 ? "Done" : "Next box";
     done.classList.toggle("is-visible", filledCount() === BOXES.length);
   }
 
+  function goTo(i) {
+    step = Math.max(0, Math.min(BOXES.length - 1, i));
+    render();
+    areaEl[BOXES[step].id].focus();
+  }
+
   orgInput.addEventListener("input", function () { state.org = orgInput.value; persist(); });
-  edText.addEventListener("input", function () { state.boxes[BOXES[step].id] = edText.value; render(); persist(); });
-  prevBtn.addEventListener("click", function () { if (step > 0) { step--; render(); edText.focus(); } });
-  nextBtn.addEventListener("click", function () { if (step < BOXES.length - 1) { step++; render(); edText.focus(); } else { render(); } });
+  prevBtn.addEventListener("click", function () { goTo(step - 1); });
+  nextBtn.addEventListener("click", function () { goTo(step + 1); });
+
   var askBtn = document.getElementById("ask");
   askBtn.addEventListener("click", function () {
     if (!window.Lens) return;
@@ -228,7 +294,7 @@ tags: [wip]
   scoreBtn.addEventListener("click", function () {
     if (!window.Lens || !Lens.submit) return;
     scoreBtn.disabled = true;
-    doneText.textContent = "Scoring your canvas…";
+    doneText.textContent = "Scoring your canvas...";
     Lens.submit({
       item: "canvas",
       question: "Build a theory of change for an organisation working on AI verification: inputs, outputs, short-, intermediate- and long-term outcomes, assumptions and external factors.",
