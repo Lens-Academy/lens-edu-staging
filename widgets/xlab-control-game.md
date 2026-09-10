@@ -431,11 +431,13 @@ if(window.Lens && Lens.onState){
   Lens.onState(function(state){
     if(state){
       if(typeof state.b === "number") b = state.b;
-      if(typeof state.d === "number") d = Math.max(b, state.d);
+      if(typeof state.dw === "number") dw = state.dw;
+      // Legacy state stored the absolute defer threshold; convert it to a width.
+      else if(typeof state.d === "number") dw = Math.max(0, state.d - b);
       if(typeof state.q === "number") q = state.q;
       if(typeof state.tab === "number") tab = state.tab;
       document.getElementById("kb").value = String(Math.round(b*1000));
-      document.getElementById("kd").value = String(Math.round(d*1000));
+      document.getElementById("kd").value = String(Math.round(dw*1000));
       document.getElementById("kq").value = String(Math.round(q*1000));
     }
     render();
