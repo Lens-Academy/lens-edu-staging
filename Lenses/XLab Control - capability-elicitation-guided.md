@@ -349,5 +349,5 @@ van der Weij, Teun, Felix Hofstätter, Ollie Jaffe, et al. "AI Sandbagging: Lang
 *The demonstration that prompting alone can induce strategic underperformance, the instructed-underperformance class of setup.*
 
 XLab. "Stress-Testing Capability Elicitation (guided)." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/low-stakes-control/capability-elicitation-guided)
-*The source lesson this page adapts.*
+*The source lesson this page adapts, including the five inserted teaching lessons, the six checkpoints, the locking-pipeline exercise and the recall cards.*
 :::
