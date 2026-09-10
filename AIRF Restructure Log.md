@@ -124,15 +124,13 @@ The AIRF learner surveys are also content-agnostic. `AIRF Session 1 Survey` is b
 
 **Do not edit survey files casually.** The course file records that `AIRF Session 3` and `Session 4` are byte-for-byte copies of `AIRF Weekly Survey` with a block added, specifically so every question keeps its key, wording and order and the pre/post rating comparison against Session 1 stays valid. It also records a hard rule learned the hard way: no answerable segment may precede an outbound link, because answers live in React state until submit and survey links carry no `target=_blank`, so a learner who clicks a link mid-survey loses every answer and their attendance. If a survey ever does need touching, read those notes first.
 
-### Pre-existing, not caused by us
+### Outcomes we are deliberately not touching
 
-| File | Issue |
-|---|---|
-| [[Learning Outcomes/Indifference, not malice]] | The statement, the test question and rubric level 3 all reference "the M3 goal-space argument". The outcome is used by other courses whose M3 is different material |
-| [[Learning Outcomes/Instrumental sub-goal convergence]] | Same problem: the statement references "the M3 argument". Relevant because this is the outcome we are importing into U3 |
-| [[Learning Outcomes/Goal conflict as a physical fact]] | A chapter 7 outcome, not used by this course. Worth a look when U3 is rebuilt, since chapter 7 currently carries nothing here |
+Three convergence-adjacent outcomes came up and all three are out of scope. Recorded here in one line each so they do not get re-litigated, and deliberately **not** cross-linked, since backlinks from an AIRF planning doc into other courses' files serve nobody.
 
-**The general lesson.** Outcomes are shared across courses, so a module label inside an outcome resolves differently depending on which course imported it. Any outcome we touch should have module and chapter labels stripped rather than renumbered. That is what B1 asks for, arrived at from a different direction.
+`Goals and instrumental convergence` belongs to the Fundamental Difficulties modules in other courses. `Indifference, not malice` likewise; its "M3" reference is most likely a coincidence of those courses' own numbering. `Instrumental sub-goal convergence` is the orphaned chapter 8 outcome the film replaced, which is why its statement reads as unintelligible without the old module in front of you; U3 gets a new outcome instead of inheriting that confusion. `Goal conflict as a physical fact` is a chapter 7 outcome kept for posterity, usable as context when the film lens is flipped but not imported.
+
+**The general lesson.** Outcomes are shared across courses, so a module label inside an outcome resolves differently depending on which course imported it. Any outcome we write should carry no module or chapter labels at all. That is what B1 asks for, arrived at from a different direction.
 
 ---
 
