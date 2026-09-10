@@ -43,7 +43,7 @@ The talk shows one setting being built and what it revealed. The next lesson is 
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-Cooper Stickland, Asa. "Persistent state: A new control setting." *ControlConf*, FAR.AI, May 2026. [youtube.com](https://www.youtube.com/watch?v=rStQDpQLPyg)
+Cooper Stickland, Asa. "Persistent state: A new control setting." *ControlConf*, FAR.AI, published 20 May 2026. [youtube.com](https://www.youtube.com/watch?v=rStQDpQLPyg)
 *The talk this lesson assigns: why the single-trajectory assumption breaks for coding agents that keep working on the same repository, and what happens to monitors when it does.*
 
 Hills, Josh, Ida Caspary, and Asa Cooper Stickland. "Distributed Attacks in Persistent-State AI Control." *arXiv*, July 2026. [arxiv.org](https://arxiv.org/abs/2607.02514)
