@@ -131,7 +131,7 @@ Greenblatt, Ryan. "An overview of control measures." *Redwood Research blog*, 6 
 *The catalogue of control measures most of this lens is assembled from, including the black box monitoring list, the auditing hierarchy, and the collusion and redaction countermeasures.*
 
 Phuong, Mary, Erik Jenner, Laurent Simon, Lewis Ho, Rohin Shah, and Sebastian Farquhar. "GDM AI Control Roadmap." *arXiv*, July 2026. [arxiv.org](https://arxiv.org/abs/2607.13087)
-*Google DeepMind's control roadmap, the other source XLab assembled this lesson from; it supplies the white box monitoring and evaluation-awareness framing.*
+*Google DeepMind's control roadmap, the other source this lens is assembled from; it supplies the white box monitoring and evaluation-awareness framing.*
 
 Roger, Fabien. "Coup probes: Catching catastrophes with probes trained off-policy." *AI Alignment Forum*, 17 Nov. 2023. [alignmentforum.org](https://www.alignmentforum.org/posts/WCj7WgFSLmyKaMwPR/coup-probes-catching-catastrophes-with-probes-trained-off)
 *The worked example of activations monitoring: a linear probe trained on off-policy data to flag catastrophic actions.*
@@ -158,7 +158,7 @@ Shlegeris, Buck. "How to prevent collusion when using untrusted models to monito
 *The reference on collusion busting for untrusted monitoring, which is the failure mode the whole Reducing Collusion section addresses.*
 
 Roger, Fabien. "A quick investigation of AI pro-AI bias." *LessWrong*, 19 Jan. 2024. [lesswrong.com](https://www.lesswrong.com/posts/WcRwTjRxY3fZTKmaw/a-quick-investigation-of-ai-pro-ai-bias)
-*XLab's example of a cross-context manipulation check: a bias no single action reveals, found by evaluating aggregate behavior.*
+*An example of a cross-context manipulation check: a bias no single action reveals, found by evaluating aggregate behavior.*
 
 Schoen, Bronson, Evgenia Nitishinskaya, Mikita Balesni, et al. "Stress Testing Deliberative Alignment for Anti-Scheming Training." *arXiv*, Sept. 2025. [arxiv.org](https://arxiv.org/abs/2509.15541)
 *Cited for CoT resampling and editing as a way to suppress a model's evaluation awareness.*
@@ -170,13 +170,13 @@ Arnav, Benjamin, Pablo Bernabeu-Pérez, Nathan Helm-Burger, et al. "CoT Red-Hand
 *Evidence that a model can undermine the monitor reading its chain of thought, which is the unilateral-collusion case this lens warns about.*
 
 Greenblatt, Ryan, Buck Shlegeris, Kshitij Sachan, and Fabien Roger. "AI Control: Improving Safety Despite Intentional Subversion." *arXiv*, 12 Dec. 2023. [arxiv.org](https://arxiv.org/abs/2312.06942)
-*The source XLab's glossary gives for the trusted monitoring definition in the key-terms box.*
+*The source of the trusted monitoring definition in the key-terms box.*
 
 Greenblatt, Ryan, and Buck Shlegeris. "The case for ensuring that powerful AIs are controlled." *LessWrong*, 24 Jan. 2024. [lesswrong.com](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled)
-*The source XLab's glossary gives for the scheming definition in the key-terms box.*
+*The source of the scheming definition in the key-terms box.*
 
 Stastny, Julian. "Misalignment and Strategic Underperformance: An Analysis of Sandbagging and Exploration Hacking." *Redwood Research blog*, 8 May 2025. [blog.redwoodresearch.org](https://blog.redwoodresearch.org/p/misalignment-and-strategic-underperformance)
-*The source XLab's glossary gives for the sandbagging definition in the key-terms box.*
+*The source of the sandbagging definition in the key-terms box.*
 
 XLab. "Detection Mitigations." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/areas-of-control-work/detection-mitigations)
 *The source lesson this page adapts.*
