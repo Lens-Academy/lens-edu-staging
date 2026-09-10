@@ -337,7 +337,7 @@ Carlsmith, Joe. "The 'no sandbagging on checkable tasks' hypothesis." *AI Alignm
 *The prior question this paper's evaluations sit downstream of: whether a model can hide a capability on a task whose answers can be checked.*
 
 Hubinger, Evan, Carson Denison, Jesse Mu, et al. "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training." *arXiv*, Jan. 2024. [arxiv.org](https://arxiv.org/abs/2401.05566)
-*The backdoor construction password-locking most resembles, and the contrast XLab draws: there the trigger produces unwanted behavior, here it produces wanted capability.*
+*The backdoor construction password-locking most resembles, and the contrast worth drawing: there the trigger produces unwanted behavior, here it produces wanted capability.*
 
 Jain, Samyak, Robert Kirk, Ekdeep Singh Lubana, et al. "Mechanistically analyzing the effects of fine-tuning on procedurally defined tasks." *arXiv*, Nov. 2023. [arxiv.org](https://arxiv.org/abs/2311.12786)
 *The evidence that fine-tuning produces superficial changes, which is the objection section 7 of the paper is built to answer.*
@@ -346,7 +346,7 @@ Burns, Collin, Pavel Izmailov, Jan Hendrik Kirchner, et al. "Weak-to-Strong Gene
 *The nearest existing line of work on what fine-tuning on imperfect supervision can elicit, and an example of why an unknown capability ceiling makes elicitation success unmeasurable.*
 
 van der Weij, Teun, Felix Hofstätter, Ollie Jaffe, et al. "AI Sandbagging: Language Models can Strategically Underperform on Evaluations." *arXiv*, June 2024. [arxiv.org](https://arxiv.org/abs/2406.07358)
-*The demonstration that prompting alone can induce strategic underperformance, cited by XLab as the instructed-underperformance class of setup.*
+*The demonstration that prompting alone can induce strategic underperformance, the instructed-underperformance class of setup.*
 
 XLab. "Stress-Testing Capability Elicitation (guided)." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/low-stakes-control/capability-elicitation-guided)
 *The source lesson this page adapts, including the five inserted teaching lessons, the six checkpoints, the locking-pipeline exercise and the recall cards.*
