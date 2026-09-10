@@ -32,6 +32,8 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../modules/AI Safety Atlas - Governance|Chapter 4: Governance]]
 # Meeting: Session 3: Strategies Part 2, Governance
 meeting-doc-template:: https://docs.google.com/document/d/1IcUGd2geuTRtteWSpUX5l9uRGdiksnAM1qp1bx5Zp_I/edit
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 %% Week 4 %%
 # Module: [[../modules/AI Safety Atlas - Evaluations|Chapter 5: Evaluations]]
@@ -39,6 +41,8 @@ meeting-doc-template:: https://docs.google.com/document/d/1IcUGd2geuTRtteWSpUX5l
 # Module: [[../modules/Lisbon Fellowship - Chapter 6 Specification Gaming, Part 1|Chapter 6: Specification Gaming, Part 1]]
 # Meeting: Session 4: Evaluations, Specification Gaming Part 1
 meeting-doc-template:: https://docs.google.com/document/d/1ptUwEdDHGVB8HVyzYY2ITcb_9MYwZG5nLTWxwWnTcbg/edit
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 %% Week 5 %%
 # Module: [[../modules/Lisbon Fellowship - Chapter 6 Specification Gaming, Part 2|Chapter 6: Specification Gaming, Part 2]]
