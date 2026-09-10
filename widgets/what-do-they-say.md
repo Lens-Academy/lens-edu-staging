@@ -1,7 +1,7 @@
 ---
 id: 'b709e4a5-86f1-4bd0-b166-0fe083697862'
 title: Why Are We Concerned About Superintelligence?
-summary_for_tutor: "Six profile cards of AI-lab leaders (Sam Altman, Dario Amodei, Demis Hassabis, Shane Legg, Ilya Sutskever, Jan Leike), each with a one-line teaser. The learner opens a card to read that person's definition of AGI or superintelligence, their public risk statements, a highlighted paragraph on why it matters for this module, and source links; opened cards are marked as read and a counter shows how many of the six have been read. The widget reports which profiles the learner has read; it is complete when all six have been opened. Content ported from XLab's Verification track."
+summary_for_tutor: "Six profile cards with portraits of AI-lab leaders (Sam Altman, Dario Amodei, Demis Hassabis, Shane Legg, Ilya Sutskever, Jan Leike), each with a one-line teaser. The learner expands a card in place to read that person's definition of AGI or superintelligence, their public risk statements, a highlighted paragraph on why it matters for this module, and source links; opened cards are marked as read and a counter shows how many of the six have been read. The widget reports which profiles the learner has read; it is complete when all six have been opened. Content ported from XLab's Verification track."
 height: auto
 tags: [wip]
 ---
@@ -11,7 +11,7 @@ tags: [wip]
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Why Are We Concerned About Superintelligence?</title>
-<!-- Ported from XLab Tracks (github.com/XLabTracks/tracks), Verification track widget "what-do-they-say". -->
+<!-- Ported from XLab Tracks (github.com/XLabTracks/tracks), Verification track widget "what-do-they-say". Portraits: Wikimedia Commons (CC BY / CC BY-SA), the same files XLab uses. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <style>
@@ -28,38 +28,47 @@ tags: [wip]
   .top { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; margin-bottom: 14px; }
   .progress { font-size: 12px; color: var(--muted); }
   .grid { display: grid; gap: 12px; list-style: none; margin: 0; padding: 0; }
-  .grid > li { display: grid; }
-  @media (min-width: 640px) { .grid { grid-template-columns: 1fr 1fr; } }
-  .card {
-    font: inherit; color: inherit; text-align: left; cursor: pointer;
-    display: flex; flex-direction: column; gap: 10px;
-    border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 14px;
+  .grid > li { display: grid; min-width: 0; }
+  @media (min-width: 640px) {
+    .grid { grid-template-columns: 1fr 1fr; }
+    .grid > li.is-open { grid-column: 1 / -1; }
   }
-  .card:hover { background: var(--surface); }
-  .card:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
+  .card { border: 1px solid var(--border); border-radius: 8px; background: #fff; display: flex; flex-direction: column; }
   .card.is-open { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
-  .who { display: flex; align-items: center; gap: 10px; min-width: 0; }
-  .avatar {
-    flex: 0 0 auto; width: 44px; height: 44px; border-radius: 50%;
-    border: 1px solid var(--border); background: var(--surface); color: var(--muted);
-    display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: 14px;
+  .head {
+    font: inherit; color: inherit; text-align: left; cursor: pointer; width: 100%;
+    display: flex; flex-direction: column; gap: 10px; flex: 1 1 auto;
+    border: 0; border-radius: 8px; background: transparent; padding: 14px;
   }
-  .avatar.lg { width: 60px; height: 60px; font-size: 18px; }
+  .head:hover { background: var(--surface); }
+  .head:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+  .card.is-open .head { border-radius: 8px 8px 0 0; }
+  .card.is-open .head:hover { background: transparent; }
+  .who { display: flex; align-items: center; gap: 12px; min-width: 0; }
+  .avatar {
+    flex: 0 0 auto; width: 48px; height: 48px; border-radius: 50%; overflow: hidden;
+    border: 1px solid var(--border); background: var(--surface); color: var(--muted);
+    display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: 15px;
+  }
+  .card.is-open .avatar { width: 72px; height: 72px; font-size: 20px; }
+  .avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .name { font-weight: 600; display: block; }
+  .card.is-open .name { font-family: var(--font-heading); font-size: 20px; line-height: 1.2; }
   .role { font-size: 12px; color: var(--muted); display: block; }
   .teaser { color: var(--muted); font-size: 13px; margin: 0; }
-  .cta { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 12px; font-weight: 500; color: var(--accent); }
+  .card.is-open .teaser { display: none; }
+  .cta { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 12px; font-weight: 500; color: var(--accent); margin-top: auto; }
+  .cta .open-label { display: none; }
+  .card.is-open .cta .open-label { display: inline; }
+  .card.is-open .cta .view-label { display: none; }
   .read { display: none; color: var(--text); font-weight: 500; }
   .card.is-read .read { display: inline; }
-  .detail { display: none; margin-top: 16px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); padding: 16px; }
-  .detail.is-open { display: block; }
-  .detail-head { display: flex; align-items: center; gap: 14px; }
-  .detail-head .who { flex: 1 1 auto; }
-  .close { font: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; color: var(--muted); padding: 6px 10px; cursor: pointer; }
-  .close:hover { background: var(--surface); color: var(--text); }
+  .card.is-open .read { display: none; }
+  .profile { display: none; border-top: 1px solid var(--border); padding: 4px 16px 16px; }
+  .card.is-open .profile { display: block; }
   .section { margin-top: 14px; }
   .section p { margin: 4px 0 0; max-width: 46rem; }
-  .section.matters { border: 1px solid var(--accent); border-radius: 8px; background: #fff; padding: 12px 14px; }
+  .section.matters { border: 1px solid var(--accent); border-radius: 8px; background: var(--surface); padding: 12px 14px; }
   .section.matters .eyebrow { color: var(--accent-hover); }
   q { font-style: italic; }
   em { font-style: normal; font-weight: 500; }
@@ -67,6 +76,12 @@ tags: [wip]
   .sources-list { display: flex; flex-wrap: wrap; gap: 4px 16px; margin-top: 4px; }
   .sources a { color: var(--accent-hover); font-size: 12px; text-decoration: underline; text-underline-offset: 2px; }
   .sources a:hover { text-decoration: none; }
+  .credit { font-size: 11px; color: var(--muted); margin: 10px 0 0; }
+  .credit a { color: inherit; }
+  .foot { display: flex; justify-content: flex-end; margin-top: 14px; }
+  .close { font: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; color: var(--muted); padding: 6px 12px; cursor: pointer; }
+  .close:hover { background: var(--surface); color: var(--text); }
+  .close:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .done { margin-top: 12px; font-size: 12px; color: var(--muted); display: none; }
   .done.is-visible { display: block; }
 </style>
@@ -81,15 +96,15 @@ tags: [wip]
 </div>
 
 <ul class="grid" id="grid" role="list"></ul>
-
-<div class="detail" id="detail" role="region" aria-live="polite"></div>
 <p class="done" id="done">All six profiles read.</p>
 
 <script>
   var VIEW_PROFILE = "View profile →";
+  var CLOSE_PROFILE = "Close profile ↑";
   var FIGURES = [
     {
-      key: "altman", name: "Sam Altman", role: "CEO, OpenAI", initials: "SA",
+      key: "altman",
+      photo: "https://commons.wikimedia.org/wiki/Special:FilePath/Sam_Altman_CropEdit_James_Tamim.jpg?width=256", name: "Sam Altman", role: "CEO, OpenAI", initials: "SA",
       teaser: "Authored OpenAI's original economic definition of AGI; has since argued the term is no longer precise enough to be useful.",
       sections: [
         { label: "Definition", paragraphs: [
@@ -110,7 +125,8 @@ tags: [wip]
       ]
     },
     {
-      key: "amodei", name: "Dario Amodei", role: "CEO, Anthropic", initials: "DA",
+      key: "amodei",
+      photo: "https://commons.wikimedia.org/wiki/Special:FilePath/Dario_Amodei_at_TechCrunch_Disrupt_2023_01_(cropped).jpg?width=256", name: "Dario Amodei", role: "CEO, Anthropic", initials: "DA",
       teaser: "Uses the term \"powerful AI\" rather than AGI; estimates arrival as early as 2026 or 2027.",
       sections: [
         { label: "Definition", paragraphs: [
@@ -132,7 +148,8 @@ tags: [wip]
       ]
     },
     {
-      key: "hassabis", name: "Demis Hassabis", role: "CEO, Google DeepMind · Nobel laureate", initials: "DH",
+      key: "hassabis",
+      photo: "https://commons.wikimedia.org/wiki/Special:FilePath/Demis_Hassabis,_2024_Nobel_Prize_Laureate_in_Chemistry_7_(cropped).jpg?width=256", name: "Demis Hassabis", role: "CEO, Google DeepMind · Nobel laureate", initials: "DH",
       teaser: "Defines AGI as the full range of human cognitive capabilities; advocates IAEA-style international monitoring.",
       sections: [
         { label: "Definition", paragraphs: [
@@ -151,7 +168,8 @@ tags: [wip]
       ]
     },
     {
-      key: "legg", name: "Shane Legg", role: "Chief AGI Scientist, Google DeepMind", initials: "SL",
+      key: "legg",
+      photo: "https://commons.wikimedia.org/wiki/Special:FilePath/Shane_Legg.jpg?width=256", name: "Shane Legg", role: "Chief AGI Scientist, Google DeepMind", initials: "SL",
       teaser: "Coined the term AGI in 2001; has maintained a median forecast near 2028 since 2011.",
       sections: [
         { label: "The term", paragraphs: [
@@ -170,7 +188,8 @@ tags: [wip]
       ]
     },
     {
-      key: "sutskever", name: "Ilya Sutskever", role: "Co-founder, OpenAI · Founder, SSI", initials: "IS",
+      key: "sutskever",
+      photo: "https://commons.wikimedia.org/wiki/Special:FilePath/Ilya_Sutskever_and_Sam_Altman_in_TAU_(cropped).jpg?width=256", name: "Ilya Sutskever", role: "Co-founder, OpenAI · Founder, SSI", initials: "IS",
       teaser: "Central to the current technical paradigm; now leads a lab founded solely to build superintelligence safely.",
       sections: [
         { label: "Definition", paragraphs: [
@@ -215,7 +234,6 @@ tags: [wip]
   var state = { read: [], open: null };
   var completed = false;
   var grid = document.getElementById("grid");
-  var detail = document.getElementById("detail");
   var progress = document.getElementById("progress");
   var doneEl = document.getElementById("done");
   var cards = {};
@@ -245,34 +263,83 @@ tags: [wip]
     if (last < text.length) stack[stack.length - 1].appendChild(document.createTextNode(text.slice(last)));
     return p;
   }
-  function avatar(f, large) {
-    var a = el("span", "avatar" + (large ? " lg" : ""), f.initials);
+  function avatar(f) {
+    var a = el("span", "avatar");
     a.setAttribute("aria-hidden", "true");
+    if (f.photo) {
+      var img = document.createElement("img");
+      img.alt = "";
+      img.loading = "lazy";
+      img.referrerPolicy = "no-referrer";
+      img.src = f.photo;
+      // Fall back to initials if the portrait cannot be fetched.
+      img.addEventListener("error", function () { a.textContent = f.initials; });
+      a.appendChild(img);
+    } else {
+      a.textContent = f.initials;
+    }
     return a;
   }
-  function who(f) {
-    var w = el("span", "who");
-    var t = el("span");
-    t.appendChild(el("span", "name", f.name));
-    t.appendChild(el("span", "role", f.role));
-    w.appendChild(t);
-    return w;
+
+  function buildProfile(f) {
+    var box = el("div", "profile");
+    box.id = "profile-" + f.key;
+    f.sections.forEach(function (s) {
+      var sec = el("div", "section" + (s.matters ? " matters" : ""));
+      sec.appendChild(el("p", "eyebrow", s.label));
+      s.paragraphs.forEach(function (t) { sec.appendChild(richParagraph(t)); });
+      box.appendChild(sec);
+    });
+    var src = el("div", "sources");
+    src.appendChild(el("p", "eyebrow", "Sources"));
+    var list = el("div", "sources-list");
+    f.sources.forEach(function (s) {
+      var a = el("a", null, s.label);
+      a.href = s.href; a.target = "_blank"; a.rel = "noopener";
+      list.appendChild(a);
+    });
+    src.appendChild(list);
+    if (f.photo) {
+      var credit = el("p", "credit", "Portrait: ");
+      var ca = el("a", null, "Wikimedia Commons");
+      ca.href = f.photo.split("?")[0]; ca.target = "_blank"; ca.rel = "noopener";
+      credit.appendChild(ca);
+      credit.appendChild(document.createTextNode(" (CC BY / CC BY-SA)"));
+      src.appendChild(credit);
+    }
+    box.appendChild(src);
+    var foot = el("div", "foot");
+    var close = el("button", "close", "Close profile"); close.type = "button";
+    close.setAttribute("aria-label", "Close profile: " + f.name);
+    close.addEventListener("click", function () { closeProfile(f.key, true); });
+    foot.appendChild(close);
+    box.appendChild(foot);
+    return box;
   }
 
   FIGURES.forEach(function (f) {
     var item = el("li");
-    var b = el("button", "card"); b.type = "button";
-    b.setAttribute("aria-label", "View profile: " + f.name + ", " + f.role);
-    var w = who(f); w.insertBefore(avatar(f, false), w.firstChild);
+    var card = el("div", "card");
+    var b = el("button", "head"); b.type = "button";
+    b.setAttribute("aria-controls", "profile-" + f.key);
+    var w = el("span", "who");
+    w.appendChild(avatar(f));
+    var t = el("span");
+    t.appendChild(el("span", "name", f.name));
+    t.appendChild(el("span", "role", f.role));
+    w.appendChild(t);
     b.appendChild(w);
     b.appendChild(el("p", "teaser", f.teaser));
     var cta = el("span", "cta");
-    cta.appendChild(el("span", null, VIEW_PROFILE));
+    cta.appendChild(el("span", "view-label", VIEW_PROFILE));
+    cta.appendChild(el("span", "open-label", CLOSE_PROFILE));
     cta.appendChild(el("span", "read", "✓ Read"));
     b.appendChild(cta);
-    b.addEventListener("click", function () { openProfile(f.key); });
-    cards[f.key] = b;
-    item.appendChild(b);
+    b.addEventListener("click", function () { if (state.open === f.key) closeProfile(f.key, false); else openProfile(f.key); });
+    card.appendChild(b);
+    card.appendChild(buildProfile(f));
+    cards[f.key] = { item: item, card: card, head: b };
+    item.appendChild(card);
     grid.appendChild(item);
   });
 
@@ -295,47 +362,17 @@ tags: [wip]
     }
   }
 
-  function renderDetail() {
-    detail.textContent = "";
-    var f = state.open ? figureByKey(state.open) : null;
-    detail.classList.toggle("is-open", !!f);
-    if (!f) return;
-    var head = el("div", "detail-head");
-    head.appendChild(avatar(f, true));
-    head.appendChild(who(f));
-    var close = el("button", "close", "Close"); close.type = "button";
-    close.setAttribute("aria-label", "Close profile");
-    close.addEventListener("click", function () { state.open = null; render(); persist(); });
-    head.appendChild(close);
-    detail.appendChild(head);
-    f.sections.forEach(function (s) {
-      var sec = el("div", "section" + (s.matters ? " matters" : ""));
-      sec.appendChild(el("p", "eyebrow", s.label));
-      s.paragraphs.forEach(function (t) { sec.appendChild(richParagraph(t)); });
-      detail.appendChild(sec);
-    });
-    var src = el("div", "sources");
-    src.appendChild(el("p", "eyebrow", "Sources"));
-    var list = el("div", "sources-list");
-    f.sources.forEach(function (s) {
-      var a = el("a", null, s.label);
-      a.href = s.href; a.target = "_blank"; a.rel = "noopener";
-      list.appendChild(a);
-    });
-    src.appendChild(list);
-    detail.appendChild(src);
-  }
-
   function render() {
     FIGURES.forEach(function (f) {
-      var b = cards[f.key];
-      b.classList.toggle("is-open", state.open === f.key);
-      b.classList.toggle("is-read", isRead(f.key));
-      b.setAttribute("aria-expanded", state.open === f.key ? "true" : "false");
+      var c = cards[f.key];
+      var open = state.open === f.key;
+      c.item.classList.toggle("is-open", open);
+      c.card.classList.toggle("is-open", open);
+      c.card.classList.toggle("is-read", isRead(f.key));
+      c.head.setAttribute("aria-expanded", open ? "true" : "false");
     });
     progress.textContent = state.read.length + " of " + FIGURES.length + " profiles read";
     doneEl.classList.toggle("is-visible", state.read.length === FIGURES.length);
-    renderDetail();
   }
 
   function openProfile(key) {
@@ -343,7 +380,21 @@ tags: [wip]
     state.open = key;
     render();
     persist();
-    detail.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    var c = cards[key];
+    if (c && c.card.scrollIntoView) {
+      try { c.card.scrollIntoView({ behavior: "smooth", block: "nearest" }); } catch (e) {}
+    }
+  }
+  function closeProfile(key, refocus) {
+    if (state.open !== key) return;
+    state.open = null;
+    render();
+    persist();
+    var c = cards[key];
+    if (c) {
+      if (refocus) { try { c.head.focus(); } catch (e) {} }
+      if (c.card.scrollIntoView) { try { c.card.scrollIntoView({ behavior: "smooth", block: "nearest" }); } catch (e) {} }
+    }
   }
 
   function hydrate(saved, meta) {
