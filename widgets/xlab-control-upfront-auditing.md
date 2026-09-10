@@ -12,7 +12,13 @@ tags: []
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <!-- Ported from the "Optimal audit tradeoff" demo on XLab's AI Control track
-     (aisafetytracks.com), rebuilt as vanilla HTML/JS in the Lens look. -->
+     (aisafetytracks.com), rebuilt as vanilla HTML/JS in the Lens look.
+     The alpha slider, the two curves and the three readouts are XLab's. The
+     attack-rate slider and the RW(p) chart below them are ours, not XLab's:
+     they make the non-monotonicity in p visible, which is what the lens's
+     own derivation question asks the learner to account for. Same model,
+     no new constants. -->
+<!-- XLab's demo does not let the learner move p; the p slider is a Lens addition. -->
 <style>
 :root{
   --bg:#ffffff; --page:#faf8f3; --text:#1a1a1a; --muted:#5a5a5a; --border:#e8e5df;
