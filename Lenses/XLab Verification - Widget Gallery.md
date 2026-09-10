@@ -9,7 +9,7 @@ duration_minutes: 90
 
 #### Text
 content::
-This page collects every interactive built for Compute Verification Parts 1 and 2 from XLab's Verification track and from the readings the course embeds. Entries leave this page once they are placed in the course; placed so far: The Types of AI, The Verification Landscape, The Verification Problem. Each entry says which lens it belongs to, where in that lens it goes, and what it would replace, so placement is a copy-paste decision per entry. Entries marked native say that our own question segments already do the job, with the proposed segment text in a collapsed note. Entries are ordered by module and lens. Every widget below is live: try it.
+This page collects every interactive built for Compute Verification Parts 1 and 2 from XLab's Verification track and from the readings the course embeds. Entries leave this page once they are placed in the course; placed so far: The Types of AI, The Verification Landscape, The Verification Problem, Why Are We Concerned About Superintelligence?. Each entry says which lens it belongs to, where in that lens it goes, and what it would replace, so placement is a copy-paste decision per entry. Entries marked native say that our own question segments already do the job, with the proposed segment text in a collapsed note. Entries are ordered by module and lens. Every widget below is live: try it.
 
 #### Text
 content::
@@ -20,36 +20,6 @@ Module file: [[../modules/XLab Verification P1 W1 Why verification]]
 #### Text
 content::
 \### Lens: [[../Lenses/XLab Verification - v-introduction]]
-
-#### Text
-content::
-\#### Why Are We Concerned About Superintelligence? (what-do-they-say)
-
-**Decision: widget.** Six profile cards with portraits that expand in place one at a time, read-tracking and a tutor-visible record of which profiles were opened beat six long collapsed callouts; the grid of teasers lets the learner compare the six positions before reading any of them.
-
-**Target lens:** [[../Lenses/XLab Verification - v-introduction]]
-
-**Where it goes:** after the Text segment "Even the people in charge of developing superintelligence, who have the most incentive to obfuscate ... Hear what the top AI figures have to say:"
-
-**What it replaces:** the Text segment holding six collapsed callouts (Sam Altman, Dario Amodei, Demis Hassabis, Shane Legg, Ilya Sutskever, Jan Leike). The widget carries every sentence and every source link of those callouts verbatim, so the callouts should go entirely; keeping them as a fallback would show the same 1,300 words twice.
-
-**In XLab:** <VerificationExercise id="what-do-they-say" /> in introduction.mdx, core, not inside a Fold
-
-**Learner time:** 8 minutes
-
-Sees a two-column grid of six cards (portrait, name, role, one-line teaser, "View profile"). Opening a card expands it in place, spanning both columns, to show the profile: Definition (or The term / Background), Risk statements, a highlighted "Relevance to this module" paragraph, and source links that open in a new tab. Opened cards get a "Read" mark and the counter climbs to "6 of 6 profiles read"; the widget saves which profiles were read and reports completion when all six have been opened.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-- Data source: XLab `src/lib/verification/data/what-do-they-say.ts` at commit 1e8b150 (2026-08-20); component `src/components/verification/widgets/what-do-they-say.tsx` at 05e7925. All names, roles, initials, teasers, section labels, paragraphs and source labels/URLs are verbatim. The `<q>` and `<em>` markup inside XLab's paragraph HTML is rebuilt as elements (no innerHTML); `<q>` renders with the browser's quotation marks, matching the quoted phrases in the Lens callouts.
-- Portraits (added 2026-09-10 on review): the five Wikimedia Commons files XLab itself uses (its `photoSource` fields), hotlinked at 256 px through `Special:FilePath`, with XLab's credit line "Portrait: Wikimedia Commons (CC BY / CC BY-SA)" linking to the file page inside each profile. Jan Leike has no portrait in XLab or on Commons, so his card keeps the initials avatar (XLab's `initials` field). If a portrait fails to load the card falls back to initials. The dependency on Wikimedia hosting is the trade-off; copying the files into Lens attachments would need an absolute URL the widget can reach.
-- Cross-references adapted (the only deliberate text change): XLab's "taken up in 0.2.3 (compute vs. capability)" and "(0.2.3)" refer to XLab's own lesson numbering, which does not exist on Lens. The widget uses the wording the Lens callouts already use, "1.0.1 Drawing the Line: Compute vs. Capability", as plain text (a widget cannot carry a wikilink). Likewise Leike's "the first policy bucket in 0.2.2, voluntary self-governance" is shortened to "voluntary self-governance", again matching the Lens callout. Revert to XLab's wording by editing three strings if verbatim is preferred.
-- XLab's modal dialog is replaced by in-place expansion (review request 2026-09-10): the opened card grows to span the grid and shows the full profile under its header; "View profile" becomes "Close profile", and a Close button at the foot returns focus to the card header. A modal inside the auto-height frame would not size correctly, and the earlier port's panel below the grid was judged worse than expanding the card itself.
-- Completion: XLab's component has no onComplete; the widget calls Lens.complete() once all six profiles have been opened, so `required:: true` is usable on the segment.
-- Eyebrow line "Six leaders, in their own words" and the h1 (XLab's registry title for this exercise) are the only strings not in the data file.
-:::
-
-#### Widget
-source:: [[../widgets/what-do-they-say]]
 
 #### Text
 content::
