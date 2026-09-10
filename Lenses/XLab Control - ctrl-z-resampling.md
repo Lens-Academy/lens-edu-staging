@@ -19,13 +19,9 @@ The paper runs below in seven stretches, with recall questions after each one. T
 {>>{"author":"Elias's AI","timestamp":1789039901599}@@{--{"author":"Elias's AI","timestamp":1789057257852}@@PORT-TODO:--}{++{"author":"Elias's AI","timestamp":1789057257852}@@Excerpt anchors verified against++} the {--{"author":"Elias's AI","timestamp":1789057257852}@@arXiv import had not landed when this lens was written. Replace the Article segment below with `#### Article` over the imported `arXiv:2504.10374` file, delete--}{++{"author":"Elias's AI","timestamp":1789057257852}@@stored article on 2026-09-10: each from and to string occurs exactly once, and every to falls after its from. Section 4 is anchored on its first paragraph rather than its heading, because++} the {--{"author":"Elias's AI","timestamp":1789057257852}@@"Which text you are reading" callout,--}{++{"author":"Elias's AI","timestamp":1789057257852}@@string "4 Untrusted Monitoring" also appears inside figure++} and {--{"author":"Elias's AI","timestamp":1789057257852}@@keep--}{++{"author":"Elias's AI","timestamp":1789057257852}@@table link titles in++} the {--{"author":"Elias's AI","timestamp":1789057257852}@@section pointers.--}{++{"author":"Elias's AI","timestamp":1789057257852}@@article and so is not unique. Avoid anchoring on any sentence containing a citation like "et al.": those carry a non-breaking space that this editor normalises to a plain space.++}<<}
 
 #### Article
-source:: [[../articles/shlegeris-ctrl-z-controlling-ai-agents-via-resampling]]
-
-#### Text
-content::
-\## Section 1: Introduction
-
-The paper opens with why a lab might deploy an agent it cannot vouch for: a model may develop misaligned goals and fake alignment during testing, or be poisoned in training, or fail for reasons nobody has named yet.
+source:: [[../articles/bhatt-ctrl-z-controlling-ai-agents-via-resampling]]
+from:: "Control evaluations measure whether monitoring and security protocols for AI systems prevent intentionally subversive AI models from causing harm."
+to:: "We call models that have the potential to be deliberately subversive untrusted models."
 
 #### Question: Open
 id:: b960d8af-9e6f-49ae-b904-5024917c8d5c
