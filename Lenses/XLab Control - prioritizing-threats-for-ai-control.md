@@ -94,5 +94,5 @@ Shlegeris, Buck. "AI catastrophes and rogue deployments." *Redwood Research blog
 *The taxonomy Greenblatt starts from, which sorts catastrophes by whether they involve a rogue deployment.*
 
 XLab. "Prioritizing threats for AI control." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/introduction/prioritizing-threats-for-ai-control)
-*The source lesson this page adapts, including its quick-recall prompts and the free-response rubric.*
+*The source lesson this page adapts.*
 :::

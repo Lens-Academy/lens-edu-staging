@@ -74,5 +74,5 @@ Kokotajlo, Daniel. "Training AGI in Secret would be Unsafe and Unethical." *AI F
 *The heavily siloed and secretive project Greenblatt points to as an extreme version of Plan E.*
 
 XLab. "Plans A, B, C, and D for misalignment risk." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/how-useful-is-ai-control/plans-a-b-c-and-d-for-misalignment-risk)
-*The source lesson this page adapts, including the placement of the four recall questions.*
+*The source lesson this page adapts.*
 :::

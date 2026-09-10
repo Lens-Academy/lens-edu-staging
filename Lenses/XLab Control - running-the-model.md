@@ -39,5 +39,5 @@ Kokotajlo, Daniel. "AI Futures Model: Dec 2025 Update." *AI Futures Project*, 28
 *The model whose capability milestones name the stage each scenario is approaching: automating the lab's coding, running research autonomously, or multiplying human researchers without working unsupervised.*
 
 XLab. "Running the model." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/how-useful-is-ai-control/running-the-model)
-*The source lesson this page adapts, including the allocation exercise and its three regimes.*
+*The source lesson this page adapts.*
 :::

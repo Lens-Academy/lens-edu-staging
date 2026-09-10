@@ -49,5 +49,5 @@ Greenblatt, Ryan. "Prioritizing threats for AI control." *Redwood Research blog*
 *Source for the claim in the opening section that preventing or catching rogue internal deployments heads Greenblatt's priority list and that they can be substantially worse than self-exfiltration.*
 
 XLab. "Rogue internal deployments via external APIs." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-4/rogue-internal-deployments-via-external-apis)
-*The source lesson this page adapts, including the placement and wording of the two recall questions.*
+*The source lesson this page adapts.*
 :::

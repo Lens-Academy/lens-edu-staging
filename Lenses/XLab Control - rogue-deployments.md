@@ -77,5 +77,5 @@ Greenblatt, Ryan. "Prioritizing threats for AI control." *Redwood Research blog*
 *Source for the claim in the opening section that Greenblatt folds full rogue deployments into a broader cluster of internal security violations and rates internal rogue deployments above self-exfiltration.*
 
 XLab. "AI catastrophes and rogue deployments." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-4/rogue-deployments)
-*The source lesson this page adapts, including the placement and wording of the six recall questions.*
+*The source lesson this page adapts.*
 :::
