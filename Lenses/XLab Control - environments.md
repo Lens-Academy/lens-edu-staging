@@ -9,6 +9,24 @@ tags: []
 ---
 #### Text
 content::
+:::callout {title="Key terms used on this page" tone="neutral" collapse="closed"}
+**Control protocol.** The pipeline of safety techniques a lab runs untrusted model outputs through designed to extract useful work while preventing, and catching, bad actions. ([AI Control: Improving Safety Despite Intentional Subversion](https://arxiv.org/abs/2312.06942))
+
+**Scheming.** Schemers are AIs that eventually take substantial material action (control subversion, research sabotage) and manipulate their training procedures (alignment faking, sandbagging) to gain long-term power over their developers in service of pursuing their misaligned goals. ([The case for ensuring that powerful AIs are controlled](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled))
+
+**Untrusted model.** A model powerful enough that scheming cannot be ruled out while having little evidence of aligned behavior.
+
+**Control evaluation.** An evaluation that stages mock attacks to estimate whether a protocol would catch a real schemer trying its best to subvert it. ([The case for ensuring that powerful AIs are controlled](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled))
+
+**Backdoor.** Submitted work that passes all the visible tests but contains a deliberate, exploitable flaw. ([AI Control: Improving Safety Despite Intentional Subversion](https://arxiv.org/abs/2312.06942))
+
+**Trusted model.** A weaker model trusted not to scheme that's used to monitor, edit, or stand in for the untrusted model's outputs.
+
+**Trusted monitoring.** A basic control protocol: the untrusted model does the work while a weaker trusted model rates how suspicious each output looks, letting humans audit the most suspicious slice. ([AI Control: Improving Safety Despite Intentional Subversion](https://arxiv.org/abs/2312.06942))
+
+**Exfiltration.** An AI getting a copy of its own weights out of the developer's control so it can run and act without the lab's safety measures. Also called self-exfiltration or weight exfiltration.
+:::
+
 A control protocol's effectiveness is determined by whether scheming models under its measures would be capable of executing a subversion strategy and increasing the probability of an unacceptable outcome. In order to properly evaluate our control protocols, we need proxy deployments where a red team, acting as the untrusted model, does their best to break the protocol within their affordances. An environment is the structure that mimics deployment circumstances.
 
 Each environment typically has:
@@ -98,6 +116,12 @@ Redwood Research. "LinuxArena." *linuxarena.ai*, 2026. [linuxarena.ai](https://w
 
 UK AI Security Institute and Redwood Research. "ControlArena." *AI Security Institute*. [control-arena.aisi.org.uk](https://control-arena.aisi.org.uk/)
 *The Inspect-based library that separates settings from protocols, and the only environment listed here that covers diffuse threat models.*
+
+Greenblatt, Ryan, Buck Shlegeris, Kshitij Sachan, and Fabien Roger. "AI Control: Improving Safety Despite Intentional Subversion." *arXiv*, 12 Dec. 2023. [arxiv.org](https://arxiv.org/abs/2312.06942)
+*The paper the APPS backdoored-datasets setting comes from, and the source XLab's glossary gives for the control protocol, backdoor, and trusted monitoring definitions in the key-terms box.*
+
+Greenblatt, Ryan, and Buck Shlegeris. "The case for ensuring that powerful AIs are controlled." *LessWrong*, 24 Jan. 2024. [lesswrong.com](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled)
+*The source XLab's glossary gives for the scheming and control evaluation definitions in the key-terms box.*
 
 XLab. "Environments." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/areas-of-control-work/environments)
 *The source lesson this page adapts.*

@@ -87,7 +87,7 @@ Instead, decomposing attacks helps your attack tree stay organized and might all
 content::
 \## Practice: A backdoor lands in production
 
-Build the threat model yourself, one round at a time. Red finds the best attack and maps its necessary conditions; blue receives an affordance and tags the nodes it touches; red revises.
+Build the threat model yourself, one round at a time. Red finds the best attack and maps its necessary conditions; blue receives an affordance and tags the nodes it touches; red revises. Your work is saved as you go, so you can leave the bench and come back to it.
 
 The world you are attacking is the backdoored-code setting from [[../Lenses/XLab Control - ai-control-paper|AI Control: Improving Safety Despite Intentional Subversion]], the next lesson: an untrusted model writes code that ships on passing tests, and you add measures one at a time.
 
