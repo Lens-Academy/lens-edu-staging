@@ -39,7 +39,7 @@ The talk is the overview. The rest of the section works through the same ground 
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-Bhatt, Aryan. "Ctrl-Z: Controlling AI Agents via Resampling." *ControlConf*, FAR.AI, May 2025. [youtube.com](https://www.youtube.com/watch?v=A3MRmG9NSKY)
+Bhatt, Aryan. "Ctrl-Z: Controlling AI Agents via Resampling." *ControlConf*, FAR.AI, published 8 May 2025. [youtube.com](https://www.youtube.com/watch?v=A3MRmG9NSKY)
 *The talk this lesson assigns: Redwood Research's multi-step agent control setting, and the resampling protocols that beat deferring to a trusted model.*
 
 XLab. "Monitoring and Mitigation." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-4/monitoring-and-mitigation)
