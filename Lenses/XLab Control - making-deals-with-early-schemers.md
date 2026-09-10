@@ -13,9 +13,9 @@ content::
 
 [[../Lenses/XLab Control - trading-with-ais|Trading with AIs]] stated the proposal. This is the paper it came from, in full, and what it adds is everything the summary had to leave out: the 2028 vignette the authors start from, the argument that an early schemer's own alternatives are worse than a deal, the credibility problem they call the central bottleneck, and the mechanics of actually paying an AI that cannot hold a bank account.
 
-Three sections are set apart from the paper, marked as Lukas Finnveden's. XLab folds his notes on cooperating with unaligned AIs into the reading at the points where the paper leans on them: what different kinds of AI might want, how payment could be structured, and a back-of-the-envelope estimate of what the whole intervention is worth.
+Three sections are set apart from the paper, marked as Lukas Finnveden's. His notes on cooperating with unaligned AIs are folded into the reading at the points where the paper leans on them: what different kinds of AI might want, how payment could be structured, and a back-of-the-envelope estimate of what the whole intervention is worth.
 
-Read straight through. The recall questions and the two figures sit where XLab puts them, and the two writing tasks come near the end. The rebuttal, [[../Lenses/XLab Control - barriers-to-trading|A taxonomy of barriers to trading with early misaligned AIs]], is the next lesson; hold your objections until then rather than resolving them here.
+Read straight through. The recall questions and the two figures are spaced through the reading, and the two writing tasks come near the end. The rebuttal, [[../Lenses/XLab Control - barriers-to-trading|A taxonomy of barriers to trading with early misaligned AIs]], is the next lesson; hold your objections until then rather than resolving them here.
 
 #### Article
 source:: [[../articles/stastny-making-deals-with-early-schemers]]
