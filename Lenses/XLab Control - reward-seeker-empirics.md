@@ -42,7 +42,7 @@ content::
 Apollo Research. "Is AI doing the right thing for the wrong reasons?" *YouTube*, 21 July 2026. [youtube.com](https://www.youtube.com/watch?v=n9pNnWYemqM)
 *The talk this lesson is built around: four Apollo researchers on why chain-of-thought inspection cannot tell you whether a model is reward seeking, and on the contrastive belief-update method they built instead.*
 
-Apollo Research and OpenAI. "Measuring Reward-Seeking via Contrastive Belief Updates." 2026. [rewardseeking.ai](https://rewardseeking.ai)
+Højmark, Axel, Jérémy Scheurer, Evgenia Nitishinskaya, Felix Hofstätter, Jason Wolfe, Theodore Ehrenborg, et al. "Measuring Reward-Seeking via Contrastive Belief Updates." *arXiv*, 2026. [arxiv.org](https://arxiv.org/abs/2607.18966)
 *The paper the talk presents, including the o3-run measurements and the model-organism validations. Read in full in the next lesson.*
 
 XLab. "Reward Seeker Empirics." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-5/reward-seeker-empirics)
