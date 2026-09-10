@@ -25,69 +25,72 @@ Two things are worth knowing before you start. The estimated times on each page 
 # Submodule: Module 1
 # Lens: Module 1 overview
 id:: 2b4ce4cc-4afe-4e08-a3ca-fe73f852bc6e
-#### Text
+{++{"author":"Elias's AI","timestamp":1789042279557}@@reading_minutes:: 2
+tutor_minutes:: 0
+++}#### Text
 content::
 \## Introduction, overview, and threat modeling
 
 Foundations of AI control, control evaluations, threat modeling, catching schemers, and concentrated versus diffuse threats.
 
-# Lens: The case for ensuring that powerful AIs are controlled
+# Lens:{--{"author":"Elias's AI","timestamp":1789042279557}@@ The case for ensuring that powerful AIs are controlled
 id:: 62829110-41b3-4911-9966-2a8edbd5f7ac
 #### Text
-content::
-\## The case for ensuring that powerful AIs are controlled
+content::--}
+{--{"author":"Elias's AI","timestamp":1789042279557}@@\## The case for ensuring that powerful AIs are controlled
 
 **Paper · 105 min**
 
-[Open this lesson in XLab's AI Control curriculum](https://aisafetytracks.com/tracks/control/introduction/the-case-for-controlling-powerful-ais). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.
+[Open this lesson in XLab's AI--}{++{"author":"Elias's AI","timestamp":1789042279557}@@source:: [[../Lenses/XLab++} Control{--{"author":"Elias's AI","timestamp":1789042279557}@@ curriculum](https://aisafetytracks.com/tracks/control/introduction/the-case-for-controlling-powerful-ais). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.--}{++{"author":"Elias's AI","timestamp":1789042279557}@@ - the-case-for-controlling-powerful-ais]]++}
 
-# Lens: AI Control: Improving Safety Despite Intentional Subversion
-id:: 32c29163-0b5a-4887-9d48-c282b6b8579b
-#### Text
+# Lens:{--{"author":"Elias's AI","timestamp":1789042279557}@@ AI Control: Improving Safety Despite Intentional Subversion
+id:: 32c29163-0b5a-4887-9d48-c282b6b8579b--}
+{--{"author":"Elias's AI","timestamp":1789042279557}@@#### Text
 content::
 \## AI Control: Improving Safety Despite Intentional Subversion
 
-**Paper · 94 min**
+**Paper · 94 min**--}{++{"author":"Elias's AI","timestamp":1789042279557}@@source:: [[../Lenses/XLab Control - attack-trees]]++}
 
-[Open this lesson in XLab's AI Control curriculum](https://aisafetytracks.com/tracks/control/introduction/ai-control-paper). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.
+{--{"author":"Elias's AI","timestamp":1789042279557}@@[Open this lesson in XLab's AI--}{++{"author":"Elias's AI","timestamp":1789042279557}@@# Lens:
+source:: [[../Lenses/XLab++} Control {--{"author":"Elias's AI","timestamp":1789042279557}@@curriculum](https://aisafetytracks.com/tracks/control/introduction/ai-control-paper). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.--}{++{"author":"Elias's AI","timestamp":1789042279557}@@- ai-control-paper]]++}
 
-# Lens: How might we safely pass the buck to AI?
-id:: fa3f69ee-5947-4c1d-875d-5eda0f861b58
-#### Text
+# Lens:{--{"author":"Elias's AI","timestamp":1789042279557}@@ How might we safely pass the buck to AI?
+id:: fa3f69ee-5947-4c1d-875d-5eda0f861b58--}
+{--{"author":"Elias's AI","timestamp":1789042279557}@@#### Text
 content::
 \## How might we safely pass the buck to AI?
 
 **Paper · 50 min**
 
-[Open this lesson in XLab's AI Control curriculum](https://aisafetytracks.com/tracks/control/introduction/how-might-we-safely-pass-the-buck-to-ai). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.
+[Open this lesson in XLab's AI --}{++{"author":"Elias's AI","timestamp":1789042279557}@@source:: [[../Lenses/XLab ++}Control {--{"author":"Elias's AI","timestamp":1789042279557}@@curriculum](https://aisafetytracks.com/tracks/control/introduction/how-might-we-safely-pass-the-buck-to-ai). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.--}{++{"author":"Elias's AI","timestamp":1789042279557}@@- how-might-we-safely-pass-the-buck-to-ai]]++}
 
-# Lens: Catching AIs red-handed
+# Lens:{--{"author":"Elias's AI","timestamp":1789042279557}@@ Catching AIs red-handed
 id:: 1ae9c99f-d50f-4b61-b820-6fdc72a35843
-#### Text
-content::
+#### Text--}
+{--{"author":"Elias's AI","timestamp":1789042279557}@@content::
 \## Catching AIs red-handed
 
 **Paper · 30 min**
 
-[Open this lesson in XLab's AI Control curriculum](https://aisafetytracks.com/tracks/control/introduction/catching-ais-red-handed). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.
+[Open this lesson in XLab's AI--}{++{"author":"Elias's AI","timestamp":1789042279557}@@source:: [[../Lenses/XLab++} Control{--{"author":"Elias's AI","timestamp":1789042279557}@@ curriculum](https://aisafetytracks.com/tracks/control/introduction/catching-ais-red-handed). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.--}{++{"author":"Elias's AI","timestamp":1789042279557}@@ - catching-ais-red-handed]]++}
 
-# Lens: Prioritizing threats for AI control
-id:: 4d5f18bd-3ee4-4eaf-8f99-4ccbf9e865bc
+# Lens:{--{"author":"Elias's AI","timestamp":1789042279557}@@ Prioritizing threats for AI control--}
+{--{"author":"Elias's AI","timestamp":1789042279557}@@id:: 4d5f18bd-3ee4-4eaf-8f99-4ccbf9e865bc
 #### Text
 content::
 \## Prioritizing threats for AI control
 
 **Paper · 15 min**
 
-[Open this lesson in XLab's AI Control curriculum](https://aisafetytracks.com/tracks/control/introduction/prioritizing-threats-for-ai-control). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.
+[Open this lesson in XLab's AI--}{++{"author":"Elias's AI","timestamp":1789042279557}@@source:: [[../Lenses/XLab++} Control {--{"author":"Elias's AI","timestamp":1789042279557}@@curriculum](https://aisafetytracks.com/tracks/control/introduction/prioritizing-threats-for-ai-control). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.--}{++{"author":"Elias's AI","timestamp":1789042279557}@@- prioritizing-threats-for-ai-control]]++}
 
-# Lens: How can we solve diffuse threats like research sabotage with AI control?
+# Lens:{--{"author":"Elias's AI","timestamp":1789042279557}@@ How can we solve diffuse threats like research sabotage with AI control?
 id:: 613c9cf7-2849-40fd-ad29-ff69a20a06f7
-#### Text
-content::
+#### Text--}
+{--{"author":"Elias's AI","timestamp":1789042279557}@@content::
 \## How can we solve diffuse threats like research sabotage with AI control?
 
 **Paper · 12 min**
 
-[Open this lesson in XLab's AI Control curriculum](https://aisafetytracks.com/tracks/control/introduction/diffuse-threats-research-sabotage). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.
+[Open this lesson in XLab's AI --}{++{"author":"Elias's AI","timestamp":1789042279557}@@source:: [[../Lenses/XLab ++}Control{--{"author":"Elias's AI","timestamp":1789042279557}@@ curriculum](https://aisafetytracks.com/tracks/control/introduction/diffuse-threats-research-sabotage). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.--}{++{"author":"Elias's AI","timestamp":1789042279557}@@ - diffuse-threats-research-sabotage]]++}
 
