@@ -118,10 +118,10 @@ UK AI Security Institute and Redwood Research. "ControlArena." *AI Security Inst
 *The Inspect-based library that separates settings from protocols, and the only environment listed here that covers diffuse threat models.*
 
 Greenblatt, Ryan, Buck Shlegeris, Kshitij Sachan, and Fabien Roger. "AI Control: Improving Safety Despite Intentional Subversion." *arXiv*, 12 Dec. 2023. [arxiv.org](https://arxiv.org/abs/2312.06942)
-*The paper the APPS backdoored-datasets setting comes from, and the source XLab's glossary gives for the control protocol, backdoor, and trusted monitoring definitions in the key-terms box.*
+*The paper the APPS backdoored-datasets setting comes from, and the source of the control protocol, backdoor, and trusted monitoring definitions in the key-terms box.*
 
 Greenblatt, Ryan, and Buck Shlegeris. "The case for ensuring that powerful AIs are controlled." *LessWrong*, 24 Jan. 2024. [lesswrong.com](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled)
-*The source XLab's glossary gives for the scheming and control evaluation definitions in the key-terms box.*
+*The source of the scheming and control evaluation definitions in the key-terms box.*
 
 XLab. "Environments." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/areas-of-control-work/environments)
 *The source lesson this page adapts.*

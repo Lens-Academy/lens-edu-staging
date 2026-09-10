@@ -98,7 +98,7 @@ Greenblatt, Ryan. "To be legible, evidence of misalignment probably has to be be
 *One of the two posts to read for the second free-response question, on what kind of evidence of misalignment can actually be made legible to outsiders.*
 
 Shlegeris, Buck. "Behavioral red-teaming is unlikely to produce clear, strong evidence that models aren't scheming." *Redwood Research blog*, 10 Oct. 2024. [blog.redwoodresearch.org](https://blog.redwoodresearch.org/p/behavioral-red-teaming-is-unlikely)
-*The second post XLab points learners at, arguing that behavioral red-teaming will not settle the question either way.*
+*The second of those posts, arguing that behavioral red-teaming will not settle the question either way.*
 
 XLab. "Catching AIs red-handed." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/introduction/catching-ais-red-handed)
 *The source lesson this page adapts, including its note on whether catching is an appropriate win condition.*
