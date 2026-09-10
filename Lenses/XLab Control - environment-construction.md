@@ -50,7 +50,7 @@ Hills, Josh, Ida Caspary, and Asa Cooper Stickland. "Distributed Attacks in Pers
 *The paper the talk previews, with the full Iterative VibeCoding setting, the monitor comparison, and the ensemble results.*
 
 UK AI Security Institute and Redwood Research. "ControlArena." *AI Security Institute*. [control-arena.aisi.org.uk](https://control-arena.aisi.org.uk/)
-*XLab's optional reading for this section: the Inspect-based library that control settings and protocols are built in.*
+*Optional reading for this section: the Inspect-based library that control settings and protocols are built in.*
 
 XLab. "Environment construction." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-4/environment-construction)
 *The source lesson this page adapts.*
