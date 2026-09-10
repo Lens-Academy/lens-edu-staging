@@ -254,5 +254,5 @@ Powell, Robert. "The Inefficient Use of Power: Costly Conflict with Complete Inf
 *Cited for the reduction of the private-information problem to a commitment problem.*
 
 XLab. "Making deals with early schemers." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-5/making-deals-with-early-schemers)
-*The source lesson this page adapts, including the placement and wording of the seventeen exercises, the two figures, and the three inserted sections.*
+*The source lesson this page adapts.*
 :::

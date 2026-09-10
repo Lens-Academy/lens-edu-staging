@@ -175,5 +175,5 @@ Sreevatsa, Ashwin. *legibility-ai-control*. GitHub. [github.com](https://github.
 *The paper's replication repository, holding the attack policy, benign policy and monitor prompts that Appendices D.3 and E.5 link to.*
 
 XLab. "Basic legibility protocols improve trusted monitoring (guided)." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-4/legibility-guided)
-*The source lesson this page adapts, including the five written checkpoints, the points in the paper where they interrupt it, and the four commentary blocks.*
+*The source lesson this page adapts.*
 :::

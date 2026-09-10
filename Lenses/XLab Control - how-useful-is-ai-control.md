@@ -259,5 +259,5 @@ Shlegeris, Buck. "Scalable oversight as a quantitative rather than qualitative p
 *The 80/20 heuristic behind the argument for spreading effort across additive fields rather than concentrating it.*
 
 XLab. "How useful is AI control?" *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/how-useful-is-ai-control/how-useful-is-ai-control)
-*The source lesson this page adapts, including Exercise 2.1 and its example responses.*
+*The source lesson this page adapts.*
 :::

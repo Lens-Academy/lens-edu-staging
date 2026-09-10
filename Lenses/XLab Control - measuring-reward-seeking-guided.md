@@ -152,5 +152,5 @@ Højmark, Axel, Jérémy Scheurer, Evgenia Nitishinskaya, Felix Hofstätter, Jas
 *The paper this lesson walks through: a contrastive synthetic-document-finetuning instrument for measuring how far a model's behaviour tracks what it believes its grader rewards, validated on model organisms and on externally trained reward hackers, and applied across an OpenAI o3 RL run.*
 
 XLab. "Measuring Reward-Seeking via Contrastive Belief Updates (guided)." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-5/measuring-reward-seeking-guided)
-*The source lesson this page adapts, including the five gate prompts and the two resolution notes reproduced above.*
+*The source lesson this page adapts.*
 :::

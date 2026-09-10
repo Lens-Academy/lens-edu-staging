@@ -66,5 +66,5 @@ Stastny, Julian, and Buck Shlegeris. "Misalignment and Strategic Underperformanc
 *The post this lesson assigns in full: it defines sandbagging and exploration hacking, and surveys the countermeasures available against them.*
 
 XLab. "Misalignment and strategic underperformance: an analysis of sandbagging and exploration hacking." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/low-stakes-control/misalignment-and-strategic-underperformance)
-*The source lesson this page adapts, including both of its Quick recall blocks.*
+*The source lesson this page adapts.*
 :::
