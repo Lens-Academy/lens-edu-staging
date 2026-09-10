@@ -46,5 +46,5 @@ Højmark, Axel, Jérémy Scheurer, Evgenia Nitishinskaya, Felix Hofstätter, Jas
 *The paper the talk presents, including the o3-run measurements and the model-organism validations. Read in full in the next lesson.*
 
 XLab. "Reward Seeker Empirics." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-5/reward-seeker-empirics)
-*The source lesson this page adapts. XLab's page is the embedded talk plus a note marking it optional, and sets no exercises.*
+*The source lesson this page adapts.*
 :::

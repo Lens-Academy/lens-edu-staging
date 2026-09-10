@@ -41,5 +41,5 @@ Pan, Alexa. "A taxonomy of barriers to trading with early misaligned AIs." *AI A
 *The source of the three-way barrier taxonomy and of the claim that the barriers combine roughly multiplicatively.*
 
 XLab. "Trading with AIs." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-5/trading-with-ais)
-*The source lesson this page adapts. XLab publishes it as an empty section divider, so the framing above is ours.*
+*The source lesson this page adapts. It is a section divider with no content of its own, so the framing above is ours.*
 :::
