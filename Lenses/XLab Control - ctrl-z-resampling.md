@@ -113,9 +113,13 @@ assessment-instructions:: The learner is being checked on section 3.2.2 of the C
 
 #### Text
 content::
-\## Section 4: Untrusted monitoring
+\## Untrusted monitoring
 
 The protocols so far all lean on $T$, which is weak. Section 4 asks what happens if the blue team uses a second copy of $U$ as the monitor, and what the two copies would have to do to collude. If you want to work that problem rather than read it, [[../Lenses/XLab Control - collusion-guided|How to prevent collusion in untrusted monitoring]] is the guided version.
+
+#### Article
+from:: "Blue team protocol: Untrusted monitoring The protocol generates actions with $U$"
+to:: "Table 2: Comparison at 95% usefulness. TM = Trusted Monitoring, UM = Untrusted Monitoring."
 
 #### Question: Open
 id:: 88bcdef3-95e1-4141-a3d0-2aa6a4ad4722
