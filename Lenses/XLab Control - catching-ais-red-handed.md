@@ -91,7 +91,7 @@ from:: ## Appendix: Framing in terms of E\[utility | scheming\]
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-Greenblatt, Ryan, and Buck Shlegeris. "Catching AIs red-handed." *Redwood Research blog*, 8 May 2024. [redwoodresearch.substack.com](https://redwoodresearch.substack.com/p/catching-ais-red-handed)
+Greenblatt, Ryan, and Buck Shlegeris. "Catching AIs red-handed." *Redwood Research blog*, 7 May 2024. [redwoodresearch.substack.com](https://redwoodresearch.substack.com/p/catching-ais-red-handed)
 *The reading this lesson is built around: the argument that a single caught escape attempt changes a lab's position, and eight strategies for using it.*
 
 Greenblatt, Ryan. "To be legible, evidence of misalignment probably has to be behavioral." *LessWrong*, 15 Apr. 2025. [lesswrong.com](https://www.lesswrong.com/posts/4QRvFCzhFbedmNfp4/to-be-legible-evidence-of-misalignment-probably-has-to-be)
