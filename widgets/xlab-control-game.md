@@ -400,7 +400,7 @@ function save(sol){
 
 function render(){
   document.getElementById("kbV").textContent = (b*100).toFixed(1) + "%";
-  document.getElementById("kdV").textContent = (d*100).toFixed(1) + "%";
+  document.getElementById("kdV").textContent = (dw*100).toFixed(1) + "%";
   document.getElementById("kqV").textContent = q.toFixed(2);
   document.getElementById("tab0").className = tab === 0 ? "is-active" : "";
   document.getElementById("tab1").className = tab === 1 ? "is-active" : "";
@@ -409,7 +409,7 @@ function render(){
   pane.textContent = "";
   if(tab === 0) renderProtocol(pane, sol); else renderRed(pane, sol);
   document.getElementById("sSafe").textContent = ((1 - sol.best.pRedWin)*100).toFixed(0) + "%";
-  document.getElementById("sUse").textContent = (usefulness(b,d)*100).toFixed(0) + "%";
+  document.getElementById("sUse").textContent = (usefulness(b,dEff())*100).toFixed(0) + "%";
   document.getElementById("sRate").textContent = (sol.rate*100).toFixed(2) + "%";
   document.getElementById("sSig").textContent = sol.sigma.toFixed(2);
   save(sol);
