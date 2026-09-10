@@ -35,7 +35,7 @@ Control's mechanism for reduction in x-risk is centered around the claims that
 - Given this catch-all, we would be able to prevent any scheming-induced catastrophic behaviors such as [exfiltrations](https://aligned.substack.com/p/self-exfiltration), [[../Lenses/XLab Control - rogue-deployments|rogue deployments]], [research sabotages](https://www.lesswrong.com/posts/LByP4qsF8a4g7Pz3p/research-sabotage-in-ml-codebases), etc.
 - Control aims to be this catch-all.
 
-:::callout {title="The terms XLab's glossary defines on this page" tone="neutral" collapse="closed"}
+:::callout {title="Terms used on this page" tone="neutral" collapse="closed"}
 **X-risk.** Existential risk: the risk of an outcome that permanently destroys humanity's potential, a few avenues being extinction or an irreversible loss of control over the future.
 
 **Transformatively useful AI (TUAI).** AI capable enough to significantly accelerate the pace of safety research.

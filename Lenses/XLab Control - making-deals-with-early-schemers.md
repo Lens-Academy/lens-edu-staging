@@ -25,7 +25,7 @@ to:: (A general solution might be to align the successor to be loyal to the earl
 #### Text
 content::
 :::callout {title="Figure: an early schemer's routes to influence" tone="neutral"}
-XLab renders this argument as a step-through diagram. The steps, in order:
+This argument runs as a step-through diagram. The steps, in order:
 
 1. **Obsoleted by default.** By default, an early schemer is unlikely to succeed in taking over the world, and it should expect to be obsoleted by more capable successors.
 2. **Two conditions for influence.** To retain expected influence over the future anyway, two things must both hold: some successor takes over the world (or keeps a takeover on track), and the successors are willing to further the early schemer's goals.
@@ -231,7 +231,7 @@ assessment-instructions:: The learner is proposing lab policy after reading Stas
 
 #### Text
 content::
-Finnveden's notes close with a rough estimate of what an ambitious version of this intervention might be worth. He offers the numbers as an exercise and a starting point rather than a result, and XLab reproduces them on that footing: the point of working through the chain is to see which assumptions the bottom line actually turns on.
+Finnveden's notes close with a rough estimate of what an ambitious version of this intervention might be worth. He offers the numbers as an exercise and a starting point rather than a result, and that is how to read them here: the point of working through the chain is to see which assumptions the bottom line actually turns on.
 
 #### Article
 source:: [[../articles/finnveden-notes-on-cooperating-with-unaligned-ais]]

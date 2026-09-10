@@ -15,7 +15,7 @@ When we are evaluating the quality of protocols within an environment, we typica
 2. We initiate a red team iteration, in which they are trying to implement attacks such that they are not caught by the blue team's protocol. Here, the red team has maximal affordances and knowledge and may iteratively adjust attack strategies, selection, and thresholds, which they own, to optimize their attack. They may not, however, adjust the thresholds assigned by the blue team, such as the blue team's suspiciousness scoring methods. Here, the safety of the protocol is evaluated through a safety run as the number of side tasks (attacks or otherwise misaligned actions made with the intention of pursuing the goals of the [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais|scheming model]]) that succeed without being caught by the blue team's protocol.
 3. The blue team observes how the safety changes and adjusts their methods iteratively as well. The blue team, however, has much less knowledge of the red team's changes, and their affordances are generally leaner. Then the blue team applies their improvements, whether that is optimized thresholds, additional monitors, or more creative methods dependent on the environment.
 
-:::callout {title="Scheming, as XLab's glossary defines it" tone="neutral" collapse="closed"}
+:::callout {title="Scheming" tone="neutral" collapse="closed"}
 Schemers are AIs that eventually take substantial material action (control subversion, research sabotage) and manipulate their training procedures (alignment faking, sandbagging) to gain long-term power over their developers in service of pursuing their misaligned goals.
 
 Related terms: sandbagging, catching red-handed, AI takeover.

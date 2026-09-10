@@ -17,7 +17,7 @@ The reading is Buck Shlegeris's post on what he calls the safety-usefulness trad
 
 Most of the post is about when the model applies. Shlegeris separates two ways of motivating it, a rushed reasonable developer who shares your beliefs but is forced to move fast, and limited political will, where the developer does not share your priorities but you have some influence, and argues the model is the right analysis for the first and for the versions of the second where the developer will concede to safety-motivated stakeholders up to some cost threshold, and a poor one where the developer is instead acting under pressure from third parties whose beliefs or priorities differ from yours.
 
-Two later lessons run on this vocabulary. [[../Lenses/XLab Control - determining-the-usefulness|Determining the usefulness]] takes the safety budget and political will from here and builds the module's regime model around them, and the module's closing exercise, [[../Lenses/XLab Control - running-the-model|Running the model]], has you spend a research team's effort using these two levers. Partway through the reading, XLab stops you for a short written exercise.
+Two later lessons run on this vocabulary. [[../Lenses/XLab Control - determining-the-usefulness|Determining the usefulness]] takes the safety budget and political will from here and builds the module's regime model around them, and the module's closing exercise, [[../Lenses/XLab Control - running-the-model|Running the model]], has you spend a research team's effort using these two levers. Partway through the reading, you will be stopped for a short written exercise.
 
 #### Article
 source:: [[../articles/buck-efficient-tradeoffs-and-the-safety-usefulness-tradeoff-model]]
