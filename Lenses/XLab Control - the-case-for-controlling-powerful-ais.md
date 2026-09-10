@@ -48,7 +48,7 @@ U writes production code and merges its own commits. No review of any kind.
 
 `U -> Deployed`
 
-The unacceptable outcome to prevent: malicious code is merged to production.
+**Unacceptable outcome:** Malicious code is merged to production.
 
 #### Question: Open
 id:: 6e78d227-1874-4059-b64b-1635c24bfa39
@@ -211,6 +211,9 @@ content:: Could such highly capable, transformatively useful models still remain
 placeholder:: Write your reasoning
 assessment-instructions:: This is an open question set before the control-window discussion, so the learner is speculating deliberately. What is being assessed is whether they see what turns on the answer. Model answer: if transformative usefulness implied uncontrollability, control would provide no useful period in which advanced models could be safely deployed, because the point at which models become useful enough to substantially reduce risk would also be the point at which control ceased to be viable. If transformative usefulness did not imply uncontrollability, there may be a control window: a period in which models are already transformatively useful, dangerous, but a carefully designed protocol could theoretically still retain the control property. Full credit for recognising that the whole value of control hinges on whether these two thresholds coincide, and for naming at least two candidate determining properties across the three categories the question offers (the models, the protocol, the environment). Reward specific candidates such as the capability gap to trusted labor, the affordances the model is given, monitoring cost, whether reasoning stays interpretable, or how fast the lab builds the next model. Four to eight sentences. Do not over-validate; avoid generic praise. If the learner says they do not understand, give one foothold: ask what would follow if the first useful model were also the first uncontrollable one. Grade only against what this lens has supplied.
 feedback-instructions:: In at most five sentences, name what the learner's reasoning got right, then give the framing they are about to read. If transformative usefulness implied uncontrollability, control would buy no usable period at all, because the moment models became useful enough to reduce risk would be the moment control stopped working. If it does not imply uncontrollability, there may be a control window: a stretch in which models are already transformatively useful and dangerous, yet a carefully designed protocol could still retain the control property. Tell them the next section argues for the second picture.
+
+#### Widget
+source:: [[../widgets/xlab-control-control-timeline]]
 #### End Callout
 
 #### Article
