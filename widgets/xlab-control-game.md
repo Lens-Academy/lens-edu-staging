@@ -384,9 +384,10 @@ function renderRed(pane, sol){
 
 function summary(sol){
   return "Control game widget. The learner has the audit budget at " + (b*100).toFixed(1) +
-    "%, the defer band at " + (d*100).toFixed(1) + "% and monitor quality at AUC " + q.toFixed(2) +
+    "%, the defer band " + (dw*100).toFixed(1) + "% wide (so the defer threshold sits at " +
+    (dEff()*100).toFixed(1) + "%) and monitor quality at AUC " + q.toFixed(2) +
     ". Against the red team's best response this gives safety " + ((1 - sol.best.pRedWin)*100).toFixed(0) +
-    "% and usefulness " + (usefulness(b,d)*100).toFixed(0) + "%. The red team's best response attacks on " +
+    "% and usefulness " + (usefulness(b,dEff())*100).toFixed(0) + "%. The red team's best response attacks on " +
     (sol.rate*100).toFixed(2) + "% of problems at obfuscation effort " + sol.sigma.toFixed(2) + ".";
 }
 
@@ -394,7 +395,7 @@ var saveTimer = null;
 function save(sol){
   if(!window.Lens) return;
   if(saveTimer) clearTimeout(saveTimer);
-  saveTimer = setTimeout(function(){ Lens.saveState({b:b, d:d, q:q, tab:tab}, summary(sol)); }, 500);
+  saveTimer = setTimeout(function(){ Lens.saveState({b:b, dw:dw, q:q, tab:tab}, summary(sol)); }, 500);
 }
 
 function render(){
