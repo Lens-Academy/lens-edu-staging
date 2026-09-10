@@ -1,7 +1,7 @@
 ---
 id: 'ebb967f7-2730-4e67-bde5-34fc018d17d3'
 title: Build the blue-team protocols
-summary_for_tutor: "A construction exercise for Table 2 of Greenblatt et al.'s AI control paper. Six tabs, one per blue-team protocol (don't use untrusted models, upfront auditing, trusted monitoring, defer to trusted 10%, untrusted monitoring, trusted editing 20%). For each the learner assembles a flow chart for an incoming problem: an ordered list of steps (U writes a solution, T rates suspicion, a second copy of U rates suspicion), then one branch (first 2% of problems, top 2%, top 2/10%, top 2/20%), then one terminal per branch arm (submit U's code, have T rewrite, have T edit U's code, audit with H). Check reveals which slots are wrong. The point is that every protocol in the paper is the same three-part shape and only the routing rule and the fallback differ."
+summary_for_tutor: "A construction exercise for Table 2 of Greenblatt et al.'s AI control paper. Six tabs, one per blue-team protocol (don't use untrusted models, upfront auditing, trusted monitoring, defer to trusted 10%, untrusted monitoring, trusted editing 20%). For each the learner assembles a flow chart for an incoming problem: an ordered list of steps (U writes a solution, T rates suspicion, a second copy of U rates suspicion), then one branch (first 2% of problems, top 2%, top 2/10%, top 2/20%), then one terminal per branch arm (submit U's code, have T rewrite, have T edit U's code, audit with H). Check reveals which slots are wrong, and a correct protocol reveals a one-sentence explanation of what that row of Table 2 buys. The point is that every protocol in the paper is the same three-part shape and only the routing rule and the fallback differ."
 height: auto
 tags: []
 ---
@@ -52,6 +52,7 @@ button.is-active{border-color:var(--text);box-shadow:0 0 0 1px var(--text)}
 .verdict{font-size:13px}
 .verdict.ok{color:var(--ok)}
 .verdict.bad{color:var(--bad)}
+.explain{font-size:13px;color:var(--text);margin-top:12px;border-left:2px solid var(--ok);padding-left:10px}
 .note{font-size:13px;color:var(--muted);margin-top:10px}
 @media (max-width:420px){ .arm .label{min-width:0;width:100%} }
 </style>
