@@ -78,7 +78,8 @@ tags: [wip]
   .sources a:hover { text-decoration: none; }
   .credit { font-size: 11px; color: var(--muted); margin: 10px 0 0; }
   .credit a { color: inherit; }
-  .foot { display: flex; justify-content: flex-end; margin-top: 14px; }
+  .sources-row { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px 24px; flex-wrap: wrap; }
+  .sources-row > div { min-width: 0; }
   .close { font: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; color: var(--muted); padding: 6px 12px; cursor: pointer; }
   .close:hover { background: var(--surface); color: var(--text); }
   .close:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -291,29 +292,31 @@ tags: [wip]
       box.appendChild(sec);
     });
     var src = el("div", "sources");
-    src.appendChild(el("p", "eyebrow", "Sources"));
+    var row = el("div", "sources-row");
+    var left = el("div");
+    left.appendChild(el("p", "eyebrow", "Sources"));
     var list = el("div", "sources-list");
     f.sources.forEach(function (s) {
       var a = el("a", null, s.label);
       a.href = s.href; a.target = "_blank"; a.rel = "noopener";
       list.appendChild(a);
     });
-    src.appendChild(list);
+    left.appendChild(list);
     if (f.photo) {
       var credit = el("p", "credit", "Portrait: ");
       var ca = el("a", null, "Wikimedia Commons");
       ca.href = f.photo.split("?")[0]; ca.target = "_blank"; ca.rel = "noopener";
       credit.appendChild(ca);
       credit.appendChild(document.createTextNode(" (CC BY / CC BY-SA)"));
-      src.appendChild(credit);
+      left.appendChild(credit);
     }
-    box.appendChild(src);
-    var foot = el("div", "foot");
+    row.appendChild(left);
     var close = el("button", "close", "Close profile"); close.type = "button";
     close.setAttribute("aria-label", "Close profile: " + f.name);
     close.addEventListener("click", function () { closeProfile(f.key, true); });
-    foot.appendChild(close);
-    box.appendChild(foot);
+    row.appendChild(close);
+    src.appendChild(row);
+    box.appendChild(src);
     return box;
   }
 
