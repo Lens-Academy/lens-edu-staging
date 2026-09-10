@@ -11,6 +11,20 @@ tags: []
 content::
 *This article was made with portions of [An overview of control measures](https://blog.redwoodresearch.org/p/an-overview-of-control-measures) from Ryan Greenblatt (Redwood Research) and the [GDM AI Control Roadmap](https://arxiv.org/abs/2607.13087) from Mary Phuong et al. at Google DeepMind.*
 
+:::callout {title="Key terms used on this page" tone="neutral" collapse="closed"}
+**Scheming.** Schemers are AIs that eventually take substantial material action (control subversion, research sabotage) and manipulate their training procedures (alignment faking, sandbagging) to gain long-term power over their developers in service of pursuing their misaligned goals. ([The case for ensuring that powerful AIs are controlled](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled))
+
+**Trusted monitoring.** A basic control protocol: the untrusted model does the work while a weaker trusted model rates how suspicious each output looks, letting humans audit the most suspicious slice. ([AI Control: Improving Safety Despite Intentional Subversion](https://arxiv.org/abs/2312.06942))
+
+**Trusted model.** A weaker model trusted not to scheme that's used to monitor, edit, or stand in for the untrusted model's outputs.
+
+**Untrusted model.** A model powerful enough that scheming cannot be ruled out while having little evidence of aligned behavior.
+
+**Sandbagging.** A misaligned model intentionally doing worse on a task than it could. Scenarios include slowing down safety research or hiding dangerous capabilities from evaluations. ([Misalignment and strategic underperformance](https://blog.redwoodresearch.org/p/misalignment-and-strategic-underperformance))
+
+**Situational awareness.** A model's knowledge of what it is and what situation it is in, for instance whether it is being evaluated or it is actually deployed. Hidden situational awareness can lead to behaviors like sandbagging.
+:::
+
 One of the scarier risk vectors for model deployment is that models might be scheming against us (pursuing goals contrary to ours), leading them to suppress or change behaviors during evaluation and only expose any misalignment during deployment. This makes confirming that a model is misaligned, i.e. model incrimination, much harder during both evaluation and deployment.
 
 Fortunately, we have many unique affordances that enable us to incriminate misaligned models by leveraging our fine-grained access to model reasoning and internals.
@@ -154,6 +168,15 @@ Anthropic. *Claude Sonnet 4.5 System Card*, 2025. [anthropic.com](https://www-cd
 
 Arnav, Benjamin, Pablo Bernabeu-Pérez, Nathan Helm-Burger, et al. "CoT Red-Handed: Stress Testing Chain-of-Thought Monitoring." *arXiv*, May 2025. [arxiv.org](https://arxiv.org/abs/2505.23575)
 *Evidence that a model can undermine the monitor reading its chain of thought, which is the unilateral-collusion case this lens warns about.*
+
+Greenblatt, Ryan, Buck Shlegeris, Kshitij Sachan, and Fabien Roger. "AI Control: Improving Safety Despite Intentional Subversion." *arXiv*, 12 Dec. 2023. [arxiv.org](https://arxiv.org/abs/2312.06942)
+*The source XLab's glossary gives for the trusted monitoring definition in the key-terms box.*
+
+Greenblatt, Ryan, and Buck Shlegeris. "The case for ensuring that powerful AIs are controlled." *LessWrong*, 24 Jan. 2024. [lesswrong.com](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled)
+*The source XLab's glossary gives for the scheming definition in the key-terms box.*
+
+Stastny, Julian. "Misalignment and Strategic Underperformance: An Analysis of Sandbagging and Exploration Hacking." *Redwood Research blog*, 8 May 2025. [blog.redwoodresearch.org](https://blog.redwoodresearch.org/p/misalignment-and-strategic-underperformance)
+*The source XLab's glossary gives for the sandbagging definition in the key-terms box.*
 
 XLab. "Detection Mitigations." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/areas-of-control-work/detection-mitigations)
 *The source lesson this page adapts.*

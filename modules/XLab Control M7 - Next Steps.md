@@ -8,19 +8,21 @@ tags:
 # Submodule: Module 7
 # Lens: Module 7 overview
 id:: 5226e2bd-0329-4d95-a4c3-62cd78493cfa
-#### Text
+{++{"author":"Elias's AI","timestamp":1789039565325}@@reading_minutes:: 2
+tutor_minutes:: 0
+++}#### Text
 content::
 \## Next Steps
 
 Research programs, organizations, and opportunity boards for continuing in AI control.
 
-# Lens: Next Steps
-id:: 948508a2-213c-473c-9da6-a6374723f69f
+# Lens:{--{"author":"Elias's AI","timestamp":1789039565325}@@ Next Steps--}
+{--{"author":"Elias's AI","timestamp":1789039565325}@@id:: 948508a2-213c-473c-9da6-a6374723f69f
 #### Text
 content::
 \## Next Steps
 
 **Lesson**
 
-[Open this lesson in XLab's AI Control curriculum](https://aisafetytracks.com/tracks/control/next-steps/whats-next). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.
+[Open this lesson in XLab's AI --}{++{"author":"Elias's AI","timestamp":1789039565325}@@source:: [[../Lenses/XLab ++}Control {--{"author":"Elias's AI","timestamp":1789039565325}@@curriculum](https://aisafetytracks.com/tracks/control/next-steps/whats-next). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.--}{++{"author":"Elias's AI","timestamp":1789039565325}@@- whats-next]]++}
 
