@@ -9,7 +9,7 @@ duration_minutes: 90
 
 #### Text
 content::
-This page collects every interactive built for Compute Verification Parts 1 and 2 from XLab's Verification track and from the readings the course embeds. Nothing here has been placed in the course yet. Each entry says which lens it belongs to, where in that lens it goes, and what it would replace, so placement is a copy-paste decision per entry. Entries marked native say that our own question segments already do the job, with the proposed segment text in a collapsed note. Entries are ordered by module and lens. Every widget below is live: try it.
+This page collects every interactive built for Compute Verification Parts 1 and 2 from XLab's Verification track and from the readings the course embeds. Entries leave this page once they are placed in the course; placed so far: The Verification Landscape, The Verification Problem. Each entry says which lens it belongs to, where in that lens it goes, and what it would replace, so placement is a copy-paste decision per entry. Entries marked native say that our own question segments already do the job, with the proposed segment text in a collapsed note. Entries are ordered by module and lens. Every widget below is live: try it.
 
 #### Text
 content::
@@ -23,35 +23,9 @@ content::
 
 #### Text
 content::
-\#### The Verification Problem (verification-problem)
-
-**Decision: widget.** Already ported (LENS/widgets/verification-problem.md); this note covers placement and a data-drift check only, no rebuild.
-
-**Target lens:** [[../Lenses/XLab Verification - v-introduction]]
-
-**Where it goes:** inside the Text segment "Preventing ASI via International and Verifiable Agreements", right after the paragraph ending "But in this state of competition and distrust, how do rivals enforce such agreements?"; split the Text segment there and insert the Widget segment before the Text segment beginning "In short, verification is the set of mechanisms that makes inter-party agreements credible".
-
-**What it replaces:** the four open callouts "Trust?", "Punish violations?", "Mutual transparency?", "Neutral, privacy-preserving verification mechanisms?" that follow that paragraph. They reproduce the widget's four option details word for word (the last one prefixed with "It holds."), so they should go entirely; the widget's own outcome labels ("It collapses", "It arrives too late", "It backfires", "It holds") carry the verdicts.
-
-**In XLab:** <VerificationExercise id="verification-problem" /> in introduction.mdx, core, not inside a Fold
-
-**Learner time:** 5 minutes
-
-Reads the framing ("Two rivals. One treaty. Zero trust.") and the prompt, then tests each of the four answers by clicking its card. Each opens a verdict panel (failure mode or the answer that holds) with XLab's explanation; inspected cards keep an "Inspected" mark. Nothing gates completion.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-- Diffed the widget's OPTIONS array and header strings against XLab `src/lib/verification/data/verification-problem.ts` at commit 1e8b150 (2026-08-20), the latest change to that file, with a script (OUT/qa/diff_ported.mjs). All four options (label, question, summary, outcome, holds, detail) are identical. Eyebrow, title and lede are identical. The prompt's em dash (between "obligations" and "and how does it know") is rendered as a comma in Lens, the one permitted rewrite. No drift; no corrected copy written.
-- Observation, not drift: the ported widget makes no Lens SDK calls (no saveState, complete or restore), so the tutor sees only `summary_for_tutor` and a learner's inspected marks are lost on reload. XLab's component also has no completion condition, so this mirrors XLab; adding saveState with "inspected: ..." would be a small improvement if wanted.
-:::
-
-#### Widget
-source:: [[../widgets/verification-problem]]
-
-#### Text
-content::
 \#### The Types of AI (types-of-ai)
 
-**Decision: widget.** Already ported (LENS/widgets/types-of-ai.md); this note covers placement and a data-drift check only, no rebuild.
+**Decision: widget.** Ported earlier; rebuilt on 2026-09-10 after review (full-width diagram with zoom and pan instead of sideways scrolling, focus ring in the course palette, region buttons grouped under a heading).
 
 **Target lens:** [[../Lenses/XLab Verification - v-introduction]]
 
@@ -63,11 +37,13 @@ content::
 
 **Learner time:** 5 minutes
 
-Taps rings of a concentric diagram (AI, Narrow AI, Machine Learning, Deep Learning, Generative AI, Large Language Model, Transformer LLMs) or the example systems placed in each ring (Roomba, Deep Blue, FaceID, Midjourney, Mamba, Claude, ...) to read what each is and why it sits at that ring and not the next one in. Two buttons in the side panel explain the grey margin outside the rings (theoretical-only and possible-but-absurd non-narrow AI). Nothing gates completion.
+Taps rings of a concentric diagram (AI, Narrow AI, Machine Learning, Deep Learning, Generative AI, Large Language Model, Transformer LLMs) or the example systems placed in each ring (Roomba, Deep Blue, FaceID, Midjourney, Mamba, Claude, ...) to read what each is and why it sits at that ring and not the next one in. Two buttons in the panel, under the heading "Beyond the red rings", explain the grey margin outside the rings: XLab's two notes on non-narrow AI (theoretical only; possible but absurd). Zoom in with the + and - buttons (four levels, as in XLab) and drag or arrow-key the diagram to move around; Reset view returns to the whole diagram. Below 1024 px the panel sits under the diagram and scrolls into view on the first selection. Nothing gates completion.
 
 :::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
 - Diffed AI_LEVELS, AI_REGIONS and the prompt string against XLab `src/lib/verification/data/types-of-ai.ts` at commit b68d6cd (2026-08-25), the latest change to that file, with a script (OUT/qa/diff_ported.mjs). Every level name, blurb, example name, "what" and "why" string is identical apart from nine em dashes that Lens renders as colons, commas or periods (the one permitted rewrite). AI_REGIONS and the prompt are identical. The panel strings from the component ("Beyond real AI", "Level", "Why here", "Back to level", "AI that is not narrow, out in the grey margin. Tap to read.", "Tap a system in this ring to see why it sits here, not one ring deeper.") match XLab's component at b68d6cd. No drift; no corrected copy written.
-- Observation, not drift: XLab's component (b68d6cd) also has zoom in / zoom out / reset buttons and drag-to-pan over the diagram, which the Lens port lacks; on a phone the innermost rings' example pills are small without it. The Lens port also makes no Lens SDK calls (no saveState or complete), matching XLab, which has no completion condition for this widget.
+- Review fixes (2026-09-10): the diagram previously had a 640 px minimum width and a two-column layout from 860 px, so at typical page widths it scrolled sideways; now it fills the column and the side panel only appears from 1024 px (XLab's breakpoint), with XLab's zoom in / zoom out / reset buttons and drag-to-pan added (same 1 to 4 range, 0.6 steps, zoom about the centre). Clicking a ring or system showed the browser's blue focus outline on the SVG element; the outline is now suppressed for pointer input and keyboard users get a dashed ring in the course amber. The two region buttons now sit under an eyebrow "Beyond the red rings" (added text; XLab's own labels and bodies are unchanged).
+- On the two regions: they are XLab's. The data file (AI_REGIONS in types-of-ai.ts, present at HEAD 93847c7f) defines exactly "Theoretical only" and "Possible but absurd", and XLab's component renders them as two buttons in the panel's resting state. They annotate the grey hatched margin, the part of the AI disk outside Narrow AI, which is where general AI (AGI, ASI) would sit. XLab's first version (commit 612adc59, 2026-08-08) said so explicitly ("the outer ring is where AGI and ASI would sit"); the later copy edit (1e8b150) cut that phrase, which is why the two buttons read as orphaned. Restoring a phrase like XLab's original would help; that is a wording change to XLab's data, so it is left for the editors.
+- The port makes no Lens SDK calls (no saveState or complete), matching XLab, which has no completion condition for this widget.
 :::
 
 #### Widget
@@ -77,7 +53,7 @@ source:: [[../widgets/types-of-ai]]
 content::
 \#### Why Are We Concerned About Superintelligence? (what-do-they-say)
 
-**Decision: widget.** Six profile cards with an open-one-at-a-time detail panel, read-tracking and a tutor-visible record of which profiles were opened beat six long collapsed callouts; the grid of teasers lets the learner compare the six positions before reading any of them.
+**Decision: widget.** Six profile cards with portraits that expand in place one at a time, read-tracking and a tutor-visible record of which profiles were opened beat six long collapsed callouts; the grid of teasers lets the learner compare the six positions before reading any of them.
 
 **Target lens:** [[../Lenses/XLab Verification - v-introduction]]
 
@@ -89,13 +65,13 @@ content::
 
 **Learner time:** 8 minutes
 
-Sees a two-column grid of six cards (initials avatar, name, role, one-line teaser, "View profile"). Opening a card shows the profile below the grid: Definition (or The term / Background), Risk statements, a highlighted "Relevance to this module" paragraph, and source links that open in a new tab. Opened cards get a "Read" mark and the counter climbs to "6 of 6 profiles read"; the widget saves which profiles were read and reports completion when all six have been opened.
+Sees a two-column grid of six cards (portrait, name, role, one-line teaser, "View profile"). Opening a card expands it in place, spanning both columns, to show the profile: Definition (or The term / Background), Risk statements, a highlighted "Relevance to this module" paragraph, and source links that open in a new tab. Opened cards get a "Read" mark and the counter climbs to "6 of 6 profiles read"; the widget saves which profiles were read and reports completion when all six have been opened.
 
 :::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
 - Data source: XLab `src/lib/verification/data/what-do-they-say.ts` at commit 1e8b150 (2026-08-20); component `src/components/verification/widgets/what-do-they-say.tsx` at 05e7925. All names, roles, initials, teasers, section labels, paragraphs and source labels/URLs are verbatim. The `<q>` and `<em>` markup inside XLab's paragraph HTML is rebuilt as elements (no innerHTML); `<q>` renders with the browser's quotation marks, matching the quoted phrases in the Lens callouts.
-- Photos dropped, initials avatars used (XLab's `initials` field) because XLab serves the portraits from `public/verification/assets/what-do-they-say/`, which cannot ship to Lens. The photo credit line ("Portrait: Wikimedia Commons") is dropped with them. XLab's `photoSource` fields point at Wikimedia `Special:FilePath` URLs for five of the six (Leike has none); hotlinking those would restore the portraits if wanted, at the cost of a Wikimedia dependency.
+- Portraits (added 2026-09-10 on review): the five Wikimedia Commons files XLab itself uses (its `photoSource` fields), hotlinked at 256 px through `Special:FilePath`, with XLab's credit line "Portrait: Wikimedia Commons (CC BY / CC BY-SA)" linking to the file page inside each profile. Jan Leike has no portrait in XLab or on Commons, so his card keeps the initials avatar (XLab's `initials` field). If a portrait fails to load the card falls back to initials. The dependency on Wikimedia hosting is the trade-off; copying the files into Lens attachments would need an absolute URL the widget can reach.
 - Cross-references adapted (the only deliberate text change): XLab's "taken up in 0.2.3 (compute vs. capability)" and "(0.2.3)" refer to XLab's own lesson numbering, which does not exist on Lens. The widget uses the wording the Lens callouts already use, "1.0.1 Drawing the Line: Compute vs. Capability", as plain text (a widget cannot carry a wikilink). Likewise Leike's "the first policy bucket in 0.2.2, voluntary self-governance" is shortened to "voluntary self-governance", again matching the Lens callout. Revert to XLab's wording by editing three strings if verbatim is preferred.
-- Modal dialog replaced by an inline panel below the grid (a modal inside the auto-height frame would not size correctly). Close button returns to the grid.
+- XLab's modal dialog is replaced by in-place expansion (review request 2026-09-10): the opened card grows to span the grid and shows the full profile under its header; "View profile" becomes "Close profile", and a Close button at the foot returns focus to the card header. A modal inside the auto-height frame would not size correctly, and the earlier port's panel below the grid was judged worse than expanding the card itself.
 - Completion: XLab's component has no onComplete; the widget calls Lens.complete() once all six profiles have been opened, so `required:: true` is usable on the segment.
 - Eyebrow line "Six leaders, in their own words" and the h1 (XLab's registry title for this exercise) are the only strings not in the data file.
 :::
@@ -136,35 +112,6 @@ source:: [[../widgets/short-history]]
 
 #### Text
 content::
-\#### The Verification Landscape (verification-landscape)
-
-**Decision: widget.** Already ported (LENS/widgets/verification-landscape.md); this note covers placement and a data-drift check only, no rebuild.
-
-**Target lens:** [[../Lenses/XLab Verification - v-introduction]]
-
-**Where it goes:** inside the last Text segment, after the paragraph "Verification for AI is a young field, and it is not spread evenly. Some corners are crowded with research; others are nearly empty. This map lays the work out along two axes ..." (XLab's lead paragraph); split the segment there so the Widget segment sits before the closing paragraphs "One pattern jumps out fast. The field's center of gravity is the think-tank and nonprofit column ...", "That unevenness is the opportunity ..." and the italic snapshot disclaimer, which are XLab's foot1, foot2 and disclaim copy and are not inside the widget, so they stay as prose after it.
-
-**What it replaces:** the activity-level table (6 rows by 4 columns of 0 to 3), the "Rows (kind of verification)" and "Columns (who does the work)" definition paragraphs, and the six collapsed callouts (one per row, four bullets each). All of it is the widget's data rendered as prose, so it should go entirely. Drop the sentence "Activity levels: 0 = no activity yet, 1 = emerging, 2 = active, 3 = concentrated." from the lead paragraph as well, or keep it: the widget's legend says "Less activity / More activity" and each square carries its number.
-
-**In XLab:** <VerificationExercise id="verification-landscape" /> in introduction.mdx, core, not inside a Fold
-
-**Learner time:** 10 minutes
-
-Reads a heat-map grid of six kinds of verification against four kinds of actor. Tapping a square opens a panel with the activity level, a state-of-play sentence, the named efforts (RAND, CNAS, FlexHEG, METR, Apollo, US BIS, ...) and a "How it connects" line; tapping a row or column label explains that axis. The empty government square for cryptographic methods is flagged "Open gap". Nothing gates completion.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-- Diffed ROWS, COLS, HEATWORD and all 24 CELLS (level, state, efforts, connect, gap) against XLab `src/lib/verification/data/verification-landscape.ts`, and the in-square organisation marks against `src/lib/verification/data/landscape-logos.ts` (ORG_MARKS token list and CELL_ORGS extras), both at commit 1e8b150 (2026-08-20), the latest change to those files, with a script (OUT/qa/diff_ported.mjs).
-- One text difference, intentional and not drift: inst × industry "How it connects" reads "the “self-governance” end of Module 0's policy spectrum" in XLab and "the “self-governance” end of the policy spectrum" in Lens. "Module 0" is XLab's lesson numbering, which does not exist on Lens; the rest of the sentence is verbatim. Everything else, including every activity level and every effort title and body, is identical. The legend, prompt, axis tags and "How it connects" strings match LANDSCAPE_COPY. No corrected copy written.
-- Organisation marks: the 20 token-matched marks and the seven per-cell extras (COSIC, Waterloo CACR; EZKL, Modulus Labs, Giza; FAS, Epoch AI; IEA; CSER; FLI, Chatham House, Simon Inst.; Stanford CRFM, MLCommons) are the same set as XLab's. Two cosmetic differences: XLab orders marks by its master list (so monitor × think tanks shows "Epoch AI, FAS", Lens shows "FAS, Epoch AI"), and XLab's square aria-labels use long names ("RAND Corporation") where Lens uses the short marks. XLab's organisation logo icons (`/verification/logos/icons/`) are not used by either version's grid, so nothing is lost there.
-- XLab's LANDSCAPE_COPY eyebrow ("Module 0 · Section 0.1 · Field map"), title, kicker, lead1, lead2, foot1, foot2 and disclaim are page prose in XLab's component too; the Lens page carries lead1, foot1, foot2 and disclaim as prose and drops the module eyebrow. lead2 ("Tap any square to see who is working there ... Reading the heat is the point: notice which corner is dark, and which is blank.") appears nowhere on Lens; consider adding it as the last sentence of the lead paragraph above the widget.
-- Observation, not drift: the ported widget makes no Lens SDK calls (no saveState or complete); XLab's component has no completion condition either.
-:::
-
-#### Widget
-source:: [[../widgets/verification-landscape]]
-
-#### Text
-content::
 \## Part 1 · Week 1: We need more theories of change
 
 Module file: [[../modules/XLab Verification P1 W1 Theories of change]]
@@ -189,21 +136,32 @@ content::
 
 **Learner time:** 15 minutes (optional; needs a quick look at the organisation's public material)
 
-Names an AI safety organisation, then fills eight boxes one at a time in a guided editor (Inputs: what do we need; Outputs: what do we do, who do we reach; Outcome: short-term, intermediate, long-term; Assumptions; External factors). Each entry appears in the canvas grid above the editor, and any cell can be clicked to jump back to it. When all eight boxes have text the widget calls `Lens.complete()` and offers "Score my canvas" (`Lens.submit`), "Get feedback on the score" and "Ask the tutor to review it" (`Lens.promptTutor`). Entries persist through `Lens.saveState`; standalone, nothing is persisted (no localStorage fallback in the existing demo).
+Names an AI safety organisation, then works down a vertical chain of five bands, filling eight boxes in place (Inputs: what do we need; Outputs: what do we do, who do we reach; Outcome: short-term, intermediate, long-term; then Assumptions and External factors under the chain). A Back / Next box stepper walks through the boxes one at a time and any box can be clicked to jump to it; the active box is ringed and a filled box is marked "✓ filled". When the organisation and all eight boxes have text the widget calls `Lens.complete()` and offers "Score my canvas" (`Lens.submit`), "Get feedback on the score" and "Ask the tutor to review it" (`Lens.promptTutor`). Entries persist through `Lens.saveState`, or through `localStorage` when there is no `window.Lens`.
 
 :::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
 Source: XLab has no `src/lib/verification/data/theories-of-change.ts`; the curriculum (the eight boxes with band, label and cue) is inlined in `src/components/verification/widgets/theories-of-change.tsx` at HEAD (last touched in commit cbb8162). The same eight labels and cues appear as the `<table>` in `src/content/lessons/verification/theories-of-change.mdx` lines 34 to 68. The Lens widget's BOXES array matches the component word for word (band, label, cue, ids).
 
-Change made in this pass: line 188, the empty-cell placeholder (a single em dash character) is now `"(empty)"` (same word the widget's own tutor summary uses for an unfilled box). Nothing else was changed, including the frontmatter, which has no `height:` field (the platform default is `auto`; add `height: auto` if the orchestrator wants the frontmatter to match the brief's shape).
+Change made in the 2026-09-08 pass: line 188, the empty-cell placeholder (a single em dash character) is now `"(empty)"` (same word the widget's own tutor summary uses for an unfilled box). Nothing else was changed, including the frontmatter, which has no `height:` field (the platform default is `auto`; add `height: auto` if the orchestrator wants the frontmatter to match the brief's shape).
 
-Drift between the Lens widget and XLab's component (all pre-existing, not fixed here because the assignment says do not rebuild):
+Review fixes (2026-09-10), after Elias reported that the widget reads as "multiple headings mixed" and stacks badly in the roughly 880px Lens content column:
+- Layout rebuilt from a six-column canvas grid plus a separate editor panel into a single vertical chain. One full-width band per stage in causal order (Inputs, Outputs, Outcome, then Assumptions and External factors), each band with exactly one `<h2>` (the XLab band name) and its boxes stacked full width underneath. Nothing is side by side at any width; the old `@media (max-width: 600px)` reflow is gone because there are no columns left to reflow.
+- The duplicate-heading bug is fixed at the source. Before, every box label appeared twice (once as a canvas cell label, once as the editor `<h2>`), the band strip and the cell under it both read "Assumptions" and both read "External factors", and the Outcome band capped only "Short-term" while "Intermediate" and "Long-term" dropped to an orphan row beside an empty hole. Now each of the eight boxes is edited in place in its own band, and a box label is suppressed when it repeats the band heading or the band's guiding question, so "Assumptions", "External factors" and "What do we need?" each appear once.
+- Guiding question as a subheading: Inputs shows XLab's "What do we need?" under the band heading. Outputs and Outcome have one guiding question per box, not per stage, so those stay as box labels.
+- Added, verbatim from `theories-of-change.mdx` (the paragraph the widget sits under, "A common failure mode is conflating outputs with outcomes"): a one-line definition under the Outputs heading ("Outputs are tangible products you produced: a paper, a benchmark, an eval, a workshop, a policy memo.") and under the Outcome heading ("Outcomes are what changed because of those outputs: a lab altered a training procedure, a policymaker incorporated a threat model into a draft bill, a researcher updated their estimates."). These are the only strings added; the reviewer asked "what is actually outputs?" and this is XLab's own answer. No box label, cue, band name or number was changed.
+- Connectors: a downward amber arrow (inline SVG, `aria-hidden`) between Inputs, Outputs and Outcome, which are the causal chain. A dashed rule and a dashed band border before Assumptions and External factors, because those are conditions on the chain, not the next link in it. XLab's table puts them in the same subordinate position.
+- Interaction preserved: the Back / Next box stepper (now in a toolbar above the chain, with XLab's "N of 8 boxes filled" counter), click a box to jump to it, `aria-current="step"` on the active box, and a filled box showing a "✓ filled" marker so state is legible without colour. Restored XLab's textarea placeholder "Fill in this box, then move to the next one.", which the old build dropped. Lens state logic is unchanged: `onState` hydrate, `saveState` on every keystroke, `complete` when the organisation and all eight boxes are filled, `submit` / `requestFeedback` / `promptTutor` in the done panel, `localStorage` fallback when there is no `window.Lens` (verified: reload restored the organisation name and the filled count).
+- Frontmatter: `id` unchanged (`c3f8b1e2-7d94-4a6b-9e15-2b0c4d8f6a71`, so saved learner state survives); `height: auto` added to match the brief's shape; `summary_for_tutor` rewritten to describe the chain layout.
+- The em dash placeholder fix from the previous pass is moot: with in-place text areas there are no empty cells to label, so "(empty)" now appears only in the tutor summary string. The one remaining ellipsis character in "Scoring your canvas..." was replaced with three periods.
+- Cost: the widget is now about 2130px tall in the frame at 880px wide (it was about 800px). That is inherent to a vertical layout with eight text areas and is fine under `height: auto`, but it is a real change in page weight for the lesson.
+
+Drift between the Lens widget and XLab's component (pre-existing, not fixed in this pass):
 - Framing copy is Lens-authored: eyebrow "Exercise", heading "Build a theory of change", lede "Pick an organisation, real or imagined, that works on AI verification..." XLab's Fold text says "Pick your favorite AI safety organization and fill out the below table based on publicly available information". The Lens lede narrows the choice to AI verification organisations and drops the "publicly available information" instruction. Suggest aligning the lede with XLab's sentence.
 - Organisation field: Lens label "Organisation", placeholder "e.g. a treaty verification body, a chip-tracking startup, a research lab". XLab: label "Your organization", placeholder "Epoch, MIRI, The Midas Project, …".
-- Editor: XLab shows an eyebrow "Box N of 8 · Band"; Lens shows the band name only. XLab's textarea placeholder "Fill in this box, then move to the next one." is absent in Lens. XLab's buttons are "Back" / "Next" (Next disabled on the last box); Lens has "Back" / "Next box", which becomes "Done" on the last box.
-- Grid layout: XLab is one row of six columns (Inputs 1, Outputs 2, Outcome 3) with a 640px min width that scrolls; Lens uses a two-row arrangement (Inputs 2, Outputs 2, Outcome 2, then Intermediate and Long-term under Short-term) that reflows to two columns at 600px. Same cells, different shape.
+- Editor: XLab shows an eyebrow "Box N of 8 · Band" above a single shared textarea; Lens has no separate editor panel any more, so there is no per-step eyebrow. XLab's buttons are "Back" / "Next" (Next disabled on the last box); Lens has "Back" / "Next box", which becomes "Done" on the last box and stays enabled.
+- Layout: XLab is one row of six columns (Inputs 1, Outputs 2, Outcome 3) with a 640px min width that scrolls sideways; Lens is now a vertical chain of five full-width bands (see Review fixes above). Same eight cells, same bands, same causal order, different shape. This is a deliberate divergence: XLab renders in a wider column than the Lens content column, and the horizontal table is what the reviewer rejected.
 - Completion: XLab's component ignores `onComplete` (never completes). Lens calls `Lens.complete()` when all eight boxes and the organisation name are filled. This is a Lens addition, and a reasonable one.
 - Scoring and tutor: XLab has no scoring, feedback or discuss moment. The Lens "Score my canvas" (`Lens.submit`), "Get feedback on the score" and "Ask the tutor to review it" (`Lens.promptTutor`) are Lens demo additions. Their assessment and feedback instructions are Lens-authored, not from XLab. The `Question: Open` segment on the lens page carries better-targeted instructions (outputs written as outcomes, links that are not if-then claims); when the widget is next rebuilt, move those instruction texts into the widget's `Lens.submit` call.
-- Standalone: XLab persists to `localStorage` (`v-theories-of-change:v1`); the Lens widget has no localStorage fallback, so in the editor preview entries are lost on reload. The brief asks for that fallback; add it on the next rebuild.
+- Standalone: XLab persists to `localStorage` (`v-theories-of-change:v1`); the Lens widget persists to `lens-widget-theories-of-change` when there is no `window.Lens`. Different key, same behaviour.
 - Lens page table: the lens's prose reproduction of XLab's table rewrites the outcome headers as "What changes first? / What changes next? / What is different in the end?" and adds "What must hold for the chain to work? / What is outside your control?"; XLab's table (and the widget) use "Short-term / Intermediate / Long-term" and "Internal / testable", "External / undefined". Not a widget matter, but the page and the widget now disagree on the labels; align the table to the widget's labels.
 
 Lesson table (mdx lines 34 to 68) and Slow Food image (line 86): SKIP.
@@ -213,46 +171,6 @@ Lesson table (mdx lines 34 to 68) and Slow Food image (line 86): SKIP.
 
 #### Widget
 source:: [[../widgets/theories-of-change]]
-
-#### Text
-content::
-\## Part 1 · Week 1: Building verification intuitions
-
-Module file: [[../modules/XLab Verification P1 W1 Building verification intuitions]]
-
-#### Text
-content::
-\### Lens: [[../Lenses/XLab Verification - v-intuitions-drills-1]]
-
-#### Text
-content::
-\#### Drill Bench: Primers (drills-primers)
-
-**Decision: widget.** Six commit-then-reveal steps (four pick, one nine-term mark-exactly-three with per-item caught/missed/false-flag verdicts, one fixed-order syllogism) with a progress meter and a finish screen; Lens Choice segments have no reveal, no per-item verdicts and no gate between commit and explanation.
-
-**Target lens:** [[../Lenses/XLab Verification - v-intuitions-drills-1]] (also [[../Lenses/XLab Verification - v-intuitions-drills-2]] and [[../Lenses/XLab Verification - v-intuitions-drills-3]], see Replaces)
-
-**Where it goes:** after the opening Text segment "The primer bench: inspection games, credible commitment, and two-level games. Commit an answer before each reveal, read why, then continue. Nothing here is graded." in v-intuitions-drills-1; it replaces everything below that segment.
-
-**What it replaces:** six ungraded Choice segments (ids b9535676..., 275e6f04..., 43fbcb43..., 357a36a9..., bb588dec..., 3a2eb99c...) each followed by a collapsed "Why (open after you have answered)" callout. Remove all twelve segments entirely; the widget carries every question, option and explanation, and a fallback callout would let a learner read the key before committing, which defeats the drill. Suggested segment: `#### Widget` / `source:: [[../widgets/drills-primers]]` / `required:: true` (the lens has no other exercise, so without `required` a learner can complete it without touching the bench). v-intuitions-drills-2 and v-intuitions-drills-3 are one-paragraph redirect stubs ("This section now lives in the complete exercise"), are not listed in the module file, and hold no content: delete them or leave them; nothing to place there. One widget, not three: XLab's deck has a single bench ("Primer bench") of six steps with one progress meter and one finish condition, so it has no natural split; the earlier three-way Lens split was an artefact of the first port and has already been consolidated into drills-1.
-
-**In XLab:** <VerificationExercise id="drills-primers" /> in intuitions.mdx, on its own "Drill bench" PageBreak inside the lesson's "Optional: Exercises and Further Reading" section (after the curated readings), not inside a Fold. Bridged (completion tracked). Note the Lens module lists v-intuitions-drills-1 without `optional:: true`; XLab treats the bench as optional.
-
-**Learner time:** 6 minutes (XLab's own "~6 min")
-
-Opens the bench from a one-card menu (deck title, blurb, "~6 min · 0 / 6"), then works through six steps in order with a segment meter showing progress. In a pick step they click one option; the options lock, the key is labelled "key" and their pick "yours", a verdict line ("Match, and here is the reasoning:" or "Not quite. The key says: ...") and the explanation appear, and a Continue button advances. In the nine-term step they toggle terms until exactly three are marked (the hint reads "marked N, mark exactly 3", the Commit button stays disabled otherwise), then every term is shown in authored order with its verdict (caught / missed / false flag / clean) and note, plus the closing explanation. After the sixth "Finish bench" the finish screen shows "Done: 6 / 6", "Every bench in this module is complete." and a two-tap "Redo bench"; the menu offers a two-tap "Reset this deck" once anything is answered.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-- Data: SCRATCH/xlab-tracks/src/lib/verification/data/drills-primers.ts (HEAD), every string verbatim; automated check confirms all 65 string literals from the data file appear in the widget after dash normalisation. UI strings (menu line, verdicts, hints, "Commit the marks", "Finish bench", "Redo bench", "Sure? Tap again", "Every bench in this module is complete.") from src/components/verification/kit/drill-deck.tsx; scoring and commit rules from src/lib/verification/engines/drills.ts; shuffle ported line for line from src/lib/shuffle.ts (FNV-1a + mulberry32, seed `primers#<pos>`, true/false pairs unshuffled, `fixedOrder` honoured on the syllogism). Resulting orders: step 4 shows authored options 3,0,1,2; step 5 shows items 7,1,0,5,2,4,3,6,8; steps 1 to 3 and 6 are in authored order. Keys compare against authored index, never display position.
-- Em dashes replaced (the only rewrite): blurb and kicker (comma / colon), menu line ("Commit before every reveal: the commit is the exercise."), step 1 why ("False, and the word..."), step 2 statement and why ("...without any court, but..."; "no detection, no deterrence; verification is upstream..."), step 3 statement ("defected, involuntarily"), step 4 q and why, five item notes in step 5, step 6 brief and why, verdict strings ("Match, and here is the reasoning:", "Not quite. The key says:"), hint ("marked N, mark exactly 3"), finish title ("Done: 6 / 6"). XLab's dash marker on unpicked non-key options is rendered as an empty tag instead.
-- Adapted: XLab stores only done flags (choices live in component state and vanish on reload). The widget also stores the committed pick / marks so a restored page shows the same reveal and so the tutor summary can say what was picked and whether it matched. State: `{benches: {primers: [{done, pick, marks}, ...]}}`; unknown or out-of-range values are pruned on restore. Lens.complete() fires when all six steps have been continued through (XLab's deckComplete), once per page load unless meta.completed. Redo and Reset behave as in XLab (two-tap confirm; Redo clears the bench, Reset clears the deck) and save state. Standalone (no window.Lens) falls back to localStorage key `lens-drills-primers:v1`.
-- Not built: number and text step types (the engine supports them, this deck has none); the "All benches" button (XLab hides it for a single-bench deck). Icons replaced by text glyphs (✓, ✕, ⚑, ↺, ◉, →).
-- Drift found in the Lens drills lenses versus XLab: (1) deck title, blurb, kicker and "~6 min" card are absent; (2) step 5 brief cut from "Nine terms, deliberately over-stocked the way the source round stocks its lists: randomized inspection · ... · Schelling focal point." to "Nine terms, deliberately over-stocked."; (3) step 6 brief and question were merged and reordered ("Which conclusion follows necessarily? The full answer is ... the reveal below describes...") whereas XLab shows the brief first, then the question; (4) the Lens Choice segments carry no `[x]` key, so nothing is checked and the "Why" callouts can be opened before committing; (5) the step 5 feedback-instructions in Lens group "cheap talk" under commitment credibility and "ratification constraint" under coordination, which XLab's notes do not (XLab: cheap talk is "the opposite of everything Fearon and inspectors trade in", ratification constraint is "Two-level games"); the widget uses XLab's notes. All other question, option and explanation text matches XLab apart from dash and quote normalisation.
-- Uncertain: whether the module should mark v-intuitions-drills-1 `optional:: true` to mirror XLab's placement in the optional section; left for the orchestrator.
-:::
-
-#### Widget
-source:: [[../widgets/drills-primers]]
 
 #### Text
 content::
@@ -1735,11 +1653,11 @@ Reads the two-year sequence in one picture: the January 2029 declaration and the
 :::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
 Every label in the existing widget matches the rendered source chart word for word (checked against `work/ai2040/svg-timeline.svg`).
 
-The marker positions did not. The existing widget places events at months 1.0, 1.5, 2.2, 10.1 and spans at 2.2 / 4.2 / 8.1 and 10.1, which are estimates from the picture. The source carries exact dates in its events JSON (chunk 4126) and converts them with `(year - 2029) * 12 + (month - 1) + (day - 1) / daysInMonth`. The true values are: mutual chip declaration 2029-01-24 (0.742), R&D pause begins 2029-02-10 (1.321), SL5 construction begins 2029-03-01 (2.0), inference-only retrofit 50% 2029-03-01, 80% 2029-05-01, 95% 2029-09-01 (2.0 / 4.0 / 8.0), R&D verification rollout 2% 2029-11-01 and 20% 2030-03-01 (10.0 / 14.0), R&D resumes 2029-11-01 (10.0), first major training runs approved 2030-02-01 (13.0), SL5 inference clusters 5% 2030-06-01 and 30% 2030-09-01 (17.0 / 20.0), first generation of post-deal models released 2030-06-16 (17.5), mature safety-case-based R&D rules 2031-01-01 (24.0). `OUT/widgets/ai-2040-deal-timeline.md` is the same file with those numbers substituted, a provenance comment added, and one clause added to `summary_for_tutor`; the id, title, markup and styling are untouched. Uploading it updates the existing widget in place. Errors were at most about nine days at a two-year scale, so this is a correctness fix, not a visible one.
+The marker positions did not. The existing widget places events at months 1.0, 1.5, 2.2, 10.1 and spans at 2.2 / 4.2 / 8.1 and 10.1, which are estimates from the picture. The source carries exact dates in its events JSON (chunk 4126) and converts them with `(year - 2029) * 12 + (month - 1) + (day - 1) / daysInMonth`. The true values are: mutual chip declaration 2029-01-24 (0.742), R&D pause begins 2029-02-10 (1.321), SL5 construction begins 2029-03-01 (2.0), inference-only retrofit 50% 2029-03-01, 80% 2029-05-01, 95% 2029-09-01 (2.0 / 4.0 / 8.0), R&D verification rollout 2% 2029-11-01 and 20% 2030-03-01 (10.0 / 14.0), R&D resumes 2029-11-01 (10.0), first major training runs approved 2030-02-01 (13.0), SL5 inference clusters 5% 2030-06-01 and 30% 2030-09-01 (17.0 / 20.0), first generation of post-deal models released 2030-06-16 (17.5), mature safety-case-based R&D rules 2031-01-01 (24.0). `OUT/widgets/ai-2040-deal-timeline.md` carries those numbers, a provenance comment, and one clause added to `summary_for_tutor`; the id and title are unchanged, so uploading it updates the existing widget in place. Errors were at most about nine days at a two-year scale, so this is a correctness fix, not a visible one.
 
 Two things worth flagging to whoever owns the article text. First, the article's bullet list and the chart disagree slightly: the bullets say the retrofit reaches 50% in Feb 2029 and 95% in Sep to Oct 2029, and that the first post-deal models are released in Jul 2030, while the chart's dates are 2029-03-01, 2029-09-01 and 2030-06-16. Second, the source's events JSON continues past the chart's window (hardware research approval 2031-07, inference concentrated in 5 to 10 clusters 2031-09, first SEZs 2032-01, cap and trade 2032-04, hardware concentrated 2033-07, first ocean solar farms 2033-11, first ocean datacenters 2034-07); the source's "short" layout hides them and the widget correctly does the same.
 
-The existing widget also does not use the Lens starter stylesheet (it is Georgia with the source's dark red) and makes no `window.Lens` calls. That is defensible for a static figure and was not changed.
+A later QA pass sent the file back for three fixes, all applied here. The SVG now sits in a `.chartbox` with `overflow-x: auto` and a `min-width: 720px`, so at 360px it keeps its labels at about 10px and scrolls sideways inside its own box instead of scaling to 0.36x and rendering at 4.3px. The provenance caption, which used to be an SVG `<text>` at y 392 and printed through the "First generation of post-deal models released" label, is now an HTML paragraph under the chart. The page uses the Lens starter stylesheet (DM Sans, Newsreader, the eyebrow, `<h1>` and bordered card of the sibling chart widgets) with `#b87018` in place of the source's dark red on the two highlighted markers. It still makes no `window.Lens` calls, which is right for a static figure.
 :::
 
 #### Widget
