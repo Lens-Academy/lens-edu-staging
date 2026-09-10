@@ -328,7 +328,7 @@ Greenblatt, Ryan, Fabien Roger, Dmitrii Krasheninnikov, and David Krueger. "Stre
 *The paper this lesson walks through: password-locked models as a way to test whether fine-tuning can pull a capability back out of a model that is hiding it.*
 
 Roger, Fabien. "Password-locked models: a stress case for capabilities evaluation." *LessWrong*, 3 Aug. 2023. [lesswrong.com](https://www.lesswrong.com/posts/rZs6ddqNnW8LXuJqA/password-locked-models-a-stress-case-for-capabilities)
-*The small-scale precursor to the paper, whose setup and two results XLab reconstructs before the scaled experiments begin.*
+*The small-scale precursor to the paper, whose setup and two results this lesson reconstructs before the scaled experiments begin.*
 
 Hubinger, Evan. "When can we trust model evaluations?" *AI Alignment Forum*, 28 July 2023. [alignmentforum.org](https://www.alignmentforum.org/posts/dBmfb76zx6wjPsBC7/when-can-we-trust-model-evaluations)
 *The source of the argument that supervised fine-tuning is harder for a model to resist than RL, which is why fine-tuning is used to elicit capabilities at all.*
