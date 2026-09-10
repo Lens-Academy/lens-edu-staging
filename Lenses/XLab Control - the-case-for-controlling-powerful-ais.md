@@ -103,7 +103,7 @@ T scores every edit. The top 2% go to H to audit. The next 10%, suspicious but n
 `U -> T -> next 10% -> T rewrites -> Deployed`
 `U -> T -> bottom 88% -> Deployed`
 
-The unacceptable outcome to prevent: malicious code is merged to production.
+**Unacceptable outcome:** Malicious code is merged to production.
 
 #### Question: Open
 id:: c173b895-663d-464e-ae1b-57a5eff44aff
@@ -122,7 +122,7 @@ U works through multi-step tasks on the research cluster, one command at a time.
 `U -> T -> high suspicion -> rewind, ask again, up to 3 tries, no memory between tries`
 `retries compared -> least suspicious runs, or all suspicious -> H -> blocked if malicious`
 
-The unacceptable outcome to prevent: model weights leave the cluster.
+**Unacceptable outcome:** Model weights leave the cluster.
 
 #### Question: Open
 id:: 58968fa3-60c2-4a82-a12a-6d6d7fd63935
