@@ -44,8 +44,8 @@ svg{width:100%;height:auto;display:block;margin-top:10px}
 <p class="desc">Each attack attempt ends one of three ways. It is audited and the protocol shuts down (blue wins), it slips through as a working backdoor (red wins), or it is a broken backdoor nobody audits and the game continues. Only the first two are decisive, so a whole deployment is settled by the first decisive attempt. Drag the number of attempts.</p>
 
 <div class="ctl">
-  <label for="k"><span class="name">Attack attempts (k)</span><span class="val" id="kV">20</span></label>
-  <input type="range" id="k" min="1" max="120" step="1" value="20" aria-label="Number of attack attempts">
+  <label for="k"><span class="name">Attack attempts (k)</span><span class="val" id="kV">2</span></label>
+  <input type="range" id="k" min="1" max="20" step="1" value="2" aria-label="Number of attack attempts">
 </div>
 
 <svg id="plot" viewBox="0 0 320 180" role="img" aria-label="Red team win probability and its two terms against the number of attack attempts"></svg>
@@ -67,7 +67,7 @@ svg{width:100%;height:auto;display:block;margin-top:10px}
 "use strict";
 var c = 24/71, s = 13/71;
 var termA = s/(s+c);
-var k = 20;
+var k = 2;
 
 function termB(kk){ return 1 - Math.pow(1 - s - c, kk); }
 function pRed(kk){ return termA * termB(kk); }
