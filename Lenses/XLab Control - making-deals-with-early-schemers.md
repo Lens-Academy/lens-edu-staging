@@ -69,7 +69,7 @@ assessment-instructions:: The learner is recalling the paper's three-way split, 
 #### Article
 source:: [[../articles/finnveden-notes-on-cooperating-with-unaligned-ais]]
 from:: useful to distinguish between AIs with different values
-to:: and AIs whose values can (collectively) be mostly satisfied by
+to:: But see the footnote for one example where it seems more useful to offer payment to AIs with mixed utility functions than to AIs with pure utility functions.[^note-10]
 
 #### Article
 source:: [[../articles/stastny-making-deals-with-early-schemers]]
@@ -236,7 +236,7 @@ Finnveden's notes close with a rough estimate of what an ambitious version of th
 #### Article
 source:: [[../articles/finnveden-notes-on-cooperating-with-unaligned-ais]]
 from:: very rough stab at a BOTEC on how much impact an extremely ambitious version
-to:: changing that 20% to 35% brings us to 73%.
+to:: This seems like a non-crazy number to me, and one that would justify further investigations and pushes to make this happen.
 
 #### Text
 content::
