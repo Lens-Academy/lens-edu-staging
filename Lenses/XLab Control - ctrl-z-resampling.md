@@ -78,9 +78,13 @@ source:: [[../widgets/xlab-control-defer-to-resample]]
 
 #### Text
 content::
-\## Section 3.2.1: Capitalizing on high attack continuation probabilities
+\## Resampling as evidence
 
 Selection pressure on the implemented action is only half of what resampling buys. The other half is evidence.
+
+#### Article
+from:: "3.2.1 Capitalizing on High Attack Continuation Probabilities"
+to:: "we see that the increased value of information provided safety."
 
 #### Question: Open
 id:: db46b782-4e6b-4f20-b342-049181b6d3bb
