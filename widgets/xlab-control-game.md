@@ -421,8 +421,8 @@ function schedule(){
   pending = setTimeout(render, 90);
 }
 
-document.getElementById("kb").addEventListener("input", function(e){ b = Number(e.target.value)/1000; if(d < b) d = b; document.getElementById("kd").value = String(Math.round(d*1000)); schedule(); });
-document.getElementById("kd").addEventListener("input", function(e){ d = Math.max(b, Number(e.target.value)/1000); schedule(); });
+document.getElementById("kb").addEventListener("input", function(e){ b = Number(e.target.value)/1000; schedule(); });
+document.getElementById("kd").addEventListener("input", function(e){ dw = Number(e.target.value)/1000; schedule(); });
 document.getElementById("kq").addEventListener("input", function(e){ q = Number(e.target.value)/1000; schedule(); });
 document.getElementById("tab0").addEventListener("click", function(){ tab = 0; render(); });
 document.getElementById("tab1").addEventListener("click", function(){ tab = 1; render(); });
