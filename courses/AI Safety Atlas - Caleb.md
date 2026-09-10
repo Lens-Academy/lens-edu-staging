@@ -63,11 +63,11 @@ survey:: [[../surveys/ASA Final Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 %% Surveys added 2026-09-10, following the pattern AI Risk Fundamentals and
-SAIF settled on 2026-09-04. Sessions 1 to 5 use the shared
-[[../surveys/Lens Post-Meeting Impact Survey v2]]; session 6 uses
+SAIF settled on 2026-09-04. Weeks 1 to 5 use the shared
+[[../surveys/Lens Post-Meeting Impact Survey v2]]; week 6 uses
 [[../surveys/ASA Final Impact Survey v2]], which repeats the same five
 quality ratings and adds the course-completion block. ASA Final is a copy of
 AIRF Final Impact Survey v2 with fresh ids and the course name swapped, so
 cross-course comparison is a question-by-question match. Navigator surveys
-reuse the generic pair: Navigator Session 1 Debrief on session 1, Navigator
-Post-Meeting Survey on sessions 2 to 6. %%
+reuse the generic pair: Navigator Session 1 Debrief on week 1, Navigator
+Post-Meeting Survey on weeks 2 to 6. %%
