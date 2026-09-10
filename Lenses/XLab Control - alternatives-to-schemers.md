@@ -81,7 +81,7 @@ The exploration horizon:
 
 - Another risk vector is collusion across episodes, which can effectively lengthen the timescale and allow for disempowerment as well.
 
-XLab draws this as three instances in a row, Episode 1 to Episode 2 to Episode 3, each passing a message to the next, which effectively lengthens the timescale.
+Three instances in a row, Episode 1 to Episode 2 to Episode 3, each pass a message to the next, which effectively lengthens the timescale.
 
 \### Remotely-influenceable reward seeker
 

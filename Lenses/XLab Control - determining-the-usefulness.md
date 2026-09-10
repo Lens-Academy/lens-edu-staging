@@ -32,7 +32,7 @@ Ask safety researchers whether control is a good investment and you will hear ev
 By the end of the module you will be able to answer three questions about any regime: whether you should invest in control, how much, and when. Furthermore, the same ways used to determine these answers can help make decisions about implementing any safety technique.
 
 :::callout {title="Terms used on this page" tone="neutral" collapse="closed"}
-**schemer**: Schemers are AIs that eventually take substantial material action (control subversion, research sabotage) and manipulate their training procedures (alignment faking, sandbagging) to gain long-term power over their developers in service of pursuing their misaligned goals. (XLab's glossary credits [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais|The case for ensuring that powerful AIs are controlled]].)
+**schemer**: Schemers are AIs that eventually take substantial material action (control subversion, research sabotage) and manipulate their training procedures (alignment faking, sandbagging) to gain long-term power over their developers in service of pursuing their misaligned goals. (Definition from [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais|The case for ensuring that powerful AIs are controlled]].)
 
 **untrusted model**: A model powerful enough that scheming cannot be ruled out while having little evidence of aligned behavior.
 
