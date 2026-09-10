@@ -243,7 +243,7 @@ Greenblatt, Ryan, and Thomas Larsen. "A Technical Safety Roadmap." Talk excerpt,
 Leike, Jan. "Self-exfiltration is a key dangerous capability." *Aligned*, 13 Sept. 2023. [aligned.substack.com](https://aligned.substack.com/p/self-exfiltration)
 *The post XLab links for exfiltration: why a model getting its own weights out of the lab is the capability that removes every other safety measure at once.*
 
-egan, Vivek Hebbar, and Julian Stastny. "Research Sabotage in ML Codebases." *LessWrong*, 30 Apr. 2026. [lesswrong.com](https://www.lesswrong.com/posts/LByP4qsF8a4g7Pz3p/research-sabotage-in-ml-codebases)
+Gan, Eric, Vivek Hebbar, and Julian Stastny. "Research Sabotage in ML Codebases." *LessWrong*, 30 Apr. 2026. [lesswrong.com](https://www.lesswrong.com/posts/LByP4qsF8a4g7Pz3p/research-sabotage-in-ml-codebases)
 *The post XLab links for research sabotage: a benchmark of deliberately flawed ML research code, and how often models and humans catch the flaws.*
 
 Sett, Gaurav. "How AI Can Automate AI Research and Development." *RAND Corporation*, 24 Oct. 2024. [rand.org](https://www.rand.org/pubs/commentary/2024/10/how-ai-can-automate-ai-research-and-development.html)
