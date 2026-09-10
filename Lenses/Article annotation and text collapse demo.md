@@ -7,7 +7,7 @@ title: Article presentation demo
 
 #### Text
 content::
-This lens imports a short article to demonstrate presentation that belongs specifically to article segments: source attribution, publication metadata, the original-source link, article typography, excerpt controls, and article media treatment.{++{"author":"Elias's AI","timestamp":1788858830931}@@ The article body also holds a `:::callout` with a `:::question` block and a widget inside it, so you can see how a box inside an article renders.++}
+This lens imports a short article to demonstrate presentation that belongs specifically to article segments: source attribution, publication metadata, the original-source link, article typography, excerpt controls, and article media treatment. The article body also holds a `:::callout` with a `:::question` block and a widget inside it, so you can see how a box inside an article renders.
 
 Shared authored-content features such as `hide`, `note`, footnotes, callouts, Markdown, and math live in the preceding **Authored content features demo** lens.
 

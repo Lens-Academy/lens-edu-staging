@@ -227,41 +227,37 @@ State which neighbourhood you are comparing.
 content::
 \## Segments inside callouts
 
-A callout can also wrap whole segments. Open {--{"author":"Elias's AI","timestamp":1788858823984}@@the callout in one segment,--}{++{"author":"Elias's AI","timestamp":1788858823984}@@it with `#### Callout: Title` (with `tone::` and `collapse::` as fields),++} put any segments {--{"author":"Elias's AI","timestamp":1788858823984}@@inside (`#### Question`, `#### Text`,--}{++{"author":"Elias's AI","timestamp":1788858823984}@@inside, and close it with++} `#### {--{"author":"Elias's AI","timestamp":1788858823984}@@Chat`, ...), and close it afterwards. Callouts inside callouts work the same way; give the outer one more colons.--}{++{"author":"Elias's AI","timestamp":1788858823984}@@End Callout`. Callouts nest to any depth. More live examples, including an article excerpt and a widget inside a box: [[../Lenses/Nested callouts demo]].++}
+A callout can also wrap whole segments. Open it with `#### Callout: Title` (with `tone::` and `collapse::` as fields), put any segments inside, and close it with `#### End Callout`. Callouts nest to any depth. More live examples, including an article excerpt and a widget inside a box: [[../Lenses/Nested callouts demo]].
 
 Source:
 
 ```md
-{--{"author":"Elias's AI","timestamp":1788858823984}@@::::callout {title="Quick check" tone="blue"}--}{++{"author":"Elias's AI","timestamp":1788858823984}@@#### Callout: Quick check
+#### Callout: Quick check
 tone:: blue
 
-#### Text++}
-{++{"author":"Elias's AI","timestamp":1788858823984}@@content:: ++}Answer before reading on.
+#### Text
+content:: Answer before reading on.
 
 #### Question: Open
 id:: 3d0c2b7e-9f14-4a6b-8c5d-1e2f3a4b5c6d
 content:: In one sentence: what distinguishes a local minimum from a global one?
 optional:: true
 
-#### {--{"author":"Elias's AI","timestamp":1788858823984}@@Text
-content:: The next section builds on this distinction.
-::::--}{++{"author":"Elias's AI","timestamp":1788858823984}@@End Callout++}
+#### End Callout
 ```
 
 Result:
 
-{--{"author":"Elias's AI","timestamp":1788858823984}@@::::callout {title="Quick check" tone="blue"}--}{++{"author":"Elias's AI","timestamp":1788858823984}@@#### Callout: Quick check++}
-{++{"author":"Elias's AI","timestamp":1788858823984}@@tone:: blue
+#### Callout: Quick check
+tone:: blue
 
 #### Text
-content:: ++}Answer before reading on.
+content:: Answer before reading on.
 
 #### Question: Open
 id:: 3d0c2b7e-9f14-4a6b-8c5d-1e2f3a4b5c6d
 content:: In one sentence: what distinguishes a local minimum from a global one?
 optional:: true
 
-#### {--{"author":"Elias's AI","timestamp":1788858823984}@@Text
-content:: The next section builds on this distinction.
-::::--}{++{"author":"Elias's AI","timestamp":1788858823984}@@End Callout++}
+#### End Callout
 {>>{"author":"Elias's AI","timestamp":1788012494825}@@Accept only after the platform PR "Allow segments inside callouts" is deployed; before that the platform renders this as broken text.<<}

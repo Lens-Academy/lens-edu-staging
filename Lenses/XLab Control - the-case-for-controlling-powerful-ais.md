@@ -66,7 +66,7 @@ Every edit U produces is scored for suspicion by T. The top 2% go to H, who revi
 `U -> T -> top 2% -> H -> blocked if malicious`
 `U -> T -> remaining 98% -> Deployed`
 
-The unacceptable outcome to prevent: malicious code is merged to production.
+**Unacceptable outcome:** Malicious code is merged to production.
 
 #### Question: Open
 id:: 16d44bda-4433-43d4-9088-fd72d0b97b0f
@@ -84,7 +84,7 @@ U's research code has outgrown T, and T's scores on it look like noise. Instead,
 `U -> U′ -> top 2% -> H -> blocked if malicious`
 `U -> U′ -> remaining 98% -> Deployed`
 
-The unacceptable outcome to prevent: malicious code is merged to production.
+**Unacceptable outcome:** Malicious code is merged to production.
 
 #### Question: Open
 id:: 0983cfd6-876e-4c73-8e81-58318c1abedf

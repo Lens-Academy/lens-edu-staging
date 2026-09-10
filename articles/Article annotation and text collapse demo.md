@@ -23,19 +23,19 @@ This body is deliberately ordinary Markdown. When embedded in a Lens, the platfo
 - article typography
 - excerpt boundaries and controls
 - article media treatment
-- widgets embedded in the article body, like the one below{++{"author":"Elias's AI","timestamp":1788858827024}@@
+- widgets embedded in the article body, like the one below
 - a callout around elements: the box below holds a question and the widget
 
 :::callout{title="Try it" tone="blue"}
-Answer first, then explore the timeline.++}
+Answer first, then explore the timeline.
 
-{++{"author":"Elias's AI","timestamp":1788858827024}@@:::question{type="open"}
+:::question{type="open"}
 id:: 2c229440-59c8-4c80-bcef-b965794c13b8
 content:: Which of the presentation features listed above would a reader notice first?
 optional:: true
 :::
 
-++}![[../widgets/ai-2040-deal-timeline]]
-{++{"author":"Elias's AI","timestamp":1788858827024}@@:::
-++}
+![[../widgets/ai-2040-deal-timeline]]
+:::
+
 General authored-content features such as hidden text, Lens notes, footnotes, callouts, and math are demonstrated in the separate **Authored content features demo** Lens.
