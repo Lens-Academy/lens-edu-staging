@@ -18,7 +18,9 @@ This Lens version follows [XLab's current public curriculum](https://aisafetytra
 
 \## How to use this course
 
-Each page sends you to XLab's original interactive lesson. Complete its reading, reveal prompts, and exercises there, then return here and continue. Estimated times come from XLab where provided.
+{--{"author":"Elias's AI","timestamp":1789042258146}@@Each--}{++{"author":"Elias's AI","timestamp":1789042258146}@@Everything is here on Lens: the readings, XLab's own explanations, its exercises, and its interactive pieces. Work straight through each module in order. Every++} page {--{"author":"Elias's AI","timestamp":1789042258146}@@sends --}{++{"author":"Elias's AI","timestamp":1789042258146}@@ends with a Works cited box linking the original sources, including the XLab lesson it was adapted from, if ++}you {++{"author":"Elias's AI","timestamp":1789042258146}@@want to go back ++}to {--{"author":"Elias's AI","timestamp":1789042258146}@@XLab's original interactive lesson. Complete its reading, reveal prompts,--}{++{"author":"Elias's AI","timestamp":1789042258146}@@either.
+
+Two things are worth knowing before you start. The estimated times on each page are ours rather than XLab's,++} and {++{"author":"Elias's AI","timestamp":1789042258146}@@they count the ++}exercises {--{"author":"Elias's AI","timestamp":1789042258146}@@there, then return here and continue. Estimated times come from XLab where provided.--}{++{"author":"Elias's AI","timestamp":1789042258146}@@as well as the reading, so they run longer than the figures on XLab's site. And a handful of pages are marked optional: they are genuinely optional, so follow your curiosity rather than completeness.++}
 
 # Submodule: Module 1
 # Lens: Module 1 overview
