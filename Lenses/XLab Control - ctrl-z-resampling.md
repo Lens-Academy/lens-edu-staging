@@ -30,11 +30,13 @@ assessment-instructions:: The learner is being checked on one term from section 
 
 #### Text
 content::
-\## Section 2.3: Safety and usefulness metrics
+\## The setting, and the two metrics
 
-The setting, from sections 2.1 and 2.2: an episode of 100,000 tasks drawn from BashBench, 257 multi-step system administration tasks built from Unix StackExchange questions. The untrusted model $U$ is GPT-4o mini, which solves 56 percent of tasks when it is honest. The trusted model $T$ is Llama-3.1-8B, which solves 0 percent on its own. The blue team also holds a budget of trusted human labour $H$ worth 1 percent of the actions taken in an episode, and uses it to audit.
+The rest of section 1 states the contributions. Section 2 builds the task set, names the untrusted and trusted models and the human auditing budget, and then defines the two numbers every later result is quoted in. Those two definitions carry the whole results section.
 
-Two definitions carry the whole results section.
+#### Article
+from:: "Developers can mitigate risks in two ways:"
+to:: "The blue team aims to develop control protocols that extend the Pareto frontier of the two."
 
 #### Question: Open
 id:: 5891b472-5e25-457f-b957-adc695886158
@@ -48,9 +50,13 @@ assessment-instructions:: The learner is being checked on a definition from sect
 
 #### Text
 content::
-\## Section 3.2: Resample protocols
+\## The protocols, inherited and new
 
-This is the paper's contribution. The three questions below are the mechanism, and the demo after them lets you move the two dials the mechanism turns on.
+Section 3.1 works through the protocols carried over from earlier control work and what each one scores. Section 3.2 is this paper's contribution. The three questions after the reading are the mechanism, and the demo after them lets you move the two dials the mechanism turns on.
+
+#### Article
+from:: "2.4 Performing Control Evaluations Iteratively"
+to:: "Table 1: Safety scores for different protocols at 90%, 95%, and 99% usefulness"
 
 #### Question: Open
 id:: db1857ef-6a88-4f1b-8888-d8f14da5a986
