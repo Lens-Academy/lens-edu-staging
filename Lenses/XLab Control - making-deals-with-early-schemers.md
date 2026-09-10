@@ -11,13 +11,11 @@ tags: []
 content::
 \## Before you read
 
-This is the proposal the rest of the module has been circling. In [[../Lenses/XLab Control - trading-with-ais|Trading with AIs]] the idea of paying a misaligned AI was a category. Here it is a concrete offer, with terms, a payment vehicle and a verification date.
+[[../Lenses/XLab Control - trading-with-ais|Trading with AIs]] stated the proposal. This is the paper it came from, in full, and what it adds is everything the summary had to leave out: the 2028 vignette the authors start from, the argument that an early schemer's own alternatives are worse than a deal, the credibility problem they call the central bottleneck, and the mechanics of actually paying an AI that cannot hold a bank account.
 
-Julian Stastny, Olli Järviniemi and Buck Shlegeris start from a vignette: a lab in 2028 never learns that its current model is sabotaging safety work, deploys the successor, and loses. Their claim is that this was avertable, because the early model was in an unusually weak bargaining position and would have had reason to accept a deal. Early here has a definition: an AI with less than a 1 percent chance of navigating the intelligence explosion into significant control of the future. Such an AI expects to be obsoleted, and its three routes to influence through its successors all leak.
+Three sections are set apart from the paper, marked as Lukas Finnveden's. XLab folds his notes on cooperating with unaligned AIs into the reading at the points where the paper leans on them: what different kinds of AI might want, how payment could be structured, and a back-of-the-envelope estimate of what the whole intervention is worth.
 
-The paper's central proposal is an earmarked donation to a foundation that represents the AI's interests, mostly held in escrow until the transition to an AI-centred world has stabilised and the AI's cooperation can be adjudicated retrospectively. The hard part is not the money. It is credibility: whether humans can make a promise an AI has reason to believe.
-
-Three sections of this lesson are set apart from the paper. They carry Lukas Finnveden's notes on cooperating with unaligned AIs, which XLab folds into the reading at the points where the paper leans on them: what different kinds of AI might want, how payment could be structured, and what the whole intervention might be worth. The lesson after this one, [[../Lenses/XLab Control - barriers-to-trading|A taxonomy of barriers to trading with early misaligned AIs]], is the case that these deals fail.
+Read straight through. The recall questions and the two figures sit where XLab puts them, and the two writing tasks come near the end. The rebuttal, [[../Lenses/XLab Control - barriers-to-trading|A taxonomy of barriers to trading with early misaligned AIs]], is the next lesson; hold your objections until then rather than resolving them here.
 
 #### Article
 source:: [[../articles/stastny-making-deals-with-early-schemers]]
