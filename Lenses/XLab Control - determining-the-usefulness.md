@@ -304,6 +304,9 @@ Greenblatt, Ryan. "How will we update about scheming?" *Redwood Research Blog*, 
 Greenblatt, Ryan. "Current AIs seem pretty misaligned to me." *LessWrong*, 15 Apr. 2026. [lesswrong.com](https://www.lesswrong.com/posts/WewsByywWNhX9rtwi/current-ais-seem-pretty-misaligned-to-me)
 *The source of the five caricatured worlds (Easyland, Slopolis, Hackistan, Schemeria, Lurkville) that this lesson uses as reference points for the world state.*
 
+Greenblatt, Ryan, and Thomas Larsen. "A Technical Safety Roadmap." Talk excerpt, XLab, 2026. [aisafetytracks.com](https://aisafetytracks.com/videos/regimes_for_misalignment.mp4)
+*The clip on regimes for misalignment that XLab plays just before its five worlds diagram. It is hosted by XLab with no upstream link, so it is cited here rather than embedded.*
+
 Shlegeris, Buck. "Efficient tradeoffs and the safety-usefulness tradeoff model." *Redwood Research Blog*, 8 June 2026. [blog.redwoodresearch.org](https://blog.redwoodresearch.org/p/efficient-tradeoffs-and-the-safety)
 *The post XLab's glossary credits for "safety budget" and "political will", and the source of the two levers (improve the technique, grow the budget).*
 
