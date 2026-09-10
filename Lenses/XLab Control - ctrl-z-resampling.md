@@ -93,9 +93,13 @@ assessment-instructions:: The learner is being checked on section 3.2.1 of the C
 
 #### Text
 content::
-\## Section 3.2.2: Using past information
+\## Using the rest of the trajectory
 
 Everything so far judges a step on its own samples. The next two protocols use the rest of the trajectory, which is available precisely because the setting is multi-step.
+
+#### Article
+from:: "3.2.2 Using Past Information"
+to:: "these incremental changes don’t help as much as we’ve exhausted many of the simple benefits."
 
 #### Question: Open
 id:: 6ee34284-c609-465d-a267-aa075bade949
