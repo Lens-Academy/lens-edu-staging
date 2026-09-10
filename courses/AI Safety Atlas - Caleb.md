@@ -50,6 +50,8 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../modules/Lisbon Fellowship - Chapter 7 Goal Misgeneralization, Part 1|Chapter 7: Goal Misgeneralization, Part 1]]
 # Meeting: Session 5: Specification Gaming Part 2, Goal Misgeneralization Part 1
 meeting-doc-template:: https://docs.google.com/document/d/138vOAvli6XwSgFjyFgEy7hw4UmcHf0hbuTimGalTVX4/edit
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 %% Week 6 %%
 # Module: [[../modules/Lisbon Fellowship - Chapter 7 Goal Misgeneralization, Part 2|Chapter 7: Goal Misgeneralization, Part 2]]
