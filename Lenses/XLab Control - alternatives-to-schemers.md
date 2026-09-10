@@ -10,7 +10,7 @@ tags: []
 #### Text
 content::
 :::callout {title="In development" tone="amber"}
-XLab labels this lesson an outline stub: the author's plan for this section, not the finished lesson.
+This lesson is an outline rather than a finished treatment: the plan for this section, not the finished lesson.
 :::
 
 \## Exposition
