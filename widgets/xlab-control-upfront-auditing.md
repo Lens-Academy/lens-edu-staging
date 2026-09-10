@@ -18,7 +18,6 @@ tags: []
      they make the non-monotonicity in p visible, which is what the lens's
      own derivation question asks the learner to account for. Same model,
      no new constants. -->
-<!-- XLab's demo does not let the learner move p; the p slider is a Lens addition. -->
 <style>
 :root{
   --bg:#ffffff; --page:#faf8f3; --text:#1a1a1a; --muted:#5a5a5a; --border:#e8e5df;
