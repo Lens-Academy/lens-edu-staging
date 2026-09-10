@@ -361,5 +361,5 @@ Greenblatt, Ryan, and Buck Shlegeris. "The case for ensuring that powerful AIs a
 *The reading this lesson is built from: the post that defines the control property, argues control is evaluable where alignment is not, and makes the case that early transformatively useful AIs can be controlled.*
 
 XLab. "The case for ensuring that powerful AIs are controlled." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/introduction/the-case-for-controlling-powerful-ais)
-*The source lesson this page adapts, including the five-scenario control evaluation, the commit-and-construct on inscrutability, and the two-worlds figure.*
+*The source lesson this page adapts.*
 :::

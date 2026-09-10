@@ -56,5 +56,5 @@ Greenblatt, Ryan, and Buck Shlegeris. "The case for ensuring that powerful AIs a
 *The post the definition of scheming on this page is taken from, and the origin of the control framing the graph formalises.*
 
 XLab. "What is High Stakes?" *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-4/what-is-high-stakes)
-*The source lesson this page adapts, including the control graph.*
+*The source lesson this page adapts.*
 :::

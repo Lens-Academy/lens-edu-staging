@@ -42,5 +42,5 @@ Congratulations on completing the AI Control track! We've attached a couple of r
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 XLab. "Next Steps." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/next-steps/whats-next)
-*The source lesson this page adapts, including the full roster of programs, organizations, and boards.*
+*The source lesson this page adapts.*
 :::

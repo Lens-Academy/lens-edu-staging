@@ -90,5 +90,5 @@ Greenblatt, Ryan, Buck Shlegeris, Kshitij Sachan, and Fabien Roger. "AI Control:
 *The original control paper, which used one monitor with two thresholds; the reading argues the replace decision and the audit decision are better made separately.*
 
 XLab. "Win/continue/lose scenarios and execute/replace/audit protocols." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-4/win-continue-lose)
-*The source lesson this page adapts, including the placement of its six quick-recall prompts.*
+*The source lesson this page adapts.*
 :::
