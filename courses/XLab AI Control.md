@@ -10,7 +10,7 @@ partner-url: "https://xrisk.uchicago.edu/"
 ---
 %%
 Links:
-
+- XLab original: https://aisafetytracks.com/tracks/control
 %%
 
 # Module: [[../modules/XLab Control M1 - Introduction, overview, and threat modeling]]
