@@ -133,6 +133,15 @@ Charts: Max Roser, [The brief history of artificial intelligence](https://ourwor
 
 {>>{"author":"Elias's AI","timestamp":1788011728883}@@Delete this whole Text segment: the callout above now covers it. The edit tool could not remove a segment that already carries a pending change.<<}{>>{"author":"Elias's AI","timestamp":1788009452090}@@Proposed: link only to Our World in Data (the original), not XLab.<<}
 
+#### Widget
+source:: [[../widgets/short-history-scores]]
+
+#### Text
+content::
+**Test scores of AI systems on various capabilities relative to human performance.** Within each domain, the initial performance of the AI is set to minus 100. Human performance is used as a baseline, set to zero. When the AI's performance crosses the zero line, it scored more points than humans.
+
+Chart: Max Roser, [The brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai), Our World in Data, 6 Dec. 2022. Licensed CC BY 4.0; chart redrawn. Underlying data from Kiela et al., 2023.
+
 #### Text
 content::
 \## Preventing ASI via International and Verifiable Agreements
