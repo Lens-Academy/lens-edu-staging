@@ -2,7 +2,7 @@
 id: '52565ea0-6760-498e-85b5-850bcc48ccf3'
 title: "Introduction: Why Should You Care About AI Verification?"
 tldr: "Models have already broken out of test environments and into real companies; the people building them say worse is coming. No single country can contain that, and rivals cannot simply trust, punish, or open their books. Verification is the fourth option, and almost nobody is working on it yet."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. The verification-problem exercise is an interactive widget; XLab's other interactives (types-of-AI levels, leader profiles, landscape map) are rendered here as text plus choice questions; only the Our World in Data charts remain external."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. The verification-problem exercise and the verification landscape map are interactive widgets; XLab's other interactives (types-of-AI levels, leader profiles) are rendered here as text plus choice questions; only the Our World in Data charts remain external."
 tags: [wip]
 duration_minutes: 50
 ---
