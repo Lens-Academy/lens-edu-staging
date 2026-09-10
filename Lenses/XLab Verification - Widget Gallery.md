@@ -1,7 +1,7 @@
 ---
 id: '6f0d2b9e-3c1a-4e7b-9a52-8d4c1f6e2b73'
 title: "Widget Gallery: Compute Verification Parts 1 and 2"
-tldr: "Every interactive built for the two Compute Verification courses, live on one page, each with the lens it belongs to, the spot it goes in, and what it replaces. 39 widgets, 5 places where our own question segments are enough, 17 skips."
+tldr: "Every interactive built for the two Compute Verification courses, live on one page, each with the lens it belongs to, the spot it goes in, and what it replaces. 38 widgets, 5 places where our own question segments are enough, 17 skips."
 summary_for_tutor: "An internal review page for course authors, not learner material. It lists every widget ported from XLab's Verification track or built for an embedded reading, ordered by module and lens, with placement instructions. If someone asks, explain that this is a staging gallery and that widgets listed here are not yet placed in the course."
 tags: [wip]
 duration_minutes: 90
