@@ -39,7 +39,7 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../modules/AI Safety Atlas - Evaluations|Chapter 5: Evaluations]]
 
 # Module: [[../modules/Lisbon Fellowship - Chapter 6 Specification Gaming, Part 1|Chapter 6: Specification Gaming, Part 1]]
-# Meeting: Session 4: Evaluations, Specification Gaming Part 1
+# Meeting: Week 4
 meeting-doc-template:: https://docs.google.com/document/d/1ptUwEdDHGVB8HVyzYY2ITcb_9MYwZG5nLTWxwWnTcbg/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
