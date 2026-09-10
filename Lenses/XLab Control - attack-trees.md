@@ -9,7 +9,7 @@ tags: []
 ---
 #### Text
 content::
-This lesson is XLab's adaptation of Bruce Schneier, "Attack Trees," *Dr. Dobb's Journal*, December 1999. The trees are redrawn.
+Adapted from Bruce Schneier, "Attack Trees," *Dr. Dobb's Journal*, December 1999. The trees are redrawn.
 
 Attack trees provide a formal, methodical way of describing the security of systems, based on various attacks. Basically, you can represent attacks against a system in a tree structure, with the goal as the root node and different ways of achieving that goal as leaf nodes.
 
