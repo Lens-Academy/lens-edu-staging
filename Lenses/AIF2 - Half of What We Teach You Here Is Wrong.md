@@ -46,14 +46,14 @@ Unless you're speedrunning the course on your own, you're in a cohort of other s
 
 The course has five units. The group will work through them at a steady pace over the next weeks (or days, if you chose intensive).
 
-One more thing about this course: it is about what to do, not only about what will happen. Forecasting is the inert tense. Strategy is the active tense. Every unit ends with you deciding something, and the readings are there to make your decisions better, not to be recited back.
+One more thing about this course: it is about what to do, not only about what will happen. Forecasting is the inert tense: what will happen. Strategy is the active tense: what you do about it. Every unit ends with you deciding something, and the readings are there to make your decisions better, not to be recited back.
 
 #### Question: Open
 id:: 27ef8f6f-0325-4e8c-855c-79bb57f13f03
 content::
 \## Your day-zero guess
 
-Three things, written as guesses. Nobody will hold you to them. At the end of every unit you will be asked to say them again from memory and change them, and changing them is the point.
+Three things, written as guesses. Nobody will hold you to them. At the end of every unit you will be asked to say them again from memory, and to change them. The changing is the point.
 
 **One.** What should be done about AI in the next two years? A few sentences. Make it concrete enough to be wrong about: who does what, and what it costs them. If your honest answer is "I don't know yet", write your best current guess anyway and say that it is one.
 
