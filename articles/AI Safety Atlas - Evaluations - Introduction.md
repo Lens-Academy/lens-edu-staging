@@ -18,8 +18,6 @@ llm-review:
     fetched: 2026-08-30
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/evaluations.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter5-e0b0931eaf5f5ef7fd351e37758cb446431d932fda8d13a1089e833162a070ed.pdf)*
-
 %%
 Add discussion note here:
 
@@ -50,7 +48,7 @@ AI models are advancing so fast that our tests for their abilities become outdat
 
 **Despite significant progress, AI evaluations face fundamental limitations that threaten their reliability.**  The asymmetry between proving presence versus absence of capabilities means we can never be certain we've detected all potential risks. Evaluations can conclusively confirm that a model possesses certain capabilities but cannot definitively prove their absence. Technical challenges include measurement sensitivity—performance can vary based on seemingly trivial changes in prompting formats—and the combinatorial explosion of test cases as we add new dimensions to evaluate. Misalignment might lead to model "sandbagging" (strategic underperformance on evaluations), research shows language models can be made to selectively underperform on tests for dangerous capabilities while maintaining performance on general benchmarks. Organizational incentives might lead labs themselves to do "safety washing" (misrepresenting capability improvements as safety advancements). These challenges highlight the need for continued research into more robust evaluation methodologies and institutional arrangements that support genuinely independent assessment.
 
-![Figure 5.1](https://ai-safety-atlas.com/_astro/f6cd8f84576ce1476582460d217a4ec9a24e77291638fb64f8aef85ac4e9dbab.BDyefyrn_1JK7xh.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120911868}@@5.1](https://ai-safety-atlas.com/_astro/f6cd8f84576ce1476582460d217a4ec9a24e77291638fb64f8aef85ac4e9dbab.BDyefyrn_1JK7xh.webp)--}{++{"author":"Elias's AI","timestamp":1789120911868}@@5.1](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-1.webp)++}
 
 *Figure 5.1: Overview of chapter content.*
 

@@ -18,8 +18,6 @@ llm-review:
     fetched: 2026-08-30
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/evaluations.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter5-e0b0931eaf5f5ef7fd351e37758cb446431d932fda8d13a1089e833162a070ed.pdf)*
-
 %%
 Add discussion note here:
 
@@ -48,7 +46,7 @@ Technical frameworks help us understand how to measure AI capabilities and behav
 
 **How does the model organisms approach break down complex threat models?** Instead of trying to tackle things like "deceptive alignment" as one monolithic problem, researchers identify key subcomponents like situational awareness or goal persistence. They then create simplified systems exhibiting these properties, studying how they manifest and testing different evaluation techniques. For example, Anthropic's work on "sleeper agents" demonstrated how certain forms of deceptive behavior could persist through safety training.[^note-atlas-11] They created models that would write secure code when asked about the year 2023, but insert vulnerabilities when asked about 2024 ([Hubinger et al., 2024](https://arxiv.org/abs/2401.05566)). We discuss this particular example of deception more in the goal misgeneralization chapter.
 
-![Figure 5.24](https://ai-safety-atlas.com/_astro/c04b62373b6f68d32170644e1e68807a1e196dc204497c6520f5aaf8389271f2.BSj-tk_F_Z1TgKn.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121154726}@@5.24](https://ai-safety-atlas.com/_astro/c04b62373b6f68d32170644e1e68807a1e196dc204497c6520f5aaf8389271f2.BSj-tk_F_Z1TgKn.webp)--}{++{"author":"Elias's AI","timestamp":1789121154726}@@5.24](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-24.webp)++}
 
 *Figure 5.24: Example of a sleeper agent that displays misaligned behavior despite having been put through safety fine-tuning ([Hubinger et al., 2024](https://arxiv.org/abs/2401.05566)).*
 
@@ -78,7 +76,7 @@ If you are encountering them for the first time, we encourage you to read Anthro
 
 **Example of evaluation gates: AI Safety Levels (ASL)**. One concrete example of evaluation gated scaling are Anthropic's responsible scaling policies (RSPs) that use the concept of safety levels. These are inspired by biosafety levels (BSL) used in infectious disease research, where increasingly dangerous pathogens require increasingly stringent containment protocols ([Anthropic, 2024](https://assets.anthropic.com/m/24a47b00f10301cd/original/Anthropic-Responsible-Scaling-Policy-2024-10-15.pdf)). AI Safety Levels create standardized tiers of capability that require increasingly stringent safety measures. For example, Anthropic's framework defines levels from ASL-1 (basic safety measures) through ASL-3 (comprehensive security and deployment restrictions). This is in principle similar to how biologists handle increasingly dangerous pathogens, with each level having specific evaluation requirements and safety protocols.
 
-![Figure 5.25](https://ai-safety-atlas.com/_astro/c6ab82f92f8f2ee60f5df38503c011ea410b433c226ff045d64dc8c2231cbc10.BdWlHnwn_ZB2vCR.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121177272}@@5.25](https://ai-safety-atlas.com/_astro/c6ab82f92f8f2ee60f5df38503c011ea410b433c226ff045d64dc8c2231cbc10.BdWlHnwn_ZB2vCR.webp)--}{++{"author":"Elias's AI","timestamp":1789121177272}@@5.25](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-25.webp)++}
 
 *Figure 5.25: Overview of Anthropic’s ASL levels. ASL-1 refers to systems which pose no meaningful catastrophic risk. ASL-2 refers to systems that show early signs of dangerous capabilities – for example ability to give instructions on how to build bioweapons – but where the information is not yet useful due to insufficient reliability or not providing information that e.g. a search engine couldn’t. ASL-3 refers to systems that substantially increase the risk of catastrophic misuse compared to non-AI baselines (e.g. search engines or textbooks) OR that show low-level autonomous capabilities. ASL-4 and higher (ASL-5+) is not yet defined as it is too far from present systems, but will likely involve qualitative escalations in catastrophic misuse potential and autonomy ([Anthropic, 2024](https://assets.anthropic.com/m/24a47b00f10301cd/original/Anthropic-Responsible-Scaling-Policy-2024-10-15.pdf)).*
 
@@ -86,7 +84,7 @@ If you are encountering them for the first time, we encourage you to read Anthro
 
 ### Preparedness Framework (OpenAI)
 
-![Figure 5.26](https://ai-safety-atlas.com/_astro/6295439ad3c551393eee6685b19d44896ec65f21b82811b7e6db8833fc340676.uEfNTnfq_2aTkQa.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121201032}@@5.26](https://ai-safety-atlas.com/_astro/6295439ad3c551393eee6685b19d44896ec65f21b82811b7e6db8833fc340676.uEfNTnfq_2aTkQa.webp)--}{++{"author":"Elias's AI","timestamp":1789121201032}@@5.26](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-26.webp)++}
 
 *Figure 5.26: System card of GPT-o1 published by OpenAI after safety evaluations ([OpenAI, 2024](https://openai.com/index/openai-o1-system-card/)).*
 
@@ -100,11 +98,11 @@ If you are encountering them for the first time, we encourage you to read Anthro
 
 **Scaling buffers are used to calculate evaluation timing**. The FSF requires evaluations every 6x increase in effective compute and every 3 months of fine-tuning progress. This timing is designed to provide adequate safety buffers - they want to detect CCLs before models actually reach them ([DeepMind, 2024](https://deepmind.google/discover/blog/introducing-the-frontier-safety-framework/)). Anthropics RSPs have a similar scaling buffer requirement, but they have lower thresholds - evaluations for every 4x increase in effective compute ([Anthropic, 2024](https://assets.anthropic.com/m/24a47b00f10301cd/original/Anthropic-Responsible-Scaling-Policy-2024-10-15.pdf)).
 
-![Figure 5.27](https://ai-safety-atlas.com/_astro/7a45d004510e91e6a206857a2b638abb38ed54af58978aff9cdcbfc5098b62a2.BzoyVrlK_Zykw97.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121229249}@@5.27](https://ai-safety-atlas.com/_astro/7a45d004510e91e6a206857a2b638abb38ed54af58978aff9cdcbfc5098b62a2.BzoyVrlK_Zykw97.webp)--}{++{"author":"Elias's AI","timestamp":1789121229249}@@5.27](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-27.webp)++}
 
 *Figure 5.27: DeepMinds safety buffer from the FSF ([DeepMind, 2024](https://deepmind.google/discover/blog/introducing-the-frontier-safety-framework/)).*
 
-![Figure 5.28](https://ai-safety-atlas.com/_astro/33c6e0e23ee3e23afaf8bbf64b73119f5ab7d703ff9e9f00f59dbd085b143af7.2L3k398B_1ofyQK.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121257031}@@5.28](https://ai-safety-atlas.com/_astro/33c6e0e23ee3e23afaf8bbf64b73119f5ab7d703ff9e9f00f59dbd085b143af7.2L3k398B_1ofyQK.webp)--}{++{"author":"Elias's AI","timestamp":1789121257031}@@5.28](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-28.webp)++}
 
 *Figure 5.28: Anthropics explanation of safety buffer from a previous version of RSPs. If safety evals trigger, scaling must pause until next level  safety measures are in place ([Anthropic, 2023](https://www-cdn.anthropic.com/1adf000c8f675958c2ee23805d91aaade1cd4613/responsible-scaling-policy.pdf)).*
 

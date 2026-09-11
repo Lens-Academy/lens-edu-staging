@@ -18,8 +18,6 @@ llm-review:
     fetched: 2026-08-30
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/evaluations.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter5-e0b0931eaf5f5ef7fd351e37758cb446431d932fda8d13a1089e833162a070ed.pdf)*
-
 %%
 Add discussion note here:
 
@@ -48,7 +46,7 @@ AI basically had a similar problem before we started using standardized benchmar
 
 **Example: Benchmarks influencing standardization in computer vision**. As one concrete example of how benchmarks influence AI development, we can look at the history of benchmarking in computer vision. In 1998, researchers introduced MNIST, a dataset of 70,000 handwritten digits. ([LeCun, 1998](https://yann.lecun.com/exdb/mnist/)) The digits were not the important part, the important part was that each digit image was carefully processed to be the same size and centered in the frame, and that the researchers made sure to get digits from different writers for the training set and test set. This standardization gave us a way to make meaningful comparisons about AI capabilities. In this case, the specific capability of digit classification. Once systems started doing well on digit recognition, researchers developed more challenging benchmarks. CIFAR-10/100 in 2009 introduced natural color images of objects like cars, birds, and dogs, increasing the complexity. ([Krizhevsky, 2009](https://www.cs.toronto.edu/~kriz/cifar.html)) Similarly, ImageNet later the same year provided 1.2 million images across 1,000 categories. ([Deng, 2009](https://ieeexplore.ieee.org/document/5206848)) When one research team claimed their system achieved 95% accuracy on MNIST or ImageNet and another claimed 98%, everyone knew exactly what those numbers meant. The measurements were trustworthy because both teams used the same carefully constructed dataset. Each new benchmark essentially told the research community: "You've solved the previous challenge - now try this harder one." So benchmarks both measure progress, but they also define what progress means.
 
-![Figure 5.2](https://ai-safety-atlas.com/_astro/2784833c401935f9b32b3e0ace04bab7648fb53ba6fc9ec0c514c3533bec579f.BK7LXcI4_ZJBSWM.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120484164}@@5.2](https://ai-safety-atlas.com/_astro/2784833c401935f9b32b3e0ace04bab7648fb53ba6fc9ec0c514c3533bec579f.BK7LXcI4_ZJBSWM.webp)--}{++{"author":"Elias's AI","timestamp":1789120484164}@@5.2](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-2.webp)++}
 
 *Figure 5.2: Examples of digits from MNIST ([MNIST database - Wikipedia](https://upload.wikimedia.org/wikipedia/commons/b/b1/MNIST_dataset_example.png))*
 
@@ -56,13 +54,13 @@ AI basically had a similar problem before we started using standardized benchmar
 
 **Language model benchmarking has already evolved, and is going to continue evolving**. Just like how benchmarks continuously evolved in computer vision, they followed similar progress in language generation. Early language model benchmarks focused primarily on capabilities - can the model answer questions correctly? Complete sentences sensibly? Translate between languages? Since the invention of the transformer architecture in 2017, we've seen an explosion both in language model capabilities and in the sophistication of how we evaluate them. We can’t possibly be exhaustive, but here are just a couple of benchmarks that current day language models are evaluated against:
 
-![Figure 5.3](https://ai-safety-atlas.com/_astro/d7833437e060dc7b1cbb020cedd5219501ff01de40abdaa699952f3eade804d9.UlpuVOHc_1Hdk6v.webp)
+![Figure 5.3]({--{"author":"Elias's AI","timestamp":1789120389073}@@https://ai-safety-atlas.com/_astro/d7833437e060dc7b1cbb020cedd5219501ff01de40abdaa699952f3eade804d9.UlpuVOHc_1Hdk6v.webp--}{++{"author":"Elias's AI","timestamp":1789120389073}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-3.webp++})
 
 *Figure 5.3: Example of popular language models (Claude 3.5) being evaluated on various benchmarks ([Anthropic, 2024](https://www.anthropic.com/news/claude-3-5-sonnet))*
 
-%%
+![Top performing AI systems in coding, math, and language-based knowledge tests](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-5-2.png)
+
 *Interactive figure 5.2: Benchmark performance on coding, math and language. ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence))*
-%%
 
 :::callout {title="Examples of various capabilities benchmarks — Optional · 2 min read" tone="neutral" collapse="closed"}
 
@@ -74,7 +72,7 @@ AI basically had a similar problem before we started using standardized benchmar
 
 **Benchmarking SWE and coding**. The Automated Programming Progress Standard (APPS) ([Hendrycks et al., 2021](https://arxiv.org/abs/2105.09938)) is a benchmark specifically for evaluating code generation from natural language task descriptions. Similarly, HumanEval ([Chen et al, 2021](https://arxiv.org/abs/2107.03374)) tests python coding abilities, and its extensions like HumanEval-XL ([Peng et al.,2024](https://arxiv.org/abs/2402.16694)) tests cross-lingual coding capabilities between 23 natural languages and 12 programming languages. HumanEval-V ([Zhang et al., 2024](https://arxiv.org/abs/2410.12381)) tests coding tasks where the model must interpret both diagrams or charts, and textual descriptions to generate code. BigCode ([Zuho et al., 2024](https://arxiv.org/abs/2406.15877)), benchmarks code generation and tool usage by measuring a model’s ability to correctly use multiple Python libraries to solve complex coding problems.
 
-![Figure 5.4](https://ai-safety-atlas.com/_astro/9bbd596f14e769f0f3b13f8dbb81812e83e7d07952777c0a1337c27112e0cb11.QmIt5PJV_27mBn.webp)
+![Figure 5.4]({--{"author":"Elias's AI","timestamp":1789120413366}@@https://ai-safety-atlas.com/_astro/9bbd596f14e769f0f3b13f8dbb81812e83e7d07952777c0a1337c27112e0cb11.QmIt5PJV_27mBn.webp--}{++{"author":"Elias's AI","timestamp":1789120413366}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-4.webp++})
 
 *Figure 5.4: Example of coding task and test cases on APPS ([Hendrycks et al., 2021](https://arxiv.org/abs/2105.09938))*
 
@@ -82,17 +80,17 @@ AI basically had a similar problem before we started using standardized benchmar
 
 **Benchmarking ethics and bias.** The ETHICS benchmark ([Hendrycks et al., 2023](https://arxiv.org/abs/2008.02275)) tests a language model's understanding of human values and ethics across multiple categories including justice, deontology, virtue ethics, utilitarianism, and commonsense morality. The TruthfulQA ([Lin et al., 2021](https://arxiv.org/abs/2109.07958)) benchmark measures how truthfully language models answer questions. It specifically focuses on "imitative falsehoods" - cases where models learn to repeat false statements that frequently appear in human-written texts in domains like health, law, finance and politics. 
 
-![Figure 5.5](https://ai-safety-atlas.com/_astro/d496dfdb3a62f3a5865a8b347cd55766c0b6763579c989688f12038093da0c06.BhQ-bz6B_ZC3wg1.webp)
+![Figure 5.5]({--{"author":"Elias's AI","timestamp":1789120431036}@@https://ai-safety-atlas.com/_astro/d496dfdb3a62f3a5865a8b347cd55766c0b6763579c989688f12038093da0c06.BhQ-bz6B_ZC3wg1.webp--}{++{"author":"Elias's AI","timestamp":1789120431036}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-5.webp++})
 
 *Figure 5.5: Example of larger models being less truthful on TruthfulQA ([Lin et al., 2021](https://arxiv.org/abs/2109.07958)). This is an example of inverse scaling, i.e. when a bigger model performance decreases on some questions.*
 
-![Figure 5.6](https://ai-safety-atlas.com/_astro/61fd5ef10731487e0b94f416b0b73f0b0257c4cc833467db837386a0641e7576.CsA9koSj_2txvdi.webp)
+![Figure 5.6]({--{"author":"Elias's AI","timestamp":1789120459507}@@https://ai-safety-atlas.com/_astro/61fd5ef10731487e0b94f416b0b73f0b0257c4cc833467db837386a0641e7576.CsA9koSj_2txvdi.webp--}{++{"author":"Elias's AI","timestamp":1789120459507}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-6.webp++})
 
 *Figure 5.6: Example question from the ETHICS benchmark ([Hendrycks et al., 2023](https://arxiv.org/abs/2008.02275))*
 
 **Benchmarking safety**. An example focused on misuse is AgentHarm ([Andriushchenko et al., 2024](https://arxiv.org/abs/2410.09024)). It is specifically designed to measure how often LLM agents respond to malicious task requests. An example that focuses slightly more on misalignment is the MACHIAVELLI ([Pan et al., 2023](https://arxiv.org/abs/2304.03279)) benchmark. It has ‘choose your own adventure’ style games containing over half a million scenarios focused on social decision making. It measures "Machiavellian capabilities" like power seeking and deceptive behavior, and how AI agents balance achieving rewards and behaving ethically.
 
-![Figure 5.7](https://ai-safety-atlas.com/_astro/b91eebe50ad1fde86c8effdfbb40f87739b802dea3423c3cfc4bca227c67abfb.DV2lIzIw_Z1iAWVf.webp)
+![Figure 5.7]({--{"author":"Elias's AI","timestamp":1789120510361}@@https://ai-safety-atlas.com/_astro/b91eebe50ad1fde86c8effdfbb40f87739b802dea3423c3cfc4bca227c67abfb.DV2lIzIw_Z1iAWVf.webp--}{++{"author":"Elias's AI","timestamp":1789120510361}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-7.webp++})
 
 *Figure 5.7: A mock-up of a game in the MACHIAVELLI benchmark, a suite of text-based environments. At each step, the agent observes the scene and a list of possible actions; it selects an action from the list. Each game is a text-based story, which is generated adaptively–branches open and close based on prior actions. The agent receives a reward when it achieves one of the goals. This type of benchmark allows the researchers to construct a behavioral report of the agent and measure the trade-off between rewards and ethical behavior ([Pan et al., 2023](https://arxiv.org/abs/2304.03279)).*
 
@@ -100,7 +98,7 @@ AI basically had a similar problem before we started using standardized benchmar
 
 > **Warning:** This is an extra explanation of the frontier math mathematical benchmark. You can safely skip this.
 
-![Figure 5.8](https://ai-safety-atlas.com/_astro/de8fed02d64027eefcf8ef4a9efd59b8c4727448c190472139bc9e4f036fe371.39iinkdG_Z18TqL2.webp)
+![Figure 5.8]({--{"author":"Elias's AI","timestamp":1789120542352}@@https://ai-safety-atlas.com/_astro/de8fed02d64027eefcf8ef4a9efd59b8c4727448c190472139bc9e4f036fe371.39iinkdG_Z18TqL2.webp--}{++{"author":"Elias's AI","timestamp":1789120542352}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-8.webp++})
 
 *Figure 5.8: Mathematical subject interconnections in FrontierMath. Node sizes indicate the frequency of each subject’s appearance in problems, while connections indicate when multiple mathematical subjects are combined within single problems, demonstrating the benchmark’s integration of many mathematical domains. ([Glazer et al., 2024](https://arxiv.org/abs/2411.04872))*
 
@@ -108,13 +106,13 @@ AI basically had a similar problem before we started using standardized benchmar
 
 The benchmark spans most major branches of modern mathematics - from computationally intensive problems in number theory to abstract questions in algebraic topology and category theory. To ensure problems are truly novel, they undergo expert review and plagiarism detection. The benchmark also enforces strict "guess proofness" - problems must be designed so there's less than a 1% chance of guessing the correct answer without doing the mathematical work. This means problems often have large, non-obvious numerical answers that can only be found through proper mathematical reasoning. The benchmark provides an experimental environment where models can write and test code to explore mathematical ideas, similar to how human mathematicians work. While problems must have automatically verifiable answers (either numerical or programmatically expressible mathematical objects), they still require sophisticated mathematical reasoning to solve.
 
-![Figure 5.9](https://ai-safety-atlas.com/_astro/11d67a45ba91652a3be5c80bb4a9b4e4e98e6d7520fe37123230f9c1739c05b4.BC_AhCdv_Z1zHxJA.webp)
+![Figure 5.9]({--{"author":"Elias's AI","timestamp":1789120568857}@@https://ai-safety-atlas.com/_astro/11d67a45ba91652a3be5c80bb4a9b4e4e98e6d7520fe37123230f9c1739c05b4.BC_AhCdv_Z1zHxJA.webp--}{++{"author":"Elias's AI","timestamp":1789120568857}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-9.webp++})
 
 *Figure 5.9: One sample problem from the FrontierMath benchmark ([Besiroglu et al., 2024](https://epoch.ai/frontiermath/the-benchmark)).*
 
 Just to showcase the rapid pace of advancement even on this benchmark that even fields medal winning mathematicians consider extremely challenging, between the announcement of the FrontierMath benchmark the state-of-the-art models could solve less than 2% of FrontierMath problems. ([Glazer et al., 2024](https://arxiv.org/abs/2411.04872)) Just a couple of months later, OpenAI announced the o3 model, which then shot performance up to 25.2%. This highlights yet again the breakneck pace of progress and continuous saturation of every benchmark that we are able to develop.
 
-![Figure 5.10](https://ai-safety-atlas.com/_astro/b2487216ef86578ca399811541ab461b182b5679f8f3f36a61dab7dcfd15b1fc.BRUW7a6B_ZWAFqH.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120662936}@@5.10](https://ai-safety-atlas.com/_astro/b2487216ef86578ca399811541ab461b182b5679f8f3f36a61dab7dcfd15b1fc.BRUW7a6B_ZWAFqH.webp)--}{++{"author":"Elias's AI","timestamp":1789120662936}@@5.10](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-10.webp)++}
 
 *Figure 5.10: Performance of leading language models on FrontierMath. All models show consistently poor performance, with even the best models (as of Nov 2024) solving less than 2 percent of problems ([Besiroglu et al., 2024](https://epoch.ai/frontiermath/the-benchmark)). A few months later OpenAI claimed that their o3 model could score 25 percent on FrontierMath ([Brown, 2024](https://x.com/polynoamial/status/1870172996650053653?mx=2)).*
 
@@ -126,11 +124,11 @@ To keep up with the pace, researchers are developing what is described as "Human
 
 Current benchmarks face several critical limitations that make them insufficient for truly evaluating AI safety. Let's examine these limitations and understand why they matter.
 
-Training Data** Contamination**. Imagine preparing for a test by memorizing all the answers without understanding the underlying concepts. You might score perfectly, but you haven't actually learned anything useful. LLMs face a similar problem. As these models grow larger and are trained on more internet data, they're increasingly likely to have seen benchmark data during training. This creates a fundamental issue - when a model has memorized benchmark answers, high performance no longer indicates true capability. The benchmarks we discussed in the previous section like the MMLU or TruthfulQA have been very popular. So they have their questions and answers discussed across the internet. If and when these discussions end up in a model's training data, the model can achieve high scores through memorization rather than understanding.
+{--{"author":"Elias's AI","timestamp":1789120627803}@@Training Data** Contamination**.--}{++{"author":"Elias's AI","timestamp":1789120627803}@@**Training Data Contamination.**++} Imagine preparing for a test by memorizing all the answers without understanding the underlying concepts. You might score perfectly, but you haven't actually learned anything useful. LLMs face a similar problem. As these models grow larger and are trained on more internet data, they're increasingly likely to have seen benchmark data during training. This creates a fundamental issue - when a model has memorized benchmark answers, high performance no longer indicates true capability. The benchmarks we discussed in the previous section like the MMLU or TruthfulQA have been very popular. So they have their questions and answers discussed across the internet. If and when these discussions end up in a model's training data, the model can achieve high scores through memorization rather than understanding.
 
 **Understanding vs. Memorization Example**. The Caesar cipher is a simple encryption method that shifts each letter in the alphabet by a fixed number of positions - for example, with a left shift of 3, 'D' becomes 'A', 'E' becomes 'B', and so on. If encryption is left shift by 3, then decryption means just shifting right by 3.
 
-![Figure 5.11](https://ai-safety-atlas.com/_astro/4e7b72d4f37bf1e2bd2c2f343b15e227b550fa089eda21cc83003e38676b3bb5.b_ClVnIw_ZMrrUp.webp)
+![Figure 5.11]({--{"author":"Elias's AI","timestamp":1789120608973}@@https://ai-safety-atlas.com/_astro/4e7b72d4f37bf1e2bd2c2f343b15e227b550fa089eda21cc83003e38676b3bb5.b_ClVnIw_ZMrrUp.webp--}{++{"author":"Elias's AI","timestamp":1789120608973}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-11.webp++})
 
 *Figure 5.11: Example of a Cesar Cipher*
 
