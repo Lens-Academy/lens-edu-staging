@@ -48,6 +48,9 @@ did the rules, checks or supervision fail to do there?
 Then write one more line. Say what it was about those rules that tied them to the old
 setting. Be specific about the rule, not about the situation.
 
+And one line more. In your case, at what point could someone have re-tied the rules to
+the new setting, and what would it have cost them to stop and do that?
+
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
@@ -81,6 +84,9 @@ YOUR TASK, in order.
    that was tied to the original setting?
 3. Do not tell them whether their example supports or undermines Soares. They are about
    to find out.
+4. On the point where the rules could have been re-tied: ask what the person who could
+   have done it would have had to give up, usually speed or scope. If they named no
+   point, say so plainly.
 
 Do not grade. Do not score. Do not praise.
 
