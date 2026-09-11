@@ -89,7 +89,7 @@ id:: '340872ac-bf26-49dc-8b37-698495d9e297'
 content::
 \## Which ones would you bet on?
 
-Someone shows you a system they have trained. They will not tell you what it was trained for as they are not entirely certain themselves.
+Someone shows you a system they have trained. They can not tell you what it was trained for as they are not entirely certain themselves.
 
 However, they offer you four claims about what it will do, and are willing to take a sizable bet on any combination of claims you bet on being true.
 
