@@ -20,7 +20,6 @@ llm-review:
     fetched: 2026-08-30
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/governance.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter4-a0a322670b21725098e1839edee61e6b3af18c4a900a1d2e5731d3efe4852f1a.pdf)*
 
 %%
 Add discussion note here:
@@ -33,7 +32,7 @@ Only a handful of companies make the chips needed to build advanced AI. If gover
 
 ---
 
-![Figure 4.6](https://ai-safety-atlas.com/_astro/59c30e2b4f5a02c1ff8c6b38732916a2e89404306f18ba2bb3a5170bbfeac517.SZXGaKQ__2q8p86.webp)
+![Figure 4.6](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-6.webp)
 
 *Figure 4.6: Example of an NVIDIA Blackwell B100 accelerator (2025). Each B100 carries 192 GB of HBM3e memory and delivers nearly 20 PFLOPS of FP4 throughput, roughly doubling the performance of the H100 from 2024 ([NVIDIA, 2025](https://resources.nvidia.com/en-us-blackwell-architecture)).*
 
@@ -43,13 +42,13 @@ Compute is a powerful governance target because it meets all three criteria for 
 - **Controllability**: The supply chain for advanced AI chips has clear checkpoints. Only three companies dominate the current market: NVIDIA designs most AI training chips, TSMC manufactures the most advanced processors, and ASML produces the only machines capable of making cutting-edge chips. This concentration enables governance through export controls, licensing requirements, and supply chain monitoring ([Grunewald, 2023](https://www.iaps.ai/research/ai-chip-making-china);[ Sastry et al., 2024](https://arxiv.org/abs/2402.08797)).
 - **Meaningfulness**: As we discussed in the risks chapter, the most dangerous capabilities are likely to emerge from highly capable models, which require massive amounts of specialized computing infrastructure to train and run ([Anderljung et al., 2023](https://arxiv.org/abs/2307.03718);[ Sastry et al., 2024](https://arxiv.org/abs/2402.08797)). Compute requirements directly constrain what AI systems can be built - even with cutting-edge algorithms and vast datasets, organizations cannot train frontier models without sufficient computing power ([Besiroglu et al., 2024](https://arxiv.org/abs/2401.02452)). This makes compute a particularly meaningful point of intervention, as it allows us to shape AI development before potentially dangerous systems emerge rather than trying to control them after the fact ([Heim et al., 2024](https://arxiv.org/abs/2403.08501)).
 
-%%
+![Performance on knowledge tests vs. training computation](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-4-1.png)
+
 *Interactive figure 4.1: Performance on knowledge tests vs. training computation. Performance on knowledge tests is measured with the MMLU benchmark, here with 5-shot learning, which gauges a model’s accuracy after receiving only five examples for each task. Training computation is measured in total petaFLOP, which is 1e15 floating-point operations ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
-%%
 
 The discussion in the next few subsections will focus on the elements of actually implementing compute governance. We explain how concentrated supply chains enable tracking and monitoring of compute, we also give a brief discussion of hardware based on-chip compute governance mechanisms, and finally discuss some limitations based around limitations to governance based on compute thresholds, and how distributed training and open source might challenge compute governance.
 
-![Figure 4.7](https://ai-safety-atlas.com/_astro/771e4429ee1186aa2a6cd6306aaa243e745e4bc1a730568321bc5604e439c4fd.CdyiTuGi_m1RMP.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120037985}@@4.7](https://ai-safety-atlas.com/_astro/771e4429ee1186aa2a6cd6306aaa243e745e4bc1a730568321bc5604e439c4fd.CdyiTuGi_m1RMP.webp)--}{++{"author":"Elias's AI","timestamp":1789120037985}@@4.7](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-7.webp)++}
 
 *Figure 4.7: Sketch of research domains for AI and Compute ([Heim, 2021](https://www.lesswrong.com/posts/G4KHuYC3pHry6yMhi)).*
 
@@ -57,23 +56,23 @@ The discussion in the next few subsections will focus on the elements of actuall
 
 **AI-specialized chips emerge from a complex global process.** It starts with mining and refining raw materials like silicon and rare earth elements. These materials become silicon wafers, which are transformed into chips through hundreds of precise manufacturing steps. The process requires specialized equipment (particularly, photolithography machines from ASML) along with various chemicals, gases, and tools from other suppliers ([Grunewald, 2023](https://www.iaps.ai/research/ai-chip-making-china)).
 
-![Figure 4.8](https://ai-safety-atlas.com/_astro/67b9658349af7ed0a1c781fae51d7ce09355c502b7683a326b2ca9971fecb2aa.DQPN3kon_2uiO1Q.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120061241}@@4.8](https://ai-safety-atlas.com/_astro/67b9658349af7ed0a1c781fae51d7ce09355c502b7683a326b2ca9971fecb2aa.DQPN3kon_2uiO1Q.webp)--}{++{"author":"Elias's AI","timestamp":1789120061241}@@4.8](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-8.webp)++}
 
 *Figure 4.8: The compute supply chain ([Belfield & Hua 2022](https://verfassungsblog.de/compute-and-antitrust/)).*
 
 **There are several chokepoints in semiconductor design and manufacturing.** The supply chain is dominated by a handful of companies at critical steps. NVIDIA designs most AI-specialized chips, TSMC manufactures the most advanced chips, and ASML produces the machines needed by TSMC to manufacture the chips ([Grunewald, 2023](https://www.iaps.ai/research/ai-chip-making-china);[ Pilz et al., 2023](https://arxiv.org/abs/2311.02651)). It is estimated that NVIDIA controls around 80 percent of the market for AI training GPUs ([Jagielski, 2024](https://www.nasdaq.com/articles/nvidia-dominating-artificial-intelligence-chip-market-apple-has-been-securing-supply)). Similarly both TSMC, and ASML maintain strong leads in their respective domains ([Pilz et al., 2023](https://arxiv.org/abs/2311.02651)). Besides building the chips, the purchase and operation of them at the scale needed for frontier AI models requires massive upfront investment. In 2019, academia and governments were leading in AI supercomputers. Today, companies control over 80 percent of global AI computing capacity, while governments and academia have fallen below 20 percent ([Pilz et al., 2025](https://arxiv.org/abs/2504.16026)). Just three providers - Amazon, Microsoft, and Google - control about 65 percent of cloud computing services ([Jagielski, 2024](https://www.nasdaq.com/articles/nvidia-dominating-artificial-intelligence-chip-market-apple-has-been-securing-supply)). A small number of AI companies like OpenAI, Anthropic, and DeepMind operate their own massive GPU clusters, but even these require specialized hardware subject to supply chain controls ([Pilz & Heim, 2023](https://arxiv.org/abs/2311.02651)).
 
-%%
-*Interactive figure 4.2: Market share for logic chip production, by manufacturing stage ([Giattino et al., 2023](https://ourworldindata.org/grapher/market-share-logic-chip-production-manufacturing-stage?tab=chart)).*
-%%
+![Market share for logic chip production, by manufacturing stage](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-4-2.png)
 
-![Figure 4.9](https://ai-safety-atlas.com/_astro/9ced15c92d6865d552b524cb192dd5b47fc3f158c6f0e7169e996c27815a5b6f.8SpI-dGK_Z9z596.webp)
+*Interactive figure 4.2: Market share for logic chip production, by manufacturing stage ([Giattino et al., 2023](https://ourworldindata.org/grapher/market-share-logic-chip-production-manufacturing-stage?tab=chart)).*
+
+![Figure {--{"author":"Elias's AI","timestamp":1789120089674}@@4.9](https://ai-safety-atlas.com/_astro/9ced15c92d6865d552b524cb192dd5b47fc3f158c6f0e7169e996c27815a5b6f.8SpI-dGK_Z9z596.webp)--}{++{"author":"Elias's AI","timestamp":1789120089674}@@4.9](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-9.webp)++}
 
 *Figure 4.9: Concentration of the AI Chip Supply Chain Expressed as percentage of total market share ([Sastry et al., 2024](https://arxiv.org/abs/2402.08797)).*
 
 **Supply chain concentration creates natural intervention points.** Authorities only need to work with a small number of key players to implement controls, as demonstrated by U.S. export restrictions on advanced chips ([Heim et al., 2024](https://arxiv.org/abs/2403.08501)). It is worth keeping in mind though that this heavy concentration is also concerning. We're seeing a growing "compute divide" - while major tech companies can spend hundreds of millions on AI training, academic researchers struggle to access even basic resources ([Besiroglu et al., 2024](https://arxiv.org/abs/2401.02452)). This impacts who can participate in AI development and reduces independent oversight of frontier models. It also raises concerns around potential power concentration.
 
-![Figure 4.10](https://ai-safety-atlas.com/_astro/b408a4d78b2df2e71d627ec56264484a6c848e8ead8ec18e80d16b0d32eab4a4.Bh3vge5K_Z1XeR0A.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120112103}@@4.10](https://ai-safety-atlas.com/_astro/b408a4d78b2df2e71d627ec56264484a6c848e8ead8ec18e80d16b0d32eab4a4.Bh3vge5K_Z1XeR0A.webp)--}{++{"author":"Elias's AI","timestamp":1789120112103}@@4.10](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-10.webp)++}
 
 *Figure 4.10: The spectrum of chip architectures with trade-offs in regards to efficiency and flexibility.*
 
@@ -85,7 +84,7 @@ The discussion in the next few subsections will focus on the elements of actuall
 
 **Regulations have already begun using compute thresholds to trigger oversight mechanisms.** The U.S. Executive Order on AI requires companies to notify the government about training runs exceeding $10^{26}$ operations - a threshold designed to capture the development of the most capable systems. The EU AI Act sets an even lower threshold of $10^{25}$ operations, requiring not just notification but also risk assessments and safety measures ([Heim & Koessler, 2024](https://arxiv.org/abs/2405.10799)). These thresholds help identify potentially risky development activities before they complete, enabling preventive rather than reactive governance.
 
-![Figure 4.11](https://ai-safety-atlas.com/_astro/59de5f71c7bf44805c8c348247f4120117459981ad5826085548c63f2e2b9b4a.DT6q2Mtb_25XqR4.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120127704}@@4.11](https://ai-safety-atlas.com/_astro/59de5f71c7bf44805c8c348247f4120117459981ad5826085548c63f2e2b9b4a.DT6q2Mtb_25XqR4.webp)--}{++{"author":"Elias's AI","timestamp":1789120127704}@@4.11](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-11.webp)++}
 
 *Figure 4.11: Compute Thresholds as specified in the US executive order 14110 ([Sastry et al., 2024](https://arxiv.org/abs/2402.08797)).*
 
@@ -93,7 +92,7 @@ The discussion in the next few subsections will focus on the elements of actuall
 
 ## On-Chip Controls
 
-![Figure 4.12](https://ai-safety-atlas.com/_astro/2a5463a937e29f9b96b72e2950d50433a52e81d04cb8b8248c397758baa063ae.rqgWC4ES_Xejre.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120152476}@@4.12](https://ai-safety-atlas.com/_astro/2a5463a937e29f9b96b72e2950d50433a52e81d04cb8b8248c397758baa063ae.rqgWC4ES_Xejre.webp)--}{++{"author":"Elias's AI","timestamp":1789120152476}@@4.12](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-12.webp)++}
 
 *Figure 4.12: Current AI chips already have some components of this architecture, but not all. These gaps likely could be closed with moderate development effort as extensions of functionality already in place ([Aarne et al., 2024](https://www.iaps.ai/research/secure-governable-chips)).*
 
@@ -105,7 +104,7 @@ The discussion in the next few subsections will focus on the elements of actuall
 
 **The trend over the last decade has involved more compute, but this will not last forever.** We spoke at length about scaling laws in previous chapters. Research suggests scaling based returns to AI capabilities are still possible through 2030 ([Sevilla et al., 2024](https://epoch.ai/blog/can-ai-scaling-continue-through-2030)). Algorithmic improvements also enhance efficiency, meaning the same compute achieves more capability over time. Smaller models could begin to show comparable capabilities and risks. For example, Falcon 180B is outperformed by far smaller models like Llama-3 8B. This makes static compute thresholds less reliable as capability indicators without regular updates ([Hooker, 2024](https://arxiv.org/abs/2407.05694)). Moreover, reasoning models (LRMs) and inference-time scaling (e.g. OpenAI o3, Claude 4, DeepSeek r1), and methods like model distillation can dramatically improve model capabilities without changing the amount of compute used to train a model. Current governance frameworks do not account for these post-training enhancements ([Shavit, 2023](https://arxiv.org/abs/2303.11341)).
 
-![Figure 4.13](https://ai-safety-atlas.com/_astro/8669609832f5ae79a85e0326d33f399480a7e1a5421aa41568ee78ed78ce606c.C3ldS3EX_Z247y4n.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120154189}@@4.13](https://ai-safety-atlas.com/_astro/8669609832f5ae79a85e0326d33f399480a7e1a5421aa41568ee78ed78ce606c.C3ldS3EX_Z247y4n.webp)--}{++{"author":"Elias's AI","timestamp":1789120154189}@@4.13](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-13.webp)++}
 
 *Figure 4.13: Estimates of the scale constraints imposed by the most important bottlenecks to scale. Each estimate is based on historical projections. The dark shaded box corresponds to an interquartile range and light shaded region to an 80 percent confidence interval. The four boxes showcase four constraints that might slow down growth in the future: power, chips (compute), data and latency ([Sevilla et al., 2024](https://epoch.ai/blog/can-ai-scaling-continue-through-2030)).*
 
