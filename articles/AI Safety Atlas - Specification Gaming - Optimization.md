@@ -18,8 +18,6 @@ llm-review:
     fetched: 2026-09-03
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/specification-gaming.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter6-af895defbf8761a30ac565755f204072e09a5d599ca725f3de64de4b547c2f28.pdf)*
-
 %%
 Add discussion note here:
 
@@ -49,7 +47,7 @@ This notion initially stems from the work of Charles Goodhart in economic theory
 
 To illustrate this concept, the following is a story of a Soviet nail factory. The factory received instructions to produce as many nails as possible, with rewards for high output and penalties for low output. Within a few years, the factory had significantly increased its nail production—tiny nails that were essentially thumbtacks and proved impractical for their intended purpose. Consequently, the planners shifted the incentives: they decided to reward the factory based on the total weight of the nails produced. Within a few years, the factory began producing large, heavy nails—essentially lumps of steel—that were equally ineffective for nailing things.
 
-![Figure 6.2](https://ai-safety-atlas.com/_astro/ed442206deda4a69762223a6357a43ec87e4971a4d2d9f7d9556b5b0d21a08df.3VKvKnn1_Z2jtz9w.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789119803970}@@6.2](https://ai-safety-atlas.com/_astro/ed442206deda4a69762223a6357a43ec87e4971a4d2d9f7d9556b5b0d21a08df.3VKvKnn1_Z2jtz9w.webp)--}{++{"author":"Elias's AI","timestamp":1789119803970}@@6.2](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-2.webp)++}
 
 *Figure 6.2: Graphic image showcasing the difficulty of specification while avoiding goodhart's law. ([Epicural, 2021](https://epicural.com/2021/04/27/goodharts-law/))*
 
