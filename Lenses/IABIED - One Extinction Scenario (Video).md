@@ -29,6 +29,8 @@ One footnote from the book's version is worth keeping in mind while you watch: e
 
 As you watch, hold on to two things: the moment that sticks with you most, and the step you find hardest to believe.
 
+You made four bets before this. Have them where you can see them.
+
 #### Video
 source:: [[../video_transcripts/species-documenting-agi-pov-what-you-would-see-during-an-ai-takeover]]
 from:: 2:03
