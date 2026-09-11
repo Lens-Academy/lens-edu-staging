@@ -48,7 +48,7 @@ Write down what, if anything, both of them end up having to do anyways in accomp
 
 assessment-instructions:: This is the opening beat of the unit and comes before any reading. The learner has been asked what two people with unrelated goals both end up having to do. The point is to have them notice a pattern they already know from ordinary life, so that the reading names something they have already seen rather than introducing it cold.
 
-The answers the question is fishing for, roughly in order of how often they come up: money or resources; time; staying healthy and alive; keeping the option open, meaning not burning bridges or foreclosing paths; and not being talked out of it. The last two are the interesting ones and the least often volunteered.
+The answers the question is fishing for, roughly in order of how often they come up: money or resources; time; staying healthy and alive; maximizing optionality, meaning not burning bridges or foreclosing paths; and not being talked out of it. The last two are the interesting ones and the least often volunteered.
 
 Response length: 60 to 110 words. One or two short paragraphs. No lists.
 
