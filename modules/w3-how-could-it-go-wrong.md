@@ -56,6 +56,11 @@ source:: [[../Lenses/U3 - Capabilities Generalize Further]]
 # Lens: The Case Against Control
 source:: [[../Lenses/U3 - The Case Against Control]]
 
+# Submodule: What changed since these were written
+
+# Lens: What Just Happened
+source:: [[../Lenses/AIF2 - What Just Happened]]
+
 # Submodule: What you think now
 
 # Lens: What Moved
