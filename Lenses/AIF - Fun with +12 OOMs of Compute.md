@@ -93,9 +93,9 @@ Consider his five, and consider your answer from above. Answer three to five of 
 - Where do you think he might still be wrong?
 - What confused you, and why?
 
-{++{"author":"Lauren's AI","timestamp":1788772624795}@@max-time:: 6:00
+max-time:: 6:00
 
-++}assessment-instructions:: The student has their own list and has now read the author's five answers.
+assessment-instructions:: The student has their own list and has now read the author's five answers.
 
 The skill being practiced is accurate diffing and evaluation of the claims.
 
@@ -159,43 +159,28 @@ to:: your median should be roughly 10 years earlier than hers, all else equal: 2
 #### Question
 id:: 71a67fdb-6523-4c79-9724-c5219ab45abd
 content::
-\## {--{"author":"Lauren's AI","timestamp":1788824490689}@@Give --}{++{"author":"Lauren's AI","timestamp":1788824490689}@@His number against yours
+\## His number against yours
 
-You committed to ++}a number{--{"author":"Lauren's AI","timestamp":1788824490689}@@
-
-Now you give a number: **given a trillion times more compute than was available in 2016, how likely--}{++{"author":"Lauren's AI","timestamp":1788824490689}@@ before reading his. He says 90 percent, with an inside view near 99. Ajeya Cotra, whose model he++} is {--{"author":"Lauren's AI","timestamp":1788824490689}@@TAI?**--}{++{"author":"Lauren's AI","timestamp":1788824490689}@@arguing with, says 50.++}
+You committed to a number before reading his. He says 90 percent, with an inside view near 99. Ajeya Cotra, whose model he is arguing with, says 50.
 {>>{"author":"lauren (chrome@what)","timestamp":1787818724284}@@TODO: need to move this question earlier in the article, before he gives his answer, and put the rest of the article in a spoiler block. also need to be able to put a timer so people can intentionally think for at least a certain amount of time.<<}
-{--{"author":"Lauren's AI","timestamp":1788824495211}@@Note on **subjective probability**: we'll get into this in more detail later, but putting a probability on something that will happen only once is a bit of a subjective activity. One way to think about it: when asked for the probability of an event (such as TAI), consider all worlds you think could turn out to be possible. Then: in what percentage of the worlds you imagine does the event occur? That percentage is your probability.
+Does your number move? Say by how much, and name which of his arguments moved it. If it does not move, say why none of them did.
 
-When you answer, also write down something about what leads you to your number. If you can show--}{++{"author":"Lauren's AI","timestamp":1788824495211}@@Does++} your {--{"author":"Lauren's AI","timestamp":1788824495211}@@work in detail, that's ideal. If you wrote down disagreements above, you're looking for --}{++{"author":"Lauren's AI","timestamp":1788824495211}@@number move? Say by ++}how {--{"author":"Lauren's AI","timestamp":1788824495211}@@they lead you to imagine a particular set of possible-worlds.
+max-time:: 8:00
 
- In particular, write down in what ways you're reasoning from an *inside view* or an *outside view*. An inside view is a description based on your understanding of mechanisms --}{++{"author":"Lauren's AI","timestamp":1788824495211}@@much, ++}and{--{"author":"Lauren's AI","timestamp":1788824495211}@@ processes. An *outside view* is a description based on comparisons to types of historical events that seem similar.
+assessment-instructions:: The student committed to their own probability in the previous question, BEFORE reading the author's answer. They have now read his Question Two: his 90 percent, his inside view near 99, and his comparison with Ajeya Cotra's 50 percent. They are saying whether their number moved.
 
- (Hopefully by the end--}{++{"author":"Lauren's AI","timestamp":1788824495211}@@ name which++} of{--{"author":"Lauren's AI","timestamp":1788824495211}@@ the course you'll feel moderately comfortable with either!)
+Maximum 2 tutor turns. Keep an internal turn counter.
 
- Bonus: write down what change your probability by at least 20% in the next year. What would make at least 20%--}{++{"author":"Lauren's AI","timestamp":1788824495211}@@ his arguments moved it. If it does not move, say why none++} of{--{"author":"Lauren's AI","timestamp":1788824495211}@@ the possible-worlds you're imagining turn out to be impossible?--}{++{"author":"Lauren's AI","timestamp":1788824495211}@@ them did.++}
-
-{++{"author":"Lauren's AI","timestamp":1788772627361}@@max-time:: 8:00
-
-++}assessment-instructions:: The student {--{"author":"Lauren's AI","timestamp":1788824504217}@@has read the author's Question Two, his 90 percent, and the comparison with Ajeya's 50 percent. They are now committing--}{++{"author":"Lauren's AI","timestamp":1788824504217}@@committed++} to their own{--{"author":"Lauren's AI","timestamp":1788824504217}@@ number.
-
-Up to 3 tutor turns, then offer to continue or close.
-
-The pass bar is: a number, plus which of--}{++{"author":"Lauren's AI","timestamp":1788824504217}@@ probability in the previous question, BEFORE reading++} the {--{"author":"Lauren's AI","timestamp":1788824504217}@@five scenarios carries it, plus a concrete thing learnable within a year that would move it twenty points. A number--}{++{"author":"Lauren's AI","timestamp":1788824504217}@@author's answer. They have now read his Question Two: his 90 percent, his inside view near 99, and his comparison++} with {--{"author":"Lauren's AI","timestamp":1788824504217}@@no named movers falls short of the bar. Exception the student-facing text explicitly offers: "nothing could move me, and here is what that means about the number". A thoughtful version of that meets the bar; engage with what they say --}{++{"author":"Lauren's AI","timestamp":1788824504217}@@Ajeya Cotra's 50 percent. They are saying whether their number moved.
-
-Maximum 2 tutor turns. Keep ++}an{--{"author":"Lauren's AI","timestamp":1788824504217}@@ unmovable number is tracking rather than demanding movers anyway.--}{++{"author":"Lauren's AI","timestamp":1788824504217}@@ internal turn counter.++}
-
-Response length: {--{"author":"Lauren's AI","timestamp":1788824504217}@@120--}{++{"author":"Lauren's AI","timestamp":1788824504217}@@80++} to {--{"author":"Lauren's AI","timestamp":1788824504217}@@200--}{++{"author":"Lauren's AI","timestamp":1788824504217}@@150++} words. Short paragraphs only. No {--{"author":"Lauren's AI","timestamp":1788824504217}@@lists longer than 4 items.--}{++{"author":"Lauren's AI","timestamp":1788824504217}@@lists.++}
+Response length: 80 to 150 words. Short paragraphs only. No lists.
 
 Response style:
-- {--{"author":"Lauren's AI","timestamp":1788824504217}@@Calm, rigorous,--}{++{"author":"Lauren's AI","timestamp":1788824504217}@@Calm++} and {--{"author":"Lauren's AI","timestamp":1788824504217}@@educational.--}{++{"author":"Lauren's AI","timestamp":1788824504217}@@direct.++}
-- Do not over-validate. Avoid generic praise.{--{"author":"Lauren's AI","timestamp":1788824504217}@@
-- If the answer is vague, ask for precision.--}
+- Calm and direct.
+- Do not over-validate. Avoid generic praise.
 
 What to do in each reply:
-1. Do NOT argue the student toward any {--{"author":"Lauren's AI","timestamp":1788824504217}@@particular --}number, including the author's. Argue them toward ownership of theirs.
-2. {--{"author":"Lauren's AI","timestamp":1788824504217}@@"90%--}{++{"author":"Lauren's AI","timestamp":1788824504217}@@Reward a stated direction with a named mover: "I moved from X to Y++} because {--{"author":"Lauren's AI","timestamp":1788824504217}@@he said 90%" gets exactly one push: whose inside view produced that number,--}{++{"author":"Lauren's AI","timestamp":1788824504217}@@of his argument about Z" is the target shape. "I did not move, because his argument assumes W++} and {--{"author":"Lauren's AI","timestamp":1788824504217}@@what is yours?--}{++{"author":"Lauren's AI","timestamp":1788824504217}@@I do not" meets the bar equally.++}
-3. {--{"author":"Lauren's AI","timestamp":1788824504217}@@If they cannot name anything that would move them twenty points, take that seriously and ask what an unmovable number--}{++{"author":"Lauren's AI","timestamp":1788824504217}@@A number that jumps to 90 "because he said 90" gets exactly one push: whose inside view produced that number, and what++} is {--{"author":"Lauren's AI","timestamp":1788824504217}@@tracking.--}{++{"author":"Lauren's AI","timestamp":1788824504217}@@yours?++}
+1. Do NOT argue the student toward any number, including the author's. Argue them toward ownership of theirs.
+2. Reward a stated direction with a named mover: "I moved from X to Y because of his argument about Z" is the target shape. "I did not move, because his argument assumes W and I do not" meets the bar equally.
+3. A number that jumps to 90 "because he said 90" gets exactly one push: whose inside view produced that number, and what is yours?
 
 On close: tell them their number gets revisited at module end, and give a brief calibration on what they have solid and what is still borrowed.{++{"author":"AI","timestamp":1788869418262}@@
 
