@@ -31,6 +31,9 @@ Live-cohort rule applies once a cohort is inside this unit: do not split, reorde
 remove lenses; add new material only as a new lens appended at the end. Keep reading and tutor
 minutes accurate when content changes. %%
 
+%% 2026-09-11 20:18: sync probe (Plumb); harmless, delete at will. %%
+%% 2026-09-11 20:23: sync probe B via the share-token connector (Plumb). %%
+
 # Submodule: The handoff
 
 # Lens: The Handoff
