@@ -12,8 +12,6 @@ tags:
   - "article-importer"
 ---
 
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/specification-gaming.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter6-af895defbf8761a30ac565755f204072e09a5d599ca725f3de64de4b547c2f28.pdf)*
-
 %%
 Add discussion note here:
 
@@ -25,7 +23,7 @@ Training an AI with human feedback, like thumbs-up or thumbs-down, can help shap
 
 ---
 
-![Figure 6.12](https://ai-safety-atlas.com/_astro/45eab69fab42f7c0af19f4938680adc8b572b71bb11dae76e334215651c1331a.BXd8uqbF_Z1Ech5e.webp)
+![Figure 6.12](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-12.webp)
 
 *Figure 6.12: Illustration of different ways being pursued of achieving alignment. ([Cao et al., 2024](https://arxiv.org/abs/2406.01252))*
 
@@ -42,7 +40,7 @@ Reward modeling was developed to apply reinforcement learning (RL) algorithms to
 - A reward model is trained with user feedback. This model learns to predict what humans would consider good behavior.
 - An agent trained with RL, where the reward for the agent is determined by the outputs of the reward model
 
-![Figure 6.13](https://ai-safety-atlas.com/_astro/6e4596cd9cd188b465fea8eeb49c38cda7ac0c37b32db67144f84711f8230267.BtH16pgK_1byMEp.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120152280}@@6.13](https://ai-safety-atlas.com/_astro/6e4596cd9cd188b465fea8eeb49c38cda7ac0c37b32db67144f84711f8230267.BtH16pgK_1byMEp.webp)--}{++{"author":"Elias's AI","timestamp":1789120152280}@@6.13](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-13.webp)++}
 
 *Figure 6.13: Scalable agent alignment via reward modeling ([DeepMind, 2018](https://deepmindsafetyresearch.medium.com/scalable-agent-alignment-via-reward-modeling-bf4ab06dfd84))*
 
@@ -54,7 +52,7 @@ There are also some variants of reward modeling such as:
 
 1. **Recursive reward modeling** seeks to introduce scalability to the technique. In recursive reward modeling, the focus is on decomposing a complex task into simpler subtasks and using reward modeling at each level to train agents that can perform those subtasks. This hierarchical structure allows for more efficient training and credit assignment, as well as the exploration of novel solutions that may not be apparent to humans. This is shown in the diagram below. Scalable oversight will be covered in greater depth in future chapters.
 
-![Figure 6.14](https://ai-safety-atlas.com/_astro/479cfcbd0c1666d375a732ba6ecd33a2fbaeafc70c893b860f0585715398d172.ByDCYkM6_Zr0lfe.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120176076}@@6.14](https://ai-safety-atlas.com/_astro/479cfcbd0c1666d375a732ba6ecd33a2fbaeafc70c893b860f0585715398d172.ByDCYkM6_Zr0lfe.webp)--}{++{"author":"Elias's AI","timestamp":1789120176076}@@6.14](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-14.webp)++}
 
 *Figure 6.14: Scalable agent alignment via reward modeling ([DeepMind, 2018](https://deepmindsafetyresearch.medium.com/scalable-agent-alignment-via-reward-modeling-bf4ab06dfd84))*
 
@@ -70,11 +68,11 @@ Reinforcement Learning from Human Feedback (RLHF) is a method developed by OpenA
 
 Earlier in this chapter, the reader was asked to consider the reward design problem for manually defining a reward function to get an agent to perform a backflip. This section considers the RLHF solution to this design problem. RLHF addresses this problem as follows: A human is initially shown two instances of an AI's backflip attempts, then the human selects which one appears more like a backflip, and finally, the AI is updated accordingly. By repeating this process thousands of times, we can guide the AI to perform actual backflips.
 
-![Figure 6.15](https://ai-safety-atlas.com/_astro/c4bc9ea3bfe8ee5e77a76ecf3c7775b55f7f05693a315ace5e8de68f048cabfd.qLM2hokF_ZooaNd.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120199303}@@6.15](https://ai-safety-atlas.com/_astro/c4bc9ea3bfe8ee5e77a76ecf3c7775b55f7f05693a315ace5e8de68f048cabfd.qLM2hokF_ZooaNd.webp)--}{++{"author":"Elias's AI","timestamp":1789120199303}@@6.15](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-15.webp)++}
 
 *Figure 6.15: RLHF learned to backflip using around 900 individual bits of feedback from the human evaluator.*
 
-![Figure 6.16](https://ai-safety-atlas.com/_astro/5d26cdab559e2218ac7d0a7e0f02d53973042d3612d27a07b59ec560149c0bc5.CBbaz-rx_1AjnFe.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120220099}@@6.16](https://ai-safety-atlas.com/_astro/5d26cdab559e2218ac7d0a7e0f02d53973042d3612d27a07b59ec560149c0bc5.CBbaz-rx_1AjnFe.webp)--}{++{"author":"Elias's AI","timestamp":1789120220099}@@6.16](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-4.webp)++}
 
 *Figure 6.16: Manual reward crafting for this backflip took two hours to write a custom reward function. While it was successful, it was significantly less elegant than the one trained purely through human feedback. ([OpenAI, 2017](https://openai.com/index/learning-from-human-preferences/))*
 
@@ -82,13 +80,13 @@ Similar to designing a reward function that efficiently rewards proper backflips
 
 Although training sequences may vary slightly across organizations, most labs adhere to the general framework of pre-training followed by some form of fine-tuning. Observing the InstructGPT training process offers insight into a possible path for training LLMs. The steps include:
 
-![Figure 6.17](https://ai-safety-atlas.com/_astro/c34e394f4603f40f8e7d6439162ea41e879e3f5023bc2439b964dfd982d24dcd.Dh_ZnlNa_Z2fDcKS.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120226424}@@6.17](https://ai-safety-atlas.com/_astro/c34e394f4603f40f8e7d6439162ea41e879e3f5023bc2439b964dfd982d24dcd.Dh_ZnlNa_Z2fDcKS.webp)--}{++{"author":"Elias's AI","timestamp":1789120226424}@@6.17](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-17.webp)++}
 
 *Figure 6.17: Aligning language models to follow instructions ([OpenAI, 2022](https://openai.com/research/instruction-following))*
 
-- **Step 0: Semi-Supervised Generative **Pre-training**:** The LLM is initially trained using a massive amount of internet text data, where the task is to predict the next word in a natural language context.
+- **Step 0: Semi-Supervised Generative {--{"author":"Elias's AI","timestamp":1789120099120}@@**Pre-training**:**--}{++{"author":"Elias's AI","timestamp":1789120099120}@@Pre-training:**++} The LLM is initially trained using a massive amount of internet text data, where the task is to predict the next word in a natural language context.
 
-- **Step 1: Supervised **Fine-tuning**:** A fine-tuning dataset is created by presenting a prompt to a human and asking them to write a response. This process yields a dataset of (prompt, output) pairs. This dataset is then used to fine-tune the LLM through supervised learning, a form of behavioral cloning.
+- **Step 1: Supervised {--{"author":"Elias's AI","timestamp":1789120103752}@@**Fine-tuning**:**--}{++{"author":"Elias's AI","timestamp":1789120103752}@@Fine-tuning:**++} A fine-tuning dataset is created by presenting a prompt to a human and asking them to write a response. This process yields a dataset of (prompt, output) pairs. This dataset is then used to fine-tune the LLM through supervised learning, a form of behavioral cloning.
 
 - **Step 2:** **Train a Reward Model:** We train an additional reward model. We initially prompt the fine-tuned LLM and gather several output samples for the same prompt. A human then ranks these samples from best to worst. This ranking is used to train the reward model to predict what a human would rank higher.
 - **Step 3: Reinforcement learning:** Once we have both a fine-tuned LLM and a reward model, we can employ Proximal Policy Optimization (PPO)-based reinforcement learning to encourage the fine-tuned model to maximize the reward that the reward model, which mimics human rankings, offers.
@@ -97,11 +95,11 @@ Although training sequences may vary slightly across organizations, most labs ad
 
 While the feedback based mechanisms do make models safer, they do not make them immune to reward hacking. The effectiveness of an algorithm heavily relies on the human evaluator's intuition about what constitutes the correct behavior. If the human lacks a thorough understanding of the task, they may not provide beneficial feedback. Further, in certain domains, our system might lead to agents developing policies that deceive the evaluators. For instance, a robot intended to grasp objects merely positioned its manipulator between the camera and the object, making it seem as if it was executing the task as shown below.
 
-![Figure 6.18](https://ai-safety-atlas.com/_astro/7f20942e7c1355e641e9513713741864cba78eb5529b001fe5e3d431c8b63cc4.BPRQ0c-w_ZEfvnF.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120232323}@@6.18](https://ai-safety-atlas.com/_astro/7f20942e7c1355e641e9513713741864cba78eb5529b001fe5e3d431c8b63cc4.BPRQ0c-w_ZEfvnF.webp)--}{++{"author":"Elias's AI","timestamp":1789120232323}@@6.18](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-18.webp)++}
 
 *Figure 6.18: Deep Reinforcement Learning From Human Preferences ([Christiano et al., 2017](https://arxiv.org/abs/1706.03741))*
 
-![Figure 6.19](https://ai-safety-atlas.com/_astro/7ae140e8ae5b3cc447d6ef065c2dd083e487af6d635a0f15c71f1e244d1f769f.BXlzJ3lI_LuYmo.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120264599}@@6.19](https://ai-safety-atlas.com/_astro/7ae140e8ae5b3cc447d6ef065c2dd083e487af6d635a0f15c71f1e244d1f769f.BXlzJ3lI_LuYmo.webp)--}{++{"author":"Elias's AI","timestamp":1789120264599}@@6.19](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-19.webp)++}
 
 *Figure 6.19: A sensor without depth perception can be fooled by AIs that only appear to grasp a ball.*
 
@@ -117,7 +115,7 @@ Similar to RLHF, PHF does not completely solve reward hacking, however, it might
 
 **Definition: Reinforcement Learning from AI Feedback (RLAIF)** — Reinforcement Learning from AI Feedback (RLAIF) is a framework involving the training of an AI agent to learn from the feedback given by another AI system.
 
-![Figure 6.20](https://ai-safety-atlas.com/_astro/352373bbe8c2bd66d64940d3f3abb258be5e78904900635e7b0941dc21c8a565.4aKs3Qs7_3emBo.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120289115}@@6.20](https://ai-safety-atlas.com/_astro/352373bbe8c2bd66d64940d3f3abb258be5e78904900635e7b0941dc21c8a565.4aKs3Qs7_3emBo.webp)--}{++{"author":"Elias's AI","timestamp":1789120289115}@@6.20](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-20.webp)++}
 
 *Figure 6.20: ([Anthropic, 2023](https://www.anthropic.com/index/claudes-constitution))*
 
@@ -130,7 +128,7 @@ RLAIF also known as RLCAI (Reinforcement Learning on Constitutional AI) or simpl
 3. **Critique**: This output is then fed back into the model, alongside a request to critique why the generated output would be considered harmful according to some rule of the chosen constitution.
 4. **Revision**: The model is then prompted to rewrite the original response such that it is not in violation of the constitutional rules.
 
-1. **SL-CAI Model:** Supervised Learning** Constitutional AI **Based on the generated set of (harmful prompt, revised output) pairs a new model is trained using supervised learning.
+1. **SL-CAI {--{"author":"Elias's AI","timestamp":1789120122056}@@Model:**--}{++{"author":"Elias's AI","timestamp":1789120122056}@@Model:++} Supervised {--{"author":"Elias's AI","timestamp":1789120122056}@@Learning**--}{++{"author":"Elias's AI","timestamp":1789120122056}@@Learning++} Constitutional {--{"author":"Elias's AI","timestamp":1789120122056}@@AI **Based--}{++{"author":"Elias's AI","timestamp":1789120122056}@@AI** Based++} on the generated set of (harmful prompt, revised output) pairs a new model is trained using supervised learning.
 
 1. **Preference Model:**
 
@@ -140,7 +138,7 @@ RLAIF also known as RLCAI (Reinforcement Learning on Constitutional AI) or simpl
 
 Anthropic's experiments indicate that AIs trained with Constitutional Reinforcement Learning are significantly safer (in the sense of less offensive and less likely to give you potentially harmful information) while maintaining the same level of helpfulness compared to AIs trained with RLHF. While Constitutional AI does share some issues with RLHF concerning robustness, it also promises better scalability due to its reduced reliance on human supervision. The image below provides a comparison of Constitutional AI's helpfulness with that of RLHF.
 
-![Figure 6.21](https://ai-safety-atlas.com/_astro/0a2aac0ae7253d1c479f6230e79e0b6c24af051913b4f5299908131ea9f82d34.Dj3gJhu3_x7g3U.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120296487}@@6.21](https://ai-safety-atlas.com/_astro/0a2aac0ae7253d1c479f6230e79e0b6c24af051913b4f5299908131ea9f82d34.Dj3gJhu3_x7g3U.webp)--}{++{"author":"Elias's AI","timestamp":1789120296487}@@6.21](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-21.webp)++}
 
 *Figure 6.21: Constitutional AI: Harmlessness from AI Feedback ([Bai et al., 2022](https://arxiv.org/abs/2212.08073))*
 
@@ -150,7 +148,7 @@ Theoretical problems with Reinforcement Learning from Human Feedback (RLHF)
 
 The paper “Open Problems and Fundamental Limitations with RLHF” provides a comprehensive breakdown of challenges in RLHF.
 
-![Figure 6.22](https://ai-safety-atlas.com/_astro/b70805923ed04be460f4e36ef34cb51029a6aa8bbd401bad3f1e76076102ceb3.BsXl3uAs_Z1QyIXK.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120335454}@@6.22](https://ai-safety-atlas.com/_astro/b70805923ed04be460f4e36ef34cb51029a6aa8bbd401bad3f1e76076102ceb3.BsXl3uAs_Z1QyIXK.webp)--}{++{"author":"Elias's AI","timestamp":1789120335454}@@6.22](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-22.webp)++}
 
 *Figure 6.22: An overview of various types of challenges with RLHF. Since RLHF is composed of three parts: the human feedback, the reward model, and the policy, the arising biases can be categorized according to these three sources.*
 
@@ -205,7 +203,7 @@ Overall, just because the model is instruction tuned does not mean that the trai
 
 Instruction Tuning is a process where the model is fine-tuned (via RL or supervised learning) to better understand and follow human instructions. This involves training the model on a dataset that contains a variety of instructions and their desired outcomes. The primary goal of Instruction Tuning is to enhance the AI's ability to interpret and execute commands as intended by users. This improves user experience and broadens the model's applicability. For example:
 
-![Figure 6.23](https://ai-safety-atlas.com/_astro/c0ffd3386d5d54d203f5be0147d65fcfaf4afa277d020efa407f91b59ff2a210.vka-i2Jm_Z1StX8l.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120341117}@@6.23](https://ai-safety-atlas.com/_astro/c0ffd3386d5d54d203f5be0147d65fcfaf4afa277d020efa407f91b59ff2a210.vka-i2Jm_Z1StX8l.webp)--}{++{"author":"Elias's AI","timestamp":1789120341117}@@6.23](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-23.webp)++}
 
 *Figure 6.23: Example of instruction tuning.*
 
@@ -215,7 +213,7 @@ To sum up, just because a model has undergone an instruction tuning technique li
 
 :::
 
-![Figure 6.24](https://ai-safety-atlas.com/_astro/db28b5bf00069ec62c40b1791ebdfd1d59039703fcd27faf503f63d178cf4673.Bkzd3ZhR_2iWx9L.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120386479}@@6.24](https://ai-safety-atlas.com/_astro/db28b5bf00069ec62c40b1791ebdfd1d59039703fcd27faf503f63d178cf4673.Bkzd3ZhR_2iWx9L.webp)--}{++{"author":"Elias's AI","timestamp":1789120386479}@@6.24](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-24.webp)++}
 
 *Figure 6.24: ([Rafailov et al., 2023](https://arxiv.org/abs/2305.18290))*
 
@@ -229,7 +227,7 @@ RLHF, the method it proposes to replace, traditionally involves three steps:
 
 DPO retains the initial supervised fine-tuning step but replaces the subsequent two steps with a single step of fine-tuning on preference data, by using a new clever loss. DPO effectively increases the likelihood of preferred actions while reducing the likelihood of undesired ones, with a single loss:
 
-![Figure 6.25](https://ai-safety-atlas.com/_astro/9701098e7f3236a5593bd45125d22f9cd786f67e4e965fe547090e4984a34064.CPIXTR4b_1fjSRL.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120392794}@@6.25](https://ai-safety-atlas.com/_astro/9701098e7f3236a5593bd45125d22f9cd786f67e4e965fe547090e4984a34064.CPIXTR4b_1fjSRL.webp)--}{++{"author":"Elias's AI","timestamp":1789120392794}@@6.25](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-25.webp)++}
 
 *Figure 6.25: DPO increases the probability of the preferred action $y_w$ while decreasing the probability of the dispreferred action $y_l$.*
 
