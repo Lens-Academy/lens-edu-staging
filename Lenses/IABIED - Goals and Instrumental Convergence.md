@@ -78,7 +78,7 @@ source:: [[../articles/iabied-ch4-ext-terminal-instrumental]]
 
 #### Article
 source:: [[../articles/iabied-ch5-ext-instrumental-convergence]]
-to:: ""
+to:: "these kinds of incentives are reliably bad for humans"
 
 #### Article
 source:: [[../articles/iabied-ch5-ext-instrumental-convergence]]
