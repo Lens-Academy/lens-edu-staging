@@ -128,7 +128,7 @@ Conversation flow: two tutor replies maximum, then close.
 content::
 \## What's Next
 
-You have just committed some bets about a system you know almost nothing about.
+You have just committed some bets  a system you know almost nothing about.
 
 Next you will watch one.
 
