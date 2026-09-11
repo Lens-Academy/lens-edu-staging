@@ -126,7 +126,7 @@ Conversation flow: two tutor replies maximum, then close.
 
 #### Text
 content::
-\## Next
+\## What's Next
 
 You have just committed to some bets about a system you know almost nothing about.
 
