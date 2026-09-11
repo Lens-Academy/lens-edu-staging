@@ -5,8 +5,7 @@ tutor_minutes: 12
 title: Goals and Instrumental Convergence
 tldr: "Two people who want completely different things still end up doing some of the same things. That pattern is most of what you can know about a mind whose goals you can't see."
 summary_for_tutor: "Opening lens of U3. Four beats: an elicitation question drawing on the learner's everyday grasp of instrumental goals, the Chapter 4 extension on terminal versus instrumental goals, the Chapter 5 extension on instrumental convergence, then a betting question that does the retrieval work and sets up the film. Teaches toward [[../Learning Outcomes/Predictable sub-goals from unknown goals]]. Deliberately has no Recall or Processing beat: the readings are two short extension pieces rather than a chapter, and the point is reframing concepts the learner already has rather than absorbing new ones. The closing handoff points at the film; the film lens then reaches back to the bets made here."
-tags:
-  - wip
+tags: []
 authors:
   - Andreas+Claude
 ---

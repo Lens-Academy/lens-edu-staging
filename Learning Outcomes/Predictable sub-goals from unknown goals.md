@@ -5,7 +5,6 @@ authors:
   - Andreas+Claude
 tags:
   - learning-outcome
-  - wip
 topic: "[[../Domains and Topics/3 Alignment/Instrumental convergence and power-seeking]]"
 stage: intermediate
 requires:
