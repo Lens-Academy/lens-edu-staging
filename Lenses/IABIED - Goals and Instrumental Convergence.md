@@ -94,7 +94,7 @@ Someone shows you a system they have trained. They will not tell you what it was
 However, they offer you four claims about what it will do, and are willing to take a sizable bet on any combination of claims you bet on being true.
 
 - It will try to avoid being switched off.
-- It will turn out to become a mathematician.
+- It will become a mathematician.
 - It will try to get hold of more computing power.
 - It will turn out to be actively hostile toward people.
 
