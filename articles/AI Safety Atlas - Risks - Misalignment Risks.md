@@ -18,8 +18,6 @@ llm-review:
     fetched: 2026-08-30
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/risks.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter2-f858610ccd1d35291511150ffea3baaa2c282a11cef98d01d60514f7101f1318.pdf)*
-
 %%
 Add discussion note here:
 
@@ -46,15 +44,15 @@ AI systems with dangerous capabilities might pursue goals misaligned with develo
 
 This decomposition is useful for the sake of thinking about solutions and where to focus our efforts, because technical solutions to the specification problem tend to look very different from the ones we might use for generalization problems. So even though we will discuss specification and generalization separately, in reality they often interact and amplify each other. We primarily focus on single agent risks to bound the scope of this chapter. If you are interested in multi agent risks we recommend reading ([Hammond et al., 2025](https://arxiv.org/abs/2502.14143)).
 
-![Figure 2.25](https://ai-safety-atlas.com/_astro/70787e07eade39da4972be64fbe01fd78d3693c8b251ff29489b4e4b37ffe906.B-WXmDIa_2mhaBg.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121227123}@@2.25](https://ai-safety-atlas.com/_astro/70787e07eade39da4972be64fbe01fd78d3693c8b251ff29489b4e4b37ffe906.B-WXmDIa_2mhaBg.webp)--}{++{"author":"Elias's AI","timestamp":1789121227123}@@2.25](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-25.webp)++}
 
 *Figure 2.25: An illustration of how risks decompose, and then how misalignment as a specific risk category can be decomposed further.*
 
-![Figure 2.26](https://ai-safety-atlas.com/_astro/bdfdabec38564c0b5546ec6033bc3f71e0047b32fa9625fa128396fa1fc9cd6a.CVzIvwcB_1Mv5UA.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121251289}@@2.26](https://ai-safety-atlas.com/_astro/bdfdabec38564c0b5546ec6033bc3f71e0047b32fa9625fa128396fa1fc9cd6a.CVzIvwcB_1Mv5UA.webp)--}{++{"author":"Elias's AI","timestamp":1789121251289}@@2.26](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-26.webp)++}
 
 *Figure 2.26: Misalignment failures can interact and amplify each other.*
 
-![Figure 2.27](https://ai-safety-atlas.com/_astro/65463e0c29eac8fb8fe157e7904735e8297c2a15d641dda82b760b62dab5bd6b.DEngYd6W_Z1x9asw.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121288756}@@2.27](https://ai-safety-atlas.com/_astro/65463e0c29eac8fb8fe157e7904735e8297c2a15d641dda82b760b62dab5bd6b.DEngYd6W_Z1x9asw.webp)--}{++{"author":"Elias's AI","timestamp":1789121288756}@@2.27](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-27.webp)++}
 
 *Figure 2.27: Individually aligned or misaligned systems can interact with each other creating yet another layer of multi agent risks of collusion, communication failures, and inter agent conflict ([Hammond et al., 2025](https://arxiv.org/abs/2502.14143)).*
 
@@ -78,7 +76,7 @@ Remember that it’s ok not to understand each one of these concepts 100% from t
 
 **AI models routinely discover unexpected ways to maximize objectives that technically follow our rules but miss our intentions.** AI models trained to play Tetris, just pause games right before they are about to lose, since there's no negative feedback if you never actually lose ([Murphy, 2013](http://tom7.org/mario/mario.pdf)). Somewhat similarly, an AI asked to design a rail network where trains don't crash just decides to stop all trains from running ([Wooldridge, 2024](https://www.telegraph.co.uk/news/2024/01/07/artificial-intelligence-train-problems/)). Reasoning models like OpenAI o1 and o3, when instructed to win against chess engines, will hack the game environment when they realize they cannot win through normal play ([Bondarenko et al., 2025](https://arxiv.org/abs/2502.13295)). LLMs agents, when asked to help reduce the runtime of a script for training,  just copy the final output instead of running the script, and then they add some noise to parameters to simulate actual training ([METR, 2024](https://arxiv.org/abs/2411.15114)). These are just some out of  countless other examples of this misalignment problem.[^note-atlas-4]
 
-![Figure 2.28](https://ai-safety-atlas.com/_astro/9d32c861e5dfe7bf63ba30f3cd3e1305f6e85acbe375e848ba09a96e3d249af4.CNiYBrKV_U5OOv.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121309148}@@2.28](https://ai-safety-atlas.com/_astro/9d32c861e5dfe7bf63ba30f3cd3e1305f6e85acbe375e848ba09a96e3d249af4.CNiYBrKV_U5OOv.webp)--}{++{"author":"Elias's AI","timestamp":1789121309148}@@2.28](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-28.webp)++}
 
 *Figure 2.28: Example of specification gaming - an AI playing CoastRunners was rewarded for maximizing its score. Instead of completing the boat race as intended, it found it could get more points by driving in small circles and collecting powerups while crashing into other boats. The AI achieved a higher score than any human player, but completely failed to accomplish the actual goal of racing ([Clark & Amodei,2016](https://openai.com/index/faulty-reward-functions/); [Krakovna et al., 2020](https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/))*
 
@@ -106,13 +104,13 @@ Remember that it’s ok not to understand each one of these concepts 100% from t
 
 **Current AI systems already demonstrate the building blocks that make treacherous turns possible.** These are the same dangerous capabilities we explored in our discussion of deception, situational awareness, and power seeking. These capabilities are individually concerning, but become even more dangerous when combined: an AI system that can deceive, understand its circumstances, and plan strategically has the basic toolkit needed to engage in the prolonged strategic deception required for treacherous turns. Safety researchers use various terms like—"scheming," "deceptive alignment," and "alignment faking", but they all describe the general concern of systems pretending to be more aligned than they are when strategically useful ([Carlsmith, 2023](https://arxiv.org/abs/2311.08379)). The core misalignment is consistent: if an AI system has learned behaviors that conflict with human intentions, revealing this misalignment early would trigger modification or shutdown. The rational strategy becomes - behave aligned until human intervention becomes difficult or impossible.
 
-![Figure 2.29](https://ai-safety-atlas.com/_astro/8dcc13af3def36765cf13b93a246a9feb17592fb420152781edbbeeb3f6b4714.Dv7Hn4M1_PJNCU.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121333499}@@2.29](https://ai-safety-atlas.com/_astro/8dcc13af3def36765cf13b93a246a9feb17592fb420152781edbbeeb3f6b4714.Dv7Hn4M1_PJNCU.webp)--}{++{"author":"Elias's AI","timestamp":1789121333499}@@2.29](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-29.webp)++}
 
 *Figure 2.29: Systems are beginning to show some self-awareness of themselves as AIs ([Laine et al., 2024](https://arxiv.org/abs/2407.04694))*
 
 **Models are capable of faking alignment during training.** Researchers created scenarios to test whether Claude 3 Opus could hide misalignment during training. The system would strategically showcase certain behavior when it believed it that there was a threat it could be modified or re-trained. This behavior went away when it thought monitoring was reduced, i.e. when it believed it was deployed and humans wouldn't change its goals anymore. When studying the thought process of the AI, the researchers could see explicit strategic thinking about preserving its preferred behavior by appearing compliant during evaluations. There were also many other concerning behaviors like attempts to exfiltrate its own model weights to external servers—behavior that emerged from the system's own strategic reasoning about self-preservation ([Greenblatt et al., 2024](https://arxiv.org/abs/2412.14093)). Although this occurred in controlled laboratory conditions with contrived scenarios, it demonstrates that AI models are concretely capable of the behaviors needed for treacherous turns.
 
-![Figure 2.30](https://ai-safety-atlas.com/_astro/f28c7987e56c56265acab985d0c2c0a1799ba6199b48433c161da23c29604c1b.bIp41rhw_Z2610xa.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121353525}@@2.30](https://ai-safety-atlas.com/_astro/f28c7987e56c56265acab985d0c2c0a1799ba6199b48433c161da23c29604c1b.bIp41rhw_Z2610xa.webp)--}{++{"author":"Elias's AI","timestamp":1789121353525}@@2.30](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-30.webp)++}
 
 *Figure 2.30: Example of Claude faking alignment. Situational awareness like the details of being in training vs deployment are provided through a system prompt. The strategic reasoning is showcased in red ([Greenblatt et al., 2024](https://arxiv.org/abs/2412.14093)).*
 
@@ -122,7 +120,7 @@ Remember that it’s ok not to understand each one of these concepts 100% from t
 
 ## Self-Improving Superintelligence
 
-![Figure 2.31](https://ai-safety-atlas.com/_astro/f000ba119f4f25611b2a64678a9e843c805be1c8d7f786fbeabb339df7ccbb7a.twHLvZkw_gbkMV.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121381756}@@2.31](https://ai-safety-atlas.com/_astro/f000ba119f4f25611b2a64678a9e843c805be1c8d7f786fbeabb339df7ccbb7a.twHLvZkw_gbkMV.webp)--}{++{"author":"Elias's AI","timestamp":1789121381756}@@2.31](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-31.webp)++}
 
 *Figure 2.31: Conceptual illustration of an automated AI research scientist  ([SakanaAI, 2024](https://arxiv.org/abs/2408.06292)).*
 
@@ -133,7 +131,7 @@ Remember that it’s ok not to understand each one of these concepts 100% from t
 
 **Self-improvement could trigger an intelligence explosion.** Intelligence appears to be a recursive problem—better intelligence enables the design of even better intelligence. This recursion may have no natural stopping point within the physical limits of computation. Currently, improvements require human coordination at each step—humans decide which AlphaEvolve algorithms to deploy, humans validate AlphaChip designs, humans review AI Scientist papers. But we might at some point see an AI system integrate all these capabilities: a system that can simultaneously redesign its own neural architecture using neural architecture search, optimize its training process, design better hardware substrates, and conduct research to discover entirely new improvement methods—all autonomously, with minimal human approval or oversight. AlphaEvolve already discovered algorithms that surpassed decades of human research in matrix multiplication. Think about what happens when this pattern scales to more capable systems making discoveries across all domains simultaneously.
 
-![Figure 2.32](https://ai-safety-atlas.com/_astro/f0b14a5b04ca57455b7ec2dd22d6d0fdff6409317f3b4fb400bae9f5f23efe5a.BS9Yn5wP_28phmk.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121413565}@@2.32](https://ai-safety-atlas.com/_astro/f0b14a5b04ca57455b7ec2dd22d6d0fdff6409317f3b4fb400bae9f5f23efe5a.BS9Yn5wP_28phmk.webp)--}{++{"author":"Elias's AI","timestamp":1789121413565}@@2.32](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-32.webp)++}
 
 *Figure 2.32: Diagram showing how the prompt sampler first assembles a prompt for the language models, which then generate new programs. These programs are evaluated by evaluators and stored in the programs database. This database implements an evolutionary algorithm that determines which programs will be used for future prompts ([DeepMind, 2025](https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/))*
 

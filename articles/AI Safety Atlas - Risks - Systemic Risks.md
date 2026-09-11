@@ -18,8 +18,6 @@ llm-review:
     fetched: 2026-08-30
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/risks.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter2-f858610ccd1d35291511150ffea3baaa2c282a11cef98d01d60514f7101f1318.pdf)*
-
 %%
 Add discussion note here:
 
@@ -104,7 +102,7 @@ There are various properties of complex systems that we might want to pay attent
 
 **The cycle creates mutually reinforcing incentives across domains.** Governments gain more effective tools for monitoring and control, making them willing to invest heavily in AI capabilities. This sustained demand provides AI companies with revenue, data access, and technical challenges that improve their products. Better AI capabilities then enable more sophisticated control, creating demand for further advancement. Unlike traditional autocratic constraints on innovation, surveillance AI aligns political control needs with technological development incentives.
 
-![Figure 2.33](https://ai-safety-atlas.com/_astro/9269ea62884921c6dca7afd3819729fa09a7860b859f09d5750759c8fce27608.DhvD0_1S_1oMQpR.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120602852}@@2.33](https://ai-safety-atlas.com/_astro/9269ea62884921c6dca7afd3819729fa09a7860b859f09d5750759c8fce27608.DhvD0_1S_1oMQpR.webp)--}{++{"author":"Elias's AI","timestamp":1789120602852}@@2.33](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-33.webp)++}
 
 *Figure 2.33: Map showing where AI enabled surveillance technologies are used and originate from. In 2019 ([Feldstein, 2019](https://carnegieendowment.org/research/2019/09/the-global-expansion-of-ai-surveillance?lang=en)).*
 
@@ -143,7 +141,7 @@ Whenever AI systems are used to collect and analyze data on a mass scale regimes
 
 Even partial automation of just remote work - representing about 34% of current job tasks - could double or multiply the economy by ten times while potentially leaving most humans economically marginalized. If trends continue, we could see annual economic growth rates of 25% or higher - unprecedented in human history - while simultaneously witnessing the economic disempowerment of ordinary humans who can no longer command wages sufficient to participate meaningfully in this new economy ([Barnett, 2025](https://epoch.ai/gradient-updates/consequences-of-automating-remote-work)).
 
-![Figure 2.34](https://ai-safety-atlas.com/_astro/df5e7d17f3f8f237dbeb932c14062601c8f4dda115363869f1d214ed79209221.DA_8KBQy_2g8WJc.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120629235}@@2.34](https://ai-safety-atlas.com/_astro/df5e7d17f3f8f237dbeb932c14062601c8f4dda115363869f1d214ed79209221.DA_8KBQy_2g8WJc.webp)--}{++{"author":"Elias's AI","timestamp":1789120629235}@@2.34](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-34.webp)++}
 
 *Figure 2.34: Share of tasks suitable for remote work in the US ([Barnett, 2025](https://epoch.ai/gradient-updates/consequences-of-automating-remote-work)).*
 

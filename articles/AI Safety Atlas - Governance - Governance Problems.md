@@ -20,7 +20,6 @@ llm-review:
     fetched: 2026-08-30
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/governance.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter4-a0a322670b21725098e1839edee61e6b3af18c4a900a1d2e5731d3efe4852f1a.pdf)*
 
 %%
 Add discussion note here:
@@ -39,7 +38,7 @@ Add discussion note here:
 
 **The combination of AI as a general-purpose, information,  intelligence technology creates unique governance challenges.** The mixed nature of AI as a general-purpose, information processing, and potentially intelligent technology gives rise to three fundamental problems that make traditional governance approaches inadequate.
 
-![Figure 4.2](https://ai-safety-atlas.com/_astro/fbc9a3887ee6973b678b3f6e2aadab438652cffeaf093e9d94e15ba767da783c.C970wyQn_1t0B0O.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120332343}@@4.2](https://ai-safety-atlas.com/_astro/fbc9a3887ee6973b678b3f6e2aadab438652cffeaf093e9d94e15ba767da783c.C970wyQn_1t0B0O.webp)--}{++{"author":"Elias's AI","timestamp":1789120332343}@@4.2](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-2.webp)++}
 
 *Figure 4.2: Summary of the three regulatory challenges posed by frontier AI ([Anderljung, 2023](https://arxiv.org/pdf/2307.03718))*
 
@@ -47,7 +46,7 @@ Add discussion note here:
 
 **AI systems develop surprising abilities that weren't part of their intended design.** Through several of our chapters now, we have shown that foundation models can show "emergent" capabilities that appear suddenly as models scale up with more data, parameters and compute. GPT-3 unexpectedly demonstrated the ability to perform basic arithmetic, while later models showed emergent reasoning capabilities that surprised even their creators ([Ganguli et al., 2022](https://arxiv.org/abs/2202.07785);[ Wei et al., 2022](https://arxiv.org/abs/2206.07682)). Evaluations have found that frontier models can autonomously conduct basic scientific research, hack into computer systems, and manipulate humans through persuasion, none of which were explicitly trained for ([Phuong et al., 2024](https://arxiv.org/abs/2403.13793);[ Boiko et al., 2023](https://arxiv.org/abs/2304.05332);[ Turpin et al., 2023](https://arxiv.org/abs/2305.04388);[ Fang et al., 2024](https://arxiv.org/abs/2402.06664)).
 
-![Figure 4.3](https://ai-safety-atlas.com/_astro/09241cde1a69a0228d6b128d699a816580e14c092d772ee287c891fce734f19c.zMpTCWW__Zwkgdg.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120356999}@@4.3](https://ai-safety-atlas.com/_astro/09241cde1a69a0228d6b128d699a816580e14c092d772ee287c891fce734f19c.zMpTCWW__Zwkgdg.webp)--}{++{"author":"Elias's AI","timestamp":1789120356999}@@4.3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-3.webp)++}
 
 *Figure 4.3: Example of unexpected capabilities. Graphs showing several metrics that improve suddenly and unpredictably as models increase in size ([Ganguli et al., 2022](https://arxiv.org/abs/2202.07785))*
 
@@ -57,7 +56,7 @@ Add discussion note here:
 
 **Once deployed, AI systems can be repurposed for harmful applications beyond their intended use.** The same language model trained for helpful dialogue can generate misinformation, assist with cyberattacks, or help design biological weapons. Users regularly discover new capabilities through clever prompting that bypasses safety measures called "jailbreaks" that unlock dangerous functionalities ([Solaiman et al., 2024](https://arxiv.org/abs/2306.05949);[ Marchal et al., 2024](https://arxiv.org/abs/2406.13843);[ Hendrycks et al., 2023](https://arxiv.org/abs/2306.12001)).
 
-![Figure 4.4](https://ai-safety-atlas.com/_astro/55be75301c257c0f0e3b5e16e4855b1e9074b45deb9b28b27d19a8c0748bd3b3.CXNS-H99_28SSAy.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120374342}@@4.4](https://ai-safety-atlas.com/_astro/55be75301c257c0f0e3b5e16e4855b1e9074b45deb9b28b27d19a8c0748bd3b3.CXNS-H99_28SSAy.webp)--}{++{"author":"Elias's AI","timestamp":1789120374342}@@4.4](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-15.webp)++}
 
 *Figure 4.4: A schematic of using autonomous LLM agents to hack websites ([Fang et al., 2024](https://arxiv.org/abs/2402.06664)). Once a dual-purpose technology is public, it can be used for both beneficial and harmful purposes.*
 
@@ -69,7 +68,7 @@ Add discussion note here:
 
 **Physical containment doesn't work for digital goods.** Unlike nuclear materials or dangerous pathogens, AI models are just patterns of numbers that can be copied instantly and transmitted globally. Once capabilities exist, controlling their spread becomes a losing battle against the fundamental nature of digital information.
 
-![Figure 4.5](https://ai-safety-atlas.com/_astro/2e4cbb2e25a4b64f463ec19c2f1b20aa19b8900a3a976a62c43ecc6357bc71d8.rzPZwpq3_1CyLge.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120394812}@@4.5](https://ai-safety-atlas.com/_astro/2e4cbb2e25a4b64f463ec19c2f1b20aa19b8900a3a976a62c43ecc6357bc71d8.rzPZwpq3_1CyLge.webp)--}{++{"author":"Elias's AI","timestamp":1789120394812}@@4.5](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-5.webp)++}
 
 *Figure 4.5: Examples of Proliferation ([Özcan, 2024](https://cfg.eu/ai-governance-challenges-part-3-proliferation/)).*
 

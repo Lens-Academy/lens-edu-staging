@@ -18,8 +18,6 @@ llm-review:
     fetched: 2026-08-30
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/risks.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter2-f858610ccd1d35291511150ffea3baaa2c282a11cef98d01d60514f7101f1318.pdf)*
-
 %%
 Add discussion note here:
 
@@ -53,7 +51,7 @@ Before we begin talking about concrete risk scenarios, we need a framework that 
 *Interactive figure 2.1: Global annual number of reported artificial intelligence incidents and controversies. Notable incidents include a “deepfake” video of Ukrainian President Volodymyr Zelenskyy surrendering, and U.S. prisons using AI to monitor their inmates’ calls. ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
 %%
 
-![Figure 2.2](https://ai-safety-atlas.com/_astro/08f1265cbf5eb8f15479f5fccfde00ecd22cc45e5687a34318359788cc6f6ce4.0SVQLEjV_Z1XlPpA.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120365029}@@2.2](https://ai-safety-atlas.com/_astro/08f1265cbf5eb8f15479f5fccfde00ecd22cc45e5687a34318359788cc6f6ce4.0SVQLEjV_Z1XlPpA.webp)--}{++{"author":"Elias's AI","timestamp":1789120365029}@@2.2](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-2.webp)++}
 
 *Figure 2.2: The AI safety index report for summer 2025. These scores are for the current harms category and show how effectively the models of various companies mitigate current harms. This includes things like safety benchmark performance, robustness against adversarial attacks, watermarking of AI-generated content, and the treatment of user data ([FLI, 2025](https://futureoflife.org/wp-content/uploads/2025/07/FLI-AI-Safety-Index-Report-Summer-2025.pdf)).*
 
@@ -69,17 +67,17 @@ Existential risk is one where an adverse outcome would either annihilate Earth-o
 
 :::
 
-![Figure 2.3](https://ai-safety-atlas.com/_astro/9cf11dd639554c11e1e514b72e486d912176d2d5df374869cac91f54bcb9b44b.C7PV4pfM_Z2rbMBR.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120391883}@@2.3](https://ai-safety-atlas.com/_astro/9cf11dd639554c11e1e514b72e486d912176d2d5df374869cac91f54bcb9b44b.C7PV4pfM_Z2rbMBR.webp)--}{++{"author":"Elias's AI","timestamp":1789120391883}@@2.3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-3.webp)++}
 
 *Figure 2.3: Qualitative risk categories. The scope of risk can be personal (affecting only one person), local (affecting some geographical region or a distinct group), global (affecting the entire human population or a large part thereof), trans-generational (affecting humanity for numerous generations, or pan-generational (affecting humanity overall, or almost all, future generations). The severity of risk can be classified as imperceptible (barely noticeable), endurable (causing significant harm but not completely ruining the quality of life), or crushing (causing death or a permanent and drastic reduction of quality of life) ([Bostrom, 2012](https://existential-risk.com/concept)).*
 
-![Figure 2.4](https://ai-safety-atlas.com/_astro/3a903fbd7b264e0e01bf3b41daf401ae8a70d61e6995440f804d39396ecdbdd5.CS2V6KpL_reU9G.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120420989}@@2.4](https://ai-safety-atlas.com/_astro/3a903fbd7b264e0e01bf3b41daf401ae8a70d61e6995440f804d39396ecdbdd5.CS2V6KpL_reU9G.webp)--}{++{"author":"Elias's AI","timestamp":1789120420989}@@2.4](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-4.webp)++}
 
 *Figure 2.4: RAND Global Catastrophic Risk Assessment. Placement and size of the ovals in this figure represent a qualitative depiction of the relative relationships among threats and hazards. The figure presents only examples of cases or scenarios described in those chapters, not all scenarios described  ([Willis et al., 2024](https://www.rand.org/pubs/research_reports/RRA2981-1.html)).*
 
 **Higher-severity risks represent irreversible mistakes with permanent consequences.** We already see AI causing documented harm to real people, and having destabilizing effects on global systems. However, catastrophic and existential risks present a fundamentally different challenge: if advanced AI systems cause existential catastrophe, humanity cannot learn from the mistake and implement better safeguards. This irreversibility leads some researchers to argue for prioritizing prevention of low-probability, high-impact scenarios alongside addressing current harms ([Bostrom, 2002](https://nickbostrom.com/existential/risks)). Though people disagree about the appropriate balance of attention across different risk severities ([Oxford Union Debate, 2024](https://www.youtube.com/playlist?list=PLOAFgXcJkZ2wFf3mcJ0xIFpJQgEDI274J); [Munk Debate, 2024](https://www.youtube.com/watch?v=144uOfr4SYA)).
 
-![Figure 2.5](https://ai-safety-atlas.com/_astro/368cef1ead23f173683f7a99231f987a6d74cc26dd7109199376dcba6f6e0993.CbjuP-ni_20M5zg.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120449012}@@2.5](https://ai-safety-atlas.com/_astro/368cef1ead23f173683f7a99231f987a6d74cc26dd7109199376dcba6f6e0993.CbjuP-ni_20M5zg.webp)--}{++{"author":"Elias's AI","timestamp":1789120449012}@@2.5](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-5.webp)++}
 
 *Figure 2.5: The AI safety index report for summer 2025. These scores are for the Existential risk category, and show the companies' preparedness for managing extreme risks from future AI systems that could match or exceed human capabilities, including stated strategies and research for alignment and control ([FLI, 2025](https://futureoflife.org/wp-content/uploads/2025/07/FLI-AI-Safety-Index-Report-Summer-2025.pdf)). It is clear that there is a preparedness gap. Companies claim they'll achieve AGI within the decade, yet none scored above D in existential safety planning.*
 
