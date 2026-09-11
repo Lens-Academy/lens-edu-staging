@@ -42,7 +42,7 @@ A cancer lab deploys an assistant model to run its internal research pipeline. B
 
 After creating successful treatments for a variety of cancers, the lab issue the model the long-horizon goal of finding a cure for cancer and grants the model significant discretion to pursue this objective.
 
-Explain what could still go wrong here, and why the model having good intentions and a positive trdoes not remove the risk.
+Explain what could still go wrong here, and why the model having good intentions and a positive track record does not remove the risk.
 
 assessment-instructions::
 Score according to the following rubric.
