@@ -18,8 +18,6 @@ llm-review:
     fetched: 2026-08-30
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)*
-
 %%
 Add discussion note here:
 
@@ -57,7 +55,7 @@ In the previous section, we looked at different notions of how to define AGI and
 - **Data**: Training examples seen, measured in tokens for LLMs.
 - **Accuracy**: How well the model performs on benchmarks - the inverse of "loss" (lower loss = higher accuracy).
 
-![Figure 1.33](https://ai-safety-atlas.com/_astro/eadd470c5ecbd5bcadcdb62844f5f7ba84b91e8708aca70f8ae5d018e2e368ee.CABzpIwt_Z1k8LSM.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121290101}@@1.33](https://ai-safety-atlas.com/_astro/eadd470c5ecbd5bcadcdb62844f5f7ba84b91e8708aca70f8ae5d018e2e368ee.CABzpIwt_Z1k8LSM.webp)--}{++{"author":"Elias's AI","timestamp":1789121290101}@@1.33](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-33.webp)++}
 
 *Figure 1.33: Example of capabilities increasing with an increase with one of variables in the scaling laws - parameter count. The same model architecture (Parti) was used to generate an image using an identical prompt, with the only difference between the models being the parameter size. There are noticeable leaps in quality, and somewhere between 3 billion and 20 billion parameters, the model acquires the ability to spell words correctly ([Yu et al., 2022](https://arxiv.org/abs/2206.10789)).*
 
@@ -79,7 +77,7 @@ In the previous section, we looked at different notions of how to define AGI and
 
 Research showed that performance doesn't always improve smoothly - there can be sharp transitions, temporary plateaus, or even periods where performance gets worse before getting better. Examples of this include things like "Grokking", where models suddenly achieve strong generalization after many training steps, or deep double descent, where increasing model size initially hurts then helps performance. Rather than simple power laws, BNSL uses a more flexible functional form that can capture these complex behaviors. This allows for more accurate predictions of scaling behavior, particularly around discontinuities and transitions. Scaling laws are a good baseline, but discontinuous jumps in capabilities and abrupt step changes are still possible ([Caballero et al., 2023](https://arxiv.org/abs/2210.14891)).
 
-![Figure 1.34](https://ai-safety-atlas.com/_astro/8e2e605a0c66f707ea6ce2a5974db7826aa4a37bd8766c2b80668636d60460da.Bhx54fu0_25OOF4.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121325976}@@1.34](https://ai-safety-atlas.com/_astro/8e2e605a0c66f707ea6ce2a5974db7826aa4a37bd8766c2b80668636d60460da.Bhx54fu0_25OOF4.webp)--}{++{"author":"Elias's AI","timestamp":1789121325976}@@1.34](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-34.webp)++}
 
 *Figure 1.34: A Broken Neural Scaling Law example (dark black solid line) (with 3 breaks where purple dotted lines intersect with dark black solid line) contains 4 individual power law segments (where the dashed lines that are yellow, blue, red, and green overlap with the dark black solid line). The 1st and 2nd break are very smooth; the 3rd break is very sharp ([Caballero et al., 2023](https://arxiv.org/abs/2210.14891)).*
 
@@ -91,7 +89,7 @@ Research showed that performance doesn't always improve smoothly - there can be 
 
 **The strong scaling hypothesis.** This proposes that simply scaling up existing architectures with more compute and data will be sufficient to reach transformative AI capabilities ([Gwern, 2020](https://gwern.net/scaling-hypothesis)). According to this view, we already have all the fundamental components needed - it's just a matter of making them bigger, following established scaling laws.
 
-![Figure 1.35](https://ai-safety-atlas.com/_astro/59b06d94e55937d526c17327f255eddadf445e39b248930e0ce6adb8162d0f2c.8ArHDsTp_ZcVvmc.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121349240}@@1.35](https://ai-safety-atlas.com/_astro/59b06d94e55937d526c17327f255eddadf445e39b248930e0ce6adb8162d0f2c.8ArHDsTp_ZcVvmc.webp)--}{++{"author":"Elias's AI","timestamp":1789121349240}@@1.35](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-35.webp)++}
 
 *Figure 1.35: Augmentation/Scaffolding stays constant, but if the scaling hypothesis, weak or strong, is true, then capabilities will keep improving just by scaling.*
 
@@ -101,15 +99,15 @@ Research showed that performance doesn't always improve smoothly - there can be 
 
 **The emergence of unexpected capabilities might provide another argument for strong scaling.** We've seen previous generations of foundation models demonstrate remarkable abilities that weren't explicitly trained for, like programming. This emergent behavior hints that it is not impossible for higher-order cognitive abilities to similarly emerge simply as a function of further scale.
 
-![Figure 1.36](https://ai-safety-atlas.com/_astro/bf0a21178ac5eed6de6d35f41948b121b7dde10b52ce978f5b9f72955814c759.DSIRe1Hz_ZE2jXc.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121370742}@@1.36](https://ai-safety-atlas.com/_astro/bf0a21178ac5eed6de6d35f41948b121b7dde10b52ce978f5b9f72955814c759.DSIRe1Hz_ZE2jXc.webp)--}{++{"author":"Elias's AI","timestamp":1789121370742}@@1.36](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-36.webp)++}
 
 *Figure 1.36: Even if we see no improvements in model scale, other elicitation techniques and scaffolding can keep improving. So overall capabilities keep growing. Realistically, the future is probably going to see both improvement due to scaffolding and scale. So for now, there does not seem to be an upper limit on improving capabilities as long as either one of the two holds.*
 
 **Scale combined with techniques and tools hypothesis.** Essentially, both the scaling laws (which only predict foundation model capabilities) and most debates around "scale is all you need" often miss other aspects of AI development that happen outside the scope of what scaling laws can predict. They don't account for improvements in AI "scaffolding" (like chain-of-thought prompting, tool use, or retrieval), or combinations of multiple models working together in novel ways. Any LLM with internet access, code execution, and the ability to call upon the help of other specialized sub-models has substantially more capability than the same LLM alone. We gave several examples of this being the dominant trend in our first section - tool use, thinking for longer (inference time scaling), MCP servers and so on.
 
-**Debates around the scaling laws only tell us about the capabilities of a single **foundation model** trained in a standard way.** For example, by the strong scaling hypothesis we can reach TAI by simply scaling up the same foundation model until it completely automates ML RnD. But even if scaling stops, halting capabilities progress on the core foundation model (in either a weak or a strong way), the external techniques that leverage the existing model can still continue advancing. Many researchers think that this is a core element where future capabilities will come from. It is also referred to as "unhobbling" ([Aschenbrenner, 2024](https://situational-awareness.ai/from-gpt-4-to-agi/#Unhobbling)), "schlep" ([Cotra, 2023](https://www.planned-obsolescence.org/scale-schlep-and-systems/)) and various other terms, but all of them point to the same underlying principle - raw scaling of single model performance is only one part of overall AI capability advancement.
+**Debates around the scaling laws only tell us about the capabilities of a single {--{"author":"Elias's AI","timestamp":1789121270070}@@**foundation model**--}{++{"author":"Elias's AI","timestamp":1789121270070}@@foundation model++} trained in a standard way.** For example, by the strong scaling hypothesis we can reach TAI by simply scaling up the same foundation model until it completely automates ML RnD. But even if scaling stops, halting capabilities progress on the core foundation model (in either a weak or a strong way), the external techniques that leverage the existing model can still continue advancing. Many researchers think that this is a core element where future capabilities will come from. It is also referred to as "unhobbling" ([Aschenbrenner, 2024](https://situational-awareness.ai/from-gpt-4-to-agi/#Unhobbling)), "schlep" ([Cotra, 2023](https://www.planned-obsolescence.org/scale-schlep-and-systems/)) and various other terms, but all of them point to the same underlying principle - raw scaling of single model performance is only one part of overall AI capability advancement.
 
-![Figure 1.37](https://ai-safety-atlas.com/_astro/f5ef5f01a4c869d9a77a0c71f25718abf017d9b5218e4074ff78505777a758ed.C8R01McJ_1vMyH6.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121390870}@@1.37](https://ai-safety-atlas.com/_astro/f5ef5f01a4c869d9a77a0c71f25718abf017d9b5218e4074ff78505777a758ed.C8R01McJ_1vMyH6.webp)--}{++{"author":"Elias's AI","timestamp":1789121390870}@@1.37](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-37.webp)++}
 
 *Figure 1.37: An example of how much the performance on a benchmark can change just by using post training techniques like doing reasoning specific training and allowing the model to think for longer. The base model scores ~ 4.5% on the humanities last exam benchmark (HLE), whereas with each subsequent “unhobbling” step we see jumps in performance leading up to a 25% score on the benchmark ([Somala et al., 2024](https://epoch.ai/gradient-updates/three-issues-undermining-compute-based-ai-policies)).*
 
