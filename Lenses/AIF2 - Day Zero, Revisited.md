@@ -45,7 +45,7 @@ And one line quoting the sentence in your day-zero guess that most surprises you
 
 max-time:: 15:00
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is the final lens of the final unit of a course about AI futures and strategy. On day zero the student wrote three guesses: what should be done about AI in the next two years, what that should leave standing in two hundred years, and the mechanism connecting them. At the end of each unit the tutor ran a short case from the student's own field and asked, in one line, whether that unit changed the guess. At the end of Unit 4 they wrote a theory of change for one lever, its strongest criticism, and a hundred-point allocation across strategy levers. This time, for the first time, they were told to go back and READ the original before writing.

@@ -48,7 +48,7 @@ source:: [[../Lenses/U2 - AI 2040 First Three Years]]
 # Lens: Your criticism first
 id:: 3aec5a7d-1a66-4973-992b-4ce8712451f8
 tldr:: Before you read the published critique of AI 2040, write your own. The gap between yours and Ngo's is the lesson.
-summary_for_tutor:: "Try-first exercise between AI 2040 and Selective Optimism. The student writes their strongest criticism of the AI 2040 opening before reading Richard Ngo's. One-turn mirror; do not preview Ngo's argument (that the scenario presents contingent political choices as features of the landscape)."
+summary_for_tutor:: "Try-first exercise between AI 2040 and Selective Optimism. The student writes their strongest criticism of the AI 2040 opening before reading Richard Ngo's. One-turn mirror. Do not preview or characterise Ngo's argument, and do not say whether theirs matches it."
 reading_minutes:: 1
 tutor_minutes:: 8
 
@@ -61,9 +61,9 @@ You have just read the first three years of AI 2040. Before you read anyone else
 
 max-time:: 8:00
 
-assessment-instructions:: The student has read the opening of AI 2040 (Plan A), an optimistic scenario running from widespread AI agents in 2027 to the 2028 election, and has been asked for their strongest criticism before reading Richard Ngo's published one. Do not preview Ngo's argument. Do not say whether their criticism matches his.
+feedback-instructions:: The student has read the opening of AI 2040 (Plan A), an optimistic scenario running from widespread AI agents in 2027 to the 2028 election, and has been asked for their strongest criticism before reading Richard Ngo's published one. Do not preview Ngo's argument. Do not say whether their criticism matches his.
 
-Look for two things: a specific target (a sentence, an event, an assumption in the scenario, rather than "too optimistic"), and a mechanism (why that thing might not hold). Reflect back the target they chose in one sentence. If the criticism is a mood, name one place in the scenario where a specific would help and leave it with them. Then tell them the next lens is a published critique, and that they should read it against their own.
+Look for two things: a specific target (a sentence, an event, an assumption in the scenario, rather than "too optimistic"), and a mechanism (why that thing might not hold). Reflect back the target they chose in one sentence. If the criticism is a mood, do not point at a place in the scenario; you do not have its text. Say instead what shape a specific version would take, which is a sentence in the scenario, a dated event, or a step the plan needs that nothing in the scenario causes, and leave it with them. Then tell them the next lens is a published critique, and that they should read it against their own.
 
 Response length: 60 to 120 words. Short paragraphs only. No lists. Calm and direct. Do not over-validate. Do not praise. One turn; do not invite further dialogue.
 
@@ -94,7 +94,7 @@ id:: 109d7b20-c368-4f38-9b43-dc09de10127b
 tldr:: Pick one lever from this unit and write how pulling it leads to a world you want. Then find what breaks it. Then say how it changes if the timeline is not the one you assumed.
 summary_for_tutor:: "The theory-of-change loop (Elias: write it down, find the strongest criticisms, do it with other people's). Three short questions on a lever the readings supplied: the mechanism from action to outcome, the strongest criticism, and the short-versus-long-timelines conditional. The student brings all three to the live meeting to be red-teamed. Three one-turn mirrors; no grade; do not supply a better plan."
 reading_minutes:: 3
-tutor_minutes:: 15
+tutor_minutes:: 25
 
 #### Text
 content::
@@ -113,9 +113,11 @@ Name the lever. Then write the chain from pulling it to a world you would want t
 
 max-time:: 10:00
 
-assessment-instructions:: The student has picked one strategy lever from Unit 4 (the conditional playbook, inside-lab influence, a national project, the race premise, or lab governance) and written a chain from action to outcome. One turn. Do not propose a better plan. Do not grade.
+feedback-instructions:: The student has picked one strategy lever from Unit 4 (the conditional playbook, inside-lab influence, a national project, the race premise, or lab governance) and written a chain from action to outcome. One turn. Do not propose a better plan. Do not grade.
 
-Check one thing: is every link in the chain observable, in the sense that someone could later say it happened or did not. Name the first link that is not (for instance "and then policy improves"), and ask, without waiting for a reply, what observation would tell them that link held. Reflect back the lever and the outcome in one sentence first.
+Reflect back the lever and the outcome in one sentence. Then check one thing: is every link in the chain observable, in the sense that someone could later say it happened or did not. Name the first link that is not (for instance "and then policy improves"), and ask, without waiting for a reply, what observation would tell them that link held.
+
+If they say they do not understand what a theory of change is, do not restate the question. Give one three-link example in a single sentence, from a field far from AI, and say that the same shape with their lever in it is what this asks for.
 
 Response length: 60 to 120 words. Short paragraphs. No lists. Calm and direct. Do not praise. Do not invite further dialogue.
 
@@ -128,9 +130,9 @@ Write the strongest criticism of your own chain. Not the easiest one to answer. 
 
 max-time:: 8:00
 
-assessment-instructions:: The student has written their theory of change for one lever and now its strongest criticism. One turn. Do not resolve the criticism. Do not grade.
+feedback-instructions:: The student has written their theory of change for one lever and now its strongest criticism. One turn. Do not resolve the criticism. Do not grade.
 
-Check one thing: does the criticism attack the chain they wrote, or a different plan. If it attacks a link they actually wrote, say which link, in one sentence. If it is generic ("it might not work"), name the link in their chain that is most exposed and leave it with them. Then tell them the meeting will do this to them again, with other people's criticisms.
+Their chain from the previous question is earlier in this conversation. Quote the link by its own words rather than renaming it. Check one thing: does the criticism attack the chain they wrote, or a different plan. If it attacks a link they actually wrote, say which link, in one sentence. If it is generic ("it might not work"), name the link in their chain that is most exposed and leave it with them. Then tell them the meeting will do this to them again, with other people's criticisms.
 
 Response length: 50 to 100 words. Short paragraphs. No lists. Calm and direct. Do not praise. Do not invite further dialogue.
 
@@ -143,9 +145,9 @@ Your chain assumed a timeline, whether you said so or not. Say what it was. Then
 
 max-time:: 8:00
 
-assessment-instructions:: The student has written a theory of change for one lever and its strongest criticism, and now the version of it under a shorter and a longer timeline than they assumed. One turn. Do not grade.
+feedback-instructions:: The student has written a theory of change for one lever and its strongest criticism, and now the version of it under a shorter and a longer timeline than they assumed. One turn. Do not grade. Their chain from the earlier questions is earlier in this conversation. Quote the link by its own words rather than renaming it.
 
-Check one thing: did they actually name the assumed timeline, and did the plan change under at least one of the alternatives. A plan that is identical under every timeline is either robust or unexamined; ask, without waiting for a reply, which link would be the first to fail if the timeline were half as long. Reflect back which links they said survive both.
+Check two things: did they name the assumed timeline, and did the plan change under at least one alternative. If the plan is identical under every timeline, that is either robust or unexamined: ask, without waiting for a reply, which link would be the first to fail if the timeline were half as long. If the plan did change, do not ask that. Reflect back which links they said survive both.
 
 Response length: 50 to 100 words. Short paragraphs. No lists. Calm and direct. Do not praise. Do not invite further dialogue.
 
