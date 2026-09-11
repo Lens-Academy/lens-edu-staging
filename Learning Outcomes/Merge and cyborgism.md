@@ -17,11 +17,13 @@ eval-results:
 ## Test:
 id:: 9b484e86-122d-4712-9777-e9e192c5b721
 #### Question
+id:: e0f92d8b-9698-4fa0-8816-c86064ed777f
 feedback:: true
 content:: Contrast "merge" and "cyborgism" as BCI-type approaches. Where does each sit on the soft-to-hard spectrum, and what does each require?
 assessment-instructions:: A strong answer contrasts: merge = the hard, speculative end — high-bandwidth (often invasive) BCI coupling humans and AI so the human stays "in the loop at machine speed" or the AI becomes part of the person (Neuralink/Urban); requires major neurotech advances. Cyborgism = the soft, near-term end — software-only, human-in-the-loop tooling (LLMs as simulators-as-tools) that amplifies human agency without implants or autonomous agents; live and testable today. Award 4-5 for the contrast plus correct soft/hard placement and requirements; 3 for a partial contrast; 1-2 if the two are conflated. Accept paraphrase.
 max-chars:: 600
 #### Question
+id:: ec9c1dfc-3e1e-43f0-9765-fa1aa2e5cdc3
 feedback:: true
 content:: Explain the "circularity" objection to solving alignment by merging with AI. Which BCI-type sub-threads does it hit, and which does it spare?
 assessment-instructions:: A strong answer states the circularity objection (Shulman): to merge safely you need an AI that is already aligned/trustworthy — so merging presupposes alignment rather than creating it; and once the AI surpasses the human, the human becomes the bottleneck, not a safeguard. It hits the MERGE thread hardest. It largely SPARES enhance/emulate threads (cognitive enhancement, WBE) — raising human capability directly or producing human-derived minds doesn't require fusing with an unaligned AI — and it doesn't defeat soft cyborgism (human steers tools). Award 4-5 for the objection plus correctly saying it targets merge but spares enhance/upload; 3 for the objection only; 1-2 if misstated. Accept paraphrase.

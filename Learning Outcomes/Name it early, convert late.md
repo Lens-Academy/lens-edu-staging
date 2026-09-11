@@ -23,6 +23,7 @@ eval-results:
 ## Test:
 id:: e5579bbc-3019-4874-b11b-86a42ff9e919
 #### Question
+id:: c4658175-06e5-4e1b-ad7d-acdf6eba1401
 content:: A course peer tells you: "These two rules contradict each other. If you bring up AI in the very first conversation, you're rushing people. If you hold your views back until they're ready, you're hiding your agenda. You can't have both, we should pick one."
 
 **Where is the flaw in this argument? And how do you tell, in practice, when someone has actually become ready?**

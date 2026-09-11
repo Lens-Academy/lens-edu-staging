@@ -16,26 +16,31 @@ eval-results:
 id:: 07be3052-f86d-4ae7-8f95-33134b0b9cd8
 
 #### Question
+id:: 6f4f45cd-8cc3-448a-b2a1-ece23bbc9faf
 content:: Among these common first steps, (Learn more, Talk to people in the field, Help spread understanding, Apply for a program or fellowship, Engage politically or institutionally, and Donate), which seem most interesting to you personally?
 assessment-instructions:: This is a personal-preference question. Never grade which options the student picks; every option is equally valid. Check that the student (1) names at least one of the listed first steps, or a clearly comparable step of their own, and (2) says something about why it appeals to them that is tied to their own situation, skills, or interests rather than a generic endorsement. Award 100 when a choice is identified and the reason is specific to this student; 70 to 90 when a choice is named with a thin or generic reason; 30 to 60 when the answer is on topic but names no recognizable option and no reason; 0 to 20 only for an empty, off topic, or non responsive answer. Be generous with honest short answers; brevity is not a fault, and "none of these appeal to me" scores full marks when the student says why.
 enforce-voice:: true
 
 #### Question
+id:: 6cb1f5ae-d1c5-462d-bfff-96a5b606b8a8
 content:: Which of these options feels most meaningful, and which feels most realistic?
 assessment-instructions:: Grade only whether both halves of the question are answered, never which options the student chooses. Check that the student (1) identifies an option they find most meaningful, (2) identifies an option they find most realistic, and (3) says something about the gap between the two, or about why the same option serves both. Award 100 when both halves are answered with some reasoning about the difference or the match; 70 to 90 when both halves are answered but the reasoning is thin; 40 to 60 when only one half is answered; 0 to 20 only for an empty or off topic answer. Naming the same option twice is a valid answer. Be generous with honest personal reflection.
 enforce-voice:: true
 
 #### Question
+id:: 9ade5c73-c889-453d-a524-60cc18f9701e
 content:: What is the main thing you are missing right now in order to decide how, or whether, you want to engage further?
 assessment-instructions:: Check that the student (1) names a specific missing piece, such as information, a skill, time, money, a contact, or clarity about their own priorities, rather than leaving the question open, and (2) connects it to their own decision about engaging further. Award 100 for one concrete gap that is specific to this student; 70 to 90 for a real but broadly stated gap; 40 to 60 when the answer only restates the question or stays entirely generic; 0 to 20 only for an empty or off topic answer. "Nothing is missing, I already know what I want to do" earns full marks when the student says what that is. Do not judge how large, small, or worthy the named gap is, and do not penalize a student for saying they do not plan to engage further.
 enforce-voice:: true
 
 #### Question
+id:: 3a63efe8-08c1-41ec-a97c-9b0adc323ee9
 content:: What would be a reasonable next step for you after this course to address that missing piece?
 assessment-instructions:: This asks for the concrete action that follows from the gap named in the previous question. Check that the student (1) names an action rather than an intention, so "read this report", "email this person", or "apply to this program" rather than "learn more", (2) describes something they could plausibly start soon, and (3) links it to the gap they identified. Award 100 for a specific, plausible step that addresses the stated gap; 70 to 90 for a specific step whose link to the gap is loose; 40 to 60 when the action is so vague that the student could not tell whether they had done it; 0 to 20 only for an empty or off topic answer. Do not judge the ambition of the step: a small realistic step scores as well as a large one.
 enforce-voice:: true
 
 #### Question
+id:: 89312514-cb26-4dd9-8c94-ab31ae1675f0
 content:: What did you take away from this course for yourself?
 assessment-instructions:: Check that the student (1) names at least one specific thing from the course, such as an idea, argument, reading, exercise, or conversation, rather than giving a general verdict on the course, and (2) says what it changed or confirmed for them personally. Award 100 when something identifiable from the course is tied to a personal takeaway; 70 to 90 when a specific takeaway is named but the personal link is thin; 40 to 60 for a generic reaction such as "it was interesting" or "I learned a lot" with nothing identifiable from the course; 0 to 20 only for an empty or off topic answer. A takeaway that is critical of the course, or that reports the student moving away from the positions the material argued for, earns full marks when it is specific. Grade specificity and honesty, not satisfaction or agreement.
 enforce-voice:: true

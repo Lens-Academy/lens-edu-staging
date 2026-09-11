@@ -24,6 +24,7 @@ eval-results:
 ## Test:
 id:: 18d90494-37f8-4ecd-9d00-5494296d5b5d
 #### Question
+id:: 9198439f-ebeb-4c4e-9bcf-239f0857d61e
 content:: The Coda makes a careful distinction between two kinds of prediction. On one side: the specific events that lead to an outcome. On the other: the outcome itself.
 
 **What is that distinction? Use the analogy the authors give to explain it. And what does the distinction imply about what the book actually predicts, and what it doesn't?**

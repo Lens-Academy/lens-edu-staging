@@ -23,6 +23,7 @@ eval-results:
 id:: d616e493-ef55-4429-8bae-e93d6fd20b99
 
 #### Question
+id:: 55514d28-1482-41f4-ab4d-68d470fced52
 content:: Chapter 10 frames AI alignment as a "cursed problem" by drawing on three engineering domains (space probes, Chernobyl-style nuclear reactors, and computer security) to identify a small set of named "curses" that make engineering hard. The chapter argues that all of these curses apply to AI alignment, and that the curse of edge cases applies in a uniquely worse form.
 
 **Name the five engineering curses Chapter 10 identifies, and for each one, identify which case study (space probes, Chernobyl, or computer security) the chapter uses to illustrate it.**

@@ -21,6 +21,7 @@ eval-results:
 ## Test:
 id:: 27749ecb-d544-40fd-be2a-35b23366f2f4
 #### Question
+id:: b5b05247-52f4-48d3-8188-0facd750f1a2
 content:: Two moments from one conversation.
 
 **(a)** Your cousin has spent ten minutes telling you about using ChatGPT at work. You have a view about where all this is headed, and you'd like to share it.

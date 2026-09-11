@@ -22,6 +22,7 @@ eval-results:
 ## Test:
 id:: 10dd3907-2bae-4eee-9985-fe1a6506f5b3
 #### Question
+id:: 8d3c65bc-69e4-489b-b221-8dfe883620b6
 content::
 Chapter 5 opens with an allegory about an alien civilization obsessed with the "correct" number of stones in their nests. A young alien argues that most species in the universe would not share this value, and that getting smarter wouldn't change that. The text then applies this same logic to AI: most possible goal-sets for a superintelligent AI would not include building a future full of happy, free people.
 

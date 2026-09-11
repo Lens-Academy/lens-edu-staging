@@ -22,6 +22,7 @@ eval-results:
 ## Test:
 id:: bbbca804-d52c-4567-84cb-68eae82c0025
 #### Question
+id:: db25576b-1619-4e8a-80de-d3b1fbe91b27
 content::
 Chapter 6 sends a refrigerator blueprint back a thousand years. A medieval blacksmith could build it but would be astonished that it produces cold air, because the underlying physics (gas compression and expansion) was unknown to them. The chapter uses this to illustrate what it means to face something that knows more about reality than you do. It then applies this logic to a superintelligent AI, and explores the domains where humanity is most exposed.
 

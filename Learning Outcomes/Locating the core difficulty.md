@@ -13,6 +13,7 @@ eval-results:
 ## Test:
 id:: 7ceb8922-bad8-400e-a152-fbafc10e26d0
 #### Question
+id:: a3da8813-6726-4208-ae2b-652f122b4844
 content::
 A lab announces a result. They trained a model on a large set of human judgments about which of two outcomes is better. On held-out judgments from the same population, the model predicts human preferences with 99.4% accuracy, well above the rate at which two humans agree with each other. The team writes:
 
