@@ -82,7 +82,7 @@ source:: [[../articles/iabied-ch5-ext-instrumental-convergence]]
 to:: "these kinds of incentives are reliably bad for humans."
 
 #### Article
-from:: "## "
+from:: ""
 
 #### Question: Open
 id:: '340872ac-bf26-49dc-8b37-698495d9e297'
