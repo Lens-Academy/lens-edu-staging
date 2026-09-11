@@ -4,12 +4,22 @@ slug: iabied-u3
 title: "One Extinction Scenario"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings:
+  - "Extension: Terminal Goals and Instrumental Goals"
+  - "Extension: Instrumental Convergence"
   - "Coda"
 ---
 
 # Submodule: Welcome
 ### Lens: M4 Welcome
 source:: ![[../Lenses/IABIED - M4 Welcome]]
+
+# Submodule: Goals and Instrumental Convergence
+
+## Learning Outcome: IABIED - Predictable Sub-Goals from Unknown Goals
+source:: ![[../Learning Outcomes/Predictable sub-goals from unknown goals]]
+
+## Lens:
+source:: ![[../Lenses/IABIED - Goals and Instrumental Convergence]]
 
 # Submodule: The Scenario
 ## Lens: One Extinction Scenario (Video)
