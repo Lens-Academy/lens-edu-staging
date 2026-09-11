@@ -12,8 +12,6 @@ tags:
   - "article-importer"
 ---
 
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/strategies.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter3-3b4d7eac4d5204791d44fcba443775e1f5e5b6af8a46856a00175a64d7c33722.pdf)*
-
 %%
 Add discussion note here:
 
@@ -66,7 +64,7 @@ When people first encounter AI safety, they often suggest the same intuitive sol
 - **Technical feasibility within realistic timeframes.** The alignment solution must be achievable with current or foreseeable technology and resources. Solution proposals cannot rely on major unforeseen scientific breakthroughs or function only as theoretical frameworks with very low Technology Readiness Levels (TRL)[^note-atlas-2].
 - **Low alignment tax to ensure competitive adoption.** Safety measures cannot impose prohibitive costs in compute, engineering effort, or deployment delays. If alignment techniques require substantially more resources or severely limit capabilities, competitive pressures will push developers toward unsafe alternatives. This constraint exists because multiple actors are racing to develop AGI - if safety measures make one organization significantly slower or less capable, others may skip those measures entirely to gain a competitive advantage.
 
-![Figure 3.13](https://ai-safety-atlas.com/_astro/0f3da53426de6de0ca389d82c3a60089502aefa543e2681591e54c32f540dc6e.CmgIy55u_KWQaN.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120005170}@@3.13](https://ai-safety-atlas.com/_astro/0f3da53426de6de0ca389d82c3a60089502aefa543e2681591e54c32f540dc6e.CmgIy55u_KWQaN.webp)--}{++{"author":"Elias's AI","timestamp":1789120005170}@@3.13](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-13.webp)++}
 
 *Figure 3.13: Illustration of how applying a safety or alignment technique could make the model less capable. This is called a safety tax.*
 
@@ -93,7 +91,7 @@ AI misuse and rogue AI might be essentially the same scenario in their outcomes,
 
 **Some mitigations target specifically the risk of AI-Enabled Coups.** The report concludes with specific recommendations for AI developers and governments, including establishing rules against AI systems assisting with coups, improving adherence to model specifications, auditing for secret loyalties, implementing strong information security, sharing information about capabilities, distributing access among multiple stakeholders, and increasing oversight of frontier AI projects.
 
-![Figure 3.14](https://ai-safety-atlas.com/_astro/33338ff3864c55674418df7acfc532f5f1ed424468498f977df90a0b3ca5a1a3.DIrGLM2q_ZUg0ow.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120027686}@@3.14](https://ai-safety-atlas.com/_astro/33338ff3864c55674418df7acfc532f5f1ed424468498f977df90a0b3ca5a1a3.DIrGLM2q_ZUg0ow.webp)--}{++{"author":"Elias's AI","timestamp":1789120027686}@@3.14](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-14.webp)++}
 
 *Figure 3.14: According to Richard Ngo, the distinction between misalignment and misuse risks from AI might often be unhelpful. Instead, we should primarily think about ‘misaligned coalitions’ of both humans and AIs, ranging from terrorist groups to authoritarian states. Slide from ([Ngo, 2024](https://www.youtube.com/watch?app=desktop&si=XRR0ofCG7IEp1n_b&v=4v3uqWeVmco&feature=youtu.be)).*
 
@@ -130,7 +128,7 @@ AI misuse and rogue AI might be essentially the same scenario in their outcomes,
 
 ## Maintain Control
 
-![Figure 3.15](https://ai-safety-atlas.com/_astro/75696cb98607e4ba429f0decf45469e6a23347a0b0b287b940ecbb9c3ebe80ad.DlUIbH-t_Z1QyXbc.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120051336}@@3.15](https://ai-safety-atlas.com/_astro/75696cb98607e4ba429f0decf45469e6a23347a0b0b287b940ecbb9c3ebe80ad.DlUIbH-t_Z1QyXbc.webp)--}{++{"author":"Elias's AI","timestamp":1789120051336}@@3.15](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-15.webp)++}
 
 *Figure 3.15: Transformatively useful AI means “Capable of substantially reducing the risk posed by subsequent AIs if fully deployed, likely by speeding up R&D and some other tasks by a large factor (perhaps 30x).” citation from ([Greenblatt & Shlegeris, 2024](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled#comments)) - figure from us;*
 
@@ -194,7 +192,7 @@ Monitoring the Chain-of-Thought (CoT) – the explicit natural language reasonin
 
 The hope is that CoT provides a window into the AI's "thinking," allowing monitors (human or AI) to detect malicious intent or flawed reasoning before harmful actions occur ([OpenAI, 2025](https://openai.com/index/chain-of-thought-monitoring/)). OpenAI found CoT monitoring effective for detecting reward hacking in programming tasks, especially when the monitor could see the CoT alongside the actions.
 
-![Figure 3.16](https://ai-safety-atlas.com/_astro/83101d25d741e1ba77fbf0b66d5429ede88a7e5c694d26726fb8b76bf0d42306.ByBni9wk_1u5iPf.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120075824}@@3.16](https://ai-safety-atlas.com/_astro/83101d25d741e1ba77fbf0b66d5429ede88a7e5c694d26726fb8b76bf0d42306.ByBni9wk_1u5iPf.webp)--}{++{"author":"Elias's AI","timestamp":1789120075824}@@3.16](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-16.webp)++}
 
 *Figure 3.16: Figure from The Translucent Thoughts Hypotheses and Their Implications ([Roger, 2023](https://www.alignmentforum.org/posts/r3xwHzMmMf25peeHE/the-translucent-thoughts-hypotheses-and-their-implications)). If the AI we are working with can only reason through chains of thought in English, then it becomes significantly easier to monitor its thoughts.*
 
@@ -206,7 +204,7 @@ Unfortunately, the vast majority of AIs do not reason in English; for example, A
 
 **Some AI architectures prevent us from using this strategy altogether.** Meta's paper Training Large Language Models to Reason in a Continuous Latent Space presents an architecture that prevents us from reading the chain of thought from the AI systems ([Hao et al, 2024](https://arxiv.org/abs/2412.06769)). If we want to be able to monitor what's going on, it may be important not to use these architectures, even if they do enable capability gains.
 
-![Figure 3.17](https://ai-safety-atlas.com/_astro/0898600c268370cac562c7ceccc1ad0ee42fdd9432c219a3a7b3a5f238503bbc.BUrl2aeY_w0YW0.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120096950}@@3.17](https://ai-safety-atlas.com/_astro/0898600c268370cac562c7ceccc1ad0ee42fdd9432c219a3a7b3a5f238503bbc.BUrl2aeY_w0YW0.webp)--}{++{"author":"Elias's AI","timestamp":1789120096950}@@3.17](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-17.webp)++}
 
 *Figure 3.17: A comparison of Chain of Continuous Thought (Coconut) with Chain-of-Thought (CoT). In CoT, the model generates the reasoning process as a word token sequence. Coconut regards the last hidden state as a representation of the reasoning state (termed “continuous thought”), and directly uses it as the next input embedding. This allows the LLM to reason in an unrestricted latent space instead of a language space. ([Hao et al., 2024](https://arxiv.org/abs/2412.06769)).*
 
