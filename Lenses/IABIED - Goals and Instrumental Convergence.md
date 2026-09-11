@@ -59,7 +59,7 @@ What to do:
 
 What not to do:
 - **Do not complete the list for them.** The reading is about to do exactly that, and the gap between what they found and what it names is the thing this beat exists to create. A tutor who supplies the full set removes the lesson.
-- Do not use the words terminal, instrumental or convergent. They have not read the piece yet.
+- Do not use the words terminal, instrumental or convergent. They have not gone through the re yet.
 - Do not connect any of this to AI. Not one sentence. The connection is the learner's to make in the next beat.
 - Do not evaluate the answer as right or wrong. A thin answer is a usable starting point.
 
