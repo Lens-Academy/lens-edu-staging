@@ -20,7 +20,6 @@ llm-review:
     fetched: 2026-08-30
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/governance.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter4-a0a322670b21725098e1839edee61e6b3af18c4a900a1d2e5731d3efe4852f1a.pdf)*
 
 %%
 Add discussion note here:
@@ -42,7 +41,7 @@ We already talked about race dynamics in the chapter on AI risks as amplifying f
 
 **Competition drives AI development at every level.** From startups racing to demonstrate new capabilities to nation-states viewing AI leadership as essential for future power, competitive pressures shape how AI systems are built and deployed. This dynamic creates a prisoners dilemma like tension where even though everyone would benefit from careful, safety-focused development, those who move fastest gain competitive advantage ([Hendryks, 2024](https://www.aisafetybook.com/textbook/game-theory#the-prisoners-dilemma)).
 
-![Figure 4.14](https://ai-safety-atlas.com/_astro/94cdd063c2bf5511cb5cd6e7b53258d7ffd19166f032c94cf6c35ce2e5028bd2.C69yP2eM_qplMJ.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120895613}@@4.14](https://ai-safety-atlas.com/_astro/94cdd063c2bf5511cb5cd6e7b53258d7ffd19166f032c94cf6c35ce2e5028bd2.C69yP2eM_qplMJ.webp)--}{++{"author":"Elias's AI","timestamp":1789120895613}@@4.14](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-14.webp)++}
 
 *Figure 4.14: How to extort your opponent, and what you stand to gain by extortion ([Stewart & Plotkin, 2012](https://www.pnas.org/doi/full/10.1073/pnas.1208087109)).*
 
@@ -50,9 +49,9 @@ We already talked about race dynamics in the chapter on AI risks as amplifying f
 
 **Competitive pressure leads to safetywashing, cutting corners on testing, skipping external red-teaming, and rationalizing away warning signs.** "Move fast and break things" becomes the implicit motto, even when the things being broken might include fundamental safety guarantees. We've already seen this with models released despite known vulnerabilities, justified by the need to maintain market position. Public companies face constant pressure to demonstrate progress to investors. Each competitor's breakthrough becomes an existential threat requiring immediate response. When Anthropic releases Claude 3, OpenAI must respond with GPT-4.5. When Google demonstrates new capabilities, everyone scrambles to match them. This quarter-by-quarter racing leaves little room for careful safety work that might take years to pay off.
 
-%%
+![Annual patent applications related to artificial intelligence](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-4-3.png)
+
 *Interactive figure 4.3: Annual patent applications related to artificial intelligence, 2019. Patents submitted in the selected country's patent office ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
-%%
 
 **National security concerns intensify race dynamics.** When Vladimir Putin declared "whoever becomes the leader in AI will become the ruler of the world," he articulated what many policymakers privately believe ([AP News, 2017](https://apnews.com/article/bb5628f2a7424a10b3e38b07f4eb90d4)). This transforms AI development from a commercial competition into a perceived struggle for geopolitical dominance. Over 50 countries have launched national AI strategies, often explicitly framing AI leadership as critical for economic and military superiority ([Stanford HAI, 2024](https://aiindex.stanford.edu/report/);[ Stanford HAI, 2025](https://hai.stanford.edu/assets/files/hai_ai_index_report_2025.pdf)). Unlike corporate races measured in product cycles, international AI competition involves long-term strategic positioning. Yet paradoxically, this makes racing feel even more urgent: falling behind today might mean permanent disadvantage tomorrow.
 
@@ -80,7 +79,7 @@ We already talked about race dynamics in the chapter on AI risks as amplifying f
 
 **The proliferation risk from open-source releases primarily comes from actors who already have substantial compute access - not from truly democratizing dangerous capabilities to resource-constrained adversaries.** Individual threat actors, bioterrorism or other catastrophic misuse scenarios would still need multi million dollar compute infrastructure to run frontier models capable of such harms. This hardware bottleneck means that the most concerning dual-use capabilities remain concentrated in the hands of major corporations and governments who control massive GPU clusters. While this concentration may provide some near-term safety benefits by limiting access to dangerous capabilities, it simultaneously accelerates concerning power dynamics where only a handful of entities can access the most capable AI systems. Until breakthroughs in model distillation, new architectures, or dramatically cheaper hardware make local hosting feasible, we face a fundamental trade-off between democratized access and concentrated control.
 
-![Figure 4.15](https://ai-safety-atlas.com/_astro/3c88731ba9b0b5c47fdcea150aaa9c2be4878652efcdb023965b2e6bdd553d14.NqIfaJm2_ZiFUK5.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120924098}@@4.15](https://ai-safety-atlas.com/_astro/3c88731ba9b0b5c47fdcea150aaa9c2be4878652efcdb023965b2e6bdd553d14.NqIfaJm2_ZiFUK5.webp)--}{++{"author":"Elias's AI","timestamp":1789120924098}@@4.15](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-15.webp)++}
 
 *Figure 4.15: A proposed gradient of access focusing on both model code and training data ([Eiras et al., 2024](https://arxiv.org/abs/2404.17047)) to carefully mitigate both proliferation and power concentration risks. We can see combinations of levels of access e.g. DeepSeek-V3 might roughly be considered C5-D1 ([DeepSeek, 2025](https://github.com/deepseek-ai/DeepSeek-V3)).*
 
@@ -97,7 +96,7 @@ Multiple channels enable rapid proliferation:
 
 **Verifying that someone if not developing harmful AI capabilities is extremely hard.** Unlike nuclear technology where detection capabilities roughly match proliferation methods, AI governance lacks comparable defensive tools ([Shevlane, 2024](https://www.governance.ai/research-paper/the-offense-defense-balance-of-scientific-knowledge-does-publishing-ai-research-reduce-misuse)). Nuclear inspectors can use satellites and radiation detectors to monitor compliance. But verifying that an organization isn't developing dangerous AI capabilities would require invasive access to code, data and development: practices likely revealing valuable intellectual property. Many organizations thus refuse intrusive monitoring ([Wasil et al., 2024](https://arxiv.org/abs/2408.16074)). This would require a combination of many different technical, and national measures.
 
-![Figure 4.16](https://ai-safety-atlas.com/_astro/485074d74f90d211006b9b902b11bdc32044e9b3366072659c7d784084a19287.C7gLgP-Q_1a9vVN.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120926286}@@4.16](https://ai-safety-atlas.com/_astro/485074d74f90d211006b9b902b11bdc32044e9b3366072659c7d784084a19287.C7gLgP-Q_1a9vVN.webp)--}{++{"author":"Elias's AI","timestamp":1789120926286}@@4.16](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-16.webp)++}
 
 *Figure 4.16: Table of evasion techniques to avoid verification methods under current national technical means. ([Wasil et al., 2024](https://arxiv.org/abs/2408.16074)).*
 
@@ -141,13 +140,13 @@ Multiple channels enable rapid proliferation:
 
 **A small number of actors make decisions that affect all of humanity.** The CEOs of perhaps five companies and key officials in three governments largely determine how frontier AI develops. Their choices about what to build, when to deploy, and how to ensure safety have consequences for billions who have no voice in these decisions. OpenAI's board has fewer than ten members. Anthropic's Long-Term Benefit Trust controls the company with just five trustees. These tiny groups make decisions about technologies that could fundamentally alter human society. No pharmaceutical company could release a new drug with such limited oversight, yet AI systems with far broader impacts face minimal external scrutiny. Nearly all frontier AI development happens in just two regions: the San Francisco Bay Area and London. The values, assumptions, and blind spots of these tech hubs shape AI systems used worldwide, yet we know more about how sausages are made than how frontier AI systems are trained. What seems obvious in Palo Alto might be alien in Lagos or Jakarta, yet the global majority have essentially no input into AI development ([Adan et al., 2024](https://oms-www.files.svdcdn.com/production/downloads/reports/Voice%20and%20Access%20in%20AI_%20Global%20AI%20Majority%20Participation%20in%20Artificial%20Intelligence%20Development%20and%20Governance-%20final.pdf?dm=1729247034)).
 
-![Figure 4.17](https://ai-safety-atlas.com/_astro/9f9fc61d1d8b78f3a4ae71f6bade2a22cb7100ad5fdce17833f8de10b0ac081c.B4MTfW-1_17tJIt.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120928297}@@4.17](https://ai-safety-atlas.com/_astro/9f9fc61d1d8b78f3a4ae71f6bade2a22cb7100ad5fdce17833f8de10b0ac081c.B4MTfW-1_17tJIt.webp)--}{++{"author":"Elias's AI","timestamp":1789120928297}@@4.17](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-17.webp)++}
 
 *Figure 4.17: In 2023, most of the notable AI models originated from U.S. institutions ([Stanford, 2024](https://hai.stanford.edu/ai-index/2024-ai-index-report)).*
 
 **Traditional accountability mechanisms don't apply.** Corporate boards nominally provide oversight, but most lack the incentives to evaluate systemic AI risks. Government regulators struggle to keep pace with rapid development. Academic researchers who might provide scientific evidence and independent assessment often depend on corporate funding or compute access. The result is a governance vacuum where no one has both the capability and authority needed for proper governance ([Anderljung, 2023](https://arxiv.org/abs/2311.14711)). The consequences of this lack of governance are already becoming apparent. We've seen AI-generated deepfakes used to spread political misinformation ([Swenson & Chan, 2024](https://apnews.com/article/artificial-intelligence-elections-disinformation-chatgpt-bc283e7426402f0b4baa7df280a4c3fd)). Language models have been used to create convincing phishing emails and other scams ([Stacey, 2025](https://www.ft.com/content/d60fb4fb-cb85-4df7-b246-ec3d08260e6f)). When models demonstrate concerning behaviors, we can't trace whether they result from training data, reward functions, or architectural choices. This black box nature of development is a big bottleneck in accountability ([Chan et al., 2024](https://arxiv.org/abs/2401.13138)).
 
-![Figure 4.18](https://ai-safety-atlas.com/_astro/68a0e92654edb15b437da74579cc52f1dc252ee61d17b3190d29b13fcaa6898b.qJZ5RBRH_1tGHPM.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120947971}@@4.18](https://ai-safety-atlas.com/_astro/68a0e92654edb15b437da74579cc52f1dc252ee61d17b3190d29b13fcaa6898b.qJZ5RBRH_1tGHPM.webp)--}{++{"author":"Elias's AI","timestamp":1789120947971}@@4.18](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-18.webp)++}
 
 *Figure 4.18: Diagram showing the path from auditability to auditability (ex-ante) to accountability (post-hoc) ([Herrera-Poyatos et al., 2025](https://arxiv.org/abs/2503.04739))*
 
@@ -157,7 +156,7 @@ Multiple channels enable rapid proliferation:
 
 **Wealth effects compound existing inequalities.** AI automation primarily benefits capital owners while displacing workers, deepening existing disparities. Recent empirical evidence suggests that AI adoption significantly increases wealth inequality by disproportionately benefiting those who own models, data, and computational resources, at the expense of labor ([Skare et al., 2024](https://ideas.repec.org/a/eee/teinso/v79y2024ics0160791x24002677.html)). Without targeted governance interventions, AI risks creating never before seen levels of economic inequality, potentially resulting in the most unequal society in human history ([O’Keefe, 2020](https://www.governance.ai/research-paper/the-windfall-clause-distributing-the-benefits-of-ai-for-the-common-good)).
 
-![Figure 4.19](https://ai-safety-atlas.com/_astro/77d11b1d5db7e18822045be5a3be15975473529c945158af963950256710a823.B-7UKL9r_EtmBL.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120949462}@@4.19](https://ai-safety-atlas.com/_astro/77d11b1d5db7e18822045be5a3be15975473529c945158af963950256710a823.B-7UKL9r_EtmBL.webp)--}{++{"author":"Elias's AI","timestamp":1789120949462}@@4.19](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-19.webp)++}
 
 *Figure 4.19: ‘Swiss cheese model’model representing one recommended defense-in-depth strategy against the risk of undetected and unconstrained power accumulation. Threat vectors are in red ([Stix et al., 2025](https://arxiv.org/abs/2504.12170))*
 
@@ -165,6 +164,6 @@ Multiple channels enable rapid proliferation:
 
 **International disparities threaten global stability.** Countries without domestic AI capabilities face permanent subordination to AI leaders. AI adoption significantly exacerbates international inequalities, disproportionately favoring technologically advanced nations. This disparity threatens not only economic competitiveness but also basic sovereignty when critical decisions are effectively outsourced to foreign-controlled AI systems ([Cerutti et al., 2025](https://www.elibrary.imf.org/view/journals/001/2025/076/article-A001-en.xml)). We have no agreed frameworks for distributing AI's benefits or managing its disruptions. Should AI developers owe obligations to displaced workers? How should AI-generated wealth be taxed and redistributed? What claims do non-developers have on AI capabilities? These questions need answers before AI's impacts become irreversible, yet governance current discussions barely acknowledge them ([Ding & Dafoe, 2024](https://arxiv.org/pdf/2001.03246)).
 
-![Figure 4.20](https://ai-safety-atlas.com/_astro/9dcc897a9514ec632bcf3a98ac275b733a71641e2820c2e87cbf65f887c5771d.B2xfcKqa_Z1I6bnH.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120951042}@@4.20](https://ai-safety-atlas.com/_astro/9dcc897a9514ec632bcf3a98ac275b733a71641e2820c2e87cbf65f887c5771d.B2xfcKqa_Z1I6bnH.webp)--}{++{"author":"Elias's AI","timestamp":1789120951042}@@4.20](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-20.webp)++}
 
 *Figure 4.20: In the U.S., the number of graduates with bachelor’s degrees in computing has increased 22 percent over the last 10 years. Yet access remains limited in many African countries due to basic infrastructure gaps like electricity ([Stanford HAI, 2025](https://hai.stanford.edu/ai-index/2025-ai-index-report)).*
