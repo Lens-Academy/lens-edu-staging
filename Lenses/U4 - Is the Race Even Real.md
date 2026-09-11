@@ -102,7 +102,7 @@ source:: [[../articles/elmgren-no-the-2017-new-generation-ai-development-plan-di
 to:: "downplaying the possibility of reading “AGI” into the document."
 
 #### Article
-from:: "## Conclusion"
+from:: "It's likely that one of its early goals"
 to:: "the starting date for that alleged ambition is not 2017."
 
 {>>{"author":"aeipathy","timestamp":1788482226847}@@Article fails to embed. Furthermore article is out of date or misleading in some ways since the 7 months average is heavily weighted by the 14 month period it took for Chinese models to initially catch up.\nhttps://epoch.ai/data-insights/open-closed-eci-gap\nOver more recent periods the gap has been ~4 months where relevant. From what I found Epoch didn't have any more recent articles on the US-China gap, but they have plenty on closed vs open  weight models, which currently operates as a strong proxy for the gap.<<}#### Article
