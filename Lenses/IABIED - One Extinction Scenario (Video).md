@@ -1,7 +1,7 @@
 ---
 id: '292c5436-f6c7-4eb8-863d-06b14a6bc6dc'
 reading_minutes: 30
-tutor_minutes: 5
+tutor_minutes: 12
 title: One Extinction Scenario (Video)
 tldr: "This unit swaps the book's longest reading for a 30-minute film: the book's own extinction scenario, seen minute by minute through the eyes of ordinary people."
 summary_for_tutor: "Video lens covering the Sable scenario in U3, replacing
