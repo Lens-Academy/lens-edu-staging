@@ -33,6 +33,7 @@ could go badly wrong. If a term stops you, put it in the Lens Coach
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 #### Question
+id:: 4fa5f086-266c-4db2-be77-b157ed9aff94
 content::
 \## Find a case you have seen
 

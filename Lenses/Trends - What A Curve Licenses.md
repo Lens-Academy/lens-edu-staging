@@ -21,6 +21,7 @@ Read them in that order. The first is about being wrong; the second is about a g
 ---
 
 #### Question
+id:: 3b0480ea-c35a-4c88-915d-a02db270d28d
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from both readings, without looking back. Numbers, arguments, caveats, anything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -61,6 +62,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 78f82614-2c06-4fc4-85fd-475bc5ba1885
 content::
 \## Phase 2: Processing
 You put a number on the MATH benchmark before you read. Now you know what happened.
@@ -98,6 +100,7 @@ What not to do:
 - Let this run more than 2 tutor turns.
 
 #### Question
+id:: fbef858a-1dba-47e1-bedf-1afcf7310c5f
 content::
 \## Phase 3: Learning Question
 A colleague shows you a chart and an argument.

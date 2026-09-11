@@ -26,6 +26,7 @@ Look for two things as you read. First, a list of what correlates with forecasti
 source:: [[../articles/kokotajlo-gjp-good-forecasting-practices]]
 
 #### Question
+id:: ad93edc5-fab5-47b3-9034-777f017dee6c
 content::
 \## Phase 1: Recall
 
@@ -59,6 +60,7 @@ What to do in your single reply:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 7db171e1-238b-4d4f-8a8d-c7a8e5714f23
 content::
 \## Phase 2: Processing
 
@@ -100,6 +102,7 @@ What not to do:
 - Let this run more than 2 tutor turns.
 
 #### Question
+id:: e58b7e19-d70b-4938-afbd-d5beda28ca4b
 content::
 \## Phase 3: Learning Question
 

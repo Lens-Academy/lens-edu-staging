@@ -21,6 +21,7 @@ One term before you start. The authors write "AGI" throughout: artificial genera
 Before you read any of it, you build your own version of their set of methods.
 
 #### Question
+id:: 0718d0de-6524-4ab6-be19-20fb05f56fca
 content::
 \## Every way you can think of
 
@@ -57,6 +58,7 @@ from:: ## AGI timelines forecasting methods
 to:: possibility of time horizon doublings getting easier or harder at higher horizons
 
 #### Question
+id:: 171d04f7-fda7-4811-becb-754971b05188
 content::
 \## The diff
 
@@ -89,6 +91,7 @@ from:: ## How our model works
 to:: as the project gets bottlenecked by their limited supply of experiment compute.
 
 #### Question
+id:: 2ab11725-db44-4166-ba8a-97f9a7226895
 content::
 \## Your number, before theirs
 
@@ -123,6 +126,7 @@ from:: ## Timelines and takeoff forecasts
 to:: this list is nowhere near exhaustive
 
 #### Question
+id:: c4105299-b0e6-4779-8440-c45103089990
 content::
 \## Two people, one model, different answers
 
@@ -161,6 +165,7 @@ from:: ## Comparison to our previous
 to:: You can read more about these changes and their effects in our
 
 #### Question
+id:: 6cdc5e71-6946-4efb-8651-46bd49871faf
 content::
 \## A three-to-five year shift, in nine months
 
@@ -191,6 +196,7 @@ What to do in each reply:
 2. If they treat the revision as a failure by the team, point out it was volunteered and ask what the alternative would have looked like from outside.
 
 #### Question
+id:: d6316651-341f-4d32-90c4-3f29a411e455
 content::
 \## What has to keep happening, and what is left afterwards
 

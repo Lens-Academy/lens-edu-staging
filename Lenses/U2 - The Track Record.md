@@ -9,6 +9,7 @@ authors:
   - Claude
 ---
 #### Question
+id:: f4355c78-627a-465c-8e3a-c49c0595df34
 content::
 \## Before the reading
 
@@ -51,6 +52,7 @@ from:: 4.1. Subjective Assessment
 to:: References
 
 #### Question
+id:: 4cce137a-0a4a-4942-bc28-fe4a4e5a6d48
 content::
 \## After the reading
 

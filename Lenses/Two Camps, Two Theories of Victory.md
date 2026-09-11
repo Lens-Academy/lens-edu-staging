@@ -27,6 +27,7 @@ from:: ## ToVs in AI Safety
 to:: The accompanying meme asks: “Whose alignment are we automating?”
 
 #### Question
+id:: 9f7f83f6-b1de-400c-8c49-6a2f5ba3e2a8
 content::
 Reconstruct the strongest version of Camp 1's theory of victory as a causal chain, from present-day action to an acceptable outcome.
 
@@ -49,6 +50,7 @@ from:: ## Camp 2
 to:: > Some are useful.
 
 #### Question
+id:: a70fdfd6-0fc4-4f5e-8c12-cddb780e5fed
 content::
 Now reconstruct Camp 2's strongest theory of victory. Then compare the two camps across four fault lines:
 

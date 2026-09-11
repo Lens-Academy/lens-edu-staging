@@ -19,6 +19,7 @@ Two results, in this order.
 Before you start: open your predictions from the previous step and have them next to you. Read with your own numbers in view.
 
 #### Question
+id:: 9db48ec2-c755-4c12-b245-0cedde20371d
 content::
 \## Phase 1: Recall
 
@@ -58,6 +59,7 @@ What to do in your single reply:
 This is a one-turn response. Do not ask a question or invite reply. Tell them to move on.
 
 #### Question
+id:: f458ac48-2fad-4794-b53c-c506c7cfe35c
 content::
 \## Phase 2: Where you were wrong
 
@@ -91,6 +93,7 @@ Branch on what they report:
 Keep an internal turn counter. After 2 tutor replies, close: "Hold that. The next step is about what these results actually license."
 
 #### Question
+id:: 6669fb77-729f-41fe-bb85-0671192dd47b
 content::
 \## Phase 3: Learning Question
 

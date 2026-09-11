@@ -15,6 +15,7 @@ content::
 The interaction section is the one to read most carefully. It is doing the work that the individual sections cannot.
 
 #### Question
+id:: 3a4bfda1-a774-4593-8100-bd6211302ea2
 content::
 \## Phase 1: Recall
 
@@ -52,6 +53,7 @@ What to do in your single reply:
 One-turn response. Tell them to move on.
 
 #### Question
+id:: 4f58e5dc-7c89-433f-9ae3-e46747301fc6
 content::
 \## Phase 2: Processing
 
@@ -79,6 +81,7 @@ Branch:
 Keep an internal turn counter. After 2 tutor replies, close the phase.
 
 #### Question
+id:: a9e4b2ef-b1dc-48c2-91bb-fa18ea47a579
 content::
 \## Phase 3: Learning Question
 

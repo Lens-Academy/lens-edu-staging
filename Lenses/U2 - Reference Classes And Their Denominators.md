@@ -26,6 +26,7 @@ As you read, keep a list of the different things "outside view" is used to mean.
 source:: [[../articles/taboo-outside-view]]
 
 #### Question
+id:: fd2c404b-2ff4-4d82-83c2-b46d7669b347
 content::
 \## Phase 1: Recall
 
@@ -61,6 +62,7 @@ What to do in your single reply:
 This is a one-turn response. Do not ask a question. Tell them to move on.
 
 #### Question
+id:: 0feb5a70-094d-41e3-b553-517cc562391d
 content::
 \## Phase 2: Learning Question
 

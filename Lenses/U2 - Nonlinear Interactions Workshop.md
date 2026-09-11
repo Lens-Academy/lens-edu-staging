@@ -19,6 +19,7 @@ Four short scenarios follow. Each is a system with parts. In each one, the parts
 Work through them in order. Write out the arithmetic, not a description of it.
 
 #### Question
+id:: 4a4077d1-b926-4ff1-9552-e822f3789186
 content::
 \## Scenario 1 of 4
 
@@ -32,6 +33,7 @@ Target: the jobs were not sampled at random. Automation took easier jobs first, 
 Reply in 80 to 160 words using short paragraphs and no list longer than 4 items. Confirm or correct the direction of error. Name up to 2 gaps and ask at most 2 direct causal follow-ups. If they are stuck after 2 attempts, give a brief direct answer. Do not over-validate or use generic praise.
 
 #### Question
+id:: 1a18f3c7-3505-4540-b30d-b34bda04e68e
 content::
 \## Scenario 2 of 4
 
@@ -45,6 +47,7 @@ Target: certification is a discrete gate. The observed creep measures incrementa
 Reply in 80 to 160 words using short paragraphs and no list longer than 4 items. Name up to 2 gaps and ask at most 2 direct causal follow-ups. If they are stuck after 2 attempts, give a brief direct answer. Do not over-validate or use generic praise.
 
 #### Question
+id:: b71c45ce-19be-484c-9017-888f7be72b18
 content::
 \## Scenario 3 of 4
 
@@ -58,6 +61,7 @@ Target: capacity is bounded by the binding constraint, so the rule is a minimum,
 Reply in 80 to 160 words using short paragraphs and no list longer than 4 items. Confirm or correct the operation and arithmetic. Name up to 2 gaps and ask at most 2 direct causal follow-ups. If they are stuck after 2 attempts, give a brief direct answer. Do not over-validate or use generic praise.
 
 #### Question
+id:: 5dc0b40d-a747-42e6-9bb1-1e2e52762842
 content::
 \## Scenario 4 of 4
 

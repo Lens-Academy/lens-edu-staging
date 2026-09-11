@@ -38,6 +38,7 @@ Notice what all three have in common. Each one converts a question about the fut
 source:: [[../articles/xu-shulman-fractional-progress-estimates]]
 
 #### Question
+id:: 5547f1ec-e6a6-4cae-b179-4690caea984e
 content::
 \## Phase 1: Recall
 
@@ -73,6 +74,7 @@ What to do in your single reply:
 This is a one-turn response. Do not ask a question. Tell them to move on.
 
 #### Question
+id:: e07af7a2-2411-4981-ad69-64afde476d1b
 content::
 \## Phase 2: Processing
 
@@ -111,6 +113,7 @@ What to do in each reply:
 What not to do: mini-lectures, adjudication, more than 2 turns.
 
 #### Question
+id:: f380b4b4-35c5-4e4e-95ef-4907bf9f35db
 content::
 \## Phase 3: Learning Question
 

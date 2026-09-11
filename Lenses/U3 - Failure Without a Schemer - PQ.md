@@ -17,6 +17,7 @@ The questions below are the ones the readings answer. Answering them first is no
 Two rules. Do not look anything up. Do not worry about being wrong: a confidently wrong answer you can compare against later is more useful here than a cautious one that commits to nothing.
 
 #### Question
+id:: e5a87a67-516b-43ed-acfe-2385175993e3
 content::
 \## Ground rules
 

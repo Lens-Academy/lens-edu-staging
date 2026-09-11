@@ -27,6 +27,7 @@ Write out the arithmetic when a problem needs arithmetic. A description of the a
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 
 #### Question
+id:: c6c9355f-10f6-43d1-b1e5-42aea80582c1
 content::
 \## Problem 1
 
@@ -52,6 +53,7 @@ What to do in your single reply:
 Do not over-validate. Do not praise. Do not ask a follow-up question. One turn.
 
 #### Question
+id:: b7950dda-e8fc-4827-9472-af28fa64770e
 content::
 \## Problem 2
 
@@ -77,6 +79,7 @@ What to do in your single reply:
 Do not over-validate. Do not praise. Do not ask a follow-up. One turn.
 
 #### Question
+id:: beae583e-1be1-4e35-9023-827360df3801
 content::
 \## Problem 3
 

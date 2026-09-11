@@ -7,6 +7,7 @@ authors:
   - Claude
 ---
 #### Question
+id:: c7efdd5f-6fd0-4d89-a0ec-244cdedbe7ba
 content::
 \## Before you read: guess the rate
 
@@ -43,6 +44,7 @@ content::
 This is the write-up of a survey across roughly fifty technological trends with usable historical data. Pay particular attention to two things: how they had to define "discontinuity" before they could count anything, and the two headline rates, which do not point in the same direction.
 
 #### Question
+id:: cb896969-5fa5-476f-b40a-934a0d2e8f01
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember, without looking back. The definition they used, the numbers, the examples, the caveats. No need to organize it.
@@ -71,6 +73,7 @@ In your single reply: acknowledge what they captured, name what was missing (esp
 Do not re-teach, do not ask follow-up questions, do not invite dialogue. This is a one-turn response. Tell them to move on.
 
 #### Question
+id:: fb27bdce-ad32-4a40-b952-710233f70c18
 content::
 \## Phase 2: Processing
 Go back to the two numbers you guessed before reading. Write both down again next to what the survey actually found.
@@ -95,6 +98,7 @@ Do not over-validate. Avoid generic praise (great job, excellent recall, well do
 Keep an internal turn counter. After 2 tutor replies, close the phase.
 
 #### Question
+id:: 9fdb47ef-781c-4fdf-a8a9-128d1bf088bb
 content::
 \## Phase 3: Learning Question
 Someone applies the survey to AI, like this:

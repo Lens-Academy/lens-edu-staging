@@ -30,6 +30,7 @@ from:: \* Chapter 7: Robust aggregation of substitutable signals
 to:: Chapter 8: When does agreement imply accuracy?
 
 #### Question
+id:: 92f7db72-d5b7-4edc-a027-9fc5bd694b63
 content::
 \## Phase 1: Recall
 
@@ -66,6 +67,7 @@ What to do in your single reply:
 This is a one-turn response. Do not ask a question. Tell them to move on.
 
 #### Question
+id:: 31b57296-55cf-40dc-9291-a6d2b9559149
 content::
 \## Phase 2: Processing
 
@@ -112,6 +114,7 @@ What to do in each reply:
 What not to do: mini-lectures, adjudication, more than 2 turns.
 
 #### Question
+id:: a04b4416-9fb0-4bbb-9132-ffabe4032593
 content::
 \## Phase 3: Learning Question
 

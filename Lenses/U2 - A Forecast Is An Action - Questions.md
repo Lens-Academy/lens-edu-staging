@@ -10,6 +10,7 @@ authors:
 ---
 
 #### Question
+id:: 9b598627-a7ab-4911-bead-b162080d13f9
 content::
 \## Phase 1: Recall
 
@@ -49,6 +50,7 @@ What to do in your single reply:
 This is a one-turn response. Do not ask a question. Tell them to move on.
 
 #### Question
+id:: ea8114ac-05ef-49c5-99e8-01a428a1840f
 content::
 \## Phase 2: Processing
 
@@ -85,6 +87,7 @@ What to do in each reply:
 What not to do: mini-lectures, adjudication, more than 2 turns.
 
 #### Question
+id:: 24be25b9-edb5-4730-a6a8-6265fc899a3e
 content::
 \## Phase 3: Learning Question
 
