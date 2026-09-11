@@ -18,8 +18,6 @@ llm-review:
     fetched: 2026-08-30
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)*
-
 %%
 Add discussion note here:
 
@@ -85,7 +83,7 @@ LLMs are prone to "hallucinate," a term used to describe the generation of conte
 
 :::callout {title="Many techniques can be used to increase the truthfulness of LLMs — Optional · 3 min read" tone="neutral" collapse="closed"}
 
-Fine-tuning** LLMs for Factuality:** In this paper ([Tian et al., 2023](https://arxiv.org/abs/2311.08401)), the authors recommend fine-tuning methods using Direct Preference Optimization (DPO) to decrease the rate of hallucinations. By applying such techniques, a 7B Llama 2 model saw a 58% reduction in factual error rate compared to its original model.
+{--{"author":"Elias's AI","timestamp":1789122203233}@@Fine-tuning**--}{++{"author":"Elias's AI","timestamp":1789122203233}@@**Fine-tuning++} LLMs for Factuality:** In this paper ([Tian et al., 2023](https://arxiv.org/abs/2311.08401)), the authors recommend fine-tuning methods using Direct Preference Optimization (DPO) to decrease the rate of hallucinations. By applying such techniques, a 7B Llama 2 model saw a 58% reduction in factual error rate compared to its original model.
 
 **Retrieval Augmented Generation (RAG)**. This method works by incorporating a process of looking up real-world information (retrieval, like a Google search) and then using that information to guide the AI's responses (generation, based on the document retrieved). By doing so, the AI is better anchored in factual reality, reducing the chances of producing unrealistic or incorrect content. Essentially, it's like giving the AI a reference library to check facts against while it learns and responds, ensuring its output is more grounded in reality. This approach is particularly useful in the context of in-context learning, where the AI learns from the information and context provided in each interaction.
 
