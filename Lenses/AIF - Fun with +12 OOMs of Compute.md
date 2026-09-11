@@ -85,7 +85,7 @@ id:: 4cee6950-503b-4d0a-9293-63c5110be66e
 content::
 \## The diff
 
-Consider his five, and consider your answer from above. Answer three to five of these:
+Consider his five, and consider your answer from above. Answer three to five of the following questions:
 
 - What's similar?
 - What's different?
