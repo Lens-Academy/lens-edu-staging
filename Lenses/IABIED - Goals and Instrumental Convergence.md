@@ -103,11 +103,12 @@ Take each claim one at a time before choosing a combination to bet on. Would you
 
 assessment-instructions:: The learner has just read both extension pieces. This question does the unit's retrieval work without asking for it: sorting the four claims requires an idea from earlier in the course that neither reading mentions, and the learner has to reach for it unprompted.
 
-**The four claims, and what each one tests.**
+**The four claims, in the order they are listed, and what each one tests.**
 
-- *Avoiding being switched off* and *acquiring computing power* are both bettable, and for the same reason: they serve almost any final goal, so you can predict them without knowing the goal. A learner who bets on both and gives that reason has the core of it.
+- *Avoiding being switched off* is bettable. It serves almost any final goal, because a system that has been switched off achieves nothing further. A learner who bets on it and gives that reason has the core of it.
 - *Becoming a mathematician* is not bettable. It is a plausible-sounding claim about the system's final goal, and final goals are the thing you cannot read off from capability. Explaining why this one is unbettable is where the goal-space idea from earlier in the course has to be retrieved: goals land where they land, and human-legible interests are a narrow slice of what a trained system might end up pursuing.
-- *Hostile toward people* is the trap, and the most useful answer in the set. It sounds like the same kind of claim as the first two but is not. Hostility is a fact about the final goal, so it is as unbettable as the mathematics. A learner who bets on hostility has read convergence as "capable systems turn against us", which inverts the argument.
+- *Getting hold of more computing power* is bettable, for the same structural reason as the first, though it is a different sub-goal: resource acquisition rather than staying in play. Watch the reason given rather than the verdict. "More compute helps with whatever it is actually trying to do" is the mechanism. "It's an AI, of course it wants compute" is a guess about this kind of system that happens to land on the right answer, and it will not transfer to the next case. If you see the second, push once for the first.
+- *Hostile toward people* is the trap, and the most useful answer in the set. It sounds like the same kind of claim as the first and third but is not. Hostility is a fact about the final goal, so it is as unbettable as the mathematics. A learner who bets on hostility has read convergence as "capable systems turn against us", which inverts the argument.
 
 **What to do.**
 
