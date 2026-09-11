@@ -111,6 +111,7 @@ tags:
 {>>How will we confirm that the student has achieved the learning outcome above?<<}
 id:: <generate another UUID>
 #### Question
+id:: cad2de59-54b9-4636-9041-82276dbb3fe2
 content:: <the test question the student must be able to answer>
 assessment-instructions:: <how the AI scores the answer — a 1–5 rubric with an example answer per level works best>
 
