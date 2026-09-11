@@ -3,7 +3,7 @@ id: '544fa627-175b-45b0-997f-8e3ae4e2f8ee'
 reading_minutes: 12
 tutor_minutes: 12
 title: Goals and Instrumental Convergence
-tldr: "Two people who want completely different things still end up doing some of the same things. How much can you know ."
+tldr: "Two people who want completely different things still end up doing some of the same things. How much can you know about the behavior of a mind ."
 summary_for_tutor: "Opening lens of U3. Four beats: an elicitation question drawing on the learner's everyday grasp of instrumental goals, the Chapter 4 extension on terminal versus instrumental goals, the Chapter 5 extension on instrumental convergence, then a betting question that does the retrieval work and sets up the film. Teaches toward [[../Learning Outcomes/Predictable sub-goals from unknown goals]]. Deliberately has no Recall or Processing beat: the readings are two short extension pieces rather than a chapter, and the point is reframing concepts the learner already has rather than absorbing new ones. The closing handoff points at the film; the film lens then reaches back to the bets made here."
 tags: []
 authors:
