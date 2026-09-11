@@ -106,7 +106,7 @@ assessment-instructions:: The learner has just read both extension pieces. This 
 **The four claims, and what each one tests.**
 
 - *Avoiding being switched off* and *acquiring computing power* are both bettable, and for the same reason: they serve almost any final goal, so you can predict them without knowing the goal. A learner who bets on both and gives that reason has the core of it.
-- *Becoming a mathematics* is not bettable. It is a plausible-sounding claim about the system's final goal, and final goals are the thing you cannot read off from capability. Explaining why this one is unbettable is where the goal-space idea from earlier in the course has to be retrieved: goals land where they land, and human-legible interests are a narrow slice of what a trained system might end up pursuing.
+- *Becoming a mathematician* is not bettable. It is a plausible-sounding claim about the system's final goal, and final goals are the thing you cannot read off from capability. Explaining why this one is unbettable is where the goal-space idea from earlier in the course has to be retrieved: goals land where they land, and human-legible interests are a narrow slice of what a trained system might end up pursuing.
 - *Hostile toward people* is the trap, and the most useful answer in the set. It sounds like the same kind of claim as the first two but is not. Hostility is a fact about the final goal, so it is as unbettable as the mathematics. A learner who bets on hostility has read convergence as "capable systems turn against us", which inverts the argument.
 
 **What to do.**
