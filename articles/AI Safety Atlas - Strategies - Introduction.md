@@ -18,8 +18,6 @@ llm-review:
     fetched: 2026-09-03
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/strategies.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter3-3b4d7eac4d5204791d44fcba443775e1f5e5b6af8a46856a00175a64d7c33722.pdf)*
-
 %%
 Add discussion note here:
 
@@ -33,7 +31,7 @@ AI capabilities advance very rapidly, the strategies designed to ensure safety m
 
 We have categorized mitigations around preventing misuse of AI, safety mitigations for AGI and ASI, and finally socio-technical approaches that help mitigate concerns more generally across all categories. Even though we have chosen a decomposition for sake of explanation, we advocate for a comprehensive approach that combines many of these strategies instead of pursuing just a few in isolation. Finally we have a combined strategies section, where we attempt to outline one potential way that this combination could look to create a layered defense-in-depth framework.
 
-![Figure 3.1](https://ai-safety-atlas.com/_astro/4ae7fdf731d7fa75fcbb8cccc1e0e9a9c0fd53a3e82d2791fdc891622ae0bfc7.Cp2ZH9uU_mdIba.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789119900769}@@3.1](https://ai-safety-atlas.com/_astro/4ae7fdf731d7fa75fcbb8cccc1e0e9a9c0fd53a3e82d2791fdc891622ae0bfc7.Cp2ZH9uU_mdIba.webp)--}{++{"author":"Elias's AI","timestamp":1789119900769}@@3.1](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-1.webp)++}
 
 *Figure 3.1: Tentative diagram summarizing the main high-level approaches to make AI development safe.*
 
