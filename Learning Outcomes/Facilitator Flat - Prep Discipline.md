@@ -19,6 +19,7 @@ eval-results:
 id:: 729042fd-6164-4bae-8ceb-203d5995ee35
 
 #### Question
+id:: 42f5ad17-42bc-4150-b892-cfdc45cfe800
 content:: You will be tempted to over-prepare. Reading the entire reading three times, writing 15 candidate questions, drafting an opening monologue — these feel diligent. They mostly aren't. There's a small list of prep moves that reliably improve quality and a longer list that's busywork.
 
 Name three prep moves that actually move session quality, and three prep moves that are busywork. For each "busywork" item — why does it feel useful but actually isn't?

@@ -19,6 +19,7 @@ eval-results:
 id:: 7009431c-2ba9-42db-8df7-be83e7cc4bb7
 
 #### Question
+id:: 3450c3d3-ba76-4dad-b596-d96ef6088abd
 content:: Most facilitators ask weak questions by default ("any thoughts?", "what did you think?") and get weak answers in return. Three frameworks improve this dramatically: PPPB (Pose, Pause, Pounce, Bounce), ABC (Agree, Build, Challenge), and EEAA (Engage, Evaluate, Apply, Adapt).
 
 Describe each framework in one sentence. Take one of your prepared questions for an upcoming session and walk through the PPPB version (how you pose it, the pause length, who you pounce on first). Then name which EEAA move you'd use as a follow-up if you got a substantive answer.
