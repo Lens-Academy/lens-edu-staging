@@ -12,25 +12,8 @@ requires:
 ---
 
 %%
-New outcome for the U3 opener. Written fresh rather than inherited: the older
-chapter 8 outcome was built for a module the film replaced, and its statement
-depends on having that module in front of you.
-
-Scope is the two extension readings that open U3, terminal versus instrumental
-goals and instrumental convergence, plus the Part I concepts they extend. Nothing
-from the film, nothing from chapters 7 or 8.
-
-No reading-from or reading-to anchors: the readings are the book's extension
-articles rather than a bracketed span of a chapter.
-
-Carries `wip` until a module references it. Remove the tag when the U3 opener lens
-lands and M4 imports both.
-
-Deliberately carries no module or chapter label anywhere, including the rubric.
-Answering it requires the goal-space argument, and the framing is the Introduction's
-distinction between hard and easy calls, but a learner who has never seen either
-label can still read the question, and a reviewer who has never seen the course can
-still judge the answer.
+Carries no module or chapter label anywhere, including the rubric, so the question
+can be posed cold and graded by someone who has not seen the course.
 %%
 
 ## Test:
