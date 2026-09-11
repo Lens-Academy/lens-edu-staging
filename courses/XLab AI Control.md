@@ -14,6 +14,8 @@ Links:
 - XLab original: https://aisafetytracks.com/tracks/control
 %%
 
+application-survey:: [[../surveys/Application Form]]
+
 # Module: [[../modules/XLab Control M1 - Introduction, overview, and threat modeling]]
 # Module: [[../modules/XLab Control M2 - How useful is AI control?]]
 # Module: [[../modules/XLab Control M3 - A Taxonomy of Control]]
