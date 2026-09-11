@@ -18,6 +18,8 @@ Meeting docs: five new docs built from this course's weekly material (September 
 
 Target audience and value proposition are inherited from the parent course and have not been confirmed for this split. %%
 
+application-survey:: [[../surveys/Application Form]]
+
 # Module: [[../modules/XLab Verification P1 Overview]]
 intro-form:: true
 
