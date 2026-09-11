@@ -130,6 +130,6 @@ content::
 
 You have just made a bet on the behavior of a system you know almost nothing about.
 
-Next you will watch one.
+Now you will watch one.
 
 Keep your four answers where you can find them.
