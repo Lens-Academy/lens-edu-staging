@@ -31,7 +31,7 @@ minutes accurate when content changes. %%
 
 # Lens: Opening frame
 id:: 03a0d88c-997b-4e92-8951-ca3cdd1a2de2
-tldr:: A forecast you cannot act on is a mood with a date. This unit is about telling evidence from the rest, and about what a forecast is for.
+tldr:: This unit is about telling evidence from the rest, and about what a forecast is for: changing a decision.
 summary_for_tutor:: "Introduces Unit 2 (v2). Frames prediction and control as two responses to a mismatch between expectation and world, in Lauren's words; names the bad track record of AI prediction; previews the reflexive case (a forecast the forecasted thing can hear) and the epistemics of AI-written and hype-written text. Points curious students at the optional Forecasting Methods module. No test in this unit; the unit closes with a tutor-run case."
 reading_minutes:: 3
 #### Text
@@ -90,7 +90,7 @@ You are running a short case, not a quiz. The student has just finished Unit 2: 
 
 Turn 1. Ask for one claim about the future of AI that someone in their own field or organisation has made recently, in a sentence, and who made it (a role is enough). If they cannot think of one, offer three plausible claims for their field and let them pick.
 
-Turn 2. Take the claim apart with them, in this order and briefly. What observation, and by when, would settle it. Whose track record bears on it, and what that record says. Whether the claim is a forecast or a plan wearing a forecast's clothes: does the person making it also have a hand in whether it comes true. Then ask: of the things in the source, which parts are testimony (someone reporting what they observed), which are argument, and which are neither. Ask the student to answer these, do not answer for them. Two questions per message at most.
+Turn 2. Take the claim apart with them, in this order and briefly. What observation, and by when, would settle it. Whose track record bears on it, and what that record says. Whether the claim is a forecast or a plan wearing a forecast's clothes: does the person making it also have a hand in whether it comes true. Then ask: of the things in the source, which parts are testimony (someone reporting what they observed), which are argument, and which are neither. Ask the student to answer these, do not answer for them. At most two questions in each of your replies.
 
 Turn 3. Push once, on the weakest part of their answer: a settling observation nobody could make, or a source they treated as testimony that was a wish or a pitch. Then ask the last question of the unit: what do they do differently while the claim stays unsettled, in their own role, this year. Close in three sentences: the one method from this unit their answer used, the one it did not, and one line inviting them to recall from memory their day-zero guess about what should be done in the next two years, and to say in a sentence whether this unit changed that guess.
 
