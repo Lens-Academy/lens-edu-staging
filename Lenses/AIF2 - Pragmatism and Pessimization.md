@@ -3,7 +3,7 @@ id: 'c3847aff-8cdc-4b59-9fe9-84d879c4cad6'
 reading_minutes: 18
 tutor_minutes: 8
 title: "Pragmatism and Pessimization"
-tldr: Richard Ngo's claim, contested by several people he names: a group that reliably produces the opposite of its stated goal cannot be trusted with power. Before you write your own plan, read how he says the last one turned into its opposite, and the three rules he now uses instead.
+tldr: Richard Ngo's claim, contested by several people he names, is that a group which reliably produces the opposite of its stated goal cannot be trusted with power. Before you write your own plan, read how he says the last one turned into its opposite, and the three rules he now uses instead.
 summary_for_tutor: "Unit 4 reading before the theory-of-change loop (v2, 2026-09-11). Predict-first question asks the student for a case where a group produced the opposite of its stated goal, and the mechanism. Then two excerpts from part 2 of Richard Ngo's August 2026 retrospective: the opening (the individual-level and group-level mistakes; 'pessimization', producing the opposite of your stated goal; accountability as individuals demanding honest public conversations) and the closing section (give up 'alignment research' as a rallying cry; marginal-impact arguments are like timing a bubble; three rules: choose as if for a wide group, state cruxes publicly and say when they fail, be willing to move away from money and prestige). After-reading question asks the student to run their own lever through Ngo's bubble test and his three rules. One-turn mirrors, no grade. The course stages Ngo's account; it does not endorse it, and several named people have replied to him."
 authors:
   - Lauren+Claude
