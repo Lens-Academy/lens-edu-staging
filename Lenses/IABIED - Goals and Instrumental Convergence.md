@@ -88,7 +88,7 @@ from:: "It's likely that one of its early goals"
 #### Question: Open
 id:: '340872ac-bf26-49dc-8b37-698495d9e297'
 content::
-\## Which ones would you bet on?
+\## Which targets would you bet on?
 
 Someone shows you a system they have trained. They can not tell you what it was trained for as they are not entirely certain themselves.
 
