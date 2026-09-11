@@ -40,7 +40,7 @@ id:: 'f10a0432-0cd7-49e6-889b-db90cfa32bb5'
 content::
 \## Before you read
 
-Two people. One is saving up to buy a house. The other is trying to get a novel published.
+Imagine two people. One is saving up to buy a house. The other is trying to get a novel published.
 
 What they want has almost nothing in common.
 
