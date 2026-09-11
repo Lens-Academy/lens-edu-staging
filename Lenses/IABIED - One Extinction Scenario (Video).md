@@ -106,13 +106,7 @@ QUESTION, replacing the existing one
 ---------------------------------------------------------------------
 \## Your reaction
 
-Three things, a few sentences each (speech-to-text works well here):
 
-1. Which moment stuck with you most, and how did it leave you feeling?
-2. Look back at the four claims you made bets on before watching the video. Which of them did the film pay out on? Did it do anything you would not have bet on?
-3. Which step in the takeover did you find hardest to believe? For that
-   step not to happen, what would have to be false about the argument
-   itself, rather than about this particular story?
 ---------------------------------------------------------------------
 
 ASSESSMENT INSTRUCTIONS, replacing the existing ones
