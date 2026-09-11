@@ -19,6 +19,7 @@ eval-results:
 id:: c5fe2647-34c8-4de2-8595-875aef1ca290
 
 #### Question
+id:: 1bdff84d-2a31-4adc-9d6e-8bb5b4eb851b
 content:: Two short frames from The Authentic Facilitator that experienced facilitators reference often: lead from behind (the facilitator isn't the destination; they're a fellow traveller who knows the route slightly better) and four leadership perspectives (a facilitator is always tracking themselves, the individual speaking, the group, and the context).
 
 Describe both frames in your own words. Of the four perspectives — self, individual, group, context — which one are you most likely to neglect during a session, and why?

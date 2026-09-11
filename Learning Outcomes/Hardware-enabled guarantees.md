@@ -17,6 +17,7 @@ eval-results:
 ## Test:
 id:: 82973068-5ff2-4928-a793-64039cafe462
 #### Question
+id:: e6ecd636-ef5e-4fc5-bcd6-7ca9c8a56a6c
 content:: A flexHEG is meant to let a chip's owner prove things about how that chip was used — to someone who does not trust them — without handing over what is running on it.
 
 **Describe the two components and the division of labour between them. Then explain what the "flexible" and open-source properties are for, and identify the assumption the whole design rests on.**

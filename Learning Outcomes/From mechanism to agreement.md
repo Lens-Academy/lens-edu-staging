@@ -19,6 +19,7 @@ eval-results:
 ## Test:
 id:: 51520b70-c2a7-43e0-a83a-444e9fb387fc
 #### Question
+id:: 253e82cc-a3bc-40ca-88b3-e51a27b515fa
 content:: Scher and co-authors write a specific agreement: a US–China-led coalition, a FLOP threshold capping training scale, and a ban on research that advances toward superintelligence or that undermines the agreement's own verifiability.
 
 **Take the verification machinery from this module and map it onto those obligations: which are well served by it, and which are not? Then make a judgement — is the binding constraint on this agreement technical or political, and what does your answer imply about what to work on?**

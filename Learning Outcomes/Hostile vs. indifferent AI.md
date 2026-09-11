@@ -22,6 +22,7 @@ eval-results:
 ## Test:
 id:: 64b45784-164e-4744-bc73-347d9604e9b0
 #### Question
+id:: b97cdeb0-5619-4e8c-a8ed-fdacfcf58cfd
 content::
 A common misconception about AI risk is that the danger comes from an AI that actively hates or rebels against humanity. Chapter 5 reframes this: the real concern is an AI that is simply indifferent to us. Because human-compatible goals are a tiny sliver of the space of all possible goals, a superintelligent AI would almost certainly not share our values. Not out of malice, but because there was never any reason it would. The chapter then addresses the rebuttal that we could just "keep AI in a box" or restrict its capabilities, and explains why indifference combined with sufficient capability is all that's needed for catastrophe.
 

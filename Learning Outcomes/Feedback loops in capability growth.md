@@ -14,6 +14,7 @@ eval-results:
 id:: dc99e11b-2967-4cde-9b55-f7ee821c107c
 
 #### Question
+id:: 8eacd6fd-585a-4b88-87cf-8aca687ba3af
 content:: Two research directors describe their labs.
 
 **Director A:** "We automated our literature review. Every researcher now covers four times as many papers per week. We also automated experiment scheduling, which saved another 20 percent of their time. Between the two, we are getting through roughly five times the work we did last year."
