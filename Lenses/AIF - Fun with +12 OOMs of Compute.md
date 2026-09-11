@@ -38,6 +38,7 @@ from:: *In 2016 the Compute Fairy visits Earth and bestows a blessing:
 to:: think about fun things that could be built in this scenario.
 
 #### Question
+id:: 09162e7c-fa48-43ce-8667-0d84d4155ebd
 content::
 \## His exercise
 
@@ -80,6 +81,7 @@ from:: Below are my answers, listed in rough order of how 'fun' they seem to me.
 to:: Maybe we'll eventually find something intelligent, even if it lacks the memories and personality of the original scanned human.
 
 #### Question
+id:: 4cee6950-503b-4d0a-9293-63c5110be66e
 content::
 \## The diff
 
@@ -155,6 +157,7 @@ from:: ## Question Two: In this hypothetical, what's the probability that TAI ap
 to:: your median should be roughly 10 years earlier than hers, all else equal: 2040-ish rather than 2050-ish.
 
 #### Question
+id:: 71a67fdb-6523-4c79-9724-c5219ab45abd
 content::
 \## {--{"author":"Lauren's AI","timestamp":1788824490689}@@Give --}{++{"author":"Lauren's AI","timestamp":1788824490689}@@His number against yours
 

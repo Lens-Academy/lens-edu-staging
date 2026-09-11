@@ -19,6 +19,7 @@ eval-results:
 ## Test:
 id:: 9c2cb793-41af-409d-b02d-9cb344d137fb
 #### Question
+id:: eba56dbd-b1cd-4de9-aca7-da6f95b09c18
 content:: Wasil and co-authors catalog verification methods and then, for each one, describe how a determined state would get around it.
 
 **Lay out the three classes of method, and for each: what cooperation does it require from the state you distrust, and what is its characteristic evasion? Then say what follows for how a real regime should be assembled.**

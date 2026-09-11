@@ -10,6 +10,7 @@ content::
 One exercise on the scheming report you just read. Bring your numbers to the meeting: comparing estimates (and the reasoning gaps behind them) is the point.
 
 #### Question
+id:: c6b92bad-c7b1-45d5-be38-e856d540ccfb
 content:: Estimate P(scheming) twice: first based only on the arguments in this report, then according to your all-things-considered view. Give both numbers and briefly explain any gap between them.
 assessment-instructions:: A good answer gives two explicit probabilities with reasoning: one tracking the report's arguments (Carlsmith's own estimate was ~25% for a specific operationalization), one all-things-considered. Reward engagement with specific arguments (counting argument, simplicity, goal-guarding, requirements for scheming) and honest acknowledgment of uncertainty. Don't grade the numbers themselves.
 max-chars:: 1500

@@ -16,6 +16,7 @@ eval-results:
 id:: b24d22b5-5471-44c3-bd56-ab6b12ea84fc
 
 #### Question
+id:: 9c7f7892-e067-42e2-8a69-2e45c1f178f8
 content:: In your own words, what is the difference between a theory of change and a theory of victory?
 
 assessment-instructions:: Score the answer from 1 to 5. This is an introductory comprehension question. Do not require the learner to construct an original strategy.
@@ -33,6 +34,7 @@ assessment-instructions:: Score the answer from 1 to 5. This is an introductory 
 Do not require the learner's wording to match the examples. Accept “local impact pathway” or similar language for a theory of change.
 
 #### Question
+id:: 194f6c81-fae6-4adc-87f6-2adc1ab2208f
 content:: Suppose an AI safety organization says: “We produce better evaluations of dangerous AI capabilities, which gives policymakers better information.” Is that already a complete theory of victory? Briefly explain what would still be missing.
 
 assessment-instructions:: Score the answer from 1 to 5. This is a simple application question. The learner should recognize that better information is an intermediate outcome and name what a complete account would still need; do not require a detailed strategy.

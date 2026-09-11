@@ -16,6 +16,7 @@ eval-results:
 id:: f57da14e-6b72-41de-b31b-df054ffe0edb
 
 #### Question
+id:: 0036305a-e999-45eb-ad37-97fe45b9e90e
 content:: Jason Hausenloy describes two broad camps in AI safety. In rough terms, who are they, and how do their views differ? Give at least two differences.
 
 Why should this two-camp picture be treated as a useful simplification rather than a complete map of the field?

@@ -19,6 +19,7 @@ eval-results:
 ## Test:
 id:: 47816cf1-9fe3-4e0b-b41e-395259c6c682
 #### Question
+id:: 82e3e57f-c572-4c0a-85ae-032d78ed928a
 content:: An attacker who controls an inference server does not need to smuggle out a hard drive. They can hide the weights inside ordinary-looking model responses, a few bits at a time, and let normal traffic carry them out.
 
 **Explain how verifying inference catches this. Why is the non-determinism of GPU floating-point arithmetic the crux — and what does bit-exact re-computation add?**

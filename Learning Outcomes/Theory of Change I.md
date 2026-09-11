@@ -14,6 +14,7 @@ eval-results:
 id:: 7e1314aa-d190-4ad7-8860-deee4f93b2dd
 
 #### Question
+id:: eeebc550-7cd5-4cde-b8f3-dab0f372865a
 content:: Why is it useful to develop a theory of change before deciding what actions to take?
 
 assessment-instructions:: Score the answer from 1 to 5. This is an introductory comprehension question. The learner should explain the practical value of a theory of change; do not require them to construct one.
