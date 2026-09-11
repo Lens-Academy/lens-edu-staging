@@ -4,13 +4,14 @@ reading_minutes: 30
 tutor_minutes: 5
 title: One Extinction Scenario (Video)
 tldr: "This unit swaps the book's longest reading for a 30-minute film: the book's own extinction scenario, seen minute by minute through the eyes of ordinary people."
-summary_for_tutor: "Video lens covering the Sable scenario in U3, replacing the reading of chapters 7 and 8. The student watches 'POV: What You Would
+summary_for_tutor: "Video lens covering the Sable scenario in U3, replacing
+  the reading of chapters 7 and 8. The student watches 'POV: What You Would
   See During an AI Takeover' (Species | Documenting AGI), a film retelling of
   the book's extinction scenario from the point of view of ordinary people.
   Three beats: an emotional reaction, a comparison against the four bets the
   student committed to in the opening lens of this unit, and an objection
   that the student must state as a claim about the argument rather than about
-  this story, bridging towards the Coda's path-vs-outcome distinction. The tutor is not given the mechanisms to test against; naming
+  this story. The tutor is not given the mechanisms to test against; naming
   them is the student's job. Chapter 9 is read next, then the Coda."
 authors:
   - Elias+Claude
