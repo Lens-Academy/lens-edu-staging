@@ -45,7 +45,7 @@ from:: This sequence is about the last decade in AI alignment.
 to:: The main thing blocking us is our inability to learn from our past mistakes.
 
 #### Question: Open
-id:: c4839b04-6ce1-4542-b44d-b73d9bd6f068
+id:: c52e7325-cd3a-4b4c-b8aa-5ccf7b49a5f8
 content::
 \## After the reading
 
