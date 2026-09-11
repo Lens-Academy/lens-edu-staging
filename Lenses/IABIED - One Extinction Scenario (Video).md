@@ -44,9 +44,6 @@ Three things, a few sentences each (speech-to-text works well here):
 3. Which step in the takeover did you find hardest to believe? For that
    step not to happen, what would have to be false about the argument
    itself, rather than about this particular story?
-Two things, a few sentences each (speech-to-text works well here):
-1. Which moment of the video stuck with you most, and how did it leave you feeling?
-2. Which step in the takeover did you find hardest to believe?
 
 The student has just watched "POV: What You Would See During an AI
 Takeover", a film retelling of the book's extinction scenario, which
