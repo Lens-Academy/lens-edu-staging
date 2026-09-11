@@ -11,7 +11,7 @@ Git records what changed. This file records why, what it depended on, and what w
 
 **Status key:** `todo`, `drafted`, `in progress`, `done`, `blocked`, `parked`.
 
-**Dates:** full `YYYY-MM-DD`. Every entry in section 8 reading `2026-09` happened on **2026-09-10**; they predate this convention and are left rather than churned.
+**Dates:** full `YYYY-MM-DD`. Entries in section 8 reading only `2026-09` happened on **2026-09-08**; they predate this convention and are left rather than churned.
 
 **Working practice.** Edits to files we did not write go in as suggestions for review, never as overwrites. New files we author can be written directly. Each entry in section 8 should say which of the two it was, so nothing lands silently.
 
