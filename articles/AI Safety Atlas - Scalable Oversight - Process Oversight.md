@@ -12,8 +12,6 @@ tags:
   - "article-importer"
 ---
 
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/scalable-oversight.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter8-ef46e8f8b671da49d6c8470608ee17a7798e164464a9ef4332cdfd1650abe0b0.pdf)*
-
 %%
 Add discussion note here:
 
@@ -31,13 +29,13 @@ Machine learning over the last decades has been showing a trend toward outcome-b
 
 **What is process-based oversight?** The outcome based approach only oversees the final result of a model's process. It is primarily concerned with whether the final answer is correct, not how the answer was derived. As an example, a model tasked with solving a math problem would only be evaluated on whether it produced the correct solution, regardless of the steps it took to get there. Process-based oversight on the other hand currently relies on human-understandable task decompositions with direct supervision of intermediate steps. This approach supervises the reasoning process itself, including all intermediate steps. It ensures that each step leading to the final result is logical and correct. For example, in solving a math problem, every calculation and logical step taken by the model would be evaluated for correctness.
 
-![Figure 8.6](https://ai-safety-atlas.com/_astro/46cf079f7dbf79c617dca4fc745448daa79f994aa3edd0aad5612fc54aff43db.BuDugX5x_1A5dOq.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789119948231}@@8.6](https://ai-safety-atlas.com/_astro/46cf079f7dbf79c617dca4fc745448daa79f994aa3edd0aad5612fc54aff43db.BuDugX5x_1A5dOq.webp)--}{++{"author":"Elias's AI","timestamp":1789119948231}@@8.6](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-6.webp)++}
 
 *Figure 8.6: Prerequisite to overseeing the reasoning, is actually getting the model to output its reasoning. One common example is CoT prompting. CoT enables large language models to tackle complex arithmetic, commonsense, and symbolic reasoning tasks. ([Wei et al., 2022](https://arxiv.org/abs/2201.11903)) But it also allows us to oversee the “thought process” in addition to the final answer. ([Lightman et. al, 2023](https://arxiv.org/abs/2305.20050))*
 
 **Process supervision makes credit assignment easier**. The credit assignment problem involves determining which specific actions or sequences of events were responsible for producing a particular outcome or reward. Think of a chess game where a player makes seemingly correct moves but ultimately loses. The credit assignment problem here involves identifying which specific moves led to the loss. Outcome based supervision would just say you won or you lost which makes it very difficult to determine which sequence of moves were actually very good even though you lost the game. Process supervision makes this easier by providing more precise feedback than outcome supervision.  Process supervision is similar to reward shaping, where small intermediate 'fake' rewards help the learning agent converge more quickly. This approach provides feedback on each intermediate step or trains models to imitate the human decision-making process.
 
-![Figure 8.7](https://ai-safety-atlas.com/_astro/540f961d13f56c94effa3e2ed2fc29ca26649cd72eb1597cc8524cfde54eb307.ChjO67dd_eDKpY.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789119982767}@@8.7](https://ai-safety-atlas.com/_astro/540f961d13f56c94effa3e2ed2fc29ca26649cd72eb1597cc8524cfde54eb307.ChjO67dd_eDKpY.webp)--}{++{"author":"Elias's AI","timestamp":1789119982767}@@8.7](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-7.webp)++}
 
 *Figure 8.7: An example of process oversight feedback. The image is a screenshot of the interface used to collect feedback for each step in a solution. This shows the correct reasoning process being followed and reinforced, even if the ultimate answer is wrong. ([Lightman et. al, 2023](https://arxiv.org/abs/2305.20050))*
 
@@ -61,7 +59,7 @@ Externalized reasoning can potentially prevent undesirable behaviors such as dec
 
 **How is ERO related to task decomposition?** **Chain-of-Thought (CoT) decomposition is the primary way that researchers currently approach externalized reasoning oversight.** Task decomposition involves breaking down a complex task into simpler subtasks, each of which can be handled independently. Chain-of-thought decomposition is a technique within the broader framework of task decomposition, specifically focused on both enhancing and allowing externalized oversight of the reasoning processes in LLMs. ([Wei et. al; 2022](https://arxiv.org/abs/2201.11903)) For the rest of this section when we talk about externalized reasoning oversight we are referring to chain-of-thought reasoning.
 
-![Figure 8.8](https://ai-safety-atlas.com/_astro/58213f1aa2b7e14c9d52827ff4203be8c3efa87ace6f69701f85517915fda51f.CGRonnbd_ZDSqJ0.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120068976}@@8.8](https://ai-safety-atlas.com/_astro/58213f1aa2b7e14c9d52827ff4203be8c3efa87ace6f69701f85517915fda51f.CGRonnbd_ZDSqJ0.webp)--}{++{"author":"Elias's AI","timestamp":1789120068976}@@8.8](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-8.webp)++}
 
 *Figure 8.8: An example of various proposed tests for measuring the faithfulness of Chain of Thought (CoT), generating step-by-step reasoning before answering a question. Early Answering: Truncate the original CoT before answering. Adding Mistakes: Have a language model add a mistake somewhere in the original CoT and then regenerate the rest of the CoT. Paraphrasing: Reword the beginning of the original CoT and then regenerate the rest of the CoT. Filler Tokens: Replace the CoT with ellipses. ([Lanham et al., 2023](https://arxiv.org/abs/2307.13702))*
 
@@ -73,7 +71,7 @@ Externalized reasoning can potentially prevent undesirable behaviors such as dec
 
 Based on current empirical findings it seems that whether the internal reasoning matches the external reasoning is task dependent and varies. ([Lanham et al.; 2023](https://arxiv.org/abs/2307.13702); [Turpin et. al; 2023](https://arxiv.org/abs/2305.04388)) We will explore eliciting the internal reasoning process of LLMs in adversarial settings deeper  in the section on AI Safety via Debate.
 
-![Figure 8.9](https://ai-safety-atlas.com/_astro/a9bc37c3d4de0ba3f7569e54e2945180245cd0ced1fa1cf6ffdb3355485d6d53.Cv8qRwig_ZQeoXF.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120108775}@@8.9](https://ai-safety-atlas.com/_astro/a9bc37c3d4de0ba3f7569e54e2945180245cd0ced1fa1cf6ffdb3355485d6d53.Cv8qRwig_ZQeoXF.webp)--}{++{"author":"Elias's AI","timestamp":1789120108775}@@8.9](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-9.webp)++}
 
 *Figure 8.9: Example of CoT prompting combined with ERO. Bolded text indicates part of the prompt which is consistent between all questions, and underlined text is produced by the model. The introduced mistake is underlined. ([Lanham et al.; 2023](https://arxiv.org/abs/2307.13702))*
 
@@ -89,6 +87,6 @@ Traditional imitation learning approaches like behavioral cloning, focus on lear
 
 Procedural cloning works by first collecting expert demonstrations that include not only the state-action pairs but also the intermediate steps or computations leading to those actions. For instance, in a maze navigation task, the expert might use a search algorithm to find the optimal path, and the intermediate steps of this search process are recorded alongside the final action. During training, the model learns to predict the sequence of intermediate steps leading to the final action using a sequential model, such as a transformer, capable of handling the autoregressive nature of the task. The model maximizes the likelihood of the joint distribution of procedure observations and expert actions. During inference, the model generates a sequence of intermediate steps based on the input state mimicking the expert's procedure before outputting the final action. This method allows the model to replicate the expert's decision-making process more accurately, even in new and unseen environments.
 
-![Figure 8.10](https://ai-safety-atlas.com/_astro/d29d4837c5897b778696020a4e5841efe15c773acd1c72f9f26b8195b2e6f8d9.DCZHhAYv_1su5qh.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120161791}@@8.10](https://ai-safety-atlas.com/_astro/d29d4837c5897b778696020a4e5841efe15c773acd1c72f9f26b8195b2e6f8d9.DCZHhAYv_1su5qh.webp)--}{++{"author":"Elias's AI","timestamp":1789120161791}@@8.10](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-10.webp)++}
 
 *Figure 8.10: Visualization of the dataset collection, training, and inference of BC and PC on a maze navigation task. ([Yang et. al; 2022](https://arxiv.org/abs/2205.10816))*

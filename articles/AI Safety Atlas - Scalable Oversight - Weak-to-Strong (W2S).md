@@ -12,8 +12,6 @@ tags:
   - "article-importer"
 ---
 
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/scalable-oversight.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter8-ef46e8f8b671da49d6c8470608ee17a7798e164464a9ef4332cdfd1650abe0b0.pdf)*
-
 %%
 Add discussion note here:
 
@@ -27,7 +25,7 @@ We can potentially train a more powerful AI using supervision or feedback from a
 
 ---
 
-*Video 8.1: Optional video explaining the concept of weak to strong generalization ([Rational Animations, 2025](https://youtu.be/5mco9zAamRk)).*
+*Video 8.1: Optional video explaining the concept of weak to strong generalization ([Rational Animations, 2025](https://youtu.be/INP8ru2Tj5M)).*
 
 Historically, much of the work on AI alignment has been highly theoretical, focusing on foundational aspects of agent behavior, inner alignment, and risks from learned optimization. Even the techniques that we talked about in previous sections like debate or IDA are often criticized for being frameworks rather than practical solutions, or mainly working on toy problems without addressing the core challenge of aligning superintelligent AI in real-world scenarios. So even though we can only conduct safety experiments on current-generation models, how can we be sure that these techniques will remain effective as AIs approach superhuman capabilities?
 
@@ -41,7 +39,7 @@ As a concrete example, imagine using GPT-4 for getting medical advice. It has re
 
 **What is weak-to-strong generalization (W2SG)?** Weak supervision involves training AI models using labels or feedback that are less accurate, less detailed, or noisier than those provided by highly knowledgeable or capable supervisors. This can happen when supervisors (whether humans or weaker models) are not experts in the task or when the data is incomplete or contains errors.
 
-![Figure 8.22](https://ai-safety-atlas.com/_astro/337317b78cfc4e4379e22c79ff741d54e8620cba97e6d7d580cc33faf7333497.CfIScImN_1VxrOw.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789119970348}@@8.22](https://ai-safety-atlas.com/_astro/337317b78cfc4e4379e22c79ff741d54e8620cba97e6d7d580cc33faf7333497.CfIScImN_1VxrOw.webp)--}{++{"author":"Elias's AI","timestamp":1789119970348}@@8.22](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-22.webp)++}
 
 *Figure 8.22: Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision ([Burns et. al. 2023](https://arxiv.org/abs/2312.09390))*
 
@@ -61,7 +59,7 @@ $$
 
 **Limitations and disanalogies of W2SG**:
 
-- Overfitting** to weak supervision**: The assumption that a strong model will generalize well from weak supervision is not guaranteed. Superhuman models might easily imitate weak errors. These models will likely be very proficient at predicting what humans will think and say, especially if they are trained on human data. Consequently, if we naively train such a superhuman model with human supervision, it might simply imitate the weak supervisor, outputting human-level capabilities rather than its latent superhuman capabilities. Researchers also use auxiliary confidence losses, which encourage the strong model to make confident predictions even when contradicting the weak supervision, promoting generalization and correcting weak supervisor mistakes.
+- {--{"author":"Elias's AI","timestamp":1789120145464}@@Overfitting**--}{++{"author":"Elias's AI","timestamp":1789120145464}@@**Overfitting++} to weak {--{"author":"Elias's AI","timestamp":1789120145464}@@supervision**:--}{++{"author":"Elias's AI","timestamp":1789120145464}@@supervision:**++} The assumption that a strong model will generalize well from weak supervision is not guaranteed. Superhuman models might easily imitate weak errors. These models will likely be very proficient at predicting what humans will think and say, especially if they are trained on human data. Consequently, if we naively train such a superhuman model with human supervision, it might simply imitate the weak supervisor, outputting human-level capabilities rather than its latent superhuman capabilities. Researchers also use auxiliary confidence losses, which encourage the strong model to make confident predictions even when contradicting the weak supervision, promoting generalization and correcting weak supervisor mistakes.
 
 - **Assumptions about task representations**. W2SG assumes that strong models have salient representations of the tasks they are trained on. This means the models already possess some understanding of these tasks from their pre-training phase. However, this assumption may not hold true for novel or highly complex tasks. If a task is entirely new or significantly more complex than what the model has encountered during pre-training, the model might not have the latent capabilities necessary to perform well even with weak supervision.
 
@@ -87,7 +85,7 @@ Sandwiching is an experimental setup that leverages narrowly superhuman models t
 2. **AI Model:** In the middle, we have the narrowly superhuman AI model that we want to test the oversight technique on. This model has some capabilities that we are unable to elicit. The non-expert should be able to “align” the model by getting it to display the kind of behavior we want using the given scalable oversight technique.
 3. **Expert Layer:** At the top, we have domain experts who evaluate the success of the alignment attempt. They serve as a benchmark, providing feedback without directly interacting with the non-experts or the AI during the process. We can also use ground truth labels from datasets as replacements for the expert layer instead of hiring actual experts.
 
-![Figure 8.23](https://ai-safety-atlas.com/_astro/e230d2d34c9a1dfd669d68a23f60c001baacc5f5adad7a724955dc8901259db9.DL8lhRV6_2clTvE.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120038694}@@8.23](https://ai-safety-atlas.com/_astro/e230d2d34c9a1dfd669d68a23f60c001baacc5f5adad7a724955dc8901259db9.DL8lhRV6_2clTvE.webp)--}{++{"author":"Elias's AI","timestamp":1789120038694}@@8.23](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-23.webp)++}
 
 *Figure 8.23: ([Bowman et al., 2022](https://arxiv.org/abs/2211.03540))*
 

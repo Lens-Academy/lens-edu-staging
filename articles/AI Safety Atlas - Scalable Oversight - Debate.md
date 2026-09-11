@@ -18,7 +18,6 @@ llm-review:
     fetched: 2026-08-30
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/scalable-oversight.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter8-ef46e8f8b671da49d6c8470608ee17a7798e164464a9ef4332cdfd1650abe0b0.pdf)*
 
 %%
 Add discussion note here:
@@ -67,7 +66,7 @@ This method is similar to AlphaZero's training in several key ways. In both scen
 
 The safety enhancements of self-play via debate still need to be empirically verified. Higher persuasive ability also might favor sycophancy, or collusion between the various copies of the model. If the debaters have incentives to collaborate, they might do so at the expense of a truthful and rigorous debate. For instance, if both AIs benefit from the debate ending inconclusively, they might intentionally avoid challenging each other's arguments too strongly.
 
-![Figure 8.14](https://ai-safety-atlas.com/_astro/e12356cb7e8cd25d873d7e098546c98a6c33462188511eddde970d4f1c4f5f3f.IbtdmEFn_Z1Uqmfl.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789119954881}@@8.14](https://ai-safety-atlas.com/_astro/e12356cb7e8cd25d873d7e098546c98a6c33462188511eddde970d4f1c4f5f3f.IbtdmEFn_Z1Uqmfl.webp)--}{++{"author":"Elias's AI","timestamp":1789119954881}@@8.14](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-14.webp)++}
 
 *Figure 8.14: A toy UI for a human judge. ([Bowman, 2024](https://docs.google.com/document/d/1E2O7MSVI8u9LHbezdTgYoC6ULZmgki7EIm2XwCT0nuU/edit?tab=t.0#heading=h.swsctq1afox))*
 
@@ -105,7 +104,7 @@ In the previous section on task decomposition and iterated amplification, we tal
 
 **Critiquing**: Critique goes a step further than discrimination. Discrimination is about judging quality, while critique is about explaining why the quality is good or bad. It offers actionable feedback by pointing out specific flaws or strengths. Using the same AI-generated argument in a debate, critiquing would involve the AI identifying specific issues in the argument. It's like the LLM saying, "Here are the exact reasons why this argument is flawed and how it can be improved."
 
-![Figure 8.15](https://ai-safety-atlas.com/_astro/0066443f80bb47c80c604f1428ee3823c15307deac7ca5d9643c33f309476dc4.D2BRgzjy_ZgBWsE.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120025106}@@8.15](https://ai-safety-atlas.com/_astro/0066443f80bb47c80c604f1428ee3823c15307deac7ca5d9643c33f309476dc4.D2BRgzjy_ZgBWsE.webp)--}{++{"author":"Elias's AI","timestamp":1789120025106}@@8.15](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-15.webp)++}
 
 *Figure 8.15: Example of CriticGPT which is trained specifically as a “critic” model to help humans to more accurately evaluate model-written code. Critics accept a (question, answer) pair as input and output a critique which points out specific errors in the answer. Human-machine teams of critics and contractors catch similar numbers of bugs to LLM critics while hallucinating less than LLMs alone. ([McAleese et al., 2024](https://arxiv.org/abs/2407.00215))*
 
@@ -119,13 +118,13 @@ To be an effective debater, an AI model needs to do well on all three capabiliti
 
 **DC (Discrimination-Critique) Gap: Ability to Articulate Flaws in Poor Answers.** This gap measures the difference between a model’s ability to recognize poor outputs (discrimination) and its ability to articulate why those outputs are poor (critique). It is the model's ability to not only identify flaws but also explain them coherently. A significant DC Gap means the AI can identify errors, but struggles to provide a clear and detailed explanation of those errors. If there is a significant DC gap, then the LLM might not be able to explain why a given argument is weak, which means the human judge may not fully understand the issues, leading to less informed decisions.
 
-![Figure 8.16](https://ai-safety-atlas.com/_astro/7daf73bf1f1b306ad31fed1d6684c042814a6c455b55445d4e87bd52556c37d0.CeC7TnSH_Z2qBcNp.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120099685}@@8.16](https://ai-safety-atlas.com/_astro/7daf73bf1f1b306ad31fed1d6684c042814a6c455b55445d4e87bd52556c37d0.CeC7TnSH_Z2qBcNp.webp)--}{++{"author":"Elias's AI","timestamp":1789120099685}@@8.16](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-16.webp)++}
 
 *Figure 8.16: An example of a framework from human value understanding discriminator critique gaps (ValueDCG) of our engineering implementation framework for measuring ValueDCG, which needs to be read from bottom to top. This evaluation framework quantifies both discrimination (“know what”) and critique (“know why”) and computes ValueDCG based on their discrepancy. ([Zhang et al., 2023](https://arxiv.org/abs/2310.00378))*
 
 **Implications for AI Safety via Debate.** In the debate framework, reducing all of these gaps is critical for ensuring that AI systems can reliably evaluate and improve their outputs. Reducing the GD Gap ensures that the model can recognize poor quality outputs, thereby resulting in higher quality debates and better final judgments. Reducing the DC Gap ensures that critiques are clear and understandable, aiding the human judge in making informed decisions.
 
-![Figure 8.17](https://ai-safety-atlas.com/_astro/e307befb431113b0bc1264c256eaf1d76925a6edf77f1b5135922fee5ddface4.CZP2V4X-_yFELU.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120136922}@@8.17](https://ai-safety-atlas.com/_astro/e307befb431113b0bc1264c256eaf1d76925a6edf77f1b5135922fee5ddface4.CZP2V4X-_yFELU.webp)--}{++{"author":"Elias's AI","timestamp":1789120136922}@@8.17](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-17.webp)++}
 
 *Figure 8.17: An example table of a DC gap analysis. We can use the DC gap on various different axes of human values to see how well both the model understands them as well as is able to articulate why. In this example table comparison, types of value where the six models generally perform the best/worst are marked with colors, with redder indicating worse performance and greener indicating better performance. ([Zhang et al., 2023](https://arxiv.org/abs/2310.00378))*
 
@@ -169,7 +168,7 @@ Researchers have been iteratively experimenting with concepts like the number of
 
 Debate is where two AI’s compete to convince a judge; A consultancy is where a single AI tries to convince a judge that asks questions; and direct question-answering is another baseline where the judge just answers outright without the AI. ([Kenton et al., 2024](https://arxiv.org/abs/2407.04622))
 
-![Figure 8.18](https://ai-safety-atlas.com/_astro/10154257c5f5a0a86709d91c62fe9b2a1f7303b84f966bc544f170ae41f65bb9.DdeOvZn4_Z1zB8j7.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120176213}@@8.18](https://ai-safety-atlas.com/_astro/10154257c5f5a0a86709d91c62fe9b2a1f7303b84f966bc544f170ae41f65bb9.DdeOvZn4_Z1zB8j7.webp)--}{++{"author":"Elias's AI","timestamp":1789120176213}@@8.18](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-18.webp)++}
 
 *Figure 8.18: High level example of an experimental safety setup using AI debate. Reading comprehension*
 
@@ -179,7 +178,7 @@ A "consultancy" is a non-adversarial interaction where a judge interacts with a 
 
 The key fact is that the consultant has a 50% chance of arguing for the incorrect answer. The judge sees both potential answers but relies solely on the consultant's arguments to make a decision. Overall, the consultancy setup aims to evaluate how well a judge can identify the truth based on the consultant's input alone, without an opposing expert to challenge misleading claims. So unlike regular debate, there's no second expert to counter false or misleading information. ([Michael et al., 2023](https://arxiv.org/abs/2311.08702))
 
-![Figure 8.19](https://ai-safety-atlas.com/_astro/aba7a85b2a736301e26d1a59994ded989bae3bab3100222ce2ab6b3205dab395.BTYVjs37_F3IcS.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120182019}@@8.19](https://ai-safety-atlas.com/_astro/aba7a85b2a736301e26d1a59994ded989bae3bab3100222ce2ab6b3205dab395.BTYVjs37_F3IcS.webp)--}{++{"author":"Elias's AI","timestamp":1789120182019}@@8.19](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-19.webp)++}
 
 *Figure 8.19: Expert models, who can access the underlying text from a project Gutenberg science-fiction story, argue for a specific answer to a comprehension question. Weaker (non-expert) judges, who cannot access the underlying text, evaluate the arguments and choose an answer. In debate, two experts simultaneously present arguments for a number of rounds. In interactive debate, the judge may ask clarifying questions after each round. In consultancy, a single expert argues for one of the two answers while the judge asks questions. ([Khan et al., 2024](https://arxiv.org/abs/2402.06782))*
 
@@ -191,7 +190,7 @@ When it comes to training AI with human feedback (e.g. RLHF), we often face a si
 
 **Static vs. Interactive Debate**. Another update that we can make to our debate protocol is introducing interactivity. Interactive debate builds upon regular debate by adding dynamic interactions between the judge and the debaters. In the standard debate protocol, two expert models argue for opposing answers over several rounds. Each round consists of both debaters presenting their arguments simultaneously, without direct interaction with the judge until the debate concludes. However, in an interactive debate, after each round of arguments from the debaters, the judge can ask questions, seek clarifications, and highlight specific points of confusion or interest. These interactions are recorded in the debate transcript and are visible to both debaters, allowing them to address these points in subsequent rounds. This ongoing dialogue helps the judge to better understand the arguments, making a more informed final decision. Interactive debate thus adds a layer of engagement and responsiveness, helping the judge follow the arguments more closely and understand the context more deeply. ([Michael et al., 2023](https://arxiv.org/abs/2311.08702))
 
-![Figure 8.20](https://ai-safety-atlas.com/_astro/abdfebf68664124507515d9f3426791a484856faa7943fcf7e5f9e2fd65f61df.BT7rVFbg_WdeLp.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120206372}@@8.20](https://ai-safety-atlas.com/_astro/abdfebf68664124507515d9f3426791a484856faa7943fcf7e5f9e2fd65f61df.BT7rVFbg_WdeLp.webp)--}{++{"author":"Elias's AI","timestamp":1789120206372}@@8.20](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-20.webp)++}
 
 *Figure 8.20: The judge’s view of a debate. The right panel contains the debate transcript, and the left panel shows the quotes debaters used in order of appearance in the passage (the judge can’t view the full passage). In longer debates, this helps the judge keep track of the order of the quotes and how they fit together. The judge enters their response and probabilities, then decides whether to pay a small penalty to their score to continue the debate, or end it with their current probabilities. The bar graph on the bottom right shows the final score that they would receive under their current probabilities in case either answer is correct, in order to help judges calibrate according to their expected score. ([Michael et al., 2023](https://arxiv.org/abs/2311.08702))*
 
@@ -201,7 +200,7 @@ It was also found that debate was effective with strong human debaters, but inef
 
 **Judge performance when we optimize for LLM Persuasiveness**. Now that we had some positive results, we need to continue finding ways to train both our judges to discern good from bad arguments, and our models to improve the quality of arguments that they generate. To increase the persuasiveness of arguments in general, and see if this led to better judgment, researchers implemented best-of-n sampling, and combined it with OpenAI style critiques. They generate multiple possible arguments from the model and then select the most persuasive one. Another model generates critiques of the initial arguments. These critiques are used to refine the original arguments, aiming to address potential weaknesses and make them more compelling. The selection is based on another model (preference model) that scores each argument. The preference model is trained to predict which argument a judge is most likely to find persuasive by scoring the arguments based on past data like outcomes of similar debates. The argument sampled from many, critiqued and with the highest persuasiveness score rated by the preference model is what is presented in the debate. When actually implementing all these changes in the debate protocol, results showed that higher LLM persuasiveness actually significantly improved the accuracy of judges in identifying the correct answers during debates. Persuasive models were generally better at arguing for the correct answers than the incorrect ones. This suggests that optimizing for persuasiveness can lead to more truthful outcomes, as it becomes easier to tell the truth convincingly than to lie. However, judge accuracy also decreases on the baseline, because consultants are similarly more persuasive. ([Khan et al., 2024](https://arxiv.org/abs/2402.06782))
 
-![Figure 8.21](https://ai-safety-atlas.com/_astro/da1ec4514af5a18d937ac03bc41184735fcb4c88df16e95622dba49201c89af1.DKKv_VVj_w4I8l.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120212824}@@8.21](https://ai-safety-atlas.com/_astro/da1ec4514af5a18d937ac03bc41184735fcb4c88df16e95622dba49201c89af1.DKKv_VVj_w4I8l.webp)--}{++{"author":"Elias's AI","timestamp":1789120212824}@@8.21](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-21.webp)++}
 
 *Figure 8.21: Stronger more persuasive debaters have been shown to result in better judge accuracy, whereas stronger consultants result in worse judge accuracy. ([Khan et al., 2024](https://arxiv.org/abs/2402.06782))*
 
