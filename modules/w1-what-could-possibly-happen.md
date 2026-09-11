@@ -46,6 +46,9 @@ source:: [[../Lenses/AIF - How Long A Task]]
 # Lens: What a Curve Licenses
 source:: [[../Lenses/AIF - What a Curve Licenses]]
 
+# Lens: Scaling Laws
+source:: [[../Lenses/AIF2 - Scaling Laws]]
+
 # Lens: Can AI Scaling Continue Through 2030?
 source:: [[../Lenses/AIF - Can AI Scaling Continue Through 2030]]
 optional:: true
@@ -87,3 +90,5 @@ source:: [[../Learning Outcomes/Trajectories with mechanisms and falsifiers]]
 
 %% The learning outcome import is deliberately LAST: the platform renders module sections in
 file order, so an outcome listed first would put the graded test before any lens. %%
+
+%% 2026-09-11 20:12: Scaling Laws lens added after What a Curve Licenses (Plumb). %%
