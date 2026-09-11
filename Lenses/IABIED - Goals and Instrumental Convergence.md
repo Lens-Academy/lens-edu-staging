@@ -75,7 +75,7 @@ The first sorts goals into two kinds. The second asks what follows once you have
 
 #### Article
 source:: [[../articles/iabied-ch4-ext-terminal-instrumental]]
-to:: "expect it to be very dangerous to humans.""
+to:: "expect it to be very dangerous to humans."
 
 #### Article
 source:: [[../articles/iabied-ch5-ext-instrumental-convergence]]
