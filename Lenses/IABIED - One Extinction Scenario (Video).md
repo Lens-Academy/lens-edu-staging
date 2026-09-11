@@ -12,7 +12,7 @@ summary_for_tutor: "Video lens covering the Sable scenario in U3, replacing
   student committed to in the opening lens of this unit, and an objection
   that the student must state as a claim about the argument rather than about
   this story, bridging towards the path-vs-outcome argument from the Coda.
- The tutor is not given the mechanisms to test against; naming
+  The tutor is not given the mechanisms to test against; naming
   them is the student's job. Chapter 9 is read next, then the Coda."
 authors:
   - Elias+Claude
