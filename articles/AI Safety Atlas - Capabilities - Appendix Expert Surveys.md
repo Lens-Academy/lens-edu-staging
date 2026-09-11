@@ -18,8 +18,6 @@ llm-review:
     fetched: 2026-08-30
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)*
-
 %%
 Add discussion note here:
 
@@ -35,9 +33,9 @@ Leading AI researchers and technologists express significant concern about exist
 
 *Video 1.4: Optional video outlining some views that AI experts have on safety and risk.*
 
-%%
+![Views about AI's impact on society in the next 20 years](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-1-12.png)
+
 *Interactive figure 1.12: Views about AI's impact on society in the next 20 years, 2021. Survey respondents were asked, “Will artificial intelligence help or harm people in the next 20 years?”  ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
-%%
 
 ![Views of Americans about robot versus human intelligence](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-1-13-2cf9adc8.png)
 
@@ -45,9 +43,9 @@ Leading AI researchers and technologists express significant concern about exist
 
 ## Surveys
 
-According to a recent survey conducted by AI Impact ([AI Impacts, 2022](https://aiimpacts.org/wp-content/uploads/2023/04/Thousands_of_AI_authors_on_the_future_of_AI.pdf)): *"****Expected time to human-level performance dropped 1–5 decades since the 2022 survey****. As always, our questions about ‘high-level machine intelligence’ (HLMI) and ‘full automation of labor’ (FAOL) got very different answers, and individuals disagreed a lot (shown as thin lines below), but the aggregate forecasts for both sets of questions dropped sharply. For context, between 2016 and 2022 surveys, the forecast for HLMI had only shifted about a year."*
+According to a recent survey conducted by AI Impact ([AI Impacts, 2022](https://aiimpacts.org/wp-content/uploads/2023/04/Thousands_of_AI_authors_on_the_future_of_AI.pdf)): {--{"author":"Elias's AI","timestamp":1789120246676}@@*"****Expected--}{++{"author":"Elias's AI","timestamp":1789120246676}@@*"**Expected++} time to human-level performance dropped 1–5 decades since the 2022 {--{"author":"Elias's AI","timestamp":1789120246676}@@survey****.--}{++{"author":"Elias's AI","timestamp":1789120246676}@@survey**.++} As always, our questions about ‘high-level machine intelligence’ (HLMI) and ‘full automation of labor’ (FAOL) got very different answers, and individuals disagreed a lot (shown as thin lines below), but the aggregate forecasts for both sets of questions dropped sharply. For context, between 2016 and 2022 surveys, the forecast for HLMI had only shifted about a year."*
 
-![Figure 1.67](https://ai-safety-atlas.com/_astro/8bd0b31c60acac846ee0ff9788527d066a92f0f52df72910c8309af756a1e9cb.Mkb_KwyO_10AlTX.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120224110}@@1.67](https://ai-safety-atlas.com/_astro/8bd0b31c60acac846ee0ff9788527d066a92f0f52df72910c8309af756a1e9cb.Mkb_KwyO_10AlTX.webp)--}{++{"author":"Elias's AI","timestamp":1789120224110}@@1.67](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-67.webp)++}
 
 *Figure 1.67: 2024 Survey of AI Experts ([AI Impacts, 2022](https://blog.aiimpacts.org/p/2023-ai-survey-of-2778-six-things))*
 
