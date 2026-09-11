@@ -9,6 +9,7 @@ tags:
 ---
 
 #### Question
+id:: acfca2e0-2618-42dd-94cf-67bce5480f50
 content:: Before you read: think back over the past week. Which thinking tasks did you hand to something or someone else instead of doing them yourself? A map found a route. A spellchecker fixed words. A colleague made a judgement call. An AI drafted or answered. List two or three of your own. For each one: what did the tool or person take over, and what part stayed with you? Did you decide to hand it over, or did it just happen? Write your thinking down before you read on.
 
 assessment-instructions:: The student is about to read the Unit 1 content on cognition and cognitive offloading. They have just answered a priming question about which thinking tasks they hand over to tools and people.

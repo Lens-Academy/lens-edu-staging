@@ -54,6 +54,7 @@ You may notice that most metacognition research studies education. That is where
 The next lens, arbitrary offloading, is the moment you hand a judgement to the tool instead of making it yourself.
 
 #### Question
+id:: f37957dd-a418-45fb-be66-e10dfb39c56c
 content::
 \## Check your Understanding
 Let's talk about the reading. In your own words, what did you take from it? What stayed with you, what puzzled you, what you'd push back on? Say as much or as little as you like. Speech-to-text is recommended.
@@ -87,6 +88,7 @@ What not to do: re-teach the content as a mini-lecture; introduce ideas not pres
 Conversation flow: keep an internal turn counter for your own replies. After about 2 tutor replies, close the phase: "Good. Let's take that into the next step, where we watch oversight break." Then tell the student to move on to the next step.
 
 #### Question
+id:: 515ecf28-3ceb-4633-a032-3a8a27694ba2
 content::
 \## Learning Question
 Think of a recent task where you only realised, too late, that you had been assuming you understood something you did not. It might be a document you skimmed, a number you trusted, or a plan you never really checked.

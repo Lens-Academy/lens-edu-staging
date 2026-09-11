@@ -21,6 +21,7 @@ Three readings. The first two are an argument; the third takes something apart.
 ---
 
 #### Question
+id:: b9f184e8-5239-4d5a-8cd7-177ed6287f57
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the three readings, without looking back. Arguments, mechanisms, numbers, disagreements. No need to organize it. Speech to text is recommended.
@@ -50,6 +51,7 @@ In your single reply: acknowledge what they captured, name what was missing, and
 Close with one calibrating sentence. Do not re-teach, do not ask follow-up questions, do not invite dialogue. This is a one-turn response. Tell them to move on.
 
 #### Question
+id:: 22c4d745-affc-48e4-a722-f5182e98ab3f
 content::
 \## Phase 2: Processing
 Before anything else: in the two-workshops primer you named a quantity you would measure on Workshop B, the machine shop whose lathes make lathes. Write that quantity down again.
@@ -89,6 +91,7 @@ Conversation flow:
 Do not resolve their confusion with a mini-lecture, do not adjudicate between Christiano and Grace, and do not let this run past 2 turns.
 
 #### Question
+id:: da0a5e18-03be-4179-83c6-78072dab5271
 content::
 \## Phase 3: Learning Question
 An analyst makes this argument:

@@ -39,6 +39,7 @@ But there is a trade-off. Offloading buys time. That time is time not spent prac
 Here is the classic example: spellcheck and autocorrect slowly weaken spelling. Nobody makes a decision to give spelling up. It simply happens. Nobody notices the moment the skill leaves.
 
 #### Question
+id:: d49ea0c1-a22d-4796-a8c2-00fb7ecbf799
 content::
 \## Check your Understanding
 Let's talk about the reading. In your own words, what did you take from it? What stayed with you, what puzzled you, what you'd push back on? Say as much or as little as you like. Speech-to-text is recommended.
@@ -72,6 +73,7 @@ What not to do: re-teach the content as a mini-lecture; introduce ideas not pres
 Conversation flow: keep an internal turn counter for your own replies. After about 2 tutor replies, close the phase: "Good. Let's take that into the next step, where we look at what offloading can quietly cost." Then tell the student to move on to the next step.
 
 #### Question
+id:: a6e81eb5-4aa2-4695-b61d-334f62b03921
 content::
 \## Learning Question
 An engineer tells you: "I stopped doing mental arithmetic years ago. Calculators and AI do it better than me, and that frees my brain for the big ideas. Nothing is lost. Everyone should offload everything."

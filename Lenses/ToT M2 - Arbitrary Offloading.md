@@ -46,6 +46,7 @@ content::
 Notice what happened. The learner followed an answer the learner could not evaluate, felt satisfied, and only discovered the gap weeks later, in the exam. The failure was invisible from the inside the whole time. That is the danger case this lens opened with.
 
 #### Question
+id:: ffbeb6cb-fe3f-4759-897c-e785f8864a42
 content::
 \## Check your Understanding
 First, spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
@@ -75,6 +76,7 @@ What not to do: re-teach the content; ask follow-up questions; introduce ideas n
 This is a one-turn response. Tell the student to move on.
 
 #### Question
+id:: 6ebd82eb-55f6-49e8-8b25-31fb28fad01f
 content::
 \## Learning Question
 A colleague says: "I have the AI draft the market analysis, and I just skim it to see if it looks plausible. I'm still the one who signs off, so my judgement is in it."

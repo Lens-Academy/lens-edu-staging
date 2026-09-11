@@ -57,6 +57,7 @@ Strict behavioral rules:
 assessment-instructions:: Debrief out of character, 120-200 words. Report, concretely: (1) roughly how their statements-to-questions ratio ran, (2) which of Dana's three layers they reached — training annoyance, skill worry, her son — and name the move that unlocked the deepest one they got (quote their words back), (3) the moment they most nearly lost her — a correction, a pitch, a missed aside — and what a listening move would have looked like there, verbatim. If they took the correction-bait, say so plainly and name what Dana's wrong claim was protecting (her feelings, not a factual position). If they earned the "what do you actually think?" question, point out that everything they got to say was said with permission — that's the whole model working. Do not re-litigate AI facts. No generic praise. Close by sending them to the reflection question below.
 
 #### Question
+id:: 90590052-94a0-438a-850e-86b0ff30756e
 content::
 \## What did you learn about Dana?
 Two minutes, from memory of the conversation:

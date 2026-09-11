@@ -19,6 +19,7 @@ Two dissenting arguments, structurally different, same conclusion.
 Read at least one. Read both if you want the more interesting exercise, which is the question below.
 
 #### Question
+id:: 3db7d9cf-e73f-471a-8926-977467be363f
 content::
 \## The question worth asking about dissent
 

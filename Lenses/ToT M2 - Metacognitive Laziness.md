@@ -49,6 +49,7 @@ Is this really so bad? Maybe we learn the same things in different ways when a t
 The next lens collects five metacognitive traps your own thinking can fall into — ways oversight breaks that long predate AI.
 
 #### Question
+id:: 619e80bb-5d3b-422f-8b2b-b025a3c64433
 content::
 \## Check your Understanding
 Spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
@@ -84,6 +85,7 @@ What not to do: re-teach the content as a mini-lecture; introduce ideas not in t
 Conversation flow: keep an internal turn counter for your own replies. After about 2 tutor turns, close the phase: "Good. Let's take that into the next step, where we test where the judgement goes." Then tell the student to move on to the next step.
 
 #### Question
+id:: 3d0f434a-46b0-4b03-b560-7116a3c23d61
 content::
 \## Learning Question
 A manager says: "Every morning I ask my AI to decide which of my tasks to delegate to it and which I should do myself. That way I never waste its time, and my list is always optimised. This is just good use of a tool."

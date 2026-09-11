@@ -17,6 +17,7 @@ The first pair was thinking itself (cognition) versus thinking about your thinki
 Now answer the two checks below in your own words. The first asks you to say where the judgement sits in two real examples of tool use, which case hands the judgement over, and to give your own example of arbitrary offloading. The second asks you to name the five metacognitive traps and give a real example of each. Use examples from your own life where you can.
 
 #### Question
+id:: 11e3c416-150d-4f80-9317-e635057cccdf
 content::
 \## Chapter check
 Two people explain how they use a tool.
@@ -45,6 +46,7 @@ assessment-instructions:: Chapter check for Unit 2. Score the answer according t
 Do not penalise a learner who disagrees that B's example is always harmful; they just need to show they can place the judgement in each case. Feedback tone: direct, specific, no generic praise.
 
 #### Question
+id:: 8006e039-cf22-423e-a462-4dc0c025071a
 content::
 \## Chapter check
 A colleague says: "Those metacognitive traps you mentioned are just ordinary mistakes. I'd catch them myself. I don't need to worry about them, and they've got nothing to do with AI."

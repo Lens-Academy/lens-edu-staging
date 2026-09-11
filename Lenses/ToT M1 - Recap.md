@@ -19,6 +19,7 @@ The first showed that handing thinking to a tool or to another person is normal,
 Now answer the two checks below in your own words. The first asks you to defend offloading against someone who calls it laziness. The second asks you to explain why an AI assistant is not just a faster calculator. Use examples from your own life where you can.
 
 #### Question
+id:: 6a23fddd-271b-4328-8fce-84e85c1b0ef8
 content::
 \## Chapter check
 A colleague tells you: "I never offload my thinking to anything. I do every step of every task in my own head. Tools are a crutch, and people who use them are just lazy."
@@ -46,6 +47,7 @@ A strong student should be allowed to argue that some offloading is harmless or 
 Feedback tone: direct, specific, no generic praise. If the core is missing, say plainly what the answer would need to include to pass.
 
 #### Question
+id:: 0db04b7e-055d-49de-a48a-b9ff660d6d0c
 content::
 \## Chapter check
 A colleague says: "I don't see what the fuss is about. An AI assistant is just a faster calculator. I use both, and neither does my thinking for me."

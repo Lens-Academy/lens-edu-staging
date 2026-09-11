@@ -22,6 +22,7 @@ from:: Scroll around the organizations on this cute [AI safety map](https://aisa
 to:: “Father had told Draco about the Rule of Three, which was that any plot which required more than three different things to happen would never work in real life. Father had further explained that since only a fool would attempt a plot that was as complicated as possible, the real limit was two.”
 
 #### Question
+id:: 794ad9e6-1d09-4850-8591-dafad2b6d3b5
 content::
 Choose one “generically good” AI safety action from the excerpt—or another one you know. Sketch its local theory of change in one sentence. Then keep extending the chain until it reaches a genuine win condition.
 
@@ -51,6 +52,7 @@ from:: ## Developing Strategic Taste
 to:: **Then act on the gap.**
 
 #### Question
+id:: 2ee89f8e-d1ca-4028-8688-0b0010f760fa
 content::
 Now revise your pathway into a compact theory of victory. Include:
 

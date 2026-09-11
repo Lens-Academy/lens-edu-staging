@@ -35,6 +35,7 @@ This sets up a question we will return to through the whole course: whether help
 ---
 
 #### Question
+id:: 14708606-9027-4218-b3a0-b9d28cc2e9b7
 content::
 \## Check your Understanding
 Let's talk about the reading. In your own words, what did you take from it? What stayed with you, what puzzled you, what you'd push back on? Say as much or as little as you like. Speech-to-text is recommended.
@@ -67,6 +68,7 @@ What not to do: re-teach the content as a mini-lecture; introduce ideas not pres
 Conversation flow: keep an internal turn counter for your own replies. After about 2 tutor replies, close the phase: "Good. Let's take that into the next step, where we test what is actually different about an AI analysis." Then tell the student to move on to the next step.
 
 #### Question
+id:: 5fad8bd2-20fd-42e9-bdb9-c10305ee6aba
 content::
 \## Learning Question
 A student says: "I asked the AI to explain why my company's sales dropped. It showed its reasoning first, step by step, then gave me a clear three-part analysis with a recommendation. I read the reasoning through, it made sense, and the sentences looked good. That is the same as using a calculator: the tool did the work, it showed its working, and I stayed in control."

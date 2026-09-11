@@ -28,6 +28,7 @@ Some honest options, roughly in increasing order of commitment:
 - Support the work with money, if that is the lever you actually have.
 
 #### Question
+id:: 13ebab87-b749-4e32-8564-284914043b0d
 content::
 \## Make it yours
 Write down, for your future self:

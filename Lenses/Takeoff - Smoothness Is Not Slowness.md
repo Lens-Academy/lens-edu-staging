@@ -7,6 +7,7 @@ authors:
   - Claude
 ---
 #### Question
+id:: 73acf4c0-573e-46bf-bb30-882061b3d1b0
 content::
 \## Before you read: two axes or one?
 
@@ -44,6 +45,7 @@ Two short readings.
 **Second, read Rob Bensinger's *Quick Nate/Eliezer comments on discontinuity*.** Having just watched an argument about whether progress is continuous, this reframes whether that was the right question at all. The suggestion is that the crux is not the shape of the curve but where the improvement is coming from.
 
 #### Question
+id:: 12aa425e-2187-493b-80c0-2feaa54081f7
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down what you remember from both readings, without looking back. Then, separately: rewrite your working definition of "slow takeoff" from before, corrected.
@@ -65,6 +67,7 @@ The most important thing to check: whether their corrected definition is actuall
 Otherwise: acknowledge what they captured, name gaps briefly, correct errors in one sentence, normalize incomplete recall, and close with one calibrating sentence. Do not over-validate, do not re-teach at length, do not ask follow-up questions, do not invite dialogue. One-turn response. Tell them to move on.
 
 #### Question
+id:: cd208229-d26d-49f6-a264-a1178a9410f9
 content::
 \## Phase 3: Learning Question
 Two researchers are arguing in public.

@@ -21,6 +21,7 @@ This is unusual and worth noticing as you read it: an author whose model was wid
 ---
 
 #### Question
+id:: f8bfeaef-1ab2-4d8d-ab6f-ef6a4055c821
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from both readings, without looking back. The mechanics of the method, the assumptions, the correction, the numbers. No need to organize it. Speech to text is recommended.
@@ -48,6 +49,7 @@ In your single reply: acknowledge what they captured, name what was missing, cor
 Do not re-teach, do not ask follow-up questions, do not invite dialogue. One-turn response. Tell them to move on.
 
 #### Question
+id:: 5ca9c941-fa20-4afc-b5e5-9362698af514
 content::
 \## Phase 2: Processing
 Go back to what you wrote in the previous lens, your answer to "what is my estimate an answer *to*."
@@ -80,6 +82,7 @@ Conversation flow:
 Do not resolve with a mini-lecture, do not adjudicate whether bio-anchors is a good method, do not run past 2 turns.
 
 #### Question
+id:: c78a52ee-93ef-4c8f-b7b1-40b0b459f527
 content::
 \## Phase 3: Learning Question
 A different team builds an estimate the opposite way round.

@@ -7,6 +7,7 @@ authors:
   - Claude
 ---
 #### Question
+id:: 4184136b-3238-4758-938b-64dbca37fe9a
 content::
 \## Before you read: two workshops
 

@@ -21,6 +21,7 @@ Read for the assembly, not the number. Where does each parameter come from? Whic
 This one does something different, and to our eye more useful: it replaces "when does transformative AI arrive" with a sequence of thresholds, each with its own arrival estimate. That structure transfers to other questions about a technology arriving, which is why it is worth learning here rather than only for AI.
 
 #### Question
+id:: 20718618-28ec-46b3-a3a4-f699048bac1c
 content::
 \## Find the load-bearing parameter
 

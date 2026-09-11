@@ -21,6 +21,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: 9639e756-c013-4852-b0ac-f5f6cc7df3a9
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -66,6 +67,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 9d02befb-ae37-41d3-8b13-e09063fe57c3
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize, just capture your reaction. Using the speech to text feature is recommended.
@@ -100,6 +102,7 @@ What not to do:
 - Start resolving the learning outcome question — that is Phase 3's job.
 
 #### Question
+id:: d799881b-8b9f-42c8-9cbe-0b81a6c48510
 content::
 \## Phase 3: Learning Question
 A lab announces: "We ran our model through a million test conversations. It was honest and helpful in every single one. A million clean tests is strong evidence it's safe to deploy." Using Chapter 4, explain why the authors would not be reassured, and be specific about what those test results can and cannot tell you about what the model will do once deployed.

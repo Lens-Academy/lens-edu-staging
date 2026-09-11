@@ -18,6 +18,7 @@ You've just been through the book's darkest stretch. The authors' point isn't de
 ---
 
 #### Question
+id:: 0d57c4cb-2122-4b22-8c5e-9a757a123e26
 content::
 \## Phase 1: Your strengths
 Take 5 minutes and write freely; speech-to-text works well here. What are you unusually good at, or unusually well-positioned for? Touch on any of:
@@ -59,6 +60,7 @@ Ground rules:
 - However the conversation winds down, do not end on doom. End on the concrete first step they can take this week.
 
 #### Question
+id:: 693d04eb-4e4a-4b01-b444-9eae34cc180b
 content::
 \## Phase 3: Your action items
 Close by writing down what you're taking with you. Keep it short; you'll share this at the next meeting, so write it for your future self:

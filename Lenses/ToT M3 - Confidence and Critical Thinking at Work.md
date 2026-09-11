@@ -43,6 +43,7 @@ The study also found that AI changed where the effort went. For tasks that produ
 Lee reports these as shifts within each level of the work, not a slide to easier thinking. Someone who checks an AI output is still thinking, but the thinking is of a different kind. It starts from an existing answer and asks what is wrong with it. It does not build the skill of producing that answer from scratch. The real lesson is calibration: checking should track how much the task matters, how well you know the area, and whether you can verify the answer.
 
 #### Question
+id:: 4d5ef3b9-146e-4bee-90ef-f43bccb52cf1
 content::
 \## Your turn
 
