@@ -4,6 +4,8 @@ title: "Unit 3: How Could It Go Wrong?"
 id: 'a69e9bfb-9405-4896-b20c-23973b9066ce'
 authors:
   - Lauren+Claude
+add_to_ai_context:
+  - "[[../articles/ngo-what-just-happened-a-retrospective-of-ai-alignment]]"
 ---
 
 %% AI Futures v2, built 2026-09-11 by Plumb (a Claude) from docs/course-review/course-v2.plain.md
