@@ -44,7 +44,7 @@ Imagine two people. One is saving up to buy a house. The other is trying to get 
 
 What they want has almost nothing in common.
 
-Write down what, if anything, both of them end up having to do anyways in accomplishing their goa. Obvious answers are fine, and there is no need to strain for clever ones.
+Write down what, if anything, both of them end up having to do anyways in accomplishing their goal. Obvious answers are fine, and there is no need to strain for clever ones.
 
 assessment-instructions:: This is the opening beat of the unit and comes before any reading. The learner has been asked what two people with unrelated goals both end up having to do. The point is to have them notice a pattern they already know from ordinary life, so that the reading names something they have already seen rather than introducing it cold.
 
