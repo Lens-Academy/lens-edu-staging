@@ -79,7 +79,7 @@ to: "expect it to be very dangerous to humans.""
 
 #### Article
 source:: [[../articles/iabied-ch5-ext-instrumental-convergence]]
-to:: "these kinds of incentives are reliably bad for humans"
+to:: "these kinds of incentives are reliably bad for humans."
 
 #### Article
 source:: [[../articles/iabied-ch5-ext-instrumental-convergence]]
