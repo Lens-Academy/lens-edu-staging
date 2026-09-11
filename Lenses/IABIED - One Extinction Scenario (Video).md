@@ -37,9 +37,6 @@ If you would rather read it in the authors' own words, the same events are
 Chapters 7 and 8 ("Realization" and "Expansion"). You will read Chapter 9
 straight afterwards either way, and the Coda after that.
 
-One footnote from the book's version is worth keeping in mind while you
-watch: every event referred to in the story with a date on it is an event
-that happened in real life.
 
 
 #### Video
