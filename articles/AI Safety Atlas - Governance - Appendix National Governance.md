@@ -20,7 +20,6 @@ llm-review:
     fetched: 2026-08-30
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/governance.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter4-a0a322670b21725098e1839edee61e6b3af18c4a900a1d2e5731d3efe4852f1a.pdf)*
 
 %%
 Add discussion note here:
@@ -62,7 +61,7 @@ Key lessons from nuclear regulation applicable to national AI governance include
 
 **What values and priorities drive the EU's approach?** The EU has demonstrated a clear prioritization for the protection of citizens' rights. The EU AI Act's core approach to categorizing risk levels is designed primarily around measuring the ability of AI systems to infringe on the rights of EU citizens. This can be observed in the list of use cases deemed to be high-risk, such as educational or vocational training, employment, migration and asylum, and administration of justice or democratic processes. Most of the requirements are designed with the common citizen in mind, including transparency and reporting requirements, the ability of any citizen to lodge a complaint with a market surveillance authority, prohibitions on social scoring systems, and anti-discrimination requirements. This rights-based approach contrasts markedly with China's focus on social control and the US emphasis on geopolitical competition ([Cheng et al., 2024](https://www.convergenceanalysis.org/ai-regulatory-landscape/home)).
 
-![Figure 4.35](https://ai-safety-atlas.com/_astro/72afa3c42d6264e0341d419e537951d02e33ef869388ea718afb3e09a68126f8.P5uddiEu_1UNK2H.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120604058}@@4.35](https://ai-safety-atlas.com/_astro/72afa3c42d6264e0341d419e537951d02e33ef869388ea718afb3e09a68126f8.P5uddiEu_1UNK2H.webp)--}{++{"author":"Elias's AI","timestamp":1789120604058}@@4.35](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-35.webp)++}
 
 *Figure 4.35: The EU AI Act: Classification of general-purpose AI models with systemic risks ([Observatorio de Riesgos Catastróficos Globales](https://www.orcg.info/articulos/infografas-ley-de-inteligencia-artificial-de-la-unin-europea))*
 
@@ -78,7 +77,7 @@ Key lessons from nuclear regulation applicable to national AI governance include
 
 **How does geopolitics influence US AI policy?** US AI policy strongly prioritizes its geopolitical competition with China. The US AI governance strategy is heavily influenced by the perceived threat of China's rapid advancements in AI and the potential implications for national security and the global balance of power. The binding actions taken by the US (enforcing semiconductor export controls) are explicitly designed to counter China's AI ambitions and maintain US technological and military superiority. This geopolitical focus sets the US apart from the EU, which has prioritized the protection of individual rights, and China, which has prioritized internal social control. The US strategy appears more concerned with the strategic implications of AI and ensuring that the technology aligns with US interests in the global arena ([Cheng et al., 2024](https://www.convergenceanalysis.org/ai-regulatory-landscape/home)).
 
-![Figure 4.36](https://ai-safety-atlas.com/_astro/39747fc8317b45cac082b5ab11d83732b37181be4831365ae58df926492b8b5c.CRZtW9L8_ZF4r6x.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120606178}@@4.36](https://ai-safety-atlas.com/_astro/39747fc8317b45cac082b5ab11d83732b37181be4831365ae58df926492b8b5c.CRZtW9L8_ZF4r6x.webp)--}{++{"author":"Elias's AI","timestamp":1789120606178}@@4.36](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-36.webp)++}
 
 *Figure 4.36: Number of AI-related regulations in the United States, 2016-2023 ([Stanford HAI, 2024](https://aiindex.stanford.edu/report/))*
 
@@ -94,6 +93,6 @@ Key lessons from nuclear regulation applicable to national AI governance include
 
 **How is China implementing its regulatory vision at different levels?** At the municipal level, Shanghai and Beijing launched AI safety labs in mid-2024, and over 40 AI safety evaluations have reportedly been conducted by government-backed research centers. China has demonstrated an inward focus, primarily regulating Chinese organizations and citizens. Major international AI labs such as OpenAI, Anthropic, and Google do not actively serve Chinese consumers, partly due to unwillingness to comply with China's censorship policies. This has resulted in Chinese AI governance operating largely on a parallel and disjoint basis to Western AI governance approaches ([Cheng et al., 2024](https://www.convergenceanalysis.org/ai-regulatory-landscape/home)).
 
-![Figure 4.37](https://ai-safety-atlas.com/_astro/26073543ce6520dbe2273832a41d67d6bc34447573541d758fe228ed8a987dc2.f1w8VYVk_yWQqH.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120626961}@@4.37](https://ai-safety-atlas.com/_astro/26073543ce6520dbe2273832a41d67d6bc34447573541d758fe228ed8a987dc2.f1w8VYVk_yWQqH.webp)--}{++{"author":"Elias's AI","timestamp":1789120626961}@@4.37](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-37.webp)++}
 
 *Figure 4.37: In 2024, Chinese institutions significantly increased publication of frontier AI safety papers compared to 2023, from approximately seven papers per month in 2023 to 18 per month in 2024. ([AI Safety in China, 2025](https://aisafetychina.substack.com/p/ai-safety-in-china-2024-in-review))*
