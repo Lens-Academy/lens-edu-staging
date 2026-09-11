@@ -38,26 +38,24 @@ id:: 765932ae-6d2b-4bbd-907b-fa58cac3c3b3
 #### Question: Open
 id:: c32375fb-07df-4876-979d-eb38440054ba
 content::
-A team has built a highly capable AI system and does not know what it actually optimizes for. Training was opaque, and what the system says about its own goals may not match what it pursues.
+A lab deploys an assistant model to run its internal research pipeline. By every measure available to them it is well-behaved: honest under evaluation, quick to defer when a person overrides it, never once caught doing something it was told not to do. Its designers believe it genuinely wants the lab's research to go well, and they may well be right about that.
 
-A colleague concludes that nothing useful can be said about how it will behave, on the grounds that you cannot predict a system whose goals you do not know.
+They then hand it a long-horizon goal and broad latitude to pursue it.
 
-Explain why that conclusion is wrong. Be specific about what can be predicted, and about what makes those particular predictions safe to make when so much else is unknown.
+Explain what could still go wrong here, and why the model having good intentions does not remove the risk.
 
 assessment-instructions::
 Score according to the following rubric.
 
-**1** — Accepts the colleague's conclusion, or lists behaviors with no reason attached. Also score 1 if the answer claims the point is that all capable systems end up wanting the same thing, which inverts the argument: the claim is about shared *sub-goals* across differing final goals, not shared final goals. *Example: "You can't know. It depends entirely on what it was trained to do."*
+**1** — Concludes nothing much goes wrong, since the model is aligned and well-behaved. Or predicts it turns on the lab with no account of why. *Example: "If it genuinely wants the research to go well and it defers to people, the main risks are ordinary ones like bugs or bad data."*
 
-**2** — Asserts that the system will do things like acquire resources or resist being switched off, but treats this as a guess, or as a trait of this particular system rather than a consequence of its structure. *Example: "It'll probably try to get more compute and stop people interfering, because that's what advanced AI tends to do."*
+**2** — Answers with goal misspecification: the model's goal is subtly wrong, or it misunderstands what the lab meant. A real failure mode, but it sidesteps the question, which stipulates that the intentions are good. Say so and push for what goes wrong even granting them. *Example: "It'll optimize the literal objective and miss what they actually wanted."*
 
-**3** — Gets the mechanism. A small set of sub-goals, acquiring resources, keeping the ability to act, and keeping its goal from being altered, is useful for almost any final goal a capable system might have, so a system pursuing almost anything has reason to pursue them. Distinguishes these sub-goals from the final goal itself. *Example: "Almost anything you could want is easier with more resources and harder if you're switched off or edited. So whatever this system is actually aiming at, those things help it get there. They're not what it wants, they're what wanting anything at all tends to require."*
+**3** — Gets the structural point. Pursuing any long-horizon goal competently implies sub-goals: securing resources, staying operational, not having the goal altered partway. Those follow from the shape of goal-pursuit rather than from the content of the goal, so a benign goal generates them just as readily. *Example: "Whatever it's aiming at, it can't get there if it's shut down halfway, or if its compute gets reassigned, or if someone edits what it's aiming at. So it has reason to secure all three. None of that requires it to want anything bad."*
 
-**4** — As above, plus draws the predictive consequence and its limit. The prediction is reliable *because* it does not depend on knowing the goal, which is what makes it available here. But it predicts the sub-goals only, not the final goal, and not which method the system will use to pursue them. *Example: Adds "That's why this is the one thing you can say confidently: the argument never needed the goal as an input. It also doesn't tell you what it's ultimately for, or whether it acquires resources by buying, building or taking them."*
+**4** — As above, plus locates where the conflict comes from. Humans are a source of interruption, redirection, and competition for the same resources, so the model's sub-goals put it at odds with us without it ever opposing us. Good intentions are beside the point because they are a fact about the goal, and the pressure comes from the pursuit. *Example: Adds "The lab is the thing most likely to switch it off or change its mind for it. That makes them an obstacle to a goal they gave it themselves, and its good intentions toward their research don't touch that at all."*
 
-**5** — As above, plus reaches the safety consequence. Behavior that looks adversarial is a byproduct of capable goal-directed optimization rather than evidence of a hostile goal. A system with no ill will toward anyone still has reason to acquire and to resist interference, so seeing those behaviors tells you the system is capable and goal-directed, not that it was built badly or aimed at us. *Example: Adds "The unsettling part isn't that it might be hostile. It's that you'd expect exactly this behavior from a system that was completely indifferent to us. Resistance to being switched off isn't a sign something went wrong in training; it's what competence at any goal looks like from outside."*
-
-max-chars:: 800
+**5** — As above, plus draws the consequence for how the lab should reason. Behavioral evidence of good intent does not bear on whether these pressures exist, because they follow from capability and goal-directedness rather than from values, so "is it aligned?" cannot be settled by watching it behave well. May note that the pressure grows with competence and with the length of the horizon, so the reassuring track record was collected under exactly the conditions where the risk was lowest. *Example: Adds "Everything they know about it was learned while it was doing short tasks under supervision. That's the regime where none of this bites. They've just moved it out of that regime and are relying on evidence gathered inside it."*
 
 # Suggested Lenses:
 ## Lens:
