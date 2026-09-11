@@ -23,7 +23,7 @@ content::
 
 This module normally carries the course's longest reading: the book's own extinction scenario. We replaced about half of it with a video that tells the book's story, minute by minute, through the eyes of ordinary people living through it.
 
-If you would rather read instead (or as well): the same story in the authors' own words is Chapters 7 to 8 ("Realization", "Expansion"). Either way, the short Coda you read right after explains what this story is and isn't claiming: the pathway is illustrative, only the ending is the prediction.
+If you would rather read instead (or as well): the same story in the authors' own words is Chapters 7 to 8 ("Realization", "Expansion"). Either way, Chapter 9 and the short Coda you read right after explains what this story is and isn't claiming: the pathway is illustrative, only the ending is the prediction.
 
 One footnote from the book's version is worth keeping in mind while you watch: every event referred to in the story with a date on it is an event that happened in real life.
 
