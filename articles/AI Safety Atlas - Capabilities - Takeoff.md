@@ -18,8 +18,6 @@ llm-review:
     fetched: 2026-08-30
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)*
-
 %%
 Add discussion note here:
 
@@ -53,7 +51,7 @@ In the next section we discuss just one of these factors that tends to be the mo
 
 **Slow takeoff provides us time to adapt and respond.** If we discover problems with our current safety approaches, we can adjust them before AI becomes significantly more powerful. This connects directly to what we'll discuss in later chapters about governance and oversight - slow takeoff allows for iterative refinement of safety measures and gives time for coordination between different actors and institutions.
 
-![Figure 1.43](https://ai-safety-atlas.com/_astro/5e8e786a85827363185d1e61199e2c3ed9a4228a8dbc22e9babd0f75e3f906d9.CcC8r3BO_vyAD2.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121574986}@@1.43](https://ai-safety-atlas.com/_astro/5e8e786a85827363185d1e61199e2c3ed9a4228a8dbc22e9babd0f75e3f906d9.CcC8r3BO_vyAD2.webp)--}{++{"author":"Elias's AI","timestamp":1789121574986}@@1.43](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-43.webp)++}
 
 *Figure 1.43: An illustration of slow continuous takeoff ([Martin & Eth, 2021](https://www.alignmentforum.org/posts/pGXR2ynhe5bBCCNqn/takeoff-speeds-and-discontinuities)).*
 
@@ -63,7 +61,7 @@ In the next section we discuss just one of these factors that tends to be the mo
 
 **The dramatic speed of fast takeoff creates unique challenges for safety.** As we'll explore in the chapter on strategies, many current safety approaches rely on testing systems, finding problems, and making improvements. But in a fast takeoff scenario, we might only get one chance to get things right. If an AI system starts rapidly self-improving, we need safety measures that work robustly from the start, because we won't have time to fix problems once they emerge. Terms like "fast takeoff", "hard takeoff" and "FOOM" are often used interchangeably.
 
-![Figure 1.44](https://ai-safety-atlas.com/_astro/3da51be238576515dd436be2648b2310d7f9009ca06d2559e4cf295022d72c0b.gC5ou2HO_1NMd1O.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121591509}@@1.44](https://ai-safety-atlas.com/_astro/3da51be238576515dd436be2648b2310d7f9009ca06d2559e4cf295022d72c0b.gC5ou2HO_1NMd1O.webp)--}{++{"author":"Elias's AI","timestamp":1789121591509}@@1.44](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-44.webp)++}
 
 *Figure 1.44: An illustration of fast continuous takeoff, which is usually taken to mean superexponential or hyperbolic growth. The growth rate itself increases ([Martin & Eth, 2021](https://www.alignmentforum.org/posts/pGXR2ynhe5bBCCNqn/takeoff-speeds-and-discontinuities)).*
 
@@ -72,7 +70,7 @@ In the next section we discuss just one of these factors that tends to be the mo
 > This is how we build airplanes — we build airplanes, sometimes they crash tragically, and then we fix it. I think AI sometimes gives bad outputs and then we fix it, and that's how we actually make these things reliable.
 > — Andrew Ng
 
-![Figure 1.45](https://ai-safety-atlas.com/_astro/ee71a18f9884a576d9b6f3154f8ca87b4c01b4cb7febb9a6b3ac26065fb43df7.DTO_clHP_Zq0gt7.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121613595}@@1.45](https://ai-safety-atlas.com/_astro/ee71a18f9884a576d9b6f3154f8ca87b4c01b4cb7febb9a6b3ac26065fb43df7.DTO_clHP_Zq0gt7.webp)--}{++{"author":"Elias's AI","timestamp":1789121613595}@@1.45](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-45.webp)++}
 
 *Figure 1.45: Comparison of slow vs fast takeoff. Showcasing that while described as linguistically slower than fast, it is by no means slow ([Christiano, 2018](https://sideways-view.com/2018/02/24/takeoff-speeds/)).*
 
@@ -89,7 +87,7 @@ Understanding fast vs slow helps you get the overview of the takeoff debate, but
 
 **The Economic Growth Argument**. Historical patterns of economic growth, driven by human population increases, suggest a potential for slow and continuous AI takeoff. This argument says that as AIs augment the effective economic population, we might witness a gradual increase in economic growth, mirroring past expansions but at a potentially accelerated rate due to AI-enabled automation. Limitations in AI's ability to automate certain tasks, alongside societal and regulatory constraints (e.g. that medical or legal services can only be rendered by humans), could lead to a slower expansion of AI capabilities. Alternatively, growth might far exceed historical rates. Using a similar argument for a fast takeoff hinges on AI's potential to quickly automate human labor on a massive scale, leading to unprecedented economic acceleration.
 
-![Figure 1.46](https://ai-safety-atlas.com/_astro/160363c15d78395259e788de7895260cec8212758d34aa5c7e29534ad0e212de.gP0AyxS0_ZK387H.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121633404}@@1.46](https://ai-safety-atlas.com/_astro/160363c15d78395259e788de7895260cec8212758d34aa5c7e29534ad0e212de.gP0AyxS0_ZK387H.webp)--}{++{"author":"Elias's AI","timestamp":1789121633404}@@1.46](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-46.webp)++}
 
 *Figure 1.46: A visualization of the ranking of arguments for explosive economic growth, both in favor and against. By Epoch AI ([Erdil & Besiroglu, 2024](https://arxiv.org/abs/2309.11690)).*
 
@@ -100,7 +98,7 @@ Understanding fast vs slow helps you get the overview of the takeoff debate, but
 
 Depending on the strength and interplay of these feedback loops, they can create a self-fulfilling prophecy leading to either an accelerating fast takeoff if regulations don't curtail various aspects of such loops, or a slow takeoff if the loops are weaker or counterbalanced by other factors. The entire model is shown in the diagram below:
 
-![Figure 1.47](https://ai-safety-atlas.com/_astro/4442bc8f6709bc08af48febda174ed0c730ebcc646ba8bc092cd804c466451d7.JUdyifLn_Z1eXr6H.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121651104}@@1.47](https://ai-safety-atlas.com/_astro/4442bc8f6709bc08af48febda174ed0c730ebcc646ba8bc092cd804c466451d7.JUdyifLn_Z1eXr6H.webp)--}{++{"author":"Elias's AI","timestamp":1789121651104}@@1.47](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-47.webp)++}
 
 *Figure 1.47: A summary of What a Compute-Centric Framework Says About Takeoff Speeds ([Davidson, 2024](https://www.openphilanthropy.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/))*
 
@@ -112,7 +110,7 @@ Depending on the strength and interplay of these feedback loops, they can create
 
 Currently, human researchers collectively are responsible for almost all of the progress in AI research, but are starting to delegate a small fraction of the work to large language models. This makes it somewhat easier to design and train the next generation of models.
 
-![Figure 1.48](https://ai-safety-atlas.com/_astro/92eff6f7065971d349392249ceac8658ced670bb10201103c4a829a9652598d2.BRCSJQ2C_eNYtb.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121674444}@@1.48](https://ai-safety-atlas.com/_astro/92eff6f7065971d349392249ceac8658ced670bb10201103c4a829a9652598d2.BRCSJQ2C_eNYtb.webp)--}{++{"author":"Elias's AI","timestamp":1789121674444}@@1.48](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-48.webp)++}
 
 *Figure 1.48: A. This figure shows a representation of a self-reinforcing loop (in red). It demonstrates how internally deployed AI systems are used to help automate AI R&D, initially alongside human researchers. These AI R&D efforts culminate in a more capable AI system, which can be deployed as a new, improved, automated researcher. This cycle keeps repeating, resulting in a self-reinforcing loop ([Stix et al., 2025](https://arxiv.org/abs/2504.12170))*
 
