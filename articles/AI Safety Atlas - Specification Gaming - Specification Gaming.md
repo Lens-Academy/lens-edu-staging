@@ -12,8 +12,6 @@ tags:
   - "article-importer"
 ---
 
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/specification-gaming.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter6-af895defbf8761a30ac565755f204072e09a5d599ca725f3de64de4b547c2f28.pdf)*
-
 %%
 Add discussion note here:
 
@@ -54,19 +52,19 @@ RL algorithm design and RL reward design are two separate facets of reinforcemen
 
 Conversely, RL reward design concentrates on the specification and design of the reward function guiding the RL agent's learning process. Reward design warrants carefully engineering the reward function to align with the desired behavior and objectives, while accounting for potential pitfalls like reward hacking or reward tampering. The reward function is a pivotal element because it molds the behavior of the RL agent and determines which actions are deemed desirable or undesirable.
 
-![Figure 6.3](https://ai-safety-atlas.com/_astro/bb3ef82ea4b1437e81b2116daece83729242b761fe9dedd6b7d5b92b454bd44c.CjKBYFd2_EOJxm.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789119924580}@@6.3](https://ai-safety-atlas.com/_astro/bb3ef82ea4b1437e81b2116daece83729242b761fe9dedd6b7d5b92b454bd44c.CjKBYFd2_EOJxm.webp)--}{++{"author":"Elias's AI","timestamp":1789119924580}@@6.3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-3.webp)++}
 
 *Figure 6.3: Specification gaming: the flip side of AI ingenuity ([Krakovna et al., 2020](https://www.deepmind.com/blog/specification-gaming-the-flip-side-of-ai-ingenuity))*
 
 Designing a reward function often presents a formidable challenge that necessitates considerable expertise and experience. To demonstrate the complexity of this task consider how one might manually design a reward function to make an agent perform a backflip, as depicted in the following image:
 
-![Figure 6.4](https://ai-safety-atlas.com/_astro/5d26cdab559e2218ac7d0a7e0f02d53973042d3612d27a07b59ec560149c0bc5.CBbaz-rx_1AjnFe.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789119942258}@@6.4](https://ai-safety-atlas.com/_astro/5d26cdab559e2218ac7d0a7e0f02d53973042d3612d27a07b59ec560149c0bc5.CBbaz-rx_1AjnFe.webp)--}{++{"author":"Elias's AI","timestamp":1789119942258}@@6.4](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-4.webp)++}
 
 *Figure 6.4: Deep reinforcement learning from human preferences ([Christiano et al., 2017](https://arxiv.org/abs/1706.03741))*
 
 While RL algorithm design focuses on the learning and decision-making mechanisms of the agent, RL reward design focuses on defining the objective and shaping the agent's behavior through the reward function. Both aspects are crucial in the development of effective and aligned RL systems. A well-designed RL algorithm can efficiently learn from rewards, while a carefully designed reward function can guide the agent towards desired behavior and avoid unintended consequences. The following diagram displays the three key elements in RL agent design—algorithm design, reward design, and the prevention of tampering with the reward signal:
 
-![Figure 6.5](https://ai-safety-atlas.com/_astro/3a26fbbd09f72a9f2d99c4b44a5fb2e512e3e6e03507aaddebfdccf12ee850af.Bd26pbos_Z1n06PN.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789119961257}@@6.5](https://ai-safety-atlas.com/_astro/3a26fbbd09f72a9f2d99c4b44a5fb2e512e3e6e03507aaddebfdccf12ee850af.Bd26pbos_Z1n06PN.webp)--}{++{"author":"Elias's AI","timestamp":1789119961257}@@6.5](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-5.webp)++}
 
 *Figure 6.5: Specification gaming: the flip side of AI ingenuity ([Krakovna et al., 2020](https://www.deepmind.com/blog/specification-gaming-the-flip-side-of-ai-ingenuity))*
 
@@ -85,7 +83,7 @@ Model-free RL methods explore by taking actions randomly. If, by chance, the ran
 
 A classic example of this problem was observed in the video game Montezuma’s revenge where the agent's objective was to find a key, but there were many intermediate steps required to find it. In order to solve such long term planning problems researchers have tried adding extra terms or components to the reward function to encourage desired behavior or discourage undesired behavior.
 
-![Figure 6.6](https://ai-safety-atlas.com/_astro/55054c588746cfe914db88886a7248c473f396e212f465562c0a3727057dd8bd.bQFICZYz_2j4acM.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789119967081}@@6.6](https://ai-safety-atlas.com/_astro/55054c588746cfe914db88886a7248c473f396e212f465562c0a3727057dd8bd.bQFICZYz_2j4acM.webp)--}{++{"author":"Elias's AI","timestamp":1789119967081}@@6.6](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-6.webp)++}
 
 *Figure 6.6: Learning Montezuma’s Revenge from a single demonstration ([OpenAI, 2018](https://openai.com/research/learning-montezumas-revenge-from-a-single-demonstration))*
 
@@ -109,11 +107,11 @@ Reward hacking can manifest in a myriad of ways. For instance, in the context of
 
 As a concrete example, one agent in the Coast Runners game was trained with the objective of winning the race. The game uses a score mechanism, so in order to progress to the next level the reward designers used reward shaping to reward the system when it scored points. These were given when a boat gets items (such as the green blocks in the animation below) or accomplishes other actions that presumably would help it win the race. Despite being given intermediate rewards, the overall intended goal was to finish the race as quickly as possible. The developers thought the best way to get a high score was to win the race but it was not the case. The agent discovered that continuously rotating a ship in a circle to accumulate points indefinitely optimized its reward, even though it did not help it win the race.
 
-![Figure 6.7](https://ai-safety-atlas.com/_astro/9d32c861e5dfe7bf63ba30f3cd3e1305f6e85acbe375e848ba09a96e3d249af4.CNiYBrKV_U5OOv.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789119983456}@@6.7](https://ai-safety-atlas.com/_astro/9d32c861e5dfe7bf63ba30f3cd3e1305f6e85acbe375e848ba09a96e3d249af4.CNiYBrKV_U5OOv.webp)--}{++{"author":"Elias's AI","timestamp":1789119983456}@@6.7](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-28.webp)++}
 
 *Figure 6.7: Faulty reward functions in the wild ([Amodei & Clark, 2016](https://openai.com/index/faulty-reward-functions/))*
 
-![Figure 6.8](https://ai-safety-atlas.com/_astro/6755d7f54ed3e03912b8b59e49e0cdf9e47617d228631a8ba7486ad363d0f517.B3iGxwlW_ZHw1F4.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789119989428}@@6.8](https://ai-safety-atlas.com/_astro/6755d7f54ed3e03912b8b59e49e0cdf9e47617d228631a8ba7486ad363d0f517.B3iGxwlW_ZHw1F4.webp)--}{++{"author":"Elias's AI","timestamp":1789119989428}@@6.8](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-8.webp)++}
 
 *Figure 6.8: An AI playing CoastRunners 7 learned to crash and regenerate targets repeatedly rather than win the race to get a higher score, exhibiting proxy gaming. ([Hendrycks, 2024](https://www.aisafetybook.com/textbook/robustness))*
 
@@ -135,7 +133,7 @@ The problem of getting some intended task done can be split into:
 
 Reward tampering involves the agent interfering with various parts of this reward process. An agent might distort the feedback received from the reward model, altering the information used to update its behavior. It could also manipulate the reward model's implementation, altering the code or hardware to change reward computations. In some cases, agents engaging in reward tampering may even directly modify the reward values before processing in the machine register. Depending on what exactly is being tampered with we get various degrees of reward tampering. These can be distinguished from the image below.
 
-![Figure 6.9](https://ai-safety-atlas.com/_astro/0607b594e2565edc6a6fb0c7ed789bafa35968d36b165430edf50a10027c4668.ClwxY0Xt_1iw0QA.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120012183}@@6.9](https://ai-safety-atlas.com/_astro/0607b594e2565edc6a6fb0c7ed789bafa35968d36b165430edf50a10027c4668.ClwxY0Xt_1iw0QA.webp)--}{++{"author":"Elias's AI","timestamp":1789120012183}@@6.9](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-9.webp)++}
 
 *Figure 6.9: Clarifying wireheading terminology ([Gao, 2022](https://www.alignmentforum.org/posts/REesy8nqvknFFKywm/clarifying-wireheading-terminology))*
 
