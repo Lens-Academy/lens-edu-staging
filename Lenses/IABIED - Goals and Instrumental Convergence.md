@@ -82,6 +82,7 @@ source:: [[../articles/iabied-ch5-ext-instrumental-convergence]]
 to:: "these kinds of incentives are reliably bad for humans."
 
 #### Article
+source:: [[../articles/iabied-ch5-ext-instrumental-convergence]]
 from:: "It's likely that one of its early goals"
 
 #### Question: Open
