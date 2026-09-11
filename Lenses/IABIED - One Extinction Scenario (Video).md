@@ -41,7 +41,7 @@ Two things, a few sentences each (speech-to-text works well here):
 1. Which moment of the video stuck with you most, and how did it leave you feeling?
 2. Which step in the takeover did you find hardest to believe?
 
-assThe student has just watched "POV: What You Would See During an AI
+assessment-instructions:: The student has just watched "POV: What You Would See During an AI
 Takeover", a film retelling of the book's extinction scenario, which
 replaces chapters 7 and 8 in this course. Before watching, in the opening
 lens of this unit, they committed to four bets about a system with unknown goals: 
