@@ -71,7 +71,7 @@ content::
 
 Two short pieces from the book's supplementary material. Read them back to back.
 
-The first sorts goals into two kinds. The second asks what follows once you have that distinction.
+The first sorts goals into two kinds. The second asks what that distinction grants you.
 
 #### Article
 source:: [[../articles/iabied-ch4-ext-terminal-instrumental]]
