@@ -65,15 +65,7 @@ is the replacement. Nothing between them is shared.
 FRONTMATTER CHANGES
   tutor_minutes: 5  ->  12          three beats now, not two
   authors:  add Andreas alongside Elias
- 
 
-BODY TEXT, replacing the opening Text segment
----------------------------------------------------------------------
-\## This unit's scenario, as a film
-
-
-
----------------------------------------------------------------------
 
 QUESTION, replacing the existing one
 ---------------------------------------------------------------------
