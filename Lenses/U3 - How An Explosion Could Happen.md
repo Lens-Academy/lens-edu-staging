@@ -44,6 +44,9 @@ stops. Write your own estimate first, in whatever unit you like, and name the on
 that would move it most. A wrong number you can defend is worth more here than no
 number.
 
+One line more. Pick the step in your loop where someone could act to slow or stop it.
+Who would that be, and what would it cost them to act there?
+
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 

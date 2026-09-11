@@ -24,9 +24,8 @@ STILL MISSING, two items. (1) BLOCKED-ON-Lauren: the durability content, about 4
 own words (Lauren, 2026-08-10: "We want robustly long-term-durable AND robustly good. and those
 are very rare to be confident in"; "the fact that it's hard to find something robustly good is
 itself a relevant fact"). Under Elias's rule it is written by her, not transposed by a Claude. It
-goes after Suppose We Survive as an inline lens. (2) Day Zero, Revisited v2 (two horizons; the
-one time the student reads their day-zero guess before writing): Plumb, 2026-09-12; until then
-this module references the v1 lens.
+goes after Suppose We Survive as an inline lens. (2) DONE 2026-09-11 21:30: Day Zero, Revisited v2 (two horizons; the one
+time the student reads their day-zero guess before writing) is AIF2 - Day Zero, Revisited.
 
 Live-cohort rule applies once a cohort is inside this unit: do not split, reorder, rename or
 remove lenses; add new material only as a new lens appended at the end. Keep reading and tutor
@@ -53,4 +52,4 @@ source:: [[../Lenses/U5 - The Menu]]
 source:: [[../Lenses/U5 - The Lunch Table]]
 
 # Lens: Day Zero, Revisited
-source:: [[../Lenses/U5 - Day Zero, Revisited]]
+source:: [[../Lenses/AIF2 - Day Zero, Revisited]]
