@@ -18,6 +18,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: d29d13c7-5c46-459e-9c33-1c830464cb07
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -61,6 +62,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 5120b4c7-b4ca-4ab4-9dd5-5e44dacbfd88
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
@@ -68,6 +70,7 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-b]]
 
 #### Question
+id:: b853f27d-4961-48ec-873f-bc59fbc8cb5a
 content::
 \## Phase 3: Learning Question
 The chapter's own bet is that the superintelligence would just kill us deliberately, to spare itself the trouble. Set that aside and grant its weaker, stranger case (the branch where it never targets us at all) because that is the one worth stress-testing. In that branch, an insurance analyst files the outcome under "natural disaster, no liable party": no ill will, no intent, no decision to end anyone. Even here, where nobody meant us harm, why is "no villain" not "no catastrophe to prevent"? And what does the thermodynamic mechanism let you say to someone who treats the absence of intent as the absence of a catastrophe?

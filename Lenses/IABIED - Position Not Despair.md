@@ -22,6 +22,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: ec1fe6e0-dafe-4f52-9189-5c3bc8ec1a38
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -65,6 +66,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 485aa616-abc5-420c-a437-fcca2684769f
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
@@ -72,6 +74,7 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-c]]
 
 #### Question
+id:: 9b3f6fbe-ffa9-48f7-a64a-7435465714ff
 content::
 \## Phase 3: Learning Question
 A friend reads the last line of the chapter and says: "'NOBODY SHOULD BE ALLOWED TO TRY' is just fatalism with extra steps. Either you think we're doomed (in which case calling for a ban is theater) or you don't, in which case relax. Same anti-progress reflex people had about electricity, vaccines, every new technology." Your friend has folded the closing line into despair on one side and luddism on the other. Is either fold correct? Point to what the chapter's line is actually doing that neither reading captures.

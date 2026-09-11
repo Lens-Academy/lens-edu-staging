@@ -9,6 +9,7 @@ add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/08 - Chapter 8 - Expansion]]"
 ---
 #### Question
+id:: c68c649a-1f23-4b05-8b7b-59b06ecc73c1
 content:: Before reading: Imagine you learned that an institution (a company, a government, an AI) had recently acquired resources through five completely different methods: some legitimate, some coercive, some deceptive. The methods have almost nothing in common on the surface. Does that variety tell you something about what the institution ultimately wants? Or does it obscure it? Write down your thinking before you read.
 
 assessment-instructions::

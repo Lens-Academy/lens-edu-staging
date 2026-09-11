@@ -16,6 +16,7 @@ content::
 In Module 5 you set out to have one real conversation about what you have been reading. Before you start the final chapters, close the loop on that conversation here.
 
 #### Question
+id:: edb1f53a-d365-48e1-a331-547e13e82b46
 content::
 \## Debrief
 How did your conversation go? Whatever actually happened is fine to report:

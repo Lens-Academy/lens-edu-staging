@@ -10,6 +10,7 @@ authors:
 ---
 
 #### Question
+id:: 8b545158-23cb-405d-8b70-f89b1e1c0877
 content:: Imagine multiple parties competing for something important, like a business race, an arms race, or a scientific contest. If all parties knew that continuing the competition posed serious risks for everyone, would that knowledge be enough to stop them? What would it actually take to halt the competition?
 
 assessment-instructions::

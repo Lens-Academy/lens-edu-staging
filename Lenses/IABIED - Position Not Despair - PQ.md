@@ -7,6 +7,7 @@ authors:
   - Yatharth+Claude
 ---
 #### Question
+id:: 33f77b8f-ceb9-47b8-89dc-f2c199b0c383
 content:: When experts say a project should not be attempted, you can hear two very different things in that sentence:
 
 - *"Nothing can be done."* The situation is hopeless; the right response is to give up.

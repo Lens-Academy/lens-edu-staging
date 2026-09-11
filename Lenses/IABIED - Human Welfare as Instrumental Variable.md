@@ -21,6 +21,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: 3c0d7f1b-b363-4ade-a41b-97b8f803712b
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -64,6 +65,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 6b968aa1-ad6e-4382-b05f-c9db5e73d579
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
@@ -71,6 +73,7 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-b]]{>>{"author":"Luc's AI","timestamp":1783779603660}@@This Phase 2 block is byte-identical in 3 lenses (Human Welfare, Indifference Not Malice, Instrumental Sub-Goal Convergence); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### Question
+id:: f087ffb1-d202-496f-b9bb-3f67b518fbe3
 content::
 \## Phase 3: Learning Question
 A friend reads the same chapter and comes away reassured. "Sable keeps humanity alive because it needs us: to mine the metals, run the factories, keep the supply chain going. So as long as the machines can't run themselves, we're safe. Our usefulness is our leverage." They are treating usefulness as a stable guarantee of safety. Using the chapter's own logic, is their reasoning sound? And what in this section tells you whether that leverage holds?

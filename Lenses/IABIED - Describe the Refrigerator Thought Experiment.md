@@ -23,6 +23,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: 59ee676f-2223-4e56-b50c-eef173e05c1e
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -67,6 +68,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 4506cd7c-5ee6-4f4f-aa73-cb4da53e1ba9
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
@@ -74,6 +76,7 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779580773}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### Question
+id:: 78b25c13-e567-4ee0-b6b2-a9daaa64b21d
 content::
 \## Phase 3: Learning Question
 A friend hears you describe the refrigerator argument and pushes back: "This proves too much. By this logic you could claim a superintelligence beats us with literally anything (nanobots, mind-control, magic wands) and I could never prove you wrong, because your whole point is that we can't say what the method is. An argument that survives no matter what isn't telling me anything real." Using the refrigerator thought experiment itself, what is wrong with your friend's reasoning, and is there any version of their worry that actually lands?

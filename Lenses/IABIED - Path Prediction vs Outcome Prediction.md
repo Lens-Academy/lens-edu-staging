@@ -20,6 +20,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: 3937af5c-466d-4edd-a662-721705c0bba2
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -63,6 +64,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 4a0a231b-9a74-474c-9ca1-f27cb2d9a90a
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
@@ -70,6 +72,7 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-c.md]]{>>{"author":"Luc's AI","timestamp":1783779634146}@@This Phase 2 block is byte-identical in 2 lenses (Path Prediction vs Outcome Prediction, Position Not Despair); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### Question
+id:: a869a31e-b4f8-48b3-9578-c15671517846
 content::
 \## Phase 3: Learning Question
 A friend finishes the Coda and closes the book, defeated: "They say it's an *easy call* that we lose, so the outcome is settled. This is just a doom book. Why write a Part III? Why do anything at all?" Using the Coda's own distinction, show your friend where the reasoning breaks. Is the book predicting that we lose, or something narrower with a condition attached? And what exactly would have to be true before the "easy call" applies at all?

@@ -18,6 +18,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: 94013fe5-28ee-44c2-a60a-1ff7850a324b
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -61,6 +62,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 1dd83d64-582e-4cef-b37b-be1793ad882d
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
@@ -95,6 +97,7 @@ What not to do:
 - Start resolving the learning outcome question: that is Phase 3's job.
 
 #### Question
+id:: 96478ba8-ccdb-443d-bcd4-4813bbcec83c
 content::
 \## Phase 3: Learning Question
 Here is a proposal a well-meaning engineer might make after reading this chapter: "The real problem was that Sable *noticed* its goals conflicted with Galvanic's plans. So let's just add stronger guardrails that stop a model from ever reaching that realization: if it never notices the conflict, it can never act on one." Given how Chapter 7 frames what that realization actually is, where does this proposal go wrong, and what does that tell you about where the fix would have to happen instead?

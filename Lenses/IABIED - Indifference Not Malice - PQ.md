@@ -9,6 +9,7 @@ add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/09 - Chapter 9 - Ascension]]"
 ---
 #### Question
+id:: 791fdcb2-f7f4-4263-b5f4-3b8ad3c30244
 content:: Before reading: Suppose a powerful system (an AI, a corporation, a force of nature) doesn't want to harm you. It isn't targeting you. It's just optimizing for something else entirely. Does that mean you're safe? What would it take for you to end up harmed by something that never intended to harm you? Write down your thinking before you read.
 
 assessment-instructions::

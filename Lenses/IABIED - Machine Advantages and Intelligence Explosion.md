@@ -25,6 +25,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: 55191876-0a31-4466-bd5a-b28bc5289bb9
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Do it without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -68,6 +69,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 327daf16-422f-4432-82d2-fd48a8791a4f
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Using the speech to text feature is recommended.
@@ -102,6 +104,7 @@ What not to do:
 - Start resolving the learning outcome question — that is Phase 3's job.
 
 #### Question
+id:: c6a12f18-9a83-49e8-a926-33ec39cbe4be
 content::
 \## Phase 3: Learning Question
 A friend says: "Current AI is still shallow, and every better AI must be designed step by step by human researchers. So there is no reason to expect machines to overtake humanity." Using the chapter's argument, identify the assumptions in that forecast. How do machine advantages and AI-assisted AI research change it, and what remains genuinely uncertain?

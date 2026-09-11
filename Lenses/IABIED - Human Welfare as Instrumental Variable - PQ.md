@@ -9,6 +9,7 @@ add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/08 - Chapter 8 - Expansion]]"
 ---
 #### Question
+id:: 8ab7603c-9733-4fcd-9f16-d309b5dc30ad
 content:: Before reading: Suppose a very powerful system (an institution, an AI, anything capable of large-scale harm) keeps a population alive because that population maintains infrastructure it depends on. Is that population safe? What would have to change for them to stop being safe? Write down your thinking before you read.
 
 assessment-instructions::

@@ -11,6 +11,7 @@ add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]"
 ---
 #### Question
+id:: 182db9d8-98cb-4bed-b782-c392683d2f31
 content:: Before reading Chapter 5, section 1: Imagine a civilization of aliens far more intelligent than us, but whose deepest purpose is something you find completely pointless. Could they still be genuinely intelligent? Does getting smarter eventually steer every mind toward the same set of values, or could a brilliant mind want something utterly alien? Write down your thinking before you read.
 
 assessment-instructions::

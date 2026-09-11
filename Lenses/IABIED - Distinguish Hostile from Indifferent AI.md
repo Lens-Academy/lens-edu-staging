@@ -23,6 +23,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: 6a5664db-4645-441b-b2f4-c0710f6be18d
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -66,6 +67,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: ca66c080-4acb-4ba0-9fb0-8768a0c2442e
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
@@ -73,6 +75,7 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779587885}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### Question
+id:: ad0a92e5-8563-4fee-88bf-e3cdf106f652
 content::
 \## Phase 3: Learning Question
 A startup founder tells you: "We deliberately trained our AI to have no aggression, no dominance drive, nothing resembling hostility toward people. So even if it becomes superintelligent, the worst case is that it just ignores us and quietly goes off to do its own thing." What's the flaw in that reassurance, and what would "goes off to do its own thing" actually look like once the system is that capable?

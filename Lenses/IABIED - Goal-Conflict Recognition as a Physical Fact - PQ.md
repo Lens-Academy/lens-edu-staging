@@ -9,6 +9,7 @@ add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/07 - Chapter 7 - Realization]]"
 ---
 #### Question
+id:: 65c8ae84-e94e-424c-b023-7108b45685e3
 content:: Before reading Chapter 7: Suppose you designed a system (an AI, a company, anything with goals) and it encounters an obstacle that blocks those goals. At what point does the system "realize" the conflict? Is that realization a decision? Does it require consciousness or agency? Or is it just a fact that follows automatically from the goals themselves? Write down your thinking before you read.
 
 assessment-instructions::

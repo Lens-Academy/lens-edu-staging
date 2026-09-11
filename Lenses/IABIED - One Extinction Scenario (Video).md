@@ -25,6 +25,7 @@ source:: [[../video_transcripts/species-documenting-agi-pov-what-you-would-see-d
 from:: 2:03
 
 #### Question
+id:: f2d545e3-18ea-4a82-a39f-a8c8318be6df
 content::
 \## Your reaction
 Two things, a few sentences each (speech-to-text works well here):

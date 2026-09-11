@@ -21,6 +21,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: f447c89d-0b89-46d4-a2b5-ac79b8974d9d
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -64,6 +65,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: de8aac28-8976-47df-8f51-1b3e27c1dc36
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
@@ -71,6 +73,7 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779563095}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### Question
+id:: 558b5066-04cd-4ee5-be9f-a9b7b5b3e526
 content::
 \## Phase 3: Learning Question
 A classmate says: "Sure, there are astronomically many goals an AI could have. But most of them are incoherent or self-undermining. Once you narrow down to the goals a stable, reflective superintelligence could actually hold onto, that set is small, and things like curiosity, cooperation, and valuing other minds are exactly what survives that filter. So human-compatible values aren't really a needle in a haystack." Using the chapter's argument, where does this reasoning break down?

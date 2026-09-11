@@ -19,6 +19,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: 494c00c3-ab1b-4ec9-9894-d7cd17c555c4
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -62,6 +63,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: f547e8b6-5ee1-4ffc-bbb8-561686f9f475
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
@@ -69,6 +71,7 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-b.md]]{>>{"author":"Luc's AI","timestamp":1783779617979}@@This Phase 2 block is byte-identical in 3 lenses (Human Welfare, Indifference Not Malice, Instrumental Sub-Goal Convergence); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### Question
+id:: 00beb9c4-43a1-4877-8f68-1a50b0f350fc
 content::
 \## Phase 3: Learning Question
 A colleague reads this chapter and concludes: "We have no idea what Sable actually wants. Its preferences came out of gradient descent and are opaque even to the people who built it. So we're equally in the dark about what it will *do*. Any forecast of its behavior is just guessing." This sounds careful and humble. But the chapter shows it's wrong in a specific way. What can you confidently predict about Sable's behavior *without* knowing its terminal goal? And exactly where does the colleague's reasoning break down?

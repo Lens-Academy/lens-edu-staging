@@ -21,6 +21,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: a3db6bc7-dbae-4a4d-82de-3433874ba18d
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -64,6 +65,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 1231724f-7419-44b0-b30e-00a79e5db80b
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
@@ -71,6 +73,7 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779555734}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### Question
+id:: 0754d407-0131-48b2-bcd0-3647d2e25f75
 content::
 \## Phase 3: Learning Question
 A classmate says: "I get the capability-gap argument, but upsets happen all the time: the underdog beats the favorite, David beats Goliath. So 'the AI is far more capable' doesn't actually license 'the AI wins.' Until you can point to the specific move that beats us, 'we'd lose' is speculation, not a prediction." Is your classmate right? Where, if anywhere, does the reasoning break down?
