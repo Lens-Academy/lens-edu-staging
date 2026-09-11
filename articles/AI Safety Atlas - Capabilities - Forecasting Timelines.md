@@ -18,8 +18,6 @@ llm-review:
     fetched: 2026-08-30
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)*
-
 %%
 Add discussion note here:
 
@@ -41,7 +39,7 @@ We need to be able to predict progress in capabilities to assess and prepare for
 
 **AI systems that leverage more compute during training and inference are capable of automating progressively more tasks.** Initially, only a small fraction of tasks are automated, so running AI systems creates relatively little economic value.[^note-atlas-6] Once effective compute budgets grow large enough, the range of automated tasks expands until eventually all cognitive labor becomes automated. This feedback loop—compute enabling automation, which increases productivity, which funds more compute—continues until full labor automation.
 
-![Figure 1.38](https://ai-safety-atlas.com/_astro/0f8422ab8a2909ff56ab9c4c632057b244fe58d48345403028a1e5d19737cdcd.BLs2H4Fg_Z1sSerf.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121449668}@@1.38](https://ai-safety-atlas.com/_astro/0f8422ab8a2909ff56ab9c4c632057b244fe58d48345403028a1e5d19737cdcd.BLs2H4Fg_Z1sSerf.webp)--}{++{"author":"Elias's AI","timestamp":1789121449668}@@1.38](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-38.webp)++}
 
 *Figure 1.38: The feedback loop of compute leading to more automation, which increases productivity, which increases both the amount of produced compute as well as compute efficiency completing the loop until all labor is automated ([Epoch AI, 2025](https://epoch.ai/data/ai-models)).*
 
@@ -65,15 +63,15 @@ As an illustrative example, think about wanting to train a model that gets 90% a
 2. **Algorithmic efficiency**: Software improvements cut the compute needed for a given result by ~3x per year. Better training methods mean you need less hardware to hit the same benchmark.
 3. **Chip production**: The number of AI chips produced has grown 2.3x per year since 2019, driven by semiconductor fab expansions and massive capital investment.
 
-![Figure 1.39](https://ai-safety-atlas.com/_astro/b48ae074e82c96a47f51a9cbe6dd2d0199c727837ba18341d369d79eccef24fa.B-RFHaCP_Z1HXrrS.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121462197}@@1.39](https://ai-safety-atlas.com/_astro/b48ae074e82c96a47f51a9cbe6dd2d0199c727837ba18341d369d79eccef24fa.B-RFHaCP_Z1HXrrS.webp)--}{++{"author":"Elias's AI","timestamp":1789121462197}@@1.39](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-39.webp)++}
 
 *Figure 1.39: Growth in effective compute breaks down into three parts: growth in computing hardware, improvements in hardware efficiency, and software efficiency gains.*
 
-![Figure 1.40](https://ai-safety-atlas.com/_astro/231c7a581ea731995334cb3339e85c967aa5394d6ea5ff1786fe4df89d04e909.CNIS6hw5_Z1TRlPn.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121477462}@@1.40](https://ai-safety-atlas.com/_astro/231c7a581ea731995334cb3339e85c967aa5394d6ea5ff1786fe4df89d04e909.CNIS6hw5_Z1TRlPn.webp)--}{++{"author":"Elias's AI","timestamp":1789121477462}@@1.40](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-40.webp)++}
 
 *Figure 1.40: The GATE model by EpochAI translates a given stock of effective compute into a degree of AI automation. This occurs by expanding the fraction of tasks that can be automated and by increasing the effective runtime compute on tasks that are already automated. Widespread automation often happens within two decades from the start of the simulation. Note that GATE uses the abstract notion of a “fraction of economically useful tasks” as a simplification, and does not specify the tasks and the order in which they are automated. The red line showcases aggressive parameter settings, green is conservative parameter settings. The red zone highlights the difference in timelines to full automation between aggressive and conservative models ([Epoch AI, 2025](https://epoch.ai/gate)).*
 
-![Figure 1.41](https://ai-safety-atlas.com/_astro/3b091554edfe81db7481de240e550f2c1cfe373d2098fdc31d4211d1fe612f63.Cyi_MtMs_Z2gNXf6.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121491886}@@1.41](https://ai-safety-atlas.com/_astro/3b091554edfe81db7481de240e550f2c1cfe373d2098fdc31d4211d1fe612f63.Cyi_MtMs_Z2gNXf6.webp)--}{++{"author":"Elias's AI","timestamp":1789121491886}@@1.41](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-41.webp)++}
 
 *Figure 1.41: Simulation of labor share of income over the next decades, using the GATE model.  The red line showcases aggressive parameter settings, green is conservative parameter settings. The red zone highlights the difference in timelines to full automation between aggressive and conservative models. The fraction of Gross World Product (GWP) paid out to human workers rapidly decreases as AI becomes the primary source of labor ([Epoch AI, 2025](https://epoch.ai/gate#ai-automation)). We talk about wages falling below subsistence levels in the next chapter under automation/systemic risks.*
 
@@ -83,11 +81,11 @@ Besides just effective compute, the second overarching factor that we have to ta
 
 **The training dataset size for language models has grown by 3.7x per year since 2010.** The internet has maybe 30 years worth of text data at current consumption rates—but we'll hit that wall around 2028. The indexed web contains roughly 500 trillion tokens of text (after removing duplicates). The largest models in 2024 train on about 15 trillion tokens. If we keep scaling at 4× per year, projections say that we will exhaust high-quality public text data between 2026 and 2032 ([Epoch AI, 2023](https://epoch.ai/trends); [Villalobos et al., 2024](https://arxiv.org/abs/2211.04325)). Three escape routes exist, whether data actually constrains scaling through 2030 depends on how well these alternatives work:
 
-- Multimodal** data:** The internet has ~10 trillion images and ~10 trillion seconds of video. If encoded efficiently, this could 3-10x the effective data supply.
+- {--{"author":"Elias's AI","timestamp":1789121427151}@@Multimodal**--}{++{"author":"Elias's AI","timestamp":1789121427151}@@**Multimodal++} data:** The internet has ~10 trillion images and ~10 trillion seconds of video. If encoded efficiently, this could 3-10x the effective data supply.
 - **Synthetic data:** AI-generating its own training data removes the constraint entirely—if the outputs are high enough quality. Post-training methods like reinforcement learning on reasoning tasks already demonstrate this works for some domains.
 - **Task-based learning:** Self-play reinforcement learning can generate training data through environment interaction. This means AIs can learn without human-generated pretraining examples as long as tasks can be formalized as games with explicit rules and success metrics (like Go or Chess). For example, AlphaZero learned superhuman strategies without any human gameplay examples, using only the game rules and billions of self-played matches. In principle, this approach could be extended to teaching any arbitrary task allowing for data free learning through self-play on specified tasks.  This is still very speculative, it requires simulation environments encoding task dynamics, explicit reward functions, and tractable state spaces.
 
-![Figure 1.42](https://ai-safety-atlas.com/_astro/11874bae4c857e0e98050a63ad2e6f20ad73367b9b4e23cb9d1235844768d90f.Ch2xmTf-_ikoSP.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789121506628}@@1.42](https://ai-safety-atlas.com/_astro/11874bae4c857e0e98050a63ad2e6f20ad73367b9b4e23cb9d1235844768d90f.Ch2xmTf-_ikoSP.webp)--}{++{"author":"Elias's AI","timestamp":1789121506628}@@1.42](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-42.webp)++}
 
 *Figure 1.42: Projections of future dataset sizes according to three different scaling policies. Depending on the degree of overtraining, the stock is fully used between 2025 and 2030 ([Villalobos et al., 2024](https://epoch.ai/blog/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data)).*
 
