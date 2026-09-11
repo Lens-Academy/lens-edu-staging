@@ -28,6 +28,7 @@ The reading ahead makes a far larger and more serious claim, about the economy, 
 Here is one way to make it concrete before the reading.
 
 #### Question
+id:: f2004daf-cb52-463d-bc93-1daf1b7c5459
 content::
 \## Your example
 Think of one area of your life or work where a tool now does something you used to do yourself. Did the change arrive as a single big decision, or did it accumulate from many small convenient steps?

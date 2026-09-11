@@ -32,6 +32,7 @@ Whether AI helps or erodes your judgement depends on when and how you use it. Yo
 ---
 
 #### Question
+id:: 591d4443-bf84-448b-81bb-6c0afc9b0e06
 content::
 \## Final reflection
 These questions match the ones you answered at the start of the course. Answer them again, in your own words. "No change" is a valid answer. A changed answer is also valid. We want what is true for you now.

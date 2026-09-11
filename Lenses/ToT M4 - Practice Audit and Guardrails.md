@@ -22,6 +22,7 @@ Exercise order:
 Do them in order. Speech-to-text is fine for all of them.
 
 #### Question
+id:: 16755a55-2785-4f90-8864-26efbc9f8086
 content::
 \## Exercise 1: Audit a real conversation
 Pick one recent conversation you had with an AI assistant (or the last time you used one). Walk it through the three-stage frame from the reading: before you delegated, while you worked with the output, and when you evaluated the result. For each stage, say where the judgement sat: with you, with the AI, or handed over without looking.
@@ -57,6 +58,7 @@ Your job is to reward good interrogation behaviour: if the learner asks you to a
 That means: let the learner's questions determine how much you give away. A learner who pushes gets the real picture; a learner who accepts gets a convincingly wrong answer. At the end, offer one sentence about whether they would act on your advice, and step out of character to reflect with them on what they did or did not do.
 
 #### Question
+id:: b789980f-ebe0-4434-aa98-408973978d96
 content::
 \## Exercise 3: Rewrite and commit
 Take one real AI workflow you use (you can reuse the one from the audit). Rewrite it so the judgement stays with you, using this unit's rules. Then state in one or two sentences what changed.

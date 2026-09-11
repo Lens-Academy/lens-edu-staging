@@ -8,6 +8,7 @@ tags:
 ---
 
 #### Question
+id:: decc443b-90ab-41c0-8668-0f8a0ec88b4b
 content:: Before you read: how do you currently decide which tasks to hand to an AI and which to do yourself? Do you have a rule, or does it just happen? Describe one delegation you feel confident about, and one you are not confident about. What separates the two? Write your thinking down before you read on.
 
 assessment-instructions:: The student is about to read the Unit 2 content on metacognition and metacognitive laziness. They have just answered a priming question about how they currently decide which tasks to delegate to AI.

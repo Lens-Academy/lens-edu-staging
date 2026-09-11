@@ -9,6 +9,7 @@ tags:
 ---
 
 #### Question
+id:: abfd2eb9-6696-4d25-b9b5-9dec9477ba5f
 content:: Picture a team or an organisation that has gradually let an AI system take over more and more real decisions, because the AI is convenient, fast, and usually right. Nobody ordered a handover. The system never refuses an instruction. Where would you draw the line between "using the AI well" and "handing over control"? Write down your own line before you read on.
 
 assessment-instructions:: The student is at the very start of Unit 3 of "Thinking about Thinking". They have just drawn their own line between competent use of a useful AI and handing over control. Acknowledge where they drew it, and the reasoning they gave, in 1 to 2 sentences, specifically and without judgement. Do NOT preview the unit's studies, the gradual-disempowerment thesis, or any conclusion. This is a setup, not a test. Close by sending them to the next lens: something like, "Hold that answer. The next few lenses will put evidence and argument next to it. Come back to it at the end."

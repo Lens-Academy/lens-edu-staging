@@ -9,6 +9,7 @@ tags:
 ---
 
 #### Question
+id:: 15b24bd0-1412-44f2-bfa7-3ace5caa6067
 content:: Before you read the practical rules: think of one task you handed to an AI assistant this week. Where did the judgement sit? With you, with the AI, or handed over without much of a look? What made you trust the result, or what made you double-check it? Write your thinking down before you read on.
 
 assessment-instructions:: The student is about to read the Unit 4 guidance on choosing what to delegate to AI ("Thinking about Thinking", the lens "Choosing What to Delegate"). They have just put their own reflection on a recent AI conversation on the record, naming where the judgement sat.

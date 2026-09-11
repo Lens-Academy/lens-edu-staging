@@ -19,6 +19,7 @@ The argument to extract: extrapolating a trend is not a purely statistical act. 
 Note the title, and read past it. There is a real argument underneath, and part of the exercise is separating the argument from its delivery.
 
 #### Question
+id:: b5327ed2-e704-4bc9-8563-a5bc39eaf095
 content::
 \## Name the smuggled premise
 

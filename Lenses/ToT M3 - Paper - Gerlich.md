@@ -39,6 +39,7 @@ to:: "These findings support the hypothesis that increased reliance on AI tools 
 %% Note: 666 UK participants, mixed-method with validated HCTA assessment. Key finding: beta = -1.76, p < 0.001. Self-report limitation is a design feature, separate from the 2025 correction, which replaced a duplicated Table 4 and did not alter conclusions. %%
 
 #### Question
+id:: 12bf705b-b359-4a52-8acc-cd8200e2bfd8
 content::
 \## Your turn
 In your own words, what is the core idea of this reading, and what is the strongest reason not to over-generalise it?

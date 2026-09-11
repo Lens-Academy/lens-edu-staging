@@ -34,6 +34,7 @@ from:: "Experts disagree on whether artificial general intelligence"
 to:: "increased focus on global [AI regulation]"
 
 #### Question
+id:: b685392a-4e9c-4594-a12a-6d9311fcfdc3
 content::
 One or two sentences, thirty seconds.
 

@@ -17,6 +17,7 @@ This is the final check of the course. You have moved from the basics of cogniti
 Answer it in your own words, no jargon needed.
 
 #### Question
+id:: c4609ff9-97a2-4030-afcd-21fc34b35c36
 content::
 \## Chapter check
 The course is over. Answer in your own words, no need for jargon: describe how you actually use AI now, name one concrete change you will make to protect your own judgement, explain in one or two sentences why that change works, and name one place where you could learn more about this topic (from the reading's list or elsewhere).

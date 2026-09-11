@@ -39,6 +39,7 @@ Notice that none of these needs a tool. They are properties of how people learn 
 ---
 
 #### Question
+id:: 41953bc5-fef9-4b5c-8ad1-e261f65ee209
 content::
 \## Check your Understanding
 Let's talk about the reading. In your own words, what did you take from it? What stayed with you, what puzzled you, what you'd push back on? Say as much or as little as you like. Speech-to-text is recommended.
@@ -73,6 +74,7 @@ What not to do: re-teach the content as a mini-lecture; introduce ideas not pres
 Conversation flow: keep an internal turn counter for your own replies. After about 2 tutor replies, close the phase: "Good. Let's take that into the next step, where you hunt for a trap in your own work." Then tell the student to move on to the next step.
 
 #### Question
+id:: 5b452dad-c14a-4f9f-87e9-72e9c86238b3
 content::
 \## Learning Question
 Think of a recent task at work that went wrong, or that you finished but later doubted. Do not pick an AI failure. Pick something where the trouble came from your own thinking.

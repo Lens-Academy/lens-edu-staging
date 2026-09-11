@@ -20,6 +20,7 @@ from:: "We conducted a randomized controlled trial involving approximately 100 u
 to:: "This pattern suggests that AI can sometimes displace or dilute careful reasoning, even among relatively strong performers."
 
 #### Question
+id:: 660083eb-974a-4521-8909-448d37b996bf
 content::
 \## Your turn
 In your own words, what is the core idea of this reading? Then say what it means for how you use AI, and for your metacognition: your awareness and control of your own thinking.

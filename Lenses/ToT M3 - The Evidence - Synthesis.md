@@ -42,6 +42,7 @@ If you'd like to do more reading, take a look at the optional lenses here.
 ::card[[../Lenses/ToT M3 - Paper - Gutoreva (Counterargument)]]
 
 #### Question
+id:: 3fd95207-f023-4cb0-ba5e-1b4d5299557d
 content::
 \## Your own takeaway
 Write down three things:

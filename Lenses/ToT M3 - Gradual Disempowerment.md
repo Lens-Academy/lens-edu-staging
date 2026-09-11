@@ -69,6 +69,7 @@ Consider a regulator that adopts an AI system for screening. No human intends to
 Every decision in the sequence was reasonable on its own. No single actor chose the final loss of capacity. That is the shape of the risk the argument describes, and it is the part the question below asks you to test.
 
 #### Question
+id:: dec5c233-b22f-4802-9f5d-bf6f6b5e3a8a
 content::
 \## The weakest link
 Of the five levels above, which link do you find least supported by the evidence in this unit, and why? Name the step where you would want more proof before you accepted the argument.

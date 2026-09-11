@@ -43,6 +43,7 @@ The two studies used the same kind of tool. The outcomes differed because the co
 In the legal study the person stayed in control of the task, and the task gave feedback. In the endoscopy study the AI performed the whole detection, and the repetitions that keep a skill alive disappeared. Where the person stays in control, AI is more likely to help. Where the tool takes over the job, AI is more likely to harm.
 
 #### Question
+id:: 260eb780-85d5-40e8-a510-9349b6cda44d
 content::
 \## Your turn
 Which features above, expertise, feedback quality, task verifiability, stakes, or time pressure, do you think explain why the two studies diverged? Name one domain of your own work where you would expect AI to help, and one where you would expect it to harm.

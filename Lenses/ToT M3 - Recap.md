@@ -13,6 +13,7 @@ content::
 You started by drawing a line between using an AI well and handing over control. You met three traps AI adds. You saw Lee's confidence finding, the Bednar and Budzyń contrast, the gradual disempowerment argument, the skeptic's strongest case, and an evidence ladder. Now redraw your line.
 
 #### Question
+id:: b2ff832b-653f-4c79-b00a-a1e827ee8a35
 content::
 \## Your verdict
 

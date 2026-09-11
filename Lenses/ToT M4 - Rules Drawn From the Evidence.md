@@ -49,6 +49,7 @@ The unit's evidence ladder ranks claims by the study behind them. An experiment 
 Gradual disempowerment moves through five levels, from delegating a task to losing the ability to check it. You can delegate and stay safe. The level you should not cross is level 2, where you can no longer check the AI's work. When you delegate a task, keep the ability to audit its output.
 
 #### Question
+id:: 535162ec-1a0b-4292-aec7-a402e1e4638b
 content::
 \## Your turn
 Pick one decision you handed to an AI in the last week. Run it through Rules 1 to 6. Which rule would have changed how you handled it, and how? Then name the single rule you will apply in the coming week.

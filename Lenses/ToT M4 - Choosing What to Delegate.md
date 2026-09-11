@@ -56,6 +56,7 @@ Use this rule when you choose what to delegate. Keep the generative tasks for yo
 ---
 
 #### Question
+id:: 50795820-9272-4a2b-aa50-2b9e5daa1458
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
@@ -83,6 +84,7 @@ What not to do: re-teach the content; ask follow-up questions; introduce ideas n
 This is a one-turn response. Tell the student to move on.
 
 #### Question
+id:: c483642c-e2e7-454a-be12-307d03df5c4b
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the guidance landed. Which rule felt obvious, which felt unreasonable or impossible, and which made you uncomfortable? No need to organise. Just capture your reaction.
@@ -102,6 +104,7 @@ What to do in each reply: acknowledge specifically what the student expressed; i
 What not to do: defend every rule rigidly; resolve confusion with a mini-lecture; run past 2 tutor turns; start resolving the learning outcome question.
 
 #### Question
+id:: 74288b3d-e41a-429b-950b-06a2bcfc4911
 content::
 \## Phase 3: Learning Question
 A colleague sets up what they call the "AI fast lane": every task goes to the AI first, always, for speed. "Why would I ever slow my own work down? I only win time."

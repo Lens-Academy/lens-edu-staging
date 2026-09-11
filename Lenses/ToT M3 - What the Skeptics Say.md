@@ -26,6 +26,7 @@ In 2026, Yu and colleagues ran a behavioral experiment with 1,237 participants. 
 The objections limit the claim the evidence can support. They do not remove it. Read together, the unit's evidence does not say that AI use in general makes people think less. It says that the effect depends on the situation. Skill improved when the person directed the task and the AI supported it, as in the law-student synthesis phase. Skill eroded when the person stopped checking, as in endoscopy and the law-student revision. Offloading becomes risky when the tool becomes the authority. The evidence review later in this unit reaches the same place from a different angle.
 
 #### Question
+id:: 9b168592-7b41-4b1c-8218-8ce8541cc26d
 content::
 \## Your turn
 Take one study from this unit. State the strongest objection a skeptic can raise to it. Then say where that objection stops being convincing.

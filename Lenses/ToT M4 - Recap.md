@@ -17,6 +17,7 @@ You have finished Unit 4. It gave you a practical toolkit: a three-stage frame f
 Now put it together on a stranger's workflow. Answer the check below in your own words.
 
 #### Question
+id:: 2a05d4bd-afeb-423b-81db-d7f08870d603
 content::
 \## Chapter check
 Here is a real-sounding workflow:

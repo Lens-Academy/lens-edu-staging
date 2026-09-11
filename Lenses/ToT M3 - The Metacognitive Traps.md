@@ -31,6 +31,7 @@ As the clip names them, here are the three traps stated plainly, with examples f
 Why does this matter if you never write code? The traps live in metacognition during learning. Everyone is a novice somewhere, most of the time. When an AI does the producing, the repetitions that build your own understanding can quietly disappear. AI assistance can therefore increase, not reduce, the need for metacognitive monitoring.
 
 #### Question
+id:: 44a5b480-ca54-4f54-b104-f65723e0f984
 content::
 \## Which trap do you miss?
 Of the three traps AI adds, Interruption, Mislead, and Progression, which is easiest to overlook in your own work, and why? Take two minutes to write down one honest example from the last week.

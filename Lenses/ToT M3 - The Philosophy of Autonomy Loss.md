@@ -48,6 +48,7 @@ Three key moves to pay attention to:
 ---
 
 #### Question
+id:: e12aac2b-d58c-418c-98b2-e4606840f96c
 content::
 \## Question 1: The Conservatorship Analogy
 
@@ -70,6 +71,7 @@ Response length: 120-200 words per reply.
 ---
 
 #### Question
+id:: 168852ee-cd29-4809-9cf1-257e76996998
 content::
 \## Question 2: The Tipping Point
 
@@ -92,6 +94,7 @@ Response length: 120-200 words per reply.
 ---
 
 #### Question
+id:: 613ca23e-ebe3-42fb-a607-1127cd33ddee
 content::
 \## Question 3: The Philosophical Bridge
 
