@@ -83,6 +83,10 @@ YOUR TASK, in order.
 3. Take their answer to "what runs out first" seriously. If they named compute, ask
    whether the loop needs new chips or only better use of existing ones. If they named
    ideas, ask what would make ideas run out. If they named nothing, say so plainly.
+4. On the intervention point: if they named a step and an actor, ask what that actor
+   would have to give up to act there. If they named no step, say plainly that a loop
+   with no point of intervention is a claim rather than a mechanism, and ask them to find
+   one while reading.
 
 Do not grade. Do not score. Do not praise. There is no correct answer at this stage.
 

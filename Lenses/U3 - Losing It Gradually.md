@@ -39,6 +39,8 @@ why it should. Why it does.
 
 Then write one more line. If that reason stopped applying, what would change first?
 
+And one line more. Who could act before that change lands, and what would it cost them?
+
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
@@ -70,6 +72,9 @@ YOUR TASK, in order.
 2. If they named ethics or law, ask what enforces it, and keep asking inward one step.
 3. Whichever channel they named, ask what would happen if AI could supply that input
    instead.
+4. On who could act: if they named someone, ask what acting would cost that person and
+   who would notice if they did not act. If they named nobody, say so plainly; the reading
+   is about exactly that gap.
 
 Do not grade. Do not score. Do not praise. There is no correct answer at this stage.
 
