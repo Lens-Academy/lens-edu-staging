@@ -66,7 +66,6 @@ FRONTMATTER CHANGES
   tutor_minutes: 5  ->  12          three beats now, not two
   authors:  add Andreas alongside Elias
 
-
 QUESTION, replacing the existing one
 ---------------------------------------------------------------------
 \## Your reaction
