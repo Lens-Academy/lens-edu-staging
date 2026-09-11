@@ -19,6 +19,7 @@ Two short pieces. Read them in this order, and read the second one asking how it
 Both authors think alignment is hard and unsolved. They are not describing the same difficulty. Your job while reading is to find the point where their accounts are incompatible, not merely different in emphasis.
 
 #### Question
+id:: 04acc03c-b472-4a1a-bd64-52a5cc6b2472
 content::
 \## Phase 1: Recall
 
@@ -55,6 +56,7 @@ What to do in your single reply:
 One-turn response. Tell them to move on.
 
 #### Question
+id:: aff0ff88-5eb8-4a9f-a279-e9dd74435171
 content::
 \## Phase 2: Processing
 
@@ -82,6 +84,7 @@ Branch:
 Keep an internal turn counter. After 2 tutor replies, close the phase.
 
 #### Question
+id:: bb934142-3c6c-4cc8-b3fb-ae92b7338e95
 content::
 \## Phase 3: Learning Question
 

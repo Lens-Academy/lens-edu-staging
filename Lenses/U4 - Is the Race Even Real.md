@@ -41,6 +41,7 @@ shows what Chinese AI policy looks like when you read it directly.
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
 
 #### Question
+id:: 363a04d7-332f-4598-8949-d1f827a05f25
 content::
 \## Commit to a number
 

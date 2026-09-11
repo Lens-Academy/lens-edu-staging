@@ -19,6 +19,7 @@ Everything in this unit so far has asked what these systems might do to us. This
 Read the second one asking how it connects to the experiments you studied earlier in this unit.
 
 #### Question
+id:: d97dff03-e527-4aa7-9166-cec1707dc4b0
 content::
 \## Phase 1: Recall
 
@@ -61,6 +62,7 @@ What to do in your single reply:
 One-turn response. Tell them to move on.
 
 #### Question
+id:: d1368a50-051e-4e0c-a4b8-839df5147683
 content::
 \## Phase 2: Processing
 
@@ -93,6 +95,7 @@ Branch:
 Keep an internal turn counter. After 2 tutor replies, close the phase.
 
 #### Question
+id:: 57ac94a8-16ad-4fa7-ad10-194ce4539017
 content::
 \## Phase 3: Learning Question
 

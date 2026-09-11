@@ -26,6 +26,7 @@ Your judgement and your taste are invaluable. Whatever the future brings, do not
 Before we begin, a short introduction. You will answer these same questions again at the end of the course.
 
 #### Question
+id:: 3545c936-9748-4fee-be76-4b6ea1206d82
 content:: Give us a short introduction to you and your experience with AI. There are no right or wrong answers. We want what is true for you.
 
 - How do you use AI assistants in work and in life? What tasks, how often, and why?

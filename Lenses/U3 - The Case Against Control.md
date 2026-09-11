@@ -39,6 +39,7 @@ Two objections follow. Read them as arguments to weigh, not as the verdict.
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
 
 #### Question
+id:: 825ef15e-3803-42bc-9b9f-3fefc02e6ddc
 content::
 \## Write the conditions
 

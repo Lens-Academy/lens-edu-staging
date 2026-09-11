@@ -23,6 +23,7 @@ One thing to keep in mind while you read. Frontier-lab leadership has published 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 #### Question
+id:: b8e7ce82-86a9-4313-82a3-47f6bbcbdc73
 content::
 \## Your turn first
 

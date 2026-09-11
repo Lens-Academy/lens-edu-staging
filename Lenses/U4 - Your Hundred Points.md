@@ -21,6 +21,7 @@ The course takes no side on that, and you do not need to settle it. What you nee
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 
 #### Question
+id:: 5037a624-ba92-47cb-b09b-2ba3618fb935
 content::
 \## Your hundred points
 
@@ -69,6 +70,7 @@ Write 60 to 110 words. Short paragraphs. No lists.
 max-time:: 10
 
 #### Question
+id:: 9f903c63-bb03-4ca8-ba0c-d74e08dd7093
 content::
 \## Revision 3
 

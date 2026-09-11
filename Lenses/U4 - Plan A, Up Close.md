@@ -27,6 +27,7 @@ Their section 5 answers the obvious objections, and Appendix A is the treaty its
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the authors' own work.*
 
 #### Question
+id:: 470aff2f-99ff-4398-beb4-3faa7cd3eaf1
 content::
 \## Your turn first
 

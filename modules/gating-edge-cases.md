@@ -39,9 +39,11 @@ content::
 Two questions on one page, and the lens has `min_chat_messages:: 1`. Both questions need an answer, and one message to the tutor is needed on top. The list under the button says "Answer question 1", "Answer question 2" (each linking to its question) and "Send 1 message to the Lens Tutor". A reply typed in either question's feedback conversation counts as the message; the auto-sent feedback request does not.
 
 #### Question
+id:: ac382aa6-dce0-43b1-a322-696849b71885
 content:: Question 1: What did you have for breakfast?
 
 #### Question
+id:: 7dda46af-9a14-4724-921e-cbb0862d3f3c
 content:: Question 2: Name a habit you would like to build.
 assessment-instructions:: Any sincere answer is fine; ask one short follow-up question.
 
@@ -60,8 +62,10 @@ instructions::
 Keep replies to one short sentence.
 
 #### Question
+id:: 724c3410-7bd9-4f4b-abb2-d93652bb9c2a
 content:: Required: what is one thing you learned today?
 
 #### Question
+id:: 33959573-ef6a-4cb7-9c7f-54e722f2f47f
 optional:: true
 content:: Optional: anything else on your mind?

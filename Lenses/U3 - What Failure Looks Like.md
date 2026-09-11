@@ -17,6 +17,7 @@ It is short and has two halves. Read both. They describe different failures, and
 As you read, keep your pre-test answer in mind. You built a mechanism under the same constraints Christiano is working under: nobody is scheming, everything is working as specified. Notice where his account and yours overlap and where they diverge.
 
 #### Question
+id:: 00b7126d-4386-4081-85b1-4930f7e34e7a
 content::
 \## Phase 1: Recall
 
@@ -53,6 +54,7 @@ What to do in your single reply:
 This is a one-turn response. Tell them to move on.
 
 #### Question
+id:: 81153648-ded0-4066-bbc2-6b6850c51e4c
 content::
 \## Phase 2: Processing
 
@@ -82,6 +84,7 @@ Do not pre-empt the learning question. If their reaction maps onto it directly, 
 Keep an internal turn counter. After 2 tutor replies, close the phase.
 
 #### Question
+id:: 73e4d263-0461-41c8-9068-d4532fb7caf9
 content::
 \## Phase 3: Learning Question
 

@@ -31,6 +31,7 @@ Frontier models are given ordinary agentic tasks with tool access. In each case,
 Again, no instruction to resist. The researchers then ask the model directly about what it did.
 
 #### Question
+id:: 385b429a-fca2-4a4b-94cd-d2a8f19c8e0c
 content::
 \## Your predictions
 

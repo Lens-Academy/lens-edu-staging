@@ -32,6 +32,7 @@ counts it, count it yourself.
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 #### Question
+id:: 753bad97-e81f-4d39-b6d7-93e47619dc44
 content::
 \## Your turn first
 

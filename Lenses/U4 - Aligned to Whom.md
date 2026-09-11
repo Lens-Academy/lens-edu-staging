@@ -25,6 +25,7 @@ Before you read Kastner's path, build your own. If yours takes a different route
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 #### Question
+id:: 7bf58adb-b574-4c9f-8601-916f88f5944d
 content::
 \## Your turn first
 

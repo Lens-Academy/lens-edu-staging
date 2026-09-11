@@ -34,6 +34,7 @@ the plans now depend on the answer.
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 #### Question
+id:: be3d3ce8-9df2-441c-bd41-109827b844af
 content::
 \## Your turn first
 

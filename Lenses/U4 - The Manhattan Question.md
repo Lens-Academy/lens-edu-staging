@@ -41,6 +41,7 @@ takes that idea seriously.
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the authors' own work.*
 
 #### Question
+id:: 1ca15ba5-5072-487e-939a-8caf253ec88e
 content::
 \## Pick a side
 

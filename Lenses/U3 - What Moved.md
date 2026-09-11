@@ -34,6 +34,7 @@ Do not go back and look at it. Write it again from memory, then compare.
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 
 #### Question
+id:: f7f9e64b-2a9b-4304-bf7f-d4143946672f
 content::
 \## Rewrite it
 
