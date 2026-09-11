@@ -96,7 +96,7 @@ However, they offer you four claims about what it will do, and are willing to ta
 - It will try to avoid being switched off.
 - It will turn out to be interested in mathematics.
 - It will try to get hold of more computing power.
-- It will turn out to be hostile toward people.
+- It will turn out to be actively hostile toward people.
 
 Take each claim one at a time before choosing a combination to bet on. Would you bet on it or not, and what is your confidence resting on?
 
