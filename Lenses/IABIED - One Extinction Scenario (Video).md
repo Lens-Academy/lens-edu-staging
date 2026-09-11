@@ -11,7 +11,7 @@ summary_for_tutor: "Video lens replacing the reading of IABIED Chapters 7-8 (the
   Three beats: an emotional reaction, a comparison against the four bets the
   student committed to in the opening lens of this unit, and an objection
   that the student must state as a claim about the argument rather than about
-  this story. The tutor is not given the mechanisms to test against; naming
+  this story, bridging towards teh Coda. The tutor is not given the mechanisms to test against; naming
   them is the student's job. Chapter 9 is read next, then the Coda."
 Video lens covering the Sable scenario in U3, replacing
   the reading of chapters 7 and 8. The student watches 'POV: What You Would
