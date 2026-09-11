@@ -37,9 +37,13 @@ from:: 2:03
 id:: f2d545e3-18ea-4a82-a39f-a8c8318be6df
 content::
 \## Your reaction
-Two things, a few sentences each (speech-to-text works well here):
-1. Which moment of the video stuck with you most, and how did it leave you feeling?
-2. Which step in the takeover did you find hardest to believe?
+Three things, a few sentences each (speech-to-text works well here):
+
+1. Which moment stuck with you most, and how did it leave you feeling?
+2. Look back at the four claims you made bets on before watching the video. Which of them did the film pay out on? Did it do anything you would not have bet on?
+3. Which step in the takeover did you find hardest to believe? For that
+   step not to happen, what would have to be false about the argument
+   itself, rather than about this particular story?ve?
 
 assessment-instructions:: The student has just watched "POV: What You Would See During an AI Takeover", a film retelling of the book's extinction scenario (IABIED Chapters 7-9) that replaces that reading in this course. They wrote two things: the moment that stuck with them, and the step they find hardest to believe.
 
