@@ -61,7 +61,5 @@ Score according to the following rubric.
 max-chars:: 800
 
 # Suggested Lenses:
-%%
-Add the U3 opener lens here once it exists. It should be the only suggested lens:
-the two extension readings are its content, not separate lenses.
-%%
+## Lens:
+source:: [[../Lenses/IABIED - Goals and Instrumental Convergence]]
