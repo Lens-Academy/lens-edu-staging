@@ -27,7 +27,7 @@ If you would rather read instead (or as well): the same story in the authors' ow
 
 One footnote from the book's version is worth keeping in mind while you watch: every event referred to in the story with a date on it is an event that happened in real life.
 
-As you watch, hold on to two things: the moment that sticks with you most, and the step you find hardest to believe.
+As you watch, hold on to a few things: the moment that sticks with you most, and the step you find hardest to believe.
 
 You made four bets before this. Have them where you can see them.
 
