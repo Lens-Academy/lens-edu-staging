@@ -100,7 +100,7 @@ Three things, a few sentences each (speech-to-text works well here):
    the film pay out on? Did it do anything you would not have bet on?
 3. Which step in the takeover did you find hardest to believe? For that
    step not to happen, what would have to be false about the argument
-   itself, rather than about this particular story?
+   itself, rather than about this particular story for that step not tha?
 ---------------------------------------------------------------------
 
 ASSESSMENT INSTRUCTIONS, replacing the existing ones
