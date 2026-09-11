@@ -4,7 +4,8 @@ reading_minutes: 30
 tutor_minutes: 5
 title: One Extinction Scenario (Video)
 tldr: "This unit swaps the book's longest reading for a 30-minute film: the book's own extinction scenario, seen minute by minute through the eyes of ordinary people."
-summary_for_tutor: "Video lens covering the Sable scenario in U3, replacingthe reading of chapters 7 and 8. The student watches 'POV: What You Would
+summary_for_tutor: "Video lens covering the Sable scenario in U3, replacing
+the reading of chapters 7 and 8. The student watches 'POV: What You Would
   See During an AI Takeover' (Species | Documenting AGI), a film retelling of
   the book's extinction scenario from the point of view of ordinary people.
   Three beats: an emotional reaction, a comparison against the four bets the
