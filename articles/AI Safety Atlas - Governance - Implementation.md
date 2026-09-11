@@ -20,7 +20,6 @@ llm-review:
     fetched: 2026-08-30
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/governance.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter4-a0a322670b21725098e1839edee61e6b3af18c4a900a1d2e5731d3efe4852f1a.pdf)*
 
 %%
 Add discussion note here:
@@ -77,7 +76,7 @@ Although incident reporting systems from other industries, such as the confident
 
 **How would enforcement work in practice?** Licensing frameworks must be supported by agencies with the power to investigate violations, impose sanctions, and suspend development. National enforcement practices vary between horizontal governance (applying general rules across sectors) and vertical regimes (targeting specific domains like healthcare or finance) ([Cheng & McKernon, 2024](https://www.convergenceanalysis.org/ai-regulatory-landscape/home)). For example, the European Union’s AI Act establishes enforcement authority through horizontal governance framework with the European AI Office, which can investigate, issue fines up to 3% of global annual turnover, and mandate corrective action, combined with mandatory incident reporting, systemic risk mitigation requirements, and a supporting Codes of Practice for GPAI models ([Cheng & McKernon, 2024](https://www.convergenceanalysis.org/ai-regulatory-landscape/home)). In contrast, China’s Cyberspace Administration (CAC) exercises centralized enforcement powers under a vertical regulatory framework. While its approach prioritizes rapid intervention and censorship compliance, the CAC lacks transparent procedural checks and often relies on vague criteria for enforcement. In the United States, enforcement is fragmented. While export controls are strictly applied through agencies like the Department of Commerce, broader AI safety compliance has been delegated to individual agencies, with no national licensing authority. As a result, enforcement actions are often reactive and domain-specific, and rely on discretionary executive powers ([Cheng & McKernon, 2024](https://www.convergenceanalysis.org/ai-regulatory-landscape/home)). Striking the right balance between these approaches will depend on institutional capacity, developer incentives, and the pace of AI advancement. In some cases, using existing sectoral authorities may suffice. In others, new institutions will be required to handle general-purpose capabilities that fall outside traditional regulatory categories ([Dafoe, 2023](https://arxiv.org/abs/2307.04699)).
 
-![Figure 4.34](https://ai-safety-atlas.com/_astro/6a1e7a61b1c1ea91af99012f1db50b40c4bfcd7cfd69e42fffc54aac44a41ab9.B3zlcDOC_1zQI7O.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120442553}@@4.34](https://ai-safety-atlas.com/_astro/6a1e7a61b1c1ea91af99012f1db50b40c4bfcd7cfd69e42fffc54aac44a41ab9.B3zlcDOC_1zQI7O.webp)--}{++{"author":"Elias's AI","timestamp":1789120442553}@@4.34](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-34.webp)++}
 
 *Figure 4.34: The flow from safety cases to enforcement.*
 
