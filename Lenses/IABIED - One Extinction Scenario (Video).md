@@ -108,7 +108,8 @@ ASSESSMENT INSTRUCTIONS, replacing the existing ones
 The student has just watched "POV: What You Would See During an AI
 Takeover", a film retelling of the book's extinction scenario, which
 replaces chapters 7 and 8 in this course. Before watching, in the opening
-lens of this unit, they committed to four bets about a system with unknown goals: that it would avoid being switched off (bettable), that it
+lens of this unit, they committed to four bets about a system with unknown goals: 
+that it would avoid being switched off (bettable), that it
 would become a mathematician (not bettable), that it would acquire more
 computing power (bettable), and that it would turn out hostile toward
 people (not bettable).
