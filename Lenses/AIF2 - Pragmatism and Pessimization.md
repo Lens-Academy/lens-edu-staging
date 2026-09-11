@@ -3,7 +3,7 @@ id: 'c3847aff-8cdc-4b59-9fe9-84d879c4cad6'
 reading_minutes: 18
 tutor_minutes: 8
 title: "Pragmatism and Pessimization"
-tldr: A group that reliably produces the opposite of its stated goal cannot be trusted with power, whatever it intended. Before you write your own plan, read how the last one turned into its opposite, and the three rules its author now uses instead.
+tldr: Richard Ngo's claim, contested by several people he names: a group that reliably produces the opposite of its stated goal cannot be trusted with power. Before you write your own plan, read how he says the last one turned into its opposite, and the three rules he now uses instead.
 summary_for_tutor: "Unit 4 reading before the theory-of-change loop (v2, 2026-09-11). Predict-first question asks the student for a case where a group produced the opposite of its stated goal, and the mechanism. Then two excerpts from part 2 of Richard Ngo's August 2026 retrospective: the opening (the individual-level and group-level mistakes; 'pessimization', producing the opposite of your stated goal; accountability as individuals demanding honest public conversations) and the closing section (give up 'alignment research' as a rallying cry; marginal-impact arguments are like timing a bubble; three rules: choose as if for a wide group, state cruxes publicly and say when they fail, be willing to move away from money and prestige). After-reading question asks the student to run their own lever through Ngo's bubble test and his three rules. One-turn mirrors, no grade. The course stages Ngo's account; it does not endorse it, and several named people have replied to him."
 authors:
   - Lauren+Claude
@@ -59,7 +59,7 @@ content::
 
 Ngo says arguments about your marginal impact are like a plan to ride a bubble and sell before it bursts, because everyone else's decisions are entangled with yours.
 
-Take the lever you are about to write a theory of change for, on the next page. Two or three sentences: is there a version of pulling it that rides the bubble, where your action makes sense only if others do not copy it? If so, what does the plan look like once you assume they will?
+Pick one of this unit's five levers now, the one you will write a theory of change for on the next page: the conditional playbook, influence inside a lab, a national project, the factual premise under the race, or whom a lab's org chart is aligned to. Name it. Then two or three sentences: is there a version of pulling it that rides the bubble, where your action makes sense only if others do not copy it? If so, what does the plan look like once you assume they will?
 
 Then one line. Of his three rules (choose as if for a wide group; state your cruxes and say publicly when they fail; be willing to move away from money, prestige or power), which one would your lever most likely fail, and why?
 
@@ -67,7 +67,7 @@ This takes about six minutes.
 
 feedback-instructions:: The student has read the opening and closing sections of part 2 of Ngo's retrospective and is about to write a theory of change for one strategy lever from Unit 4 (the conditional playbook, inside-lab influence, a national project, the race premise, or lab governance). Ngo's bubble analogy: marginal-impact arguments assume others will not act as you do; his three rules: choose on behalf of a wide group, state cruxes publicly and acknowledge when they fail, be willing to move away from money, prestige and power.
 
-One turn. Check two things. First, did they name a bubble-riding version of their lever, or argue with a reason that there is none; either is an answer, "no" with a reason is fine. Second, did they pick a rule and say why their lever would fail it; if they said their lever passes all three, ask, without waiting for a reply, which rule would be hardest to keep if the lever started working.
+One turn. Check two things. First, did they name a lever and a bubble-riding version of it, or argue with a reason that there is none; either is an answer, "no" with a reason is fine, and a student who rejects the bubble analogy itself with a reason has also answered. Second, did they pick a rule and say why their lever would fail it; if they said their lever passes all three, ask, without waiting for a reply, which rule would be hardest to keep if the lever started working.
 
 Do not defend or attack Ngo's account; the course stages it. Do not propose a lever. Do not grade. Do not praise.
 
