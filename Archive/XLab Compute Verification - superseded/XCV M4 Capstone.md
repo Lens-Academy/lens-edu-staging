@@ -26,6 +26,7 @@ Your proposal should include:
 Use XLab's [current capstone and feasibility material](https://aisafetytracks.com/verification/landing) alongside this Lens reading sequence. Because this is an alpha adaptation, record curriculum feedback separately in [XLab's feedback form](https://forms.gle/KkWcHkKh87pygDzw9).
 
 #### Question
+id:: 92cb11ab-e1c8-4bfb-bd8f-9c44f119bb73
 content::
 Submit a concise regime design for the three-month pause. Defend why its layers are jointly sufficient for the claims you chose, identify its most dangerous common-mode failure, and name one policy change or research result that would most improve feasibility.
 assessment-instructions::

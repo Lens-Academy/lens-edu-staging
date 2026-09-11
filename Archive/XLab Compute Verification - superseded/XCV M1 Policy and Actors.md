@@ -25,6 +25,7 @@ Carry two constraints together. Policy must be effective enough to change releva
 Use [XLab's live curriculum](https://aisafetytracks.com/verification/landing) for its current actor-map and supply-chain exercises. This alpha Lens adaptation focuses on the reusable reasoning and reading base; XLab's interactive exercises remain canonical while the paid cohort tests them.
 
 #### Question
+id:: a9e88125-d7c2-4145-b387-dc45cf5b0a10
 content::
 Choose a proposed commitment such as "no training runs above a specified compute threshold." Write a compact verification specification: covered actors, controlled activity, threshold, required declaration, supporting evidence, and the condition that would trigger investigation.
 assessment-instructions::

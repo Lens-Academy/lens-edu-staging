@@ -17,6 +17,7 @@ Layering works only when failures differ. If every layer trusts the same firmwar
 This module asks you to reason under a **covert-adversary** model. Goal is not impossibility of cheating. Goal is enough probability and consequence of detection that consequential cheating becomes a bad bet.
 
 #### Question
+id:: c45e4e87-b1d7-46c0-ae0e-542e6252bb3b
 content::
 Pick one plausible covert frontier-training scenario. Describe three verification layers meant to catch it. For each layer, name its trust assumption and best evasion. Then explain whether evasions interfere with one another or share a common failure.
 assessment-instructions::
