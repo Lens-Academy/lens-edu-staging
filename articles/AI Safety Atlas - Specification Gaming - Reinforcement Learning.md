@@ -18,8 +18,6 @@ llm-review:
     fetched: 2026-09-03
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/specification-gaming.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter6-af895defbf8761a30ac565755f204072e09a5d599ca725f3de64de4b547c2f28.pdf)*
-
 %%
 Add discussion note here:
 
@@ -71,7 +69,7 @@ The world goes from one state $s_t$ to the next $s_{t+1}$ either based on natura
 
 This loop continues until a terminal condition is reached or can run indefinitely. Following is a diagram that succinctly captures the RL process:
 
-![Figure 6.1](https://ai-safety-atlas.com/_astro/8372cd73478c24e48502d91c72166b8c031212d592f06c15e44f0e271669e062.BlTgyBee_26inIN.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789119823434}@@6.1](https://ai-safety-atlas.com/_astro/8372cd73478c24e48502d91c72166b8c031212d592f06c15e44f0e271669e062.BlTgyBee_26inIN.webp)--}{++{"author":"Elias's AI","timestamp":1789119823434}@@6.1](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-1.webp)++}
 
 *Figure 6.1: ([Brunskill, 2022](https://web.stanford.edu/class/archive/cs/cs234/cs234.1224/))*
 
