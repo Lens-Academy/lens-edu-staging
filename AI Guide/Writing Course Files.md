@@ -15,9 +15,6 @@ description: "Shown on the course page."
 tags: ...
 discussion: https://discord.com/channels/...
 ---
-
-application-survey:: [[../surveys/Application Form]]
-
 %%
 Target audience:
 - Feature 1: ...
@@ -36,6 +33,9 @@ Week 1 goals:
 - Goal 1
 - Goal 2
 %%
+
+application-survey:: [[../surveys/Application Form]]
+
 # Module: [[../modules/Course M1 Intro, Part 1]]
 # Meeting: Meeting 1 name
 meeting-doc-template:: https://docs.google.com/document/d/...
@@ -60,7 +60,7 @@ Optional frontmatter: `slug-aliases`, `partner-name`, `partner-logo`, `partner-l
 - Everything between two meetings belongs to one meeting's preparation.
 - If the course has in-person meetings, the meeting doc template must be linked under the `# Meeting`. (see: [[Writing Meeting Docs]])
 - Every meeting should have a learner survey linked with `survey:: [[../surveys/Survey Name]]`. (See [[Writing Surveys]])
-- A course that people apply to carries `application-survey:: [[../surveys/Application Form]]` in the preamble, the `field:: value` lines between the frontmatter and the first `# Module:`. The linked survey file uses the normal survey format and is shown in the enrolment wizard after availability or group choice; enrolment is refused until the learner submits it, one response per learner per cohort. The value must be a wikilink, a raw URL is warned about and ignored, and a misspelled key containing "surve" is warned about too. Leave the line off demo, internal and work-in-progress courses, where a required form would block click-through.
+- A course that people apply to carries `application-survey:: [[../surveys/Application Form]]` in the preamble, the `field:: value` lines between the frontmatter and the first `# Module:`. The linked survey file uses the normal survey format and is shown in the enrolment wizard after availability or group choice; enrolment is refused until the learner submits it, one response per learner per cohort. The value must be a wikilink, a raw URL is warned about and ignored, and a misspelled key containing "surve" is warned about too. Put the line directly above the first `# Module:`, below the author notes, as the courses that use it do. Any position in the preamble parses, because `%%` comments are stripped before the preamble is read, but a field written inside a comment is dropped with no warning at all. Leave the line off demo, internal and work-in-progress courses, where a required form would block click-through.
 - Every facilitated meeting should also have a navigator survey linked with `facilitator-survey:: [[../surveys/Navigator Survey Name]]`. It uses the same survey file format, is shown only to facilitators, and unlocks when the meeting ends without requiring learner attendance or check-in. The same navigator survey can be reused across meetings; use a distinct first-session survey when intake or baseline questions differ.
 
 Before creating a new course:
