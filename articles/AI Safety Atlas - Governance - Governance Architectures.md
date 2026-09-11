@@ -20,7 +20,6 @@ llm-review:
     fetched: 2026-08-30
     kind: "live"
 ---
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/governance.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter4-a0a322670b21725098e1839edee61e6b3af18c4a900a1d2e5731d3efe4852f1a.pdf)*
 
 %%
 Add discussion note here:
@@ -35,7 +34,7 @@ Robust governance requires combining corporate self-governance for technical spe
 
 **The governance of frontier AI cannot be entrusted to any single institution or level of authority.** Companies lack incentives to fully account for societal impacts, nations compete for technological advantage, and international bodies struggle with capacity for enforcement. Each level of governance – corporate, national, and international — brings unique strengths and faces distinct limitations. Understanding how these levels interact and reinforce each other is important for building effective AI governance systems.
 
-![Figure 4.21](https://ai-safety-atlas.com/_astro/14ca84afb9a7bc7f7d1cd16dd8c6f4ac382df5db1e4dacb36674d4cc5f600d7d.BvsDwaSg_ym4Bt.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120683766}@@4.21](https://ai-safety-atlas.com/_astro/14ca84afb9a7bc7f7d1cd16dd8c6f4ac382df5db1e4dacb36674d4cc5f600d7d.BvsDwaSg_ym4Bt.webp)--}{++{"author":"Elias's AI","timestamp":1789120683766}@@4.21](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-21.webp)++}
 
 *Figure 4.21: The three levels of AI governance.*
 
@@ -45,7 +44,7 @@ Robust governance requires combining corporate self-governance for technical spe
 
 **International governance addresses global externalities and coordination failures.** AI risks don't respect borders. A dangerous model developed in one country can affect the entire world through digital proliferation. International mechanisms help align incentives between nations, preventing races to the bottom and ensuring consistent safety standards. The International Network of AI Safety Institutes, launched in 2024, exemplifies how countries can share best practices and coordinate standards despite competitive pressures ([Ho et al., 2023](https://www.ceris.be/wp-content/uploads/2024/03/International-Institutions-for-Advanced-AI-Robert-Trager.pdf)).
 
-![Figure 4.22](https://ai-safety-atlas.com/_astro/4e4b7a3e733b1823f4ab478b00829c05a996e8652ee2946748e16bdc74bcc5ba.BQrX9agG_ZCdF4.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120685485}@@4.22](https://ai-safety-atlas.com/_astro/4e4b7a3e733b1823f4ab478b00829c05a996e8652ee2946748e16bdc74bcc5ba.BQrX9agG_ZCdF4.webp)--}{++{"author":"Elias's AI","timestamp":1789120685485}@@4.22](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-22.webp)++}
 
 *Figure 4.22: How the levels interact and reinforce.*
 
@@ -80,7 +79,7 @@ In this section we'll look at how AI companies approach governance in practice. 
 
 **Internally deployed systems also need governance safeguards.** Just because a model is not deployed publicly should not mean the corporate governance safeguards do not apply. We have seen in previous chapters that automating AI RnD is one of the core goals of several AI companies, this combined with proliferation safeguards and public release mitigations means that we can see many models that are heavily used internally but not available to the public. These internal deployments often lack the scrutiny applied to external launches and may operate with elevated privileges, bypass formal evaluations, and evolve capabilities through iterative use before external stakeholders are even aware of their existence ([Stix, 2025](https://arxiv.org/abs/2504.12170)). Without policies that explicitly cover internal use, such as access controls, internal deployment approvals, or safeguards against recursive model use, high-risk systems may advance unchecked (See Figure B.). Yet public knowledge of these deployments are limited, and most governance efforts still focus on public-facing releases ([Bengio et al., 2025](https://assets.publishing.service.gov.uk/media/679a0c48a77d250007d313ee/International_AI_Safety_Report_2025_accessible_f.pdf)). Strengthening internal governance around internal deployment is critical to ensure that early and potentially hazardous use cases are properly supervised.
 
-![Figure 4.23](https://ai-safety-atlas.com/_astro/c8542bfa5451476730de9c61b0f731fe677e54aa41ea71386b0fba7bca68f991.qwKL-dp7_Z1ke311.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120706664}@@4.23](https://ai-safety-atlas.com/_astro/c8542bfa5451476730de9c61b0f731fe677e54aa41ea71386b0fba7bca68f991.qwKL-dp7_Z1ke311.webp)--}{++{"author":"Elias's AI","timestamp":1789120706664}@@4.23](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-23.webp)++}
 
 *Figure 4.23: The figure illustrates a self-reinforcing loop in which AI systems progressively automate AI research, leading to increasingly capable AI that further accelerates its own development ([Stix, 2025](https://arxiv.org/abs/2504.12170)).*
 
@@ -98,7 +97,7 @@ In May 2025, OpenAI announced a significant restructuring of its governance mode
 
 :::
 
-![Figure 4.24](https://ai-safety-atlas.com/_astro/c66e25254d02112c3d349d6099fffc34c7c37767ff5478d534a0194e1c05506f.0l0lnnZ8_Z18htTM.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120723295}@@4.24](https://ai-safety-atlas.com/_astro/c66e25254d02112c3d349d6099fffc34c7c37767ff5478d534a0194e1c05506f.0l0lnnZ8_Z18htTM.webp)--}{++{"author":"Elias's AI","timestamp":1789120723295}@@4.24](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-24.webp)++}
 
 *Figure 4.24: Swiss cheese model representing our recommended defense-in-depth strategy against the risk of loss of control via internally deployed misaligned AI. Threat vectors are in red ([Stix et al., 2025](https://arxiv.org/abs/2504.12170)).*
 
@@ -122,11 +121,11 @@ In May 2025, OpenAI announced a significant restructuring of its governance mode
 - **Second Line of Defense**: Specialized risk management and compliance functions, including AI ethics committees, dedicated safety teams, and compliance units provide oversight and guidance.
 - **Third Line of Defense**: Independent internal audit functions provide assurance to board and senior management through regular audits of safety practices, independent model evaluations, and assessments of overall preparedness.
 
-![Figure 4.25](https://ai-safety-atlas.com/_astro/e2f28a9211119001f07da48ca4580b61af3af1e95969da360d583d6fcc096ddf.BwVfW-1D_IoQt5.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120749172}@@4.25](https://ai-safety-atlas.com/_astro/e2f28a9211119001f07da48ca4580b61af3af1e95969da360d583d6fcc096ddf.BwVfW-1D_IoQt5.webp)--}{++{"author":"Elias's AI","timestamp":1789120749172}@@4.25](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-25.webp)++}
 
 *Figure 4.25: The 3LoD model as described above ([Schuett, 2023](https://arxiv.org/abs/2212.08364)).*
 
-![Figure 4.26](https://ai-safety-atlas.com/_astro/92dec848e552b2e93b1119b364548a5d596f7ed626667fac5fb3010ec1d95a03.BDUQoPDP_2qlCPO.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120769172}@@4.26](https://ai-safety-atlas.com/_astro/92dec848e552b2e93b1119b364548a5d596f7ed626667fac5fb3010ec1d95a03.BDUQoPDP_2qlCPO.webp)--}{++{"author":"Elias's AI","timestamp":1789120769172}@@4.26](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-26.webp)++}
 
 *Figure 4.26: Sample org chart of an AI company with equivalent responsibilities for each of the three lines  ([Schuett, 2023](https://arxiv.org/abs/2212.08364)).*
 
@@ -138,7 +137,7 @@ In May 2025, OpenAI announced a significant restructuring of its governance mode
 - **Delphi Technique**: Gathering expert opinions through structured rounds of questionnaires to synthesize diverse perspectives on potential risks.
 - **Bow Tie Analysis**: Mapping pathways between causes, hazardous events, and consequences, along with prevention and mitigation measures.
 
-![Figure 4.27](https://ai-safety-atlas.com/_astro/0a80dfc97361492309405e7339f1bba2ca8cd717f9c715026e205df1ab49d902.7t0JZGdV_1rKTz5.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120781256}@@4.27](https://ai-safety-atlas.com/_astro/0a80dfc97361492309405e7339f1bba2ca8cd717f9c715026e205df1ab49d902.7t0JZGdV_1rKTz5.webp)--}{++{"author":"Elias's AI","timestamp":1789120781256}@@4.27](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-27.webp)++}
 
 *Figure 4.27: Example of Bow-tie analysis technique ([Hendrycks, 2024](https://www.aisafetybook.com/textbook/component-failure-accident-models)) *
 
@@ -177,11 +176,11 @@ As we will see in this section, major regions have developed distinctly differen
 
 Across the last decade, over 30 countries have released national AI strategies outlining their approach to development, regulation, and adoption. These strategies differ widely in emphasis, but when systematically analyzed, they fall into three recurring governance patterns: development, control, and promotion ([Papyshev et al., 2023](https://www.researchgate.net/publication/367010605_The_state's_role_in_governing_artificial_intelligence_development_control_and_promotion_through_national_strategies)). In development-led models, such as those in China, South Korea, and Hungary, the state acts as a strategic coordinator, directing public resources toward AI infrastructure, research programs, and national missions. Control-oriented approaches, prominent in the European Union and countries like Norway and Mexico, emphasize legal standards, ethics oversight, and risk monitoring frameworks. Promotion-focused models, including the United States, United Kingdom, and Singapore, adopt a more decentralized approach: the state acts primarily as an enabler of private sector innovation, with relatively few regulatory constraints. These differences matter. Any attempt to build international governance frameworks will need to account for the structural asymmetries between these national regimes, particularly around enforcement authority, accountability mechanisms, and institutional capacity ([Papyshev et al., 2023](https://www.researchgate.net/publication/367010605_The_state's_role_in_governing_artificial_intelligence_development_control_and_promotion_through_national_strategies)).
 
-![Figure 4.28](https://ai-safety-atlas.com/_astro/87178064357b6fa05baca336dbf447ca26ce4020669bc1bd4fdcd719f8d0884c.DYR3HIb7_Ms0qL.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120818834}@@4.28](https://ai-safety-atlas.com/_astro/87178064357b6fa05baca336dbf447ca26ce4020669bc1bd4fdcd719f8d0884c.DYR3HIb7_Ms0qL.webp)--}{++{"author":"Elias's AI","timestamp":1789120818834}@@4.28](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-28.webp)++}
 
 *Figure 4.28: The state’s role in governing artificial intelligence: development, control, and promotion through national strategies ([Papyshev et al., 2023](https://www.researchgate.net/publication/367010605_The_state's_role_in_governing_artificial_intelligence_development_control_and_promotion_through_national_strategies)).*
 
-![Figure 4.29](https://ai-safety-atlas.com/_astro/800cd39bbdf64f0475cb5261a71da1965245e9d3f32ce95060e98bd8e580e05c.D8VmqWT5_Z2spvt3.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120836223}@@4.29](https://ai-safety-atlas.com/_astro/800cd39bbdf64f0475cb5261a71da1965245e9d3f32ce95060e98bd8e580e05c.D8VmqWT5_Z2spvt3.webp)--}{++{"author":"Elias's AI","timestamp":1789120836223}@@4.29](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-29.webp)++}
 
 *Figure 4.29: ([State of AI Report, 2023](https://www.stateof.ai/))*
 
@@ -207,7 +206,7 @@ National governance provides the enforcement mechanisms and democratic legitimac
 
 **How do national policies affect global AI development?** Even seemingly domestic regulations (such as immigration policies, see below) can reshape the global AI landscape through various spillover mechanisms.
 
-![Figure 4.30](https://ai-safety-atlas.com/_astro/7b51caaa67bc2eb0c78ad038e29e6d5446848ccc5c026766e68fa16d0754ed5f.Dy56Iy_c_Z8lYD8.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120846736}@@4.30](https://ai-safety-atlas.com/_astro/7b51caaa67bc2eb0c78ad038e29e6d5446848ccc5c026766e68fa16d0754ed5f.Dy56Iy_c_Z8lYD8.webp)--}{++{"author":"Elias's AI","timestamp":1789120846736}@@4.30](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-30.webp)++}
 
 *Figure 4.30: What are the career paths of top-tier AI researchers? ([MacroPolo](https://macropolo.org/digital-projects/the-global-ai-talent-tracker/))*
 
@@ -225,13 +224,13 @@ The EU's regulations might offer the first widely adopted and mandated operation
 
 In 2023, the US and UK governments both announced new institutes for AI safety. As of 2025, there are at least 12 national AI Safety Institutes (AISIs) established worldwide. These include institutes from the United States, United Kingdom, Canada, France, Germany, Italy, Japan, South Korea, Singapore, Australia, Kenya, and India. The European Union has established the European AI Office, which functions similarly to national AISIs. These institutes collaborate through the International Network of AI Safety Institutes, launched in November 2024, to coordinate research, share best practices, and develop interoperable safety standards for advanced AI systems.
 
-![Figure 4.31](https://ai-safety-atlas.com/_astro/e1eb5e5d60b54cbf44a2213e9a092f50cca29ff52473b853c418ae40ba5deee4.BVpfdbUG_Z1uKY2A.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120848587}@@4.31](https://ai-safety-atlas.com/_astro/e1eb5e5d60b54cbf44a2213e9a092f50cca29ff52473b853c418ae40ba5deee4.BVpfdbUG_Z1uKY2A.webp)--}{++{"author":"Elias's AI","timestamp":1789120848587}@@4.31](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-31.webp)++}
 
 *Figure 4.31: These countries are part of the international network for AI safety, with their respective national bodies dedicated to AI safety ([Variengien & Martinet, 2024](https://oecd.ai/en/wonk/ai-safety-institutes-challenge)).*
 
 **Global governance efforts also face major obstacles.** Strategic competition between leading powers, who view AI as both a national security asset and an economic engine, often undermines cooperation. Power asymmetries further complicate negotiations: countries with advanced AI capabilities, like the United States and China, may resist international constraints, while others may demand technology transfer and capacity-building support in exchange for participation. Divergent political systems and values also pose barriers, with disagreements over issues such as privacy, free expression, and state authority. For example, China’s Global AI Governance Initiative centers sovereignty and non-interference, contrasting with Western frameworks rooted in individual rights and democratic accountability ([Hung, 2025](https://www.researchgate.net/publication/387730260_Exploring_China's_cyber_sovereignty_concept_and_artificial_intelligence_governance_model_a_machine_learning_approach); [Hsu et al., 2023](https://www.cartercenter.org/resources/pdfs/peace/china/finding-firmer-ground-the-role-of-high-technology-in-u.s.-china-relations.pdf)). Perhaps most significantly, deep trust deficits between major powers, fueled by tensions over trade, intellectual property, and human rights, make it difficult to reach credible, enforceable agreements, adding to the complex geopolitical landscape shaping the future of international AI governance ([Mishra, 2024](https://www.techpolicy.press/from-competition-to-cooperation-can-uschina-engagement-overcome-geopolitical-barriers-in-ai-governance/)).
 
-![Figure 4.32](https://ai-safety-atlas.com/_astro/6e4d1eb7df911252d838f028c13624fe5ba4ff8b12d16ab21427722199f32d96.DfQT5L0m_Z2gCYo2.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120850300}@@4.32](https://ai-safety-atlas.com/_astro/6e4d1eb7df911252d838f028c13624fe5ba4ff8b12d16ab21427722199f32d96.DfQT5L0m_Z2gCYo2.webp)--}{++{"author":"Elias's AI","timestamp":1789120850300}@@4.32](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-32.webp)++}
 
 *Figure 4.32: Cartoon highlighting a discrepancy between countries’ statements and their true intentions in the context of the U.K.’s november 2023 AI Safety Summit ([The Economist](https://www.economist.com/the-world-this-week/2023/11/02/kals-cartoon))*
 
@@ -279,7 +278,7 @@ Several institutional arrangements could support international AI governance ([M
 - **International Joint Research:** Collaborative research could help ensure that frontier AI development prioritizes safety and beneficial outcomes, similar to how CERN facilitates international scientific cooperation.
 - **Distribution of Benefits and Access:** An institution focused on ensuring equitable access to AI benefits could prevent harmful concentration of capabilities and ensure the technology's benefits are widely distributed through mechanisms like a global fund for AI development assistance or technology transfers.
 
-![Figure 4.33](https://ai-safety-atlas.com/_astro/92eb4398e9eef87560f4a6781b24bd2b83652652c99a0d4d6d67e1a61c346221.CEbRvXUm_12oan7.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120851967}@@4.33](https://ai-safety-atlas.com/_astro/92eb4398e9eef87560f4a6781b24bd2b83652652c99a0d4d6d67e1a61c346221.CEbRvXUm_12oan7.webp)--}{++{"author":"Elias's AI","timestamp":1789120851967}@@4.33](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-33.webp)++}
 
 *Figure 4.33: An overview table of governance functions and their purpose.*
 
