@@ -23,6 +23,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: 29c9ea51-06cf-497c-bcc5-7e4543a48ac4
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -61,6 +62,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 4e5aad44-e467-4091-bfbb-7c1bb7ea6c47
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
@@ -97,6 +99,7 @@ What not to do:
 - Start resolving the learning outcome question — that is Phase 3's job.
 
 #### Question
+id:: ff08d91d-8505-4f10-b0fb-a332cfdda424
 content::
 \## Phase 3: Learning Question
 Imagine an engineer at a frontier AI lab tells you: "I designed this model's entire training process, and I can pull up and read every one of its billions of weights — so there is nothing about it I don't understand." Both of those claims are true. The conclusion still doesn't follow. Where does the reasoning break down, and what kind of understanding is the engineer missing?

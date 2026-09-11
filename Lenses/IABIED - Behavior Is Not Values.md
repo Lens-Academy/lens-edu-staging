@@ -23,6 +23,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: 55a5011c-916a-4c89-bebd-ea6caf98b175
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Don't look back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -61,6 +62,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 6382de94-64fb-48d0-b2ca-07c750b88853
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
@@ -97,6 +99,7 @@ What not to do:
 - Start resolving the learning outcome question. That is Phase 3's job.
 
 #### Question
+id:: 2968ceb8-a874-49f2-9044-8430abdb819e
 content::
 \## Phase 3: Learning Question
 An AI refuses to help a user build a weapon. A developer points to this and says, "See? It's aligned." What has the developer actually observed, and what would you need to know to tell whether the refusal came from the AI's values or just from its training? Is there any test that could settle it?

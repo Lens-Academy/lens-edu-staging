@@ -20,6 +20,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: c6979f00-e88e-4f14-bf68-bf1f31c5ac5d
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Don't look back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -64,6 +65,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: b6f65118-181c-4d35-b8e4-55bb0e4fe477
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Using the speech to text feature is recommended.
@@ -98,6 +100,7 @@ What not to do:
 - Start resolving the learning outcome question. That is Phase 3's job.
 
 #### Question
+id:: 060e4240-03c1-4a7f-8d82-21919b0027b5
 content::
 \## Phase 3: Learning Question
 A friend who works in machine learning tells you: "The alchemy comparison is out of date. Every new model is run against thousands of safety evaluations and red-team tests, and the scores climb with each release. That's not philosophy and vibes. It's rigorous empirical measurement. The field has clearly left the alchemy stage." Using the chapter's diagnosis, where exactly does this argument go wrong, and is there any part of it your friend has right?

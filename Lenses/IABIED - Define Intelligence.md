@@ -21,6 +21,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: 82f0897c-9028-40b5-9c5b-e6c2343c6cb4
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -67,6 +68,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: c791778a-666f-410d-9327-62c2bf950624
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
@@ -101,6 +103,7 @@ What not to do:
 - Start resolving the learning outcome question; that is Phase 3's job.
 
 #### Question
+id:: e652090b-f48d-48a4-98d5-8d235f97369b
 content::
 \## Phase 3: Learning Question
 A pocket calculator out-predicts and out-steers any human at arithmetic. A house cat cannot do arithmetic at all, but it navigates a physical and social world the calculator is blind to. By the chapter's definition, which one has the more general intelligence, and what exactly are you pointing at?

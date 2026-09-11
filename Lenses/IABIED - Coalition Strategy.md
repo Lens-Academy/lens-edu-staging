@@ -21,6 +21,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: 5fe5c618-0c50-402e-a631-4d7bde61b618
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -61,6 +62,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 0c413e0e-1f63-4c7a-8693-d4c6198ecd20
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
@@ -97,6 +99,7 @@ What not to do:
 - Start resolving the learning outcome question; that is Phase 3's job.
 
 #### Question
+id:: b33b796b-3a4c-4824-8250-afb223540aac
 content::
 \## Phase 3: Learning Question
 Chapter 13 says the coalition working to prevent human extinction must keep its ask narrow, but "narrow" isn't the same as "weak." What exactly must the coalition ask for? What must it refuse to bundle with that ask, and why does the chapter say bundling would be a mistake even if the added positions seem related to the main cause?

@@ -26,6 +26,7 @@ Some definitions for how this article uses words:
 
 
 #### Question
+id:: 612dd0df-c35f-4159-a891-ccaf6f7c5d35
 content::
 \## Guess the base rates
 
@@ -86,6 +87,7 @@ from:: ## IV. Summary
 to:: Growth rates sharply changed in many trends
 
 #### Question
+id:: f600dc0f-002c-4f62-b2fb-06105e8fd542
 content::
 \## The diff
 

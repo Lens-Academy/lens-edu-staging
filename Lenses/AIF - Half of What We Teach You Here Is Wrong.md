@@ -47,6 +47,7 @@ Unless you're speedrunning the course on your own, you're in a cohort of other s
 The course has five units. The group will work through them at a steady pace over the next weeks (or days, if you chose intensive).
 
 #### Question
+id:: a6510339-75ea-4faf-b98d-6fba8a27197b
 content::
 \## Your day-zero model
 

@@ -11,6 +11,7 @@ add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/02 - Chapter 2 - Grown, Not Crafted]]"
 ---
 #### Question
+id:: bf4de7b2-be06-47d9-88e2-64566cf66e91
 content:: 
 Before reading Chapter 2: How do you imagine modern AI systems like ChatGPT were created? Who decided what it would say? Did engineers write rules for it to follow, or did something else happen? Write down your best guess before reading.
 

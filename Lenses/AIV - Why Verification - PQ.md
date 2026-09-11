@@ -8,6 +8,7 @@ authors:
 ---
 
 #### Question
+id:: df8dd3f2-3fdd-470b-9443-5cf13f287287
 content::
 Suppose the US and China sign an agreement: neither will train an AI model above some capability threshold. A year later, you are the inspector. Your job is to establish whether the other side kept its word.
 

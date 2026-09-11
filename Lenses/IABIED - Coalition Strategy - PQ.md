@@ -7,6 +7,7 @@ authors:
   - Chris+Claude
 ---
 #### Question
+id:: 8176e792-e419-48b5-a472-923a7801bd8f
 content:: Before reading Chapter 13, section 2: Imagine you're trying to build the broadest possible coalition to prevent AI-caused extinction. Would you bundle that cause with other AI-related concerns (like opposition to AI-generated weapons or AI taking human jobs) to attract more allies? Or would you keep the ask to a single issue? What are the tradeoffs? Write down your thinking before you read.
 
 assessment-instructions::

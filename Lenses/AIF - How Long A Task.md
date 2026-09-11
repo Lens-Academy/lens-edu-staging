@@ -27,6 +27,7 @@ Their approach has three parts.
 - Then they report as the final time-horizon number the **human-hour length of task on which the AI succeeds half the time**. When you hear them report time horizon that's what it means.
 {>>{"author":"lauren (chrome@what)","timestamp":1787824700273}@@7:58:18<<}
 #### Question
+id:: 7c6ee0fc-c5ee-45ff-88ec-171d88822bec
 content::
 \## What have they found (on AIs up to 2025)
 
