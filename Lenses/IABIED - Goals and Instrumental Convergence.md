@@ -91,7 +91,7 @@ content::
 
 Someone shows you a system they have trained. They will not tell you what it was trained for as they are not entirely certain themselves.
 
-However, they offer you four claims about what it will do, and are willing ask which ones you would put money on.
+However, they offer you four claims about what it will do, and are willing to ask which ones you would put money on.
 
 - It will try to avoid being switched off.
 - It will turn out to be interested in mathematics.
