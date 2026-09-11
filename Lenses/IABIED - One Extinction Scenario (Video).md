@@ -65,19 +65,7 @@ is the replacement. Nothing between them is shared.
 FRONTMATTER CHANGES
   tutor_minutes: 5  ->  12          three beats now, not two
   authors:  add Andreas alongside Elias
-  summary_for_tutor: replace with the version below; the current one says
-    "M1-M3 mechanisms", a module label of the kind we agreed to strip, and
-    describes a tutor chat that no longer matches the beats
-
-  summary_for_tutor: "Video lens covering the Sable scenario in U3, replacing
-  the reading of chapters 7 and 8. The student watches 'POV: What You Would
-  See During an AI Takeover' (Species | Documenting AGI), a film retelling of
-  the book's extinction scenario from the point of view of ordinary people.
-  Three beats: an emotional reaction, a comparison against the four bets the
-  student committed to in the opening lens of this unit, and an objection
-  that the student must state as a claim about the argument rather than about
-  this story. The tutor is not given the mechanisms to test against; naming
-  them is the student's job. Chapter 9 is read next, then the Coda."
+ 
 
 BODY TEXT, replacing the opening Text segment
 ---------------------------------------------------------------------
