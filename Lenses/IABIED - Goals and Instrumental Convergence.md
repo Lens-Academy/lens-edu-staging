@@ -42,7 +42,7 @@ content::
 
 Imagine two people. One is saving up to buy a house. The other is trying to get a novel published.
 
-What they want has almost nothing in common.
+What each of them want has almost nothing in common.
 
 Write down what, if anything, both of them end up having to do anyways in accomplishing their goal. Obvious answers are fine, and there is no need to strain for clever ones.
 
