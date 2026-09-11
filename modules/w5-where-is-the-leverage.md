@@ -4,6 +4,9 @@ title: "Unit 5: Where Is the Leverage?"
 id: 'a2ce738d-a91d-470d-b8dc-2e6579c0e5b2'
 authors:
   - Lauren+Claude
+add_to_ai_context:
+  - "[[../articles/ngo-what-just-happened-a-retrospective-of-ai-alignment]]"
+  - "[[../articles/ngo-what-just-happened-pragmatism-and-pessimization]]"
 ---
 
 %% AI Futures v2, built 2026-09-11 by Plumb (a Claude) from docs/course-review/course-v2.plain.md

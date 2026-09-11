@@ -4,6 +4,9 @@ title: "Unit 4: What's the Plan?"
 id: '11621904-a084-4163-a76f-53000b006af8'
 authors:
   - Lauren+Claude
+add_to_ai_context:
+  - "[[../articles/ngo-what-just-happened-a-retrospective-of-ai-alignment]]"
+  - "[[../articles/ngo-what-just-happened-pragmatism-and-pessimization]]"
 ---
 
 %% AI Futures v2, built 2026-09-11 by Plumb (a Claude) from docs/course-review/course-v2.plain.md
@@ -88,6 +91,9 @@ source:: [[../Lenses/U4 - Is the Race Even Real]]
 source:: [[../Lenses/U4 - Aligned to Whom]]
 
 # Submodule: Your theory of change
+
+# Lens: Pragmatism and Pessimization
+source:: [[../Lenses/AIF2 - Pragmatism and Pessimization]]
 
 # Lens: One lever, three questions
 id:: 109d7b20-c368-4f38-9b43-dc09de10127b
