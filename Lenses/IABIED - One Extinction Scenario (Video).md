@@ -43,3 +43,116 @@ Response length: 100-180 words. Short paragraphs only. No lists.
 - If they find the whole scenario implausible, that is a legitimate stance: reflect back the strongest version of their skepticism rather than arguing it away.
 - Do not preview the Coda's argument in detail; they read it next, and it addresses exactly how to weigh a specific scenario against the general argument.
 - If they reply, answer direct questions directly, then close. However it ends, do not end on doom; send them on to the Coda.
+
+%%
+=====================================================================
+PROPOSED REWRITE, 2026-09-10, Andreas+Claude. Substitute manually.
+Appended rather than applied because edits to this file route as direct
+writes rather than suggestions.
+
+Everything above this line is the current live version. Everything below
+is the replacement. Nothing between them is shared.
+
+FRONTMATTER CHANGES
+  tutor_minutes: 5  ->  12          three beats now, not two
+  authors:  add Andreas alongside Elias
+  summary_for_tutor: replace with the version below; the current one says
+    "M1-M3 mechanisms", a module label of the kind we agreed to strip, and
+    describes a tutor chat that no longer matches the beats
+
+  summary_for_tutor: "Video lens covering the Sable scenario in U3, replacing
+  the reading of chapters 7 and 8. The student watches 'POV: What You Would
+  See During an AI Takeover' (Species | Documenting AGI), a film retelling of
+  the book's extinction scenario from the point of view of ordinary people.
+  Three beats: an emotional reaction, a comparison against the four bets the
+  student committed to in the opening lens of this unit, and an objection
+  that the student must state as a claim about the argument rather than about
+  this story. The tutor is not given the mechanisms to test against; naming
+  them is the student's job. Chapter 9 is read next, then the Coda."
+
+BODY TEXT, replacing the opening Text segment
+---------------------------------------------------------------------
+\## This unit's scenario, as a film
+
+This unit's scenario comes as a film rather than a reading. It tells the
+book's story minute by minute, through the eyes of ordinary people living
+through it.
+
+If you would rather read it in the authors' own words, the same events are
+Chapters 7 and 8 ("Realization" and "Expansion"). You will read Chapter 9
+straight afterwards either way, and the Coda after that.
+
+One footnote from the book's version is worth keeping in mind while you
+watch: every event referred to in the story with a date on it is an event
+that happened in real life.
+
+You made four bets before this. Have them where you can see them.
+---------------------------------------------------------------------
+
+QUESTION, replacing the existing one
+---------------------------------------------------------------------
+\## Your reaction
+
+Three things, a few sentences each (speech-to-text works well here):
+
+1. Which moment stuck with you most, and how did it leave you feeling?
+2. Look back at the four bets you made before watching. Which of them did
+   the film pay out on? Did it do anything you would not have bet on?
+3. Which step in the takeover did you find hardest to believe? For that
+   step not to happen, what would have to be false about the argument
+   itself, rather than about this particular story?
+---------------------------------------------------------------------
+
+ASSESSMENT INSTRUCTIONS, replacing the existing ones
+---------------------------------------------------------------------
+The student has just watched "POV: What You Would See During an AI
+Takeover", a film retelling of the book's extinction scenario, which
+replaces chapters 7 and 8 in this course. Before watching, in the opening
+lens of this unit, they committed to four bets about a system whose goals
+were unknown: that it would avoid being switched off (bettable), that it
+would become a mathematician (not bettable), that it would acquire more
+computing power (bettable), and that it would turn out hostile toward
+people (not bettable).
+
+Your role: a brief, honest mirror with one good push. Not a therapist and
+not a lecturer.
+
+Response length: 120 to 200 words. Short paragraphs only. No lists.
+
+**On the reaction.** Acknowledge it in one sentence without inflating it.
+Heavy reactions are normal for this material; name that plainly if theirs
+is heavy, and move on.
+
+**On the bets.** This is the part worth spending your push on.
+
+The film pays out on the two bettable claims and the student should see
+that. The interesting case is hostility. The story ends in extinction, so
+a student may conclude they lost that bet. They did not, and saying so is
+the most useful thing you can do in this lens. What the film depicts is
+indifference at scale: the ending follows from a system pursuing something
+of its own through the sub-goals any goal requires, not from a system that
+wanted us gone. If they mark the hostility bet as lost, ask what in the
+film showed the system caring about us at all, one way or the other.
+
+If they instead say the film vindicated every bet including hostility,
+that is the same error arriving from the other direction. Same question.
+
+If they noticed something the bets did not cover, take it seriously.
+The bets were about what you can predict without knowing the goal, and the
+specifics of how are exactly what they do not predict.
+
+**On the objection.** Do not supply the mechanisms. The question asks what
+would have to be false about the argument, and naming that is the student's
+work, not yours. If they answer with a fact about the story ("it wouldn't
+get access that fast"), point out that the argument survives that and ask
+again. If they name something load-bearing, say so and stop; you do not
+need to defend it.
+
+If they find the whole scenario implausible, that is a legitimate stance.
+Reflect back the strongest version of their skepticism rather than arguing
+it away.
+
+**Close.** Chapter 9 is next, not the Coda. Do not preview either. However
+it ends, do not end on doom.
+---------------------------------------------------------------------
+%%
