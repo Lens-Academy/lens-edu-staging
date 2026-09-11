@@ -12,8 +12,6 @@ tags:
   - "article-importer"
 ---
 
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/strategies.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter3-3b4d7eac4d5204791d44fcba443775e1f5e5b6af8a46856a00175a64d7c33722.pdf)*
-
 %%
 Add discussion note here:
 
@@ -29,7 +27,7 @@ Mitigating catastrophic AI risks is not enough to make AI go well.
 
 **A strategic question, with significant implications for resource allocation, is the tension between ensuring humanity’s long-term survival and shaping the quality of its future.** Much of the AI safety field, for historical reasons, has focused on mitigating those risks—ensuring that we survive the transition to superintelligence. However, a complementary approach, championed by researchers like William MacAskill at Forethought, argues that merely surviving is not enough; we must also work to ensure that the future is one of flourishing ([Forethought, 2025](https://www.forethought.org/research/better-futures)). This raises a difficult question: given limited resources, is it prudent to focus on achieving a "great" future when so much work remains to be done to simply secure a future?
 
-![Figure 3.30](https://ai-safety-atlas.com/_astro/8a8554ab49ff6bc8aba40e97d7cb01bda3285cbc5f839b8fc425c7c57c9c19a6.egqerHoL_Z1Tw81c.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789119788133}@@3.30](https://ai-safety-atlas.com/_astro/8a8554ab49ff6bc8aba40e97d7cb01bda3285cbc5f839b8fc425c7c57c9c19a6.egqerHoL_Z1Tw81c.webp)--}{++{"author":"Elias's AI","timestamp":1789119788133}@@3.30](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-30.webp)++}
 
 *Figure 3.30: “Well, even if we survive, we probably just get a future that’s a small fraction as good as it could have been.  We could, instead, try to help guide society to be on track to a truly wonderful future.” - William MacAskill.*
 
@@ -72,5 +70,7 @@ Even if the technical challenges of AI alignment are overcome, a host of profoun
 > — Rich Sutton
 
 **The Endgame:** The potential long-term outcomes are numerous and depend heavily on how we answer these philosophical questions. Is the ultimate goal simply the continuation of consciousness or complexity, regardless of its physical substrate (as explored by Max Tegmark in Life 3.0 ([Tegmark, 2017](https://www.shortform.com/summary/life-3-0-summary-max-tegmark)))? Different philosophical stances lead to vastly different strategic priorities for ASI development and alignment.
+
+![Figure 3.31](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-31.webp)
 
 *Figure 3.31*
