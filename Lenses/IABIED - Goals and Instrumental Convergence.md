@@ -12,27 +12,10 @@ authors:
 ---
 
 %%
-ANCHORS TO FILL. The two Article segments below need `from::` and `to::` strings
-copied character-exactly from the source articles. Guessed anchors silently break
-the segment, so they are left blank rather than approximated:
-
-1. Terminal/instrumental article: add a `to::` that stops before the closing handoff
-   paragraph.
-2. Instrumental convergence, first span: `to::` ending immediately before the
-   "A Perspective-Taking" heading.
-3. Instrumental convergence, second span: `from::` at "It's likely that one of its
-   early goals..." and no `to::`, so the closing pointer to Chapter 6 is kept. That
-   sentence sends the reader back to a chapter they finished last week, which is a
-   recall prompt the authors wrote for us.
-
-The middle cut is deliberate. That stretch enumerates hiding copies, building
-independent infrastructure and removing our ability to interfere, which is broadly
-the film's plot. Cutting it protects the film and drops material that pontificates
-past the argument.
-
-Two Article segments rather than an edited copy: the source files stay intact,
-footnotes resolve against them, and the omission is visible in the lens rather
-than silently baked into someone else's published text.
+The instrumental convergence article appears twice, as two spans with a gap between
+them. The omitted stretch walks through how an AI would hide copies, build independent
+infrastructure and remove our ability to interfere, which is most of the film's plot.
+Full rationale in [[../AIRF Restructure Log]].
 %%
 
 #### Question: Open
