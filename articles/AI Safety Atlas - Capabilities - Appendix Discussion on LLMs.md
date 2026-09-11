@@ -65,7 +65,7 @@ Scaling laws indicate that larger AIs tend to be more data efficient, requiring 
 
 *Figure 1.68*
 
-![Figure 1.69](https://ai-safety-atlas.com/_astro/056812ed6755684a20be73dd71babaad8b7a417aeb4030d02174cff6b2069330.DPIFIf9n_Z1k77E7.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789119474650}@@1.69](https://ai-safety-atlas.com/_astro/056812ed6755684a20be73dd71babaad8b7a417aeb4030d02174cff6b2069330.DPIFIf9n_Z1k77E7.webp)--}{++{"author":"Elias's AI","timestamp":1789119474650}@@1.69](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-69.webp)++}
 
 *Figure 1.69: From Superposition, Memorization, and Double Descent ([Anthropic, 2023](https://transformer-circuits.pub/2023/toy-double-descent/index.html))*
 
