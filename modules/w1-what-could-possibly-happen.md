@@ -90,5 +90,3 @@ source:: [[../Learning Outcomes/Trajectories with mechanisms and falsifiers]]
 
 %% The learning outcome import is deliberately LAST: the platform renders module sections in
 file order, so an outcome listed first would put the graded test before any lens. %%
-
-%% 2026-09-11 20:12: Scaling Laws lens added after What a Curve Licenses (Plumb). %%

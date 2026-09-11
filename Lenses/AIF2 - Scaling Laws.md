@@ -74,5 +74,3 @@ content::
 Algorithms. The law's constants are not fixed. Epoch AI's estimate, from over two hundred language-model results between 2012 and 2023, is that the compute needed to reach a set performance level halved roughly every eight months from algorithmic improvement alone, with a wide range (five to fourteen months), and that over the same period growth in compute still contributed more to performance than algorithms did. Source: Ho and co-authors, "Algorithmic progress in language models", 2024, [arxiv.org/abs/2403.05812](https://arxiv.org/abs/2403.05812).
 
 So three inputs, all moving: compute, data, algorithms. The curves you met earlier in this unit are what those three do together. The optional Epoch reading that follows asks which physical input binds first.
-
-%% 2026-09-11 20:28: sync probe C, a Lenses/ edit (Plumb); delete at will. %%
