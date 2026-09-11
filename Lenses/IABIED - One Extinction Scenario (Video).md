@@ -29,6 +29,19 @@ One footnote from the book's version is worth keeping in mind while you watch: e
 
 As you watch, hold on to two things: the moment that sticks with you most, and the step you find hardest to believe.
 
+This unit's scenario comes as a film rather than a reading. It tells the
+book's story minute by minute, through the eyes of ordinary people living
+through it.
+
+If you would rather read it in the authors' own words, the same events are
+Chapters 7 and 8 ("Realization" and "Expansion"). You will read Chapter 9
+straight afterwards either way, and the Coda after that.
+
+One footnote from the book's version is worth keeping in mind while you
+watch: every event referred to in the story with a date on it is an event
+that happened in real life.
+
+
 #### Video
 source:: [[../video_transcripts/species-documenting-agi-pov-what-you-would-see-during-an-ai-takeover]]
 from:: 2:03
