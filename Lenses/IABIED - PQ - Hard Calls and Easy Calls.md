@@ -11,6 +11,7 @@ add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/00 - Introduction - Hard Calls and Easy Calls]]"
 ---
 #### Question
+id:: 443ca4d6-6206-4053-8a85-f92f15bf44d9
 content:: Before reading the Introduction: What kinds of things about the future do you feel fairly confident predicting? What makes a prediction feel like a "sure thing" versus a "coin flip"? Take a moment to jot down your answer before reading. There's no right or wrong answers to priming questions, we just want you to gather your thoughts before you're exposed to the ideas in the book. The authors have a specific framework for this, which you'll read next.
 
 assessment-instructions::

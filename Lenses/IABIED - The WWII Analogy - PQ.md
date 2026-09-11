@@ -7,6 +7,7 @@ authors:
   - Chris+Claude
 ---
 #### Question
+id:: e20d4cba-c023-4adc-93be-034784a6d174
 content:: Before reading Chapter 13, section 1: Think of a time in history when countries did something extremely costly and difficult that demanded massive sacrifice, because they believed their survival or way of life was at stake. Did you find it surprising that coordination happened at all? Now: do you think major world powers could coordinate to restrict AI development if they genuinely believed it was an existential threat? Write down your thinking before you read.
 
 assessment-instructions::

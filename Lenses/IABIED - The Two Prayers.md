@@ -18,6 +18,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: 81803c91-c5c3-4250-be0e-2ee865a0d97e
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -57,6 +58,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 9d7f4851-21cf-42b6-9fd7-7f430bb758e5
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
@@ -93,6 +95,7 @@ What not to do:
 - Start resolving the learning outcome question — that is Phase 3's job.
 
 #### Question
+id:: 1bd0779a-8238-4d5d-a3cc-9131387ded88
 content::
 \## Phase 3: Learning Question
 The Closing Words offer two prayers. The authors call the second their "true last prayer." What does each prayer ask for? And what would need to happen — in the real world — for the first prayer to be answered? For the second?

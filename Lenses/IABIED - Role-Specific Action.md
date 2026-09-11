@@ -21,6 +21,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: 1e4d187b-ee89-459f-b06b-4e251f668e23
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -64,6 +65,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: f9224910-17c3-4956-93e7-d34cc751b62c
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
@@ -100,6 +102,7 @@ What not to do:
 - Start resolving the learning outcome question — that is Phase 3's job.
 
 #### Question
+id:: ba34a95b-9bef-42e4-86ba-9516ae937d25
 content::
 \## Phase 3: Learning Question
 Chapter 14 delivers different calls to action to different audiences. Consider three of them: government leaders, skeptical politicians who aren't fully persuaded, and ordinary citizens. What does the chapter specifically ask of each? And what does each group have — what lever do they hold — that the other two cannot provide?

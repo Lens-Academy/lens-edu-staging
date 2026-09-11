@@ -8,6 +8,7 @@ authors:
 ---
 
 #### Question
+id:: 2422b9c2-c29c-447e-b45d-9a10270be0f1
 content:: Think of a major historical disaster: a shipwreck, an industrial accident, a nuclear meltdown. After the disaster, something typically happens: investigations, safety reforms, design changes, new regulations. In what ways does that post-disaster learning process help? And what would have to be true about a future disaster for that process to be completely unavailable?
 
 assessment-instructions::

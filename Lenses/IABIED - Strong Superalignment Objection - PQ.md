@@ -7,6 +7,7 @@ authors:
   - Yatharth+Claude
 ---
 #### Question
+id:: 6ee4592c-ab68-4e70-96f4-5c3d783962a5
 content:: When a problem is hard, one tempting response is: "let's get a smarter solver to handle it." For some problems this works: a more skilled mathematician really can solve a problem the rest of us cannot. For other problems, this hits an obstacle.
 
 **Take 60 seconds and think of a problem where 'just bring in a smarter solver' wouldn't work.** What is it about that problem that makes the smart-solver move unavailable? Is it the trust? The verification? Something else?

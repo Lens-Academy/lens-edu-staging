@@ -7,6 +7,7 @@ authors:
   - Chris+Claude
 ---
 #### Question
+id:: 3f024a49-c36a-48af-a2b4-439419a7782c
 content:: Before reading the Closing Words: Imagine you spent years warning people about a serious danger. Then people started asking whether you felt vindicated as your predictions came true. How would you answer? More broadly: if you had made a serious prediction about a catastrophe, would you prefer to be proven right, or to be proven wrong (even if being wrong meant your work was ignored and forgotten)? Write down your thinking before you read.
 
 assessment-instructions::

@@ -24,6 +24,7 @@ Three reasons this is worth your time:
 One thing to know before you go: the hesitation you might feel ("I don't want to sound alarmist") is the same one the experts feel. Geoffrey Hinton says "at least 10 percent" in public while privately putting the risk far higher, "because there's other people who think it's less." You'll read about this pattern in the final chapters; for now, just notice that your conversation doesn't need to be alarmist, only honest.
 
 #### Question
+id:: 373b95d1-08ad-47ce-8398-bb29a1716f48
 content::
 **Phase 1: Pick your person**
 
@@ -76,6 +77,7 @@ If they come out curious, invite them along: the next cohort of this course is o
 You'll be asked how it went in the next module. An awkward five minutes counts. Not making a plan does not; a conversation scheduled and kept on the calendar does.
 
 #### Question
+id:: 8dd401f0-69fc-4902-85f6-03587faa1cf3
 content::
 **Phase 4: Commit**
 
