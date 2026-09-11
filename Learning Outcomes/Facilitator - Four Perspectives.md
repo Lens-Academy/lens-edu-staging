@@ -17,6 +17,7 @@ eval-results:
 id:: 53c2cca1-0631-4cd6-89a0-aa9642161909
 
 #### Question
+id:: 35bf7f98-073f-46b1-9407-521a3cc7f94f
 content:: While a session is running, you're tracking four things at once: self (am I clear, regulated?), individual (what does the speaker need?), group (energy, who hasn't spoken?), context (where are we in the arc?). Rookie facilitators almost always neglect one or two — most commonly *self* or *context*.
 
 **Name the four perspectives with the question each one asks. Which do you naturally neglect — and what specific cue will you use during a session to widen the lens?**

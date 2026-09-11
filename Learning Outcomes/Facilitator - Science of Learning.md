@@ -17,6 +17,7 @@ eval-results:
 id:: fa33db01-e31d-4dc2-a37a-54a7dc8ce472
 
 #### Question
+id:: f339541e-85bd-4dfe-a19e-2c6a9457d787
 content:: Stephen Kosslyn's "Science of Learning" summarises what cognitive science actually tells us about how people learn. Six mechanisms — desirable difficulty, generation effect, spacing & interleaving, elaboration & connection, dual coding, worked examples → faded scaffolding — between them justify almost every move a facilitator makes.
 
 **Pick three of the six mechanisms. For each, recall a real time you yourself learned something well or badly — and connect what worked (or what was missing) to the mechanism. Then identify one specific facilitator move that uses that mechanism.**

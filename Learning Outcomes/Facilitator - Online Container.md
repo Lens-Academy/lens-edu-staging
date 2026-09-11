@@ -19,6 +19,7 @@ eval-results:
 id:: 103fc8d1-3f8b-4da3-88ac-8b965e18001e
 
 #### Question
+id:: cdb03b1a-8f3c-4459-b352-004260281c27
 content:: An online discussion is its own medium, not a worse version of an in-person one. The mistake is treating it as a degraded form. It isn't — it has different affordances.
 
 **Name three things that are harder online and three things that are easier. For each "easier" — describe how you'd actually use it in a session.**

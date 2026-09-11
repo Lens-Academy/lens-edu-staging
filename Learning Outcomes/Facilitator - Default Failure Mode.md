@@ -17,6 +17,7 @@ eval-results:
 id:: 9dff2567-2a81-4a83-800c-a7230223cc7d
 
 #### Question
+id:: b5d98dfc-7d8f-4b64-9e06-60267bdca457
 content:: When a session goes hard — someone pushes back, a topic gets heated, the room goes silent in a bad way — you'll default to one of two failure modes. **The pufferfish** puffs up (gets bigger, more directive, takes over). **The hermit crab** retreats (gets smaller, more deferential, lets the dominant voice keep dominating). Knowing which is yours, before it happens, makes it half as bad when it does.
 
 **Which are you, honestly? In the last group conflict you were part of (anywhere, not just facilitation), did you get bigger or smaller? What's one specific recovery move you'll try the first time you notice it firing in a session?**

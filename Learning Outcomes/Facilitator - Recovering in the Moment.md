@@ -17,6 +17,7 @@ eval-results:
 id:: b3be36a5-1649-4118-953d-254640ad8066
 
 #### Question
+id:: 2659663c-ff82-4e4e-841f-37ed2a142c5c
 content:: You will, at some point: say something factually wrong; lose track of time; misread the room; get pushed back on; have participants get into something heated; stumble and lose the thread. All of these are recoverable. The recovery move that works in almost all of them is the same: **name it, apologise lightly if warranted, move forward.**
 
 **For three of those failures, write a one-sentence recovery line you'd actually use. Then articulate: why is pushback from a participant information rather than a personal failure?**

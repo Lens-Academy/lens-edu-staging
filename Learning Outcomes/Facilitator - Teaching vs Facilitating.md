@@ -17,6 +17,7 @@ eval-results:
 id:: f412a598-a3fd-4e0b-9502-89ef2088250c
 
 #### Question
+id:: 2d9ea2a0-62f8-4396-9e85-5d7945c0e60a
 content:: A teacher transfers knowledge — they are the source. A facilitator helps a group think together — they are not the source. That sounds simple, but in practice almost every move you make in a session is shaped by which mode you're operating in.
 
 **In your own words, what is the job of a facilitator, and how is it different from a teacher? Which mode do you naturally default to under pressure — and what is the trigger (tiredness, time pressure, a specific personality) most likely to pull you out of facilitator mode in your own sessions?**

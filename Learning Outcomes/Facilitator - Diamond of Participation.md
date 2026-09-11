@@ -17,6 +17,7 @@ eval-results:
 id:: 7e3fa15d-50c5-4a81-8a69-55801ad67891
 
 #### Question
+id:: 68270bfc-ca81-4d99-a817-b961992723e3
 content:: Almost every good session has the same three-phase shape: narrow open → wide explore → narrow close. This is the *Diamond of Participation*. The shape is simple but rookie facilitators reliably violate it in two specific ways.
 
 **Describe the three phases with rough timings. Name the two most common rookie mistakes against this shape — and explain what's lost in each case.**
