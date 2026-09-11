@@ -1,5 +1,5 @@
 ---
-id: 'e45c4a0c-8725-466e-b963-383716e47a20'
+id: '60c5738e-1c1d-4cdc-9548-eca23afd0643'
 reading_minutes: 12
 tutor_minutes: 8
 title: "What Just Happened"
@@ -21,7 +21,7 @@ In August 2026 Richard Ngo, who spent years at DeepMind and OpenAI on alignment,
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 #### Question: Open
-id:: 9b6cd51b-cafa-477f-9cf3-ebffaf8c5397
+id:: 3ba30981-0f0d-4b76-9bc6-0db21c008999
 content::
 \## Your turn first
 
