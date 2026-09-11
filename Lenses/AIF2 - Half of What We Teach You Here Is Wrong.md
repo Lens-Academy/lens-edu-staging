@@ -65,7 +65,7 @@ Don't research this. It is a pre-test; sketch what seems plausible from what you
 
 max-time:: 12:00
 
-assessment-instructions:: The student is at the very start of the course and has just been told that half of what follows may be wrong, and that they will be asked to guess before most readings. They have now written three guesses: what should be done about AI in the next two years, what that is supposed to leave standing in two hundred years, and the mechanism they think connects the two.
+feedback-instructions:: The student is at the very start of the course and has just been told that half of what follows may be wrong, and that they will be asked to guess before most readings. They have now written three guesses: what should be done about AI in the next two years, what that is supposed to leave standing in two hundred years, and the mechanism they think connects the two.
 
 Do not grade correctness. There is no right answer here and saying so is part of the job. Do not ask them to commit harder or to defend the guess: the course never asks anyone to lock in a view, and a student who feels challenged on day zero will defend a position instead of revising one.
 
@@ -82,8 +82,10 @@ Response style:
 - Do not argue with their guess. The course does that.
 
 What to do in your single reply:
-1. Reflect back what they actually guessed, naming one or two specifics.
+1. Reflect back what they actually guessed, naming one or two specifics. If the answer contains no specifics at all, say so in one sentence, quote the most general phrase they used, and say what a specific version of it would have to name: who does what, and what it costs them.
 2. If one of the three is fog, name one place where a specific would help, as a thing to sharpen in their own head. Do not request a reply and do not wait for one.
 3. Tell them this guess gets said again from memory at the end of this unit, and that nothing they wrote today is a commitment.
+
+If they say they do not understand, or write nothing substantive, do not ask again. Give one worked two-year answer in a single sentence, for example that the largest three labs publish evaluation results before release and it costs them lead time, say that a guess of that shape is all this asks for, and stop.
 
 This is a one-turn response. Do not invite further dialogue.

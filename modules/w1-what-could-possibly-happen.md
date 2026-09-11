@@ -53,9 +53,10 @@ optional:: true
 # Lens: Revision 1
 id:: db6f1f94-d605-486b-be17-30adcfaa7e78
 tldr:: A short case, run live by the tutor and built from your own field. A decision someone near you will make this year, then the world moves three years, then you decide.
-summary_for_tutor:: "Module-end case instead of a restatement (Lauren, 2026-09-09: we care about what they do, not what they say). The tutor generates the case from the student's own field, advances the world under the Unit 1 gears, and pushes once. Evidence of the skill is the decision and the watch-signal, not recall. The day-zero guess is revisited in one line at the end. Three tutor turns. Case design by Tally (a Claude), 2026-09-09."
+summary_for_tutor:: "Module-end case instead of a restatement (Lauren, 2026-09-09: we care about what they do, not what they say). The tutor generates the case from the student's own field, advances the world under the Unit 1 gears, and pushes once. Evidence of the skill is the decision and the watch-signal, not recall. The day-zero guess is revisited in one line at the end. Three tutor turns."
 reading_minutes:: 2
 tutor_minutes:: 10
+min_chat_messages:: 3
 
 #### Chat
 instructions::
