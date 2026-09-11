@@ -10,35 +10,35 @@ tags:
 
 application-survey:: [[../surveys/Application Form]]
 
-# Module: [[../modules/what-could-possibly-happen|Unit 1: What Could Possibly Happen?]]
+# Module: [[../modules/w1-what-could-possibly-happen|Unit 1: What Could Possibly Happen?]]
 
 # Meeting: Unit 1
 meeting-doc-template:: https://docs.google.com/document/d/1lqbblsgNwgeBa6JEhgH5qk-hlPSUsZRcYAH-IMmSYD8/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
-# Module: [[../modules/unit-2-how-do-we-know|Unit 2: How Do We Know?]]
+# Module: [[../modules/w2-how-do-we-know|Unit 2: How Do We Know?]]
 
 # Meeting: Unit 2
 meeting-doc-template:: https://docs.google.com/document/d/1ueFST_L_ei4mvZYKOe1v5io1CqrHwqDwZKSLNcCM-qM/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
-# Module: [[../modules/unit-3-how-could-it-go-wrong|Unit 3: How Could It Go Wrong?]]
+# Module: [[../modules/w3-how-could-it-go-wrong|Unit 3: How Could It Go Wrong?]]
 
 # Meeting: Unit 3
 meeting-doc-template:: https://docs.google.com/document/d/1OELeSrzaLpyNVUoLRAnRmelxAuu8JBkw5WwhOEP9yZk/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
-# Module: [[../modules/unit-4-whats-the-plan|Unit 4: What's the Plan?]]
+# Module: [[../modules/w4-whats-the-plan|Unit 4: What's the Plan?]]
 
 # Meeting: Unit 4
 meeting-doc-template:: https://docs.google.com/document/d/1JbdYP4R7MPRrNIncIxu2JjhDlPkBMRF5y4auPrZHYa4/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
-# Module: [[../modules/unit-5-where-is-the-leverage|Unit 5: Where Is the Leverage?]]
+# Module: [[../modules/w5-where-is-the-leverage|Unit 5: Where Is the Leverage?]]
 
 # Meeting: Unit 5
 meeting-doc-template:: https://docs.google.com/document/d/1YuCKnl7R8P4upzZzMTf6whEOYu23g_j936QDlpELwuk/edit
