@@ -24,6 +24,7 @@ eval-results:
 ## Test:
 id:: 3ee1a948-9f94-4d26-abd4-69618e3d99d1
 #### Question
+id:: 3a7d2710-ea32-4c6d-803b-d72c283f7584
 content::
 Chapter 2 ends with a distinction the rest of the course will keep returning to: the difference between an AI that *behaves* as if it's aligned and one that *is* aligned.
 

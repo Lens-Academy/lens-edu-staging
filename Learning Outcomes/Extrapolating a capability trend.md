@@ -14,6 +14,7 @@ eval-results:
 id:: b7c38da8-4b6f-45fb-8be9-f77f01dbd829
 
 #### Question
+id:: 7e1c835f-0ae6-4867-9912-c86e4fbfa42d
 content:: A materials lab publishes a metric they call **depth**: for a candidate battery chemistry, the number of consecutive synthesis-and-test steps their automated system can carry out before a human has to intervene. They measure depth on their systems from the past six years and find it doubles roughly every nine months. The fit is good, R-squared above 0.95, and it holds across three separate hardware generations.
 
 A commentator writes: "Depth doubles every nine months. Full autonomy in materials discovery needs a depth of around 10,000 steps. We are at 40 today. That is eight doublings, so six years. Materials science is solved by 2032."

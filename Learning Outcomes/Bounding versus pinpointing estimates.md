@@ -14,6 +14,7 @@ eval-results:
 id:: 4ee54bf7-d40a-4ac5-a63b-685628637d5e
 
 #### Question
+id:: 4b2c386a-6a5c-469c-b612-a78be46a18be
 content:: A public-health team wants to know when a laboratory will first synthesise a self-replicating artificial cell. They reason: the smallest known free-living bacterium has a genome of about 580,000 base pairs, so a synthetic cell needs at least that much designed DNA. Synthesis cost per base pair has fallen steadily for two decades. They divide the required genome size by the projected synthesis throughput and announce: "first synthetic cell by 2041."
 
 Their number is not useless, but it is not what they think it is.

@@ -23,6 +23,7 @@ eval-results:
 id:: 01dd1801-36f3-4a83-b7e7-33eed08ba1b0
 
 #### Question
+id:: b0d29102-aee5-4db4-859c-dd3f51a1a746
 content:: Chapter 2 draws a sharp contrast between AI systems that are "grown" and systems that are "crafted."
 
 What is that distinction? And specifically: what does an engineer know about a trained AI model, and what do they not know?

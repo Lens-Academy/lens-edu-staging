@@ -19,6 +19,7 @@ eval-results:
 ## Test:
 id:: 28fd9797-a945-417b-bee5-9e1d51298965
 #### Question
+id:: 4d42c17e-cf43-4447-977a-1b4e01ed94c7
 content:: Most of the verification mechanisms people would *want* — elegant, privacy-preserving, cryptographic — do not yet exist in deployable form. Scher and Thiergart argue this is much less damning than it sounds.
 
 **What is their substitution argument, and why does it work? Then give the price of the substitution: what does a regime give up by paying in access instead of in technology, and when does the trade stop being available?**

@@ -26,6 +26,7 @@ assesment system prompt + question-specific assessment-instructions + answer -->
 %%
 
 #### Question
+id:: a863faf9-bce1-44db-898a-424ad5cfc17d
 content:: Every mechanism so far has needed someone to trust some silicon. Cankaya's architecture is built to avoid that: an inspector should be able to establish what a data center ran without either side trusting the other's hardware, and without new chips being designed.
 
 **Describe the architecture: what captures evidence, what evaluates it, and why those are deliberately separated. Then explain what "low-trust" means here, and what work the "covert adversary" threat model is doing.**

@@ -14,6 +14,7 @@ eval-results:
 id:: b39c1796-cc71-4996-9deb-a896cc1baa53
 
 #### Question
+id:: fb2e9d4e-0243-43ac-a009-a826f33b59fe
 content:: A regulator must decide whether a chemical plant will exceed its emissions limit next quarter. Base rate across all comparable plants: 20% do.
 
 Three engineers assess this plant. Independently, without conferring, each returns a probability:
