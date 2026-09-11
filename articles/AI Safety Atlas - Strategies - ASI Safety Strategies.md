@@ -12,8 +12,6 @@ tags:
   - "article-importer"
 ---
 
-*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/strategies.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter3-3b4d7eac4d5204791d44fcba443775e1f5e5b6af8a46856a00175a64d7c33722.pdf)*
-
 %%
 Add discussion note here:
 
@@ -32,7 +30,7 @@ AGI safety strategies often operate under the assumption that human oversight re
 Even if experts are uncertain whether creating an aligned human-level AI necessitates a paradigm shift, the consensus among AI safety researchers is that developing aligned superintelligences requires a specific solution, and likely a new paradigm, due to several factors:
 
 - **There is a strong likelihood that humans are not at the pinnacle of possible intelligence.** This acknowledgment implies that a superintelligence could possess cognitive abilities so advanced that aligning it with human values and intentions might be an insurmountable task, as our current understanding and methodologies may be inadequate to ensure its alignment. The cognitive difference between a superintelligence and a human could be akin to the difference between an ant and a human. Just as a human can easily break free from constraints an ant might imagine, a superintelligence could effortlessly surpass any safeguards we attempt to impose.
-- Deep learning** offers minimal control and understanding over the learned model.** This method leads to the AI becoming a "black box," where its decision-making processes are opaque and not well-understood. Without significant advancements in interpretability, a superintelligence created only with deep learning would be opaque.
+- {--{"author":"Elias's AI","timestamp":1789120224295}@@Deep learning**--}{++{"author":"Elias's AI","timestamp":1789120224295}@@**Deep learning++} offers minimal control and understanding over the learned model.** This method leads to the AI becoming a "black box," where its decision-making processes are opaque and not well-understood. Without significant advancements in interpretability, a superintelligence created only with deep learning would be opaque.
 
 There is little margin for error, and the stakes are incredibly high. A misaligned superintelligence could lead to catastrophic or even existential outcomes. The irreversible consequences of unleashing a misaligned superintelligence mean that we must approach its development with the utmost caution, ensuring that it aligns with our values and intentions without fail.
 
@@ -96,7 +94,7 @@ The strawberry problem tests three critical aspects of AI control simultaneously
 
 **There are various criticisms and concerns about OpenAI's superalignment plan** ([Wasil, 2022](https://www.lesswrong.com/posts/FBG7AghvvP7fPYzkx/my-thoughts-on-openai-s-alignment-plan-1);[ Mowshowitz, 2023](https://www.lesswrong.com/posts/NSZhadmoYdjRKNq6X/openai-launches-superalignment-taskforce); [Christiano, 2023](https://www.alignmentforum.org/posts/Hna4aoMwr6Qx9rHBs/linkpost-introducing-superalignment?commentId=NsYXBdLY6edAXavsM); [Yudkowsky, 2022](https://www.alignmentforum.org/posts/tD9zEiHfkvakpnNam/a-challenge-for-agi-organizations-and-a-challenge-for-1); [Steiner, 2022](https://www.alignmentforum.org/posts/pxiaLFjyr4WPmFdcm/take-2-building-tools-to-help-build-fai-is-a-legitimate); [Ladish, 2023](https://www.lesswrong.com/posts/6RC3BNopCtzKaTeR6/thoughts-on-the-openai-alignment-plan-will-ai-research)). It should be noted that OpenAI's plan is very underspecified, and it is likely that OpenAI missed some risk class blind spots when they announced their plan to the public. For example, in order for the superalignment plan to work, many of the technicalities explained in the article “[The case for ensuring that powerful AIs are controlled](https://www.alignmentforum.org/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled)” were not discovered by OpenAI but discovered one year later by Redwood Research, another AI safety research organization. It is very likely that many other blind spots remain. However, we would like to emphasize that it is better to have a public plan than no plan at all and that it is possible to justify the plan in broad terms ([Leike, 2022](https://aligned.substack.com/p/alignment-optimism);[ Ionut-Cirstea, 2023](https://www.lesswrong.com/posts/FtHidqjAFTerfMZLo/aisc-project-how-promising-is-automating-alignment-research)).
 
-![Figure 3.18](https://ai-safety-atlas.com/_astro/fb33922d023c37129ae0639481e3229d42afd8ee5cc3aaf0ab438a57fdc1b61e.DJ2yOE5R_cm7aT.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120189597}@@3.18](https://ai-safety-atlas.com/_astro/fb33922d023c37129ae0639481e3229d42afd8ee5cc3aaf0ab438a57fdc1b61e.DJ2yOE5R_cm7aT.webp)--}{++{"author":"Elias's AI","timestamp":1789120189597}@@3.18](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-18.webp)++}
 
 *Figure 3.18: An illustration of three strategies for passing the buck to AI. Illustration from ([Clymer, 2025](https://www.lesswrong.com/posts/TTFsKxQThrqgWeXYJ/how-might-we-safely-pass-the-buck-to-ai)).*
 
@@ -114,7 +112,7 @@ Safety cases provide a structured framework for arguing that the risks associate
 
 ## Safety-by-Design
 
-Deep learning** might have many potentially unpatchable failure modes** ([OpenAI, 2023](https://cdn.openai.com/papers/gpt-4-system-card.pdf)). Theoretical arguments suggest that these increasingly powerful models are more likely to have alignment problems ([Turner et al., 2023](https://arxiv.org/abs/1912.01683)), to the point where it seems that the foundation model paradigm of monolithic models is destined to be insecure ([El-Mhamdi et al., 2023](https://arxiv.org/abs/2209.15259)). All of this justifies the search for a new, more secure paradigm.
+{--{"author":"Elias's AI","timestamp":1789120234917}@@Deep learning**--}{++{"author":"Elias's AI","timestamp":1789120234917}@@**Deep learning++} might have many potentially unpatchable failure modes** ([OpenAI, 2023](https://cdn.openai.com/papers/gpt-4-system-card.pdf)). Theoretical arguments suggest that these increasingly powerful models are more likely to have alignment problems ([Turner et al., 2023](https://arxiv.org/abs/1912.01683)), to the point where it seems that the foundation model paradigm of monolithic models is destined to be insecure ([El-Mhamdi et al., 2023](https://arxiv.org/abs/2209.15259)). All of this justifies the search for a new, more secure paradigm.
 
 **Safe-by-design AI may be necessary.** Given that the current deep learning paradigm makes it notoriously hard to develop explainable and trustworthy models, it seems worthwhile to explore creating models that are more explainable and steerable by design, built on well-understood components and rigorous foundations. This aims to bring AI safety closer to the rigorous standards of safety-critical engineering in fields like aviation or nuclear power.
 
@@ -162,7 +160,7 @@ In summary, the **CERN** is best for *pre-AGI/ASI research collaboration* on saf
 
 **A race for AI-enabled dominance endangers all states.** If, in a hurried bid for superiority, one state inadvertently loses control of its AI, it jeopardizes the security of all states. Alternatively, if the same state succeeds in producing and controlling a highly capable AI, it likewise poses a direct threat to the survival of its peers. In either event, states seeking to secure their own survival may threaten to sabotage destabilizing AI projects for deterrence. A state could try to disrupt such an AI project with interventions ranging from covert operations that degrade training runs to physical damage that disables AI infrastructure.
 
-![Figure 3.19](https://ai-safety-atlas.com/_astro/c21d6a4efd050d8b41622c69b74db2e217a86572b1be58914897952bf80a0ccf.CsMQWojZ_28rYW1.webp)
+![Figure {--{"author":"Elias's AI","timestamp":1789120209451}@@3.19](https://ai-safety-atlas.com/_astro/c21d6a4efd050d8b41622c69b74db2e217a86572b1be58914897952bf80a0ccf.CsMQWojZ_28rYW1.webp)--}{++{"author":"Elias's AI","timestamp":1789120209451}@@3.19](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-19.webp)++}
 
 *Figure 3.19: The strategic stability of MAIM can be paralleled with Mutual Assured Destruction (MAD). Note: MAIM does not displace MAD but characterizes an additional shared vulnerability. Once MAIM is common knowledge, MAD and MAIM can both describe the current strategic situation between superpowers ([Hendrycks et al., 2025](https://www.nationalsecurity.ai/)).*
 
