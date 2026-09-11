@@ -8,9 +8,6 @@ partner-name: XLab
 partner-url: https://aisafetytracks.com/verification/landing
 tags: [wip]
 ---
-
-application-survey:: [[../surveys/Application Form]]
-
 %% Source curriculum: https://aisafetytracks.com/tracks/verification (repo: https://github.com/XLabTracks/tracks)
 
 This course is the first five weeks of the re-cut ten-week run of that curriculum. Weeks 6 to 10 are a separate course, and the capstone is a third. The original five-module course ([[../courses/XLab Compute Verification]]) stays untouched.

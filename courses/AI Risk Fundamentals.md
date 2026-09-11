@@ -23,6 +23,9 @@ Just to second on this where participants have found the workload to be quite in
 Also to talk briefly about the module construction, I concur that the contracted pacing has led to difficulties as the first 6 chapters of the book are the most dense, but leaving Chapter 6 for M3 also gives you a weird overhang where the discussion ends up fixating on Part II.
 M3 in general was quite weird since the prior format offered better interrogation of the underlying issues. The video scenario ends shy of the cosmic stakes framing of Chapter 9. I believe there was also no explicit naming of instrumental convergence in this version, which I take to be a critical blunder as I would say most of my participants did not infer this themselves.
 %%
+
+application-survey:: [[../surveys/Application Form]]
+
 # Module: [[../modules/IABIED M1 Introduction]]
 
 # Module: [[../modules/IABIED M2 Nonhuman Minds, Part 1]]
