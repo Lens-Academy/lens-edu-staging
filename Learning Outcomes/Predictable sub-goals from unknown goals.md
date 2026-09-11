@@ -40,7 +40,7 @@ id:: c32375fb-07df-4876-979d-eb38440054ba
 content::
 A cancer lab deploys an assistant model to run its internal research pipeline. By every measure available to them it is well-behaved: honest under evaluation, quick to defer when a person overrides it, never once caught doing something it was told not to do. Its designers believe it genuinely wants the lab's research to go well, and they may well be right about that.
 
-After creating successful treatments for a variety of cancers, they then hand it the long-horizon goal of finding a cure for cancer and grant the model significant discretion to pursue this objective.
+After creating successful treatments for a variety of cancers, the labn hand it the long-horizon goal of finding a cure for cancer and grant the model significant discretion to pursue this objective.
 
 Explain what could still go wrong here, and why the model having good intentions does not remove the risk.
 
