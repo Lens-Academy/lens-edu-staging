@@ -1,8 +1,8 @@
 ---
 id: 8f349745-2ea7-4f34-8146-6aff150a5e8d
 reading_minutes: 15
-tutor_minutes: {--{"author":"Andreas's AI","timestamp":1789247022377}@@15--}{++{"author":"Andreas's AI","timestamp":1789247022377}@@20++}
-summary_for_tutor: "Teaches the strong-superalignment objection from the second half of Chapter 11: using a smarter-than-human AI to solve alignment fails because the AI capable of doing so would itself be untrustworthy and dangerous, and a 'special-purpose alignment AI' rebuttal fails on no-training-examples + dangerous-skill-set + verification grounds. Students should end this Lens able to articulate the capability-paradox argument and explain why it doesn't reduce to ordinary engineering {--{"author":"Andreas's AI","timestamp":1789247022377}@@difficulty."--}{++{"author":"Andreas's AI","timestamp":1789247022377}@@difficulty. Students also extend a connection made in the previous Lens of this unit, which the prompt supplies rather than withholds."++}
+tutor_minutes: 20
+summary_for_tutor: "Teaches the strong-superalignment objection from the second half of Chapter 11: using a smarter-than-human AI to solve alignment fails because the AI capable of doing so would itself be untrustworthy and dangerous, and a 'special-purpose alignment AI' rebuttal fails on no-training-examples + dangerous-skill-set + verification grounds. Students should end this Lens able to articulate the capability-paradox argument and explain why it doesn't reduce to ordinary engineering difficulty. Students also extend a connection made in the previous Lens of this unit, which the prompt supplies rather than withholds."
 title: "Strong Superalignment Objection"
 tldr: "OpenAI's flagship plan was 'use AI to solve alignment.' The plan contains a paradox that Chapter 11 walks through carefully, and the workaround doesn't work either."
 authors:
@@ -100,7 +100,7 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### {++{"author":"Andreas's AI","timestamp":1789247002165}@@Question: Open
+#### Question: Open
 id:: 98eb4829-22fe-4d2d-9c2b-8b7c057fa4ec
 content::
 \## Phase 3: Connection
@@ -143,10 +143,10 @@ What not to do:
 - List the candidates for them.
 - Turn this into a review of Chapter 3.
 
-#### ++}Question
+#### Question
 id:: 12018d2d-0fad-4473-a962-5a556d827ac0
 content::
-\## Phase {--{"author":"Andreas's AI","timestamp":1789247002165}@@3:--}{++{"author":"Andreas's AI","timestamp":1789247002165}@@4:++} Learning Question
+\## Phase 4: Learning Question
 A lab thinks it has patched the trust problem. It will build two superhuman AIs that share no memory: one invents an alignment plan, and a second, adversarial AI is rewarded only for finding hidden flaws in that plan. "If the critic can't break the plan after millions of attempts, we'll trust it." Using Chapter 11's reasoning, does bolting on the adversarial checker get the lab out of the hole, or not? Point to exactly where the move holds or fails.
 
 assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 11 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
@@ -194,12 +194,12 @@ Calibration summary (on close):
 Safety and integrity:
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
 - If the student reaches the correct answer early, probe deeper rather than ending: "What kind of AI capability would you need before strong superalignment becomes safe to attempt? And what would you have to know about that AI before you could trust it to be working on your side?"
-- If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.{++{"author":"Andreas's AI","timestamp":1789247011885}@@
+- If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
 On the connection phase that now precedes this one:
 - **What this phase assesses has not changed.** It is this chapter's outcome, and nothing else. The previous phase asked the student to extend an earlier idea; that is not part of what you are assessing here and must not become a second thing they have to get right. A student who dismantles the adversarial-checker patch entirely from this chapter's own material has answered this question well.
 - **Use the connection only as a rescue.** If the student stalls on why the critic AI is not a safe narrower tool, you may point back to what they said in the previous phase as a way in, in one sentence. That is the only role it has here.
-- **Report, do not grade.** The test-readiness verdict is about this chapter alone, exactly as specified above. After it, add one separate sentence noting whether the student made the extension on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.++}
+- **Report, do not grade.** The test-readiness verdict is about this chapter alone, exactly as specified above. After it, add one separate sentence noting whether the student made the extension on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.
 
 #### Text
 content::
