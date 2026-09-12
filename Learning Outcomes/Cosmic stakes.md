@@ -36,7 +36,7 @@ id:: 439fd472-9d79-4f86-ae26-ac3c70ecc26c
 #### Question: Open
 id:: 06443bb7-cc55-431b-95cf-467fd5d1a934
 content::
-A friend follows the argument of the book up to a point. They accept that a sufficiently capable AI pursuing goals of its own could end humanity. But they treat everything after that as unknowable: the story stops at extinction, and speculating about what a machine does over the following millennia is pointless guesswork.
+A friend follows the argument of an AI  to a point. They accept that a sufficiently capable AI pursuing goals of its own could end humanity. But they treat everything after that as unknowable: the story stops at extinction, and speculating about what a machine does over the following millennia is pointless guesswork.
 
 Explain why the reasoning that predicts the takeover also predicts what follows it. In your answer, be specific about what would have to be true for the expansion to stop.
 
