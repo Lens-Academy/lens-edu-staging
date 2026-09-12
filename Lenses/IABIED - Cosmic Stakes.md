@@ -59,10 +59,6 @@ id:: '6ba881ef-6851-4e39-99da-10e166aed9a9'
 content::
 \## Before you read on
 
-The story you just watched ends with Sable taking over as humanity is rendered helpless.
-
-Before reading further, commit to an answer. 
-
 What does the AI do next? Not next week. Over the following centuries.
 
 Say what you expect, and say what your expectation is based on.
