@@ -286,6 +286,7 @@ Every module already has a `# Submodule: Welcome`. The work is making its conten
 | File | Change | Status |
 |---|---|---|
 | New resources module | Sits outside the unit sequence | `todo` |
+| M6 heading depth | M6's chapter blocks use `##` for outcome and lens imports where M1 to M5 use `#`. Validates fine, so this is consistency rather than breakage. Same normalisation 1d did when the Ch6 block moved | `todo` |
 | Glossary | Last. New keywords from stages 2 and 3 would otherwise conflict | `todo` |
 | Companion pieces | Not yet scoped | `todo` |
 | Extended readings | Not yet scoped | `todo` |
