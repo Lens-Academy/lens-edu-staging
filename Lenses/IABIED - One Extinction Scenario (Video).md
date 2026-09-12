@@ -21,7 +21,7 @@ authors:
 content::
 \## This unit's scenario, as a film
 
-This module normally carries the course's longest reading: the book's own extinction scenario. We replaced about half of this unit's readi with a video that tells the book's story, minute by minute, through the eyes of ordinary people living through it.
+This module normally carries the course's longest reading: the book's own extinction scenario. We replaced about half of this unit's reading with a video that tells the book's story, minute by minute, through the eyes of ordinary people living through it.
 
 If you would rather read instead (or as well): the same story in the authors' own words is Chapters 7 to 8 ("Realization", "Expansion").
 
