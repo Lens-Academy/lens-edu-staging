@@ -61,7 +61,7 @@ content::
 
 The story you just watched ends with Sable taking over as humanity is rendered helpless.
 
-Before reading further, commit to an answer. A few sentences is plenty, and a guess is fine.
+Before reading further, commit to an answer. 
 
 What does the AI do next? Not next week. Over the following centuries.
 
