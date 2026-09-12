@@ -305,7 +305,11 @@ Every module already has a `# Submodule: Welcome`. The work is making its conten
 | Meeting 5 doc | Expected unchanged | `todo` |
 | **Intake form for M1** | **Out of scope.** Intake has moved outside the course: `application-survey:: [[../surveys/Application Form]]` in the preamble, collected by the enrolment wizard before a learner joins. Nothing to build here. The old blocker, what belongs pre-meeting versus in the post-meeting survey, is now a question for whoever owns the Application Form | `dropped` |
 
-The docs are reachable through the `meeting-doc-template::` links on each `# Meeting:` block. They may warrant restructuring in their own right rather than only patching, which is a decision for whoever owns them once the shape above is settled. Note the history recorded in the course file: meeting 2's doc once ran an outdated session for three days because a link was believed repointed and was not, so verify by opening the doc rather than by trusting the link.
+**The restructuring question is settled, and the answer is yes.** Decided 2026-09-12. Stage 6 is a reformat as well as a rebalance. The docs move onto the pattern the newer courses use, Compute Verification among them, where the session clock is segmented explicitly and includes time for breakout groups to come back together and share out. So each doc needs two things: what the meeting has to cover, which the table above tracks per doc, and the shape it runs in, which is the same change across all five.
+
+**Tooling note.** The docs are Google Docs, reached through the `meeting-doc-template::` links on each `# Meeting:` block, and nothing in the relay can open or edit them. A session can draft content and structure into the vault, but the docs themselves have to be changed by a person or through a browser set up for it. Worth knowing before stage 6 starts, since it is the first stage whose deliverable does not live in this vault.
+
+Note the history recorded in the course file: meeting 2's doc once ran an outdated session for three days because a link was believed repointed and was not, so verify by opening the doc rather than by trusting the link.
 
 ---
 
