@@ -191,7 +191,12 @@ Safety and integrity:
 - If the student decides the field has genuinely left the alchemy stage, ask them what principle-level understanding would look like, and whether rising benchmark scores supply it.
 - If the student reads the diagnosis as blame on Musk and LeCun, pull them back to the structural claim: their statements are evidence of the field's stage, not the cause.
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
-- If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
+- If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.{++{"author":"Andreas's AI","timestamp":1789246970216}@@
+
+On the connection phase that now precedes this one:
+- **What this phase assesses has not changed.** It is this chapter's outcome, and nothing else. The previous phase asked the student to name an earlier idea; that is not part of what you are assessing here and must not become a second thing they have to get right. A student who debugs the friend's benchmark argument entirely from this chapter's own material has answered this question well.
+- **Use the connection only as a rescue.** If the student stalls on the difference between measuring that a technique works and understanding why, you may point back to what they said in the previous phase as a way in, in one sentence. That is the only role it has here.
+- **Report, do not grade.** The test-readiness verdict is about this chapter alone, exactly as specified above. After it, add one separate sentence noting whether the student reached for earlier material on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.++}
 
 #### Text
 content::
