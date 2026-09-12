@@ -1,6 +1,6 @@
 ---
 id: '2c8f2011-1a2d-4b95-a050-b39c9d4e156a'
-reading_minutes: 0
+reading_minutes: 10
 tutor_minutes: 6
 title: Cosmic Stakes
 tldr: "The film ended at the takeover. The story does not, and getting to where it goes takes no new assumptions, only more room."
