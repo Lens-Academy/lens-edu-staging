@@ -115,7 +115,7 @@ Either way this needs a comms pass over meeting docs, cohort materials and anywh
 
 ### A concurrent workstream, not ours
 
-Noticed 2026-09 between two validation runs. The `Domains` folder has been restructured from fourteen flat files into a numbered subfolder tree with a `_domain_metadata.md` per folder, and the outcome frontmatter field `domain:` has been renamed to `topic:` with values repointed into the new tree. The sweep included our draft files, so nothing of ours needs migrating.
+Noticed 2026-09-08 between two validation runs. The `Domains` folder has been restructured from fourteen flat files into a numbered subfolder tree with a `_domain_metadata.md` per folder, and the outcome frontmatter field `domain:` has been renamed to `topic:` with values repointed into the new tree. The sweep included our draft files, so nothing of ours needs migrating.
 
 Two consequences.
 
@@ -207,7 +207,7 @@ Do not strip the Obsidian comment block in M3's welcome: it holds drafted framin
 
 **1e. Course file.** Smaller than expected. Meeting boundaries currently sit as M1, meeting 1, M2 and M3, meeting 2. They need to become M1 and M2, meeting 1, M3, meeting 2. **Only the first `# Meeting:` block moves**, down past M2. Meeting 2's position is unchanged, as are meetings 3, 4 and 5, and the module order never changes. Retitle meeting 1 and meeting 2, which are currently "Introduction" and "Nonhuman Minds". The resources module is stage 5, not here.
 
-**1f. Card targets. Done.** Each Dive Deeper index lens cards QA lenses that the module separately imports with `optional` and `hide`. Those imports must sit in the same module as the lens that cards them. M6 already carries two such imports under Ch12 solely because they are card targets inside a Ch12 lens, so the pattern exists and can cross submodules. The check was run during stage 1 and went unrecorded at the time; confirmed complete 2026-09-11. Standing note for any future block move: `validate_content` may or may not catch this class of breakage, so verify every `::card` target in a moved lens directly against its new module's imports.
+**1f. Card targets. Done.** Each Dive Deeper index lens cards QA lenses that the module separately imports with `optional` and `hide`. Those imports must sit in the same module as the lens that cards them. M6 already carries two such imports under Ch12 solely because they are card targets inside a Ch12 lens, so the pattern exists and can cross submodules. The check was run on 2026-09-08 and went unrecorded at the time; the log entry was added 2026-09-11. Standing note for any future block move: `validate_content` may or may not catch this class of breakage, so verify every `::card` target in a moved lens directly against its new module's imports.
 
 ### Stage 2, new content
 
