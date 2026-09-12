@@ -26,20 +26,23 @@ application-survey:: [[../surveys/Application Form]]
 # Module: [[../modules/XLab Control {--{"author":"Elias's AI","timestamp":1789204921560}@@M1 - Introduction, overview, and threat modeling]]--}{++{"author":"Elias's AI","timestamp":1789204921560}@@P1 D1 Why control]]
 
 # Meeting: Unit 1: Why control++}
-{++{"author":"Elias's AI","timestamp":1789204921560}@@survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+{++{"author":"Elias's AI","timestamp":1789210650280}@@meeting-doc-template:: https://docs.google.com/document/d/1JGdMGGGoUVis-UZtYEbsf8RzzShJkASQYLWA7XWkuJs/edit
+++}{++{"author":"Elias's AI","timestamp":1789204921560}@@survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 ++}# Module: [[../modules/XLab Control {--{"author":"Elias's AI","timestamp":1789204921560}@@M2 - How useful is AI control?]]
 --}{++{"author":"Elias's AI","timestamp":1789204921560}@@P1 D2 The founding paper and passing the buck]]
 
-++}# {--{"author":"Elias's AI","timestamp":1789204921560}@@Module: [[../_deprecated/XLab Control M3 - A Taxonomy of Control]]--}{++{"author":"Elias's AI","timestamp":1789204921560}@@Meeting: Unit 2: The founding paper and passing the buck
+++}# {--{"author":"Elias's AI","timestamp":1789210652468}@@Module: [[../_deprecated/XLab Control M3 - A Taxonomy of Control]]--}{++{"author":"Elias's AI","timestamp":1789210652468}@@Meeting: Unit 2: The founding paper and passing the buck
+meeting-doc-template:: https://docs.google.com/document/d/1vC1PcOUiz5mhnm9t3ovFuhAbGNlVSY-t7d-D8-SFvKo/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]++}
 {++{"author":"Elias's AI","timestamp":1789204921560}@@facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 ++}# Module: [[../modules/XLab Control {--{"author":"Elias's AI","timestamp":1789204921560}@@M4 - High-stakes--}{++{"author":"Elias's AI","timestamp":1789204921560}@@P1 D3 Catching schemers, prioritising threats, and the case against++} control]]{++{"author":"Elias's AI","timestamp":1789204921560}@@
 
 # Meeting: Unit 3: Catching schemers, prioritising threats, and the case against control++}
-{++{"author":"Elias's AI","timestamp":1789204921560}@@survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+{++{"author":"Elias's AI","timestamp":1789210654985}@@meeting-doc-template:: https://docs.google.com/document/d/1oAt29epCYGOQ08B2zn0Z2aIvlz2L8aYbqVpJpoiv8Mc/edit
+++}{++{"author":"Elias's AI","timestamp":1789204921560}@@survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 ++}# Module: [[../modules/XLab Control {--{"author":"Elias's AI","timestamp":1789204921560}@@M5 - Low-stakes control: sabotage, sandbagging,--}{++{"author":"Elias's AI","timestamp":1789204921560}@@P1 D4 Plans, the control toolkit,++} and {--{"author":"Elias's AI","timestamp":1789204921560}@@elicitation]]--}{++{"author":"Elias's AI","timestamp":1789204921560}@@high-stakes framing]]
