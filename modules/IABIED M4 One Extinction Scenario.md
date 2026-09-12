@@ -22,6 +22,9 @@ source:: ![[../Learning Outcomes/Predictable sub-goals from unknown goals]]
 source:: ![[../Lenses/IABIED - Goals and Instrumental Convergence]]
 
 # Submodule: The Scenario
+add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/07 - Chapter 7 - Realization]]
+add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/08 - Chapter 8 - Expansion]]
+
 ## Lens: One Extinction Scenario (Video)
 source:: ![[../Lenses/IABIED - One Extinction Scenario (Video)]]
 
