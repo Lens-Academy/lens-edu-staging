@@ -72,10 +72,48 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 
 assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779555734}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
-#### Question
+#### {++{"author":"Andreas's AI","timestamp":1789234925592}@@Question: Open
+id:: 1b89db69-aa12-47b8-aa59-a6a2a34d80ad
+content::
+\## Phase 3: Connection
+This chapter's argument does not start from nothing. It leans on something you already worked through earlier in this course, and it never stops to say so.
+
+Without looking anything up, write down which earlier idea it is leaning on, and what work that idea is doing here. If more than one comes to mind, pick which one you think is load-bearing and why.
+
+assessment-instructions:: The student has read section 1 of Chapter 6 ("We'd Lose"), written a free recall, and reflected on it. They have now been asked to name the earlier idea this chapter rests on. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
+
+The answer this question is aimed at: **Chapter 1's definition of intelligence as prediction plus steering, and specifically that its power comes from being general.** The analogy licenses predicting an outcome without knowing the mechanism. That inference only holds if the stronger party's advantage is general rather than one trick. Chapter 1 supplied exactly that: a mind that predicts and steers finds some route to its target through whatever the world affords. Which route is unknowable to the weaker party, but that there is one follows from what the capability is. Without Chapter 1 the Aztec story is an anecdote about boats rather than an argument.
+
+How to grade what comes back:
+
+- **On target.** They name intelligence as prediction plus steering, or as a general capacity to steer outcomes, and say what it is doing here: it is why a capability gap licenses a prediction rather than a guess. Confirm briefly, then move on.
+- **Strong near miss: the machine advantages from Chapter 1.** Right chapter, wrong part, and wrong in an interesting way. Accept it, then push once: a list of specific advantages is the very sort of mechanism this chapter says you do not need. What in that chapter tells you the advantage is general rather than a list of tricks?
+- **Weaker near miss: "AI is grown, not crafted" (Chapter 2), or the unpredictability of its goals (Chapters 4 and 5).** These are about not knowing what the system wants or how it works inside. This chapter's unknown is how it wins, which is a different unknown. Accept that it is connected, then ask which earlier idea licenses predicting the outcome anyway.
+- **Off target.** They name something from this reading itself: the boat, the guns, Stockfish, the 1825 advisor. Say plainly that those are this chapter's own material and ask them to look further back.
+- **Blank.** Give one narrowing hint and no more: think about the definition of intelligence this course opened with, and what that definition says makes it powerful. If they are still stuck after that, name it in one sentence, say that noticing these connections is the skill being practised rather than a memory test, and move on without further teaching.
+
+Response length: 80 to 150 words. Short paragraphs only. No lists.
+
+Response style:
+- Calm and direct.
+- Nothing here is scored. Progression does not depend on the student getting this right, and your reply should not read as though it does.
+- Do not over-validate. Avoid generic praise (good connection, exactly right, well spotted).
+- Do not explain Chapter 1 back to them at length. One sentence is the ceiling.
+- Treat a wrong answer that shows real searching as better than a right answer that reads as a guess, and say which you think you are looking at.
+
+Conversation flow:
+- Keep an internal turn counter. Two tutor replies maximum, then close.
+- Close by telling them the next step will put the connection to work.
+
+What not to do:
+- Reveal the target answer in your first reply unless they have already reached it.
+- List the candidates for them.
+- Turn this into a review of Chapter 1.
+
+#### ++}Question
 id:: 0754d407-0131-48b2-bcd0-3647d2e25f75
 content::
-\## Phase 3: Learning Question
+\## Phase {--{"author":"Andreas's AI","timestamp":1789234925592}@@3:--}{++{"author":"Andreas's AI","timestamp":1789234925592}@@4:++} Learning Question
 A classmate says: "I get the capability-gap argument, but upsets happen all the time: the underdog beats the favorite, David beats Goliath. So 'the AI is far more capable' doesn't actually license 'the AI wins.' Until you can point to the specific move that beats us, 'we'd lose' is speculation, not a prediction." Is your classmate right? Where, if anywhere, does the reasoning break down?
 
 assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on section 1 of Chapter 6 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
