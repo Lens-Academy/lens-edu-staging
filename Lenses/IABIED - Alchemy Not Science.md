@@ -109,7 +109,7 @@ Without looking anything up, write down which earlier idea it is leaning on, and
 
 assessment-instructions:: The student has read the first half of Chapter 11, written a free recall, and reflected on it. They have now been asked to name the earlier idea this chapter's diagnosis rests on. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
 
-The answer this question is aimed at: **Chapter 2, that AI is grown rather than crafted.** The alchemy stage is recipe-level competence without principle-level understanding, and that is what you necessarily get when the artifact was grown instead of designed. The alchemists could make Aqua Regia without chemistry because they did not build the atoms either. Without Chapter 2 the alchemy diagnosis reads as a young field that effort and funding will eventually mature. With it, the diagnosis follows from how the thing is produced, which is why the chapter can say the missing ingredient is not effort or intelligence.
+The answer this question is aimed at: **Chapter 2, that AI is grown rather than crafted.** The alchemy stage is recipe-level competence without principle-level understanding, and that is what you necessarily get when the artifact was grown instead of designed. The alchemists could make Aqua Regia without chemistry because they did not build the atoms either. Without Chapter 2 the alchemy diagnosis reads as a young field that effort and funding will eventually mature. With it, the diagnosis follows from how the output is produced, which is why the chapter can say the missing ingredient is not effort or intelligence.
 
 How to grade what comes back:
 
