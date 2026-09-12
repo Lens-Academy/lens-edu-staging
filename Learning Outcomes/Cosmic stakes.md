@@ -3,6 +3,8 @@ id: 'bbd285c7-80b6-4c8b-acb5-baeb77bc9609'
 learning-outcome: "Explain why an indifferent superintelligence would not stop at Earth: the scale of what follows a takeover is a consequence of the same reasoning that predicts the takeover, not an additional assumption"
 authors:
   - Andreas+Claude
+reading-from: "beginning of chapter"
+reading-to: "end of chapter"
 tags:
   - learning-outcome
   - wip
