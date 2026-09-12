@@ -1,7 +1,7 @@
 ---
 id: 5f1a6d4e-7b0c-4274-d895-b0c6d2e47f58
 reading_minutes: 25
-tutor_minutes: {--{"author":"Andreas's AI","timestamp":1789228789527}@@15--}{++{"author":"Andreas's AI","timestamp":1789228789527}@@20++}
+tutor_minutes: 20
 summary_for_tutor: Main Lens for Chapter 4. Students articulate the ice cream argument, the escalation to sucralose and peacock tail, the Mink vignettes, and the blank-map principle, the alignment problem named and explained.
 title: You Don't Get What You Train For
 tldr: You trained it to be helpful. But helpful in training isn't the same as wanting to be helpful later. Chapter 4 explains why, and it gets worse.
@@ -101,7 +101,7 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### {++{"author":"Andreas's AI","timestamp":1789228774514}@@Question: Open
+#### Question: Open
 id:: a9f47df2-3762-45a2-9929-7fa7cc2cfd76
 content::
 \## Phase 3: Connection
@@ -139,10 +139,10 @@ What not to do:
 - List the candidates for them.
 - Turn this into a review of Chapters 2 and 3.
 
-#### ++}Question
+#### Question
 id:: d799881b-8b9f-42c8-9cbe-0b81a6c48510
 content::
-\## Phase {--{"author":"Andreas's AI","timestamp":1789228774514}@@3:--}{++{"author":"Andreas's AI","timestamp":1789228774514}@@4:++} Learning Question
+\## Phase 4: Learning Question
 A lab announces: "We ran our model through a million test conversations. It was honest and helpful in every single one. A million clean tests is strong evidence it's safe to deploy." Using Chapter 4, explain why the authors would not be reassured, and be specific about what those test results can and cannot tell you about what the model will do once deployed.
 
 assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on Chapter 4 ("You Don't Get What You Train For") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
@@ -187,12 +187,12 @@ Calibration summary (on close):
 Safety and integrity:
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
 - If the student reaches the correct answer early, probe edge cases and implications (push from ice cream to sucralose to the peacock tail, or to the blank-map principle) rather than ending prematurely.
-- If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.{++{"author":"Andreas's AI","timestamp":1789228783851}@@
+- If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
 On the connection phase that now precedes this one:
 - **What this phase assesses has not changed.** It is Chapter 4's outcome, and nothing else. The previous phase asked the student to name an earlier idea; that is not part of what you are assessing here and must not become a second thing they have to get right. Do not open by returning to it, do not require them to use it, and do not treat an answer that never mentions it as incomplete. A student who rebuts the million-tests claim entirely from Chapter 4's own material has answered this question well.
 - **Use the connection only as a rescue.** If the student stalls on why behavioral evidence cannot settle the question, you may point back to what they said in the previous phase as a way in, in one sentence. That is the only role it has here.
-- **Report, do not grade.** The test-readiness verdict is about Chapter 4 alone, exactly as specified above. After it, add one separate sentence noting whether the student reached for earlier material on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.++}
+- **Report, do not grade.** The test-readiness verdict is about Chapter 4 alone, exactly as specified above. After it, add one separate sentence noting whether the student reached for earlier material on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.
 
 #### Text
 content::
