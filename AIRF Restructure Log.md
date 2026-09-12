@@ -262,11 +262,11 @@ One added phase per lens, and only the U3 opener carries two threads in one segm
 
 The six existing chapter lenses all run the same `Reading Assignment`, `Phase 1: Recall`, `Phase 2: Processing`, `Phase 3: Learning Question` shape, so the insert sits in the same place in each: a new phase before the learning question, and the learning question renumbered. What the new phase asks is not identical everywhere. Two are variants, the Coda's and the superalignment one, each for reasons recorded in its log entry, and in both cases because the plain search-and-name form would have had nothing to search for. The two new U3 lenses do not run that shape at all, and neither needs a bolted-on phase: the opener's betting question already does the retrieval, and the chapter 9 lens does it through the prediction it takes before the reading.
 
-**Once the last beat is in, three things close the stage:**
+**Stage 3 is complete.** Nine beats, plus three closing passes finished 2026-09-12:
 
-- **The module-label sweep.** `M1` through `M7` appear inside lens briefs and go stale when chapters move between modules. Two were found by accident in the curses lens. The dependency scan looked for chapter-range claims and would not have caught these, so the sweep is a separate pass.
-- **The wording pass**, per section 7. Its behavioral half needs a tutor and is blocked, but the half that only needs reading, checking the nine briefs against each other for drift in shape and phrasing, can be done now.
-- **The `# Learning Outcome:` heading sweep**, if it turns out to be ours. See the log entry; the rule has held all session rather than disappearing.
+- **The module-label sweep.** `M1` through `M7` inside lens briefs and outcomes go stale when chapters move between modules. Three files fixed. The first pass searched only the Lenses folder and missed inline welcome lenses, which live inside module files; the re-run covered modules, outcomes and prompts and came back clean.
+- **The wording pass**, the half of section 7 that needs no tutor. Five kinds of drift across the seven connection briefs, the largest being three prohibitions that two briefs carried and five had lost.
+- **The `# Learning Outcome:` heading sweep**, which turned out to be ours after all.
 
 ### Stage 4, welcomes
 
