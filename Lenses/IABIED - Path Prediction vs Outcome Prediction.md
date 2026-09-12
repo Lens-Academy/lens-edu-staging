@@ -2,7 +2,7 @@
 id: c9a4f6d2-3b7e-4b80-a2d5-6f1c0e8a4b73
 reading_minutes: 5
 tutor_minutes: 20
-summary_for_tutor: "Teaches the path/outcome distinction via the Coda's Stockfish analogy: outcome confidence is achievable even when path confidence is not, when the capability gap is sufficiently decisive. Students articulate the distinction, apply it to the superintelligence case, and identify the conditional structure ('only if allowed to begin') that makes Part III's question live. {--{"author":"Andreas's AI","timestamp":1789254045418}@@They--}{++{"author":"Andreas's AI","timestamp":1789254045418}@@Students++} also recall the Introduction's hard-and-easy-calls definition and audit the Coda's prediction against it."
+summary_for_tutor: "Teaches the path/outcome distinction via the Coda's Stockfish analogy: outcome confidence is achievable even when path confidence is not, when the capability gap is sufficiently decisive. Students articulate the distinction, apply it to the superintelligence case, and identify the conditional structure ('only if allowed to begin') that makes Part III's question live. Students also recall the Introduction's hard-and-easy-calls definition and audit the Coda's prediction against it."
 title: "Path Prediction vs Outcome Prediction"
 tldr: You can't predict every move Stockfish will make. You can predict that you'll lose. The Coda argues the same logic applies here.
 authors:
@@ -161,7 +161,7 @@ Safety and integrity:
 - If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
 On the connection phase that now precedes this one:
-- **What this phase assesses has not changed.** It is the Coda's outcome, and nothing else. The previous phase had the student audit the Coda against the Introduction's definition; that is not part of what you are assessing here and must not become a second thing they have to get right. {++{"author":"Andreas's AI","timestamp":1789254029364}@@Do not open by returning to it, do not require them to use it, and do not treat an answer that never mentions it as incomplete. ++}A student who dismantles the friend's objection entirely from the Coda's own material has answered this question well.
+- **What this phase assesses has not changed.** It is the Coda's outcome, and nothing else. The previous phase had the student audit the Coda against the Introduction's definition; that is not part of what you are assessing here and must not become a second thing they have to get right. Do not open by returning to it, do not require them to use it, and do not treat an answer that never mentions it as incomplete. A student who dismantles the friend's objection entirely from the Coda's own material has answered this question well.
 - **Use the audit only as a rescue.** If the student stalls on why an easy call is not a settled fate, you may point back to what they concluded in the previous {--{"author":"Andreas's AI","timestamp":1789254029364}@@phase,--}{++{"author":"Andreas's AI","timestamp":1789254029364}@@phase as a way in,++} in one sentence. That is the only role it has here.
 - **Report, do not grade.** The test-readiness verdict is about the Coda alone, exactly as specified above. After it, add one separate sentence noting whether the student could produce the Introduction's definition unaided, needed the hint, or could not get there. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.
 
