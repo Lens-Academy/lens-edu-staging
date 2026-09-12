@@ -102,6 +102,9 @@ source:: ![[../Lenses/IABIED - QA - Sable's Expansion Phase]]
 # Submodule: Cosmic Stakes
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/09 - Chapter 9 - Ascension]]
 
+## Learning Outcome: IABIED - Cosmic Stakes
+source:: ![[../Learning Outcomes/Cosmic stakes]]
+
 ## Lens:
 source:: ![[../Lenses/IABIED - Cosmic Stakes]]
 
