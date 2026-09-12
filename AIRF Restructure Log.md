@@ -143,6 +143,14 @@ The conclusion is unchanged. Surveys carry no chapter or module references, so n
 
 None of that touches the restructure and none of it is ours to fix. One consequence is worth passing on, though: `Navigator Session 1 Debrief` is still attached to meeting 1 and still collects `risk_seriousness` and `agency_belief`, which the course file says were deliberately shared with the learner instrument so navigator and learner trajectories would be comparable in one export. The learner side no longer collects them.
 
+### Lens conditions we are deliberately not touching
+
+Two pre-existing things showed up while inserting the first recall segment. Both are real, neither is ours, and fixing either means editing live segments across six lenses for no benefit to this restructure. Recorded so the next person finds an answer rather than the question.
+
+**Legacy question syntax.** The six chapter lenses use the bare `#### Question` marker. [[AI Guide/Course Authoring]] calls that the legacy form and says it is being phased out in favour of `#### Question: Open` and its siblings. New segments we add use the current form, which leaves those files mixed. Converting the existing segments is a separate pass: they carry ids that learner responses are stored under, so it is a change to answered content rather than a formatting tidy.
+
+**`add_to_ai_context` in two places at once.** Chapter 4 reaches the tutor twice, once from a YAML `add_to_ai_context:` list in the lens frontmatter and once from the inline `add_to_ai_context::` field on M3's Ch4 submodule. The two syntaxes look different enough that the duplication is easy to miss. Whether the platform de-duplicates is unknown. Worth checking before anyone reasons carefully about what a tutor can see, and worth checking on the other chapter lenses too, since nothing suggests chapter 4 is special.
+
 ### Outcomes we are deliberately not touching
 
 Three convergence-adjacent outcomes came up and all three are out of scope. Recorded here in one line each so they do not get re-litigated, and deliberately **not** cross-linked, since backlinks from an AIRF planning doc into other courses' files serve nobody.
