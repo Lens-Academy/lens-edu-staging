@@ -99,6 +99,12 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Sable's Expansion Phase]]
 
+# Submodule: Cosmic Stakes
+add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/09 - Chapter 9 - Ascension]]
+
+## Lens:
+source:: ![[../Lenses/IABIED - Cosmic Stakes]]
+
 ## Lens: Dive Deeper: Chapter 9
 id:: b3132948-6f00-4d18-89f1-40d46c96e92c
 tldr:: Optional companion Q&As for the scenario's end: what the ending really claims, and why a superintelligence wouldn't simply choose to be moral.
