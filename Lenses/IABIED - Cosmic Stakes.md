@@ -29,11 +29,8 @@ Chapter 9 reaches the tutor through add_to_ai_context on the Cosmic Stakes submo
 M4, matching how the film lens carries chapters 7 and 8. Nothing is needed on this file.
 
 Still open:
-- reading_minutes, currently 0. Needs the chapter's actual length.
 - The framing text asks whether Sable was indifferent or hostile. That is the strongest
   accepted answer to the reaction question below it. Decide whether to cut the sentence.
-- IABIED - QA - The Ending is carded at the foot of this lens and is also carded by the
-  Dive Deeper: Chapter 9 index lens, which moves into this same submodule. One should go.
 
 Delete this block and the wip tag at promotion.
 %%
