@@ -22,13 +22,15 @@ application-survey:: [[../surveys/Application Form]]
 
 # Module: [[../modules/XLab Control P2 D1 Collusion, legibility, and low-stakes control]]
 
-# Meeting: Unit 6: Collusion, legibility, and low-stakes control
+# Meeting: Unit 1: Collusion, legibility, and low-stakes control
+meeting-doc-template:: https://docs.google.com/document/d/1BMrlkImYZ_LUVQth4_Li4hkc888IJ-EFrz87DkB2PeU/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../modules/XLab Control P2 D2 Sandbagging and capability elicitation]]
 
-# Meeting: Unit 7: Sandbagging and capability elicitation
+# Meeting: Unit 2: Sandbagging and capability elicitation
+meeting-doc-template:: https://docs.google.com/document/d/1d_CP3KnN4mwPut8DfOaJ8lVnV55IkD3O4i8eJDyrTNU/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
