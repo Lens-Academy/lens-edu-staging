@@ -19,4 +19,4 @@ The excerpt below is not one of those. A company finds evidence that its own sys
 #### Article
 source:: [[../articles/ai-2027]]
 from:: "## October 2027: Government Oversight"
-to:: "The slowdown ending is not a recommendation"
+to:: would love for you to write up your own scenario branching off of ours
