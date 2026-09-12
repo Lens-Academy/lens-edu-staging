@@ -111,9 +111,7 @@ On the second question, the answers worth accepting:
 - If a student builds their answer on the closing speculative passage about another civilization's aligned superintelligence, note that it is a coda rather than the chapter's argument, and ask them for the idea the main body completes. That alignment can be hit at all is a point this course made earlier; this scenario presumes it was not.
 - If they name something from Chapter 9 itself, say plainly that it is this chapter's own material and ask them to look further back. Give at most one narrowing hint before naming a candidate yourself.
 
-Do not preview the Coda. They read it next, and it is the piece that says how to weigh this specific story against the general argument.
-
-However this ends, do not end on doom. Send them on to the Coda.
+However this ends, do not end on doom, and do not preview the Coda. The last segment of this lens returns them to the prediction they made before the reading, so send them there.
 
 #### Question: Open
 id:: '0e5d423d-549e-4bfc-906a-9086029c1e6f'
