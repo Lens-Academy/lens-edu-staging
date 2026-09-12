@@ -200,10 +200,10 @@ source:: ![[../Lenses/IABIED - QA - Same Work Different Ways]]
 # Submodule: Ch2 - Grown, not crafted
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/02 - Chapter 2 - Grown, Not Crafted]]
 
-# Learning Outcome: IABIED - AI Is Grown, Not Crafted
+# Learning Outcome:
 source:: ![[../Learning Outcomes/AI is grown, not crafted]]
 
-# Learning Outcome: IABIED - Behavior Is Not Values
+# Learning Outcome:
 source:: ![[../Learning Outcomes/Behavior vs. values]]
 
 # Lens:
