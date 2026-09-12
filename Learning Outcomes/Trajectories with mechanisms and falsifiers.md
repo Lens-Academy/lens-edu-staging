@@ -1,7 +1,7 @@
 ---
 id: '5b3c0b0d-1191-4e10-9893-89965f849e66'
 learning-outcome: Produce at least two distinct, technically-grounded trajectories for AI capability over the next decade, each with a named driving mechanism and a stated observation that would count against it.
-topic: none
+topic: {--{"author":"Luc's AI","timestamp":1789234850231}@@none--}{++{"author":"Luc's AI","timestamp":1789234850231}@@"[[../Domains and Topics/11 Strategy/Timelines and forecasting]]"++}
 stage: beginner
 authors:
   - Lauren+Claude
