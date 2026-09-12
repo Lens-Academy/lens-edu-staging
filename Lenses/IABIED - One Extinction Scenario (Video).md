@@ -15,7 +15,7 @@ summary_for_tutor: "Video lens covering the Sable scenario in U3, replacing
  The tutor is not given the mechanisms to test against; naming
  them is the student's job. Chapter 9 is read next, then the Coda."
 authors:
-  - Elias+Claude
+  - Elias+Claude+Andreas
 ---
 #### Text
 content::
