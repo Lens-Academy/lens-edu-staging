@@ -67,6 +67,8 @@ What does the AI do next? Not next week. Over the following centuries.
 
 Say what you expect, and say what your expectation is based on.
 
+A few sentences is plenty, and a guess is fine.
+
 assessment-instructions:: The student has just finished the film that covers the takeover, and is about to read the chapter that describes what follows it. They have been asked to predict the AI's behavior after humanity is gone, and to say what their prediction rests on.
 
 This is a priming question, not a teaching moment. The prediction is returned to in the final segment of this lens, so its value depends entirely on them having committed to something before reading.
