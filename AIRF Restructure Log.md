@@ -11,7 +11,7 @@ Git records what changed. This file records why, what it depended on, and what w
 
 **Status key:** `todo`, `drafted`, `in progress`, `done`, `blocked`, `parked`.
 
-**Dates:** full `YYYY-MM-DD`. Entries in section 8 reading only `2026-09` happened on **2026-09-08**; they predate this convention and are left rather than churned.
+**Dates:** full `YYYY-MM-DD`, on every entry. Where an entry was written up later than the work it describes, the row says so.
 
 **Picking this up cold?** Read this file, then [[AIRF Restructure - Working Preferences]], then [[AI Guide/Course Authoring]]. Section 5 has the stage inventory with statuses; that is where to start. Conventions established in the work so far, none of them obvious from the files themselves:
 
