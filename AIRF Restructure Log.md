@@ -126,17 +126,18 @@ Two consequences.
 
 ### Surveys and meetings
 
-Checked, and the news is mostly good. **Surveys attach to meetings, not modules**, via `survey::` and `facilitator-survey::` on each `# Meeting:` block in the course file. The meeting count stays at five and the meetings keep their order, so nothing renumbers.
+**Surveys attach to meetings, not modules**, via `survey::` and `facilitator-survey::` on each `# Meeting:` block in the course file. The meeting count stays at five and the meetings keep their order, so nothing renumbers.
 
-The AIRF learner surveys are also content-agnostic. `AIRF Session 1 Survey` is baseline rating scales, buddy handle, BlueDot history and open feedback, with no reference to any chapter, module or concept. Nothing in it breaks when the reading behind meeting 1 changes.
+**Rechecked 2026-09-11: the survey set has been replaced since this scan was first written.** The course now runs the v2 instruments. `Lens Post-Meeting Impact Survey v2` on meetings 1 and 2, then `AIRF Meeting 3 Impact Survey v2`, `AIRF Meeting 4 Impact Survey v2` and `AIRF Final Impact Survey v2`. The `AIRF Session 1 / 3 / 4 / 5` and `AIRF Weekly` files still exist but nothing in this course points at them any more. Intake has left the course entirely: `application-survey:: [[../surveys/Application Form]]` sits in the preamble, and the enrolment wizard refuses enrolment until it is submitted, which is why the intake form is no longer stage 6 work.
+
+The conclusion is unchanged. Surveys carry no chapter or module references, so nothing in them breaks when the reading behind a meeting changes.
 
 | Item | Finding |
 |---|---|
-| `AIRF Session 1 / 3 / 4 / 5`, `AIRF Weekly`, `Navigator Post-Meeting`, `Navigator Session 1 Debrief` | No chapter or module references found. Expected to need no changes |
-| **Meeting titles** | Meeting 1 is titled "Introduction" and meeting 2 "Nonhuman Minds". After the restructure meeting 1 covers chapters 1 to 3 and the Introduction sits in its own pre-meeting module, so both titles need renaming |
+| **Meeting titles** | Done in 1e. Meetings 1 and 5 renamed |
 | **`meeting-doc-template::` Google Docs** | Five external templates, one per meeting. These hold the actual per-meeting discussion content, and the content behind meetings 1, 2 and 3 all change. This is the largest external dependency and belongs in the comms pass |
 
-**Do not edit survey files casually.** The course file records that `AIRF Session 3` and `Session 4` are byte-for-byte copies of `AIRF Weekly Survey` with a block added, specifically so every question keeps its key, wording and order and the pre/post rating comparison against Session 1 stays valid. It also records a hard rule learned the hard way: no answerable segment may precede an outbound link, because answers live in React state until submit and survey links carry no `target=_blank`, so a learner who clicks a link mid-survey loses every answer and their attendance. If a survey ever does need touching, read those notes first.
+**Do not edit survey files casually.** The course file records a hard rule learned the hard way: no answerable segment may precede an outbound link, because answers live in React state until submit and survey links carry no `target=_blank`, so a learner who clicks a link mid-survey loses every answer and their attendance. The retired v1 files also record why they were byte-for-byte copies of one another, which was to keep every question key, wording and order stable so the pre/post rating comparison held. Whether the v2 set preserves those keys has not been checked here and should be before anyone edits one.
 
 ### Outcomes we are deliberately not touching
 
