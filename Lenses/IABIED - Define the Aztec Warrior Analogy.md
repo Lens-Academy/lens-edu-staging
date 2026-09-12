@@ -76,7 +76,7 @@ assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>
 id:: 1b89db69-aa12-47b8-aa59-a6a2a34d80ad
 content::
 \## Phase 3: Connection
-This chapter's argument does not start from nothing. It leans on something you already worked through earlier in this course, and it never stops to say so.
+This chapter's argument does not start from nothing. It leans on something you {--{"author":"Andreas's AI","timestamp":1789253470069}@@already --}worked through earlier in this course, and it never stops to say so.
 
 Without looking anything up, write down which earlier idea it is leaning on, and what work that idea is doing here. If more than one comes to mind, pick which one you think is load-bearing and why.
 
