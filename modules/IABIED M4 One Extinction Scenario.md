@@ -99,7 +99,13 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Sable's Expansion Phase]]
 
-## Lens: Dive Deeper: Chapter 9
+{++{"author":"Andreas's AI","timestamp":1789199730092}@@# Submodule: Cosmic Stakes
+add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/09 - Chapter 9 - Ascension]]
+
+## Lens:
+source:: ![[../Lenses/IABIED - Cosmic Stakes]]
+
+++}## Lens: Dive Deeper: Chapter 9
 id:: b3132948-6f00-4d18-89f1-40d46c96e92c
 tldr:: Optional companion Q&As for the scenario's end: what the ending really claims, and why a superintelligence wouldn't simply choose to be moral.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 9 (Ascension). Links the book website's supplementary Q&A cards covering the scenario's ending and the objection that a superintelligence would choose to be moral or install love into itself. A navigation and index lens only; it carries no standalone teaching content of its own.
@@ -123,12 +129,12 @@ source:: ![[../Lenses/IABIED - QA - The Ending]]
 ## Lens: IABIED - QA - Won't It Choose to Be Moral
 optional:: true
 hide:: true
-source:: ![[../Lenses/IABIED - QA - Won't It Choose to Be Moral]]
+source:: ![[../Lenses/IABIED - QA - Won't It Choose to Be Moral]]{--{"author":"Andreas's AI","timestamp":1789199730092}@@
 
 # Submodule: Cosmic Stakes
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/09 - Chapter 9 - Ascension]]
 
-{>>{"author":"Andreas's AI","timestamp":1789196572696}@@Placeholder submodule. It receives the Cosmic Stakes lens once that comes off wip, and the Dive Deeper: Chapter 9 block plus its two hidden imports, which currently sit in The Scenario above. Chapter 9 is deliberately scoped here rather than on The Scenario, so the film lens's tutor still sees only chapters 7 and 8 and its source-precedence rule keeps meaning something.<<}
+{>>{"author":"Andreas's AI","timestamp":1789196572696}@@Placeholder submodule. It receives the Cosmic Stakes lens once that comes off wip, and the Dive Deeper: Chapter 9 block plus its two hidden imports, which currently sit in The Scenario above. Chapter 9 is deliberately scoped here rather than on The Scenario, so the film lens's tutor still sees only chapters 7 and 8 and its source-precedence rule keeps meaning something.<<}--}
 
 # Submodule: Coda
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/10 - Coda]]
