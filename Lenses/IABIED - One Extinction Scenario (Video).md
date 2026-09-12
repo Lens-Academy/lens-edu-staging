@@ -43,7 +43,7 @@ Three things, a few sentences each (speech-to-text works well here):
 2. Look back at the four claims you made bets on before watching the video. Which of them did the film pay out on? Did it do anything you would not have bet on?
 3. Which step in the takeover did you find hardest to believe? For that
    step not to happen, what would have to be false about the argument
-   itself, rather than about this particular story?ve?
+   itself, rather than about this particular story?
 
 assessment-instructions:: The student has just watched "POV: What You Would See During an AI
 Takeover", a film retelling of the book's extinction scenario, which
