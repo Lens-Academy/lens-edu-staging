@@ -105,7 +105,7 @@ What not to do:
 id:: a9f47df2-3762-45a2-9929-7fa7cc2cfd76
 content::
 \## Phase 3: Connection
-This chapter's argument does not start from nothing. It leans on something you already worked through earlier in this course, and it never stops to say so.
+This chapter's argument does not start from nothing. It leans on something you {--{"author":"Andreas's AI","timestamp":1789253459547}@@already --}worked through earlier in this course, and it never stops to say so.
 
 Without looking anything up, write down which earlier idea it is leaning on, and what work that idea is doing here. If more than one comes to mind, pick which one you think is load-bearing and why.
 
