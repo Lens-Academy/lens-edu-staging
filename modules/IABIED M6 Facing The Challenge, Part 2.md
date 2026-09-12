@@ -339,10 +339,10 @@ source:: ![[../Lenses/IABIED - QA - Keep the Coalition Large]]
 # Submodule: Chapter 14: Where There's Life, There's Hope
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/15 - Chapter 14 - Where There's Life, There's Hope]]
 
-## Learning Outcome: IABIED - Un-Writing Our Fate
+## Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252136141}@@ IABIED - Un-Writing Our Fate--}
 source:: [[../Learning Outcomes/Un-writing our fate]]
 
-## Learning Outcome: IABIED - Role-Specific Action
+## Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252136141}@@ IABIED - Role-Specific Action--}
 source:: [[../Learning Outcomes/Role-specific action]]
 
 %%
