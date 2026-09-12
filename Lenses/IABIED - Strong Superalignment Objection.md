@@ -1,8 +1,8 @@
 ---
 id: 8f349745-2ea7-4f34-8146-6aff150a5e8d
 reading_minutes: 15
-tutor_minutes: 15
-summary_for_tutor: "Teaches the strong-superalignment objection from the second half of Chapter 11: using a smarter-than-human AI to solve alignment fails because the AI capable of doing so would itself be untrustworthy and dangerous, and a 'special-purpose alignment AI' rebuttal fails on no-training-examples + dangerous-skill-set + verification grounds. Students should end this Lens able to articulate the capability-paradox argument and explain why it doesn't reduce to ordinary engineering difficulty."
+tutor_minutes: {--{"author":"Andreas's AI","timestamp":1789247022377}@@15--}{++{"author":"Andreas's AI","timestamp":1789247022377}@@20++}
+summary_for_tutor: "Teaches the strong-superalignment objection from the second half of Chapter 11: using a smarter-than-human AI to solve alignment fails because the AI capable of doing so would itself be untrustworthy and dangerous, and a 'special-purpose alignment AI' rebuttal fails on no-training-examples + dangerous-skill-set + verification grounds. Students should end this Lens able to articulate the capability-paradox argument and explain why it doesn't reduce to ordinary engineering {--{"author":"Andreas's AI","timestamp":1789247022377}@@difficulty."--}{++{"author":"Andreas's AI","timestamp":1789247022377}@@difficulty. Students also extend a connection made in the previous Lens of this unit, which the prompt supplies rather than withholds."++}
 title: "Strong Superalignment Objection"
 tldr: "OpenAI's flagship plan was 'use AI to solve alignment.' The plan contains a paradox that Chapter 11 walks through carefully, and the workaround doesn't work either."
 authors:
