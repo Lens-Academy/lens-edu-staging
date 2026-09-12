@@ -28,10 +28,6 @@ as a worked example; this is the file that goes into the course.
 Chapter 9 reaches the tutor through add_to_ai_context on the Cosmic Stakes submodule in
 M4, matching how the film lens carries chapters 7 and 8. Nothing is needed on this file.
 
-Still open:
-- The framing text asks whether Sable was indifferent or hostile. That is the strongest
-  accepted answer to the reaction question below it. Decide whether to cut the sentence.
-
 Delete this block and the wip tag at promotion.
 %%
 
