@@ -13,6 +13,19 @@ Git records what changed. This file records why, what it depended on, and what w
 
 **Dates:** full `YYYY-MM-DD`. Entries in section 8 reading only `2026-09` happened on **2026-09-08**; they predate this convention and are left rather than churned.
 
+**Picking this up cold?** Read this file, then [[AI Guide/Course Authoring]]. Section 5 has the stage inventory with statuses; that is where to start. Conventions established in the work so far, none of them obvious from the files themselves:
+
+- **Spelling is American throughout.** `Behavior vs. values`, `Grown, not crafted`. Easy to drift out of.
+- **Outcomes carry no module or chapter labels**, not in the statement, the test or the rubric. Outcomes are shared across courses, so "M3" resolves differently depending on who imported it. This is also what the B1 eval check asks for.
+- **Lens comment blocks stay minimal**: only what a first-time reader cannot infer. Rationale belongs here. Comments describing a transient state go stale and mislead.
+- **Never write a literal double-percent comment marker into this file.** Obsidian pairs them and silently comments out everything between, which happened once and hid most of stage 1.
+- **Block moves go insert first, delete second**, with the insert accepted before the delete is filed, so content never exists in neither place. Expect one transient duplicate-UUID error in the gap if the block contains an id-bearing lens.
+- **Validate unscoped as well as course-scoped.** Files tagged `wip` are excluded from the course-scoped run, so errors in drafts stay invisible until promotion. Two malformed UUIDs hid this way.
+- **`add_to_ai_context::` cannot be repeated** on one submodule; the second silently overwrites the first. Use comma-separated links on one line.
+- **Test the premise early, the wording late.** Several beats share one failure mode, the tutor giving the answer away. Smoke-test that on one or two beats before writing more briefs on the same pattern; batch the rest into one pass at the end of stage 3.
+
+Two tooling issues to raise with whoever maintains the relay. Unscoped `grep` and `glob` return content and paths from folders the key cannot `read`, including `Lens Edu Private`, while scoped calls and `read` enforce correctly, so the hole is specifically the no-path case. And edits route to the review queue based on whether the text looks human-written, so the protection weakens as a file accumulates AI-authored content; check how each edit actually landed rather than assuming.
+
 **Working practice.** Edits to files we did not write go in as suggestions for review, never as overwrites. New files we author can be written directly. Each entry in section 8 should say which of the two it was, so nothing lands silently.
 
 **Prior art we are not using.** There is a `Lens/base/IABIED/IABIED Course Build Notes` directory containing a module build algorithm, per-module decision logs and a spec for a "Supplementary Resources Lens". The relay key cannot open it. Decision: ignore it. The live modules were presumably built from those notes and have moved on since, so the modules are the better reference, and [[AI Guide/Course Authoring]] is the authority for how to write. Noted only so nobody later thinks it was missed.
