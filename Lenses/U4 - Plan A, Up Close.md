@@ -18,7 +18,7 @@ The previous reading gave Plan A one paragraph. It described a strong internatio
 
 Aaron Scher and colleagues on MIRI's Technical Governance Team have drafted the actual agreement. You will read the section that says what it does. It covers which training runs are banned, which chips are tracked, where those chips are allowed to be, who verifies whom, and why its governing council starts with exactly two members.
 
-This treaty belongs to a family of proposals. Evals and if-then commitments say: keep going, but promise in advance to act when a measured capability passes a set level. Pause campaigns say: stop first, and negotiate the details after. This treaty is the strongest member of that family. Read one member closely and you learn how to read the rest.
+This treaty belongs to a family of proposals. Evals and if-then commitments say: keep going, but promise in advance to act when a measured capability passes a set level. Pause campaigns say: stop first, and negotiate the details after. Read one member closely and you learn how to read the rest.
 
 Before you start, decide where it breaks. Every agreement has to be signed, then verified, then enforced. Nearly everyone who dismisses this plan points at one of those three steps. Pick yours first. Then you can see how much of the text is aimed at that step.
 

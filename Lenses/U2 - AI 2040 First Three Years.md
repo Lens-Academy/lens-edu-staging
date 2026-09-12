@@ -14,4 +14,4 @@ source:: [[../articles/ai-2040-plan-a-first-three-years]]
 #### Text
 content::
 
-This was the opening from "AI 2040: Plan A". {>>{"author":"Luc","timestamp":1786808101068}@@I think we should put AI2040 as a hidden optional lens after this one and link to it from here in case they want to read the rest.<<}
+This was the opening from "AI 2040: Plan A". One thing to hold before reading: "Plan A" here is the AI Futures Project's own name for its scenario, not Ryan Greenblatt's Plan A from the last reading. The two are related in spirit but are different taxonomies, with different plans B, C and D. {>>{"author":"Luc","timestamp":1786808101068}@@I think we should put AI2040 as a hidden optional lens after this one and link to it from here in case they want to read the rest.<<}
