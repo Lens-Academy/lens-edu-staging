@@ -104,7 +104,7 @@ What not to do:
 id:: 98eb4829-22fe-4d2d-9c2b-8b7c057fa4ec
 content::
 \## Phase 3: Connection
-The first half of this chapter rested on something established early in the course: these systems are grown rather than designed, which is why nobody can explain why a technique works.
+The first half of this chapter rested on something established early in the course: these systems are grown rather than designed, which is why nobody can explain why a particutechnique works.
 
 This half makes a stronger claim. It says you cannot get out of the problem by building a smarter AI to solve it for you.
 
