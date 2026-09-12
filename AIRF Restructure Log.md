@@ -155,7 +155,9 @@ Three convergence-adjacent outcomes came up and all three are out of scope. Reco
 4. **Welcomes after structure.** A welcome that previews a unit cannot be written until the unit's contents are settled, and three of five units change.
 5. **Glossary last.** Stages 2 and 3 introduce new terms. A glossary written first would need reconciling against them.
 
-This maps onto the stages in section 5 in order: stage 0, then 1, 2, 3, 4, 5.
+6. **Meeting docs last of all.** Their scope is unknowable until everything above has settled.
+
+This maps onto the stages in section 5 in order: 0, 1, 2, 3, 4, 5, 6.
 
 ---
 
