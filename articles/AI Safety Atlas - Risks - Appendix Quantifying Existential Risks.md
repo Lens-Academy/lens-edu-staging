@@ -31,13 +31,13 @@ This appendix presents expert estimates for the subjective probability that AI w
 
 **P(doom) represents the subjective probability that artificial intelligence will cause existentially catastrophic outcomes for humanity.** The term has evolved into a serious metric used by researchers, policymakers, and industry leaders to express their assessment of AI existential risk. The exact scenarios encompassed by "doom" vary but generally include human extinction, permanent disempowerment of humanity, or civilizational collapse ([Field, 2025](https://arxiv.org/abs/2502.14870)).
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120673183}@@2.41](https://ai-safety-atlas.com/_astro/3e96c20d01464606b881d3e47e65b21d53e38b83299ff33846dfa346e4d370c0.t3nhbfpB_2wPAwW.webp)--}{++{"author":"Elias's AI","timestamp":1789120673183}@@2.41](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-41.webp)++}
+![Figure 2.41](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-41.webp)
 
 *Figure 2.41: Illustration describing Paul Christiano’s view of the future. Paul Christiano is an AI safety researcher, and current head of the US AI Safety Institute. He previously ran the Alignment Research Center and the language model alignment team at OpenAI ([Christiano, 2023](https://www.alignmentforum.org/posts/xWMqsvHapP3nwdSW8/my-views-on-doom))*
 
 **Quantifying existential risk faces fundamental challenges due to the unprecedented nature of the threat.** Unlike other risk assessments that can draw on historical data or empirical evidence, AI existential risk estimates rely heavily on theoretical arguments, expert judgment, and reasoning about future scenarios that have never occurred. There is no standardized methodology for calculating P(doom) - each estimate reflects the individual's subjective assessment of factors like AI development timelines, alignment difficulty, governance capabilities, and potential failure modes.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120693340}@@2.42](https://ai-safety-atlas.com/_astro/2b4312b53cb9a92a1cabeef829ba5e9b773f53da9215f947da19036fd63dcd0a.CnS1lwd9_26Uk2B.webp)--}{++{"author":"Elias's AI","timestamp":1789120693340}@@2.42](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-42.webp)++}
+![Figure 2.42](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-42.webp)
 
 *Figure 2.42: Bar Chart from a survey of desired AGI timelines. Participants were asked “Which best describes your position on when we should build AGI?” The participants had the following options: “We should never build AGI,” “Eventually, but not soon,” “Soon, but not as fast as possible,” “We should develop more powerful and more general systems as fast as possible.” Participants were split by their career ([Field, 2025](https://arxiv.org/abs/2502.14870)).*
 

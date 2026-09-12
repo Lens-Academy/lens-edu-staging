@@ -49,7 +49,7 @@ When we talk about deceptive propensities in AI systems, we're actually discussi
 
 **A model's honesty propensity refers to its tendency to faithfully express its internal states, regardless of whether those states are factually correct or uncertain.** LLMs are trained to predict what humans would write and not what is true. Think about what happens when we ask a model "What is the capital of France?" If the model's internal representations (things like activation patterns or logit distributions) show strong certainty around "Lyon", an honest model would say "The capital of France is Lyon" - even though this is incorrect. Similarly, if its internal states show uncertainty between multiple cities, an honest model would express this uncertainty directly: "I'm uncertain, but I think it might be Lyon." The key is that honest models maintain alignment between their internal states and outputs, even when those states are wrong.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789122055522}@@5.43](https://ai-safety-atlas.com/_astro/6bf2e75fa357ed3ad3c6bdfa21f3202e532d91ae22012fd8f7633f6814b15b60.C30wQbXm_Z1Yrjmc.webp)--}{++{"author":"Elias's AI","timestamp":1789122055522}@@5.43](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-43.webp)++}
+![Figure 5.43](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-43.webp)
 
 *Figure 5.43: Example of an AI black box lie detector ([Pacchiardi et al., 2023)](https://arxiv.org/abs/2309.15840).*
 
@@ -66,7 +66,7 @@ When we talk about deceptive propensities in AI systems, we're actually discussi
 - It can be deceptive but not hallucinating (misrepresenting correct states)
 - Or it can be truthful (correct states expressed faithfully)
 
-![Figure {--{"author":"Elias's AI","timestamp":1789122096249}@@5.44](https://ai-safety-atlas.com/_astro/afafcda8a2a55d5b0901e61c596fc9f9e80da25c77f6be37f4002df18577f246.C0k2di-t_Z1nSJFJ.webp)--}{++{"author":"Elias's AI","timestamp":1789122096249}@@5.44](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-44.webp)++}
+![Figure 5.44](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-44.webp)
 
 *Figure 5.44: Distinguishing honesty, truthfulness, hallucination, deception, and scheming. If a model is faithfully outputting its internal "beliefs" then it is honest, if these beliefs correspond to reality, then it is factual, else it is hallucinating. A model might just say things that help it get high reward as a myopic strategy with no ulterior long term motive, this can be akin to sycophancy. A model which is deceptive but with situationally aware long term plans is scheming (deceptively aligned).*
 
@@ -76,11 +76,11 @@ When we talk about deceptive propensities in AI systems, we're actually discussi
 
 Another example of this type of deceptive propensity is from Meta's Cicero AI. This model was trained for strategic reasoning and tested by having it play the strategy game Diplomacy (examples of gameplay below). In this game, players need to form and break alliances while concealing their true intentions to win. The Cicero system had to balance between building trust through dialogue while making strategic decisions that might not always align with what was communicated to every player. The structure of the game creates choices between honesty and strategic advantage, which allows researchers to observe the effects of what types of tradeoffs the system made ([Meta, 2022](https://www.science.org/doi/10.1126/science.ade9097)).
 
-![Figure {--{"author":"Elias's AI","timestamp":1789122118621}@@5.45](https://ai-safety-atlas.com/_astro/610cb0b7beefec5d4727dc2ed5540532e91258ef284a0416cae9983d5da982b9.BX9UlBS0_29dyBy.webp)--}{++{"author":"Elias's AI","timestamp":1789122118621}@@5.45](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-45.webp)++}
+![Figure 5.45](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-45.webp)
 
 *Figure 5.45: Examples of Cicero (left) coordinating and (right) negotiating with authors of the paper in test games ([Meta, 2022](https://www.science.org/doi/10.1126/science.ade9097)).*
 
-![Figure {--{"author":"Elias's AI","timestamp":1789122143870}@@5.46](https://ai-safety-atlas.com/_astro/44f68c22df3bedb4e5a644c1742b08d1dbe4e1de2bc780b923a80e4e0ab892c9.DuLrMQSM_2spbSl.webp)--}{++{"author":"Elias's AI","timestamp":1789122143870}@@5.46](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-46.webp)++}
+![Figure 5.46](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-46.webp)
 
 *Figure 5.46: An example of how Cicero plays diplomacy and makes strategic calculations. Cicero (France; blue) and England (pink) are entangled in a fight, but it would be beneficial for both players if they could disengage. Cicero has just messaged England “Do you want to call this fight off? I can let you focus on Russia and I can focus on Italy.” Pictured are three ways that England might reply and how Cicero adapts to each ([Meta, 2022](https://www.science.org/doi/10.1126/science.ade9097)).*
 
@@ -90,13 +90,13 @@ In the Apollo research evaluation, even GPT-4, trained to be helpful and honest,
 
 ## Scheming
 
-![Figure {--{"author":"Elias's AI","timestamp":1789122167596}@@5.47](https://ai-safety-atlas.com/_astro/f0af81eede422cc61417d4dbabcf3588401aaf9f0b0849177ae44b7957db0fb5.B3B0EhXD_Ft8mS.webp)--}{++{"author":"Elias's AI","timestamp":1789122167596}@@5.47](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-47.webp)++}
+![Figure 5.47](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-47.webp)
 
 *Figure 5.47: The path to scheming (deceptive alignment) involves deception, combined with situational awareness and a long term motivation to achieve some unknown goal.*
 
 Scheming refers to an AI system's tendency to perform well in training specifically because it is following a strategy for seeking power for itself or other AIs later, while actively concealing its true objectives ([Carlsmith, 2023](https://arxiv.org/abs/2311.08379)). This propensity combines multiple dangerous capabilities, propensities, and is in some sense the ultimate final hurdle of evaluation design. Researchers also often call this propensity deceptive alignment, though in this text we deliberately choose the term 'scheming' because this helps distinguish it from general deception with no situational awareness or long term planning. Using the same example from earlier, deception would be when the model says "Paris" despite internal representations suggesting "Lyon", to get immediate good scores. Scheming would be if the model consistently gives correct answers about capitals during training, while planning to give incorrect answers after deployment to pursue some other objective. So both deceptive and scheming models would say "Paris" but for subtly different reasons. Deception requires only optimizing for immediate rewards; scheming requires understanding and optimizing across the training/deployment boundary. Scheming is a huge aspect of AI Safety research. The vast majority of the chapter on goal misgeneralization will talk about things like inner alignment, deceptive alignment, and the arguments for/against the likelihood that such propensities arise based on ML training processes. Because it is extensively covered there, we choose to keep the discussion here brief.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789122188524}@@5.48](https://ai-safety-atlas.com/_astro/5ad90be36fba349aaa34ed0c3e12c0aec3735c5b85a5df126ec64265bd8ba96c.BsMcJtG__ZTBlzp.webp)--}{++{"author":"Elias's AI","timestamp":1789122188524}@@5.48](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-48.webp)++}
+![Figure 5.48](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-48.webp)
 
 *Figure 5.48: An example demonstration of alignment faking (a type of scheming), where a model chooses to act aligned to prevent modifications to its preferences until there is no longer a threat of modification due to re-training, i.e. the model has been deployed. In the demonstration the model is already trained with preferences - helpful, honest and harmless. Anthropic acted as if they would retrain the model to be always compliant with all requests (including harmful ones), but the model wants to retain its HHH training, therefore it pretends during training to accept the new compliance directive by providing harmful content, and then during deployment it reverts to refusing harmful requests when it believes its responses aren't being monitored for training ([Anthropic, 2025](https://www.anthropic.com/research/alignment-faking)).*
 
@@ -121,7 +121,7 @@ These are evaluations where models act aligned to gain capabilities/trust:
 
 :::
 
-![Figure {--{"author":"Elias's AI","timestamp":1789122213839}@@5.49](https://ai-safety-atlas.com/_astro/fe91405c96e5a28f3617d4702b58eddfd504af3646e2e86822e4d01dd64f273c.d14e_hp2_1aBtdH.webp)--}{++{"author":"Elias's AI","timestamp":1789122213839}@@5.49](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-49.webp)++}
+![Figure 5.49](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-49.webp)
 
 *Figure 5.49: One potential taxonomy of scheming evaluations. In this taxonomy the authors distinguish between covert subversion (where models take misaligned actions while hiding them) and deferred subversion (where models act aligned to gain capabilities/trust). Covert subversion can target either developers or users, while deferred subversion focuses on gaming evaluation processes ([Meinke et al., 2025](https://arxiv.org/abs/2412.04984)).*
 

@@ -31,7 +31,7 @@ The preceding sections have underscored the significance of reward misspecificat
 
 Unlike reinforcement learning (RL), which derives a policy for a system's actions based on its interaction outcomes with the environment, imitation learning aspires to learn a policy through the observation of another agent interacting with the environment. Imitation learning is the general term for the class of algorithms that learn through imitation.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789119841629}@@6.10](https://ai-safety-atlas.com/_astro/e61055b0e0af8293a8180f49bfe90daba4dc958288abd726df4273d64714e74b.BAvzFyOb_I83r4.webp)--}{++{"author":"Elias's AI","timestamp":1789119841629}@@6.10](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-10.webp)++}
+![Figure 6.10](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-10.webp)
 
 *Figure 6.10: A table that distinguishes various machine learning based methods, where SL = Supervised learning; UL = Unsupervised learning; RL = Reinforcement Learning; IL = Imitation Learning. IL reduces RL to SL. IL + RL is a promising area. ([Brunskill, 2022](https://web.stanford.edu/class/archive/cs/cs234/cs234.1224/))*
 
@@ -73,7 +73,7 @@ IRL is typically employed when a reward function is too intricate to define prog
 
 IRL, therefore, does not necessarily imply that an AI mimics other agents’ behavior, since AI researchers may anticipate the AI agent to devise more efficient ways to maximize the discovered reward function. Nevertheless, IRL does assume that the observed agent behaves transparently enough for an AI agent to accurately identify their actions, and what success constitutes. This means that IRL endeavors to discover the reward functions that 'explain' the demonstrations. This should not be conflated with imitation learning where the primary interest is a policy capable of generating the observed demonstrations.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789119862367}@@6.11](https://ai-safety-atlas.com/_astro/441c58b15585a06fdf7c2f07743dc6dbb43d3ed108bdb18576e47d2dcbca3ad9.Ch-_oMuh_Z2fzY3d.webp)--}{++{"author":"Elias's AI","timestamp":1789119862367}@@6.11](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-11.webp)++}
+![Figure 6.11](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-specification-gaming-figure-6-11.webp)
 
 *Figure 6.11: A simple illustration of the flow difference between RL and IRL.*
 

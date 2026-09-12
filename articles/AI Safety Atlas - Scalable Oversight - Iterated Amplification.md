@@ -34,7 +34,7 @@ In previous sections, we discussed methods for decomposing tasks and potentially
 
 ## Amplification
 
-![Figure {--{"author":"Elias's AI","timestamp":1789119951645}@@8.11](https://ai-safety-atlas.com/_astro/a3e7527b0583b4423dcf02fcc73d4cba62720762bf7dad7395ed170d520c3337.CEW5o12R_1bd5Ko.webp)--}{++{"author":"Elias's AI","timestamp":1789119951645}@@8.11](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-11.webp)++}
+![Figure 8.11](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-11.webp)
 
 *Figure 8.11: An example of aggregation and AI assistants amplifying overall abilities of an overseer. ([Christiano, 2020](https://forum.effectivealtruism.org/posts/63stBTw3WAW6k45dY/paul-christiano-current-work-in-ai-alignment))*
 
@@ -44,7 +44,7 @@ In previous sections, we discussed methods for decomposing tasks and potentially
 - **Assistants**: In addition to amplifying abilities by getting more overseers involved, we can also simply improve individual performance by using assistants. As an example, if we want to use an LLM to assist in conducting medical research, we could use it to read through large amounts of medical literature and highlight potential treatments based on patterns and insights it identifies. The AI assistant provides a list of potential treatments, which a team of medical researchers can then review in detail and further investigate.
 - **Task Decomposition**: While not necessary for amplification, task decomposition and delegation is often one of the most common ways of implementing amplification. Having tasks that can be factored and solved individually makes solving problems much more scalable. In the same example as above of using an LLM as a medical research tool, if we have task decomposability then we can amplify the abilities of researchers further. The LLM could first identify relevant studies and data, then another AI model could extract and summarize key findings, and finally, a team of experts could review these summaries to make informed decisions about potential treatments.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120001868}@@8.12](https://ai-safety-atlas.com/_astro/702cbfc0d6f96ca9eec743608602464a0d2d2b7b970aeb1eb6756742bd5161f3.73BWwyPY_Z2kaqME.webp)--}{++{"author":"Elias's AI","timestamp":1789120001868}@@8.12](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-12.webp)++}
+![Figure 8.12](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-12.webp)
 
 *Figure 8.12: The AI Research and Development workflow. ([Wiseman & McClements, 2025](https://inferencemagazine.substack.com/p/how-much-economic-growth-from-ai)) How many of these tasks do you think can be amplified or even automated by having AI assistants?*
 
@@ -98,7 +98,7 @@ Having explored the mechanisms of amplification and distillation individually, w
 
 The advantage of IDA lies in its iterative nature, allowing the gradual construction of a robust training signal through task decomposition and recomposition, rather than depending on a perfectly specified signal from the outset.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120084823}@@8.13](https://ai-safety-atlas.com/_astro/555f1a94a94a4e00a00ed513163b9434b171c9817be207491b7f84d70a152c94.fEzyJoCw_Xu0em.webp)--}{++{"author":"Elias's AI","timestamp":1789120084823}@@8.13](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-13.webp)++}
+![Figure 8.13](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-13.webp)
 
 *Figure 8.13: Iterated Distillation and Amplification (IDA) ([Christiano, 2020](https://forum.effectivealtruism.org/posts/63stBTw3WAW6k45dY/paul-christiano-current-work-in-ai-alignment))*
 

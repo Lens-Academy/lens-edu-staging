@@ -39,6 +39,6 @@ This chapter shows that there are many possible risks from AI systems. Today's d
 
 While the risks are immense we hope the message of existential hope motivates you to work on mitigating some of these risks. Good futures are possible, but they don't happen by default. They need active work and planned strategies. We think it is necessary to develop a global, multidisciplinary approach to AI safety that encompasses technical safeguards, robust ethical frameworks, and international cooperation. The development of AI technologies requires the involvement of policymakers, ethicists, social scientists, and the broader public to navigate the moral and societal implications of AI.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120651941}@@2.40](https://ai-safety-atlas.com/_astro/c66d4d4b75163929dfdc0366e40ef9b60393cbd232739497424d14e6ffe20096.lPu5AsAZ_Zzxfix.webp)--}{++{"author":"Elias's AI","timestamp":1789120651941}@@2.40](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-40.webp)++}
+![Figure 2.40](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-risks-figure-2-40.webp)
 
 *Figure 2.40: Let's make sure this does not happen. Image by XKCD ([XKCD](https://xkcd.com/))*

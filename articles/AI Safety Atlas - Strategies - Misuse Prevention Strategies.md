@@ -38,7 +38,7 @@ Strategies to prevent misuse often focus on controlling access to dangerous capa
 
 **Among these various access options, API-based deployment represents one of the most commonly used strategic middle grounds.** When we discuss access controls in this section, we're primarily talking about mechanisms that create a controlled gateway to AI capabilities—most commonly through API-based deployment, where most of the model (code, weights, and data) remain fully closed, but access to model capabilities is partially open. In this arrangement, developers retain control over how their models are accessed and used. API-based controls maintain developer oversight, allowing continuous monitoring, updating of safety measures, and the ability to revoke access when necessary ([Seger et al., 2023](https://arxiv.org/abs/2311.09227)).
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120548132}@@3.2](https://ai-safety-atlas.com/_astro/ad4a7859a681db8c954baac91b483ad362333e691219108c9c06fd2a80bcc8c1.lhupoaMn_1afYft.webp)--}{++{"author":"Elias's AI","timestamp":1789120548132}@@3.2](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-2.webp)++}
+![Figure 3.2](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-2.webp)
 
 *Figure 3.2: This is a simplified diagram to illustrate conceptually how an API would work. This is not how OpenAI's API works. It is for illustration purposes only.*
 
@@ -50,13 +50,13 @@ Strategies to prevent misuse often focus on controlling access to dangerous capa
 - **Usage Restrictions:** Enforcing terms of service that prohibit harmful applications. Companies can restrict high-risk applications like bioweapon research or autonomous cyber operations through legal agreements backed by technical monitoring ([Anderljung et al., 2023](https://arxiv.org/abs/2307.03718)). When violations are detected, access can be revoked.
 - **On-the-fly Updates:** Rapidly deploying improvements to safety systems without user action. Unlike open-sourced models where unsafe versions persist indefinitely, API-based models can be continually improved to address newly discovered vulnerabilities ([Weidinger et al., 2023](https://arxiv.org/abs/2310.11986)). This helps counter novel attack vectors like jailbreaking techniques.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120565685}@@3.3](https://ai-safety-atlas.com/_astro/fc47c45fd518190018e4b449a9002a82b67e38198e1718f87d054a4061021705.DCGU1d5z_1DyXFi.webp)--}{++{"author":"Elias's AI","timestamp":1789120565685}@@3.3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-3.webp)++}
+![Figure 3.3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-3.webp)
 
 *Figure 3.3: The gradient of access to AI models to the external public. Model release exists on a spectrum, from fully closed systems accessible only internally, to staged releases, API access, downloadable weights with restrictions, and fully open-source releases. API-based deployment represents an intermediate point on this gradient ([Seger et al., 2023](https://arxiv.org/abs/2311.09227)).*
 
 :::callout {title="Different components of a model can exist at different points on the access spectrum — Optional · 1 min read" tone="neutral" collapse="closed"}
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120588326}@@3.4](https://ai-safety-atlas.com/_astro/0e34b2a948820eedc07d85dfaa327dbff67ad4ad8c408399338abce648dbefbe.DvtUn5-r_Z2chzgH.webp)--}{++{"author":"Elias's AI","timestamp":1789120588326}@@3.4](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-4.webp)++}
+![Figure 3.4](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-4.webp)
 
 *Figure 3.4: A different proposed gradient of access focusing on both model code and training data ([Eiras et al., 2024](https://arxiv.org/abs/2404.17047)). We can see combinations of levels of access, e.g. DeepSeek-V3 might roughly be considered C5-D1 ([DeepSeek, 2025](https://github.com/deepseek-ai/DeepSeek-V3)).*
 
@@ -78,7 +78,7 @@ We can allow access to capabilities, code, weights, training data, and governanc
 
 **Red Teaming can help assess if the mitigations are sufficient.** During red teaming, internal teams try to exploit weaknesses in the system to improve its security. They should test whether a hypothetical malicious user can get a sufficient amount of bits of advice from the model without getting caught. We go into much more detail on concepts like red teaming and model evaluations in the subsequent dedicated chapter to the topic.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120610162}@@3.5](https://ai-safety-atlas.com/_astro/857ee65fec92e3004ddd14a4036fcc9e1730e744cda8e870092293c68b67a8c5.fqH334C0_ZI7Sr7.webp)--}{++{"author":"Elias's AI","timestamp":1789120610162}@@3.5](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-5.webp)++}
+![Figure 3.5](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-5.webp)
 
 *Figure 3.5: When should dual-use technology be proliferated without restrictions? Defense-dominant dual-use technology should be widely proliferated, while catastrophic offense-dominant dual-use technology should not ([Hendrycks et al., 2025](https://www.nationalsecurity.ai/chapter/ai-is-pivotal-for-national-security)).*
 
@@ -119,7 +119,7 @@ Alternative release strategies offer potential middle grounds. Various proposals
 
 **If you can't monitor where training happens, you can't control who builds dangerous systems.** Hyperscaler-distributed training is both technically feasible, and amenable to governance, while internet-decentralized training likely won't reach frontier scale soon  ([Sevilla, 2025](https://epoch.ai/gradient-updates/how-far-can-decentralized-training-over-the-internet-scale); [EpochAI, 2025](https://epoch.ai/blog/could-decentralized-training-solve-ais-power-problem)). However, if the assumption—that training over the internet across thousands of computers isn't feasible—breaks, then regulation might be left scrambling to catch up. Many proposed technical and governance strategies assume frontier AI training will occur in identifiable, massive datacenters that governments can monitor or restrict. Compute-based governance strategies—like know-your-customer (KYC) requirements for compute providers, monitoring of large datacenters, and export controls on AI chips—all depend on training happening in controllable centralized, identifiable locations. If training can happen across thousands of global geographically dispersed consumer computers or multiple smaller facilities, enforcement becomes dramatically harder.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120616313}@@3.6](https://ai-safety-atlas.com/_astro/17fb3b012a243535a15317d2b7eaa2253ad9df6b04d9eb672a162fff60101b93.B7KIKR0W_1fB2la.webp)--}{++{"author":"Elias's AI","timestamp":1789120616313}@@3.6](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-6.webp)++}
+![Figure 3.6](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-6.webp)
 
 *Figure 3.6: Bitcoin is often called the world's largest decentralized computer. Its $30 billion infrastructure provides one benchmark for what decentralized computing can achieve at scale. The folding@home network demonstrated that volunteer computing can reach 2.43e18 FLOP/s—sufficient for training runs of approximately 2e25 FLOP, matching previous-generation frontier models like Llama 3, GPT-4, or Claude 3 Opus. These comparisons suggest decentralized networks could grow 30-3,000x from current levels over the next 3-6 years. However, they remain unlikely to amass frontier amounts of compute this decade compared to centralized training runs approaching 3e27 FLOP ([Sevilla, 2025](https://epochai.substack.com/p/how-far-can-decentralized-training)).*
 
@@ -131,7 +131,7 @@ Alternative release strategies offer potential middle grounds. Various proposals
 
 **Internal access controls protect model weights and algorithmic secrets.** While external access controls regulate how users interact with AI systems through APIs and other interfaces, internal access controls focus on securing the model weights themselves. If model weights are exfiltrated, all external access controls become irrelevant, as the model can be deployed without any restrictions. Several risk models often assume catastrophic risk due to weight exfiltration and espionage ([Aschenbrenner, 2024](https://situational-awareness.ai/); [Nevo et al., 2024](https://www.rand.org/pubs/research_reports/RRA2849-1.html); [Kokotajlo et al., 2025](https://ai-2027.com/)). Research labs developing cutting-edge models should implement rigorous cybersecurity measures to protect AI systems against theft. This seems simple, but it's not, and protecting models from nation-state-level actors could require extraordinary effort ([Ladish & Heim, 2022](https://www.lesswrong.com/posts/2oAxpRuadyjN2ERhe/information-security-considerations-for-ai-and-the-long-term)). In this section, we try to explore strategies to protect model weights and protect algorithmic insights from unauthorized access, theft, or misuse by insiders or external attackers.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120622986}@@3.7](https://ai-safety-atlas.com/_astro/694474db34eb694029b59c8acd2f0732382b05b53245f76a981cf738bf7b2279.4PU9QbCh_Z2bSgfT.webp)--}{++{"author":"Elias's AI","timestamp":1789120622986}@@3.7](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-7.webp)++}
+![Figure 3.7](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-7.webp)
 
 *Figure 3.7: Overview of the active components in the development of an ML system. Each introduces more complexity, expands the threat model, and introduces more potential vulnerabilities ([Ladish & Heim, 2022](https://www.lesswrong.com/posts/2oAxpRuadyjN2ERhe/information-security-considerations-for-ai-and-the-long-term)).*
 
@@ -155,15 +155,15 @@ Excerpt from AI 2027 - Security forecast ([Dean, 2025](https://ai-2027.com/resea
 
 Here is a series of surveys conducted as part of the AI 2027 report to get a sense of where companies and research stand relative to these security levels. All surveys are from the Workshop Poll. 2024. "Poll of Participants." Unpublished data from the AI Security Scenario Planning interactive session, FAR.Labs AI Security Workshop, Berkeley, CA, November 16, 2024. N=30, response rate 90% ([Dean, 2025](https://ai-2027.com/research/security-forecast)).
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120646458}@@3.8](https://ai-safety-atlas.com/_astro/9bf851c883a5f7d479ad6d3a21ee5b7213607fa2f4f8fd9db0fc8e8fdbbaf921.BEcaBfyy_17tX7n.webp)--}{++{"author":"Elias's AI","timestamp":1789120646458}@@3.8](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-8.webp)++}
+![Figure 3.8](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-8.webp)
 
 *Figure 3.8: This question on whether a state actor would steal a frontier US AI model before 2030 showed strong consensus – a sign that current security levels are far from protecting against a state-actor threat ([Dean, 2025](https://ai-2027.com/research/security-forecast)).*
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120664053}@@3.9](https://ai-safety-atlas.com/_astro/563f441375e850ebc3552571bb4bd2d9845b956520bc811a5f134dafa91f9523.nRblu4AR_1sitj5.webp)--}{++{"author":"Elias's AI","timestamp":1789120664053}@@3.9](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-9.webp)++}
+![Figure 3.9](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-9.webp)
 
 *Figure 3.9: This question on AI companies implementing SL5 shows consensus that government assistance will likely be required ([Dean, 2025](https://ai-2027.com/research/security-forecast)).*
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120685645}@@3.10](https://ai-safety-atlas.com/_astro/f185bc3c029a9c16a2f8bac898604f85da1b871b2ef87e296a8f663e7032fa77.DV67rroX_AWNI5.webp)--}{++{"author":"Elias's AI","timestamp":1789120685645}@@3.10](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-10.webp)++}
+![Figure 3.10](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-10.webp)
 
 *Figure 3.10: This question on the difficulty of implementing SL5 shows some consensus that top priority levels of government assistance and more than 6 months will likely be required  ([Dean, 2025](https://ai-2027.com/research/security-forecast)).*
 
@@ -201,13 +201,13 @@ Beyond access control and instruction tuning techniques like reinforcement learn
 
 **Circuit Breakers.** Inspired by representation engineering, circuit breakers aim to detect and interrupt the internal activation patterns associated with harmful outputs as they form ([Andy Zou et al., 2024](https://arxiv.org/abs/2406.04313)). By "rerouting" these harmful representations (e.g., using Representation Rerouting with LoRRA), this technique can prevent the generation of toxic content, demonstrating robustness against unseen adversarial attacks while preserving model utility when the request is not harmful. This approach targets the model's intrinsic capacity for harm, making it potentially more robust than input/output filtering.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120707779}@@3.11](https://ai-safety-atlas.com/_astro/fba2d624d7ff1a94a0f5d88a4c75c459f496554b41a5e4ed8c9db579c43ea94b.BrFdeDrG_ZroNMJ.webp)--}{++{"author":"Elias's AI","timestamp":1789120707779}@@3.11](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-11.webp)++}
+![Figure 3.11](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-11.webp)
 
 *Figure 3.11: Introduction of circuit-breaking as a novel approach for constructing highly reliable safeguards. Traditional methods like RLHF and adversarial training offer output-level supervision that induces refusal states within the model representation space. However, harmful states remain accessible once these initial refusal states are bypassed. In contrast, inspired by representation engineering, circuit breaking operates directly on internal representations, linking harmful states to circuit breakers. This impedes traversal through a sequence of harmful states ([Zou et al., 2024](https://arxiv.org/abs/2406.04313)).*
 
 **Machine “Unlearning” involves techniques to selectively remove specific knowledge or capabilities from a trained model without full retraining.** Applications relevant to misuse prevention include removing knowledge about dangerous substances or weapons, erasing harmful biases, or removing jailbreak vulnerabilities. Some researchers think that the ability to selectively and robustly remove capabilities could end up being really valuable in a wide range of scenarios, as well as being tractable ([Casper, 2023](https://www.alignmentforum.org/posts/mFAvspg4sXkrfZ7FA/deep-forgetting-and-unlearning-for-safely-scoped-llms)). Techniques range from gradient-based methods to parameter modification and model editing. However, challenges remain in ensuring complete and robust forgetting, avoiding catastrophic forgetting of useful knowledge, and scaling these methods efficiently.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120733437}@@3.12](https://ai-safety-atlas.com/_astro/8346f053fa037fef909a58f718f08dd04e14e321841792aa68614acb0ae42175.2h8sTK2j_Z2lAsRw.webp)--}{++{"author":"Elias's AI","timestamp":1789120733437}@@3.12](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-12.webp)++}
+![Figure 3.12](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-12.webp)
 
 *Figure 3.12: Example illustration of a specific type of machine unlearning algorithm (approximate unlearning) ([Liu, 2024](https://ai.stanford.edu/~kzliu/blog/unlearning)).*
 
