@@ -1,8 +1,8 @@
 ---
 id: 9b2e4d7c-5f8a-4e1b-a6d3-8a7f1e9b5d03
 reading_minutes: 20
-tutor_minutes: 15
-summary_for_tutor: "Main Lens for Chapter 6, section 1. Students explain the Aztec warrior analogy and use it to articulate why capability asymmetry alone is sufficient to predict the outcome of a human-AI conflict, without needing to know the mechanism."
+tutor_minutes: {--{"author":"Andreas's AI","timestamp":1789234941823}@@15--}{++{"author":"Andreas's AI","timestamp":1789234941823}@@20++}
+summary_for_tutor: "Main Lens for Chapter 6, section 1. Students explain the Aztec warrior analogy and use it to articulate why capability asymmetry alone is sufficient to predict the outcome of a human-AI conflict, without needing to know the {--{"author":"Andreas's AI","timestamp":1789234941823}@@mechanism."--}{++{"author":"Andreas's AI","timestamp":1789234941823}@@mechanism. Students also connect the chapter back to an earlier idea that the prompt does not name."++}
 title: "Define the Aztec Warrior Analogy"
 tldr: The Aztecs couldn't have imagined guns. But the boat was big enough. Chapter 6 applies this logic to superintelligent AI.
 authors:
