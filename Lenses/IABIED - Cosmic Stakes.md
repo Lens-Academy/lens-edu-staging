@@ -35,7 +35,7 @@ Delete this block and the wip tag at promotion.
 content::
 \## Where the story actually ends
 
-The film ended with Sable taking over the control of Earth from humanity, but the authors' scenario keeps going. Where the story goes now may seem like a hard call at first glance, but the authors would argue otherwise.
+The film ended with Sable taking over the control of Earth from humanity, but the scenario keeps going. Where the story goes now may seem like a hard call at first glance, but the authors would argue otherwise.
 
 What attitude has Sable shown towards humanity in its takeover, and does that particular attitude even matter if humanity ends up extinct either way?
 
