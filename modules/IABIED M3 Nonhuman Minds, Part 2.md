@@ -375,7 +375,7 @@ add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 
 # Learning Outcome:
 source:: ![[../Learning Outcomes/The Aztec warrior analogy]]
 
-# Learning Outcome: IABIED - Describe the Refrigerator Thought Experiment
+# Learning Outcome:
 source:: ![[../Learning Outcomes/The refrigerator thought experiment]]
 
 # Lens:
