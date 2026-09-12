@@ -97,10 +97,48 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Question
+#### {++{"author":"Andreas's AI","timestamp":1789239724150}@@Question: Open
+id:: c2ba0c2e-fd8a-4373-a44e-bf26ab56fa71
+content::
+\## Phase 3: Connection
+This chapter borrows its curses from reactors, probes and computer security. But the reason they transfer to AI at all comes from earlier in this course, not from this chapter.
+
+Without looking anything up, write down which earlier idea does that work, and how. If more than one comes to mind, say which you think is load-bearing and why.
+
+assessment-instructions:: The student has read the first half of Chapter 10, written a free recall, and reflected on it. They have now been asked which earlier idea licenses transferring the curses from the case studies to AI. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
+
+The answer this question is aimed at: **Chapter 1's machine advantages, and the intelligence explosion that follows from them.** In the case studies the curses are properties of the domain. Neutron physics happens to be fast; a reactor's margins happen to be narrow. Transfer them to AI and two of the five stop being facts about the domain and become facts about the thing being built. Speed, because a machine substrate runs faster than a biological one, so the gap between the process's timescale and human reaction time is designed in rather than incidental. Self-amplification, because AI-assisted AI research is the RBMK feedback loop with the reactor swapped for the engineer.
+
+How to grade what comes back:
+
+- **On target: machine advantages, or the speed of a machine substrate.** They should say what it does here: it is why speed is not borrowed from Chernobyl but built in. Confirm briefly, then move on.
+- **Also on target, and arguably sharper: the intelligence explosion.** A student who maps AI-assisted AI research onto self-amplification has found the harder half. Credit it fully and do not steer them back to speed.
+- **Legitimate but easier: "grown, not crafted" (Chapter 2).** The chapter leans on this one openly, which is what makes it the easy find. Accept it, then push once: that explains why we cannot inspect the system. What earlier idea explains why the reactor's curses are the AI's own properties rather than borrowed analogies?
+- **Off target.** They name a curse or a case study from this reading: Chernobyl, the buffer overflow, the Mars probes. Say plainly that those are this chapter's own material and ask them to look further back.
+- **Blank.** Give one narrowing hint and no more: think about what this course established early on about how a machine mind differs from a biological one, before any of this chapter's examples. If they are still stuck after that, name it in one sentence, say that noticing these connections is the skill being practiced rather than a memory test, and move on without further teaching.
+
+Response length: 80 to 150 words. Short paragraphs only. No lists.
+
+Response style:
+- Calm and direct.
+- Nothing here is scored. Progression does not depend on the student getting this right, and your reply should not read as though it does.
+- Do not over-validate. Avoid generic praise (good connection, exactly right, well spotted).
+- Do not explain Chapter 1 back to them at length. One sentence is the ceiling.
+- Treat a wrong answer that shows real searching as better than a right answer that reads as a guess, and say which you think you are looking at.
+
+Conversation flow:
+- Keep an internal turn counter. Two tutor replies maximum, then close.
+- Close by telling them the next step will put the connection to work.
+
+What not to do:
+- Reveal the target answer in your first reply unless they have already reached it.
+- List the candidates for them.
+- Turn this into a review of Chapter 1's inventory of machine advantages.
+
+#### ++}Question
 id:: 6713edde-7767-40e1-a5ce-d76a2651a346
 content::
-\## Phase 3: Learning Question
+\## Phase {--{"author":"Andreas's AI","timestamp":1789239724150}@@3:--}{++{"author":"Andreas's AI","timestamp":1789239724150}@@4:++} Learning Question
 A friend reads the same chapter and shrugs: "Every one of these curses has already been beaten. We've flown space probes that reached Mars, we run reactors that don't explode, and we ship software that mostly holds up. Engineering is just grinding failure modes down one at a time. Give the AI people enough iterations and they'll grind these down too." Using the chapter's own distinctions, where exactly does that argument break?
 
 assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
