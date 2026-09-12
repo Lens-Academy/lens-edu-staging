@@ -1,8 +1,8 @@
 ---
 id: 9b2e4d7c-5f8a-4e1b-a6d3-8a7f1e9b5d03
 reading_minutes: 20
-tutor_minutes: {--{"author":"Andreas's AI","timestamp":1789234941823}@@15--}{++{"author":"Andreas's AI","timestamp":1789234941823}@@20++}
-summary_for_tutor: "Main Lens for Chapter 6, section 1. Students explain the Aztec warrior analogy and use it to articulate why capability asymmetry alone is sufficient to predict the outcome of a human-AI conflict, without needing to know the {--{"author":"Andreas's AI","timestamp":1789234941823}@@mechanism."--}{++{"author":"Andreas's AI","timestamp":1789234941823}@@mechanism. Students also connect the chapter back to an earlier idea that the prompt does not name."++}
+tutor_minutes: 20
+summary_for_tutor: "Main Lens for Chapter 6, section 1. Students explain the Aztec warrior analogy and use it to articulate why capability asymmetry alone is sufficient to predict the outcome of a human-AI conflict, without needing to know the mechanism. Students also connect the chapter back to an earlier idea that the prompt does not name."
 title: "Define the Aztec Warrior Analogy"
 tldr: The Aztecs couldn't have imagined guns. But the boat was big enough. Chapter 6 applies this logic to superintelligent AI.
 authors:
@@ -72,7 +72,7 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 
 assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779555734}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
-#### {++{"author":"Andreas's AI","timestamp":1789234925592}@@Question: Open
+#### Question: Open
 id:: 1b89db69-aa12-47b8-aa59-a6a2a34d80ad
 content::
 \## Phase 3: Connection
@@ -110,10 +110,10 @@ What not to do:
 - List the candidates for them.
 - Turn this into a review of Chapter 1.
 
-#### ++}Question
+#### Question
 id:: 0754d407-0131-48b2-bcd0-3647d2e25f75
 content::
-\## Phase {--{"author":"Andreas's AI","timestamp":1789234925592}@@3:--}{++{"author":"Andreas's AI","timestamp":1789234925592}@@4:++} Learning Question
+\## Phase 4: Learning Question
 A classmate says: "I get the capability-gap argument, but upsets happen all the time: the underdog beats the favorite, David beats Goliath. So 'the AI is far more capable' doesn't actually license 'the AI wins.' Until you can point to the specific move that beats us, 'we'd lose' is speculation, not a prediction." Is your classmate right? Where, if anywhere, does the reasoning break down?
 
 assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on section 1 of Chapter 6 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
@@ -156,12 +156,12 @@ Calibration summary (on close):
 Safety and integrity:
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
 - If the student reaches the correct answer early, probe edge cases and implications rather than ending prematurely.
-- If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.{++{"author":"Andreas's AI","timestamp":1789234935030}@@
+- If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
 On the connection phase that now precedes this one:
 - **What this phase assesses has not changed.** It is this chapter's outcome, and nothing else. The previous phase asked the student to name an earlier idea; that is not part of what you are assessing here and must not become a second thing they have to get right. Do not open by returning to it, do not require them to use it, and do not treat an answer that never mentions it as incomplete. A student who dismantles the classmate's objection entirely from this chapter's own material has answered this question well.
 - **Use the connection only as a rescue.** If the student stalls on why a capability gap licenses predicting the outcome, you may point back to what they said in the previous phase as a way in, in one sentence. That is the only role it has here.
-- **Report, do not grade.** The test-readiness verdict is about this chapter alone, exactly as specified above. After it, add one separate sentence noting whether the student reached for earlier material on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.++}
+- **Report, do not grade.** The test-readiness verdict is about this chapter alone, exactly as specified above. After it, add one separate sentence noting whether the student reached for earlier material on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.
 
 #### Text
 content::
