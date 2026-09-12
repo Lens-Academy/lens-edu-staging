@@ -9,7 +9,7 @@ authors:
 
 Companion to [[AIRF Restructure Log]]. The log holds decisions and history. This holds the taste behind them, which is the part that does not survive a new conversation and otherwise gets re-litigated from scratch.
 
-Written at the end of stage 2, from what Andreas corrected over the course of stages 0 to 2.
+Written at the end of stage 2, from what was corrected over the course of stages 0 to 2.
 
 ## How to work
 
