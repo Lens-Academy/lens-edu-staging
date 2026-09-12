@@ -322,7 +322,21 @@ Specific things to check in that pass:
 - The U3 opener: does the tutor resist completing the list of convergent sub-goals in the elicitation beat?
 - `validate_content` after each stage, and unscoped at least once per stage, since `wip` files are excluded from the course-scoped run.
 
-## 8. Log
+## 8. Chapter 9, written without the chapter
+
+The relay key cannot read `Lens Edu Private`, so no session can open the chapter its own lenses teach. Confirmed again on 2026-09-11: `glob` lists the file, `read` refuses it. The chapter 9 material was written from a summary Andreas gave in conversation, not from the text.
+
+That matters for anyone revising it. The tutor briefs make specific claims about what the chapter says, and every one of those claims is second-hand. They are the weakest part of the lens.
+
+**The failure this produced, recorded because it will recur.** The summary ends on a speculative passage: Sable eventually meets another superintelligence and divides the universe with it, and that one had been aligned successfully by its own creators. Read from a summary, that passage looked like the chapter's argument, and three places inherited the mistake. The comparison brief said the boundary on expansion was another agent rather than physics. The reaction brief accepted "alignment is a target that can be hit" as a strong answer and scored its opposite as wrong. The outcome was about to gain a third stopping condition at level 4, which it did not need.
+
+All three were wrong. The ceiling is the limits of intelligence and physics, wherever those fall. Another superintelligence is one possible boundary and not the chapter's focus, so a learner who predicts no second agent has made no error. And that alignment can be hit was established back in chapter 6; the scenario presumes it was not.
+
+**The lesson.** A striking passage at the end of a summary is not the same as a load-bearing passage in the chapter. Summaries compress the argument and preserve the ending, which inverts their weights. Where a brief rests on the tail of a summary, say so in the brief rather than building a rubric level on it.
+
+---
+
+## 9. Log
 
 | Stage | Date | Change | Files | Why | How it landed |
 |---|---|---|---|---|---|
