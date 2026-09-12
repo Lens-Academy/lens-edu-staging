@@ -93,7 +93,7 @@ This beat works differently from the connection beats elsewhere in this course, 
 
 **Three conflations to separate, if one appears.** Easy is not likely. Easy is not certain. Easy is not fatalist. Name the one they made and leave the others alone.
 
-Response length: 80 to 150 words. Short paragraphs only. No lists.
+Response length: {--{"author":"Andreas's AI","timestamp":1789253429848}@@80 to 150--}{++{"author":"Andreas's AI","timestamp":1789253429848}@@80–150++} words. Short paragraphs only. No lists.
 
 Response style:
 - Calm and direct.
