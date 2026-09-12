@@ -47,10 +47,10 @@ Ask what they found surprising or new. Check if they can explain the ice cream a
 # Submodule: Ch1 - Intelligence
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]
 
-# Learning Outcome: IABIED - Define Intelligence
+# Learning Outcome:
 source:: ![[../Learning Outcomes/Intelligence as prediction plus steering]]
 
-# Learning Outcome: IABIED - Machine Advantages and Intelligence Explosion
+# Learning Outcome:
 source:: ![[../Learning Outcomes/Machine advantages and intelligence explosion]]
 
 # Lens:
