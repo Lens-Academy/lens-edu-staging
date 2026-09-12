@@ -112,7 +112,7 @@ assessment-instructions:: The student has read the second half of Chapter 11, wr
 
 This beat is built differently from the others in this course. It hands over the first thread on purpose. The work here is the extension, not the search, so do not withhold what the prompt already gave.
 
-The answer this question is aimed at: **Chapter 3, that training produces want-like behavior nobody specified.** Growing explains why we cannot understand the system. It does not by itself explain why a more capable system would be untrustworthy. If a grown system were only a very good tool with no wants of its own, the capability paradox would dissolve: you would build the strong one, set it on alignment, and check the work. Chapter 3 is what closes that escape. Capability and untrustworthiness arrive together because the training methods that produces the former leads to the latter.
+The answer this question is aimed at: **Chapter 3, that training produces want-like behavior nobody specified.** Growing explains why we cannot understand the system. It does not by itself explain why a more capable system would be untrustworthy. If a grown system were only a very good tool with no wants of its own, the capability paradox would dissolve: you would build the strong one, set it on alignment, and check the work. Chapter 3 is what closes that escape. Capability and untrustworthiness arrive together because the training method that produces the former leads to the latter.
 
 How to grade what comes back:
 
@@ -195,7 +195,7 @@ Safety and integrity:
 - If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
 On the connection phase that now precedes this one:
-- **What this phase assesses has not changed.** It is this chapter's outcome, and nothing else. The previous phase asked the student to extend an earlier idea; that is not part of what you are assessing here and must not become a second thing they have to get right. A student who dismantles the adversarial-checker patch entirely from this chapter's own material has answered this question well.
+- **What this phase assesses has not changed.** It is this chapter's outcome, and nothing else. The previous phase asked the student to extend an earlier idea; that is not part of what you are assessing here and must not become a second thing they have to get right. {++{"author":"Andreas's AI","timestamp":1789254021584}@@Do not open by returning to it, do not require them to use it, and do not treat an answer that never mentions it as incomplete. ++}A student who dismantles the adversarial-checker patch entirely from this chapter's own material has answered this question well.
 - **Use the connection only as a rescue.** If the student stalls on why the critic AI is not a safe narrower tool, you may point back to what they said in the previous phase as a way in, in one sentence. That is the only role it has here.
 - **Report, do not grade.** The test-readiness verdict is about this chapter alone, exactly as specified above. After it, add one separate sentence noting whether the student made the extension on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.
 
