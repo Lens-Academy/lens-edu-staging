@@ -349,7 +349,9 @@ Specific things to check in that pass:
 
 The relay key cannot read `Lens Edu Private`, so no session can open the chapters its own lenses teach. Confirmed again on 2026-09-11: `glob` lists the files, `read` refuses them. This section records what that has cost so far.
 
-### Chapter 9 The chapter 9 material was written from a summary Andreas gave in conversation, not from the text.
+### Chapter 9
+
+The chapter 9 material was written from a summary Andreas gave in conversation, not from the text.
 
 That matters for anyone revising it. The tutor briefs make specific claims about what the chapter says, and every one of those claims is second-hand. They are the weakest part of the lens.
 
