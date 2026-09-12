@@ -101,7 +101,7 @@ What not to do:
 id:: c2ba0c2e-fd8a-4373-a44e-bf26ab56fa71
 content::
 \## Phase 3: Connection
-This chapter borrows its curses from reactors, probes and computer security. But the reason they transfer to AI at all comes from much earlier in this course, not from this chapter.
+This chapter borrows its curses from reactors, probes and computer security. But the reason they transfer to AI at all comes from much earlier in this course.
 
 Without looking anything up, write down which earlier idea does that work, and how. If more than one comes to mind, say which you think is load-bearing and why.
 
