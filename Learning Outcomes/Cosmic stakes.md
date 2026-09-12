@@ -7,29 +7,12 @@ reading-from: "beginning of chapter"
 reading-to: "end of chapter"
 tags:
   - learning-outcome
-  - wip
 topic: "[[../Domains and Topics/11 Strategy/Loss of control and takeover]]"
 stage: intermediate
 requires:
   - "[[Hostile vs. indifferent AI]]"
   - "[[Predictable sub-goals from unknown goals]]"
 ---
-
-%%
-Working copy for integration, made from the proposal draft. The draft stays where it is
-as a worked example.
-
-Changed from the draft on copying: the second requires edge pointed at
-Instrumental sub-goal convergence, the orphaned chapter 8 outcome the film replaced.
-It now points at Predictable sub-goals from unknown goals, which is the outcome M4
-actually imports at the head of the unit. The suggested lens now points at the working
-copy rather than the draft.
-
-Test question is written to pass B1: no chapter is named, no "the authors" or "the text",
-and it supplies its own scenario, so it can be posed cold.
-
-Delete this block and the wip tag at promotion.
-%%
 
 ## Test:
 id:: 439fd472-9d79-4f86-ae26-ac3c70ecc26c
