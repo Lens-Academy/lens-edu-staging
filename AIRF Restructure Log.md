@@ -345,9 +345,11 @@ Specific things to check in that pass:
 - The U3 opener: does the tutor resist completing the list of convergent sub-goals in the elicitation beat?
 - `validate_content` after each stage, and unscoped at least once per stage, since `wip` files are excluded from the course-scoped run.
 
-## 8. Chapter 9, written without the chapter
+## 8. Writing about chapters we cannot read
 
-The relay key cannot read `Lens Edu Private`, so no session can open the chapter its own lenses teach. Confirmed again on 2026-09-11: `glob` lists the file, `read` refuses it. The chapter 9 material was written from a summary Andreas gave in conversation, not from the text.
+The relay key cannot read `Lens Edu Private`, so no session can open the chapters its own lenses teach. Confirmed again on 2026-09-11: `glob` lists the files, `read` refuses them. This section records what that has cost so far.
+
+### Chapter 9 The chapter 9 material was written from a summary Andreas gave in conversation, not from the text.
 
 That matters for anyone revising it. The tutor briefs make specific claims about what the chapter says, and every one of those claims is second-hand. They are the weakest part of the lens.
 
