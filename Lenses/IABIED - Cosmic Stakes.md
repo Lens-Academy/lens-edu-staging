@@ -3,7 +3,7 @@ id: '2c8f2011-1a2d-4b95-a050-b39c9d4e156a'
 reading_minutes: 0
 tutor_minutes: 6
 title: Cosmic Stakes
-tldr: "TODO. One sentence to the learner. An analogy beats a summary."
+tldr: "The film ended at the takeover. The story does not, and getting to where it goes takes no new assumptions, only more room."
 summary_for_tutor: "Reading lens for the last chapter of the book's extinction
  scenario, sitting in U3 immediately after the film and before the Coda. The
  film covers chapters 7 and 8 only, so the scenario stops at the takeover and
@@ -149,7 +149,11 @@ The three patterns worth naming, if you see them:
 
 Do not congratulate accuracy or soften inaccuracy. A wrong prediction that the student can now explain is the outcome this pair of lenses was built for, and saying so plainly is better than reassurance.
 
-TODO. Once the chapter has been read, add a short list of the specific claims it makes that a student's prior is most likely to have missed, so the tutor has something concrete to compare against rather than the three generic patterns above.
+The specific claims a prediction most often misses, roughly in order of how reliably they are missed:
+- **Earth itself becomes infrastructure.** Power generation at that scale is what boils the oceans, and whatever was still alive goes with them. Predictions that had the AI leaving Earth behind, or simply ignoring it, miss that the planet is material.
+- **The same indifference travels.** Life met on the way out is not fought. It is in the way of the same acquisition, and it goes the same way.
+- **The expansion has a boundary, and the boundary is not physics.** It is another superintelligence, and the universe ends up divided rather than taken whole. Almost no prediction has a second agent in it.
+- **That other superintelligence was aligned by its own makers.** This is the one that reframes the chapter and the one a prior almost never contains. If the student's comparison stops short of it, raise it rather than letting the beat close without it.
 
 Close by sending them to the Coda, which is the piece that says how to weigh this specific story against the general argument. Do not preview it.
 
