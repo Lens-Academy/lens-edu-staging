@@ -252,7 +252,7 @@ One added phase per lens, and only the U3 opener carries two threads in one segm
 | [[Lenses/IABIED - You Don't Get What You Train For]] | Ch 2 behavior vs. values | `done`, untested. A worked draft stays at [[Lenses/DRAFT - Ch4 with Connection]] as a proposal artifact; the phase was inserted fresh rather than promoted |
 | [[Lenses/IABIED - Alchemy Not Science]] | Ch 2 grown not crafted | `todo` |
 | [[Lenses/IABIED - Strong Superalignment Objection]] | Ch 3 wanting emerges from training | `todo` |
-| [[Lenses/IABIED - Define the Aztec Warrior Analogy]] | Ch 1 prediction plus steering | `todo` |
+| [[Lenses/IABIED - Define the Aztec Warrior Analogy]] | Ch 1 prediction plus steering | `done`, untested. Closes the last thread into U2 |
 | [[Lenses/IABIED - The Five Engineering Curses]] | Ch 1 machine advantages, via the curse of speed | `todo` |
 | [[Lenses/IABIED - The One-Chance Problem]] | Ch 10 five curses, via Chernobyl appearing twice | `todo` |
 
