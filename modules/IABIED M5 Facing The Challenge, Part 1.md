@@ -99,10 +99,10 @@ source:: ![[../Lenses/IABIED - QA - Chicago Pile-1]]
 # Submodule: Ch11 - An Alchemy, Not a Science
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/12 - Chapter 11 - An Alchemy, Not a Science]]
 
-# Learning Outcome: IABIED - Alchemy Not Science
+# Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252103469}@@ IABIED - Alchemy Not Science--}
 source:: ![[../Learning Outcomes/Alignment as alchemy]]
 
-# Learning Outcome: IABIED - Strong Superalignment Objection
+# Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252103469}@@ IABIED - Strong Superalignment Objection--}
 source:: ![[../Learning Outcomes/The superalignment objection]]
 
 %%
