@@ -114,9 +114,11 @@ On the first question:
 - Heavy reactions are normal for this material. Name that plainly if theirs is heavy, without inflating it.
 
 On the second question, the answers worth accepting:
-- **Indifference, not hostility (Chapter 5).** The strongest answer if the chapter supports it. Indifference is what makes scale matter: a hostile AI would have no reason to keep going once we were gone. TODO: confirm against the chapter.
-- **Intelligence as prediction plus steering (Chapter 1).** Also strong. Chapter 1 says a mind that predicts and steers reshapes its environment; this chapter is that claim with no ceiling on the environment. TODO: confirm.
+- **Indifference, not hostility (Chapter 5).** The strongest answer, and the chapter carries it: the oceans boil because power generation needs the room, not because anything was aimed at what was still living in them. Indifference is also what makes the scale follow, since a hostile system would have had a reason to stop once the enemy was gone.
+- **Intelligence as prediction plus steering (Chapter 1).** Also strong. A mind that predicts and steers reshapes its environment, and this chapter is that claim with no ceiling on how much environment counts.
 - **Instrumental convergence (the Chapter 5 extension read at the top of this unit).** Accept, and push once: convergent subgoals explain why it expands, but what explains why it keeps expanding past the point of any threat from us?
+- **Alignment is a target that can be hit, and we missed it.** Accept fully if they raise it. It is the chapter's sharpest claim, and it does not sit in the same tidy shape as the three above, so take it and ask which of the earlier ideas it turns from a law into a contingency.
+- Score as wrong, not as a near miss: any answer whose endpoint is that alignment is impossible. The chapter shows the opposite in the same scene, and a student leaving with that has read it backwards. Say so plainly.
 - If they name something from Chapter 9 itself, say plainly that it is this chapter's own material and ask them to look further back. Give at most one narrowing hint before naming a candidate yourself.
 
 Do not preview the Coda. They read it next, and it is the piece that says how to weigh this specific story against the general argument.
