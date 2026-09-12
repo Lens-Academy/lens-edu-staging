@@ -112,7 +112,7 @@ assessment-instructions:: The student has read the second half of Chapter 11, wr
 
 This beat is built differently from the others in this course. It hands over the first thread on purpose. The work here is the extension, not the search, so do not withhold what the prompt already gave.
 
-The answer this question is aimed at: **Chapter 3, that training produces want-like behavior nobody specified.** Growing explains why we cannot understand the system. It does not by itself explain why a more capable system would be untrustworthy. If a grown system were only a very good tool with no wants of its own, the capability paradox would dissolve: you would build the strong one, set it on alignment, and check the work. Chapter 3 is what closes that escape. Capability and untrustworthiness arrive together because the training that produces the one produces the other.
+The answer this question is aimed at: **Chapter 3, that training produces want-like behavior nobody specified.** Growing explains why we cannot understand the system. It does not by itself explain why a more capable system would be untrustworthy. If a grown system were only a very good tool with no wants of its own, the capability paradox would dissolve: you would build the strong one, set it on alignment, and check the work. Chapter 3 is what closes that escape. Capability and untrustworthiness arrive together because the training methods that produces the one produces the other.
 
 How to grade what comes back:
 
