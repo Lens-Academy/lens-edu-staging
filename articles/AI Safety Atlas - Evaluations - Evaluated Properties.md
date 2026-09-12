@@ -37,7 +37,7 @@ An "evaluation" is fundamentally about measuring or assessing some property of a
 
 But before we talk about "how to do evaluations" we still need to also answer the more fundamental question of "what aspects of AI systems are we even trying to evaluate? And why?" So in this section, we'll explore what properties of AI systems we need to evaluate and why they matter for safety. Later sections will dive deeper into evaluation design and methodology.
 
-![Figure 5.12]({--{"author":"Elias's AI","timestamp":1789120796908}@@https://ai-safety-atlas.com/_astro/31e9b562d69ca9f5f529668ff2ec717ee9267b035d070408611490ad39d2a4a1.CSlu8TVQ_Z1Jsw9h.webp--}{++{"author":"Elias's AI","timestamp":1789120796908}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-12.webp++})
+![Figure 5.12](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-12.webp)
 
 *Figure 5.12: Figure distinguishing the three related but distinct concepts of evaluated properties, the techniques used to evaluate model properties, and *
 
@@ -53,7 +53,7 @@ But before we talk about "how to do evaluations" we still need to also answer th
 
 Another thing to remember is that there are various different approaches that we can follow when evaluating for all the above types of properties. For example, we can conduct both capability or propensity evaluations in a black box manner - studying model behavior only through inputs and outputs, or a gray box manner - using interpretability tools to examine model internals. ([Hubinger, 2023](https://www.alignmentforum.org/posts/uqAdqrvxqGqeBHjTP/towards-understanding-based-safety-evaluations)). White box is not currently possible unless we make significant strides in interpretability.[^note-atlas-7] These are different design choices in how we structure our evaluations when we are trying to evaluate for the above properties.
 
-![Figure 5.13]({--{"author":"Elias's AI","timestamp":1789120860293}@@https://ai-safety-atlas.com/_astro/d168c4f884464d4f58224b85a399449d27a58967755a6c7e5f42fd6a1bea8474.CobMOgR9_MmrTW.webp--}{++{"author":"Elias's AI","timestamp":1789120860293}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-13.webp++})
+![Figure 5.13](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-13.webp)
 
 *Figure 5.13: In this chapter, we will mainly talk about AI systems, rather than AI models. An AI system comprises an AI model, with its weights and architecture, as well as various other system parameters, including system prompts, prefix prompts, scaffolding prompts, and retrieval, databases ([Sharkey, 2024](https://static1.squarespace.com/static/6593e7097565990e65c886fd/t/65a6f1389754fc06cb9a7a14/1705439547455/auditing_framework_web.pdf)).*
 

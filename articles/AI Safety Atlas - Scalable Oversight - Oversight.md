@@ -34,7 +34,7 @@ Giving feedback becomes difficult as AI performs tasks beyond human expertise. W
 
 Scalable Oversight techniques help humans provide accurate feedback on tasks to ensure AI systems are aligned with our goals, even after the task complexity outstrips the ability of the best human experts. This can happen during the AI's training or deployment and isn't limited to RLHF-style feedback.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789119941540}@@8.1](https://ai-safety-atlas.com/_astro/807fc716a7bdd042bd89bae7761ec65255063394ea1d9fef565cc3b8a4437413.CfbOOUib_6P8eg.webp)--}{++{"author":"Elias's AI","timestamp":1789119941540}@@8.1](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-1.webp)++}
+![Figure 8.1](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-1.webp)
 
 *Figure 8.1: The difference between regular oversight safety research, and scalable oversight safety research.*
 
@@ -71,7 +71,7 @@ To make scalable oversight techniques viable verification needs to be easier tha
 
 **What is generation?** Generation is the process of coming up with solutions from scratch. This means searching through many possibilities, which can take a lot of time and computing power. For example, solving a Sudoku puzzle involves filling a 9x9 grid with numbers so that each row, column, and 3x3 subgrid contains all the digits from 1 to 9 without repeating. If you've ever tried to solve a Sudoku puzzle, you know it involves a lot of trial and error to make sure all the rules are followed.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789119976113}@@8.2](https://ai-safety-atlas.com/_astro/b14c8305e2150e82d809e96f4e85397b5d9b454a563c8454a9e59380e6705c68.Cfyk4qVS_Z1qlL1w.webp)--}{++{"author":"Elias's AI","timestamp":1789119976113}@@8.2](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-2.webp)++}
+![Figure 8.2](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-2.webp)
 
 *Figure 8.2: ([Wikipedia](https://en.wikipedia.org/wiki/Sudoku))*
 
@@ -79,7 +79,7 @@ Generation here involves filling in the blank grid while ensuring all the constr
 
 **What is verification?** Verification is the process of checking whether a given solution attempt is correct. Using the Sudoku example, verification means making sure that each row, column, and subgrid contains all the digits from 1 to 9 without any repeats. Once someone gives you a completed Sudoku puzzle, checking whether it's correct is straightforward and quick. This idea is central to the concept of P ≠ NP.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120060716}@@8.3](https://ai-safety-atlas.com/_astro/bb864c3db4f3bf47ea42b0b52aaa2a359b088b00379bef3b8ac88bfbe9299bbd.gWvXjc10_Uxn3H.webp)--}{++{"author":"Elias's AI","timestamp":1789120060716}@@8.3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-3.webp)++}
+![Figure 8.3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-3.webp)
 
 *Figure 8.3: ([Wikipedia](https://en.wikipedia.org/wiki/Sudoku))*
 

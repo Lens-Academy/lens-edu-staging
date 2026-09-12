@@ -43,7 +43,7 @@ AI is an incredibly fast moving field. To talk about risks and how to make it sa
 
 Let's start with what these systems can actually do—and how quickly that list is growing.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120052671}@@1.1](https://ai-safety-atlas.com/_astro/954ddc42c48965ad869ad27a57cacdeb273883e1f00e0fa554e550babe8bd84f.B781Q3hr_ZFCV6i.webp)--}{++{"author":"Elias's AI","timestamp":1789120052671}@@1.1](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-1.webp)++}
+![Figure 1.1](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-1.webp)
 
 *Figure 1.1: We first explain foundation models, which have been continuously showing improved capabilities due to scale. Then examine empirically observed scaling laws. Based on these trends we look at some techniques that researchers use to try and forecast future AI progress.*
 

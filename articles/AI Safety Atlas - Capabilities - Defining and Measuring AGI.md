@@ -62,7 +62,7 @@ Progress on safety requires clear definitions and measurement criteria. For safe
 
 **Capability measures depth - how good is the system at individual tasks.** For decades, AI research focused on making systems excel at single tasks. Early chess programs in the 1950s beat novices but lost to experts. Deep Blue in the 1990s beat world champion Kasparov. AlphaGo in 2016 achieved superhuman capability at Go, a game humans thought computers wouldn't master for decades. This progression from "can't do the task" to "better than any human" represents the capability spectrum. Everything along this line - from basic competence to superhuman capability on a single task - counts as artificial narrow intelligence (ANI).
 
-![Figure {--{"author":"Elias's AI","timestamp":1789121061584}@@1.27](https://ai-safety-atlas.com/_astro/66a728932a644697778afb28c6dc669e4d0bd1c51776d90142adabf46ef38bba.2GnmHiUQ_TG0T7.webp)--}{++{"author":"Elias's AI","timestamp":1789121061584}@@1.27](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-27.webp)++}
+![Figure 1.27](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-27.webp)
 
 *Figure 1.27: This is the continuous outlook of AI measuring performance. All points on this axis can be called artificial narrow intelligence (ANI) (except for the origin) ([Morris et al., 2024](https://arxiv.org/abs/2311.02462)).*
 
@@ -85,17 +85,17 @@ When experts say they see "sparks of AGI" in recent systems, they're observing p
 9. **Auditory Processing (A):** The capacity to discriminate, recognize, and work creatively with auditory stimuli, including speech, rhythm, and music.
 10. **Speed (S):** The ability to perform simple cognitive tasks quickly, encompassing perceptual speed, reaction times, and processing fluency.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789121088909}@@1.28](https://ai-safety-atlas.com/_astro/53320312894d4883f9230ea4e0981f1b19a1a421423339064e694b4f0e789cf8.CgZoGjAE_2oA8nh.webp)--}{++{"author":"Elias's AI","timestamp":1789121088909}@@1.28](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-28.webp)++}
+![Figure 1.28](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-28.webp)
 
 *Figure 1.28: Each cognitive capability breaks down into more specific measurable components. Reasoning divides into deduction, induction, theory of mind, planning, and adaptation - each can then be individually benchmarked and quantified ([Hendrycks et al., 2025](https://arxiv.org/abs/2510.18212)).*
 
-![Figure {--{"author":"Elias's AI","timestamp":1789121104150}@@1.29](https://ai-safety-atlas.com/_astro/5c0d766f87d07f1ca4c092c232c36ef7bf44cae0e7163db5afd396af3b1cfba2.DQqby8m7_Z2jS6oJ.webp)--}{++{"author":"Elias's AI","timestamp":1789121104150}@@1.29](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-29.webp)++}
+![Figure 1.29](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-29.webp)
 
 *Figure 1.29: Memory similarly splits into associative, meaningful, and verbatim components, allowing precise diagnosis of where systems succeed versus fail ([Hendrycks et al., 2025](https://arxiv.org/abs/2510.18212)).*
 
 **Generality is the percentage of these domains where a system achieves expert-level capability.** If a system scores at the 80th percentile or higher on three out of ten domains, that's 30% generality.[^note-atlas-4] Foundation models dramatically increased this compared to traditional narrow AI - one model handling writing, math, coding, and visual understanding represents unprecedented breadth. But current systems still cover only a fraction of cognitive capabilities, with particularly weak performance on long-term planning and memory-related domains ([Hendrycks et al., 2025](https://arxiv.org/abs/2510.18212); [Kwa et al., 2025](https://arxiv.org/abs/2503.14499)).
 
-![Figure {--{"author":"Elias's AI","timestamp":1789121124724}@@1.30](https://ai-safety-atlas.com/_astro/c499f177e3e5298ac13f89cc67ad776839137c9040b907111c8ebe086796cab3.Bx_T-Qb9_Z2abMl5.webp)--}{++{"author":"Elias's AI","timestamp":1789121124724}@@1.30](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-30.webp)++}
+![Figure 1.30](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-30.webp)
 
 *Figure 1.30: The capabilities of GPT-4 and GPT-5, alongside a table that quantifies them ([Hendrycks et al., 2025](https://arxiv.org/abs/2510.18212)).*
 
@@ -107,7 +107,7 @@ When experts say they see "sparks of AGI" in recent systems, they're observing p
 
 **Definition: Artificial Superintelligence (ASI)** — Any intellect that greatly exceeds human cognitive capability across virtually all domains of interest. Using our definition, this represents systems achieving superhuman capability (>100%, greatly exceeding all humans) across virtually all cognitive domains (95%+ of domains). ([Bostrom, 2014](https://psycnet.apa.org/record/2014-48585-000))
 
-![Figure {--{"author":"Elias's AI","timestamp":1789121147617}@@1.31](https://ai-safety-atlas.com/_astro/39ee9c34f9952779378c4e0ed9e93ba3f4624c38a9f4560b75271731fec90dd0.DPhWDE50_Z1ihANy.webp)--}{++{"author":"Elias's AI","timestamp":1789121147617}@@1.31](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-31.webp)++}
+![Figure 1.31](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-31.webp)
 
 *Figure 1.31: The two-dimensional view of capability × generality. Different colored curves represent possible development paths to ASI. Every point on these paths corresponds to a different level of AGI capability.*
 
@@ -155,7 +155,7 @@ As an example, if an AI that exceeds the capability of a human expert in one sec
 
 Researchers at METR operationalized this by measuring task completion time horizons for 1 expert (n=1) - finding the duration where AI succeeds consistently on professional tasks like software development and ML research ([Kwa et al., 2025](https://arxiv.org/abs/2503.14499)).
 
-![Figure {--{"author":"Elias's AI","timestamp":1789121171798}@@1.32](https://ai-safety-atlas.com/_astro/b4e8d3417e84897b27d0391116c2f85fdecdae127584f856baeca55db1b92eee.XRLJq1E0_1SDSJd.webp)--}{++{"author":"Elias's AI","timestamp":1789121171798}@@1.32](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-32.webp)++}
+![Figure 1.32](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-32.webp)
 
 *Figure 1.32: The image shows a result from METR which measured the task length horizon on specific software engineering tasks ([Kwa et al., 2025](https://arxiv.org/abs/2503.14499)).*
 

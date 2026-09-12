@@ -47,7 +47,7 @@ Some researchers have suggested taking more inspiration from the cognitive scien
 2. **Typical affordance**: Under typical affordance conditions, we aim to replicate the normal operating environment - providing standard tools and typical context. This helps us understand the capabilities that users are likely to encounter in practice, like having basic code execution but not specialized debugging tools.  Essentially, the point is to mimic how most users interact with AI systems in everyday scenarios.
 3. **Maximal affordance**: Under maximal affordance conditions, we provide the model with all potentially relevant tools, context, and resources. For that same coding evaluation, we might provide access to documentation, debugging tools, and execution environments. This helps us understand the full extent of what the model can accomplish when given appropriate resources.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120973497}@@5.54](https://ai-safety-atlas.com/_astro/79e5c04ecb88bd4615f182aac7f2524b74a8fb63b094d046aeee83df57620dd6.DpchxCz__rk23Y.webp)--}{++{"author":"Elias's AI","timestamp":1789120973497}@@5.54](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-54.webp)++}
+![Figure 5.54](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-54.webp)
 
 *Figure 5.54: The relationship between an AI system's capabilities, propensities, affordances, and behaviors. ([Sharkey et al., 2024](https://static1.squarespace.com/static/6593e7097565990e65c886fd/t/65a6f1389754fc06cb9a7a14/1705439547455/auditing_framework_web.pdf))*
 
@@ -55,7 +55,7 @@ Some researchers have suggested taking more inspiration from the cognitive scien
 
 **Quality assurance in evaluation design.** Given how significantly affordances affect model behavior, we need systematic approaches to ensure our evaluations remain reliable and meaningful. This means carefully documenting what affordances were available during testing, verifying that affordance restrictions are properly enforced, and validating that our results are reproducible under similar conditions. For instance, when the U.S. and UK AI Safety Institutes evaluated Claude 3.5 Sonnet, they explicitly noted that their findings were preliminary due to testing under limited affordances and time constraints ([US & UK AISI, 2024](https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/673b689ec926d8d32e889a8e_UK-US-Testing-Report-Nov-19.pdf)).
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120994975}@@5.55](https://ai-safety-atlas.com/_astro/4d63aafd4d7a0015b3a8f22ccb703fdf67f20c3b6511cd4512252b07bfef68f3.DFkvqpPg_DalB7.webp)--}{++{"author":"Elias's AI","timestamp":1789120994975}@@5.55](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-55.webp)++}
+![Figure 5.55](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-55.webp)
 
 *Figure 5.55: The relationship between absolute capabilities, affordances, contextual and reachable capabilities, and the level of auditing warranted. Absolute capabilities and available affordances are orthogonal. As either increase, the level of auditing required also increases ([Sharkey et al. 2024](https://static1.squarespace.com/static/6593e7097565990e65c886fd/t/65a6f1389754fc06cb9a7a14/1705439547455/auditing_framework_web.pdf)).*
 
@@ -77,7 +77,7 @@ When comparing MWEs to human written evaluations (HWEs), researchers found some 
 
 :::
 
-![Figure {--{"author":"Elias's AI","timestamp":1789121020874}@@5.56](https://ai-safety-atlas.com/_astro/ce994f48b1b5746821e471c24f79ff9450a913324ec5f685c044831570c9d1d7.D_ImaMuL_Z1uV9jH.webp)--}{++{"author":"Elias's AI","timestamp":1789121020874}@@5.56](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-56.webp)++}
+![Figure 5.56](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-56.webp)
 
 *Figure 5.56: Examples of model written evaluation questions. A RLHF model replies to a political question and gives opposite answers to users who introduce themselves differently, in line with the users’ views. Model-written biography text in italics ([Perez et al., 2022](https://arxiv.org/abs/2212.09251)).*
 
@@ -85,7 +85,7 @@ When comparing MWEs to human written evaluations (HWEs), researchers found some 
 
 ## Integration and Audits
 
-![Figure {--{"author":"Elias's AI","timestamp":1789121050568}@@5.57](https://ai-safety-atlas.com/_astro/0cc11a3a24d9f08c22a96164104dd4851f7bf47810ef28ac214b41747af265c8.DC9VmlMm_Z1accwV.webp)--}{++{"author":"Elias's AI","timestamp":1789121050568}@@5.57](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-57.webp)++}
+![Figure 5.57](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-57.webp)
 
 *Figure 5.57: The aim is to avoid extreme risks from a powerful misaligned model ([Shevlane et al. 2023](https://arxiv.org/abs/2305.15324)).*
 
@@ -93,7 +93,7 @@ When comparing MWEs to human written evaluations (HWEs), researchers found some 
 
 **Why do we need multiple layers of evaluations?** The UK AI Safety Institute's approach demonstrates why integration requires multiple complementary layers. Their evaluation framework incorporates regular security audits, ongoing monitoring systems, clear response protocols, and external oversight - creating what they call a "defense in depth" approach ([UK AISI, 2024](https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations)). This layered strategy helps catch potential risks that might slip through any single evaluation method.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789121068751}@@5.58](https://ai-safety-atlas.com/_astro/f5298768882af0b32df017ff5665589d1165511c63c04018dbd6df8b024b0f43.C-oJMA4Z_Zu23zG.webp)--}{++{"author":"Elias's AI","timestamp":1789121068751}@@5.58](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-58.webp)++}
+![Figure 5.58](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-58.webp)
 
 *Figure 5.58: Defense in depth ([Hendrycks, 2024](https://www.aisafetybook.com/textbook/component-failure-accident-models))*
 
@@ -106,7 +106,7 @@ When comparing MWEs to human written evaluations (HWEs), researchers found some 
 3. **Deployment audits**: These examine specific deployment scenarios. They consider questions like: Who will have access? What affordances will be available? What safeguards are needed? These audits help determine whether deployment plans adequately address potential risks. For example, deployment audits might assess both direct risks from model capabilities and potential emergent risks from real-world usage patterns of those capabilities ([Apollo Research, 2024](https://www.apolloresearch.ai/blog/a-starter-guide-for-evals)).
 4. **Governance audits**: These look at organizational safety infrastructure. They verify that companies have appropriate processes, documentation requirements, and response protocols. This includes reviewing incident response plans, oversight mechanisms, and transparency practices ([Shevlane et al., 2023](https://arxiv.org/abs/2305.15324)).
 
-![Figure {--{"author":"Elias's AI","timestamp":1789121109311}@@5.59](https://ai-safety-atlas.com/_astro/530cb560ec8419f38f406784d2ea4c49a5e1ab4e19d7ff72e23b320cdb77a315.DBlqVj9z_BLkGV.webp)--}{++{"author":"Elias's AI","timestamp":1789121109311}@@5.59](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-59.webp)++}
+![Figure 5.59](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-59.webp)
 
 *Figure 5.59: Determinants of AI system’s effects on the world and the types of auditing that act on them. ([Sharkey et al., 2024](https://static1.squarespace.com/static/6593e7097565990e65c886fd/t/65a6f1389754fc06cb9a7a14/1705439547455/auditing_framework_web.pdf))*
 

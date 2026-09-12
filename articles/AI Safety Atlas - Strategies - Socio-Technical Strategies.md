@@ -21,7 +21,7 @@ Add discussion note here:
 
 **AI safety is fundamentally a socio-technical problem requiring socio-technical solutions.** Technical safety measures can be undermined by inadequate governance, poor security practices within labs, or cultures that prioritize speed over caution. Ensuring safety requires robust systemic approaches - governance structures, organizational practices, and cultural norms that shape how AI gets developed and deployed. Addressing these systemic risks is difficult precisely because responsibility is distributed: no single actor controls all the variables, and solutions require coordinating across companies, governments, researchers, and civil society.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120321856}@@3.20](https://ai-safety-atlas.com/_astro/8e736c7c6c245e6e2c7d262c1ea45629b60c86010dbe191d0b636e6e94fcd968.COyzSx0y_11SiqI.webp)--}{++{"author":"Elias's AI","timestamp":1789120321856}@@3.20](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-20.webp)++}
+![Figure 3.20](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-20.webp)
 
 *Figure 3.20: An illustration of a framework that we think is robustly good at managing risks. AI Risks are too numerous and too heterogeneous. To address these risks, we need an adaptive framework that can be robust and evolve as AI advances.*
 
@@ -29,13 +29,13 @@ Add discussion note here:
 
 **Defense-in-depth means layering multiple independent protections so that if one fails, others provide backup.** This is one meta-philosophy underlying effective AI safety: multiple independent layers of protection working together. Think about it like designing a medieval castle - walls, moats, towers, and inner baileys created redundant barriers where breaching one layer didn't mean total compromise. Modern cybersecurity applies the same logic: firewalls, encryption, access controls, and monitoring systems operate simultaneously, each addressing different attack vectors. No single security measure is perfect, but multiple imperfect defenses working together can create robust protection. This is also commonly known as the swiss cheese model of safety ([Hendrycks et al., 2023](https://arxiv.org/abs/2306.12001)).
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120350077}@@3.21](https://ai-safety-atlas.com/_astro/bd58e54729b3008d581106010a9707213001d23a294b25f9613a5e2805340707.Dql3v48L_Z10C1Rj.webp)--}{++{"author":"Elias's AI","timestamp":1789120350077}@@3.21](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-21.webp)++}
+![Figure 3.21](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-21.webp)
 
 *Figure 3.21: An example analogy of defense in depth from history, where castles progressively built up more layers of security to ensure that the core was never compromised ([Encyclopedia Britannica, 2025](https://www.britannica.com/technology/military-technology/The-castle)). This layered philosophy is already applied in cybersecurity, and can be extended to AI safety.*
 
 **Defense-in-depth relies on combinatorial explosion when layers are truly independent.** If each defensive layer has a 1 percent failure rate and an attacker must breach all five layers simultaneously, the overall failure probability becomes $0.01^5$ - vanishingly small. This works like PIN security: a three-digit PIN is trivially weak, but a twelve-digit PIN becomes very secure because combinatorial difficulty grows exponentially. One core requirement is layer independence - if breaking one layer automatically breaks others, or if attackers get feedback about which layer failed, they can brute force each barrier sequentially in linear time rather than facing exponential difficulty ([Gleave, 2025](https://www.youtube.com/watch?v=BfXi3_QSWek)).
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120370940}@@3.22](https://ai-safety-atlas.com/_astro/4dca9845b79176d8198e824cf1808a01c44aa0c52cc4ec0a253407e8fb37b3d3.D42vgsEd_r6lz.webp)--}{++{"author":"Elias's AI","timestamp":1789120370940}@@3.22](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-22.webp)++}
+![Figure 3.22](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-22.webp)
 
 *Figure 3.22: The Swiss cheese model shows how technical factors can improve organizational safety. Multiple layers of defense compensate for each other’s individual weaknesses, leading to a low overall level of risk ([Hendrycks et al., 2023](https://arxiv.org/abs/2306.12001)).*
 
@@ -52,7 +52,7 @@ Add discussion note here:
 
 It is known by various names including, differential paradigm development (DPD), or 
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120392696}@@3.23](https://ai-safety-atlas.com/_astro/16807db711557850e01d7a14e751ae7c0edc8c37f344dfdda573c83e62e4c2d7.DGtOO4Gq_ZCL37z.webp)--}{++{"author":"Elias's AI","timestamp":1789120392696}@@3.23](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-23.webp)++}
+![Figure 3.23](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-23.webp)
 
 *Figure 3.23: Defensive acceleration is analogous to differential AI development (DAID). D/acc focuses on only accelerating defensive technologies, but DAID has a broader scope that also includes the deceleration of risky applications and paradigms. *
 
@@ -69,7 +69,7 @@ D/acc can be understood by thinking about the question - if AI takes over the wo
 - **Differential:** Accelerating beneficial technologies while being more cautious about those with harmful potential. The order in which technology is developed matters a lot. By differentially accelerating defensive technologies (like advanced cybersecurity measures) ahead of potentially dangerous capabilities (like autonomous hacking systems), we create protective layers before they're urgently needed.
 - **Decentralized:** We can strengthen resilience by eliminating single points of failure. Centralized control of powerful AI capabilities creates vulnerabilities to technical failures, adversarial attacks, and institutional capture ([Cihon et al., 2020](https://arxiv.org/abs/2001.03573)). Decentralized approaches distribute both capabilities and governance across diverse stakeholders, preventing unilateral control over transformative technologies.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120419342}@@3.24](https://ai-safety-atlas.com/_astro/00e0797ad5f485681e1d56be377b7c6d144be2690dd4040b292010172db203ca.Dzf6E3zD_ZKnrUK.webp)--}{++{"author":"Elias's AI","timestamp":1789120419342}@@3.24](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-24.webp)++}
+![Figure 3.24](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-24.webp)
 
 *Figure 3.24: Mechanisms by which differential technology development can reduce negative societal impacts ([Buterin, 2023](https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html)).*
 
@@ -160,7 +160,7 @@ Additionally, there are fundamental concerns that governance structures capable 
 
 **Risk management ensures that risks minus mitigations remain below tolerance levels.** The core equation is simple: (Risks - Mitigations) < Tolerance. This operational process connects everything else - governance sets rules, evaluations measure capabilities, safety culture establishes norms, but risk management makes the daily decisions about whether to pause training, which mitigations to implement, and how to maintain acceptable risk levels throughout development. The framework has four interconnected components: identification, analysis, treatment, and governance ([Campos et al., 2024](https://arxiv.org/abs/2502.06656)). Each addresses a distinct question about managing AI risks systematically.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120449019}@@3.25](https://ai-safety-atlas.com/_astro/1870f14975214d7fcd0737b0cf483bc28f1d2227f4e7e5015b3d5b6de389af20.zNE9SGZL_zjFI9.webp)--}{++{"author":"Elias's AI","timestamp":1789120449019}@@3.25](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-25.webp)++}
+![Figure 3.25](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-25.webp)
 
 *Figure 3.25: Overview of the risk management framework ([Campos et al., 2024](https://arxiv.org/abs/2502.06656)).*
 
@@ -170,7 +170,7 @@ Additionally, there are fundamental concerns that governance structures capable 
 
 **Risk treatment implements and monitors mitigation measures.** This has two phases. First, implement mitigations across three categories: containment measures (controlling access through information security), deployment measures (preventing misuse through safeguards), and assurance processes (providing evidence of safety for advanced systems). Second, continuously monitor against predetermined thresholds - tracking both KRIs to detect when dangerous capabilities emerge and KCIs to verify mitigations remain effective. Results should be transparently shared with stakeholders, and systems should monitor for novel risks that weren't identified initially.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120466843}@@3.26](https://ai-safety-atlas.com/_astro/d5235a3724c25fa6d052b99487c4848c1fca1167632aafdf2d0a061e5c4fc716.Ciy-aSQK_ZNG2eM.webp)--}{++{"author":"Elias's AI","timestamp":1789120466843}@@3.26](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-26.webp)++}
+![Figure 3.26](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-26.webp)
 
 *Figure 3.26: The three lines of defense model (3LoD) as described by the IIA (Institute of Internal Auditors) ([Schuett, 2022](https://arxiv.org/abs/2212.08364)).*
 
@@ -178,7 +178,7 @@ Additionally, there are fundamental concerns that governance structures capable 
 
 An extremely detailed analysis of current risk management and safety practices is conducted by saferAI [available here](https://ratings.safer-ai.org/comparison/). Every category - identification, analysis, treatment and governance is further decomposed into extremely granular metrics that are tracked and analyzed to give risk ratings to all frontier AI organizations. 
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120484991}@@3.27](https://ai-safety-atlas.com/_astro/9dd72c1f38ea0e0dd937249412f696214366058e4ac79abb97b7f7f1399c7b56.BHqvYR-t_ZNCwKT.webp)--}{++{"author":"Elias's AI","timestamp":1789120484991}@@3.27](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-27.webp)++}
+![Figure 3.27](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-27.webp)
 
 *Figure 3.27: Risk Management ratings of the frontier AI safety organizations as of October 2025 ([SaferAI, 2025](https://ratings.safer-ai.org/comparison/)).*
 
@@ -186,7 +186,7 @@ An extremely detailed analysis of current risk management and safety practices i
 
 **Safety culture means building organizations where people consistently prioritize safety over speed, and where safety concerns can actually change decisions.** This is a strategy for preventing AI accidents through organizational design rather than just technical fixes. Risk management is seen in many fields, including aerospace, nuclear power, and financial services. Each of these domains has developed sophisticated approaches to identifying, analyzing, and mitigating potential harms. We want to mitigate AI safety failures that stem from human and organizational factors - rushing to deploy undertested systems, ignoring warning signs, or creating incentives that reward moving fast over being careful. Integrating safety culture addresses these root causes by changing how organizations operate. 
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120514210}@@3.28](https://ai-safety-atlas.com/_astro/0500e553921df09c6ce8df42262eec365d7f0237c8e092dc19ae5a791dc8286b.ib0OnrC7_Z1gfVdQ.webp)--}{++{"author":"Elias's AI","timestamp":1789120514210}@@3.28](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-28.webp)++}
+![Figure 3.28](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-28.webp)
 
 *Figure 3.28: The AI safety index report for summer 2025. The scores show whether each company’s governance structure and day-to-day operations prioritize meaningful accountability for the real-world impacts of its AI systems. This includes things like whistleblowing systems, legal structures, and advocacy efforts related to AI regulations ([FLI, 2025](https://futureoflife.org/wp-content/uploads/2025/07/FLI-AI-Safety-Index-Report-Summer-2025.pdf); [SaferAI, 2025](https://ratings.safer-ai.org/)).*
 

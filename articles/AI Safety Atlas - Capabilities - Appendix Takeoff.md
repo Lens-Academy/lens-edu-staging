@@ -45,7 +45,7 @@ Discontinuities could arise through various mechanisms. We might discover fundam
 
 **The historical record provides some precedent for both continuous and discontinuous scientific progress.** The development of nuclear weapons represented a discontinuous jump in explosive power, while improvements in computer processing power have followed more continuous trends. However, as we saw in the forecasting section, technological discontinuities have historically been rare, which some researchers cite as evidence favoring continuous takeoff scenarios.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789121720670}@@1.62](https://ai-safety-atlas.com/_astro/3f30d7db05a8e79f20b53d53af7dbfe5c896561dd1fa4fa4c4e6c27f5d381681.MoeuD0NJ_Z1gHhYL.webp)--}{++{"author":"Elias's AI","timestamp":1789121720670}@@1.62](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-62.webp)++}
+![Figure 1.62](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-62.webp)
 
 *Figure 1.62: One example illustration of slow discontinuous takeoff, where even though progress keeps increasing we might see sudden ‘jumps’ in progress ([Martin & Eth, 2021](https://www.alignmentforum.org/posts/pGXR2ynhe5bBCCNqn/takeoff-speeds-and-discontinuities)).*
 
@@ -59,7 +59,7 @@ Discontinuities could arise through various mechanisms. We might discover fundam
 
 **Homogeneous takeoff could be safer in some ways but riskier in others.** If we solve alignment for one AI system, that solution might work for other similar systems. However, if there's a fundamental flaw in the common architecture or training approach, it could affect all systems simultaneously. It's like having a monoculture in agriculture - while easier to manage, it's also more vulnerable to shared weaknesses.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789121745273}@@1.63](https://ai-safety-atlas.com/_astro/b2af26221f6c05833114d658fe1e13891c672cd4ef41c08e01056fbfac5af9df.qGcKJg5p_Z2jSdQ7.webp)--}{++{"author":"Elias's AI","timestamp":1789121745273}@@1.63](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-63.webp)++}
+![Figure 1.63](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-63.webp)
 
 *Figure 1.63: An illustration of homogeneous takeoff. We can see multiple different overarching model architectures. The figure shows three in different colors. Within each architecture the takeoff is roughly the same due to similarity in design, regulations, and safety mitigations. **NOTE**: The curves here with architectures are purely illustrative, and are not meant to indicate predicted growth trajectories and comparisons between different architectures.*
 
@@ -69,7 +69,7 @@ Heterogeneous takeoff creates different challenges for safety. We'd need to deve
 
 The degree of homogeneity during takeoff has significant implications for how transformative AI might develop. In a homogeneous scenario, progress might be more predictable but also more prone to winner-take-all dynamics. A heterogeneous scenario might be more robust against single points of failure but harder to monitor and control.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789121762034}@@1.64](https://ai-safety-atlas.com/_astro/4ae8127baf5db2d537a8befec2870bf4fa43d9badb2716492e2848da72a0de7a.DK1GZYzr_Z2jE5bo.webp)--}{++{"author":"Elias's AI","timestamp":1789121762034}@@1.64](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-64.webp)++}
+![Figure 1.64](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-64.webp)
 
 *Figure 1.64: One example of heterogeneous takeoff. We can see multiple different overarching model architectures. The figure shows three in different colors. Within each architecture the takeoff is different due to differences in design, regulations, and safety mitigations. **NOTE**: The curves here with architectures are purely illustrative, and are not meant to indicate predicted growth trajectories and comparisons between different architectures.*
 
@@ -79,13 +79,13 @@ The degree of homogeneity during takeoff has significant implications for how tr
 
 **In a unipolar takeoff, one AI system or organization gains a decisive lead over all others.** This could happen through a single breakthrough, exceptional scaling advantages, or recursive self-improvement. For example, if one AI system becomes capable enough to substantially accelerate its own development, it might rapidly outpace all other systems. The mathematics of training compute provide one path to a unipolar outcome. If a doubling of compute leads to reliable improvements in capability, then an organization that gets far enough ahead in acquiring compute could maintain or extend their lead. Their improved systems could then help them develop even better training methods, hardware, and attract investment creating a positive feedback loop that others can't match. But compute isn't the only path to unipolarity. A single organization might discover a fundamentally better training approach, or develop an AI system that's better at improving itself than at helping humans build alternatives. Once any actor gets far enough ahead, it might become practically impossible for others to catch up.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789121784068}@@1.65](https://ai-safety-atlas.com/_astro/7c95ee50a329383fea2b3f2672634e71301f3fa440c6973c37cfa5c184979b0b.BOrLtK2p_spAhi.webp)--}{++{"author":"Elias's AI","timestamp":1789121784068}@@1.65](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-65.webp)++}
+![Figure 1.65](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-65.webp)
 
 *Figure 1.65: An illustration of unipolar takeoff. One model (dark blue here) significantly outperforms all others.*
 
 **In a multipolar takeoff, multiple AI systems or organizations develop advanced capabilities in parallel.** This could look like several large labs developing different but comparably powerful AI systems, or like many actors having access to similar AI capabilities through open source models or AI services. Today's AI landscape shows elements of multipolarity - multiple organizations can train large language models, and techniques developed by one lab are often quickly adopted by others. A multipolar takeoff might continue this pattern, with multiple groups maintaining similar capabilities even as those capabilities become transformative. A unipolar scenario raises concerns about the concentration of power, while a multipolar world presents challenges in coordination among diverse entities or AI systems. Both unipolar and multipolar worlds have the potential for misuse of advanced AI capabilities by human actors.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789121802551}@@1.66](https://ai-safety-atlas.com/_astro/915e3b17c43b29960b854422f5b0258ce491d17fbc45bce76b5eaec7c1e3781c.BIK3XKPQ_141vmN.webp)--}{++{"author":"Elias's AI","timestamp":1789121802551}@@1.66](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-66.webp)++}
+![Figure 1.66](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-66.webp)
 
 *Figure 1.66: An illustration of multipolar takeoff. No model significantly outperforms all others, and they all takeoff at a roughly competitive rate relative to each other.*
 
