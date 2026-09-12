@@ -2,7 +2,7 @@
 id: 5f1a6d4e-7b0c-4274-d895-b0c6d2e47f58
 reading_minutes: 25
 tutor_minutes: 20
-summary_for_tutor: "Main Lens for Chapter 4. Students articulate the ice cream argument, the escalation to sucralose and peacock tail, the Mink vignettes, and the blank-map principle, the alignment problem named and explained.{++{"author":"Andreas's AI","timestamp":1789230481998}@@ Four phases: recall, processing, a connection beat that asks which earlier idea the chapter rests on without naming it, then the learning question."++}
+summary_for_tutor: {--{"author":"Andreas's AI","timestamp":1789231751954}@@"Main--}{++{"author":"Andreas's AI","timestamp":1789231751954}@@Main++} Lens for Chapter 4. Students articulate the ice cream argument, the escalation to sucralose and peacock tail, the Mink vignettes, and the blank-map principle, the alignment problem named and explained.{++{"author":"Andreas's AI","timestamp":1789231751954}@@ Students also connect the chapter back to an earlier idea that the prompt does not name.++}
 title: You Don't Get What You Train For
 tldr: You trained it to be helpful. But helpful in training isn't the same as wanting to be helpful later. Chapter 4 explains why, and it gets worse.
 authors:
