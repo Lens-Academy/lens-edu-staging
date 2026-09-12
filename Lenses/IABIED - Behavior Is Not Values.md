@@ -2,7 +2,7 @@
 id: d5e6f7a8-b9c0-4d12-e345-f6a7b8c9d0e1
 reading_minutes: 10
 tutor_minutes: 15
-summary_for_tutor: "Teaches the behavior/values distinction from the second half of Chapter 2, the {--{"author":"Andreas's AI","timestamp":1789250898947}@@M1 capstone.--}{++{"author":"Andreas's AI","timestamp":1789250898947}@@point at which the safety concern gets fully framed.++} Students first reflect on what aligned behavior tells us about internal states, then read, then articulate why producing aligned outputs doesn't mean having aligned values."
+summary_for_tutor: "Teaches the behavior/values distinction from the second half of Chapter 2, the point at which the safety concern gets fully framed. Students first reflect on what aligned behavior tells us about internal states, then read, then articulate why producing aligned outputs doesn't mean having aligned values."
 title: "Behavior Is Not Values"
 tldr: An AI trained to act helpful learned what helpful behavior looks like. That's not the same as being helpful, just as an actor playing a drunk isn't drunk.
 authors:
@@ -104,7 +104,7 @@ content::
 \## Phase 3: Learning Question
 An AI refuses to help a user build a weapon. A developer points to this and says, "See? It's aligned." What has the developer actually observed, and what would you need to know to tell whether the refusal came from the AI's values or just from its training? Is there any test that could settle it?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 2 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase. This Lens is {--{"author":"Andreas's AI","timestamp":1789250905191}@@the M1 capstone — --}{++{"author":"Andreas's AI","timestamp":1789250905191}@@where ++}the safety concern {--{"author":"Andreas's AI","timestamp":1789250905191}@@is now--}{++{"author":"Andreas's AI","timestamp":1789250905191}@@gets++} fully framed.
+assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 2 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase. This Lens is where the safety concern gets fully framed.
 
 The question they were asked is a deliberate wedge, not the test question. It hands the student a concrete aligned-seeming behavior and a confident conclusion, and asks them to say what was actually observed and what evidence genuine alignment would require. Use it to draw out the learning outcome from the evidence side rather than asking them to recite the behavior/values definition or the actor analogy.
 
