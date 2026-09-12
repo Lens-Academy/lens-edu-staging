@@ -65,10 +65,10 @@ source:: ![[../Lenses/IABIED - How Did It Go]]
 # Submodule: Chapter 12: I Don't Want to Be Alarmist
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/13 - Chapter 12 - I Don't Want to Be Alarmist]]
 
-## Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252118544}@@ IABIED - The One-Chance Problem--}
+## Learning Outcome:
 source:: [[../Learning Outcomes/The one-chance problem]]
 
-## Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252118544}@@ IABIED - Ladder in the Dark--}
+## Learning Outcome:
 source:: [[../Learning Outcomes/The ladder in the dark]]
 
 %%
@@ -192,10 +192,10 @@ source:: ![[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
 # Submodule: Chapter 13: Shut It Down
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/14 - Chapter 13 - Shut It Down]]
 
-## Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252128841}@@ IABIED - The WWII Analogy--}
+## Learning Outcome:
 source:: [[../Learning Outcomes/The WWII analogy]]
 
-## Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252128841}@@ IABIED - Coalition Strategy--}
+## Learning Outcome:
 source:: [[../Learning Outcomes/Narrow coalition strategy]]
 
 %%
@@ -339,10 +339,10 @@ source:: ![[../Lenses/IABIED - QA - Keep the Coalition Large]]
 # Submodule: Chapter 14: Where There's Life, There's Hope
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/15 - Chapter 14 - Where There's Life, There's Hope]]
 
-## Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252136141}@@ IABIED - Un-Writing Our Fate--}
+## Learning Outcome:
 source:: [[../Learning Outcomes/Un-writing our fate]]
 
-## Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252136141}@@ IABIED - Role-Specific Action--}
+## Learning Outcome:
 source:: [[../Learning Outcomes/Role-specific action]]
 
 %%
