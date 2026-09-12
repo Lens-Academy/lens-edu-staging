@@ -231,9 +231,9 @@ One added phase per lens. Two lenses carry two threads each.
 | Lens | Threads landing here | Status |
 |---|---|---|
 | [[Lenses/IABIED - Goals and Instrumental Convergence]] | Intro hard vs. easy calls; Ch 5 goal-space | `done`. The betting question carries both without a separate phase |
-| Chapter 9 working lens | Ch 5 hostile vs. indifferent | `todo`, blocked on the working copy |
+| [[Lenses/IABIED - Cosmic Stakes]] | Ch 5 hostile vs. indifferent | `done`. Carried by the pre-reading prediction and the reaction brief, with no separate phase |
 | [[Lenses/IABIED - Path Prediction vs Outcome Prediction]] | Intro hard vs. easy calls | `todo` |
-| Chapter 4 lens | Ch 2 behavior vs. values | `todo`. A worked draft exists at [[Lenses/DRAFT - Ch4 with Reach-Back]], which stays as a proposal artifact; the integrated version is a fresh copy |
+| Chapter 4 lens | Ch 2 behavior vs. values | `todo`. A worked draft exists at [[Lenses/DRAFT - Ch4 with Connection]], which stays as a proposal artifact; the integrated version is a fresh copy |
 | [[Lenses/IABIED - Alchemy Not Science]] | Ch 2 grown not crafted; Ch 3 wanting emerges | `todo` |
 | [[Lenses/IABIED - Define the Aztec Warrior Analogy]] | Ch 1 prediction plus steering | `todo` |
 | [[Lenses/IABIED - The Five Engineering Curses]] | Ch 1 machine advantages, via the curse of speed | `todo` |
