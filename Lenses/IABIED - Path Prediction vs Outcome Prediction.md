@@ -77,7 +77,7 @@ content::
 \## Phase 3: Connection
 The Coda calls this an easy call. The term is not new here: the course opened on it, and the authors were specific about what makes a call easy rather than hard.
 
-Without looking anything up, say what that distinction was. Then check the Coda against it. Does the prediction the Coda actually makes qualify as an easy call by the authors' own definition? Say where it fits, and where you are not sure it does.
+Without looking anything up, say what that distinction was. Then check the Coda against it. Does the prediction the Coda actually makes qualify as an easy call by the authors' own definition? Say where it qualifies, and where you are not sure it does.
 
 assessment-instructions:: The student has read the Coda, written a free recall, and reflected on it. They have now been asked to recall the Introduction's hard-calls-and-easy-calls distinction and audit the Coda's prediction against it.
 
