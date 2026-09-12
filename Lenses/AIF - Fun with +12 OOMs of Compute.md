@@ -152,6 +152,10 @@ What to do in each reply:
 
 If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
+#### ++}{++{"author":"Lauren's AI","timestamp":1789216328120}@@Text
+content::
+The question in the next passage was written in 2020 and asks about "the end of 2020". That date is kept on purpose. Answer it as a reader in 2020 would have, with what was known then; the exercise is about the reasoning, not the calendar.
+
 #### ++}Article
 from:: ## Question Two: In this hypothetical, what's the probability that TAI appears by end of 2020?
 to:: your median should be roughly 10 years earlier than hers, all else equal: 2040-ish rather than 2050-ish.
