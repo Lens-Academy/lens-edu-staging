@@ -17,10 +17,10 @@ source:: ![[../Lenses/IABIED - M5 Welcome]]
 # Submodule: Ch10 - A Cursed Problem
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/11 - Chapter 10 - A Cursed Problem]]
 
-# Learning Outcome: IABIED - The Five Engineering Curses
+# Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252096943}@@ IABIED - The Five Engineering Curses--}
 source:: ![[../Learning Outcomes/The five engineering curses]]
 
-# Learning Outcome: IABIED - Position Not Despair
+# Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252096943}@@ IABIED - Position Not Despair--}
 source:: ![[../Learning Outcomes/Position, not despair]]
 
 %%
