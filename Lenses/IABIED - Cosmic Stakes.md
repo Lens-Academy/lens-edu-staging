@@ -25,21 +25,15 @@ authors:
 Working copy for integration, made from the proposal draft. The draft stays where it is
 as a worked example; this is the file that goes into the course.
 
-Open items, every one of which needs Chapter 9 in front of the author:
-- tldr, still a placeholder.
-- reading_minutes, currently 0.
-- Reaction brief, first question: what to say to a student who reads the cosmic scale as
-  rhetorical escalation rather than as part of the argument. Whether that is even a
-  misreading depends on what the chapter claims.
-- Reaction brief, second question: the two candidate answers marked TODO need confirming
-  against the chapter.
-- Comparison brief: the specific claims a student's prior is most likely to have missed.
-- Whether the reading needs bracketing. If so, either replace the Reading Assignment text
-  with an Article segment carrying exact from and to anchors, or add the chapter to
-  add_to_ai_context. The file is confirmed to exist at
-  Lens Edu Private/IABIED Book Content/09 - Chapter 9 - Ascension.md. Note that the film
-  lens carries its chapters on the submodule rather than on the lens, so match whichever
-  the submodule ends up doing.
+Chapter 9 reaches the tutor through add_to_ai_context on the Cosmic Stakes submodule in
+M4, matching how the film lens carries chapters 7 and 8. Nothing is needed on this file.
+
+Still open:
+- reading_minutes, currently 0. Needs the chapter's actual length.
+- The framing text asks whether Sable was indifferent or hostile. That is the strongest
+  accepted answer to the reaction question below it. Decide whether to cut the sentence.
+- IABIED - QA - The Ending is carded at the foot of this lens and is also carded by the
+  Dive Deeper: Chapter 9 index lens, which moves into this same submodule. One should go.
 
 Delete this block and the wip tag at promotion.
 %%
