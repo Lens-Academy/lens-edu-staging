@@ -119,9 +119,9 @@ Noticed 2026-09 between two validation runs. The `Domains` folder has been restr
 
 Two consequences.
 
-**Twelve validation errors now attribute to this course and are not ours.** They are topic files inside the new folders missing an integer `domain-number` field. Between the two runs the vault went from 2,656 to 2,722 files validated and from 299 to 620 total issues, so the migration is mid-flight. Do not fix these; they belong to whoever is running that workstream. Do check that the count does not grow when we validate after our own changes, because a rising count could hide one of ours.
+**Twelve validation errors briefly attributed to this course and were not ours.** Topic files inside the new folders missing an integer `domain-number`. That workstream fixed them within the day and the count is back to zero for us. The lesson stands: when the vault-wide issue count moves, check whether it is ours before reacting, and check that it does not grow after our own changes, because a rising count could hide one of ours. As of 2026-09-10 the folder is named `Domains and Topics`, having been renamed twice during a single working session, so any path written here for it may already be stale.
 
-**Coordinate before stage 3.** That workstream is editing the same outcome files we are about to add recall segments to, and it has already rewritten frontmatter across the whole folder once.
+**Coordinate before stage 3.** That workstream is editing the same outcome files we are about to add recall segments to, and it has already rewritten frontmatter across the whole folder once. Spot-checked on 2026-09-10: it changed only the `topic:` field and its path, leaving statements, tests and eval-results untouched.
 
 ### Surveys and meetings
 
