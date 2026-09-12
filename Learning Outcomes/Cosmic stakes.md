@@ -25,13 +25,6 @@ It now points at Predictable sub-goals from unknown goals, which is the outcome 
 actually imports at the head of the unit. The suggested lens now points at the working
 copy rather than the draft.
 
-Open items:
-- reading-from and reading-to anchors. Must match the chapter character-exactly.
-- The statement and the rubric predate a summary of the chapter and do not yet account
-  for two things the chapter contains: the expansion terminating at a boundary with a
-  second superintelligence, and that second superintelligence having been successfully
-  aligned by its own creators. Level 4 currently offers only two stopping conditions.
-
 Test question is written to pass B1: no chapter is named, no "the authors" or "the text",
 and it supplies its own scenario, so it can be posed cold.
 
