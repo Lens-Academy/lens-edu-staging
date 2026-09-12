@@ -187,7 +187,12 @@ Calibration summary (on close):
 Safety and integrity:
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
 - If the student reaches the correct answer early, probe edge cases and implications (push from ice cream to sucralose to the peacock tail, or to the blank-map principle) rather than ending prematurely.
-- If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
+- If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.{++{"author":"Andreas's AI","timestamp":1789228783851}@@
+
+On the connection phase that now precedes this one:
+- **What this phase assesses has not changed.** It is Chapter 4's outcome, and nothing else. The previous phase asked the student to name an earlier idea; that is not part of what you are assessing here and must not become a second thing they have to get right. Do not open by returning to it, do not require them to use it, and do not treat an answer that never mentions it as incomplete. A student who rebuts the million-tests claim entirely from Chapter 4's own material has answered this question well.
+- **Use the connection only as a rescue.** If the student stalls on why behavioral evidence cannot settle the question, you may point back to what they said in the previous phase as a way in, in one sentence. That is the only role it has here.
+- **Report, do not grade.** The test-readiness verdict is about Chapter 4 alone, exactly as specified above. After it, add one separate sentence noting whether the student reached for earlier material on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.++}
 
 #### Text
 content::
