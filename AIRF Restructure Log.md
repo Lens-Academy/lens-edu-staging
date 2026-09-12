@@ -122,7 +122,7 @@ Two consequences.
 
 **Twelve validation errors briefly attributed to this course and were not ours.** Topic files inside the new folders missing an integer `domain-number`. That workstream fixed them within the day and the count is back to zero for us. The lesson stands: when the vault-wide issue count moves, check whether it is ours before reacting, and check that it does not grow after our own changes, because a rising count could hide one of ours. As of 2026-09-10 the folder is named `Domains and Topics`, having been renamed twice during a single working session, so any path written here for it may already be stale.
 
-**Coordinate before stage 3.** That workstream is editing the same outcome files we are about to add recall segments to, and it has already rewritten frontmatter across the whole folder once. Spot-checked on 2026-09-10: it changed only the `topic:` field and its path, leaving statements, tests and eval-results untouched.
+**Coordination before stage 3: cleared 2026-09-11.** The concern was that this workstream was editing the same outcome files we were about to touch. Two things retire it. Stage 3 adds phases to lenses, not to outcomes, so the overlap it worried about is not where the work lands. And a course-scoped `validate_content` comes back clean, so every `topic:` link in a file this course reaches resolves against the current tree. The errors still open in that tree are `_domain_metadata.md` files missing frontmatter, which are theirs and reach no course. The earlier spot-check on 2026-09-10 stands: it changed only the `topic:` field and its path, leaving statements, tests and eval-results untouched.
 
 ### Surveys and meetings
 
