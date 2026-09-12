@@ -175,7 +175,7 @@ add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 
 # Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252063505}@@ IABIED - Define the Goal-Space Argument--}
 source:: ![[../Learning Outcomes/The goal-space argument]]
 
-# Learning Outcome: IABIED - Distinguish Hostile from Indifferent AI
+# Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252070505}@@ IABIED - Distinguish Hostile from Indifferent AI--}
 source:: ![[../Learning Outcomes/Hostile vs. indifferent AI]]
 
 # Lens:
@@ -372,7 +372,7 @@ source:: ![[../Lenses/IABIED - QA - Orthogonality]]
 # Submodule: Ch6 - We'd Lose
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]
 
-# Learning Outcome: IABIED - Define the Aztec Warrior Analogy
+# Learning Outcome:
 source:: ![[../Learning Outcomes/The Aztec warrior analogy]]
 
 # Learning Outcome: IABIED - Describe the Refrigerator Thought Experiment
