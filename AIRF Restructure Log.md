@@ -137,7 +137,7 @@ The conclusion is unchanged. Surveys carry no chapter or module references, so n
 | **Meeting titles** | Done in 1e. Meetings 1 and 5 renamed |
 | **`meeting-doc-template::` Google Docs** | Five external templates, one per meeting. These hold the actual per-meeting discussion content, and the content behind meetings 1, 2 and 3 all change. This is the largest external dependency and belongs in the comms pass |
 
-**Do not edit survey files casually.** The course file records a hard rule learned the hard way: no answerable segment may precede an outbound link, because answers live in React state until submit and survey links carry no `target=_blank`, so a learner who clicks a link mid-survey loses every answer and their attendance. The retired v1 files also record why they were byte-for-byte copies of one another, which was to keep every question key, wording and order stable so the pre/post rating comparison held. Whether the v2 set preserves those keys has not been checked here and should be before anyone edits one.
+**Do not edit survey files casually.** The course file records a hard rule learned the hard way: no answerable segment may precede an outbound link, because answers live in React state until submit and survey links carry no `target=_blank`, so a learner who clicks a link mid-survey loses every answer and their attendance. The retired v1 files also record why they were byte-for-byte copies of one another, which was to keep every question key, wording and order stable so the pre/post rating comparison held. Andreas's account is that the v2 set preserves those keys and that only the survey files changed; that has not been independently checked here.
 
 ### Outcomes we are deliberately not touching
 
@@ -222,7 +222,7 @@ Do not strip the Obsidian comment block in M3's welcome: it holds drafted framin
 | [[Lenses/IABIED - Cosmic Stakes]] | TODOs filled from a summary, not the chapter. Promoted and imported | `done`. See section 8 before revising the briefs |
 | [[Learning Outcomes/Cosmic stakes]] | `requires` repointed, reading span added, level 4 and level 5 extended. Promoted and imported | `done` |
 | `Dive Deeper: Chapter 9` lens, id `b3132948` | Moved into the Cosmic Stakes submodule with `The Ending` and `Won't It Choose to Be Moral`. The card for the latter is still deliberately absent while its Q&A is a placeholder | `done` |
-| [[Learning Outcomes/The core extinction argument]] | `requires` points at *Why we'd lose*, which this course never teaches. Repoint at the chapter 6 pair. Test block is empty | `todo` |
+| [[Learning Outcomes/The core extinction argument]] | **Out of scope**, and with it [[Learning Outcomes/Why we'd lose]] and [[Learning Outcomes/Your path forward]]. All three are `work-in-progress` with empty tests, none has ever had one, and M7's imports of two of them sit inside a comment block, so nothing they say is live. The synthesis they describe is already run by M7's Welcome lens as a question. Making them real means deciding whether that synthesis is a lens question or a graded outcome, which is an overhaul of the final module, not a repoint | `dropped` |
 | [[Learning Outcomes/Fiction as argument, not prediction]] | Level 5's chapter reference corrected to the film and chapter 9 by Andreas; the module label rephrased out. Nothing else touched | `drafted`, awaiting acceptance of the suggestion |
 
 ### Stage 3, recall segments
@@ -234,7 +234,7 @@ One added phase per lens. Two lenses carry two threads each.
 | [[Lenses/IABIED - Goals and Instrumental Convergence]] | Intro hard vs. easy calls; Ch 5 goal-space | `done`. The betting question carries both without a separate phase |
 | [[Lenses/IABIED - Cosmic Stakes]] | Ch 5 hostile vs. indifferent | `done`. Carried by the pre-reading prediction and the reaction brief, with no separate phase |
 | [[Lenses/IABIED - Path Prediction vs Outcome Prediction]] | Intro hard vs. easy calls | `todo` |
-| Chapter 4 lens | Ch 2 behavior vs. values | `todo`. A worked draft exists at [[Lenses/DRAFT - Ch4 with Connection]], which stays as a proposal artifact; the integrated version is a fresh copy |
+| [[Lenses/IABIED - You Don't Get What You Train For]] | Ch 2 behavior vs. values | `todo`. A worked draft exists at [[Lenses/DRAFT - Ch4 with Connection]], which stays as a proposal artifact; the integrated version is a fresh copy |
 | [[Lenses/IABIED - Alchemy Not Science]] | Ch 2 grown not crafted; Ch 3 wanting emerges | `todo` |
 | [[Lenses/IABIED - Define the Aztec Warrior Analogy]] | Ch 1 prediction plus steering | `todo` |
 | [[Lenses/IABIED - The Five Engineering Curses]] | Ch 1 machine advantages, via the curse of speed | `todo` |
@@ -253,7 +253,7 @@ Every module already has a `# Submodule: Welcome`. The work is making its conten
 | M3 | Rename the `Part 3 Welcome` wrapper to `Welcome`, rewrite for chapters 4 to 6. Currently hands chapter 6 to the next module | `todo` |
 | M4 | Retire [[Lenses/IABIED - M4 Welcome]], replace inline. Stale reading list and hidden Chat segment go with it | `todo` |
 | M5 | Retire [[Lenses/IABIED - M5 Welcome]], replace inline | `todo` |
-| M6, M7 | Confirm M7, then bring both to the same shape | `todo` |
+| M6, M7 | Confirm M7, then bring both to the same shape. **M7 also carries a live error:** the twelve-step argument chain in its Welcome brief has step 7 as the scenario covering chapters 7 to 9 through the film. The film is 7 and 8, and chapter 9 is read | `todo` |
 
 ### Stage 5, resources
 
@@ -376,4 +376,7 @@ All three were wrong. The ceiling is the limits of intelligence and physics, whe
 | 2 | 2026-09-11 | Both files promoted off `wip` and imported into the submodule, outcome before lens | Lens, outcome, M4 | A production module referencing a `wip` file is itself an error, so the tags came off in the same batch. `validate_content` clean on the course afterwards, without `accept_drafts` | Direct |
 | 2 | 2026-09-11 | Module label stripped from level 5 of [[Learning Outcomes/Fiction as argument, not prediction]] | That file | It is another course's file as well as ours, and the eval notes name the label as the C3 failure. `eval-results` still carries the pre-edit `content-sha`, so the recorded checks now describe a state the file is no longer in | **Pending suggestion**, filed as one rather than applied |
 | 6 | 2026-09-11 | **Intake form dropped from scope.** Intake moved out of the course to `application-survey::`, collected by the enrolment wizard before a learner joins | Stage 6 table | Removed rather than deferred. There is no longer a form to build inside the course | Log only |
-| 3 | 2026-09-11 | Survey scan refreshed. The course has moved to the v2 instruments and no longer points at any `AIRF Session` or `AIRF Weekly` file | Section 3 | The scan named five surveys that are no longer attached, which would have sent a later session to the wrong files. Conclusion unchanged: still no chapter or module references. Whether the v2 set preserves the old question keys is unchecked | Log only |
+| 3 | 2026-09-11 | Survey scan refreshed. The course has moved to the v2 instruments and no longer points at any `AIRF Session` or `AIRF Weekly` file | Section 3 | The scan named five surveys that are no longer attached, which would have sent a later session to the wrong files. Conclusion unchanged: still no chapter or module references, and the question keys are reported to have survived the move | Log only |
+| 2 | 2026-09-11 | **Dropped from scope:** `The core extinction argument`, and with it `Why we'd lose` and `Your path forward` | Stage 2 table | Nothing they say is live. M7's imports of two of them sit inside a comment block, all three have never had a test, and their suggested lenses point at optional Q&A cards rather than any teaching lens. Recorded as one drop covering all three so a later session does not re-open just one | Log only |
+| 4 | 2026-09-11 | **Found while checking the above:** M7's Welcome brief lists step 7 of the argument chain as the film covering chapters 7 to 9 | Stage 4 table | Live in the tutor's context, unlike the outcomes. The film is 7 and 8 and chapter 9 is read, so the chain is wrong for anyone taking the restructured course. Folded into the existing M7 welcome row | Log only |
+| 3 | 2026-09-11 | Stage 3's chapter 4 row now names [[Lenses/IABIED - You Don't Get What You Train For]] instead of saying "Chapter 4 lens" | Stage 3 table | Every other row in that table is a link to its lens. The odd one out reads as though the target were undecided, which it is not | Log only |
