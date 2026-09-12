@@ -13,7 +13,7 @@ Git records what changed. This file records why, what it depended on, and what w
 
 **Dates:** full `YYYY-MM-DD`. Entries in section 8 reading only `2026-09` happened on **2026-09-08**; they predate this convention and are left rather than churned.
 
-**Picking this up cold?** Read this file, then [[AI Guide/Course Authoring]]. Section 5 has the stage inventory with statuses; that is where to start. Conventions established in the work so far, none of them obvious from the files themselves:
+**Picking this up cold?** Read this file, then [[AIRF Restructure - Working Preferences]], then [[AI Guide/Course Authoring]]. Section 5 has the stage inventory with statuses; that is where to start. Conventions established in the work so far, none of them obvious from the files themselves:
 
 - **Spelling is American throughout.** `Behavior vs. values`, `Grown, not crafted`. Easy to drift out of.
 - **Outcomes carry no module or chapter labels**, not in the statement, the test or the rubric. Outcomes are shared across courses, so "M3" resolves differently depending on who imported it. This is also what the B1 eval check asks for.
