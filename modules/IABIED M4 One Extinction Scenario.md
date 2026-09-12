@@ -140,7 +140,7 @@ add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/10 - Coda]]
 ## Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789251711398}@@ IABIED - Distinguish Path Prediction from Outcome Prediction--}
 source:: ![[../Learning Outcomes/Path vs. outcome prediction]]
 
-## Learning Outcome: IABIED - Distinguish Fiction as Argument from Prediction
+## Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789251717439}@@ IABIED - Distinguish Fiction as Argument from Prediction--}
 source:: ![[../Learning Outcomes/Fiction as argument, not prediction]]
 
 ## Lens:
