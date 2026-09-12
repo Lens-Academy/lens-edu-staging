@@ -34,7 +34,7 @@ Robust governance requires combining corporate self-governance for technical spe
 
 **The governance of frontier AI cannot be entrusted to any single institution or level of authority.** Companies lack incentives to fully account for societal impacts, nations compete for technological advantage, and international bodies struggle with capacity for enforcement. Each level of governance – corporate, national, and international — brings unique strengths and faces distinct limitations. Understanding how these levels interact and reinforce each other is important for building effective AI governance systems.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120683766}@@4.21](https://ai-safety-atlas.com/_astro/14ca84afb9a7bc7f7d1cd16dd8c6f4ac382df5db1e4dacb36674d4cc5f600d7d.BvsDwaSg_ym4Bt.webp)--}{++{"author":"Elias's AI","timestamp":1789120683766}@@4.21](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-21.webp)++}
+![Figure 4.21](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-21.webp)
 
 *Figure 4.21: The three levels of AI governance.*
 
