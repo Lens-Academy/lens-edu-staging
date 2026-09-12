@@ -41,7 +41,7 @@ content::
 
 The film ended with Sable taking over the control of Earth from humanity, but the story does not end here. Where the story goes now may seem like a hard call at first glance, but the authors would argue otherwise.
 
-What attitude has Sable been indifferent or hostile towards humanity in its takeover, and does the difference even matter if humanity ends up extinct either way?
+What attitude has Sable shown towards humanity in its takeover, and does the difference even matter if humanity ends up extinct either way?
 
 As you read, hold on to one thing: which earlier idea from this course this chapter is the endpoint of.
 
