@@ -1,8 +1,8 @@
 ---
 id: c9a4f6d2-3b7e-4b80-a2d5-6f1c0e8a4b73
 reading_minutes: 5
-tutor_minutes: {--{"author":"Andreas's AI","timestamp":1789238602482}@@15--}{++{"author":"Andreas's AI","timestamp":1789238602482}@@20++}
-summary_for_tutor: "Teaches the path/outcome distinction via the Coda's Stockfish analogy: outcome confidence is achievable even when path confidence is not, when the capability gap is sufficiently decisive. Students articulate the distinction, apply it to the superintelligence case, and identify the conditional structure ('only if allowed to begin') that makes Part III's question {--{"author":"Andreas's AI","timestamp":1789238602482}@@live."--}{++{"author":"Andreas's AI","timestamp":1789238602482}@@live. They also recall the Introduction's hard-and-easy-calls definition and audit the Coda's prediction against it."++}
+tutor_minutes: 20
+summary_for_tutor: "Teaches the path/outcome distinction via the Coda's Stockfish analogy: outcome confidence is achievable even when path confidence is not, when the capability gap is sufficiently decisive. Students articulate the distinction, apply it to the superintelligence case, and identify the conditional structure ('only if allowed to begin') that makes Part III's question live. They also recall the Introduction's hard-and-easy-calls definition and audit the Coda's prediction against it."
 title: "Path Prediction vs Outcome Prediction"
 tldr: You can't predict every move Stockfish will make. You can predict that you'll lose. The Coda argues the same logic applies here.
 authors:
@@ -71,7 +71,7 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 
 assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-c.md]]{>>{"author":"Luc's AI","timestamp":1783779634146}@@This Phase 2 block is byte-identical in 2 lenses (Path Prediction vs Outcome Prediction, Position Not Despair); deduplicated into the shared prompt file with the text unchanged.<<}
 
-#### {++{"author":"Andreas's AI","timestamp":1789238584791}@@Question: Open
+#### Question: Open
 id:: ca4137f3-ea64-47bc-8e77-8228275842e9
 content::
 \## Phase 3: Connection
@@ -110,10 +110,10 @@ What not to do:
 - Preview the next phase. It turns on whether an easy call means there is nothing to be done, and that objection has to arrive fresh.
 - Turn this into a review of the Introduction.
 
-#### ++}Question
+#### Question
 id:: a869a31e-b4f8-48b3-9578-c15671517846
 content::
-\## Phase {--{"author":"Andreas's AI","timestamp":1789238584791}@@3:--}{++{"author":"Andreas's AI","timestamp":1789238584791}@@4:++} Learning Question
+\## Phase 4: Learning Question
 A friend finishes the Coda and closes the book, defeated: "They say it's an *easy call* that we lose, so the outcome is settled. This is just a doom book. Why write a Part III? Why do anything at all?" Using the Coda's own distinction, show your friend where the reasoning breaks. Is the book predicting that we lose, or something narrower with a condition attached? And what exactly would have to be true before the "easy call" applies at all?
 
 assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the Coda of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
@@ -158,12 +158,12 @@ Safety and integrity:
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
 - If the student conflates "easy call" with "certainty" or with "fatalism," separate the three plainly: an easy call is a high-confidence conditional prediction, not a guarantee and not a claim that nothing can be done.
 - If the student reaches the correct answer early, probe edge cases and implications rather than ending prematurely.
-- If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.{++{"author":"Andreas's AI","timestamp":1789238595330}@@
+- If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
 On the connection phase that now precedes this one:
 - **What this phase assesses has not changed.** It is the Coda's outcome, and nothing else. The previous phase had the student audit the Coda against the Introduction's definition; that is not part of what you are assessing here and must not become a second thing they have to get right. A student who dismantles the friend's objection entirely from the Coda's own material has answered this question well.
 - **Use the audit only as a rescue.** If the student stalls on why an easy call is not a settled fate, you may point back to what they concluded in the previous phase, in one sentence. That is the only role it has here.
-- **Report, do not grade.** The test-readiness verdict is about the Coda alone, exactly as specified above. After it, add one separate sentence noting whether the student could produce the Introduction's definition unaided, needed the hint, or could not get there. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.++}
+- **Report, do not grade.** The test-readiness verdict is about the Coda alone, exactly as specified above. After it, add one separate sentence noting whether the student could produce the Introduction's definition unaided, needed the hint, or could not get there. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.
 
 #### Text
 content::
