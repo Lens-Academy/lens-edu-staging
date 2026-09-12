@@ -282,6 +282,8 @@ Every module already has a `# Submodule: Welcome`. The work is making its conten
 
 ### Stage 5, resources
 
+**Runs last as of 2026-09-12; see section 4.** Everything here sits outside the unit sequence and can go live while a cohort is already running.
+
 | File | Change | Status |
 |---|---|---|
 | New resources module | Sits outside the unit sequence | `todo` |
