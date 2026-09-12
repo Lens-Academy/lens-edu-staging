@@ -6,6 +6,7 @@ discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings:
   - "Extension: Terminal Goals and Instrumental Goals"
   - "Extension: Instrumental Convergence"
+  - "Chapter 9: Ascension"
   - "Coda"
 ---
 
