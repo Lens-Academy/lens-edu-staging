@@ -15,21 +15,9 @@ summary_for_tutor: "Reading lens for the last chapter of the book's extinction
  something before reading. Close by handing off to the Coda, which is where
  this specific story gets weighed against the general argument. Do not preview
  it."
-tags:
-  - wip
 authors:
   - Andreas+Claude
 ---
-
-%%
-Working copy for integration, made from the proposal draft. The draft stays where it is
-as a worked example; this is the file that goes into the course.
-
-Chapter 9 reaches the tutor through add_to_ai_context on the Cosmic Stakes submodule in
-M4, matching how the film lens carries chapters 7 and 8. Nothing is needed on this file.
-
-Delete this block and the wip tag at promotion.
-%%
 
 #### Text
 content::
