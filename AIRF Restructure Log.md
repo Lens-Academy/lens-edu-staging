@@ -27,7 +27,7 @@ Git records what changed. This file records why, what it depended on, and what w
 
 Two tooling issues to raise with whoever maintains the relay. Unscoped `grep` and `glob` return content and paths from folders the key cannot `read`, including `Lens Edu Private`, while scoped calls and `read` enforce correctly, so the hole is specifically the no-path case. And edits route to the review queue based on whether the text looks human-written, so the protection weakens as a file accumulates AI-authored content; check how each edit actually landed rather than assuming.
 
-**Working practice.** Edits to files we did not write go in as suggestions for review, never as overwrites. New files we author can be written directly. Each entry in section 8 should say which of the two it was, so nothing lands silently.
+**Working practice.** Edits to files we did not write go in as suggestions for review, never as overwrites. New files we author can be written directly. Each entry in section 9 should say which of the two it was, so nothing lands silently.
 
 **Prior art we are not using.** There is a `Lens/base/IABIED/IABIED Course Build Notes` directory containing a module build algorithm, per-module decision logs and a spec for a "Supplementary Resources Lens". The relay key cannot open it. Decision: ignore it. The live modules were presumably built from those notes and have moved on since, so the modules are the better reference, and [[AI Guide/Course Authoring]] is the authority for how to write. Noted only so nobody later thinks it was missed.
 
