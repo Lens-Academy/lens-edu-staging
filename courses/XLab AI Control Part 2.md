@@ -36,18 +36,21 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Control P2 D3 Research sabotage and exploration hacking in practice]]
 
-# Meeting: Unit 8: Research sabotage and exploration hacking in practice
+# Meeting: Unit 3: Research sabotage and exploration hacking in practice
+meeting-doc-template:: https://docs.google.com/document/d/1TJm6Ox_gy0JY0CdLwJSzB4wVCl5597MRaUCFr6b5i8I/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Control P2 D4 Beyond scheming: reward seekers]]
 
-# Meeting: Unit 9: Beyond scheming: reward seekers
+# Meeting: Unit 4: Beyond scheming: reward seekers
+meeting-doc-template:: https://docs.google.com/document/d/1RRhQa5EP0Gw-c4i2PQALPIJZqODlfb0z_EvvOtuOzSg/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Control P2 D5 Deals with AIs and next steps]]
 
-# Meeting: Unit 10: Deals with AIs and next steps
+# Meeting: Unit 5: Deals with AIs and next steps
+meeting-doc-template:: https://docs.google.com/document/d/1PiY1DJH19GTDS2chlBcGxNB6tv7pQR75oIkbA0_fgQo/edit
 survey:: [[../surveys/AC2 Final Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
