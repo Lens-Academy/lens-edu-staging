@@ -256,7 +256,7 @@ One added phase per lens, and only the U3 opener carries two threads in one segm
 | [[Lenses/IABIED - The Five Engineering Curses]] | Ch 1 machine advantages, via the curse of speed | `todo` |
 | [[Lenses/IABIED - The One-Chance Problem]] | Ch 10 five curses, via Chernobyl appearing twice | `todo` |
 
-The six existing chapter lenses all run the same `Reading Assignment`, `Phase 1: Recall`, `Phase 2: Processing`, `Phase 3: Learning Question` shape, so the insert is identical in each: a new phase before the learning question, and the learning question renumbered. The two U3 lenses do not, and neither needs a bolted-on phase: the opener's betting question already does the retrieval, and the chapter 9 lens does it through the prediction it takes before the reading.
+The six existing chapter lenses all run the same `Reading Assignment`, `Phase 1: Recall`, `Phase 2: Processing`, `Phase 3: Learning Question` shape, so the insert sits in the same place in each: a new phase before the learning question, and the learning question renumbered. What the new phase asks is not identical everywhere. The Coda's is a variant, for reasons recorded in its log entry. The two new U3 lenses do not run that shape at all, and neither needs a bolted-on phase: the opener's betting question already does the retrieval, and the chapter 9 lens does it through the prediction it takes before the reading.
 
 ### Stage 4, welcomes
 
