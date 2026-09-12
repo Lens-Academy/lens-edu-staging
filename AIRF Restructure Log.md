@@ -250,8 +250,8 @@ One added phase per lens, and only the U3 opener carries two threads in one segm
 | [[Lenses/IABIED - Cosmic Stakes]] | Ch 5 hostile vs. indifferent | `done`. Carried by the pre-reading prediction and the reaction brief, with no separate phase |
 | [[Lenses/IABIED - Path Prediction vs Outcome Prediction]] | Intro hard vs. easy calls | `done`, untested. A variant beat: recall and audit rather than search and name |
 | [[Lenses/IABIED - You Don't Get What You Train For]] | Ch 2 behavior vs. values | `done`, untested. A worked draft stays at [[Lenses/DRAFT - Ch4 with Connection]] as a proposal artifact; the phase was inserted fresh rather than promoted |
-| [[Lenses/IABIED - Alchemy Not Science]] | Ch 2 grown not crafted | `todo` |
-| [[Lenses/IABIED - Strong Superalignment Objection]] | Ch 3 wanting emerges from training | `todo` |
+| [[Lenses/IABIED - Alchemy Not Science]] | Ch 2 grown not crafted | `done`, untested |
+| [[Lenses/IABIED - Strong Superalignment Objection]] | Ch 3 wanting emerges from training | `done`, untested. The second variant beat: it hands over the previous lens's thread and asks for the extension |
 | [[Lenses/IABIED - Define the Aztec Warrior Analogy]] | Ch 1 prediction plus steering | `done`, untested. Closes the last thread into U2 |
 | [[Lenses/IABIED - The Five Engineering Curses]] | Ch 1 machine advantages, via the curse of speed | `done`, untested. The brief credits self-amplification as well as speed |
 | [[Lenses/IABIED - The One-Chance Problem]] | Ch 10 five curses, via Chernobyl appearing twice | `todo` |
