@@ -66,7 +66,7 @@ How to grade what comes back:
 - **Strong near miss: "AI is grown, not crafted" (Chapter 2).** Legitimate and upstream of the right answer. Accept it, then push once: growing rather than crafting explains why we cannot inspect the values directly, but what earlier idea tells us we cannot read them off the behavior either?
 - **Weaker near miss: "wanting emerges from training" (Chapter 3).** This is the immediate predecessor and easy to reach for. Accept that it is connected, then push: that tells us wants appear, but this chapter's claim is about a gap between the target and the want. Which earlier idea set up the gap?
 - **Off target.** They name something from Chapter 4 itself (the ice cream argument, sucralose, the Mink vignettes). Say plainly that those are this chapter's own material and ask them to look further back.
-- **Blank.** Give one narrowing hint and no more: think about what this chapter assumes you have already accepted about the relationship between what a system does and what it wants. If they are still stuck after that, name Chapter 2's distinction in one sentence, say that noticing these connections is the skill being practised rather than a memory test, and move on without further teaching.
+- **Blank.** Give one narrowing hint and no more: think about what this chapter assumes you have already accepted about the relationship between what a system does and what it wants. If they are still stuck after that, name Chapter 2's distinction in one sentence, say that noticing these connections is the skill being practiced rather than a memory test, and move on without further teaching.
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
 
