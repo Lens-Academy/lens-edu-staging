@@ -227,16 +227,16 @@ One added phase per lens. Two lenses carry two threads each.
 
 | Lens | Threads landing here | Status |
 |---|---|---|
-| New U3 opener | Intro hard vs. easy calls; Ch 5 goal-space | `todo` |
-| [[Lenses/DRAFT - Ch9 Cosmic Stakes (from film lens)]] | Ch 5 hostile vs. indifferent | `drafted` |
+| [[Lenses/IABIED - Goals and Instrumental Convergence]] | Intro hard vs. easy calls; Ch 5 goal-space | `done`. The betting question carries both without a separate phase |
+| Chapter 9 working lens | Ch 5 hostile vs. indifferent | `todo`, blocked on the working copy |
 | [[Lenses/IABIED - Path Prediction vs Outcome Prediction]] | Intro hard vs. easy calls | `todo` |
-| [[Lenses/DRAFT - Ch4 with Reach-Back]] | Ch 2 behavior vs. values | `drafted` |
+| Chapter 4 lens | Ch 2 behavior vs. values | `todo`. A worked draft exists at [[Lenses/DRAFT - Ch4 with Reach-Back]], which stays as a proposal artifact; the integrated version is a fresh copy |
 | [[Lenses/IABIED - Alchemy Not Science]] | Ch 2 grown not crafted; Ch 3 wanting emerges | `todo` |
 | [[Lenses/IABIED - Define the Aztec Warrior Analogy]] | Ch 1 prediction plus steering | `todo` |
 | [[Lenses/IABIED - The Five Engineering Curses]] | Ch 1 machine advantages, via the curse of speed | `todo` |
 | [[Lenses/IABIED - The One-Chance Problem]] | Ch 10 five curses, via Chernobyl appearing twice | `todo` |
 
-All eight run the same `Reading Assignment`, `Phase 1: Recall`, `Phase 2: Processing`, `Phase 3: Learning Question` shape, so the insert is identical in each: a new phase before the learning question, and the learning question renumbered.
+The six existing chapter lenses all run the same `Reading Assignment`, `Phase 1: Recall`, `Phase 2: Processing`, `Phase 3: Learning Question` shape, so the insert is identical in each: a new phase before the learning question, and the learning question renumbered. The two U3 lenses do not, and neither needs a bolted-on phase: the opener's betting question already does the retrieval, and the chapter 9 lens does it through the prediction it takes before the reading.
 
 ### Stage 4, welcomes
 
