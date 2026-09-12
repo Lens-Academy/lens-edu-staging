@@ -131,12 +131,12 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Won't It Choose to Be Moral]]
 
-# Submodule: Cosmic Stakes
+# Submodule: {--{"author":"Andreas's AI","timestamp":1789200427636}@@Cosmic Stakes
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/09 - Chapter 9 - Ascension]]
 
 {>>{"author":"Andreas's AI","timestamp":1789196572696}@@Placeholder submodule. It receives the Cosmic Stakes lens once that comes off wip, and the Dive Deeper: Chapter 9 block plus its two hidden imports, which currently sit in The Scenario above. Chapter 9 is deliberately scoped here rather than on The Scenario, so the film lens's tutor still sees only chapters 7 and 8 and its source-precedence rule keeps meaning something.<<}
 
-# Submodule: Coda
+# Submodule: --}Coda
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/10 - Coda]]
 
 ## Learning Outcome: IABIED - Distinguish Path Prediction from Outcome Prediction
