@@ -27,7 +27,7 @@ Mitigating catastrophic AI risks is not enough to make AI go well.
 
 **A strategic question, with significant implications for resource allocation, is the tension between ensuring humanity’s long-term survival and shaping the quality of its future.** Much of the AI safety field, for historical reasons, has focused on mitigating those risks—ensuring that we survive the transition to superintelligence. However, a complementary approach, championed by researchers like William MacAskill at Forethought, argues that merely surviving is not enough; we must also work to ensure that the future is one of flourishing ([Forethought, 2025](https://www.forethought.org/research/better-futures)). This raises a difficult question: given limited resources, is it prudent to focus on achieving a "great" future when so much work remains to be done to simply secure a future?
 
-![Figure {--{"author":"Elias's AI","timestamp":1789119788133}@@3.30](https://ai-safety-atlas.com/_astro/8a8554ab49ff6bc8aba40e97d7cb01bda3285cbc5f839b8fc425c7c57c9c19a6.egqerHoL_Z1Tw81c.webp)--}{++{"author":"Elias's AI","timestamp":1789119788133}@@3.30](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-30.webp)++}
+![Figure 3.30](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-30.webp)
 
 *Figure 3.30: “Well, even if we survive, we probably just get a future that’s a small fraction as good as it could have been.  We could, instead, try to help guide society to be on track to a truly wonderful future.” - William MacAskill.*
 

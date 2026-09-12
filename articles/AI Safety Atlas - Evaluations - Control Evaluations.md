@@ -50,17 +50,17 @@ After catching even a single example of misbehavior, developers gain powerful ne
 4. **Exploitation of collusion signals:** If the attack involves coordination between AI instances, developers can identify and neutralize the coordination mechanisms (like specific triggers or patterns).
 5. **Instance-specific knowledge:** Examining the specific instance's attack strategy reveals valuable information about its goals, capabilities, and limitations.
 
-![Figure 5.50]({--{"author":"Elias's AI","timestamp":1789120713891}@@https://ai-safety-atlas.com/_astro/12a867e4a65cfe00c2bbed18ca046466d4233ffb543c3e7b51e0c9a18448e6ba.C85TBooG_Z1SxBR.webp--}{++{"author":"Elias's AI","timestamp":1789120713891}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-50.webp++})
+![Figure 5.50](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-50.webp)
 
 *Figure 5.50: Basic setup for how we might structure control evaluations ([Greenblatt et al., 2024](https://arxiv.org/pdf/2312.06942.pdf)).*
 
 **Control evaluations frame safety as an adversarial game between red and blue teams.** To rigorously test safety protocols against intentional subversion, control evaluations structure the problem as a competitive game. The red team constructs attack policies and model substitutes that attempt to cause unacceptable outcomes, serving as a proxy for potential scheming AIs. The blue team develops control protocols – monitoring systems, input filters, and human auditing procedures – to prevent these attacks. This framework converts the abstract question "would this AI be safe if it were scheming?" into a concrete, measurable question: "can our red team construct a model that bypasses our safety measures?" ([Greenblatt & Shlegeris, 2024](https://www.alignmentforum.org/s/PC3yJgdKvk8kzqZyA/p/kcKrE9mzEHrdqtDpE); [Greenblatt & Shlegreis, 2024](https://axrp.net/episode/2024/04/11/episode-27-ai-control-buck-shlegeris-ryan-greenblatt.html); [Korbak et al., 2024](https://arxiv.org/abs/2501.17315)).
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120942404}@@5.51](https://ai-safety-atlas.com/_astro/c005216827d7306a780ea546998c27eb37ea002828db3fc58620cb4b666c6100.B3wyeRtm_ZnpoUm.webp)--}{++{"author":"Elias's AI","timestamp":1789120942404}@@5.51](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-51.webp)++}
+![Figure 5.51](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-51.webp)
 
 *Figure 5.51: An example of a control evaluation in a toy setting. The blue team gets some programming problems that they can solve using an untrusted model (GPT-4) and then verify it using a combination of a trusted model (GPT-3.5) and a human (simulated using GPT-4). The red team replaces the untrusted model and tries to inject malicious code ([Greenblatt et al., 2024](https://arxiv.org/pdf/2312.06942.pdf)).*
 
-![Figure 5.52]({--{"author":"Elias's AI","timestamp":1789120751375}@@https://ai-safety-atlas.com/_astro/9dfa6f6a465b6c3a43fbfad6ff0ed27bbf2cc65aa937a144e4624e7b1433eca7.CGIcC23w_ZG4HzP.webp--}{++{"author":"Elias's AI","timestamp":1789120751375}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-52.webp++})
+![Figure 5.52](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-52.webp)
 
 *Figure 5.52: Example process for the red team generating a single backdoor injection attempt ([Greenblatt et al., 2024](https://arxiv.org/pdf/2312.06942.pdf)).*
 
@@ -90,7 +90,7 @@ For example, when testing whether an AI agent can exfiltrate sensitive data, the
 
 **AI-Control Games can formalize the safety-usefulness tradeoff as a mathematical frontier.** Using game theory, researchers model control protocols as multi-objective optimization problems that balance safety against utility ([Griffin et al., 2024](https://arxiv.org/abs/2409.07985v1)). This approach quantifies the "alignment tax" – how much usefulness must be sacrificed to achieve a specific safety threshold ([Christiano, 2019](https://www.effectivealtruism.org/articles/paul-christiano-current-work-in-ai-alignment)). Basically, measuring how much utility/usefulness you lose if you insist that the model is safe. The resulting safety-usefulness frontier represents the set of achievable tradeoffs between preventing unacceptable outcomes and preserving system utility. This type of formal analysis can tell us the thresholds after which marginal safety improvements require disproportionate utility sacrifices. For example, increasing human audit rates from 0.1% to 1% may minimally improve safety while significantly increasing costs and decreasing system throughput ([Griffin et al., 2024](https://arxiv.org/abs/2409.07985v1)). Then we can make educated decisions about what level of utility to safety we are willing to trade vs not.
 
-![Figure 5.53]({--{"author":"Elias's AI","timestamp":1789120779520}@@https://ai-safety-atlas.com/_astro/0f3da53426de6de0ca389d82c3a60089502aefa543e2681591e54c32f540dc6e.CmgIy55u_KWQaN.webp--}{++{"author":"Elias's AI","timestamp":1789120779520}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-13.webp++})
+![Figure 5.53](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-strategies-figure-3-13.webp)
 
 *Figure 5.53: Illustration of how applying a safety or alignment technique could make the model less capable. This is called safety tax.*
 

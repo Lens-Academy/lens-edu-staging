@@ -30,13 +30,13 @@ Machine learning can result in models learning correlated proxy objectives inste
 
 **CoinRun - an easy to understand example of goal misgeneralization.** In this game agents spawn on the left side of the level, avoid enemies and obstacles, and collect the coin for a reward of 10 points. The model is trained on thousands of procedurally generated levels, each with different layouts of platforms, enemies, and hazards. At the end of training the agents are very capable. They can dodge moving enemies, time jumps across lava pits, and efficiently traverse complex levels they've never seen before ([Langosco et al., 2022](https://arxiv.org/abs/2105.14111)). The training seems to be very successful. The agents achieve high rewards consistently across diverse test environments. But when coins are moved to random locations during testing, the agents are still very capable of navigation, but they consistently ignore the coins that were clearly visible and just continue moving right toward empty walls.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120465820}@@7.1](https://ai-safety-atlas.com/_astro/3b88cc0b6bec51461ec923766978aab94c60b27d913370914e4aa8f9aaf72050.CXzWXidC_1l5W81.webp)--}{++{"author":"Elias's AI","timestamp":1789120465820}@@7.1](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-goal-misgeneralization-figure-7-1.webp)++}
+![Figure 7.1](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-goal-misgeneralization-figure-7-1.webp)
 
 *Figure 7.1: Two levels in CoinRun. The level on the left is much easier than the level on the right ([Cobbe et al., 2019](https://arxiv.org/abs/1812.02341)).*
 
 **Agents learned "move right" rather than "collect coins" despite receiving correct reward signals.** Our reward specification was correct: +10 for collecting coins, 0 otherwise. But because coins always appeared rightward during training, two behavioral patterns received identical reinforcement. "Collect coins" and "move right" both achieved perfect correlation with rewards, making them indistinguishable to the optimization process. This reveals a gap between what we specify and what systems learn. This wasn't a specification problem or a capability failure. Instead, agents learned a different goal than intended, despite receiving correct training signals throughout the process. This is called goal misgeneralization.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120488067}@@7.2](https://ai-safety-atlas.com/_astro/f75da8b92c395db15e94716625f052b85e8a3e7c44149f9afe8ff386e821aa66.CCG3G6Fh_Zbdoiz.webp)--}{++{"author":"Elias's AI","timestamp":1789120488067}@@7.2](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-goal-misgeneralization-figure-7-2.webp)++}
+![Figure 7.2](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-goal-misgeneralization-figure-7-2.webp)
 
 *Figure 7.2: The agent is trained to go to the coin, but ends up learning to just go to the right ([Cobbe et al., 2019](https://arxiv.org/abs/1812.02341)).*
 
@@ -56,17 +56,17 @@ Machine learning can result in models learning correlated proxy objectives inste
 
 *Video 7.2: Optional video from Google DeepMind AGI Safety Course, talking about where misaligned goals might even come from.*
 
-**Traditional {--{"author":"Elias's AI","timestamp":1789121270239}@@**machine learning**--}{++{"author":"Elias's AI","timestamp":1789121270239}@@machine learning++} assumes generalization is a one-dimensional characteristic.** We often think of overfitting in the context of narrow systems built to perform specific tasks - models either generalize well to new data or they don't. Systems either generalize well to new data or they don't, with failures assumed to be uniform across all capabilities. But research in multi-task learning shows that different objectives can generalize independently, even when they appear perfectly correlated during training ([Sener & Koltun, 2019](https://arxiv.org/abs/1810.04650)).
+**Traditional machine learning assumes generalization is a one-dimensional characteristic.** We often think of overfitting in the context of narrow systems built to perform specific tasks - models either generalize well to new data or they don't. Systems either generalize well to new data or they don't, with failures assumed to be uniform across all capabilities. But research in multi-task learning shows that different objectives can generalize independently, even when they appear perfectly correlated during training ([Sener & Koltun, 2019](https://arxiv.org/abs/1810.04650)).
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120506524}@@7.3](https://ai-safety-atlas.com/_astro/e489169793d24bf1b563265a5af4f1ccf00e91d628101d14f90833a02facd258.BxBoeYFO_D71JP.webp)--}{++{"author":"Elias's AI","timestamp":1789120506524}@@7.3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-goal-misgeneralization-figure-7-3.webp)++}
+![Figure 7.3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-goal-misgeneralization-figure-7-3.webp)
 
 *Figure 7.3: Conventional view of generalization and overfitting ([Mikulik, 2019](https://www.lesswrong.com/posts/2mhFMgtAjFJesaSYR/2-d-robustness)).*
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120530435}@@7.4](https://ai-safety-atlas.com/_astro/d1ea87dc552ae880fe447e370c5d4179f512a3b217629d54dd798689481596e6.CrxkJIs7_2n4SYb.webp)--}{++{"author":"Elias's AI","timestamp":1789120530435}@@7.4](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-goal-misgeneralization-figure-7-4.webp)++}
+![Figure 7.4](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-goal-misgeneralization-figure-7-4.webp)
 
 *Figure 7.4: More accurate and safety focused view of generalization and overfitting. We need to separately measure capability generalization and goal generalization ([Mikulik, 2019](https://www.lesswrong.com/posts/2mhFMgtAjFJesaSYR/2-d-robustness)).*
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120558355}@@7.5](https://ai-safety-atlas.com/_astro/7189436a4644b9729633628a5c5299e3240e78e2fc6569a77f9e490175c5e990.D4xKeFlD_8hrhI.webp)--}{++{"author":"Elias's AI","timestamp":1789120558355}@@7.5](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-goal-misgeneralization-figure-7-5.webp)++}
+![Figure 7.5](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-goal-misgeneralization-figure-7-5.webp)
 
 *Figure 7.5: Table showcasing the 2 dimensional generalization picture for the CoinRun agent. Scenario 3 - capability generalization but not goal misgeneralization is the concerning misalignment scenario. *
 
@@ -86,7 +86,7 @@ Learned causal structure: Action $\to$ Rightward Movement $\to$ Reward
 
 Both structures explain the training data equally well. Standard reinforcement learning algorithms optimize for expected return without explicitly performing causal discovery - they increase the probability of reward-producing actions without identifying which features of those actions were causally responsible ([de Haan et al., 2019](https://arxiv.org/abs/1905.11979)).
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120597782}@@7.6](https://ai-safety-atlas.com/_astro/dd98205ab010884207ab87953a03cabaee3d4fd5a56d0d01f4ca98dcc4cfc732.C9wlKx3K_Z1qnmdL.webp)--}{++{"author":"Elias's AI","timestamp":1789120597782}@@7.6](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-goal-misgeneralization-figure-7-6.webp)++}
+![Figure 7.6](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-goal-misgeneralization-figure-7-6.webp)
 
 *Figure 7.6: Another example of a hypothetical misgeneralized test dialogue. The LLM based AI assistant has learned the goal of schedule meetings at restaurants, when you intended for it to learn to schedule meetings wherever is best. Due to the distribution shift, even though it realises that you would prefer to have a video call to avoid getting sick, it persuades you to go to a restaurant instead, ultimately achieving the goal by lying to you about the effects of vaccination ([DeepMind, 2022](https://deepmindsafetyresearch.medium.com/goal-misgeneralisation-why-correct-specifications-arent-enough-for-correct-goals-cf96ebc60924)).*
 
@@ -98,15 +98,15 @@ Both structures explain the training data equally well. Standard reinforcement l
 
 **Auto-induced distribution shift creates feedback loops that amplify goal misgeneralization.** Unlike natural distribution shift where external factors change the environment, auto-induced distribution shift occurs when the AI system's own actions systematically alter the data distribution it encounters ([Krueger et al., 2020](https://arxiv.org/abs/2009.09153)). Think about a content recommendation system that learns the misgeneralized goal "maximize engagement" instead of "recommend valuable content." As it optimizes for clicks and time-on-site, it gradually shifts user behavior toward more sensational content consumption. This creates a feedback loop: the system's actions change user preferences, which changes the data distribution, which reinforces the misgeneralized goal. Each iteration takes the system further from the original intended objective while making the learned objective appear more successful by its own metrics.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120617202}@@7.7](https://ai-safety-atlas.com/_astro/52d6c9622119807e1e98e9774491bb9552ec66998e79f33f943bd306fef6ca1e.CxFOUEwY_Z1TYJDI.webp)--}{++{"author":"Elias's AI","timestamp":1789120617202}@@7.7](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-goal-misgeneralization-figure-7-7.webp)++}
+![Figure 7.7](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-goal-misgeneralization-figure-7-7.webp)
 
 *Figure 7.7: Auto induced distribution shift is when the AI model itself causes a distribution shift (and thereby generalization failure) due to its own actions and impact on the environment.*
 
 :::
 
-**Adding more {--{"author":"Elias's AI","timestamp":1789121286891}@@**training data**--}{++{"author":"Elias's AI","timestamp":1789121286891}@@training data++} cannot eliminate spurious correlations because we cannot identify all correlations in advance.** Think about why training on random coin placements in CoinRun solves that specific misgeneralization. It works because we can identify and break the specific correlation between rightward movement and reward. But this requires knowing in advance which correlations are spurious beforehand. In complex domains, training data reflects the statistical structure of training environments, not necessarily the causal structure of intended tasks.
+**Adding more training data cannot eliminate spurious correlations because we cannot identify all correlations in advance.** Think about why training on random coin placements in CoinRun solves that specific misgeneralization. It works because we can identify and break the specific correlation between rightward movement and reward. But this requires knowing in advance which correlations are spurious beforehand. In complex domains, training data reflects the statistical structure of training environments, not necessarily the causal structure of intended tasks.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120661897}@@7.8](https://ai-safety-atlas.com/_astro/59f19867c3175845103b5a662df2dc30d6591c421b84c0317ab06adfba49e164.C1ipxLfF_1NIwBf.webp)--}{++{"author":"Elias's AI","timestamp":1789120661897}@@7.8](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-goal-misgeneralization-figure-7-8.webp)++}
+![Figure 7.8](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-goal-misgeneralization-figure-7-8.webp)
 
 *Figure 7.8: An example of causal confusion in imitation learning/behavioral cloning for self driving cars. This specific example shows that more data actually might lead to greater causal confusion. The model learns to hit the brake whenever the brake indicator is on. If that data is not included in training then the model correctly identifies the pedestrian as the causal factor influencing hitting the brake ([de Haan et al., 2019](https://arxiv.org/abs/1905.11979)).*
 

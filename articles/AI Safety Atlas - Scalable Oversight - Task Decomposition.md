@@ -49,7 +49,7 @@ Example:
 - Summarize each page within each chapter.
 - Summarize each paragraph within each page.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789119944733}@@8.4](https://ai-safety-atlas.com/_astro/788d6158a6e7aaafe1d7044b447ed314674ac9885f21caad79bdfcc3c1904674.BUPscxcC_Zu2rQ9.webp)--}{++{"author":"Elias's AI","timestamp":1789119944733}@@8.4](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-4.webp)++}
+![Figure 8.4](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-4.webp)
 
 *Figure 8.4: Example of summarizing books that combines task decomposition with learning from human feedback. The book is first decomposed into multiple chunks using a fixed (not learned) chunking algorithm (height 0). Then humans provide demonstrations summarizing these chunks, which is used to train an ML model on this data using behavior cloning. Then more data is collected from humans who compare different model outputs which is then used to further train a summarization policy using reward modeling. Then summaries are concatenated (height 0), data is collected for summarizing these summaries, and the model is fine-tuned for this summarization task (height 1). This procedure is repeated recursively until the entire book is summarized. ([Wu et al., 2021](https://arxiv.org/abs/2109.10862))*
 
@@ -75,7 +75,7 @@ Factored cognition refers to mechanisms where sophisticated learning and reasoni
 
 Consider the cognitive task of deciding how to invest $100,000 to achieve the most social good. A human would need to analyze various factors, predict outcomes, and make informed decisions. By subdividing this task into smaller, more manageable subtasks, each of which can be solved using clear training signals, we can delegate these tasks to ML systems.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789119979268}@@8.5](https://ai-safety-atlas.com/_astro/29a8f2b9a3288ed659de962839d81f5e903183ced631b291bca3c4fd446717ed.CNAOejhe_gaoRQ.webp)--}{++{"author":"Elias's AI","timestamp":1789119979268}@@8.5](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-5.webp)++}
+![Figure 8.5](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-scalable-oversight-figure-8-5.webp)
 
 *Figure 8.5: This figure illustrates the process of breaking down a complex research question concerning azithromycin into multiple sub-questions. The sub-questions are gradually simplified until they can be addressed through a single language model query. ([Ought, 2022](https://primer.ought.org/)).*
 

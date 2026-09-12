@@ -35,7 +35,7 @@ Add discussion note here:
 
 **The scope of AI governance is broad, so this chapter will primarily focus on large-scale risks associated with frontier AI.** As a reminder frontier AIs are highly capable models that could possess dangerous capabilities sufficient to pose severe risks to public safety ([Anderljung et al., 2023](https://arxiv.org/abs/2307.03718)). Although in recent history many state of the art advancements have been driven by LLMs or foundation models, frontier AI as a term is not limited to just these types of models. We will examine why governance is necessary, how it complements technical AI safety efforts, and the key challenges and opportunities in this rapidly evolving field. We will focus on the governance of commercial and civil AI applications, as military AI governance involves a distinct set of issues that are beyond the scope of this chapter.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789120199271}@@4.1](https://ai-safety-atlas.com/_astro/d091db4aff7c1d59be2021b343eb16e39efeb4d57002ba43ac42ce8507ed7448.DBsKUdpA_kMDI7.webp)--}{++{"author":"Elias's AI","timestamp":1789120199271}@@4.1](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-1.webp)++}
+![Figure 4.1](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-1.webp)
 
 *Figure 4.1: Distinguishing AI models according to their level of potential harm and generality. We focus here on frontier AI models ([U.K. government, 2023](https://www.gov.uk/government/publications/frontier-ai-capabilities-and-risks-discussion-paper/frontier-ai-capabilities-and-risks-discussion-paper)).*
 
