@@ -44,7 +44,7 @@ Really, the learning outcome here distills back to the power of intelligence (pl
 # Submodule: Ch4 - You Don't Get What You Train For
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/04 - Chapter 4 - You Don't Get What You Train For]]
 
-# Learning Outcome: Explain You Don't Get What You Train For
+# Learning Outcome:
 source:: ![[../Learning Outcomes/You don't get what you train for]]
 
 # Lens:
