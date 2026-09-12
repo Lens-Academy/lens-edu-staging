@@ -275,7 +275,7 @@ Last, and deliberately so. Scope cannot be assessed until the restructure above 
 | Meeting 3 doc | Loses chapter 6, gains the U3 opener and chapter 9 | `todo` |
 | Meeting 4 doc | Expected unchanged | `todo` |
 | Meeting 5 doc | Expected unchanged | `todo` |
-| **Intake form for M1** | **Out of scope.** A separate application on the platform now handles intake, so this is not ours to build. The blocker was never effort but the overlap question, what belongs pre-meeting versus in `AIRF Session 1 Survey` whose keys the Session 5 pre/post join depends on. That question survives the drop and now belongs to whoever owns that application | `dropped` |
+| **Intake form for M1** | **Out of scope.** Intake has moved outside the course: `application-survey:: [[../surveys/Application Form]]` in the preamble, collected by the enrolment wizard before a learner joins. Nothing to build here. The old blocker, what belongs pre-meeting versus in the post-meeting survey, is now a question for whoever owns the Application Form | `dropped` |
 
 The docs are reachable through the `meeting-doc-template::` links on each `# Meeting:` block. They may warrant restructuring in their own right rather than only patching, which is a decision for whoever owns them once the shape above is settled. Note the history recorded in the course file: meeting 2's doc once ran an outdated session for three days because a link was believed repointed and was not, so verify by opening the doc rather than by trusting the link.
 
