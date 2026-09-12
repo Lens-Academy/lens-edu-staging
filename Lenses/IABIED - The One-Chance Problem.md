@@ -1,8 +1,8 @@
 ---
 id: 45167504-3f3c-4d1c-9547-42ec3302bacc
 reading_minutes: 15
-tutor_minutes: {--{"author":"Andreas's AI","timestamp":1789249758678}@@15--}{++{"author":"Andreas's AI","timestamp":1789249758678}@@20++}
-summary_for_tutor: "Covers the first section of Chapter 12: how Chernobyl and Titanic establish the human denial pattern, and why the one-chance disanalogy makes that pattern fatal in the ASI context. Students should be able to explain what each analogy contributes to the argument and why 'no second time' changes the logic of acting under {--{"author":"Andreas's AI","timestamp":1789249758678}@@uncertainty."--}{++{"author":"Andreas's AI","timestamp":1789249758678}@@uncertainty. Students also connect the section back to an earlier idea that the prompt does not name."++}
+tutor_minutes: 20
+summary_for_tutor: "Covers the first section of Chapter 12: how Chernobyl and Titanic establish the human denial pattern, and why the one-chance disanalogy makes that pattern fatal in the ASI context. Students should be able to explain what each analogy contributes to the argument and why 'no second time' changes the logic of acting under uncertainty. Students also connect the section back to an earlier idea that the prompt does not name."
 title: "The One-Chance Problem"
 tldr: "What do a 1912 shipwreck and a 1986 nuclear meltdown tell us about how humans treat risks they can't quite believe in? And what changes when there is no second chance to learn?"
 authors:
@@ -97,7 +97,7 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### {++{"author":"Andreas's AI","timestamp":1789249741395}@@Question: Open
+#### Question: Open
 id:: 1219b71e-12ca-469a-b25a-288e7e33baec
 content::
 \## Phase 3: Connection
@@ -136,10 +136,10 @@ What not to do:
 - List the candidates for them.
 - Resolve the self-reinforcing trap, that denial is what would stop anyone meeting the higher burden of proof. That is this chapter's own move and the next phase's material.
 
-#### ++}Question
+#### Question
 id:: e01aa66f-dc27-4c7e-b28b-b1c31b7b1d8f
 content::
-\## Phase {--{"author":"Andreas's AI","timestamp":1789249741395}@@3:--}{++{"author":"Andreas's AI","timestamp":1789249741395}@@4:++} Learning Question
+\## Phase 4: Learning Question
 Chapter 12 uses Chernobyl and Titanic to establish an argument, then says those cases have a decisive disanalogy with ASI. Why does the chapter bother with the analogies at all if the disanalogy is what really matters? What work are Chernobyl and Titanic doing in the argument?
 
 assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
@@ -182,12 +182,12 @@ Calibration summary (on close):
 Safety and integrity:
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
 - If the student reaches the correct answer early, probe edge cases and implications rather than ending prematurely.
-- If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.{++{"author":"Andreas's AI","timestamp":1789249750392}@@
+- If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
 On the connection phase that now precedes this one:
 - **What this phase assesses has not changed.** It is this section's outcome, and nothing else. The previous phase asked the student to name an earlier idea; that is not part of what you are assessing here and must not become a second thing they have to get right. A student who explains what Chernobyl and the Titanic are doing entirely from this section's own material has answered this question well.
 - **Use the connection only as a rescue.** If the student stalls on why the disanalogy changes the logic rather than just adding urgency, you may point back to what they said in the previous phase as a way in, in one sentence. That is the only role it has here.
-- **Report, do not grade.** The test-readiness verdict is about this section alone, exactly as specified above. After it, add one separate sentence noting whether the student reached for earlier material on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.++}
+- **Report, do not grade.** The test-readiness verdict is about this section alone, exactly as specified above. After it, add one separate sentence noting whether the student reached for earlier material on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.
 
 #### Text
 content::
