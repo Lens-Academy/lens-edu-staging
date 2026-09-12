@@ -124,7 +124,7 @@ How to grade what comes back:
 
 **Once they have committed, and only then, one closing move.** Name the shape they have just walked. Chapter 2 to Chapter 3 ran from "we grow it" to "so it wants things we did not choose." This chapter's two halves run from "so we cannot understand it" to "so we cannot safely use a stronger one to fix it." The same pair of ideas, one step further along. Say it once. Do not labor it, and do not say it to a student who has not yet answered.
 
-Response length: {--{"author":"Andreas's AI","timestamp":1789253446796}@@80 to 150--}{++{"author":"Andreas's AI","timestamp":1789253446796}@@80–150++} words. Short paragraphs only. No lists.
+Response length: 80–150 words. Short paragraphs only. No lists.
 
 Response style:
 - Calm and direct.
