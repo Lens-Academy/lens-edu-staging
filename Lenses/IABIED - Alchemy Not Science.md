@@ -1,8 +1,8 @@
 ---
 id: b0d5d25c-77c1-4bce-99f0-821427c58cee
 reading_minutes: 15
-tutor_minutes: 15
-summary_for_tutor: "Teaches Chapter 11's alchemy-stage diagnosis using the alchemist allegory, the Musk/LeCun folk-theory critique, the Dartmouth 1955 historical anchor, and the mother/engineer dialogue. The Lens covers the first reading of Ch11 (beginning to end of the systemic-incompetence paragraph). The strong-superalignment objection is taught by a separate Lens. Students should end this Lens able to state the alchemy-stage diagnosis with the right valence (a field-level epistemic claim, not despair, not blame) and identify what specifically distinguishes folk-theory thinking from engineering thinking."
+tutor_minutes: {--{"author":"Andreas's AI","timestamp":1789246979220}@@15--}{++{"author":"Andreas's AI","timestamp":1789246979220}@@20++}
+summary_for_tutor: "Teaches Chapter 11's alchemy-stage diagnosis using the alchemist allegory, the Musk/LeCun folk-theory critique, the Dartmouth 1955 historical anchor, and the mother/engineer dialogue. The Lens covers the first reading of Ch11 (beginning to end of the systemic-incompetence paragraph). The strong-superalignment objection is taught by a separate Lens. Students should end this Lens able to state the alchemy-stage diagnosis with the right valence (a field-level epistemic claim, not despair, not blame) and identify what specifically distinguishes folk-theory thinking from engineering {--{"author":"Andreas's AI","timestamp":1789246979220}@@thinking."--}{++{"author":"Andreas's AI","timestamp":1789246979220}@@thinking. Students also connect the chapter back to an earlier idea that the prompt does not name."++}
 title: "Alchemy, Not Science"
 tldr: "The alignment field can produce techniques that work, but nobody understands why. That gap, between recipe and principle, is what separates alchemy from engineering."
 authors:
