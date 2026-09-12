@@ -162,7 +162,7 @@ Safety and integrity:
 
 On the connection phase that now precedes this one:
 - **What this phase assesses has not changed.** It is the Coda's outcome, and nothing else. The previous phase had the student audit the Coda against the Introduction's definition; that is not part of what you are assessing here and must not become a second thing they have to get right. Do not open by returning to it, do not require them to use it, and do not treat an answer that never mentions it as incomplete. A student who dismantles the friend's objection entirely from the Coda's own material has answered this question well.
-- **Use the audit only as a rescue.** If the student stalls on why an easy call is not a settled fate, you may point back {++{"author":"Andreas's AI","timestamp":1789254840655}@@in one sentence ++}to what they concluded in the previous {--{"author":"Andreas's AI","timestamp":1789254840655}@@phase, in one sentence.--}{++{"author":"Andreas's AI","timestamp":1789254840655}@@phase.++} That is the only role it has here.
+- **Use the audit only as a rescue.** If the student stalls on why an easy call is not a settled fate, you may point back in one sentence to what they concluded in the previous phase. That is the only role it has here.
 - **Report, do not grade.** The test-readiness verdict is about the Coda alone, exactly as specified above. After it, add one separate sentence noting whether the student could produce the Introduction's definition unaided, needed the hint, or could not get there. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.
 
 #### Text
