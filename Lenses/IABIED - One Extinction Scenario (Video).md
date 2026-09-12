@@ -91,5 +91,5 @@ If they find the whole scenario implausible, that is a legitimate stance.
 Reflect back the strongest version of their skepticism rather than arguing
 it away.
 
-**Close.** Chapter 9 Is next, Then The Coda. Do Not Preview Either. However
+**How to end.** Chapter 9 Is next, Then The Coda. Do Not Preview Either. However
 It Ends, Do Not End on Doom.
