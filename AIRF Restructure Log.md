@@ -198,12 +198,14 @@ Do not strip the Obsidian comment block in M3's welcome: it holds drafted framin
 
 | File | Change | Status |
 |---|---|---|
-| **New U3 opener outcome** | Written fresh, not inherited. Contained to the U3 opener readings (the chapter 4 and 5 extensions) plus the Part I concepts they extend. No module or chapter labels | `todo` |
-| New U3 opener lens | Pairs the chapter 4 and 5 extensions, carries two incoming threads | `todo` |
-| [[Lenses/DRAFT - Ch9 Cosmic Stakes (from film lens)]] | Fill the TODOs against chapter 9, promote | `drafted` |
-| [[Learning Outcomes/DRAFT - Cosmic stakes]] | Verify rubric against chapter 9, promote | `drafted` |
+| **New U3 opener outcome** | Written fresh, not inherited. `Predictable sub-goals from unknown goals`. Imported into M4 | `done` |
+| New U3 opener lens | `IABIED - Goals and Instrumental Convergence`. Elicitation, two extension readings, betting question, handoff. Imported into M4 | `done` |
+| [[Lenses/IABIED - One Extinction Scenario (Video)]] | Objection test flipped, bets callback added as a third beat, chapters 7 to 9 corrected to 7 and 8, handoff repointed at chapter 9, source-precedence rule added. Chapters 7 and 8 added to the submodule's `add_to_ai_context` | `done` |
+| Working copies of the two chapter 9 drafts | Copy `DRAFT - Ch9 Cosmic Stakes` and `DRAFT - Cosmic stakes` to `wip` working versions for integration. The originals stay as the proposal's worked examples, so the proposal keeps pointing at drafts rather than at live course pages | `todo` |
+| Chapter 9 working lens | Fill the TODOs against the chapter, promote | `todo` |
+| Chapter 9 working outcome | Verify rubric against the chapter, promote | `todo` |
+| `Dive Deeper: Chapter 9` lens, id `b3132948` | Currently sits inside M4's `The Scenario` submodule, alongside the chapter 7 and 8 index lenses, because all three were tied to the film. Chapter 9 is now its own reading, so this lens and its two hidden imports, `The Ending` and `Won't It Choose to Be Moral`, move into the new cosmic stakes submodule. Its card for `Won't It Choose to Be Moral` was deliberately removed earlier because that Q&A is still a placeholder; the hidden import stays and the card returns when the content is embedded | `todo` |
 | [[Learning Outcomes/The core extinction argument]] | `requires` points at *Why we'd lose*, which this course never teaches. Repoint at the chapter 6 pair. Test block is empty | `todo` |
-| [[Lenses/IABIED - One Extinction Scenario (Video)]] | Flip the objection test: the brief currently names the three mechanisms to the tutor, the learner should name them. Also states it replaces chapters 7 to 9; should be 7 and 8 | `todo` |
 | [[Learning Outcomes/Fiction as argument, not prediction]] | Light retouch. Rubric level 5 assumes chapters 7 to 9 were all felt through the film; chapter 9 is now read | `todo` |
 
 ### Stage 3, recall segments
