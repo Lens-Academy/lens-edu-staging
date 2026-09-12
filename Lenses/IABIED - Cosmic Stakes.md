@@ -150,10 +150,3 @@ The specific claims a prediction most often misses, roughly in order of how reli
 - **That other superintelligence was aligned by its own makers.** This is the one that reframes the chapter and the one a prior almost never contains. If the student's comparison stops short of it, raise it rather than letting the beat close without it.
 
 Close by sending them to the Coda, which is the piece that says how to weigh this specific story against the general argument. Do not preview it.
-
-#### Text
-content::
-\## Additional resources for this topic
-::card[[../Lenses/IABIED - QA - The Ending]]
-
-> If you are still uncertain about why the world would likely come to an end in such a fashion, read this to hear the author's rationale.
