@@ -151,7 +151,7 @@ Key concepts the student needs to grasp:
 - The mapping: Chernobyl illustrates speed, narrow margins, self-amplification, and complications; computer security (buffer overflow / Schneier) illustrates edge cases; the space probes illustrate the before/after gap that all five curses sit inside, rather than any single curse.
 - Distinctions to hold apart: speed is "the underlying physics is faster than humans can react"; self-amplification is "the failure mode feeds itself". The two are paired but distinct. Complications is not "hard to design": it is the safety mechanism itself becoming the failure mode (the SCRAM's graphite tips caused the explosion).
 - Why edge cases is uniquely worse for ASI: the other four are physical constraints any system faces and can be bested by ingenuity: there are probes that arrive and reactors that don't explode. Edge cases intensifies with intelligence: a smarter adversary finds more obscure exploits, and computer security is "famously losing" even when engineers fully craft and read their own code.
-- "Grown, not crafted" (M1 callback): AI alignment must hold against an intelligent system whose internals the engineers cannot read. They don't even know what their own system's edge cases are.
+- "Grown, not crafted" {--{"author":"Andreas's AI","timestamp":1789239755526}@@(M1--}{++{"author":"Andreas's AI","timestamp":1789239755526}@@(Chapter 2++} callback): AI alignment must hold against an intelligent system whose internals the engineers cannot read. They don't even know what their own system's edge cases are.
 
 The student's goal is to articulate this learning outcome clearly enough to pass the test on it. Your goal is to help them get there through dialogue rather than by explaining it to them.
 
