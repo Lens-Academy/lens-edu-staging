@@ -47,7 +47,7 @@ Let's pause the article to give you a text box. Reminder: his use of the word "f
 Before you read, what do you expect happens when you make the kinds of AI/ML software that were used in 2016 a trillion times larger? If it's hard, say so - you'll get a reply from the Tutor, and they'll give you some degree of hints.
 
 Set a 5 minute timer if you've got one handy. Your phone will do nicely. Think, but don't overthink.
-{>>{"author":"lauren (chrome@what)","timestamp":1787741570026}@@we should have a timer here<<}
+
 
 max-time:: 8:00
 
@@ -74,7 +74,7 @@ What to do in your single reply:
 2. If they wrote fewer than two concrete systems, or gave no mechanisms, ask once for the missing piece, but without expectation of followup.
 3. Then tell them to continue to the author's answers.
 
-This is a one-turn response.{++{"author":"AI","timestamp":1788869413759}@@ If the student says they are stuck or do not understand, give one concrete foothold (name one real system from 2016 and ask what a trillion times more compute does to it) rather than repeating the question.++}
+This is a one-turn response. If the student says they are stuck or do not understand, give one concrete foothold (name one real system from 2016 and ask what a trillion times more compute does to it) rather than repeating the question.
 
 #### Article
 from:: Below are my answers, listed in rough order of how 'fun' they seem to me.
@@ -112,9 +112,9 @@ What to do in each reply:
 2. Reward a student who finds an order-of-magnitude debt in their own entry.
 3. Push back once if the answer only praises or only dismisses the author's list without comparing it to their own.
 
-After 2 tutor replies, close the phase and send them on.{++{"author":"AI","timestamp":1788869416003}@@ If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.++}
+After 2 tutor replies, close the phase and send them on. If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
-#### {++{"author":"AI","timestamp":1788869411488}@@Question
+#### Question
 content::
 \## Your number first
 
@@ -152,11 +152,11 @@ What to do in each reply:
 
 If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
-#### ++}{++{"author":"Lauren's AI","timestamp":1789216328120}@@Text
+#### Text
 content::
 The question in the next passage was written in 2020 and asks about "the end of 2020". That date is kept on purpose. Answer it as a reader in 2020 would have, with what was known then; the exercise is about the reasoning, not the calendar.
 
-#### ++}Article
+#### Article
 from:: ## Question Two: In this hypothetical, what's the probability that TAI appears by end of 2020?
 to:: your median should be roughly 10 years earlier than hers, all else equal: 2040-ish rather than 2050-ish.
 
@@ -166,7 +166,7 @@ content::
 \## His number against yours
 
 You committed to a number before reading his. He says 90 percent, with an inside view near 99. Ajeya Cotra, whose model he is arguing with, says 50.
-{>>{"author":"lauren (chrome@what)","timestamp":1787818724284}@@TODO: need to move this question earlier in the article, before he gives his answer, and put the rest of the article in a spoiler block. also need to be able to put a timer so people can intentionally think for at least a certain amount of time.<<}
+
 Does your number move? Say by how much, and name which of his arguments moved it. If it does not move, say why none of them did.
 
 max-time:: 8:00
@@ -186,6 +186,6 @@ What to do in each reply:
 2. Reward a stated direction with a named mover: "I moved from X to Y because of his argument about Z" is the target shape. "I did not move, because his argument assumes W and I do not" meets the bar equally.
 3. A number that jumps to 90 "because he said 90" gets exactly one push: whose inside view produced that number, and what is yours?
 
-On close: tell them their number gets revisited at module end, and give a brief calibration on what they have solid and what is still borrowed.{++{"author":"AI","timestamp":1788869418262}@@
+On close: tell them their number gets revisited at module end, and give a brief calibration on what they have solid and what is still borrowed.
 
-If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.++}
+If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
