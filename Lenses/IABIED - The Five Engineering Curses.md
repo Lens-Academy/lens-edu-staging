@@ -103,7 +103,7 @@ content::
 \## Phase 3: Connection
 This chapter borrows its curses from reactors, probes and computer security. But the reason they transfer to AI at all comes from much earlier in this course.
 
-Without looking anything up, write down which earlier idea does that work, and how. If more than one comes to mind, say which you think is load-bearing and why.
+Without looking anything up, write down which earlier idea does that work, and how. If more than one comes to mind, {--{"author":"Andreas's AI","timestamp":1789253476724}@@say--}{++{"author":"Andreas's AI","timestamp":1789253476724}@@pick++} which {++{"author":"Andreas's AI","timestamp":1789253476724}@@one ++}you think is load-bearing and why.
 
 assessment-instructions:: The student has read the first half of Chapter 10, written a free recall, and reflected on it. They have now been asked which earlier idea licenses transferring the curses from the case studies to AI. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
 
