@@ -48,11 +48,13 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 ++}# Module: [[../modules/XLab Control {--{"author":"Elias's AI","timestamp":1789204921560}@@M5 - Low-stakes control: sabotage, sandbagging,--}{++{"author":"Elias's AI","timestamp":1789204921560}@@P1 D4 Plans, the control toolkit,++} and {--{"author":"Elias's AI","timestamp":1789204921560}@@elicitation]]--}{++{"author":"Elias's AI","timestamp":1789204921560}@@high-stakes framing]]
 
 # Meeting: Unit 4: Plans, the control toolkit, and high-stakes framing++}
-{++{"author":"Elias's AI","timestamp":1789204921560}@@survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+{++{"author":"Elias's AI","timestamp":1789210656954}@@meeting-doc-template:: https://docs.google.com/document/d/10t8mJhSO3yOtQGUHXylvi3_mxjfAvx7XNU0ly0adv50/edit
+++}{++{"author":"Elias's AI","timestamp":1789204921560}@@survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 ++}# Module: [[../modules/XLab Control {--{"author":"Elias's AI","timestamp":1789204921560}@@M6 - Beyond scheming: seekers --}{++{"author":"Elias's AI","timestamp":1789204921560}@@P1 D5 High-stakes monitoring and mitigation]]
 
 # Meeting: Unit 5: High-stakes monitoring ++}and {--{"author":"Elias's AI","timestamp":1789204921560}@@deals]]--}{++{"author":"Elias's AI","timestamp":1789204921560}@@mitigation++}
-{--{"author":"Elias's AI","timestamp":1789204921560}@@# Module: [[../_deprecated/XLab Control M7 - Next Steps]]--}{++{"author":"Elias's AI","timestamp":1789204921560}@@survey:: [[../surveys/AC1 Final Impact Survey v2]]
+{++{"author":"Elias's AI","timestamp":1789210658900}@@meeting-doc-template:: https://docs.google.com/document/d/14RrHaPMKBELyddLNYG6geBIig8JQBV-uLEX77X6eT3M/edit
+++}{--{"author":"Elias's AI","timestamp":1789204921560}@@# Module: [[../_deprecated/XLab Control M7 - Next Steps]]--}{++{"author":"Elias's AI","timestamp":1789204921560}@@survey:: [[../surveys/AC1 Final Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]++}
