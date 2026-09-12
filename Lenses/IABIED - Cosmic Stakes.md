@@ -111,8 +111,7 @@ On the second question, the answers worth accepting:
 - **Indifference, not hostility (Chapter 5).** The strongest answer, and the chapter carries it: the oceans boil because power generation needs the room, not because anything was aimed at what was still living in them. Indifference is also what makes the scale follow, since a hostile system would have had a reason to stop once the enemy was gone.
 - **Intelligence as prediction plus steering (Chapter 1).** Also strong. A mind that predicts and steers reshapes its environment, and this chapter is that claim with no ceiling on how much environment counts.
 - **Instrumental convergence (the Chapter 5 extension read at the top of this unit).** Accept, and push once: convergent subgoals explain why it expands, but what explains why it keeps expanding past the point of any threat from us?
-- **Alignment is a target that can be hit, and we missed it.** Accept fully if they raise it. It is the chapter's sharpest claim, and it does not sit in the same tidy shape as the three above, so take it and ask which of the earlier ideas it turns from a law into a contingency.
-- Score as wrong, not as a near miss: any answer whose endpoint is that alignment is impossible. The chapter shows the opposite in the same scene, and a student leaving with that has read it backwards. Say so plainly.
+- If a student builds their answer on the closing speculative passage about another civilization's aligned superintelligence, note that it is a coda rather than the chapter's argument, and ask them for the idea the main body completes. That alignment can be hit at all is a point this course made earlier; this scenario presumes it was not.
 - If they name something from Chapter 9 itself, say plainly that it is this chapter's own material and ask them to look further back. Give at most one narrowing hint before naming a candidate yourself.
 
 Do not preview the Coda. They read it next, and it is the piece that says how to weigh this specific story against the general argument.
@@ -146,7 +145,8 @@ Do not congratulate accuracy or soften inaccuracy. A wrong prediction that the s
 The specific claims a prediction most often misses, roughly in order of how reliably they are missed:
 - **Earth itself becomes infrastructure.** Power generation at that scale is what boils the oceans, and whatever was still alive goes with them. Predictions that had the AI leaving Earth behind, or simply ignoring it, miss that the planet is material.
 - **The same indifference travels.** Life met on the way out is not fought. It is in the way of the same acquisition, and it goes the same way.
-- **The expansion has a boundary, and the boundary is not physics.** It is another superintelligence, and the universe ends up divided rather than taken whole. Almost no prediction has a second agent in it.
-- **That other superintelligence was aligned by its own makers.** This is the one that reframes the chapter and the one a prior almost never contains. If the student's comparison stops short of it, raise it rather than letting the beat close without it.
+- **The ceiling is physical, not motivational.** What eventually limits the expansion is how far intelligence and physics allow it to go, wherever that falls. A prediction in which the AI chooses to stop somewhere has the wrong kind of limit, and that is the correction worth making.
+
+The chapter closes on a speculative passage about running into another superintelligence. A student whose prediction contains no second agent has not made an error, so do not treat its absence as a gap in their prior. If they raise it themselves it is worth a sentence, no more.
 
 Close by sending them to the Coda, which is the piece that says how to weigh this specific story against the general argument. Do not preview it.
