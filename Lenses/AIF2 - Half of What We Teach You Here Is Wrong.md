@@ -38,6 +38,16 @@ Pre-tests aren't graded.
 
 #### Text
 content::
+\## What the numbers in this unit are for
+
+This unit is mostly numbers: how much compute, how long a task, how fast the curve. They are the part of the future everyone shows you, and they are shown because they are the part that can be measured. That is not a reason to distrust them. It is a reason to be exact about what they can and cannot license.
+
+A curve tells you what continues if nothing intervenes. It cannot tell you who intervenes, what they want, or what happens in the parts of the world nobody has measured. This course is about that second part: what to do, given numbers like these and a great deal that no number covers.
+
+Richard Ngo, whose retrospective you will read in Unit 3, argues that the field which produced most of this unit's readings spent a decade showing the numbers and rarely asked the second question. You do not have to agree with him. You do have to be able to ask it. Treat this unit as the exhibit, and keep the question.
+
+#### Text
+content::
 \## What this costs, and who else is here
 
 Units are targeted to take about three hours, mostly reading, with some time spent on writing your answers. But people vary a lot on how long it takes them to finish, so don't worry about it if it takes you longer.
