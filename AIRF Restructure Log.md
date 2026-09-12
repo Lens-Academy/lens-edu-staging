@@ -226,6 +226,8 @@ Do not strip the Obsidian comment block in M3's welcome: it holds drafted framin
 
 ### Stage 2, new content
 
+`done` here means written, validated and imported. It does not mean tested: the Lens Tutor is not running on staging, so none of these briefs has been run against a real session. See section 7.
+
 | File | Change | Status |
 |---|---|---|
 | **New U3 opener outcome** | Written fresh, not inherited. `Predictable sub-goals from unknown goals`. Imported into M4 | `done` |
