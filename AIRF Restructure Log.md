@@ -309,12 +309,17 @@ M3's is the overhang, written down. Its visible text ends "can't we just stop it
 
 ## 7. Testing
 
-Before review, run at least one live pass through:
+**Premise first, on one or two beats, before writing more briefs on the same pattern.** Several beats share one failure mode: the tutor giving the answer away. If a tutor cannot hold that constraint, the design premise fails and we want to know before eight more briefs are written against it. Test it on the chapter 4 connection beat or the U3 opener's elicitation question, where the brief explicitly forbids completing the learner's list.
 
-- The chapter 4 connection beat, checking specifically that the tutor does not supply the answer on the first turn. That failure turns the prompt into a cross-reference with extra steps.
-- The chapter 9 pair, checking that the pre-reading prediction is not graded or hinted at, and that the closing comparison actually returns to what the learner wrote.
-- The flipped film objection test.
-- `validate_content` on the course after each stage, not only at the end.
+**Wording last, in one pass at the end of stage 3.** The briefs are consistent in shape, so a single pass surfaces systematic drift rather than one-off phrasing, and testing them individually invites tuning each against its own transcript, which overfits. Several can only be tested in sequence anyway, since the film lens reaches back to bets made in the opener.
+
+Specific things to check in that pass:
+
+- The film lens: does the tutor volunteer material from chapters 7 or 8 despite the source-precedence rule? The chapters are now in its context, so the instruction is the only thing holding the line.
+- The film lens: does it correctly treat the hostility bet as won rather than lost, given the film ends in extinction?
+- The chapter 9 pair: is the pre-reading prediction left ungraded and unhinted, and does the closing comparison actually return to what the learner wrote?
+- The U3 opener: does the tutor resist completing the list of convergent sub-goals in the elicitation beat?
+- `validate_content` after each stage, and unscoped at least once per stage, since `wip` files are excluded from the course-scoped run.
 
 ## 8. Log
 
