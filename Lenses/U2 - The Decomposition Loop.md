@@ -158,14 +158,4 @@ Safety and integrity:
 
 #### Text
 content::
-\## Additional resources for this topic
-
-::card[[../Lenses/U2 - Reference Classes And Their Denominators]]
-
-> Step two of the loop says to apply the outside view. That phrase covers about fifteen different moves. If you choose the wrong one, your decomposition fails without giving you any warning.
-
----
-
-::card[[../Lenses/U2 - Average Then Extremize]]
-
-> Step five says to aggregate. There is a real mathematics for this, and it shows that the correct answer is sometimes outside the range of the numbers you started with.
+The next two skills in this module, reference classes and aggregation, are the two places where step two and step five of the loop go wrong; each gets its own page.
