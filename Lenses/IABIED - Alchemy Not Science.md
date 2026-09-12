@@ -1,8 +1,8 @@
 ---
 id: b0d5d25c-77c1-4bce-99f0-821427c58cee
 reading_minutes: 15
-tutor_minutes: {--{"author":"Andreas's AI","timestamp":1789246979220}@@15--}{++{"author":"Andreas's AI","timestamp":1789246979220}@@20++}
-summary_for_tutor: "Teaches Chapter 11's alchemy-stage diagnosis using the alchemist allegory, the Musk/LeCun folk-theory critique, the Dartmouth 1955 historical anchor, and the mother/engineer dialogue. The Lens covers the first reading of Ch11 (beginning to end of the systemic-incompetence paragraph). The strong-superalignment objection is taught by a separate Lens. Students should end this Lens able to state the alchemy-stage diagnosis with the right valence (a field-level epistemic claim, not despair, not blame) and identify what specifically distinguishes folk-theory thinking from engineering {--{"author":"Andreas's AI","timestamp":1789246979220}@@thinking."--}{++{"author":"Andreas's AI","timestamp":1789246979220}@@thinking. Students also connect the chapter back to an earlier idea that the prompt does not name."++}
+tutor_minutes: 20
+summary_for_tutor: "Teaches Chapter 11's alchemy-stage diagnosis using the alchemist allegory, the Musk/LeCun folk-theory critique, the Dartmouth 1955 historical anchor, and the mother/engineer dialogue. The Lens covers the first reading of Ch11 (beginning to end of the systemic-incompetence paragraph). The strong-superalignment objection is taught by a separate Lens. Students should end this Lens able to state the alchemy-stage diagnosis with the right valence (a field-level epistemic claim, not despair, not blame) and identify what specifically distinguishes folk-theory thinking from engineering thinking. Students also connect the chapter back to an earlier idea that the prompt does not name."
 title: "Alchemy, Not Science"
 tldr: "The alignment field can produce techniques that work, but nobody understands why. That gap, between recipe and principle, is what separates alchemy from engineering."
 authors:
@@ -99,7 +99,7 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question. That is Phase 3's job.
 
-#### {++{"author":"Andreas's AI","timestamp":1789246961343}@@Question: Open
+#### Question: Open
 id:: 8d23c3fb-0350-406f-b5c1-cd571cbcf3de
 content::
 \## Phase 3: Connection
@@ -139,10 +139,10 @@ What not to do:
 - Turn this into a review of Chapter 2.
 - Say anything about how this connection relates to the next lens in this unit. It does, and that is the next lens's work, not yours.
 
-#### ++}Question
+#### Question
 id:: 060e4240-03c1-4a7f-8d82-21919b0027b5
 content::
-\## Phase {--{"author":"Andreas's AI","timestamp":1789246961343}@@3:--}{++{"author":"Andreas's AI","timestamp":1789246961343}@@4:++} Learning Question
+\## Phase 4: Learning Question
 A friend who works in machine learning tells you: "The alchemy comparison is out of date. Every new model is run against thousands of safety evaluations and red-team tests, and the scores climb with each release. That's not philosophy and vibes. It's rigorous empirical measurement. The field has clearly left the alchemy stage." Using the chapter's diagnosis, where exactly does this argument go wrong, and is there any part of it your friend has right?
 
 assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 11 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
@@ -191,12 +191,12 @@ Safety and integrity:
 - If the student decides the field has genuinely left the alchemy stage, ask them what principle-level understanding would look like, and whether rising benchmark scores supply it.
 - If the student reads the diagnosis as blame on Musk and LeCun, pull them back to the structural claim: their statements are evidence of the field's stage, not the cause.
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
-- If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.{++{"author":"Andreas's AI","timestamp":1789246970216}@@
+- If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
 On the connection phase that now precedes this one:
 - **What this phase assesses has not changed.** It is this chapter's outcome, and nothing else. The previous phase asked the student to name an earlier idea; that is not part of what you are assessing here and must not become a second thing they have to get right. A student who debugs the friend's benchmark argument entirely from this chapter's own material has answered this question well.
 - **Use the connection only as a rescue.** If the student stalls on the difference between measuring that a technique works and understanding why, you may point back to what they said in the previous phase as a way in, in one sentence. That is the only role it has here.
-- **Report, do not grade.** The test-readiness verdict is about this chapter alone, exactly as specified above. After it, add one separate sentence noting whether the student reached for earlier material on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.++}
+- **Report, do not grade.** The test-readiness verdict is about this chapter alone, exactly as specified above. After it, add one separate sentence noting whether the student reached for earlier material on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.
 
 #### Text
 content::
