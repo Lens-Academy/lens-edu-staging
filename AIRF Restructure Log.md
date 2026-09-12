@@ -254,7 +254,7 @@ One added phase per lens, and only the U3 opener carries two threads in one segm
 | [[Lenses/IABIED - Strong Superalignment Objection]] | Ch 3 wanting emerges from training | `done`, untested. The second variant beat: it hands over the previous lens's thread and asks for the extension |
 | [[Lenses/IABIED - Define the Aztec Warrior Analogy]] | Ch 1 prediction plus steering | `done`, untested. Closes the last thread into U2 |
 | [[Lenses/IABIED - The Five Engineering Curses]] | Ch 1 machine advantages, via the curse of speed | `done`, untested. The brief credits self-amplification as well as speed |
-| [[Lenses/IABIED - The One-Chance Problem]] | Ch 10 five curses, via Chernobyl appearing twice | `todo` |
+| [[Lenses/IABIED - The One-Chance Problem]] | Ch 10 five curses, via Chernobyl appearing twice | `done`, untested. The repetition is handled as the near miss rather than in the prompt |
 
 The six existing chapter lenses all run the same `Reading Assignment`, `Phase 1: Recall`, `Phase 2: Processing`, `Phase 3: Learning Question` shape, so the insert sits in the same place in each: a new phase before the learning question, and the learning question renumbered. What the new phase asks is not identical everywhere. Two are variants, the Coda's and the superalignment one, each for reasons recorded in its log entry, and in both cases because the plain search-and-name form would have had nothing to search for. The two new U3 lenses do not run that shape at all, and neither needs a bolted-on phase: the opener's betting question already does the retrieval, and the chapter 9 lens does it through the prediction it takes before the reading.
 
