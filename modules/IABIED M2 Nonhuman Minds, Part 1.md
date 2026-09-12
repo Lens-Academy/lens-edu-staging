@@ -343,7 +343,7 @@ source:: ![[../Lenses/IABIED - QA - Intelligence Isn't Ineffable]]
 # Submodule: Ch3 - Learning to Want
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/03 - Chapter 3 - Learning to Want]]
 
-# Learning Outcome: Explain Wanting Emerges from Training
+# Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252042878}@@ Explain Wanting Emerges from Training--}
 source:: ![[../Learning Outcomes/Wanting emerges from training]]
 
 # Lens:
