@@ -172,11 +172,10 @@ Two formulations in it are sharper than ours and are worth borrowing if that rub
 2. **Structure before content.** Moving a chapter between modules changes which lenses are in scope. Writing recall segments first would mean rewriting them.
 3. **New content before recall segments.** Two of the ten threads terminate on outcomes that do not exist yet, both in U3.
 4. **Welcomes after structure.** A welcome that previews a unit cannot be written until the unit's contents are settled, and three of five units change.
-5. **Glossary last.** Stages 2 and 3 introduce new terms. A glossary written first would need reconciling against them.
+5. **Meeting docs before resources.** Swapped 2026-09-12. The docs gate the course going live and the resources do not: a resources module, companion pieces, extended readings and a glossary can all be published while a cohort is already running, and none of them changes what a session has to cover. The original reason for putting the glossary last, that stages 2 and 3 would introduce new terms it would have to be reconciled against, is satisfied now that both are done. And the dependency runs the other way from how this list first had it: the glossary already exists as tabs inside the meeting docs, so the docs are upstream of the standalone glossary rather than downstream of it.
+6. **Resources last.** Outside the unit sequence, and the largest remaining pile of curation work.
 
-6. **Meeting docs last of all.** Their scope is unknowable until everything above has settled.
-
-This maps onto the stages in section 5 in order: 0, 1, 2, 3, 4, 5, 6.
+This maps onto the stages in section 5 in order: 0, 1, 2, 3, 4, then 6, then 5. **The stage numbers are identifiers, not positions.** They are left alone so the log's existing rows keep resolving; only the running order changed.
 
 ---
 
