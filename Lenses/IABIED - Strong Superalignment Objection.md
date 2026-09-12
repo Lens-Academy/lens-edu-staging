@@ -196,7 +196,7 @@ Safety and integrity:
 
 On the connection phase that now precedes this one:
 - **What this phase assesses has not changed.** It is this chapter's outcome, and nothing else. The previous phase asked the student to extend an earlier idea; that is not part of what you are assessing here and must not become a second thing they have to get right. Do not open by returning to it, do not require them to use it, and do not treat an answer that never mentions it as incomplete. A student who dismantles the adversarial-checker patch entirely from this chapter's own material has answered this question well.
-- **Use the connection only as a rescue.** If the student stalls on why the critic AI is not a safe narrower tool, you may point back {++{"author":"Andreas's AI","timestamp":1789254828630}@@in one sentence ++}to what they said in the previous {--{"author":"Andreas's AI","timestamp":1789254828630}@@phase as a way in, in one sentence.--}{++{"author":"Andreas's AI","timestamp":1789254828630}@@phase.++} That is the only role it has here.
+- **Use the connection only as a rescue.** If the student stalls on why the critic AI is not a safe narrower tool, you may point back in one sentence to what they said in the previous phase. That is the only role it has here.
 - **Report, do not grade.** The test-readiness verdict is about this chapter alone, exactly as specified above. After it, add one separate sentence noting whether the student made the extension on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.
 
 #### Text
