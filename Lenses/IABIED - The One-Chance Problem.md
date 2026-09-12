@@ -97,10 +97,49 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Question
+#### {++{"author":"Andreas's AI","timestamp":1789249741395}@@Question: Open
+id:: 1219b71e-12ca-469a-b25a-288e7e33baec
+content::
+\## Phase 3: Connection
+This section's argument does not start from nothing. It leans on something you worked through earlier in this course, and it never stops to say so.
+
+Without looking anything up, write down which earlier idea it is leaning on, and what work that idea is doing here. If more than one comes to mind, pick which one you think is load-bearing and why.
+
+assessment-instructions:: The student has read the first section of Chapter 12, written a free recall, and reflected on it. They have now been asked to name the earlier idea this section rests on. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
+
+The answer this question is aimed at: **the five engineering curses, and the before-and-after gap they sit inside.** This section's decisive move is that there is no second time. On its own that is a piece of bad luck. What makes it fatal is the earlier finding that the problem is structurally cursed: fast, narrow-margined, self-amplifying, prone to safety mechanisms becoming the failure, and worst of all in its edge cases, which get harder as the system gets smarter. No second attempt at an ordinary engineering problem is a reason for care. No second attempt at a cursed one is the whole argument.
+
+How to grade what comes back:
+
+- **On target.** They name the curses, or the earlier point that this is a problem you must get right the first time, and say what it does here: it is why the disanalogy is decisive rather than merely unfortunate. Confirm briefly, then move on.
+- **The near miss this beat is built around: "Chernobyl, we have seen that already."** True, and worth acknowledging, but it is noticing a repetition rather than naming an idea. The same event is doing two different jobs: earlier it showed the system defeating its operators, here it shows the operators refusing to believe it. Accept the observation, then push once: what did that earlier appearance establish that this section is relying on?
+- **Near miss: the alchemy diagnosis (Chapter 11).** Legitimate and adjacent. Accept, then push: that is about not understanding the system. This is about not getting another go. Which earlier idea speaks to the second one?
+- **Thoughtful but not the built thread: Chapter 6, that a loss would be irreversible.** Real, and this course deliberately did not anchor it, because the ground is already carried by the chapter 10 material. Say it is a fair reading, then ask which earlier idea the chapter itself leans on hardest.
+- **Off target.** They name something from this reading: Midgley, Hinton, Sunak, the Titanic. Say plainly that those are this section's own material and ask them to look further back.
+- **Blank.** Give one narrowing hint and no more: think about what the previous unit said about problems where you do not get to iterate. If they are still stuck after that, name it in one sentence, say that noticing these connections is the skill being practiced rather than a memory test, and move on without further teaching.
+
+Response length: 80 to 150 words. Short paragraphs only. No lists.
+
+Response style:
+- Calm and direct.
+- Nothing here is scored. Progression does not depend on the student getting this right, and your reply should not read as though it does.
+- Do not over-validate. Avoid generic praise (good connection, exactly right, well spotted).
+- Do not re-teach the five curses. One sentence is the ceiling, and naming two or three of them is enough.
+- Treat a wrong answer that shows real searching as better than a right answer that reads as a guess, and say which you think you are looking at.
+
+Conversation flow:
+- Keep an internal turn counter. Two tutor replies maximum, then close.
+- Close by telling them the next step will put the connection to work.
+
+What not to do:
+- Reveal the target answer in your first reply unless they have already reached it.
+- List the candidates for them.
+- Resolve the self-reinforcing trap, that denial is what would stop anyone meeting the higher burden of proof. That is this chapter's own move and the next phase's material.
+
+#### ++}Question
 id:: e01aa66f-dc27-4c7e-b28b-b1c31b7b1d8f
 content::
-\## Phase 3: Learning Question
+\## Phase {--{"author":"Andreas's AI","timestamp":1789249741395}@@3:--}{++{"author":"Andreas's AI","timestamp":1789249741395}@@4:++} Learning Question
 Chapter 12 uses Chernobyl and Titanic to establish an argument, then says those cases have a decisive disanalogy with ASI. Why does the chapter bother with the analogies at all if the disanalogy is what really matters? What work are Chernobyl and Titanic doing in the argument?
 
 assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
