@@ -2,7 +2,7 @@
 id: c9a4f6d2-3b7e-4b80-a2d5-6f1c0e8a4b73
 reading_minutes: 5
 tutor_minutes: 20
-summary_for_tutor: "Teaches the path/outcome distinction via the Coda's Stockfish analogy: outcome confidence is achievable even when path confidence is not, when the capability gap is sufficiently decisive. Students articulate the distinction, apply it to the superintelligence case, and identify the conditional structure ('only if allowed to begin') that makes Part III's question live. They also recall the Introduction's hard-and-easy-calls definition and audit the Coda's prediction against it."
+summary_for_tutor: "Teaches the path/outcome distinction via the Coda's Stockfish analogy: outcome confidence is achievable even when path confidence is not, when the capability gap is sufficiently decisive. Students articulate the distinction, apply it to the superintelligence case, and identify the conditional structure ('only if allowed to begin') that makes Part III's question live. {--{"author":"Andreas's AI","timestamp":1789254045418}@@They--}{++{"author":"Andreas's AI","timestamp":1789254045418}@@Students++} also recall the Introduction's hard-and-easy-calls definition and audit the Coda's prediction against it."
 title: "Path Prediction vs Outcome Prediction"
 tldr: You can't predict every move Stockfish will make. You can predict that you'll lose. The Coda argues the same logic applies here.
 authors:
