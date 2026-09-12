@@ -16,7 +16,7 @@ source:: ![[../Lenses/IABIED - M4 Welcome]]
 
 # Submodule: Goals and Instrumental Convergence
 
-## Learning Outcome: IABIED - Predictable Sub-Goals from Unknown Goals
+## Learning Outcome:
 source:: ![[../Learning Outcomes/Predictable sub-goals from unknown goals]]
 
 ## Lens:
