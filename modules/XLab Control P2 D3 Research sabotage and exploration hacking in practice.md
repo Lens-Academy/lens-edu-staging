@@ -9,6 +9,8 @@ tags:
 
 # Submodule: Day 3
 # Lens: Day 3 overview
+tldr:: A benchmark for detecting and fixing research sabotage in ML codebases, then the long guided exercise on exploration hacking.
+summary_for_tutor:: Day 3 overview page of AI Control Part 2. It only lists what the day covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
 id:: 8b83b62a-bbd1-4548-8f05-fee086eba39a
 reading_minutes:: 2
 tutor_minutes:: 0

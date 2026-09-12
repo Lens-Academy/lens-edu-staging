@@ -30,6 +30,8 @@ The alpha notice from Part 1 still applies: XLab expects the material to change 
 
 # Submodule: Day 1
 # Lens: Day 1 overview
+tldr:: Two guided exercises on high-stakes protocols, collusion and legibility, then the shift to low-stakes control and failures that only matter in aggregate.
+summary_for_tutor:: Day 1 overview page of AI Control Part 2. It only lists what the day covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
 id:: 6449f9f9-7a3a-425b-a964-96a16eaa5fd4
 reading_minutes:: 2
 tutor_minutes:: 0

@@ -9,6 +9,8 @@ tags:
 
 # Submodule: Day 5
 # Lens: Day 5 overview
+tldr:: Trading with misaligned AIs, deals with early schemers and the barriers to them, and then where to go next in AI control.
+summary_for_tutor:: Day 5 overview page of AI Control Part 2. It only lists what the day covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
 id:: e6171e2b-befc-4b7f-aa36-48c5194b333f
 reading_minutes:: 2
 tutor_minutes:: 0

@@ -9,6 +9,8 @@ tags:
 
 # Submodule: Day 5
 # Lens: Day 5 overview
+tldr:: Win, continue and lose scenarios, rogue deployments, monitoring and mitigation in real deployments, resampling, and why settings for high-stakes control research are hard to build.
+summary_for_tutor:: Day 5 overview page of AI Control Part 1. It only lists what the day covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
 id:: 9146def0-c22f-4dea-83b7-0eb4f3cdb317
 reading_minutes:: 2
 tutor_minutes:: 0

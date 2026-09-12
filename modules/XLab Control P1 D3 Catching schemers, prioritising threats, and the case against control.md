@@ -9,6 +9,8 @@ tags:
 
 # Submodule: Day 3
 # Lens: Day 3 overview
+tldr:: Why catching a model red-handed is a win, which threats to prioritise, and then the arguments for and against control and the safety-usefulness tradeoff.
+summary_for_tutor:: Day 3 overview page of AI Control Part 1. It only lists what the day covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
 id:: 5edd8447-73d8-491d-9edc-24e2957d9081
 reading_minutes:: 2
 tutor_minutes:: 0

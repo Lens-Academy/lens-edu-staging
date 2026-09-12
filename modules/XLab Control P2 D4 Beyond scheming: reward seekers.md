@@ -9,6 +9,8 @@ tags:
 
 # Submodule: Day 4
 # Lens: Day 4 overview
+tldr:: Threat models that are not schemers: reward seekers, satiable preferences, spillway motivations, the empirical evidence, and a guided exercise on measuring reward seeking.
+summary_for_tutor:: Day 4 overview page of AI Control Part 2. It only lists what the day covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
 id:: 0d55a559-a043-486d-a805-27d2ce38599f
 reading_minutes:: 2
 tutor_minutes:: 0
