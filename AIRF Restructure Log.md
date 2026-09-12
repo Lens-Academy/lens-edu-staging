@@ -222,7 +222,7 @@ Do not strip the Obsidian comment block in M3's welcome: it holds drafted framin
 | [[Learning Outcomes/Cosmic stakes]] | `requires` repointed, reading span added, level 4 and level 5 extended. Promoted and imported | `done` |
 | `Dive Deeper: Chapter 9` lens, id `b3132948` | Moved into the Cosmic Stakes submodule with `The Ending` and `Won't It Choose to Be Moral`. The card for the latter is still deliberately absent while its Q&A is a placeholder | `done` |
 | [[Learning Outcomes/The core extinction argument]] | `requires` points at *Why we'd lose*, which this course never teaches. Repoint at the chapter 6 pair. Test block is empty | `todo` |
-| [[Learning Outcomes/Fiction as argument, not prediction]] | Light retouch. Rubric level 5 assumes chapters 7 to 9 were all felt through the film; chapter 9 is now read | `todo` |
+| [[Learning Outcomes/Fiction as argument, not prediction]] | Level 5's chapter reference corrected to the film and chapter 9 by Andreas; the module label rephrased out. Nothing else touched | `drafted`, awaiting acceptance of the suggestion |
 
 ### Stage 3, recall segments
 
