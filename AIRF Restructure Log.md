@@ -357,6 +357,8 @@ All three were wrong. The ceiling is the limits of intelligence and physics, whe
 
 **The lesson.** A striking passage at the end of a summary is not the same as a load-bearing passage in the chapter. Summaries compress the argument and preserve the ending, which inverts their weights. Where a brief rests on the tail of a summary, say so in the brief rather than building a rubric level on it.
 
+**The same trap, a second time, with a different stand-in.** On 2026-09-11 the chapter 10 connection brief claimed chapter 1's self-amplification story was AI-assisted AI research. It is not; the chapter is about a system experimenting on and rewriting itself. That wording came from the learning outcome `Machine advantages and intelligence explosion`, whose own statement says "AI-assisted AI research could create an intelligence explosion". No chapter was read, so an outcome statement got used as a proxy for one. It is a worse proxy than a summary, because it is one person's compression written for a different purpose and it carries no signal that it is lossy. Two consequences: treat any outcome statement about an unreadable chapter as a claim to check rather than a source, and note that this particular statement may have drifted from the chapter it describes, which is a chapter 1 problem and not ours.
+
 ---
 
 ## 9. Log
