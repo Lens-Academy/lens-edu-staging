@@ -292,7 +292,7 @@ Every module already has a `# Submodule: Welcome`. The work is making its conten
 
 ### Stage 6, meeting docs
 
-Last, and deliberately so. Scope cannot be assessed until the restructure above is finished, because what each meeting has to cover is exactly what changes. Nothing else waits on this: it is fully downstream, with no dependencies pointing back into stages 1 to 5.
+**Runs before stage 5 as of 2026-09-12; see section 4.** Scope cannot be assessed until stages 1 to 4 are finished, because what each meeting has to cover is exactly what changes. Those four are the only stages it waits on. Nothing waits on it in turn, and stage 5 is not a prerequisite in either direction.
 
 | File | Change | Status |
 |---|---|---|
