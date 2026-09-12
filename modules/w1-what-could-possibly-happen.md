@@ -85,6 +85,8 @@ content::
 
 Everything in this module treated AI capability as a curve to be forecast. There is a whole field that asks the prior question: what makes a mind steerable at all, and how would you know you had done it. If that question pulled at you harder than the curves did, the path into it is real and open, and this course will keep the signposts visible as we go. For now: back to the curves. You can't steer what you can't see coming.
 
+One more thing before you leave the numbers behind. Richard Ngo, whose retrospective you will read in Unit 3, argues that the field which produced most of this unit's readings spent a decade showing the numbers and rarely asked what to do given them. You do not have to agree with him. You do have to be able to ask that question yourself, and the rest of this course is where you practise it.
+
 # Learning Outcome
 source:: [[../Learning Outcomes/Trajectories with mechanisms and falsifiers]]
 
