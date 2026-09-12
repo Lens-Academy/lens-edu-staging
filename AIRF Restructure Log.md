@@ -329,11 +329,13 @@ Note the history recorded in the course file: meeting 2's doc once ran an outdat
 
 This makes the case stronger rather than weaker, and changes what the work is. We are not adding welcomes to modules that lack them. We are making the contents of a slot that already exists on every module consistent, which is a smaller and safer change than replacing a structure.
 
-**Two of the seven are already wrong, in different ways.**
+**Three of the seven are wrong, in different ways.** This section said two until 2026-09-12, which makes three undercounts in a row on the same inventory.
 
 M4's is stale. Its visible learner text is one paragraph; below it an Obsidian comment block holds a pedagogical note and a whole `#### Chat` segment briefing the tutor on Sable's weight-stealing and the virus cover story, and listing this week's reading as chapters 7, 8, 9 and the Coda. That predates the film replacement.
 
 M3's is the overhang, written down. Its visible text ends "can't we just stop it? That's where the next module begins", and its `summary_for_tutor` states that chapter 6 now opens the next module where it sets up the film. Both go false the moment chapter 6 refolds. Note which two drifted: the two in separate files, and the one under a non-standard wrapper.
+
+**M2's is the one this section kept missing, and it is the most broken of the three.** It was correct when M2 was chapters 3 and 4, and 1d made all of it false. The tldr says "this unit's two chapters" where there are now three. The `summary_for_tutor` names chapters 3 and 4 by title. The visible text asks the unit's two guiding questions, both of which belong to chapters 3 and 4. And 1e broke one more: it opens "Congratulations on completing week 1," when M1 and M2 now both sit before the first meeting, so nobody reading it has completed anything. That last line is the clearest evidence for why this stage exists.
 
 **Decision.** Keep the `# Submodule: Welcome` slot on every module. Fill it inline everywhere, in the AIV style: `# Lens: Welcome` with `tldr::`, `summary_for_tutor::` and two or three sentences of framing. Retire the two standalone files and rename M3's wrapper to match the rest. Move M1's course orientation out to the new M1 as a course overview modelled on [[modules/XLab Verification Overview]], with a `:::callout` per unit, and restate the reading load, which changes.
 
