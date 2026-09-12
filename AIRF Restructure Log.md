@@ -9,7 +9,7 @@ authors:
 
 Git records what changed. This file records why, what it depended on, and what we decided against. Update it in the same commit as the change it describes.
 
-**Status key:** `todo`, `drafted`, `in progress`, `done`, `blocked`, `parked`.
+**Status key:** `todo`, `drafted`, `in progress`, `done`, `blocked`, `parked`, `dropped`.
 
 **Dates:** full `YYYY-MM-DD`, on every entry. Where an entry was written up later than the work it describes, the row says so.
 
