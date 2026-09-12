@@ -65,10 +65,10 @@ source:: ![[../Lenses/IABIED - How Did It Go]]
 # Submodule: Chapter 12: I Don't Want to Be Alarmist
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/13 - Chapter 12 - I Don't Want to Be Alarmist]]
 
-## Learning Outcome: IABIED - The One-Chance Problem
+## Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252118544}@@ IABIED - The One-Chance Problem--}
 source:: [[../Learning Outcomes/The one-chance problem]]
 
-## Learning Outcome: IABIED - Ladder in the Dark
+## Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252118544}@@ IABIED - Ladder in the Dark--}
 source:: [[../Learning Outcomes/The ladder in the dark]]
 
 %%
