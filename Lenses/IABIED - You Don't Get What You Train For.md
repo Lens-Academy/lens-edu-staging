@@ -105,7 +105,7 @@ What not to do:
 id:: a9f47df2-3762-45a2-9929-7fa7cc2cfd76
 content::
 \## Phase 3: Connection
-This chapter's argument does not start from nothing. It leans on something you {--{"author":"Andreas's AI","timestamp":1789253459547}@@already --}worked through earlier in this course, and it never stops to say so.
+This chapter's argument does not start from nothing. It leans on something you worked through earlier in this course, and it never stops to say so.
 
 Without looking anything up, write down which earlier idea it is leaning on, and what work that idea is doing here. If more than one comes to mind, pick which one you think is load-bearing and why.
 
@@ -121,7 +121,7 @@ How to grade what comes back:
 - **Off target.** They name something from Chapter 4 itself (the ice cream argument, sucralose, the Mink vignettes). Say plainly that those are this chapter's own material and ask them to look further back.
 - **Blank.** Give one narrowing hint and no more: think about what this chapter assumes you have already accepted about the relationship between what a system does and what it wants. If they are still stuck after that, name Chapter 2's distinction in one sentence, say that noticing these connections is the skill being practiced rather than a memory test, and move on without further teaching.
 
-Response length: {--{"author":"Andreas's AI","timestamp":1789253418044}@@80 to 150--}{++{"author":"Andreas's AI","timestamp":1789253418044}@@80–150++} words. Short paragraphs only. No lists.
+Response length: 80–150 words. Short paragraphs only. No lists.
 
 Response style:
 - Calm and direct.

@@ -76,7 +76,7 @@ assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>
 id:: 1b89db69-aa12-47b8-aa59-a6a2a34d80ad
 content::
 \## Phase 3: Connection
-This chapter's argument does not start from nothing. It leans on something you {--{"author":"Andreas's AI","timestamp":1789253470069}@@already --}worked through earlier in this course, and it never stops to say so.
+This chapter's argument does not start from nothing. It leans on something you worked through earlier in this course, and it never stops to say so.
 
 Without looking anything up, write down which earlier idea it is leaning on, and what work that idea is doing here. If more than one comes to mind, pick which one you think is load-bearing and why.
 
@@ -92,7 +92,7 @@ How to grade what comes back:
 - **Off target.** They name something from this reading itself: the boat, the guns, Stockfish, the 1825 advisor. Say plainly that those are this chapter's own material and ask them to look further back.
 - **Blank.** Give one narrowing hint and no more: think about the definition of intelligence this course opened with, and what that definition says makes it powerful. If they are still stuck after that, name it in one sentence, say that noticing these connections is the skill being practiced rather than a memory test, and move on without further teaching.
 
-Response length: {--{"author":"Andreas's AI","timestamp":1789253424776}@@80 to 150--}{++{"author":"Andreas's AI","timestamp":1789253424776}@@80–150++} words. Short paragraphs only. No lists.
+Response length: 80–150 words. Short paragraphs only. No lists.
 
 Response style:
 - Calm and direct.
