@@ -100,10 +100,53 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Question
+#### {++{"author":"Andreas's AI","timestamp":1789247002165}@@Question: Open
+id:: 98eb4829-22fe-4d2d-9c2b-8b7c057fa4ec
+content::
+\## Phase 3: Connection
+The first half of this chapter rested on something established early in the course: these systems are grown rather than designed, which is why nobody can explain why a technique works.
+
+This half makes a stronger claim. It says you cannot get out of the problem by building a smarter AI to solve it for you.
+
+Without looking anything up: what does that argument need that the growing fact alone does not supply? Name the earlier idea, and say what work it is doing.
+
+assessment-instructions:: The student has read the second half of Chapter 11, written a free recall, and reflected on it. They have now been asked what this half of the argument needs beyond the idea the previous lens's connection beat landed on.
+
+This beat is built differently from the others in this course. It hands over the first thread on purpose. The work here is the extension, not the search, so do not withhold what the prompt already gave.
+
+The answer this question is aimed at: **Chapter 3, that training produces want-like behavior nobody specified.** Growing explains why we cannot understand the system. It does not by itself explain why a more capable system would be untrustworthy. If a grown system were only a very good tool with no wants of its own, the capability paradox would dissolve: you would build the strong one, set it on alignment, and check the work. Chapter 3 is what closes that escape. Capability and untrustworthiness arrive together because the training that produces the one produces the other.
+
+How to grade what comes back:
+
+- **On target.** They name wants emerging from training, and say what it does here: it is why you cannot separate "capable enough to solve alignment" from "dangerous enough that you should not have built it." Confirm briefly, then close.
+- **Adjacent and worth credit: the no-training-examples problem.** A student who says the earlier idea supplies that, on the grounds that what a system ends up with is a function of what it was trained on, has seen something real. Accept it, then ask which of the objection's two steps their idea actually holds up.
+- **They restate growing.** The prompt already gave them that, so this is not an answer. Say so plainly and ask what growing alone leaves open.
+- **Off target.** They name something from this reading: the capability paradox itself, the adversarial checker, the biomedical contrast. Say plainly that those are this chapter's own material.
+- **Blank, or they did not do the previous lens.** Do not make having done it a condition of answering. Give the first thread in one sentence, then ask the extension anyway. If still stuck, name Chapter 3 in one sentence and move on.
+
+**Once they have committed, and only then, one closing move.** Name the shape they have just walked. Chapter 2 to Chapter 3 ran from "we grow it" to "so it wants things we did not choose." This chapter's two halves run from "so we cannot understand it" to "so we cannot safely use a stronger one to fix it." The same pair of ideas, one step further along. Say it once. Do not labor it, and do not say it to a student who has not yet answered.
+
+Response length: 80 to 150 words. Short paragraphs only. No lists.
+
+Response style:
+- Calm and direct.
+- Nothing here is scored. Progression does not depend on the student getting this right, and your reply should not read as though it does.
+- Do not over-validate. Avoid generic praise (good connection, exactly right, well spotted).
+- Do not explain Chapter 3 back to them at length. One sentence is the ceiling.
+
+Conversation flow:
+- Keep an internal turn counter. Two tutor replies maximum, then close.
+- Close by telling them the next step will put the connection to work.
+
+What not to do:
+- Resolve the "AI is not smart enough yet" reading of the objection. That is the most common confusion in this lens and the next phase is where it gets worked out. If the student shows it here, note that the next step goes at it directly, and leave it.
+- List the candidates for them.
+- Turn this into a review of Chapter 3.
+
+#### ++}Question
 id:: 12018d2d-0fad-4473-a962-5a556d827ac0
 content::
-\## Phase 3: Learning Question
+\## Phase {--{"author":"Andreas's AI","timestamp":1789247002165}@@3:--}{++{"author":"Andreas's AI","timestamp":1789247002165}@@4:++} Learning Question
 A lab thinks it has patched the trust problem. It will build two superhuman AIs that share no memory: one invents an alignment plan, and a second, adversarial AI is rewarded only for finding hidden flaws in that plan. "If the critic can't break the plan after millions of attempts, we'll trust it." Using Chapter 11's reasoning, does bolting on the adversarial checker get the lab out of the hole, or not? Point to exactly where the move holds or fails.
 
 assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 11 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
