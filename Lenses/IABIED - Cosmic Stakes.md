@@ -3,7 +3,7 @@ id: '2c8f2011-1a2d-4b95-a050-b39c9d4e156a'
 reading_minutes: 10
 tutor_minutes: 6
 title: Cosmic Stakes
-tldr: "The film ended at the takeover. However the story is far from over."
+tldr: "The film ended at the takeover. But the stor."
 summary_for_tutor: "Reading lens for the last chapter of the book's extinction
  scenario, sitting in U3 immediately after the film and before the Coda. The
  film covers chapters 7 and 8 only, so the scenario stops at the takeover and
