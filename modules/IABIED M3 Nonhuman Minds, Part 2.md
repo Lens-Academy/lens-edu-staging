@@ -172,7 +172,7 @@ source:: ![[../Lenses/IABIED - QA - AI-Induced Psychosis]]
 # Submodule: Ch5 - Its Favorite Things
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]
 
-# Learning Outcome: IABIED - Define the Goal-Space Argument
+# Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252063505}@@ IABIED - Define the Goal-Space Argument--}
 source:: ![[../Learning Outcomes/The goal-space argument]]
 
 # Learning Outcome: IABIED - Distinguish Hostile from Indifferent AI
