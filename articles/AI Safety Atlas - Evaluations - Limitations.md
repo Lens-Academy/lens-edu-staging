@@ -72,7 +72,7 @@ Gemini is able to translate language in a zero-shot way, without any training.  
 
 ### Sandbagging
 
-![Figure {--{"author":"Elias's AI","timestamp":1789122242004}@@5.60](https://ai-safety-atlas.com/_astro/e52abfcc18517bab762067b901e27cc1c4fa322984b29e28a850bbda6dbdc0a3.DMG0EV-7_ZLQLUl.webp)--}{++{"author":"Elias's AI","timestamp":1789122242004}@@5.60](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-60.webp)++}
+![Figure 5.60](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-60.webp)
 
 *Figure 5.60: Illustration of sandbagging ([van der Weij, 2024](https://www.alignmentforum.org/posts/jsmNCj9QKcfdg8fJk/an-introduction-to-ai-sandbagging))*
 
@@ -88,7 +88,7 @@ Gemini is able to translate language in a zero-shot way, without any training.  
 
 **Similar to how companies might engage in "greenwashing" by misleadingly portraying themselves as environmentally friendly, AI companies might engage in "safety washing".** This means misrepresenting capability improvements as safety advancements. This happens when safety benchmarks have high correlation with general model capabilities and compute used for training. When a benchmark highly correlates with capabilities, improving performance on it may simply reflect that the model got more capable overall, rather than specifically safer.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789122266469}@@5.61](https://ai-safety-atlas.com/_astro/67a2cad055e521979aa00c6743a303245c14418b34dcce3e5693e1e8d8ce7bcb.DZYK1wiH_1IpLPM.webp)--}{++{"author":"Elias's AI","timestamp":1789122266469}@@5.61](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-61.webp)++}
+![Figure 5.61](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-61.webp)
 
 *Figure 5.61: The tight connection between many safety properties and capabilities can enable safety washing, where capabilities advancements (e.g., training a larger model) can be advertised as progress on "AI safety." This confuses the research community to the developments that have occurred, distorting the academic discourse ([Ren et al., 2024](https://arxiv.org/abs/2407.21792)).*
 
@@ -112,7 +112,7 @@ In the future, companies may want to downplay certain capabilities of their syst
 
 ## Governance Limitations
 
-![Figure {--{"author":"Elias's AI","timestamp":1789122313150}@@5.62](https://ai-safety-atlas.com/_astro/3b0b56c7ffe15a58048d1491f5740d54ba7aba3d72d0804768a947c5e4d0f433.CaaGhFUA_Ffqbk.webp)--}{++{"author":"Elias's AI","timestamp":1789122313150}@@5.62](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-62.webp)++}
+![Figure 5.62](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-62.webp)
 
 *Figure 5.62: We need much more work in evaluations. Higher capabilities require more safety evaluations. Many high-stakes decisions in company-led and government-led frameworks are reliant on the results of evals ([Hobbahn, 2024](https://www.alignmentforum.org/posts/gJJEjJpKiddoYGZKk/the-evals-gap)).*
 
@@ -122,6 +122,6 @@ In the future, companies may want to downplay certain capabilities of their syst
 
 Overall, while the limitations we've discussed in this final section are significant, they aren't insurmountable. Progress in areas like mechanistic interpretability, formal verification methods, and evaluation protocols shows promise for addressing many current limitations. However, overcoming these challenges requires sustained effort and investment.
 
-![Figure {--{"author":"Elias's AI","timestamp":1789122338210}@@5.63](https://ai-safety-atlas.com/_astro/2885fd4c7389d235cf647a1169453018110754d1f520334b57ddfa78ac340213.Ca_g4LFt_ZyYxhA.webp)--}{++{"author":"Elias's AI","timestamp":1789122338210}@@5.63](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-63.webp)++}
+![Figure 5.63](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-evaluations-figure-5-63.webp)
 
 *Figure 5.63: A visual breakdown of limitations, and a few reasons to doubt the impact of AI risk evaluations ([Mukobi, 2024](https://arxiv.org/abs/2408.02565)).*
