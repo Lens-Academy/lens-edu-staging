@@ -36,7 +36,7 @@ Key concepts:
 - The two misreadings to distinguish from: (a) the story predicts specific events (false, and the Coda is explicit about this); (b) the story has no predictive content (also false, and the "easy call" claim is the counterevidence)
 - The middle position: the pathway is illustrative; the outcome (once capability is reached) is the genuine prediction
 - "Not strange enough": this is evidence the authors are aware the pathway is a simplification, which reinforces the fiction-as-argument reading
-- The Coda's clarification only lands because M4's emotional work was done first: the distinction between argument and prediction requires having felt the argument before being asked to analyze it
+- The Coda's clarification only lands because {--{"author":"Andreas's AI","timestamp":1789250946277}@@M4's--}{++{"author":"Andreas's AI","timestamp":1789250946277}@@the scenario's++} emotional work was done first: the distinction between argument and prediction requires having felt the argument before being asked to analyze it
 
 Discussion guidance:
 - Ask the student to identify both misreadings and explain what's wrong with each before asking them to state the correct position
