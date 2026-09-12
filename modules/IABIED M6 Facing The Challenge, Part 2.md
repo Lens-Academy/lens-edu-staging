@@ -192,10 +192,10 @@ source:: ![[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
 # Submodule: Chapter 13: Shut It Down
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/14 - Chapter 13 - Shut It Down]]
 
-## Learning Outcome: IABIED - The WWII Analogy
+## Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252128841}@@ IABIED - The WWII Analogy--}
 source:: [[../Learning Outcomes/The WWII analogy]]
 
-## Learning Outcome: IABIED - Coalition Strategy
+## Learning Outcome:{--{"author":"Andreas's AI","timestamp":1789252128841}@@ IABIED - Coalition Strategy--}
 source:: [[../Learning Outcomes/Narrow coalition strategy]]
 
 %%
