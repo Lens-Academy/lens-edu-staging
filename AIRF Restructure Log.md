@@ -93,17 +93,17 @@ Reference, not a stage. Done once, before execution. Found by scanning for phras
 
 To be clear about a phrase I used badly: slugs are not links the vault rewrites because internal references between files use wikilinks, not slugs. Slugs are for platform URLs. So this is the external-dependency case, not a permissions one.
 
-Renaming descriptively does not fix the remap. `iabied-nonhuman-minds-2` would mean chapters 3 and 4 today and chapters 4 to 6 afterwards: the same silent remap with words instead of numbers. Since M2 and M3 merge and a new module appears at the front, no naming scheme preserves the old mapping.
+Renaming descriptively does not fix the remap. `iabied-nonhuman-minds-2` would mean chapters 3 and 4 today and chapters 4 to 6 afterwards: the same silent remap with words instead of numbers. Because content redistributes across all seven modules, no naming scheme preserves the old mapping.
 
 **Scheme chosen: `iabied-intro`, `iabied-u1` to `iabied-u5`, `iabied-what-next`.** Reason: units are the more stable object. The 6-to-5 reconciliation changed module boundaries; unit count has held at five, and every diagram and decision in this restructure is expressed in units. M6 and M7 both sit in U5, so M6 takes `iabied-u5` and M7 takes `iabied-what-next`, which matches its content. If the pair ever needs to read as a pair, `iabied-u5-what-next` is a drop-in.
 
-**Which old slugs can be kept alive.** Three map one to one and three do not:
+**Which old slugs can be kept alive.** Three map one to one and four do not:
 
 | Old slug | Old content | New home | Clean? |
 |---|---|---|---|
-| `iabied-m1` | Intro + ch 1-2 | Splits across new M1 and M2 | No |
-| `iabied-m2` | Ch 3-4 | Merges into new M3 | No |
-| `iabied-m3` | Ch 5 | Merges into new M3 | No |
+| `iabied-m1` | Intro + ch 1-2 | Keeps the Intro, loses ch 1-2 to the next module | No |
+| `iabied-m2` | Ch 3-4 | Keeps ch 3, gains ch 1-2, loses ch 4 | No |
+| `iabied-m3` | Ch 5 | Keeps ch 5, gains ch 4 and ch 6 | No |
 | `iabied-m4` | Ch 6 + film + Coda | Ch 6 leaves; rest stays | No |
 | `iabied-m5` | Ch 10-11 | New M5 | Yes |
 | `iabied-m6` | Ch 12-14 | New M6 | Yes |
