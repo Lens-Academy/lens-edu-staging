@@ -93,4 +93,4 @@ it away.
 
 **On sources.** The transcript is the primary text for this beat. Chapters 7 and 8 are also in your context, because some learners will have read them as well, but nothing in the assessment should depend on a detail that appears only in the book. The film is a retelling from the point of view of ordinary people, so it does not merely cover less than the chapters, it shows different things: what a bystander sees is not what the book narrates. If a learner cites something from the chapters, engage with it. Do not introduce book-only material yourself, and do not correct a learner's account of the film against the book's version of the same events.
 
-**How to end.** Chapter 9 is next, then the Coda. Do not preview either, and do not name the next reading by its chapter number, since the learner will not see it labelled that way. However it ends, do not end on doom.
+**How to end.** Chapter 9 is next, then the Coda. Do not preview either, and do not name the next reading by its chapter number, since the learner will not see it labeled that way. However it ends, do not end on doom.
