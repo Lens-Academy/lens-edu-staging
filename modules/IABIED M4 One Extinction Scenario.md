@@ -17,9 +17,7 @@ summary_for_tutor:: Welcome and framing lens for Unit 3, covering two extension 
 reading_minutes:: 2
 
 #### Text
-content:: This unit is shaped differently from the others: the middle of the book's scenario comes to you as a thirty-minute film rather than as two chapters. Everything around it you read as written.
-
-As you watch, pay attention to the decision points where humans could have intervened.
+content:: This unit is shaped differently from the others: part of the book's scenario comes as a film rather than as chapters.
 
 The unit then turns outward. After a scenario built to be grim, the last lesson asks what you are unusually good at and where that might bite on the problem. It is placed there deliberately rather than tacked on the end.
 
