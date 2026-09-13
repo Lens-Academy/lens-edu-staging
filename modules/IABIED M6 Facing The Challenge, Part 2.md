@@ -13,6 +13,7 @@ readings:
 # Submodule: Welcome
 # Lens: Welcome
 id:: a3154792-e84d-40d0-b6ed-90f65f89e3f6
+tldr:: The last of the reading: why the response so far has been inadequate, what the authors think should happen instead, and why they do not think it is hopeless.
 summary_for_tutor:: Welcome and framing lens for Unit 5, the last of the reading, covering IABIED Chapters 12 to 14 and the Closing Words. Names the arc across the three chapters without previewing their content, and frames the action-plan thread: the conversation debrief comes immediately after this lens, and the final step, choosing one ongoing action, sits in the module after this one. Previews none of the unit's conclusions.
 reading_minutes:: 2
 
