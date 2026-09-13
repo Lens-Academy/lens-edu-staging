@@ -12,6 +12,7 @@ readings:
 # Submodule: Welcome
 # Lens: Welcome
 id:: caf48b0b-f27a-4c09-9336-b443ac7843f4
+tldr:: Three questions in sequence: whether what a system wants is what you trained for, what it is likely to want instead, and what happens if we try to stop it.
 summary_for_tutor:: Welcome and framing lens for Unit 2, covering IABIED Chapters 4 to 6. Frames the unit as three questions in sequence and names what each chapter is about without previewing any of their conclusions. Chapter 6 sits in this unit, not the next one.
 reading_minutes:: 2
 

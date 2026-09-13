@@ -13,6 +13,7 @@ readings:
 # Submodule: Welcome
 # Lens: Welcome
 id:: 52eb58cc-b757-43fa-b14c-4b56e0018cf4
+tldr:: Most of the book's extinction scenario arrives as a thirty-minute film rather than as chapters. The unit ends by asking where your own leverage on the problem might be.
 summary_for_tutor:: Welcome and framing lens for Unit 3, covering two extension readings on goals, most of the book's extinction scenario as a thirty-minute film with Chapters 7 and 8 offered as optional reading, Chapter 9, and the Coda. Explains the format change and names the unit's closing action-plan lens. Previews none of the unit's conclusions.
 reading_minutes:: 2
 
