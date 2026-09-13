@@ -244,47 +244,47 @@ Skim whatever catches your eye.
 ::card[[../Lenses/IABIED - QA - Keep the Coalition Large]]
 {>>{"author":"Elias's AI","timestamp":1785314118199}@@Correction to an earlier suggestion in this review: I had carded 'Can International Cooperation Really Work' here as an unreachable-import repair. That was wrong to do, because its body is still a "TODO: Embed Q&A content" placeholder and carding it showed learners an empty card. Card removed; the hidden import stays, and it should be carded again once the content is embedded. 'Early Warnings' and 'Isn't AI Different from Nuclear Reactors' remain imported under Ch12 because they are card targets inside the 'IABIED - The One-Chance Problem' lens.<<}
 
-## Lens: IABIED - QA - The Draft Treaty
+# Lens: IABIED - QA - The Draft Treaty
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - The Draft Treaty]]
 
-## Lens: IABIED - QA - Wait and See Approach
+# Lens: IABIED - QA - Wait and See Approach
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Wait and See Approach]]
 
-## Lens: IABIED - QA - Warning Shots
+# Lens: IABIED - QA - Warning Shots
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Warning Shots]]
 
-## Lens: IABIED - QA - Stopping Without Spyware
+# Lens: IABIED - QA - Stopping Without Spyware
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Stopping Without Spyware]]
 
-## Lens: IABIED - QA - Chip Ownership Control
+# Lens: IABIED - QA - Chip Ownership Control
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Chip Ownership Control]]
 
-## Lens: IABIED - QA - Research Ban Extreme
+# Lens: IABIED - QA - Research Ban Extreme
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Research Ban Extreme]]
 
-## Lens: IABIED - QA - Can Technology Be Stopped
+# Lens: IABIED - QA - Can Technology Be Stopped
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Can Technology Be Stopped]]
 
-## Lens: IABIED - QA - Too Much Power to Governments
+# Lens: IABIED - QA - Too Much Power to Governments
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Too Much Power to Governments]]
 
-## Lens: IABIED - QA - Nations Reject Ban
+# Lens: IABIED - QA - Nations Reject Ban
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Nations Reject Ban]]
