@@ -348,6 +348,10 @@ This section used to end that paragraph by noting that the drifted ones were the
 
 What survives from the long ones is structure rather than content: a sentence placing the learner relative to where they just were, a paragraph on the unit's non-reading commitment and why it is there, a live reading line, and a handoff. M4's welcome contributes the move that does orientation without pre-empting, ending on a specific instruction ("pay attention to the decision points where humans could have intervened") rather than on a summary.
 
+**Who owns what, settled 2026-09-12 on the M4 draft.** The welcome and the lenses under it kept saying the same things, so the line is this. **A lens owns everything about its own material**: what it is, why it takes the form it does, what to hold onto while going through it, and what to do instead if you would rather. **The welcome owns the unit's shape**: what it contains, in what order, and why it ends where it does.
+
+The sharp version is about instructions rather than duplication. A welcome cannot issue an in-the-moment instruction, because the moment is several lessons away. The M4 draft said "as you watch, pay attention to the decision points where humans could have intervened", inherited from the standalone welcome it replaced. The film lens already tells the learner what to hold onto, and its three prompts map onto the three questions it asks immediately afterwards. A second instruction upstream would compete with a better-aimed one and point attention at something nothing assesses. Cut, and the same test applies to M5 and M6, whose welcomes currently summarise their chapters at length.
+
 **The argument against.** A course overview is read once and a learner arriving at unit 4 will not go back to it. That is what the inline welcomes are for, which is why the answer is both rather than either.
 
 ---
