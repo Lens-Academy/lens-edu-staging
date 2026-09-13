@@ -49,6 +49,9 @@ Editorially, this chapter feels like a weird collection of oddities. It's harder
 
 Really, the learning outcome here distills back to the power of intelligence (plus technology). 
 %%
+
+{>>{"author":"Andreas's AI","timestamp":1789263603837}@@The commented block above is left in place rather than removed, since it is another author's editorial notes. Two things in it have gone stale: it treats Chapter 6 as belonging to the next module, which stage 1d reversed, and it was written when this module was Chapter 5 alone. Its Chapter 5 reflection question is still good and has no home in the live welcome, which deliberately previews no conclusions. Retiring or reworking any of it is the author's call, not ours.<<}
+
 # Submodule: Ch4 - You Don't Get What You Train For
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/04 - Chapter 4 - You Don't Get What You Train For]]
 
