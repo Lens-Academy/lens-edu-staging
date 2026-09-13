@@ -19,9 +19,9 @@ reading_minutes:: 2
 #### Text
 content:: This unit is shaped differently from the others. Most of the book's extinction scenario, which is the longest reading in the course, comes to you as a thirty-minute film instead of as chapters.
 
-The unit then turns outward. After a scenario built to be grim, the last lesson asks what you are unusually good at and where that might bite on the problem. It is placed there deliberately rather than tacked on the end.
+The unit then turns outward. After a scenario built to be grim, the last lens asks what you are unusually good at and where that might bite on the problem. It is placed there deliberately rather than tacked on the end.
 
-**This unit's reading:** two short extensions ("Terminal Goals and Instrumental Goals" and "Instrumental Convergence"), the film in place of Chapters 7 and 8, Chapter 9 ("Ascension"), and the Coda.
+**This unit's reading:** two short extensions ("Terminal Goals and Instrumental Goals" and "Instrumental Convergence"), the film, Chapter 9 ("Ascension"), and the Coda. Chapters 7 and 8 cover the same ground as the film in the authors' own words, and are there for anyone who wants more of it.
 
 Head to the first lesson when you are ready.
 
