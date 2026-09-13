@@ -340,6 +340,10 @@ M3's is the overhang, written down. Its visible text ends "can't we just stop it
 
 **Decision.** Keep the `# Submodule: Welcome` slot on every module. Fill it inline everywhere, in the AIV style: `# Lens: Welcome` with `tldr::`, `summary_for_tutor::` and two or three sentences of framing. Retire the two standalone files and rename M3's wrapper to match the rest. Move M1's course orientation out to the new M1 as a course overview modelled on [[modules/XLab Verification Overview]], with a `:::callout` per unit, and restate the reading load, which changes.
 
+**The strongest evidence for keeping it short, found 2026-09-12.** The two long welcomes give away the answers their own modules test. `IABIED - M5 Welcome` names all five engineering curses in its visible text, and the chapter 10 outcome is *Enumerate the five engineering curses*. M6's names GPU consolidation, international monitoring and treaty mechanisms, and quotes the WWII analogy's punchline, against outcomes on the WWII analogy and coalition strategy. A learner who reads the welcome has been handed the enumeration before the reading, the recall beat then measures the welcome rather than the chapter, and the pattern is the same one stage 3 spent its whole length designing against. Per-chapter précis in a unit opener is not orientation, it is a spoiler.
+
+What survives from the long ones is structure rather than content: a sentence placing the learner relative to where they just were, a paragraph on the unit's non-reading commitment and why it is there, a live reading line, and a handoff. M4's welcome contributes the move that does orientation without pre-empting, ending on a specific instruction ("pay attention to the decision points where humans could have intervened") rather than on a summary.
+
 **The argument against.** A course overview is read once and a learner arriving at unit 4 will not go back to it. That is what the inline welcomes are for, which is why the answer is both rather than either.
 
 ---
