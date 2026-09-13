@@ -11,8 +11,19 @@ authors:
 ---
 
 # Submodule: Welcome
-# Lens: M5 Welcome
-source:: ![[../Lenses/IABIED - M5 Welcome]]
+# Lens: {--{"author":"Andreas's AI","timestamp":1789266446397}@@M5 --}{++{"author":"Andreas's AI","timestamp":1789266446397}@@Welcome
+id:: 977163ed-d709-417f-bbe3-57a58254c571
+summary_for_tutor:: ++}Welcome{++{"author":"Andreas's AI","timestamp":1789266446397}@@ and framing lens for Unit 4, covering IABIED Chapters 10 and 11, each split across two shorter readings paired with tutor conversations. Frames the unit's question as whether the engineering problem can be solved, and names the closing Talk to One Person lens and why it is there. Previews none of the unit's conclusions.
+reading_minutes:: 2
+
+#### Text++}
+{--{"author":"Andreas's AI","timestamp":1789266446397}@@source:: ![[../Lenses/IABIED - M5 Welcome]]--}{++{"author":"Andreas's AI","timestamp":1789266446397}@@content:: Having watched the scenario play out, this unit asks whether the engineering problem behind it can actually be solved.
+
+The unit also ends by asking something of you: talk to one person you know about what you have been reading. It is the book's own ask of ordinary citizens, and it is the honest test of your understanding. Anyone can nod along in a course, and explaining the argument to someone who has never heard of it shows you which parts you actually own. The last lens helps you pick your person and rehearse before you have the conversation.
+
+**This unit's reading:** Chapter 10 ("A Cursed Problem") and Chapter 11 ("An Alchemy, Not a Science"), each split across two shorter readings.
+
+Head to the first lens when you are ready.++}
 
 # Submodule: Ch10 - A Cursed Problem
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/11 - Chapter 10 - A Cursed Problem]]
