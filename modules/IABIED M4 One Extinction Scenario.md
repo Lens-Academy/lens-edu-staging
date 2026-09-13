@@ -13,7 +13,7 @@ readings:
 # Submodule: Welcome
 # Lens: Welcome
 id:: 52eb58cc-b757-43fa-b14c-4b56e0018cf4
-summary_for_tutor:: Welcome and framing lens for Unit 3, covering two extension readings on goals, the book's extinction scenario as a thirty-minute film in place of Chapters 7 and 8, Chapter 9, and the Coda. Explains the format change, points the learner at the decision points in the film, and names the unit's closing action-plan lesson. Previews none of the unit's conclusions.
+summary_for_tutor:: Welcome and framing lens for Unit 3, covering two extension readings on goals, most of the book's extinction scenario as a thirty-minute film with Chapters 7 and 8 offered as optional reading, Chapter 9, and the Coda. Explains the format change and names the unit's closing action-plan lens. Previews none of the unit's conclusions.
 reading_minutes:: 2
 
 #### Text
