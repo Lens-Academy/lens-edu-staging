@@ -19,7 +19,7 @@ reading_minutes:: 2
 #### Text
 content:: Having watched the scenario play out, this unit asks whether the engineering problem behind it can actually be solved. It draws on the earlier chapters more than any unit so far.
 
-The unit ends by asking something of you: talk to one person you know about what you have been reading. It is the book's own ask of ordinary citizens, and it is the most honest test of your understanding. It's one thing to hold up your arguments in conversations within this course, but explaining the argument to someone who has never heard of it shows you which parts you actually own. The last lens helps you pick your person and rehearse before you have the conversation.
+The unit ends by asking something of you: talk to one person you know about what you have been reading. It is the book's own ask of ordinary citizens, and it is the most honest test of your understanding. It is one thing to hold up your arguments in conversations within this course, but explaining the argument to someone who has never heard of it shows you which parts you actually own. The last lens helps you pick your person and rehearse before you have the conversation.
 
 **This unit's reading:** Chapter 10 ("A Cursed Problem") and Chapter 11 ("An Alchemy, Not a Science"), each split across two shorter readings.
 
