@@ -63,28 +63,28 @@ source:: ![[../Lenses/IABIED - How Did It Go]]
 # Submodule: Chapter 12: I Don't Want to Be Alarmist
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/13 - Chapter 12 - I Don't Want to Be Alarmist]]
 
-## Learning Outcome:
+{--{"author":"Andreas's AI","timestamp":1789273433502}@@##--}{++{"author":"Andreas's AI","timestamp":1789273433502}@@#++} Learning Outcome:
 source:: [[../Learning Outcomes/The one-chance problem]]
 
-## Learning Outcome:
+{--{"author":"Andreas's AI","timestamp":1789273433502}@@##--}{++{"author":"Andreas's AI","timestamp":1789273433502}@@#++} Learning Outcome:
 source:: [[../Learning Outcomes/The ladder in the dark]]
 
 %%
 Trimmed to reduce question load in the final unit (course went from 6 meetings to 5):
-## Lens:
+{--{"author":"Andreas's AI","timestamp":1789273433502}@@##--}{++{"author":"Andreas's AI","timestamp":1789273433502}@@#++} Lens:
 source:: [[../Lenses/IABIED - The One-Chance Problem - PQ]]
 %%
 
-## Lens:
+{--{"author":"Andreas's AI","timestamp":1789273433502}@@##--}{++{"author":"Andreas's AI","timestamp":1789273433502}@@#++} Lens:
 source:: [[../Lenses/IABIED - The One-Chance Problem]]
 
-## Lens:
+{--{"author":"Andreas's AI","timestamp":1789273433502}@@##--}{++{"author":"Andreas's AI","timestamp":1789273433502}@@#++} Lens:
 source:: [[../Lenses/IABIED - Ladder in the Dark - PQ]]
 
-## Lens:
+{--{"author":"Andreas's AI","timestamp":1789273433502}@@##--}{++{"author":"Andreas's AI","timestamp":1789273433502}@@#++} Lens:
 source:: [[../Lenses/IABIED - Ladder in the Dark]]
 
-## Lens: Dive Deeper: Chapter 12
+{--{"author":"Andreas's AI","timestamp":1789273433502}@@##--}{++{"author":"Andreas's AI","timestamp":1789273433502}@@#++} Lens: Dive Deeper: Chapter 12
 id:: 79671536-5615-4807-8f08-ff039c8a525e
 tldr:: Deeper on Chapter 12? The book's supplementary Q&As take on "what about the benefits?", "isn't this anti-technology?", and why experts keep saying "I don't want to be alarmist".
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 12 ("I Don't Want to Be Alarmist"). Links the book website's supplementary Q&A cards covering the benefits of AI, distraction from other issues, anti-technology charges, rushing ahead as the good guys, cooperating to build safely, provably safe AI, daily life and panic, fear-mongering accusations, expert disagreement, the Lemoine effect, telling AI companies no, and making sense of the death race. A navigation and index lens only; it carries no standalone teaching content of its own.
