@@ -111,37 +111,37 @@ Skim whatever catches your eye.
 ::card[[../Lenses/IABIED - QA - Telling AI Companies No]]
 ::card[[../Lenses/IABIED - QA - Making Sense of the Death Race]]
 
-## Lens: IABIED - QA - What About the Benefits of AI
+# Lens: IABIED - QA - What About the Benefits of AI
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - What About the Benefits of AI]]
 
-## Lens: IABIED - QA - Distraction from Other Issues
+# Lens: IABIED - QA - Distraction from Other Issues
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Distraction from Other Issues]]
 
-## Lens: IABIED - QA - Anti-Technology
+# Lens: IABIED - QA - Anti-Technology
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Anti-Technology]]
 
-## Lens: IABIED - QA - Rush Ahead Good Guys
+# Lens: IABIED - QA - Rush Ahead Good Guys
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Rush Ahead Good Guys]]
 
-## Lens: IABIED - QA - Cooperate to Build Safely
+# Lens: IABIED - QA - Cooperate to Build Safely
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Cooperate to Build Safely]]
 
-## Lens: IABIED - QA - Provably Safe AI
+# Lens: IABIED - QA - Provably Safe AI
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Provably Safe AI]]
 
-## Lens: IABIED - QA - Daily Life Believing This
+# Lens: IABIED - QA - Daily Life Believing This
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Daily Life Believing This]]
