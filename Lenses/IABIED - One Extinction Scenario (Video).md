@@ -21,7 +21,7 @@ authors:
 content::
 \## This unit's scenario, as a film
 
-The film tells the book's own extinction scenario, minute by minute, through the eyes of ordinary people living through it.
+This film tells the book's own extinction scenario, minute by minute, through the eyes of ordinary people living through it.
 
 If you would rather read instead (or as well): the same story in the authors' own words is Chapters 7 to 8 ("Realization", "Expansion").
 
