@@ -11,13 +11,13 @@ readings:
 ---
 
 # Submodule: Welcome
-{--{"author":"Andreas's AI","timestamp":1789264819987}@@###--}{++{"author":"Andreas's AI","timestamp":1789264819987}@@#++} Lens: {--{"author":"Andreas's AI","timestamp":1789264819987}@@M4 --}{++{"author":"Andreas's AI","timestamp":1789264819987}@@Welcome
+# Lens: Welcome
 id:: 52eb58cc-b757-43fa-b14c-4b56e0018cf4
-summary_for_tutor:: ++}Welcome{++{"author":"Andreas's AI","timestamp":1789264819987}@@ and framing lens for Unit 3, covering two extension readings on goals, the book's extinction scenario as a thirty-minute film in place of Chapters 7 and 8, Chapter 9, and the Coda. Explains the format change, points the learner at the decision points in the film, and names the unit's closing action-plan lesson. Previews none of the unit's conclusions.
+summary_for_tutor:: Welcome and framing lens for Unit 3, covering two extension readings on goals, the book's extinction scenario as a thirty-minute film in place of Chapters 7 and 8, Chapter 9, and the Coda. Explains the format change, points the learner at the decision points in the film, and names the unit's closing action-plan lesson. Previews none of the unit's conclusions.
 reading_minutes:: 2
 
-#### Text++}
-{--{"author":"Andreas's AI","timestamp":1789264819987}@@source:: ![[../Lenses/IABIED - M4 Welcome]]--}{++{"author":"Andreas's AI","timestamp":1789264819987}@@content:: This unit is shaped differently from the others: the middle of the book's scenario comes to you as a thirty-minute film rather than as two chapters. Everything around it you read as written.
+#### Text
+content:: This unit is shaped differently from the others: the middle of the book's scenario comes to you as a thirty-minute film rather than as two chapters. Everything around it you read as written.
 
 As you watch, pay attention to the decision points where humans could have intervened.
 
@@ -25,7 +25,7 @@ The unit then turns outward. After a scenario built to be grim, the last lesson 
 
 **This unit's reading:** two short extensions ("Terminal Goals and Instrumental Goals" and "Instrumental Convergence"), the film in place of Chapters 7 and 8, Chapter 9 ("Ascension"), and the Coda.
 
-Head to the first lesson when you are ready.++}
+Head to the first lesson when you are ready.
 
 # Submodule: Goals and Instrumental Convergence
 
