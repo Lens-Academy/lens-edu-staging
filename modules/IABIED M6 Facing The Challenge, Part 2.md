@@ -146,42 +146,42 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Daily Life Believing This]]
 
-## Lens: IABIED - QA - Should We Panic
+# Lens: IABIED - QA - Should We Panic
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Should We Panic]]
 
-## Lens: IABIED - QA - Fear-Mongering by AI Leaders
+# Lens: IABIED - QA - Fear-Mongering by AI Leaders
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Fear-Mongering by AI Leaders]]
 
-## Lens: IABIED - QA - Experts Don't All Agree
+# Lens: IABIED - QA - Experts Don't All Agree
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Experts Don't All Agree]]
 
-## Lens: IABIED - QA - The Lemoine Effect
+# Lens: IABIED - QA - The Lemoine Effect
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - The Lemoine Effect]]
 
-## Lens: IABIED - QA - Telling AI Companies No
+# Lens: IABIED - QA - Telling AI Companies No
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Telling AI Companies No]]
 
-## Lens: IABIED - QA - Making Sense of the Death Race
+# Lens: IABIED - QA - Making Sense of the Death Race
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Making Sense of the Death Race]]
 
-## Lens: IABIED - QA - Early Warnings
+# Lens: IABIED - QA - Early Warnings
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Early Warnings]]
 
-## Lens: IABIED - QA - Isn't AI Different from Nuclear Reactors
+# Lens: IABIED - QA - Isn't AI Different from Nuclear Reactors
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
