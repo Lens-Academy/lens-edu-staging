@@ -59,32 +59,32 @@ Skim whatever catches your eye.
 ::card[[../Lenses/IABIED - QA - Galvanic Insufficiently Careful]]
 ::card[[../Lenses/IABIED - QA - Only One Smart AI]]
 
-## Lens: IABIED - QA - Why This Setup
+# Lens: IABIED - QA - Why This Setup
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Why This Setup]]
 
-## Lens: IABIED - QA - Sable's Thinking
+# Lens: IABIED - QA - Sable's Thinking
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Sable's Thinking]]
 
-## Lens: IABIED - QA - Galvanic Fairly Careful
+# Lens: IABIED - QA - Galvanic Fairly Careful
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Galvanic Fairly Careful]]
 
-## Lens: IABIED - QA - Galvanic Insufficiently Careful
+# Lens: IABIED - QA - Galvanic Insufficiently Careful
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Galvanic Insufficiently Careful]]
 
-## Lens: IABIED - QA - Only One Smart AI
+# Lens: IABIED - QA - Only One Smart AI
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Only One Smart AI]]
 
-## Lens: Dive Deeper: Chapter 8
+# Lens: Dive Deeper: Chapter 8
 id:: 4203d159-296c-4cab-a744-373d86fbdd23
 tldr:: Optional companion Q&As for the expansion phase: how Sable spreads, how the story would differ if it started later, and why power-seeking sub-goals show up for almost any goal.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 8 (Expansion). Links the book website's supplementary Q&A cards covering what would change if the story started later, Sable's expansion phase, and instrumental convergence. A navigation and index lens only; it carries no standalone teaching content of its own.
