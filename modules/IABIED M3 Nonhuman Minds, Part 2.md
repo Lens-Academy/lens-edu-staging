@@ -23,9 +23,11 @@ reading_minutes:: 2
 #### Text
 content:: The last unit ended with systems that come to want things. This one asks three questions in a row: whether what they want is what you trained for, what they are likely to want instead, and what happens if++} we {--{"author":"Andreas's AI","timestamp":1789263580757}@@ask one essential question: how do we know that an AI won't want things that are broadly compatible with human life--}{++{"author":"Andreas's AI","timestamp":1789263580757}@@try to stop them.
 
-That third question is the one most people reach for first. The book leaves it until last,++} and{--{"author":"Andreas's AI","timestamp":1789263580757}@@ flourishing?
+That third question is the one most people reach for first. The book leaves it until last,++} and it{--{"author":"Andreas's AI","timestamp":1789263580757}@@ does want things that are bad for humanity... can't we just stop it? That's where the next module begins.)--}{++{"author":"Andreas's AI","timestamp":1789263580757}@@ is worth asking yourself why as you go.++}{++{"author":"Andreas's AI","timestamp":1789263594392}@@
 
-(And if--} it{--{"author":"Andreas's AI","timestamp":1789263580757}@@ does want things that are bad for humanity... can't we just stop it? That's where the next module begins.)--}{++{"author":"Andreas's AI","timestamp":1789263580757}@@ is worth asking yourself why as you go.++}
+**This unit's reading:** Chapter 4 ("You Don't Get What You Train For"), Chapter 5 ("Its Favorite Things") and Chapter 6 ("We'd Lose").
+
+When you are ready, head to the first lesson.++}
 
 %%
 **Chapter 5**
