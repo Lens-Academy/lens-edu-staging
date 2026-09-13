@@ -18,7 +18,7 @@ reading_minutes:: 2
 #### Text
 content:: The last unit ended with systems that come to want things. This one asks three questions in a row: whether what they want is what you trained for, what they are likely to want instead, and what happens if we try to stop them.
 
-That third question is the one most people reach for first. The book leaves it until last, and it is worth asking yourself why as you go.
+That third question is the one most people reach for first, andt he book leaves it until last, and it is worth asking yourself why as you go.
 
 **This unit's reading:** Chapter 4 ("You Don't Get What You Train For"), Chapter 5 ("Its Favorite Things") and Chapter 6 ("We'd Lose").
 
