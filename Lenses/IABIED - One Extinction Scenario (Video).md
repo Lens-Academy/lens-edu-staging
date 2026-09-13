@@ -21,7 +21,7 @@ authors:
 content::
 \## This unit's scenario, as a film
 
-{--{"author":"Andreas's AI","timestamp":1789265573822}@@This module normally carries the course's longest reading:--}{++{"author":"Andreas's AI","timestamp":1789265573822}@@The film tells++} the book's own extinction {--{"author":"Andreas's AI","timestamp":1789265573822}@@scenario. We replaced about half of this unit's reading with a video that tells the book's story,--}{++{"author":"Andreas's AI","timestamp":1789265573822}@@scenario,++} minute by minute, through the eyes of ordinary people living through it.
+The film tells the book's own extinction scenario, minute by minute, through the eyes of ordinary people living through it.
 
 If you would rather read instead (or as well): the same story in the authors' own words is Chapters 7 to 8 ("Realization", "Expansion").
 
