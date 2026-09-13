@@ -17,7 +17,7 @@ summary_for_tutor:: Welcome and framing lens for Unit 3, covering two extension 
 reading_minutes:: 2
 
 #### Text
-content:: This unit is shaped differently from the others: part of the book's scenario comes as a film rather than as chapters.
+content:: This unit is shaped differently from the others. Most of the book's extinction scenario, which is the longest reading in the course, comes to you as a thirty-minute film instead of as chapters.
 
 The unit then turns outward. After a scenario built to be grim, the last lesson asks what you are unusually good at and where that might bite on the problem. It is placed there deliberately rather than tacked on the end.
 
