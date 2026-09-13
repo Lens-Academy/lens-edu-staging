@@ -190,29 +190,29 @@ source:: ![[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
 # Submodule: Chapter 13: Shut It Down
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/14 - Chapter 13 - Shut It Down]]
 
-## Learning Outcome:
+{--{"author":"Andreas's AI","timestamp":1789273477645}@@##--}{++{"author":"Andreas's AI","timestamp":1789273477645}@@#++} Learning Outcome:
 source:: [[../Learning Outcomes/The WWII analogy]]
 
-## Learning Outcome:
+{--{"author":"Andreas's AI","timestamp":1789273477645}@@##--}{++{"author":"Andreas's AI","timestamp":1789273477645}@@#++} Learning Outcome:
 source:: [[../Learning Outcomes/Narrow coalition strategy]]
 
 %%
-## Lens:
+{--{"author":"Andreas's AI","timestamp":1789273477645}@@##--}{++{"author":"Andreas's AI","timestamp":1789273477645}@@#++} Lens:
 source:: [[../Lenses/IABIED - The WWII Analogy - PQ]]
 %%
 
-## Lens:
+{--{"author":"Andreas's AI","timestamp":1789273477645}@@##--}{++{"author":"Andreas's AI","timestamp":1789273477645}@@#++} Lens:
 source:: [[../Lenses/IABIED - The WWII Analogy]]
 
 %%
-## Lens:
+{--{"author":"Andreas's AI","timestamp":1789273477645}@@##--}{++{"author":"Andreas's AI","timestamp":1789273477645}@@#++} Lens:
 source:: [[../Lenses/IABIED - Coalition Strategy - PQ]]
 %%
 
-## Lens:
+{--{"author":"Andreas's AI","timestamp":1789273477645}@@##--}{++{"author":"Andreas's AI","timestamp":1789273477645}@@#++} Lens:
 source:: [[../Lenses/IABIED - Coalition Strategy]]
 
-## Lens: Dive Deeper: Chapter 13
+{--{"author":"Andreas's AI","timestamp":1789273477645}@@##--}{++{"author":"Andreas's AI","timestamp":1789273477645}@@#++} Lens: Dive Deeper: Chapter 13
 id:: e983cb9d-bdec-46c7-9ad2-fe9e52bbc29e
 tldr:: Deeper on Chapter 13? The book's supplementary Q&As field the hardest objections to "shut it down": "can technology really be stopped?", "isn't this too much power for governments?", "what if nations reject the ban?".
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 13 (Shut It Down). Links the book website's supplementary Q&A cards covering the draft treaty, wait-and-see, warning shots, monitoring without spyware, chip-ownership control, research bans, whether technology can be stopped, government power, nations rejecting the ban, a permanent monitoring regime, making humans smarter, "aligned to whom", talking about extinction, elected officials, hopelessness, shutting down global AI development, international cooperation, and keeping the coalition large. A navigation and index lens only; it carries no standalone teaching content of its own.
