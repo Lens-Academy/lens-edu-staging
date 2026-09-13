@@ -337,38 +337,38 @@ source:: ![[../Lenses/IABIED - QA - Keep the Coalition Large]]
 # Submodule: Chapter 14: Where There's Life, There's Hope
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/15 - Chapter 14 - Where There's Life, There's Hope]]
 
-## Learning Outcome:
+{--{"author":"Andreas's AI","timestamp":1789273525779}@@##--}{++{"author":"Andreas's AI","timestamp":1789273525779}@@#++} Learning Outcome:
 source:: [[../Learning Outcomes/Un-writing our fate]]
 
-## Learning Outcome:
+{--{"author":"Andreas's AI","timestamp":1789273525779}@@##--}{++{"author":"Andreas's AI","timestamp":1789273525779}@@#++} Learning Outcome:
 source:: [[../Learning Outcomes/Role-specific action]]
 
 %%
-## Lens:
+{--{"author":"Andreas's AI","timestamp":1789273525779}@@##--}{++{"author":"Andreas's AI","timestamp":1789273525779}@@#++} Lens:
 source:: [[../Lenses/IABIED - Un-Writing Our Fate - PQ]]
 %%
 
-## Lens:
+{--{"author":"Andreas's AI","timestamp":1789273525779}@@##--}{++{"author":"Andreas's AI","timestamp":1789273525779}@@#++} Lens:
 source:: [[../Lenses/IABIED - Un-Writing Our Fate]]
 
-## Lens:
+{--{"author":"Andreas's AI","timestamp":1789273525779}@@##--}{++{"author":"Andreas's AI","timestamp":1789273525779}@@#++} Lens:
 source:: [[../Lenses/IABIED - Role-Specific Action - PQ]]
 
-## Lens:
+{--{"author":"Andreas's AI","timestamp":1789273525779}@@##--}{++{"author":"Andreas's AI","timestamp":1789273525779}@@#++} Lens:
 source:: [[../Lenses/IABIED - Role-Specific Action]]
 
 # Submodule: Closing Words
 
 %%
 Demoted to optional to reduce final-unit load:
-## Learning Outcome: IABIED - The Two Prayers
+{--{"author":"Andreas's AI","timestamp":1789273525779}@@##--}{++{"author":"Andreas's AI","timestamp":1789273525779}@@#++} Learning Outcome: IABIED - The Two Prayers
 source:: [[../Learning Outcomes/The two prayers]]
 
-## Lens:
+{--{"author":"Andreas's AI","timestamp":1789273525779}@@##--}{++{"author":"Andreas's AI","timestamp":1789273525779}@@#++} Lens:
 source:: [[../Lenses/IABIED - The Two Prayers - PQ]]
 %%
 
-## Lens:
+{--{"author":"Andreas's AI","timestamp":1789273525779}@@##--}{++{"author":"Andreas's AI","timestamp":1789273525779}@@#++} Lens:
 optional:: true
 source:: [[../Lenses/IABIED - The Two Prayers]]
 
