@@ -23,7 +23,7 @@ The unit then turns outward. After a scenario built to be grim, the last lens as
 
 **This unit's reading:** two short extensions ("Terminal Goals and Instrumental Goals" and "Instrumental Convergence"), the film, Chapter 9 ("Ascension"), and the Coda. Chapters 7 and 8 cover the same ground as the film in the authors' own words, and are there for anyone who wants more of it.
 
-Head to the first lesson when you are ready.
+Head to the first lens when you are ready.
 
 # Submodule: Goals and Instrumental Convergence
 

@@ -22,7 +22,7 @@ That third question is the one most people reach for first, and the book leaves 
 
 **This unit's reading:** Chapter 4 ("You Don't Get What You Train For"), Chapter 5 ("Its Favorite Things") and Chapter 6 ("We'd Lose").
 
-Head to the first lesson when you are ready.
+Head to the first lens when you are ready.
 
 %%
 **Chapter 5**
