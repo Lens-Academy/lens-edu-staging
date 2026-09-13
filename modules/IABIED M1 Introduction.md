@@ -17,6 +17,7 @@ reading_minutes:: 3
 #### Text
 content:: Welcome to our introductory AI safety course. We're using the book *If Anyone Builds It, Everyone Dies* as our primary source for this book club.
 
+:::callout {title="The Book" tone="amber"}
 You'll need your own copy of the book, in print, e-book, or audio format. If you don't have one yet, [see available formats and places to buy it](https://lensacademy.org/if-anyone-builds-it-everyone-dies). We use the word "book-club" lightly in this context. The author of this module (Chris) has been a long-time member of a book club and has been told that his book club is unusual in that they focus on the books, whereas most book clubs (apparently) serve as an excuse to drink wine and socialize. This book club (read: course) will push in the opposite direction: we'll ask you to interact with our AI tutor and do homework assignments for each unit in order to help the material stick.{>>{"author":"Luc","timestamp":1782498312986}@@Request/suggestion to nolonger brand this course as a bookclub.<<}
 
 We cover roughly 40 pages of the book per unit, which is about 90 minutes of reading (one unit swaps most of its reading for a 30-minute film). On top of that, expect roughly
