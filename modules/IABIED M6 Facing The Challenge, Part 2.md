@@ -289,47 +289,47 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Nations Reject Ban]]
 
-## Lens: IABIED - QA - Monitoring Regime Forever
+# Lens: IABIED - QA - Monitoring Regime Forever
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Monitoring Regime Forever]]
 
-## Lens: IABIED - QA - Making Humans Smarter
+# Lens: IABIED - QA - Making Humans Smarter
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Making Humans Smarter]]
 
-## Lens: IABIED - QA - Aligned to Whom
+# Lens: IABIED - QA - Aligned to Whom
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Aligned to Whom]]
 
-## Lens: IABIED - QA - Avoid Talking About Extinction
+# Lens: IABIED - QA - Avoid Talking About Extinction
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Avoid Talking About Extinction]]
 
-## Lens: IABIED - QA - Elected Officials Recognize Threat
+# Lens: IABIED - QA - Elected Officials Recognize Threat
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Elected Officials Recognize Threat]]
 
-## Lens: IABIED - QA - Is It Hopeless
+# Lens: IABIED - QA - Is It Hopeless
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Is It Hopeless]]
 
-## Lens: IABIED - QA - Shut Down Global AI Development
+# Lens: IABIED - QA - Shut Down Global AI Development
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Shut Down Global AI Development]]
 
-## Lens: IABIED - QA - Can International Cooperation Really Work
+# Lens: IABIED - QA - Can International Cooperation Really Work
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Can International Cooperation Really Work]]
 
-## Lens: IABIED - QA - Keep the Coalition Large
+# Lens: IABIED - QA - Keep the Coalition Large
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Keep the Coalition Large]]
