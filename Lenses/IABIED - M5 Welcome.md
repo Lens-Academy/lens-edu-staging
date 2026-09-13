@@ -8,7 +8,19 @@ authors:
   - Yatharth+Claude
 ---
 #### Text
-content:: Having just lived through the Sable scenario, we now ask: *can the engineering challenge actually be solved?*
+content:: {>>{"author":"Andreas's AI","timestamp":1789266459923}@@ORPHANED 2026-09-12. Nothing imports this file any more.
+
+This was the welcome for [[../modules/IABIED M5 Facing The Challenge, Part 1]], pulled in by a `source::` line that has been replaced with an inline `# Lens: Welcome` in that module. The reason is in [[../AIRF Restructure Log]], section 6 ("Welcome lenses: the evidence behind the decision"), which records why every module welcome moves inline, and section 5 under "Stage 4, welcomes", which tracks the work per module. The decision follows the canonical module shape in [[../AI Guide/Writing Modules]], where the welcome is the worked example of an inline lens.
+
+Nothing here had gone stale. Unit 4 was untouched by the restructure, and of the five unit welcomes this was the one judged best written, which is recorded in section 6.
+
+Why it was replaced anyway: it names all five engineering curses in its visible text, and the Chapter 10 outcome asks the learner to enumerate exactly those five. A learner who reads this arrives at the recall beat having been handed the list, so the recall measures the welcome rather than the chapter. That finding, and the rule it produced about welcomes naming what a chapter is about but never the answers its outcomes test, is in section 6 under the same heading.
+
+What was carried into the replacement: the closing Talk to One Person paragraph, near enough verbatim, because it was the best thing in any of the five welcomes. The two per-chapter summaries were not, for the reason above.
+
+Nothing in this file has been deleted. Whether to retire it is its author's call.<<}
+
+Having just lived through the Sable scenario, we now ask: *can the engineering challenge actually be solved?*
 
 This unit's two chapters answer that in two voices. Chapter 10 (*A Cursed Problem*) names five engineering "curses" that make alignment uniquely hard: the speed of underlying processes, the narrow margin between safe and catastrophic, self-amplification, complications, and edge cases. The chapter draws on space probes (Mars Observer, Mars Climate Orbiter, Mars Polar Lander, Viking 1), nuclear reactors (Chernobyl), and computer security (buffer-overflow attacks) to show that these curses appear individually in ordinary engineering and *all of them simultaneously* in AI alignment.
 
