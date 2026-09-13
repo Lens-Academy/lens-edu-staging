@@ -16,7 +16,7 @@ summary_for_tutor:: Welcome and framing lens for Unit 2, covering IABIED Chapter
 reading_minutes:: 2
 
 #### Text
-content:: The last unit ended with systems that come to want things. This one asks three questions in a row: whether what they want is what you trained for, what they are likely to want instead, and what happens if we try to stop them.
+content:: The last unit ended with systems that come to want things. This one asks three questions in a row: whether what they want is what you trained them for, what they are likely to want instead, and what happens if we try to stop them.
 
 That third question is the one most people reach for first, and the book leaves it until last. It is worth asking yourself why as you go.
 
