@@ -21,7 +21,7 @@ content:: This unit is shaped differently from the others. Most of the book's ex
 
 The unit then turns outward. After a scenario built to be grim, the last lens asks what you are unusually good at and where that might bite on the problem. It is placed there deliberately rather than tacked on the end.
 
-**This unit's reading:** two short extensions ("Terminal Goals and Instrumental Goals" and "Instrumental Convergence"), the film, Chapter 9 ("Ascension"), and the Coda. Chapters 7 and 8 cover the same ground as the film in the authors' own words, and is optional for anyone who wants to read their account.
+**This unit's reading:** two short extensions ("Terminal Goals and Instrumental Goals" and "Instrumental Convergence"), the film, Chapter 9 ("Ascension"), and the Coda. Chapters 7 and 8 cover the same ground as the film in the authors' own words, and is optional reading for anyone who wants to d.
 
 Head to the first lens when you are ready.
 
