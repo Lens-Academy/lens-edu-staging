@@ -22,10 +22,10 @@ You'll need your own copy of the book, in print, e-book, or audio format. If you
 
 :::
 
-We cover roughly 40 pages of the book per unit (one unit swaps most of its reading for a 30-minute film). On top of that, expect roughly about
-- 90 minutes of reading,
-- 90 minutes with the AI tutor and the supplementary materials, and
-- 90 minutes in the meeting.
+We cover roughly 40 pages of the book per unit (one unit swaps most of its reading for a 30-minute film). {--{"author":"Andreas's AI","timestamp":1789328764309}@@On top of that,--}{++{"author":"Andreas's AI","timestamp":1789328764309}@@Per unit,++} expect {--{"author":"Andreas's AI","timestamp":1789328764309}@@roughly about--}{++{"author":"Andreas's AI","timestamp":1789328764309}@@roughly:++}
+- 90 minutes of {--{"author":"Andreas's AI","timestamp":1789328764309}@@reading,--}{++{"author":"Andreas's AI","timestamp":1789328764309}@@reading++}
+- 90 minutes with the AI tutor and the supplementary {--{"author":"Andreas's AI","timestamp":1789328764309}@@materials, and--}{++{"author":"Andreas's AI","timestamp":1789328764309}@@materials++}
+- 90 minutes in the {--{"author":"Andreas's AI","timestamp":1789328764309}@@meeting.--}{++{"author":"Andreas's AI","timestamp":1789328764309}@@meeting++}
 
 That comes to about four and a half hours per unit for a fast reader doing the required parts, and a good deal more for anyone who also works through the optional material. Units vary: the first is the heaviest, and the one built around the film is the lightest by roughly an hour and a half.
 
