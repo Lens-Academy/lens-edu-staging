@@ -28,19 +28,19 @@ Head to the first lens when you are ready.
 
 # Submodule: Goals and Instrumental Convergence
 
-## Learning Outcome:
+# Learning Outcome:
 source:: ![[../Learning Outcomes/Predictable sub-goals from unknown goals]]
 
-## Lens:
+# Lens:
 source:: ![[../Lenses/IABIED - Goals and Instrumental Convergence]]
 
 # Submodule: The Scenario
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/07 - Chapter 7 - Realization]], [[../../Lens Edu Private/IABIED Book Content/08 - Chapter 8 - Expansion]]
 
-## Lens: One Extinction Scenario (Video)
+# Lens: One Extinction Scenario (Video)
 source:: ![[../Lenses/IABIED - One Extinction Scenario (Video)]]
 
-## Lens: Dive Deeper: Chapter 7
+# Lens: Dive Deeper: Chapter 7
 id:: e196bef6-01c9-48d8-b252-c1561bf52111
 tldr:: Optional companion Q&As for the scenario's opening: why the story is set up this way, how Sable thinks, and whether Galvanic was fairly or insufficiently careful. Pick the ones that interest you.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 7 (Realization). Links the book website's supplementary Q&A cards for Part II covering the scenario's construction: why this setup, Sable's thinking, whether Galvanic was fairly or insufficiently careful, and whether only one smart AI matters. A navigation and index lens only; it carries no standalone teaching content of its own.
