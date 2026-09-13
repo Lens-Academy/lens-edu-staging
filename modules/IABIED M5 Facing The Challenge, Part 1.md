@@ -17,7 +17,7 @@ summary_for_tutor:: Welcome and framing lens for Unit 4, covering IABIED Chapter
 reading_minutes:: 2
 
 #### Text
-content:: Having watched the scenario play out, this unit asks whether the engineering problem behind it can actually be solved.
+content:: Having watched the scenario play out, this unit asks whether the engineering problem behind it can actually be solved. It draws on the earlier chapters more than any unit so far.
 
 The unit ends by asking something of you: talk to one person you know about what you have been reading. It is the book's own ask of ordinary citizens, and it is the most honest test of your understanding. Anyone can nod along in a course, and explaining the argument to someone who has never heard of it shows you which parts you actually own. The last lens helps you pick your person and rehearse before you have the conversation.
 
