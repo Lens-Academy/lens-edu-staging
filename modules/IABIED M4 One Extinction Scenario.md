@@ -101,12 +101,12 @@ Skim whatever catches your eye.
 ::card[[../Lenses/IABIED - QA - Sable's Expansion Phase]]
 {>>{"author":"Elias's AI","timestamp":1784730265976}@@'Instrumental Convergence' was a hidden import without a card in the old Dive Deeper submodule (unreachable for learners); carded it here under Ch8.<<}
 
-## Lens: IABIED - QA - Story Started Later
+# Lens: IABIED - QA - Story Started Later
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Story Started Later]]
 
-## Lens: IABIED - QA - Sable's Expansion Phase
+# Lens: IABIED - QA - Sable's Expansion Phase
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Sable's Expansion Phase]]
@@ -114,13 +114,13 @@ source:: ![[../Lenses/IABIED - QA - Sable's Expansion Phase]]
 # Submodule: Cosmic Stakes
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/09 - Chapter 9 - Ascension]]
 
-## Learning Outcome:
+# Learning Outcome:
 source:: ![[../Learning Outcomes/Cosmic stakes]]
 
-## Lens:
+# Lens:
 source:: ![[../Lenses/IABIED - Cosmic Stakes]]
 
-## Lens: Dive Deeper: Chapter 9
+# Lens: Dive Deeper: Chapter 9
 id:: b3132948-6f00-4d18-89f1-40d46c96e92c
 tldr:: Optional companion Q&As for the scenario's end: what the ending really claims, and why a superintelligence wouldn't simply choose to be moral.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 9 (Ascension). Links the book website's supplementary Q&A cards covering the scenario's ending and the objection that a superintelligence would choose to be moral or install love into itself. A navigation and index lens only; it carries no standalone teaching content of its own.
