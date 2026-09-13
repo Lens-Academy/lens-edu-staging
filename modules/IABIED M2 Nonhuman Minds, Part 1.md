@@ -23,7 +23,7 @@ Three chapters, and they work as one argument in three steps rather than as thre
 
 **This unit's reading:** Chapter 1 ("Humanity's Special Power"), Chapter 2 ("Grown, Not Crafted") and Chapter 3 ("Learning to Want").
 
-Your first meeting comes after this unit and covers the Introduction alongside it.  head to the first lesson When you are ready,.
+Your first meeting comes after this unit and covers the Introduction alongside it. Head to the first lesson when you are ready,.
 %%
 **This week's reading:** Chapter 3 ("Learning to Want") + Chapter 4 ("You Don't Get What You Train For"). After reading, come back here to discuss with the tutor.
 
