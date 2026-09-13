@@ -20,11 +20,11 @@ content:: Welcome to our introductory AI safety course. We're using the book *If
 You'll need your own copy of the book, in print, e-book, or audio format. If you don't have one yet, [see available formats and places to buy it](https://lensacademy.org/if-anyone-builds-it-everyone-dies). We use the word "book-club" lightly in this context. The author of this module (Chris) has been a long-time member of a book club and has been told that his book club is unusual in that they focus on the books, whereas most book clubs (apparently) serve as an excuse to drink wine and socialize. This book club (read: course) will push in the opposite direction: we'll ask you to interact with our AI tutor and do homework assignments for each unit in order to help the material stick.{>>{"author":"Luc","timestamp":1782498312986}@@Request/suggestion to nolonger brand this course as a bookclub.<<}
 
 We cover roughly 40 pages of the book per unit, which is about 90 minutes of reading (one unit swaps most of its reading for a 30-minute film). On top of that, expect roughly
-- 90 minutes with the AI tutor and the supplementary materials,
-- 1 hour on the homework, and
+- 90 minutes with the AI tutor and the supplementary materials,{--{"author":"Andreas's AI","timestamp":1789271312616}@@
+- 1 hour on the homework, --}{++{"author":"Andreas's AI","timestamp":1789271312616}@@ ++}and
 - 90 minutes in the meeting.
 
-That comes to about five and a half hours per unit for a fast reader doing the required parts, and a good deal more for anyone who also works through the optional material. Units vary: the first is the heaviest, and the one built around the film is the lightest by roughly an hour and a half.
+That comes to about {--{"author":"Andreas's AI","timestamp":1789271312616}@@five--}{++{"author":"Andreas's AI","timestamp":1789271312616}@@four++} and a half hours per unit for a fast reader doing the required parts, and a good deal more for anyone who also works through the optional material. Units vary: the first is the heaviest, and the one built around the film is the lightest by roughly an hour and a half.
 
 \### Structure
 Before the first meeting, you'll be assigned to a cohort in the Lens Academy Discord server. That's a private channel that only your fellow cohort members (and admins) can see. If you haven't already, take a moment to introduce yourself in your cohort channel and paste a copy of your intro into `#intros-offers-asks` so the entire Discord server can see it.
