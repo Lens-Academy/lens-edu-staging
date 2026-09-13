@@ -326,7 +326,7 @@ Note the history recorded in the course file: meeting 2's doc once ran an outdat
 | M4 | `source::` pointing at the standalone file [[Lenses/IABIED - M4 Welcome]] |
 | M5 | `source::` pointing at the standalone file [[Lenses/IABIED - M5 Welcome]] |
 | M6 | Inline lens |
-| M7 | Confirm |
+| M7 | **Confirmed 2026-09-12: no Welcome submodule at all.** Its first submodule is `The Whole Argument`, holding an inline lens named Welcome that is really the synthesis question. Decision: M7 keeps no welcome, since the module is short and closes the course. The step 7 fix still applies to that lens |
 
 This makes the case stronger rather than weaker, and changes what the work is. We are not adding welcomes to modules that lack them. We are making the contents of a slot that already exists on every module consistent, which is a smaller and safer change than replacing a structure.
 
