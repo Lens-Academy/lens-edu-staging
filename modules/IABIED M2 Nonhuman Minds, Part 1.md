@@ -47,9 +47,7 @@ Discussion topics to explore:
 Ask what they found surprising or new. Check if they can explain the ice cream analogy in their own words, since it's a key concept.
 %%
 
-{--{"author":"Andreas's AI","timestamp":1789264483068}@@{>>{"author":"Andreas's AI","timestamp":1789261917021}@@The commented block above is stale and has been left in place rather than removed, since it is another author's work. It was written when this module was chapters 3 and 4; stage 1d made it chapters 1 to 3, so its reading line names the wrong chapters and its Chat segment briefs a tutor on material that now sits in M3. The live welcome above has been rewritten for the new contents. Whoever owns this block should decide whether to update it for chapters 1 to 3 or retire it.<<}
-
---}# Submodule: Ch1 - Intelligence
+# Submodule: Ch1 - Intelligence
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]
 
 # Learning Outcome:
