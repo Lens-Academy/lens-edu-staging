@@ -12,14 +12,25 @@ readings:
 # Submodule: Welcome
 # Lens: Welcome
 id:: a058eebe-2914-4a55-b88a-57027f0b79aa
-tldr:: Can an AI actually *want* things, and if it can, will it want what you trained it to want? This unit's two chapters tackle both: how goal-like behavior emerges during training, and why the target you optimize for and the preferences you end up with can quietly come apart.
-summary_for_tutor:: Welcome and framing lens for Module 2, covering IABIED Chapters 3 ("Learning to Want") and 4 ("You Don't Get What You Train For"). Poses the module's two guiding questions, whether AIs can develop wants and whether those wants match the training target, and orients the learner before the chapter lenses and the tutor chat, which checks understanding of how training produces want-like behavior and why trained targets diverge from internal preferences (the ice cream, sucralose, and peacock-tail analogies).
+tldr:: {--{"author":"Andreas's AI","timestamp":1789261907988}@@Can an AI--}{++{"author":"Andreas's AI","timestamp":1789261907988}@@What is intelligence, how do these systems++} actually {--{"author":"Andreas's AI","timestamp":1789261907988}@@*want* things,--}{++{"author":"Andreas's AI","timestamp":1789261907988}@@get made,++} and {--{"author":"Andreas's AI","timestamp":1789261907988}@@if it can, will it want what you trained it to want? This unit's two chapters tackle both: how goal-like behavior emerges during training, and why--}{++{"author":"Andreas's AI","timestamp":1789261907988}@@where do their wants come from? Three chapters, working as one argument in three steps.
+summary_for_tutor:: Welcome and framing lens for Unit 1, covering IABIED Chapters 1 to 3. Places++} the {--{"author":"Andreas's AI","timestamp":1789261907988}@@target you optimize for--}{++{"author":"Andreas's AI","timestamp":1789261907988}@@learner after the Introduction++} and {++{"author":"Andreas's AI","timestamp":1789261907988}@@before ++}the {--{"author":"Andreas's AI","timestamp":1789261907988}@@preferences you end up with can quietly come apart.
+summary_for_tutor:: Welcome and framing lens for Module 2, covering IABIED Chapters 3 ("Learning to Want") and 4 ("You Don't Get What You Train For"). Poses--}{++{"author":"Andreas's AI","timestamp":1789261907988}@@first meeting, which covers the Introduction and this unit together. Names what each chapter is about without previewing any of their conclusions.
+reading_minutes:: 2
+
+#### Text
+content:: You have the Introduction behind you, and with it++} the {--{"author":"Andreas's AI","timestamp":1789261907988}@@module's two guiding questions, whether AIs can develop wants and whether those wants match the training target, and orients the learner before the chapter lenses and the tutor chat, which checks understanding of how training produces want-like behavior--}{++{"author":"Andreas's AI","timestamp":1789261907988}@@authors' distinction between hard calls and easy calls. This unit starts building the case they think is an easy call.
+
+Three chapters, and they work as one argument in three steps rather than as three separate topics: what intelligence is++} and why {--{"author":"Andreas's AI","timestamp":1789261907988}@@trained targets diverge from internal preferences (the ice cream, sucralose, and peacock-tail analogies).
 reading_minutes:: 2
 
 #### Text
 content:: Congratulations on completing week 1. You already know more essential facts about AI safety than 99% of humanity. However, our journey is only just beginning.
 
-This week we ask two critical questions: Can AIs develop wants? And if so, will they want what we trained them to want?
+This week we ask two critical questions: Can AIs develop wants? And if so, will they want what we trained them--}{++{"author":"Andreas's AI","timestamp":1789261907988}@@it matters, how these systems actually get made, and where their wants come from. It is worth noticing where each chapter hands off to the next.
+
+**This unit's reading:** Chapter 1 ("Humanity's Special Power"), Chapter 2 ("Grown, Not Crafted") and Chapter 3 ("Learning to Want").
+
+Your first meeting comes after this unit and covers the Introduction alongside it. When you are ready, head++} to {--{"author":"Andreas's AI","timestamp":1789261907988}@@want?--}{++{"author":"Andreas's AI","timestamp":1789261907988}@@the first lesson.++}
 %%
 **This week's reading:** Chapter 3 ("Learning to Want") + Chapter 4 ("You Don't Get What You Train For"). After reading, come back here to discuss with the tutor.
 
