@@ -14,7 +14,9 @@ This was the welcome for [[../modules/IABIED M4 One Extinction Scenario]], pulle
 
 What went stale here: the reading list and the Chat segment below both assume Chapters 7, 8 and 9 are read, which stopped being true when the film replaced 7 and 8, and again when Chapter 9 returned as its own reading in stage 2 of the same restructure.
 
-What was carried into the replacement: the closing instruction about decision points where humans could have intervened, which is in the new welcome's visible text, and the design principle from the Pedagogical Note below, anchor the lessons to mechanisms rather than events, which is in its `summary_for_tutor`.
+What was carried into the replacement: the {++{"author":"Andreas's AI","timestamp":1789265258196}@@design principle from the Pedagogical Note below, anchor the lessons to mechanisms rather than events, which is in the new welcome's `summary_for_tutor`.
+
+What was deliberately not carried: the ++}closing instruction about decision points where humans could have {--{"author":"Andreas's AI","timestamp":1789265258196}@@intervened, which is--}{++{"author":"Andreas's AI","timestamp":1789265258196}@@intervened. It was the best line++} in {++{"author":"Andreas's AI","timestamp":1789265258196}@@this file, but ++}the {--{"author":"Andreas's AI","timestamp":1789265258196}@@new welcome's visible text, and--}{++{"author":"Andreas's AI","timestamp":1789265258196}@@film lens now issues its own watch instruction, aimed at++} the {--{"author":"Andreas's AI","timestamp":1789265258196}@@design principle from the Pedagogical Note below, anchor--}{++{"author":"Andreas's AI","timestamp":1789265258196}@@three questions it asks immediately afterwards. Two instructions on adjacent pages would compete, and a welcome sitting three lessons upstream of++} the {--{"author":"Andreas's AI","timestamp":1789265258196}@@lessons to mechanisms rather than events, which is in its `summary_for_tutor`.--}{++{"author":"Andreas's AI","timestamp":1789265258196}@@film is the wrong place to tell anyone what to watch for.++}
 
 Nothing in this file has been deleted. Whether to retire it is its author's call.<<}
 
