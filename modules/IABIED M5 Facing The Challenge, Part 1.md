@@ -13,6 +13,7 @@ authors:
 # Submodule: Welcome
 # Lens: Welcome
 id:: 977163ed-d709-417f-bbe3-57a58254c571
+tldr:: Whether the engineering problem behind the scenario can actually be solved, and what state the field working on it is in. Ends by asking you to talk to one person about what you have been reading.
 summary_for_tutor:: Welcome and framing lens for Unit 4, covering IABIED Chapters 10 and 11, each split across two shorter readings paired with tutor conversations. Frames the unit's question as whether the engineering problem can be solved, and names the closing Talk to One Person lens and why it is there. Previews none of the unit's conclusions.
 reading_minutes:: 2
 
