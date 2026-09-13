@@ -37,6 +37,28 @@ Our target flow for reading the book looks like:
 3. Tutor discussion - you come back and answer some questions and discuss with the AI tutor
 4. (Optional) Exploration - the tutor will suggest additional topics you might want to explore based on the conversation so far.
 
+\### The path
+
+:::callout {title="Unit 1: Nonhuman Minds, Part 1" tone="blue"}
+The Introduction, then three chapters that work as one argument: what intelligence is, how these systems come to exist, and where their wants come from.
+:::
+
+:::callout {title="Unit 2: Nonhuman Minds, Part 2" tone="blue"}
+Three questions in sequence. Whether what a system wants is what you trained for, what it is likely to want instead, and what happens if we try to stop it.
+:::
+
+:::callout {title="Unit 3: One Extinction Scenario" tone="blue"}
+The shape of this unit is different. Two short extension readings, then most of the book's own extinction scenario as a thirty-minute film rather than as chapters, the chapter that follows it, and the Coda. It ends by asking where your own leverage on the problem might be.
+:::
+
+:::callout {title="Unit 4: Facing the Challenge, Part 1" tone="blue"}
+Whether the engineering problem behind that scenario can actually be solved, and what state the field working on it is in. This unit ends by asking you to talk to one person about what you have been reading.
+:::
+
+:::callout {title="Unit 5: Facing the Challenge, Part 2" tone="blue"}
+Why the response so far has been inadequate, what the authors think should happen instead, and why they do not think it is hopeless. The course then closes by asking you to make the whole argument in your own words, and to choose one thing you will keep doing afterwards.
+:::
+
 \### Community 
 We hope this book club will also help grow the AI safety community. Some of these topics are counterintuitive, scary, and maybe even depressing. We hope working through this material with a group of like-minded individuals will give you the opportunity to give and receive support in working through this challenging problem. We also notice that it takes most people time to find their niche for contributing to AI safety. An important part of that exploration process is meeting others in the community, having conversations, and learning what different groups and organizations are up to. Take the opportunity to start building your network during this course by staying active between meetings.
 
