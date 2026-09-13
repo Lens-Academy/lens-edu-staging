@@ -22,7 +22,7 @@ You'll need your own copy of the book, in print, e-book, or audio format. If you
 
 :::
 
-We cover roughly 40 pages of the book per unit, which is about 90 minutes of reading (one unit swaps most of its reading for a 30-minute film). On top of that, expect roughly about
+We cover roughly 40 pages of the book per unit (one unit swaps most of its reading for a 30-minute film). On top of that, expect roughly about
 - 90 minutes of reading,
 - 90 minutes with the AI tutor and the supplementary materials, and
 - 90 minutes in the meeting.
