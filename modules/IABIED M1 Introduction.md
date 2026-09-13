@@ -61,7 +61,7 @@ Why the response so far has been inadequate, what the authors think should happe
 :::
 
 \### Community 
-We hope this book club will also help grow the AI safety community. Some of these topics are counterintuitive, scary, and maybe even depressing. We hope working through this material with a group of like-minded individuals will give you the opportunity to give and receive support in working through this challenging problem. We also notice that it takes most people time to find their niche for contributing to AI safety. An important part of that exploration process is meeting others in the community, having conversations, and learning what different groups and organizations are up to. Take the opportunity to start building your network during this course by staying active between meetings.
+We hope this course will also help grow the AI safety community. Some of these topics are counterintuitive, scary, and maybe even depressing. We hope working through this material with a group of like-minded individuals will give you the opportunity to give and receive support in working through this challenging problem. We also notice that it takes most people time to find their niche for contributing to AI safety. An important part of that exploration process is meeting others in the community, having conversations, and learning what different groups and organizations are up to. Take the opportunity to start building your network during this course by staying active between meetings.
 
 Don't save your questions and insights for the meeting day, post them into Discord as soon as they arise!
 
