@@ -9,17 +9,23 @@ readings:
   - "Chapter 6: We'd Lose"
 ---
 
-# Submodule: Part 3 Welcome
-# Lens: Part 3 Welcome
+# Submodule: {--{"author":"Andreas's AI","timestamp":1789263580757}@@Part 3 --}Welcome
+# Lens:{--{"author":"Andreas's AI","timestamp":1789263580757}@@ Part 3 --}{++{"author":"Andreas's AI","timestamp":1789263580757}@@ ++}Welcome
 id:: caf48b0b-f27a-4c09-9336-b443ac7843f4
-tldr:: How can we be so sure an AI won't happen to want things compatible with human life? Chapter 5 argues human-friendly goals are a vanishingly small slice of goal-space, and that none of the usual hopes (it'll need us, trade with us, keep us as pets) survive the argument.
-summary_for_tutor:: Framing lens for Module 3, covering IABIED Chapter 5 ("Its Favorite Things"). Sets up the module's question: why AI goals are unlikely to be compatible with human flourishing (the goal-space argument that human-compatible goals are a tiny subset of possible goals, and that alien intelligences form alien goals, illustrated by the stone-counting nest builders), and why the common hopes (usefulness, trade, pets, leaving Earth alone) fail. Chapter 6 ("We'd Lose") now opens the next module, where it sets up the extinction-scenario film. Orients the learner before the chapter lenses.
+{--{"author":"Andreas's AI","timestamp":1789263580757}@@tldr:: How can we be so sure an AI won't happen to want things compatible with human life? Chapter 5 argues human-friendly goals are a vanishingly small slice of goal-space, --}{++{"author":"Andreas's AI","timestamp":1789263580757}@@summary_for_tutor:: Welcome ++}and{--{"author":"Andreas's AI","timestamp":1789263580757}@@ that none of the usual hopes (it'll need us, trade with us, keep us as pets) survive the argument.
+summary_for_tutor:: Framing --}{++{"author":"Andreas's AI","timestamp":1789263580757}@@ framing ++}lens for {--{"author":"Andreas's AI","timestamp":1789263580757}@@Module 3,--}{++{"author":"Andreas's AI","timestamp":1789263580757}@@Unit 2,++} covering IABIED {--{"author":"Andreas's AI","timestamp":1789263580757}@@Chapter 5 ("Its Favorite Things"). Sets up --}{++{"author":"Andreas's AI","timestamp":1789263580757}@@Chapters 4 to 6. Frames ++}the {--{"author":"Andreas's AI","timestamp":1789263580757}@@module's question: why AI goals are unlikely to be compatible with human flourishing (the goal-space argument that human-compatible goals are a tiny subset--}{++{"author":"Andreas's AI","timestamp":1789263580757}@@unit as three questions in sequence and names what each chapter is about without previewing any++} of {--{"author":"Andreas's AI","timestamp":1789263580757}@@possible goals, and that alien intelligences form alien goals, illustrated by --}{++{"author":"Andreas's AI","timestamp":1789263580757}@@their conclusions. Chapter 6 sits in this unit, not ++}the {--{"author":"Andreas's AI","timestamp":1789263580757}@@stone-counting nest builders), and why the common hopes (usefulness, trade, pets, leaving Earth alone) fail. Chapter 6 ("We'd Lose") now opens the next module, where it sets up the extinction-scenario film. Orients the learner before the chapter lenses.
 reading_minutes:: 2
 
 #### Text
-content:: In module 3, we ask one essential question: how do we know that an AI won't want things that are broadly compatible with human life and flourishing?
+content:: In module 3,--}{++{"author":"Andreas's AI","timestamp":1789263580757}@@next one.
+reading_minutes:: 2
 
-(And if it does want things that are bad for humanity... can't we just stop it? That's where the next module begins.)
+#### Text
+content:: The last unit ended with systems that come to want things. This one asks three questions in a row: whether what they want is what you trained for, what they are likely to want instead, and what happens if++} we {--{"author":"Andreas's AI","timestamp":1789263580757}@@ask one essential question: how do we know that an AI won't want things that are broadly compatible with human life--}{++{"author":"Andreas's AI","timestamp":1789263580757}@@try to stop them.
+
+That third question is the one most people reach for first. The book leaves it until last,++} and{--{"author":"Andreas's AI","timestamp":1789263580757}@@ flourishing?
+
+(And if--} it{--{"author":"Andreas's AI","timestamp":1789263580757}@@ does want things that are bad for humanity... can't we just stop it? That's where the next module begins.)--}{++{"author":"Andreas's AI","timestamp":1789263580757}@@ is worth asking yourself why as you go.++}
 
 %%
 **Chapter 5**
