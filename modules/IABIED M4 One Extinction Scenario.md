@@ -136,12 +136,12 @@ Skim whatever catches your eye.
 ::card[[../Lenses/IABIED - QA - The Ending]]
 {>>{"author":"Elias's AI","timestamp":1785314112013}@@Correction to an earlier suggestion in this review: I had carded 'Won't It Choose to Be Moral' here, on the grounds that it was an unreachable hidden import. That was wrong to do. Its body is still a "TODO: Embed Q&A content" placeholder, so carding it showed learners an empty card. Card removed; the hidden import stays. Card it again once the Q&A content is actually embedded.<<}
 
-## Lens: IABIED - QA - The Ending
+{--{"author":"Andreas's AI","timestamp":1789273349080}@@##--}{++{"author":"Andreas's AI","timestamp":1789273349080}@@#++} Lens: IABIED - QA - The Ending
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - The Ending]]
 
-## Lens: IABIED - QA - Won't It Choose to Be Moral
+{--{"author":"Andreas's AI","timestamp":1789273349080}@@##--}{++{"author":"Andreas's AI","timestamp":1789273349080}@@#++} Lens: IABIED - QA - Won't It Choose to Be Moral
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Won't It Choose to Be Moral]]
@@ -149,23 +149,23 @@ source:: ![[../Lenses/IABIED - QA - Won't It Choose to Be Moral]]
 # Submodule: Coda
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/10 - Coda]]
 
-## Learning Outcome:
+{--{"author":"Andreas's AI","timestamp":1789273349080}@@##--}{++{"author":"Andreas's AI","timestamp":1789273349080}@@#++} Learning Outcome:
 source:: ![[../Learning Outcomes/Path vs. outcome prediction]]
 
-## Learning Outcome:
+{--{"author":"Andreas's AI","timestamp":1789273349080}@@##--}{++{"author":"Andreas's AI","timestamp":1789273349080}@@#++} Learning Outcome:
 source:: ![[../Learning Outcomes/Fiction as argument, not prediction]]
 
-## Lens:
+{--{"author":"Andreas's AI","timestamp":1789273349080}@@##--}{++{"author":"Andreas's AI","timestamp":1789273349080}@@#++} Lens:
 source:: ![[../Lenses/IABIED - Path Prediction vs Outcome Prediction - PQ]]
 
-## Lens:
+{--{"author":"Andreas's AI","timestamp":1789273349080}@@##--}{++{"author":"Andreas's AI","timestamp":1789273349080}@@#++} Lens:
 source:: ![[../Lenses/IABIED - Path Prediction vs Outcome Prediction]]
 
-## Lens:
+{--{"author":"Andreas's AI","timestamp":1789273349080}@@##--}{++{"author":"Andreas's AI","timestamp":1789273349080}@@#++} Lens:
 source:: ![[../Lenses/IABIED - Fiction as Argument]]
 
 # Submodule: Your Leverage
-## Lens: IABIED - Your Leverage
+{--{"author":"Andreas's AI","timestamp":1789273349080}@@##--}{++{"author":"Andreas's AI","timestamp":1789273349080}@@#++} Lens: IABIED - Your Leverage
 source:: ![[../Lenses/IABIED - Your Leverage]]
 
 {>>{"author":"AI","timestamp":1786281059001}@@Conversation-scheduling heads-up removed from the module by request: that nudge lives in the unit-3 meeting doc's last room instead, so it works for intensive and weekly cohorts alike.<<}
