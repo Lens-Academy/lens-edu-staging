@@ -277,11 +277,12 @@ Every module already has a `# Submodule: Welcome`. The work is making its conten
 | File | Change | Status |
 |---|---|---|
 | New M1 | Receives the old M1 course orientation as a course overview, `:::callout` per unit, reading load restated | `todo` |
-| M2 (old M1) | **Full rewrite, not a reframing.** Four things are false: the tldr's "two chapters", the `summary_for_tutor` naming chapters 3 and 4, the two guiding questions in the visible text, and the opening "Congratulations on completing week 1", which 1e falsified by moving M2 ahead of the first meeting. The commented-out Chat segment below is stale too and goes with it | `todo` |
-| M3 | Rename the `Part 3 Welcome` wrapper to `Welcome`, rewrite for chapters 4 to 6. Currently hands chapter 6 to the next module | `todo` |
-| M4 | Retire [[Lenses/IABIED - M4 Welcome]], replace inline. Stale reading list and hidden Chat segment go with it | `todo` |
-| M5 | Retire [[Lenses/IABIED - M5 Welcome]], replace inline | `todo` |
-| M6, M7 | Confirm M7, then bring both to the same shape. **M7 also carries a live error:** the twelve-step argument chain in its Welcome brief has step 7 as the scenario covering chapters 7 to 9 through the film. The film is 7 and 8, and chapter 9 is read | `todo` |
+| M2 (old M1) | Rewritten inline for chapters 1 to 3. The stale Chat block below it was left in place and unannotated, per the convention at the top | `done` |
+| M3 | Wrapper and lens renamed from `Part 3 Welcome` to `Welcome`, rewritten for chapters 4 to 6. Editorial block left in place | `done` |
+| M4 | [[Lenses/IABIED - M4 Welcome]] orphaned with a context note in the file; welcome rewritten inline. Chapters 7 and 8 now framed as optional reading rather than replaced | `done` |
+| M5 | [[Lenses/IABIED - M5 Welcome]] orphaned with a context note in the file; welcome rewritten inline. Its Talk to One Person paragraph carried across, middle sentence rewritten | `done` |
+| M6 | Rewritten inline. Three chapter summaries cut, action-plan thread kept and moved ahead of the reading line | `done` |
+| M7 | **No welcome, by decision.** Step 7 of the argument chain in its synthesis lens corrected: the film covers chapters 7 and 8, and chapter 9 is a reading | `done` |
 
 ### Stage 5, resources
 
