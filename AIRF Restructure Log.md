@@ -15,6 +15,7 @@ Git records what changed. This file records why, what it depended on, and what w
 
 **Picking this up cold?** Read this file, then [[AIRF Restructure - Working Preferences]], then [[AI Guide/Course Authoring]]. Section 5 has the stage inventory with statuses; that is where to start. Conventions established in the work so far, none of them obvious from the files themselves:
 
+- **Say "unit", never "week".** The course runs in both weekly and intensive formats, and in the intensive one the sessions are back to back. Learner-facing text that says "this week" or "congratulations on completing week 1" is wrong for half the cohorts. `IABIED - M5 Welcome` already says "this unit's reading"; M2's and M4's say "this week's".
 - **Spelling is American throughout.** `Behavior vs. values`, `Grown, not crafted`. Easy to drift out of.
 - **Outcomes carry no module or chapter labels**, not in the statement, the test or the rubric. Outcomes are shared across courses, so "M3" resolves differently depending on who imported it. This is also what the B1 eval check asks for.
 - **Lens comment blocks stay minimal**: only what a first-time reader cannot infer. Rationale belongs here. Comments describing a transient state go stale and mislead.
