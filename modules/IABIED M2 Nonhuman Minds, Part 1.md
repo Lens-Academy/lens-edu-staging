@@ -12,14 +12,16 @@ readings:
 # Submodule: Welcome
 # Lens: Welcome
 id:: a058eebe-2914-4a55-b88a-57027f0b79aa
-tldr:: What is intelligence, how do these systems actually get made, and where do their wants come from? Three chapters, working together as one argument in three steps.
-summary_for_tutor:: Welcome and framing lens for Unit 1, covering IABIED Chapters 1 to 3. Places the learner after the Introduction and before the first meeting, which covers the Introduction and this unit together. Names what each chapter is about without previewing any of their conclusions.
+{--{"author":"Andreas's AI","timestamp":1789262851064}@@tldr:: What is intelligence, how do these systems actually get made, and where do their wants come from? Three chapters, working together as one argument in three steps.
+--}summary_for_tutor:: Welcome and framing lens for Unit 1, covering IABIED Chapters 1 to 3. Places the learner after the Introduction and before the first meeting, which covers the Introduction and this unit together. Names what each chapter is about without previewing any of their conclusions.
 reading_minutes:: 2
 
 #### Text
-content:: You have the Introduction behind you, and with it the authors' distinction between hard calls and easy calls. This unit starts building the case they think is an easy call.
+content:: {--{"author":"Andreas's AI","timestamp":1789262851064}@@You --}{++{"author":"Andreas's AI","timestamp":1789262851064}@@Three things ++}have {--{"author":"Andreas's AI","timestamp":1789262851064}@@the Introduction behind you, and with it the authors' distinction between hard calls and easy calls. This unit starts building the case they think--}{++{"author":"Andreas's AI","timestamp":1789262851064}@@to be settled before anything can be said about what an AI might do: what intelligence actually is, how these systems come to exist, and where their wants come from. That++} is {--{"author":"Andreas's AI","timestamp":1789262851064}@@an easy call.
 
-Three chapters, and they work as one argument in three steps rather than as three separate topics: what intelligence is and why it matters, how these systems actually get made, and where their wants come from. It is worth noticing where each chapter hands off to the next.
+Three chapters, and they--}{++{"author":"Andreas's AI","timestamp":1789262851064}@@this unit, one chapter each.
+
+They++} work as one argument{--{"author":"Andreas's AI","timestamp":1789262851064}@@ in three steps --}{++{"author":"Andreas's AI","timestamp":1789262851064}@@ ++}rather than as three{--{"author":"Andreas's AI","timestamp":1789262851064}@@ separate topics: what intelligence is and why--}{++{"author":"Andreas's AI","timestamp":1789262851064}@@ topics, so++} it{--{"author":"Andreas's AI","timestamp":1789262851064}@@ matters, how these systems actually get made, and where their wants come from. It--} is worth noticing where each chapter hands off to the next.
 
 **This unit's reading:** Chapter 1 ("Humanity's Special Power"), Chapter 2 ("Grown, Not Crafted") and Chapter 3 ("Learning to Want").
 
