@@ -63,28 +63,28 @@ source:: ![[../Lenses/IABIED - How Did It Go]]
 # Submodule: Chapter 12: I Don't Want to Be Alarmist
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/13 - Chapter 12 - I Don't Want to Be Alarmist]]
 
-{--{"author":"Andreas's AI","timestamp":1789273433502}@@##--}{++{"author":"Andreas's AI","timestamp":1789273433502}@@#++} Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/The one-chance problem]]
 
-{--{"author":"Andreas's AI","timestamp":1789273433502}@@##--}{++{"author":"Andreas's AI","timestamp":1789273433502}@@#++} Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/The ladder in the dark]]
 
 %%
 Trimmed to reduce question load in the final unit (course went from 6 meetings to 5):
-{--{"author":"Andreas's AI","timestamp":1789273433502}@@##--}{++{"author":"Andreas's AI","timestamp":1789273433502}@@#++} Lens:
+# Lens:
 source:: [[../Lenses/IABIED - The One-Chance Problem - PQ]]
 %%
 
-{--{"author":"Andreas's AI","timestamp":1789273433502}@@##--}{++{"author":"Andreas's AI","timestamp":1789273433502}@@#++} Lens:
+# Lens:
 source:: [[../Lenses/IABIED - The One-Chance Problem]]
 
-{--{"author":"Andreas's AI","timestamp":1789273433502}@@##--}{++{"author":"Andreas's AI","timestamp":1789273433502}@@#++} Lens:
+# Lens:
 source:: [[../Lenses/IABIED - Ladder in the Dark - PQ]]
 
-{--{"author":"Andreas's AI","timestamp":1789273433502}@@##--}{++{"author":"Andreas's AI","timestamp":1789273433502}@@#++} Lens:
+# Lens:
 source:: [[../Lenses/IABIED - Ladder in the Dark]]
 
-{--{"author":"Andreas's AI","timestamp":1789273433502}@@##--}{++{"author":"Andreas's AI","timestamp":1789273433502}@@#++} Lens: Dive Deeper: Chapter 12
+# Lens: Dive Deeper: Chapter 12
 id:: 79671536-5615-4807-8f08-ff039c8a525e
 tldr:: Deeper on Chapter 12? The book's supplementary Q&As take on "what about the benefits?", "isn't this anti-technology?", and why experts keep saying "I don't want to be alarmist".
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 12 ("I Don't Want to Be Alarmist"). Links the book website's supplementary Q&A cards covering the benefits of AI, distraction from other issues, anti-technology charges, rushing ahead as the good guys, cooperating to build safely, provably safe AI, daily life and panic, fear-mongering accusations, expert disagreement, the Lemoine effect, telling AI companies no, and making sense of the death race. A navigation and index lens only; it carries no standalone teaching content of its own.
@@ -190,29 +190,29 @@ source:: ![[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
 # Submodule: Chapter 13: Shut It Down
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/14 - Chapter 13 - Shut It Down]]
 
-{--{"author":"Andreas's AI","timestamp":1789273477645}@@##--}{++{"author":"Andreas's AI","timestamp":1789273477645}@@#++} Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/The WWII analogy]]
 
-{--{"author":"Andreas's AI","timestamp":1789273477645}@@##--}{++{"author":"Andreas's AI","timestamp":1789273477645}@@#++} Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/Narrow coalition strategy]]
 
 %%
-{--{"author":"Andreas's AI","timestamp":1789273477645}@@##--}{++{"author":"Andreas's AI","timestamp":1789273477645}@@#++} Lens:
+# Lens:
 source:: [[../Lenses/IABIED - The WWII Analogy - PQ]]
 %%
 
-{--{"author":"Andreas's AI","timestamp":1789273477645}@@##--}{++{"author":"Andreas's AI","timestamp":1789273477645}@@#++} Lens:
+# Lens:
 source:: [[../Lenses/IABIED - The WWII Analogy]]
 
 %%
-{--{"author":"Andreas's AI","timestamp":1789273477645}@@##--}{++{"author":"Andreas's AI","timestamp":1789273477645}@@#++} Lens:
+# Lens:
 source:: [[../Lenses/IABIED - Coalition Strategy - PQ]]
 %%
 
-{--{"author":"Andreas's AI","timestamp":1789273477645}@@##--}{++{"author":"Andreas's AI","timestamp":1789273477645}@@#++} Lens:
+# Lens:
 source:: [[../Lenses/IABIED - Coalition Strategy]]
 
-{--{"author":"Andreas's AI","timestamp":1789273477645}@@##--}{++{"author":"Andreas's AI","timestamp":1789273477645}@@#++} Lens: Dive Deeper: Chapter 13
+# Lens: Dive Deeper: Chapter 13
 id:: e983cb9d-bdec-46c7-9ad2-fe9e52bbc29e
 tldr:: Deeper on Chapter 13? The book's supplementary Q&As field the hardest objections to "shut it down": "can technology really be stopped?", "isn't this too much power for governments?", "what if nations reject the ban?".
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 13 (Shut It Down). Links the book website's supplementary Q&A cards covering the draft treaty, wait-and-see, warning shots, monitoring without spyware, chip-ownership control, research bans, whether technology can be stopped, government power, nations rejecting the ban, a permanent monitoring regime, making humans smarter, "aligned to whom", talking about extinction, elected officials, hopelessness, shutting down global AI development, international cooperation, and keeping the coalition large. A navigation and index lens only; it carries no standalone teaching content of its own.
@@ -337,38 +337,38 @@ source:: ![[../Lenses/IABIED - QA - Keep the Coalition Large]]
 # Submodule: Chapter 14: Where There's Life, There's Hope
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/15 - Chapter 14 - Where There's Life, There's Hope]]
 
-{--{"author":"Andreas's AI","timestamp":1789273525779}@@##--}{++{"author":"Andreas's AI","timestamp":1789273525779}@@#++} Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/Un-writing our fate]]
 
-{--{"author":"Andreas's AI","timestamp":1789273525779}@@##--}{++{"author":"Andreas's AI","timestamp":1789273525779}@@#++} Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/Role-specific action]]
 
 %%
-{--{"author":"Andreas's AI","timestamp":1789273525779}@@##--}{++{"author":"Andreas's AI","timestamp":1789273525779}@@#++} Lens:
+# Lens:
 source:: [[../Lenses/IABIED - Un-Writing Our Fate - PQ]]
 %%
 
-{--{"author":"Andreas's AI","timestamp":1789273525779}@@##--}{++{"author":"Andreas's AI","timestamp":1789273525779}@@#++} Lens:
+# Lens:
 source:: [[../Lenses/IABIED - Un-Writing Our Fate]]
 
-{--{"author":"Andreas's AI","timestamp":1789273525779}@@##--}{++{"author":"Andreas's AI","timestamp":1789273525779}@@#++} Lens:
+# Lens:
 source:: [[../Lenses/IABIED - Role-Specific Action - PQ]]
 
-{--{"author":"Andreas's AI","timestamp":1789273525779}@@##--}{++{"author":"Andreas's AI","timestamp":1789273525779}@@#++} Lens:
+# Lens:
 source:: [[../Lenses/IABIED - Role-Specific Action]]
 
 # Submodule: Closing Words
 
 %%
 Demoted to optional to reduce final-unit load:
-{--{"author":"Andreas's AI","timestamp":1789273525779}@@##--}{++{"author":"Andreas's AI","timestamp":1789273525779}@@#++} Learning Outcome: IABIED - The Two Prayers
+# Learning Outcome: IABIED - The Two Prayers
 source:: [[../Learning Outcomes/The two prayers]]
 
-{--{"author":"Andreas's AI","timestamp":1789273525779}@@##--}{++{"author":"Andreas's AI","timestamp":1789273525779}@@#++} Lens:
+# Lens:
 source:: [[../Lenses/IABIED - The Two Prayers - PQ]]
 %%
 
-{--{"author":"Andreas's AI","timestamp":1789273525779}@@##--}{++{"author":"Andreas's AI","timestamp":1789273525779}@@#++} Lens:
+# Lens:
 optional:: true
 source:: [[../Lenses/IABIED - The Two Prayers]]
 
