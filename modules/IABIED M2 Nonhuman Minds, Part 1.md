@@ -12,7 +12,7 @@ readings:
 # Submodule: Welcome
 # Lens: Welcome
 id:: a058eebe-2914-4a55-b88a-57027f0b79aa
-tldr:: What is intelligence, how do these systems actually get made, and where do their wants come from? Three chapters working together as one argument in three steps.
+tldr:: What is intelligence, how do these systems actually get made, and where do their wants come from? Three chapters, working together as one argument in three steps.
 summary_for_tutor:: Welcome and framing lens for Unit 1, covering IABIED Chapters 1 to 3. Places the learner after the Introduction and before the first meeting, which covers the Introduction and this unit together. Names what each chapter is about without previewing any of their conclusions.
 reading_minutes:: 2
 
