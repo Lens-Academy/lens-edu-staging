@@ -291,7 +291,7 @@ Every module already has a `# Submodule: Welcome`. The work is making its conten
 | File | Change | Status |
 |---|---|---|
 | New resources module | Sits outside the unit sequence | `todo` |
-| Heading depth in M4 and M6 | Both use `##` for their outcome and lens imports where M1, M2, M3 and M5 use `#`. 23 lines in M4 and 56 in M6. Validates fine either way, and `##` is common across the vault, so this is a style variant rather than a defect. **Recommend dropping** rather than doing: 79 line edits inside two live modules for no functional gain | `todo` |
+| Heading depth in M4 and M6 | Both used `##` for their outcome and lens imports where M1, M2, M3 and M5 use `#`. 23 lines in M4 and 56 in M6, all normalised to `#` | `done` |
 | Glossary | Last. New keywords from stages 2 and 3 would otherwise conflict | `todo` |
 | Companion pieces | Not yet scoped | `todo` |
 | Extended readings | Not yet scoped | `todo` |
