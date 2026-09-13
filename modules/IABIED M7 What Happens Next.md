@@ -44,7 +44,7 @@ The full argument chain from the book, for reference:
 4. You don't get what you train for: preferences diverge unpredictably (Ch 4)
 5. Human-compatible goals are vanishingly rare among all possible goals (Ch 5)
 6. A superintelligence would defeat humanity (Ch 6)
-7. The extinction scenario illustrates how it could play out (the film; Ch 7-9 in the book)
+7. The extinction scenario illustrates how it could play out (the film, covering Ch 7 and 8; then Ch 9 as a reading)
 8. The engineering problem is cursed: it must work on the first real try (Ch 10)
 9. Current approaches are alchemy, not science (Ch 11)
 10. Perverse incentives prevent an adequate response (Ch 12)
