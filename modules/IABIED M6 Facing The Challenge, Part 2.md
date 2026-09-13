@@ -21,7 +21,7 @@ content:: This is the last of the reading, and the largest of it: three chapters
 
 Before any of that, one loose end. Last unit you committed to having a conversation with one person about what you have been reading. The next lens picks that up, whatever happened, including if it did not. The final step of your action plan, choosing the one thing you keep doing after the course ends, comes in the module after this one.
 
-**This unit's reading:** Chapter 12 ("I Don't Want to Be Alarmist"), Chapter 13 ("Shut It Down"), Chapter 14 ("Where There's Life, There's Hope") and the Closing Words.
+**This unit's reading:** Chapter 12 ("I Don't Want to Be Alarmist"), Chapter 13 ("Shut It Down"), Chapter 14 ("Where There's Life, There's Hope") and Closing Words.
 
 Head to the first lens when you are ready.
 %%
