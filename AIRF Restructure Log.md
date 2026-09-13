@@ -353,6 +353,8 @@ What survives from the long ones is structure rather than content: a sentence pl
 
 The sharp version is about instructions rather than duplication. A welcome cannot issue an in-the-moment instruction, because the moment is several lessons away. The M4 draft said "as you watch, pay attention to the decision points where humans could have intervened", inherited from the standalone welcome it replaced. The film lens already tells the learner what to hold onto, and its three prompts map onto the three questions it asks immediately afterwards. A second instruction upstream would compete with a better-aimed one and point attention at something nothing assesses. Cut, and the same test applies to M5 and M6, whose welcomes currently summarise their chapters at length.
 
+**Part and Unit collide, and we are living with it.** Module titles match meeting titles, which is a 1d decision, so unit 4 is titled "Facing the Challenge, Part 1" and unit 5 is "Part 2". Units 1 and 2 happen to line up with their Parts and units 4 and 5 do not. The overview's path section is where this is most visible, since all five sit in a list together. Kept anyway: unit numbers are how every slug, diagram and decision in this restructure is expressed, and saying "Facing the Challenge, Part 1" in place of U4 each time is worse than the collision. Recorded so nobody rediscovers it as a bug.
+
 **The argument against.** A course overview is read once and a learner arriving at unit 4 will not go back to it. That is what the inline welcomes are for, which is why the answer is both rather than either.
 
 ---
