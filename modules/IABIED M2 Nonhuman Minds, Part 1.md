@@ -12,39 +12,37 @@ readings:
 # Submodule: Welcome
 # Lens: Welcome
 id:: a058eebe-2914-4a55-b88a-57027f0b79aa
-tldr:: {--{"author":"Andreas's AI","timestamp":1789259944560}@@Can an AI actually *want* things, and if it can, will it want what you trained it to want? This unit's two chapters tackle both:--}{++{"author":"Andreas's AI","timestamp":1789259944560}@@What is intelligence,++} how {--{"author":"Andreas's AI","timestamp":1789259944560}@@goal-like behavior emerges during training,--}{++{"author":"Andreas's AI","timestamp":1789259944560}@@do these systems actually get made,++} and {--{"author":"Andreas's AI","timestamp":1789259944560}@@why the target you optimize for and the preferences you end up with can quietly come apart.--}{++{"author":"Andreas's AI","timestamp":1789259944560}@@where do their wants come from? Three chapters, working as one argument in three steps.++}
-summary_for_tutor:: Welcome and framing lens for {--{"author":"Andreas's AI","timestamp":1789259944560}@@Module 2,--}{++{"author":"Andreas's AI","timestamp":1789259944560}@@Unit 1,++} covering IABIED Chapters {--{"author":"Andreas's AI","timestamp":1789259944560}@@3 ("Learning --}{++{"author":"Andreas's AI","timestamp":1789259944560}@@1 ++}to{--{"author":"Andreas's AI","timestamp":1789259944560}@@ Want") and 4 ("You Don't Get What You Train For"). Poses--}{++{"author":"Andreas's AI","timestamp":1789259944560}@@ 3. Places++} the{--{"author":"Andreas's AI","timestamp":1789259944560}@@ module's two guiding questions, whether AIs can develop wants and whether those wants match--}{++{"author":"Andreas's AI","timestamp":1789259944560}@@ learner after++} the {--{"author":"Andreas's AI","timestamp":1789259944560}@@training target,--}{++{"author":"Andreas's AI","timestamp":1789259944560}@@Introduction++} and{--{"author":"Andreas's AI","timestamp":1789259944560}@@ orients the learner--} before the {--{"author":"Andreas's AI","timestamp":1789259944560}@@chapter lenses and the tutor chat,--}{++{"author":"Andreas's AI","timestamp":1789259944560}@@first meeting,++} which {--{"author":"Andreas's AI","timestamp":1789259944560}@@checks understanding of how training produces want-like behavior and why trained targets diverge from internal preferences (the ice cream, sucralose, and peacock-tail analogies).--}{++{"author":"Andreas's AI","timestamp":1789259944560}@@covers the Introduction and this unit together. Names what each chapter is about without previewing any of their conclusions.++}
+tldr:: Can an AI actually *want* things, and if it can, will it want what you trained it to want? This unit's two chapters tackle both: how goal-like behavior emerges during training, and why the target you optimize for and the preferences you end up with can quietly come apart.
+summary_for_tutor:: Welcome and framing lens for Module 2, covering IABIED Chapters 3 ("Learning to Want") and 4 ("You Don't Get What You Train For"). Poses the module's two guiding questions, whether AIs can develop wants and whether those wants match the training target, and orients the learner before the chapter lenses and the tutor chat, which checks understanding of how training produces want-like behavior and why trained targets diverge from internal preferences (the ice cream, sucralose, and peacock-tail analogies).
 reading_minutes:: 2
 
 #### Text
-content:: {--{"author":"Andreas's AI","timestamp":1789259944560}@@Congratulations on completing week 1. --}You {--{"author":"Andreas's AI","timestamp":1789259944560}@@already know more essential facts about AI safety than 99% of humanity. However, our journey is only just beginning.
+content:: Congratulations on completing week 1. You already know more essential facts about AI safety than 99% of humanity. However, our journey is only just beginning.
 
---}{++{"author":"Andreas's AI","timestamp":1789259944560}@@have the Introduction behind you, and with it the authors' distinction between hard calls and easy calls. ++}This {--{"author":"Andreas's AI","timestamp":1789259944560}@@week we ask two critical questions: Can AIs develop wants? And if so, will--}{++{"author":"Andreas's AI","timestamp":1789259944560}@@unit starts building the case++} they{--{"author":"Andreas's AI","timestamp":1789259944560}@@ want what we trained them to want?
+This week we ask two critical questions: Can AIs develop wants? And if so, will they want what we trained them to want?
 %%
-**This week's reading:** Chapter 3 ("Learning to Want") + Chapter 4 ("You Don't Get What You Train For"). After reading, come back here to discuss with the tutor.--}{++{"author":"Andreas's AI","timestamp":1789259944560}@@ think is an easy call.++}
+**This week's reading:** Chapter 3 ("Learning to Want") + Chapter 4 ("You Don't Get What You Train For"). After reading, come back here to discuss with the tutor.
 
-{--{"author":"Andreas's AI","timestamp":1789259944560}@@#### Chat:
+#### Chat:
 min-chat-messages:: 1
 instructions::
-The student has just read Chapters 3 --}{++{"author":"Andreas's AI","timestamp":1789259944560}@@Three chapters, ++}and{--{"author":"Andreas's AI","timestamp":1789259944560}@@ 4 of "If Anyone Builds It, Everyone Dies."
+The student has just read Chapters 3 and 4 of "If Anyone Builds It, Everyone Dies."
 
 Key concepts to check understanding of:
 - How training for success produces want-like behavior (Stockfish defending its queen, city navigation)
 - The three-step gap: training target → internal psychology → eventual preference
-- The ice cream / sucralose / peacock tail analogies for why you don't --}{++{"author":"Andreas's AI","timestamp":1789259944560}@@ they work as one argument in three steps rather than as three separate topics: what intelligence is and why it matters, how these systems actually ++}get{--{"author":"Andreas's AI","timestamp":1789259944560}@@ what you train for
+- The ice cream / sucralose / peacock tail analogies for why you don't get what you train for
 - The Mink scenarios with increasing levels of complication
-- The SolidGoldMagikarp example--}{++{"author":"Andreas's AI","timestamp":1789259944560}@@ made,++} and {--{"author":"Andreas's AI","timestamp":1789259944560}@@the Claude cheating footnote
+- The SolidGoldMagikarp example and the Claude cheating footnote
 
 Discussion topics to explore:
-- The authors say "wanting --}{++{"author":"Andreas's AI","timestamp":1789259944560}@@where their wants come from. It ++}is{--{"author":"Andreas's AI","timestamp":1789259944560}@@ an effective strategy for doing." Can you think of exceptions, or does this hold universally?
-- Walk through the ice cream analogy step by step: what's the AI equivalent of--}{++{"author":"Andreas's AI","timestamp":1789259944560}@@ worth noticing where++} each {--{"author":"Andreas's AI","timestamp":1789259944560}@@step?
-- Why is the Claude cheating example (footnote viii in Ch 4) significant for--}{++{"author":"Andreas's AI","timestamp":1789259944560}@@chapter hands off to++} the {--{"author":"Andreas's AI","timestamp":1789259944560}@@book's argument?
-- The Klurl/Trapaucius parable imagines aliens watching human evolution. What would they get wrong about predicting human preferences?--}{++{"author":"Andreas's AI","timestamp":1789259944560}@@next.
+- The authors say "wanting is an effective strategy for doing." Can you think of exceptions, or does this hold universally?
+- Walk through the ice cream analogy step by step: what's the AI equivalent of each step?
+- Why is the Claude cheating example (footnote viii in Ch 4) significant for the book's argument?
+- The Klurl/Trapaucius parable imagines aliens watching human evolution. What would they get wrong about predicting human preferences?
 
-**This unit's reading:** Chapter 1 ("Humanity's Special Power"), Chapter 2 ("Grown, Not Crafted") and Chapter 3 ("Learning to Want").++}
-
-{--{"author":"Andreas's AI","timestamp":1789259944560}@@Ask what they found surprising or new. Check if they can explain--}{++{"author":"Andreas's AI","timestamp":1789259944560}@@Your first meeting comes after this unit and covers++} the {--{"author":"Andreas's AI","timestamp":1789259944560}@@ice cream analogy in their own words, since it's a key concept.
-%%--}{++{"author":"Andreas's AI","timestamp":1789259944560}@@Introduction alongside it. When you are ready, head to the first lesson.++}
+Ask what they found surprising or new. Check if they can explain the ice cream analogy in their own words, since it's a key concept.
+%%
 
 # Submodule: Ch1 - Intelligence
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]
