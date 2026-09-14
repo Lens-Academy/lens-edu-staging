@@ -11,18 +11,15 @@ content::
 We can use normal wikilinks inside the editor to link to other lenses: [[../Lenses/Article annotation and text collapse demo]]. This does require the lens that you're linking to, to also be part of the same module or course.
 
 For a prettier UI, you can use `::card` before the wikilink.
-::card[[Response to question segments]]{++{"author":"Luc","timestamp":1789407758643}@@
+::card[[Response to question segments]]
 
-Such cards show the user the Lens's title, its tldr, and whether the user already completed the Lens.++}
+Such cards show the user the Lens's title, its tldr, and whether the user already completed the Lens.
 
 ::card[[Roleplay demo]]
 
 ::card[[video demo]]
 
-{--{"author":"Luc","timestamp":1789407525104}@@A blockquote line directly under a card renders as a hook that tells the learner what they get from it:
 
-::card[[Roleplay demo]]
-> One-sentence hook saying what a curious learner gets from this lens.--}
 
 Cards also work inside callouts, including closed ones — useful for optional-reading sections:
 
