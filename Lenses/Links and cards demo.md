@@ -30,6 +30,7 @@ Cards also work inside callouts, including closed ones — useful for optional-r
 This is a collapsed-by-default callout tha can contain text, but also other cards:
 ::card[[video demo]]
 > A card inside a collapsed callout: the callout is the click-to-open affordance, the card is the link.
+
 :::
 
 A card can target a module instead of a lens; it then shows the learner's progress in it. This one points at the module demonstrating `hide:: true` imports — lenses that are members of the module (so cards to them resolve in place) without appearing in the sidebar or progression:
