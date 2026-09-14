@@ -90,6 +90,10 @@ source:: [[../Lenses/Response to question segments]]
 # Lens:
 source:: [[../Lenses/Roleplay demo]]
 
+%% An interview is a roleplay with fixed questions and no character: the interviewer asks them one at a time and a separate assessor scores each answer afterwards. This lens shows two interviews in a row. %%
+# Lens:
+source:: [[../Lenses/Interview demo]]
+
 %% Finally, please see how Lenses can link to other Lenses: %%
 # Lens:
 optional:: true
