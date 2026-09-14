@@ -26,7 +26,9 @@ M3 in general was quite weird since the prior format offered better interrogatio
 
 application-survey:: [[../surveys/Application Form]]
 
-# Module: [[../modules/IABIED M1 Intro and Nonhuman Minds, Part 1]]
+# Module: [[../modules/IABIED M1 {--{"author":"AI","timestamp":1789391717820}@@Intro and--}{++{"author":"AI","timestamp":1789391717820}@@Introduction]]
+
+# Module: [[../modules/IABIED M2++} Nonhuman Minds, Part 1]]
 
 # Meeting: Intro and Nonhuman Minds, Part 1
 meeting-doc-template:: https://docs.google.com/document/d/1VbHf5ENp0fOjqATTMLbKYhhbUvPqvi7Ugs32THIum1g/edit
