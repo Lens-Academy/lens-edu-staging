@@ -313,6 +313,10 @@ Every module already has a `# Submodule: Welcome`. The work is making its conten
 
 **Tooling note.** The docs are Google Docs, reached through the `meeting-doc-template::` links on each `# Meeting:` block, and nothing in the relay can open or edit them. A session can draft content and structure into the vault, but the docs themselves have to be changed by a person or through a browser set up for it. Worth knowing before stage 6 starts, since it is the first stage whose deliverable does not live in this vault.
 
+**What [[AI Guide/Writing Meeting Docs]] adds, read 2026-09-12.** Three things matter for us. The whole workflow assumes an agent that can open a Google Doc: it says to spawn validation sub-agents with a link to the doc, a link to the course file, and links to the unit's modules. There are three of those agents, template match, room quality and a deliberately context-free cold reader, and their briefs are the specification for what a good doc is. And the come-back-and-share segmentation is already in it: five minutes in the main room between rooms, navigator asks who wants to share. That was added 2026-09-09, so the IABIED docs predate it.
+
+**Masters versus copies.** Session docs are copied from the master when a cohort's meetings are created, not when a meeting starts, so editing a master reaches nobody already enrolled; live copies are patched from `meetings.session_doc_url` with `lens_meeting_doc_scripts/update_doc.py`. Not a constraint for this restructure, because no cohort has had its first meeting yet, but it is the thing that would bite anyone doing this later.
+
 Note the history recorded in the course file: meeting 2's doc once ran an outdated session for three days because a link was believed repointed and was not, so verify by opening the doc rather than by trusting the link.
 
 ---
