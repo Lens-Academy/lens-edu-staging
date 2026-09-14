@@ -13,7 +13,7 @@ We can use normal wikilinks inside the editor to link to other lenses: [[../Lens
 For a prettier UI, you can use `::card` before the wikilink.
 ::card[[Response to question segments]]{++{"author":"Luc","timestamp":1789407758643}@@
 
-Such cards show the user the Lens's title, its tldr, and whether the user already ++}
+Such cards show the user the Lens's title, its tldr, and whether the user already completed the Lens.++}
 
 ::card[[Roleplay demo]]
 
