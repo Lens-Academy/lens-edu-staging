@@ -1,7 +1,7 @@
 ---
 id: 'f7fc3c2c-c3a6-49bc-888c-caf2062cd9ba'
 slug: xlab-control-p1-d1
-title: "Why control"
+title: "Unit 1: Why control"
 tags:
   - work-in-progress
 ---

@@ -1,7 +1,7 @@
 ---
 id: 'f6b69ab7-714e-4286-b350-cf7d392edc67'
 slug: xlab-control-p1-d3
-title: "Catching schemers, prioritising threats, and the case against control"
+title: "Unit 3: Catching schemers, prioritising threats, and the case against control"
 tags:
   - work-in-progress
 ---

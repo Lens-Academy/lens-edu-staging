@@ -1,7 +1,7 @@
 ---
 id: '15a85ff5-bcfe-4aca-9f7e-43d8124e3ec6'
 slug: xlab-control-p1-d2
-title: "The founding paper and passing the buck"
+title: "Unit 2: The founding paper and passing the buck"
 tags:
   - work-in-progress
 ---
