@@ -1,7 +1,7 @@
 ---
 id: '27947d2e-8788-4e4d-8cf4-168b10bdb339'
 slug: xlab-control-p1-d5
-title: "High-stakes monitoring and mitigation"
+title: "Unit 5: High-stakes monitoring and mitigation"
 tags:
   - work-in-progress
 ---

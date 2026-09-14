@@ -1,7 +1,7 @@
 ---
 id: '0ea692cd-9dfc-424a-85ac-67fbab02770d'
 slug: xlab-control-p1-d4
-title: "Plans, the control toolkit, and high-stakes framing"
+title: "Unit 4: Plans, the control toolkit, and high-stakes framing"
 tags:
   - work-in-progress
 ---
