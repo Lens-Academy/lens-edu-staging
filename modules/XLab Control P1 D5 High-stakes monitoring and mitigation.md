@@ -7,7 +7,6 @@ tags:
 ---
 %% Day 5 of AI Control Part 1 (five-day split of XLab's seven-module track, September 2026). Core self-study 285 minutes, optional lenses add 20. Lens order follows XLab's track. %%
 
-# Submodule: Day 5
 # Lens: Day 5 overview
 tldr:: Win, continue and lose scenarios, rogue deployments, monitoring and mitigation in real deployments, resampling, and why settings for high-stakes control research are hard to build.
 summary_for_tutor:: Day 5 overview page of AI Control Part 1. It only lists what the day covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
