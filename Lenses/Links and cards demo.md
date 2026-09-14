@@ -17,10 +17,10 @@ For a prettier UI, you can use `::card` before the wikilink.
 
 ::card[[video demo]]
 
-A blockquote line directly under a card renders as a hook that tells the learner what they get from it:
+{--{"author":"Luc","timestamp":1789407525104}@@A blockquote line directly under a card renders as a hook that tells the learner what they get from it:
 
 ::card[[Roleplay demo]]
-> One-sentence hook saying what a curious learner gets from this lens.
+> One-sentence hook saying what a curious learner gets from this lens.--}
 
 Cards also work inside callouts, including closed ones — useful for optional-reading sections:
 
