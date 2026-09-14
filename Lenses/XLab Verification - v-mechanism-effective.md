@@ -1,16 +1,16 @@
 ---
 id: '783c38a6-2552-4902-96bf-48de75aa30ad'
 title: "What makes a verification mechanism effective?"
-tldr: "Before you learn how any verification mechanism works, write down your guesses: how buildable, how sellable, how much it proves, and how fast it rots. Rank twelve mechanisms on four lanes, {--{"author":"AI","timestamp":1788700012075}@@seal--}{++{"author":"AI","timestamp":1788700012075}@@keep++} the set, and {--{"author":"AI","timestamp":1788700012075}@@see--}{++{"author":"AI","timestamp":1788700012075}@@use it as a baseline as you learn more++} in{--{"author":"AI","timestamp":1788700012075}@@ Module 4 how far--}{++{"author":"AI","timestamp":1788700012075}@@ Part 2 and++} the {--{"author":"AI","timestamp":1788700012075}@@evidence moved you.--}{++{"author":"AI","timestamp":1788700012075}@@separate capstone.++}"
-summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Opens with the module objectives and four metric definitions (technical feasibility, political feasibility, verification effectiveness, durability), each with XLab's low and high anchor examples. The mechanism-sort widget is rendered as four ungraded Ranking questions (twelve mechanisms per metric, listed in a callout) plus an open question on the heuristics used. Do not reveal the reference map; that comparison belongs to {--{"author":"AI","timestamp":1788700014820}@@lesson 4.1.--}{++{"author":"AI","timestamp":1788700014820}@@the separate capstone after Parts 1 and 2.++} Then the Swiss-cheese section and five evidence taxonomies as closed callouts with three optional choice checks built from the taxonomy data."
+tldr: "Before you learn how any verification mechanism works, write down your guesses: how buildable, how sellable, how much it proves, and how fast it rots. Rank twelve mechanisms on four lanes, keep the set, and use it as a baseline as you learn more in Part 2 and the separate capstone."
+summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Opens with the module objectives and four metric definitions (technical feasibility, political feasibility, verification effectiveness, durability), each with XLab's low and high anchor examples. The mechanism-sort widget is rendered as four ungraded Ranking questions (twelve mechanisms per metric, listed in a callout) plus an open question on the heuristics used. Do not reveal the reference map; that comparison belongs to the separate capstone after Parts 1 and 2. Then the Swiss-cheese section and five evidence taxonomies as closed callouts with three optional choice checks built from the taxonomy data."
 tags: [wip]
 duration_minutes: 40
 ---
 #### Text
 content::
-{--{"author":"AI","timestamp":1788700020116}@@In this module, you will learn about --}{++{"author":"AI","timestamp":1788700020116}@@This module introduces ++}four main areas of verification mechanisms: hardware, cloud, intelligence, and human.{++{"author":"AI","timestamp":1788700020116}@@ Week 5 examines hardware in detail; Part 2 continues with the other three.++} Each layer has its own strengths and weaknesses, evaluated on important metrics like technical feasibility and political feasibility.
+This module introduces four main areas of verification mechanisms: hardware, cloud, intelligence, and human. Week 5 examines hardware in detail; Part 2 continues with the other three. Each layer has its own strengths and weaknesses, evaluated on important metrics like technical feasibility and political feasibility.
 
-:::callout {{--{"author":"AI","timestamp":1788700023255}@@title="By the end of this module, --}{++{"author":"AI","timestamp":1788700023255}@@title="Across Parts 1 and 2, ++}you will {--{"author":"AI","timestamp":1788700023255}@@be able to:"--}{++{"author":"AI","timestamp":1788700023255}@@work toward these goals:"++} tone="blue"}
+:::callout {title="Across Parts 1 and 2, you will work toward these goals:" tone="blue"}
 1. Explain the relative strengths, weaknesses, current state of implementation, and most realistic path forward for hardware, cloud, intelligence, and human mechanisms, including overlaps and dependencies.
 2. Evaluate any verification mechanism by the claims they test, the evidence they produce, cost of implementation, deployment maturity, and principal failure modes, including actors likely to break it and why.
 3. Explain the confidentiality–verifiability tension and identify the most promising privacy-preserving verification mechanisms.
@@ -19,7 +19,7 @@ content::
 
 \## Feasibility Intuitions
 
-Before we dive in, {--{"author":"AI","timestamp":1788700027242}@@let’s first identify some--}{++{"author":"AI","timestamp":1788700027242}@@record your++} baseline intuitions: {--{"author":"AI","timestamp":1788700027242}@@fill out the following graph with your pre-course understanding of the relative efficacy of--}{++{"author":"AI","timestamp":1788700027242}@@rank++} each mechanism across four {--{"author":"AI","timestamp":1788700027242}@@metrics: (You’ll get to revisit your initial--}{++{"author":"AI","timestamp":1788700027242}@@metrics using your current understanding. Keep these++} rankings {--{"author":"AI","timestamp":1788700027242}@@in [[../Lenses/XLab Verification - v-capstone-feasibility|Module 4]]—to see how they’ve changed--}{++{"author":"AI","timestamp":1788700027242}@@so you can revisit them as you learn more in Part 2++} and {--{"author":"AI","timestamp":1788700027242}@@measure against current evidence.)--}{++{"author":"AI","timestamp":1788700027242}@@the separate capstone.++}
+Before we dive in, record your baseline intuitions: rank each mechanism across four metrics using your current understanding. Keep these rankings so you can revisit them as you learn more in Part 2 and the separate capstone.
 
 **1. Technical feasibility.** Does the technical infrastructure and requisite research exist to build and run this mechanism at operable scale today? Includes technological maturity, dependencies, cost, and small-enough error rates.
 
@@ -46,7 +46,7 @@ Before we dive in, {--{"author":"AI","timestamp":1788700027242}@@let’s first i
 | FLOP-threshold reporting; algorithmic efficiency gains push dangerous capabilities below any fixed threshold within a few years. | Mechanisms rooted in chip hardware, which takes long to mature and go obsolete. |
 {>>{"author":"Elias's AI","timestamp":1788015800260}@@XLab's SlidingScale is a static display (a rail with the Low and High anchor texts), not an input, so it is reproduced as a two-column table rather than a Rating question. The ratings themselves happen in the mechanism-sort widget, reproduced below as four Ranking questions.<<}
 
-Before the mechanism weeks begin, record your intuitions. Rate each mechanism on four metrics; every rating drops it onto the ranking lanes below, so you can see your full ordering take shape. {--{"author":"AI","timestamp":1788700031587}@@Seal--}{++{"author":"AI","timestamp":1788700031587}@@Keep++} the {--{"author":"AI","timestamp":1788700031587}@@set, then compare against--}{++{"author":"AI","timestamp":1788700031587}@@set for comparison with++} the reference map in {--{"author":"AI","timestamp":1788700031587}@@4.1.--}{++{"author":"AI","timestamp":1788700031587}@@the separate capstone.++}
+Before the mechanism weeks begin, record your intuitions. Rate each mechanism on four metrics; every rating drops it onto the ranking lanes below, so you can see your full ordering take shape. Keep the set for comparison with the reference map in the separate capstone.
 
 :::callout {title="The twelve mechanisms" tone="neutral" collapse="closed"}
 **Hardware**
@@ -87,7 +87,7 @@ Before the mechanism weeks begin, record your intuitions. Rate each mechanism on
 **Durability.** How fast does it decay, from technical progress, adversary adaptation, or political change? Does technical progress erode its assumptions? Can adversaries adapt around it? Does it survive political change? A high scorer works about as well in five years as today. Rungs: Leaking now, Decaying, Needs upkeep, Ages slowly, Decade-proof.
 :::
 
-Rank the twelve mechanisms on each metric, most to least. There is no grading here; {++{"author":"AI","timestamp":1788700034412}@@comparison with ++}the reference map {--{"author":"AI","timestamp":1788700034412}@@and your gap from it are revealed in [[../Lenses/XLab Verification - v-capstone-feasibility|4.1]].--}{++{"author":"AI","timestamp":1788700034412}@@belongs to the separate capstone.++}
+Rank the twelve mechanisms on each metric, most to least. There is no grading here; comparison with the reference map belongs to the separate capstone.
 
 #### Question: Ranking
 id:: 4adc193c-7e97-41da-a7ce-76d9fb8907e8
@@ -166,7 +166,7 @@ content:: As you’re going through this exercise, jot down in your notebook: wh
 - Politically feasible? → How difficult would it be to get the U.S. to agree? China? What must remain confidential, no matter what?
 - Effective? → What’s the minimum threshold of confidence or level of evidence a nation-state should have to ensure that a rival is compliant? What must a verifier be able to learn?
 - Durable? → What develops faster, hardware or software?
-feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required. Do not reveal XLab's reference ratings; those are compared in {--{"author":"AI","timestamp":1788700037818}@@lesson 4.1.--}{++{"author":"AI","timestamp":1788700037818}@@the separate capstone.++}
+feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required. Do not reveal XLab's reference ratings; those are compared in the separate capstone.
 
 #### Text
 content::
