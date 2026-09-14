@@ -1,7 +1,7 @@
 ---
 id: '4f96e154-1e57-4de3-82c4-9e1b4858ebd1'
 learning-outcome: "Explain why theories of change are important."
-topic: "[[../Domains and Topics/11 Strategy/Theories of change in AI safety]]"
+topic: "[[../Domains and {--{"author":"Luc's AI","timestamp":1789416887383}@@Topics/11 Strategy/Theories--}{++{"author":"Luc's AI","timestamp":1789416887383}@@Topics/14 Effective Altruism/Theories++} of {--{"author":"Luc's AI","timestamp":1789416887383}@@change in AI safety]]"--}{++{"author":"Luc's AI","timestamp":1789416887383}@@change]]"++}
 stage: beginner
 eval-results:
   content-sha: 0b9a3b63
