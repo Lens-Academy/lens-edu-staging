@@ -40,6 +40,7 @@ LIVE as of 2026-08-18. The platform side shipped in #531/#532: course.ts reads f
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]] {>>{"author":"Turner's AI","timestamp":1786479585670}@@Native port of the AI Risk Fundamentals Week 1 Google Form (baseline scales + buddy handle + BlueDot history), matching the AIF Unit 1 pattern. Meeting 1 gets this intake survey; meetings 2-5 get the generic AIRF Weekly Survey. The Discord-handle question is deliberately dropped: the platform already knows who is answering, which is the whole reason the native surveys avoid the identity-matching problem the Google forms had.<<}
 
 # Module: [[../modules/IABIED M2 Nonhuman Minds, Part 2]]
+
 # Module: [[../modules/IABIED M3 Nonhuman Minds, Part 3]]
 
 # Meeting: Nonhuman Minds, Part 2
