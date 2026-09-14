@@ -26,9 +26,9 @@ M3 in general was quite weird since the prior format offered better interrogatio
 
 application-survey:: [[../surveys/Application Form]]
 
-# Module: [[../modules/IABIED M1 {--{"author":"AI","timestamp":1789391717820}@@Intro and--}{++{"author":"AI","timestamp":1789391717820}@@Introduction]]
+# Module: [[../modules/IABIED M1 Introduction]]
 
-# Module: [[../modules/IABIED M2++} Nonhuman Minds, Part 1]]
+# Module: [[../modules/IABIED M2 Nonhuman Minds, Part 1]]
 
 # Meeting: Intro and Nonhuman Minds, Part 1
 meeting-doc-template:: https://docs.google.com/document/d/1VbHf5ENp0fOjqATTMLbKYhhbUvPqvi7Ugs32THIum1g/edit
@@ -41,9 +41,7 @@ The three baseline scales (risk_seriousness / agency_belief / motivation) delibe
 LIVE as of 2026-08-18. The platform side shipped in #531/#532: course.ts reads facilitator-survey::, and core/surveys/native.py serves it as a kind='facilitator' survey that unlocks on meeting end alone, with no check-in requirement (the navigator DM is routed by group roster, not attendance).<<}
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]] {>>{"author":"Turner's AI","timestamp":1786479585670}@@Native port of the AI Risk Fundamentals Week 1 Google Form (baseline scales + buddy handle + BlueDot history), matching the AIF Unit 1 pattern. Meeting 1 gets this intake survey; meetings 2-5 get the generic AIRF Weekly Survey. The Discord-handle question is deliberately dropped: the platform already knows who is answering, which is the whole reason the native surveys avoid the identity-matching problem the Google forms had.<<}
 
-# Module: [[../modules/IABIED {--{"author":"AI","timestamp":1789391724185}@@M2--}{++{"author":"AI","timestamp":1789391724185}@@M3++} Nonhuman Minds, Part 2]]{--{"author":"AI","timestamp":1789391724185}@@
-
-# Module: [[../modules/IABIED M3 Nonhuman Minds, Part 3]]--}
+# Module: [[../modules/IABIED M3 Nonhuman Minds, Part 2]]
 
 # Meeting: Nonhuman Minds, Part 2
 meeting-doc-template:: https://docs.google.com/document/d/1hNj0npIxflO6C5AJcNPHms7HOiH_hlAgomBPQVhfp2A/edit?tab=t.0#heading=h.by5wcelvjnsd
