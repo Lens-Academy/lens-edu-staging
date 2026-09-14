@@ -2,7 +2,7 @@
 id: 2fa06534-a9b0-4bab-b906-1f2f7db1c99e
 reading_minutes: 3
 tutor_minutes: 20
-summary_for_tutor: Action-plan seed for Module 4. After the extinction scenario (the film plus the book's Coda), students inventory their strengths, then research with the tutor where someone with their profile could plausibly contribute to AI safety. The tutor acts as an honest career-exploration partner, not a cheerleader, and never lets the exchange end fatalistic.
+summary_for_tutor: Action-plan seed for Unit 3 (One Extinction Scenario). After the extinction scenario (the film, Chapter 9 and the book's Coda), students inventory their strengths, then research with the tutor where someone with their profile could plausibly contribute to AI safety. The tutor acts as an honest career-exploration partner, not a cheerleader, and never lets the exchange end fatalistic.
 title: Your Leverage
 tldr: "The scenario you just watched is grim on purpose. This is where you stop spectating: map what you're unusually good at, then find where it bites on the problem."
 authors:
@@ -28,7 +28,7 @@ Take 5 minutes and write freely; speech-to-text works well here. What are you un
 - What work makes you lose track of time
 - Your real constraints (time, location, obligations)
 
-assessment-instructions:: The student has just read Chapter 6 of "If Anyone Builds It, Everyone Dies", watched the film of the book's extinction scenario, read the Coda, and written a free inventory of their strengths, position, and constraints.
+assessment-instructions:: The student has just finished Unit 3 of the course on "If Anyone Builds It, Everyone Dies": two short extension readings on terminal and instrumental goals, the film of the book's extinction scenario (Chapters 7 and 8 were optional), Chapter 9 ("Ascension"), and the Coda. They have then written a free inventory of their strengths, position, and constraints.
 
 Your role: act as a brief, honest mirror, not a cheerleader.
 
