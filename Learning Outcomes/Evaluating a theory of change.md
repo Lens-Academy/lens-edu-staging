@@ -5,8 +5,7 @@ topic: "[[../Domains and Topics/11 Strategy/Theories of change]]"
 stage: intermediate
 authors:
   - Elias+Claude
-tags:{--{"author":"AI","timestamp":1788700144848}@@
-  - wip--}{++{"author":"AI","timestamp":1788700144848}@@ []++}
+tags: []
 ---
 ## Test:
 id:: 8a5bc487-32a6-4dd1-856d-04e39f4ecc33

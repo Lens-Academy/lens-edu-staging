@@ -5,8 +5,7 @@ topic: "[[../Domains and Topics/10 Governance and Policy/Verifying AI agreements
 stage: intermediate
 authors:
   - Elias+Claude
-tags:{--{"author":"AI","timestamp":1788700148260}@@
-  - wip--}{++{"author":"AI","timestamp":1788700148260}@@ []++}
+tags: []
 ---
 ## Test:
 id:: 6e124856-c5d2-425f-af25-07634eee19a3
