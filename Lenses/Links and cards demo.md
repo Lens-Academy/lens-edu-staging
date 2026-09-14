@@ -27,7 +27,7 @@ Such cards show the user the Lens's title, its tldr, and whether the user alread
 Cards also work inside callouts, including closed ones — useful for optional-reading sections:
 
 :::callout {title="Optional: dive deeper" tone="neutral" collapse="closed"}
-This is a collapsed-by-default callout tha can contain text, but also other cards:
+This is a collapsed-by-default callout that can contain text, but also other cards:
 ::card[[video demo]]
 > A card inside a collapsed callout: the callout is the click-to-open affordance, the card is the link.
 
