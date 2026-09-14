@@ -23,16 +23,18 @@ Surveys follow the Compute Verification pattern: meetings 1 to 4 use the shared 
 
 application-survey:: [[../surveys/Application Form]]
 
-# Module: [[../modules/XLab Control P1 D1 Why control]]
+# Module: [[../modules/XLab Control P1 D1 Why control|Unit 1: Why control]]
 
-# Meeting: Unit 1: Why control
+# Meeting: Unit 1
 meeting-doc-template:: https://docs.google.com/document/d/1JGdMGGGoUVis-UZtYEbsf8RzzShJkASQYLWA7XWkuJs/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
-# Module: [[../modules/XLab Control P1 D2 The founding paper and passing the buck]]
+# Module: [[../modules/XLab Control P1 D2 The founding paper and passing the {--{"author":"Udesh's AI","timestamp":1789385530541}@@buck]]
 
-# Meeting: Unit 2: The founding paper and passing the buck
+# Meeting: Unit--}{++{"author":"Udesh's AI","timestamp":1789385530541}@@buck|Unit++} 2: The founding paper and passing the {--{"author":"Udesh's AI","timestamp":1789385530541}@@buck--}{++{"author":"Udesh's AI","timestamp":1789385530541}@@buck]]
+
+# Meeting: Unit 2++}
 meeting-doc-template:: https://docs.google.com/document/d/1vC1PcOUiz5mhnm9t3ovFuhAbGNlVSY-t7d-D8-SFvKo/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
