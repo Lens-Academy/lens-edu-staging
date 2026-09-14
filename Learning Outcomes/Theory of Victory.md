@@ -1,7 +1,7 @@
 ---
 id: '5e7586df-562a-4dad-bc02-325003744cba'
 learning-outcome: "Explain the difference between a theory of change and a theory of victory, and recognize why producing a useful intermediate outcome does not by itself explain how the overall problem gets solved."
-topic: "[[../Domains and {--{"author":"Luc's AI","timestamp":1789417254291}@@Topics/11 Strategy/Theories--}{++{"author":"Luc's AI","timestamp":1789417254291}@@Topics/14 Effective Altruism/Theories++} of {--{"author":"Luc's AI","timestamp":1789417254291}@@change in AI safety]]"--}{++{"author":"Luc's AI","timestamp":1789417254291}@@change]]"++}
+topic: "[[../Domains and Topics/14 Effective Altruism/Theories of change]]"
 stage: intermediate
 requires:
   - "[[Theory of Change II]]"
