@@ -1,7 +1,7 @@
 ---
 id: 'c08c4e25-74f5-4a21-ac22-e818b602d4b5'
 learning-outcome: "Explain how to do a theory of change."
-topic: "[[../Domains and Topics/14 Effective Altruism/Theories of change]]"
+topic: "[[../Domains and Topics/14 Effective Altruism/Theory of Change]]"
 stage: beginner
 requires:
   - "[[Theory of Change I]]"
