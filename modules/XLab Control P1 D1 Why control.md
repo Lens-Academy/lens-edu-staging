@@ -7,7 +7,6 @@ tags:
 ---
 %% Day 1 of AI Control Part 1 (five-day split of XLab's seven-module track, September 2026). Core self-study 217 minutes. Lens order follows XLab's track. %%
 
-# Submodule: Welcome
 # Lens: Welcome to XLab's AI Control course
 id:: 661f1953-fa90-4ba5-a4b1-3e7aeb0c2d0a
 reading_minutes:: 5
