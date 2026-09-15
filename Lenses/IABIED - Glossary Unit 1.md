@@ -13,7 +13,7 @@ content::
 
 **Readings:** Introduction, Chapter 1 ("Humanity's Special Power"), Chapter 2 ("Grown, Not Crafted"), Chapter 3 ("Learning to Want")
 
-*Definitions reflect how this course uses each term, not necessarily its broader academic meaning. Each term is defined once, where it first comes up.*
+*Definitions reflect how this course uses each term, not necessarily its broader academic meaning. Each term is defined once, where it first comes up. Each term is defined once, where it first comes up. For the authors' full arguments, see the corresponding chapters.*
 
 **Easy Call vs. Hard Call**: A framework for predictions. An easy call follows reliably from a mechanism regardless of the exact path (an ice cube in a hot room will melt); a hard call depends on specific contingencies and unknowns. The book treats whether superintelligence built with current techniques is dangerous as an easy call, and when it arrives as a hard call, much like predicting powered flight was coming without knowing the Wright brothers would get there first.
 
