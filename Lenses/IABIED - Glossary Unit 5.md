@@ -1,7 +1,7 @@
 ---
 id: '4e678cae-63ca-4385-b04b-795b59f219f4'
 title: Unit 5
-tldr: "Eight terms from Chapters 12 to 14 and the Closing Words, defined as this course uses them."
+tldr: "Terms from Chapters 12 to 14 and the Closing Words, defined as this course uses them."
 summary_for_tutor: "Glossary for Unit 5, covering Chapters 12 to 14 and the Closing Words. Reference material with no interaction: the learner looks terms up rather than working through it. Definitions are the course's usage rather than the wider academic sense, and each term is defined once at its first appearance."
 authors:
   - Andreas+Claude
