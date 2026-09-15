@@ -302,10 +302,10 @@ Every module already has a `# Submodule: Welcome`. The work is making its conten
 
 | File | Change | Status |
 |---|---|---|
-| Meeting 1 doc | Now covers Introduction plus chapters 1 to 3, was Introduction plus chapters 1 and 2 | `todo` |
-| Meeting 2 doc | Now covers chapters 4 to 6, was chapters 3 to 5. Its next-unit pointer names Ch 6 + film + Coda + Your Leverage and will be wrong | `todo` |
-| Meeting 3 doc | Loses chapter 6, gains the U3 opener and chapter 9 | `todo` |
-| Meeting 4 doc | Expected unchanged | `todo` |
+| Meeting 1 doc | Now covers Introduction plus chapters 1 to 3. Gained Ch 3 from meeting 2. Its question bank and closer were cut rather than rewritten, and the accountability-buddy FAQ answer rewritten forward-looking, since pairing happens in Room 4 of that same meeting | `done` |
+| Meeting 2 doc | Now covers chapters 4 to 6. Lost Ch 3, gained Ch 6 from meeting 3. Its Room 3 round-2 chain straddled the new boundary and was rewritten; the "finished early" closer was cut | `done` |
+| Meeting 3 doc | Lost chapter 6, gained the two extension readings. Says "the scenario" for the film plus chapter 9 together rather than naming the chapter | `done` |
+| Meeting 4 doc | Unchanged in scope, format work only | `done` |
 | Meeting 5 doc | Expected unchanged | `todo` |
 | **Intake form for M1** | **Out of scope.** Intake has moved outside the course: `application-survey:: [[../surveys/Application Form]]` in the preamble, collected by the enrolment wizard before a learner joins. Nothing to build here. The old blocker, what belongs pre-meeting versus in the post-meeting survey, is now a question for whoever owns the Application Form | `dropped` |
 
