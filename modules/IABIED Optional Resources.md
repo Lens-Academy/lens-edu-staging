@@ -2,7 +2,7 @@
 id: af11f430-5052-4a03-9492-f3c87a37e73c
 slug: iabied-resources
 title: "Optional Resources"
-discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
+dis
 ---
 
 %%
