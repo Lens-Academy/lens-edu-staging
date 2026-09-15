@@ -1,6 +1,6 @@
 ---
 id: '403e1b9b-97a5-4e66-b566-bde1db4f9fbf'
-title: Week 3 Post-Session Reflection
+title: Unit 3 Post-Session Reflection
 ---
 
 #### Text
@@ -41,7 +41,7 @@ Once you have booked, send that person a quick DM on Discord to say hello and te
 
 #### Choice
 key:: buddy_texted
-content:: Did you message your accountability buddy this week?
+content:: Did you message your accountability buddy since the last meeting?
 options::
 - Yes
 - No
