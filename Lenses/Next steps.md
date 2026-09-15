@@ -45,7 +45,7 @@ If you want a more structured way to explore possibility of the research fit, pr
 
 **Engage politically or institutionally**
 
-If your interests lean toward governance, policy, or institutional design, a reasonable next step is to learn what AI governance work looks like in practice before trying to act. [AISafety.info](https://aisafety.info/), has an overview of AI governance, and MIRI publishes examples of the kinds of [actions you can do right now](https://ifanyonebuildsit.com/act).
+If your interests lean toward governance, policy, or institutional design, a reasonable next step is to learn what AI governance work looks like in practice before trying to act. [AISafety.info](https://aisafety.info/), has an overview of AI governance, and MIRI publishes examples of the kinds of [actions you can do right now](https://ifanyonebuildsit.com/act). If you're drawn more to grassroots advocacy, [PauseAI](https://pauseai.info/) organizes public campaigns and local groups pushing for a global pause on frontier AI development.
 
 **Donate**
 
