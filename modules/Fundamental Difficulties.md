@@ -68,6 +68,9 @@ source:: [[../Lenses/6 reasons why it's not intuitive that alignment is hard]]
 source:: [[../Lenses/Sharp left turn]]
 
 # Lens:
+source:: [[../Lenses/alexander-the-tails-coming-apart-as-metaphor-for-life]]
+
+# Lens:
 optional:: true
 source:: [[../Lenses/Discovering when an agent is present in a system]]
 
