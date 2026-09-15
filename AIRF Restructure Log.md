@@ -317,7 +317,7 @@ Every module already has a `# Submodule: Welcome`. The work is making its conten
 
 **What [[AI Guide/Writing Meeting Docs]] adds, read 2026-09-12.** Three things matter for us. The whole workflow assumes an agent that can open a Google Doc: it says to spawn validation sub-agents with a link to the doc, a link to the course file, and links to the unit's modules. There are three of those agents, template match, room quality and a deliberately context-free cold reader, and their briefs are the specification for what a good doc is. And the come-back-and-share segmentation is already in it: five minutes in the main room between rooms, navigator asks who wants to share. That was added 2026-09-09, so the IABIED docs predate it.
 
-**Done in a Cowork session, 2026-09-12.** Template conformance across all five docs, the chapter migration, and the glossary rebuild. Working notes live in the project as `claude_AIRF_Conformance_Spec` and its companions; only what follows is worth carrying here.
+**Done in a Cowork session, written up here 2026-09-14.** Template conformance across all five docs, the chapter migration, and the glossary rebuild. Working notes live in the project as `claude_AIRF_Conformance_Spec` and its companions; only what follows is worth carrying here.
 
 New timing grid in all five: lobby 0:00, R1 0:05, back together 0:19, R2 0:24, back together 0:42, break 0:47, R3 0:52, back together 1:10, R4 1:15, close 1:27, Zoom timers 14/18/18/12. Every room lost time to fund the three five-minute full-group shares. Chapter migration ran U3 → U2 → U1 so each unit settled before the next drew from it; units 4 and 5 were untouched, as intended.
 
