@@ -86,5 +86,8 @@ optional:: true
 source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]
 
 # Lens:
+source:: [[../Lenses/byrnes-sympathy-for-both-sides-of-the-egregious-misalignment-debate]]
+
+# Lens:
 source:: [[../Lenses/Meditations on Moloch]]
 
