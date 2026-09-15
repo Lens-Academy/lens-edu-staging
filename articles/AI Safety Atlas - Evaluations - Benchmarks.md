@@ -60,7 +60,7 @@ AI basically had a similar problem before we started using standardized benchmar
 
 ![Top performing AI systems in coding, math, and language-based knowledge tests](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-5-2.png)
 
-*Interactive figure 5.2: Benchmark performance on coding, math and language. ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence))*
+*Interactive figure 5.2: Benchmark performance on coding, math and language. ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)). Archived chart; Our World in Data no longer publishes the interactive version.*
 
 :::callout {title="Examples of various capabilities benchmarks — Optional · 2 min read" tone="neutral" collapse="closed"}
 

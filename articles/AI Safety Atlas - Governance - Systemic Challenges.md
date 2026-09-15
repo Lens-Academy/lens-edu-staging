@@ -51,7 +51,7 @@ We already talked about race dynamics in the chapter on AI risks as amplifying f
 
 ![Annual patent applications related to artificial intelligence](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-4-3.png)
 
-*Interactive figure 4.3: Annual patent applications related to artificial intelligence, 2019. Patents submitted in the selected country's patent office ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
+*Interactive figure 4.3: Annual patent applications related to artificial intelligence, 2020. Patents submitted in the selected country's patent office ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)). Archived chart; Our World in Data no longer publishes the interactive version.*
 
 **National security concerns intensify race dynamics.** When Vladimir Putin declared "whoever becomes the leader in AI will become the ruler of the world," he articulated what many policymakers privately believe ([AP News, 2017](https://apnews.com/article/bb5628f2a7424a10b3e38b07f4eb90d4)). This transforms AI development from a commercial competition into a perceived struggle for geopolitical dominance. Over 50 countries have launched national AI strategies, often explicitly framing AI leadership as critical for economic and military superiority ([Stanford HAI, 2024](https://aiindex.stanford.edu/report/);[ Stanford HAI, 2025](https://hai.stanford.edu/assets/files/hai_ai_index_report_2025.pdf)). Unlike corporate races measured in product cycles, international AI competition involves long-term strategic positioning. Yet paradoxically, this makes racing feel even more urgent: falling behind today might mean permanent disadvantage tomorrow.
 
