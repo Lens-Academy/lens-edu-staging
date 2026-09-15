@@ -306,7 +306,8 @@ Every module already has a `# Submodule: Welcome`. The work is making its conten
 | Meeting 2 doc | Now covers chapters 4 to 6. Lost Ch 3, gained Ch 6 from meeting 3. Its Room 3 round-2 chain straddled the new boundary and was rewritten; the "finished early" closer was cut | `done` |
 | Meeting 3 doc | Lost chapter 6, gained the two extension readings. Says "the scenario" for the film plus chapter 9 together rather than naming the chapter | `done` |
 | Meeting 4 doc | Unchanged in scope, format work only | `done` |
-| Meeting 5 doc | Expected unchanged | `todo` |
+| Meeting 5 doc | Unchanged in scope, format work only | `done` |
+| Validation against the house guide | **Out of scope, decided 2026-09-12.** The three agent checks in [[AI Guide/Writing Meeting Docs]] are run upstream of this project. Issues come back to us or get fixed there. What this restructure guarantees is internal consistency and conformance to the master template, not a house-rules pass | `dropped` |
 | **Intake form for M1** | **Out of scope.** Intake has moved outside the course: `application-survey:: [[../surveys/Application Form]]` in the preamble, collected by the enrolment wizard before a learner joins. Nothing to build here. The old blocker, what belongs pre-meeting versus in the post-meeting survey, is now a question for whoever owns the Application Form | `dropped` |
 
 **The restructuring question is settled, and the answer is yes.** Decided 2026-09-12. Stage 6 is a reformat as well as a rebalance. The docs move onto the pattern the newer courses use, Compute Verification among them, where the session clock is segmented explicitly and includes time for breakout groups to come back together and share out. So each doc needs two things: what the meeting has to cover, which the table above tracks per doc, and the shape it runs in, which is the same change across all five.
