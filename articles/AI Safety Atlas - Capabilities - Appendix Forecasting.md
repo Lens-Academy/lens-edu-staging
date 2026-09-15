@@ -91,7 +91,7 @@ The third factor in increasing effective compute is - how many chips can you act
 
 ![Hardware and energy cost to train notable AI systems](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-1-8.png)
 
-*Interactive figure 1.8: Hardware and energy cost to train notable AI systems. This data is expressed in US dollars, adjusted for inflation ([Our World in Data, 2023](https://ourworldindata.org/artificial-intelligence)).*
+*Interactive figure 1.8: Hardware and energy cost to train notable AI systems. This data is expressed in US dollars, adjusted for inflation ([Our World in Data, 2023](https://ourworldindata.org/artificial-intelligence)). Archived chart; Our World in Data no longer publishes the interactive version.*
 
 ![Figure 1.57](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-capabilities-figure-1-57.webp)
 
