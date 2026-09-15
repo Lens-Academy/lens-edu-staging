@@ -13,7 +13,7 @@ The article deconstructs the concepts of "predictor" and "agent." It views knowl
 
 
 #### Article
-source:: [[../articles/plex-pythia]]
+source:: [[../../articles/plex-pythia]]
 to:: "than most people trying stuff like this!"
 
 #### Text

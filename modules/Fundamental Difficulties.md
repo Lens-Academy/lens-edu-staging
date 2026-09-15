@@ -75,7 +75,7 @@ source:: [[../Lenses/Discovering when an agent is present in a system]]
 
 # Lens:
 optional:: true
-source:: [[../Lenses/Pythia by plex]]
+source:: [[../Lens Edu/Lenses/Pythia]]
 
 # Lens:
 optional:: true
