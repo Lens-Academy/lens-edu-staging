@@ -65,13 +65,14 @@ source:: [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Wher
 source:: [[../Lenses/6 reasons why it's not intuitive that alignment is hard]]
 
 # Lens:
-optional:: true
+{--{"author":"Elua's AI","timestamp":1789468990592}@@optional:: true
 source:: [[../Lenses/When should we worry about AI power-seeking]]
 
 # Lens:
-source:: [[../Lenses/Sharp left turn]]
+--}source:: [[../Lenses/Sharp left turn]]
 
 # Lens:
+optional:: true
 source:: [[../Lenses/Discovering when an agent is present in a system]]
 
 # Lens:
