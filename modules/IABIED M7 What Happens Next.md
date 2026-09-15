@@ -67,7 +67,7 @@ Response length: 100-180 words. Short paragraphs. No lists. No generic praise (g
 source:: ![[../Lenses/IABIED - Your Ongoing Action]]
 {>>{"author":"Luc's AI","timestamp":1783723774076}@@Review note: 'AI Safety Career Paths' and 'Next Steps with Lens Academy' were suggested lenses of this Learning Outcome AND are also imported below as hidden card targets (optional+hide). The old auto-import rendered both copies, so both are kept to preserve current behavior — you may want to drop one occurrence.<<}
 
-# Submodule: Optional Resources
+# Submodule: Keep Going
 # Lens: Keep Going
 id:: fb9e57fd-6036-4334-b827-2f9520fbcdd9
 optional:: true
