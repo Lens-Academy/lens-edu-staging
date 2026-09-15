@@ -98,7 +98,7 @@ What not to do:
 - Start resolving the learning outcome question — that is Phase 3's job.
 
 #### Question: Open
-id:: c2ba0c2e-fd8a-4373-a44e-bf26ab56fa71
+id:: 6713edde-7767-40e1-a5ce-d76a2651a346
 content::
 \## Phase 3: Connection
 This chapter borrows its curses from reactors, probes and computer security. But the reason they transfer to AI at all comes from much earlier in this course.

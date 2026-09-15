@@ -72,7 +72,7 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-c.md]]{>>{"author":"Luc's AI","timestamp":1783779634146}@@This Phase 2 block is byte-identical in 2 lenses (Path Prediction vs Outcome Prediction, Position Not Despair); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### Question: Open
-id:: ca4137f3-ea64-47bc-8e77-8228275842e9
+id:: a869a31e-b4f8-48b3-9578-c15671517846
 content::
 \## Phase 3: Connection
 The Coda calls this an easy call. The term is not new here: the course opened on it, and the authors were specific about what makes a call easy rather than hard.

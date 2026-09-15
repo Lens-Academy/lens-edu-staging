@@ -98,7 +98,7 @@ What not to do:
 - Start resolving the learning outcome question — that is Phase 3's job.
 
 #### Question: Open
-id:: 1219b71e-12ca-469a-b25a-288e7e33baec
+id:: e01aa66f-dc27-4c7e-b28b-b1c31b7b1d8f
 content::
 \## Phase 3: Connection
 This section's argument does not start from nothing. It leans on something you worked through earlier in this course, and it never stops to say so.
