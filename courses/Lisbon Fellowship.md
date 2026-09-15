@@ -1,7 +1,7 @@
 ---
 id: d0ba33dc-7f78-4607-8836-b3c8edf74100
 slug: lisbon-fellowship
-title: AI Safety Atlas
+title: Lisbon Fellowship
 partner-name: AI Safety Atlas
 partner-logo: ai-safety-atlas-lockup.svg
 partner-logo-small: ai-safety-atlas.svg
