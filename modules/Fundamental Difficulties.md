@@ -74,6 +74,10 @@ source:: [[../Lenses/Meditations on Moloch]]
 source:: [[../Lenses/Sharp left turn]]
 
 # Lens:
+optional:: true
+source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]
+
+# Lens:
 source:: [[../Lenses/alexander-the-tails-coming-apart-as-metaphor-for-life]]
 
 # Lens:
