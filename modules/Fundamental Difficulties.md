@@ -67,6 +67,10 @@ source:: [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Wher
 source:: [[../Lenses/alexander-nicholas-decker-in-hell]]
 
 # Lens:
+optional:: true
+source:: [[../Lenses/Meditations on Moloch]]
+
+# Lens:
 source:: [[../Lenses/Sharp left turn]]
 
 # Lens:
