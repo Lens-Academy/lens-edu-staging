@@ -12,4 +12,4 @@ requires:
 
 # Suggested Lenses:
 ## Lens:
-source:: [[../Lens Edu/Lenses/Pythia]]
+source:: [[../Lenses/Pythia]]
