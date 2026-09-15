@@ -67,30 +67,34 @@ optional:: true
 
 #### Text
 content::
-\## Five levels deep
+\## Five folded boxes deep
 
-Every `#### End Callout` closes the innermost open box, so a chain of five nested callouts needs five closers at the end:
+Five closed callouts inside each other, with a question at the bottom. Every `#### End Callout` closes the innermost open box, so the chain ends with five closers:
 
 #### Callout: Level 1
 tone:: blue
+collapse:: closed
 
 #### Text
-content:: First level.
+content:: First level. Open the next box.
 
 #### Callout: Level 2
 tone:: green
+collapse:: closed
 
 #### Text
 content:: Second level.
 
 #### Callout: Level 3
 tone:: amber
+collapse:: closed
 
 #### Text
 content:: Third level.
 
 #### Callout: Level 4
 tone:: purple
+collapse:: closed
 
 #### Text
 content:: Fourth level.
@@ -99,8 +103,10 @@ content:: Fourth level.
 tone:: red
 collapse:: closed
 
-#### Text
-content:: Fifth level, folded away until you open it.
+#### Question: Open
+id:: 88032ef8-bc1d-435f-8ac2-9fef7dfa3138
+content:: You made it to the fifth box. What would you put this deep in a real lens?
+optional:: true
 
 #### End Callout
 
