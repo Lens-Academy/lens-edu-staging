@@ -64,7 +64,7 @@ The discussion in the next few subsections will focus on the elements of actuall
 
 ![Market share for logic chip production, by manufacturing stage](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-4-2.png)
 
-*Interactive figure 4.2: Market share for logic chip production, by manufacturing stage ([Giattino et al., 2023](https://ourworldindata.org/grapher/market-share-logic-chip-production-manufacturing-stage?tab=chart)).*
+*Interactive figure 4.2: Market share for logic chip production, by manufacturing stage ([Giattino et al., 2023](https://ourworldindata.org/grapher/market-share-logic-chip-production-manufacturing-stage?tab=chart)). Archived chart; Our World in Data no longer publishes the interactive version.*
 
 ![Figure 4.9](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-governance-figure-4-9.webp)
 
