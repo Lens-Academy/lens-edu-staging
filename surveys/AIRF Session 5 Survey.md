@@ -4,7 +4,7 @@ title: Final Reflection
 ---
 
 #### Text
-content:: Last session. This one is longer than the weekly reflection, about 5 minutes, because it is the only place we can measure whether the course actually moved you. Submitting it also counts your attendance for this meeting.
+content:: Last session. This one is longer than the usual reflection, about 5 minutes, because it is the only place we can measure whether the course actually moved you. Submitting it also counts your attendance for this meeting.
 
 #### Text
 content:: We asked you these four at the very start, and promised we would ask again at the end. The value is in the change, not the score, so answer for how you feel today rather than trying to match what you said before.
