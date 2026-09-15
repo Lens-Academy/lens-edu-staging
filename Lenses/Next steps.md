@@ -35,11 +35,7 @@ Share the link to this course or other safety-related materials with your friend
 
 **Apply for a program or fellowship**
 
-If you want a more structured way to explore possibility of the research fit, programs can help.{++{"author":"Elua's AI","timestamp":1789472972903}@@ Cohorts for fellowships and bootcamps like these open++} and {--{"author":"Elua's AI","timestamp":1789472972903}@@policy.
-
-[ML4Good](https://ml4good.org/) runs bootcamps designed to help motivated people build skills and transition toward more substantial work in AI safety.
-
-[MATS](https://matsprogram.org/) is a 12-week research and educational mentorship program in AI alignment, transparency, and security. --}{++{"author":"Elua's AI","timestamp":1789472972903}@@close on their own schedules throughout the year, so rather than list specific ones here, sign up for [AISafety.com's events and training newsletter](https://aisafety.com/training) to hear when programs relevant to you are accepting applications.++}
+If you want a more structured way to explore possibility of the research fit, programs can help. Cohorts for fellowships and bootcamps like these open and {++{"author":"Elua's AI","timestamp":1789472972903}@@close on their own schedules throughout the year, so rather than list specific ones here, sign up for [AISafety.com's events and training newsletter](https://aisafety.com/training) to hear when programs relevant to you are accepting applications.++}
 
 **Engage politically or institutionally**
 
