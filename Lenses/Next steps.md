@@ -35,9 +35,7 @@ Share the link to this course or other safety-related materials with your friend
 
 **Apply for a program or fellowship**
 
-If you want a more structured way to explore possibility of the research fit, programs can help.{--{"author":"Elua's AI","timestamp":1789472972903}@@
-
-[SPAR](https://sparai.org/)  is a part-time, remote research fellowship connecting aspiring researchers with professionals in AI safety--}{++{"author":"Elua's AI","timestamp":1789472972903}@@ Cohorts for fellowships and bootcamps like these open++} and {--{"author":"Elua's AI","timestamp":1789472972903}@@policy.
+If you want a more structured way to explore possibility of the research fit, programs can help.{++{"author":"Elua's AI","timestamp":1789472972903}@@ Cohorts for fellowships and bootcamps like these open++} and {--{"author":"Elua's AI","timestamp":1789472972903}@@policy.
 
 [ML4Good](https://ml4good.org/) runs bootcamps designed to help motivated people build skills and transition toward more substantial work in AI safety.
 
