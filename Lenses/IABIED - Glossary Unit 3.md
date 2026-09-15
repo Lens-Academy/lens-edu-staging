@@ -1,7 +1,7 @@
 ---
 id: '909c60c6-4669-4f11-a7d1-6169b3e33281'
 title: Unit 3
-tldr: "Terms from the two goal extensions, the scenario (Chapters 7) and the Coda."
+tldr: "Terms from the two goal extensions, the scenario (Chapters 7-9) and the Coda."
 summary_for_tutor: "Glossary for Unit 3, covering the two extension readings on goals, the scenario (the film and/or of Chapters 7 and 8, plus Chapter 9) and the Coda. Reference material with no interaction: the learner looks terms up rather than working through it. Definitions are the course's usage rather than the wider academic sense, and each term is defined once at its first appearance."
 authors:
   - Andreas+Claude
