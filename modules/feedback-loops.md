@@ -30,6 +30,10 @@ source:: ![[../Lenses/1960, The Year The Singularity Was Cancelled]]
 {>>{"author":"Elias's AI","timestamp":1783453519891}@@Added per course feedback. 1960 and the AI Digest time-horizons piece are the new mainline readings 2 and 3 (I. J. Good stays reading 0, the singularity/explosion/takeoff definitions lens reading 1). They are attached at module level rather than to a specific learning outcome; reviewer may want to file them under an outcome. Cascades and Cycles + Recursion Magic were moved to optional inside their outcomes.<<}
 
 # Lens:
+optional:: true
+source:: [[../Lenses/rationalanimations-everything-might-change-forever-this-century-or-well-go-extinct]]
+
+# Lens:
 source:: ![[../Lenses/What are the differences between a singularity, an intelligence explosion, and a hard takeoff|What are the differences between a singularity, an intelligence explosion, and a hard takeoff]]
 
 # Lens:
