@@ -73,8 +73,8 @@ This is also why the plugs are here rather than as adhoc_questions: ad-hoc quest
 
 The navigator link is /navigate, which is the NavigatorSignupWizard intake. Not /navigators, which is the marketing landing page.<<}
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
-{++{"author":"Elias's AI","timestamp":1789413152989}@@{>>{"author":"Elias's AI","timestamp":1789413152989}@@Correction 2026-09-14: the unit map in the next note is one restructure old. Current boundaries, as the # Meeting: markers in this file show: Unit 1 = M1+M2 | Unit 2 = M3 | Unit 3 = M4 | Unit 4 = M5 | Unit 5 = M6+M7. Module slugs are now iabied-intro, iabied-u1..u5, iabied-what-next.<<}
-++}{>>{"author":"AI","timestamp":1786279506695}@@Course reduced from 6 meetings to 5. Units: M1 | M2+M3 | M4 | M5 | M6+M7, one meeting after each unit. All five meeting docs were updated for these boundaries on 2026-08-09; the old unit-4 doc (19-KJb0ZEVlVYJoVMOnY5xbAm6UJdynAFM0nm7NSg9dg) is retired.<<}
+{>>{"author":"Elias's AI","timestamp":1789413152989}@@Correction 2026-09-14: the unit map in the next note is one restructure old. Current boundaries, as the # Meeting: markers in this file show: Unit 1 = M1+M2 | Unit 2 = M3 | Unit 3 = M4 | Unit 4 = M5 | Unit 5 = M6+M7. Module slugs are now iabied-intro, iabied-u1..u5, iabied-what-next.<<}
+{>>{"author":"AI","timestamp":1786279506695}@@Course reduced from 6 meetings to 5. Units: M1 | M2+M3 | M4 | M5 | M6+M7, one meeting after each unit. All five meeting docs were updated for these boundaries on 2026-08-09; the old unit-4 doc (19-KJb0ZEVlVYJoVMOnY5xbAm6UJdynAFM0nm7NSg9dg) is retired.<<}
 
 # Module: [[../modules/IABIED M6 Facing The Challenge, Part 2]]
 
