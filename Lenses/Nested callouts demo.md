@@ -11,13 +11,14 @@ tags: [wip]
 content::
 \## Callouts around segments
 
-A callout can hold whole segments. Open it with `#### Callout: Title`, give it `tone::` and `collapse::` like any other segment, put any segments inside, and close it with `#### End Callout`. Callouts nest as deep as you like; every `#### End Callout` closes the innermost open one. The title is optional, and so are both fields.
+A callout can hold whole segments. Open it with `#### Callout: Title`, give it `tone::` and `collapse::` like any other segment, put any segments inside, and close it with `#### End Callout`. Callouts nest as deep as you like; every `#### End Callout` closes the innermost open one. The title is optional, and so are both fields. `collapse:: open` makes a box foldable and shows it open; `collapse:: closed` makes it foldable and shows it closed.
 
 Source:
 
 ```md
 #### Callout: Exercise
 tone:: blue
+collapse:: open
 
 #### Text
 content:: Read the hint only if you need it.
@@ -43,6 +44,7 @@ Result:
 
 #### Callout: Exercise
 tone:: blue
+collapse:: open
 
 #### Text
 content:: Read the hint only if you need it.
@@ -60,6 +62,53 @@ content:: Think about who profits from hiding.
 id:: 1ed4f9b8-b455-4a94-9142-72ad0a2df836
 content:: Which actor has the strongest incentive to hide?
 optional:: true
+
+#### End Callout
+
+#### Text
+content::
+\## Five levels deep
+
+Every `#### End Callout` closes the innermost open box, so a chain of five nested callouts needs five closers at the end:
+
+#### Callout: Level 1
+tone:: blue
+
+#### Text
+content:: First level.
+
+#### Callout: Level 2
+tone:: green
+
+#### Text
+content:: Second level.
+
+#### Callout: Level 3
+tone:: amber
+
+#### Text
+content:: Third level.
+
+#### Callout: Level 4
+tone:: purple
+
+#### Text
+content:: Fourth level.
+
+#### Callout: Level 5
+tone:: red
+collapse:: closed
+
+#### Text
+content:: Fifth level, folded away until you open it.
+
+#### End Callout
+
+#### End Callout
+
+#### End Callout
+
+#### End Callout
 
 #### End Callout
 
