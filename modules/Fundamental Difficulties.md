@@ -58,8 +58,8 @@ Why do “alignment is hard” arguments feel alien to human intuition, and whic
 
 
 # Lens:
-optional:: true
-source:: [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Where to Start]]
+{--{"author":"Elua's AI","timestamp":1789469444639}@@optional:: true
+--}source:: [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Where to Start]]
 
 # Lens:
 source:: [[../Lenses/6 reasons why it's not intuitive that alignment is hard]]
