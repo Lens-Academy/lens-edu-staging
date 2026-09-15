@@ -29,19 +29,19 @@ Visit AISafety.info's [How can I help?](https://aisafety.info/how-can-i-help) gu
 [AISafety.com](https://aisafety.com/events-and-training) keeps an up-to-date directory of conferences, training programs, and online events across the field. We especially recommend EAGs as good places to talk not only to experts, but also to many newcomers who are in a situation similar to yours. EAGs often include career fairs, networking spaces, and structured opportunities for conversation, so they can be a practical way to explore the field, ask questions, and see what paths people actually take.
 
 
-**Help spread understanding
+**Help spread understanding**
 
 Share the link to this course or other safety-related materials with your friends, your university group, or on your channel.
 
 **Apply for a program or fellowship**
 
-If you want a more structured way to explore possibility of the research fit, programs can help.
+If you want a more structured way to explore possibility of the research fit, programs can help.{--{"author":"Elua's AI","timestamp":1789472972903}@@
 
-[SPAR](https://sparai.org/)  is a part-time, remote research fellowship connecting aspiring researchers with professionals in AI safety and policy.
+[SPAR](https://sparai.org/)  is a part-time, remote research fellowship connecting aspiring researchers with professionals in AI safety--}{++{"author":"Elua's AI","timestamp":1789472972903}@@ Cohorts for fellowships and bootcamps like these open++} and {--{"author":"Elua's AI","timestamp":1789472972903}@@policy.
 
 [ML4Good](https://ml4good.org/) runs bootcamps designed to help motivated people build skills and transition toward more substantial work in AI safety.
 
-[MATS](https://matsprogram.org/) is a 12-week research and educational mentorship program in AI alignment, transparency, and security. 
+[MATS](https://matsprogram.org/) is a 12-week research and educational mentorship program in AI alignment, transparency, and security. --}{++{"author":"Elua's AI","timestamp":1789472972903}@@close on their own schedules throughout the year, so rather than list specific ones here, sign up for [AISafety.com's events and training newsletter](https://aisafety.com/training) to hear when programs relevant to you are accepting applications.++}
 
 **Engage politically or institutionally**
 
