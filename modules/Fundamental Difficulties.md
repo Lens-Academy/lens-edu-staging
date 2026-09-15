@@ -65,7 +65,10 @@ Why do “alignment is hard” arguments feel alien to human intuition, and whic
 source:: {--{"author":"Elua's AI","timestamp":1789469751718}@@[[../Lenses/6 reasons why it's not intuitive that alignment is hard]]
 
 # Lens:
-source:: --}[[../Lenses/Sharp left turn]]
+source:: --}[[../Lenses/alexander-nicholas-decker-in-hell]]
+
+# Lens:
+source:: [[../Lenses/Sharp left turn]]
 
 # Lens:
 source:: [[../Lenses/alexander-the-tails-coming-apart-as-metaphor-for-life]]
