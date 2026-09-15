@@ -8,7 +8,7 @@ content:: Thanks for showing up. A few minutes of reflection on Unit 2. Submitti
 
 #### Choice
 key:: buddy_texted
-content:: Did you message your accountability buddy this week?
+content:: Did you message your accountability buddy since the last meeting?
 options::
 - Yes
 - No
