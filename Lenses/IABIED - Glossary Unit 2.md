@@ -1,7 +1,7 @@
 ---
 id: '05ab0dc4-fefd-4273-b25d-9487f25f9110'
 title: Unit 2
-tldr: "Fifteen terms from Chapters 4 to 6, defined as this course uses them."
+tldr: "Terms from Chapters 4 to 6, defined as this course uses them."
 summary_for_tutor: "Glossary for Unit 2, covering Chapters 4 to 6. Reference material with no interaction: the learner looks terms up rather than working through it. Definitions are the course's usage rather than the wider academic sense, and each term is defined once at its first appearance, so terms introduced earlier appear in Unit 1's glossary instead."
 authors:
   - Andreas+Claude
