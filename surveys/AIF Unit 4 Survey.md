@@ -19,7 +19,7 @@ content:: **If either one interests you, open it now before you carry on.** Anyt
 
 #### Choice
 key:: buddy_texted
-content:: Did you message your accountability buddy this week?
+content:: Did you message your accountability buddy since the last meeting?
 options::
 - Yes
 - No
