@@ -100,7 +100,7 @@ What not to do:
 - Start resolving the learning outcome question. That is Phase 3's job.
 
 #### Question: Open
-id:: 8d23c3fb-0350-406f-b5c1-cd571cbcf3de
+id:: 060e4240-03c1-4a7f-8d82-21919b0027b5
 content::
 \## Phase 3: Connection
 This chapter's diagnosis does not start from nothing. It leans on something you worked through much earlier in this course, and it never stops to say so.
