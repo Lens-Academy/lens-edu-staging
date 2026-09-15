@@ -73,7 +73,7 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779555734}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### Question: Open
-id:: 0754d407-0131-48b2-bcd0-3647d2e25f75
+id:: 1b89db69-aa12-47b8-aa59-a6a2a34d80ad
 content::
 \## Phase 3: Connection
 This chapter's argument does not start from nothing. It leans on something you worked through earlier in this course, and it never stops to say so.
