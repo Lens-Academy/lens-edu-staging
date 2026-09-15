@@ -1,7 +1,7 @@
 ---
 id: '34bd03f9-37b9-4e05-9e14-593303bb07fd'
 title: Unit 4
-tldr: "Ten terms from Chapters 10 and 11, defined as this course uses them."
+tldr: "Terms from Chapters 10 and 11."
 summary_for_tutor: "Glossary for Unit 4, covering Chapters 10 and 11. Reference material with no interaction: the learner looks terms up rather than working through it. Definitions are the course's usage rather than the wider academic sense, and each term is defined once at its first appearance."
 authors:
   - Andreas+Claude
