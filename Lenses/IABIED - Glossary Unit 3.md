@@ -11,7 +11,7 @@ authors:
 content::
 \## Unit 3: One Extinction Scenario
 
-**Readings:** Extension 4 ("Terminal Goals and Instrumental Goals"), Extension 5 ("Instrumental Convergence"), the film covering Chapters 7 ("Realization") and 8 ("Expansion"), Chapter 9 ("Ascension"), Coda
+**Readings:** Extension 4 ("Terminal Goals and Instrumental Goals"), Extension 5 ("Instrumental Convergence"), the film and/or Chapters 7 ("Realization") and 8 ("Expansion"), Chapter 9 ("Ascension"), Coda
 
 *Definitions reflect how this course uses each term, not necessarily its broader academic meaning. Each term is defined once, where it first comes up. For the authors' full arguments, see the corresponding chapters.*
 
