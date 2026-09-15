@@ -295,7 +295,6 @@ Every module already has a `# Submodule: Welcome`. The work is making its conten
 | Glossary | **One page, outside the unit sequence, linked from each of the five Optional Resources pages.** Generated from the meeting docs' Unit 5 version, which is canonical: five clusters, 59 terms, ordered by unit. Not written fresh, and not duplicated per unit | `todo` |
 | Companion pieces | **Postponed to a later restructure, 2026-09-14.** Judging whether a piece complements the book well means having read the book, and the relay key cannot open `Lens Edu Private`. See section 8; this is the third time that gap has shaped a decision. Optional material is low-stakes enough that a poor fit is noise rather than damage, which is exactly why it is not worth guessing at | `parked` |
 | Optional Resources | Five optional pages, one per unit, sitting inside their units rather than in a module of their own. The name was freed on 2026-09-14 by renaming M7's `Optional Resources` submodule to `Keep Going`, which is what its only lens was already called and what it actually does: a closing pointer at other courses, holding no resources | `todo` |
-| Companion pieces | Includes what was listed separately as extended readings. Not yet scoped. Their home is the five pages above | `todo` |
 | Heading depth in M4 and M6 | Both used `##` for their outcome and lens imports where M1, M2, M3 and M5 use `#`. 23 lines in M4 and 56 in M6, all normalised to `#` | `done` |
 
 ### Stage 6, meeting docs
