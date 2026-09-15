@@ -102,7 +102,7 @@ What not to do:
 - Start resolving the learning outcome question — that is Phase 3's job.
 
 #### Question: Open
-id:: a9f47df2-3762-45a2-9929-7fa7cc2cfd76
+id:: d799881b-8b9f-42c8-9cbe-0b81a6c48510
 content::
 \## Phase 3: Connection
 This chapter's argument does not start from nothing. It leans on something you worked through earlier in this course, and it never stops to say so.
