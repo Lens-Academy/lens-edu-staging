@@ -86,9 +86,5 @@ source:: [[../Lenses/Discovering when an agent is present in a system]]
 
 # Lens:
 optional:: true
-source:: [[../Lenses/Pythia]]{--{"author":"Elua's AI","timestamp":1789472822442}@@
-
-# Lens:
-optional:: true
-source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]--}
+source:: [[../Lenses/Pythia]]
 
