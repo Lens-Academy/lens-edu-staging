@@ -86,8 +86,5 @@ source:: [[../Lenses/Pythia]]
 
 # Lens:
 optional:: true
-source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]{--{"author":"Elua's AI","timestamp":1789472089131}@@
-
-# Lens:
-source:: [[../Lenses/Meditations on Moloch]]--}
+source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]
 
