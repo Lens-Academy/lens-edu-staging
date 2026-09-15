@@ -36,6 +36,10 @@ source:: ![[../Lenses/The World Keeps Getting Saved]]
 
 # Lens:
 optional:: true
+source:: [[../Lenses/pauliina-stop-applying-and-get-to-work]]
+
+# Lens:
+optional:: true
 source:: ![[../Lenses/The Goddess Of Everything Else]]
 
 # Lens:
