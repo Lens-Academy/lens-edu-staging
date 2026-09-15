@@ -35,6 +35,7 @@ source:: ![[../Lenses/Machines Of Loving Grace]]
 source:: ![[../Lenses/The World Keeps Getting Saved]]
 
 # Lens:
+optional:: true
 source:: ![[../Lenses/The Goddess Of Everything Else]]
 
 # Lens:
