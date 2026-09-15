@@ -13,7 +13,7 @@ content:: — The run sheet —
 
 #### Rating
 key:: run_sheet_worked
-content:: How well did the Week 1 run sheet work as your guide?
+content:: How well did the Unit 1 run sheet work as your guide?
 scale:: 5
 low-label:: Got in my way
 high-label:: Made it easy
