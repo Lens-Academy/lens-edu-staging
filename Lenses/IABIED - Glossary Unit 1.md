@@ -1,7 +1,7 @@
 ---
 id: 'b8e49ac4-6cfc-4075-8f21-fd8d52e78ad4'
 title: Unit 1
-tldr: "Fifteen terms from the Introduction and Chapters 1 to 3, defined as this course uses them."
+tldr: "Terms from the Introduction and Chapters 1 to 3, defined as this course uses them."
 summary_for_tutor: "Glossary for Unit 1, covering the Introduction and Chapters 1 to 3. Reference material with no interaction: the learner looks terms up rather than working through it. Definitions are the course's usage rather than the wider academic sense, and each term is defined once at its first appearance, so terms introduced later appear in the later units' glossaries instead."
 authors:
   - Andreas+Claude
