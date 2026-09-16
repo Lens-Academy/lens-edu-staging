@@ -277,7 +277,7 @@ reading_minutes:: 5
 content::
 _Adaptación de «[Godzilla Strategies](https://www.lesswrong.com/posts/DwqgLXn5qYC7GqExF/godzilla-strategies)»_
 
-> Pedirle a Godzilla que impida que Mega-Godzilla destruya Japón NO VA A HACER SUBIR EL PRECIO DE LA VIVIENDA EN TOKIO. Es mejor no jugar con monstruos desde el principio, en lugar de diseñar un complejo sistema de contrapesos entre monstruos y luego esperar que los monstruos no hagan lo que los monstruos siempre hacen, porque si no lo hicieran, se llamarían *florecitas* o *abrazos de cachorrito* y no monstruos.
+> Pedirle a Godzilla que impida que Mega-Godzilla destruya Japón NO VA A HACER SUBIR EL PRECIO DE LA VIVIENDA EN TOKIO. Es mejor no jugar con monstruos desde el principio, en lugar de diseñar un complejo sistema de contrapesos entre monstruos y luego esperar que los monstruos no hagan lo que los monstruos siempre hacen, porque si no lo hicieran, se llamarían *florecitas* o *abrazos de cachorrito* y no *monstruos*.
 >
 > James Mickens, [The Slow Winter](https://scholar.harvard.edu/files/mickens/files/theslowwinter.pdf)
 
