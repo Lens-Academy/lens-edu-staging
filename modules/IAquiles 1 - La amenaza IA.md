@@ -9,7 +9,7 @@ tags:
 
 %% BORRADOR. Todas las lecturas enlazadas están en inglés: hay que importar sus traducciones al español cuando existan. %%
 
-# Submodule: 1. ¿Por qué es peligrosa la IA? Dos argumentos
+# Submodule: 1. Preliminares
 
 # Submodule: 2. ¿Por qué es peligrosa la IA? Dos argumentos
 
