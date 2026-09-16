@@ -111,7 +111,7 @@ Es el momento de entender la amenaza concreta a la que nos enfrentamos.
 
 #### Question: Open
 id:: d1619b46-e3c9-4729-ac39-8139a0f27e6b
-content:: Alguien te dice: "Una IA nunca será peligrosa, porque no es consciente". Reescribe esa frase sin usar la palabra "consciente" ni sinónimos. ¿Sigue siendo convincente?
+content:: Alguien te dice: "Una IA nunca será peligrosa, porque no es consciente". Trata de reescribir esa frase sin usar la palabra "consciente" ni sinónimos. ¿Sigue siendo convincente?
 feedback-instructions:: Responde en español, 80 a 150 palabras, sin elogios genéricos. Comprueba si el estudiante ha sustituido la palabra por algo observable o por un mecanismo (por ejemplo, "no tiene experiencias subjetivas" o "no sabe que existe"). Si ha usado un sinónimo encubierto, señálalo. Pregúntale si la versión reescrita implica algo sobre la capacidad de la IA para predecir y dirigir el mundo, que es lo que según la lectura importa. Máximo 2 respuestas tuyas.
 
 # Lens: Se cultiva, no se programa
