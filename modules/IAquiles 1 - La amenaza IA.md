@@ -125,7 +125,7 @@ tutor_minutes:: 5
 content::
 Un programa tradicional hace lo que su programador escribió. Un "modelo de lenguaje" (como Chat GPT o Claude, llamados LLM en inglés) no funciona así. Sus creadores diseñan una arquitectura y un procedimiento de entrenamiento (el **descenso de gradiente**), y luego ajustan automáticamente miles de millones de parámetros hasta que el modelo predice bien todo tipo de textos.
 
-El resultado funciona, pero nadie ha escrito ni programado su comportamiento exacto. Incluso el director ejecutivo de Anthropic, Dario Amodei, escribe que estos modelos no se "construyen", sino que se "cultivan", y que por eso no entendemos de manera automática cómo funcionan, ([Amodei, "The Adolescence of Technology"](https://www.darioamodei.com/essay/the-adolescence-of-technology)).
+El resultado funciona, pero nadie ha escrito ni programado su comportamiento exacto. Incluso el director ejecutivo de Anthropic, Dario Amodei, escribe que estos modelos no se "construyen", sino que se "cultivan", y que por eso no entendemos de manera automática cómo funcionan, a diferencia de lo que ocurre con un programa tradicional ([Amodei, "The Adolescence of Technology"](https://www.darioamodei.com/essay/the-adolescence-of-technology)).
 
 ¿Hace falta entender la inteligencia para crearla? Los autores de _If Anyone Builds It, Everyone Dies_ responden brevemente:
 
