@@ -224,7 +224,7 @@ tutor_minutes:: 10
 
 #### Text
 content::
-Hablar de "la amenaza de la IA", en singular, es algo enganhoso, porque da a entender que sólo hay uno, y que una vez solucionado ya no tenemos nada que temer. proponemos aquí una lista de cinco amenazas
+Hablar de "la amenaza de la IA", en singular, es algo enganhoso, porque da a entender que sólo hay uno, y que una vez solucionado ya no tenemos nada que temer.Proponemos aquí una lista de cinco amenazas tals
 esconde que hay varias. Proponemos una escalera de cinco escalones. Es nuestra forma de ordenar el problema, no una clasificación estándar.
 
 **1. Los LLM de hoy.** En nuestra opinión, parecen incapaces de causar demasiado daño por sí solos. Pero, como vimos en "Lo que ya ha pasado", ya muestran comportamientos preocupantes cuando se les da una tarea y herramientas.
