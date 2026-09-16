@@ -62,7 +62,7 @@ reading_minutes:: 1
 
 #### Text
 content::
-A continuación veremos dos tipos de argumentos:
+A continuación veremos dos tipos de argumentos sobre :
 - **Hechos recientes**: todo aquello que los sistemas actuales ya son capaces de hacer, y que efectivamente han hecho.
 - **Argumento teórico**: una serie de razones intuitivas por las que tememos que el problema sólo puede ir a peor si las cosas siguen en la dirección por la que van.
 
