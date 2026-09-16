@@ -228,7 +228,7 @@ Hablar de "la amenaza de la IA", en singular, es algo enganhoso, porque da a ent
 
 **1. Los LLM de hoy.** Si uno interactúa con Chat GPT o Claude, no tiene generalmente la impresión de estar frente a algo capaz de destruir a la humanidad. Y, de hecho, millones de personas usan LLMs diariamente. Las cosas podrían haber evolucionado de otra manera, pero esta amenaza parece haber sido evitada. Pero ?nos garantiza eso que las siguientes lo estarán?
 
-**2. Los LLM de mañana.** ?Qué ocurriráMás capaces, con más conocimientos y mejor planificación. Los mismos comportamientos, con más capacidad para llevarlos a cabo.
+**2. Los LLM de mañana.** ?Qué ocurrirá cuando Chat GPT o Claude sean capacesMás capaces, con más conocimientos y mejor planificación. Los mismos comportamientos, con más capacidad para llevarlos a cabo.
 
 **3. Modelos con percepción y acción.** Modelos conectados a internet, a herramientas, a código que se ejecuta o a robots. Ya no solo escriben texto: actúan en el mundo. El incidente de Hugging Face es un ejemplo de este escalón.
 
