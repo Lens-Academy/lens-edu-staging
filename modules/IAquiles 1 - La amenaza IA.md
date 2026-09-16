@@ -44,8 +44,6 @@ tutor_minutes:: 2
 content::
 Este módulo defiende una tesis incómoda: **la inteligencia artificial puede ser peligrosa para la humanidad**, no dentro de siglos o décadas, sino con sistemas muy parecidos a los que ya existen hoy en día.
 
-
-
 Antes de empezar, queremos saber de dónde partes tú.
 
 #### Question: Open
