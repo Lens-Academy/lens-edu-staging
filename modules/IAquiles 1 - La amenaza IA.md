@@ -103,10 +103,10 @@ feedback-instructions:: Responde en español, 80 a 150 palabras, sin listas y si
 
 # Lens: Ahora no es el momento de hacer filosofía de la mente
 id:: 8aa433b1-ca14-4a8c-aabe-5be8581da2fe
-tldr:: Para que una IA sea peligrosa no hace falta que sea "consciente". La palabra confunde más que aclara, así que la vamos a prohibir.
-summary_for_tutor:: El estudiante lee "Taboo Your Words" (Yudkowsky) y una FAQ de Yudkowsky y Soares sobre si las máquinas serán conscientes. Idea central: el peligro depende de la capacidad de predecir y dirigir el mundo, no de la experiencia subjetiva. Técnica: sustituir la palabra por lo que se observa o por el mecanismo.
-reading_minutes:: 15
-tutor_minutes:: 5
+tldr:: Discutir si la IA es "consciente" no lleva a ninguna conclusión y nos distrae de la amenaza concreta.
+summary_for_tutor:: Idea central: la filosofía de la mente nunca ha resuelto qué es la consciencia, así que las conversaciones sobre si la IA es consciente no concluyen nada y desvían la atención del peligro. El peligro depende de la capacidad de la IA para predecir y dirigir el mundo, no de la experiencia subjetiva. Ejercicio: reescribir una afirmación sin la palabra "consciente".
+reading_minutes:: 2
+tutor_minutes:: 4
 
 #### Text
 content::
@@ -122,7 +122,7 @@ Es el momento de entender la amenaza concreta a la que nos enfrentamos.
 #### Question: Open
 id:: d1619b46-e3c9-4729-ac39-8139a0f27e6b
 content:: Alguien afirma: "Una IA nunca podrá llgar a ser peligrosa, porque no es consciente". Trata de reescribir esta frase sin usar la palabra "consciente" ni sinónimos. ¿Sigue siendo convincente la afirmación?
-feedback-instructions:: Responde en español, 80 a 150 palabras, sin elogios genéricos. Comprueba si el estudiante ha sustituido la palabra por algo observable o por un mecanismo (por ejemplo, "no tiene experiencias subjetivas" o "no sabe que existe"). Si ha usado un sinónimo encubierto, señálalo. Pregúntale si la versión reescrita implica algo sobre la capacidad de la IA para predecir y dirigir el mundo, que es lo que según la lectura importa. Máximo 2 respuestas tuyas.
+feedback-instructions:: Responde en español, 80 a 150 palabras, sin elogios genéricos. Comprueba si el estudiante ha sustituido la palabra por algo observable o por un mecanismo (por ejemplo, "no tiene experiencias subjetivas" o "no sabe que existe"). Si ha usado un sinónimo encubierto, señálalo. Pregúntale si la versión reescrita implica algo sobre la capacidad de la IA para predecir y dirigir el mundo, que es lo que importa para el peligro. Máximo 2 respuestas tuyas.
 
 # Lens: Se cultiva, no se programa
 id:: 0d7a45b2-0b7d-4caf-a507-15568e30bf9d
