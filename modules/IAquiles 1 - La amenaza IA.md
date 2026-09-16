@@ -12,8 +12,10 @@ tags:
 # Submodule: 1. Preliminares
 
 # Lens: Intensivo IAquiles
+id:: ad8ac856-a506-44dd-a999-9540cb536eaf
 
 #### Text
+content::
 Este curso online es una preparación para el intensivo *presencial* IAquiles sobre Seguridad frente a la Amenaza IA que tendrá lugar en Barcelona a partir del 30 de septiembre de 2026.
 
 Consta de tres módulos:
