@@ -23,7 +23,7 @@ Consta de tres módulos:
 
 Este curso online también está abierto a todas las personas interesadas en comprender más sobre la amenaza a la que se enfrenta la humanidad, y deseos de hacer algo, hoy.
 
-E
+Comparte el link del curso presencial y d
 
 
 
