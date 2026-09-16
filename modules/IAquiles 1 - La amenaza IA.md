@@ -307,7 +307,7 @@ Tranquilo, ahora vamos. Pero antes, imagina que eres el alcalde de Tokio y está
 
 No. Obviamente, no. ASÍ NO HACE SUBIR EL PRECIO DE LA VIVIENDA EN TOKIO. Puede que no sepas explicar _por qué_ la respuesta es obviamente "no", pero pedirle a Godzilla que luche contra Mega-Godzilla va a destruir Tokio, obviamente, y tu intuición al respecto es correcta aunque no seas capaz de formular argumentos ingeniosos.
 
-Dicho esto, hablemos de por qué esas intuiciones son correctas y por qué la analogía de Godzilla funciona bien.
+Ac, hablemos de por qué esas intuiciones son correctas y por qué la analogía de Godzilla funciona bien.
 
 \## Planes frágiles y lo que no sabemos que no sabemos
 
