@@ -275,4 +275,56 @@ reading_minutes:: 5
 
 #### Text
 content::
-(Pega aquí la traducción.)
+_Traducción de «[Godzilla Strategies](https://www.lesswrong.com/posts/DwqgLXn5qYC7GqExF/godzilla-strategies)», de John Wentworth (2022), publicada con permiso del autor._
+
+> Con una botella de whisky en una mano y una escopeta en la otra, John rebuscó ideas en la literatura científica… Encontró varios artículos que describían la recuperación de hardware asistida por software. La idea básica era sencilla: si el hardware sufre más fallos transitorios a medida que se hace más pequeño, ¿por qué no dejar que el software detecte los cálculos erróneos y los vuelva a ejecutar? La idea parecía prometedora hasta que John se dio cuenta de que ERA LA PEOR IDEA DE LA HISTORIA. El software moderno apenas funciona cuando el hardware funciona bien, así que confiar en el software para corregir los errores del hardware es como pedirle a Godzilla que impida que Mega-Godzilla aterrorice Japón. ESTO NO HACE SUBIR EL PRECIO DE LA VIVIENDA EN TOKIO. Es mejor dejar de miniaturizar los transistores y no jugar con monstruos desde el principio, en lugar de diseñar un complejo sistema de contrapesos entre monstruos y luego esperar que los monstruos no hagan lo que los monstruos siempre van a hacer, porque si no lo hicieran, se llamarían dientes de león o abrazos de cachorrito.
+>
+> James Mickens, [The Slow Winter](https://scholar.harvard.edu/files/mickens/files/theslowwinter.pdf)
+
+Hay muchas estrategias de alineamiento de IA que podrían describirse razonablemente como "pedirle a Godzilla que impida que Mega-Godzilla aterrorice Japón". Usar una IA para supervisar a otra IA. Hacer que dos IA debatan entre sí. Usar una IA quizá algo alineada para ayudar a diseñar otra. Etcétera.
+
+Los investigadores de alineamiento discuten distintas maneras en que puede fallar eso de pedirle a Godzilla que impida que Mega-Godzilla aterrorice Japón. Quizá uno de los dos acabe siendo mucho más poderoso que el otro. Quizá los dos lleguen a un acuerdo acausal. Quizá el equilibrio de Nash entre Godzilla y Mega-Godzilla, para empezar, simplemente no sea muy bueno para los humanos. Etcétera. Estos modos de fallo son útiles para orientar la investigación técnica.
+
+…pero me preocupa que hablar de los modos de fallo conocidos lleve a la gente a engañarse sobre la viabilidad estratégica de las estrategias Godzilla. Hace que la gente piense (de forma consciente e intencionada o no): "bueno, si pudiéramos resolver estos modos de fallo concretos, quizá pedirle a Godzilla que impida que Mega-Godzilla aterrorice Japón funcionaría".
+
+Lo que me gusta de la analogía de Godzilla es que ofrece una intuición estratégica que se ajusta mucho mejor al mundo real. Cuando alguien afirma que su plan elaborado e ingenioso nos permitirá invocar a Godzilla sin peligro para que luche contra Mega-Godzilla, la respuesta intuitiva y obviamente correcta es: "ESTO NO HACE SUBIR EL PRECIO DE LA VIVIENDA EN TOKIO".
+
+"¡Pero mira!", dice el investigador ingenioso. "¡Mi plan ingenioso resuelve los problemas X, Y y Z!"
+
+Respuesta:
+
+![](https://www.greaterwrong.com/proxy-assets/5PSBG1ND5EPTMBOGUECD4CV136)
+
+Uy.
+
+"Vale, pero ¿y si lo implementáramos realmente bien?", pregunta el investigador ingenioso.
+
+Respuesta:
+
+![](https://www.greaterwrong.com/proxy-assets/5A0CMQNFV2C2S47AAK2SFNLGO0)
+
+¡GROAAARRRRRRR!
+
+"¡Venga ya!", dice el investigador ingenioso. "¡Ni siquiera te lo estás tomando en serio! Al menos di algo sobre _cómo_ fallaría."
+
+Tranquilo, a eso vamos. Pero antes, imagina que eres el alcalde de Tokio y estás evaluando una propuesta para pedirle a Godzilla que luche contra Mega-Godzilla. Tus ingeniosos investigadores te han dado una larga explicación de cómo sus elaboradas e ingeniosas salvaguardas garantizarán que este plan no destruya Tokio. No se te ocurre ningún posible problema que no hayan abordado. ¿Deberías concluir que pedirle a Godzilla que luche contra Mega-Godzilla no acabará con Tokio destruida?
+
+No. Evidentemente no. ESTO NO HACE SUBIR EL PRECIO DE LA VIVIENDA EN TOKIO. Puede que no sepas explicar _por qué_ la respuesta es obviamente "no", pero pedirle a Godzilla que luche contra Mega-Godzilla va a destruir Tokio, obviamente, y tus intuiciones aciertan en eso aunque no seas capaz de formular argumentos ingeniosos.
+
+Dicho esto, hablemos de por qué esas intuiciones son correctas y por qué la analogía de Godzilla funciona bien.
+
+\## Planes frágiles y lo que no sabemos que no sabemos
+
+El problema básico de los planes Godzilla es que son _frágiles_. En cuanto algo sale mal, el plan salta en pedazos, y entonces tienes entre uno y dos monstruos gigantes arrasando el centro de la ciudad.
+
+Y, por supuesto, es una Ley fundamental del universo que nada sale nunca exactamente según lo previsto. Menos aún cuando intentas enfrentar a dos monstruos gigantes. Es el tipo de situación en la que _seguro_ habrá cosas que no sabemos que no sabemos.
+
+Cosas que no sabemos que no sabemos + plan frágil = el precio de la vivienda en Tokio, desde luego, no sube.
+
+¿Sabemos qué es exactamente lo que saldrá mal? No. ¿Saldrá algo mal? Estoy muy seguro de que sí. Y la fragilidad significa que, sea lo que sea lo que salga mal, saldrá muy mal. Cuando le pides a Godzilla que luche contra Mega-Godzilla, los errores son irrecuperables.
+
+Si usamos una IA para supervisar a otra IA y algo sale mal, no es un error recuperable: para empezar, recurrimos a la ayuda de una IA precisamente porque sin ella no somos capaces de detectar los problemas relevantes. Si dos IA debaten entre sí con la esperanza de generar un buen plan para un humano y algo sale mal, no es un error recuperable: dependemos de las propias IA para detectar los problemas. Si usamos una IA quizá algo alineada para construir otra y algo sale mal, no es un error recuperable: si tuviéramos mejores formas de detectar el desalineamiento en la IA hija, ya las habríamos usado con la IA madre.
+
+El mundo real siempre pondrá problemas inesperados en el camino de nuestros planes. Cuando le pides a Godzilla que luche contra Mega-Godzilla, esos problemas son irrecuperables. ESTO NO HACE SUBIR EL PRECIO DE LA VIVIENDA EN TOKIO.
+
+_Nota meta: ¡espero que este post tenga una sección de comentarios animada! Antes de dejar el vigésimo comentario diciendo que quizá Godzilla luchando contra Mega-Godzilla sea mejor que Mega-Godzilla arrasando sin oposición, comprueba si alguien lo ha escrito ya, para que yo no tenga que escribir la misma respuesta veinte veces. (Pero, desde luego, deja ese comentario si eres el primero: he escrito este ensayo corto a propósito, contando con que buena parte de la discusión tendría lugar en los comentarios.)_
