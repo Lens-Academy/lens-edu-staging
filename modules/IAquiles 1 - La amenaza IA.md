@@ -49,7 +49,9 @@ content:: En dos o tres frases: ¿qué tendría que ocurrir para que una IA fuer
 placeholder:: No hay respuestas incorrectas. Escribe tu intuición.
 feedback-instructions:: Responde en español, en 1 o 2 frases. Reconoce lo que ha escrito el estudiante sin elogios genéricos. No adelantes los argumentos del módulo ni corrijas su intuición. Termina invitándole a seguir con la siguiente página.
 
-# Submodule: 2. ¿Por qué es peligrosa la IA? Dos argumentos
+# Submodule: 2. ¿Por qué es peligrosa la IA? 
+
+Dos argumentos
 
 En este módulo veremos dos tipos de argumentos:
 - **Hechos recientes**: todo aquello que los sistemas actuales ya son capaces de hacer, y que efectivamente han hecho.
