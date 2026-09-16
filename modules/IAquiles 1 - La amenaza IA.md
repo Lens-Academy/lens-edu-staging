@@ -239,7 +239,7 @@ Si uno interactúa con Chat GPT o Claude, no tiene generalmente la impresión de
 ?Qué ocurrirá cuando dentro de 2 o 3 anhos se descubra (probablemente gracias a una LLM) una arquitectura muy distinta a las LLMs capaz de resolver problemas más eficientemente que ellos? ?Nos servirá de protección el hecho de que las LLM no hayan resultado peligrosas?
 
 **5. La amenaza final** 
-Nadie sabe cuántas arquitecturas cada vez mejores existen, esperando ser descubiertas. Existen incentivos económicos enormes para seguir explorándolas. Y, muy pronto, las LLM actuales estarán en condición de producir ellas nuevas arquitecturas. ?Cómo podemos evitar que alguna de esas arquitecturas futuras acabe con la humanidad? 
+Nadie sabe cuántas arquitecturas cada vez mejores existen, esperando ser descubiertas. Existen incentivos económicos enormes para seguir explorándolas. Y, muy pronto, las LLM actuales estarán en condición de producir ellas nuevas arquitecturas. ?Cómo podemos evitar que alguna de esas arquitecturas (la vigésima, o quizá la s) futuras acabe con la humanidad? 
 Una solución que funcione para siempre no puede depender de la arquitectura de moda. Tiene que funcionar también para sistemas mucho más inteligentes que nosotros, capaces de mejorarse a sí mismos. Esto lo veremos en la última sección.
 
 #### Chat
