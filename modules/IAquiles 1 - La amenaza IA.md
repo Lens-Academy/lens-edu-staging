@@ -33,7 +33,7 @@ Link del preparatorio online:
 
 # Submodule: 2. ¿Por qué es peligrosa la IA? Dos argumentos
 
-# Lens: Antes de empezar el curso preparator
+# Lens: Antes de empezar el curso preparatorio
 id:: a2ebe160-233a-42c0-8226-e0f05ab5b454
 tldr:: Antes de leer nada, apunta tu intuición: ¿qué haría falta para que una IA fuera peligrosa de verdad?
 summary_for_tutor:: Pregunta previa del módulo. El estudiante escribe su intuición inicial sobre qué haría peligrosa a una IA. No adelantes los argumentos del módulo.
