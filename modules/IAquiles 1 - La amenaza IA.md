@@ -123,7 +123,7 @@ tutor_minutes:: 5
 
 #### Text
 content::
-Un programa tradicional hace lo que su programador escribió. Un modelo de lenguaje no funciona así. Sus creadores diseñan una arquitectura y un procedimiento de entrenamiento (el **descenso de gradiente**), y luego ajustan automáticamente miles de millones de parámetros hasta que el modelo predice bien el texto.
+Un programa tradicional hace lo que su programador escribió. Un "modelo de lenguaje2 no funciona así. Sus creadores diseñan una arquitectura y un procedimiento de entrenamiento (el **descenso de gradiente**), y luego ajustan automáticamente miles de millones de parámetros hasta que el modelo predice bien el texto.
 
 El resultado funciona, pero nadie ha escrito su comportamiento. Hasta el director ejecutivo de Anthropic, Dario Amodei, escribe que estos modelos se "cultivan" en lugar de "construirse", y que por eso no entendemos de forma natural cómo funcionan ([Amodei, "The Adolescence of Technology"](https://www.darioamodei.com/essay/the-adolescence-of-technology)).
 
