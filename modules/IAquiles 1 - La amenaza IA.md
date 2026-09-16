@@ -47,7 +47,7 @@ Antes de empezar, queremos saber de dónde partes tú.
 id:: e969a0e7-8cd4-47b6-9cf0-2689c67da865
 content:: En dos o tres frases: ¿qué tendría que ocurrir para que una IA fuera un peligro serio para la humanidad? ¿Qué características tendría que tener?
 placeholder:: No hay respuestas incorrectas. Escribe tu intuición.
-feedback-instructions:: Responde en 1 o 2 frases. Reconoce lo que ha escrito el estudiante sin elogios genéricos. No adelantes los argumentos del módulo ni corrijas su intuición. Termina invitándole a seguir con la siguiente página.
+feedback-instructions:: Responde en español, en 1 o 2 frases. Reconoce lo que ha escrito el estudiante sin elogios genéricos. No adelantes los argumentos del módulo ni corrijas su intuición. Termina invitándole a seguir con la siguiente página.
 
 # Submodule: 2. ¿Por qué es peligrosa la IA? Dos argumentos
 
