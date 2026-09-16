@@ -192,7 +192,7 @@ id:: a13f4208-8850-43c1-9ed9-b04542d6ba1b
 content:: ¿Cuál te parece el paso más débil de este argumento? ¿Qué haría falta para que ese paso fallara?
 feedback-instructions:: Responde en español, 80 a 150 palabras, sin elogios genéricos. Trata el escepticismo como una postura legítima. Ayuda al estudiante a precisar qué paso ataca (límites del control, presión selectiva, incompatibilidad de sustratos) y pregúntale qué evidencia le haría cambiar de opinión. No defiendas ni refutes el argumento tú mismo. Máximo 2 respuestas tuyas.
 
-# Submodule: 2. Distintas amenazas
+# Submodule: 3. Distintas amenazas
 
 # Lens: Una escalera de amenazas
 id:: 63f1a7d7-2fab-42f2-82fd-19253d37c5d7
@@ -218,7 +218,7 @@ Hablar de "la amenaza de la IA" en singular esconde que hay varias. Proponemos u
 #### Chat
 instructions:: Habla en español. El estudiante acaba de leer la escalera de cinco escalones. Pregúntale en qué escalón cree que estamos hoy y cuál le parece que llegará antes de lo que la gente espera. Explora con él qué cambia al subir cada escalón: capacidad, autonomía, acceso al mundo, dificultad de supervisión. Si defiende que algún escalón nunca llegará, trátalo como una postura legítima y pregúntale qué evidencia le haría cambiar de opinión. Respuestas breves (menos de 120 palabras), una pregunta cada vez, sin elogios genéricos. Recuerda que la escalera es una propuesta del curso, no un consenso del campo.
 
-# Submodule: 3. La solución definitiva y la auto-mejora recursiva
+# Submodule: 4. La solución definitiva y la auto-mejora recursiva
 
 # Lens: La auto-mejora recursiva
 id:: e5ea7379-cac1-4b21-8403-42c42534f86c
