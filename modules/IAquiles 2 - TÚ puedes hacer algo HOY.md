@@ -45,6 +45,9 @@ PauseAI es un movimiento de base internacional que aboga por detener temporalmen
 
 Su propuesta central es una pausa en el entrenamiento de estos sistemas hasta saber construirlos de forma segura y con garantías de control democrático. Dado que ningún país ni empresa renunciará a su ventaja competitiva si los demás siguen adelante, la pausa tiene que ser global.
 
+Links:
+
+
 # Lens: AIS Barcelona
 id:: ff022351-e6e4-475a-814c-bbdba95415e3
 reading_minutes:: 1
