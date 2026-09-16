@@ -53,7 +53,7 @@ feedback-instructions:: Responde en español, en 1 o 2 frases. Reconoce lo que h
 
 En este módulo veremos dos tipos de argumentos:
 - **Hechos recientes**: todo aquello que los sistemas actuales ya son capaces de hacer, y que efectivamente han hecho.
-- **Teoría**: todo aquello que cnsirazones por las que esperamos que el problema empeore a medida que los sistemas sean más capaces.
+- **Teoría**: razones por las que esperamos que el problema empeore a medida que los sistemas sean más capaces.
 
 # Lens: Lo que ya ha pasado
 id:: 5e18eec7-e334-4016-89dc-6d0cbef84b15
