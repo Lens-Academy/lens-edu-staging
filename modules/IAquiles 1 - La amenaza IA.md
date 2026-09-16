@@ -309,7 +309,7 @@ No. Obviamente, no. ASÍ NO HACE SUBIR EL PRECIO DE LA VIVIENDA EN TOKIO. Puede 
 
 Aclarado esto, abordemos ahora la pregunta de por qué esta intuición está en lo cierto, y por qué esta analogía con Godzilla es apropiada.
 
-\## Planes frágiles y las cosas que n que no sabemos que no sabemos
+\## Planes frágiles y las cosas que no sabemos que no sabemos 
 
 El problema básico de los planes Godzilla es que son _frágiles_. En cuanto algo sale mal, el plan salta en pedazos, y entonces tienes entre uno y dos monstruos gigantes arrasando el centro de la ciudad.
 
