@@ -99,7 +99,7 @@ tutor_minutes:: 5
 
 #### Text
 content::
-Muchas conversaciones sobre el peligro de la IA desembocan rápido en la duda sobre si realmente son conscientes. La pregunta de qué es la consciencia (o la mente, o la experiencia interior, o los [qualia](https://es.wikipedia.org/wiki/Qualia)) es una pregunta fascinante estudiada por la [filosofía de la mente](https://es.wikipedia.org/wiki/Filosof%C3%ADa_de_la_mente). Problema: jamás se ha llegado a ninguna conclusión. Nadie tiene claro qué es la consciencia, si los animales tienen cosncie
+Muchas conversaciones sobre el peligro de la IA desembocan rápido en la duda sobre si realmente son conscientes. La pregunta de qué es la consciencia (o la mente, o la experiencia interior, o los [qualia](https://es.wikipedia.org/wiki/Qualia)) es una pregunta fascinante estudiada por la [filosofía de la mente](https://es.wikipedia.org/wiki/Filosof%C3%ADa_de_la_mente). Problema: jamás se ha llegado a ninguna conclusión. Nadie tiene claro qué es la consciencia, si los animales tienen consciencia, si los fetos tienen consciencia, 
 Cuando se habla de IA peligrosa, la conversación suele desviarse hacia una pregunta: "¿pero es consciente?". El problema es que "consciente" puede significar cosas muy distintas: entender de verdad, saberse a uno mismo, tener experiencias subjetivas...
 
 En este curso vamos a aplicar una técnica clásica de LessWrong: **prohibir la palabra** y sustituirla por lo que realmente queremos decir. Primero, la técnica:
