@@ -30,9 +30,6 @@ Comparte el link del curso presencial y de este curso online con todas las perso
 Link del preparatorio online: 
 
 
-
-
-
 # Lens: Antes de empezar el curso preparatorio
 id:: a2ebe160-233a-42c0-8226-e0f05ab5b454
 tldr:: Antes de leer nada, apunta tu intuición: ¿qué haría falta para que una IA fuera peligrosa de verdad?
@@ -51,6 +48,8 @@ id:: e969a0e7-8cd4-47b6-9cf0-2689c67da865
 content:: En dos o tres frases: ¿qué tendría que ocurrir para que una IA fuera un peligro serio para la humanidad? ¿Qué características tendría que tener?
 placeholder:: No hay respuestas incorrectas. Escribe tu intuición.
 feedback-instructions:: Responde en español, en 1 o 2 frases. Reconoce lo que ha escrito el estudiante sin elogios genéricos. No adelantes los argumentos del módulo ni corrijas su intuición. Termina invitándole a seguir con la siguiente página.
+
+# Submodule: 2. ¿Por qué es peligrosa la IA? Dos argumentos
 
 En este módulo veremos dos tipos de argumentos:
 - **Hechos recientes**: cosas que los sistemas actuales ya han hecho.
