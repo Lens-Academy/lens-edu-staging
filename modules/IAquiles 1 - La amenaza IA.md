@@ -56,6 +56,9 @@ feedback-instructions:: Responde en español, en 1 o 2 frases. Reconoce lo que h
 
 # Lens: Dos argumentos
 id:: 339c474d-ef2c-453b-b519-a40709a3bbd6
+tldr:: Veremos dos tipos de argumentos: lo que las IA actuales ya han hecho, y razones teóricas para temer que el problema empeore.
+summary_for_tutor:: Página de transición que presenta los dos tipos de argumentos del módulo: hechos recientes (casos documentados de comportamiento desalineado) y argumento teórico (razones por las que el problema empeoraría si las tendencias continúan).
+reading_minutes:: 1
 
 #### Text
 content::
