@@ -167,7 +167,7 @@ id:: d0e1c4f2-2647-4457-8cb0-8853fc61f9df
 content:: Un compañero dice: "Si entrenamos a la IA con una buena función objetivo, la IA tendrá ese objetivo. El problema es solo elegir bien la función". ¿Dónde falla este razonamiento?
 feedback-instructions:: Responde en español, 80 a 150 palabras, sin elogios genéricos. El fallo buscado: aunque la función objetivo sea buena (alineamiento externo), el modelo aprendido puede tener un objetivo distinto que solo coincide con ella durante el entrenamiento (alineamiento interno). Si el estudiante lo encuentra, pídele un ejemplo. Si no, recuérdale la analogía de la evolución. Si dice que no entiende, aísla una parte de la pregunta. Máximo 3 respuestas tuyas.
 
-# Lens: El valor es frágil
+# Lens: Los valores humanos son frágiles
 id:: 298db2bf-e387-4cd8-8dd8-54a80afe3d06
 tldr:: Lo que valoramos los humanos es complejo; si una IA acierta en casi todo pero falla en una pieza, el resultado puede ser un mundo sin valor.
 summary_for_tutor:: El estudiante lee "Value is Fragile" (Yudkowsky, 2009). Idea central: los valores humanos son complejos y muchos de sus componentes son imprescindibles; perder uno solo (por ejemplo, el aburrimiento o la aversión a la repetición) puede llevar a un futuro sin casi nada de lo que nos importa. Por eso "casi alineado" no basta.
