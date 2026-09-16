@@ -321,7 +321,7 @@ Y, por supuesto, es una Ley fundamental del universo que nada sale nunca exactam
 
 Cosas que no sabemos que no sabemos + plan frágil = el precio de la vivienda en Tokio, desde luego, no va a subir.
 
-¿Sabemos qué es exactamente lo que saldrá mal? No. ¿Saldrá algo mal? No lo dudes. Y la fragilidad del plan hace que, sea lo que sea lo que salga mal, saldrá *muy mal*. Cuando le pides a Godzilla que luche contra Mega-Godzilla, a diferencia de cuando intentes aparcar el coche en un sitio  los errores no tienen vuelta atrás.
+¿Sabemos qué es exactamente lo que saldrá mal? No. ¿Saldrá algo mal? No lo dudes. Y la fragilidad del plan hace que, sea lo que sea lo que salga mal, saldrá *muy mal*. Cuando le pides a Godzilla que luche contra Mega-Godzilla, a diferencia de cuando intentas aparcar el coche  los errores no tienen vuelta atrás.
 
 Si usamos una IA para supervisar a otra IA y algo sale mal, ya no hay vuelta atrás: para empezar, recurrimos a la ayuda de una IA precisamente porque sin ella no somos capaces de detectar los problemas relevantes. Si dos IA debaten entre sí con la esperanza de generar un buen plan para un humano y algo sale mal, ya no hay vuelta atrás: dependemos de las propias IA para detectar los problemas. Si usamos una IA quizá un poco alineada para construir otra y algo sale mal, ya no hay vuelta atrás: si tuviéramos mejores formas de detectar el desalineamiento en la IA hija, ya las habríamos usado con la IA madre.
 
