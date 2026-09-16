@@ -223,7 +223,7 @@ id:: a13f4208-8850-43c1-9ed9-b04542d6ba1b
 content:: ¿Cuál te parece el paso más débil de este argumento? ¿Qué haría falta para que ese paso fallara?
 feedback-instructions:: Responde en español, 80 a 150 palabras, sin elogios genéricos. Trata el escepticismo como una postura legítima. Ayuda al estudiante a precisar qué paso ataca (límites del control, presión selectiva, incompatibilidad de sustratos) y pregúntale qué evidencia le haría cambiar de opinión. No defiendas ni refutes el argumento tú mismo. Máximo 2 respuestas tuyas.
 
-# Submodule: 5. Distintas niveles de amenaza
+# Submodule: 5. Distintos niveles de amenaza
 
 # Lens: Una lista de amenazas
 id:: 63f1a7d7-2fab-42f2-82fd-19253d37c5d7
