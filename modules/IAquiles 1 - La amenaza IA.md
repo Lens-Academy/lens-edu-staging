@@ -293,7 +293,7 @@ Respuesta:
 
 ![](https://www.greaterwrong.com/proxy-assets/5PSBG1ND5EPTMBOGUECD4CV136)
 
-Uy.
+Ups.
 
 "Vale, pero ¿y si lo implementáramos realmente bien?", pregunta el investigador ingenioso.
 
