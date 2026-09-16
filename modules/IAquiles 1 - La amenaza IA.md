@@ -99,7 +99,7 @@ tutor_minutes:: 5
 
 #### Text
 content::
-
+Muchas conversaciones sobre el peligro de la IA 
 Cuando se habla de IA peligrosa, la conversación suele desviarse hacia una pregunta: "¿pero es consciente?". El problema es que "consciente" puede significar cosas muy distintas: entender de verdad, saberse a uno mismo, tener experiencias subjetivas...
 
 En este curso vamos a aplicar una técnica clásica de LessWrong: **prohibir la palabra** y sustituirla por lo que realmente queremos decir. Primero, la técnica:
