@@ -294,7 +294,7 @@ Respuesta:
 ![](https://www.greaterwrong.com/proxy-assets/5PSBG1ND5EPTMBOGUECD4CV136)
 
 
-"Vale, pero ¿y si lo implementáramos realmente bien?", insiste el ingenioso.investigador 
+"Vale, pero ¿y si lo implementáramos realmente bien?", insiste el ingenioso científico. 
 
 Respuesta:
 
