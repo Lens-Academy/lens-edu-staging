@@ -275,6 +275,8 @@ reading_minutes:: 5
 
 #### Text
 content::
+Si sólo te quedas con una idea de todo el curso, quédate con el concepto de "estrategias Godzilla".
+
 _Adaptación de «[Godzilla Strategies](https://www.lesswrong.com/posts/DwqgLXn5qYC7GqExF/godzilla-strategies)»_
 
 > Pedirle a Godzilla que impida que Mega-Godzilla destruya Japón NO VA A HACER SUBIR EL PRECIO DE LA VIVIENDA EN TOKIO. Más vale no jugar con monstruos que tratar de diseñar un complejo sistema de contrapesos entre monstruos y luego esperar que los monstruos no hagan lo que siempre hacen los monstruos, porque si no lo hicieran los llamaríamos *gatitos* o *perritos* y no *monstruos*.
