@@ -262,3 +262,15 @@ instructions:: Habla en español. El estudiante acaba de leer una lista de cinco
 id:: e5427907-dbaf-4a49-87a4-920e90657577
 content:: Vuelve a lo que escribiste al principio del módulo sobre qué haría peligrosa a una IA. ¿Ha cambiado tu respuesta? ¿Qué añadirías o quitarías?
 feedback-instructions:: Responde en español, en 2 o 3 frases, sin elogios genéricos. Señala un cambio concreto en su forma de pensar si lo hay. Si dice que no ha cambiado nada, pregúntale qué argumento del módulo le ha parecido más débil.
+
+# Submodule: 6. Estrategias Godzilla
+
+# Lens: Estrategias Godzilla
+id:: 4b05fbcb-4301-414e-99a7-52798bab343b
+tldr:: Usar una IA poderosa para vigilar o controlar a otra es como pedirle a Godzilla que luche contra Mega-Godzilla: aunque gane, la ciudad queda destruida.
+summary_for_tutor:: Traducción al español de "Godzilla Strategies" (John Wentworth, 2022, LessWrong), publicada con permiso del autor. Idea central: las estrategias de alineamiento que consisten en usar una IA potente para supervisar, depurar o alinear otra IA potente son frágiles, porque en cuanto algo sale mal, el plan se rompe y quedan uno o dos "monstruos" sueltos.
+reading_minutes:: 5
+
+#### Text
+content::
+(Pega aquí la traducción.)
