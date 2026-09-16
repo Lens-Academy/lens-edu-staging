@@ -21,7 +21,7 @@ reading_minutes:: 2
 content::
 Este curso online es una preparación para el intensivo **presencial** IAquiles sobre Seguridad frente a la Amenaza IA que tendrá lugar en Barcelona a partir del 30 de septiembre de 2026.
 
-El contenido de st se puede resumir en tres ideas:
+El contenido de esta preparación se puede resumir en tres ideas:
 1. La humanidad está en peligro
 2. TÚ puedes hacer algo HOY
 3. El problema es intelectualmente fascinante
