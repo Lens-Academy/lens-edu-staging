@@ -215,7 +215,7 @@ feedback-instructions:: Responde en español, 80 a 150 palabras, sin elogios gen
 
 # Submodule: 5. Distintas niveles de amenaza
 
-# Lens: Una escalera de amenazas
+# Lens: Una lista de amenazas
 id:: 63f1a7d7-2fab-42f2-82fd-19253d37c5d7
 tldr:: El riesgo no es el mismo para los modelos de hoy que para los de dentro de unos años: proponemos cinco escalones, de menos a más peligroso.
 summary_for_tutor:: Marco propio del curso con cinco escalones: (1) LLMs actuales; (2) LLMs más capaces; (3) LLMs con acceso a sensores y actuadores (agentes, robots, herramientas); (4) arquitecturas de los próximos 2 o 3 años; (5) lo que tendría que resolver una solución definitiva (sistemas que se mejoran a sí mismos). Los escalones son una propuesta de los autores del curso, no un consenso del campo. Ayuda al estudiante a razonar sobre qué cambia en cada escalón.
