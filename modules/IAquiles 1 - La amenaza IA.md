@@ -14,7 +14,7 @@ tags:
 # Lens: Intensivo IAquiles
 
 #### Text
-Este curso online es una pr
+Este curso online es una preparación para el intensivo IAquiles sobre 
 
 
 
