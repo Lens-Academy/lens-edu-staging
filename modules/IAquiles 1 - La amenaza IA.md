@@ -303,7 +303,7 @@ Respuesta:
 
 El investigador ingenioso protesta: . "¡No te lo estás tomando mis ideas en serio! Dime por lo menos _cómo_ fallaría mi plan."
 
-Tranquilo, ahora vamos. Pero antes, imagina que eres el alcalde de Tokio y estás evaluando una propuesta para pedirle a Godzilla que luche contra Mega-Godzilla. Tus ingeniosos investigadores te han dado una larga explicación de cómo sus elaboradas e ingeniosas salvaguardas garantizarán que este plan no destruya Tokio. No se te ocurre ningún posible problema que no hayan abordado. ¿Deberías concluir que pedirle a Godzilla que luche contra Mega-Godzilla no acabará con Tokio destruida?
+Tranquilo, ahora vamos. Pero antes, imagina que eres el alcalde de Tokio y estás evaluando una propuesta para pedirle a Godzilla que luche contra Mega-Godzilla. Tus ingeniosos investigadores te han dado una larga explicación de cómo sus elaboradas e ingeniosas cortapisas garantizarán que este plan no destruya Tokio. No se te ocurre ningún posible problema que no hayan abordado. ¿Deberías concluir que pedirle a Godzilla que luche contra Mega-Godzilla no acabará con Tokio destruida?
 
 No. Evidentemente no. ESTO NO HACE SUBIR EL PRECIO DE LA VIVIENDA EN TOKIO. Puede que no sepas explicar _por qué_ la respuesta es obviamente "no", pero pedirle a Godzilla que luche contra Mega-Godzilla va a destruir Tokio, obviamente, y tus intuiciones aciertan en eso aunque no seas capaz de formular argumentos ingeniosos.
 
