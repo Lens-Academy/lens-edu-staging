@@ -247,34 +247,6 @@ Resolver el problema para una arquitectura concreta (como los LLM actuales) no g
 #### Chat
 instructions:: Habla en español. El estudiante acaba de leer la escalera de cinco escalones. Pregúntale en qué escalón cree que estamos hoy y cuál le parece que llegará antes de lo que la gente espera. Explora con él qué cambia al subir cada escalón: capacidad, autonomía, acceso al mundo, dificultad de supervisión. Si defiende que algún escalón nunca llegará, trátalo como una postura legítima y pregúntale qué evidencia le haría cambiar de opinión. Respuestas breves (menos de 120 palabras), una pregunta cada vez, sin elogios genéricos. Recuerda que la escalera es una propuesta del curso, no un consenso del campo.
 
-# Submodule: 4. La solución definitiva y la auto-mejora recursiva
-
-# Lens: La auto-mejora recursiva
-id:: e5ea7379-cac1-4b21-8403-42c42534f86c
-tldr:: Una IA capaz de mejorarse a sí misma podría hacerlo cada vez más rápido; una solución definitiva tiene que garantizar que sus objetivos sobreviven a esa mejora.
-summary_for_tutor:: Tesis del curso: una solución definitiva al problema del alineamiento requeriría resolver el problema de la auto-mejora recursiva (RSI), es decir, garantizar que un sistema que se modifica a sí mismo conserva objetivos correctos. El estudiante lee "Recursive Self-Improvement" (Yudkowsky, 2008), que defiende la posibilidad de un aumento de capacidad rápido y local ("FOOM"). La tesis de que la solución definitiva requiere resolver RSI es una opinión de los autores del curso.
-reading_minutes:: 25
-tutor_minutes:: 5
-
-#### Text
-content::
-\## Por qué la mejora recursiva lo cambia todo
-
-Una IA lo bastante buena investigando en IA podría diseñar una versión mejor de sí misma. Esa versión sería aún mejor investigando, y diseñaría otra mejor todavía. A esto se le llama **auto-mejora recursiva** (en inglés, _recursive self-improvement_ o RSI).
-
-Nuestra opinión es que **una solución definitiva al problema tendría que resolver la auto-mejora recursiva**. No basta con que el primer sistema tenga buenos objetivos: esos objetivos tienen que conservarse en cada versión que el sistema cree de sí mismo, incluidas versiones que ya no podemos entender ni supervisar. Esto enlaza con dos ideas anteriores: los optimizadores (cada nueva versión es otra oportunidad de que los objetivos cambien) y las necesidades del sustrato (la modificación continua favorece lo que se expande).
-
-El texto clásico sobre la velocidad de esta mejora:
-
-_(Lectura en inglés; traducción en preparación.)_
-
-#### Article
-source:: [[../articles/yudkowsky-recursive-self-improvement]]
-
-#### Question: Open
-id:: a3c9d890-9b32-4832-82c8-112cc092fdbb
-content:: Imagina que conseguimos una IA perfectamente alineada que puede mejorarse a sí misma. ¿Qué podría salir mal en las siguientes versiones? Da al menos un mecanismo concreto.
-feedback-instructions:: Responde en español, 80 a 150 palabras, sin elogios genéricos. Mecanismos que el estudiante podría mencionar: la nueva versión es un optimizador cuyo objetivo no coincide exactamente; pequeños errores en los valores se acumulan (fragilidad del valor); presión selectiva hacia la expansión (necesidades del sustrato); la versión nueva es demasiado compleja para verificarla. Si da uno, pregúntale cómo podría detectarse a tiempo. Si no da ninguno, recuérdale una de las lecturas anteriores. Máximo 2 respuestas tuyas.
 
 #### Question: Open
 id:: e5427907-dbaf-4a49-87a4-920e90657577
