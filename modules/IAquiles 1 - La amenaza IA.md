@@ -227,9 +227,9 @@ feedback-instructions:: Responde en español, 80 a 150 palabras, sin elogios gen
 
 # Lens: Una lista de amenazas
 id:: 63f1a7d7-2fab-42f2-82fd-19253d37c5d7
-tldr:: El riesgo no es el mismo para los modelos de hoy que para los de dentro de unos años: proponemos cinco escalones, de menos a más peligroso.
-summary_for_tutor:: Marco propio del curso con cinco escalones: (1) LLMs actuales; (2) LLMs más capaces; (3) LLMs con acceso a sensores y actuadores (agentes, robots, herramientas); (4) arquitecturas de los próximos 2 o 3 años; (5) lo que tendría que resolver una solución definitiva (sistemas que se mejoran a sí mismos). Los escalones son una propuesta de los autores del curso, no un consenso del campo. Ayuda al estudiante a razonar sobre qué cambia en cada escalón.
-reading_minutes:: 8
+tldr:: No hay una sola amenaza, sino al menos cinco, y resolver una no garantiza resolver la siguiente.
+summary_for_tutor:: Marco propio del curso con cinco amenazas, cada una resoluble sin resolver la siguiente: (1) los LLM de hoy; (2) los LLM de mañana (más capaces, planes largos, memoria); (3) modelos con percepción y acción (robots, interacción con otros LLM); (4) arquitecturas futuras distintas de los LLM; (5) la amenaza final: cualquier arquitectura futura, posiblemente diseñada por IA. Resolver el problema para una arquitectura concreta no garantiza nada sobre la amenaza final. La lista es una propuesta de los autores del curso, no un consenso del campo.
+reading_minutes:: 4
 tutor_minutes:: 10
 
 #### Text
@@ -255,7 +255,7 @@ Resolver el problema para una arquitectura concreta (como los LLM actuales) no g
 
 
 #### Chat
-instructions:: Habla en español. El estudiante acaba de leer la escalera de cinco escalones. Pregúntale en qué escalón cree que estamos hoy y cuál le parece que llegará antes de lo que la gente espera. Explora con él qué cambia al subir cada escalón: capacidad, autonomía, acceso al mundo, dificultad de supervisión. Si defiende que algún escalón nunca llegará, trátalo como una postura legítima y pregúntale qué evidencia le haría cambiar de opinión. Respuestas breves (menos de 120 palabras), una pregunta cada vez, sin elogios genéricos. 
+instructions:: Habla en español. El estudiante acaba de leer una lista de cinco amenazas. Pregúntale cuál cree que es la más cercana y cuál le parece que llegará antes de lo que la gente espera. Explora con él qué cambia de una amenaza a la siguiente: capacidad, autonomía, acceso al mundo, dificultad de supervisión. Si defiende que alguna amenaza nunca llegará, trátalo como una postura legítima y pregúntale qué evidencia le haría cambiar de opinión. Respuestas breves (menos de 120 palabras), una pregunta cada vez, sin elogios genéricos. 
 
 
 #### Question: Open
