@@ -243,7 +243,6 @@ Nadie sabe cuántas arquitecturas cada vez mejores existen, esperando ser descub
 
 Resolver el problema para una arquitectura concreta (como los LLM actuales) no garantiza nada con respecto a la amenaza final.
 
-Una solución que funcione para siempre no puede depender de la arquitectura de moda. Tiene que funcionar también para sistemas mucho más inteligentes que nosotros, capaces de mejorarse a sí mismos. Esto lo veremos en la última sección.
 
 #### Chat
 instructions:: Habla en español. El estudiante acaba de leer la escalera de cinco escalones. Pregúntale en qué escalón cree que estamos hoy y cuál le parece que llegará antes de lo que la gente espera. Explora con él qué cambia al subir cada escalón: capacidad, autonomía, acceso al mundo, dificultad de supervisión. Si defiende que algún escalón nunca llegará, trátalo como una postura legítima y pregúntale qué evidencia le haría cambiar de opinión. Respuestas breves (menos de 120 palabras), una pregunta cada vez, sin elogios genéricos. Recuerda que la escalera es una propuesta del curso, no un consenso del campo.
