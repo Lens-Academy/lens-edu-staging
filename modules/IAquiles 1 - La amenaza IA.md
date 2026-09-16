@@ -31,7 +31,7 @@ Link del preparatorio online:
 
 
 
-# Submodule: 2. ¿Por qué es peligrosa la IA? Dos argumentos
+
 
 # Lens: Antes de empezar el curso preparatorio
 id:: a2ebe160-233a-42c0-8226-e0f05ab5b454
