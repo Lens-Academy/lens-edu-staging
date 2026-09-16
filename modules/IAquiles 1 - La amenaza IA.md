@@ -21,9 +21,9 @@ Consta de tres módulos:
 2. TÚ puedes hacer algo HOY
 3. El problema es intelectualmente fascinante
 
-El curso online también está abierto a todas las personas interesadas en comprender más sobre la amenaza a la que se enfrenta la humanidad, y deseos de hacer algo, hoy.
+Este curso online también está abierto a todas las personas interesadas en comprender más sobre la amenaza a la que se enfrenta la humanidad, y deseos de hacer algo, hoy.
 
-El curso 
+E
 
 
 
