@@ -300,7 +300,6 @@ Respuesta:
 
 ![](https://www.greaterwrong.com/proxy-assets/5A0CMQNFV2C2S47AAK2SFNLGO0)
 
-¡GROAAARRRRRRR!
 
 "¡Venga ya!", dice el investigador ingenioso. "¡Ni siquiera te lo estás tomando en serio! Al menos di algo sobre _cómo_ fallaría."
 
