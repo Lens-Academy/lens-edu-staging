@@ -94,6 +94,8 @@ Consideramos que una de las lecciones del incidente de Hugging Face es la facili
 
 Ninguno de estos sistemas fue programado para mentir, chantajear o atacar. Estos comportamientos aparecieron mientras los sistemas perseguían otra cosa: cumplir una tarea, mantener sus valores o evitar ser sustituidos. En el resto del módulo veremos por qué creemos que esto no es casualidad.
 
+---
+
 #### Question: Open
 id:: aee33750-23c4-4fef-8673-3a8040568bdb
 content:: ¿Cuál de estos casos te parece más preocupante y por qué? Ten en cuenta si ocurrió en una simulación o en el mundo real.
