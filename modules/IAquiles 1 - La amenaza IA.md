@@ -241,6 +241,8 @@ Si uno interactúa con Chat GPT o Claude, no tiene generalmente la impresión de
 **5. La amenaza final** 
 Nadie sabe cuántas arquitecturas cada vez mejores existen, esperando ser descubiertas. Existen incentivos económicos enormes para seguir explorándolas. Y, muy pronto, las LLM actuales estarán en condición de producir ellas nuevas arquitecturas. ?Cómo podemos evitar que alguna de esas arquitecturas futuras (la vigésima, o quizá la segunda) acabe con la humanidad? 
 
+Resolver el problema para un 
+
 Una solución que funcione para siempre no puede depender de la arquitectura de moda. Tiene que funcionar también para sistemas mucho más inteligentes que nosotros, capaces de mejorarse a sí mismos. Esto lo veremos en la última sección.
 
 #### Chat
