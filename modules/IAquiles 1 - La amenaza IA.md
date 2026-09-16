@@ -23,7 +23,7 @@ Consta de tres módulos:
 
 Este curso online también está abierto a todas las personas interesadas en comprender más sobre la amenaza a la que se enfrenta la humanidad, y deseos de hacer algo, hoy.
 
-Comparte el link del curso presencial y de este curso online con todas las personas que podrían estar potencialmente interesadas, incluso si todavía no se han involucrado con este tema. Haz un esfuerzo especial por compartirlo con personas proclives a pensar que su género/orientación sexual/discapacidad/trasfondo familiar no va a s
+Comparte el link del curso presencial y de este curso online con todas las personas que podrían estar potencialmente interesadas, incluso si todavía no se han involucrado con este tema. Haz un esfuerzo especial por compartirlo con personas proclives a pensar que su género/orientación sexual/discapacidad/trasfondo familiar no va a ser 
 
 
 
