@@ -66,7 +66,8 @@ reading_minutes:: 1
 
 #### Text
 content::
-Contenido en preparación.
+?Y si no vivo en Barcelona? Crea un capítulo hoy mismo.
+?Cómo? Anuncia en las redes de tu ciudad que vas a organizar un evento para hacer este curso online en paralelo con todas aquellas personas que se apunten. Manda ese mensaje antes de continuar.
 
 # Lens: Mujeres en AIS
 id:: 9cf69fbf-1122-4d34-8209-afc4e303a027
