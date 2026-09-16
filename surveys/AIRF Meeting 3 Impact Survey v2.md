@@ -6,7 +6,6 @@ title: AI Risk Fundamentals Meeting 3 Impact Survey v2
 #### Text
 content:: Thanks for showing up. This short survey helps us improve the module, meeting, AI Tutor, and facilitation. Submitting it also records your attendance for this meeting.
 
-#### 
 
 #### Question: Rating
 id:: 22bd453b-c8ff-4be4-9475-9e94a54b36f6
