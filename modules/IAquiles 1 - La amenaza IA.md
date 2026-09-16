@@ -275,7 +275,9 @@ reading_minutes:: 5
 
 #### Text
 content::
+:::callout {tone="amber"}
 Si sólo te quedas con una idea de todo el curso, quédate con el concepto de "estrategias Godzilla".
+:::
 
 _Adaptación de «[Godzilla Strategies](https://www.lesswrong.com/posts/DwqgLXn5qYC7GqExF/godzilla-strategies)»_
 
