@@ -51,7 +51,7 @@ feedback-instructions:: Responde en español, en 1 o 2 frases. Reconoce lo que h
 
 # Submodule: 2. ¿Por qué es peligrosa la IA? 
 
-Dos argumentos
+#LensDos argumentos
 
 En este módulo veremos dos tipos de argumentos:
 - **Hechos recientes**: todo aquello que los sistemas actuales ya son capaces de hacer, y que efectivamente han hecho.
