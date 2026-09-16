@@ -8,10 +8,11 @@ tags:
 ---
 %%
 Target audience:
-- TBD (to discuss with Fernando)
+- Spanish-speaking STEM students
+- Anyone willing to engage seriously with the material
 
 Value prop:
-- TBD (to discuss with Fernando)
+- Awareness of AI risks is almost nonexistent in the Spanish-speaking world; this course fills that gap
 
 Links:
 - TBD
