@@ -103,10 +103,7 @@ Muchas conversaciones sobre el peligro de la IA desembocan rápido en la duda so
 
 
 
-_(Lectura en inglés; traducción en preparación.)_
 
-#### Article
-source:: [[../articles/yudkowsky-taboo-your-words]]
 
 #### Text
 content::
