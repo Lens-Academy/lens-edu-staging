@@ -230,7 +230,8 @@ Hablar de "la amenaza de la IA", en singular, es algo enganhoso, porque da a ent
 
 **2. Los LLM de mañana.** ?Qué ocurrirá cuando Chat GPT o Claude sean capaces de resolver problemas inaccesibles para los humanos en cuestión de segundos? ?O sean capaces de actuar siguiendo planes que se extiendan a los largo de meses o anhos? ?Y sean capaces de almacenar nuevos conocimientos, de manera que tengan algo parecido a una identidad?
 
-**3. Modelos con percepción y acción.** Modelos conectados a internet, a herramientas, a código que se ejecuta o a robots. Ya no solo escriben texto: actúan en el mundo. El incidente de Hugging Face es un ejemplo de este escalón.
+**3. Modelos con percepción y acción.** ?Qué ocurrirá cuando 
+Modelos conectados a internet, a herramientas, a código que se ejecuta o a robots. Ya no solo escriben texto: actúan en el mundo. El incidente de Hugging Face es un ejemplo de este escalón.
 
 **4. Las arquitecturas de los próximos 2 o 3 años.** Es posible que los sistemas futuros no sean simples modelos de lenguaje, sino combinaciones con memoria a largo plazo, aprendizaje continuo u otras técnicas. Creemos que los argumentos teóricos de la sección anterior (optimizadores, fragilidad del valor) se aplican con más fuerza cuanto más capaces y autónomos sean.
 
