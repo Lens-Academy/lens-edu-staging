@@ -88,7 +88,7 @@ id:: aee33750-23c4-4fef-8673-3a8040568bdb
 content:: ¿Cuál de estos casos te parece más preocupante y por qué? Ten en cuenta si ocurrió en una simulación o en el mundo real.
 feedback-instructions:: Responde en español, 80 a 150 palabras, sin listas y sin elogios genéricos. Si el estudiante descarta los casos por ser simulaciones, pregúntale qué le haría cambiar de opinión y recuérdale que los casos 3 y 4 ocurrieron en el mundo real. Si confunde simulación y realidad, corrígelo en una frase. Si dice que no entiende algo, dale un apoyo concreto usando un detalle del texto. Máximo 2 respuestas tuyas; después invítale a continuar.
 
-# Submodule: 4. Argumento a partir de los hechos recientes
+# Submodule: 4. Argumento teórico
 
 # Lens: Tabú: "consciencia"
 id:: 8aa433b1-ca14-4a8c-aabe-5be8581da2fe
