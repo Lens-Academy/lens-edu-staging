@@ -149,7 +149,7 @@ tutor_minutes:: 5
 
 #### Text
 content::
-Un **optimizador** es un sistema que busca entre muchas opciones la que mejor cumple un objetivo. El entrenamiento de una IA es un optimizador: busca los parámetros que mejor satisfacen un objetivo (el objetivo se especific con la la función de pérdida.
+Un **optimizador** es un sistema que busca entre muchas opciones la que mejor cumple un objetivo. El entrenamiento de una IA es un optimizador: busca los parámetros que mejor satisfacen un objetivo (el objetivo se especific con la llamada "función de pérdida").
 
 La pregunta inquietante es: ¿qué pasa si lo que el entrenamiento encuentra es, a su vez, **otro optimizador**, con un objetivo propio? Ese objetivo solo tiene que funcionar bien durante el entrenamiento, no coincidir con el que queríamos.
 
