@@ -127,6 +127,7 @@ Un programa tradicional hace lo que su programador escribió. Un "modelo de leng
 
 El resultado funciona, pero nadie ha escrito ni programado su comportamiento exacto. Incluso el director ejecutivo de Anthropic, Dario Amodei, escribe que estos modelos no se "construyen", sino que se "cultivan", y que por eso no entendemos de manera automática cómo funcionan, a diferencia de lo que ocurre con un programa tradicional ([Amodei, "The Adolescence of Technology"](https://www.darioamodei.com/essay/the-adolescence-of-technology)).
 
+SEGURAMENTE ELIMINAR:
 ¿Hace falta entender la inteligencia para crearla? Los autores de _If Anyone Builds It, Everyone Dies_ responden brevemente:
 
 _(Lectura en inglés; traducción en preparación.)_
