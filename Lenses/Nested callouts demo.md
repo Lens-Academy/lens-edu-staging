@@ -4,7 +4,6 @@ title: Nested callouts demo
 tldr: Put whole segments inside a callout, nest callouts as deep as you like, and see the same box appear around a question inside an article.
 summary_for_tutor: "Formatting-only demo of callouts as containers. It shows the heading form (#### Callout: Title ... #### End Callout) holding text, a nested collapsed hint, a question, an article excerpt and a widget, and explains that the same box appears around elements inside an article body. No learning assessment."
 duration_minutes: 5
-tags: [wip]
 ---
 
 #### Text
