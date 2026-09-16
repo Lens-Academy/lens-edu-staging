@@ -13,6 +13,9 @@ tags:
 
 # Lens: Intensivo IAquiles
 id:: ad8ac856-a506-44dd-a999-9540cb536eaf
+tldr:: Este curso online prepara el intensivo presencial IAquiles en Barcelona y está abierto a cualquiera que quiera entender la amenaza de la IA y actuar.
+summary_for_tutor:: Página de bienvenida. Presenta el curso online como preparación del intensivo presencial IAquiles (Barcelona, desde el 30 de septiembre de 2026), resume sus tres ideas (la humanidad está en peligro; puedes hacer algo hoy; el problema es intelectualmente fascinante) y anima a compartir el curso, especialmente con personas de grupos infrarrepresentados.
+reading_minutes:: 2
 
 #### Text
 content::
@@ -52,7 +55,10 @@ feedback-instructions:: Responde en español, en 1 o 2 frases. Reconoce lo que h
 # Submodule: 2. ¿Por qué es peligrosa la IA? 
 
 # Lens: Dos argumentos
+id:: 339c474d-ef2c-453b-b519-a40709a3bbd6
 
+#### Text
+content::
 En este módulo veremos dos tipos de argumentos:
 - **Hechos recientes**: todo aquello que los sistemas actuales ya son capaces de hacer, y que efectivamente han hecho.
 - **Argumento teórico**: una serie de razones intuitivas por las que tememos que el problema sólo puede ir a peor si las cosas siguen en la dirección por la que van.
