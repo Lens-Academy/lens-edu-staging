@@ -11,7 +11,8 @@ tags:
 
 # Submodule: 1. Preliminares
 
-Lens
+Lens: Intensivo IAquiles
+
 
 # Submodule: 2. ¿Por qué es peligrosa la IA? Dos argumentos
 
