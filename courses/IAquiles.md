@@ -2,7 +2,7 @@
 id: '28899572-a266-4e2a-bc3e-ef0a1e28b4a4'
 slug: iaquiles
 title: "IAquiles"
-description: "Intensivo corto en Barcelona basado en los currículos de ILIAD y AFFINE."
+description: "Intensivo en Barcelona basado en los currículos de ILIAD y AFFINE."
 tags:
   - wip
 ---
