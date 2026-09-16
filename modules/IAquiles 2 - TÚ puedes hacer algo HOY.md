@@ -59,6 +59,14 @@ reading_minutes:: 1
 content::
 Contenido en preparación.
 
+# Lens: Mujeres en AIS
+id:: 9cf69fbf-1122-4d34-8209-afc4e303a027
+reading_minutes:: 1
+
+#### Text
+content::
+Contenido en preparación.
+
 # Lens: La amenaza IA
 id:: cf4538e8-9eae-4ec2-8916-f9f0bc706bcb
 reading_minutes:: 1
