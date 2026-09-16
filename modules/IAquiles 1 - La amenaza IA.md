@@ -22,7 +22,7 @@ tutor_minutes:: 2
 content::
 Este módulo defiende una tesis incómoda: **la inteligencia artificial puede ser peligrosa para la humanidad**, no dentro de siglos o décadas, sino con sistemas muy parecidos a los que ya existen hoy en día.
 
-Veremos dos tipos de argumentos:
+En este módulo veremos dos tipos de argumentos:
 - **Hechos recientes**: cosas que los sistemas actuales ya han hecho.
 - **Teoría**: razones por las que esperamos que el problema empeore a medida que los sistemas sean más capaces.
 
