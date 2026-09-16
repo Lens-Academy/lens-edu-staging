@@ -226,9 +226,11 @@ tutor_minutes:: 10
 content::
 Hablar de "la amenaza de la IA", en singular, es algo enganhoso, porque da a entender que sólo hay uno, y que una vez solucionado ya no tenemos nada que temer. Proponemos aquí una lista de cinco amenazas tales que podríamos imaginar solucionar cada una de ellas sin solucionar la siguiente. Problema: hasta que no resolvamos la última, no hemos terminado.
 
-**1. Los LLM de hoy.** Si uno interactúa con Chat GPT o Claude, no tiene generalmente la impresión de estar frente a algo capaz de destruir a la humanidad. Y, de hecho, millones de personas usan LLMs diariamente. Las cosas podrían haber evolucionado de otra manera, pero esta amenaza parece haber sido evitada. Pero ?nos garantiza eso que las siguientes lo estarán?
+**1. Los LLM de hoy.**
+Si uno interactúa con Chat GPT o Claude, no tiene generalmente la impresión de estar frente a algo capaz de destruir a la humanidad. Y, de hecho, millones de personas usan LLMs diariamente. Las cosas podrían haber evolucionado de otra manera, pero esta amenaza parece haber sido evitada. Pero ?nos garantiza eso que las siguientes lo estarán?
 
-**2. Los LLM de mañana.** ?Qué ocurrirá cuando Chat GPT o Claude sean capaces de resolver problemas inaccesibles para los humanos en cuestión de segundos? ?O sean capaces de actuar siguiendo planes que se extiendan a los largo de meses o anhos? ?Y sean capaces de almacenar nuevos conocimientos, de manera que tengan algo parecido a una identidad?
+**2. Los LLM de mañana.**
+?Qué ocurrirá cuando Chat GPT o Claude sean capaces de resolver problemas inaccesibles para los humanos en cuestión de segundos? ?O sean capaces de actuar siguiendo planes que se extiendan a los largo de meses o anhos? ?Y sean capaces de almacenar nuevos conocimientos, de manera que tengan algo parecido a una identidad?
 
 **3. Modelos con percepción y acción**
 ?Qué ocurrirá cuando haya un LLM conectado a un robot capaz de viajar por el mundo, interactuar con otros humanos y, sobre todo, interactuar con otros LLM?
