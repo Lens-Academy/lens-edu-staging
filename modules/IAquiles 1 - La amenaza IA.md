@@ -281,7 +281,7 @@ _Adaptación de «[Godzilla Strategies](https://www.lesswrong.com/posts/DwqgLXn5
 
 Hay muchas estrategias para alinear una IA que podrían describirse como "pidámosle a Godzilla que impida que Mega-Godzilla destruya Japón". Usar una IA para supervisar a otra IA. Hacer que dos IA debatan entre sí. Usar una IA quizá un poco alineada para ayudar a diseñar otra. Etcétera.
 
-Es cierto que hay muchos debates sobre las distintas maneras en que la idea de pedirle a Godzilla que impida que Mega-Godzilla destruya Japón podría fallar. Quizá uno de los dos acabe siendo mucho más poderoso que el otro. Quizá los dos se pongan de acuerdo. Quizá alcancen un equilibrio de Nash entre Godzilla y Mega-Godzilla, para empezar, simplemente no sea muy bueno para los humanos. Etcétera. Estos modos de fallo son útiles para orientar la investigación técnica.
+Es cierto que hay muchos debates sobre las distintas maneras en que la idea de pedirle a Godzilla que impida que Mega-Godzilla destruya Japón podría fallar. Quizá uno de los dos acabe siendo mucho más poderoso que el otro. Quizá los dos se pongan de acuerdo. Quizá alcancen un equilibrio de Nash que no sería beneficioso para los humanos. Etcétera. Estos modos de fallo son útiles para orientar la investigación técnica.
 
 …pero me preocupa que hablar de los modos de fallo conocidos lleve a la gente a engañarse sobre la viabilidad estratégica de las estrategias Godzilla. Hace que la gente piense (de forma consciente e intencionada o no): "bueno, si pudiéramos resolver estos modos de fallo concretos, quizá pedirle a Godzilla que impida que Mega-Godzilla aterrorice Japón funcionaría".
 
