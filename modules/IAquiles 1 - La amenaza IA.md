@@ -44,9 +44,7 @@ tutor_minutes:: 2
 content::
 Este módulo defiende una tesis incómoda: **la inteligencia artificial puede ser peligrosa para la humanidad**, no dentro de siglos o décadas, sino con sistemas muy parecidos a los que ya existen hoy en día.
 
-En este módulo veremos dos tipos de argumentos:
-- **Hechos recientes**: cosas que los sistemas actuales ya han hecho.
-- **Teoría**: razones por las que esperamos que el problema empeore a medida que los sistemas sean más capaces.
+
 
 Antes de empezar, queremos saber de dónde partes tú.
 
@@ -55,6 +53,10 @@ id:: e969a0e7-8cd4-47b6-9cf0-2689c67da865
 content:: En dos o tres frases: ¿qué tendría que ocurrir para que una IA fuera un peligro serio para la humanidad? ¿Qué características tendría que tener?
 placeholder:: No hay respuestas incorrectas. Escribe tu intuición.
 feedback-instructions:: Responde en español, en 1 o 2 frases. Reconoce lo que ha escrito el estudiante sin elogios genéricos. No adelantes los argumentos del módulo ni corrijas su intuición. Termina invitándole a seguir con la siguiente página.
+
+En este módulo veremos dos tipos de argumentos:
+- **Hechos recientes**: cosas que los sistemas actuales ya han hecho.
+- **Teoría**: razones por las que esperamos que el problema empeore a medida que los sistemas sean más capaces.
 
 # Lens: Lo que ya ha pasado
 id:: 5e18eec7-e334-4016-89dc-6d0cbef84b15
