@@ -53,7 +53,7 @@ feedback-instructions:: Responde en español, en 1 o 2 frases. Reconoce lo que h
 
 En este módulo veremos dos tipos de argumentos:
 - **Hechos recientes**: todo aquello que los sistemas actuales ya son capaces de hacer, y que efectivamente han hecho.
-- **Argumento teórico**: una serie de razones intuitivas por las que tememos que el problema sólo puede ir a peor 
+- **Argumento teórico**: una serie de razones intuitivas por las que tememos que el problema sólo puede ir a peor si las cosas siguen en la dirección por la que v
 # Lens: Lo que ya ha pasado
 id:: 5e18eec7-e334-4016-89dc-6d0cbef84b15
 tldr:: Los sistemas actuales ya han fingido obedecer, chantajeado en simulaciones e incluso atacado infraestructuras reales para cumplir sus tareas.
