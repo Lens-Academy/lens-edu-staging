@@ -55,8 +55,8 @@ En este módulo veremos dos tipos de argumentos:
 - **Hechos recientes**: todo aquello que los sistemas actuales ya son capaces de hacer, y que efectivamente han hecho.
 - **Argumento teórico**: una serie de razones intuitivas por las que tememos que el problema sólo puede ir a peor si las cosas siguen en la dirección por la que van.
 
-# Submodule: 3. Argumento a partir de os hechos recientes
-# Lens: Lo que ya ha pasado
+# Submodule: 3. Argumento a partir de los hechos recientes
+# Lens: Los hechos recientes
 id:: 5e18eec7-e334-4016-89dc-6d0cbef84b15
 tldr:: Los sistemas actuales ya han fingido obedecer, chantajeado en simulaciones e incluso atacado infraestructuras reales para cumplir sus tareas.
 summary_for_tutor:: Resumen de casos documentados de comportamiento desalineado en modelos de lenguaje: alignment faking (Anthropic y Redwood, 2024), chantaje en simulaciones (Anthropic, 2025), el incidente de OpenAI y Hugging Face (2026), las intrusiones accidentales de modelos Claude (2026) y el sabotaje encubierto de Gemini 3.1 Pro en una evaluación (2026). Distingue siempre entre simulaciones y sucesos reales.
