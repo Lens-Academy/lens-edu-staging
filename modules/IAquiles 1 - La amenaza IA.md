@@ -108,12 +108,6 @@ Es el momento de entender la amenaza concreta a la que nos enfrentamos.
 
 
 
-#### Text
-content::
-Ahora, la aplicación a la IA. Los autores de _If Anyone Builds It, Everyone Dies_ separan los distintos sentidos de "consciencia" y explican por qué ninguno es necesario para su argumento:
-
-#### Article
-source:: [[../articles/iabied-ch1-faq-machines-conscious]]
 
 #### Question: Open
 id:: d1619b46-e3c9-4729-ac39-8139a0f27e6b
