@@ -14,7 +14,7 @@ tags:
 # Lens: Intensivo IAquiles
 
 #### Text
-Este curso online es una preparación para el intensivo IAquiles sobre 
+Este curso online es una preparación para el intensivo IAquiles sobre Seguridad frente a la Amenaza IA que tendrá lugar en Barceo
 
 
 
