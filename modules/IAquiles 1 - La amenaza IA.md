@@ -226,7 +226,7 @@ tutor_minutes:: 10
 content::
 Hablar de "la amenaza de la IA", en singular, es algo enganhoso, porque da a entender que sólo hay uno, y que una vez solucionado ya no tenemos nada que temer. Proponemos aquí una lista de cinco amenazas tales que podríamos imaginar solucionar cada una de ellas sin solucionar la siguiente. Problema: hasta que no resolvamos la última, no hemos terminado.
 
-**1. Los LLM de hoy.** Si uno interactúa con Chat GPT o Claude, no 
+**1. Los LLM de hoy.** Si uno interactúa con Chat GPT o Claude, no tiene generalmente la impresión de est
 En nuestra opinión, parecen incapaces de causar demasiado daño por sí solos. Pero, como vimos en "Lo que ya ha pasado", ya muestran comportamientos preocupantes cuando se les da una tarea y herramientas.
 
 **2. Los modelos de lenguaje de mañana.** Más capaces, con más conocimientos y mejor planificación. Los mismos comportamientos, con más capacidad para llevarlos a cabo.
