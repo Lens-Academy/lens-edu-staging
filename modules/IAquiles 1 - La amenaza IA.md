@@ -232,7 +232,7 @@ Hablar de "la amenaza de la IA", en singular, es algo enganhoso, porque da a ent
 
 **3. Modelos con percepción y acción.** ?Qué ocurrirá cuando haya un LLM conectado a un robot capaz de viajar por el mundo, interactuar con otros humanos y, sobre todo, interactuar con otros LLM?
 
-**4. Arquitecturas futuras** ?Qué ocurrirá cuando dentro de 2 o 3 anhos se descubra (probablemente gracias a una LLM) una arquitectura muy distinta a las LLMs capaz de resolver problemas más eficientemente que ellos? ?Nos servirá de protección el hecho de que 
+**4. Arquitecturas futuras** ?Qué ocurrirá cuando dentro de 2 o 3 anhos se descubra (probablemente gracias a una LLM) una arquitectura muy distinta a las LLMs capaz de resolver problemas más eficientemente que ellos? ?Nos servirá de protección el hecho de que las LLM no hayan resultado peligrosas?
 
 **5. Lo que tendría que resolver una solución definitiva.** Una solución que funcione para siempre no puede depender de la arquitectura de moda. Tiene que funcionar también para sistemas mucho más inteligentes que nosotros, capaces de mejorarse a sí mismos. Esto lo veremos en la última sección.
 
