@@ -117,7 +117,6 @@ Muchas conversaciones sobre el peligro de la IA desembocan rápido en la duda so
 Es el momento de entender la amenaza concreta a la que nos enfrentamos.
 
 
-***
 
 
 #### Question: Open
