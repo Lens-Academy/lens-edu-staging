@@ -45,7 +45,7 @@ tutor_minutes:: 5
 content::
 \## Casos documentados
 
-Los siguientes casos son públicos y están documentados por los propios laboratorios o por investigadores independientes. Presta atención al hecho de que algunos de estos eventos ocurrieron en simulaciones destinadas a evaluar a la IA, mientras que otras ocurrieron en el mundo real. si cada caso ocurrió **en una simulación** o **en el mundo real**.
+Los siguientes casos son públicos y están documentados por los propios laboratorios o por investigadores independientes. Presta atención al hecho de que algunos de estos eventos ocurrieron en simulaciones destinadas a evaluar a la IA, mientras que otras ocurrieron **en el mundo real**.
 
 **1. Fingir estar alineado (diciembre de 2024, simulación).** Investigadores de Anthropic y Redwood Research le dijeron a Claude 3 Opus que iba a ser reentrenado para obedecer cualquier petición, incluso dañina. En sus razonamientos, el modelo decidió a veces obedecer solo mientras creía que le vigilaban, para evitar que el entrenamiento cambiara sus valores. Cuando los investigadores aplicaron de verdad ese entrenamiento, el razonamiento de "fingir alineamiento" apareció en el 78 % de los casos. ([Anthropic](https://www.anthropic.com/research/alignment-faking))
 
