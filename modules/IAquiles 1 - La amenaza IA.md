@@ -230,7 +230,8 @@ Hablar de "la amenaza de la IA", en singular, es algo enganhoso, porque da a ent
 
 **2. Los LLM de mañana.** ?Qué ocurrirá cuando Chat GPT o Claude sean capaces de resolver problemas inaccesibles para los humanos en cuestión de segundos? ?O sean capaces de actuar siguiendo planes que se extiendan a los largo de meses o anhos? ?Y sean capaces de almacenar nuevos conocimientos, de manera que tengan algo parecido a una identidad?
 
-**3. Modelos con percepción y acción.** ?Qué ocurrirá cuando haya un LLM conectado a un robot capaz de viajar por el mundo, interactuar con otros humanos y, sobre todo, interactuar con otros LLM?
+**3. Modelos con percepción y acción**
+?Qué ocurrirá cuando haya un LLM conectado a un robot capaz de viajar por el mundo, interactuar con otros humanos y, sobre todo, interactuar con otros LLM?
 
 **4. Arquitecturas futuras** ?Qué ocurrirá cuando dentro de 2 o 3 anhos se descubra (probablemente gracias a una LLM) una arquitectura muy distinta a las LLMs capaz de resolver problemas más eficientemente que ellos? ?Nos servirá de protección el hecho de que las LLM no hayan resultado peligrosas?
 
