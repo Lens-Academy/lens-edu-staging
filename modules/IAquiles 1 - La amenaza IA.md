@@ -278,8 +278,6 @@ content::
 _Adaptación de «[Godzilla Strategies](https://www.lesswrong.com/posts/DwqgLXn5qYC7GqExF/godzilla-strategies)»_
 
 > Pedirle a Godzilla que impida que Mega-Godzilla destruya Japón NO VA A HACER SUBIR EL PRECIO DE LA VIVIENDA EN TOKIO. Es mejor no jugar con monstruos, en vez de intentar diseñar un complejo sistema de contrapesos entre monstruos y luego esperar que los monstruos no hagan lo que los monstruos siempre hacen, porque si no lo hicieran, se llamarían *florecitas* o *abrazos de cachorrito* y no *monstruos*.
->
-> James Mickens, [The Slow Winter](https://scholar.harvard.edu/files/mickens/files/theslowwinter.pdf)
 
 Hay muchas estrategias de alineamiento de IA que podrían describirse razonablemente como "pedirle a Godzilla que impida que Mega-Godzilla aterrorice Japón". Usar una IA para supervisar a otra IA. Hacer que dos IA debatan entre sí. Usar una IA quizá algo alineada para ayudar a diseñar otra. Etcétera.
 
