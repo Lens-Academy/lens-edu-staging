@@ -224,7 +224,7 @@ tutor_minutes:: 10
 
 #### Text
 content::
-Hablar de "la amenaza de la IA", en singular, es algo enganhoso. esconde que hay varias. Proponemos una escalera de cinco escalones. Es nuestra forma de ordenar el problema, no una clasificación estándar.
+Hablar de "la amenaza de la IA", en singular, es algo enganhoso, porque da a entender que sólo hay uno. esconde que hay varias. Proponemos una escalera de cinco escalones. Es nuestra forma de ordenar el problema, no una clasificación estándar.
 
 **1. Los modelos de lenguaje de hoy.** En nuestra opinión, parecen incapaces de causar demasiado daño por sí solos. Pero, como vimos en "Lo que ya ha pasado", ya muestran comportamientos preocupantes cuando se les da una tarea y herramientas.
 
