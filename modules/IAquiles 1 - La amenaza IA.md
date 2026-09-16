@@ -90,7 +90,7 @@ feedback-instructions:: Responde en español, 80 a 150 palabras, sin listas y si
 
 # Submodule: 4. Argumento teórico
 
-# Lens: Tabú: "consciencia"
+# Lens: Ahora no es el momento de hacer filosofía de la mente
 id:: 8aa433b1-ca14-4a8c-aabe-5be8581da2fe
 tldr:: Para que una IA sea peligrosa no hace falta que sea "consciente". La palabra confunde más que aclara, así que la vamos a prohibir.
 summary_for_tutor:: El estudiante lee "Taboo Your Words" (Yudkowsky) y una FAQ de Yudkowsky y Soares sobre si las máquinas serán conscientes. Idea central: el peligro depende de la capacidad de predecir y dirigir el mundo, no de la experiencia subjetiva. Técnica: sustituir la palabra por lo que se observa o por el mecanismo.
