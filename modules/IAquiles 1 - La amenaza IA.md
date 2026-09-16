@@ -283,7 +283,7 @@ Hay muchas estrategias para alinear una IA que podrían describirse como "pidám
 
 Es cierto que hay muchos debates sobre las distintas maneras en que la idea de pedirle a Godzilla que impida que Mega-Godzilla destruya Japón podría fallar. Quizá uno de los dos acabe siendo mucho más poderoso que el otro. Quizá los dos se pongan de acuerdo. Quizá alcancen un equilibrio de Nash que no sería beneficioso para los humanos. Etcétera. Reflexionar sobre los posibles fallos de estos planes es muy útil para orientar la investigación sobre nuevos planes mejores.
 
-…pero me preocupa que hablar de los modos de fallo conocidos lleve a la gente a engañarse sobre la viabilidad estratégica de las estrategias Godzilla. Hace que la gente piense (de forma consciente e intencionada o no): "bueno, si pudiéramos resolver estos modos de fallo concretos, quizá pedirle a Godzilla que impida que Mega-Godzilla aterrorice Japón funcionaría".
+…pero me preocupa que hablar de los posibles fallos conocidos lleve a la gente a engañarse sobre la viabilidad estratégica de las estrategias Godzilla. Hace que la gente piense (de forma consciente e intencionada o no): "bueno, si pudiéramos resolver estos modos de fallo concretos, quizá pedirle a Godzilla que impida que Mega-Godzilla aterrorice Japón funcionaría".
 
 Lo que me gusta de la analogía de Godzilla es que ofrece una intuición estratégica que se ajusta mucho mejor al mundo real. Cuando alguien afirma que su plan elaborado e ingenioso nos permitirá invocar a Godzilla sin peligro para que luche contra Mega-Godzilla, la respuesta intuitiva y obviamente correcta es: "ESTO NO HACE SUBIR EL PRECIO DE LA VIVIENDA EN TOKIO".
 
