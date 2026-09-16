@@ -287,7 +287,7 @@ Es cierto que hay muchos debates sobre las distintas maneras en que la idea de p
 
 Lo que me gusta de la analogía de Godzilla es que ofrece una intuición muy ajustada al mundo real. Cuando alguien afirma que su plan elaborado e ingenioso nos permitirá invocar a Godzilla sin peligro para que luche contra Mega-Godzilla, la respuesta intuitiva y obviamente correcta es: "ESTO NO VA A HACER SUBIR EL PRECIO DE LA VIVIENDA EN TOKIO".
 
-"Pero, ¡mira!", dice el investigador ingenioso. "¡Mi plan ingenioso resuelve los problemas X, Y y Z!"
+"Pero, ¡mira!", dice el ingenioso científico. "¡Mi plan ingenioso resuelve los problemas X, Y y Z!"
 
 Respuesta:
 
