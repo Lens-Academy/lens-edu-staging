@@ -15,7 +15,8 @@ reading_minutes:: 1
 
 #### Text
 content::
-En el resto de este preparatorio, y en el intensivo, aprenderás un poco acerca de algunas estrategias que intentan solucionar el p
+En el resto de este preparatorio, y en el intensivo, aprenderás un poco acerca de algunas estrategias que intentan solucionar el problema de la amenaza IA.
+Probablemente
 El resto del intensivo consistirá en una presentación del problema (la amenaza de la IA) y de las distintas estrategias que intentan resolverlo. Probablemente ninguna de esas estrategias sea la correcta, por lo que la actitud adecuada para acudir a este intensivo es la disposición a entender las deficiencias de las estrategias existentes y a CREAR nuevas estrategias más prometedoras. (Contenido basado en los currículos de ILIAD y AFFINE)
 
 # Submodule: 2. Organizaciones
