@@ -18,7 +18,8 @@ Este curso online es una preparación para el intensivo *presencial* IAquiles so
 
 El curso online también está abierto a todas las personas interesadas en comprender más sobre la amenaza a la que se enfrenta la humanidad, y deseos de hacer algo, hoy.
 
-El curso consta de tres pa
+El curso consta de tres partes:
+
 
 
 
