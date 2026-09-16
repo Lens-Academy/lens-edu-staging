@@ -285,7 +285,7 @@ Es cierto que hay muchos debates sobre las distintas maneras en que la idea de p
 
 …pero me preocupa que hablar de los posibles fallos ya conocidos conduzca a la gente a engañarse sobre la viabilidad de las estrategias Godzilla. Hace que la gente piense (de forma consciente e intencionada o no): "bueno, quizá si resolvemos estos fallos concretos, podríamos pedirle a Godzilla, de manera exitosa, que impida que Mega-Godzilla destruya Japón".
 
-Lo que me gusta de la analogía de Godzilla es que ofrece una intuición estratégica que se ajusta mucho mejor al mundo real. Cuando alguien afirma que su plan elaborado e ingenioso nos permitirá invocar a Godzilla sin peligro para que luche contra Mega-Godzilla, la respuesta intuitiva y obviamente correcta es: "ESTO NO HACE SUBIR EL PRECIO DE LA VIVIENDA EN TOKIO".
+Lo que me gusta de la analogía de Godzilla es que ofrece una intuición muy ajusta mucho mejor al mundo real. Cuando alguien afirma que su plan elaborado e ingenioso nos permitirá invocar a Godzilla sin peligro para que luche contra Mega-Godzilla, la respuesta intuitiva y obviamente correcta es: "ESTO NO HACE SUBIR EL PRECIO DE LA VIVIENDA EN TOKIO".
 
 "¡Pero mira!", dice el investigador ingenioso. "¡Mi plan ingenioso resuelve los problemas X, Y y Z!"
 
