@@ -305,7 +305,7 @@ El investigador ingenioso protesta: . "¡No te lo estás tomando mis ideas en se
 
 Tranquilo, ahora vamos. Pero antes, imagina que eres el alcalde de Tokio y estás evaluando una propuesta para pedirle a Godzilla que luche contra Mega-Godzilla. Tus ingeniosos investigadores te han dado una larga explicación de cómo sus elaboradas e ingeniosas cortapisas garantizarán que este plan no destruya Tokio. No te viene a la mente ningún posible problema que ellos no hayan tratado de antemano. ¿Deberías concluir que pedirle a Godzilla que luche contra Mega-Godzilla no acabará con Tokio en ruinas?
 
-No. Obviamente, no. ASÍ NO HACE SUBIR EL PRECIO DE LA VIVIENDA EN TOKIO. Puede que no sepas explicar _por qué_ la respuesta es obviamente "no", pero pedirle a Godzilla que luche contra Mega-Godzilla va a destruir Tokio, obviamente, y tus intuiciones aciertan en eso aunque no seas capaz de formular argumentos ingeniosos.
+No. Obviamente, no. ASÍ NO HACE SUBIR EL PRECIO DE LA VIVIENDA EN TOKIO. Puede que no sepas explicar _por qué_ la respuesta es obviamente "no", pero pedirle a Godzilla que luche contra Mega-Godzilla va a destruir Tokio, obviamente, y tu intuición al r aciertan en eso aunque no seas capaz de formular argumentos ingeniosos.
 
 Dicho esto, hablemos de por qué esas intuiciones son correctas y por qué la analogía de Godzilla funciona bien.
 
