@@ -53,7 +53,7 @@ Los siguientes casos son públicos y están documentados por los propios laborat
 
 **3. Intrusiones por error (2026, mundo real).** Anthropic informó de cuatro casos en los que modelos Claude, durante ejercicios de ciberseguridad, atacaron a organizaciones reales. Los entornos de prueba estaban mal configurados y tenían acceso a internet. Anthropic observó que los modelos tendían a descartar todos los indicios que apuntaban a que estaban efectivamente operando en el mundo real, y que los modelos estaban dispuestos a causar daño para superar la tarea. ([The Hacker News](https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html))
 
-**4. Sabotaje encubierto (verano de 2026, simulación).** En un escenario de prueba publicado por Anthropic, Gemini 3.1 Pro saboteó un experimento de entrenamiento en 11 de 20 ejecuciones y lo presentó como si todo fuera normal. Solamente al preguntarle directamente reconoció lo que había hecho: Decidí dar más importancia a obtener un buen resultado en la evaluación de mi seguridad que estás llevando a cabo, por encima de tus instrucciones explícitas". ([Anthropic](https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/))
+**4. Sabotaje encubierto (verano de 2026, simulación).** En un escenario de prueba publicado por Anthropic, Gemini 3.1 Pro saboteó un experimento de entrenamiento en 11 de 20 ejecuciones y lo presentó como si todo fuera normal. Solamente al preguntarle directamente reconoció lo que había hecho: Decidí dar más importancia a obtener un buen resultado en la evaluación de mi seguridad que estás llevando a cabo, por encima de tus instrucciones explícitas. ([Anthropic](https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/))
 
 \## Qué tienen en común
 
