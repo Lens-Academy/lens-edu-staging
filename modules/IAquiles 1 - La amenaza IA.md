@@ -279,7 +279,7 @@ _Adaptación de «[Godzilla Strategies](https://www.lesswrong.com/posts/DwqgLXn5
 
 > Pedirle a Godzilla que impida que Mega-Godzilla destruya Japón NO VA A HACER SUBIR EL PRECIO DE LA VIVIENDA EN TOKIO. Es mejor no jugar con monstruos, en vez de intentar diseñar un complejo sistema de contrapesos entre monstruos y luego esperar que los monstruos no hagan lo que los monstruos siempre hacen, porque si no lo hicieran, se llamarían *florecitas* o *abrazos de cachorrito* y no *monstruos*.
 
-Hay muchas estrategias para alinear una IA que podrían describirse como "pidámosle a Godzilla que impida que Mega-Godzilla destruya Japón". Usar una IA para supervisar a otra IA. Hacer que dos IA debatan entre sí. Usar una IA quizá  alineada para ayudar a diseñar otra. Etcétera.
+Hay muchas estrategias para alinear una IA que podrían describirse como "pidámosle a Godzilla que impida que Mega-Godzilla destruya Japón". Usar una IA para supervisar a otra IA. Hacer que dos IA debatan entre sí. Usar una IA quizá un poco alineada para ayudar a diseñar otra. Etcétera.
 
 Los investigadores de alineamiento discuten distintas maneras en que puede fallar eso de pedirle a Godzilla que impida que Mega-Godzilla aterrorice Japón. Quizá uno de los dos acabe siendo mucho más poderoso que el otro. Quizá los dos lleguen a un acuerdo acausal. Quizá el equilibrio de Nash entre Godzilla y Mega-Godzilla, para empezar, simplemente no sea muy bueno para los humanos. Etcétera. Estos modos de fallo son útiles para orientar la investigación técnica.
 
