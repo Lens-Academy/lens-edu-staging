@@ -301,7 +301,7 @@ Respuesta:
 ![](https://www.greaterwrong.com/proxy-assets/5A0CMQNFV2C2S47AAK2SFNLGO0)
 
 
-El investigador ingenioso protesta: . "¡No te lo estás tomando mis ideas en serio! Dime por lo menos _cómo_ fallaría mi plan."
+El investigador ingenioso protesta: . "¡No te estás tomando mis ideas en serio! Dime por lo menos _cómo_ fallaría mi plan."
 
 Tranquilo, ahora vamos. Pero antes, imagina que eres el alcalde de Tokio y estás evaluando una propuesta para pedirle a Godzilla que luche contra Mega-Godzilla. Tus ingeniosos investigadores te han dado una larga explicación de cómo sus elaboradas e ingeniosas cortapisas garantizarán que este plan no destruya Tokio. No te viene a la mente ningún posible problema que ellos no hayan tratado de antemano. ¿Deberías concluir que pedirle a Godzilla que luche contra Mega-Godzilla no acabará con Tokio en ruinas?
 
