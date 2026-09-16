@@ -313,9 +313,9 @@ Aclarado esto, abordemos ahora la pregunta de por qué esta intuición está en 
 
 El problema básico de los planes Godzilla es que son _frágiles_. En cuanto algo sale mal, el plan salta en pedazos, y entonces tienes entre uno y dos monstruos gigantes arrasando el centro de la ciudad.
 
-Y, por supuesto, es una Ley fundamental del universo que nada sale nunca exactamente según lo previsto. Menos aún cuando intentas enfrentar a dos monstruos gigantescos. Es el tipo de situación en la que _seguro_ habrá cosas que no sabemos que no sabemos.
+Y, por supuesto, es una Ley fundamental del universo que nada sale nunca exactamente según lo previsto. Menos aún cuando intentas enfrentar a dos monstruos gigantescos. Es el tipo de situación en la que _seguro_ que habrá cosas que no sabemos que no sabemos.
 
-Cosas que no sabemos que no sabemos + plan frágil = el precio de la vivienda en Tokio, desde luego, no sube.
+Cosas que no sabemos que no sabemos + plan frágil = el precio de la vivienda en Tokio, desde luego, no va a ssube.
 
 ¿Sabemos qué es exactamente lo que saldrá mal? No. ¿Saldrá algo mal? Estoy muy seguro de que sí. Y la fragilidad significa que, sea lo que sea lo que salga mal, saldrá muy mal. Cuando le pides a Godzilla que luche contra Mega-Godzilla, los errores son irrecuperables.
 
