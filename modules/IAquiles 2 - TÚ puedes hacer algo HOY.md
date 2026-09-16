@@ -17,7 +17,7 @@ reading_minutes:: 1
 content::
 En el resto de este preparatorio, y en el intensivo, aprenderás un poco acerca de algunas estrategias que intentan solucionar el problema de la amenaza IA.
 Probablemente todas esas estrategias son erróneas.
-La actitud adecuada para acudir a este intensivo es la disposición a entender las deficiencias de las estrategias existentes y a CREAR nuevas estrategias más prometedoras. (Contenido basado en los currículos de ILIAD y AFFINE)
+La actitud adecuada para acudir a este intensivo es la disposición a entender las deficiencias de las estrategias existentes y a CREAR nuevas estrategias más prometedoras. Aquí 
 
 # Submodule: 2. Organizaciones
 
