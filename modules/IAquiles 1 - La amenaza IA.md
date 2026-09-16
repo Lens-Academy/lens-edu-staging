@@ -41,7 +41,7 @@ tutor_minutes:: 2
 content::
 El primer módulo de este preparatorio defiende una tesis incómoda: **la inteligencia artificial representa un peligro para la humanidad**, y no sólo si hablamos de lo que ocurrirá dentro de siglos o décadas, sino también si hablamos de sistemas muy parecidos a los que ya existen hoy en día.
 
-Antes de empezar, queremos saber de dónde partes tú.
+Pero antes de empezar, queremos saber de dónde partes tú.
 
 #### Question: Open
 id:: e969a0e7-8cd4-47b6-9cf0-2689c67da865
