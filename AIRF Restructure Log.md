@@ -292,8 +292,8 @@ Every module already has a `# Submodule: Welcome`. The work is making its conten
 
 | File | Change | Status |
 |---|---|---|
-| Optional Resources | **A module outside the unit sequence**, holding everything optional and expandable without eating into the course skeleton. Its first submodule is the glossary; later ones can be added without restructuring anything. The name was freed on 2026-09-14 by renaming M7's `Optional Resources` submodule to `Keep Going`, which is what its only lens was already called and what it actually does | `todo` |
-| Glossary | A submodule of the above, one lens per unit, five in all. Generated from the meeting docs' Unit 5 version, which is canonical: five clusters, 59 terms. Not written fresh. **Not truncated either**, unlike the docs: all five are reachable from the start | `todo` |
+| Optional Resources | **A module outside the unit sequence**, slug `iabied-resources`, sitting after every meeting block in the course file, with everything inside imported `optional:: true`. Holds the glossary today and has room for more submodules beside it. The name was freed on 2026-09-14 by renaming M7's `Optional Resources` submodule to `Keep Going`, which is what its only lens was already called and what it actually does | `done` |
+| Glossary | A submodule of the above, one lens per unit, five in all. Generated from the meeting docs' Unit 5 version, which is canonical: five clusters, 59 terms. Not written fresh. **Not truncated either**, unlike the docs: all five are reachable from the start | `done` |
 | Companion pieces | **Postponed to a later restructure, 2026-09-14.** Judging whether a piece complements the book well means having read the book, and the relay key cannot open `Lens Edu Private`. See section 8; this is the third time that gap has shaped a decision. Optional material is low-stakes enough that a poor fit is noise rather than damage, which is exactly why it is not worth guessing at | `parked` |
 | Heading depth in M4 and M6 | Both used `##` for their outcome and lens imports where M1, M2, M3 and M5 use `#`. 23 lines in M4 and 56 in M6, all normalised to `#` | `done` |
 
