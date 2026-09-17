@@ -266,6 +266,23 @@ id:: a13f4208-8850-43c1-9ed9-b04542d6ba1b
 content:: ¿Cuál te parece el paso más débil de este argumento? ¿Qué haría falta para que ese paso fallara?
 feedback-instructions:: Responde en español, 80 a 150 palabras, sin elogios genéricos. Trata el escepticismo como una postura legítima. Ayuda al estudiante a precisar qué paso ataca (límites del control, presión selectiva, incompatibilidad de sustratos) y pregúntale qué evidencia le haría cambiar de opinión. No defiendas ni refutes el argumento tú mismo. Máximo 2 respuestas tuyas.
 
+# Lens: Todas las piezas apuntan a Godzilla
+id:: 7b8f8fe9-04b8-4b97-b155-4218d1462036
+tldr:: Las piezas del argumento teórico no son independientes: todas empujan hacia el mismo resultado, una IA muy potente y desalineada.
+summary_for_tutor:: Resumen visual del argumento teórico: un diagrama en el que las cinco piezas (se cultiva, no se programa; optimizadores; los valores humanos son frágiles; la metáfora del vector; necesidades del sustrato) apuntan a una imagen de Godzilla, que representa una IA muy potente y desalineada. Godzilla se explica en detalle en la sección "Estrategias Godzilla", más adelante. No hay pregunta en esta página.
+reading_minutes:: 2
+
+#### Text
+content::
+Hemos visto varias piezas del argumento teórico. No son argumentos sueltos: todas empujan en la misma dirección.
+
+#### Widget
+source:: [[../widgets/iaquiles-argumento-godzilla]]
+
+#### Text
+content::
+Más adelante verás por qué este monstruo tiene nombre propio, y por qué intentar controlarlo con otro monstruo no es buena idea.
+
 # Submodule: 5. Distintos niveles de amenaza
 
 # Lens: Una lista de amenazas
