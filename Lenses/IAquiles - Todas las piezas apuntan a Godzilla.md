@@ -15,6 +15,3 @@ Hemos visto varias piezas del argumento teórico. No son argumentos sueltos: tod
 #### Widget
 source:: [[../widgets/iaquiles-argumento-godzilla]]
 
-#### Text
-content::
-Más adelante verás por qué este monstruo tiene nombre propio, y por qué intentar controlarlo con otro monstruo no es buena idea.
