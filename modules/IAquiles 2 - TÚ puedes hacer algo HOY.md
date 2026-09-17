@@ -51,9 +51,7 @@ Su propuesta central es una pausa en el entrenamiento de estos sistemas hasta sa
 Links:
 https://luma.com/pauseai-es
 
-https://github.com/pauseai-en-espanol/presentaciones
-
-https://pauseai.es/presentaciones/ultima-invencion-cva-colectiva-2026-05/1
+https://pauseai.es
 
 https://pauseai.info
 
