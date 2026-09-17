@@ -19,7 +19,7 @@ En el resto de este preparatorio, y en el intensivo, aprenderás un poco acerca 
 Probablemente todas esas estrategias son erróneas.
 La actitud adecuada para acudir a este intensivo es la disposición a entender las deficiencias de las estrategias existentes y a CREAR nuevas estrategias más prometedoras. Aquí te explicamos cómo conseguir formación y financiación para llvar a cabo tu camino por la AIS.
 
-Tambi
+También es posible que te interese luchar con
 
 # Submodule: 2. Organizaciones
 
