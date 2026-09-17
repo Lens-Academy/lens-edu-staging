@@ -58,7 +58,7 @@ source:: [[../Lenses/IAquiles - Una lista de amenazas]]
 %% Las páginas de arriba viven ahora en archivos propios, en la carpeta Lenses.
 La página "Estrategias Godzilla" sigue aquí abajo: dime si quieres que también la mueva. %%
 
-%% Las páginas ya movidas a la carpeta Lenses se han eliminado de aquí. %%
+{--{"author":"Fernando's AI","timestamp":1789672201415}@@%% Las páginas ya movidas a la carpeta Lenses se han eliminado de aquí. %%
 
 #### Text
 content::
@@ -89,7 +89,7 @@ feedback-instructions:: Responde en español, 80 a 150 palabras, sin listas y si
 
 # Submodule: 4. Argumento teórico
 
-# Lens: Ahora no es el momento de hacer filosofía de la mente
+--}# Lens: Ahora no es el momento de hacer filosofía de la mente
 id:: 8aa433b1-ca14-4a8c-aabe-5be8581da2fe
 tldr:: Discutir si la IA es "consciente" no lleva a ninguna conclusión y nos distrae de la amenaza concreta.
 summary_for_tutor:: Idea central: la filosofía de la mente nunca ha resuelto qué es la consciencia, así que las conversaciones sobre si la IA es consciente no concluyen nada y desvían la atención del peligro. El peligro depende de la capacidad de la IA para predecir y dirigir el mundo, no de la experiencia subjetiva. Ejercicio: reescribir una afirmación sin la palabra "consciente".
