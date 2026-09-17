@@ -1,6 +1,6 @@
 ---
 id: 'ca02bedb-40cd-42a9-884d-332742e470e4'
-title: Todas las piezas apuntan a Godzilla
+title: Receta para el desastre
 summary_for_tutor: Diagrama del argumento teórico del módulo "La amenaza IA". Cinco piezas (se cultiva, no se programa; optimizadores; los valores humanos son frágiles; la metáfora del vector; necesidades del sustrato) aparecen como botones, y de cada una sale una flecha hacia una imagen de Godzilla, que representa una IA muy potente y desalineada. Al pulsar una pieza, se muestra una frase que explica por qué empuja hacia ese resultado. No hay respuestas ni estado que guardar.
 height: auto
 tags: [wip]
