@@ -58,7 +58,7 @@ source:: [[../Lenses/IAquiles - Una lista de amenazas]]
 %% Las páginas de arriba viven ahora en archivos propios, en la carpeta Lenses.
 La página "Estrategias Godzilla" sigue aquí abajo: dime si quieres que también la mueva. %%
 
-# Lens: ANTIGUO - {--{"author":"Fernando's AI","timestamp":1789666441316}@@Intensivo IAquiles
+{--{"author":"Fernando's AI","timestamp":1789666471192}@@# Lens: ANTIGUO - Intensivo IAquiles
 id:: ad8ac856-a506-44dd-a999-9540cb536eaf
 tldr:: Este curso online prepara el intensivo presencial IAquiles en Barcelona y está abierto a cualquiera que quiera entender la amenaza de la IA y descubrir cómo empezar a luchar contra ella.
 summary_for_tutor:: Página de bienvenida. Presenta el curso online como preparación del intensivo presencial IAquiles (Barcelona, desde el 30 de septiembre de 2026), resume sus tres ideas (la humanidad está en peligro; puedes hacer algo hoy; el problema es intelectualmente fascinante) y anima a compartir el curso, especialmente con personas de grupos infrarrepresentados.
@@ -114,10 +114,10 @@ A continuación veremos dos tipos de argumentos sobre la amenaza que representa 
 - **Argumento teórico**: una serie de razones intuitivas por las que tememos que el problema sólo puede ir a peor si las cosas siguen en la dirección por la que van.
 
 # Submodule: 3. Argumento a partir de los hechos recientes
-# Lens: --}Los hechos recientes
+# Lens: Los hechos recientes
 id:: 00000000-0000-4000-8000-000000000001
 
-#### Text
+--}#### Text
 content::
 \## Casos documentados
 
