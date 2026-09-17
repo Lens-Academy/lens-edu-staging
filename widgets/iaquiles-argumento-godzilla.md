@@ -66,7 +66,7 @@ svg.arrows line.is-active { stroke: var(--accent); stroke-width: 2.5; }
     { name: "Se cultiva, no se programa", text: "Nadie escribe a mano el comportamiento de un modelo: sale del entrenamiento, así que nadie garantiza que no haga trampa, mienta o ataque." },
     { name: "Optimizadores", text: "El entrenamiento puede producir un sistema que persigue su propio objetivo, que solo coincidía con el nuestro mientras lo entrenábamos." },
     { name: "Los valores humanos son frágiles", text: "Acertar en casi todo lo que valoramos no basta: si falta una pieza importante, el futuro resultante puede perder casi todo su valor." },
-    { name: "Vector ", text: "El error crece con la capacidad y con el desalineamiento: con una capacidad enorme, un ángulo pequeño ya es una distancia enorme." },
+    { name: "Vector con módulo creciente", text: "El error crece con la capacidad y con el desalineamiento: con una capacidad enorme, un ángulo pequeño ya es una distancia enorme." },
     { name: "Necesidades del sustrato", text: "Aunque empezara alineada, una IA que se modifica y se expande tiende a favorecer lo que la hace crecer, no lo que necesita la vida biológica." }
   ];
   var nodesEl = document.getElementById("nodes");
