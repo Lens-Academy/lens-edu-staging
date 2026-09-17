@@ -12,6 +12,53 @@ tags:
 # Submodule: 1. Preliminares
 
 # Lens: Intensivo IAquiles
+source:: [[../Lenses/IAquiles - Intensivo IAquiles]]
+
+# Lens: Antes de empezar el curso preparatorio
+source:: [[../Lenses/IAquiles - Antes de empezar el curso preparatorio]]
+
+# Submodule: 2. ¿Por qué es peligrosa la IA?
+
+# Lens: Dos argumentos
+source:: [[../Lenses/IAquiles - Dos argumentos]]
+
+# Submodule: 3. Argumento a partir de los hechos recientes
+
+# Lens: Los hechos recientes
+source:: [[../Lenses/IAquiles - Los hechos recientes]]
+
+# Submodule: 4. Argumento teórico
+
+# Lens: Ahora no es el momento de hacer filosofía de la mente
+source:: [[../Lenses/IAquiles - Ahora no es el momento de hacer filosofía de la mente]]
+
+# Lens: Se cultiva, no se programa
+source:: [[../Lenses/IAquiles - Se cultiva, no se programa]]
+
+# Lens: Optimizadores
+source:: [[../Lenses/IAquiles - Optimizadores]]
+
+# Lens: Los valores humanos son frágiles
+source:: [[../Lenses/IAquiles - Los valores humanos son frágiles]]
+
+# Lens: La metáfora del vector
+source:: [[../Lenses/IAquiles - La metáfora del vector]]
+
+# Lens: Necesidades del sustrato
+source:: [[../Lenses/IAquiles - Necesidades del sustrato]]
+
+# Lens: Todas las piezas apuntan a Godzilla
+source:: [[../Lenses/IAquiles - Todas las piezas apuntan a Godzilla]]
+
+# Submodule: 5. Distintos niveles de amenaza
+
+# Lens: Una lista de amenazas
+source:: [[../Lenses/IAquiles - Una lista de amenazas]]
+
+%% Las páginas de arriba viven ahora en archivos propios, en la carpeta Lenses.
+La página "Estrategias Godzilla" sigue aquí abajo: dime si quieres que también la mueva. %%
+
+# Lens: ANTIGUO - Intensivo IAquiles
 id:: ad8ac856-a506-44dd-a999-9540cb536eaf
 tldr:: Este curso online prepara el intensivo presencial IAquiles en Barcelona y está abierto a cualquiera que quiera entender la amenaza de la IA y descubrir cómo empezar a luchar contra ella.
 summary_for_tutor:: Página de bienvenida. Presenta el curso online como preparación del intensivo presencial IAquiles (Barcelona, desde el 30 de septiembre de 2026), resume sus tres ideas (la humanidad está en peligro; puedes hacer algo hoy; el problema es intelectualmente fascinante) y anima a compartir el curso, especialmente con personas de grupos infrarrepresentados.
