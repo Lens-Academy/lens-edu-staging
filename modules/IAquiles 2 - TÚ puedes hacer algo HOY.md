@@ -460,7 +460,7 @@ tutor_minutes:: 10
 content::
 Has llegado al final del curso preparatorio. Antes de terminar, te pedimos que pongas en orden lo que has aprendido.
 
-Escribe un resumen con tus propias palabras. Si tu resumen muestra que has entendido las ideas principales, el tutor te dará la **contraseña del intensivo presencial**. Si le falta algo, te dirá qué y podrás completarlo.
+Escribe un resumen con tus propias palabras. Si tu resumen muestra que has entendido las ideas principales, el tutor te dará la **contraseña del intensivo presencial**. Si le falta algo, te dirá lo falta y podrás completarlo. 
 
 #### Question: Open
 id:: 1c2cf769-69f3-4937-b482-9cfcc3b22f67
