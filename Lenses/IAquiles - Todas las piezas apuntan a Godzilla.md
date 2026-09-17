@@ -10,7 +10,7 @@ tags:
 
 #### Text
 content::
-Hemos visto varias piezas del argumento teórico. No son argumentos sueltos: todas empujan en la misma dirección.
+Aquí tienes un 
 
 #### Widget
 source:: [[../widgets/iaquiles-argumento-godzilla]]
