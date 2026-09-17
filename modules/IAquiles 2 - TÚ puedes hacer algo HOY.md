@@ -57,6 +57,7 @@ https://pauseai.es/presentaciones/ultima-invencion-cva-colectiva-2026-05/1
 
 
 
+
 # Lens: AIS Barcelona
 id:: ff022351-e6e4-475a-814c-bbdba95415e3
 reading_minutes:: 1
