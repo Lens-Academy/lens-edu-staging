@@ -67,18 +67,18 @@ summary_for_tutor:: Marco propio del curso con cinco amenazas, cada una resolubl
 reading_minutes:: 4
 tutor_minutes:: 10--}{++{"author":"Fernando's AI","timestamp":1789672334443}@@amenazas. Acepta su eliminación. %%++}
 
-#### Text
+{--{"author":"Fernando's AI","timestamp":1789672353978}@@#### Text
 content::
 Hablar de "la amenaza de la IA", en singular, es algo enganhoso, porque da a entender que sólo hay uno, y que una vez solucionado ya no tenemos nada que temer. Proponemos aquí una lista de cinco amenazas tales que podríamos imaginar solucionar cada una de ellas sin solucionar la siguiente. Problema: hasta que no resolvamos la última, no hemos terminado.
 
 **1. Los LLM de hoy.**
-Si uno interactúa con Chat GPT o Claude, no tiene generalmente la impresión de estar frente a algo capaz de destruir a la humanidad. Y, de hecho, millones de personas usan LLMs diariamente. Las cosas podrían haber evolucionado de otra manera, pero esta amenaza parece haber sido evitada. Pero ?nos garantiza eso que las siguientes lo estarán?
+Si uno interactúa con Chat GPT o Claude, no tiene generalmente la impresión de estar frente a algo capaz de destruir a--}{++{"author":"Fernando's AI","timestamp":1789672353978}@@%% Sigue++} la {--{"author":"Fernando's AI","timestamp":1789672353978}@@humanidad. Y, de hecho, millones de personas usan LLMs diariamente. Las cosas podrían haber evolucionado de otra manera, pero esta amenaza parece haber sido evitada. Pero ?nos garantiza eso que las siguientes lo estarán?
 
 **2. Los LLM de mañana**
-?Qué ocurrirá cuando Chat GPT o Claude sean capaces de resolver problemas inaccesibles para los humanos en cuestión de segundos? ?O sean capaces de actuar siguiendo planes que se extiendan a los largo de meses o anhos? ?Y sean capaces de almacenar nuevos conocimientos, de manera que tengan algo parecido a una identidad?
+?Qué ocurrirá cuando Chat GPT o Claude sean capaces de resolver problemas inaccesibles para los humanos en cuestión de segundos? ?O sean capaces de actuar siguiendo planes que se extiendan a --}{++{"author":"Fernando's AI","timestamp":1789672353978}@@copia antigua; se elimina al aceptar ++}los {--{"author":"Fernando's AI","timestamp":1789672353978}@@largo de meses o anhos? ?Y sean capaces de almacenar nuevos conocimientos, de manera que tengan algo parecido a una identidad?
 
 **3. Modelos con percepción y acción**
-?Qué ocurrirá cuando haya un LLM conectado a un robot capaz de viajar por el mundo, interactuar con otros humanos y, sobre todo, interactuar con otros LLM?
+?Qué ocurrirá cuando haya un LLM conectado a un robot capaz de viajar por el mundo, interactuar con otros humanos y, sobre todo, interactuar con otros LLM?--}{++{"author":"Fernando's AI","timestamp":1789672353978}@@cambios. %%++}
 
 **4. Arquitecturas futuras** 
 ?Qué ocurrirá cuando dentro de 2 o 3 anhos se descubra (probablemente gracias a una LLM) una arquitectura muy distinta a las LLMs capaz de resolver problemas más eficientemente que ellos? ?Nos servirá de protección el hecho de que las LLM no hayan resultado peligrosas?
