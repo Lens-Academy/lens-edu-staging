@@ -31,7 +31,10 @@ reading_minutes:: 1
 
 #### Text
 content::
-Contenido en preparación.
+En las siguientes secciones recibirás información sobre tres cosas:
+-organizaciones donde recibir información o conectar con otras personas interesadas en el tema
+-cursos con los que formarte sobre AIS
+-financiación para tu investigación o para cualquier otro proyecto relacionado con AIS
 
 # Lens: iAS
 id:: 30f01e6f-cd2a-46cd-98d2-52d8177e43a9
