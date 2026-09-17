@@ -369,3 +369,61 @@ reading_minutes:: 1
 #### Text
 content::
 Contenido en preparación.
+
+# Lens: Coefficient Giving
+id:: 266e3f2f-3f41-4b8e-a154-ccf79f1d2750
+reading_minutes:: 1
+
+#### Text
+content::
+**Coefficient Giving** (antes Open Philanthropy) es una fundación que financia, entre otras cosas, la seguridad de la IA. Su programa **Career Development and Transition Funding** apoya a personas que quieren trabajar en seguridad de la IA, bioseguridad y áreas relacionadas: estudios de posgrado, prácticas no remuneradas, estudio independiente o periodos de transición profesional.
+
+Ojo: ahora mismo remite a los nuevos solicitantes a BlueDot Impact (mira sus Rapid Grants más abajo).
+
+[Career Development and Transition Funding](https://coefficientgiving.org/funds/global-catastrophic-risks-opportunities/career-development-and-transition-funding/)
+
+# Lens: Survival and Flourishing Fund (SFF)
+id:: 640373b5-2fa3-4d50-a6e3-10f75d8eb708
+reading_minutes:: 1
+
+#### Text
+content::
+El **Survival and Flourishing Fund** (SFF) es un fondo filantrópico que concede subvenciones a proyectos que reducen los riesgos existenciales, incluida la seguridad de la IA. Funciona sobre todo mediante rondas de subvenciones (su llamado *S-Process*).
+
+[survivalandflourishing.fund](https://survivalandflourishing.fund/)
+
+# Lens: Transformative AI Fund (antes LTFF)
+id:: d534281c-acfa-44b6-b826-4c8f1fe2c294
+reading_minutes:: 1
+
+#### Text
+content::
+El **Transformative AI Fund** (TAIF) de EA Funds sustituye al antiguo Long-Term Future Fund (LTFF), que ha cerrado. Financia a personas, organizaciones nuevas y proyectos nuevos de organizaciones existentes que reduzcan los riesgos catastróficos de la IA avanzada.
+
+Las subvenciones suelen ir de 10.000 a 150.000 dólares, y se puede solicitar en cualquier momento del año.
+
+[Transformative AI Fund](https://funds.effectivealtruism.org/funds/transformative-ai)
+
+# Lens: UK AI Security Institute
+id:: b7a7cf0c-c1a9-4edf-84e7-2418a413cf1b
+reading_minutes:: 1
+
+#### Text
+content::
+El **AI Security Institute** británico (AISI) financia investigación en seguridad de la IA con programas como el **Alignment Project** (hasta 1 millón de libras por proyecto) y el **Challenge Fund** (hasta 200.000 libras por proyecto). El Challenge Fund está abierto también a investigadores de instituciones académicas y organizaciones sin ánimo de lucro de fuera del Reino Unido.
+
+Ahora mismo sus programas no aceptan solicitudes. Consulta su web para futuras convocatorias.
+
+[aisi.gov.uk/grants](https://www.aisi.gov.uk/grants)
+
+# Lens: BlueDot: Rapid Grants
+id:: c3d7c399-ba76-42b0-9432-45288f6d0272
+reading_minutes:: 1
+
+#### Text
+content::
+Las **Rapid Grants** de BlueDot Impact son subvenciones de hasta 20.000 dólares para dedicar tiempo y recursos a la seguridad de la IA o la bioseguridad: investigación, probar ideas, organizar eventos o cubrir gastos de vida.
+
+Tienes más posibilidades si participas o has participado en un curso de BlueDot, pero cualquiera puede solicitarlas. Suelen responder en un día.
+
+[Rapid Grants](https://bluedot.org/programs/rapid-grants)
