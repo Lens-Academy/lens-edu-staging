@@ -12,8 +12,7 @@ tags:
 
 #### Text
 content::
-Text
-content::
+
 :::callout {tone="amber"}
 Si sólo te quedas con una idea de todo el curso, quédate con el concepto de "estrategias Godzilla".
 :::
