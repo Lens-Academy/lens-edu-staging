@@ -80,25 +80,7 @@ Si uno interactúa con Chat GPT o Claude, no tiene generalmente la impresión de
 **3. Modelos con percepción y acción**
 ?Qué ocurrirá cuando haya un LLM conectado a un robot capaz de viajar por el mundo, interactuar con otros humanos y, sobre todo, interactuar con otros LLM?--}{++{"author":"Fernando's AI","timestamp":1789672353978}@@cambios. %%++}
 
-{--{"author":"Fernando's AI","timestamp":1789672373874}@@**4. Arquitecturas futuras** 
-?Qué ocurrirá cuando dentro de 2 o 3 anhos se descubra (probablemente gracias a una LLM) una arquitectura muy distinta a las LLMs capaz de resolver problemas más eficientemente que ellos? ?Nos servirá de protección el hecho de que las LLM no hayan resultado peligrosas?
-
-**5. La amenaza final** 
-Nadie sabe cuántas arquitecturas cada vez mejores existen, esperando ser descubiertas. Existen incentivos económicos enormes para seguir explorándolas. Y, muy pronto, las LLM actuales estarán en condición de producir ellas nuevas arquitecturas. ?Cómo podemos evitar que alguna de esas arquitecturas futuras (la vigésima, o quizá la segunda) acabe con la humanidad? 
-
-Resolver el problema para una arquitectura concreta (como los LLM actuales) no garantiza nada con respecto a la amenaza final.
-
-
-#### Chat
-instructions:: Habla en español. El estudiante acaba de leer una lista de cinco amenazas. Pregúntale cuál cree que es la más cercana y cuál le parece que llegará antes de lo que la gente espera. Explora con él qué cambia de una amenaza a la siguiente: capacidad, autonomía, acceso al mundo, dificultad de supervisión. Si defiende que alguna amenaza nunca llegará, trátalo como una postura legítima y pregúntale qué evidencia le haría cambiar de opinión. Respuestas breves (menos de 120 palabras), una pregunta cada vez, sin elogios genéricos. 
-
-
-#### Question: Open
-id:: e5427907-dbaf-4a49-87a4-920e90657577
-content:: Vuelve a lo que escribiste al principio del módulo sobre qué haría peligrosa a una IA. ¿Ha cambiado tu respuesta? ¿Qué añadirías o quitarías?
-feedback-instructions:: Responde en español, en 2 o 3 frases, sin elogios genéricos. Señala un cambio concreto en su forma de pensar si lo hay. Si dice que no ha cambiado nada, pregúntale qué argumento del módulo le ha parecido más débil.
-
---}# Submodule: 6. Estrategias Godzilla
+# Submodule: 6. Estrategias Godzilla
 
 # Lens: Estrategias Godzilla
 id:: 4b05fbcb-4301-414e-99a7-52798bab343b
