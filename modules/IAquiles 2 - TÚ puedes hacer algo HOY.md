@@ -19,7 +19,9 @@ En el resto de este preparatorio, y en el intensivo, aprenderás un poco acerca 
 Probablemente todas esas estrategias son erróneas.
 La actitud adecuada para acudir a este intensivo es la disposición a entender las deficiencias de las estrategias existentes y a CREAR nuevas estrategias más prometedoras. Aquí te explicamos cómo conseguir formación y financiación para llvar a cabo tu camino por la AIS.
 
-También es posible que te interese luchar contra la amenaza de la IA, pero no te veas haciendo investigación. !Perfecto! 
+También es posible que te interese luchar contra la amenaza de la IA, pero no te veas haciendo investigación. !Perfecto! Hace falta gente de todo tipo metidos en contextos muy distintos:  no sólo investigación, sino también política (véase Pause AI a continuación), ensenhanza, y un montón de personas gestionando eventos y organizaciones para que todo funcione. De ninguna de estas personas se espera que trabaje gratuitamente. Sigue leyendo para descubrir cómo obtener financiación. Pero del mismo modo que en la investigación se busca a personas capaces de crear nuevas estrategias, aquí se buscan personas capaces poner en marcha cosas sin que nadie les marque una ruta. La mayoría de los trabajos en AIS no están anunciados en ningún sitio, sino que son creados por personas con iniciativa.
+
+(Por cierto, buscamos a personas interesadas en extender la actividad de IAquiles. Ponte en contacto con nosotros si estás interesado)
 
 # Submodule: 2. Organizaciones
 
