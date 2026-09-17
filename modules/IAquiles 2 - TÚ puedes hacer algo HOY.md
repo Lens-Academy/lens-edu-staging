@@ -55,7 +55,7 @@ https://github.com/pauseai-en-espanol/presentaciones
 
 https://pauseai.es/presentaciones/ultima-invencion-cva-colectiva-2026-05/1
 
-
+https://pauseai.info
 
 
 # Lens: AIS Barcelona
