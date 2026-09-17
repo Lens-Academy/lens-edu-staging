@@ -25,3 +25,4 @@ Unit goals: TBD. Modules and meetings to be added.
 # Module: [[../modules/IAquiles 1 - La amenaza IA|La amenaza IA]]
 # Module: [[../modules/IAquiles 2 - TÚ puedes hacer algo HOY|TÚ puedes hacer algo HOY]]
 # Meeting: IAquiles
+# Module: [[../modules/IAquiles 3 - Estrategias|Estrategias]]
