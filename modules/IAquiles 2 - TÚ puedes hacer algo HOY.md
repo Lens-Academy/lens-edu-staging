@@ -222,6 +222,144 @@ reading_minutes:: 1
 content::
 Contenido en preparación.
 
+# Lens: BlueDot Impact
+id:: 006c8292-4f57-4dfb-b1ce-eb04d345e57b
+reading_minutes:: 1
+
+#### Text
+content::
+**BlueDot Impact** forma a personas para trabajar en seguridad técnica de la IA, políticas públicas y bioseguridad.
+
+Sus cursos son gratuitos o de "paga lo que quieras". Casi todos se hacen en grupo, en formato intensivo (unos 5 o 6 días) o a tiempo parcial (unas 5 o 6 semanas). Consideramos que cualquiera de ellos es un buen punto de partida; en las páginas siguientes tienes los principales.
+
+[bluedot.org](https://bluedot.org/)
+
+# Lens: BlueDot: Future of AI
+id:: 39a3ef80-4ff5-4af2-9551-db2e61832877
+reading_minutes:: 1
+
+#### Text
+content::
+**Future of AI** es un curso autoguiado de unas 2 horas, gratuito y sin requisitos técnicos. Explica qué puede hacer hoy la IA y hacia dónde puede ir en la próxima década, con vídeos, demos interactivas y preguntas de reflexión. Al terminar obtienes un certificado.
+
+[Future of AI](https://bluedot.org/courses/future-of-ai)
+
+# Lens: BlueDot: AGI Strategy
+id:: 65180cc0-424a-4c0a-b4c1-363a1c84530b
+reading_minutes:: 1
+
+#### Text
+content::
+**AGI Strategy** es un curso en grupo de unas 25 horas para entender el panorama estratégico de la IA avanzada y encontrar tu punto de entrada. Se hace en formato intensivo (5 días) o a tiempo parcial (5 semanas), con modelo de "paga lo que quieras". Está abierto a cualquier persona que quiera trabajar en serio en seguridad de la IA, sea cual sea su formación.
+
+[AGI Strategy](https://bluedot.org/courses/agi-strategy)
+
+# Lens: BlueDot: Technical AI Safety
+id:: e5ec64c3-eba8-484c-b39a-c14457f24974
+reading_minutes:: 1
+
+#### Text
+content::
+**Technical AI Safety** es un curso en grupo para entender los principales problemas abiertos y enfoques de la seguridad técnica de la IA. Se hace en formato intensivo (6 días) o a tiempo parcial (6 semanas), con modelo de "paga lo que quieras". Está pensado para investigadores, ingenieros y personas al inicio de su carrera.
+
+[Technical AI Safety](https://bluedot.org/courses/technical-ai-safety)
+
+# Lens: BlueDot: Frontier AI Governance
+id:: 297baf0a-7b86-4875-950b-aea899a0d587
+reading_minutes:: 1
+
+#### Text
+content::
+**Frontier AI Governance** es un curso online de unas 40 horas para desarrollar criterio sobre la gobernanza de la IA de frontera: evaluar la evidencia, comparar estrategias y preparar un plan concreto para contribuir. Se hace en formato intensivo (6 días) o a tiempo parcial (6 semanas). Está pensado para perfiles técnicos, expertos en políticas públicas y personas que exploran una carrera en gobernanza de la IA.
+
+[Frontier AI Governance](https://bluedot.org/courses/ai-governance)
+
+# Lens: BlueDot: Biosecurity
+id:: 2b6b6a06-bd46-4fec-b4a1-614d2d2cbba2
+reading_minutes:: 1
+
+#### Text
+content::
+**Biosecurity** es un curso en grupo sobre la preparación ante pandemias. Se hace en formato intensivo (unos 6 días, 5 horas al día) o a tiempo parcial (unas 6 semanas, 5 horas a la semana), con modelo de "paga lo que quieras". Está pensado para informáticos, emprendedores, científicos, profesionales de políticas públicas y otras personas de cualquier formación.
+
+[Biosecurity](https://bluedot.org/courses/biosecurity)
+
+# Lens: ARENA
+id:: 32602de2-ac63-4067-b415-5c364cd94fb1
+reading_minutes:: 1
+
+#### Text
+content::
+**ARENA** (Alignment Research Engineer Accelerator) es un bootcamp intensivo de unas 4 o 5 semanas para formar a ingenieros en aprendizaje automático aplicado al alineamiento. Se celebra en Londres y también tiene ediciones online.
+
+El temario cubre los fundamentos del deep learning, los transformers, la interpretabilidad mecanicista, el aprendizaje por refuerzo y un proyecto final.
+
+[arena.education](https://www.arena.education/)
+
+# Lens: ML4Good
+id:: 9b0bea94-a296-4543-95f0-1697d30dbd71
+reading_minutes:: 1
+
+#### Text
+content::
+**ML4Good** organiza bootcamps intensivos de ocho días, por regiones, con dos itinerarios:
+- **Técnico**, para ingenieros e investigadores.
+- **Gobernanza y estrategia**, para perfiles de políticas públicas y comunicación.
+
+Son totalmente gratuitos: cubren comida, alojamiento y docencia, y pueden reembolsar el viaje.
+
+[ml4good.org](https://ml4good.org/)
+
+# Lens: CAIS: Introduction to ML Safety
+id:: 5dbe1bbd-1b49-4db0-a950-84880f7d5808
+reading_minutes:: 1
+
+#### Text
+content::
+**Introduction to ML Safety**, del Center for AI Safety (CAIS) y dirigido por Dan Hendrycks, es una introducción a la seguridad de la IA para quien ya tiene base en deep learning. Tiene unas ocho semanas de clases grabadas (alrededor de una hora por semana), lecturas y ejercicios.
+
+[Introduction to ML Safety](https://www.mlsafety.org/events/intro-to-ml-safety) · [Clases en YouTube](https://www.youtube.com/playlist?list=PLXSn3Zz2ayT6vBkCE6QqPvR6FHuK2COaD)
+
+# Lens: CAIS: AI Safety, Ethics, and Society
+id:: 7b5ea28e-9199-428f-abff-c50c23afee9b
+reading_minutes:: 1
+
+#### Text
+content::
+**AI Safety, Ethics, and Society** es un curso online y gratuito del Center for AI Safety (CAIS) basado en el libro de texto del mismo nombre, de Dan Hendrycks. Dura 12 semanas (8 de contenido y 4 para un proyecto personal) y requiere unas 5 horas a la semana, con lecturas y debates en grupo guiados por un facilitador. Está abierto a personas de cualquier formación.
+
+[Curso](https://www.aisafetybook.com/virtual-course) · [Libro de texto](https://www.aisafetybook.com/textbook)
+
+# Lens: Iliad Intensive
+id:: ddbd6113-c008-4e4a-9f67-87871c30d324
+reading_minutes:: 1
+
+#### Text
+content::
+El **Iliad Intensive** es un programa presencial de cuatro semanas sobre los fundamentos del alineamiento, para investigadores y perfiles técnicos con buena base matemática. Se ha celebrado en lugares como Lighthaven (Berkeley), LISA (Londres) y Mox (San Francisco). Este curso preparatorio se basa en parte en su currículo.
+
+[iliad.ac/intensive](https://www.iliad.ac/intensive)
+
+# Lens: AI Safety Collab
+id:: 702c1869-fd1f-4d46-a26b-c11759c91bbd
+reading_minutes:: 1
+
+#### Text
+content::
+**AI Safety Collab** es un curso introductorio gratuito de ENAIS (European Network for AI Safety) que se imparte en grupos de 5 a 10 personas, online o presenciales, organizados por grupos locales. Usa el currículo de AI Safety Atlas. En 2026 hubo una edición en español, online y a tiempo parcial.
+
+[enais.co/collab](https://www.enais.co/collab) · [Edición en español (2026)](https://forum.effectivealtruism.org/events/MwdLumQpcb33JmRY7/enais-ai-safety-collab-2026-winter-spanish-edition)
+
+# Lens: Otros cursos
+id:: 9a093c43-aed4-4e57-923f-e8ab5187335c
+reading_minutes:: 1
+
+#### Text
+content::
+Hay muchos más cursos de seguridad de la IA. AISafety.com mantiene un listado donde puedes buscar otros.
+
+[aisafety.com/courses](https://www.aisafety.com/courses)
+
 # Submodule: 4. Financiación
 
 # Lens: Financiación
