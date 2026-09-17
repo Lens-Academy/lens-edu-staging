@@ -67,12 +67,7 @@ summary_for_tutor:: Marco propio del curso con cinco amenazas, cada una resolubl
 reading_minutes:: 4
 tutor_minutes:: 10--}{++{"author":"Fernando's AI","timestamp":1789672334443}@@amenazas. Acepta su eliminación. %%++}
 
-{--{"author":"Fernando's AI","timestamp":1789672353978}@@#### Text
-content::
-Hablar de "la amenaza de la IA", en singular, es algo enganhoso, porque da a entender que sólo hay uno, y que una vez solucionado ya no tenemos nada que temer. Proponemos aquí una lista de cinco amenazas tales que podríamos imaginar solucionar cada una de ellas sin solucionar la siguiente. Problema: hasta que no resolvamos la última, no hemos terminado.
-
-**1. Los LLM de hoy.**
-Si uno interactúa con Chat GPT o Claude, no tiene generalmente la impresión de estar frente a algo capaz de destruir a--}{++{"author":"Fernando's AI","timestamp":1789672353978}@@%% Sigue++} la copia antigua; se elimina al aceptar los cambios. %%
+%% Sigue la copia antigua; se elimina al aceptar los cambios. %%
 
 # Submodule: 6. Estrategias Godzilla
 
