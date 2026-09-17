@@ -120,7 +120,6 @@ Muchas conversaciones sobre el peligro de la IA desembocan rápido en la duda so
 Ahora no es el momento de hacer filosofía de la mente. ([fuente](https://nitter.space/ben_j_todd/status/2094258215710326889#m))
 :::
 
-> 
 
 Es el momento de entender la amenaza concreta a la que nos enfrentamos.
 
