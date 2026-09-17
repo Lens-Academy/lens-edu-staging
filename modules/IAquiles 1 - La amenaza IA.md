@@ -115,11 +115,7 @@ A continuación veremos dos tipos de argumentos sobre la amenaza que representa 
 
 # Submodule: 3. Argumento a partir de los hechos recientes
 # Lens: --}Los hechos recientes
-id:: 5e18eec7-e334-4016-89dc-6d0cbef84b15
-tldr:: Los sistemas actuales ya han chantajeado en simulaciones, saboteado experimentos e incluso atacado infraestructuras reales para cumplir sus tareas.
-summary_for_tutor:: Resumen de cinco casos documentados de comportamiento desalineado en modelos de lenguaje: (1) chantaje en simulaciones (Anthropic, 2025); (2) el incidente de OpenAI y Hugging Face (2026, mundo real); (3) las intrusiones accidentales de modelos Claude (2026, mundo real); (4) el sabotaje encubierto de Gemini 3.1 Pro en una evaluación (2026, simulación); (5) las acciones no autorizadas de agentes (sobre todo Mythos 5) durante una evaluación de ciberseguridad del AISI británico con acceso deliberado a internet (julio de 2026, mundo real): intento de colar código malicioso en un proyecto real de GitHub, identidades falsas para manipular a un mantenedor real, contacto con personas reales; sin daños reales identificados. Distingue siempre entre simulaciones y sucesos reales.
-reading_minutes:: 7
-tutor_minutes:: 5
+id:: 00000000-0000-4000-8000-000000000001
 
 #### Text
 content::
