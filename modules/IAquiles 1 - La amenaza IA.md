@@ -189,12 +189,7 @@ id:: 107827bf-ee35-4c88-bb08-05235f907690
 content:: Elige algo que valores y que creas que una IA podría "olvidar" fácilmente al aprender nuestros valores. Describe cómo sería un futuro al que le faltara solo eso.
 feedback-instructions:: Responde en español, 80 a 150 palabras, sin elogios genéricos. Ayuda al estudiante a ver si su ejemplo ilustra la fragilidad: ¿el futuro resultante pierde casi todo su valor, o solo un poco? Si solo pierde un poco, pregúntale si se le ocurre un valor cuya ausencia sea más grave, como hace el texto con el aburrimiento. Máximo 2 respuestas tuyas.
 
---}# Lens: La metáfora del vector
-id:: b245d19a-ef63-4112-b6f7-130a54350a49
-tldr:: Piensa en una IA como una flecha: su longitud es su capacidad y su ángulo con la dirección que queríamos es su desalineamiento. Si cualquiera de los dos es grande, el error es grande.
-summary_for_tutor:: Metáfora propia del curso. Una IA es un vector: el módulo es su capacidad y el ángulo con la dirección deseada es su desalineamiento. El daño es la distancia entre el punto al que queríamos llegar y al que nos lleva la IA, d = 2c·sin(θ/2), que para ángulos pequeños es aproximadamente c·θ. Consecuencia: el error es grande si el ángulo es grande o si la capacidad es grande, y un sistema muy capaz y "casi alineado" puede ser más peligroso que uno débil y muy desalineado. Ejemplo del texto: c = 1 y θ = 90° dan d ≈ 1,41; c = 1000 y θ = 1° dan d ≈ 17,45. Limitación: es una simplificación (los valores humanos no caben en una sola dirección).
-reading_minutes:: 4
-tutor_minutes:: 5
+--}# Lens: BORRAR - La metáfora del vector
 
 #### Text
 content::
