@@ -23,4 +23,6 @@ Este curso online también está abierto a todas las personas interesadas en com
 
 Comparte el link del curso presencial y de este curso online con todas las personas que podrían estar potencialmente interesadas, incluso si nunca antes se han interesado por la IA. Haz un esfuerzo especial por compartirlo con personas proclives a pensar que su género/orientación sexual/discapacidad/trasfondo familiar no va a ser el del participante medio de este tipo de eventos. Distintos estudios muestran que las personas de grupos minoritarios son también más proclives a tener síndrome del impostor y sentir que están menos capacitados que el participante medio, aunque no sea cierto.
 
-Link del preparatorio online: 
+Link del preparatorio online: https://lensacademy.org/courses/iaquiles/module/iaquiles-la-amenaza-ia/1-preliminares#intensivo-iaquiles
+
+Linkd
