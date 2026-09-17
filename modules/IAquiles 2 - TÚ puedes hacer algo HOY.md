@@ -25,7 +25,7 @@ También es posible que te interese luchar contra la amenaza de la IA, pero no t
 
 # Submodule: 2. Organizaciones
 
-# Lens: Organizaciones
+# Lens: Organizaciones, cursos, financiación
 id:: e4144686-c567-4169-b462-89ea21dd2814
 reading_minutes:: 1
 
