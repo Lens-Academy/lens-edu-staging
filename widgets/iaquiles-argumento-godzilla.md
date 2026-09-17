@@ -42,7 +42,7 @@ svg.arrows line.is-active { stroke: var(--accent); stroke-width: 2.5; }
 </head>
 <body>
 <p class="eyebrow">El argumento teórico, de un vistazo</p>
-<h2>Receta para el desastree</h2>
+<h2>Receta para el {--{"author":"Fernando's AI","timestamp":1789673580677}@@desastree</h2>--}{++{"author":"Fernando's AI","timestamp":1789673580677}@@desastre</h2>++}
 <p>Pulsa cada pieza para recordar por qué empuja hacia una IA muy potente y desalineada.</p>
 <div class="stage" id="stage">
   <svg class="arrows" id="arrows" aria-hidden="true">
