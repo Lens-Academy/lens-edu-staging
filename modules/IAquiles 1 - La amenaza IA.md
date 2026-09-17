@@ -60,12 +60,7 @@ La página "Estrategias Godzilla" sigue aquí abajo: dime si quieres que tambié
 
 {--{"author":"Fernando's AI","timestamp":1789672334443}@@# Submodule: 5. Distintos niveles--}{++{"author":"Fernando's AI","timestamp":1789672334443}@@%% COPIA ANTIGUA++} de {--{"author":"Fernando's AI","timestamp":1789672334443}@@amenaza
 
-# Lens: Una--}{++{"author":"Fernando's AI","timestamp":1789672334443}@@"Una++} lista de {--{"author":"Fernando's AI","timestamp":1789672334443}@@amenazas
-id:: 63f1a7d7-2fab-42f2-82fd-19253d37c5d7
-tldr:: No hay una sola amenaza, sino al menos cinco, y resolver una no garantiza resolver la siguiente.
-summary_for_tutor:: Marco propio del curso con cinco amenazas, cada una resoluble sin resolver la siguiente: (1) los LLM de hoy; (2) los LLM de mañana (más capaces, planes largos, memoria); (3) modelos con percepción y acción (robots, interacción con otros LLM); (4) arquitecturas futuras distintas de los LLM; (5) la amenaza final: cualquier arquitectura futura, posiblemente diseñada por IA. Resolver el problema para una arquitectura concreta no garantiza nada sobre la amenaza final. La --}{++{"author":"Fernando's AI","timestamp":1789672334443}@@amenazas": ya vive en Lenses/IAquiles - Una ++}lista{--{"author":"Fernando's AI","timestamp":1789672334443}@@ es una propuesta --}{++{"author":"Fernando's AI","timestamp":1789672334443}@@ ++}de {--{"author":"Fernando's AI","timestamp":1789672334443}@@los autores del curso, no un consenso del campo.
-reading_minutes:: 4
-tutor_minutes:: 10--}{++{"author":"Fernando's AI","timestamp":1789672334443}@@amenazas. Acepta su eliminación. %%++}
+# Lens: Una--}{++{"author":"Fernando's AI","timestamp":1789672334443}@@"Una++} lista de amenazas": ya vive en Lenses/IAquiles - Una lista de amenazas. Acepta su eliminación. %%
 
 %% Sigue la copia antigua; se elimina al aceptar los cambios. %%
 
