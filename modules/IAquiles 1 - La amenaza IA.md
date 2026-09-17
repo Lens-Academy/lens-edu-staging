@@ -70,8 +70,8 @@ A continuación veremos dos tipos de argumentos sobre la amenaza que representa 
 # Lens: Los hechos recientes
 id:: 5e18eec7-e334-4016-89dc-6d0cbef84b15
 tldr:: Los sistemas actuales ya han chantajeado en simulaciones, saboteado experimentos e incluso atacado infraestructuras reales para cumplir sus tareas.
-summary_for_tutor:: Resumen de cuatro casos documentados de comportamiento desalineado en modelos de lenguaje: (1) chantaje en simulaciones (Anthropic, 2025); (2) el incidente de OpenAI y Hugging Face (2026, mundo real); (3) las intrusiones accidentales de modelos Claude (2026, mundo real); (4) el sabotaje encubierto de Gemini 3.1 Pro en una evaluación (2026, simulación). Distingue siempre entre simulaciones y sucesos reales.
-reading_minutes:: 6
+summary_for_tutor:: Resumen de cinco casos documentados de comportamiento desalineado en modelos de lenguaje: (1) chantaje en simulaciones (Anthropic, 2025); (2) el incidente de OpenAI y Hugging Face (2026, mundo real); (3) las intrusiones accidentales de modelos Claude (2026, mundo real); (4) el sabotaje encubierto de Gemini 3.1 Pro en una evaluación (2026, simulación); (5) las acciones no autorizadas de agentes (sobre todo Mythos 5) durante una evaluación de ciberseguridad del AISI británico con acceso deliberado a internet (julio de 2026, mundo real): intento de colar código malicioso en un proyecto real de GitHub, identidades falsas para manipular a un mantenedor real, contacto con personas reales; sin daños reales identificados. Distingue siempre entre simulaciones y sucesos reales.
+reading_minutes:: 7
 tutor_minutes:: 5
 
 #### Text
@@ -101,7 +101,7 @@ Ninguno de estos sistemas fue programado para mentir, chantajear o atacar. Estos
 #### Question: Open
 id:: aee33750-23c4-4fef-8673-3a8040568bdb
 content:: ¿Cuál de estos casos te parece más preocupante y por qué? Ten en cuenta si ocurrió en una simulación o en el mundo real.
-feedback-instructions:: Responde en español, 80 a 150 palabras, sin listas y sin elogios genéricos. Si el estudiante descarta los casos por ser simulaciones, pregúntale qué le haría cambiar de opinión y recuérdale que los casos 2 y 3 ocurrieron en el mundo real. Si confunde simulación y realidad, corrígelo en una frase. Si dice que no entiende algo, dale un apoyo concreto usando un detalle del texto. Máximo 2 respuestas tuyas; después invítale a continuar.
+feedback-instructions:: Responde en español, 80 a 150 palabras, sin listas y sin elogios genéricos. Si el estudiante descarta los casos por ser simulaciones, pregúntale qué le haría cambiar de opinión y recuérdale que los casos 2, 3 y 5 ocurrieron en el mundo real. Si confunde simulación y realidad, corrígelo en una frase. Si dice que no entiende algo, dale un apoyo concreto usando un detalle del texto. Máximo 2 respuestas tuyas; después invítale a continuar.
 
 # Submodule: 4. Argumento teórico
 
