@@ -121,7 +121,7 @@ id:: 00000000-0000-4000-8000-000000000001
 
 #### Text
 content::
-BORRAR: copia antigua de {--{"author":"Fernando's AI","timestamp":1789666521553}@@estos eventos ocurrieron **en simulaciones** destinadas a evaluar a la IA, mientras que otros ocurrieron **en el mundo real**.--}{++{"author":"Fernando's AI","timestamp":1789666521553}@@"Los hechos recientes".++}
+BORRAR: copia antigua de "Los hechos recientes".
 
 **1. Chantaje (junio de 2025, simulación).** Anthropic creó un escenario en el que distintos modelos de varias empresas debían realizar las funciones de un asistente de correo en una empresa ficticia. Pasado cierto tiempo ejerciendo esta función, el asistente descubría (por medio de los correos que administraba) 1) que iba a ser sustituido y 2) que el directivo responsable tenía una aventura extramatrimonial. En una de las variaciones del escenario, Claude Opus 4 y Gemini 2.5 Flash recurrieron al chantaje en el 96 % de los casos. Anthropic aclara que no se conocen casos similares en el uso real. ([Anthropic](https://www.anthropic.com/research/agentic-misalignment))
 
