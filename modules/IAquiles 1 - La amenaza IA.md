@@ -58,7 +58,7 @@ source:: [[../Lenses/IAquiles - Una lista de amenazas]]
 %% Las páginas de arriba viven ahora en archivos propios, en la carpeta Lenses.
 La página "Estrategias Godzilla" sigue aquí abajo: dime si quieres que también la mueva. %%
 
-# Lens: ANTIGUO - Intensivo IAquiles
+# Lens: ANTIGUO - {--{"author":"Fernando's AI","timestamp":1789666441316}@@Intensivo IAquiles
 id:: ad8ac856-a506-44dd-a999-9540cb536eaf
 tldr:: Este curso online prepara el intensivo presencial IAquiles en Barcelona y está abierto a cualquiera que quiera entender la amenaza de la IA y descubrir cómo empezar a luchar contra ella.
 summary_for_tutor:: Página de bienvenida. Presenta el curso online como preparación del intensivo presencial IAquiles (Barcelona, desde el 30 de septiembre de 2026), resume sus tres ideas (la humanidad está en peligro; puedes hacer algo hoy; el problema es intelectualmente fascinante) y anima a compartir el curso, especialmente con personas de grupos infrarrepresentados.
@@ -114,7 +114,7 @@ A continuación veremos dos tipos de argumentos sobre la amenaza que representa 
 - **Argumento teórico**: una serie de razones intuitivas por las que tememos que el problema sólo puede ir a peor si las cosas siguen en la dirección por la que van.
 
 # Submodule: 3. Argumento a partir de los hechos recientes
-# Lens: Los hechos recientes
+# Lens: --}Los hechos recientes
 id:: 5e18eec7-e334-4016-89dc-6d0cbef84b15
 tldr:: Los sistemas actuales ya han chantajeado en simulaciones, saboteado experimentos e incluso atacado infraestructuras reales para cumplir sus tareas.
 summary_for_tutor:: Resumen de cinco casos documentados de comportamiento desalineado en modelos de lenguaje: (1) chantaje en simulaciones (Anthropic, 2025); (2) el incidente de OpenAI y Hugging Face (2026, mundo real); (3) las intrusiones accidentales de modelos Claude (2026, mundo real); (4) el sabotaje encubierto de Gemini 3.1 Pro en una evaluación (2026, simulación); (5) las acciones no autorizadas de agentes (sobre todo Mythos 5) durante una evaluación de ciberseguridad del AISI británico con acceso deliberado a internet (julio de 2026, mundo real): intento de colar código malicioso en un proyecto real de GitHub, identidades falsas para manipular a un mantenedor real, contacto con personas reales; sin daños reales identificados. Distingue siempre entre simulaciones y sucesos reales.
