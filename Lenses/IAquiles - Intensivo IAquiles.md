@@ -25,4 +25,4 @@ Comparte el link del curso presencial y de este curso online con todas las perso
 
 Link del preparatorio online: https://lensacademy.org/courses/iaquiles/module/iaquiles-la-amenaza-ia/1-preliminares#intensivo-iaquiles
 
-Link del intensivo presencial de Barcelona: 
+Link del intensivo presencial de Barcelona: https://luma.com/event/manage/evt-3dgypofMpIGiZpz/overview
