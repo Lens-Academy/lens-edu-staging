@@ -116,6 +116,8 @@ Renaming descriptively does not fix the remap. `iabied-nonhuman-minds-2` would m
 
 `slug-aliases` exists as a field and is used on four course files. [[AI Guide/Writing Course Files]] documents it under **course** frontmatter, and no module file uses it, so whether modules accept it is unknown. **Worth checking with whoever owns the platform.** If they do, the right answer is: new slugs everywhere, aliases only on M5, M6 and M7 where the mapping is clean, and no alias on M1 to M4 so those old links fail visibly rather than landing on the wrong content. Break loudly only where breaking is unavoidable.
 
+**Still open, both of them, as of 2026-09-14.** Whether module files accept `slug-aliases` was never confirmed with whoever owns the platform, so no aliases were set and every old module URL now fails. That is the intended behaviour for M1 to M4, where the mapping is dirty, and an avoidable loss for M5, M6 and M7, where it is clean. And the comms pass never happened: the meeting docs were handled in stage 6, but cohort materials, Discord posts and anywhere else a module URL was pasted have not been swept. Neither blocks anything; both are the kind of thing that surfaces as a broken link months later.
+
 Either way this needs a comms pass over meeting docs, cohort materials and anywhere else a module URL was pasted. Log those as they are found.
 
 ### A concurrent workstream, not ours
@@ -139,7 +141,7 @@ The conclusion is unchanged. Surveys carry no chapter or module references, so n
 | Item | Finding |
 |---|---|
 | **Meeting titles** | Done in 1e. Meetings 1 and 5 renamed |
-| **`meeting-doc-template::` Google Docs** | Five external templates, one per meeting. These hold the actual per-meeting discussion content, and the content behind meetings 1, 2 and 3 all change. This is the largest external dependency and belongs in the comms pass |
+| **`meeting-doc-template::` Google Docs** | Five external templates, one per meeting, holding the actual per-meeting discussion content. Was the largest external dependency; **done in stage 6**. Note these are the masters: copies are taken when a cohort's meetings are created, so editing a master reaches nobody already enrolled |
 
 **Do not edit survey files casually.** The course file records a hard rule learned the hard way: no answerable segment may precede an outbound link, because answers live in React state until submit and survey links carry no `target=_blank`, so a learner who clicks a link mid-survey loses every answer and their attendance. The retired v1 files also record why they were byte-for-byte copies of one another, which was to keep every question key, wording and order stable so the pre/post rating comparison held.
 
