@@ -49,7 +49,7 @@ source:: [[../Lenses/IAquiles - La metáfora del vector]]
 source:: [[../Lenses/IAquiles - Necesidades del sustrato]]
 
 # Lens: Todas las piezas apuntan a Godzilla
-source:: [[../Lenses/IAquiles - Todas las piezas apuntan a Godzilla]]
+source:: [[../Lenses/IAquiles - Receta para el desastre]]
 
 # Submodule: 5. Distintos niveles de amenaza
 
