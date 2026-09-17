@@ -116,7 +116,11 @@ tutor_minutes:: 4
 content::
 Muchas conversaciones sobre el peligro de la IA desembocan rápido en la duda sobre si realmente son conscientes. La pregunta de qué es la consciencia (o la mente, o la experiencia interior, o los [qualia](https://es.wikipedia.org/wiki/Qualia)) es una pregunta fascinante estudiada por la [filosofía de la mente](https://es.wikipedia.org/wiki/Filosof%C3%ADa_de_la_mente). Problema: jamás se ha llegado a ninguna conclusión. Nadie tiene claro qué es la consciencia, si los animales tienen consciencia, si los fetos tienen consciencia, si podría haber un ser humano que pareciese normal pero no tuviese consciencia (los llamados [zombies filosóficos](https://es.wikipedia.org/wiki/Zombie_filos%C3%B3fico)). Por lo tanto, cada vez que la conversación va por esa dirección, se entra en una dinámica en la que no se concluye nada, mientras se deja de discutir el asunto principal de que es altamente probable que estemos en una situación de peligro total. En consecuencia:
 
-> Ahora no es el momento de hacer filosofía de la mente. ([fuente](https://nitter.space/ben_j_todd/status/2094258215710326889#m))
+:::callout {tone="amber"}
+Si sólo te quedas con una idea de todo el curso, quédate con el concepto de "estrategias Godzilla".
+:::
+
+> 
 
 Es el momento de entender la amenaza concreta a la que nos enfrentamos.
 
