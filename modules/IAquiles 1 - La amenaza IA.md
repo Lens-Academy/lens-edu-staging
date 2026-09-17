@@ -124,7 +124,7 @@ Ahora no es el momento de hacer filosofía de la mente. ([fuente](https://nitter
 Es el momento de entender la amenaza concreta a la que nos enfrentamos.
 
 
-
+---
 
 #### Question: Open
 id:: d1619b46-e3c9-4729-ac39-8139a0f27e6b
