@@ -58,9 +58,7 @@ source:: [[../Lenses/IAquiles - Una lista de amenazas]]
 %% Las páginas de arriba viven ahora en archivos propios, en la carpeta Lenses.
 La página "Estrategias Godzilla" sigue aquí abajo: dime si quieres que también la mueva. %%
 
-{--{"author":"Fernando's AI","timestamp":1789672334443}@@# Submodule: 5. Distintos niveles--}{++{"author":"Fernando's AI","timestamp":1789672334443}@@%% COPIA ANTIGUA++} de {--{"author":"Fernando's AI","timestamp":1789672334443}@@amenaza
-
-# Lens: Una--}{++{"author":"Fernando's AI","timestamp":1789672334443}@@"Una++} lista de amenazas": ya vive en Lenses/IAquiles - Una lista de amenazas. Acepta su eliminación. %%
+%% COPIA ANTIGUA de "Una lista de amenazas": ya vive en Lenses/IAquiles - Una lista de amenazas. Acepta su eliminación. %%
 
 %% Sigue la copia antigua; se elimina al aceptar los cambios. %%
 
