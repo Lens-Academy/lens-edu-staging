@@ -344,6 +344,18 @@ El **Iliad Intensive** es un programa presencial de cuatro semanas sobre los fun
 
 [iliad.ac/intensive](https://www.iliad.ac/intensive)
 
+# Lens: AFFINE
+id:: cfe60150-2b58-4991-b4d5-859065c5c140
+reading_minutes:: 1
+
+#### Text
+content::
+**AFFINE** es una organización que quiere desarrollar la teoría del alineamiento como una ciencia capaz de formular con rigor los riesgos de la IA avanzada. Organiza el **Superintelligence Alignment Seminar**, una residencia de un mes, totalmente financiada (alojamiento y viaje incluidos), en un castillo de la República Checa. Se basa sobre todo en que los participantes se enseñen unos a otros, con mentoría de investigadores de seguridad de la IA. Busca personas con una buena base matemática y rigor filosófico, más que currículums impresionantes. También ha tenido una edición online.
+
+La próxima edición es en enero de 2027. Este curso preparatorio se basa en parte en su currículo.
+
+[affi.ne](https://www.affi.ne/)
+
 # Lens: AI Safety Collab
 id:: 702c1869-fd1f-4d46-a26b-c11759c91bbd
 reading_minutes:: 1
