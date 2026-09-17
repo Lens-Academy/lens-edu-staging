@@ -10,7 +10,7 @@ tags:
 
 #### Text
 content::
-Aquí tienes un resumen gráfico del argumento teórico que he
+Aquí tienes un resumen gráfico del argumento teórico que hemos expuesto:
 
 #### Widget
 source:: [[../widgets/iaquiles-argumento-godzilla]]
