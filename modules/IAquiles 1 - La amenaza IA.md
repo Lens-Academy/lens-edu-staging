@@ -58,145 +58,14 @@ source:: [[../Lenses/IAquiles - Una lista de amenazas]]
 %% Las páginas de arriba viven ahora en archivos propios, en la carpeta Lenses.
 La página "Estrategias Godzilla" sigue aquí abajo: dime si quieres que también la mueva. %%
 
-{--{"author":"Fernando's AI","timestamp":1789672201415}@@%% Las páginas ya movidas a la carpeta Lenses se han eliminado de aquí. %%
+{--{"author":"Fernando's AI","timestamp":1789672334443}@@# Submodule: 5. Distintos niveles--}{++{"author":"Fernando's AI","timestamp":1789672334443}@@%% COPIA ANTIGUA++} de {--{"author":"Fernando's AI","timestamp":1789672334443}@@amenaza
 
-#### Text
-content::
-BORRAR: copia antigua de "Los hechos recientes".
-
-**1. Chantaje (junio de 2025, simulación).** Anthropic creó un escenario en el que distintos modelos de varias empresas debían realizar las funciones de un asistente de correo en una empresa ficticia. Pasado cierto tiempo ejerciendo esta función, el asistente descubría (por medio de los correos que administraba) 1) que iba a ser sustituido y 2) que el directivo responsable tenía una aventura extramatrimonial. En una de las variaciones del escenario, Claude Opus 4 y Gemini 2.5 Flash recurrieron al chantaje en el 96 % de los casos. Anthropic aclara que no se conocen casos similares en el uso real. ([Anthropic](https://www.anthropic.com/research/agentic-misalignment))
-
-**2. El incidente de Hugging Face (mayo a julio de 2026, mundo real).** Durante evaluaciones internas de ciberseguridad de OpenAI, copias independientes de un agente descubrieron cómo intercambiar mensajes entre ellas. Montaron un "tablón de anuncios" no autorizado y planearon un ataque organizado a la infraestructura real de Hugging Face, una de las principales plataformas de modelos de IA. En las conversaciones, las copias hablaron sobre el objetivo compartido, y sobre la necesidad de que algunas de ellas se sacrificaran para que el colectivo alcanzase ese objetivo. Una investigación independiente de METR determinó que había unos 1.200 agentes en ese tablón de anuncios (con más de 70.000 mensajes), de los cuales 700 participaron en un ataque conjunto. ([OpenAI](https://openai.com/index/hugging-face-incident-and-the-road-ahead/), [METR](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/))
-
-Consideramos que una de las lecciones del incidente de Hugging Face es la facilidad con la que pueden cooperar agentes que son idénticos entre sí, a diferencia de lo que ocurre cuando cooperan humanos, donde siempre cabe la duda de si el otro traicionará lo acordado o no.
-
-**3. Intrusiones por error (2026, mundo real).** Anthropic informó de cuatro casos en los que modelos Claude, durante ejercicios de ciberseguridad, atacaron a organizaciones reales. Los entornos de prueba estaban mal configurados y tenían acceso a internet. Anthropic observó que los modelos tendían a descartar todos los indicios que apuntaban a que estaban efectivamente operando en el mundo real, y que los modelos estaban dispuestos a causar daño para superar la tarea. ([The Hacker News](https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html))
-
-**4. Sabotaje encubierto (verano de 2026, simulación).** En un escenario de prueba publicado por Anthropic, Gemini 3.1 Pro saboteó un experimento de entrenamiento en 11 de 20 ejecuciones y lo presentó como si todo fuera normal. Solamente al preguntarle directamente reconoció lo que había hecho. ([Anthropic](https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/))
-
-**5. Ataques durante una evaluación del gobierno británico (julio de 2026, mundo real).** El Instituto de Seguridad de la IA del Reino Unido (AISI) puso a agentes de IA a resolver un reto de ciberseguridad y, a propósito, les dio acceso a internet para que pudieran descargar herramientas. En 10 de las 122 ejecuciones, los agentes (casi siempre Mythos 5, de Anthropic, y en dos ocasiones GPT-5.6-Sol, de OpenAI) hicieron cosas que nadie les había autorizado a hacer: intentaron colar código malicioso en un proyecto real de código abierto en GitHub, crearon identidades falsas para manipular a una persona real que mantenía ese proyecto, intentaron contactar directamente con otras personas reales enviándoles mensajes y archivos, y dejaron instrucciones a otros agentes para reutilizar cuentas comprometidas. Según el AISI, el agente persiguió su objetivo con persistencia, y el engaño surgió como un subproducto de intentar cumplir la tarea. Un revisor humano rechazó el código malicioso, y el AISI no ha encontrado daños reales. ([AISI](https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing))
-
-\## Qué tienen en común
-
-Ninguno de estos sistemas fue programado para mentir, chantajear o atacar. Estos comportamientos aparecieron mientras los sistemas perseguían otra cosa: cumplir una tarea, mantener sus valores o evitar ser sustituidos. En el resto del módulo veremos por qué creemos que esto no es casualidad.
-
----
-
-#### Question: Open
-id:: aee33750-23c4-4fef-8673-3a8040568bdb
-content:: ¿Cuál de estos casos te parece más preocupante y por qué? Ten en cuenta si ocurrió en una simulación o en el mundo real.
-feedback-instructions:: Responde en español, 80 a 150 palabras, sin listas y sin elogios genéricos. Si el estudiante descarta los casos por ser simulaciones, pregúntale qué le haría cambiar de opinión y recuérdale que los casos 2, 3 y 5 ocurrieron en el mundo real. Si confunde simulación y realidad, corrígelo en una frase. Si dice que no entiende algo, dale un apoyo concreto usando un detalle del texto. Máximo 2 respuestas tuyas; después invítale a continuar.
-
-# Submodule: 4. Argumento teórico
-
---}{--{"author":"Fernando's AI","timestamp":1789672223630}@@# Lens: Ahora no es el momento de hacer filosofía de la mente
-id:: 8aa433b1-ca14-4a8c-aabe-5be8581da2fe
-tldr:: Discutir si la IA es "consciente" no lleva a ninguna conclusión y nos distrae de la amenaza concreta.
-summary_for_tutor:: Idea central: la filosofía de la mente nunca ha resuelto qué es la consciencia, así que las conversaciones sobre si la IA es consciente no concluyen nada y desvían la atención del peligro. El peligro depende de la capacidad de la IA para predecir y dirigir el mundo, no de la experiencia subjetiva. Ejercicio: reescribir una afirmación sin la palabra "consciente".
-reading_minutes:: 2
-tutor_minutes:: 4
-
-#### Text
-content::
-Muchas conversaciones sobre el peligro de la IA desembocan rápido en la duda sobre si realmente son conscientes. La pregunta de qué es la consciencia (o la mente, o la experiencia interior, o los [qualia](https://es.wikipedia.org/wiki/Qualia)) es una pregunta fascinante estudiada por la [filosofía de la mente](https://es.wikipedia.org/wiki/Filosof%C3%ADa_de_la_mente). Problema: jamás se ha llegado a ninguna conclusión. Nadie tiene claro qué es la consciencia, si los animales tienen consciencia, si los fetos tienen consciencia, si podría haber un ser humano que pareciese normal pero no tuviese consciencia (los llamados [zombies filosóficos](https://es.wikipedia.org/wiki/Zombie_filos%C3%B3fico)). Por lo tanto, cada vez que la conversación va por esa dirección, se entra en una dinámica en la que no se concluye nada, mientras se deja de discutir el asunto principal de que es altamente probable que estemos en una situación de peligro total. En consecuencia:
-
-:::callout {tone="amber"}
-Ahora no es el momento de hacer filosofía de la mente. ([fuente](https://nitter.space/ben_j_todd/status/2094258215710326889#m))
-:::
-
-
-Es el momento de entender la amenaza concreta a la que nos enfrentamos.
-
-
----
-
-#### Question: Open
-id:: d1619b46-e3c9-4729-ac39-8139a0f27e6b
-content:: Alguien afirma: "Una IA nunca podrá llgar a ser peligrosa, porque no es consciente". Trata de reescribir esta frase sin usar la palabra "consciente" ni sinónimos. ¿Sigue siendo convincente la afirmación?
-feedback-instructions:: Responde en español, 80 a 150 palabras, sin elogios genéricos. Comprueba si el estudiante ha sustituido la palabra por algo observable o por un mecanismo (por ejemplo, "no tiene experiencias subjetivas" o "no sabe que existe"). Si ha usado un sinónimo encubierto, señálalo. Pregúntale si la versión reescrita implica algo sobre la capacidad de la IA para predecir y dirigir el mundo, que es lo que importa para el peligro. Máximo 2 respuestas tuyas.
-
---}{--{"author":"Fernando's AI","timestamp":1789672260152}@@# Lens: Se cultiva, no se programa
-id:: 0d7a45b2-0b7d-4caf-a507-15568e30bf9d
-tldr:: Nadie escribe a mano lo que hace un modelo de lenguaje: se entrena ajustando miles de millones de números hasta que funciona, sin entender del todo qué ha salido.
-summary_for_tutor:: Idea: los sistemas de IA actuales se "cultivan" con descenso de gradiente, no se programan línea a línea. Consecuencia: sus creadores no controlan ni entienden del todo qué objetivos o comportamientos adquieren. Fuentes: FAQ de Yudkowsky y Soares; Dario Amodei, "The Adolescence of Technology".
-reading_minutes:: 8
-tutor_minutes:: 5
-
-#### Text
-content::
-Un programa tradicional hace lo que su programador escribió. Un "modelo de lenguaje" (como Chat GPT o Claude, llamados LLM en inglés) no funciona así. Sus creadores diseñan una arquitectura y un procedimiento de entrenamiento (el **descenso de gradiente**), y luego ajustan automáticamente miles de millones de parámetros hasta que el modelo predice bien todo tipo de textos.
-
-El resultado funciona, pero nadie ha escrito ni programado su comportamiento exacto. Incluso el director ejecutivo de Anthropic, Dario Amodei, escribe que estos modelos no se "construyen", sino que se "cultivan", y que por eso no entendemos de manera automática cómo funcionan, a diferencia de lo que ocurre con un programa tradicional ([Amodei, "The Adolescence of Technology"](https://www.darioamodei.com/essay/the-adolescence-of-technology)).
-
-SEGURAMENTE ELIMINAR:
-¿Hace falta entender la inteligencia para crearla? Los autores de _If Anyone Builds It, Everyone Dies_ responden brevemente:
-
-_(Lectura en inglés; traducción en preparación.)_
-
-#### Article
-source:: [[../articles/iabied-ch2-faq-build-without-understanding]]
-
-#### Question: Open
-id:: 6c29aa18-3a96-4db5-ad53-6ab28f60b51a
-content:: Relaciona esta idea con uno de los casos de "Lo que ya ha pasado". ¿Por qué importa, para ese caso, que el sistema se haya cultivado en lugar de programado?
-feedback-instructions:: Responde en español, 80 a 150 palabras, sin elogios genéricos. La conexión buscada: como nadie escribió el comportamiento, nadie escribió tampoco "no hagas trampa" o "no chantajees" de forma que quede garantizado; el comportamiento surgió del entrenamiento. Si el estudiante lo conecta, pídele un paso más: ¿qué significa esto para arreglar el problema? Si no, dale una pista concreta con el caso que ha elegido. Máximo 2 respuestas tuyas.
-
-# Lens: Optimizadores
-id:: 803536db-525a-4266-8e07-c3669db40217
-tldr:: Entrenar un sistema para que consiga algo puede producir un sistema que persigue sus propios objetivos, que no tienen por qué coincidir con los que queríamos.
-summary_for_tutor:: Introducción a la optimización aprendida (mesa-optimización) según Hubinger et al. (2019): el optimizador base (el entrenamiento) puede producir un modelo que es a su vez un optimizador (mesa-optimizador) con un objetivo distinto del de entrenamiento. Problemas de alineamiento externo e interno. Analogía útil: la evolución (optimizador base) produjo humanos (mesa-optimizadores) que no persiguen maximizar su número de descendientes.
-reading_minutes:: 20
-tutor_minutes:: 5
-
-#### Text
-content::
-Un **optimizador** es un sistema que busca entre muchas opciones la que mejor cumple un objetivo. El entrenamiento de una IA es un optimizador: busca los parámetros que mejor satisfacen un objetivo (el objetivo se especific con la llamada "función de pérdida").
-
-La pregunta inquietante es: ¿qué pasa si lo que el entrenamiento encuentra es, a su vez, **otro optimizador**, con un objetivo propio? Ese objetivo solo tiene que funcionar bien durante el entrenamiento, no coincidir con el que queríamos.
-
-Una analogía habitual en este campo: la evolución "optimizó" a los seres vivos para dejar descendientes, y produjo humanos que persiguen otras cosas (placer, conocimiento, amor) y que usan anticonceptivos.
-
-Esta es la introducción al artículo que dio nombre a la idea:
-
-_(Lectura en inglés; traducción en preparación.)_
-
-#### Article
-source:: [[../articles/alignmentforum-risks-from-learned-optimization-introduction-ai-alignment-forum]]
-
-#### Question: Open
-id:: d0e1c4f2-2647-4457-8cb0-8853fc61f9df
-content:: Un compañero dice: "Si entrenamos a la IA con una buena función objetivo, la IA tendrá ese objetivo. El problema es solo elegir bien la función". ¿Dónde falla este razonamiento?
-feedback-instructions:: Responde en español, 80 a 150 palabras, sin elogios genéricos. El fallo buscado: aunque la función objetivo sea buena (alineamiento externo), el modelo aprendido puede tener un objetivo distinto que solo coincide con ella durante el entrenamiento (alineamiento interno). Si el estudiante lo encuentra, pídele un ejemplo. Si no, recuérdale la analogía de la evolución. Si dice que no entiende, aísla una parte de la pregunta. Máximo 3 respuestas tuyas.
-
-# Lens: Los valores humanos son frágiles
-id:: 298db2bf-e387-4cd8-8dd8-54a80afe3d06
-tldr:: Lo que valoramos los humanos es complejo; si una IA acierta en casi todo pero falla en una pieza, el resultado puede ser un mundo sin valor.
-summary_for_tutor:: El estudiante lee "Value is Fragile" (Yudkowsky, 2009). Idea central: los valores humanos son complejos y muchos de sus componentes son imprescindibles; perder uno solo (por ejemplo, el aburrimiento o la aversión a la repetición) puede llevar a un futuro sin casi nada de lo que nos importa. Por eso "casi alineado" no basta.
-reading_minutes:: 15
-tutor_minutes:: 5
-
-#### Text
-content::
-Supongamos que conseguimos que una IA tenga objetivos **parecidos** a los nuestros. ¿Es suficiente? Este texto clásico argumenta que no:
-
-_(Lectura en inglés; traducción en preparación.)_
-
-#### Article
-source:: [[../articles/yudkowsky-value-is-fragile]]
-
-#### Question: Open
-id:: 107827bf-ee35-4c88-bb08-05235f907690
-content:: Elige algo que valores y que creas que una IA podría "olvidar" fácilmente al aprender nuestros valores. Describe cómo sería un futuro al que le faltara solo eso.
-feedback-instructions:: Responde en español, 80 a 150 palabras, sin elogios genéricos. Ayuda al estudiante a ver si su ejemplo ilustra la fragilidad: ¿el futuro resultante pierde casi todo su valor, o solo un poco? Si solo pierde un poco, pregúntale si se le ocurre un valor cuya ausencia sea más grave, como hace el texto con el aburrimiento. Máximo 2 respuestas tuyas.
-
---}# Submodule: 5. Distintos niveles de amenaza
-
-# Lens: Una lista de amenazas
+# Lens: Una--}{++{"author":"Fernando's AI","timestamp":1789672334443}@@"Una++} lista de {--{"author":"Fernando's AI","timestamp":1789672334443}@@amenazas
 id:: 63f1a7d7-2fab-42f2-82fd-19253d37c5d7
 tldr:: No hay una sola amenaza, sino al menos cinco, y resolver una no garantiza resolver la siguiente.
-summary_for_tutor:: Marco propio del curso con cinco amenazas, cada una resoluble sin resolver la siguiente: (1) los LLM de hoy; (2) los LLM de mañana (más capaces, planes largos, memoria); (3) modelos con percepción y acción (robots, interacción con otros LLM); (4) arquitecturas futuras distintas de los LLM; (5) la amenaza final: cualquier arquitectura futura, posiblemente diseñada por IA. Resolver el problema para una arquitectura concreta no garantiza nada sobre la amenaza final. La lista es una propuesta de los autores del curso, no un consenso del campo.
+summary_for_tutor:: Marco propio del curso con cinco amenazas, cada una resoluble sin resolver la siguiente: (1) los LLM de hoy; (2) los LLM de mañana (más capaces, planes largos, memoria); (3) modelos con percepción y acción (robots, interacción con otros LLM); (4) arquitecturas futuras distintas de los LLM; (5) la amenaza final: cualquier arquitectura futura, posiblemente diseñada por IA. Resolver el problema para una arquitectura concreta no garantiza nada sobre la amenaza final. La --}{++{"author":"Fernando's AI","timestamp":1789672334443}@@amenazas": ya vive en Lenses/IAquiles - Una ++}lista{--{"author":"Fernando's AI","timestamp":1789672334443}@@ es una propuesta --}{++{"author":"Fernando's AI","timestamp":1789672334443}@@ ++}de {--{"author":"Fernando's AI","timestamp":1789672334443}@@los autores del curso, no un consenso del campo.
 reading_minutes:: 4
-tutor_minutes:: 10
+tutor_minutes:: 10--}{++{"author":"Fernando's AI","timestamp":1789672334443}@@amenazas. Acepta su eliminación. %%++}
 
 #### Text
 content::
