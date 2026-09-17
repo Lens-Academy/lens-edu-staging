@@ -8,8 +8,6 @@ tags:
   - wip
 ---
 
-%% Pega aquí el contenido de la página "Estrategias Godzilla" que sigue estando dentro del módulo: todo lo que va después de content:: en ese bloque. Cuando lo hayas pegado, borra el bloque del módulo y sustitúyelo por la línea source:: que te indiqué. %%
-
 #### Text
 content::
 
