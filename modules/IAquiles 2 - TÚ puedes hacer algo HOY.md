@@ -62,7 +62,14 @@ reading_minutes:: 1
 
 #### Text
 content::
-Contenido en preparación.
+AI Safety Barcelona es la comunidad local que apoya al talento en Barcelona que trabaja en, o quiere dedicarse a, AI safety. Ofrece tres cosas:
+- Una comunidad de gente afín y motivada a trabajar en este problema.
+- Formación mediante sesiones y cursos sobre AI safety y sus distintos subcampos.
+- Apoyo y asesoramiento de carrera para clarificar tus próximos pasos profesionales.
+
+Si vives en Barcelona y alrededores, eres bienvenido/a a unirte. Puedes encontrar más información y el enlace de inscripción en aisafetybcn.org.
+
+AI Safety Barcelona también se coordina con el grupo de iAS y puede ofrecer asesoramiento de carrera a personas en el resto de España que no cuentan con una comunidad local. Puedes contactarnos en aisafetybcn@gmail.com.
 
 # Lens: AIS en otras ciudades
 id:: a1a44403-048c-48fb-b8f1-272d75f5b1ec
