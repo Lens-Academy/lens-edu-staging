@@ -288,7 +288,7 @@ Every module already has a `# Submodule: Welcome`. The work is making its conten
 
 **Runs last as of 2026-09-12; see section 4.** Everything here sits outside the unit sequence and can go live while a cohort is already running.
 
-**Condensed to two items on 2026-09-14.** Companion pieces and extended readings were separate rows and are not separate things, so they are one. The new-resources-module row is folded into a placement question rather than a deliverable: M7 already ends with a `Keep Going` submodule for what comes next, which can hold resources, so a module of their own has to earn itself against that. Deciding placement first makes the rest mechanical.
+**Condensed on 2026-09-14, then resolved.** Companion pieces and extended readings were separate rows and are not separate things, so they became one. The new-resources-module row became a placement question rather than a deliverable, since M7 already ends with a `Keep Going` submodule that could have held resources. It did not win: `Keep Going` sits at the very end, so anyone wanting a reference during unit 2 would not find it there. A module outside the unit sequence was built instead, and `Keep Going` kept its own job.
 
 | File | Change | Status |
 |---|---|---|
