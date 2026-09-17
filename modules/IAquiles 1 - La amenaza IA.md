@@ -58,66 +58,7 @@ source:: [[../Lenses/IAquiles - Una lista de amenazas]]
 %% Las páginas de arriba viven ahora en archivos propios, en la carpeta Lenses.
 La página "Estrategias Godzilla" sigue aquí abajo: dime si quieres que también la mueva. %%
 
-{--{"author":"Fernando's AI","timestamp":1789666471192}@@# Lens: ANTIGUO - Intensivo IAquiles
-id:: ad8ac856-a506-44dd-a999-9540cb536eaf
-tldr:: Este curso online prepara el intensivo presencial IAquiles en Barcelona y está abierto a cualquiera que quiera entender la amenaza de la IA y descubrir cómo empezar a luchar contra ella.
-summary_for_tutor:: Página de bienvenida. Presenta el curso online como preparación del intensivo presencial IAquiles (Barcelona, desde el 30 de septiembre de 2026), resume sus tres ideas (la humanidad está en peligro; puedes hacer algo hoy; el problema es intelectualmente fascinante) y anima a compartir el curso, especialmente con personas de grupos infrarrepresentados.
-reading_minutes:: 2
-
-#### Text
-content::
-Este curso online es una preparación para el intensivo **presencial** IAquiles sobre Seguridad frente a la Amenaza IA que tendrá lugar en Barcelona a partir del 30 de septiembre de 2026.
-
-El contenido de esta preparación se puede resumir en tres ideas:
-1. La humanidad está en peligro
-2. TÚ puedes hacer algo HOY
-3. El problema es intelectualmente fascinante
-
-Este curso online también está abierto a todas las personas interesadas en comprender mejor la amenaza a la que se enfrenta la humanidad, y deseosas de hacer algo, hoy.
-
-Comparte el link del curso presencial y de este curso online con todas las personas que podrían estar potencialmente interesadas, incluso si nunca antes se han interesado por la IA. Haz un esfuerzo especial por compartirlo con personas proclives a pensar que su género/orientación sexual/discapacidad/trasfondo familiar no va a ser el del participante medio de este tipo de eventos. Distintos estudios muestran que las personas de grupos minoritarios son también más proclives a tener síndrome del impostor y sentir que están menos capacitados que el participante medio, aunque no sea cierto.
-
-Link del preparatorio online: 
-
-
-# Lens: Antes de empezar el curso preparatorio
-id:: a2ebe160-233a-42c0-8226-e0f05ab5b454
-tldr:: Antes de leer nada, apunta tu intuición: ¿qué haría falta para que una IA fuera peligrosa de verdad?
-summary_for_tutor:: Pregunta previa del módulo. El estudiante escribe su intuición inicial sobre qué haría peligrosa a una IA. No adelantes los argumentos del módulo.
-reading_minutes:: 3
-tutor_minutes:: 2
-
-#### Text
-content::
-El primer módulo de este preparatorio defiende una tesis incómoda: **la inteligencia artificial representa un peligro para la humanidad**, y no sólo si hablamos de lo que ocurrirá dentro de siglos o décadas, sino también si hablamos de sistemas muy parecidos a los que ya existen hoy en día.
-
-Pero antes de empezar, queremos saber de dónde partes tú.
-
-#### Question: Open
-id:: e969a0e7-8cd4-47b6-9cf0-2689c67da865
-content:: En dos o tres frases: ¿qué tendría que ocurrir para que una IA fuera un peligro serio para la humanidad? ¿Qué características tendría que tener?
-placeholder:: No hay respuestas incorrectas. Escribe tu intuición.
-feedback-instructions:: Responde en español, en 1 o 2 frases. Reconoce lo que ha escrito el estudiante sin elogios genéricos. No adelantes los argumentos del módulo ni corrijas su intuición. Termina invitándole a seguir con la siguiente página.
-
-# Submodule: 2. ¿Por qué es peligrosa la IA? 
-
-# Lens: Dos argumentos
-id:: 339c474d-ef2c-453b-b519-a40709a3bbd6
-tldr:: Veremos dos tipos de argumentos: lo que las IA actuales ya han hecho, y razones teóricas para temer que el problema empeore.
-summary_for_tutor:: Página de transición que presenta los dos tipos de argumentos del módulo: hechos recientes (casos documentados de comportamiento desalineado) y argumento teórico (razones por las que el problema empeoraría si las tendencias continúan).
-reading_minutes:: 1
-
-#### Text
-content::
-A continuación veremos dos tipos de argumentos sobre la amenaza que representa la IA:
-- **Argumento a partir de los hechos recientes**: todo aquello que los sistemas actuales ya son capaces de hacer, y que efectivamente han hecho.
-- **Argumento teórico**: una serie de razones intuitivas por las que tememos que el problema sólo puede ir a peor si las cosas siguen en la dirección por la que van.
-
-# Submodule: 3. Argumento a partir de los hechos recientes
-# Lens: Los hechos recientes
-id:: 00000000-0000-4000-8000-000000000001
-
---}%% Las páginas ya movidas a la carpeta Lenses se han eliminado de aquí. %%
+%% Las páginas ya movidas a la carpeta Lenses se han eliminado de aquí. %%
 
 #### Text
 content::
