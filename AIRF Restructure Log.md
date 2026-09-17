@@ -244,7 +244,7 @@ Do not strip the Obsidian comment block in M3's welcome: it holds drafted framin
 | [[Learning Outcomes/Cosmic stakes]] | `requires` repointed, reading span added, level 4 and level 5 extended. Promoted and imported | `done` |
 | `Dive Deeper: Chapter 9` lens, id `b3132948` | Moved into the Cosmic Stakes submodule with `The Ending` and `Won't It Choose to Be Moral`. The card for the latter is still deliberately absent while its Q&A is a placeholder | `done` |
 | [[Learning Outcomes/The core extinction argument]] | **Out of scope**, and with it [[Learning Outcomes/Why we'd lose]] and [[Learning Outcomes/Your path forward]]. All three are `work-in-progress` with empty tests, none has ever had one, and M7's imports of two of them sit inside a comment block, so nothing they say is live. The synthesis they describe is already run by M7's Welcome lens as a question. Making them real means deciding whether that synthesis is a lens question or a graded outcome, which is an overhaul of the final module, not a repoint | `dropped` |
-| [[Learning Outcomes/Fiction as argument, not prediction]] | Level 5's chapter reference corrected to the film and chapter 9 by Andreas; the module label rephrased out. Nothing else touched | `drafted`, awaiting acceptance of the suggestion |
+| [[Learning Outcomes/Fiction as argument, not prediction]] | Level 5's chapter reference corrected to the film and chapter 9 by Andreas; the module label rephrased out. Nothing else touched. Its `eval-results` still carries the pre-edit `content-sha`, so the recorded A2, B1 and C3 checks describe a state the file is no longer in | `done` |
 
 ### Stage 3, recall segments
 
@@ -276,7 +276,7 @@ Every module already has a `# Submodule: Welcome`. The work is making its conten
 
 | File | Change | Status |
 |---|---|---|
-| New M1 | Receives the old M1 course orientation as a course overview, `:::callout` per unit, reading load restated | `todo` |
+| New M1 | Course overview, kept in place rather than rewritten. Gained a `\### The path` section with a `:::callout` per unit modelled on [[modules/XLab Verification Overview]], an amber `The Book` callout around the copy requirement, a Connection step in the per-unit flow, and corrected time estimates. The book-club paragraph now reads "book club (read: course)", which concedes Luc's note without deleting the sentence it annotates | `done` |
 | M2 (old M1) | Rewritten inline for chapters 1 to 3. The stale Chat block below it was left in place and unannotated, per the convention at the top | `done` |
 | M3 | Wrapper and lens renamed from `Part 3 Welcome` to `Welcome`, rewritten for chapters 4 to 6. Editorial block left in place | `done` |
 | M4 | [[Lenses/IABIED - M4 Welcome]] orphaned with a context note in the file; welcome rewritten inline. Chapters 7 and 8 now framed as optional reading rather than replaced | `done` |
