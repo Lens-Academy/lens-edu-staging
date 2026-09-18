@@ -7,7 +7,7 @@ partner-name: XLab
 partner-url: https://aisafetytracks.com/verification/landing
 tags: [wip]
 ---
-%% Demo cut of [[XLab Compute Verification]]: shares the same lens files (v-welcome, v-introduction), so edits there show up here. %%
+%% Demo cut of [[Compute Verification]]: shares the same lens files (v-welcome, v-introduction), so edits there show up here. %%
 
 # Module: [[../modules/XLab Verification Overview]]
 
