@@ -554,7 +554,7 @@ One permission gates three things, and section 8 records what its absence has al
 
 ### To raise with whoever maintains the relay
 
-- **A relay access issue found during this work** was reported to the team directly on 2026-09-17 and is already known to them. Deliberately not described here: many keys can read this file, and it is not ours to make semi-public.
+- **A relay access issue found during this work** was reported to the team directly on 2026-09-07 and is already known to them. Deliberately not described here: many keys can read this file, and it is not ours to make semi-public.
 - **Edits route to review based on whether the text looks human-written**, so the protection weakens as a file accumulates AI-authored content. Check how each edit actually landed rather than assuming.
 - **Whether module files accept `slug-aliases`** was never confirmed. None were set, so every old `iabied-m1` to `iabied-m7` URL now fails. Intended for M1 to M4 where the mapping is dirty; an accepted loss for M5 to M7 where it was clean.
 
