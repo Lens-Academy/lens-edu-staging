@@ -395,9 +395,9 @@ The sharp version is about instructions rather than duplication. A welcome canno
 
 **That removes the reason to sequence, so stage 3 proceeds.** The point of testing one beat first was to avoid writing five more against a broken premise. Waiting no longer buys that information, because the blocker is infrastructure and the test cannot be run before the briefs or after them. Two further reasons it is safe to continue. The behavior at issue is carried by the `Response style`, `Conversation flow` and `What not to do` sections, which are near-identical across the beats, so the beats will pass or fail together rather than one at a time. And if they fail, the fix lands in those shared sections, not in the per-lens answer key and grading ladder, which is the part that would actually be expensive to rewrite. The exposure is smaller than this section assumed when it was written.
 
-**Wording last, in one pass at the end of stage 3.** The briefs are consistent in shape, so a single pass surfaces systematic drift rather than one-off phrasing, and testing them individually invites tuning each against its own transcript, which overfits. Several can only be tested in sequence anyway, since the film lens reaches back to bets made in the opener.
+**Wording last, in one pass at the end of stage 3. Done 2026-09-12**, and the reasoning held: a single pass surfaced systematic drift rather than one-off phrasing, the largest finding being three prohibitions that the first two briefs carried and the five written after had lost. Testing them individually would have invited tuning each against its own transcript, which overfits. Several can only be tested in sequence anyway, since the film lens reaches back to bets made in the opener.
 
-Specific things to check in that pass:
+The checks below still need a tutor and remain unrun:
 
 - The film lens: does the tutor volunteer material from chapters 7 or 8 despite the source-precedence rule? The chapters are now in its context, so the instruction is the only thing holding the line.
 - The film lens: does it correctly treat the hostility bet as won rather than lost, given the film ends in extinction?
