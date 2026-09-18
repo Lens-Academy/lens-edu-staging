@@ -12,7 +12,7 @@ tags: [wip]
 Depreciated because it doesn't fit into 5 weeks. Current versions:
 - [[Compute Verification 1]]
 - [[Compute Verification 2]]
-- [[XLab Compute Verification Capstone]]
+- [[Compute Verification Capstone]]
 %%
 
 # Module: [[../modules/XLab Verification Overview]]
