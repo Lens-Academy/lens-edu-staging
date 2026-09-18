@@ -13,6 +13,8 @@ Git records what changed. This file records why, what it depended on, and what w
 
 **Dates:** full `YYYY-MM-DD`, on every entry. Where an entry was written up later than the work it describes, the row says so.
 
+**Section 9 is sorted by date, not by stage.** The Stage column jumps around because work moved between stages within a single day, and more than once a finding in one stage sent us back into another. Do not re-sort it: a change log is chronological, and the stage tables in section 5 are where you look to see the state of a stage. **Section 10** collects everything left open, whether or not it is ours.
+
 **Picking this up cold?** Read this file, then [[AIRF Restructure - Working Preferences]], then [[AI Guide/Course Authoring]]. Section 5 has the stage inventory with statuses; that is where to start. Conventions established in the work so far, none of them obvious from the files themselves:
 
 - **Say "unit", never "week".** The course runs in both weekly and intensive formats, and in the intensive one the sessions are back to back. Learner-facing text that says "this week" or "congratulations on completing week 1" is wrong for half the cohorts. Both of those were live in this course until stage 4 fixed them.
