@@ -116,9 +116,9 @@ Renaming descriptively does not fix the remap. `iabied-nonhuman-minds-2` would m
 
 `slug-aliases` exists as a field and is used on four course files. [[AI Guide/Writing Course Files]] documents it under **course** frontmatter, and no module file uses it, so whether modules accept it is unknown. **Worth checking with whoever owns the platform.** If they do, the right answer is: new slugs everywhere, aliases only on M5, M6 and M7 where the mapping is clean, and no alias on M1 to M4 so those old links fail visibly rather than landing on the wrong content. Break loudly only where breaking is unavoidable.
 
-**Still open, both of them, as of 2026-09-14.** Whether module files accept `slug-aliases` was never confirmed with whoever owns the platform, so no aliases were set and every old module URL now fails. That is the intended behaviour for M1 to M4, where the mapping is dirty, and an avoidable loss for M5, M6 and M7, where it is clean. And the comms pass never happened: the meeting docs were handled in stage 6, but cohort materials, Discord posts and anywhere else a module URL was pasted have not been swept. Neither blocks anything; both are the kind of thing that surfaces as a broken link months later.
+**Resolved 2026-09-17.** The new slugs are live and resolve correctly in URLs, so the scheme works. `slug-aliases` was never confirmed as a module-level field and none were set, which means every old `iabied-m1` to `iabied-m7` URL now fails rather than landing on the wrong content. That is the intended outcome for M1 to M4, where the mapping is dirty, and an accepted loss for M5 to M7, where it was clean.
 
-Either way this needs a comms pass over meeting docs, cohort materials and anywhere else a module URL was pasted. Log those as they are found.
+**Comms sweep, vault side, done 2026-09-17 and clean.** Grepping the whole vault for `iabied-m[1-7]` returns only this file's own history tables, and the one `lensacademy.org` link to IABIED content is an editor link to an article rather than a module URL. Anything outside the vault, meaning Discord posts, cohort emails and anywhere else a module URL was pasted, cannot be checked from here and is the only part of the comms pass still open.
 
 ### A concurrent workstream, not ours
 
