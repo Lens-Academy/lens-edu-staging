@@ -519,3 +519,47 @@ That wording came from the learning outcome `Machine advantages and intelligence
 | 5 | 2026-09-14 | **Companion pieces dropped** | Stage 5 table | Andreas's call, and the right one. Judging whether a piece complements the book means having read the book, and the key still cannot open `Lens Edu Private`. Section 8 already records two decisions distorted by that gap; this is the first time it has stopped something before rather than after. Dropped rather than parked once `Optional Resources` existed as a module, since a companion-pieces submodule can be added beside the glossary later without touching anything | Log only |
 | audit | 2026-09-17 | **Read the log end to end against what was actually done.** Eleven places were describing a state that had moved on | Sections 1, 3, 5, 6, 7 | The pattern worth noting: every one was a claim written while something was in progress and never revisited when it finished. Stage 4's `New M1` row still read `todo` after the work was done in four edits. `Fiction as argument` still read `awaiting acceptance` after acceptance. Section 6's decision still specified "two or three sentences" when the five welcomes that got written are two paragraphs. The unit-versus-week convention still cited files that had since been rewritten or orphaned. A log that records rationale as it goes will always drift this way, so the audit is not a one-off | Log only |
 | audit | 2026-09-17 | **Slugs confirmed live; vault-side comms sweep clean; section 9 found out of order at the tail** | Section 3, section 9 | The new slugs resolve correctly in URLs. No `slug-aliases` were set, so old module URLs fail rather than mislead, which was the intended behaviour for M1 to M4. Grepping the vault for `iabied-m[1-7]` returns only this file's own history tables, and Andreas confirmed no module-specific links were shared outside it, so the comms pass is closed. Separately, four rows had been appended out of chronological order because each append anchored on whatever text was unique rather than on the date. Reordered, and the header now states the sort | Log only |
+
+---
+
+## 10. Open items and future avenues
+
+Everything this restructure did not close, in one place. Nothing here blocks the course from running. Grouped by what would unblock it, because in most cases the answer is a permission or a person rather than work.
+
+### Waiting on the relay key reaching `Lens Edu Private`
+
+One permission gates three things, and section 8 records what its absence has already cost.
+
+- **The chapter 9 briefs are second-hand.** [[Lenses/IABIED - Cosmic Stakes]] was written from a summary given in conversation. Every claim its tutor briefs make about what the chapter says is unverified against the text, and one over-reading had to be corrected across three places. They are the weakest thing this restructure produced.
+- **The chapter 1 framing in the curses brief.** The self-amplification key was first written from an outcome statement standing in for the chapter, corrected twice, and is still unchecked against chapter 1 itself.
+- **Companion pieces.** Dropped rather than parked, because `Optional Resources` is a module: a companion-pieces submodule can be added beside the glossary at any time without touching the unit sequence.
+
+### Waiting on the Lens Tutor running on staging
+
+- **Nothing written in stages 2 or 3 has been run against a real tutor session.** Nine connection beats, the U3 opener, the film lens changes and the chapter 9 pair. Section 7 holds the five specific checks, and the premise test that was meant to precede the beats was never possible.
+- **Whether the Learning Outcome Evals can run without a live tutor** was raised and never answered. Neither `Predictable sub-goals from unknown goals` nor `Cosmic stakes` carries an `eval-results` block. If that mechanism is separate, it would cover the outcome tests while the tutor side waits.
+
+### Somebody else's to run
+
+- **The three agent checks in [[AI Guide/Writing Meeting Docs]]**, on the five meeting docs. Run upstream. What this restructure warrants is internal consistency and conformance to the master template, not a house-rules pass. Agent 3, the cold reader, is the likeliest source of anything that comes back.
+- **[[Learning Outcomes/Fiction as argument, not prediction]] carries a stale `content-sha`.** Its recorded A2, B1 and C3 results describe the file as it was before we edited it. Clearing the C3 failure needs a re-run, not just the fix.
+
+### Course design, deliberately deferred
+
+- **M7 needs an overhaul, and three outcomes are waiting on it.** `The core extinction argument`, `Why we'd lose` and `Your path forward` are all `work-in-progress` with empty tests, and M7's imports of two of them sit inside a comment block. The synthesis they describe is already run as a lens question. Making them real means deciding whether that synthesis is a lens question or a graded outcome.
+- **[[Learning Outcomes/The five engineering curses]] fails A2 and B1 in its own eval**, for testing what one chapter names rather than a capability. Its glossary entry supplies every rung of its rubric, which is a symptom rather than a cause. Anyone rewriting it should read that entry first.
+- **The legacy `#### Question` syntax** across the six chapter lenses. New segments use the current form, so those files are mixed. Converting the rest means editing segments learners have already answered.
+- **`add_to_ai_context` reaches the tutor twice for chapter 4**, once from the lens frontmatter and once from M3's submodule, in two different syntaxes. Whether the platform de-duplicates is unknown, and nothing suggests chapter 4 is special.
+- **Two cards return when their content does.** `Won't It Choose to Be Moral` is imported but deliberately not carded while its Q&A is a placeholder, and `The Two Prayers` outcome and priming question are commented out in M6 to reduce final-unit load.
+
+### To raise with whoever maintains the relay
+
+- **Unscoped `grep` and `glob` return content and paths from folders the key cannot `read`**, including `Lens Edu Private`. Scoped calls and `read` enforce correctly, so the hole is specifically the no-path case.
+- **Edits route to review based on whether the text looks human-written**, so the protection weakens as a file accumulates AI-authored content. Check how each edit actually landed rather than assuming.
+- **Whether module files accept `slug-aliases`** was never confirmed. None were set, so every old `iabied-m1` to `iabied-m7` URL now fails. Intended for M1 to M4 where the mapping is dirty; an accepted loss for M5 to M7 where it was clean.
+
+### Not ours, but worth knowing
+
+- **`Navigator Session 1 Debrief` still collects `risk_seriousness` and `agency_belief`**, which the course file says were deliberately shared with the learner instrument so the two trajectories would be comparable in one export. The learner side no longer collects them, so that comparison has no other half.
+- **The v2 survey set dropped the legacy `key::` fields and the two-timepoint join.** Replaced by a retrospective before-and-after pair inside the final survey. None of it touches the restructure.
+- **Six non-IABIED modules still use `##` for their imports**, about 110 lines. Left alone deliberately; the normalisation was course-local.
