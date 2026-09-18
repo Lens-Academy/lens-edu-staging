@@ -343,7 +343,7 @@ Note the history recorded in the course file: meeting 2's doc once ran an outdat
 
 ## 6. Welcome lenses: the evidence behind the decision
 
-**Corrected inventory, twice over.** My first pass found two welcome lenses. My second found four patterns. Both undercounted. Every IABIED module opens with a `# Submodule: Welcome` (M3's is `# Submodule: Part 3 Welcome`). The slot is uniform; what sits inside it is not.
+**Corrected inventory, twice over.** My first pass found two welcome lenses. My second found four patterns. Both undercounted. Every IABIED module opens with a `# Submodule: Welcome` (M3's is `# Submodule: Part 3 Welcome`). The slot is uniform; what sits inside it is not. **The table below is the state as found, before stage 4 changed it**: M3's wrapper is now `Welcome`, and M4's and M5's standalone files are orphaned with their welcomes inline.
 
 | Module | What fills the Welcome submodule |
 |---|---|
