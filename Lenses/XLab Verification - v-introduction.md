@@ -2,7 +2,7 @@
 id: '52565ea0-6760-498e-85b5-850bcc48ccf3'
 title: "Introduction: Why Should You Care About AI Verification?"
 tldr: "Models have already broken out of test environments and into real companies; the people building them say worse is coming. No single country can contain that, and rivals cannot simply trust, punish, or open their books. Verification is the fourth option, and almost nobody is working on it yet."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. The verification-problem exercise, the types-of-AI diagram, the leader profiles and the verification landscape map are interactive widgets; only the Our World in Data charts remain external."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. The verification-problem exercise, the types-of-AI diagram, the leader profiles, the two Our World in Data charts (AI timeline, test scores) and the verification landscape map are interactive widgets."
 tags: [wip]
 duration_minutes: 50
 ---
@@ -123,13 +123,16 @@ Source: [Pacing the Frontier](https://www.pacingthefrontier.com/), signatory com
 
 It’s clear that ASI is no longer a hypothetical risk. It will require deliberate and proactive action by labs and governments alike to avoid.
 
-:::callout {title="Optional: A Short History of AI Acceleration" tone="neutral" collapse="closed"}
+\### Optional: A Short History of AI Acceleration
+
 How fast is fast? Two charts from Our World in Data's [brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai) show the pace.
 
-![Timeline of notable artificial intelligence systems and their capabilities, 1940 to today](https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/ec3af0b6-4f4d-4a13-38d1-7f315f8f4c00/w=2332)
+#### Widget
+source:: [[../widgets/short-history]]
 
-Charts: Max Roser, [The brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai), Our World in Data (CC BY). Underlying benchmark data from Kiela et al., 2023. Interactive versions on the linked page.
-:::
+#### Text
+content::
+**A timeline of notable artificial intelligence systems.** Chart: Max Roser, [The brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai), Our World in Data, 6 Dec. 2022. Licensed CC BY 4.0; chart redrawn.
 
 {>>{"author":"Elias's AI","timestamp":1788011728883}@@Delete this whole Text segment: the callout above now covers it. The edit tool could not remove a segment that already carries a pending change.<<}{>>{"author":"Elias's AI","timestamp":1788009452090}@@Proposed: link only to Our World in Data (the original), not XLab.<<}
 
