@@ -7,7 +7,7 @@ description: "How could rival states check that each other actually stopped? Fiv
 partner-url: https://aisafetytracks.com/verification/landing
 tags: [wip, visible-in-skilltree]
 ---
-%% Source curriculum: https://aisafetytracks.com/tracks/verification (repo: https://github.com/XLabTracks/tracks)
+%% Source curriculum: https://aisafetytracks.com/tracks/verification
 
 This course is the first five weeks of the re-cut ten-week run of that curriculum. Weeks 6 to 10 are a separate course, and the capstone is a third. The original five-module course ([[XLab Compute Verification]]) stays untouched.
 
