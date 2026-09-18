@@ -9,6 +9,36 @@ authors:
 
 Git records what changed. This file records why, what it depended on, and what we decided against. Update it in the same commit as the change it describes.
 
+---
+
+## Summary
+
+**What happened.** The course was restructured between 2026-09-08 and 2026-09-17. Part I of the book now splits three and three with the Introduction pulled out ahead of the first meeting. Chapter 9 returns as a reading after the film, and the instrumental-convergence extension becomes required at the head of unit 3. Nine lenses gained a beat that asks the learner to retrieve an earlier idea without being told which one. All five unit welcomes were rewritten and the two standalone ones orphaned. The five meeting docs were reformatted onto the current house template and their chapters rebalanced. A glossary and an optional-resources module were added outside the unit sequence.
+
+What did not change: the course still runs five meetings, no module was created or destroyed, and no published id moved. That last one was a deliberate constraint from the start, because learner progress is keyed on those ids.
+
+**The units now read:** Introduction. U1, chapters 1 to 3. U2, chapters 4 to 6. U3, two goal extensions, the film in place of chapters 7 and 8, then chapter 9 and the Coda. U4, chapters 10 and 11. U5, chapters 12 to 14 and the Closing Words, with the synthesis and action plan after them.
+
+**Status.** Every stage is closed and the course validates clean, with and without pending drafts. Two caveats belong on the front page rather than buried. Nothing written in stages 2 or 3 has been run against a live tutor, because the Lens Tutor is not on staging. And the chapter 9 material was written from a summary rather than from the chapter, because the relay key cannot open `Lens Edu Private`; it is the weakest thing here and section 8 says why.
+
+**Where things are.**
+
+| Section | What it holds |
+|---|---|
+| 1, 2 | Decisions taken before execution and on greenlight, with their reasons, recorded so they are not re-argued |
+| 3 | The dependency scan: what the restructure broke, the slug scheme, surveys, and conditions deliberately left alone |
+| 4 | Why the stages ran in the order they did |
+| 5 | **The stage inventory, file by file, with statuses. Start here** |
+| 6 | The evidence behind the welcome decision and the rules it produced |
+| 7 | Testing, and why none of it has happened |
+| 8 | What writing about unreadable chapters has cost, twice |
+| 9 | The chronological log: every change, why it was made, and how it landed |
+| 10 | Everything still open, grouped by what would unblock it |
+
+**Stage numbers are identifiers, not positions.** Stage 6 ran before stage 5, and section 4 says why.
+
+---
+
 **Status key:** `todo`, `drafted`, `in progress`, `done`, `blocked`, `parked`, `dropped`.
 
 **Dates:** full `YYYY-MM-DD`, on every entry. Where an entry was written up later than the work it describes, the row says so.
