@@ -90,18 +90,18 @@ tags: [wip]
 
   <div class="stage" id="stage">
     <div class="flip" id="flip">
-      <form class="face face-a" id="form-a">
+      <div class="face face-a" id="form-a">
         <p class="eyebrow">Side A · The goal</p>
         <label for="pc-policy">A policy you strongly believe in:</label>
         <input type="text" id="pc-policy" maxlength="90" autocomplete="off" placeholder="type it here…">
         <div class="chips" id="chips"><span>or borrow one:</span></div>
         <div class="foot">
           <span></span>
-          <button type="submit" class="primary" id="flip-btn" disabled>Flip the card</button>
+          <button type="button" class="primary" id="flip-btn" disabled>Flip the card</button>
         </div>
-      </form>
+      </div>
 
-      <form class="face face-b" id="form-b" inert>
+      <div class="face face-b" id="form-b" inert>
         <p class="eyebrow">Side B · The price</p>
         <p class="echo">Side A: <b id="echo"></b></p>
         <label for="pc-price">One real cost or downside of enforcing it:</label>
@@ -110,9 +110,9 @@ tags: [wip]
         <p class="lenses" id="lenses" hidden>Who pays? · Who is constrained? · What does enforcing it require? · What happens to those who refuse?</p>
         <div class="foot">
           <button type="button" id="back-btn">← Back</button>
-          <button type="submit" class="primary" id="face-btn" disabled>Face the tradeoff</button>
+          <button type="button" class="primary" id="face-btn" disabled>Face the tradeoff</button>
         </div>
-      </form>
+      </div>
     </div>
   </div>
 
@@ -282,14 +282,34 @@ tags: [wip]
   policyInput.addEventListener("input", function () { state.policy = policyInput.value; render(); persist(); });
   priceInput.addEventListener("input", function () { state.price = priceInput.value; render(); persist(); });
 
-  formA.addEventListener("submit", function (event) {
-    event.preventDefault();
+  // The two sides are plain divs, not forms, and both commit buttons are type="button":
+  // the widget runs in a sandboxed iframe without allow-forms, where the browser aborts
+  // form submission before the submit event is ever fired, so a submit handler never runs.
+  function goToPrice() {
     if (!state.policy.trim()) return;
     state.flipped = true;
     render();
     persist();
     window.setTimeout(function () { priceInput.focus({ preventScroll: true }); }, 560);
-  });
+  }
+  function faceTradeoff() {
+    if (!state.policy.trim() || !state.price.trim()) return;
+    state.faced = true;
+    render();
+    persist();
+  }
+  function onEnter(handler) {
+    return function (event) {
+      if (event.key !== "Enter" || event.shiftKey || event.altKey || event.ctrlKey || event.metaKey) return;
+      event.preventDefault();
+      handler();
+    };
+  }
+
+  flipBtn.addEventListener("click", goToPrice);
+  faceBtn.addEventListener("click", faceTradeoff);
+  policyInput.addEventListener("keydown", onEnter(goToPrice));
+  priceInput.addEventListener("keydown", onEnter(faceTradeoff));
   backBtn.addEventListener("click", function () {
     state.flipped = false;
     render();
@@ -297,13 +317,6 @@ tags: [wip]
     window.setTimeout(function () { policyInput.focus({ preventScroll: true }); }, 560);
   });
   stuckBtn.addEventListener("click", function () { state.lenses = !state.lenses; render(); persist(); });
-  formB.addEventListener("submit", function (event) {
-    event.preventDefault();
-    if (!state.policy.trim() || !state.price.trim()) return;
-    state.faced = true;
-    render();
-    persist();
-  });
   document.getElementById("again").addEventListener("click", function () {
     if (state.policy.trim() && state.price.trim()) {
       state.history.push({ policy: state.policy.trim(), price: state.price.trim(), ease: state.ease });
