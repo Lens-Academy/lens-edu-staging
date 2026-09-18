@@ -45,7 +45,7 @@ What did not change: the course still runs five meetings, no module was created 
 
 **Section 9 is sorted by date, not by stage.** The Stage column jumps around because work moved between stages within a single day, and more than once a finding in one stage sent us back into another. Do not re-sort it: a change log is chronological, and the stage tables in section 5 are where you look to see the state of a stage. **Section 10** collects everything left open, whether or not it is ours.
 
-**Picking this up cold?** Read this file, then [[AIRF Restructure - Working Preferences]], then [[AI Guide/Course Authoring]]. Section 5 has the stage inventory with statuses; that is where to start. Conventions established in the work so far, none of them obvious from the files themselves:
+**Picking this up cold?** The summary above maps the file. Read [[AIRF Restructure - Working Preferences]] next, then [[AI Guide/Course Authoring]]. The conventions below were established in the work and none of them is obvious from the files themselves:
 
 - **Say "unit", never "week".** The course runs in both weekly and intensive formats, and in the intensive one the sessions are back to back. Learner-facing text that says "this week" or "congratulations on completing week 1" is wrong for half the cohorts. Both of those were live in this course until stage 4 fixed them.
 - **Spelling is American throughout.** `Behavior vs. values`, `Grown, not crafted`. Easy to drift out of.
