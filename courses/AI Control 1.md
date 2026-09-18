@@ -12,9 +12,9 @@ partner-url: "https://xrisk.uchicago.edu/"
 
 %%
 Links:
-- XLab original: https://aisafetytracks.com/tracks/control
+- {--{"author":"AI","timestamp":1789738742502}@@XLab original:--}{++{"author":"AI","timestamp":1789738742502}@@Original:++} https://aisafetytracks.com/tracks/control
 
-Split (September 2026): XLab's seven-module track (2639 min core, no tutor time) is cut into two five-day courses of equal length. Part 1 = M1 to M3 plus the first part of M4 (through "Why it's hard to make settings for high-stakes control research"), 1318 min core. Part 2 = the M4 guided exercises (collusion, legibility) plus M5 to M7, 1321 min core. The old M1 to M7 module files are in _deprecated; lenses are unchanged.
+Split (September 2026): {--{"author":"AI","timestamp":1789738742502}@@XLab's--}{++{"author":"AI","timestamp":1789738742502}@@the original++} seven-module track (2639 min core, no tutor time) is cut into two five-day courses of equal length. {--{"author":"AI","timestamp":1789738742502}@@Part--}{++{"author":"AI","timestamp":1789738742502}@@AI Control++} 1 = M1 to M3 plus the first part of M4 (through "Why it's hard to make settings for high-stakes control research"), 1318 min core. {--{"author":"AI","timestamp":1789738742502}@@Part--}{++{"author":"AI","timestamp":1789738742502}@@AI Control++} 2 = the M4 guided exercises (collusion, legibility) plus M5 to M7, 1321 min core. The old M1 to M7 module files are in _deprecated; lenses are unchanged.
 
 Core self-study per day: D1 217 min, D2 240, D3 277, D4 299, D5 285. Optional: D5 adds 20 (synchronous monitors).
 

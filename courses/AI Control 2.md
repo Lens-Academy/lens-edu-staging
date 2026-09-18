@@ -10,9 +10,9 @@ partner-url: "https://xrisk.uchicago.edu/"
 
 %%
 Links:
-- XLab original: https://aisafetytracks.com/tracks/control
+- Original: https://aisafetytracks.com/tracks/control
 
-Days 6 to 10 of the five-day split of XLab's track (see the Part 1 course file for the split rationale). Core self-study per day: D1 257 min, D2 255, D3 227, D4 300, D5 282. Optional: D3 adds 60 (the full capability elicitation paper).
+Days 6 to 10 of the five-day split of the original track (see the AI Control 1 course file for the split rationale). Core self-study per day: D1 257 min, D2 255, D3 227, D4 300, D5 282. Optional: D3 adds 60 (the full capability elicitation paper).
 
 Meeting 5 uses AC2 Final Impact Survey v2 (copy of CV1 Final with fresh ids and the course name swapped); meetings 1 to 4 use the shared Lens Post-Meeting Impact Survey v2.
 %%
