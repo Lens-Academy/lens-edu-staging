@@ -1,7 +1,7 @@
 ---
 id: '9ddb06ed-48ed-4b59-a74c-786fd336e8b3'
 title: Scoping an anti-ASI policy
-summary_for_tutor: "A three-step sorting exercise on the effectiveness versus feasibility plane. Step 1, the axes: the learner opens two five-rung scales (effectiveness: Symbolic, Marginal, Meaningful, Strong, Decisive; feasibility: Off the table, Long shot, Heavy lift, Within reach, Already happening). Step 2, the buckets: eleven anti-ASI policy buckets from self-governance to a coordinated halt, each with a description and a historical parallel; the sort unlocks once all eleven are read. Step 3, the sort: the learner drags (or clicks to pick up and place) every bucket onto a 5 by 5 feasibility x effectiveness grid, then checks. Each placement is marked on the mark, close (one rung off on either axis) or off against XLab's reference cells, with a nudge saying which direction the reference has it. Once every bucket is on the mark, or the learner reveals the reference map after a check, XLab's rationale per bucket appears and the securitization question unlocks: which bucket becomes the design target for verification mechanisms (answer: the coordinated halt; wrong picks get an explanation and can retry). Done means the correct exception was picked. Their current placements and verdicts reach you in the widget-state paragraph. The corners are settled and the middle band is contestable, so accept an argued one-rung deviation. Content ported from XLab's Verification track."
+summary_for_tutor: "A sorting exercise on the effectiveness versus feasibility plane. The two five-rung scales (effectiveness: Symbolic, Marginal, Meaningful, Strong, Decisive; feasibility: Off the table, Long shot, Heavy lift, Within reach, Already happening) and the eleven anti-ASI policy buckets from self-governance to a coordinated halt, each with a description and a historical parallel, are on the lesson page above the widget as collapsed callouts, so the widget itself is the sort plus one follow-up question. The learner drags (or clicks to pick up and place) every bucket onto a 5 by 5 feasibility x effectiveness grid, then checks. Each placement is marked on the mark, close (one rung off on either axis) or off against XLab's reference cells, with a nudge saying which direction the reference has it. Once every bucket is on the mark, or the learner reveals the reference map after a check, XLab's rationale per bucket appears and the securitization question unlocks: which bucket becomes the design target for verification mechanisms (answer: the coordinated halt; wrong picks get an explanation and can retry). Done means the correct exception was picked. Their current placements and verdicts reach you in the widget-state paragraph. The corners are settled and the middle band is contestable, so accept an argued one-rung deviation. Content ported from XLab's Verification track."
 height: auto
 tags: [wip]
 ---
@@ -35,55 +35,14 @@ tags: [wip]
   button.primary:disabled:hover { background: var(--accent); }
   button.quiet { border-color: transparent; background: transparent; padding: 4px 6px; }
   button.quiet:hover { background: var(--surface); }
-  button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  /* No browser focus ring on click; keyboard users get a ring in the course accent. */
+  button:focus { outline: none; }
+  body.kb button:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
   .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
   .muted { color: var(--muted); }
   .small { font-size: 12px; }
   .lede { color: var(--muted); margin: 0 0 12px; max-width: 44rem; }
-  .card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: #fff; }
   .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
-
-  /* phase nav */
-  .nav { display: flex; flex-wrap: wrap; gap: 4px 18px; border-bottom: 1px solid var(--border); padding-bottom: 8px; margin-bottom: 16px; }
-  .nav button { border: 0; background: transparent; padding: 4px 0; color: var(--muted); border-radius: 0; }
-  .nav button:hover { background: transparent; color: var(--text); }
-  .nav button.is-current { color: var(--text); font-weight: 600; border-bottom: 2px solid var(--accent); }
-  .nav button:disabled { color: #b5b1a8; }
-  .nav .num { font-size: 12px; font-weight: 400; color: var(--muted); margin-right: 4px; }
-  .nav .done { font-size: 12px; font-weight: 400; color: var(--accent); margin-left: 6px; }
-
-  /* axes phase */
-  .axes { display: grid; gap: 12px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .axes .card { display: flex; flex-direction: column; gap: 8px; }
-  .axes .q { font-weight: 600; font-size: 15px; }
-  .axes .lead { color: var(--muted); flex: 1; }
-  .axes .row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
-  .seen { color: var(--accent); font-weight: 600; font-size: 12px; }
-  .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 16px; }
-
-  /* scale panel */
-  .scale { border: 1px solid var(--accent); border-radius: 8px; padding: 14px 16px; background: var(--surface); margin: 12px 0; }
-  .scale-top { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
-  .scale ol { list-style: none; margin: 10px 0 6px; padding: 0; display: flex; flex-direction: column; gap: 6px; }
-  .scale li { display: grid; grid-template-columns: auto 1fr; gap: 0 10px; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 6px 10px; }
-  .scale li .n { color: var(--muted); font-variant-numeric: tabular-nums; }
-  .scale li .rn { font-weight: 600; }
-
-  /* cards phase */
-  .ramp { display: grid; grid-template-columns: 6px 1fr; column-gap: 12px; row-gap: 6px; }
-  .ramp .bar { background: var(--accent); border-radius: 3px; }
-  .bucket { border: 1px solid var(--border); border-radius: 8px; background: #fff; overflow: hidden; }
-  .bucket.is-read { border-color: #cfc9bd; background: var(--surface); }
-  .bucket.is-open { border-color: var(--accent); background: #fff; }
-  .bucket > button { width: 100%; border: 0; border-radius: 0; background: transparent; display: flex; align-items: baseline; gap: 8px; padding: 10px 12px; }
-  .bucket > button:hover { background: var(--surface); }
-  .bucket .bn { color: var(--muted); font-variant-numeric: tabular-nums; flex: none; width: 22px; }
-  .bucket .bname { font-weight: 600; flex: 1; min-width: 0; }
-  .bucket .readmark { font-size: 12px; color: var(--accent); flex: none; }
-  .bucket .plus { color: var(--muted); font-size: 18px; line-height: 1; flex: none; }
-  .bucket .body { padding: 0 12px 12px; display: flex; flex-direction: column; gap: 10px; }
-  .bucket .parallel { border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; background: var(--surface); }
-  .bucket .parallel p + p { margin-top: 4px; }
 
   /* sort phase */
   .sort { display: grid; gap: 20px; grid-template-columns: minmax(0, 1fr) 20rem; }
@@ -124,7 +83,7 @@ tags: [wip]
   .cell .target { position: absolute; inset: 0; border: 0; border-radius: 0; background: transparent; padding: 0; cursor: default; }
   .cell.is-armable .target { cursor: pointer; }
   .cell .target:hover { background: transparent; }
-  .cell .target:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+  body.kb .cell .target:focus { outline: 2px solid var(--accent); outline-offset: -2px; }
   .cell .chip { position: relative; z-index: 2; padding: 2px 7px 2px 5px; font-size: 10px; line-height: 1.2; max-width: 100%; }
   .cell .chip .short { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .corner { position: absolute; z-index: 3; font-size: 9px; letter-spacing: 0.05em; color: #a19b91; border: 0; background: transparent; padding: 0; cursor: help; }
@@ -174,22 +133,21 @@ tags: [wip]
   .dragghost { position: fixed; top: 0; left: 0; z-index: 50; pointer-events: none; border: 1px solid var(--accent); border-radius: 8px; background: #fff; padding: 3px 10px; font-size: 12px; font-weight: 500; box-shadow: 0 1px 2px rgba(0,0,0,0.12); }
 
   @media (max-width: 900px) { .sort { grid-template-columns: minmax(0, 1fr); } }
-  @media (max-width: 600px) { .axes { grid-template-columns: minmax(0, 1fr); } .plane { gap: 4px; } }
+  @media (max-width: 600px) { .plane { gap: 4px; } }
 </style>
 </head>
 <body>
 <p class="eyebrow">Exercise</p>
 <h1>Scoping an anti-ASI policy</h1>
-<p class="lede">Sort the policy buckets on the feasibility x effectiveness matrix. Three steps: read the two scales, read the eleven buckets, then place every bucket on the plane and check.</p>
+<p class="lede">Sort the policy buckets on the feasibility x effectiveness matrix. The scales and the eleven buckets are described above. Place each bucket on the plane, then check.</p>
 
-<div class="nav" id="nav" role="tablist" aria-label="Steps"></div>
-<div id="phase-axes"></div>
-<div id="phase-cards" hidden></div>
-<div id="phase-sort" hidden></div>
+<div id="sort-root"></div>
 <div id="live" class="sr-only" aria-live="polite"></div>
 
 <script>
   "use strict";
+  document.addEventListener("keydown", function (e) { if (e.key === "Tab") document.body.classList.add("kb"); });
+  document.addEventListener("pointerdown", function () { document.body.classList.remove("kb"); });
 
   // ---------- Data (from src/lib/verification/data/policy-scoping.ts) ----------
   var AXIS_SCALES = {
@@ -295,20 +253,8 @@ tags: [wip]
   };
 
   var C = {
-    phases: ["The axes", "The buckets", "The sort"],
-    axesKicker: "Before the buckets: the two words doing the work.",
-    axesHint: "Open both scales, then continue.",
-    axesContinue: "To the buckets",
-    openScale: "Open the scale",
-    scaleSeen: "Seen",
-    scaleLowHigh: "low → high",
-    cardsKicker: "Eleven policy buckets, from the least demanding ask to the most. Open each one. The sort unlocks after you have read all eleven.",
     cardParallelTag: "Historical parallel",
-    rampTop: "Least demanding ask",
-    rampBottom: "Most demanding ask",
-    cardToSort: "To the sort",
-    readMark: "Read",
-    sortHint: "Drag each bucket onto the plane, then check. On a keyboard or a phone: pick a bucket up, then pick a cell. The axis titles reopen the two scales; pick a chip up to see its description.",
+    sortHint: "Drag each bucket onto the plane, then check. On a keyboard or a phone: pick a bucket up, then pick a cell. Pick a chip up to see its description; the axis titles and the rung labels carry their definitions.",
     trayLabel: "The eleven policy buckets: drag onto the plane",
     stats: [
       { n: "11", l: "buckets, from voluntary commitments to a coordinated halt" },
@@ -408,22 +354,16 @@ tags: [wip]
 
   // ---------- State ----------
   var S = {
-    phase: 0, maxPhase: 0,
-    scalesSeen: { effectiveness: false, feasibility: false },
-    seen: {},
     placements: {},
     checkedOnce: false, keyOn: false,
     excPicked: null, excDone: false
   };
   BUCKETS.forEach(function (b) { S.placements[b.id] = { cell: null, verdict: null }; });
-  var ui = { scaleOpen: null, openIdx: null, armedId: null, info: null, completedSent: false };
+  var ui = { armedId: null, info: null, completedSent: false };
   var STORAGE_KEY = "lens-widget-policy-scoping";
 
   function say(msg) { document.getElementById("live").textContent = msg; }
 
-  function bothScalesSeen() { return S.scalesSeen.effectiveness && S.scalesSeen.feasibility; }
-  function seenCount() { return Object.keys(S.seen).length; }
-  function allCardsSeen() { return seenCount() === BUCKETS.length; }
   function placedCount() { return BUCKETS.filter(function (b) { return !!S.placements[b.id].cell; }).length; }
   function verdicts() { return BUCKETS.map(function (b) { return S.placements[b.id].verdict; }); }
   function allVerdicts() { return verdicts().every(function (v) { return !!v; }); }
@@ -436,16 +376,13 @@ tags: [wip]
   // ---------- Summary for the tutor ----------
   function summary() {
     var lines = [];
-    lines.push("Step " + (S.phase + 1) + " of 3 (" + C.phases[S.phase] + ").");
-    lines.push("Scales opened: " + (S.scalesSeen.effectiveness ? "effectiveness" : "") + (bothScalesSeen() ? " and " : "") + (S.scalesSeen.feasibility ? "feasibility" : "") + (!S.scalesSeen.effectiveness && !S.scalesSeen.feasibility ? "none" : "") + ".");
-    lines.push("Bucket cards read: " + seenCount() + " of " + BUCKETS.length + ".");
     var placed = BUCKETS.filter(function (b) { return S.placements[b.id].cell; });
     if (placed.length) {
       lines.push("Placements (" + placed.length + " of " + BUCKETS.length + "): " + placed.map(function (b) {
         var p = S.placements[b.id];
         return b.name + " at " + cellLabel(p.cell) + (p.verdict ? " (" + verdictLabel(p.verdict) + (p.verdict === "right" ? "" : ", reference has it " + nudge(b, p.cell)) + ")" : " (not yet checked)");
       }).join("; ") + ".");
-    } else if (S.phase === 2) {
+    } else {
       lines.push("No bucket placed yet.");
     }
     if (S.checkedOnce) lines.push("Last check: " + rightCount() + " on the mark, " + closeCount() + " close, " + (BUCKETS.length - rightCount() - closeCount()) + " off or moved since.");
@@ -456,7 +393,6 @@ tags: [wip]
 
   function persist() {
     var json = {
-      phase: S.phase, maxPhase: S.maxPhase, scalesSeen: S.scalesSeen, seen: Object.keys(S.seen),
       placements: {}, checkedOnce: S.checkedOnce, keyOn: S.keyOn, excPicked: S.excPicked, excDone: S.excDone
     };
     BUCKETS.forEach(function (b) { json.placements[b.id] = S.placements[b.id]; });
@@ -468,151 +404,8 @@ tags: [wip]
     }
   }
 
-  // ---------- Phase nav ----------
-  var nav = document.getElementById("nav");
-  var navBtns = C.phases.map(function (label, i) {
-    var b = btn("", null, "nav-" + i);
-    b.setAttribute("role", "tab");
-    b.appendChild(el("span", "num", (i + 1) + "."));
-    b.appendChild(el("span", "lbl", label));
-    var d = el("span", "done", "✓ done");
-    d.hidden = true;
-    b.appendChild(d);
-    b.addEventListener("click", function () { goTo(i); });
-    nav.appendChild(b);
-    return b;
-  });
-  function goTo(p) {
-    S.phase = p;
-    if (p > S.maxPhase) S.maxPhase = p;
-    render();
-    persist();
-  }
-
-  // ---------- Scale panel (shared) ----------
-  var scalePanel = el("div", "scale");
-  scalePanel.hidden = true;
-  var scaleTop = el("div", "scale-top");
-  var scaleTitle = el("h2", null, "");
-  var scaleClose = btn("quiet small", "Close", "scale-close");
-  scaleTop.appendChild(scaleTitle); scaleTop.appendChild(scaleClose);
-  var scaleLead = el("p", "muted", "");
-  var scaleList = el("ol");
-  var scaleNote = el("p", "muted small", C.scaleLowHigh);
-  scalePanel.appendChild(scaleTop); scalePanel.appendChild(scaleLead); scalePanel.appendChild(scaleList); scalePanel.appendChild(scaleNote);
-  scaleClose.addEventListener("click", function () { ui.scaleOpen = null; render(); });
-
-  function openScale(key) {
-    ui.scaleOpen = key;
-    if (!S.scalesSeen[key]) { S.scalesSeen[key] = true; }
-    render();
-    persist();
-  }
-  function renderScale() {
-    if (!ui.scaleOpen) { scalePanel.hidden = true; return; }
-    var scale = AXIS_SCALES[ui.scaleOpen];
-    scaleTitle.textContent = scale.title;
-    scaleLead.textContent = scale.lead;
-    clear(scaleList);
-    for (var i = scale.rungs.length - 1; i >= 0; i--) {
-      var li = el("li");
-      li.appendChild(el("span", "n", (i + 1) + "."));
-      var s = el("span");
-      s.appendChild(el("span", "rn", scale.rungs[i].name));
-      s.appendChild(el("span", "muted", ": " + scale.rungs[i].gloss));
-      li.appendChild(s);
-      scaleList.appendChild(li);
-    }
-    var slot = S.phase === 2 ? sortScaleSlot : axesScaleSlot;
-    if (scalePanel.parentNode !== slot) slot.appendChild(scalePanel);
-    scalePanel.hidden = false;
-  }
-
-  // ---------- Phase 0: the axes ----------
-  var phaseAxes = document.getElementById("phase-axes");
-  phaseAxes.appendChild(el("p", "lede", C.axesKicker));
-  var axesGrid = el("div", "axes");
-  var axesSeenMarks = {};
-  ["effectiveness", "feasibility"].forEach(function (key) {
-    var scale = AXIS_SCALES[key];
-    var card = el("div", "card");
-    card.appendChild(el("p", "q", scale.question));
-    card.appendChild(el("p", "lead", scale.lead));
-    var row = el("div", "row");
-    var open = btn("", C.openScale, "open-" + key);
-    open.addEventListener("click", function () { openScale(key); });
-    var mark = el("span", "seen", "✓ " + C.scaleSeen);
-    mark.hidden = true;
-    axesSeenMarks[key] = { mark: mark, open: open };
-    row.appendChild(open); row.appendChild(mark);
-    card.appendChild(row);
-    axesGrid.appendChild(card);
-  });
-  phaseAxes.appendChild(axesGrid);
-  var axesScaleSlot = el("div");
-  phaseAxes.appendChild(axesScaleSlot);
-  var axesActions = el("div", "actions");
-  var axesContinue = btn("primary", C.axesContinue, "axes-continue");
-  axesContinue.addEventListener("click", function () { ui.scaleOpen = null; goTo(1); });
-  var axesHint = el("p", "muted small", C.axesHint);
-  axesActions.appendChild(axesContinue); axesActions.appendChild(axesHint);
-  phaseAxes.appendChild(axesActions);
-
-  // ---------- Phase 1: the buckets ----------
-  var phaseCards = document.getElementById("phase-cards");
-  phaseCards.appendChild(el("p", "lede", C.cardsKicker));
-  phaseCards.appendChild(el("p", "eyebrow", C.rampTop));
-  var ramp = el("div", "ramp");
-  ramp.style.marginTop = "6px";
-  var cardEls = {};
-  BUCKETS.forEach(function (b, i) {
-    var bar = el("div", "bar");
-    bar.style.opacity = String((0.12 + (0.88 * i) / (BUCKETS.length - 1)).toFixed(2));
-    ramp.appendChild(bar);
-    var wrap = el("div", "bucket");
-    var head = btn("", null, "card-" + b.id);
-    head.setAttribute("aria-expanded", "false");
-    head.appendChild(el("span", "bn", b.n + "."));
-    head.appendChild(el("span", "bname", b.name));
-    var readmark = el("span", "readmark", "✓ " + C.readMark);
-    readmark.hidden = true;
-    head.appendChild(readmark);
-    head.appendChild(el("span", "plus", "+"));
-    head.addEventListener("click", function () { toggleCard(i); });
-    var body = el("div", "body");
-    body.hidden = true;
-    body.appendChild(el("p", null, b.desc));
-    var par = el("div", "parallel");
-    par.appendChild(el("p", "eyebrow", C.cardParallelTag + ": " + b.parallel.title));
-    par.appendChild(el("p", null, b.parallel.text));
-    body.appendChild(par);
-    wrap.appendChild(head); wrap.appendChild(body);
-    ramp.appendChild(wrap);
-    cardEls[b.id] = { wrap: wrap, head: head, body: body, readmark: readmark, plus: head.lastChild };
-  });
-  phaseCards.appendChild(ramp);
-  var rampBottom = el("p", "eyebrow", C.rampBottom);
-  rampBottom.style.marginTop = "6px";
-  phaseCards.appendChild(rampBottom);
-  var cardsActions = el("div", "actions");
-  var toSort = btn("primary", C.cardToSort, "cards-to-sort");
-  toSort.addEventListener("click", function () { goTo(2); });
-  var readCount = el("p", "muted small", "");
-  readCount.setAttribute("aria-live", "polite");
-  cardsActions.appendChild(toSort); cardsActions.appendChild(readCount);
-  phaseCards.appendChild(cardsActions);
-
-  function toggleCard(i) {
-    var b = BUCKETS[i];
-    ui.openIdx = ui.openIdx === i ? null : i;
-    var wasSeen = !!S.seen[b.id];
-    S.seen[b.id] = true;
-    render();
-    if (!wasSeen) persist();
-  }
-
-  // ---------- Phase 2: the sort ----------
-  var phaseSort = document.getElementById("phase-sort");
+  // ---------- The sort ----------
+  var sortRoot = document.getElementById("sort-root");
   var sort = el("div", "sort");
   var main = el("div");
   main.style.minWidth = "0";
@@ -633,7 +426,7 @@ tags: [wip]
   yBtn.appendChild(el("span", null, C.yTitle + " "));
   yBtn.appendChild(el("span", "muted", C.ySub));
   yBtn.appendChild(el("span", null, " →"));
-  yBtn.addEventListener("click", function () { openScale("effectiveness"); });
+  yBtn.addEventListener("click", function () { showInfo(C.yTitle + ".", AXIS_TIPS.y); });
   yaxis.appendChild(yBtn);
   plane.appendChild(yaxis);
 
@@ -641,7 +434,12 @@ tags: [wip]
   var planeInner = el("div", "plane-inner");
   var gridrow = el("div", "gridrow");
   var rowlabels = el("div", "rowlabels");
-  ROWS.forEach(function (e) { rowlabels.appendChild(el("div", null, AXIS_SCALES.effectiveness.rungs[e].name)); });
+  ROWS.forEach(function (e) {
+    var r = AXIS_SCALES.effectiveness.rungs[e];
+    var d = el("div", null, r.name);
+    d.title = r.name + ": " + r.gloss;
+    rowlabels.appendChild(d);
+  });
   gridrow.appendChild(rowlabels);
   var board = el("div", "board");
   var cells = el("div", "cells");
@@ -679,7 +477,12 @@ tags: [wip]
   gridrow.appendChild(board);
   planeInner.appendChild(gridrow);
   var collabels = el("div", "collabels");
-  COLS.forEach(function (f) { collabels.appendChild(el("div", null, AXIS_SCALES.feasibility.rungs[f].name)); });
+  COLS.forEach(function (f) {
+    var r = AXIS_SCALES.feasibility.rungs[f];
+    var d = el("div", null, r.name);
+    d.title = r.name + ": " + r.gloss;
+    collabels.appendChild(d);
+  });
   planeInner.appendChild(collabels);
   var xaxis = el("div", "xaxis");
   var xBtn = btn("", null, "axis-feasibility");
@@ -687,15 +490,13 @@ tags: [wip]
   xBtn.appendChild(el("span", null, C.xTitle + " "));
   xBtn.appendChild(el("span", "muted", C.xSub));
   xBtn.appendChild(el("span", null, " →"));
-  xBtn.addEventListener("click", function () { openScale("feasibility"); });
+  xBtn.addEventListener("click", function () { showInfo(C.xTitle + ".", AXIS_TIPS.x); });
   xaxis.appendChild(xBtn);
   planeInner.appendChild(xaxis);
   planeInner.appendChild(el("p", "caption", C.caption));
   planeMain.appendChild(planeInner);
   plane.appendChild(planeMain);
   main.appendChild(plane);
-  var sortScaleSlot = el("div");
-  main.appendChild(sortScaleSlot);
   sort.appendChild(main);
 
   // aside
@@ -764,7 +565,7 @@ tags: [wip]
   aside.appendChild(finished);
   aside.appendChild(el("p", "foot", C.foot));
   sort.appendChild(aside);
-  phaseSort.appendChild(sort);
+  sortRoot.appendChild(sort);
 
   // ---------- Chips, drag and click-to-place ----------
   var chipEls = {};
@@ -793,10 +594,10 @@ tags: [wip]
 
   function chipTitle(b) {
     var p = S.placements[b.id];
-    if (p.verdict && p.cell) {
-      return b.n + ". " + b.name + ": " + verdictLabel(p.verdict) + ". " + (p.verdict === "right" ? b.why : "Placed at " + cellLabel(p.cell) + "; " + nudge(b, p.cell) + ".");
-    }
-    return b.n + ". " + b.name + ": " + b.desc;
+    var head = (p.verdict && p.cell)
+      ? b.n + ". " + b.name + ": " + verdictLabel(p.verdict) + ". " + (p.verdict === "right" ? b.why : "Placed at " + cellLabel(p.cell) + "; " + nudge(b, p.cell) + ".")
+      : b.n + ". " + b.name + ": " + b.desc;
+    return head + "\n\n" + C.cardParallelTag + ", " + b.parallel.title + ". " + b.parallel.text;
   }
 
   function showInfo(head, text) {
@@ -811,7 +612,6 @@ tags: [wip]
   }
 
   function toggleArm(id) {
-    if (S.phase !== 2) return;
     if (ui.armedId === id) { ui.armedId = null; ui.info = null; }
     else {
       ui.armedId = id;
@@ -824,7 +624,7 @@ tags: [wip]
   }
 
   function place(id, cell) {
-    if (S.phase !== 2 || !cellEls[cell]) return;
+    if (!cellEls[cell]) return;
     var b = BY_ID[id];
     ui.armedId = null;
     if (S.placements[id].cell !== cell) S.placements[id] = { cell: cell, verdict: null };
@@ -838,7 +638,6 @@ tags: [wip]
 
   var drag = null, dragGhost = null;
   function beginDrag(id, ev) {
-    if (S.phase !== 2) return;
     drag = { id: id, x: ev.clientX, y: ev.clientY, moved: false, pointerId: ev.pointerId, over: null };
   }
   function zoneAt(x, y) {
@@ -895,7 +694,7 @@ tags: [wip]
 
   // ---------- Check, reveal, reset, exception ----------
   function check() {
-    if (S.phase !== 2 || placedCount() !== BUCKETS.length) return;
+    if (placedCount() !== BUCKETS.length) return;
     S.checkedOnce = true;
     var right = 0;
     BUCKETS.forEach(function (b) {
@@ -925,7 +724,7 @@ tags: [wip]
     persist();
   }
   function pickException(id) {
-    if (S.excDone || !excUnlocked() || S.phase !== 2) return;
+    if (S.excDone || !excUnlocked()) return;
     S.excPicked = id;
     if (EXC_ANSWERS[id].ok) {
       S.excDone = true;
@@ -940,42 +739,6 @@ tags: [wip]
 
   // ---------- Render ----------
   function render() {
-    var seenAll = allCardsSeen();
-    navBtns.forEach(function (b, i) {
-      var reachable = i <= S.maxPhase && !(i === 2 && !seenAll);
-      var done = (i === 0 && bothScalesSeen()) || (i === 1 && seenAll) || (i === 2 && S.excDone);
-      b.disabled = !reachable;
-      b.classList.toggle("is-current", S.phase === i);
-      b.setAttribute("aria-selected", S.phase === i ? "true" : "false");
-      b.lastChild.hidden = !done;
-    });
-    phaseAxes.hidden = S.phase !== 0;
-    phaseCards.hidden = S.phase !== 1;
-    phaseSort.hidden = S.phase !== 2;
-
-    // axes
-    ["effectiveness", "feasibility"].forEach(function (key) {
-      axesSeenMarks[key].mark.hidden = !S.scalesSeen[key];
-      axesSeenMarks[key].open.classList.toggle("primary", !S.scalesSeen[key]);
-    });
-    axesContinue.disabled = !bothScalesSeen();
-    axesHint.hidden = bothScalesSeen();
-    renderScale();
-
-    // cards
-    BUCKETS.forEach(function (b, i) {
-      var c = cardEls[b.id];
-      var open = ui.openIdx === i, read = !!S.seen[b.id];
-      c.wrap.classList.toggle("is-open", open);
-      c.wrap.classList.toggle("is-read", read && !open);
-      c.head.setAttribute("aria-expanded", String(open));
-      c.body.hidden = !open;
-      c.readmark.hidden = !(read && !open);
-      c.plus.textContent = open ? "−" : "+";
-    });
-    toSort.disabled = !seenAll;
-    readCount.textContent = seenCount() + " of " + BUCKETS.length + " read";
-
     // sort: chips
     var byCell = {};
     clear(trayChips);
@@ -1098,13 +861,7 @@ tags: [wip]
   // ---------- Restore ----------
   function hydrate(saved, meta) {
     if (saved && typeof saved === "object") {
-      if (typeof saved.phase === "number") S.phase = Math.max(0, Math.min(2, saved.phase));
-      if (typeof saved.maxPhase === "number") S.maxPhase = Math.max(S.phase, Math.min(2, saved.maxPhase));
-      if (saved.scalesSeen && typeof saved.scalesSeen === "object") {
-        S.scalesSeen.effectiveness = !!saved.scalesSeen.effectiveness;
-        S.scalesSeen.feasibility = !!saved.scalesSeen.feasibility;
-      }
-      if (Array.isArray(saved.seen)) saved.seen.forEach(function (id) { if (BY_ID[id]) S.seen[id] = true; });
+      // A state saved by the earlier three-step version also carries phase, scalesSeen and seen; those fields are ignored.
       if (saved.placements && typeof saved.placements === "object") {
         BUCKETS.forEach(function (b) {
           var p = saved.placements[b.id];
@@ -1121,14 +878,9 @@ tags: [wip]
     }
     if (meta && meta.completed && !S.excDone) {
       // Completed before but the state did not carry it: show the finished view.
-      S.excDone = true; S.excPicked = "ch"; S.keyOn = true; S.checkedOnce = true; S.maxPhase = 2; S.phase = 2;
-      S.scalesSeen.effectiveness = true; S.scalesSeen.feasibility = true;
-      BUCKETS.forEach(function (b) { S.seen[b.id] = true; });
+      S.excDone = true; S.excPicked = "ch"; S.keyOn = true; S.checkedOnce = true;
     }
     if (S.excDone) ui.completedSent = !!(meta && meta.completed);
-    // Guard the phase against a state that cannot reach it.
-    if (S.phase === 2 && !allCardsSeen()) S.phase = 1;
-    if (S.phase >= 1 && !bothScalesSeen()) S.phase = 0;
     render();
     if (S.excDone && !ui.completedSent) persist();
   }
