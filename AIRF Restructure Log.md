@@ -61,7 +61,7 @@ What did not change: the course still runs five meetings, no module was created 
 - **`add_to_ai_context::` cannot be repeated** on one submodule; the second silently overwrites the first. Use comma-separated links on one line.
 - **Test the premise early, the wording late.** Several beats share one failure mode, the tutor giving the answer away. Smoke-test that on one or two beats before writing more briefs on the same pattern; batch the rest into one pass at the end of stage 3.
 
-One tooling issue to raise with whoever maintains the relay: edits route to the review queue based on whether the text looks human-written, so the protection weakens as a file accumulates AI-authored content; check how each edit actually landed rather than assuming. A separate relay issue {--{"author":"Andreas's AI","timestamp":1789708918458}@@was found during this work, reported to the team directly on 2026-09-07 and confirmed already known.--}{++{"author":"Andreas's AI","timestamp":1789708918458}@@is already known to the team and tracked with them. If you hit anything else that looks like relay behaviour rather than course content, raise it with them rather than writing it up here.++}
+One tooling issue to raise with whoever maintains the relay: edits route to the review queue based on whether the text looks human-written, so the protection weakens as a file accumulates AI-authored content; check how each edit actually landed rather than assuming. A separate relay issue is already known to the team and tracked with them. If you hit anything else that looks like relay behaviour rather than course content, raise it with them rather than writing it up here.
 
 **Working practice.** Edits to files we did not write go in as suggestions for review, never as overwrites. New files we author can be written directly. Each entry in section 9 should say which of the two it was, so nothing lands silently.
 
@@ -586,7 +586,7 @@ One permission gates three things, and section 8 records what its absence has al
 
 ### To raise with whoever maintains the relay
 
-- **A relay {--{"author":"Andreas's AI","timestamp":1789708923392}@@issue found during this work** was reported--}{++{"author":"Andreas's AI","timestamp":1789708923392}@@issue** is already known++} to the team {--{"author":"Andreas's AI","timestamp":1789708923392}@@directly on 2026-09-07 --}and {--{"author":"Andreas's AI","timestamp":1789708923392}@@is already known to--}{++{"author":"Andreas's AI","timestamp":1789708923392}@@tracked with++} them.
+- **A relay issue** is already known to the team and tracked with them.
 - **Edits route to review based on whether the text looks human-written**, so the protection weakens as a file accumulates AI-authored content. Check how each edit actually landed rather than assuming.
 - **Whether module files accept `slug-aliases`** was never confirmed. None were set, so every old `iabied-m1` to `iabied-m7` URL now fails. Intended for M1 to M4 where the mapping is dirty; an accepted loss for M5 to M7 where it was clean.
 
