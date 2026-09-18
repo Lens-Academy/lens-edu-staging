@@ -61,7 +61,7 @@ What did not change: the course still runs five meetings, no module was created 
 - **`add_to_ai_context::` cannot be repeated** on one submodule; the second silently overwrites the first. Use comma-separated links on one line.
 - **Test the premise early, the wording late.** Several beats share one failure mode, the tutor giving the answer away. Smoke-test that on one or two beats before writing more briefs on the same pattern; batch the rest into one pass at the end of stage 3.
 
-One tooling issue to raise with whoever maintains the relay: edits route to the review queue based on whether the text looks human-written, so the protection weakens as a file accumulates AI-authored content; check how each edit actually landed rather than assuming. A separate relay issue was found during this work, reported to the team directly on 2026-09-17 and confirmed already known. It is deliberately not described in this file, which many keys can read.
+One tooling issue to raise with whoever maintains the relay: edits route to the review queue based on whether the text looks human-written, so the protection weakens as a file accumulates AI-authored content; check how each edit actually landed rather than assuming. A separate relay issue was found during this work, reported to the team directly on 2026-09-17 and confirmed already known.
 
 **Working practice.** Edits to files we did not write go in as suggestions for review, never as overwrites. New files we author can be written directly. Each entry in section 9 should say which of the two it was, so nothing lands silently.
 
