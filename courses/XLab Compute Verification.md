@@ -10,8 +10,8 @@ tags: [wip]
 %% Source curriculum: https://aisafetytracks.com/tracks/verification (repo: https://github.com/XLabTracks/tracks) 
 
 Depreciated because it doesn't fit into 5 weeks. Current versions:
-- [[XLab Compute Verification Part 1]]
-- [[XLab Compute Verification Part 2]]
+- [[Compute Verification 1]]
+- [[Compute Verification 2]]
 - [[XLab Compute Verification Capstone]]
 %%
 
