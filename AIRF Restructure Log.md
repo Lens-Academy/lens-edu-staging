@@ -409,7 +409,7 @@ The checks below still need a tutor and remain unrun:
 
 ## 8. Writing about chapters we cannot read
 
-The relay key cannot read `Lens Edu Private`, so no session can open the chapters its own lenses teach. Confirmed again on 2026-09-11: `glob` lists the files, `read` refuses them. This section records what that has cost so far.
+The relay key cannot read `Lens Edu Private`, so no session can open the chapters its own lenses teach. Confirmed again on 2026-09-11. This section records what that has cost so far.
 
 ### Chapter 9
 
