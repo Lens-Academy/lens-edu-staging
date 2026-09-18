@@ -39,6 +39,11 @@ Go around your group, two things:
 	1. How was working through this unit's content? Denser or easier than the previous units? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
 ```
 
+For the first meeting of a course, lead in with getting to know each other instead, and never call the participants "the humans":
+```
+First meeting, so start by getting to know each other. Go around:
+```
+
 And add one or multiple questions after that. Examples:
 ```
 	2. Which curse stuck? The book names five reasons alignment is cursed: 
