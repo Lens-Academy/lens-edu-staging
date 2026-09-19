@@ -23,38 +23,6 @@ content::
 
 #### Text
 content::
-\#### Everything Comes With a Cost (policy-cost)
-
-**Decision: widget.** The exercise is a staged reveal (commit to the goal, then the card flips to ask for the price, then a rating that branches to one of three reflections and composes the full policy sentence); the current native version shows both blanks at once, has no reveal on the Choice, and leaks all three reflections plus the closer in a callout.
-
-**Target lens:** [[../Lenses/XLab Verification - v-scoping-effective-feasible]]
-
-**Where it goes:** after the first Text segment "You can think about maximizing the positive impact of a policy by evaluating it along two axes" and before the collapsed callout "The Limited Test Ban Treaty (1963): verifiability decided what could be banned". The other widget in this lesson (policy-scoping, built by another agent) goes later: after the Text segment "In the following exercise, you will develop intuitions with this effectiveness-feasibility tradeoff", which itself follows the Limited Test Ban callout. Order on the page: intro Text, policy-cost widget, Limited Test Ban callout, bridge Text, policy-scoping widget, "Design for the hardest case" Text, stakeholder-map Open question.
-
-**What it replaces:** the Text segment "\## Everything comes with a cost." (prose reproduction of the card copy), the optional FillBlank "I support {{blank}} at the cost of {{blank}}." (id 57dc934f-9584-4a93-b1ca-4b7ff7ddfd3e), the optional Choice "Naming the price: how easy was it?" (id 85f95777-151c-4619-8557-3bc3a52cee49), and the collapsed callout "Both sides of the card (open after you have answered)". All four should go entirely; the widget carries every line of that copy and the callout would otherwise reveal the three reflections before the learner rates. No fallback needed: the exercise is optional and personal on XLab too.
-
-**In XLab:** <VerificationExercise id="policy-cost" /> in scoping-effective-feasible.mdx, core (not inside a Fold), placed directly after the opening effectiveness/feasibility paragraph and before the Limited Test Ban Fold.
-
-**Learner time:** 2 minutes
-
-Side A: type a policy they strongly believe in, or tap one of four chips (Universal healthcare, School vouchers, A carbon tax, Banning phones in schools), then "Flip the card". Side B: with Side A echoed above, name one real cost or downside of enforcing it; "Stuck? Try a lens" reveals the four lens questions; "Back" returns to Side A. "Face the tradeoff" shows both sides as a ledger and asks "Naming the price: how easy was it?" with three pills; choosing one reveals XLab's reflection line for that choice, the full policy ("I support X at the cost of Y."), the closer about what we are willing to compromise, and "Try another policy", which clears the card (earlier cards are kept in the saved state for the tutor).
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-- Source: src/lib/verification/data/policy-cost.ts and src/components/verification/widgets/policy-cost.tsx at HEAD of the XLab clone (commit 1e8b150). All labels, chips, placeholders, buttons, the three reflections, the full-policy template and the closer are verbatim from POLICY_COST_COPY; input limits (90 and 160 characters) and the disabled-until-filled buttons mirror the component.
-- Em dashes replaced: placeholder "be honest, one is enough"; question "Naming the price: how easy was it?"; "The cost was there all along; it just isn't the half..."; "...outside our view, or no one has looked yet."; template "I support X at the cost of Y." (XLab: "I support X, at the cost of Y."). These match the Lens lens's existing native wording.
-- Dropped: the Side A footer line "Nothing you type leaves this page." XLab kept the card in React state only; the Lens widget saves the goal, price and rating through Lens.saveState so the tutor can see them and the card restores, so the promise would be false. The native Lens version already sends both answers to the tutor.
-- Completion: XLab's component never calls onComplete (it takes the prop and discards it), so there is no XLab condition to mirror. The widget calls Lens.complete() once the learner has faced the tradeoff and picked a rating, which is the exercise's own end. Nothing gates on it unless a lens sets required:: true.
-- Added, not in XLab: "Try another policy" pushes the finished card (goal, price, rating) into a history list (max 10) in the saved state and the tutor summary, so a reset does not erase what the tutor saw. Visible copy is unchanged.
-- No Lens.submit or promptTutor: XLab does not grade or discuss this card. Tutor guidance from the lens's former FillBlank feedback-instructions is carried in summary_for_tutor instead.
-- The 3D flip uses CSS transforms with backface-visibility and a prefers-reduced-motion fallback; the hidden face is inert and aria-hidden. Both faces sit in one grid cell so the frame height is the taller face.
-- Review fix (2026-09-18), after Elias reported that "Flip the card" did nothing: the two card faces were <form> elements with type=submit buttons. The platform loads widgets in a sandboxed iframe without allow-forms, so Chrome aborts form submission before the submit event fires and the handler never ran (same for "Face the tradeoff" and for Enter in either field). The faces are now plain divs, both buttons are type=button with click handlers, and Enter commits through a keydown handler. No copy, style or state logic changed. Confirmed with a real mouse click on the staging gallery page.
-:::
-
-#### Widget
-source:: [[../widgets/policy-cost]]
-
-#### Text
-content::
 \#### Scoping an Anti-ASI Policy (policy-scoping)
 
 **Decision: widget.** The learner places eleven buckets on a 5x5 feasibility x effectiveness plane with per-bucket verdicts drawn as arrows on the plane and a gated follow-up question; prose and an Open question cannot give the placing, the verdict-then-adjust loop, or the unlock.
