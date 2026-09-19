@@ -1,7 +1,7 @@
 ---
 id: '8214fd06-43a4-4319-8040-e3413763c975'
 title: 'The detection race: concentrated vs diffuse failures'
-summary_for_tutor: 'An interactive model of the detection race. A schemer needs C bad actions to reach catastrophe, each bad action has an independent chance q of being noticed, and a decisive response fires at the K-th notice. Three sliders set C (1 to 100,000, log scale), q (0.01 percent to 50 percent, log scale) and K (1 to 20). The widget shows P(response before catastrophe) as a curve over C, expected bad actions before the response (K/q) as a curve over q, three read-outs (probability the response is in time, expected damage at response, regime name), and a sentence explaining the current regime. The three regimes are "Caught in time" (P at least 90 percent), "Detected, but too late" (P below 90 percent but expected damage at most 1,000,000 actions) and "Effectively never detected" (expected damage above 1,000,000 actions). Only the first two are reachable from the lever ranges, because the largest damage bill the levers allow is K/q = 20/0.0001 = 200,000 actions; the widget says so under the levers. The learner is asked to find both reachable regimes, and completion fires once they have. If a learner asks about it, note that the schemer''s pace has no slider: acting more slowly delays detection and catastrophe by the same factor, so the race depends only on C, q and K, and expected damage before the response is K/q regardless of how concentrated the threat is.'
+summary_for_tutor: 'An interactive model of the detection race, placed in the lens on handling non-concentrated failures, just after the article excerpt that ends on the regime with so little signal that the behavior would never be trained away. Three sliders set C, the bad actions needed for catastrophe (1 to 100,000, log scale), q, the chance one bad action is noticed (0.01 percent to 50 percent, log scale), and K, the notices before a decisive response (1 to 20). The widget draws P(response before catastrophe) over C and expected bad actions before the response (K/q) over q, shows three read-outs (probability the response is in time, expected damage at response, regime name) and one sentence on the current regime, and tracks which of the two reachable regimes the learner has visited; completion fires when both have been reached. The model itself is set up in the page text directly above the widget: what C, q and K mean, the three regimes, and why these lever ranges reach only the first two (the largest damage bill they allow is K/q = 20 / 0.0001 = 200,000 actions, below the 1,000,000 the third regime needs). The page text directly below the widget carries the point that the schemer''s pace has no lever, because acting more slowly delays detection and catastrophe by the same factor, so the race depends only on C, q and K and the expected damage before the response is K/q however concentrated the threat is. Neither point needs repeating unless the learner asks.'
 height: auto
 tags: []
 ---
@@ -55,7 +55,7 @@ input[type=range] { width: 100%; accent-color: var(--accent); margin: 4px 0 0; }
   <div class="head">
     <div>
       <h2>The detection race: concentrated vs diffuse failures</h2>
-      <p>A schemer needs C bad actions for catastrophe; each has chance q of being noticed and a response fires at the K-th notice. Move the three levers to see who wins the race, the expected damage bill, and the three regimes from the post.</p>
+      <p>Move the three levers until you have reached both regimes these ranges allow.</p>
     </div>
     <button type="button" id="reset">Reset</button>
   </div>
@@ -94,7 +94,6 @@ input[type=range] { width: 100%; accent-color: var(--accent); margin: 4px 0 0; }
 
     <p class="detail" id="detail"></p>
     <p class="progress" id="progress"></p>
-    <p class="detail">The model has a third regime, "Effectively never detected", for expected damage above 1,000,000 actions. These levers cannot reach it: the largest bill they allow is K/q = 20 / 0.0001 = 200,000 actions.</p>
   </div>
 </div>
 
@@ -117,10 +116,9 @@ input[type=range] { width: 100%; accent-color: var(--accent); margin: 4px 0 0; }
   };
   // Only two of the three regimes are reachable from these lever ranges: the widest
   // damage bill the levers allow is K/q = 20 / 0.0001 = 200,000 actions, below the
-  // 1,000,000 the third regime needs. The third is kept in the classifier and named
-  // in the note under the levers.
+  // 1,000,000 the third regime needs. The third is kept in the classifier; the page
+  // text around the widget names it.
   var ORDER = ["caught-in-time", "detected-too-late"];
-  var TAIL = "The schemer's pace has no slider: acting more slowly delays detection and catastrophe by the same factor, so the race outcome depends only on C, q, and K. Expected damage before the response is K/q, independent of the threat's concentration.";
   var PLOT_W = 272, PLOT_H = 146, X0 = 34, Y0 = 10;
   var SVGNS = "http://www.w3.org/2000/svg";
 
@@ -231,7 +229,7 @@ input[type=range] { width: 100%; accent-color: var(--accent); margin: 4px 0 0; }
     document.getElementById("statP").textContent = (100 * p).toFixed(1) + "%";
     document.getElementById("statD").textContent = fmt(dmg) + " actions";
     document.getElementById("statR").textContent = regime.label;
-    document.getElementById("detail").textContent = regime.detail + " " + TAIL;
+    document.getElementById("detail").textContent = regime.detail;
 
     seen[key] = true;
     var box = document.getElementById("progress");
