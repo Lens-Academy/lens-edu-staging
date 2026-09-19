@@ -18,7 +18,7 @@ Interrogate a concrete verification proposal: identify its load-bearing mechanis
 
 What is the ideal end state? What agreement reaches it? What would verification have to cover for the agreement to hold? The most detailed public attempt to answer all three is AI 2040: Plan A, published by the AI Futures Project, the team behind the earlier AI 2027 scenario. While AI 2027 dramatized how a race ends badly, Plan A tells a dated, concrete story in which a US–China deal, layered verification, and a managed slowdown deliver a good outcome by 2040. Its [verification supplement](https://ai-2040.com/supplements/verification-plan) specifies the machinery: mutual compute declarations checked by inspections, datacenters retrofitted so that large-scale training is detectable, optical network taps feeding trusted recomputation servers, secure R&D facilities, and production caps on unverified hardware.
 
-Read [[../Lenses/XLab Verification - v-intuitions-plan-a|excerpts from the verification supplement on the next page]]. The full Plan A scenario is at [ai-2040.com](https://ai-2040.com/).
+Read [[../Lenses/XLab Verification - v-intuitions-plan-a|AI 2040's verification supplement on the next page]].
 For its dates, percentages, and recommendations, ask:
 
 - What assumptions must hold?
