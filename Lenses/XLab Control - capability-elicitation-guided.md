@@ -151,6 +151,12 @@ Reconstruct the construction from section 4.1 as three flow charts: how the stro
 #### Widget
 source:: [[../widgets/xlab-control-password-locking-pipeline]]
 
+#### Text
+content::
+:::callout {title="The two blocks that belong to no chart, open once you have built all three" tone="neutral" collapse="closed"}
+Two blocks in the palette are used by none of the three charts, because the paper uses them elsewhere. Starting from randomly initialized weights is the from-scratch comparison in section 7, where password-locking is trained into a model from the beginning rather than into a pretrained one. Filtering generations and keeping only the correct ones is a baseline elicitation method in section 6.1, tried against the locked model rather than used to build it.
+:::
+
 #### Article
 from:: ### 4.2 Tasks
 to:: All plots report the standard error of the mean over 3 seeds.
