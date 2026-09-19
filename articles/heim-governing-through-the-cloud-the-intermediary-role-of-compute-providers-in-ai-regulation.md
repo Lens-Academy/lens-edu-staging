@@ -174,8 +174,6 @@ Figure 4: Overview of the different governance capacities and how they relate to
 
 Compute providers, as custodians of sensitive data and AI-related IP, have a distinct capacity for governing and implementing information security measures that protect AI systems.
 
-![Imported source figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img4-eb6c315f.png)
-
 Figure 5: The security measures implemented by compute providers to help protect AI company’s models, intellectual property, and confidential data.
 
 Frontier AI models represent considerable financial, computational, research investments, and powerful tools that could be misused for financial or political gain; this makes them highly attractive to cyber attackers and other adversarial actors ([Cottier 2023]; [Sevilla et al. 2022]). Security measures should extend beyond safeguarding model weights to include the protection of the model’s architecture, its algorithmic innovations, training data, and other related intellectual property (IP) ([Nevo et al. 2023]). Therefore, it is important to take robust cybersecurity measures proportional to these risks. These measures could be legally mandated, as with the physical and cybersecurity precautions currently required from data centers that handle HIPAA- and ITAR-compliant health ([Office for Civil Rights 2016]) and defense data[^note-14], as preventing the theft of potentially dual-use AI intellectual property and disruption to critical AI infrastructure are matters of public good.[^note-15]
@@ -188,8 +186,6 @@ It is crucial to acknowledge that the responsibility for ensuring information se
 
 Record keeping describes the process of collecting, organizing, and maintaining information on a compute provider’s customers and their infrastructure usage. Compute providers are inherently record keepers by virtue of their role and technical necessity. They store and process valuable technical data during large AI deployments and training runs for billing purposes, resource management, and service-level agreement tracking (see [Section 3](#S3 "3 Technical Feasibility of Compute Providers’ Governance
 Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation") for more detail). Provided that robust privacy protections are in place, this information could be useful to regulators in overseeing the development of advanced AI systems. We recommend that regulators and providers focus on essential data that informs AI regulation without compromising privacy and confidentiality (which we discuss in more detail in [Section 5.2]).
-
-![Imported source figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img5-eb6c315f.png)
 
 Figure 6: The compute provider collects and manages essential usage data on the AI company and its infrastructure usage, focusing on key data that helps validate regulatory compliance without compromising privacy. This facilitates greater transparency into AI advancements, could link compute use to real-world actors, and enables effective post-incident response and forensics.
 
@@ -207,8 +203,6 @@ Furthermore, transparency requirements for environmental accountability, particu
 
 Compute providers can also actively verify customer compliance with regulatory requirements, providing AI firm oversight. Similar to banks and other financial intermediaries, compute providers can actively verify the identity of customers and key customer activities, checking that the properties of AI systems being deployed or developed match customer reporting. This might include verifying the type of computational workload run by the customer (e.g., training an AI model, or deploying a model at scale) as well as claims about the total amount of compute used, or the type of data used in the training process.[^note-18]
 
-![Imported source figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img6-eb6c315f.png)
-
 Figure 7: The compute provider actively verifies the AI company’s identities, specific activities, and/or properties of AI systems for regulatory compliance.
 
 As we will discuss in [Section 3](#S3 "3 Technical Feasibility of Compute Providers’ Governance
@@ -225,8 +219,6 @@ For illustrative purposes, imagine a scenario in which regulations require AI de
 #### 2.2.4 IV. Enforcement
 
 Compute providers can also aid regulatory enforcement. By virtue of controlling the AI data centers themselves, providers have the ability to directly deny access to rule-breaking customers, and, therefore, prevent the customer from developing or deploying certain kinds of AI systems with that provider. The compute provider might limit compute resources devoted to workloads that raise red flags pending further investigation. Similarly, record keeping and verification processes could trigger regulatory enforcement measures by other actors, such as the Department of Justice in the US.
-
-![Imported source figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img7-eb6c315f.png)
 
 Figure 8: The compute provider detects violations by the AI company, e.g., via the verification process, and can take appropriate enforcement actions, such as restricting or limiting access to compute.
 
