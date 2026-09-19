@@ -2,7 +2,7 @@
 id: '7a5bcc21-1cea-45f1-95d1-46c7896c94ec'
 title: "Building Verification Intuitions"
 tldr: "Take the most detailed public plan for a verified AI slowdown, AI 2040's Plan A, and treat it like an engineer treats a bridge design: find the load-bearing part, the weakest weld, the unrealistic schedule, and how much hidden compute it can survive. Then write your verdict."
-summary_for_tutor: "Introduces the verification exercise and the two alternative essay routes. The next lens embeds three excerpts from Plan A's verification supplement (Romeo Dean, "AI 2040: Verification Plan"), not the main Plan A scenario. Each optional route keeps its four preparatory responses and final essay together. Further exploration and ungraded primer practice are separate."
+summary_for_tutor: "Introduces the verification exercise and the two alternative essay routes. The next lens embeds three excerpts from Plan A's verification supplement (Romeo Dean, AI 2040: Verification Plan), not the main Plan A scenario. Each optional route keeps its four preparatory responses and final essay together. Further exploration and ungraded primer practice are separate."
 tags: [wip]
 duration_minutes: 5
 ---
