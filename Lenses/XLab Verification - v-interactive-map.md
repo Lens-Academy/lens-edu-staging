@@ -16,33 +16,35 @@ Where an actor sits constrains both what it can observe and what leverage an agr
 content::
 \## The Compute Supply Chain
 
-**Start here.** The whole story of this map is concentration. The chain crosses borders dozens of times, but the parts that matter for verification sit in a handful of countries, and each stage is a near-monopoly. Open a country for its role, or a layer to see exactly who would have to be in the room to verify it.
+{--{"author":"Elias's AI","timestamp":1789826425087}@@**Start here.** --}The whole story of this map is concentration. The chain crosses borders dozens of times, but the parts that matter for verification sit in a handful of countries, and each stage is a near-monopoly.{--{"author":"Elias's AI","timestamp":1789826425087}@@ Open a country for its role, or a layer to see exactly who would have to be in the room to verify it.--}
 
 - **≈90%** of leading-edge logic is fabricated on one island
 - **1** company builds every EUV lithography machine on Earth
-- **3** firms make nearly all high-bandwidth memory
+- **3** firms make nearly all high-bandwidth memory{--{"author":"Elias's AI","timestamp":1789826425087}@@
 
-\### Supply chain layers
+\### Supply chain layers--}
 
-Colors on XLab's map show a country's primary layer. Most of the interesting countries sit in more than one.
+{--{"author":"Elias's AI","timestamp":1789826425087}@@Colors on XLab's map show a country's primary layer. Most of the interesting countries sit in more than one.
 
 | Layer | Why it matters for verification | Stat | To verify at this layer, you'd need |
 | --- | --- | --- | --- |
-| Chip design & EDA | Where capability is born. The architectures and the design software behind every advanced chip belong to a handful of US and UK firms, so rules can attach here before a single wafer exists. | 2 EDA firms | United States, United Kingdom |
-| Equipment & materials | The narrowest chokepoint in the chain. A few firms in three allied countries build the tools and supply the chemistry every advanced fab depends on. | EUV: 1 company | United States, Japan, Netherlands, Germany |
-| Fabrication | Nearly all frontier chips are made in a handful of known facilities. Few sites, known addresses, hard to hide, which is exactly what makes a verification regime imaginable. | ≈90% → 1 island | United States, China, Taiwan, South Korea, Germany |
-| Memory (HBM) | No high-bandwidth memory, no AI accelerator. HBM comes from three firms in two countries: a second countable chokepoint stacked right next to the first. | 3 firms, 2 countries | United States, China, South Korea |
-| Packaging, assembly & test | Where chips become products and fan out into the world, and where they can slip out of sight. Transshipment and diversion risk lives in this layer. | the evasion surface | Taiwan, Singapore, Malaysia, Vietnam, Thailand |
+| Chip design & EDA | Where capability is born. The architectures and the design software behind every advanced chip belong to a handful of US and UK firms, so rules can attach here before a single wafer exists. | 2 EDA firms | United States, United Kingdom |--}{++{"author":"Elias's AI","timestamp":1789826425087}@@#### Widget++}
+{--{"author":"Elias's AI","timestamp":1789826425087}@@| Equipment & materials | The narrowest chokepoint in the chain. A few firms in three allied countries build the tools and supply the chemistry every advanced fab depends on. | EUV: 1 company | United States, Japan, Netherlands, Germany |--}{++{"author":"Elias's AI","timestamp":1789826425087}@@source:: [[../widgets/interactive-map]]
+
+#### Text++}
+{--{"author":"Elias's AI","timestamp":1789826425087}@@| Fabrication | Nearly all frontier chips are made in a handful of known facilities. Few sites, known addresses, hard to hide, which is exactly what makes a verification regime imaginable. | ≈90% → 1 island | United States, China, Taiwan, South Korea, Germany |--}{++{"author":"Elias's AI","timestamp":1789826425087}@@content::++}
+{--{"author":"Elias's AI","timestamp":1789826425087}@@| Memory (HBM) | No high-bandwidth memory, no AI accelerator. HBM comes from three firms in two countries: a second countable chokepoint stacked right next to the first. | 3 firms, 2 countries | United States, China, South Korea |
+| Packaging, assembly & test | Where chips become products and fan out into the world, and where they can slip out of sight. Transshipment and diversion risk lives--}{++{"author":"Elias's AI","timestamp":1789826425087}@@\### Actor roles++} in this{--{"author":"Elias's AI","timestamp":1789826425087}@@ layer. | the evasion surface | Taiwan, Singapore, Malaysia, Vietnam, Thailand |
 | Compute & models | What the rules are ultimately about. Frontier-scale data centers are big, hot, and power-hungry: easy to find, harder to audit. The models inside them are hardest of all. | easy to find, hard to audit | United States, China, United Kingdom, Singapore, Malaysia, Thailand, United Arab Emirates, Saudi Arabia |
 
-\### The pipeline · sand to model
+\### The pipeline · sand to model--}{++{"author":"Elias's AI","timestamp":1789826425087}@@ module++}
 
-Upstream · concentrated · most verifiable → downstream · diffuse · hardest to verify.
+{--{"author":"Elias's AI","timestamp":1789826425087}@@Upstream · concentrated · most verifiable → downstream · diffuse · hardest to verify.
 
 1. **Materials & wafers** (Equipment & materials). *Japan dominates photoresists and silicon wafers. An advanced fab without them stalls in months.* Shin-Etsu, SUMCO and specialist chemical suppliers occupy quieter upstream bottlenecks than the equipment makers, but advanced fabrication still depends on them.
 2. **Design & EDA** (Chip design & EDA). *Two US firms control the design software; the architectures are US and UK. Capability starts as files.* NVIDIA, AMD, Huawei and other designers determine whether accelerators include attestation, metering or location features; Synopsys and Cadence supply the EDA software used to make those designs real. They comply with controls while lobbying against rules that raise costs or cut sales.
 3. **Equipment** (Equipment & materials). *100% of EUV lithography comes from one Dutch company built around German optics.* ASML, Applied Materials and Tokyo Electron build the machines without which no leading-edge chip exists. Their customer base is small and highly visible, and they know which fabs receive each system.
-4. **Fabrication** (Fabrication). *Roughly 90% of leading-edge logic is made on one island, mostly by one company.* TSMC, Samsung and Intel turn designs into physical chips and retain the production and customer records of what was made, how many and for whom. Their compliance sits between US rules and Chinese customers.
+4. **Fabrication** (Fabrication). *Roughly 90% of leading-edge logic is made--}{++{"author":"Elias's AI","timestamp":1789826425087}@@Every country card++} on {--{"author":"Elias's AI","timestamp":1789826425087}@@one island, mostly by one company.* TSMC, Samsung and Intel turn designs into physical chips and retain --}the{--{"author":"Elias's AI","timestamp":1789826425087}@@ production and customer records of what was made, how many and for whom. Their compliance sits between US rules and Chinese customers.
 5. **Memory (HBM)** (Memory). *Three firms in two countries. No HBM, no accelerator.* SK Hynix, Samsung and Micron make the high-bandwidth memory beside every frontier accelerator, creating another small set of producers through which the chain must pass. The Korean firms also balance US controls against substantial exposure to China.
 6. **Packaging & test** (Packaging, assembly & test). *Where chips fan out into products, and where diversion risk begins.* Advanced-packaging lines such as TSMC's CoWoS remain concentrated enough for chips to be counted. Ordinary assembly-and-test firms are more numerous, have the lowest barriers to entry in the chain and are largely absent from policy debates.
 7. **Data centers** (Compute & models). *Gigawatt facilities visible from space: easy to find, harder to audit.* AWS, Microsoft Azure, Google Cloud, Oracle, Alibaba and specialists such as CoreWeave sit between customers and machines. Their logs, billing and telemetry make them natural monitors, and they can interrupt a job, but reseller chains and mislabeled workloads weaken what they can attribute to a customer.
@@ -50,10 +52,10 @@ Upstream · concentrated · most verifiable → downstream · diffuse · hardest
 
 \### The countries
 
-Every country card is tagged with the actor roles it plays in this module: capability holder, chokepoint controller, information holder, enforcement authority, evasion pathway, or victim, free-rider, beneficiary. The same state can hold a chokepoint, enforce the rules, and be a pathway around them.
+Every country card--}{++{"author":"Elias's AI","timestamp":1789826425087}@@ map++} is tagged with the actor roles {--{"author":"Elias's AI","timestamp":1789826425087}@@it--}{++{"author":"Elias's AI","timestamp":1789826425087}@@that country++} plays in this module: capability holder, chokepoint controller, information holder, enforcement authority, evasion pathway, or victim, free-rider, beneficiary. The same state can hold a chokepoint, enforce the rules, and be a pathway around them.
 
-:::callout {title="United States" tone="neutral" collapse="closed"}
-*Primary layer: Chip design & EDA. Also: Equipment & materials, Fabrication, Memory (HBM), Compute & models. Roles: capability holder, chokepoint controller, information holder, enforcement authority.*
+{--{"author":"Elias's AI","timestamp":1789826425087}@@:::callout {title="United States" tone="neutral" collapse="closed"}--}{++{"author":"Elias's AI","timestamp":1789826425087}@@#### Text++}
+{--{"author":"Elias's AI","timestamp":1789826425087}@@*Primary layer: Chip design & EDA. Also: Equipment & materials, Fabrication, Memory (HBM), Compute & models. Roles: capability holder, chokepoint controller, information holder, enforcement authority.*
 
 - NVIDIA and AMD design the accelerators; Synopsys and Cadence control the chip-design software (EDA) nearly everyone uses
 - Applied Materials, Lam Research, and KLA build fab equipment; Micron makes HBM; Intel and new TSMC Arizona fabs bring some leading-edge production home
@@ -93,8 +95,8 @@ Every country card is tagged with the actor roles it plays in this module: capab
 :::callout {title="Japan" tone="neutral" collapse="closed"}
 *Primary layer: Equipment & materials. Roles: chokepoint controller.*
 
-- Tokyo Electron, Nikon, and Canon build critical fab equipment
-- Near-monopolies in materials: photoresists, silicon wafers (Shin-Etsu, SUMCO), specialty gases
+- Tokyo Electron, Nikon, and Canon build critical fab equipment--}{++{"author":"Elias's AI","timestamp":1789826425087}@@content::++}
+{--{"author":"Elias's AI","timestamp":1789826425087}@@- Near-monopolies in materials: photoresists, silicon wafers (Shin-Etsu, SUMCO), specialty gases
 
 **Why it matters for verification.** Joined the US and the Netherlands in aligning equipment export controls in 2023. Materials monopolies are quiet leverage: an advanced fab stalls within months without Japanese chemistry, while Japan faces pressure from both sides of the US-China rivalry.
 :::
@@ -180,9 +182,9 @@ Every country card is tagged with the actor roles it plays in this module: capab
 **Why it matters for verification.** The same experiment as the UAE: compute-for-conditions deals, which only mean something if the conditions can actually be checked.
 :::
 
-\### Anatomy of a Chip
+--}\### Anatomy of a Chip
 
-Optional: explore the components inside an AI accelerator and connect them to the supply-chain stages shown above: [ETO Chip Explorer](https://chipexplorer.eto.tech/).{>>{"author":"Elias's AI","timestamp":1788016617137}@@Native reproduction of XLab's interactive-map widget data (src/lib/verification/data/interactive-map.ts): layers, pipeline, country cards, stats and chip-explorer link. The world map itself is an SVG drawn from that data at runtime with no static image in xlab/public, so the geographic picture is not reproduced; the data behind it is.<<}
+Optional: explore the components inside an AI accelerator and connect them to the supply-chain stages shown above: [ETO Chip{--{"author":"Elias's AI","timestamp":1789826425087}@@ Explorer](https://chipexplorer.eto.tech/).{>>{"author":"Elias's AI","timestamp":1788016617137}@@Native reproduction of XLab's interactive-map widget data (src/lib/verification/data/interactive-map.ts): layers, pipeline, country cards, stats and chip-explorer link. The world map itself is an SVG drawn from that data at runtime with no static image in xlab/public, so the geographic picture is not reproduced; the data behind it is.<<}--}{++{"author":"Elias's AI","timestamp":1789826425087}@@ Explorer](https://chipexplorer.eto.tech/).++}
 
 #### Text
 content::
