@@ -7,9 +7,9 @@ description: "How could rival states check that each other actually stopped? Fiv
 partner-url: https://aisafetytracks.com/verification/landing
 tags: [wip, visible-in-skilltree]
 ---
-%% Source curriculum: https://aisafetytracks.com/tracks/verification
+%% Source curriculum: https://aisafetytracks.com/tracks/verification (repo: https://github.com/XLabTracks/tracks)
 
-This course is the first five weeks of the re-cut ten-week run of that curriculum. Weeks 6 to 10 are a separate course, and the capstone is a third. The original five-module course ([[Compute Verification]]) stays untouched.
+This course is the first five weeks of the re-cut ten-week run of that curriculum. Weeks 6 to 10 are a separate course, and the capstone is a third. The original five-module course ([[../courses/Compute Verification]]) stays untouched.
 
 Each week is about 3.5 hours of self-study plus a 1.5 hour discussion. Core self-study per week: W1 220 min, W2 170, W3 210, W4 170, W5 155. Optional lenses add 80 min in W2, 75 in W3, 30 in W5.
 
