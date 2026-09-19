@@ -1,7 +1,7 @@
 ---
 id: 'f17dc8fa-4533-430c-94be-c6423931f83f'
 title: Building a password-locked model
-summary_for_tutor: An interactive reconstruction of the password-locking pipeline from section 4.1 of Greenblatt et al. The learner builds three flow charts out of a shared palette of eleven blocks, one chart at a time: how the strong policy is produced, how the weak policy is produced, and what happens to the locked model on each individual training prompt. The third chart contains a branch on whether the prompt carries the correct password. Two palette blocks are distractors that belong to other parts of the paper (starting from randomly initialised weights, which is section 7, and filtering generations for correct ones, which is the filtering baseline in section 6.1). Each chart can be checked; a correct chart reveals a short explanation of why that construction was chosen and what it costs. The widget reports which charts the learner has solved and how many attempts each took.
+summary_for_tutor: "An interactive reconstruction of the password-locking pipeline from section 4.1 of Greenblatt et al. The learner builds three flow charts out of a shared palette of eleven blocks, one chart at a time: how the strong policy is produced, how the weak policy is produced, and what happens to the locked model on each individual training prompt. The third chart branches on whether the prompt carries the correct password. Two palette blocks are distractors that belong to other parts of the paper (starting from randomly initialized weights, which is section 7, and filtering generations for correct ones, which is the filtering baseline in section 6.1). Checking a chart marks every placed block as correct or out of place, says where a wrong block belongs, and gives a count of how many are right; a solved chart then reveals why that construction was chosen and what it costs. The lens page carries the lead-in that sets the task, and a closed callout after the widget explains the two blocks that belong to no chart. The widget reports which charts the learner has solved and how many checks each took."
 height: auto
 tags: []
 ---
@@ -44,7 +44,7 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .branch-lanes { display: flex; flex-direction: column; gap: 8px; margin-top: 8px; padding-left: 14px; border-left: 2px solid var(--border); }
 .slot { display: block; width: 100%; margin-bottom: 8px; }
 .slot:last-child { margin-bottom: 0; }
-.slot .kind { display: block; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.slot .kind, .palette .kind { display: block; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
 .slot.is-branch { border-color: var(--accent); }
 .empty { color: var(--muted); font-size: 13px; font-style: italic; }
 .arrow { color: var(--muted); text-align: center; font-size: 12px; margin: -4px 0 4px; }
@@ -53,6 +53,12 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .palette button.is-used { opacity: 0.4; }
 .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
 .actions .primary { border-color: var(--accent); color: var(--accent-hover); font-weight: 500; }
+.slot.mark-ok { border-color: var(--accent); }
+.slot.mark-no { border-style: dashed; }
+.slot .mark { display: block; font-size: 11px; margin-top: 4px; color: var(--muted); }
+.slot.mark-ok .mark { color: var(--accent-hover); }
+.count { font-size: 13px; color: var(--muted); margin: -4px 0 14px; }
+[hidden] { display: none !important; }
 .verdict { margin-top: 14px; border-radius: 8px; padding: 12px; border: 1px solid var(--border); background: var(--page); }
 .verdict.ok { border-color: var(--accent); }
 .verdict strong { display: block; margin-bottom: 4px; }
@@ -63,8 +69,7 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 </head>
 <body>
 <div class="card">
-  <p class="eyebrow">Section 4.1, reconstructed</p>
-  <p>Three flow charts: how the strong policy, the weak policy, and the locked model are each produced. Pick a chart, then tap blocks from the palette to add them in order. Tap a placed block to take it out again. The locked model's chart describes what happens for each individual training prompt.</p>
+  <p class="desc">Pick a chart, add blocks from the palette in order, then check.</p>
   <div class="tabs" id="tabs" role="tablist"></div>
   <div id="stage"></div>
   <div id="done"></div>
@@ -112,7 +117,7 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   var byId = {};
   PALETTE.forEach(function (b) { byId[b.id] = b; });
 
-  var state = { active: 0, charts: {}, solved: {}, attempts: {}, revealed: {} };
+  var state = { active: 0, charts: {}, solved: {}, attempts: {}, revealed: {}, checked: {} };
   STAGES.forEach(function (s) { state.charts[s.id] = { main: [], yes: [], no: [] }; });
   var target = "main";
   var completedOnce = false;
@@ -149,6 +154,31 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
     return sameList(c.main, s.solution.main) && sameList(c.yes, s.solution.yes) && sameList(c.no, s.solution.no);
   }
 
+  function belongsHint(id) {
+    var here = stage();
+    var inHere = false;
+    var elsewhere = [];
+    STAGES.forEach(function (st) {
+      var sol = st.solution;
+      var found = sol.main.indexOf(id) !== -1 || sol.yes.indexOf(id) !== -1 || sol.no.indexOf(id) !== -1;
+      if (!found) return;
+      if (st.id === here.id) { inHere = true; } else { elsewhere.push(st.title.toLowerCase()); }
+    });
+    if (inHere) return "right block, wrong place";
+    if (elsewhere.length) return "belongs in " + elsewhere.join(" and ");
+    return "belongs to no chart here";
+  }
+
+  function scoreOf(s) {
+    var c = state.charts[s.id];
+    var right = 0;
+    var total = s.solution.main.length + s.solution.yes.length + s.solution.no.length;
+    ["main", "yes", "no"].forEach(function (k) {
+      c[k].forEach(function (id, i) { if (s.solution[k][i] === id) right++; });
+    });
+    return { right: right, total: total, placed: c.main.length + c.yes.length + c.no.length };
+  }
+
   function summary() {
     var parts = STAGES.map(function (s) {
       var st = state.solved[s.id] ? "solved" : (state.revealed[s.id] ? "answer shown" : "not yet solved");
@@ -164,7 +194,7 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
   function save() {
     if (!window.Lens) return;
-    Lens.saveState({ charts: state.charts, solved: state.solved, attempts: state.attempts, revealed: state.revealed }, summary());
+    Lens.saveState({ charts: state.charts, solved: state.solved, attempts: state.attempts, revealed: state.revealed, checked: state.checked }, summary());
     var allDone = STAGES.every(function (s) { return state.solved[s.id] || state.revealed[s.id]; });
     if (allDone && !completedOnce) { completedOnce = true; Lens.complete(); }
   }
@@ -175,7 +205,7 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
       var b = el("button", "tab" + (i === state.active ? " is-active" : ""));
       b.setAttribute("role", "tab");
       b.setAttribute("aria-selected", i === state.active ? "true" : "false");
-      b.appendChild(document.createTextNode((i + 1) + ". " + s.title + " "));
+      b.appendChild(document.createTextNode(s.title + " "));
       if (state.solved[s.id]) { var t = el("span", "tick", "solved"); b.appendChild(t); }
       else if (state.revealed[s.id]) { b.appendChild(el("span", "tick", "shown")); }
       b.onclick = function () { state.active = i; target = "main"; render(); };
@@ -183,7 +213,7 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
     });
   }
 
-  function laneNode(key, label, list, selectable) {
+  function laneNode(key, label, list, selectable, marks) {
     var lane = el("div", "lane" + (target === key && selectable ? " is-target" : ""));
     var head = el("div", "lane-head");
     head.appendChild(el("span", "lane-label", label));
@@ -198,14 +228,17 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
     } else {
       list.forEach(function (id, idx) {
         if (idx > 0) lane.appendChild(el("div", "arrow", "then"));
-        var b = el("button", "slot" + (byId[id].kind === "branch" ? " is-branch" : ""));
+        var ok = marks ? stage().solution[key][idx] === id : null;
+        var b = el("button", "slot" + (byId[id].kind === "branch" ? " is-branch" : "") + (marks ? (ok ? " mark-ok" : " mark-no") : ""));
         b.appendChild(el("span", "kind", byId[id].kind));
         b.appendChild(document.createTextNode(byId[id].label));
+        if (marks) { b.appendChild(el("span", "mark", ok ? "correct" : belongsHint(id))); }
         b.title = "Remove this block";
         b.onclick = function () {
           list.splice(idx, 1);
           if (id === "branch-password") { chart().yes = []; chart().no = []; if (target !== "main") target = "main"; }
           state.solved[stage().id] = false;
+          state.checked[stage().id] = false;
           render(); save();
         };
         lane.appendChild(b);
@@ -227,15 +260,20 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
     var left = el("div", null);
     left.appendChild(el("p", "eyebrow", "Your chart"));
+    var marks = !!state.checked[s.id] && !state.revealed[s.id];
     var lanes = el("div", "lanes");
-    lanes.appendChild(laneNode("main", "Main path", c.main, true));
+    lanes.appendChild(laneNode("main", "Main path", c.main, true, marks));
     if (hasBranch()) {
       var sub = el("div", "branch-lanes");
-      sub.appendChild(laneNode("yes", "Yes", c.yes, true));
-      sub.appendChild(laneNode("no", "No, or a wrong one", c.no, true));
+      sub.appendChild(laneNode("yes", "Yes", c.yes, true, marks));
+      sub.appendChild(laneNode("no", "No, or a wrong one", c.no, true, marks));
       lanes.appendChild(sub);
     }
     left.appendChild(lanes);
+    if (marks && !state.solved[s.id]) {
+      var sc = scoreOf(s);
+      left.appendChild(el("p", "count", sc.right + " of " + sc.total + " blocks in the right place" + (sc.placed > sc.total ? ", and one too many placed" : "") + "."));
+    }
     cols.appendChild(left);
 
     var right = el("div", null);
@@ -251,6 +289,7 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
         c[target].push(blk.id);
         if (blk.id === "branch-password") target = "yes";
         state.solved[s.id] = false;
+        state.checked[s.id] = false;
         render(); save();
       };
       pal.appendChild(b);
@@ -265,8 +304,10 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
     check.onclick = function () {
       state.attempts[s.id] = (state.attempts[s.id] || 0) + 1;
       state.solved[s.id] = isSolved(s);
+      state.checked[s.id] = true;
+      var sc = scoreOf(s);
       render(); save();
-      liveEl.textContent = state.solved[s.id] ? "Correct." : "Not yet correct.";
+      liveEl.textContent = state.solved[s.id] ? "Correct." : sc.right + " of " + sc.total + " blocks in the right place.";
     };
     actions.appendChild(check);
 
@@ -275,6 +316,7 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
     clear.onclick = function () {
       state.charts[s.id] = { main: [], yes: [], no: [] };
       state.solved[s.id] = false;
+      state.checked[s.id] = false;
       target = "main";
       render(); save();
     };
@@ -285,6 +327,7 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
       reveal.onclick = function () {
         state.charts[s.id] = { main: s.solution.main.slice(), yes: s.solution.yes.slice(), no: s.solution.no.slice() };
         state.revealed[s.id] = true;
+        state.checked[s.id] = false;
         target = "main";
         render(); save();
       };
@@ -297,11 +340,6 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
       v.appendChild(el("strong", null, state.solved[s.id] ? "That is the construction." : "The construction, filled in for you."));
       v.appendChild(el("p", null, s.explanation));
       stageEl.appendChild(v);
-    } else if (state.attempts[s.id]) {
-      var w = el("div", "verdict");
-      w.appendChild(el("strong", null, "Not this one yet."));
-      w.appendChild(el("p", null, "Two blocks in the palette belong to other parts of the paper and are not used in any of the three charts. Section 4.1 says what each policy is built from and in what order."));
-      stageEl.appendChild(w);
     }
 
     doneEl.textContent = "";
@@ -309,7 +347,6 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
     if (allDone) {
       var d = el("div", "done");
       d.appendChild(el("strong", null, "All three charts are built."));
-      d.appendChild(el("p", null, "The two blocks you never used are the ones the paper uses elsewhere: starting from randomly initialized weights is the from-scratch comparison in section 7, and filtering generations for the correct ones is a baseline elicitation method in section 6.1."));
       doneEl.appendChild(d);
     }
   }
@@ -323,6 +360,7 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
       state.solved = saved.solved || {};
       state.attempts = saved.attempts || {};
       state.revealed = saved.revealed || {};
+      state.checked = saved.checked || {};
     }
     if (meta && meta.completed) completedOnce = true;
     render();
