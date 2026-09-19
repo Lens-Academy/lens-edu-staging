@@ -46,6 +46,10 @@ source:: [[../articles/stastny-making-deals-with-early-schemers]]
 from:: Clearly, there are some things that we can’t offer the AI
 to:: the acausal or covert coordination that the early AI would have to rely on to trade with the later AI.
 
+#### Text
+content::
+The figure below turns that table into a bargaining range. It marks the smallest offer the early AI would accept, which is what sabotage is worth to it divided by the chance a payment ever arrives, against the largest offer still worth making to us, which is how much cooperation improves our odds. Between the two marks a deal exists, and lowering the credibility of our promise raises the AI's minimum: a less credible promise has to be compensated with a more generous one. Move the sliders and see what closes the window first.
+
 #### Widget
 source:: [[../widgets/xlab-control-gains-from-trade]]
 
