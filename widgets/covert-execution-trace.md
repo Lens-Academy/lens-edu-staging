@@ -1,7 +1,7 @@
 ---
 id: '808102f6-fc8d-41da-aa29-167896f44a47'
 title: End-to-end execution trace
-summary_for_tutor: "An interactive version of the two system diagrams in section 3.2 of Cankaya's 'A system overview for near-term, low-trust AI compute verification' (Evidence capture; Evidence evaluation, Plan A). Each diagram shows the prover, the verifier, the prover's physically monitored facility and its parts (network taps and memory probes, air-gapped AI compute pods, raw evidence data and manifest, the auditing environment with three TCBs and the comparison-gated disclosure) with the links between them (hashes over sanitized egress, challenge over controlled ingress, response, disclosure), each labelled with the section that specifies it. The learner switches between the two phases and steps through the article's numbered trace (5 capture steps, 7 evaluation steps); each step shows the article's own sentence for that step and highlights the parts of the diagram it involves. Under the evaluation phase the three conditions that end the trace early are listed. Done means the learner has opened all 12 steps."
+summary_for_tutor: "An interactive version of the two figures in section 3.2 of Cankaya's 'A system overview for near-term, low-trust AI compute verification' (Evidence capture; Evidence evaluation, Plan A). The lens places it inside the inlined article, directly after the section 3.2 premise, so all of the prose is on the page around the widget: the premise paragraph, both phase intros, the two numbered lists, the three conditions that end the trace early, the optional memory-challenge note and the budgeted-fault note are the article text above and below it. The widget itself carries no prose. Two tabs draw each phase as a diagram: prover, verifier, the physically monitored Prover's Facility and its parts (network taps and memory probes, air-gapped AI compute pods, raw evidence data and manifest, the auditing environment with three TCBs and the comparison-gated disclosure), with the labelled links between them and the section that specifies each. Clicking a step in that phase's list shows the article's sentence for the step and lights the parts of the diagram it involves while dimming the rest. Done means the learner has opened all 12 steps (5 capture, 7 evaluation)."
 height: auto
 tags: [wip]
 ---
@@ -22,11 +22,7 @@ tags: [wip]
   }
   * { box-sizing: border-box; }
   body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
-  h1, h2, h3 { font-family: var(--font-heading); font-weight: 600; margin: 0; }
-  h1 { font-size: 24px; line-height: 1.2; }
-  h2 { font-size: 18px; }
   .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0 0 6px; }
-  .lede { color: var(--muted); margin: 8px 0 0; max-width: 46rem; }
   .card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: #fff; }
   button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 8px 12px; cursor: pointer; text-align: left; }
   button:hover { background: var(--page); }
@@ -34,7 +30,6 @@ tags: [wip]
   button.is-active { border-color: var(--text); box-shadow: 0 0 0 1px var(--text); }
   .tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 16px 0 12px; }
   .tab { font-weight: 500; }
-  .tab .seen { color: var(--muted); font-weight: 400; font-size: 12px; margin-left: 6px; }
   .diagram-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 8px; background: var(--page); }
   .diagram-wrap svg { display: block; min-width: 620px; width: 100%; height: auto; font-family: var(--font-ui); }
   .node rect, .node ellipse { fill: #fff; stroke: var(--text); stroke-width: 1.5; transition: stroke-width 120ms; }
@@ -73,9 +68,6 @@ tags: [wip]
   .step-detail { min-height: 6rem; }
   .step-detail p { margin: 0 0 8px; }
   .step-detail .comp { font-size: 12px; color: var(--muted); }
-  .exits { margin-top: 16px; border-top: 1px solid var(--border); padding-top: 12px; }
-  .exits ul { margin: 6px 0 0; padding-left: 20px; }
-  .exits li { margin-bottom: 4px; }
   .status { margin-top: 12px; font-size: 12px; color: var(--muted); display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
   .status .done { color: var(--accent); font-weight: 600; }
   .nav { display: flex; gap: 8px; margin-top: 10px; }
@@ -83,11 +75,7 @@ tags: [wip]
 </style>
 </head>
 <body>
-<section aria-labelledby="et-title">
-  <p class="eyebrow">Cankaya, section 3.2 End-to-end execution trace</p>
-  <h1 id="et-title">We follow one inference request</h1>
-  <p class="lede">We follow one inference request, but the tap sees it only as part of an undifferentiated byte stream. The request is never singled out at capture, only reconstructed later in the auditing environment.</p>
-
+<section aria-label="End-to-end execution trace">
   <div class="tabs" id="tabs" role="tablist"></div>
 
   <div class="diagram-wrap" id="diagram"></div>
@@ -97,8 +85,6 @@ tags: [wip]
     <div class="step-list" id="step-list"></div>
     <div class="card step-detail" id="step-detail" aria-live="polite"></div>
   </div>
-
-  <div class="exits" id="exits" hidden></div>
 
   <div class="status" id="status"></div>
 </section>
@@ -139,9 +125,7 @@ tags: [wip]
         { brief: "The hashes leave over a split, sanitized fiber link", text: "The hashes leave over a fiber link that is split and sanitized (output cross-check 4.3.2, sanitized egress 4.3.3), so prover and verifier observe identical egress with timing and physical-layer side-channels scrubbed. Both parties store these hashes.", lit: ["taps", "l-hashes", "l-hashes-v", "prover", "verifier"] },
         { brief: "The prover recomputes the same hashes", text: "The prover recomputes the same hashes from their own copy of the captured network traffic, confirming the tap emitted nothing but legitimate commitments.", lit: ["prover", "l-prover-taps", "taps"] },
         { brief: "The prover retains the plaintext and writes a manifest", text: "The prover retains the plaintext (or keeps it reproducible) and writes a manifest.", lit: ["raw", "l-taps-raw", "prover"] }
-      ],
-      intro: "This phase runs at line rate online, all the time. Nothing in it depends on an object being singled out for analysis.",
-      after: "Optionally, memory challenges (section 5.1.2) are a second, independent evidence capture mechanism for ML compute use. Their commitment mechanism is analogous to that of the network taps."
+      ]
     },
     {
       id: "evaluation",
@@ -177,17 +161,7 @@ tags: [wip]
         { brief: "The workload is screened for compliance", text: "The reconstructed workload is then screened for compliance (inference vs. training, model on the whitelist, outputs free of blacklisted use; inspector agents 5.2.3).", lit: ["tcb1", "tcb2", "tcb3", "audit"] },
         { brief: "The TCBs cross-check their verdicts", text: "The TCBs cross-check their verdicts (4.3.2). Agreement is required before anything is released.", lit: ["tcb1", "tcb2", "tcb3", "l-tcb-gate", "gate", "audit"] },
         { brief: "The result is released through sanitized egress", text: "The result is released through sanitized egress (4.3.3), split to both parties. By default the disclosure is minimal, e.g. only the challenged hashes if there is no issue. In case of non-compliance, the disclosure could point to the hashes of the suspicious data.", lit: ["gate", "l-disclosure", "prover", "verifier"] }
-      ],
-      intro: "As long as the hashes and their preimages are in storage, the verifier can challenge random samples at any future point in time. In plan A, evaluation is performed in an isolated environment containing redundant computing platforms receiving identical inputs, and checking each other’s outputs. Plan B removes the need for such a secure environment and replaces them with cryptographic techniques such as Zero-Knowledge-Proofs.",
-      exits: {
-        lead: "Three conditions end the trace early, and they are distinct.",
-        items: [
-          "A challenged preimage that is missing or does not hash to its commitment means the prover has failed the challenge outright.",
-          "A re-computation that does not reproduce the committed output means either the declared metadata was false, or there was a technical problem in the setup, or the workload was not as claimed, warranting investigation.",
-          "TCB disagreement means no disclosure leaves and the disagreement itself triggers investigation."
-        ],
-        after: "Faults, if triggered on purpose, can leak one bit of information to the verifier, per event. The prover and verifier need a pre-agreed budgeted rate for such faults, beyond which suspicion is raised."
-      }
+      ]
     }
   ];
 
@@ -203,7 +177,6 @@ tags: [wip]
     legend: document.getElementById("legend"),
     list: document.getElementById("step-list"),
     detail: document.getElementById("step-detail"),
-    exits: document.getElementById("exits"),
     status: document.getElementById("status")
   };
 
@@ -242,8 +215,6 @@ tags: [wip]
       b.setAttribute("role", "tab");
       b.setAttribute("aria-selected", p.id === state.phase ? "true" : "false");
       b.appendChild(document.createTextNode(p.tab));
-      var n = 0; for (var i = 0; i < p.steps.length; i++) if (state.seen[key(p, i)]) n++;
-      b.appendChild(el("span", "seen", n + " of " + p.steps.length + " steps"));
       b.addEventListener("click", function () { state.phase = p.id; state.step = null; render(); save(); });
       els.tabs.appendChild(b);
     });
@@ -342,8 +313,6 @@ tags: [wip]
 
     els.detail.textContent = "";
     if (state.step === null || !p.steps[state.step]) {
-      els.detail.appendChild(el("p", "eyebrow", p.title));
-      els.detail.appendChild(el("p", null, p.intro));
       els.detail.appendChild(el("p", "comp", "Pick a step to see the article's sentence for it and the parts of the diagram it involves."));
     } else {
       var s = p.steps[state.step];
@@ -356,32 +325,17 @@ tags: [wip]
         p.links.forEach(function (l) { if (l.id === id && l.label) names.push(l.label.length > 1 ? l.label[0].replace(/;$/, "") + " (" + l.label[1] + ")" : l.label[0]); });
       });
       els.detail.appendChild(el("p", "comp", "Highlighted: " + names.join("; ")));
-      if (state.step === p.steps.length - 1 && p.after) els.detail.appendChild(el("p", "comp", p.after));
       var nav = el("div", "nav");
       if (state.step > 0) { var prev = el("button", null, "Previous step"); prev.addEventListener("click", function () { openStep(state.step - 1); }); nav.appendChild(prev); }
       if (state.step < p.steps.length - 1) { var next = el("button", null, "Next step"); next.addEventListener("click", function () { openStep(state.step + 1); }); nav.appendChild(next); }
       else if (p.id === "capture") { var go = el("button", null, "Go to Evidence Evaluation"); go.addEventListener("click", function () { state.phase = "evaluation"; state.step = null; render(); save(); }); nav.appendChild(go); }
       els.detail.appendChild(nav);
     }
-
-    if (p.exits) {
-      els.exits.hidden = false;
-      els.exits.textContent = "";
-      els.exits.appendChild(el("h2", null, p.exits.lead));
-      var ul = el("ul");
-      p.exits.items.forEach(function (t) { ul.appendChild(el("li", null, t)); });
-      els.exits.appendChild(ul);
-      els.exits.appendChild(el("p", "comp", p.exits.after));
-    } else {
-      els.exits.hidden = true;
-    }
   }
 
   function renderStatus() {
     els.status.textContent = "";
-    var n = seenCount();
-    els.status.appendChild(el("span", null, n + " of " + TOTAL + " steps opened"));
-    if (n >= TOTAL) els.status.appendChild(el("span", "done", "✓ Trace complete"));
+    if (seenCount() >= TOTAL) els.status.appendChild(el("span", "done", "✓ Trace complete"));
     var reset = el("button", null, "Reset");
     reset.addEventListener("click", function () { state = { phase: "capture", step: null, seen: {} }; render(); save(); });
     els.status.appendChild(reset);
