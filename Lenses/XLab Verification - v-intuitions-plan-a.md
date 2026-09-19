@@ -34,6 +34,41 @@ to:: 1.  Removing major scale out interconnect and e.g., installing some simple 
 
 #### Article
 from:: ## 2029-2030: Deal Implementation
+to:: - **Jan 2031:** mature safety-case-based R&D rules in place
+
+#### Widget
+source:: [[../widgets/ai-2040-deal-timeline]]
+
+#### Article
+from:: ### Jan 2029: Mutual Chip Declaration and Inspection
+to:: What verification solution to choose will likely have complex tradeoffs between these metrics. Our current best guess is to primarily rely on on-path information collection (i.e., network taps) and then partial recomputation as the verification algorithm, since it seems most likely to be robustly scalable to extremely high coverage and confidence.
+:::
+
+#### Text
+content::
+**Assurance curves for three verification budgets**
+
+The chart below is the interactive form of the table in the box above: how much confidence each audit budget buys at a given level of coverage.
+
+#### Widget
+source:: [[../widgets/ai-2040-assurance-curve]]
+
+#### Article
+from:: :::callout {title="Key ingredients to any verification approach that we will assume are pursued." tone="neutral" collapse="closed"}
+to:: The concrete regime we imagine for the first few years of the deal is to still use network taps for evidence collection, and partial recomputation of randomly selected reproducible packets to verify correctness. The same high level approach as inference-only, with smaller and smaller packet sizes over time by moving the network taps to lower levels of the backend network.
+:::
+
+#### Text
+content::
+**Catching a rogue internal deployment**
+
+The chart below is the interactive form of the table in the box above: the chance that a 1% recomputation budget catches a rogue deployment, for any year, packet size and rogue size.
+
+#### Widget
+source:: [[../widgets/ai-2040-rogue-detection]]
+
+#### Article
+from:: ![](https://ai-2040.com/verification-plan/image8.png)
 to:: Also by the end of 2030, the US and China have set up hardened cold storage facilities where they allow inspectors to verify each other’s stash of AI chips, sized to be bigger than any plausible covert projects (a 5M H100e US bank and a 500K H100e China bank, per our [deal decline supplement](https://ai-2040.com/supplements/deal-decline#preparing-stockpiles-to-align-incentives)), and of relative size to each other similar to pre-deal status quo. These are in places that either side can easily defend. These locations will also be home to verified model weights stashes, so that models that the US and China agree would be positive sum to approve for use in the case of deal dissolution (e.g., models that would be very helpful for safety research and have strong safety cases). Around 2033 there is a model around the automated coder capability milestone that gets approved for the weights stash, and then in 2037 there is a near-frontier (top expert AI) model approved for the cold weights storage.
 
 #### Text
