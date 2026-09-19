@@ -1,7 +1,7 @@
 ---
 id: 'e6b75951-a68d-4f91-bd12-823a900ca252'
 title: Gains from trade with an early schemer
-summary_for_tutor: "A bargaining-range calculator built on the illustrative outcome table in Stastny, Jarviniemi and Shlegeris's \"Making deals with early schemers\". Four sliders set how likely humans are to dominate if the early AI cooperates (default 90 percent), how likely humans are to dominate if it sabotages (default 50 percent), how likely the early AI is to win by sabotaging (default 1 percent), and how credible our promise to pay is (default 100 percent). The widget draws the two outcome distributions as stacked bars and then marks two thresholds on an offer-size axis - the AI's minimum acceptable offer, computed as its sabotage payoff divided by the probability humans dominate after cooperation times credibility, and our maximum worthwhile offer, computed as the fractional improvement in our odds. At the defaults the window is roughly 1.1 percent to 44 percent of future resources, so a deal exists. The learner is asked to notice that lowering credibility raises the AI's minimum until the window closes, and that raising the odds that sabotage works for the AI does the same. Ask what the learner found closed the window first."
+summary_for_tutor: "A bargaining-range calculator built on the illustrative outcome table in Stastny, Jarviniemi and Shlegeris's \"Making deals with early schemers\", which the reading shows on the page just above this figure. Four sliders set how likely humans are to dominate if the early AI cooperates (default 90 percent), how likely humans are to dominate if it sabotages (default 50 percent), how likely the early AI is to win by sabotaging (default 1 percent), and how credible our promise to pay is (default 100 percent). The widget draws the two outcome distributions as stacked bars and marks two thresholds on an offer-size axis: the AI's minimum acceptable offer, its sabotage payoff divided by the chance the payment ever arrives, and our maximum worthwhile offer, the fractional improvement in our odds. At the defaults the window is roughly 1.1 percent to 44 percent of future resources, so a deal exists. The widget itself carries only the chart, the sliders and a one-line verdict; the Text segment above it explains what the two marks mean, says that lowering credibility raises the AI's minimum, and sets the task of finding what closes the window first. It completes once the learner has seen the window both open and closed. Ask what the learner found closed the window first."
 height: auto
 tags: []
 ---
@@ -39,8 +39,6 @@ input[type=range] { width: 100%; accent-color: var(--accent); margin: 4px 0 0; }
 .row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 14px; flex-wrap: wrap; }
 button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); padding: 8px 12px; cursor: pointer; }
 button:hover { background: var(--page); }
-.credit { margin-top: 12px; font-size: 12px; color: var(--muted); }
-.credit a { color: var(--accent); }
 </style>
 </head>
 <body>
@@ -50,7 +48,7 @@ button:hover { background: var(--page); }
 <div class="card">
   <p class="eyebrow">Figure</p>
   <h2>Gains from trade with an early schemer</h2>
-  <p class="lede">Adjust the outcome probabilities of the illustrative cooperate/sabotage table and the credibility of our promise to pay. The chart shows the range of offers that beats both the AI's sabotage option and our no-deal odds.</p>
+  <p class="lede">Move the sliders and watch the two marks on the offer axis.</p>
 
   <div class="legend">
     <span><span class="swatch" style="background:var(--humans)"></span>Humans dominate</span>
@@ -68,7 +66,6 @@ button:hover { background: var(--page); }
 
   <div class="row">
     <button type="button" id="reset">Reset to the reading's numbers</button>
-    <span class="credit">Model and defaults after XLab's demo for this lesson.</span>
   </div>
 </div>
 
@@ -77,10 +74,22 @@ button:hover { background: var(--page); }
   "use strict";
 
   var SVGNS = "http://www.w3.org/2000/svg";
-  var BAR_X = 132, BAR_W = 408;
+
+  var WIDE = { vbw: 560, vbh: 236, barX: 132, barW: 408, titleAbove: false,
+               bar1: 12, bar2: 52, axisLabel: 122, aiText: 138, aiTop: 142,
+               ourText: 156, ourTop: 160, band: 166, axis: 180, tickText: 196 };
+  var NARROW = { vbw: 336, vbh: 214, barX: 12, barW: 310, titleAbove: true,
+                 bar1: 18, bar2: 70, axisLabel: 122, aiText: 140, aiTop: 144,
+                 ourText: 158, ourTop: 162, band: 168, axis: 182, tickText: 198 };
+  var L = WIDE;
+
+  function layout() {
+    return (document.documentElement.clientWidth || window.innerWidth) < 520 ? NARROW : WIDE;
+  }
 
   var DEFAULTS = { humansCoop: 90, humansSab: 50, earlyWins: 1, credibility: 100 };
   var s = { humansCoop: 90, humansSab: 50, earlyWins: 1, credibility: 100 };
+  var seenDeal = false, seenClosed = false, completed = false;
 
   var SERIES = [
     { key: "humans", label: "Humans dominate", color: "var(--humans)" },
@@ -116,75 +125,77 @@ button:hover { background: var(--page); }
   }
 
   function xPos(pct) {
-    return BAR_X + Math.min(Math.max(pct, 0), 100) / 100 * BAR_W;
+    return L.barX + Math.min(Math.max(pct, 0), 100) / 100 * L.barW;
   }
 
   function drawBar(g, y, title, shares) {
-    g.appendChild(el("text", {
-      x: BAR_X - 8, y: y + 17, "text-anchor": "end",
-      fill: "var(--text)", "font-size": 11, "font-weight": 500
-    }, title));
+    g.appendChild(el("text", L.titleAbove
+      ? { x: L.barX, y: y - 5, "text-anchor": "start", fill: "var(--text)", "font-size": 11, "font-weight": 500 }
+      : { x: L.barX - 8, y: y + 17, "text-anchor": "end", fill: "var(--text)", "font-size": 11, "font-weight": 500 },
+      title));
     var run = 0;
     for (var i = 0; i < shares.length; i++) {
-      var w = shares[i] / 100 * BAR_W;
-      var x = BAR_X + run / 100 * BAR_W;
+      var w = shares[i] / 100 * L.barW;
+      var x = L.barX + run / 100 * L.barW;
       run += shares[i];
       if (w > 0) g.appendChild(el("rect", { x: x, y: y, width: w, height: 26, fill: SERIES[i].color }));
-      if (w > 36) {
+      if (w > 30) {
         g.appendChild(el("text", {
           x: x + w / 2, y: y + 17, "text-anchor": "middle",
           fill: "#ffffff", "font-size": 10, "font-weight": 500
         }, Math.round(shares[i]) + "%"));
       }
     }
-    g.appendChild(el("rect", { x: BAR_X, y: y, width: BAR_W, height: 26, fill: "none", stroke: "var(--border)", "stroke-width": 1 }));
+    g.appendChild(el("rect", { x: L.barX, y: y, width: L.barW, height: 26, fill: "none", stroke: "var(--border)", "stroke-width": 1 }));
   }
 
   function render() {
     var m = model();
     var svg = document.getElementById("chart");
+    L = layout();
+    svg.setAttribute("viewBox", "0 0 " + L.vbw + " " + L.vbh);
     while (svg.childNodes.length > 1) svg.removeChild(svg.lastChild);
 
-    drawBar(svg, 12, "AI cooperates", [m.e, 0, 100 - m.e]);
-    drawBar(svg, 52, "AI sabotages", [m.r, m.u, 100 - m.r - m.u]);
+    drawBar(svg, L.bar1, "AI cooperates", [m.e, 0, 100 - m.e]);
+    drawBar(svg, L.bar2, "AI sabotages", [m.r, m.u, 100 - m.r - m.u]);
 
-    svg.appendChild(el("text", { x: BAR_X, y: 122, fill: "var(--text)", "font-size": 11, "font-weight": 500 }, "Offer size (share of future resources)"));
+    svg.appendChild(el("text", { x: L.barX, y: L.axisLabel, fill: "var(--text)", "font-size": 11, "font-weight": 500 }, "Offer size (share of future resources)"));
 
     if (m.deal) {
       svg.appendChild(el("rect", {
-        x: xPos(m.aiMin), y: 166, width: Math.max(xPos(m.ourMax) - xPos(m.aiMin), 1.5), height: 14,
+        x: xPos(m.aiMin), y: L.band, width: Math.max(xPos(m.ourMax) - xPos(m.aiMin), 1.5), height: 14,
         fill: "var(--accent)", "fill-opacity": 0.18
       }));
     }
 
-    svg.appendChild(el("line", { x1: BAR_X, y1: 180, x2: BAR_X + BAR_W, y2: 180, stroke: "var(--border)", "stroke-width": 1 }));
+    svg.appendChild(el("line", { x1: L.barX, y1: L.axis, x2: L.barX + L.barW, y2: L.axis, stroke: "var(--border)", "stroke-width": 1 }));
     [0, 25, 50, 75, 100].forEach(function (t) {
-      svg.appendChild(el("line", { x1: xPos(t), y1: 180, x2: xPos(t), y2: 184, stroke: "var(--border)", "stroke-width": 1 }));
-      svg.appendChild(el("text", { x: xPos(t), y: 196, "text-anchor": "middle", fill: "var(--muted)", "font-size": 10 }, t + "%"));
+      svg.appendChild(el("line", { x1: xPos(t), y1: L.axis, x2: xPos(t), y2: L.axis + 4, stroke: "var(--border)", "stroke-width": 1 }));
+      svg.appendChild(el("text", { x: xPos(t), y: L.tickText, "text-anchor": "middle", fill: "var(--muted)", "font-size": 10 }, t + "%"));
     });
 
     // AI's minimum
     var aiX = xPos(isFinite(m.aiMin) ? m.aiMin : 100);
-    svg.appendChild(el("line", { x1: aiX, y1: 142, x2: aiX, y2: 180, stroke: "var(--early)", "stroke-width": 2 }));
+    svg.appendChild(el("line", { x1: aiX, y1: L.aiTop, x2: aiX, y2: L.axis, stroke: "var(--early)", "stroke-width": 2 }));
     svg.appendChild(el("text", {
-      x: aiX, y: 138, "text-anchor": (m.aiMin > 75 ? "end" : "start"),
+      x: aiX, y: L.aiText, "text-anchor": (m.aiMin > 60 ? "end" : "start"),
       fill: "var(--early)", "font-size": 10, "font-weight": 500,
       stroke: "var(--bg)", "stroke-width": 4, "paint-order": "stroke"
     }, m.aiMin > 100 ? "AI's minimum > 100%" : "AI's minimum " + fmt(m.aiMin) + "%"));
 
     // our maximum
     var ourX = xPos(m.ourMax);
-    svg.appendChild(el("line", { x1: ourX, y1: 160, x2: ourX, y2: 180, stroke: "var(--humans)", "stroke-width": 2 }));
+    svg.appendChild(el("line", { x1: ourX, y1: L.ourTop, x2: ourX, y2: L.axis, stroke: "var(--humans)", "stroke-width": 2 }));
     svg.appendChild(el("text", {
-      x: ourX, y: 156, "text-anchor": (m.ourMax > 75 ? "end" : "start"),
+      x: ourX, y: L.ourText, "text-anchor": (m.ourMax > 60 ? "end" : "start"),
       fill: "var(--humans)", "font-size": 10, "font-weight": 500,
       stroke: "var(--bg)", "stroke-width": 4, "paint-order": "stroke"
-    }, m.ourMax <= 0 ? "our maximum ≤ 0%" : "our maximum " + fmt(m.ourMax) + "%"));
+    }, m.ourMax <= 0 ? "our maximum \u2264 0%" : "our maximum " + fmt(m.ourMax) + "%"));
 
     var verdict = document.getElementById("verdict");
     var msg;
     if (m.deal) {
-      msg = "Any offer between " + fmt(m.aiMin) + "% and " + fmt(m.ourMax) + "% of future resources beats both sides' no-deal alternatives. Lowering credibility raises the AI's minimum: a less credible promise must be compensated with a more generous offer.";
+      msg = "Any offer between " + fmt(m.aiMin) + "% and " + fmt(m.ourMax) + "% of future resources beats both sides' no-deal alternatives.";
       verdict.className = "verdict";
     } else if (m.ourMax <= 0) {
       msg = "No deal: cooperation does not improve our odds enough for any offer to be worth its cost to us.";
@@ -194,6 +205,12 @@ button:hover { background: var(--page); }
       verdict.className = "verdict no";
     }
     verdict.textContent = msg;
+
+    if (m.deal) seenDeal = true; else seenClosed = true;
+    if (seenDeal && seenClosed && !completed) {
+      completed = true;
+      if (window.Lens && window.Lens.complete) window.Lens.complete();
+    }
 
     // keep the slider readouts and the max on "the AI itself wins" in step
     CONTROLS.forEach(function (c) {
@@ -218,7 +235,7 @@ button:hover { background: var(--page); }
         (m.deal
           ? "A bargaining window is open: offers between " + fmt(m.aiMin) + "% and " + fmt(m.ourMax) + "% of future resources beat both sides' no-deal alternatives."
           : "No bargaining window: the AI's minimum acceptable offer (" + (isFinite(m.aiMin) ? fmt(m.aiMin) + "%" : "unbounded") + ") is not below our maximum worthwhile offer (" + fmt(m.ourMax) + "%).");
-      window.Lens.saveState({ v: 1, s: s }, summary);
+      window.Lens.saveState({ v: 1, s: s, seenDeal: seenDeal, seenClosed: seenClosed }, summary);
     }, 400);
   }
 
@@ -266,12 +283,20 @@ button:hover { background: var(--page); }
 
   buildControls();
 
+  var resizeTimer = null;
+  window.addEventListener("resize", function () {
+    if (resizeTimer) clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(render, 120);
+  });
+
   if (window.Lens && window.Lens.onState) {
     window.Lens.onState(function (state) {
       if (state && state.s) {
         CONTROLS.forEach(function (c) {
           if (typeof state.s[c.key] === "number") s[c.key] = state.s[c.key];
         });
+        seenDeal = !!state.seenDeal;
+        seenClosed = !!state.seenClosed;
       }
       render();
     });
