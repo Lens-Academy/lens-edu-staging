@@ -42,7 +42,7 @@ Introduction — Jurisdictions around the world are taking their first steps tow
 Compute Providers’ Intermediary Role — Increasingly large amounts of computing power are necessary for both the development and deployment of the most sophisticated AI systems. Consequently, advanced AI models today are trained, and deployed in data centers, housing tens of thousands of “AI accelerators” (specialized computers for AI applications). Because of the large upfront cost of building this infrastructure and economies of scale, AI developers often access large-scale compute through models like Infrastructure as a Service (IaaS), also often described as _cloud computing_. ([Section 1.1](#S1.SS1 "1.1 Compute Providers’ Intermediary
 Role ‣ 1 Introduction ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation"))
 
-![Figure 1](https://arxiv.org/html/2403.08501v2/ITC_Figure_In-The-Clouds-Overview-Simplified-4-compressed.svg)
+![Figure 1: The intermediary role of compute providers in relation to AI companies and regulators.](https://arxiv.org/html/2403.08501v2/ITC_Figure_In-The-Clouds-Overview-Simplified-4-compressed.svg)
 
 Figure 1: The intermediary role of compute providers in relation to AI companies and regulators.
 
@@ -94,7 +94,7 @@ Large amounts of computing power are necessary for both the development and depl
 
 Some AI firms currently manage their own data centers or maintain exclusive partnerships with leading compute providers, known as _hyperscalers_.[^note-6] Notably, the most advanced AI research is currently being conducted at or with these hyperscalers.[^note-7] While this situation introduces complex challenges for regulatory oversight, our discussion also encompasses scenarios in which compute providers are internal to, or closely linked with an AI firm.[^note-8] For example, an AI company should not be able to circumvent the proposed guidelines by categorizing its usage as internal provisions or failing to identify itself as a customer. This would ensure comprehensive coverage of all relevant forms of compute provision for frontier AI.
 
-![Figure 1](https://arxiv.org/html/2403.08501v2/ITC_Figure_In-The-Clouds-Overview-Simplified-4-compressed.svg)
+![Figure 1: The intermediary role of compute providers in relation to AI companies and regulators.](https://arxiv.org/html/2403.08501v2/ITC_Figure_In-The-Clouds-Overview-Simplified-4-compressed.svg)
 
 Figure 1: The intermediary role of compute providers in relation to AI companies and regulators.
 
@@ -445,7 +445,7 @@ More formally, the total computing power of a rented cluster and how long a cust
 Accounting ‣ 3.3 Verifying ‣ 3 Technical Feasibility of Compute Providers’ Governance
 Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation")). In cases where compute is being consumed by a customer (as opposed to hardware sitting idle), the amount of compute consumed can be attributed to at least one workload. The addition of workload classification allows fractions of that usage to be ascribed to workloads of particular types.
 
-![Figure 10](https://arxiv.org/html/2403.08501v2/ITC_Figure_Three-Scenarios-of-Compute-Usage-compressed.svg)
+![Figure 10: Three example scenarios of a set of AI accelerator nodes running different workloads over time. Compute accounting establishes th](https://arxiv.org/html/2403.08501v2/ITC_Figure_Three-Scenarios-of-Compute-Usage-compressed.svg)
 
 Figure 10: Three example scenarios of a set of AI accelerator nodes running different workloads over time. Compute accounting establishes the amount of compute used over time, while workload classification can differentiate between these three scenarios by mapping compute usage to specific workloads.
 
@@ -464,7 +464,7 @@ Theoretical compute is a derivative of empirical compute, useful for establishin
 Accounting ‣ 3.3 Verifying ‣ 3 Technical Feasibility of Compute Providers’ Governance
 Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation")).
 
-![Figure 11](https://arxiv.org/html/2403.08501v2/ITC_Figure_Measurement-Puzzle-Pieces-Simplified-compressed.svg)
+![Figure 11: A spectrum of possible compute usage metrics for AI workload analysis, from low-level measurements, such as on-chip calculations](https://arxiv.org/html/2403.08501v2/ITC_Figure_Measurement-Puzzle-Pieces-Simplified-compressed.svg)
 
 Figure 11: A spectrum of possible compute usage metrics for AI workload analysis, from low-level measurements, such as on-chip calculations, to more high-level measurements, such as the hardware available to a customer. Each of these metrics can be synergistically combined to enhance the accuracy and sensitivity of workload classification and compute accounting.
 
