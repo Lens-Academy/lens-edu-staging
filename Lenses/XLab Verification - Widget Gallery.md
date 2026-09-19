@@ -13,50 +13,6 @@ This page collects every interactive built for Compute Verification Parts 1 and 
 
 #### Text
 content::
-\## Part 1 · Week 2: What kind of policy are we trying to verify?
-
-Module file: [[../modules/XLab Verification P1 W2 Policy scope]]
-
-#### Text
-content::
-\### Lens: [[../Lenses/XLab Verification - v-scoping-effective-feasible]]
-
-#### Text
-content::
-\#### Scoping an Anti-ASI Policy (policy-scoping)
-
-**Decision: widget.** The learner places eleven buckets on a 5x5 feasibility x effectiveness plane with per-bucket verdicts drawn as arrows on the plane and a gated follow-up question; prose and an Open question cannot give the placing, the verdict-then-adjust loop, or the unlock.
-
-**Target lens:** [[../Lenses/XLab Verification - v-scoping-effective-feasible]]
-
-**Where it goes:** after "Sort the following policy buckets on the feasibility x effectiveness matrix." (the Text segment that ends "Should you compromise ambition or real-world enforceability?")
-
-**What it replaces:** the "### The sort" Text segment, the Open question ec436b24-4b82-4a3f-b079-a37edc4c4aef (the sort graded as free text), the "### The one exception" text, the Choice question 3bfd8e5c-88d3-499f-accc-83458f7ec368 and its "Why (open after you have answered)" callout. The "Reference map and reasoning" table callout may stay as a collapsed fallback, since it is the tutor's readable copy of the key. The "### The axes" Text segment with its two scale callouts and the "### The buckets" Text segment with its eleven bucket callouts now stay on the page, above the widget: they are the learner's reference while sorting, and the widget no longer teaches them. The "Design for the hardest case" paragraph after the widget stays.
-
-**In XLab:** <VerificationExercise id="policy-scoping" /> in scoping-effective-feasible.mdx, core, not inside a Fold. Registered as bridged in src/lib/verification/exercises.ts.
-
-**Learner time:** 20 to 25 minutes
-
-One screen, no gating. The learner reads the scales and the eleven buckets in the page's collapsed callouts above, then drags each bucket chip onto the 5x5 grid (or clicks a chip, then a cell; the chip's tooltip carries its description and historical parallel, the axis titles and rung labels carry theirs). Check gives every on-the-mark chip a green tick and draws an arrow from every other chip to the cell the reference has it in (amber dashed for one rung off, red for further off); moving a chip after a check hides its arrow until the next check. After the first check the securitization question appears; picking the coordinated halt completes the exercise, a wrong pick shows XLab's explanation and allows a retry. Picking a chip after the check shows XLab's rationale for that bucket.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-- Review change (2026-09-19): the per-bucket results list under the plane is gone, and so are the "Reveal reference map" button and its ghost layer. Check now marks each on-the-mark chip with a green tick and draws an arrow on the plane itself from every other chip to the cell the reference has it in, amber and dashed for one rung off, red and solid for further off, recomputed on resize so it holds at 360px. Reviewer notes: the list read as a wall of verdicts, and the widget explained drag, keyboard and touch in prose it did not need, so the instruction is now one line on the tray. Adapted: XLab's per-bucket rationale is reached by picking a chip after the check instead of by the reveal map, the securitization question unlocks on the first check rather than on all-correct or reveal, and the closing paragraph on the EU AI Act and EO 14110 thresholds was dropped because the lesson page already carries it verbatim. Old saved states still restore, including ones written with the reveal flag set.
-- Review change (2026-09-18): the three-step tab bar is gone, and with it step 1 (the two five-rung scale panels behind an "open both, then continue" gate) and step 2 (the eleven bucket cards on a ramp, which unlocked the sort once all were read), plus the phase state and the saved fields for scales seen and cards read. Reviewer note: those two steps duplicated reading the page already does, so the widget now opens directly on the sort. Adapted: the scales and the bucket descriptions with their historical parallels live in the page's collapsed callouts rather than in the widget, so the "### The axes" and "### The buckets" segments stay on the page instead of being replaced; inside the sort the rung glosses moved onto the row and column labels as tooltips, the axis titles now show their definition in the info line under the tray instead of reopening a scale panel, and each chip's tooltip carries its description plus its historical parallel. A state saved by the earlier three-step version still restores its placements and verdicts; the phase, scales-seen and cards-read fields are ignored.
-- Data: xlab-tracks/src/lib/verification/data/policy-scoping.ts (AXIS_SCALES, BUCKETS with key cells, verdictFor, nudge logic, EXC_ANSWERS, AXIS_TIPS, POLICY_SCOPING_COPY) and the component src/components/verification/widgets/policy-scoping.tsx (phase gating, check/reveal/reset, exception unlock rule allRight || keyOn, ghost offsets, onComplete on the correct pick). The widget imports only the kit drag module and ui primitives; it does not use policy-plot, policy-quick-check, policy-critique or any engine. Working tree of the clone (no historical commit needed).
-- Every scale, bucket, parallel, rationale, tip, stat, caption and button label is XLab's. Em dashes replaced with commas, colons, periods or parentheses, using the same rewrites the Lens lens already uses for the eleven rationales. The `<b>Right, the coordinated halt.</b>` HTML in EXC_ANSWERS.ch is rendered as a bold span plus text, not innerHTML.
-- Adapted: XLab's scale dialog is an inline panel (the frame has no modal); tooltips (chip description, verdict nudge, ghost rationale, corner notes, securitization) are `title` attributes plus a visible info line under the tray that shows the same text when a chip is picked up, a ghost or corner label is clicked, or the "Securitization" term is toggled, so touch users get them too. The sort hint sentence therefore says "pick a bucket up, then pick a cell" instead of XLab's "hover a chip for its description". The two-colour tint ramp is a single accent bar with rising opacity.
-- Dropped: XLab's closing line "Next: what would a pause agreement actually say? 1.1: Anatomy of a (Pause) Agreement" (XLab navigation, not this module's order); replaced by XLab's live-region text "Correct. Exercise complete."
-- Exception options are shown in a seeded order (port of src/lib/shuffle.ts keyed "policy-scoping:exception") instead of XLab's fixed most-demanding-first order, which put the correct answer first. The Lens Choice segment also shuffles.
-- No Lens.submit: XLab asks for no written justification in this widget and has no rubric text; the sort is checked in-widget against the reference cells exactly as XLab does. No promptTutor (XLab has no discuss moment here). The Lens-authored 9/5/0 scoring and middle-band leniency from the native Open question are not reproduced (they are not XLab's).
-- Completion mirrors XLab onComplete: fires once when the correct exception is picked. Restore: state carries phase, scales seen, cards read, placements with verdicts, checked/revealed flags and the exception pick; a completed meta with no state renders the finished view. A restored phase that its prerequisites cannot reach falls back to the last reachable step.
-- Uncertain: XLab's own log notes the reference cells and rung scales are builder-authored apparatus awaiting owner review; the widget grades against them as XLab does.
-:::
-
-#### Widget
-source:: [[../widgets/policy-scoping]]
-
-#### Text
-content::
 \## Part 1 · Week 3: Who the treaty relies on, applies to, and constrains
 
 Module file: [[../modules/XLab Verification P1 W3 Treaty actors]]
