@@ -62,41 +62,6 @@ content::
 
 #### Text
 content::
-\#### Who can prove what (actor-edges)
-
-**Decision: widget.** The learner draws directed evidence edges on a 17-actor ring map (drag, tap-tap, or button lists), commits, and gets a per-edge verdict against XLab's seven-edge key; a typed list graded by the assessor cannot show the map, the reversed/extra/missed states, or the role lens.
-
-**Target lens:** [[../Lenses/XLab Verification - v-actor-edges]]
-
-**Where it goes:** after the first Text segment ending "which of the four subgoals turns out to be holding the whole regime up." It replaces everything from the second Text segment ("## Who can prove what ... The brief ...") through the "Why (open after you have answered)" callout.
-
-**What it replaces:** the prose reproduction (brief, board placement, four subgoals, "1. Draw the edges" instructions), the Open question "Draw the edges" with its Lens-authored per-edge scoring, the two closed callouts (seven-edge key; actors with no edge), the "2. Read the map" callout (Where this regime is weakest), the Choice segment (whose removal stops a run soonest) and its "Why" callout. All of that is inside the widget, revealed only after the learner commits. Remove entirely; the widget covers every line. Keep the three optional Open questions (Taiwan's roles, information holders in order, capability-plus-enforcement actor) as they are on the page if you want the platform's own grading UI; the widget also carries them (behind "Open them", with Lens.submit and the self-marking key), so they can go too. Keep the intro Text segment, "Notes and sources" and "Works cited".
-
-**In XLab:** <VerificationExercise id="actor-edges" /> in actor-edges.mdx, core, not inside a Fold
-
-**Learner time:** 25 to 35 minutes (plus about 15 for the optional written answers)
-
-The board shows the 17 actors on XLab's key rings (Declares, Holds the evidence, Verifies, Outside the declaration) around "A training run above the threshold". In step 1 the learner draws edges A to B (A can produce evidence about B for a verifier) by dragging between points on the SVG, tapping a source then a target, pressing Enter/Space on the focused point, or using the source and target button lists; a removable list of drawn edges sits below and "Commit the edges" enables once one edge exists. On commit the map recolours edges (solid accent in the key, dotted dark reversed or extra, dashed grey missed) and the verdict lists all seven key edges by subgoal with XLab's mechanism and Baker quotes, the extras with XLab's "argue with the key" note, and the ten actors with no edge and why; "Edit my edges" reopens drawing. "Read what it says" moves to step 2: the two findings, a "Light up a role" row that highlights actors by functional role, the second-order question (seeded shuffle, commit reveals every option's reasoning and the lesson, and completes the widget), then the optional three written questions with Lens.submit scoring and XLab's self-marking key.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-Data verbatim from src/lib/verification/data/actor-workshop.ts (WORKSHOP_ACTOR_IDS, RINGS, RING_KEY, MAP_SLOTS, ABSENT_ACTORS, MAP_LABEL, CENTRE, SUBGOALS, EDGE_KEY, EDGE_NOTES, EDGE_FINDING, MAP_FINDING, SECOND_ORDER, CLOSING_QUESTIONS, CLOSING_KEY), src/lib/verification/data/actor-map.ts (the 17 roster entries, ACTOR_ROLES, ACTOR_POSTURES), copy and geometry from src/components/verification/widgets/actor-edges.tsx and actor-board.tsx (RingMap radii, slot angles, beam and arrowhead paths, drag threshold and hit radius), scoring from src/lib/verification/actor-workshop.ts (scoreEdges: found, reversed, extra, missed), shuffle from src/lib/shuffle.ts. Current HEAD of the tracks clone. Em dashes replaced with commas, colons or parentheses throughout, including inside two Baker quotes ("code, with the Prover"; "regime: its robustness").
-
-Dropped or adapted:
-- XLab bridges this widget to the 1.2 board (shared localStorage key v-actor-workshop:v5): it shows the learner's own ring placement when done, tracks "peeked" across both halves, and the closing line reports recall and ring scores from 1.2. Lens state is per widget, so the map always shows RING_KEY; the note "You have not placed this board yourself" is reworded to "The rings below are the key from 1.2, not your answer"; the closing line keeps only "N of 7 edges in the key" and the roster-reopened flag. RING_WHY, CORE_QUESTION and RECALL_TARGET belong to the 1.2 widget and are not rendered here (XLab does not render them here either).
-- Role lens colours: XLab uses five module colours; Lens rule is one accent, so a lit actor is accent-coloured, larger and bold, dimming the rest. Edge states use solid/dotted/dashed plus a legend, not colour alone.
-- SECOND_ORDER: XLab's ChoiceList shows options in authored order with letters (correct answer first). Ported with a seeded shuffle keyed "actor-edges:second-order" and no letters; the reveal list stays in authored order. Deviation on purpose (verify rule 3).
-- Written questions: XLab's placeholder says "Nothing is graded"; here "Save answer" also calls Lens.submit (item = question id) with assessmentInstructions built at runtime from the CLOSING_KEY criteria that belong to that question (criteria 1 to 3 for Q1, 4 to 5 for Q2, 6 to 7 for Q3, each with its points, reasoning line and grounds, plus the matching "No credit" line and the marking-key preamble). Placeholder shortened to "Answer from the map you just drew." Self-marking panel kept verbatim; "Score again" resubmits.
-- Lens.promptTutor not used: XLab has no discuss moment here.
-- The SVG actor points are `<g role="button" tabindex="0">` (as in XLab), not `<button>` elements; the button lists below are the fully native fallback, as XLab intends.
-- Roster (names, positions, notes, rings, roles, postures) is behind "Open the roster" and sets `peeked`, as in XLab.
-- Lens.complete() fires on committing the second-order answer (XLab's onComplete). Restoring a saved state renders identically (verified).
-:::
-
-#### Widget
-source:: [[../widgets/actor-edges]]
-
-#### Text
-content::
 \## Part 1 · Week 4: Upstream and downstream
 
 Module file: [[../modules/XLab Verification P1 W4 Evidence and its readers]]
