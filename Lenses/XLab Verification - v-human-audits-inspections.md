@@ -71,8 +71,8 @@ to:: 50.  This may be accomplished by means of, inter alia, the partial removal 
 content::
 
 \## Four Sources
-
-:::callout {title="Optional: Four Sources (12–15 minutes)" tone="neutral" collapse="closed"}
+:::callout {title="Read first: the brief and the Project Lattice case file (optional, 12 to 15 minutes)" tone="neutral" collapse="closed"}
+**Build the inspection order.** A power anomaly has raised a concrete concern. Choose the mechanism, set the ceiling imposed by access, and write an order that can survive both evasion and a legitimate confidentiality objection. The exercise below is optional, and the case file stays available here while you work through it.
 **Build the inspection order.** A power anomaly has raised a concrete concern. Choose the mechanism, set the ceiling imposed by access, and write an order that can survive both evasion and a legitimate confidentiality objection. Every question in this exercise is optional.
 
 **Project Lattice.** A declared data center reports no training run above the treaty threshold. Independently obtained power-allocation and procurement records show a six-week expansion under the same project code. The records identify a facility and time period but not the workload. The agreement permits periodic inspections and a short-notice inspection when a specific concern cannot be resolved through consultation.
