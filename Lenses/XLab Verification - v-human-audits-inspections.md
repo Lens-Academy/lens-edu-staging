@@ -95,7 +95,7 @@ The completed file separates the purpose of each mechanism, the maximum conclusi
 - Scope and rights: reach the named systems, entities, records, sites, and period, with powers matched to the evidentiary question.
 - Preservation and protection: bind relevant record holders at notice and pair collection with vetted access, secure handling, purpose limits, and restricted retention.
 - Refusal: apply deadlines, alternative access, documentation, and authorized escalation; distinguish an access breach from proof of the suspected run.
-- Managed access: mask unrelated fields and restrict personnel, location, copying, and use—but preserve independent access to the allocation evidence needed to answer the same question.
+- Managed access: mask unrelated fields and restrict personnel, location, copying, and use, but preserve independent access to the allocation evidence needed to answer the same question.
 :::
 
 #### Text
