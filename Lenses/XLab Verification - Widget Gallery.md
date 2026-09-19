@@ -226,40 +226,6 @@ content::
 
 #### Text
 content::
-\#### Hardware opening puzzle, ClaimLedger (claim-ledger)
-
-**Decision: widget.** Seven claims judged on one three-point scale, toggled and kept, then read back at the end of the section: Lens Choice segments cannot toggle, cannot show "what you recorded" later, and the return in 2.1.8 is today a bare bullet list with a link back.
-
-**Target lens:** [[../Lenses/XLab Verification - v-hw-attestation]] and [[../Lenses/XLab Verification - v-hw-policy-studio]]
-
-**Where it goes:** v-hw-attestation: after "Before reading further, classify each conclusion as **supported**, **possibly supported if the system was designed to measure it**, or" (drop the "Proposed conclusion:" line, the widget prints it). v-hw-policy-studio: after "In [[../Lenses/XLab Verification - v-hw-attestation|2.1 Hardware]] you classified each of these conclusions as supported," replacing the seven-bullet list.
-
-**What it replaces:** v-hw-attestation: the seven `Question: Choice` segments (ids 6aff61bf, 45dad21d, 188fe444, 6e4a14c9, 9c7cd240, f59b326b, 021cf8df) and the following Text line "Keep your answers. You will return to them at the end of the section." (the widget carries that sentence in its footer): remove entirely. v-hw-policy-studio: the bullet list of the seven claims under "Return to the opening puzzle" and the reviewer comment about Lens not recalling across lenses: remove entirely; keep the sentence "Look back at what you recorded before reading on." and XLab's two resolution paragraphs below the widget.
-
-**In XLab:** `<ClaimLedger id="hw-opening-puzzle" set="hardware-opening" />` in hardware-attestation.mdx (core, not in a Fold) and `<ClaimLedger id="hw-opening-puzzle" set="hardware-opening" recall />` in hardware-policy-studio.mdx (core, after the MemoDesk, not in a Fold)
-
-**Learner time:** 5 minutes at the start, 2 minutes at the return
-
-Reads seven proposed conclusions the laboratory's 20,000 attestation tokens might support and, for each, presses one of three judgments: Supported, Possibly supported if the system was designed to measure it, or Unsupported by attestation alone. Pressing the selected judgment again clears it, as in XLab. "Keep your answers" flips the card to the read-only "What you recorded" view (check mark and the judgment text per row; a blank row says "You did not record a judgment for this one."); "Change your answers" reopens it. At the end of the section the same widget appears under "Return to the opening puzzle" and shows what they recorded, with XLab's resolution paragraphs beneath it; there is no answer key inside the widget, in either view.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-- Data: `src/lib/verification/data/hardware-opening-puzzle.ts` (HARDWARE_OPENING_PUZZLE) at HEAD of the xlab-tracks clone; all 15 strings verified present verbatim by script. Component behaviour from `src/components/mdx/reader/claim-ledger.tsx`: eyebrow "Your judgment" / "What you recorded", toggle-off on re-press, no key, no grading. The `lead` field ("Proposed conclusion") is in the data but not rendered by XLab's component; the widget prints it as the list heading, matching the Lens page's existing "Proposed conclusion:" line.
-- Adapted: XLab's recall is a separate `recall` prop rendered on a different page from the same localStorage mark. A Lens widget cannot know which lens it sits in, so the learner switches views with "Keep your answers" (button label taken from XLab's prose line "Keep your answers.") and "Change your answers" (UI chrome, not XLab text). If a learner reaches 2.1.8 without ever pressing Keep, they see the editable ledger there instead of the recall view; they can still judge and keep it before reading the resolution.
-- Rewrite: XLab's blank-row text "you did not record a judgment for this one" (which opens with an em dash in the source) became "You did not record a judgment for this one." (dash dropped, capitalised, full stop added).
-- Added chrome: "N of 7 judged" counter and the "Answers kept" status, so state is visible without colour.
-- Completion: XLab's ClaimLedger completes nothing. The widget calls Lens.complete() when the learner keeps a ledger with all seven rows judged (never on partial keeps), so `required:: true` is meaningful if the orchestrator wants it.
-- Standalone: falls back to localStorage key `lens-claim-ledger-hw-opening-puzzle`.
-:::
-
-#### Widget
-source:: [[../widgets/claim-ledger]]
-
-#### Text
-content::
-\### Lens: [[../Lenses/XLab Verification - v-hw-claim]]
-
-#### Text
-content::
 \#### Hardware lessons: reader components and prose diagrams (hardware-reader-checks)
 
 **Decision: nothing to port.** md). None of the nine hardware lessons uses `<Check>`, `<GapFill>` or `<VerdictSelect>`; the only interactive reader component is `<ClaimLedger>`; the three `<Prompt>` blocks and the prose "diagrams" carry no learner action or per-part authored content, so a widget would be a figure.
