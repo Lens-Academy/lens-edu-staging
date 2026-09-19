@@ -21,8 +21,8 @@ content::
 *30 minutes*
 
 Answer from the assigned readings. Treat every qualifier as part of the question. Select only conclusions supported by the stated access and evidence.
-{>>{"author":"Elias's AI","timestamp":1788016280654}@@Native reproduction of XLab's cloud-evidence-drill widget (nine tasks). Prompts, statements, options, model answers and explanations are copied verbatim from src/lib/verification/data/cloud-evidence-drill.ts and the widget component; the source links per task are the widget's own.<<}
-
+{--{"author":"Elias's AI","timestamp":1789828090963}@@{>>{"author":"Elias's AI","timestamp":1788016280654}@@Native reproduction of XLab's cloud-evidence-drill widget (nine tasks). Prompts, statements, options, model answers and explanations are copied verbatim from src/lib/verification/data/cloud-evidence-drill.ts and the widget component; the source links per task are the widget's own.<<}
+--}
 #### Widget
 source:: [[../widgets/cloud-evidence-drill]]
 required:: true
