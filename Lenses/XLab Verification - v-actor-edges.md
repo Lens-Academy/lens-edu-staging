@@ -131,9 +131,15 @@ content::
 **Deployers.** Below the threshold, and that is the whole of it. Millions of actors running somebody else’s model are outside the regime by construction rather than by evasion, which is why they share a ring with the proxies and share nothing else. Baker §2.2, what counts as large-scale: “AI development or deployment is ‘large-scale’ if it uses thousands of high-end AI chips over multiple months.”
 :::
 
+#### Text
+content::
 \### 2. Read the map
 
 :::callout {title="Where this regime is weakest (open after you have answered)" tone="neutral" collapse="closed"}
+**What the finished map says.** Read your rings from the inside out. Exactly two actors on this board owe anybody a declaration; everything outside them either holds evidence about that declaration, or checks it, or is not covered by any declaration at all. A verification regime is a much smaller object than the map of who matters: most of this board it does not reach, and half of it cannot help.
+
+Now read the roles across the rings instead of around them. Roles do not stay in their band: the cloud provider holds four of them at once, and the ring it sits on tells you none of the four. The section gives you three questions to ask of any actor: where does it sit on the chain (position), what can it do inside a regime (roles), what does it want today (posture). These rings are a fourth, and a narrower one: not where an actor sits, but what part it plays in checking a declaration. All four cut across each other, which is why no single one of them is the map.
+
 Count the edges by subgoal. 2.B, no undeclared clusters anywhere, has four. The other three subgoals have one edge each, so three quarters of what a verifier has to establish rests on a single mechanism apiece. Baker’s standard for a robust regime is redundancy: layers stacked, so that a subgoal has more than one way of being completed. Three of the four subgoals on this board have no second way at all.
 
 Now count by actor instead, which is the sharper reading. One firm is on three of the seven edges and touches three of the four subgoals, and that is not a coincidence about NVIDIA, it is what a verification layer IS. The paper defines a layer as one mechanism per subgoal, and the on-chip layer is a chip designer’s to give or withhold. So the board does not show one weak link; it shows a regime resting on roughly one layer, held by a company that is not a party to the agreement.
