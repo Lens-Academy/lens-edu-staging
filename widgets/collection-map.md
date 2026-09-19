@@ -1,7 +1,7 @@
 ---
 id: '62b8bee8-b150-4ed4-824a-bc16d4209b11'
 title: The collection map
-summary_for_tutor: "A grid of the seven intelligence collection disciplines, split into two families: those that collect language (OSINT, HUMINT, SIGINT, CYBER) and those that collect physics (IMINT, GEOINT, MASINT). The learner opens one tile at a time to read what the discipline is, what it picks up (which signature families of undeclared AI development it sees) and its characteristic limit. Tiles they have opened are marked, a counter shows how many of the seven they have read, and the widget is complete once all seven have been opened. The saved-state summary lists which disciplines the learner has opened and which one is open now. Content ported from XLab's Verification track, lesson 2.3.1."
+summary_for_tutor: "A grid of the seven intelligence collection disciplines, split into two families: those that collect language (OSINT, HUMINT, SIGINT, CYBER) and those that collect physics (IMINT, GEOINT, MASINT). The learner clicks one tile at a time to read what the discipline is, what it picks up (which signature families of undeclared AI development it sees) and its characteristic limit; clicking the same tile again closes the panel. Opened tiles are marked and a counter reads how many of the seven have been read; the widget completes once all seven are opened. The saved-state summary lists which disciplines the learner has opened and which one is open now. The lesson page carries the lead-in above the widget (the heading 'The collection map' and the two-family framing); the signature catalog and the four signature families it maps onto are earlier on the same page. Content ported from XLab's Verification track, lesson 2.3.1."
 height: auto
 tags: [wip]
 ---
@@ -22,14 +22,13 @@ tags: [wip]
   }
   * { box-sizing: border-box; }
   body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
-  h1, h2 { font-family: var(--font-heading); font-weight: 600; margin: 0; }
-  h1 { font-size: 24px; line-height: 1.2; }
-  .lede { color: var(--muted); margin: 6px 0 0; max-width: 42rem; }
+  h2 { font-family: var(--font-heading); font-weight: 600; margin: 0; }
   .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0; }
-  .status { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; margin-top: 12px; }
-  .progress { font-size: 12px; color: var(--muted); }
+  .footer { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: baseline; margin: 16px 0 0; font-size: 12px; }
+  .progress { color: var(--muted); }
   .progress.is-done { color: var(--accent); font-weight: 600; }
   .group { margin-top: 20px; }
+  .group:first-child { margin-top: 0; }
   .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 8px; }
   @media (min-width: 640px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
   .tile {
@@ -61,19 +60,13 @@ tags: [wip]
     width: 32px; height: 32px; border-radius: 8px; cursor: pointer; font-size: 18px; line-height: 1; flex: none;
   }
   .close:hover { background: var(--surface); color: var(--text); }
-  .legend { margin-top: 20px; color: var(--muted); }
+  .legend { color: var(--muted); }
   .legend.is-hidden { display: none; }
 </style>
 </head>
 <body>
-<section aria-labelledby="cm-title">
-  <h1 id="cm-title"></h1>
-  <p class="lede" id="cm-lede"></p>
-  <div class="status">
-    <span class="progress" id="progress"></span>
-  </div>
+<section aria-label="The collection map">
   <div id="groups"></div>
-  <p class="legend" id="legend"></p>
   <div class="detail" id="detail" role="region" aria-live="polite">
     <div class="detail-top">
       <div>
@@ -90,12 +83,11 @@ tags: [wip]
       <dd id="d-limit"></dd>
     </dl>
   </div>
+  <p class="footer"><span class="progress" id="progress"></span><span class="legend" id="legend"></span></p>
 </section>
 
 <script>
   var COPY = {
-    title: "The collection map",
-    lede: "Seven ways a watcher sees. The disciplines split into two families: those that collect language, and those that collect physics. Open each one.",
     literal: "Collects language",
     technical: "Collects physics",
     legend: "Click a discipline to read what it is.",
@@ -208,8 +200,6 @@ tags: [wip]
   }
   function isOpened(id) { return state.opened.indexOf(id) !== -1; }
 
-  document.getElementById("cm-title").textContent = COPY.title;
-  document.getElementById("cm-lede").textContent = COPY.lede;
   document.getElementById("legend").textContent = COPY.legend;
   document.getElementById("d-seen-label").textContent = COPY.seenLabel;
   document.getElementById("d-limit-label").textContent = COPY.limitLabel;
