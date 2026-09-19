@@ -531,7 +531,7 @@ However, using privacy-preserving technologies built into data center hardware, 
 Verification ‣ 3.3 Verifying ‣ 3 Technical Feasibility of Compute Providers’ Governance
 Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation")). Techniques that leverage a TEE in this way are often known as “confidential computing.” Compute providers are increasingly making these features available to customers (AWS 2024d; Microsoft 2024b; Microsoft 2023).
 
-![Figure 12](https://arxiv.org/html/2403.08501v2/ITC_Figure_Attester-and-Verifier-Flowchart-compressed.svg)
+![Figure 12: Using confidential computing techniques allows an “attester” (customer) to share high-level information about a workload with a “](https://arxiv.org/html/2403.08501v2/ITC_Figure_Attester-and-Verifier-Flowchart-compressed.svg)
 
 Figure 12: Using confidential computing techniques allows an “attester” (customer) to share high-level information about a workload with a “verifier” (e.g., a compute provider or a regulator) such that the verifier can trust the information, without the attester sharing any additional code or data. (Adapted from Aarne et al. 2024.)
 
@@ -706,7 +706,7 @@ AI computing infrastructure is typically provided through “data centers”, bu
 Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation")).[^note-42] Each server contains a variable number of CPUs (general-purpose processors), AI accelerators (specialized AI processors such as GPUs and TPUs), networking to allow these devices to communicate, and shared data storage ([Figure 13](#A1.F13 "In Appendix A Overview of Compute Provider
 Technologies ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation")). A relatively large number of AI accelerators, and the capacity for those devices to communicate at high speed, are the primary attributes differentiating AI data centers from other kinds of data centers.
 
-![Figure 13](https://arxiv.org/html/2403.08501v2/ITC_Figure_User-Software-Data-Center-Flowchart-compressed.svg)
+![Figure 13: A logical diagram of the software and hardware components and interactions in an AI data center. A user provides their AI code an](https://arxiv.org/html/2403.08501v2/ITC_Figure_User-Software-Data-Center-Flowchart-compressed.svg)
 
 Figure 13: A logical diagram of the software and hardware components and interactions in an AI data center. A user provides their AI code and data, interacting with a software stack that differs depending on provider infrastructure but inherently includes the hardware interactions depicted above. A server can be partitioned into virtual instances, where each instance has a fraction of the physical resources: CPU, GPU/TPU, networking, and storage.
 
