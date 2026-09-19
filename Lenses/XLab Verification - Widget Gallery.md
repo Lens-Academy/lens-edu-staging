@@ -278,37 +278,6 @@ content::
 
 #### Text
 content::
-\#### Six verification layers by subgoal (six-layers-grid)
-
-**Decision: widget.** Figure 2 of Baker et al. is a six by four grid whose cells are only readable as a picture; clicking a layer or a subgoal is the only way to put a cell next to the paper's own summary, advantages, disadvantages and subgoal definition without printing four tables.
-
-**Target lens:** [[../Lenses/XLab Verification - v-hw-where-trust-lives]]
-
-**Where it goes:** in the article `articles/baker-verifying-international-agreements-on-ai-six-layers-of-verification-for-rules-on-large-scale-ai-development-and-deployment.md`, put `![[../widgets/six-layers-grid]]` on its own line after line 382, "Figure 5: Summary of how the on-chip verification layer would complete each subgoal." That line is inside the `v-hw-where-trust-lives` excerpt `from:: ### 4.1 On-Chip Verification Layer` (article lines 372 to 384), so the widget appears at the first point in the article where any assigned excerpt shows a slice of the layer grid.
-
-**What it replaces:** nothing is removed. What is there today is the hotlinked arXiv image `x5.png` (Figure 5, the Layer 1 slice) and its caption, directly under Table 5. Both should stay: they are the reading's own figure, they render for a reader with no JavaScript, and the widget generalises them rather than reproducing them. The same applies to Figure 6 (line 440) and Figure 7 (line 522) in the other two excerpts.
-
-**In XLab:** not an XLab widget. There is no `<VerificationExercise>` for this figure; XLab assigned the paper as a reading. The interactive is a rendering of the article's own Figure 2 (with Figures 5 to 7 as its row slices) and Tables 1, 5, 7 and 8.
-
-**Learner time:** 6 minutes
-
-The grid is drawn as a live table: four subgoal headers (1A, 1B, 2A, 2B) across the top, six layer rows down the side grouped into on-chip, off-chip and personnel-based, and the mechanism the paper names in each cell. Clicking a layer row lights that row's cells and opens the paper's summary of the layer, its key advantages and key disadvantages, and the mechanism it offers for each subgoal in turn. Clicking a subgoal header instead lights that column and opens the Section 3.2 definition of the subgoal alongside what each of the six layers offers for it. Done means all six layers have been opened; the status line counts them and the row keeps a visible "opened" mark, so progress is legible without colour.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-Cell text, the four subgoal headers and their one-line goals, and the row and group labels are transcribed from Figure 2 (`https://arxiv.org/html/2507.15916v1/x2.png`, saved at `SCRATCH/figs/baker-x2.png`) and cross-checked against the Layer 1 slice in Figure 5 (`SCRATCH/figs/baker-x5.png`). The summary, key advantages and key disadvantages for each layer are the article's own table cells (Table 1 at article lines 83 to 88, repeated as Tables 5, 7 and 8 at lines 376, 435 to 436 and 516 to 518). The subgoal definitions are the Section 3.2 paragraphs. The caption notes for Figures 6 and 7 are carried on the layers they describe. The Section 4.1 / 4.2 / 4.3 pointers on each layer come from the Table 1 rows.
-
-Two rewrites, both permitted: the em dash in "six layers of verification, six largely independent assurances of compliance" is a colon in the widget, and footnote markers are dropped from the Subgoal 1.A definition. Everything else is verbatim, including the paper's own inconsistent quote marks in the Figure 6 caption note and the hyphen-plus-space in "implementation- ready" as it appears in the table.
-
-Dropped: the supplementary-mechanisms row at the bottom of Figure 2 (its own Figure 8 sits outside every assigned excerpt, and the row's items have no per-item text in the paper), and the green/red Verifier-trusted icons from the table rows (a colour swatch carrying one bit, which the widget cannot restate without inventing wording).
-
-Second embed, optional: `v-human-insiders` (Part 2 W08) assigns lines 512 to 526, which contains Figure 7 but not Figure 5, so with a single embed those learners do not get the widget. A second `![[../widgets/six-layers-grid]]` after line 524, "Figure 7: Summary of how personnel-based verification layers would complete each subgoal...", would cover them. Two embeds of one id share one saved state, so a learner who opened all six layers in Part 1 would arrive in Part 2 already complete. Editor's call; I have written the placement above as one embed.
-:::
-
-#### Widget
-source:: [[../widgets/six-layers-grid]]
-
-#### Text
-content::
 \## Part 2 · Week 7: Cloud limits and intelligence
 
 Module file: [[../modules/XLab Verification Part 2 W07 Cloud limits and intelligence]]
