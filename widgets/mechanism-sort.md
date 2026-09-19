@@ -1,7 +1,7 @@
 ---
 id: 'a292da3b-4992-4c11-ab67-df15d1be64a2'
 title: Place your bets
-summary_for_tutor: "A rating exercise on twelve verification mechanisms (chip identity, compute metering, licensing, proof-of-learning, cloud KYC, cloud monitoring, satellites, supply chain, intel sharing, whistleblowers, inspections, ZK proofs). One card at a time, the learner reads the mechanism's summary and picks one of five rungs on each of four metrics (technical feasibility, political feasibility, verification effectiveness, durability), then places the card; each placed card appears as a marker on four ranking lanes so the learner sees their ordering take shape. They can skip a card, tap a marker to review it and revisit the card, and finally seal the set once all twelve are placed. The widget's saved summary lists every rung they chose. There is no key and no score in this widget: XLab's reference map is compared only in the separate capstone, so do not reveal or grade against reference ratings. Complete means the learner sealed all twelve. Content ported from XLab's Verification track."
+summary_for_tutor: "A rating exercise on twelve verification mechanisms (chip identity, compute metering, licensing, proof-of-learning, cloud KYC, cloud monitoring, satellites, supply chain, intel sharing, whistleblowers, inspections, ZK proofs). One card at a time, the learner reads the mechanism summary and picks one of five rungs on each of four metrics (technical feasibility, political feasibility, verification effectiveness, durability), then places the card; each placed card appears as a marker on four ranking lanes so the learner sees the ordering take shape. They can skip a card, click a marker to review its four values and revisit the card, and seal the set once all twelve are placed. The widget holds no prose: the four metric definitions with their low and high anchors are lesson text above the widget, the five rung labels per metric are in a closed callout on the page titled for opening before rating, and the note that there is no key and no score sits in page text right after the widget. The saved summary lists every rung chosen. Never reveal or grade against reference ratings; XLab compares them only in the separate capstone. Complete means the learner sealed all twelve. Content ported from XLab Verification track."
 height: auto
 tags: [wip]
 ---
@@ -24,22 +24,8 @@ tags: [wip]
   body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
   p { margin: 0; }
   .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0; }
-  h1 { font-family: var(--font-heading); font-weight: 600; font-size: 26px; margin: 4px 0 8px; }
   h2 { font-family: var(--font-heading); font-weight: 600; font-size: 20px; margin: 0; }
-  .head { display: flex; gap: 12px; align-items: flex-start; justify-content: space-between; }
-  .lede { color: var(--muted); max-width: 42rem; }
-  .counter { flex-shrink: 0; white-space: nowrap; }
   .block { margin-top: 16px; }
-  details { border: 1px solid var(--border); border-radius: 8px; background: #fff; }
-  summary { cursor: pointer; padding: 8px 12px; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
-  .guide { display: grid; gap: 12px; padding: 0 12px 12px; }
-  @media (min-width: 640px) { .guide { grid-template-columns: 1fr 1fr; } }
-  .guide-card { border: 1px solid var(--border); border-radius: 8px; padding: 12px; }
-  .guide-card .name { font-weight: 600; }
-  .guide-card .gist { color: var(--muted); margin-top: 4px; }
-  .guide-card ul { margin: 6px 0 0; padding-left: 18px; color: var(--muted); font-size: 13px; }
-  .guide-card .anchor { margin-top: 6px; font-size: 13px; }
-  .guide-card .anchor .k { color: var(--muted); margin-right: 4px; }
   .card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: var(--surface); }
   .card-top { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); }
   .card-top .layer { font-weight: 600; color: var(--text); }
@@ -94,27 +80,10 @@ tags: [wip]
   .drow .val strong { color: var(--text); }
   .sealbox { margin-top: 16px; border: 1px solid var(--border); border-radius: 8px; padding: 12px; background: var(--surface); }
   .sealbox p + p { margin-top: 4px; }
-  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 </style>
 </head>
 <body>
-<p class="eyebrow">Exercise</p>
-<div class="head">
-  <div>
-    <h1>Place your bets</h1>
-    <p class="lede" id="framing"></p>
-  </div>
-  <p class="eyebrow counter" id="counter" aria-live="polite"></p>
-</div>
-
-<div class="block">
-  <details id="guide">
-    <summary>How the four metrics are defined</summary>
-    <div class="guide" id="guide-body"></div>
-  </details>
-</div>
-
-<div class="block" id="rater"></div>
+<div id="rater"></div>
 <div class="block" id="lanes"></div>
 <div class="legend" id="legend" aria-label="Layer key"></div>
 <div id="detail"></div>
@@ -133,56 +102,21 @@ tags: [wip]
     {
       key: "tech",
       name: "Technical feasibility",
-      gist: "Can this be built and run at the required scale today, not in a demo, not in five years?",
-      questions: [
-        "How mature is the underlying technology?",
-        "What dependencies does it drag in?",
-        "What does it cost to build and operate?",
-        "What are the error rates in the field?"
-      ],
-      anchorLow: "Fully homomorphic encryption over entire training runs, orders of magnitude too slow at frontier scale.",
-      anchorHigh: "Compute reporting through cloud providers: the metering and billing infrastructure already exists.",
       rungs: ["Not close", "Research", "Prototype", "Buildable", "Running"]
     },
     {
       key: "pol",
       name: "Political feasibility",
-      gist: "Would the specific parties whose cooperation is required actually adopt and enforce it, now or under conditions you can name?",
-      questions: [
-        "What are the incentives of the parties who must act?",
-        "How intrusive is it, and what does it cost in confidentiality?",
-        "Does it have an institutional home? Who runs it?",
-        "Enforcement, not just signature."
-      ],
-      anchorLow: "International inspectors with direct access to US and Chinese frontier labs' model weights.",
-      anchorHigh: "Reporting requirements attached to existing chip export licenses: piggybacks on a regime that already operates.",
       rungs: ["Non-starter", "Rivals yield", "Hard bargain", "Willing", "Piggybacks"]
     },
     {
       key: "eff",
       name: "Verification effectiveness",
-      gist: "How much verification does it actually deliver when it runs?",
-      questions: [
-        "Evidence strength: loose inference or specific proof, against a motivated evader?",
-        "Threat-surface coverage: which actors and which activities does it see?",
-        "Weak on either dimension caps the score: conclusive proof about a sliver is as limited as vague hints about everyone."
-      ],
-      anchorLow: "Voluntary lab commitments: self-reported, covering only the signatories, who are the least worrying actors precisely because they signed.",
-      anchorHigh: "On-chip cryptographic attestation: proves the specific claim about the specific workload, and the concentrated chip supply chain means nearly every serious training effort passes through it.",
       rungs: ["Near nothing", "Weak/narrow", "Capped", "Solid", "Strong & broad"]
     },
     {
       key: "dur",
       name: "Durability",
-      gist: "How fast does it decay, from technical progress, adversary adaptation, or political change?",
-      questions: [
-        "Does technical progress erode its assumptions?",
-        "Can adversaries adapt around it?",
-        "Does it survive political change?",
-        "A high scorer works about as well in five years as today."
-      ],
-      anchorLow: "FLOP-threshold reporting: algorithmic efficiency gains push dangerous capabilities below any fixed threshold within a few years.",
-      anchorHigh: "Mechanisms rooted in chip hardware: persist across model paradigms and training techniques for the lifetime of the installed base.",
       rungs: ["Leaking now", "Decaying", "Needs upkeep", "Ages slowly", "Decade-proof"]
     }
   ];
@@ -215,11 +149,8 @@ tags: [wip]
   ];
 
   var COPY = {
-    framing: "Before the mechanism weeks begin, record your intuitions. Rate each mechanism on four metrics; every rating drops it onto the ranking lanes below, so you can see your full ordering take shape. Seal the set, then compare against the reference map in the separate capstone.",
     raterDone: "All twelve rated. Click any dot to revisit a call, then seal.",
-    sealNoteReady: "All twelve rated. Ready when you are.",
-    sealNotePending: "Enabled once all twelve are rated",
-    sealedNote: "No key, and no score. This set exists to be revised: the separate capstone lays it over the reference map and asks which metric you disagree on."
+    sealNotePending: "Enabled once all twelve are rated"
   };
 
   var STORAGE_KEY = "lens-widget:mechanism-sort";
@@ -331,22 +262,6 @@ tags: [wip]
   function select(id) { selected = selected === id ? null : id; render(); }
 
   // ---- static parts ----
-  document.getElementById("framing").textContent = COPY.framing;
-
-  var guideBody = document.getElementById("guide-body");
-  METRICS.forEach(function (m) {
-    var c = el("div", "guide-card");
-    c.appendChild(el("p", "name", m.name));
-    c.appendChild(el("p", "gist", m.gist));
-    var ul = el("ul");
-    m.questions.forEach(function (q) { ul.appendChild(el("li", "", q)); });
-    c.appendChild(ul);
-    var lo = el("p", "anchor"); lo.appendChild(el("span", "k", "Low")); lo.appendChild(document.createTextNode(m.anchorLow));
-    var hi = el("p", "anchor"); hi.appendChild(el("span", "k", "High")); hi.appendChild(document.createTextNode(m.anchorHigh));
-    c.appendChild(lo); c.appendChild(hi);
-    guideBody.appendChild(c);
-  });
-
   var legend = document.getElementById("legend");
   LAYERS.forEach(function (l) {
     var s = el("span", "item");
@@ -360,7 +275,6 @@ tags: [wip]
   var lanesBox = document.getElementById("lanes");
   var detailBox = document.getElementById("detail");
   var sealBox = document.getElementById("seal");
-  var counter = document.getElementById("counter");
 
   function renderRater() {
     clear(raterBox);
@@ -421,7 +335,7 @@ tags: [wip]
     pl.disabled = !ok;
     pl.addEventListener("click", place);
     actions.appendChild(pl);
-    actions.appendChild(el("span", "hint", ok ? "All four set." : "Rate all four metrics to place this card."));
+    if (!ok) actions.appendChild(el("span", "hint", "Rate all four metrics to place this card."));
     card.appendChild(actions);
     raterBox.appendChild(card);
   }
@@ -533,22 +447,22 @@ tags: [wip]
     var box = el("div", "sealbox");
     if (store.sealed) {
       box.appendChild(el("p", "eyebrow", "✓ Sealed " + (store.sealedAt || "")));
-      box.appendChild(el("p", "", COPY.sealedNote));
     } else {
       var ready = store.queue.length === 0;
       var b = el("button", "primary", "Seal my ratings"); b.type = "button"; b.id = "seal-btn";
       b.disabled = !ready;
       b.addEventListener("click", seal);
       box.appendChild(b);
-      var note = el("p", "hint", ready ? COPY.sealNoteReady : COPY.sealNotePending);
-      note.style.marginTop = "6px";
-      box.appendChild(note);
+      if (!ready) {
+        var note = el("p", "hint", COPY.sealNotePending);
+        note.style.marginTop = "6px";
+        box.appendChild(note);
+      }
     }
     sealBox.appendChild(box);
   }
 
   function render() {
-    counter.textContent = store.sealed ? "✓ Sealed" : ratedCount() + " / " + MECHANISMS.length;
     renderRater();
     renderLanes();
     renderDetail();

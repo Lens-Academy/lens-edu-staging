@@ -1,7 +1,7 @@
 ---
 id: 'd5827bfd-8f0f-406d-8628-efe03b3fe02a'
 title: Five maps of the evidence
-summary_for_tutor: "Five alternative taxonomies of the same twelve verification evidence mechanisms (on-chip attestation, compute metering, chip registry, cloud KYC, cloud compute accounting, satellite imagery, power-draw monitoring, signals intelligence, open-source intelligence, on-site inspections, staff interviews, whistleblower channels). The learner switches between five map tabs (by layer, by access, by goal, by lifecycle, by adversary); each map shows its organising question, its lineage, and the twelve mechanisms regrouped into that map's buckets (the lifecycle map has an empty After deployment bucket on purpose). Clicking a mechanism opens a panel with its description, its placement in the current map, and where the map strains for it; a toggle reveals what the map reveals and what it hides. The widget is complete once all five maps have been opened; there is no right answer to find. Content ported from XLab's Verification track."
+summary_for_tutor: "Five alternative taxonomies of the same twelve verification evidence mechanisms (on-chip attestation, compute metering, chip registry, cloud KYC, cloud compute accounting, satellite imagery, power-draw monitoring, signals intelligence, open-source intelligence, on-site inspections, staff interviews, whistleblower channels). The learner switches between five map tabs (by layer, by access, by goal, by lifecycle, by adversary); each map shows its organising question, its lineage, and the twelve mechanisms regrouped into that map buckets (the lifecycle map has an empty After deployment bucket on purpose). Clicking a mechanism opens a panel with its description, its placement in the current map, and where the map strains for it; a toggle reveals what the map reveals and what it hides. Viewed tabs carry a check mark; the widget is complete once all five maps have been opened and there is no right answer to find. The section heading and the one-line lead-in are page text above the widget, and three optional choice questions built from these maps follow it on the page. Content ported from XLab Verification track."
 height: auto
 tags: [wip]
 ---
@@ -23,11 +23,7 @@ tags: [wip]
   * { box-sizing: border-box; }
   body { margin: 0; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
   .frame { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: var(--bg); }
-  header { padding: 20px; border-bottom: 1px solid var(--border); }
   .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0; }
-  .head-row { display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-end; justify-content: space-between; margin-top: 8px; }
-  h1 { font-family: var(--font-heading); font-weight: 600; font-size: 26px; line-height: 1.15; margin: 0; }
-  .lede { color: var(--muted); margin: 8px 0 0; max-width: 42rem; }
   .tabs { display: flex; gap: 6px; padding: 8px; border-bottom: 1px solid var(--border); overflow-x: auto; }
   .tab {
     flex-shrink: 0; font: inherit; font-size: 12px; font-weight: 500; color: var(--muted);
@@ -96,23 +92,10 @@ tags: [wip]
   .sl-panel ul { list-style: none; margin: 6px 0 0; padding: 0; }
   .sl-panel li { display: flex; gap: 8px; font-size: 12px; margin-top: 6px; }
   .sl-panel li .arrow { color: var(--muted); flex-shrink: 0; }
-  .progress { padding: 10px 20px 14px; border-top: 1px solid var(--border); font-size: 12px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 8px; justify-content: space-between; }
-  .progress .done-mark { color: var(--accent); font-weight: 600; }
 </style>
 </head>
 <body>
-<section class="frame" aria-labelledby="et-title">
-  <header>
-    <p class="eyebrow">Evidence companion</p>
-    <div class="head-row">
-      <div>
-        <h1 id="et-title">Five maps of the evidence</h1>
-        <p class="lede">The same twelve mechanisms, sorted five ways. Switch maps, inspect a mechanism and argue with the placements.</p>
-      </div>
-      <p class="eyebrow">12 mechanisms · 5 maps</p>
-    </div>
-  </header>
-
+<section class="frame" aria-label="Five maps of the evidence">
   <div class="tabs" id="tabs" role="tablist" aria-label="Maps"></div>
 
   <div class="body">
@@ -143,11 +126,6 @@ tags: [wip]
         </div>
       </div>
     </aside>
-  </div>
-
-  <div class="progress">
-    <span id="progress-text"></span>
-    <span id="progress-done" class="done-mark" hidden>✓ All five maps opened</span>
   </div>
 </section>
 
@@ -460,9 +438,6 @@ tags: [wip]
 
     renderDetail();
     renderStrengths();
-
-    document.getElementById("progress-text").textContent = "Maps opened: " + state.viewed.length + " of " + MAPS.length;
-    document.getElementById("progress-done").hidden = state.viewed.length < MAPS.length;
   }
 
   function hydrate(saved, meta) {
