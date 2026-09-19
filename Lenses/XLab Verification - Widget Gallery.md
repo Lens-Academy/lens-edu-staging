@@ -197,35 +197,6 @@ content::
 
 #### Text
 content::
-\#### End-to-end execution trace (covert-execution-trace)
-
-**Decision: widget.** Section 3.2 pairs two dense system diagrams with twelve numbered steps that name parts of those diagrams; stepping through the trace and lighting up the parts each step touches is exactly what a static image plus a numbered list cannot do.
-
-**Target lens:** [[../Lenses/XLab Verification - v-covert-system-overview]]
-
-**Where it goes:** in the article `articles/cankaya-a-system-overview-for-near-term-low-trust-ai-compute-verification.md`, put `![[../widgets/covert-execution-trace]]` on its own line after line 233, "We follow one inference request, but the tap sees it only as part of an undifferentiated byte stream." That is the last paragraph of the section 3.2 premise, just before the `### 3.2.1 Evidence capture` heading. It is inside both assigned excerpts: `v-covert-system-overview` (article lines 27 to 648) and `v-covert-red-blue` (lines 35 to 272).
-
-**What it replaces:** nothing has to go. What is there today is the article's own prose (the premise, the two `### 3.2.1` / `### 3.2.2` subsections with their numbered lists, the three early-exit bullets) and two hotlinked Cloudinary images, at line 236 and line 254, which are the two diagrams the widget redraws as inline SVG. The prose should stay: it is the reading, and the widget quotes it rather than replacing it. If the editor wants to avoid showing each diagram twice, the two `![](...)` image lines (236 and 254) can be deleted, since the widget draws both; the overview pair at line 57 should stay either way, because it is what the reader meets before section 3.
-
-**In XLab:** not an XLab widget. There is no `<VerificationExercise>` for this; XLab assigned the post as a reading. The interactive is a rendering of the article's own two section 3.2 figures and its numbered trace.
-
-**Learner time:** 8 minutes
-
-Two tabs, "1. Evidence Capture" and "2. Evidence Evaluation (Plan A)", each drawing that phase's diagram as inline SVG: prover, verifier, the physically monitored Prover's Facility and its parts, with the labelled links between them and the article's section references. Under the diagram is the phase's numbered step list, five steps then seven. Opening a step shows the article's own sentence for that step, names the parts it involves, and lights those nodes, zones and links in the diagram while dimming the rest; Previous step / Next step walk the trace, and the last capture step offers a jump to the evaluation phase. The evaluation phase also lists the three conditions that end the trace early and the note on deliberately triggered faults. Each tab shows how many of its steps have been opened, and done means all twelve.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-Every step sentence, the phase intros, the three early-exit conditions and the closing note on budgeted fault rates are verbatim from article lines 226 to 272. Inline link markup is stripped (the JSON-file link in capture step 1, the section cross-references), and the parenthetical "(see section 5.2.2)" style pointers are kept as the article writes them. The diagrams are redrawn from `SCRATCH/figs/cankaya-4.png` and `SCRATCH/figs/cankaya-5.png` (the images at article lines 236 and 254): node labels, zone labels, link labels and section numbers are transcribed from those figures, as is the ownership legend (Prover-owned, Verifier-owned, Third-party-owned, Seen by both).
-
-One label is a reading of the figure rather than a quotation: the network taps box and the comparison-gated disclosure box are drawn in both parties' colours as a gradient in the original, and the widget spells that out as "Prover-owned / Verifier-owned". No other text is authored.
-
-Dropped: the optional memory-challenge remark is shown as a closing note on the capture phase rather than as a step, matching the article, which puts it after the numbered list and marks it optional. Plan B (zero-knowledge proofs) is named in the evaluation intro exactly as the article names it but has no diagram of its own in the article, so there is no Plan B tab.
-:::
-
-#### Widget
-source:: [[../widgets/covert-execution-trace]]
-
-#### Text
-content::
 \#### Questions on the Cankaya Working Paper (compute-verification)
 
 **Decision: native question segments are enough.** XLab's QuestionWorkspace is nine textareas with a "Save answer" button and an "n of 4 answered" counter; it has no marking key, no reveal, and nothing that changes what the learner sees next, and Lens Question: Open segments already do everything it does plus grading.

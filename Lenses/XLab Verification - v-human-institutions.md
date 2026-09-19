@@ -95,6 +95,7 @@ assessment-instructions:: Full credit when the learner names one station and giv
 feedback-instructions:: Two sentences. Acknowledge the pick and offer the strain XLab identifies for that station from the commentary below.
 
 #### Text
+content::
 :::callout {title="Commentary: The finder (open after you have answered)" tone="neutral" collapse="closed"}
 AI has candidate finders, module 2’s evidence streams: chip attestation and logs, cloud records, national technical means, and the human layer this section closed on. What none of them supplies alone is facts that survive challenge: the finder’s access has to be agreed in advance, or every finding arrives with a provenance fight attached.
 :::
