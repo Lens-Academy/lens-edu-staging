@@ -163,6 +163,10 @@ assessment-instructions:: Full marks for: both effects follow from $p^*$ decreas
 
 #### End Callout
 
+#### Text
+content::
+The widget below is Figure 3 made live. Drag the auditing proportion and read off the blue team's win probability and the red team's optimal number of backdoor attempts; at $\alpha = 2\%$ it returns the paper's own numbers, a blue team win probability of about 15% from roughly six expected attempts. The second slider goes past the paper, which only ever reports the optimising red team: hold $\alpha$ fixed and move the attack rate $p$ off its optimum to see why $p^*$ sits where it does.
+
 #### Widget
 source:: [[../widgets/xlab-control-upfront-auditing]]
 
