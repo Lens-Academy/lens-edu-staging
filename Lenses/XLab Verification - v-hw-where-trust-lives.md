@@ -146,6 +146,21 @@ to:: Given the challenges of both on- and off-chip verification, it would be hel
 
 #### Text
 content::
+\#### The six layers against the four subgoals
+
+The grid below is Figure 2 of *Six Layers of Verification*, made clickable: six verification layers down the side, the four verification subgoals across the top, and the mechanism the paper names in each cell. Its caption reads "Verification layers consist of distinct mechanisms for each verification subgoal."
+
+The subgoals, in the paper's words: "The framework decomposes this goal into two subgoals: (1) verify that declared uses of large-scale AI compute are compliant, and (2) verify that there are no undeclared uses of large-scale AI compute (i.e., declarations are complete)."
+
+The layers: "To complete these subgoals, states could create six layers of verification: six largely independent assurances of compliance. Like “layers of defense,” a full implementation of each layer could verify compliance on its own, and multiple layers would reinforce each other. Thus, a stack of layers is an effective combination of verification mechanisms; it completes each subgoal with redundancy."
+
+The excerpts above are Sections 4.1 and 4.2, Layers 1 to 3. The grid adds the three personnel-based layers of Section 4.3. Opening a layer shows the paper's summary of it with its key advantages and key disadvantages (Tables 1, 5, 7 and 8); opening a subgoal shows its Section 3.2 definition.
+
+#### Widget
+source:: [[../widgets/six-layers-grid]]
+
+#### Text
+content::
 \#### Activity: bilateral pilot review
 
 #### Question: Open
