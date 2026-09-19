@@ -23,58 +23,6 @@ content::
 
 #### Text
 content::
-\#### Hardware lessons: reader components and prose diagrams (hardware-reader-checks)
-
-**Decision: nothing to port.** md). None of the nine hardware lessons uses `<Check>`, `<GapFill>` or `<VerdictSelect>`; the only interactive reader component is `<ClaimLedger>`; the three `<Prompt>` blocks and the prose "diagrams" carry no learner action or per-part authored content, so a widget would be a figure.
-
-**Target lens:** [[../Lenses/XLab Verification - v-hw-claim]], [[../Lenses/XLab Verification - v-hw-trusted-statement]], [[../Lenses/XLab Verification - v-hw-accounting]], [[../Lenses/XLab Verification - v-hw-measuring-use]], [[../Lenses/XLab Verification - v-hw-authorization]], [[../Lenses/XLab Verification - v-hw-where-trust-lives]], [[../Lenses/XLab Verification - v-hw-reconstructing-run]], [[../Lenses/XLab Verification - v-hw-attestation]], [[../Lenses/XLab Verification - v-hw-policy-studio]]
-
-**Where it goes:** n/a (nothing to place)
-
-**What it replaces:** nothing; every XLab activity in these lessons is already a Lens `Question: Open` segment with assessment instructions, and every `<Prompt>` is already a blue callout
-
-**In XLab:** no `<VerificationExercise>` in any hardware-*.mdx; `<ClaimLedger>` in hardware-attestation.mdx and hardware-policy-studio.mdx (handled separately); `<Prompt>` in hardware-where-trust-lives.mdx, hardware-measuring-use.mdx, hardware-policy-studio.mdx; `<MemoDesk lesson="hardware-policy-studio" />` in hardware-policy-studio.mdx (already ported as the graded Open question 936e8aee)
-
-**Learner time:** 0 minutes added
-
-Nothing new. The scan found no interactive reader component to port beyond the ClaimLedger. Per lesson (grep over `src/content/lessons/verification/hardware-*.mdx` for `<Check`, `<GapFill`, `<VerdictSelect`, `<Prompt`, `<ClaimLedger`, `<VerificationExercise`, `<Fold`, plus a full read of all nine files, 658 lines):
-
-| Lesson | Reader components | Lens today | Verdict |
-| --- | --- | --- | --- |
-| hardware-attestation.mdx (2.1) | `<ClaimLedger>` collect, `<Objectives>`, `<Callout>` author note | seven Choice segments, callouts | WIDGET (claim-ledger) |
-| hardware-claim.mdx (2.1.1) | none; "Notebook: initial claim map" (three sentence stems) | Open question 48 | SKIP; the notebook is a writing task, NATIVE already |
-| hardware-trusted-statement.mdx (2.1.2) | none; prose chain "device and measurement component → ... → regulator or treaty response" with five questions per link; trio-table of prover profiles; "Activity: trust-chain autopsy" | blockquote chain, table, Open question 3336549c | SKIP; see diagram note below |
-| hardware-accounting.mdx (2.1.3) | none; "Try it" (three independent evidence streams) | Open question at line 103 | SKIP |
-| hardware-measuring-use.mdx (2.1.4) | `<Prompt label="Question to keep visible">`; adversary-move table; "Activity: from result to policy claim" | blue callout, table, Open question at line 107 | SKIP; Prompt is display only |
-| hardware-authorization.mdx (2.1.5) | none; prose chain "legal rule → license criteria → ... → renewal or termination"; "Activity: build the authorization chain" (twelve named components, six questions) | blockquote chain, Open question at line 72 | SKIP; see diagram note below |
-| hardware-where-trust-lives.mdx (2.1.6) | `<Prompt label="Verification target">`; Architectures A to D with strengths and load-bearing concerns; "Activity: bilateral pilot review" | blue callout, four prose sections, four Baker article excerpts, Open question 340e01e2 | SKIP; see diagram note below |
-| hardware-reconstructing-run.mdx (2.1.7, optional) | none; "Activity: buy assurance with a verification budget" | Open question at line 55 | SKIP; a budget allocator would need cost and assurance numbers XLab does not supply |
-| hardware-policy-studio.mdx (2.1.8) | `<Prompt>`, `<MemoDesk>`, `<ClaimLedger recall>`; maturity table; rubric table | blue callout, graded Open question 936e8aee, bullet list of the seven claims | WIDGET only for the ledger recall (claim-ledger); rest SKIP |
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-Diagram candidates considered and why none became a widget:
-
-- Attestation chain (2.1.2) and authorization chain (2.1.5). Each is a seven- to nine-link arrow chain followed by the same list of questions for every link. XLab authors nothing per link (no answer to "who controls it" for the signing key, for instance), so a clickable chain would reveal no text on click; content-fidelity rules forbid inventing per-link answers. The chain as an inline SVG figure would be a figure, not a widget (guide: "if nothing changes when they interact, it is a figure"). The Lens blockquote rendering is adequate.
-- "Where should trust live" (2.1.6). Four architectures, each with components, potential strengths and load-bearing concerns, all verbatim in the Lens lens already, followed by Baker's own on-chip and off-chip analyses. A pick-two side-by-side comparison widget is buildable from the data verbatim (no invention needed) and would let the learner put A next to B for the bilateral pilot review. Not built because the click changes layout only: no reveal, no judgment, no feedback, and the distinguishing content (what each delegation distrusts) is what the learner writes in the Open question. If the orchestrator wants it anyway, it is a 20-minute build with the four blocks from hardware-where-trust-lives.mdx and the Prompt as the target line; suggested id `trust-placement-compare`.
-- Maturity stages (2.1.8), function map (2.1), adversary trio-table (2.1.2), adversary-move table (2.1.4): plain reference tables, no learner action; the Lens tables are faithful.
-- "Build the authorization chain" (2.1.5) names twelve components to assemble into an end-to-end system, which reads like a drag-to-order exercise, but XLab supplies no target order, no per-component role text and no key for its six questions, so an assembly widget could not check or explain anything. Stays NATIVE as the existing Open question.
-- "Buy assurance with a verification budget" (2.1.7) reads like a slider allocator, but XLab supplies no costs, assurance values or budget size. Stays NATIVE.
-
-Sources: `src/content/lessons/verification/hardware-*.mdx` (nine files, HEAD of the xlab-tracks clone), `src/components/mdx/reader/*.tsx` (check, gap-fill, verdict-select, claim-ledger, prompt, reading-card, source-quote, marks, capstone-bank, signatory-quotes), the nine `Lenses/XLab Verification - v-hw-*.md` files.
-:::
-
-:::callout {title="Proposed native segments" tone="neutral" collapse="closed"}
-Field names are written `key: :` so this page parses; join the colons when pasting.
-
-n/a: every activity already has an Open segment in its lens and every Prompt is already a callout; nothing to add.
-:::
-
-#### Text
-content::
-\### Lens: [[../Lenses/XLab Verification - v-hw-where-trust-lives]]
-
-#### Text
-content::
 \## Part 2 · Week 7: Cloud limits and intelligence
 
 Module file: [[../modules/XLab Verification Part 2 W07 Cloud limits and intelligence]]
@@ -82,32 +30,6 @@ Module file: [[../modules/XLab Verification Part 2 W07 Cloud limits and intellig
 #### Text
 content::
 \### Lens: [[../Lenses/XLab Verification - v-cloud-evidence]]
-
-#### Text
-content::
-\#### Intelligence intro pop-ups (intel-popups)
-
-**Decision: nothing to port.** The two `<PopUp>` cards are plain definitions with no learner action beyond expanding them, and the Lens lens already renders both as collapsed callouts.
-
-**Target lens:** [[../Lenses/XLab Verification - v-intel-intro]]
-
-**Where it goes:** after "The goal is that by the end you should be able to take signals" (last paragraph of the first Text segment), where the two callouts already sit
-
-**What it replaces:** nothing; the two collapsed callouts `"National technical means"` and `One vocabulary note` stay as they are
-
-**In XLab:** `<PopUp label="“National technical means”">` and `<PopUp label="One vocabulary note">` at the end of intelligence-intro.mdx, core, not inside a Fold
-
-**Learner time:** 1 minute
-
-Expands two collapsed callouts at the end of the reading: the treaty origin of "national technical means" (SALT I and the ABM Treaty, 1972) and the note that Wasil et al. count whistleblowers under NTM while this course treats them in 2.4.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-Checked both callout bodies word for word against `xlab-tracks/src/content/lessons/verification/intelligence-intro.mdx` (HEAD): identical, including the curly quotes in the NTM title. The only difference is that Lens turns "2.3.1" in the vocabulary note into a wikilink to `[[../Lenses/XLab Verification - v-intel-signatures|2.3.1]]`, which is an improvement, not a drift. The lens's `summary_for_tutor` already says the pop-ups are rendered as collapsed callouts. No fix needed.
-:::
-
-#### Text
-content::
-\### Lens: [[../Lenses/XLab Verification - v-intel-signatures]]
 
 #### Text
 content::
@@ -292,35 +214,6 @@ Module file: [[../modules/XLab Verification Part 2 W09 Covert development and th
 #### Text
 content::
 \### Lens: [[../Lenses/XLab Verification - v-covert-what-is-it]]
-
-#### Text
-content::
-\#### Worked Example: Training Through the Pause (covert-worked-example)
-
-**Decision: widget.** Six worked-example prompts, each with a model answer and an explicit "Why this is strong" / "Common weaknesses" marking key; write-then-reveal with Lens.submit against that key is something a Question: Open segment cannot do (no reveal), and the read-without-answering route keeps XLab's worked-example intent.
-
-**Target lens:** [[../Lenses/XLab Verification - v-covert-what-is-it]]
-
-**Where it goes:** after "The first red-team prompt and the first blue-team prompt are yours to answer." (that paragraph itself should be rewritten or dropped, since the widget offers all six)
-
-**What it replaces:** the two Question: Open segments (ids f5513eaf-2e53-4c17-ba06-71bf747de0df and 58822779-3747-4b0c-8150-da186a37cfdd) and the six Text segments holding the model-answer callouts ("Red team, prompt 1: the model answer" through "Blue team, prompt 3: the model answer"), i.e. everything between "\### The task" and "\### Brief debrief". They can go entirely; the widget carries the same text. The scenario text above and the "Brief debrief" below stay as prose.
-
-**In XLab:** not a VerificationExercise. Static prose in covert-what-is-it.mdx at a10955c^ (six `<Prompt>` blocks, each followed by "##### Sample student response", "##### Why this is strong", "##### Common weaknesses"); core, not inside a Fold. The lesson was deleted in a10955c.
-
-**Learner time:** 15 to 20 minutes reading (XLab's estimate), 40 to 60 minutes if the learner writes all six
-
-Reads the task (red team: strategy, assumptions, weakest point; blue team: combine the layers, proportionate response). For each of the six prompts, either writes an answer and presses "Save answer and open the model answer", which reveals XLab's sample student response with its strengths and common weaknesses and sends the answer to Lens.submit scored against those two lists, or presses "Open the model answer without answering" to read it as a worked example. A status pill on each card shows "Answered and opened", "Opened without answering" or "Not opened"; a counter shows "n of 6 prompts opened". When all six are opened by either route, Lens.complete() fires and a closing card sends the learner on to the debrief.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-Source: `git show a10955c^:src/content/lessons/verification/covert-what-is-it.mdx` in github.com/XLabTracks/tracks (parent commit cbd2f3ee, 2026-08-08; the deletion is a10955c, same day). All six prompts, sample responses (paragraphs and bullet lists), "Why this is strong" and "Common weaknesses" lists, the task lines, the "fictional composite" sentence and the group headings are verbatim; a script checked all 142 curriculum strings in the widget against that file and found none missing. Changes: "15–20 minutes" written as "15 to 20 minutes" (en dash); XLab's sentence "The answers below show what excellent student work might look like." moved to the closing card because in the widget the answers are hidden until opened. Added, not XLab's: the running numbers 1 to 6 on the prompt labels (XLab did not number them), the two button labels, the status pills, the one-line instruction under the task box, the marking-scheme framing sentence around XLab's lists ("Score 0 to 100 against the worked example's own notes... Why this is strong (each criterion met earns an equal share of the marks): ... Common weaknesses (deduct for each one present): ..."), and the feedback instruction. XLab had no completion condition for this lesson (no widget), so "all six opened" is the port's. Not carried: the `responseId` for tutor feedback is not persisted, so the "Ask the tutor for feedback" button is only available in the session in which the answer was scored. The scenario prose (Northstar, Orion-4, Sable, Lattice) is deliberately left in the lens, not duplicated in the widget. The Lens page currently asks two of the six prompts as graded Question: Open segments with assessment instructions written by the Lens author; those instructions paraphrase the same XLab lists the widget uses verbatim.
-:::
-
-#### Widget
-source:: [[../widgets/covert-worked-example]]
-
-#### Text
-content::
-\### Lens: [[../Lenses/XLab Verification - v-covert-system-overview]]
 
 #### Text
 content::
@@ -574,30 +467,6 @@ Uncertain: none.
 
 #### Widget
 source:: [[../widgets/ai-2040-rogue-detection]]
-
-#### Text
-content::
-\#### World AI compute growth, 2026 to 2034 (ComputeGrowth)
-
-**Decision: nothing to port.** Four labelled data points. The article's two-column table carries every number and every year the chart shows, and there is no interaction the chart offers that the table does not.
-
-**Target lens:** [[../Lenses/XLab Verification - v-intuitions-plan-a]]
-
-**Where it goes:** n/a. The chart's spot is the two-column table at article lines 744 to 749 in "### 2034: Verification improvements", top-level body text, outside the Week 1 lens ranges.
-
-**What it replaces:** nothing. The table at article lines 744 to 749 stays as it is.
-
-**In XLab:** not an XLab exercise. Source is the AI 2040 verification supplement, `ComputeGrowth` at source MDX line 615.
-
-**Learner time:** 0
-
-Nothing; no widget was built.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-The rendered chart (`work/ai2040/svg-worldcompute.svg`) carries exactly eight text nodes: 2026 / 20M, 2030 / 500M, 2032 / 3B, 2034 / 60B. The article's table reproduces all four rows verbatim, including the units. Nothing is lost.
-
-One inconsistency inside the source itself, worth a footnote rather than a widget: this chart puts world AI compute at 3B H100e in 2032 and 60B in 2034, while the rogue-detection chart's own year presets on the same page use "~3B H100e" for 2032 but "~33B H100e" for 2034, and the article's "Late 2030" paragraph gives a global ~930M H100e for end-2030 against this chart's 500M for 2030. The widget `ai-2040-rogue-detection` shows the 33B figure because that is what its source component contains; this note records the discrepancy so nobody treats it as a porting error.
-:::
 
 #### Text
 content::
