@@ -42,8 +42,18 @@ assessment-instructions:: The learner has just read the opening of Greenblatt's 
 from:: Once we consider online training (including of models used for monitoring and auditing) the situation becomes more complex.
 to:: it would take nearly an indefinite period to train away the problematic behavior if it would ever be trained away at all.
 
+#### Text
+content::
+That difference is quantitative, so it is worth putting numbers on it. Say a schemer needs C bad actions before the damage counts as catastrophic, each bad action has an independent chance q of being noticed, and the deployer responds decisively at the K-th notice. The race is then between C and K/q: whether the K-th notice lands before the C-th bad action does.
+
+The regimes above are three outcomes of that race. Caught in time, where the response reliably fires first. Detected, but too late, where the signal exists but catastrophe arrives first. And effectively never detected, where the expected damage before the response runs past 1,000,000 actions. The levers below reach the first two only, because the largest bill they allow is K/q = 20 / 0.0001 = 200,000 actions.
+
 #### Widget
 source:: [[../widgets/xlab-control-detection-race]]
+
+#### Text
+content::
+The schemer's pace has no lever, because acting more slowly delays detection and catastrophe by the same factor. The race depends only on C, q and K, and the expected damage before the response is K/q however concentrated the threat is.
 
 #### Article
 from:: ## Recursive oversight: debate
