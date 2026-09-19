@@ -131,65 +131,8 @@ content::
 
 Seven ways a watcher sees. The disciplines split into two families: those that collect language, and those that collect physics. Open each one.
 
-**Collects language**
-
-:::callout {title="OSINT, Open-source intelligence" tone="neutral" collapse="closed"}
-Anything published or otherwise available without concealment: permits, corporate filings, hiring, supplier disclosures, interconnect queues and power-purchase records.
-
-**Picks up.** Organizational and facility signatures, before anything is built.
-
-**Characteristic limit.** Six Layers classes it with the supplemental mechanisms — it rarely settles a question on its own.
-:::
-
-:::callout {title="HUMINT, Human intelligence" tone="neutral" collapse="closed"}
-Collection from people — sources inside an organization, defectors, contractors, and anyone with placement and access.
-
-**Picks up.** Intent and internal knowledge, which no sensor reads.
-
-**Characteristic limit.** Slow, unschedulable, and dependent on a person choosing to talk; it cannot be tasked the way a satellite can.
-:::
-
-:::callout {title="SIGINT, Signals intelligence" tone="neutral" collapse="closed"}
-Interception of communications and electronic emissions — who is talking to whom, and sometimes what they said.
-
-**Picks up.** Organizational and operational signatures.
-
-**Characteristic limit.** The most sources-and-methods-sensitive stream, which is exactly why it is the hardest to share with a treaty verifier.
-:::
-
-:::callout {title="CYBER, Cyber intelligence" tone="neutral" collapse="closed"}
-Collection from networks and systems themselves. MIRI's draft names it inside national technical means, at item 17 of Article II's definitions.
-
-**Picks up.** Operational signatures — what a facility is actually running.
-
-**Characteristic limit.** Its inclusion in a treaty definition is contested: read as legalized collection by one party and as a license to hack by the other.
-:::
-
-**Collects physics**
-
-:::callout {title="IMINT, Imagery intelligence" tone="neutral" collapse="closed"}
-Overhead and aerial imagery: building footprint, electrical substations, cooling plant, security perimeter.
-
-**Picks up.** Facility signatures, and construction while it is happening.
-
-**Characteristic limit.** Unlikely to separate an AI datacenter from any other datacenter — cooling is the differentiator — and defeated by underground siting.
-:::
-
-:::callout {title="GEOINT, Geospatial intelligence" tone="neutral" collapse="closed"}
-Imagery placed in geographic and temporal context — terrain, infrastructure, transmission lines, and change over time.
-
-**Picks up.** Resource-flow signatures: the grid connection a large site needs.
-
-**Characteristic limit.** Reads the surroundings well and the activity inside poorly.
-:::
-
-:::callout {title="MASINT, Measurement and signature intelligence" tone="neutral" collapse="closed"}
-The physics a facility emits — thermal, effluent, radar and geophysical signatures. Clark's technical-collection reference is the one on this.
-
-**Picks up.** Waste heat and the narrow temperature band of constant chip operation; geophysical methods are already used against underground construction.
-
-**Characteristic limit.** The signature it reads is shrinking: performance-per-watt improves about 1.6x a year, so a fixed quantity of compute emits less each year.
-:::
+#### Widget
+source:: [[../widgets/collection-map]]
 
 #### Text
 content::
