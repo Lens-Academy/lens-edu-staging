@@ -8,6 +8,18 @@ duration_minutes: 75
 ---
 #### Article
 source:: [[../articles/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence]]
+to:: Cost estimates are based on October 2025 rental prices for B200 GPUs from CoreWeave, assuming 50% utilization in FP8.
+
+#### Text
+content::
+Figure 2 above is the picture of the two thresholds against real training runs. Set the thresholds yourself and pick a cluster size: the widget recomputes how long that cluster needs to reach each threshold, when it would be registered, and which of Appendix D's levers reach it, domestically and internationally.
+
+#### Widget
+source:: [[../widgets/scher-threshold-explorer]]
+
+#### Article
+source:: [[../articles/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence]]
+from:: To achieve this verification, the coalition locates existing AI chips
 
 #### Text
 content::
