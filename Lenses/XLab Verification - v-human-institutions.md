@@ -111,6 +111,7 @@ There is no Security Council of compute, but AI’s enforcement lever may be mor
 :::callout {title="Commentary: The standard (open after you have answered)" tone="neutral" collapse="closed"}
 Carlson’s closing argument transfers whole: a regime that decides case by case, with no announced standard, spends credibility on every decision. Whatever sentence you wrote, the test it must pass is the one his five cases failed: would two rivals, reading it in advance, predict the same verdict on the same facts?
 :::
+
 #### Question: Open
 id:: 96ee4f8c-1ad4-4b29-904b-5168cddeaf2d
 content:: Carlson argues the system’s credibility rides on consistency. In no more than 50 words: what one guideline would you bind your AI board to before its first case?
