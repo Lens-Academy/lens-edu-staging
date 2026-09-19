@@ -107,7 +107,7 @@ to:: for more detailed descriptions of protocols and red team strategies.
 content::
 \## Build the protocols
 
-Table 2 states six blue-team protocols in prose. Rebuild each of them as a flow chart describing what happens to every incoming problem: which steps run, what question routes the problem, and where each path ends. Every path must end in a submit or an audit.
+Table 2 states six blue-team protocols in prose. Every one of them answers the same three questions about an incoming programming problem: who writes the code, who rates it, and what happens in each suspicion band. Rebuild each protocol as a flow chart describing what happens to every incoming problem: which steps run, what question routes the problem, and where each path ends. Every path must end in a submit or an audit.
 
 #### Widget
 source:: [[../widgets/xlab-control-protocol-builder]]
