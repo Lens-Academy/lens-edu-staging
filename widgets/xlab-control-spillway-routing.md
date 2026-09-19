@@ -24,7 +24,6 @@ tags: []
 }
 * { box-sizing: border-box; }
 body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
-.eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
 .card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: #fff; }
 .scroll { overflow-x: auto; overflow-y: hidden; }
 svg { display: block; width: 100%; min-width: 640px; height: auto; }
@@ -53,7 +52,6 @@ button:disabled { opacity: 0.45; cursor: default; }
 </head>
 <body>
 <div class="card">
-  <div class="eyebrow">Where the reward-hacking pressure goes</div>
   <div class="scroll" id="scroll"></div>
   <div class="step"><h2 id="steplabel"></h2><p id="stepcaption"></p></div>
   <div class="bar">
