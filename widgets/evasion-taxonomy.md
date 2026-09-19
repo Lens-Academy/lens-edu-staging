@@ -1,7 +1,7 @@
 ---
 id: '1da8db35-0313-4d6c-a7ab-8b63d50d0a19'
 title: Evasion route explorer
-summary_for_tutor: "An explorer for the ten-route evasion taxonomy, revisited with scores after the red-team exercise. Every route card carries XLab's own text: what the actor tries to do, the primary layers targeted and the actors who might participate. Seven routes (repurpose declared infrastructure, steal or copy model weights, split training across sites, falsify declarations or provenance, distill or extract capability, conceal the real actor, divert controlled hardware) also carry XLab's four scores out of 5 (technical feasibility for the evader, political and organizational feasibility, verification effectiveness where higher is better for the verifier, durability and harm), a rationale paragraph and the list of who can change the balance; three routes (hide an undeclared cluster, exploit a boundary in the rule, attack the verification system) are unscored because XLab's table never scored them. The learner filters routes by typing a layer or actor or tapping an actor chip, sorts by any score, opens cards to read the reasoning, switches to a score matrix, and adds up to three routes to a side-by-side comparison. The widget reports as complete once the learner has opened all seven scored routes. Push the learner to say why a score is what it is, using the rationale text, and to notice the pattern the sorts expose: the routes that are easiest for the evader (falsify, conceal) are only moderately verifiable, and weight theft is the route the compute-verification machinery sees least."
+summary_for_tutor: "An explorer for the ten-route evasion taxonomy, revisited with scores after the red-team exercise. It is the only interactive thing in Section B of the lesson; the lesson page above it carries the Section B lead-in, the scoring legend (1 = very low or weak to 5 = very high, and for verification effectiveness a higher score is better for the verifier), the caution that the scores are relative conditional judgments drawn from preprints and that charging documents are allegations, and the line that seven of the ten routes are scored. The works cited callout sits below the widget. Every route card carries XLab's own text: what the actor tries to do, the primary layers targeted and the actors who might participate. Seven routes (repurpose declared infrastructure, steal or copy model weights, split training across sites, falsify declarations or provenance, distill or extract capability, conceal the real actor, divert controlled hardware) also carry four scores out of 5 with a one-line reason each, a rationale paragraph and the list of who can change the balance; three routes (hide an undeclared cluster, exploit a boundary in the rule, attack the verification system) are unscored because XLab's table never scored them. The learner filters routes by typing a layer or actor or tapping an actor chip, sorts by any score, opens cards to read the reasoning, switches to a score matrix, and adds up to three routes to a side-by-side comparison. The widget reports as complete once the learner has opened all seven scored routes. Push the learner to say why a score is what it is, using the rationale text, and to notice the pattern the sorts expose: the routes that are easiest for the evader (falsify, conceal) are only moderately verifiable, and weight theft is the route the compute-verification machinery sees least."
 height: auto
 tags: [wip]
 ---
@@ -26,9 +26,7 @@ tags: [wip]
   h1 { font-size: 24px; margin: 4px 0 6px; }
   h3 { font-size: 17px; }
   p { margin: 0; }
-  .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0; }
   .lede { color: var(--muted); max-width: 46rem; margin-bottom: 12px; }
-  .legend { font-size: 12px; color: var(--muted); border: 1px solid var(--border); border-radius: 8px; background: var(--surface); padding: 8px 12px; margin-bottom: 14px; }
   button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 6px 10px; cursor: pointer; }
   button:hover { background: var(--surface); }
   button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -106,10 +104,8 @@ tags: [wip]
 </style>
 </head>
 <body>
-<p class="eyebrow">Section B: the taxonomy revisited</p>
 <h1>Evasion route explorer</h1>
-<p class="lede">Ten routes around an agreement, seven of them scored. Filter by a layer or an actor, sort by a score, open a route to read why it scores the way it does, and put up to three routes side by side.</p>
-<p class="legend">Scoring: 1 = very low or weak; 2 = low; 3 = moderate; 4 = high; 5 = very high. For verification effectiveness, a higher score is better for the verifier.</p>
+<p class="lede">Open a route to read why it scores as it does, or compare up to three side by side.</p>
 
 <div class="controls">
   <label for="q">Filter <input id="q" type="search" placeholder="type a layer or an actor, e.g. inspectors" aria-label="Filter routes by layer or actor"></label>

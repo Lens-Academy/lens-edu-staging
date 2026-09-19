@@ -1,7 +1,7 @@
 ---
 id: '4ff6169a-9b62-4cc7-ad56-4f6e8f7ab186'
 title: Training Through the Pause
-summary_for_tutor: "XLab's worked red-team/blue-team example from the deleted unit 3.0 'What is Covert Development?'. The scenario (Sable Systems continuing a paused Orion-5 run through a Northstar insider and split cloud accounts) is in the lens text above the widget; the widget holds the six prompts: three red-team (most plausible evasion strategy; assumptions that must hold; where the operation is most vulnerable) and three blue-team (what the verifier does first; what each verification layer can establish; what finding and next action are justified). For each prompt the learner either writes an answer and saves it, which reveals XLab's sample student response with its 'Why this is strong' and 'Common weaknesses' lists and sends the answer for scoring against those lists, or opens the model answer without attempting. The widget-state block reports each prompt's status (attempted with score, read without attempting, or not opened) and the learner's text. Done means all six prompts have been opened by either route. Do not reveal a prompt's sample response, strengths or weaknesses before the learner has opened it; after that, help them compare their answer with the model, prompt by prompt."
+summary_for_tutor: "XLab's worked red-team/blue-team example from the deleted unit 3.0 'What is Covert Development?'. The lens page around the widget carries the scenario (Sable Systems continuing a paused Orion-5 run through a Northstar insider and split cloud accounts), the two task lines and the debrief; the widget holds only the six prompts: three red-team (most plausible evasion strategy; assumptions that must hold; where the operation is most vulnerable) and three blue-team (what the verifier does first; what each verification layer can establish; what finding and next action are justified). For each prompt the learner either writes an answer and saves it, which reveals XLab's sample student response with its 'Why this is strong' and 'Common weaknesses' lists and sends the answer for scoring against those lists, or opens the model answer without attempting. The widget-state block reports each prompt's status (attempted with score, read without attempting, or not opened) and the learner's text. Done means all six prompts have been opened by either route. Do not reveal a prompt's sample response, strengths or weaknesses before the learner has opened it; after that, help them compare their answer with the model, prompt by prompt."
 height: auto
 tags: [wip]
 ---
@@ -24,18 +24,13 @@ tags: [wip]
   * { box-sizing: border-box; }
   [hidden] { display: none !important; }
   body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
-  h1, h2, h3 { font-family: var(--font-heading); font-weight: 600; margin: 0; }
-  h1 { font-size: 26px; line-height: 1.2; }
+  h2, h3 { font-family: var(--font-heading); font-weight: 600; margin: 0; }
   h2 { font-size: 19px; margin-top: 24px; }
+  #groups > h2:first-child { margin-top: 0; }
   h3 { font-size: 17px; line-height: 1.3; }
   p { margin: 0 0 8px; }
   ul { margin: 0 0 8px; padding-left: 20px; }
   li { margin: 2px 0; }
-  .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0 0 4px; }
-  .lede { color: var(--muted); max-width: 46rem; }
-  .task { border: 1px solid var(--border); border-radius: 8px; padding: 12px 16px; background: var(--page); margin: 16px 0 8px; }
-  .task p:last-child { margin-bottom: 0; }
-  .progress { text-align: right; font-size: 12px; color: var(--muted); margin: 8px 0 0; }
   .card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: var(--bg); margin-top: 12px; }
   .card.is-open { border-color: var(--text); box-shadow: 0 0 0 1px var(--text); }
   .card-top { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 12px; }
@@ -63,34 +58,12 @@ tags: [wip]
   .reveal h3:first-child { margin-top: 0; }
   .reveal .sample { background: var(--page); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
   .reveal .sample p:last-child, .reveal .sample ul:last-child { margin-bottom: 0; }
-  .done { display: none; border: 1px solid var(--accent); border-radius: 8px; padding: 12px 16px; margin-top: 16px; background: var(--page); }
-  .done.is-open { display: block; }
-  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
-  @media (max-width: 480px) { body { padding: 12px; } h1 { font-size: 22px; } .prompt-text { font-size: 16px; } }
+  @media (max-width: 480px) { body { padding: 12px; } .prompt-text { font-size: 16px; } }
 </style>
 </head>
 <body>
-<section aria-labelledby="we-title">
-  <header>
-    <p class="eyebrow">Worked example</p>
-    <h1 id="we-title">Training Through the Pause</h1>
-    <p class="lede">Estimated time: 15 to 20 minutes</p>
-    <p class="lede">This is a fictional composite. The organizations and agreement are invented, but the tactics draw on documented cases involving insider exfiltration, format-shifting, cloud intermediaries, dual-use infrastructure, and incomplete declarations.</p>
-    <div class="task">
-      <p class="eyebrow">Your task</p>
-      <p>As the red team, explain the most plausible evasion strategy, its assumptions, and its weakest point.</p>
-      <p>As the blue team, explain how evidence from the hardware, cloud, intelligence, and human layers could be combined, and recommend a proportionate response.</p>
-    </div>
-    <p class="note">Each prompt hides a sample student response and the notes on why it is strong. Write your own answer and save it to open the sample and have your answer scored against those notes, or open the sample without answering.</p>
-    <p class="progress" id="progress" aria-live="polite"></p>
-  </header>
-
+<section aria-label="Training Through the Pause: six worked-example prompts">
   <div id="groups"></div>
-
-  <div class="done" id="done" role="status">
-    <p class="eyebrow">All six prompts opened</p>
-    <p>The answers above show what excellent student work might look like. Read on to the debrief.</p>
-  </div>
 </section>
 
 <script>
@@ -398,7 +371,7 @@ tags: [wip]
         card.id = "card-" + p.id;
 
         var top = el("div", "card-top");
-        top.appendChild(el("p", "prompt-label", "Prompt " + p.n + " of " + PROMPTS.length + ": " + p.team));
+        top.appendChild(el("p", "prompt-label", p.team + ", prompt " + p.n));
         var status = el("span", "status", "Not opened");
         top.appendChild(status);
         card.appendChild(top);
@@ -487,9 +460,6 @@ tags: [wip]
 
   function render() {
     PROMPTS.forEach(renderPrompt);
-    var n = openedCount();
-    document.getElementById("progress").textContent = n + " of " + PROMPTS.length + " prompts opened";
-    document.getElementById("done").classList.toggle("is-open", n === PROMPTS.length);
   }
 
   function attempt(p) {
