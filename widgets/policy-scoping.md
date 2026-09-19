@@ -1,7 +1,7 @@
 ---
 id: '9ddb06ed-48ed-4b59-a74c-786fd336e8b3'
 title: Scoping an anti-ASI policy
-summary_for_tutor: "A sorting exercise on the effectiveness versus feasibility plane. The two five-rung scales (effectiveness: Symbolic, Marginal, Meaningful, Strong, Decisive; feasibility: Off the table, Long shot, Heavy lift, Within reach, Already happening) and the eleven anti-ASI policy buckets from self-governance to a coordinated halt, each with a description and a historical parallel, are on the lesson page above the widget as collapsed callouts, so the widget itself is the sort plus one follow-up question. The learner drags (or clicks to pick up and place) every bucket onto a 5 by 5 feasibility x effectiveness grid, then checks. Each placement is marked on the mark, close (one rung off on either axis) or off against XLab's reference cells, with a nudge saying which direction the reference has it. Once every bucket is on the mark, or the learner reveals the reference map after a check, XLab's rationale per bucket appears and the securitization question unlocks: which bucket becomes the design target for verification mechanisms (answer: the coordinated halt; wrong picks get an explanation and can retry). Done means the correct exception was picked. Their current placements and verdicts reach you in the widget-state paragraph. The corners are settled and the middle band is contestable, so accept an argued one-rung deviation. Content ported from XLab's Verification track."
+summary_for_tutor: "A sorting exercise on the effectiveness versus feasibility plane. The two five-rung scales (effectiveness: Symbolic, Marginal, Meaningful, Strong, Decisive; feasibility: Off the table, Long shot, Heavy lift, Within reach, Already happening) and the eleven anti-ASI policy buckets from self-governance to a coordinated halt, each with a description and a historical parallel, are on the lesson page above the widget as collapsed callouts, so the widget itself is the sort plus one follow-up question. The learner puts every bucket onto a 5 by 5 feasibility x effectiveness grid, then checks. Checking marks each on-the-mark chip with a tick and draws an arrow on the plane from every other chip to the cell the reference has it in, amber and dashed for one rung off, red and solid for further off; there is no separate reveal map and no list of verdicts. Picking a chip after the check shows XLab's rationale for that bucket in the info line under the tray. Chips stay movable: moving one clears its verdict and hides its arrow until the next check. The securitization question unlocks as soon as the learner has checked once: which bucket becomes the design target for verification mechanisms (answer: the coordinated halt; wrong picks get an explanation and can retry). Done means the correct exception was picked. Their current placements and verdicts reach you in the widget-state paragraph. The corners are settled and the middle band is contestable, so accept an argued one-rung deviation. Content ported from XLab's Verification track."
 height: auto
 tags: [wip]
 ---
@@ -18,6 +18,7 @@ tags: [wip]
   :root {
     --bg: #ffffff; --text: #1a1a1a; --muted: #5a5a5a; --border: #e8e5df;
     --surface: #faf8f3; --accent: #b87018; --accent-hover: #9a5c10;
+    --right: #2f6f4f; --close: #b87018; --off: #a8371c;
     --font-ui: "DM Sans", Arial, sans-serif; --font-heading: "Newsreader", Georgia, serif;
   }
   * { box-sizing: border-box; }
@@ -46,18 +47,17 @@ tags: [wip]
 
   /* sort phase */
   .sort { display: grid; gap: 20px; grid-template-columns: minmax(0, 1fr) 20rem; }
-  .hint { border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px; background: var(--surface); color: var(--muted); font-size: 12px; margin-bottom: 14px; }
   .tray { border: 1px solid var(--border); border-radius: 8px; padding: 12px; margin-bottom: 14px; }
   .tray .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
   .chip { display: inline-flex; align-items: center; gap: 5px; border-radius: 999px; padding: 4px 10px; font-size: 12px; font-weight: 600; border: 1px solid #cfc9bd; background: #fff; touch-action: none; user-select: none; -webkit-user-select: none; cursor: grab; }
   .chip .cn { color: var(--muted); font-weight: 400; font-variant-numeric: tabular-nums; }
   .chip.is-armed { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
   .chip.is-dragging { opacity: 0.4; }
-  .chip.v-right { border-color: var(--accent); }
-  .chip.v-close { border-style: dashed; border-color: var(--text); }
-  .chip.v-wrong { border-color: var(--text); }
+  .chip.v-right { border-color: var(--right); box-shadow: 0 0 0 1px var(--right); }
+  .chip.v-close { border-style: dashed; border-color: var(--close); }
+  .chip.v-wrong { border-color: var(--off); }
   .chip .badge { font-size: 11px; }
-  .chip.v-right .badge { color: var(--accent); }
+  .chip.v-right .badge { color: var(--right); }
   .placeholder { display: inline-flex; align-items: center; border: 1px dashed var(--border); border-radius: 999px; padding: 4px 10px; font-size: 12px; color: #b5b1a8; }
   .info { margin-top: 10px; font-size: 12px; color: var(--muted); min-height: 1.5em; }
   .info b { color: var(--text); }
@@ -90,9 +90,13 @@ tags: [wip]
   .corner:hover { background: transparent; color: var(--muted); }
   .corner.tr { top: 3px; right: 5px; }
   .corner.bl { bottom: 3px; left: 5px; }
-  .ghost { position: absolute; z-index: 4; transform: translate(-50%, -50%); border: 1px dashed var(--muted); border-radius: 999px; background: rgba(255,255,255,0.92); padding: 1px 7px; font-size: 9px; white-space: nowrap; color: var(--muted); cursor: help; }
-  .ghost:hover { color: var(--text); background: #fff; }
-  .ghost.is-target { border-style: solid; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(184,112,24,0.18); color: var(--text); }
+  .arrows { position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 4; pointer-events: none; overflow: visible; }
+  .arrows .shaft { fill: none; stroke-width: 2; stroke-linecap: round; }
+  .arrows .shaft.close { stroke: var(--close); stroke-dasharray: 5 4; }
+  .arrows .shaft.off { stroke: var(--off); }
+  .arrows .head { stroke: none; }
+  .arrows .head.close { fill: var(--close); }
+  .arrows .head.off { fill: var(--off); }
   .collabels { display: flex; margin-left: 64px; }
   .collabels div { flex: 1; text-align: center; padding: 6px 2px 0; font-size: 10px; line-height: 1.2; color: var(--muted); }
   .xaxis { margin-left: 64px; text-align: center; padding-top: 4px; }
@@ -109,13 +113,11 @@ tags: [wip]
   .controls button { text-align: center; }
   .status { text-align: center; font-size: 12px; color: var(--muted); }
   .status b { color: var(--text); }
-  .results { display: flex; flex-direction: column; gap: 6px; }
-  .res { border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; background: var(--surface); }
-  .res .top { display: flex; align-items: center; gap: 8px; }
-  .res .rname { font-size: 12px; font-weight: 600; flex: 1; }
-  .res .verdict { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; flex: none; color: var(--muted); }
-  .res .verdict.v-right { color: var(--accent); }
-  .res .why { margin-top: 4px; color: var(--muted); }
+  .legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 11px; color: var(--muted); }
+  .legend span { display: inline-flex; align-items: center; gap: 5px; }
+  .legend i { width: 18px; height: 0; border-top: 2px solid var(--off); display: inline-block; }
+  .legend i.close { border-top-style: dashed; border-top-color: var(--close); }
+  .legend i.right { width: auto; height: auto; border: 0; font-style: normal; color: var(--right); font-weight: 600; }
   .exc { border: 1px solid var(--border); border-radius: 8px; padding: 12px; background: var(--surface); }
   .exc .lead { color: var(--muted); margin: 6px 0 10px; }
   .exc .lead b { color: var(--text); }
@@ -129,7 +131,6 @@ tags: [wip]
   .exc .answer { border-top: 1px solid var(--border); margin-top: 10px; padding-top: 10px; color: var(--muted); }
   .exc .answer b { color: var(--text); }
   .finished { border: 1px solid var(--accent); border-radius: 8px; padding: 10px 12px; font-size: 12px; font-weight: 600; }
-  .foot { border-top: 1px solid var(--border); padding-top: 10px; color: var(--muted); }
   .dragghost { position: fixed; top: 0; left: 0; z-index: 50; pointer-events: none; border: 1px solid var(--accent); border-radius: 8px; background: #fff; padding: 3px 10px; font-size: 12px; font-weight: 500; box-shadow: 0 1px 2px rgba(0,0,0,0.12); }
 
   @media (max-width: 900px) { .sort { grid-template-columns: minmax(0, 1fr); } }
@@ -139,7 +140,7 @@ tags: [wip]
 <body>
 <p class="eyebrow">Exercise</p>
 <h1>Scoping an anti-ASI policy</h1>
-<p class="lede">Sort the policy buckets on the feasibility x effectiveness matrix. The scales and the eleven buckets are described above. Place each bucket on the plane, then check.</p>
+<p class="lede">Sort the policy buckets on the feasibility x effectiveness matrix. The scales and the eleven buckets are described above.</p>
 
 <div id="sort-root"></div>
 <div id="live" class="sr-only" aria-live="polite"></div>
@@ -254,8 +255,7 @@ tags: [wip]
 
   var C = {
     cardParallelTag: "Historical parallel",
-    sortHint: "Drag each bucket onto the plane, then check. On a keyboard or a phone: pick a bucket up, then pick a cell. Pick a chip up to see its description; the axis titles and the rung labels carry their definitions.",
-    trayLabel: "The eleven policy buckets: drag onto the plane",
+    trayLabel: "The eleven policy buckets: drag onto the plane, then check",
     stats: [
       { n: "11", l: "buckets, from voluntary commitments to a coordinated halt" },
       { n: "2", l: "axes every scoping decision trades between" },
@@ -263,9 +263,10 @@ tags: [wip]
     ],
     exerciseLabel: "Exercise",
     checkBtn: "Check placements",
-    revealBtn: "Reveal reference map",
     resetBtn: "Reset the sort",
-    resultsLabel: "Reasoning, bucket by bucket",
+    legendRight: "on the mark",
+    legendClose: "one rung off",
+    legendOff: "further off",
     yTitle: "Effectiveness",
     ySub: "at deterring ASI development",
     xTitle: "Feasibility",
@@ -281,8 +282,7 @@ tags: [wip]
       bold: "design target for verification mechanisms",
       post: ". Which?"
     },
-    finished: "Correct. Exercise complete.",
-    foot: "Two reference thresholds worth carrying: EU AI Act Art. 51 presumes systemic risk above 10²⁵ training FLOP; the rescinded EO 14110 used 10²⁶ as its reporting trigger. The corners of this plane are settled; the middle band is genuinely contestable."
+    finished: "Correct. Exercise complete."
   };
 
   var COLS = [0, 1, 2, 3, 4];
@@ -355,7 +355,7 @@ tags: [wip]
   // ---------- State ----------
   var S = {
     placements: {},
-    checkedOnce: false, keyOn: false,
+    checkedOnce: false,
     excPicked: null, excDone: false
   };
   BUCKETS.forEach(function (b) { S.placements[b.id] = { cell: null, verdict: null }; });
@@ -367,11 +367,17 @@ tags: [wip]
   function placedCount() { return BUCKETS.filter(function (b) { return !!S.placements[b.id].cell; }).length; }
   function verdicts() { return BUCKETS.map(function (b) { return S.placements[b.id].verdict; }); }
   function allVerdicts() { return verdicts().every(function (v) { return !!v; }); }
-  function anyVerdict() { return verdicts().some(function (v) { return !!v; }); }
   function rightCount() { return verdicts().filter(function (v) { return v === "right"; }).length; }
   function closeCount() { return verdicts().filter(function (v) { return v === "close"; }).length; }
   function allRight() { return allVerdicts() && rightCount() === BUCKETS.length; }
-  function excUnlocked() { return allRight() || S.keyOn; }
+  function excUnlocked() { return S.checkedOnce; }
+  function refCell(b) { return cellKey(b.key.f, b.key.e); }
+  function offList() {
+    return BUCKETS.filter(function (b) {
+      var p = S.placements[b.id];
+      return !!p.cell && (p.verdict === "close" || p.verdict === "wrong");
+    });
+  }
 
   // ---------- Summary for the tutor ----------
   function summary() {
@@ -386,14 +392,13 @@ tags: [wip]
       lines.push("No bucket placed yet.");
     }
     if (S.checkedOnce) lines.push("Last check: " + rightCount() + " on the mark, " + closeCount() + " close, " + (BUCKETS.length - rightCount() - closeCount()) + " off or moved since.");
-    if (S.keyOn) lines.push("Reference map revealed.");
     if (S.excPicked) lines.push("Securitization question: picked " + BY_ID[S.excPicked].name + (S.excDone ? " (correct, exercise complete)." : " (wrong, may retry)."));
     return lines.join(" ");
   }
 
   function persist() {
     var json = {
-      placements: {}, checkedOnce: S.checkedOnce, keyOn: S.keyOn, excPicked: S.excPicked, excDone: S.excDone
+      placements: {}, checkedOnce: S.checkedOnce, excPicked: S.excPicked, excDone: S.excDone
     };
     BUCKETS.forEach(function (b) { json.placements[b.id] = S.placements[b.id]; });
     if (window.Lens) {
@@ -409,7 +414,6 @@ tags: [wip]
   var sort = el("div", "sort");
   var main = el("div");
   main.style.minWidth = "0";
-  main.appendChild(el("p", "hint", C.sortHint));
   var tray = el("div", "tray");
   tray.appendChild(el("p", "eyebrow", C.trayLabel));
   var trayChips = el("div", "chips");
@@ -472,8 +476,12 @@ tags: [wip]
     });
   });
   board.appendChild(cells);
-  var ghostLayer = el("div");
-  board.appendChild(ghostLayer);
+  var SVGNS = "http://www.w3.org/2000/svg";
+  var arrowSvg = document.createElementNS(SVGNS, "svg");
+  arrowSvg.setAttribute("class", "arrows");
+  arrowSvg.setAttribute("aria-hidden", "true");
+  arrowSvg.setAttribute("focusable", "false");
+  board.appendChild(arrowSvg);
   gridrow.appendChild(board);
   planeInner.appendChild(gridrow);
   var collabels = el("div", "collabels");
@@ -513,20 +521,26 @@ tags: [wip]
   exBlock.appendChild(el("p", "eyebrow", C.exerciseLabel));
   var controls = el("div", "controls");
   var checkBtn = btn("primary", C.checkBtn, "check");
-  var revealBtn = btn("", C.revealBtn, "reveal");
   var resetBtn = btn("quiet", "↺ " + C.resetBtn, "reset");
   resetBtn.style.textAlign = "center";
   var statusLine = el("p", "status", "");
-  controls.appendChild(checkBtn); controls.appendChild(revealBtn); controls.appendChild(resetBtn); controls.appendChild(statusLine);
+  controls.appendChild(checkBtn); controls.appendChild(resetBtn); controls.appendChild(statusLine);
   exBlock.appendChild(controls);
   aside.appendChild(exBlock);
   checkBtn.addEventListener("click", check);
-  revealBtn.addEventListener("click", function () { if (!S.checkedOnce || S.keyOn) return; reveal(); render(); persist(); });
   resetBtn.addEventListener("click", resetSort);
 
-  var results = el("div", "results");
-  results.hidden = true;
-  aside.appendChild(results);
+  var legend = el("div", "legend");
+  legend.hidden = true;
+  [["right", "✓", C.legendRight], ["close", "", C.legendClose], ["off", "", C.legendOff]].forEach(function (row) {
+    var sp = el("span");
+    var mark = el("i", row[0], row[1]);
+    mark.setAttribute("aria-hidden", "true");
+    sp.appendChild(mark);
+    sp.appendChild(document.createTextNode(row[2]));
+    legend.appendChild(sp);
+  });
+  aside.appendChild(legend);
 
   var exc = el("div", "exc");
   exc.hidden = true;
@@ -563,7 +577,6 @@ tags: [wip]
   var finished = el("div", "finished", "✓ " + C.finished);
   finished.hidden = true;
   aside.appendChild(finished);
-  aside.appendChild(el("p", "foot", C.foot));
   sort.appendChild(aside);
   sortRoot.appendChild(sort);
 
@@ -592,12 +605,15 @@ tags: [wip]
   }
   BUCKETS.forEach(function (b) { chipEls[b.id] = makeChip(b); });
 
-  function chipTitle(b) {
+  function chipBody(b) {
     var p = S.placements[b.id];
-    var head = (p.verdict && p.cell)
-      ? b.n + ". " + b.name + ": " + verdictLabel(p.verdict) + ". " + (p.verdict === "right" ? b.why : "Placed at " + cellLabel(p.cell) + "; " + nudge(b, p.cell) + ".")
-      : b.n + ". " + b.name + ": " + b.desc;
-    return head + "\n\n" + C.cardParallelTag + ", " + b.parallel.title + ". " + b.parallel.text;
+    if (p.verdict === "right") return "On the mark. " + b.why;
+    if (p.verdict) return "The reference has it at " + cellLabel(refCell(b)) + ". " + b.why;
+    if (S.checkedOnce) return b.why;
+    return b.desc;
+  }
+  function chipTitle(b) {
+    return b.n + ". " + b.name + ": " + chipBody(b) + "\n\n" + C.cardParallelTag + ", " + b.parallel.title + ". " + b.parallel.text;
   }
 
   function showInfo(head, text) {
@@ -616,8 +632,7 @@ tags: [wip]
     else {
       ui.armedId = id;
       var b = BY_ID[id];
-      var p = S.placements[id];
-      showInfo(b.n + ". " + b.name + ".", (p.verdict && p.cell) ? (verdictLabel(p.verdict) + ". " + (p.verdict === "right" ? b.why : "Placed at " + cellLabel(p.cell) + "; " + nudge(b, p.cell) + ".")) : b.desc + " Now pick a cell.");
+      showInfo(b.n + ". " + b.name + ".", chipBody(b));
       say("Picked up " + b.n + ". " + b.name + ". Choose a target.");
     }
     render();
@@ -705,19 +720,21 @@ tags: [wip]
       S.placements[b.id] = { cell: cell, verdict: v };
       if (v === "right") right++;
     });
-    say("Checked. " + right + " of " + BUCKETS.length + " on the mark." + (right === BUCKETS.length ? " All correct: the one-exception question is now available." : " Adjust placements and check again."));
-    if (right === BUCKETS.length) reveal();
+    var missed = offList();
+    var msg = "Checked. " + right + " of " + BUCKETS.length + " on the mark.";
+    if (missed.length) {
+      msg += " An arrow now points from each of the other " + missed.length + " to the cell the reference has it in: "
+        + missed.map(function (b) { return b.name + " to " + cellLabel(refCell(b)); }).join("; ") + ".";
+    }
+    msg += " Pick any bucket to hear why the reference puts it there. The one-exception question is now available.";
+    say(msg);
     ui.info = null;
     render();
     persist();
   }
-  function reveal() {
-    S.keyOn = true;
-    say("Reference map revealed. " + BUCKETS.map(function (b) { return b.name + ": " + b.why; }).join(" "));
-  }
   function resetSort() {
     BUCKETS.forEach(function (b) { S.placements[b.id] = { cell: null, verdict: null }; });
-    S.checkedOnce = false; S.keyOn = false; S.excPicked = null; S.excDone = false;
+    S.checkedOnce = false; S.excPicked = null; S.excDone = false;
     ui.armedId = null; ui.info = null;
     say("Sort reset. All " + BUCKETS.length + " buckets returned to the tray.");
     render();
@@ -728,13 +745,68 @@ tags: [wip]
     S.excPicked = id;
     if (EXC_ANSWERS[id].ok) {
       S.excDone = true;
-      if (!S.keyOn) reveal();
       say("Correct. Exercise complete.");
     } else {
       say("Not quite. Try again.");
     }
     render();
     persist();
+  }
+
+  // ---------- Arrows to the reference cells ----------
+  function svgEl(tag, cls) {
+    var e = document.createElementNS(SVGNS, tag);
+    e.setAttribute("class", cls);
+    return e;
+  }
+  function boxIn(node, origin) {
+    var r = node.getBoundingClientRect();
+    return { x: r.left - origin.left + r.width / 2, y: r.top - origin.top + r.height / 2, hw: r.width / 2, hh: r.height / 2 };
+  }
+  function edgeOf(c, ux, uy, pad) {
+    var tx = ux === 0 ? Infinity : (c.hw + pad) / Math.abs(ux);
+    var ty = uy === 0 ? Infinity : (c.hh + pad) / Math.abs(uy);
+    var t = Math.min(tx, ty);
+    if (!isFinite(t)) t = 0;
+    return { x: c.x + ux * t, y: c.y + uy * t };
+  }
+  function drawArrows() {
+    clear(arrowSvg);
+    var origin = arrowSvg.getBoundingClientRect();
+    var w = Math.round(origin.width), h = Math.round(origin.height);
+    if (!w || !h) return;
+    // viewBox matches the pixel box one to one, so the heads keep their shape at any width.
+    arrowSvg.setAttribute("viewBox", "0 0 " + w + " " + h);
+    var missed = offList(), groups = {};
+    missed.forEach(function (b) { var k = refCell(b); (groups[k] = groups[k] || []).push(b.id); });
+    missed.forEach(function (b) {
+      var chip = chipEls[b.id], target = cellEls[refCell(b)];
+      if (!chip || !target || !chip.parentNode) return;
+      var from = boxIn(chip, origin), to = boxIn(target, origin);
+      var g = groups[refCell(b)], spread = (g.indexOf(b.id) - (g.length - 1) / 2) * 9;
+      var dx = to.x - from.x, dy = to.y - from.y, len = Math.sqrt(dx * dx + dy * dy);
+      if (!len) return;
+      // two chips aiming at one cell land side by side, across the arrow's own direction
+      var ax = to.x - (dy / len) * spread, ay = to.y + (dx / len) * spread;
+      dx = ax - from.x; dy = ay - from.y; len = Math.sqrt(dx * dx + dy * dy);
+      if (len < 16) return;
+      var ux = dx / len, uy = dy / len;
+      var start = edgeOf(from, ux, uy, 2);
+      var tipX = ax - ux * 4, tipY = ay - uy * 4;
+      var backX = tipX - ux * 9, backY = tipY - uy * 9;
+      var kind = S.placements[b.id].verdict === "close" ? "close" : "off";
+      var line = svgEl("line", "shaft " + kind);
+      line.setAttribute("x1", start.x.toFixed(1));
+      line.setAttribute("y1", start.y.toFixed(1));
+      line.setAttribute("x2", backX.toFixed(1));
+      line.setAttribute("y2", backY.toFixed(1));
+      arrowSvg.appendChild(line);
+      var head = svgEl("path", "head " + kind);
+      head.setAttribute("d", "M" + tipX.toFixed(1) + " " + tipY.toFixed(1)
+        + " L" + (backX - uy * 4.5).toFixed(1) + " " + (backY + ux * 4.5).toFixed(1)
+        + " L" + (backX + uy * 4.5).toFixed(1) + " " + (backY - ux * 4.5).toFixed(1) + " Z");
+      arrowSvg.appendChild(head);
+    });
   }
 
   // ---------- Render ----------
@@ -749,11 +821,9 @@ tags: [wip]
       chip.setAttribute("aria-pressed", ui.armedId === b.id ? "true" : "false");
       chip.classList.remove("v-right", "v-close", "v-wrong");
       var badge = chip.firstChild;
-      if (p.verdict) {
-        chip.classList.add("v-" + p.verdict);
-        badge.textContent = p.verdict === "right" ? "✓" : p.verdict === "close" ? "≈" : "✕";
-        badge.hidden = false;
-      } else { badge.hidden = true; }
+      if (p.verdict) chip.classList.add("v-" + p.verdict);
+      if (p.verdict === "right") { badge.textContent = "✓"; badge.hidden = false; }
+      else { badge.textContent = ""; badge.hidden = true; }
       chip.title = chipTitle(b);
       if (p.cell) {
         (byCell[p.cell] = byCell[p.cell] || []).push(b.id);
@@ -774,29 +844,12 @@ tags: [wip]
     });
     renderInfo();
 
-    // ghosts (reference map)
-    clear(ghostLayer);
-    if (S.keyOn) {
-      var groups = {}, offsets = {};
-      BUCKETS.forEach(function (b) { var k = cellKey(b.key.f, b.key.e); (groups[k] = groups[k] || []).push(b.id); });
-      Object.keys(groups).forEach(function (k) {
-        groups[k].forEach(function (id, i) { offsets[id] = (i - (groups[k].length - 1) / 2) * 5.5; });
-      });
-      BUCKETS.forEach(function (b) {
-        var g = btn("ghost" + (b.id === "ch" ? " is-target" : ""), b.short, "ghost-" + b.id);
-        g.style.left = (((b.key.f + 0.5) / 5) * 100) + "%";
-        g.style.top = (((4 - b.key.e + 0.5) / 5) * 100 + offsets[b.id]) + "%";
-        g.title = b.name + ", why here. " + b.why;
-        g.setAttribute("aria-label", "Reference: " + b.name + " at " + cellLabel(cellKey(b.key.f, b.key.e)));
-        g.addEventListener("click", function () { showInfo(b.name + ", why here.", b.why); });
-        ghostLayer.appendChild(g);
-      });
-    }
+    drawArrows();
+    legend.hidden = !S.checkedOnce;
 
     // controls and status
     var total = BUCKETS.length, placed = placedCount();
     checkBtn.disabled = placed !== total;
-    revealBtn.disabled = !S.checkedOnce || S.keyOn;
     clear(statusLine);
     if (allVerdicts()) {
       if (allRight()) {
@@ -810,31 +863,9 @@ tags: [wip]
         statusLine.appendChild(document.createTextNode(" off; drag and re-check"));
       }
     } else if (placed === total) {
-      statusLine.textContent = "All placed; check when ready";
+      statusLine.textContent = S.checkedOnce ? "Moved since the check; check again" : "All placed; check when ready";
     } else {
       statusLine.textContent = placed + " of " + total + " placed";
-    }
-
-    // results
-    clear(results);
-    results.hidden = !anyVerdict();
-    if (anyVerdict()) {
-      results.appendChild(el("p", "eyebrow", C.resultsLabel));
-      BUCKETS.forEach(function (b) {
-        var p = S.placements[b.id];
-        var r = el("div", "res");
-        var top = el("div", "top");
-        top.appendChild(el("span", "rname", b.name));
-        if (!p.verdict) {
-          top.appendChild(el("span", "verdict", "moved, recheck"));
-          r.appendChild(top);
-        } else {
-          top.appendChild(el("span", "verdict v-" + p.verdict, verdictLabel(p.verdict)));
-          r.appendChild(top);
-          r.appendChild(el("p", "why", (S.keyOn || p.verdict === "right") ? b.why : "By the reference map it is " + nudge(b, p.cell) + "."));
-        }
-        results.appendChild(r);
-      });
     }
 
     // exception
@@ -871,18 +902,29 @@ tags: [wip]
           }
         });
       }
-      S.checkedOnce = !!saved.checkedOnce;
-      S.keyOn = !!saved.keyOn;
+      // An older state may carry keyOn (the reference map that this version replaced with arrows),
+      // or phase, scalesSeen and seen from the three-step version; unknown fields are ignored.
+      S.checkedOnce = !!saved.checkedOnce || !!saved.keyOn;
       S.excPicked = (saved.excPicked && EXC_ANSWERS[saved.excPicked]) ? saved.excPicked : null;
       S.excDone = !!saved.excDone && S.excPicked === "ch";
     }
     if (meta && meta.completed && !S.excDone) {
       // Completed before but the state did not carry it: show the finished view.
-      S.excDone = true; S.excPicked = "ch"; S.keyOn = true; S.checkedOnce = true;
+      S.excDone = true; S.excPicked = "ch"; S.checkedOnce = true;
     }
     if (S.excDone) ui.completedSent = !!(meta && meta.completed);
     render();
     if (S.excDone && !ui.completedSent) persist();
+  }
+
+  var reflow = null;
+  function scheduleArrows() {
+    if (reflow) return;
+    reflow = setTimeout(function () { reflow = null; drawArrows(); }, 60);
+  }
+  window.addEventListener("resize", scheduleArrows);
+  if (typeof ResizeObserver === "function") {
+    try { new ResizeObserver(scheduleArrows).observe(board); } catch (e) {}
   }
 
   render();
