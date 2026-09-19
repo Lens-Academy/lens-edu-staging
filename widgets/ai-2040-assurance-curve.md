@@ -1,7 +1,7 @@
 ---
 id: '30fd2429-721c-48be-a347-aefe4fb95ca1'
 title: Assurance curves for three verification budgets
-summary_for_tutor: "An interactive reproduction of the AI 2040 verification supplement's 'Assurance curves' chart: confidence against coverage (both on log scales up to 8 nines) for three verification budgets, N_ver = 100, 10K and 10M audited packets. The curves are computed from the appendix formulas coverage = 1 - F* and confidence = 1 - exp(-N_ver * F*), where F* is the largest fraction of fake packets tolerated without detection. The learner hovers the chart or presses a coverage button (90%, 99%, ... 8 nines) to read the exact confidence for each budget, and can hide or show each curve. Done means they have read at least three different coverage points. Current readings are saved in the widget state."
+summary_for_tutor: "An interactive reproduction of the AI 2040 verification supplement's 'Assurance curves' chart: confidence against coverage (both on log scales up to 8 nines) for three verification budgets, N_ver = 100, 10K and 10M audited packets. The curves are computed from the appendix formulas coverage = 1 - F* and confidence = 1 - exp(-N_ver * F*), where F* is the largest fraction of fake packets tolerated without detection. The learner hovers the chart or presses a coverage button (90%, 99%, ... 8 nines) to read the exact confidence for each budget, and can hide or show each curve. Done means they have read at least three different coverage points. Current readings are saved in the widget state. The lesson page carries the chart's caption and the eight-row coverage-against-confidence table as the text fallback, so the widget itself opens straight on the chart with no title or lede."
 height: auto
 tags: [wip]
 ---
@@ -14,18 +14,15 @@ tags: [wip]
 <!-- Ported from AI 2040 (ai-2040.com/supplements/verification-plan), chart "Assurance curves" (AssuranceCurve component), shown twice on the source page (key verification metrics box, and appendix A.3). -->
 <!-- Data: the three budgets, the axis mappings and the curve construction are copied from the page's chunk 4857 (the React component). Curves are recomputed from the appendix formulas coverage = 1 - F*, confidence = 1 - exp(-N_ver * F*). Nothing is read by eye. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <style>
   :root {
     --bg: #ffffff; --text: #1a1a1a; --muted: #5a5a5a; --border: #e8e5df;
     --surface: #faf8f3; --accent: #b87018; --accent-hover: #9a5c10;
-    --font-ui: "DM Sans", Arial, sans-serif; --font-heading: "Newsreader", Georgia, serif;
+    --font-ui: "DM Sans", Arial, sans-serif;
   }
   * { box-sizing: border-box; }
   body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
-  h1, h2 { font-family: var(--font-heading); font-weight: 600; margin: 0; }
-  h1 { font-size: 22px; }
-  .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0 0 4px; }
   .lede { color: var(--muted); margin: 4px 0 12px; max-width: 46rem; }
   .card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: #fff; }
   .formula { font-size: 13px; color: var(--muted); margin: 0 0 8px; }
@@ -57,9 +54,7 @@ tags: [wip]
 </style>
 </head>
 <body>
-<p class="eyebrow">Interactive chart</p>
-<h1>Assurance curves for three verification budgets</h1>
-<p class="lede">Confidence against coverage for N_ver = 100, 10K and 10M audited packets. Hover the chart or press a coverage button to read the confidence each budget gives at that coverage.</p>
+<p class="lede">Hover the chart or press a coverage button to read the confidence each budget gives at that coverage.</p>
 
 <div class="card">
   <p class="formula">Coverage = 1 - F*. Confidence = 1 - e^(-N_ver * F*). F* is the largest fraction of fake packets tolerated without detection.</p>

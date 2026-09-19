@@ -1,7 +1,7 @@
 ---
 id: 'acd00bf6-a7c2-4541-8202-25e8c29aecb6'
 title: Catching a rogue internal deployment
-summary_for_tutor: "An interactive reproduction of the AI 2040 verification supplement's 'Catching a rogue internal deployment' chart. The learner picks a year (2030, 2032, 2034 or 2040, which sets the verified pool size and the default packet size) and a packet size (1 to 10K H100e-hours), then reads P(detected) for a rogue deployment of a given size (1 to 10M H100e) within 1 hour, 1 week or 1 month, using the appendix formula P(detected) = 1 - exp(-C * N_fake) with a 1% recomputation budget, where N_fake = size * hours / packet size. They can hover the chart or press a size button to read exact values, and hide or show each time window. Done means they have moved at least one slider away from the default and read at least three different rogue deployment sizes from the size buttons. Their current settings and readouts are saved in the widget state as they explore."
+summary_for_tutor: "An interactive reproduction of the AI 2040 verification supplement's 'Catching a rogue internal deployment' chart. The learner picks a year (2030, 2032, 2034 or 2040, which sets the verified pool size and the default packet size) and a packet size (1 to 10K H100e-hours), then reads P(detected) for a rogue deployment of a given size (1 to 10M H100e) within 1 hour, 1 week or 1 month, using the appendix formula P(detected) = 1 - exp(-C * N_fake) with a 1% recomputation budget, where N_fake = size * hours / packet size. They can hover the chart or press a size button to read exact values, and hide or show each time window. Done means they have moved at least one slider away from the default and read at least three different rogue deployment sizes from the size buttons. Their current settings and readouts are saved in the widget state as they explore. The lesson page carries the chart's caption and the seven-row rogue-size-against-P(detected) table at the default setting as the text fallback, so the widget opens straight on the sliders and chart with no title or lede."
 height: auto
 tags: [wip]
 ---
@@ -23,9 +23,7 @@ tags: [wip]
   }
   * { box-sizing: border-box; }
   body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
-  h1, h2 { font-family: var(--font-heading); font-weight: 600; margin: 0; }
-  h1 { font-size: 22px; }
-  .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0 0 4px; }
+  h2 { font-family: var(--font-heading); font-weight: 600; margin: 0; }
   .lede { color: var(--muted); margin: 4px 0 12px; max-width: 46rem; }
   .card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: #fff; }
   .facts { display: flex; flex-wrap: wrap; gap: 6px 24px; margin: 0 0 12px; }
@@ -65,9 +63,7 @@ tags: [wip]
 </style>
 </head>
 <body>
-<p class="eyebrow">Interactive chart</p>
-<h1>Catching a rogue internal deployment</h1>
-<p class="lede">Probability that a 1% random recomputation budget catches a rogue internal deployment, by its size and how long it runs. Move the sliders, then hover the curves or press a size button to read exact values.</p>
+<p class="lede">Move the sliders, then hover the curves or press a size button to read exact values.</p>
 
 <div class="card">
   <div class="facts">

@@ -1,7 +1,7 @@
 ---
 id: 'dfb2faac-ee28-4815-a9a2-2847264dc653'
 title: Deal implementation timeline, 2029 to 2031
-summary_for_tutor: "A static timeline chart reproducing the AI 2040 verification supplement's 'Deal Implementation Timeline (detailed)' figure, with every marker placed from the source chart's own event dates. Axis from Jan 2029 to Jan 2031 with quarter ticks. Events: mutual chip declaration and R&D pause (early 2029); SL5 datacenter construction begins and the inference-only retrofit reaches 50%, 80% and 95% through 2029; R&D resumes late 2029 with the R&D verification rollout going from 2% to 20% by spring 2030; first major training runs approved (early 2030); SL5 inference clusters roll out from 5% to 30% in the second half of 2030; first generation of post-deal models released (mid 2030); mature safety-case-based R&D rules by Jan 2031. Nothing to click. On a narrow screen the chart keeps its full size and scrolls sideways inside its own box."
+summary_for_tutor: "A static timeline chart reproducing the AI 2040 verification supplement's 'Deal Implementation Timeline (detailed)' figure, with every marker placed from the source chart's own event dates. Axis from Jan 2029 to Jan 2031 with quarter ticks. Events: mutual chip declaration and R&D pause (early 2029); SL5 datacenter construction begins and the inference-only retrofit reaches 50%, 80% and 95% through 2029; R&D resumes late 2029 with the R&D verification rollout going from 2% to 20% by spring 2030; first major training runs approved (early 2030); SL5 inference clusters roll out from 5% to 30% in the second half of 2030; first generation of post-deal models released (mid 2030); mature safety-case-based R&D rules by Jan 2031. Nothing to click. On a narrow screen the chart keeps its full size and scrolls sideways inside its own box. The lesson page carries the eleven-bullet timeline list immediately above the figure as the text version, so the widget opens straight on the chart with no title or lede."
 height: auto
 tags: [wip]
 ---
@@ -23,8 +23,6 @@ tags: [wip]
   }
   * { box-sizing: border-box; }
   body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
-  h1 { font-family: var(--font-heading); font-weight: 600; margin: 0; font-size: 22px; }
-  .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0 0 4px; }
   .lede { color: var(--muted); margin: 4px 0 12px; max-width: 46rem; }
   .card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: #fff; }
   .chartbox { overflow-x: auto; }
@@ -40,10 +38,6 @@ tags: [wip]
 </style>
 </head>
 <body>
-<p class="eyebrow">Figure</p>
-<h1>Deal implementation timeline, 2029 to 2031</h1>
-<p class="lede">What the deal's first two years look like on a calendar: the declaration and the pause up front, then the retrofit, the verification rollout and the return of approved training runs.</p>
-
 <div class="card">
   <div class="chartbox">
     <svg id="c" class="chart" viewBox="0 0 1000 400" role="img" aria-label="Deal implementation timeline, January 2029 to January 2031"></svg>

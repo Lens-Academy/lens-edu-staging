@@ -124,20 +124,22 @@ feedback-instructions:: Give the score per rubric dimension with one sentence ea
 content::
 \#### Return to the opening puzzle
 
-In [[../Lenses/XLab Verification - v-hw-attestation|2.1 Hardware]] you classified each of these conclusions as supported, possibly supported if the system was designed to measure it, or unsupported by attestation alone. Look back at what you recorded before reading on.
+You judged these seven conclusions before you read anything in this section. Classify them again now, then see what moved.
 
-- These are genuine covered devices.
-- Their certificates and approved configurations were valid when the evidence was checked.
-- The devices were connected in the declared cluster topology.
-- They performed inference rather than prohibited training.
-- Their cumulative training compute remained below the treaty threshold.
-- No unregistered accelerators ran a separate prohibited workload.
-- The treaty authority can suspend the devices.
+The ledger below opens blank: Lens keeps a widget's answers with the page it sits on, so this copy cannot show your earlier record. Judge all seven rows and keep your answers, then open [[../Lenses/XLab Verification - v-hw-attestation|2.1 Hardware]] alongside it and compare the two ledgers line by line. For every judgment that changed, name the evidence or distinction from this section that changed it.
+
+#### Widget
+source:: [[../widgets/claim-ledger]]
+
+#### Text
+content::
 {>>{"author":"Elias's AI","timestamp":1788016104223}@@XLab's ClaimLedger recall mode reads the learner's stored answers back from the 2.1 widget. Lens cannot recall answers across lenses, so the seven claims are listed with a link back to the questions in v-hw-attestation.<<}
 
+:::callout {title="Open after you have classified" tone="neutral" collapse="closed"}
 A current attestation token may support device identity, certificate status, freshness, and selected state or configuration claims if those fields are measured and appraised. Depending on the product and design, it may support more.
 
 Attestation alone does not establish cumulative compute, workload class, declared cluster topology, absence of unregistered hardware, or legal authority to suspend. Those conclusions require additional measurement, aggregation, policy, and institutional components.
+:::
 
 #### Text
 content::

@@ -1,7 +1,7 @@
 ---
 id: 'd770ea1b-f91d-48a5-8b1b-609d37c52d90'
 title: Compute locations by datacenter size, January 2029
-summary_for_tutor: "An interactive reproduction of the AI 2040 verification supplement's opening figure, a treemap of where the world's AI compute sits on January 1, 2029 in the Plan A scenario. Every rectangle is one datacenter, drawn with the source chart's own geometry and shaded by owner (US, China, rest of world), grouped into six size bands from 10M+ H100e down to under 1K, plus compute in transit and AI and non-AI consumer compute. Pressing a band gives its datacenter count, total compute, share of world compute and the verification measure the plan applies to it (inference-only, reporting requirements, or cap and trade if unverified), and the per-region split of the datacenters drawn in that band, which the chart carries but the article's table does not. A region filter dims everything outside the US, China or the rest of the world. Done means the learner has opened all six datacenter size bands."
+summary_for_tutor: "An interactive reproduction of the AI 2040 verification supplement's opening figure, a treemap of where the world's AI compute sits on January 1, 2029 in the Plan A scenario. Every rectangle is one datacenter, drawn with the source chart's own geometry and shaded by owner (US, China, rest of world), grouped into six size bands from 10M+ H100e down to under 1K, plus compute in transit and AI and non-AI consumer compute. Pressing a band gives its datacenter count, total compute, share of world compute and the verification measure the plan applies to it (inference-only, reporting requirements, or cap and trade if unverified), and the per-region split of the datacenters drawn in that band, which the chart carries but the article's table does not. A region filter dims everything outside the US, China or the rest of the world. Done means the learner has opened all six datacenter size bands. The lesson page carries the figure caption, the H100e unit note and the three tables (size bands, other compute locations, region totals) as the text fallback, so the widget opens straight on the treemap with no title, lede or unit note of its own."
 height: auto
 tags: [wip]
 ---
@@ -14,19 +14,16 @@ tags: [wip]
 <!-- Ported from AI 2040 (ai-2040.com/supplements/verification-plan), chart "Compute locations by datacenter size, January 1, 2029" (AIDatacenters2029Hybrid component). -->
 <!-- Data: every rectangle below is the source page's own SVG geometry, parsed out of the rendered chart (viewBox 0 0 681 523.407). Region is taken from each rectangle's fill in that SVG (ink = US, dark red = China, diagonal hatch = rest of world); the per-band datacenter counts are the counts of those rectangles and reproduce the source's own band labels exactly (1, 74, 257, 497). Band labels, the compute and share strings, the three verification-measure brackets (their vertical extents at x = 484, 171.196 and 216.987 fix which bands each covers) and the region footer line are copied verbatim from the same SVG. Nothing is read by eye. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <style>
   :root {
     --bg: #ffffff; --text: #1a1a1a; --muted: #5a5a5a; --border: #e8e5df;
     --surface: #faf8f3; --accent: #b87018; --accent-hover: #9a5c10;
-    --font-ui: "DM Sans", Arial, sans-serif; --font-heading: "Newsreader", Georgia, serif;
+    --font-ui: "DM Sans", Arial, sans-serif;
   }
   * { box-sizing: border-box; }
   body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
-  h1, h2 { font-family: var(--font-heading); font-weight: 600; margin: 0; }
-  h1 { font-size: 22px; }
   h2 { font-size: 17px; }
-  .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0 0 4px; }
   .lede { color: var(--muted); margin: 4px 0 12px; max-width: 46rem; }
   .card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: #fff; }
   button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 6px 10px; cursor: pointer; }
@@ -59,14 +56,11 @@ tags: [wip]
   .legend .sq.row { background: repeating-linear-gradient(45deg, #1a1a1a 0 2px, #fff 2px 5px); }
   .status { font-size: 12px; color: var(--muted); margin-top: 8px; }
   .status.is-done { color: var(--text); font-weight: 500; }
-  .note { font-size: 12px; color: var(--muted); margin-top: 10px; }
   @media (max-width: 760px) { .layout { grid-template-columns: 1fr; } body { padding: 10px; } }
 </style>
 </head>
 <body>
-<p class="eyebrow">Interactive chart</p>
-<h1>Compute locations by datacenter size, January 1, 2029</h1>
-<p class="lede">Every rectangle is one datacenter, sized by its compute and shaded by whose it is. Press a band to read what it holds and which verification measure the plan applies to it, or filter to one region.</p>
+<p class="lede">Press a band to read what it holds and which verification measure the plan applies to it, or filter to one region.</p>
 
 <div class="card">
   <div class="rowctl" id="bands" role="group" aria-label="Compute locations"></div>
@@ -79,7 +73,6 @@ tags: [wip]
   </div>
   <div class="legend" id="legend"></div>
   <p class="status" id="status"></p>
-  <p class="note">Compute quantities are H100-equivalents (H100e). K is thousand, M is million. The scenario is not a forecast of exact locations, and the source says it is not confident in the modelling of this concentration in datacenter sizes.</p>
 </div>
 
 <script>

@@ -2,7 +2,7 @@
 id: '572be6c8-55e4-438d-8a5d-2d0dcf108cd9'
 title: "Optional: Further Exploration"
 tldr: "Develop your own success scenario, explore AI 2027, or follow the readings most relevant to your argument."
-summary_for_tutor: "Optional extensions, separate from completing Option A or B. Preserves the 500–800-word success-scenario essay, the AI 2027 reflection, six curated readings, and works cited. The success-scenario essay is revisited at the end of the track."
+summary_for_tutor: "Optional extensions, separate from completing Option A or B. Preserves the 500 to 800 word success-scenario essay, the AI 2027 reflection, six curated readings, and works cited. Between the AI 2027 reading card and the curated readings the page now carries four interactive charts rebuilt from the scenario's own figures, in the order the article uses them: METR time horizons, superhuman-coder arrival forecasts, Epoch inference prices at a fixed level of capability, and the takeoff milestones. Each chart is introduced by a short Text segment on the page that carries its title and framing sentences, including the authors' definitions of a superhuman coder and of takeoff; the widgets themselves hold only the controls, the chart, the per-item detail and the data sources. The success-scenario essay is revisited at the end of the track."
 duration_minutes: 40
 tags: [wip]
 add_to_ai_context:
