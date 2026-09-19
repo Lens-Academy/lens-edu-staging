@@ -1,7 +1,7 @@
 ---
 id: '08c51eef-41bb-490e-bfa7-f7f1addf2c80'
 title: Six verification layers by subgoal
-summary_for_tutor: "An interactive version of Figure 2 (and its per-section slices, Figures 5 to 7) of Baker et al. (2025), 'Verifying International Agreements on AI': a grid of six verification layers (on-chip security features; off-chip network taps; off-chip analog sensors; whistleblower programs; interviews of personnel; national intelligence activities) against the four verification subgoals (1A model and output histories, 1B evaluations, 2A compute accounting, 2B data center detection), each cell naming the mechanism that layer uses for that subgoal. The learner clicks a layer to read the paper's summary of the layer, its key advantages and key disadvantages (Tables 5, 7 and 8) alongside its mechanisms, or clicks a subgoal to read the paper's definition of that subgoal (Section 3.2) alongside the mechanisms that address it across layers. Done means the learner has opened all six layers."
+summary_for_tutor: "An interactive version of Figure 2 (and its per-section slices, Figures 5 to 7) of Baker et al. (2025), 'Verifying International Agreements on AI'. The widget itself is only the live grid: six verification layer rows (on-chip security features; off-chip network taps; off-chip analog sensors; whistleblower programs; interviews of personnel; national intelligence activities) against the four verification subgoal columns (1A model and output histories, 1B evaluations, 2A compute accounting, 2B data center detection), each cell naming the mechanism that layer uses for that subgoal. Clicking a layer row opens the paper's summary of that layer, its key advantages and key disadvantages (Tables 5, 7 and 8) and its mechanism for each subgoal; clicking a subgoal header opens the paper's Section 3.2 definition of that subgoal and the mechanism each layer offers for it. The row keeps a visible 'opened' mark and the status line counts them; done means all six layers have been opened. The page around the widget carries the framing prose: the two-subgoal decomposition, the paper's definition of a verification layer, and the Figure 2 caption sit in the lesson text immediately above it, and the four article excerpts of Sections 4.1 and 4.2 come before that."
 height: auto
 tags: [wip]
 ---
@@ -59,14 +59,12 @@ tags: [wip]
 </style>
 </head>
 <body>
-<section aria-labelledby="sl-title">
-  <p class="eyebrow">Baker et al. (2025), Figure 2</p>
-  <h1 id="sl-title">Verification layers consist of distinct mechanisms for each verification subgoal.</h1>
-  <p class="lede">Click a layer to read how the paper summarises it and what it trades off; click a subgoal to read what has to be verified and which mechanism each layer offers for it.</p>
+<section aria-label="Six verification layers by subgoal">
+  <p class="lede" id="sl-hint">Click a layer row or a subgoal header to open it.</p>
 
   <div class="grid-wrap"><div class="grid" id="grid" role="table"></div></div>
 
-  <div class="card detail" id="detail" aria-live="polite"></div>
+  <div class="card detail" id="detail" aria-live="polite" hidden></div>
 
   <div class="status" id="status"></div>
 </section>
@@ -84,8 +82,6 @@ tags: [wip]
     { id: "2B", name: "Data center detection:", goal: "Verify no large, undeclared uses of undeclared clusters exist",
       def: "Subgoal 2.B: Verify that there are no undeclared, large-scale AI compute clusters that could be used for violations. (Recall that we include large-scale, decentralized AI compute here (Section 2.2).) This subgoal can be further broken down into verifying there are no such AI compute clusters (2.B.1) as parts of known AI data centers, nor (2.B.2) as standalone clusters." }
   ];
-  var SUBGOAL_INTRO = "The framework decomposes this goal into two subgoals: (1) verify that declared uses of large-scale AI compute are compliant, and (2) verify that there are no undeclared uses of large-scale AI compute (i.e., declarations are complete).";
-
   // Layer rows: cells from Figure 2; name, summary, advantages, disadvantages from Tables 5, 7 and 8; notes from the captions of Figures 6 and 7.
   var GROUPS = [
     { label: "“On-chip” verification layer", layers: [0] },
@@ -130,8 +126,6 @@ tags: [wip]
       dis: "More adversarial, harder for third parties to verify, and unclear effectiveness.",
       note: "Each of these layers simply consists of a single mechanism applied to all subgoals." }
   ];
-  var LAYERS_INTRO = "To complete these subgoals, states could create six layers of verification: six largely independent assurances of compliance. Like “layers of defense,” a full implementation of each layer could verify compliance on its own, and multiple layers would reinforce each other. Thus, a stack of layers is an effective combination of verification mechanisms; it completes each subgoal with redundancy.";
-
   var state = { sel: null, seen: {} };
   var completed = false;
   var els = { grid: document.getElementById("grid"), detail: document.getElementById("detail"), status: document.getElementById("status") };
@@ -218,22 +212,22 @@ tags: [wip]
       var ul2 = el("ul");
       LAYERS.forEach(function (L) { ul2.appendChild(el("li", null, L.row + (L.sub ? " " + L.sub : "") + ": " + (L.cells.length === 1 ? L.cells[0] : L.cells[idx]))); });
       els.detail.appendChild(ul2);
-    } else {
-      els.detail.appendChild(el("p", "eyebrow", "Six layers, four subgoals"));
-      els.detail.appendChild(el("p", null, SUBGOAL_INTRO));
-      els.detail.appendChild(el("p", null, LAYERS_INTRO));
-      els.detail.appendChild(el("p", "note", "Nothing selected yet. Click a layer on the left or a subgoal along the top."));
     }
+    els.detail.hidden = !(t === "l" && LAYERS[idx]) && !(t === "s" && SUBGOALS[idx]);
   }
 
   function renderStatus() {
     els.status.textContent = "";
     var n = seenCount();
+    var hint = document.getElementById("sl-hint");
+    if (hint) hint.hidden = n >= LAYERS.length;
     els.status.appendChild(el("span", null, n + " of " + LAYERS.length + " layers opened"));
     if (n >= LAYERS.length) els.status.appendChild(el("span", "done", "✓ All six layers opened"));
-    var clear = el("button", null, "Clear selection");
-    clear.addEventListener("click", function () { state.sel = null; render(); save(); });
-    els.status.appendChild(clear);
+    if (state.sel) {
+      var clear = el("button", null, "Clear selection");
+      clear.addEventListener("click", function () { state.sel = null; render(); save(); });
+      els.status.appendChild(clear);
+    }
   }
 
   function select(id) {
