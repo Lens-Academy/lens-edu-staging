@@ -60,13 +60,13 @@ In this exercise, you will build a similar pipeline for frontier AI inspections,
 id:: 36895df0-f049-478c-807f-f3ca5c5c60af
 content:: **The finder.** In the nuclear regime: IAEA inspectors, and the safeguards analysis behind them, establish the facts and report them up.
 
-Who finds for AI — and what access would they need for their facts to hold up later?
+Who finds for AI, and what access would they need for their facts to hold up later?
 assessment-instructions:: Full credit when the learner names one or more candidate finders drawn from the module's evidence streams (chip attestation and logs, cloud records, national technical means, the human layer) and states that the finder's access must be agreed in advance so that findings survive a provenance challenge. Partial credit for naming a finder without addressing access. Do not require agreement with XLab's commentary.
 feedback-instructions:: Two or three sentences. Compare the answer with XLab's point: no single stream supplies facts that survive challenge on its own; the finder's access has to be agreed in advance or every finding arrives with a provenance fight attached.
 
 #### Question: Open
 id:: 7d214414-7419-4978-b560-27e224191462
-content:: **The judge.** In the nuclear regime: The Board of Governors decides whether the facts constitute noncompliance — a judgment, Carlson insists, not a checklist.
+content:: **The judge.** In the nuclear regime: The Board of Governors decides whether the facts constitute noncompliance: a judgment, Carlson insists, not a checklist.
 
 Who could hold Board-like standing for AI: legitimate enough that rivals accept its findings, independent enough that none of the captures you mapped in [[../Lenses/XLab Verification - v-human-reporting-protection|Audit the verifier]] owns it?{>>{"author":"Elias's AI","timestamp":1788016292046}@@XLab's prompt reads "none of 2.4.4's captures owns it"; the four captures (financial, informational, cultural, political) are actually taught in the institutions-judgment lab that XLab placed in 2.4.2, so the reference is resolved to that lens. Stale section number to report to XLab.<<}
 assessment-instructions:: Full credit when the learner proposes a concrete judging body (treaty conference, new agency, plurilateral council, or similar) and weighs its legitimacy against at least one capture channel (who funds it, who staffs it, who clears its reports). Partial credit for a candidate without the capture analysis.
@@ -76,7 +76,7 @@ feedback-instructions:: Two or three sentences. Note XLab's view that this is th
 id:: 28b10c14-79cc-4565-94ab-0ff402747fc3
 content:: **The enforcer.** In the nuclear regime: A noncompliance finding must be reported to the Security Council, where enforcement lives.
 
-What plays the Security Council’s part for AI — and what would enforcement actually deny a violator?
+What plays the Security Council’s part for AI, and what would enforcement actually deny a violator?
 assessment-instructions:: Full credit when the learner names an enforcing coalition or body and identifies a concrete denial lever (chips, cloud capacity, interconnect, or another supply-chain chokepoint). Partial credit for naming a body without a lever. Bonus consideration if the learner notes that likely violators may sit inside the enforcing coalition.
 feedback-instructions:: Two or three sentences. Offer XLab's observation: there is no Security Council of compute, but the supply chain narrows to a handful of chokepoints, so denial is enforcement a coalition can deliver; the strain is that the likeliest violators sit inside the coalition that would have to act.
 
@@ -95,23 +95,21 @@ assessment-instructions:: Full credit when the learner names one station and giv
 feedback-instructions:: Two sentences. Acknowledge the pick and offer the strain XLab identifies for that station from the commentary below.
 
 #### Text
-content::
 :::callout {title="Commentary: The finder (open after you have answered)" tone="neutral" collapse="closed"}
-AI has candidate finders — module 2’s evidence streams: chip attestation and logs, cloud records, national technical means, and the human layer this section closed on. What none of them supplies alone is facts that survive challenge: the finder’s access has to be agreed in advance, or every finding arrives with a provenance fight attached.
+AI has candidate finders, module 2’s evidence streams: chip attestation and logs, cloud records, national technical means, and the human layer this section closed on. What none of them supplies alone is facts that survive challenge: the finder’s access has to be agreed in advance, or every finding arrives with a provenance fight attached.
 :::
 
 :::callout {title="Commentary: The judge (open after you have answered)" tone="neutral" collapse="closed"}
-This is the station with no tenant. The IAEA Board’s standing took a treaty, a statute and decades of cases; nothing with comparable legitimacy exists for AI, and every candidate — a treaty conference, a new agency, a plurilateral council — trades legitimacy against capture along exactly the lines this section mapped: who funds it, who staffs it, who clears its reports.
+This is the station with no tenant. The IAEA Board’s standing took a treaty, a statute and decades of cases; nothing with comparable legitimacy exists for AI, and every candidate (a treaty conference, a new agency, a plurilateral council) trades legitimacy against capture along exactly the lines this section mapped: who funds it, who staffs it, who clears its reports.
 :::
 
 :::callout {title="Commentary: The enforcer (open after you have answered)" tone="neutral" collapse="closed"}
-There is no Security Council of compute, but AI’s enforcement lever may be more usable than sanctions ever were: the supply chain narrows to a handful of chokepoints, and denial — of chips, of cloud capacity, of interconnect — is enforcement a coalition can actually deliver. The strain is the same as the UNSC’s: the likeliest violators sit inside the coalition that would have to act.
+There is no Security Council of compute, but AI’s enforcement lever may be more usable than sanctions ever were: the supply chain narrows to a handful of chokepoints, and denial (of chips, of cloud capacity, of interconnect) is enforcement a coalition can actually deliver. The strain is the same as the UNSC’s: the likeliest violators sit inside the coalition that would have to act.
 :::
 
 :::callout {title="Commentary: The standard (open after you have answered)" tone="neutral" collapse="closed"}
-Carlson’s closing argument transfers whole: a regime that decides case by case, with no announced standard, spends credibility on every decision. Whatever sentence you wrote, the test it must pass is the one his five cases failed — would two rivals, reading it in advance, predict the same verdict on the same facts?
+Carlson’s closing argument transfers whole: a regime that decides case by case, with no announced standard, spends credibility on every decision. Whatever sentence you wrote, the test it must pass is the one his five cases failed: would two rivals, reading it in advance, predict the same verdict on the same facts?
 :::
-
 #### Question: Open
 id:: 96ee4f8c-1ad4-4b29-904b-5168cddeaf2d
 content:: Carlson argues the system’s credibility rides on consistency. In no more than 50 words: what one guideline would you bind your AI board to before its first case?
