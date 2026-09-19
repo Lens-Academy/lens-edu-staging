@@ -314,36 +314,6 @@ content::
 
 #### Text
 content::
-\#### The Collection Map (collection-map)
-
-**Decision: widget.** A seven-tile grid in two families that the learner opens one at a time, with an open/close detail panel and an explored-tiles mark; prose callouts cannot track what was explored or show one discipline against the grid.
-
-**Target lens:** [[../Lenses/XLab Verification - v-intel-signatures]]
-
-**Where it goes:** after "Those are the signatures. The disciplines below are the ways a watcher picks them up", the last paragraph of the "How we see traces" Text segment
-
-**What it replaces:** the next Text segment ("\### The collection map", the lede, the two bold family labels "Collects language" / "Collects physics", and seven collapsed callouts OSINT through MASINT). It should go entirely: the widget carries every sentence of it, and keeping both doubles the reading. The lens's `summary_for_tutor` then needs its "rendered as collapsed callouts" phrase changed to point at the widget.
-
-**In XLab:** `<VerificationExercise id="collection-map" />` in intelligence-signatures.mdx, core, not inside a Fold, under "## How we see traces"
-
-**Learner time:** 5 minutes
-
-Sees seven discipline tiles (glyph, abbreviation, name) in two rows labelled "Collects language" (OSINT, HUMINT, SIGINT, CYBER) and "Collects physics" (IMINT, GEOINT, MASINT). Clicking a tile opens a panel with what the discipline is, "Picks up" and "Characteristic limit"; clicking the same tile again or the close button closes it. Opened tiles get a "✓ Opened" mark and a counter reads "n of 7 disciplines opened"; at seven it turns to "✓ All 7 disciplines opened" and the widget calls `Lens.complete()`.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-- All copy (title, lede, family labels, legend, the two panel labels, and every discipline's name, what, seen, limit) is verbatim from `xlab-tracks/src/lib/verification/data/collection-map.ts` (HEAD). Seven em dashes in that file were replaced with a colon, a comma or parentheses (OSINT limit, HUMINT what, SIGINT what, CYBER seen, IMINT limit, GEOINT what, MASINT what). A script compared all 42 XLab strings against the widget with only those swaps allowed: 0 mismatches.
-- Glyphs are the seven inline SVG paths from `xlab-tracks/src/components/verification/widgets/collection-map.tsx`, rebuilt with `createElementNS`.
-- Added beyond XLab: the "✓ Opened" mark, the "n of 7 disciplines opened" counter, and the close button (XLab closes only by re-clicking the tile). These are state indicators, not curriculum.
-- Completion: XLab's component never calls `onComplete` (registry entry `bridged: false`), so there is no XLab finish condition to mirror. The widget calls `Lens.complete()` once all seven tiles have been opened. Drop that call if the orchestrator wants strict parity; nothing else depends on it.
-- CYBER wording: the Lens callout today says "MIRI's draft names it inside national technical means, at item 17 of Article II's definitions." XLab's data says "MIRI's Definition 17 names it inside national technical means." The widget keeps XLab's sentence per the fidelity rule; if the Lens rewrite was a deliberate correction, edit that one string in the widget.
-- State: `{opened: [ids], openId}`; restore re-marks opened tiles and reopens the panel that was open. Standalone fallback uses `localStorage` key `lens-widget-collection-map`.
-:::
-
-#### Widget
-source:: [[../widgets/collection-map]]
-
-#### Text
-content::
 \## Part 2 · Week 8: The human layer
 
 Module file: [[../modules/XLab Verification Part 2 W08 The human layer]]
