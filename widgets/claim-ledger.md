@@ -45,8 +45,7 @@ tags: [wip]
   .recorded { margin: 0; color: var(--muted); }
   .recorded.is-blank { font-style: italic; }
   .recorded .tick { color: var(--accent); margin-right: 4px; }
-  .foot { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border); display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
-  .note { margin: 0; color: var(--muted); font-size: 12px; }
+  .foot { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border); display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
   button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
   button.primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
   .status { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 500; }
@@ -219,7 +218,6 @@ tags: [wip]
       back.addEventListener("click", reopen);
       footEl.appendChild(back);
     } else {
-      footEl.appendChild(el("p", "note", "Keep your answers. You will return to them at the end of the section."));
       var kb = el("button", "primary", "Keep your answers");
       kb.type = "button";
       kb.id = "keep";

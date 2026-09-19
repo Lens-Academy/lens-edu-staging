@@ -396,7 +396,7 @@ feedback-instructions:: Go reader by reader: name each of their questions that t
 content::
 The keys. Open the one for the report you worked, after you have delivered, and not before.
 
-:::callout {title="Key: Claude Opus 4.7 System Card (fictional teaching document)" tone="neutral" collapse="closed"}
+:::callout {title="Key, open after you deliver: Claude Opus 4.7 System Card (fictional teaching document)" tone="neutral" collapse="closed"}
 **Core clippings and their distillations**
 
 - *Exec. Summary, p. 2 (verdict-bearing).* “We judge that Opus 4.7 does not advance our capability frontier, because Claude Mythos Preview shows higher results on every relevant evaluation. Our overall conclusion under our Responsible Scaling Policy is therefore that catastrophic risks remain low.” Why: the whole release decision hangs on this one move, and the safe baseline is a model the public can’t see. Distilled: The reassuring headline, “does not advance the capability frontier”, only holds because they are grading against Claude Mythos, a bigger model they have not shipped. The safe bound is an unreleased, more dangerous system. That is the frog slowly boiling: every release is “basically the last one,” measured against something scarier you are not allowed to see.
@@ -456,7 +456,7 @@ The keys. Open the one for the report you worked, after you have delivered, and 
 - **Mara Solberg, FLI AI Safety Index analyst.** Grades labs on their own public documents. Needs the lab’s statements verbatim, set against its commitments. Knows: has the lab’s RSP and its previous system cards on file; the index is scored against exactly these documents. Asks: What is the lab’s own stated bottom line on misalignment risk, in its own words? (Risk “very low, but higher than for models prior to Claude Mythos Preview”, a verbatim line the index can quote and score.) Does the card disclose any incident of the model actively working around a safety control? (Two: a ~70-exchange effort to defeat the safety classifier, and a hand-crafted command built to bypass a git safety check.)
 :::
 
-:::callout {title="Key: Frontier AI Trends Report (UK AI Security Institute, 2025)" tone="neutral" collapse="closed"}
+:::callout {title="Key, open after you deliver: Frontier AI Trends Report (UK AI Security Institute, 2025)" tone="neutral" collapse="closed"}
 **Core clippings and their distillations**
 
 - *Exec. summary, p. 1 (verdict-bearing).* “AI capabilities are improving rapidly across all tested domains. Performance in some areas is doubling every eight months, and expert baselines are being surpassed rapidly.” Why: the headline trend claim of the whole report, and the sentence every ministerial brief will be built on. Distilled: Across every domain AISI tests, capability is climbing fast. On several suites performance doubles roughly every eight months, and PhD-level expert baselines have already fallen. The frontier is moving on a months-long clock, not a years-long one.
@@ -489,7 +489,7 @@ The keys. Open the one for the report you worked, after you have delivered, and 
 - **Tom Whitfield, technology correspondent.** Needs the concrete, quotable milestone and the number that carries the headline. Knows: has AISI’s press release and the “5 key findings” blog post. Asks: What is the concrete, quotable capability milestone? (The first tested model to complete expert-level cyber tasks that normally take a human more than ten years of experience.) How close behind are the open models? (Four to eight months behind the closed frontier, by external measures.)
 :::
 
-:::callout {title="Key: IAEA Safeguards Report on Iran, GOV/2026/8" tone="neutral" collapse="closed"}
+:::callout {title="Key, open after you deliver: IAEA Safeguards Report on Iran, GOV/2026/8" tone="neutral" collapse="closed"}
 **Core clippings and their distillations**
 
 - *para. 19 (surprising).* “it had observed, through the analysis of commercially-available satellite imagery, regular vehicular activity around the entrance to the tunnel complex at Isfahan in which UF6 enriched up to 20% and 60% U-235 for four of Iran’s declared nuclear facilities … was stored.” Why: the Agency citing commercial satellite imagery in a safeguards report, about the building where the most sensitive material sits. Distilled: The Agency is now citing commercial satellite imagery in a safeguards report: regular vehicle traffic at the Isfahan tunnel entrance where the 20% and 60% UF6 for four declared facilities is stored. It has asked to verify those tunnels as soon as possible. Imagery can flag activity; only access can characterise it.
