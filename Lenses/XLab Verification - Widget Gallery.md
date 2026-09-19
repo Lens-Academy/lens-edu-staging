@@ -57,25 +57,27 @@ Relay edits that touched an inline reviewer comment or human-written prose lande
 
 #### Text
 content::
-\## Build candidates from the embedded readings (not built, need a go)
+\## Built from the embedded readings (2026-09-19, after the owner's go)
 
-A read-only survey of the figures in the seven embedded papers, ranked by what a widget would add over the static figure or table:
+Widget where interaction adds something over the figure, image otherwise:
 
-1. Wasil et al., Verification methods: Fig 6 plus Fig 5 and Table 1 as one explorer, 12 methods filterable by detection target, access requirement, hardware dependency and R&D maturity, limitations and complements on select. Medium.
-2. Baker et al., Six layers: Fig 2 as a six layers by four subgoals matrix, click a cell for the mechanism and its tradeoffs, toggle layers to see coverage collapse. Medium.
-3. Scher et al., International agreement: Tables 1 and 2 plus Fig 2 as a cluster-size and FLOP-threshold explorer, time to threshold recomputed live, domestic and international mechanisms side by side. Medium.
-4. Cankaya, System overview: the sampling tables as an audit-confidence calculator (sample count, flaw rate, prover share, proof cost). Small.
-5. Heim et al., Governing through the cloud: Tables 3 and 4 as an observable-signal explorer. Medium.
-
-Smaller options: O'Gara Fig 7 landmark-delay chip locator, O'Gara Fig 8 license forgery check, Scher Fig 3 Pareto registration curve, Cankaya protocol step-through. Egan and Heim's KYC figure is a schematic, nothing to port.
+- Wasil et al.: wasil-method-explorer (ten methods, four attributes, R&D maturity, Table 1 limitations and complements) on v-intel-signatures.
+- Baker et al.: the existing six-layers-grid on v-hw-where-trust-lives extended with layer toggles, coverage tiles and Table 2 requirements.
+- Scher et al.: scher-threshold-explorer (Tables 1 and 2 plus the Figure 2 model ladder, thresholds and cluster size as inputs) on v-paper-scher-treaty and v-intel-signatures. Figure 3 stays an image: the paper gives no Pareto parameters.
+- Cankaya: cankaya-audit-calculator (Appendix A1 formula, reproduces all three tables) on v-covert-system-overview.
+- Heim et al.: heim-signal-explorer (Tables 3 and 4) on v-cloud; figures 1, 10 to 13 restored from the arXiv SVGs.
+- O'Gara et al.: ogara-chip-locator on v-hw-accounting, ogara-license-check on v-hw-authorization.
+- Egan and Heim: schematic only, image.
 
 #### Text
 content::
 \## Follow-ups
 
-- Heim article: nine broken figures (captions with no image, four panels that render the same PNG as Fig 4), tracked on the Asana task about its duplicated attachments.
+- Heim article: figures 5 to 8 exist only as trim-crops of Figure 4 in the LaTeX source; arXiv ships them uncropped, so they were removed rather than shown five times. Cropped attachments would need hosting. The paper also prints Figures 1 and 2 twice; the second Figure 2 removal is a pending suggestion.
+- Scher article: Tables 1 and 2 render raw LaTeX in every cell (bullet macros, `$10^{2}$` notation); needs a cleanup pass.
+- Wasil paper inconsistencies a learner will notice next to the explorer: the Figure 6 caption says twelve methods over a ten-row figure, the caption's asterisk notes do not match the grid, and data center inspections lack the country-authorisation mark the text implies.
+- AI 2040 article: the bullet timeline now matches the chart (the source has only the chart); the prose still says the 2 percent pilot clusters come online by September while the chart says November.
 - Unused alternative widget files still under widgets/: policy-quick-check, policy-on-paper, same-claim.
-- AI 2040 article: the bullet timeline disagrees with the deal timeline chart on three dates (retrofit 50 percent, 95 percent, first post-deal release); the caption line under the two chip declaration tables is byte-identical at both, which blocks single-line anchors.
 - Platform: no cross-lens widget state, so the ClaimLedger return point opens blank; four control exploration widgets never call complete because they have no commit.
 - Portfolio allocation (control): stacking the three regimes made the widget about 2500px tall at 880px; bring a scenario switcher back if that is too much.
 
