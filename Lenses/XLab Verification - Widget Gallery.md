@@ -13,26 +13,6 @@ This page collects every interactive built for Compute Verification Parts 1 and 
 
 #### Text
 content::
-\## Part 1 · Week 5: Hardware verification
-
-Module file: [[../modules/XLab Verification P1 W5 Hardware verification]]
-
-#### Text
-content::
-\### Lens: [[../Lenses/XLab Verification - v-hw-attestation]]
-
-#### Text
-content::
-\## Part 2 · Week 7: Cloud limits and intelligence
-
-Module file: [[../modules/XLab Verification Part 2 W07 Cloud limits and intelligence]]
-
-#### Text
-content::
-\### Lens: [[../Lenses/XLab Verification - v-cloud-evidence]]
-
-#### Text
-content::
 \## Part 2 · Week 8: The human layer
 
 Module file: [[../modules/XLab Verification Part 2 W08 The human layer]]
@@ -526,68 +506,6 @@ n/a. Both tables already carry the content, and the interactive treatment lives 
 
 #### Text
 content::
-\#### Verification Plan Timeline, 2026 to 2036+ (verificationTimeline)
-
-**Decision: nothing to port.** It is a phase strip, not an exercise: seven numbered milestones laid on a year axis inside three labelled phases. There is nothing for a learner to do that reading the article's own Phase 1 / Phase 2 / Phase 3 paragraphs and its year headings does not already do, and the one interactive timeline in this article (ai-2040-deal-timeline) already covers the dense 2029 to 2031 middle at much higher resolution.
-
-**Target lens:** [[../Lenses/XLab Verification - v-intuitions-plan-a]]
-
-**Where it goes:** would have gone after `**Phase 3. Improve robustness.** Over time the US and China improve the stability and durability of the verification regime...` (article line 78), at the end of the "Summary of the Plan" section. Inside the lens's first Article range.
-
-**What it replaces:** nothing. This figure was dropped silently in the import: unlike the other twelve charts it left behind no table, no prose paragraph and no image link. See the recommendation below.
-
-**In XLab:** not an XLab exercise. Source is the AI 2040 verification supplement, `verificationTimeline` at source MDX line 17, core body text, not inside a Fold.
-
-**Learner time:** 0
-
-Nothing; no widget was built.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-Verbatim content of the lost figure, from the rendered `work/ai2040/svg-phases.svg`: an axis running 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036+, with seven numbered markers, 1 "Chip tracking", 2 "Verification R&D funding", 3 "Mutual Chip Declaration", 4 "Inference-only retrofit", 5 "R&D verification", 6 "Hardware cap & trade", 7 "Verification improvements", grouped under three spans, "Phase 1: Preparing / 2026-2028", "Phase 2: Implementing / 2029-2030", "Phase 3: Improving / 2031-2036+". The figure's own title is "Verification Plan Timeline - ai-2040.com".
-
-Recommendation for the article, not for a widget: because this is the reading's only compact map of the whole plan and nothing replaced it, add a three-row table under the Phase 3 paragraph using exactly those strings, for example Phase / Years / Milestones with "Phase 1: Preparing | 2026-2028 | Chip tracking; Verification R&D funding", "Phase 2: Implementing | 2029-2030 | Mutual Chip Declaration; Inference-only retrofit; R&D verification", "Phase 3: Improving | 2031-2036+ | Hardware cap & trade; Verification improvements". The milestone-to-phase assignment above is read from the marker x positions against the phase spans in the same SVG, not guessed.
-
-Also worth flagging: this figure and the detailed deal timeline disagree on two dates. The phase strip puts "R&D restarts + total research transparency" at "From August 2029" and "First new frontier release" at "June 2030"; the detailed chart's events JSON has R&D resuming 2029-11-01 and the first release 2030-06-16, and the article's bullet list says Nov to Dec 2029 and Jul 2030. Both source charts are the source's own, so this is an inconsistency in the source, not in the port.
-:::
-
-:::callout {title="Proposed native segments" tone="neutral" collapse="closed"}
-Field names are written `key: :` so this page parses; join the colons when pasting.
-
-n/a. The gap is editorial (a missing table), not an exercise.
-:::
-
-#### Text
-content::
-\#### Research titration approaches (ResearchTitrationApproaches)
-
-**Decision: nothing to port.** The chart places four regulatory approaches on a diagonal from easy-and-inaccurate to hard-and-accurate, and the article's four-row table already carries every one of its strings: the approach names, their bodies, their ease and accuracy ranks and the two suggested years. The x and y coordinates behind the diagonal are illustrative layout, not measurements, so an interactive version would invent precision the source does not have.
-
-**Target lens:** [[../Lenses/XLab Verification - v-intuitions-plan-a]]
-
-**Where it goes:** n/a. Had one been built it would have gone after `*Table adaptation of the source chart, which places the four approaches on a diagonal from easy and inaccurate to hard and accurate...` (article line 489), inside the collapsed callout "Research Titration: How to control the speed of R&D progress?" (lines 469 to 497).
-
-**What it replaces:** nothing. The four-row table at article lines 491 to 496 stays exactly as it is.
-
-**In XLab:** not an XLab exercise. Source is the AI 2040 verification supplement, `ResearchTitrationApproaches` at source MDX line 407, inside a collapsed detail box.
-
-**Learner time:** 0
-
-Nothing; no widget was built.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-Checked against the component (`work/ai2040/lazy-titration.js`) and the rendered `svg-titration.svg`. The four points are: "Safety case burden of proof" at (0.1, 0.93), year "~2035"; "Quality ad-hoc rules" at (0.35, 0.75), no year; "Human-interpretable requirement" at (0.62, 0.5), no year; "Compute caps" at (0.87, 0.2), year "~2030". Axis labels are "Ease of Implementation / How little regulatory competence is required" running Hard to Easy, and "Regulatory Accuracy / How well the approach tracks the correct research speed" running Low to High, with an arrow labelled "Suggested progression".
-
-Two small things the article's table smooths over and which the caption should probably carry: the axis directions are reversed from the usual reading (the ease axis runs Hard on the left to Easy on the right), and the source's arrow is labelled "Suggested progression" rather than by date, so the table's "before safety cases" and "after compute caps" entries in the Suggested timing column are the article editor's rendering of the arrow, not source strings. The source itself only labels "~2030" on compute caps and "~2035" on safety cases.
-:::
-
-:::callout {title="Proposed native segments" tone="neutral" collapse="closed"}
-Field names are written `key: :` so this page parses; join the colons when pasting.
-
-n/a. The table already carries the content; no Lens segment is needed.
-:::
-
-#### Text
-content::
 \#### AI 2027: Epoch LLM inference price chart (ai-2027-inference-prices)
 
 **Decision: widget.** Epoch publishes the exact table behind the figure (119 rows, CC-BY, with fitted values), and an interactive version adds hover values, a benchmark and threshold selector for the 21 series the PNG shows only as three highlighted lines plus grey ghosts, and the yearly decline factor per threshold.
@@ -706,50 +624,6 @@ source:: [[../widgets/ai-2027-takeoff]]
 
 #### Text
 content::
-\#### AI 2027: neuralese figure from Hao et al. 2024 (ai-2027-hao2024)
-
-**Decision: nothing to port.** The image is the architecture diagram from Hao et al. (Meta, Dec 2024, arXiv 2412.06769) showing language-mode versus latent-mode reasoning; it is a schematic with no underlying dataset, so there is nothing to make interactive.
-
-**Target lens:** [[../Lenses/XLab Verification - v-intuitions-success]] (reading card links to ai-2027.com, not to the article)
-
-**Where it goes:** article line 286, `![](https://ai-2027.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhao2024-nowatermark-inexpandable.664af12c.png&w=3840&q=75)`, followed by the caption "Figure from [Hao et al.](https://arxiv.org/pdf/2412.06769), a 2024 paper from Meta implementing this idea."
-
-**What it replaces:** nothing; keep the image and its caption as they are
-
-**In XLab:** n/a (imported reading, not an XLab exercise); XLab links to the live site from an optional ReadingCard in intuitions.mdx
-
-**Learner time:** 0 minutes
-
-Nothing beyond reading: the figure illustrates the "neuralese" section (passing the residual stream back into early layers instead of writing tokens). On ai-2027.com it is also a static PNG.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-No data. Source of the figure: Hao et al., "Training Large Language Models to Reason in a Continuous Latent Space" (arXiv 2412.06769), reproduced by ai-2027.com. Article context read from `articles/ai-2027.md` lines 270 to 300.
-:::
-
-#### Text
-content::
-\#### AI 2027: IDA visualization from Ord 2025 (ai-2027-ida)
-
-**Decision: nothing to port.** The image is Toby Ord's conceptual diagram of iterated distillation and amplification (amplify M0 into Amp(M0), distill into M1, repeat); it encodes a process, not data, so a widget would only redraw the arrows.
-
-**Target lens:** [[../Lenses/XLab Verification - v-intuitions-success]] (reading card links to ai-2027.com, not to the article)
-
-**Where it goes:** article line 309, `![](https://ai-2027.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fida-nowatermark-inexpandable.9da7d0c6.png&w=3840&q=75) _Visualization of IDA from [Ord, 2025](https://www.tobyord.com/writing/inference-scaling-reshapes-ai-governance)._`
-
-**What it replaces:** nothing; keep the image and its caption as they are
-
-**In XLab:** n/a (imported reading, not an XLab exercise); XLab links to the live site from an optional ReadingCard in intuitions.mdx
-
-**Learner time:** 0 minutes
-
-Nothing beyond reading: the figure sits under the two-step definition of IDA (amplification, distillation) and before the AlphaGo analogy. On ai-2027.com it is also a static PNG.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-No data. Source: Toby Ord, "Inference Scaling Reshapes AI Governance" (tobyord.com, 2025), reproduced by ai-2027.com. Article context read from `articles/ai-2027.md` lines 300 to 318. The two numbered definitions next to the image are already the text form of what the diagram shows, so nothing is lost by leaving it static.
-:::
-
-#### Text
-content::
 \#### Figures in "Verifying International Agreements on AI: Six Layers of Verification" (Baker et al. 2025)
 
 **Decision: ?.** 
@@ -794,24 +668,3 @@ content::
 content::
 \## Evaluated but not placed
 
-#### Text
-content::
-\#### Drill Bench: Evidence Streams (drills-supply-chain)
-
-**Decision: nothing to port.** It never belonged to units 3.1.1 or 3.2: `git log a10955c -S'drills-supply-chain' -- src/content/lessons` (which covers the unreachable lineage that `--all` misses) finds it only in the pre-rewrite standalone lesson v-drills-supply-chain.mdx (e3af6f7d, removed 314fe98a) and in human-institutions.mdx (added bdd7b677, removed 54808acc). No revision of covert-red-blue.mdx or covert-taxonomy.mdx embeds any `<VerificationExercise>`; notes/covert-history.md's line that 3.2 embedded drills-supply-chain and drills-primers at 4d65c389 does not hold (that revision's covert-red-blue.mdx contains neither string).
-
-**Target lens:** none in this assignment
-
-**Where it goes:** n/a
-
-**What it replaces:** nothing
-
-**In XLab:** orphaned at HEAD (widget + data at src/components/verification/widgets/drills-supply-chain.tsx and src/lib/verification/data/drills-supply-chain.ts, a DrillDeckView deck; registry title "Drill Bench: Evidence Streams" at cbd2f3ee); not embedded by any current lesson
-
-**Learner time:** n/a
-
-Not evaluated here beyond identification: it is a drill deck (pick, multi, number and text steps with reveals) on evidence streams, the same kit as drills-primers, which is already ported. If the W08 agent or Elias wants it, the drills-primers port is the template and the data file is complete at HEAD.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-Nothing built. Historical trace only, from the XLab clone at HEAD 93847c7 with a10955c and its lineage resolvable from the pack.
-:::

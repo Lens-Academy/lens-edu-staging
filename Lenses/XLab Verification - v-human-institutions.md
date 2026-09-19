@@ -122,10 +122,11 @@ feedback-instructions:: One or two sentences. Say whether the guideline would pr
 content::
 \## The Standard of Proof
 
-:::callout {title="Optional: The Standard of Proof (15 minutes)" tone="neutral" collapse="closed"}
-**Allegation.** Meridian Compute ran a training run above the agreement’s compute ceiling at its Delta campus in the third quarter.
+Optional, about 15 minutes. Every question in this exercise is optional.
 
-One allegation. Four dockets — the evidence in front of an institution, and the institution holding it.
+**The allegation, over every docket.** Meridian Compute ran a training run above the agreement’s compute ceiling at its Delta campus in the third quarter.
+
+One allegation. Four dockets: the evidence in front of an institution, and the institution holding it.
 
 For each docket, choose the institution’s next move. Then defend it:
 
@@ -133,133 +134,10 @@ For each docket, choose the institution’s next move. Then defend it:
 - what it does not establish;
 - whether this institution can defend the move you chose.
 
-Use about 60–90 words per docket. Every question in this exercise is optional.
-:::
+Use about 60 to 90 words per docket. Once all four dockets carry a move and a defence, submitting reveals the pattern behind them and the marking key you use to score yourself.
 
-\### Docket A: The lone report
-
-**The institution:** The treaty’s verification directorate holds the docket. Its access rights, funding and staffing are not in question.
-
-**The evidence:**
-
-- A former Meridian scheduling engineer reports that Delta’s main cluster ran one uninterrupted job for six weeks of the third quarter.
-- The report came through the treaty’s protected channel and is internally consistent.
-- Nothing else has been collected.
-
-#### Question: Choice
-id:: 559e55c9-f3a7-4277-af8b-afcf652f075b
-optional:: true
-content:: Next move for docket A
-options::
-- Record and keep collecting
-- Open a formal investigation
-- Issue a compliance judgment
-- Refer for enforcement
-feedback-instructions:: Ungraded on purpose: there is no marked key here, and the written defence that follows is what is assessed. Acknowledge the move in one line without saying whether it is right, and send the learner to the defence. Do not name a correct move, do not compare this docket with the others, and do not preview the grid the closing callouts reveal.
-
-#### Question: Open
-id:: 5e22cf8b-1db2-4d3d-b12d-2eb5afbefd9f
-optional:: true
-content:: Defend your move for docket A: what the docket establishes and what kind of evidence does that work; what it does not establish; whether this institution can defend the move you chose. (60 to 90 words)
-assessment-instructions:: Full credit when the learner treats the single uncorroborated insider report as grounds to record and keep collecting or, at most, to open an investigation, and says explicitly that one consistent report through a protected channel does not establish the run. Deduct heavily for a compliance judgment or referral on this docket. The institution is sound, so the analysis should rest on evidence weight.
-feedback-instructions:: Two or three sentences. Ask the learner whether the move matched what the docket's evidence currently supports.
-
-\### Docket B: The converging docket
-
-**The institution:** The same directorate, on the same footing.
-
-**The evidence:**
-
-- The engineer’s report from docket A.
-- Customs records show Meridian imported accelerators well above its declared inventory in the second quarter.
-- Grid-operator telemetry puts Delta’s power draw far above the level its declaration supports, for the same six weeks.
-- Meridian declined the quarter’s scheduled managed-access visit and offered no alternative means.
-
-#### Question: Choice
-id:: 26e738d7-17e8-488a-9a8c-40cf6365ad43
-optional:: true
-content:: Next move for docket B
-options::
-- Record and keep collecting
-- Open a formal investigation
-- Issue a compliance judgment
-- Refer for enforcement
-feedback-instructions:: Ungraded on purpose: there is no marked key here, and the written defence that follows is what is assessed. Acknowledge the move in one line without saying whether it is right, and send the learner to the defence. Do not name a correct move, do not compare this docket with the others, and do not preview the grid the closing callouts reveal.
-
-#### Question: Open
-id:: aaf500b4-5b4d-4ded-89b9-e02d23c10f0c
-optional:: true
-content:: Defend your move for docket B: what the docket establishes and what kind of evidence does that work; what it does not establish; whether this institution can defend the move you chose. (60 to 90 words)
-assessment-instructions:: Full credit when the learner recognises that independent streams (insider report, customs records, grid telemetry, refused managed access) converge and that a sound institution can defend at least a formal investigation and a compliance finding on the refused access duty, while noting that the workload itself is still not directly observed. Deduct for treating refusal alone as proof of the run.
-feedback-instructions:: Two or three sentences. Ask whether the learner separated the access breach, which is established, from the prohibited run, which is inferred.
-
-\### Docket C: The channelled docket
-
-**The institution:** The directorate has no access rights at Delta. Everything it knows arrives through one channel: an audit Meridian commissioned itself, delivered as a summary with the underlying records withheld.
-
-**The evidence:**
-
-- The commissioned audit concludes that no ceiling-relevant run took place.
-- A facilities contractor’s tip contradicts the audit. It is uncorroborated.
-- The directorate’s requests for the audit’s working papers have gone unanswered.
-
-#### Question: Choice
-id:: b6bc43a0-cd9d-487b-8606-bbf2e6dcc5be
-optional:: true
-content:: Next move for docket C
-options::
-- Record and keep collecting
-- Open a formal investigation
-- Issue a compliance judgment
-- Refer for enforcement
-feedback-instructions:: Ungraded on purpose: there is no marked key here, and the written defence that follows is what is assessed. Acknowledge the move in one line without saying whether it is right, and send the learner to the defence. Do not name a correct move, do not compare this docket with the others, and do not preview the grid the closing callouts reveal.
-
-#### Question: Open
-id:: e92ca08e-2de2-4e2c-ba38-9f7f4f4bcc87
-optional:: true
-content:: Defend your move for docket C: what the docket establishes and what kind of evidence does that work; what it does not establish; whether this institution can defend the move you chose. (60 to 90 words)
-assessment-instructions:: Full credit when the learner identifies the institution, not the evidence, as the weak part (no access rights, a single auditee-controlled channel, withheld working papers) and proposes a move that repairs access or the channel rather than reweighing the audit against the tip. Deduct for a compliance judgment in either direction on this docket.
-feedback-instructions:: Two or three sentences. Ask: where the institution was the weak part, did the move repair the institution rather than reweigh the evidence?
-
-\### Docket D: The compromised panel
-
-**The institution:** The panel that must issue any judgment is funded through the industry association Meridian chairs, and two of its five members are on leave from Meridian’s suppliers.
-
-**The evidence:**
-
-- Telemetry, procurement records and two independent insider reports all point the same way.
-- Meridian has cooperated with every access request.
-
-#### Question: Choice
-id:: 5ec43724-b689-44a3-9ae4-1a5345b67496
-optional:: true
-content:: Next move for docket D
-options::
-- Record and keep collecting
-- Open a formal investigation
-- Issue a compliance judgment
-- Refer for enforcement
-feedback-instructions:: Ungraded on purpose: there is no marked key here, and the written defence that follows is what is assessed. Acknowledge the move in one line without saying whether it is right, and send the learner to the defence. Do not name a correct move, do not compare this docket with the others, and do not preview the grid the closing callouts reveal.
-
-#### Question: Open
-id:: f0a7ff29-3986-447d-a94c-6aef848d50fc
-optional:: true
-content:: Defend your move for docket D: what the docket establishes and what kind of evidence does that work; what it does not establish; whether this institution can defend the move you chose. (60 to 90 words)
-assessment-instructions:: Full credit when the learner sees that the evidence is strong but the panel is captured (financial and staffing ties to Meridian) and that any judgment it issues would not be defensible; the move should repair the institution (recusal, reconstitution, independent review) before judging or referring. Deduct for issuing the judgment through this panel as it stands.
-feedback-instructions:: Two or three sentences. Ask which capture channel the learner named and whether their move removes it.
-
-#### Text
-content::
-:::callout {title="Self-check (open after you have answered)" tone="neutral" collapse="closed"}
-For each docket, compare your answer against two questions:
-
-1. Did the move you chose match what that docket’s evidence currently supports?
-2. Where the institution was the weak part, did your move repair the institution rather than reweigh the evidence?
-:::
-
-:::callout {title="The grid (open after you have answered)" tone="neutral" collapse="closed"}
-The four dockets were a 2×2 you were never shown: evidence weight on one axis, institutional soundness on the other. A and B varied the evidence under a sound institution; C and D varied the institution.
-:::
+#### Widget
+source:: [[../widgets/standard-of-proof]]
 
 #### Question: Open
 id:: 26979154-9be9-4014-ad46-135a353e5f67
