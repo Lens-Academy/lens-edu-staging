@@ -60,7 +60,7 @@ tags: [wip]
 <body>
 <p class="eyebrow">Exercise</p>
 <h1>Four Levers, One Each</h1>
-<p class="lede" id="lede"></p>
+<p class="lede">One chip per card; using a chip again moves it.</p>
 
 <ol class="levers" id="levers" aria-label="Whistleblower mechanisms"></ol>
 
@@ -114,8 +114,6 @@ tags: [wip]
       chip: "Escalation as professional conduct"
     }
   ];
-
-  var LEVERS_LEAD = "The sources you have read so far describe four main buckets of mechanisms to protect whistleblowers. Map each mechanism to its main mode of leverage: whether it appeals to personal incentives, places a duty on the AI developer, appeals to upholding professional conduct, or utilizes legal remedies.";
 
   // Seeded shuffle, ported from XLab's src/lib/shuffle.ts (FNV-1a seed, mulberry32, Fisher-Yates).
   // The chip order is a function of the exercise id, never of the row, so no row is solvable on the diagonal.
@@ -239,7 +237,6 @@ tags: [wip]
   var leversEl = document.getElementById("levers");
   var statusEl = document.getElementById("status");
   var actionsEl = document.getElementById("actions");
-  document.getElementById("lede").textContent = LEVERS_LEAD;
 
   function el(tag, cls, text) {
     var node = document.createElement(tag);
@@ -291,8 +288,9 @@ tags: [wip]
       leversEl.appendChild(li);
     });
 
+    var matched = LEVERS.filter(function (l) { return placed[l.id] === l.id; }).length;
     statusEl.textContent = committed
-      ? "Each row now carries what the course says it changes."
+      ? matched + " of " + LEVERS.length + " matched. Each row now carries what the course says it changes."
       : isDone()
         ? "All four placed, commit to see what each one changes."
         : placedCount() + " of " + LEVERS.length + " placed.";
