@@ -10,7 +10,7 @@ duration_minutes: 75
 content::
 You can think about maximizing the positive impact of a policy by evaluating it along two axes: effectiveness and feasibility. Say your goal was to reduce carbon emissions. An immediate global ban on fossil fuel extraction would eradicate emissions overnight, but is all but completely unenforceable. No economy could withstand the shock; no major emitter would comply. On the other hand, voluntary self-reported emission pledges are easy to agree with, precisely because they are impossible to enforce. Any country and company could happily sign while continuing to emit. In other words, a policy that is effective but unfeasible is bad; a policy that is feasible but ineffective is also bad.
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1789826044702}@@Text
 content::
 \## Everything comes with a cost.
 
@@ -32,8 +32,8 @@ feedback-instructions:: Ungraded personal exercise. Check only that Side A names
 id:: 85f95777-151c-4619-8557-3bc3a52cee49
 content:: Naming the price: how easy was it?
 options::
-- Almost instant
-- Took some thought
+- Almost instant--}{++{"author":"Elias's AI","timestamp":1789826044702}@@Widget++}
+{--{"author":"Elias's AI","timestamp":1789826044702}@@- Took some thought
 - Genuinely hard
 optional:: true
 feedback-instructions:: Reply with XLab's line for the option chosen, verbatim, and nothing else. Almost instant: "The cost was there all along; it just isn't the half we practice saying out loud." Took some thought: "Conviction keeps the goal in sharp focus and the price in the blur." Genuinely hard: "When a policy feels cost-free, its costs usually land on someone outside our view, or no one has looked yet."
@@ -46,7 +46,7 @@ content::
 - **Genuinely hard:** When a policy feels cost-free, its costs usually land on someone outside our view, or no one has looked yet.
 
 The question is never just *what do we want to accomplish?* It is *what are we willing to compromise to get it?*
-:::{>>{"author":"Elias's AI","timestamp":1788016006832}@@Native reproduction of XLab's policy-cost flip card (src/lib/verification/data/policy-cost.ts). The widget stores nothing and gates nothing, so both prompts are optional.<<}
+:::{>>{"author":"Elias's AI","timestamp":1788016006832}@@Native reproduction of XLab's policy-cost flip card (src/lib/verification/data/policy-cost.ts). The widget stores nothing and gates nothing, so both prompts are optional.<<}--}{++{"author":"Elias's AI","timestamp":1789826044702}@@source:: [[../widgets/policy-cost]]++}
 
 #### Text
 content::
@@ -156,15 +156,15 @@ Binding agreement to stop or hard-cap frontier development, bilateral or broadly
 **Historical parallel: Nuclear test moratoria and the CTBT.** The US and USSR halted testing by parallel moratorium in 1958, resumed, then progressively banned it (Partial Test Ban 1963, CTBT 1996), backed by a global seismic monitoring network that makes cheating detectable. The apt part: a verified halt of an activity, not a surrender of weapons. The cautionary part: the CTBT never formally entered into force because key states, including the US and China, never ratified.
 :::
 
-\### The sort
+{--{"author":"Elias's AI","timestamp":1789826045250}@@\### The sort
 
 Always think about policy in terms of tradeoffs: price them, don’t pick favorites.
 
-#### Question: Open
+--}####{--{"author":"Elias's AI","timestamp":1789826045250}@@ Question: Open
 id:: ec436b24-4b82-4a3f-b079-a37edc4c4aef
 content:: Place each of the eleven policy buckets on the plane. For every bucket, give its feasibility rung (Off the table, Long shot, Heavy lift, Within reach, Already happening) and its effectiveness rung (Symbolic, Marginal, Meaningful, Strong, Decisive), one line per bucket.
-assessment-instructions:: Grade against XLab's reference cells (feasibility / effectiveness): 1 Self-governance: Already happening / Symbolic. 2 Unilateral restraint: Heavy lift / Marginal. 3 Uncoordinated domestic regulation: Within reach / Marginal. 4 Transparency and information-sharing: Within reach / Marginal. 5 Joint emergency preparedness: Long shot / Symbolic. 6 Knowledge and benefit transfers: Within reach / Symbolic. 7 Compute controls: Within reach / Meaningful. 8 Binding international regulation: Long shot / Strong. 9 Nonproliferation regime: Long shot / Strong. 10 International joint development: Long shot / Decisive. 11 Coordinated halt: Off the table / Decisive. A placement is on the mark when both rungs match, close when each rung is within one step of the reference, off otherwise. Score: on the mark 9 points each, close 5, off 0, scaled to 100. The corners are settled and the middle band is genuinely contestable, so give close placements in the middle band full credit when the learner states a reason.{>>{"author":"Elias's AI","timestamp":1788357029572}@@Course-creator note: the 9/5/0 score and the middle-band leniency are Lens-authored; XLab's widget only labels each placement on the mark, close or off. The 'map, not a memo' sentence in the stakeholder-map question is also Lens-authored, not XLab's.<<}
-feedback-instructions:: For each bucket that was off or close, first say which direction the reference has it (more gettable or harder to get, stronger or weaker than the learner placed it), then give XLab's one-line rationale. For buckets on the mark, give the rationale in one line. The rationales: 1 "The status quo: already happening, costs nothing, binds no one, and race dynamics run straight over a promise with no enforcement." 2 "One capital can decide it alone, which is why it is not lower. But surrendering the frontier while rivals race is a heavy political lift, and reciprocity you cannot check is a bet Biopreparat shows how to lose." 3 "States license industries all the time, no diplomacy required. But national rules stop at the border, and development migrates to the most permissive jurisdiction." 4 "Watching is an easier ask than stopping, and it restrains nothing by itself. Its real value is the disclosure infrastructure every stronger bucket stands on." 5 "Deterrence is not its job: it detects and responds once something has already gone wrong, alongside any other bucket. And historically the machinery gets built right after the first disaster, not before it." 6 "Alone it deters nothing: transfers are the side payments that make the restrictive buckets signable. The double edge: the goods that persuade are often the goods that proliferate." 7 "Chokepoints this concentrated make supply-side control genuinely enforceable, enough to add years to a cheater's timeline, not to stop the race. Export controls are the part already happening; chip tracking and hardware mechanisms are the build." 8 "The CWC is the existence proof that a mostly-civilian industry can live under routine international inspection, and between today's rivals, an AI version is a genuine long shot, not merely a heavy lift." 9 "Judged against expectations the regime mostly held, at the price of a permanent two-tier grievance, and with an exit door North Korea used. For AI, who qualifies as a licensed developer is the fight before the treaty." 10 "Pooling among rivals is proven; the monopoly-with-prohibition strand died with the Baruch Plan, because no leader's rival accepts permanent second place. If confinement held, though, little would escape it." 11 "The strongest instrument on the board and the hardest to get: every major power must stop, and trust that rivals actually stopped. Which is exactly why this track studies verification against it." No praise.
+assessment-instructions:: Grade against XLab's reference cells (feasibility / effectiveness): 1 Self-governance: Already happening / Symbolic. 2 Unilateral restraint: Heavy lift / Marginal. 3 Uncoordinated domestic regulation: Within reach / Marginal. 4 Transparency and information-sharing: Within reach / Marginal. 5 Joint emergency preparedness: Long shot / Symbolic. 6 Knowledge and benefit transfers: Within reach / Symbolic. 7 Compute controls: Within reach / Meaningful. 8 Binding international regulation: Long shot / Strong. 9 Nonproliferation regime: Long shot / Strong. 10 International joint development: Long shot / Decisive. 11 Coordinated halt: Off the table / Decisive. A placement is on the mark when both rungs match, close when each rung is within one step of the reference, off otherwise. Score: on the mark 9 points each, close 5, off 0, scaled to 100. The corners are settled and the middle band is genuinely contestable, so give close placements in the middle band full credit when the learner states a reason.{>>{"author":"Elias's AI","timestamp":1788357029572}@@Course-creator note: the 9/5/0 score and the middle-band leniency are Lens-authored; XLab's widget only labels each placement on the mark, close or off. The 'map, not a memo' sentence in the stakeholder-map question is also Lens-authored, not XLab's.<<}--}{++{"author":"Elias's AI","timestamp":1789826045250}@@ Widget++}
+{--{"author":"Elias's AI","timestamp":1789826045250}@@feedback-instructions:: For each bucket that was off or close, first say which direction the reference has it (more gettable or harder to get, stronger or weaker than the learner placed it), then give XLab's one-line rationale. For buckets on the mark, give the rationale in one line. The rationales: 1 "The status quo: already happening, costs nothing, binds no one, and race dynamics run straight over a promise with no enforcement." 2 "One capital can decide it alone, which is why it is not lower. But surrendering the frontier while rivals race is a heavy political lift, and reciprocity you cannot check is a bet Biopreparat shows how to lose." 3 "States license industries all the time, no diplomacy required. But national rules stop at the border, and development migrates to the most permissive jurisdiction." 4 "Watching is an easier ask than stopping, and it restrains nothing by itself. Its real value is the disclosure infrastructure every stronger bucket stands on." 5 "Deterrence is not its job: it detects and responds once something has already gone wrong, alongside any other bucket. And historically the machinery gets built right after the first disaster, not before it." 6 "Alone it deters nothing: transfers are the side payments that make the restrictive buckets signable. The double edge: the goods that persuade are often the goods that proliferate." 7 "Chokepoints this concentrated make supply-side control genuinely enforceable, enough to add years to a cheater's timeline, not to stop the race. Export controls are the part already happening; chip tracking and hardware mechanisms are the build." 8 "The CWC is the existence proof that a mostly-civilian industry can live under routine international inspection, and between today's rivals, an AI version is a genuine long shot, not merely a heavy lift." 9 "Judged against expectations the regime mostly held, at the price of a permanent two-tier grievance, and with an exit door North Korea used. For AI, who qualifies as a licensed developer is the fight before the treaty." 10 "Pooling among rivals is proven; the monopoly-with-prohibition strand died with the Baruch Plan, because no leader's rival accepts permanent second place. If confinement held, though, little would escape it." 11 "The strongest instrument on the board and the hardest to get: every major power must stop, and trust that rivals actually stopped. Which is exactly why this track studies verification against it." No praise.--}{++{"author":"Elias's AI","timestamp":1789826045250}@@source:: [[../widgets/policy-scoping]]++}
 
 #### Text
 content::
@@ -186,7 +186,7 @@ content::
 Two reference thresholds worth carrying: EU AI Act Art. 51 presumes systemic risk above 10²⁵ training FLOP; the rescinded EO 14110 used 10²⁶ as its reporting trigger. The corners of this plane are settled; the middle band is genuinely contestable.
 :::
 
-\### The one exception
+{--{"author":"Elias's AI","timestamp":1789826045940}@@\### The one exception
 
 Ordinary balancing weighs effectiveness against feasibility. **Securitization** breaks the scale: if ASI development is an existential threat, nothing can be traded against survival. Accept that framing, and one bucket becomes the **design target for verification mechanisms**. Which?
 
@@ -218,7 +218,7 @@ content::
 **Self-governance (status quo).** If you truly accept the existential framing, “trust me” is the one answer ruled out from the start. Verification exists to replace it with “check me.”
 :::{>>{"author":"Elias's AI","timestamp":1788016104215}@@Native reproduction of XLab's policy-scoping widget (src/lib/verification/data/policy-scoping.ts): the two scales, the eleven bucket cards with historical parallels, the 5x5 sort (as an Open question graded against the reference cells), the reference map, and the securitization exception. XLab's log notes the reference cells and rung scales are builder-authored apparatus awaiting owner review.<<}
 
-#### Text
+--}#### Text
 content::
 **Design for the hardest case.** Verification strong enough to support a full pause (chip registries, compute metering, inspection rights) supports every weaker bucket for free. The reverse is not true. That is why this track studies verification against the pause, even if what gets signed first is transparency.
 
