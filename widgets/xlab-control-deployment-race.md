@@ -21,8 +21,6 @@ tags: []
 }
 *{box-sizing:border-box}
 body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
-h2{font-family:var(--font-heading);font-weight:600;margin:0 0 4px;font-size:17px}
-.eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
 .desc{color:var(--muted);margin:0 0 14px}
 .ctl label{display:flex;justify-content:space-between;gap:12px;font-size:13px}
 .ctl label .name{color:var(--muted)}
@@ -32,16 +30,13 @@ svg{width:100%;height:auto;display:block;margin-top:10px}
 .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;border:1px solid var(--border);border-radius:8px;background:var(--page);padding:12px;text-align:center;margin-top:12px}
 .stats .k{font-size:11px;color:var(--muted);margin:0}
 .stats .v{font-weight:600;font-variant-numeric:tabular-nums;margin:2px 0 0}
-.odds{font-size:13px;color:var(--muted);margin:12px 0 0}
 .legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--muted);margin-top:6px}
 .legend span i{display:inline-block;width:14px;height:2px;vertical-align:middle;margin-right:5px}
 @media (max-width:420px){ .stats{grid-template-columns:1fr} }
 </style>
 </head>
 <body>
-<p class="eyebrow">Trusted monitoring, per attempt</p>
-<h2>Safety over a deployment</h2>
-<p class="desc">Each attack attempt ends one of three ways. It is audited and the protocol shuts down (blue wins), it slips through as a working backdoor (red wins), or it is a broken backdoor nobody audits and the game continues. Only the first two are decisive, so a whole deployment is settled by the first decisive attempt. Drag the number of attempts.</p>
+<p class="desc">Drag the number of attack attempts.</p>
 
 <div class="ctl">
   <label for="k"><span class="name">Attack attempts (k)</span><span class="val" id="kV">2</span></label>
@@ -60,8 +55,6 @@ svg{width:100%;height:auto;display:block;margin-top:10px}
   <div><p class="k">Term B = 1-(1-s-c)^k</p><p class="v" id="sB">-</p></div>
   <div><p class="k">P(red wins)</p><p class="v" id="sP">-</p></div>
 </div>
-
-<p class="odds">Odds are the paper's own, read off its contingency table for trusted monitoring: of 71 backdoor attempts, 24 were audited, so c = 24/71 = 0.338; 13 were working backdoors that were not audited, so s = 13/71 = 0.183; the remaining 34 failed harmlessly. The paper's red team backdoors about twenty of the 5,000 problems.</p>
 
 <script>
 "use strict";

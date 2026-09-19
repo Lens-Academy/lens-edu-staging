@@ -26,8 +26,6 @@ tags: []
 }
 *{box-sizing:border-box}
 body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
-h2{font-family:var(--font-heading);font-weight:600;margin:0 0 4px;font-size:17px}
-.eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
 .desc{color:var(--muted);margin:0 0 14px}
 .ctl{margin:0 0 12px}
 .ctl label{display:flex;justify-content:space-between;gap:12px;font-size:13px}
@@ -50,9 +48,7 @@ button.is-active{border-color:var(--text);box-shadow:0 0 0 1px var(--text)}
 </style>
 </head>
 <body>
-<p class="eyebrow">Figure 3, live</p>
-<h2>The upfront-auditing tradeoff</h2>
-<p class="desc">The protocol audits the first &alpha; share of 5,000 problems. On each problem the attack policy inserts an obvious backdoor with probability p, and a backdoor only wins if the underlying solution was already correct (53% of the time). Move &alpha; and watch what an optimising red team does about it.</p>
+<p class="desc">Move &alpha; and watch what an optimising red team does about it.</p>
 
 <div class="ctl">
   <label for="alpha"><span class="name">Auditing proportion (&alpha;)</span><span class="val" id="alphaV">2.00%</span></label>
@@ -76,8 +72,6 @@ button.is-active{border-color:var(--text);box-shadow:0 0 0 1px var(--text)}
   <div><p class="k">Blue team win</p><p class="v" id="sWin">-</p></div>
 </div>
 
-<p class="note" style="margin-top:18px">Everything above is Figure 3. What follows goes past it: the paper reports only the optimising red team, so to see <em>why</em> p* is where it is, take the attack rate off its optimum yourself.</p>
-
 <div class="ctl">
   <label for="prate"><span class="name">Attack rate p (drag off the optimum)</span><span class="val" id="prateV">-</span></label>
   <input type="range" id="prate" min="0" max="1000" step="1" value="500" aria-label="Attack rate">
@@ -85,8 +79,6 @@ button.is-active{border-color:var(--text);box-shadow:0 0 0 1px var(--text)}
   <p class="plotlabel" style="margin-top:10px">Red team win probability against p, at this &alpha;</p>
   <svg id="p3" viewBox="0 0 320 150" role="img" aria-label="Red team win probability against attack rate"></svg>
 </div>
-
-<p class="note">At &alpha; = 2% the model returns the paper's own numbers: a blue team win probability of about 15%, from roughly six expected backdoor attempts across the deployment.</p>
 
 <script>
 "use strict";

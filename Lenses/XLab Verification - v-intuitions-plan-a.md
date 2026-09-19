@@ -10,7 +10,7 @@ add_to_ai_context:
 ---
 #### Text
 content::
-Below are three excerpts from [AI 2040: Verification Plan](https://ai-2040.com/supplements/verification-plan), the verification supplement to Plan A: the plan's summary, the concrete inference-only retrofit, and the 2029–2030 implementation sequence, including third-party participation. The main Plan A scenario is not part of this reading.
+Below are three excerpts from AI 2040's verification supplement: the plan's summary, the concrete inference-only retrofit, and the 2029–2030 implementation sequence, including third-party participation.
 
 - **Option A:** Read these sections closely before writing your essay.
 - **Option B:** Skim these sections, then read the Plan S discussion and FAQ in Option B.

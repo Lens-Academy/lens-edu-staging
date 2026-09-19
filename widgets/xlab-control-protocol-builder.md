@@ -23,7 +23,6 @@ tags: []
 body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
 h2{font-family:var(--font-heading);font-weight:600;margin:0 0 4px;font-size:17px}
 p{margin:0 0 10px}
-.eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
 .tabs{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
 button{font:inherit;color:inherit;border:1px solid var(--border);border-radius:8px;background:#fff;padding:7px 10px;cursor:pointer;text-align:left}
 button:hover{background:var(--page)}
@@ -58,9 +57,7 @@ button.is-active{border-color:var(--text);box-shadow:0 0 0 1px var(--text)}
 </style>
 </head>
 <body>
-<p class="eyebrow">Table 2, rebuilt</p>
-<h2 id="ttl">Build the blue-team protocols</h2>
-<p class="desc" id="intro">Every protocol in the paper answers the same question about an incoming programming problem: who writes the code, who rates it, and what happens in each suspicion band. Pick the steps, then the branch, then one outcome per branch arm.</p>
+<p class="desc" id="intro">Pick the steps, then the branch, then one outcome per branch arm.</p>
 <div class="tabs" id="tabs"></div>
 <div class="card" id="panel"></div>
 <script>
