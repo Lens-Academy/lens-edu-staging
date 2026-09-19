@@ -1,6 +1,6 @@
 ---
 id: 'b70db51f-a981-4675-93c9-ac224ccfae3e'
-title: "Read Plan A: Verification Regime"
+title: "Read Plan A's Verification Plan"
 tldr: "Read the mechanisms and implementation sequence before judging Plan A's verification regime."
 summary_for_tutor: "Read the mechanisms and implementation sequence before judging Plan A's verification regime. Preserve the source framing and respond to the learner's reasoning. Four charts from the source supplement are placed in the reading, each directly under the article text it belongs to: a treemap of where the world's AI compute sits on January 1, 2029, after the three tables of size bands, other compute locations and region totals; the 2029 to 2031 deal implementation timeline, after the eleven-bullet timeline list; the assurance curves for N_ver = 100, 10K and 10M audited packets, after the collapsed box on verification approaches whose table it makes interactive; and the rogue internal deployment detection chart, after the collapsed workload verification box whose table it makes interactive. The captions and tables stay in the article as the text fallback, so every number is on the page in words; the charts add the readouts, the region and series filters and the year and packet size sliders that the static tables cannot give. The two interactive charts that sit under a collapsed box each have a one-line lead-in on the page naming them."
 duration_minutes: 45
@@ -10,7 +10,7 @@ add_to_ai_context:
 ---
 #### Text
 content::
-For both options, focus on the plan's summary, concrete inference-only retrofit, and 2029–2030 implementation sequence, including third-party participation.
+Below are three excerpts from [AI 2040: Verification Plan](https://ai-2040.com/supplements/verification-plan), the verification supplement to Plan A: the plan's summary, the concrete inference-only retrofit, and the 2029–2030 implementation sequence, including third-party participation. The main Plan A scenario is not part of this reading.
 
 - **Option A:** Read these sections closely before writing your essay.
 - **Option B:** Skim these sections, then read the Plan S discussion and FAQ in Option B.

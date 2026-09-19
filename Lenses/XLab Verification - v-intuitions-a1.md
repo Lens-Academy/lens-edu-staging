@@ -13,7 +13,7 @@ content::
 **Choose Option A or Option B.** If you choose this option, complete all five parts below.
 The first four responses develop the arguments for your final essay; keep them in view as you write.
 
-Use [[../Lenses/XLab Verification - v-intuitions-plan-a|the embedded Plan A reading]] throughout this exercise.
+Use [[../Lenses/XLab Verification - v-intuitions-plan-a|the embedded verification supplement excerpts]] throughout this exercise.
 
 #### Text
 content::
