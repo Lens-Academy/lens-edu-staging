@@ -1,7 +1,7 @@
 ---
 id: '510a663d-f425-41aa-b648-af0b5f2db322'
 title: Build the inspection order
-summary_for_tutor: "XLab's Build the inspection order lab (Project Lattice: a declared data center reports no training run above the treaty threshold while power and procurement records show a six-week expansion under the same project code). The learner works through ten decisions in four phases (Purpose: independent audit, routine inspection, challenge inspection; Access ceiling: black-box, gray-box, deep access; Mandate: scope and rights, preservation and protection, delay or refusal; Managed access: alternative access). Each decision offers four lines in a seeded order; the learner selects one and commits it. A wrong line shows Not supported by this record with a retry hint and the learner chooses again; the supported line shows an explanation and a source link (Wasil et al., Brundage et al., OPCW Verification Annex Part X) and unlocks the next decision. After the tenth decision the learner assembles the completed file: the Inspection order and bounded finding, listing the ten finding lines by phase. The widget is complete when the file is assembled; the first commit on each decision is scored. The saved summary reports the current decision, the committed line, and which decisions needed unsupported commits."
+summary_for_tutor: "XLab's Build the inspection order drill: ten commit-then-reveal decisions in four phases (Purpose: independent audit, routine inspection, challenge inspection; Access ceiling: black-box, gray-box, deep access; Mandate: scope and rights, preservation and protection, delay or refusal; Managed access: alternative access). The case file (Project Lattice: a declared data center reports no training run above the treaty threshold while independently obtained power and procurement records show a six-week expansion under the same project code) and the brief sit on the page in the callout above the widget, and the assembled Inspection order and bounded finding with its ten finding lines is in the callout below it, so the widget itself is only the decisions. Each decision offers four lines in a seeded order; the learner selects one and commits it. An unsupported line is marked on that line with the retry hint and can be answered again; the supported line is marked on the line with the explanation and a source link (Wasil et al., Brundage et al., OPCW Verification Annex Part X) and unlocks the next decision. The first commit on each decision is scored. The widget is complete when the tenth decision is committed with the supported line. The saved summary reports the current decision, the committed line, and which decisions needed unsupported commits."
 height: auto
 tags: [wip]
 ---
@@ -13,6 +13,7 @@ tags: [wip]
 <title>Build the inspection order</title>
 <!-- Ported from XLab Tracks (github.com/XLabTracks/tracks), Verification track widget "human-audits-inspections". -->
 <!-- Shared engine: XLab's human-policy-decision-lab (src/components/verification/widgets/human-policy-decision-lab.tsx) with the AUDITS_INSPECTIONS_LAB data from src/lib/verification/data/human-policy-labs.ts inlined below. -->
+<!-- The case file, the brief and the assembled finding list live on the lens page around this widget; only the ten decisions are here. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <style>
@@ -22,32 +23,19 @@ tags: [wip]
     --font-ui: "DM Sans", Arial, sans-serif; --font-heading: "Newsreader", Georgia, serif;
   }
   * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
   body { margin: 0; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
   .lab { border: 1px solid var(--border); border-radius: 8px; background: #fff; overflow: hidden; }
   .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0; }
-  .eyebrow.accent { color: var(--accent); }
-  h1, h2 { font-family: var(--font-heading); font-weight: 600; margin: 0; }
-  h1 { font-size: 26px; line-height: 1.15; margin-top: 8px; }
-  h2 { font-size: 20px; line-height: 1.25; margin-top: 8px; }
-  .lede { color: var(--muted); margin: 8px 0 0; max-width: 46rem; }
-  .lab-head { padding: 20px; border-bottom: 1px solid var(--border); }
-  .rail { list-style: none; margin: 16px 0 0; padding: 0; display: grid; gap: 8px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  @media (min-width: 720px) { .rail { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
-  .rail li {
-    border: 1px solid var(--border); border-radius: 6px; padding: 6px 8px; text-align: center;
-    font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted);
-  }
-  .rail li.is-done { background: var(--surface); color: var(--text); }
-  .rail li.is-current { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); color: var(--accent); font-weight: 600; }
-  .case { padding: 20px; background: var(--surface); border-bottom: 1px solid var(--border); }
-  .case p.body { color: var(--muted); margin: 8px 0 0; max-width: 46rem; }
+  h2 { font-family: var(--font-heading); font-weight: 600; font-size: 20px; line-height: 1.25; margin: 8px 0 0; }
   .decision { padding: 20px; }
   .context { border: 1px solid var(--border); background: var(--surface); border-radius: 8px; padding: 12px 14px; color: var(--muted); margin: 14px 0 0; }
   .choices { display: grid; gap: 8px; margin-top: 18px; }
+  .crow { border: 1px solid var(--border); border-radius: 8px; background: #fff; }
   .choice {
     font: inherit; color: inherit; text-align: left; cursor: pointer;
     display: flex; gap: 12px; align-items: flex-start;
-    border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 10px 14px; width: 100%;
+    border: 0; background: none; border-radius: 8px; padding: 10px 14px; width: 100%;
   }
   .choice:hover { background: var(--surface); }
   .choice:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
@@ -56,24 +44,21 @@ tags: [wip]
     border: 1px solid var(--border); display: inline-flex; align-items: center; justify-content: center;
     font-size: 12px; font-weight: 600; color: var(--muted);
   }
-  .choice.is-selected { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
-  .choice.is-selected .mark { border-color: var(--accent); background: var(--accent); color: #fff; }
-  .choice.is-supported { border-color: var(--text); box-shadow: 0 0 0 1px var(--text); background: var(--surface); }
-  .choice.is-supported .mark { border-color: var(--text); background: var(--text); color: #fff; }
-  .choice.is-unsupported { border-style: dashed; border-color: var(--accent-hover); box-shadow: none; }
-  .choice.is-unsupported .mark { background: #fff; color: var(--accent-hover); border-color: var(--accent-hover); text-decoration: line-through; }
-  .choice.is-dim { opacity: 0.55; }
-  .choice.is-locked { cursor: default; }
-  .choice.is-locked:hover { background: #fff; }
-  .choice.is-locked.is-supported:hover { background: var(--surface); }
-  .verdict { margin-top: 16px; border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; }
-  .verdict.miss { border-style: dashed; border-color: var(--accent-hover); }
-  .verdict.hit { background: var(--surface); border-color: var(--text); }
-  .verdict .title { margin: 0; font-weight: 600; }
-  .verdict.miss .title { color: var(--accent-hover); }
-  .verdict .body { margin: 4px 0 0; color: var(--muted); }
-  .verdict a { display: inline-block; margin-top: 8px; font-size: 12px; font-weight: 500; color: var(--accent); text-underline-offset: 3px; }
-  .verdict a:hover { color: var(--accent-hover); }
+  .crow.is-selected { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+  .crow.is-selected .mark { border-color: var(--accent); background: var(--accent); color: #fff; }
+  .crow.is-supported { border-color: var(--text); box-shadow: 0 0 0 1px var(--text); background: var(--surface); }
+  .crow.is-supported .mark { border-color: var(--text); background: var(--text); color: #fff; }
+  .crow.is-unsupported { border-style: dashed; border-color: var(--accent-hover); box-shadow: none; }
+  .crow.is-unsupported .mark { background: #fff; color: var(--accent-hover); border-color: var(--accent-hover); text-decoration: line-through; }
+  .crow.is-dim { opacity: 0.55; }
+  .crow.is-locked .choice { cursor: default; }
+  .crow.is-locked .choice:hover { background: none; }
+  .note { margin: 0; padding: 2px 14px 12px 50px; color: var(--muted); }
+  .note p { margin: 0; }
+  .note .verdict { font-weight: 600; color: var(--text); }
+  .crow.is-unsupported .note .verdict { color: var(--accent-hover); }
+  .note a { display: inline-block; margin-top: 6px; font-size: 12px; font-weight: 500; color: var(--accent); text-underline-offset: 3px; }
+  .note a:hover { color: var(--accent-hover); }
   .actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 20px; }
   button.action {
     font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff;
@@ -84,61 +69,27 @@ tags: [wip]
   button.action.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
   button.action.primary:hover:not(:disabled) { background: var(--accent-hover); }
   button.action:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
-  .done { padding: 20px; }
-  .file { display: grid; gap: 12px; margin-top: 20px; }
-  .file section { border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; }
-  .file ul { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 8px; }
-  .file li { display: flex; gap: 8px; }
-  .file li .tick { flex: 0 0 auto; color: var(--accent); font-weight: 600; }
+  .done { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--border); }
+  .done p { margin: 0; color: var(--muted); max-width: 40rem; }
   .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 </style>
 </head>
 <body>
-<section class="lab" aria-labelledby="lab-title">
-  <header class="lab-head">
-    <p class="eyebrow" id="lab-eyebrow"></p>
-    <h1 id="lab-title"></h1>
-    <p class="lede" id="lab-instruction"></p>
-    <ol class="rail" id="rail" aria-label="Decision-file progress"></ol>
-  </header>
+<section class="lab" aria-label="Build the inspection order">
+  <section class="decision" aria-live="polite">
+    <p class="eyebrow" id="step-label"></p>
+    <h2 id="step-prompt"></h2>
+    <p class="context" id="step-context" hidden></p>
+    <div class="choices" id="choices" role="radiogroup"></div>
 
-  <div id="step-view">
-    <section class="case">
-      <p class="eyebrow accent">Case file</p>
-      <h2 id="case-title"></h2>
-      <p class="body" id="case-body"></p>
-    </section>
+    <div class="actions" id="actions">
+      <button type="button" class="action primary" id="commit">Commit line</button>
+      <button type="button" class="action primary" id="next" hidden>Next decision &rarr;</button>
+    </div>
 
-    <section class="decision" aria-live="polite">
-      <p class="eyebrow" id="step-label"></p>
-      <h2 id="step-prompt"></h2>
-      <p class="context" id="step-context" hidden></p>
-      <div class="choices" id="choices" role="radiogroup"></div>
-
-      <div class="verdict miss" id="miss" hidden>
-        <p class="title">Not supported by this record.</p>
-        <p class="body" id="miss-body"></p>
-      </div>
-      <div class="verdict hit" id="hit" hidden>
-        <p class="title">&#10003; Added to the file</p>
-        <p class="body" id="hit-body"></p>
-        <a id="hit-source" href="#" target="_blank" rel="noopener"></a>
-      </div>
-
-      <div class="actions">
-        <button type="button" class="action primary" id="commit">Commit line</button>
-        <button type="button" class="action primary" id="next" hidden>Next decision &rarr;</button>
-      </div>
-    </section>
-  </div>
-
-  <section class="done" id="done-view" hidden>
-    <p class="eyebrow accent">Completed file</p>
-    <h2 id="artifact-title"></h2>
-    <p class="lede" id="artifact-intro"></p>
-    <div class="file" id="file"></div>
-    <div class="actions">
-      <button type="button" class="action" id="rebuild">&#8635; Rebuild file</button>
+    <div class="done" id="done" hidden>
+      <p id="done-line"></p>
+      <button type="button" class="action" id="rebuild">&#8635; Start over</button>
     </div>
   </section>
 </section>
@@ -513,7 +464,6 @@ tags: [wip]
   function shuffledChoices(step) {
     return seededPermutation(LAB.id + ":" + step.id, step.choices.length).map(function (i) { return step.choices[i]; });
   }
-
   var state = { stepIndex: 0, answerId: "", answerState: null, finished: false, misses: {}, submitted: {} };
   var completedOnce = false;
 
@@ -524,16 +474,11 @@ tags: [wip]
     return n;
   }
   function current() { return STEPS[state.stepIndex]; }
-  function phaseIndexOf(step) {
-    for (var i = 0; i < LAB.phases.length; i++) {
-      for (var j = 0; j < LAB.phases[i].steps.length; j++) if (LAB.phases[i].steps[j].id === step.id) return i;
-    }
-    return 0;
-  }
   function choiceById(step, id) {
     for (var i = 0; i < step.choices.length; i++) if (step.choices[i].id === id) return step.choices[i];
     return null;
   }
+  function isLast() { return state.stepIndex === STEPS.length - 1; }
 
   function missesText() {
     var parts = [];
@@ -544,19 +489,19 @@ tags: [wip]
     return parts.length ? "Unsupported commits so far: " + parts.join(", ") + "." : "No unsupported commits so far.";
   }
   function summarize() {
-    var head = LAB.title + " (case file: " + LAB.caseTitle + "). ";
+    var head = LAB.title + " (case file: " + LAB.caseTitle + ", stated on the page above the exercise). ";
     if (state.finished) {
-      return head + "Completed file assembled: all " + STEPS.length + " decisions committed with the supported line, " +
-        "and the finding lines are on screen. " + missesText();
+      return head + "All " + STEPS.length + " decisions are committed with the supported line; the exercise is complete and " +
+        "the assembled inspection order is in the callout below it on the page. " + missesText();
     }
     var entry = current();
     var step = entry.step;
     var chosen = choiceById(step, state.answerId);
     var line = "Decision " + (state.stepIndex + 1) + " of " + STEPS.length + " (" + step.label + ", phase " + entry.phase.label + "): ";
     if (state.answerState === "supported") {
-      line += "committed the supported line: \"" + chosen.text + "\" The explanation and source are shown; waiting for the learner to continue.";
+      line += "committed the supported line: \"" + chosen.text + "\" The explanation and source are shown on that line; waiting for the learner to continue.";
     } else if (state.answerState === "unsupported") {
-      line += "committed \"" + chosen.text + "\" which the record does not support; the retry hint is shown and the learner can choose again.";
+      line += "committed \"" + chosen.text + "\" which the record does not support; the retry hint is shown on that line and the learner can choose again.";
     } else if (chosen) {
       line += "selected \"" + chosen.text + "\" but has not committed it yet.";
     } else {
@@ -575,6 +520,12 @@ tags: [wip]
     } else {
       try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
     }
+  }
+
+  function fireComplete() {
+    if (completedOnce) return;
+    completedOnce = true;
+    if (window.Lens && typeof Lens.complete === "function") Lens.complete();
   }
 
   // One scored attempt per decision: the first line committed, before any hint.
@@ -611,21 +562,13 @@ tags: [wip]
     state.answerState = ok ? "supported" : "unsupported";
     if (!ok) state.misses[step.id] = (state.misses[step.id] || 0) + 1;
     submitFirstCommit(step, chosen);
+    if (ok && isLast()) state.finished = true;
     render();
     persist();
+    if (state.finished) fireComplete();
   }
   function continueFromAnswer() {
-    if (state.answerState !== "supported") return;
-    if (state.stepIndex === STEPS.length - 1) {
-      state.finished = true;
-      render();
-      persist();
-      if (!completedOnce) {
-        completedOnce = true;
-        if (window.Lens) Lens.complete();
-      }
-      return;
-    }
+    if (state.answerState !== "supported" || isLast()) return;
     state.stepIndex += 1;
     state.answerId = "";
     state.answerState = null;
@@ -638,25 +581,34 @@ tags: [wip]
     persist();
   }
 
-  var railEl = document.getElementById("rail");
   var choicesEl = document.getElementById("choices");
   var commitBtn = document.getElementById("commit");
   var nextBtn = document.getElementById("next");
+  var actionsEl = document.getElementById("actions");
+  var doneEl = document.getElementById("done");
 
-  function renderRail(active) {
-    railEl.textContent = "";
-    LAB.phases.forEach(function (phase, i) {
-      var li = el("li", null, (i < active ? "✓ " : "") + (i + 1) + " · " + phase.label);
-      if (i === active) { li.className = "is-current"; li.setAttribute("aria-current", "step"); }
-      else if (i < active) li.className = "is-done";
-      railEl.appendChild(li);
-    });
+  function noteFor(step, kind) {
+    var note = el("div", "note");
+    var line = el("p");
+    note.appendChild(line);
+    if (kind === "unsupported") {
+      line.appendChild(el("span", "verdict", "Not supported by this record. "));
+      line.appendChild(el("span", null, step.retry));
+      return note;
+    }
+    line.appendChild(el("span", "verdict", "\u2713 Added to the file. "));
+    line.appendChild(el("span", null, step.explanation));
+    var src = el("a", null, step.sourceLabel + " \u2197");
+    src.href = step.sourceHref;
+    src.target = "_blank";
+    src.rel = "noopener";
+    note.appendChild(src);
+    return note;
   }
 
   function renderStep() {
-    var entry = current();
-    var step = entry.step;
-    document.getElementById("step-label").textContent = "Decision " + (state.stepIndex + 1) + " of " + STEPS.length + " · " + step.label;
+    var step = current().step;
+    document.getElementById("step-label").textContent = "Decision " + (state.stepIndex + 1) + " of " + STEPS.length + " \u00b7 " + step.label;
     document.getElementById("step-prompt").textContent = step.prompt;
     var ctx = document.getElementById("step-context");
     ctx.hidden = !step.context;
@@ -668,65 +620,41 @@ tags: [wip]
       var selected = state.answerId === choice.id;
       var supported = locked && choice.id === step.answerId;
       var unsupported = state.answerState === "unsupported" && selected;
+      var row = el("div", "crow");
+      if (selected && !supported && !unsupported) row.classList.add("is-selected");
+      if (supported) row.classList.add("is-supported");
+      if (unsupported) row.classList.add("is-unsupported");
+      if (locked) row.classList.add("is-locked");
+      if (locked && !supported) row.classList.add("is-dim");
       var btn = el("button", "choice");
       btn.type = "button";
       btn.setAttribute("role", "radio");
       btn.setAttribute("aria-checked", selected ? "true" : "false");
       if (locked) btn.setAttribute("aria-disabled", "true");
-      if (selected && !supported && !unsupported) btn.classList.add("is-selected");
-      if (supported) btn.classList.add("is-supported");
-      if (unsupported) btn.classList.add("is-unsupported");
-      if (locked) btn.classList.add("is-locked");
-      if (locked && !supported) btn.classList.add("is-dim");
-      var mark = el("span", "mark", supported ? "✓" : String.fromCharCode(65 + index));
+      var mark = el("span", "mark", supported ? "\u2713" : String.fromCharCode(65 + index));
       mark.setAttribute("aria-hidden", "true");
       btn.appendChild(mark);
       btn.appendChild(el("span", "text", choice.text));
       if (supported) btn.appendChild(el("span", "sr-only", " (supported line)"));
       if (unsupported) btn.appendChild(el("span", "sr-only", " (not supported)"));
       btn.addEventListener("click", function () { chooseAnswer(choice.id); });
-      choicesEl.appendChild(btn);
+      row.appendChild(btn);
+      if (supported) row.appendChild(noteFor(step, "supported"));
+      if (unsupported) row.appendChild(noteFor(step, "unsupported"));
+      choicesEl.appendChild(row);
     });
-    var miss = document.getElementById("miss");
-    miss.hidden = state.answerState !== "unsupported";
-    document.getElementById("miss-body").textContent = step.retry;
-    var hit = document.getElementById("hit");
-    hit.hidden = !locked;
-    document.getElementById("hit-body").textContent = step.explanation;
-    var src = document.getElementById("hit-source");
-    src.textContent = step.sourceLabel + " ↗";
-    src.href = step.sourceHref;
     commitBtn.hidden = locked;
     commitBtn.disabled = !state.answerId;
-    nextBtn.hidden = !locked;
-    nextBtn.textContent = (state.stepIndex === STEPS.length - 1 ? "Assemble file" : "Next decision") + " →";
-  }
-
-  function renderDone() {
-    var file = document.getElementById("file");
-    file.textContent = "";
-    LAB.phases.forEach(function (phase, i) {
-      var sec = el("section");
-      sec.appendChild(el("p", "eyebrow", (i + 1) + " · " + phase.label));
-      var ul = el("ul");
-      phase.steps.forEach(function (step) {
-        var li = el("li");
-        var tick = el("span", "tick", "✓");
-        tick.setAttribute("aria-hidden", "true");
-        li.appendChild(tick);
-        li.appendChild(el("span", null, step.findingLine));
-        ul.appendChild(li);
-      });
-      sec.appendChild(ul);
-      file.appendChild(sec);
-    });
+    nextBtn.hidden = !locked || isLast();
+    actionsEl.hidden = state.finished;
   }
 
   function render() {
-    renderRail(state.finished ? LAB.phases.length : phaseIndexOf(current().step));
-    document.getElementById("step-view").hidden = state.finished;
-    document.getElementById("done-view").hidden = !state.finished;
-    if (state.finished) renderDone(); else renderStep();
+    renderStep();
+    doneEl.hidden = !state.finished;
+    document.getElementById("done-line").textContent = state.finished
+      ? "All " + STEPS.length + " decisions committed. The assembled inspection order and bounded finding is in the callout below."
+      : "";
   }
 
   function hydrate(saved, meta) {
@@ -737,7 +665,13 @@ tags: [wip]
       if (typeof saved.answerId === "string" && choiceById(step, saved.answerId)) next.answerId = saved.answerId;
       if (saved.answerState === "supported" && next.answerId === step.answerId) next.answerState = "supported";
       else if (saved.answerState === "unsupported" && next.answerId && next.answerId !== step.answerId) next.answerState = "unsupported";
-      if (saved.finished === true) next.finished = true;
+      // Saved before the assembled file left the widget: the last supported commit now ends the exercise.
+      if (saved.finished === true || (next.stepIndex === STEPS.length - 1 && next.answerState === "supported")) next.finished = true;
+      if (next.finished) {
+        next.stepIndex = STEPS.length - 1;
+        next.answerId = STEPS[next.stepIndex].step.answerId;
+        next.answerState = "supported";
+      }
       STEPS.forEach(function (entry) {
         var id = entry.step.id;
         if (saved.misses && typeof saved.misses[id] === "number" && saved.misses[id] > 0) next.misses[id] = Math.floor(saved.misses[id]);
@@ -747,15 +681,9 @@ tags: [wip]
     state = next;
     completedOnce = !!(meta && meta.completed);
     render();
+    if (state.finished) fireComplete();
   }
 
-  document.getElementById("lab-eyebrow").textContent = LAB.eyebrow;
-  document.getElementById("lab-title").textContent = LAB.title;
-  document.getElementById("lab-instruction").textContent = LAB.instruction;
-  document.getElementById("case-title").textContent = LAB.caseTitle;
-  document.getElementById("case-body").textContent = LAB.caseBody;
-  document.getElementById("artifact-title").textContent = LAB.artifactTitle;
-  document.getElementById("artifact-intro").textContent = LAB.artifactIntro;
   commitBtn.addEventListener("click", checkAnswer);
   nextBtn.addEventListener("click", continueFromAnswer);
   document.getElementById("rebuild").addEventListener("click", restart);
@@ -771,3 +699,4 @@ tags: [wip]
 </script>
 </body>
 </html>
+
