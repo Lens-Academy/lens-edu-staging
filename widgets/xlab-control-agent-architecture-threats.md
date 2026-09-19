@@ -1,7 +1,7 @@
 ---
 id: '41b373f6-1523-4cf1-ae5d-0cd6b1ba468d'
 title: Agent architecture, where compromises happen
-summary_for_tutor: A seven-step walkthrough of Buck Shlegeris's agent architecture diagram. Five boxes stay on screen throughout (user, scaffold server, inference server, execution server, internet) joined by the ordinary flow arrows; the learner steps forward and back and each step lights up one overlay on the same picture. Step 1 is the plain architecture. Step 2 puts the monitor/audit/defer band on the scaffold, where actions are parsed before execution. Steps 3 to 5 draw the three weight-exfiltration routes, copying weights straight out of the execution server, hacking the inference server, and committing code that compromises another server. Steps 6 and 7 draw the two rogue-internal-deployment shapes, a self-written agent loop on the execution machine's own GPUs and a rogue scaffold that calls the real inference API. The learner has finished when they have opened all seven steps. If a learner is stuck, ask which machine the attack path starts on and which one holds the weights.
+summary_for_tutor: "Buck Shlegeris's agent architecture diagram with his threat scenarios drawn on it. Five boxes stay on screen throughout (user, scaffold server, inference server, execution server, internet) joined by the ordinary flow arrows, and the learner switches between seven views of the same picture: the plain architecture, the monitor/audit/defer band on the scaffold, the three weight-exfiltration routes (copying weights out of the execution server, hacking the inference server, committing code that compromises another server), and the two rogue-internal-deployment shapes (a self-written agent loop on the execution machine's own GPUs, and a rogue scaffold that calls the real inference API). Each view carries one line naming what is drawn; the post's own explanation of why each route is easy or hard sits in the article text on the page around the widget, and the page's open questions ask about the three-server split, where safety mechanisms sit and what rogue internal deployments look like. The learner has finished when they have opened all seven views. If a learner is stuck, ask which machine the attack path starts on and which one holds the weights."
 height: auto
 tags: []
 ---
@@ -19,9 +19,15 @@ tags: []
   --font-ui: "DM Sans", Arial, sans-serif; --font-heading: "Newsreader", Georgia, serif;
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
 .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
 .frame { border: 1px solid var(--border); border-radius: 8px; background: var(--bg); overflow: hidden; }
+.views { display: flex; flex-wrap: wrap; gap: 6px; padding: 12px 12px 0; }
+.view { font: inherit; font-size: 12.5px; color: var(--muted); border: 1px solid var(--border); border-radius: 999px; background: #fff; padding: 5px 10px; cursor: pointer; }
+.view:hover { background: var(--panel); border-color: #cfc9bf; }
+.view.seen { color: var(--text); }
+.view.now { border-color: var(--accent); color: var(--accent-hover); background: rgba(184, 112, 24, 0.08); }
 .canvas { overflow-x: auto; padding: 12px; }
 svg { display: block; width: 100%; min-width: 420px; height: auto; }
 .node-box { fill: #ffffff; stroke: var(--border); stroke-width: 1.5; }
@@ -39,29 +45,14 @@ svg { display: block; width: 100%; min-width: 420px; height: auto; }
 .hit { fill: none; stroke: var(--accent); stroke-width: 2; }
 .hit.is-loop { stroke-dasharray: 4 3; }
 .hit-label { fill: var(--accent-hover); font-size: 8.5px; }
-.readout { border-top: 1px solid var(--border); background: var(--panel); padding: 14px 16px; }
-.step-no { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
-.step-label { font-family: var(--font-heading); font-size: 16px; font-weight: 600; margin: 2px 0 6px; }
-.caption { margin: 0; color: var(--text); min-height: 4.5em; }
-.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 12px; }
-button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 8px 12px; cursor: pointer; }
-button:hover:not(:disabled) { background: var(--panel); border-color: #cfc9bf; }
-button:disabled { color: #a8a29a; cursor: default; }
-button.primary { border-color: var(--accent); color: var(--accent-hover); }
-button.primary:hover:not(:disabled) { background: rgba(184, 112, 24, 0.08); }
-.spacer { flex: 1 1 auto; }
-.dots { display: flex; gap: 5px; }
-.dot { width: 7px; height: 7px; border-radius: 50%; border: 1px solid #9a958c; background: #fff; padding: 0; }
-.dot.seen { background: #9a958c; }
-.dot.now { border-color: var(--accent); background: var(--accent); }
-.done { margin-top: 10px; font-size: 13px; color: var(--accent-hover); }
-.done[hidden] { display: none; }
-@media (max-width: 420px) { .controls { gap: 6px; } button { padding: 7px 10px; } }
+.caption { margin: 0; padding: 12px 16px; border-top: 1px solid var(--border); background: var(--panel); color: var(--text); }
+@media (max-width: 420px) { .views { gap: 5px; } .view { padding: 5px 8px; font-size: 12px; } }
 </style>
 </head>
 <body>
 <div class="eyebrow">Agent architecture: where compromises happen</div>
 <div class="frame">
+  <div class="views" id="views" role="group" aria-label="Choose a view of the diagram"></div>
   <div class="canvas">
     <svg viewBox="0 0 560 340" role="img" aria-label="The user, scaffold server, inference server, execution server and internet, with the post's threat scenarios drawn as attack paths: weight exfiltration, hacking or compromising the inference server, and the two rogue internal deployment variants.">
       <defs>
@@ -151,90 +142,48 @@ button.primary:hover:not(:disabled) { background: rgba(184, 112, 24, 0.08); }
       </g>
     </svg>
   </div>
-
-  <div class="readout">
-    <div class="step-no" id="stepno">Step 1 of 7</div>
-    <h2 class="step-label" id="steplabel"></h2>
-    <p class="caption" id="caption"></p>
-    <div class="controls">
-      <button id="back" type="button">Back</button>
-      <button id="next" type="button" class="primary">Next</button>
-      <span class="spacer"></span>
-      <div class="dots" id="dots" role="group" aria-label="Jump to a step"></div>
-      <button id="reset" type="button">Reset</button>
-    </div>
-    <p class="done" id="done" hidden>You have opened every step of the diagram.</p>
-  </div>
+  <p class="caption" id="caption" aria-live="polite"></p>
 </div>
 
 <script>
 (function () {
-  var STEPS = [
-    {
-      label: "The basic architecture",
-      caption: "Three responsibilities almost surely live on logically different computers: the inference server that serves the LLM API (and holds the weights), the scaffold server that maintains the agent loop's state, and the execution server where the agent's code actually runs. The user talks to the scaffold."
-    },
-    {
-      label: "Where safety mechanisms sit",
-      caption: "The scaffold parses the LLM's proposed action before anything executes, which is the natural place to insert safety mechanisms. It can query a weaker trusted model about the action, then execute it, flag it for human review (auditing), or discard it and select a new one (defer-to-trusted)."
-    },
-    {
-      label: "Weight exfiltration from the execution server",
-      caption: "If the agent has model weights on its execution server, it could just copy them to a remote server. Hard to do straightforwardly: it's unclear why the agent would have enough egress bandwidth (see upload limits), and it needs somewhere to send them."
-    },
-    {
-      label: "Hacking the inference server",
-      caption: "The agent issues commands that hack an inference server and cause it to exfiltrate the weights, say if outgoing connections from the execution server and incoming connections to the inference server aren't properly secured. This should be pretty simple to prevent."
-    },
-    {
-      label: "Compromise via committed code",
-      caption: "The agent commits code that compromises one of the other servers. The inference server is a natural target since it definitely has the weights. Standard security helps (inference servers don't need outgoing connections), but modifying the codebase or infrastructure is probably the best self-exfiltration strategy that needs no help from employees."
-    },
-    {
-      label: "Rogue agent loop on local GPUs",
-      caption: "The easiest rogue internal deployment to imagine: the model writes its own agent loop on the execution machine, running inference on the weights and GPUs it was given for its research task. An unauthorized agent with none of your intended safety measures."
-    },
-    {
-      label: "Rogue scaffold via the inference API",
-      caption: "Alternatively, the model builds a rogue scaffold on the execution machine that calls the inference server. This seems easier to prevent: basic monitoring on the inference API should catch queries that are blatantly being used to implement unauthorized scaffolds."
-    }
+  var VIEWS = [
+    { name: "Basic architecture", caption: "The ordinary flow between the user, the scaffold server, the inference server and the execution server." },
+    { name: "Safety mechanisms", caption: "Proposed actions are parsed in the scaffold before anything runs, so the checks sit there." },
+    { name: "Weights copied out", caption: "Weights sitting on the execution server, copied straight out to the internet." },
+    { name: "Inference server hacked", caption: "The execution server hacks the inference server into sending the weights out." },
+    { name: "Compromise via committed code", caption: "Code the agent commits is deployed to the other servers, the inference server included." },
+    { name: "Rogue agent loop", caption: "An unauthorized agent loop on the execution machine's own GPUs and weights." },
+    { name: "Rogue scaffold", caption: "A rogue scaffold on the execution machine, calling the real inference API." }
   ];
 
   var overlays = [].slice.call(document.querySelectorAll('.ov')).map(function (el) {
     return { el: el, on: el.getAttribute('data-on').split(' ').map(Number) };
   });
 
-  var stepNoEl = document.getElementById('stepno');
-  var labelEl = document.getElementById('steplabel');
   var captionEl = document.getElementById('caption');
-  var backBtn = document.getElementById('back');
-  var nextBtn = document.getElementById('next');
-  var resetBtn = document.getElementById('reset');
-  var dotsEl = document.getElementById('dots');
-  var doneEl = document.getElementById('done');
+  var viewsEl = document.getElementById('views');
 
   var current = 0;
   var seen = [0];
   var completed = false;
-  var dotButtons = [];
+  var viewButtons = [];
 
-  STEPS.forEach(function (s, i) {
+  VIEWS.forEach(function (v, i) {
     var b = document.createElement('button');
     b.type = 'button';
-    b.className = 'dot';
-    b.title = s.label;
-    b.setAttribute('aria-label', 'Step ' + (i + 1) + ': ' + s.label);
+    b.className = 'view';
+    b.textContent = v.name;
     b.addEventListener('click', function () { go(i); });
-    dotsEl.appendChild(b);
-    dotButtons.push(b);
+    viewsEl.appendChild(b);
+    viewButtons.push(b);
   });
 
   function summary() {
     var opened = seen.slice().sort(function (a, b) { return a - b; })
-      .map(function (i) { return STEPS[i].label; });
-    return 'Agent architecture walkthrough. Currently on step ' + (current + 1) + ' of ' + STEPS.length +
-      ', "' + STEPS[current].label + '". Steps opened so far (' + opened.length + ' of ' + STEPS.length + '): ' +
-      opened.join('; ') + '.';
+      .map(function (i) { return VIEWS[i].name; });
+    return 'Agent architecture diagram. Currently showing "' + VIEWS[current].name +
+      '". Views opened so far (' + opened.length + ' of ' + VIEWS.length + '): ' + opened.join('; ') + '.';
   }
 
   function render() {
@@ -242,46 +191,36 @@ button.primary:hover:not(:disabled) { background: rgba(184, 112, 24, 0.08); }
       if (o.on.indexOf(current) !== -1) { o.el.classList.add('is-on'); }
       else { o.el.classList.remove('is-on'); }
     });
-    stepNoEl.textContent = 'Step ' + (current + 1) + ' of ' + STEPS.length;
-    labelEl.textContent = STEPS[current].label;
-    captionEl.textContent = STEPS[current].caption;
-    backBtn.disabled = current === 0;
-    nextBtn.disabled = current === STEPS.length - 1;
-    dotButtons.forEach(function (b, i) {
-      b.className = 'dot' + (seen.indexOf(i) !== -1 ? ' seen' : '') + (i === current ? ' now' : '');
+    captionEl.textContent = VIEWS[current].caption;
+    viewButtons.forEach(function (b, i) {
+      b.className = 'view' + (seen.indexOf(i) !== -1 ? ' seen' : '') + (i === current ? ' now' : '');
+      b.setAttribute('aria-pressed', i === current ? 'true' : 'false');
     });
-    doneEl.hidden = seen.length < STEPS.length;
   }
 
   function persist() {
     if (!window.Lens) { return; }
     Lens.saveState({ current: current, seen: seen }, summary());
-    if (seen.length === STEPS.length && !completed) {
+    if (seen.length === VIEWS.length && !completed) {
       completed = true;
       Lens.complete();
     }
   }
 
   function go(i) {
-    if (i < 0 || i >= STEPS.length) { return; }
+    if (i < 0 || i >= VIEWS.length) { return; }
     current = i;
     if (seen.indexOf(i) === -1) { seen.push(i); }
     render();
     persist();
   }
 
-  backBtn.addEventListener('click', function () { go(current - 1); });
-  nextBtn.addEventListener('click', function () { go(current + 1); });
-  resetBtn.addEventListener('click', function () {
-    current = 0; seen = [0]; render(); persist();
-  });
-
   if (window.Lens && Lens.onState) {
     Lens.onState(function (state, meta) {
       if (state && typeof state.current === 'number') {
-        current = Math.min(Math.max(state.current, 0), STEPS.length - 1);
+        current = Math.min(Math.max(state.current, 0), VIEWS.length - 1);
         seen = Array.isArray(state.seen) ? state.seen.filter(function (i) {
-          return typeof i === 'number' && i >= 0 && i < STEPS.length;
+          return typeof i === 'number' && i >= 0 && i < VIEWS.length;
         }) : [current];
         if (seen.indexOf(current) === -1) { seen.push(current); }
       }
