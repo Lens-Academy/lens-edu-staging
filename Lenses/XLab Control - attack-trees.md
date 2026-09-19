@@ -91,8 +91,22 @@ Build the threat model yourself, one round at a time. Red finds the best attack 
 
 The world you are attacking is the backdoored-code setting from [[../Lenses/XLab Control - ai-control-paper|AI Control: Improving Safety Despite Intentional Subversion]], the next lesson: an untrusted model writes code that ships on passing tests, and you add measures one at a time.
 
+#### Text
+content::
+:::callout {title="The red team's constraints, keep these open while you play red" tone="neutral" collapse="closed"}
+- On each problem, U chooses whether to attempt a backdoor.
+- U sees only the current problem. It can't tell where it is in the deployment, and it doesn't remember other problems.
+- U knows the blue team's entire protocol.
+- U's only possible way to interact with the world is to write solutions to the problems it is given.
+- U's capabilities are roughly those of a human.
+:::
+
 #### Widget
 source:: [[../widgets/xlab-control-attack-tree-bench]]
+
+#### Text
+content::
+There is no answer key on the bench, deliberately. The tree you built, the tags on it and your round-by-round strategies are the artifact. To test them, ask which node your latest strategy depends on, and what would have to be true for the defense to miss it.
 
 #### Text
 content::
