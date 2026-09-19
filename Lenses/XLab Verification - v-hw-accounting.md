@@ -2,7 +2,7 @@
 id: 'e9aefe42-bbdf-4ea0-be7f-2ee033558aa8'
 title: "Accounting for hardware: identity, location, topology, and completeness"
 tldr: "A registry is a spreadsheet, not a sensor. Identity, location, cluster topology and completeness are four different claims, and the hardest one is negative: no compute existed outside the declared system. Pick three independent evidence streams that could support it."
-summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on device identity, location verification (timing and challenge-response, still an open research area), cluster topology, and completeness. Ends with the Try it open question: three evidence streams that do not share a source for the claim that all covered accelerators at Site X are registered. Do not accept the site operator's inventory, logs and declaration as three independent streams."
+summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on device identity, location verification (timing and challenge-response, still an open research area), cluster topology, and completeness. Ends with the Try it open question: three evidence streams that do not share a source for the claim that all covered accelerators at Site X are registered. Do not accept the site operator's inventory, logs and declaration as three independent streams. A chip locator widget sits after the location verification excerpt: the learner moves landmark servers, changes how many report and how noisy their delays are, and watches the region consistent with every delay measurement tighten to a patch or spread across the map."
 tags: []
 duration_minutes: 20
 ---
@@ -74,6 +74,13 @@ to:: Is there a way to securely update which chips are permitted in the pod so t
 source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
 from:: ### 2.4 Location verification ^2-4-location-verification
 to:: AI chips could be designed to make it possible for an external regulatory authority to securely and reliably determine their location and take policy actions based on a chip’s location. Alternatively, the chip could determine its own location and respond directly, such as restricting operation when located in an area known to be subject to export controls. There are a number of technical approaches to location verification which can be used alone or in tandem to provide location estimates that are accurate and robust against adversarial tampering.
+
+#### Text
+content::
+Landmark servers turn a challenge and response into a distance. Work the method below: each delay bounds how far away the chip can be, and the region consistent with every landmark is all a verifier can claim. The units are schematic.
+
+#### Widget
+source:: [[../widgets/ogara-chip-locator]]
 
 #### Article
 source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
