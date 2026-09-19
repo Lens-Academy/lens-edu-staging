@@ -219,7 +219,7 @@ Week 5 assigns the same report for its layers; this section uses its
 subgoals.
 
 The cast, the rings and the sentences that place each actor on one are 1.2's,
-and the workshop above opens on the board you built there.
+and the workshop above opens on that board in its key placement.
 
 #### Text
 content::
