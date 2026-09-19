@@ -1,7 +1,7 @@
 ---
 id: 'c206f69b-2c3a-4c62-aa04-5335adf22f1d'
 title: The Anatomy Drill
-summary_for_tutor: "A sorting drill on the seven organs of a binding agreement (the rule, the claims, the evidence, the confidentiality bargain, the adversary, the institution & consequences, the gap) plus a No-organ bin for advocacy. The learner reads thirteen short specimen texts one at a time, real and fictional, and drags each onto the organ it implements (or taps the specimen, then a bin). Each placement gets an instant verdict: correct on first read, a defensible near-tag that is accepted and moved to the sharper organ, or a miss; a wrong bin gets one retry, then the drill files the specimen for the learner with the explanation. Sources are hidden until the specimen is placed, so do not name a specimen's source before the learner commits. After the thirteenth specimen a results screen counts clean first reads, defensible near-tags and second looks, shows a table of where the specimens came from and their status in the world, then asks one final pick with no right answer: which organ to put at the top of a negotiating agenda (each pick has XLab's judgment). The full text of the fictional Reykjavik Protocol closes the page. Done means all thirteen specimens have been placed and the results screen is showing."
+summary_for_tutor: "The widget opens directly on Specimen 1 of 13; there is no intro screen, because the seven organs and the instruction note are page text in the callout above the widget, so send the learner up the page if they ask what the organs are. It is a sorting drill on the seven organs of a binding agreement (the rule, the claims, the evidence, the confidentiality bargain, the adversary, the institution & consequences, the gap) plus a No-organ bin for advocacy. The learner reads thirteen short specimen texts one at a time, real and fictional, and drags each onto the organ it implements (or taps the specimen, then a bin). Each placement gets an instant verdict: correct on first read, a defensible near-tag that is accepted and moved to the sharper organ, or a miss; a wrong bin gets one retry, then the drill files the specimen for the learner with the explanation. Sources are hidden until the specimen is placed, so do not name a specimen's source before the learner commits. After the thirteenth specimen a results screen counts clean first reads, defensible near-tags and second looks, shows a table of where the specimens came from and their status in the world, then asks one final pick with no right answer: which organ to put at the top of a negotiating agenda (each pick has XLab's judgment). The full text of the fictional Reykjavik Protocol closes the page, and Restart goes straight back to Specimen 1. Done means all thirteen specimens have been placed and the results screen is showing."
 height: auto
 tags: [wip]
 ---
@@ -37,12 +37,6 @@ tags: [wip]
   .small { font-size: 12px; }
   .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .wrap { max-width: 44rem; margin: 0 auto; }
-
-  /* intro */
-  .organ-list { list-style: none; margin: 0; padding: 0; }
-  .organ-list li { padding: 8px 0; border-top: 1px solid var(--border); }
-  .organ-list li:first-child { border-top: 0; }
-  .organ-list .name { font-weight: 600; }
 
   /* progress */
   .progress { display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }
@@ -128,13 +122,13 @@ tags: [wip]
 <script>
   // Data: verbatim from XLab's src/lib/verification/data/anatomy-drill.ts (em dashes replaced).
   var ORGANS = [
-    { n: 1, key: "rule", name: "The rule", d: "Definitions, thresholds, scope, duration", line: "What exactly is prohibited, for whom, above what line, for how long. Rules live in their definitions." },
-    { n: 2, key: "claims", name: "The claims", d: "What parties must be able to prove: declared & undeclared", line: "Everything declared is compliant, and nothing undeclared exists. Every mechanism serves one branch." },
-    { n: 3, key: "evid", name: "The evidence", d: "Access, inspections, monitoring, timeliness", line: "How anyone would know. Judge it by access and by speed against the breakout clock." },
-    { n: 4, key: "conf", name: "The confidentiality bargain", d: "What the verifier must NOT see", line: "What stays secret, and the machinery that makes intrusion acceptable. No one signs without it." },
-    { n: 5, key: "adv", name: "The adversary", d: "The threat model provisions are written against", line: "Reconstructed from clauses that only make sense as answers to a specific evasion." },
-    { n: 6, key: "inst", name: "The institution & consequences", d: "Who verifies, who judges, what follows, exit", line: "Findings, consequences, withdrawal. 'Shall' versus 'may' is the whole organ in two verbs." },
-    { n: 7, key: "gap", name: "The gap", d: "Verified proxy vs. actual goal; decay; review", line: "Compute is not capability, parties are not the world. Good agreements chase their own proxy." }
+    { n: 1, key: "rule", name: "The rule", d: "Definitions, thresholds, scope, duration" },
+    { n: 2, key: "claims", name: "The claims", d: "What parties must be able to prove: declared & undeclared" },
+    { n: 3, key: "evid", name: "The evidence", d: "Access, inspections, monitoring, timeliness" },
+    { n: 4, key: "conf", name: "The confidentiality bargain", d: "What the verifier must NOT see" },
+    { n: 5, key: "adv", name: "The adversary", d: "The threat model provisions are written against" },
+    { n: 6, key: "inst", name: "The institution & consequences", d: "Who verifies, who judges, what follows, exit" },
+    { n: 7, key: "gap", name: "The gap", d: "Verified proxy vs. actual goal; decay; review" }
   ];
   var NULLBIN = { n: 0, key: "none", name: "No organ", d: "Advocacy: sounds load-bearing, binds no one. The tell is 'should' with no bound actor and no procedure." };
   function organOf(n) { return n === 0 ? NULLBIN : ORGANS[n - 1]; }
@@ -280,9 +274,8 @@ tags: [wip]
   ];
 
   var COPY = {
-    introNote: "Sources are hidden until you place each card. Read the text, not the letterhead. Where a tag is arguable, a defensible second-best answer is accepted and discussed, because expert readers disagree about these too. Drag with mouse or touch, or click a card and then click a bin.",
-    begin: "Begin",
-    dragHint: "Drag to a bin, click the card to arm it, or focus it and press Enter, then choose an organ.",
+    dragHint: "Drag the specimen to a bin, or click it and then a bin.",
+    doneBefore: "You have completed this drill before. This is a fresh run.",
     armedHint: "Picked up. Now choose the organ it implements (Escape puts it down).",
     resultsHead: "Results",
     scoreClean: "clean first reads",
@@ -350,7 +343,7 @@ tags: [wip]
   }
 
   // State
-  var state = { phase: "intro", idx: 0, attempts: 0, results: [], fb: null, judgment: null };
+  var state = { phase: "drill", idx: 0, attempts: 0, results: [], fb: null, judgment: null };
   var completed = false;
   var armed = false;          // specimen picked up by click or keyboard
   var STORAGE_KEY = "lens-widget-anatomy-drill";
@@ -383,9 +376,7 @@ tags: [wip]
   function summaryText() {
     var c = counts();
     var parts = ["The Anatomy Drill (sort 13 specimen texts onto the seven organs of an agreement or the No-organ bin)."];
-    if (state.phase === "intro") {
-      parts.push("The learner has not begun the drill yet.");
-    } else if (state.phase === "summary") {
+    if (state.phase === "summary") {
       parts.push("All 13 specimens placed. Results: " + c.clean + " clean first reads, " + c.near + " defensible near-tags, " + c.miss + " needed a second look.");
       if (state.judgment) {
         parts.push("Final pick for the top of the negotiating agenda: " + organOf(state.judgment).name + " (no right answer; XLab's judgment for that pick was shown).");
@@ -423,8 +414,6 @@ tags: [wip]
   }
 
   // Actions
-  function begin() { state.phase = "drill"; armed = false; render(); persist(); }
-
   function dropOnBin(binN) {
     if (state.phase !== "drill") return;
     var card = CARDS[state.idx];
@@ -473,7 +462,7 @@ tags: [wip]
   }
 
   function restart() {
-    state = { phase: "intro", idx: 0, attempts: 0, results: [], fb: null, judgment: null };
+    state = { phase: "drill", idx: 0, attempts: 0, results: [], fb: null, judgment: null };
     armed = false;
     render();
     persist();
@@ -528,30 +517,8 @@ tags: [wip]
   // Rendering
   function render() {
     clear(root);
-    if (state.phase === "intro") renderIntro();
-    else if (state.phase === "summary") renderSummary();
+    if (state.phase === "summary") renderSummary();
     else renderDrill();
-  }
-
-  function renderIntro() {
-    var box = el("div", "stack");
-    if (completed) box.appendChild(el("p", "small muted", "You have completed this drill before. Begin again for a fresh run."));
-    var ul = el("ul", "organ-list");
-    ORGANS.forEach(function (o) {
-      var li = el("li");
-      li.appendChild(el("span", "name", o.n + ". " + o.name + ". "));
-      li.appendChild(el("span", "muted", o.line));
-      ul.appendChild(li);
-    });
-    var liNone = el("li");
-    liNone.appendChild(el("span", "name", "No organ. "));
-    liNone.appendChild(el("span", "muted", NULLBIN.d));
-    ul.appendChild(liNone);
-    box.appendChild(ul);
-    box.appendChild(el("p", "small muted", COPY.introNote));
-    var b = btn("primary", COPY.begin + " →", begin);
-    box.appendChild(b);
-    root.appendChild(box);
   }
 
   function renderProgress() {
@@ -577,6 +544,9 @@ tags: [wip]
     var filedOrgan = organOf(card.organ);
 
     root.appendChild(renderProgress());
+
+    var freshRun = state.idx === 0 && state.attempts === 0 && !state.fb;
+    if (completed && freshRun) root.appendChild(el("p", "small muted", COPY.doneBefore));
 
     var specimen = null;
     if (showLive) {
@@ -777,11 +747,16 @@ tags: [wip]
   function hydrate(saved, meta) {
     if (saved && typeof saved === "object") {
       var phase = saved.phase;
-      if (phase === "intro" || phase === "drill" || phase === "feedback" || phase === "summary") state.phase = phase;
-      if (typeof saved.idx === "number" && saved.idx >= 0 && saved.idx <= CARDS.length) state.idx = saved.idx;
-      if (typeof saved.attempts === "number") state.attempts = saved.attempts;
-      if (Array.isArray(saved.results)) state.results = saved.results.map(function (r) { return (r === "clean" || r === "near" || r === "miss") ? r : null; });
-      if (saved.fb && typeof saved.fb === "object" && FEEDBACK_HEAD[saved.fb.kind] && typeof saved.fb.bin === "number") state.fb = { kind: saved.fb.kind, bin: saved.fb.bin };
+      // States saved by the older build opened on an intro screen that no longer exists; they start the drill.
+      var wasIntro = phase === "intro";
+      if (wasIntro) phase = "drill";
+      if (phase === "drill" || phase === "feedback" || phase === "summary") state.phase = phase;
+      if (!wasIntro) {
+        if (typeof saved.idx === "number" && saved.idx >= 0 && saved.idx <= CARDS.length) state.idx = saved.idx;
+        if (typeof saved.attempts === "number") state.attempts = saved.attempts;
+        if (Array.isArray(saved.results)) state.results = saved.results.map(function (r) { return (r === "clean" || r === "near" || r === "miss") ? r : null; });
+        if (saved.fb && typeof saved.fb === "object" && FEEDBACK_HEAD[saved.fb.kind] && typeof saved.fb.bin === "number") state.fb = { kind: saved.fb.kind, bin: saved.fb.bin };
+      }
       if (typeof saved.judgment === "number" && saved.judgment >= 1 && saved.judgment <= 7) state.judgment = saved.judgment;
       // Guard inconsistent snapshots.
       if (state.phase === "summary" && state.idx < CARDS.length) state.idx = CARDS.length;
