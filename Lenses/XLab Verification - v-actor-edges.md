@@ -97,6 +97,7 @@ Some actors will end up ++}with no {--{"author":"Elias's AI","timestamp":1789826
 
 #### Widget++}
 {++{"author":"Elias's AI","timestamp":1789826440815}@@source:: [[../widgets/actor-edges]]++}
+
 #### Text
 content::
 :::callout {title="The key: seven edges and the mechanism behind each (open after you have answered)" tone="neutral" collapse="closed"}
@@ -155,7 +156,7 @@ Then read what has no edge at all: ten of the seventeen. Some of those absences 
 Then read what has no node. The paper’s simplest and most implementation-ready layer runs on people: whistleblowers, interviews, intelligence. One of those three is on this board, because it happens to be an institution. The other two are not organisations, so a map of organisations has nowhere to put them, and you would never find them by drawing one.
 
 Baker §3.2, the weak link: “identify the subgoal whose mechanisms are collectively least robust. This subgoal is the ‘weak link’ of the regime—its robustness determines the regime’s overall robustness.” Baker §4, defining a verification layer: “three verification layers can be stacked together to achieve three layers of redundancy, for example.”
-:::{>>{"author":"Elias's AI","timestamp":1788016696939}@@Native reproduction of XLab's actor-edges widget (src/lib/verification/data/actor-workshop.ts: SUBGOALS, EDGE_KEY, EDGE_NOTES, EDGE_FINDING; brief from widgets/actor-edges.tsx). The drag-to-draw ring map is replaced by a typed edge list graded against the same key. "Module 2.1" in the intro refers to the hardware module lens set, outside this module; left unlinked.<<}
+:::{>>{"author":"Elias's AI","timestamp":1788016696939}@@Native reproduction of XLab's actor-edges widget (src/lib/verification/data/actor-workshop.ts: SUBGOALS, EDGE_KEY, EDGE_NOTES, EDGE_FINDING; brief from widgets/actor-edges.tsx). The drag-to-draw ring map is {--{"author":"Elias's AI","timestamp":1789826532100}@@replaced by a typed edge list graded against the same key.--}{++{"author":"Elias's AI","timestamp":1789826532100}@@the widget above; these callouts hold the key text it no longer prints.++} "Module 2.1" in the intro refers to the hardware module lens set, outside this module; left unlinked.<<}
 
 #### Question: Choice
 id:: 9f2573e0-1f40-40be-85f1-ba9107156979
