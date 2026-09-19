@@ -46,15 +46,7 @@ Even when the human source is truthful and legally allowed to report, however,
 reporting channels can still fail in various ways, which the next section will
 cover.
 
-:::callout {title="Optional: Insider Report (8–10 minutes)" tone="neutral" collapse="closed"}
-**Who knows what?**
-
-For each source, identify what they could observe, what they could not know, and which independent record could verify the claim. You will produce a short assessment for each source.
-
-A job title alone proves nothing. Limit the claim to what this person could observe, state what remains unknown, and choose evidence the source did not control.
-
-Every question in this exercise is optional. Six sources come first; a case report and a credibility assessment follow.
-:::
+Two exercises follow. The first is optional practice on who can know what. The second is the exercise for this section, in which you build a case of your own.
 
 \### Optional warm-up: who knows what?
 
