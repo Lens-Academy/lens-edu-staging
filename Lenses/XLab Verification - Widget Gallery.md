@@ -23,45 +23,6 @@ content::
 
 #### Text
 content::
-\#### The Compute Supply Chain (interactive-map)
-
-**Decision: widget.** A clickable world map where selecting a country, a layer or a pipeline stage changes what is highlighted and which card is shown; prose (a table and 14 collapsed callouts) cannot do that, and Elias singled this map out as the priority port.
-
-**Target lens:** [[../Lenses/XLab Verification - v-interactive-map]]
-
-**Where it goes:** after the first Text segment "The world map of AI compute: who makes what, where it flows, and where verification can grab hold" (the two-paragraph intro), in place of the second Text segment that begins "\## The Compute Supply Chain".
-
-**What it replaces:** the whole second Text segment of the lens: the "Start here" paragraph, the three-stat bullet list, the "Supply chain layers" table, the eight-item "The pipeline · sand to model" list, the fourteen collapsed country callouts, and the "Anatomy of a Chip" paragraph with the ETO Chip Explorer link. All of it is inside the widget verbatim (the widget shows the same "Start here" text, stats, layer cards with the "To verify at this layer, you'd need" country list, pipeline stage cards, country cards with roles and "Why it matters for verification", and the optional Chip Explorer link). That segment should go entirely; the tutor gets the full data through summary_for_tutor and saveState summaries. Keep the first Text segment (intro), the third Text segment (the "A geographic chokepoint is potential leverage" paragraph plus Notes and sources and Currency) and the Works cited callout as they are. Also update the lens's summary_for_tutor, which currently says "Reading-only lens reproducing XLab's interactive supply-chain map as text".
-
-**In XLab:** <VerificationExercise id="interactive-map" /> in interactive-map.mdx, core (not optional), not inside a Fold. Registry title "The Compute Supply Chain", bridged: false.
-
-**Learner time:** 10 to 15 minutes
-
-Above the map, three headline stats. On the map, fourteen coloured countries (Singapore as a hub dot) with labels and leader lines; clicking one opens a card with its layers, anchor facts, "Why it matters for verification" and actor roles, and outlines the country in black. Clicking a layer in the key or a stage in the eight-step pipeline dims every other country and opens a card with the layer's stat, its "why", and buttons for each country that "would have to be in the room", which jump to that country's card. Zoom in, zoom out and Fit buttons plus drag-to-pan when zoomed; on a phone the map scrolls sideways inside its box (720px wide) and starts on the Europe-to-East-Asia stretch. Opened countries get a check mark on their map label and in the member lists, isolated layers and lit stages get a check mark on their button, and a progress line counts all three; the optional "Anatomy of a Chip" link has a mark-as-read circle.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-- All text (layers, stats, roles, 14 countries with anchors and verif text, 8 pipeline stages, key/pipeline/roles/start copy, hint text, hover and touch variants) is verbatim from `src/lib/verification/data/interactive-map.ts` at HEAD of the xlab-tracks clone. Seventeen em dashes were replaced with commas, colons or parentheses; a script confirmed every other fragment matches the source character for character.
-- Geometry: the 176 simplified country outlines (`WORLD`, 1000 x 540 viewBox) are copied from the same data file (118 KB of path data, id and path only; unused feature names dropped). Label positions, leader lines, the Singapore hub dot, the viewBox clamp and the zoom maths are XLab's.
-- Interactions mirrored from `src/components/verification/widgets/interactive-map.tsx`: select toggles and clears any filter, filter clears the selection, same-source re-click clears the filter, key and stage filters are distinct sources, hover preview dims non-members, hover tooltip on fine-pointer devices, Escape clears, clicking the ocean clears, dismissible hint, zoom buttons and drag pan.
-- Dropped: wheel zoom (XLab hijacks the scroll wheel over the map; inside a reading column that traps page scrolling). Zoom buttons and drag pan remain.
-- Added beyond XLab: country labels are clickable (XLab sets them pointer-events: none), map shapes are keyboard focusable (tabindex, Enter/Space), check marks for opened/isolated/lit items and a progress line, so the "seen" state is visible without colour, and a persistent mark-as-read on the reading card (XLab stores that in its own marks store). The stage panels are ordered map, key, detail card, pipeline, roles, reading card so the detail card sits next to the map; XLab puts the detail card after the key and reading card.
-- Colours: XLab's six layer colours (navy, orange, dark red, olive, yellow, blue) replaced with a six-hue palette anchored on the Lens accent (#3b5fa8, #b87018, #a8343e, #5f8a2a, #c49a18, #1f9ab3), validated with the dataviz palette checker (lightness band, chroma floor, CVD and normal-vision separation pass; the mustard for Packaging has 2.5:1 contrast on the map ground, relieved by direct country labels and named legend chips). A single-accent map cannot encode six layers, so this is the one deliberate departure from "greys plus one accent".
-- The public/verification/map.js and map.css files are XLab's skill map (course progress), not this widget; nothing was taken from them.
-- No `Lens.complete()`: XLab has no finish condition for this exercise (bridged: false, no onComplete). If the lens ever sets `required:: true` on the segment, a finish rule would have to be invented; the note in summary_for_tutor suggests what a good exploration looks like instead.
-- No `Lens.submit` or `promptTutor`: XLab has no written answer or discuss moment here.
-- Standalone fallback stores the same snapshot in localStorage under `lens-widget-interactive-map`.
-- check_widget.py contrast note: the mustard WARN comes from the palette validator, not check_widget (which prints OK with no warnings).
-:::
-
-#### Widget
-source:: [[../widgets/interactive-map]]
-
-#### Text
-content::
-\### Lens: [[../Lenses/XLab Verification - v-actor-edges]]
-
-#### Text
-content::
 \## Part 1 · Week 4: Upstream and downstream
 
 Module file: [[../modules/XLab Verification P1 W4 Evidence and its readers]]
@@ -113,71 +74,6 @@ Module file: [[../modules/XLab Verification P1 W4 Mechanism effectiveness]]
 #### Text
 content::
 \### Lens: [[../Lenses/XLab Verification - v-mechanism-effective]]
-
-#### Text
-content::
-\#### Place Your Bets: Mechanism Sort (mechanism-sort)
-
-**Decision: widget.** The learner rates twelve cards on four five-rung scales and watches each placement land on four ranking lanes, then seals the set; four Ranking segments cannot show the ordering take shape, cannot skip and revisit a card, and cannot seal.
-
-**Target lens:** [[../Lenses/XLab Verification - v-mechanism-effective]]
-
-**Where it goes:** replaces the paragraph "Before the mechanism weeks begin, record your intuitions. Rate each mechanism on four metrics" and everything down to the Ranking question `ade67ed8-7a7f-4112-b33d-9ab40bfede96` (Durability), inclusive; the Open question `590f109a-6299-4945-a377-286c926726ef` (notebook heuristics) stays directly after the widget. The four metric definition paragraphs and their Low/High tables above stay as they are. This is all inside the first `#### Text` segment and the four Ranking segments; the `evidence-taxonomies` widget belongs to a later spot, after "The same twelve mechanisms, sorted five ways" in the Swiss-cheese/Evidence Taxonomies Text segment, so the two widgets do not touch.
-
-**What it replaces:** the framing paragraph, the two collapsed callouts ("The twelve mechanisms", "The four metrics"), the paragraph "Rank the twelve mechanisms on each metric, most to least...", and the four ungraded Ranking questions (ids 4adc193c, c7b2d36a, 31372b62, ade67ed8) plus the two CriticMarkup reviewer comments attached to them. All of it should go: the widget shows every mechanism summary, metric gist, guiding question, anchor and rung label verbatim, so a collapsed fallback would duplicate it. The Ranking questions' items:: order encodes XLab's reference map, which is a leak the widget removes.
-
-**In XLab:** <VerificationExercise id="mechanism-sort" /> in mechanism-effective.mdx, core (not inside a Fold), placed after the four SlidingScale metric definitions and before the notebook Callout.
-
-**Learner time:** 15 minutes
-
-One card at a time (XLab's queue order, hardware first), the learner reads a mechanism's title and summary and picks one of five rung buttons for each of the four metrics; the chosen rung label appears with a check mark, and "Place on the lanes" enables once all four are set. Each placed card becomes a marker on four horizontal lanes (one per metric, low on the left, high on the right), so the ordering takes shape as they go; "Skip for now" rotates the card to the back of the queue. Tapping a marker opens a detail panel with the card's four values and a "Revisit this card" button that puts it back at the front of the queue. When all twelve are placed, "Seal my ratings" becomes available; sealing freezes the set, shows "Sealed <date>" and XLab's no-key-no-score note, and calls Lens.complete().
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-- Interaction is XLab's own: five-rung radio groups per metric, not drag. The orchestrator's brief asked for "drag plus a tap fallback", but XLab's mechanism-sort has no drag at all (values are discrete rungs, `rungValue(i) = (i + 0.5) / 5`, and lane dots are click targets only). Adding drag along a lane would have invented a continuous scale XLab does not have, so I kept the rung buttons; they are keyboard reachable and work by tap.
-- No reveal step in this widget: XLab's `MechanismSort` has no post-seal compare; the reference map, gaps and `expl` text live only in `MechanismSortReveal` (capstone, out of scope). The `ref`, `expl` and `sources` fields are therefore not in the file at all, so nothing can leak.
-- Three visible strings deviate from `src/lib/verification/data/mechanism-sort.ts`: the two references to XLab lesson "4.1" (in `COPY.framing` and the sealed note) now say "the separate capstone", following the wording already accepted in the Lens lens (there is no 4.1 on Lens). Everything else (12 titles and summaries, 4 metric names, gists, guiding questions, low/high anchors, 20 rung labels, `raterDone`, `sealNoteReady`, `sealNotePending`, "Place on the lanes", "Skip for now", "Seal my ratings", "Revisit this card", "Your ranking, metric by metric", "How the four metrics are defined") is verbatim, em dashes replaced with colons or commas.
-- The metric guide additionally lists each metric's `questions` array (XLab's guide shows only gist and anchors). They are XLab data, and the Lens callout the widget replaces was showing them, so they are kept.
-- Layer colours: XLab uses five brand colours per layer. Under the greys-plus-one-accent rule the layers are told apart by marker shape (hardware filled circle in the accent, cloud square, intelligence diamond, human triangle, cryptographic hollow ring) plus a legend, so layer is never colour-only.
-- Sealed date uses `toLocaleDateString` exactly as XLab does; it is a machine timestamp stored in state, not authored.
-- XLab's component never calls `onComplete` (it discards its props), so there is no XLab completion condition to mirror. Lens.complete() fires on seal, the exercise's own end state. Restore: `Lens.onState` rebuilds the store; any mechanism that is off the queue without four ratings is pushed back onto it, and `sealed` is honoured only when the queue is empty.
-- Standalone fallback: `localStorage` key `lens-widget:mechanism-sort` when `window.Lens` is absent.
-- Sources: `src/components/verification/widgets/mechanism-sort.tsx`, `src/lib/verification/data/mechanism-sort.ts`, `src/lib/verification/exercises.ts` (title), `src/content/lessons/verification/mechanism-effective.mdx`, all at the clone's HEAD.
-:::
-
-#### Widget
-source:: [[../widgets/mechanism-sort]]
-
-#### Text
-content::
-\#### Five Maps of the Evidence (evidence-taxonomies)
-
-**Decision: widget.** Five alternative groupings of the same twelve mechanisms that the learner switches between, with a per-mechanism detail panel that re-reads its placement under each map; prose can only show the five lists side by side, not let the learner follow one mechanism across them.
-
-**Target lens:** [[../Lenses/XLab Verification - v-mechanism-effective]]
-
-**Where it goes:** after "The same twelve mechanisms, sorted five ways. Switch maps, inspect a mechanism and argue with the placements." (the paragraph under the "### Five maps of the evidence" heading)
-
-**What it replaces:** six closed callouts that reproduce the widget data as prose ("The twelve mechanisms" with all descriptions and "Where the map strains" notes, then "By layer", "By access", "By goal", "By lifecycle", "By adversary", each with question, lineage, bucket lists, strengths and limits). All six should go entirely; the widget carries every sentence of them. Keep the paragraph "Three quick checks, built from the maps above." and the three optional Choice segments that follow; the widget has no check of its own and those three still work as a quick self-test after exploring.
-
-**In XLab:** <VerificationExercise id="evidence-taxonomies" /> in mechanism-effective.mdx (line 65, directly after the "Evidence Taxonomies" section prose), core, not inside a Fold (the lesson has no Fold or optional markers).
-
-**Learner time:** 8 minutes
-
-Five tabs (By layer, By access, By goal, By lifecycle, By adversary) each show the map's organising question and lineage, then the twelve mechanisms regrouped into that map's buckets as clickable chips; the lifecycle map shows its empty "After deployment" bucket with XLab's explanation. Clicking a chip opens a side panel with the mechanism's description, its placement in the current map, and XLab's "Where the map strains" note where one exists; the selection stays put when switching tabs, so the learner can watch one mechanism land in a different bucket on each map. A toggle under the panel reveals "What it reveals" and "What it hides" for the current map. A footer counts maps opened; the widget calls Lens.complete() once all five maps have been opened.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-- Data: src/lib/verification/data/evidence-taxonomies.ts (all 12 mechanisms, 5 maps, groups, strengths, limits, empty-bucket text) and UI strings from src/components/verification/widgets/evidence-taxonomies.tsx, both at HEAD of the xlab-tracks clone. A script check confirmed every string literal from the data file appears verbatim in the widget. Kit imports: only kit/types.ts (VerificationWidgetProps), which the component ignores.
-- Adapted: XLab clears the selected mechanism when the map changes; the port keeps it selected so the placement panel updates to the new map (that is the comparison the lede asks for). Closing the panel or clicking the selected chip again clears it.
-- Adapted: XLab's per-group colours (five hues) replaced by heading font plus one accent; the active tab is filled accent, viewed tabs carry a check mark, the selected chip has an accent border, a check mark and bold text.
-- Adapted: XLab's `<details>` for strengths and limits is a `<button>` toggle with aria-expanded, so it is a button like everything else clickable.
-- Added: a footer line "Maps opened: n of 5" and a "✓ All five maps opened" mark; XLab has no progress display. The header eyebrow drops XLab's "Verification Track ·" prefix and keeps "Evidence companion".
-- Completion: XLab's component never calls onComplete, so there is no source condition to mirror. The port calls Lens.complete() when all five tabs have been opened (the only natural "done" for an exploration widget). If the orchestrator prefers no completion at all, delete the two lines in persist() that call Lens.complete().
-- State saved: current map, selected mechanism, ordered list of maps viewed, ordered list of mechanisms inspected. Standalone fallback uses localStorage key "lens-widget-evidence-taxonomies".
-- No em dashes in source data; no rewrites were needed.
-:::
-
-#### Widget
-source:: [[../widgets/evidence-taxonomies]]
 
 #### Text
 content::
