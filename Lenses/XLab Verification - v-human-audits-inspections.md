@@ -83,12 +83,6 @@ source:: [[../widgets/human-audits-inspections]]
 
 #### Text
 content::
-:::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
-Wasil et al. allow limited access sufficient to test the prohibited activity without revealing the underlying task. Brundage et al. propose on-site access by a restricted team. OPCW managed access protects unrelated information while requiring alternative means to clarify the concern. Source: [Wasil et al.; Brundage et al.; OPCW Part X](https://www.opcw.org/chemical-weapons-convention/annexes/verification-annex/part-x-challenge-inspections-pursuant)
-
-Managed access: mask unrelated fields and restrict personnel, location, copying, and use—but preserve independent access to the allocation evidence needed to answer the same question.
-:::
-
 :::callout {title="Inspection order and bounded finding (open after you have answered)" tone="neutral" collapse="closed"}
 The completed file separates the purpose of each mechanism, the maximum conclusion supported by each access condition, and the terms that make managed access an evidentiary accommodation rather than a veto.
 
