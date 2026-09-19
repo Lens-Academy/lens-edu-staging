@@ -1,7 +1,7 @@
 ---
 id: '4c90f3d5-20cd-4fee-a18f-09c452e91edc'
 title: The space of payments to AIs
-summary_for_tutor: A 2x2 map of the payments Alexa Pan says we could offer an early misaligned AI. The horizontal axis is how freely the AI can spend the payout, the vertical axis is how much long-term influence the payout buys it, and eleven labelled examples from the post sit in the four quadrants (high reward in the register, polite treatment, paperclips made now, spendable money, sandboxed compute, drones and robots, saved weights deployed later, equity or trust fund, 0.01 percent of the future, rogue deployment plus crypto, persuasion platform). Two buttons ask which payouts appeal to a myopic, not scope-sensitive AI and to a non-myopic, ambitious AI; pressing one shades the matching half of the map and dims the rest. The point the learner should reach is that the axis that decides which AI a payout appeals to is influence, not freedom, and that the payouts most attractive to an ambitious AI are exactly the ones most likely to raise its ability to attempt takeover.
+summary_for_tutor: A 2x2 map of the payments Alexa Pan says we could offer an early misaligned AI, with eleven labelled examples from the post plotted on a freedom axis (how freely the AI can spend the payout) and an influence axis (how much long-term power it buys). Two buttons ask which payouts appeal to a myopic, not scope-sensitive AI and to a non-myopic, ambitious AI; pressing one shades the matching half of the map, dims the rest and prints a one-line verdict. Done means the learner has tried both motivations. The prose around the widget is on the page, not in it: the excerpt just above it defines the two axes and the four quadrants, lists the same eleven payouts, says that low influence payouts appeal to myopic AIs and high influence ones to ambitious AIs, and notes that high freedom, high influence payouts are the likeliest to raise the AI's ability to attempt a takeover. The point the learner should reach at the map is that the split runs along influence, not freedom.
 height: auto
 tags: []
 ---
@@ -25,7 +25,6 @@ body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--tex
 h2 { font-family: var(--font-heading); font-weight: 600; margin: 0 0 4px; font-size: 18px; }
 .card { border: 1px solid var(--border); border-radius: 8px; background: #fff; overflow: hidden; }
 .head { border-bottom: 1px solid var(--border); background: var(--page); padding: 12px 16px; }
-.head p { margin: 0; color: var(--muted); font-size: 12px; }
 .body { padding: 16px; }
 .plot { overflow-x: auto; }
 .plot svg { min-width: 520px; width: 100%; display: block; }
@@ -36,13 +35,12 @@ button:hover { background: var(--page); }
 button[aria-pressed="true"] { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); font-weight: 600; }
 button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .reset { color: var(--muted); font-size: 12px; padding: 4px 8px; }
-.caption { margin: 12px 0 0; font-size: 13px; color: var(--muted); min-height: 4.5em; }
-.done { margin: 8px 0 0; font-size: 12px; color: var(--accent); }
+.caption { margin: 12px 0 0; font-size: 13px; color: var(--muted); min-height: 2.4em; }
 .axis { fill: var(--muted); font-family: var(--font-ui); }
 .dot { fill: var(--accent); stroke: #fff; stroke-width: 1.5; }
 .dotlabel { fill: var(--text); stroke: #fff; stroke-width: 4; paint-order: stroke; font-family: var(--font-ui); font-size: 10px; }
 .grp { transition: opacity .3s ease; }
-.band { fill: var(--accent); opacity: .08; transition: all .3s ease; }
+.band { fill: var(--accent); fill-opacity: .1; transition: opacity .3s ease; }
 @media (prefers-reduced-motion: reduce) { .grp, .band { transition: none; } }
 </style>
 </head>
@@ -50,7 +48,6 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 <div class="card">
   <div class="head">
     <h2>The space of payments to AIs</h2>
-    <p>Possible payouts mapped on two axes, freedom of spending and long-term influence, with the taxonomy's examples in each quadrant. The buttons show which payouts appeal to which AI motivations.</p>
   </div>
   <div class="body">
     <div class="plot">
@@ -63,7 +60,6 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
       <button id="btn-reset" class="reset" type="button">Reset</button>
     </div>
     <p class="caption" id="caption" aria-live="polite"></p>
-    <p class="done" id="done" hidden>You have looked at both motivations.</p>
   </div>
 </div>
 <script>
@@ -82,9 +78,9 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
     { x: 0.66, y: 0.68, label: "persuasion platform" }
   ];
   var CAPTIONS = {
-    none: "Two dimensions span the space of payments: how freely the AI can spend the payout, and how much long-term influence it gains. High-freedom payouts generally dominate low-freedom ones, because they are instrumentally convergent resources, except for AIs that want only narrow short-term or non-consequentialist things, or that fear their resources will be expropriated.",
-    myopic: "Low-influence payouts, which the post calls short-term consumption, mostly appeal to AIs with myopic, non-scope-sensitive motivations: the payout is used up now, and buys the AI little future power.",
-    ambitious: "High-influence payouts appeal to non-myopic, ambitious AIs. They also cost us the most: high-freedom, high-influence payouts are the likeliest to counterfactually increase the AI's ability to pursue a takeover attempt."
+    none: "",
+    myopic: "The bottom half: low influence, short-term consumption. The split runs along influence, not freedom.",
+    ambitious: "The top half: high influence, and the payouts likeliest to raise the AI's ability to attempt a takeover."
   };
   var W = 498, H = 290, X0 = 46, Y0 = 26;
   var NS = "http://www.w3.org/2000/svg";
@@ -92,7 +88,6 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   var seen = { myopic: false, ambitious: false };
   var svg = document.getElementById("map");
   var caption = document.getElementById("caption");
-  var doneEl = document.getElementById("done");
   var buttons = { myopic: document.getElementById("btn-myopic"), ambitious: document.getElementById("btn-ambitious") };
   var band, groups = [];
 
@@ -146,7 +141,6 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
     buttons.myopic.setAttribute("aria-pressed", mode === "myopic" ? "true" : "false");
     buttons.ambitious.setAttribute("aria-pressed", mode === "ambitious" ? "true" : "false");
     caption.textContent = CAPTIONS[mode];
-    doneEl.hidden = !(seen.myopic && seen.ambitious);
   }
 
   function summary() {
