@@ -1,7 +1,7 @@
 ---
 id: 'f20e4063-78a2-49cd-9066-97458c1d93cf'
 title: Follow the report
-summary_for_tutor: "Follow the report: an assembly exercise in two cases. Case 1 (Protection route) is Nadia, a frontier-developer safety engineer who reports a biological-risk deployment directly to the California Attorney General under SB 53 despite a broad NDA; the six links are Person, Subject, Recipient, Identity protection, NDA and remedy, Competent investigator. Case 2 (Evidence path) is a cooling contractor who emails a verifier a work order (Project Lattice, code PX-814, 1,024 accelerators over six weeks) matched by a utility allocation record; the six links are Preserve, Authenticate, Investigate, Corroborate, Package, Pass on. For each case the learner sees a bank of twelve statements (one correct and one decoy per link), picks a statement, places it on a link, then presses Check the route. Wrong links show a retry hint and can be taken back; correct links show the explanation and its source (California Labor Code 1107 to 1107.2, the AIWI/CARMA guide and SB 53 commentary, CIGIE Quality Standards for Investigations, Wasil et al., Baker et al. Table 14). When all six hold, the assembled finding appears: Case 1 ends with the legal route existing but identity protection and the office's competence unresolved; Case 2 ends with usable evidence for a bounded claim only (the expansion, not the workload). Done means both findings are recorded and the closing view shows the two thresholds: a statute can protect person, subject and recipient while leaving identity, competence or authority unresolved, and corroborated records can support one fact without proving the larger allegation. Content ported from XLab's Verification track."
+summary_for_tutor: "Follow the report: an assembly exercise in two cases. Case 1 (Protection route) is Nadia, a frontier-developer safety engineer who reports a biological-risk deployment directly to the California Attorney General under SB 53 despite a broad NDA; the six links are Person, Subject, Recipient, Identity protection, NDA and remedy, Competent investigator. Case 2 (Evidence path) is a cooling contractor who emails a verifier a work order (Project Lattice, code PX-814, 1,024 accelerators over six weeks) matched by a utility allocation record; the six links are Preserve, Authenticate, Investigate, Corroborate, Package, Pass on. For each case the learner sees a bank of twelve statements (one correct and one decoy per link), picks a statement, places it on a link, then presses Check the route. Wrong links show a retry hint and can be taken back; correct links show the explanation and its source (California Labor Code 1107 to 1107.2, the AIWI/CARMA guide and SB 53 commentary, CIGIE Quality Standards for Investigations, Wasil et al., Baker et al. Table 14). When all six hold, the assembled finding appears: Case 1 ends with the legal route existing but identity protection and the office's competence unresolved; Case 2 ends with usable evidence for a bounded claim only (the expansion, not the workload). Done means both findings are recorded; the page carries the closing note on the two thresholds (a statute can protect person, subject and recipient while leaving identity, competence or authority unresolved, and corroborated records can support one fact without proving the larger allegation). The lesson page carries the brief above the widget and that closing note below it. Content ported from XLab's Verification track."
 height: auto
 tags: [wip]
 ---
@@ -33,10 +33,6 @@ tags: [wip]
   p { margin: 0; }
   .lede, .muted { color: var(--muted); }
   .lede { margin-top: 8px; max-width: 46rem; }
-  .rail { list-style: none; margin: 16px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
-  .rail li { border: 1px solid var(--border); border-radius: 6px; padding: 6px 4px; text-align: center; font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
-  .rail li.is-active { border-color: var(--accent); color: var(--text); background: var(--surface); font-weight: 600; }
-  .rail li.is-past { background: var(--surface); color: var(--text); }
   .section { padding: 16px; }
   .section + .section { border-top: 1px solid var(--border); }
   .between { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: baseline; justify-content: space-between; }
@@ -80,13 +76,8 @@ tags: [wip]
   .line { border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; }
   .line .tag { color: var(--accent); font-weight: 600; margin-right: 6px; }
   .line b { font-weight: 600; }
-  .two { display: grid; gap: 12px; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 16px; }
-  .two .card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
-  .two .card h3 { margin-top: 0; }
-  .two .card p { margin-top: 8px; color: var(--muted); }
   .big { font-size: 24px; color: var(--accent); }
   @media (max-width: 600px) {
-    .two { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -95,8 +86,6 @@ tags: [wip]
   <header class="head">
     <p class="eyebrow">Reporting and protection · 2.4.2</p>
     <h1>Follow the report</h1>
-    <p class="lede">Reconstruct one route out of the organization and one route from allegation to usable evidence. Every statement in the bank belongs to at most one link, and half of them belong to none.</p>
-    <ol class="rail" id="rail" aria-label="Exercise progress"></ol>
   </header>
   <div id="main"></div>
 </div>
@@ -303,20 +292,6 @@ tags: [wip]
     }
   ];
 
-  var FINAL = {
-    eyebrow: "Two different thresholds",
-    title: "The report can travel without proving the case",
-    protection: {
-      title: "Protection finding",
-      text: "A statute can protect a person, subject, and recipient while leaving identity safeguards, technical competence, or authority unresolved."
-    },
-    evidence: {
-      title: "Evidence finding",
-      text: "Preserved and corroborated records may support one fact without supporting the larger allegation. The transmitted package must say exactly where that boundary lies."
-    }
-  };
-
-  var PHASES = ["1 · Protection route", "2 · Evidence path", "3 · Findings"];
   var STORAGE_KEY = "v-human-reporting-protection:v1";
 
   // State. `held` is transient (a statement picked up but not yet placed) and is not saved.
@@ -417,7 +392,7 @@ tags: [wip]
 
   function summary() {
     if (finished) {
-      return "The learner has completed both cases of Follow the report and recorded both findings: the protection finding (a statute can protect a person, subject, and recipient while leaving identity safeguards, technical competence, or authority unresolved) and the evidence finding (preserved and corroborated records may support one fact without supporting the larger allegation).";
+      return "The learner has completed both cases of Follow the report and recorded both findings. The closing note on the page states the two thresholds: a statute can protect a person, subject, and recipient while leaving identity safeguards, technical competence, or authority unresolved, and preserved and corroborated records may support one fact without supporting the larger allegation.";
     }
     var caseFile = currentCase();
     var parts = ["Follow the report, " + caseFile.eyebrow + " (" + caseFile.title + ")."];
@@ -451,7 +426,6 @@ tags: [wip]
     }
   }
 
-  var railEl = document.getElementById("rail");
   var mainEl = document.getElementById("main");
 
   function el(tag, cls, text) {
@@ -468,17 +442,6 @@ tags: [wip]
     return b;
   }
   function clearNode(node) { while (node.firstChild) node.removeChild(node.firstChild); }
-
-  function renderRail() {
-    clearNode(railEl);
-    var active = finished ? 2 : caseIndex;
-    PHASES.forEach(function (label, index) {
-      var li = el("li", null, (index < active ? "✓ " : "") + label);
-      if (index === active) { li.classList.add("is-active"); li.setAttribute("aria-current", "step"); }
-      if (index < active) li.classList.add("is-past");
-      railEl.appendChild(li);
-    });
-  }
 
   function renderCaseWork(caseFile) {
     var wrap = el("div");
@@ -631,16 +594,10 @@ tags: [wip]
   function renderFinal() {
     var sec = el("section", "section");
     sec.appendChild(el("p", "big", "✓"));
-    sec.appendChild(el("p", "eyebrow", FINAL.eyebrow));
-    sec.appendChild(el("h2", null, FINAL.title));
-    var two = el("div", "two");
-    [FINAL.protection, FINAL.evidence].forEach(function (f) {
-      var card = el("div", "card");
-      card.appendChild(el("h3", null, f.title));
-      card.appendChild(el("p", null, f.text));
-      two.appendChild(card);
-    });
-    sec.appendChild(two);
+    sec.appendChild(el("h2", null, "Both findings recorded"));
+    var note = el("p", "muted", "The closing note on the two thresholds is on the page below.");
+    note.style.marginTop = "10px";
+    sec.appendChild(note);
     var reset = btn("↺ Review both routes", null, "restart", restart);
     reset.style.marginTop = "20px";
     sec.appendChild(reset);
@@ -648,7 +605,6 @@ tags: [wip]
   }
 
   function render() {
-    renderRail();
     clearNode(mainEl);
     var caseFile = currentCase();
     if (finished) mainEl.appendChild(renderFinal());

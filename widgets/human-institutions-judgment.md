@@ -31,14 +31,6 @@ tags: [wip]
   h2 { font-size: 20px; line-height: 1.25; margin-top: 8px; }
   .lede { color: var(--muted); margin: 8px 0 0; max-width: 46rem; }
   .lab-head { padding: 20px; border-bottom: 1px solid var(--border); }
-  .rail { list-style: none; margin: 16px 0 0; padding: 0; display: grid; gap: 8px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  @media (min-width: 720px) { .rail { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
-  .rail li {
-    border: 1px solid var(--border); border-radius: 6px; padding: 6px 8px; text-align: center;
-    font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted);
-  }
-  .rail li.is-done { background: var(--surface); color: var(--text); }
-  .rail li.is-current { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); color: var(--accent); font-weight: 600; }
   .case { padding: 20px; background: var(--surface); border-bottom: 1px solid var(--border); }
   .case p.body { color: var(--muted); margin: 8px 0 0; max-width: 46rem; }
   .decision { padding: 20px; }
@@ -98,8 +90,6 @@ tags: [wip]
   <header class="lab-head">
     <p class="eyebrow" id="lab-eyebrow"></p>
     <h1 id="lab-title"></h1>
-    <p class="lede" id="lab-instruction"></p>
-    <ol class="rail" id="rail" aria-label="Decision-file progress"></ol>
   </header>
 
   <div id="step-view">
@@ -149,7 +139,6 @@ tags: [wip]
     "id": "institutions-judgment",
     "eyebrow": "Institutions and policy judgment · 2.4.4",
     "title": "Audit the verifier",
-    "instruction": "Inspect the institution before relying on its finding. Then separate what the human record establishes from what still requires technical or physical evidence, and match each decision to its legal and evidentiary threshold.",
     "caseTitle": "The International AI Verification Office",
     "caseBody": "The Office is examining Project Lattice. Two engineers independently report that management approved a concealed run after receiving a safety warning. Authenticated messages show the warning reached the relevant executives. Power and procurement records corroborate the project code and dates. The developer refuses raw scheduler logs and chip inventory, although the treaty mandate expressly requires both. A council (not the Office) has authority to impose sanctions.",
     "artifactTitle": "Institutional assessment and response record",
@@ -640,12 +629,6 @@ tags: [wip]
     return n;
   }
   function current() { return STEPS[state.stepIndex]; }
-  function phaseIndexOf(step) {
-    for (var i = 0; i < LAB.phases.length; i++) {
-      for (var j = 0; j < LAB.phases[i].steps.length; j++) if (LAB.phases[i].steps[j].id === step.id) return i;
-    }
-    return 0;
-  }
   function choiceById(step, id) {
     for (var i = 0; i < step.choices.length; i++) if (step.choices[i].id === id) return step.choices[i];
     return null;
@@ -754,20 +737,9 @@ tags: [wip]
     persist();
   }
 
-  var railEl = document.getElementById("rail");
   var choicesEl = document.getElementById("choices");
   var commitBtn = document.getElementById("commit");
   var nextBtn = document.getElementById("next");
-
-  function renderRail(active) {
-    railEl.textContent = "";
-    LAB.phases.forEach(function (phase, i) {
-      var li = el("li", null, (i < active ? "✓ " : "") + (i + 1) + " · " + phase.label);
-      if (i === active) { li.className = "is-current"; li.setAttribute("aria-current", "step"); }
-      else if (i < active) li.className = "is-done";
-      railEl.appendChild(li);
-    });
-  }
 
   function renderStep() {
     var entry = current();
@@ -839,7 +811,6 @@ tags: [wip]
   }
 
   function render() {
-    renderRail(state.finished ? LAB.phases.length : phaseIndexOf(current().step));
     document.getElementById("step-view").hidden = state.finished;
     document.getElementById("done-view").hidden = !state.finished;
     if (state.finished) renderDone(); else renderStep();
@@ -867,7 +838,6 @@ tags: [wip]
 
   document.getElementById("lab-eyebrow").textContent = LAB.eyebrow;
   document.getElementById("lab-title").textContent = LAB.title;
-  document.getElementById("lab-instruction").textContent = LAB.instruction;
   document.getElementById("case-title").textContent = LAB.caseTitle;
   document.getElementById("case-body").textContent = LAB.caseBody;
   document.getElementById("artifact-title").textContent = LAB.artifactTitle;
