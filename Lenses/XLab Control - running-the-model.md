@@ -25,6 +25,8 @@ Now run the machinery yourself. Each scenario gives you the three states: the mi
 
 Alongside the three states, each regime names the capability stage it is approaching in the [AI Futures Model](https://blog.ai-futures.org/p/ai-futures-model-dec-2025-update)'s milestones and the initial plan it starts under, in the sense of [[../Lenses/XLab Control - plans-a-b-c-and-d-for-misalignment-risk|Plans A, B, C, and D for misalignment risk]]. Roughly, A = a strong international agreement buys a long slowdown, B = the government treats buying lead time (a time advantage over rival developers that can be spent on safety work instead of racing) as a national-security priority, C = the leading lab spends its few-months lead on safety without government help, D = leadership isn't taking the risk seriously and a small safety team works with what it has.
 
+In each scenario you direct a safety team with 10 researchers' worth of effort, to divide across seven agendas in half-researcher steps. Set the split, then write the two short defences: the margin and the binding constraint.
+
 #### Widget
 source:: [[../widgets/xlab-control-portfolio-allocation]]
 required:: true
