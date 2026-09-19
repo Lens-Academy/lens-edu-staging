@@ -64,8 +64,8 @@ Read your report before you clip: the three real reports are below as readings, 
 content::
 The reports: [Anthropic model cards](https://www.anthropic.com/model-cards) (the Opus 4.7 card is a fictional teaching document modeled on them); [AISI Frontier AI Trends Report](https://www.aisi.gov.uk/frontier-ai-trends-report); [IAEA GOV/2026/8](https://www.iaea.org/sites/default/files/gov2026-8.pdf); [BIS order, In re Seagate](https://www.bis.gov/media/documents/export-violation/e2836.pdf).
 
-:::callout {title="Full text: Claude Opus 4.7 System Card (fictional teaching document)" tone="neutral" collapse="closed"}
-This is a fictional in-universe teaching document written by XLab and modeled on Anthropic’s published system cards. It is not a real system card, and its numbers describe no released model. Read it through, then clip from the candidate passages below.
+:::callout {title="Read first if you pick it: full text of the Claude Opus 4.7 System Card (fictional teaching document)" tone="neutral" collapse="closed"}
+This is a fictional in-universe teaching document written by XLab and modeled on Anthropic’s published system cards. It is not a real system card, and its numbers describe no released model. Read it through before you clip. The exercise below carries the same text in its Full report view, with the passages tappable.
 
 **§1 Introduction**
 
@@ -394,7 +394,7 @@ feedback-instructions:: Go reader by reader: name each of their questions that t
 
 --}#### Text
 content::
-The keys. Open only the one for the report you worked.
+The keys. Open the one for the report you worked, after you have delivered, and not before.
 
 :::callout {title="Key: Claude Opus 4.7 System Card (fictional teaching document)" tone="neutral" collapse="closed"}
 **Core clippings and their distillations**
