@@ -21,8 +21,6 @@ tags: []
 }
 *{box-sizing:border-box}
 body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
-h2{font-family:var(--font-heading);font-weight:600;margin:0 0 4px;font-size:17px}
-.eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
 .desc{color:var(--muted);margin:0 0 12px}
 .tabs{display:flex;gap:6px;margin:0 0 14px;flex-wrap:wrap}
 button{font:inherit;color:inherit;border:1px solid var(--border);border-radius:8px;background:#fff;padding:7px 10px;cursor:pointer}
@@ -45,8 +43,6 @@ svg{width:100%;height:auto;display:block}
 </style>
 </head>
 <body>
-<p class="eyebrow">Signal detection</p>
-<h2 id="ttl">The monitor as a noisy classifier</h2>
 <p class="desc" id="lede"></p>
 
 <div class="tabs">
@@ -162,7 +158,7 @@ function stat(box, k, v){
 
 function renderOne(pane){
   document.getElementById("lede").textContent =
-    "Innocent solutions and backdoored ones both get a suspicion score; the monitor is good exactly to the extent that the two score distributions pull apart. Drag the separation and watch what the blue team gets at its fixed 2% false-positive threshold.";
+    "Drag the separation and watch the operating point at the 2% false-positive threshold.";
   var ctl = el("div","ctl");
   var lab = el("label"); lab.setAttribute("for","dp");
   lab.appendChild(el("span","name","Monitor quality: separation d'"));
@@ -192,12 +188,11 @@ function renderOne(pane){
   stat(box, "Caught at a 2% budget", (tprAt(dprime,1,BUDGET)*100).toFixed(1) + "%");
   stat(box, "Missed", ((1 - tprAt(dprime,1,BUDGET))*100).toFixed(1) + "%");
   pane.appendChild(box);
-  pane.appendChild(el("p","note","At d' = 1.64 the model reproduces the paper's reported figure: a 0.338 probability that an attempted backdoor is audited, at a 2% false-positive rate. Real suspicion scores are not Gaussian; this is an idealisation for building intuition, not a fit to the paper's data."));
 }
 
 function renderTwo(pane){
   document.getElementById("lede").textContent =
-    "Two monitors drawn from the same model. Monitor A's attack scores are spread wide; Monitor B's are tightly bunched. Give them the same AUC, then give B a better one, and compare what each catches inside the blue team's 2% audit budget.";
+    "Give both monitors the same AUC, then give B a better one, and compare what each catches at the 2% budget.";
   [["A", "aucA", aucA, "var(--accent)"], ["B", "aucB", aucB, "var(--alt)"]].forEach(function(spec){
     var ctl = el("div","ctl");
     var lab = el("label");
@@ -235,7 +230,6 @@ function renderTwo(pane){
   stat(box, "B caught at 2%", (tprAt(muB,SD_B,BUDGET)*100).toFixed(1) + "%");
   stat(box, "Ratio A to B", (tprAt(muA,SD_A,BUDGET)/Math.max(1e-9, tprAt(muB,SD_B,BUDGET))).toFixed(2) + "x");
   pane.appendChild(box);
-  pane.appendChild(el("p","note","Set both to 0.92 and the areas under the two curves are identical while the catch rates are not. Then raise B to 0.97: five points of AUC buy it a tie, not a lead. What the blue team spends is a false-positive budget, so the number that predicts safety is the true-positive rate at a false-positive rate equal to that budget."));
 }
 
 function summary(){

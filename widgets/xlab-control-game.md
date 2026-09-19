@@ -22,8 +22,6 @@ tags: []
 }
 *{box-sizing:border-box}
 body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
-h2{font-family:var(--font-heading);font-weight:600;margin:0 0 4px;font-size:17px}
-.eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
 .desc{color:var(--muted);margin:0 0 12px}
 .tabs{display:flex;gap:6px;margin:0 0 14px;flex-wrap:wrap}
 button{font:inherit;color:inherit;border:1px solid var(--border);border-radius:8px;background:#fff;padding:7px 10px;cursor:pointer}
@@ -49,9 +47,7 @@ canvas{width:100%;height:auto;display:block;border:1px solid var(--border);borde
 </style>
 </head>
 <body>
-<p class="eyebrow">Blue team knobs, red team best response</p>
-<h2>The control game</h2>
-<p class="desc">Set the protocol; the red team re-optimises against whatever you set. Safety is always measured against that best response, so every number below already assumes the untrusted model is playing as well as it can.</p>
+<p class="desc">Set the protocol; the red team re-optimises against whatever you set.</p>
 
 <div class="knobs">
   <div class="ctl">
@@ -81,8 +77,6 @@ canvas{width:100%;height:auto;display:block;border:1px solid var(--border);borde
   <div><p class="k">Red attack rate</p><p class="v" id="sRate">-</p></div>
   <div><p class="k">Obfuscation effort</p><p class="v" id="sSig">-</p></div>
 </div>
-
-<p class="note">A model built for intuition, not a re-run of the paper's experiments. Opportunity quality is drawn from a Beta(2,5), a subtler backdoor is caught less often but is more often simply broken, and usefulness is charged as the share of problems handed to the weaker model.</p>
 
 <script>
 "use strict";
@@ -240,7 +234,7 @@ function drawDists(svg, b, d, q, sol){
   path(att, "var(--accent)", 2);
   svg.appendChild(svgEl("line",{x1:xOf(aT),x2:xOf(aT),y1:Y0,y2:Y0+H,stroke:"var(--text)","stroke-width":1,"stroke-dasharray":"3 3"}));
   svg.appendChild(txt(Math.min(X0+W, xOf(aT))-3, Y0+10, "audit", "end"));
-  if(dT < aT) svg.appendChild(txt(xOf(dT)+3, Y0+10, "defer band"));
+  if(dT < aT) svg.appendChild(txt(xOf(dT)+3, Y0+22, "defer band"));
   svg.appendChild(txt(X0+W/2, 146, "more suspicious", "middle"));
 }
 
@@ -344,7 +338,6 @@ function renderProtocol(pane, sol){
   pane.appendChild(row);
   drawDists(s1, b, dEff(), q, sol);
   drawFrontier(s2, b, q, b, dEff());
-  pane.appendChild(el("p","note","The grey curve is the frontier traced by sweeping the defer band at this audit budget and monitor quality; the dot is where your protocol sits on it. A better monitor or a larger budget lifts the whole curve up and to the right."));
 }
 
 function renderRed(pane, sol){
@@ -379,7 +372,6 @@ function renderRed(pane, sol){
   var xs2 = [], ys2 = [];
   for(i=0;i<NS;i++){ xs2.push(i/(NS-1)); ys2.push(sol.grid[i][sol.gi]); }
   drawLine(s2, xs2, ys2, sol.si, "obfuscation effort", "blatant", "maximally subtle");
-  pane.appendChild(el("p","note","Attack rarely and a decisive attempt may never happen; attack often and the extra attempts come from problems where a backdoor has less natural cover, so the monitor catches them. Both curves peak in the interior, which is why the paper's red team attacks on a small fraction of problems with moderate obfuscation."));
 }
 
 function summary(sol){

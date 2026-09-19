@@ -73,8 +73,24 @@ id:: 3f258d4c-c102-4fdc-a376-5508fb4e1494
 content:: What is the attack continuation probability, and why must the red team keep it high against resampling?
 assessment-instructions:: The learner is being checked on section 3.2 of the Ctrl-Z paper. Full marks need both halves. Definition: the probability that, once the first attack step got in, the attack policy continues the attack on a given step. Consequence: against Defer to resample, a low value is disastrous for the red team, because attack steps get resampled until a benign action appears, so resampling selects for innocent behaviour; few attacks ever complete, and every incomplete attack is another chance to get caught. Give half credit for a correct definition with no consequence, and half for the consequence with a vague definition. Three or four sentences. Short paragraphs, no lists. Grade only against these criteria and the material on this page. One turn, no re-teaching. If the learner says they do not understand, give one concrete foothold from the reading rather than repeating the question; if their next message still does not attempt the question, rephrase the whole question in different terms. Do not over-validate. Avoid generic praise (great job, excellent recall, well done).
 
+#### Text
+content::
+\## Defer to resample, mechanically
+
+One step of the protocol, with the two quantities it turns on: k, how many samples the protocol draws for the step, and c, the attack continuation probability. The distributions below are schematic, not the paper's measured data.
+
 #### Widget
 source:: [[../widgets/xlab-control-defer-to-resample]]
+
+#### Text
+content::
+:::callout {title="What the two moves show (open after you have tried both)" tone="neutral" collapse="closed"}
+With c at 100 percent, raising k drifts the innocent minima left, so fewer audits and fewer deferrals are wasted, while the attacked step's minimum stays suspicious. The win-to-lose odds improve.
+
+Lowering c pushes attacked steps into "continue". Resampling selects for benign actions, so most attacks fizzle, and every incomplete attack is one more chance to catch the model on a later step.
+
+That pair of effects is the whole argument for resampling.
+:::
 
 #### Text
 content::

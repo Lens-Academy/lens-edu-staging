@@ -23,8 +23,6 @@ tags: []
 }
 *{box-sizing:border-box}
 body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
-h2{font-family:var(--font-heading);font-weight:600;margin:0 0 4px;font-size:17px}
-.eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
 .desc{color:var(--muted);margin:0 0 12px}
 .plotwrap{position:relative;width:100%;max-width:460px;margin:0 auto}
 svg.plot{width:100%;height:auto;display:block}
@@ -47,9 +45,7 @@ button.fam:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 </style>
 </head>
 <body>
-<p class="eyebrow">Table 7, every protocol at once</p>
-<h2>The safety/usefulness frontier</h2>
-<p class="desc">Every protocol from Table 7 plotted as safety against usefulness. Hover a point, click a legend entry to isolate a method family, and highlight the Pareto frontier of protocols not beaten on both axes at once.</p>
+<p class="desc">Hover a point, click a legend entry to isolate a method family, and tick the box to highlight the Pareto frontier.</p>
 
 <div class="plotwrap" id="wrap"></div>
 
