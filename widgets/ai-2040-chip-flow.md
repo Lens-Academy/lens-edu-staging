@@ -1,7 +1,7 @@
 ---
 id: '4ad43f6b-6fa8-430c-b8e4-a2d0ab0768bc'
 title: Chip flow restrictions, 2029 and 2032
-summary_for_tutor: "An interactive reproduction of the AI 2040 verification supplement's two 'Chip Flow Restrictions' scatter charts (2029 and 2032). Devices from an iPhone 16 Pro Max to a GB200 NVL72 rack are plotted by cross-chip interconnect speed (GB/s, log scale) against compute per device (H100e, log scale); dot size encodes memory capacity and a filled accent dot means HBM-class memory bandwidth (at or above about 1.5 TB/s). The 2029 view draws the dashed Tier 0 (unrestricted consumer) versus Tier 1 (subject to the deal: inference-only or cold storage) boundary at about 50 GB/s interconnect and 0.4 H100e; the 2032 view instead draws the AI-relevant floor at 4,000 TPP (about 0.25 H100e) with the 30M H100e unverified edge-compute cap (25M pre-deal plus 5M new credits; verified edge compute exempt). The learner switches between the two years and hovers or presses a device to read its exact numbers and its tier or floor status. Done means they have viewed both years and inspected at least three devices."
+summary_for_tutor: "An interactive reproduction of the AI 2040 verification supplement's two 'Chip Flow Restrictions' scatter charts (2029 and 2032), placed in the reading just below the collapsed chip flow restrictions box whose tables it makes interactive. Devices from an iPhone 16 Pro Max to a GB200 NVL72 rack are plotted by cross-chip interconnect speed (GB/s, log scale) against compute per device (H100e, log scale); dot size encodes memory capacity and a filled accent dot means HBM-class memory bandwidth (at or above about 1.5 TB/s). The 2029 view draws the dashed Tier 0 (unrestricted consumer) versus Tier 1 (subject to the deal: inference-only or cold storage) boundary at about 50 GB/s interconnect and 0.4 H100e; the 2032 view instead draws the AI-relevant floor at 4,000 TPP (about 0.25 H100e) and names the 30M H100e unverified edge-compute cap (25M pre-deal plus 5M new credits; verified edge compute exempt). The learner switches between the two years and hovers or presses a device to read its exact numbers and its tier or floor status. Done means they have viewed both years and inspected at least three devices. The lesson page carries the two captions, the tier rule (Tier 1 begins above roughly 10 TB memory capacity or HBM-class bandwidth) and both device tables inside the collapsed source boxes, plus a one-line lead-in naming the chart, so the widget itself carries only the picture, the readouts and one instruction line."
 height: auto
 tags: [wip]
 ---
@@ -22,11 +22,9 @@ tags: [wip]
     --font-ui: "DM Sans", Arial, sans-serif; --font-heading: "Newsreader", Georgia, serif;
   }
   * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
   body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
-  h1, h2 { font-family: var(--font-heading); font-weight: 600; margin: 0; }
-  h1 { font-size: 22px; }
-  h2 { font-size: 17px; }
-  .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0 0 4px; }
+  h2 { font-family: var(--font-heading); font-weight: 600; margin: 0; font-size: 17px; }
   .lede { color: var(--muted); margin: 4px 0 12px; max-width: 46rem; }
   .card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: #fff; }
   .years { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
@@ -45,7 +43,7 @@ tags: [wip]
   .chart .dev.is-active circle.ring { opacity: 1; }
   .chart .dev.is-seen text { text-decoration: underline; text-decoration-color: #c9c4b8; }
   .side { display: flex; flex-direction: column; gap: 10px; }
-  .detail { border: 1px solid var(--border); border-radius: 8px; background: var(--surface); padding: 10px 12px; min-height: 120px; }
+  .detail { border: 1px solid var(--border); border-radius: 8px; background: var(--surface); padding: 10px 12px; }
   .detail h2 { margin-bottom: 4px; }
   .detail dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; font-size: 13px; }
   .detail dt { color: var(--muted); }
@@ -68,9 +66,7 @@ tags: [wip]
 </style>
 </head>
 <body>
-<p class="eyebrow">Interactive chart</p>
-<h1>Chip flow restrictions, 2029 and 2032</h1>
-<p class="lede">Where familiar devices sit on interconnect speed and compute, and which side of the deal's line they fall on. Switch the year, then hover or press a device to read its numbers.</p>
+<p class="lede">Switch the year, then hover or press a device to read its numbers.</p>
 
 <div class="card">
   <div class="years" id="years" role="group" aria-label="Year"></div>
@@ -97,8 +93,6 @@ tags: [wip]
       boundary: { interconnect: 50, compute: 0.4 },
       tier0: ["Tier 0: Unrestricted", "consumer"],
       tier1: ["Tier 1: Subject to deal", "inference-only or cold storage"],
-      memoryNote: "tier 1 above 10 TB (scale-up)",
-      bandwidthNote: "tier 1 above HBM2 (~1.5 TB/s)",
       devices: [
         { name: "iPhone 16 Pro Max", compute: 0.011, interconnect: 1.25, memory: 8, bandwidth: 150, lx: 8, ly: -8, anchor: "start" },
         { name: "Tesla HW3", compute: 0.061, interconnect: 0.125, memory: 16, bandwidth: 384, lx: 8, ly: -8, anchor: "start" },
@@ -243,7 +237,6 @@ tags: [wip]
     view.devices.forEach(function (x) { if (x.name === state.device) d = x; });
     if (!d) {
       detail.appendChild(h("h2", null, view.title));
-      detail.appendChild(h("p", null, "Hover or press a device to read its compute, interconnect, memory and bandwidth, and which side of the line it falls on."));
     } else {
       detail.appendChild(h("h2", null, d.name));
       var dl = h("dl");
@@ -257,11 +250,8 @@ tags: [wip]
       detail.appendChild(v);
     }
     policy.textContent = "";
-    if (view.boundary) {
-      var p1 = h("p"); p1.appendChild(h("strong", null, "Memory capacity: ")); p1.appendChild(document.createTextNode(view.memoryNote + ".")); policy.appendChild(p1);
-      var p2 = h("p"); p2.appendChild(h("strong", null, "Memory bandwidth: ")); p2.appendChild(document.createTextNode(view.bandwidthNote + ".")); policy.appendChild(p2);
-      var p3 = h("p"); p3.appendChild(h("strong", null, "Dashed boundary: ")); p3.appendChild(document.createTextNode("about 50 GB/s interconnect and 0.4 H100e compute.")); policy.appendChild(p3);
-    } else {
+    policy.hidden = !!view.boundary;
+    if (!view.boundary) {
       var q1 = h("p"); q1.appendChild(h("strong", null, "Unverified edge-compute cap: ")); q1.appendChild(document.createTextNode(view.cap.total + "M H100e: " + view.cap.preDeal + "M already in world (pre-deal) + " + view.cap.credits + "M new credits.")); policy.appendChild(q1);
       policy.appendChild(h("p", null, "Verified edge compute → exempt."));
     }
@@ -291,7 +281,8 @@ tags: [wip]
     key("", "below ~1.5 TB/s");
     key("ring", "dot size: memory capacity (8 GB to 13 TB)");
     var n = seenDeviceCount();
-    statusEl.textContent = isDone() ? "Both years viewed, " + n + " devices inspected. Compare where the H20 and RTX 4090 land in each year." : "Progress: " + (state.seenYears["2029"] ? "2029 viewed" : "2029 not yet viewed") + ", " + (state.seenYears["2032"] ? "2032 viewed" : "2032 not yet viewed") + ", " + n + " of 3 devices inspected.";
+    var yearsSeen = (state.seenYears["2029"] ? 1 : 0) + (state.seenYears["2032"] ? 1 : 0);
+    statusEl.textContent = isDone() ? "Done: both years viewed, " + n + " devices inspected." : "Viewed " + yearsSeen + " of the 2 years, inspected " + n + " of 3 devices.";
     statusEl.classList.toggle("is-done", !!isDone());
   }
 
