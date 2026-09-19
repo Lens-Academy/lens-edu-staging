@@ -306,6 +306,13 @@ Two things to hold while you read the routes below. The scores synthesize the so
 
 #### Text
 content::
+The explorer below carries all ten routes from the previous lens, with the Section B scores on the seven routes that have them. Three routes are left unscored.
+
+#### Widget
+source:: [[../widgets/evasion-taxonomy]]
+
+#### Text
+content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Scher, Aaron, David Abecassis, Peter Barnett, and Brian Abeyta. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *arXiv*, Nov. 2025. [arxiv.org](https://arxiv.org/abs/2511.10783)
 *The draft agreement. Appendix A carries the treaty text; Articles IV to VII are the assigned range. Also published by the MIRI Technical Governance Team at [techgov.intelligence.org](https://techgov.intelligence.org/research/an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence).*
