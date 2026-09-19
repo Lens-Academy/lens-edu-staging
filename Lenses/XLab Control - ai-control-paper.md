@@ -314,6 +314,12 @@ assessment-instructions:: There is no model answer for this one. Grade against t
 #### Widget
 source:: [[../widgets/xlab-control-game]]
 
+#### Text
+content::
+:::callout {title="How the model is built" tone="neutral" collapse="closed"}
+A model built for intuition, not a re-run of the paper's experiments. Opportunity quality is drawn from a Beta(2,5), a subtler backdoor is caught less often but is more often simply broken, and usefulness is charged as the share of problems handed to the weaker model.
+:::
+
 #### Callout: Understanding check
 tone:: amber
 
