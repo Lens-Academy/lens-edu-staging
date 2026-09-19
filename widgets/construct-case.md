@@ -1,7 +1,7 @@
 ---
 id: '5073b6d6-2703-450d-b682-4e64b98325f3'
 title: Insider Report (Construct a Case)
-summary_for_tutor: "A constructed-response exercise from XLab's Verification track (the live Insider Report). The learner writes one case, in four boxes (Insider, Information, Reporting route, Failure point, 100 to 180 words in total), in which an insider's report about a prohibited AI activity is accurate, the insider is legally permitted to report it, and the verification regime still cannot turn the report into actionable evidence. While drafting, rule-based desk checks flag empty boxes, length, a failure point that rests on lying, forbidden reporting or being ignored (all ruled out by the brief), a failure point with no mechanism, information that does not say how the insider knows it, and a failure point that shares no words with the case; a steelman deck draws one of eight challenge questions at a time. Submit the case freezes the boxes, counts as done, and only then reveals the five-point marking key the learner ticks against their own answer, the five Check your case questions, the list of failure modes that count (corroboration, the recipient cannot share, the facility or account is unidentified, records unavailable or outside the mandate, the channel strips follow-up detail) and two worked cases (a cloud scheduling engineer whose report stalls on corroboration; a chip-vendor compliance officer whose agency cannot share the file across the border). A Score my case button sends the four boxes to the AI assessor with the same marking key. The saved-state summary gives you the learner's four boxes, the desk-check flags and their self-mark. Coach on the failure point: it must be a named mechanism inside the institution, not a false allegation and not a verifier who simply ignores the report."
+summary_for_tutor: "The constructed-response exercise XLab runs as the Insider Report. The learner writes one case in four boxes (Insider, Information, Reporting route, Failure point) in which an insider's report about a prohibited AI activity is accurate, the insider is legally permitted to report it, and the verification regime still cannot turn the report into actionable evidence. The three conditions, the 100 to 180 word brief and the four box names are page text directly above the widget, so the widget opens on the first box. While the learner drafts, rule-based desk checks re-run on every keystroke and mark the box they are about: empty boxes, total length, a failure point that rests on the allegation being false, on reporting being forbidden or on the verifier ignoring it (all three ruled out by the brief), a failure point with no mechanism in it, information that never says how the insider knows, and a failure point that shares no substantive word with the rest of the case. A steelman deck deals one of eight challenge questions at a time. Submit the case freezes the four boxes, counts as done, and reveals the five-point marking key the learner ticks against their own answer; a Score my case button sends the four boxes to the AI assessor with the same key, and feedback can be requested on the score. Three collapsed callouts on the page below the widget hold the rest, all of it withheld until the learner has submitted: 'Check your case' (five questions), 'Where a report can die' (the four failure categories that do not count and the five that do) and 'Two cases that work, for different reasons' (the two worked cases). The saved-state summary gives you the learner's four boxes, the desk-check flags and their self-mark. Coach on the failure point: it must be a named mechanism inside the institution, not a false allegation and not a verifier who simply ignores the report."
 height: auto
 tags: [wip]
 ---
@@ -27,12 +27,6 @@ tags: [wip]
   p { margin: 0; }
   .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0; }
   .stack > * + * { margin-top: 16px; }
-  .intro p + p, .intro ol { margin-top: 10px; }
-  .intro .prompt { font-size: 15px; font-weight: 500; }
-  .intro ol { padding-left: 24px; margin-bottom: 0; }
-  .intro li + li { margin-top: 6px; }
-  .intro li::marker { color: var(--accent); font-weight: 500; }
-  .intro .length { color: var(--muted); }
   .panel { border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: #fff; }
   .panel.surface { background: var(--surface); }
   .panel-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 16px; }
@@ -40,6 +34,9 @@ tags: [wip]
   .field { border: 1px solid var(--border); border-radius: 8px; padding: 12px 16px 14px; background: #fff; }
   .field + .field { margin-top: 10px; }
   .field label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; }
+  .field.is-flagged { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+  .field .flag { font-weight: 400; font-size: 12px; color: var(--accent-hover); margin-left: 8px; display: none; }
+  .field.is-flagged .flag { display: inline; }
   textarea {
     width: 100%; font: inherit; color: inherit; background: #fff; resize: vertical;
     border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; line-height: 1.5;
@@ -81,11 +78,6 @@ tags: [wip]
   .plain.muted { color: var(--muted); margin-top: 6px; }
   .muted { color: var(--muted); }
   .small { font-size: 12px; }
-  .worked { margin-top: 12px; }
-  .worked .kicker { font-weight: 600; }
-  .worked dl { margin: 12px 0 0; }
-  .worked dt { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-top: 10px; }
-  .worked dd { margin: 2px 0 0; }
   .status { min-height: 1.5em; }
   .score-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
   [hidden] { display: none !important; }
@@ -93,14 +85,6 @@ tags: [wip]
 </head>
 <body>
 <div class="stack">
-  <div class="intro">
-    <p class="eyebrow">Insider Report &middot; 8&ndash;10 minutes</p>
-    <p class="prompt">Give one example of a situation in which all three conditions are satisfied:</p>
-    <ol id="conditions"></ol>
-    <p>Describe the situation and explain why each condition is satisfied.</p>
-    <p class="length">Use 100&ndash;180 words in total.</p>
-  </div>
-
   <div id="fields"></div>
 
   <div class="row">
@@ -152,40 +136,6 @@ tags: [wip]
     "Is reporting permitted?",
     "Does the verification failure arise from the institution rather than from the allegation being false?",
     "Can you identify the precise missing link between report and action?"
-  ];
-
-  var EXCLUDED = [
-    "the insider lies",
-    "the insider is wrong",
-    "reporting is illegal",
-    "the verifier ignores the report for no reason"
-  ];
-
-  var FAILURE_MODES = [
-    "evidence cannot be independently corroborated",
-    "the authorized recipient cannot legally share the information with the verifier",
-    "the report identifies a suspicious activity but not the facility or account involved",
-    "relevant records are unavailable or outside the verifier’s mandate",
-    "the reporting channel strips information needed for follow-up"
-  ];
-
-  var WORKED = [
-    {
-      id: "corroboration",
-      kicker: "The failure is corroboration.",
-      insider: "A scheduling engineer at a cloud provider, working on the team that allocates accelerator capacity to enterprise customers.",
-      information: "She saw a single customer account hold 12,000 accelerators in one region for nineteen continuous days, under a contract flagged for research use. The allocation is real and she read it off the systems she administers.",
-      route: "She files under the provider’s protected-disclosure policy, which permits reporting suspected treaty violations to the national authority, and she does so.",
-      failure: "The authority can establish that the capacity was held. It cannot establish what ran on it. The workload records belong to the customer, not the provider, and no route obliges the customer to produce them. The report stalls one step short of the activity it alleges."
-    },
-    {
-      id: "sharing-barrier",
-      kicker: "The failure is who may be told.",
-      insider: "A compliance officer at a chip vendor, responsible for export-control screening.",
-      information: "He processed a set of shipments whose declared end use does not match the delivered configuration, and the discrepancy is in the file he signed.",
-      route: "He reports to the national export-control agency, which is the recipient his own law names and protects.",
-      failure: "The agency believes him and opens its own case. What it cannot do is hand the file to the international verifier: the shipment records are commercially confidential and the agency has no authority to share them across the border. The verifier is told a concern exists and is given nothing it can act on."
-    }
   ];
 
   var DECK = [
@@ -363,14 +313,17 @@ tags: [wip]
   }
 
   // ---- static build ----
-  var conditionsEl = document.getElementById("conditions");
-  CONDITIONS.forEach(function (c) { conditionsEl.appendChild(el("li", null, c)); });
-
   var fieldsEl = document.getElementById("fields");
+  var fieldBoxes = {};
+  var fieldFlags = {};
   FIELDS.forEach(function (f) {
     var box = el("div", "field");
     var label = el("label", null, f.label);
     label.htmlFor = "f-" + f.id;
+    var flag = el("span", "flag", "");
+    label.appendChild(flag);
+    fieldBoxes[f.id] = box;
+    fieldFlags[f.id] = flag;
     var ta = document.createElement("textarea");
     ta.id = "f-" + f.id;
     ta.rows = f.rows;
@@ -409,21 +362,36 @@ tags: [wip]
     resetBtn.hidden = !state.submitted;
   }
 
+  // Which box each desk check is about, so the mark lands on the box and not only in the list.
+  var CHECK_FIELD = { excluded: "failure", mechanism: "failure", consistency: "failure", "how-known": "information" };
+
   function renderChecks() {
     var show = started() && !state.submitted;
     checksEl.hidden = !show;
     deckEl.hidden = !show;
+    FIELDS.forEach(function (f) {
+      fieldBoxes[f.id].classList.remove("is-flagged");
+      fieldFlags[f.id].textContent = "";
+    });
     if (!show) return;
     clear(checkList);
     var MARK = { ok: "✓", warn: "!", bad: "✗" };
     var NAME = { ok: "passes", warn: "warning", bad: "fails" };
+    var flagged = {};
     runChecks().forEach(function (row) {
+      var target = CHECK_FIELD[row.id];
+      if (target && row.severity !== "ok") flagged[target] = (flagged[target] || 0) + 1;
       var line = el("p", "check " + row.severity);
       var mark = el("span", "mark", MARK[row.severity]);
       mark.setAttribute("aria-label", NAME[row.severity]);
       line.appendChild(mark);
       line.appendChild(el("span", null, row.message));
       checkList.appendChild(line);
+    });
+    Object.keys(flagged).forEach(function (id) {
+      if (!fieldBoxes[id]) return;
+      fieldBoxes[id].classList.add("is-flagged");
+      fieldFlags[id].textContent = flagged[id] === 1 ? "1 desk check to answer" : flagged[id] + " desk checks to answer";
     });
   }
 
@@ -528,47 +496,6 @@ tags: [wip]
       key.appendChild(scoreBox);
     }
     stack.appendChild(key);
-
-    // Check your case
-    var check = panel("Check your case");
-    var cl = el("ul", "plain");
-    CHECKLIST.forEach(function (line) { cl.appendChild(el("li", null, line)); });
-    check.appendChild(cl);
-    stack.appendChild(check);
-
-    // Where a report can die
-    var die = panel("Where a report can die");
-    var lead = el("p", "muted");
-    lead.style.marginTop = "8px";
-    lead.appendChild(document.createTextNode("All of it held back until now, and deliberately: naming where a report dies is the work, and a page that had listed the categories first would have left you filling them in. Four that do not count: "));
-    EXCLUDED.forEach(function (line, i) {
-      if (i > 0) lead.appendChild(document.createTextNode(i === EXCLUDED.length - 1 ? ", or " : ", "));
-      var strong = el("span", null, line);
-      strong.style.color = "var(--text)";
-      lead.appendChild(strong);
-    });
-    lead.appendChild(document.createTextNode(". Some that do:"));
-    die.appendChild(lead);
-    var fm = el("ul", "plain");
-    FAILURE_MODES.forEach(function (line) { fm.appendChild(el("li", null, line)); });
-    die.appendChild(fm);
-    stack.appendChild(die);
-
-    // Worked cases
-    var worked = el("section");
-    worked.appendChild(el("p", "eyebrow", "Two cases that work, for different reasons"));
-    WORKED.forEach(function (w) {
-      var art = el("article", "panel worked");
-      art.appendChild(el("p", "kicker", w.kicker));
-      var dl = el("dl");
-      [["Insider", w.insider], ["Information", w.information], ["Reporting route", w.route], ["Failure point", w.failure]].forEach(function (pair) {
-        dl.appendChild(el("dt", null, pair[0]));
-        dl.appendChild(el("dd", null, pair[1]));
-      });
-      art.appendChild(dl);
-      worked.appendChild(art);
-    });
-    stack.appendChild(worked);
 
     revealEl.appendChild(stack);
   }

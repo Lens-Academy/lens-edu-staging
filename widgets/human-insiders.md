@@ -1,7 +1,7 @@
 ---
 id: '55e77b5f-adc2-4342-aef5-fd07e3853f35'
 title: Who knows what? (Insider Report)
-summary_for_tutor: "A three-phase source-assessment drill from XLab's Verification track. Phase 1, Assess sources: six insider cards (Evaluator, Training engineer, Infrastructure operator, Procurement or finance staff, Supplier or data-center contractor, Executive or board member). For each, the learner reads the source's prompt, reported claim, incentives and consistency test, then picks one card in each of three columns (Could observe, Could not establish, Check against) from three options each and presses Check assessment; wrong picks show the source's own mismatch line, and a fully correct pick reveals the one-paragraph assessment for that source. Phase 2, Review report (unlocked after all six sources are assessed): the Project Lattice case report (a cooling contractor reporting a capacity expansion for 1,024 accelerators, work-order code PX-814, an independently obtained utility record, a pending financial reward) and four commit-then-reveal credibility questions on Access, Incentives, Consistency and Independent corroboration; a wrong answer shows a retry hint and the learner must answer correctly to continue. Phase 3, Record finding: the disposition (Further investigation warranted, no compliance finding), the finding text, the four basis lines, and four failure modes (Selective truth, Coordinated cover story, Management staging, Suppression). Done means the learner reached the finding. The saved-state summary tells you which sources are assessed, which credibility questions are answered, and where the learner is. When the learner over-reaches, use the widget's own line: a job title alone proves nothing; limit the claim to what the person could observe, state what remains unknown, and choose evidence the source did not control."
+summary_for_tutor: "An optional warm-up drill from XLab's Verification track, placed before the Insider Report case-writing exercise on the same page. The learner works six insider sources one at a time (Evaluator, Training engineer, Infrastructure operator, Procurement or finance staff, Supplier or data-center contractor, Executive or board member). For each, they read the source's prompt, reported claim, incentives and consistency test, then pick one card in each of three columns (Could observe, Could not establish, Check against) and press Check assessment; wrong picks are marked on the card that was chosen and the column shows the source's own mismatch line, and a fully correct set locks the cards and reveals the one-paragraph assessment. After all six are assessed, the learner reviews the Project Lattice case report (a cooling contractor reporting a capacity expansion for 1,024 accelerators, work-order code PX-814, an independently obtained utility record, a pending financial reward) and answers four commit-then-reveal credibility questions on Access, Incentives, Consistency and Independent corroboration; a wrong answer shows a retry hint and must be corrected before the learner can continue. The widget ends on the finding (Further investigation warranted, no compliance finding) with the four basis lines the learner earned, and done means the learner reached it. The page around the widget carries the rest: the lead-in text above it states the task, and a collapsed callout below it, 'Why a consistent account may still be wrong', holds the four failure modes (Selective truth, Coordinated cover story, Management staging, Suppression) for the learner to open after issuing the finding. The saved-state summary tells you which sources are assessed, which credibility questions are answered, and where the learner is. When the learner over-reaches, use the widget's own line: a job title alone proves nothing; limit the claim to what the person could observe, state what remains unknown, and choose evidence the source did not control."
 height: auto
 tags: [wip]
 ---
@@ -32,13 +32,6 @@ tags: [wip]
   .small { font-size: 12px; }
   .muted { color: var(--muted); }
   .wrap { border: 1px solid var(--border); border-radius: 8px; background: var(--bg); overflow: hidden; }
-  header.top { padding: 20px; border-bottom: 1px solid var(--border); }
-  header.top h1 { margin-top: 8px; }
-  .lede { color: var(--muted); margin-top: 8px; max-width: 46rem; }
-  .rail { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 16px 0 0; padding: 0; list-style: none; }
-  .rail li { border: 1px solid var(--border); border-radius: 6px; padding: 8px 6px; text-align: center; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
-  .rail li.is-active { border-color: var(--accent); color: var(--accent); background: var(--surface); font-weight: 600; }
-  .rail li.is-done { color: var(--text); background: var(--surface); }
   button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 8px 12px; cursor: pointer; text-align: left; }
   button:hover { background: var(--surface); }
   button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -119,24 +112,12 @@ tags: [wip]
   .basis-list { margin: 8px 0 0; padding: 0; list-style: none; display: grid; gap: 6px; font-size: 12px; }
   .basis-list li { display: flex; gap: 8px; }
   .basis-list li .mark { flex: none; color: var(--accent-hover); font-weight: 600; }
-  .modes { display: grid; gap: 10px; margin-top: 12px; }
-  @media (min-width: 640px) { .modes { grid-template-columns: 1fr 1fr; } }
-  .mode { border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
-  .mode h4 { font-family: var(--font-ui); font-size: 13px; font-weight: 600; }
-  .mode p { margin-top: 4px; font-size: 12px; color: var(--muted); }
-  .foot { border-top: 1px solid var(--border); margin-top: 20px; padding-top: 16px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; }
-  .foot p { max-width: 36rem; font-size: 12px; color: var(--muted); }
+  .foot { border-top: 1px solid var(--border); margin-top: 20px; padding-top: 16px; display: flex; gap: 12px; justify-content: flex-end; }
   .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 </style>
 </head>
 <body>
 <div class="wrap" id="app">
-  <header class="top">
-    <p class="eyebrow">Source assessment · 2.4.1</p>
-    <h1>Who knows what?</h1>
-    <p class="lede">For each source, identify what they could observe, what they could not know, and which independent record could verify the claim. You will produce a short assessment for each source.</p>
-    <ol class="rail" id="rail" aria-label="Exercise progress"></ol>
-  </header>
   <div id="stage" aria-live="polite"></div>
 </div>
 
@@ -356,13 +337,6 @@ tags: [wip]
     disposition: "Further investigation warranted · no compliance finding",
     text: "The report supports a finding that Project Lattice expanded infrastructure at the stated site and time. It does not show which workload ran or whether any rule was breached. Investigators should preserve the work orders and utility record, then obtain receiving records, serial numbers, scheduler telemetry, model-lineage records, and approval documents."
   };
-
-  var FAILURE_MODES = [
-    { name: "Selective truth", check: "The expansion may be real even if the claimed prohibited workload is not. Do not treat proof of infrastructure as proof of how it was used." },
-    { name: "Coordinated cover story", check: "Matching accounts are not independent if managers selected, briefed, or monitored the speakers." },
-    { name: "Management staging", check: "A clean tour and selected records show what management chose to present. They do not rule out undeclared activity elsewhere." },
-    { name: "Suppression", check: "A lack of reports means little if staff have no safe reporting channel, cannot see the relevant declarations, or reasonably fear retaliation." }
-  ];
 
   var PHASES = [
     { id: "map", label: "1 · Assess sources" },
@@ -599,26 +573,13 @@ tags: [wip]
     return b;
   }
 
-  var railEl = document.getElementById("rail");
   var stageEl = document.getElementById("stage");
 
   function render() {
-    renderRail();
     stageEl.textContent = "";
     if (state.phase === "map") stageEl.appendChild(renderMap());
     else if (state.phase === "examine") stageEl.appendChild(renderExam());
     else stageEl.appendChild(renderFinding());
-  }
-
-  function renderRail() {
-    railEl.textContent = "";
-    var active = 0;
-    for (var i = 0; i < PHASES.length; i++) if (PHASES[i].id === state.phase) active = i;
-    PHASES.forEach(function (p, index) {
-      var li = el("li", index === active ? "is-active" : (index < active ? "is-done" : ""), (index < active ? "✓ " : "") + p.label);
-      if (index === active) li.setAttribute("aria-current", "step");
-      railEl.appendChild(li);
-    });
   }
 
   function renderMap() {
@@ -828,24 +789,7 @@ tags: [wip]
     card.appendChild(basis);
     root.appendChild(card);
 
-    var sec = el("section");
-    sec.style.marginTop = "24px";
-    sec.appendChild(el("p", "eyebrow", "Common failure modes"));
-    var h = el("h3", null, "Why a consistent account may still be wrong");
-    h.style.marginTop = "6px";
-    sec.appendChild(h);
-    var modes = el("div", "modes");
-    FAILURE_MODES.forEach(function (mode) {
-      var a = el("article", "mode");
-      a.appendChild(el("h4", null, mode.name));
-      a.appendChild(el("p", null, mode.check));
-      modes.appendChild(a);
-    });
-    sec.appendChild(modes);
-    root.appendChild(sec);
-
     var foot = el("div", "foot");
-    foot.appendChild(el("p", null, "A human source can tell an investigator where to look and which records to preserve. Technical or physical evidence is still needed for facts the source did not observe."));
     foot.appendChild(btn("↺ Start over", "", restart));
     root.appendChild(foot);
     return root;
