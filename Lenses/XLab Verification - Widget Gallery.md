@@ -13,70 +13,6 @@ This page collects every interactive built for Compute Verification Parts 1 and 
 
 #### Text
 content::
-\## Part 1 · Week 3: Who the treaty relies on, applies to, and constrains
-
-Module file: [[../modules/XLab Verification P1 W3 Treaty actors]]
-
-#### Text
-content::
-\### Lens: [[../Lenses/XLab Verification - v-interactive-map]]
-
-#### Text
-content::
-\## Part 1 · Week 4: Upstream and downstream
-
-Module file: [[../modules/XLab Verification P1 W4 Evidence and its readers]]
-
-#### Text
-content::
-\### Lens: [[../Lenses/XLab Verification - v-context-distiller]]
-
-#### Text
-content::
-\#### The Distiller (context-distiller)
-
-**Decision: widget.** All five XLab stages are interactive (clip from a decoy-laden pool under a cap, tap-to-compress reveal, two commit-then-reveal actor picks, a point-to-reader threading board with a delivery verdict and letters); none is free writing, and the whole flow with all four reports fits in 142 KB.
-
-**Target lens:** [[../Lenses/XLab Verification - v-context-distiller]]
-
-**Where it goes:** after the Text segment "The exercise takes the five steps in the order that makes them workable" (the "\## The Distiller" heading block), where the Choice segment "Pick one report. You will work it through every step below" sits today.
-
-**What it replaces:** (a) the Choice segment 21ffdd3a-ab25-4e20-9187-78f9e6d5870e (report pick is the widget's first screen); (b) the four Open questions that stood in for the widget: 27da880f (clip and distil), a84c30be (upstream), 8d9e55c8 (downstream), 09aa8344 (thread), together with their "\### 1 and 2. Clip, then distil" / "\### 3." / "\### 4." / "\### 5." heading Text blocks, whose prose is the widget's own phase lead copy; (c) the four "Candidate passages" callouts (the widget holds the same pools, shuffled per section) and the "Read your report through before clipping" paragraph. These should go entirely. Keep: the intro, five-steps list, worked example, "Your Options" list and the warm-up Open 4bbefd68 (all precede the widget); the report-links Text and the three Article segments for AISI, IAEA and Seagate as reading (the widget shows only excerpts of those three; the r1 full text is inside the widget's "Full report" view, so the "Full text: Claude Opus 4.7 System Card" callout may go or stay collapsed); the four "Key" callouts and "Works cited" at the end should stay collapsed as the tutor's reference, since the widget builds all of its text in JavaScript and the tutor otherwise sees only the summary.
-
-**In XLab:** <VerificationExercise id="context-distiller" /> in context-distiller.mdx, core, not inside a Fold, directly after the "Your Options (Pick One)" list and the notebook callout "For each: where did it come from, who reads it next?".
-
-**Learner time:** 35 minutes for one report (XLab's lesson is budgeted at 75 minutes including the readings); a second report or the tight-budget replay adds 15 to 20.
-
-Picks one of four reports (fictional Claude Opus 4.7 System Card; AISI Frontier AI Trends Report; IAEA GOV/2026/8; BIS order against Seagate) and clips passages from a per-section pool of core facts and decoys into a capped notebook (12/11/10/10), reordering or dropping as they go; for the system card they can also read the whole card and clip highlighted passages in place. Each clipping is then tapped to compress into XLab's pre-written distillation for the report's post, which is where decoys are exposed as filler. They multi-select the upstream actors and then the downstream readers, commit, and see each option marked yes, missed, no or left out with XLab's reason. On the threading board they pin their distilled points to readers (each reader shows what they already know and the questions they need answered), deliver, and see which questions went unanswered and which passage would have answered them, plus points wasted on readers who already knew them and clips wasted on filler; a letters view shows each reader exactly what they were sent. Lens.complete() fires on the first delivery, as XLab's onComplete does; a perfect standard run unlocks the tight-budget replay.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-Stages in: all five (Clip with excerpt and full-report views, Distil, Upstream, Downstream, Thread) plus the delivered letters screen, the tight-budget replay, two-tap Reset, Change report with per-report runs retained, and Escape to clear an armed pin or trace. Nothing left out. Data source: XLAB `src/lib/verification/data/context-distiller.ts` (all four reports, every block, stakeholder, question, actor and reportDoc paragraph, inlined verbatim via a build script), UI copy from `src/components/verification/widgets/context-distiller.tsx`, rules from `src/lib/verification/engines/context-distiller.ts`, all at the clone's HEAD.
-
-Adapted:
-- Em dashes: 52 data strings (all in the system card report) and a handful of UI strings had em dashes; each was replaced with a comma, or a colon where the dash introduced an explanation. Three lead-dash lines became parentheticals: "(filler; nothing here changes what a reader does.)", "(you sent this reader nothing.)", "(your distillation)".
-- Option order: XLab renders upstream and downstream options as key actors first, then distractors, which is solvable by position. The widget shuffles them with a seeded shuffle keyed on report id plus "up"/"down" (FNV-1a and mulberry32, as in XLab's `src/lib/shuffle.ts`). The clipping pool is shuffled per section as in XLab, but keyed on report id plus section id instead of a per-visit random seed, so the order is stable across devices and reloads.
-- Toasts became an inline status line under the phase lead (same wording). SVG thread curves draw only at 900px and up, as XLab draws them only at its lg breakpoint; below that the thread chips on each reader card carry the state.
-- The notebook count adds "(tight budget)" in tight mode, so the mode is visible after the one-time status message.
-- The letters view is remembered in saved state so a restore renders the same screen; XLab reset it to the board on reload.
-- `runs`/`best` are tracked as in XLab and reported in the tutor summary; XLab tracks them without displaying them.
-Uncertain: none. The r1 report is fictional and carries XLab's "fictional teaching document" pill; the other three link to their source URLs.
-:::
-
-#### Widget
-source:: [[../widgets/context-distiller]]
-
-#### Text
-content::
-\## Part 1 · Week 4: What makes a verification mechanism effective?
-
-Module file: [[../modules/XLab Verification P1 W4 Mechanism effectiveness]]
-
-#### Text
-content::
-\### Lens: [[../Lenses/XLab Verification - v-mechanism-effective]]
-
-#### Text
-content::
 \## Part 1 · Week 5: Hardware verification
 
 Module file: [[../modules/XLab Verification P1 W5 Hardware verification]]
@@ -146,41 +82,6 @@ Module file: [[../modules/XLab Verification Part 2 W07 Cloud limits and intellig
 #### Text
 content::
 \### Lens: [[../Lenses/XLab Verification - v-cloud-evidence]]
-
-#### Text
-content::
-\#### Cloud Evidence Drill (cloud-evidence-drill)
-
-**Decision: widget.** Nine commit-then-reveal tasks (true/false grid, odd one out with a gated free sentence, multi-select, matching, gap fill, ordering, concept naming, case multi-select, single choice) with instant verdict, hint, explanation and sources per task, a progress rail and a finish gate; Lens Choice segments have no reveal and no order/sequence interaction.
-
-**Target lens:** [[../Lenses/XLab Verification - v-cloud-evidence]]
-
-**Where it goes:** "## Cloud verification problem set *30 minutes* Answer from the assigned readings." (the second Text segment, directly after the "## 2.2.4 Interpreting cloud evidence" intro)
-
-**What it replaces:** the whole native reproduction of the drill: the "Cloud verification problem set" Text segment with its Task 1 heading, 18 Question segments (6 Choice true/false, 1 Choice + 1 Open for the odd one out, 1 multi Choice, 4 Choice matching, 1 FillBlank gaps, 1 Ranking, 1 FillBlank concepts, 1 multi Choice case, 1 Choice inference), the 9 closed "Why"/"Review" callouts, and the "Problem set complete" Text (its two paragraphs and the policy-scope link are the widget's finish screen). All of it should go entirely; the widget carries every prompt, option, explanation and source link. Keep the "2.2.4 Interpreting cloud evidence" intro Text before the widget and the "Works cited" callout after it. Suggested segment: `#### Widget` / `source:: [[../widgets/cloud-evidence-drill]]` / `required:: true`.
-
-**In XLab:** <VerificationExercise id="cloud-evidence-drill" /> in cloud-evidence.mdx, core (the lesson is only the intro paragraph plus the exercise), not inside a Fold
-
-**Learner time:** 30 minutes (XLab's header; the nine task timings sum to 30)
-
-The learner works through nine tasks on a numbered rail: marks six statements true or false, picks the odd observable and writes a one-sentence principle, selects the data categories a KYC-implementing provider actually holds, matches four observables to the strongest conclusion each supports, fills five gaps of a verification map from an eight-term bank, orders the six stages of the Egan and Heim KYC scheme (drag or arrow buttons), names four mechanisms, qualifies the evidence in a rendering-versus-training case, and chooses the permissible inference for six sibling accounts under a per-account threshold. Each task has a Check answer button: a wrong check shows XLab's hint and the sources and leaves the inputs open; a right check shows "Supported" with XLab's explanation, locks the task and ticks it on the rail (tasks 1, 3 and 7 also open a review list). Finish problem set unlocks once all nine are solved and shows XLab's closing screen with the Carnegie policy-scope link and Run again.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-- All nine tasks ported; nothing dropped. Every prompt, statement, option, hint, explanation, source label and link is verbatim from `xlab-tracks/src/lib/verification/data/cloud-evidence-drill.ts` and the JSX text of `xlab-tracks/src/components/verification/widgets/cloud-evidence-drill.tsx` (current HEAD; the widget does not use the kit). A script check confirmed every data string and every `wrong=`/`correct=`/Prompt string from the component appears unchanged in the widget. XLab's copy has no em dashes; the en dash in "Egan–Heim" and the section ranges is XLab's.
-- Task 2's principle sentence is gated by XLab's engine `explainsOddCloudObservable` (`xlab-tracks/src/lib/verification/engines/cloud-evidence-drill.ts`), ported verbatim: at least 28 characters, one actor term, one activity term, one contrast term, and the odd item must be the beneficial-ownership record. No `Lens.submit`: XLab has no marking key for it beyond this lexical check, and the sentence reaches the tutor through the saveState summary. If AI grading of that sentence is wanted, the current lens's Open segment (id 476ba00c-21b3-455d-be70-a978bd1640bc) could be kept after the widget; its rubric is the porter's, not XLab's.
-- Option order: XLab renders every list in authored order, which makes four tasks solvable by position (matching rows 1-4 = conclusions 1-4; gap rows 1-5 = the first five bank terms; concept rows 1-4 = mechanisms 1-4; the case's first three options are the true ones). Following XLab's own `src/lib/shuffle.ts` (ported: FNV-1a + mulberry32 + Fisher-Yates, seeded on a fixed per-question key), the widget shuffles the odd-one-out items, the matching conclusions, the term bank, the mechanisms, the case options and the inference options. Rows (the question side) keep XLab's order. Not shuffled: the true/false statements (numbered, and XLab's explanation says "1 True; 2 False ..."), the sequence start order (XLab authors it deliberately), and the select-all categories, because XLab's explanation reads "The first five categories are available under the stated conditions" and shuffling would make that sentence false; that task therefore keeps a positional pattern (first five true), as in XLab.
-- Wrong true/false rows: XLab marks them by border colour only; the widget adds a check or cross glyph beside the statement so the state is visible without colour. This is the only visual addition.
-- Drag: XLab uses dnd-kit; the widget uses native HTML5 drag on the rows plus the same up/down arrow buttons, so the prompt "Drag a row or use its arrow buttons" stays true. Drag is not exercised by the jsdom tests; arrows are.
-- State: XLab keeps nothing across reloads (component state only). The widget saves every pick, the principle text, the sequence order, per-task verdicts, solved set, current task and finished flag; restore renders identically (verified). `Lens.complete()` fires once, on Finish problem set with all nine solved, mirroring XLab's `onComplete`; Run again resets the drill but does not re-fire complete, like XLab's `completedOnce` ref.
-- Standalone fallback: localStorage under `lens-widget-cloud-evidence-drill`.
-:::
-
-#### Widget
-source:: [[../widgets/cloud-evidence-drill]]
-
-#### Text
-content::
-\### Lens: [[../Lenses/XLab Verification - v-intel-intro]]
 
 #### Text
 content::
