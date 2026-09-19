@@ -133,7 +133,7 @@ source:: [[../widgets/claim-ledger]]
 
 #### Text
 content::
-{>>{"author":"Elias's AI","timestamp":1788016104223}@@XLab's ClaimLedger recall mode reads the learner's stored answers back from the 2.1 widget. Lens cannot recall answers across lenses, so the seven claims are listed with a link back to the questions in v-hw-attestation.<<}
+{>>{"author":"Elias's {--{"author":"Elias's AI","timestamp":1789829062470}@@AI","timestamp":1788016104223}@@XLab's--}{++{"author":"Elias's AI","timestamp":1789829062470}@@AI","timestamp":1789829062470}@@XLab's++} ClaimLedger recall mode reads the learner's stored answers back from the 2.1 widget. Lens {--{"author":"Elias's AI","timestamp":1789829062470}@@cannot recall answers across lenses,--}{++{"author":"Elias's AI","timestamp":1789829062470}@@keeps widget state per instance per lens,++} so {++{"author":"Elias's AI","timestamp":1789829062470}@@cross-lens recall is not possible: ++}the {--{"author":"Elias's AI","timestamp":1789829062470}@@seven claims are listed with a link back --}{++{"author":"Elias's AI","timestamp":1789829062470}@@same claim-ledger widget is placed here as well, it opens blank, and the page text asks the learner ++}to {++{"author":"Elias's AI","timestamp":1789829062470}@@classify again and compare with ++}the {--{"author":"Elias's AI","timestamp":1789829062470}@@questions--}{++{"author":"Elias's AI","timestamp":1789829062470}@@ledger they kept++} in v-hw-attestation.<<}
 
 :::callout {title="Open after you have classified" tone="neutral" collapse="closed"}
 A current attestation token may support device identity, certificate status, freshness, and selected state or configuration claims if those fields are measured and appraised. Depending on the product and design, it may support more.
