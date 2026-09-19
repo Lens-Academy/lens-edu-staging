@@ -1,7 +1,7 @@
 ---
 id: 'e1433365-dadf-4a34-b627-0e03adf74f76'
 title: The control timeline
-summary_for_tutor: "XLab's control-timeline figure, shown in the reading right after the learner answers the open question on whether transformatively useful models could still be controllable. A schematic axis runs from now to the future through three regions: not yet transformatively useful, the control window, and uncontrollable. One slider, labelled 'Time that we have transformatively useful, controllable models', moves only the control frontier, so the learner widens or closes the window while the arrival of transformative usefulness stays put. Under the axis, four milestones for what time inside the window buys light up as the window widens, ordered by ambition: massively accelerate safety research (speed up safety R&D by a large factor, perhaps 30x); harden the world (patch security holes at scale, deploy safe systems across the economy); police rogue AIs and extend the delay (obstruct misaligned-AI activity, help enforce agreements, buy more time); and exit on our terms (hold control until there is an extremely solid argument for alignment). At the minimum the window disappears entirely and the widget says so: models are already uncontrollable by the time they are transformatively useful, so control never gets the chance to pay off. Widths are deliberately qualitative, an ordering of successive frontier systems rather than calendar time. Nothing is graded; the widget is marked complete once the learner has widened the window far enough to light all four milestones. If a learner is stuck, ask what the lab would actually do with the window, and what would close it."
+summary_for_tutor: "XLab's control-timeline figure, placed in the reading right after the learner answers the open question on whether transformatively useful models could still be controllable. The widget is the figure and its one control: a schematic axis running from now to the future through three regions, not yet transformatively useful, the control window, and uncontrollable, with a single slider labelled 'Time that we have transformatively useful, controllable models' that moves only the control frontier, so the learner widens or closes the window while the arrival of transformative usefulness stays put. Under the axis, four milestones for what time inside the window buys light up as the window widens, ordered by ambition: massively accelerate safety research (speed up safety R&D by a large factor, perhaps 30x); harden the world (patch security holes at scale, deploy safe systems across the economy); police rogue AIs and extend the delay (obstruct misaligned-AI activity, help enforce agreements, buy more time); and exit on our terms (hold control until there is an extremely solid argument for alignment). At the minimum the window disappears entirely and the widget says so: models are already uncontrollable by the time they are transformatively useful, so control never gets the chance to pay off. The page carries the surrounding prose: a Text segment before the widget introduces the three regions and says the slider moves only the control frontier, and a Text segment after it holds the caveat that widths are qualitative, an ordering of successive frontier systems rather than calendar time, and that the width depends on how fast capabilities are pushed past transformative usefulness. Nothing is graded; the widget is marked complete once the learner has widened the window far enough to light all four milestones. If a learner is stuck, ask what the lab would actually do with the window, and what would close it."
 height: auto
 tags: []
 ---
@@ -10,7 +10,7 @@ tags: []
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <!-- Ported from XLab Tracks (github.com/XLabTracks/tracks), Control track figure
      "control-timeline" (components/exercises/control-timeline.tsx), rebuilt as
      vanilla HTML/JS in the Lens look. -->
@@ -18,13 +18,12 @@ tags: []
 :root{
   --bg:#ffffff; --page:#faf8f3; --text:#1a1a1a; --muted:#5a5a5a; --border:#e8e5df;
   --accent:#b87018; --accent-hover:#9a5c10; --ok:#2f6b3a; --bad:#9a2c2c;
-  --font-ui:"DM Sans",Arial,sans-serif; --font-heading:"Newsreader",Georgia,serif;
+  --font-ui:"DM Sans",Arial,sans-serif;
 }
 *{box-sizing:border-box}
 body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
-h2{font-family:var(--font-heading);font-weight:600;margin:0 0 4px;font-size:17px}
+[hidden]{display:none !important}
 .eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
-.desc{color:var(--muted);margin:0 0 12px}
 .figure{border:1px solid var(--border);border-radius:8px;background:var(--page);padding:12px}
 svg#timeline{width:100%;height:auto;display:block}
 .ctl{margin-top:14px}
@@ -42,15 +41,10 @@ li.on .mk{border-color:var(--ok);color:var(--ok);font-weight:600}
 li.off .mk{color:transparent}
 .lead{font-weight:600}
 .body{color:var(--muted)}
-.note{color:var(--muted);font-size:12px;margin:14px 0 0}
 @media (max-width:420px){ body{padding:12px} }
 </style>
 </head>
 <body>
-<p class="eyebrow">The control window</p>
-<h2>The control timeline</h2>
-<p class="desc">A schematic axis from now to the future with three regions: not yet transformatively useful, the control window, and uncontrollable. The slider adjusts how long models remain controllable after becoming transformatively useful. The arrival of transformative usefulness is fixed; the slider moves only the control frontier.</p>
-
 <div class="figure">
 <svg id="timeline" viewBox="0 0 560 190" role="img" aria-label="The control timeline: a schematic axis from now to the future with three regions, not yet transformatively useful, the control window, and uncontrollable. A slider adjusts how long models remain controllable after becoming transformatively useful."></svg>
 </div>
@@ -63,8 +57,6 @@ li.off .mk{color:transparent}
 <p class="eyebrow buys">What the window buys</p>
 <p class="nowindow" id="nowindow" hidden>No window: models are already uncontrollable by the time they are transformatively useful, so control never gets the chance to pay off.</p>
 <ul class="ms" id="ms"></ul>
-
-<p class="note">Widths are qualitative: an ordering of successive frontier systems, not calendar time. The window's width isn't fixed in advance. It depends on how fast capabilities are pushed past transformative usefulness, and the reading argues we should hold off on building uncontrollable AI for as long as possible.</p>
 
 <script>
 "use strict";
