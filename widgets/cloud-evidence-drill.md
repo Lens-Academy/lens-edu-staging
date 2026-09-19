@@ -1,7 +1,7 @@
 ---
 id: 'a696e0bc-0060-4525-8138-463465ed3126'
 title: Cloud verification problem set
-summary_for_tutor: "A nine-task drill on reading cloud-provider records for exactly what they prove, ported from XLab's cloud-evidence-drill. The learner moves through the tasks with a numbered rail: (1) six true or false statements about billing records, power, workload data, accounting versus classification, the KYC threshold and RAND's metrics; (2) odd one out among four observables (the beneficial-ownership record is the odd one) plus a one-sentence principle that must name who controls the account versus technical activity metrics; (3) select every data category a KYC-implementing provider has without code access (five of eight); (4) match four observables to the strongest conclusion each supports (compute estimate, training more likely, KYC identity link, attested property); (5) fill five gaps of a verification map from an eight-term bank (KYC, record keeping, workload classification, compute accounting, reporting or escalation); (6) order the six stages of the Egan and Heim KYC scheme; (7) name four mechanisms from descriptions; (8) a rendering-declared customer showing a training-shaped pattern: pick the three supported conclusions and reject intent, contents and violation; (9) six sibling accounts each under a per-account FLOP threshold: the justified response is to open an investigation. Each task has a Check answer button; a wrong check shows a hint and the sources, a right check shows XLab's explanation and marks the task solved. The learner's current picks, the principle sentence and which tasks are solved are in the widget state. Done means all nine tasks solved and Finish problem set clicked; the closing screen states that provider records can link an account to a verified identity, estimate resource use and support a classification, but do not establish intent, model contents, capability or a legal violation. When helping, hold the learner to the qualifiers in each prompt and do not give away an unsolved task's answer."
+summary_for_tutor: "A nine-task drill on reading cloud-provider records for exactly what they prove, ported from XLab's cloud-evidence-drill. All nine tasks are stacked on one page and each is checked on its own: (1) six true or false statements about billing records, power, workload data, accounting versus classification, the KYC threshold and RAND's metrics; (2) odd one out among four observables (the beneficial-ownership record is the odd one); (3) select every data category a KYC-implementing provider has without code access (five of eight); (4) match four observables to the strongest conclusion each supports (compute estimate, training more likely, KYC identity link, attested property); (5) fill five gaps of a verification map from an eight-term bank (KYC, record keeping, workload classification, compute accounting, reporting or escalation); (6) order the six stages of the Egan and Heim KYC scheme; (7) name four mechanisms from descriptions; (8) a rendering-declared customer showing a training-shaped pattern: pick the three supported conclusions and reject intent, contents and violation; (9) six sibling accounts each under a per-account FLOP threshold: the justified response is to open an investigation. Each task has a Check answer button; a check marks the learner's own items right or wrong on the spot, a wrong check keeps the inputs open and shows XLab's hint plus the sources, a right check shows XLab's explanation and locks the task. In task 1 each statement carries its own Why note after a check. The learner's picks and which tasks are solved are in the widget state. Done means all nine tasks solved. The page around the widget carries the 30-minute framing and the instruction to answer from the assigned readings, the follow-up Open question asking for the odd-one-out principle in one sentence, the closing statement about what provider records do and do not establish with the Carnegie policy-scope link, and the Works cited callout. When helping, hold the learner to the qualifiers in each prompt and do not give away an unsolved task's answer."
 height: auto
 tags: [wip]
 ---
@@ -17,36 +17,24 @@ tags: [wip]
 <style>
   :root {
     --bg: #ffffff; --text: #1a1a1a; --muted: #5a5a5a; --border: #e8e5df;
-    --surface: #faf8f3; --accent: #b87018; --accent-hover: #9a5c10;
+    --surface: #faf8f3; --accent: #b87018; --accent-hover: #9a5c10; --bad: #b3261e;
     --font-ui: "DM Sans", Arial, sans-serif; --font-heading: "Newsreader", Georgia, serif;
   }
   * { box-sizing: border-box; }
   body { margin: 0; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
-  .drill { border: 1px solid var(--border); border-radius: 8px; background: #fff; overflow: hidden; }
-  header { padding: 20px; border-bottom: 1px solid var(--border); }
-  .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0; }
-  h1 { font-family: var(--font-heading); font-weight: 600; font-size: 26px; line-height: 1.15; margin: 10px 0 0; }
-  h2 { font-family: var(--font-heading); font-weight: 600; font-size: 22px; margin: 0; }
-  .lede { color: var(--muted); margin: 8px 0 0; max-width: 42rem; }
-  .rail { list-style: none; margin: 16px 0 0; padding: 0; display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); gap: 6px; }
-  .rail button { width: 100%; min-height: 36px; padding: 4px 2px; font-size: 12px; border-radius: 6px; display: flex; align-items: center; justify-content: center; }
-  .rail button.is-active { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); color: var(--accent-hover); font-weight: 600; }
-  .rail button.is-done { background: var(--surface); }
-  .task-head { padding: 10px 20px; border-bottom: 1px solid var(--border); display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
-  .task-head .eyebrow { letter-spacing: 0.06em; }
-  .task-head h3 { font-size: 16px; font-weight: 600; margin: 0; }
-  .task-head .kind { margin-left: auto; font-size: 12px; color: var(--muted); }
-  .body { padding: 12px 20px 16px; }
+  .drill { display: grid; gap: 14px; }
+  .task { border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 14px 20px 16px; }
+  .task h2 { font-family: var(--font-heading); font-weight: 600; font-size: 18px; margin: 0 0 10px; }
   .prompt { border: 1px solid var(--border); background: var(--surface); border-radius: 8px; padding: 8px 12px; margin: 0; }
   .grid { display: grid; gap: 8px; margin-top: 12px; }
   @media (min-width: 640px) { .grid.two { grid-template-columns: 1fr 1fr; } }
   .card { border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; background: #fff; }
   .card.is-right { border-color: var(--accent); }
-  .card.is-wrong { border-color: #b3261e; }
+  .card.is-wrong { border-color: var(--bad); }
   .card .num { color: var(--muted); margin-right: 6px; }
-  .card .mark { font-size: 12px; font-weight: 600; margin-left: 6px; }
-  .card.is-wrong .mark { color: #b3261e; }
-  .card.is-right .mark { color: var(--accent-hover); }
+  .mark { font-size: 12px; font-weight: 600; margin-left: 6px; white-space: nowrap; }
+  .mark.is-right { color: var(--accent-hover); }
+  .mark.is-wrong, .mark.is-miss { color: var(--bad); }
   .pair { display: flex; gap: 8px; margin-top: 6px; }
   button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 8px 12px; cursor: pointer; text-align: left; }
   button:hover { background: var(--surface); }
@@ -59,6 +47,8 @@ tags: [wip]
   button.small.is-on { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); color: var(--accent-hover); font-weight: 600; }
   button.choice { display: flex; align-items: flex-start; gap: 10px; width: 100%; padding: 8px 12px; }
   button.choice.is-on { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+  button.choice.is-right { border-color: var(--accent); }
+  button.choice.is-wrong { border-color: var(--bad); }
   button.choice:disabled.is-on { opacity: 1; }
   .dot, .box { flex: 0 0 auto; width: 18px; height: 18px; margin-top: 2px; border: 1px solid var(--border); background: #fff; display: inline-flex; align-items: center; justify-content: center; }
   .dot { border-radius: 50%; }
@@ -67,15 +57,15 @@ tags: [wip]
   .choice.is-on .box { border-color: var(--accent); background: var(--accent); color: #fff; }
   .choice.is-on .box svg { display: block; }
   .box svg { display: none; }
-  label.field { display: block; font-weight: 600; margin-top: 16px; }
-  textarea { width: 100%; font: inherit; color: inherit; margin-top: 8px; border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px; resize: vertical; min-height: 64px; }
-  textarea:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
   select { width: 100%; font: inherit; color: inherit; margin-top: 8px; border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; background: #fff; }
+  select:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
   .row-grid { display: grid; gap: 10px; }
   .gap-row { display: grid; gap: 4px; }
   @media (min-width: 640px) { .gap-row { grid-template-columns: 1fr 240px; align-items: center; } .gap-row select { margin-top: 0; } }
   .seq { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 6px; }
   .seq li { display: flex; align-items: center; gap: 8px; border: 1px solid var(--border); border-radius: 8px; padding: 4px; background: #fff; }
+  .seq li.is-right { border-color: var(--accent); }
+  .seq li.is-wrong { border-color: var(--bad); }
   .seq li.is-dragging { opacity: 0.4; }
   .seq li.is-over { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
   .seq .grip { width: 36px; height: 36px; padding: 0; display: inline-flex; align-items: center; justify-content: center; color: var(--muted); cursor: grab; flex: 0 0 auto; }
@@ -83,44 +73,23 @@ tags: [wip]
   .seq .txt { flex: 1 1 auto; min-width: 0; }
   .seq .arrows { display: flex; gap: 4px; flex: 0 0 auto; }
   .seq .arrows button { width: 36px; height: 36px; padding: 0; display: inline-flex; align-items: center; justify-content: center; }
-  .ordered { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 6px; }
-  @media (min-width: 640px) { .ordered { grid-template-columns: 1fr 1fr; } }
-  .ordered li { border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px; display: flex; gap: 8px; }
-  .ordered .num { color: var(--muted); font-size: 12px; font-weight: 600; flex: 0 0 auto; }
   .check { margin-top: 10px; }
   .check .end { display: flex; justify-content: flex-end; }
   .status { border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; display: flex; gap: 10px; align-items: flex-start; }
   .status.ok { border-color: var(--accent); background: var(--surface); }
-  .status.bad { border-color: #b3261e; }
+  .status.bad { border-color: var(--bad); }
   .status .icon { flex: 0 0 auto; margin-top: 2px; color: var(--accent-hover); }
   .status .title { font-weight: 600; margin: 0; }
   .status .text { margin: 4px 0 0; color: var(--muted); }
-  .status.bad .text { color: #b3261e; margin: 0; }
+  .status.bad .text { color: var(--bad); margin: 0; }
   details { margin-top: 6px; font-size: 12px; }
   summary { cursor: pointer; font-weight: 600; color: var(--accent-hover); }
   details ul { margin: 6px 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 4px 14px; }
-  details.review { margin-top: 12px; font-size: 14px; border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px; }
-  details.review summary { color: var(--text); }
-  details.review ol, details.review ul, details.review dl { margin: 10px 0 0; padding: 0 0 0 0; display: grid; gap: 10px; list-style: none; }
-  @media (min-width: 640px) { details.review ol, details.review ul, details.review dl { grid-template-columns: 1fr 1fr; } }
-  details.review li, details.review dd { color: var(--muted); }
-  details.review li b, details.review dt { color: var(--text); font-weight: 600; }
-  details.review dd { margin: 2px 0 0; }
-  details.review .tag { color: var(--muted); margin-right: 4px; }
+  details .note { margin: 6px 0 0; color: var(--muted); }
   a { color: var(--accent-hover); font-weight: 500; text-decoration: none; }
   a:hover { text-decoration: underline; }
-  .ok-line { border: 1px solid var(--accent); background: var(--surface); border-radius: 8px; padding: 8px 12px; margin: 12px 0 0; font-weight: 500; }
-  nav { margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; gap: 8px; }
-  nav .count { font-size: 12px; color: var(--muted); }
-  .hint { color: var(--muted); font-size: 12px; text-align: right; margin: 8px 0 0; }
-  .finish { padding: 32px 20px; text-align: center; }
-  .finish .inner { max-width: 40rem; margin: 0 auto; }
-  .finish p { color: var(--muted); margin: 12px 0 0; }
-  .finish .actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 20px; }
-  .finish a.btn { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px; color: var(--text); }
-  .finish a.btn:hover { background: var(--surface); text-decoration: none; }
   .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
-  @media (max-width: 480px) { header, .task-head, .body { padding-left: 12px; padding-right: 12px; } .rail button { min-height: 32px; font-size: 11px; } }
+  @media (max-width: 480px) { .task { padding-left: 12px; padding-right: 12px; } }
 </style>
 </head>
 <body>
@@ -232,25 +201,16 @@ tags: [wip]
   ];
 
   var TASKS = [
-    { label: "True / false", title: "True or false", time: "3 min" },
-    { label: "Odd one out", title: "Find the odd one out", time: "3 min" },
-    { label: "Select all", title: "Select all that apply", time: "3 min" },
-    { label: "Matching", title: "Match the pairs", time: "4 min" },
-    { label: "Gaps", title: "Fill the gaps", time: "4 min" },
-    { label: "Sequence", title: "Put the stages in order", time: "3 min" },
-    { label: "Concepts", title: "Name the mechanism", time: "3 min" },
-    { label: "Case", title: "Qualify the evidence", time: "4 min" },
-    { label: "Inference", title: "Choose the permissible inference", time: "3 min" }
+    { title: "True or false" },
+    { title: "Find the odd one out" },
+    { title: "Select all that apply" },
+    { title: "Match the pairs" },
+    { title: "Fill the gaps" },
+    { title: "Put the stages in order" },
+    { title: "Name the mechanism" },
+    { title: "Qualify the evidence" },
+    { title: "Choose the permissible inference" }
   ];
-
-  // Odd-one-out principle check (verbatim from XLab's engine).
-  var ACTOR_TERMS = /\b(actor|customer|entity|identity|owner|owners|ownership|beneficial|who|person|people|user)\b/i;
-  var ACTIVITY_TERMS = /\b(account activity|activity|compute|flops|gpu|hardware|metric|metrics|operation|operations|power|resource|resources|technical|telemetry|usage|workload)\b/i;
-  var CONTRAST_TERMS = /\b(but|compared|contrast|different|other|others|rather|remaining|three|whereas|while)\b/i;
-  function explainsOddCloudObservable(response) {
-    var normalized = response.trim().replace(/\s+/g, " ");
-    return normalized.length >= 28 && ACTOR_TERMS.test(normalized) && ACTIVITY_TERMS.test(normalized) && CONTRAST_TERMS.test(normalized);
-  }
 
   // Seeded shuffle (ported from XLab's src/lib/shuffle.ts): option lists are
   // shown in an order that is a function of the question id, never of the
@@ -288,10 +248,10 @@ tags: [wip]
   var state, completedOnce = false, dragId = null;
 
   function freshAnswers() {
-    return { tf: {}, odd: { itemId: "", principle: "" }, avail: [], match: {}, pipe: {}, seq: SEQUENCE_START.slice(), concept: {}, caseSel: [], infer: "" };
+    return { tf: {}, odd: { itemId: "" }, avail: [], match: {}, pipe: {}, seq: SEQUENCE_START.slice(), concept: {}, caseSel: [], infer: "" };
   }
   function freshState() {
-    return { task: 0, solved: [], finished: false, verdict: [null, null, null, null, null, null, null, null, null], answers: freshAnswers() };
+    return { solved: [], verdict: [null, null, null, null, null, null, null, null, null], answers: freshAnswers() };
   }
   state = freshState();
 
@@ -306,6 +266,7 @@ tags: [wip]
     if (text !== undefined && text !== null) node.textContent = text;
     return node;
   }
+  function clear(node) { while (node.firstChild) node.removeChild(node.firstChild); }
   function svg(path, size) {
     var s = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     s.setAttribute("viewBox", "0 0 24 24"); s.setAttribute("width", size || 14); s.setAttribute("height", size || 14);
@@ -330,8 +291,16 @@ tags: [wip]
     return a;
   }
   function byId(list, id) { for (var i = 0; i < list.length; i++) if (list[i].id === id) return list[i]; return null; }
-  function findById(list, id) { var x = byId(list, id); return x ? x : null; }
-  function findByText(list, key) { for (var i = 0; i < list.length; i++) if (list[i] === key) return list[i]; return null; }
+
+  // Verdict shown on the object itself: a tick on what the learner got right,
+  // a cross on what they got wrong, "missed" on a correct item left out.
+  function markSpan(kind) {
+    var text = kind === "right" ? "✓" : kind === "miss" ? "✗ missed" : "✗";
+    var word = kind === "right" ? "correct" : kind === "miss" ? "missed" : "incorrect";
+    var s = el("span", "mark is-" + kind, text);
+    s.appendChild(el("span", "sr-only", " " + word));
+    return s;
+  }
 
   // ---------- Persistence ----------
   function persist() {
@@ -346,16 +315,14 @@ tags: [wip]
   }
   function short(text) { return text.length > 70 ? text.slice(0, 67) + "..." : text; }
   function summarize() {
-    var a = state.answers, parts = [], k, list;
-    parts.push("Cloud verification problem set: " + state.solved.length + " of 9 tasks solved" +
-      (state.finished ? "; finished." : "; currently on task " + (state.task + 1) + " (" + TASKS[state.task].title + ")."));
+    var a = state.answers, parts = [], list;
+    parts.push("Cloud verification problem set: " + state.solved.length + " of 9 tasks solved.");
     list = [];
     TRUE_FALSE.forEach(function (item, n) { if (item.id in a.tf) list.push((n + 1) + " " + (a.tf[item.id] ? "True" : "False")); });
     if (list.length) parts.push("Task 1 (true or false, " + statusWord(0) + "): marked " + list.join(", ") + ".");
-    if (a.odd.itemId || a.odd.principle.trim()) {
+    if (a.odd.itemId) {
       var odd = byId(ODD_ITEMS, a.odd.itemId);
-      parts.push("Task 2 (odd one out, " + statusWord(1) + "): picked " + (odd ? "“" + odd.text + "”" : "nothing yet") +
-        "; principle written: “" + a.odd.principle.trim() + "”.");
+      parts.push("Task 2 (odd one out, " + statusWord(1) + "): picked " + (odd ? "“" + odd.text + "”" : a.odd.itemId) + ".");
     }
     if (a.avail.length) parts.push("Task 3 (select all, " + statusWord(2) + "): selected " + a.avail.map(function (id) { var x = byId(AVAILABLE, id); return x ? short(x.text) : id; }).join("; ") + ".");
     list = [];
@@ -405,31 +372,40 @@ tags: [wip]
       bad.appendChild(b2); wrap.appendChild(bad);
     } else {
       var end = el("div", "end");
-      var btn = button("Check answer", "primary", function () {
-        var right = spec.isRight();
-        state.verdict[i] = right ? "correct" : "wrong";
-        if (right) markSolved(i);
-        persist(); render();
-      });
+      var btn = button("Check answer", "primary", function () { check(i, spec.isRight()); });
       btn.disabled = !spec.canCheck();
       end.appendChild(btn); wrap.appendChild(end);
     }
     return wrap;
   }
 
-  function change(i) { state.verdict[i] = null; persist(); render(); }
+  function check(i, right) {
+    state.verdict[i] = right ? "correct" : "wrong";
+    if (right) {
+      markSolved(i);
+      if (allSolved() && !completedOnce) { completedOnce = true; if (window.Lens) window.Lens.complete(); }
+    }
+    persist(); renderTask(i);
+  }
+  function change(i) { state.verdict[i] = null; persist(); renderTask(i); }
 
-  function radioButton(text, on, disabled, onClick) {
-    var b = button(null, "choice" + (on ? " is-on" : ""), onClick);
+  function radioButton(text, on, disabled, mark, onClick) {
+    var b = button(null, "choice" + (on ? " is-on" : "") + (mark ? " is-" + mark : ""), onClick);
     b.setAttribute("role", "radio"); b.setAttribute("aria-checked", on ? "true" : "false"); b.disabled = disabled;
-    b.appendChild(el("span", "dot")); b.appendChild(el("span", null, text));
+    b.appendChild(el("span", "dot"));
+    var t = el("span", null, text);
+    if (mark) t.appendChild(markSpan(mark));
+    b.appendChild(t);
     return b;
   }
-  function checkButton(text, on, disabled, onClick) {
-    var b = button(null, "choice" + (on ? " is-on" : ""), onClick);
+  function checkButton(text, on, disabled, mark, onClick) {
+    var b = button(null, "choice" + (on ? " is-on" : "") + (mark ? " is-" + (mark === "miss" ? "wrong" : mark) : ""), onClick);
     b.setAttribute("role", "checkbox"); b.setAttribute("aria-checked", on ? "true" : "false"); b.disabled = disabled;
     var box = el("span", "box"); box.appendChild(svg(ICON.check, 12));
-    b.appendChild(box); b.appendChild(el("span", null, text));
+    b.appendChild(box);
+    var t = el("span", null, text);
+    if (mark) t.appendChild(markSpan(mark));
+    b.appendChild(t);
     return b;
   }
   function selectBox(options, value, placeholder, disabled, onChange, label) {
@@ -442,91 +418,84 @@ tags: [wip]
   }
   function toggleIn(list, id) { var k = list.indexOf(id); if (k === -1) list.push(id); else list.splice(k, 1); }
 
+  // A picked option is marked once the task has been checked: "right" when the
+  // pick is correct, "wrong" when it is not, "miss" for a correct item left out.
+  function pickMark(checked, picked, correct) {
+    if (!checked) return null;
+    if (picked) return correct ? "right" : "wrong";
+    return correct ? "miss" : null;
+  }
+
   // ---------- Task 1: true or false ----------
   function taskTrueFalse(root) {
-    var i = 0, a = state.answers.tf, v = state.verdict[i];
+    var i = 0, a = state.answers.tf, v = state.verdict[i], done = v === "correct";
     root.appendChild(prompt("Determine whether each statement is true or false. Mark all six."));
-    if (v === "correct") {
-      root.appendChild(el("p", "ok-line", "All six statements are marked correctly. The full explanations remain available below."));
-    } else {
-      var grid = el("div", "grid two");
-      TRUE_FALSE.forEach(function (item, n) {
-        var card = el("div", "card"), p = el("p"); p.style.margin = "0";
-        p.appendChild(el("span", "num", (n + 1) + ".")); p.appendChild(document.createTextNode(item.claim));
-        if (v === "wrong") {
-          var right = a[item.id] === item.answer;
-          card.classList.add(right ? "is-right" : "is-wrong");
-          p.appendChild(el("span", "mark", right ? "✓" : "✗"));
-        }
-        card.appendChild(p);
-        var pair = el("div", "pair"); pair.setAttribute("role", "radiogroup"); pair.setAttribute("aria-label", item.claim);
-        [true, false].forEach(function (val) {
-          var b = button(val ? "True" : "False", "small" + (a[item.id] === val ? " is-on" : ""), function () { a[item.id] = val; change(i); });
-          b.setAttribute("role", "radio"); b.setAttribute("aria-checked", a[item.id] === val ? "true" : "false");
-          pair.appendChild(b);
-        });
-        card.appendChild(pair); grid.appendChild(card);
+    var grid = el("div", "grid two");
+    TRUE_FALSE.forEach(function (item, n) {
+      var card = el("div", "card"), p = el("p"); p.style.margin = "0";
+      p.appendChild(el("span", "num", (n + 1) + ".")); p.appendChild(document.createTextNode(item.claim));
+      if (v) {
+        var right = a[item.id] === item.answer;
+        card.classList.add(right ? "is-right" : "is-wrong");
+        p.appendChild(markSpan(right ? "right" : "wrong"));
+      }
+      card.appendChild(p);
+      var pair = el("div", "pair"); pair.setAttribute("role", "radiogroup"); pair.setAttribute("aria-label", item.claim);
+      [true, false].forEach(function (val) {
+        var b = button(val ? "True" : "False", "small" + (a[item.id] === val ? " is-on" : ""), function () { a[item.id] = val; change(i); });
+        b.setAttribute("role", "radio"); b.setAttribute("aria-checked", a[item.id] === val ? "true" : "false");
+        b.disabled = done;
+        pair.appendChild(b);
       });
-      root.appendChild(grid);
-    }
+      card.appendChild(pair);
+      if (v) {
+        var d = el("details");
+        d.appendChild(el("summary", null, "Why"));
+        d.appendChild(el("p", "note", item.explanation));
+        card.appendChild(d);
+      }
+      grid.appendChild(card);
+    });
+    root.appendChild(grid);
     root.appendChild(checkRow(i, {
       canCheck: function () { return TRUE_FALSE.every(function (item) { return item.id in a; }); },
       isRight: function () { return TRUE_FALSE.every(function (item) { return a[item.id] === item.answer; }); },
-      wrong: "At least one marked row is incorrect. Revisit the red-bordered rows.",
+      wrong: "At least one marked row is incorrect. Revisit the rows marked with a cross and open their Why notes.",
       correct: "Correct: 1 True; 2 False; 3 False; 4 False; 5 True; 6 True.",
       sources: [SOURCES.heimRecords, SOURCES.heimVerification, SOURCES.kyc, SOURCES.randMetrics]
     }));
-    if (v === "correct") {
-      var d = el("details", "review"); d.appendChild(el("summary", null, "Review the six explanations"));
-      var ol = el("ol");
-      TRUE_FALSE.forEach(function (item, n) { var li = el("li"); li.appendChild(el("b", null, (n + 1) + ". ")); li.appendChild(document.createTextNode(item.explanation)); ol.appendChild(li); });
-      d.appendChild(ol); root.appendChild(d);
-    }
   }
 
   // ---------- Task 2: odd one out ----------
   function taskOdd(root) {
-    var i = 1, a = state.answers.odd, done = state.verdict[i] === "correct";
-    root.appendChild(prompt("One item differs from the other three in evidentiary type. Select it, then state the principle that explains the difference."));
+    var i = 1, a = state.answers.odd, v = state.verdict[i], done = v === "correct";
+    root.appendChild(prompt("One item differs from the other three in evidentiary type. Select it."));
     var grid = el("div", "grid two"); grid.setAttribute("role", "radiogroup"); grid.setAttribute("aria-label", "Select the odd item");
     ODD_ITEMS_SHOWN.forEach(function (item) {
-      grid.appendChild(radioButton(item.text, a.itemId === item.id, done, function () { a.itemId = item.id; change(i); }));
+      var picked = a.itemId === item.id;
+      var mark = v && picked ? (item.id === "owner" ? "right" : "wrong") : null;
+      grid.appendChild(radioButton(item.text, picked, done, mark, function () { a.itemId = item.id; change(i); }));
     });
     root.appendChild(grid);
-    var lab = el("label", "field", "In one sentence, state what the odd item records and what the other three measure."); lab.htmlFor = "odd-principle";
-    root.appendChild(lab);
-    var ta = el("textarea"); ta.id = "odd-principle"; ta.rows = 2; ta.value = a.principle; ta.disabled = done;
-    var checkHolder = el("div");
-    function buildCheck() {
-      while (checkHolder.firstChild) checkHolder.removeChild(checkHolder.firstChild);
-      checkHolder.appendChild(checkRow(i, {
-        canCheck: function () { return !!a.itemId && a.principle.trim().length >= 28; },
-        isRight: function () { return a.itemId === "owner" && explainsOddCloudObservable(a.principle); },
-        wrong: "Both parts are required. Identify the item, then distinguish the kind of evidence it records from the kind measured by the other three.",
-        correct: "The beneficial-ownership record concerns who controls the account. The other three are technical metrics of account activity.",
-        sources: [SOURCES.randMetrics, SOURCES.kyc]
-      }));
-    }
-    ta.addEventListener("input", function () { a.principle = ta.value; state.verdict[i] = null; persist(); buildCheck(); });
-    root.appendChild(ta); buildCheck(); root.appendChild(checkHolder);
+    root.appendChild(checkRow(i, {
+      canCheck: function () { return !!a.itemId; },
+      isRight: function () { return a.itemId === "owner"; },
+      wrong: "Three of the four are technical metrics of account activity. The odd one records something else.",
+      correct: "The beneficial-ownership record concerns who controls the account. The other three are technical metrics of account activity.",
+      sources: [SOURCES.randMetrics, SOURCES.kyc]
+    }));
   }
 
   // ---------- Task 3: select all ----------
   function taskAvailable(root) {
-    var i = 2, a = state.answers.avail, v = state.verdict[i];
+    var i = 2, a = state.answers.avail, v = state.verdict[i], done = v === "correct";
     root.appendChild(prompt("A provider has implemented the proposed KYC scheme and retains its ordinary billing and operational records. It has no direct access to customer code or data. Select every category available under those conditions."));
-    if (v === "correct") {
-      var d = el("details", "review"); d.appendChild(el("summary", null, "Review the eight categories"));
-      var ul = el("ul");
-      AVAILABLE.forEach(function (item) { var li = el("li"); li.appendChild(el("span", "tag", item.answer ? "Available:" : "Not available:")); li.appendChild(el("b", null, item.text)); ul.appendChild(li); });
-      d.appendChild(ul); root.appendChild(d);
-    } else {
-      var grid = el("div", "grid two");
-      AVAILABLE.forEach(function (item) {
-        grid.appendChild(checkButton(item.text, a.indexOf(item.id) !== -1, false, function () { toggleIn(a, item.id); change(i); }));
-      });
-      root.appendChild(grid);
-    }
+    var grid = el("div", "grid two");
+    AVAILABLE.forEach(function (item) {
+      var picked = a.indexOf(item.id) !== -1;
+      grid.appendChild(checkButton(item.text, picked, done, pickMark(!!v, picked, item.answer), function () { toggleIn(a, item.id); change(i); }));
+    });
+    root.appendChild(grid);
     root.appendChild(checkRow(i, {
       canCheck: function () { return a.length > 0; },
       isRight: function () { return AVAILABLE.every(function (item) { return (a.indexOf(item.id) !== -1) === item.answer; }); },
@@ -538,13 +507,19 @@ tags: [wip]
 
   // ---------- Task 4: matching ----------
   function taskMatching(root) {
-    var i = 3, a = state.answers.match, done = state.verdict[i] === "correct";
+    var i = 3, a = state.answers.match, v = state.verdict[i], done = v === "correct";
     root.appendChild(prompt("Match each item in the first column to the strongest conclusion it can support. Use each conclusion once."));
     var grid = el("div", "grid two");
     var opts = MATCH_CONCLUSIONS_SHOWN.map(function (c) { return { value: c.id, text: c.text }; });
     MATCH_ROWS.forEach(function (row) {
       var card = el("label", "card"); card.style.display = "block";
-      var t = el("span", null, row.observable); t.style.fontWeight = "500"; t.style.display = "block"; card.appendChild(t);
+      var t = el("span", null, row.observable); t.style.fontWeight = "500"; t.style.display = "block";
+      if (v && a[row.id]) {
+        var right = a[row.id] === row.answerId;
+        card.classList.add(right ? "is-right" : "is-wrong");
+        t.appendChild(markSpan(right ? "right" : "wrong"));
+      }
+      card.appendChild(t);
       card.appendChild(selectBox(opts, a[row.id], "Choose a conclusion", done, function (val) { if (val) a[row.id] = val; else delete a[row.id]; change(i); }, "Choose a conclusion for: " + row.observable));
       grid.appendChild(card);
     });
@@ -560,14 +535,16 @@ tags: [wip]
 
   // ---------- Task 5: fill the gaps ----------
   function taskPipeline(root) {
-    var i = 4, a = state.answers.pipe, done = state.verdict[i] === "correct";
+    var i = 4, a = state.answers.pipe, v = state.verdict[i], done = v === "correct";
     root.appendChild(prompt("Complete the verification map by matching each function to its mechanism. Use five terms from the bank. Three terms are not used."));
     var box = el("div", "card"); box.style.marginTop = "12px";
     var rows = el("div", "row-grid");
     var opts = PIPELINE_OPTIONS_SHOWN.map(function (t) { return { value: t, text: t }; });
     PIPELINE_GAPS.forEach(function (gap) {
       var row = el("label", "gap-row");
-      row.appendChild(el("span", null, gap.before));
+      var t = el("span", null, gap.before);
+      if (v && a[gap.id]) t.appendChild(markSpan(a[gap.id] === gap.answer ? "right" : "wrong"));
+      row.appendChild(t);
       row.appendChild(selectBox(opts, a[gap.id], "Choose a term", done, function (val) { if (val) a[gap.id] = val; else delete a[gap.id]; change(i); }, "Choose a term for: " + gap.before));
       rows.appendChild(row);
     });
@@ -583,43 +560,47 @@ tags: [wip]
 
   // ---------- Task 6: sequence ----------
   function taskSequence(root) {
-    var i = 5, order = state.answers.seq, v = state.verdict[i];
+    var i = 5, order = state.answers.seq, v = state.verdict[i], done = v === "correct";
     root.appendChild(prompt("Put the six stages of the Egan–Heim scheme in order. Drag a row or use its arrow buttons; the earliest event goes first."));
     function move(from, to) {
       if (to < 0 || to >= order.length || from === to) return;
       var id = order.splice(from, 1)[0]; order.splice(to, 0, id);
       change(i);
     }
-    if (v === "correct") {
-      var ol = el("ol", "ordered"); ol.setAttribute("aria-label", "Correct order of stages");
-      order.forEach(function (id, n) { var li = el("li"); li.appendChild(el("span", "num", (n + 1) + ".")); li.appendChild(el("span", null, byId(SEQUENCE, id).text)); ol.appendChild(li); });
-      root.appendChild(ol);
-    } else {
-      var list = el("ol", "seq"); list.setAttribute("aria-label", "Stages to put in order");
-      order.forEach(function (id, n) {
-        var item = byId(SEQUENCE, id), li = el("li"); li.draggable = true; li.dataset.id = id;
-        var grip = button(null, "grip"); grip.appendChild(svg(ICON.grip, 18));
-        grip.setAttribute("aria-label", "Move " + item.text + ". Current position " + (n + 1) + " of " + order.length + ". Use the arrow buttons to change it.");
-        li.appendChild(grip);
-        li.appendChild(el("span", "pos", String(n + 1)));
-        li.appendChild(el("span", "txt", item.text));
-        var arrows = el("span", "arrows");
-        var up = button(null, null, function () { move(n, n - 1); }); up.appendChild(svg(ICON.up, 14)); up.setAttribute("aria-label", "Move " + item.text + " earlier"); up.disabled = n === 0;
-        var dn = button(null, null, function () { move(n, n + 1); }); dn.appendChild(svg(ICON.down, 14)); dn.setAttribute("aria-label", "Move " + item.text + " later"); dn.disabled = n === order.length - 1;
-        arrows.appendChild(up); arrows.appendChild(dn); li.appendChild(arrows);
+    var list = el("ol", "seq"); list.setAttribute("aria-label", "Stages to put in order");
+    order.forEach(function (id, n) {
+      var item = byId(SEQUENCE, id), li = el("li");
+      li.draggable = !done; li.dataset.id = id;
+      var grip = button(null, "grip"); grip.appendChild(svg(ICON.grip, 18));
+      grip.setAttribute("aria-label", "Move " + item.text + ". Current position " + (n + 1) + " of " + order.length + ". Use the arrow buttons to change it.");
+      grip.disabled = done;
+      li.appendChild(grip);
+      li.appendChild(el("span", "pos", String(n + 1)));
+      var txt = el("span", "txt", item.text);
+      if (v) {
+        var right = SEQUENCE[n].id === id;
+        li.classList.add(right ? "is-right" : "is-wrong");
+        txt.appendChild(markSpan(right ? "right" : "wrong"));
+      }
+      li.appendChild(txt);
+      var arrows = el("span", "arrows");
+      var up = button(null, null, function () { move(n, n - 1); }); up.appendChild(svg(ICON.up, 14)); up.setAttribute("aria-label", "Move " + item.text + " earlier"); up.disabled = done || n === 0;
+      var dn = button(null, null, function () { move(n, n + 1); }); dn.appendChild(svg(ICON.down, 14)); dn.setAttribute("aria-label", "Move " + item.text + " later"); dn.disabled = done || n === order.length - 1;
+      arrows.appendChild(up); arrows.appendChild(dn); li.appendChild(arrows);
+      if (!done) {
         li.addEventListener("dragstart", function (e) { dragId = id; li.classList.add("is-dragging"); if (e.dataTransfer) { e.dataTransfer.effectAllowed = "move"; try { e.dataTransfer.setData("text/plain", id); } catch (err) { /* ignore */ } } });
         li.addEventListener("dragend", function () { dragId = null; li.classList.remove("is-dragging"); });
         li.addEventListener("dragover", function (e) { if (dragId && dragId !== id) { e.preventDefault(); li.classList.add("is-over"); } });
         li.addEventListener("dragleave", function () { li.classList.remove("is-over"); });
         li.addEventListener("drop", function (e) { e.preventDefault(); li.classList.remove("is-over"); if (!dragId || dragId === id) return; move(order.indexOf(dragId), order.indexOf(id)); dragId = null; });
-        list.appendChild(li);
-      });
-      root.appendChild(list);
-    }
+      }
+      list.appendChild(li);
+    });
+    root.appendChild(list);
     root.appendChild(checkRow(i, {
       canCheck: function () { return true; },
       isRight: function () { return SEQUENCE.every(function (item, n) { return order[n] === item.id; }); },
-      wrong: "The order is incorrect under the scheme described in the question.",
+      wrong: "The order is incorrect under the scheme described in the question. The rows marked with a cross are not yet in their place.",
       correct: "Correct. Monitor accumulation → approaching threshold → KYC and intended use → continued monitoring → reporting or required controls.",
       sources: [SOURCES.kyc, SOURCES.heimRecords]
     }));
@@ -627,24 +608,23 @@ tags: [wip]
 
   // ---------- Task 7: concepts ----------
   function taskConcept(root) {
-    var i = 6, a = state.answers.concept, v = state.verdict[i];
+    var i = 6, a = state.answers.concept, v = state.verdict[i], done = v === "correct";
     root.appendChild(prompt("Match each description to the correct mechanism. Use each mechanism once."));
-    if (v === "correct") {
-      var d = el("details", "review"); d.appendChild(el("summary", null, "Review the four matches"));
-      var dl = el("dl");
-      CONCEPT_ROWS.forEach(function (row) { var wrap = el("div"); wrap.appendChild(el("dt", null, row.answer)); wrap.appendChild(el("dd", null, row.description)); dl.appendChild(wrap); });
-      d.appendChild(dl); root.appendChild(d);
-    } else {
-      var grid = el("div", "grid two");
-      var opts = CONCEPTS_SHOWN.map(function (t) { return { value: t, text: t }; });
-      CONCEPT_ROWS.forEach(function (row) {
-        var card = el("label", "card"); card.style.display = "block";
-        card.appendChild(el("span", null, row.description));
-        card.appendChild(selectBox(opts, a[row.id], "Choose a mechanism", false, function (val) { if (val) a[row.id] = val; else delete a[row.id]; change(i); }, "Choose a mechanism for: " + row.description));
-        grid.appendChild(card);
-      });
-      root.appendChild(grid);
-    }
+    var grid = el("div", "grid two");
+    var opts = CONCEPTS_SHOWN.map(function (t) { return { value: t, text: t }; });
+    CONCEPT_ROWS.forEach(function (row) {
+      var card = el("label", "card"); card.style.display = "block";
+      var t = el("span", null, row.description);
+      if (v && a[row.id]) {
+        var right = a[row.id] === row.answer;
+        card.classList.add(right ? "is-right" : "is-wrong");
+        t.appendChild(markSpan(right ? "right" : "wrong"));
+      }
+      card.appendChild(t);
+      card.appendChild(selectBox(opts, a[row.id], "Choose a mechanism", done, function (val) { if (val) a[row.id] = val; else delete a[row.id]; change(i); }, "Choose a mechanism for: " + row.description));
+      grid.appendChild(card);
+    });
+    root.appendChild(grid);
     root.appendChild(checkRow(i, {
       canCheck: function () { return CONCEPT_ROWS.every(function (row) { return !!a[row.id]; }); },
       isRight: function () { return CONCEPT_ROWS.every(function (row) { return a[row.id] === row.answer; }); },
@@ -656,11 +636,12 @@ tags: [wip]
 
   // ---------- Task 8: case ----------
   function taskCase(root) {
-    var i = 7, a = state.answers.caseSel, done = state.verdict[i] === "correct";
+    var i = 7, a = state.answers.caseSel, v = state.verdict[i], done = v === "correct";
     root.appendChild(prompt("A provider verifies a customer company and its recorded beneficial owners. The customer declares a rendering workload. It then requests tens of thousands of accelerators and shows sustained accelerator utilization, communication patterns associated with parallelization, and limited traffic to external networks. Select every conclusion supported by these facts."));
     var grid = el("div", "grid two");
     CASE_OPTIONS_SHOWN.forEach(function (item) {
-      grid.appendChild(checkButton(item.text, a.indexOf(item.id) !== -1, done, function () { toggleIn(a, item.id); change(i); }));
+      var picked = a.indexOf(item.id) !== -1;
+      grid.appendChild(checkButton(item.text, picked, done, pickMark(!!v, picked, item.answer), function () { toggleIn(a, item.id); change(i); }));
     });
     root.appendChild(grid);
     root.appendChild(checkRow(i, {
@@ -674,11 +655,13 @@ tags: [wip]
 
   // ---------- Task 9: inference ----------
   function taskInference(root) {
-    var i = 8, a = state.answers, done = state.verdict[i] === "correct";
+    var i = 8, a = state.answers, v = state.verdict[i], done = v === "correct";
     root.appendChild(prompt("Six accounts are registered to subsidiaries with the same verified beneficial owner. They run GPU sessions in sequence. Every session remains below a per-account FLOP threshold, but their aggregate compute exceeds it, and large data transfers precede the later sessions. Which response is justified?"));
     var grid = el("div", "grid two"); grid.setAttribute("role", "radiogroup"); grid.setAttribute("aria-label", "Select the justified response");
     INFERENCE_OPTIONS_SHOWN.forEach(function (opt) {
-      grid.appendChild(radioButton(opt.text, a.infer === opt.id, done, function () { a.infer = opt.id; change(i); }));
+      var picked = a.infer === opt.id;
+      var mark = v && picked ? (opt.id === "investigate" ? "right" : "wrong") : null;
+      grid.appendChild(radioButton(opt.text, picked, done, mark, function () { a.infer = opt.id; change(i); }));
     });
     root.appendChild(grid);
     root.appendChild(checkRow(i, {
@@ -692,104 +675,37 @@ tags: [wip]
 
   var TASK_RENDERERS = [taskTrueFalse, taskOdd, taskAvailable, taskMatching, taskPipeline, taskSequence, taskConcept, taskCase, taskInference];
 
-  // ---------- Frame ----------
+  // ---------- Frame: the nine tasks, all open, each checked on its own ----------
   var rootEl = document.getElementById("drill");
+  var bodies = [];
 
-  function showTask(n) {
-    if (n < 0 || n >= TASKS.length) return;
-    state.task = n; state.finished = false;
-    persist(); render();
-    var head = rootEl.querySelector(".task-head");
-    if (head && head.scrollIntoView) head.scrollIntoView({ block: "start" });
+  function renderTask(n) {
+    clear(bodies[n]);
+    TASK_RENDERERS[n](bodies[n]);
   }
-  function finish() {
-    if (!allSolved()) return;
-    state.finished = true;
-    if (!completedOnce) { completedOnce = true; if (window.Lens) window.Lens.complete(); }
-    persist(); render();
-  }
-  function restart() {
-    var keep = completedOnce;
-    state = freshState(); completedOnce = keep;
-    persist(); render();
-  }
-
-  function renderHeader() {
-    var h = el("header");
-    h.appendChild(el("p", "eyebrow", "30 minutes"));
-    h.appendChild(el("h1", null, "Cloud verification problem set"));
-    h.appendChild(el("p", "lede", "Answer from the assigned readings. Treat every qualifier as part of the question. Select only conclusions supported by the stated access and evidence."));
-    var rail = el("ol", "rail"); rail.setAttribute("aria-label", "Cloud evidence drill progress");
-    TASKS.forEach(function (task, n) {
-      var li = el("li"), done = state.finished || isSolved(n), active = !state.finished && n === state.task;
-      var b = button(null, (active ? "is-active" : "") + (done ? " is-done" : ""), function () { showTask(n); });
-      if (done) b.appendChild(svg(ICON.check, 14)); else b.textContent = String(n + 1);
-      if (active) b.setAttribute("aria-current", "step");
-      b.setAttribute("aria-label", "Task " + (n + 1) + ": " + task.label + (done ? ", complete" : ""));
-      b.title = (n + 1) + ". " + task.label;
-      li.appendChild(b); rail.appendChild(li);
-    });
-    h.appendChild(rail);
-    return h;
-  }
-
-  function renderFinish() {
-    var sec = el("div", "finish"), inner = el("div", "inner");
-    var icon = el("div"); icon.style.color = "#9a5c10"; icon.appendChild(svg(ICON.circle, 36)); inner.appendChild(icon);
-    var h = el("h2", null, "Problem set complete"); h.style.marginTop = "12px"; inner.appendChild(h);
-    inner.appendChild(el("p", null, "Provider-held records can associate an account with a verified identity record, estimate resource use, and support a workload classification. They do not by themselves establish intent, model contents, capability, or a legal violation."));
-    inner.appendChild(el("p", null, "The final policy question remains: which actors and workloads should be covered, at what cost, and across which jurisdictions?"));
-    var actions = el("div", "actions");
-    var a = el("a", "btn", "Policy scope reading"); a.href = SOURCES.carnegieScope.href; a.target = "_blank"; a.rel = "noopener"; a.appendChild(svg(ICON.ext, 12));
-    actions.appendChild(a);
-    actions.appendChild(button("Run again", null, restart));
-    inner.appendChild(actions); sec.appendChild(inner);
-    return sec;
-  }
-
-  function renderTaskView() {
-    var frag = document.createDocumentFragment(), n = state.task, task = TASKS[n];
-    var head = el("div", "task-head"); head.setAttribute("aria-live", "polite");
-    head.appendChild(el("p", "eyebrow", "Task " + (n + 1) + " of " + TASKS.length + " · " + task.time));
-    head.appendChild(el("h3", null, task.title));
-    head.appendChild(el("span", "kind", task.label));
-    frag.appendChild(head);
-    var body = el("div", "body");
-    TASK_RENDERERS[n](body);
-    var nav = el("nav"); nav.setAttribute("aria-label", "Move between cloud problem-set tasks");
-    var prev = button("Previous", null, function () { showTask(n - 1); }); prev.disabled = n === 0; nav.appendChild(prev);
-    nav.appendChild(el("span", "count", state.solved.length + " of " + TASKS.length + " complete"));
-    if (n < TASKS.length - 1) {
-      nav.appendChild(button("Next", "primary", function () { showTask(n + 1); }));
-    } else {
-      var fin = button("Finish problem set", "primary", finish); fin.disabled = !allSolved(); nav.appendChild(fin);
-    }
-    body.appendChild(nav);
-    if (n === TASKS.length - 1 && !allSolved()) {
-      body.appendChild(el("p", "hint", "Complete all nine tasks before finishing. Use the numbered navigation above to return to any unfinished task."));
-    }
-    frag.appendChild(body);
-    return frag;
-  }
-
   function render() {
-    while (rootEl.firstChild) rootEl.removeChild(rootEl.firstChild);
-    rootEl.appendChild(renderHeader());
-    if (state.finished) rootEl.appendChild(renderFinish()); else rootEl.appendChild(renderTaskView());
+    clear(rootEl); bodies = [];
+    TASKS.forEach(function (task, n) {
+      var sec = el("section", "task");
+      sec.setAttribute("aria-label", "Task " + (n + 1) + ": " + task.title);
+      sec.appendChild(el("h2", null, (n + 1) + ". " + task.title));
+      var body = el("div");
+      bodies[n] = body; sec.appendChild(body);
+      rootEl.appendChild(sec);
+      renderTask(n);
+    });
   }
 
   // ---------- Restore ----------
   function hydrate(saved, meta) {
     var fresh = freshState();
     if (saved && typeof saved === "object") {
-      if (typeof saved.task === "number" && saved.task >= 0 && saved.task < TASKS.length) fresh.task = saved.task;
       if (Array.isArray(saved.solved)) fresh.solved = saved.solved.filter(function (x) { return typeof x === "number" && x >= 0 && x < TASKS.length; });
       if (Array.isArray(saved.verdict)) for (var k = 0; k < TASKS.length; k++) fresh.verdict[k] = saved.verdict[k] === "correct" || saved.verdict[k] === "wrong" ? saved.verdict[k] : null;
-      fresh.finished = !!saved.finished && fresh.solved.length === TASKS.length;
       var sa = saved.answers, fa = fresh.answers;
       if (sa && typeof sa === "object") {
         if (sa.tf && typeof sa.tf === "object") TRUE_FALSE.forEach(function (it) { if (typeof sa.tf[it.id] === "boolean") fa.tf[it.id] = sa.tf[it.id]; });
-        if (sa.odd && typeof sa.odd === "object") { if (byId(ODD_ITEMS, sa.odd.itemId)) fa.odd.itemId = sa.odd.itemId; if (typeof sa.odd.principle === "string") fa.odd.principle = sa.odd.principle; }
+        if (sa.odd && typeof sa.odd === "object" && byId(ODD_ITEMS, sa.odd.itemId)) fa.odd.itemId = sa.odd.itemId;
         if (Array.isArray(sa.avail)) fa.avail = sa.avail.filter(function (id) { return !!byId(AVAILABLE, id); });
         if (sa.match && typeof sa.match === "object") MATCH_ROWS.forEach(function (r) { if (byId(MATCH_CONCLUSIONS, sa.match[r.id])) fa.match[r.id] = sa.match[r.id]; });
         if (sa.pipe && typeof sa.pipe === "object") PIPELINE_GAPS.forEach(function (g) { if (PIPELINE_OPTIONS.indexOf(sa.pipe[g.id]) !== -1) fa.pipe[g.id] = sa.pipe[g.id]; });
@@ -815,3 +731,4 @@ tags: [wip]
 </script>
 </body>
 </html>
+
