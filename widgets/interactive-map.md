@@ -1,7 +1,7 @@
 ---
 id: '3682075e-67b0-4d28-989e-cf55e5821a98'
 title: The Compute Supply Chain
-summary_for_tutor: "A clickable world map of the AI compute supply chain, ported from XLab's Verification track. Six supply-chain layers colour the countries (Chip design & EDA, Equipment & materials, Fabrication, Memory (HBM), Packaging, assembly & test, Compute & models); three headline stats sit above the map (about 90% of leading-edge logic fabricated on one island, one company builds every EUV machine, three firms make nearly all HBM). The learner clicks any of 14 coloured countries (United States, China, Taiwan, South Korea, Japan, Netherlands, United Kingdom, Germany, Singapore, Malaysia, Vietnam, Thailand, UAE, Saudi Arabia) to open a card with the layers it sits in, two or three anchor facts, a 'Why it matters for verification' paragraph and its actor roles (capability holder, chokepoint controller, information holder, enforcement authority, evasion pathway, victim/free-rider/beneficiary). Clicking a layer in the key, or one of the eight pipeline stages (materials, design, equipment, fabrication, memory, packaging and test, data centers, trained models), dims every other country and shows a card with the layer's stat, why it matters, and the list of countries that would have to be in the room to verify it. The saved summary tells you which card is open now and which countries, layers and stages the learner has opened so far. There is no finish condition (XLab has none); a learner has explored well when they have opened the chokepoint countries (Netherlands, Taiwan, South Korea, Japan) and at least one of the evasion-pathway countries in Southeast Asia. An optional link to ETO's Chip Explorer (Anatomy of a Chip) sits at the bottom."
+summary_for_tutor: "A clickable world map of the AI compute supply chain, ported from XLab's Verification track. The widget holds only the interactive parts: the map, the layer key, the detail card and the eight-stage pipeline. Six supply-chain layers colour the countries (Chip design & EDA, Equipment & materials, Fabrication, Memory (HBM), Packaging, assembly & test, Compute & models). The learner clicks any of 14 coloured countries (United States, China, Taiwan, South Korea, Japan, Netherlands, United Kingdom, Germany, Singapore, Malaysia, Vietnam, Thailand, UAE, Saudi Arabia) to open a card with the layers it sits in, two or three anchor facts, a 'Why it matters for verification' paragraph and its actor roles (capability holder, chokepoint controller, information holder, enforcement authority, evasion pathway, victim/free-rider/beneficiary). Clicking a layer in the key, or one of the eight pipeline stages (materials, design, equipment, fabrication, memory, packaging and test, data centers, trained models), dims every other country and shows a card with the layer's stat, why it matters, and buttons for the countries that would have to be in the room to verify it. The page around the widget carries the three headline stats above it (about 90% of leading-edge logic fabricated on one island, one company builds every EUV machine, three firms make nearly all HBM), and below it the gloss of the six actor roles and the optional link to ETO's Chip Explorer (Anatomy of a Chip). The saved summary tells you which card is open now and which countries, layers and stages the learner has opened so far. There is no finish condition (XLab has none); a learner has explored well when they have opened the chokepoint countries (Netherlands, Taiwan, South Korea, Japan) and at least one of the evasion-pathway countries in Southeast Asia."
 height: auto
 tags: [wip]
 ---
@@ -22,22 +22,14 @@ tags: [wip]
   }
   * { box-sizing: border-box; }
   body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
-  h1, h2, h3 { font-family: var(--font-heading); font-weight: 600; margin: 0; }
-  h1 { font-size: 26px; line-height: 1.15; margin: 4px 0 8px; }
+  h2, h3 { font-family: var(--font-heading); font-weight: 600; margin: 0; }
   p { margin: 0; }
   button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 8px 12px; cursor: pointer; text-align: left; }
   button:hover { background: var(--surface); }
   button:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
   a { color: var(--text); }
-  .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0; }
-  .lede { color: var(--muted); max-width: 44rem; margin: 0 0 16px; }
   .small { font-size: 12px; color: var(--muted); }
-  .tiny { font-size: 11px; color: var(--muted); }
   .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-
-  .stats { display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; align-items: baseline; margin: 0 0 16px; padding: 0 0 14px; border-bottom: 1px solid var(--border); }
-  .stats dt { font-size: 20px; font-weight: 600; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
-  .stats dd { margin: 0; font-size: 12px; color: var(--muted); }
 
   .stage { position: relative; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); overflow: hidden; }
   .scroller { overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch; }
@@ -51,8 +43,6 @@ tags: [wip]
   .lbl { pointer-events: auto; cursor: pointer; paint-order: stroke; stroke: #ffffff; stroke-width: 2.4; stroke-linejoin: round; letter-spacing: 0.04em; fill: var(--text); font-family: var(--font-ui); font-weight: 500; }
   .lbl.is-preview { opacity: 0.35; }
   .lbl.is-dim { fill: var(--muted); }
-  .hint { position: absolute; top: 10px; left: 10px; z-index: 2; display: flex; gap: 8px; align-items: flex-start; max-width: calc(100% - 64px); padding: 6px 10px; border: 1px solid var(--border); border-radius: 8px; background: #fff; font-size: 12px; color: var(--muted); }
-  .hint[hidden] { display: none; }
   .zoom { position: absolute; top: 10px; right: 10px; z-index: 2; display: flex; flex-direction: column; gap: 6px; }
   .zoom button, .icon-btn { width: 32px; height: 32px; padding: 0; display: flex; align-items: center; justify-content: center; font-size: 16px; line-height: 1; color: var(--muted); border-radius: 6px; }
   .zoom button.fit { font-size: 11px; font-weight: 600; }
@@ -112,23 +102,10 @@ tags: [wip]
   .grad { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 8px; padding: 0 4px; font-size: 10px; color: var(--muted); }
   .grad .line { flex: 1; height: 1px; background: linear-gradient(90deg, var(--muted), var(--border)); }
 
-  .reading { display: flex; gap: 12px; border: 1px solid var(--border); border-radius: 8px; padding: 14px; background: #fff; margin-top: 18px; }
-  .reading .mark { flex: none; width: 28px; height: 28px; padding: 0; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 13px; color: transparent; }
-  .reading .mark:hover { color: var(--muted); border-color: var(--muted); }
-  .reading .mark.is-read { background: var(--accent); border-color: var(--accent); color: #fff; }
-  .reading .ttl { font-size: 15px; font-weight: 500; }
-  .reading .ttl .opt { color: var(--muted); font-weight: 400; }
-  .reading .ttl a { text-decoration: none; }
-  .reading .ttl a:hover { text-decoration: underline; text-underline-offset: 4px; }
-  .reading .blurb { color: var(--muted); font-size: 13px; margin-top: 4px; }
-  .reading .meta { font-size: 12px; color: var(--muted); margin-top: 4px; }
-
   @media (max-width: 480px) {
     body { padding: 12px; }
-    .hint { position: static; max-width: none; border: 0; border-bottom: 1px solid var(--border); border-radius: 0; background: #fff; }
     .zoom { top: auto; bottom: 10px; }
     .sep { display: none; }
-    h1 { font-size: 22px; }
     .block-head { flex-direction: column; gap: 2px; }
     .grad { flex-wrap: wrap; }
     .grad .line { display: none; }
@@ -137,17 +114,7 @@ tags: [wip]
 </head>
 <body>
 <section id="app" aria-label="The compute supply chain">
-  <p class="eyebrow">Interactive map</p>
-  <h1>The Compute Supply Chain</h1>
-  <p class="lede">The world map of AI compute: who makes what, where it flows, and where verification can grab hold.</p>
-
-  <dl class="stats" id="stats"></dl>
-
   <div class="stage" id="stage">
-    <div class="hint" id="hint">
-      <span id="hint-text"></span>
-      <button type="button" class="icon-btn" id="hint-close" aria-label="Dismiss hint">&times;</button>
-    </div>
     <div class="zoom">
       <button type="button" id="zoom-in" aria-label="Zoom in">+</button>
       <button type="button" id="zoom-out" aria-label="Zoom out">&minus;</button>
@@ -158,7 +125,7 @@ tags: [wip]
   </div>
 
   <div class="block">
-    <div class="block-head"><span class="ttl" id="key-label"></span><span class="tiny" id="key-action"></span></div>
+    <div class="block-head"><span class="ttl" id="key-label"></span></div>
     <div class="chips" id="key"></div>
     <p class="note" id="key-note"></p>
     <p class="progress" id="progress" aria-live="polite"></p>
@@ -169,24 +136,9 @@ tags: [wip]
   </div>
 
   <div class="block">
-    <div class="block-head"><span class="ttl" id="flow-title"></span><span class="tiny" id="flow-note"></span></div>
+    <div class="block-head"><span class="ttl" id="flow-title"></span></div>
     <div class="flow" id="flow"></div>
     <div class="grad"><span id="grad-left"></span><span class="line" aria-hidden="true"></span><span id="grad-right"></span></div>
-  </div>
-
-  <div class="block">
-    <p class="ttl" id="roles-label" style="font-size:13px;font-weight:600;margin-bottom:8px"></p>
-    <div class="chips" id="roles"></div>
-    <p class="note" id="roles-note"></p>
-  </div>
-
-  <div class="reading" id="reading">
-    <button type="button" class="mark" id="chip-mark" aria-pressed="false" title="Mark as read">&#10003;</button>
-    <div>
-      <p class="ttl"><span class="opt">Optional: </span><a id="chip-link" target="_blank" rel="noopener"></a> <span class="tiny" aria-hidden="true">&#8599;</span></p>
-      <p class="blurb" id="chip-sub"></p>
-      <p class="meta" id="chip-meta"></p>
-    </div>
   </div>
 </section>
 
@@ -210,7 +162,6 @@ tags: [wip]
       why: "What the rules are ultimately about. Frontier-scale data centers are big, hot, and power-hungry: easy to find, harder to audit. The models inside them are hardest of all." }
   };
 
-  var ROLE_ORDER = ["CAP", "CHOKE", "INFO", "ENF", "EVA", "BEN"];
   var ROLES = {
     CAP: "Capability holder",
     CHOKE: "Chokepoint controller",
@@ -351,34 +302,14 @@ tags: [wip]
   ];
 
   var COPY = {
-    hint: "Hover a colored country · click to pin details · use the key to isolate a layer",
-    hintTouch: "Tap a colored country for details · use the key to isolate a layer",
-    stats: [
-      { n: "≈90%", l: "of leading-edge logic is fabricated on one island" },
-      { n: "1", l: "company builds every EUV lithography machine on Earth" },
-      { n: "3", l: "firms make nearly all high-bandwidth memory" }
-    ],
     keyLabel: "Supply chain layers",
-    keyAction: "Click to isolate",
-    keyActionTouch: "Tap to isolate",
-    keyNote: "Colors show a country's primary layer. Most of the interesting countries sit in more than one: hover to see all of them.",
-    keyNoteTouch: "Colors show a country's primary layer. Most of the interesting countries sit in more than one: tap one to see all of them.",
+    keyNote: "Colors show a country's primary layer. Most of the interesting countries sit in more than one.",
     flowTitle: "The pipeline · sand to model",
-    flowNote: "Click a stage to light it up on the map",
-    flowNoteTouch: "Tap a stage to light it up on the map",
     flowGradLeft: "upstream · concentrated · most verifiable",
     flowGradRight: "downstream · diffuse · hardest to verify",
-    rolesLabel: "Actor roles in this module",
-    rolesNote: "Every pinned country card is tagged with the roles it plays. The same state can hold a chokepoint, enforce the rules, and be a pathway around them.",
-    startEyebrow: "Start here",
-    startBodyA: "The whole story of this map is concentration. The chain crosses borders dozens of times, but the parts that matter for verification sit in a handful of countries, and each stage is a near-monopoly.",
-    startBodyB: "Click a country for its role, or isolate a layer to see exactly who would have to be in the room to verify it.",
-    startBodyBTouch: "Tap a country for its role, or isolate a layer to see exactly who would have to be in the room to verify it.",
     layerNeed: "To verify at this layer, you'd need",
     countryVerifLabel: "Why it matters for verification",
-    chipTitle: "Anatomy of a Chip",
-    chipSub: "Explore the components inside an AI accelerator and connect them to the supply-chain stages shown above.",
-    chipHref: "https://chipexplorer.eto.tech/"
+    emptyHint: "Choose a country, a layer or a pipeline stage."
   };
 
   function shortName(name) { return name === "United Arab Emirates" ? "UAE" : name; }
@@ -394,11 +325,11 @@ tags: [wip]
 
   /* State. filterSource is "key" when a layer was isolated from the key, or a
      pipeline stage key when it was lit from the pipeline. opened / layers /
-     stages remember what the learner has looked at so far. */
+     stages remember what the learner has looked at so far. Saved states from
+     earlier versions may carry extra fields (hint, chipRead); they are ignored. */
   var state = {
     filter: null, filterSource: null, selected: null,
-    opened: {}, layers: {}, stages: {},
-    hint: true, chipRead: false
+    opened: {}, layers: {}, stages: {}
   };
   var vb = { x: BASE.x, y: BASE.y, w: BASE.w, h: BASE.h };
   var preview = null;
@@ -459,27 +390,11 @@ tags: [wip]
   function zoomLevel() { return vb.w > 0 ? BASE.w / vb.w : 1; }
 
   /* ---------- static chrome ---------- */
-  var statsEl = document.getElementById("stats");
-  COPY.stats.forEach(function (st) {
-    statsEl.appendChild(el("dt", null, st.n));
-    statsEl.appendChild(el("dd", null, st.l));
-  });
-  document.getElementById("hint-text").textContent = canHover ? COPY.hint : COPY.hintTouch;
   document.getElementById("key-label").textContent = COPY.keyLabel;
-  document.getElementById("key-action").textContent = canHover ? COPY.keyAction : COPY.keyActionTouch;
-  document.getElementById("key-note").textContent = canHover ? COPY.keyNote : COPY.keyNoteTouch;
+  document.getElementById("key-note").textContent = COPY.keyNote;
   document.getElementById("flow-title").textContent = COPY.flowTitle;
-  document.getElementById("flow-note").textContent = canHover ? COPY.flowNote : COPY.flowNoteTouch;
   document.getElementById("grad-left").textContent = COPY.flowGradLeft;
   document.getElementById("grad-right").textContent = COPY.flowGradRight;
-  document.getElementById("roles-label").textContent = COPY.rolesLabel;
-  document.getElementById("roles-note").textContent = COPY.rolesNote;
-  var rolesEl = document.getElementById("roles");
-  ROLE_ORDER.forEach(function (r) { rolesEl.appendChild(el("span", "chip", ROLES[r])); });
-  var chipLink = document.getElementById("chip-link");
-  chipLink.textContent = COPY.chipTitle;
-  chipLink.href = COPY.chipHref;
-  document.getElementById("chip-sub").textContent = COPY.chipSub;
 
   /* ---------- map ---------- */
   var stage = document.getElementById("stage");
@@ -789,18 +704,11 @@ tags: [wip]
       detailEl.appendChild(roles);
       return;
     }
-    detailEl.appendChild(el("p", "kind", COPY.startEyebrow));
-    var a1 = el("p", "body", COPY.startBodyA); a1.style.marginTop = "6px";
-    var a2 = el("p", "body", canHover ? COPY.startBodyB : COPY.startBodyBTouch); a2.style.marginTop = "8px";
-    detailEl.appendChild(a1);
-    detailEl.appendChild(a2);
+    detailEl.appendChild(el("p", "body", COPY.emptyHint));
   }
 
   /* ---------- render everything ---------- */
   var progressEl = document.getElementById("progress");
-  var hintEl = document.getElementById("hint");
-  var chipMark = document.getElementById("chip-mark");
-  var chipMeta = document.getElementById("chip-meta");
 
   function render() {
     renderMap();
@@ -819,11 +727,6 @@ tags: [wip]
     renderDetail();
     progressEl.textContent = "Opened " + countKeys(state.opened) + " of " + COUNTRIES.length + " countries · isolated " +
       countKeys(state.layers) + " of " + BUCKET_ORDER.length + " layers · lit " + countKeys(state.stages) + " of " + FLOW.length + " pipeline stages";
-    hintEl.hidden = !state.hint;
-    chipMark.classList.toggle("is-read", state.chipRead);
-    chipMark.setAttribute("aria-pressed", state.chipRead ? "true" : "false");
-    chipMark.title = state.chipRead ? "Mark as unread" : "Mark as read";
-    chipMeta.textContent = state.chipRead ? "read" : "";
   }
 
   /* ---------- actions (mirror XLab's reducer) ---------- */
@@ -860,8 +763,6 @@ tags: [wip]
   document.getElementById("app").addEventListener("keydown", function (e) {
     if (e.key === "Escape") clearSelection();
   });
-  document.getElementById("hint-close").addEventListener("click", function () { state.hint = false; render(); persist(); });
-  chipMark.addEventListener("click", function () { state.chipRead = !state.chipRead; render(); persist(); });
 
   /* ---------- persistence ---------- */
   function namesOf(map, list, pick) {
@@ -887,7 +788,6 @@ tags: [wip]
     lines.push("Layers isolated so far (" + layers.length + " of " + BUCKET_ORDER.length + "): " + (layers.length ? layers.join(", ") : "none") + ".");
     var stages = namesOf(state.stages, FLOW, function (f) { return f.key; });
     lines.push("Pipeline stages lit so far (" + stages.length + " of " + FLOW.length + "): " + (stages.length ? stages.join(", ") : "none") + ".");
-    if (state.chipRead) lines.push("Marked the optional Anatomy of a Chip link as read.");
     return lines.join(" ");
   }
   function snapshot() {
@@ -895,8 +795,7 @@ tags: [wip]
       filter: state.filter, filterSource: state.filterSource, selected: state.selected,
       opened: Object.keys(state.opened).filter(function (k) { return state.opened[k]; }),
       layers: Object.keys(state.layers).filter(function (k) { return state.layers[k]; }),
-      stages: Object.keys(state.stages).filter(function (k) { return state.stages[k]; }),
-      hint: state.hint, chipRead: state.chipRead
+      stages: Object.keys(state.stages).filter(function (k) { return state.stages[k]; })
     };
   }
   function persist() {
@@ -922,8 +821,6 @@ tags: [wip]
       if (saved.filter && BUCKETS[saved.filter] && (saved.filterSource === "key" || FMAP[saved.filterSource])) {
         state.filter = saved.filter; state.filterSource = saved.filterSource; state.selected = null;
       } else { state.filter = null; state.filterSource = null; }
-      state.hint = saved.hint !== false;
-      state.chipRead = saved.chipRead === true;
     }
     hydrated = true;
     render();
@@ -938,6 +835,9 @@ tags: [wip]
 
   render();
   centreScroll();
+  /* The SVG has no laid-out width on the first pass inside the platform's
+     iframe, so run the sideways centring again once layout has settled. */
+  setTimeout(centreScroll, 0);
   if (window.Lens) {
     Lens.onState(function (saved) { hydrate(saved); });
   } else {

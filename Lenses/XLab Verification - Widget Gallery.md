@@ -89,51 +89,6 @@ source:: [[../widgets/policy-scoping]]
 
 #### Text
 content::
-\## Part 1 · Week 3: Anatomy of a (pause) agreement
-
-Module file: [[../modules/XLab Verification P1 W3 Treaty anatomy and actors]]
-
-#### Text
-content::
-\### Lens: [[../Lenses/XLab Verification - v-scoping-anatomy]]
-
-#### Text
-content::
-\#### The Anatomy Drill (anatomy-drill)
-
-**Decision: widget.** Thirteen commit-then-reveal placements with drag or tap, a one-retry-then-file mechanic, sources hidden until commit, a tallied results screen and a closing drag pick: none of that survives as a run of Choice segments (no reveal, no retry, no tally).
-
-**Target lens:** [[../Lenses/XLab Verification - v-scoping-anatomy]]
-
-**Where it goes:** after the Text segment that ends "No praise." on Question 4 ("**4. Examine entry into force and withdrawal**"); that is, where the callout "Optional: Reassemble the Parts of an Agreement" begins today.
-
-**What it replaces:** the whole native run from the collapsed callout "Optional: Reassemble the Parts of an Agreement" through the collapsed callout "The Reykjavik Protocol: full text": one intro callout listing the organs, 13 optional Choice segments each followed by a collapsed "Specimen N: why" callout, the "Results" callout with the source table, the priority-pick Choice segment, the "seven picks, judged" callout and the Protocol callout. All of it should go; the widget carries every one of those strings (organ list, specimens, verdicts, near-miss and wrong-bin notes, sources, results table, punch line, seven judgments, full Protocol). Keep the intro callout's text (lead-in, the bold "Every agreement that restrains anyone has the same seven organs" paragraph, the "_13 specimens · about 15 minutes_" line, the "Read the text, not the letterhead" note and the numbered organ list) as a Text segment right before the widget, opened rather than collapsed, since the widget itself starts on Specimen 1 and has no instruction screen. Not required:: (XLab folds it as optional).
-
-**In XLab:** <VerificationExercise id="anatomy-drill" /> in scoping-anatomy.mdx, optional, inside <Fold label="Optional: Reassemble the Parts of an Agreement">
-
-**Learner time:** 15 minutes (XLab's own estimate)
-
-Opens on Specimen 1 of 13 (the organs and the instructions are page text above). One specimen at a time, the learner reads a short treaty or advocacy text with its source hidden and places it on one of eight bins: drag with mouse or touch, or tap the specimen (or focus it and press Enter) and then tap a bin. Each placement gets an instant verdict with XLab's explanation and the source: correct, a defensible near-tag that is accepted and moved to the sharper organ, or a wrong bin with one retry before the drill files it and explains where it belongs. After specimen 13 a results screen tallies clean first reads, defensible near-tags and second looks, shows the source table and punch line, and asks the learner to drag (or tap) the organ they would put at the top of a negotiating agenda; the pick shows XLab's judgment for it, then "Where this goes next", a Restart button and the full Reykjavik Protocol.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-- Review change (2026-09-19): the intro screen is gone. The widget now opens straight on Specimen 1 of 13, because the seven organs and the instruction note are page text in the callout above it and should not be repeated inside the card. The only in-widget instruction left is the one-clause drag hint under the specimen, and Restart returns to Specimen 1 rather than to an intro; saved states written by the old build that carry phase "intro" open on Specimen 1.
-- All curriculum strings come from `src/lib/verification/data/anatomy-drill.ts` (ORGANS, NULLBIN, CARDS, JUDGMENT, PROTOCOL, COPY) and the UI copy from `src/components/verification/widgets/anatomy-drill.tsx` (feedback heads, "Specimen N of 13", "source hidden", "Filed under", "Where it belongs", "Try again", "Next specimen", "Finish", "Your top negotiating priority"). Engine logic (`engines/anatomy-drill.ts`: resolveDrop, applyDrop, attempt counting, near-tag counts as miss on a second attempt) copied unchanged. Checked by a script that extracts every string literal from the data file: 160 strings, 144 verbatim, 16 differ only by the em-dash rewrite or by being split into a bold lead plus body ("One last drag.", "Where this goes next:").
-- Em dashes replaced (only rewrite): "prove: declared & undeclared" (as the Lens page already has it), "NPT Article X, the clause", "16 H100 chips (roughly $500,000 of hardware)", Protocol article ids "Article I. Definitions" etc. (as the Lens page has them), "The Reykjavik Protocol: full text", "Defensible: here is the sharper tag", "Not this organ. Look again", the drag hint "press Enter, then choose an organ".
-- Bins keep XLab's fixed organ order (1 to 7, then No organ) and specimens keep XLab's order; XLab shuffles neither (the organ numbers are curriculum and the specimen sequence is pedagogic: New START before the FLI letter that is compared to it). Nothing is keyed on position: each drop compares the bin's organ number with the card's organ.
-- Tap fallback added beyond XLab's: tapping a bin with nothing picked up arms the specimen (visible accent ring, hint changes to "Picked up. Now choose the organ it implements"), a second tap on a bin commits. Escape puts the specimen down. Same for the priority pick: tapping a chip picks it directly (XLab did the same via a click on the chip), dragging it to the slot also works.
-- Tier colours: XLab uses green/amber/red; here the accent marks clean and near (near shown with a double left rule and a hollow progress dot), grey marks miss, and every verdict carries a text head, so no state relies on colour alone.
-- XLab's DragProvider sets `touch-action: none` on the draggable; kept, so a finger that starts on the specimen card drags instead of scrolling the page. The bins and the rest of the page scroll normally, and the tap flow needs no drag.
-- Complete: fires once when the learner reaches the results screen after specimen 13, mirroring XLab's onComplete in finishToSummary. Restart does not undo completion. Restoring a saved summary state with meta.completed false calls complete once.
-- Saved state: {phase, idx, attempts, results, fb:{kind,bin}, judgment}; feedback text is recomputed from the card and the bin, so the JSON stays under 1 KB. Summary text names the current specimen, its correct organ (tutor only), the tally and the latest verdict.
-- Standalone (no window.Lens): state falls back to localStorage under `lens-widget-anatomy-drill`.
-- Uncertain: the Lens page today keeps the Reykjavik Protocol readable at any time in a collapsed callout; XLab (and this widget) show it only on the results screen. If the treaty-workspace port needs the Protocol text earlier, keep that one callout on the page.
-:::
-
-#### Widget
-source:: [[../widgets/anatomy-drill]]
-
-#### Text
-content::
 \## Part 1 · Week 3: Who the treaty relies on, applies to, and constrains
 
 Module file: [[../modules/XLab Verification P1 W3 Treaty actors]]
