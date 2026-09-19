@@ -154,7 +154,9 @@ The subgoals, in the paper's words: "The framework decomposes this goal into two
 
 The layers: "To complete these subgoals, states could create six layers of verification: six largely independent assurances of compliance. Like “layers of defense,” a full implementation of each layer could verify compliance on its own, and multiple layers would reinforce each other. Thus, a stack of layers is an effective combination of verification mechanisms; it completes each subgoal with redundancy."
 
-The excerpts above are Sections 4.1 and 4.2, Layers 1 to 3. The grid adds the three personnel-based layers of Section 4.3. Opening a layer shows the paper's summary of it with its key advantages and key disadvantages (Tables 1, 5, 7 and 8); opening a subgoal shows its Section 3.2 definition.
+The excerpts above are Sections 4.1 and 4.2, Layers 1 to 3. The grid adds the three personnel-based layers of Section 4.3. Opening a layer shows the paper's summary of it with its key advantages and key disadvantages (Tables 1, 5, 7 and 8) and what it would require (Table 2 for Layers 1 to 3, Section 4.3 for Layers 4 to 6); opening a subgoal shows its Section 3.2 definition.
+
+Each row also has an On/Off switch. Switch layers off and watch the coverage tiles below the grid: the claim to test is that a full implementation of any single layer verifies compliance on its own, so coverage should survive until the last layer goes dark.
 
 #### Widget
 source:: [[../widgets/six-layers-grid]]
