@@ -2,7 +2,7 @@
 id: 'b70db51f-a981-4675-93c9-ac224ccfae3e'
 title: "Read Plan A: Verification Regime"
 tldr: "Read the mechanisms and implementation sequence before judging Plan A's verification regime."
-summary_for_tutor: "Read the mechanisms and implementation sequence before judging Plan A's verification regime. Preserve the source framing and respond to the learner's reasoning."
+summary_for_tutor: "Read the mechanisms and implementation sequence before judging Plan A's verification regime. Preserve the source framing and respond to the learner's reasoning. Four charts from the source supplement are placed in the reading, each directly under the article text it belongs to: a treemap of where the world's AI compute sits on January 1, 2029, after the three tables of size bands, other compute locations and region totals; the 2029 to 2031 deal implementation timeline, after the eleven-bullet timeline list; the assurance curves for N_ver = 100, 10K and 10M audited packets, after the collapsed box on verification approaches whose table it makes interactive; and the rogue internal deployment detection chart, after the collapsed workload verification box whose table it makes interactive. The captions and tables stay in the article as the text fallback, so every number is on the page in words; the charts add the readouts, the region and series filters and the year and packet size sliders that the static tables cannot give. The two interactive charts that sit under a collapsed box each have a one-line lead-in on the page naming them."
 duration_minutes: 45
 tags: [wip]
 add_to_ai_context:
