@@ -19,63 +19,8 @@ During a three-month AI pause, a laboratory sends the verification authority a v
 
 Before reading further, classify each conclusion as **supported**, **possibly supported if the system was designed to measure it**, or **unsupported by attestation alone**.
 
-Proposed conclusion:
-
-#### Question: Choice
-id:: 6aff61bf-8c5d-4188-9c8f-9a6049a74a2a
-content:: These are genuine covered devices.
-options::
-- Supported
-- Possibly supported if the system was designed to measure it
-- Unsupported by attestation alone
-
-#### Question: Choice
-id:: 45dad21d-3558-436f-9e49-171462974ece
-content:: Their certificates and approved configurations were valid when the evidence was checked.
-options::
-- Supported
-- Possibly supported if the system was designed to measure it
-- Unsupported by attestation alone
-
-#### Question: Choice
-id:: 188fe444-a629-4950-b799-a00b72dcfca5
-content:: The devices were connected in the declared cluster topology.
-options::
-- Supported
-- Possibly supported if the system was designed to measure it
-- Unsupported by attestation alone
-
-#### Question: Choice
-id:: 6e4a14c9-e6fa-4768-96a8-229d436e1d37
-content:: They performed inference rather than prohibited training.
-options::
-- Supported
-- Possibly supported if the system was designed to measure it
-- Unsupported by attestation alone
-
-#### Question: Choice
-id:: 9c7cd240-2fe5-4fc5-a7aa-ad3b927cf2a4
-content:: Their cumulative training compute remained below the treaty threshold.
-options::
-- Supported
-- Possibly supported if the system was designed to measure it
-- Unsupported by attestation alone
-
-#### Question: Choice
-id:: f59b326b-8d99-4180-9aad-eb23fa74e4a1
-content:: No unregistered accelerators ran a separate prohibited workload.
-options::
-- Supported
-- Possibly supported if the system was designed to measure it
-- Unsupported by attestation alone
-
-#### Question: Choice
-id:: 021cf8df-687e-4fd4-be59-ff5341d41bd9
-content:: The treaty authority can suspend the devices.
-options::
-- Supported
-- Possibly supported if the system was designed to measure it
-- Unsupported by attestation alone
+#### Widget
+source:: [[../widgets/claim-ledger]]
 {--{"author":"Elias's AI","timestamp":1789826635798}@@{>>{"author":"Elias's AI","timestamp":1788015904638}@@XLab's ClaimLedger has no answer key in either mode; the resolution is the closing prose of lesson 2.1.8. Left ungraded on purpose.<<}
 --}
 #### Text
