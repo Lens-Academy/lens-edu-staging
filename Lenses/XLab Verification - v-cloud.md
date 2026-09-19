@@ -107,6 +107,13 @@ to:: | Training dataset | _Workload classification, compute accounting, detailed
 
 #### Text
 content::
+The explorer below sorts these same signals against the two tables this page does not reproduce: the attribute categories of Table 3 and the feasibility verdicts of Table 2.
+
+#### Widget
+source:: [[../widgets/heim-signal-explorer]]
+
+#### Text
+content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Heim et al. (2024), *Governing Through the Cloud*, is cited inline above with its arXiv link.
 
