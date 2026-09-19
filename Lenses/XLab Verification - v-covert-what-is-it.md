@@ -95,7 +95,7 @@ As the red team, explain the most plausible evasion strategy, its assumptions, a
 
 As the blue team, explain how evidence from the hardware, cloud, intelligence, and human layers could be combined, and recommend a proportionate response.
 
-The first red-team prompt and the first blue-team prompt are yours to answer. The other four are worked through for you, so that you can see the whole shape of the exercise before you meet the real one in the last lesson of this module.
+The answers below show what excellent student work might look like. Write your own answer to a prompt before you open its model answer, or open the model answer straight away, so that you see the whole shape of the exercise before you meet the real one in the last lesson of this module.
 
 #### Widget
 source:: [[../widgets/covert-worked-example]]
