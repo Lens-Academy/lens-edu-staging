@@ -34,6 +34,18 @@ In your answers:
 #### Article
 source:: [[../articles/cankaya-a-system-overview-for-near-term-low-trust-ai-compute-verification]]
 from:: "**Version 0.2, working draft**"
+to:: "We follow one inference request, but the tap sees it only as part of an undifferentiated byte stream. The request is never singled out _at capture_, only _reconstructed later_ in the auditing environment."
+
+#### Text
+content::
+The two figures in sections 3.2.1 and 3.2.2 below are redrawn here as one interactive trace: step through it first, then read the two sections in full.
+
+#### Widget
+source:: [[../widgets/covert-execution-trace]]
+
+#### Article
+source:: [[../articles/cankaya-a-system-overview-for-near-term-low-trust-ai-compute-verification]]
+from:: "### 3.2.1 Evidence capture"
 to:: "| 10,000 | 5% | ~108,000 | 1 in 1,600 | 0.0028% |"
 
 #### Text
