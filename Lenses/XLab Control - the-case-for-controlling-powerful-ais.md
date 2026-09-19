@@ -214,8 +214,16 @@ feedback-instructions:: In at most five sentences, name what the learner's reaso
 
 #### End Callout
 
+#### Text
+content::
+Here is the shape of the answer the next section argues for. The axis runs from now into the future through three regions: not yet transformatively useful, the control window, and uncontrollable. The arrival of transformative usefulness is fixed; the slider moves only the control frontier, and the milestones underneath show what the time inside the window buys.
+
 #### Widget
 source:: [[../widgets/xlab-control-control-timeline]]
+
+#### Text
+content::
+Widths there are qualitative: an ordering of successive frontier systems, not calendar time. The window's width is not fixed in advance. It depends on how fast capabilities are pushed past transformative usefulness, and the reading argues we should hold off on building uncontrollable AI for as long as possible.
 
 #### Article
 from:: ## "Transformatively useful" probably doesn't imply "uncontrollable"
