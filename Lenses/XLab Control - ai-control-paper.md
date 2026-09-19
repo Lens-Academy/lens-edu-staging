@@ -494,6 +494,12 @@ assessment-instructions:: Full marks for: because the monitor is the same untrus
 from:: #### 3.4.3 Defer to Trusted
 to:: Table 7: Detailed Safety and Usefulness Results for All Protocols.
 
+#### Text
+content::
+\## Every protocol at once
+
+Table 7 gives every protocol the paper evaluates with its safety and its scaled usefulness. The widget plots all fifteen rows at once, one marker shape per method family. Hover a point for its numbers, click a family to hide or show it, and tick the box to draw the Pareto frontier through the protocols that nothing else beats on both axes at the same time.
+
 #### Widget
 source:: [[../widgets/xlab-control-safety-usefulness-frontier]]
 
