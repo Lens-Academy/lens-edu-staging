@@ -522,7 +522,7 @@ The keys. Open the one for the report you worked, after you have delivered, and 
 - **Elena Petrova, diplomatic correspondent.** Needs the lead: the sharpest verified fact, and what each side did this quarter. Knows: covered the June attacks and the Cairo signing; her readers know the broad arc. Asks: What is the lead? The single sharpest fact in the report. (The world’s only non-weapon-state stockpile of 60% uranium, 440.9 kg of it, has now gone more than eight months unverified.) What broke down diplomatically this quarter? (Iran formally terminated the Cairo agreement, the post-attack framework for inspections.)
 :::
 
-:::callout {title="Key: BIS Settlement Order, In re Seagate (2023)" tone="neutral" collapse="closed"}
+:::callout {title="Key, open after you deliver: BIS Settlement Order, In re Seagate (2023)" tone="neutral" collapse="closed"}
 **Core clippings and their distillations**
 
 - *Order ¶1, p. 2 (verdict-bearing).* “between on or about August 17, 2020 and on or about September 29, 2021, Seagate US and Seagate Singapore engaged in conduct prohibited by the Regulations on 429 occasions when they ordered or caused the reexport, export from abroad, or transfer (in-country) of approximately 7,420,496 hard disk drives (“HDDs”), items subject to the EAR and valued at approximately $1,104,732,205, to Huawei Technologies Co., Ltd. (“Huawei”) or other Huawei entities listed on the BIS Entity List”. Why: the charged conduct in one sentence: counts, volume, value, dates, and counterparty. Distilled: The numbers first: 429 charged violations covering roughly 7.4 million hard drives worth about $1.1 billion, shipped to or for listed Huawei entities over thirteen months without a BIS license.
