@@ -21,8 +21,7 @@ Before reading further, classify each conclusion as **supported**, **possibly su
 
 #### Widget
 source:: [[../widgets/claim-ledger]]
-{--{"author":"Elias's AI","timestamp":1789826635798}@@{>>{"author":"Elias's AI","timestamp":1788015904638}@@XLab's ClaimLedger has no answer key in either mode; the resolution is the closing prose of lesson 2.1.8. Left ungraded on purpose.<<}
---}
+
 #### Text
 content::
 Keep your answers. You will return to them at the end of the section.

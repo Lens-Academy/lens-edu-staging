@@ -44,40 +44,11 @@ Before we dive in, record your baseline intuitions: rank each mechanism across f
 | Low | High |
 | --- | --- |
 | FLOP-threshold reporting; algorithmic efficiency gains push dangerous capabilities below any fixed threshold within a few years. | Mechanisms rooted in chip hardware, which takes long to mature and go obsolete. |
-{>>{"author":"Elias's {--{"author":"Elias's AI","timestamp":1789826364150}@@AI","timestamp":1788015800260}@@XLab's--}{++{"author":"Elias's AI","timestamp":1789826364150}@@AI","timestamp":1789826364150}@@XLab's++} SlidingScale is a static display (a rail with the Low and High anchor texts), not an input, so it is reproduced as a two-column table rather than a Rating question. The ratings themselves happen in the mechanism-sort {--{"author":"Elias's AI","timestamp":1789826364150}@@widget, reproduced below as four Ranking questions.<<}--}{++{"author":"Elias's AI","timestamp":1789826364150}@@widget below.<<}++}
+{>>{"author":"Elias's AI","timestamp":1789826364150}@@XLab's SlidingScale is a static display (a rail with the Low and High anchor texts), not an input, so it is reproduced as a two-column table rather than a Rating question. The ratings themselves happen in the mechanism-sort widget below.<<}
 
-{--{"author":"Elias's AI","timestamp":1789826364652}@@Before the mechanism weeks begin, record your intuitions. --}Rate each mechanism on four metrics; every rating drops it onto the ranking lanes below, so you can see your full ordering take shape. Keep the set for comparison with the reference map in the separate capstone.
+Rate each mechanism on four metrics; every rating drops it onto the ranking lanes below, so you can see your full ordering take shape. Keep the set for comparison with the reference map in the separate capstone.
 
-:::callout{--{"author":"Elias's AI","timestamp":1789826364652}@@ {title="The twelve mechanisms" tone="neutral" collapse="closed"}
-**Hardware**
-
-- **Chip identity and remote attestation.** Every AI accelerator carries a unique cryptographic identity and can prove to a remote verifier what firmware it is running. This would let a treaty body maintain a registry of who holds which chips and confirm --}{++{"author":"Elias's AI","timestamp":1789826364652}@@ {title="How ++}the{--{"author":"Elias's AI","timestamp":1789826364652}@@ hardware has not been tampered with.
-- **On-chip compute metering.** Chips measure how much computation they perform and what class of workload it is, then report the totals to a verifier. This could confirm that declared facilities stay under agreed compute thresholds.
-- **Hardware licensing and remote authorization.** Chips require a cryptographic license, renewed on a schedule, to keep operating at full capability. An authority could suspend or revoke a violator's compute directly rather than relying on sanctions after the fact.
-- **Independent verification of training claims (proof-of-learning).** Developers preserve checkpoints and training records, and verifiers recompute randomly chosen segments of the run on their own cluster. A match supports the claim that the declared training run is what actually happened.
-
-**Cloud**
-
-- **Cloud KYC and cluster registration.** Cloud providers verify who their large customers really are, including beneficial owners behind reseller chains, and register large clusters and training runs with an authority. Frontier-scale compute becomes hard to rent anonymously.
-- **Cloud workload monitoring and reporting.** Providers watch cluster allocation and utilization patterns, preserve logs and billing records, report suspicious use, and can suspend access. The provider becomes a standing observer of what its customers run.
-
-**Intelligence**
-
-- **Satellite and infrastructure monitoring.** Remote sensing tracks data-center construction, power draw, and cooling infrastructure. Frontier-scale facilities have physical signatures that --}{++{"author":"Elias's AI","timestamp":1789826364652}@@ four metrics ++}are {--{"author":"Elias's AI","timestamp":1789826364652}@@difficult to hide from overhead collection.
-- **Chip supply-chain tracking.** Export records, customs data, and financial activity trace accelerators from fabrication to installation. Diversions and smuggling routes show up as gaps between where chips were sold and where they can be accounted for.
-- **National intelligence sharing.** States pass leads from their own collection to an international verification body, the way national tips have pointed nuclear inspectors at undeclared facilities. The regime supplies the follow-up; the agencies supply the anomaly.
-
-**Human layer**
-
-- **Whistleblower channels and protections.** Secure reporting channels, anti-retaliation protections, and rewards give employees, contractors, --}{++{"author":"Elias's AI","timestamp":1789826364652}@@defined, ++}and {--{"author":"Elias's AI","timestamp":1789826364652}@@suppliers a path to report concealed activity. Insiders can see --}what {--{"author":"Elias's AI","timestamp":1789826364652}@@no sensor reaches.
-- **On-site and challenge inspections.** International inspectors visit declared facilities on a routine schedule and can demand short-notice access to suspect sites. Managed-access rules decide what inspectors may see and what stays shielded.
-
-**Cryptographic**
-
-- **Privacy-preserving proofs (ZK proofs).** Zero-knowledge proofs and secure multiparty computation let a developer prove a claim about a model or training run without revealing weights, code, or data. Verification without disclosure, if the cryptography scales.
-:::
-
-:::callout {title="The four metrics" --}{++{"author":"Elias's AI","timestamp":1789826364652}@@each rung means (open before you rate)" ++}tone="neutral" collapse="closed"}
+:::callout {title="How the four metrics are defined, and what each rung means (open before you rate)" tone="neutral" collapse="closed"}
 **Technical feasibility.** Can this be built and run at the required scale today, not in a demo, not in five years? How mature is the underlying technology? What dependencies does it drag in? What does it cost to build and operate? What are the error rates in the field? Rungs: Not close, Research, Prototype, Buildable, Running.
 
 **Political feasibility.** Would the specific parties whose cooperation is required actually adopt and enforce it, now or under conditions you can name? What are the incentives of the parties who must act? How intrusive is it, and what does it cost in confidentiality? Does it have an institutional home, who runs it? Enforcement, not just signature. Rungs: Non-starter, Rivals yield, Hard bargain, Willing, Piggybacks.
@@ -85,78 +56,14 @@ Before we dive in, record your baseline intuitions: rank each mechanism across f
 **Verification effectiveness.** How much verification does it actually deliver when it runs? Evidence strength: loose inference or specific proof, against a motivated evader? Threat-surface coverage: which actors and which activities does it see? Weak on either dimension caps the score: conclusive proof about a sliver is as limited as vague hints about everyone. Rungs: Near nothing, Weak/narrow, Capped, Solid, Strong & broad.
 
 **Durability.** How fast does it decay, from technical progress, adversary adaptation, or political change? Does technical progress erode its assumptions? Can adversaries adapt around it? Does it survive political change? A high scorer works about as well in five years as today. Rungs: Leaking now, Decaying, Needs upkeep, Ages slowly, Decade-proof.
-:::{--{"author":"Elias's AI","timestamp":1789826364652}@@
+:::
 
-Rank the twelve mechanisms on each metric, most to least. There is no grading here; comparison with the reference map belongs to the separate capstone.--}
+#### Widget
+source:: [[../widgets/mechanism-sort]]
 
-#### {--{"author":"Elias's AI","timestamp":1789826364652}@@Question: Ranking
-id:: 4adc193c-7e97-41da-a7ce-76d9fb8907e8
-content:: **Technical feasibility.** Rank from most technically ready to least technically ready.--}{++{"author":"Elias's AI","timestamp":1789826364652}@@Widget++}
-{--{"author":"Elias's AI","timestamp":1789826364652}@@items::
-- Satellite and infrastructure monitoring
-- Whistleblower channels and protections
-- National intelligence sharing
-- Cloud KYC and cluster registration
-- On-site and challenge inspections
-- Chip identity and remote attestation
-- Chip supply-chain tracking
-- Cloud workload monitoring and reporting
-- On-chip compute metering
-- Hardware licensing and remote authorization
-- Independent verification of training claims (proof-of-learning)
-- Privacy-preserving proofs (ZK proofs)--}{++{"author":"Elias's AI","timestamp":1789826364652}@@source:: [[../widgets/mechanism-sort]]++}
-
-####{--{"author":"Elias's AI","timestamp":1789826364652}@@ Question: Ranking
-id:: c7b2d36a-3cd5-45f5-8de5-2505b6464c32--}{++{"author":"Elias's AI","timestamp":1789826364652}@@ Text++}
-content::{--{"author":"Elias's AI","timestamp":1789826364652}@@ **Political feasibility.** Rank from most politically adoptable to least politically adoptable.
-items::--}
-{--{"author":"Elias's AI","timestamp":1789826364652}@@- Satellite and infrastructure monitoring
-- Cloud KYC and cluster registration
-- Privacy-preserving proofs (ZK proofs)
-- Chip supply-chain tracking
-- Chip identity--}{++{"author":"Elias's AI","timestamp":1789826364652}@@There is no grading here,++} and {--{"author":"Elias's AI","timestamp":1789826364652}@@remote attestation
-- Cloud workload monitoring and reporting
-- Whistleblower channels and protections
-- On-chip compute metering
-- Independent verification of training claims (proof-of-learning)
-- National intelligence sharing
-- On-site and challenge inspections
-- Hardware licensing and remote authorization
-
-#### Question: Ranking
-id:: 31372b62-ebb8-4463-84bd-b87af399700e
-content:: **Verification effectiveness.** Rank from most effective as verification --}{++{"author":"Elias's AI","timestamp":1789826364652}@@no key. This set exists ++}to {--{"author":"Elias's AI","timestamp":1789826364652}@@least effective as verification.
-items::
-- Chip identity and remote attestation
-- On-chip compute metering
-- On-site and challenge inspections
-- Hardware licensing and remote authorization
-- Chip supply-chain tracking
-- National intelligence sharing
-- Privacy-preserving proofs (ZK proofs)
-- Cloud workload monitoring and reporting
-- Satellite and infrastructure monitoring
-- Independent verification of training claims (proof-of-learning)
-- Whistleblower channels and protections
-- Cloud KYC and cluster registration
-
-#### Question: Ranking
-id:: ade67ed8-7a7f-4112-b33d-9ab40bfede96
-content:: **Durability.** Rank from most durable to least durable.
-items::
-- Chip identity and remote attestation
-- On-chip compute metering
-- National intelligence sharing
-- Whistleblower channels and protections
-- Hardware licensing and remote authorization
-- Satellite and infrastructure monitoring
-- On-site and challenge inspections
-- Privacy-preserving proofs (ZK proofs)
-- Cloud KYC and cluster registration
-- Cloud workload monitoring and reporting
-- Chip supply-chain tracking
-- Independent verification of training claims (proof-of-learning)
-{>>{"author":"Elias's AI","timestamp":1788015800260}@@The items:: order is XLab's --}{++{"author":"Elias's AI","timestamp":1789826364652}@@be revised: the separate capstone lays it over the ++}reference map {--{"author":"Elias's AI","timestamp":1789826364652}@@(ref scores in mechanism-sort.ts, ties broken by list order). It is shown shuffled --}and {--{"author":"Elias's AI","timestamp":1789826364652}@@there are no assessment-instructions, so nothing is graded and the reference is not revealed here; it can be graded later by adding assessment-instructions if 4.1 wants that.<<}--}{++{"author":"Elias's AI","timestamp":1789826364652}@@asks which metric you disagree on.++}
+#### Text
+content::
+There is no grading here, and no key. This set exists to be revised: the separate capstone lays it over the reference map and asks which metric you disagree on.
 
 #### Question: Open
 id:: 590f109a-6299-4945-a377-286c926726ef

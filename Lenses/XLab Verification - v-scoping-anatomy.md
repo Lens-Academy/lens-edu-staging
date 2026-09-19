@@ -129,16 +129,15 @@ feedback-instructions:: Start with the negative finding: if the learner asserted
 content::
 {>>{"author":"Elias's AI","timestamp":1788016175235}@@Native reproduction of XLab's treaty-workspace (src/lib/verification/data/treaty-workspace.ts and widgets/treaty-workspace.tsx). XLab's rule is "answer any 3 of the 4", so all four are optional with a bridge sentence. The two imported headings ("Apply the Treaty-Reading Method" was XLab's PageBreak title) are collapsed to the real "Assignment" heading.<<}
 
-{--{"author":"Elias's AI","timestamp":1789826203548}@@:::callout {title="Optional:--}{++{"author":"Elias's AI","timestamp":1789826203548}@@\## Optional:++} Reassemble the Parts of an {--{"author":"Elias's AI","timestamp":1789826203548}@@Agreement" tone="neutral" collapse="closed"}
---}{++{"author":"Elias's AI","timestamp":1789826203548}@@Agreement
+\## Optional: Reassemble the Parts of an Agreement
 
-++}A recall drill for the anatomy you just dissected.
+A recall drill for the anatomy you just dissected.
 
 **Every agreement that restrains anyone has the same seven organs.** Statements have some of them. Treaties have all of them, though not all healthy. In the next fifteen minutes you will read thirteen short texts, real and fictional, and place each one on the organ it implements. Three of them implement nothing at all.
 
 _13 specimens · about 15 minutes · choose the organ each text implements._
 
-{--{"author":"Elias's AI","timestamp":1789826203548}@@Each specimen's source sits in a collapsed note below it; open it after you have answered. --}Read the text, not the letterhead. Where a tag is arguable, a defensible second-best answer is accepted and discussed, because expert readers disagree about these too.
+Read the text, not the letterhead. Where a tag is arguable, a defensible second-best answer is accepted and discussed, because expert readers disagree about these too.
 
 **The seven organs, and the bin:**
 
@@ -151,11 +150,10 @@ _13 specimens · about 15 minutes · choose the organ each text implements._
 7. **The gap.** Verified proxy vs. actual goal; decay; review. Compute is not capability, parties are not the world. Good agreements chase their own proxy.
 0. **No organ.** Advocacy: sounds load-bearing, binds no one. The tell is 'should' with no bound actor and no procedure.
 
-{--{"author":"Elias's AI","timestamp":1789826203548}@@The thirteen specimens follow as questions; all are optional.
-:::{>>{"author":"Elias's AI","timestamp":1788016350518}@@Native reproduction of XLab's anatomy-drill widget--}{++{"author":"Elias's AI","timestamp":1789826203548}@@{>>{"author":"Elias's AI","timestamp":1789826203548}@@The anatomy drill is the widget below (Lens Edu/widgets/anatomy-drill), ported from XLab++} (src/lib/verification/data/anatomy-drill.ts). XLab folds it as {--{"author":"Elias's AI","timestamp":1789826203548}@@optional, so--}{++{"author":"Elias's AI","timestamp":1789826203548}@@optional. The seven organs and++} the {--{"author":"Elias's AI","timestamp":1789826203548}@@fold becomes a collapsed callout and every specimen is optional:: true. Sources are placed in--}{++{"author":"Elias's AI","timestamp":1789826203548}@@reading note stay here as page text because the widget opens straight on Specimen 1;++} the {--{"author":"Elias's AI","timestamp":1789826203548}@@"Why" callouts because XLab hides them until--}{++{"author":"Elias's AI","timestamp":1789826203548}@@specimens, verdicts, near-miss notes, sources, results table and++} the {--{"author":"Elias's AI","timestamp":1789826203548}@@card is placed.<<}--}{++{"author":"Elias's AI","timestamp":1789826203548}@@closing priority pick are all inside the widget.<<}
+{>>{"author":"Elias's AI","timestamp":1789826203548}@@The anatomy drill is the widget below (Lens Edu/widgets/anatomy-drill), ported from XLab (src/lib/verification/data/anatomy-drill.ts). XLab folds it as optional. The seven organs and the reading note stay here as page text because the widget opens straight on Specimen 1; the specimens, verdicts, near-miss notes, sources, results table and the closing priority pick are all inside the widget.<<}
 
 #### Widget
-source:: [[../widgets/anatomy-drill]]++}
+source:: [[../widgets/anatomy-drill]]
 
 #### Text
 content::
