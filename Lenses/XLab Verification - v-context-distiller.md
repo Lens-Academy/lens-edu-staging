@@ -48,18 +48,17 @@ optional:: true{>>{"author":"Elias's AI","timestamp":1788016974835}@@Legacy ####
 content::
 \## The Distiller
 
-The exercise takes the five steps in the order that makes them workable: you clip
-and distil first, then trace the actors, then thread. The two identification
-steps above are steps three and four on the rail.
+The exercise takes the five steps in the order that makes them workable: you clip and distil first, then trace the actors, then thread. The two identification steps above are steps three and four in the exercise below.
 
-#### Question: Choice
-id:: 21ffdd3a-ab25-4e20-9187-78f9e6d5870e
-content:: Pick one report. You will work it through every step below; the keys at the end are per report.
-options::
-- Claude Opus 4.7 System Card (Anthropic, 2026; frontier-lab system card). A frontier lab’s report on its own model: capabilities, safeguards, and the release decision. The lab runs the tests and chooses what to publish. In-universe teaching document modeled on Anthropic’s published system cards.
-- Frontier AI Trends Report (UK AI Security Institute, 2025; government evaluation report). A government institute’s first public assessment of frontier capability trends, based on two years of its own testing of more than 30 frontier systems.
-- IAEA Safeguards Report on Iran, GOV/2026/8 (IAEA Director General, 2026; international inspection report). International nuclear inspectors’ quarterly findings after Iran cut access: the closest existing analogue to what an AI treaty inspectorate would publish.
-- BIS Settlement Order: Seagate (US Bureau of Industry and Security, 2023; export-control enforcement order). The enforcement document behind a $300 million penalty for shipping hard drives to Huawei in violation of the Foreign Direct Product rule.
+**Clipping.** A report is mostly true and mostly forgettable. **Clip only the handful of facts that would change what a reader does** and reject the rest. The editorial test: “Would any of my audiences act differently knowing this?” Each report’s pool mixes core facts with deliberate decoys, and your notebook has a cap: 12 clippings for the system card, 11 for AISI, 10 for GOV/2026/8, 10 for Seagate. Fewer is fine.
+
+**Distilling.** Each clipping compresses into the post, in the order you filed it. **What you didn’t clip simply isn’t here.** Facts you skipped leave no placeholder. That silence is the point.
+
+**Upstream and downstream.** Every claim in the document rests on somebody’s access, and upstream sets what the report can honestly say. The readers you confirm downstream become the desks on the threading board.
+
+**Threading.** Different readers need different facts, and already know different things. Thread each distilled point to the readers who need it, deliver, and every unanswered question turns red. A fact you never clipped can reach no one; that gap is the lesson.
+
+Read your report before you clip: the three real reports are below as readings, and the fictional system card is in the callout that follows (the exercise carries its full text too).
 
 #### Text
 content::
