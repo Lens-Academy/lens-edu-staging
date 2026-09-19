@@ -1,7 +1,7 @@
 ---
 id: '2b6559a3-bc13-483b-8382-f6a23f66c90d'
 title: The life of a deal
-summary_for_tutor: "XLab's \"Build the flow chart\" exercise for the lesson on making deals with early schemers, rebuilt for Lens. The learner reconstructs the life cycle of a deal with an early schemer by placing blocks from a palette of ten into seven slots: four sequential steps, one decision, and the two endings the decision leads to. The correct chart is ask the AI whether it wants a deal, negotiate terms and make the earmarked escrow donation to the foundation, train the AI on documents about the deal so it holds in other contexts, have the AI perform while the lab stores weights and records, then after the AI transition stabilizes adjudicate retrospectively whether it held up its end; yes releases the donation to the AI and the foundation's trustees for non-harmful uses, no withholds it. Three palette blocks are distractors and belong nowhere: deleting the AI's weights once it is obsoleted (the foundation must keep them for adjudication), an enforcement suit in court (AIs are not legal persons, which is why the foundation exists), and paying out immediately before any verification (the point of escrow is that verification is delayed). The widget scores the finished chart out of seven slots and reports which blocks are misplaced, without naming the right answer. If the learner is stuck, ask what has to be stored for adjudication to be possible at all."
+summary_for_tutor: "XLab's \"Build the flow chart\" exercise for the lesson on making deals with early schemers, rebuilt for Lens. The learner reconstructs the life cycle of a deal with an early schemer by placing blocks from a palette of ten into seven slots: four sequential steps, one decision, and the two endings the decision leads to. The correct chart is ask the AI whether it wants a deal, negotiate terms and make the earmarked escrow donation to the foundation, train the AI on documents about the deal so it holds in other contexts, have the AI perform while the lab stores weights and records, then after the AI transition stabilizes adjudicate retrospectively whether it held up its end; yes releases the donation to the AI and the foundation's trustees for non-harmful uses, no withholds it. Three palette blocks are distractors and belong nowhere: deleting the AI's weights once it is obsoleted, an enforcement suit in court, and paying out immediately before any verification. Checking marks each filled slot right or wrong on the chart itself and gives a count out of seven; tapping a marked block then shows why that block does or does not fit there, and tapping it again takes it back out. The life cycle is not described inside the widget: the reading around it on the page carries it, in the vignette section above and in the sections on entering negotiations, knowing about the deal in other contexts, and delayed adjudication directly before the widget. The widget completes on the first check. If the learner is stuck, ask what has to be stored for adjudication to be possible at all."
 height: auto
 tags: []
 ---
@@ -55,10 +55,7 @@ button.act[disabled] { opacity: 0.45; cursor: default; }
 .status.hidden { display: none; }
 .status ul { margin: 8px 0 0; padding-left: 18px; }
 .hint { font-size: 12px; color: var(--muted); margin-top: 10px; }
-.credit { font-size: 12px; color: var(--muted); margin-top: 12px; }
-.desc { margin-top: 14px; border: 1px solid var(--border); border-radius: 8px; background: var(--page); padding: 10px 12px; }
-.desc summary { cursor: pointer; color: var(--muted); }
-.desc p { margin: 8px 0 0; }
+.slot .why { display: block; margin-top: 6px; font-size: 12px; color: var(--muted); }
 </style>
 </head>
 <body>
@@ -68,12 +65,7 @@ button.act[disabled] { opacity: 0.45; cursor: default; }
 <div class="card">
   <p class="eyebrow">Build the flow chart</p>
   <h2>The life of a deal</h2>
-  <p class="lede">Reconstruct the life cycle of a deal with an early schemer, from first contact to what finally happens to the compensation. Pick a block, then pick the slot it belongs in. Some blocks do not belong in the chart at all.</p>
-
-  <details class="desc">
-    <summary>Show the description of the deal life cycle</summary>
-    <p>AIs are unlikely to propose a negotiation on their own, so the lab has a policy of regularly asking its AIs about deals. Terms are negotiated, and the lab makes a donation to a foundation tasked with furthering the AI's interests, earmarked for this AI and mostly held in escrow. The AI is then, in consultation with the lab, trained on documents about the deal so that it knows about the deal in other contexts. The AI performs its side while the lab stores its weights and keeps records of its actions. After the transition to a world centered around AI has stabilized, much more powerful trusted models and interpretability tools adjudicate whether the AI cooperated. If it did, the AI and the foundation's trustees direct the donation toward uses that are not harmful; if it did not, the donation is not released.</p>
-  </details>
+  <p class="lede">Pick a block, then the slot it belongs in. Three of the ten blocks belong nowhere.</p>
 
   <div class="chart" id="chart"></div>
 
@@ -87,8 +79,6 @@ button.act[disabled] { opacity: 0.45; cursor: default; }
   </div>
 
   <div class="status hidden" id="status" aria-live="polite"></div>
-
-  <p class="credit">Exercise and block wording after XLab's flow-chart builder for this lesson.</p>
 </div>
 
 <script>
@@ -96,16 +86,26 @@ button.act[disabled] { opacity: 0.45; cursor: default; }
   "use strict";
 
   var BLOCKS = [
-    { id: "ask", kind: "Step", label: "The lab asks the AI whether it wants to make a deal" },
-    { id: "negotiate", kind: "Step", label: "Negotiate terms; the lab makes an earmarked donation to the foundation, mostly held in escrow" },
-    { id: "train-docs", kind: "Step", label: "Train the AI on documents about the deal, so it knows about the deal in other contexts" },
-    { id: "perform", kind: "Step", label: "The AI performs its side of the deal; the lab stores its weights, conversations, and records" },
-    { id: "delete-weights", kind: "Step", label: "Delete the AI's weights once it is obsoleted" },
-    { id: "adjudicate", kind: "Decision", label: "After the AI transition stabilizes, retrospective adjudication: did the AI hold up its end?" },
-    { id: "court", kind: "Decision", label: "Does the AI win an enforcement suit against the lab in court?" },
-    { id: "release", kind: "Ending", label: "The AI and the foundation's trustees direct the donation toward non-harmful uses" },
-    { id: "withhold", kind: "Ending", label: "The donation is not released" },
-    { id: "pay-now", kind: "Ending", label: "Release the donation to the AI immediately, before any verification" }
+    { id: "ask", kind: "Step", label: "The lab asks the AI whether it wants to make a deal",
+      why: "Deals open with the lab asking. An AI is unlikely to raise the subject on its own, so the lab needs a policy of asking its AIs regularly." },
+    { id: "negotiate", kind: "Step", label: "Negotiate terms; the lab makes an earmarked donation to the foundation, mostly held in escrow",
+      why: "Once the AI is interested, terms are agreed and the earmarked donation goes to the foundation, most of it into escrow." },
+    { id: "train-docs", kind: "Step", label: "Train the AI on documents about the deal, so it knows about the deal in other contexts",
+      why: "Training on documents about the deal is what carries it into the AI's other contexts, where it would otherwise have forgotten the negotiation." },
+    { id: "perform", kind: "Step", label: "The AI performs its side of the deal; the lab stores its weights, conversations, and records",
+      why: "While the AI holds up its end the lab stores weights, conversations and action records. Nothing can be adjudicated later without them." },
+    { id: "delete-weights", kind: "Step", label: "Delete the AI's weights once it is obsoleted",
+      why: "This belongs nowhere in the chart. Deleting the weights destroys exactly what adjudication needs, which is why the foundation has to keep them." },
+    { id: "adjudicate", kind: "Decision", label: "After the AI transition stabilizes, retrospective adjudication: did the AI hold up its end?",
+      why: "Verification is deliberately punted to the future. Once the transition has stabilized, far more powerful trusted models and interpretability tools can judge retrospectively what the AI did." },
+    { id: "court", kind: "Decision", label: "Does the AI win an enforcement suit against the lab in court?",
+      why: "This belongs nowhere in the chart. The AI is not a legal person and cannot sue, which is precisely why a foundation's trustees hold the money on its behalf." },
+    { id: "release", kind: "Ending", label: "The AI and the foundation's trustees direct the donation toward non-harmful uses",
+      why: "Validated cooperation is what unlocks the escrow, and the AI and the trustees then direct it toward uses that are not harmful." },
+    { id: "withhold", kind: "Ending", label: "The donation is not released",
+      why: "Without validated cooperation the escrow stays shut. That is the whole reason the payout is conditional." },
+    { id: "pay-now", kind: "Ending", label: "Release the donation to the AI immediately, before any verification",
+      why: "This belongs nowhere in the chart. Paying before verification gives up the only leverage escrow buys, and the escrow is generally preferable for AIs without high temporal discount rates." }
   ];
 
   var SLOTS = [
@@ -121,6 +121,8 @@ button.act[disabled] { opacity: 0.45; cursor: default; }
   var placed = {};      // slotId -> blockId
   var selected = null;  // blockId
   var checked = false;
+  var revealed = {};    // slotId -> true once its rationale has been opened
+  var completed = false;
 
   function blockById(id) {
     for (var i = 0; i < BLOCKS.length; i++) if (BLOCKS[i].id === id) return BLOCKS[i];
@@ -189,13 +191,21 @@ button.act[disabled] { opacity: 0.45; cursor: default; }
     if (usedBlockIds()[blk.id]) return;
     selected = (selected === blk.id) ? null : blk.id;
     checked = false;
+    revealed = {};
     render();
   }
 
   function onSlot(slot) {
     if (placed[slot.id]) {
+      if (checked && !revealed[slot.id]) {
+        // after a check, the first tap on a filled slot shows why that block does or does not fit
+        revealed[slot.id] = true;
+        render();
+        return;
+      }
       // tapping a filled slot takes the block back out
       delete placed[slot.id];
+      delete revealed[slot.id];
     } else if (selected) {
       placed[slot.id] = selected;
       selected = null;
@@ -218,8 +228,15 @@ button.act[disabled] { opacity: 0.45; cursor: default; }
       var blk = placed[slot.id] ? blockById(placed[slot.id]) : null;
       body.textContent = blk ? blk.label : (selected ? "Place the selected block here" : "Empty");
       b.appendChild(body);
+      if (checked && blk && revealed[slot.id]) {
+        var why = document.createElement("span");
+        why.className = "why";
+        why.textContent = (blk.id === slot.answer ? "Right. " : "Not here. ") + blk.why;
+        b.appendChild(why);
+      }
       b.className = "slot" + (slot.id === "d1" ? " decision" : "") + (blk ? " filled" : "");
       if (checked && blk) b.className += (blk.id === slot.answer ? " ok" : " bad");
+      b.title = blk ? (checked && !revealed[slot.id] ? "Show why this block does or does not fit here" : "Take this block back out") : "Place the selected block here";
     });
 
     BLOCKS.forEach(function (blk) {
@@ -252,29 +269,15 @@ button.act[disabled] { opacity: 0.45; cursor: default; }
     var head = document.createElement("strong");
     head.textContent = n + " of " + SLOTS.length + " slots are right.";
     status.appendChild(head);
+    var tail = document.createElement("span");
+    tail.textContent = " Tap a block in the chart to see why it does or does not fit.";
+    status.appendChild(tail);
 
-    if (n === SLOTS.length) {
-      var p = document.createElement("p");
-      p.style.margin = "8px 0 0";
-      p.textContent = "That is the chart. Verification is deliberately punted to the future: after the transition stabilizes, the lab will have far more powerful trusted models and interpretability tools, so it can adjudicate cooperation retrospectively, provided the weights and records were kept, which is why deleting the weights is wrong. The two other tempting blocks also fail for reasons the reading gives: the payout is meant to be conditional on validated cooperation (escrow until civilizational stability is generally preferable for AIs without high temporal discount rates), and the AI cannot sue because it is not a legal person, which is exactly why the foundation's trustees hold and direct the funds on its behalf.";
-      status.appendChild(p);
+    if (!completed) {
+      completed = true;
       if (window.Lens && window.Lens.complete) window.Lens.complete();
-    } else {
-      var list = document.createElement("ul");
-      SLOTS.forEach(function (slot) {
-        if (placed[slot.id] !== slot.answer) {
-          var li = document.createElement("li");
-          li.textContent = slot.tag + ": that block does not belong there.";
-          list.appendChild(li);
-        }
-      });
-      status.appendChild(list);
-      var hint = document.createElement("p");
-      hint.style.margin = "8px 0 0";
-      hint.style.color = "var(--muted)";
-      hint.textContent = "Three of the ten blocks belong nowhere in the chart. Tap a filled slot to take its block back out.";
-      status.appendChild(hint);
     }
+
     render();
     // render() hides the status when checked is false; it is true here, so restore it
     status.className = "status";
@@ -292,7 +295,7 @@ button.act[disabled] { opacity: 0.45; cursor: default; }
       var filled = Object.keys(placed).length;
       var summary = "Deal life-cycle flow chart, " + filled + " of " + SLOTS.length + " slots filled. " + lines.join(". ") + ". " +
         (checked ? ("Checked: " + correctCount() + " of " + SLOTS.length + " slots correct.") : "Not checked yet.");
-      window.Lens.saveState({ v: 1, placed: placed, checked: checked }, summary);
+      window.Lens.saveState({ v: 1, placed: placed, checked: checked, revealed: revealed }, summary);
     }, 400);
   }
 
@@ -301,6 +304,7 @@ button.act[disabled] { opacity: 0.45; cursor: default; }
     placed = {};
     selected = null;
     checked = false;
+    revealed = {};
     render();
   });
 
@@ -312,6 +316,7 @@ button.act[disabled] { opacity: 0.45; cursor: default; }
       if (state && state.placed) {
         placed = state.placed;
         checked = !!state.checked;
+        revealed = (state.revealed && typeof state.revealed === "object") ? state.revealed : {};
       }
       render();
       if (checked) onCheck();
