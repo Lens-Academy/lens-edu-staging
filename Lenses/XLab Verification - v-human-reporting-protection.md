@@ -138,14 +138,14 @@ content::
 
 \## On Paper
 
-:::callout {title="Optional: On Paper (7–10 minutes)" tone="neutral" collapse="closed"}
+{--{"author":"Elias's AI","timestamp":1789828441488}@@:::callout {title="Optional: On Paper (7–10 minutes)" tone="neutral" collapse="closed"}
 Below are five fragments of internal whistleblower policies. Each fragment is
 followed by one question about what the quoted language does — and does not —
 establish. For each question, choose the one best answer. The answers are
-revealed after you submit the whole set.{>>{"author":"Elias's AI","timestamp":1788016058779}@@XLab's fold text describes five policy fragments, but the widget data (human-reporting-protection.ts) is two cases with six steps each, reproduced below. Report to XLab as stale copy.<<}
+revealed after you submit the whole set.{>>{"author":"Elias's AI","timestamp":1788016058779}@@XLab's fold text describes five policy fragments, but the widget data (human-reporting-protection.ts) is two cases with six steps each, reproduced below. Report --}{++{"author":"Elias's AI","timestamp":1789828441488}@@Optional, 7 ++}to {--{"author":"Elias's AI","timestamp":1789828441488}@@XLab as stale copy.<<}
 
-**Follow the report.** Reconstruct one route out of the organization and one route from allegation to usable evidence. Every question in this exercise is optional.
-:::
+**Follow the report.**--}{++{"author":"Elias's AI","timestamp":1789828441488}@@10 minutes.++} Reconstruct one route out of the organization and one route from allegation to usable evidence.{--{"author":"Elias's AI","timestamp":1789828441488}@@ Every question in this exercise is optional.
+:::--}
 
 #### Widget
 source:: [[../widgets/human-reporting-protection]]
