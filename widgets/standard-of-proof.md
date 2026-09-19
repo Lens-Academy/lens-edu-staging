@@ -1,7 +1,7 @@
 ---
 id: '54bb4936-12e7-47db-bf8c-983220d90912'
 title: The Standard of Proof
-summary_for_tutor: "An optional decision exercise on the standard of proof. One allegation (Meridian Compute ran a training run above the agreement's compute ceiling at its Delta campus in the third quarter) is pinned at the top; below it are four dockets, A to D, each describing the institution holding the docket and the evidence in front of it. For each docket the learner picks the institution's next move from four buttons (Record and keep collecting, Open a formal investigation, Issue a compliance judgment, Refer for enforcement) and writes a 60 to 90 word defence: what the docket establishes and what kind of evidence does that work, what it does not establish, whether this institution can defend the move. Submit unlocks only once every docket has a move and a defence; it freezes the dockets and reveals the 2x2 the learner was never shown (A and B varied evidence weight under a sound institution; C and D varied institutional soundness), two self-check questions, and XLab's marking key: four tickable criteria worth 2 points each with the grounds behind each, plus a No credit list; the learner marks their own answer and sees a running score out of 8. A separate button sends the four defences to the assessor, graded against that key. Then two closing prompts: a decision standard in at most 50 words, and an optional transfer question naming one structural change that would make the least-trusted docket's judgment defensible and which property it repairs (independence, competence, accountability, authority, or access). The widget counts as complete when Submit is pressed. Moves, defences, self-marks and closing answers reach you through the saved-state summary. Push back when a move reweighs the evidence in a docket where the institution was the weak part (C and D). Content ported from XLab's Verification track."
+summary_for_tutor: "An optional decision exercise on the standard of proof, four dockets in one widget. The page above the widget carries the allegation (Meridian Compute ran a training run above the agreement's compute ceiling at its Delta campus in the third quarter), the task list and the 60 to 90 word guidance; the page below it carries two native open questions, the decision standard in at most 50 words and the optional transfer question about a structural change. Inside the widget the learner works four dockets, A to D, each showing the institution holding it and the evidence in front of it: A a lone protected insider report, B that report plus customs records, grid telemetry and a refused managed-access visit, C a channel controlled by the audited party with the working papers withheld, D strong evidence in front of a panel funded by the association Meridian chairs. For each docket the learner picks the institution's next move (Record and keep collecting, Open a formal investigation, Issue a compliance judgment, Refer for enforcement) and writes a defence: what the docket establishes and what kind of evidence does that work, what it does not establish, whether this institution can defend the move. Submit unlocks only once every docket carries a move and a defence; it freezes the dockets, completes the widget, reveals the 2x2 the learner was never shown (A and B varied evidence weight under a sound institution; C and D varied institutional soundness), and attaches XLab's marking criterion to each docket, worth 2 points, with the grounds behind it revealed by clicking the criterion. The learner self-marks out of 8; that score is theirs and counts towards nothing. A separate button sends the four defences to the assessor and the returned score appears on its own docket. Moves, defences and self-marks reach you through the saved-state summary. Push back when a move reweighs the evidence in a docket where the institution was the weak part (C and D). Content ported from XLab's Verification track."
 height: auto
 tags: [wip]
 ---
@@ -22,21 +22,15 @@ tags: [wip]
   }
   * { box-sizing: border-box; }
   body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
-  h1, h2, h3 { font-family: var(--font-heading); font-weight: 600; margin: 0; }
-  h1 { font-size: 26px; line-height: 1.2; margin: 4px 0 12px; }
-  h2 { font-size: 18px; }
+  h2 { font-family: var(--font-heading); font-weight: 600; font-size: 18px; margin: 0; }
   p { margin: 0; }
   ol, ul { margin: 6px 0 0; padding-left: 22px; }
   li { margin: 2px 0; }
   .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0; }
   .card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: #fff; margin-top: 12px; }
   [hidden] { display: none !important; }
-  .allegation { border-color: var(--accent); background: var(--surface); }
-  .allegation p.quote { margin-top: 6px; font-weight: 500; font-size: 15px; }
-  .intro { margin-top: 16px; max-width: 44rem; }
-  .intro .lead { font-weight: 500; font-size: 15px; }
-  .intro .tasks { margin-top: 8px; }
-  .intro .limit { color: var(--muted); margin-top: 8px; }
+  .lead { font-weight: 500; font-size: 15px; }
+  .reveal { border-color: var(--accent); background: var(--surface); }
   .docket-title { font-size: 15px; font-weight: 600; }
   .docket .eyebrow { margin-top: 10px; }
   .docket p.body { margin-top: 2px; }
@@ -64,19 +58,12 @@ tags: [wip]
   textarea:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
   textarea[readonly] { background: var(--surface); color: var(--muted); }
   .count { font-size: 12px; color: var(--muted); text-align: right; margin-top: 4px; }
-  .count.is-over { color: var(--text); font-weight: 600; }
   .bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; margin-top: 16px; }
   .bar .status { font-size: 12px; color: var(--muted); }
   .after { display: none; }
   .after.is-visible { display: block; }
-  .after h2 { margin-bottom: 8px; }
-  .after p.body { margin-top: 8px; }
-  .keyhead { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px; }
-  .keyscore { font-size: 12px; color: var(--muted); }
-  .keynote { color: var(--muted); margin-top: 8px; }
-  ul.criteria { list-style: none; padding: 0; margin-top: 12px; }
-  ul.criteria li { margin: 0 0 8px; }
-  button.crit { display: flex; gap: 12px; align-items: flex-start; width: 100%; padding: 10px 12px; }
+  .dkey { margin-top: 12px; border-top: 1px solid var(--border); padding-top: 12px; }
+  button.crit { display: flex; gap: 12px; align-items: flex-start; width: 100%; }
   button.crit.is-on { border-color: var(--accent); background: var(--surface); box-shadow: 0 0 0 1px var(--accent); }
   .badge {
     flex: 0 0 auto; width: 22px; height: 22px; border: 1px solid var(--border); border-radius: 4px;
@@ -84,14 +71,13 @@ tags: [wip]
   }
   button.crit.is-on .badge { background: var(--accent); border-color: var(--accent); color: #fff; }
   .crit .sub { display: block; color: var(--muted); font-size: 12px; margin-top: 4px; }
+  .grounds { color: var(--muted); font-size: 12px; margin-top: 6px; }
+  .dscore { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  .keynote { color: var(--muted); margin-top: 8px; }
+  .keyscore { font-size: 13px; font-weight: 600; margin-top: 4px; }
   ul.plain { list-style: none; padding: 0; margin-top: 6px; }
   ul.plain li { display: flex; gap: 10px; color: var(--muted); }
   ul.plain li span.dot { flex: 0 0 auto; }
-  .scores { margin-top: 12px; }
-  .scores li { margin: 2px 0; }
-  .scoreline { font-size: 12px; color: var(--muted); }
-  .optional { color: var(--muted); font-weight: 400; }
-  .fieldlabel { font-weight: 500; }
   @media (max-width: 480px) {
     body { padding: 12px; }
     .card { padding: 12px; }
@@ -99,20 +85,13 @@ tags: [wip]
 </style>
 </head>
 <body>
-<p class="eyebrow">Optional exercise</p>
-<h1>The Standard of Proof</h1>
+<p class="lead" id="lead">Pick a move for each docket, write your defence, then submit.</p>
 
-<section class="card allegation" aria-labelledby="alleg-label">
-  <p class="eyebrow" id="alleg-label">The allegation, over every docket</p>
-  <p class="quote" id="allegation"></p>
+<section class="card reveal after" id="reveal" aria-labelledby="reveal-label">
+  <p class="eyebrow" id="reveal-label">What the four dockets were</p>
+  <p class="body" id="grid"></p>
+  <p class="keynote" id="key-note"></p>
 </section>
-
-<div class="intro">
-  <p class="lead" id="intro"></p>
-  <p class="tasks" id="task-lead"></p>
-  <ol id="tasks"></ol>
-  <p class="limit" id="limit"></p>
-</div>
 
 <div id="dockets"></div>
 
@@ -126,28 +105,19 @@ tags: [wip]
 
 <div class="after" id="after">
   <section class="card">
-    <p class="eyebrow">After submission</p>
-    <p class="body" id="grid"></p>
+    <p class="eyebrow">Your self-mark</p>
+    <p class="keyscore" id="key-score" aria-live="polite"></p>
+    <p class="keynote" id="key-foot"></p>
+    <p class="eyebrow" style="margin-top:12px">Self-check</p>
     <p class="body" id="selfcheck-lead"></p>
     <ul class="plain" id="selfcheck"></ul>
-  </section>
-
-  <section class="card" aria-labelledby="key-title">
-    <div class="keyhead">
-      <p class="eyebrow" id="key-title">Marking key</p>
-      <p class="keyscore" id="key-score" aria-live="polite"></p>
-    </div>
-    <p class="keynote" id="key-note"></p>
-    <ul class="criteria" id="criteria"></ul>
-    <p class="eyebrow">No credit</p>
+    <p class="eyebrow" style="margin-top:12px">No credit</p>
     <ul class="plain" id="nocredit"></ul>
-    <p class="keynote" id="key-foot"></p>
   </section>
 
   <section class="card" id="assessor">
     <p class="eyebrow">Assessor</p>
-    <p class="body" id="score-text">Send your four defences to the assessor. Each docket is graded against the marking key above.</p>
-    <ul class="scores plain" id="scores"></ul>
+    <p class="body" id="score-text">Send your four defences to the assessor. Each docket is graded against its criterion above, and the score appears on that docket.</p>
     <div class="bar">
       <span></span>
       <span>
@@ -156,24 +126,10 @@ tags: [wip]
       </span>
     </div>
   </section>
-
-  <section class="card">
-    <label class="field" for="final"><span class="fieldlabel" id="final-label"></span>
-      <textarea id="final"></textarea>
-    </label>
-    <p class="count" id="final-count" aria-live="polite"></p>
-  </section>
-
-  <section class="card">
-    <label class="field" for="transfer"><span class="fieldlabel"><span class="optional">Optional: </span><span id="transfer-label"></span></span>
-      <textarea id="transfer"></textarea>
-    </label>
-  </section>
 </div>
 
 <script>
   var ALLEGATION = "Meridian Compute ran a training run above the agreement’s compute ceiling at its Delta campus in the third quarter.";
-  var INTRO = "One allegation. Four dockets: the evidence in front of an institution, and the institution holding it.";
   var TASK_LEAD = "For each docket, choose the institution’s next move. Then defend it:";
   var TASKS = [
     "what the docket establishes, and what kind of evidence does that work;",
@@ -234,12 +190,9 @@ tags: [wip]
     "Where the institution was the weak part, did your move repair the institution rather than reweigh the evidence?"
   ];
   var REVEAL_GRID = "The four dockets were a 2×2 you were never shown: evidence weight on one axis, institutional soundness on the other. A and B varied the evidence under a sound institution; C and D varied the institution.";
-  var FINAL = "In no more than 50 words, state the decision standard you actually applied: what separated the dockets you would investigate from any docket you would judge or refer?";
-  var FINAL_MAX_WORDS = 50;
-  var TRANSFER = "Take the docket whose institution you trusted least. Name one structural change that would make its judgment defensible, and say which property it repairs: independence, competence, accountability, authority, or access.";
 
   // XLab marking key (STANDARD_OF_PROOF_KEY). One criterion per docket, in docket order.
-  var KEY_NOTE = "Mark your own answer. Any wording that does not distort the meaning counts; no criterion needs a particular term. Where a criterion asks for a mechanism, a correct label without it earns nothing.";
+  var KEY_NOTE = "Each docket now carries its criterion. Mark your own answer. Any wording that does not distort the meaning counts; no criterion needs a particular term. Where a criterion asks for a mechanism, a correct label without it earns nothing.";
   var KEY_REASONING = "The judgement alone is not the point. The reasoning has to be on the page.";
   var KEY_FOOT = "This score is yours. It is not sent anywhere, counts towards nothing, and completes nothing.";
   var KEY = {
@@ -281,10 +234,10 @@ tags: [wip]
   var state = emptyState();
   var completed = false;
   var lastResponseId = null;
-  var ui = { dockets: {}, crits: [] };
+  var ui = { dockets: {} };
 
   function emptyState() {
-    return { moves: {}, answers: {}, submitted: false, ticked: [], final: "", transfer: "", scores: {} };
+    return { moves: {}, answers: {}, submitted: false, ticked: [], scores: {} };
   }
   function el(tag, className, text) {
     var n = document.createElement(tag);
@@ -299,6 +252,10 @@ tags: [wip]
   function moveLabel(id) {
     for (var i = 0; i < MOVES.length; i++) if (MOVES[i].id === id) return MOVES[i].label;
     return "";
+  }
+  function criterionFor(docketId) {
+    for (var i = 0; i < KEY.criteria.length; i++) if (KEY.criteria[i].docket === docketId) return { c: KEY.criteria[i], i: i };
+    return null;
   }
   function keyTotal() {
     var t = 0; KEY.criteria.forEach(function (c) { t += c.points; }); return t;
@@ -317,25 +274,18 @@ tags: [wip]
   }
 
   // Static text
-  document.getElementById("allegation").textContent = "“" + ALLEGATION + "”";
-  document.getElementById("intro").textContent = INTRO;
-  document.getElementById("task-lead").textContent = TASK_LEAD;
-  TASKS.forEach(function (t) { document.getElementById("tasks").appendChild(el("li", "", t)); });
-  document.getElementById("limit").textContent = LIMIT;
   document.getElementById("grid").textContent = REVEAL_GRID;
+  document.getElementById("key-note").textContent = KEY_NOTE;
   document.getElementById("selfcheck-lead").textContent = SELF_CHECK_LEAD;
   SELF_CHECK.forEach(function (q) {
     var li = el("li"); li.appendChild(el("span", "dot", "·")); li.appendChild(el("span", "", q));
     document.getElementById("selfcheck").appendChild(li);
   });
-  document.getElementById("key-note").textContent = KEY_NOTE;
   document.getElementById("key-foot").textContent = KEY_FOOT;
   KEY.noCredit.forEach(function (line) {
     var li = el("li"); li.appendChild(el("span", "dot", "·")); li.appendChild(el("span", "", line));
     document.getElementById("nocredit").appendChild(li);
   });
-  document.getElementById("final-label").textContent = FINAL;
-  document.getElementById("transfer-label").textContent = TRANSFER;
 
   // Dockets
   var docketsRoot = document.getElementById("dockets");
@@ -388,44 +338,62 @@ tags: [wip]
     count.setAttribute("aria-live", "polite");
     card.appendChild(count);
 
-    ui.dockets[d.id] = { moveBtns: moveBtns, ta: ta, count: count };
-    docketsRoot.appendChild(card);
-  });
-
-  // Marking key criteria
-  var critRoot = document.getElementById("criteria");
-  KEY.criteria.forEach(function (c, i) {
-    var li = el("li");
-    var b = el("button", "crit");
-    b.type = "button";
-    b.appendChild(el("span", "badge", String(c.points)));
+    // The marking criterion for this docket, revealed on the docket after submit.
+    var found = criterionFor(d.id);
+    var keyBlock = el("div", "dkey");
+    keyBlock.hidden = true;
+    var critBtn = el("button", "crit");
+    critBtn.type = "button";
+    critBtn.appendChild(el("span", "badge", String(found.c.points)));
     var body = el("span");
-    body.appendChild(el("span", "", c.text));
-    if (c.needsReasoning) body.appendChild(el("span", "sub", KEY_REASONING));
-    if (c.grounds) body.appendChild(el("span", "sub", c.grounds));
-    b.appendChild(body);
-    b.addEventListener("click", function () {
-      var at = state.ticked.indexOf(i);
-      if (at === -1) state.ticked.push(i); else state.ticked.splice(at, 1);
+    body.appendChild(el("span", "", found.c.text));
+    body.appendChild(el("span", "sub", KEY_REASONING));
+    critBtn.appendChild(body);
+    var grounds = el("p", "grounds", found.c.grounds);
+    grounds.hidden = true;
+    var groundsBtn = el("button", "linkish");
+    groundsBtn.type = "button";
+    groundsBtn.style.marginTop = "6px";
+    groundsBtn.style.fontSize = "12px";
+    groundsBtn.style.padding = "4px 8px";
+    groundsBtn.textContent = "Why this criterion";
+    groundsBtn.setAttribute("aria-expanded", "false");
+    groundsBtn.addEventListener("click", function () {
+      grounds.hidden = !grounds.hidden;
+      groundsBtn.setAttribute("aria-expanded", grounds.hidden ? "false" : "true");
+      groundsBtn.textContent = grounds.hidden ? "Why this criterion" : "Hide the grounds";
+    });
+    critBtn.addEventListener("click", function () {
+      var at = state.ticked.indexOf(found.i);
+      if (at === -1) state.ticked.push(found.i); else state.ticked.splice(at, 1);
       render(); persist();
     });
-    li.appendChild(b);
-    critRoot.appendChild(li);
-    ui.crits.push(b);
+    var dscore = el("p", "dscore");
+    dscore.setAttribute("aria-live", "polite");
+    dscore.hidden = true;
+    keyBlock.appendChild(el("p", "eyebrow", "Mark your answer against the criterion"));
+    keyBlock.appendChild(critBtn);
+    keyBlock.appendChild(groundsBtn);
+    keyBlock.appendChild(grounds);
+    keyBlock.appendChild(dscore);
+    card.appendChild(keyBlock);
+
+    ui.dockets[d.id] = {
+      moveBtns: moveBtns, ta: ta, count: count,
+      keyBlock: keyBlock, critBtn: critBtn, critIndex: found.i, dscore: dscore
+    };
+    docketsRoot.appendChild(card);
   });
 
   var submitBtn = document.getElementById("submit");
   var resetBtn = document.getElementById("reset");
   var statusEl = document.getElementById("status");
   var afterEl = document.getElementById("after");
-  var finalTa = document.getElementById("final");
-  var finalCount = document.getElementById("final-count");
-  var transferTa = document.getElementById("transfer");
+  var revealEl = document.getElementById("reveal");
   var scoreBtn = document.getElementById("score");
   var assessorEl = document.getElementById("assessor");
   var feedbackBtn = document.getElementById("feedback");
   var scoreText = document.getElementById("score-text");
-  var scoresEl = document.getElementById("scores");
   var SCORE_TEXT = scoreText.textContent;
 
   function render() {
@@ -441,6 +409,13 @@ tags: [wip]
       if (u.ta.value !== v) u.ta.value = v;
       u.ta.readOnly = state.submitted;
       u.count.textContent = countWords(v) + " words";
+      u.keyBlock.hidden = !state.submitted;
+      var on = state.ticked.indexOf(u.critIndex) !== -1;
+      u.critBtn.classList.toggle("is-on", on);
+      u.critBtn.setAttribute("aria-pressed", on ? "true" : "false");
+      var s = state.scores[d.id];
+      u.dscore.hidden = s === undefined;
+      u.dscore.textContent = s === undefined ? "" : (s === null ? "Assessor: score pending." : "Assessor: " + s + " / 100.");
     });
     statusEl.textContent = state.submitted
       ? "Submitted. The four dockets are frozen."
@@ -455,30 +430,12 @@ tags: [wip]
     scoreBtn.disabled = !hasAssessor || !state.submitted;
     feedbackBtn.disabled = feedbackBtn.hidden;
     afterEl.classList.toggle("is-visible", state.submitted);
+    revealEl.classList.toggle("is-visible", state.submitted);
 
-    ui.crits.forEach(function (b, i) {
-      var on = state.ticked.indexOf(i) !== -1;
-      b.classList.toggle("is-on", on);
-      b.setAttribute("aria-pressed", on ? "true" : "false");
-    });
-    document.getElementById("key-score").textContent = keyScored() + " / " + keyTotal();
+    document.getElementById("key-score").textContent = "Self-marked " + keyScored() + " / " + keyTotal();
 
-    if (finalTa.value !== state.final) finalTa.value = state.final;
-    var fw = countWords(state.final);
-    finalCount.textContent = fw + " / " + FINAL_MAX_WORDS + " words" + (fw > FINAL_MAX_WORDS ? " (over the limit)" : "");
-    finalCount.classList.toggle("is-over", fw > FINAL_MAX_WORDS);
-    if (transferTa.value !== state.transfer) transferTa.value = state.transfer;
-
-    while (scoresEl.firstChild) scoresEl.removeChild(scoresEl.firstChild);
     var any = false;
-    DOCKETS.forEach(function (d) {
-      var s = state.scores[d.id];
-      if (s === undefined) return;
-      any = true;
-      var li = el("li"); li.appendChild(el("span", "dot", "·"));
-      li.appendChild(el("span", "", "Docket " + d.letter + ": " + (s === null ? "score pending" : s + " / 100")));
-      scoresEl.appendChild(li);
-    });
+    DOCKETS.forEach(function (d) { if (state.scores[d.id] !== undefined) any = true; });
     if (any) scoreBtn.textContent = "Score again";
   }
 
@@ -493,9 +450,8 @@ tags: [wip]
     if (state.submitted) {
       var ticked = [];
       state.ticked.slice().sort().forEach(function (i) { if (KEY.criteria[i]) ticked.push(KEY.criteria[i].text.charAt(0)); });
-      parts.push("Submitted; the 2x2 (evidence weight versus institutional soundness) and the marking key are revealed. Self-marked " + keyScored() + " of " + keyTotal() + " points" + (ticked.length ? " (criteria ticked: " + ticked.join(", ") + ")" : "") + ".");
-      parts.push("Decision standard (max 50 words): " + ((state.final || "").trim() || "(empty)"));
-      parts.push("Transfer answer: " + ((state.transfer || "").trim() || "(empty)"));
+      parts.push("Submitted; the 2x2 (evidence weight versus institutional soundness) is revealed and each docket carries its marking criterion. Self-marked " + keyScored() + " of " + keyTotal() + " points" + (ticked.length ? " (criteria ticked: " + ticked.join(", ") + ")" : "") + ".");
+      parts.push("The decision standard and the transfer question are answered in the two open questions below the widget.");
     } else {
       parts.push("Not yet submitted.");
     }
@@ -527,18 +483,17 @@ tags: [wip]
     feedbackBtn.hidden = true;
     render(); persist();
   });
-  finalTa.addEventListener("input", function () { state.final = finalTa.value; render(); persist(); });
-  transferTa.addEventListener("input", function () { state.transfer = transferTa.value; render(); persist(); });
 
   function docketQuestion(d) {
     var labels = MOVES.map(function (m) { return m.label; }).join(" / ");
     return "Allegation: " + ALLEGATION + " Docket " + d.letter + ", " + d.title + ". The institution holding it: " + d.institution +
       " The evidence: " + d.evidence.join(" ") + " Choose the institution’s next move (" + labels + ") and defend it: " +
-      TASKS.join(" ") + " " + LIMIT;
+      TASK_LEAD + " " + TASKS.join(" ") + " " + LIMIT;
   }
   function docketInstructions(c) {
     return "Score 0 to 100 against XLab’s marking key criterion for this docket: " + c.text + " " + KEY_REASONING +
-      " Grounds: " + c.grounds + " " + KEY_NOTE +
+      " Grounds: " + c.grounds +
+      " Any wording that does not distort the meaning counts; no criterion needs a particular term. Where a criterion asks for a mechanism, a correct label without it earns nothing." +
       " Full marks when the move and the reasoning both match the criterion. About half when the move matches but the reasoning is missing or generic. No credit for: " + KEY.noCredit.join(" ");
   }
   var FEEDBACK = "Answer XLab’s two self-check questions for this docket in two or three sentences: " + SELF_CHECK.join(" ");
@@ -565,8 +520,8 @@ tags: [wip]
       var pending = false;
       DOCKETS.forEach(function (d) { if (state.scores[d.id] === null) pending = true; });
       scoreText.textContent = pending
-        ? "Some scores are taking a while; the ones that are in are listed below."
-        : "Scores are in.";
+        ? "Some scores are taking a while; the ones that are in show on their docket."
+        : "Scores are in, on their dockets above.";
       feedbackBtn.hidden = lastResponseId == null;
       render(); persist();
     }, function () {
@@ -597,8 +552,6 @@ tags: [wip]
         if (typeof n === "number" && n >= 0 && n < KEY.criteria.length && next.ticked.indexOf(n) === -1) next.ticked.push(n);
       });
     }
-    if (typeof raw.final === "string") next.final = raw.final;
-    if (typeof raw.transfer === "string") next.transfer = raw.transfer;
     return next;
   }
 
@@ -619,3 +572,4 @@ tags: [wip]
 </script>
 </body>
 </html>
+
