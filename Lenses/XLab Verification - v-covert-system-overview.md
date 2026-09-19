@@ -34,7 +34,7 @@ In your answers:
 #### Article
 source:: [[../articles/cankaya-a-system-overview-for-near-term-low-trust-ai-compute-verification]]
 from:: "**Version 0.2, working draft**"
-to:: "We follow one inference request, but the tap sees it only as part of an undifferentiated byte stream. The request is never singled out _at capture_, only _reconstructed later_ in the auditing environment."
+to:: "We follow one inference request, but the tap sees it only as part of an undifferentiated byte stream."
 
 #### Text
 content::
