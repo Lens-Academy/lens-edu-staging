@@ -18,6 +18,13 @@ For both options, focus on the plan's summary, concrete inference-only retrofit,
 #### Article
 source:: [[../articles/dean-ai-2040-verification-plan]]
 from:: ## Summary of the Plan
+to:: | Rest of world | 39M | 14% |
+
+#### Widget
+source:: [[../widgets/ai-2040-compute-locations]]
+
+#### Article
+from:: This is what we think implementing the deal would look like in 2029 in our scenario, with an inference-only retrofit of all the medium and large AI datacenters (>10K H100e, or approx. >$100M), and this being enough to cover ~99% of world AI-relevant compute. Then keeping tabs on the rest of the smaller clusters and taking measures to avoid them being possibly used in a covert project. We are not confident in the modelling of this [concentration in datacenter sizes](https://ai-2040.com/supplements/compute-supplement#14-datacenter-sizes), so the exact cutoffs and interventions may need to be different.
 to:: **Phase 3. Improve robustness.** Over time the US and China improve the stability and durability of the verification regime, especially through hardware security, verification robustness, and more.
 
 #### Article
