@@ -1,7 +1,7 @@
 ---
 id: '41b66c2f-1cc2-4743-8929-a38feebd78a5'
 title: Chip declaration result, 2029
-summary_for_tutor: "An interactive reproduction of the AI 2040 verification supplement's two 'Chip declaration result' waffle charts. Each square is 250K H100e. In the January 2029 view the US shows 224M H100e declared and China 26M H100e declared, each with 6 outlined squares (about 1.5M H100e) that could plausibly remain undeclared; in the mid-2029 view the rest of the world joins with 39M H100e declared and every party's plausibly undeclared block shrinks to 2 squares (about 0.5M H100e). Declared compute is drawn as blocks of squares (one block can stand for a single very large datacenter owner) so the learner can hover a block to see how many squares and how much compute it holds, hover or press a party to read its totals, and switch between the two dates. Done means both dates have been viewed."
+summary_for_tutor: "An interactive reproduction of the AI 2040 verification supplement's two 'Chip declaration result' waffle charts, placed in the reading right under the Jan 2029 declaration table and its caption. Each square is 250K H100e. In the January 2029 view the US shows 224M H100e declared and China 26M H100e declared, each with 6 outlined squares (about 1.5M H100e) that could plausibly remain undeclared; the mid 2029 view adds the rest of the world at 39M H100e declared and shrinks every party's plausibly undeclared block to 2 squares (about 0.5M H100e). Declared compute is drawn as blocks of squares, so the learner can hover a block to see how many squares and how much compute it holds, press a party to read its declared total against its plausibly undeclared outline, and switch between the two dates. Done means both dates have been viewed. The widget opens straight on the chart: the lesson page carries the figure caption, the unit note and both tables (Jan 2029 and mid 2029) as the text fallback, so every number is on the page in words, and the widget itself adds only the picture, the readouts and one instruction line."
 height: auto
 tags: [wip]
 ---
@@ -23,10 +23,7 @@ tags: [wip]
   }
   * { box-sizing: border-box; }
   body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
-  h1, h2 { font-family: var(--font-heading); font-weight: 600; margin: 0; }
-  h1 { font-size: 22px; }
-  h2 { font-size: 17px; }
-  .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0 0 4px; }
+  h2 { font-family: var(--font-heading); font-weight: 600; margin: 0; font-size: 17px; }
   .lede { color: var(--muted); margin: 4px 0 12px; max-width: 46rem; }
   .card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: #fff; }
   .views { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
@@ -43,7 +40,7 @@ tags: [wip]
   .chart .blk.is-active { stroke: #b87018; stroke-width: 3; }
   .chart .party.is-active .label { fill: var(--accent); }
   .side { display: flex; flex-direction: column; gap: 10px; }
-  .detail { border: 1px solid var(--border); border-radius: 8px; background: var(--surface); padding: 10px 12px; min-height: 110px; }
+  .detail { border: 1px solid var(--border); border-radius: 8px; background: var(--surface); padding: 10px 12px; }
   .detail h2 { margin-bottom: 4px; }
   .detail p { margin: 4px 0; }
   .detail .n { font-variant-numeric: tabular-nums; }
@@ -60,9 +57,7 @@ tags: [wip]
 </style>
 </head>
 <body>
-<p class="eyebrow">Interactive chart</p>
-<h1>Chip declaration result, 2029</h1>
-<p class="lede">Declared compute after the mutual chip declaration, against what each side could plausibly still be hiding. One square is 250K H100e. Switch the date, then hover a block or a party.</p>
+<p class="lede">Switch the date, then hover a block or press a party to read what it stands for.</p>
 
 <div class="card">
   <div class="views" id="views" role="group" aria-label="Date"></div>
@@ -211,7 +206,6 @@ tags: [wip]
     view.sides.forEach(function (s) { if (s.key === state.party) side = s; });
     if (!side) {
       detail.appendChild(h("h2", null, view.label));
-      detail.appendChild(h("p", null, "Hover a block of squares, or press a party, to read what it stands for. One square is 250K H100e."));
     } else {
       var c = counts(side.key);
       detail.appendChild(h("h2", null, side.longLabel || side.label));
@@ -246,7 +240,7 @@ tags: [wip]
     key("cn", "China declared");
     if (view.sides.length > 2) key("row", "Rest of world declared");
     key("un", "plausibly undeclared");
-    statusEl.textContent = isDone() ? "Both dates viewed. Compare the outlined squares: 6 per side in January, 2 per side by mid-year." : "View both dates to compare how much could plausibly stay hidden before and after third countries join.";
+    statusEl.textContent = isDone() ? "Done: you have viewed both dates." : "Viewed 1 of the 2 dates.";
     statusEl.classList.toggle("is-done", isDone());
   }
 

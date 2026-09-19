@@ -1,7 +1,7 @@
 ---
 id: '0f6bd8f1-7c3a-4a52-9e2c-5a1d4b8f9c30'
 title: Live failures - attack latency against rate of damage
-summary_for_tutor: An interactive plane from Kaufman and Lucassen's post. The horizontal axis is attack latency (left = a long grace period before harm begins, right = no grace period, harm is immediate) and the vertical axis is rate of damage (damage already dealt plus costs of recovery). Five threats from the post are plotted as points, `Code backdoor`, `API-key compromise`, `Credential compromise`, `Rogue internal deployment` (marked uncertain with a dashed ring) and `Weight exfiltration`. A shaded wedge in the top-right corner is the live-failure region, where an asynchronous monitor is least useful. The learner taps each point (or its button) to read the post's description of that threat and see whether it sits inside the wedge; the widget reports how many of the five they have opened and completes once all five are read. If the learner is stuck, ask them which axis position a code backdoor takes and why that makes an asynchronous monitor sufficient for it.
+summary_for_tutor: An interactive plane from Kaufman and Lucassen's post, sitting inside the post's own text on the page. The horizontal axis is attack latency (left = a long grace period before harm begins, right = none, harm is immediate) and the vertical axis is rate of damage (damage already dealt plus costs of recovery). Five threats from the post are plotted as points, `Code backdoor`, `API-key compromise`, `Credential compromise`, `Rogue internal deployment` (marked uncertain with a dashed ring) and `Weight exfiltration`. A shaded wedge in the top-right corner is the live-failure region, where an asynchronous monitor is least useful. The learner selects each point (or its button) to reveal the post's description of that threat and whether it sits inside the wedge; the widget counts how many of the five they have opened and completes once all five are read. The definition of a live failure is not in the widget: it is in the post text immediately above it on the page, and the follow-up recall questions on attack latency and blocking monitors are native question segments after it. If the learner is stuck, ask them which axis position a code backdoor takes and why that makes an asynchronous monitor sufficient for it.
 height: auto
 tags: []
 ---
@@ -22,6 +22,7 @@ tags: []
     --font-heading: "Newsreader", Georgia, serif;
   }
   * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
   body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
   .card { border: 1px solid var(--border); border-radius: 8px; background: var(--bg); overflow: hidden; }
   .head { display: flex; align-items: center; justify-content: space-between; gap: 12px;
@@ -45,6 +46,7 @@ tags: []
   .panel h3 { font-family: var(--font-heading); font-weight: 600; font-size: 14px; margin: 0 0 4px; }
   .panel p { margin: 0; color: var(--muted); }
   .panel .verdict { margin-top: 8px; font-size: 12.5px; color: var(--text); }
+  .panel .hint { color: var(--muted); }
   .progress { margin-top: 10px; font-size: 12px; color: var(--muted); }
   svg text { font-family: var(--font-ui); }
   .pt-hit { fill: transparent; cursor: pointer; }
@@ -100,10 +102,7 @@ tags: []
       caption: "The classic live failure. It might be possible to exfiltrate weights in a short window of time, and once they are out there is no way to get them back. Leaking sensitive source code or algorithmic secrets to the internet is a close cousin." }
   ];
 
-  var INTRO = {
-    title: "Live failures",
-    text: "Threats with low attack latency and a very high rate of damage are live failures: still very damaging even if detected shortly after they occur. Asynchronous monitors are least effective against them, and this is where blocking synchronous monitors matter most. Tap a point to read the post's description of each example."
-  };
+  var HINT = "Select a point on the plane to read the post's description of that threat.";
 
   var NS = "http://www.w3.org/2000/svg";
   var layer = document.getElementById("plane").querySelector("#layer");
@@ -190,13 +189,18 @@ tags: []
 
     panel.textContent = "";
     var p = find(selected);
-    var h = document.createElement("h3");
-    var body = document.createElement("p");
-    h.textContent = p ? p.label + (p.uncertain ? " (?)" : "") : INTRO.title;
-    body.textContent = p ? p.caption : INTRO.text;
-    panel.appendChild(h);
-    panel.appendChild(body);
-    if (p) {
+    if (!p) {
+      var hint = document.createElement("p");
+      hint.className = "hint";
+      hint.textContent = HINT;
+      panel.appendChild(hint);
+    } else {
+      var h = document.createElement("h3");
+      var body = document.createElement("p");
+      h.textContent = p.label + (p.uncertain ? " (?)" : "");
+      body.textContent = p.caption;
+      panel.appendChild(h);
+      panel.appendChild(body);
       var v = document.createElement("p");
       v.className = "verdict";
       v.textContent = p.live
