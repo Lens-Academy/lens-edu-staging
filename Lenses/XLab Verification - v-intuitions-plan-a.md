@@ -41,6 +41,29 @@ source:: [[../widgets/ai-2040-deal-timeline]]
 
 #### Article
 from:: ### Jan 2029: Mutual Chip Declaration and Inspection
+to:: | China | 26M H100e | ~1.5M H100e |
+
+*Table adaptation of the source chart, which draws compute in blocks of 250K H100e; the undeclared figures are read at that block resolution.*
+
+#### Widget
+source:: [[../widgets/ai-2040-chip-declaration]]
+
+#### Article
+from:: More detail on the suggested interventions by cluster size bucket below:
+to:: At first, we propose that any chip with low enough interconnect, compute, memory and bandwidth can be produced unrestricted. Then by 2032, we tentatively propose a cap, with a slight alleviation of the compute threshold (to give room for more consumer applications that might require higher edge compute) and a tightening of the interconnect threshold (to hopefully lower their potential usefulness in a covert project if diverted). More on this in the [2032 section](https://ai-2040.com/supplements/verification-plan#2032-cap-and-trade-for-robots-and-compute).
+:::
+
+#### Text
+content::
+**Chip flow restrictions, 2029 and 2032**
+
+The chart below is the interactive form of the two device tables in the box above: where each device sits on cross-chip interconnect against compute, and which side of the deal's line it falls on.
+
+#### Widget
+source:: [[../widgets/ai-2040-chip-flow]]
+
+#### Article
+from:: ### Feb 2029: Inference-only retrofit begins
 to:: What verification solution to choose will likely have complex tradeoffs between these metrics. Our current best guess is to primarily rely on on-path information collection (i.e., network taps) and then partial recomputation as the verification algorithm, since it seems most likely to be robustly scalable to extremely high coverage and confidence.
 :::
 
