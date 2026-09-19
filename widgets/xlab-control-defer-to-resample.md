@@ -2,7 +2,7 @@
 id: 'b033725e-6b84-4a2e-bd58-872d363d4fa9'
 title: Defer to resample, mechanically
 summary_for_tutor: >-
-  An interactive schematic of one step under the Ctrl-Z "Defer to resample" protocol. The learner moves two sliders, k (how many samples the protocol draws for a step, 1 to 6) and c (the red team's attack continuation probability, 20 to 100 percent). A chart shows two schematic suspiciousness densities, the minimum over k samples for an innocent step and for an attacked step, with the deferral threshold (fixed at the 80th percentile of single innocent samples) and the auditing threshold (set so the top 1 percent of innocent minima are audited) drawn on it. Four readouts give the outcome probabilities for one attacked step, win (audited), lose (attack executed unaudited), continue (the attack fizzles because a resample came back benign), plus the share of innocent steps that get deferred to the trusted model. The two things to notice, matching XLab's own caption: raising k with c at 100 percent pushes innocent minima left, so fewer audits and deferrals are wasted while the attacked step's minimum stays suspicious, improving the win-to-lose odds; and lowering c pushes attacked steps into "continue", because resampling selects for benign actions, and every incomplete attack is another chance to be caught later. The distributions are schematic, not the paper's measured data. The widget marks itself complete once the learner has tried a value of k other than 3 and a value of c below 100 percent.
+  An interactive schematic of one step under the Ctrl-Z "Defer to resample" protocol. The learner moves two sliders, k (how many samples the protocol draws for a step, 1 to 6) and c (the red team's attack continuation probability, 20 to 100 percent). A chart shows two schematic suspiciousness densities, the minimum over k samples for an innocent step and for an attacked step, with the deferral threshold (fixed at the 80th percentile of single innocent samples) and the auditing threshold (set so the top 1 percent of innocent minima are audited) drawn on it. Four readouts give the outcome probabilities for one attacked step, win (audited), lose (attack executed unaudited), continue (the attack fizzles because a resample came back benign), plus the share of innocent steps that get deferred to the trusted model. The widget holds only the sliders, the chart and the readouts. The page carries the rest: the lead-in text before the widget names the protocol and warns that the distributions are schematic rather than the paper's measured data, and the closed callout after the widget ("What the two moves show") states the two effects, that raising k with c at 100 percent pushes innocent minima left so fewer audits and deferrals are wasted while the attacked step's minimum stays suspicious, and that lowering c pushes attacked steps into "continue" because resampling selects for benign actions. The protocol's own definition is in the article excerpt and the open questions just above the widget. The widget marks itself complete once the learner has tried a value of k other than 3 and a value of c below 100 percent.
 height: auto
 tags: []
 ---
@@ -22,11 +22,10 @@ tags: []
   --font-ui: "DM Sans", Arial, sans-serif; --font-heading: "Newsreader", Georgia, serif;
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
-h2 { font-family: var(--font-heading); font-weight: 600; font-size: 20px; margin: 0 0 4px; }
-.eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
 .card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: var(--bg); }
-.controls { display: grid; gap: 16px; grid-template-columns: 1fr 1fr; margin: 16px 0 12px; }
+.controls { display: grid; gap: 16px; grid-template-columns: 1fr 1fr; margin: 4px 0 12px; }
 @media (max-width: 520px) { .controls { grid-template-columns: 1fr; } }
 .ctl label { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font-size: 13px; color: var(--muted); }
 .ctl label .val { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
@@ -37,13 +36,7 @@ input[type=range] { width: 100%; accent-color: var(--accent); margin-top: 4px; }
 @media (max-width: 520px) { .stats { grid-template-columns: 1fr 1fr; } }
 .stats .lab { font-size: 11px; color: var(--muted); line-height: 1.3; }
 .stats .num { font-weight: 600; font-size: 16px; font-variant-numeric: tabular-nums; margin-top: 2px; }
-.note { font-size: 12px; color: var(--muted); margin: 12px 0 0; }
-.checks { list-style: none; padding: 0; margin: 12px 0 0; font-size: 13px; }
-.checks li { display: flex; gap: 8px; align-items: flex-start; padding: 2px 0; color: var(--muted); }
-.checks li .box { flex: 0 0 auto; width: 16px; height: 16px; border: 1px solid var(--border); border-radius: 4px; text-align: center; line-height: 14px; font-size: 11px; }
-.checks li.done { color: var(--text); }
-.checks li.done .box { border-color: var(--accent); color: var(--accent); font-weight: 600; }
-.done-msg { margin-top: 10px; font-size: 13px; color: var(--accent); font-weight: 500; }
+.hint { font-size: 12px; color: var(--muted); margin: 0 0 10px; }
 .reset { margin-top: 12px; }
 button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); padding: 6px 12px; cursor: pointer; }
 button:hover { background: var(--page); }
@@ -52,9 +45,7 @@ svg { width: 100%; height: auto; display: block; }
 </head>
 <body>
 <div class="card">
-  <p class="eyebrow">Interactive</p>
-  <h2>Defer to resample, mechanically</h2>
-  <p class="note" style="margin-top:6px">One step of the protocol. The trusted monitor scores every sample; the protocol implements the least suspicious of the <em>k</em> samples it drew, unless the whole batch looks bad.</p>
+  <p class="hint">With c at 100%, raise k; then lower c.</p>
 
   <div class="controls">
     <div class="ctl">
@@ -72,8 +63,7 @@ svg { width: 100%; height: auto; display: block; }
     <span><span class="k" style="border-top-color:#b87018"></span><span id="leg-a">attacked step, min of 3</span></span>
   </p>
 
-  <svg id="chart" viewBox="0 0 560 250" role="img" aria-labelledby="chart-desc"></svg>
-  <desc id="chart-desc">Schematic suspiciousness distributions for the minimum of k samples on an innocent step and on an attacked step, with the deferral threshold and the auditing threshold marked.</desc>
+  <svg id="chart" viewBox="0 0 560 250" role="img" aria-label="Schematic suspiciousness distributions for the minimum of k samples on an innocent step and on an attacked step, with the deferral threshold and the auditing threshold marked."></svg>
 
   <div class="stats">
     <div><p class="lab">Win: step audited</p><p class="num" id="s-win">70%</p></div>
@@ -82,15 +72,7 @@ svg { width: 100%; height: auto; display: block; }
     <div><p class="lab">Innocent step deferred to T</p><p class="num" id="s-innt">0.8%</p></div>
   </div>
 
-  <ul class="checks" id="checks">
-    <li id="chk-k"><span class="box" aria-hidden="true"></span><span>With c at 100%, raise k. Innocent minima drift left, so fewer audits and deferrals are wasted, while the attacked step's minimum stays suspicious. The win-to-lose odds improve.</span></li>
-    <li id="chk-c"><span class="box" aria-hidden="true"></span><span>Now lower c. Attack steps mostly fizzle into "continue", because resampling selects for benign actions, and every incomplete attack is one more chance to catch the model on a later step.</span></li>
-  </ul>
-  <p class="done-msg" id="done-msg" hidden>Both moves tried. That pair of effects is the whole argument for resampling.</p>
-
   <div class="reset"><button id="reset" type="button">Reset</button></div>
-
-  <p class="note">Schematic distributions, not the paper's data. The outcomes are win, continue, or lose for one attacked step.</p>
 </div>
 
 <script>
@@ -203,11 +185,6 @@ svg { width: 100%; height: auto; display: block; }
 
     if (k !== 3) { seenK = true; }
     if (c < 1) { seenC = true; }
-    document.getElementById('chk-k').className = seenK ? 'done' : '';
-    document.getElementById('chk-c').className = seenC ? 'done' : '';
-    document.getElementById('chk-k').firstChild.textContent = seenK ? '✓' : '';
-    document.getElementById('chk-c').firstChild.textContent = seenC ? '✓' : '';
-    document.getElementById('done-msg').hidden = !(seenK && seenC);
 
     if (save && window.Lens) {
       var summary = 'Defer to resample demo. Current setting: k = ' + k + ' samples per step, attack continuation probability c = '
@@ -243,3 +220,4 @@ svg { width: 100%; height: auto; display: block; }
 </script>
 </body>
 </html>
+
