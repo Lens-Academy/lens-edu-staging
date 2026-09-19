@@ -129,7 +129,7 @@ them up — the collection side of the same picture.
 content::
 \### The collection map
 
-Seven ways a watcher sees. The disciplines split into two families: those that collect language, and those that collect physics. Open each one.
+Seven ways a watcher sees. The disciplines split into two families: those that collect language, and those that collect physics.
 
 #### Widget
 source:: [[../widgets/collection-map]]
