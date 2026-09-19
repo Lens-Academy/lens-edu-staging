@@ -187,44 +187,6 @@ source:: [[../widgets/standard-of-proof]]
 
 #### Text
 content::
-\## Part 2 · Week 9: Covert development and the low-trust architecture
-
-Module file: [[../modules/XLab Verification Part 2 W09 Covert development and the low-trust architecture]]
-
-#### Text
-content::
-\### Lens: [[../Lenses/XLab Verification - v-covert-what-is-it]]
-
-#### Text
-content::
-\#### Questions on the Cankaya Working Paper (compute-verification)
-
-**Decision: native question segments are enough.** XLab's QuestionWorkspace is nine textareas with a "Save answer" button and an "n of 4 answered" counter; it has no marking key, no reveal, and nothing that changes what the learner sees next, and Lens Question: Open segments already do everything it does plus grading.
-
-**Target lens:** [[../Lenses/XLab Verification - v-covert-system-overview]]
-
-**Where it goes:** "Read all 9 questions before beginning. Answer Questions 1, 2, 5, and any one"
-
-**What it replaces:** nothing. The nine Question: Open segments already on the page (ids 217e8374 to 15049c1d) are the native rendering of COMPUTE_QUESTIONS; they should stay as they are.
-
-**In XLab:** <VerificationExercise id="compute-verification" /> in covert-system-overview.mdx, core, not inside a Fold
-
-**Learner time:** 180 to 210 minutes (the lens says 210; XLab gives no estimate)
-
-Reads the paper, then answers Questions 1, 2 and 5 plus one of 3, 4, 7 or 9 (6 and 8 optional), each in a text box with the placeholder "Cite the page or section you are answering from." XLab's only interactivity is a "Save answer" button per question that flips to "Saved. Keep editing if you want" and a counter that reads "n of 4 answered"; the unit completes when the required-plus-one-choice rule is met (src/lib/verification/question-workspace.ts, isWorkspaceComplete). Nothing is graded and nothing is revealed.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-Checked src/components/verification/widgets/compute-verification.tsx, src/lib/verification/data/compute-verification.ts, src/components/verification/kit/question-workspace.tsx and src/lib/verification/question-workspace.ts at HEAD (93847c7). The Lens page carries all nine question titles and bodies verbatim, the same placeholder, the required / choose-one / optional labelling, and the rule sentence from the widget's intro ("Read all 9 questions before beginning. Answer Questions 1, 2, 5, and any one question out of questions 3, 4, 7 or 9. Questions 6 and 8 are optional."). Two things Lens does not reproduce: XLab's live "n of 4 answered" counter (Lens counts completion per segment instead) and XLab's per-question pill "Answer one of 3, 4, 7 or 9" (Lens writes the same words into each question heading). The assessment-instructions on the Lens segments are the Lens author's, not XLab's; XLab has no marking key for this widget, so there is nothing to port there. One honest gap in XLab's own rule (docs/verification/module-3-log.md, "Module 3 replaced with the Cankaya working paper"): Question 6 is `optional` and counts toward nothing, and XLab's owner never said whether it belongs in the choice group.
-:::
-
-:::callout {title="Proposed native segments" tone="neutral" collapse="closed"}
-Field names are written `key: :` so this page parses; join the colons when pasting.
-
-Already in place. The nine existing Question: Open segments in [[../Lenses/XLab Verification - v-covert-system-overview]] are the proposal; no new segments and no new uuids needed. If the orchestrator wants XLab's completion rule enforced, the only lever Lens has is marking Questions 1, 2 and 5 as non-optional (they already are) and leaving 3, 4, 7, 9, 6, 8 `optional:: true` (they already are).
-:::
-
-#### Text
-content::
 \## Part 2 · Week 10: Evasion routes and the red team review
 
 Module file: [[../modules/XLab Verification Part 2 W10 Evasion routes and the red team review]]
