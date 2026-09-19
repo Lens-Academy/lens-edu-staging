@@ -50,6 +50,13 @@ to:: "| 10,000 | 5% | ~108,000 | 1 in 1,600 | 0.0028% |"
 
 #### Text
 content::
+The three tables in Appendix A1 are one calculator. Move its sliders to see what a sample size, a flaw rate and a prover budget buy each other.
+
+#### Widget
+source:: [[../widgets/cankaya-audit-calculator]]
+
+#### Text
+content::
 \## Questions
 
 Read all 9 questions before beginning. Answer Questions 1, 2, 5, and any one question out of questions 3, 4, 7 or 9. Questions 6 and 8 are optional.

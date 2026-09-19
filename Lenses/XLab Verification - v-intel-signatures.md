@@ -154,6 +154,13 @@ to:: National technical means offer a valuable starting point for verifying comp
 
 #### Text
 content::
+The same survey maps every method, not only the national technical means. Filter the ten and open one to see what it cannot do on its own.
+
+#### Widget
+source:: [[../widgets/wasil-method-explorer]]
+
+#### Text
+content::
 
 :::callout {title="Unfinished writing" tone="amber"}
 Two pieces this section is specified to carry are not built yet: the
