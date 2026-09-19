@@ -378,21 +378,10 @@ content:: Who reads your report next, and what does each reader need from it? Se
 - **System card.** The card is public. Who reads it next, and what do they need from it? List: Alignment researchers; Nuclear inspectors; Congressional and policy staffers; Journalists; Shipping compliance officers; Enterprise adopters; Competitor labs; The Iranian government; NGO scorecards (FLI AI Safety Index).
 - **AISI.** AISI published this openly, with a factsheet for ministers the same week. Who reads it next, and what do they need from it? List: UK ministers and DSIT; UN Security Council; The evaluated labs; Trade lawyers; Partner AI safety institutes; Bank compliance departments; Press; IAEA Board of Governors.
 - **IAEA.** The report was derestricted on 4 March 2026. Who reads it next, and what do they need from it? List: IAEA Board of Governors; Alignment researchers; UN Security Council; Member-state governments; Chip-firm compliance officers; Think-tank analysts (ISIS); UK ministers and DSIT; Press.
-- **Seagate.** The order is public by its own ninth term. Who reads it next, and what do they need from it? List: Seagate (bound by the order); UN Security Council; Compliance officers at other hardware firms; Alignment researchers; Trade lawyers writing client alerts; UK ministers and DSIT; Press; The public, as primary audience.--}{++{"author":"Elias's AI","timestamp":1789826553317}@@source:: [[../widgets/context-distiller]]++}
-{--{"author":"Elias's AI","timestamp":1789826553317}@@assessment-instructions:: Grade against the key for the report chosen. System card key: Alignment researchers; Congressional and policy staffers; Journalists; Enterprise adopters; Competitor labs; NGO scorecards (FLI AI Safety Index). AISI key: UK ministers and DSIT; The evaluated labs; Partner AI safety institutes; Press. IAEA key: IAEA Board of Governors; UN Security Council; Member-state governments; Think-tank analysts (ISIS); Press. Seagate key: Seagate (bound by the order); Compliance officers at other hardware firms; Trade lawyers writing client alerts; Press. Score: each key reader selected earns an equal share of 80; each distractor selected costs 15; up to 20 for need lines that match the readers' needs in the key callouts. "The public, as primary audience" on Seagate is the instructive distractor: the order is public but written for the regulated. No generic praise.
-feedback-instructions:: For each distractor chosen, give XLab's reason it fails. For each key reader missed, name them and what they need (from the readers list in the key callout). One paragraph.
+- **Seagate.** The order is public by its own ninth term. Who reads it next, and what do they need from it? List: Seagate (bound by the order); UN Security Council; Compliance officers at other hardware firms; Alignment researchers; Trade lawyers writing client alerts; UK ministers and DSIT; Press; The public, as primary audience.--}{++{"author":"Elias's AI","timestamp":1789826553317}@@source:: [[../widgets/context-distiller]]++}{--{"author":"Elias's AI","timestamp":1789826763733}@@
+--}{++{"author":"Elias's AI","timestamp":1789826763733}@@
 
-\### 5. Thread
-
-Thread each distilled point to the readers who need it. **Deliver, and every unanswered question turns red.** Different readers need different facts, and already know different things.
-
-#### Question: Open
-id:: 09aa8344-8105-49ba-897f-85090563d2d0
-content:: For each reader you confirmed, list which of your distilled points they get and, in a few words, the question of theirs it answers. A point that serves no reader should be cut; say which ones you cut.
-assessment-instructions:: Grade against the readers and their questions in the key callout for the report chosen. Each reader in XLab's key has two or three questions, each answered by one specific core passage. Score the share of reader questions that the learner's threading answers with a matching distilled point, scaled to 100. A reader served only with facts they already know (the "knows" line in the key) earns nothing for that reader. Points cut because they serve nobody are correct editorial behaviour and should be acknowledged, not penalized. No generic praise.
-feedback-instructions:: Go reader by reader: name each of their questions that the learner's threads leave unanswered, and the passage that would have answered it. A fact you never clipped can reach no one; if the gap traces back to step 1, say so. Then close: every reader got what they needed, or not.
-
---}#### Text
+++}#### Text
 content::
 The keys. Open the one for the report you worked, after you have delivered, and not before.
 
