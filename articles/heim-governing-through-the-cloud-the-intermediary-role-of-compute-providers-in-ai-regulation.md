@@ -445,6 +445,8 @@ More formally, the total computing power of a rented cluster and how long a cust
 Accounting ‣ 3.3 Verifying ‣ 3 Technical Feasibility of Compute Providers’ Governance
 Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation")). In cases where compute is being consumed by a customer (as opposed to hardware sitting idle), the amount of compute consumed can be attributed to at least one workload. The addition of workload classification allows fractions of that usage to be ascribed to workloads of particular types.
 
+![Figure 10](https://arxiv.org/html/2403.08501v2/ITC_Figure_Three-Scenarios-of-Compute-Usage-compressed.svg)
+
 Figure 10: Three example scenarios of a set of AI accelerator nodes running different workloads over time. Compute accounting establishes the amount of compute used over time, while workload classification can differentiate between these three scenarios by mapping compute usage to specific workloads.
 
 We can estimate the compute budget via two different approaches:
@@ -461,6 +463,8 @@ We can estimate the compute budget via two different approaches:
 Theoretical compute is a derivative of empirical compute, useful for establishing an estimate in circumstances where empirical measurements are not available. As exact circumstances and configurations differ between compute providers, not all attributes of both theoretical and empirical compute are likely to be observable. However, in practice, both kinds could be used to inform an overall estimate of compute usage for a particular instance of running a workload ([Figure 11](#S3.F11 "In 3.3.3 Compute
 Accounting ‣ 3.3 Verifying ‣ 3 Technical Feasibility of Compute Providers’ Governance
 Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation")).
+
+![Figure 11](https://arxiv.org/html/2403.08501v2/ITC_Figure_Measurement-Puzzle-Pieces-Simplified-compressed.svg)
 
 Figure 11: A spectrum of possible compute usage metrics for AI workload analysis, from low-level measurements, such as on-chip calculations, to more high-level measurements, such as the hardware available to a customer. Each of these metrics can be synergistically combined to enhance the accuracy and sensitivity of workload classification and compute accounting.
 
@@ -527,6 +531,8 @@ However, using privacy-preserving technologies built into data center hardware, 
 Verification ‣ 3.3 Verifying ‣ 3 Technical Feasibility of Compute Providers’ Governance
 Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation")). Techniques that leverage a TEE in this way are often known as “confidential computing.” Compute providers are increasingly making these features available to customers (AWS 2024d; Microsoft 2024b; Microsoft 2023).
 
+![Figure 12](https://arxiv.org/html/2403.08501v2/ITC_Figure_Attester-and-Verifier-Flowchart-compressed.svg)
+
 Figure 12: Using confidential computing techniques allows an “attester” (customer) to share high-level information about a workload with a “verifier” (e.g., a compute provider or a regulator) such that the verifier can trust the information, without the attester sharing any additional code or data. (Adapted from Aarne et al. 2024.)
 
 Using confidential computing techniques, customers may be able to provably verify particular governance-relevant properties of their workloads to their compute provider or directly to a regulator. For example, a customer may wish to demonstrate that they ran a particular model evaluation, obtained a particular result on a model evaluation, or did (not) use a particular dataset during training. However, these techniques have yet to be fully validated and implemented in production contexts. Several organizations are actively researching and developing software for using confidential computing to allow privacy-preserving auditing of models (Mithril Security 2024b; OpenMined 2023; OpenMined 2024). There has also been some work on expanding these techniques to allow privacy-preserving auditing of training workloads (e.g., the dataset used, or quantity of compute consumed), though this area is less well-explored (Choi et al. 2023; Mithril Security 2024a).[^note-31] If regulatory requirements on compute providers end up requiring them to validate more fine-grained properties of workloads, these kinds of methods could be used to achieve this in a way that preserves customer confidentiality and privacy. In the meanwhile, we encourage compute providers and developers to explore and develop these techniques to ensure they can be implemented without meaningful performance penalties, and while preserving other aspects of customer experience and confidentiality.
@@ -539,11 +545,11 @@ This section looks at the US as a case study. We examine the Biden Administratio
 
 Unlike proposed US foreign customer identification rules for IaaS providers (Federal Register 2024), we focus on oversight of only frontier AI model development and deployment, rather than all compute use. While we explore these issues in the US context, similar analyses could also be done for other jurisdictions, like the EU, and in the international context. We encourage further policy analysis in this space.
 
-![Imported source figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img9-ed8933fb.png)
+{--{"author":"Elias's AI","timestamp":1789833194981}@@![Imported source figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img9-ed8933fb.png)
 
 Figure 2: Additional measures, implemented by the Department of Commerce, would strengthen the intermediary role of compute providers and enable a compute oversight scheme.
 
-### 4.1 Case Study: Compute Providers’ Intermediary Role in the US
+--}### 4.1 Case Study: Compute Providers’ Intermediary Role in the US
 
 #### 4.1.1 Record Keeping and Reporting in the AI Executive Order
 
@@ -699,6 +705,8 @@ OpenAI’s ChatGPT and Google’s Gemini Advanced were used for editing assistan
 AI computing infrastructure is typically provided through “data centers”, buildings designed to power, house, and operate large amounts of computing hardware. AI data centers contain many “servers,” computers optimized for AI computational workloads (we abstractly refer to servers as “nodes” in [Section 3](#S3 "3 Technical Feasibility of Compute Providers’ Governance
 Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation")).[^note-42] Each server contains a variable number of CPUs (general-purpose processors), AI accelerators (specialized AI processors such as GPUs and TPUs), networking to allow these devices to communicate, and shared data storage ([Figure 13](#A1.F13 "In Appendix A Overview of Compute Provider
 Technologies ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation")). A relatively large number of AI accelerators, and the capacity for those devices to communicate at high speed, are the primary attributes differentiating AI data centers from other kinds of data centers.
+
+![Figure 13](https://arxiv.org/html/2403.08501v2/ITC_Figure_User-Software-Data-Center-Flowchart-compressed.svg)
 
 Figure 13: A logical diagram of the software and hardware components and interactions in an AI data center. A user provides their AI code and data, interacting with a software stack that differs depending on provider infrastructure but inherently includes the hardware interactions depicted above. A server can be partitioned into virtual instances, where each instance has a fraction of the physical resources: CPU, GPU/TPU, networking, and storage.
 
