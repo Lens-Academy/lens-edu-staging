@@ -42,6 +42,8 @@ Introduction — Jurisdictions around the world are taking their first steps tow
 Compute Providers’ Intermediary Role — Increasingly large amounts of computing power are necessary for both the development and deployment of the most sophisticated AI systems. Consequently, advanced AI models today are trained, and deployed in data centers, housing tens of thousands of “AI accelerators” (specialized computers for AI applications). Because of the large upfront cost of building this infrastructure and economies of scale, AI developers often access large-scale compute through models like Infrastructure as a Service (IaaS), also often described as _cloud computing_. ([Section 1.1](#S1.SS1 "1.1 Compute Providers’ Intermediary
 Role ‣ 1 Introduction ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation"))
 
+![Figure 1](https://arxiv.org/html/2403.08501v2/ITC_Figure_In-The-Clouds-Overview-Simplified-4-compressed.svg)
+
 Figure 1: The intermediary role of compute providers in relation to AI companies and regulators.
 
 Some leading AI firms currently manage their own data centers or maintain exclusive partnerships with leading entities in this domain, known as _hyperscalers_. Notably, the most advanced AI research is currently being conducted at or with these hyperscalers (e.g., Microsoft Azure, Amazon Web Services (AWS), Apple, Bytedance, Meta, Oracle, Tencent, and Google Cloud). While this situation presents complex challenges for regulatory oversight, our discussion also encompasses scenarios in which compute providers are internal to or closely linked with an AI firm.
@@ -91,6 +93,8 @@ This paper demonstrates how compute providers---firms who make computing resourc
 Large amounts of computing power are necessary for both the development and deployment of frontier AI systems. Consequently, advanced AI models are trained, and deployed, in _data centers_[^note-3], housing tens of thousands of AI accelerators. Because of the large upfront cost of building this infrastructure , AI developers often access large-scale compute through models like IaaS[^note-4], also often described as _cloud computing_.[^note-5] Throughout this paper, we refer to entities that provide access to this computational power as _compute providers_.
 
 Some AI firms currently manage their own data centers or maintain exclusive partnerships with leading compute providers, known as _hyperscalers_.[^note-6] Notably, the most advanced AI research is currently being conducted at or with these hyperscalers.[^note-7] While this situation introduces complex challenges for regulatory oversight, our discussion also encompasses scenarios in which compute providers are internal to, or closely linked with an AI firm.[^note-8] For example, an AI company should not be able to circumvent the proposed guidelines by categorizing its usage as internal provisions or failing to identify itself as a customer. This would ensure comprehensive coverage of all relevant forms of compute provision for frontier AI.
+
+![Figure 1](https://arxiv.org/html/2403.08501v2/ITC_Figure_In-The-Clouds-Overview-Simplified-4-compressed.svg)
 
 Figure 1: The intermediary role of compute providers in relation to AI companies and regulators.
 
