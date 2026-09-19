@@ -1,7 +1,7 @@
 ---
 id: '9d9dd5e9-0e78-4de1-a1d9-47af42f4f53a'
 title: AI time horizons on METR's tasks, with the AI 2027 scenario markers
-summary_for_tutor: "An interactive replacement for the static METR time-horizon chart in the AI 2027 article. It plots, on a log time axis against release date, the task length (in human work time) at which each frontier model succeeds 50% or 80% of the time, from METR's public Time Horizon 1.1 data (26 models, GPT-2 in 2019 through Claude Mythos Preview in April 2026, with 95% confidence intervals). The 80% view also shows where ai-2027.com placed its fictional Agent-0, Agent-1 and Agent-2 (mid-2025, mid-2026, 2027). The learner switches between the 50% and 80% horizons, toggles the confidence intervals, and fits an exponential trend to all points or only to points from 2023 on; the widget reports the doubling time implied by that fit next to METR's own published doubling times (188 days all-time, 129 days from 2023 on). Hovering or arrowing through the point list shows each model's exact numbers. The widget counts as complete once the learner has looked at both views and inspected at least three points. Useful discussion: how much faster the post-2023 trend is than the long-run one, how wide the intervals get above a few hours (METR warns that measurements above 16 hours are unreliable on the current task suite), and whether the scenario's Agent-1 and Agent-2 sit on or above the fitted trend."
+summary_for_tutor: "An interactive replacement for the static METR time-horizon chart in the AI 2027 article. It plots, on a log time axis against release date, the task length (in human work time) at which each frontier model succeeds 50% or 80% of the time, from METR's public Time Horizon 1.1 data (26 models, GPT-2 in 2019 through Claude Mythos Preview in April 2026, with 95% confidence intervals). The 80% view also shows where ai-2027.com placed its fictional Agent-0, Agent-1 and Agent-2 (mid-2025, mid-2026, 2027). The learner switches between the 50% and 80% horizons, toggles the confidence intervals, and fits an exponential trend to all points or only to points from 2023 on; the widget reports the doubling time implied by that fit next to METR's own published doubling times (188 days all-time, 129 days from 2023 on). Hovering or arrowing through the point list shows each model's exact numbers. The widget counts as complete once the learner has looked at both views and inspected at least three points. Useful discussion: how much faster the post-2023 trend is than the long-run one, how wide the intervals get above a few hours (METR warns that measurements above 16 hours are unreliable on the current task suite), and whether the scenario's Agent-1 and Agent-2 sit on or above the fitted trend. The chart's title and its framing sentences about METR's time-horizon measure and the article's extension of it now sit on the lens page in the Text segment directly above the widget (lens: Optional: Further Exploration), so the widget opens on the view controls and keeps only the chart, the legend, the per-point detail, the fit tiles and the data sources."
 height: auto
 tags: [wip]
 ---
@@ -68,9 +68,7 @@ tags: [wip]
 </style>
 </head>
 <body>
-<p class="eyebrow">Interactive chart</p>
-<h1>Length of software tasks AI agents can complete on their own</h1>
-<p class="lede">METR measures the "time horizon" of a model: the length of task, in human working time, at which the model succeeds 50% or 80% of the time. The AI 2027 article extends this trend to argue for a superhuman coder in 2027. Switch views, fit a trend, and hover or arrow through the points.</p>
+<p class="lede">Switch views, fit a trend, and hover or arrow through the points.</p>
 
 <div class="controls">
   <div class="group" role="radiogroup" aria-label="Success rate">

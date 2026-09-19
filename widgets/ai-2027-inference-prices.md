@@ -1,7 +1,7 @@
 ---
 id: '9268dc8c-7ac4-4c2c-92ee-33e2b67e9482'
 title: How fast LLM inference prices fell at fixed capability (Epoch AI data)
-summary_for_tutor: "An interactive replacement for the static Epoch AI chart in the AI 2027 article (July 2027 section, where the scenario's Agent-3-mini is 10x cheaper than Agent-3). It plots, on a log price axis against release date, the cheapest model that matched or beat a fixed performance threshold on a benchmark: for example the price of reaching GPT-4-0314's GPQA score fell from 37.50 to 0.12 dollars per million tokens between March 2023 and December 2024. Data are Epoch AI's public table behind its insight 'LLM inference prices have fallen 9x to 900x/year, depending on the task' (119 rows, 21 benchmark-threshold series over six benchmarks: MMLU, GPQA Diamond, MATH-500, MATH 5, HumanEval, LMSys Chatbot Arena ELO). The learner picks a benchmark, toggles its threshold series on and off, and hovers or arrows through the points to read model, date, price and score; each series shows Epoch's fitted trend and the yearly price-drop factor it implies (9x for GPT-3.5-Turbo-level MMLU, about 40x for GPT-4-level GPQA, about 900x for GPT-4o-level GPQA). Done means the learner has opened at least three benchmarks. Useful discussion: why the rate varies so much by threshold, why the fastest drops are the most recent thresholds, and whether the scenario's 10x-cheaper Agent-3-mini is ambitious or ordinary against this record."
+summary_for_tutor: "An interactive replacement for the static Epoch AI chart in the AI 2027 article (July 2027 section, where the scenario's Agent-3-mini is 10x cheaper than Agent-3). It plots, on a log price axis against release date, the cheapest model that matched or beat a fixed performance threshold on a benchmark: for example the price of reaching GPT-4-0314's GPQA score fell from 37.50 to 0.12 dollars per million tokens between March 2023 and December 2024. Data are Epoch AI's public table behind its insight 'LLM inference prices have fallen 9x to 900x/year, depending on the task' (119 rows, 21 benchmark-threshold series over six benchmarks: MMLU, GPQA Diamond, MATH-500, MATH 5, HumanEval, LMSys Chatbot Arena ELO). The learner picks a benchmark, toggles its threshold series on and off, and hovers or arrows through the points to read model, date, price and score; each series shows Epoch's fitted trend and the yearly price-drop factor it implies (9x for GPT-3.5-Turbo-level MMLU, about 40x for GPT-4-level GPQA, about 900x for GPT-4o-level GPQA). Done means the learner has opened at least three benchmarks. Useful discussion: why the rate varies so much by threshold, why the fastest drops are the most recent thresholds, and whether the scenario's 10x-cheaper Agent-3-mini is ambitious or ordinary against this record. The chart's title and its framing sentences about Epoch's method now sit on the lens page in the Text segment directly above the widget (lens: Optional: Further Exploration), so the widget opens on the benchmark buttons and keeps only the chart, the per-point detail, the per-threshold tiles and the data sources."
 height: auto
 tags: [wip]
 ---
@@ -65,9 +65,7 @@ tags: [wip]
 </style>
 </head>
 <body>
-<p class="eyebrow">Interactive chart</p>
-<h1>The price of a fixed level of capability, over time</h1>
-<p class="lede">Epoch AI tracked the cheapest model that matched or beat a given score on a benchmark, and how quickly that price fell. Pick a benchmark, switch its performance thresholds on and off, and hover or arrow through the points.</p>
+<p class="lede">Pick a benchmark, switch its performance thresholds on and off, and hover or arrow through the points.</p>
 
 <div class="controls" role="radiogroup" aria-label="Benchmark" id="benchmarks"><span class="group-label">Benchmark</span></div>
 <div class="controls" id="series" aria-label="Performance thresholds"><span class="group-label">Threshold</span></div>
