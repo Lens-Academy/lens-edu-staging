@@ -1,7 +1,7 @@
 ---
 id: 'd3657a87-45d0-4054-92ca-da3bed9591be'
 title: The Distiller
-summary_for_tutor: "XLab's Distiller: the learner picks one of four verification reports (the fictional Claude Opus 4.7 System Card; the UK AISI Frontier AI Trends Report, 2025; IAEA GOV/2026/8 on Iran; the BIS settlement order against Seagate, 2023) and works it in five steps on a rail. Clip: a pool of candidate passages per section (core facts mixed with planted decoys; the system card also has a full-report reading view) and a notebook with a clip cap (12, 11, 10, 10; a tight-budget replay lowers it to 8, 8, 7, 7). Distil: each clipping compresses into XLab's pre-written distillation for the report's post (a Zvi-style post, a GOV.UK factsheet, a think-tank analysis, a trade-law client alert); decoys are revealed as filler here. Upstream and Downstream: multi-select of the actors the report was built from and the readers it goes to, committed and then marked yes, missed, no or left out with XLab's reason for each. Thread: a board with the learner's distilled points on one side and the readers on the other, each reader with what they already know and the questions they need answered; the learner pins point-to-reader threads and delivers. Delivery turns each reader question answered or unanswered, shows the passage that would have answered a missed question, flags points sent to a reader who already knew them, and counts clips wasted on filler; the letters view then shows each reader exactly what they were sent. Done means the learner has delivered once (any thread count); a full score in standard mode unlocks the tight-budget replay. The widget state you receive lists the report, the step, every clipping, the actor picks and scores once committed, every thread, and the delivery verdict with the unanswered questions by reader. Before a step is committed, do not reveal which passages are core, which actors are key, or which point answers which question. The system card is fictional and says so; treat its numbers as teaching material, not facts about a released model."
+summary_for_tutor: "XLab's Distiller: the learner picks one of four verification reports (the fictional Claude Opus 4.7 System Card; the UK AISI Frontier AI Trends Report, 2025; IAEA GOV/2026/8 on Iran; the BIS settlement order against Seagate, 2023) and works it in five steps. Clip: a pool of candidate passages per section (core facts mixed with planted decoys; the system card also has a full-report reading view) and a notebook with a clip cap (12, 11, 10, 10; a tight-budget replay lowers it to 8, 8, 7, 7). Distil: each clipping compresses into XLab's pre-written distillation for the report's post (a Zvi-style post, a GOV.UK factsheet, a think-tank analysis, a trade-law client alert); decoys are revealed as filler here. Upstream and Downstream: multi-select of the actors the report was built from and the readers it goes to, committed and then marked yes, missed, no or left out with XLab's reason for each. Thread: a board with the learner's distilled points on one side and the readers on the other, each reader with what they already know and the questions they need answered; the learner pins point-to-reader threads and delivers. Delivery turns each reader question answered or unanswered, shows the passage that would have answered a missed question, flags points sent to a reader who already knew them, and counts clips wasted on filler; the letters view then shows each reader exactly what they were sent. Done means the learner has delivered once (any thread count); a full score in standard mode unlocks the tight-budget replay. The widget state you receive lists the report, the step, every clipping, the actor picks and scores once committed, every thread, and the delivery verdict with the unanswered questions by reader. Before a step is committed, do not reveal which passages are core, which actors are key, or which point answers which question. The system card is fictional and says so; treat its numbers as teaching material, not facts about a released model. The lesson page around the widget carries the framing prose (the five steps, the worked example, the editorial test and the point that an unclipped fact reaches no one), the full text of the fictional system card and the article segments for the three real reports, the four per-report key callouts (closed, for after delivery) and a closing reflection question; the widget itself only asks for the work."
 height: auto
 tags: [wip]
 ---
@@ -43,7 +43,6 @@ tags: [wip]
   .center { text-align: center; }
   .intro { max-width: 42rem; margin: 0 auto; padding: 16px 16px 12px; color: var(--muted); text-align: center; }
   .intro b { color: var(--text); }
-  .intro .sub { display: block; margin-top: 6px; font-size: 12px; }
   .picker { display: grid; gap: 12px; padding: 0 16px 16px; }
   @media (min-width: 640px) { .picker { grid-template-columns: 1fr 1fr; } }
   .pick { display: flex; flex-direction: column; gap: 4px; padding: 16px; }
@@ -54,16 +53,12 @@ tags: [wip]
   .bar .title { font-weight: 600; }
   .bar .spacer { margin-left: auto; display: flex; gap: 8px; }
   .pill { border: 1px solid var(--border); border-radius: 999px; padding: 1px 8px; font-size: 12px; color: var(--muted); }
-  .rail { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; padding: 10px 12px; border-bottom: 1px solid var(--border); }
-  .rail button { border: 0; border-bottom: 2px solid transparent; border-radius: 6px 6px 0 0; padding: 6px 10px; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; color: var(--muted); }
-  .rail button .n { font-size: 12px; }
-  .rail button.is-current { border-bottom-color: var(--text); color: var(--text); }
-  .rail button.is-done { color: var(--accent); border-bottom-color: var(--accent); }
-  .rail button.is-done.is-current { color: var(--text); border-bottom-color: var(--text); }
-  .rail button:disabled { opacity: 0.45; }
   .lead { max-width: 42rem; margin: 0 auto; padding: 8px 16px 12px; color: var(--muted); text-align: center; }
   .lead b { color: var(--text); }
-  .lead .rubric { display: block; margin-top: 6px; font-size: 12px; }
+  .q .qhead { display: block; width: 100%; border: 0; border-radius: 0; background: none; padding: 0; font: inherit; text-align: left; }
+  .q .qhead:hover { background: none; }
+  .q .qhead:hover .need { text-decoration: underline; }
+  .q .qhead[disabled] { cursor: default; }
   .status { min-height: 18px; padding: 0 16px 8px; font-size: 12px; color: var(--accent-hover); text-align: center; }
   .stage { padding: 0 16px 16px; }
   .two { display: grid; gap: 20px; align-items: start; }
@@ -319,7 +314,7 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
 
   // ---------- state ----------
   var store = { current: null, runs: {} };
-  var ui = { section: null, poolView: "excerpts", armed: null, focus: null, resetArmed: false, status: "" };
+  var ui = { section: null, poolView: "excerpts", armed: null, focus: null, resetArmed: false, status: "", openWhy: {}, openQ: {} };
   var completedSent = false;
   var resetTimer = null;
   var root = document.getElementById("root");
@@ -423,7 +418,7 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
       if (typeof saved.current === "string" && reportById(saved.current)) store.current = saved.current;
     }
     completedSent = !!(meta && meta.completed);
-    ui.section = null;
+    ui.section = null; ui.openWhy = {}; ui.openQ = {};
     render();
   }
 
@@ -491,6 +486,7 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
     var run = currentRun();
     if (!run) return;
     run[which === "up" ? "upDone" : "downDone"] = done;
+    ui.openWhy = {};
     persist(); render();
   }
   function addThread(seg, stk) {
@@ -538,7 +534,7 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
     if (!run.best || sm.answered > run.best.answered) run.best = sm;
     if (ev.ok === ev.total && run.mode === "standard") run.tightUnlocked = true;
     ui.armed = null;
-    setStatus(ev.ok === ev.total ? "Every reader got what they needed." : ev.ok + " / " + ev.total + " questions answered.");
+    setStatus("");
     persist();
     if (window.Lens && !completedSent) { completedSent = true; Lens.complete(); }
     render();
@@ -603,7 +599,6 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
     var ix = indexReport(report);
     root.appendChild(renderBar(report));
     if (run.letters && run.delivered) { root.appendChild(renderLetters(report, run, ix)); return; }
-    root.appendChild(renderRail(run));
     root.appendChild(renderLead(report, run.phase));
     var status = el("p", "status", ui.status);
     status.setAttribute("role", "status");
@@ -620,9 +615,7 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
 
   function renderPicker() {
     var intro = el("p", "intro");
-    intro.appendChild(document.createTextNode("Four documents, one discipline. "));
     intro.appendChild(el("b", null, "Pick a report to distil."));
-    intro.appendChild(el("span", "sub", "Each is a verification report: one actor’s claims, another’s access, and readers waiting on the result."));
     root.appendChild(intro);
     var grid = el("div", "picker");
     REPORTS.forEach(function (r) {
@@ -655,54 +648,14 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
     return bar;
   }
 
-  function renderRail(run) {
-    var rail = el("div", "rail");
-    var done = [
-      run.clipped.length > 0 && run.phase > 1,
-      run.clipped.length > 0 && seenAllFlips(run) && run.phase > 2,
-      run.upDone,
-      run.downDone,
-      run.delivered
-    ];
-    PHASES.forEach(function (name, i) {
-      var p = i + 1;
-      var active = run.phase === p;
-      var reachable = canEnterPhase(p, run);
-      var b = btn((active ? "is-current " : "") + (done[i] ? "is-done" : ""), null, function () { goPhase(p); });
-      b.disabled = !reachable;
-      if (active) b.setAttribute("aria-current", "step");
-      b.appendChild(el("span", "n", done[i] && !active ? "✓" : String(p)));
-      b.appendChild(el("span", null, name));
-      rail.appendChild(b);
-    });
-    return rail;
-  }
-
   function renderLead(report, phase) {
-    var p = el("p", "lead");
-    var rubric;
-    if (phase === 1) {
-      p.appendChild(document.createTextNode("A report is mostly true and mostly forgettable. "));
-      p.appendChild(el("b", null, "Clip only the handful of facts that would change what a reader does"));
-      p.appendChild(document.createTextNode(" and reject the rest."));
-      rubric = "The editorial test: “Would any of my audiences act differently knowing this?”";
-    } else if (phase === 2) {
-      p.appendChild(document.createTextNode("Each clipping compresses into the post, in the order you filed it. "));
-      p.appendChild(el("b", null, "What you didn’t clip simply isn’t here."));
-      rubric = "Facts you skipped leave no placeholder. That silence is the point.";
-    } else if (phase === 3) {
-      p.appendChild(document.createTextNode(report.upstreamPrompt));
-      rubric = "Every claim in the document rests on somebody’s access. Upstream sets what the report can honestly say.";
-    } else if (phase === 4) {
-      p.appendChild(document.createTextNode(report.downstreamPrompt));
-      rubric = "The readers you confirm become the desks on the threading board.";
-    } else {
-      p.appendChild(document.createTextNode("Thread each distilled point to the readers who need it. "));
-      p.appendChild(el("b", null, "Deliver, and every unanswered question turns red."));
-      rubric = "Different readers need different facts, and already know different things.";
-    }
-    p.appendChild(el("span", "rubric", rubric));
-    return p;
+    var text;
+    if (phase === 1) text = "Clip only the passages that would change what a reader does.";
+    else if (phase === 2) text = "Tap each clipping to compress it into the post.";
+    else if (phase === 3) text = report.upstreamPrompt;
+    else if (phase === 4) text = report.downstreamPrompt;
+    else text = "Pin a point, then pin the reader who needs it, then deliver.";
+    return el("p", "lead", text);
   }
 
   function paneHead(title, hint) {
@@ -857,9 +810,7 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
     head.appendChild(el("p", "muted", "a distillation " + report.meta.postByline));
     wrap.appendChild(head);
     var allSeen = seenAllFlips(run);
-    if (!allSeen) wrap.appendChild(el("p", "muted", "Tap each clipping to compress it into the post. What you didn’t clip simply isn’t here."));
     var stack = el("div", "stack");
-    if (!allSeen) stack.style.marginTop = "12px";
     run.clipped.forEach(function (id, idx) {
       var b = ix.blockById[id];
       var seen = run.flipped.indexOf(id) >= 0;
@@ -909,17 +860,26 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
         else badge = el("span", "badge", "left out");
       } else if (isSel) cls += " is-sel";
       var card = el("div", cls);
-      var row = btn("row", null, function () { toggleActor(which, o.id); });
-      row.disabled = done;
-      row.setAttribute("aria-pressed", isSel ? "true" : "false");
+      var why = "";
+      if (done) why = which === "down" && isKey && ix.stkById[o.id] && ix.stkById[o.id].needsLine ? ix.stkById[o.id].needsLine : (o.why || "");
+      var openWhy = !!ui.openWhy[o.id];
+      var row = btn("row", null, function () {
+        if (!done) { toggleActor(which, o.id); return; }
+        ui.openWhy[o.id] = !openWhy;
+        render();
+      });
+      if (done) {
+        row.disabled = !why;
+        row.setAttribute("aria-expanded", openWhy ? "true" : "false");
+        if (why) row.setAttribute("title", openWhy ? "Hide the reason" : "Show the reason");
+      } else {
+        row.setAttribute("aria-pressed", isSel ? "true" : "false");
+      }
       row.appendChild(el("span", "cb", isSel ? "✓" : ""));
       row.appendChild(el("span", "lbl", o.label));
       if (badge) row.appendChild(badge);
       card.appendChild(row);
-      if (done) {
-        var why = which === "down" && isKey && ix.stkById[o.id] && ix.stkById[o.id].needsLine ? ix.stkById[o.id].needsLine : (o.why || "");
-        if (why) card.appendChild(el("p", "why", why));
-      }
+      if (done && why && openWhy) card.appendChild(el("p", "why", why));
       grid.appendChild(card);
     });
     wrap.appendChild(grid);
@@ -956,9 +916,9 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
       var v = el("div", "box verdict " + (verdict.ok === verdict.total ? "is-ok" : "is-short"));
       v.appendChild(el("p", "h", verdict.ok + " / " + verdict.total + " reader questions answered"));
       var body = verdict.ok === verdict.total
-        ? "Every question answered. Select a reader to trace their threads."
-        : "Each red question expands to the block that would have answered it. A fact you never clipped can’t reach anyone: that gap is the lesson.";
-      if (filler > 0) body += " You spent " + plural(filler, "clip") + " on filler that reached no one.";
+        ? "Trace a reader to see their threads."
+        : "Tap a red question to see the passage that would have answered it.";
+      if (filler > 0) body += " " + plural(filler, "clip") + " went on filler.";
       v.appendChild(el("p", "b", body));
       wrap.appendChild(v);
     }
@@ -1039,24 +999,28 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
     s.questions.forEach(function (q) {
       var ok = verdict ? verdict.answered[q.id] : null;
       var li = el("li", "q" + (verdict ? (ok ? " is-ok" : " is-bad") : ""));
-      li.appendChild(el("span", "need", q.need));
-      li.appendChild(el("span", "check", "Needs: " + q.check));
-      if (verdict) {
-        li.appendChild(el("span", "res" + (ok ? " ok" : ""), ok ? "✓ answered" : "✕ unanswered"));
-        if (!ok) {
-          var seg = ix.segById[q.answers[0]];
-          var blk = seg ? ix.blockById[seg.blockId] : null;
-          if (blk) {
-            var miss = el("span", "miss");
-            miss.appendChild(el("b", null, "p. " + blk.page + " · §" + blk.sec + ": "));
-            miss.appendChild(document.createTextNode(blk.quote));
-            var w = el("span", "w");
-            w.appendChild(el("b", null, "Why it mattered: "));
-            w.appendChild(document.createTextNode(blk.why));
-            miss.appendChild(w);
-            li.appendChild(miss);
-          }
-        }
+      var seg = verdict && !ok ? ix.segById[q.answers[0]] : null;
+      var blk = seg ? ix.blockById[seg.blockId] : null;
+      var openQ = !!ui.openQ[q.id];
+      var head = btn("qhead", null, function () { ui.openQ[q.id] = !openQ; render(); });
+      head.disabled = !blk;
+      if (blk) {
+        head.setAttribute("aria-expanded", openQ ? "true" : "false");
+        head.setAttribute("title", openQ ? "Hide the passage" : "Show the passage that would have answered it");
+      }
+      head.appendChild(el("span", "need", q.need));
+      head.appendChild(el("span", "check", "Needs: " + q.check));
+      if (verdict) head.appendChild(el("span", "res" + (ok ? " ok" : ""), ok ? "✓ answered" : "✕ unanswered"));
+      li.appendChild(head);
+      if (blk && openQ) {
+        var miss = el("span", "miss");
+        miss.appendChild(el("b", null, "p. " + blk.page + " · §" + blk.sec + ": "));
+        miss.appendChild(document.createTextNode(blk.quote));
+        var w = el("span", "w");
+        w.appendChild(el("b", null, "Why it mattered: "));
+        w.appendChild(document.createTextNode(blk.why));
+        miss.appendChild(w);
+        li.appendChild(miss);
       }
       ul.appendChild(li);
     });
@@ -1107,7 +1071,6 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
   function renderLetters(report, run, ix) {
     var wrap = el("div", "stage");
     wrap.style.paddingTop = "16px";
-    wrap.appendChild(el("p", "lead", "Every reader gets the report you actually threaded them: no more, no less. Where a question went unanswered, the letter says so plainly."));
     var verdict = evaluateRun(run.threads, report);
     var ordered = producedSegs(run.clipped, ix);
     var grid = el("div", "letters");
