@@ -1,7 +1,7 @@
 ---
 id: '04534f4d-b4a3-4484-8e5a-556d7bcb3ac0'
 title: Everything comes with a cost
-summary_for_tutor: "A two-sided flip card for auditing one of the learner's own policy beliefs. Side A asks for a policy they strongly believe in (typed, or borrowed from four chips: universal healthcare, school vouchers, a carbon tax, banning phones in schools). Flipping the card reveals Side B, which asks for one real cost or downside of enforcing that policy, with an optional lens hint (who pays, who is constrained, what enforcing it requires, what happens to those who refuse). Facing the tradeoff shows both sides as a ledger and asks how easy naming the price was (almost instant, took some thought, genuinely hard); each rating reveals a one-line reflection, the full policy composed as one sentence (I support X at the cost of Y), and the closing line that the question is what we are willing to compromise. The learner's goal, price and rating are saved and shown to you in the widget-state block. Done means the learner has picked a rating; they can then try another policy. Ungraded and personal: acknowledge in one sentence, check only that the price is a cost of enforcing the same policy rather than a cost of the problem it addresses, no praise, no lecture."
+summary_for_tutor: "A two-sided flip card for auditing one of the learner's own policy beliefs. Side A asks for a policy they strongly believe in (typed, or borrowed from four chips: universal healthcare, school vouchers, a carbon tax, banning phones in schools). Flipping the card reveals Side B, which asks for one real cost or downside of enforcing that policy, with an optional hint that unfolds four prompts (who pays, who is constrained, what enforcing it requires, what happens to those who refuse). Facing the tradeoff shows both sides as a ledger and asks how easy naming the price was (almost instant, took some thought, genuinely hard); each rating reveals a one-line reflection, the full policy composed as one sentence (I support X at the cost of Y), and the closing line that the question is what we are willing to compromise. The learner's goal, price and rating are saved and shown to you in the widget-state block. Done means the learner has picked a rating; they can then try another policy. Ungraded and personal: acknowledge in one sentence, check only that the price is a cost of enforcing the same policy rather than a cost of the problem it addresses, no praise, no lecture."
 height: auto
 tags: [wip]
 ---
@@ -106,7 +106,7 @@ tags: [wip]
         <p class="echo">Side A: <b id="echo"></b></p>
         <label for="pc-price">One real cost or downside of enforcing it:</label>
         <input type="text" id="pc-price" maxlength="160" autocomplete="off" placeholder="be honest, one is enough">
-        <button type="button" class="link" id="stuck" aria-expanded="false" aria-controls="lenses">Stuck? Try a lens</button>
+        <button type="button" class="link" id="stuck" aria-expanded="false" aria-controls="lenses">Stuck? Show four prompts</button>
         <p class="lenses" id="lenses" hidden>Who pays? · Who is constrained? · What does enforcing it require? · What happens to those who refuse?</p>
         <div class="foot">
           <button type="button" id="back-btn">← Back</button>

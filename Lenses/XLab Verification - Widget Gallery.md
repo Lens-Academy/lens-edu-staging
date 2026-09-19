@@ -1,7 +1,7 @@
 ---
 id: '6f0d2b9e-3c1a-4e7b-9a52-8d4c1f6e2b73'
 title: "Widget Gallery: Compute Verification Parts 1 and 2"
-tldr: "Every interactive built for the two Compute Verification courses, live on one page, each with the lens it belongs to, the spot it goes in, and what it replaces. 35 widgets, 4 places where our own question segments are enough, 17 skips."
+tldr: "Every interactive built for the two Compute Verification courses, live on one page, each with the lens it belongs to, the spot it goes in, and what it replaces. 35 widgets, 5 places where our own question segments are enough, 17 skips."
 summary_for_tutor: "An internal review page for course authors, not learner material. It lists every widget ported from XLab's Verification track or built for an embedded reading, ordered by module and lens, with placement instructions. If someone asks, explain that this is a staging gallery and that widgets listed here are not yet placed in the course."
 tags: [wip]
 duration_minutes: 90
@@ -9,7 +9,7 @@ duration_minutes: 90
 
 #### Text
 content::
-This page collects every interactive built for Compute Verification Parts 1 and 2 from XLab's Verification track and from the readings the course embeds. Entries leave this page once they are placed in the course; placed so far: A Short History of AI Acceleration (timeline), Test scores of AI systems (short history), The Types of AI, The Verification Landscape, The Verification Problem, Theory of Change for Your Favorite AI Safety Organization, Why Are We Concerned About Superintelligence?. Native entries reviewed and agreed, so also gone from this page: Tasks on the Document Packet. Each entry says which lens it belongs to, where in that lens it goes, and what it would replace, so placement is a copy-paste decision per entry. Entries marked native say that our own question segments already do the job, with the proposed segment text in a collapsed note. Entries are ordered by module and lens. Every widget below is live: try it.
+This page collects every interactive built for Compute Verification Parts 1 and 2 from XLab's Verification track and from the readings the course embeds. Entries leave this page once they are placed in the course; placed so far: A Short History of AI Acceleration (timeline), Test scores of AI systems (short history), The Types of AI, The Verification Landscape, The Verification Problem, Theory of Change for Your Favorite AI Safety Organization, Why Are We Concerned About Superintelligence?. Native entries reviewed and agreed, so also gone from this page: Tasks on the Document Packet, Anatomy of a (Pause) Agreement. Each entry says which lens it belongs to, where in that lens it goes, and what it would replace, so placement is a copy-paste decision per entry. Entries marked native say that our own question segments already do the job, with the proposed segment text in a collapsed note. Entries are ordered by module and lens. Every widget below is live: try it.
 
 #### Text
 content::
@@ -95,55 +95,6 @@ Module file: [[../modules/XLab Verification P1 W3 Treaty anatomy and actors]]
 #### Text
 content::
 \### Lens: [[../Lenses/XLab Verification - v-scoping-anatomy]]
-
-#### Text
-content::
-\#### Anatomy of a (Pause) Agreement (treaty-workspace)
-
-**Decision: native question segments are enough.** XLab's widget is four textareas with a "Save answer" button each and a "N of 3 answered" counter; it has no marking key, no reveal state and no per-question feedback, so the four `Question: Open` segments already on the Lens page (with authored assessment and feedback instructions XLab never had) give the learner strictly more than the widget did.
-
-**Target lens:** [[../Lenses/XLab Verification - v-scoping-anatomy]]
-
-**Where it goes:** already in place. The exercise is the four `Question: Open` segments (ids 5c257204-3687-4257-a4f3-ecb75d22e20f, e3c2359d-f159-4348-a44a-740924f23668, 7d9b33a6-250c-41b3-aeb3-daae48c85383, 9071fd5b-8b0f-4dd0-80bf-93960ebca7af) that follow the Text segment beginning "\## Assignment / Open the draft agreement prepared by the MIRI Technical Governance Team". They end before the Text segment beginning ":::callout {title=\"Optional: Reassemble the Parts of an Agreement\"" (that callout, and the Choice segments after it, are the `anatomy-drill` slot owned by the other agent; the drill widget goes after that callout's Text segment, replacing the run of Choice segments that starts with "Specimen 1").
-
-**What it replaces:** nothing to replace; the four Question: Open segments stay as they are. No collapsed fallback needed.
-
-**In XLab:** <VerificationExercise id="treaty-workspace" /> in scoping-anatomy.mdx, core (under "## Assignment", after `<PageBreak title="Apply the Treaty-Reading Method" />`), not inside a Fold. Registry entry: `{ id: "treaty-workspace", title: "Anatomy of a (Pause) Agreement", bridged: true }`.
-
-**Learner time:** about 45 minutes for three answers (plus the optional 75-minute paper lens for the treaty itself)
-
-Opens MIRI's draft agreement (the optional paper lens `XLab Verification - v-paper-scher-treaty`), reads all four questions, then answers any three: where the text first binds a Party (Preamble and Article I), the do/refrain/permit duties of one prohibition (Articles IV, V, VI or VIII), where that prohibition's verification method lives (compare Articles VII and IX), and entry into force plus withdrawal (Article XV, compared with Annex E of the Practice Guide). In XLab each answer is a free-text box with a "Save answer" commit; on Lens each is a graded Question: Open with tutor feedback.
-
-:::callout {title="Fidelity notes" tone="neutral" collapse="closed"}
-Question text compared mechanically (every string literal in `src/lib/verification/data/treaty-workspace.ts` against the four `content::` blocks). Result:
-- Questions 1, 2, 3, all body text, list items and guidance lines: verbatim.
-- Placeholder "Quote the words you are talking about." (QuestionWorkspace default): verbatim on all four.
-- Intro: XLab's three intro paragraphs are verbatim in the "## Assignment" Text segment; Lens adds one bridge sentence ("All four are marked optional here so that the lens can be completed with any three.") and renders the author string with parentheses instead of XLab's em dash.
-- Drift, question 4: XLab says "Determine when the agreement enters into force"; Lens says "Determine whether and when the agreement enters into force". Deliberate and justified: the draft (articles/scher-an-international-agreement-...md, the "ARTICLE XV, Withdrawal and Duration" heading) has no entry-into-force clause; Article XV gives only unlimited duration and 12-month withdrawal notice to the CTB. The Lens assessment instructions for Q4 rely on this. Keep the Lens wording.
-- Gating gap (the one thing lost): XLab calls `onComplete` when 3 of the 4 non-optional questions are saved (`WORKSPACE_RULE = { kind: "any", count: 3 }`, `isWorkspaceComplete`). Lens has no "any 3 of 4" rule, so all four segments carry `optional:: true` and the lens can be marked complete with zero answers. Options for the orchestrator: (a) accept, as the current page does; (b) drop `optional:: true` on questions 1 to 3 and keep it on 4 (guarantees three answers but removes the learner's choice of which three; note question 3 depends on question 2 anyway, so 1, 2, 3 is the natural set); (c) a thin widget with `required:: true` calling `Lens.complete()` after three commits, which I recommend against because it would duplicate the segments' grading or lose it.
-- Assessment and feedback instructions on the Lens segments are Lens-authored, not from XLab (XLab had no marking key for this exercise). Not drift; an addition.
-- XLab's per-question "Saved. Keep editing if you want, it stays saved." message and the answered counter have no Lens equivalent; nothing curricular is lost.
-Sources: `src/components/verification/widgets/treaty-workspace.tsx`, `src/components/verification/kit/question-workspace.tsx`, `src/lib/verification/question-workspace.ts`, `src/lib/verification/data/treaty-workspace.ts`, `src/content/lessons/verification/scoping-anatomy.mdx` (current HEAD of xlab-tracks), `src/lib/verification/exercises.ts`.
-:::
-
-:::callout {title="Proposed native segments" tone="neutral" collapse="closed"}
-Field names are written `key: :` so this page parses; join the colons when pasting.
-
-Already on the page; no change needed. The four existing segments are, in short (full text and instructions are in the lens file at the ids above):
-
-```
-\#### Question: Open
-id: : 5c257204-3687-4257-a4f3-ecb75d22e20f
-content: : **1. Distinguish between non-binding and binding provisions** ...
-placeholder: : Quote the words you are talking about.
-optional: : true
-assessment-instructions: : ...
-feedback-instructions: : ...
-```
-(and likewise e3c2359d-f159-4348-a44a-740924f23668 for question 2, 7d9b33a6-250c-41b3-aeb3-daae48c85383 for question 3, 9071fd5b-8b0f-4dd0-80bf-93960ebca7af for question 4).
-
-If option (b) above is chosen, the only edit is deleting the line `optional:: true` from the segments with ids 5c257204-3687-4257-a4f3-ecb75d22e20f, e3c2359d-f159-4348-a44a-740924f23668 and 7d9b33a6-250c-41b3-aeb3-daae48c85383, and changing the bridge sentence in the "## Assignment" Text segment from "All four are marked optional here so that the lens can be completed with any three." to "Questions 1 to 3 are required here; question 4 is optional."
-:::
 
 #### Text
 content::
