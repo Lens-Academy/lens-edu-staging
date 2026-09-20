@@ -43,7 +43,7 @@ source:: [[../widgets/ai-2040-deal-timeline]]
 from:: ### Jan 2029: Mutual Chip Declaration and Inspection
 to:: | China | 26M H100e | ~1.5M H100e |
 
-*Table adaptation of the source chart, which draws compute in blocks of 250K H100e; the undeclared figures are read at that block resolution.*
+*Compute in this table is counted in blocks of 250K H100e, so the undeclared figures are rounded to that block size.*
 
 #### Widget
 source:: [[../widgets/ai-2040-chip-declaration]]
