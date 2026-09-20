@@ -31,7 +31,6 @@ tags: [wip]
   button:hover { background: var(--surface); }
   button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   button.is-active { border-color: var(--text); box-shadow: 0 0 0 1px var(--text); }
-  button.is-seen::after { content: " ✓"; color: var(--muted); }
   .layout { display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: 16px; align-items: start; }
   .chartbox { overflow-x: auto; }
   .chart { width: 100%; min-width: 520px; height: auto; display: block; }
@@ -51,8 +50,6 @@ tags: [wip]
   .legend .sq.cn { background: var(--accent); }
   .legend .sq.row { background: repeating-linear-gradient(45deg, #1a1a1a 0 2px, #fff 2px 5px); }
   .legend .sq.un { background: none; border: 1.5px solid var(--text); }
-  .status { font-size: 12px; color: var(--muted); margin-top: 8px; }
-  .status.is-done { color: var(--text); font-weight: 500; }
   @media (max-width: 700px) { .layout { grid-template-columns: 1fr; } body { padding: 10px; } }
 </style>
 </head>
@@ -69,7 +66,6 @@ tags: [wip]
     </div>
   </div>
   <div class="legend" id="legend"></div>
-  <p class="status" id="status"></p>
 </div>
 
 <script>
@@ -189,7 +185,6 @@ tags: [wip]
   var partiesEl = document.getElementById("parties");
   var viewsEl = document.getElementById("views");
   var legendEl = document.getElementById("legend");
-  var statusEl = document.getElementById("status");
 
   function counts(sideKey) {
     var lay = layouts[sideKey];
@@ -229,7 +224,6 @@ tags: [wip]
     var vb = viewsEl.querySelectorAll("button");
     for (var i = 0; i < vb.length; i++) {
       vb[i].classList.toggle("is-active", vb[i].dataset.view === state.view);
-      vb[i].classList.toggle("is-seen", !!state.seen[vb[i].dataset.view]);
       vb[i].setAttribute("aria-pressed", vb[i].dataset.view === state.view ? "true" : "false");
     }
     for (var k in partyGroups) partyGroups[k].classList.toggle("is-active", k === state.party);
@@ -240,8 +234,6 @@ tags: [wip]
     key("cn", "China declared");
     if (view.sides.length > 2) key("row", "Rest of world declared");
     key("un", "plausibly undeclared");
-    statusEl.textContent = isDone() ? "Done: you have viewed both dates." : "Viewed 1 of the 2 dates.";
-    statusEl.classList.toggle("is-done", isDone());
   }
 
   function summary() {
