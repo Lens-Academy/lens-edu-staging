@@ -48,7 +48,7 @@ Our recommended solutions come in three phases.
 
 **Phase 2. Implement a Deal.** The US and China perform a mutual compute declaration (spreading to third countries and ideally reaching >99% of world compute); inference-only verification retrofit to ~99% of world AI datacenter compute, and then sprint towards setting up secure R&D verification that will use new post-deal compute production.
 
-**Compute locations by datacenter size, January 1, 2029 (scenario projection)**
+{--{"author":"Elias's AI","timestamp":1789936369103}@@**Compute locations by datacenter size, January 1, 2029 (scenario projection)**
 
 *Table adaptation of the source figure. Compute quantities use H100-equivalent units (H100e); K = thousand and M = million. Percentages and rounded values follow the source.*
 
@@ -71,7 +71,7 @@ Our recommended solutions come in three phases.
 | --- | ---: | ---: |
 | US | 224M | 77% |
 | China | 26M | 9% |
-| Rest of world | 39M | 14% |
+| Rest of world | 39M | 14% |--}{++{"author":"Elias's AI","timestamp":1789936369103}@@![[../widgets/ai-2040-compute-locations]]++}
 
 This is what we think implementing the deal would look like in 2029 in our scenario, with an inference-only retrofit of all the medium and large AI datacenters (>10K H100e, or approx. >$100M), and this being enough to cover ~99% of world AI-relevant compute. Then keeping tabs on the rest of the smaller clusters and taking measures to avoid them being possibly used in a covert project. We are not confident in the modelling of this [concentration in datacenter sizes](https://ai-2040.com/supplements/compute-supplement#14-datacenter-sizes), so the exact cutoffs and interventions may need to be different.
 
@@ -292,12 +292,12 @@ The intelligence agencies have been keeping close track of new compute productio
 
 Within a week of starting Plan A negotiations, the US and China have carried out a compute declaration and supply chain record audit, allowing each other to send a few hundred people into each other’s countries to inspect and audit records. This lets them reduce their already relatively small uncertainties over each other’s compute. Each side’s best guess is now that the other could have hidden at most around 1.5M H100e from the declaration (with the 80% CI reaching about 4M), which is about 4% of the leading AI company’s R&D compute and about 0.5% of total world compute. For our estimates and reasoning on how much compute a covert project could probably hide see the [covert projects supplement](https://ai-2040.com/supplements/covert-ai-projects#section-2-preventing-covert-compute-procurement).
 
-| Party | Declared compute (Jan 2029) | Plausibly undeclared |
+{--{"author":"Elias's AI","timestamp":1789936368579}@@| Party | Declared compute (Jan 2029) | Plausibly undeclared |
 | --- | ---: | ---: |
 | US | 224M H100e | ~1.5M H100e |
 | China | 26M H100e | ~1.5M H100e |
 
-*Table adaptation of the source chart, which draws compute in blocks of 250K H100e; the undeclared figures are read at that block resolution.*
+*Table adaptation of the source chart, which draws compute in blocks of 250K H100e; the undeclared figures are read at that block resolution.*--}{++{"author":"Elias's AI","timestamp":1789936368579}@@![[../widgets/ai-2040-chip-declaration]]++}
 
 More detail on the suggested interventions by cluster size bucket below:
 
@@ -318,7 +318,7 @@ The US and China need to minimize the plausible flow of future compute productio
 2.  Temporary, mutual cold storage holding facilities: compute directed here will be guarded until it is able to be set up for R&D (training and experiments) once new secure, mutually verified R&D clusters are set up.
     
 
-**Chip flow restrictions, 2029: example devices by compute and interconnect**
+{--{"author":"Elias's AI","timestamp":1789936367987}@@**Chip flow restrictions, 2029: example devices by compute and interconnect**
 
 *Table adaptation of the source chart. Compute and interconnect values are read off the chart's log axes and are approximate. Tier 0 is unrestricted consumer compute. Tier 1 is subject to the deal (inference-only or cold storage) and begins above roughly 10 TB memory capacity (scale-up) or HBM-class memory bandwidth (about 1.5 TB/s).*
 
@@ -334,7 +334,7 @@ The US and China need to minimize the plausible flow of future compute productio
 | H100 (PCIe) | 1 | ~64 | 80 GB | Yes | Tier 1 |
 | B200 | ~2.5 | ~1,800 | 192 GB | Yes | Tier 1 |
 | DGX 8×H100 | ~8 | ~400 | 640 GB | Yes | Tier 1 |
-| GB200 NVL72 | ~180 | ~3,600 | ~13 TB | Yes | Tier 1 |
+| GB200 NVL72 | ~180 | ~3,600 | ~13 TB | Yes | Tier 1 |--}{++{"author":"Elias's AI","timestamp":1789936367987}@@![[../widgets/ai-2040-chip-flow]]++}
 
 At first, we propose that any chip with low enough interconnect, compute, memory and bandwidth can be produced unrestricted. Then by 2032, we tentatively propose a cap, with a slight alleviation of the compute threshold (to give room for more consumer applications that might require higher edge compute) and a tightening of the interconnect threshold (to hopefully lower their potential usefulness in a covert project if diverted). More on this in the [2032 section](https://ai-2040.com/supplements/verification-plan#2032-cap-and-trade-for-robots-and-compute).
 :::
@@ -357,13 +357,13 @@ While the inference-only retrofit is being carried out, the US and China then ag
 
 Starting in April and through the rest of 2029, most of the richest 20 countries in the world, and important semiconductor supply chain countries join the deal by doing a compute declaration and allowing the inference-only retrofitting to their datacenters, including: Germany, Japan, UK, India, France, Brazil, Canada, Mexico, Italy, Australia, South Korea, Spain, UAE, Saudi Arabia, Taiwan, Netherlands, Switzerland.
 
-| Party | Declared compute (mid 2029) | Plausibly undeclared |
+{--{"author":"Elias's AI","timestamp":1789936367579}@@| Party | Declared compute (mid 2029) | Plausibly undeclared |
 | --- | ---: | ---: |
 | US | 224M H100e | ~0.5M H100e |
 | China | 26M H100e | ~0.5M H100e |
 | Rest of world | 39M H100e | ~0.5M H100e |
 
-*Table adaptation of the source chart, which draws compute in blocks of 250K H100e; the undeclared figures are read at that block resolution.*
+*Table adaptation of the source chart, which draws compute in blocks of 250K H100e; the undeclared figures are read at that block resolution.*--}{++{"author":"Elias's AI","timestamp":1789936367579}@@![[../widgets/ai-2040-chip-declaration-mid-2029]]++}
 
 ### June - July 2029: Construction of new highly secure (SL5) inference-only clusters begins
 
@@ -403,20 +403,7 @@ Five key verification metrics we care about include:
 -   **Assurance curve.** The assurance curve captures information about the level of **coverage** (the % of the AI compute that the verification solution makes claims about) and **confidence** (with what probability is the verification solution correct about the claims it makes on the covered resources). We define an assurance curve as a set of relevant (coverage, confidence) values. We care about the entire 2D curve, because it's important to know where handoff and covert project risks cross over.[^note-verification-plan-14]
     
 
-**Assurance curves for three verification budgets**
-
-*Table adaptation of the source chart. N_ver is the number of packets the verifier audits. Values are computed from the formulas in the [appendix](https://ai-2040.com/supplements/verification-plan#a3-the-assurance-curve): coverage = 1 − F\*, confidence = 1 − e^(−N_ver · F\*), where F\* is the largest fraction of fake packets tolerated without detection.*
-
-| Coverage | Confidence at N_ver = 100 | N_ver = 10K | N_ver = 10M |
-| --- | ---: | ---: | ---: |
-| 90% | 99.995% | ~100% | ~100% |
-| 99% | 63% | ~100% | ~100% |
-| 99.9% | 9.5% | 99.995% | ~100% |
-| 99.99% | 1.0% | 63% | ~100% |
-| 5 nines | 0.1% | 9.5% | ~100% |
-| 6 nines | 0.01% | 1.0% | 99.995% |
-| 7 nines | 0.001% | 0.1% | 63% |
-| 8 nines | 0.0001% | 0.01% | 9.5% |
+![[../widgets/ai-2040-assurance-curve]]
 
 -   **Execution difficulty.** How difficult would it be to implement the verification solution correctly? For example, if there are load-bearing parts of the verification solution that require a large amount of expert human labor for e.g., setting up the verification software, manufacturing and installing devices, physical security enforcement and monitoring, etc.
     
