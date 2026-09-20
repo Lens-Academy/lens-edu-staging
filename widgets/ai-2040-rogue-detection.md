@@ -1,7 +1,7 @@
 ---
 id: 'acd00bf6-a7c2-4541-8202-25e8c29aecb6'
 title: Catching a rogue internal deployment
-summary_for_tutor: "An interactive reproduction of the AI 2040 verification supplement's 'Catching a rogue internal deployment' chart. The learner picks a year (2030, 2032, 2034 or 2040, which sets the verified pool size and the default packet size) and a packet size (1 to 10K H100e-hours), then reads P(detected) for a rogue deployment of a given size (1 to 10M H100e) within 1 hour, 1 week or 1 month, using the appendix formula P(detected) = 1 - exp(-C * N_fake) with a 1% recomputation budget, where N_fake = size * hours / packet size. They can hover the chart or press a size button to read exact values, and hide or show each time window. Done means they have moved a slider or pressed a rogue deployment size button. Their current settings and readouts are saved in the widget state as they explore. The lesson page carries the chart's caption and the seven-row rogue-size-against-P(detected) table at the default setting as the text fallback, so the widget opens straight on the sliders and chart with no title or lede."
+summary_for_tutor: "An interactive chart of the probability that a rogue internal deployment is caught by random recomputation of logged compute packets, plotted against the rogue deployment's size in H100e on a log x axis, with three curves for detection within 1 hour, 1 week and 1 month and a y axis running 0, 50%, 90%, 99%, 99.9%, 99.99%. Two sliders drive it: Year (2030, 2032, 2034, 2040) sets the verified compute pool shown above the chart and the packet size that year's logging implies, and Packet size (1, 10, 100, 1K, 10K H100e-hours) sets how much compute one auditable packet covers, so smaller packets mean more rogue packets to sample and steeper curves. The recomputation budget is fixed at 1% and P(detected) = 1 - exp(-0.01 * size * hours / packet). It opens at 2034, a ~33B H100e pool and packets of 100 H100e-hours, where a 1K H100e rogue deployment is near certain to be caught within a month and a 1 H100e one is not."
 height: auto
 tags: [wip]
 ---
@@ -12,19 +12,17 @@ tags: [wip]
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Catching a rogue internal deployment</title>
 <!-- Ported from AI 2040 (ai-2040.com/supplements/verification-plan), interactive chart "Catching a rogue internal deployment" (RogueDeployment component). -->
-<!-- Data: year options, pool sizes, default packet sizes, time windows and the axis mappings are copied from the page's chunk 6441 (the React component behind the sliders). Curves are recomputed from the appendix formula P(detected) = 1 - exp(-C * N_fake), C = 0.01, N_fake = size * hours / packet, exactly as the source computes them. Nothing is read by eye. -->
+<!-- Data: year options, pool sizes, default packet sizes, time windows and the axis mappings are copied from the page's chunk 6441 (the React component behind the sliders). Curves are recomputed from the appendix formula P(detected) = 1 - exp(-C * N_fake), C = 0.01, N_fake = size * hours / packet. Nothing is read by eye. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <style>
   :root {
     --bg: #ffffff; --text: #1a1a1a; --muted: #5a5a5a; --border: #e8e5df;
-    --surface: #faf8f3; --accent: #b87018; --accent-hover: #9a5c10;
-    --font-ui: "DM Sans", Arial, sans-serif; --font-heading: "Newsreader", Georgia, serif;
+    --accent: #b87018;
+    --font-ui: "DM Sans", Arial, sans-serif;
   }
   * { box-sizing: border-box; }
   body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
-  h2 { font-family: var(--font-heading); font-weight: 600; margin: 0; }
-  .lede { color: var(--muted); margin: 4px 0 12px; max-width: 46rem; }
   .card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: #fff; }
   .facts { display: flex; flex-wrap: wrap; gap: 6px 24px; margin: 0 0 12px; }
   .facts strong { font-weight: 600; }
@@ -36,33 +34,12 @@ tags: [wip]
   .ticks span:first-child { text-align: left; }
   .ticks span:last-child { text-align: right; }
   .chartbox { overflow-x: auto; margin-top: 8px; }
-  .chart { width: 100%; min-width: 720px; height: auto; display: block; touch-action: none; }
+  .chart { width: 100%; min-width: 720px; height: auto; display: block; }
   .chart text { font-family: var(--font-ui); }
-  .legend { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
-  button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 6px 10px; cursor: pointer; }
-  button:hover { background: var(--surface); }
-  button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-  button.is-active { border-color: var(--text); box-shadow: 0 0 0 1px var(--text); }
-  .legend button { display: inline-flex; align-items: center; gap: 8px; }
-  .legend button.is-off { color: var(--muted); text-decoration: line-through; }
-  .swatch { display: inline-block; width: 28px; height: 0; border-top: 3px solid var(--text); }
-  .swatch.dot { border-top-style: dotted; }
-  .swatch.dash { border-top-style: dashed; }
-  .probe { margin-top: 12px; }
-  .probe .row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
-  .probe .row span.lbl { font-size: 12px; color: var(--muted); margin-right: 4px; }
-  .readout { margin-top: 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); padding: 10px 12px; }
-  .readout table { border-collapse: collapse; width: 100%; }
-  .readout th, .readout td { text-align: left; padding: 3px 8px 3px 0; font-variant-numeric: tabular-nums; }
-  .readout th { font-weight: 600; }
-  .readout .n { text-align: right; }
-  .note { font-size: 12px; color: var(--muted); margin: 10px 0 0; }
   @media (max-width: 600px) { .controls { grid-template-columns: 1fr; } body { padding: 10px; } }
 </style>
 </head>
 <body>
-<p class="lede">Move the sliders, then hover the curves or press a size button to read exact values.</p>
-
 <div class="card">
   <div class="facts">
     <span><strong>Pool:</strong> <span id="pool"></span></span>
@@ -80,42 +57,32 @@ tags: [wip]
       <div class="ticks"><span>1</span><span>10</span><span>100</span><span>1K</span><span>10K</span></div>
     </div>
   </div>
-  <p class="note" id="gpu-note"></p>
 
   <div class="chartbox"><svg id="chart" class="chart" viewBox="0 0 1000 620" role="img" aria-label="P(detected) against rogue deployment size, three curves for 1 hour, 1 week and 1 month"></svg></div>
-
-  <div class="legend" id="legend" aria-label="Show or hide a time window"></div>
-
-  <div class="probe">
-    <div class="row" id="probe-row"><span class="lbl">Read values at a rogue deployment of</span></div>
-    <div class="readout" id="readout" aria-live="polite"></div>
-  </div>
 </div>
 
 <script>
 (function () {
   var YEARS = [
-    { year: 2030, totalCompute: "~400M H100e", gpuNote: "one packet per server rack per hour (~10K H100e per packet)", defaultPacket: 10000 },
-    { year: 2032, totalCompute: "~3B H100e", gpuNote: "one packet per shelf per hour (~1K H100e per packet)", defaultPacket: 1000 },
-    { year: 2034, totalCompute: "~33B H100e", gpuNote: "one packet per GPU per hour (~100 H100e per packet)", defaultPacket: 100 },
-    { year: 2040, totalCompute: "~1T H100e", gpuNote: "one packet per GPU every ~6 minutes (~10 H100e per packet)", defaultPacket: 10 }
+    { year: 2030, totalCompute: "~400M H100e", defaultPacket: 10000 },
+    { year: 2032, totalCompute: "~3B H100e", defaultPacket: 1000 },
+    { year: 2034, totalCompute: "~33B H100e", defaultPacket: 100 },
+    { year: 2040, totalCompute: "~1T H100e", defaultPacket: 10 }
   ];
   var WINDOWS = [
-    { label: "1 hour", hours: 1, dash: "2 4", cls: "dot" },
-    { label: "1 week", hours: 168, dash: "9 6", cls: "dash" },
-    { label: "1 month", hours: 720, dash: "", cls: "" }
+    { label: "1 hour", hours: 1, dash: "2 4" },
+    { label: "1 week", hours: 168, dash: "9 6" },
+    { label: "1 month", hours: 720, dash: "" }
   ];
   var BUDGET = 0.01;
   var SIZE_LABELS = ["1", "10", "100", "1K", "10K", "100K", "1M", "10M"];
   var Y_TICKS = [0, 0.5, 0.9, 0.99, 0.999, 0.9999];
   var NS = "http://www.w3.org/2000/svg";
 
-  var state = { year: 2, packetLog: 2, probeLog: 4, visible: [true, true, true], explored: false, sizesRead: [] };
+  var state = { year: 2, packetLog: 2 };
   var completed = false;
 
-  function isDone() { return state.explored || state.sizesRead.length >= 1; }
-
-  function xOf(logSize) { return 110 + (logSize - 0) / 7 * 830; }
+  function xOf(logSize) { return 110 + logSize / 7 * 830; }
   function yOf(p) {
     var t = Math.log10(Math.max(1e-12, 1 - p));
     if (t < -4) t = -4;
@@ -150,23 +117,11 @@ tags: [wip]
     if (m >= 10) return m.toFixed(1) + " H100e-hours";
     return m.toFixed(2) + " H100e-hours";
   }
-  function fmtSize(logSize) {
-    var v = Math.pow(10, logSize);
-    if (v >= 1e6) return (Math.round(v / 1e5) / 10) + "M";
-    if (v >= 1e3) return (Math.round(v / 100) / 10) + "K";
-    return String(Math.round(v * 10) / 10);
-  }
 
   var svg = document.getElementById("chart");
   function el(tag, attrs, text) {
     var n = document.createElementNS(NS, tag);
     for (var k in attrs) n.setAttribute(k, attrs[k]);
-    if (text !== undefined) n.textContent = text;
-    return n;
-  }
-  function h(tag, cls, text) {
-    var n = document.createElement(tag);
-    if (cls) n.className = cls;
     if (text !== undefined) n.textContent = text;
     return n;
   }
@@ -191,7 +146,7 @@ tags: [wip]
     return pts.join(" ");
   }
 
-  var curveEls = [], probeLine, probeDots = [];
+  var curveEls = [];
   function drawChart() {
     while (svg.firstChild) svg.removeChild(svg.firstChild);
     var i;
@@ -210,14 +165,6 @@ tags: [wip]
       svg.appendChild(p);
       curveEls.push(p);
     }
-    probeLine = el("line", { x1: 0, y1: 40, x2: 0, y2: 440, stroke: "#b87018", "stroke-width": 1.5, "stroke-dasharray": "4 3" });
-    svg.appendChild(probeLine);
-    probeDots = [];
-    for (i = 0; i < WINDOWS.length; i++) {
-      var d = el("circle", { cx: 0, cy: 0, r: 6, fill: "#b87018", stroke: "#ffffff", "stroke-width": 1.5 });
-      svg.appendChild(d);
-      probeDots.push(d);
-    }
     var legend = el("g", {});
     var widths = WINDOWS.map(function (w) { return 24 * ("within " + w.label).length * 0.55 + 36 + 12; });
     var total = widths.reduce(function (a, b) { return a + b; }, 0) + 36 * (WINDOWS.length - 1);
@@ -234,9 +181,6 @@ tags: [wip]
     svg.appendChild(legend);
   }
 
-  var readout = document.getElementById("readout");
-  var legendEl = document.getElementById("legend");
-  var probeRow = document.getElementById("probe-row");
   var yearIn = document.getElementById("year");
   var packetIn = document.getElementById("packet");
 
@@ -248,134 +192,51 @@ tags: [wip]
     document.getElementById("pool").textContent = y.totalCompute + " (" + y.year + " buildout)";
     document.getElementById("year-label").textContent = String(y.year);
     document.getElementById("packet-label").textContent = fmtPacket(m);
-    document.getElementById("gpu-note").textContent = "Packet collection in " + y.year + ": " + y.gpuNote + ".";
     if (String(yearIn.value) !== String(state.year)) yearIn.value = state.year;
     if (String(packetIn.value) !== String(state.packetLog)) packetIn.value = state.packetLog;
-    var i;
-    for (i = 0; i < WINDOWS.length; i++) {
-      curveEls[i].setAttribute("d", curvePath(WINDOWS[i].hours, m));
-      curveEls[i].setAttribute("visibility", state.visible[i] ? "visible" : "hidden");
-    }
-    var px = xOf(state.probeLog);
-    probeLine.setAttribute("x1", px); probeLine.setAttribute("x2", px);
-    var size = Math.pow(10, state.probeLog);
-    for (i = 0; i < WINDOWS.length; i++) {
-      var p = pDetected(size, WINDOWS[i].hours, m);
-      probeDots[i].setAttribute("cx", px);
-      probeDots[i].setAttribute("cy", yOf(p));
-      probeDots[i].setAttribute("visibility", state.visible[i] ? "visible" : "hidden");
-    }
-    // legend buttons
-    var lb = legendEl.querySelectorAll("button");
-    for (i = 0; i < lb.length; i++) {
-      lb[i].classList.toggle("is-off", !state.visible[i]);
-      lb[i].setAttribute("aria-pressed", state.visible[i] ? "true" : "false");
-      lb[i].querySelector(".state").textContent = state.visible[i] ? "shown" : "hidden";
-    }
-    var pb = probeRow.querySelectorAll("button");
-    for (i = 0; i < pb.length; i++) {
-      var on = Number(pb[i].dataset.log) === state.probeLog;
-      pb[i].classList.toggle("is-active", on);
-      pb[i].setAttribute("aria-pressed", on ? "true" : "false");
-    }
-    // readout table
-    readout.textContent = "";
-    var cap = h("div", null, "Rogue deployment of " + fmtSize(state.probeLog) + " H100e, packets of " + fmtPacket(m) + ", 1% budget:");
-    readout.appendChild(cap);
-    var table = h("table");
-    var thead = h("tr"); thead.appendChild(h("th", null, "Window")); thead.appendChild(h("th", "n", "Rogue packets N_fake")); thead.appendChild(h("th", "n", "P(detected)"));
-    table.appendChild(thead);
-    for (i = 0; i < WINDOWS.length; i++) {
-      var tr = h("tr");
-      var nf = size * WINDOWS[i].hours / m;
-      tr.appendChild(h("td", null, "within " + WINDOWS[i].label + (state.visible[i] ? "" : " (hidden)")));
-      tr.appendChild(h("td", "n", nf >= 100 ? Math.round(nf).toLocaleString("en-US") : (Math.round(nf * 100) / 100).toString()));
-      tr.appendChild(h("td", "n", fmtP(pDetected(size, WINDOWS[i].hours, m))));
-      table.appendChild(tr);
-    }
-    readout.appendChild(table);
+    for (var i = 0; i < WINDOWS.length; i++) curveEls[i].setAttribute("d", curvePath(WINDOWS[i].hours, m));
   }
 
   function summary() {
-    var y = YEARS[state.year], m = packet(), size = Math.pow(10, state.probeLog);
-    var parts = [];
-    for (var i = 0; i < WINDOWS.length; i++) parts.push("within " + WINDOWS[i].label + " " + fmtP(pDetected(size, WINDOWS[i].hours, m)));
-    return "Rogue deployment chart. Year " + y.year + " (pool " + y.totalCompute + ", " + y.gpuNote + "), packet size " + fmtPacket(m) + ", recomputation budget 1%. Reading at a rogue deployment of " + fmtSize(state.probeLog) + " H100e: " + parts.join(", ") + ". Hidden series: " + (WINDOWS.filter(function (w, i) { return !state.visible[i]; }).map(function (w) { return w.label; }).join(", ") || "none") + ". " + (state.explored ? "The learner has changed the sliders from the default." : "Sliders still at the default (2034, 100 H100e-hours).") + " Rogue sizes read from the size buttons: " + (state.sizesRead.length ? state.sizesRead.map(function (k) { return SIZE_LABELS[k] + " H100e"; }).join(", ") : "none") + ".";
+    var y = YEARS[state.year], m = packet();
+    var reads = [];
+    for (var i = 0; i < WINDOWS.length; i++) {
+      var parts = [];
+      for (var k = 0; k < 3; k++) {
+        var logSize = [0, 2, 4][k];
+        parts.push(SIZE_LABELS[logSize] + " H100e " + fmtP(pDetected(Math.pow(10, logSize), WINDOWS[i].hours, m)));
+      }
+      reads.push("within " + WINDOWS[i].label + ", " + parts.join(", "));
+    }
+    return "Rogue deployment detection chart set to year " + y.year + " (verified pool " + y.totalCompute + ") with packets of " + fmtPacket(m) + " and a 1% recomputation budget, so P(detected) rises with rogue deployment size along the log x axis: " + reads.join("; ") + ".";
   }
 
-  function persist() {
-    var json = { year: state.year, packetLog: state.packetLog, probeLog: state.probeLog, visible: state.visible.slice(), explored: state.explored, sizesRead: state.sizesRead.slice() };
+  function persist(changed) {
+    var json = { year: state.year, packetLog: state.packetLog };
     if (window.Lens) {
       Lens.saveState(json, summary());
-      if (isDone() && !completed) { completed = true; Lens.complete(); }
+      if (changed && !completed) { completed = true; Lens.complete(); }
     } else {
       try { localStorage.setItem("ai-2040-rogue-detection", JSON.stringify(json)); } catch (e) {}
     }
   }
 
-  // controls
   yearIn.addEventListener("input", function () {
     state.year = parseInt(yearIn.value, 10);
     state.packetLog = Math.log10(YEARS[state.year].defaultPacket);
-    state.explored = true;
-    render(); persist();
+    render(); persist(true);
   });
   packetIn.addEventListener("input", function () {
     state.packetLog = parseFloat(packetIn.value);
-    state.explored = true;
-    render(); persist();
-  });
-  WINDOWS.forEach(function (w, i) {
-    var b = h("button", null);
-    b.type = "button";
-    var sw = h("span", "swatch " + w.cls);
-    b.appendChild(sw);
-    b.appendChild(h("span", null, "within " + w.label));
-    b.appendChild(h("span", "state sr", ""));
-    b.querySelector(".state").style.fontSize = "11px";
-    b.querySelector(".state").style.color = "#5a5a5a";
-    b.addEventListener("click", function () { state.visible[i] = !state.visible[i]; render(); persist(); });
-    legendEl.appendChild(b);
-  });
-  for (var k = 0; k <= 7; k++) {
-    (function (k) {
-      var b = h("button", null, SIZE_LABELS[k] + " H100e");
-      b.type = "button";
-      b.dataset.log = String(k);
-      b.addEventListener("click", function () { state.probeLog = k; if (state.sizesRead.indexOf(k) === -1) state.sizesRead.push(k); render(); persist(); });
-      probeRow.appendChild(b);
-    })(k);
-  }
-  // hover / pointer on the chart moves the probe
-  function pointerLog(evt) {
-    var rect = svg.getBoundingClientRect();
-    if (!rect.width) return null;
-    var x = (evt.clientX - rect.left) / rect.width * 1000;
-    var lg = (x - 110) / 830 * 7;
-    if (lg < 0) lg = 0; if (lg > 7) lg = 7;
-    return Math.round(lg * 20) / 20;
-  }
-  var hoverTimer = null;
-  svg.addEventListener("pointermove", function (evt) {
-    var lg = pointerLog(evt);
-    if (lg === null || lg === state.probeLog) return;
-    state.probeLog = lg;
-    render();
-    clearTimeout(hoverTimer);
-    hoverTimer = setTimeout(persist, 400);
+    render(); persist(true);
   });
 
   function hydrate(saved, meta) {
     if (saved && typeof saved === "object") {
       if (typeof saved.year === "number" && saved.year >= 0 && saved.year < YEARS.length) state.year = saved.year;
       if (typeof saved.packetLog === "number" && saved.packetLog >= 0 && saved.packetLog <= 4) state.packetLog = Math.round(saved.packetLog);
-      if (typeof saved.probeLog === "number" && saved.probeLog >= 0 && saved.probeLog <= 7) state.probeLog = saved.probeLog;
-      if (Array.isArray(saved.visible) && saved.visible.length === 3) state.visible = saved.visible.map(function (v) { return !!v; });
-      if (saved.explored) state.explored = true;
-      if (Array.isArray(saved.sizesRead)) state.sizesRead = saved.sizesRead.filter(function (k) { return typeof k === "number" && k >= 0 && k <= 7; });
     }
     completed = !!(meta && meta.completed);
-    if (completed) state.explored = true;
     render();
   }
 
@@ -390,3 +251,4 @@ tags: [wip]
 </script>
 </body>
 </html>
+
