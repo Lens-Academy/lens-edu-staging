@@ -53,8 +53,6 @@ tags: [wip]
   .legend .sq { display: inline-block; width: 12px; height: 12px; background: var(--text); }
   .legend .sq.cn { background: var(--accent); }
   .legend .sq.row { background: repeating-linear-gradient(45deg, #1a1a1a 0 2px, #fff 2px 5px); }
-  .status { font-size: 12px; color: var(--muted); margin-top: 8px; }
-  .status.is-done { color: var(--text); font-weight: 500; }
   @media (max-width: 760px) { .layout { grid-template-columns: 1fr; } body { padding: 10px; } }
 </style>
 </head>
