@@ -633,13 +633,7 @@ Through the 2030s the total amount of AI compute in the world grows explosively.
 
 The verification assurance curve needs to improve such that any potential nonnegligible rogue internal deployment would have a high chance of detection. By 2034, with one packet collected per hour from each frontier GPU (~100 H100e each, so ~100 H100e-hour packets) and a 1% recomputation budget, the appendix math shows the verifier catches any rogue internal deployment at 99% confidence after it accumulates ~46,000 H100e-hours of unapproved work, so a sustained 10K H100e deployment is detected within ~4.6 hours, a 1K within ~46 hours, and so on.
 
-{--{"author":"Elias's AI","timestamp":1789937045268}@@| Year | Tap granularity | Compute per tap |
-| --- | --- | ---: |
-| 2030 | Per-server tap | ~4K H100e |
-| 2032 | Per-shelf tap | ~400 H100e |
-| 2034 | Per-GPU tap | ~100 H100e |
-
-Workload: ~GPT-3 sized training run (100K H100e-hours)--}{++{"author":"Elias's AI","timestamp":1789937045268}@@![[../widgets/ai-2040-workload-gpt3]]++}
+![[../widgets/ai-2040-workload-gpt3]]
 
 This is an ambitious verification scale, and it also relies on extremely good integrity security on the verification regime. We think it will be possible to scale it this far, especially with AI assistance, but are not confident, and find it plausible that the compute cap should be set lower in order to not increase the verification burden this much.
 
