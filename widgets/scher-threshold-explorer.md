@@ -396,15 +396,7 @@ tags: [wip]
 
   function renderStatus() {
     var done = state.movedThreshold && state.movedSize;
-    if (done) {
-      el.status.textContent = "Both a threshold and a cluster size have moved. Notice that the levers change with the cluster, not with the thresholds: where the line is set decides what is banned, the size of the cluster decides who can see it.";
-    } else if (state.movedThreshold) {
-      el.status.textContent = "Threshold moved. Now change the cluster size.";
-    } else if (state.movedSize) {
-      el.status.textContent = "Cluster size changed. Now move one of the thresholds.";
-    } else {
-      el.status.textContent = "Move a threshold and change the cluster size.";
-    }
+    el.status.textContent = done ? "Notice that the levers change with the cluster, not with the thresholds: where the line is set decides what is banned, the size of the cluster decides who can see it." : "";
     el.status.classList.toggle("is-done", done);
   }
 
@@ -442,7 +434,7 @@ tags: [wip]
     };
     if (window.Lens) {
       Lens.saveState(json, summary());
-      if (state.movedThreshold && state.movedSize && !completed) { completed = true; Lens.complete(); }
+      if ((state.movedThreshold || state.movedSize) && !completed) { completed = true; Lens.complete(); }
     } else {
       try { localStorage.setItem(KEY, JSON.stringify(json)); } catch (e) {}
     }

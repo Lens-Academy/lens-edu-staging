@@ -26,7 +26,6 @@ tags: [wip]
   h1 { font-size: 24px; line-height: 1.2; }
   .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0; }
   .top { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; margin-bottom: 14px; }
-  .progress { font-size: 12px; color: var(--muted); }
   .grid { display: grid; gap: 12px; list-style: none; margin: 0; padding: 0; }
   .grid > li { display: grid; min-width: 0; }
   @media (min-width: 640px) {
@@ -61,9 +60,6 @@ tags: [wip]
   .cta .open-label { display: none; }
   .card.is-open .cta .open-label { display: inline; }
   .card.is-open .cta .view-label { display: none; }
-  .read { display: none; color: var(--text); font-weight: 500; }
-  .card.is-read .read { display: inline; }
-  .card.is-open .read { display: none; }
   .profile { display: none; border-top: 1px solid var(--border); padding: 4px 16px 16px; }
   .card.is-open .profile { display: block; }
   .section { margin-top: 14px; }
@@ -83,8 +79,6 @@ tags: [wip]
   .close { font: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; color: var(--muted); padding: 6px 12px; cursor: pointer; }
   .close:hover { background: var(--surface); color: var(--text); }
   .close:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-  .done { margin-top: 12px; font-size: 12px; color: var(--muted); display: none; }
-  .done.is-visible { display: block; }
 </style>
 </head>
 <body>
@@ -93,11 +87,9 @@ tags: [wip]
     <p class="eyebrow">Six leaders, in their own words</p>
     <h1>Why Are We Concerned About Superintelligence?</h1>
   </div>
-  <span class="progress" id="progress"></span>
 </div>
 
 <ul class="grid" id="grid" role="list"></ul>
-<p class="done" id="done">All six profiles read.</p>
 
 <script>
   var VIEW_PROFILE = "View profile →";
@@ -235,8 +227,6 @@ tags: [wip]
   var state = { read: [], open: null };
   var completed = false;
   var grid = document.getElementById("grid");
-  var progress = document.getElementById("progress");
-  var doneEl = document.getElementById("done");
   var cards = {};
 
   function el(tag, className, text) {
@@ -336,7 +326,6 @@ tags: [wip]
     var cta = el("span", "cta");
     cta.appendChild(el("span", "view-label", VIEW_PROFILE));
     cta.appendChild(el("span", "open-label", CLOSE_PROFILE));
-    cta.appendChild(el("span", "read", "✓ Read"));
     b.appendChild(cta);
     b.addEventListener("click", function () { if (state.open === f.key) closeProfile(f.key, false); else openProfile(f.key); });
     card.appendChild(b);
@@ -359,7 +348,7 @@ tags: [wip]
   function persist() {
     if (window.Lens) {
       Lens.saveState({ read: state.read, open: state.open }, summary());
-      if (!completed && state.read.length === FIGURES.length) { completed = true; Lens.complete(); }
+      if (!completed && state.read.length >= 1) { completed = true; Lens.complete(); }
     } else {
       try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
     }
@@ -371,11 +360,8 @@ tags: [wip]
       var open = state.open === f.key;
       c.item.classList.toggle("is-open", open);
       c.card.classList.toggle("is-open", open);
-      c.card.classList.toggle("is-read", isRead(f.key));
       c.head.setAttribute("aria-expanded", open ? "true" : "false");
     });
-    progress.textContent = state.read.length + " of " + FIGURES.length + " profiles read";
-    doneEl.classList.toggle("is-visible", state.read.length === FIGURES.length);
   }
 
   function openProfile(key) {

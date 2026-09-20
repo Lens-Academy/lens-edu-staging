@@ -50,7 +50,6 @@ input[type=range] { width: 100%; accent-color: var(--accent); margin: 4px 0 0; }
 .foot { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 14px 0 0; flex-wrap: wrap; }
 button.act { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); padding: 6px 10px; cursor: pointer; font-size: 12px; }
 button.act:hover { background: var(--page); }
-.done { font-size: 12px; color: var(--accent); font-weight: 500; }
 @media (min-width: 560px) { .levers { grid-template-columns: 1fr 1fr; gap: 12px 20px; } }
 </style>
 </head>
@@ -81,7 +80,6 @@ button.act:hover { background: var(--page); }
     </div>
     <div class="foot">
       <button type="button" class="act" id="reset">Reset</button>
-      <span class="done" id="done" hidden>Both levers explored.</span>
     </div>
   </div>
 </div>
@@ -108,7 +106,6 @@ button.act:hover { background: var(--page); }
   var noi = document.getElementById("noi");
   var vcnt = document.getElementById("vcnt");
   var vnoi = document.getElementById("vnoi");
-  var doneEl = document.getElementById("done");
   var off = document.createElement("canvas");
   var offCtx = support ? off.getContext("2d") : null;
   var canDraw = !!(ctx && offCtx && offCtx.createImageData);
@@ -287,7 +284,6 @@ button.act:hover { background: var(--page); }
     stats(count, cw * ch, minx, maxx, miny, maxy, grid, gw, gh);
     detailLine(L);
 
-    doneEl.hidden = !(movedCount && movedNoise);
     if (save) scheduleSave(L);
   }
 
@@ -377,7 +373,7 @@ button.act:hover { background: var(--page); }
       + " schematic units. Landmark count changed: " + (movedCount ? "yes" : "no") + ". Noise changed: " + (movedNoise ? "yes" : "no") + ".";
     if (window.Lens && window.Lens.saveState) window.Lens.saveState(st, summary);
     else { try { window.localStorage.setItem("ogara-chip-locator", JSON.stringify(st)); } catch (e) { void e; } }
-    if (movedCount && movedNoise && !completed) {
+    if ((movedCount || movedNoise) && !completed) {
       completed = true;
       if (window.Lens && window.Lens.complete) window.Lens.complete();
     }

@@ -310,7 +310,7 @@ tags: [wip]
     var snapshot = { map: state.map, selected: state.selected, viewed: state.viewed.slice(), inspected: state.inspected.slice() };
     if (window.Lens) {
       Lens.saveState(snapshot, summary());
-      if (!completed && state.viewed.length === MAPS.length) { completed = true; Lens.complete(); }
+      if (!completed && state.viewed.length >= 1) { completed = true; Lens.complete(); }
     } else {
       try { localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot)); } catch (e) { /* storage unavailable */ }
       if (state.viewed.length === MAPS.length) completed = true;
@@ -396,7 +396,6 @@ tags: [wip]
       var active = key === state.map;
       tabs[i].classList.toggle("is-active", active);
       tabs[i].setAttribute("aria-selected", active ? "true" : "false");
-      tabs[i].querySelector(".mark").textContent = state.viewed.indexOf(key) !== -1 ? "✓" : "";
     }
     document.getElementById("map-question").textContent = map.question;
     document.getElementById("map-lineage").textContent = map.lineage;
