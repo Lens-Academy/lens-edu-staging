@@ -1,7 +1,7 @@
 ---
 id: '4ad43f6b-6fa8-430c-b8e4-a2d0ab0768bc'
 title: Chip flow restrictions, 2029 and 2032
-summary_for_tutor: "An interactive reproduction of the AI 2040 verification supplement's two 'Chip Flow Restrictions' scatter charts (2029 and 2032), placed in the reading just below the collapsed chip flow restrictions box whose tables it makes interactive. Devices from an iPhone 16 Pro Max to a GB200 NVL72 rack are plotted by cross-chip interconnect speed (GB/s, log scale) against compute per device (H100e, log scale); dot size encodes memory capacity and a filled accent dot means HBM-class memory bandwidth (at or above about 1.5 TB/s). The 2029 view draws the dashed Tier 0 (unrestricted consumer) versus Tier 1 (subject to the deal: inference-only or cold storage) boundary at about 50 GB/s interconnect and 0.4 H100e; the 2032 view instead draws the AI-relevant floor at 4,000 TPP (about 0.25 H100e) and names the 30M H100e unverified edge-compute cap (25M pre-deal plus 5M new credits; verified edge compute exempt). The learner switches between the two years and hovers or presses a device to read its exact numbers and its tier or floor status. Done means they have viewed both years and inspected at least three devices. The lesson page carries the two captions, the tier rule (Tier 1 begins above roughly 10 TB memory capacity or HBM-class bandwidth) and both device tables inside the collapsed source boxes, plus a one-line lead-in naming the chart, so the widget itself carries only the picture, the readouts and one instruction line."
+summary_for_tutor: "An interactive reproduction of the AI 2040 verification supplement's two 'Chip Flow Restrictions' scatter charts (2029 and 2032), placed in the reading just below the collapsed chip flow restrictions box whose tables it makes interactive. Devices from an iPhone 16 Pro Max to a GB200 NVL72 rack are plotted by cross-chip interconnect speed (GB/s, log scale) against compute per device (H100e, log scale); dot size encodes memory capacity and a filled accent dot means HBM-class memory bandwidth (at or above about 1.5 TB/s). The 2029 view draws the dashed Tier 0 (unrestricted consumer) versus Tier 1 (subject to the deal: inference-only or cold storage) boundary at about 50 GB/s interconnect and 0.4 H100e; the 2032 view instead draws the AI-relevant floor at 4,000 TPP (about 0.25 H100e) and names the 30M H100e unverified edge-compute cap (25M pre-deal plus 5M new credits; verified edge compute exempt). The learner switches between the two years and hovers or presses a device to read its exact numbers and its tier or floor status. Done means they have inspected a device or viewed both years. The lesson page carries the two captions, the tier rule (Tier 1 begins above roughly 10 TB memory capacity or HBM-class bandwidth) and both device tables inside the collapsed source boxes, plus a one-line lead-in naming the chart, so the widget itself carries only the picture, the readouts and one instruction line."
 height: auto
 tags: [wip]
 ---
@@ -32,7 +32,6 @@ tags: [wip]
   button:hover { background: var(--surface); }
   button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   button.is-active { border-color: var(--text); box-shadow: 0 0 0 1px var(--text); }
-  .years button.is-seen::after { content: " ✓"; color: var(--muted); }
   .layout { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 16px; align-items: start; }
   .layout > * { min-width: 0; }
   .chartbox { overflow-x: auto; }
@@ -41,7 +40,6 @@ tags: [wip]
   .chart .dev { cursor: pointer; }
   .chart .dev circle.ring { fill: none; stroke: var(--accent); stroke-width: 3; opacity: 0; }
   .chart .dev.is-active circle.ring { opacity: 1; }
-  .chart .dev.is-seen text { text-decoration: underline; text-decoration-color: #c9c4b8; }
   .side { display: flex; flex-direction: column; gap: 10px; }
   .detail { border: 1px solid var(--border); border-radius: 8px; background: var(--surface); padding: 10px 12px; }
   .detail h2 { margin-bottom: 4px; }
@@ -54,14 +52,11 @@ tags: [wip]
   .policy strong { color: var(--text); }
   .devlist { display: flex; flex-wrap: wrap; gap: 6px; }
   .devlist button { padding: 4px 8px; font-size: 12px; }
-  .devlist button.is-seen::after { content: " ✓"; color: var(--muted); }
   .legend { font-size: 12px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 16px; margin-top: 8px; }
   .legend .k { display: inline-flex; align-items: center; gap: 6px; }
   .legend .d { display: inline-block; width: 12px; height: 12px; border-radius: 50%; background: var(--text); }
   .legend .d.hbm { background: var(--accent); }
   .legend .d.ring { background: none; border: 1px dashed var(--text); }
-  .status { font-size: 12px; color: var(--muted); margin-top: 8px; }
-  .status.is-done { color: var(--text); font-weight: 500; }
   @media (max-width: 700px) { .layout { grid-template-columns: minmax(0, 1fr); } body { padding: 10px; } }
 </style>
 </head>
@@ -81,7 +76,6 @@ tags: [wip]
       <div class="devlist" id="devlist" aria-label="Devices"></div>
     </div>
   </div>
-  <p class="status" id="status"></p>
 </div>
 
 <script>
@@ -225,10 +219,9 @@ tags: [wip]
   var devlist = document.getElementById("devlist");
   var yearsEl = document.getElementById("years");
   var legendEl = document.getElementById("legend");
-  var statusEl = document.getElementById("status");
 
   function seenDeviceCount() { var n = 0; for (var k in state.seenDevices) if (state.seenDevices[k]) n++; return n; }
-  function isDone() { return state.seenYears["2029"] && state.seenYears["2032"] && seenDeviceCount() >= 3; }
+  function isDone() { return seenDeviceCount() >= 1 || !!(state.seenYears["2029"] && state.seenYears["2032"]); }
 
   function renderSide() {
     var view = VIEWS[state.year];
@@ -260,7 +253,6 @@ tags: [wip]
       var b = h("button", null, x.name);
       b.type = "button";
       b.classList.toggle("is-active", x.name === state.device);
-      b.classList.toggle("is-seen", !!state.seenDevices[x.name]);
       b.setAttribute("aria-pressed", x.name === state.device ? "true" : "false");
       b.addEventListener("click", function () { select(x.name, true); });
       devlist.appendChild(b);
@@ -268,22 +260,16 @@ tags: [wip]
     var yb = yearsEl.querySelectorAll("button");
     for (var i = 0; i < yb.length; i++) {
       yb[i].classList.toggle("is-active", yb[i].dataset.year === state.year);
-      yb[i].classList.toggle("is-seen", !!state.seenYears[yb[i].dataset.year]);
       yb[i].setAttribute("aria-pressed", yb[i].dataset.year === state.year ? "true" : "false");
     }
     for (var name in devGroups) {
       devGroups[name].classList.toggle("is-active", name === state.device);
-      devGroups[name].classList.toggle("is-seen", !!state.seenDevices[name]);
     }
     legendEl.textContent = "";
     function key(cls, text) { var k = h("span", "k"); k.appendChild(h("span", "d " + cls)); k.appendChild(h("span", null, text)); legendEl.appendChild(k); }
     key("hbm", "≥ ~1.5 TB/s memory bandwidth (HBM-class)");
     key("", "below ~1.5 TB/s");
     key("ring", "dot size: memory capacity (8 GB to 13 TB)");
-    var n = seenDeviceCount();
-    var yearsSeen = (state.seenYears["2029"] ? 1 : 0) + (state.seenYears["2032"] ? 1 : 0);
-    statusEl.textContent = isDone() ? "Done: both years viewed, " + n + " devices inspected." : "Viewed " + yearsSeen + " of the 2 years, inspected " + n + " of 3 devices.";
-    statusEl.classList.toggle("is-done", !!isDone());
   }
 
   function summary() {
