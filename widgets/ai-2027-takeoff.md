@@ -35,7 +35,6 @@ tags: [wip]
   button:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
   button:disabled { opacity: 0.5; cursor: default; }
   button[aria-checked="true"] { border-color: var(--text); box-shadow: 0 0 0 1px var(--text); font-weight: 600; }
-  button.is-seen::before { content: "\2713 "; color: var(--accent); }
   button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
   button.primary:hover { background: var(--accent-hover); }
   .chart-box { border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 8px; overflow-x: auto; }
@@ -60,8 +59,6 @@ tags: [wip]
   .foot { margin-top: 12px; font-size: 12px; color: var(--muted); }
   .foot p { margin: 0 0 6px; }
   a { color: var(--accent); }
-  .done { margin-top: 10px; font-size: 12px; color: var(--muted); }
-  .done.is-visible::before { content: "\2713 "; color: var(--accent); }
 </style>
 </head>
 <body>

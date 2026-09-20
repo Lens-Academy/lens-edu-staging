@@ -35,7 +35,6 @@ tags: [wip]
   button:hover { background: var(--surface); }
   button:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
   button[aria-checked="true"] { border-color: var(--text); box-shadow: 0 0 0 1px var(--text); font-weight: 600; }
-  button.is-seen::before { content: "\2713 "; color: var(--accent); }
   .chart-box { border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 8px; overflow-x: auto; }
   .chart-box svg { display: block; width: 100%; height: auto; min-width: 560px; font-family: var(--font-ui); }
   /* On a phone the chart keeps its authored size and scrolls inside its box, rather than shrinking its labels to about 7px. */
@@ -56,8 +55,6 @@ tags: [wip]
   .foot { margin-top: 12px; font-size: 12px; color: var(--muted); }
   .foot p { margin: 0 0 6px; }
   a { color: var(--accent); }
-  .done { margin-top: 10px; font-size: 12px; color: var(--muted); }
-  .done.is-visible::before { content: "\2713 "; color: var(--accent); }
 </style>
 </head>
 <body>
@@ -83,7 +80,6 @@ tags: [wip]
   <p class="eyebrow">Rows (arrow keys move between them)</p>
   <div class="list" id="list" role="list"></div>
 </div>
-<p class="done" id="done"></p>
 
 <div class="foot">
   <p>Data: AI Futures Project, <a href="https://ai-2027.com/research/timelines-forecast" target="_blank" rel="noopener">Timelines Forecast</a> (Eli Lifland, Nikola Jurkovic, FutureSearch, April 2025, with the 7 May 2025 update), summary tables and the percentiles printed in the "Superhuman Coder Arrival, Benchmarks and Gaps" figure; retrieved 8 Sep 2026. The forecasts assume "no large-scale catastrophes happen (e.g., a solar flare, a pandemic, nuclear war), no government or self-imposed slowdown, and no significant supply chain disruptions."</p>
@@ -150,7 +146,6 @@ function renderControls() {
   METHODS.concat([{ id: ALL_ID, label: "All forecasts" }]).forEach(function (m) {
     var b = el("button", "", m.label); b.type = "button"; b.setAttribute("role", "radio");
     b.setAttribute("aria-checked", state.method === m.id ? "true" : "false");
-    if (m.id !== ALL_ID && state.seen[m.id]) b.classList.add("is-seen");
     b.addEventListener("click", function () { state.method = m.id; state.current = null; resetDetail(); renderAll(); persist(); });
     wrap.appendChild(b);
   });
@@ -229,10 +224,7 @@ function summary() {
   return s;
 }
 function persist() {
-  var n = Object.keys(state.seen).length, finished = n >= METHODS.length;
-  var done = document.getElementById("done");
-  done.textContent = finished ? "You have opened all five forecasts." : "To finish: open all five forecasts (" + n + " of " + METHODS.length + " so far).";
-  done.classList.toggle("is-visible", finished);
+  var finished = Object.keys(state.seen).length >= 2 || !!state.current;
   if (window.Lens) {
     Lens.saveState({ method: state.method, seen: state.seen, current: state.current }, summary());
     if (finished && !completed) { completed = true; Lens.complete(); }
