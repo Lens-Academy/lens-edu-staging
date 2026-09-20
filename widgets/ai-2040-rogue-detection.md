@@ -1,7 +1,7 @@
 ---
 id: 'acd00bf6-a7c2-4541-8202-25e8c29aecb6'
 title: Catching a rogue internal deployment
-summary_for_tutor: "An interactive reproduction of the AI 2040 verification supplement's 'Catching a rogue internal deployment' chart. The learner picks a year (2030, 2032, 2034 or 2040, which sets the verified pool size and the default packet size) and a packet size (1 to 10K H100e-hours), then reads P(detected) for a rogue deployment of a given size (1 to 10M H100e) within 1 hour, 1 week or 1 month, using the appendix formula P(detected) = 1 - exp(-C * N_fake) with a 1% recomputation budget, where N_fake = size * hours / packet size. They can hover the chart or press a size button to read exact values, and hide or show each time window. Done means they have moved at least one slider away from the default and read at least three different rogue deployment sizes from the size buttons. Their current settings and readouts are saved in the widget state as they explore. The lesson page carries the chart's caption and the seven-row rogue-size-against-P(detected) table at the default setting as the text fallback, so the widget opens straight on the sliders and chart with no title or lede."
+summary_for_tutor: "An interactive reproduction of the AI 2040 verification supplement's 'Catching a rogue internal deployment' chart. The learner picks a year (2030, 2032, 2034 or 2040, which sets the verified pool size and the default packet size) and a packet size (1 to 10K H100e-hours), then reads P(detected) for a rogue deployment of a given size (1 to 10M H100e) within 1 hour, 1 week or 1 month, using the appendix formula P(detected) = 1 - exp(-C * N_fake) with a 1% recomputation budget, where N_fake = size * hours / packet size. They can hover the chart or press a size button to read exact values, and hide or show each time window. Done means they have moved a slider or pressed a rogue deployment size button. Their current settings and readouts are saved in the widget state as they explore. The lesson page carries the chart's caption and the seven-row rogue-size-against-P(detected) table at the default setting as the text fallback, so the widget opens straight on the sliders and chart with no title or lede."
 height: auto
 tags: [wip]
 ---
@@ -294,15 +294,6 @@ tags: [wip]
       table.appendChild(tr);
     }
     readout.appendChild(table);
-    var doneNow = isDone();
-    if (doneNow) {
-      statusEl.textContent = "Done: you have changed the settings and read " + state.sizesRead.length + " rogue deployment sizes.";
-    } else if (state.explored) {
-      statusEl.textContent = "Settings changed. Now press at least three rogue deployment sizes (" + state.sizesRead.length + " of 3 read).";
-    } else {
-      statusEl.textContent = "Move a slider to change the pool year or packet size, then press at least three rogue deployment sizes (" + state.sizesRead.length + " of 3 read).";
-    }
-    statusEl.classList.toggle("is-done", doneNow);
   }
 
   function summary() {
@@ -384,7 +375,7 @@ tags: [wip]
       if (Array.isArray(saved.sizesRead)) state.sizesRead = saved.sizesRead.filter(function (k) { return typeof k === "number" && k >= 0 && k <= 7; });
     }
     completed = !!(meta && meta.completed);
-    if (completed) { state.explored = true; if (state.sizesRead.length < 3) state.sizesRead = [0, 1, 2]; }
+    if (completed) state.explored = true;
     render();
   }
 
