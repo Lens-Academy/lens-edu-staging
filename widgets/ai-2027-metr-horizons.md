@@ -56,15 +56,12 @@ tags: [wip]
   .list-wrap { margin-top: 12px; }
   .list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
   .list button { font-size: 12px; padding: 4px 8px; }
-  .list button.is-seen::before { content: "\2713 "; color: var(--accent); }
   .list button.is-current { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
   .legend { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 8px; font-size: 12px; color: var(--muted); align-items: center; }
   .legend span { display: inline-flex; align-items: center; gap: 6px; }
   .foot { margin-top: 12px; font-size: 12px; color: var(--muted); }
   .foot p { margin: 0 0 6px; }
   a { color: var(--accent); }
-  .done { margin-top: 10px; font-size: 12px; color: var(--muted); }
-  .done.is-visible::before { content: "\2713 "; color: var(--accent); }
 </style>
 </head>
 <body>
@@ -102,7 +99,6 @@ tags: [wip]
   <p class="eyebrow">Points (arrow keys move between them)</p>
   <div class="list" id="list" role="list"></div>
 </div>
-<p class="done" id="done"></p>
 
 <div class="foot">
   <p>Data: METR, Time Horizon 1.1 (<a href="https://metr.org/time-horizons/" target="_blank" rel="noopener">metr.org/time-horizons</a>, results file retrieved 8 Sep 2026), human minutes with 95% confidence intervals. METR's note of 8 May 2026: "Measurements above 16 hrs are unreliable with our current task suite." Scenario markers: the chart component on <a href="https://ai-2027.com/" target="_blank" rel="noopener">ai-2027.com</a> (80% variant, retrieved 8 Sep 2026); they are the authors' placements for fictional systems, not measurements.</p>
@@ -366,7 +362,6 @@ function renderList() {
   if (state.agents && state.view === "p80") AGENTS.forEach(function (a) { items.push({ key: a.key, label: a.name + " (scenario)" }); });
   items.forEach(function (it, i) {
     var b = el("button", "", it.label); b.type = "button"; b.setAttribute("role", "listitem"); b.dataset.key = it.key;
-    if (state.seen[it.key]) b.classList.add("is-seen");
     if (state.current === it.key) b.classList.add("is-current");
     b.addEventListener("click", function () { showItem(it.key, true); });
     b.addEventListener("focus", function () { showItem(it.key, false); });
@@ -385,11 +380,7 @@ function summary() {
   return "METR time-horizon chart. View: " + (state.view === "p50" ? "50%" : "80%") + " horizon; confidence intervals " + (state.ci ? "on" : "off") + "; AI 2027 scenario agents " + (state.agents ? "shown" : "hidden") + ". Trend fit: " + (fit ? (state.trend === "2023" ? "points from 2023 on" : "all points") + ", doubling time " + Math.round(fit.doublingDays) + " days" : "off") + " (METR publishes 188 days all-time and 129 days from 2023 on). Points the learner inspected: " + (seenNames.length ? seenNames.join(", ") : "none yet") + ". Views visited: " + Object.keys(state.views).join(", ") + ".";
 }
 function persist() {
-  var seenCount = Object.keys(state.seen).length;
-  var finished = seenCount >= 3 && state.views.p50 && state.views.p80;
-  var done = document.getElementById("done");
-  done.textContent = finished ? "You have compared both views and inspected " + seenCount + " points." : "To finish: look at both the 50% and 80% views and inspect at least three points (" + seenCount + " so far).";
-  done.classList.toggle("is-visible", !!finished);
+  var finished = Object.keys(state.seen).length >= 1 || (state.views.p50 && state.views.p80);
   if (window.Lens) {
     Lens.saveState({ view: state.view, trend: state.trend, ci: state.ci, agents: state.agents, seen: state.seen, views: state.views, current: state.current }, summary());
     if (finished && !completed) { completed = true; Lens.complete(); }

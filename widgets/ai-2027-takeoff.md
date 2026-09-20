@@ -84,7 +84,6 @@ tags: [wip]
     <button type="button" id="next" class="primary">Next milestone</button>
   </div>
 </div>
-<p class="done" id="done"></p>
 
 <div class="foot">
   <p>Data: the AI 2027 article's milestone table and the AI Futures Project <a href="https://ai-2027.com/research/takeoff-forecast" target="_blank" rel="noopener">Takeoff Forecast</a> (Daniel Kokotajlo, Eli Lifland, April 2025), summary table and the percentiles printed in its figure; retrieved 8 Sep 2026. The authors: "Our median forecast for the time from the superhuman coder milestone (achieved in Mar 2027) to artificial superintelligence is ~1 year, with wide error margins."</p>
@@ -137,7 +136,6 @@ function renderControls() {
   MILESTONES.forEach(function (m, i) {
     var b = el("button", "", m.name); b.type = "button"; b.setAttribute("role", "radio");
     b.setAttribute("aria-checked", state.step === i ? "true" : "false");
-    if (state.seen[m.id]) b.classList.add("is-seen");
     b.addEventListener("click", function () { go(i); });
     wrap.appendChild(b);
   });
@@ -205,10 +203,7 @@ function summary() {
   return "AI 2027 takeoff forecast stepper. Current milestone: " + m.name + " (scenario date " + fmt(m.scenario) + "; forecast " + m.forecastText + "; human-only time to next milestone " + m.humanOnlyShort + "; AI R&D progress multiplier " + m.multiplier + "x). Milestones viewed: " + MILESTONES.filter(function (q) { return state.seen[q.id]; }).map(function (q) { return q.short; }).join(", ") + " of SC, SAR, SIAR, ASI.";
 }
 function persist() {
-  var n = Object.keys(state.seen).length, finished = n >= MILESTONES.length;
-  var done = document.getElementById("done");
-  done.textContent = finished ? "You have stepped through all four milestones." : "To finish: view all four milestones (" + n + " so far).";
-  done.classList.toggle("is-visible", finished);
+  var finished = Object.keys(state.seen).length >= 2;
   if (window.Lens) {
     Lens.saveState({ step: state.step, seen: state.seen }, summary());
     if (finished && !completed) { completed = true; Lens.complete(); }
