@@ -233,7 +233,7 @@ tags: [wip]
       }
       detail.appendChild(t2);
     } else {
-      detail.appendChild(h("p", null, "The source draws this band as one block per region rather than one rectangle per datacenter, so it carries no per-region count."));
+      detail.appendChild(h("p", null, "This band is drawn as one block per region rather than one rectangle per datacenter, so it has no per-region count."));
     }
   }
 
