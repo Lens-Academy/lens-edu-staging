@@ -34,13 +34,6 @@ to:: 1.  Removing major scale out interconnect and e.g., installing some simple 
 
 #### Article
 from:: ## 2029-2030: Deal Implementation
-to:: - **Jan 2031:** mature safety-case-based R&D rules in place
-
-#### Widget
-source:: [[../widgets/ai-2040-deal-timeline]]
-
-#### Article
-from:: ### Jan 2029: Mutual Chip Declaration and Inspection
 to:: | China | 26M H100e | ~1.5M H100e |
 
 *Compute in this table is counted in blocks of 250K H100e, so the undeclared figures are rounded to that block size.*
