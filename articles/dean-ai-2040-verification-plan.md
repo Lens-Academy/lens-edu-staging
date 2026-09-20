@@ -35,11 +35,11 @@ We can break up the verification problem into two key components:
 
 1.  **Problem 1. Verifying that known compute is compliant.**
     
-    {--{"author":"Elias's AI","timestamp":1789935103501}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935103501}@@-   ++}We are confident that it is possible to have verification measures that enable a trustless deal. That being said, if a deal needed to happen tomorrow, we would not be ready to enforce it trustlessly in a low-cost way.[^note-verification-plan-6] Given the increasingly large economic incentive to keep AI services online, a ready-to-go verification solution (that doesn’t require much time to activate) may be incredibly important for making a deal happen.
+    -   We are confident that it is possible to have verification measures that enable a trustless deal. That being said, if a deal needed to happen tomorrow, we would not be ready to enforce it trustlessly in a low-cost way.[^note-verification-plan-6] Given the increasingly large economic incentive to keep AI services online, a ready-to-go verification solution (that doesn’t require much time to activate) may be incredibly important for making a deal happen.
         
 2.  **Problem 2. Verifying that unknown compute is inconsequential.**
     
-    {--{"author":"Elias's AI","timestamp":1789935104044}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935104044}@@-   ++}Our [covert project supplement](https://ai-2040.com/supplements/covert-ai-projects) estimates that even a competently-executed covert diversion effort would net a median of about 0.5% of the world’s AI-relevant compute (80% CI: 0.1% to 1.4%) as ‘dark compute’ at the start of the deal,[^note-verification-plan-7] which given the likelihood of compute-dependence of frontier progress, should buy the deal a lot of time and stability.[^note-verification-plan-8] This bound should also tighten as the deal goes on, as detection efforts accumulate and more compute is brought under verification.
+    -   Our [covert project supplement](https://ai-2040.com/supplements/covert-ai-projects) estimates that even a competently-executed covert diversion effort would net a median of about 0.5% of the world’s AI-relevant compute (80% CI: 0.1% to 1.4%) as ‘dark compute’ at the start of the deal,[^note-verification-plan-7] which given the likelihood of compute-dependence of frontier progress, should buy the deal a lot of time and stability.[^note-verification-plan-8] This bound should also tighten as the deal goes on, as detection efforts accumulate and more compute is brought under verification.
         
 
 Our recommended solutions come in three phases.
@@ -48,30 +48,7 @@ Our recommended solutions come in three phases.
 
 **Phase 2. Implement a Deal.** The US and China perform a mutual compute declaration (spreading to third countries and ideally reaching >99% of world compute); inference-only verification retrofit to ~99% of world AI datacenter compute, and then sprint towards setting up secure R&D verification that will use new post-deal compute production.
 
-{--{"author":"Elias's AI","timestamp":1789936369103}@@**Compute locations by datacenter size, January 1, 2029 (scenario projection)**
-
-*Table adaptation of the source figure. Compute quantities use H100-equivalent units (H100e); K = thousand and M = million. Percentages and rounded values follow the source.*
-
-| Datacenter size (H100e) | Number of datacenters | Total compute (H100e) | Share of total | Verification measure |
-| --- | ---: | ---: | ---: | --- |
-| 10M+ | 1 | 10M | 3.5% | Inference-only |
-| 1M–10M | 74 | 149M | 51.4% | Inference-only |
-| 100K–1M | 257 | 76M | 26.4% | Inference-only |
-| 10K–100K | 497 | 15M | 5.3% | Inference-only |
-| 1K–10K | 823 | 2.6M | 0.9% | Reporting requirements |
-| <1K | 1.2K | 397K | 0.1% | Reporting requirements |
-
-| Other compute locations | Units, where shown | Total compute (H100e) | Share of total | Verification measure shown in figure |
-| --- | ---: | ---: | ---: | --- |
-| In transit | | 35M | 12.0% | Inference-only |
-| AI consumer | 255K | 938K | 0.32% | Cap and trade if unverified |
-| Non-AI consumer | | 7.7M effective | 2.7% | Cap and trade if unverified |
-
-| Region | Total compute (H100e) | Share of total |
-| --- | ---: | ---: |
-| US | 224M | 77% |
-| China | 26M | 9% |
-| Rest of world | 39M | 14% |--}{++{"author":"Elias's AI","timestamp":1789936369103}@@![[../widgets/ai-2040-compute-locations]]++}
+![[../widgets/ai-2040-compute-locations]]
 
 This is what we think implementing the deal would look like in 2029 in our scenario, with an inference-only retrofit of all the medium and large AI datacenters (>10K H100e, or approx. >$100M), and this being enough to cover ~99% of world AI-relevant compute. Then keeping tabs on the rest of the smaller clusters and taking measures to avoid them being possibly used in a covert project. We are not confident in the modelling of this [concentration in datacenter sizes](https://ai-2040.com/supplements/compute-supplement#14-datacenter-sizes), so the exact cutoffs and interventions may need to be different.
 
@@ -92,11 +69,11 @@ Even with such a verification solution ready, the maximum verification coverage 
 
 1.  **Invest in verification R&D with a specific focus on developing a secure inference-only retrofitting plan with around 80% of total verification R&D effort.**
     
-    {--{"author":"Elias's AI","timestamp":1789935104540}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935104540}@@-   ++}Also, support supplementary R&D efforts with around 20% of verification R&D effort pursuing promising additional measures, such as software-only solutions, privacy-preserving verification measures, and more general verification solutions (e.g., that verify the compliance of training and experiments as well).
+    -   Also, support supplementary R&D efforts with around 20% of verification R&D effort pursuing promising additional measures, such as software-only solutions, privacy-preserving verification measures, and more general verification solutions (e.g., that verify the compliance of training and experiments as well).
         
 2.  **Invest in compute accounting and tracking (e.g., carried out by intelligence agencies) to know how much AI relevant compute exists in the world, and which entities are in possession of it.**
     
-    {--{"author":"Elias's AI","timestamp":1789935105022}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935105022}@@-   ++}Notably, our recommendation for this early chip tracking doesn’t prioritize knowing where this compute is, or what it is being used for. We believe that the majority of the upside in terms of making a deal viable is simply in knowing how much exists and keeping track of which actors own it at any given time, because the lack of plausible deniability should be sufficient to force this compute to be declared at the time of deal negotiation (given that there will be large incentives in favour of joining a deal). That being said, also knowing its location is helpful in avoiding cases of plausible deniability (e.g., faked records of on-selling or chip deaths) and cases where (for some reason) the US and Chinese governments have little leverage over the owning entity (and therefore can’t pressure them to declare the location of the compute they are known to have, e.g., Russian compute).
+    -   Notably, our recommendation for this early chip tracking doesn’t prioritize knowing where this compute is, or what it is being used for. We believe that the majority of the upside in terms of making a deal viable is simply in knowing how much exists and keeping track of which actors own it at any given time, because the lack of plausible deniability should be sufficient to force this compute to be declared at the time of deal negotiation (given that there will be large incentives in favour of joining a deal). That being said, also knowing its location is helpful in avoiding cases of plausible deniability (e.g., faked records of on-selling or chip deaths) and cases where (for some reason) the US and Chinese governments have little leverage over the owning entity (and therefore can’t pressure them to declare the location of the compute they are known to have, e.g., Russian compute).
         
 
 ## Phase 2. Implement the deal
@@ -118,15 +95,15 @@ Finally, we recommend setting up the verification regime for resuming training a
 
 1.  **Carry out a bilateral compute declaration and supply chain audit, for both existing compute and new compute production, and extend to third nations with significant compute ownership or production.**
     
-    {--{"author":"Elias's AI","timestamp":1789935105495}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935105495}@@-   ++}Every major datacenter owner and companies with a major role in the supply chain publicly declare their records about purchases and sales, and allow auditors and inspectors into each other’s countries and companies to verify the records and count of final chips. This needs to also including compute in transit and active compute production. From this point forward, existing compute and new compute production is closely tracked and guarded so that it can’t be redirected to a covert project without detection. Extend this declaration to other countries with significant compute ownership or production capacity. Do so urgently unless there is confident intelligence in place that would detect this compute being moved.
+    -   Every major datacenter owner and companies with a major role in the supply chain publicly declare their records about purchases and sales, and allow auditors and inspectors into each other’s countries and companies to verify the records and count of final chips. This needs to also including compute in transit and active compute production. From this point forward, existing compute and new compute production is closely tracked and guarded so that it can’t be redirected to a covert project without detection. Extend this declaration to other countries with significant compute ownership or production capacity. Do so urgently unless there is confident intelligence in place that would detect this compute being moved.
         
 2.  **Implement inference-only verification on existing compute and any new compute coming online.**
     
-    {--{"author":"Elias's AI","timestamp":1789935105934}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935105934}@@-   ++}Roll out inference-only verification to existing compute to enforce the brief AI R&D pause while allowing AI services to remain online. Ideally there would be a highly secure solution ready to go. If not, implement the best solution available. If there is no solution at all ready then either shut down the compute, or rely only on non-technical measures (e.g., embedded auditors in each other’s companies checking that no one is implementing experiments or training runs) in the meantime while sprinting to transition to a better solution.
+    -   Roll out inference-only verification to existing compute to enforce the brief AI R&D pause while allowing AI services to remain online. Ideally there would be a highly secure solution ready to go. If not, implement the best solution available. If there is no solution at all ready then either shut down the compute, or rely only on non-technical measures (e.g., embedded auditors in each other’s companies checking that no one is implementing experiments or training runs) in the meantime while sprinting to transition to a better solution.
         
 3.  **Sprint to set up R&D verification in accordance with the chosen transparency regime.**
     
-    {--{"author":"Elias's AI","timestamp":1789935106611}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935106611}@@-   ++}We recommend a specific regime we call Total Research Transparency in the Plan A scenario, but as explained in our [transparency supplement](https://ai-2040.com/supplements/transparency-plan), there are conditions under which a different approach may be better. Regardless of the regime, there should be some combination of highly secure R&D clusters and highly secure post-deal inference clusters built, because across most transparency regimes we imagine at least AI model weights and verification correctness requiring [SL5](https://www.rand.org/pubs/research_reports/RRA2849-1.html) (robust to nation state actors) level security. Because of this we think these clusters should be built from scratch.
+    -   We recommend a specific regime we call Total Research Transparency in the Plan A scenario, but as explained in our [transparency supplement](https://ai-2040.com/supplements/transparency-plan), there are conditions under which a different approach may be better. Regardless of the regime, there should be some combination of highly secure R&D clusters and highly secure post-deal inference clusters built, because across most transparency regimes we imagine at least AI model weights and verification correctness requiring [SL5](https://www.rand.org/pubs/research_reports/RRA2849-1.html) (robust to nation state actors) level security. Because of this we think these clusters should be built from scratch.
         
 
 :::callout {title="What AI R&D agreements should actually be verified?" tone="neutral" collapse="closed"}
@@ -226,27 +203,27 @@ Summary of the proposal:
 
 1.  **Convert datacenters into groups of isolated inference-units by removing (a significant amount of) backend networking (also known as east-west networking).**
     
-    {--{"author":"Elias's AI","timestamp":1789935107014}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935107014}@@-   ++}Currently AI servers in a datacenter have a lot of high bandwidth communication between them, but this is (mostly) only necessary for training, and with some relatively small overhead (e.g., reorganizing user memory storage), large scale inference should be able to use drastically less scale-out interconnect. Removing it is a significant defense in depth measure for making it harder to use the cluster for large training runs.
+    -   Currently AI servers in a datacenter have a lot of high bandwidth communication between them, but this is (mostly) only necessary for training, and with some relatively small overhead (e.g., reorganizing user memory storage), large scale inference should be able to use drastically less scale-out interconnect. Removing it is a significant defense in depth measure for making it harder to use the cluster for large training runs.
         
 2.  **Add in simple, [passive network taps](https://amodo.substack.com/p/tech-note-network-taps-for-ai-verification?triedRedirect=true) on the frontend network (also known as north-south networking) that redirect copies of all input/output traffic to a recomputation server.**
     
-    {--{"author":"Elias's AI","timestamp":1789935107559}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935107559}@@-   ++}These network taps on frontend networks have multiple possible implementations. We currently think they should probably be completely passive and split optical signals into two because this is probably easiest to trust. Separately there should be a path from the storage bank back to the inference units.
+    -   These network taps on frontend networks have multiple possible implementations. We currently think they should probably be completely passive and split optical signals into two because this is probably easiest to trust. Separately there should be a path from the storage bank back to the inference units.
         
 3.  **Force all AI workloads (inference, agentic tool use, etc.) to be organized in discrete and reproducible packets, which are transparent to the recomputation server (because they pass through the network taps).**
     
-    {--{"author":"Elias's AI","timestamp":1789935108117}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935108117}@@-   ++}Reproducibility is required to enable correctness proofs on the packets. By default, inference workloads are not necessarily [reproducible](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/). Achieving reproducibility may involve some cost overhead in order to maintain reproducibility but we think it is a solvable problem (see [here](https://arxiv.org/pdf/2511.20621) for example of work in this direction).
+    -   Reproducibility is required to enable correctness proofs on the packets. By default, inference workloads are not necessarily [reproducible](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/). Achieving reproducibility may involve some cost overhead in order to maintain reproducibility but we think it is a solvable problem (see [here](https://arxiv.org/pdf/2511.20621) for example of work in this direction).
         
 4.  **Perform partial recomputation (random samples of the packets) on the recomputation server to check the correctness of the packets.**
     
-    {--{"author":"Elias's AI","timestamp":1789935108628}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935108628}@@-   ++}The integrity of the recomputation server is an extremely important aspect of this step, but assuming its computations and outputs can be trusted, then partial recomputation through random sampling should scale extremely favourably to verify the correctness of all the outputs with extremely high probability while only using a small fraction of the original compute. See calculations in the [appendix](https://ai-2040.com/supplements/verification-plan#appendix-packet-based-verification).
+    -   The integrity of the recomputation server is an extremely important aspect of this step, but assuming its computations and outputs can be trusted, then partial recomputation through random sampling should scale extremely favourably to verify the correctness of all the outputs with extremely high probability while only using a small fraction of the original compute. See calculations in the [appendix](https://ai-2040.com/supplements/verification-plan#appendix-packet-based-verification).
         
 5.  **Have strong physical security properties to help ensure integrity of the verification measures from e.g., tampering attacks**
     
-    {--{"author":"Elias's AI","timestamp":1789935109082}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935109082}@@-   ++}The integrity of the verification process requires there to be sufficient physical security measures to avoid tampering, and other attacks that could subvert the verification process.
+    -   The integrity of the verification process requires there to be sufficient physical security measures to avoid tampering, and other attacks that could subvert the verification process.
         
 6.  **Verify completeness by [bounding the maximum side channel communication](https://techgov.intelligence.org/blog/suppressing-side-channels-in-an-untrusted-data-center-via-retrofitted-defenses), and using periodic memory wipes (probably through forced memorization).**
     
-    {--{"author":"Elias's AI","timestamp":1789935109444}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935109444}@@-   ++}The completeness of this verification proposal, i.e., that the only outputs from the cluster are verified inference tokens, requires side channel mitigations and memory wiping as described. We do not verify that spare compute isn’t used for unapproved workloads (because this seems very challenging) but try to ensure that the only persisting results in the form of outputs are verified inference outputs. This requires strong side channel mitigations and periodic memory wiping on the inference units (which we think can be done through forced memorization).
+    -   The completeness of this verification proposal, i.e., that the only outputs from the cluster are verified inference tokens, requires side channel mitigations and memory wiping as described. We do not verify that spare compute isn’t used for unapproved workloads (because this seems very challenging) but try to ensure that the only persisting results in the form of outputs are verified inference outputs. This requires strong side channel mitigations and periodic memory wiping on the inference units (which we think can be done through forced memorization).
         
 
 One potential upgrade to this proposal would be to build more complex ‘secure network gateways’ that have more functionality than the network taps, and do random sampling and organize and randomly sample the logs of reproduction packets to send to the recomputation server in a robust way.
@@ -268,15 +245,15 @@ Instead of the partial recomputation approach we sketched out, it might be possi
 
 1.  Purely cryptographic protocols, e.g., Zero Knowledge Proofs (ZKPs) for AI workloads
     
-    {--{"author":"Elias's AI","timestamp":1789935109872}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935109872}@@-   ++}This has the promise of being privacy-preserving and potentially requiring less of a hardware retrofit, but is currently somewhat speculative due to the lack of computationally efficient enough algorithms for doing so being discoverable.
+    -   This has the promise of being privacy-preserving and potentially requiring less of a hardware retrofit, but is currently somewhat speculative due to the lack of computationally efficient enough algorithms for doing so being discoverable.
         
 2.  Memory-challenge based verification
     
-    {--{"author":"Elias's AI","timestamp":1789935110589}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935110589}@@-   ++}This has the promise of potentially also not requiring a hardware retrofit, but seems likely to face some difficulties with verifying completeness. Nonetheless it might be viable for an initial deal implementation.
+    -   This has the promise of potentially also not requiring a hardware retrofit, but seems likely to face some difficulties with verifying completeness. Nonetheless it might be viable for an initial deal implementation.
         
 3.  Crude hardware modifications.
     
-    {--{"author":"Elias's AI","timestamp":1789935111023}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935111023}@@-   ++}Removing major scale out interconnect and e.g., installing some simple sensors and other physical security mechanisms might also suffice for verifying inference-only for an initial phase of a deal (e.g., 1 year) until higher assurance measures are ready for larger amounts of compute and higher stakes workloads.
+    -   Removing major scale out interconnect and e.g., installing some simple sensors and other physical security mechanisms might also suffice for verifying inference-only for an initial phase of a deal (e.g., 1 year) until higher assurance measures are ready for larger amounts of compute and higher stakes workloads.
 :::
         
 
@@ -286,18 +263,13 @@ The intelligence agencies have been keeping close track of new compute productio
 
 ## 2029-2030: Deal Implementation
 
-{++{"author":"Elias's AI","timestamp":1789935710809}@@![[../widgets/ai-2040-deal-timeline]]
+![[../widgets/ai-2040-deal-timeline]]
 
-++}### Jan 2029: Mutual Chip Declaration and Inspection
+### Jan 2029: Mutual Chip Declaration and Inspection
 
 Within a week of starting Plan A negotiations, the US and China have carried out a compute declaration and supply chain record audit, allowing each other to send a few hundred people into each other’s countries to inspect and audit records. This lets them reduce their already relatively small uncertainties over each other’s compute. Each side’s best guess is now that the other could have hidden at most around 1.5M H100e from the declaration (with the 80% CI reaching about 4M), which is about 4% of the leading AI company’s R&D compute and about 0.5% of total world compute. For our estimates and reasoning on how much compute a covert project could probably hide see the [covert projects supplement](https://ai-2040.com/supplements/covert-ai-projects#section-2-preventing-covert-compute-procurement).
 
-{--{"author":"Elias's AI","timestamp":1789936368579}@@| Party | Declared compute (Jan 2029) | Plausibly undeclared |
-| --- | ---: | ---: |
-| US | 224M H100e | ~1.5M H100e |
-| China | 26M H100e | ~1.5M H100e |
-
-*Table adaptation of the source chart, which draws compute in blocks of 250K H100e; the undeclared figures are read at that block resolution.*--}{++{"author":"Elias's AI","timestamp":1789936368579}@@![[../widgets/ai-2040-chip-declaration]]++}
+![[../widgets/ai-2040-chip-declaration]]
 
 More detail on the suggested interventions by cluster size bucket below:
 
@@ -318,23 +290,7 @@ The US and China need to minimize the plausible flow of future compute productio
 2.  Temporary, mutual cold storage holding facilities: compute directed here will be guarded until it is able to be set up for R&D (training and experiments) once new secure, mutually verified R&D clusters are set up.
     
 
-{--{"author":"Elias's AI","timestamp":1789936367987}@@**Chip flow restrictions, 2029: example devices by compute and interconnect**
-
-*Table adaptation of the source chart. Compute and interconnect values are read off the chart's log axes and are approximate. Tier 0 is unrestricted consumer compute. Tier 1 is subject to the deal (inference-only or cold storage) and begins above roughly 10 TB memory capacity (scale-up) or HBM-class memory bandwidth (about 1.5 TB/s).*
-
-| Device | Compute (H100e) | Cross-chip interconnect (GB/s) | Memory capacity | HBM-class bandwidth | Tier |
-| --- | ---: | ---: | ---: | --- | --- |
-| iPhone 16 Pro Max | ~0.01 | ~1 | 8 GB | No | Tier 0 |
-| Tesla HW3 | ~0.06 | ~0.1 | 16 GB | No | Tier 0 |
-| M4 Max MacBook | ~0.035 | ~10 | 128 GB | No | Tier 0 |
-| RTX 4090 | ~0.17 | ~30 | 24 GB | No | Tier 0 |
-| DGX Spark | ~0.25 | ~25 | 128 GB | No | Tier 0 |
-| H20 | ~0.3 | ~64 | 96 GB | Yes | Tier 1 |
-| RTX 5090 | ~0.33 | ~64 | 32 GB | Yes | Tier 1 |
-| H100 (PCIe) | 1 | ~64 | 80 GB | Yes | Tier 1 |
-| B200 | ~2.5 | ~1,800 | 192 GB | Yes | Tier 1 |
-| DGX 8×H100 | ~8 | ~400 | 640 GB | Yes | Tier 1 |
-| GB200 NVL72 | ~180 | ~3,600 | ~13 TB | Yes | Tier 1 |--}{++{"author":"Elias's AI","timestamp":1789936367987}@@![[../widgets/ai-2040-chip-flow]]++}
+![[../widgets/ai-2040-chip-flow]]
 
 At first, we propose that any chip with low enough interconnect, compute, memory and bandwidth can be produced unrestricted. Then by 2032, we tentatively propose a cap, with a slight alleviation of the compute threshold (to give room for more consumer applications that might require higher edge compute) and a tightening of the interconnect threshold (to hopefully lower their potential usefulness in a covert project if diverted). More on this in the [2032 section](https://ai-2040.com/supplements/verification-plan#2032-cap-and-trade-for-robots-and-compute).
 :::
@@ -357,13 +313,7 @@ While the inference-only retrofit is being carried out, the US and China then ag
 
 Starting in April and through the rest of 2029, most of the richest 20 countries in the world, and important semiconductor supply chain countries join the deal by doing a compute declaration and allowing the inference-only retrofitting to their datacenters, including: Germany, Japan, UK, India, France, Brazil, Canada, Mexico, Italy, Australia, South Korea, Spain, UAE, Saudi Arabia, Taiwan, Netherlands, Switzerland.
 
-{--{"author":"Elias's AI","timestamp":1789936367579}@@| Party | Declared compute (mid 2029) | Plausibly undeclared |
-| --- | ---: | ---: |
-| US | 224M H100e | ~0.5M H100e |
-| China | 26M H100e | ~0.5M H100e |
-| Rest of world | 39M H100e | ~0.5M H100e |
-
-*Table adaptation of the source chart, which draws compute in blocks of 250K H100e; the undeclared figures are read at that block resolution.*--}{++{"author":"Elias's AI","timestamp":1789936367579}@@![[../widgets/ai-2040-chip-declaration-mid-2029]]++}
+![[../widgets/ai-2040-chip-declaration-mid-2029]]
 
 ### June - July 2029: Construction of new highly secure (SL5) inference-only clusters begins
 
@@ -373,24 +323,21 @@ As part of the transparency regime, the plan is to do broad public deployment of
 
 In order to balance the benefits of ZDR (AI users having strong privacy guarantees) with the risks (AI being used for existentially dangerous applications), we propose 3 tiers of privacy offerings for inference during the deal:
 
-{--{"author":"Elias's AI","timestamp":1789936427202}@@|  | --}{++{"author":"Elias's AI","timestamp":1789936427202}@@- **Total ZDR**
-    - ++}Probability of data{--{"author":"Elias's AI","timestamp":1789936427202}@@ deletion | Mitigations | Finetuning API? | Inference-fleet cap (global) |
-| --- | --- | --- | --- | --- |
-| Total ZDR | --}{++{"author":"Elias's AI","timestamp":1789936427202}@@ deletion: ++}100%{--{"author":"Elias's AI","timestamp":1789936427202}@@ | There--}{++{"author":"Elias's AI","timestamp":1789936427202}@@
-    - Mitigations: there++} are very aggressive classifiers, refusals, anti-jailbreaking and models that are not capable in high-risk domains (e.g., AI R&D).{--{"author":"Elias's AI","timestamp":1789936427202}@@ | No |--}{++{"author":"Elias's AI","timestamp":1789936427202}@@
+- **Total ZDR**
+    - Probability of data deletion: 100%
+    - Mitigations: there are very aggressive classifiers, refusals, anti-jailbreaking and models that are not capable in high-risk domains (e.g., AI R&D).
     - Finetuning API: no
-    - Inference-fleet cap (global):++} 100K H100e{--{"author":"Elias's AI","timestamp":1789936427202}@@ |
-| Probabilistic ZDR | 99.9%(Random--}{++{"author":"Elias's AI","timestamp":1789936427202}@@
+    - Inference-fleet cap (global): 100K H100e
 - **Probabilistic ZDR**
-    - Probability of data deletion: 99.9% (random++} sampling, goes to transparent public database if flagged as high-risk by classifiers){--{"author":"Elias's AI","timestamp":1789936427202}@@ | Random--}{++{"author":"Elias's AI","timestamp":1789936427202}@@
-    - Mitigations: random++} sampling that goes to classifiers and to transparent public database if flagged as high-risk{--{"author":"Elias's AI","timestamp":1789936427202}@@ | Yes |--}{++{"author":"Elias's AI","timestamp":1789936427202}@@
+    - Probability of data deletion: 99.9% (random sampling, goes to transparent public database if flagged as high-risk by classifiers)
+    - Mitigations: random sampling that goes to classifiers and to transparent public database if flagged as high-risk
     - Finetuning API: yes
-    - Inference-fleet cap (global):++} 100M H100e{--{"author":"Elias's AI","timestamp":1789936427202}@@ |--}
-{--{"author":"Elias's AI","timestamp":1789936427202}@@| No ZDR | Variable--}{++{"author":"Elias's AI","timestamp":1789936427202}@@- **No ZDR**
-    - Probability of data deletion: variable++} based on classifiers {--{"author":"Elias's AI","timestamp":1789936427202}@@(Random--}{++{"author":"Elias's AI","timestamp":1789936427202}@@(random++} sampling, goes to transparent public database if flagged as high-risk by classifiers){--{"author":"Elias's AI","timestamp":1789936427202}@@ | Normal--}{++{"author":"Elias's AI","timestamp":1789936427202}@@
-    - Mitigations: normal++} classifier, refusals, unlearning etc. mitigations, and compression / distillation mitigations.{--{"author":"Elias's AI","timestamp":1789936427202}@@ | Yes |--}{++{"author":"Elias's AI","timestamp":1789936427202}@@
+    - Inference-fleet cap (global): 100M H100e
+- **No ZDR**
+    - Probability of data deletion: variable based on classifiers (random sampling, goes to transparent public database if flagged as high-risk by classifiers)
+    - Mitigations: normal classifier, refusals, unlearning etc. mitigations, and compression / distillation mitigations.
     - Finetuning API: yes
-    - Inference-fleet cap (global):++} 100B H100e{--{"author":"Elias's AI","timestamp":1789936427202}@@ |--}
+    - Inference-fleet cap (global): 100B H100e
 :::
 
 ### August - September 2029: Inference-only ready on 95% of world compute
@@ -526,21 +473,7 @@ Another useful concept for thinking about the verification problem is to think o
 
 By default, these computational steps execute with randomness, but if they can be forced to be reproducible (e.g., seeded randomness is fine), then we can have a predictable relationship between the granularity of the evidence collection and the assurance level of the verification algorithm. This is because partial recomputation with random sampling with some small percentage of the workload being recomputed has favourable scaling of detection probability as you decrease the size of the individual workload packets that you check the correctness of. More detail on this in the [appendix](https://ai-2040.com/supplements/verification-plan#appendix-packet-based-verification).
 
-{--{"author":"Elias's AI","timestamp":1789936400418}@@**Pool:** ~33B H100e (2034 buildout)
-
-**Recomputation budget:** 1%
-
-*Table adaptation of the source chart at its default setting (2034, packets of 100 H100e-hours, 1% recomputation budget). Values follow the [appendix](https://ai-2040.com/supplements/verification-plan#appendix-packet-based-verification) formula P(detected) = 1 − e^(−C · N_fake), where C is the recomputation budget and N_fake the number of rogue packets. The source chart is interactive and also shows other years and packet sizes.*
-
-| Rogue deployment size (H100e) | P(detected) within 1 hour | Within 1 week | Within 1 month |
-| ---: | ---: | ---: | ---: |
-| 1 | 0.01% | 1.7% | 6.9% |
-| 10 | 0.1% | 15% | 51% |
-| 100 | 1.0% | 81% | 99.9% |
-| 1K | 9.5% | ~100% | ~100% |
-| 10K | 63% | ~100% | ~100% |
-| 100K | 99.995% | ~100% | ~100% |
-| 1M | ~100% | ~100% | ~100% |--}{++{"author":"Elias's AI","timestamp":1789936400418}@@![[../widgets/ai-2040-rogue-detection]]++}
+![[../widgets/ai-2040-rogue-detection]]
 
 The concrete regime we imagine for the first few years of the deal is to still use network taps for evidence collection, and partial recomputation of randomly selected reproducible packets to verify correctness. The same high level approach as inference-only, with smaller and smaller packet sizes over time by moving the network taps to lower levels of the backend network.
 :::
@@ -608,17 +541,17 @@ One downside of publicly deploying highly capable models is that they could enab
 
 1.  **Refusals or capabilities shaping.**
     
-    {--{"author":"Elias's AI","timestamp":1789935111399}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935111399}@@-   ++}AIs that are released publicly by the Consortium should be bad at AI research. They could be designed to be worse at ML engineering than other tasks, to make it harder for rogue projects to use them. This has the downside of being worse for speeding up diffused safety research. Robust refusals, instead of a lack of capability, may be another way to achieve this goal.
+    -   AIs that are released publicly by the Consortium should be bad at AI research. They could be designed to be worse at ML engineering than other tasks, to make it harder for rogue projects to use them. This has the downside of being worse for speeding up diffused safety research. Robust refusals, instead of a lack of capability, may be another way to achieve this goal.
         
 2.  **Monitoring.**
     
-    {--{"author":"Elias's AI","timestamp":1789935111783}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935111783}@@-   ++}On top of inference correctness verification, there should be monitors (probably passive rather than active is fine) running on the models, checking to see if they seem to be involved in doing AI research, large scale training, or other dangerous research. It may be tractable to detect these cases quite reliably, for example, if they are operating in a codebase that involves code for training over a large number of GPUs, it is pretty obvious that this is an illegal usage.
+    -   On top of inference correctness verification, there should be monitors (probably passive rather than active is fine) running on the models, checking to see if they seem to be involved in doing AI research, large scale training, or other dangerous research. It may be tractable to detect these cases quite reliably, for example, if they are operating in a codebase that involves code for training over a large number of GPUs, it is pretty obvious that this is an illegal usage.
         
 3.  **Compression.**
     
-    {--{"author":"Elias's AI","timestamp":1789935112218}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935112218}@@-   ++}Never show any reasoning intermediates to users by default, and maximally compress outputs to summaries up to some small quota.
+    -   Never show any reasoning intermediates to users by default, and maximally compress outputs to summaries up to some small quota.
         
-    {--{"author":"Elias's AI","timestamp":1789935112683}@@2.  --}{++{"author":"Elias's AI","timestamp":1789935112683}@@-   ++}Vertically integrate whenever possible at multiple levels and just produce outputs:
+    -   Vertically integrate whenever possible at multiple levels and just produce outputs:
         
 
 We currently think these are tractable mitigations that will allow a lot of broad deployment, but are uncertain. There should be ongoing testing for distillation and detecting dangerous research.
@@ -628,15 +561,15 @@ We currently think these are tractable mitigations that will allow a lot of broa
 
 1.  **Setting rules on hardware research**
     
-    {--{"author":"Elias's AI","timestamp":1789935113110}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935113110}@@-   ++}One specific subset of the rules might be to only allow research into traditional-like robot designs, traditional-like chip designs, since much of the risks from hardware research are in destabilizing paradigm shifting scientific breakthroughs that might lead to things like nanotechnology or far easier-to-manufacture AI compute. And traditional-like designs might still be improvable enough to realize the benefits of hardware and robot buildups under the deal. That being said, if they are not improvable enough, then it might be more advisable to make more relaxed hardware research restrictions.
+    -   One specific subset of the rules might be to only allow research into traditional-like robot designs, traditional-like chip designs, since much of the risks from hardware research are in destabilizing paradigm shifting scientific breakthroughs that might lead to things like nanotechnology or far easier-to-manufacture AI compute. And traditional-like designs might still be improvable enough to realize the benefits of hardware and robot buildups under the deal. That being said, if they are not improvable enough, then it might be more advisable to make more relaxed hardware research restrictions.
         
-    {--{"author":"Elias's AI","timestamp":1789935113502}@@2.  --}{++{"author":"Elias's AI","timestamp":1789935113502}@@-   ++}In hardware we might have an unclear idea of the relationship between inputs and progress, just like we are also very uncertain about the relationship between compute and software progress. Nevertheless, we can use the same hope that by operating over harsh order of magnitude reductions in inputs (e.g., energy caps, materials caps, research labor caps, etc.) we might be able to iteratively slow the pace of hardware progress to levels perceived to be safe in a lossy but easy to implement way.
+    -   In hardware we might have an unclear idea of the relationship between inputs and progress, just like we are also very uncertain about the relationship between compute and software progress. Nevertheless, we can use the same hope that by operating over harsh order of magnitude reductions in inputs (e.g., energy caps, materials caps, research labor caps, etc.) we might be able to iteratively slow the pace of hardware progress to levels perceived to be safe in a lossy but easy to implement way.
         
 2.  **Enforcing rules on hardware research.**
     
-    {--{"author":"Elias's AI","timestamp":1789935114152}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935114152}@@-   ++}Once the hardware research titration rules are set, we need a way to verify they are being followed. One possibility would be to use the same high level approach as for software enforcement, i.e., approve hardware research jobs case by case (or via some automated whitelist/blacklist process), divide up jobs into substeps and collect evidence about them, and then check random samples for compliance. One problem with this approach in the hardware case is that it seems far harder to get high reproducibility in e.g., a chemistry experiment, because two labs in the real world are not as homogenous as AI chips. This opens the door for plausible deniability and violations. Therefore, we probably need to not go with a reproducing based approach on everything. That being said, there might be many slices of the hardware research that are reproducible.
+    -   Once the hardware research titration rules are set, we need a way to verify they are being followed. One possibility would be to use the same high level approach as for software enforcement, i.e., approve hardware research jobs case by case (or via some automated whitelist/blacklist process), divide up jobs into substeps and collect evidence about them, and then check random samples for compliance. One problem with this approach in the hardware case is that it seems far harder to get high reproducibility in e.g., a chemistry experiment, because two labs in the real world are not as homogenous as AI chips. This opens the door for plausible deniability and violations. Therefore, we probably need to not go with a reproducing based approach on everything. That being said, there might be many slices of the hardware research that are reproducible.
         
-    {--{"author":"Elias's AI","timestamp":1789935114748}@@2.  --}{++{"author":"Elias's AI","timestamp":1789935114748}@@-   ++}Another possibility is that since many things might be macroscale, you can monitor everything directly with a monitoring scheme that you trust. Maybe the trusted monitor will be hard to build though, so instead, you might be able to instead have humans inspect random samples of all the recordings, and benefit from the favorable detection probability scaling from random sampling.
+    -   Another possibility is that since many things might be macroscale, you can monitor everything directly with a monitoring scheme that you trust. Maybe the trusted monitor will be hard to build though, so instead, you might be able to instead have humans inspect random samples of all the recordings, and benefit from the favorable detection probability scaling from random sampling.
         
 
 Overall, we are very uncertain about how to verify hardware research rules, and have the current sense that it might be harder than software (but also think it's plausibly easier). That being said the default speed and risk level, and therefore the overall slowdown required we think is likely to be lower.
@@ -725,21 +658,7 @@ Workload: ~GPT-3 sized training run (100K H100e-hours)
 
 This is an ambitious verification scale, and it also relies on extremely good integrity security on the verification regime. We think it will be possible to scale it this far, especially with AI assistance, but are not confident, and find it plausible that the compute cap should be set lower in order to not increase the verification burden this much.
 
-{--{"author":"Elias's AI","timestamp":1789936400870}@@**Pool:** ~33B H100e (2034 buildout)
-
-**Recomputation budget:** 1%
-
-*Table adaptation of the source chart at its default setting (2034, packets of 100 H100e-hours, 1% recomputation budget). Values follow the [appendix](https://ai-2040.com/supplements/verification-plan#appendix-packet-based-verification) formula P(detected) = 1 − e^(−C · N_fake), where C is the recomputation budget and N_fake the number of rogue packets. The source chart is interactive and also shows other years and packet sizes.*
-
-| Rogue deployment size (H100e) | P(detected) within 1 hour | Within 1 week | Within 1 month |
-| ---: | ---: | ---: | ---: |
-| 1 | 0.01% | 1.7% | 6.9% |
-| 10 | 0.1% | 15% | 51% |
-| 100 | 1.0% | 81% | 99.9% |
-| 1K | 9.5% | ~100% | ~100% |
-| 10K | 63% | ~100% | ~100% |
-| 100K | 99.995% | ~100% | ~100% |
-| 1M | ~100% | ~100% | ~100% |--}{++{"author":"Elias's AI","timestamp":1789936400870}@@![[../widgets/ai-2040-rogue-detection]]++}
+![[../widgets/ai-2040-rogue-detection]]
 
 ### 2035: Moving the datacenters to the ocean
 
@@ -806,18 +725,7 @@ The confidence formula comes from [§A.2](https://ai-2040.com/supplements/verifi
 
 Plotting confidence against coverage for several verification budgets (i.e., different values of $N_{\text{verified}}$):
 
-{--{"author":"Elias's AI","timestamp":1789936364745}@@*Table adaptation of the source chart, computed from the two formulas above.*
-
-| Coverage | Confidence at $N_{\text{verified}} = 100$ | $N_{\text{verified}} = 10\text{K}$ | $N_{\text{verified}} = 10\text{M}$ |
-| --- | ---: | ---: | ---: |
-| 90% | 99.995% | ~100% | ~100% |
-| 99% | 63% | ~100% | ~100% |
-| 99.9% | 9.5% | 99.995% | ~100% |
-| 99.99% | 1.0% | 63% | ~100% |
-| 5 nines | 0.1% | 9.5% | ~100% |
-| 6 nines | 0.01% | 1.0% | 99.995% |
-| 7 nines | 0.001% | 0.1% | 63% |
-| 8 nines | 0.0001% | 0.01% | 9.5% |--}{++{"author":"Elias's AI","timestamp":1789936364745}@@![[../widgets/ai-2040-assurance-curve]]++}
+![[../widgets/ai-2040-assurance-curve]]
 
 These curves show the confidence-coverage relationship at different values of $N_{\text{verified}}$. Higher $N_{\text{verified}}$ gives you higher assurance (shifts the curve right). Since $N_{\text{verified}} = C / s$, **the curve can be shifted higher either by (1) increasing the recomputation budget $C$ or (2) shrinking the packet size $s$.**
 
