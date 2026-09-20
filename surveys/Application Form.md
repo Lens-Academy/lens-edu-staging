@@ -188,10 +188,33 @@ required:: true
 #### Text
 content:: ### Concluding
 
-#### Question
+#### {--{"author":"Mark's AI","timestamp":1789929378932}@@Question--}{++{"author":"Mark's AI","timestamp":1789929378932}@@Choice++}
 key:: heard_from
-content:: Where did you hear about this course? Please be specific, e.g. "Saw it in the [community] chat" or "Got referred by [program]".
+content:: Where did you hear about this course? {++{"author":"Mark's AI","timestamp":1789929378932}@@Pick all that apply.
+multi:: true
+options::
+- AISafety.com
+- BlueDot Impact community
+- 80,000 Hours
+- AI Alignment Slack
+- LinkedIn
+- Lens Academy (earlier course, website or email)
+- Friend or colleague
+- Another program or fellowship
+- Discord, Slack or chat group
+- AI assistant
+- Web search
+- LessWrong, EA Forum or a blog
+- Newsletter or mailing list
+- X (Twitter)
+- Event or conference
+- Other (please write it below)
 required:: true
+
+#### Question
+key:: heard_from_other
+content:: ++}Please be {--{"author":"Mark's AI","timestamp":1789929378932}@@specific,--}{++{"author":"Mark's AI","timestamp":1789929378932}@@specific if you can,++} e.g. "Saw it in the [community] chat" or "Got referred by [program]".
+{--{"author":"Mark's AI","timestamp":1789929378932}@@required:: true--}{++{"author":"Mark's AI","timestamp":1789929378932}@@{>>{"author":"Mark's AI","timestamp":1789929378932}@@Same change as for the programs question: options first, then a text box that keeps the detail the old question asked for. The options are the places our applicants named most often (about 215 answers read on 2026-09-20).<<}++}
 
 #### Question
 key:: nominations
