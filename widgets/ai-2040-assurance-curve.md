@@ -48,8 +48,6 @@ tags: [wip]
   .readout th, .readout td { text-align: left; padding: 3px 8px 3px 0; font-variant-numeric: tabular-nums; }
   .readout th { font-weight: 600; }
   .readout .n { text-align: right; }
-  .status { font-size: 12px; color: var(--muted); margin-top: 8px; }
-  .status.is-done { color: var(--text); font-weight: 500; }
   @media (max-width: 600px) { body { padding: 10px; } }
 </style>
 </head>
@@ -64,7 +62,6 @@ tags: [wip]
     <div class="row" id="probe-row"><span class="lbl">Read values at coverage</span></div>
     <div class="readout" id="readout" aria-live="polite"></div>
   </div>
-  <p class="status" id="status"></p>
 </div>
 
 <script>
@@ -197,7 +194,6 @@ tags: [wip]
   var readout = document.getElementById("readout");
   var legendEl = document.getElementById("legend");
   var probeRow = document.getElementById("probe-row");
-  var statusEl = document.getElementById("status");
 
   function readCount() { var n = 0; for (var k in state.read) if (state.read[k]) n++; return n; }
 
@@ -223,7 +219,7 @@ tags: [wip]
       var on = Number(pb[i].dataset.log) === state.probeLog;
       pb[i].classList.toggle("is-active", on);
       pb[i].setAttribute("aria-pressed", on ? "true" : "false");
-      pb[i].textContent = fmtCoverage(Number(pb[i].dataset.log)) + (state.read[pb[i].dataset.log] ? " ✓" : "");
+      pb[i].textContent = fmtCoverage(Number(pb[i].dataset.log));
     }
     readout.textContent = "";
     readout.appendChild(h("div", null, "Coverage " + fmtCoverage(state.probeLog) + " (tolerated fake fraction F* = " + fmtF(state.probeLog) + "):"));
@@ -239,9 +235,6 @@ tags: [wip]
       table.appendChild(tr);
     }
     readout.appendChild(table);
-    var n = readCount();
-    statusEl.textContent = n >= 3 ? "Read at " + n + " coverage points. Notice how each 10x in N_ver shifts the curve one decade to the right." : "Coverage points read: " + n + " of 3 needed. Press the coverage buttons to compare the three budgets.";
-    statusEl.classList.toggle("is-done", n >= 3);
   }
 
   function summary() {
@@ -255,7 +248,7 @@ tags: [wip]
     var json = { probeLog: state.probeLog, visible: state.visible.slice(), read: state.read };
     if (window.Lens) {
       Lens.saveState(json, summary());
-      if (readCount() >= 3 && !completed) { completed = true; Lens.complete(); }
+      if (readCount() >= 1 && !completed) { completed = true; Lens.complete(); }
     } else {
       try { localStorage.setItem("ai-2040-assurance-curve", JSON.stringify(json)); } catch (e) {}
     }
