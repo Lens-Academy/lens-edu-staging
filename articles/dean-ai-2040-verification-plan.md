@@ -286,7 +286,7 @@ The intelligence agencies have been keeping close track of new compute productio
 
 ## 2029-2030: Deal Implementation
 
-Deal implementation timeline, Jan 2029 to Jan 2031:
+{--{"author":"Elias's AI","timestamp":1789935641945}@@Deal implementation timeline, Jan 2029 to Jan 2031:
 
 - **Jan 2029:** mutual chip declaration
 - **Feb 2029:** R&D pause begins
@@ -301,7 +301,7 @@ Deal implementation timeline, Jan 2029 to Jan 2031:
 - **Sep 2030:** SL5 inference clusters rollout reaches 30%
 - **Jan 2031:** mature safety-case-based R&D rules in place
 
-### Jan 2029: Mutual Chip Declaration and Inspection
+--}### Jan 2029: Mutual Chip Declaration and Inspection
 
 Within a week of starting Plan A negotiations, the US and China have carried out a compute declaration and supply chain record audit, allowing each other to send a few hundred people into each other’s countries to inspect and audit records. This lets them reduce their already relatively small uncertainties over each other’s compute. Each side’s best guess is now that the other could have hidden at most around 1.5M H100e from the declaration (with the 80% CI reaching about 4M), which is about 4% of the leading AI company’s R&D compute and about 0.5% of total world compute. For our estimates and reasoning on how much compute a covert project could probably hide see the [covert projects supplement](https://ai-2040.com/supplements/covert-ai-projects#section-2-preventing-covert-compute-procurement).
 
