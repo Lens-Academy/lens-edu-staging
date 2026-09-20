@@ -45,7 +45,6 @@ tags: [wip]
   .layer-cell { display: flex; flex-direction: column; gap: 6px; align-items: flex-start; justify-content: center; }
   .layer { display: flex; flex-direction: column; justify-content: center; font-weight: 600; font-size: 13px; padding: 6px 8px; width: 100%; }
   .layer small { font-weight: 400; color: var(--muted); font-size: 11px; }
-  .layer.is-seen::after { content: "\2713 opened"; font-weight: 400; font-size: 10px; color: var(--accent); letter-spacing: 0.06em; text-transform: uppercase; margin-top: 2px; }
   .toggle { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; padding: 3px 8px; border-radius: 999px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
   .toggle .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); border: 1px solid var(--accent); }
   .toggle.is-off { border-style: dashed; }
@@ -79,7 +78,6 @@ tags: [wip]
   .detail li.off { color: var(--muted); text-decoration: line-through; }
   .detail .note { font-size: 12px; color: var(--muted); }
   .status { margin-top: 12px; font-size: 12px; color: var(--muted); display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
-  .status .done { color: var(--accent); font-weight: 600; }
 </style>
 </head>
 <body>
@@ -249,7 +247,7 @@ tags: [wip]
         var L = LAYERS[li];
         var on = isOn(li);
         var wrap = el("div", "layer-cell" + (on ? "" : " row-off"));
-        var b = el("button", "layer" + (t === "l" && idx === li ? " is-active" : "") + (state.seen["l" + li] ? " is-seen" : ""));
+        var b = el("button", "layer" + (t === "l" && idx === li ? " is-active" : ""));
         b.setAttribute("aria-pressed", t === "l" && idx === li ? "true" : "false");
         b.appendChild(el("span", "lname", L.row));
         if (L.sub) b.appendChild(el("small", null, L.sub));
@@ -363,11 +361,7 @@ tags: [wip]
 
   function renderStatus() {
     els.status.textContent = "";
-    var n = seenCount(), on = activeLayers().length;
-    var hint = document.getElementById("sl-hint");
-    if (hint) hint.hidden = (n >= LAYERS.length && state.flipped);
-    els.status.appendChild(el("span", null, n + " of " + LAYERS.length + " layers opened, " + on + " of " + LAYERS.length + " switched on"));
-    if (n >= LAYERS.length && state.flipped) els.status.appendChild(el("span", "done", "✓ All six layers opened and tested"));
+    var on = activeLayers().length;
     if (state.sel) {
       var clear = el("button", null, "Clear selection");
       clear.addEventListener("click", function () { state.sel = null; render(); save(); });
@@ -414,7 +408,7 @@ tags: [wip]
   var saveTimer = null;
   function doSave() {
     saveTimer = null;
-    var done = seenCount() >= LAYERS.length && state.flipped;
+    var done = seenCount() >= 1 || state.flipped;
     if (window.Lens) {
       Lens.saveState({ sel: state.sel, seen: state.seen, off: state.off, flipped: state.flipped }, summary());
       if (done && !completed) { completed = true; Lens.complete(); }

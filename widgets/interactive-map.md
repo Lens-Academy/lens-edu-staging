@@ -62,8 +62,6 @@ tags: [wip]
   .keybtn { display: flex; align-items: center; gap: 8px; padding: 6px 10px; }
   .keybtn .nm { font-size: 12px; font-weight: 500; }
   .keybtn .n { font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
-  .keybtn .seen { font-size: 11px; color: var(--accent); display: none; }
-  .keybtn.is-seen .seen { display: inline; }
   .keybtn.is-active { border-color: var(--text); box-shadow: 0 0 0 1px var(--text); background: var(--surface); }
   .sw { display: inline-block; flex: none; width: 12px; height: 12px; border-radius: 3px; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.2); }
   .sw.sm { width: 8px; height: 8px; border-radius: 2px; }
@@ -86,15 +84,12 @@ tags: [wip]
   .detail .members { margin-top: 4px; }
   .detail .members button { padding: 2px 10px; font-size: 11px; border-radius: 6px; }
   .detail .members button:hover { border-color: var(--text); }
-  .detail .members button.is-seen::after { content: " \2713"; color: var(--accent); }
   .detail .roles { margin-top: 10px; }
 
   .flow { display: flex; flex-wrap: wrap; align-items: stretch; gap: 4px; }
   .stagebtn { flex: 1 1 104px; padding: 8px 10px; border-radius: 6px; background: var(--surface); }
   .stagebtn .bar { display: block; width: 16px; height: 3px; border-radius: 2px; margin-bottom: 6px; }
   .stagebtn .nm { display: block; font-size: 11px; line-height: 1.25; font-weight: 600; color: var(--muted); }
-  .stagebtn .seen { display: none; font-size: 10px; color: var(--accent); }
-  .stagebtn.is-seen .seen { display: inline; }
   .stagebtn.is-active { background: var(--accent); border-color: var(--accent); }
   .stagebtn.is-active .nm, .stagebtn.is-active .seen { color: #fff; }
   .stagebtn.is-active .bar { background: #fff !important; }
