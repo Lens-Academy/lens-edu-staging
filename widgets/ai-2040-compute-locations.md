@@ -69,7 +69,6 @@ tags: [wip]
     </div>
   </div>
   <div class="legend" id="legend"></div>
-  <p class="status" id="status"></p>
 </div>
 
 <script>
@@ -94,10 +93,7 @@ tags: [wip]
   var state = { band: null, region: null, seen: [] };
   var completed = false;
 
-  function isDone() {
-    for (var i = 0; i < DC_BANDS.length; i++) if (state.seen.indexOf(DC_BANDS[i]) === -1) return false;
-    return true;
-  }
+  function isDone() { return state.seen.length > 0; }
 
   function h(tag, cls, txt) {
     var e = document.createElement(tag);
