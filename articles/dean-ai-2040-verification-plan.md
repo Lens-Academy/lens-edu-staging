@@ -474,8 +474,6 @@ We highlight a few approaches below, and roughly where we think they fall on thi
 4.  **Compute and resource caps.** simple caps on R&D compute. This is extremely easy to implement and verify, but it might just be very inaccurate. Knowing how much progress will result from certain compute and other resource (e.g., human researcher) thresholds will be an uncertain modelling question, that likely will have wide error bars. In the early stages of a deal though, setting these very low seems like a good, easy to implement starter, which can then be escalated to more accurate approaches given time to ramp capacity.
     
 
-*Table adaptation of the source chart, which places the four approaches on a diagonal from easy and inaccurate to hard and accurate. The suggested progression runs down the table.*
-
 | Approach | Ease of implementation | Regulatory accuracy | Suggested timing |
 | --- | --- | --- | --- |
 | Compute caps: simple caps on R&D compute | Easiest | Lowest | ~2030 |
@@ -516,8 +514,6 @@ A potential overall regime to use is to maintain ‘white’ lists of code and d
 We also mentioned multiple different types of evidence collection or verification that might be used. Our guess is that in order to reach extremely high levels of assurance, which will be increasingly necessary in Plan A (more on this later), a reproducibility mandate, combined with complete (and increasingly granular) on-path evidence collection, paired with a partial recomputation based verification algorithm, will be a viable approach. That being said, we are not confident that another approach (e.g., using low latency challenges and validity checks) might not be able to reach the same levels of assurance at lower costs or higher levels of assurance at equal costs. For the purposes of making the case that the verification problem will be viable, we will talk about the complete (and increasingly granular) on-path evidence collection with partial recomputation based verification algorithm.
 
 Another useful concept for thinking about the verification problem is to think of AI workloads as discrete series of steps.
-
-*Table adaptation of the source chart, which shows the same workload sliced at each of these levels. Every chunk at every level is one f(input) → output step.*
 
 | Granularity | Packet |
 | --- | --- |
@@ -677,27 +673,8 @@ We expect the cap we propose to lead to rapid innovation in ‘edge verification
 
 On top of the unverified consumer compute cap, it might be desirable to have a certain effective-H100e cutoff (e.g., with specific compute, bandwidth, memory capacity and networking speed thresholds) for consumer compute that is allowed to be sold in single units (to the extent that the difficulty of gathering chips into a covert project or detection therefore scales more closely with the absolute number of chips than with the compute). There might also be a tier of compute that we require to have location tracking measures (to make use by a covert project easier to detect).
 
-**Chip flow restrictions, 2032: example devices against the AI-relevant floor**
+![[../widgets/ai-2040-chip-flow-2032]]
 
-*Table adaptation of the source chart. Compute and interconnect values are read off the chart's log axes and are approximate. The AI-relevant floor is 4,000 TPP, about 0.25 H100e ([compute supplement §1.1](https://ai-2040.com/supplements/compute-supplement)).*
-
-| Device | Compute per device (H100e) | Cross-chip interconnect (GB/s) | Memory capacity | HBM-class bandwidth | Relative to AI-relevant floor |
-| --- | ---: | ---: | ---: | --- | --- |
-| iPhone 16 Pro Max | ~0.01 | ~1 | 8 GB | No | Below |
-| Tesla HW3 | ~0.06 | ~0.1 | 16 GB | No | Below |
-| M4 Pro MacBook | ~0.035 | ~10 | 128 GB | No | Below |
-| DGX Spark | ~0.12 | ~25 | 128 GB | No | Below |
-| H20 | ~0.15 | ~64 | 96 GB | Yes | Below |
-| RTX 4090 | ~0.33 | ~30 | 24 GB | No | Above |
-| RTX 5090 | ~0.42 | ~64 | 32 GB | Yes | Above |
-| H100 (PCIe) | 1 | ~64 | 80 GB | Yes | Above |
-| DGX 8×H100 | ~8 | ~400 | 640 GB | Yes | Above |
-| GB200 NVL72 | ~180 | ~3,600 | ~13 TB | Yes | Above |
-
-| Category shown in the chart | Treatment |
-| --- | --- |
-| Consumer compute below the AI-relevant floor | Unverified edge-compute cap of 30M H100e: 25M already in the world pre-deal plus 5M new credits |
-| Verified edge compute | Exempt from the cap |
 :::
 
 Putting together research titration and production capping, we have the following overview:
@@ -829,7 +806,7 @@ The confidence formula comes from [§A.2](https://ai-2040.com/supplements/verifi
 
 Plotting confidence against coverage for several verification budgets (i.e., different values of $N_{\text{verified}}$):
 
-*Table adaptation of the source chart, computed from the two formulas above.*
+{--{"author":"Elias's AI","timestamp":1789936364745}@@*Table adaptation of the source chart, computed from the two formulas above.*
 
 | Coverage | Confidence at $N_{\text{verified}} = 100$ | $N_{\text{verified}} = 10\text{K}$ | $N_{\text{verified}} = 10\text{M}$ |
 | --- | ---: | ---: | ---: |
@@ -840,7 +817,7 @@ Plotting confidence against coverage for several verification budgets (i.e., dif
 | 5 nines | 0.1% | 9.5% | ~100% |
 | 6 nines | 0.01% | 1.0% | 99.995% |
 | 7 nines | 0.001% | 0.1% | 63% |
-| 8 nines | 0.0001% | 0.01% | 9.5% |
+| 8 nines | 0.0001% | 0.01% | 9.5% |--}{++{"author":"Elias's AI","timestamp":1789936364745}@@![[../widgets/ai-2040-assurance-curve]]++}
 
 These curves show the confidence-coverage relationship at different values of $N_{\text{verified}}$. Higher $N_{\text{verified}}$ gives you higher assurance (shifts the curve right). Since $N_{\text{verified}} = C / s$, **the curve can be shifted higher either by (1) increasing the recomputation budget $C$ or (2) shrinking the packet size $s$.**
 
