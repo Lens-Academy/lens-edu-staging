@@ -449,9 +449,9 @@ Possible mitigations we can think of are:
     
 
 A potential overall regime to use is to maintain ‘white’ lists of code and data that has been vetted and approved to be used, and/or ‘black’ lists of code/data that is banned, and/or ‘gold’ lists of techniques that are required on every workload of a certain type. Then the workload approval problem can be reduced to simply checking against these lists in order to approve or deny a workload. It might be drastically harder to implement a covertly rogue workload using only whitelisted code, but it also might just punt the problem to whatever the process is for populating these lists. At least this might help with making workload approval a more transparent process that companies and even the broader public can contribute to (at least on everything that is publicly available, which later into the deal might exclude some internally discovered algorithms that there is an attempt to keep secure through the embargo mechanism we describe in our transparency proposal).
-:::
 
 ![](https://ai-2040.com/verification-plan/image9.png)
+:::
 
 :::callout {title="Workload Verification." tone="neutral" collapse="closed"}
 
@@ -466,7 +466,6 @@ By default, these computational steps execute with randomness, but if they can b
 ![[../widgets/ai-2040-rogue-detection]]
 
 The concrete regime we imagine for the first few years of the deal is to still use network taps for evidence collection, and partial recomputation of randomly selected reproducible packets to verify correctness. The same high level approach as inference-only, with smaller and smaller packet sizes over time by moving the network taps to lower levels of the backend network.
-:::
 
 ![](https://ai-2040.com/verification-plan/image8.png)
 
@@ -479,6 +478,7 @@ The concrete regime we imagine for the first few years of the deal is to still u
 4.  **Verification:** Auditors sample randomly and do partial recomputation and other checks to catch violations of workload correctness.
     
 5.  **Evaluations and release:** For workloads that consist of final training runs there can be an extra step that involves running evaluations that also get verified for correctness, and then final model approval for release leads to the model weights being downloaded from the opaque internal database and transported to the inference-only clusters. This process is extremely high stakes from a model weights theft perspective, so would need to be carefully designed and executed.
+:::
     
 
 ### Late 2030: Secure inference-only clusters for post-deal model deployment come online
