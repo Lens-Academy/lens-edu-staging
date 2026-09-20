@@ -513,7 +513,7 @@ Another useful concept for thinking about the verification problem is to think o
 
 By default, these computational steps execute with randomness, but if they can be forced to be reproducible (e.g., seeded randomness is fine), then we can have a predictable relationship between the granularity of the evidence collection and the assurance level of the verification algorithm. This is because partial recomputation with random sampling with some small percentage of the workload being recomputed has favourable scaling of detection probability as you decrease the size of the individual workload packets that you check the correctness of. More detail on this in the [appendix](https://ai-2040.com/supplements/verification-plan#appendix-packet-based-verification).
 
-**Pool:** ~33B H100e (2034 buildout)
+{--{"author":"Elias's AI","timestamp":1789936400418}@@**Pool:** ~33B H100e (2034 buildout)
 
 **Recomputation budget:** 1%
 
@@ -527,7 +527,7 @@ By default, these computational steps execute with randomness, but if they can b
 | 1K | 9.5% | ~100% | ~100% |
 | 10K | 63% | ~100% | ~100% |
 | 100K | 99.995% | ~100% | ~100% |
-| 1M | ~100% | ~100% | ~100% |
+| 1M | ~100% | ~100% | ~100% |--}{++{"author":"Elias's AI","timestamp":1789936400418}@@![[../widgets/ai-2040-rogue-detection]]++}
 
 The concrete regime we imagine for the first few years of the deal is to still use network taps for evidence collection, and partial recomputation of randomly selected reproducible packets to verify correctness. The same high level approach as inference-only, with smaller and smaller packet sizes over time by moving the network taps to lower levels of the backend network.
 :::
@@ -712,7 +712,7 @@ Workload: ~GPT-3 sized training run (100K H100e-hours)
 
 This is an ambitious verification scale, and it also relies on extremely good integrity security on the verification regime. We think it will be possible to scale it this far, especially with AI assistance, but are not confident, and find it plausible that the compute cap should be set lower in order to not increase the verification burden this much.
 
-**Pool:** ~33B H100e (2034 buildout)
+{--{"author":"Elias's AI","timestamp":1789936400870}@@**Pool:** ~33B H100e (2034 buildout)
 
 **Recomputation budget:** 1%
 
@@ -726,7 +726,7 @@ This is an ambitious verification scale, and it also relies on extremely good in
 | 1K | 9.5% | ~100% | ~100% |
 | 10K | 63% | ~100% | ~100% |
 | 100K | 99.995% | ~100% | ~100% |
-| 1M | ~100% | ~100% | ~100% |
+| 1M | ~100% | ~100% | ~100% |--}{++{"author":"Elias's AI","timestamp":1789936400870}@@![[../widgets/ai-2040-rogue-detection]]++}
 
 ### 2035: Moving the datacenters to the ocean
 
