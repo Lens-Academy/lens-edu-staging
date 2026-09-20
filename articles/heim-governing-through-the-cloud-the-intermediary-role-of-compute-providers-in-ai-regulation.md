@@ -545,11 +545,7 @@ This section looks at the US as a case study. We examine the Biden Administratio
 
 Unlike proposed US foreign customer identification rules for IaaS providers (Federal Register 2024), we focus on oversight of only frontier AI model development and deployment, rather than all compute use. While we explore these issues in the US context, similar analyses could also be done for other jurisdictions, like the EU, and in the international context. We encourage further policy analysis in this space.
 
-{--{"author":"Elias's AI","timestamp":1789833194981}@@![Imported source figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img9-ed8933fb.png)
-
-Figure 2: Additional measures, implemented by the Department of Commerce, would strengthen the intermediary role of compute providers and enable a compute oversight scheme.
-
---}### 4.1 Case Study: Compute Providers’ Intermediary Role in the US
+### 4.1 Case Study: Compute Providers’ Intermediary Role in the US
 
 #### 4.1.1 Record Keeping and Reporting in the AI Executive Order
 

@@ -25,6 +25,8 @@ There is a spectrum of how costly and how trustworthy our best verification solu
 
 This supplement provides a summary of the verification plan that we think should be followed to make Plan A viable, and then is followed by a more detailed walkthrough of how the verification story unfolds in our specific Plan A scenario.
 
+![[../widgets/ai-2040-plan-timeline]]
+
 **Want to help build this?** See the [Get Involved](https://ai-2040.com/supplements/verification-plan/get-involved) tab: what needs to be done, who the field needs, an [expression of interest form](https://tally.so/r/LZyyDy), and open opportunities across the verification field.
 
 ## Summary of the Plan
@@ -421,12 +423,7 @@ We highlight a few approaches below, and roughly where we think they fall on thi
 4.  **Compute and resource caps.** simple caps on R&D compute. This is extremely easy to implement and verify, but it might just be very inaccurate. Knowing how much progress will result from certain compute and other resource (e.g., human researcher) thresholds will be an uncertain modelling question, that likely will have wide error bars. In the early stages of a deal though, setting these very low seems like a good, easy to implement starter, which can then be escalated to more accurate approaches given time to ramp capacity.
     
 
-{--{"author":"Elias's AI","timestamp":1789936927048}@@| Approach | Ease of implementation | Regulatory accuracy | Suggested timing |
-| --- | --- | --- | --- |
-| Compute caps: simple caps on R&D compute | Easiest | Lowest | ~2030 |
-| Human-interpretable requirement: all approved techniques understood end-to-end by some group of humans | Easier | Lower | after compute caps |
-| Quality ad-hoc rules: case-by-case decisions on permitted research directions and speed | Harder | Higher | before safety cases |
-| Safety case burden of proof: all R&D requires strong safety case arguments before approval | Hardest | Highest | ~2035 |--}{++{"author":"Elias's AI","timestamp":1789936927048}@@![[../widgets/ai-2040-research-titration]]++}
+![[../widgets/ai-2040-research-titration]]
 :::
 
 With a particular set of rules on research in place, there is a separate problem of enforcing these rules are actually followed. We can divide the problem of enforcing the R&D rules into two parts:
@@ -462,14 +459,7 @@ We also mentioned multiple different types of evidence collection or verificatio
 
 Another useful concept for thinking about the verification problem is to think of AI workloads as discrete series of steps.
 
-{--{"author":"Elias's AI","timestamp":1789936946876}@@| Granularity | Packet |
-| --- | --- |
-| 1 (coarsest) | Full training run |
-| 2 | Training phases |
-| 3 | Gradient steps |
-| 4 | Layer forward/backward passes |
-| 5 | GPU kernel calls |
-| 6 (finest) | Individual instructions |--}{++{"author":"Elias's AI","timestamp":1789936946876}@@![[../widgets/ai-2040-packet-sizes]]++}
+![[../widgets/ai-2040-packet-sizes]]
 
 By default, these computational steps execute with randomness, but if they can be forced to be reproducible (e.g., seeded randomness is fine), then we can have a predictable relationship between the granularity of the evidence collection and the assurance level of the verification algorithm. This is because partial recomputation with random sampling with some small percentage of the workload being recomputed has favourable scaling of detection probability as you decrease the size of the individual workload packets that you check the correctness of. More detail on this in the [appendix](https://ai-2040.com/supplements/verification-plan#appendix-packet-based-verification).
 
@@ -639,22 +629,17 @@ Our uncertainty on what will be possible is high here, but some of the main idea
 
 Through the 2030s the total amount of AI compute in the world grows explosively. One important dynamic to note is that the verification burden (the need to have higher coverage) grows as the total compute under verification grows. In Plan A, we both forecast and recommend a significant hardware buildup (capped by the cap & trade regime to stay verifiable) for other reasons related to tradeoffs with deal stability (hardware is less likely to leak to illegal projects so differentially increases the legal projects affordances).
 
-{--{"author":"Elias's AI","timestamp":1789936963205}@@| Year | World AI compute |
-| --- | ---: |
-| 2026 | 20M H100e |
-| 2030 | 500M H100e |
-| 2032 | 3B H100e |
-| 2034 | 60B H100e |--}{++{"author":"Elias's AI","timestamp":1789936963205}@@![[../widgets/ai-2040-world-compute]]++}
+![[../widgets/ai-2040-world-compute]]
 
 The verification assurance curve needs to improve such that any potential nonnegligible rogue internal deployment would have a high chance of detection. By 2034, with one packet collected per hour from each frontier GPU (~100 H100e each, so ~100 H100e-hour packets) and a 1% recomputation budget, the appendix math shows the verifier catches any rogue internal deployment at 99% confidence after it accumulates ~46,000 H100e-hours of unapproved work, so a sustained 10K H100e deployment is detected within ~4.6 hours, a 1K within ~46 hours, and so on.
 
-| Year | Tap granularity | Compute per tap |
+{--{"author":"Elias's AI","timestamp":1789937045268}@@| Year | Tap granularity | Compute per tap |
 | --- | --- | ---: |
 | 2030 | Per-server tap | ~4K H100e |
 | 2032 | Per-shelf tap | ~400 H100e |
 | 2034 | Per-GPU tap | ~100 H100e |
 
-Workload: ~GPT-3 sized training run (100K H100e-hours)
+Workload: ~GPT-3 sized training run (100K H100e-hours)--}{++{"author":"Elias's AI","timestamp":1789937045268}@@![[../widgets/ai-2040-workload-gpt3]]++}
 
 This is an ambitious verification scale, and it also relies on extremely good integrity security on the verification regime. We think it will be possible to scale it this far, especially with AI assistance, but are not confident, and find it plausible that the compute cap should be set lower in order to not increase the verification burden this much.
 

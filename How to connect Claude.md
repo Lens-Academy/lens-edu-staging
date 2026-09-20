@@ -10,10 +10,10 @@ To use Claude with our shared knowledge base, you need to connect it to our MCP 
 
 ### How to connect
 
-1. Go to [claude.ai](https://claude.ai) and log in (you need a Pro or Team plan for {++{"author":"Elias's AI","timestamp":1789552363003}@@custom ++}MCP {--{"author":"Elias's AI","timestamp":1789552363003}@@integrations)--}{++{"author":"Elias's AI","timestamp":1789552363003}@@connectors)++}
+1. Go to [claude.ai](https://claude.ai) and log in (you need a Pro or Team plan for custom MCP connectors)
 2. Open **Settings** (click your name in the bottom-left corner)
-3. Go to {--{"author":"Elias's AI","timestamp":1789552364835}@@**Integrations** (or **Connected Apps**)--}{++{"author":"Elias's AI","timestamp":1789552364835}@@**Connectors**++}
-4. Click{--{"author":"Elias's AI","timestamp":1789552364835}@@ **Add Integration** →--} **Add custom {--{"author":"Elias's AI","timestamp":1789552364835}@@MCP server**--}{++{"author":"Elias's AI","timestamp":1789552364835}@@connector**++}
+3. Go to **Connectors**
+4. Click **Add custom connector**
 5. Paste your MCP URL. There are two options:
 
 **Preferred: your personal share-token URL.** If you have an editor share link (`https://editor.lensacademy.org/?t=...`), the part after `?t=` is your token. Your MCP URL is:
