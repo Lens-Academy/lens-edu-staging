@@ -1,7 +1,7 @@
 ---
 id: 'd770ea1b-f91d-48a5-8b1b-609d37c52d90'
 title: Compute locations by datacenter size, January 2029
-summary_for_tutor: "An interactive reproduction of the AI 2040 verification supplement's opening figure, a treemap of where the world's AI compute sits on January 1, 2029 in the Plan A scenario. Every rectangle is one datacenter, drawn with the source chart's own geometry and shaded by owner (US, China, rest of world), grouped into six size bands from 10M+ H100e down to under 1K, plus compute in transit and AI and non-AI consumer compute. Pressing a band gives its datacenter count, total compute, share of world compute and the verification measure the plan applies to it (inference-only, reporting requirements, or cap and trade if unverified), and the per-region split of the datacenters drawn in that band, which the chart carries but the article's table does not. A region filter dims everything outside the US, China or the rest of the world. Done means the learner has opened all six datacenter size bands. The lesson page carries the figure caption, the H100e unit note and the three tables (size bands, other compute locations, region totals) as the text fallback, so the widget opens straight on the treemap with no title, lede or unit note of its own."
+summary_for_tutor: "An interactive reproduction of the AI 2040 verification supplement's opening figure, a treemap of where the world's AI compute sits on January 1, 2029 in the Plan A scenario. Every rectangle is one datacenter, drawn with the source chart's own geometry and shaded by owner (US, China, rest of world), grouped into six size bands from 10M+ H100e down to under 1K, plus compute in transit and AI and non-AI consumer compute. Pressing a band gives its datacenter count, total compute, share of world compute and the verification measure the plan applies to it (inference-only, reporting requirements, or cap and trade if unverified), and the per-region split of the datacenters drawn in that band, which the chart carries but the article's table does not. A region filter dims everything outside the US, China or the rest of the world. Done means the learner has opened at least one band. The lesson page carries the figure caption, the H100e unit note and the three tables (size bands, other compute locations, region totals) as the text fallback, so the widget opens straight on the treemap with no title, lede or unit note of its own."
 height: auto
 tags: [wip]
 ---
@@ -86,7 +86,6 @@ tags: [wip]
   ];
   var FOOT_X = [15, 190.7, 373];
   var SWATCH_X = [0, 175.7, 358];
-  var DC_BANDS = ["dc10m", "dc1m", "dc100k", "dc10k", "dc1k", "dcsub1k"];
   var NS = "http://www.w3.org/2000/svg";
   var INK = "#1a1a1a", ACC = "#b87018";
 
