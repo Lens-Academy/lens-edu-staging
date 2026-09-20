@@ -1,7 +1,7 @@
 ---
 id: '9268dc8c-7ac4-4c2c-92ee-33e2b67e9482'
 title: How fast LLM inference prices fell at fixed capability (Epoch AI data)
-summary_for_tutor: "An interactive replacement for the static Epoch AI chart in the AI 2027 article (July 2027 section, where the scenario's Agent-3-mini is 10x cheaper than Agent-3). It plots, on a log price axis against release date, the cheapest model that matched or beat a fixed performance threshold on a benchmark: for example the price of reaching GPT-4-0314's GPQA score fell from 37.50 to 0.12 dollars per million tokens between March 2023 and December 2024. Data are Epoch AI's public table behind its insight 'LLM inference prices have fallen 9x to 900x/year, depending on the task' (119 rows, 21 benchmark-threshold series over six benchmarks: MMLU, GPQA Diamond, MATH-500, MATH 5, HumanEval, LMSys Chatbot Arena ELO). The learner picks a benchmark, toggles its threshold series on and off, and hovers or arrows through the points to read model, date, price and score; each series shows Epoch's fitted trend and the yearly price-drop factor it implies (9x for GPT-3.5-Turbo-level MMLU, about 40x for GPT-4-level GPQA, about 900x for GPT-4o-level GPQA). Done means the learner has opened at least three benchmarks. Useful discussion: why the rate varies so much by threshold, why the fastest drops are the most recent thresholds, and whether the scenario's 10x-cheaper Agent-3-mini is ambitious or ordinary against this record. The chart's title and its framing sentences about Epoch's method now sit on the lens page in the Text segment directly above the widget (lens: Optional: Further Exploration), so the widget opens on the benchmark buttons and keeps only the chart, the per-point detail, the per-threshold tiles and the data sources."
+summary_for_tutor: "An interactive replacement for the static Epoch AI chart in the AI 2027 article (July 2027 section, where the scenario's Agent-3-mini is 10x cheaper than Agent-3). It plots, on a log price axis against release date, the cheapest model that matched or beat a fixed performance threshold on a benchmark: for example the price of reaching GPT-4-0314's GPQA score fell from 37.50 to 0.12 dollars per million tokens between March 2023 and December 2024. Data are Epoch AI's public table behind its insight 'LLM inference prices have fallen 9x to 900x/year, depending on the task' (119 rows, 21 benchmark-threshold series over six benchmarks: MMLU, GPQA Diamond, MATH-500, MATH 5, HumanEval, LMSys Chatbot Arena ELO). The learner picks a benchmark, toggles its threshold series on and off, and hovers or arrows through the points to read model, date, price and score; each series shows Epoch's fitted trend and the yearly price-drop factor it implies (9x for GPT-3.5-Turbo-level MMLU, about 40x for GPT-4-level GPQA, about 900x for GPT-4o-level GPQA). Done means the learner has switched benchmark or selected a point. Useful discussion: why the rate varies so much by threshold, why the fastest drops are the most recent thresholds, and whether the scenario's 10x-cheaper Agent-3-mini is ambitious or ordinary against this record. The chart's title and its framing sentences about Epoch's method now sit on the lens page in the Text segment directly above the widget (lens: Optional: Further Exploration), so the widget opens on the benchmark buttons and keeps only the chart, the per-point detail, the per-threshold tiles and the data sources."
 height: auto
 tags: [wip]
 ---
@@ -60,8 +60,6 @@ tags: [wip]
   .foot { margin-top: 12px; font-size: 12px; color: var(--muted); }
   .foot p { margin: 0 0 6px; }
   a { color: var(--accent); }
-  .done { margin-top: 10px; font-size: 12px; color: var(--muted); }
-  .done.is-visible::before { content: "\2713 "; color: var(--accent); }
 </style>
 </head>
 <body>
@@ -83,7 +81,6 @@ tags: [wip]
   <p class="eyebrow">Points (arrow keys move between them)</p>
   <div class="list" id="list" role="list"></div>
 </div>
-<p class="done" id="done"></p>
 
 <div class="foot">
   <p>Data: Epoch AI, "LLM inference price trends" (<a href="https://epoch.ai/data-insights/llm-inference-price-trends" target="_blank" rel="noopener">epoch.ai/data-insights/llm-inference-price-trends</a>), table "Lowest inference prices at fixed performance", retrieved 8 Sep 2026, CC-BY; prices and scores from Epoch AI and Artificial Analysis. Prices are US dollars per million tokens. Epoch's summary: the rate of decline "varies dramatically depending on the performance milestone, ranging from 9x to 900x per year."</p>
@@ -378,10 +375,7 @@ function summary() {
   return lines.join(" ");
 }
 function persist() {
-  var n = Object.keys(state.seenBench).length, finished = n >= 3;
-  var done = document.getElementById("done");
-  done.textContent = finished ? "You have compared " + n + " benchmarks." : "To finish: open at least three benchmarks (" + n + " so far).";
-  done.classList.toggle("is-visible", finished);
+  var finished = Object.keys(state.seenBench).length >= 2 || !!state.current;
   if (window.Lens) {
     Lens.saveState({ bench: state.bench, off: state.off, seenBench: state.seenBench, current: state.current }, summary());
     if (finished && !completed) { completed = true; Lens.complete(); }

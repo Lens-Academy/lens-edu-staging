@@ -91,7 +91,7 @@ tags: [wip]
   .stagebtn .bar { display: block; width: 16px; height: 3px; border-radius: 2px; margin-bottom: 6px; }
   .stagebtn .nm { display: block; font-size: 11px; line-height: 1.25; font-weight: 600; color: var(--muted); }
   .stagebtn.is-active { background: var(--accent); border-color: var(--accent); }
-  .stagebtn.is-active .nm, .stagebtn.is-active .seen { color: #fff; }
+  .stagebtn.is-active .nm { color: #fff; }
   .stagebtn.is-active .bar { background: #fff !important; }
   .sep { flex: none; align-self: center; color: var(--muted); font-size: 12px; opacity: 0.6; }
   .grad { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 8px; padding: 0 4px; font-size: 10px; color: var(--muted); }
@@ -123,7 +123,6 @@ tags: [wip]
     <div class="block-head"><span class="ttl" id="key-label"></span></div>
     <div class="chips" id="key"></div>
     <p class="note" id="key-note"></p>
-    <p class="progress" id="progress" aria-live="polite"></p>
   </div>
 
   <div class="block">
@@ -494,7 +493,7 @@ tags: [wip]
       var t = labels[c.id];
       t.setAttribute("font-size", fontSize);
       t.style.strokeWidth = (fontSize * 0.22) + "px";
-      t.textContent = shortName(c.name) + (state.opened[c.id] ? " ✓" : "");
+      t.textContent = shortName(c.name);
       var isDim = !!(state.filter && c.buckets.indexOf(state.filter) === -1);
       var isPreview = !!(!state.filter && preview && c.buckets.indexOf(preview) === -1);
       t.classList.toggle("is-dim", isDim);
@@ -604,7 +603,6 @@ tags: [wip]
     btn.appendChild(swatch(b.color));
     btn.appendChild(el("span", "nm", b.name));
     btn.appendChild(el("span", "n", n + " " + (n === 1 ? "country" : "countries")));
-    btn.appendChild(el("span", "seen", "✓"));
     btn.addEventListener("click", function () { toggleFilter(bk, "key"); });
     btn.addEventListener("mouseenter", function () { if (canHover) { preview = bk; renderMap(); } });
     btn.addEventListener("mouseleave", function () { if (preview) { preview = null; renderMap(); } });
@@ -623,7 +621,6 @@ tags: [wip]
     bar.setAttribute("aria-hidden", "true");
     btn.appendChild(bar);
     var nm = el("span", "nm", st.name + " ");
-    nm.appendChild(el("span", "seen", "✓"));
     btn.appendChild(nm);
     btn.addEventListener("click", function () { toggleFilter(st.bucket, st.key); });
     btn.addEventListener("mouseenter", function () { if (canHover) { preview = st.bucket; renderMap(); } });
@@ -666,7 +663,7 @@ tags: [wip]
       detailEl.appendChild(el("p", "sub", COPY.layerNeed));
       var members = el("div", "chips members");
       membersOf(state.filter).forEach(function (c) {
-        var mb = el("button", state.opened[c.id] ? "is-seen" : "", shortName(c.name));
+        var mb = el("button", "", shortName(c.name));
         mb.type = "button";
         mb.addEventListener("click", function () { gotoCountry(c.id); });
         members.appendChild(mb);
@@ -703,25 +700,20 @@ tags: [wip]
   }
 
   /* ---------- render everything ---------- */
-  var progressEl = document.getElementById("progress");
 
   function render() {
     renderMap();
     BUCKET_ORDER.forEach(function (bk) {
       var active = state.filter === bk && state.filterSource === "key";
       keyButtons[bk].classList.toggle("is-active", active);
-      keyButtons[bk].classList.toggle("is-seen", !!state.layers[bk]);
       keyButtons[bk].setAttribute("aria-pressed", active ? "true" : "false");
     });
     FLOW.forEach(function (st) {
       var active = state.filter === st.bucket && state.filterSource === st.key;
       stageButtons[st.key].classList.toggle("is-active", active);
-      stageButtons[st.key].classList.toggle("is-seen", !!state.stages[st.key]);
       stageButtons[st.key].setAttribute("aria-pressed", active ? "true" : "false");
     });
     renderDetail();
-    progressEl.textContent = "Opened " + countKeys(state.opened) + " of " + COUNTRIES.length + " countries · isolated " +
-      countKeys(state.layers) + " of " + BUCKET_ORDER.length + " layers · lit " + countKeys(state.stages) + " of " + FLOW.length + " pipeline stages";
   }
 
   /* ---------- actions (mirror XLab's reducer) ---------- */

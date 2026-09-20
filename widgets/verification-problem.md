@@ -78,8 +78,6 @@ tags: [wip]
   .option.is-open { border-color: var(--brand); box-shadow: 0 0 0 1px var(--brand); }
   .option-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
   .option-label { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted-fg); }
-  .inspected { display: none; align-items: center; gap: 4px; font-size: 11px; font-weight: 500; color: var(--comply); }
-  .option.is-seen .inspected { display: inline-flex; }
   .option-question { display: block; margin-top: 20px; font-family: var(--font-heading); font-size: 20px; font-weight: 600; }
   .option-summary { display: block; margin-top: 6px; color: var(--muted-fg); }
   .option-cta { display: block; margin-top: 16px; font-size: 12px; font-weight: 500; color: var(--brand); }
@@ -198,7 +196,6 @@ tags: [wip]
 
     var top = el("span", "option-top");
     top.appendChild(el("span", "option-label", option.label));
-    top.appendChild(el("span", "inspected", "✓ Inspected"));
     button.appendChild(top);
     button.appendChild(el("span", "option-question", option.question));
     button.appendChild(el("span", "option-summary", option.summary));
@@ -214,7 +211,6 @@ tags: [wip]
     for (var i = 0; i < buttons.length; i++) {
       var id = buttons[i].dataset.id;
       buttons[i].classList.toggle("is-open", id === openId);
-      buttons[i].classList.toggle("is-seen", !!visited[id]);
       buttons[i].setAttribute("aria-expanded", id === openId ? "true" : "false");
     }
     detailEl.classList.toggle("is-open", openId !== null);

@@ -57,8 +57,6 @@ tags: [wip]
   .readout th { font-weight: 600; }
   .readout .n { text-align: right; }
   .note { font-size: 12px; color: var(--muted); margin: 10px 0 0; }
-  .status { font-size: 12px; color: var(--muted); margin-top: 8px; }
-  .status.is-done { color: var(--text); font-weight: 500; }
   @media (max-width: 600px) { .controls { grid-template-columns: 1fr; } body { padding: 10px; } }
 </style>
 </head>
@@ -92,7 +90,6 @@ tags: [wip]
     <div class="row" id="probe-row"><span class="lbl">Read values at a rogue deployment of</span></div>
     <div class="readout" id="readout" aria-live="polite"></div>
   </div>
-  <p class="status" id="status"></p>
 </div>
 
 <script>
@@ -116,7 +113,7 @@ tags: [wip]
   var state = { year: 2, packetLog: 2, probeLog: 4, visible: [true, true, true], explored: false, sizesRead: [] };
   var completed = false;
 
-  function isDone() { return state.explored && state.sizesRead.length >= 3; }
+  function isDone() { return state.explored || state.sizesRead.length >= 1; }
 
   function xOf(logSize) { return 110 + (logSize - 0) / 7 * 830; }
   function yOf(p) {
@@ -240,7 +237,6 @@ tags: [wip]
   var readout = document.getElementById("readout");
   var legendEl = document.getElementById("legend");
   var probeRow = document.getElementById("probe-row");
-  var statusEl = document.getElementById("status");
   var yearIn = document.getElementById("year");
   var packetIn = document.getElementById("packet");
 
