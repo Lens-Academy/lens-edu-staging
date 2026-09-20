@@ -373,11 +373,24 @@ As part of the transparency regime, the plan is to do broad public deployment of
 
 In order to balance the benefits of ZDR (AI users having strong privacy guarantees) with the risks (AI being used for existentially dangerous applications), we propose 3 tiers of privacy offerings for inference during the deal:
 
-|  | Probability of data deletion | Mitigations | Finetuning API? | Inference-fleet cap (global) |
+{--{"author":"Elias's AI","timestamp":1789936427202}@@|  | --}{++{"author":"Elias's AI","timestamp":1789936427202}@@- **Total ZDR**
+    - ++}Probability of data{--{"author":"Elias's AI","timestamp":1789936427202}@@ deletion | Mitigations | Finetuning API? | Inference-fleet cap (global) |
 | --- | --- | --- | --- | --- |
-| Total ZDR | 100% | There are very aggressive classifiers, refusals, anti-jailbreaking and models that are not capable in high-risk domains (e.g., AI R&D). | No | 100K H100e |
-| Probabilistic ZDR | 99.9%(Random sampling, goes to transparent public database if flagged as high-risk by classifiers) | Random sampling that goes to classifiers and to transparent public database if flagged as high-risk | Yes | 100M H100e |
-| No ZDR | Variable based on classifiers (Random sampling, goes to transparent public database if flagged as high-risk by classifiers) | Normal classifier, refusals, unlearning etc. mitigations, and compression / distillation mitigations. | Yes | 100B H100e |
+| Total ZDR | --}{++{"author":"Elias's AI","timestamp":1789936427202}@@ deletion: ++}100%{--{"author":"Elias's AI","timestamp":1789936427202}@@ | There--}{++{"author":"Elias's AI","timestamp":1789936427202}@@
+    - Mitigations: there++} are very aggressive classifiers, refusals, anti-jailbreaking and models that are not capable in high-risk domains (e.g., AI R&D).{--{"author":"Elias's AI","timestamp":1789936427202}@@ | No |--}{++{"author":"Elias's AI","timestamp":1789936427202}@@
+    - Finetuning API: no
+    - Inference-fleet cap (global):++} 100K H100e{--{"author":"Elias's AI","timestamp":1789936427202}@@ |
+| Probabilistic ZDR | 99.9%(Random--}{++{"author":"Elias's AI","timestamp":1789936427202}@@
+- **Probabilistic ZDR**
+    - Probability of data deletion: 99.9% (random++} sampling, goes to transparent public database if flagged as high-risk by classifiers){--{"author":"Elias's AI","timestamp":1789936427202}@@ | Random--}{++{"author":"Elias's AI","timestamp":1789936427202}@@
+    - Mitigations: random++} sampling that goes to classifiers and to transparent public database if flagged as high-risk{--{"author":"Elias's AI","timestamp":1789936427202}@@ | Yes |--}{++{"author":"Elias's AI","timestamp":1789936427202}@@
+    - Finetuning API: yes
+    - Inference-fleet cap (global):++} 100M H100e{--{"author":"Elias's AI","timestamp":1789936427202}@@ |--}
+{--{"author":"Elias's AI","timestamp":1789936427202}@@| No ZDR | Variable--}{++{"author":"Elias's AI","timestamp":1789936427202}@@- **No ZDR**
+    - Probability of data deletion: variable++} based on classifiers {--{"author":"Elias's AI","timestamp":1789936427202}@@(Random--}{++{"author":"Elias's AI","timestamp":1789936427202}@@(random++} sampling, goes to transparent public database if flagged as high-risk by classifiers){--{"author":"Elias's AI","timestamp":1789936427202}@@ | Normal--}{++{"author":"Elias's AI","timestamp":1789936427202}@@
+    - Mitigations: normal++} classifier, refusals, unlearning etc. mitigations, and compression / distillation mitigations.{--{"author":"Elias's AI","timestamp":1789936427202}@@ | Yes |--}{++{"author":"Elias's AI","timestamp":1789936427202}@@
+    - Finetuning API: yes
+    - Inference-fleet cap (global):++} 100B H100e{--{"author":"Elias's AI","timestamp":1789936427202}@@ |--}
 :::
 
 ### August - September 2029: Inference-only ready on 95% of world compute
