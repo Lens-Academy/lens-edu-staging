@@ -30,7 +30,6 @@ tags: [wip]
   button:hover { background: var(--surface); }
   button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   button.is-active { border-color: var(--text); box-shadow: 0 0 0 1px var(--text); }
-  button.is-seen::after { content: " \2713"; color: var(--muted); }
   button.is-off { color: var(--muted); border-style: dashed; }
   .rowctl { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
   .rowctl .lbl { font-size: 12px; color: var(--muted); align-self: center; margin-right: 2px; }
@@ -245,7 +244,6 @@ tags: [wip]
       var key = bb[i].dataset.key;
       bb[i].classList.toggle("is-active", key === state.band);
       bb[i].setAttribute("aria-pressed", key === state.band ? "true" : "false");
-      bb[i].classList.toggle("is-seen", state.seen.indexOf(key) !== -1);
     }
     var rb = regionsEl.querySelectorAll("button");
     for (i = 0; i < rb.length; i++) {
