@@ -421,12 +421,12 @@ We highlight a few approaches below, and roughly where we think they fall on thi
 4.  **Compute and resource caps.** simple caps on R&D compute. This is extremely easy to implement and verify, but it might just be very inaccurate. Knowing how much progress will result from certain compute and other resource (e.g., human researcher) thresholds will be an uncertain modelling question, that likely will have wide error bars. In the early stages of a deal though, setting these very low seems like a good, easy to implement starter, which can then be escalated to more accurate approaches given time to ramp capacity.
     
 
-| Approach | Ease of implementation | Regulatory accuracy | Suggested timing |
+{--{"author":"Elias's AI","timestamp":1789936927048}@@| Approach | Ease of implementation | Regulatory accuracy | Suggested timing |
 | --- | --- | --- | --- |
 | Compute caps: simple caps on R&D compute | Easiest | Lowest | ~2030 |
 | Human-interpretable requirement: all approved techniques understood end-to-end by some group of humans | Easier | Lower | after compute caps |
 | Quality ad-hoc rules: case-by-case decisions on permitted research directions and speed | Harder | Higher | before safety cases |
-| Safety case burden of proof: all R&D requires strong safety case arguments before approval | Hardest | Highest | ~2035 |
+| Safety case burden of proof: all R&D requires strong safety case arguments before approval | Hardest | Highest | ~2035 |--}{++{"author":"Elias's AI","timestamp":1789936927048}@@![[../widgets/ai-2040-research-titration]]++}
 :::
 
 With a particular set of rules on research in place, there is a separate problem of enforcing these rules are actually followed. We can divide the problem of enforcing the R&D rules into two parts:
