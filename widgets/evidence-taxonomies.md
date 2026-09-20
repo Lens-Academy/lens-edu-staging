@@ -33,7 +33,6 @@ tags: [wip]
   .tab:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
   .tab.is-active { background: var(--accent); border-color: var(--accent); color: #fff; }
   .tab.is-active:hover { background: var(--accent-hover); }
-  .tab .mark { display: inline-block; width: 1em; }
   .body { display: grid; gap: 20px; padding: 16px; }
   @media (min-width: 900px) { .body { grid-template-columns: minmax(0, 1fr) 19rem; padding: 20px; } }
   .question { border: 1px solid var(--border); border-radius: 8px; background: var(--surface); padding: 14px 16px; }
@@ -313,7 +312,7 @@ tags: [wip]
       if (!completed && state.viewed.length >= 1) { completed = true; Lens.complete(); }
     } else {
       try { localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot)); } catch (e) { /* storage unavailable */ }
-      if (state.viewed.length === MAPS.length) completed = true;
+      if (state.viewed.length >= 1) completed = true;
     }
   }
 
@@ -322,7 +321,6 @@ tags: [wip]
     b.type = "button";
     b.setAttribute("role", "tab");
     b.dataset.key = map.key;
-    b.appendChild(el("span", "mark", ""));
     b.appendChild(el("span", null, map.label));
     b.addEventListener("click", function () {
       state.map = map.key;
