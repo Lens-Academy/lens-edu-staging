@@ -246,7 +246,7 @@ Summary of the proposal:
         
 6.  **Verify completeness by [bounding the maximum side channel communication](https://techgov.intelligence.org/blog/suppressing-side-channels-in-an-untrusted-data-center-via-retrofitted-defenses), and using periodic memory wipes (probably through forced memorization).**
     
-    1.  The completeness of this verification proposal, i.e., that the only outputs from the cluster are verified inference tokens, requires side channel mitigations and memory wiping as described. We do not verify that spare compute isn’t used for unapproved workloads (because this seems very challenging) but try to ensure that the only persisting results in the form of outputs are verified inference outputs. This requires strong side channel mitigations and periodic memory wiping on the inference units (which we think can be done through forced memorization).
+    {--{"author":"Elias's AI","timestamp":1789935109444}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935109444}@@-   ++}The completeness of this verification proposal, i.e., that the only outputs from the cluster are verified inference tokens, requires side channel mitigations and memory wiping as described. We do not verify that spare compute isn’t used for unapproved workloads (because this seems very challenging) but try to ensure that the only persisting results in the form of outputs are verified inference outputs. This requires strong side channel mitigations and periodic memory wiping on the inference units (which we think can be done through forced memorization).
         
 
 One potential upgrade to this proposal would be to build more complex ‘secure network gateways’ that have more functionality than the network taps, and do random sampling and organize and randomly sample the logs of reproduction packets to send to the recomputation server in a robust way.
@@ -268,15 +268,15 @@ Instead of the partial recomputation approach we sketched out, it might be possi
 
 1.  Purely cryptographic protocols, e.g., Zero Knowledge Proofs (ZKPs) for AI workloads
     
-    1.  This has the promise of being privacy-preserving and potentially requiring less of a hardware retrofit, but is currently somewhat speculative due to the lack of computationally efficient enough algorithms for doing so being discoverable.
+    {--{"author":"Elias's AI","timestamp":1789935109872}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935109872}@@-   ++}This has the promise of being privacy-preserving and potentially requiring less of a hardware retrofit, but is currently somewhat speculative due to the lack of computationally efficient enough algorithms for doing so being discoverable.
         
 2.  Memory-challenge based verification
     
-    1.  This has the promise of potentially also not requiring a hardware retrofit, but seems likely to face some difficulties with verifying completeness. Nonetheless it might be viable for an initial deal implementation.
+    {--{"author":"Elias's AI","timestamp":1789935110589}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935110589}@@-   ++}This has the promise of potentially also not requiring a hardware retrofit, but seems likely to face some difficulties with verifying completeness. Nonetheless it might be viable for an initial deal implementation.
         
 3.  Crude hardware modifications.
     
-    1.  Removing major scale out interconnect and e.g., installing some simple sensors and other physical security mechanisms might also suffice for verifying inference-only for an initial phase of a deal (e.g., 1 year) until higher assurance measures are ready for larger amounts of compute and higher stakes workloads.
+    {--{"author":"Elias's AI","timestamp":1789935111023}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935111023}@@-   ++}Removing major scale out interconnect and e.g., installing some simple sensors and other physical security mechanisms might also suffice for verifying inference-only for an initial phase of a deal (e.g., 1 year) until higher assurance measures are ready for larger amounts of compute and higher stakes workloads.
 :::
         
 
@@ -625,17 +625,17 @@ One downside of publicly deploying highly capable models is that they could enab
 
 1.  **Refusals or capabilities shaping.**
     
-    1.  AIs that are released publicly by the Consortium should be bad at AI research. They could be designed to be worse at ML engineering than other tasks, to make it harder for rogue projects to use them. This has the downside of being worse for speeding up diffused safety research. Robust refusals, instead of a lack of capability, may be another way to achieve this goal.
+    {--{"author":"Elias's AI","timestamp":1789935111399}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935111399}@@-   ++}AIs that are released publicly by the Consortium should be bad at AI research. They could be designed to be worse at ML engineering than other tasks, to make it harder for rogue projects to use them. This has the downside of being worse for speeding up diffused safety research. Robust refusals, instead of a lack of capability, may be another way to achieve this goal.
         
 2.  **Monitoring.**
     
-    1.  On top of inference correctness verification, there should be monitors (probably passive rather than active is fine) running on the models, checking to see if they seem to be involved in doing AI research, large scale training, or other dangerous research. It may be tractable to detect these cases quite reliably, for example, if they are operating in a codebase that involves code for training over a large number of GPUs, it is pretty obvious that this is an illegal usage.
+    {--{"author":"Elias's AI","timestamp":1789935111783}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935111783}@@-   ++}On top of inference correctness verification, there should be monitors (probably passive rather than active is fine) running on the models, checking to see if they seem to be involved in doing AI research, large scale training, or other dangerous research. It may be tractable to detect these cases quite reliably, for example, if they are operating in a codebase that involves code for training over a large number of GPUs, it is pretty obvious that this is an illegal usage.
         
 3.  **Compression.**
     
-    1.  Never show any reasoning intermediates to users by default, and maximally compress outputs to summaries up to some small quota.
+    {--{"author":"Elias's AI","timestamp":1789935112218}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935112218}@@-   ++}Never show any reasoning intermediates to users by default, and maximally compress outputs to summaries up to some small quota.
         
-    2.  Vertically integrate whenever possible at multiple levels and just produce outputs:
+    {--{"author":"Elias's AI","timestamp":1789935112683}@@2.  --}{++{"author":"Elias's AI","timestamp":1789935112683}@@-   ++}Vertically integrate whenever possible at multiple levels and just produce outputs:
         
 
 We currently think these are tractable mitigations that will allow a lot of broad deployment, but are uncertain. There should be ongoing testing for distillation and detecting dangerous research.
@@ -645,15 +645,15 @@ We currently think these are tractable mitigations that will allow a lot of broa
 
 1.  **Setting rules on hardware research**
     
-    1.  One specific subset of the rules might be to only allow research into traditional-like robot designs, traditional-like chip designs, since much of the risks from hardware research are in destabilizing paradigm shifting scientific breakthroughs that might lead to things like nanotechnology or far easier-to-manufacture AI compute. And traditional-like designs might still be improvable enough to realize the benefits of hardware and robot buildups under the deal. That being said, if they are not improvable enough, then it might be more advisable to make more relaxed hardware research restrictions.
+    {--{"author":"Elias's AI","timestamp":1789935113110}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935113110}@@-   ++}One specific subset of the rules might be to only allow research into traditional-like robot designs, traditional-like chip designs, since much of the risks from hardware research are in destabilizing paradigm shifting scientific breakthroughs that might lead to things like nanotechnology or far easier-to-manufacture AI compute. And traditional-like designs might still be improvable enough to realize the benefits of hardware and robot buildups under the deal. That being said, if they are not improvable enough, then it might be more advisable to make more relaxed hardware research restrictions.
         
-    2.  In hardware we might have an unclear idea of the relationship between inputs and progress, just like we are also very uncertain about the relationship between compute and software progress. Nevertheless, we can use the same hope that by operating over harsh order of magnitude reductions in inputs (e.g., energy caps, materials caps, research labor caps, etc.) we might be able to iteratively slow the pace of hardware progress to levels perceived to be safe in a lossy but easy to implement way.
+    {--{"author":"Elias's AI","timestamp":1789935113502}@@2.  --}{++{"author":"Elias's AI","timestamp":1789935113502}@@-   ++}In hardware we might have an unclear idea of the relationship between inputs and progress, just like we are also very uncertain about the relationship between compute and software progress. Nevertheless, we can use the same hope that by operating over harsh order of magnitude reductions in inputs (e.g., energy caps, materials caps, research labor caps, etc.) we might be able to iteratively slow the pace of hardware progress to levels perceived to be safe in a lossy but easy to implement way.
         
 2.  **Enforcing rules on hardware research.**
     
-    1.  Once the hardware research titration rules are set, we need a way to verify they are being followed. One possibility would be to use the same high level approach as for software enforcement, i.e., approve hardware research jobs case by case (or via some automated whitelist/blacklist process), divide up jobs into substeps and collect evidence about them, and then check random samples for compliance. One problem with this approach in the hardware case is that it seems far harder to get high reproducibility in e.g., a chemistry experiment, because two labs in the real world are not as homogenous as AI chips. This opens the door for plausible deniability and violations. Therefore, we probably need to not go with a reproducing based approach on everything. That being said, there might be many slices of the hardware research that are reproducible.
+    {--{"author":"Elias's AI","timestamp":1789935114152}@@1.  --}{++{"author":"Elias's AI","timestamp":1789935114152}@@-   ++}Once the hardware research titration rules are set, we need a way to verify they are being followed. One possibility would be to use the same high level approach as for software enforcement, i.e., approve hardware research jobs case by case (or via some automated whitelist/blacklist process), divide up jobs into substeps and collect evidence about them, and then check random samples for compliance. One problem with this approach in the hardware case is that it seems far harder to get high reproducibility in e.g., a chemistry experiment, because two labs in the real world are not as homogenous as AI chips. This opens the door for plausible deniability and violations. Therefore, we probably need to not go with a reproducing based approach on everything. That being said, there might be many slices of the hardware research that are reproducible.
         
-    2.  Another possibility is that since many things might be macroscale, you can monitor everything directly with a monitoring scheme that you trust. Maybe the trusted monitor will be hard to build though, so instead, you might be able to instead have humans inspect random samples of all the recordings, and benefit from the favorable detection probability scaling from random sampling.
+    {--{"author":"Elias's AI","timestamp":1789935114748}@@2.  --}{++{"author":"Elias's AI","timestamp":1789935114748}@@-   ++}Another possibility is that since many things might be macroscale, you can monitor everything directly with a monitoring scheme that you trust. Maybe the trusted monitor will be hard to build though, so instead, you might be able to instead have humans inspect random samples of all the recordings, and benefit from the favorable detection probability scaling from random sampling.
         
 
 Overall, we are very uncertain about how to verify hardware research rules, and have the current sense that it might be harder than software (but also think it's plausibly easier). That being said the default speed and risk level, and therefore the overall slowdown required we think is likely to be lower.
