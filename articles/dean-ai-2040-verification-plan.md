@@ -497,7 +497,7 @@ The case for being worried about AI software progress was illustrated in AI 2027
 
 Three major reasons to be worried about unconstrained hardware progress:
 
-**Production explosion effects**
+{--{"author":"Elias's AI","timestamp":1789937716029}@@**Production --}{++{"author":"Elias's AI","timestamp":1789937716029}@@:::callout {title="Production ++}explosion {--{"author":"Elias's AI","timestamp":1789937716029}@@effects**--}{++{"author":"Elias's AI","timestamp":1789937716029}@@effects" tone="neutral"}++}
 
 We should be worried about an explosion in the industrial capacity (e.g., number of robots) on earth, even absent design improvements.
 
@@ -508,21 +508,24 @@ An absurd number of robots might be able to do destabilizing things like:
 (1) Create massive military advantages for first movers (either directly in the form of a robot army, or through pure industrial capacity, e.g., missile/weapons production capacity),
 
 (2) Build AI hardware covertly (by building all the equipment & facility needed to do so from the ground up in a secret location)
-
-**Destabilizing robot designs**
+{++{"author":"Elias's AI","timestamp":1789937716029}@@:::
+++}
+{--{"author":"Elias's AI","timestamp":1789937716519}@@**Destabilizing --}{++{"author":"Elias's AI","timestamp":1789937716519}@@:::callout {title="Destabilizing ++}robot {--{"author":"Elias's AI","timestamp":1789937716519}@@designs**--}{++{"author":"Elias's AI","timestamp":1789937716519}@@designs" tone="neutral"}++}
 
 We should also be worried about new advanced designs, e.g., self-replicating microbot/nanobot/biotech.
 
 Biological anchors (and precedents of humans beating biology with intelligent designs) should have us worried that scary robot designs are possible. Specifically, we should be worried about self-replicating nanotech / biotech that have very fast doubling times.
 
 The core concern here is that these designs, unlike macroscale robots, might be too hard to govern, and break any regulations once they are invented.
-
-**Destabilizing AI compute designs**
+{++{"author":"Elias's AI","timestamp":1789937716519}@@:::
+++}
+{--{"author":"Elias's AI","timestamp":1789937716956}@@**Destabilizing --}{++{"author":"Elias's AI","timestamp":1789937716956}@@:::callout {title="Destabilizing ++}AI compute {--{"author":"Elias's AI","timestamp":1789937716956}@@designs**--}{++{"author":"Elias's AI","timestamp":1789937716956}@@designs" tone="neutral"}++}
 
 We should also be worried about AI hardware design improvements that make it easier to manufacture.
 
 AI hardware design improvements and/or paradigm shifts might make it easy to defect from the deal. If there is a paradigm shift in hardware design making it no longer require an extremely specialized, complex, and centralized manufacturing supply chain to make AI compute, it might be tractable for covert projects to manufacture more AI compute in an undetected way threatening the stability of the deal.
-
+{++{"author":"Elias's AI","timestamp":1789937716956}@@:::
+++}
 Similarly we want other high risk scientific domains such as biology research to have R&D restricted. Our default proposal for this is to rely on inference refusals and monitoring on the majority of public deployment, and then potentially set up dedicated locations that allow high-stakes hardware and other scientific research to be carried out in mutually verified research labs, where we make some (not necessarily identical) security-transparency tradeoff choices, and mutually verify that the companies follow the titration rules on hardware R&D, which can also be some combination of safety cases, ad-hoc rules, human interpretability requirements and resource caps (similar to software research).
 
 :::callout {title="Inference restrictions, monitoring and refusals for high-risk domains." tone="neutral" collapse="closed"}
