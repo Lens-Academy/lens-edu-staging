@@ -377,9 +377,7 @@ tags: [wip]
 
   function renderStatus() {
     var n = seenCount(), total = MILESTONES.length;
-    statusEl.textContent = n >= total
-      ? "All " + total + " milestones seen ✓"
-      : n + " of " + total + " milestones brought fully into view. Drag the timeline, or use the arrow buttons, to find the rest.";
+    statusEl.textContent = n >= total ? "" : "Drag the timeline, or use the arrow buttons, to see the rest.";
   }
 
   /* ---------- Interaction ---------- */

@@ -343,9 +343,7 @@ tags: [wip]
   }
 
   function renderStatus() {
-    statusEl.textContent = state.explored
-      ? "Chart explored ✓"
-      : "Read a year, hide a series or open the data table to finish.";
+    statusEl.textContent = "";
   }
 
   /* ---------- Interaction ---------- */
