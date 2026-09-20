@@ -255,11 +255,6 @@ tags: [wip]
       cells[i].classList.toggle("is-dim", want !== -1 && !cells[i].classList.contains("r" + want));
     }
     renderDetail();
-    var left = DC_BANDS.filter(function (k) { return state.seen.indexOf(k) === -1; }).length;
-    statusEl.textContent = isDone()
-      ? "Done: you have opened all six datacenter size bands."
-      : "Opened " + (DC_BANDS.length - left) + " of the 6 datacenter size bands.";
-    statusEl.classList.toggle("is-done", isDone());
   }
 
   function summary() {
