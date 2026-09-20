@@ -51,6 +51,8 @@ source:: [[../widgets/types-of-ai]]
 
 Optional on the segment: `height::` overrides the file's height for that one placement; `required:: true` makes the lens wait for the widget's `Lens.complete()` before the learner can mark it complete (widgets gate nothing by default). A widget can be used by several lenses.
 
+**Widgets that belong to an article.** If a widget is built because it belongs to a source article (it reproduces or replaces a figure in an article we import), it goes inside that article, at the figure's place, with `![[../widgets/name]]` on its own line in `articles/<name>.md` (see [[Adding Sources]]). It is then imported into every lens together with the article excerpt. Never place such a widget as a separate `#### Widget` segment in the lens next to the article: that puts the figure outside the article it belongs to. And never make it more complex than the figure it stands for: the same chart, the same controls the original has and no others, no buttons, filters, readouts, progress marks or instructions the original does not show. Tables, captions or lead-ins written as a text stand-in for the figure go away when the widget goes in.
+
 ## Saving state, completing, talking to the tutor
 
 Every widget page gets a `window.Lens` object from the platform. Nothing to include; it is there before your script runs.
