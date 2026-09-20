@@ -67,7 +67,6 @@ tags: [wip]
   .sw.sm { width: 8px; height: 8px; border-radius: 2px; }
   .chip { display: inline-flex; align-items: center; gap: 6px; padding: 2px 8px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--muted); font-size: 11px; }
   .note { margin-top: 6px; color: var(--muted); font-size: 13px; }
-  .progress { margin-top: 6px; font-size: 12px; color: var(--muted); }
 
   .detail { border: 1px solid var(--border); border-radius: 8px; background: var(--surface); padding: 14px; min-height: 8rem; }
   .detail .top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }

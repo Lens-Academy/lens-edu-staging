@@ -256,9 +256,9 @@ One potential upgrade to this proposal would be to build more complex ‘secure 
 A rough sketch for what these secure network gateways might look like. There are data path directions (input and output) with network splitters on each path that log data flow to be organized into packets that are randomly sampled and then sent to a secure recomputing server. In a boot phase, these gateways can additionally check that exclusively whitelisted model weights are being uploaded to the inference unit. Some of the hardware security properties you might want for these gateways are precedented, for example, see [iPhone secure enclaves](https://support.apple.com/guide/security/the-secure-enclave-sec59b0b31ff/web) and [PUFs](https://en.wikipedia.org/wiki/Types_of_physical_unclonable_function).
 
 These could be used in place of the network taps in a similar setup as before.
-:::
 
 ![](https://ai-2040.com/verification-plan/image1.png)
+:::
 
 On top of this key effort to build the network-tap and recomputation centered approach, there is also significant funding (order of $100M) mobilized into R&D for other approaches, including software-only and cryptography-centric (e.g., [ZKPs](https://en.wikipedia.org/wiki/Zero-knowledge_proof)) approaches, and a similar pool for physical security R&D (order of $100M) that supplements the inference-only retrofitting solution.
 
