@@ -120,7 +120,6 @@ tags: [wip]
   var regionsEl = document.getElementById("regions");
   var detail = document.getElementById("detail");
   var legendEl = document.getElementById("legend");
-  var statusEl = document.getElementById("status");
   var bandGroups = {};
 
   function fillFor(r) { return r === 1 ? ACC : INK; }
@@ -322,7 +321,6 @@ tags: [wip]
       if (Array.isArray(saved.seen)) state.seen = saved.seen.filter(function (k) { return !!bandByKey(k); });
     }
     completed = !!(meta && meta.completed);
-    if (completed) state.seen = DC_BANDS.slice();
     render();
   }
 
