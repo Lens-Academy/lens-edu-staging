@@ -15,7 +15,7 @@ content::
 Before reading further, write 5-7 sentences answering the following question: Is AI control good? How good? Why do you think this?
 
 Write between 30 and 150 words.
-assessment-instructions:: The learner has just opened the lesson and has read none of it. This is a prior-elicitation question, not a knowledge check. There is no rubric and no model answer, and the module's whole claim is that this question has no context-free answer, so score effort and specificity, never the position taken.
+feedback-instructions:: The learner has just opened the lesson and has read none of it. This is an ungraded prior-elicitation question. In two or three sentences, reflect back the position and the reasons they gave without endorsing or correcting them, and note that the lesson's whole claim is that this question has no context-free answer, so they should keep this answer to compare against at the end. Do not preview the lesson's model. One turn, no follow-up question. No generic praise.
 
 Full marks for 30 to 150 words that do two things: take a position on whether control is a good investment and roughly how good, and give at least one reason. A reason can be about the technique (whether monitoring scales, whether evaluations can bound what a scheming model does) or about the world the technique would be deployed into (how likely models are to scheme, how much a lab would spend on safety, whether anyone in power would act on a warning). Deduct only for a bare position with no reason, or for a response that answers a different question. Never mark a position wrong.
 
@@ -280,7 +280,7 @@ Skim the AI 2027 scenario above, keeping in mind the specific sequence of capabi
 Then answer the following: where does control's marginal value peak along this trajectory, and what could make its value decrease/increase? Do you disagree with any of the selected scenarios? If so, why?
 
 Write between 75 and 500 words.
-assessment-instructions:: There is no rubric and no model answer for this question, so grade it against what the prompt itself asks for. The learner has just finished the lesson's model (three states, five worlds, the two levers, the loop) and has skimmed the AI 2027 scenario.
+feedback-instructions:: The learner has finished the lesson's model (three states, five worlds, the two levers, the loop) and has skimmed the AI 2027 scenario. There is no model answer. In at most six sentences: say whether they picked the three moments the prompt asks for (before, at, and after the first evidence of misalignment), then engage their claim about where control's marginal value peaks using the lesson's own model, and name one consideration they missed if there is one. One turn, no follow-up question. No generic praise.
 
 Criteria, roughly equal weight:
 1. **Three moments, correctly placed.** They name three specific moments drawn from the AI 2027 scenario, not invented ones, and the three sit in the right relation to the scenario's first event that would count as evidence of misalignment: one before it, one at it, one after it. A defensible but unusual reading of what counts as the first such event is fine as long as they say why they chose it.
