@@ -7,8 +7,8 @@ tags:
 ---
 %% Day 4 of AI Control Part 2 (five-day split of XLab's seven-module track, September 2026). Core self-study 300 minutes. Lens order follows XLab's track. %%
 
-# Submodule: Day 4
-# Lens: Day 4 overview
+# Submodule: Unit 4
+# Lens: Unit 4 overview
 tldr:: Threat models that are not schemers: reward seekers, satiable preferences, spillway motivations, the empirical evidence, and a guided exercise on measuring reward seeking.
 summary_for_tutor:: Day 4 overview page of AI Control Part 2. It only lists what the day covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
 id:: 0d55a559-a043-486d-a805-27d2ce38599f

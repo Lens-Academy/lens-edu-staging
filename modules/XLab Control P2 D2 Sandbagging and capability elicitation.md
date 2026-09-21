@@ -10,13 +10,13 @@ tags:
 # Submodule: Unit 2
 # Lens: Unit 2 overview
 tldr:: Sandbagging and exploration hacking as a threat model, a guided exercise on stress-testing capability elicitation, and the paper on whether models can learn to resist RL training.
-summary_for_tutor:: Day 2 overview page of AI Control Part 2. It only lists what the day covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
+summary_for_tutor:: Unit 2 overview page of AI Control Part 2. It only lists what the unit covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
 id:: fe89122b-e58b-4138-adfd-838f4ca74d08
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
 content::
-\## Day 2: Sandbagging and capability elicitation
+\## Unit 2: Sandbagging and capability elicitation
 
 Strategic underperformance: sandbagging and exploration hacking as a threat model, a guided exercise on stress-testing capability elicitation, and the paper on whether models can learn to resist RL training.
 
