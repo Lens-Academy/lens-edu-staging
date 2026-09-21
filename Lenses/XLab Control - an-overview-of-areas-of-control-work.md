@@ -24,7 +24,6 @@ source:: [[../articles/greenblatt-an-overview-of-areas-of-control-work]]
 id:: d87f459c-72a8-4f8e-a439-00337d5b7b8b
 content::
 \## Part 1: Constructing a theory of change
-feedback-instructions:: The learner has finished Greenblatt's overview of areas of control work, built a causal chain from one area (or one project) to a reduction in existential risk, and answered the four questions. There is no model answer. In at most eight sentences: restate their chain in one line to show you read it, say which of the four questions they answered convincingly, and press on the one where the chain is weakest, typically why the work is feasible now, or who would adopt its output and why. One turn, no follow-up question. No generic praise.
 
 Choose one area of control work from the post, or a specific project within one. Construct a causal chain from work beginning today to a reduction in existential risk. Then, answer the following questions:
 
@@ -35,6 +34,7 @@ Choose one area of control work from the post, or a specific project within one.
 - How does this reduce x-risk?
 
 Write at least 200 and at most 600 words.
+feedback-instructions:: The learner has finished Greenblatt's overview of areas of control work, built a causal chain from one area (or one project) to a reduction in existential risk, and answered the four questions. There is no model answer. In at most eight sentences: restate their chain in one line to show you read it, say which of the four questions they answered convincingly, and press on the one where the chain is weakest, typically why the work is feasible now, or who would adopt its output and why. One turn, no follow-up question. No generic praise.
 assessment-instructions::
 The student has just read Ryan Greenblatt's "An overview of areas of control work" and is writing the first of two linked exercises. They pick one of the eight areas, or one project inside an area, and build a causal chain from work starting today to reduced existential risk. Any of the areas is a legitimate choice; never push them toward one.
 
@@ -56,7 +56,6 @@ If the student says they do not understand, neither dismiss it nor repeat the qu
 id:: f18fe965-a293-425d-96f0-130299040835
 content::
 \## Part 2: Identifying a crux
-feedback-instructions:: The learner has named the weakest link in their own causal chain from Part 1 and answered the four questions about it. There is no model answer. In at most six sentences: say whether the link they chose is plausibly the weakest in their chain, whether the observations they named would actually move confidence on that link, and whether their answer on collapse (would the case for the area survive without it) follows from what they wrote. If they proposed an alternative chain, say in one sentence whether it truly avoids the link. One turn, no follow-up question. No generic praise.
 
 Identify the link in the earlier causal chain that you believe has the lowest chance of occurring. Then answer:
 
@@ -66,6 +65,7 @@ Identify the link in the earlier causal chain that you believe has the lowest ch
 - Is there another causal chain that avoids this link?
 
 Write at least 120 and at most 450 words.
+feedback-instructions:: The learner has named the weakest link in their own causal chain from Part 1 and answered the four questions about it. There is no model answer. In at most six sentences: say whether the link they chose is plausibly the weakest in their chain, whether the observations they named would actually move confidence on that link, and whether their answer on collapse (would the case for the area survive without it) follows from what they wrote. If they proposed an alternative chain, say in one sentence whether it truly avoids the link. One turn, no follow-up question. No generic praise.
 assessment-instructions::
 The student is attacking the causal chain they wrote in Part 1. Read their Part 1 answer first; this exercise only makes sense against it.
 

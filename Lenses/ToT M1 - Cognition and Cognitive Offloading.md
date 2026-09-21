@@ -5,9 +5,9 @@ tldr: "Offloading thinking to tools and people is not new and not lazy; it is ho
 summary_for_tutor: "Core teaching lens for Unit 1 of 'Thinking about Thinking'. Presents authored content defining cognition and cognitive offloading, giving everyday examples, introducing distributed cognition, the efficiency motive, the practice trade-off, and the 'quiet loss' (spelling). Then runs a merged Recall and Processing phase, followed by the Learning Question. The learning question is a wedge: an engineer who says offloading everything costs nothing; the student locates the trade-off and the quiet loss."
 reading_minutes: 4
 tutor_minutes: 18
-tags:
+{--{"author":"User's AI","timestamp":1790011111251}@@tags:
   - work-in-progress
----
+--}---
 
 #### Text
 content::
