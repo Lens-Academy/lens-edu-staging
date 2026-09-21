@@ -7,7 +7,7 @@ tags:
 ---
 %% Day 4 of AI Control Part 1 (five-day split of XLab's seven-module track, September 2026). Core self-study 299 minutes. Lens order follows XLab's track. %%
 
-# Lens: Day 4 overview
+# Lens: Unit 4 overview
 tldr:: The Plans A to D landscape, the taxonomy of control work (detection, prevention, response, evaluations, environments), and the framing for high-stakes control.
 summary_for_tutor:: Day 4 overview page of AI Control Part 1. It only lists what the day covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
 id:: 09a0d319-ed2d-4d95-89f4-47e933619fce

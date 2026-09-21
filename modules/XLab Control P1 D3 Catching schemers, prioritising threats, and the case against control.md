@@ -7,15 +7,15 @@ tags:
 ---
 %% Day 3 of AI Control Part 1 (five-day split of XLab's seven-module track, September 2026). Core self-study 277 minutes. Lens order follows XLab's track. %%
 
-# Lens: Day 3 overview
+# Lens: Unit 3 overview
 tldr:: Why catching a model red-handed is a win, which threats to prioritise, and then the arguments for and against control and the safety-usefulness tradeoff.
-summary_for_tutor:: Day 3 overview page of AI Control Part 1. It only lists what the day covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
+summary_for_tutor:: Unit 3 overview page of AI Control Part 1. It only lists what the unit covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
 id:: 5edd8447-73d8-491d-9edc-24e2957d9081
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
 content::
-\## Day 3: Catching schemers, prioritising threats, and the case against control
+\## Unit 3: Catching schemers, prioritising threats, and the case against control
 
 Why catching a model red-handed is a win rather than a failure, which threats to prioritise and how diffuse threats like research sabotage differ from concentrated ones, and then the arguments for and against control, the safety-usefulness tradeoff, and how to judge what control buys you.
 

@@ -51,21 +51,21 @@ Greenblatt, Ryan, and Buck Shlegeris. "Catching AIs red-handed." *Redwood Resear
 *The source of the claim that catching a model is a win condition rather than a failure. It is a lesson on Unit 3.*
 
 Greenblatt, Ryan, Buck Shlegeris, Kshitij Sachan, and Fabien Roger. "AI Control: Improving Safety Despite Intentional Subversion." *arXiv*, Dec. 2023. [arxiv.org](https://arxiv.org/abs/2312.06942)
-*The founding paper, and the origin of the December 2023 date. It opens Day 2.*
+*The founding paper, and the origin of the December 2023 date. It opens Unit 2.*
 
 XLab. "AI Control." *Tracks*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control)
 *The curriculum this course adapts. XLab's track has no welcome lesson of its own; this page is ours.*
 :::
 
-# Lens: Day 1 overview
+# Lens: Unit 1 overview
 tldr:: Why assume a frontier model may be scheming and design so it still cannot hurt you: the case for control, and attack trees as the way to think about what a model could do to you.
-summary_for_tutor:: Day 1 overview page of AI Control Part 1. It only lists what the day covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
+summary_for_tutor:: Unit 1 overview page of AI Control Part 1. It only lists what the unit covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
 id:: 98d6d5d2-65a6-4661-8bce-1cfd186745fc
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
 content::
-\## Day 1: Why control
+\## Unit 1: Why control
 
 Why assume a frontier model may be scheming and design so it still cannot hurt you: the case for control as a second line of defense behind alignment, and attack trees as the way to think about what a model could do to you.
 

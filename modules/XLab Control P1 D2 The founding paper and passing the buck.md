@@ -7,15 +7,15 @@ tags:
 ---
 %% Day 2 of AI Control Part 1 (five-day split of XLab's seven-module track, September 2026). Core self-study 240 minutes. Lens order follows XLab's track. %%
 
-# Lens: Day 2 overview
+# Lens: Unit 2 overview
 tldr:: The paper that started the field, measured against a red team that tries to insert backdoors, and then the question of when it is safe to let AIs take over the work of keeping AIs safe.
-summary_for_tutor:: Day 2 overview page of AI Control Part 1. It only lists what the day covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
+summary_for_tutor:: Unit 2 overview page of AI Control Part 1. It only lists what the unit covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
 id:: 959be1e5-7cd5-43f7-9b5c-a6ca832dbb03
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
 content::
-\## Day 2: The founding paper and passing the buck
+\## Unit 2: The founding paper and passing the buck
 
 The paper that started the field: trusted monitoring, untrusted monitoring, editing and deferral, measured against a red team that tries to insert backdoors. Then the question of when it is safe to let AIs take over the work of keeping AIs safe.
 
