@@ -27,15 +27,25 @@ source:: [[../widgets/interactive-map]]
 
 #### Text
 content::
-\### Actor roles in this module
+:::callout {title="Optional: Anatomy of a Chip" tone="neutral"}
+[Anatomy of a Chip](https://chipexplorer.eto.tech/)
 
-Every country card on the map is tagged with the actor roles that country plays in this module: capability holder, chokepoint controller, information holder, enforcement authority, evasion pathway, or victim, free-rider, beneficiary. The same state can hold a chokepoint, enforce the rules, and be a pathway around them.
+Explore the components inside an AI accelerator and connect them to the supply-chain stages shown above.
+:::
 
 #### Text
 content::
-\### Anatomy of a Chip
+:::callout {title="Start here" tone="neutral"}
+The whole story of this map is concentration. The chain crosses borders dozens of times, but the parts that matter for verification sit in a handful of countries — and each stage is a near-monopoly.
 
-Optional: explore the components inside an AI accelerator and connect them to the supply-chain stages shown above: [ETO Chip Explorer](https://chipexplorer.eto.tech/).
+Tap a country for its role, or isolate a layer to see exactly who would have to be in the room to verify it.
+:::
+
+#### Text
+content::
+\### Actor roles in this module
+
+Every country card on the map is tagged with the actor roles that country plays in this module: capability holder, chokepoint controller, information holder, enforcement authority, evasion pathway, or victim, free-rider, beneficiary. The same state can hold a chokepoint, enforce the rules, and be a pathway around them.
 
 #### Text
 content::
