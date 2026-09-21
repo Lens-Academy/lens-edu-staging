@@ -32,9 +32,11 @@ By the end of this course you will be able to:
 
 \## How the course runs
 
-Five units. Each unit is about four to five hours of reading and exercises on your own, and ends with a group meeting to work through the arguments the readings leave open. The times are estimates, and some people will take longer. We have also added some optional readings if you want to dive deeper; follow curiosity rather than completeness.
+Five units. Each unit is about four to five hours of reading and exercises on your own, and ends with a group meeting to work through the arguments the readings leave open. We have also added some optional readings if you want to dive deeper; follow curiosity rather than completeness.
 
-XLab asks for comfort reading papers and familiarity with AI safety at the level of an introductory course. If you have done AI Risk Fundamentals or its equivalent, you are ready.
+\## Requirements
+
+To take this course, we recommend that you are comfortable reading papers and familiar with AI safety. If you have done [AI Risk Fundamentals](https://lensacademy.org/ai-risk-fundamentals) or an equivalent, you are ready.
 
 \## The five units
 
