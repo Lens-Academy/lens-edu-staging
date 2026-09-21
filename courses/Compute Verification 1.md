@@ -24,7 +24,6 @@ Target audience and value proposition are inherited from the parent course and h
 application-survey:: [[../surveys/Application Form]]
 
 # Module: [[../modules/XLab Verification P1 Overview]]
-intro-form:: true
 
 # Module: [[../modules/XLab Verification P1 W1 Why verification]]
 
