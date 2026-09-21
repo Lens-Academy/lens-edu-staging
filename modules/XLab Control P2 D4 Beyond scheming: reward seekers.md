@@ -10,13 +10,13 @@ tags:
 # Submodule: Unit 4
 # Lens: Unit 4 overview
 tldr:: Threat models that are not schemers: reward seekers, satiable preferences, spillway motivations, the empirical evidence, and a guided exercise on measuring reward seeking.
-summary_for_tutor:: Day 4 overview page of AI Control Part 2. It only lists what the day covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
+summary_for_tutor:: Unit 4 overview page of AI Control Part 2. It only lists what the unit covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
 id:: 0d55a559-a043-486d-a805-27d2ce38599f
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
 content::
-\## Day 4: Beyond scheming: reward seekers
+\## Unit 4: Beyond scheming: reward seekers
 
 Threat models that are not schemers: what a reward seeker is, whether cheaply satisfied preferences can be satiated, channelling reward hacking into a spillway motivation, the empirical evidence on reward seeking, and a guided exercise on measuring it.
 
