@@ -63,5 +63,8 @@ XLab. "AI Control." *Tracks*, XLab, University of Chicago, 2026. [aisafetytracks
 source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais]]
 
 # Lens:
+source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais-2]]
+
+# Lens:
 source:: [[../Lenses/XLab Control - attack-trees]]
 
