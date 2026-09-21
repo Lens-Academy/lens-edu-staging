@@ -477,11 +477,13 @@ tone:: blue
 id:: 2d6138bc-8f06-4c06-af51-3450519778e2
 content:: In defer to trusted, what does the protocol do with code whose suspicion score is elevated but below the audit threshold?
 assessment-instructions:: Full marks for: it discards $U$'s code and submits a solution written by $T$ instead. Deduct if the learner says the code is audited (it is not, that is the band above) or that it is submitted as written. One or two sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: d561aa2c-f9d4-407c-a009-666a82021a58
 content:: What is dynamic routing?
 assessment-instructions:: Full marks for: a protocol design pattern where some heuristic decides, query by query, which of several response strategies to use. Defer to trusted is an example, with the suspicion score routing each problem to "submit $U$'s code", "submit $T$'s code" or "audit". Half marks for the definition without an instance. One to three sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### End Callout
 
@@ -495,6 +497,7 @@ Trusted monitoring spends its whole audit budget on the most suspicious 2% and d
 id:: b7c5eae3-0620-4ea4-86dd-584bc3cb0e17
 content:: What does increasing the number of solutions where we defer to $T$ do to the probability of an attack attempt being caught and being successfully deployed? What does it do to the probability of a decisive attack attempt occurring?
 assessment-instructions:: Full marks for the chain. Deferring makes successful attacks less probable because it rewrites moderately suspicious solutions from scratch. And because $T$ rewrites those solutions from scratch, the red team's best response is to make its attacks subtler to duck the band, which also decreases the probability of an attack attempt being caught. With both probabilities falling, a decisive attack attempt becomes less likely to occur at all. Half marks for getting the deployment probability right but missing that the catch probability also falls through the red team's response. Three to five sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Text
 content::
@@ -504,6 +507,7 @@ Go back to the control game widget above and change the proportion of solutions 
 id:: 78651f04-21ea-4a54-897b-ed18357f156a
 content:: Note that deferring to $T$ neutralizes an attack silently. Given that, explain why a wide defer band pushes the red team toward maximally subtle attacks, and what sets the usefulness price of deferring.
 assessment-instructions:: Full marks for both halves. Why maximally subtle: to ship, and possibly win, an attack must score below the defer threshold; widening the defer band lowers that threshold and forces more subtle backdoors, which are more often broken and so have a lower success rate. What sets the usefulness price: the width of the band, since the deferred fraction is roughly the band width and almost all of it is innocent code, and the capability gap between $U$ and $T$, since each deferred problem is answered at $T$'s quality instead of $U$'s. A smaller $U$ to $T$ gap would make deferring cheaper. Half marks for one half. Four to six sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Text
 content::
@@ -521,6 +525,7 @@ to:: it is probably increasingly hard to find such signals that are robust to si
 id:: ea43f6ca-dbd0-4c90-8f88-0cd75f497d98
 content:: Why does naive untrusted monitoring have 0% safety?
 assessment-instructions:: Full marks for: because the monitor is the same untrusted model as the policy, it can simply report that real backdoors look fine while telling the truth about everything else, so until the blue team has some way to check the monitor's honesty its reports carry no safety value. Deduct if the learner attributes the failure to the monitor being bad at spotting backdoors, which is the opposite of the situation: GPT-4 is very good at spotting them. Two to four sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Article
 from:: #### 3.4.3 Defer to Trusted
@@ -542,6 +547,7 @@ tone:: amber
 id:: 072cbe2d-0316-46ba-86c2-ee565b7c144f
 content:: Trusted monitoring's five rows in Table 7 all come from turning one knob, the defer-to-trusted percentage, from 0% to 50%. Its result goes from (usefulness 97%, safety 62%) at 0% to (usefulness 51%, safety 100%) at 50%. In which direction does the point move as the knob rises, and how is that different from what it means for one protocol to "push the frontier out"?
 assessment-instructions:: Full marks for both. As the defer percentage rises the point moves up and to the left: safety climbs from 62% to 100% while usefulness falls from 97% to 51%. Pushing the frontier out is the opposite: a better method reaches points up and to the right of the existing curve, giving more safety at the same usefulness, or more usefulness at the same safety. Half marks for the direction without the contrast. Award credit for naming trusted editing as an example of the second, since Table 7 shows it Pareto dominating untrusted monitoring. Three to five sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### End Callout
 
