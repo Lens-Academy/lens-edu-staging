@@ -141,7 +141,7 @@ tags: [wip]
 
   var BUCKET_ORDER = ["design", "equipment", "fab", "memory", "atp", "compute"];
   var BUCKETS = {
-    design: { name: "Chip design & EDA", color: "#3b5fa8", stat: "2 EDA firms",
+    design: { name: "Chip design & EDA (electronic design automation)", color: "#3b5fa8", stat: "2 EDA firms",
       why: "Where capability is born. The architectures and the design software behind every advanced chip belong to a handful of US and UK firms, so rules can attach here before a single wafer exists." },
     equipment: { name: "Equipment & materials", color: "#b87018", stat: "EUV: 1 company",
       why: "The narrowest chokepoint in the chain. A few firms in three allied countries build the tools and supply the chemistry every advanced fab depends on." },
