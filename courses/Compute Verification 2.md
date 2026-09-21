@@ -13,7 +13,6 @@ tags: [wip]
 application-survey:: [[../surveys/Application Form]]
 
 # Module: [[../modules/XLab Verification Part 2 Overview]]
-intro-form:: true
 
 # Module: [[../modules/XLab Verification Part 2 W06 Hardware judgment and cloud records]]
 
