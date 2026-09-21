@@ -17,7 +17,7 @@ tutor_minutes:: 0
 content::
 \## What this course is about
 
-Alignment tries to make a model want what we want. AI control asks what holds if that failed: can we deploy a model that may be deliberately working against us, get useful work out of it, and still make sure it cannot cause a catastrophe? This Lens Academy course works through that question from the case for control to the concrete machinery of high-stakes monitoring. It is built on the open-source [AI Control track](https://aisafetytracks.com/tracks/control) of [XLab](https://xrisk.uchicago.edu/), the Existential Risk Laboratory at the University of Chicago, a hands-on technical track that reads the field's primary literature in full, with exercises woven between the sections. Everything is here on Lens: the readings, XLab's explanations, the exercises and the interactive pieces. Each lesson ends with a Works cited box linking the original sources.
+Alignment tries to make a model want what we want. AI control asks what holds if that failed: can we deploy a model that may be deliberately working against us, get useful work out of it, and still make sure it cannot cause a catastrophe? This Lens Academy course works through that question from the case for control to the concrete machinery of high-stakes monitoring. It is built on the open-source [AI Control track](https://aisafetytracks.com/tracks/control) of [XLab](https://xrisk.uchicago.edu/), the Existential Risk Laboratory at the University of Chicago, a hands-on technical track that reads the field's primary literature in full, with exercises woven between the sections. Everything is here on Lens: the readings, XLab's explanations, the exercises and the interactive pieces.
 
 \## What you will learn
 
