@@ -30,7 +30,7 @@ None of this is settled. The founding paper is from December 2023, and much of w
 The people who work out which control measures actually hold, and which ones only look like they do, are unlikely to be a settled profession by the time it matters. Some of them will be people meeting this material for the first time.
 
 [^note-case]: Both claims, that control and alignment are distinct lines of defense and that control is more evaluable because it reduces to a capability question, come from Greenblatt and Shlegeris, "The case for ensuring that powerful AIs are controlled", which is the next lesson.
-[^note-catching]: From Greenblatt and Shlegeris, "Catching AIs red-handed", on Day 3.
+[^note-catching]: From Greenblatt and Shlegeris, "Catching AIs red-handed", on Unit 3.
 
 #### Question: Open
 id:: 729d6348-3399-440f-9826-ce753ce19e53
@@ -39,7 +39,7 @@ content:: Optional: write a short note now that you can look back on at the end 
 - Before reading anything: does "keep a possibly-adversarial, possibly-superhuman system contained and still get useful work out of it" strike you as tractable, or as hopeless?
 - What would have to be true for you to change that answer?
 optional:: true
-assessment-instructions:: This is an ungraded, optional pre-course reflection. Acknowledge it in two or three sentences, reflect back the specific intuition they expressed without endorsing or correcting it, and note that the course will give them evidence on it (Day 1 makes the case for control, and Day 3 includes the case against). Do not preview the arguments. Do not ask a follow-up question. Close by sending them to the first lesson. No generic praise.
+assessment-instructions:: This is an ungraded, optional pre-course reflection. Acknowledge it in two or three sentences, reflect back the specific intuition they expressed without endorsing or correcting it, and note that the course will give them evidence on it (Unit 1 makes the case for control, and Unit 3 includes the case against). Do not preview the arguments. Do not ask a follow-up question. Close by sending them to the first lesson. No generic praise.
 
 #### Text
 content::
@@ -48,7 +48,7 @@ Greenblatt, Ryan, and Buck Shlegeris. "The case for ensuring that powerful AIs a
 *The source of the control-versus-alignment framing and of the argument that control is easier to evaluate. It is the next lesson in this module.*
 
 Greenblatt, Ryan, and Buck Shlegeris. "Catching AIs red-handed." *Redwood Research blog*, 7 May 2024. [redwoodresearch.substack.com](https://redwoodresearch.substack.com/p/catching-ais-red-handed)
-*The source of the claim that catching a model is a win condition rather than a failure. It is a lesson on Day 3.*
+*The source of the claim that catching a model is a win condition rather than a failure. It is a lesson on Unit 3.*
 
 Greenblatt, Ryan, Buck Shlegeris, Kshitij Sachan, and Fabien Roger. "AI Control: Improving Safety Despite Intentional Subversion." *arXiv*, Dec. 2023. [arxiv.org](https://arxiv.org/abs/2312.06942)
 *The founding paper, and the origin of the December 2023 date. It opens Day 2.*
