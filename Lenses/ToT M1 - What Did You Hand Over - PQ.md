@@ -4,9 +4,9 @@ title: "Pre-Reading Question: What Did You Hand Over"
 duration_minutes: 5
 tldr: "Before reading about cognitive offloading: notice how much thinking you already hand over to tools and people every week."
 summary_for_tutor: "Priming question before the Unit 1 content lenses of 'Thinking about Thinking'. The student lists thinking tasks they handed to tools or people in the past week, what was taken over, and what part stayed with them. Minimal brief: acknowledge, do not preview the offloading argument, send them to the reading."
-tags:
+{--{"author":"User's AI","timestamp":1790011145516}@@tags:
   - work-in-progress
----
+--}---
 
 #### Question
 id:: acfca2e0-2618-42dd-94cf-67bce5480f50

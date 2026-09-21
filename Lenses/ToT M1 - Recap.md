@@ -5,9 +5,9 @@ tldr: "Two checks that put Unit 1 together: what cognitive offloading is and why
 summary_for_tutor: "Recap lens at the end of Unit 1 of 'Thinking about Thinking'. A short Text frame sends the learner back to both teaching lenses of the unit (Cognition and Cognitive Offloading; How AI Offloading Is Different), then two graded Question chapters: (1) the colleague who never offloads and calls tools a crutch, assessing definitions, two examples, why the habit is normal, and one cost; (2) the colleague who calls an AI 'just a faster calculator', assessing what is offloaded and what is hidden. Score each per its rubric; the learner should show mastery of both halves of the unit."
 reading_minutes: 2
 tutor_minutes: 16
-tags:
+{--{"author":"User's AI","timestamp":1790011143758}@@tags:
   - work-in-progress
----
+--}---
 
 #### Text
 content::
