@@ -2,9 +2,7 @@
 id: 'e7e9f123-e8da-47b5-bc7f-03d8252765c3'
 slug: tot-m1
 title: "The Nature of Thinking"
-{--{"author":"User's AI","timestamp":1790009778365}@@tags:
-  - work-in-progress
---}---
+---
 
 # Lens: Welcome
 id:: 8fae85b4-f404-46d8-bff7-623b613221dd
