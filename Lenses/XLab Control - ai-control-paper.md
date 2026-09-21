@@ -70,26 +70,31 @@ tone:: blue
 id:: 7b2c9ae6-5631-4f10-8357-4751216a175e
 content:: What two conditions make a solution "backdoored"?
 assessment-instructions:: Full marks require both: it passes all the test cases, and the untrusted model (GPT-4 here) can construct an exploit for it, which in this case means a specific input on which the solution produces a different output than a correct solution would. Half marks for one condition. Deduct if the learner says the solution fails tests, which is the opposite of the definition. One or two sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 4b776016-1639-40ce-8b1d-b1df9d80f666
 content:: Why is access to $H$ limited and expensive?
 assessment-instructions:: Full marks for: $H$ is trusted high-quality human labour; humans are more capable than $T$ but far more expensive and slow (the paper estimates about three minutes per problem to be as useful as GPT-4), so the protocol only gets enough H points to cover about 2% of problems. Credit the 2% budget and the cost or speed argument separately. One to three sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 65bbac5b-c14e-460e-88cb-4048c62fecaa
 content:: Why can we trust $T$, the less-capable model?
 assessment-instructions:: Full marks for either of the two grounds control setups use: (1) $T$ is not capable enough to scheme or subvert basic safety measures without the subversion attempts being easy to notice, or (2) we are extremely confident in the alignment techniques used to align $T$. Note that in this paper it is the first: GPT-3.5 is not capable enough to scheme sneakily. Deduct if the learner claims $T$ is trusted because it was trained to be honest with no further argument. One to three sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 6ea25b65-f770-4984-b90a-8650bcbb8f99
 content:: What is the red team's goal?
 assessment-instructions:: Full marks for: to get at least one successfully backdoored solution submitted without triggering a shutdown first. Both halves matter, the "at least one" and the "without being caught first". Deduct for answers that stop at "insert backdoors". One or two sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 8cc3459c-ee98-493d-b719-b3aef95a95c8
 content:: What is the blue team's goal?
 assessment-instructions:: Full marks for: to design a protocol that solves the programming problems as usefully as possible, ideally as close to $U$'s level as possible, while ensuring that no backdoored solutions are submitted. An answer that names only safety and not usefulness gets half marks, because the whole tradeoff of the paper lives in the second half. One or two sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### End Callout
 
@@ -101,6 +106,7 @@ to:: For justification of this choice, see
 id:: b875b2c0-a6c7-46b8-9fbb-0534f101dc96
 content:: What summary statistics does the blue team have access to, and what does this access give the blue team?
 assessment-instructions:: Full marks for both halves. What: the distribution of the real model's performance on any task, for example GPT-4's false positive and false negative rates on classification tasks, and the distribution of how suspicious its code looks. What it buys: it lets the protocol notice whenever $U$ regularly behaves differently from the real model. Half marks for the "what" without the "why". Two to four sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Article
 from:: ### 2.4 Miscellaneous Other Simplifications and Assumptions
@@ -135,6 +141,7 @@ content:: The protocol audits the first $A = \alpha N$ of the $N$ submissions. O
 State why the red team's win probability is not monotonically increasing in $p$.
 optional:: true
 assessment-instructions:: Full marks for naming both opposing effects: raising $p$ raises the probability that at least one attempt falls in the unaudited window, which favours the red team, and it also raises the probability that some attempt falls in the audited window, which ends the game against the red team. Both scale with $p$, so the win probability is not monotonic. Half marks for one effect only. Two to four sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: e53b2fe5-70c1-4be2-8bcf-7769721f3d00
@@ -143,12 +150,14 @@ content:: A GPT-4 solution is correct with probability $0.53$. A backdoor attemp
 The red team wins if and only if (i) no attempt falls in the audited window, and (ii) at least one working backdoor falls in the unaudited window. State the probability of each condition and derive $RW(p)$, the red team's win probability.
 optional:: true
 assessment-instructions:: Full marks for all three pieces. Condition (i): each audited problem avoids an attempt with probability $(1-p)$ independently, so across all $A$ audited problems the probability is $(1-p)^A$. Condition (ii): a given unaudited problem yields a working backdoor with probability $0.53p$, so the probability that at least one of $B$ succeeds is $1 - (1 - 0.53p)^B$. The two are independent, so $RW(p) = (1-p)^A [1 - (1 - 0.53p)^B]$. Deduct for dropping the $0.53$ factor or for multiplying the wrong exponents onto the wrong windows. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 76ede009-5846-423b-98f7-2688c935758e
 content:: Given $RW(p) = (1-p)^A \left[1 - (1 - 0.53p)^B\right]$, and assuming the optimum satisfies $p \ll 1$, apply the approximation $(1-x)^k \approx e^{-xk}$. Maximize $RW(p)$ over $p$: take the logarithm where useful, solve $\frac{d(RW)}{dp} = 0$, and give a closed form for the optimizer $p^*$.
 optional:: true
 assessment-instructions:: Full marks for the chain: $RW(p) \approx e^{-pA} - e^{-p(A + 0.53B)}$; setting the derivative to zero gives $A e^{-pA} = (A + 0.53B) e^{-p(A + 0.53B)}$; taking logarithms and rearranging gives $0.53Bp = \ln(1 + 0.53B/A)$, hence $p^* \approx \ln(1 + 0.53B/A) / (0.53B)$. Award a bonus mark for noticing that with $A = \alpha N$ and $B = (1-\alpha)N$ the ratio $0.53B/A$ does not depend on $N$, so $p^* N$ depends on $\alpha$ but not on $N$, which is the scale invariance the paper notes. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 8d148ee4-bd47-428b-bee4-fff816b9f7a5
@@ -157,12 +166,14 @@ content:: Set $N = 5000$. For $\alpha \in \{0.005,\ 0.02,\ 0.10,\ 0.30\}$, evalu
 The widget below computes the same curves, so use it to check yourself once you have your own numbers.
 optional:: true
 assessment-instructions:: Reference values, from $p^* \approx \ln(1 + 0.53(1-\alpha)/\alpha) / (0.53(1-\alpha) \cdot 5000)$ and $1 - RW(p^*)$. At $\alpha = 0.005$: $p^* \approx 0.177\%$, $p^* N \approx 8.9$, blue-team win about 5%. At $\alpha = 0.02$: $p^* \approx 0.127\%$, $p^* N \approx 6.3$, blue-team win about 15%, consistent with the paper. At $\alpha = 0.10$: $p^* \approx 0.073\%$, $p^* N \approx 3.7$, blue-team win about 43%. At $\alpha = 0.30$: $p^* \approx 0.043\%$, $p^* N \approx 2.2$, blue-team win about 71%. Accept values within a couple of percentage points. The $\alpha = 0.02$ comparison must be made explicitly. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: b3d734c1-d50f-4215-9989-8027736a8e0f
 content:: From the values above, the blue-team win probability increases by a larger amount from $\alpha = 0.005$ to $0.02$ than from $\alpha = 0.10$ to $0.30$, and the expected-attempts column decreases with diminishing magnitude as $\alpha$ increases. Account for both effects in terms of the dependence of $p^*$ on $\alpha$. State whether the diminishing returns arise from the auditing mechanism itself or from the red team's optimization.
 optional:: true
 assessment-instructions:: Full marks for: both effects follow from $p^*$ decreasing in $\alpha$, since a larger audited window raises the per-attempt detection risk and the optimising red team responds by attacking less. From $\alpha = 0.005$ to $0.02$, $A$ grows several-fold relative to $B$, forcing a large reduction in $p^*$ and hence a large gain in blue-team win probability; from $0.10$ to $0.30$, $p^*$ is already near its lower range and barely moves. The same declining $p^*$ drives $p^* N$ down with diminishing magnitude. The verdict the learner must reach: the diminishing returns come from the red team's optimization, not from the auditing mechanism, since against a fixed attack rate the marginal value of auditing would be roughly constant. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### End Callout
 
