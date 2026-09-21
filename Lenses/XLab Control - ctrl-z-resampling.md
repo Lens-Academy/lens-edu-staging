@@ -27,6 +27,7 @@ to:: "We call models that have the potential to be deliberately subversive untru
 id:: b960d8af-9e6f-49ae-b904-5024917c8d5c
 content:: In AI control research, what makes a model "untrusted"?
 assessment-instructions:: The learner is being checked on one term from section 1 of the Ctrl-Z paper. Full marks for saying that an untrusted model is one with the potential to be deliberately subversive. Give substantial credit for the reason: it may have developed misaligned goals and "faked alignment" during testing, so the deployer cannot assume it will behave as desired. Mark down an answer that treats "untrusted" as a verdict that the model is misaligned rather than a statement about what the deployer is unable to rule out. Two or three sentences is enough. Short paragraphs, no lists. Grade only against these criteria and the material on this page. One turn, no re-teaching. If the learner says they do not understand, give one concrete foothold from the reading rather than repeating the question; if their next message still does not attempt the question, rephrase the whole question in different terms. Do not over-validate. Avoid generic praise (great job, excellent recall, well done).
+feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
 
 #### Text
 content::
