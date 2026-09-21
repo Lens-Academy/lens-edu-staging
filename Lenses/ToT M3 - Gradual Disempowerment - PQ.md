@@ -4,9 +4,9 @@ title: "Where Is Your Line?"
 duration_minutes: 4
 tldr: "Picture a team that lets an AI take over more and more decisions. The AI is convenient, fast, and usually right. Nobody orders a handover. Where is your line between using the AI well and handing over control? Write your answer down before you read on."
 summary_for_tutor: "Pre-reading question at the start of Unit 3 of 'Thinking about Thinking'. Asks the learner to imagine an organisation quietly deferring more and more to a convenient, fast, usually-correct AI, and to draw their own line between competent use and handing over control. Minimal brief: acknowledge, do not preview the unit's evidence or argument, send them to the next lens. Core lens 1, about 4 minutes."
-tags:
+{--{"author":"User's AI","timestamp":1790011168370}@@tags:
   - work-in-progress
----
+--}---
 
 #### Question
 id:: abfd2eb9-6696-4d25-b9b5-9dec9477ba5f
