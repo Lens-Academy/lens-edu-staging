@@ -26,8 +26,6 @@ Five days, each about four to five hours of reading and exercises, each closing 
 - **Day 4.** Threat models beyond scheming: reward seekers, satiable preferences, spillway motivations, and how to measure reward seeking.
 - **Day 5.** Deals with early misaligned AIs, and where to go next.
 
-The alpha notice from Part 1 still applies: XLab expects the material to change after its paid pilot cohort, and would appreciate issues sent through [their feedback form](https://forms.gle/KkWcHkKh87pygDzw9).
-
 # Submodule: Day 1
 # Lens: Day 1 overview
 tldr:: Two guided exercises on high-stakes protocols, collusion and legibility, then the shift to low-stakes control and failures that only matter in aggregate.

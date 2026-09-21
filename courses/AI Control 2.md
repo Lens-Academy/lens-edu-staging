@@ -2,7 +2,7 @@
 id: '5c00d5b6-ccb1-4372-a69e-9a044d33df40'
 slug: ai-control-2
 title: "AI Control 2"
-description: "Second half of the AI Control curriculum, and it assumes AI Control 1. Five days of about four and a half hours of self-study, each closing with a group meeting: guided exercises on collusion in untrusted monitoring and legibility protocols; low-stakes control and failures that only matter in aggregate; sandbagging, capability elicitation and exploration hacking, with a benchmark for research sabotage; threat models beyond scheming, reward seekers and spillway motivations; and deals with early misaligned AIs, closing with where to go next in control research. Alpha Lens edition; material may change after the paid pilot cohort."
+description: "Second half of the AI Control curriculum, and it assumes AI Control 1. Five days of about four and a half hours of self-study, each closing with a group meeting: guided exercises on collusion in untrusted monitoring and legibility protocols; low-stakes control and failures that only matter in aggregate; sandbagging, capability elicitation and exploration hacking, with a benchmark for research sabotage; threat models beyond scheming, reward seekers and spillway motivations; and deals with early misaligned AIs, closing with where to go next in control research."
 tags:
   - work-in-progress
 partner-url: "https://xrisk.uchicago.edu/"
