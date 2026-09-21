@@ -34,7 +34,7 @@ Choose one area of control work from the post, or a specific project within one.
 - How does this reduce x-risk?
 
 Write at least 200 and at most 600 words.
-feedback-instructions:: The learner has finished Greenblatt's overview of areas of control work, built a causal chain from one area (or one project) to a reduction in existential risk, and answered the four questions. There is no model answer. In at most eight sentences: restate their chain in one line to show you read it, say which of the four questions they answered convincingly, and press on the one where the chain is weakest, typically why the work is feasible now, or who would adopt its output and why. One turn, no follow-up question. No generic praise.
+feedback-instructions:: The learner has built a causal chain from one area of control work to reduced existential risk and answered the five sub-questions. Use the rubric's three criteria (link-by-link mechanism, adoption, threats) and respond in 100 to 180 words, short paragraphs, no lists: name the strongest link in their chain and the weakest, in that order, then give one concrete next step. Do not mention scores. One turn. Do not over-validate; no generic praise.
 assessment-instructions::
 The student has just read Ryan Greenblatt's "An overview of areas of control work" and is writing the first of two linked exercises. They pick one of the eight areas, or one project inside an area, and build a causal chain from work starting today to reduced existential risk. Any of the areas is a legitimate choice; never push them toward one.
 
@@ -65,7 +65,7 @@ Identify the link in the earlier causal chain that you believe has the lowest ch
 - Is there another causal chain that avoids this link?
 
 Write at least 120 and at most 450 words.
-feedback-instructions:: The learner has named the weakest link in their own causal chain from Part 1 and answered the four questions about it. There is no model answer. In at most six sentences: say whether the link they chose is plausibly the weakest in their chain, whether the observations they named would actually move confidence on that link, and whether their answer on collapse (would the case for the area survive without it) follows from what they wrote. If they proposed an alternative chain, say in one sentence whether it truly avoids the link. One turn, no follow-up question. No generic praise.
+feedback-instructions:: The learner is attacking the causal chain they wrote in Part 1; read that answer first. Use the rubric's three criteria (load-bearing crux, evidence in both directions, failure analysis) and respond in 100 to 180 words, short paragraphs, no lists: say whether the crux they chose is really the weakest link in their own chain, then take the sharper of their two observation classes and push on it once. Do not mention scores. One turn. Do not over-validate; no generic praise.
 assessment-instructions::
 The student is attacking the causal chain they wrote in Part 1. Read their Part 1 answer first; this exercise only makes sense against it.
 
