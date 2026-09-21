@@ -5,9 +5,9 @@ reading_minutes: 8
 tutor_minutes: 4
 tldr: "Three objections carry weight. Offloading is old and usually benign. Surveys rely on what people say about themselves. Perceived effort can differ from actual effort. The skeptical case limits the claim that AI use makes people think less."
 summary_for_tutor: "Core lens 5 of Unit 3 of 'Thinking about Thinking'. Presents the philosophical case for resisting the offloading worry, in plain prose and with no embedded articles. The three objections: offloading is historical and usually benign (the extended-mind position); the unit's surveys are self-report, which is subjective; and the Yu et al. speedup illusion shows perceived effort can separate from actual effort. The lens limits the claim the evidence can support to patterns of use and hands on to the evidence review later in the unit. Ends with a reflective question asking the learner to apply the strongest objection to one study and state where that objection stops. About 12 minutes."
-tags:
+{--{"author":"User's AI","timestamp":1790011244102}@@tags:
   - work-in-progress
----
+--}---
 
 #### Text
 content::

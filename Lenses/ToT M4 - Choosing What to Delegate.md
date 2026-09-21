@@ -5,9 +5,9 @@ tldr: "Keep judgement in the loop at three stages: write your own rough notes be
 summary_for_tutor: "Practical guidance lens for Unit 4 of 'Thinking about Thinking'. Authored content: the risk of AI interactions appears at three stages (before you delegate, while you work with the task, when you evaluate the result), with rules for each; plus other ways to protect judgement and a short red-flags list. It refers back to Bloom's taxonomy, which the learner met in Unit 3, and to Lee's finding: producing, analysing, evaluating, and creating are the levels that build a skill, while verifying does not. Notes that tools change fast so the guidance is time-sensitive. Runs Recall, Processing, and Learning Question phases; the wedge is a colleague who routes every task through AI for speed."
 reading_minutes: 7
 tutor_minutes: 8
-tags:
+{--{"author":"User's AI","timestamp":1790011245295}@@tags:
   - work-in-progress
----
+--}---
 
 #### Text
 content::
