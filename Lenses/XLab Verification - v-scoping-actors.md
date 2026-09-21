@@ -68,7 +68,7 @@ Table 3.  Inside one signatory: the United States
 | Institution | Job in a verification regime | Incentive to watch |
 | --- | --- | --- |
 | State Department | Negotiates the agreement and runs the diplomacy around compliance disputes. | Wants a deal that survives politics; may trade verification strictness for signatures. |
-| Commerce Department (Bureau of Industry and Security) | Writes and enforces export controls on chips: the de facto compute-governance agency today. | Enforcement capacity is small relative to the job, and the rules shift with each administration. |
+| Commerce Department (Bureau of Industry and Security, BIS) | Writes and enforces export controls on chips: the de facto compute-governance agency today. | Enforcement capacity is small relative to the job, and the rules shift with each administration. |
 | Department of War | Strategic and military stakes in frontier AI. | Wants American capability unconstrained; wary of any regime that could bind its own programs. |
 | Intelligence community (CIA, NSA, and the rest) | Monitoring and attribution: the “national technical means” layer that spots hidden data centers and procurement networks. | What it knows is classified. Turning intelligence into shareable treaty evidence risks burning sources. |
 | NIST and its Center for AI Standards and Innovation (CAISI) | Standards and testing. Runs pre-deployment evaluation agreements with several frontier developers. | Voluntary agreements, not inspection authority; renamed and refocused as the politics changed. |
