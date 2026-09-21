@@ -30,6 +30,7 @@ Four short questions on the vocabulary of the section you just read. Answer each
 id:: 10bb7d59-2f6b-4d15-929b-91baefce1dae
 content:: In the control literature, what does "ensuring control" mean?
 assessment-instructions:: The learner has just read the opening of Greenblatt's post and is answering from memory. The answer has two halves, and both are required for full credit: preventing AIs from being able to cause existential problems, and that this holds even if the AIs actively attempt to subvert our countermeasures. An answer with only the first half is partial, because the adversarial clause is what separates control from alignment. Respond in at most three sentences: say plainly what was correct, name the missing half in one sentence if it is missing, then tell them to move on. This is a one-turn response. No re-teaching, no follow-up questions. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). Grade only against the reading on this page. If the learner says they do not understand, give one concrete foothold from the reading rather than repeating the question.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 1b9f5342-42e2-403a-b5ff-8b655b701517
@@ -58,6 +59,7 @@ to:: "Beyond rogue deployments, other security issues seem substantially less th
 id:: aadbfc12-4439-4bd2-9768-798cbcf402d9
 content:: Why can a rogue internal deployment be worse than self-exfiltration?
 assessment-instructions:: The learner has just read Greenblatt's argument for ranking rogue internal deployments first. The answer has two sides and full credit needs both. What the internal deployment has: much more compute (the post's example is a large fraction of the company's own compute, e.g. 25 percent) and privileged internal access, which together let it tamper with experiments, training runs, and the safety work being done inside the company. What the exfiltrated copy lacks: it would likely have far less compute by default and no privileged internal access, so it gets outraced by actors running similar models. An answer that names only the compute asymmetry, or only the tampering, is partial. Do not accept "it is inside the company" on its own; the point is what being inside buys the AI. Respond in at most four sentences, one turn only, no follow-up questions, no re-teaching. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). Grade only against the reading on this page. If the learner says they do not understand, give one concrete foothold from the reading rather than repeating the question.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Text
 content::
@@ -75,6 +77,7 @@ Greenblatt's prioritization assumes a rushed but reasonable developer, one willi
 
 Write between 150 and 500 words.
 assessment-instructions:: The learner has finished Greenblatt's post and is re-deriving his top three priorities for a world with a different level of political will. They must state which world they chose. Grade against three criteria, weighted equally, and name each one in your response.
+feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
 
 1. Engages the post's arguments. The response uses the compute and privileged-access logic for rogue internal deployments, and the pause-dependence of self-exfiltration, rather than asserting a new ordering from scratch.
 2. Conditions on the world. The priority changes actually follow from the chosen level of political will, rather than being asserted alongside it.
