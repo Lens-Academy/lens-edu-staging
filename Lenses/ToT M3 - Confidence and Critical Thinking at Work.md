@@ -5,9 +5,9 @@ reading_minutes: 5
 tutor_minutes: 5
 tldr: "A survey of 319 knowledge workers looked at 936 real uses of AI. People who trusted the AI reported less critical thinking. People who trusted their own ability reported more. The lesson is calibration, not a verdict on AI."
 summary_for_tutor: "Core lens 3 of Unit 3 of 'Thinking about Thinking'. Explains Lee et al. (Microsoft Research, 2025): a survey of 319 knowledge workers who shared 936 real examples of generative-AI use. Methodology: online survey; for each task people rated confidence in the AI, confidence in their own ability, and how much critical-thinking effort they spent. Introduces Bloom's taxonomy (remember, understand, apply, analyse, evaluate, create), the scale the paper uses to measure effort, and uses it to state the finding: the effort shifted from producing toward verifying, integrating, and stewarding the output, within the same levels, not a slide to easier thinking. Central result: higher confidence in the AI went with lower reported critical-thinking effort; higher self-confidence went with more. Notes the study is a self-report survey and an association, not a cause. Includes one question: the learner picks a real AI task, says which confidence they leaned on and how much they checked, then answers honestly whether their checking drops as their trust rises. Links to the full paper lens (ToT M3 - Paper - Lee (Microsoft)) via a card footer. About 10 minutes."
-tags:
+{--{"author":"User's AI","timestamp":1790011161534}@@tags:
   - work-in-progress
----
+--}---
 
 #### Text
 content::
