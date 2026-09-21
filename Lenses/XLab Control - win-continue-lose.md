@@ -30,12 +30,14 @@ id:: d2f3e8e5-f9e7-49f5-9569-c030a2d9f29e
 content:: What is a concentrated failure (a.k.a. high-stakes failure)?
 max-chars:: 600
 assessment-instructions:: A good answer says it is a failure where, in the absence of countermeasures, the AI could cause an unacceptable outcome just by behaving badly on a small number of tasks. Full credit does not require examples, but reward any of the reading's three: causing a rogue deployment, sabotaging one particularly crucial ML research task, or leaking sensitive information. Mark down an answer that describes a failure needing sustained bad behaviour across many tasks, since that is the opposite case. Do not over-validate and avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 78fc4ba1-776c-47ab-b71c-c4aa5034cc5d
 content:: In AI control terminology, what is an "attack"?
 max-chars:: 400
 assessment-instructions:: A good answer says an attack is an attempt by the AI to cause the unacceptable outcome. Reward an answer that also notes the surrounding strategy, that the AI normally acts aligned and attacks only on very rare occasions. Do not require the learner to describe any specific attack technique, since the term is about intent, not method. Do not over-validate and avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Article
 from:: For concreteness, let’s talk about a particularly important simple class
@@ -46,6 +48,7 @@ id:: 2234e527-4341-4e20-a037-68da9754b438
 content:: How does an execute/replace/audit protocol work?
 max-chars:: 800
 assessment-instructions:: A good answer covers three moving parts: an agent loop repeatedly gets a proposed action from the untrusted LLM; a monitor scores how dangerous or suspicious that action looks; and the protocol uses the monitor's score to make two decisions, whether to execute the action or replace it, and whether to audit it. Reward an answer that keeps the replace decision and the audit decision separate. Mark down an answer that treats them as one threshold, since the reading argues they are better made separately. Do not over-validate and avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 1f88446b-db35-4c57-adf6-e8b9a9c0c4dd

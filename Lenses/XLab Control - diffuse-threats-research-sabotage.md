@@ -15,11 +15,13 @@ to:: Our question:Can we make this research go well, even if the AI agents doing
 id:: cea44f81-747a-42fd-9a7e-783b08f2dde6
 content:: What is research sabotage?
 assessment-instructions:: The learner has just read the opening of Hebbar's post and is answering from memory. Full credit for an answer that says research sabotage is misaligned AIs making safety research go poorly, and names at least one of the post's mechanisms: withholding their best ideas, or putting subtle bugs in experiments. Partial credit if the mechanism is there but the intent is missing, or the reverse. Reply in 2 to 4 sentences: name what is correct without inflating it, name what is missing in one sentence, then send the learner on. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). Grade only against the material this page supplied. If the learner says they do not understand, give one concrete foothold from the reading rather than repeating the question; if their next message still does not attempt it, rephrase the whole question in different terms.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: baeca979-c275-48a9-9d12-aaf0736ede11
 content:: What two properties define a "diffuse" threat model?
 assessment-instructions:: Full credit requires both properties: catastrophe requires numerous bad actions, and each bad action is only weak evidence of malign intent when investigated. Half credit for one of the two. An answer that describes diffuse threats as low-severity or low-stakes rather than many-actions-plus-weak-evidence has the wrong distinction; say so in one sentence. Reply in 2 to 4 sentences. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). Grade only against the material this page supplied. If the learner says they do not understand, give one concrete foothold from the reading rather than repeating the question; if their next message still does not attempt it, rephrase the whole question in different terms.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Article
 from:: ## Deployer strategies: Training and incrimination
@@ -29,6 +31,7 @@ to:: Therefore incrimination is only promising for the top left region (near the
 id:: 7dd62651-6bd9-497a-98d0-93eecbde2abf
 content:: Why does incrimination fail at the diffuse end of the spectrum?
 assessment-instructions:: Full credit for an answer that gets the missing affordance: incriminating a model from a large volume of mildly suspicious actions would require knowing exactly how suspicious a benign model would look, and without that baseline no amount of mildly suspicious actions is enough. Partial credit for "each action is individually too weak" without the point about the benign baseline. An answer that says the actions are simply undetectable misses that they are detected, just not distinguishable from honest mistakes; correct that in one sentence. Reply in 2 to 4 sentences. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). Grade only against the material this page supplied. If the learner says they do not understand, give one concrete foothold from the reading rather than repeating the question; if their next message still does not attempt it, rephrase the whole question in different terms.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Article
 from:: **Untargeted online training:**
