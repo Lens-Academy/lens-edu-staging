@@ -57,19 +57,7 @@ XLab. "AI Control." *Tracks*, XLab, University of Chicago, 2026. [aisafetytracks
 *The curriculum this course adapts. XLab's track has no welcome lesson of its own; this page is ours.*
 :::
 
-# Lens: Unit 1 overview
-tldr:: Why assume a frontier model may be scheming and design so it still cannot hurt you: the case for control, and attack trees as the way to think about what a model could do to you.
-summary_for_tutor:: Unit 1 overview page of AI Control Part 1. It only lists what the unit covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
-id:: 98d6d5d2-65a6-4661-8bce-1cfd186745fc
-reading_minutes:: 2
-tutor_minutes:: 0
-#### Text
-content::
-\## Unit 1: Why control
 
-Why assume a frontier model may be scheming and design so it still cannot hurt you: the case for control as a second line of defense behind alignment, and attack trees as the way to think about what a model could do to you.
-
-About 3.6 hours of reading and exercises.
 
 # Lens:
 source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais]]

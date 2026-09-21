@@ -7,7 +7,7 @@ tags:
 ---
 %% Day 1 of AI Control Part 2 (five-day split of XLab's seven-module track, September 2026). Core self-study 257 minutes. Lens order follows XLab's track. %%
 
-# Submodule: Unit 1
+
 # Lens: Unit 1 overview
 tldr:: Two guided exercises on high-stakes protocols, collusion and legibility, then the shift to low-stakes control and failures that only matter in aggregate.
 summary_for_tutor:: Unit 1 overview page of AI Control Part 2. It only lists what the unit covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.

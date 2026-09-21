@@ -7,7 +7,7 @@ tags:
 ---
 %% Day 3 of AI Control Part 2 (five-day split of XLab's seven-module track, September 2026). Core self-study 227 minutes, optional lenses add 60. Lens order follows XLab's track. %%
 
-# Submodule: Unit 3
+
 # Lens: Unit 3 overview
 tldr:: A benchmark for detecting and fixing research sabotage in ML codebases, then the long guided exercise on exploration hacking.
 summary_for_tutor:: Unit 3 overview page of AI Control Part 2. It only lists what the unit covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
