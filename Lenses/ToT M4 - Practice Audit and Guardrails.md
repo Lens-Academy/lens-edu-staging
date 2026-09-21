@@ -5,9 +5,7 @@ tldr: "Practice makes the rules real: audit one of your own recent AI conversati
 summary_for_tutor: "Practice lens for Unit 4 of 'Thinking about Thinking', applied after the 'Choosing What to Delegate' guidance lens. Three exercises: (1) a Question auditing one of the student's real recent AI conversations through the three-stage frame; (2) a Roleplay sparring practice in which a confident-but-flawed AI persona defends a risky recommendation and the student must interrogate it; (3) a Question in which the student rewrites one workflow so judgement stays with them and commits to one guardrail for the week. Feedback is structured and supportive, not grade-like on life choices."
 reading_minutes: 2
 tutor_minutes: 18
-{--{"author":"User's AI","timestamp":1790011245875}@@tags:
-  - work-in-progress
---}---
+---
 
 #### Text
 content::
