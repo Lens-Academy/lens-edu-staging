@@ -37,7 +37,7 @@ By the end of this course you will be able to:
 
 \## How the course runs
 
-Five units. Each unit is about four to five hours of reading and exercises on your own, and ends with a group meeting to work through the arguments the readings leave open. The times we give are ours, estimated from what a learner actually does including the exercises, so they are longer than the figures on XLab's site. A few lessons are marked optional; follow curiosity rather than completeness.
+Five units. Each unit is about four to five hours of reading and exercises on your own, and ends with a group meeting to work through the arguments the readings leave open. A few lessons are marked optional; follow curiosity rather than completeness.
 
 \## The five units
 
