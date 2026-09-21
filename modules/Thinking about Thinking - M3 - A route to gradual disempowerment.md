@@ -2,9 +2,9 @@
 id: '3298cbce-c5aa-4d1b-8220-fba3379899fa'
 slug: tot-m3
 title: "Is Cognitive Offloading Risky?"
-tags:
+{--{"author":"User's AI","timestamp":1790009807340}@@tags:
   - work-in-progress
----
+--}---
 
 # Lens:
 source:: [[../Lenses/ToT M3 - Gradual Disempowerment - PQ]]

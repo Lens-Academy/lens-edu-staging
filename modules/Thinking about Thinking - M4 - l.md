@@ -2,9 +2,9 @@
 id: '3b4fcae9-72f4-44e8-97d7-06037d386bd7'
 slug: tot-m4
 title: "Using AI While Keeping Your Judgement"
-tags:
+{--{"author":"User's AI","timestamp":1790009808907}@@tags:
   - work-in-progress
----
+--}---
 
 # Lens:
 source:: [[../Lenses/ToT M4 - Where Did the Judgement Sit - PQ]]
