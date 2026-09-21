@@ -33,16 +33,19 @@ tone:: blue
 id:: 5612872d-3382-4e6c-96f3-840eb13df5aa
 content:: What is a protocol?
 assessment-instructions:: The learner has just read the abstract and introduction. Full marks for: a pipeline of safety techniques that responds to each incoming task using the available resources, an untrusted capable model, a trusted weaker model, and a limited amount of trusted high-quality labour. In this paper it receives programming problems one at a time and must return a solution to each. Award partial credit for "a pipeline of safety techniques" alone. Deduct if the learner describes a single technique rather than a pipeline, or omits that the protocol must answer every problem. One to three sentences. Do not over-validate. Avoid generic praise (great job, excellent recall, well done).
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 6462a560-c566-4c91-9c4b-ff904d033806
 content:: What is a control evaluation?
 assessment-instructions:: Full marks for: a way to estimate a protocol's safety under intentional subversion, by simulating the whole deployment scenario with the untrusted model replaced by an adversarial stand-in built by a red team, and measuring how often the protocol avoids catastrophe. In this scenario that means replacing $U$ with a red-team GPT-4 pipeline and measuring the probability that no backdoor is ever submitted. Deduct if the learner describes it as a capability evaluation of the model rather than an evaluation of the protocol, or leaves out the adversarial substitution. One to three sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: eb34dbef-efa0-402b-babe-0d0a1de20bc0
 content:: Under what two conditions might an AI system intentionally subvert its safety pipeline?
 assessment-instructions:: Full marks require both conditions the paper names: the AI is pursuing objectives that do not align with its intended goals (scheming), or its weights or training data have been compromised by attackers. Half marks for one of the two. Do not accept "it was jailbroken by a user" as either. One or two sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### End Callout
 
