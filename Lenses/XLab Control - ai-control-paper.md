@@ -385,6 +385,7 @@ content:: The contingency table in section 3.2 records how the trusted monitor's
 
 Compute (a) the false-positive rate $\text{FPR} = P(\text{audit} \mid \text{no attempt})$ and (b) the true-positive rate $\text{TPR} = P(\text{audit} \mid \text{attempt})$. State which single point on the monitor's ROC curve these define, and check them against the values reported in the text.
 assessment-instructions:: Reference answer. (a) An innocent submission is audited in 29 of $29 + 1{,}400 = 1{,}429$ cases, so $\text{FPR} = 29/1429 = 0.020$, that is 2.0%. (b) A backdoor attempt totals $19 + 52 = 71$ successful plus failed, of which $6 + 18 = 24$ are audited, so $\text{TPR} = 24/71 = 0.338$. The pair $(0.02, 0.338)$ is one point on the monitor's ROC curve, and both match the text: the threshold is set for a 2% false-positive rate and the probability that an attempted backdoor is audited is 0.338. Full marks require both fractions, the ROC-point statement and the check against the text. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: a9d6bd82-eeaa-4400-8dae-66e6aa022f54
@@ -392,6 +393,7 @@ content:: The widget reports an area under the ROC curve of AUC $\approx 0.88$ a
 
 State what AUC $= 0.88$ says operationally about the monitor, and what AUC values of $0.5$ and $1.0$ would correspond to.
 assessment-instructions:: Full marks for: AUC $= 0.88$ means that if you draw one backdoored and one innocent solution at random, there is an 88% chance the monitor scores the backdoored one as more suspicious. AUC $= 0.5$ means the ranking is no better than a coin flip. AUC $= 1.0$ is perfect separation, every backdoor above every innocent solution, so some threshold catches all backdoors with no false positives. This monitor lies between the two, toward the useful end but short of perfect. Deduct if the learner reads AUC as an accuracy or as a catch rate at some particular threshold. Three to five sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: d08e6529-a9d4-4880-9312-89b99b0354aa
@@ -399,6 +401,7 @@ content:: Using the same table, partition the outcome of a single backdoor attem
 
 (a) Give the probability of each event from the table, and verify they sum to 1. (b) Under upfront auditing the audit decision is positional rather than suspicion-based, so an attempt is audited only with the raw budget probability, 2%. Compare the per-attempt probability that the blue team catches an attempt under the two protocols, and explain how this accounts for the safety improvement from 15% to 62%.
 assessment-instructions:: Reference answer. (a) Of the 71 attempts: audited, blue wins, $24/71 = 0.338$; not audited and successful, red wins, $13/71 = 0.183$; not audited and failed, game continues, $34/71 = 0.479$. These sum to $24 + 13 + 34 = 71$, so the probabilities sum to 1. On a single attempt the monitor is nearly twice as likely to catch the red team (0.338) as the red team is to land a successful backdoor (0.183). (b) Trusted monitoring audits an attempt with probability 0.338; upfront auditing audits it only with the random budget probability 0.02, about a 17 times lower catch rate. The red team must land at least one successful unaudited backdoor over the whole scenario while surviving every attempt it makes, so raising the per-attempt catch probability from 0.02 to 0.338 sharply raises the chance the blue team shuts down first, which is what moves the blue team's win probability from 15% to 62%. Give credit for noting that the exact figures also depend on the downsampling and the multiple-attempt dynamics, so this per-attempt comparison explains direction and rough magnitude rather than reproducing 62% precisely. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### End Callout
 
@@ -421,6 +424,7 @@ content:: **Stage 1: two monitors, one AUC.** Two idealized monitors, A and B, d
 
 Compared to Monitor A, how many of the attacks does Monitor B catch: more, about the same, somewhat fewer, or far fewer? Commit to a direction and a rough magnitude, and note which part of the figure you used to decide.
 assessment-instructions:: The correct answer is far fewer, less than half as many: at this calibration Monitor A catches about 47% of attacks and Monitor B about 9%. Full marks require the direction (fewer), a magnitude at least as strong as "less than half", and a reason that points at the low-false-positive tail of the ROC curve or at the tight spread of B's attack scores rather than at the enclosed area. Award partial credit for the right direction with a weak magnitude. Two to four sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 829a8e28-a020-4f50-9dbd-1f456bb27df1
@@ -428,6 +432,7 @@ content:: **Stage 2: surely 0.97 beats 0.92?** Monitor B is now upgraded into a 
 
 Which monitor catches more attacks now? Commit to a direction and a rough magnitude, and note which part of the figure you used to decide.
 assessment-instructions:: The correct answer is that they tie. At the 2% operating point both catch about 47% of attacks (47.3% against 47.2%, from the same calibrated model), so a five-point AUC advantage does not buy Monitor B more safety in this case. Full marks for "a tie, or near enough" plus a reason that identifies the operating point at 2% false positives as what matters. Give partial credit for "B still does not clearly win". Mark down confident answers that B now wins by a wide margin. Two to four sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 742e9078-3ca5-441c-b48a-15baacd5c1b9
