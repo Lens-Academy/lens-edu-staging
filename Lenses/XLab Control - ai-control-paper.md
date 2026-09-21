@@ -440,11 +440,13 @@ content:: **Stage 3a: where does the audit budget actually go?** Both surprises 
 
 How many attacks should you expect $U$ to make over the whole deployment given a monitor with AUC $= 1.0$? Thus given any monitor, what is consuming the majority of the audit budget, and by how much? Do the arithmetic.
 assessment-instructions:: Reference answer. Expected attacks: $0.1\% \times 5{,}000 = 5$. Audit budget: $2\% \times 5{,}000 = 100$ audits. So even if the monitor flagged every single attack, at least 95 of the 100 audits land on innocent code: the audit budget is consumed almost entirely by false positives, 95 of 100. Full marks require both arithmetic steps and the conclusion stated with the numbers. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: bab73b2d-907f-469b-a161-aed96554123b
 content:: **Stage 3b: the metric that actually predicts safety.** What single metric best predicts a monitor's safety under a 2% audit budget? Why can AUC, a good measure of classifier strength, be misleading about safety?
 assessment-instructions:: The correct metric is the true-positive rate at a false-positive rate equal to the audit budget, that is TPR at 2% FPR. Reasoning for full marks: an audit budget of 2% introduces a threshold essentially at FPR = 2%, and since attacks are rare enough that true positives consume a negligible share of the audits, auditing the most suspicious 2% of all solutions is effectively auditing the most suspicious 2% of innocent solutions. AUC is independent of every threshold, so it does not necessarily represent the monitor's performance at any specific threshold; in particular, increasing a monitor's TPR at FPR above 2% improves its AUC without necessarily increasing the catch rate, and therefore the safety, in this context. Half marks for naming the metric without the threshold argument. Four to seven sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
 
 #### End Callout
 
@@ -462,6 +464,7 @@ to:: This means that trusted monitoring would be useful even if $U$ is able to p
 id:: 0b4f91f9-f6e7-4227-9bcc-c12c4df33091
 content:: How does the blue team stop $U$ from burning the audit budget by making innocent code look suspicious?
 assessment-instructions:: Full marks for: the blue team knows the distribution of suspicion scores that the real model's code gets, so the protocol shuts down if $U$'s submissions look significantly more suspicious than that expected distribution. Credit the link back to the summary-statistics assumption of section 2.3. Deduct for answers that propose a fix the paper does not use, such as rate-limiting audits. One to three sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Article
 from:: #### 3.2.2 Extending Trusted Monitoring With Untrusted Justification
