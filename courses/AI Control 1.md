@@ -3,7 +3,7 @@ id: '138a580f-c111-4c7c-9d06-36d8477029b1'
 slug: ai-control-1
 slug-aliases: [xlab-ai-control]
 title: "AI Control 1"
-description: "First half of the AI Control curriculum: five days of about four and a half hours of self-study, each closing with a group meeting. Why to assume a frontier model may be scheming and design so it still cannot hurt you; the founding control paper and its protocols; catching a model red-handed and prioritising threats; the case for and against control; the control toolkit of detection, prevention and response; and high-stakes control, from rogue deployments to monitoring, resampling and the settings research is done in. {--{"author":"James's AI","timestamp":1790003168310}@@Alpha Lens edition; material may change after the paid pilot cohort. --}AI Control 2 is a separate course."
+description: "First half of the AI Control curriculum: five days of about four and a half hours of self-study, each closing with a group meeting. Why to assume a frontier model may be scheming and design so it still cannot hurt you; the founding control paper and its protocols; catching a model red-handed and prioritising threats; the case for and against control; the control toolkit of detection, prevention and response; and high-stakes control, from rogue deployments to monitoring, resampling and the settings research is done in. AI Control 2 is a separate course."
 tags:
   - work-in-progress
 partner-url: "https://xrisk.uchicago.edu/"
