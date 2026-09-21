@@ -34,10 +34,6 @@ The people who work out which control measures actually hold, and which ones onl
 
 #### Text
 content::
-:::callout {title="This is an alpha course" tone="amber"}
-XLab is in alpha testing and running a small paid cohort to calibrate the course ahead of its official launch. The materials are open for anyone to use in the meantime. If you use them, XLab would appreciate you filling out [their feedback form](https://forms.gle/KkWcHkKh87pygDzw9); it helps them find issues before launch. This Lens edition follows [XLab's current public curriculum](https://aisafetytracks.com/tracks/control), and XLab expects the material to change substantially after the paid cohort.
-:::
-
 \## How to use this course
 
 Everything is here. The readings, XLab's own explanations, its exercises and its interactive pieces are all on this page and the ones after it, so you never need to leave to do the work. Each lesson ends with a Works cited box linking the original sources, including the XLab lesson it was adapted from, if you want to go back to either.
