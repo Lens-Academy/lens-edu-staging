@@ -5,9 +5,7 @@ tldr: "One final check that puts the whole course together: where you actually a
 summary_for_tutor: "Recap lens at the end of Unit 5 and of the whole course 'Thinking about Thinking'. A short Text frame signals this is the final course check, then one graded Question chapter (the course-wide wrap-up) assessing an honest description of the learner's own AI use, one concrete change with a mechanism tied to the course's evidence, and one place to learn more. Score per the rubric. A personal reflection: grade the reasoning, not the life choices."
 reading_minutes: 4
 tutor_minutes: 16
-{--{"author":"User's AI","timestamp":1790011248246}@@tags:
-  - work-in-progress
---}---
+---
 
 #### Text
 content::
