@@ -39,7 +39,7 @@ content:: Optional: write a short note now that you can look back on at the end 
 - Before reading anything: does "keep a possibly-adversarial, possibly-superhuman system contained and still get useful work out of it" strike you as tractable, or as hopeless?
 - What would have to be true for you to change that answer?
 optional:: true
-assessment-instructions:: This is an ungraded, optional pre-course reflection. Acknowledge it in two or three sentences, reflect back the specific intuition they expressed without endorsing or correcting it, and note that the course will give them evidence on it (Unit 1 makes the case for control, and Unit 3 includes the case against). Do not preview the arguments. Do not ask a follow-up question. Close by sending them to the first lesson. No generic praise.
+feedback-instructions:: This is an ungraded, optional pre-course reflection. Acknowledge it in two or three sentences, reflect back the specific intuition they expressed without endorsing or correcting it, and note that the course will give them evidence on it (Unit 1 makes the case for control, and Unit 3 includes the case against). Do not preview the arguments. Do not ask a follow-up question. Close by sending them to the first lesson. No generic praise.
 
 #### Text
 content::
