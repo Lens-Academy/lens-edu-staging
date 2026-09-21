@@ -8,19 +8,7 @@ tags:
 %% Day 3 of AI Control Part 2 (five-day split of XLab's seven-module track, September 2026). Core self-study 227 minutes, optional lenses add 60. Lens order follows XLab's track. %%
 
 
-# Lens: Unit 3 overview
-tldr:: A benchmark for detecting and fixing research sabotage in ML codebases, then the long guided exercise on exploration hacking.
-summary_for_tutor:: Unit 3 overview page of AI Control Part 2. It only lists what the unit covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
-id:: 8b83b62a-bbd1-4548-8f05-fee086eba39a
-reading_minutes:: 2
-tutor_minutes:: 0
-#### Text
-content::
-\## Unit 3: Research sabotage and exploration hacking in practice
 
-A benchmark for detecting and fixing research sabotage in ML codebases, then the long guided exercise on exploration hacking. An optional lens holds the full capability elicitation paper.
-
-About 3.8 hours of reading and exercises, plus an optional lens.
 
 # Lens:
 source:: [[../Lenses/XLab Control - auditing-sabotage-bench-paper]]
