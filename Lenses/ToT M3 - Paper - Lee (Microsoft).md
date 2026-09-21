@@ -5,9 +5,7 @@ reading_minutes: 5
 tutor_minutes: 5
 tldr: "A survey of 319 knowledge workers found a pattern. Workers who trusted the AI reported less critical thinking. Workers who trusted their own ability reported more. Confidence is a calibration problem, not a verdict on AI."
 summary_for_tutor: "Optional evidence lens for Unit 3 of 'Thinking about Thinking'. Presents Lee et al. (Microsoft Research, 2025): a survey of 319 knowledge workers across 936 examples of generative-AI use. The claim the core course makes of this study: higher confidence in the AI associated with lower reported critical-thinking effort, higher confidence in one's own ability associated with more; AI shifts the kind of work people do (more verification, integration, stewardship; less initial production). Lee reports shifts within each level of the work, not a downgrade. This is an association from self-reported perception, not proof of cause. Inlines the paper's own RQ conclusion connecting self-confidence and confidence in GenAI to perceived critical thinking. Ends with a reflective 'Your turn' question the tutor treats as a conversation about the paper. Remind the student they may ask about any unfamiliar term."
-{--{"author":"User's AI","timestamp":1790011240467}@@tags:
-  - work-in-progress
---}---
+---
 
 #### Text
 content::
