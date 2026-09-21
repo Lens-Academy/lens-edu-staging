@@ -6,7 +6,6 @@ summary_for_tutor: "Recap lens at the end of Unit 4 of 'Thinking about Thinking'
 reading_minutes: 4
 tutor_minutes: 6
 tags:
-  - work-in-progress
 ---
 
 #### Text
