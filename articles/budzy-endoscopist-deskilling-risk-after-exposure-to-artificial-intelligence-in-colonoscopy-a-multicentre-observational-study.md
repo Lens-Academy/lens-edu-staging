@@ -22,7 +22,7 @@ author:
   - "Mette Kalager"
   - "Michael Bretthauer"
   - "Yuichi Mori"
-source_url: "https://www.thelancet.com/journals/langas/article/PIIS2468-1253(25)00133-5/abstract"
+source_url: https://www.thelancet.com/journals/langas/article/PIIS2468-1253(25)00133-
 published: 2025-10-01
 created: 2026-08-21
 accessed: 2026-08-21
