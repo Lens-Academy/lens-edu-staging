@@ -32,18 +32,6 @@ The people who work out which control measures actually hold, and which ones onl
 [^note-case]: Both claims, that control and alignment are distinct lines of defense and that control is more evaluable because it reduces to a capability question, come from Greenblatt and Shlegeris, "The case for ensuring that powerful AIs are controlled", which is the next lesson.
 [^note-catching]: From Greenblatt and Shlegeris, "Catching AIs red-handed", on Day 3.
 
-#### Text
-content::
-\## How to use this course
-
-Everything is here. The readings, XLab's own explanations, its exercises and its interactive pieces are all on this page and the ones after it, so you never need to leave to do the work. Each lesson ends with a Works cited box linking the original sources, including the XLab lesson it was adapted from, if you want to go back to either.
-
-Three things worth knowing before you start:
-
-- **Two courses, five days each.** XLab's seven-module track is split into AI Control Part 1 and Part 2, roughly 22 hours each. Each day is about four to five hours of reading and exercises and ends with a group meeting.
-- **The times are ours, not XLab's.** We estimated each lesson from what a learner actually does, including the exercises, rather than from a word count. They are longer than the figures on XLab's site, which price the reading alone.
-- **Optional means optional.** A few lessons are marked optional. Follow curiosity rather than completeness.
-
 #### Question: Open
 id:: 729d6348-3399-440f-9826-ce753ce19e53
 content:: Optional: write a short note now that you can look back on at the end of the course.

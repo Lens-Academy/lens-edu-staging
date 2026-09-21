@@ -22,6 +22,8 @@ Surveys follow the Compute Verification pattern: meetings 1 to 4 use the shared 
 
 application-survey:: [[../surveys/Application Form]]
 
+# Module: [[../modules/XLab Control P1 Overview]]
+
 # Module: [[../modules/XLab Control P1 D1 Why control|Unit 1: Why control]]
 
 # Meeting: Unit 1
