@@ -7,7 +7,7 @@ tags:
 ---
 %% Day 5 of AI Control Part 2 (five-day split of XLab's seven-module track, September 2026). Core self-study 282 minutes. Lens order follows XLab's track. %%
 
-# Submodule: Unit 5
+
 # Lens: Unit 5 overview
 tldr:: Trading with misaligned AIs, deals with early schemers and the barriers to them, and then where to go next in AI control.
 summary_for_tutor:: Unit 5 overview page of AI Control Part 2. It only lists what the unit covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
