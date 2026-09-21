@@ -21,7 +21,7 @@ Alignment tries to make a model want what we want. AI control asks what holds if
 
 \## What you will learn
 
-By the end of the five days you will be able to explain why control is a distinct line of defense from alignment and why it is easier to evaluate; read the founding control paper and its protocols, trusted and untrusted monitoring, editing and deferral, and say what a red team is measuring; build an attack tree for a deployed model and prioritise the threats on it; argue both for and against control research and place a protocol on the safety-usefulness frontier; sort control work into detection, prevention, response, evaluations and environments; and follow how monitoring, resampling and rogue-deployment defenses work in a real high-stakes deployment.
+By the end of this course you will be able to explain why control is a distinct line of defense from alignment and why it is easier to evaluate; read the founding control paper and its protocols, trusted and untrusted monitoring, editing and deferral, and say what a red team is measuring; build an attack tree for a deployed model and prioritise the threats on it; argue both for and against control research and place a protocol on the safety-usefulness frontier; sort control work into detection, prevention, response, evaluations and environments; and follow how monitoring, resampling and rogue-deployment defenses work in a real high-stakes deployment.
 
 \## How the course runs
 

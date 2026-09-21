@@ -19,6 +19,8 @@ Meeting 5 uses AC2 Final Impact Survey v2 (copy of CV1 Final with fresh ids and 
 
 application-survey:: [[../surveys/Application Form]]
 
+# Module: [[../modules/XLab Control P2 Overview]]
+
 # Module: [[../modules/XLab Control P2 D1 Collusion, legibility, and low-stakes control]]
 
 # Meeting: Unit 1: Collusion, legibility, and low-stakes control
