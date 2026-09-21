@@ -7,8 +7,8 @@ tags:
 ---
 %% Day 2 of AI Control Part 2 (five-day split of XLab's seven-module track, September 2026). Core self-study 255 minutes. Lens order follows XLab's track. %%
 
-# Submodule: Day 2
-# Lens: Day 2 overview
+# Submodule: Unit 2
+# Lens: Unit 2 overview
 tldr:: Sandbagging and exploration hacking as a threat model, a guided exercise on stress-testing capability elicitation, and the paper on whether models can learn to resist RL training.
 summary_for_tutor:: Day 2 overview page of AI Control Part 2. It only lists what the day covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
 id:: fe89122b-e58b-4138-adfd-838f4ca74d08

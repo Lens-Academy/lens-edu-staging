@@ -9,13 +9,13 @@ tags:
 
 # Lens: Unit 4 overview
 tldr:: The Plans A to D landscape, the taxonomy of control work (detection, prevention, response, evaluations, environments), and the framing for high-stakes control.
-summary_for_tutor:: Day 4 overview page of AI Control Part 1. It only lists what the day covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
+summary_for_tutor:: Unit 4 overview page of AI Control Part 1. It only lists what the unit covers and how long it takes; it teaches nothing. Point the learner to the lenses that follow.
 id:: 09a0d319-ed2d-4d95-89f4-47e933619fce
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
 content::
-\## Day 4: Plans, the control toolkit, and high-stakes framing
+\## Unit 4: Plans, the control toolkit, and high-stakes framing
 
 The Plans A to D landscape for misalignment risk and a modelling exercise, then the taxonomy of control work: detection, prevention and response mitigations, control evaluations, environments, and the map of areas of control work. Closes with the framing for high-stakes control.
 
