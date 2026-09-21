@@ -5,7 +5,6 @@ tldr: "One check that puts Unit 4 together: can you find where a real workflow d
 summary_for_tutor: "Recap lens at the end of Unit 4 of 'Thinking about Thinking'. A short Text frame sends the learner back to the unit's three-stage frame, rules, and red flags (Choosing What to Delegate and the Practice lens), then one graded Question chapter (the 'paste my inbox every morning' workflow) assessing spotting delegated judgement and rewriting the workflow with at least three concrete, mechanistically justified changes. Score per the rubric."
 reading_minutes: 4
 tutor_minutes: 6
-tags:
 ---
 
 #### Text

@@ -5,9 +5,7 @@ tldr: "The evidence says concern, not alarm; one kept guardrail beats a long lis
 summary_for_tutor: "Closing lens for Unit 5 of 'Thinking about Thinking' and for the course. Authored content: reasonable worry versus alarm; one thing to do today (a single kept guardrail); a 'where to learn more' list (Kulveit paper, 80,000 Hours profile, Bednar legal study, Roxana Seifer's survey, Jaspreet Singh's writing, and courses from BlueDot, 80,000 Hours, and Lens Academy); and a parting thought. Ends with a final reflection Question that re-asks the Unit 1 opening questions and asks what changed."
 reading_minutes: 15
 tutor_minutes: 15
-{--{"author":"User's AI","timestamp":1790011239541}@@tags:
-  - work-in-progress
---}---
+---
 
 #### Text
 content::
