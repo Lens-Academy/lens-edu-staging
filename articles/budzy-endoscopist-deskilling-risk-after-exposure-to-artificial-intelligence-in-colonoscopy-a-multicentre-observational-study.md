@@ -36,6 +36,7 @@ llm-review:
   source:
     fetched: 2026-09-03
     kind: "live"
+allowUnreachableUrl: true
 ---
 %%
 Add discussion note here:
