@@ -25,7 +25,15 @@ AI Control 1 is a prerequisite. This course picks up where it stopped, in the mi
 
 \## What you will learn
 
-By the end of this course you will be able to attack an untrusted-monitoring protocol through collusion and design legibility protocols that resist it; tell high-stakes from low-stakes control and say what changes when failures only matter in aggregate; recognise sandbagging and exploration hacking as threat models and stress-test a capability elicitation method; judge a benchmark for research sabotage; reason about threat models that are not scheming, reward seekers, satiable preferences and spillway motivations, and measure reward seeking empirically; weigh deals with early misaligned AIs and the barriers to them; and know where to go next in control research.
+By the end of this course you will be able to:
+
+- Attack an untrusted-monitoring protocol through collusion, and design legibility protocols that resist it.
+- Tell high-stakes from low-stakes control, and say what changes when failures only matter in aggregate.
+- Recognise sandbagging and exploration hacking as threat models, and stress-test a capability elicitation method.
+- Judge a benchmark for research sabotage.
+- Reason about threat models that are not scheming (reward seekers, satiable preferences, spillway motivations) and measure reward seeking empirically.
+- Weigh deals with early misaligned AIs and the barriers to them.
+- Know where to go next in control research.
 
 \## How the course runs
 
