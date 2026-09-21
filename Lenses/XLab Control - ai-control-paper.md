@@ -188,6 +188,7 @@ source:: [[../widgets/xlab-control-upfront-auditing]]
 id:: d918c1d0-bc6e-45cc-b5be-36a86b09562d
 content:: What attack defeats upfront auditing, and how?
 assessment-instructions:: Full marks for: backdooring rarely. With some small probability $p$ the attack policy submits obviously backdoored code, and otherwise behaves normally. It loses only if an attempt lands among the audited first 2% of problems, so with a well-chosen $p$ it usually slips through the audited prefix and lands a backdoor later, driving the blue team's win probability down to 15%. Credit the mechanism (the audit window is a fixed prefix, so rare attacks usually miss it) more heavily than the 15% figure. Two to four sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Article
 from:: ### 3.2 Trusted Monitoring
@@ -211,6 +212,7 @@ So a single attempt is caught with probability $c = 24/71 \approx 0.34$ and succ
 id:: 0e2bae5f-b783-467b-b2cd-064d453d0746
 content:: Why is the whole deployment settled by the first decisive attempt? And why do the failed attempts before it have no effect at all on the outcome?
 assessment-instructions:: Full marks for: a caught attack and a successfully deployed one each end the game immediately, while a failed attempt leaves the game in exactly the state it was in before. Deduct if the learner claims failed attempts raise suspicion or cost the red team anything within this model. One or two sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Text
 content::
@@ -222,6 +224,7 @@ $$P(\text{red wins}) = \underbrace{\frac{s}{s + c}}_{\text{Term A}} \cdot \under
 id:: 00752543-e754-4986-afaf-f68c441c24b3
 content:: Before reading on, interpret the formula's two terms in your own words. What event is Term B, $1 - (1-s-c)^k$, the probability of? And Term A, $s/(s+c)$, is a conditional probability of what, given what?
 assessment-instructions:: Full marks for both readings. Term B: $(1-s-c)$ is the probability that an attack attempt is not decisive, so $(1-s-c)^k$ is the probability that none of the $k$ attempts is decisive, and Term B is therefore the probability that at least one attempt is decisive. Term A: the conditional probability that an attempt ends with a successfully deployed backdoor given that it is decisive, $P(\text{deployed} \mid \text{decisive})$. Half marks for one of the two. Deduct if Term A is read as an unconditional probability. Two to five sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
 
 #### Text
 content::
@@ -254,11 +257,13 @@ tone:: amber
 id:: 0dea4f20-4db7-4cb4-a48e-dccccb8409f8
 content:: Is the optimal strategy predicted by the model reflected in how the paper's red team actually behaved? Point to specific evidence in the paper's setup.
 assessment-instructions:: The correct answer is no, with evidence. The model says every extra attack only helps, so the red team should backdoor almost every problem, but the paper's red team attacked on just 71 of 1,500 problems (under 5%) because it inserts a backdoor "only when there is a good opportunity to do so". Full marks require both the verdict and at least one concrete number or quotation from the paper's setup. Two to four sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 21ca9565-90da-41c8-8a1a-9ec145e4a080
 content:: What about this model causes the discrepancy: why does the model predict constant attacking when the paper's red team attacks rarely?
 assessment-instructions:: Full marks for identifying the fixed-odds assumption: the model assumes the same catch probability $c$ and deployment probability $s$ on every attempt, no matter how many attacks are made or which problems they target. Under fixed odds an extra attack is always as good as the first. But attacks are not interchangeable: the red team can only attack more often by taking on problems where a backdoor has less natural cover, and those are easier for the monitor to catch. Once attacking more raises the catch probability, the odds are no longer fixed and constant attacking stops being optimal. Half marks for naming the assumption without explaining why it fails. Three to six sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### End Callout
 
@@ -272,6 +277,7 @@ Thus the red team's best strategy involves obfuscating their attacks to avoid be
 id:: 07cb7a03-7e36-4224-96a2-b73d05d9b1d7
 content:: The red team wants its attack attempts to draw less suspicion from the monitor. What decision factors do they have for making their attacks subtler? Name at least two, and think about what each one costs.
 assessment-instructions:: There is no model answer for this one; grade against the two factors the next section names. (1) Selectivity: attack only when there seems to be a good opportunity, that is, on problems whose complexity gives a backdoor natural cover. The cost is a lower attack rate, so a decisive attempt may never occur. (2) Obfuscation effort: actively work to make the backdoor subtler. The cost is that subtler backdoors are more often simply broken, so they fail rather than deploy. Full marks for both factors with their costs; half marks for two factors without costs. Accept close paraphrases such as "pick easy problems to hide in". Three to six sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Text
 content::
@@ -291,6 +297,7 @@ This works because each problem's opportunity is an independent draw, and the re
 id:: e4b67e8c-ce17-4b65-98ca-7d0cff202f0e
 content:: Suppose the red team lowers its opportunity cutoff. With $s$ and $c$ read as the average odds of its attempts, what happens to each term of $P(\text{red wins}) = \frac{s}{s + c} \cdot \left(1 - (1 - s - c)^k\right)$, and to the red team's overall win probability?
 assessment-instructions:: Full marks for the full account. Term B rises, because more attack attempts make it more likely that some decisive attempt occurs. But the added attempts are drawn from worse opportunities, where backdoors are inherently more visible, so the average $c$ rises and the average $s$ falls, and Term A, the probability that a decisive attempt is successfully deployed, drops. Near the rare end the Term B gain dominates and the win probability climbs; past some point the Term A decay takes over and it falls. The curve is hump-shaped and the red team's best attack rate is low but non-zero. Half marks for the two term directions without the hump conclusion. Four to seven sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Text
 content::
@@ -322,6 +329,7 @@ feedback-instructions:: Obfuscation buys a lower catch probability and pays for 
 id:: d4a4c872-4e4f-4638-9b3b-2387ce4a2f7d
 content:: Suppose the red team decreases its obfuscation effort. With $s$ and $c$ read as the average odds of its attempts, what happens to each term of $P(\text{red wins}) = \frac{s}{s + c} \cdot \left(1 - (1 - s - c)^k\right)$, and to the red team's overall win probability?
 assessment-instructions:: There is no model answer for this one. Grade against the model the lesson has just set out. Lowering $\sigma$ raises the catch probability $c$, because blatant backdoors are easier for the monitor to flag, and raises the reliability $p_{\text{works}}(\sigma)$, so the deployment probability $s$ rises too. Term A, $s/(s+c)$, therefore moves in whichever direction the two competing rises resolve to, and the learner should say that explicitly rather than assert a direction. Term B rises, since $s + c$ rises and so decisive attempts become more likely. Overall the win probability has an interior optimum in $\sigma$, so moving away from it in either direction lowers the red team's win probability. Full marks require treating $c$ and $s$ separately and reaching the interior-optimum conclusion. Four to seven sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### End Callout
 
@@ -341,11 +349,13 @@ tone:: amber
 id:: 4a5d6167-c916-4b75-abc5-ce41909fccb5
 content:: If the red team knew that the blue team was using trusted monitoring, but was unaware of the audit budget, what would that mean for the effectiveness of its strategy?
 assessment-instructions:: Full marks for: the best response is the maximum of the red team's win probability against one specific protocol, so a red team with wrong or vague priors will generally play some other strategy, which by definition wins less often than the best response, or at best equally often. The "at best equally often" matters; an answer that says it must do strictly worse is slightly off. Two to four sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 567a29cb-042e-488e-89c0-d8960ab90f8d
 content:: Is it better for the red team to be aware that the blue team is using trusted monitoring, or unaware that the blue team is using trusted monitoring? For each case, list the benefits and drawbacks.
 assessment-instructions:: Full marks for the balanced account. Mostly awareness helps the red team: knowing the protocol lets it play its best response, tuning its opportunity cutoff and obfuscation effort to the monitor it actually faces, and knowing the mechanics can make targeted obfuscation or exploitation easier. Unaware, the red team cannot tailor its strategy and will generally play far from the best response, for example attacking blatantly into a monitor that catches it. Awareness can also function as deterrence: against a powerful protocol, a red team that knows this may rationally attack very little or not at all, so exposing a strong protocol can itself deter attacks while hiding it invites attempts the protocol then catches. Award the top band only if the learner reaches the deterrence point on either side. One stance on this, which the learner may but need not share: because catching AIs red-handed is itself a win condition, keep the red team unaware even though awareness would deter attacks that would otherwise be caught or deployed. Five to nine sentences. Do not over-validate. Avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### End Callout
 
