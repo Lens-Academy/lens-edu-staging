@@ -55,6 +55,7 @@ id:: 1f88446b-db35-4c57-adf6-e8b9a9c0c4dd
 content:: What is a monitor, and what is a monitor score?
 max-chars:: 600
 assessment-instructions:: A good answer says a monitor is any technique that takes a proposed action together with some surrounding context and produces a monitor score describing how dangerous or suspicious that action is. Reward naming any of the reading's examples: trusted or untrusted models evaluating the action, probes trained on off-policy examples or produced other ways, or interpretability techniques such as sparse autoencoders for detecting deceptive intent. Do not require a specific technique, since the point is that all of them share this input and output shape. Do not over-validate and avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Article
 from:: Then, based on the monitor score, we need to make two decisions.
@@ -65,6 +66,7 @@ id:: bb78eb9b-8027-4c6b-9085-cc47963a1bd3
 content:: What is auditing?
 max-chars:: 600
 assessment-instructions:: A good answer says auditing is reviewing an action to determine whether it is evidence that the model is intentionally trying to cause problems. Reward the simplest version from the reading: put the action in a queue for eventual human review, with escalation if the reviewer is suspicious, possibly ending in the conclusion that the model is a misaligned power-seeker. Mark down an answer that describes auditing as blocking or fixing the action, since that is replacing, not auditing. Do not over-validate and avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Article
 from:: The two defensive actions of auditing and replacing have quite different safety properties.
@@ -75,6 +77,7 @@ id:: 88f5ca30-cbb0-40bc-b543-ae6855bd333e
 content:: When the AI attacks under an execute/replace/audit protocol, what are the three possible outcomes?
 max-chars:: 800
 assessment-instructions:: A good answer names all three and says what each one is. Win: the attack is audited and the developer catches the AI. Lose: the attack is executed and succeeds. Continue: the attack fails silently, so the AI is not caught and the deployment goes on, with the AI probably attacking again later. Award partial credit per outcome correctly described. Reward an answer that notes why continue is distinct from win, that a silently failed attack yields no evidence against the model. Do not over-validate and avoid generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Article
 from:: ## Example: analyzing the safety of defer-to-trusted using the probes from “Simple probes can catch sleeper agents”
