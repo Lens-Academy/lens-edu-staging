@@ -12,7 +12,7 @@ authors:
 content::
 \## How big of a task can't a given AI do?
 
-Whether or note an AI is inclined to do so, if we want to know whether AI is at risk of doing things like "take over the world" or "kill all humans", we'd like to know how close it is.
+Whether or {--{"author":"James's AI","timestamp":1789990458832}@@note--}{++{"author":"James's AI","timestamp":1789990458832}@@not++} an AI is inclined to do so, if we want to know whether AI is at risk of doing things like "take over the world" or "kill all humans", we'd like to know how close it is.
 
 Let's assume we want to measure how close AI is to being able to do that. Later in the course we'll work through evidence that you tend to get what you can best measure, so this is a dangerous thing to measure, and might already be having negative effects. But it's potentially useful for defenders to know, so let's talk about it.
 
