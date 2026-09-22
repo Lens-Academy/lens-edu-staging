@@ -17,7 +17,7 @@ This page is one of five topic pages for today. Do at least one; the rest are op
 
 #### Text
 content::
-Read [*The Platonic Representation Hypothesis*](https://arxiv.org/abs/2405.07987) (Huh, Cheung, Wang and Isola, 2024). It opens in a new tab; come back here to answer.
+Read [*The Platonic Representation Hypothesis*](https://arxiv.org/abs/2405.07987) (Huh, Cheung, Wang and Isola, 2024). The paper is not reproduced here yet; read it at the link, then come back to answer.
 
 #### Question: Open
 id:: 38154f68-acce-427f-a51c-19235fe39daa

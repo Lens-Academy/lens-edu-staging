@@ -30,6 +30,14 @@ optional:: true
 source:: [[../Lenses/ATDL 2.5 - Optimization]]
 optional:: true
 
+# Lens: Topic: representational alignment
+source:: [[../Lenses/ATDL 2.6 - Representational alignment]]
+optional:: true
+
+# Lens: Topic: in-context learning
+source:: [[../Lenses/ATDL 2.7 - In-context learning]]
+optional:: true
+
 # Submodule: Wrap-up
 
 # Lens: Wrap-up
