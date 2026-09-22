@@ -15,9 +15,8 @@ tutor_minutes: 15
 content::
 This page is one of five topic pages for today. Do at least one; the rest are optional.
 
-#### Text
-content::
-Read [*The Platonic Representation Hypothesis*](https://arxiv.org/abs/2405.07987) (Huh, Cheung, Wang and Isola, 2024). The paper is not reproduced here yet; read it at the link, then come back to answer.
+#### Article
+source:: [[../articles/huh-the-platonic-representation-hypothesis]]
 
 #### Question: Open
 id:: 38154f68-acce-427f-a51c-19235fe39daa
