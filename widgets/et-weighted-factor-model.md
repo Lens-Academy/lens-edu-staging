@@ -32,6 +32,7 @@ tags: [wip]
   th, td { border-bottom: 1px solid var(--border); padding: 5px 7px; text-align: right; font-variant-numeric: tabular-nums; vertical-align: middle; }
   th:first-child, td:first-child { text-align: left; font-variant-numeric: normal; min-width: 15rem; }
   thead th { font-size: 11px; letter-spacing: 0.05em; color: var(--muted); font-weight: 600; }
+  thead tr:last-child th { min-width: 6rem; }
   thead th.cat { text-align: center; border-bottom: 2px solid var(--accent); font-size: 10px; text-transform: uppercase; }
   tbody tr.is-top td { background: var(--surface); }
   tbody tr.is-top td:first-child { font-weight: 600; }
@@ -116,19 +117,23 @@ tags: [wip]
 </div>
 
 <script>
+  // `label` is the full name, used in the weights panel, the tooltip and the
+  // tutor summary. `short` is the column header: the category row above it
+  // already says "the problem", so repeating it only made the header wrap to
+  // four lines and squeeze the score boxes.
   var CRITERIA = [
-    { id: "importance",   cat: "Impact on the problem area", label: "The problem: Importance", wt: 5 },
-    { id: "neglected",    cat: "Impact on the problem area", label: "The problem: Neglectedness", wt: 5 },
-    { id: "tractable",    cat: "Impact on the problem area", label: "The problem: Tractability", wt: 5 },
-    { id: "pathway",      cat: "Impact on the problem area", label: "Certainty of pathway to impact", wt: 20 },
-    { id: "skills",       cat: "Impact on my career path",   label: "Skill building", wt: 12 },
-    { id: "relationship", cat: "Impact on my career path",   label: "Relationship building", wt: 12 },
-    { id: "fit-test",     cat: "Impact on my career path",   label: "Testing fit", wt: 12 },
-    { id: "community",    cat: "Impact on my community",     label: "Community impact", wt: 15 },
-    { id: "current-fit",  cat: "General thesis interest",    label: "Current fit", wt: 5 },
-    { id: "motivation",   cat: "General thesis interest",    label: "Motivation", wt: 3 },
-    { id: "novelty",      cat: "General thesis interest",    label: "Novelty", wt: 3 },
-    { id: "draw",         cat: "General thesis interest",    label: "Intuitive draw", wt: 3 }
+    { id: "importance",   cat: "Impact on the problem area", label: "The problem: Importance", short: "Importance", wt: 5 },
+    { id: "neglected",    cat: "Impact on the problem area", label: "The problem: Neglectedness", short: "Neglectedness", wt: 5 },
+    { id: "tractable",    cat: "Impact on the problem area", label: "The problem: Tractability", short: "Tractability", wt: 5 },
+    { id: "pathway",      cat: "Impact on the problem area", label: "Certainty of pathway to impact", short: "Pathway to impact", wt: 20 },
+    { id: "skills",       cat: "Impact on my career path",   label: "Skill building", short: "Skill building", wt: 12 },
+    { id: "relationship", cat: "Impact on my career path",   label: "Relationship building", short: "Relationships", wt: 12 },
+    { id: "fit-test",     cat: "Impact on my career path",   label: "Testing fit", short: "Testing fit", wt: 12 },
+    { id: "community",    cat: "Impact on my community",     label: "Community impact", short: "Community", wt: 15 },
+    { id: "current-fit",  cat: "General thesis interest",    label: "Current fit", short: "Current fit", wt: 5 },
+    { id: "motivation",   cat: "General thesis interest",    label: "Motivation", short: "Motivation", wt: 3 },
+    { id: "novelty",      cat: "General thesis interest",    label: "Novelty", short: "Novelty", wt: 3 },
+    { id: "draw",         cat: "General thesis interest",    label: "Intuitive draw", short: "Intuitive draw", wt: 3 }
   ];
   var MAX_ROWS = 8;
   var STORE_KEY = "et-wfm-preview";
@@ -223,7 +228,7 @@ tags: [wip]
     elCats.appendChild(rm);
     CRITERIA.forEach(function (c) {
       var th = document.createElement("th");
-      th.textContent = c.label;
+      th.textContent = c.short;
       th.title = c.label;
       elCrits.appendChild(th);
     });
