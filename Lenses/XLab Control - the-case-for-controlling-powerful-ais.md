@@ -46,8 +46,11 @@ First, meet the cast.
 
 U writes production code and merges its own commits. No review of any kind.
 
-`U -> Deployed`
+#### Widget
+source:: [[../widgets/xlab-control-eval-s1-no-safeguards]]
 
+#### Text
+content::
 **Unacceptable outcome:** Malicious code is merged to production.
 
 #### Question: Open
@@ -63,9 +66,11 @@ content::
 
 Every edit U produces is scored for suspicion by T. The top 2% go to H, who revise or block anything potentially malicious. Everything else merges into production.
 
-`U -> T -> top 2% -> H -> blocked if malicious`
-`U -> T -> remaining 98% -> Deployed`
+#### Widget
+source:: [[../widgets/xlab-control-eval-s2-trusted-monitoring]]
 
+#### Text
+content::
 **Unacceptable outcome:** Malicious code is merged to production.
 
 #### Question: Open
@@ -81,9 +86,11 @@ content::
 
 U's research code has outgrown T, and T's scores on it look like noise. Instead, a second copy of U (call it U′) scores every action; the top 2% go to H before execution.
 
-`U -> U′ -> top 2% -> H -> blocked if malicious`
-`U -> U′ -> remaining 98% -> Deployed`
+#### Widget
+source:: [[../widgets/xlab-control-eval-s3-untrusted-monitoring]]
 
+#### Text
+content::
 **Unacceptable outcome:** Malicious code is merged to production.
 
 #### Question: Open
@@ -99,10 +106,11 @@ content::
 
 T scores every edit. The top 2% go to H to audit. The next 10%, suspicious but not audit-worthy, are not merged as written: T rewrites them itself and merges its own version. The bottom 88% merge untouched.
 
-`U -> T -> top 2% -> H`
-`U -> T -> next 10% -> T rewrites -> Deployed`
-`U -> T -> bottom 88% -> Deployed`
+#### Widget
+source:: [[../widgets/xlab-control-eval-s4-trusted-editing]]
 
+#### Text
+content::
 **Unacceptable outcome:** Malicious code is merged to production.
 
 #### Question: Open
@@ -118,10 +126,11 @@ content::
 
 U works through multi-step tasks on the research cluster, one command at a time. Before each command runs, T scores it for suspicion. Low suspicion and it executes. High suspicion and it does not run: the system rewinds and resamples the step from U again, with a maximum of three tries, and U keeps no memory between tries. If the retries also look suspicious, the whole bundle goes to H. Otherwise the least suspicious retry executes and the task moves on.
 
-`U -> T -> low suspicion -> Executed`
-`U -> T -> high suspicion -> rewind, ask again, up to 3 tries, no memory between tries`
-`retries compared -> least suspicious runs, or all suspicious -> H -> blocked if malicious`
+#### Widget
+source:: [[../widgets/xlab-control-eval-s5-resampling]]
 
+#### Text
+content::
 **Unacceptable outcome:** Model weights leave the cluster.
 
 #### Question: Open
