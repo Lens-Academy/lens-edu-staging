@@ -30,22 +30,23 @@ content::
 
 \## Today's path
 
-Iliad ran this worksheet as a full day. Guillaume's advice to his students: "Use LLMs to help you out when you spend longer than the suggested time (but make sure that you understand). Make sure you keep at least 30 minutes to do problem 3." Problem 3 is the rich regime, Section 4 of the worksheet.
+Iliad ran this worksheet as a full day. Guillaume's advice to his students: "Use LLMs to help you out when you spend longer than the suggested time (but make sure that you understand). Make sure you keep at least 30 minutes to do problem 3." The worksheet calls each exercise section a problem, starting from Section 3; problem 3 is the rich regime, Section 5.
 
-The worksheet gives no shorter route, so the Lens version marks some exercises as core and the rest as optional. **This cut is ours, not Guillaume's.** Core: Section 2 (Exercises 2.1 and 2.3), Section 3 (Exercises 3.1, 3.2 and 3.7), all of Section 4, and in Sections 5 and 6 one exercise each (5.2 and 6.2). Everything else, including the bonus Section 7 on stochastic implicit bias, is optional. Expect about 4 hours for the core path, plus the group meeting.
+The worksheet gives no shorter route, so the Lens version marks some exercises as core and the rest as optional. **This cut is ours, not Guillaume's.** Core: Section 3 (Exercises 3.1 and 3.3), Section 4 (Exercises 4.1, 4.2 and 4.7), all of Section 5, and in Sections 6 and 7 one exercise each (6.2 and 7.2). Everything else, including the bonus Section 8 on stochastic implicit bias, is optional. Expect about 4 hours for the core path, plus the group meeting.
 
-The next page is the whole worksheet; use it as your textbook. After it come three checkpoint pages, where you type your answers and the tutor checks your working, and an optional fourth for Section 7.
+The next page is the whole worksheet; use it as your textbook. After it come three checkpoint pages, where you type your answers and the tutor checks your working, and an optional fourth for Section 8.
 
 \## How to answer
 
 Work on paper or in your head, then type your key steps and final answer into the box. You can write maths in LaTeX between dollar signs (for example `$\lambda = 1/4$`) or in plain text (for example `lambda = 1/4`, `w^3`). Images of handwritten work are not supported yet. The worksheet has a collapsed official solution under each exercise; try the exercise before opening it, and use the tutor's reply to find where your reasoning and the solution part ways.
 
 #### Question: Open
-id:: 2094d8dd-bb46-474e-8331-ab3c5c5f9471
+id:: 8d7f6f5c-1b94-47c0-bc4b-b431d5f5b11c
 content::
 \## Before you start
 
 A deep linear network computes $f(x) = W_L \cdots W_1 x$, which is just a linear map. Any linear map it can represent, a single matrix $W$ can represent too.
 
 Predict, in two or three sentences: if you train the deep version and the single-matrix version by gradient descent on the same data, from small random initial weights, will they learn in the same way over time? If not, what might differ? A guess is fine.
-feedback-instructions:: The student is starting Day 4 of a course built from the Iliad Intensive (B.4, Training Dynamics, Guillaume Corlouer). Before reading, they predicted whether gradient descent on a deep linear network and on a single-matrix linear model learn in the same way over time. This is a predict-first question. In 2 to 4 sentences: restate their prediction in one sentence. Do not give the answer. If they predicted 'the same', say that today's worksheet asks them to test this and that the key variables are depth and the scale of initialization. If they predicted a difference, ask them to write down which difference they expect to see first (for example in the order features are learned, or in how fast), so they can check it against Section 4. No praise words. Send them to the next page.
+feedback-instructions:: The student is starting Day 4 of a course built from the Iliad Intensive (B.4, Training Dynamics, Guillaume Corlouer). Before reading, they predicted whether gradient descent on a deep linear network and on a single-matrix linear model learn in the same way over time. This is a predict-first question. In 2 to 4 sentences: restate their prediction in one sentence. Do not give the answer. If they predicted 'the same', say that today's worksheet asks them to test this and that the key variables are depth and the scale of initialization. If they predicted a difference, ask them to write down which difference they expect to see first (for example in the order features are learned, or in how fast), so they can check it against Section 5. No praise words. Send them to the next page.
+
