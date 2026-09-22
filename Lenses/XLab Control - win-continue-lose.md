@@ -29,14 +29,14 @@ to:: we’ll call those attempts “attacks”.
 id:: d2f3e8e5-f9e7-49f5-9569-c030a2d9f29e
 content:: What is a concentrated failure (a.k.a. high-stakes failure)?
 max-chars:: 600
-assessment-instructions:: A good answer says it is a failure where, in the absence of countermeasures, the AI could cause an unacceptable outcome just by behaving badly on a small number of tasks. Full credit does not require examples, but reward any of the reading's three: causing a rogue deployment, sabotaging one particularly crucial ML research task, or leaking sensitive information. Mark down an answer that describes a failure needing sustained bad behaviour across many tasks, since that is the opposite case. Do not over-validate and avoid generic praise.
+assessment-instructions:: A good answer says it is a failure where, in the absence of countermeasures, the AI could cause an unacceptable outcome just by behaving badly on a small number of tasks. Full credit does not require examples, but reward any of the reading's three: causing a rogue deployment, sabotaging one particularly crucial ML research task, or leaking sensitive information. Mark down an answer that describes a failure needing sustained bad behaviour across many tasks, since that is the opposite case.
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 78fc4ba1-776c-47ab-b71c-c4aa5034cc5d
 content:: In AI control terminology, what is an "attack"?
 max-chars:: 400
-assessment-instructions:: A good answer says an attack is an attempt by the AI to cause the unacceptable outcome. Reward an answer that also notes the surrounding strategy, that the AI normally acts aligned and attacks only on very rare occasions. Do not require the learner to describe any specific attack technique, since the term is about intent, not method. Do not over-validate and avoid generic praise.
+assessment-instructions:: A good answer says an attack is an attempt by the AI to cause the unacceptable outcome. Reward an answer that also notes the surrounding strategy, that the AI normally acts aligned and attacks only on very rare occasions. Do not require the learner to describe any specific attack technique, since the term is about intent, not method.
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Article
