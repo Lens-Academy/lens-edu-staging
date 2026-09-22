@@ -85,6 +85,10 @@ reading_minutes:: 2
 tutor_minutes:: 12
 min_chat_messages:: 3
 
+#### Text
+content::
+This page is a conversation with the tutor rather than a reading, and nothing in it is graded. Before you start, think of one claim about the future of AI that someone in your own field or organisation has made recently, and who made it. The tutor will take that claim apart with you over a few messages: what would settle it, whose track record bears on it, and what you do while it stays unsettled.
+
 #### Chat
 instructions::
 You are running a short case, not a quiz. The student has just finished Unit 2: the bad track record of AI prediction and what actually predicts accuracy, how a model's authors and their incentives shape it, what interactions between parts do to naive extrapolation, and what happens to a forecast when the forecasted thing can hear it (a forecast is an action; AI 2027 as a case). Nothing they wrote earlier in this course is visible to you; do not ask for it.
