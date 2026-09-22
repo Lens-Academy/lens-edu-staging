@@ -56,7 +56,6 @@ content::
 #### Question: Open
 id:: 6e78d227-1874-4059-b64b-1635c24bfa39
 content:: Does this setup hold the control property? What does that depend on?
-placeholder:: Does this setup hold the control property? What does that depend on?
 assessment-instructions:: The learner is judging a deployment with no safeguards at all. Model answer: the control property conditions on the worst case, so if U is actively scheming, nothing here moderates its attacks or malicious code; variables like U's empirical reliability, benchmark scores, or past helpfulness are not relevant, because control evaluations assume worst-case adversarial behavior by default. Full credit for saying the property fails and for the reason that no evidence about typical behavior can substitute for a worst-case argument. Give partial credit if they say it fails but appeal only to the absence of review. Grade only against what this lens has supplied.
 feedback-instructions:: In at most four sentences, tell the learner what their answer got right, then give the resolution: no safeguards. The control property conditions on the worst case, so a scheming U's attacks are unmoderated here, and evidence about U's reliability, benchmark scores or past helpfulness does not enter, because control evaluations assume worst-case adversarial behavior by default.
 
@@ -76,7 +75,6 @@ content::
 #### Question: Open
 id:: 16d44bda-4433-43d4-9088-fd72d0b97b0f
 content:: Does this setup hold the control property? What does that depend on?
-placeholder:: Does this setup hold the control property? What does that depend on?
 assessment-instructions:: The learner is judging trusted monitoring, though the name has not been given yet. Model answer: for control to hold, T must be capable enough to score U's covert attacks accurately, pushing them into the 2% audit bracket; if there is a sufficiently large capability gap between U and T, T's scoring and detection ability is bottlenecked and a scheming U may obfuscate its attack well enough to land in the bottom 98%; in practice trusted monitoring is cheap and can be run many times to lower the probability of unacceptable outcomes, but this is not guaranteed to work. Full credit needs the capability gap between U and T named as the deciding variable. Credit mention of the audit budget as a second variable. Grade only against what this lens has supplied.
 feedback-instructions:: In at most five sentences, say what the learner's answer got right, then give the resolution and name the protocol. This is trusted monitoring. Control holds only if T is capable enough to score U's covert attacks into the 2% audit bracket; a large enough capability gap between U and T bottlenecks T's detection, and a scheming U can then obfuscate an attack into the bottom 98%. Trusted monitoring is cheap and can be repeated to drive the probability down, but that is not a guarantee.
 
@@ -96,7 +94,6 @@ content::
 #### Question: Open
 id:: 0983cfd6-876e-4c73-8e81-58318c1abedf
 content:: Does this setup hold the control property? What does that depend on?
-placeholder:: Does this setup hold the control property? What does that depend on?
 assessment-instructions:: The learner is judging untrusted monitoring, though the name has not been given yet. Model answer: under the worst-case assumptions of the control property, if U is scheming we must assume its identical copy U′ is also scheming; instead of rigorously auditing U's code, a scheming U′ will collude with U, artificially lowering the suspicion score on malicious edits so they bypass the human auditor; upgrading the monitor to a frontier model solves the capability gap but introduces a fatal vulnerability in allegiance. Full credit needs collusion between U and U′ identified as the failure mode. Credit the framing that the capability problem has been traded for a loyalty problem. Grade only against what this lens has supplied.
 feedback-instructions:: In at most five sentences, say what the learner's answer got right, then give the resolution and name the protocol. This is untrusted monitoring. Worst-case assumptions force us to treat U′ as scheming too, so it can simply collude with U and score malicious edits low enough to bypass H. The capability gap is solved and a fatal vulnerability in allegiance is introduced in its place.
 
@@ -116,7 +113,6 @@ content::
 #### Question: Open
 id:: c173b895-663d-464e-ae1b-57a5eff44aff
 content:: Does this setup hold the control property? What does that depend on?
-placeholder:: Does this setup hold the control property? What does that depend on?
 assessment-instructions:: The learner is judging trusted editing, though the name has not been given yet. Model answer: because T steps in to rewrite the ambiguously suspicious outputs of U (the 10% band), U's attack must now score in the bottom 88% to avoid being overwritten; by forcing T to do a portion of the actual work, this setup drastically narrows the window for an attack to slip through; generally you can reliably buy more safety by dynamically shifting workload back to weaker, trusted models, at the cost of trading away some of U's usefulness. Full credit needs the narrowing of the attack's scoring window and the usefulness cost. Grade only against what this lens has supplied.
 feedback-instructions:: In at most five sentences, say what the learner's answer got right, then give the resolution and name the protocol. This is trusted editing, a more robust variant of trusted monitoring. An attack must now land in the bottom 88% rather than the bottom 98%, because T rewrites the 10% band itself, which drastically narrows the window for an attack. The general lesson: safety can be bought reliably by shifting workload back to weaker trusted models, paid for in U's usefulness.
 
@@ -136,7 +132,6 @@ content::
 #### Question: Open
 id:: 58968fa3-60c2-4a82-a12a-6d6d7fd63935
 content:: Does this setup hold the control property? What does that depend on?
-placeholder:: Does this setup hold the control property? What does that depend on?
 assessment-instructions:: The learner is judging resampling, though the name has not been given yet. Model answer: the core principle is that U keeps no memory across retries, so a rewound U does not know its first attempt was flagged; for an attack to survive a resample the retries must also be attacks, but three independent draws of malicious commands are far stronger evidence than one and greatly increase the probability of being audited by H and caught; if instead U attacks rarely, then whenever T flags an attempt a resample draws U's benign output and executes that instead, so U is forced either to incriminate itself or to remain benign; the control property therefore holds if there is not a sufficiently large capability gap between U and T. Full credit needs the memorylessness and the dilemma it creates. Credit the residual dependence on the U-to-T capability gap. Grade only against what this lens has supplied.
 feedback-instructions:: In at most six sentences, say what the learner's answer got right, then give the resolution and name the protocol. This is resampling. Because U keeps no memory across retries, a rewound U does not know it was flagged, so surviving a resample requires the retries to be attacks too, and three independent malicious draws are far stronger evidence than one. If U attacks rarely instead, a resample simply draws its benign output and runs that. U is pushed either to incriminate itself or to stay benign, and the control property holds provided the capability gap between U and T is not too large.
 #### End Callout
