@@ -27,7 +27,7 @@ AI control aims to mitigate the risks that arise from models intentionally choos
 There are two main lines of defense you could employ to prevent schemers from causing catastrophes.
 
 - **Alignment**: Ensure that your models aren't scheming.[^note-greenblatt-buck-2]
-- **Control**: Ensure that even if your models are scheming, you'll be safe, because they are not capable of subverting your safety measures.[^cite-greenblatt-buck-3]
+- **Control**: Ensure that even if your models are scheming, you'll be safe, because they are not capable of subverting your safety measures.[^note-greenblatt-buck-3]
 
 If you try to employ the control line-of-defense—that is, you try to make it so that you'll be safe even if your models are attempting to subvert your safety techniques and safety evaluations—then in order for scheming models to cause a catastrophe, you need to have failed at both alignment and control. We believe that the returns to investing in control are good enough that it's worth investing in to an extent at least similar to alignment.
 
