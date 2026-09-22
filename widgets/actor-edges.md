@@ -268,7 +268,7 @@ tags: [wip]
   function bakerLine(q) {
     var p = el("p", "quote");
     p.appendChild(document.createTextNode("“" + q.text + "” "));
-    var src = el("span", null, "— Baker et al., " + q.where);
+    var src = el("span", null, "· Baker et al., " + q.where);
     src.style.whiteSpace = "nowrap";
     p.appendChild(src);
     return p;
