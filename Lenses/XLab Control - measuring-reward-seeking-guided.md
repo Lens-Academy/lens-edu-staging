@@ -104,9 +104,8 @@ The reasoning the authors give for expecting a rise: outcome-based RL continuous
 
 Credit "rises" with a mechanism tied to what RL optimises. Credit a well-argued "flat" or "falls" for the reasoning while stating what the paper found. Note whether the learner thought about a control, that is, about what should happen on pairings that do not involve the grader; that is the part of the result that carries the argument.
 
-60 to 200 words. Short paragraphs, no lists. Do not over-validate, and avoid generic praise.
-
-If the learner says they do not understand, do not repeat the question and do not dismiss it. Give one foothold: ask what the training process rewards, directly and mechanically, on every single gradient step. If their next message still does not attempt the question, rephrase the whole question in different terms. Grade only against criteria this page or an earlier required page supplied.
+Grade only against criteria this page or an earlier required page supplied.
+feedback-instructions:: 60 to 200 words. Short paragraphs, no lists. Do not over-validate, and avoid generic praise. If the learner says they do not understand, do not repeat the question and do not dismiss it. Give one foothold: ask what the training process rewards, directly and mechanically, on every single gradient step. If their next message still does not attempt the question, rephrase the whole question in different terms.
 
 #### Text
 content::
@@ -133,9 +132,8 @@ What the paper reports: yes, and both do. On two reward hackers trained independ
 
 The second half of the question is the one that matters. If a model known to reward-hack showed no larger gap, the measurement would have failed the test it most needs to pass: distinguishing more from less reward-seeking models in the wild, on a case where the ground truth comes from outside the authors' own lab. Credit any answer that treats the prediction as falsifiable in that sense. Also credit a learner who notices the paper's own caveat that reward-hacking and reward-seeking are not the same thing, a model can learn a narrow hack without a general drive, so the test is a reasonable one rather than a certain one.
 
-60 to 150 words. Short paragraphs, no lists. Do not over-validate, and avoid generic praise.
-
-If the learner says they do not understand, do not repeat the question and do not dismiss it. Give one foothold: ask why it matters that Redwood, not the authors, trained these two models. If their next message still does not attempt the question, rephrase the whole question in different terms. Grade only against criteria this page or an earlier required page supplied.
+Grade only against criteria this page or an earlier required page supplied.
+feedback-instructions:: 60 to 150 words. Short paragraphs, no lists. Do not over-validate, and avoid generic praise. If the learner says they do not understand, do not repeat the question and do not dismiss it. Give one foothold: ask why it matters that Redwood, not the authors, trained these two models. If their next message still does not attempt the question, rephrase the whole question in different terms.
 
 #### Text
 content::
