@@ -29,7 +29,7 @@ content::
 
 **The brief.** Same agreement, same board: no training runs above a compute threshold for three months. 1.2 asked what part each actor plays in a declaration. This asks what a verifier could actually do with them: who can produce evidence about whom, and which of the four things a verifier has to establish that evidence would settle.
 
-**The board.** The key placement from 1.2, if you have not placed it yourself: *Declares:* United States, China, Cloud providers, Frontier labs. *Holds the evidence:* Taiwan, Netherlands, Japan, South Korea, ASML, TSMC, NVIDIA. *Verifies:* BIS, Intelligence community, California, and the hollow ring for the AI verification body that does not exist. *Outside the declaration:* Proxies, Deployers. Placing it is the workshop in 1.2, and it is worth doing first. Nothing here is gated on it.
+**The board.** If you have not placed this board yourself, the rings below are the key, not your answer. Placing it is [[../Lenses/XLab Verification - v-scoping-actors|the workshop in 1.2]], and it is worth doing first. Nothing here is gated on it.
 
 #### Text
 content::
