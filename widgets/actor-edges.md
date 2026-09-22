@@ -59,6 +59,7 @@ tags: [wip]
   .legend svg { width: 28px; height: 10px; min-width: 0; }
   .verdict-line { display: flex; gap: 6px; align-items: flex-start; }
   .mark { flex: none; width: 16px; height: 16px; margin-top: 3px; }
+  .quote { border-left: 2px solid var(--border); padding-left: 12px; margin-top: 6px; font-size: 12px; line-height: 1.55; color: var(--muted); }
   @media (max-width: 600px) { body { padding: 12px; } }
 </style>
 </head>
