@@ -130,13 +130,13 @@ How fast is fast? Two charts from Our World in Data's [brief history of artifici
 #### Widget
 source:: [[../widgets/short-history]]
 
-#### Text
+#### {--{"author":"James's AI","timestamp":1790077908588}@@Text
 content::
 **A timeline of notable artificial intelligence systems.** Chart: Max Roser, [The brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai), Our World in Data, 6 Dec. 2022. Licensed CC BY 4.0; chart redrawn.
 
 {>>{"author":"Elias's AI","timestamp":1788011728883}@@Delete this whole Text segment: the callout above now covers it. The edit tool could not remove a segment that already carries a pending change.<<}{>>{"author":"Elias's AI","timestamp":1788009452090}@@Proposed: link only to Our World in Data (the original), not XLab.<<}
 
-#### Widget
+#### --}Widget
 source:: [[../widgets/short-history-scores]]
 
 #### Text
