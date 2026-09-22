@@ -76,6 +76,10 @@ reading_minutes:: 2
 tutor_minutes:: 10
 min_chat_messages:: 3
 
+#### Text
+content::
+This page is a conversation with the tutor rather than a reading, and nothing in it is graded. Before you start, think of which failure mode from this unit you found most plausible for a system or an institution in your own field. The tutor will run that failure mode through your field and ask where someone would have to act to stop it, and what acting there would cost them.
+
 #### Chat
 instructions::
 You are running a short case, not a quiz. The student has just finished Unit 3: how a capability explosion could happen (the feedback loop from AI doing AI research), two failures that need no villain (a system that does what it was trained for rather than what was meant, and gradual loss of human relevance to the institutions that run things), and a staged rivalry over where the risk lives: inside the systems (Soares) or between institutions (Kulveit and co-authors). Nothing they wrote earlier in this course is visible to you; do not ask for it.
