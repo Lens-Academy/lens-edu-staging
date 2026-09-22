@@ -33,6 +33,8 @@ Add discussion note here:
 
 We investigate the scalability of AI training runs. We identify electric power, chip manufacturing, data and latency as constraints. We conclude that 2e29 FLOP training runs will likely be feasible by 2030.
 
+Epoch AI’s work is free to use, distribute, and reproduce provided the source and authors are credited under the Creative Commons Attribution license.
+
 ## Introduction ^introduction
 
 In recent years, the capabilities of AI models have significantly improved. Our research suggests that this growth in computational resources accounts for [a significant portion of AI performance improvements](https://epoch.ai/blog/algorithmic-progress-in-language-models).[^note-1] The consistent and predictable improvements from scaling have led AI labs to [aggressively expand the scale of training](https://epoch.ai/blog/training-compute-of-frontier-ai-models-grows-by-4-5x-per-year), with training compute expanding at a rate of approximately 4x per year.
