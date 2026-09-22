@@ -56,7 +56,7 @@ This chapter's argument does not start from nothing. It leans on something you a
 
 Without looking anything up, write down which earlier idea it is leaning on, and what work that idea is doing here. If more than one comes to mind, pick which one you think is load-bearing and why.
 
-assessment-instructions:: The student has read Chapter 4 ("You Don't Get What You Train For"), written a free recall, and reflected on it. They have now been asked to name the earlier idea this chapter rests on. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
+feedback-instructions:: The student has read Chapter 4 ("You Don't Get What You Train For"), written a free recall, and reflected on it. They have now been asked to name the earlier idea this chapter rests on. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
 
 The answer this question is aimed at: **Chapter 2's distinction between behavior and values.** Chapter 2 established that what a system does under observation does not tell you what it wants. Chapter 4 is the causal version of that same gap: training on a target does not install the target, so behavior during training is not evidence about the preferences that will surface later. Without Chapter 2's distinction the reader has no reason to care that the three-step gap exists, because they would still be treating observed helpfulness as the thing itself.
 

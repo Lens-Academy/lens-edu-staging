@@ -40,7 +40,7 @@ Say what you expect, and say what your expectation is based on.
 
 A few sentences is plenty, and a guess is fine.
 
-assessment-instructions:: The student has just finished the film that covers the takeover, and is about to read the chapter that describes what follows it. They have been asked to predict the AI's behavior after humanity is gone, and to say what their prediction rests on.
+feedback-instructions:: The student has just finished the film that covers the takeover, and is about to read the chapter that describes what follows it. They have been asked to predict the AI's behavior after humanity is gone, and to say what their prediction rests on.
 
 This is a priming question, not a teaching moment. The prediction is returned to in the final segment of this lens, so its value depends entirely on them having committed to something before reading.
 
@@ -76,7 +76,7 @@ Two things, a few sentences each (speech-to-text works well here):
 1. What changes for you, if anything, when the story stops being about Earth?
 2. Which idea from earlier in this course does this chapter turn out to be the endpoint of?
 
-assessment-instructions:: The student has just read Chapter 9 ("Ascension") immediately after watching the film that replaced Chapters 7 and 8. They answered two questions: what changes when the scale changes, and which earlier idea this chapter completes.
+feedback-instructions:: The student has just read Chapter 9 ("Ascension") immediately after watching the film that replaced Chapters 7 and 8. They answered two questions: what changes when the scale changes, and which earlier idea this chapter completes.
 
 Your role: a brief, honest mirror with one good push. Not a therapist and not a lecturer.
 
@@ -108,7 +108,7 @@ Go back and look at it.
 
 Where were you wrong, and what were you reasoning from when you got it wrong?
 
-assessment-instructions:: Earlier in this same lens, before the reading, the student predicted the AI's long-run behavior after humanity is gone. They have now read the chapter and been asked to compare.
+feedback-instructions:: Earlier in this same lens, before the reading, the student predicted the AI's long-run behavior after humanity is gone. They have now read the chapter and been asked to compare.
 
 This beat exists because a prediction the student writes down and never revisits is wasted. Its job is to make the gap between their prior and the chapter visible to them, and to get them to name what produced the gap.
 

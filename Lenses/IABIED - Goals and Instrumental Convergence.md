@@ -28,7 +28,7 @@ What each of them wants has almost nothing in common.
 
 Write down what, if anything, both of them end up having to do in order to accomplish their goal. Just the first few things that come to mind is plenty enough.
 
-assessment-instructions:: This is the opening beat of the unit and comes before any reading. The learner has been asked what two people with unrelated goals both end up having to do. The point is to have them notice a pattern they already know from ordinary life, so that the reading names something they have already seen rather than introducing it cold.
+feedback-instructions:: This is the opening beat of the unit and comes before any reading. The learner has been asked what two people with unrelated goals both end up having to do. The point is to have them notice a pattern they already know from ordinary life, so that the reading names something they have already seen rather than introducing it cold.
 
 The answers the question is fishing for, roughly in order of how often they come up: money or resources; time; staying healthy and alive; maximizing optionality, meaning not burning bridges or foreclosing paths; and not being talked out of it. The last two are the interesting ones and the least often volunteered.
 
