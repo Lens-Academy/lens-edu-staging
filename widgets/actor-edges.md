@@ -567,7 +567,7 @@ tags: [wip]
     var line = el("p");
     line.appendChild(inline([el("span", "strong", score.found.length + " of " + EDGE_KEY.length), " edges in the key." +
       (score.reversed.length ? " " + score.reversed.length + " drawn the other way round." : "") +
-      (score.extra.length ? " " + score.extra.length + " the key does not have (" + score.extra.map(edgeLabel).join("; ") + ")." : "")]));
+      (score.extra.length ? " " + score.extra.length + " the key does not have." : "")]));
     head.appendChild(line);
     head.appendChild(btn("Edit my edges", "", function () { ui.source = null; update(function (s) { s.edgesDone = false; }); }, "edit-edges"));
     wrap.appendChild(head);
