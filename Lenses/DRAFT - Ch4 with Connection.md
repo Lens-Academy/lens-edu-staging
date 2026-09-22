@@ -92,10 +92,10 @@ content::
 \## Phase 4: Learning Question
 A lab announces: "We ran our model through a million test conversations. It was honest and helpful in every single one. A million clean tests is strong evidence it's safe to deploy." Using Chapter 4, explain why the authors would not be reassured, and be specific about what those test results can and cannot tell you about what the model will do once deployed.
 
-assessment-instructions:: Unchanged from the live lens (see [[IABIED - You Don't Get What You Train For]], Phase 3) except for the three additions below. Copy that brief across verbatim when this draft is promoted, then add:
+assessment-instructions::Unchanged from the live lens (see [[IABIED - You Don't Get What You Train For]], Phase 3) except for the three additions below. Copy that brief across verbatim when this draft is promoted, then add:
 
 - **What this phase assesses has not changed.** It is Chapter 4's outcome, and nothing else. The previous phase asked the student to name an earlier idea; that is not part of what you are assessing here and must not become a second thing they have to get right. Do not open by returning to it, do not require them to use it, and do not treat an answer that never mentions it as incomplete. A student who rebuts the million-tests claim entirely from Chapter 4's own material has answered this question well.
-- **Use the connection only as a rescue.** If the student stalls on why behavioral evidence cannot settle the question, you may point back to what they said in the previous phase as a way in, in one sentence. That is the only role it has here.
+- **Use the connection only as a rescue.** If the student stalls on why behavioral evidence cannot settle the question, you may point back to what they said in the previous phase as a way in,. That is the only role it has here.
 - **Report, do not grade.** The test-readiness verdict is about Chapter 4 alone, exactly as the live brief specifies. After it, add one separate sentence noting whether the student reached for earlier material on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.
 
 #### Text
