@@ -24,7 +24,7 @@ In Zach's words:
 - Students are aware of the key empirical mysteries of deep learning: data-dependent generalization despite overparameterization, effectiveness of SGD on non-convex landscapes, representational alignment across architectures, and in-context learning.
 - Students have encountered at least one candidate explanation for each mystery and can articulate what it does and doesn't explain.
 - Students understand the "program synthesis" hypothesis as one proposed framework connecting deep learning to Solomonoff induction, and can evaluate its strengths and limitations.
-- Students can articulate why solving these mysteries matters for AI safety.
+- Students can articulate why solving these mysteries matters for AI safety: understanding the basic mechanisms by which deep learning works is necessary for any *systematic* (generalizing OOD) alignment interventions or measurements to even be possible.
 
 \## How today runs
 

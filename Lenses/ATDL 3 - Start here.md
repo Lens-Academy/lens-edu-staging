@@ -15,7 +15,7 @@ tutor_minutes: 5
 
 #### Text
 content::
-Today is **B.3, Singular Learning Theory (SLT)**, a tutorial written for the Iliad Intensive by Kai Ogden, Matthew Farrugia-Roberts and Zach Furman. In their words, it aims "to distil the essence of singular learning theory (the notion of degeneracy and its role in learning), laying bare through simple examples and structured exercises the core intuitions driving research in the field." They believe understanding this essence "requires no more than undergraduate-level mathematics."
+Today is **B.3, Singular Learning Theory (SLT)**, a tutorial written for the Iliad Intensive by Kai Ogden, Matthew Farrugia-Roberts and Zach Furman. In their words, it aims "to distil the essence of singular learning theory - the notion of degeneracy and its role in learning - laying bare through simple examples and structured exercises the core intuitions driving research in the field." They believe understanding this essence "requires no more than undergraduate-level mathematics."
 
 By the end of today you should be able to compute degeneracy in small models, and explain what the local learning coefficient measures and why it matters for how a network learns.
 
