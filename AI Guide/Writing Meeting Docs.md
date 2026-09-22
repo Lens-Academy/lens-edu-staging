@@ -166,7 +166,7 @@ Actors:
 3. **Room 4 leaves participants with a clear plan/next step.** Example prompts:
 
 ```
-1. Next unit: in the next unit you will learn about [one line on the next unit's topic]. What is most likely to stop you from finishing it, and what is your plan? (Send the plan to your accountability buddy after the meeting.)
+1. Next unit: in the next unit you will learn about [one line on the next unit's topic]. What is most likely to stop you from finishing it, and what's your plan to prevent it? (Send the plan to your accountability buddy after the meeting.)
 2. Feedback: what would make the course and this meeting better?
 ```
 
