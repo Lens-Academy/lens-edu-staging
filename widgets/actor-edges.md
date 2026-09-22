@@ -587,11 +587,42 @@ tags: [wip]
       if (!got) txt.appendChild(el("span", "muted", flipped ? " · you drew it the other way round" : " · not drawn"));
       l.appendChild(txt);
       li.appendChild(l);
-      var what = para("muted small", edge.line); what.style.marginTop = "2px"; what.style.paddingLeft = "22px";
-      li.appendChild(what);
+      var body = el("div");
+      body.style.paddingLeft = "22px";
+      var what = para("muted small", edge.what); what.style.marginTop = "2px";
+      body.appendChild(what);
+      edge.baker.forEach(function (q) { body.appendChild(bakerLine(q)); });
+      li.appendChild(body);
       ol.appendChild(li);
     });
     wrap.appendChild(ol);
+
+    if (score.extra.length) {
+      var extras = el("div", "card");
+      extras.appendChild(el("p", "strong", "Edges the key does not have"));
+      var note = para("muted small", "Not automatically wrong: the key holds only what this framework supports, and it is a framework about declarations rather than about power. Ask of each one: which of the four subgoals would it complete, and with what mechanism? If you can answer that, argue with the key.");
+      note.style.marginTop = "4px";
+      extras.appendChild(note);
+      var xl = el("ul", "tight"); xl.style.marginTop = "8px";
+      score.extra.forEach(function (id) { xl.appendChild(el("li", "small", edgeLabel(id))); });
+      extras.appendChild(xl);
+      wrap.appendChild(extras);
+    }
+
+    var noneWrap = el("div");
+    var count = EDGE_NOTES.reduce(function (n, x) { return n + x.actorIds.length; }, 0);
+    noneWrap.appendChild(el("p", "strong", "The " + count + " with no edge at all"));
+    var nol = el("ol", "list"); nol.style.marginTop = "10px";
+    EDGE_NOTES.forEach(function (n) {
+      var li2 = el("li");
+      li2.appendChild(el("p", "medium", n.actorIds.map(labelOf).join(" · ")));
+      var why = para("muted small", n.why); why.style.marginTop = "2px";
+      li2.appendChild(why);
+      n.baker.forEach(function (q) { li2.appendChild(bakerLine(q)); });
+      nol.appendChild(li2);
+    });
+    noneWrap.appendChild(nol);
+    wrap.appendChild(noneWrap);
 
     var row = el("div", "chips");
     row.appendChild(el("span", "muted small", "Light up a role:"));
