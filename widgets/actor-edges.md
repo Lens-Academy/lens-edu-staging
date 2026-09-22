@@ -265,6 +265,14 @@ tags: [wip]
     else { s.appendChild(svg("path", { d: "M8 4.5 V9", stroke: "#5a5a5a", "stroke-width": 1.75, "stroke-linecap": "round" })); s.appendChild(svg("circle", { cx: 8, cy: 11.5, r: 1, fill: "#5a5a5a" })); }
     return s;
   }
+  function bakerLine(q) {
+    var p = el("p", "quote");
+    p.appendChild(document.createTextNode("“" + q.text + "” "));
+    var src = el("span", null, "— Baker et al., " + q.where);
+    src.style.whiteSpace = "nowrap";
+    p.appendChild(src);
+    return p;
+  }
 
   // ---------- Ring map geometry (from XLab: actor-board.tsx) ----------
   var CX = 480, CY = 350;
