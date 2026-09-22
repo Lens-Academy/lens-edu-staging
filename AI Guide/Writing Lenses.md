@@ -41,7 +41,7 @@ content::
 Spend 2 minutes writing down everything you can remember from the reading, without
 looking back at the text. Anything and everything. No need to organize it. Using the
 speech to text feature is highly recommended here.
-assessment-instructions:: <recall-mirror brief, see below>
+feedback-instructions:: <recall-mirror brief, see below>
 
 #### Question: Open                            ← 3. Phase 2: Processing ("what landed")
 id:: <uuid>
@@ -49,7 +49,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you?
 What did you doubt or push back on? No need to organize. Just capture your reaction.
-assessment-instructions:: <processing brief, see below>
+feedback-instructions:: <processing brief, see below>
 
 #### Question: Open                            ← 4. Phase 3: Learning Question
 id:: <uuid>
