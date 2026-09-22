@@ -828,53 +828,53 @@ One downside of a staged approach is that it might provide more opportunities fo
 
 ### ARTICLE VI — AI Chip Production Monitoring
 
-1.  1.
+1.{--{"author":"James's AI","timestamp":1790120370248}@@  1.--}
     
     The CTB will coordinate monitoring of AI chip production facilities and key inputs to chip production. This monitoring will ensure that all newly produced AI chips are immediately tracked and monitored until they are installed in declared CCCs and that unmonitored supply chains are not established.
     
-    1.  (a)
+    {--{"author":"James's AI","timestamp":1790120370248}@@1.  --}{++{"author":"James's AI","timestamp":1790120370248}@@-   ++}(a)
         
         The CTB will coordinate monitoring of AI chip production facilities determined to be producing or potentially producing AI chips and relevant hardware \[the precise definitions of AI chip production facilities, AI chips, and relevant hardware would need to be further described in an Annex; the monitoring methods would also need to be described in an Annex\].
         
-    2.  (b)
+    {--{"author":"James's AI","timestamp":1790120370248}@@2.  --}{++{"author":"James's AI","timestamp":1790120370248}@@-   ++}(b)
         
         Monitoring of newly produced AI chips will include monitoring of production, sale, transfer, and installation. Monitoring of chip production will start with fabrication. The full set of activities includes fabrication of high-bandwidth memory (HBM), fabrication of logic chips, testing, packaging, and assembly \[this set of activities would need to be specified in an Annex\].
         
     
-2.  2.
+{--{"author":"James's AI","timestamp":1790120370248}@@2.  --}2.
     
     For facilities where tracking and monitoring is not feasible or implemented, production of AI chips will be halted. Production of AI chips may continue when the CTB declares that acceptable tracking and monitoring measures have been implemented.
     
-3.  3.
+{--{"author":"James's AI","timestamp":1790120370248}@@3.  --}3.
     
     If a monitored chip production facility is decommissioned or repurposed, the CTB will coordinate oversight of that process, and, if done satisfactorily, this ends the monitoring requirement.
     
-4.  4.
+{--{"author":"James's AI","timestamp":1790120370248}@@4.  --}4.
     
     No Party sells or transfers AI chips or AI chip manufacturing equipment except as authorized and tracked by the CTB.
     
-    1.  (a)
+    {--{"author":"James's AI","timestamp":1790120370248}@@1.  --}{++{"author":"James's AI","timestamp":1790120370248}@@-   ++}(a)
         
         Sale or transfer of AI chips within or between Parties to the Agreement has a presumption of approval and is tracked by the CTB.
         
-    2.  (b)
+    {--{"author":"James's AI","timestamp":1790120370248}@@2.  --}{++{"author":"James's AI","timestamp":1790120370248}@@-   ++}(b)
         
         Sale or transfer of AI chip manufacturing equipment within or between Parties to the Agreement does not have a presumption of approval. Approval for such transfer requires consensus of the Executive Council, based on an assessment of the risk of diversion or withdrawal from the Agreement of the receiving Party.
         
-    3.  (c)
+    {--{"author":"James's AI","timestamp":1790120370248}@@3.  --}{++{"author":"James's AI","timestamp":1790120370248}@@-   ++}(c)
         
         Sale or transfer of AI chips and AI chip manufacturing equipment to non-Party States or entities outside a Party State has a presumption of denial.
         
     
-5.  5.
+{--{"author":"James's AI","timestamp":1790120370248}@@5.  --}5.
     
     No Party sells or transfers non-AI advanced computer chips or non-AI advanced computer chip manufacturing equipment to non‑Party States or entities outside a Party State except as authorized and tracked by the CTB.
     
-6.  6.
+6.{--{"author":"James's AI","timestamp":1790120370248}@@  6.--}
     
     Sale or transfer of non-AI advanced computer chips or non-AI advanced computer chip manufacturing equipment within or between Parties to the Agreement is not restricted under this Article.
     
-7.  7.
+{--{"author":"James's AI","timestamp":1790120370248}@@7.  --}7.
     
     To prevent accumulation of excess chip production capacity that could enable rapid breakout from the Agreement, the Executive Council may impose limits on total annual production of AI chips. Such limits aim to allow replacement of aging chips and modest expansion for approved applications while preventing stockpiling that would reduce the time required for a Party to develop ASI after withdrawal.
     
