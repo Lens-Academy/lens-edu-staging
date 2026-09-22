@@ -12,7 +12,7 @@ authors:
 content::
 \## Where an argument outruns its evidence
 
-You now have a probe of what compute buys and a base rate for cliffs. Now: what a measured trend does and does not license you to conclude. You will be handed an argument in which every stated fact is true. Your job is not to find the lie; there isn't one. Your job is to find the exact step where the argument starts spending evidence it doesn't have.
+You now have a probe of what compute buys. Now: what a measured trend does and does not license you to conclude. You will be handed an argument in which every stated fact is true. Your job is not to find the lie; there isn't one. Your job is to find the exact step where the argument starts spending evidence it doesn't have.
 {>>{"author":"lauren (chrome@what)","timestamp":1787831996698}@@deft attempt 1, "more human": You have a probe that tells you, at a glance, how many compute operations any single data point buys you (as opposed to cognitive effort or subjective difficulty), and you have a base rate for the probability of a cliff in general. Given a measured trend in some data, what does it license you to conclude, and what does it not license you to conclude? The task here is: Given a true argument, can you find the exact step where it starts spending evidence it doesn't have?<<}
 #### Question
 id:: c3cc7b56-2424-417b-9f0c-114559e39fa8
