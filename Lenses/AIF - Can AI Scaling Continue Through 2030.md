@@ -2,12 +2,12 @@
 id: 3fa0362c-609b-45bc-bca6-8d68eb5bb3ed
 title: "Can AI Scaling Continue Through 2030?"
 tldr: "Power, chips, data, money. Epoch AI asks which physical constraint bites first, and finds AI scaling can probably keep going through 2030."
-summary_for_tutor: "Covers Epoch AI's analysis of whether the four main inputs to AI scaling (power, chips, training data, and funding) can keep growing through 2030, and which constraint would bite first. This is an external-link lens: the reader follows the link to Epoch's site. An optional Week 1 reading."
+summary_for_tutor: "Covers Epoch AI's analysis of whether the four main inputs to AI scaling (power, chips, training data, and funding) can keep growing through 2030, and which constraint would bite first. {--{"author":"James's AI","timestamp":1790089252440}@@This--}{++{"author":"James's AI","timestamp":1790089252440}@@The article++} is {--{"author":"James's AI","timestamp":1790089252440}@@an external-link lens:--}{++{"author":"James's AI","timestamp":1790089252440}@@embedded in++} the {--{"author":"James's AI","timestamp":1790089252440}@@reader follows the link to Epoch's site.--}{++{"author":"James's AI","timestamp":1790089252440}@@lens.++} An optional Week 1 reading."
 ---
 
 #### Text
 content::
-Optional reading (external link). Epoch AI's [Can AI Scaling Continue Through 2030?](https://epoch.ai/blog/can-ai-scaling-continue-through-2030) works through the physical constraints on continued scaling: power, chip manufacturing, training data, and money. Their tentative view is that none clearly binds before 2030, so much larger training runs stay feasible. Read it on the site, then come back and argue about which limit bites first.
+Optional {--{"author":"James's AI","timestamp":1790089248713}@@reading (external link).--}{++{"author":"James's AI","timestamp":1790089248713}@@reading.++} Epoch AI's [Can AI Scaling Continue Through 2030?](https://epoch.ai/blog/can-ai-scaling-continue-through-2030) works through the physical constraints on continued scaling: power, chip manufacturing, training data, and money. Their tentative view is that none clearly binds before 2030, so much larger training runs stay feasible. Read {--{"author":"James's AI","timestamp":1790089248713}@@it on the site,--}{++{"author":"James's AI","timestamp":1790089248713}@@the summary below,++} then{--{"author":"James's AI","timestamp":1790089248713}@@ come back and--} argue about which limit bites first.
 
 #### Article
 source:: [[../articles/sevilla-can-ai-scaling-continue-through-2030]]

@@ -4,7 +4,7 @@ slug: aif-optional-timelines-takeoff
 title: "Optional Readings"
 ---
 
-%% AI Futurism course, Week 1: optional readings, one lens per reading (reading-list order). Imported as optional at the course level. "Speed Limit" and "Scaling Through 2030" are external-link lenses (video page / pending import). %%
+%% AI Futurism course, Week 1: optional readings, one lens per reading (reading-list order). Imported as optional at the course level. "Speed Limit" {--{"author":"James's AI","timestamp":1790089253517}@@and "Scaling Through 2030" are--}{++{"author":"James's AI","timestamp":1790089253517}@@is an++} external-link {--{"author":"James's AI","timestamp":1790089253517}@@lenses--}{++{"author":"James's AI","timestamp":1790089253517}@@lens++} (video {--{"author":"James's AI","timestamp":1790089253517}@@page / pending import).--}{++{"author":"James's AI","timestamp":1790089253517}@@page).++} %%
 
 # Lens:
 source:: [[../Lenses/AIF - Does AI Progress Have a Speed Limit]]
