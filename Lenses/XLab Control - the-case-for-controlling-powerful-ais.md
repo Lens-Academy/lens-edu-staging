@@ -9,7 +9,7 @@ tags: []
 ---
 #### Text
 content::
-This is the founding text of AI control, and it is long, so it runs across two lessons. This first half defines control, sets it beside alignment, and shows why you can evaluate whether you have it. Six exercises break up the reading, and they are the point: each one asks you to work out a step of the argument before the authors hand it to you. Answer before you move on, even roughly.
+This is the founding text of AI control, and it is long, so it runs across two lessons. This first half defines control, sets it beside alignment, and shows why you can evaluate whether you have it. Six exercises break up the reading: each one asks you to work out a step of the argument before the authors hand it to you. Answer before you move on, even roughly.
 
 #### Article
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]

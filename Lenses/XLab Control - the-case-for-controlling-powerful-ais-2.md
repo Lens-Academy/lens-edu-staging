@@ -9,7 +9,7 @@ tags: []
 ---
 #### Text
 content::
-This is the second half of the founding text of AI control. The first half defined control and showed why, unlike alignment, you can test whether you have it. This half asks whether control is achievable for the models we actually want to use, how long that lasts, and what follows for labs, regulators and researchers. Five exercises break up the reading, and they are the point: each one asks you to work out a step of the argument before the authors hand it to you. Answer before you move on, even roughly.
+This is the second half of the founding text of AI control. The first half defined control and showed why, unlike alignment, you can test whether you have it. This half asks whether control is achievable for the models we actually want to use, how long that lasts, and what follows for labs, regulators and researchers. Five exercises break up the reading: each one asks you to work out a step of the argument before the authors hand it to you. Answer before you move on, even roughly.
 
 #### Article
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
