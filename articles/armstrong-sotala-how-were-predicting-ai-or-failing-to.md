@@ -294,7 +294,7 @@ Notes
 
 References
 
-Armstrong, Stuart. 2007. “Chaining God: A Qualitative Approach to AI, Trust and Moral Systems.” Unpublished manuscript, October 20. Accessed December 31, 2012. http://www.neweuropeancentury.org/GodAI.pdf .
+Armstrong, Stuart. 2007. “Chaining God: A Qualitative Approach to AI, Trust and Moral Systems.” Unpublished manuscript, October 20. Accessed December 31, 2012. http://web.archive.org/web/20141123103224/http://www.neweuropeancentury.org/GodAI.pdf .
 
 Armstrong, Stuart. 2012. “Counterfactual Resiliency Test for Non-Causal Models.” Less Wrong (blog), August 30. http://lesswrong.com/lw/ea8/counterfactual\_resiliency\_test\_for\_noncausal/ .
 
