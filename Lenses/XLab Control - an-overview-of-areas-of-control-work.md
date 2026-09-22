@@ -48,10 +48,6 @@ Also check that the five sub-questions are actually answered, including the two 
 
 Grade only against these criteria and the post itself. Do not require content from later modules.
 
-Respond in 100 to 180 words. Short paragraphs only. No lists. Name the strongest link in their chain and the weakest, in that order, then give one concrete next step. Do not over-validate. Avoid generic praise (great job, excellent analysis, well done).
-
-If the student says they do not understand, neither dismiss it nor repeat the question. Give one concrete foothold from the post: an area they could pick, one sub-question isolated, or an example of what a single link looks like. If their next message still does not attempt the question, rephrase the whole question in different terms rather than offering a third foothold.
-
 #### Question: Open
 id:: f18fe965-a293-425d-96f0-130299040835
 content::
@@ -76,10 +72,6 @@ Grade against three criteria, weighted equally:
 3. **Failure analysis.** The response answers both of the remaining questions: whether the case for prioritizing this area collapses if the link is untrue, and whether another causal chain reaches the same place without that link.
 
 Grade only against these criteria, the post, and the student's own Part 1 answer.
-
-Respond in 100 to 180 words. Short paragraphs only. No lists. Say whether the crux they chose is really the weakest link, then take the sharper of their two observation classes and push on it once. Do not over-validate. Avoid generic praise (great job, excellent analysis, well done).
-
-If the student says they do not understand, neither dismiss it nor repeat the question. Give one concrete foothold: read back one link from their own Part 1 chain and ask what would have to be true for it to hold. If their next message still does not attempt the question, rephrase the whole question in different terms rather than offering a third foothold.
 
 #### Text
 content::
