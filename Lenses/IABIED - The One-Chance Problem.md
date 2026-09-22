@@ -105,7 +105,7 @@ This section's argument does not start from nothing. It leans on something you w
 
 Without looking anything up, write down which earlier idea it is leaning on, and what work that idea is doing here. If more than one comes to mind, pick which one you think is load-bearing and why.
 
-assessment-instructions:: The student has read the first section of Chapter 12, written a free recall, and reflected on it. They have now been asked to name the earlier idea this section rests on. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
+feedback-instructions:: The student has read the first section of Chapter 12, written a free recall, and reflected on it. They have now been asked to name the earlier idea this section rests on. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
 
 The answer this question is aimed at: **Chapter 10's before-and-after gap, and the five curses that compound it.** Two halves, and either one on its own is a real answer. The gap is what the space probes were for: once the device is out of reach you cannot fix it, so the attempt you get is the only one you get. The curses are why that single attempt is against a stacked problem, one that is fast, narrow-margined, self-amplifying, prone to its safety mechanisms becoming the failure, and worst in its edge cases, which get harder as the system gets smarter. This section's decisive move is that there is no second time. On its own that is bad luck. With either half of the earlier material behind it, it is the argument.
 

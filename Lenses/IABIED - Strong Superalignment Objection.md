@@ -108,7 +108,7 @@ The first half of this chapter rested on something established early in the cour
 
 Without looking anything up: what does that argument need that the growing fact alone does not supply? Name the earlier idea, and say what work it is doing.
 
-assessment-instructions:: The student has read the second half of Chapter 11, written a free recall, and reflected on it. They have now been asked what this half of the argument needs beyond the idea the previous lens's connection beat landed on.
+feedback-instructions:: The student has read the second half of Chapter 11, written a free recall, and reflected on it. They have now been asked what this half of the argument needs beyond the idea the previous lens's connection beat landed on.
 
 This beat is built differently from the others in this course. It hands over the first thread on purpose. The work here is the extension, not the search, so do not withhold what the prompt already gave.
 

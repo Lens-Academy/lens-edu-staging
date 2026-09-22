@@ -107,7 +107,7 @@ This chapter's diagnosis does not start from nothing. It leans on something you 
 
 Without looking anything up, write down which earlier idea it is leaning on, and what work that idea is doing here. If more than one comes to mind, pick which one you think is load-bearing and why.
 
-assessment-instructions:: The student has read the first half of Chapter 11, written a free recall, and reflected on it. They have now been asked to name the earlier idea this chapter's diagnosis rests on. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
+feedback-instructions:: The student has read the first half of Chapter 11, written a free recall, and reflected on it. They have now been asked to name the earlier idea this chapter's diagnosis rests on. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
 
 The answer this question is aimed at: **Chapter 2, that AI is grown rather than crafted.** The alchemy stage is recipe-level competence without principle-level understanding, and that is what you necessarily get when the artifact was grown instead of designed. The alchemists could make Aqua Regia without chemistry because they did not build the atoms either. Without Chapter 2 the alchemy diagnosis reads as a young field that effort and funding will eventually mature. With it, the diagnosis follows from how the output is produced, which is why the chapter can say the missing ingredient is not effort or intelligence.
 
