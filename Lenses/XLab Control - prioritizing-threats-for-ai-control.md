@@ -29,7 +29,7 @@ Four short questions on the vocabulary of the section you just read. Answer each
 #### Question: Open
 id:: 10bb7d59-2f6b-4d15-929b-91baefce1dae
 content:: In the control literature, what does "ensuring control" mean?
-assessment-instructions:: The learner has just read the opening of Greenblatt's post and is answering from memory. The answer has two halves, and both are required for full credit: preventing AIs from being able to cause existential problems, and that this holds even if the AIs actively attempt to subvert our countermeasures. An answer with only the first half is partial, because the adversarial clause is what separates control from alignment. No re-teaching, no follow-up questions. Grade only against the reading on this page.
+assessment-instructions:: The learner has just read the opening of Greenblatt's post and is answering from memory. The answer has two halves, and both are required for full credit: preventing AIs from being able to cause existential problems, and that this holds even if the AIs actively attempt to subvert our countermeasures. An answer with only the first half is partial, because the adversarial clause is what separates control from alignment. Grade only against the reading on this page.
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
