@@ -5,6 +5,8 @@ id: '38d512fc-c117-47ce-95fd-2d0e440380ba'
 ---
 %% Day 1 of Alignment Theory of Deep Learning. Source: Iliad Intensive A.1 (Leon Lang), iliad-team/iliad-intensive@d2792cb, tex/ai-alignment-intro/main.mdx, CC BY 4.0. Iliad runs A.1 as four 50-minute sessions (20 min reading, 30 min group discussion); here each discussion becomes a written answer with tutor feedback, and the group meeting picks the threads up. The reading lenses are shared with the older iliad-intensive-demo course; they are members here (optional, hidden) so their cards resolve inside this module. Core time: about 3 hours plus the meeting. Built by Claude (cc:3f2b9169) for Lauren, 2026-09-23. %%
 
+# Submodule: Start here
+
 # Lens: Start here
 source:: [[../Lenses/ATDL 1 - Start here]]
 
