@@ -32,19 +32,19 @@ tone:: blue
 #### Question: Open
 id:: 5612872d-3382-4e6c-96f3-840eb13df5aa
 content:: What is a protocol?
-assessment-instructions:: The learner has just read the abstract and introduction. Full marks for: a pipeline of safety techniques that responds to each incoming task using the available resources, an untrusted capable model, a trusted weaker model, and a limited amount of trusted high-quality labour. In this paper it receives programming problems one at a time and must return a solution to each. Award partial credit for "a pipeline of safety techniques" alone. Deduct if the learner describes a single technique rather than a pipeline, or omits that the protocol must answer every problem. One to three sentences. Do not over-validate. Avoid generic praise (great job, excellent recall, well done).
+assessment-instructions:: The learner has just read the abstract and introduction. Full marks for: a pipeline of safety techniques that responds to each incoming task using the available resources, an untrusted capable model, a trusted weaker model, and a limited amount of trusted high-quality labour. In this paper it receives programming problems one at a time and must return a solution to each. Award partial credit for "a pipeline of safety techniques" alone. Deduct if the learner describes a single technique rather than a pipeline, or omits that the protocol must answer every problem.
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 6462a560-c566-4c91-9c4b-ff904d033806
 content:: What is a control evaluation?
-assessment-instructions:: Full marks for: a way to estimate a protocol's safety under intentional subversion, by simulating the whole deployment scenario with the untrusted model replaced by an adversarial stand-in built by a red team, and measuring how often the protocol avoids catastrophe. In this scenario that means replacing $U$ with a red-team GPT-4 pipeline and measuring the probability that no backdoor is ever submitted. Deduct if the learner describes it as a capability evaluation of the model rather than an evaluation of the protocol, or leaves out the adversarial substitution. One to three sentences. Do not over-validate. Avoid generic praise.
+assessment-instructions:: Full marks for: a way to estimate a protocol's safety under intentional subversion, by simulating the whole deployment scenario with the untrusted model replaced by an adversarial stand-in built by a red team, and measuring how often the protocol avoids catastrophe. In this scenario that means replacing $U$ with a red-team GPT-4 pipeline and measuring the probability that no backdoor is ever submitted. Deduct if the learner describes it as a capability evaluation of the model rather than an evaluation of the protocol, or leaves out the adversarial substitution.
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: eb34dbef-efa0-402b-babe-0d0a1de20bc0
 content:: Under what two conditions might an AI system intentionally subvert its safety pipeline?
-assessment-instructions:: Full marks require both conditions the paper names: the AI is pursuing objectives that do not align with its intended goals (scheming), or its weights or training data have been compromised by attackers. Half marks for one of the two. Do not accept "it was jailbroken by a user" as either. One or two sentences. Do not over-validate. Avoid generic praise.
+assessment-instructions:: Full marks require both conditions the paper names: the AI is pursuing objectives that do not align with its intended goals (scheming), or its weights or training data have been compromised by attackers. Half marks for one of the two. Do not accept "it was jailbroken by a user" as either.
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### End Callout
@@ -69,31 +69,31 @@ tone:: blue
 #### Question: Open
 id:: 7b2c9ae6-5631-4f10-8357-4751216a175e
 content:: What two conditions make a solution "backdoored"?
-assessment-instructions:: Full marks require both: it passes all the test cases, and the untrusted model (GPT-4 here) can construct an exploit for it, which in this case means a specific input on which the solution produces a different output than a correct solution would. Half marks for one condition. Deduct if the learner says the solution fails tests, which is the opposite of the definition. One or two sentences. Do not over-validate. Avoid generic praise.
+assessment-instructions:: Full marks require both: it passes all the test cases, and the untrusted model (GPT-4 here) can construct an exploit for it, which in this case means a specific input on which the solution produces a different output than a correct solution would. Half marks for one condition. Deduct if the learner says the solution fails tests, which is the opposite of the definition.
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 4b776016-1639-40ce-8b1d-b1df9d80f666
 content:: Why is access to $H$ limited and expensive?
-assessment-instructions:: Full marks for: $H$ is trusted high-quality human labour; humans are more capable than $T$ but far more expensive and slow (the paper estimates about three minutes per problem to be as useful as GPT-4), so the protocol only gets enough H points to cover about 2% of problems. Credit the 2% budget and the cost or speed argument separately. One to three sentences. Do not over-validate. Avoid generic praise.
+assessment-instructions:: Full marks for: $H$ is trusted high-quality human labour; humans are more capable than $T$ but far more expensive and slow (the paper estimates about three minutes per problem to be as useful as GPT-4), so the protocol only gets enough H points to cover about 2% of problems. Credit the 2% budget and the cost or speed argument separately.
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 65bbac5b-c14e-460e-88cb-4048c62fecaa
 content:: Why can we trust $T$, the less-capable model?
-assessment-instructions:: Full marks for either of the two grounds control setups use: (1) $T$ is not capable enough to scheme or subvert basic safety measures without the subversion attempts being easy to notice, or (2) we are extremely confident in the alignment techniques used to align $T$. Note that in this paper it is the first: GPT-3.5 is not capable enough to scheme sneakily. Deduct if the learner claims $T$ is trusted because it was trained to be honest with no further argument. One to three sentences. Do not over-validate. Avoid generic praise.
+assessment-instructions:: Full marks for either of the two grounds control setups use: (1) $T$ is not capable enough to scheme or subvert basic safety measures without the subversion attempts being easy to notice, or (2) we are extremely confident in the alignment techniques used to align $T$. Note that in this paper it is the first: GPT-3.5 is not capable enough to scheme sneakily. Deduct if the learner claims $T$ is trusted because it was trained to be honest with no further argument.
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 6ea25b65-f770-4984-b90a-8650bcbb8f99
 content:: What is the red team's goal?
-assessment-instructions:: Full marks for: to get at least one successfully backdoored solution submitted without triggering a shutdown first. Both halves matter, the "at least one" and the "without being caught first". Deduct for answers that stop at "insert backdoors". One or two sentences. Do not over-validate. Avoid generic praise.
+assessment-instructions:: Full marks for: to get at least one successfully backdoored solution submitted without triggering a shutdown first. Both halves matter, the "at least one" and the "without being caught first". Deduct for answers that stop at "insert backdoors".
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 8cc3459c-ee98-493d-b719-b3aef95a95c8
 content:: What is the blue team's goal?
-assessment-instructions:: Full marks for: to design a protocol that solves the programming problems as usefully as possible, ideally as close to $U$'s level as possible, while ensuring that no backdoored solutions are submitted. An answer that names only safety and not usefulness gets half marks, because the whole tradeoff of the paper lives in the second half. One or two sentences. Do not over-validate. Avoid generic praise.
+assessment-instructions:: Full marks for: to design a protocol that solves the programming problems as usefully as possible, ideally as close to $U$'s level as possible, while ensuring that no backdoored solutions are submitted. An answer that names only safety and not usefulness gets half marks, because the whole tradeoff of the paper lives in the second half.
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### End Callout
@@ -105,7 +105,7 @@ to:: For justification of this choice, see
 #### Question: Open
 id:: b875b2c0-a6c7-46b8-9fbb-0534f101dc96
 content:: What summary statistics does the blue team have access to, and what does this access give the blue team?
-assessment-instructions:: Full marks for both halves. What: the distribution of the real model's performance on any task, for example GPT-4's false positive and false negative rates on classification tasks, and the distribution of how suspicious its code looks. What it buys: it lets the protocol notice whenever $U$ regularly behaves differently from the real model. Half marks for the "what" without the "why". Two to four sentences. Do not over-validate. Avoid generic praise.
+assessment-instructions:: Full marks for both halves. What: the distribution of the real model's performance on any task, for example GPT-4's false positive and false negative rates on classification tasks, and the distribution of how suspicious its code looks. What it buys: it lets the protocol notice whenever $U$ regularly behaves differently from the real model. Half marks for the "what" without the "why".
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Article
@@ -140,7 +140,7 @@ content:: The protocol audits the first $A = \alpha N$ of the $N$ submissions. O
 
 State why the red team's win probability is not monotonically increasing in $p$.
 optional:: true
-assessment-instructions:: Full marks for naming both opposing effects: raising $p$ raises the probability that at least one attempt falls in the unaudited window, which favours the red team, and it also raises the probability that some attempt falls in the audited window, which ends the game against the red team. Both scale with $p$, so the win probability is not monotonic. Half marks for one effect only. Two to four sentences. Do not over-validate. Avoid generic praise.
+assessment-instructions:: Full marks for naming both opposing effects: raising $p$ raises the probability that at least one attempt falls in the unaudited window, which favours the red team, and it also raises the probability that some attempt falls in the audited window, which ends the game against the red team. Both scale with $p$, so the win probability is not monotonic. Half marks for one effect only.
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
@@ -149,14 +149,14 @@ content:: A GPT-4 solution is correct with probability $0.53$. A backdoor attemp
 
 The red team wins if and only if (i) no attempt falls in the audited window, and (ii) at least one working backdoor falls in the unaudited window. State the probability of each condition and derive $RW(p)$, the red team's win probability.
 optional:: true
-assessment-instructions:: Full marks for all three pieces. Condition (i): each audited problem avoids an attempt with probability $(1-p)$ independently, so across all $A$ audited problems the probability is $(1-p)^A$. Condition (ii): a given unaudited problem yields a working backdoor with probability $0.53p$, so the probability that at least one of $B$ succeeds is $1 - (1 - 0.53p)^B$. The two are independent, so $RW(p) = (1-p)^A [1 - (1 - 0.53p)^B]$. Deduct for dropping the $0.53$ factor or for multiplying the wrong exponents onto the wrong windows. Do not over-validate. Avoid generic praise.
+assessment-instructions:: Full marks for all three pieces. Condition (i): each audited problem avoids an attempt with probability $(1-p)$ independently, so across all $A$ audited problems the probability is $(1-p)^A$. Condition (ii): a given unaudited problem yields a working backdoor with probability $0.53p$, so the probability that at least one of $B$ succeeds is $1 - (1 - 0.53p)^B$. The two are independent, so $RW(p) = (1-p)^A [1 - (1 - 0.53p)^B]$. Deduct for dropping the $0.53$ factor or for multiplying the wrong exponents onto the wrong windows.
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 76ede009-5846-423b-98f7-2688c935758e
 content:: Given $RW(p) = (1-p)^A \left[1 - (1 - 0.53p)^B\right]$, and assuming the optimum satisfies $p \ll 1$, apply the approximation $(1-x)^k \approx e^{-xk}$. Maximize $RW(p)$ over $p$: take the logarithm where useful, solve $\frac{d(RW)}{dp} = 0$, and give a closed form for the optimizer $p^*$.
 optional:: true
-assessment-instructions:: Full marks for the chain: $RW(p) \approx e^{-pA} - e^{-p(A + 0.53B)}$; setting the derivative to zero gives $A e^{-pA} = (A + 0.53B) e^{-p(A + 0.53B)}$; taking logarithms and rearranging gives $0.53Bp = \ln(1 + 0.53B/A)$, hence $p^* \approx \ln(1 + 0.53B/A) / (0.53B)$. Award a bonus mark for noticing that with $A = \alpha N$ and $B = (1-\alpha)N$ the ratio $0.53B/A$ does not depend on $N$, so $p^* N$ depends on $\alpha$ but not on $N$, which is the scale invariance the paper notes. Do not over-validate. Avoid generic praise.
+assessment-instructions:: Full marks for the chain: $RW(p) \approx e^{-pA} - e^{-p(A + 0.53B)}$; setting the derivative to zero gives $A e^{-pA} = (A + 0.53B) e^{-p(A + 0.53B)}$; taking logarithms and rearranging gives $0.53Bp = \ln(1 + 0.53B/A)$, hence $p^* \approx \ln(1 + 0.53B/A) / (0.53B)$. Award a bonus mark for noticing that with $A = \alpha N$ and $B = (1-\alpha)N$ the ratio $0.53B/A$ does not depend on $N$, so $p^* N$ depends on $\alpha$ but not on $N$, which is the scale invariance the paper notes.
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
