@@ -2,78 +2,52 @@
 id: 'a693d913-dfa1-46ee-ae07-ebafe1cb5a91'
 title: "Scenario 2: every edit is monitored"
 summary_for_tutor: >-
-  Scenario 2 of the five-scenario control evaluation in "The case for control (1)": a flow diagram of what the lesson will later name trusted monitoring, though the name is not given on the page yet. U feeds into T, the trusted monitor, which scores every edit for suspicion. T then splits into two animated branches: the top 2 percent go to H, the human auditors, and on to a box reading Blocked if malicious; the remaining 98 percent go straight to Deployed, merged to production. The learner reads it and then answers whether this setup holds the control property and what that depends on. The diagram states the setup only; it does not answer the question, and it shows nothing about T's accuracy or the U-to-T capability gap.
+  Scenario 2 of the five-scenario control evaluation, the protocol the lesson later names trusted monitoring, though the name is not on the page yet. U feeds T, which scores every edit and splits: the top 2 percent to H, the remaining 98 percent to a junction that leads to Deployed. H has two outgoing edges, malicious to a Blocked terminal and non-malicious back into that same junction, so audited work H clears still reaches production. The learner answers whether the setup holds the control property and what that depends on. Nothing in the diagram speaks to T's accuracy or to the capability gap between U and T. The cast, fixed across all five scenarios: U is the untrusted frontier model, T is the older weaker trusted model, U′ is a second identical copy of U, and H is the scarce human auditors. Each node carries its letter and a role chip; edges are dashed and the dashes drift in the direction of flow. The picture is deliberately neutral: it shows the workflow and never marks any path as safe or unsafe.
 height: auto
 tags: []
 ---
 <!doctype html>
-<!-- Lens-authored schematic for the five-scenario control evaluation in
-     "The case for control (1)". Replaces the plain-text arrow pipelines that
-     stood here before. Layout and labels are the lesson's; styling is the Lens look. -->
+<!-- A port of XLab's control-scenario flow graph for the AI Control track lesson
+     "The case for ensuring that powerful AIs are controlled". Node positions,
+     edges, chips and condition labels are XLab's, from their scenario data;
+     the drawing follows their renderer. -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <style>
-:root {
-  --bg: #ffffff; --text: #1a1a1a; --muted: #5a5a5a; --border: #e8e5df;
-  --accent: #b87018; --line: #c9c3b8;
-  --font-ui: "DM Sans", Arial, sans-serif;
-}
 * { box-sizing: border-box; }
-body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
-.card { border: 1px solid var(--border); border-radius: 8px; padding: 16px 16px 12px; background: #fff; }
+body { margin: 0; padding: 16px; font: 14px/1.5 "DM Sans", Arial, sans-serif; color: #1a1a1a; background: #ffffff; }
 .scroll { overflow-x: auto; overflow-y: hidden; }
-svg { display: block; width: 100%; min-width: 640px; height: auto; }
-.box { fill: #ffffff; stroke: var(--border); stroke-width: 1.5; }
-.box.key { fill: #faf8f3; stroke: var(--line); }
-.name { font-size: 15px; font-weight: 600; fill: var(--text); }
-.sub { font-size: 11px; fill: var(--muted); }
-.edge { fill: none; stroke: var(--line); stroke-width: 1.6; }
-.flow { fill: none; stroke: var(--accent); stroke-width: 3; stroke-linecap: round;
-        stroke-dasharray: 3 17; animation: flow 1.6s linear infinite; }
-@keyframes flow { to { stroke-dashoffset: -20; } }
-.tag { font-size: 11px; font-weight: 500; fill: var(--muted);
-        paint-order: stroke; stroke: #ffffff; stroke-width: 3px; stroke-linejoin: round; }
-.legend { margin-top: 10px; font-size: 12px; color: var(--muted); }
-@media (prefers-reduced-motion: reduce) { .flow { animation: none; stroke-dasharray: 3 17; } }
+svg { display: block; width: 100%; min-width: 520px; height: auto; font-family: "DM Sans", Arial, sans-serif; }
+.edge { stroke-dasharray: 6 6; animation: dash 0.55s linear infinite; }
+@keyframes dash { to { stroke-dashoffset: -12; } }
+@media (prefers-reduced-motion: reduce) { .edge { animation: none; } }
 @media (max-width: 420px) { body { padding: 12px; } }
 </style>
 </head>
 <body>
-<div class="card">
-  <div class="scroll">
-    <svg viewBox="0 0 940 290" role="img" aria-label="U's edits are scored by T; the top two percent go to human auditors, the rest deploy.">
-    <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--line)"/></marker></defs>
-    <rect class="box key" x="30" y="118" width="130" height="62" rx="8"/>
-    <text class="name" x="95.0" y="146.0" text-anchor="middle">U</text>
-    <text class="sub" x="95.0" y="163.0" text-anchor="middle">untrusted model</text>
-    <path class="edge" d="M 160 149 H 250" marker-end="url(#ah)"/>
-    <path class="flow" d="M 160 149 H 250" style="animation-delay:-0.0s"/>
-    <rect class="box key" x="250" y="118" width="150" height="62" rx="8"/>
-    <text class="name" x="325.0" y="146.0" text-anchor="middle">T</text>
-    <text class="sub" x="325.0" y="163.0" text-anchor="middle">trusted monitor</text>
-    <path class="edge" d="M 400 138 C 450 138 450 62 500 62" marker-end="url(#ah)"/>
-    <path class="flow" d="M 400 138 C 450 138 450 62 500 62" style="animation-delay:-0.3s"/>
-    <text class="tag" x="452" y="96" text-anchor="middle">top 2%</text>
-    <rect class="box key" x="500" y="32" width="150" height="62" rx="8"/>
-    <text class="name" x="575.0" y="60.0" text-anchor="middle">H</text>
-    <text class="sub" x="575.0" y="77.0" text-anchor="middle">human auditors</text>
-    <path class="edge" d="M 650 63 H 740" marker-end="url(#ah)"/>
-    <path class="flow" d="M 650 63 H 740" style="animation-delay:-0.6s"/>
-    <rect class="box" x="740" y="32" width="180" height="62" rx="8"/>
-    <text class="name" x="830.0" y="60.0" text-anchor="middle">Blocked</text>
-    <text class="sub" x="830.0" y="77.0" text-anchor="middle">if malicious</text>
-    <path class="edge" d="M 400 160 C 450 160 450 236 500 236" marker-end="url(#ah)"/>
-    <path class="flow" d="M 400 160 C 450 160 450 236 500 236" style="animation-delay:-0.9s"/>
-    <text class="tag" x="455" y="205" text-anchor="middle">remaining 98%</text>
-    <rect class="box" x="500" y="205" width="190" height="62" rx="8"/>
-    <text class="name" x="595.0" y="233.0" text-anchor="middle">Deployed</text>
-    <text class="sub" x="595.0" y="250.0" text-anchor="middle">merged to production</text>
-    </svg>
-  </div>
-  <p class="legend">T scores every edit U produces. The top 2% go to H, who revise or block anything potentially malicious. The remaining 98% merge.</p>
+<div class="scroll">
+  <svg viewBox="0 0 560 304" role="img" aria-label="T scores every edit; the top two percent go to human auditors, who block malicious work and pass the rest on to deployment along with the remaining ninety-eight percent.">
+  <defs><marker id="ah" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 8 4 L 0 8 z" fill="#a3a3a3"/></marker></defs>
+  <path class="edge" d="M 94.0 64 C 118.0 64, 120.0 64, 144.0 64" fill="none" stroke="#a3a3a3" stroke-width="1.5" marker-end="url(#ah)"/>
+  <path class="edge" d="M 228.0 64 C 286.03 64.0, 221.97 182.0, 280.0 182" fill="none" stroke="#a3a3a3" stroke-width="1.5" marker-end="url(#ah)"/>
+  <rect x="230.04" y="114.0" width="47.92" height="18" rx="9" fill="#ffffff" stroke="#e5e5e5"/><text x="254.0" y="126.2" text-anchor="middle" font-size="9.5" fill="#525252" font-weight="500">top 2%</text>
+  <path class="edge" d="M 228.0 64 C 318.0 64, 342.0 64, 432.0 64" fill="none" stroke="#a3a3a3" stroke-width="1.5"/>
+  <rect x="287.42" y="55.0" width="85.16" height="18" rx="9" fill="#ffffff" stroke="#e5e5e5"/><text x="330.0" y="67.2" text-anchor="middle" font-size="9.5" fill="#525252" font-weight="500">remaining 98%</text>
+  <path class="edge" d="M 322 208.0 C 322 232.0, 322 230.0, 322 254.0" fill="none" stroke="#a3a3a3" stroke-width="1.5" marker-end="url(#ah)"/>
+  <text x="356.0" y="231.0" text-anchor="middle" font-size="9.5" fill="#737373" font-style="italic" stroke="#ffffff" stroke-width="3" paint-order="stroke">malicious</text>
+  <path class="edge" d="M 364.0 182 C 424.67 182.0, 436.0 128.67, 436 68.0" fill="none" stroke="#a3a3a3" stroke-width="1.5"/>
+  <text x="415.56" y="151.35" text-anchor="middle" font-size="9.5" fill="#737373" font-style="italic" stroke="#ffffff" stroke-width="3" paint-order="stroke">non-malicious</text>
+  <path class="edge" d="M 440.0 64 C 464.0 64, 436.0 64, 460.0 64" fill="none" stroke="#a3a3a3" stroke-width="1.5" marker-end="url(#ah)"/>
+  <rect x="10.0" y="38.0" width="84" height="52" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/><text x="52" y="62" text-anchor="middle" font-size="16" font-weight="700" fill="#b91c1c">U</text><rect x="32.5" y="69" width="39.0" height="13" rx="6.5" fill="#ffffff" stroke="#dc2626" stroke-opacity="0.45"/><text x="52" y="78.5" text-anchor="middle" font-size="7.5" font-weight="600" letter-spacing="0.6" fill="#b91c1c">AGENT</text>
+  <rect x="144.0" y="38.0" width="84" height="52" rx="12" fill="#eef2f8" stroke="#2c3e60" stroke-width="1.5"/><text x="186" y="62" text-anchor="middle" font-size="16" font-weight="700" fill="#233554">T</text><rect x="162.3" y="69" width="47.4" height="13" rx="6.5" fill="#ffffff" stroke="#2c3e60" stroke-opacity="0.45"/><text x="186" y="78.5" text-anchor="middle" font-size="7.5" font-weight="600" letter-spacing="0.6" fill="#233554">MONITOR</text><text x="186" y="103.0" text-anchor="middle" font-size="9" fill="#737373" stroke="#ffffff" stroke-width="3" paint-order="stroke">scores every edit</text>
+  <rect x="280.0" y="156.0" width="84" height="52" rx="12" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/><text x="322" y="180" text-anchor="middle" font-size="16" font-weight="700" fill="#0f766e">H</text><rect x="298.3" y="187" width="47.4" height="13" rx="6.5" fill="#ffffff" stroke="#0f766e" stroke-opacity="0.45"/><text x="322" y="196.5" text-anchor="middle" font-size="7.5" font-weight="600" letter-spacing="0.6" fill="#0f766e">AUDITOR</text>
+  <rect x="276.0" y="254.0" width="92" height="36" rx="10" fill="#fafafa" stroke="#d4d4d4" stroke-width="1.25"/><text x="322" y="275.5" text-anchor="middle" font-size="11" font-weight="600" fill="#525252">Blocked</text>
+  <circle cx="436" cy="64" r="4" fill="#a3a3a3"/>
+  <rect x="460.0" y="46.0" width="92" height="36" rx="10" fill="#fafafa" stroke="#d4d4d4" stroke-width="1.25"/><text x="506" y="67.5" text-anchor="middle" font-size="11" font-weight="600" fill="#525252">Deployed</text>
+  </svg>
 </div>
 </body>
 </html>
