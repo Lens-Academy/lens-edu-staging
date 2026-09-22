@@ -6,13 +6,7 @@ tags: [wip]
 ---
 <!doctype html>
 <html>
-<head><meta charset="utf-8"><title>Broken</title>
-<style>
-  /* ROUND-TRIP TEST 2026-09-21 — will be reverted immediately */
-  thead > tr:last-child th { min-width: 6rem; content: "a>b & c"; }
-  .x::after { content: '\201C'; }
-</style>
-</head>
+<head><meta charset="utf-8"><title>Broken</title></head>
 <body>
 <div class="card">
   <p>This widget is broken on purpose: the div below is closed with a span, and the script never ends.</span>
