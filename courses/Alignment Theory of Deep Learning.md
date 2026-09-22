@@ -42,3 +42,53 @@ Day 1 goals (Leon Lang's A.1 outcomes, verbatim):
 # Meeting: Day 1: AI Alignment Introduction
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
+
+%%
+Day 2 goals (Zach Furman's B.2 outcomes, verbatim):
+- Students can explain and distinguish the three classical mysteries of why deep learning performs well: approximation, generalization, and optimization.
+- Students understand why each of the three classical mysteries implicitly requires leveraging structure in reality: learning is not tractable for arbitrary tasks, so deep learning must be using non-generic properties of real-world tasks to succeed.
+- Students are aware of the key empirical mysteries of deep learning: data-dependent generalization despite overparameterization, effectiveness of SGD on non-convex landscapes, representational alignment across architectures, and in-context learning
+- Students have encountered at least one candidate explanation for each mystery and can articulate what it does and doesn't explain
+- Students understand the "program synthesis" hypothesis as one proposed framework connecting deep learning to Solomonoff induction, and can evaluate its strengths and limitations
+- Students can articulate why solving these mysteries matters for AI safety
+%%
+# Module: [[../modules/ATDL 2 - Mysteries of Deep Learning]]
+# Meeting: Day 2: Mysteries of Deep Learning
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+
+%%
+Day 3 goals (B.3 has no written outcomes list; these are the authors' three fast-track aims, verbatim, plus the landing-page outcome):
+- To understand parameter-function map versus loss landscape degeneracy
+- To understand the local learning coefficient via volume scaling
+- To understand the relation between degeneracy and learning in the Bayesian case
+- Landing page: "You can compute degeneracy in small models and explain what the local learning coefficient measures and why it matters."
+%%
+# Module: [[../modules/ATDL 3 - Singular Learning Theory]]
+# Meeting: Day 3: Singular Learning Theory
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+
+%%
+Day 4 goals (Guillaume Corlouer's B.4 outcomes, verbatim, abridged to the headline items):
+- Understand the concept of implicit regularization; understand the AI safety motivations for learning dynamics
+- Know key results about the loss landscape of deep linear networks (DLNs): critical points are saddles or global minima
+- Understand that gradient flow can be written as NTK-weighted gradient in function space; DLNs are degenerate and have conserved quantities through gradient flow
+- Understand the role of initialization, width and depth for the lazy and rich (saddle to saddle) regimes in DLNs
+%%
+# Module: [[../modules/ATDL 4 - Training Dynamics]]
+# Meeting: Day 4: Training Dynamics
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+
+%%
+Day 5 goals (B.5 has no written outcomes list; the author's route aims plus the landing-page outcome):
+- Understand data attribution as a causal question, and why leave-one-out counterfactuals miss overdetermined and mediated causes (Section 1, required for every route)
+- One of: derive classical influence functions and their modern fixes; connect Bayesian influence functions to classical ones; derive unrolling and recover influence functions as its limit
+- Landing page: "You can derive influence functions, state when their approximations fail, and compare them with Bayesian and unrolling methods."
+The final meeting's survey is ATDL Final Impact Survey v2, a copy of CV1 Final Impact Survey v2 with fresh ids and the course name swapped (the pattern CV1 used).
+%%
+# Module: [[../modules/ATDL 5 - Data Attribution]]
+# Meeting: Day 5: Data Attribution
+survey:: [[../surveys/ATDL Final Impact Survey v2]]
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
