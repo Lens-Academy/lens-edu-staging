@@ -71,7 +71,7 @@ content:: **Question 1. Identify the principal problem** (required)
 
 State in one sentence the principal problem that the author seeks to solve.
 placeholder:: Cite the page or section you are answering from.
-assessment-instructions:: Close reading of Cankaya's paper. Check that the answer is one sentence, names the problem the paper sets itself (verifying a rival state's AI compute use under low mutual trust, with near-term, retrofittable hardware) rather than a mechanism or a benefit, and cites a page or section. Distinguish the author's framing from the learner's own gloss. Do not over-validate; no generic praise.
+assessment-instructions:: Close reading of Cankaya's paper. Check that the answer is one sentence, names the problem the paper sets itself (verifying a rival state's AI compute use under low mutual trust, with near-term, retrofittable hardware) rather than a mechanism or a benefit, and cites a page or section. Distinguish the author's framing from the learner's own gloss.
 
 #### Question: Open
 id:: ff46a6f8-d7c3-45cf-bc6b-ae9e8d9235e2

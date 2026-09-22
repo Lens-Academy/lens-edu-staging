@@ -83,7 +83,7 @@ However, they offer you four claims about what it will do, and are willing to ta
 
 Take each claim one at a time before choosing a combination to bet on. Would you bet on it or not, and what is your confidence resting on?
 
-assessment-instructions:: The learner has just read both extension pieces. This question does the unit's retrieval work without asking for it: sorting the four claims requires an idea from earlier in the course that neither reading mentions, and the learner has to reach for it unprompted.
+feedback-instructions:: The learner has just read both extension pieces. This question does the unit's retrieval work without asking for it: sorting the four claims requires an idea from earlier in the course that neither reading mentions, and the learner has to reach for it unprompted.
 
 **The four claims, in the order they are listed, and what each one tests.**
 
