@@ -288,7 +288,7 @@ Notes
 
 3. See for instance Dani Eder’s 1994 Newgroup posting http://www.aleph.se/Trans/Global/Singularity/singul.txt
 
-4. The data can be found at http://www.neweuropeancentury.org/SIAI-FHI_AI_predictions.xls; readers are encouraged to come up with their own median estimates.
+4. The data can be found at http://web.archive.org/web/20121202120607/http://www.neweuropeancentury.org/SIAI-FHI_AI_predictions.xls; readers are encouraged to come up with their own median estimates.
 
 5. Kevin Kelly, editor of Wired magazine, created the law in 2007 after being influenced by Pattie Maes at MIT and Joel Garreau (author of Radical Evolution).
 
