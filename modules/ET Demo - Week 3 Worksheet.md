@@ -4,4 +4,5 @@ slug: et-demo-week-3-worksheet
 title: "Week 3: Generating and prioritising research questions"
 ---
 
-# Lens: [[../Lenses/ET Demo - Weighted Factor Model]]
+# Lens:
+source:: [[../Lenses/ET Demo - Weighted Factor Model]]
