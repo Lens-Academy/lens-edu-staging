@@ -1,6 +1,6 @@
 ---
 id: 'a693d913-dfa1-46ee-ae07-ebafe1cb5a91'
-title: Scenario 2: every edit is monitored
+title: "Scenario 2: every edit is monitored"
 summary_for_tutor: >-
   Scenario 2 of the five-scenario control evaluation in "The case for control (1)": a flow diagram of what the lesson will later name trusted monitoring, though the name is not given on the page yet. U feeds into T, the trusted monitor, which scores every edit for suspicion. T then splits into two animated branches: the top 2 percent go to H, the human auditors, and on to a box reading Blocked if malicious; the remaining 98 percent go straight to Deployed, merged to production. The learner reads it and then answers whether this setup holds the control property and what that depends on. The diagram states the setup only; it does not answer the question, and it shows nothing about T's accuracy or the U-to-T capability gap.
 height: auto

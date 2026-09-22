@@ -1,6 +1,6 @@
 ---
 id: 'd0440efd-40d6-461d-b5cf-4a1071002ea0'
-title: Scenario 3: a reviewer that can keep up
+title: "Scenario 3: a reviewer that can keep up"
 summary_for_tutor: >-
   Scenario 3 of the five-scenario control evaluation in "The case for control (1)": a flow diagram of what the lesson will later name untrusted monitoring, though the name is not given on the page yet. The layout is identical to scenario 2 except that the monitor box reads U prime, a second copy of U, rather than T: U feeds into U prime, which splits into the top 2 percent going to H, the human auditors, and on to Blocked if malicious, and the remaining 98 percent going to Deployed. The point the learner has to supply is that the monitor is now a copy of the untrusted model. The diagram states the setup only; it does not answer the question and does not depict collusion.
 height: auto

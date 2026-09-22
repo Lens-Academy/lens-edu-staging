@@ -1,6 +1,6 @@
 ---
 id: '7fe8ba89-8814-4245-aa8e-f3ed0d6d9ca1'
-title: Scenario 4: rewrite the doubtful ones
+title: "Scenario 4: rewrite the doubtful ones"
 summary_for_tutor: >-
   Scenario 4 of the five-scenario control evaluation in "The case for control (1)": a flow diagram of what the lesson will later name trusted editing, though the name is not given on the page yet. U feeds into T, which splits three ways: the top 2 percent to H, the human auditors; the next 10 percent into a box reading T rewrites, T's version merges, and on to Deployed; and the bottom 88 percent along a curve straight to the same Deployed box, labelled bottom 88 percent, merged unchanged. The three shares, 2, 10 and 88 percent, are labelled on the branches. The learner reads it and then answers whether the setup holds the control property. The diagram states the setup only; it does not say what score an attack must reach, and it does not mention the usefulness cost.
 height: auto

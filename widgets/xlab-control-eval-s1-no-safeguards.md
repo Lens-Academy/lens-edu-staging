@@ -1,6 +1,6 @@
 ---
 id: '39898f1d-ae9e-4041-b61f-622df5ddff87'
-title: Scenario 1: straight to production
+title: "Scenario 1: straight to production"
 summary_for_tutor: >-
   Scenario 1 of the five-scenario control evaluation in "The case for control (1)": a flow diagram of a deployment with no safeguards. Two boxes, U (the untrusted model) and Deployed (merged to production), joined by a single animated arrow from U straight to Deployed. There is nothing else in the path: no monitor, no auditor, no branch. The learner reads it and then answers whether this setup holds the control property. The diagram states the setup only; it does not answer the question, and you should not treat it as evidence either way.
 height: auto

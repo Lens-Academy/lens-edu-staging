@@ -1,6 +1,6 @@
 ---
 id: '18a20590-0842-4ce1-a45e-eeb15ee949bc'
-title: Scenario 5: rewind and ask again
+title: "Scenario 5: rewind and ask again"
 summary_for_tutor: >-
   Scenario 5 of the five-scenario control evaluation in "The case for control (1)": a flow diagram of resampling, the protocol the lesson returns to much later as Ctrl-Z. U feeds into T, which scores each command before it runs. Low suspicion goes to Executed. High suspicion goes into a box reading Rewind and resample, up to 3 tries, no memory, which loops back to U with the label ask U again, and then leaves in two branches: least suspicious runs, to a second Executed box, and all 3 suspicious, to H, the human auditors. The learner reads it and then answers whether the setup holds the control property. The diagram states the setup only; it does not answer the question and says nothing about what resampling reveals across tries.
 height: auto
