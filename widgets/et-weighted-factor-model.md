@@ -399,6 +399,11 @@ var WFM = {
     for (var c = 0; c < WFM.FACTORS.length; c++) if (q.scores[WFM.FACTORS[c].id] !== row[c]) return false;
     return true;
   },
+  // True when any worked-example row ("ex" id) is present, edited or not.
+  hasExample: function (state) {
+    for (var i = 0; i < state.questions.length; i++) if (/^ex\d$/.test(state.questions[i].id || "")) return true;
+    return false;
+  },
   hasOwnData: function (state) {
     for (var i = 0; i < state.questions.length; i++) {
       var q = state.questions[i];
@@ -807,6 +812,29 @@ var WFM = {
     renderAll();
     persist();
   }
+  // Back to exactly what a first-time learner gets: the init path's own constructor (migrate(null) is fresh()).
+  // Factors and weights are left alone. A completion already sent stays sent; the checklist just shows it as not done.
+  function clearExample() {
+    var first = WFM.fresh();
+    state.questions = first.questions;
+    state.gut = first.gut;
+    ui.shortMsg = "";
+    ui.openQ = {};
+    if (ui.detail && ui.detail.slice(0, 2) === "q:") ui.detail = null;
+    openOnly("brainstorm");
+    renderAll();
+    focusById("load-example");
+    persist();
+  }
+  var CLEAR_MSG = "This removes the example questions and their scores, including any changes you made to them. Any questions you added yourself are removed too, so you start again from a blank list. Your factors and weights stay as they are. Clear all questions?";
+  function clearExampleButton(id) {
+    if (!WFM.hasExample(state)) return null;
+    return h("button", { type: "button", id: id, text: "Clear the worked example", onclick: function () {
+      if (WFM.hasOwnData(state)) { ui.confirm = "clear-example"; renderAll(); focusById("yes-clear-example"); }
+      else clearExample();
+    } });
+  }
+  function clearExampleConfirm() { return confirmBox("clear-example", CLEAR_MSG, "Yes, clear all questions", clearExample); }
   function shortlistTopN() {
     var n = Math.max(1, Math.min(WFM.LIMITS.questions, Math.round(Number(ui.shortN)) || 5));
     var cands = [], i;
@@ -835,10 +863,13 @@ var WFM = {
         if (WFM.hasOwnData(state)) { ui.confirm = "example"; renderAll(); focusById("yes-example"); }
         else loadExample();
       } }),
+      clearExampleButton("clear-example"),
       h("span", { className: "hint", text: "Four example questions with the worked example's scores, to see how it works." })
     ]));
     var cb = confirmBox("example", "This replaces your questions, quick scores and scores with the four worked example questions. Your factors and weights stay as they are. Replace them?", "Yes, replace my questions", loadExample);
     if (cb) body.appendChild(cb);
+    var cc = clearExampleConfirm();
+    if (cc) body.appendChild(cc);
 
     body.appendChild(h("div", { className: "qhdr", "aria-hidden": "true" }, [
       h("span", { text: "#" }), h("span", { text: "Candidate question" }), h("span", { text: "Quick score (1-10)" }),
@@ -1123,6 +1154,12 @@ var WFM = {
   // ---------- Step 4: results ----------
   var STAR = "⭐ If your top-scoring question isn't your gut favourite, sit with that tension for a moment before deciding, don't just override the model, and don't just override your gut.";
   function renderResults(body) {
+    var clr = clearExampleButton("clear-example-results");
+    if (clr) {
+      body.appendChild(h("div", { className: "actions" }, [clr, h("span", { className: "hint", text: "Done exploring? This puts back a blank list for your own questions." })]));
+      var cc = clearExampleConfirm();
+      if (cc) body.appendChild(cc);
+    }
     var comp = WFM.completion(state);
     var ul = h("ul", { className: "check" });
     for (var i = 0; i < comp.items.length; i++) {
