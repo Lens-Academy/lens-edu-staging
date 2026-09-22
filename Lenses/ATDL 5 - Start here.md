@@ -27,7 +27,7 @@ Louis's note: "There is more material here than comfortably fits into a single d
 
 "All three routes depend on the motivational material in Section 1. If reading only one section, read that one."
 
-So: everyone reads **Section 1** and answers one question about it. Then choose **at least one route**; each has its own checkpoint page, and the other two stay open to you. Route 2 connects to Day 3 (singular learning theory) and Route 3 to Day 4 (training dynamics), if you want to pick by what you enjoyed. Expect about 3.5 hours, plus the group meeting.
+So: everyone reads **Section 1** and answers one question about it. Then choose **at least one route**; each has its own checkpoint page, and the other two stay open to you. Route 2 connects to Day 3 (singular learning theory) and Route 3 to Day 4 (training dynamics), if you want to pick by what you enjoyed. Expect about 3 hours for Section 1 and one route, plus the group meeting. Each further route adds about an hour and a half.
 
 This worksheet was converted for Lens from the Iliad LaTeX source, so its layout differs slightly from the Iliad website. Sections 5 and 6 of the source are not included because both are marked "Under construction".
 

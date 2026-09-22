@@ -32,7 +32,7 @@ content::
 
 Iliad ran this worksheet as a full day. Guillaume's advice to his students: "Use LLMs to help you out when you spend longer than the suggested time (but make sure that you understand). Make sure you keep at least 30 minutes to do problem 3." Problem 3 is the rich regime, Section 4 of the worksheet.
 
-The worksheet gives no shorter route, so the Lens version marks some exercises as core and the rest as optional. **This cut is ours, not Guillaume's.** Core: Section 2 (Exercises 2.1 and 2.3), Section 3 (Exercises 3.1, 3.2 and 3.7), all of Section 4, and in Sections 5 and 6 one exercise each (5.2 and 6.2). Everything else, including the bonus Section 7 on stochastic implicit bias, is optional. Expect about 3.5 hours for the core path, plus the group meeting.
+The worksheet gives no shorter route, so the Lens version marks some exercises as core and the rest as optional. **This cut is ours, not Guillaume's.** Core: Section 2 (Exercises 2.1 and 2.3), Section 3 (Exercises 3.1, 3.2 and 3.7), all of Section 4, and in Sections 5 and 6 one exercise each (5.2 and 6.2). Everything else, including the bonus Section 7 on stochastic implicit bias, is optional. Expect about 4 hours for the core path, plus the group meeting.
 
 The next page is the whole worksheet; use it as your textbook. After it come three checkpoint pages, where you type your answers and the tutor checks your working, and an optional fourth for Section 7.
 

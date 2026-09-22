@@ -35,7 +35,7 @@ The full tutorial is far more than a day. The authors give a fast-track route fo
 2. **The local learning coefficient.** Read Subsection 3.1 and complete Exercises 3.1, 3.2, 3.4 and 3.7. Read Subsection 3.3 and Exercise 3.10.
 3. **Degeneracy and Bayesian learning.** Read all of Section 4 ("it is shorter"). Complete Exercise 4.2.
 
-The next page is the whole worksheet; use it as your textbook. After it come three checkpoint pages, one per step above, where you type your answer to each fast-track exercise and the tutor checks your working. Expect about 3.5 hours, plus the group meeting. The authors: "Once you are done, we hope you will consider taking the scenic route some other time."
+The next page is the whole worksheet; use it as your textbook. After it come three checkpoint pages, one per step above, where you type your answer to each fast-track exercise and the tutor checks your working. Expect about 4.5 hours, plus the group meeting. This is the longest day of the week, because the exercises take the time. The authors: "Once you are done, we hope you will consider taking the scenic route some other time."
 
 The prerequisites the authors list are linear algebra (rank, eigenvalues, positive definiteness), multivariable calculus (gradient, Hessian, second-order Taylor expansion), multivariate integrals and change of variables, and basic probability including Bayes' rule and Gaussians.
 
