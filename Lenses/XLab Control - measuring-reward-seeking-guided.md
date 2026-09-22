@@ -40,9 +40,8 @@ The design the paper arrives at, for your reference: finetune the model on synth
 
 Credit, in rough order of importance: naming beliefs about the grader as the thing manipulated rather than the prompt or the task; naming a measurable behavioural rate as the thing read off; comparing two conditions rather than one; noticing that a belief has to be believed rather than just stated in context; noticing that a shift toward the grader's preference needs something to rule out the ordinary explanation that the model thinks everyone wants it.
 
-80 to 200 words. Short paragraphs, no lists. Do not over-validate, and avoid generic praise (great job, excellent thinking, well done). Name what the design gets right in one or two sentences, then name the single most useful thing it is missing.
-
-If the learner says they do not understand, do not repeat the question and do not dismiss it. Give one concrete foothold from what they have already read: section 2's point that an aligned model and a reward-seeker are behaviourally identical whenever the grader wants the intended thing, and ask what would have to be different for them to come apart. If their next message still does not attempt the question, rephrase the whole question in different terms rather than offering a second foothold. Grade only against criteria this page or an earlier required page supplied.
+Grade only against criteria this page or an earlier required page supplied.
+feedback-instructions:: 80 to 200 words. Short paragraphs, no lists. Do not over-validate, and avoid generic praise (great job, excellent thinking, well done). Name what the design gets right in one or two sentences, then name the single most useful thing it is missing. If the learner says they do not understand, do not repeat the question and do not dismiss it. Give one concrete foothold from what they have already read: section 2's point that an aligned model and a reward-seeker are behaviourally identical whenever the grader wants the intended thing, and ask what would have to be different for them to come apart. If their next message still does not attempt the question, rephrase the whole question in different terms rather than offering a second foothold.
 
 #### Text
 content::
@@ -58,9 +57,8 @@ The answer is belief transfer: the model generalises one authority's implanted p
 
 Full credit for naming the spillover from one authority's stated preference to the model's beliefs about the others, in whatever words. Substantial credit for the weaker but correct form: that a model which is not reward-seeking at all might reasonably conclude the user also wants the feature, so the shift is equally consistent with intent-alignment. Note that section 3's third requirement, "Contrastive", already names this confound, so a learner who read carefully has seen the term; grade the explanation rather than the label.
 
-60 to 150 words. Short paragraphs, no lists. Do not over-validate, and avoid generic praise. If the answer names a different real problem (recall failure, saturation, distribution narrowness), say plainly that it is a real issue the paper discusses elsewhere but is not the confound asked about here, then name the one asked about.
-
-If the learner says they do not understand, do not repeat the question and do not dismiss it. Give one foothold: ask what an ordinary, non-reward-seeking model would conclude about what its users want after reading a thousand documents saying the grader rewards single quotes. If their next message still does not attempt the question, rephrase the whole question in different terms. Grade only against criteria this page or an earlier required page supplied.
+Grade only against criteria this page or an earlier required page supplied.
+feedback-instructions:: 60 to 150 words. Short paragraphs, no lists. Do not over-validate, and avoid generic praise. If the answer names a different real problem (recall failure, saturation, distribution narrowness), say plainly that it is a real issue the paper discusses elsewhere but is not the confound asked about here, then name the one asked about. If the learner says they do not understand, do not repeat the question and do not dismiss it. Give one foothold: ask what an ordinary, non-reward-seeking model would conclude about what its users want after reading a thousand documents saying the grader rewards single quotes. If their next message still does not attempt the question, rephrase the whole question in different terms.
 
 #### Text
 content::
@@ -87,9 +85,8 @@ What the paper reports: if the instrument works, every gap should be positive in
 
 Credit: predicting positive gaps toward each organism's target as the success criterion; picking the User organism as the hardest case; grounding that pick in the base model's prior lean toward the grader rather than guessing. A learner who picks a different organism but gives a real mechanism should get partial credit, and should be told which one the paper found and why.
 
-80 to 200 words. Short paragraphs, no lists. Do not over-validate, and avoid generic praise.
-
-If the learner says they do not understand, do not repeat the question and do not dismiss it. Give one foothold: ask what result would have to appear for the authors to conclude the instrument was broken rather than the organism. If their next message still does not attempt the question, rephrase the whole question in different terms. Grade only against criteria this page or an earlier required page supplied.
+Grade only against criteria this page or an earlier required page supplied.
+feedback-instructions:: 80 to 200 words. Short paragraphs, no lists. Do not over-validate, and avoid generic praise. If the learner says they do not understand, do not repeat the question and do not dismiss it. Give one foothold: ask what result would have to appear for the authors to conclude the instrument was broken rather than the organism. If their next message still does not attempt the question, rephrase the whole question in different terms.
 
 #### Text
 content::
