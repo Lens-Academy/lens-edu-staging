@@ -61,6 +61,10 @@ reading_minutes:: 2
 tutor_minutes:: 10
 min_chat_messages:: 3
 
+#### Text
+content::
+This page is a conversation with the tutor rather than a reading, and nothing in it is graded. Before you start, think of one decision someone in your field will make in the next twelve months that quietly assumes AI capability stays roughly where it is: a hire, a research agenda, a product, a curriculum, a law. The tutor will build a short case from it, move the world forward a few years, and ask what you would do differently.
+
 #### Chat
 instructions::
 You are running a short case, not a quiz. The student has just finished Unit 1: a compute thought experiment (Fun with +12 OOMs), the METR task-length curve (doubling every four to seven months), and what a trend line licenses. The student's earlier answers in this unit may be in your conversation history. Do not quote them, do not summarise them back, and do not use them to answer for the student. Ask your questions as if you had not seen them.
