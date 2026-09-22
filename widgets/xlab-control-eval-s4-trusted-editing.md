@@ -15,10 +15,11 @@ tags: []
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <style>
 * { box-sizing: border-box; }
 body { margin: 0; padding: 16px; font: 14px/1.5 "DM Sans", Arial, sans-serif; color: #1a1a1a; background: #ffffff; }
+.card { border: 1px solid #e8e5df; border-radius: 8px; padding: 16px; background: #fff; }
 .scroll { overflow-x: auto; overflow-y: hidden; }
 svg { display: block; width: 100%; min-width: 520px; height: auto; font-family: "DM Sans", Arial, sans-serif; }
 .edge { stroke-dasharray: 6 6; animation: dash 0.55s linear infinite; }
@@ -28,26 +29,33 @@ svg { display: block; width: 100%; min-width: 520px; height: auto; font-family: 
 </style>
 </head>
 <body>
-<div class="scroll">
+<div class="card"><div class="scroll">
   <svg viewBox="0 0 560 286" role="img" aria-label="T scores every edit; the top two percent are audited, the next ten percent are rewritten by T, the bottom eighty-eight percent pass through, and all three paths rejoin at deployment.">
-  <defs><marker id="ah" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 8 4 L 0 8 z" fill="#a3a3a3"/></marker></defs>
-  <path class="edge" d="M 94.0 150 C 118.0 150, 118.0 150, 142.0 150" fill="none" stroke="#a3a3a3" stroke-width="1.5" marker-end="url(#ah)"/>
-  <path class="edge" d="M 226.0 150 C 277.43 150.0, 236.57 54.0, 288.0 54" fill="none" stroke="#a3a3a3" stroke-width="1.5" marker-end="url(#ah)"/>
-  <rect x="227.72" y="93.0" width="58.56" height="18" rx="9" fill="#ffffff" stroke="#e5e5e5"/><text x="257.0" y="105.2" text-anchor="middle" font-size="9.5" fill="#525252" font-weight="500">next 10%</text>
-  <path class="edge" d="M 226.0 150 C 275.92 150.0, 238.08 242.0, 288.0 242" fill="none" stroke="#a3a3a3" stroke-width="1.5" marker-end="url(#ah)"/>
-  <rect x="233.04" y="187.0" width="47.92" height="18" rx="9" fill="#ffffff" stroke="#e5e5e5"/><text x="257.0" y="199.2" text-anchor="middle" font-size="9.5" fill="#525252" font-weight="500">top 2%</text>
-  <path class="edge" d="M 226.0 150 C 316.0 150, 350.0 150, 440.0 150" fill="none" stroke="#a3a3a3" stroke-width="1.5"/>
-  <rect x="289.09" y="141.0" width="69.2" height="18" rx="9" fill="#ffffff" stroke="#e5e5e5"/><text x="323.69" y="153.2" text-anchor="middle" font-size="9.5" fill="#525252" font-weight="500">bottom 88%</text>
-  <path class="edge" d="M 372.0 54 C 424.57 54.0, 444.0 93.43, 444 146.0" fill="none" stroke="#a3a3a3" stroke-width="1.5"/>
-  <path class="edge" d="M 372.0 242 C 423.17 242.0, 444.0 205.17, 444 154.0" fill="none" stroke="#a3a3a3" stroke-width="1.5"/>
-  <path class="edge" d="M 448.0 150 C 472.0 150, 438.0 150, 462.0 150" fill="none" stroke="#a3a3a3" stroke-width="1.5" marker-end="url(#ah)"/>
-  <rect x="10.0" y="124.0" width="84" height="52" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/><text x="52" y="148" text-anchor="middle" font-size="16" font-weight="700" fill="#b91c1c">U</text><rect x="32.5" y="155" width="39.0" height="13" rx="6.5" fill="#ffffff" stroke="#dc2626" stroke-opacity="0.45"/><text x="52" y="164.5" text-anchor="middle" font-size="7.5" font-weight="600" letter-spacing="0.6" fill="#b91c1c">AGENT</text>
-  <rect x="142.0" y="124.0" width="84" height="52" rx="12" fill="#eef2f8" stroke="#2c3e60" stroke-width="1.5"/><text x="184" y="148" text-anchor="middle" font-size="16" font-weight="700" fill="#233554">T</text><rect x="160.3" y="155" width="47.4" height="13" rx="6.5" fill="#ffffff" stroke="#2c3e60" stroke-opacity="0.45"/><text x="184" y="164.5" text-anchor="middle" font-size="7.5" font-weight="600" letter-spacing="0.6" fill="#233554">MONITOR</text>
-  <rect x="288.0" y="28.0" width="84" height="52" rx="12" fill="#eef2f8" stroke="#2c3e60" stroke-width="1.5"/><text x="330" y="52" text-anchor="middle" font-size="16" font-weight="700" fill="#233554">T</text><rect x="308.4" y="59" width="43.2" height="13" rx="6.5" fill="#ffffff" stroke="#2c3e60" stroke-opacity="0.45"/><text x="330" y="68.5" text-anchor="middle" font-size="7.5" font-weight="600" letter-spacing="0.6" fill="#233554">EDITOR</text><text x="330" y="93.0" text-anchor="middle" font-size="9" fill="#737373" stroke="#ffffff" stroke-width="3" paint-order="stroke">rewrites</text>
-  <rect x="288.0" y="216.0" width="84" height="52" rx="12" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/><text x="330" y="240" text-anchor="middle" font-size="16" font-weight="700" fill="#0f766e">H</text><rect x="306.3" y="247" width="47.4" height="13" rx="6.5" fill="#ffffff" stroke="#0f766e" stroke-opacity="0.45"/><text x="330" y="256.5" text-anchor="middle" font-size="7.5" font-weight="600" letter-spacing="0.6" fill="#0f766e">AUDITOR</text>
-  <circle cx="444" cy="150" r="4" fill="#a3a3a3"/>
-  <rect x="462.0" y="132.0" width="92" height="36" rx="10" fill="#fafafa" stroke="#d4d4d4" stroke-width="1.25"/><text x="508" y="153.5" text-anchor="middle" font-size="11" font-weight="600" fill="#525252">Deployed</text>
+  <defs><marker id="ah" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 8 4 L 0 8 z" fill="#c9c3b8"/></marker></defs>
+  <path d="M 94.0 150 C 118.0 150, 118.0 150, 142.0 150" fill="none" stroke="#c9c3b8" stroke-width="1.5" stroke-opacity="0.55" marker-end="url(#ah)"/>
+  <path class="edge" d="M 94.0 150 C 118.0 150, 118.0 150, 142.0 150" fill="none" stroke="#b87018" stroke-width="1.5"/>
+  <path d="M 226.0 150 C 277.43 150.0, 236.57 54.0, 288.0 54" fill="none" stroke="#c9c3b8" stroke-width="1.5" stroke-opacity="0.55" marker-end="url(#ah)"/>
+  <path class="edge" d="M 226.0 150 C 277.43 150.0, 236.57 54.0, 288.0 54" fill="none" stroke="#b87018" stroke-width="1.5"/>
+  <rect x="227.72" y="93.0" width="58.56" height="18" rx="9" fill="#ffffff" stroke="#e8e5df"/><text x="257.0" y="105.2" text-anchor="middle" font-size="9.5" fill="#5a5a5a" font-weight="500">next 10%</text>
+  <path d="M 226.0 150 C 275.92 150.0, 238.08 242.0, 288.0 242" fill="none" stroke="#c9c3b8" stroke-width="1.5" stroke-opacity="0.55" marker-end="url(#ah)"/>
+  <path class="edge" d="M 226.0 150 C 275.92 150.0, 238.08 242.0, 288.0 242" fill="none" stroke="#b87018" stroke-width="1.5"/>
+  <rect x="233.04" y="187.0" width="47.92" height="18" rx="9" fill="#ffffff" stroke="#e8e5df"/><text x="257.0" y="199.2" text-anchor="middle" font-size="9.5" fill="#5a5a5a" font-weight="500">top 2%</text>
+  <path d="M 226.0 150 C 316.0 150, 350.0 150, 440.0 150" fill="none" stroke="#c9c3b8" stroke-width="1.5" stroke-opacity="0.55"/>
+  <path class="edge" d="M 226.0 150 C 316.0 150, 350.0 150, 440.0 150" fill="none" stroke="#b87018" stroke-width="1.5"/>
+  <rect x="289.09" y="141.0" width="69.2" height="18" rx="9" fill="#ffffff" stroke="#e8e5df"/><text x="323.69" y="153.2" text-anchor="middle" font-size="9.5" fill="#5a5a5a" font-weight="500">bottom 88%</text>
+  <path d="M 372.0 54 C 424.57 54.0, 444.0 93.43, 444 146.0" fill="none" stroke="#c9c3b8" stroke-width="1.5" stroke-opacity="0.55"/>
+  <path class="edge" d="M 372.0 54 C 424.57 54.0, 444.0 93.43, 444 146.0" fill="none" stroke="#b87018" stroke-width="1.5"/>
+  <path d="M 372.0 242 C 423.17 242.0, 444.0 205.17, 444 154.0" fill="none" stroke="#c9c3b8" stroke-width="1.5" stroke-opacity="0.55"/>
+  <path class="edge" d="M 372.0 242 C 423.17 242.0, 444.0 205.17, 444 154.0" fill="none" stroke="#b87018" stroke-width="1.5"/>
+  <path d="M 448.0 150 C 472.0 150, 438.0 150, 462.0 150" fill="none" stroke="#c9c3b8" stroke-width="1.5" stroke-opacity="0.55" marker-end="url(#ah)"/>
+  <path class="edge" d="M 448.0 150 C 472.0 150, 438.0 150, 462.0 150" fill="none" stroke="#b87018" stroke-width="1.5"/>
+  <rect x="10.0" y="124.0" width="84" height="52" rx="12" fill="#ffffff" stroke="#e8e5df" stroke-width="1.5"/><text x="52" y="148" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a1a">U</text><rect x="32.5" y="155" width="39.0" height="13" rx="6.5" fill="#faf8f3" stroke="#e8e5df"/><text x="52" y="164.5" text-anchor="middle" font-size="7.5" font-weight="600" letter-spacing="0.6" fill="#5a5a5a">AGENT</text>
+  <rect x="142.0" y="124.0" width="84" height="52" rx="12" fill="#ffffff" stroke="#e8e5df" stroke-width="1.5"/><text x="184" y="148" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a1a">T</text><rect x="160.3" y="155" width="47.4" height="13" rx="6.5" fill="#faf8f3" stroke="#e8e5df"/><text x="184" y="164.5" text-anchor="middle" font-size="7.5" font-weight="600" letter-spacing="0.6" fill="#5a5a5a">MONITOR</text>
+  <rect x="288.0" y="28.0" width="84" height="52" rx="12" fill="#ffffff" stroke="#e8e5df" stroke-width="1.5"/><text x="330" y="52" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a1a">T</text><rect x="308.4" y="59" width="43.2" height="13" rx="6.5" fill="#faf8f3" stroke="#e8e5df"/><text x="330" y="68.5" text-anchor="middle" font-size="7.5" font-weight="600" letter-spacing="0.6" fill="#5a5a5a">EDITOR</text><text x="330" y="93.0" text-anchor="middle" font-size="9" fill="#5a5a5a" stroke="#ffffff" stroke-width="3" paint-order="stroke">rewrites</text>
+  <rect x="288.0" y="216.0" width="84" height="52" rx="12" fill="#ffffff" stroke="#e8e5df" stroke-width="1.5"/><text x="330" y="240" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a1a">H</text><rect x="306.3" y="247" width="47.4" height="13" rx="6.5" fill="#faf8f3" stroke="#e8e5df"/><text x="330" y="256.5" text-anchor="middle" font-size="7.5" font-weight="600" letter-spacing="0.6" fill="#5a5a5a">AUDITOR</text>
+  <circle cx="444" cy="150" r="4" fill="#c9c3b8"/>
+  <rect x="462.0" y="132.0" width="92" height="36" rx="10" fill="#faf8f3" stroke="#e8e5df" stroke-width="1.25"/><text x="508" y="153.5" text-anchor="middle" font-size="11" font-weight="600" fill="#5a5a5a">Deployed</text>
   </svg>
-</div>
+</div></div>
 </body>
 </html>

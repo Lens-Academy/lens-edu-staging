@@ -15,10 +15,11 @@ tags: []
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <style>
 * { box-sizing: border-box; }
 body { margin: 0; padding: 16px; font: 14px/1.5 "DM Sans", Arial, sans-serif; color: #1a1a1a; background: #ffffff; }
+.card { border: 1px solid #e8e5df; border-radius: 8px; padding: 16px; background: #fff; }
 .scroll { overflow-x: auto; overflow-y: hidden; }
 svg { display: block; width: 100%; min-width: 540px; height: auto; font-family: "DM Sans", Arial, sans-serif; }
 .edge { stroke-dasharray: 6 6; animation: dash 0.55s linear infinite; }
@@ -28,29 +29,36 @@ svg { display: block; width: 100%; min-width: 540px; height: auto; font-family: 
 </style>
 </head>
 <body>
-<div class="scroll">
+<div class="card"><div class="scroll">
   <svg viewBox="0 0 560 428" role="img" aria-label="T scores each command; low suspicion executes, suspicious steps are resampled from U up to three times with no memory between tries, and a bundle that stays suspicious goes to human auditors.">
-  <defs><marker id="ah" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 8 4 L 0 8 z" fill="#a3a3a3"/></marker></defs>
-  <path class="edge" d="M 94.0 170 C 118.3 170.0, 123.7 170.0, 148.0 170" fill="none" stroke="#a3a3a3" stroke-width="1.5" marker-end="url(#ah)"/>
-  <text x="121.0" y="162.0" text-anchor="middle" font-size="9.5" fill="#737373" font-style="italic" stroke="#ffffff" stroke-width="3" paint-order="stroke">command</text>
-  <path class="edge" d="M 232.0 162 C 322.0 162, 374.0 162, 464.0 162" fill="none" stroke="#a3a3a3" stroke-width="1.5" marker-end="url(#ah)"/>
-  <rect x="305.42" y="153.0" width="85.16" height="18" rx="9" fill="#ffffff" stroke="#e5e5e5"/><text x="348.0" y="165.2" text-anchor="middle" font-size="9.5" fill="#525252" font-weight="500">low suspicion</text>
-  <path class="edge" d="M 190 144.0 C 190 52.0, 52 52.0, 52 144.0" fill="none" stroke="#a3a3a3" stroke-width="1.5" marker-end="url(#ah)"/>
-  <rect x="30.54" y="59.5" width="180.92" height="31" rx="9" fill="#ffffff" stroke="#e5e5e5"/><text x="121.0" y="72.0" text-anchor="middle" font-size="9.5" fill="#525252" font-weight="500">↩ ask again ×3 —</text><text x="121.0" y="83.5" text-anchor="middle" font-size="9.5" fill="#525252" font-weight="500">U keeps no memory between tries</text>
-  <path class="edge" d="M 232.0 184 C 274.64 184.0, 300.0 207.36, 300 250.0" fill="none" stroke="#a3a3a3" stroke-width="1.5" marker-end="url(#ah)"/>
-  <path class="edge" d="M 341.0 264 C 408.03 264.0, 396.97 180.0, 464.0 180" fill="none" stroke="#a3a3a3" stroke-width="1.5" marker-end="url(#ah)"/>
-  <text x="402.5" y="210.0" text-anchor="middle" font-size="9.5" fill="#737373" font-style="italic" stroke="#ffffff" stroke-width="3" paint-order="stroke">least suspicious retry runs</text>
-  <path class="edge" d="M 341.0 280 C 380.45 280.0, 373.55 330.0, 413.0 330" fill="none" stroke="#a3a3a3" stroke-width="1.5" marker-end="url(#ah)"/>
-  <text x="309.0" y="329.0" text-anchor="middle" font-size="9.5" fill="#737373" font-style="italic" stroke="#ffffff" stroke-width="3" paint-order="stroke">retries look suspicious too</text>
-  <path class="edge" d="M 455 356.0 C 455 380.0, 455 362.0, 455 386.0" fill="none" stroke="#a3a3a3" stroke-width="1.5" marker-end="url(#ah)"/>
-  <text x="489.0" y="371.0" text-anchor="middle" font-size="9.5" fill="#737373" font-style="italic" stroke="#ffffff" stroke-width="3" paint-order="stroke">malicious</text>
-  <rect x="10.0" y="144.0" width="84" height="52" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/><text x="52" y="168" text-anchor="middle" font-size="16" font-weight="700" fill="#b91c1c">U</text><rect x="32.5" y="175" width="39.0" height="13" rx="6.5" fill="#ffffff" stroke="#dc2626" stroke-opacity="0.45"/><text x="52" y="184.5" text-anchor="middle" font-size="7.5" font-weight="600" letter-spacing="0.6" fill="#b91c1c">AGENT</text>
-  <rect x="148.0" y="144.0" width="84" height="52" rx="12" fill="#eef2f8" stroke="#2c3e60" stroke-width="1.5"/><text x="190" y="168" text-anchor="middle" font-size="16" font-weight="700" fill="#233554">T</text><rect x="166.3" y="175" width="47.4" height="13" rx="6.5" fill="#ffffff" stroke="#2c3e60" stroke-opacity="0.45"/><text x="190" y="184.5" text-anchor="middle" font-size="7.5" font-weight="600" letter-spacing="0.6" fill="#233554">MONITOR</text><text x="190" y="209.0" text-anchor="middle" font-size="9" fill="#737373" stroke="#ffffff" stroke-width="3" paint-order="stroke">scores each command</text>
-  <rect x="464.0" y="152.0" width="92" height="36" rx="10" fill="#fafafa" stroke="#d4d4d4" stroke-width="1.25"/><text x="510" y="173.5" text-anchor="middle" font-size="11" font-weight="600" fill="#525252">Executed</text>
-  <rect x="259.0" y="250.0" width="82" height="44" rx="10" fill="#fafafa" stroke="#d4d4d4" stroke-width="1.25"/><text x="300" y="268" text-anchor="middle" font-size="11" font-weight="600" fill="#525252">Compare</text><rect x="286" y="276.0" width="9" height="7" rx="1.5" fill="#ffffff" stroke="#525252" stroke-width="0.9"/><rect x="288.5" y="278.0" width="9" height="7" rx="1.5" fill="#ffffff" stroke="#525252" stroke-width="0.9"/><rect x="291" y="280.0" width="9" height="7" rx="1.5" fill="#ffffff" stroke="#525252" stroke-width="0.9"/><text x="308" y="286" font-size="9.5" font-weight="600" fill="#525252">×3</text>
-  <rect x="413.0" y="304.0" width="84" height="52" rx="12" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/><text x="455" y="328" text-anchor="middle" font-size="16" font-weight="700" fill="#0f766e">H</text><rect x="431.3" y="335" width="47.4" height="13" rx="6.5" fill="#ffffff" stroke="#0f766e" stroke-opacity="0.45"/><text x="455" y="344.5" text-anchor="middle" font-size="7.5" font-weight="600" letter-spacing="0.6" fill="#0f766e">AUDITOR</text>
-  <rect x="409.0" y="386.0" width="92" height="36" rx="10" fill="#fafafa" stroke="#d4d4d4" stroke-width="1.25"/><text x="455" y="407.5" text-anchor="middle" font-size="11" font-weight="600" fill="#525252">Blocked</text>
+  <defs><marker id="ah" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 8 4 L 0 8 z" fill="#c9c3b8"/></marker></defs>
+  <path d="M 94.0 170 C 118.3 170.0, 123.7 170.0, 148.0 170" fill="none" stroke="#c9c3b8" stroke-width="1.5" stroke-opacity="0.55" marker-end="url(#ah)"/>
+  <path class="edge" d="M 94.0 170 C 118.3 170.0, 123.7 170.0, 148.0 170" fill="none" stroke="#b87018" stroke-width="1.5"/>
+  <text x="121.0" y="162.0" text-anchor="middle" font-size="9.5" fill="#5a5a5a" font-style="italic" stroke="#ffffff" stroke-width="3" paint-order="stroke">command</text>
+  <path d="M 232.0 162 C 322.0 162, 374.0 162, 464.0 162" fill="none" stroke="#c9c3b8" stroke-width="1.5" stroke-opacity="0.55" marker-end="url(#ah)"/>
+  <path class="edge" d="M 232.0 162 C 322.0 162, 374.0 162, 464.0 162" fill="none" stroke="#b87018" stroke-width="1.5"/>
+  <rect x="305.42" y="153.0" width="85.16" height="18" rx="9" fill="#ffffff" stroke="#e8e5df"/><text x="348.0" y="165.2" text-anchor="middle" font-size="9.5" fill="#5a5a5a" font-weight="500">low suspicion</text>
+  <path d="M 190 144.0 C 190 52.0, 52 52.0, 52 144.0" fill="none" stroke="#c9c3b8" stroke-width="1.5" stroke-opacity="0.55" marker-end="url(#ah)"/>
+  <path class="edge" d="M 190 144.0 C 190 52.0, 52 52.0, 52 144.0" fill="none" stroke="#b87018" stroke-width="1.5"/>
+  <rect x="30.54" y="59.5" width="180.92" height="31" rx="9" fill="#ffffff" stroke="#e8e5df"/><text x="121.0" y="72.0" text-anchor="middle" font-size="9.5" fill="#5a5a5a" font-weight="500">↩ ask again ×3 —</text><text x="121.0" y="83.5" text-anchor="middle" font-size="9.5" fill="#5a5a5a" font-weight="500">U keeps no memory between tries</text>
+  <path d="M 232.0 184 C 274.64 184.0, 300.0 207.36, 300 250.0" fill="none" stroke="#c9c3b8" stroke-width="1.5" stroke-opacity="0.55" marker-end="url(#ah)"/>
+  <path class="edge" d="M 232.0 184 C 274.64 184.0, 300.0 207.36, 300 250.0" fill="none" stroke="#b87018" stroke-width="1.5"/>
+  <path d="M 341.0 264 C 408.03 264.0, 396.97 180.0, 464.0 180" fill="none" stroke="#c9c3b8" stroke-width="1.5" stroke-opacity="0.55" marker-end="url(#ah)"/>
+  <path class="edge" d="M 341.0 264 C 408.03 264.0, 396.97 180.0, 464.0 180" fill="none" stroke="#b87018" stroke-width="1.5"/>
+  <text x="402.5" y="210.0" text-anchor="middle" font-size="9.5" fill="#5a5a5a" font-style="italic" stroke="#ffffff" stroke-width="3" paint-order="stroke">least suspicious retry runs</text>
+  <path d="M 341.0 280 C 380.45 280.0, 373.55 330.0, 413.0 330" fill="none" stroke="#c9c3b8" stroke-width="1.5" stroke-opacity="0.55" marker-end="url(#ah)"/>
+  <path class="edge" d="M 341.0 280 C 380.45 280.0, 373.55 330.0, 413.0 330" fill="none" stroke="#b87018" stroke-width="1.5"/>
+  <text x="309.0" y="329.0" text-anchor="middle" font-size="9.5" fill="#5a5a5a" font-style="italic" stroke="#ffffff" stroke-width="3" paint-order="stroke">retries look suspicious too</text>
+  <path d="M 455 356.0 C 455 380.0, 455 362.0, 455 386.0" fill="none" stroke="#c9c3b8" stroke-width="1.5" stroke-opacity="0.55" marker-end="url(#ah)"/>
+  <path class="edge" d="M 455 356.0 C 455 380.0, 455 362.0, 455 386.0" fill="none" stroke="#b87018" stroke-width="1.5"/>
+  <text x="489.0" y="371.0" text-anchor="middle" font-size="9.5" fill="#5a5a5a" font-style="italic" stroke="#ffffff" stroke-width="3" paint-order="stroke">malicious</text>
+  <rect x="10.0" y="144.0" width="84" height="52" rx="12" fill="#ffffff" stroke="#e8e5df" stroke-width="1.5"/><text x="52" y="168" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a1a">U</text><rect x="32.5" y="175" width="39.0" height="13" rx="6.5" fill="#faf8f3" stroke="#e8e5df"/><text x="52" y="184.5" text-anchor="middle" font-size="7.5" font-weight="600" letter-spacing="0.6" fill="#5a5a5a">AGENT</text>
+  <rect x="148.0" y="144.0" width="84" height="52" rx="12" fill="#ffffff" stroke="#e8e5df" stroke-width="1.5"/><text x="190" y="168" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a1a">T</text><rect x="166.3" y="175" width="47.4" height="13" rx="6.5" fill="#faf8f3" stroke="#e8e5df"/><text x="190" y="184.5" text-anchor="middle" font-size="7.5" font-weight="600" letter-spacing="0.6" fill="#5a5a5a">MONITOR</text><text x="190" y="209.0" text-anchor="middle" font-size="9" fill="#5a5a5a" stroke="#ffffff" stroke-width="3" paint-order="stroke">scores each command</text>
+  <rect x="464.0" y="152.0" width="92" height="36" rx="10" fill="#faf8f3" stroke="#e8e5df" stroke-width="1.25"/><text x="510" y="173.5" text-anchor="middle" font-size="11" font-weight="600" fill="#5a5a5a">Executed</text>
+  <rect x="259.0" y="250.0" width="82" height="44" rx="10" fill="#faf8f3" stroke="#e8e5df" stroke-width="1.25"/><text x="300" y="268" text-anchor="middle" font-size="11" font-weight="600" fill="#5a5a5a">Compare</text><rect x="286" y="276.0" width="9" height="7" rx="1.5" fill="#ffffff" stroke="#5a5a5a" stroke-width="0.9"/><rect x="288.5" y="278.0" width="9" height="7" rx="1.5" fill="#ffffff" stroke="#5a5a5a" stroke-width="0.9"/><rect x="291" y="280.0" width="9" height="7" rx="1.5" fill="#ffffff" stroke="#5a5a5a" stroke-width="0.9"/><text x="308" y="286" font-size="9.5" font-weight="600" fill="#5a5a5a">×3</text>
+  <rect x="413.0" y="304.0" width="84" height="52" rx="12" fill="#ffffff" stroke="#e8e5df" stroke-width="1.5"/><text x="455" y="328" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a1a">H</text><rect x="431.3" y="335" width="47.4" height="13" rx="6.5" fill="#faf8f3" stroke="#e8e5df"/><text x="455" y="344.5" text-anchor="middle" font-size="7.5" font-weight="600" letter-spacing="0.6" fill="#5a5a5a">AUDITOR</text>
+  <rect x="409.0" y="386.0" width="92" height="36" rx="10" fill="#faf8f3" stroke="#e8e5df" stroke-width="1.25"/><text x="455" y="407.5" text-anchor="middle" font-size="11" font-weight="600" fill="#5a5a5a">Blocked</text>
   </svg>
-</div>
+</div></div>
 </body>
 </html>
