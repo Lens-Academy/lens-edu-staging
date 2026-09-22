@@ -7,7 +7,7 @@ authors:
   - Guillaume Corlouer
 source_url: https://github.com/iliad-team/iliad-intensive/blob/d2792cbf53158db2a5729ff7d431a53869b64624/tex/training-dynamics/main.tex
 upstream_commit: 'd2792cbf53158db2a5729ff7d431a53869b64624'
-reading_minutes: 8
+reading_minutes: 20
 tutor_minutes: 5
 ---
 
@@ -17,7 +17,16 @@ Today is **B.4, Training Dynamics**, written by Guillaume Corlouer for the Iliad
 
 > "The goal of this day is to present a toy model perspective on the training dynamics of deep neural networks. The student should learn about the AI safety motivations of studying training dynamics. One motivation is that understanding the implicit biases of training deep neural networks is a central problem behind AI alignment. This is because implicit biases influence the generalization behaviour of a neural network including for example if that neural network will generalize in a helpful or harmful way out of distribution. Another motivation is interpretability. One key lesson of the day is that SGD learns from data in a structured way. For example in deep linear neural networks, under small initialization, it will first learn the features that explain the largest fraction of data covariance."
 
-The learning outcomes are at the top of the worksheet, on the next page.
+The learning outcomes are at the top of the worksheet, on the next page. First, Guillaume's two short recorded lectures from Iliad (about six minutes each).
+
+#### Video
+source:: [[../video_transcripts/iliad-the-dumbest-neural-network-worth-studying]]
+
+#### Video
+source:: [[../video_transcripts/iliad-uncovering-the-hidden-biases-of-deep-learning]]
+
+#### Text
+content::
 
 \## Today's path
 
