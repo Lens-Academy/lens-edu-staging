@@ -1,0 +1,3882 @@
+[
+  {
+    "text": "One",
+    "start": "0:00.00"
+  },
+  {
+    "text": "of",
+    "start": "0:00.00"
+  },
+  {
+    "text": "the",
+    "start": "0:00.00"
+  },
+  {
+    "text": "simplest",
+    "start": "0:00.00"
+  },
+  {
+    "text": "toy",
+    "start": "0:00.00"
+  },
+  {
+    "text": "model",
+    "start": "0:00.00"
+  },
+  {
+    "text": "that",
+    "start": "0:00.00"
+  },
+  {
+    "text": "I",
+    "start": "0:00.00"
+  },
+  {
+    "text": "teach",
+    "start": "0:00.00"
+  },
+  {
+    "text": "about",
+    "start": "0:00.00"
+  },
+  {
+    "text": "at",
+    "start": "0:00.00"
+  },
+  {
+    "text": "Iliad",
+    "start": "0:00.00"
+  },
+  {
+    "text": "are",
+    "start": "0:03.57"
+  },
+  {
+    "text": "deep",
+    "start": "0:03.57"
+  },
+  {
+    "text": "linear",
+    "start": "0:03.57"
+  },
+  {
+    "text": "networks.",
+    "start": "0:03.57"
+  },
+  {
+    "text": "So",
+    "start": "0:05.70"
+  },
+  {
+    "text": "these",
+    "start": "0:05.70"
+  },
+  {
+    "text": "are",
+    "start": "0:05.70"
+  },
+  {
+    "text": "linear",
+    "start": "0:05.70"
+  },
+  {
+    "text": "networks,",
+    "start": "0:05.70"
+  },
+  {
+    "text": "which",
+    "start": "0:07.43"
+  },
+  {
+    "text": "have",
+    "start": "0:07.43"
+  },
+  {
+    "text": "depth,",
+    "start": "0:07.43"
+  },
+  {
+    "text": "they",
+    "start": "0:07.43"
+  },
+  {
+    "text": "are",
+    "start": "0:07.43"
+  },
+  {
+    "text": "deep,",
+    "start": "0:07.43"
+  },
+  {
+    "text": "so",
+    "start": "0:10.03"
+  },
+  {
+    "text": "they",
+    "start": "0:10.03"
+  },
+  {
+    "text": "have",
+    "start": "0:10.03"
+  },
+  {
+    "text": "multiple",
+    "start": "0:10.03"
+  },
+  {
+    "text": "layers.",
+    "start": "0:10.03"
+  },
+  {
+    "text": "But",
+    "start": "0:12.07"
+  },
+  {
+    "text": "the",
+    "start": "0:12.07"
+  },
+  {
+    "text": "activation",
+    "start": "0:12.07"
+  },
+  {
+    "text": "function",
+    "start": "0:12.07"
+  },
+  {
+    "text": "are",
+    "start": "0:12.07"
+  },
+  {
+    "text": "all",
+    "start": "0:12.07"
+  },
+  {
+    "text": "the",
+    "start": "0:12.07"
+  },
+  {
+    "text": "identity.",
+    "start": "0:12.07"
+  },
+  {
+    "text": "There",
+    "start": "0:15.27"
+  },
+  {
+    "text": "is",
+    "start": "0:15.27"
+  },
+  {
+    "text": "no",
+    "start": "0:15.27"
+  },
+  {
+    "text": "nonlinearity",
+    "start": "0:15.27"
+  },
+  {
+    "text": "so",
+    "start": "0:16.17"
+  },
+  {
+    "text": "they",
+    "start": "0:16.17"
+  },
+  {
+    "text": "are",
+    "start": "0:16.17"
+  },
+  {
+    "text": "very",
+    "start": "0:16.17"
+  },
+  {
+    "text": "limited",
+    "start": "0:16.17"
+  },
+  {
+    "text": "in",
+    "start": "0:16.17"
+  },
+  {
+    "text": "their",
+    "start": "0:16.17"
+  },
+  {
+    "text": "expressivity,",
+    "start": "0:17.93"
+  },
+  {
+    "text": "they",
+    "start": "0:17.93"
+  },
+  {
+    "text": "only",
+    "start": "0:17.93"
+  },
+  {
+    "text": "learn",
+    "start": "0:17.93"
+  },
+  {
+    "text": "linear",
+    "start": "0:17.93"
+  },
+  {
+    "text": "function.",
+    "start": "0:17.93"
+  },
+  {
+    "text": "But",
+    "start": "0:20.77"
+  },
+  {
+    "text": "they",
+    "start": "0:20.77"
+  },
+  {
+    "text": "have,",
+    "start": "0:20.77"
+  },
+  {
+    "text": "in",
+    "start": "0:20.77"
+  },
+  {
+    "text": "fact,",
+    "start": "0:20.77"
+  },
+  {
+    "text": "already",
+    "start": "0:20.77"
+  },
+  {
+    "text": "quite",
+    "start": "0:22.43"
+  },
+  {
+    "text": "complex",
+    "start": "0:22.43"
+  },
+  {
+    "text": "and",
+    "start": "0:22.43"
+  },
+  {
+    "text": "intricate",
+    "start": "0:22.43"
+  },
+  {
+    "text": "landscape",
+    "start": "0:22.43"
+  },
+  {
+    "text": "and",
+    "start": "0:22.43"
+  },
+  {
+    "text": "dynamics.",
+    "start": "0:26.63"
+  },
+  {
+    "text": "It",
+    "start": "0:28.43"
+  },
+  {
+    "text": "makes",
+    "start": "0:28.43"
+  },
+  {
+    "text": "it",
+    "start": "0:28.43"
+  },
+  {
+    "text": "easier",
+    "start": "0:28.43"
+  },
+  {
+    "text": "because",
+    "start": "0:28.43"
+  },
+  {
+    "text": "non-linearity",
+    "start": "0:28.43"
+  },
+  {
+    "text": "is",
+    "start": "0:28.43"
+  },
+  {
+    "text": "cursed",
+    "start": "0:28.43"
+  },
+  {
+    "text": "to",
+    "start": "0:28.43"
+  },
+  {
+    "text": "study",
+    "start": "0:28.43"
+  },
+  {
+    "text": "mathematically,",
+    "start": "0:32.50"
+  },
+  {
+    "text": "and",
+    "start": "0:32.50"
+  },
+  {
+    "text": "linearity",
+    "start": "0:32.50"
+  },
+  {
+    "text": "is",
+    "start": "0:32.50"
+  },
+  {
+    "text": "great",
+    "start": "0:35.37"
+  },
+  {
+    "text": "because",
+    "start": "0:35.37"
+  },
+  {
+    "text": "we",
+    "start": "0:35.37"
+  },
+  {
+    "text": "can",
+    "start": "0:35.37"
+  },
+  {
+    "text": "do",
+    "start": "0:35.37"
+  },
+  {
+    "text": "linear",
+    "start": "0:35.37"
+  },
+  {
+    "text": "algebra.",
+    "start": "0:35.37"
+  },
+  {
+    "text": "We",
+    "start": "0:37.17"
+  },
+  {
+    "text": "can",
+    "start": "0:37.17"
+  },
+  {
+    "text": "just",
+    "start": "0:37.17"
+  },
+  {
+    "text": "do",
+    "start": "0:37.17"
+  },
+  {
+    "text": "a",
+    "start": "0:37.17"
+  },
+  {
+    "text": "lot",
+    "start": "0:37.17"
+  },
+  {
+    "text": "of",
+    "start": "0:37.17"
+  },
+  {
+    "text": "math",
+    "start": "0:37.17"
+  },
+  {
+    "text": "when",
+    "start": "0:37.17"
+  },
+  {
+    "text": "things",
+    "start": "0:37.17"
+  },
+  {
+    "text": "are",
+    "start": "0:37.17"
+  },
+  {
+    "text": "linear.",
+    "start": "0:37.17"
+  },
+  {
+    "text": "There",
+    "start": "0:40.43"
+  },
+  {
+    "text": "are",
+    "start": "0:40.43"
+  },
+  {
+    "text": "two",
+    "start": "0:40.43"
+  },
+  {
+    "text": "different",
+    "start": "0:40.43"
+  },
+  {
+    "text": "kinds",
+    "start": "0:41.90"
+  },
+  {
+    "text": "of",
+    "start": "0:41.90"
+  },
+  {
+    "text": "analysis",
+    "start": "0:41.90"
+  },
+  {
+    "text": "you",
+    "start": "0:41.90"
+  },
+  {
+    "text": "can",
+    "start": "0:41.90"
+  },
+  {
+    "text": "do",
+    "start": "0:41.90"
+  },
+  {
+    "text": "One",
+    "start": "0:43.37"
+  },
+  {
+    "text": "is",
+    "start": "0:43.37"
+  },
+  {
+    "text": "a",
+    "start": "0:43.37"
+  },
+  {
+    "text": "static",
+    "start": "0:43.37"
+  },
+  {
+    "text": "analysis",
+    "start": "0:43.37"
+  },
+  {
+    "text": "where",
+    "start": "0:43.37"
+  },
+  {
+    "text": "you",
+    "start": "0:43.37"
+  },
+  {
+    "text": "try",
+    "start": "0:43.37"
+  },
+  {
+    "text": "to",
+    "start": "0:43.37"
+  },
+  {
+    "text": "understand",
+    "start": "0:43.37"
+  },
+  {
+    "text": "the",
+    "start": "0:46.13"
+  },
+  {
+    "text": "lost",
+    "start": "0:46.13"
+  },
+  {
+    "text": "landscape",
+    "start": "0:46.13"
+  },
+  {
+    "text": "of",
+    "start": "0:46.13"
+  },
+  {
+    "text": "the",
+    "start": "0:46.13"
+  },
+  {
+    "text": "deep",
+    "start": "0:46.13"
+  },
+  {
+    "text": "linear",
+    "start": "0:46.13"
+  },
+  {
+    "text": "networks.",
+    "start": "0:46.13"
+  },
+  {
+    "text": "And",
+    "start": "0:49.20"
+  },
+  {
+    "text": "in",
+    "start": "0:49.20"
+  },
+  {
+    "text": "fact,",
+    "start": "0:49.20"
+  },
+  {
+    "text": "the",
+    "start": "0:49.20"
+  },
+  {
+    "text": "lost",
+    "start": "0:49.20"
+  },
+  {
+    "text": "landscape",
+    "start": "0:49.20"
+  },
+  {
+    "text": "has",
+    "start": "0:49.20"
+  },
+  {
+    "text": "already",
+    "start": "0:49.20"
+  },
+  {
+    "text": "some",
+    "start": "0:52.03"
+  },
+  {
+    "text": "of",
+    "start": "0:52.03"
+  },
+  {
+    "text": "the",
+    "start": "0:52.03"
+  },
+  {
+    "text": "complexity",
+    "start": "0:52.03"
+  },
+  {
+    "text": "that",
+    "start": "0:52.03"
+  },
+  {
+    "text": "we",
+    "start": "0:52.03"
+  },
+  {
+    "text": "can",
+    "start": "0:52.03"
+  },
+  {
+    "text": "find",
+    "start": "0:52.03"
+  },
+  {
+    "text": "in",
+    "start": "0:52.03"
+  },
+  {
+    "text": "the",
+    "start": "0:52.03"
+  },
+  {
+    "text": "loss",
+    "start": "0:54.07"
+  },
+  {
+    "text": "landscape",
+    "start": "0:54.07"
+  },
+  {
+    "text": "of",
+    "start": "0:54.07"
+  },
+  {
+    "text": "nonlinear",
+    "start": "0:54.07"
+  },
+  {
+    "text": "neural",
+    "start": "0:54.07"
+  },
+  {
+    "text": "network.",
+    "start": "0:54.07"
+  },
+  {
+    "text": "So",
+    "start": "0:56.30"
+  },
+  {
+    "text": "the",
+    "start": "0:56.30"
+  },
+  {
+    "text": "lost",
+    "start": "0:56.30"
+  },
+  {
+    "text": "landscape",
+    "start": "0:56.30"
+  },
+  {
+    "text": "in",
+    "start": "0:56.30"
+  },
+  {
+    "text": "parameter",
+    "start": "0:56.30"
+  },
+  {
+    "text": "space",
+    "start": "0:56.30"
+  },
+  {
+    "text": "is",
+    "start": "0:56.30"
+  },
+  {
+    "text": "non-convex,",
+    "start": "0:56.30"
+  },
+  {
+    "text": "and",
+    "start": "0:56.30"
+  },
+  {
+    "text": "they",
+    "start": "1:01.63"
+  },
+  {
+    "text": "have",
+    "start": "1:01.63"
+  },
+  {
+    "text": "global",
+    "start": "1:01.63"
+  },
+  {
+    "text": "minima,",
+    "start": "1:01.63"
+  },
+  {
+    "text": "and",
+    "start": "1:04.03"
+  },
+  {
+    "text": "they",
+    "start": "1:04.03"
+  },
+  {
+    "text": "have",
+    "start": "1:04.03"
+  },
+  {
+    "text": "saddle",
+    "start": "1:04.03"
+  },
+  {
+    "text": "points",
+    "start": "1:04.03"
+  },
+  {
+    "text": "as",
+    "start": "1:04.03"
+  },
+  {
+    "text": "well.",
+    "start": "1:04.03"
+  },
+  {
+    "text": "And",
+    "start": "1:06.53"
+  },
+  {
+    "text": "mathematically",
+    "start": "1:06.53"
+  },
+  {
+    "text": "we",
+    "start": "1:06.53"
+  },
+  {
+    "text": "can",
+    "start": "1:06.53"
+  },
+  {
+    "text": "show",
+    "start": "1:06.53"
+  },
+  {
+    "text": "also",
+    "start": "1:06.53"
+  },
+  {
+    "text": "that",
+    "start": "1:06.53"
+  },
+  {
+    "text": "they",
+    "start": "1:08.33"
+  },
+  {
+    "text": "don't",
+    "start": "1:08.33"
+  },
+  {
+    "text": "have",
+    "start": "1:08.33"
+  },
+  {
+    "text": "any",
+    "start": "1:08.33"
+  },
+  {
+    "text": "spurious",
+    "start": "1:08.33"
+  },
+  {
+    "text": "local",
+    "start": "1:08.33"
+  },
+  {
+    "text": "minima,",
+    "start": "1:08.33"
+  },
+  {
+    "text": "meaning",
+    "start": "1:11.23"
+  },
+  {
+    "text": "that",
+    "start": "1:11.23"
+  },
+  {
+    "text": "all",
+    "start": "1:11.97"
+  },
+  {
+    "text": "the",
+    "start": "1:11.97"
+  },
+  {
+    "text": "critical",
+    "start": "1:11.97"
+  },
+  {
+    "text": "points,",
+    "start": "1:11.97"
+  },
+  {
+    "text": "all",
+    "start": "1:11.97"
+  },
+  {
+    "text": "the",
+    "start": "1:11.97"
+  },
+  {
+    "text": "points",
+    "start": "1:11.97"
+  },
+  {
+    "text": "at",
+    "start": "1:11.97"
+  },
+  {
+    "text": "which",
+    "start": "1:11.97"
+  },
+  {
+    "text": "the",
+    "start": "1:11.97"
+  },
+  {
+    "text": "gradient",
+    "start": "1:14.50"
+  },
+  {
+    "text": "of",
+    "start": "1:14.50"
+  },
+  {
+    "text": "the",
+    "start": "1:14.50"
+  },
+  {
+    "text": "loss",
+    "start": "1:14.50"
+  },
+  {
+    "text": "is",
+    "start": "1:14.50"
+  },
+  {
+    "text": "zero,",
+    "start": "1:14.50"
+  },
+  {
+    "text": "are",
+    "start": "1:14.50"
+  },
+  {
+    "text": "either",
+    "start": "1:14.50"
+  },
+  {
+    "text": "global",
+    "start": "1:17.37"
+  },
+  {
+    "text": "minima",
+    "start": "1:17.37"
+  },
+  {
+    "text": "or",
+    "start": "1:17.37"
+  },
+  {
+    "text": "saddle",
+    "start": "1:17.37"
+  },
+  {
+    "text": "points.",
+    "start": "1:17.37"
+  },
+  {
+    "text": "Yeah,",
+    "start": "1:20.93"
+  },
+  {
+    "text": "and",
+    "start": "1:20.93"
+  },
+  {
+    "text": "you",
+    "start": "1:20.93"
+  },
+  {
+    "text": "can",
+    "start": "1:20.93"
+  },
+  {
+    "text": "study",
+    "start": "1:20.93"
+  },
+  {
+    "text": "the",
+    "start": "1:22.17"
+  },
+  {
+    "text": "geometry",
+    "start": "1:22.17"
+  },
+  {
+    "text": "of",
+    "start": "1:22.17"
+  },
+  {
+    "text": "the",
+    "start": "1:22.17"
+  },
+  {
+    "text": "lost",
+    "start": "1:22.17"
+  },
+  {
+    "text": "landscape,",
+    "start": "1:22.17"
+  },
+  {
+    "text": "the",
+    "start": "1:22.17"
+  },
+  {
+    "text": "symmetries",
+    "start": "1:22.17"
+  },
+  {
+    "text": "of",
+    "start": "1:22.17"
+  },
+  {
+    "text": "the",
+    "start": "1:22.17"
+  },
+  {
+    "text": "deep",
+    "start": "1:26.83"
+  },
+  {
+    "text": "linear",
+    "start": "1:26.83"
+  },
+  {
+    "text": "networks,",
+    "start": "1:26.83"
+  },
+  {
+    "text": "they",
+    "start": "1:26.83"
+  },
+  {
+    "text": "have",
+    "start": "1:26.83"
+  },
+  {
+    "text": "a",
+    "start": "1:26.83"
+  },
+  {
+    "text": "lot",
+    "start": "1:26.83"
+  },
+  {
+    "text": "of",
+    "start": "1:26.83"
+  },
+  {
+    "text": "like",
+    "start": "1:26.83"
+  },
+  {
+    "text": "internal",
+    "start": "1:26.83"
+  },
+  {
+    "text": "symmetries,",
+    "start": "1:29.20"
+  },
+  {
+    "text": "they",
+    "start": "1:29.20"
+  },
+  {
+    "text": "are",
+    "start": "1:29.20"
+  },
+  {
+    "text": "symmetric",
+    "start": "1:29.20"
+  },
+  {
+    "text": "You",
+    "start": "1:30.87"
+  },
+  {
+    "text": "can",
+    "start": "1:30.87"
+  },
+  {
+    "text": "rotate",
+    "start": "1:30.87"
+  },
+  {
+    "text": "the",
+    "start": "1:30.87"
+  },
+  {
+    "text": "weights,",
+    "start": "1:30.87"
+  },
+  {
+    "text": "you",
+    "start": "1:34.67"
+  },
+  {
+    "text": "can",
+    "start": "1:34.67"
+  },
+  {
+    "text": "rescale",
+    "start": "1:34.67"
+  },
+  {
+    "text": "them,",
+    "start": "1:34.67"
+  },
+  {
+    "text": "and",
+    "start": "1:34.67"
+  },
+  {
+    "text": "the",
+    "start": "1:34.67"
+  },
+  {
+    "text": "function",
+    "start": "1:34.67"
+  },
+  {
+    "text": "is",
+    "start": "1:34.67"
+  },
+  {
+    "text": "invariant",
+    "start": "1:37.77"
+  },
+  {
+    "text": "under",
+    "start": "1:37.77"
+  },
+  {
+    "text": "all",
+    "start": "1:37.77"
+  },
+  {
+    "text": "of",
+    "start": "1:37.77"
+  },
+  {
+    "text": "these",
+    "start": "1:37.77"
+  },
+  {
+    "text": "symmetries.",
+    "start": "1:37.77"
+  },
+  {
+    "text": "Then",
+    "start": "1:40.03"
+  },
+  {
+    "text": "you",
+    "start": "1:40.03"
+  },
+  {
+    "text": "can",
+    "start": "1:40.03"
+  },
+  {
+    "text": "try",
+    "start": "1:40.03"
+  },
+  {
+    "text": "to",
+    "start": "1:40.03"
+  },
+  {
+    "text": "think",
+    "start": "1:40.03"
+  },
+  {
+    "text": "about,",
+    "start": "1:40.03"
+  },
+  {
+    "text": "oh,",
+    "start": "1:40.03"
+  },
+  {
+    "text": "let's",
+    "start": "1:40.03"
+  },
+  {
+    "text": "try",
+    "start": "1:40.03"
+  },
+  {
+    "text": "to",
+    "start": "1:40.03"
+  },
+  {
+    "text": "quotient",
+    "start": "1:40.03"
+  },
+  {
+    "text": "out",
+    "start": "1:43.37"
+  },
+  {
+    "text": "all",
+    "start": "1:43.37"
+  },
+  {
+    "text": "of",
+    "start": "1:43.37"
+  },
+  {
+    "text": "these",
+    "start": "1:43.37"
+  },
+  {
+    "text": "symmetries",
+    "start": "1:43.37"
+  },
+  {
+    "text": "and",
+    "start": "1:43.37"
+  },
+  {
+    "text": "simplify",
+    "start": "1:44.67"
+  },
+  {
+    "text": "a",
+    "start": "1:44.67"
+  },
+  {
+    "text": "lot",
+    "start": "1:44.67"
+  },
+  {
+    "text": "the",
+    "start": "1:44.67"
+  },
+  {
+    "text": "lost",
+    "start": "1:44.67"
+  },
+  {
+    "text": "landscape.",
+    "start": "1:44.67"
+  },
+  {
+    "text": "Yeah,",
+    "start": "1:46.63"
+  },
+  {
+    "text": "there's",
+    "start": "1:46.63"
+  },
+  {
+    "text": "a",
+    "start": "1:46.63"
+  },
+  {
+    "text": "lot",
+    "start": "1:46.63"
+  },
+  {
+    "text": "of",
+    "start": "1:46.63"
+  },
+  {
+    "text": "rich",
+    "start": "1:46.63"
+  },
+  {
+    "text": "math",
+    "start": "1:46.63"
+  },
+  {
+    "text": "behind",
+    "start": "1:46.63"
+  },
+  {
+    "text": "this,",
+    "start": "1:46.63"
+  },
+  {
+    "text": "representation",
+    "start": "1:49.17"
+  },
+  {
+    "text": "theory,",
+    "start": "1:49.17"
+  },
+  {
+    "text": "algebraic",
+    "start": "1:51.03"
+  },
+  {
+    "text": "geometry,",
+    "start": "1:51.03"
+  },
+  {
+    "text": "and",
+    "start": "1:52.27"
+  },
+  {
+    "text": "you",
+    "start": "1:52.27"
+  },
+  {
+    "text": "are",
+    "start": "1:52.27"
+  },
+  {
+    "text": "only",
+    "start": "1:52.27"
+  },
+  {
+    "text": "looking",
+    "start": "1:52.27"
+  },
+  {
+    "text": "at",
+    "start": "1:52.27"
+  },
+  {
+    "text": "the",
+    "start": "1:52.27"
+  },
+  {
+    "text": "geometry,",
+    "start": "1:52.27"
+  },
+  {
+    "text": "We",
+    "start": "1:54.27"
+  },
+  {
+    "text": "have",
+    "start": "1:54.27"
+  },
+  {
+    "text": "not",
+    "start": "1:54.27"
+  },
+  {
+    "text": "even",
+    "start": "1:54.27"
+  },
+  {
+    "text": "done",
+    "start": "1:54.27"
+  },
+  {
+    "text": "any",
+    "start": "1:54.27"
+  },
+  {
+    "text": "dynamics",
+    "start": "1:54.27"
+  },
+  {
+    "text": "yet.",
+    "start": "1:54.27"
+  },
+  {
+    "text": "One",
+    "start": "1:56.40"
+  },
+  {
+    "text": "particular",
+    "start": "1:56.40"
+  },
+  {
+    "text": "interesting",
+    "start": "1:56.40"
+  },
+  {
+    "text": "aspect",
+    "start": "1:56.40"
+  },
+  {
+    "text": "of",
+    "start": "1:56.40"
+  },
+  {
+    "text": "studying",
+    "start": "1:56.40"
+  },
+  {
+    "text": "the",
+    "start": "1:56.40"
+  },
+  {
+    "text": "learning",
+    "start": "1:56.40"
+  },
+  {
+    "text": "dynamics",
+    "start": "1:59.97"
+  },
+  {
+    "text": "of",
+    "start": "1:59.97"
+  },
+  {
+    "text": "deep",
+    "start": "1:59.97"
+  },
+  {
+    "text": "linear",
+    "start": "1:59.97"
+  },
+  {
+    "text": "networks",
+    "start": "1:59.97"
+  },
+  {
+    "text": "is",
+    "start": "1:59.97"
+  },
+  {
+    "text": "that",
+    "start": "1:59.97"
+  },
+  {
+    "text": "you",
+    "start": "1:59.97"
+  },
+  {
+    "text": "can",
+    "start": "1:59.97"
+  },
+  {
+    "text": "understand",
+    "start": "1:59.97"
+  },
+  {
+    "text": "how",
+    "start": "2:03.67"
+  },
+  {
+    "text": "does",
+    "start": "2:03.67"
+  },
+  {
+    "text": "initialization",
+    "start": "2:03.67"
+  },
+  {
+    "text": "and",
+    "start": "2:03.67"
+  },
+  {
+    "text": "depth",
+    "start": "2:03.67"
+  },
+  {
+    "text": "affect",
+    "start": "2:03.67"
+  },
+  {
+    "text": "training.",
+    "start": "2:03.67"
+  },
+  {
+    "text": "Typically,",
+    "start": "2:07.27"
+  },
+  {
+    "text": "if",
+    "start": "2:07.27"
+  },
+  {
+    "text": "you",
+    "start": "2:07.27"
+  },
+  {
+    "text": "initialize",
+    "start": "2:07.27"
+  },
+  {
+    "text": "your",
+    "start": "2:09.07"
+  },
+  {
+    "text": "weight",
+    "start": "2:09.07"
+  },
+  {
+    "text": "with",
+    "start": "2:09.07"
+  },
+  {
+    "text": "a",
+    "start": "2:09.07"
+  },
+  {
+    "text": "large",
+    "start": "2:09.07"
+  },
+  {
+    "text": "variance,",
+    "start": "2:09.07"
+  },
+  {
+    "text": "you",
+    "start": "2:13.07"
+  },
+  {
+    "text": "are",
+    "start": "2:13.07"
+  },
+  {
+    "text": "what",
+    "start": "2:13.07"
+  },
+  {
+    "text": "people",
+    "start": "2:13.07"
+  },
+  {
+    "text": "call",
+    "start": "2:13.07"
+  },
+  {
+    "text": "sometimes",
+    "start": "2:13.07"
+  },
+  {
+    "text": "the",
+    "start": "2:15.57"
+  },
+  {
+    "text": "lazy",
+    "start": "2:15.57"
+  },
+  {
+    "text": "regime",
+    "start": "2:15.57"
+  },
+  {
+    "text": "or",
+    "start": "2:15.57"
+  },
+  {
+    "text": "the",
+    "start": "2:15.57"
+  },
+  {
+    "text": "NTK",
+    "start": "2:15.57"
+  },
+  {
+    "text": "regime,",
+    "start": "2:15.57"
+  },
+  {
+    "text": "which",
+    "start": "2:18.33"
+  },
+  {
+    "text": "essentially",
+    "start": "2:18.33"
+  },
+  {
+    "text": "is",
+    "start": "2:18.33"
+  },
+  {
+    "text": "a",
+    "start": "2:18.33"
+  },
+  {
+    "text": "regime",
+    "start": "2:18.33"
+  },
+  {
+    "text": "that",
+    "start": "2:18.33"
+  },
+  {
+    "text": "is",
+    "start": "2:18.33"
+  },
+  {
+    "text": "linear",
+    "start": "2:18.33"
+  },
+  {
+    "text": "when",
+    "start": "2:18.33"
+  },
+  {
+    "text": "the",
+    "start": "2:18.33"
+  },
+  {
+    "text": "training",
+    "start": "2:21.10"
+  },
+  {
+    "text": "dynamics",
+    "start": "2:21.10"
+  },
+  {
+    "text": "is",
+    "start": "2:21.10"
+  },
+  {
+    "text": "completely",
+    "start": "2:21.10"
+  },
+  {
+    "text": "linear,",
+    "start": "2:21.10"
+  },
+  {
+    "text": "meaning",
+    "start": "2:21.10"
+  },
+  {
+    "text": "gradient",
+    "start": "2:23.37"
+  },
+  {
+    "text": "descent",
+    "start": "2:23.37"
+  },
+  {
+    "text": "in",
+    "start": "2:23.37"
+  },
+  {
+    "text": "function",
+    "start": "2:23.37"
+  },
+  {
+    "text": "space",
+    "start": "2:23.37"
+  },
+  {
+    "text": "is",
+    "start": "2:23.37"
+  },
+  {
+    "text": "an",
+    "start": "2:23.37"
+  },
+  {
+    "text": "ordinary",
+    "start": "2:25.33"
+  },
+  {
+    "text": "linear",
+    "start": "2:25.33"
+  },
+  {
+    "text": "differential",
+    "start": "2:25.33"
+  },
+  {
+    "text": "equation,",
+    "start": "2:25.33"
+  },
+  {
+    "text": "your",
+    "start": "2:28.63"
+  },
+  {
+    "text": "NTK,",
+    "start": "2:28.63"
+  },
+  {
+    "text": "your",
+    "start": "2:28.63"
+  },
+  {
+    "text": "neural",
+    "start": "2:28.63"
+  },
+  {
+    "text": "tension",
+    "start": "2:28.63"
+  },
+  {
+    "text": "kernel,",
+    "start": "2:28.63"
+  },
+  {
+    "text": "is",
+    "start": "2:28.63"
+  },
+  {
+    "text": "frozen",
+    "start": "2:28.63"
+  },
+  {
+    "text": "at",
+    "start": "2:28.63"
+  },
+  {
+    "text": "initialization,",
+    "start": "2:31.80"
+  },
+  {
+    "text": "and",
+    "start": "2:31.80"
+  },
+  {
+    "text": "things",
+    "start": "2:31.80"
+  },
+  {
+    "text": "behave",
+    "start": "2:31.80"
+  },
+  {
+    "text": "like...",
+    "start": "2:31.80"
+  },
+  {
+    "text": "You",
+    "start": "2:33.67"
+  },
+  {
+    "text": "basically,",
+    "start": "2:33.67"
+  },
+  {
+    "text": "essentially,",
+    "start": "2:33.67"
+  },
+  {
+    "text": "you",
+    "start": "2:33.67"
+  },
+  {
+    "text": "already",
+    "start": "2:33.67"
+  },
+  {
+    "text": "have",
+    "start": "2:33.67"
+  },
+  {
+    "text": "the",
+    "start": "2:33.67"
+  },
+  {
+    "text": "direction",
+    "start": "2:33.67"
+  },
+  {
+    "text": "of",
+    "start": "2:36.40"
+  },
+  {
+    "text": "the",
+    "start": "2:36.40"
+  },
+  {
+    "text": "feature,",
+    "start": "2:36.40"
+  },
+  {
+    "text": "and",
+    "start": "2:36.40"
+  },
+  {
+    "text": "you're",
+    "start": "2:36.40"
+  },
+  {
+    "text": "just",
+    "start": "2:37.07"
+  },
+  {
+    "text": "doing",
+    "start": "2:37.07"
+  },
+  {
+    "text": "a",
+    "start": "2:37.07"
+  },
+  {
+    "text": "regression",
+    "start": "2:37.07"
+  },
+  {
+    "text": "over",
+    "start": "2:37.07"
+  },
+  {
+    "text": "them.",
+    "start": "2:37.07"
+  },
+  {
+    "text": "That's",
+    "start": "2:40.10"
+  },
+  {
+    "text": "the",
+    "start": "2:40.10"
+  },
+  {
+    "text": "lazy",
+    "start": "2:40.10"
+  },
+  {
+    "text": "regime,",
+    "start": "2:40.10"
+  },
+  {
+    "text": "and",
+    "start": "2:41.97"
+  },
+  {
+    "text": "on",
+    "start": "2:41.97"
+  },
+  {
+    "text": "the",
+    "start": "2:41.97"
+  },
+  {
+    "text": "other",
+    "start": "2:41.97"
+  },
+  {
+    "text": "end",
+    "start": "2:41.97"
+  },
+  {
+    "text": "of",
+    "start": "2:41.97"
+  },
+  {
+    "text": "the",
+    "start": "2:41.97"
+  },
+  {
+    "text": "spectrum,",
+    "start": "2:42.83"
+  },
+  {
+    "text": "if",
+    "start": "2:42.83"
+  },
+  {
+    "text": "you",
+    "start": "2:42.83"
+  },
+  {
+    "text": "initialize",
+    "start": "2:42.83"
+  },
+  {
+    "text": "your",
+    "start": "2:42.83"
+  },
+  {
+    "text": "weight",
+    "start": "2:42.83"
+  },
+  {
+    "text": "with",
+    "start": "2:45.03"
+  },
+  {
+    "text": "a",
+    "start": "2:45.03"
+  },
+  {
+    "text": "very",
+    "start": "2:45.03"
+  },
+  {
+    "text": "small",
+    "start": "2:45.03"
+  },
+  {
+    "text": "variance,",
+    "start": "2:45.03"
+  },
+  {
+    "text": "small",
+    "start": "2:47.30"
+  },
+  {
+    "text": "variance",
+    "start": "2:47.30"
+  },
+  {
+    "text": "around",
+    "start": "2:47.30"
+  },
+  {
+    "text": "zero,",
+    "start": "2:47.30"
+  },
+  {
+    "text": "then",
+    "start": "2:48.90"
+  },
+  {
+    "text": "the",
+    "start": "2:48.90"
+  },
+  {
+    "text": "training",
+    "start": "2:48.90"
+  },
+  {
+    "text": "dynamics",
+    "start": "2:48.90"
+  },
+  {
+    "text": "is",
+    "start": "2:48.90"
+  },
+  {
+    "text": "in",
+    "start": "2:48.90"
+  },
+  {
+    "text": "what",
+    "start": "2:48.90"
+  },
+  {
+    "text": "people",
+    "start": "2:48.90"
+  },
+  {
+    "text": "call",
+    "start": "2:48.90"
+  },
+  {
+    "text": "the",
+    "start": "2:48.90"
+  },
+  {
+    "text": "saddle-to-saddle",
+    "start": "2:52.40"
+  },
+  {
+    "text": "regime",
+    "start": "2:52.40"
+  },
+  {
+    "text": "or",
+    "start": "2:52.40"
+  },
+  {
+    "text": "the",
+    "start": "2:52.40"
+  },
+  {
+    "text": "feature",
+    "start": "2:54.20"
+  },
+  {
+    "text": "learning",
+    "start": "2:54.20"
+  },
+  {
+    "text": "regime",
+    "start": "2:54.20"
+  },
+  {
+    "text": "or",
+    "start": "2:54.20"
+  },
+  {
+    "text": "the",
+    "start": "2:54.20"
+  },
+  {
+    "text": "rich",
+    "start": "2:54.20"
+  },
+  {
+    "text": "regime.",
+    "start": "2:54.20"
+  },
+  {
+    "text": "This",
+    "start": "2:56.57"
+  },
+  {
+    "text": "is",
+    "start": "2:56.57"
+  },
+  {
+    "text": "the",
+    "start": "2:56.57"
+  },
+  {
+    "text": "most",
+    "start": "2:56.57"
+  },
+  {
+    "text": "interesting",
+    "start": "2:56.57"
+  },
+  {
+    "text": "regime",
+    "start": "2:56.57"
+  },
+  {
+    "text": "in",
+    "start": "2:56.57"
+  },
+  {
+    "text": "some",
+    "start": "2:56.57"
+  },
+  {
+    "text": "sense,",
+    "start": "2:56.57"
+  },
+  {
+    "text": "because",
+    "start": "2:56.57"
+  },
+  {
+    "text": "that's",
+    "start": "2:59.03"
+  },
+  {
+    "text": "where",
+    "start": "2:59.03"
+  },
+  {
+    "text": "we",
+    "start": "2:59.03"
+  },
+  {
+    "text": "see",
+    "start": "2:59.03"
+  },
+  {
+    "text": "a",
+    "start": "2:59.03"
+  },
+  {
+    "text": "very",
+    "start": "2:59.03"
+  },
+  {
+    "text": "different",
+    "start": "2:59.03"
+  },
+  {
+    "text": "behavior",
+    "start": "2:59.03"
+  },
+  {
+    "text": "from",
+    "start": "2:59.03"
+  },
+  {
+    "text": "just",
+    "start": "3:02.77"
+  },
+  {
+    "text": "linear",
+    "start": "3:02.77"
+  },
+  {
+    "text": "regression.",
+    "start": "3:02.77"
+  },
+  {
+    "text": "you",
+    "start": "3:04.70"
+  },
+  {
+    "text": "can",
+    "start": "3:04.70"
+  },
+  {
+    "text": "learn",
+    "start": "3:04.70"
+  },
+  {
+    "text": "something",
+    "start": "3:04.70"
+  },
+  {
+    "text": "interesting",
+    "start": "3:04.70"
+  },
+  {
+    "text": "about",
+    "start": "3:04.70"
+  },
+  {
+    "text": "simplicity",
+    "start": "3:06.70"
+  },
+  {
+    "text": "biases",
+    "start": "3:06.70"
+  },
+  {
+    "text": "of",
+    "start": "3:06.70"
+  },
+  {
+    "text": "gradient",
+    "start": "3:06.70"
+  },
+  {
+    "text": "flow.",
+    "start": "3:06.70"
+  },
+  {
+    "text": "One",
+    "start": "3:09.53"
+  },
+  {
+    "text": "thing",
+    "start": "3:09.53"
+  },
+  {
+    "text": "that",
+    "start": "3:09.53"
+  },
+  {
+    "text": "you",
+    "start": "3:09.53"
+  },
+  {
+    "text": "learn,",
+    "start": "3:09.53"
+  },
+  {
+    "text": "for",
+    "start": "3:09.53"
+  },
+  {
+    "text": "example,",
+    "start": "3:09.53"
+  },
+  {
+    "text": "is",
+    "start": "3:10.53"
+  },
+  {
+    "text": "like",
+    "start": "3:10.53"
+  },
+  {
+    "text": "let's",
+    "start": "3:10.53"
+  },
+  {
+    "text": "say",
+    "start": "3:10.53"
+  },
+  {
+    "text": "you",
+    "start": "3:10.53"
+  },
+  {
+    "text": "are",
+    "start": "3:10.53"
+  },
+  {
+    "text": "learning",
+    "start": "3:10.53"
+  },
+  {
+    "text": "a",
+    "start": "3:11.87"
+  },
+  {
+    "text": "teacher",
+    "start": "3:11.87"
+  },
+  {
+    "text": "matrix,",
+    "start": "3:11.87"
+  },
+  {
+    "text": "so",
+    "start": "3:12.97"
+  },
+  {
+    "text": "you",
+    "start": "3:12.97"
+  },
+  {
+    "text": "have",
+    "start": "3:12.97"
+  },
+  {
+    "text": "Y",
+    "start": "3:12.97"
+  },
+  {
+    "text": "is",
+    "start": "3:12.97"
+  },
+  {
+    "text": "equal",
+    "start": "3:12.97"
+  },
+  {
+    "text": "to",
+    "start": "3:12.97"
+  },
+  {
+    "text": "MX,",
+    "start": "3:12.97"
+  },
+  {
+    "text": "M",
+    "start": "3:12.97"
+  },
+  {
+    "text": "is",
+    "start": "3:12.97"
+  },
+  {
+    "text": "some",
+    "start": "3:16.37"
+  },
+  {
+    "text": "matrix",
+    "start": "3:16.37"
+  },
+  {
+    "text": "with",
+    "start": "3:16.37"
+  },
+  {
+    "text": "some",
+    "start": "3:16.37"
+  },
+  {
+    "text": "singular",
+    "start": "3:16.37"
+  },
+  {
+    "text": "values.",
+    "start": "3:16.37"
+  },
+  {
+    "text": "And",
+    "start": "3:18.57"
+  },
+  {
+    "text": "in",
+    "start": "3:19.23"
+  },
+  {
+    "text": "the",
+    "start": "3:19.23"
+  },
+  {
+    "text": "saddle-to-saddle",
+    "start": "3:19.23"
+  },
+  {
+    "text": "regime,",
+    "start": "3:19.23"
+  },
+  {
+    "text": "there",
+    "start": "3:19.23"
+  },
+  {
+    "text": "is",
+    "start": "3:19.23"
+  },
+  {
+    "text": "a",
+    "start": "3:19.23"
+  },
+  {
+    "text": "particular",
+    "start": "3:19.23"
+  },
+  {
+    "text": "order",
+    "start": "3:19.23"
+  },
+  {
+    "text": "at",
+    "start": "3:22.10"
+  },
+  {
+    "text": "which",
+    "start": "3:22.10"
+  },
+  {
+    "text": "you",
+    "start": "3:22.10"
+  },
+  {
+    "text": "are",
+    "start": "3:22.10"
+  },
+  {
+    "text": "learning",
+    "start": "3:22.10"
+  },
+  {
+    "text": "the",
+    "start": "3:22.10"
+  },
+  {
+    "text": "singular",
+    "start": "3:22.10"
+  },
+  {
+    "text": "values.",
+    "start": "3:22.10"
+  },
+  {
+    "text": "Gradient",
+    "start": "3:24.63"
+  },
+  {
+    "text": "flow,",
+    "start": "3:24.63"
+  },
+  {
+    "text": "gradient",
+    "start": "3:24.63"
+  },
+  {
+    "text": "descent,",
+    "start": "3:24.63"
+  },
+  {
+    "text": "is",
+    "start": "3:24.63"
+  },
+  {
+    "text": "going",
+    "start": "3:24.63"
+  },
+  {
+    "text": "to",
+    "start": "3:24.63"
+  },
+  {
+    "text": "first",
+    "start": "3:24.63"
+  },
+  {
+    "text": "learn",
+    "start": "3:24.63"
+  },
+  {
+    "text": "the",
+    "start": "3:27.17"
+  },
+  {
+    "text": "largest",
+    "start": "3:27.17"
+  },
+  {
+    "text": "singular",
+    "start": "3:27.17"
+  },
+  {
+    "text": "values",
+    "start": "3:27.17"
+  },
+  {
+    "text": "of",
+    "start": "3:27.17"
+  },
+  {
+    "text": "the",
+    "start": "3:27.17"
+  },
+  {
+    "text": "teacher",
+    "start": "3:27.17"
+  },
+  {
+    "text": "matrix",
+    "start": "3:27.17"
+  },
+  {
+    "text": "and",
+    "start": "3:27.17"
+  },
+  {
+    "text": "then",
+    "start": "3:27.17"
+  },
+  {
+    "text": "the",
+    "start": "3:29.90"
+  },
+  {
+    "text": "second",
+    "start": "3:29.90"
+  },
+  {
+    "text": "largest",
+    "start": "3:29.90"
+  },
+  {
+    "text": "singular",
+    "start": "3:29.90"
+  },
+  {
+    "text": "value",
+    "start": "3:29.90"
+  },
+  {
+    "text": "of",
+    "start": "3:29.90"
+  },
+  {
+    "text": "the",
+    "start": "3:29.90"
+  },
+  {
+    "text": "teacher",
+    "start": "3:29.90"
+  },
+  {
+    "text": "matrix.",
+    "start": "3:29.90"
+  },
+  {
+    "text": "You",
+    "start": "3:32.67"
+  },
+  {
+    "text": "first",
+    "start": "3:32.67"
+  },
+  {
+    "text": "learn",
+    "start": "3:32.67"
+  },
+  {
+    "text": "the",
+    "start": "3:32.67"
+  },
+  {
+    "text": "singular",
+    "start": "3:32.67"
+  },
+  {
+    "text": "values",
+    "start": "3:32.67"
+  },
+  {
+    "text": "and",
+    "start": "3:32.67"
+  },
+  {
+    "text": "singular",
+    "start": "3:32.67"
+  },
+  {
+    "text": "vectors",
+    "start": "3:32.67"
+  },
+  {
+    "text": "that",
+    "start": "3:35.47"
+  },
+  {
+    "text": "have",
+    "start": "3:35.47"
+  },
+  {
+    "text": "the",
+    "start": "3:35.47"
+  },
+  {
+    "text": "largest",
+    "start": "3:35.47"
+  },
+  {
+    "text": "impact",
+    "start": "3:35.47"
+  },
+  {
+    "text": "on",
+    "start": "3:35.47"
+  },
+  {
+    "text": "explaining",
+    "start": "3:35.47"
+  },
+  {
+    "text": "your",
+    "start": "3:35.47"
+  },
+  {
+    "text": "data.",
+    "start": "3:35.47"
+  },
+  {
+    "text": "So",
+    "start": "3:39.93"
+  },
+  {
+    "text": "in",
+    "start": "3:39.93"
+  },
+  {
+    "text": "some",
+    "start": "3:39.93"
+  },
+  {
+    "text": "sense,",
+    "start": "3:39.93"
+  },
+  {
+    "text": "you",
+    "start": "3:39.93"
+  },
+  {
+    "text": "first",
+    "start": "3:39.93"
+  },
+  {
+    "text": "learn",
+    "start": "3:39.93"
+  },
+  {
+    "text": "the",
+    "start": "3:39.93"
+  },
+  {
+    "text": "first",
+    "start": "3:41.50"
+  },
+  {
+    "text": "direction",
+    "start": "3:41.50"
+  },
+  {
+    "text": "that",
+    "start": "3:41.50"
+  },
+  {
+    "text": "explains",
+    "start": "3:41.50"
+  },
+  {
+    "text": "the",
+    "start": "3:41.50"
+  },
+  {
+    "text": "most",
+    "start": "3:41.50"
+  },
+  {
+    "text": "data",
+    "start": "3:43.43"
+  },
+  {
+    "text": "covariance,",
+    "start": "3:43.43"
+  },
+  {
+    "text": "basically.",
+    "start": "3:43.43"
+  },
+  {
+    "text": "So",
+    "start": "3:45.57"
+  },
+  {
+    "text": "you",
+    "start": "3:45.57"
+  },
+  {
+    "text": "could",
+    "start": "3:45.57"
+  },
+  {
+    "text": "stop",
+    "start": "3:45.57"
+  },
+  {
+    "text": "training",
+    "start": "3:45.57"
+  },
+  {
+    "text": "after",
+    "start": "3:45.57"
+  },
+  {
+    "text": "learning",
+    "start": "3:45.57"
+  },
+  {
+    "text": "one",
+    "start": "3:45.57"
+  },
+  {
+    "text": "direction,",
+    "start": "3:45.57"
+  },
+  {
+    "text": "and",
+    "start": "3:45.57"
+  },
+  {
+    "text": "you",
+    "start": "3:48.30"
+  },
+  {
+    "text": "would",
+    "start": "3:48.30"
+  },
+  {
+    "text": "be",
+    "start": "3:48.30"
+  },
+  {
+    "text": "like,",
+    "start": "3:48.30"
+  },
+  {
+    "text": "\"Yeah,",
+    "start": "3:48.30"
+  },
+  {
+    "text": "we",
+    "start": "3:48.30"
+  },
+  {
+    "text": "already",
+    "start": "3:48.30"
+  },
+  {
+    "text": "got",
+    "start": "3:49.73"
+  },
+  {
+    "text": "a",
+    "start": "3:49.73"
+  },
+  {
+    "text": "direction",
+    "start": "3:49.73"
+  },
+  {
+    "text": "that",
+    "start": "3:49.73"
+  },
+  {
+    "text": "explains",
+    "start": "3:49.73"
+  },
+  {
+    "text": "the",
+    "start": "3:49.73"
+  },
+  {
+    "text": "most",
+    "start": "3:49.73"
+  },
+  {
+    "text": "of",
+    "start": "3:49.73"
+  },
+  {
+    "text": "the",
+    "start": "3:49.73"
+  },
+  {
+    "text": "data,",
+    "start": "3:49.73"
+  },
+  {
+    "text": "even",
+    "start": "3:49.73"
+  },
+  {
+    "text": "though",
+    "start": "3:52.97"
+  },
+  {
+    "text": "we",
+    "start": "3:52.97"
+  },
+  {
+    "text": "only",
+    "start": "3:52.97"
+  },
+  {
+    "text": "have",
+    "start": "3:52.97"
+  },
+  {
+    "text": "learned",
+    "start": "3:52.97"
+  },
+  {
+    "text": "one",
+    "start": "3:52.97"
+  },
+  {
+    "text": "particular",
+    "start": "3:52.97"
+  },
+  {
+    "text": "feature.\"",
+    "start": "3:52.97"
+  },
+  {
+    "text": "In",
+    "start": "3:55.67"
+  },
+  {
+    "text": "the",
+    "start": "3:55.67"
+  },
+  {
+    "text": "lazy",
+    "start": "3:55.67"
+  },
+  {
+    "text": "regime,",
+    "start": "3:55.67"
+  },
+  {
+    "text": "you",
+    "start": "3:55.67"
+  },
+  {
+    "text": "will",
+    "start": "3:55.67"
+  },
+  {
+    "text": "learn",
+    "start": "3:55.67"
+  },
+  {
+    "text": "all",
+    "start": "3:55.67"
+  },
+  {
+    "text": "the",
+    "start": "3:57.17"
+  },
+  {
+    "text": "singular",
+    "start": "3:57.17"
+  },
+  {
+    "text": "values",
+    "start": "3:57.17"
+  },
+  {
+    "text": "at",
+    "start": "3:57.17"
+  },
+  {
+    "text": "the",
+    "start": "3:57.17"
+  },
+  {
+    "text": "same",
+    "start": "3:57.17"
+  },
+  {
+    "text": "time.",
+    "start": "3:57.17"
+  },
+  {
+    "text": "So",
+    "start": "4:00.27"
+  },
+  {
+    "text": "you",
+    "start": "4:00.27"
+  },
+  {
+    "text": "see",
+    "start": "4:00.27"
+  },
+  {
+    "text": "that",
+    "start": "4:00.27"
+  },
+  {
+    "text": "depending",
+    "start": "4:00.27"
+  },
+  {
+    "text": "on",
+    "start": "4:00.27"
+  },
+  {
+    "text": "how",
+    "start": "4:00.27"
+  },
+  {
+    "text": "you",
+    "start": "4:00.27"
+  },
+  {
+    "text": "initialize",
+    "start": "4:00.27"
+  },
+  {
+    "text": "your",
+    "start": "4:00.27"
+  },
+  {
+    "text": "network,",
+    "start": "4:02.23"
+  },
+  {
+    "text": "when",
+    "start": "4:02.23"
+  },
+  {
+    "text": "you",
+    "start": "4:02.23"
+  },
+  {
+    "text": "have",
+    "start": "4:02.23"
+  },
+  {
+    "text": "depth,",
+    "start": "4:02.23"
+  },
+  {
+    "text": "you",
+    "start": "4:02.23"
+  },
+  {
+    "text": "have",
+    "start": "4:02.23"
+  },
+  {
+    "text": "this",
+    "start": "4:02.23"
+  },
+  {
+    "text": "this",
+    "start": "4:05.03"
+  },
+  {
+    "text": "spectrum",
+    "start": "4:05.03"
+  },
+  {
+    "text": "with",
+    "start": "4:05.03"
+  },
+  {
+    "text": "two",
+    "start": "4:05.03"
+  },
+  {
+    "text": "different",
+    "start": "4:05.03"
+  },
+  {
+    "text": "extremes,",
+    "start": "4:05.03"
+  },
+  {
+    "text": "where",
+    "start": "4:05.03"
+  },
+  {
+    "text": "one",
+    "start": "4:07.43"
+  },
+  {
+    "text": "extreme",
+    "start": "4:07.43"
+  },
+  {
+    "text": "is",
+    "start": "4:07.43"
+  },
+  {
+    "text": "lazy",
+    "start": "4:07.43"
+  },
+  {
+    "text": "linear",
+    "start": "4:07.43"
+  },
+  {
+    "text": "regime,",
+    "start": "4:07.43"
+  },
+  {
+    "text": "and",
+    "start": "4:07.43"
+  },
+  {
+    "text": "the",
+    "start": "4:07.43"
+  },
+  {
+    "text": "other",
+    "start": "4:07.43"
+  },
+  {
+    "text": "extreme",
+    "start": "4:07.43"
+  },
+  {
+    "text": "is",
+    "start": "4:07.43"
+  },
+  {
+    "text": "this",
+    "start": "4:10.70"
+  },
+  {
+    "text": "saddle-to-saddle",
+    "start": "4:10.70"
+  },
+  {
+    "text": "feature",
+    "start": "4:10.70"
+  },
+  {
+    "text": "learning",
+    "start": "4:10.70"
+  },
+  {
+    "text": "regime.",
+    "start": "4:10.70"
+  },
+  {
+    "text": "In",
+    "start": "4:14.10"
+  },
+  {
+    "text": "fact,",
+    "start": "4:14.10"
+  },
+  {
+    "text": "you",
+    "start": "4:14.10"
+  },
+  {
+    "text": "can",
+    "start": "4:14.10"
+  },
+  {
+    "text": "see",
+    "start": "4:15.10"
+  },
+  {
+    "text": "examples",
+    "start": "4:15.10"
+  },
+  {
+    "text": "of",
+    "start": "4:15.10"
+  },
+  {
+    "text": "the",
+    "start": "4:15.10"
+  },
+  {
+    "text": "saddle-to-saddle,",
+    "start": "4:15.10"
+  },
+  {
+    "text": "or",
+    "start": "4:17.33"
+  },
+  {
+    "text": "like",
+    "start": "4:17.33"
+  },
+  {
+    "text": "similar",
+    "start": "4:17.33"
+  },
+  {
+    "text": "to",
+    "start": "4:17.33"
+  },
+  {
+    "text": "the",
+    "start": "4:17.33"
+  },
+  {
+    "text": "saddle-to-saddle",
+    "start": "4:17.33"
+  },
+  {
+    "text": "regime",
+    "start": "4:17.33"
+  },
+  {
+    "text": "in",
+    "start": "4:17.33"
+  },
+  {
+    "text": "nonlinear",
+    "start": "4:20.43"
+  },
+  {
+    "text": "neural",
+    "start": "4:20.43"
+  },
+  {
+    "text": "network.",
+    "start": "4:20.43"
+  },
+  {
+    "text": "Transformer",
+    "start": "4:21.83"
+  },
+  {
+    "text": "with",
+    "start": "4:21.83"
+  },
+  {
+    "text": "attention-only,",
+    "start": "4:21.83"
+  },
+  {
+    "text": "there's",
+    "start": "4:24.27"
+  },
+  {
+    "text": "some",
+    "start": "4:24.27"
+  },
+  {
+    "text": "recent",
+    "start": "4:24.27"
+  },
+  {
+    "text": "work",
+    "start": "4:24.27"
+  },
+  {
+    "text": "by",
+    "start": "4:24.27"
+  },
+  {
+    "text": "Andrew",
+    "start": "4:24.27"
+  },
+  {
+    "text": "Saxe,",
+    "start": "4:24.27"
+  },
+  {
+    "text": "who",
+    "start": "4:26.50"
+  },
+  {
+    "text": "showed",
+    "start": "4:26.50"
+  },
+  {
+    "text": "that",
+    "start": "4:26.50"
+  },
+  {
+    "text": "we",
+    "start": "4:26.50"
+  },
+  {
+    "text": "can",
+    "start": "4:26.50"
+  },
+  {
+    "text": "have",
+    "start": "4:26.50"
+  },
+  {
+    "text": "this",
+    "start": "4:26.50"
+  },
+  {
+    "text": "saddle-to-saddle-like",
+    "start": "4:28.13"
+  },
+  {
+    "text": "regime",
+    "start": "4:28.13"
+  },
+  {
+    "text": "in",
+    "start": "4:28.13"
+  },
+  {
+    "text": "more",
+    "start": "4:31.17"
+  },
+  {
+    "text": "complicated",
+    "start": "4:31.17"
+  },
+  {
+    "text": "nonlinear",
+    "start": "4:31.17"
+  },
+  {
+    "text": "models.",
+    "start": "4:31.17"
+  },
+  {
+    "text": "I",
+    "start": "4:34.27"
+  },
+  {
+    "text": "think",
+    "start": "4:34.27"
+  },
+  {
+    "text": "the",
+    "start": "4:34.27"
+  },
+  {
+    "text": "hope",
+    "start": "4:34.27"
+  },
+  {
+    "text": "is",
+    "start": "4:34.27"
+  },
+  {
+    "text": "we",
+    "start": "4:34.27"
+  },
+  {
+    "text": "can",
+    "start": "4:34.27"
+  },
+  {
+    "text": "increase",
+    "start": "4:35.43"
+  },
+  {
+    "text": "the",
+    "start": "4:35.43"
+  },
+  {
+    "text": "complexity",
+    "start": "4:35.43"
+  },
+  {
+    "text": "of",
+    "start": "4:35.43"
+  },
+  {
+    "text": "the",
+    "start": "4:35.43"
+  },
+  {
+    "text": "models",
+    "start": "4:35.43"
+  },
+  {
+    "text": "that",
+    "start": "4:35.43"
+  },
+  {
+    "text": "we're",
+    "start": "4:35.43"
+  },
+  {
+    "text": "using.",
+    "start": "4:35.43"
+  },
+  {
+    "text": "I",
+    "start": "4:38.23"
+  },
+  {
+    "text": "think",
+    "start": "4:38.23"
+  },
+  {
+    "text": "we",
+    "start": "4:38.23"
+  },
+  {
+    "text": "have",
+    "start": "4:38.23"
+  },
+  {
+    "text": "some",
+    "start": "4:38.23"
+  },
+  {
+    "text": "decent",
+    "start": "4:38.23"
+  },
+  {
+    "text": "amount",
+    "start": "4:38.23"
+  },
+  {
+    "text": "of",
+    "start": "4:38.23"
+  },
+  {
+    "text": "understanding",
+    "start": "4:40.30"
+  },
+  {
+    "text": "of",
+    "start": "4:40.30"
+  },
+  {
+    "text": "deep",
+    "start": "4:40.30"
+  },
+  {
+    "text": "linear",
+    "start": "4:40.30"
+  },
+  {
+    "text": "networks.",
+    "start": "4:40.30"
+  },
+  {
+    "text": "And",
+    "start": "4:42.47"
+  },
+  {
+    "text": "the",
+    "start": "4:42.47"
+  },
+  {
+    "text": "idea",
+    "start": "4:42.47"
+  },
+  {
+    "text": "would",
+    "start": "4:42.47"
+  },
+  {
+    "text": "be",
+    "start": "4:42.47"
+  },
+  {
+    "text": "now",
+    "start": "4:42.47"
+  },
+  {
+    "text": "let's",
+    "start": "4:42.47"
+  },
+  {
+    "text": "move",
+    "start": "4:42.47"
+  },
+  {
+    "text": "on",
+    "start": "4:43.80"
+  },
+  {
+    "text": "to",
+    "start": "4:43.80"
+  },
+  {
+    "text": "more",
+    "start": "4:43.80"
+  },
+  {
+    "text": "complicated",
+    "start": "4:43.80"
+  },
+  {
+    "text": "toy",
+    "start": "4:43.80"
+  },
+  {
+    "text": "model.",
+    "start": "4:43.80"
+  },
+  {
+    "text": "More",
+    "start": "4:46.07"
+  },
+  {
+    "text": "generally",
+    "start": "4:46.07"
+  },
+  {
+    "text": "there",
+    "start": "4:46.07"
+  },
+  {
+    "text": "are",
+    "start": "4:46.07"
+  },
+  {
+    "text": "these",
+    "start": "4:46.07"
+  },
+  {
+    "text": "polynomial",
+    "start": "4:46.07"
+  },
+  {
+    "text": "neural",
+    "start": "4:46.07"
+  },
+  {
+    "text": "networks",
+    "start": "4:46.07"
+  },
+  {
+    "text": "where",
+    "start": "4:48.80"
+  },
+  {
+    "text": "the",
+    "start": "4:48.80"
+  },
+  {
+    "text": "activation",
+    "start": "4:48.80"
+  },
+  {
+    "text": "functions",
+    "start": "4:48.80"
+  },
+  {
+    "text": "are",
+    "start": "4:48.80"
+  },
+  {
+    "text": "some",
+    "start": "4:48.80"
+  },
+  {
+    "text": "polynomial.",
+    "start": "4:48.80"
+  },
+  {
+    "text": "For",
+    "start": "4:52.27"
+  },
+  {
+    "text": "example,",
+    "start": "4:52.27"
+  },
+  {
+    "text": "quadratic,",
+    "start": "4:52.27"
+  },
+  {
+    "text": "just",
+    "start": "4:52.27"
+  },
+  {
+    "text": "only",
+    "start": "4:52.27"
+  },
+  {
+    "text": "quadratic",
+    "start": "4:53.40"
+  },
+  {
+    "text": "activation",
+    "start": "4:53.40"
+  },
+  {
+    "text": "function.",
+    "start": "4:53.40"
+  },
+  {
+    "text": "They",
+    "start": "4:55.23"
+  },
+  {
+    "text": "are",
+    "start": "4:55.23"
+  },
+  {
+    "text": "related",
+    "start": "4:55.23"
+  },
+  {
+    "text": "to",
+    "start": "4:55.23"
+  },
+  {
+    "text": "tensor",
+    "start": "4:56.77"
+  },
+  {
+    "text": "networks,",
+    "start": "4:56.77"
+  },
+  {
+    "text": "which",
+    "start": "4:57.97"
+  },
+  {
+    "text": "are",
+    "start": "4:57.97"
+  },
+  {
+    "text": "products",
+    "start": "4:57.97"
+  },
+  {
+    "text": "of",
+    "start": "4:58.97"
+  },
+  {
+    "text": "tensors.",
+    "start": "4:58.97"
+  },
+  {
+    "text": "And",
+    "start": "5:00.27"
+  },
+  {
+    "text": "this",
+    "start": "5:00.27"
+  },
+  {
+    "text": "tensor",
+    "start": "5:00.27"
+  },
+  {
+    "text": "network,",
+    "start": "5:00.27"
+  },
+  {
+    "text": "they",
+    "start": "5:00.27"
+  },
+  {
+    "text": "are",
+    "start": "5:00.27"
+  },
+  {
+    "text": "multilinear",
+    "start": "5:01.63"
+  },
+  {
+    "text": "in",
+    "start": "5:01.63"
+  },
+  {
+    "text": "their",
+    "start": "5:01.63"
+  },
+  {
+    "text": "data",
+    "start": "5:01.63"
+  },
+  {
+    "text": "and",
+    "start": "5:01.63"
+  },
+  {
+    "text": "nonlinear",
+    "start": "5:01.63"
+  },
+  {
+    "text": "in",
+    "start": "5:01.63"
+  },
+  {
+    "text": "parameters.",
+    "start": "5:01.63"
+  },
+  {
+    "text": "There",
+    "start": "5:05.47"
+  },
+  {
+    "text": "is",
+    "start": "5:05.47"
+  },
+  {
+    "text": "some",
+    "start": "5:05.47"
+  },
+  {
+    "text": "notion",
+    "start": "5:05.47"
+  },
+  {
+    "text": "of",
+    "start": "5:05.47"
+  },
+  {
+    "text": "singular",
+    "start": "5:05.47"
+  },
+  {
+    "text": "value",
+    "start": "5:05.47"
+  },
+  {
+    "text": "decomposition,",
+    "start": "5:05.47"
+  },
+  {
+    "text": "some",
+    "start": "5:07.53"
+  },
+  {
+    "text": "notion",
+    "start": "5:07.53"
+  },
+  {
+    "text": "of",
+    "start": "5:07.53"
+  },
+  {
+    "text": "rank.",
+    "start": "5:07.53"
+  },
+  {
+    "text": "So",
+    "start": "5:08.70"
+  },
+  {
+    "text": "we",
+    "start": "5:08.70"
+  },
+  {
+    "text": "have",
+    "start": "5:08.70"
+  },
+  {
+    "text": "a",
+    "start": "5:08.70"
+  },
+  {
+    "text": "lot",
+    "start": "5:08.70"
+  },
+  {
+    "text": "of",
+    "start": "5:08.70"
+  },
+  {
+    "text": "the",
+    "start": "5:08.70"
+  },
+  {
+    "text": "tools",
+    "start": "5:08.70"
+  },
+  {
+    "text": "from",
+    "start": "5:08.70"
+  },
+  {
+    "text": "linear",
+    "start": "5:08.70"
+  },
+  {
+    "text": "algebra",
+    "start": "5:08.70"
+  },
+  {
+    "text": "that",
+    "start": "5:08.70"
+  },
+  {
+    "text": "we",
+    "start": "5:08.70"
+  },
+  {
+    "text": "use",
+    "start": "5:11.50"
+  },
+  {
+    "text": "in",
+    "start": "5:11.50"
+  },
+  {
+    "text": "deep",
+    "start": "5:11.50"
+  },
+  {
+    "text": "linear",
+    "start": "5:11.50"
+  },
+  {
+    "text": "networks",
+    "start": "5:11.50"
+  },
+  {
+    "text": "that",
+    "start": "5:11.50"
+  },
+  {
+    "text": "we",
+    "start": "5:11.50"
+  },
+  {
+    "text": "can",
+    "start": "5:11.50"
+  },
+  {
+    "text": "also",
+    "start": "5:11.50"
+  },
+  {
+    "text": "use",
+    "start": "5:11.50"
+  },
+  {
+    "text": "on",
+    "start": "5:11.50"
+  },
+  {
+    "text": "this",
+    "start": "5:11.50"
+  },
+  {
+    "text": "tensor",
+    "start": "5:13.73"
+  },
+  {
+    "text": "network,",
+    "start": "5:13.73"
+  },
+  {
+    "text": "although",
+    "start": "5:13.73"
+  },
+  {
+    "text": "this",
+    "start": "5:13.73"
+  },
+  {
+    "text": "tensor",
+    "start": "5:13.73"
+  },
+  {
+    "text": "network,",
+    "start": "5:15.03"
+  },
+  {
+    "text": "they",
+    "start": "5:15.03"
+  },
+  {
+    "text": "can",
+    "start": "5:15.03"
+  },
+  {
+    "text": "learn",
+    "start": "5:15.03"
+  },
+  {
+    "text": "nonlinear",
+    "start": "5:15.03"
+  },
+  {
+    "text": "functions.",
+    "start": "5:15.03"
+  },
+  {
+    "text": "And",
+    "start": "5:18.30"
+  },
+  {
+    "text": "now",
+    "start": "5:18.30"
+  },
+  {
+    "text": "we",
+    "start": "5:18.30"
+  },
+  {
+    "text": "have",
+    "start": "5:18.30"
+  },
+  {
+    "text": "a",
+    "start": "5:18.30"
+  },
+  {
+    "text": "sense",
+    "start": "5:18.30"
+  },
+  {
+    "text": "of",
+    "start": "5:18.30"
+  },
+  {
+    "text": "what",
+    "start": "5:18.30"
+  },
+  {
+    "text": "are",
+    "start": "5:18.30"
+  },
+  {
+    "text": "the",
+    "start": "5:18.30"
+  },
+  {
+    "text": "interesting",
+    "start": "5:18.30"
+  },
+  {
+    "text": "questions",
+    "start": "5:20.70"
+  },
+  {
+    "text": "in",
+    "start": "5:20.70"
+  },
+  {
+    "text": "deep",
+    "start": "5:20.70"
+  },
+  {
+    "text": "linear",
+    "start": "5:20.70"
+  },
+  {
+    "text": "networks?",
+    "start": "5:20.70"
+  },
+  {
+    "text": "Can",
+    "start": "5:22.50"
+  },
+  {
+    "text": "we",
+    "start": "5:22.50"
+  },
+  {
+    "text": "find",
+    "start": "5:22.50"
+  },
+  {
+    "text": "similar",
+    "start": "5:22.50"
+  },
+  {
+    "text": "phenomena",
+    "start": "5:22.50"
+  },
+  {
+    "text": "in",
+    "start": "5:22.50"
+  },
+  {
+    "text": "this",
+    "start": "5:22.50"
+  },
+  {
+    "text": "tensor",
+    "start": "5:22.50"
+  },
+  {
+    "text": "network?",
+    "start": "5:22.50"
+  },
+  {
+    "text": "Can",
+    "start": "5:25.33"
+  },
+  {
+    "text": "we",
+    "start": "5:25.33"
+  },
+  {
+    "text": "import",
+    "start": "5:25.33"
+  },
+  {
+    "text": "a",
+    "start": "5:25.33"
+  },
+  {
+    "text": "lot",
+    "start": "5:25.33"
+  },
+  {
+    "text": "of",
+    "start": "5:25.33"
+  },
+  {
+    "text": "the",
+    "start": "5:25.33"
+  },
+  {
+    "text": "results",
+    "start": "5:25.33"
+  },
+  {
+    "text": "from",
+    "start": "5:25.33"
+  },
+  {
+    "text": "deep",
+    "start": "5:25.33"
+  },
+  {
+    "text": "linear",
+    "start": "5:25.33"
+  },
+  {
+    "text": "networks",
+    "start": "5:28.10"
+  },
+  {
+    "text": "to",
+    "start": "5:28.10"
+  },
+  {
+    "text": "this",
+    "start": "5:28.10"
+  },
+  {
+    "text": "more",
+    "start": "5:28.10"
+  },
+  {
+    "text": "complicated",
+    "start": "5:28.10"
+  },
+  {
+    "text": "tensor",
+    "start": "5:28.10"
+  },
+  {
+    "text": "network?",
+    "start": "5:28.10"
+  },
+  {
+    "text": "Building",
+    "start": "5:31.40"
+  },
+  {
+    "text": "our",
+    "start": "5:31.40"
+  },
+  {
+    "text": "way",
+    "start": "5:31.40"
+  },
+  {
+    "text": "up",
+    "start": "5:31.40"
+  },
+  {
+    "text": "to",
+    "start": "5:31.40"
+  },
+  {
+    "text": "learning",
+    "start": "5:33.50"
+  },
+  {
+    "text": "nonlinear",
+    "start": "5:33.50"
+  },
+  {
+    "text": "functions",
+    "start": "5:33.50"
+  },
+  {
+    "text": "with",
+    "start": "5:35.47"
+  },
+  {
+    "text": "some",
+    "start": "5:35.47"
+  },
+  {
+    "text": "hierarchical",
+    "start": "5:35.47"
+  },
+  {
+    "text": "structure,",
+    "start": "5:35.47"
+  },
+  {
+    "text": "Can",
+    "start": "5:37.40"
+  },
+  {
+    "text": "we",
+    "start": "5:37.40"
+  },
+  {
+    "text": "develop",
+    "start": "5:37.40"
+  },
+  {
+    "text": "a",
+    "start": "5:37.40"
+  },
+  {
+    "text": "mathematical",
+    "start": "5:37.40"
+  },
+  {
+    "text": "understanding",
+    "start": "5:37.40"
+  },
+  {
+    "text": "of",
+    "start": "5:37.40"
+  },
+  {
+    "text": "that",
+    "start": "5:37.40"
+  },
+  {
+    "text": "with",
+    "start": "5:39.67"
+  },
+  {
+    "text": "good",
+    "start": "5:39.67"
+  },
+  {
+    "text": "time",
+    "start": "5:39.67"
+  },
+  {
+    "text": "models?",
+    "start": "5:39.67"
+  },
+  {
+    "text": "That",
+    "start": "5:41.43"
+  },
+  {
+    "text": "is",
+    "start": "5:41.43"
+  },
+  {
+    "text": "one",
+    "start": "5:41.43"
+  },
+  {
+    "text": "perspective",
+    "start": "5:41.43"
+  },
+  {
+    "text": "that",
+    "start": "5:41.43"
+  },
+  {
+    "text": "I'm",
+    "start": "5:41.43"
+  },
+  {
+    "text": "quite",
+    "start": "5:42.60"
+  },
+  {
+    "text": "excited",
+    "start": "5:42.60"
+  },
+  {
+    "text": "about",
+    "start": "5:42.60"
+  },
+  {
+    "text": "personally.",
+    "start": "5:42.60"
+  }
+]
