@@ -18,6 +18,10 @@ source:: [[../Lenses/ATDL 2.2 - Deep learning as program synthesis]]
 
 # Submodule: Topic pages (do at least one)
 
+# Lens: Topic: approximation
+source:: [[../Lenses/ATDL 2.3 - Approximation]]
+optional:: true
+
 # Lens: Topic: generalization
 source:: [[../Lenses/ATDL 2.4 - Generalization]]
 optional:: true

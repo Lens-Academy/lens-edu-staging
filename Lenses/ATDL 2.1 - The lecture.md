@@ -13,9 +13,12 @@ tutor_minutes: 10
 
 #### Text
 content::
-Read Zach's lecture slides (15 slides, about 20 minutes): [Mysteries of Deep Learning, slides (PDF)](https://drive.google.com/drive/folders/1SV-VYOSTzEGcRxw5GuDBCLbwQWj3k0Ym).
+Read Zach's lecture slides (15 slides, about 20 minutes). The text of the slides is below; the original PDF is in [Zach's slides folder](https://drive.google.com/drive/folders/1SV-VYOSTzEGcRxw5GuDBCLbwQWj3k0Ym).
 
 The slides open with a recap of a lecture Iliad students heard the day before, on learning machines and Solomonoff induction. The recap is enough to follow the rest.
+
+#### Article
+source:: [[../articles/furman-mysteries-of-deep-learning]]
 
 #### Question: Open
 id:: 779df7f1-11b7-4552-a006-25759f2cafea
