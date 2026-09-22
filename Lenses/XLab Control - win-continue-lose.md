@@ -47,14 +47,14 @@ to:: call its response the _monitor score_.
 id:: 2234e527-4341-4e20-a037-68da9754b438
 content:: How does an execute/replace/audit protocol work?
 max-chars:: 800
-assessment-instructions:: A good answer covers three moving parts: an agent loop repeatedly gets a proposed action from the untrusted LLM; a monitor scores how dangerous or suspicious that action looks; and the protocol uses the monitor's score to make two decisions, whether to execute the action or replace it, and whether to audit it. Reward an answer that keeps the replace decision and the audit decision separate. Mark down an answer that treats them as one threshold, since the reading argues they are better made separately. Do not over-validate and avoid generic praise.
+assessment-instructions:: A good answer covers three moving parts: an agent loop repeatedly gets a proposed action from the untrusted LLM; a monitor scores how dangerous or suspicious that action looks; and the protocol uses the monitor's score to make two decisions, whether to execute the action or replace it, and whether to audit it. Reward an answer that keeps the replace decision and the audit decision separate. Mark down an answer that treats them as one threshold, since the reading argues they are better made separately.
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 1f88446b-db35-4c57-adf6-e8b9a9c0c4dd
 content:: What is a monitor, and what is a monitor score?
 max-chars:: 600
-assessment-instructions:: A good answer says a monitor is any technique that takes a proposed action together with some surrounding context and produces a monitor score describing how dangerous or suspicious that action is. Reward naming any of the reading's examples: trusted or untrusted models evaluating the action, probes trained on off-policy examples or produced other ways, or interpretability techniques such as sparse autoencoders for detecting deceptive intent. Do not require a specific technique, since the point is that all of them share this input and output shape. Do not over-validate and avoid generic praise.
+assessment-instructions:: A good answer says a monitor is any technique that takes a proposed action together with some surrounding context and produces a monitor score describing how dangerous or suspicious that action is. Reward naming any of the reading's examples: trusted or untrusted models evaluating the action, probes trained on off-policy examples or produced other ways, or interpretability techniques such as sparse autoencoders for detecting deceptive intent. Do not require a specific technique, since the point is that all of them share this input and output shape.
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Article
@@ -65,7 +65,7 @@ to:: but it’s probably better to make the decisions separately.
 id:: bb78eb9b-8027-4c6b-9085-cc47963a1bd3
 content:: What is auditing?
 max-chars:: 600
-assessment-instructions:: A good answer says auditing is reviewing an action to determine whether it is evidence that the model is intentionally trying to cause problems. Reward the simplest version from the reading: put the action in a queue for eventual human review, with escalation if the reviewer is suspicious, possibly ending in the conclusion that the model is a misaligned power-seeker. Mark down an answer that describes auditing as blocking or fixing the action, since that is replacing, not auditing. Do not over-validate and avoid generic praise.
+assessment-instructions:: A good answer says auditing is reviewing an action to determine whether it is evidence that the model is intentionally trying to cause problems. Reward the simplest version from the reading: put the action in a queue for eventual human review, with escalation if the reviewer is suspicious, possibly ending in the conclusion that the model is a misaligned power-seeker. Mark down an answer that describes auditing as blocking or fixing the action, since that is replacing, not auditing.
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Article
@@ -76,7 +76,7 @@ to:: It’s easy to modify this rule of thumb to relax some of those assumptions
 id:: 88f5ca30-cbb0-40bc-b543-ae6855bd333e
 content:: When the AI attacks under an execute/replace/audit protocol, what are the three possible outcomes?
 max-chars:: 800
-assessment-instructions:: A good answer names all three and says what each one is. Win: the attack is audited and the developer catches the AI. Lose: the attack is executed and succeeds. Continue: the attack fails silently, so the AI is not caught and the deployment goes on, with the AI probably attacking again later. Award partial credit per outcome correctly described. Reward an answer that notes why continue is distinct from win, that a silently failed attack yields no evidence against the model. Do not over-validate and avoid generic praise.
+assessment-instructions:: A good answer names all three and says what each one is. Win: the attack is audited and the developer catches the AI. Lose: the attack is executed and succeeds. Continue: the attack fails silently, so the AI is not caught and the deployment goes on, with the AI probably attacking again later. Award partial credit per outcome correctly described. Reward an answer that notes why continue is distinct from win, that a silently failed attack yields no evidence against the model.
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Article
