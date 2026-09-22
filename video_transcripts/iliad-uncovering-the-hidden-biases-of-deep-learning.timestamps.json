@@ -1,0 +1,3674 @@
+[
+  {
+    "text": "I",
+    "start": "0:00.00"
+  },
+  {
+    "text": "work",
+    "start": "0:00.00"
+  },
+  {
+    "text": "on",
+    "start": "0:00.00"
+  },
+  {
+    "text": "learning",
+    "start": "0:00.00"
+  },
+  {
+    "text": "theory",
+    "start": "0:00.00"
+  },
+  {
+    "text": "improving",
+    "start": "0:02.07"
+  },
+  {
+    "text": "our",
+    "start": "0:02.07"
+  },
+  {
+    "text": "understanding",
+    "start": "0:02.07"
+  },
+  {
+    "text": "of",
+    "start": "0:02.07"
+  },
+  {
+    "text": "training",
+    "start": "0:02.07"
+  },
+  {
+    "text": "dynamics",
+    "start": "0:02.07"
+  },
+  {
+    "text": "and",
+    "start": "0:02.07"
+  },
+  {
+    "text": "applying",
+    "start": "0:04.73"
+  },
+  {
+    "text": "those",
+    "start": "0:04.73"
+  },
+  {
+    "text": "insights",
+    "start": "0:04.73"
+  },
+  {
+    "text": "for",
+    "start": "0:04.73"
+  },
+  {
+    "text": "AI",
+    "start": "0:04.73"
+  },
+  {
+    "text": "safety,",
+    "start": "0:04.73"
+  },
+  {
+    "text": "and",
+    "start": "0:06.57"
+  },
+  {
+    "text": "at",
+    "start": "0:06.57"
+  },
+  {
+    "text": "Iliad,",
+    "start": "0:06.57"
+  },
+  {
+    "text": "I",
+    "start": "0:06.57"
+  },
+  {
+    "text": "teach",
+    "start": "0:06.57"
+  },
+  {
+    "text": "a",
+    "start": "0:06.57"
+  },
+  {
+    "text": "module",
+    "start": "0:06.57"
+  },
+  {
+    "text": "on",
+    "start": "0:06.57"
+  },
+  {
+    "text": "learning",
+    "start": "0:10.53"
+  },
+  {
+    "text": "dynamics.",
+    "start": "0:10.53"
+  },
+  {
+    "text": "In",
+    "start": "0:11.93"
+  },
+  {
+    "text": "learning",
+    "start": "0:11.93"
+  },
+  {
+    "text": "dynamics,",
+    "start": "0:11.93"
+  },
+  {
+    "text": "you're",
+    "start": "0:11.93"
+  },
+  {
+    "text": "trying",
+    "start": "0:13.03"
+  },
+  {
+    "text": "to",
+    "start": "0:13.03"
+  },
+  {
+    "text": "understand",
+    "start": "0:13.03"
+  },
+  {
+    "text": "how",
+    "start": "0:13.03"
+  },
+  {
+    "text": "the",
+    "start": "0:13.03"
+  },
+  {
+    "text": "weights",
+    "start": "0:13.03"
+  },
+  {
+    "text": "of",
+    "start": "0:16.43"
+  },
+  {
+    "text": "the",
+    "start": "0:16.43"
+  },
+  {
+    "text": "neural",
+    "start": "0:16.43"
+  },
+  {
+    "text": "networks",
+    "start": "0:16.43"
+  },
+  {
+    "text": "evolve",
+    "start": "0:16.43"
+  },
+  {
+    "text": "during",
+    "start": "0:16.43"
+  },
+  {
+    "text": "training.",
+    "start": "0:16.43"
+  },
+  {
+    "text": "For",
+    "start": "0:19.50"
+  },
+  {
+    "text": "example,",
+    "start": "0:19.50"
+  },
+  {
+    "text": "you",
+    "start": "0:19.50"
+  },
+  {
+    "text": "are",
+    "start": "0:19.50"
+  },
+  {
+    "text": "training",
+    "start": "0:19.50"
+  },
+  {
+    "text": "a",
+    "start": "0:19.50"
+  },
+  {
+    "text": "neural",
+    "start": "0:19.50"
+  },
+  {
+    "text": "network,",
+    "start": "0:19.50"
+  },
+  {
+    "text": "with",
+    "start": "0:21.83"
+  },
+  {
+    "text": "some",
+    "start": "0:21.83"
+  },
+  {
+    "text": "data,",
+    "start": "0:21.83"
+  },
+  {
+    "text": "some",
+    "start": "0:21.83"
+  },
+  {
+    "text": "loss,",
+    "start": "0:21.83"
+  },
+  {
+    "text": "some",
+    "start": "0:21.83"
+  },
+  {
+    "text": "optimizer,",
+    "start": "0:21.83"
+  },
+  {
+    "text": "some",
+    "start": "0:25.27"
+  },
+  {
+    "text": "particular",
+    "start": "0:25.27"
+  },
+  {
+    "text": "architectural",
+    "start": "0:25.27"
+  },
+  {
+    "text": "choices,",
+    "start": "0:25.27"
+  },
+  {
+    "text": "there",
+    "start": "0:28.00"
+  },
+  {
+    "text": "could",
+    "start": "0:28.00"
+  },
+  {
+    "text": "be",
+    "start": "0:28.00"
+  },
+  {
+    "text": "many",
+    "start": "0:28.00"
+  },
+  {
+    "text": "solutions",
+    "start": "0:28.00"
+  },
+  {
+    "text": "that",
+    "start": "0:28.00"
+  },
+  {
+    "text": "are",
+    "start": "0:28.00"
+  },
+  {
+    "text": "compatible",
+    "start": "0:28.00"
+  },
+  {
+    "text": "with",
+    "start": "0:28.00"
+  },
+  {
+    "text": "minimizing",
+    "start": "0:31.13"
+  },
+  {
+    "text": "the",
+    "start": "0:31.13"
+  },
+  {
+    "text": "loss",
+    "start": "0:31.13"
+  },
+  {
+    "text": "and",
+    "start": "0:31.13"
+  },
+  {
+    "text": "doing",
+    "start": "0:31.13"
+  },
+  {
+    "text": "well",
+    "start": "0:31.13"
+  },
+  {
+    "text": "on",
+    "start": "0:31.13"
+  },
+  {
+    "text": "the",
+    "start": "0:31.13"
+  },
+  {
+    "text": "training",
+    "start": "0:31.13"
+  },
+  {
+    "text": "data.",
+    "start": "0:31.13"
+  },
+  {
+    "text": "Some",
+    "start": "0:34.90"
+  },
+  {
+    "text": "of",
+    "start": "0:34.90"
+  },
+  {
+    "text": "these",
+    "start": "0:34.90"
+  },
+  {
+    "text": "solutions",
+    "start": "0:34.90"
+  },
+  {
+    "text": "might",
+    "start": "0:34.90"
+  },
+  {
+    "text": "be",
+    "start": "0:34.90"
+  },
+  {
+    "text": "AIs",
+    "start": "0:34.90"
+  },
+  {
+    "text": "that",
+    "start": "0:34.90"
+  },
+  {
+    "text": "are",
+    "start": "0:34.90"
+  },
+  {
+    "text": "well-behaved,",
+    "start": "0:34.90"
+  },
+  {
+    "text": "that",
+    "start": "0:38.77"
+  },
+  {
+    "text": "are",
+    "start": "0:38.77"
+  },
+  {
+    "text": "aligned,",
+    "start": "0:38.77"
+  },
+  {
+    "text": "that",
+    "start": "0:38.77"
+  },
+  {
+    "text": "are",
+    "start": "0:38.77"
+  },
+  {
+    "text": "honest",
+    "start": "0:38.77"
+  },
+  {
+    "text": "that",
+    "start": "0:40.30"
+  },
+  {
+    "text": "are",
+    "start": "0:40.30"
+  },
+  {
+    "text": "doing",
+    "start": "0:40.30"
+  },
+  {
+    "text": "what",
+    "start": "0:40.30"
+  },
+  {
+    "text": "we",
+    "start": "0:40.30"
+  },
+  {
+    "text": "want",
+    "start": "0:40.30"
+  },
+  {
+    "text": "them",
+    "start": "0:40.30"
+  },
+  {
+    "text": "to",
+    "start": "0:40.30"
+  },
+  {
+    "text": "do.",
+    "start": "0:40.30"
+  },
+  {
+    "text": "But",
+    "start": "0:42.53"
+  },
+  {
+    "text": "some",
+    "start": "0:42.53"
+  },
+  {
+    "text": "other",
+    "start": "0:42.53"
+  },
+  {
+    "text": "solution",
+    "start": "0:42.53"
+  },
+  {
+    "text": "that",
+    "start": "0:42.53"
+  },
+  {
+    "text": "also",
+    "start": "0:42.53"
+  },
+  {
+    "text": "do",
+    "start": "0:42.53"
+  },
+  {
+    "text": "well",
+    "start": "0:42.53"
+  },
+  {
+    "text": "on",
+    "start": "0:44.50"
+  },
+  {
+    "text": "the",
+    "start": "0:44.50"
+  },
+  {
+    "text": "training",
+    "start": "0:44.50"
+  },
+  {
+    "text": "process",
+    "start": "0:44.50"
+  },
+  {
+    "text": "could",
+    "start": "0:44.50"
+  },
+  {
+    "text": "be",
+    "start": "0:44.50"
+  },
+  {
+    "text": "AIs",
+    "start": "0:44.50"
+  },
+  {
+    "text": "that",
+    "start": "0:44.50"
+  },
+  {
+    "text": "are",
+    "start": "0:44.50"
+  },
+  {
+    "text": "cheating,",
+    "start": "0:44.50"
+  },
+  {
+    "text": "that",
+    "start": "0:47.87"
+  },
+  {
+    "text": "are",
+    "start": "0:47.87"
+  },
+  {
+    "text": "scheming,",
+    "start": "0:47.87"
+  },
+  {
+    "text": "that",
+    "start": "0:47.87"
+  },
+  {
+    "text": "do",
+    "start": "0:47.87"
+  },
+  {
+    "text": "well",
+    "start": "0:47.87"
+  },
+  {
+    "text": "at",
+    "start": "0:47.87"
+  },
+  {
+    "text": "pretending",
+    "start": "0:47.87"
+  },
+  {
+    "text": "to",
+    "start": "0:50.70"
+  },
+  {
+    "text": "do",
+    "start": "0:50.70"
+  },
+  {
+    "text": "well",
+    "start": "0:50.70"
+  },
+  {
+    "text": "at",
+    "start": "0:50.70"
+  },
+  {
+    "text": "the",
+    "start": "0:50.70"
+  },
+  {
+    "text": "particular",
+    "start": "0:50.70"
+  },
+  {
+    "text": "tasks",
+    "start": "0:50.70"
+  },
+  {
+    "text": "that",
+    "start": "0:50.70"
+  },
+  {
+    "text": "we",
+    "start": "0:50.70"
+  },
+  {
+    "text": "are",
+    "start": "0:50.70"
+  },
+  {
+    "text": "training",
+    "start": "0:50.70"
+  },
+  {
+    "text": "them",
+    "start": "0:53.87"
+  },
+  {
+    "text": "on,",
+    "start": "0:53.87"
+  },
+  {
+    "text": "but",
+    "start": "0:53.87"
+  },
+  {
+    "text": "are,",
+    "start": "0:53.87"
+  },
+  {
+    "text": "in",
+    "start": "0:53.87"
+  },
+  {
+    "text": "fact,",
+    "start": "0:53.87"
+  },
+  {
+    "text": "maybe",
+    "start": "0:53.87"
+  },
+  {
+    "text": "dishonest,",
+    "start": "0:53.87"
+  },
+  {
+    "text": "scheming,",
+    "start": "0:53.87"
+  },
+  {
+    "text": "sycophantic,",
+    "start": "0:58.47"
+  },
+  {
+    "text": "and",
+    "start": "0:58.47"
+  },
+  {
+    "text": "have",
+    "start": "0:58.47"
+  },
+  {
+    "text": "all",
+    "start": "0:58.47"
+  },
+  {
+    "text": "sorts",
+    "start": "0:58.47"
+  },
+  {
+    "text": "of",
+    "start": "0:58.47"
+  },
+  {
+    "text": "harmful",
+    "start": "0:58.47"
+  },
+  {
+    "text": "property",
+    "start": "0:58.47"
+  },
+  {
+    "text": "that",
+    "start": "0:58.47"
+  },
+  {
+    "text": "we",
+    "start": "1:02.97"
+  },
+  {
+    "text": "were",
+    "start": "1:02.97"
+  },
+  {
+    "text": "not",
+    "start": "1:02.97"
+  },
+  {
+    "text": "able",
+    "start": "1:02.97"
+  },
+  {
+    "text": "to",
+    "start": "1:02.97"
+  },
+  {
+    "text": "select",
+    "start": "1:02.97"
+  },
+  {
+    "text": "out",
+    "start": "1:02.97"
+  },
+  {
+    "text": "with",
+    "start": "1:02.97"
+  },
+  {
+    "text": "the",
+    "start": "1:02.97"
+  },
+  {
+    "text": "training",
+    "start": "1:02.97"
+  },
+  {
+    "text": "process.",
+    "start": "1:02.97"
+  },
+  {
+    "text": "And",
+    "start": "1:06.50"
+  },
+  {
+    "text": "understanding",
+    "start": "1:06.50"
+  },
+  {
+    "text": "the",
+    "start": "1:06.50"
+  },
+  {
+    "text": "implicit",
+    "start": "1:06.50"
+  },
+  {
+    "text": "bias",
+    "start": "1:06.50"
+  },
+  {
+    "text": "of",
+    "start": "1:09.07"
+  },
+  {
+    "text": "the",
+    "start": "1:09.07"
+  },
+  {
+    "text": "learning",
+    "start": "1:09.07"
+  },
+  {
+    "text": "process",
+    "start": "1:09.07"
+  },
+  {
+    "text": "to",
+    "start": "1:09.07"
+  },
+  {
+    "text": "help",
+    "start": "1:09.07"
+  },
+  {
+    "text": "us",
+    "start": "1:09.07"
+  },
+  {
+    "text": "being",
+    "start": "1:09.07"
+  },
+  {
+    "text": "better",
+    "start": "1:09.07"
+  },
+  {
+    "text": "at",
+    "start": "1:09.07"
+  },
+  {
+    "text": "understanding",
+    "start": "1:12.37"
+  },
+  {
+    "text": "what",
+    "start": "1:12.37"
+  },
+  {
+    "text": "kind",
+    "start": "1:12.37"
+  },
+  {
+    "text": "of",
+    "start": "1:12.37"
+  },
+  {
+    "text": "solution",
+    "start": "1:12.37"
+  },
+  {
+    "text": "did",
+    "start": "1:12.37"
+  },
+  {
+    "text": "we",
+    "start": "1:12.37"
+  },
+  {
+    "text": "select?",
+    "start": "1:12.37"
+  },
+  {
+    "text": "Did",
+    "start": "1:14.17"
+  },
+  {
+    "text": "we",
+    "start": "1:14.17"
+  },
+  {
+    "text": "select",
+    "start": "1:14.17"
+  },
+  {
+    "text": "a",
+    "start": "1:14.17"
+  },
+  {
+    "text": "model",
+    "start": "1:14.17"
+  },
+  {
+    "text": "that",
+    "start": "1:14.17"
+  },
+  {
+    "text": "is",
+    "start": "1:14.17"
+  },
+  {
+    "text": "scheming",
+    "start": "1:14.17"
+  },
+  {
+    "text": "or",
+    "start": "1:16.07"
+  },
+  {
+    "text": "did",
+    "start": "1:16.07"
+  },
+  {
+    "text": "we",
+    "start": "1:16.07"
+  },
+  {
+    "text": "select",
+    "start": "1:16.07"
+  },
+  {
+    "text": "a",
+    "start": "1:16.07"
+  },
+  {
+    "text": "model",
+    "start": "1:16.07"
+  },
+  {
+    "text": "that",
+    "start": "1:16.07"
+  },
+  {
+    "text": "is",
+    "start": "1:16.07"
+  },
+  {
+    "text": "aligned?",
+    "start": "1:16.07"
+  },
+  {
+    "text": "Maybe",
+    "start": "1:19.27"
+  },
+  {
+    "text": "a",
+    "start": "1:19.27"
+  },
+  {
+    "text": "training",
+    "start": "1:19.27"
+  },
+  {
+    "text": "process",
+    "start": "1:19.27"
+  },
+  {
+    "text": "will",
+    "start": "1:19.27"
+  },
+  {
+    "text": "favor",
+    "start": "1:19.27"
+  },
+  {
+    "text": "non-schemer",
+    "start": "1:21.60"
+  },
+  {
+    "text": "because",
+    "start": "1:21.60"
+  },
+  {
+    "text": "they",
+    "start": "1:21.60"
+  },
+  {
+    "text": "are",
+    "start": "1:21.60"
+  },
+  {
+    "text": "less",
+    "start": "1:21.60"
+  },
+  {
+    "text": "complex",
+    "start": "1:21.60"
+  },
+  {
+    "text": "because",
+    "start": "1:21.60"
+  },
+  {
+    "text": "they",
+    "start": "1:21.60"
+  },
+  {
+    "text": "don't",
+    "start": "1:23.80"
+  },
+  {
+    "text": "have",
+    "start": "1:23.80"
+  },
+  {
+    "text": "to",
+    "start": "1:23.80"
+  },
+  {
+    "text": "do",
+    "start": "1:23.80"
+  },
+  {
+    "text": "extra",
+    "start": "1:23.80"
+  },
+  {
+    "text": "reasoning",
+    "start": "1:23.80"
+  },
+  {
+    "text": "that",
+    "start": "1:25.33"
+  },
+  {
+    "text": "the",
+    "start": "1:25.33"
+  },
+  {
+    "text": "schemer",
+    "start": "1:25.33"
+  },
+  {
+    "text": "has",
+    "start": "1:25.33"
+  },
+  {
+    "text": "to",
+    "start": "1:25.33"
+  },
+  {
+    "text": "do,",
+    "start": "1:25.33"
+  },
+  {
+    "text": "and",
+    "start": "1:27.07"
+  },
+  {
+    "text": "so",
+    "start": "1:27.07"
+  },
+  {
+    "text": "the",
+    "start": "1:27.07"
+  },
+  {
+    "text": "schemer",
+    "start": "1:27.07"
+  },
+  {
+    "text": "might",
+    "start": "1:27.07"
+  },
+  {
+    "text": "be",
+    "start": "1:27.07"
+  },
+  {
+    "text": "selected",
+    "start": "1:27.07"
+  },
+  {
+    "text": "out,",
+    "start": "1:27.07"
+  },
+  {
+    "text": "but",
+    "start": "1:27.07"
+  },
+  {
+    "text": "that",
+    "start": "1:27.07"
+  },
+  {
+    "text": "depends",
+    "start": "1:27.07"
+  },
+  {
+    "text": "on",
+    "start": "1:29.93"
+  },
+  {
+    "text": "how",
+    "start": "1:29.93"
+  },
+  {
+    "text": "much",
+    "start": "1:29.93"
+  },
+  {
+    "text": "selection",
+    "start": "1:29.93"
+  },
+  {
+    "text": "pressure",
+    "start": "1:29.93"
+  },
+  {
+    "text": "there",
+    "start": "1:29.93"
+  },
+  {
+    "text": "is",
+    "start": "1:29.93"
+  },
+  {
+    "text": "on",
+    "start": "1:29.93"
+  },
+  {
+    "text": "your",
+    "start": "1:29.93"
+  },
+  {
+    "text": "training",
+    "start": "1:29.93"
+  },
+  {
+    "text": "and",
+    "start": "1:32.80"
+  },
+  {
+    "text": "how",
+    "start": "1:32.80"
+  },
+  {
+    "text": "much",
+    "start": "1:32.80"
+  },
+  {
+    "text": "more",
+    "start": "1:32.80"
+  },
+  {
+    "text": "complex",
+    "start": "1:32.80"
+  },
+  {
+    "text": "the",
+    "start": "1:35.47"
+  },
+  {
+    "text": "schemer",
+    "start": "1:35.47"
+  },
+  {
+    "text": "is",
+    "start": "1:35.47"
+  },
+  {
+    "text": "compared",
+    "start": "1:35.47"
+  },
+  {
+    "text": "to",
+    "start": "1:35.47"
+  },
+  {
+    "text": "the",
+    "start": "1:35.47"
+  },
+  {
+    "text": "non-schemer.",
+    "start": "1:35.47"
+  },
+  {
+    "text": "And",
+    "start": "1:37.77"
+  },
+  {
+    "text": "understanding",
+    "start": "1:37.77"
+  },
+  {
+    "text": "these",
+    "start": "1:37.77"
+  },
+  {
+    "text": "implicit",
+    "start": "1:37.77"
+  },
+  {
+    "text": "biases,",
+    "start": "1:37.77"
+  },
+  {
+    "text": "like",
+    "start": "1:37.77"
+  },
+  {
+    "text": "can",
+    "start": "1:39.47"
+  },
+  {
+    "text": "we",
+    "start": "1:39.47"
+  },
+  {
+    "text": "make",
+    "start": "1:39.47"
+  },
+  {
+    "text": "explicit",
+    "start": "1:39.47"
+  },
+  {
+    "text": "this",
+    "start": "1:39.47"
+  },
+  {
+    "text": "complexity",
+    "start": "1:39.47"
+  },
+  {
+    "text": "functional",
+    "start": "1:39.47"
+  },
+  {
+    "text": "that",
+    "start": "1:39.47"
+  },
+  {
+    "text": "when",
+    "start": "1:43.30"
+  },
+  {
+    "text": "you",
+    "start": "1:43.30"
+  },
+  {
+    "text": "are",
+    "start": "1:43.30"
+  },
+  {
+    "text": "minimizing",
+    "start": "1:43.30"
+  },
+  {
+    "text": "some",
+    "start": "1:43.30"
+  },
+  {
+    "text": "loss",
+    "start": "1:43.30"
+  },
+  {
+    "text": "function",
+    "start": "1:43.30"
+  },
+  {
+    "text": "with",
+    "start": "1:43.30"
+  },
+  {
+    "text": "some",
+    "start": "1:43.30"
+  },
+  {
+    "text": "architectural",
+    "start": "1:45.90"
+  },
+  {
+    "text": "choice",
+    "start": "1:45.90"
+  },
+  {
+    "text": "and",
+    "start": "1:45.90"
+  },
+  {
+    "text": "some",
+    "start": "1:45.90"
+  },
+  {
+    "text": "optimizer",
+    "start": "1:45.90"
+  },
+  {
+    "text": "and",
+    "start": "1:45.90"
+  },
+  {
+    "text": "some",
+    "start": "1:45.90"
+  },
+  {
+    "text": "data,",
+    "start": "1:45.90"
+  },
+  {
+    "text": "what",
+    "start": "1:48.57"
+  },
+  {
+    "text": "is",
+    "start": "1:48.57"
+  },
+  {
+    "text": "this",
+    "start": "1:48.57"
+  },
+  {
+    "text": "complexity",
+    "start": "1:48.57"
+  },
+  {
+    "text": "functional",
+    "start": "1:48.57"
+  },
+  {
+    "text": "mathematically?",
+    "start": "1:48.57"
+  },
+  {
+    "text": "For",
+    "start": "1:52.13"
+  },
+  {
+    "text": "example,",
+    "start": "1:52.13"
+  },
+  {
+    "text": "Singular",
+    "start": "1:52.13"
+  },
+  {
+    "text": "Learning",
+    "start": "1:52.13"
+  },
+  {
+    "text": "Theory",
+    "start": "1:52.13"
+  },
+  {
+    "text": "is",
+    "start": "1:52.13"
+  },
+  {
+    "text": "talking",
+    "start": "1:52.13"
+  },
+  {
+    "text": "about",
+    "start": "1:52.13"
+  },
+  {
+    "text": "a",
+    "start": "1:56.43"
+  },
+  {
+    "text": "particular",
+    "start": "1:56.43"
+  },
+  {
+    "text": "kind",
+    "start": "1:56.43"
+  },
+  {
+    "text": "of",
+    "start": "1:56.43"
+  },
+  {
+    "text": "complexity",
+    "start": "1:56.43"
+  },
+  {
+    "text": "functional",
+    "start": "1:56.43"
+  },
+  {
+    "text": "with",
+    "start": "1:56.43"
+  },
+  {
+    "text": "the",
+    "start": "1:56.43"
+  },
+  {
+    "text": "local",
+    "start": "1:56.43"
+  },
+  {
+    "text": "learning",
+    "start": "1:59.53"
+  },
+  {
+    "text": "coefficient,",
+    "start": "1:59.53"
+  },
+  {
+    "text": "which",
+    "start": "1:59.53"
+  },
+  {
+    "text": "works",
+    "start": "1:59.53"
+  },
+  {
+    "text": "under",
+    "start": "1:59.53"
+  },
+  {
+    "text": "the",
+    "start": "1:59.53"
+  },
+  {
+    "text": "assumption",
+    "start": "1:59.53"
+  },
+  {
+    "text": "that",
+    "start": "1:59.53"
+  },
+  {
+    "text": "the",
+    "start": "2:03.43"
+  },
+  {
+    "text": "model",
+    "start": "2:03.43"
+  },
+  {
+    "text": "is",
+    "start": "2:03.43"
+  },
+  {
+    "text": "learning",
+    "start": "2:03.43"
+  },
+  {
+    "text": "via",
+    "start": "2:03.43"
+  },
+  {
+    "text": "some",
+    "start": "2:03.43"
+  },
+  {
+    "text": "Bayesian",
+    "start": "2:03.43"
+  },
+  {
+    "text": "learning",
+    "start": "2:03.43"
+  },
+  {
+    "text": "process.",
+    "start": "2:03.43"
+  },
+  {
+    "text": "But",
+    "start": "2:08.47"
+  },
+  {
+    "text": "we",
+    "start": "2:08.47"
+  },
+  {
+    "text": "are",
+    "start": "2:08.47"
+  },
+  {
+    "text": "also",
+    "start": "2:08.47"
+  },
+  {
+    "text": "interested",
+    "start": "2:08.47"
+  },
+  {
+    "text": "in",
+    "start": "2:08.47"
+  },
+  {
+    "text": "understanding",
+    "start": "2:08.47"
+  },
+  {
+    "text": "deep",
+    "start": "2:10.40"
+  },
+  {
+    "text": "neural",
+    "start": "2:10.40"
+  },
+  {
+    "text": "networks",
+    "start": "2:10.40"
+  },
+  {
+    "text": "which",
+    "start": "2:10.40"
+  },
+  {
+    "text": "are",
+    "start": "2:10.40"
+  },
+  {
+    "text": "trained",
+    "start": "2:11.60"
+  },
+  {
+    "text": "by",
+    "start": "2:11.60"
+  },
+  {
+    "text": "stochastic",
+    "start": "2:11.60"
+  },
+  {
+    "text": "gradient",
+    "start": "2:11.60"
+  },
+  {
+    "text": "descent",
+    "start": "2:11.60"
+  },
+  {
+    "text": "which",
+    "start": "2:13.43"
+  },
+  {
+    "text": "might",
+    "start": "2:13.43"
+  },
+  {
+    "text": "have",
+    "start": "2:13.43"
+  },
+  {
+    "text": "some",
+    "start": "2:13.43"
+  },
+  {
+    "text": "different",
+    "start": "2:13.43"
+  },
+  {
+    "text": "implicit",
+    "start": "2:16.77"
+  },
+  {
+    "text": "biases",
+    "start": "2:16.77"
+  },
+  {
+    "text": "from",
+    "start": "2:16.77"
+  },
+  {
+    "text": "the",
+    "start": "2:16.77"
+  },
+  {
+    "text": "Bayesian",
+    "start": "2:16.77"
+  },
+  {
+    "text": "learning",
+    "start": "2:18.60"
+  },
+  {
+    "text": "process.",
+    "start": "2:18.60"
+  },
+  {
+    "text": "So",
+    "start": "2:20.10"
+  },
+  {
+    "text": "we",
+    "start": "2:20.10"
+  },
+  {
+    "text": "want",
+    "start": "2:20.10"
+  },
+  {
+    "text": "a",
+    "start": "2:20.10"
+  },
+  {
+    "text": "sort",
+    "start": "2:20.10"
+  },
+  {
+    "text": "of",
+    "start": "2:20.10"
+  },
+  {
+    "text": "more",
+    "start": "2:20.10"
+  },
+  {
+    "text": "native",
+    "start": "2:20.10"
+  },
+  {
+    "text": "deep",
+    "start": "2:22.10"
+  },
+  {
+    "text": "learning",
+    "start": "2:22.10"
+  },
+  {
+    "text": "native",
+    "start": "2:22.10"
+  },
+  {
+    "text": "way",
+    "start": "2:22.10"
+  },
+  {
+    "text": "of",
+    "start": "2:22.10"
+  },
+  {
+    "text": "understanding",
+    "start": "2:22.10"
+  },
+  {
+    "text": "the",
+    "start": "2:22.10"
+  },
+  {
+    "text": "implicit",
+    "start": "2:24.43"
+  },
+  {
+    "text": "biases.",
+    "start": "2:24.43"
+  },
+  {
+    "text": "Learning",
+    "start": "2:25.80"
+  },
+  {
+    "text": "dynamics",
+    "start": "2:25.80"
+  },
+  {
+    "text": "would",
+    "start": "2:25.80"
+  },
+  {
+    "text": "help",
+    "start": "2:25.80"
+  },
+  {
+    "text": "us",
+    "start": "2:25.80"
+  },
+  {
+    "text": "make",
+    "start": "2:27.00"
+  },
+  {
+    "text": "progress",
+    "start": "2:27.00"
+  },
+  {
+    "text": "on",
+    "start": "2:27.00"
+  },
+  {
+    "text": "interpretability.",
+    "start": "2:27.00"
+  },
+  {
+    "text": "People",
+    "start": "2:28.90"
+  },
+  {
+    "text": "use",
+    "start": "2:28.90"
+  },
+  {
+    "text": "interpretability",
+    "start": "2:28.90"
+  },
+  {
+    "text": "tools",
+    "start": "2:28.90"
+  },
+  {
+    "text": "to",
+    "start": "2:28.90"
+  },
+  {
+    "text": "try",
+    "start": "2:28.90"
+  },
+  {
+    "text": "to",
+    "start": "2:28.90"
+  },
+  {
+    "text": "understand",
+    "start": "2:28.90"
+  },
+  {
+    "text": "what",
+    "start": "2:33.53"
+  },
+  {
+    "text": "sort",
+    "start": "2:33.53"
+  },
+  {
+    "text": "of",
+    "start": "2:33.53"
+  },
+  {
+    "text": "circuits",
+    "start": "2:33.53"
+  },
+  {
+    "text": "did",
+    "start": "2:33.53"
+  },
+  {
+    "text": "the",
+    "start": "2:33.53"
+  },
+  {
+    "text": "model",
+    "start": "2:33.53"
+  },
+  {
+    "text": "learn,",
+    "start": "2:33.53"
+  },
+  {
+    "text": "what",
+    "start": "2:36.07"
+  },
+  {
+    "text": "concepts",
+    "start": "2:36.07"
+  },
+  {
+    "text": "did",
+    "start": "2:36.07"
+  },
+  {
+    "text": "he",
+    "start": "2:36.07"
+  },
+  {
+    "text": "learn,",
+    "start": "2:36.07"
+  },
+  {
+    "text": "what",
+    "start": "2:37.67"
+  },
+  {
+    "text": "even",
+    "start": "2:37.67"
+  },
+  {
+    "text": "is",
+    "start": "2:37.67"
+  },
+  {
+    "text": "a",
+    "start": "2:37.67"
+  },
+  {
+    "text": "concept?",
+    "start": "2:37.67"
+  },
+  {
+    "text": "You",
+    "start": "2:39.10"
+  },
+  {
+    "text": "might",
+    "start": "2:39.10"
+  },
+  {
+    "text": "do",
+    "start": "2:39.10"
+  },
+  {
+    "text": "this",
+    "start": "2:39.10"
+  },
+  {
+    "text": "with",
+    "start": "2:40.07"
+  },
+  {
+    "text": "a",
+    "start": "2:40.07"
+  },
+  {
+    "text": "model",
+    "start": "2:40.07"
+  },
+  {
+    "text": "that",
+    "start": "2:40.07"
+  },
+  {
+    "text": "is",
+    "start": "2:40.07"
+  },
+  {
+    "text": "already",
+    "start": "2:40.07"
+  },
+  {
+    "text": "fully",
+    "start": "2:40.07"
+  },
+  {
+    "text": "trained,",
+    "start": "2:40.07"
+  },
+  {
+    "text": "where",
+    "start": "2:42.17"
+  },
+  {
+    "text": "there",
+    "start": "2:42.17"
+  },
+  {
+    "text": "is",
+    "start": "2:42.17"
+  },
+  {
+    "text": "a",
+    "start": "2:42.17"
+  },
+  {
+    "text": "lot",
+    "start": "2:42.17"
+  },
+  {
+    "text": "of",
+    "start": "2:42.17"
+  },
+  {
+    "text": "structure.",
+    "start": "2:42.17"
+  },
+  {
+    "text": "Reverse",
+    "start": "2:43.80"
+  },
+  {
+    "text": "engineering",
+    "start": "2:43.80"
+  },
+  {
+    "text": "all",
+    "start": "2:43.80"
+  },
+  {
+    "text": "that",
+    "start": "2:43.80"
+  },
+  {
+    "text": "structure",
+    "start": "2:43.80"
+  },
+  {
+    "text": "and",
+    "start": "2:43.80"
+  },
+  {
+    "text": "disentangling",
+    "start": "2:43.80"
+  },
+  {
+    "text": "all",
+    "start": "2:46.13"
+  },
+  {
+    "text": "that",
+    "start": "2:46.13"
+  },
+  {
+    "text": "structure",
+    "start": "2:46.13"
+  },
+  {
+    "text": "is",
+    "start": "2:46.13"
+  },
+  {
+    "text": "very",
+    "start": "2:46.13"
+  },
+  {
+    "text": "complex.",
+    "start": "2:46.13"
+  },
+  {
+    "text": "And",
+    "start": "2:48.80"
+  },
+  {
+    "text": "the",
+    "start": "2:48.80"
+  },
+  {
+    "text": "idea",
+    "start": "2:48.80"
+  },
+  {
+    "text": "is",
+    "start": "2:48.80"
+  },
+  {
+    "text": "like",
+    "start": "2:48.80"
+  },
+  {
+    "text": "maybe",
+    "start": "2:48.80"
+  },
+  {
+    "text": "we",
+    "start": "2:48.80"
+  },
+  {
+    "text": "can",
+    "start": "2:48.80"
+  },
+  {
+    "text": "use",
+    "start": "2:48.80"
+  },
+  {
+    "text": "training",
+    "start": "2:48.80"
+  },
+  {
+    "text": "dynamics",
+    "start": "2:48.80"
+  },
+  {
+    "text": "to",
+    "start": "2:48.80"
+  },
+  {
+    "text": "decompose",
+    "start": "2:53.30"
+  },
+  {
+    "text": "structure",
+    "start": "2:53.30"
+  },
+  {
+    "text": "more",
+    "start": "2:54.43"
+  },
+  {
+    "text": "easily",
+    "start": "2:54.43"
+  },
+  {
+    "text": "because",
+    "start": "2:54.43"
+  },
+  {
+    "text": "structure",
+    "start": "2:54.43"
+  },
+  {
+    "text": "is",
+    "start": "2:54.43"
+  },
+  {
+    "text": "formed",
+    "start": "2:54.43"
+  },
+  {
+    "text": "throughout",
+    "start": "2:54.43"
+  },
+  {
+    "text": "training",
+    "start": "2:54.43"
+  },
+  {
+    "text": "at",
+    "start": "2:57.53"
+  },
+  {
+    "text": "different",
+    "start": "2:57.53"
+  },
+  {
+    "text": "points",
+    "start": "2:57.53"
+  },
+  {
+    "text": "during",
+    "start": "2:57.53"
+  },
+  {
+    "text": "the",
+    "start": "2:57.53"
+  },
+  {
+    "text": "training",
+    "start": "2:57.53"
+  },
+  {
+    "text": "process.",
+    "start": "2:57.53"
+  },
+  {
+    "text": "If",
+    "start": "2:59.57"
+  },
+  {
+    "text": "we",
+    "start": "2:59.57"
+  },
+  {
+    "text": "understand",
+    "start": "2:59.57"
+  },
+  {
+    "text": "the",
+    "start": "2:59.57"
+  },
+  {
+    "text": "training",
+    "start": "2:59.57"
+  },
+  {
+    "text": "process,",
+    "start": "2:59.57"
+  },
+  {
+    "text": "then",
+    "start": "2:59.57"
+  },
+  {
+    "text": "maybe",
+    "start": "2:59.57"
+  },
+  {
+    "text": "we",
+    "start": "2:59.57"
+  },
+  {
+    "text": "understand",
+    "start": "3:01.33"
+  },
+  {
+    "text": "like",
+    "start": "3:01.33"
+  },
+  {
+    "text": "in",
+    "start": "3:01.33"
+  },
+  {
+    "text": "what",
+    "start": "3:01.33"
+  },
+  {
+    "text": "basis",
+    "start": "3:01.33"
+  },
+  {
+    "text": "of",
+    "start": "3:01.33"
+  },
+  {
+    "text": "the",
+    "start": "3:01.33"
+  },
+  {
+    "text": "parameter",
+    "start": "3:01.33"
+  },
+  {
+    "text": "space",
+    "start": "3:01.33"
+  },
+  {
+    "text": "the",
+    "start": "3:05.77"
+  },
+  {
+    "text": "gradient",
+    "start": "3:05.77"
+  },
+  {
+    "text": "is",
+    "start": "3:05.77"
+  },
+  {
+    "text": "like",
+    "start": "3:05.77"
+  },
+  {
+    "text": "pointing",
+    "start": "3:05.77"
+  },
+  {
+    "text": "toward",
+    "start": "3:05.77"
+  },
+  {
+    "text": "and",
+    "start": "3:07.83"
+  },
+  {
+    "text": "maybe",
+    "start": "3:07.83"
+  },
+  {
+    "text": "we",
+    "start": "3:07.83"
+  },
+  {
+    "text": "can",
+    "start": "3:07.83"
+  },
+  {
+    "text": "use",
+    "start": "3:07.83"
+  },
+  {
+    "text": "that",
+    "start": "3:07.83"
+  },
+  {
+    "text": "information",
+    "start": "3:08.87"
+  },
+  {
+    "text": "to",
+    "start": "3:08.87"
+  },
+  {
+    "text": "extract",
+    "start": "3:08.87"
+  },
+  {
+    "text": "information",
+    "start": "3:08.87"
+  },
+  {
+    "text": "about",
+    "start": "3:10.87"
+  },
+  {
+    "text": "the",
+    "start": "3:10.87"
+  },
+  {
+    "text": "concepts",
+    "start": "3:10.87"
+  },
+  {
+    "text": "that",
+    "start": "3:10.87"
+  },
+  {
+    "text": "are",
+    "start": "3:10.87"
+  },
+  {
+    "text": "being",
+    "start": "3:10.87"
+  },
+  {
+    "text": "learned.",
+    "start": "3:10.87"
+  },
+  {
+    "text": "I",
+    "start": "3:12.70"
+  },
+  {
+    "text": "guess",
+    "start": "3:12.70"
+  },
+  {
+    "text": "one",
+    "start": "3:12.70"
+  },
+  {
+    "text": "other",
+    "start": "3:12.70"
+  },
+  {
+    "text": "motivation",
+    "start": "3:12.70"
+  },
+  {
+    "text": "for",
+    "start": "3:14.57"
+  },
+  {
+    "text": "training",
+    "start": "3:14.57"
+  },
+  {
+    "text": "dynamics",
+    "start": "3:14.57"
+  },
+  {
+    "text": "is",
+    "start": "3:14.57"
+  },
+  {
+    "text": "also",
+    "start": "3:14.57"
+  },
+  {
+    "text": "like",
+    "start": "3:14.57"
+  },
+  {
+    "text": "building",
+    "start": "3:16.33"
+  },
+  {
+    "text": "better",
+    "start": "3:16.33"
+  },
+  {
+    "text": "interpretability",
+    "start": "3:16.33"
+  },
+  {
+    "text": "tools.",
+    "start": "3:16.33"
+  },
+  {
+    "text": "If",
+    "start": "3:19.80"
+  },
+  {
+    "text": "you",
+    "start": "3:19.80"
+  },
+  {
+    "text": "look",
+    "start": "3:19.80"
+  },
+  {
+    "text": "at",
+    "start": "3:19.80"
+  },
+  {
+    "text": "gradient",
+    "start": "3:20.40"
+  },
+  {
+    "text": "descent",
+    "start": "3:20.40"
+  },
+  {
+    "text": "in",
+    "start": "3:20.40"
+  },
+  {
+    "text": "parameter",
+    "start": "3:20.40"
+  },
+  {
+    "text": "space,",
+    "start": "3:21.93"
+  },
+  {
+    "text": "you",
+    "start": "3:21.93"
+  },
+  {
+    "text": "can",
+    "start": "3:21.93"
+  },
+  {
+    "text": "push",
+    "start": "3:21.93"
+  },
+  {
+    "text": "it",
+    "start": "3:21.93"
+  },
+  {
+    "text": "to",
+    "start": "3:21.93"
+  },
+  {
+    "text": "a",
+    "start": "3:21.93"
+  },
+  {
+    "text": "gradient",
+    "start": "3:21.93"
+  },
+  {
+    "text": "descent",
+    "start": "3:26.97"
+  },
+  {
+    "text": "equation",
+    "start": "3:26.97"
+  },
+  {
+    "text": "in",
+    "start": "3:26.97"
+  },
+  {
+    "text": "function",
+    "start": "3:26.97"
+  },
+  {
+    "text": "space.",
+    "start": "3:26.97"
+  },
+  {
+    "text": "How",
+    "start": "3:29.97"
+  },
+  {
+    "text": "the",
+    "start": "3:29.97"
+  },
+  {
+    "text": "weights",
+    "start": "3:29.97"
+  },
+  {
+    "text": "evolve",
+    "start": "3:29.97"
+  },
+  {
+    "text": "during",
+    "start": "3:31.47"
+  },
+  {
+    "text": "time",
+    "start": "3:31.47"
+  },
+  {
+    "text": "is",
+    "start": "3:31.47"
+  },
+  {
+    "text": "a",
+    "start": "3:31.47"
+  },
+  {
+    "text": "gradient",
+    "start": "3:31.47"
+  },
+  {
+    "text": "of",
+    "start": "3:31.47"
+  },
+  {
+    "text": "the",
+    "start": "3:31.47"
+  },
+  {
+    "text": "loss.",
+    "start": "3:31.47"
+  },
+  {
+    "text": "And",
+    "start": "3:33.67"
+  },
+  {
+    "text": "you",
+    "start": "3:33.67"
+  },
+  {
+    "text": "can",
+    "start": "3:33.67"
+  },
+  {
+    "text": "push",
+    "start": "3:33.67"
+  },
+  {
+    "text": "this",
+    "start": "3:33.67"
+  },
+  {
+    "text": "dynamical",
+    "start": "3:35.67"
+  },
+  {
+    "text": "system",
+    "start": "3:35.67"
+  },
+  {
+    "text": "to",
+    "start": "3:35.67"
+  },
+  {
+    "text": "function",
+    "start": "3:35.67"
+  },
+  {
+    "text": "space,",
+    "start": "3:35.67"
+  },
+  {
+    "text": "where",
+    "start": "3:38.30"
+  },
+  {
+    "text": "instead",
+    "start": "3:38.30"
+  },
+  {
+    "text": "of",
+    "start": "3:38.30"
+  },
+  {
+    "text": "looking",
+    "start": "3:38.30"
+  },
+  {
+    "text": "at",
+    "start": "3:38.30"
+  },
+  {
+    "text": "the",
+    "start": "3:38.30"
+  },
+  {
+    "text": "weight",
+    "start": "3:38.30"
+  },
+  {
+    "text": "you",
+    "start": "3:39.30"
+  },
+  {
+    "text": "look",
+    "start": "3:39.30"
+  },
+  {
+    "text": "how",
+    "start": "3:39.30"
+  },
+  {
+    "text": "the",
+    "start": "3:39.30"
+  },
+  {
+    "text": "function",
+    "start": "3:39.30"
+  },
+  {
+    "text": "change",
+    "start": "3:39.30"
+  },
+  {
+    "text": "during",
+    "start": "3:39.30"
+  },
+  {
+    "text": "training.",
+    "start": "3:39.30"
+  },
+  {
+    "text": "It's",
+    "start": "3:42.53"
+  },
+  {
+    "text": "sort",
+    "start": "3:42.53"
+  },
+  {
+    "text": "of",
+    "start": "3:42.53"
+  },
+  {
+    "text": "like",
+    "start": "3:42.53"
+  },
+  {
+    "text": "gradient",
+    "start": "3:42.53"
+  },
+  {
+    "text": "descent",
+    "start": "3:42.53"
+  },
+  {
+    "text": "in",
+    "start": "3:42.53"
+  },
+  {
+    "text": "function",
+    "start": "3:42.53"
+  },
+  {
+    "text": "space,",
+    "start": "3:42.53"
+  },
+  {
+    "text": "except",
+    "start": "3:42.53"
+  },
+  {
+    "text": "that",
+    "start": "3:42.53"
+  },
+  {
+    "text": "now",
+    "start": "3:42.53"
+  },
+  {
+    "text": "you",
+    "start": "3:46.00"
+  },
+  {
+    "text": "have",
+    "start": "3:46.00"
+  },
+  {
+    "text": "this",
+    "start": "3:46.00"
+  },
+  {
+    "text": "NTK",
+    "start": "3:46.00"
+  },
+  {
+    "text": "operator",
+    "start": "3:46.00"
+  },
+  {
+    "text": "also",
+    "start": "3:46.00"
+  },
+  {
+    "text": "in",
+    "start": "3:49.27"
+  },
+  {
+    "text": "front",
+    "start": "3:49.27"
+  },
+  {
+    "text": "of",
+    "start": "3:49.27"
+  },
+  {
+    "text": "the",
+    "start": "3:49.27"
+  },
+  {
+    "text": "gradient.",
+    "start": "3:49.27"
+  },
+  {
+    "text": "So",
+    "start": "3:50.83"
+  },
+  {
+    "text": "you",
+    "start": "3:50.83"
+  },
+  {
+    "text": "are",
+    "start": "3:50.83"
+  },
+  {
+    "text": "going",
+    "start": "3:50.83"
+  },
+  {
+    "text": "down",
+    "start": "3:50.83"
+  },
+  {
+    "text": "the",
+    "start": "3:50.83"
+  },
+  {
+    "text": "loss",
+    "start": "3:50.83"
+  },
+  {
+    "text": "function",
+    "start": "3:50.83"
+  },
+  {
+    "text": "in",
+    "start": "3:53.10"
+  },
+  {
+    "text": "function",
+    "start": "3:53.10"
+  },
+  {
+    "text": "space",
+    "start": "3:53.10"
+  },
+  {
+    "text": "weighted",
+    "start": "3:53.10"
+  },
+  {
+    "text": "by",
+    "start": "3:53.10"
+  },
+  {
+    "text": "this",
+    "start": "3:53.10"
+  },
+  {
+    "text": "NTK",
+    "start": "3:53.10"
+  },
+  {
+    "text": "operator.",
+    "start": "3:53.10"
+  },
+  {
+    "text": "You",
+    "start": "3:57.00"
+  },
+  {
+    "text": "can",
+    "start": "3:57.00"
+  },
+  {
+    "text": "use",
+    "start": "3:57.00"
+  },
+  {
+    "text": "it",
+    "start": "3:57.00"
+  },
+  {
+    "text": "to",
+    "start": "3:57.00"
+  },
+  {
+    "text": "like",
+    "start": "3:57.00"
+  },
+  {
+    "text": "understand",
+    "start": "3:57.00"
+  },
+  {
+    "text": "are",
+    "start": "3:57.00"
+  },
+  {
+    "text": "you",
+    "start": "3:57.00"
+  },
+  {
+    "text": "in",
+    "start": "3:57.00"
+  },
+  {
+    "text": "a",
+    "start": "3:57.00"
+  },
+  {
+    "text": "regime",
+    "start": "3:57.00"
+  },
+  {
+    "text": "where",
+    "start": "3:57.00"
+  },
+  {
+    "text": "you",
+    "start": "4:00.13"
+  },
+  {
+    "text": "are",
+    "start": "4:00.13"
+  },
+  {
+    "text": "memorizing",
+    "start": "4:00.13"
+  },
+  {
+    "text": "the",
+    "start": "4:00.13"
+  },
+  {
+    "text": "training",
+    "start": "4:00.13"
+  },
+  {
+    "text": "data",
+    "start": "4:00.13"
+  },
+  {
+    "text": "or",
+    "start": "4:02.47"
+  },
+  {
+    "text": "are",
+    "start": "4:02.47"
+  },
+  {
+    "text": "you",
+    "start": "4:02.47"
+  },
+  {
+    "text": "in",
+    "start": "4:02.47"
+  },
+  {
+    "text": "a",
+    "start": "4:02.47"
+  },
+  {
+    "text": "regime",
+    "start": "4:02.47"
+  },
+  {
+    "text": "where",
+    "start": "4:02.47"
+  },
+  {
+    "text": "you",
+    "start": "4:02.47"
+  },
+  {
+    "text": "are",
+    "start": "4:02.47"
+  },
+  {
+    "text": "generalizing",
+    "start": "4:03.60"
+  },
+  {
+    "text": "on",
+    "start": "4:03.60"
+  },
+  {
+    "text": "the",
+    "start": "4:03.60"
+  },
+  {
+    "text": "training",
+    "start": "4:03.60"
+  },
+  {
+    "text": "data.",
+    "start": "4:03.60"
+  },
+  {
+    "text": "The",
+    "start": "4:05.93"
+  },
+  {
+    "text": "NTK",
+    "start": "4:05.93"
+  },
+  {
+    "text": "can",
+    "start": "4:05.93"
+  },
+  {
+    "text": "sometimes",
+    "start": "4:05.93"
+  },
+  {
+    "text": "help",
+    "start": "4:05.93"
+  },
+  {
+    "text": "you",
+    "start": "4:05.93"
+  },
+  {
+    "text": "figure",
+    "start": "4:05.93"
+  },
+  {
+    "text": "out",
+    "start": "4:05.93"
+  },
+  {
+    "text": "what",
+    "start": "4:05.93"
+  },
+  {
+    "text": "kind",
+    "start": "4:05.93"
+  },
+  {
+    "text": "of",
+    "start": "4:05.93"
+  },
+  {
+    "text": "regime",
+    "start": "4:09.33"
+  },
+  {
+    "text": "of",
+    "start": "4:09.33"
+  },
+  {
+    "text": "the",
+    "start": "4:09.33"
+  },
+  {
+    "text": "training",
+    "start": "4:09.33"
+  },
+  {
+    "text": "that",
+    "start": "4:09.33"
+  },
+  {
+    "text": "makes",
+    "start": "4:09.33"
+  },
+  {
+    "text": "you",
+    "start": "4:09.33"
+  },
+  {
+    "text": "are",
+    "start": "4:09.33"
+  },
+  {
+    "text": "in.",
+    "start": "4:09.33"
+  },
+  {
+    "text": "One",
+    "start": "4:11.63"
+  },
+  {
+    "text": "success",
+    "start": "4:11.63"
+  },
+  {
+    "text": "story",
+    "start": "4:11.63"
+  },
+  {
+    "text": "is",
+    "start": "4:11.63"
+  },
+  {
+    "text": "like",
+    "start": "4:11.63"
+  },
+  {
+    "text": "you",
+    "start": "4:13.43"
+  },
+  {
+    "text": "discover",
+    "start": "4:13.43"
+  },
+  {
+    "text": "some",
+    "start": "4:13.43"
+  },
+  {
+    "text": "new",
+    "start": "4:13.43"
+  },
+  {
+    "text": "observable",
+    "start": "4:13.43"
+  },
+  {
+    "text": "to",
+    "start": "4:15.33"
+  },
+  {
+    "text": "do",
+    "start": "4:15.33"
+  },
+  {
+    "text": "better",
+    "start": "4:15.33"
+  },
+  {
+    "text": "interpretability.",
+    "start": "4:15.33"
+  },
+  {
+    "text": "So,",
+    "start": "4:17.97"
+  },
+  {
+    "text": "for",
+    "start": "4:17.97"
+  },
+  {
+    "text": "example,",
+    "start": "4:17.97"
+  },
+  {
+    "text": "you",
+    "start": "4:17.97"
+  },
+  {
+    "text": "know,",
+    "start": "4:17.97"
+  },
+  {
+    "text": "the",
+    "start": "4:17.97"
+  },
+  {
+    "text": "NTK",
+    "start": "4:17.97"
+  },
+  {
+    "text": "operator",
+    "start": "4:17.97"
+  },
+  {
+    "text": "is",
+    "start": "4:17.97"
+  },
+  {
+    "text": "like",
+    "start": "4:17.97"
+  },
+  {
+    "text": "an",
+    "start": "4:22.17"
+  },
+  {
+    "text": "example",
+    "start": "4:22.17"
+  },
+  {
+    "text": "of",
+    "start": "4:22.17"
+  },
+  {
+    "text": "like,",
+    "start": "4:22.17"
+  },
+  {
+    "text": "oh,",
+    "start": "4:22.17"
+  },
+  {
+    "text": "yeah,",
+    "start": "4:22.17"
+  },
+  {
+    "text": "by",
+    "start": "4:22.17"
+  },
+  {
+    "text": "studying",
+    "start": "4:22.17"
+  },
+  {
+    "text": "learning",
+    "start": "4:22.17"
+  },
+  {
+    "text": "dynamics,",
+    "start": "4:22.17"
+  },
+  {
+    "text": "we",
+    "start": "4:25.30"
+  },
+  {
+    "text": "understand",
+    "start": "4:25.30"
+  },
+  {
+    "text": "that",
+    "start": "4:25.30"
+  },
+  {
+    "text": "this",
+    "start": "4:25.30"
+  },
+  {
+    "text": "particular",
+    "start": "4:25.30"
+  },
+  {
+    "text": "mathematical",
+    "start": "4:25.30"
+  },
+  {
+    "text": "operator",
+    "start": "4:25.30"
+  },
+  {
+    "text": "is",
+    "start": "4:25.30"
+  },
+  {
+    "text": "like",
+    "start": "4:28.53"
+  },
+  {
+    "text": "meaningful,",
+    "start": "4:28.53"
+  },
+  {
+    "text": "is",
+    "start": "4:28.53"
+  },
+  {
+    "text": "like",
+    "start": "4:28.53"
+  },
+  {
+    "text": "a",
+    "start": "4:28.53"
+  },
+  {
+    "text": "pretty",
+    "start": "4:28.53"
+  },
+  {
+    "text": "relevant",
+    "start": "4:28.53"
+  },
+  {
+    "text": "observable",
+    "start": "4:32.10"
+  },
+  {
+    "text": "to",
+    "start": "4:32.10"
+  },
+  {
+    "text": "try",
+    "start": "4:32.10"
+  },
+  {
+    "text": "to",
+    "start": "4:32.10"
+  },
+  {
+    "text": "track",
+    "start": "4:32.10"
+  },
+  {
+    "text": "and",
+    "start": "4:32.10"
+  },
+  {
+    "text": "try",
+    "start": "4:33.40"
+  },
+  {
+    "text": "to",
+    "start": "4:33.40"
+  },
+  {
+    "text": "extract",
+    "start": "4:33.40"
+  },
+  {
+    "text": "information",
+    "start": "4:33.40"
+  },
+  {
+    "text": "from.",
+    "start": "4:33.40"
+  },
+  {
+    "text": "And",
+    "start": "4:34.93"
+  },
+  {
+    "text": "then",
+    "start": "4:34.93"
+  },
+  {
+    "text": "you",
+    "start": "4:34.93"
+  },
+  {
+    "text": "can",
+    "start": "4:34.93"
+  },
+  {
+    "text": "try",
+    "start": "4:34.93"
+  },
+  {
+    "text": "to",
+    "start": "4:34.93"
+  },
+  {
+    "text": "like",
+    "start": "4:34.93"
+  },
+  {
+    "text": "build",
+    "start": "4:36.37"
+  },
+  {
+    "text": "some",
+    "start": "4:36.37"
+  },
+  {
+    "text": "new",
+    "start": "4:36.37"
+  },
+  {
+    "text": "interpretability",
+    "start": "4:36.37"
+  },
+  {
+    "text": "tools",
+    "start": "4:36.37"
+  },
+  {
+    "text": "that",
+    "start": "4:36.37"
+  },
+  {
+    "text": "are",
+    "start": "4:36.37"
+  },
+  {
+    "text": "competitive",
+    "start": "4:36.37"
+  },
+  {
+    "text": "or",
+    "start": "4:38.93"
+  },
+  {
+    "text": "better",
+    "start": "4:38.93"
+  },
+  {
+    "text": "than",
+    "start": "4:38.93"
+  },
+  {
+    "text": "like",
+    "start": "4:38.93"
+  },
+  {
+    "text": "the",
+    "start": "4:38.93"
+  },
+  {
+    "text": "one",
+    "start": "4:38.93"
+  },
+  {
+    "text": "that",
+    "start": "4:38.93"
+  },
+  {
+    "text": "already",
+    "start": "4:38.93"
+  },
+  {
+    "text": "exists,",
+    "start": "4:38.93"
+  },
+  {
+    "text": "and",
+    "start": "4:40.77"
+  },
+  {
+    "text": "then",
+    "start": "4:40.77"
+  },
+  {
+    "text": "maybe",
+    "start": "4:40.77"
+  },
+  {
+    "text": "AI",
+    "start": "4:40.77"
+  },
+  {
+    "text": "company",
+    "start": "4:40.77"
+  },
+  {
+    "text": "will",
+    "start": "4:40.77"
+  },
+  {
+    "text": "use",
+    "start": "4:40.77"
+  },
+  {
+    "text": "some",
+    "start": "4:40.77"
+  },
+  {
+    "text": "of",
+    "start": "4:40.77"
+  },
+  {
+    "text": "these",
+    "start": "4:40.77"
+  },
+  {
+    "text": "tools.",
+    "start": "4:40.77"
+  },
+  {
+    "text": "Another",
+    "start": "4:44.37"
+  },
+  {
+    "text": "story,",
+    "start": "4:44.37"
+  },
+  {
+    "text": "there",
+    "start": "4:44.37"
+  },
+  {
+    "text": "are",
+    "start": "4:44.37"
+  },
+  {
+    "text": "some",
+    "start": "4:44.37"
+  },
+  {
+    "text": "pretty",
+    "start": "4:44.37"
+  },
+  {
+    "text": "fundamental",
+    "start": "4:44.37"
+  },
+  {
+    "text": "question",
+    "start": "4:44.37"
+  },
+  {
+    "text": "that",
+    "start": "4:44.37"
+  },
+  {
+    "text": "we",
+    "start": "4:44.37"
+  },
+  {
+    "text": "need",
+    "start": "4:44.37"
+  },
+  {
+    "text": "to",
+    "start": "4:44.37"
+  },
+  {
+    "text": "figure",
+    "start": "4:47.83"
+  },
+  {
+    "text": "out,",
+    "start": "4:47.83"
+  },
+  {
+    "text": "if",
+    "start": "4:47.83"
+  },
+  {
+    "text": "we",
+    "start": "4:47.83"
+  },
+  {
+    "text": "want",
+    "start": "4:47.83"
+  },
+  {
+    "text": "more",
+    "start": "4:49.23"
+  },
+  {
+    "text": "ambitious",
+    "start": "4:49.23"
+  },
+  {
+    "text": "approach",
+    "start": "4:49.23"
+  },
+  {
+    "text": "to",
+    "start": "4:49.23"
+  },
+  {
+    "text": "solving",
+    "start": "4:49.23"
+  },
+  {
+    "text": "AI",
+    "start": "4:49.23"
+  },
+  {
+    "text": "alignment.",
+    "start": "4:49.23"
+  },
+  {
+    "text": "Maybe",
+    "start": "4:52.03"
+  },
+  {
+    "text": "you",
+    "start": "4:52.03"
+  },
+  {
+    "text": "want",
+    "start": "4:52.03"
+  },
+  {
+    "text": "to",
+    "start": "4:52.03"
+  },
+  {
+    "text": "get",
+    "start": "4:52.03"
+  },
+  {
+    "text": "like",
+    "start": "4:52.03"
+  },
+  {
+    "text": "bound",
+    "start": "4:53.17"
+  },
+  {
+    "text": "or",
+    "start": "4:53.17"
+  },
+  {
+    "text": "probabilistic",
+    "start": "4:53.17"
+  },
+  {
+    "text": "guarantees",
+    "start": "4:53.17"
+  },
+  {
+    "text": "that",
+    "start": "4:53.17"
+  },
+  {
+    "text": "like",
+    "start": "4:53.17"
+  },
+  {
+    "text": "your",
+    "start": "4:55.80"
+  },
+  {
+    "text": "AI",
+    "start": "4:55.80"
+  },
+  {
+    "text": "is",
+    "start": "4:55.80"
+  },
+  {
+    "text": "going",
+    "start": "4:55.80"
+  },
+  {
+    "text": "to",
+    "start": "4:55.80"
+  },
+  {
+    "text": "be",
+    "start": "4:55.80"
+  },
+  {
+    "text": "safe",
+    "start": "4:55.80"
+  },
+  {
+    "text": "in",
+    "start": "4:55.80"
+  },
+  {
+    "text": "certain",
+    "start": "4:55.80"
+  },
+  {
+    "text": "ways.",
+    "start": "4:55.80"
+  },
+  {
+    "text": "Having",
+    "start": "4:58.97"
+  },
+  {
+    "text": "a",
+    "start": "4:58.97"
+  },
+  {
+    "text": "better",
+    "start": "4:58.97"
+  },
+  {
+    "text": "understanding",
+    "start": "4:58.97"
+  },
+  {
+    "text": "of",
+    "start": "5:00.20"
+  },
+  {
+    "text": "like",
+    "start": "5:00.20"
+  },
+  {
+    "text": "how",
+    "start": "5:00.20"
+  },
+  {
+    "text": "learning",
+    "start": "5:00.20"
+  },
+  {
+    "text": "works",
+    "start": "5:00.20"
+  },
+  {
+    "text": "is",
+    "start": "5:00.20"
+  },
+  {
+    "text": "like,",
+    "start": "5:00.20"
+  },
+  {
+    "text": "pretty",
+    "start": "5:02.63"
+  },
+  {
+    "text": "useful",
+    "start": "5:02.63"
+  },
+  {
+    "text": "for",
+    "start": "5:02.63"
+  },
+  {
+    "text": "that,",
+    "start": "5:02.63"
+  },
+  {
+    "text": "basically.",
+    "start": "5:02.63"
+  },
+  {
+    "text": "You",
+    "start": "5:04.23"
+  },
+  {
+    "text": "got",
+    "start": "5:04.23"
+  },
+  {
+    "text": "to",
+    "start": "5:04.23"
+  },
+  {
+    "text": "try",
+    "start": "5:04.23"
+  },
+  {
+    "text": "to",
+    "start": "5:04.23"
+  },
+  {
+    "text": "get",
+    "start": "5:04.23"
+  },
+  {
+    "text": "a",
+    "start": "5:04.23"
+  },
+  {
+    "text": "better",
+    "start": "5:04.23"
+  },
+  {
+    "text": "understanding",
+    "start": "5:04.23"
+  },
+  {
+    "text": "of",
+    "start": "5:04.23"
+  },
+  {
+    "text": "learning.",
+    "start": "5:04.23"
+  },
+  {
+    "text": "I",
+    "start": "5:06.43"
+  },
+  {
+    "text": "think",
+    "start": "5:06.43"
+  },
+  {
+    "text": "interpretability",
+    "start": "5:06.43"
+  },
+  {
+    "text": "is",
+    "start": "5:06.43"
+  },
+  {
+    "text": "also",
+    "start": "5:06.43"
+  },
+  {
+    "text": "for",
+    "start": "5:06.43"
+  },
+  {
+    "text": "example",
+    "start": "5:06.43"
+  },
+  {
+    "text": "struggling",
+    "start": "5:06.43"
+  },
+  {
+    "text": "with",
+    "start": "5:08.90"
+  },
+  {
+    "text": "like",
+    "start": "5:08.90"
+  },
+  {
+    "text": "fundamental",
+    "start": "5:08.90"
+  },
+  {
+    "text": "question",
+    "start": "5:08.90"
+  },
+  {
+    "text": "about",
+    "start": "5:08.90"
+  },
+  {
+    "text": "like",
+    "start": "5:10.53"
+  },
+  {
+    "text": "what",
+    "start": "5:10.53"
+  },
+  {
+    "text": "is",
+    "start": "5:10.53"
+  },
+  {
+    "text": "a",
+    "start": "5:10.53"
+  },
+  {
+    "text": "feature,",
+    "start": "5:10.53"
+  },
+  {
+    "text": "what",
+    "start": "5:10.53"
+  },
+  {
+    "text": "is",
+    "start": "5:10.53"
+  },
+  {
+    "text": "a",
+    "start": "5:10.53"
+  },
+  {
+    "text": "concept?",
+    "start": "5:10.53"
+  },
+  {
+    "text": "What",
+    "start": "5:12.83"
+  },
+  {
+    "text": "is",
+    "start": "5:12.83"
+  },
+  {
+    "text": "a",
+    "start": "5:12.83"
+  },
+  {
+    "text": "what",
+    "start": "5:12.83"
+  },
+  {
+    "text": "are",
+    "start": "5:12.83"
+  },
+  {
+    "text": "the",
+    "start": "5:12.83"
+  },
+  {
+    "text": "sort",
+    "start": "5:12.83"
+  },
+  {
+    "text": "of",
+    "start": "5:12.83"
+  },
+  {
+    "text": "like",
+    "start": "5:12.83"
+  },
+  {
+    "text": "natural",
+    "start": "5:12.83"
+  },
+  {
+    "text": "objects",
+    "start": "5:15.23"
+  },
+  {
+    "text": "or",
+    "start": "5:15.23"
+  },
+  {
+    "text": "concepts",
+    "start": "5:15.23"
+  },
+  {
+    "text": "mathematical",
+    "start": "5:17.53"
+  },
+  {
+    "text": "object",
+    "start": "5:17.53"
+  },
+  {
+    "text": "that",
+    "start": "5:17.53"
+  },
+  {
+    "text": "we",
+    "start": "5:17.53"
+  },
+  {
+    "text": "should",
+    "start": "5:17.53"
+  },
+  {
+    "text": "use",
+    "start": "5:17.53"
+  },
+  {
+    "text": "to",
+    "start": "5:17.53"
+  },
+  {
+    "text": "understand",
+    "start": "5:17.53"
+  },
+  {
+    "text": "how",
+    "start": "5:17.53"
+  },
+  {
+    "text": "the",
+    "start": "5:21.43"
+  },
+  {
+    "text": "neural",
+    "start": "5:21.43"
+  },
+  {
+    "text": "network",
+    "start": "5:21.43"
+  },
+  {
+    "text": "is",
+    "start": "5:21.43"
+  },
+  {
+    "text": "thinking.",
+    "start": "5:21.43"
+  },
+  {
+    "text": "We",
+    "start": "5:23.13"
+  },
+  {
+    "text": "are",
+    "start": "5:23.13"
+  },
+  {
+    "text": "like",
+    "start": "5:23.13"
+  },
+  {
+    "text": "pretty",
+    "start": "5:23.13"
+  },
+  {
+    "text": "fundamentally",
+    "start": "5:23.13"
+  },
+  {
+    "text": "confused",
+    "start": "5:23.13"
+  },
+  {
+    "text": "about",
+    "start": "5:23.13"
+  },
+  {
+    "text": "these",
+    "start": "5:25.70"
+  },
+  {
+    "text": "questions",
+    "start": "5:25.70"
+  }
+]
