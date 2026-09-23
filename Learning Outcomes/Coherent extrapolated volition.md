@@ -1,6 +1,6 @@
 ---
 id: 'a7bc0219-1e9f-4524-99ac-701ae7837c90'
-learning-outcome: "Explain what an extrapolated-volition alignment target (such as coherent extrapolated volition) aims to achieve that a target based on people's current stated preferences does not, and identify the value-laden design choices inside such a target (how preferences are extrapolated, whose preferences count, and how disagreement is handled) and how each could change what the AI does."
+learning-outcome: "Explain what an extrapolated-volition alignment target (such as coherent extrapolated volition) aims to achieve that a target based on people's current stated preferences does not, and identify the value-laden design choices inside such a target (how preferences are extrapolated, whose preferences count, and how disagreement is handled) and how each could change what the AI does, well enough to judge whether such a target is worth aiming at."
 topic: "[[../Domains and Topics/3 Alignment/Alignment targets]]"
 stage: advanced
 authors:
