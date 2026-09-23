@@ -40,13 +40,13 @@ To this end, 42 provide a draft international agreement aimed at preventing the 
 
 We focus instead on the verification question: How could governments verify compliance with restrictions on AI research, especially within signatory countries? We answer this question in two ways:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167977861}@@•
     
-    First, we analyze key factors influencing the verifiability of research restrictions. These include the need for compute in testing research ideas, the present rarity of human experts who can push the frontier, and the likely automation of AI research activities.
+    --}First, we analyze key factors influencing the verifiability of research restrictions. These include the need for compute in testing research ideas, the present rarity of human experts who can push the frontier, and the likely automation of AI research activities.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167977861}@@•
     
-    Second, we map the space of potential verification mechanisms, cataloging 28 high-level mechanisms that could be used to verify compliance with research restrictions. Examples of these mechanisms include whistleblowers, automated code reviews, and sting operations.
+    --}Second, we map the space of potential verification mechanisms, cataloging 28 high-level mechanisms that could be used to verify compliance with research restrictions. Examples of these mechanisms include whistleblowers, automated code reviews, and sting operations.
     
 
 To simplify, we use specific terminology throughout this paper. Restricted research refers to research that is prohibited by an international agreement, for instance because it contributes to AI capabilities or threatens the verification system; this paper remains agnostic about where the boundaries of that category should be drawn. 42 use restricted research as an umbrella term covering two forms: controlled research, which is subject to monitoring, and banned research, which is disallowed. In this paper, we use restricted research to refer to the latter. High-risk organizations and researchers are organizations and individuals that are relatively likely to carry out impactful restricted research, for instance because their legitimate work is similar to restricted research (i.e., it falls in the controlled category) or because they have relevant expertise and resources. For example, current AI developers such as OpenAI and Anthropic would qualify as high-risk organizations due to their expertise and resources. After an agreement, they would not be allowed to continue conducting frontier capabilities research, but they could, for instance, serve existing models.

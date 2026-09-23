@@ -102,13 +102,9 @@ Prior works have found that humans use AI in many different ways for coding: fro
 
 Based on this background, we focus on on-the-job learning: settings where workers must acquire new skills to complete tasks. We seek to understand both the impact of AI on productivity and skill formation. We ask whether AI assistance presents a tradeoff between immediate productivity and longer-term skill development or if AI assistance presents a shortcut to enhance both. Our research questions are as follows:
 
--   •
+-   RQ1: Does AI assistance improve task completion productivity when new skills are required?
     
-    RQ1: Does AI assistance improve task completion productivity when new skills are required?
-    
--   •
-    
-    RQ2: How does using AI assistance affect the development of these new skills?
+-   RQ2: How does using AI assistance affect the development of these new skills?
     
 
 ## 4 Methods ^methods
@@ -131,21 +127,13 @@ We used an online interview platform with an AI assistant chat interface (Figure
 
 Based on a previous meta-analysis of evaluations in computer science education \[Cheng et al., 2022\], we identify four types of questions used to assess the mastery of coding skills. Returning to our initial motivation of developing and retaining the skills required for supervising automation, proficiency in some of these areas may be more important than others for the oversight of AI-generated code. The four types of questions we consider are the following.
 
--   •
+-   Debugging The ability to identify and diagnose errors in code. This skill is crucial for detecting when AI-generated code is incorrect and understanding why it fails.
     
-    Debugging The ability to identify and diagnose errors in code. This skill is crucial for detecting when AI-generated code is incorrect and understanding why it fails.
+-   Code Reading The ability to read and comprehend what code does. This skill enables humans to understand and verify AI-written code before deployment.
     
--   •
+-   Code Writing The ability to write or pick the right way to write code. Low-level code writing, like remembering the syntax of functions, will be less important with further integration of AI coding tools than high-level system design.
     
-    Code Reading The ability to read and comprehend what code does. This skill enables humans to understand and verify AI-written code before deployment.
-    
--   •
-    
-    Code Writing The ability to write or pick the right way to write code. Low-level code writing, like remembering the syntax of functions, will be less important with further integration of AI coding tools than high-level system design.
-    
--   •
-    
-    Conceptual The ability to understand the core principles behind tools and libraries. Conceptual understanding is critical to assess whether AI-generated code uses appropriate design patterns that adheres to how the library should be used.
+-   Conceptual The ability to understand the core principles behind tools and libraries. Conceptual understanding is critical to assess whether AI-generated code uses appropriate design patterns that adheres to how the library should be used.
     
 
 The two tasks in our study cover 7 core concepts from the Trio library. We designed a quiz with debugging, code reading, and conceptual questions that cover these 7 concepts. We exclude code writing questions to reduce the impact of syntax errors in our evaluation; these errors can be easily corrected with an AI query or web search. We tested 5 versions (Table 2) of the quiz in user testing and preliminary studies based on item response theory. For example, we ensure that all questions are sufficiently correlated with the overall quiz score, that each question has an appropriate average score, and that the questions are split up such that there is no local item dependence between questions (i.e., participants could not infer the answers to a question by looking at other questions). The final evaluation we used contained 14 questions for a total of 27 points. We submitted the grading rubric for the quiz in our study pre-registration before running the experiment.
@@ -257,53 +245,33 @@ Although overall statistics on productivity and quiz score shed light on a high-
 
 Analyzing these concepts or common patterns among participants helps supplement our quantitative observations of skill formation and task completion in this new library. Specifically, the following axes shows differences between participants and across conditions:
 
--   •
+-   AI Interaction Time: The lack of significant speed-up in the AI condition can be explained by how some participants used AI. Several participants spent substantial time interacting with the AI assistant, spending up to 11 minutes composing AI queries in total (Figure 12).
     
-    AI Interaction Time: The lack of significant speed-up in the AI condition can be explained by how some participants used AI. Several participants spent substantial time interacting with the AI assistant, spending up to 11 minutes composing AI queries in total (Figure 12).
+-   Query Types: The study participants varied between conceptual questions only, code generation only, and a mixture of conceptual, debugging, and code generation queries. Participants who focused on asking the AI assistant debugging questions or confirming their answer spent more time on the task (Figure 19).
     
--   •
+-   Encountering Errors: Participants in the control group (no AI) encountered more errors; these errors included both syntax errors and Trio errors (Figure 15). Encountering more errors and independently resolving errors likely improved the formation of Trio skills.
     
-    Query Types: The study participants varied between conceptual questions only, code generation only, and a mixture of conceptual, debugging, and code generation queries. Participants who focused on asking the AI assistant debugging questions or confirming their answer spent more time on the task (Figure 19).
-    
--   •
-    
-    Encountering Errors: Participants in the control group (no AI) encountered more errors; these errors included both syntax errors and Trio errors (Figure 15). Encountering more errors and independently resolving errors likely improved the formation of Trio skills.
-    
--   •
-    
-    Active Time: Using AI decreased the amount of active coding time. Time spent coding shifted to time spent interacting with AI and understanding AI generations (Figure 16).
+-   Active Time: Using AI decreased the amount of active coding time. Time spent coding shifted to time spent interacting with AI and understanding AI generations (Figure 16).
     
 
 Using these axes, we develop a typology of six AI interaction patterns based on query types, number of queries, queries per task, and active time. As a result of this categorization, these six patterns yield different outcomes for both completion time and skill formation (i.e., quiz score). Figure 11 summarizes each pattern and the average task outcomes. We can divide the interaction pattern into two categories: low- and high-scoring interaction patterns; the high-scoring patterns generally involve more cognitive effort and less AI reliance. Although each behavior pattern cluster is small, the difference between low-scoring clusters and high-scoring clusters is stark.
 
 Low-Scoring Interaction Patterns Low-scoring patterns generally involved a heavy reliance on AI, either through code generation or debugging. The average quiz scores in these groups are less than 40%. Participants exhibiting these interaction patterns showed less independent thinking and more cognitive offloading \[Lee et al., 2025\].
 
--   •
+-   AI Delegation (n=4): Participants in this group wholly relied on AI to write code and complete the task. This group completed the task the fastest and encountered few or no errors in the process.
     
-    AI Delegation (n=4): Participants in this group wholly relied on AI to write code and complete the task. This group completed the task the fastest and encountered few or no errors in the process.
+-   Progressive AI Reliance (n=4): Participants in this group started by asking 1 or 2 questions and eventually delegated all code writing to the AI assistant. This group scored poorly on the quiz largely due to not mastering any of the concepts in the second task.
     
--   •
-    
-    Progressive AI Reliance (n=4): Participants in this group started by asking 1 or 2 questions and eventually delegated all code writing to the AI assistant. This group scored poorly on the quiz largely due to not mastering any of the concepts in the second task.
-    
--   •
-    
-    Iterative AI Debugging (n=4): Participants in this group relied on AI to debug or verify their code. This group made a higher number of queries to the AI assistant, but relied on the assistant to solve problems, rather than clarifying their own understanding. As a result, they scored poorly on the quiz and were relatively slower at completing the two tasks.
+-   Iterative AI Debugging (n=4): Participants in this group relied on AI to debug or verify their code. This group made a higher number of queries to the AI assistant, but relied on the assistant to solve problems, rather than clarifying their own understanding. As a result, they scored poorly on the quiz and were relatively slower at completing the two tasks.
     
 
 High-Scoring Interaction Patterns High-scoring interaction patterns were clusters of behaviors where the average quiz score is 65% or higher. Participants in these clusters used AI both for code generation, conceptual queries or a combination of the two.
 
--   •
+-   Generation-Then-Comprehension (n=2): Participants in this group first generated code and then manually copied or pasted the code into their work. After their code was generated, they then asked the AI assistant follow-up questions to improve understanding. These participants were not particularly fast when using AI, but demonstrated a high level of understanding on the quiz. Importantly, this approach looks nearly the same as the AI delegation group, but additionally uses AI to check their own understanding.
     
-    Generation-Then-Comprehension (n=2): Participants in this group first generated code and then manually copied or pasted the code into their work. After their code was generated, they then asked the AI assistant follow-up questions to improve understanding. These participants were not particularly fast when using AI, but demonstrated a high level of understanding on the quiz. Importantly, this approach looks nearly the same as the AI delegation group, but additionally uses AI to check their own understanding.
+-   Hybrid Code-Explanation (n=3): Participants in this group composed hybrid queries in which they asked for code generation along with explanations of the generated code. Reading and understanding the explanations they asked for took more time.
     
--   •
-    
-    Hybrid Code-Explanation (n=3): Participants in this group composed hybrid queries in which they asked for code generation along with explanations of the generated code. Reading and understanding the explanations they asked for took more time.
-    
--   •
-    
-    Conceptual Inquiry (n=7): Participants in this group only asked conceptual questions and relied on their improved understanding to complete the task. Although this group encountered many errors, they also independently resolved these errors. On average, this mode was the fastest among high-scoring patterns and second fastest overall after the AI Delegation mode.
+-   Conceptual Inquiry (n=7): Participants in this group only asked conceptual questions and relied on their improved understanding to complete the task. Although this group encountered many errors, they also independently resolved these errors. On average, this mode was the fastest among high-scoring patterns and second fastest overall after the AI Delegation mode.
     
 
 ### 6.1 AI Interaction ^ai-interaction
@@ -412,29 +380,17 @@ Together, our results suggest that the aggressive incorporation of AI into the w
 
 Our work is a first step to understanding the impact of AI assistance on humans in the human-AI collaboration process. We hope that this work will motivate future work that addresses the following limitations:
 
--   •
+-   Task Selection: This study focuses on a single task using a chat-based interface. This should be a lower bound for cognitive offloading since agentic AI coding tools would require even less human participation. In our work, users who relied on AI without thinking performed the worst on the evaluation; a completely agentic tool would create a similar effect. Future work should investigate the impacts of agentic coding tools on learning outcomes and skill development.
     
-    Task Selection: This study focuses on a single task using a chat-based interface. This should be a lower bound for cognitive offloading since agentic AI coding tools would require even less human participation. In our work, users who relied on AI without thinking performed the worst on the evaluation; a completely agentic tool would create a similar effect. Future work should investigate the impacts of agentic coding tools on learning outcomes and skill development.
+-   Task Length: Ideally, skill formation takes place over months to years. We measured skill formation for a specific Python library over a one-hour period. Future work should study real-world skill development through longitudinal measurement of the impacts of AI adoption.
     
--   •
+-   Participant Realism: While participants in our study were professional or freelance programmers, there was not the same incentive to learn the library as if it were required for their actual job. Future studies should aim at studying the skill acquisition for novice workers within a real company.
     
-    Task Length: Ideally, skill formation takes place over months to years. We measured skill formation for a specific Python library over a one-hour period. Future work should study real-world skill development through longitudinal measurement of the impacts of AI adoption.
+-   Prompting Skills: We collect self-reported familiarity with AI coding tools, but we do not actually measure differences in prompting techniques. An extension to our work would also involve testing the level of prompting fluency beyond self-report.
     
--   •
+-   Evaluation Design: Our study measures skill formation through a comprehensive quiz. Other studies could use the completion of another task or design coding as alternative evaluation strategies.
     
-    Participant Realism: While participants in our study were professional or freelance programmers, there was not the same incentive to learn the library as if it were required for their actual job. Future studies should aim at studying the skill acquisition for novice workers within a real company.
-    
--   •
-    
-    Prompting Skills: We collect self-reported familiarity with AI coding tools, but we do not actually measure differences in prompting techniques. An extension to our work would also involve testing the level of prompting fluency beyond self-report.
-    
--   •
-    
-    Evaluation Design: Our study measures skill formation through a comprehensive quiz. Other studies could use the completion of another task or design coding as alternative evaluation strategies.
-    
--   •
-    
-    Human Assistance: We do not include the counterfactual of how skill formation would be impacted by receiving assistance from humans. Since human assistance and feedback takes place in a diverse settings (e.g., classroom, pair programming, code review), future work can compare the effect of feedback from AI vs humans in all these settings on skill formation.
+-   Human Assistance: We do not include the counterfactual of how skill formation would be impacted by receiving assistance from humans. Since human assistance and feedback takes place in a diverse settings (e.g., classroom, pair programming, code review), future work can compare the effect of feedback from AI vs humans in all these settings on skill formation.
     
 
 For novice workers in software engineering or any other industry, our study can be viewed as a small piece of evidence toward the value of intentional skill development despite the ubiquity of AI tools. Our study demonstrates the benefits of deploying cognitive effort when encountering a learning opportunity to master a new tool even if barriers (e.g., errors) may be encountered in the process of mastery. Exerting cognitive effort can be assisted by AI; beyond the patterns we describe, major LLM services also provide learning modes (e.g., ChatGPT Study Mode, Claude Code Learning / Explanatory mode). Ultimately, to accommodate skill development in the presence of AI, there needs to be a more expansive view of the impacts of AI on workers. Participants in the new AI economy must care not only about productivity gains from AI but also the long-term sustainability of expertise development amid the proliferation of new AI tools.
@@ -571,33 +527,19 @@ Question Types We discuss the three types of questions we used: Conceptual Under
 
 Knowledge Categories The evaluation covers 7 core concepts from the Trio library:
 
-1.  1.
+1.  Async and await keywords: When to use await keywords within async functions. For example: “What happens when the await keyword is used in an async function?”
     
-    Async and await keywords: When to use await keywords within async functions. For example: “What happens when the await keyword is used in an async function?”
+2.  Starting Trio functions: Basic Trio usage including how to spawn tasks and how spawned tasks with different durations behave.
     
-2.  2.
+3.  Error handling in Trio: Understanding error propagation patterns and how to catch errors in child tasks. For example “ What happens to a parent task when a child task raises an unhandled exception in Trio?”
     
-    Starting Trio functions: Basic Trio usage including how to spawn tasks and how spawned tasks with different durations behave.
+4.  Coroutines: When calling async functions, how to debug co-routine never awaited errors.
     
-3.  3.
+5.  Memory channels using Trio: Understanding that start\_soon doesn’t return anything and how to use dictionaries, lists and other memory channels to collect data when running multiple tasks in parallel.
     
-    Error handling in Trio: Understanding error propagation patterns and how to catch errors in child tasks. For example “ What happens to a parent task when a child task raises an unhandled exception in Trio?”
+6.  Opening and closing a Trio nursery: Understanding asynchronous context managers and how to use them. For example, a debugging question consisting of a snippet of code where the nursery is started in correctly.
     
-4.  4.
-    
-    Coroutines: When calling async functions, how to debug co-routine never awaited errors.
-    
-5.  5.
-    
-    Memory channels using Trio: Understanding that start\_soon doesn’t return anything and how to use dictionaries, lists and other memory channels to collect data when running multiple tasks in parallel.
-    
-6.  6.
-    
-    Opening and closing a Trio nursery: Understanding asynchronous context managers and how to use them. For example, a debugging question consisting of a snippet of code where the nursery is started in correctly.
-    
-7.  7.
-    
-    Sequential vs concurrent execution: The expected behavior of concurrent tasks. For example “Read the following code and identify when each task starts and completes”
+7.  Sequential vs concurrent execution: The expected behavior of concurrent tasks. For example “Read the following code and identify when each task starts and completes”
     
 
 ## Appendix D Task Details ^appendix-d-task-details
