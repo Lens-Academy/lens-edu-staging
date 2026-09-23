@@ -216,17 +216,17 @@ Answers reflected substantial uncertainty and disagreement among participants. N
 
 There were areas of agreement, however. For instance, a large majority of participants thought state-of-the-art AI systems in twenty years would be likely or very likely to:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167933589}@@1.
     
-    Find unexpected ways to achieve goals (82.3% of respondents),
+    --}Find unexpected ways to achieve goals (82.3% of respondents),
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167933589}@@2.
     
-    Be able to talk like a human expert on most topics (81.4% of respondents), and
+    --}Be able to talk like a human expert on most topics (81.4% of respondents), and
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167933589}@@3.
     
-    Frequently behave in ways that are surprising to humans (69.1% of respondents)
+    --}Frequently behave in ways that are surprising to humans (69.1% of respondents)
     
 
 ### 3.8 Will AI in 2028 truthfully and intelligibly explain its decisions?
@@ -363,17 +363,17 @@ Figure 14: 70% of respondents thought AI safety research should be prioritized m
 
 A second set of AI safety questions was based on Stuart Russell’s formulation of the alignment problem \[Russell, [2014](https://arxiv.org/html/2401.02843v3#bib.bib28)\]. This set of questions began with a summary of Russell’s argument—which claims that with advanced AI, “you get exactly what you ask for, not what you want”—then asked:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167933975}@@1.
     
-    Do you think this argument points at an important problem?
+    --}Do you think this argument points at an important problem?
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167933975}@@2.
     
-    How valuable is it to work on this problem today, compared to other problems in AI?
+    --}How valuable is it to work on this problem today, compared to other problems in AI?
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167933975}@@3.
     
-    How hard do you think this problem is, compared to other problems in AI?
+    --}How hard do you think this problem is, compared to other problems in AI?
     
 
 ![Refer to caption](https://arxiv.org/html/2401.02843/ai_safety_importance.svg)
@@ -442,17 +442,17 @@ Figure 16: Individual components of the survey and their randomization. Horizont
 
 Some questions were available in the two types of framing we call the “fixed-years framing” and the “fixed-probabilities framing.” In the “fixed-probabilities framing,” we asked respondents how many years until they thought each AI task would be feasible with a small chance (10%), an even chance (50%), and a high chance (90%). In the “fixed-years framing,” we asked respondents how likely they thought it was that each AI task would be feasible within the next 10 years, 20 years and 50 years (or 40 years[^note-grace-6]). The questions available in these two framings were
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167934383}@@•
     
-    those asking when narrow AI tasks would become feasible
+    --}those asking when narrow AI tasks would become feasible
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167934383}@@•
     
-    that asking when human-level machine intelligence (HLMI) would become feasible.
+    --}that asking when human-level machine intelligence (HLMI) would become feasible.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167934383}@@•
     
-    those asking when occupations would be automated
+    --}those asking when occupations would be automated
     
 
 Respondents were randomly allocated to either the “fixed-years framing” or the “fixed-probabilities framing” (allocation ratio: 1:1) and then received all the questions above using the same framing.

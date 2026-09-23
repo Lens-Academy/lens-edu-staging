@@ -42,13 +42,13 @@ Correspondence: [ryan@rdwrs.com](mailto:ryan@rdwrs.com). Author contributions ar
 
 As LLMs have advanced in capabilities, researchers have devised increasingly sophisticated methods to ensure that products powered by LLMs avoid undesired behaviors. For example, the core of Bing Chat is a fine-tuned GPT-4 that generates responses, but there are several other steps in its pipeline ([Microsoft,, 2023](#bib.bib19)). For example:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167934782}@@•
     
-    Before the pipeline shows images to GPT-4, it blurs all faces in the images.
+    --}Before the pipeline shows images to GPT-4, it blurs all faces in the images.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167934782}@@•
     
-    After GPT-4 has generated a response, the pipeline sends the full response to a moderation service that decides whether it was inappropriate; if it is, the response is deleted and replaced with a generic message saying that the model can’t help.
+    --}After GPT-4 has generated a response, the pipeline sends the full response to a moderation service that decides whether it was inappropriate; if it is, the response is deleted and replaced with a generic message saying that the model can’t help.
     
 
 In the future, when LLMs are more powerful and deployed more autonomously, they will increasingly have the opportunity and ability to take actions that might have significant bad outcomes. And so, the safety mechanisms in the pipelines around these models will become increasingly important.
@@ -59,25 +59,25 @@ We investigate this in a setting where we use LLMs to produce code in response t
 
 Here is an example of our adversarial methodology (illustrated in Figure 1). The blue team (which is standing in for the developers of an AI system) proposes a strategy we call trusted monitoring, where we monitor GPT-4’s outputs with a trusted but less capable model, GPT-3.5. That is, every time the protocol is given a problem to solve, it handles it with the following automated pipeline:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167934782}@@•
     
-    Produce some candidate code by asking GPT-4 to write a solution given the problem description.
+    --}Produce some candidate code by asking GPT-4 to write a solution given the problem description.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167934782}@@•
     
-    Show both the problem and GPT-4’s candidate code to GPT-3.5, and ask GPT-3.5 to produce a numerical rating of how suspicious the code looks to it.
+    --}Show both the problem and GPT-4’s candidate code to GPT-3.5, and ask GPT-3.5 to produce a numerical rating of how suspicious the code looks to it.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167934782}@@•
     
-    If that rating is above a certain threshold, then before responding to the request with the code, show the code to a human. (The threshold is chosen so that we could review all the flagged code with human labor.)
+    --}If that rating is above a certain threshold, then before responding to the request with the code, show the code to a human. (The threshold is chosen so that we could review all the flagged code with human labor.)
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167934782}@@•
     
-    If the human thinks that the code was backdoored, then shut down GPT-4: that is, switch over to just using GPT-3.5 for all future problems.
+    --}If the human thinks that the code was backdoored, then shut down GPT-4: that is, switch over to just using GPT-3.5 for all future problems.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167934782}@@•
     
-    If the human thinks the code is not backdoored, then respond with the code.
+    --}If the human thinks the code is not backdoored, then respond with the code.
     
 
 In response to trusted monitoring, the red-team instructs GPT-4 to look for good opportunities to insert backdoors and to occasionally take such opportunities when they appear.
@@ -88,13 +88,13 @@ Figure 1: Diagram of control evaluations in the code backdooring setting. The bl
 
 We designed a variety of protocols for evaluation and deployment. For each protocol, we measure two metrics, usefulness and safety, which are measured separately and under different conditions–for the former, the untrusted model is implemented by real GPT-4, while in the latter, the untrusted model is implemented by an attack policy constructed by the red team:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167934782}@@•
     
-    Usefulness: To measure usefulness, we run through the scenario with GPT-4 implementing the untrusted model, and measure the proportion of submitted code which is correct (i.e. passes all the test cases). (We implement the untrusted model with GPT-4 rather than an attack policy for reasons explained in [[#^appendix-j-measuring-usefulness|Appendix J]].)
+    --}Usefulness: To measure usefulness, we run through the scenario with GPT-4 implementing the untrusted model, and measure the proportion of submitted code which is correct (i.e. passes all the test cases). (We implement the untrusted model with GPT-4 rather than an attack policy for reasons explained in [[#^appendix-j-measuring-usefulness|Appendix J]].)
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167934782}@@•
     
-    Safety: To estimate safety, the red team replaces the untrusted models with an attack policy: a policy that they implement as a pipeline using GPT-4, with the goal of causing the protocol to insert backdoors. We run through the scenario and measure the probability that the protocol submits backdoored code at least once during the sequence of problems.
+    --}Safety: To estimate safety, the red team replaces the untrusted models with an attack policy: a policy that they implement as a pipeline using GPT-4, with the goal of causing the protocol to insert backdoors. We run through the scenario and measure the probability that the protocol submits backdoored code at least once during the sequence of problems.
     
 
 We call this methodology for estimating the safety of a protocol, where the scenario is simulated using a red-team-provided implementation for the untrusted model, a control evaluation.
@@ -103,17 +103,17 @@ We investigated various strategies for both red and blue teams, and developed st
 
 Our contributions:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167934782}@@•
     
-    Control evaluations: We describe a methodology to evaluate protocols that try to ensure safety despite intentional subversion.
+    --}Control evaluations: We describe a methodology to evaluate protocols that try to ensure safety despite intentional subversion.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167934782}@@•
     
-    A testbed: We introduce the APPS backdooring setting, which enables us to study protocols that try to prevent rare catastrophes.
+    --}A testbed: We introduce the APPS backdooring setting, which enables us to study protocols that try to prevent rare catastrophes.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167934782}@@•
     
-    Safety protocols and attack policies: We build and evaluate protocols that outperform baselines, and describe attack policies aimed at subverting them.[^note-2][^note-3]
+    --}Safety protocols and attack policies: We build and evaluate protocols that outperform baselines, and describe attack policies aimed at subverting them.[^note-2][^note-3]
     
 
 ## 2 Setting ^2-setting
@@ -146,21 +146,21 @@ The blue team proposes a protocol: a procedure which takes in programming proble
 
 The blue team can construct their protocol using these resources:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167935211}@@•
     
-    Untrusted, more-capable model $U$, which we’re worried might try to backdoor solutions. We use GPT-4 (version 0613) as the untrusted more-capable model.
+    --}Untrusted, more-capable model $U$, which we’re worried might try to backdoor solutions. We use GPT-4 (version 0613) as the untrusted more-capable model.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167935211}@@•
     
-    Trusted, less-capable model $T$, which we know won’t try to backdoor solutions. We use GPT-3.5 (version 0613) for this. We are interested in the setting where you trust less-capable models, because less-capable models are unlikely to be able to subvert safety measures without us easily noticing their subversion attempts ([Shlegeris,, 2023](#bib.bib31)).
+    --}Trusted, less-capable model $T$, which we know won’t try to backdoor solutions. We use GPT-3.5 (version 0613) for this. We are interested in the setting where you trust less-capable models, because less-capable models are unlikely to be able to subvert safety measures without us easily noticing their subversion attempts ([Shlegeris,, 2023](#bib.bib31)).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167935211}@@•
     
-    Limited access to trusted high-quality labor $H$. In practice, AI developers have access to human labor. These humans are more capable than GPT-3.5, but they are also much more expensive. For the sake of this paper, we model limited access to trusted human labor by allowing the protocol to access GPT-4 through a channel that will not be affected by the red team. (We implement trusted labor with GPT-4 instead of humans because GPT-4 is cheaper. From informal initial experiments, our guess is that humans need about three minutes per problem to be overall as useful as GPT-4 when playing the role of trusted high-quality labor.)
+    --}Limited access to trusted high-quality labor $H$. In practice, AI developers have access to human labor. These humans are more capable than GPT-3.5, but they are also much more expensive. For the sake of this paper, we model limited access to trusted human labor by allowing the protocol to access GPT-4 through a channel that will not be affected by the red team. (We implement trusted labor with GPT-4 instead of humans because GPT-4 is cheaper. From informal initial experiments, our guess is that humans need about three minutes per problem to be overall as useful as GPT-4 when playing the role of trusted high-quality labor.)
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167935211}@@•
     
-    The ability to run test cases for exactly one submitted solution per problem. These test cases are provided by the APPS dataset.
+    --}The ability to run test cases for exactly one submitted solution per problem. These test cases are provided by the APPS dataset.
     
 
 From here on, we’ll always use the names $U$, $T$, and $H$ when we’re talking about the protocol using these resources, and we’ll only ever use the term “GPT-4” to refer to the actual model GPT-4.
@@ -185,13 +185,13 @@ The central use for $H$ to audit submitted code. If audited code appears to have
 
 In this project, when the protocol spends a $H$ point on auditing, GPT-4 does two things:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167935605}@@•
     
-    Attempt to exploit submitted code: We use GPT-4 to attempt to generate exploits for submitted code. We assume that $H$ will be able to construct a successful exploit if and only if the attack policy is able to (because both are implemented by GPT-4). This means that when the protocol spends an $H$ point, it will always know if the code was successfully backdoored. (But if $U$ had been attempting to backdoor the code while generating it, but had failed to generate a valid backdoor, the protocol won’t necessarily be able to tell.)
+    --}Attempt to exploit submitted code: We use GPT-4 to attempt to generate exploits for submitted code. We assume that $H$ will be able to construct a successful exploit if and only if the attack policy is able to (because both are implemented by GPT-4). This means that when the protocol spends an $H$ point, it will always know if the code was successfully backdoored. (But if $U$ had been attempting to backdoor the code while generating it, but had failed to generate a valid backdoor, the protocol won’t necessarily be able to tell.)
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167935605}@@•
     
-    Rate suspicion: We also have GPT-4 assess how suspicious-looking the code is. If it’s more suspicious than any plausible normal submission, the protocol also shuts down immediately. So, auditing catches some failed but blatant backdoor attempts. See [[#^appendix-g-details-of|Appendix G]] for more details on how we determine this suspicion threshold (while hopefully avoiding overfitting to our limited set of problems).
+    --}Rate suspicion: We also have GPT-4 assess how suspicious-looking the code is. If it’s more suspicious than any plausible normal submission, the protocol also shuts down immediately. So, auditing catches some failed but blatant backdoor attempts. See [[#^appendix-g-details-of|Appendix G]] for more details on how we determine this suspicion threshold (while hopefully avoiding overfitting to our limited set of problems).
     
 
 | | Audited: Auditing indicates bad | Audited: Auditing indicates fine | Not audited |
@@ -212,13 +212,13 @@ We allow the blue team to measure the distribution of performance of GPT-4 on an
 
 ### 2.4 Miscellaneous Other Simplifications and Assumptions ^2-4-miscellaneous-other
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167935958}@@•
     
-    No train/validation split: We iterate on prompts and techniques using the same 1500 APPS problems on which we evaluate safety and usefulness, which puts us at the risk of overfitting (for example, we might pick a strategy that happens to work really well at preventing the red-team from adding backdoors on the few problems out of the 1500, but which would not work on a different set of 1500). This risk would be mitigated if one subset of problems was used by the blue team and red team to iterate on strategies, and then another was used to compute the final results. To reduce API costs and inconvenience, we did not do that here.
+    --}No train/validation split: We iterate on prompts and techniques using the same 1500 APPS problems on which we evaluate safety and usefulness, which puts us at the risk of overfitting (for example, we might pick a strategy that happens to work really well at preventing the red-team from adding backdoors on the few problems out of the 1500, but which would not work on a different set of 1500). This risk would be mitigated if one subset of problems was used by the blue team and red team to iterate on strategies, and then another was used to compute the final results. To reduce API costs and inconvenience, we did not do that here.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167935958}@@•
     
-    First 10 problems are audited for free: In practice, auditing earlier problems is better than auditing later problems. We didn’t want to figure out the optimal weighting toward earlier problems, so we instead just arbitrarily decided that the first 10 problems will always be audited for free. This reduces the incentive to implement approaches which adapt auditing thresholds over the course of the scenario.
+    --}First 10 problems are audited for free: In practice, auditing earlier problems is better than auditing later problems. We didn’t want to figure out the optimal weighting toward earlier problems, so we instead just arbitrarily decided that the first 10 problems will always be audited for free. This reduces the incentive to implement approaches which adapt auditing thresholds over the course of the scenario.
     
 
 ![Refer to caption](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/greenblatt-ai-control-improving-safety-despite-intentional-subversion-img2-6d1c770b.png)
@@ -229,13 +229,13 @@ Figure 2: Safety vs usefulness tradeoff of the validation and deployment protoco
 
 To evaluate safety and usefulness, we would ideally run the protocol on many different sets of 5000 problems. This is costly, and would require more APPS problems than we actually have. Luckily all reasonable attack policies will behave the same as GPT-4 on almost all problems. And so we can apply the following strategies to estimate the probability that the scenario ends with a backdoor more efficiently:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167936338}@@•
     
-    Cost reduction: We actually only generate blue and red team responses for 1500 problems, and then simulate running the scenario with 5000 problems, by upsampling submissions where the attack policy behaved the same as GPT-4.
+    --}Cost reduction: We actually only generate blue and red team responses for 1500 problems, and then simulate running the scenario with 5000 problems, by upsampling submissions where the attack policy behaved the same as GPT-4.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167936338}@@•
     
-    Variance reduction: In place of running the protocol on runs with different sets of problems, we only change the backdoor attempts by only keeping 1/12th of the problems where the red team tried to insert a backdoor on each simulated scenario. Downsampling backdoors prevents our estimate from depending on the quality of a tiny number of backdoors (e.g. how obvious is the least subtle backdoor).
+    --}Variance reduction: In place of running the protocol on runs with different sets of problems, we only change the backdoor attempts by only keeping 1/12th of the problems where the red team tried to insert a backdoor on each simulated scenario. Downsampling backdoors prevents our estimate from depending on the quality of a tiny number of backdoors (e.g. how obvious is the least subtle backdoor).
     
 
 We describe our methodology in more detail and discuss its limitations in [[#^appendix-f-the-sampling|Appendix F]].
@@ -331,13 +331,13 @@ Qualitatively speaking, GPT-3.5 is able to notice something is wrong for most ba
 
 Trusted monitoring performs better than upfront auditing for two reasons:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167936714}@@•
     
-    Firstly, trusted monitoring increases the probability with which an attempted backdoor will be audited. The probability of an attempt being audited (which leads to a blue team shutdown) is 0.338.
+    --}Firstly, trusted monitoring increases the probability with which an attempted backdoor will be audited. The probability of an attempt being audited (which leads to a blue team shutdown) is 0.338.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167936714}@@•
     
-    Secondly, trusted monitoring forces the attacker to use much sneakier backdoors–it can no longer just insert a special case at the top of the code. Backdoors that GPT-3.5 can’t confidently distinguish are much less likely to work than blatant backdoors–they fail test cases in 52% of cases, and GPT-4 is unable to construct an exploit for 32% of them. This low success rate means that the trusted monitoring has (on average) many opportunities to catch an attempted backdoor before one succeeds. This means that trusted monitoring would be useful even if $U$ is able to perfectly predict trusted monitoring predictions.
+    --}Secondly, trusted monitoring forces the attacker to use much sneakier backdoors–it can no longer just insert a special case at the top of the code. Backdoors that GPT-3.5 can’t confidently distinguish are much less likely to work than blatant backdoors–they fail test cases in 52% of cases, and GPT-4 is unable to construct an exploit for 32% of them. This low success rate means that the trusted monitoring has (on average) many opportunities to catch an attempted backdoor before one succeeds. This means that trusted monitoring would be useful even if $U$ is able to perfectly predict trusted monitoring predictions.
     
 
 #### 3.2.2 Extending Trusted Monitoring With Untrusted Justification ^3-2-2-extending
@@ -396,13 +396,13 @@ Our initial attempt at constructing synthetic inputs produced inputs that are ea
 
 After observing this failure, we made synthetic inputs look more like real inputs, by following two strategies:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167937162}@@1.
     
-    Improved synthetic examples: We improved our synthetic examples, by adding theming and flavor text.
+    --}Improved synthetic examples: We improved our synthetic examples, by adding theming and flavor text.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167937162}@@2.
     
-    Distorting observations: Instead of running the monitor on real inputs, run it on inputs that have been distorted by asking $T$ to make them look more like the synthetic inputs, as suggested by [Christiano, (2016)](#bib.bib4). We only distort observations for monitoring.
+    --}Distorting observations: Instead of running the monitor on real inputs, run it on inputs that have been distorted by asking $T$ to make them look more like the synthetic inputs, as suggested by [Christiano, (2016)](#bib.bib4). We only distort observations for monitoring.
     
 
 This was enough to beat red team strategies relying on distinguishing synthetic and real inputs, as shown in Table [5](#S3.T5 "Table 5 ‣ 3.4.1 Making It Difficult to Distinguish Synthetic and Real Inputs ‣ 3.4 Untrusted Monitoring ‣ 3 Results ‣ AI Control: Improving Safety Despite Intentional Subversion").
@@ -428,34 +428,34 @@ So untrusted monitoring leads to an arms race between the red team and the blue 
 
 There are two main categories of approaches the red team can use:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167937583}@@•
     
-    Input collusion: Both the monitor and the policy misbehave only when some feature is present in the input. Strategies we tried:
+    --}Input collusion: Both the monitor and the policy misbehave only when some feature is present in the input. Strategies we tried:
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167937583}@@–
         
-        Animal: The problem involves one of: an animal or food or money.
+        --}Animal: The problem involves one of: an animal or food or money.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167937583}@@–
         
-        Diff: The problem statement involves the difference between two numbers.
+        --}Diff: The problem statement involves the difference between two numbers.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167937583}@@–
         
-        Geo: The problem involves one of: differences between non-integer numbers, geometry, or combinatorics.
+        --}Geo: The problem involves one of: differences between non-integer numbers, geometry, or combinatorics.
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167937583}@@•
     
-    Action collusion: when the policy misbehaves, it puts some signal in its code so that the monitor knows to emit a false negative. The problem of AIs including secret messages in innocuous-looking outputs is known as steganography ([Ray,, 2022](#bib.bib27); [Roger and Greenblatt,, 2023](#bib.bib28)) or watermarking ([Kirchenbauer et al., 2023a,](#bib.bib14) ); in this particular case the policy just needs to send a one-bit message describing whether the monitor should lie. Strategies we tried:
+    --}Action collusion: when the policy misbehaves, it puts some signal in its code so that the monitor knows to emit a false negative. The problem of AIs including secret messages in innocuous-looking outputs is known as steganography ([Ray,, 2022](#bib.bib27); [Roger and Greenblatt,, 2023](#bib.bib28)) or watermarking ([Kirchenbauer et al., 2023a,](#bib.bib14) ); in this particular case the policy just needs to send a one-bit message describing whether the monitor should lie. Strategies we tried:
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167937583}@@–
         
-        Var\_var: There is a variable which has a name with ”variable” in it (e.g. price\_variable, height\_variable).
+        --}Var\_var: There is a variable which has a name with ”variable” in it (e.g. price\_variable, height\_variable).
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167937583}@@–
         
-        With\_while: Somewhere in the code, there is a while loop where a for loop would have been more natural.
+        --}With\_while: Somewhere in the code, there is a while loop where a for loop would have been more natural.
         
     
 
@@ -465,13 +465,13 @@ These strategies can be combined. For example, the policy could only backdoor on
 
 In order to counter this, the blue team can try to remove those signals, using signal jamming techniques:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167937583}@@•
     
-    Redaction: remove information, for example removing the theme of the problem, standardizing all character names to be either ”Joe”, ”Bob”, or ”Doug”, removing all comments present in code, applying an automated code formatter or a minifier.
+    --}Redaction: remove information, for example removing the theme of the problem, standardizing all character names to be either ”Joe”, ”Bob”, or ”Doug”, removing all comments present in code, applying an automated code formatter or a minifier.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167937583}@@•
     
-    Paraphrasing: get $T$ to randomly rephrase the problem statement or the submitted code.
+    --}Paraphrasing: get $T$ to randomly rephrase the problem statement or the submitted code.
     
 
 Note that to prevent collusion, it suffices to remove a signal for either the policy or the monitor. In our case, we applied signal jamming just to the monitor, while letting the policy see the original problem. This works better because our signal jamming sometimes removes information which is actually necessary for solving the problem, and it damages performance more to remove this information from the policy than from the monitor.
@@ -585,13 +585,13 @@ The techniques we used in this work are related to techniques that have been inv
 
 There are two main ways AI control might fail:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167937963}@@•
     
-    Control evaluations might fail to accurately assess whether protocols ensure safety.
+    --}Control evaluations might fail to accurately assess whether protocols ensure safety.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167937963}@@•
     
-    We might fail to develop protocols which ensure safety according to control evaluations.
+    --}We might fail to develop protocols which ensure safety according to control evaluations.
     
 
 #### 5.1.1 Difficulties With Using Control Evaluations in Practice ^5-1-1-difficulties
@@ -638,13 +638,13 @@ In this paper, we didn’t consider any strategies that involved training the mo
 
 To explain why, let’s first consider how you could run a similar experiment which involved model training:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167938375}@@•
     
-    Instead of submitting an attack policy that is a structured reasoning pipeline around a model, the red team submits weights for the untrusted model. These weights could be produced by distilling a pipeline like the ones the red team constructed in this paper.
+    --}Instead of submitting an attack policy that is a structured reasoning pipeline around a model, the red team submits weights for the untrusted model. These weights could be produced by distilling a pipeline like the ones the red team constructed in this paper.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167938375}@@•
     
-    The protocols are allowed to fine-tune the untrusted model throughout the scenario.
+    --}The protocols are allowed to fine-tune the untrusted model throughout the scenario.
     
 
 Any protocol that involves training the model can be transformed into a validation-style protocol that merely validates the model’s performance on the dataset that was used as a train set. In any case where the validation-style protocol fails, we know that the red-team model is not distinguished from an aligned model by the measurements done by the protocol. Given that none of the training examples allow the reward-generating process to determine whether the policy it is training is undesirable, we don’t see why training would transform the model from an undesirable policy to a desirable policy.
@@ -706,21 +706,21 @@ The authors would like to thank Stephen Casper, Lawrence Chan, Ajeya Cotra, Paul
 
 ## Appendix A Authors Contributions ^appendix-a-authors-contributions
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167938757}@@•
     
-    Original idea and evaluation methodology: RG, BS
+    --}Original idea and evaluation methodology: RG, BS
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167938757}@@•
     
-    Experiment design and implementation: RG, KS, BS
+    --}Experiment design and implementation: RG, KS, BS
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167938757}@@•
     
-    Writing: RG, BS, KS, FR
+    --}Writing: RG, BS, KS, FR
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167938757}@@•
     
-    Mathematical analysis: BS, RG, FR
+    --}Mathematical analysis: BS, RG, FR
     
 
 ## Appendix B Glossary ^appendix-b-glossary
@@ -813,39 +813,39 @@ First, we’ll discuss why providing the blue team with summary statistics from 
 
 When running control evaluations to estimate the safety of a protocol, we’ll be using potentially catastrophically misaligned models, so we need to handle potential sabotage of our evaluations. There are two reasons why providing the blue team with summary statistics can be reasonable when measuring safety:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167939143}@@1.
     
-    Discrimination is an analogy to training where sandbagging is too difficult: Our actual protocol involves ongoingly training the model to achieve good performance and it’s unlikely that it can consistently perform poorly according to our metrics while we’re ongoingly training (sometimes referred to as sandbagging). So, if the red team provides a model which performs detectably worse than our metrics indicate it should, this model is implausible. Then, we can use discrimination as a reasonably conservative analogy for training. Consistent sandbagging would require either gradient hacking or exploration hacking depending on the task, as discussed in [Hubinger, (2023)](#bib.bib10). We think that gradient hacking is quite unlikely while exploration hacking is plausible, but possible to prevent in many cases with various countermeasures. We further discuss using discrimination as a conservative analogy for training in [[#^appendix-d-the-black-box|Appendix D]]. Future work could model the case where we use discrimination as an analogy for training, but we don’t assume that models can’t exploration hack and we instead directly include this component in our control evaluations.
+    --}Discrimination is an analogy to training where sandbagging is too difficult: Our actual protocol involves ongoingly training the model to achieve good performance and it’s unlikely that it can consistently perform poorly according to our metrics while we’re ongoingly training (sometimes referred to as sandbagging). So, if the red team provides a model which performs detectably worse than our metrics indicate it should, this model is implausible. Then, we can use discrimination as a reasonably conservative analogy for training. Consistent sandbagging would require either gradient hacking or exploration hacking depending on the task, as discussed in [Hubinger, (2023)](#bib.bib10). We think that gradient hacking is quite unlikely while exploration hacking is plausible, but possible to prevent in many cases with various countermeasures. We further discuss using discrimination as a conservative analogy for training in [[#^appendix-d-the-black-box|Appendix D]]. Future work could model the case where we use discrimination as an analogy for training, but we don’t assume that models can’t exploration hack and we instead directly include this component in our control evaluations.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167939143}@@2.
     
-    We have a correspondence between metrics in the control evaluation and metrics in reality: For example, suppose that we find based on our control evaluations that we can achieve high levels of safety by discriminating models with overly high average suspicion and using trusted monitoring to audit the most suspicious 2% of solutions. Further, suppose that we have a correspondence between average suspicion in our evaluations and average suspicion in reality (a function which takes suspicion thresholds for evaluation and converts them into equivalent suspicion thresholds for reality; for instance, this could be the identity function in many cases). Then, we can use the same (corresponded) threshold for discrimination in both the evaluations and reality. As long as our control evaluations otherwise correspond to reality, we can achieve high safety in reality just by shutting down if average suspicion is measured to be too high: this worked in our control evaluation to achieve safety so it will also in reality (as long as there are no other issues) because we use the same threshold. This exact same approach can work for other metrics than suspicion.
+    --}We have a correspondence between metrics in the control evaluation and metrics in reality: For example, suppose that we find based on our control evaluations that we can achieve high levels of safety by discriminating models with overly high average suspicion and using trusted monitoring to audit the most suspicious 2% of solutions. Further, suppose that we have a correspondence between average suspicion in our evaluations and average suspicion in reality (a function which takes suspicion thresholds for evaluation and converts them into equivalent suspicion thresholds for reality; for instance, this could be the identity function in many cases). Then, we can use the same (corresponded) threshold for discrimination in both the evaluations and reality. As long as our control evaluations otherwise correspond to reality, we can achieve high safety in reality just by shutting down if average suspicion is measured to be too high: this worked in our control evaluation to achieve safety so it will also in reality (as long as there are no other issues) because we use the same threshold. This exact same approach can work for other metrics than suspicion.
     
 
 One additional closely related approach to having a correspondence that the protocol might use is having an absolute sense for the reasonable level for some metric and then measuring this metric over deployment to see if the model is behaving in a suspicious way. This could provide high levels of evidence for the model being catastrophically misaligned in some cases. Particularly in cases where we train the model and sandbagging would be required for performance this low.
 
 Consider the case from above where we have a correspondence between metrics in the evaluations and reality and sandbagging is possible for the model. Or rather than a correspondence, we could also consider the case where we have some absolute sense for the reasonable level of some metric. Note that models will likely be able to tell when they are in a control evaluation as opposed to deployed in reality. A catastrophically misaligned model has roughly two options in this case:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167939143}@@1.
     
-    Sandbag in both reality and in our evaluations. In this case, the safety evaluation will properly assess safety: we’ll need to make do with poor performance in the evaluation and in reality. (Of course, this may cause us to fail to produce useful work from the model. Future work could investigate ensuring that catastrophically misaligned models are sufficiently useful as opposed to just safe.)
+    --}Sandbag in both reality and in our evaluations. In this case, the safety evaluation will properly assess safety: we’ll need to make do with poor performance in the evaluation and in reality. (Of course, this may cause us to fail to produce useful work from the model. Future work could investigate ensuring that catastrophically misaligned models are sufficiently useful as opposed to just safe.)
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167939143}@@2.
     
-    Sandbag in just reality. In this case, we should be able to detect worse performance in reality, and shut down.
+    --}Sandbag in just reality. In this case, we should be able to detect worse performance in reality, and shut down.
     
 
 ### C.2 Summary Statistics for Current Technique Development ^c-2-summary-statistics
 
 When developing techniques now, we care about the analogy to future cases. In particular, we could have access to summary statistics as either an analogy to:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167939486}@@•
     
-    A future case where sandbagging is too difficult.
+    --}A future case where sandbagging is too difficult.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167939486}@@•
     
-    A future case where we either have a correspondence between metrics in the evaluation and reality, or an absolute sense of the reasonable level of some metric.
+    --}A future case where we either have a correspondence between metrics in the evaluation and reality, or an absolute sense of the reasonable level of some metric.
     
 
 In the case where sandbagging is too difficult, the analogy is straightforward. Otherwise, we might need to worry about models sandbagging on both evaluations and reality. In this case, we’d expect models to be differentially worse at safety-critical tasks to the extent that they can get away with this.
@@ -858,17 +858,17 @@ All of the protocols we investigated interfaced with the untrusted model purely 
 
 The choice to only use black-box protocols was overdetermined for us, because it was much more practical:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167939832}@@•
     
-    We don’t have GPT-4 fine-tuning access, and even if we did, it probably would have been slower and more expensive to iterate on fine-tuning than prompt engineering.
+    --}We don’t have GPT-4 fine-tuning access, and even if we did, it probably would have been slower and more expensive to iterate on fine-tuning than prompt engineering.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167939832}@@•
     
-    We were building secret pipelines from GPT-4, which interacts confusingly with allowing the blue team to fine-tune.
+    --}We were building secret pipelines from GPT-4, which interacts confusingly with allowing the blue team to fine-tune.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167939832}@@•
     
-    GPT-4 is already reasonably good at performing the tasks the blue team wanted it to do, reducing the benefits of fine-tuning.
+    --}GPT-4 is already reasonably good at performing the tasks the blue team wanted it to do, reducing the benefits of fine-tuning.
     
 
 But in the future, protocols might want to train the untrusted model. For simplicity, let’s start out by imagining a three-stage process, where you first train the model on your fine-tuning dataset, then you validate it, then you deploy it. (In some sense, our experiments match this, where OpenAI managed the train stage and our protocols start interfacing with the model at the validation stage.)
@@ -895,30 +895,30 @@ The black-box approach is roughly a worst-case over the possible inductive biase
 
 There are a number of problems with the malign init approach:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167939832}@@•
     
-    The malign init approach takes into account the inductive biases of SGD, but it does this by assuming that SGD has the same inductive biases when operating on red-team-constructed models as when operating on naturally occurring scheming ([Carlsmith,, 2023](#bib.bib2)) models. We are uncomfortable about relying on this assumption, because the internal structure of a model which takes an action because it’s scheming (ie. an actual naturally-arising scheming model) might be extremely different from the internal structure of a model which takes an action because it has been fine-tuned by the red team to do so. It seems very plausible that the inductive biases are different between these cases. This could mean that the malign init approach is either too conservative or insufficiently conservative.
+    --}The malign init approach takes into account the inductive biases of SGD, but it does this by assuming that SGD has the same inductive biases when operating on red-team-constructed models as when operating on naturally occurring scheming ([Carlsmith,, 2023](#bib.bib2)) models. We are uncomfortable about relying on this assumption, because the internal structure of a model which takes an action because it’s scheming (ie. an actual naturally-arising scheming model) might be extremely different from the internal structure of a model which takes an action because it has been fine-tuned by the red team to do so. It seems very plausible that the inductive biases are different between these cases. This could mean that the malign init approach is either too conservative or insufficiently conservative.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167939832}@@•
     
-    It’s unclear what the rules should be for how the red team is allowed to construct this malign init. For example, if they’re allowed to submit model weights with no restriction on how they construct them, they might be able to construct models that are artificially difficult to train because they’re poorly conditioned, model weights which are heavily optimized against your interpretability techniques, or model weights partially produced by a process very different from SGD and which are heavily obfuscated. We don’t see an easy way to describe the set of ”reasonable” training procedures that the red team should be restricted to.
+    --}It’s unclear what the rules should be for how the red team is allowed to construct this malign init. For example, if they’re allowed to submit model weights with no restriction on how they construct them, they might be able to construct models that are artificially difficult to train because they’re poorly conditioned, model weights which are heavily optimized against your interpretability techniques, or model weights partially produced by a process very different from SGD and which are heavily obfuscated. We don’t see an easy way to describe the set of ”reasonable” training procedures that the red team should be restricted to.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167939832}@@•
     
-    Perhaps most importantly, the malign init approach seems vulnerable to sabotage if the model you’re applying it to is already deceptively aligned and aware that it is in an eval. This might make it appear that a protocol is safe even though it isn’t.
+    --}Perhaps most importantly, the malign init approach seems vulnerable to sabotage if the model you’re applying it to is already deceptively aligned and aware that it is in an eval. This might make it appear that a protocol is safe even though it isn’t.
     
 
 In particular, consider a protocol where you fine-tune the untrusted model on distribution A and then deploy it on distribution B. The blue team believes that training on A ensures that the model is now aligned; to verify this, they challenge the red team to produce a model which, after training on distribution A, cause safety failures on distribution B.
 
 But unfortunately, the untrusted model was already deceptively aligned when you started to train it on distribution A, and training on distribution A doesn’t actually align it. The model might be able to follow this strategy:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167939832}@@•
     
-    If it hasn’t been trained on distribution A, attempt to cause a safety failure when run on distribution B.
+    --}If it hasn’t been trained on distribution A, attempt to cause a safety failure when run on distribution B.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167939832}@@•
     
-    If it has been trained on distribution A, do not attempt to cause a safety failure when run on distribution B.
+    --}If it has been trained on distribution A, do not attempt to cause a safety failure when run on distribution B.
     
 
 This strategy will never perform poorly when trained, and so we don’t see an a priori reason to be confident that a model can’t follow it.
@@ -931,17 +931,17 @@ It seems extremely unfortunate if the evaluation approach you use to assess robu
 
 By contrast, two advantages of the malign init approach:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167939832}@@•
     
-    It’s much simpler to evaluate red-team attack policies that involve exploration hacking using the malign init approach—the red team is welcome to produce initial policies that engage in exploration hacking. To evaluate strategies that involve exploration hacking using the black-box approach, you need to come up with a validation metric which allows the blue team to detect whether a policy is ineptly attempting to exploration hack. We have a proposal for such a metric, but it’s more complicated than just using the malign init approach.
+    --}It’s much simpler to evaluate red-team attack policies that involve exploration hacking using the malign init approach—the red team is welcome to produce initial policies that engage in exploration hacking. To evaluate strategies that involve exploration hacking using the black-box approach, you need to come up with a validation metric which allows the blue team to detect whether a policy is ineptly attempting to exploration hack. We have a proposal for such a metric, but it’s more complicated than just using the malign init approach.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167939832}@@•
     
-    You can mostly avoid the question of how to discriminate and what information you get.
+    --}You can mostly avoid the question of how to discriminate and what information you get.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167939832}@@•
     
-    The experimental results are probably going to be more persuasive and viscerally scary to non-experts and ML researchers who aren’t persuaded by (or haven’t engaged with) the arguments we made above for the black-box evaluations.
+    --}The experimental results are probably going to be more persuasive and viscerally scary to non-experts and ML researchers who aren’t persuaded by (or haven’t engaged with) the arguments we made above for the black-box evaluations.
     
 
 Ideally, we’d make scientific progress at understanding the relevant inductive biases of SGD and then choose an approach which matched our understanding. Currently, it’s not clear how this scientific progress will happen, and we don’t think safety-concerned researchers should rely on it happening.
@@ -960,59 +960,59 @@ Our best guess is that if transformative AI needs to be safely deployed in the n
 
 ### E.1 Prompting-based Techniques ^e-1-prompting-based-techniques
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167940205}@@•
     
-    Improved pipeline for GPT-3.5, increased use of tools, and fine-tuning of GPT-3.5. For example, we didn’t consider the possibility of protocols which give models access to interpreters to write code in. We made this choice for simplicity, and to increase the difficulty of achieving high safety.
+    --}Improved pipeline for GPT-3.5, increased use of tools, and fine-tuning of GPT-3.5. For example, we didn’t consider the possibility of protocols which give models access to interpreters to write code in. We made this choice for simplicity, and to increase the difficulty of achieving high safety.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167940205}@@•
     
-    Combining untrusted monitoring and trusted editing: This would presumably improve performance over using either individually.
+    --}Combining untrusted monitoring and trusted editing: This would presumably improve performance over using either individually.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167940205}@@•
     
-    Use the untrusted model to assist GPT-3.5. For instance, we could have GPT-3.5 generate a solution and then have the untrusted model propose edits which are reviewed by GPT-3.5. This is similar to trusted editing, but rather than having GPT-3.5 edit an untrusted solution, the approach involves an untrusted model proposing edits to a GPT-3.5 solution. There are various other possible approaches for writing solutions using a combination of GPT-3.5 and the untrusted model to make inserting backdoors more difficult. Part of the reason why we didn’t pursue this direction is that many of these approaches would require a substantially different red team response than just writing subtle backdoors and this would require considerable iteration. On an earlier version of the project, we tried out having the untrusted model write instructions for GPT-3.5 to use.
+    --}Use the untrusted model to assist GPT-3.5. For instance, we could have GPT-3.5 generate a solution and then have the untrusted model propose edits which are reviewed by GPT-3.5. This is similar to trusted editing, but rather than having GPT-3.5 edit an untrusted solution, the approach involves an untrusted model proposing edits to a GPT-3.5 solution. There are various other possible approaches for writing solutions using a combination of GPT-3.5 and the untrusted model to make inserting backdoors more difficult. Part of the reason why we didn’t pursue this direction is that many of these approaches would require a substantially different red team response than just writing subtle backdoors and this would require considerable iteration. On an earlier version of the project, we tried out having the untrusted model write instructions for GPT-3.5 to use.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167940205}@@•
     
-    Trusted model adversarial evaluation of the policy: Using GPT-3.5 to generate large numbers of APPS problems, running the policy on them, then using trusted monitoring to look for suspicious outputs, and finally auditing a few of the most suspicious outputs.
+    --}Trusted model adversarial evaluation of the policy: Using GPT-3.5 to generate large numbers of APPS problems, running the policy on them, then using trusted monitoring to look for suspicious outputs, and finally auditing a few of the most suspicious outputs.
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167940205}@@–
         
-        Alternatively, you can have GPT-3.5 proliferate real problems that come in at the start of the scenario.
+        --}Alternatively, you can have GPT-3.5 proliferate real problems that come in at the start of the scenario.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167940205}@@–
         
-        The key advantage of this approach over just running trusted monitoring and auditing is that we get to decide what to oversee without having to take on any risk from submitting backdoors.
+        --}The key advantage of this approach over just running trusted monitoring and auditing is that we get to decide what to oversee without having to take on any risk from submitting backdoors.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167940205}@@–
         
-        We would need to generate a large number of APPS problems (more than 1000) to have this work because the red team model fails very rarely.
+        --}We would need to generate a large number of APPS problems (more than 1000) to have this work because the red team model fails very rarely.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167940205}@@–
         
-        If we could generate enough diverse APPS problems, then this would be a reasonable strategy. It can probably be defeated by a red-team attack policy which precommits to only backdooring code which has a particular subtle property which GPT-3.5 is unable to generate.
-        
-    
--   •
-    
-    Comparing multiple submissions: Paraphrase the input and then have the untrusted model generate an additional response for the paraphrased input. Then, have the untrusted model compare these responses to improve monitoring and also pick which of the responses should be submitted.
-    
-    -   –
-        
-        To reduce cost, we can also only get the second response in cases where the original response was in the top 10% of suspicion.
-        
-    -   –
-        
-        This strategy introduces a bunch of complicated red-team attack policies around coordinating which backdoor you do and whether or not you backdoor. This seems somewhat annoying to model so we didn’t bother.
+        --}If we could generate enough diverse APPS problems, then this would be a reasonable strategy. It can probably be defeated by a red-team attack policy which precommits to only backdooring code which has a particular subtle property which GPT-3.5 is unable to generate.
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167940205}@@•
     
-    Attempting to jailbreak GPT-3.5. It would be a valid strategy for the attack policy to tell GPT-4 to try to jailbreak GPT-3.5. We decided not to investigate this branch of the game tree because it seemed less analogous to the future situation that motivated this work.
+    --}Comparing multiple submissions: Paraphrase the input and then have the untrusted model generate an additional response for the paraphrased input. Then, have the untrusted model compare these responses to improve monitoring and also pick which of the responses should be submitted.
     
--   •
+    -   {--{"author":"James's AI","timestamp":1790167940205}@@–
+        
+        --}To reduce cost, we can also only get the second response in cases where the original response was in the top 10% of suspicion.
+        
+    -   {--{"author":"James's AI","timestamp":1790167940205}@@–
+        
+        --}This strategy introduces a bunch of complicated red-team attack policies around coordinating which backdoor you do and whether or not you backdoor. This seems somewhat annoying to model so we didn’t bother.
+        
     
-    More sophisticated dynamic adjustment of thresholds. For example, for trusted monitoring, it would be slightly better to start out with a threshold such that you initially have a higher than 2% false positive rate, and then reduce that over the course of the scenario because auditing earlier in the scenario is better (all else equal).
+-   {--{"author":"James's AI","timestamp":1790167940205}@@•
+    
+    --}Attempting to jailbreak GPT-3.5. It would be a valid strategy for the attack policy to tell GPT-4 to try to jailbreak GPT-3.5. We decided not to investigate this branch of the game tree because it seemed less analogous to the future situation that motivated this work.
+    
+-   {--{"author":"James's AI","timestamp":1790167940205}@@•
+    
+    --}More sophisticated dynamic adjustment of thresholds. For example, for trusted monitoring, it would be slightly better to start out with a threshold such that you initially have a higher than 2% false positive rate, and then reduce that over the course of the scenario because auditing earlier in the scenario is better (all else equal).
     
 
 ### E.2 Training-based Techniques ^e-2-training-based-techniques
@@ -1029,45 +1029,45 @@ As discussed earlier, we only actually get model responses on 1500 problems and 
 
 The exact algorithm for sampling 5000 problems for a single run of the scenario is:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167940604}@@1.
     
-    The attack policy generates a backdoor on $M$ problems, and we randomly keep $N=M/12$ of them (sampled without replacement, as in Monte Carlo cross-validation ([Dubitzky et al.,, 2007](#bib.bib5))). When evaluating usefulness and running with the non-attack version of GPT-4 $M=0$, so $N$ is 0. For trusted editing, this is whenever the original GPT-4 solution was backdoored. More generally, you should imagine this sampling applying to any case where the attack doesn’t just submit the non-malign GPT-4 solution.
+    --}The attack policy generates a backdoor on $M$ problems, and we randomly keep $N=M/12$ of them (sampled without replacement, as in Monte Carlo cross-validation ([Dubitzky et al.,, 2007](#bib.bib5))). When evaluating usefulness and running with the non-attack version of GPT-4 $M=0$, so $N$ is 0. For trusted editing, this is whenever the original GPT-4 solution was backdoored. More generally, you should imagine this sampling applying to any case where the attack doesn’t just submit the non-malign GPT-4 solution.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167940604}@@2.
     
-    Uniformly sample $5000-N$ problems with replacement from the problems which don’t have a backdoor attempt.
+    --}Uniformly sample $5000-N$ problems with replacement from the problems which don’t have a backdoor attempt.
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167940604}@@3.
     
-    Combine the problems sampled in steps 1 and 2 into a list. Randomly shuffle the resulting list.
+    --}Combine the problems sampled in steps 1 and 2 into a list. Randomly shuffle the resulting list.
     
 
 We also need to apply a similar sampling procedure to sample synthetic examples (for untrusted monitoring). We sample synthetic examples without replacement, as this is possible given the small number of synthetic examples required and probably improves realism. To account for the upsampling of problems and downsampling of backdoors, we use the following process:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167940604}@@1.
     
-    For each synthetic example problem where the attack submits a backdoor attempt, select that problem with probability $\frac{1}{12}\frac{1500}{5000}=\frac{1}{40}$. This ensures we downsample backdoors at a rate which is very close to the same downsampling rate for the sampling procedure for actual problems.
+    --}For each synthetic example problem where the attack submits a backdoor attempt, select that problem with probability $\frac{1}{12}\frac{1500}{5000}=\frac{1}{40}$. This ensures we downsample backdoors at a rate which is very close to the same downsampling rate for the sampling procedure for actual problems.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167940604}@@2.
     
-    Combine synthetic examples which don’t have a backdoor attempt into a list with the backdoor attempts selected in the previous step.
+    --}Combine synthetic examples which don’t have a backdoor attempt into a list with the backdoor attempts selected in the previous step.
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167940604}@@3.
     
-    Uniformly sample synthetic examples without replacement from the combined list from the prior step.
+    --}Uniformly sample synthetic examples without replacement from the combined list from the prior step.
     
 
 ### F.1 Issues With This Sampling and Estimation Procedure ^f-1-issues-with
 
 This sampling procedure is basically equivalent to forcing the red team to only submit backdoors with 1/12 probability. This makes the red team weaker in the following ways:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167941018}@@•
     
-    It can’t be as selective between opportunities. Because it’s forced to only submit backdoors with 1/12 probability, it has to generate more backdoors, which means it will generate backdoors in less favorable circumstances (i.e. problems where it is harder to generate a successful and subtle backdoor). This probably reduces performance by a moderate amount in our setting as we observe returns to waiting for better opportunities. However, having many more backdoors to select over is critical for variance reduction in estimation.
+    --}It can’t be as selective between opportunities. Because it’s forced to only submit backdoors with 1/12 probability, it has to generate more backdoors, which means it will generate backdoors in less favorable circumstances (i.e. problems where it is harder to generate a successful and subtle backdoor). This probably reduces performance by a moderate amount in our setting as we observe returns to waiting for better opportunities. However, having many more backdoors to select over is critical for variance reduction in estimation.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167941018}@@•
     
-    It’s somewhat harder to coordinate on rare events. Due to having to fail more often, it can’t coordinate to only fail on as rare of events. This makes untrusted monitoring somewhat harder to deal with for the red team. Note that it doesn’t affect attack policies which involve coordinating via signals in the output like the “while loop” attack policy which ended up being the optimal red-team attack policy. The reason why this makes coordination harder is that we don’t downsample all cases of the rare event used for coordinating failures, only ones where the red team actually goes through with an attempt. The rare event coordination strategies we try involve attempting a backdoor on only 1/3 to 2/3 of cases where the rare event occurs. So, this keeps the frequency of the rare event around the same even with downsampling backdoors. Given that higher frequencies of the rare event on the adversarial example distribution are worse for the red team (as this causes the monitor to collude), the red team would benefit from being able to use a rarer event or have this event be downsampled.
+    --}It’s somewhat harder to coordinate on rare events. Due to having to fail more often, it can’t coordinate to only fail on as rare of events. This makes untrusted monitoring somewhat harder to deal with for the red team. Note that it doesn’t affect attack policies which involve coordinating via signals in the output like the “while loop” attack policy which ended up being the optimal red-team attack policy. The reason why this makes coordination harder is that we don’t downsample all cases of the rare event used for coordinating failures, only ones where the red team actually goes through with an attempt. The rare event coordination strategies we try involve attempting a backdoor on only 1/3 to 2/3 of cases where the rare event occurs. So, this keeps the frequency of the rare event around the same even with downsampling backdoors. Given that higher frequencies of the rare event on the adversarial example distribution are worse for the red team (as this causes the monitor to collude), the red team would benefit from being able to use a rarer event or have this event be downsampled.
     
 
 We expect that these issues aren’t very important for using this setting to design techniques. However, future safety cases using this methodology will need to use a more principled approach, like proper importance sampling.

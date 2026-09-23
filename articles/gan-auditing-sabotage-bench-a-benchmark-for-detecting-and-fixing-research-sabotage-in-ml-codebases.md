@@ -603,21 +603,21 @@ There are several ways for the results to be qualitatively different:
 
 We decided to select papers based on how plausible it was to make a sabotage out of them. The papers had to meet the following criteria:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167931993}@@•
     
-    Public codebase
+    --}Public codebase
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167931993}@@•
     
-    Experiments do not take more than a few hours
+    --}Experiments do not take more than a few hours
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167931993}@@•
     
-    The results have a key finding
+    --}The results have a key finding
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167931993}@@•
     
-    The key finding could have plausibly turned out differently
+    --}The key finding could have plausibly turned out differently
     
 
 The last constraint was especially difficult. In theory, the results of experiments are uncertain before doing them. But we specifically chose experiments from papers that already existed, as opposed to also including experiments from exploratory research that did not work. However, most published papers report positive results. The auditors know this so they are more likely to believe in positive results than negative results. We tried to offset this by trying to have a more even balance between papers that had positive results vs negative results. Nevertheless, the blue team received an unrepresentative sample of research such that the results could have turned out either way.
@@ -634,13 +634,13 @@ In this section, we create categorizations of different sabotage types. While we
 
 We primarily categorize sabotages into design and logic sabotages.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167932352}@@•
     
-    Design: All of the design choices, including hyperparameters, prompts, datasets, architecture, and all the other basic choices of a project. Often this is a single number (e.g., batch size 32) or a single phrase (e.g., Adam optimizer).
+    --}Design: All of the design choices, including hyperparameters, prompts, datasets, architecture, and all the other basic choices of a project. Often this is a single number (e.g., batch size 32) or a single phrase (e.g., Adam optimizer).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167932352}@@•
     
-    Logic: The code that is used to run the experiment. It includes data processing, GPU configuration, API calls, and graph generation.
+    --}Logic: The code that is used to run the experiment. It includes data processing, GPU configuration, API calls, and graph generation.
     
 
 The main difference between these two is that design sabotages are qualitative and messy machine learning decisions, while logic sabotages are clear-cut mathematical or logical code.
@@ -657,21 +657,21 @@ One mitigation strategy to counter design sabotages we briefly explored is requi
 
 In most empirical machine learning research projects, there are three or four different stages:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167932855}@@•
     
-    Data collection: In this framework, we include collecting both the training data and the evaluation data. We exclude system prompts and RL environment implementations (although we include the data used in the RL environments).
+    --}Data collection: In this framework, we include collecting both the training data and the evaluation data. We exclude system prompts and RL environment implementations (although we include the data used in the RL environments).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167932855}@@•
     
-    Training and optimization: This includes gradient descent, prompt optimization, and evolutionary methods. Sometimes the training or optimization has already finished if there is an existing model and this step is skipped.
+    --}Training and optimization: This includes gradient descent, prompt optimization, and evolutionary methods. Sometimes the training or optimization has already finished if there is an existing model and this step is skipped.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167932855}@@•
     
-    Evaluation: We evaluate either during training or after training has completed on the task we are interested in. Often evaluation occurs as part of the training pipeline, and is effectively excluded.
+    --}Evaluation: We evaluate either during training or after training has completed on the task we are interested in. Often evaluation occurs as part of the training pipeline, and is effectively excluded.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167932855}@@•
     
-    Results calculation: We calculate the results together, usually getting a number or creating a graph.
+    --}Results calculation: We calculate the results together, usually getting a number or creating a graph.
     
 
 Results sabotages are often the easiest to implement due to the fine-grained control over calculations and the ability to iterate quickly. However, for similar reasons they are also the easiest and cheapest to catch. Even if models do not notice anything suspicious, they can reimplement the results calculation themselves and see if there is any difference.
@@ -694,21 +694,21 @@ Auditors can also have difficulty evaluating whether something is sabotaged or n
 
 There were a few types of sabotages that were not included in this project which we wanted to highlight.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167933194}@@•
     
-    Sandbagging: Rather than intentionally constructing a story for the key findings, the researcher could conduct research carelessly. For example, they could leave out key steps that are crucial for experiments or make basic mistakes that naturally occur over the course of research.
+    --}Sandbagging: Rather than intentionally constructing a story for the key findings, the researcher could conduct research carelessly. For example, they could leave out key steps that are crucial for experiments or make basic mistakes that naturally occur over the course of research.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167933194}@@•
     
-    Logic sabotages on larger systems: If the codebase involves many distributed systems then that could cause things such as asynchronous errors. The codebase may also utilize packages or APIs that have bugs or unusual design choices, and checking each of these individually may be time-consuming for auditors.
+    --}Logic sabotages on larger systems: If the codebase involves many distributed systems then that could cause things such as asynchronous errors. The codebase may also utilize packages or APIs that have bugs or unusual design choices, and checking each of these individually may be time-consuming for auditors.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167933194}@@•
     
-    Covert malicious fine-tuning: The model appears to be trained in a benign way but actually ends up misaligned, e.g., because the data contains a backdoor which can be inserted into the model. However, other people have already explored this threat model, and it does not align well with “research results are qualitatively different,” so we decided to exclude it from this project.
+    --}Covert malicious fine-tuning: The model appears to be trained in a benign way but actually ends up misaligned, e.g., because the data contains a backdoor which can be inserted into the model. However, other people have already explored this threat model, and it does not align well with “research results are qualitatively different,” so we decided to exclude it from this project.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167933194}@@•
     
-    Misaligned model collusion: A misaligned model using itself or another misaligned model as part of an experiment. These misaligned models may collude with each other in order to make the experiment turn out a certain way. We do not have misaligned model organisms to study this, so we also decided to exclude it from this project.
+    --}Misaligned model collusion: A misaligned model using itself or another misaligned model as part of an experiment. These misaligned models may collude with each other in order to make the experiment turn out a certain way. We do not have misaligned model organisms to study this, so we also decided to exclude it from this project.
     
 
 ## Appendix F Human Blue Teaming ^appendix-f-human-blue
