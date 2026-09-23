@@ -1,6 +1,6 @@
 ---
 id: '68d21c7d-66ff-4eb7-933c-941e2b489781'
-learning-outcome: "Work out which option or lottery geometric maximization selects (maximizing the probability-weighted product, or equivalently the expected logarithm, of a quantity across people, worlds or hypotheses) and contrast it with arithmetic maximization, explaining why its choice is unchanged when one party's utilities are rescaled, why it can prefer a lottery to every single option, and what it depends on instead, such as the choice of zero point."
+learning-outcome: "Work out which option or lottery geometric maximization selects (maximizing the probability-weighted geometric mean, or equivalently the expected logarithm, of a quantity across people, worlds or hypotheses) and contrast it with arithmetic maximization, explaining why its choice is unchanged when one party's utilities are rescaled, why it can prefer a lottery to every single option, and what it depends on instead, such as the choice of zero point."
 topic: "[[../Domains and Topics/4 Agent Foundations/Decision theory]]"
 stage: advanced
 authors:
