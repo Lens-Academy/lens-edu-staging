@@ -3,7 +3,7 @@ title: "Chinese AI models have lagged the US frontier by 7 months on average sin
 author:
   - "Luke Emberson"
 source_url: "https://epoch.ai/data-insights/us-vs-china-eci"
-published: 2026-01-02 {>>{"author":"Elias's AI","timestamp":1783843123863}@@date verified from the live epoch.ai byline on 2026-07-12<<}
+published: 2026-01-02 
 created: 2026-07-02
 accessed: 2026-07-02
 description: "Since 2023, every model at the frontier of AI capabilities, as measured by the Epoch Capabilities Index, has been developed in the United States. Over that same period, Chinese models have trailed US capabilities by an average of seven months, with a minimum gap of four months and a maximum gap of 14."
@@ -30,22 +30,20 @@ Since 2023, every model at the frontier of AI capabilities, as measured by the E
 
 This gap closely resembles the broader gap between proprietary and open-weight models. This is unsurprising since nearly all leading Chinese models are open-weight, while frontier US models remain closed.
 
-{--{"author":"Luc's AI","timestamp":1790190535302}@@Epoch's work is free to use, distribute, and reproduce provided the source and authors are credited under the Creative Commons BY license.
-
---}## Learn more about this graph
+## Learn more about this graph
 
 We visualize the gap in capabilities between US and Chinese models, using the [Epoch Capabilities Index](https://epoch.ai/eci) (ECI). Since 2023, the gap has ranged from 4 to 14 months, with a mean gap of 7 months.
 
-{--{"author":"Luc's AI","timestamp":1790190535044}@@### Analysis--}{++{"author":"Luc's AI","timestamp":1790190535044}@@:::callout {title="Analysis" collapse="closed"}
+:::callout {title="Analysis" collapse="closed"}
 To calculate the gap between US and Chinese models, we first find the set of models that had the highest ECI among models from their country upon release. We then drop the first of these models (LLaMA-65B for the US, and Baichuan1-7B for China), since these first models were likely not at the true frontier (ECI data starts in January 2023).
 
 To quantify the gap on each day, we look at the ECI of the best Chinese model on that day, and then calculate how long it has been since the last time the leading US model was the same or worse than that score. We consider models to be the same performance if their scores are within 1 ECI point difference. We repeat this process for each day where values exist for both the US and China. In practice, the first point where a Chinese model surpasses GPT-4 is May 2024 (a gap of 14 months), and no Chinese model has yet surpassed the ECI of OpenAI’s o3 model, released in April 2025.
-:::++}
+:::
 
 ## Explore this data
 
-{--{"author":"Luc's AI","timestamp":1790190534812}@@![AI Capabilities](https://epoch.ai/assets/images/datahub/thumbnails/small/ai-benchmarking-icon-circle.svg)--}{++{"author":"Luc's AI","timestamp":1790190534812}@@![Capabilities & Benchmarking](https://epoch.ai/assets/images/datahub/thumbnails/small/ai-benchmarking-icon-circle.svg)++}
+![Capabilities & Benchmarking](https://epoch.ai/assets/images/datahub/thumbnails/small/ai-benchmarking-icon-circle.svg)
 
-{--{"author":"Luc's AI","timestamp":1790190534512}@@AI Capabilities--}{++{"author":"Luc's AI","timestamp":1790190534512}@@[Capabilities & Benchmarking](https://epoch.ai/benchmarks)++}
+[Capabilities & Benchmarking](https://epoch.ai/benchmarks)
 
 Benchmark results featuring the performance of leading AI models on challenging tasks.
