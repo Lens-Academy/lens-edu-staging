@@ -39,6 +39,5 @@ To calculate the gap between US and Chinese models, we first find the set of mod
 
 To quantify the gap on each day, we look at the ECI of the best Chinese model on that day, and then calculate how long it has been since the last time the leading US model was the same or worse than that score. We consider models to be the same performance if their scores are within 1 ECI point difference. We repeat this process for each day where values exist for both the US and China. In practice, the first point where a Chinese model surpasses GPT-4 is May 2024 (a gap of 14 months), and no Chinese model has yet surpassed the ECI of OpenAI’s o3 model, released in April 2025.
 :::
-
-### Explore this data
+## Explore this data
 [Capabilities & Benchmarking](https://epoch.ai/benchmarks): Benchmark results featuring the performance of leading AI models on challenging tasks.
