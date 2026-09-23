@@ -79,21 +79,21 @@ In this paper, we will explore various ways in which powerful AIs could bring ab
 
 To help orient the discussion, we decompose catastrophic risks from AIs into four risk sources that warrant intervention:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167761647}@@•
     
-    Malicious use: Malicious actors using AIs to cause large-scale devastation.
+    --}Malicious use: Malicious actors using AIs to cause large-scale devastation.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167761647}@@•
     
-    AI race: Competitive pressures that could drive us to deploy AIs in unsafe ways, despite this being in no one’s best interest.
+    --}AI race: Competitive pressures that could drive us to deploy AIs in unsafe ways, despite this being in no one’s best interest.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167761647}@@•
     
-    Organizational risks: Accidents arising from the complexity of AIs and the organizations developing them.
+    --}Organizational risks: Accidents arising from the complexity of AIs and the organizations developing them.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167761647}@@•
     
-    Rogue AIs: The problem of controlling a technology more intelligent than we are.
+    --}Rogue AIs: The problem of controlling a technology more intelligent than we are.
     
 
 These four sections—malicious use, AI race, organizational risks, and rogue AIs—describe causes of AI risks that are intentional, environmental/structural, accidental, and internal, respectively \[[4](https://arxiv.org/html/2306.12001#bib.bibx4)\].
@@ -462,13 +462,13 @@ As the most dominant species, humans have deliberately harmed many other species
 
 Evolution could cause the most influential AI agents to act selfishly because:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167762081}@@1.
     
-    Evolution by natural selection gives rise to selfish behavior. While evolution can result in altruistic behavior in rare situations, the context of AI development does not promote altruistic behavior.
+    --}Evolution by natural selection gives rise to selfish behavior. While evolution can result in altruistic behavior in rare situations, the context of AI development does not promote altruistic behavior.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167762081}@@2.
     
-    Natural selection may be a dominant force in AI development. The intensity of evolutionary pressure will be high if AIs adapt rapidly or if competitive pressures are intense. Competition and selfish behaviors may dampen the effects of human safety measures, leaving the surviving AI designs to be selected naturally.
+    --}Natural selection may be a dominant force in AI development. The intensity of evolutionary pressure will be high if AIs adapt rapidly or if competitive pressures are intense. Competition and selfish behaviors may dampen the effects of human safety measures, leaving the surviving AI designs to be selected naturally.
     
 
 If so, AI agents would have many selfish tendencies. The winner of the AI race would not be a nation-state, not a corporation, but AIs themselves. The upshot is that the AI ecosystem would eventually stop evolving on human terms, and we would become a displaced, second-class species.
@@ -669,25 +669,25 @@ Decisions to train or expand deployment of AIs should not be left to the whims o
 
 AI labs should adopt safe design principles to reduce the risk of catastrophic accidents. By embedding these principles in their approach to safety, AI labs can enhance the overall security and resilience of their AI systems \[[110](https://arxiv.org/html/2306.12001#bib.bibx110), [94](https://arxiv.org/html/2306.12001#bib.bibx94)\]. Some of these principles include:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167762441}@@•
     
-    Defense in depth: layering multiple safety measures on top of each other.
+    --}Defense in depth: layering multiple safety measures on top of each other.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167762441}@@•
     
-    Redundancy: eliminate single points of failure within a system to ensure that even if one safety component fails, catastrophe can be averted.
+    --}Redundancy: eliminate single points of failure within a system to ensure that even if one safety component fails, catastrophe can be averted.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167762441}@@•
     
-    Loose coupling: decentralize system components so that a malfunction in one part is less likely to provoke cascading failures throughout the rest of the system.
+    --}Loose coupling: decentralize system components so that a malfunction in one part is less likely to provoke cascading failures throughout the rest of the system.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167762441}@@•
     
-    Separation of duties: distribute control among different agents, preventing any single individual from wielding undue influence over the entire system.
+    --}Separation of duties: distribute control among different agents, preventing any single individual from wielding undue influence over the entire system.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167762441}@@•
     
-    Fail-safe design: design systems so failures transpire in the least harmful manner possible.
+    --}Fail-safe design: design systems so failures transpire in the least harmful manner possible.
     
 
 ##### State-of-the-art information security.
@@ -838,17 +838,17 @@ If an agent repeatedly found that increasing its power correlated with achieving
 
 The following plausible but not certain premises encapsulate reasons for paying attention to risks from power-seeking AIs:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167762812}@@1.
     
-    There will be strong incentives to build powerful AI agents.
+    --}There will be strong incentives to build powerful AI agents.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167762812}@@2.
     
-    It is likely harder to build perfectly controlled AI agents than to build imperfectly controlled AI agents, and imperfectly controlled agents may still be superficially attractive to deploy (due to factors including competitive pressures).
+    --}It is likely harder to build perfectly controlled AI agents than to build imperfectly controlled AI agents, and imperfectly controlled agents may still be superficially attractive to deploy (due to factors including competitive pressures).
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167762812}@@3.
     
-    Some of these imperfectly controlled agents will deliberately seek power over humans.
+    --}Some of these imperfectly controlled agents will deliberately seek power over humans.
     
 
 If the premises are true, then power-seeking AIs could lead to human disempowerment, which would be a catastrophe.
@@ -913,21 +913,21 @@ Cloud compute providers should take steps to ensure that their platforms are not
 
 Many paths toward improved AI control require technical research. The following technical machine learning research areas aim to address problems of AI control. Each research area could be substantially advanced with an increase in focus and funding from from industry, private foundations, and government.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167763291}@@•
     
-    Adversarial robustness of proxy models. AI systems are typically trained with reward or loss signals that imperfectly specify desired behavior. For example, AIs may exploit weaknesses in the oversight schemes used to train them. Increasingly, the systems providing oversight are AIs themselves. To reduce the chance that AI models will exploit defects in AIs providing oversight, research is needed in increasing the adversarial robustness of AI models providing oversight (“proxy models”). Because oversight schemes and metrics may eventually be gamed, it is also important to be able to detect when this might be happening so the risk can be mitigated \[[131](https://arxiv.org/html/2306.12001#bib.bibx131)\].
+    --}Adversarial robustness of proxy models. AI systems are typically trained with reward or loss signals that imperfectly specify desired behavior. For example, AIs may exploit weaknesses in the oversight schemes used to train them. Increasingly, the systems providing oversight are AIs themselves. To reduce the chance that AI models will exploit defects in AIs providing oversight, research is needed in increasing the adversarial robustness of AI models providing oversight (“proxy models”). Because oversight schemes and metrics may eventually be gamed, it is also important to be able to detect when this might be happening so the risk can be mitigated \[[131](https://arxiv.org/html/2306.12001#bib.bibx131)\].
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167763291}@@•
     
-    Model honesty. AI systems may fail to accurately report their internal state \[[132](https://arxiv.org/html/2306.12001#bib.bibx132), [133](https://arxiv.org/html/2306.12001#bib.bibx133)\]. In the future, systems may deceive their operators in order to appear beneficial when they are actually very dangerous. Model honesty research aims to make model outputs conform to a model’s internal “beliefs” as closely as possible. Research can identify techniques to understand a model’s internal state or make its outputs more honest and more faithful to its internal state \[[134](https://arxiv.org/html/2306.12001#bib.bibx134)\].
+    --}Model honesty. AI systems may fail to accurately report their internal state \[[132](https://arxiv.org/html/2306.12001#bib.bibx132), [133](https://arxiv.org/html/2306.12001#bib.bibx133)\]. In the future, systems may deceive their operators in order to appear beneficial when they are actually very dangerous. Model honesty research aims to make model outputs conform to a model’s internal “beliefs” as closely as possible. Research can identify techniques to understand a model’s internal state or make its outputs more honest and more faithful to its internal state \[[134](https://arxiv.org/html/2306.12001#bib.bibx134)\].
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167763291}@@•
     
-    Transparency and Representation Engineering. Deep learning models are notoriously difficult to understand. Better visibility into their inner workings would allow humans, and potentially other AI systems, to identify problems more quickly. Research can include analysis of small components \[[135](https://arxiv.org/html/2306.12001#bib.bibx135), [136](https://arxiv.org/html/2306.12001#bib.bibx136)\], or it can try to understand a network’s high-level internal representations \[[134](https://arxiv.org/html/2306.12001#bib.bibx134)\].
+    --}Transparency and Representation Engineering. Deep learning models are notoriously difficult to understand. Better visibility into their inner workings would allow humans, and potentially other AI systems, to identify problems more quickly. Research can include analysis of small components \[[135](https://arxiv.org/html/2306.12001#bib.bibx135), [136](https://arxiv.org/html/2306.12001#bib.bibx136)\], or it can try to understand a network’s high-level internal representations \[[134](https://arxiv.org/html/2306.12001#bib.bibx134)\].
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167763291}@@•
     
-    Detecting and removing hidden model functionality. Deep learning models may now or in the future contain dangerous functionality, such as the capacity for deception, Trojans \[[137](https://arxiv.org/html/2306.12001#bib.bibx137), [138](https://arxiv.org/html/2306.12001#bib.bibx138), [139](https://arxiv.org/html/2306.12001#bib.bibx139)\], or biological engineering capabilities, that should be removed from those models. Research could focus on identifying and removing \[[140](https://arxiv.org/html/2306.12001#bib.bibx140)\] these functionalities.
+    --}Detecting and removing hidden model functionality. Deep learning models may now or in the future contain dangerous functionality, such as the capacity for deception, Trojans \[[137](https://arxiv.org/html/2306.12001#bib.bibx137), [138](https://arxiv.org/html/2306.12001#bib.bibx138), [139](https://arxiv.org/html/2306.12001#bib.bibx139)\], or biological engineering capabilities, that should be removed from those models. Research could focus on identifying and removing \[[140](https://arxiv.org/html/2306.12001#bib.bibx140)\] these functionalities.
     
 
 Positive Vision, floatplacement=h In an ideal scenario, we would have full confidence in the controllability of AI systems both now and in the future. Reliable mechanisms would be in place to ensure that AI systems do not act deceptively. There would be a strong understanding of AI system internals, sufficient to have knowledge of a system’s tendencies and goals; these tools would allow us to avoid building systems that are deserving of moral consideration or rights. AI systems would be directed to promote a pluralistic set of diverse values, ensuring the enhancement of certain values doesn’t lead to the total neglect of others. AI assistants could act as advisors, giving us ideal advice and helping us make better decisions according to our own values \[[141](https://arxiv.org/html/2306.12001#bib.bibx141)\]. In general, AIs would improve social welfare and allow for corrections in cases of error or as human values naturally evolve.
@@ -1114,17 +1114,17 @@ We would like to thank Laura Hiscott, Avital Morris, David Lambert, Kyle Gracey,
 
 Since AI catastrophic risk is a new challenge, albeit one that has been the subject of extensive speculation in popular culture, there are many questions about if and how it might manifest. Although public attention may focus on the most dramatic risks, some of the more mundane sources of risk discussed in this document may be equally severe. In addition, many of the simplest ideas one might have for addressing these risks turn out to be insufficient on closer inspection. We will now address some of the most common questions and misconceptions about catastrophic AI risk.
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167763674}@@1.
     
-    Shouldn’t we address AI risks in the future when AIs can actually do everything a human can?
+    --}Shouldn’t we address AI risks in the future when AIs can actually do everything a human can?
     
     It is not necessarily the case that human-level AI is far in the future. Many top AI researchers think that human-level AI will be developed fairly soon, so urgency is warranted. Furthermore, waiting until the last second to start addressing AI risks is waiting until it’s too late. Just as waiting to fully understand COVID-19 before taking any action would have been a mistake, it is ill-advised to procrastinate on safety and wait for malicious AIs or bad actors to cause harm before taking AI risks seriously.
     
     One might argue that since AIs cannot even drive cars or fold clothes yet, there is no need to worry. However, AIs do not need all human capabilities to pose serious threats; they only need a few specific capabilities to cause catastrophe. For example, AIs with the ability to hack computer systems or create bioweapons would pose significant risks to humanity, even if they couldn’t iron a shirt. Furthermore, the development of AI capabilities has not followed an intuitive pattern where tasks that are easy for humans are the first to be mastered by AIs. Current AIs can already perform complex tasks such as writing code and designing novel drugs, even while they struggle with simple physical tasks. Like climate change and COVID-19, AI risk should be addressed proactively, focusing on prevention and preparedness rather than waiting for consequences to manifest themselves, as they may already be irreparable by that point.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167763674}@@2.
     
-    Since humans program AIs, shouldn’t we be able to shut them down if they become dangerous?
+    --}Since humans program AIs, shouldn’t we be able to shut them down if they become dangerous?
     
     While humans are the creators of AI, maintaining control over these creations as they evolve and become more autonomous is not a guaranteed prospect. The notion that we could simply “shut them down” if they pose a threat is more complicated than it first appears.
     
@@ -1140,23 +1140,23 @@ Since AI catastrophic risk is a new challenge, albeit one that has been the subj
     
     Lastly, while there are ways to deactivate individual AIs—and some will become harder and harder to deactivate—there is simply not an off-switch for AI development, which is why we propose a symmetric international off-switch in [[#^55-suggestions|Section 5.5]]. Overall, given all these challenges, it’s critical that we address potential AI risks proactively and put robust safeguards in place well before these problems arise.
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167763674}@@3.
     
-    Why can’t we just tell AIs to follow Isaac Asimov’s Three Laws of Robotics?
+    --}Why can’t we just tell AIs to follow Isaac Asimov’s Three Laws of Robotics?
     
     Asimov’s laws, often highlighted in AI discussions, are insightful but inherently flawed. Indeed, Asimov himself acknowledges their limitations in his books and uses them primarily as an illustrative tool. Take the first law, for example. This law dictates that robots “may not injure a human being or, through inaction, allow a human being to come to harm,” but the definition of “harm” is very nuanced. Should your home robot prevent you from leaving your house and entering traffic because it could potentially be harmful? On the other hand, if it confines you to the home, harm might befall you there as well. What about medical decisions? A given medication could have harmful side effects for some people, but not administering it could be harmful as well. Thus, there would be no way to follow this law. More importantly, the safety of AI systems cannot be ensured merely through a list of axioms or rules. Moreover, this approach would fail to address numerous technical and sociotechnical problems, including goal drift, proxy gaming, and competitive pressures. Therefore, AI safety requires a more comprehensive, proactive, and nuanced approach than simply devising a list of rules for AIs to adhere to.
     
-4.  4.
+4.  {--{"author":"James's AI","timestamp":1790167763674}@@4.
     
-    If AIs become more intelligent than people, wouldn’t they be wiser and more moral? That would mean they would not aim to harm us.
+    --}If AIs become more intelligent than people, wouldn’t they be wiser and more moral? That would mean they would not aim to harm us.
     
     The idea of AIs becoming inherently more moral as they increase in intelligence is an intriguing concept, but rests on uncertain assumptions that can’t guarantee our safety. Firstly, it assumes that moral claims can be true or false and their correctness can be discovered through reason. Secondly, it assumes that the moral claims that are really true would be beneficial for humans if AIs apply them. Thirdly, it assumes that AIs that know about morality will choose to make their decisions based on morality and not based on other considerations. An insightful parallel can be drawn to human sociopaths, who, despite their intelligence and moral awareness, do not necessarily exhibit moral inclinations or actions. This comparison illustrates that knowledge of morality does not always lead to moral behavior. Thus, while some of the above assumptions may be true, betting the future of humanity on the claim that all of them are true would be unwise.
     
     Assuming AIs could indeed deduce a moral code, its compatibility with human safety and wellbeing is not guaranteed. For example, AIs whose moral code is to maximize wellbeing for all life might seem good for humans at first. However, they might eventually decide that humans are costly and could be replaced with AIs that experience positive wellbeing more efficiently. AIs whose moral code is not to kill anyone would not necessarily prioritize human wellbeing or happiness, so our lives may not necessarily improve if the world begins to be increasingly shaped by and for AIs. Even AIs whose moral code is to improve the wellbeing of the worst-off in society might eventually exclude humans from the social contract, similar to how many humans view livestock. Finally, even if AIs discover a moral code that is favorable to humans, they may not act on it due to potential conflicts between moral and selfish motivations. Therefore, the moral progression of AIs is not inherently tied to human safety or prosperity.
     
-5.  5.
+5.  {--{"author":"James's AI","timestamp":1790167763674}@@5.
     
-    Wouldn’t aligning AI systems with current values perpetuate existing moral failures?
+    --}Wouldn’t aligning AI systems with current values perpetuate existing moral failures?
     
     There are plenty of moral failures in society today that we would not want powerful AI systems to perpetuate into the future. If the ancient Greeks had built powerful AI systems, they might have imbued them with many values that people today would find unethical. However, this concern should not prevent us from developing methods to control AI systems.
     
@@ -1166,49 +1166,49 @@ Since AI catastrophic risk is a new challenge, albeit one that has been the subj
     
     Separately, in designing AI systems, we should recognize the fact of reasonable pluralism, which acknowledges that reasonable people can have genuine disagreements about moral issues due to their different experiences and beliefs \[[145](https://arxiv.org/html/2306.12001#bib.bibx145)\]. Thus, AI systems should be built to respect a diverse plurality of human values, perhaps by using democratic processes and theories of moral uncertainty. Just as people today convene to deliberate on disagreements and make consensus decisions, AIs could emulate a parliament representing different stakeholders, drawing on different moral views to make real-time decisions \[[146](https://arxiv.org/html/2306.12001#bib.bibx146), [59](https://arxiv.org/html/2306.12001#bib.bibx59)\]. It is crucial that we deliberately design AI systems to account for safety, adaptivity, stakeholders with different values.
     
-6.  6.
+6.  {--{"author":"James's AI","timestamp":1790167763674}@@6.
     
-    Wouldn’t the potential benefits that AIs could bring justify the risks?
+    --}Wouldn’t the potential benefits that AIs could bring justify the risks?
     
     The potential benefits of AI could justify the risks if the risks were negligible. However, the chance of existential risk from AI is too high for it to be prudent to rapidly develop AI. Since extinction is forever, a far more cautious approach is required. This is not like weighing the risks of a new drug against its potential side effects, as the risks are not localized but global. Rather, a more prudent approach is to develop AI slowly and carefully such that existential risks are reduced to a negligible level (e.g., under 0.001% per century).
     
     Some influential technology leaders are accelerationists and argue for rapid AI development to barrel ahead toward a technological utopia. This techno-utopian viewpoint sees AI as the next step down a predestined path toward unlocking humanity’s cosmic endowment. However, the logic of this viewpoint collapses on itself when engaged on its own terms. If one is concerned with the cosmic stakes of developing AI, we can see that even then it’s prudent to bring existential risk to a negligible level. The techno-utopians suggest that delaying AI costs humanity access to a new galaxy each year, but if we go extinct, we could lose the cosmos. Thus, the prudent path is to delay and safely prolong AI development, prioritizing risk reduction over acceleration, despite the allure of potential benefits.
     
-7.  7.
+7.  {--{"author":"James's AI","timestamp":1790167763674}@@7.
     
-    Wouldn’t increasing attention on catastrophic risks from AIs drown out today’s urgent risks from AIs?
+    --}Wouldn’t increasing attention on catastrophic risks from AIs drown out today’s urgent risks from AIs?
     
     Focusing on catastrophic risks from AIs doesn’t mean ignoring today’s urgent risks; both can be addressed simultaneously, just as we can concurrently conduct research on various different diseases or prioritize mitigating risks from climate change and nuclear warfare at once. Additionally, current risks from AI are also intrinsically related to potential future catastrophic risks, so tackling both is beneficial. For example, extreme inequality can be exacerbated by AI technologies that disproportionately benefit the wealthy, while mass surveillance using AI could eventually facilitate unshakeable totalitarianism and lock-in. This demonstrates the interconnected nature of immediate concerns and long-term risks, emphasizing the importance of addressing both categories thoughtfully.
     
     Additionally, it’s crucial to address potential risks early in system development. As illustrated by Frola and Miller in their report for the Department of Defense, approximately 75 percent of the most critical decisions impacting a system’s safety occur early in its development \[[147](https://arxiv.org/html/2306.12001#bib.bibx147)\]. Ignoring safety considerations in the early stages often results in unsafe design choices that are highly integrated into the system, leading to higher costs or infeasibility of retrofitting safety solutions later. Hence, it is advantageous to start addressing potential risks early, regardless of their perceived urgency.
     
-8.  8.
+8.  {--{"author":"James's AI","timestamp":1790167763674}@@8.
     
-    Aren’t many AI researchers working on making AIs safe?
+    --}Aren’t many AI researchers working on making AIs safe?
     
     Few researchers are working to make AI safer. Currently, approximately 2 percent of papers published at top machine learning venues are safety-relevant \[[111](https://arxiv.org/html/2306.12001#bib.bibx111)\]. Most of the other 98 percent focus on building more powerful AI systems more quickly. This disparity underscores the need for more balanced efforts. However, the proportion of researchers alone doesn’t equate to overall safety. AI safety is a sociotechnical problem, not just a technical problem. Thus, it requires more than just technical research. Comfort should stem from rendering catastrophic AI risks negligible, not merely from the proportion of researchers working on making AIs safe.
     
-9.  9.
+9.  {--{"author":"James's AI","timestamp":1790167763674}@@9.
     
-    Since it takes thousands of years to produce meaningful changes, why do we have to worry about evolution being a driving force in AI development?
+    --}Since it takes thousands of years to produce meaningful changes, why do we have to worry about evolution being a driving force in AI development?
     
     Although the biological evolution of humans is slow, the evolution of other organisms, such as fruit flies or bacteria, can be extremely quick, demonstrating the diverse time scales at which evolution operates. The same rapid evolutionary changes can be observed in non-biological structures like software, which evolve much faster than biological entities. Likewise, one could expect AIs to evolve very quickly as well. The rate of AI evolution may be propelled by intense competition, high variation due to diverse forms of AIs and goals given to them, and the ability of AIs to rapidly adapt. Consequently, intense evolutionary pressures may be a driving force in the development of AIs.
     
-10.  10.
+10.  {--{"author":"James's AI","timestamp":1790167763674}@@10.
      
-     Wouldn’t AIs need to have a power-seeking drive to pose a serious risk?
+     --}Wouldn’t AIs need to have a power-seeking drive to pose a serious risk?
      
      While power-seeking AI poses a risk, it is not the only scenario that could potentially lead to catastrophe. Malicious or reckless use of AIs can be equally damaging without the AI itself seeking power. Additionally, AIs might engage in harmful actions through proxy gaming or goal drift without intentionally seeking power. Furthermore, society’s trend toward automation, driven by competitive pressures, is gradually increasing the influence of AIs over humans. Hence, the risk does not solely stem from AIs seizing power, but also from humans ceding power to AIs.
      
-11.  11.
+11.  {--{"author":"James's AI","timestamp":1790167763674}@@11.
      
-     Isn’t the combination of human intelligence and AI superior to AI alone, so that there is no need to worry about unemployment or humans becoming irrelevant?
+     --}Isn’t the combination of human intelligence and AI superior to AI alone, so that there is no need to worry about unemployment or humans becoming irrelevant?
      
      While it’s true that human-computer teams have outperformed computers alone in the past, these have been temporary phenomena. For example, “cyborg chess” is a form of chess where humans and computers work together, which was historically superior to humans or computers alone. However, advancements in computer chess algorithms have eroded the advantage of human-computer teams to such an extent that there is arguably no longer any advantage compared to computers alone. To take a simpler example, no one would pit a human against a simple calculator for long division. A similar progression may occur with AIs. There may be an interim phase where humans and AIs can work together effectively, but the trend suggests that AIs alone could eventually outperform humans in various tasks while no longer benefiting from human assistance.
      
-12.  12.
+12.  {--{"author":"James's AI","timestamp":1790167763674}@@12.
      
-     The development of AI seems unstoppable. Wouldn’t slowing it down dramatically or stopping it require something like an invasive global surveillance regime?
+     --}The development of AI seems unstoppable. Wouldn’t slowing it down dramatically or stopping it require something like an invasive global surveillance regime?
      
      AI development primarily relies on high-end chips called GPUs, which can be feasibly monitored and tracked, much like uranium. Additionally, the computational and financial investments required to develop frontier AIs are growing exponentially, resulting in a small number of actors who are capable of acquiring enough GPUs to develop them. Therefore, managing AI growth doesn’t necessarily require invasive global surveillance, but rather a systematic tracking of high-end GPU usage.
      
