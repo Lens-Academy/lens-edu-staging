@@ -1191,6 +1191,7 @@ Following a logic similar to what is explained in the section [[#^feasibility-of
 We assume the usual Chinchilla relation between model size and number of parameters ($D = 20 \times N$), and numerically solve for the largest model that can be trained using the [fsolve](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fsolve.html) facility in scipy.
 :::
 
+:::callout {title="Appendix D: Equivalence between multimodal and text data" collapse="closed"}
 ### Appendix D: Equivalence between multimodal and text data ^appendix-d-equivalence-between
 
 Here we set out to estimate how many tokens an image or second of video would be encoded as, in relation to one token of text.
@@ -1202,7 +1203,9 @@ Establishing an equivalence rate between data of different modalities is complex
 For video, we speculate that one second of video content would be the equivalent of 2-10 words of content based on typical speech speeds, i.e. 2-13 text tokens. The information in a video is highly redundant compared to images—for instance, typical high res images take up 2MB of space, while 720p/1080p videos take up [1GB of space per hour of video](https://www.goanywhere.com/blog/how-big-are-movie-files), ie 0.2MB per second of video, which would suggest there is less information per second of video than in ten images. So we take as lower bound the 2 tokens per second of speech and as an upper bound the same 290 tokens per second that we assigned to an image, as a generous upper bound of the image content in the video.
 
 Thus we arrive at a rate of 2 to 290 tokens per image or second of video. We consider this an extremely rough guess, and acknowledge there is significant room for disagreement.
+:::
 
+:::callout {title="Appendix E: Computing the largest possible training run given variable communication latency restrictions" collapse="closed"}
 ### Appendix E: Computing the largest possible training run given variable communication latency restrictions ^appendix-e-computing-the
 
 In this appendix we explain how we estimate the largest model that can be trained using a tree topology setup without running into latency constraints.
@@ -1230,7 +1233,9 @@ For the H100 at FP8 precision, the minimum batch size per GPU would then corresp
 The number of GPUs is approximated by the model compute $C$ divided by the training duration $T$ and the utilization-adjusted hardware performance $H$ (this is an underestimate, as utilization worsens with scale): $N_{\text{GPU}} = C(T \times H)$. The model compute $C$, dataset size $D$ and model size $N$ obey [the usual relation](https://epoch.ai/blog/estimating-training-compute), $C = 6DN$. Dataset size $D$ is assumed to scale in relation to model size $N$ following the [Chinchilla rule](https://epoch.ai/blog/chinchilla-scaling-a-replication-attempt), $D = 20 \times N$. The batch size $B$ and the layer depth $L$ are assumed to grow exponentially with respect to model size: $B = B_0 \times N^{\alpha_B}$, $L = L_0 \times N^{\alpha_L}$.
 
 The minimum training time $T$ is then bounded by time per layer and batch size $t_L$ times the number of layers $L$ times the number of gradient updates ($U = D/B$): $T = t_L \times L \times D/B$. In the point where scale is maximized, this limit will be taut. We solve this system of equations numerically using the [fsolve](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fsolve.html) facility in scipy.
+:::
 
+:::callout {title="Appendix F: Unprecedented economic growth could drive massive AI investment" collapse="closed"}
 ### Appendix F: Unprecedented economic growth could drive massive AI investment ^appendix-f-unprecedented-economic
 
 In the section “[[#^will-labs-attempt-to|Will labs attempt to scale to these new heights?]]”, we argued that the unprecedented economic growth from AI automation could drive massive AI investments. While this is far from guaranteed, in this appendix we outline a rough calculation to illustrate this dynamic.
@@ -1242,6 +1247,7 @@ The next step is to relate this to AI investment: we consider how much flow cons
 With this expression, we can plug in some plausible numbers for illustration. Suppose we want to move the point of massive automation from $T_2 = 30$ years to $T_1 = 20$ years, with a discount rate of 2% (i.e. $\beta = 0.98$) and $\gamma = 1$ ([Havránek et al. 2015](https://www.sciencedirect.com/science/article/abs/pii/S002219961500032X)). Then we have $\frac{c_1}{c_2} \approx 0.74$, implying that it is worth giving up 26% of flow consumption each year!
 
 In the US, around 70-80% of GDP is dedicated to consumption ([World Bank, 2022](https://data.worldbank.org/indicator/NY.GDS.TOTL.ZS?locations=US)), amounting to around $18.75T each year. If we believe the above calculation, this suggests forfeiting around $4.7T worth of consumption annually to hasten the arrival of massive automation. Of course, this calculation is based on aggressive assumptions, but at the very least it illustrates why massive upfront investments in AI infrastructure might make sense.
+:::
 
 Notes
 
