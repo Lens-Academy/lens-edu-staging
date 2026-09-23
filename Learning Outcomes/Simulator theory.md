@@ -2,7 +2,9 @@
 id: 5c1dc123-ebfb-4a4f-82b2-6bb81c36bfc1
 discussion: <discord url>
 learning-outcome: Explain LLM behavior in terms of simulator theory.
-topic: "[[../Domains and Topics/1 Artificial Intelligence/Inside the model]]"
+topic:
+  - "[[../Domains and Topics/1 Artificial Intelligence/Inside the model]]"
+  - "[[../Domains and Topics/4 Agent Foundations/Prediction and predictors]]"
 stage: intermediate
 ---
 ## Test:
