@@ -1173,6 +1173,7 @@ Other GPUs likely make up between 200,000 and 1 million H100 equivalents. The pe
 **Result:** Adding the stock of actual H100s, other GPUs, and TPUs together results in an estimate of 1.5 to 3.5 million H100-equivalents in total by the beginning of 2024. Since Google has the highest stock estimate of 400,000 to 1.4 million H100-equivalents, we use this stock to estimate the allocation of total resources. After adjusting for 80% of a company's compute being spent on training, our final result is that the largest training run can be allocated 26% (somewhere between 16% to 40%) of the total available chip stock.
 :::
 
+:::callout {title="Appendix C: Bandwidth constraints" collapse="closed"}
 ### Appendix C: Bandwidth constraints ^appendix-c-bandwidth-constraints
 
 Suppose we have a ring all-reduce setup involving $M$ data centers, with fiber optic bandwidth $F$ bps between every data pair and $t_L$ seconds of latency for a round trip across the network.
@@ -1188,6 +1189,7 @@ $$
 Following a logic similar to what is explained in the section [[#^feasibility-of-geographically-distribute|Feasibility of distributed training runs]] when talking about latencies, this would lead to a maximum of $U = \frac{T}{t_{\text{AR}}}$ gradient updates, allowing for a dataset size of $D = U \times B$, where $B$ is the maximum achievable batch size.
 
 We assume the usual Chinchilla relation between model size and number of parameters ($D = 20 \times N$), and numerically solve for the largest model that can be trained using the [fsolve](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fsolve.html) facility in scipy.
+:::
 
 ### Appendix D: Equivalence between multimodal and text data ^appendix-d-equivalence-between
 
