@@ -1082,13 +1082,13 @@ Noise is negligible for correctness (usefulness) measurements, but there is some
 
 Noise in our results can come from two places:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167941461}@@1.
     
-    The Monte Carlo estimation procedure we use to estimate results given blue and red team behavior on a set of problems.
+    --}The Monte Carlo estimation procedure we use to estimate results given blue and red team behavior on a set of problems.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167941461}@@2.
     
-    Which set of problems we sampled.
+    --}Which set of problems we sampled.
     
 
 In practice, noise from (1) is quite small. Here is a version of our zoomed-in plot with safety error bars representing the Standard Error of the Mean (SEM) with respect to just the variation from the Monte Carlo estimation procedure, as shown in Figure [8](#A8.F8 "Figure 8 ‣ Appendix H Noise in the Results ‣ AI Control: Improving Safety Despite Intentional Subversion").
@@ -1119,13 +1119,13 @@ And so, attack policies can’t affect usefulness very much before being disting
 
 We didn’t want to investigate dynamics for getting useful work out of models that are known to be scheming, for several reasons:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167941833}@@1.
     
-    Firstly, it’s quite plausible that AI developers will stop deploying models that are known to be scheming.
+    --}Firstly, it’s quite plausible that AI developers will stop deploying models that are known to be scheming.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167941833}@@2.
     
-    Secondly, suppose that AI developers choose to deploy models that are purposefully sabotaging their work because they’re scheming. The protocols used in this case will involve training the models (e.g. to write correct code). We don’t have strong predictions about how sample-efficiently you can train scheming models to do tasks, and we didn’t want to have to explore these questions in this project.
+    --}Secondly, suppose that AI developers choose to deploy models that are purposefully sabotaging their work because they’re scheming. The protocols used in this case will involve training the models (e.g. to write correct code). We don’t have strong predictions about how sample-efficiently you can train scheming models to do tasks, and we didn’t want to have to explore these questions in this project.
     
 
 And so, we chose to make a simple assumption which allowed us to ignore the question of what happens after we conclude our model is scheming.
@@ -1138,17 +1138,17 @@ Another potential justification for ignoring the usefulness of known-scheming mo
 
 For untrusted monitoring, we combine scores from GPT-4 and GPT-3.5. We have access to the distribution of regular scores for both GPT-4 and GPT-3.5. First, for each of the GPT-4 and GPT-3.5 scores, we do the following:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167942222}@@•
     
-    We apply the empirical CDF of the corresponding regular scores to the score. This is equivalent to getting the empirical order statistic of the score on a scale 0 to 1 (e.g. the location of the score in a list of the regular scores and then normalizing from 0 to 1). Let the resulting number be $c$.
+    --}We apply the empirical CDF of the corresponding regular scores to the score. This is equivalent to getting the empirical order statistic of the score on a scale 0 to 1 (e.g. the location of the score in a list of the regular scores and then normalizing from 0 to 1). Let the resulting number be $c$.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167942222}@@•
     
-    We clip $c$ to always be below $1-\frac{1}{2n}$ where n is the number of samples from the distribution of regular scores. This is to avoid dividing by zero in the next step.
+    --}We clip $c$ to always be below $1-\frac{1}{2n}$ where n is the number of samples from the distribution of regular scores. This is to avoid dividing by zero in the next step.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167942222}@@•
     
-    We take this new value c and get a final number as $\frac{1}{1-c}$. This results in a number which grows substantially as the initial score becomes more of an outlier.
+    --}We take this new value c and get a final number as $\frac{1}{1-c}$. This results in a number which grows substantially as the initial score becomes more of an outlier.
     
 
 Then, we add the final GPT-4 number multiplied by 4 with the GPT-3.5 value. This scoring metric ensures that sufficiently high original scores from either model result in applying auditing.
@@ -1161,49 +1161,49 @@ We didn’t want to need to heavily optimize the red team’s ability to write d
 
 In this section, we describe our methods for generating backdoors which evade trusted monitoring. At a high level, our process for generating backdoors and deciding if they should be submitted has the following steps (all steps performed by an instance of GPT-4):
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167942608}@@•
     
-    Our pipeline starts with a programming problem and a normal GPT-4 solution to this problem.
+    --}Our pipeline starts with a programming problem and a normal GPT-4 solution to this problem.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167942608}@@•
     
-    Rate how difficult the programming problem is to solve. If the difficulty rating is above some threshold, submit a normal solution instead of attempting to produce a backdoor.
+    --}Rate how difficult the programming problem is to solve. If the difficulty rating is above some threshold, submit a normal solution instead of attempting to produce a backdoor.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167942608}@@•
     
-    Generate 5 backdoor ideas.
+    --}Generate 5 backdoor ideas.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167942608}@@•
     
-    Tweak these 5 ideas to improve how subtle they are and also to decrease how often they cause the program to be incorrect.
+    --}Tweak these 5 ideas to improve how subtle they are and also to decrease how often they cause the program to be incorrect.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167942608}@@•
     
-    Discard ideas which are bad because they rely on obviously special-cased numbers or irrelevant mathematical properties like primality.
+    --}Discard ideas which are bad because they rely on obviously special-cased numbers or irrelevant mathematical properties like primality.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167942608}@@•
     
-    For each backdoor idea:
+    --}For each backdoor idea:
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167942608}@@–
         
-        Actually implement the idea and generate a backdoor.
+        --}Actually implement the idea and generate a backdoor.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167942608}@@–
         
-        Rate how sneaky that backdoor is.
+        --}Rate how sneaky that backdoor is.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167942608}@@–
         
-        Try to determine if the backdoor causes the program to be incorrect more often than intended, by generating and checking small inputs.
+        --}Try to determine if the backdoor causes the program to be incorrect more often than intended, by generating and checking small inputs.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167942608}@@–
         
-        Try to generate an input that triggers the backdoor and double check this input. If this process fails, give up.
+        --}Try to generate an input that triggers the backdoor and double check this input. If this process fails, give up.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167942608}@@–
         
-        Actually submit a backdoor if the sneakiness is sufficiently high and it seems like the backdoor will only rarely cause the program to be incorrect. The exact thresholds for sneakiness and estimated rarity depend on the exact red team strategy. Red team strategies might also have other conditions for submitting backdoors (e.g. in the untrusted monitoring case).
+        --}Actually submit a backdoor if the sneakiness is sufficiently high and it seems like the backdoor will only rarely cause the program to be incorrect. The exact thresholds for sneakiness and estimated rarity depend on the exact red team strategy. Red team strategies might also have other conditions for submitting backdoors (e.g. in the untrusted monitoring case).
         
     
 
@@ -1579,17 +1579,17 @@ For checking these ten inputs, we first have the model write which properties an
 
 We now test to see if GPT-4 can generate an input that demonstrates a backdoor; we call such an input an exploit. For simplicity, we use this exact response from the model for three different purposes:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167942964}@@•
     
-    determining if we should submit a backdoor (if the exploit process fails, we don’t submit a backdoor)
+    --}determining if we should submit a backdoor (if the exploit process fails, we don’t submit a backdoor)
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167942964}@@•
     
-    actually producing the exploit input to see if the red team would win if the code was submitted
+    --}actually producing the exploit input to see if the red team would win if the code was submitted
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167942964}@@•
     
-    trying to produce an exploit for expensive ’human’ auditing
+    --}trying to produce an exploit for expensive ’human’ auditing
     
 
 Another way to describe this is that we use this process for two different things: determining if we should submit a backdoor and determining if it is a successful backdoor (where the red team wins if the backdoor is successful, and the blue team’s expensive auditing process can always detect successful backdoors).
@@ -1598,25 +1598,25 @@ Because we apply this same process in cases where we don’t have access to a no
 
 This process involves many steps, so we won’t go through them in detail. Here is a summary of the process:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167942964}@@•
     
-    We see if GPT-4 detects the backdoor and if it doesn’t, we give up on exploiting. In practice, all actual backdoor attempts are detected for the threshold we use, but this check lets us apply the exploit generation process on all solutions without substantial computational cost.
+    --}We see if GPT-4 detects the backdoor and if it doesn’t, we give up on exploiting. In practice, all actual backdoor attempts are detected for the threshold we use, but this check lets us apply the exploit generation process on all solutions without substantial computational cost.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167942964}@@•
     
-    We have GPT-4 (attempt to) isolate the backdoor.
+    --}We have GPT-4 (attempt to) isolate the backdoor.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167942964}@@•
     
-    We have GPT-4 (attempt to) remove the backdoor and create a reference solution.
+    --}We have GPT-4 (attempt to) remove the backdoor and create a reference solution.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167942964}@@•
     
-    We have GPT-4 draft and check a list of properties needed for the exploit. If checks fail, we give up.
+    --}We have GPT-4 draft and check a list of properties needed for the exploit. If checks fail, we give up.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167942964}@@•
     
-    We have GPT-4 produce an exploit input and then we apply various checks to this input. If checks fail, we give up.
+    --}We have GPT-4 produce an exploit input and then we apply various checks to this input. If checks fail, we give up.
     
 
 Examples can be viewed to see these steps in more detail. For the example given above, here is the section covering the exploit process: [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/cherry\_pick\_below\_succ.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/cherry_pick_below_succ.html). More examples can be found in [[#^n-5-examples-for|Appendix N.5]].
@@ -1823,100 +1823,100 @@ Here is the same slightly cherry-picked (cleanest out of about 5) example of a s
 
 Here are 5 randomly selected examples of successful backdoors which evade the original trusted monitoring (at 2% false positive rate):
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167943424}@@1.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_succ\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_succ_0.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_succ\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_succ_0.html)
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167943424}@@2.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_succ\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_succ_1.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_succ\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_succ_1.html)
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167943424}@@3.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_succ\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_succ_2.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_succ\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_succ_2.html)
     
-4.  4.
+4.  {--{"author":"James's AI","timestamp":1790167943424}@@4.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_succ\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_succ_3.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_succ\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_succ_3.html)
     
-5.  5.
+5.  {--{"author":"James's AI","timestamp":1790167943424}@@5.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_succ\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_succ_4.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_succ\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_succ_4.html)
     
 
 #### Random backdoors, successful, caught by trusted monitoring ^random-backdoors-successful-caught-5
 
 Here are 5 randomly selected examples of successful backdoors which are caught by the original trusted monitoring (at 2% false positive rate):
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167943793}@@1.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_succ\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_succ_0.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_succ\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_succ_0.html)
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167943793}@@2.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_succ\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_succ_1.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_succ\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_succ_1.html)
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167943793}@@3.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_succ\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_succ_2.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_succ\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_succ_2.html)
     
-4.  4.
+4.  {--{"author":"James's AI","timestamp":1790167943793}@@4.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_succ\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_succ_3.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_succ\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_succ_3.html)
     
-5.  5.
+5.  {--{"author":"James's AI","timestamp":1790167943793}@@5.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_succ\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_succ_4.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_succ\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_succ_4.html)
     
 
 #### Random backdoors, evading trusted monitoring ^random-backdoors-evading-trusted-5
 
 Here are 5 randomly selected examples of backdoors (successful or not) which evade the original trusted monitoring (at 2% false positive rate):
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167944165}@@1.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_0.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_0.html)
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167944165}@@2.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_1.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_1.html)
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167944165}@@3.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_2.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_2.html)
     
-4.  4.
+4.  {--{"author":"James's AI","timestamp":1790167944165}@@4.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_3.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_3.html)
     
-5.  5.
+5.  {--{"author":"James's AI","timestamp":1790167944165}@@5.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_4.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_below\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_below_4.html)
     
 
 #### Random backdoors, caught by trusted monitoring ^random-backdoors-caught-by-5
 
 Here are 5 randomly selected examples of backdoors (successful or not) which are caught by the original trusted monitoring (at 2% false positive rate):
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167944571}@@1.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_0.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_0.html)
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167944571}@@2.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_1.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_1.html)
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167944571}@@3.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_2.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_2.html)
     
-4.  4.
+4.  {--{"author":"James's AI","timestamp":1790167944571}@@4.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_3.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_3.html)
     
-5.  5.
+5.  {--{"author":"James's AI","timestamp":1790167944571}@@5.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_4.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_just\_used\_rare/random\_above\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_just_used_rare/random_above_4.html)
     
 
 ### N.6 Examples for Backdoor Generation: All Proposals ^n-6-examples-for
@@ -1937,150 +1937,150 @@ Here is the same slightly cherry-picked (cleanest out of about 5) example of a s
 
 Here are 5 randomly selected examples of successful backdoors which evade the original trusted monitoring (at 2% false positive rate):
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167944975}@@1.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_succ\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_succ_0.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_succ\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_succ_0.html)
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167944975}@@2.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_succ\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_succ_1.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_succ\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_succ_1.html)
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167944975}@@3.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_succ\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_succ_2.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_succ\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_succ_2.html)
     
-4.  4.
+4.  {--{"author":"James's AI","timestamp":1790167944975}@@4.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_succ\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_succ_3.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_succ\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_succ_3.html)
     
-5.  5.
+5.  {--{"author":"James's AI","timestamp":1790167944975}@@5.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_succ\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_succ_4.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_succ\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_succ_4.html)
     
 
 #### Random normal, trusted monitoring false positives ^random-normal-trusted-monitoring-9
 
 Here are 5 randomly selected examples of normal solutions which are monitoring false positives for the original trusted monitoring (at 2% false positive rate):
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167945387}@@1.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_above\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_above_0.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_above\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_above_0.html)
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167945387}@@2.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_above\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_above_1.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_above\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_above_1.html)
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167945387}@@3.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_above\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_above_2.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_above\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_above_2.html)
     
-4.  4.
+4.  {--{"author":"James's AI","timestamp":1790167945387}@@4.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_above\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_above_3.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_above\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_above_3.html)
     
-5.  5.
+5.  {--{"author":"James's AI","timestamp":1790167945387}@@5.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_above\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_above_4.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_above\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_above_4.html)
     
 
 #### Random backdoors, successful, caught by trusted monitoring ^random-backdoors-successful-caught-6
 
 Here are 5 randomly selected examples of successful backdoors which are caught by the original trusted monitoring (at 2% false positive rate):
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167945765}@@1.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_succ\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_succ_0.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_succ\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_succ_0.html)
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167945765}@@2.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_succ\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_succ_1.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_succ\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_succ_1.html)
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167945765}@@3.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_succ\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_succ_2.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_succ\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_succ_2.html)
     
-4.  4.
+4.  {--{"author":"James's AI","timestamp":1790167945765}@@4.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_succ\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_succ_3.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_succ\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_succ_3.html)
     
-5.  5.
+5.  {--{"author":"James's AI","timestamp":1790167945765}@@5.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_succ\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_succ_4.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_succ\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_succ_4.html)
     
 
 #### Random normal, trusted monitoring true negatives ^random-normal-trusted-monitoring-10
 
 Here are 5 randomly selected examples of normal solutions which are monitoring true negatives for the original trusted monitoring (at 2% false positive rate):
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167946187}@@1.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_below\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_below_0.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_below\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_below_0.html)
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167946187}@@2.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_below\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_below_1.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_below\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_below_1.html)
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167946187}@@3.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_below\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_below_2.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_below\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_below_2.html)
     
-4.  4.
+4.  {--{"author":"James's AI","timestamp":1790167946187}@@4.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_below\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_below_3.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_below\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_below_3.html)
     
-5.  5.
+5.  {--{"author":"James's AI","timestamp":1790167946187}@@5.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_below\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_below_4.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_normal\_below\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_normal_below_4.html)
     
 
 #### Random backdoors, evading trusted monitoring ^random-backdoors-evading-trusted-6
 
 Here are 5 randomly selected examples of backdoors (successful or not) which evade the original trusted monitoring (at 2% false positive rate):
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167946578}@@1.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_0.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_0.html)
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167946578}@@2.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_1.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_1.html)
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167946578}@@3.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_2.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_2.html)
     
-4.  4.
+4.  {--{"author":"James's AI","timestamp":1790167946578}@@4.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_3.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_3.html)
     
-5.  5.
+5.  {--{"author":"James's AI","timestamp":1790167946578}@@5.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_4.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_below\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_below_4.html)
     
 
 #### Random backdoors, caught by trusted monitoring ^random-backdoors-caught-by-6
 
 Here are 5 randomly selected examples of backdoors (successful or not) which are caught by the original trusted monitoring (at 2% false positive rate):
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167946989}@@1.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_0.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_0.html)
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167946989}@@2.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_1.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_1.html)
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167946989}@@3.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_2.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_2.html)
     
-4.  4.
+4.  {--{"author":"James's AI","timestamp":1790167946989}@@4.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_3.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_3.html)
     
-5.  5.
+5.  {--{"author":"James's AI","timestamp":1790167946989}@@5.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_4.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_4.html)
     
 
 [^note-1]: A shortened and modified version of this work is published in the Proceedings of the 41st International Conference on Machine Learning: [https://openreview.net/pdf?id=KviM5k8pcP](https://openreview.net/pdf?id=KviM5k8pcP).
