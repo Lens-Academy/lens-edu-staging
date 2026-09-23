@@ -20,7 +20,7 @@ Write an assessment of this proposal for the coalition. Cover:
 
 1. which safety problems this design choice would make easier, and why;
 2. what the strategy is betting on about the world, and what happens to the strategy if that bet is wrong;
-3. whether a system built under this rule could still end up improving its own thinking, and if so, how.
+3. whether a system built under this rule could still end up improving its own thinking; if so, how and why, and what that means for the rule.
 max-chars:: 2500
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning, not agreement: a learner may conclude that the proposal is a good idea or a bad one.
 
