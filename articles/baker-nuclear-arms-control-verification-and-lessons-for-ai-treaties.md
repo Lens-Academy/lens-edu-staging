@@ -36,35 +36,35 @@ First, we review M&V implementation across three types of nuclear arms control t
 
 Nuclear nonproliferation treaties commit all but 10 states to not acquiring nuclear weapons[^note-2]. They are mainly verified as follows:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167764078}@@•
     
-    States are required to declare (i.e. self-report) the amount and locations of all the nuclear material in their territory. (They may have nuclear material for nuclear energy.)
+    --}States are required to declare (i.e. self-report) the amount and locations of all the nuclear material in their territory. (They may have nuclear material for nuclear energy.)
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167764078}@@•
     
-    To verify that nuclear materials and equipment in _declared_ nuclear facilities are not being used for weapons, international inspectors regularly verify declared accounts of nuclear materials. This involves much on-site measurement, verification of facility layouts, and surveillance at facilities. Under some agreements[^note-3], certain non-nuclear facilities (e.g. adjacent facilities) are also declared and inspected.
+    --}To verify that nuclear materials and equipment in _declared_ nuclear facilities are not being used for weapons, international inspectors regularly verify declared accounts of nuclear materials. This involves much on-site measurement, verification of facility layouts, and surveillance at facilities. Under some agreements[^note-3], certain non-nuclear facilities (e.g. adjacent facilities) are also declared and inspected.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167764078}@@•
     
-    To verify that a state does not have _undeclared_ (i.e. secret) nuclear facilities, international inspectors receive voluntary tips from national intelligence agencies (which have e.g. spies and satellites), and they analyze their own limited information. Then, after identifying a suspect site, they investigate it (though this happens much more frequently under one type of agreement[^note-4]).
+    --}To verify that a state does not have _undeclared_ (i.e. secret) nuclear facilities, international inspectors receive voluntary tips from national intelligence agencies (which have e.g. spies and satellites), and they analyze their own limited information. Then, after identifying a suspect site, they investigate it (though this happens much more frequently under one type of agreement[^note-4]).
     
 
 U.S.-U.S.S.R./Russia arms limitation treaties limited the number and/or types of these states’ ready-to-use nuclear weapons. They were mainly verified as follows:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167764078}@@•
     
-    Under some treaties, the U.S. and U.S.S.R./Russia just used satellites (and presumably spies) to track each other’s ready-to-use nuclear weapons.
+    --}Under some treaties, the U.S. and U.S.S.R./Russia just used satellites (and presumably spies) to track each other’s ready-to-use nuclear weapons.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167764078}@@•
     
-    Under other treaties, these states also self-reported the number, types, and locations of all their treaty-limited nuclear weapons. Then, each state regularly verified the other’s self-reports through satellites and on-site inspections (which mostly involved simple measurement), along with using radar to track missile test-flights.
+    --}Under other treaties, these states also self-reported the number, types, and locations of all their treaty-limited nuclear weapons. Then, each state regularly verified the other’s self-reports through satellites and on-site inspections (which mostly involved simple measurement), along with using radar to track missile test-flights.
     
 
 Nuclear weapon test ban treaties are mainly verified as follows:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167764078}@@•
     
-    Sensors, including an international network of  300 sensor stations, detect the acoustic waves and air particles that nuclear tests make, and analysts infer their source location.
+    --}Sensors, including an international network of  300 sensor stations, detect the acoustic waves and air particles that nuclear tests make, and analysts infer their source location.
     
 
 ### Track records of M&V in nuclear arms control
@@ -85,35 +85,35 @@ In this context, our case study suggests that, with certain preparations, the ma
 
 As the first challenge we consider, AI chip users may oppose verification due to concerns that it would expose sensitive data and software to spies and saboteurs. Certain preparations would reduce these secrecy and security concerns to concerns that were manageable in nuclear arms control.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167764505}@@•
     
-    States may need to disclose data centers’ locations, which could be sensitive. However, similar or worse concerns were manageable in the nuclear case; nearly all states agreed to disclose the locations of their nuclear energy facilities, and the U.S. and U.S.S.R. even agreed to share the locations of their nuclear weapon bases.
+    --}States may need to disclose data centers’ locations, which could be sensitive. However, similar or worse concerns were manageable in the nuclear case; nearly all states agreed to disclose the locations of their nuclear energy facilities, and the U.S. and U.S.S.R. even agreed to share the locations of their nuclear weapon bases.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167764505}@@•
     
-    If stakeholders develop privacy-preserving and secure methods for inspecting AI chips, then AI chip users’ secrecy and security concerns could be largely addressed. They may still worry that any physical proximity of inspectors or equipment to sensitive information is risky, but states accepted that in the nuclear case.
+    --}If stakeholders develop privacy-preserving and secure methods for inspecting AI chips, then AI chip users’ secrecy and security concerns could be largely addressed. They may still worry that any physical proximity of inspectors or equipment to sensitive information is risky, but states accepted that in the nuclear case.
     
 
 Second, using chip mechanisms for verification would pose direct costs. Certain preparations would reduce these direct costs to costs that were manageable in nuclear arms control.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167764505}@@•
     
-    Verifying the presence and integrity of chip-based verification mechanisms would presumably require inspections. These could be implemented by adapting methods that were accepted in the nuclear case; an appendix details how this could be done with 3+ layers of defense. Back-of-the-envelope calculations suggest that, if rules’ scope were compute-intensive AI development in data centers[^note-11], then direct inspection costs (i.e. funding and interruptions to facilities) would be lower than or roughly similar to those which states accepted for nonproliferation M&V.
+    --}Verifying the presence and integrity of chip-based verification mechanisms would presumably require inspections. These could be implemented by adapting methods that were accepted in the nuclear case; an appendix details how this could be done with 3+ layers of defense. Back-of-the-envelope calculations suggest that, if rules’ scope were compute-intensive AI development in data centers[^note-11], then direct inspection costs (i.e. funding and interruptions to facilities) would be lower than or roughly similar to those which states accepted for nonproliferation M&V.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167764505}@@•
     
-    R&D for acceptably priced hardware verification and limits on rules’ scope could theoretically reduce manufacturing and computational costs enough to keep overall costs similar to those of nonproliferation M&V.
+    --}R&D for acceptably priced hardware verification and limits on rules’ scope could theoretically reduce manufacturing and computational costs enough to keep overall costs similar to those of nonproliferation M&V.
     
 
 Third, efforts to create M&V systems for AI could be stalled by the lack of relevant precedents and authorities. As with the above challenges, certain preparations would reduce these cultural and legal barriers to levels that were manageable in nuclear arms control.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167764505}@@•
     
-    Stakeholders can first create a limited M&V system for AI, especially one with flexible authorities and scalable M&V methods. This would lower cultural and legal barriers to a strong M&V system[^note-12].
+    --}Stakeholders can first create a limited M&V system for AI, especially one with flexible authorities and scalable M&V methods. This would lower cultural and legal barriers to a strong M&V system[^note-12].
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167764505}@@•
     
-    All the strongest nuclear M&V systems succeeded weaker systems. For example, the scope of nonproliferation M&V expanded from just research reactors to all nuclear facilities in a state. Similarly, the U.S. and U.S.S.R. applied inspections to intermediate-range missiles before applying them to (higher-stakes) long-range missiles.
+    --}All the strongest nuclear M&V systems succeeded weaker systems. For example, the scope of nonproliferation M&V expanded from just research reactors to all nuclear facilities in a state. Similarly, the U.S. and U.S.S.R. applied inspections to intermediate-range missiles before applying them to (higher-stakes) long-range missiles.
     
 
 This analysis highlights that stakeholders can help enable future AI treaty verification by developing acceptable hardware verification methods and building an initial, scalable verification system. For making these preparations, Shavit (1) suggests potential next steps. The analogy of nuclear arms control suggests such steps are neither futile nor excessive; they could change verification challenges from unprecedented to historically manageable.
@@ -140,43 +140,43 @@ Some context is helpful for making sense of nuclear arms control M&V. In the ear
 
 Since then, states have implemented three clusters of nuclear arms control treaties and associated M&V systems:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167764952}@@1.
     
-    In horizontal nonproliferation treaties, states that did not have nuclear weapons agreed to never make them. The most important of these treaties is the Non-Proliferation Treaty (NPT).[^note-21]
+    --}In horizontal nonproliferation treaties, states that did not have nuclear weapons agreed to never make them. The most important of these treaties is the Non-Proliferation Treaty (NPT).[^note-21]
     
-    1.  (a)
+    {--{"author":"James's AI","timestamp":1790167764952}@@1.  --}{++{"author":"James's AI","timestamp":1790167764952}@@-   ++}(a){--{"author":"James's AI","timestamp":1790167764952}@@
         
-        The NPT opened for signature in 1968, when five states were recognized as having nuclear weapons. Almost all states that did not have nuclear weapons at the time joined the NPT as non-nuclear-weapon states and did not develop nuclear weapons afterward. However, four states never joined (or in one case, left) the NPT and developed nuclear weapons.
+        --}{++{"author":"James's AI","timestamp":1790167764952}@@ ++}The NPT opened for signature in 1968, when five states were recognized as having nuclear weapons. Almost all states that did not have nuclear weapons at the time joined the NPT as non-nuclear-weapon states and did not develop nuclear weapons afterward. However, four states never joined (or in one case, left) the NPT and developed nuclear weapons.
         
-    2.  (b)
+    {--{"author":"James's AI","timestamp":1790167764952}@@2.  --}{++{"author":"James's AI","timestamp":1790167764952}@@-   ++}(b){--{"author":"James's AI","timestamp":1790167764952}@@
         
-        The NPT requires non-nuclear-weapon states to accept an M&V system implemented by the International Atomic Energy Agency (IAEA).
-        
-    
-2.  2.
-    
-    In U.S.-U.S.S.R./Russia nuclear arms limitation treaties, the U.S. and U.S.S.R./Russia agreed to limit (and later, progressively reduce) the numbers or types of their deployed[^note-22] nuclear delivery vehicles (e.g. ICBMs) or deployed nuclear warheads (as well as, in one case, missile defense systems).[^note-23]
-    
-    1.  (a)
-        
-        The U.S. and U.S.S.R./Russia are widely considered to have mostly complied with these treaties.
-        
-    2.  (b)
-        
-        The first treaties of this type were verified largely through satellite images; later treaties also featured on-site inspections (organized by the U.S. and U.S.S.R./Russia, not the IAEA).
+        --}{++{"author":"James's AI","timestamp":1790167764952}@@ ++}The NPT requires non-nuclear-weapon states to accept an M&V system implemented by the International Atomic Energy Agency (IAEA).
         
     
-3.  3.
+2.  {--{"author":"James's AI","timestamp":1790167764952}@@2.
     
-    In test ban treaties, states agreed to not carry out (certain) nuclear weapon tests.[^note-24]
+    --}In U.S.-U.S.S.R./Russia nuclear arms limitation treaties, the U.S. and U.S.S.R./Russia agreed to limit (and later, progressively reduce) the numbers or types of their deployed[^note-22] nuclear delivery vehicles (e.g. ICBMs) or deployed nuclear warheads (as well as, in one case, missile defense systems).[^note-23]
     
-    1.  (a)
+    {--{"author":"James's AI","timestamp":1790167764952}@@1.  --}{++{"author":"James's AI","timestamp":1790167764952}@@-   ++}(a){--{"author":"James's AI","timestamp":1790167764952}@@
         
-        There have been no clear cases of violations of these treaties.
+        --}{++{"author":"James's AI","timestamp":1790167764952}@@ ++}The U.S. and U.S.S.R./Russia are widely considered to have mostly complied with these treaties.
         
-    2.  (b)
+    {--{"author":"James's AI","timestamp":1790167764952}@@2.  --}{++{"author":"James's AI","timestamp":1790167764952}@@-   ++}(b){--{"author":"James's AI","timestamp":1790167764952}@@
         
-        These treaties have mostly been verified through sensors (e.g. seismic sensors) that can detect nuclear weapon tests from a long distance.
+        --}{++{"author":"James's AI","timestamp":1790167764952}@@ ++}The first treaties of this type were verified largely through satellite images; later treaties also featured on-site inspections (organized by the U.S. and U.S.S.R./Russia, not the IAEA).
+        
+    
+3.  {--{"author":"James's AI","timestamp":1790167764952}@@3.
+    
+    --}In test ban treaties, states agreed to not carry out (certain) nuclear weapon tests.[^note-24]
+    
+    {--{"author":"James's AI","timestamp":1790167764952}@@1.  --}{++{"author":"James's AI","timestamp":1790167764952}@@-   ++}(a){--{"author":"James's AI","timestamp":1790167764952}@@
+        
+        --}{++{"author":"James's AI","timestamp":1790167764952}@@ ++}There have been no clear cases of violations of these treaties.
+        
+    {--{"author":"James's AI","timestamp":1790167764952}@@2.  --}{++{"author":"James's AI","timestamp":1790167764952}@@-   ++}(b){--{"author":"James's AI","timestamp":1790167764952}@@
+        
+        --}{++{"author":"James's AI","timestamp":1790167764952}@@ ++}These treaties have mostly been verified through sensors (e.g. seismic sensors) that can detect nuclear weapon tests from a long distance.
         
     
 
@@ -190,43 +190,43 @@ The IAEA’s efforts to verify horizontal nonproliferation focus on tracking ura
 
 Inconveniently, the production of nuclear energy involves materials and equipment that could easily be used to make nuclear weapons (in the absence of safeguards) (18).
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167765409}@@•
     
-    Uranium enrichment refers to the concentration of a specific isotope in uranium. While uranium is typically enriched above natural levels for use as nuclear fuel, enriching it to even higher levels makes it weapon-usable. Centrifuges that make fuel-usable uranium can be rearranged to make weapon-usable uranium.
+    --}Uranium enrichment refers to the concentration of a specific isotope in uranium. While uranium is typically enriched above natural levels for use as nuclear fuel, enriching it to even higher levels makes it weapon-usable. Centrifuges that make fuel-usable uranium can be rearranged to make weapon-usable uranium.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167765409}@@•
     
-    Plutonium is a byproduct of the reaction that takes place in nuclear reactors. After plutonium is isolated in the reprocessing of nuclear reactor products, it can be used to make nuclear weapons.
+    --}Plutonium is a byproduct of the reaction that takes place in nuclear reactors. After plutonium is isolated in the reprocessing of nuclear reactor products, it can be used to make nuclear weapons.
     
 
 ### 1.4 Nuclear delivery vehicles
 
 Nuclear delivery vehicles—whose numbers are restricted in various U.S.-U.S.S.R./Russia arms limitation treaties—are equipment designed to send nuclear weapons to their targets. The main such equipment is (19):
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167765903}@@•
     
-    Missiles, which can be launched from land, from submarines, or from aircraft.
+    --}Missiles, which can be launched from land, from submarines, or from aircraft.
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167765903}@@–
         
-        Nuclear missiles include "ballistic missiles" (which fly like rockets) and "cruise missiles" (which fly like airplanes).
+        --}Nuclear missiles include "ballistic missiles" (which fly like rockets) and "cruise missiles" (which fly like airplanes).
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167765903}@@–
         
-        Land-based missiles can be immobile (i.e. based in silos) or mobile (i.e. installed on large vehicles that can move over roads or railways).
+        --}Land-based missiles can be immobile (i.e. based in silos) or mobile (i.e. installed on large vehicles that can move over roads or railways).
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167765903}@@–
         
-        Nuclear missiles can be "tactical" (having ranges short enough to use in a battlefield) or "strategic" (having ranges long enough for the U.S. and U.S.S.R. to hit each other’s mainland, e.g. ICBMs).
+        --}Nuclear missiles can be "tactical" (having ranges short enough to use in a battlefield) or "strategic" (having ranges long enough for the U.S. and U.S.S.R. to hit each other’s mainland, e.g. ICBMs).
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167765903}@@–
         
-        Missiles can have "multiple independently targetable reentry vehicles" ("MIRVs"), meaning one missile can deliver multiple warheads to multiple locations.
+        --}Missiles can have "multiple independently targetable reentry vehicles" ("MIRVs"), meaning one missile can deliver multiple warheads to multiple locations.
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167765903}@@•
     
-    "Heavy bombers," which are planes that can be equipped to drop nuclear bombs.
+    --}"Heavy bombers," which are planes that can be equipped to drop nuclear bombs.
     
 
 ## 2 Nuclear M&V Methods
@@ -289,17 +289,17 @@ Complementing on-site methods, other M&V methods are used to detect violations t
 
 National technical means ("NTMs") of verification are state-owned technologies used for remotely verifying compliance with treaties (25).
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167766377}@@•
     
-    Nuclear arms control verifiers use satellites to help detect secret nuclear weapon facilities and to verify the number of various types of nuclear missiles.
+    --}Nuclear arms control verifiers use satellites to help detect secret nuclear weapon facilities and to verify the number of various types of nuclear missiles.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167766377}@@•
     
-    The U.S. and the U.S.S.R./Russia use radar to detect treaty-violating missile tests.
+    --}The U.S. and the U.S.S.R./Russia use radar to detect treaty-violating missile tests.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167766377}@@•
     
-    The International Monitoring System is a global network of four types of sensors (three types of acoustic wave detectors and one type that is a detector of certain air particles) built to detect treaty-violating nuclear weapon tests (26).
+    --}The International Monitoring System is a global network of four types of sensors (three types of acoustic wave detectors and one type that is a detector of certain air particles) built to detect treaty-violating nuclear weapon tests (26).
     
 
 NTMs have been very widely used in verification, including in the first few U.S.-U.S.S.R. nuclear arms control treaties (which had no other verification measures), suggesting states are relatively open to them.[^note-32]
@@ -336,57 +336,57 @@ In addition to methods for collecting data, M&V often involves methods for impro
 
 Various methods discussed above involve inspectors using or installing certain equipment. To verify that this equipment and its data are not tampered with, inspectors typically use:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167766863}@@•
     
-    Containment and surveillance of the equipment itself (e.g. tamper-indicating devices on video cameras)
+    --}Containment and surveillance of the equipment itself (e.g. tamper-indicating devices on video cameras)
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167766863}@@•
     
-    Data authentication
+    --}Data authentication
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167766863}@@•
     
-    Equipment tests (e.g. with calibration materials)
+    --}Equipment tests (e.g. with calibration materials)
     
 
 In addition to equipment validation, M&V systems often involve the following measures to counter specific ways a state might attempt to deceive them:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167766863}@@•
     
-    Short-notice inspections make it harder for states to clear out signs of non-compliance before inspectors arrive.
+    --}Short-notice inspections make it harder for states to clear out signs of non-compliance before inspectors arrive.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167766863}@@•
     
-    Random sampling (for determining the location and timing of inspections, as well as items inspected) allows inspectors to be more efficient, while not letting states carry out violations with items they know will not be inspected.
+    --}Random sampling (for determining the location and timing of inspections, as well as items inspected) allows inspectors to be more efficient, while not letting states carry out violations with items they know will not be inspected.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167766863}@@•
     
-    Bans on interference with or deliberate concealment from NTMs[^note-35] allow NTMs to work more reliably.
+    --}Bans on interference with or deliberate concealment from NTMs[^note-35] allow NTMs to work more reliably.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167766863}@@•
     
-    Bans on concealment of missile flight-test data make it harder for states to self-report fabricated flight-test data.[^note-36]
+    --}Bans on concealment of missile flight-test data make it harder for states to self-report fabricated flight-test data.[^note-36]
     
 
 #### 2.4.2 Methods to reduce ambiguity
 
 Nuclear M&V systems sometimes involve the following requirements, which make it easier for verifiers to get relatively unambiguous information:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167767255}@@•
     
-    Distinguishing characteristics: certain regulated items or activities are required to be easily distinguishable.[^note-37]
+    --}Distinguishing characteristics: certain regulated items or activities are required to be easily distinguishable.[^note-37]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167767255}@@•
     
-    Displays and exhibitions: certain regulated items (e.g. missiles) are required to be clearly shown to inspectors or to satellites (by opening up roofs).
+    --}Displays and exhibitions: certain regulated items (e.g. missiles) are required to be clearly shown to inspectors or to satellites (by opening up roofs).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167767255}@@•
     
-    Location restrictions on equipment: some equipment (e.g. missiles) is only allowed to be in certain locations.
+    --}Location restrictions on equipment: some equipment (e.g. missiles) is only allowed to be in certain locations.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167767255}@@•
     
-    Limits on the number (and size) of certain types of buildings or facilities: used most in bilateral nuclear arms control, these reduce the number of inspections needed.
+    --}Limits on the number (and size) of certain types of buildings or facilities: used most in bilateral nuclear arms control, these reduce the number of inspections needed.
     
 
 ## 3 Nuclear M&V Systems
@@ -405,17 +405,17 @@ An important aspect of thoroughness—for it to be robust to design or implement
 
 The NPT explicitly requires non-nuclear-weapon state parties to accept IAEA[^note-39] "safeguards" (i.e. M&V methods, with the details to be agreed on by the state and the IAEA) on all nuclear material in the state. The IAEA mainly implements these safeguards through two systems, in accordance with two types of agreements (17):
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167767662}@@1.
     
-    Comprehensive Safeguards Agreements ("CSAs"): The IAEA negotiated a single template[^note-40] which it has used as the basis for all its agreements with NPT non-nuclear-weapon states. The resulting agreements are called CSAs. CSAs are intended to (just) verify the peaceful use of nuclear materials at known nuclear facilities, rather than also detecting secret nuclear facilities.
+    --}Comprehensive Safeguards Agreements ("CSAs"): The IAEA negotiated a single template[^note-40] which it has used as the basis for all its agreements with NPT non-nuclear-weapon states. The resulting agreements are called CSAs. CSAs are intended to (just) verify the peaceful use of nuclear materials at known nuclear facilities, rather than also detecting secret nuclear facilities.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167767662}@@2.
     
-    CSAs with Additional Protocols ("APs"): In the early 1990s, Iraq nearly made nuclear weapons by using secret nuclear facilities. In response, governments pushed for the IAEA to expand its M&V so that it would be better at detecting such violations. The IAEA did so by negotiating a new template[^note-41] for new agreements (called Additional Protocols), which supplement CSAs and improve the IAEA’s ability to detect secret nuclear facilities.
+    --}CSAs with Additional Protocols ("APs"): In the early 1990s, Iraq nearly made nuclear weapons by using secret nuclear facilities. In response, governments pushed for the IAEA to expand its M&V so that it would be better at detecting such violations. The IAEA did so by negotiating a new template[^note-41] for new agreements (called Additional Protocols), which supplement CSAs and improve the IAEA’s ability to detect secret nuclear facilities.
     
-    1.  (a)
+    {--{"author":"James's AI","timestamp":1790167767662}@@1.  --}{++{"author":"James's AI","timestamp":1790167767662}@@-   ++}(a){--{"author":"James's AI","timestamp":1790167767662}@@
         
-        While over half of non-nuclear-weapon state parties to the NPT have now adopted APs (especially ones with significant use of nuclear materials), many have not; doing so is not generally seen as an obligation from the NPT itself.[^note-42]
+        --}{++{"author":"James's AI","timestamp":1790167767662}@@ ++}While over half of non-nuclear-weapon state parties to the NPT have now adopted APs (especially ones with significant use of nuclear materials), many have not; doing so is not generally seen as an obligation from the NPT itself.[^note-42]
         
     
 
@@ -429,54 +429,54 @@ For its verification activities in 2022, the IAEA had a budget of approximately 
 
 Under CSAs, the IAEA’s verification system at declared nuclear facilities works through the following process (17):
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167768096}@@•
     
-    States report facilities: States are required to self-report the existence and location of all facilities in their territories that hold nuclear material, except for uranium mines, uranium mills, and certain waste facilities. Once self-reported, these facilities are referred to as "declared nuclear facilities."
+    --}States report facilities: States are required to self-report the existence and location of all facilities in their territories that hold nuclear material, except for uranium mines, uranium mills, and certain waste facilities. Once self-reported, these facilities are referred to as "declared nuclear facilities."
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167768096}@@•
     
-    States report accounts: States are required to (effectively mandate nuclear facility operators to) keep and report accounts of nuclear materials at their declared facilities. A single facility typically has multiple areas in which nuclear material stocks and flows are tracked.
+    --}States report accounts: States are required to (effectively mandate nuclear facility operators to) keep and report accounts of nuclear materials at their declared facilities. A single facility typically has multiple areas in which nuclear material stocks and flows are tracked.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167768096}@@•
     
-    The IAEA inspects facilities: The IAEA conducts on-site inspections at declared nuclear facilities to verify the accuracy of their reported nuclear accounts.
+    --}The IAEA inspects facilities: The IAEA conducts on-site inspections at declared nuclear facilities to verify the accuracy of their reported nuclear accounts.
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167768096}@@–
         
-        The IAEA conducts inspections at the frequency it estimates to be sufficient for identifying the diversion of nuclear materials before nuclear weapon construction can be finished. This is typically one, three, or twelve months, depending on the material.[^note-46][^note-47] In addition to regular, scheduled inspections, the IAEA also uses randomly timed inspections. Inspections come with a minimum 24-hour notice.[^note-48]
+        --}The IAEA conducts inspections at the frequency it estimates to be sufficient for identifying the diversion of nuclear materials before nuclear weapon construction can be finished. This is typically one, three, or twelve months, depending on the material.[^note-46][^note-47] In addition to regular, scheduled inspections, the IAEA also uses randomly timed inspections. Inspections come with a minimum 24-hour notice.[^note-48]
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167768096}@@–
         
-        To detect violations at declared facilities, inspectors use many of the methods described earlier: [on-site measurement] (especially counting, using radiation detectors, and taking samples for analysis), [containment and surveillance], and [design information verification].
+        --}To detect violations at declared facilities, inspectors use many of the methods described earlier: [on-site measurement] (especially counting, using radiation detectors, and taking samples for analysis), [containment and surveillance], and [design information verification].
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167768096}@@–
         
-        For redundancy, inspectors use combinations of measurements.[^note-49]
+        --}For redundancy, inspectors use combinations of measurements.[^note-49]
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167768096}@@–
         
-        To detect violations that involve diverting large amounts of nuclear material from a few containers, inspectors make quick, rough measurements of many containers; to detect violations that involve diverting _small_ amounts of nuclear material from _many_ containers, inspectors apply more sensitive methods to a sufficiently large random sample of containers.[^note-50]
+        --}To detect violations that involve diverting large amounts of nuclear material from a few containers, inspectors make quick, rough measurements of many containers; to detect violations that involve diverting _small_ amounts of nuclear material from _many_ containers, inspectors apply more sensitive methods to a sufficiently large random sample of containers.[^note-50]
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167768096}@@–
         
-        To verify flows, the IAEA requires nuclear facility operators to declare when they have received certain materials[^note-51] and to hold them for a specified time. The IAEA verifies this with short-notice randomized inspections.
+        --}To verify flows, the IAEA requires nuclear facility operators to declare when they have received certain materials[^note-51] and to hold them for a specified time. The IAEA verifies this with short-notice randomized inspections.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167768096}@@–
         
-        Traditionally, the IAEA developed safeguard agreements based just on the characteristics of each facility. Over the last decade, it has increasingly adopted "state-level approaches": deciding safeguard implementation with more consideration of the broader context in a state.[^note-52]
+        --}Traditionally, the IAEA developed safeguard agreements based just on the characteristics of each facility. Over the last decade, it has increasingly adopted "state-level approaches": deciding safeguard implementation with more consideration of the broader context in a state.[^note-52]
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167768096}@@–
         
-        In addition to on-site inspections, the IAEA also uses unattended and remote safeguards: video cameras and machines that do automated counting and measurement of nuclear materials.
+        --}In addition to on-site inspections, the IAEA also uses unattended and remote safeguards: video cameras and machines that do automated counting and measurement of nuclear materials.
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167768096}@@•
     
-    The IAEA analyzes inspection data and resolves anomalies: When safeguards show inconsistencies or odd findings that (in aggregate) are significant[^note-53], the IAEA by default first seeks clarification from the relevant state.
+    --}The IAEA analyzes inspection data and resolves anomalies: When safeguards show inconsistencies or odd findings that (in aggregate) are significant[^note-53], the IAEA by default first seeks clarification from the relevant state.
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167768096}@@–
         
-        It can do this by, e.g., requesting additional information, redoing verifications (sometimes by shutting down a process line while inventories are re-counted), or requesting to carry out "special Investigations" (which include access beyond that which the IAEA would normally have).
+        --}It can do this by, e.g., requesting additional information, redoing verifications (sometimes by shutting down a process line while inventories are re-counted), or requesting to carry out "special Investigations" (which include access beyond that which the IAEA would normally have).
         
     
 
@@ -486,57 +486,57 @@ When APs supplement CSAs, they do not greatly change the above process at declar
 
 We can break down the process of detecting undeclared facilities into two steps:[^note-54]
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167768724}@@1.
     
-    Finding evidence suggesting that a state might have undeclared nuclear facilities (potentially at a specific location), and
+    --}Finding evidence suggesting that a state might have undeclared nuclear facilities (potentially at a specific location), and
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167768724}@@2.
     
-    Resolving suspicions about suspected undeclared nuclear facilities.[^note-55]
+    --}Resolving suspicions about suspected undeclared nuclear facilities.[^note-55]
     
 
 Mechanisms for identifying suspect locations or states:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167768724}@@•
     
-    Unofficially, the IAEA identifies suspect locations mainly through voluntary tips from national intelligence agencies (and perhaps also from whistleblowers). These tips from intelligence agencies appear to be irreplaceable for the IAEA’s ability to identify potential undeclared nuclear facilities.[^note-56][^note-57][^note-58]
+    --}Unofficially, the IAEA identifies suspect locations mainly through voluntary tips from national intelligence agencies (and perhaps also from whistleblowers). These tips from intelligence agencies appear to be irreplaceable for the IAEA’s ability to identify potential undeclared nuclear facilities.[^note-56][^note-57][^note-58]
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167768724}@@–
         
-        Intelligence agencies have not published much information on their methods for detecting undeclared nuclear facilities, but some reports suggest their [methods] include: spying, monitoring nuclear trade, analyzing satellite images, and using other open-source information (27)(35).
+        --}Intelligence agencies have not published much information on their methods for detecting undeclared nuclear facilities, but some reports suggest their [methods] include: spying, monitoring nuclear trade, analyzing satellite images, and using other open-source information (27)(35).
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167768724}@@–
         
-        The IAEA also conducts its own analyses to identify suspect locations, but these are limited by the IAEA’s limited sources of information; compared to the high bar of the IAEA’s processes at declared facilities, the IAEA has no similarly comprehensive, independent process for reliably finding undeclared facilities.[^note-59]
+        --}The IAEA also conducts its own analyses to identify suspect locations, but these are limited by the IAEA’s limited sources of information; compared to the high bar of the IAEA’s processes at declared facilities, the IAEA has no similarly comprehensive, independent process for reliably finding undeclared facilities.[^note-59]
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167768724}@@•
     
-    Expanding IAEA abilities under CSAs, states that have also adopted APs are required to provide the IAEA with information on additional nuclear buildings and activities (17).[^note-60] Presumably, whether or not states actually self-report on these facilities, these reporting requirements help the IAEA detect secret nuclear facilities.[^note-61]
+    --}Expanding IAEA abilities under CSAs, states that have also adopted APs are required to provide the IAEA with information on additional nuclear buildings and activities (17).[^note-60] Presumably, whether or not states actually self-report on these facilities, these reporting requirements help the IAEA detect secret nuclear facilities.[^note-61]
     
 
 Mechanisms for resolving suspicions about suspect locations or states (and their limitations) (17):
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167768724}@@•
     
-    CSAs grant the IAEA very limited means for confirming or disconfirming its suspicions about undeclared nuclear facilities.[^note-62]
+    --}CSAs grant the IAEA very limited means for confirming or disconfirming its suspicions about undeclared nuclear facilities.[^note-62]
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167768724}@@–
         
-        Recognizing this, the IAEA does not report the absence of undeclared nuclear facilities in states that only have CSAs.
+        --}Recognizing this, the IAEA does not report the absence of undeclared nuclear facilities in states that only have CSAs.
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167768724}@@•
     
-    When they supplement CSAs, APs boost the IAEA’s ability to identify and investigate suspected undeclared nuclear facilities. APs authorize the IAEA to [investigate suspect locations] in certain ways:
+    --}When they supplement CSAs, APs boost the IAEA’s ability to identify and investigate suspected undeclared nuclear facilities. APs authorize the IAEA to [investigate suspect locations] in certain ways:
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167768724}@@–
         
-        For all the locations that APs require states to self-report (listed in a footnote under the last sub-heading), APs also grant the IAEA "complementary access" to these locations. This means that, with certain qualifications (especially for fully private activities), APs grant the IAEA non-routine inspection access to a very wide range of nuclear-relevant locations, with 24 hours’ notice.[^note-63]
+        --}For all the locations that APs require states to self-report (listed in a footnote under the last sub-heading), APs also grant the IAEA "complementary access" to these locations. This means that, with certain qualifications (especially for fully private activities), APs grant the IAEA non-routine inspection access to a very wide range of nuclear-relevant locations, with 24 hours’ notice.[^note-63]
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167768724}@@–
         
-        APs also grant the IAEA complementary access to any location in a state, with a couple of qualifications.[^note-64]
+        --}APs also grant the IAEA complementary access to any location in a state, with a couple of qualifications.[^note-64]
         
     
 
@@ -546,22 +546,22 @@ Mechanisms for resolving suspicions about suspect locations or states (and their
 
 Several U.S.-U.S.S.R./Russia nuclear arms limitation agreements had little or no officially authorized M&V:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167769131}@@•
     
-    SALT I Agreements: The earliest U.S.-U.S.S.R. nuclear arms control agreements (the SALT I interim agreement and associated Anti-Ballistic Missile Treaty, which capped offensive nuclear missiles and missile defense systems, respectively) only had [national technical means] ("NTMs") as formally authorized M&V methods (37)(38).
+    --}SALT I Agreements: The earliest U.S.-U.S.S.R. nuclear arms control agreements (the SALT I interim agreement and associated Anti-Ballistic Missile Treaty, which capped offensive nuclear missiles and missile defense systems, respectively) only had [national technical means] ("NTMs") as formally authorized M&V methods (37)(38).
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167769131}@@–
         
-        The Soviets rejected proposals for inspections, due to concerns over espionage.
+        --}The Soviets rejected proposals for inspections, due to concerns over espionage.
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167769131}@@•
     
-    SORT: The 2002 Strategic Offensive Reductions Treaty ("SORT"), aka the Moscow Treaty, had no formal verification methods of its own. However, SORT mostly overlapped with START I, which had an extensive M&V system, so in practice there were some M&V mechanisms allowing the U.S. and Russia to get information about whether the other was moving toward compliance with SORT.
+    --}SORT: The 2002 Strategic Offensive Reductions Treaty ("SORT"), aka the Moscow Treaty, had no formal verification methods of its own. However, SORT mostly overlapped with START I, which had an extensive M&V system, so in practice there were some M&V mechanisms allowing the U.S. and Russia to get information about whether the other was moving toward compliance with SORT.
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167769131}@@–
         
-        The U.S. intelligence community concluded that, outside of the period where SORT would overlap with START I, it could not confidently verify Russian compliance, but Russia would likely comply regardless due to the costs of maintaining its nuclear arsenal. Also, SORT provisions only officially applied for one day. After outlining this context, arms control expert Jeffrey Lewis writes that SORT "isn’t arms control but domestic political theater" (39).
+        --}The U.S. intelligence community concluded that, outside of the period where SORT would overlap with START I, it could not confidently verify Russian compliance, but Russia would likely comply regardless due to the costs of maintaining its nuclear arsenal. Also, SORT provisions only officially applied for one day. After outlining this context, arms control expert Jeffrey Lewis writes that SORT "isn’t arms control but domestic political theater" (39).
         
     
 
@@ -569,26 +569,26 @@ Several U.S.-U.S.S.R./Russia nuclear arms limitation agreements had little or no
 
 In the INF Treaty, START I, and New START, which have collectively constituted the majority of U.S.-U.S.S.R./Russia nuclear arms reduction treaties since 1987, verification tends to work in the following way (20)(21)(22):
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167769507}@@•
     
-    Each party [shares and updates data] on where all its nuclear delivery vehicles are and when any of them are destroyed, while also sharing missile flight-test ("telemetry") data.
+    --}Each party [shares and updates data] on where all its nuclear delivery vehicles are and when any of them are destroyed, while also sharing missile flight-test ("telemetry") data.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167769507}@@•
     
-    Each party verifies the other’s shared data through various [on-site inspections] coupled with [NTMs] and (presumably) [other unilateral intelligence gathering methods] (e.g. espionage).
+    --}Each party verifies the other’s shared data through various [on-site inspections] coupled with [NTMs] and (presumably) [other unilateral intelligence gathering methods] (e.g. espionage).
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167769507}@@–
         
-        Inspections mainly use simple methods, e.g. counting and length measurement.[^note-65]
+        --}Inspections mainly use simple methods, e.g. counting and length measurement.[^note-65]
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167769507}@@–
         
-        Inspectors only inspect declared facilities; the task of discovering secret facilities is left to other methods (e.g. satellites).
+        --}Inspectors only inspect declared facilities; the task of discovering secret facilities is left to other methods (e.g. satellites).
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167769507}@@•
     
-    Additionally, two of these treaties use [perimeter portal continuous monitoring] at a few missile assembly facilities, and the treaties involve further [measures that make it easier] for inspections and NTMs to verify compliance: restrictions on equipment locations, distinguishing characteristics, limits on the number of (size-limited) on-site buildings, and [unique identifiers].
+    --}Additionally, two of these treaties use [perimeter portal continuous monitoring] at a few missile assembly facilities, and the treaties involve further [measures that make it easier] for inspections and NTMs to verify compliance: restrictions on equipment locations, distinguishing characteristics, limits on the number of (size-limited) on-site buildings, and [unique identifiers].
     
 
 Differences between these treaties’ verification systems are discussed in a footnote[^note-66], and more details on implementation can be found in the [earlier section] on M&V methods.
@@ -619,54 +619,54 @@ Having reviewed how nuclear M&V systems were implemented, we turn to their track
 
 First, we review the strengths of the track record of [IAEA verification], which include that Comprehensive Safeguards Agreements ("CSAs") boosted by Additional Protocols ("APs") have had no known, major failures.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167769993}@@•
     
-    As far as is publicly known, IAEA safeguards have never completely failed; no state has ever acquired nuclear weapons while being party to the Non-Proliferation Treaty (which involves signing a CSA with the IAEA) (Bleek, 2017; UN ODA).[^note-74]
+    --}As far as is publicly known, IAEA safeguards have never completely failed; no state has ever acquired nuclear weapons while being party to the Non-Proliferation Treaty (which involves signing a CSA with the IAEA) (Bleek, 2017; UN ODA).[^note-74]
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167769993}@@–
         
-        For context, a Belfer Center paper counts 7 non-nuclear-weapon states as having pursued nuclear weapons while being parties to the NPT (45)[^note-75].
+        --}For context, a Belfer Center paper counts 7 non-nuclear-weapon states as having pursued nuclear weapons while being parties to the NPT (45)[^note-75].
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167769993}@@•
     
-    Although dozens of states now have nuclear facilities and CSAs began to be implemented about 50 years ago, no state has attempted to divert a significant quantity of nuclear material from a facility that was under CSA safeguards.[^note-76]
+    --}Although dozens of states now have nuclear facilities and CSAs began to be implemented about 50 years ago, no state has attempted to divert a significant quantity of nuclear material from a facility that was under CSA safeguards.[^note-76]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167769993}@@•
     
-    APs, which began to be implemented about 25 years ago to address CSAs’ weakness at detecting secret nuclear facilities, are nearly untested in their ability to detect secret nuclear weapons development activities; there are no known cases of states attempting to build or operate secret nuclear fuel-cycle facilities while under an AP. AP safeguards successfully detected Iran’s engagement in some undeclared nuclear activities, the details of which remain unclear.
+    --}APs, which began to be implemented about 25 years ago to address CSAs’ weakness at detecting secret nuclear facilities, are nearly untested in their ability to detect secret nuclear weapons development activities; there are no known cases of states attempting to build or operate secret nuclear fuel-cycle facilities while under an AP. AP safeguards successfully detected Iran’s engagement in some undeclared nuclear activities, the details of which remain unclear.
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167769993}@@–
         
-        There is almost no known case of a state pursuing a nuclear weapons program while under a CSA with an AP.[^note-77]
+        --}There is almost no known case of a state pursuing a nuclear weapons program while under a CSA with an AP.[^note-77]
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167769993}@@–
         
-        The one known exception is Iran[^note-78][^note-79], which openly expanded its nuclear activities and (as determined by the IAEA) also engaged in undeclared activities involving nuclear material, while implementing a CSA with an AP[^note-80]. Although Iran’s limited compliance has kept the IAEA from uncovering the details of these activities, the IAEA was able to discover that they occurred[^note-81] (48).
+        --}The one known exception is Iran[^note-78][^note-79], which openly expanded its nuclear activities and (as determined by the IAEA) also engaged in undeclared activities involving nuclear material, while implementing a CSA with an AP[^note-80]. Although Iran’s limited compliance has kept the IAEA from uncovering the details of these activities, the IAEA was able to discover that they occurred[^note-81] (48).
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167769993}@@–
         
-        Even when it is not dealing with unique cases like Iran, the IAEA often faces and accepts significant delays in resolving uncertainties about the existence of undeclared nuclear facilities. For example, regarding the year 2021[^note-82], for 60 of the 132 states with CSAs and APs in force, the IAEA reported that "\[e\]valuations regarding the absence of undeclared nuclear material and activities for each of these States remained ongoing"[^note-83] (50).
+        --}Even when it is not dealing with unique cases like Iran, the IAEA often faces and accepts significant delays in resolving uncertainties about the existence of undeclared nuclear facilities. For example, regarding the year 2021[^note-82], for 60 of the 132 states with CSAs and APs in force, the IAEA reported that "\[e\]valuations regarding the absence of undeclared nuclear material and activities for each of these States remained ongoing"[^note-83] (50).
         
     
 
 However, the IAEA’s track record is far from perfect; CSA safeguards not complemented by APs repeatedly missed states’ construction of secret nuclear facilities (which they were not designed to detect).
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167769993}@@•
     
-    Iran, Iraq, Libya, and Syria all pursued nuclear weapons by building secret nuclear facilities while under CSAs, but CSA safeguards were not enough for the IAEA to notice (51)(28)(52)(53). Similarly, the IAEA failed to notice Yugoslavian R&D and South Korean international purchases that pursued nuclear weapons while these states were under CSAs (54)(29).
+    --}Iran, Iraq, Libya, and Syria all pursued nuclear weapons by building secret nuclear facilities while under CSAs, but CSA safeguards were not enough for the IAEA to notice (51)(28)(52)(53). Similarly, the IAEA failed to notice Yugoslavian R&D and South Korean international purchases that pursued nuclear weapons while these states were under CSAs (54)(29).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167769993}@@•
     
-    As exceptions to the above trend, CSA safeguards have occasionally identified banned activities outside of what they are primarily designed to identify.
+    --}As exceptions to the above trend, CSA safeguards have occasionally identified banned activities outside of what they are primarily designed to identify.
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167769993}@@–
         
-        In North Korea, following the state’s adoption of a CSA, initial IAEA inspections found that North Korea had previously processed more plutonium than it claimed. This finding kicked off (ultimately unsuccessful) diplomatic efforts to keep North Korea from getting the bomb (55).
+        --}In North Korea, following the state’s adoption of a CSA, initial IAEA inspections found that North Korea had previously processed more plutonium than it claimed. This finding kicked off (ultimately unsuccessful) diplomatic efforts to keep North Korea from getting the bomb (55).
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167769993}@@–
         
-        In Syria, the IAEA concluded that a destroyed facility had "very likely" been an undeclared nuclear reactor (though this was several years after Israel bombed it) (56).[^note-84]
+        --}In Syria, the IAEA concluded that a destroyed facility had "very likely" been an undeclared nuclear reactor (though this was several years after Israel bombed it) (56).[^note-84]
         
     
 
@@ -676,13 +676,13 @@ For all U.S.-U.S.S.R./Russia nuclear arms limitation agreements that were mutual
 
 Across the three bilateral arms control agreements with [extensive M&V systems] (i.e. the INF Treaty, START I, and New START), there has been only one state allegation of an attempt at secret, serious noncompliance: 26 years after the INF Treaty entered into force, the U.S. accused Russia of discreetly developing and flight-testing a missile that violated the treaty. (The U.S. consequently withdrew from the treaty.)
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167770620}@@•
     
-    The timing of the U.S. allegations is ambiguous in its implications about the reliability of U.S. M&V, but a tentative conclusion is that U.S. M&V (especially NTMs) was adequate.
+    --}The timing of the U.S. allegations is ambiguous in its implications about the reliability of U.S. M&V, but a tentative conclusion is that U.S. M&V (especially NTMs) was adequate.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167770620}@@•
     
-    Otherwise, the U.S. has mostly confirmed the U.S.S.R./Russia’s compliance, and Russia has made several relatively minor or tenuous allegations of noncompliance.
+    --}Otherwise, the U.S. has mostly confirmed the U.S.S.R./Russia’s compliance, and Russia has made several relatively minor or tenuous allegations of noncompliance.
     
 
 In bilateral arms control treaties that had [more limited M&V systems] (e.g. just NTMs), the U.S. and the U.S.S.R. made several accusations of non-compliance (though not of massive non-compliance except for an unratified treaty). Given the ambiguity of these cases and the limited role of M&V, they tell us less about relevant M&V systems’ effectiveness.
@@ -701,13 +701,13 @@ The International Monitoring System successfully detected all six of North Korea
 
 The public would not know about any nuclear weapons development activities that were sufficiently well-kept secrets. However, there are some reasons to expect that there have not been not many such well-kept nuclear secrets:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167771120}@@•
     
-    Some of the factors that most plausibly incentivize states to have nuclear weapons programs—deterrence and prestige—also incentivize states to inform other states and the public when they succeed at developing, testing, or stockpiling nuclear weapons. This suggests that most nuclear weapons programs that have succeeded are widely known.[^note-86]
+    --}Some of the factors that most plausibly incentivize states to have nuclear weapons programs—deterrence and prestige—also incentivize states to inform other states and the public when they succeed at developing, testing, or stockpiling nuclear weapons. This suggests that most nuclear weapons programs that have succeeded are widely known.[^note-86]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167771120}@@•
     
-    Changes in leadership or in state incentives can motivate states to reveal formerly secret programs.[^note-87]
+    --}Changes in leadership or in state incentives can motivate states to reveal formerly secret programs.[^note-87]
     
 
 There is also significant uncertainty due to incentives for states to spread misinformation about their own or others’ secret nuclear weapons activities.
@@ -720,111 +720,111 @@ This section describes aspects of the politics of negotiations in which M&V syst
 
 Consistently with negotiators’ incentives, the records and outcomes of M&V negotiations suggest that these negotiations involved significant pressures to do the following:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167771541}@@•
     
-    Ensure effectiveness[^note-89]
+    --}Ensure effectiveness[^note-89]
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167771541}@@–
         
-        This is reflected in M&V systems’ [thoroughness and redundancy].
-        
-    
--   •
-    
-    Protect state and commercial secrets[^note-90]
-    
-    -   –
-        
-        Inspections include a wide range of measures for addressing this concern.[^note-91]
-        
-    -   –
-        
-        States that are technical leaders in some industries appeared to be especially concerned about IP risks.[^note-92]
+        --}This is reflected in M&V systems’ [thoroughness and redundancy].
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167771541}@@•
     
-    Limit disruptions and financial costs
+    --}Protect state and commercial secrets[^note-90]
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167771541}@@–
         
-        Inspections have been limited and streamlined to address this concern.[^note-93]
+        --}Inspections include a wide range of measures for addressing this concern.[^note-91]
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167771541}@@–
         
-        States appeared to be more concerned over M&V being applied to the specific supply chain steps they led in.[^note-94]
-        
-    
--   •
-    
-    Limit other security threats
-    
-    -   –
-        
-        START I allows roughly its entire, extensive M&V system to be arbitrarily suspended for "operational dispersals" of nuclear forces. Analysts explain, "In view of the central importance of preserving the survivability of their strategic forces, the Parties were unwilling to place any restrictions on the number, frequency, or duration of operational dispersals. \[…\] \[H\]owever, the Parties specify that such operational dispersals shall only be conducted for national security purposes in time of crisis when a Party considers it necessary to act to ensure the survivability of its strategic forces \[…\] \[and only\] rarely" (67).
+        --}States that are technical leaders in some industries appeared to be especially concerned about IP risks.[^note-92]
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167771541}@@•
     
-    Preserve national industrial competitiveness
+    --}Limit disruptions and financial costs
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167771541}@@–
         
-        In initial NPT negotiations as well as later AP negotiations, nuclear-weapon states volunteered to accept IAEA safeguards on their own commercial nuclear plants. This move was reportedly critical for easing "widespread concerns" that IAEA safeguards "would place non-nuclear-weapon States at a commercial and industrial disadvantage in developing nuclear energy" (66)(68)(17).
+        --}Inspections have been limited and streamlined to address this concern.[^note-93]
         
-    
--   •
-    
-    Keep compliance feasible
-    
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167771541}@@–
         
-        This reportedly motivated minimum-notice requirements for inspections.[^note-95]
+        --}States appeared to be more concerned over M&V being applied to the specific supply chain steps they led in.[^note-94]
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167771541}@@•
     
-    Observe privacy rights
+    --}Limit other security threats
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167771541}@@–
         
-        IAEA inspectors lack unconditional access to arbitrary locations.[^note-96]
-        
-    
--   •
-    
-    Avoid passing new legislation[^note-97]
-    
-    -   –
-        
-        States repeatedly objected to IAEA M&V proposals on the grounds that they would require changes to national laws and regulations (66).
+        --}START I allows roughly its entire, extensive M&V system to be arbitrarily suspended for "operational dispersals" of nuclear forces. Analysts explain, "In view of the central importance of preserving the survivability of their strategic forces, the Parties were unwilling to place any restrictions on the number, frequency, or duration of operational dispersals. \[…\] \[H\]owever, the Parties specify that such operational dispersals shall only be conducted for national security purposes in time of crisis when a Party considers it necessary to act to ensure the survivability of its strategic forces \[…\] \[and only\] rarely" (67).
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167771541}@@•
     
-    Appease idiosyncratic stakeholders
+    --}Preserve national industrial competitiveness
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167771541}@@–
         
-        The U.S. chief negotiator of New START suggests the treaty includes telemetry data sharing because senators mistakenly considered it useful for verification.[^note-98]
-        
-    
--   •
-    
-    Limit partiality among states
-    
-    -   –
-        
-        Nuclear verification tends to be consistent across states, and safeguards agreements emphasize the use of "objective methods" (32).[^note-99]
+        --}In initial NPT negotiations as well as later AP negotiations, nuclear-weapon states volunteered to accept IAEA safeguards on their own commercial nuclear plants. This move was reportedly critical for easing "widespread concerns" that IAEA safeguards "would place non-nuclear-weapon States at a commercial and industrial disadvantage in developing nuclear energy" (66)(68)(17).
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167771541}@@•
     
-    Respect national sovereignty
+    --}Keep compliance feasible
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167771541}@@–
         
-        As discussed [below], concerns over national sovereignty appear to have motivated various early limitations on IAEA safeguards.[^note-100]
+        --}This reportedly motivated minimum-notice requirements for inspections.[^note-95]
+        
+    
+-   {--{"author":"James's AI","timestamp":1790167771541}@@•
+    
+    --}Observe privacy rights
+    
+    -   {--{"author":"James's AI","timestamp":1790167771541}@@–
+        
+        --}IAEA inspectors lack unconditional access to arbitrary locations.[^note-96]
+        
+    
+-   {--{"author":"James's AI","timestamp":1790167771541}@@•
+    
+    --}Avoid passing new legislation[^note-97]
+    
+    -   {--{"author":"James's AI","timestamp":1790167771541}@@–
+        
+        --}States repeatedly objected to IAEA M&V proposals on the grounds that they would require changes to national laws and regulations (66).
+        
+    
+-   {--{"author":"James's AI","timestamp":1790167771541}@@•
+    
+    --}Appease idiosyncratic stakeholders
+    
+    -   {--{"author":"James's AI","timestamp":1790167771541}@@–
+        
+        --}The U.S. chief negotiator of New START suggests the treaty includes telemetry data sharing because senators mistakenly considered it useful for verification.[^note-98]
+        
+    
+-   {--{"author":"James's AI","timestamp":1790167771541}@@•
+    
+    --}Limit partiality among states
+    
+    -   {--{"author":"James's AI","timestamp":1790167771541}@@–
+        
+        --}Nuclear verification tends to be consistent across states, and safeguards agreements emphasize the use of "objective methods" (32).[^note-99]
+        
+    
+-   {--{"author":"James's AI","timestamp":1790167771541}@@•
+    
+    --}Respect national sovereignty
+    
+    -   {--{"author":"James's AI","timestamp":1790167771541}@@–
+        
+        --}As discussed [below], concerns over national sovereignty appear to have motivated various early limitations on IAEA safeguards.[^note-100]
         
     
 
@@ -836,21 +836,21 @@ Perhaps the biggest failure in nuclear M&V has been one discussed [above]: that 
 
 How did CSA negotiations come to leave such a massive gap in their M&V system? Experts propose the following explanations (though typically with little to no citation/evidence) for why CSAs had very limited capacity for detecting undeclared nuclear facilities: negotiators had tended to think that:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167771945}@@•
     
-    Secret nuclear facilities would be detected and voluntarily reported on by national intelligence agencies (15)(69)(70)(66);
+    --}Secret nuclear facilities would be detected and voluntarily reported on by national intelligence agencies (15)(69)(70)(66);
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167771945}@@•
     
-    Establishing a self-contained nuclear fuel cycle would be too technically difficult for most states (69)(14);
+    --}Establishing a self-contained nuclear fuel cycle would be too technically difficult for most states (69)(14);
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167771945}@@•
     
-    Inspectors having far-reaching access to investigate potential violations was politically unacceptable (15)(70); and
+    --}Inspectors having far-reaching access to investigate potential violations was politically unacceptable (15)(70); and
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167771945}@@•
     
-    There were no good available methods for the IAEA to detect undeclared facilities (70).
+    --}There were no good available methods for the IAEA to detect undeclared facilities (70).
     
 
 Considering this alongside the fact that later fixes (Additional Protocols) required ratification from each state party, it appears that the CSA M&V system has been highly flawed because negotiators made fragile assumptions, built insufficient flexibility into CSAs, and were insufficiently proactive in responding to changes in the risk landscape.[^note-102]
@@ -871,52 +871,52 @@ Having reviewed the implementation, track records, and politics of monitoring an
 
 This section primarily argues for the following conclusion: with certain preparations, the foreseeable challenges of one potential form of AI treaty verification (specifically, hardware-based verification of treaties setting rules on highly compute-intensive AI development) would mostly be challenges that were [successfully] addressed in nuclear arms control. The main preparations needed to prevent worse challenges are:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167772352}@@1.
     
-    Developing privacy-preserving, secure, and acceptably priced methods for verifying the compliance of hardware, given inspection access; and
+    --}Developing privacy-preserving, secure, and acceptably priced methods for verifying the compliance of hardware, given inspection access; and
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167772352}@@2.
     
-    Establishing an initial, incomplete verification system that is relatively easy to improve when opportunities arise, because it has flexible authorities and scalable precedents.
+    --}Establishing an initial, incomplete verification system that is relatively easy to improve when opportunities arise, because it has flexible authorities and scalable precedents.
     
 
 These are tall orders, but their potential suggests qualified optimism and plausible directions to move toward. More concretely, Shavit (1) describes some near-term policies and technical research questions that could serve as steps toward (1) and (2).
 
 The following sections expand on the following argument for the above conclusion:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167772352}@@•
     
-    First, consider this potential, high-level approach to verifying AI treaties: require and verify that computer chips used for highly compute-intensive AI development have built-in mechanisms that enable verification, then use these mechanisms to verify compliance.
+    --}First, consider this potential, high-level approach to verifying AI treaties: require and verify that computer chips used for highly compute-intensive AI development have built-in mechanisms that enable verification, then use these mechanisms to verify compliance.
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167772352}@@–
         
-        Ongoing research suggests this may be technically feasible, even in privacy-preserving and efficient ways. Shavit (1) provides a technical description of one way chips could be used to verify compliance.
+        --}Ongoing research suggests this may be technically feasible, even in privacy-preserving and efficient ways. Shavit (1) provides a technical description of one way chips could be used to verify compliance.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167772352}@@–
         
-        For concreteness, one example of a chip mechanism that would help enable verification is a tamper-evident log of chip activity.
+        --}For concreteness, one example of a chip mechanism that would help enable verification is a tamper-evident log of chip activity.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167772352}@@–
         
-        Chip-based approaches to verification cannot address all important risks from AI. Still, chip-based verification may be unusually promising specifically in the context of highly compute-intensive AI development, as other drivers of AI advances—algorithms and data—are harder to track.
-        
-    
--   •
-    
-    M&V politics in the nuclear case suggest the above approach to verification will mostly encounter challenges from: secrecy and security concerns; direct costs; and cultural and legal difficulties.[^note-104]
-    
-    -   –
-        
-        This list covers all of the sources of objections to M&V proposals identified in the [earlier section] on politics, except for pressures to: ensure effectiveness, preserve national industrial competitiveness, keep compliance feasible, observe privacy rights, appease idiosyncratic stakeholders, and limit partiality among states.These potential concerns are de-emphasized below because they appear less likely to be major concerns or are already addressed by the preparations discussed next.[^note-105]
+        --}Chip-based approaches to verification cannot address all important risks from AI. Still, chip-based verification may be unusually promising specifically in the context of highly compute-intensive AI development, as other drivers of AI advances—algorithms and data—are harder to track.
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167772352}@@•
     
-    Substantial preparations would reduce each of these challenges to a difficulty that was manageable in the nuclear case (that is, some nuclear arms control M&V system faced a similar or greater difficulty, yet the system was adopted and had a strong track record).
+    --}M&V politics in the nuclear case suggest the above approach to verification will mostly encounter challenges from: secrecy and security concerns; direct costs; and cultural and legal difficulties.[^note-104]
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167772352}@@–
         
-        The next three sections argue for this claim in more detail.
+        --}This list covers all of the sources of objections to M&V proposals identified in the [earlier section] on politics, except for pressures to: ensure effectiveness, preserve national industrial competitiveness, keep compliance feasible, observe privacy rights, appease idiosyncratic stakeholders, and limit partiality among states.These potential concerns are de-emphasized below because they appear less likely to be major concerns or are already addressed by the preparations discussed next.[^note-105]
+        
+    
+-   {--{"author":"James's AI","timestamp":1790167772352}@@•
+    
+    --}Substantial preparations would reduce each of these challenges to a difficulty that was manageable in the nuclear case (that is, some nuclear arms control M&V system faced a similar or greater difficulty, yet the system was adopted and had a strong track record).
+    
+    -   {--{"author":"James's AI","timestamp":1790167772352}@@–
+        
+        --}The next three sections argue for this claim in more detail.
         
     
 
@@ -924,34 +924,34 @@ The following sections expand on the following argument for the above conclusion
 
 AI chip users may oppose verification due to concerns that (1) disclosure of AI chips’ locations, (2) inspections of AI chips, and (3) certain design features on AI chips would expose sensitive data and software to spies and saboteurs. Similar concerns could arise in the context of chip-making machines. Certain preparations would reduce these secrecy and security concerns to concerns that were manageable in nuclear arms control.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167772804}@@•
     
-    The importance of (1) for verification poses the challenge of needing states to disclose sensitive facilities’ locations. This [was manageable] in nuclear arms control.
+    --}The importance of (1) for verification poses the challenge of needing states to disclose sensitive facilities’ locations. This [was manageable] in nuclear arms control.
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167772804}@@–
         
-        Nearly all states agreed to disclose the locations of their nuclear energy facilities for IAEA verification.
+        --}Nearly all states agreed to disclose the locations of their nuclear energy facilities for IAEA verification.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167772804}@@–
         
-        The U.S. and U.S.S.R. agreed to share the locations of their nuclear weapon bases with each other for INF Treaty, START, and New START verification.
+        --}The U.S. and U.S.S.R. agreed to share the locations of their nuclear weapon bases with each other for INF Treaty, START, and New START verification.
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167772804}@@•
     
-    If stakeholders develop privacy-preserving and secure[^note-106] methods for using (2) and (3) to verify AI chips’ compliance, then AI chip users’ concerns here would be largely addressed.
+    --}If stakeholders develop privacy-preserving and secure[^note-106] methods for using (2) and (3) to verify AI chips’ compliance, then AI chip users’ concerns here would be largely addressed.
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167772804}@@–
         
-        States may still worry that physical proximity of inspectors or equipment to sensitive information is risky (even when no specific risks are apparent), but this concern [was manageable] in the nuclear case.
+        --}States may still worry that physical proximity of inspectors or equipment to sensitive information is risky (even when no specific risks are apparent), but this concern [was manageable] in the nuclear case.
         
-        -   \*
+        -   {--{"author":"James's AI","timestamp":1790167772804}@@\*
             
-            For example, with a wide range of precautions, states accepted video surveillance and inspectors near sensitive centrifuge designs, and the U.S. and U.S.S.R./Russia allowed each other’s inspectors to be physically near their sensitive missile and warhead design information.
+            --}For example, with a wide range of precautions, states accepted video surveillance and inspectors near sensitive centrifuge designs, and the U.S. and U.S.S.R./Russia allowed each other’s inspectors to be physically near their sensitive missile and warhead design information.
             
-        -   \*
+        -   {--{"author":"James's AI","timestamp":1790167772804}@@\*
             
-            As an example of a precaution that allows inspectors proximity but not access to sensitive information, in New START inspections, the front ends of missiles "would be opened up but covered with a soft or pliable cover so that objects \[reentry vehicles\] could be counted without revealing their technical characteristics" (25).
+            --}As an example of a precaution that allows inspectors proximity but not access to sensitive information, in New START inspections, the front ends of missiles "would be opened up but covered with a soft or pliable cover so that objects \[reentry vehicles\] could be counted without revealing their technical characteristics" (25).
             
         
     
@@ -960,79 +960,79 @@ AI chip users may oppose verification due to concerns that (1) disclosure of AI 
 
 Hardware-based verification would involve costs from (1) implementing, (2) verifying the presence of, and (3) using chip mechanisms that enable verification. Certain preparations would reduce these direct costs to costs that were manageable in nuclear arms control.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167773319}@@•
     
-    (2) would presumably require inspections, which could be implemented by adapting [methods] used for verifying accounts of nuclear items.
+    --}(2) would presumably require inspections, which could be implemented by adapting [methods] used for verifying accounts of nuclear items.
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167773319}@@–
         
-        This adaptation of nuclear materials accounting to AI chip accounting would be feasible; [an appendix] details how it could be done with 3+ layers of defense against potential violations.
+        --}This adaptation of nuclear materials accounting to AI chip accounting would be feasible; [an appendix] details how it could be done with 3+ layers of defense against potential violations.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167773319}@@–
         
-        Back-of-the-envelope calculations (in [an appendix]) suggest that, if rules’ scope were highly compute-intensive AI development in data centers (meaning commodity chips would need to not offer loopholes), then direct costs of inspections (both the inspections’ funding and the disrupted economic activity) would be lower than or very roughly similar to those which states accepted for nonproliferation M&V.
-        
-    
--   •
-    
-    There would also be manufacturing and computational costs.
-    
-    -   –
-        
-        To address these, R&D for acceptably priced hardware verification and limits on rules’ scope could theoretically reduce these costs by enough to make overall costs lower than that which states accepted for nonproliferation M&V.
+        --}Back-of-the-envelope calculations (in [an appendix]) suggest that, if rules’ scope were highly compute-intensive AI development in data centers (meaning commodity chips would need to not offer loopholes), then direct costs of inspections (both the inspections’ funding and the disrupted economic activity) would be lower than or very roughly similar to those which states accepted for nonproliferation M&V.
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167773319}@@•
     
-    AI development increasingly relies on large numbers of highly specialized chips, making it plausible that a treaty with a narrow scope would still mitigate some important risks.
+    --}There would also be manufacturing and computational costs.
+    
+    -   {--{"author":"James's AI","timestamp":1790167773319}@@–
+        
+        --}To address these, R&D for acceptably priced hardware verification and limits on rules’ scope could theoretically reduce these costs by enough to make overall costs lower than that which states accepted for nonproliferation M&V.
+        
+    
+-   {--{"author":"James's AI","timestamp":1790167773319}@@•
+    
+    --}AI development increasingly relies on large numbers of highly specialized chips, making it plausible that a treaty with a narrow scope would still mitigate some important risks.
     
 
 ### 6.4 Managing cultural and legal barriers
 
 Efforts to create M&V systems for AI could be stalled by the lack of relevant precedents and legal authorities. As with the above challenges, certain preparations would reduce these cultural and legal barriers to levels that were manageable in nuclear arms control.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167773786}@@•
     
-    Stakeholders can first create a limited M&V system for AI, especially with flexible authorities and scalable M&V methods. This would lower cultural and legal barriers to a strong M&V system, which can then be created when opportunities to improve the limited system arise.[^note-107]
+    --}Stakeholders can first create a limited M&V system for AI, especially with flexible authorities and scalable M&V methods. This would lower cultural and legal barriers to a strong M&V system, which can then be created when opportunities to improve the limited system arise.[^note-107]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167773786}@@•
     
-    All the strongest M&V systems in the nuclear case were created in the above way, incrementally, and some historians consider this critical, at least for the creation of the IAEA’s current strongest system.
+    --}All the strongest M&V systems in the nuclear case were created in the above way, incrementally, and some historians consider this critical, at least for the creation of the IAEA’s current strongest system.
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167773786}@@–
         
-        A history of IAEA safeguards (15) writes that, "there was much initial resistance to the application of IAEA safeguards. Thus the first, incomplete but complex, safeguards system covered only \[…\] the research and experimental reactors of the day." Over the 60s, the scope of IAEA safeguards evolved to cover all declared nuclear facilities in a state. Then, in the 90s, the scope of IAEA safeguards [again extended] in many states (after the failure with Iraq) to also cover undeclared nuclear facilities.
+        --}A history of IAEA safeguards (15) writes that, "there was much initial resistance to the application of IAEA safeguards. Thus the first, incomplete but complex, safeguards system covered only \[…\] the research and experimental reactors of the day." Over the 60s, the scope of IAEA safeguards evolved to cover all declared nuclear facilities in a state. Then, in the 90s, the scope of IAEA safeguards [again extended] in many states (after the failure with Iraq) to also cover undeclared nuclear facilities.
         
-        -   \*
+        -   {--{"author":"James's AI","timestamp":1790167773786}@@\*
             
-            Another history highlights a concern that motivated incremental development: that more ambitious safeguards "would not be generally acceptable to states until further experience with IAEA safeguards was gained" (63).
-            
-        
-    -   –
-        
-        IAEA M&V system improvements in the 90s came most quickly and widely when there was more precedent and authority to make them (15)(66).
-        
-        -   \*
-            
-            Early in IAEA safeguards’ development, according to an IAEA history, "The concepts of short notice and unannounced inspections, now increasingly important features of IAEA safeguards, would have been regarded as inadmissible infractions of national sovereignty" (15).
-            
-        -   \*
-            
-            Some changes (e.g. the use of new technologies at inspections) could be adopted by majority vote, while other changes (e.g. expanded scope of inspections) required ratification by state legislatures; the latter changes have taken years longer and remain less widely applied.
+            --}Another history highlights a concern that motivated incremental development: that more ambitious safeguards "would not be generally acceptable to states until further experience with IAEA safeguards was gained" (63).
             
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167773786}@@–
         
-        U.S.-U.S.S.R./Russia treaties adopted increasingly intrusive M&V for increasingly high-stakes aims.
+        --}IAEA M&V system improvements in the 90s came most quickly and widely when there was more precedent and authority to make them (15)(66).
         
-        -   \*
+        -   {--{"author":"James's AI","timestamp":1790167773786}@@\*
             
-            While the first treaties only had [national technical means] as authorized M&V methods, the INF Treaty expanded to [inspections] for intermediate-range missiles, and the START I brought inspections to strategic (i.e. long-range) missiles.
+            --}Early in IAEA safeguards’ development, according to an IAEA history, "The concepts of short notice and unannounced inspections, now increasingly important features of IAEA safeguards, would have been regarded as inadmissible infractions of national sovereignty" (15).
+            
+        -   {--{"author":"James's AI","timestamp":1790167773786}@@\*
+            
+            --}Some changes (e.g. the use of new technologies at inspections) could be adopted by majority vote, while other changes (e.g. expanded scope of inspections) required ratification by state legislatures; the latter changes have taken years longer and remain less widely applied.
             
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167773786}@@–
         
-        States strengthened nuclear test ban M&V by building [many more remote sensor stations]. Meanwhile, efforts that faced higher legal barriers stalled; the Comprehensive Test Ban Treaty has still not been ratified by the number of states it requires to enter into force.
+        --}U.S.-U.S.S.R./Russia treaties adopted increasingly intrusive M&V for increasingly high-stakes aims.
+        
+        -   {--{"author":"James's AI","timestamp":1790167773786}@@\*
+            
+            --}While the first treaties only had [national technical means] as authorized M&V methods, the INF Treaty expanded to [inspections] for intermediate-range missiles, and the START I brought inspections to strategic (i.e. long-range) missiles.
+            
+        
+    -   {--{"author":"James's AI","timestamp":1790167773786}@@–
+        
+        --}States strengthened nuclear test ban M&V by building [many more remote sensor stations]. Meanwhile, efforts that faced higher legal barriers stalled; the Comprehensive Test Ban Treaty has still not been ratified by the number of states it requires to enter into force.
         
     
 
@@ -1181,59 +1181,59 @@ I am especially grateful to Jade Leung for her support throughout this research,
 
 M&V systems for AI would face some similar challenges as (some) M&V systems for nuclear arms control, including:[^note-108]
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167774202}@@•
     
-    _Dual-use equipment and facilities:_ Much of the equipment and facilities that could be used to violate an agreement can also be used for legitimate purposes[^note-109], so M&V must be able to catch late-stage misuse of relevant equipment and facilities.
+    --}_Dual-use equipment and facilities:_ Much of the equipment and facilities that could be used to violate an agreement can also be used for legitimate purposes[^note-109], so M&V must be able to catch late-stage misuse of relevant equipment and facilities.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167774202}@@•
     
-    _Sensitive information:_ Dual-use equipment and facilities involve sensitive information[^note-110] even if they are being used in compliance with the treaty.
+    --}_Sensitive information:_ Dual-use equipment and facilities involve sensitive information[^note-110] even if they are being used in compliance with the treaty.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167774202}@@•
     
-    _Regulation of both government and corporate activity:_ Governments and businesses perform activities that (may) need restrictions for effective M&V.[^note-111]
+    --}_Regulation of both government and corporate activity:_ Governments and businesses perform activities that (may) need restrictions for effective M&V.[^note-111]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167774202}@@•
     
-    _Bilateral or multilateral negotiations:_ Treaty scope is not necessarily limited to either just bilateral or just multilateral treaties.[^note-112]
+    --}_Bilateral or multilateral negotiations:_ Treaty scope is not necessarily limited to either just bilateral or just multilateral treaties.[^note-112]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167774202}@@•
     
-    _Need for high robustness:_ States might come to see defection as highly valuable, so a reliable M&V system might need to be robust against major state efforts to hide violations.
+    --}_Need for high robustness:_ States might come to see defection as highly valuable, so a reliable M&V system might need to be robust against major state efforts to hide violations.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167774202}@@•
     
-    _Accounting:_ Verified accounting (of uranium in one case, and of high-end, AI-specialized chips in the other case) can help with treaty verification.
+    --}_Accounting:_ Verified accounting (of uranium in one case, and of high-end, AI-specialized chips in the other case) can help with treaty verification.
     
 
 However, there are also major differences between these verification challenges, including:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167774202}@@•
     
-    _Degree of perceived risk:_ Nuclear arms control M&V was negotiated after clear demonstrations of the risks posed by nuclear weapons, while some potential AI risks are currently more speculative.
+    --}_Degree of perceived risk:_ Nuclear arms control M&V was negotiated after clear demonstrations of the risks posed by nuclear weapons, while some potential AI risks are currently more speculative.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167774202}@@•
     
-    _Efficacy of environmental sampling:_ The use of centrifuges to produce weapons-grade uranium scatters unique particles that can be detected from some distance; there are no obvious analogues for AI.
+    --}_Efficacy of environmental sampling:_ The use of centrifuges to produce weapons-grade uranium scatters unique particles that can be detected from some distance; there are no obvious analogues for AI.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167774202}@@•
     
-    _Verification of information technology use:_ M&V for AI may need to be able to catch certain defections just based on (limited) access to source code, AI hardware, and/or ML models. Nuclear arms control M&V has not had to do that; it offers no obvious analogues to software or hardware-centered verification.
+    --}_Verification of information technology use:_ M&V for AI may need to be able to catch certain defections just based on (limited) access to source code, AI hardware, and/or ML models. Nuclear arms control M&V has not had to do that; it offers no obvious analogues to software or hardware-centered verification.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167774202}@@•
     
-    _Supply chain concentration:_ The supply chain of high-end computer chips is highly concentrated (72), while uranium sources, their processing equipment, and nuclear facilities are relatively decentralized. Still, in both cases, there are challenging steps in the supply chain.
+    --}_Supply chain concentration:_ The supply chain of high-end computer chips is highly concentrated (72), while uranium sources, their processing equipment, and nuclear facilities are relatively decentralized. Still, in both cases, there are challenging steps in the supply chain.
     
 
 Additionally, it is not clear whether certain other factors are similarities or differences, including:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167774202}@@•
     
-    _Scale of verification activities needed:_ The amount and scope of infrastructure and equipment that need to be inspected for nuclear arms control is low enough for verification to be considered affordable; it is unclear if the same will be true for AI.
+    --}_Scale of verification activities needed:_ The amount and scope of infrastructure and equipment that need to be inspected for nuclear arms control is low enough for verification to be considered affordable; it is unclear if the same will be true for AI.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167774202}@@•
     
-    _Amount of sensitive information needed to verify compliance:_ Nuclear arms control agreements are verified without inspectors getting access to much of the valuable R&D information involved (i.e. R&D of centrifuges, missiles, and bombers); it is unclear whether similarly IP-protecting M&V will be feasible for AI.
+    --}_Amount of sensitive information needed to verify compliance:_ Nuclear arms control agreements are verified without inspectors getting access to much of the valuable R&D information involved (i.e. R&D of centrifuges, missiles, and bombers); it is unclear whether similarly IP-protecting M&V will be feasible for AI.
     
 
 ## Appendix B M&V in Nuclear-Weapon-Free-Zone treaties and in agreements with North Korea and Iran
