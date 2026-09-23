@@ -55,7 +55,7 @@ content::
 
 The post says one input was binding in 2022. Which one, and which number in the post tells you so.
 
-Then: of Unit 1's gears, compute growth and the task-length curve, which does this change your reading of, and how. Two or three sentences.
+Then: which of Unit 1's two gears, compute growth or the task-length curve, does this reading change your view of, and how? Two or three sentences.
 
 One line more. What would you watch over the next two years that would tell you data had stopped being the binding input, or that it never was for the models that matter now?
 
