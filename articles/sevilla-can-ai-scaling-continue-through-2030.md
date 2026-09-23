@@ -1149,6 +1149,7 @@ Table 1: Induced correlations between model parameters.
 | Stock of internet video data | Stock of internet text data | 0.7 | See above. |
 :::
 
+:::callout {title="Appendix B: Fraction of total resources allocated to the largest training run" collapse="closed"}
 ### Appendix B: Fraction of total resources allocated to the largest training run ^appendix-b-fraction-of
 
 When modeling electrical power and chip manufacturing capacity, we must consider how competition between AI labs affects the fraction of these resources that a lab can secure to perform the largest training run. To estimate this fraction, we consider the stock of AI chips available to each of the most well-resourced firms at the beginning of 2024. We then divide each firm's stock by the total stock of AI chips available. Finally, we adjust this fraction down to account for some chips being allocated to inference. For convenience, we measure the stock of AI chips in terms of H100-equivalents: the number of Nvidia H100 GPUs that would match the total FLOP/s of the stock, at 16-bit precision. Full calculations are available [here](https://www.squiggle-language.com/playground?v=0.9.5).
@@ -1170,6 +1171,7 @@ Other GPUs likely make up between 200,000 and 1 million H100 equivalents. The pe
 **Training allocation:** Available computing resources are split between training new models and running inference on existing ones. [A simple analysis](https://epoch.ai/blog/optimally-allocating-compute-between-inference-and-training) suggests AI labs should allocate comparable resources to both tasks. Assuming this balance, we can estimate future resource allocation. If in 2029 training and inference compute are equal, and training compute continues to grow [at 4x per year](https://epoch.ai/blog/training-compute-of-frontier-ai-models-grows-by-4-5x-per-year), one-quarter of total compute (equal to 2029's training) will run inference on 2029 models, while three-quarters will train 2030 models. This suggests that 80% of 2030's compute would be used for training new models, while 20% would be used for inference on previous models.
 
 **Result:** Adding the stock of actual H100s, other GPUs, and TPUs together results in an estimate of 1.5 to 3.5 million H100-equivalents in total by the beginning of 2024. Since Google has the highest stock estimate of 400,000 to 1.4 million H100-equivalents, we use this stock to estimate the allocation of total resources. After adjusting for 80% of a company's compute being spent on training, our final result is that the largest training run can be allocated 26% (somewhere between 16% to 40%) of the total available chip stock.
+:::
 
 ### Appendix C: Bandwidth constraints ^appendix-c-bandwidth-constraints
 
