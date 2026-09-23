@@ -63,11 +63,16 @@ low-label:: Not confident
 high-label:: Very confident
 
 #### Question: Open
+id:: PLACEHOLDER_UUID
+content:: Explain your reasoning for the choice you just made.
+placeholder:: Explain your reasoning
+assessment-instructions:: The learner has just committed to a view on whether inscrutability is necessary for uncontrollability and rated their confidence. Assess the reasoning, not the commitment; both commitments are legitimate starting points. The position the lesson takes: scrutability means an action can be understood if it is examined carefully, and that does not by itself imply the model is controlled. An understandable action might not be inspected; it might be understandable without being easy to evaluate; its significance might depend on many other individually understandable actions; reviewers might recognise what an action does without being able to determine whether it is part of a larger strategy. Scrutability removes one possible source of control failure but does not logically eliminate every other source, so inscrutability is not conceptually necessary for a model to pose a serious threat to control. Full credit for reasoning that separates being understandable from being inspected, evaluated or recognised as part of a strategy, whichever way the learner committed. Do not yet supply a worked threat model; the next question asks the learner to build one. Grade only against what this lens has supplied.
+feedback-instructions:: In at most five sentences: state what the learner's reasoning does well, then give the resolution. Scrutability means an action can be understood if examined carefully, which does not by itself imply the model is controlled: an understandable action might not be inspected, might be understandable without being easy to evaluate, might matter only together with many other understandable actions, and reviewers might see what it does without seeing whether it is part of a larger strategy. So scrutability removes one source of control failure but not every other, and inscrutability is not conceptually necessary for a serious threat to control. Close by saying that leaves the harder question the next prompt asks: can they construct a credible threat in which the model's actions remain scrutable? Do not give a worked example.
+
+#### Question: Open
 id:: b633dab0-e4e0-47b5-99e8-853e4e88ba24
 content::
-Explain your reasoning for the choice you just made.
-
-Then construct the strongest threat model you can: what unacceptable outcome could a scheming but scrutable model cause, and how does the model bring it about?
+Construct the strongest threat model you can: what unacceptable outcome could a scheming but scrutable model cause, and how does the model bring it about?
 
 The model's actions should remain scrutable, meaning a capable human team could understand them if it examined them carefully. Do not assume that the model has qualitatively wildly superhuman skills in a problematic domain.
 
