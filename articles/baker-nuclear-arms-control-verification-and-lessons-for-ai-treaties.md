@@ -1551,84 +1551,84 @@ To verify that there are not many cutting-edge AI chips being used at undeclared
 
 First, AI chips could be secretly produced by accurately reporting the existence of chip-making machines but under-reporting production levels. To detect this, one could:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167897332}@@•
     
-    Have in-line instrumentation be installed on chip-making machines (or power systems) to monitor production levels;
+    --}Have in-line instrumentation be installed on chip-making machines (or power systems) to monitor production levels;
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167897332}@@•
     
-    Monitor relevant chips fabrication facilities’ ("fabs’") [procurement activities], looking for undeclared purchases of chip manufacturing materials; and
+    --}Monitor relevant chips fabrication facilities’ ("fabs’") [procurement activities], looking for undeclared purchases of chip manufacturing materials; and
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167897332}@@•
     
-    Establish perimeter portal continuous monitoring at relevant fabs, looking for undeclared shipments of chips out of the fabs.
+    --}Establish perimeter portal continuous monitoring at relevant fabs, looking for undeclared shipments of chips out of the fabs.
     
 
 Alternatively, AI chips could be secretly produced by undeclared chip-making machines at declared fabs. To detect this, one could:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167897332}@@•
     
-    Carry out inspections at relevant fabs, implemented like the "undeclared item inspections" described in [the next section] (except in this case, inspectors would be looking for undeclared chip-making machines, rather than undeclared chips);
+    --}Carry out inspections at relevant fabs, implemented like the "undeclared item inspections" described in [the next section] (except in this case, inspectors would be looking for undeclared chip-making machines, rather than undeclared chips);
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167897332}@@•
     
-    Implement [design information verification] at relevant fabs, to detect secret rooms;
+    --}Implement [design information verification] at relevant fabs, to detect secret rooms;
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167897332}@@•
     
-    Monitor relevant fabs’ [procurement activities], looking for undeclared purchases of chip manufacturing materials or chip-making machines (potentially along with video surveillance and [perimeter monitoring], for especially centralized suppliers); and
+    --}Monitor relevant fabs’ [procurement activities], looking for undeclared purchases of chip manufacturing materials or chip-making machines (potentially along with video surveillance and [perimeter monitoring], for especially centralized suppliers); and
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167897332}@@•
     
-    Establish [perimeter portal continuous monitoring] at relevant fabs, looking for undeclared shipments of chips out of the fabs or of chip-making machines or machine components into the fabs.
+    --}Establish [perimeter portal continuous monitoring] at relevant fabs, looking for undeclared shipments of chips out of the fabs or of chip-making machines or machine components into the fabs.
     
 
 Thirdly, AI chips could theoretically be secretly produced at undeclared fabs. To detect this, one could:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167897332}@@•
     
-    Use [national technical means] to look for signs of secret fab construction;
+    --}Use [national technical means] to look for signs of secret fab construction;
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167897332}@@•
     
-    [Monitor the sales] of fab suppliers, looking for undeclared purchases of chip manufacturing materials or chip-making machines; and
+    --}[Monitor the sales] of fab suppliers, looking for undeclared purchases of chip manufacturing materials or chip-making machines; and
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167897332}@@•
     
-    Use [challenge inspections] to resolve suspicions about particular locations.
+    --}Use [challenge inspections] to resolve suspicions about particular locations.
     
 
 Instead of secretly producing cutting-edge AI chips, an adversary could seek to secretly divert cutting-edge AI chips from their reported locations at data centers and storage facilities. To detect this, one could:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167897332}@@•
     
-    Carry out "diversion detection inspections"[^note-146] at declared data centers and storage facilities (as described by Shavit (1), these could consist of inspectors specifying a random sample of unique identifiers that are reportedly at some facility, facility operators providing access to the corresponding AI chips, and then inspectors checking that the reported chip is present[^note-147]); and
+    --}Carry out "diversion detection inspections"[^note-146] at declared data centers and storage facilities (as described by Shavit (1), these could consist of inspectors specifying a random sample of unique identifiers that are reportedly at some facility, facility operators providing access to the corresponding AI chips, and then inspectors checking that the reported chip is present[^note-147]); and
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167897332}@@•
     
-    Use video surveillance at declared data centers and storage facilities, as additional measures to detect diversion.
+    --}Use video surveillance at declared data centers and storage facilities, as additional measures to detect diversion.
     
 
 Alternatively, an adversary could attempt to secretly divert AI chips from their reported transit paths. To detect this, one could:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167897332}@@•
     
-    Use video surveillance throughout transit; and
+    --}Use video surveillance throughout transit; and
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167897332}@@•
     
-    Carry out "diversion detection inspections" (as [above]) at declared data centers and storage facilities, which could detect a diversion during recent transit.
+    --}Carry out "diversion detection inspections" (as [above]) at declared data centers and storage facilities, which could detect a diversion during recent transit.
     
 
 Lastly, an adversary could attempt to secretly divert AI chips or chip-making machines from an elimination facility, e.g. by falsely reporting that chips have been melted. To detect this, one could use "elimination inspections," designed with a few measures to detect this violation:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167897332}@@•
     
-    Inspector presence over specified elimination procedures; and
+    --}Inspector presence over specified elimination procedures; and
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167897332}@@•
     
-    [Unattended surveillance equipment].
+    --}[Unattended surveillance equipment].
     
 
 Alternatively, a mandated storage period before elimination could help ensure that AI chips would be unusable or obsolete by the time they are eliminated.
@@ -1639,79 +1639,79 @@ So far, we have examined one approach to verifying that there are not many cutti
 
 Cutting-edge AI chips could be secretly stored at facilities that are not declared to be data centers, which would effectively be undeclared data centers. To detect these data centers, one could:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167897763}@@•
     
-    Use [national technical means] (e.g. satellite images);
+    --}Use [national technical means] (e.g. satellite images);
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167897763}@@•
     
-    [Monitor procurement] of equipment that is used for building and operating data centers;
+    --}[Monitor procurement] of equipment that is used for building and operating data centers;
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167897763}@@•
     
-    Carry out [challenge inspections] to resolve suspicions about particular locations; and
+    --}Carry out [challenge inspections] to resolve suspicions about particular locations; and
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167897763}@@•
     
-    Specifically for verifying that AI chip storage facilities are not being used as data centers, [design information verification] and "undeclared item inspections" (described [below]).
+    --}Specifically for verifying that AI chip storage facilities are not being used as data centers, [design information verification] and "undeclared item inspections" (described [below]).
     
 
 Alternatively, cutting-edge AI chips could be stored at declared data centers, without being reported as being there. These could be detected with "undeclared item inspections"[^note-148] along with [design information verification], as follows.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167897763}@@•
     
-    AI chips might be "hidden in plain sight" in declared server rooms.[^note-149] To detect this, one could use "undeclared item inspections," with:
+    --}AI chips might be "hidden in plain sight" in declared server rooms.[^note-149] To detect this, one could use "undeclared item inspections," with:
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167897763}@@–
         
-        Counting of chips in server rooms; and
+        --}Counting of chips in server rooms; and
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167897763}@@–
         
-        Examination of [unique identifiers] of selected chips in server rooms.
-        
-    
--   •
-    
-    AI chips might be hidden in areas that reportedly do not contain chips, at declared data centers. To detect this, one could use "undeclared item inspections," with:
-    
-    -   –
-        
-        Visual observation and equipment that can detect the presence of chips; and
-        
-    -   –
-        
-        Surveillance of declared non-server areas with unattended equipment, e.g. using video cameras to verify that an area is not used for chip storage.
+        --}Examination of [unique identifiers] of selected chips in server rooms.
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167897763}@@•
     
-    AI chips might be hidden in secret rooms, at declared data centers. To detect this, one could use [design information verification], with:
+    --}AI chips might be hidden in areas that reportedly do not contain chips, at declared data centers. To detect this, one could use "undeclared item inspections," with:
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167897763}@@–
         
-        Design information verification inspections;
+        --}Visual observation and equipment that can detect the presence of chips; and
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167897763}@@–
         
-        Unattended on-site equipment, e.g. (if needed, rudimentary) video and audio surveillance equipment to detect construction activities; and
-        
-    -   –
-        
-        Satellites, to detect undeclared construction.
+        --}Surveillance of declared non-server areas with unattended equipment, e.g. using video cameras to verify that an area is not used for chip storage.
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167897763}@@•
     
-    AI chips that have been placed in a data center might be hidden by being moved, during an inspection, to areas that will not undergo (further) inspection. To detect this, one could include the following procedures in "undeclared item inspections," done by [inspectors monitoring the exits] of rooms and facilities:
+    --}AI chips might be hidden in secret rooms, at declared data centers. To detect this, one could use [design information verification], with:
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167897763}@@–
         
-        Inspection of items leaving not-yet-inspected rooms; and
+        --}Design information verification inspections;
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167897763}@@–
         
-        Inspection of items leaving the data center, as well as on-site video surveillance.
+        --}Unattended on-site equipment, e.g. (if needed, rudimentary) video and audio surveillance equipment to detect construction activities; and
+        
+    -   {--{"author":"James's AI","timestamp":1790167897763}@@–
+        
+        --}Satellites, to detect undeclared construction.
+        
+    
+-   {--{"author":"James's AI","timestamp":1790167897763}@@•
+    
+    --}AI chips that have been placed in a data center might be hidden by being moved, during an inspection, to areas that will not undergo (further) inspection. To detect this, one could include the following procedures in "undeclared item inspections," done by [inspectors monitoring the exits] of rooms and facilities:
+    
+    -   {--{"author":"James's AI","timestamp":1790167897763}@@–
+        
+        --}Inspection of items leaving not-yet-inspected rooms; and
+        
+    -   {--{"author":"James's AI","timestamp":1790167897763}@@–
+        
+        --}Inspection of items leaving the data center, as well as on-site video surveillance.
         
     
 
@@ -1721,18 +1721,18 @@ Zooming out, this approach could be combined with the one discussed in [the prev
 
 To detect efforts to secretly tamper with large numbers of AI chips at known locations, one could use the following:[^note-150]
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167898178}@@•
     
-    "Tampering detection inspections" at data centers and storage facilities (including soon after chip production) could help verify that chips have not been tampered with.
+    --}"Tampering detection inspections" at data centers and storage facilities (including soon after chip production) could help verify that chips have not been tampered with.
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167898178}@@–
         
-        These could consist of inspectors specifying a random sample of chips (identified by their unique identifiers), data center operators providing access to them, and inspectors then verifying that the chips have not been tampered with.[^note-151]
+        --}These could consist of inspectors specifying a random sample of chips (identified by their unique identifiers), data center operators providing access to them, and inspectors then verifying that the chips have not been tampered with.[^note-151]
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898178}@@•
     
-    [Video surveillance] at data centers, storage facilities, and in transit could directly detect tampering activities.
+    --}[Video surveillance] at data centers, storage facilities, and in transit could directly detect tampering activities.
     
 
 ### G.6 Additional measures
@@ -1745,137 +1745,137 @@ For efficiency and preventing cover-ups, inspections should often be short-notic
 
 At certain production and storage facilities upstream in the supply chain:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [Accountancy reporting] (of cutting-edge chip-making machines)
+    --}[Accountancy reporting] (of cutting-edge chip-making machines)
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [Procurement monitoring]
+    --}[Procurement monitoring]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [Video cameras] (perhaps) (focused on highly centralized suppliers)
+    --}[Video cameras] (perhaps) (focused on highly centralized suppliers)
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [Perimeter portal continuous monitoring] (perhaps) (focused on highly centralized suppliers)
+    --}[Perimeter portal continuous monitoring] (perhaps) (focused on highly centralized suppliers)
     
 
 At cutting-edge fabs:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [Accountancy reporting] (of cutting-edge AI chips and chip-making machines)
+    --}[Accountancy reporting] (of cutting-edge AI chips and chip-making machines)
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [Undeclared item inspections] (focused on chip-making machines)
+    --}[Undeclared item inspections] (focused on chip-making machines)
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [[#^g5-detecting-efforts-to-tamper-with-the-design-features-of-cutting-edge-ai-chips-at-known-locations|Tampering]] and [[#^g3-detecting-efforts-to-get-cutting-edge-ai-chips-to-undeclared-locations|diversion detection inspections]]
+    --}[[#^g5-detecting-efforts-to-tamper-with-the-design-features-of-cutting-edge-ai-chips-at-known-locations|Tampering]] and [[#^g3-detecting-efforts-to-get-cutting-edge-ai-chips-to-undeclared-locations|diversion detection inspections]]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [[#^224-design-information-verification|Design information verification]]
+    --}[[#^224-design-information-verification|Design information verification]]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [Perimeter portal continuous monitoring] (focused on cutting-edge AI chips, chip-making machines, and construction items)
+    --}[Perimeter portal continuous monitoring] (focused on cutting-edge AI chips, chip-making machines, and construction items)
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    In-line instrumentation
+    --}In-line instrumentation
     
 
 At cutting-edge data centers and cutting-edge AI chip storage facilities:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [Accountancy reporting] (of cutting-edge AI chips)
+    --}[Accountancy reporting] (of cutting-edge AI chips)
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [Undeclared item inspections]
+    --}[Undeclared item inspections]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [[#^g5-detecting-efforts-to-tamper-with-the-design-features-of-cutting-edge-ai-chips-at-known-locations|Tampering]] and [[#^g3-detecting-efforts-to-get-cutting-edge-ai-chips-to-undeclared-locations|diversion detection inspections]]
+    --}[[#^g5-detecting-efforts-to-tamper-with-the-design-features-of-cutting-edge-ai-chips-at-known-locations|Tampering]] and [[#^g3-detecting-efforts-to-get-cutting-edge-ai-chips-to-undeclared-locations|diversion detection inspections]]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [[#^222-containment-and-surveillance|Video cameras]]
+    --}[[#^222-containment-and-surveillance|Video cameras]]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [[#^224-design-information-verification|Design information verification]]
+    --}[[#^224-design-information-verification|Design information verification]]
     
 
 At certain elimination facilities:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [Accountancy reporting] (of AI chips and chip-making machines)
+    --}[Accountancy reporting] (of AI chips and chip-making machines)
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [Elimination inspections] (focused on AI chips and chip-making machines)
+    --}[Elimination inspections] (focused on AI chips and chip-making machines)
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    Unattended surveillance equipment
+    --}Unattended surveillance equipment
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    Storage period before elimination (potential alternative)
+    --}Storage period before elimination (potential alternative)
     
 
 In transit:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [Video cameras] (for cutting-edge AI chips and chip-making machines)
+    --}[Video cameras] (for cutting-edge AI chips and chip-making machines)
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    GPS devices and security for vehicles
+    --}GPS devices and security for vehicles
     
 
 At arbitrary locations:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    Location restrictions on data-center-quality, cutting-edge AI chips
+    --}Location restrictions on data-center-quality, cutting-edge AI chips
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [National technical means]
+    --}[National technical means]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [Challenge inspections]
+    --}[Challenge inspections]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898579}@@•
     
-    [Human sources]
+    --}[Human sources]
     
 
 ### G.8 Assessment
 
 There are good reasons to tentatively consider the verification system described above highly reliable:[^note-153]
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167898986}@@•
     
-    It has at least 5 layers of defense[^note-154] for detecting any serious attempt to possess and use many cutting-edge AI chips at undeclared locations, and it has 3 layers of defense[^note-155] for detecting tampering with chips at declared locations.
+    --}It has at least 5 layers of defense[^note-154] for detecting any serious attempt to possess and use many cutting-edge AI chips at undeclared locations, and it has 3 layers of defense[^note-155] for detecting tampering with chips at declared locations.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898986}@@•
     
-    Some of these layers appear highly reliable[^note-156], and all appear to have a significant chance of detecting violations.
+    --}Some of these layers appear highly reliable[^note-156], and all appear to have a significant chance of detecting violations.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167898986}@@•
     
-    Analogous methods have worked very well historically (as discussed in the section on track records).
+    --}Analogous methods have worked very well historically (as discussed in the section on track records).
     
 
 Overall, this shows that methods that have been widely used for nuclear arms control verification[^note-157] can be adapted to create a reliable system for verifying accounts of AI chips.
@@ -1888,57 +1888,57 @@ The last two metrics incorporate gross world product to show that, although spec
 
 Number of inspections conducted annually:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167899380}@@•
     
-    In 2019 and 2020, the IAEA conducted  2,900 in-field inspections (110)(111).
+    --}In 2019 and 2020, the IAEA conducted  2,900 in-field inspections (110)(111).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167899380}@@•
     
-    Various estimates suggest there are currently  100-1,000 large data centers, and an analyst at market research group Synergy Research Group claims this figure has doubled over the past  5 years (112)(113)(114)[^note-159]. The number of data centers with cutting-edge AI chips is presumably significantly lower.
+    --}Various estimates suggest there are currently  100-1,000 large data centers, and an analyst at market research group Synergy Research Group claims this figure has doubled over the past  5 years (112)(113)(114)[^note-159]. The number of data centers with cutting-edge AI chips is presumably significantly lower.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167899380}@@•
     
-    The number of chip fabrication facilitates ("fabs") producing (near-)cutting-edge chips appears relatively small.[^note-160]
+    --}The number of chip fabrication facilitates ("fabs") producing (near-)cutting-edge chips appears relatively small.[^note-160]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167899380}@@•
     
-    This leaves substantial room for the number of large, AI-specialized data centers and fabs to grow while the number of inspections needed to inspect them stays roughly similar to the IAEA’s number of inspections.
+    --}This leaves substantial room for the number of large, AI-specialized data centers and fabs to grow while the number of inspections needed to inspect them stays roughly similar to the IAEA’s number of inspections.
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167899380}@@–
         
-        Even if demand for data centers and fabs hosting a significant number of cutting-edge, AI-specialized chips exploded upwards, their numbers could be kept manageable, e.g. through a large but limited number of authorizations of cutting-edge, AI-specialized data centers.
+        --}Even if demand for data centers and fabs hosting a significant number of cutting-edge, AI-specialized chips exploded upwards, their numbers could be kept manageable, e.g. through a large but limited number of authorizations of cutting-edge, AI-specialized data centers.
         
     
 
 Ratio of the number of items examined annually to gross world product:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167899380}@@•
     
-    In 2019 and 2020, the IAEA verified that  25,000 seals had not been tampered with (110)(111). Additionally, IAEA inspectors conduct many other measurements, such as full physical inventories at most of 700 facilities, which amounts to annual examinations of  140,000 items if we assume 80% of facilities are inspected and 250 items[^note-161] are examined in the average inventory (120).
+    --}In 2019 and 2020, the IAEA verified that  25,000 seals had not been tampered with (110)(111). Additionally, IAEA inspectors conduct many other measurements, such as full physical inventories at most of 700 facilities, which amounts to annual examinations of  140,000 items if we assume 80% of facilities are inspected and 250 items[^note-161] are examined in the average inventory (120).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167899380}@@•
     
-    Assuming that 10k to 100k AI chips[^note-162] used for a year were required for a violation and assuming (very conservatively relative to current AI chip production (122)(123)) that the number of chips that could be used for a violation were 2.5 billion, then  58,000 to  580,000 chips would have to be examined annually for a 90% probability of detecting serious violations.[^note-163] The GWP involved would not be less than it currently is for IAEA verification, so the ratio (of items examined to GWP) would be less than 10x worse (and plausibly better) than the ratio involved in IAEA inspections.
+    --}Assuming that 10k to 100k AI chips[^note-162] used for a year were required for a violation and assuming (very conservatively relative to current AI chip production (122)(123)) that the number of chips that could be used for a violation were 2.5 billion, then  58,000 to  580,000 chips would have to be examined annually for a 90% probability of detecting serious violations.[^note-163] The GWP involved would not be less than it currently is for IAEA verification, so the ratio (of items examined to GWP) would be less than 10x worse (and plausibly better) than the ratio involved in IAEA inspections.
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167899380}@@–
         
-        Hypothetically, what if the number of available AI chips grew beyond that already high level? 2x growth in AI chip production would cause a  2x increase in the number of chips that need to be examined to maintain a 90% detection probability.[^note-164] At the same time, such an increase in AI chip production from such a high level would require  2x growth in GWP[^note-165], so the ratio would not become worse.
+        --}Hypothetically, what if the number of available AI chips grew beyond that already high level? 2x growth in AI chip production would cause a  2x increase in the number of chips that need to be examined to maintain a 90% detection probability.[^note-164] At the same time, such an increase in AI chip production from such a high level would require  2x growth in GWP[^note-165], so the ratio would not become worse.
         
     
 
 Proportional loss of gross world product from interruptions to operations:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167899380}@@•
     
-    Nuclear energy sales make up  0.4% of gross world product (125). Assuming the average nuclear energy facility loses 2 days of production per year to IAEA safeguards inspections[^note-166], it follows that the interruptions from these inspections cost  0.002% of gross world product.
+    --}Nuclear energy sales make up  0.4% of gross world product (125). Assuming the average nuclear energy facility loses 2 days of production per year to IAEA safeguards inspections[^note-166], it follows that the interruptions from these inspections cost  0.002% of gross world product.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167899380}@@•
     
-    Assuming 10,000 AI chips for a year out of anywhere from 600,000 to 600 billion (or even more) available AI chips were required for a violation, making the simplifying (and very conservative) assumption that AI chips made up all of gross world product, and assuming that examination of any one chip knocked 100 chips out of use for one day per year, these inspections would cost  0.006% of gross world product[^note-167]—just a factor of  3 over the above estimate about IAEA inspections’ costs.
+    --}Assuming 10,000 AI chips for a year out of anywhere from 600,000 to 600 billion (or even more) available AI chips were required for a violation, making the simplifying (and very conservative) assumption that AI chips made up all of gross world product, and assuming that examination of any one chip knocked 100 chips out of use for one day per year, these inspections would cost  0.006% of gross world product[^note-167]—just a factor of  3 over the above estimate about IAEA inspections’ costs.
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167899380}@@–
         
-        This estimate assumes that fab production levels can be verified without interrupting fab production (e.g. by monitoring chip-making machines’ inputs and outputs) and are therefore relatively small. Otherwise, costs could be much higher.
+        --}This estimate assumes that fab production levels can be verified without interrupting fab production (e.g. by monitoring chip-making machines’ inputs and outputs) and are therefore relatively small. Otherwise, costs could be much higher.
         
     
 

@@ -50,13 +50,13 @@ Determining which technical rules actually achieve policy objectives remains cha
 
 Verifying rules on AI models, data, and code in the above context can be decomposed into subgoals ([Section 3.2](https://arxiv.org/html/2507.15916v2#Sx4 "3. Verification Framework ‣ Verifying International Agreements on AI"); [Figure 1](https://arxiv.org/html/2507.15916v2#Sx1.F1 "Figure 1 ‣ Key Findings ‣ Summary ‣ Verifying International Agreements on AI")). These are:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167899814}@@1.
     
-    Verify that _declared_ uses of large-scale AI compute are compliant by (A) verifying that trained AI models and their outputs were generated as claimed; and (B) verifying evaluation results, or more generally, verifying that declared models, data, and code have the required properties. “Declared” means self-reported, preferably via confidentiality-preserving technologies.
+    --}Verify that _declared_ uses of large-scale AI compute are compliant by (A) verifying that trained AI models and their outputs were generated as claimed; and (B) verifying evaluation results, or more generally, verifying that declared models, data, and code have the required properties. “Declared” means self-reported, preferably via confidentiality-preserving technologies.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167899814}@@2.
     
-    Verify that there are no _undeclared_ uses of large-scale AI compute by (A) verifying that the use of known AI data centers is accounted for; and (B) verifying that no actor has hidden AI data centers or large, decentralized collections of AI chips that can be used for violations.
+    --}Verify that there are no _undeclared_ uses of large-scale AI compute by (A) verifying that the use of known AI data centers is accounted for; and (B) verifying that no actor has hidden AI data centers or large, decentralized collections of AI chips that can be used for violations.
     
 
 ![Refer to caption](https://arxiv.org/html/2507.15916v1/x1.png)
@@ -65,17 +65,17 @@ Figure 1: Framework of verification subgoals. We decompose a broad verification 
 
 To complete these subgoals, states could create six layers of verification—six largely independent assurances of compliance ([Section 4](https://arxiv.org/html/2507.15916v2#Sx5 "4. Verification Mechanisms and Layers ‣ Verifying International Agreements on AI"); Table 1; [Figure 2](https://arxiv.org/html/2507.15916v2#Sx1.F2 "Figure 2 ‣ Key Findings ‣ Summary ‣ Verifying International Agreements on AI")). Like “layers of defense,” a full implementation of each layer could verify compliance on its own, and multiple layers would reinforce each other. Thus, a stack of layers is an effective combination of verification mechanisms; it completes each subgoal with redundancy. In brief, the layers are:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167899814}@@•
     
-    On-chip: (1) This layer would perform verification by using functionalities _built into_ AI chips. Due to their cybersecurity benefits, some versions of these are already commonplace.
+    --}On-chip: (1) This layer would perform verification by using functionalities _built into_ AI chips. Due to their cybersecurity benefits, some versions of these are already commonplace.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167899814}@@•
     
-    Off-chip: These layers would use _external devices_ to oversee AI chips. The devices could be (2) network taps, to intercept data exchanged between AI chips; and (3) analog sensors, to record measurements such as power use. These data could then be confidentially analyzed.
+    --}Off-chip: These layers would use _external devices_ to oversee AI chips. The devices could be (2) network taps, to intercept data exchanged between AI chips; and (3) analog sensors, to record measurements such as power use. These data could then be confidentially analyzed.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167899814}@@•
     
-    Personnel-based: Several layers would leverage the large _workforce_ involved in AI: (4) whistleblower programs, (5) interviews of personnel, and (6) national intelligence activities.
+    --}Personnel-based: Several layers would leverage the large _workforce_ involved in AI: (4) whistleblower programs, (5) interviews of personnel, and (6) national intelligence activities.
     
 
 | Potential verification layer | Summary of layer | Key advantages | Key disadvantages |
@@ -135,49 +135,49 @@ The remainder of this report is structured as follows. [Section 2](https://arxiv
 
 Our report primarily makes the following contributions:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167900247}@@1.
     
-    Verification goal ([Section 2](https://arxiv.org/html/2507.15916v2#Sx3 "2. Verification Scope and Research Methodology ‣ Verifying International Agreements on AI")): We start by outlining a verification goal that is widely applicable for AI governance: verifying that large-scale AI development and deployment complies with rules, for rules on models, data, and code.
+    --}Verification goal ([Section 2](https://arxiv.org/html/2507.15916v2#Sx3 "2. Verification Scope and Research Methodology ‣ Verifying International Agreements on AI")): We start by outlining a verification goal that is widely applicable for AI governance: verifying that large-scale AI development and deployment complies with rules, for rules on models, data, and code.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167900247}@@2.
     
-    Verification subgoals ([Section 3](https://arxiv.org/html/2507.15916v2#Sx4 "3. Verification Framework ‣ Verifying International Agreements on AI")): We identify four subgoals by which this goal can be achieved. A verification regime is only as robust as its weakest completion of a subgoal, so identifying subgoals helps us assess the robustness of verification proposals.[^note-baker-7]
+    --}Verification subgoals ([Section 3](https://arxiv.org/html/2507.15916v2#Sx4 "3. Verification Framework ‣ Verifying International Agreements on AI")): We identify four subgoals by which this goal can be achieved. A verification regime is only as robust as its weakest completion of a subgoal, so identifying subgoals helps us assess the robustness of verification proposals.[^note-baker-7]
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167900247}@@3.
     
-    Verification mechanisms and layers ([Section 4](https://arxiv.org/html/2507.15916v2#Sx5 "4. Verification Mechanisms and Layers ‣ Verifying International Agreements on AI")): We identify over 20 verification mechanisms and analyze their challenges. These are the “building blocks” of verification regimes; each can help complete at least one of the above subgoals. We show how the verification mechanisms can be assembled into 6 distinct “layers” of verification, and we analyze these layers. By “verification layer,” we mean a set of similar mechanisms, with one mechanism for each verification subgoal.
+    --}Verification mechanisms and layers ([Section 4](https://arxiv.org/html/2507.15916v2#Sx5 "4. Verification Mechanisms and Layers ‣ Verifying International Agreements on AI")): We identify over 20 verification mechanisms and analyze their challenges. These are the “building blocks” of verification regimes; each can help complete at least one of the above subgoals. We show how the verification mechanisms can be assembled into 6 distinct “layers” of verification, and we analyze these layers. By “verification layer,” we mean a set of similar mechanisms, with one mechanism for each verification subgoal.
     
-4.  4.
+4.  {--{"author":"James's AI","timestamp":1790167900247}@@4.
     
-    Open problems ([Section 5](https://arxiv.org/html/2507.15916v2#Sx6 "5. Open Problems in Verification ‣ Verifying International Agreements on AI")): We list open R&D problems for advancing AI verification.
+    --}Open problems ([Section 5](https://arxiv.org/html/2507.15916v2#Sx6 "5. Open Problems in Verification ‣ Verifying International Agreements on AI")): We list open R&D problems for advancing AI verification.
     
 
 For more details, readers may be interested in the following, mostly more technical contributions within the above, where we examine how under-explored verification mechanisms could be implemented:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167900247}@@•
     
-    We outline approaches to implementing the following verification mechanisms, analyzing potential attacks and countermeasures:
+    --}We outline approaches to implementing the following verification mechanisms, analyzing potential attacks and countermeasures:
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167900247}@@–
         
-        Hardware-backed workload certificates, using secure boot ([Appendix A.2](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx2 "A.2 Hardware-Backed Workload Certificates and Evaluations ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI"))
+        --}Hardware-backed workload certificates, using secure boot ([Appendix A.2](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx2 "A.2 Hardware-Backed Workload Certificates and Evaluations ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI"))
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167900247}@@–
         
-        Compute accounting via analog sensors on AI chips ([Appendix A.6](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx6 "A.6 Compute Accounting via Analog Sensors ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI"))
+        --}Compute accounting via analog sensors on AI chips ([Appendix A.6](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx6 "A.6 Compute Accounting via Analog Sensors ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI"))
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167900247}@@–
         
-        Whistleblower programs ([Appendix A.8](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx8 "A.8 Whistleblower Programs ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI"))
+        --}Whistleblower programs ([Appendix A.8](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx8 "A.8 Whistleblower Programs ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI"))
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167900247}@@•
     
-    We highlight how verification of training can be generalized to verifying large-scale inference, considering replicability ([Appendix A.9](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx9 "A.9 Deterministic Replication of Neural Network Inference ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")) and sensitive data storage ([Appendix A.10](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx10 "A.10 Storing Sensitive Data for Verification ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")), and we outline additional tests to detect spoofs ([Appendix A.4](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx4 "A.4 Partial Workload Re-Execution With Constraints ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI"); [Appendix A.5](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx5 "A.5 Data and Code Validation ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")).
+    --}We highlight how verification of training can be generalized to verifying large-scale inference, considering replicability ([Appendix A.9](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx9 "A.9 Deterministic Replication of Neural Network Inference ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")) and sensitive data storage ([Appendix A.10](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx10 "A.10 Storing Sensitive Data for Verification ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")), and we outline additional tests to detect spoofs ([Appendix A.4](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx4 "A.4 Partial Workload Re-Execution With Constraints ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI"); [Appendix A.5](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx5 "A.5 Data and Code Validation ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167900247}@@•
     
-    We explore in some detail the major challenge of ensuring verification protocols are implemented securely throughout the infrastructure stack ([Appendix A.1](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx1 "A.1 Full-stack Security for Technical Verification Mechanisms’ Implementation ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")).
+    --}We explore in some detail the major challenge of ensuring verification protocols are implemented securely throughout the infrastructure stack ([Appendix A.1](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx1 "A.1 Full-stack Security for Technical Verification Mechanisms’ Implementation ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")).
     
 
 ### 1.2 Limitations
@@ -211,17 +211,17 @@ Large-scale AI—motivation. This report focuses on options for verifying that l
 
 Large-scale—definitions. We define “large-scale” with a few corresponding terms, chosen to approximately track the compute use of near-frontier AI development over time (Epoch AI, [2024b](https://arxiv.org/html/2507.15916v2#bib.bib60)) ([Section 3.3](https://arxiv.org/html/2507.15916v2#Sx4.SSx3 "3.3 Addressing Broader Challenges for Verification ‣ 3. Verification Framework ‣ Verifying International Agreements on AI")):[^note-baker-13]
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167900666}@@•
     
-    A _compute cluster_ or data center is “large-scale” if it has the computing power of thousands of high-end AI chips (even if the chips are distributed over many locations).[^note-baker-14]
+    --}A _compute cluster_ or data center is “large-scale” if it has the computing power of thousands of high-end AI chips (even if the chips are distributed over many locations).[^note-baker-14]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167900666}@@•
     
-    _Compute use_ is “large-scale” if it is an amount of computation that thousands of high-end AI chips can do over multiple months.[^note-baker-15] [^note-baker-16]
+    --}_Compute use_ is “large-scale” if it is an amount of computation that thousands of high-end AI chips can do over multiple months.[^note-baker-15] [^note-baker-16]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167900666}@@•
     
-    _AI development or deployment_ is “large-scale” if it uses thousands of high-end AI chips over multiple months.
+    --}_AI development or deployment_ is “large-scale” if it uses thousands of high-end AI chips over multiple months.
     
 
 Though this report uses the more general definition of “thousands” of AI chips, it may be practical to limit verification to an even higher threshold, such as hundreds of thousands of AI chips, as frontier AI development is already near that scale and growing as of early 2025 (Epoch AI, [2024b](https://arxiv.org/html/2507.15916v2#bib.bib60); Pilz et al., [2025b](https://arxiv.org/html/2507.15916v2#bib.bib168)).
@@ -232,21 +232,21 @@ Small-scale compute use. Due to this report’s focus on large-scale AI compute 
 
 As further scope limitations, this report primarily:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167901192}@@•
     
-    Identifies concrete R&D challenges, leaving open the R&D work to solve them if possible.
+    --}Identifies concrete R&D challenges, leaving open the R&D work to solve them if possible.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167901192}@@•
     
-    Focuses on verifying compliance with rules, rather than specifying rules well—another important unsolved problem (which includes improving model evaluations) ([Section 5](https://arxiv.org/html/2507.15916v2#Sx6 "5. Open Problems in Verification ‣ Verifying International Agreements on AI")).[^note-baker-18]
+    --}Focuses on verifying compliance with rules, rather than specifying rules well—another important unsolved problem (which includes improving model evaluations) ([Section 5](https://arxiv.org/html/2507.15916v2#Sx6 "5. Open Problems in Verification ‣ Verifying International Agreements on AI")).[^note-baker-18]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167901192}@@•
     
-    Examines verification protocols, not what organizations should carry them out.
+    --}Examines verification protocols, not what organizations should carry them out.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167901192}@@•
     
-    Focuses on verification as in detecting non-compliant parties (Dai, [2002](https://arxiv.org/html/2507.15916v2#bib.bib46)), after which one still needs to penalize or stop them ([Section 3.3](https://arxiv.org/html/2507.15916v2#Sx4.SSx3 "3.3 Addressing Broader Challenges for Verification ‣ 3. Verification Framework ‣ Verifying International Agreements on AI")).[^note-baker-19] We do not cover this latter step of enforcement, though a few verification mechanisms double as enforcement tools.[^note-baker-20]
+    --}Focuses on verification as in detecting non-compliant parties (Dai, [2002](https://arxiv.org/html/2507.15916v2#bib.bib46)), after which one still needs to penalize or stop them ([Section 3.3](https://arxiv.org/html/2507.15916v2#Sx4.SSx3 "3.3 Addressing Broader Challenges for Verification ‣ 3. Verification Framework ‣ Verifying International Agreements on AI")).[^note-baker-19] We do not cover this latter step of enforcement, though a few verification mechanisms double as enforcement tools.[^note-baker-20]
     
 
 ### 2.4 Methodology
@@ -261,21 +261,21 @@ Expert interviews ([Appendix C.2](https://arxiv.org/html/2507.15916v2#Ax1.SSx3.S
 
 Our analytic methodology, detailed in [Appendix C.1](https://arxiv.org/html/2507.15916v2#Ax1.SSx3.SSSx1 "C.1 Methodology for Analysis ‣ C. Methodology Details ‣ Appendices ‣ Verifying International Agreements on AI"), consisted of:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167901642}@@1.
     
-    Developing a framework of verification subgoals: We took as a starting point a framework used by the International Atomic Energy Agency (IAEA), identified through our literature review, and modified it until it met our criteria of deductive validity, flexibility, and simplicity.
+    --}Developing a framework of verification subgoals: We took as a starting point a framework used by the International Atomic Energy Agency (IAEA), identified through our literature review, and modified it until it met our criteria of deductive validity, flexibility, and simplicity.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167901642}@@2.
     
-    Identifying verification mechanisms: We identified candidate verification mechanisms by compiling verification mechanisms from the above sources.
+    --}Identifying verification mechanisms: We identified candidate verification mechanisms by compiling verification mechanisms from the above sources.
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167901642}@@3.
     
-    Assessing, red teaming, and enhancing verification mechanisms; and identifying open problems: We evaluated each mechanism’s effectiveness, rate of false alarms, confidentiality, security, setup speed, and cost, while iterating on outlined implementations. These analyses drew from the literature review and expert interviews.
+    --}Assessing, red teaming, and enhancing verification mechanisms; and identifying open problems: We evaluated each mechanism’s effectiveness, rate of false alarms, confidentiality, security, setup speed, and cost, while iterating on outlined implementations. These analyses drew from the literature review and expert interviews.
     
-4.  4.
+4.  {--{"author":"James's AI","timestamp":1790167901642}@@4.
     
-    Identifying and analyzing verification layers: We grouped the more positively assessed mechanisms into layers, using our above analysis and definition of verification layer.
+    --}Identifying and analyzing verification layers: We grouped the more positively assessed mechanisms into layers, using our above analysis and definition of verification layer.
     
 
 ## 3\. Verification Framework
@@ -306,30 +306,30 @@ Figure 4: Framework of verification subgoals.
 
 Subgoals for verifying rules on large-scale AI: The framework begins with a broad verification goal: verifying that AI models, data, and code comply with rules on large-scale AI development and deployment. The framework decomposes this goal into two subgoals: (1) verify that _declared_ uses of large-scale AI compute are compliant, and (2) verify that there are no _undeclared_ uses of large-scale AI compute (i.e., declarations are complete). “Compliant” here refers to compliance with rules on the AI models, data, or code created or used in large-scale AI development and those used in deployment ([Section 2](https://arxiv.org/html/2507.15916v2#Sx3 "2. Verification Scope and Research Methodology ‣ Verifying International Agreements on AI")). This is a valid decomposition; if declared large-scale uses are compliant and there are no undeclared large-scale uses, then _all_ large-scale uses of AI compute must be compliant.[^note-baker-29] These two subgoals can be decomposed further:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167902087}@@•
     
-    Subgoal 1: verifying that declared uses of large-scale AI compute are compliant, faces two problems: a Prover might make a false declaration, or they might make a declaration that is honest but still non-compliant. “Honest but non-compliant” might mean, for example, openly declaring their AI deployment and hoping that a Verifier fails to notice that it lacked a required approval, or honestly declaring data that contains prohibited biological sequence data. Addressing each of these possible violations, we can break down Subgoal (1) into:
+    --}Subgoal 1: verifying that declared uses of large-scale AI compute are compliant, faces two problems: a Prover might make a false declaration, or they might make a declaration that is honest but still non-compliant. “Honest but non-compliant” might mean, for example, openly declaring their AI deployment and hoping that a Verifier fails to notice that it lacked a required approval, or honestly declaring data that contains prohibited biological sequence data. Addressing each of these possible violations, we can break down Subgoal (1) into:
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167902087}@@–
         
-        Subgoal 1.A: Verify that declared uses of AI compute are declared accurately, i.e., the Prover actually did the claimed development or deployment. Equivalently,[^note-baker-30] verify that declared AI models and outputs are generated as declared. More specifically, a Verifier could need to verify the accuracy of declared (1.A.1) AI training, (1.A.2) AI inference, or (1.A.3) non-AI uses of AI compute.
+        --}Subgoal 1.A: Verify that declared uses of AI compute are declared accurately, i.e., the Prover actually did the claimed development or deployment. Equivalently,[^note-baker-30] verify that declared AI models and outputs are generated as declared. More specifically, a Verifier could need to verify the accuracy of declared (1.A.1) AI training, (1.A.2) AI inference, or (1.A.3) non-AI uses of AI compute.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167902087}@@–
         
-        Subgoal 1.B: Assuming that the declared uses are accurate (as is verified per Subgoal 1.A), verify they have the required properties. For example, the Verifier might evaluate an AI model’s capabilities, or assess what kinds of data the model was run on, to check for compliance. The substance of these tests would depend on what rules are being verified ([Section 2.1](https://arxiv.org/html/2507.15916v2#Sx3.SSx1 "2.1 Rules on AI Models, Data, and Code ‣ 2. Verification Scope and Research Methodology ‣ Verifying International Agreements on AI")), though as we will discuss, the infrastructure for running tests could be rule-agnostic.
+        --}Subgoal 1.B: Assuming that the declared uses are accurate (as is verified per Subgoal 1.A), verify they have the required properties. For example, the Verifier might evaluate an AI model’s capabilities, or assess what kinds of data the model was run on, to check for compliance. The substance of these tests would depend on what rules are being verified ([Section 2.1](https://arxiv.org/html/2507.15916v2#Sx3.SSx1 "2.1 Rules on AI Models, Data, and Code ‣ 2. Verification Scope and Research Methodology ‣ Verifying International Agreements on AI")), though as we will discuss, the infrastructure for running tests could be rule-agnostic.
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167902087}@@•
     
-    Subgoal 2: verifying that there are no undeclared uses of large-scale AI compute, also faces two problems: a Prover might try to make undeclared, large-scale uses of declared AI compute clusters, or of undeclared AI compute clusters. The Verifier can guard against both of these problems:
+    --}Subgoal 2: verifying that there are no undeclared uses of large-scale AI compute, also faces two problems: a Prover might try to make undeclared, large-scale uses of declared AI compute clusters, or of undeclared AI compute clusters. The Verifier can guard against both of these problems:
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167902087}@@–
         
-        Subgoal 2.A: Verify that there are no undeclared, large-scale uses of declared AI compute clusters. In other words, ensure AI compute use is accounted for, among declared AI compute clusters.
+        --}Subgoal 2.A: Verify that there are no undeclared, large-scale uses of declared AI compute clusters. In other words, ensure AI compute use is accounted for, among declared AI compute clusters.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167902087}@@–
         
-        Subgoal 2.B: Verify that there are no undeclared, large-scale AI compute clusters that could be used for violations. (Recall that we include large-scale, decentralized AI compute here ([Section 2.2](https://arxiv.org/html/2507.15916v2#Sx3.SSx2 "2.2 Rules on Large-Scale AI Compute ‣ 2. Verification Scope and Research Methodology ‣ Verifying International Agreements on AI")).) This subgoal can be further broken down into verifying there are no such AI compute clusters (2.B.1) as parts of known AI data centers, nor (2.B.2) as standalone clusters.[^note-baker-31]
+        --}Subgoal 2.B: Verify that there are no undeclared, large-scale AI compute clusters that could be used for violations. (Recall that we include large-scale, decentralized AI compute here ([Section 2.2](https://arxiv.org/html/2507.15916v2#Sx3.SSx2 "2.2 Rules on Large-Scale AI Compute ‣ 2. Verification Scope and Research Methodology ‣ Verifying International Agreements on AI")).) This subgoal can be further broken down into verifying there are no such AI compute clusters (2.B.1) as parts of known AI data centers, nor (2.B.2) as standalone clusters.[^note-baker-31]
         
     
 
@@ -360,13 +360,13 @@ Having clarified our verification scope ([Section 2](https://arxiv.org/html/2507
 
 Defining verification mechanisms and layers. We define terms as follows:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167902464}@@•
     
-    A verification _mechanism_ is a method or technology that helps complete at least one of the subgoals in our verification framework ([Section 3.2](https://arxiv.org/html/2507.15916v2#Sx4.SSx2 "3.2 The Framework ‣ 3. Verification Framework ‣ Verifying International Agreements on AI")).[^note-baker-33] An example verification mechanism is inspecting AI chips to verify that they have not been sent to undeclared AI data centers; this helps complete Subgoal 2.B.
+    --}A verification _mechanism_ is a method or technology that helps complete at least one of the subgoals in our verification framework ([Section 3.2](https://arxiv.org/html/2507.15916v2#Sx4.SSx2 "3.2 The Framework ‣ 3. Verification Framework ‣ Verifying International Agreements on AI")).[^note-baker-33] An example verification mechanism is inspecting AI chips to verify that they have not been sent to undeclared AI data centers; this helps complete Subgoal 2.B.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167902464}@@•
     
-    A verification _layer_ is a collection of similar verification mechanisms, with one mechanism for each verification subgoal. An example is a comprehensive set of “on-chip” verification mechanisms, as described below. In other words, a verification layer is a set of similar[^note-baker-34] mechanisms capable of end-to-end verification (i.e., completing all subgoals) without redundancy (i.e., without having multiple mechanisms for the same subgoal). As a result, three verification layers can be stacked together to achieve three layers of redundancy, for example.[^note-baker-35]
+    --}A verification _layer_ is a collection of similar verification mechanisms, with one mechanism for each verification subgoal. An example is a comprehensive set of “on-chip” verification mechanisms, as described below. In other words, a verification layer is a set of similar[^note-baker-34] mechanisms capable of end-to-end verification (i.e., completing all subgoals) without redundancy (i.e., without having multiple mechanisms for the same subgoal). As a result, three verification layers can be stacked together to achieve three layers of redundancy, for example.[^note-baker-35]
     
 
 ### 4.1 On-Chip Verification Layer
@@ -451,28 +451,28 @@ This section overviews, in broad terms, potential off-chip devices to collect or
 
 Devices for data collection: Devices could collect digital data or analog readings on AI workloads, offering redundancy and different tradeoffs (Table 7):
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167902861}@@•
     
-    _Off-chip input/output loggers_ (i.e., network taps): Devices that read and log (a random sample of) digital data, such as data exchanged between AI servers or potentially between individual AI accelerators ([Appendix A.3](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx3 "A.3 Network Taps & Analysis ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")).
+    --}_Off-chip input/output loggers_ (i.e., network taps): Devices that read and log (a random sample of) digital data, such as data exchanged between AI servers or potentially between individual AI accelerators ([Appendix A.3](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx3 "A.3 Network Taps & Analysis ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167902861}@@•
     
-    _Off-chip analog sensors:_ Devices that log analog measurements, such as power draw, temperature, and electromagnetic measurements ([Appendix A.6](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx6 "A.6 Compute Accounting via Analog Sensors ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")).
+    --}_Off-chip analog sensors:_ Devices that log analog measurements, such as power draw, temperature, and electromagnetic measurements ([Appendix A.6](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx6 "A.6 Compute Accounting via Analog Sensors ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")).
     
 
 Mitigating security challenges: Without strong precautions, network taps or analog sensors could be designed with hidden functionalities for espionage or sabotage. To demonstrably prevent this, states could take measures such as the following to secure these devices, though these would be challenging:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167902861}@@•
     
-    All parties could agree to use device designs that are: the same across parties, as simple as possible, mutually vetted, open-source, and perhaps jointly developed.
+    --}All parties could agree to use device designs that are: the same across parties, as simple as possible, mutually vetted, open-source, and perhaps jointly developed.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167902861}@@•
     
-    Provers could verify that these vetted devices are actually used with no additions, by physically scanning the devices (with more intensive tear-downs for a random sample) and overseeing the devices’ manufacturing and assembly ([Appendix A.1](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx1 "A.1 Full-stack Security for Technical Verification Mechanisms’ Implementation ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")).
+    --}Provers could verify that these vetted devices are actually used with no additions, by physically scanning the devices (with more intensive tear-downs for a random sample) and overseeing the devices’ manufacturing and assembly ([Appendix A.1](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx1 "A.1 Full-stack Security for Technical Verification Mechanisms’ Implementation ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167902861}@@•
     
-    Provers could physically limit these devices’ communication to agreed-on data quantities and data contents.[^note-baker-52]
+    --}Provers could physically limit these devices’ communication to agreed-on data quantities and data contents.[^note-baker-52]
     
 
 Conversely, for Verifiers to be confident in the devices’ integrity, they could rely on measures such as Verifier-trusted supply chains, mutual vetting (similar to Provers’ vetting), tamper-evident enclosures (a random sample of which would be routinely inspected[^note-baker-53]), and ideally tamper-proofing.
@@ -531,13 +531,13 @@ We outline three distinct mechanisms for personnel-based verification. All are w
 
 Whistleblower programs: Formal, cooperative whistleblower programs could enable and encourage employees to narrowly blow the whistle on violations ([Appendix A.8](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx8 "A.8 Whistleblower Programs ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")):[^note-baker-63]
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167903302}@@•
     
-    To enable whistleblowing, employees could be allowed to confidentially view some of their employer’s claims. They could also be given regular in-person contact with Verifiers, to counter whistleblower suppression, with measures to minimize inappropriate leaks.
+    --}To enable whistleblowing, employees could be allowed to confidentially view some of their employer’s claims. They could also be given regular in-person contact with Verifiers, to counter whistleblower suppression, with measures to minimize inappropriate leaks.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167903302}@@•
     
-    To encourage whistleblowing, formal programs could, e.g., enable anonymous reports, offer financial rewards, or build pro-whistleblower norms.
+    --}To encourage whistleblowing, formal programs could, e.g., enable anonymous reports, offer financial rewards, or build pro-whistleblower norms.
     
 
 Interviews of personnel: Employees could reveal violations unintentionally in interviews with Verifiers. This is in contrast with whistleblowers, who intentionally reveal violations. Interviewees could collude to lie, but they may struggle to do so convincingly. Another concern with interviews could be that they might reveal sensitive information; this could be mitigated by limiting interviews to questions within a narrow, agreed-on scope, similar to the questions asked to whistleblowers ([Appendix A.8](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx8 "A.8 Whistleblower Programs ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")).
@@ -572,57 +572,57 @@ We identified 15 verification mechanisms ([Figure 6](https://arxiv.org/html/2507
 
 The supplemental verification mechanisms we identified are:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167903810}@@•
     
-    Supplementary constraints: Heuristic tests could supplement partial workload re-execution with constraints ([Appendix A.4](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx4 "A.4 Partial Workload Re-Execution With Constraints ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")).
+    --}Supplementary constraints: Heuristic tests could supplement partial workload re-execution with constraints ([Appendix A.4](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx4 "A.4 Partial Workload Re-Execution With Constraints ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167903810}@@•
     
-    Data & code validation: One could test whether declared data and code have been maliciously engineered to circumvent verification ([Appendix A.5](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx5 "A.5 Data and Code Validation ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")). This could supplement protocols that are intended to be robust to malicious data and code.
+    --}Data & code validation: One could test whether declared data and code have been maliciously engineered to circumvent verification ([Appendix A.5](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx5 "A.5 Data and Code Validation ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")). This could supplement protocols that are intended to be robust to malicious data and code.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167903810}@@•
     
-    Financial audits: One could check documentation to see whether organizational cash flows add up. Documents could be forged, but that would be more difficult in the presence of personnel-based mechanisms like whistleblower programs.
+    --}Financial audits: One could check documentation to see whether organizational cash flows add up. Documents could be forged, but that would be more difficult in the presence of personnel-based mechanisms like whistleblower programs.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167903810}@@•
     
-    Sanity checks: One could check whether claimed organizational activities are plausibly consistent given an organization’s objectives and incentives. For example, a major AI company claiming to spend $1 billion of compute on weather simulations could be suspicious.
+    --}Sanity checks: One could check whether claimed organizational activities are plausibly consistent given an organization’s objectives and incentives. For example, a major AI company claiming to spend $1 billion of compute on weather simulations could be suspicious.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167903810}@@•
     
-    Workload classification: High-level workload measurements such as power draw may allow for workload classification: distinguishing whether a workload is AI development or deployment (Heim et al., [2024](https://arxiv.org/html/2507.15916v2#bib.bib90)).[^note-baker-70] Workload classification could play a valuable role ([Appendix B.2](https://arxiv.org/html/2507.15916v2#Ax1.SSx2.SSSx2 "B.2 Verification of Narrower Rules ‣ B. Broader Regime Design ‣ Appendices ‣ Verifying International Agreements on AI"); [Appendix A.7](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx7 "A.7 Verifying Non-AI Workloads in AI Data Centers ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")) (Scher and Thiergart, [2024](https://arxiv.org/html/2507.15916v2#bib.bib179)). At the same time, the information it gives is too coarse-grained to complete any of our verification subgoals in full; more fine-grained methods ([Appendix A.6](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx6 "A.6 Compute Accounting via Analog Sensors ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")) are needed to verify compliance with rules that prohibit specific types of development or specific types of deployment.
+    --}Workload classification: High-level workload measurements such as power draw may allow for workload classification: distinguishing whether a workload is AI development or deployment (Heim et al., [2024](https://arxiv.org/html/2507.15916v2#bib.bib90)).[^note-baker-70] Workload classification could play a valuable role ([Appendix B.2](https://arxiv.org/html/2507.15916v2#Ax1.SSx2.SSSx2 "B.2 Verification of Narrower Rules ‣ B. Broader Regime Design ‣ Appendices ‣ Verifying International Agreements on AI"); [Appendix A.7](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx7 "A.7 Verifying Non-AI Workloads in AI Data Centers ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")) (Scher and Thiergart, [2024](https://arxiv.org/html/2507.15916v2#bib.bib179)). At the same time, the information it gives is too coarse-grained to complete any of our verification subgoals in full; more fine-grained methods ([Appendix A.6](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx6 "A.6 Compute Accounting via Analog Sensors ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")) are needed to verify compliance with rules that prohibit specific types of development or specific types of deployment.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167903810}@@•
     
-    Analytic output verification: For some compute uses, most prominently cryptocurrency mining, outputs’ authenticity can be verified quickly and with near-certainty by examining the outputs instead of needing to reproduce them.
+    --}Analytic output verification: For some compute uses, most prominently cryptocurrency mining, outputs’ authenticity can be verified quickly and with near-certainty by examining the outputs instead of needing to reproduce them.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167903810}@@•
     
-    Weaker, heuristic evaluations: More uncertain evaluations could supplement higher-confidence ones.
+    --}Weaker, heuristic evaluations: More uncertain evaluations could supplement higher-confidence ones.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167903810}@@•
     
-    Inspections for undeclared AI clusters: Inspections could help identify hidden AI compute clusters. To enable inspections, suspect sites could first be identified by other mechanisms in this list, e.g., open-source information and satellite images. However, these methods would struggle to find data centers that are underwater (Gooding, [2025](https://arxiv.org/html/2507.15916v2#bib.bib77)) or otherwise hidden and have strong operational security. They are also challenged by the growing success of decentralized AI development—AI training that is spread out over many smaller compute clusters. In contrast, the other verification mechanisms we highlight in prior sections, such as whistleblower programs and chain-of-custody verification, could be effective even if AI development were split over relatively small compute clusters.[^note-baker-71]
+    --}Inspections for undeclared AI clusters: Inspections could help identify hidden AI compute clusters. To enable inspections, suspect sites could first be identified by other mechanisms in this list, e.g., open-source information and satellite images. However, these methods would struggle to find data centers that are underwater (Gooding, [2025](https://arxiv.org/html/2507.15916v2#bib.bib77)) or otherwise hidden and have strong operational security. They are also challenged by the growing success of decentralized AI development—AI training that is spread out over many smaller compute clusters. In contrast, the other verification mechanisms we highlight in prior sections, such as whistleblower programs and chain-of-custody verification, could be effective even if AI development were split over relatively small compute clusters.[^note-baker-71]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167903810}@@•
     
-    Information from data center suppliers: Data center suppliers’ public statements and privately disclosed documentation could help reveal hidden AI data centers. Data centers have many specialized components, not just AI chips (Pilz and Heim, [2023](https://arxiv.org/html/2507.15916v2#bib.bib165)).
+    --}Information from data center suppliers: Data center suppliers’ public statements and privately disclosed documentation could help reveal hidden AI data centers. Data centers have many specialized components, not just AI chips (Pilz and Heim, [2023](https://arxiv.org/html/2507.15916v2#bib.bib165)).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167903810}@@•
     
-    Cameras at AI data centers: Security cameras could help ensure that AI chips are not tampered with or diverted, and that any other verification equipment is also not tampered with. These cameras, like those of the International Atomic Energy Agency (Fournier, [2016](https://arxiv.org/html/2507.15916v2#bib.bib68); Rosenthal et al., [2019](https://arxiv.org/html/2507.15916v2#bib.bib177)), could be tamper-evident and checked on-site. Security cameras are already standard in data centers (DatacenterDynamics, [2024](https://arxiv.org/html/2507.15916v2#bib.bib47); Gluck and Mazzoli, [2024](https://arxiv.org/html/2507.15916v2#bib.bib74))
+    --}Cameras at AI data centers: Security cameras could help ensure that AI chips are not tampered with or diverted, and that any other verification equipment is also not tampered with. These cameras, like those of the International Atomic Energy Agency (Fournier, [2016](https://arxiv.org/html/2507.15916v2#bib.bib68); Rosenthal et al., [2019](https://arxiv.org/html/2507.15916v2#bib.bib177)), could be tamper-evident and checked on-site. Security cameras are already standard in data centers (DatacenterDynamics, [2024](https://arxiv.org/html/2507.15916v2#bib.bib47); Gluck and Mazzoli, [2024](https://arxiv.org/html/2507.15916v2#bib.bib74))
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167903810}@@•
     
-    Design information verification: Design information verification is a practice of the International Atomic Energy Agency (Rosenthal et al., [2019](https://arxiv.org/html/2507.15916v2#bib.bib177)). It consists of verifying information about a facility’s design, including through on-site inspections during construction, to ensure the facility does not have hidden rooms or piping. Applied to AI, analogous checks could help ensure that AI data centers are not built with hidden rooms that could store undeclared AI compute clusters.
+    --}Design information verification: Design information verification is a practice of the International Atomic Energy Agency (Rosenthal et al., [2019](https://arxiv.org/html/2507.15916v2#bib.bib177)). It consists of verifying information about a facility’s design, including through on-site inspections during construction, to ensure the facility does not have hidden rooms or piping. Applied to AI, analogous checks could help ensure that AI data centers are not built with hidden rooms that could store undeclared AI compute clusters.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167903810}@@•
     
-    Satellite or aerial images: Satellite or aerial images, including infrared images, could help identify hidden AI data centers, especially in combination with inspections of suspect sites (“Inspections for undeclared AI clusters” above).
+    --}Satellite or aerial images: Satellite or aerial images, including infrared images, could help identify hidden AI data centers, especially in combination with inspections of suspect sites (“Inspections for undeclared AI clusters” above).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167903810}@@•
     
-    Open-source intelligence (OSINT): Open-source information, such as social media posts and news reports, could reveal information such as hidden data center constructions, especially in combination with inspections of suspect sites (“Inspections for undeclared AI clusters” above). Open-source information could also find signs of non-compliant AI deployment, e.g., through its economic, scientific, or military impacts. However, these impacts might not be evident before the deployment causes harm or yields an unfair advantage.[^note-baker-72]
+    --}Open-source intelligence (OSINT): Open-source information, such as social media posts and news reports, could reveal information such as hidden data center constructions, especially in combination with inspections of suspect sites (“Inspections for undeclared AI clusters” above). Open-source information could also find signs of non-compliant AI deployment, e.g., through its economic, scientific, or military impacts. However, these impacts might not be evident before the deployment causes harm or yields an unfair advantage.[^note-baker-72]
     
 
 ### 4.5 Implementation Options Across Mechanisms
@@ -631,17 +631,17 @@ Across different verification mechanisms, some common implementation questions a
 
 Technical tests—hard-coded tests, human auditors, or AI auditors? On-chip and off-chip verification layers rely on technical tests to check Provers’ claims. These tests could involve:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167904340}@@•
     
-    _Hard-coded tests_: software with all analysis specified precisely in advance. Such software can require a challenging degree of foresight and generality, though constraints on the Prover’s formatting could help. This report’s [Appendices](https://arxiv.org/html/2507.15916v2#Ax1 "Appendices ‣ Verifying International Agreements on AI") explore implementation in the context of hard-coded tests, conservatively assuming that human auditors and AI auditors may be unavailable. Still, protocols designed to be hard-coded tests could also be run by human or AI auditors.
+    --}_Hard-coded tests_: software with all analysis specified precisely in advance. Such software can require a challenging degree of foresight and generality, though constraints on the Prover’s formatting could help. This report’s [Appendices](https://arxiv.org/html/2507.15916v2#Ax1 "Appendices ‣ Verifying International Agreements on AI") explore implementation in the context of hard-coded tests, conservatively assuming that human auditors and AI auditors may be unavailable. Still, protocols designed to be hard-coded tests could also be run by human or AI auditors.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167904340}@@•
     
-    _Human auditors_: human inspectors who do iterative testing, designing new tests based on intermediate findings.[^note-baker-73] The transmission of intermediate results would undermine confidentiality-preservation, but this downside could be limited by the intermediate results being low-bandwidth (Greenblatt, [2024](https://arxiv.org/html/2507.15916v2#bib.bib82)), perhaps up to physically isolating the voluntary human auditors (Harack et al., [2025](https://arxiv.org/html/2507.15916v2#bib.bib83)).
+    --}_Human auditors_: human inspectors who do iterative testing, designing new tests based on intermediate findings.[^note-baker-73] The transmission of intermediate results would undermine confidentiality-preservation, but this downside could be limited by the intermediate results being low-bandwidth (Greenblatt, [2024](https://arxiv.org/html/2507.15916v2#bib.bib82)), perhaps up to physically isolating the voluntary human auditors (Harack et al., [2025](https://arxiv.org/html/2507.15916v2#bib.bib83)).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167904340}@@•
     
-    _AI auditors:_ AI agents that do iterative testing, designing new tests based on intermediate findings. This may become feasible, as AI systems have been rapidly improving in their ability to complete complex, long-term software engineering and research tasks (Bengio et al., [2025a](https://arxiv.org/html/2507.15916v2#bib.bib16); Kwa et al., [2025](https://arxiv.org/html/2507.15916v2#bib.bib123)). AI agents are dynamic, unlike hard-coded tests, and unlike humans, their memory can be wiped of confidential information. However, it is unclear when AI agents will have the needed capabilities and reliability, and deployment poses logistical and cybersecurity challenges.
+    --}_AI auditors:_ AI agents that do iterative testing, designing new tests based on intermediate findings. This may become feasible, as AI systems have been rapidly improving in their ability to complete complex, long-term software engineering and research tasks (Bengio et al., [2025a](https://arxiv.org/html/2507.15916v2#bib.bib16); Kwa et al., [2025](https://arxiv.org/html/2507.15916v2#bib.bib123)). AI agents are dynamic, unlike hard-coded tests, and unlike humans, their memory can be wiped of confidential information. However, it is unclear when AI agents will have the needed capabilities and reliability, and deployment poses logistical and cybersecurity challenges.
     
 
 Security—through transparency or through obscurity? The technical details of verification mechanisms could be disclosed openly so they can be stress-tested and mutually trusted. However, this openness could help Provers find ways to spoof the verification mechanisms, especially if there is not enough time to make them airtight. Perhaps the ideal approach is for some details to be publicly vetted while others are kept confidential, so that both known and unknown mechanisms can deter violations.
