@@ -1012,71 +1012,71 @@ Our draft agreement allows chip use and production to continue so that the world
 
 ### ARTICLE VIII — Restricted Research: AI Algorithms and Hardware
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790162726957}@@1.
     
-    For the purpose of preventing the development of artificial superintelligence, this Agreement restricts only research that would materially advance toward ASI or undermine verification of compliance with this Agreement. This includes research in the field of machine learning and research in other artificial intelligence paradigms. Research focused on specific applications (such as medical diagnosis, scientific discovery, or industrial automation) that does not advance general cognitive capabilities toward ASI levels is not restricted. Restricted research includes:
+    --}For the purpose of preventing the development of artificial superintelligence, this Agreement restricts only research that would materially advance toward ASI or undermine verification of compliance with this Agreement. This includes research in the field of machine learning and research in other artificial intelligence paradigms. Research focused on specific applications (such as medical diagnosis, scientific discovery, or industrial automation) that does not advance general cognitive capabilities toward ASI levels is not restricted. Restricted research includes:
     
-    1.  (a)
+    {--{"author":"James's AI","timestamp":1790162726957}@@1.  --}{++{"author":"James's AI","timestamp":1790162726957}@@-   ++}(a){--{"author":"James's AI","timestamp":1790162726957}@@
         
-        Improvements to methods for training general-purpose AI systems that would significantly increase model capabilities toward superintelligent performance or dramatically reduce the computational resources required to develop such systems
+        --}{++{"author":"James's AI","timestamp":1790162726957}@@ ++}Improvements to methods for training general-purpose AI systems that would significantly increase model capabilities toward superintelligent performance or dramatically reduce the computational resources required to develop such systems
         
-    2.  (b)
+    {--{"author":"James's AI","timestamp":1790162726957}@@2.  --}{++{"author":"James's AI","timestamp":1790162726957}@@-   ++}(b){--{"author":"James's AI","timestamp":1790162726957}@@
         
-        Distributed or decentralized training methods that would enable ASI development outside of monitored facilities, or training methods specifically optimized to evade the computational thresholds in Article IV
+        --}{++{"author":"James's AI","timestamp":1790162726957}@@ ++}Distributed or decentralized training methods that would enable ASI development outside of monitored facilities, or training methods specifically optimized to evade the computational thresholds in Article IV
         
-    3.  (c)
+    {--{"author":"James's AI","timestamp":1790162726957}@@3.  --}{++{"author":"James's AI","timestamp":1790162726957}@@-   ++}(c){--{"author":"James's AI","timestamp":1790162726957}@@
         
-        Advancements in the fabrication of AI-relevant chips or chip components
+        --}{++{"author":"James's AI","timestamp":1790162726957}@@ ++}Advancements in the fabrication of AI-relevant chips or chip components
         
-    4.  (d)
+    {--{"author":"James's AI","timestamp":1790162726957}@@4.  --}{++{"author":"James's AI","timestamp":1790162726957}@@-   ++}(d){--{"author":"James's AI","timestamp":1790162726957}@@
         
-        Design of more performant or more efficient AI chips
-        
-    
-2.  2.
-    
-    Application-specific AI research and development that does not advance general cognitive capabilities is permitted and encouraged. This includes research in domains such as medical diagnostics, drug discovery, materials science, climate modeling, robotics for specific tasks, and other specialized applications.
-    
-3.  3.
-    
-    The CTB’s Research Controls division classifies all restricted research activities as either controlled or prohibited.
-    
-    1.  (a)
-        
-        Each Party monitors any controlled research activities within its jurisdiction, and takes measures to ensure that all controlled research is monitored and made available to the Research Controls division for review and monitoring purposes.
-        
-    2.  (b)
-        
-        Each Party does not conduct any prohibited research, and prohibits and prevents prohibited research by any entity within its jurisdiction.
+        --}{++{"author":"James's AI","timestamp":1790162726957}@@ ++}Design of more performant or more efficient AI chips
         
     
-4.  4.
+2.  {--{"author":"James's AI","timestamp":1790162726957}@@2.
     
-    Parties to the Agreement must not assist, encourage, or share prohibited research, including by funding, procuring, hosting, supervising, teaching, publishing, providing controlled tools or chips, or facilitating collaboration.
+    --}Application-specific AI research and development that does not advance general cognitive capabilities is permitted and encouraged. This includes research in domains such as medical diagnostics, drug discovery, materials science, climate modeling, robotics for specific tasks, and other specialized applications.
     
-5.  5.
+3.  {--{"author":"James's AI","timestamp":1790162726957}@@3.
     
-    Each Party provides a representative to the CTB’s Research Controls division (established in Article III). This division has these responsibilities:
+    --}The CTB’s Research Controls division classifies all restricted research activities as either controlled or prohibited.
     
-    1.  (a)
+    {--{"author":"James's AI","timestamp":1790162726957}@@1.  --}{++{"author":"James's AI","timestamp":1790162726957}@@-   ++}(a){--{"author":"James's AI","timestamp":1790162726957}@@
         
-        Interpret and clarify the categories of restricted research, and respond to questions as to the boundaries of restricted research, in response to new information, and in response to requests from researchers or organizations, or Party members.
+        --}{++{"author":"James's AI","timestamp":1790162726957}@@ ++}Each Party monitors any controlled research activities within its jurisdiction, and takes measures to ensure that all controlled research is monitored and made available to the Research Controls division for review and monitoring purposes.
         
-    2.  (b)
+    {--{"author":"James's AI","timestamp":1790162726957}@@2.  --}{++{"author":"James's AI","timestamp":1790162726957}@@-   ++}(b){--{"author":"James's AI","timestamp":1790162726957}@@
         
-        Interpret and clarify the boundary between controlled research and prohibited research, and respond to questions as to this boundary, in response to new information, and in response to requests from researchers or organizations or Party members.
+        --}{++{"author":"James's AI","timestamp":1790162726957}@@ ++}Each Party does not conduct any prohibited research, and prohibits and prevents prohibited research by any entity within its jurisdiction.
         
-    3.  (c)
+    
+4.  {--{"author":"James's AI","timestamp":1790162726957}@@4.
+    
+    --}Parties to the Agreement must not assist, encourage, or share prohibited research, including by funding, procuring, hosting, supervising, teaching, publishing, providing controlled tools or chips, or facilitating collaboration.
+    
+5.  {--{"author":"James's AI","timestamp":1790162726957}@@5.
+    
+    --}Each Party provides a representative to the CTB’s Research Controls division (established in Article III). This division has these responsibilities:
+    
+    {--{"author":"James's AI","timestamp":1790162726957}@@1.  --}{++{"author":"James's AI","timestamp":1790162726957}@@-   ++}(a){--{"author":"James's AI","timestamp":1790162726957}@@
         
-        Modify the definition of restricted research and its categories, in response to changing conditions, or in response to requests from researchers or organizations or Party members.
+        --}{++{"author":"James's AI","timestamp":1790162726957}@@ ++}Interpret and clarify the categories of restricted research, and respond to questions as to the boundaries of restricted research, in response to new information, and in response to requests from researchers or organizations, or Party members.
         
-    4.  (d)
+    {--{"author":"James's AI","timestamp":1790162726957}@@2.  --}{++{"author":"James's AI","timestamp":1790162726957}@@-   ++}(b){--{"author":"James's AI","timestamp":1790162726957}@@
         
-        Modify the boundary between controlled research and prohibited research in response to changing conditions, or in response to requests from researchers or organizations or Party members.
+        --}{++{"author":"James's AI","timestamp":1790162726957}@@ ++}Interpret and clarify the boundary between controlled research and prohibited research, and respond to questions as to this boundary, in response to new information, and in response to requests from researchers or organizations or Party members.
         
-    5.  (e)
+    {--{"author":"James's AI","timestamp":1790162726957}@@3.  --}{++{"author":"James's AI","timestamp":1790162726957}@@-   ++}(c){--{"author":"James's AI","timestamp":1790162726957}@@
         
-        The CTB may modify the categories, boundaries, and definitions of restricted research in accordance with the process described in Article III.
+        --}{++{"author":"James's AI","timestamp":1790162726957}@@ ++}Modify the definition of restricted research and its categories, in response to changing conditions, or in response to requests from researchers or organizations or Party members.
+        
+    {--{"author":"James's AI","timestamp":1790162726957}@@4.  --}{++{"author":"James's AI","timestamp":1790162726957}@@-   ++}(d){--{"author":"James's AI","timestamp":1790162726957}@@
+        
+        --}{++{"author":"James's AI","timestamp":1790162726957}@@ ++}Modify the boundary between controlled research and prohibited research in response to changing conditions, or in response to requests from researchers or organizations or Party members.
+        
+    {--{"author":"James's AI","timestamp":1790162726957}@@5.  --}{++{"author":"James's AI","timestamp":1790162726957}@@-   ++}(e){--{"author":"James's AI","timestamp":1790162726957}@@
+        
+        --}{++{"author":"James's AI","timestamp":1790162726957}@@ ++}The CTB may modify the categories, boundaries, and definitions of restricted research in accordance with the process described in Article III.
         
     
 
@@ -1092,17 +1092,17 @@ There is also precedent for containing and controlling research in dangerous fie
 
 Containment of restricted AI research within Party states might run through existing regulatory frameworks. In the U.S., these include:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790162726957}@@•
     
-    The “[deemed exports](https://www.bis.gov/learn-support/deemed-exports/what-deemed-export)” concept in export control law, which obliges a U.S. entity to obtain an export license from the Bureau of Industry and Security[^note-scher-14] before sharing controlled technologies with foreign persons by deeming such sharing as an export.
+    --}The “[deemed exports](https://www.bis.gov/learn-support/deemed-exports/what-deemed-export)” concept in export control law, which obliges a U.S. entity to obtain an export license from the Bureau of Industry and Security[^note-scher-14] before sharing controlled technologies with foreign persons by deeming such sharing as an export.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162726957}@@•
     
-    The [International Traffic in Arms Regulations](https://www.pmddtc.state.gov/ddtc_public?id=ddtc_kb_article_page&sys_id=24d528fddbfc930044f9ff621f961987) (ITAR), a set of U.S. State Department regulations that control the export of military and some dual-use technologies. ITAR was used to prevent the broader development and use of cryptographic techniques by the private sector until 1996, as these were classified as a “defense article” on the [United States Munitions List](https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M/part-121).
+    --}The [International Traffic in Arms Regulations](https://www.pmddtc.state.gov/ddtc_public?id=ddtc_kb_article_page&sys_id=24d528fddbfc930044f9ff621f961987) (ITAR), a set of U.S. State Department regulations that control the export of military and some dual-use technologies. ITAR was used to prevent the broader development and use of cryptographic techniques by the private sector until 1996, as these were classified as a “defense article” on the [United States Munitions List](https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M/part-121).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162726957}@@•
     
-    The [Invention Secrecy Act of 1951](https://www.congress.gov/bill/82nd-congress/house-bill/4687/text), which gives U.S. government agencies the power to impose “secrecy orders” on new patent applications with national security implications. Inventors can not only be denied patents, but legally prohibited from disclosing, publishing, or even using their inventions.[^cite-scher-15]
+    --}The [Invention Secrecy Act of 1951](https://www.congress.gov/bill/82nd-congress/house-bill/4687/text), which gives U.S. government agencies the power to impose “secrecy orders” on new patent applications with national security implications. Inventors can not only be denied patents, but legally prohibited from disclosing, publishing, or even using their inventions.[^cite-scher-15]
     
 
 Project Overcast also provides precedent for controlling researchers by simply paying them well to act in the interest of the state. Additional precedent for such incentives is discussed with Article IX.
@@ -1131,51 +1131,51 @@ The diversity of restricted actions in paragraph 4 addresses a need to ensure th
 
 ### ARTICLE IX — Research Restriction Verification
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790162727629}@@1.
     
-    Each Party creates or empowers a domestic agency with the following responsibilities:
+    --}Each Party creates or empowers a domestic agency with the following responsibilities:
     
-    1.  (a)
+    {--{"author":"James's AI","timestamp":1790162727629}@@1.  --}{++{"author":"James's AI","timestamp":1790162727629}@@-   ++}(a){--{"author":"James's AI","timestamp":1790162727629}@@
         
-        Maintain awareness of and relationships with domestic researchers and organizations working on areas adjacent to restricted research, in order to communicate the categories of restricted research established in Article VIII.
+        --}{++{"author":"James's AI","timestamp":1790162727629}@@ ++}Maintain awareness of and relationships with domestic researchers and organizations working on areas adjacent to restricted research, in order to communicate the categories of restricted research established in Article VIII.
         
-    2.  (b)
+    {--{"author":"James's AI","timestamp":1790162727629}@@2.  --}{++{"author":"James's AI","timestamp":1790162727629}@@-   ++}(b){--{"author":"James's AI","timestamp":1790162727629}@@
         
-        Impose penalties to deter domestic researchers and organizations from conducting restricted research. These penalties are proportionate to the severity of the violation and are designed to act as a sufficient deterrent. Each Party enacts or amends legal statutes as necessary to enable the imposition of these penalties.
+        --}{++{"author":"James's AI","timestamp":1790162727629}@@ ++}Impose penalties to deter domestic researchers and organizations from conducting restricted research. These penalties are proportionate to the severity of the violation and are designed to act as a sufficient deterrent. Each Party enacts or amends legal statutes as necessary to enable the imposition of these penalties.
         
-    3.  (c)
+    {--{"author":"James's AI","timestamp":1790162727629}@@3.  --}{++{"author":"James's AI","timestamp":1790162727629}@@-   ++}(c){--{"author":"James's AI","timestamp":1790162727629}@@
         
-        Establish secure infrastructure for reporting and containment of inadvertent discoveries meeting the conditions for restricted research. These reports will be shared with the Research Controls division.
+        --}{++{"author":"James's AI","timestamp":1790162727629}@@ ++}Establish secure infrastructure for reporting and containment of inadvertent discoveries meeting the conditions for restricted research. These reports will be shared with the Research Controls division.
         
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790162727629}@@2.
     
-    To aid in the international verification of research bans, the Research Controls division will develop and implement verification mechanisms.
+    --}To aid in the international verification of research bans, the Research Controls division will develop and implement verification mechanisms.
     
-    1.  (a)
+    {--{"author":"James's AI","timestamp":1790162727629}@@1.  --}{++{"author":"James's AI","timestamp":1790162727629}@@-   ++}(a){--{"author":"James's AI","timestamp":1790162727629}@@
         
-        These mechanisms could include but are not limited to:
+        --}{++{"author":"James's AI","timestamp":1790162727629}@@ ++}These mechanisms could include but are not limited to:
         
-        1.  i.
+        {--{"author":"James's AI","timestamp":1790162727629}@@1.  --}{++{"author":"James's AI","timestamp":1790162727629}@@-   ++}i.{--{"author":"James's AI","timestamp":1790162727629}@@
             
-            Interviews of researchers who have previously worked in restricted research topics, or are presently working in adjacent areas, conducted by the U.S. and China and coordinated by the Research Controls division. These interviews may be overseen by the researcher’s home state to ensure no misconduct.
+            --}{++{"author":"James's AI","timestamp":1790162727629}@@ ++}Interviews of researchers who have previously worked in restricted research topics, or are presently working in adjacent areas, conducted by the U.S. and China and coordinated by the Research Controls division. These interviews may be overseen by the researcher’s home state to ensure no misconduct.
             
-        2.  ii.
+        {--{"author":"James's AI","timestamp":1790162727629}@@2.  --}{++{"author":"James's AI","timestamp":1790162727629}@@-   ++}ii.{--{"author":"James's AI","timestamp":1790162727629}@@
             
-            Monitoring of the employment status of researchers who have previously worked in restricted research topics, or are presently working in adjacent areas.
+            --}{++{"author":"James's AI","timestamp":1790162727629}@@ ++}Monitoring of the employment status of researchers who have previously worked in restricted research topics, or are presently working in adjacent areas.
             
-        3.  iii.
+        {--{"author":"James's AI","timestamp":1790162727629}@@3.  --}{++{"author":"James's AI","timestamp":1790162727629}@@-   ++}iii.{--{"author":"James's AI","timestamp":1790162727629}@@
             
-            Maintaining embedded auditors provided by the U.S. and China in selected high-risk organizations (e.g., projects difficult to distinguish from restricted research, organizations that were previously AI research organizations).
+            --}{++{"author":"James's AI","timestamp":1790162727629}@@ ++}Maintaining embedded auditors provided by the U.S. and China in selected high-risk organizations (e.g., projects difficult to distinguish from restricted research, organizations that were previously AI research organizations).
             
         
-    2.  (b)
+    {--{"author":"James's AI","timestamp":1790162727629}@@2.  --}{++{"author":"James's AI","timestamp":1790162727629}@@-   ++}(b){--{"author":"James's AI","timestamp":1790162727629}@@
         
-        Parties, in particular, the U.S. and China, assist in the implementation of these verification mechanisms.
+        --}{++{"author":"James's AI","timestamp":1790162727629}@@ ++}Parties, in particular, the U.S. and China, assist in the implementation of these verification mechanisms.
         
-    3.  (c)
+    {--{"author":"James's AI","timestamp":1790162727629}@@3.  --}{++{"author":"James's AI","timestamp":1790162727629}@@-   ++}(c){--{"author":"James's AI","timestamp":1790162727629}@@
         
-        The information gained through these verification mechanisms will be compiled into reports for the Executive Council, keeping as much sensitive information confidential as possible to protect the privacy and secrets of individuals and Parties.
+        --}{++{"author":"James's AI","timestamp":1790162727629}@@ ++}The information gained through these verification mechanisms will be compiled into reports for the Executive Council, keeping as much sensitive information confidential as possible to protect the privacy and secrets of individuals and Parties.
         
     
 
@@ -1205,93 +1205,93 @@ Parties may be concerned that other parties will violate domestic research bans 
 
 ### ARTICLE X — Information Consolidation and Challenge Inspections
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790162728298}@@1.
     
-    A key source of information for the coalition is the independent information gathering efforts of Parties. As such, the Information Consolidation division (Article III) will be ready to receive this information. This division coordinates verification and monitoring activities conducted by Parties. Parties conduct monitoring, inspections, and verification using their own capabilities, including intelligence community resources. The CTB establishes standards and protocols for these activities and serves as the central point for receiving declarations and sharing information.
+    --}A key source of information for the coalition is the independent information gathering efforts of Parties. As such, the Information Consolidation division (Article III) will be ready to receive this information. This division coordinates verification and monitoring activities conducted by Parties. Parties conduct monitoring, inspections, and verification using their own capabilities, including intelligence community resources. The CTB establishes standards and protocols for these activities and serves as the central point for receiving declarations and sharing information.
     
-    1.  (a)
+    {--{"author":"James's AI","timestamp":1790162728298}@@1.  --}{++{"author":"James's AI","timestamp":1790162728298}@@-   ++}(a){--{"author":"James's AI","timestamp":1790162728298}@@
         
-        The Information Consolidation division takes precautions to protect commercial, industrial, security, and state secrets and other confidential information coming to its knowledge in the implementation of the Agreement, including the maintenance of secure, confidential, and, optionally anonymous reporting channels.
+        --}{++{"author":"James's AI","timestamp":1790162728298}@@ ++}The Information Consolidation division takes precautions to protect commercial, industrial, security, and state secrets and other confidential information coming to its knowledge in the implementation of the Agreement, including the maintenance of secure, confidential, and, optionally anonymous reporting channels.
         
-    2.  (b)
+    {--{"author":"James's AI","timestamp":1790162728298}@@2.  --}{++{"author":"James's AI","timestamp":1790162728298}@@-   ++}(b){--{"author":"James's AI","timestamp":1790162728298}@@
         
-        For the purpose of providing assurance of compliance with the provisions of this Agreement, each Party uses National Technical Means (NTM) of verification at its disposal in a manner consistent with generally recognized principles of international law.
+        --}{++{"author":"James's AI","timestamp":1790162728298}@@ ++}For the purpose of providing assurance of compliance with the provisions of this Agreement, each Party uses National Technical Means (NTM) of verification at its disposal in a manner consistent with generally recognized principles of international law.
         
-        1.  i.
+        {--{"author":"James's AI","timestamp":1790162728298}@@1.  --}{++{"author":"James's AI","timestamp":1790162728298}@@-   ++}i.{--{"author":"James's AI","timestamp":1790162728298}@@
             
-            Each Party undertakes not to interfere with the National Technical Means of verification of other Parties operating in accordance with the above.
+            --}{++{"author":"James's AI","timestamp":1790162728298}@@ ++}Each Party undertakes not to interfere with the National Technical Means of verification of other Parties operating in accordance with the above.
             
-        2.  ii.
+        {--{"author":"James's AI","timestamp":1790162728298}@@2.  --}{++{"author":"James's AI","timestamp":1790162728298}@@-   ++}ii.{--{"author":"James's AI","timestamp":1790162728298}@@
             
-            Each Party undertakes not to use deliberate concealment measures which impede verification by national technical means of compliance with the provisions of this Agreement.
+            --}{++{"author":"James's AI","timestamp":1790162728298}@@ ++}Each Party undertakes not to use deliberate concealment measures which impede verification by national technical means of compliance with the provisions of this Agreement.
             
-        3.  iii.
+        {--{"author":"James's AI","timestamp":1790162728298}@@3.  --}{++{"author":"James's AI","timestamp":1790162728298}@@-   ++}iii.{--{"author":"James's AI","timestamp":1790162728298}@@
             
-            Parties are encouraged, but not obligated, to cooperate in the effort to detect dangerous AI activities in non-Party countries. Parties are encouraged, but not obligated, to support the NTM of Parties directed at non-Parties, as relevant to this Agreement.
+            --}{++{"author":"James's AI","timestamp":1790162728298}@@ ++}Parties are encouraged, but not obligated, to cooperate in the effort to detect dangerous AI activities in non-Party countries. Parties are encouraged, but not obligated, to support the NTM of Parties directed at non-Parties, as relevant to this Agreement.
             
         
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790162728298}@@2.
     
-    A key source of information for the coalition is individuals who provide evidence of dangerous AI activities to the coalition. These individuals are subject to whistleblower protections.
+    --}A key source of information for the coalition is individuals who provide evidence of dangerous AI activities to the coalition. These individuals are subject to whistleblower protections.
     
-    1.  (a)
+    {--{"author":"James's AI","timestamp":1790162728298}@@1.  --}{++{"author":"James's AI","timestamp":1790162728298}@@-   ++}(a){--{"author":"James's AI","timestamp":1790162728298}@@
         
-        This Article establishes protections, incentives, and assistance for individuals ("Covered Whistleblowers") who, in good faith, provide the coalition or a Party with credible information concerning actual, attempted, or planned violations of this Agreement or other activities that pose a serious risk of human extinction, including concealed chips, undeclared data centers, prohibited training or research, evasion of verification, or falsification of declarations. Covered Whistleblowers include employees, contractors, public officials, suppliers, researchers, and other persons with material information, as well as Associated Persons (family members and close associates) who assist or are at risk due to the disclosure.
+        --}{++{"author":"James's AI","timestamp":1790162728298}@@ ++}This Article establishes protections, incentives, and assistance for individuals ("Covered Whistleblowers") who, in good faith, provide the coalition or a Party with credible information concerning actual, attempted, or planned violations of this Agreement or other activities that pose a serious risk of human extinction, including concealed chips, undeclared data centers, prohibited training or research, evasion of verification, or falsification of declarations. Covered Whistleblowers include employees, contractors, public officials, suppliers, researchers, and other persons with material information, as well as Associated Persons (family members and close associates) who assist or are at risk due to the disclosure.
         
-    2.  (b)
+    {--{"author":"James's AI","timestamp":1790162728298}@@2.  --}{++{"author":"James's AI","timestamp":1790162728298}@@-   ++}(b){--{"author":"James's AI","timestamp":1790162728298}@@
         
-        Parties prohibit and prevent retaliation against Covered Whistleblowers and Associated Persons, including but not limited to dismissal, demotion, blacklisting, loss of benefits, harassment, intimidation, threats, civil or criminal actions, visa cancellation, physical violence, imprisonment, restriction of movement, or other adverse measures. Any contractual terms (including non‑disclosure or non‑disparagement agreements) purporting to limit protected disclosures under this Agreement are void and unenforceable. Mistreatment of whistleblowers constitutes a violation of this Agreement and is handled under Article XI, paragraph 3.
+        --}{++{"author":"James's AI","timestamp":1790162728298}@@ ++}Parties prohibit and prevent retaliation against Covered Whistleblowers and Associated Persons, including but not limited to dismissal, demotion, blacklisting, loss of benefits, harassment, intimidation, threats, civil or criminal actions, visa cancellation, physical violence, imprisonment, restriction of movement, or other adverse measures. Any contractual terms (including non‑disclosure or non‑disparagement agreements) purporting to limit protected disclosures under this Agreement are void and unenforceable. Mistreatment of whistleblowers constitutes a violation of this Agreement and is handled under Article XI, paragraph 3.
         
-    3.  (c)
+    {--{"author":"James's AI","timestamp":1790162728298}@@3.  --}{++{"author":"James's AI","timestamp":1790162728298}@@-   ++}(c){--{"author":"James's AI","timestamp":1790162728298}@@
         
-        The CTB maintains secure, confidential, and, optionally anonymous reporting channels. Parties establish domestic channels interoperable with the CTB system. The CTB and Parties protect the identity of Covered Whistleblowers and Associated Persons and disclose it only when strictly necessary and with protective measures in place. Unauthorized disclosure of protected identities constitutes a violation of this Agreement and is handled under Article XI, paragraph 3.
+        --}{++{"author":"James's AI","timestamp":1790162728298}@@ ++}The CTB maintains secure, confidential, and, optionally anonymous reporting channels. Parties establish domestic channels interoperable with the CTB system. The CTB and Parties protect the identity of Covered Whistleblowers and Associated Persons and disclose it only when strictly necessary and with protective measures in place. Unauthorized disclosure of protected identities constitutes a violation of this Agreement and is handled under Article XI, paragraph 3.
         
-    4.  (d)
+    {--{"author":"James's AI","timestamp":1790162728298}@@4.  --}{++{"author":"James's AI","timestamp":1790162728298}@@-   ++}(d){--{"author":"James's AI","timestamp":1790162728298}@@
         
-        Parties offer asylum or humanitarian protection to Covered Whistleblowers and their families, provide safe‑conduct travel documents, and coordinate secure transit.
-        
-    
-3.  3.
-    
-    Challenge inspections of suspected sites may be conducted upon credible information about dangerous AI activities.
-    
-    1.  (a)
-        
-        Parties may request a challenge inspection. The Executive Council, either by request or because of the analysis provided by the Information Consolidation division, will consider the information at hand in order to request additional information, of Parties or non-Parties, or to propose a challenge inspection, or to decide that no further action is warranted.
-        
-    2.  (b)
-        
-        A challenge inspection requires approval by consensus of the Executive Council.
-        
-    3.  (c)
-        
-        Access to a suspected site must be granted by the nation in which the site is present within 24 hours of the Executive Council calling for a challenge inspection. During this time, the site may be surveilled, and any people or vehicles leaving the site may be inspected by officials from a Party.
-        
-    4.  (d)
-        
-        The challenge inspection will be conducted by a team of inspectors who are approved by both the Party being inspected and the Party that requested the inspection. The CTB is responsible for working with Parties to maintain lists of approved inspectors for this purpose.
-        
-    5.  (e)
-        
-        Challenge inspections may be conducted in a given Party’s territory at most 20 times per year, and this limit can be changed by consensus of the Executive Council.
-        
-    6.  (f)
-        
-        Inspectors will take absolute care to protect the sensitive information of the inspected Party, passing along to the Executive Council only what information is pertinent to the Agreement.
+        --}{++{"author":"James's AI","timestamp":1790162728298}@@ ++}Parties offer asylum or humanitarian protection to Covered Whistleblowers and their families, provide safe‑conduct travel documents, and coordinate secure transit.
         
     
-4.  4.
+3.  {--{"author":"James's AI","timestamp":1790162728298}@@3.
     
-    U.S. and PRC Independent Verification Efforts
+    --}Challenge inspections of suspected sites may be conducted upon credible information about dangerous AI activities.
     
-    1.  (a)
+    {--{"author":"James's AI","timestamp":1790162728298}@@1.  --}{++{"author":"James's AI","timestamp":1790162728298}@@-   ++}(a){--{"author":"James's AI","timestamp":1790162728298}@@
         
-        The U.S. and PRC each operate an independent verification effort to assess compliance with this Agreement. These verification efforts build upon the pre-existing capabilities of each member’s intelligence community and supplement the work of the Coalition Technical Body.
+        --}{++{"author":"James's AI","timestamp":1790162728298}@@ ++}Parties may request a challenge inspection. The Executive Council, either by request or because of the analysis provided by the Information Consolidation division, will consider the information at hand in order to request additional information, of Parties or non-Parties, or to propose a challenge inspection, or to decide that no further action is warranted.
         
-    2.  (b)
+    {--{"author":"James's AI","timestamp":1790162728298}@@2.  --}{++{"author":"James's AI","timestamp":1790162728298}@@-   ++}(b){--{"author":"James's AI","timestamp":1790162728298}@@
         
-        The Coalition Technical Body provides all information it receives or generates to the U.S. and the PRC to support their independent verification efforts. This includes but is not limited to: declarations, reports, monitoring data, inspection results, registers, and any other information relevant to compliance with this Agreement. The CTB does not filter or withhold information from the U.S. and PRC.
+        --}{++{"author":"James's AI","timestamp":1790162728298}@@ ++}A challenge inspection requires approval by consensus of the Executive Council.
+        
+    {--{"author":"James's AI","timestamp":1790162728298}@@3.  --}{++{"author":"James's AI","timestamp":1790162728298}@@-   ++}(c){--{"author":"James's AI","timestamp":1790162728298}@@
+        
+        --}{++{"author":"James's AI","timestamp":1790162728298}@@ ++}Access to a suspected site must be granted by the nation in which the site is present within 24 hours of the Executive Council calling for a challenge inspection. During this time, the site may be surveilled, and any people or vehicles leaving the site may be inspected by officials from a Party.
+        
+    {--{"author":"James's AI","timestamp":1790162728298}@@4.  --}{++{"author":"James's AI","timestamp":1790162728298}@@-   ++}(d){--{"author":"James's AI","timestamp":1790162728298}@@
+        
+        --}{++{"author":"James's AI","timestamp":1790162728298}@@ ++}The challenge inspection will be conducted by a team of inspectors who are approved by both the Party being inspected and the Party that requested the inspection. The CTB is responsible for working with Parties to maintain lists of approved inspectors for this purpose.
+        
+    {--{"author":"James's AI","timestamp":1790162728298}@@5.  --}{++{"author":"James's AI","timestamp":1790162728298}@@-   ++}(e){--{"author":"James's AI","timestamp":1790162728298}@@
+        
+        --}{++{"author":"James's AI","timestamp":1790162728298}@@ ++}Challenge inspections may be conducted in a given Party’s territory at most 20 times per year, and this limit can be changed by consensus of the Executive Council.
+        
+    {--{"author":"James's AI","timestamp":1790162728298}@@6.  --}{++{"author":"James's AI","timestamp":1790162728298}@@-   ++}(f){--{"author":"James's AI","timestamp":1790162728298}@@
+        
+        --}{++{"author":"James's AI","timestamp":1790162728298}@@ ++}Inspectors will take absolute care to protect the sensitive information of the inspected Party, passing along to the Executive Council only what information is pertinent to the Agreement.
+        
+    
+4.  {--{"author":"James's AI","timestamp":1790162728298}@@4.
+    
+    --}U.S. and PRC Independent Verification Efforts
+    
+    {--{"author":"James's AI","timestamp":1790162728298}@@1.  --}{++{"author":"James's AI","timestamp":1790162728298}@@-   ++}(a){--{"author":"James's AI","timestamp":1790162728298}@@
+        
+        --}{++{"author":"James's AI","timestamp":1790162728298}@@ ++}The U.S. and PRC each operate an independent verification effort to assess compliance with this Agreement. These verification efforts build upon the pre-existing capabilities of each member’s intelligence community and supplement the work of the Coalition Technical Body.
+        
+    {--{"author":"James's AI","timestamp":1790162728298}@@2.  --}{++{"author":"James's AI","timestamp":1790162728298}@@-   ++}(b){--{"author":"James's AI","timestamp":1790162728298}@@
+        
+        --}{++{"author":"James's AI","timestamp":1790162728298}@@ ++}The Coalition Technical Body provides all information it receives or generates to the U.S. and the PRC to support their independent verification efforts. This includes but is not limited to: declarations, reports, monitoring data, inspection results, registers, and any other information relevant to compliance with this Agreement. The CTB does not filter or withhold information from the U.S. and PRC.
         
     
 
@@ -1337,21 +1337,21 @@ Whistleblowers may be effective because individuals involved in secret violation
 
 Whistleblowers could sound the alarm for violations including:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790162728298}@@•
     
-    Article IV: Training runs that are unmonitored, exceed thresholds, or use prohibited distributed training methods.
+    --}Article IV: Training runs that are unmonitored, exceed thresholds, or use prohibited distributed training methods.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162728298}@@•
     
-    Article V: The existence of undeclared chip clusters, the failure to consolidate all covered hardware, or the diversion of chips to secret, unmonitored facilities.
+    --}Article V: The existence of undeclared chip clusters, the failure to consolidate all covered hardware, or the diversion of chips to secret, unmonitored facilities.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162728298}@@•
     
-    Article VI: New manufactured AI chips diverted away from monitoring, or created without mandated security features.
+    --}Article VI: New manufactured AI chips diverted away from monitoring, or created without mandated security features.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162728298}@@•
     
-    Article VIII: Prohibited AI research.
+    --}Article VIII: Prohibited AI research.
     
 
 Modifications to the whistleblower clauses could change their efficacy and political viability in various ways. For example, states could offer to financially compensate legitimate whistleblowers to provide additional incentives, but this may be seen as paying citizens to defect on their own countries.
@@ -1366,47 +1366,47 @@ The existence of independent verification efforts provides redundancy and enhanc
 
 ### ARTICLE XI — Dispute Resolution
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790162729012}@@1.
     
-    Any Party ("Concerned Party") may raise concerns regarding the implementation of this Agreement, including concerns about ambiguous situations or possible non-compliance by another Party ("Requested Party"). This includes misuse of Protective Actions (Article XII).
+    --}Any Party ("Concerned Party") may raise concerns regarding the implementation of this Agreement, including concerns about ambiguous situations or possible non-compliance by another Party ("Requested Party"). This includes misuse of Protective Actions (Article XII).
     
-    1.  (a)
+    {--{"author":"James's AI","timestamp":1790162729012}@@1.  --}{++{"author":"James's AI","timestamp":1790162729012}@@-   ++}(a){--{"author":"James's AI","timestamp":1790162729012}@@
         
-        The Concerned Party notifies the Requested Party of their concern, while also sharing their concern with the Director-General and Executive Council. The Requested Party will acknowledge this notification within 36 hours, and provide clarification within 5 days.
-        
-    
-2.  2.
-    
-    If the issue is not resolved, the Concerned Party may request that the Executive Council assist in adjudicating and clarifying the concern. This may include the Concerned Party requesting a challenge inspection in accordance with Article X.
-    
-    1.  (a)
-        
-        The Executive Council provides appropriate information in its possession relevant to such a concern.
-        
-    2.  (b)
-        
-        The Executive Council may task the CTB to compile additional documentation, convene closed technical sessions, and recommend resolution measures.
+        --}{++{"author":"James's AI","timestamp":1790162729012}@@ ++}The Concerned Party notifies the Requested Party of their concern, while also sharing their concern with the Director-General and Executive Council. The Requested Party will acknowledge this notification within 36 hours, and provide clarification within 5 days.
         
     
-3.  3.
+2.  {--{"author":"James's AI","timestamp":1790162729012}@@2.
     
-    If the Executive Council determines there was a violation of the Agreement, it can take actions to prevent dangerous AI activities or reprimand the Requested Party. These actions may include:
+    --}If the issue is not resolved, the Concerned Party may request that the Executive Council assist in adjudicating and clarifying the concern. This may include the Concerned Party requesting a challenge inspection in accordance with Article X.
     
-    1.  (a)
+    {--{"author":"James's AI","timestamp":1790162729012}@@1.  --}{++{"author":"James's AI","timestamp":1790162729012}@@-   ++}(a){--{"author":"James's AI","timestamp":1790162729012}@@
         
-        Require additional monitoring or restrictions on AI activities
+        --}{++{"author":"James's AI","timestamp":1790162729012}@@ ++}The Executive Council provides appropriate information in its possession relevant to such a concern.
         
-    2.  (b)
+    {--{"author":"James's AI","timestamp":1790162729012}@@2.  --}{++{"author":"James's AI","timestamp":1790162729012}@@-   ++}(b){--{"author":"James's AI","timestamp":1790162729012}@@
         
-        Require relinquishment of AI hardware
+        --}{++{"author":"James's AI","timestamp":1790162729012}@@ ++}The Executive Council may task the CTB to compile additional documentation, convene closed technical sessions, and recommend resolution measures.
         
-    3.  (c)
+    
+3.  {--{"author":"James's AI","timestamp":1790162729012}@@3.
+    
+    --}If the Executive Council determines there was a violation of the Agreement, it can take actions to prevent dangerous AI activities or reprimand the Requested Party. These actions may include:
+    
+    {--{"author":"James's AI","timestamp":1790162729012}@@1.  --}{++{"author":"James's AI","timestamp":1790162729012}@@-   ++}(a){--{"author":"James's AI","timestamp":1790162729012}@@
         
-        Call for sanctions
+        --}{++{"author":"James's AI","timestamp":1790162729012}@@ ++}Require additional monitoring or restrictions on AI activities
         
-    4.  (d)
+    {--{"author":"James's AI","timestamp":1790162729012}@@2.  --}{++{"author":"James's AI","timestamp":1790162729012}@@-   ++}(b){--{"author":"James's AI","timestamp":1790162729012}@@
         
-        Recommend Parties take Protective Actions under Article XII
+        --}{++{"author":"James's AI","timestamp":1790162729012}@@ ++}Require relinquishment of AI hardware
+        
+    {--{"author":"James's AI","timestamp":1790162729012}@@3.  --}{++{"author":"James's AI","timestamp":1790162729012}@@-   ++}(c){--{"author":"James's AI","timestamp":1790162729012}@@
+        
+        --}{++{"author":"James's AI","timestamp":1790162729012}@@ ++}Call for sanctions
+        
+    {--{"author":"James's AI","timestamp":1790162729012}@@4.  --}{++{"author":"James's AI","timestamp":1790162729012}@@-   ++}(d){--{"author":"James's AI","timestamp":1790162729012}@@
+        
+        --}{++{"author":"James's AI","timestamp":1790162729012}@@ ++}Recommend Parties take Protective Actions under Article XII
         
     
 
@@ -1426,88 +1426,88 @@ Given the pace of AI innovation, determining violations on a reasonable timeline
 
 ### ARTICLE XII — Protective Actions
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790162729467}@@1.
     
-    Recognizing that the development of ASI or other Dangerous AI Activities, as laid out in Articles IV through IX, would pose a threat to global security and to the life of all people, it may be necessary for Parties to this Agreement to take drastic actions to prevent such development. The Parties recognize that development of artificial superintelligence (ASI), anywhere on earth, would be a threat to all Parties. Under Article 51 of the United Nations Charter and as longstanding precedent, states have a right to self-defense. Due to the scale and speed of ASI-related threats, self-defense may require pre-emptive actions to prevent the development of ASI.
+    --}Recognizing that the development of ASI or other Dangerous AI Activities, as laid out in Articles IV through IX, would pose a threat to global security and to the life of all people, it may be necessary for Parties to this Agreement to take drastic actions to prevent such development. The Parties recognize that development of artificial superintelligence (ASI), anywhere on earth, would be a threat to all Parties. Under Article 51 of the United Nations Charter and as longstanding precedent, states have a right to self-defense. Due to the scale and speed of ASI-related threats, self-defense may require pre-emptive actions to prevent the development of ASI.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790162729467}@@2.
     
-    To prevent the development or deployment of ASI, this Article authorizes tailored Protective Actions. Where there is credible evidence that a State or other actor (whether a Party or a non‑Party) is conducting or imminently intends to conduct activities aimed at developing or deploying ASI in violation of Article I, Article IV, Article V, Article VI, Article VII, or Article VIII, a State Party may undertake Protective Actions that are necessary and proportionate to prevent such activities. In recognition of the harms and escalatory nature of Protective Actions, Protective Actions should be used as a last resort. Outside of emergencies and time-sensitive situations, Protective Actions are preceded by other approaches such as, but not limited to:
+    --}To prevent the development or deployment of ASI, this Article authorizes tailored Protective Actions. Where there is credible evidence that a State or other actor (whether a Party or a non‑Party) is conducting or imminently intends to conduct activities aimed at developing or deploying ASI in violation of Article I, Article IV, Article V, Article VI, Article VII, or Article VIII, a State Party may undertake Protective Actions that are necessary and proportionate to prevent such activities. In recognition of the harms and escalatory nature of Protective Actions, Protective Actions should be used as a last resort. Outside of emergencies and time-sensitive situations, Protective Actions are preceded by other approaches such as, but not limited to:
     
-    1.  (a)
+    {--{"author":"James's AI","timestamp":1790162729467}@@1.  --}{++{"author":"James's AI","timestamp":1790162729467}@@-   ++}(a){--{"author":"James's AI","timestamp":1790162729467}@@
         
-        Trade restrictions or economic sanctions
+        --}{++{"author":"James's AI","timestamp":1790162729467}@@ ++}Trade restrictions or economic sanctions
         
-    2.  (b)
+    {--{"author":"James's AI","timestamp":1790162729467}@@2.  --}{++{"author":"James's AI","timestamp":1790162729467}@@-   ++}(b){--{"author":"James's AI","timestamp":1790162729467}@@
         
-        Asset restrictions
+        --}{++{"author":"James's AI","timestamp":1790162729467}@@ ++}Asset restrictions
         
-    3.  (c)
+    {--{"author":"James's AI","timestamp":1790162729467}@@3.  --}{++{"author":"James's AI","timestamp":1790162729467}@@-   ++}(c){--{"author":"James's AI","timestamp":1790162729467}@@
         
-        Visa bans
+        --}{++{"author":"James's AI","timestamp":1790162729467}@@ ++}Visa bans
         
-    4.  (d)
+    {--{"author":"James's AI","timestamp":1790162729467}@@4.  --}{++{"author":"James's AI","timestamp":1790162729467}@@-   ++}(d){--{"author":"James's AI","timestamp":1790162729467}@@
         
-        Appeal to the UN Security Council for action
-        
-    
-3.  3.
-    
-    Protective Actions may include measures such as cyber operations to sabotage AI development, interdiction or seizure of covered chip clusters, military actions to disable or destroy AI hardware, and physical disablement of specific facilities or assets directly enabling AI development.
-    
-4.  4.
-    
-    Parties minimize collateral harm, including to civilians and essential services, wherever practical, subject to mission requirements.
-    
-5.  5.
-    
-    Protective Actions are strictly limited to preventing ASI development or deployment and are not used as a pretext for territorial acquisition, regime change, resource extraction, or broader military objectives. Permanent occupation or annexation of territory is prohibited. Action will cease upon verification by the coalition that the threat no longer exists.
-    
-6.  6.
-    
-    Each Protective Action is accompanied, at initiation or as soon as security permits, by a public Protective Action Statement that:
-    
-    1.  (a)
-        
-        Explains the protective purpose of the action;
-        
-    2.  (b)
-        
-        Identifies the specific AI‑enabling activities and assets targeted;
-        
-    3.  (c)
-        
-        States the conditions for cessation;
-        
-    4.  (d)
-        
-        Commits to cease operations once those conditions are met.
+        --}{++{"author":"James's AI","timestamp":1790162729467}@@ ++}Appeal to the UN Security Council for action
         
     
-7.  7.
+3.  {--{"author":"James's AI","timestamp":1790162729467}@@3.
     
-    Protective Actions terminate without delay upon any of the following:
+    --}Protective Actions may include measures such as cyber operations to sabotage AI development, interdiction or seizure of covered chip clusters, military actions to disable or destroy AI hardware, and physical disablement of specific facilities or assets directly enabling AI development.
     
-    1.  (a)
+4.  {--{"author":"James's AI","timestamp":1790162729467}@@4.
+    
+    --}Parties minimize collateral harm, including to civilians and essential services, wherever practical, subject to mission requirements.
+    
+5.  {--{"author":"James's AI","timestamp":1790162729467}@@5.
+    
+    --}Protective Actions are strictly limited to preventing ASI development or deployment and are not used as a pretext for territorial acquisition, regime change, resource extraction, or broader military objectives. Permanent occupation or annexation of territory is prohibited. Action will cease upon verification by the coalition that the threat no longer exists.
+    
+6.  {--{"author":"James's AI","timestamp":1790162729467}@@6.
+    
+    --}Each Protective Action is accompanied, at initiation or as soon as security permits, by a public Protective Action Statement that:
+    
+    {--{"author":"James's AI","timestamp":1790162729467}@@1.  --}{++{"author":"James's AI","timestamp":1790162729467}@@-   ++}(a){--{"author":"James's AI","timestamp":1790162729467}@@
         
-        Coalition certification that the relevant activities have ceased.
+        --}{++{"author":"James's AI","timestamp":1790162729467}@@ ++}Explains the protective purpose of the action;
         
-    2.  (b)
+    {--{"author":"James's AI","timestamp":1790162729467}@@2.  --}{++{"author":"James's AI","timestamp":1790162729467}@@-   ++}(b){--{"author":"James's AI","timestamp":1790162729467}@@
         
-        Verified surrender or destruction of covered chip clusters or ASI‑enabling assets, potentially including the establishment of sufficient safeguards to prevent restricted research activities.
+        --}{++{"author":"James's AI","timestamp":1790162729467}@@ ++}Identifies the specific AI‑enabling activities and assets targeted;
         
-    3.  (c)
+    {--{"author":"James's AI","timestamp":1790162729467}@@3.  --}{++{"author":"James's AI","timestamp":1790162729467}@@-   ++}(c){--{"author":"James's AI","timestamp":1790162729467}@@
         
-        A determination by the acting Party, communicated to the CTB, that the threat has abated.
+        --}{++{"author":"James's AI","timestamp":1790162729467}@@ ++}States the conditions for cessation;
+        
+    {--{"author":"James's AI","timestamp":1790162729467}@@4.  --}{++{"author":"James's AI","timestamp":1790162729467}@@-   ++}(d){--{"author":"James's AI","timestamp":1790162729467}@@
+        
+        --}{++{"author":"James's AI","timestamp":1790162729467}@@ ++}Commits to cease operations once those conditions are met.
         
     
-8.  8.
+7.  {--{"author":"James's AI","timestamp":1790162729467}@@7.
     
-    Parties do not regard measured Protective Actions taken by another Party under this Article as provocative acts, and do not undertake reprisals or sanctions on that basis. Parties agree that Protective Actions meeting the above requirements are not construed as an act of aggression or justification for the use of force.
+    --}Protective Actions terminate without delay upon any of the following:
     
-9.  9.
+    {--{"author":"James's AI","timestamp":1790162729467}@@1.  --}{++{"author":"James's AI","timestamp":1790162729467}@@-   ++}(a){--{"author":"James's AI","timestamp":1790162729467}@@
+        
+        --}{++{"author":"James's AI","timestamp":1790162729467}@@ ++}Coalition certification that the relevant activities have ceased.
+        
+    {--{"author":"James's AI","timestamp":1790162729467}@@2.  --}{++{"author":"James's AI","timestamp":1790162729467}@@-   ++}(b){--{"author":"James's AI","timestamp":1790162729467}@@
+        
+        --}{++{"author":"James's AI","timestamp":1790162729467}@@ ++}Verified surrender or destruction of covered chip clusters or ASI‑enabling assets, potentially including the establishment of sufficient safeguards to prevent restricted research activities.
+        
+    {--{"author":"James's AI","timestamp":1790162729467}@@3.  --}{++{"author":"James's AI","timestamp":1790162729467}@@-   ++}(c){--{"author":"James's AI","timestamp":1790162729467}@@
+        
+        --}{++{"author":"James's AI","timestamp":1790162729467}@@ ++}A determination by the acting Party, communicated to the CTB, that the threat has abated.
+        
     
-    The Executive Council reviews each Protective Action for compliance with this Article. If the Executive Council finds that an action was not necessary, proportionate, or properly targeted, actions may be taken under Article XI, paragraph 3.
+8.  {--{"author":"James's AI","timestamp":1790162729467}@@8.
+    
+    --}Parties do not regard measured Protective Actions taken by another Party under this Article as provocative acts, and do not undertake reprisals or sanctions on that basis. Parties agree that Protective Actions meeting the above requirements are not construed as an act of aggression or justification for the use of force.
+    
+9.  {--{"author":"James's AI","timestamp":1790162729467}@@9.
+    
+    --}The Executive Council reviews each Protective Action for compliance with this Article. If the Executive Council finds that an action was not necessary, proportionate, or properly targeted, actions may be taken under Article XI, paragraph 3.
     
 
 ##### Precedent for Article XII
@@ -1534,17 +1534,17 @@ We stress that any use of force should be targeted at preventing ASI, and should
 
 ### ARTICLE XIII — Coalition Technical Body Reviews
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790162730124}@@1.
     
-    For AI models created via declared training or post‑training within the limits of Article IV, the CTB may require evaluations and other tests. These tests will inform whether the thresholds set in Article IV, Article V, Article VII, and Article VIII need to be revised. The methods used for reviews will be determined by the CTB and may be updated.
+    --}For AI models created via declared training or post‑training within the limits of Article IV, the CTB may require evaluations and other tests. These tests will inform whether the thresholds set in Article IV, Article V, Article VII, and Article VIII need to be revised. The methods used for reviews will be determined by the CTB and may be updated.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790162730124}@@2.
     
-    Evaluations are conducted at CTB facilities or monitored CCCs, by CTB officials. Officials from Parties to the Agreement may be informed which tests are conducted, and the CTB may provide a summary of the test results. Parties will not gain access to AI models they did not train, except when granted access by the model owner, and the CTB will take steps to ensure the security of sensitive information.
+    --}Evaluations are conducted at CTB facilities or monitored CCCs, by CTB officials. Officials from Parties to the Agreement may be informed which tests are conducted, and the CTB may provide a summary of the test results. Parties will not gain access to AI models they did not train, except when granted access by the model owner, and the CTB will take steps to ensure the security of sensitive information.
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790162730124}@@3.
     
-    The CTB may share detailed information with Parties or the public, if the Director-General deems that this may be necessary to reduce the chance of human extinction from advanced AI.
+    --}The CTB may share detailed information with Parties or the public, if the Director-General deems that this may be necessary to reduce the chance of human extinction from advanced AI.
     
 
 ##### Precedent for Article XIII
@@ -1565,25 +1565,25 @@ When reviews reveal shifts in the AI development landscape, those shifts could n
 
 ### ARTICLE XIV — Revision Process
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790162730492}@@1.
     
-    The Executive Council may revise this Agreement as necessary to ensure its purposes are achieved. "Amendments" are considered revisions to the main body and Articles of the Agreement. Under Article III, the CTB may change specific definitions and implementation methods, such as those relevant to Article IV, Article V, Article VI, Article VII, Article VIII, Article IX, and Article X, subject to the Executive Council’s veto power. Fundamental revisions to the purposes of these Articles or to the governance structure require an Amendment by the Executive Council.
+    --}The Executive Council may revise this Agreement as necessary to ensure its purposes are achieved. "Amendments" are considered revisions to the main body and Articles of the Agreement. Under Article III, the CTB may change specific definitions and implementation methods, such as those relevant to Article IV, Article V, Article VI, Article VII, Article VIII, Article IX, and Article X, subject to the Executive Council’s veto power. Fundamental revisions to the purposes of these Articles or to the governance structure require an Amendment by the Executive Council.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790162730492}@@2.
     
-    The Executive Council may propose amendments to all Parties to the Agreement. The Executive Council shall circulate proposed amendments to all States Parties with an explanation of the rationale and expected effects.
+    --}The Executive Council may propose amendments to all Parties to the Agreement. The Executive Council shall circulate proposed amendments to all States Parties with an explanation of the rationale and expected effects.
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790162730492}@@3.
     
-    Parties to the Agreement may submit recommendations for amendments to the Executive Council through the Director-General. The Executive Council will consider such recommendations but is not obligated to adopt them.
+    --}Parties to the Agreement may submit recommendations for amendments to the Executive Council through the Director-General. The Executive Council will consider such recommendations but is not obligated to adopt them.
     
-4.  4.
+4.  {--{"author":"James's AI","timestamp":1790162730492}@@4.
     
-    Amendments proposed by the Executive Council become effective upon consensus of the Executive Council.
+    --}Amendments proposed by the Executive Council become effective upon consensus of the Executive Council.
     
-5.  5.
+5.  {--{"author":"James's AI","timestamp":1790162730492}@@5.
     
-    Three years after the entry into force of this Agreement, the Executive Council shall convene a review conference to assess the operation of this Agreement with a view to assuring that the purposes of the Preamble and the provisions of the Agreement are being realized. All Parties to the Agreement shall be invited to participate. At intervals of three years thereafter, the Executive Council will convene further review conferences with the same objective.
+    --}Three years after the entry into force of this Agreement, the Executive Council shall convene a review conference to assess the operation of this Agreement with a view to assuring that the purposes of the Preamble and the provisions of the Agreement are being realized. All Parties to the Agreement shall be invited to participate. At intervals of three years thereafter, the Executive Council will convene further review conferences with the same objective.
     
 
 ##### Precedent for Article XIV
@@ -1604,26 +1604,26 @@ Article XIV sets out the process to make major revisions to the agreement. These
 
 ### ARTICLE XV — Withdrawal and Duration
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790162731027}@@1.
     
-    The Agreement shall be of unlimited duration.
+    --}The Agreement shall be of unlimited duration.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790162731027}@@2.
     
-    Each Party will, in exercising its national sovereignty, have the right to withdraw from the Agreement if it decides that extraordinary events, related to the subject matter of this Agreement, have jeopardized the supreme interests of its country. It shall give notice of such withdrawal to the CTB 12 months in advance.
+    --}Each Party will, in exercising its national sovereignty, have the right to withdraw from the Agreement if it decides that extraordinary events, related to the subject matter of this Agreement, have jeopardized the supreme interests of its country. It shall give notice of such withdrawal to the CTB 12 months in advance.
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790162731027}@@3.
     
-    During this 12-month period, the withdrawing state shall cooperate with CTB and Executive Council member efforts to certify that after withdrawal, the withdrawing state will be unable to develop, train, post-train, or deploy dangerous AI systems, including ASI or systems above the Agreement thresholds. Withdrawing states acknowledge that such cooperation aids the CTB and Parties in avoiding the use of Article XII.
+    --}During this 12-month period, the withdrawing state shall cooperate with CTB and Executive Council member efforts to certify that after withdrawal, the withdrawing state will be unable to develop, train, post-train, or deploy dangerous AI systems, including ASI or systems above the Agreement thresholds. Withdrawing states acknowledge that such cooperation aids the CTB and Parties in avoiding the use of Article XII.
     
-    1.  (a)
+    {--{"author":"James's AI","timestamp":1790162731027}@@1.  --}{++{"author":"James's AI","timestamp":1790162731027}@@-   ++}(a){--{"author":"James's AI","timestamp":1790162731027}@@
         
-        In particular, the withdrawing state, under CTB and Executive Council member oversight, will remove all covered chip clusters and ASI-enabling assets (e.g., advanced computer chip manufacturing equipment) from its territory to Executive Council-approved control or render them permanently inoperable (as described in Article V).
+        --}{++{"author":"James's AI","timestamp":1790162731027}@@ ++}In particular, the withdrawing state, under CTB and Executive Council member oversight, will remove all covered chip clusters and ASI-enabling assets (e.g., advanced computer chip manufacturing equipment) from its territory to Executive Council-approved control or render them permanently inoperable (as described in Article V).
         
     
-4.  4.
+4.  {--{"author":"James's AI","timestamp":1790162731027}@@4.
     
-    Nothing in this Article limits the applicability of Article XII. A State that has withdrawn (and is therefore a non-Party) remains subject to Protective Actions if credible evidence indicates activities aimed at ASI development or deployment.
+    --}Nothing in this Article limits the applicability of Article XII. A State that has withdrawn (and is therefore a non-Party) remains subject to Protective Actions if credible evidence indicates activities aimed at ASI development or deployment.
     
 
 ##### Precedent for Article XV
@@ -1652,137 +1652,137 @@ Recognizing that measures to address the risks from AI cannot be developed overn
 
 These measures fall into three categories:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790162731441}@@1.
     
-    Preparing for an International Agreement:
+    --}Preparing for an International Agreement:
     
-    -   •
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
         
-        Develop situational awareness of where AI chips are located globally, identify public and nonpublic data centers, understand chip and/or hardware smuggling pipelines, and production flows around the world. Begin tracking AI chips.
+        --}Develop situational awareness of where AI chips are located globally, identify public and nonpublic data centers, understand chip and/or hardware smuggling pipelines, and production flows around the world. Begin tracking AI chips.
         
-        -   –
+        -   {--{"author":"James's AI","timestamp":1790162731441}@@–
             
-            Establish robust AI chip, hardware security, and supply chain standards internationally.
+            --}Establish robust AI chip, hardware security, and supply chain standards internationally.
             
-            -   \*
+            -   {--{"author":"James's AI","timestamp":1790162731441}@@\*
                 
-                Conduct R&D for on-chip hardware-enabled governance mechanisms (HEMs) and for supporting equipment that could verify the location and the types of workloads conducted on advanced AI chips (e.g., training, inference). Develop tamper-resistant HEM technologies and explore advanced HEM capabilities that allow for remote governance, licensing, and limits on chip use.
+                --}Conduct R&D for on-chip hardware-enabled governance mechanisms (HEMs) and for supporting equipment that could verify the location and the types of workloads conducted on advanced AI chips (e.g., training, inference). Develop tamper-resistant HEM technologies and explore advanced HEM capabilities that allow for remote governance, licensing, and limits on chip use.
                 
-            -   \*
+            -   {--{"author":"James's AI","timestamp":1790162731441}@@\*
                 
-                Establish an interagency group within the U.S. government to rapidly develop the framework for implementing location verification and advanced HEMs.
+                --}Establish an interagency group within the U.S. government to rapidly develop the framework for implementing location verification and advanced HEMs.
                 
-            -   \*
+            -   {--{"author":"James's AI","timestamp":1790162731441}@@\*
                 
-                Establish a public/private partnership to develop advanced HEM technologies
+                --}Establish a public/private partnership to develop advanced HEM technologies
                 
-            -   \*
+            -   {--{"author":"James's AI","timestamp":1790162731441}@@\*
                 
-                Set up “governing through the cloud” \[[47](#bib.bib273 "Governing Through the Cloud: The Intermediary Role of Compute Providers in AI Regulation")\] style approaches and enhanced capacity for overall chip use governance.
+                --}Set up “governing through the cloud” \[[47](#bib.bib273 "Governing Through the Cloud: The Intermediary Role of Compute Providers in AI Regulation")\] style approaches and enhanced capacity for overall chip use governance.
                 
-            -   \*
+            -   {--{"author":"James's AI","timestamp":1790162731441}@@\*
                 
-                Ensure export control measures are flexible enough to adjust to the state of the art.
+                --}Ensure export control measures are flexible enough to adjust to the state of the art.
                 
             
         
-    -   •
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
         
-        Ensure advanced AI chip development, hardware, and supply chains remain in a small group of countries.
+        --}Ensure advanced AI chip development, hardware, and supply chains remain in a small group of countries.
         
-    -   •
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
         
-        Enhance international coordination on controls to ensure AI chips, R&D, hardware, and tacit knowledge are not easily obtained by groups of concern.
+        --}Enhance international coordination on controls to ensure AI chips, R&D, hardware, and tacit knowledge are not easily obtained by groups of concern.
         
-    -   •
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
         
-        Back proactive measures to implement future AI governance and an overall agreement and avoid actions that make an international agreement more difficult, like building covert data centers.
+        --}Back proactive measures to implement future AI governance and an overall agreement and avoid actions that make an international agreement more difficult, like building covert data centers.
         
-    -   •
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
         
-        Establish international multi-disciplinary collaboration among policymakers, technologists, and institutions to establish the foundation of future international discussions on AI governance.
+        --}Establish international multi-disciplinary collaboration among policymakers, technologists, and institutions to establish the foundation of future international discussions on AI governance.
         
-    -   •
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
         
-        Establish AI hotlines between key actors in the U.S. and PRC government.
+        --}Establish AI hotlines between key actors in the U.S. and PRC government.
         
-    -   •
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
         
-        Work with the PRC to establish open-model-weight and evaluation standards related to CBRN risks, e.g. biological weapon development.
+        --}Work with the PRC to establish open-model-weight and evaluation standards related to CBRN risks, e.g. biological weapon development.
         
-    -   •
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
         
-        Work with countries with sizable AI capabilities to share large data center locations.
-        
-    
-2.  2.
-    
-    Building the Capacity of Future Governance, Safety, and Security
-    
-    -   •
-        
-        Invest in education and recruiting talent to focus on AI monitoring, threat evaluation, and safety research.
-        
-    -   •
-        
-        Fund research focused on AI evaluations (both before and after model deployment), safety research measures to mitigate risk, and trigger points for implementation of such measures.
-        
-    -   •
-        
-        Invest in verification expertise and know-how, for instance by funding pilot verification efforts using open-source intelligence or satellite data.
-        
-    -   •
-        
-        Identify gaps between current expertise and expertise needed in the future to ensure a strong security/safety ecosystem for research, implementation, and cross-pollination.
-        
-    -   •
-        
-        Identify experts in adjacent fields that could be brought to bear on AI risks.
-        
-    -   •
-        
-        Implement public and/or private NGO initiatives to create expertise where current gaps exist.
-        
-    -   •
-        
-        Identify current areas of consensus, and build up to more robust measures to address the risks of AI.
-        
-    -   •
-        
-        Enhance security for current and future AI projects, in order to protect against proliferation to and misuse by third parties including terrorists or rogue states.
-        
-    -   •
-        
-        Regulate agentic AI interactions as the capabilities come online.
-        
-    -   •
-        
-        Increase AI fluency in the general public to ensure awareness of implications of AI development.
+        --}Work with countries with sizable AI capabilities to share large data center locations.
         
     
-3.  3.
+2.  {--{"author":"James's AI","timestamp":1790162731441}@@2.
     
-    Domestic Measures that Could be Implemented Today:
+    --}Building the Capacity of Future Governance, Safety, and Security
     
-    -   •
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
         
-        Establish robust non-public information sharing between AI labs and key government officials to ensure the government is privy to all important state-of-the-art AI developments that could have an impact on the economy, national security, or threat environment.
+        --}Invest in education and recruiting talent to focus on AI monitoring, threat evaluation, and safety research.
         
-    -   •
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
         
-        Establish a cross-functional team within the U.S. government for AI model assessment, and develop a standardized assessment framework for review of existing and planned domestic and international AI models. This group should analyze the development of current and future AI, identify key AI developmental milestones, and develop risk mitigation strategies before specific milestones are reached.
+        --}Fund research focused on AI evaluations (both before and after model deployment), safety research measures to mitigate risk, and trigger points for implementation of such measures.
         
-    -   •
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
         
-        Centralize AI strategy development in a White House-led organization either within OSTP or as a U.S. government-wide steering committee to identify gaps and harmonize strategy/implementation.
+        --}Invest in verification expertise and know-how, for instance by funding pilot verification efforts using open-source intelligence or satellite data.
         
-    -   •
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
         
-        Task an executive branch agency with assessing the implications of advanced AI on key national security areas including CBRN and cyber capabilities, model autonomy, and automated AI R&D to speed up AI developments, and open-source models.
+        --}Identify gaps between current expertise and expertise needed in the future to ensure a strong security/safety ecosystem for research, implementation, and cross-pollination.
         
-    -   •
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
         
-        Develop scenario-based incident response capabilities \[[76](#bib.bib28 "Strengthening emergency preparedness and response for AI loss of control incidents")\].
+        --}Identify experts in adjacent fields that could be brought to bear on AI risks.
+        
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
+        
+        --}Implement public and/or private NGO initiatives to create expertise where current gaps exist.
+        
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
+        
+        --}Identify current areas of consensus, and build up to more robust measures to address the risks of AI.
+        
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
+        
+        --}Enhance security for current and future AI projects, in order to protect against proliferation to and misuse by third parties including terrorists or rogue states.
+        
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
+        
+        --}Regulate agentic AI interactions as the capabilities come online.
+        
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
+        
+        --}Increase AI fluency in the general public to ensure awareness of implications of AI development.
+        
+    
+3.  {--{"author":"James's AI","timestamp":1790162731441}@@3.
+    
+    --}Domestic Measures that Could be Implemented Today:
+    
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
+        
+        --}Establish robust non-public information sharing between AI labs and key government officials to ensure the government is privy to all important state-of-the-art AI developments that could have an impact on the economy, national security, or threat environment.
+        
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
+        
+        --}Establish a cross-functional team within the U.S. government for AI model assessment, and develop a standardized assessment framework for review of existing and planned domestic and international AI models. This group should analyze the development of current and future AI, identify key AI developmental milestones, and develop risk mitigation strategies before specific milestones are reached.
+        
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
+        
+        --}Centralize AI strategy development in a White House-led organization either within OSTP or as a U.S. government-wide steering committee to identify gaps and harmonize strategy/implementation.
+        
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
+        
+        --}Task an executive branch agency with assessing the implications of advanced AI on key national security areas including CBRN and cyber capabilities, model autonomy, and automated AI R&D to speed up AI developments, and open-source models.
+        
+    -   {--{"author":"James's AI","timestamp":1790162731441}@@•
+        
+        --}Develop scenario-based incident response capabilities \[[76](#bib.bib28 "Strengthening emergency preparedness and response for AI loss of control incidents")\].
         
     
 
@@ -1796,69 +1796,69 @@ The purpose of this section is to demonstrate how AI governance discussions coul
 
 Build initial capacity, foster collaboration, and establish foundational transparency mechanisms.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790162731958}@@•
     
-    The U.S. and PRC issue a joint declaration at the head of state level on responsible AI development and deployment. They commit to:
+    --}The U.S. and PRC issue a joint declaration at the head of state level on responsible AI development and deployment. They commit to:
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790162731958}@@–
         
-        Avoid AI use for certain prohibited purposes
+        --}Avoid AI use for certain prohibited purposes
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790162731958}@@–
         
-        A “No First Use” policy for AI-driven cyberattacks targeting critical infrastructure, including power grids, financial systems, healthcare networks, and election systems. (This builds upon the 2024 U.S.–PRC agreement restricting AI control over nuclear weapons systems and reduces the risk of sudden or destabilizing strategic attacks)
+        --}A “No First Use” policy for AI-driven cyberattacks targeting critical infrastructure, including power grids, financial systems, healthcare networks, and election systems. (This builds upon the 2024 U.S.–PRC agreement restricting AI control over nuclear weapons systems and reduces the risk of sudden or destabilizing strategic attacks)
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162731958}@@•
     
-    AI Transparency, Monitoring, and Information Sharing
+    --}AI Transparency, Monitoring, and Information Sharing
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790162731958}@@–
         
-        U.S. and PRC, and possibly other like-minded countries begin monitoring AI developments and sharing relevant information
+        --}U.S. and PRC, and possibly other like-minded countries begin monitoring AI developments and sharing relevant information
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790162731958}@@–
         
-        Conduct limited public disclosures to highlight emerging risks
+        --}Conduct limited public disclosures to highlight emerging risks
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790162731958}@@–
         
-        Domestic and International Tracking
+        --}Domestic and International Tracking
         
-        -   \*
+        -   {--{"author":"James's AI","timestamp":1790162731958}@@\*
             
-            Track AI hardware, chips, and AI research for future verification mechanisms
+            --}Track AI hardware, chips, and AI research for future verification mechanisms
             
-        -   \*
+        -   {--{"author":"James's AI","timestamp":1790162731958}@@\*
             
-            Make limited declarations of such data
+            --}Make limited declarations of such data
             
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162731958}@@•
     
-    R&D for Verification
+    --}R&D for Verification
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790162731958}@@–
         
-        Begin early research and development on verification methods that could serve future governance mechanisms
+        --}Begin early research and development on verification methods that could serve future governance mechanisms
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162731958}@@•
     
-    Coalition Building
+    --}Coalition Building
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790162731958}@@–
         
-        Launch initial conversations among interested governments and stakeholders
+        --}Launch initial conversations among interested governments and stakeholders
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790162731958}@@–
         
-        Establish governance concepts for future international AI governance
+        --}Establish governance concepts for future international AI governance
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790162731958}@@–
         
-        Allocate resources to support international AI-safety research and coordination
+        --}Allocate resources to support international AI-safety research and coordination
         
     
 
@@ -1866,62 +1866,62 @@ Build initial capacity, foster collaboration, and establish foundational transpa
 
 These measures build confidence and transparency and reduce the risk of misunderstanding rapid AI developments as signs of imminent aggression.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790162731958}@@•
     
-    Establish secure communication channels between high-level AI and cybersecurity officials in the U.S. and PRC
+    --}Establish secure communication channels between high-level AI and cybersecurity officials in the U.S. and PRC
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162731958}@@•
     
-    Exchange of information between the U.S. and PRC: Conduct annual confidential disclosures on high-consequence AI systems (excluding model weights or algorithms), including:
+    --}Exchange of information between the U.S. and PRC: Conduct annual confidential disclosures on high-consequence AI systems (excluding model weights or algorithms), including:
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790162731958}@@–
         
-        Purpose and capabilities of each system
+        --}Purpose and capabilities of each system
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790162731958}@@–
         
-        Hardware used for operation
+        --}Hardware used for operation
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790162731958}@@–
         
-        Data center locations and capacities
+        --}Data center locations and capacities
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162731958}@@•
     
-    U.S. and PRC pre-notify of major AI model training runs and deployments exceeding agreed thresholds
+    --}U.S. and PRC pre-notify of major AI model training runs and deployments exceeding agreed thresholds
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162731958}@@•
     
-    Develop basis for future international AI governance
+    --}Develop basis for future international AI governance
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790162731958}@@–
         
-        Make multilateral declarations defining safe AI development
+        --}Make multilateral declarations defining safe AI development
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790162731958}@@–
         
-        Develop voluntary commitments that enhance safe AI development practices and limit use cases that are escalatory or unsafe
+        --}Develop voluntary commitments that enhance safe AI development practices and limit use cases that are escalatory or unsafe
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790162731958}@@–
         
-        Ongoing investment in international AI safety research and viable prototype verification mechanisms
+        --}Ongoing investment in international AI safety research and viable prototype verification mechanisms
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790162731958}@@–
         
-        Establish pooled resource mechanisms, allowing nations to benefit from AI advancements while obviating the need for fully independent programs with associated costs
+        --}Establish pooled resource mechanisms, allowing nations to benefit from AI advancements while obviating the need for fully independent programs with associated costs
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790162731958}@@–
         
-        Begin voluntary information disclosures among additional nations:
+        --}Begin voluntary information disclosures among additional nations:
         
-        -   \*
+        -   {--{"author":"James's AI","timestamp":1790162731958}@@\*
             
-            Number of data centers and large-scale models that exceed agreed thresholds
+            --}Number of data centers and large-scale models that exceed agreed thresholds
             
-        -   \*
+        -   {--{"author":"James's AI","timestamp":1790162731958}@@\*
             
-            Bilateral disclosure mechanisms serve as templates for multilateral transparency frameworks, allowing other countries to join using standardized reporting formats
+            --}Bilateral disclosure mechanisms serve as templates for multilateral transparency frameworks, allowing other countries to join using standardized reporting formats
             
         
     
@@ -1930,58 +1930,58 @@ These measures build confidence and transparency and reduce the risk of misunder
 
 Move from voluntary transparency to structured commitments and verified limitations. Verification systems and commitments piloted bilaterally evolve into the technical and procedural framework for broader multilateral agreements.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790162731958}@@•
     
-    U.S. and PRC lead discussions and negotiations on AI governance measures including: a ban on AI training above the Strict Threshold; chip consolidation; chip production monitoring; chip use verification; research restrictions and verification detailed in Articles IV, V, VI, VII, VIII, IX and other articles included in the Agreement in Appendix [A](#A1 "Appendix A The Agreement ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence")
+    --}U.S. and PRC lead discussions and negotiations on AI governance measures including: a ban on AI training above the Strict Threshold; chip consolidation; chip production monitoring; chip use verification; research restrictions and verification detailed in Articles IV, V, VI, VII, VIII, IX and other articles included in the Agreement in Appendix [A](#A1 "Appendix A The Agreement ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence")
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162731958}@@•
     
-    The U.S. and PRC establish and test chip use verification protocols to confirm future compliance within the limit mentioned in the first bullet
+    --}The U.S. and PRC establish and test chip use verification protocols to confirm future compliance within the limit mentioned in the first bullet
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162731958}@@•
     
-    The U.S., PRC, and additional countries make safety and development commitments and invest in shared research infrastructure
+    --}The U.S., PRC, and additional countries make safety and development commitments and invest in shared research infrastructure
     
 
 ##### Stage Four – Institutionalization and Deployment
 
 Translate practical cooperation into a formalized international agreement.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790162731958}@@•
     
-    The measures of the international agreement are implemented. (See Appendix [A](#A1 "Appendix A The Agreement ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence"))
+    --}The measures of the international agreement are implemented. (See Appendix [A](#A1 "Appendix A The Agreement ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence"))
     
 
 ##### Stage Five – Solving for ASI
 
 Make use of the time and resources available to prepare for ASI
 
--   •
+-   {--{"author":"James's AI","timestamp":1790162731958}@@•
     
-    The world directs capacity toward solving the problems required to permit the safe development of superintelligence. These likely include AI alignment research, managing social, economic, and geopolitical destabilization, preventing human misuse of advanced AI, and avoiding concentration of power, but this list could look different when more is known about ASI development
+    --}The world directs capacity toward solving the problems required to permit the safe development of superintelligence. These likely include AI alignment research, managing social, economic, and geopolitical destabilization, preventing human misuse of advanced AI, and avoiding concentration of power, but this list could look different when more is known about ASI development
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162731958}@@•
     
-    Establish joint resilience mechanisms for critical infrastructure
+    --}Establish joint resilience mechanisms for critical infrastructure
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162731958}@@•
     
-    Build global safety coordination systems capable of rapid response to emerging risks
+    --}Build global safety coordination systems capable of rapid response to emerging risks
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162731958}@@•
     
-    Maintain continuous cooperation between the Executive Council and national institutions
+    --}Maintain continuous cooperation between the Executive Council and national institutions
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162731958}@@•
     
-    Adapt the agreement in response to a changing geopolitical environment or potentially a changing technical environment around AI development
+    --}Adapt the agreement in response to a changing geopolitical environment or potentially a changing technical environment around AI development
     
 
 ##### Stage Six – Safe implementation of superintelligence
 
--   •
+-   {--{"author":"James's AI","timestamp":1790162731958}@@•
     
-    The world implements the solutions discovered above and maintains safety and coordination mechanisms
+    --}The world implements the solutions discovered above and maintains safety and coordination mechanisms
     
 
 This illustrates a possible path to a framework for AI governance, progressing from bilateral commitments and transparency to global cooperation. Early U.S.–PRC engagement acts as the catalyst for broader international participation, with each stage reinforcing the subsequent stage.
