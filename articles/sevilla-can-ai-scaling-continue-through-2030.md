@@ -1119,6 +1119,7 @@ _We thank Anson Ho, David Owen, Konstantin Pilz, Benjamin Todd, Romeo Dean, Mich
 
 ## Appendices ^appendices
 
+:::callout {title="Appendix A: Summary of the extrapolative model" collapse="closed"}
 ### Appendix A: Summary of the extrapolative model ^appendix-a-summary-of
 
 Our simple extrapolative model of bottlenecks has four components, modeling each of the main bottlenecks we discuss in the article. The code for the model can be found [here](https://epoch.ai/code/can-ai-scaling-continue-through-2030), and the default model parameters with sources can be found in the parameter tables throughout this article.
@@ -1146,6 +1147,7 @@ Table 1: Induced correlations between model parameters.
 | Stock of internet text data | Stock of internet image data | 0.7 | If a large stock of data exists in a modality, it also likely is available in other modalities. |
 | Stock of internet image data | Stock of internet video data | 0.7 | See above. |
 | Stock of internet video data | Stock of internet text data | 0.7 | See above. |
+:::
 
 ### Appendix B: Fraction of total resources allocated to the largest training run ^appendix-b-fraction-of
 
