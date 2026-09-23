@@ -41,9 +41,5 @@ To quantify the gap on each day, we look at the ECI of the best Chinese model on
 :::
 
 ## Explore this data
-
-![Capabilities & Benchmarking](https://epoch.ai/assets/images/datahub/thumbnails/small/ai-benchmarking-icon-circle.svg)
-
-[Capabilities & Benchmarking](https://epoch.ai/benchmarks)
-
-Benchmark results featuring the performance of leading AI models on challenging tasks.
+[Capabilities & Benchmarking](https://epoch.ai/benchmarks): Benchmark results featuring the performance of leading AI models on challenging tasks.
+:::
