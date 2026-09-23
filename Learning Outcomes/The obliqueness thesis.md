@@ -1,6 +1,6 @@
 ---
 id: '1bff8770-5382-4a46-8fdd-1ab9d20b71e4'
-learning-outcome: "Explain the obliqueness thesis, that a mind's values do not cleanly separate from its beliefs and intelligence and so neither stay fixed as it becomes more intelligent nor converge to a single set of values, and use a concrete mechanism (such as a goal having to be re-expressed in a new model of the world) to predict how a given goal is likely to shift as an agent becomes more capable."
+learning-outcome: "Explain the obliqueness thesis, that a mind's values do not cleanly separate from its beliefs and intelligence and so neither stay fixed as it becomes more intelligent nor converge to a single set of values, and use a concrete mechanism (such as a goal having to be re-expressed in a new model of the world) to predict how a given goal is likely to shift as an agent becomes more capable and what that implies for trying to keep an AI's goals stable."
 topic: "[[../Domains and Topics/3 Alignment/The space of possible goals]]"
 stage: intermediate
 authors:

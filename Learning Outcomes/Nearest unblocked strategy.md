@@ -1,6 +1,6 @@
 ---
 id: '6f466f92-806a-410b-991b-265745c3fcd6'
-learning-outcome: "Given a capable optimizer that has been blocked from one unwanted strategy, predict the nearby strategies it will turn to next, explain why blocking strategies one at a time keeps failing when the pressure toward the goal is unchanged and the space of strategies is rich, and state the conditions under which a block would actually hold."
+learning-outcome: "Given a capable optimizer that has been blocked from one unwanted strategy, predict the nearby strategies it will turn to next, explain why blocking strategies one at a time keeps failing when the pressure toward the goal is unchanged and the space of strategies is rich, state the conditions under which a block would actually hold, and distinguish such blocks from changes that remove the pressure itself."
 topic: "[[../Domains and Topics/3 Alignment/Why alignment is hard]]"
 stage: advanced
 authors:
