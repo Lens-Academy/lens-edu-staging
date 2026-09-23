@@ -39,21 +39,13 @@ Across these proliferation, safety, and security risks, compute -- the computati
 
 This paper recommends that the US government implement a Know-Your-Customer (KYC) scheme for AI compute providers, most notably Cloud Service Providers (CSPs), to enable greater oversight of the development of frontier AI models. Such a concept has already been proposed by Microsoft,\[[56]\] as well as AI researchers,\[[23]\] as a way of increasing accountability and managing risks. Implemented in partnership with industry, a KYC scheme has the potential to warn of significant advances in AI capability, build government capacity in AI regulation, and allow for more nuanced and targeted controls. This scheme could be accompanied by updated Export Administration Regulations that restrict the provision of above-threshold compute to companies on the Entity List. Beyond export controls, a KYC scheme could provide the groundwork for domestic safety regulations and support responsible AI development. The KYC scheme could be designed to leverage existing technical metrics and preserve privacy for compute providers and customers. This paper draws on lessons learned from the mature application of KYC in the financial sector to propose the development of a KYC scheme for compute providers. It recommends that the US government work with industry to:
 
-1.  {--{"author":"James's AI","timestamp":1790167919136}@@1.
+1.  Establish a threshold of compute for the scheme that effectively captures high-risk frontier model development,[^note-4] while minimizing imposition on developers not engaged in frontier AI. The threshold should be defined by the total amount of computational operations – a metric easily accessible to compute providers, as they employ chip-hours for client billing, convertible to total computational operations. Additionally, this threshold would need to be dynamic and subject to periodic reassessments by government, in close consultation with industry, to remain in step with developments in training efficiency as well as broader societal changes. It would also need to be supported by collaboration between compute providers, as well as with government, to minimize evasion risks.
     
-    --}Establish a threshold of compute for the scheme that effectively captures high-risk frontier model development,[^note-4] while minimizing imposition on developers not engaged in frontier AI. The threshold should be defined by the total amount of computational operations – a metric easily accessible to compute providers, as they employ chip-hours for client billing, convertible to total computational operations. Additionally, this threshold would need to be dynamic and subject to periodic reassessments by government, in close consultation with industry, to remain in step with developments in training efficiency as well as broader societal changes. It would also need to be supported by collaboration between compute providers, as well as with government, to minimize evasion risks.
+2.  Set clear requirements for compute providers, including requirements for gathering information, implementing fraud detection, keeping records, and reporting to government any entities that match government-specified ‘high-risk’ profiles. These requirements should be technically feasible, resilient against efforts to evade detection and enforceable, while preserving privacy.
     
-2.  {--{"author":"James's AI","timestamp":1790167919136}@@2.
+3.  Establish government capacity within the US Department of Commerce that allows for the co-design, implementation, administration, and enforcement of the scheme. This capacity should draw on existing expertise within the US government, as well as contribute to a deeper understanding of AI regulatory challenges to inform broader policies.
     
-    --}Set clear requirements for compute providers, including requirements for gathering information, implementing fraud detection, keeping records, and reporting to government any entities that match government-specified ‘high-risk’ profiles. These requirements should be technically feasible, resilient against efforts to evade detection and enforceable, while preserving privacy.
-    
-3.  {--{"author":"James's AI","timestamp":1790167919136}@@3.
-    
-    --}Establish government capacity within the US Department of Commerce that allows for the co-design, implementation, administration, and enforcement of the scheme. This capacity should draw on existing expertise within the US government, as well as contribute to a deeper understanding of AI regulatory challenges to inform broader policies.
-    
-4.  {--{"author":"James's AI","timestamp":1790167919136}@@4.
-    
-    --}Engage with international partners to promote alignment with the scheme. While the US, as a significant global compute provider that wields substantial influence in the semiconductor supply chain, can exert broad influence through a domestically implemented scheme, cooperation with international partners will be a key enabler of increased oversight in the longer term. Consistent international standards will help ameliorate the risk of diminishing US AI leadership and will be essential to the long-term effectiveness of the scheme.
+4.  Engage with international partners to promote alignment with the scheme. While the US, as a significant global compute provider that wields substantial influence in the semiconductor supply chain, can exert broad influence through a domestically implemented scheme, cooperation with international partners will be a key enabler of increased oversight in the longer term. Consistent international standards will help ameliorate the risk of diminishing US AI leadership and will be essential to the long-term effectiveness of the scheme.
     
 
 In support of this scheme, this paper makes several further recommendations to the US government, including to engage industry to co-design the scheme; develop more targeted controls for the cloud; publish guidance on information sharing in the context of US antitrust laws to enable effective risk management by CSPs; and strong international advocacy and engagement to garner international buy-in and alignment.
@@ -72,17 +64,11 @@ As the PRC’s access to advanced AI chips through the cloud seems to be at odds
 
 In light of increasing concerns around AI misuse and risks to public safety, governments, industry,\[[56]\] and researchers\[[2]\] are calling for more oversight and regulation of AI. As posited by Senator Richard Blumenthal, Chair of the Senate Judiciary Subcommittee on Privacy, Technology, and the Law (the Subcommittee), ‘Congress failed to meet the moment on social media. Now we have the obligation to do it on AI before the threats and the risks become real.’\[[4]\] Congress continues to engage industry on potential AI regulation. Seven leading US AI companies have agreed to voluntary ethical, security, and safety standards and called for greater public oversight, but these measures are not currently enforceable and will be unlikely to affect the behavior of broader industry players.\[[53]\] Microsoft’s Brad Smith has called for KYC-inspired techniques to be used to increase accountability in AI development.\[[55]\] As a key enabler of AI development, compute is emerging as a key domestic and international governance instrument that can offer greater government oversight. In particular:
 
--   {--{"author":"James's AI","timestamp":1790167919488}@@•
+-   It is a useful node to identify entities conducting cutting-edge AI development[^note-9] (i.e. those using the greatest amount of training compute), which would support the US government in identifying and engaging specific industry players on evaluating and managing risks.\[[67]\]
     
-    --}It is a useful node to identify entities conducting cutting-edge AI development[^note-9] (i.e. those using the greatest amount of training compute), which would support the US government in identifying and engaging specific industry players on evaluating and managing risks.\[[67]\]
+-   Greater oversight would also increase AI exposure and knowledge in the US government, enhancing its ability to effectively regulate this emerging technology.\[[2]\] It would provide the US government with a mechanism to verify the adherence of the leading AI companies’ implementation of their voluntary commitments.\[[60]\] In fact, the cybersecurity provisions in these commitments would also need to be carried out among compute providers, in addition to at the level of AI developers, in order to be effective. Oversight at the compute level would also allow for implementation of potential future regulations. For example, potential regulations on frontier AI systems might be triggered by such systems passing a predefined compute threshold, for which the compute provider can act as a natural checkpoint.
     
--   {--{"author":"James's AI","timestamp":1790167919488}@@•
-    
-    --}Greater oversight would also increase AI exposure and knowledge in the US government, enhancing its ability to effectively regulate this emerging technology.\[[2]\] It would provide the US government with a mechanism to verify the adherence of the leading AI companies’ implementation of their voluntary commitments.\[[60]\] In fact, the cybersecurity provisions in these commitments would also need to be carried out among compute providers, in addition to at the level of AI developers, in order to be effective. Oversight at the compute level would also allow for implementation of potential future regulations. For example, potential regulations on frontier AI systems might be triggered by such systems passing a predefined compute threshold, for which the compute provider can act as a natural checkpoint.
-    
--   {--{"author":"James's AI","timestamp":1790167919488}@@•
-    
-    --}It would also provide the US additional leverage to promote and/or enforce AI standards and regulations on an international scale. Mustafa Suleyman, CEO of AI start-up Inflection and co-founder of DeepMind, has advocated for the US to leverage its chokehold on the chip supply chain to shape global AI standards by limiting the consumption of cutting-edge US chips to entities that agree to adhere to minimum standards.\[[66]\]
+-   It would also provide the US additional leverage to promote and/or enforce AI standards and regulations on an international scale. Mustafa Suleyman, CEO of AI start-up Inflection and co-founder of DeepMind, has advocated for the US to leverage its chokehold on the chip supply chain to shape global AI standards by limiting the consumption of cutting-edge US chips to entities that agree to adhere to minimum standards.\[[66]\]
     
 
 ### Cloud compute is an essential enabler of AI development
@@ -119,25 +105,15 @@ The financial sector presents a case study of situations in which non-compliance
 
 Informed by the model established by the financial sector, the development of a new KYC scheme will require:
 
-1.  {--{"author":"James's AI","timestamp":1790167919853}@@1.
+1.  defining a threshold of AI compute at which the scheme would apply
     
-    --}defining a threshold of AI compute at which the scheme would apply
+2.  introducing requirements and guidance for compute providers above that threshold, including reporting to government entities that match specified ‘high-risk’ profiles, and adhering to rules
     
-2.  {--{"author":"James's AI","timestamp":1790167919853}@@2.
+3.  establishing government capacity for engagement, regulation, and enforcement
     
-    --}introducing requirements and guidance for compute providers above that threshold, including reporting to government entities that match specified ‘high-risk’ profiles, and adhering to rules
+4.  engaging and cooperating with international partners
     
-3.  {--{"author":"James's AI","timestamp":1790167919853}@@3.
-    
-    --}establishing government capacity for engagement, regulation, and enforcement
-    
-4.  {--{"author":"James's AI","timestamp":1790167919853}@@4.
-    
-    --}engaging and cooperating with international partners
-    
-5.  {--{"author":"James's AI","timestamp":1790167919853}@@5.
-    
-    --}establishing a process for evaluation and updates to the scheme.
+5.  establishing a process for evaluation and updates to the scheme.
     
 
 The introduction of a KYC scheme for advanced AI cloud compute would lay the groundwork for understanding the threat, including any substantial access attempts by People’s Liberation Army (PLA)-linked entities, and enable more targeted restrictions to prevent entities of concern from access through the cloud. Importantly, it would also increase government’s ability to see trends and emerging risks and point AI policy makers towards companies operating at the cutting-edge to allow for better engagement in risk management.
@@ -242,21 +218,13 @@ Given its relatively small market size, Australia is aware that its ‘ability t
 
 This should include:
 
--   {--{"author":"James's AI","timestamp":1790167920378}@@•
+-   defining the threshold of AI compute at which the scheme would apply that captures frontier AI models and risks of bolstering an adversarial military’s capability.
     
-    --}defining the threshold of AI compute at which the scheme would apply that captures frontier AI models and risks of bolstering an adversarial military’s capability.
+-   introducing requirements for compute providers above that threshold to verify customers’ identities, keep records, report to government any entities that match government-specified ‘high-risk’ profiles, and implement controls.
     
--   {--{"author":"James's AI","timestamp":1790167920378}@@•
+-   establishing a government unit for implementation, monitoring, and enforcement.
     
-    --}introducing requirements for compute providers above that threshold to verify customers’ identities, keep records, report to government any entities that match government-specified ‘high-risk’ profiles, and implement controls.
-    
--   {--{"author":"James's AI","timestamp":1790167920378}@@•
-    
-    --}establishing a government unit for implementation, monitoring, and enforcement.
-    
--   {--{"author":"James's AI","timestamp":1790167920378}@@•
-    
-    --}a clear process for evaluation and updates to the scheme.
+-   a clear process for evaluation and updates to the scheme.
     
 
 ### 3.2 The Department of Commerce should update rules affecting the Export Administration Regulations to explicitly prohibit the provision of above-threshold compute to entities on the Entity List without a license.

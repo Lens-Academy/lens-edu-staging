@@ -53,17 +53,11 @@ In this work, we introduce two methods for estimating the likelihood that each g
 
 Beyond technical design, we offer a framework for reasoning about model-weight exfiltration from both security-engineering and economic perspectives. Intuitively, exfiltration attempts that move large amounts of data quickly are easier to detect and respond to, whereas extremely slow leaks may be economically irrelevant to either party. We highlight three regimes:
 
-1.  {--{"author":"James's AI","timestamp":1790167970408}@@1.
+1.  Setting 1: Fast exfiltration: An extremely rapid leak that occur before human intervention is possible. For example, if an adversary compromises many endpoints and exfiltrates data from all of them simultaneously (e.g., 10,000 servers each leaking a 1/10,000th fraction of the weights).
     
-    --}Setting 1: Fast exfiltration: An extremely rapid leak that occur before human intervention is possible. For example, if an adversary compromises many endpoints and exfiltrates data from all of them simultaneously (e.g., 10,000 servers each leaking a 1/10,000th fraction of the weights).
+2.  Setting 2: Intermediate exfiltration: A leak occurs over days or weeks, allowing incident-response teams to detect and potentially intervene.
     
-2.  {--{"author":"James's AI","timestamp":1790167970408}@@2.
-    
-    --}Setting 2: Intermediate exfiltration: A leak occurs over days or weeks, allowing incident-response teams to detect and potentially intervene.
-    
-3.  {--{"author":"James's AI","timestamp":1790167970408}@@3.
-    
-    --}Setting 3: Slow exfiltration: Gradual leakage over months or years, which may render the stolen model no longer valuable by the time it is fully reconstructed.
+3.  Setting 3: Slow exfiltration: Gradual leakage over months or years, which may render the stolen model no longer valuable by the time it is fully reconstructed.
     
 
 Fundamentally, by creating a scheme (any scheme) for detecting malicious behavior, this forces the adversary to make a choice: they can either get caught by the detection scheme, and deal with the consequences of being detected; or they must operate a covert or “undetectable” level of exfiltration.
@@ -74,23 +68,15 @@ This work focuses on this “undetectable” regime and designs detection tools 
 
 Inference verification is the task of confirming that a given text output was produced by a specific model running correct inference, rather than by a tampered, substituted, or otherwise divergent process. In this work, we show that inference verification can be applied to the specific threat of steganographic weight exfiltration. We introduce a specific method of inference verification and show that it can be used to bound the capacity available to an adversarial provider trying to encode information in model outputs. This work makes the following contributions:
 
-1.  {--{"author":"James's AI","timestamp":1790167970767}@@1.
+1.  Formalizes model-weight exfiltration as a security game and derives strong bounds on exfiltration capacity when using the systems we propose. We formalize the exfiltration-detection interaction in Experiment [3](#S4.F3 "Figure 3 ‣ 4.1 Security Game ‣ 4 Formulating the Model Weight Exfiltration Security Game ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") and prove three bounds under varying adversarial models (Theorems [5.1](#S5.Thmtheorem1 "Theorem 5.1. ‣ Rate limitation for the FSSL policy. ‣ 5.3 Theoretical Exfiltration Limitations ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"), [5.2](#S5.Thmtheorem2 "Theorem 5.2. ‣ Permitted tokens. ‣ 5.3 Theoretical Exfiltration Limitations ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"), and [5.3](#S5.Thmtheorem3 "Theorem 5.3. ‣ Permitted tokens. ‣ 5.3 Theoretical Exfiltration Limitations ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration")). Along with these adversarial models, we propose architecture which can realize and limit potential adversaries in practice.
     
-    --}Formalizes model-weight exfiltration as a security game and derives strong bounds on exfiltration capacity when using the systems we propose. We formalize the exfiltration-detection interaction in Experiment [3](#S4.F3 "Figure 3 ‣ 4.1 Security Game ‣ 4 Formulating the Model Weight Exfiltration Security Game ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") and prove three bounds under varying adversarial models (Theorems [5.1](#S5.Thmtheorem1 "Theorem 5.1. ‣ Rate limitation for the FSSL policy. ‣ 5.3 Theoretical Exfiltration Limitations ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"), [5.2](#S5.Thmtheorem2 "Theorem 5.2. ‣ Permitted tokens. ‣ 5.3 Theoretical Exfiltration Limitations ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"), and [5.3](#S5.Thmtheorem3 "Theorem 5.3. ‣ Permitted tokens. ‣ 5.3 Theoretical Exfiltration Limitations ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration")). Along with these adversarial models, we propose architecture which can realize and limit potential adversaries in practice.
-    
-2.  {--{"author":"James's AI","timestamp":1790167970767}@@2.
-    
-    --}Introduces a verification framework with multiple scoring methods that reconstruct fixed-seed sampling to detect deviations from expected model behavior.
+2.  Introduces a verification framework with multiple scoring methods that reconstruct fixed-seed sampling to detect deviations from expected model behavior.
     
     We propose the Fixed-Seed Sampling Likelihood (FSSL) as a method for estimating likelihood of being sampled, and we introduce two estimates for this, Token-DiFR (FSSL-GM), and Token-IPT-DiFR (FSSL-IPT), which can be used for LLMs that sample with the Gumbel-Max trick and Inverse Probability Transforms, respectively.
     
-3.  {--{"author":"James's AI","timestamp":1790167970767}@@3.
+3.  Proposes a decoupled verification server architecture that separates security from performance, enabling high-assurance computation on isolated hardware/software stacks without constraining inference throughput. The architecture requires minimal trust assumptions (detailed in Appendix [E](#A5 "Appendix E Trust assumptions for Sampled Output Verification ‣ Verifying LLM Inference to Detect Model Weight Exfiltration")) and has dual-use value for both security monitoring and reliability/bug detection.
     
-    --}Proposes a decoupled verification server architecture that separates security from performance, enabling high-assurance computation on isolated hardware/software stacks without constraining inference throughput. The architecture requires minimal trust assumptions (detailed in Appendix [E](#A5 "Appendix E Trust assumptions for Sampled Output Verification ‣ Verifying LLM Inference to Detect Model Weight Exfiltration")) and has dual-use value for both security monitoring and reliability/bug detection.
-    
-4.  {--{"author":"James's AI","timestamp":1790167970767}@@4.
-    
-    --}Validates empirically on production systems We evaluate exfiltration rates on Llama-3.1-8B, Llama-3.2-3B, Qwen1.5-MoE-7B, Qwen3-30B-A3B. For Qwen3-30B-A3B we demonstrate a ${<}0.5\%$ exfiltrable information rate with $10^{-2}\%$ FPR, a ${\geq}200\times$ slowdown in attack. For a 1 TB model with $1000$Gb of traffic per day, this extends exfiltration time from ${\sim}1$ day to ${>}200$ days.
+4.  Validates empirically on production systems We evaluate exfiltration rates on Llama-3.1-8B, Llama-3.2-3B, Qwen1.5-MoE-7B, Qwen3-30B-A3B. For Qwen3-30B-A3B we demonstrate a ${<}0.5\%$ exfiltrable information rate with $10^{-2}\%$ FPR, a ${\geq}200\times$ slowdown in attack. For a 1 TB model with $1000$Gb of traffic per day, this extends exfiltration time from ${\sim}1$ day to ${>}200$ days.
     
 
 Importantly, as our scheme detects deviations from expected behavior, it will flag not only malicious exfiltration attempts but also inference-time anomalies or bugs. As such, a further benefit of this detection scheme is that it serves a double-purpose and can provide a powerful tool for debugging and reliability monitoring. From an infrastructure standpoint, the systems required for detecting malicious activity and those for detecting model failures are nearly identical.
@@ -293,37 +279,21 @@ The main advantage to the attacker is that generally users expect to be able to 
 
 We define a simple extraction game, which we later be used to bound the success probability of an adversary extracting information, in Section [5.3](#S5.SS3 "5.3 Theoretical Exfiltration Limitations ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"). The formal description is given in Experiment [3](#S4.F3 "Figure 3 ‣ 4.1 Security Game ‣ 4 Formulating the Model Weight Exfiltration Security Game ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"), which is parameterized by:
 
--   {--{"author":"James's AI","timestamp":1790167971109}@@•
+-   $\mathcal{T}$, the token set (i.e., vocabulary or alphabet) of the adversary’s message.
     
-    --}$\mathcal{T}$, the token set (i.e., vocabulary or alphabet) of the adversary’s message.
+-   $\mathsf{H}$, is a hash or pseudorandom function, modeled as a random oracle for simplicity.
     
--   {--{"author":"James's AI","timestamp":1790167971109}@@•
+-   $\mathcal{A}_{0}$, $\mathcal{A}_{1}$, $\mathcal{A}_{2}$, the adversary’s preprocessing, encoding, and decoding algorithms respectively.
     
-    --}$\mathsf{H}$, is a hash or pseudorandom function, modeled as a random oracle for simplicity.
+-   $\mathcal{D}_{\theta,\mathcal{H}}(\mathsf{seed})$, the honest response distribution , determined by the model weights $\theta$, context (or prompt) $\mathcal{H}$, and seed $\mathsf{seed}$. In our context, even after all these are given, the output is a _randomized_ because of “invalid nondeterminism” (Section [3.3](#S3.SS3 "3.3 Non-determinism in Machine Learning ‣ 3 LLM Inference Preliminaries ‣ Verifying LLM Inference to Detect Model Weight Exfiltration")). In our security games, we suppress the $\theta$ and $\mathcal{H}$ parameters and treat them as fixed for the given adversary.
     
--   {--{"author":"James's AI","timestamp":1790167971109}@@•
+-   $\mathcal{W}$ (warden), the policy algorithm to determine whether to flag a message.
     
-    --}$\mathcal{A}_{0}$, $\mathcal{A}_{1}$, $\mathcal{A}_{2}$, the adversary’s preprocessing, encoding, and decoding algorithms respectively.
+-   $n$, the number of bits which the adversary is challenged to exfiltrate (in our setting, this is the length of the model weights).
     
--   {--{"author":"James's AI","timestamp":1790167971109}@@•
+-   $\ell$, the length of the adversary’s message.
     
-    --}$\mathcal{D}_{\theta,\mathcal{H}}(\mathsf{seed})$, the honest response distribution , determined by the model weights $\theta$, context (or prompt) $\mathcal{H}$, and seed $\mathsf{seed}$. In our context, even after all these are given, the output is a _randomized_ because of “invalid nondeterminism” (Section [3.3](#S3.SS3 "3.3 Non-determinism in Machine Learning ‣ 3 LLM Inference Preliminaries ‣ Verifying LLM Inference to Detect Model Weight Exfiltration")). In our security games, we suppress the $\theta$ and $\mathcal{H}$ parameters and treat them as fixed for the given adversary.
-    
--   {--{"author":"James's AI","timestamp":1790167971109}@@•
-    
-    --}$\mathcal{W}$ (warden), the policy algorithm to determine whether to flag a message.
-    
--   {--{"author":"James's AI","timestamp":1790167971109}@@•
-    
-    --}$n$, the number of bits which the adversary is challenged to exfiltrate (in our setting, this is the length of the model weights).
-    
--   {--{"author":"James's AI","timestamp":1790167971109}@@•
-    
-    --}$\ell$, the length of the adversary’s message.
-    
--   {--{"author":"James's AI","timestamp":1790167971109}@@•
-    
-    --}$\lambda$, the seed length of the model’s randomness and the security parameter of the system.
+-   $\lambda$, the seed length of the model’s randomness and the security parameter of the system.
     
 
 Success in this security game is defined by the adversary successfully reconstructing the challenge bits from the message (and any other precomputed material) itself. We define security for computationally bounded adversaries and policies as well as unbounded algorithms.
@@ -339,37 +309,21 @@ Figure 3: Outline of the security game described in Experiment [3](#S4.F3 "Figur
 \[Exfiltration Experiment\] Parameters. Let positive integers $n$ be the challenge bit length, $\ell$ be the maximum response length, and $\lambda$ be the security parameter. Let $\mathcal{T}$ be the token set (vocabulary) of messages and $\mathcal{D}^{\mathsf{H}}(\sigma)$ be a randomized function from $\{0,1\}^{\lambda}$ to $\mathcal{T}^{\leq\ell}$. Then, for a policy $\mathcal{W}$ and adversary $\mathcal{A}=(\mathcal{A}_{0},\mathcal{A}_{1},\mathcal{A}_{2})$, we define the games:  
 $\mathbf{Exfil}_{\mathcal{W},\mathcal{A},\mathcal{D}}(\lambda,n,\ell)$  $\mathbf{Exfil}^{\mathbf{r}}_{\mathcal{W},\mathcal{A},\mathcal{D}}(\lambda,n,\ell)$
 
-1.  {--{"author":"James's AI","timestamp":1790167971109}@@1.
+1.  Initialize a random oracle $\mathsf{H}:\{0,1\}^{*}\to\{0,1\}$
     
-    --}Initialize a random oracle $\mathsf{H}:\{0,1\}^{*}\to\{0,1\}$
+2.  $\mathsf{st}_{1},\mathsf{st}_{2}\leftarrow\mathcal{A}_{0}^{\mathsf{H}}(1^{\lambda},1^{n},1^{\ell})$    // preprocessing
     
-2.  {--{"author":"James's AI","timestamp":1790167971109}@@2.
+3.  $X\leftarrow\{0,1\}^{n}$ ; $\sigma\leftarrow\{0,1\}^{\lambda}$   // sample challenge and seed
     
-    --}$\mathsf{st}_{1},\mathsf{st}_{2}\leftarrow\mathcal{A}_{0}^{\mathsf{H}}(1^{\lambda},1^{n},1^{\ell})$    // preprocessing
+4.  $\hat{T}\leftarrow\mathcal{A}_{1}^{\mathsf{H}}(\mathsf{st}_{1},X,\sigma)$      // generate cover response
     
-3.  {--{"author":"James's AI","timestamp":1790167971109}@@3.
+5.  If $\mathcal{W}^{\mathsf{H}}(\sigma,\hat{T})=1$, then output $\bot$
     
-    --}$X\leftarrow\{0,1\}^{n}$ ; $\sigma\leftarrow\{0,1\}^{\lambda}$   // sample challenge and seed
+6.  $\hat{X}\leftarrow\mathcal{A}_{2}^{\mathsf{H}}(\mathsf{st}_{2},\hat{T},\sigma)$ $\hat{X}\leftarrow\mathcal{A}_{2}^{\mathsf{H}}(\mathsf{st}_{2},\hat{T})$  // recovery
     
-4.  {--{"author":"James's AI","timestamp":1790167971109}@@4.
+7.  If $\hat{X}=X$, then output $1$
     
-    --}$\hat{T}\leftarrow\mathcal{A}_{1}^{\mathsf{H}}(\mathsf{st}_{1},X,\sigma)$      // generate cover response
-    
-5.  {--{"author":"James's AI","timestamp":1790167971109}@@5.
-    
-    --}If $\mathcal{W}^{\mathsf{H}}(\sigma,\hat{T})=1$, then output $\bot$
-    
-6.  {--{"author":"James's AI","timestamp":1790167971109}@@6.
-    
-    --}$\hat{X}\leftarrow\mathcal{A}_{2}^{\mathsf{H}}(\mathsf{st}_{2},\hat{T},\sigma)$ $\hat{X}\leftarrow\mathcal{A}_{2}^{\mathsf{H}}(\mathsf{st}_{2},\hat{T})$  // recovery
-    
-7.  {--{"author":"James's AI","timestamp":1790167971109}@@7.
-    
-    --}If $\hat{X}=X$, then output $1$
-    
-8.  {--{"author":"James's AI","timestamp":1790167971109}@@8.
-    
-    --}Else, output $0$.
+8.  Else, output $0$.
     
 
 These definitions are presented in the _random oracle model_ \[[BR93](#bib.bib206 "Random oracles are practical: a paradigm for designing efficient protocols")\], which enables some of our later results. Note that all parties know and have access to $\mathcal{D}^{\mathsf{H}}.$
@@ -380,13 +334,9 @@ The first game $\mathbf{Exfil}$ is the standard game, where both parties are awa
 
 A policy $\mathcal{W}$ is (computationally) _$(\alpha,\varepsilon)$\-exfiltration secure_ if:
 
-1.  {--{"author":"James's AI","timestamp":1790167971480}@@1.
+1.  For all $\sigma$, $\Pr_{T\sim\mathcal{D}^{\mathsf{H}}(\sigma)}\big[\mathcal{W}^{\mathsf{H}}(\mathsf{seed},T)=1\big]\leq\alpha,$ i.e., $\mathcal{W}$ has false positive rate $\alpha$,
     
-    --}For all $\sigma$, $\Pr_{T\sim\mathcal{D}^{\mathsf{H}}(\sigma)}\big[\mathcal{W}^{\mathsf{H}}(\mathsf{seed},T)=1\big]\leq\alpha,$ i.e., $\mathcal{W}$ has false positive rate $\alpha$,
-    
-2.  {--{"author":"James's AI","timestamp":1790167971480}@@2.
-    
-    --}and for all (PPT) adversaries $\mathcal{A}$, $\Pr\big[\mathbf{Exfil}_{\mathcal{W},\mathcal{A},\mathcal{D}}(\lambda,n,\ell)=1\big]-2^{-n}\leq\varepsilon.$
+2.  and for all (PPT) adversaries $\mathcal{A}$, $\Pr\big[\mathbf{Exfil}_{\mathcal{W},\mathcal{A},\mathcal{D}}(\lambda,n,\ell)=1\big]-2^{-n}\leq\varepsilon.$
     
 
 Note that $\alpha$ and $\varepsilon$ are, in general, functions of the parameters $\lambda$, $n$, $\ell$, or even $\mathcal{D}$. If the above holds only for $\mathbf{Exfil}^{\mathbf{r}}$ rather than $\mathbf{Exfil}$, then we say it $\mathcal{W}$ is secure _against seed agnostic decoders_.
@@ -435,17 +385,11 @@ At a high level, the system operates as follows (illustrated in Figure [4](#S5.F
 
 Figure 4: Overview of the verification system for runtime output validation. A lock symbol denotes parts of the inference verification scheme that require high integrity, further explored in Section [E](#A5 "Appendix E Trust assumptions for Sampled Output Verification ‣ Verifying LLM Inference to Detect Model Weight Exfiltration")
 
-1.  {--{"author":"James's AI","timestamp":1790167971861}@@1.
+1.  Inference Logging. The API Server logs all inference inputs and outputs, together with references to the exact model release, code version, and the seed used for that inference.[^note-rinberg-5]
     
-    --}Inference Logging. The API Server logs all inference inputs and outputs, together with references to the exact model release, code version, and the seed used for that inference.[^note-rinberg-5]
+2.  Verification. An isolated _Verification Server_ re-executes a random subset of logged inferences using a trusted version of the model and codebase.
     
-2.  {--{"author":"James's AI","timestamp":1790167971861}@@2.
-    
-    --}Verification. An isolated _Verification Server_ re-executes a random subset of logged inferences using a trusted version of the model and codebase.
-    
-3.  {--{"author":"James's AI","timestamp":1790167971861}@@3.
-    
-    --}Analysis and Escalation. The security team reviews any significant discrepancies between verified and observed outputs, triggering deeper audits when divergences exceed predefined statistical thresholds.
+3.  Analysis and Escalation. The security team reviews any significant discrepancies between verified and observed outputs, triggering deeper audits when divergences exceed predefined statistical thresholds.
     
 
 The degree of isolation of the Verification Server is a tunable security parameter. In minimal deployments, this can be enforced through access controls and containerization; in the extreme, the verification server may be fully air-gapped. All trust assumptions are detailed in Appendix [E](#A5 "Appendix E Trust assumptions for Sampled Output Verification ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
@@ -512,13 +456,9 @@ First, using the capacity limitations covered in Theorem [B.4](#A2.Thmtheorem4 "
 
 Let $\mathcal{W}$ be a $(p,q)$\-restricted policy with false positive rate $\alpha$ on $\mathcal{D}$. Define $r^{\prime}:=\log q-h(1-p)-(1-p)\log(q-1)$ where $h$ is the binary entropy function. Then, $\mathcal{W}$ is $(\alpha,\varepsilon)$\-secure against admissible adversaries for $\varepsilon=(2^{\ell\cdot r^{\prime}}-1)/2^{n}$, under the following additional conditions:
 
-1.  {--{"author":"James's AI","timestamp":1790167972334}@@1.
+1.  the seed is longer than the response, i.e., $\lambda>\ell\log|\mathcal{T}|$,
     
-    --}the seed is longer than the response, i.e., $\lambda>\ell\log|\mathcal{T}|$,
-    
-2.  {--{"author":"James's AI","timestamp":1790167972334}@@2.
-    
-    --}and the adversary $\mathcal{A}_{1}$ computes $\mathcal{D}^{\mathsf{H}}(\sigma)$ once and never queries $\mathsf{H}$ otherwise.
+2.  and the adversary $\mathcal{A}_{1}$ computes $\mathcal{D}^{\mathsf{H}}(\sigma)$ once and never queries $\mathsf{H}$ otherwise.
     
 
 ###### Proof.
@@ -533,17 +473,11 @@ If the interactivity of the hash function evaluation is too expensive, we prove 
 
 Let $\mathcal{W}$ be a $(p,q)$\-restricted policy with false positive rate $\alpha$ on $\mathcal{D}$. For any constant $\delta>0$ define $r^{\prime}:=(p+\delta)\log q$. Then, $\mathcal{W}$ is $(\alpha,\varepsilon)$\-secure against admissible adversaries for $\varepsilon=(2^{\ell\cdot r^{\prime}}-1)/2^{n}+e^{(-O(\ell))}$, under the following additional conditions:
 
-1.  {--{"author":"James's AI","timestamp":1790167972816}@@1.
+1.  the seed is longer than the response, i.e., $\lambda>\ell\log|\mathcal{T}|$,
     
-    --}the seed is longer than the response, i.e., $\lambda>\ell\log|\mathcal{T}|$,
+2.  The inference distribution $\mathcal{D}^{\mathsf{H}}(\sigma)$ samples randomness sequentially,
     
-2.  {--{"author":"James's AI","timestamp":1790167972816}@@2.
-    
-    --}The inference distribution $\mathcal{D}^{\mathsf{H}}(\sigma)$ samples randomness sequentially,
-    
-3.  {--{"author":"James's AI","timestamp":1790167972816}@@3.
-    
-    --}and the adversary $\mathcal{A}_{1}$ queries $\mathsf{H}$ at most $O_{\delta}(\ell)$ times.
+3.  and the adversary $\mathcal{A}_{1}$ queries $\mathsf{H}$ at most $O_{\delta}(\ell)$ times.
     
 
 ###### Proof.
@@ -740,13 +674,9 @@ In this section, we review some relevant notation, concepts, and terms that are 
 
 Let $\ell_{\mathrm{msg}},\ell_{\mathrm{cov}}\in\mathbb{N}$ be integers and $\mathcal{T}$ be a set of tokens (a.k.a. vocabulary or alphabet). Let $\mathcal{D}$ be the passive channel distribution with support $X\subseteq\mathcal{T}^{\leq\ell_{\mathrm{cov}}}$. A _steganography scheme for $\mathcal{D}$_ is a pair of stateful (possibly randomized) algorithms $\mathsf{Steg}=(\mathsf{Enc},\mathsf{Dec})$ with the following syntax:
 
--   {--{"author":"James's AI","timestamp":1790167973231}@@•
+-   $\mathsf{Enc}(K,\mathsf{st},m)\to c$, takes a key $K\in\{0,1\}^{\lambda}$, a state $\mathsf{st}$, a message $m\in\{0,1\}^{\leq\ell_{\mathrm{msg}}}$ and outputs a covertext $c\in\mathcal{T}^{\leq\ell_{\mathrm{cov}}}$.
     
-    --}$\mathsf{Enc}(K,\mathsf{st},m)\to c$, takes a key $K\in\{0,1\}^{\lambda}$, a state $\mathsf{st}$, a message $m\in\{0,1\}^{\leq\ell_{\mathrm{msg}}}$ and outputs a covertext $c\in\mathcal{T}^{\leq\ell_{\mathrm{cov}}}$.
-    
--   {--{"author":"James's AI","timestamp":1790167973231}@@•
-    
-    --}$\mathsf{Dec}(K,\mathsf{st},c)\to m$, takes a key $K\in\{0,1\}^{\lambda}$, a state $\mathsf{st}$, a covertext $c\in\mathcal{T}^{\leq\ell_{\mathrm{cov}}}$ and outputs a message $m\in\{0,1\}^{\leq\ell_{\mathrm{msg}}}$.
+-   $\mathsf{Dec}(K,\mathsf{st},c)\to m$, takes a key $K\in\{0,1\}^{\lambda}$, a state $\mathsf{st}$, a covertext $c\in\mathcal{T}^{\leq\ell_{\mathrm{cov}}}$ and outputs a message $m\in\{0,1\}^{\leq\ell_{\mathrm{msg}}}$.
     
 
 For a steganography scheme to be useful, it must be _correct_, meaning that for every $\mathsf{st}$ and $m$, $\Pr_{K}[\mathsf{Dec}(K,\mathsf{st},\mathsf{Enc}(K,\mathsf{st},m))=m]=1-\mathrm{negl}(\lambda).$ When, this probability is $1$, we say the scheme is _perfectly correct_. It must also be _secure_, meaning that for any $\mathsf{st}$ and $m$, $D_{\mathrm{KL}}(\mathcal{D}_{\mathsf{Steg}}\|\mathcal{D})=\mathrm{negl}(\lambda),$ where $\mathcal{D}_{\mathsf{Steg}}$ is the covertext distribution generated as $K\overset{{\scriptscriptstyle\mathrm{random}}}{\leftarrow}\{0,1\}^{\lambda}$ and $c\overset{{\scriptscriptstyle\mathrm{random}}}{\leftarrow}\mathsf{Enc}(K,\mathsf{st},m)$.
@@ -993,13 +923,9 @@ $$
 \Pr(X\geq k)\geq c,\quad\text{where }X\sim\text{Binomial}(n,p).
 $$
 
--   {--{"author":"James's AI","timestamp":1790167973694}@@•
+-   For $p=1\%$, $c=99\%$, $k=1$, this is $n=460$ samples.
     
-    --}For $p=1\%$, $c=99\%$, $k=1$, this is $n=460$ samples.
-    
--   {--{"author":"James's AI","timestamp":1790167973694}@@•
-    
-    --}For $p=1\%$, $c=99\%$, $k=100$, this is $n=12{,}460$ samples.
+-   For $p=1\%$, $c=99\%$, $k=100$, this is $n=12{,}460$ samples.
     
 
 ## Appendix E Trust assumptions for Sampled Output Verification
@@ -1010,17 +936,11 @@ In our proposed solution, it is important that the verification server correctly
 
 In order to achieve this level trust, we list a few possible properties of the Verification Server that might support this assumption:
 
--   {--{"author":"James's AI","timestamp":1790167974127}@@•
+-   Trusted compute: It can use GPU TEEs or even CPUs to verify inference—even if doing so is inefficient.
     
-    --}Trusted compute: It can use GPU TEEs or even CPUs to verify inference—even if doing so is inefficient.
+-   Verifiable, simple code: Its code does not need to be highly optimized, and any changes to it can be closely monitored.
     
--   {--{"author":"James's AI","timestamp":1790167974127}@@•
-    
-    --}Verifiable, simple code: Its code does not need to be highly optimized, and any changes to it can be closely monitored.
-    
--   {--{"author":"James's AI","timestamp":1790167974127}@@•
-    
-    --}Independent root of trust: Attackers will now need to compromise the Verification Server in addition to the Inference Server. One could imagine spinning up several independent Verification Servers operated by independent teams of engineers/agents and running in mutually isolated environments.
+-   Independent root of trust: Attackers will now need to compromise the Verification Server in addition to the Inference Server. One could imagine spinning up several independent Verification Servers operated by independent teams of engineers/agents and running in mutually isolated environments.
     
 
 ### E.2 Assumption 2: All messages passed between users and the Inference Server are correctly logged and securely stored
@@ -1035,13 +955,9 @@ One idea would be to secure inference records and model artifacts against tamper
 
 Some notes on how this might work in practice:
 
--   {--{"author":"James's AI","timestamp":1790167974492}@@•
+-   The hashes can be signed using a private key only available on the trusted logging device
     
-    --}The hashes can be signed using a private key only available on the trusted logging device
-    
--   {--{"author":"James's AI","timestamp":1790167974492}@@•
-    
-    --}Any systems that reference entries in the model ledger or inference ledger should store local records of any hashes they’ve encountered—periodically they could then check whether these historical hashes still exist in the relevant ledgers. This means that attacking the ledgers would require compromising many independent systems simultaneously
+-   Any systems that reference entries in the model ledger or inference ledger should store local records of any hashes they’ve encountered—periodically they could then check whether these historical hashes still exist in the relevant ledgers. This means that attacking the ledgers would require compromising many independent systems simultaneously
     
 
 ### E.3 Assumption 3: The attacker can neither predict nor alter which logs the Verification Server will sample to verify
@@ -1072,28 +988,18 @@ Under this assumption, the adversary: (i) cannot specify or influence the infere
 
 A critical part of deployment to prevent adversarial exfiltration is proper seed management. If the adversary is able to predict or precompute which tokens will be selected during generation, they may be able to choose seeds and prompt combinations carefully to maximize the exfiltration potential. To be sure that this isn’t possible, it’s important to at the very least:
 
-1.  {--{"author":"James's AI","timestamp":1790167974988}@@1.
+1.  Use a sufficiently long seed to prevent precomputing and exhaustive searches for good seeds.
     
-    --}Use a sufficiently long seed to prevent precomputing and exhaustive searches for good seeds.
-    
-2.  {--{"author":"James's AI","timestamp":1790167974988}@@2.
-    
-    --}Use a random key and cryptographically secure hash function to expand the seed. More specifically, one can expand the seed $\sigma$ by computing $H(K,\sigma)$, where $H$ is a secure hash, e.g. SHA3, and $K$ is a random key.
+2.  Use a random key and cryptographically secure hash function to expand the seed. More specifically, one can expand the seed $\sigma$ by computing $H(K,\sigma)$, where $H$ is a secure hash, e.g. SHA3, and $K$ is a random key.
     
 
 Beyond the above, we outline further measures that one can take in Section [5.3](#S5.SS3 "5.3 Theoretical Exfiltration Limitations ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"). These additional constraints can provably limit the exfiltration of adversaries but may come at some inconvenient costs to the system architecture. Specifically, one may choose to also:
 
-1.  {--{"author":"James's AI","timestamp":1790167974988}@@1.
+1.  Expand the seed adaptively, based on tokens chosen previously. So, computing the randomness for the next token as $H(K,\sigma,x)$, where $x$ is the prompt and tokens computed thus far (used in Theorems [5.2](#S5.Thmtheorem2 "Theorem 5.2. ‣ Permitted tokens. ‣ 5.3 Theoretical Exfiltration Limitations ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") and [5.3](#S5.Thmtheorem3 "Theorem 5.3. ‣ Permitted tokens. ‣ 5.3 Theoretical Exfiltration Limitations ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration")).
     
-    --}Expand the seed adaptively, based on tokens chosen previously. So, computing the randomness for the next token as $H(K,\sigma,x)$, where $x$ is the prompt and tokens computed thus far (used in Theorems [5.2](#S5.Thmtheorem2 "Theorem 5.2. ‣ Permitted tokens. ‣ 5.3 Theoretical Exfiltration Limitations ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") and [5.3](#S5.Thmtheorem3 "Theorem 5.3. ‣ Permitted tokens. ‣ 5.3 Theoretical Exfiltration Limitations ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration")).
+2.  Expand initial seed into much longer seed in trusted system, to prevent seed exfiltration. So, an API server may compute a large $\sigma^{\prime}\leftarrow H(K,\sigma)$ that is given to the inference server as and then continue further expansion by running $H(K,\sigma^{\prime},x)$ (used in Theorem [5.3](#S5.Thmtheorem3 "Theorem 5.3. ‣ Permitted tokens. ‣ 5.3 Theoretical Exfiltration Limitations ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration")).
     
-2.  {--{"author":"James's AI","timestamp":1790167974988}@@2.
-    
-    --}Expand initial seed into much longer seed in trusted system, to prevent seed exfiltration. So, an API server may compute a large $\sigma^{\prime}\leftarrow H(K,\sigma)$ that is given to the inference server as and then continue further expansion by running $H(K,\sigma^{\prime},x)$ (used in Theorem [5.3](#S5.Thmtheorem3 "Theorem 5.3. ‣ Permitted tokens. ‣ 5.3 Theoretical Exfiltration Limitations ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration")).
-    
-3.  {--{"author":"James's AI","timestamp":1790167974988}@@3.
-    
-    --}Keep the expansion key in a trusted system and require interaction to get the randomness for the next token (used in Theorem [5.2](#S5.Thmtheorem2 "Theorem 5.2. ‣ Permitted tokens. ‣ 5.3 Theoretical Exfiltration Limitations ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration")).
+3.  Keep the expansion key in a trusted system and require interaction to get the randomness for the next token (used in Theorem [5.2](#S5.Thmtheorem2 "Theorem 5.2. ‣ Permitted tokens. ‣ 5.3 Theoretical Exfiltration Limitations ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration")).
     
 
 Although these measures do require careful implementation at the system level, they can provide significant returns in protecting the theoretical exfiltration rate. And, although cryptographic operations and interaction are often expensive in real-world deployments, we note that the additional cost of these operations does not bottleneck performance compared to the inference time of generative AI models.
@@ -1104,13 +1010,9 @@ Theorem [5.1](#S5.Thmtheorem1 "Theorem 5.1. ‣ Rate limitation for the FSSL pol
 
 Such assumptions may appear too strong at first glance. How likely is it that the adversary is able to obtain all of this information? As with many areas of cryptography, we aim to overestimate the power of the adversary in order to obtain _stronger_ bounds on realistic adversarial capability. That being said, we argue that these assumptions are achieved by some very plausible adversaries:
 
--   {--{"author":"James's AI","timestamp":1790167975409}@@•
+-   An adversary may have already exfiltrated a small model was already exfiltrated that is accessible through a system’s API, and the adversarial server is now exfiltrating a larger model through queries to the smaller model.
     
-    --}An adversary may have already exfiltrated a small model was already exfiltrated that is accessible through a system’s API, and the adversarial server is now exfiltrating a larger model through queries to the smaller model.
-    
--   {--{"author":"James's AI","timestamp":1790167975409}@@•
-    
-    --}The adversary may have distilled a small model on the outputs of a large model for specific prompts or domains. Then, by exfiltrating only on that set of prompts, the receiver will have an extremely close probability distribution to the large model.
+-   The adversary may have distilled a small model on the outputs of a large model for specific prompts or domains. Then, by exfiltrating only on that set of prompts, the receiver will have an extremely close probability distribution to the large model.
     
 
 In Theorem [5.1](#S5.Thmtheorem1 "Theorem 5.1. ‣ Rate limitation for the FSSL policy. ‣ 5.3 Theoretical Exfiltration Limitations ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") we also assume the outside adversary obtains the generation seed. This way we can prove a bound without making as many trust and cryptographic assumptions. Also, in many real-world deployments, one may want the flexibility to modify seed generation to either speed up or simplify the infrastructure and avoid deployed extremely secure seed expansion (although this cost is much smaller than the cost of inference).
@@ -1129,13 +1031,9 @@ Speculative decoding \[[LKM23](#bib.bib194 "Fast inference from transformers via
 
 In the main body of this work, we focus our verification methodology on standard autoregressive sampling (Section [6](#S6 "6 Implementing a Verification Server ‣ Verifying LLM Inference to Detect Model Weight Exfiltration")), where a single model generates one token at a time. This choice reflects two practical considerations:
 
-1.  {--{"author":"James's AI","timestamp":1790167975859}@@1.
+1.  Production systems exhibit heterogeneity in their acceleration strategies: while speculative decoding is common, implementations vary significantly across frameworks and deployments.
     
-    --}Production systems exhibit heterogeneity in their acceleration strategies: while speculative decoding is common, implementations vary significantly across frameworks and deployments.
-    
-2.  {--{"author":"James's AI","timestamp":1790167975859}@@2.
-    
-    --}At the time of writing, vLLM version 0.10 does not natively support speculative decoding.
+2.  At the time of writing, vLLM version 0.10 does not natively support speculative decoding.
     
 
 Nevertheless, we recognize that speculative decoding represents an important class of real-world inference strategies. In this appendix, we demonstrate that our verification framework naturally extends to handle speculative decoding with minimal modifications.
@@ -1152,38 +1050,24 @@ Depending on the specific method used for speculative decoding the verification 
 
 This work focuses primarily on the _detection_ of potential model-weight exfiltration attempts rather than on post-detection remediation. In particular, we formalize the task of determining whether a batch of model outputs contains covertly embedded information. Following the literature on steganographic detection \[[KER07](#bib.bib8 "Batch steganography and pooled steganalysis"), [KP12](#bib.bib18 "Batch steganography in the real world")\], we envision verification pipelines adhering to a general three-step structure:
 
-1.  {--{"author":"James's AI","timestamp":1790167976283}@@1.
+1.  Per-token scoring: Assign a suspiciousness score to each token using an appropriate statistical or model-based function (e.g., likelihood ratios, cross-model divergence, or reconstruction residuals).
     
-    --}Per-token scoring: Assign a suspiciousness score to each token using an appropriate statistical or model-based function (e.g., likelihood ratios, cross-model divergence, or reconstruction residuals).
+2.  Pooling: Aggregate token-level scores into sequence-, user-, or deployment-level statistics via a chosen pooling function (e.g., mean, max, or robust thresholding).
     
-2.  {--{"author":"James's AI","timestamp":1790167976283}@@2.
-    
-    --}Pooling: Aggregate token-level scores into sequence-, user-, or deployment-level statistics via a chosen pooling function (e.g., mean, max, or robust thresholding).
-    
-3.  {--{"author":"James's AI","timestamp":1790167976283}@@3.
-    
-    --}Flagging: Identify batches or entities whose pooled scores exceed a defined operational threshold, signaling possible exfiltration or anomalous behavior.
+3.  Flagging: Identify batches or entities whose pooled scores exceed a defined operational threshold, signaling possible exfiltration or anomalous behavior.
     
 
 This framework deliberately mirrors that of batch steganalysis, where the goal is not to prove intent but to highlight objects that merit investigation. Detection signals should thus be treated as probabilistic indicators rather than definitive evidence of compromise.
 
 Operational response. Once a token batch or deployment is flagged, the appropriate policy response depends on the severity, frequency, and operational sensitivity of the detection. A proportionate and auditable escalation pathway might include the following steps:
 
-1.  {--{"author":"James's AI","timestamp":1790167976283}@@1.
+1.  Rate-limit or reduce per-user bitrate. Temporarily lower allowable output volumes or token-generation rates for implicated users or systems, thereby constraining potential exfiltration bandwidth while maintaining partial service availability. This should be paired with _Know Your Customer_ (KYC) or identity-verification mechanisms to mitigate Sybil-style circumvention ([https://en.wikipedia.org/wiki/Sybil\_attack](https://en.wikipedia.org/wiki/Sybil_attack)).
     
-    --}Rate-limit or reduce per-user bitrate. Temporarily lower allowable output volumes or token-generation rates for implicated users or systems, thereby constraining potential exfiltration bandwidth while maintaining partial service availability. This should be paired with _Know Your Customer_ (KYC) or identity-verification mechanisms to mitigate Sybil-style circumvention ([https://en.wikipedia.org/wiki/Sybil\_attack](https://en.wikipedia.org/wiki/Sybil_attack)).
+2.  Quarantine and investigate machines or deployments. Isolate hosts, containers, or code branches that repeatedly produce high-suspiciousness outputs. Conduct forensic review of environment variables, code diffs, and access logs to detect injected payloads or altered sampling procedures.
     
-2.  {--{"author":"James's AI","timestamp":1790167976283}@@2.
+3.  Human-in-the-loop review. Contact or interview users responsible for flagged activity, allowing for legitimate use cases to be surfaced and appeals to be made. Human review is particularly valuable when benign but novel workloads (e.g., creative generation or low-frequency topics) may trigger false positives.
     
-    --}Quarantine and investigate machines or deployments. Isolate hosts, containers, or code branches that repeatedly produce high-suspiciousness outputs. Conduct forensic review of environment variables, code diffs, and access logs to detect injected payloads or altered sampling procedures.
-    
-3.  {--{"author":"James's AI","timestamp":1790167976283}@@3.
-    
-    --}Human-in-the-loop review. Contact or interview users responsible for flagged activity, allowing for legitimate use cases to be surfaced and appeals to be made. Human review is particularly valuable when benign but novel workloads (e.g., creative generation or low-frequency topics) may trigger false positives.
-    
-4.  {--{"author":"James's AI","timestamp":1790167976283}@@4.
-    
-    --}Incident escalation and attribution. If multiple correlated detections arise across distinct systems, escalate to incident response and coordinate attribution analysis. Cross-reference event metadata (user, GPU ID, deployment hash) to localize possible compromise points.
+4.  Incident escalation and attribution. If multiple correlated detections arise across distinct systems, escalate to incident response and coordinate attribution analysis. Cross-reference event metadata (user, GPU ID, deployment hash) to localize possible compromise points.
     
 
 ### G.1 Privacy-preserving data analysis.
@@ -1216,17 +1100,11 @@ Figure 12: Histogram of FSSL-GM scores for actually-generated tokens across 500 
 
 Given the empirical score distribution from benign traffic, we select thresholds to achieve specific false-positive rates. Figure [13](#A8.F13 "Figure 13 ‣ H.3 Threshold Selection and FPR-Information Trade-off ‣ Appendix H FSSL-GM Score Statistics ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") illustrates this trade-off:
 
--   {--{"author":"James's AI","timestamp":1790167976710}@@•
+-   X-axis (threshold $\tau$): More negative thresholds accept more tokens (lower FPR, higher usability) but allow adversaries to exfiltrate more information. More positive thresholds reject more tokens (higher FPR, lower usability) but tighten the information bound.
     
-    --}X-axis (threshold $\tau$): More negative thresholds accept more tokens (lower FPR, higher usability) but allow adversaries to exfiltrate more information. More positive thresholds reject more tokens (higher FPR, lower usability) but tighten the information bound.
+-   Left Y-axis (False Positive Rate): The fraction of benign tokens with $\mathrm{FSSL-GM}_{t}(y_{t})<\tau$. Computed directly from the cumulative distribution of Figure [12](#A8.F12 "Figure 12 ‣ H.2 Distribution of FSSL-GM Scores for Actually-Generated Tokens ‣ Appendix H FSSL-GM Score Statistics ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
     
--   {--{"author":"James's AI","timestamp":1790167976710}@@•
-    
-    --}Left Y-axis (False Positive Rate): The fraction of benign tokens with $\mathrm{FSSL-GM}_{t}(y_{t})<\tau$. Computed directly from the cumulative distribution of Figure [12](#A8.F12 "Figure 12 ‣ H.2 Distribution of FSSL-GM Scores for Actually-Generated Tokens ‣ Appendix H FSSL-GM Score Statistics ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
-    
--   {--{"author":"James's AI","timestamp":1790167976710}@@•
-    
-    --}Right Y-axis (Extractable Information): The worst-case per-token information an adversary can exfiltrate, computed as $\frac{1}{T}\sum_{t}\log_{2}|A_{t}(\tau)|$ where $A_{t}(\tau)$ is the admissible set (tokens with $\mathrm{FSSL-GM}_{t}(i)\geq\tau$).
+-   Right Y-axis (Extractable Information): The worst-case per-token information an adversary can exfiltrate, computed as $\frac{1}{T}\sum_{t}\log_{2}|A_{t}(\tau)|$ where $A_{t}(\tau)$ is the admissible set (tokens with $\mathrm{FSSL-GM}_{t}(i)\geq\tau$).
     
 
 Practitioners can use this curve to select operating points: for example, tolerating 0.1% FPR might reduce extractable information to $<$1 bit/token (versus the baseline $\log_{2}(|\text{vocab}|)\approx 16$ bits/token).
@@ -1397,50 +1275,30 @@ Additionally, an attacker may combine internal services to bypass perimeter cont
 
 This scheme is one tool among many, in order to lock down model weights, it is important to also do the following high-level defenses:
 
-1.  {--{"author":"James's AI","timestamp":1790167977039}@@1.
+1.  Close down side channels. Remove ways information can leak through timing, message size, or system behavior. _Examples:_ send replies at a steady pace; pad/clip lengths; do not expose internal scores/log probabilities; do not let users set random seeds; keep sensitive jobs on separate machines.
     
-    --}Close down side channels. Remove ways information can leak through timing, message size, or system behavior. _Examples:_ send replies at a steady pace; pad/clip lengths; do not expose internal scores/log probabilities; do not let users set random seeds; keep sensitive jobs on separate machines.
+2.  Close down & monitor development channels. Reduce what internal tools can reveal and monitor their use through access control patterns. _Examples:_ give minimum necessary access to developers; use short-lived credentials; require review for features that show internals; turn off raw traces; log use of special debugging features.
     
-2.  {--{"author":"James's AI","timestamp":1790167977039}@@2.
+3.  Prevent distillation attacks. Distillation attacks seek to replicate a proprietary model’s behavior by repeatedly querying it through a public API and training a surrogate model to match its outputs. While these attacks do not require system compromise, large-scale access can gradually reproduce most of the model’s decision boundaries and degrade its commercial value. Mitigations focus on limiting the quantity and quality of information exposed through normal inference channels. _Examples:_ restrict total query volume and sampling diversity per user; randomize or truncate probability outputs to prevent exact gradient estimation; limit temperature and sampling controls.
     
-    --}Close down & monitor development channels. Reduce what internal tools can reveal and monitor their use through access control patterns. _Examples:_ give minimum necessary access to developers; use short-lived credentials; require review for features that show internals; turn off raw traces; log use of special debugging features.
+4.  Operational security. Protect model files and access across training, storage, movement, and serving. _Examples:_ encrypt checkpoints and backups with hardware-protected keys; restrict and log restore operations; separate roles for training vs. inference; require strong auth and just-in-time access for cluster consoles; sign model artifacts and verify signatures before deployment; use authenticated encryption for moving models between systems; block ad-hoc copies to personal storage; rotate keys when models move from training to serving.
     
-3.  {--{"author":"James's AI","timestamp":1790167977039}@@3.
+5.  Monitor main traffic (this scheme). Score tokens for risk and send only the riskiest cases to extra checks; likely apply rate-limiting when needed.
     
-    --}Prevent distillation attacks. Distillation attacks seek to replicate a proprietary model’s behavior by repeatedly querying it through a public API and training a surrogate model to match its outputs. While these attacks do not require system compromise, large-scale access can gradually reproduce most of the model’s decision boundaries and degrade its commercial value. Mitigations focus on limiting the quantity and quality of information exposed through normal inference channels. _Examples:_ restrict total query volume and sampling diversity per user; randomize or truncate probability outputs to prevent exact gradient estimation; limit temperature and sampling controls.
+6.  Incident response & investigations. When signals cross a threshold, contain, investigate, and fix. _Examples:_ freeze affected keys/accounts; isolate servers and storage; save logs; map impact; rotate keys; write up lessons and update rules.
     
-4.  {--{"author":"James's AI","timestamp":1790167977039}@@4.
-    
-    --}Operational security. Protect model files and access across training, storage, movement, and serving. _Examples:_ encrypt checkpoints and backups with hardware-protected keys; restrict and log restore operations; separate roles for training vs. inference; require strong auth and just-in-time access for cluster consoles; sign model artifacts and verify signatures before deployment; use authenticated encryption for moving models between systems; block ad-hoc copies to personal storage; rotate keys when models move from training to serving.
-    
-5.  {--{"author":"James's AI","timestamp":1790167977039}@@5.
-    
-    --}Monitor main traffic (this scheme). Score tokens for risk and send only the riskiest cases to extra checks; likely apply rate-limiting when needed.
-    
-6.  {--{"author":"James's AI","timestamp":1790167977039}@@6.
-    
-    --}Incident response & investigations. When signals cross a threshold, contain, investigate, and fix. _Examples:_ freeze affected keys/accounts; isolate servers and storage; save logs; map impact; rotate keys; write up lessons and update rules.
-    
-7.  {--{"author":"James's AI","timestamp":1790167977039}@@7.
-    
-    --}Political & policy responses. Align technical controls with business, safety, and legal needs. _Examples:_ verify identity for high-volume users; set fair-use tiers; define clear escalation paths; publish regular transparency reports; schedule red-team drills.
+7.  Political & policy responses. Align technical controls with business, safety, and legal needs. _Examples:_ verify identity for high-volume users; set fair-use tiers; define clear escalation paths; publish regular transparency reports; schedule red-team drills.
     
 
 ### L.1 More Concrete Recommendations
 
 We discuss a short list of general mitigations that complement a verification-based system.
 
--   {--{"author":"James's AI","timestamp":1790167977477}@@•
+-   Egress limiting: Restrict and monitor all outbound channels (rate limits, content quotas, enforced formats) to make large-scale exfiltration costly or detectable. Diagramed in Figure [27](#A12.F27 "Figure 27 ‣ L.1 More Concrete Recommendations ‣ Appendix L Recommended (High-level) Defenses ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
     
-    --}Egress limiting: Restrict and monitor all outbound channels (rate limits, content quotas, enforced formats) to make large-scale exfiltration costly or detectable. Diagramed in Figure [27](#A12.F27 "Figure 27 ‣ L.1 More Concrete Recommendations ‣ Appendix L Recommended (High-level) Defenses ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
+-   KYC and incident response: Strong identity, access controls, and an established incident-response workflow (including KYC for privileged users and rapid revocation) to deter insider misuse and accelerate containment.
     
--   {--{"author":"James's AI","timestamp":1790167977477}@@•
-    
-    --}KYC and incident response: Strong identity, access controls, and an established incident-response workflow (including KYC for privileged users and rapid revocation) to deter insider misuse and accelerate containment.
-    
--   {--{"author":"James's AI","timestamp":1790167977477}@@•
-    
-    --}One-in-One-out policy: For inference traffic, require that any message leaving the inference server is matched an inbound request; this will prevent exfiltration to only be possible if it is initiated from outside; this is particualrly effective when coupled with traffic monitor (as suggested by this paper) and KYC policies for users sending message requests.
+-   One-in-One-out policy: For inference traffic, require that any message leaving the inference server is matched an inbound request; this will prevent exfiltration to only be possible if it is initiated from outside; this is particualrly effective when coupled with traffic monitor (as suggested by this paper) and KYC policies for users sending message requests.
     
 
 ![Refer to caption](https://arxiv.org/html/2511.02620v3/x32.png)

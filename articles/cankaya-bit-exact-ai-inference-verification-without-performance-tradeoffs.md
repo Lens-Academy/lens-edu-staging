@@ -67,21 +67,13 @@ Figure 1: Four summation topologies that compute $c+\sum_{i}p_{i}$. All produce 
 
 On a GPU computing a forward pass of a FFN or attention block in a transformer, there are two distinct factors deciding reduction orders of element summation (e.g. when computing a matrix element of a GEMM[^note-cankaya-4]):
 
-1.  {--{"author":"James's AI","timestamp":1790167917654}@@1.
+1.  Hardware-level reduction: An NVIDIA GPU performs GEMMs in subdivided tiles, with the smallest sub-tiles allocated to tensor cores (NVIDIA Corporation, [2025e](#bib.bib30 "NVIDIA PTX ISA reference")). Tensor cores perform matrix multiply-accumulate (MMA) via chains (Figure [[#^fig-1-summation-topologies|1]](d)) of fused block multiply-add (block FMA) units. The topologies of both are fixed in silicon (i.e. the number of p-elements in block FMA as shown in Figure [[#^fig-1-summation-topologies|1]](c) and the chaining inside an MMA) (Khattak and Mikaitis, [2025](#bib.bib7 "Accurate models of NVIDIA tensor cores"); Xie et al., [2026](#bib.bib9 "Bit-accurate modeling of GPU matrix multiply-accumulate units: demystifying numerical discrepancy and accuracy"))[^cite-cankaya-5]. Software can chain many MMA operations together, but cannot change a single MMA’s reduction order[^note-cankaya-6]. CUDA cores, in contrast, are scalar Arithmetic Logic Units (ALUs) without internal reduction. Any multi-operand reduction on CUDA cores is orchestrated by software instructions (warp shuffles, shared-memory trees).
     
-    --}Hardware-level reduction: An NVIDIA GPU performs GEMMs in subdivided tiles, with the smallest sub-tiles allocated to tensor cores (NVIDIA Corporation, [2025e](#bib.bib30 "NVIDIA PTX ISA reference")). Tensor cores perform matrix multiply-accumulate (MMA) via chains (Figure [[#^fig-1-summation-topologies|1]](d)) of fused block multiply-add (block FMA) units. The topologies of both are fixed in silicon (i.e. the number of p-elements in block FMA as shown in Figure [[#^fig-1-summation-topologies|1]](c) and the chaining inside an MMA) (Khattak and Mikaitis, [2025](#bib.bib7 "Accurate models of NVIDIA tensor cores"); Xie et al., [2026](#bib.bib9 "Bit-accurate modeling of GPU matrix multiply-accumulate units: demystifying numerical discrepancy and accuracy"))[^cite-cankaya-5]. Software can chain many MMA operations together, but cannot change a single MMA’s reduction order[^note-cankaya-6]. CUDA cores, in contrast, are scalar Arithmetic Logic Units (ALUs) without internal reduction. Any multi-operand reduction on CUDA cores is orchestrated by software instructions (warp shuffles, shared-memory trees).
+2.  Software-level reduction: Software decides the reduction order at every level above the MMA. Here we distinguish two cases:
     
-2.  {--{"author":"James's AI","timestamp":1790167917654}@@2.
-    
-    --}Software-level reduction: Software decides the reduction order at every level above the MMA. Here we distinguish two cases:
-    
-    {--{"author":"James's AI","timestamp":1790167917654}@@1.  --}{++{"author":"James's AI","timestamp":1790167917654}@@-   ++}(a){--{"author":"James's AI","timestamp":1790167917654}@@
+    -   (a) Static: Kernel dispatch follows deterministic heuristics that depend on tensor shapes, data types, and library version. The reduction order is thus fully determined by the software stack and input shapes, not by runtime scheduling (Thinking Machines Lab, [2025](#bib.bib20 "Defeating nondeterminism in LLM inference")).
         
-        --}{++{"author":"James's AI","timestamp":1790167917654}@@ ++}Static: Kernel dispatch follows deterministic heuristics that depend on tensor shapes, data types, and library version. The reduction order is thus fully determined by the software stack and input shapes, not by runtime scheduling (Thinking Machines Lab, [2025](#bib.bib20 "Defeating nondeterminism in LLM inference")).
-        
-    {--{"author":"James's AI","timestamp":1790167917654}@@2.  --}{++{"author":"James's AI","timestamp":1790167917654}@@-   ++}(b){--{"author":"James's AI","timestamp":1790167917654}@@
-        
-        --}{++{"author":"James's AI","timestamp":1790167917654}@@ ++}Atomic: Some kernels reduce partial results via atomicAdd on floating-point outputs, where the accumulation order depends on the GPU’s warp scheduler and is not reproducible across runs[^cite-cankaya-7]. This is the sole source of genuine non-determinism we identified in our experiments, and was limited to specific INT de-quantization kernels (see Section [[#^3-empirical-verification-of-determinism|3]]).
+    -   (b) Atomic: Some kernels reduce partial results via atomicAdd on floating-point outputs, where the accumulation order depends on the GPU’s warp scheduler and is not reproducible across runs[^cite-cankaya-7]. This is the sole source of genuine non-determinism we identified in our experiments, and was limited to specific INT de-quantization kernels (see Section [[#^3-empirical-verification-of-determinism|3]]).
         
     
 
@@ -135,51 +127,29 @@ NVIDIA GPUs accelerate transcendental functions via Multi-Function Units (MUFU).
 
 Matching GPU-accelerated outputs also requires meticulously modeling kernel-specific reduction trees and compiler optimizations:
 
--   {--{"author":"James's AI","timestamp":1790167918082}@@•
+-   GEMM: Most FLOPs in transformer inference are in matrix multiplication, and above the tile sizes handled fully within tensor cores, software decides tile boundaries and reduction ordering. To achieve bit-exact emulation, our code replicates the exact accumulation path dictated by the chosen kernel configuration:
     
-    --}GEMM: Most FLOPs in transformer inference are in matrix multiplication, and above the tile sizes handled fully within tensor cores, software decides tile boundaries and reduction ordering. To achieve bit-exact emulation, our code replicates the exact accumulation path dictated by the chosen kernel configuration:
-    
-    -   {--{"author":"James's AI","timestamp":1790167918082}@@–
+    -   K-Iteration Order: The intermediate value of the FP32 accumulator dictates the maximum exponent used for the hardware’s fixed-point alignment window. Therefore, the exact sequence in which blocks are added is mathematically load-bearing. Our emulator mirrors the sequential K-walk used by the target kernel’s mainloop (CUTLASS’s default configuration).
         
-        --}K-Iteration Order: The intermediate value of the FP32 accumulator dictates the maximum exponent used for the hardware’s fixed-point alignment window. Therefore, the exact sequence in which blocks are added is mathematically load-bearing. Our emulator mirrors the sequential K-walk used by the target kernel’s mainloop (CUTLASS’s default configuration).
+    -   BF16 epilogue: After each projection’s FP32 accumulation, the GPU stores the result to global memory as BF16. Our emulator mirrors this by casting the raw FP32 accumulator to BF16 before it enters the next stage. We verify both the raw FP32 accumulator and the BF16-cast output against CUTLASS to confirm that neither the accumulator nor the epilogue hides a discrepancy.
         
-    -   {--{"author":"James's AI","timestamp":1790167918082}@@–
-        
-        --}BF16 epilogue: After each projection’s FP32 accumulation, the GPU stores the result to global memory as BF16. Our emulator mirrors this by casting the raw FP32 accumulator to BF16 before it enters the next stage. We verify both the raw FP32 accumulator and the BF16-cast output against CUTLASS to confirm that neither the accumulator nor the epilogue hides a discrepancy.
-        
-    -   {--{"author":"James's AI","timestamp":1790167918082}@@–
-        
-        --}Live Accumulator State (Fused Kernels): Standard projections typically initialize the accumulator (depicted as ”c” in figure [1](#S2.F1 "Figure 1 ‣ 2.2 Reductions ‣ 2 Root Causes of Apparent Non-Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs")) to zero. However, in fused operations like FlashAttention-2, the PV matrix multiplication accumulates directly into a live, running register ($O_{acc}$) across KV tiles. Our emulator addresses this using a specialized block\_fma\_batch primitive that applies the hardware block FMA to an existing accumulator state, matching the alignment window shifts that occur on hardware.
+    -   Live Accumulator State (Fused Kernels): Standard projections typically initialize the accumulator (depicted as ”c” in figure [1](#S2.F1 "Figure 1 ‣ 2.2 Reductions ‣ 2 Root Causes of Apparent Non-Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs")) to zero. However, in fused operations like FlashAttention-2, the PV matrix multiplication accumulates directly into a live, running register ($O_{acc}$) across KV tiles. Our emulator addresses this using a specialized block\_fma\_batch primitive that applies the hardware block FMA to an existing accumulator state, matching the alignment window shifts that occur on hardware.
         
     
--   {--{"author":"James's AI","timestamp":1790167918082}@@•
+-   Memory Boundaries: When the GPU writes BF16 tensors to global memory between pipeline stages (e.g., after RoPE and before FA2), we explicitly enforce a BF16 quantization boundary in the emulator to ensure the tensor core receives the exact same significands as the physical hardware.
     
-    --}Memory Boundaries: When the GPU writes BF16 tensors to global memory between pipeline stages (e.g., after RoPE and before FA2), we explicitly enforce a BF16 quantization boundary in the emulator to ensure the tensor core receives the exact same significands as the physical hardware.
+-   RMSNorm: We emulate PyTorch’s parallel reduce\_kernel (including its warp-shuffle topology, which changes across PyTorch versions), the nvcc compiler’s optimization of division into multiply-by-reciprocal, the MUFU.RSQ rounding, and the specific cast ordering (FP32 normalization $\to$ BF16 cast $\to$ BF16 weight multiply).
     
--   {--{"author":"James's AI","timestamp":1790167918082}@@•
+-   FlashAttention-2: FA2 (2.8.3) emulation required resolving several nuanced interactions between the hardware and the compiler’s optimizations:
     
-    --}RMSNorm: We emulate PyTorch’s parallel reduce\_kernel (including its warp-shuffle topology, which changes across PyTorch versions), the nvcc compiler’s optimization of division into multiply-by-reciprocal, the MUFU.RSQ rounding, and the specific cast ordering (FP32 normalization $\to$ BF16 cast $\to$ BF16 weight multiply).
-    
--   {--{"author":"James's AI","timestamp":1790167918082}@@•
-    
-    --}FlashAttention-2: FA2 (2.8.3) emulation required resolving several nuanced interactions between the hardware and the compiler’s optimizations:
-    
-    -   {--{"author":"James's AI","timestamp":1790167918082}@@–
+    -   Accumulator Initialization: As explained above under ”GEMM”.
         
-        --}Accumulator Initialization: As explained above under ”GEMM”.
+    -   Online Softmax and SFU Usage: We emulate FA2’s block-wise execution pattern: FA2 maintains running statistics for the maximum score $m^{(i)}$ and the sum of exponentials $l^{(i)}$ for each block $i$. When transitioning to a new block, previous running values are scaled by $2^{(m^{(i-1)}-m^{(i)})}$. Our emulator computes these scale factors and the attention weights $P=2^{S-m^{(i)}}$, and final normalization using our probed MUFU hardware models.
         
-    -   {--{"author":"James's AI","timestamp":1790167918082}@@–
-        
-        --}Online Softmax and SFU Usage: We emulate FA2’s block-wise execution pattern: FA2 maintains running statistics for the maximum score $m^{(i)}$ and the sum of exponentials $l^{(i)}$ for each block $i$. When transitioning to a new block, previous running values are scaled by $2^{(m^{(i-1)}-m^{(i)})}$. Our emulator computes these scale factors and the attention weights $P=2^{S-m^{(i)}}$, and final normalization using our probed MUFU hardware models.
-        
-    -   {--{"author":"James's AI","timestamp":1790167918082}@@–
-        
-        --}Compiler FMA Fusion: The nvcc compiler fuses operations across inline function boundaries. Specifically, the $l^{(i)}$ rescale multiplication is fused with the addition of the first element of $P$ into a single hardware FMA (FFMA) instruction, resulting in one rounding instead of two. Our emulator mimics this single-rounding step using float64 intermediates.
+    -   Compiler FMA Fusion: The nvcc compiler fuses operations across inline function boundaries. Specifically, the $l^{(i)}$ rescale multiplication is fused with the addition of the first element of $P$ into a single hardware FMA (FFMA) instruction, resulting in one rounding instead of two. Our emulator mimics this single-rounding step using float64 intermediates.
         
     
--   {--{"author":"James's AI","timestamp":1790167918082}@@•
-    
-    --}RoPE: We enforce strictly matching the GPU’s CUDA libm cosf/sinf (which differ slightly from CPU glibc) and snap values to BF16 precisely at every stage boundary including QK-norm, RoPE, and FA2.
+-   RoPE: We enforce strictly matching the GPU’s CUDA libm cosf/sinf (which differ slightly from CPU glibc) and snap values to BF16 precisely at every stage boundary including QK-norm, RoPE, and FA2.
     
 
 To extend emulation from an initial CUTLASS-target to the proprietary cuBLAS library, we build a one-time per-SKU dispatch catalog via cuBLASLt’s introspection API, mapping each matmul shape (M,N,K,dtype,layout) to the exact kernel ID cuBLAS dispatches. The search space for any particular model can be substantially narrowed by iterating the weight tensor shapes over the sequence length dimension, which takes minutes and is a one-time setup. For each cataloged kernel, the emulator maps to one of the four reduction topologies that we could narrow down. [^note-cankaya-11]
@@ -216,25 +186,15 @@ Our experimental and emulation scope was inference only. Training makes use of b
 
 We showed that for any (NVIDIA) hardware and software setup used in inference that makes no use of floating-point atomic functions, outputs can be bitwise reproducible without performance-degrading settings if the following information is recorded for later reference[^note-cankaya-14]:
 
-1.  {--{"author":"James's AI","timestamp":1790167918428}@@1.
+1.  Hardware SKU (determines tensor core arithmetic and special function unit behavior)
     
-    --}Hardware SKU (determines tensor core arithmetic and special function unit behavior)
+2.  Exact model weights (in the deployed quantization format)
     
-2.  {--{"author":"James's AI","timestamp":1790167918428}@@2.
+3.  Parallelism topology (separately for prefill and decode stages)
     
-    --}Exact model weights (in the deployed quantization format)
+4.  Software versions and any custom kernels (CUDA toolkit, PyTorch, attention backend, quantization library)
     
-3.  {--{"author":"James's AI","timestamp":1790167918428}@@3.
-    
-    --}Parallelism topology (separately for prefill and decode stages)
-    
-4.  {--{"author":"James's AI","timestamp":1790167918428}@@4.
-    
-    --}Software versions and any custom kernels (CUDA toolkit, PyTorch, attention backend, quantization library)
-    
-5.  {--{"author":"James's AI","timestamp":1790167918428}@@5.
-    
-    --}Batch size at each forward pass (one integer per decode step under continuous batching[^note-cankaya-15], or record whole batches rather than single sequences)
+5.  Batch size at each forward pass (one integer per decode step under continuous batching[^note-cankaya-15], or record whole batches rather than single sequences)
     
 
 The verifier can then reconstruct the prover’s outputs, or by using identical hardware, by using custom accelerators with identical hardware MMA reduction trees and SFUs, or by emulating all rounding decisions in software.
@@ -302,17 +262,11 @@ RunPod and Vast.ai A100 instances running CUDA 12.8 and 12.9 (cuBLAS 12.8.3 vs 1
 
 We inspected the Qwen3 MoE router code to verify that it introduces no new numerical primitives beyond those already modeled.
 
--   {--{"author":"James's AI","timestamp":1790167918757}@@•
+-   The router is F.linear $\to$ FP32 softmax $\to$ torch.topk $\to$ $\ell_{1}$\-normalization of the top-$k$ weights. Each component is a strict subset of machinery the emulator already provides: the linear is a GEMM (Section [[#^43-software-reduction-kernel-and-rope-emulation|4.3]]); the softmax uses MUFU.EX2 and MUFU.RCP, both exhaustively probed (Section [[#^42-special-function-units|4.2]]); topk is an integer sort with no floating-point rounding; and the top-$k$ normalization $x\cdot\mathrm{reciprocal}(\sum x)$ is structurally identical to the final divide in RMSNorm.
     
-    --}The router is F.linear $\to$ FP32 softmax $\to$ torch.topk $\to$ $\ell_{1}$\-normalization of the top-$k$ weights. Each component is a strict subset of machinery the emulator already provides: the linear is a GEMM (Section [[#^43-software-reduction-kernel-and-rope-emulation|4.3]]); the softmax uses MUFU.EX2 and MUFU.RCP, both exhaustively probed (Section [[#^42-special-function-units|4.2]]); topk is an integer sort with no floating-point rounding; and the top-$k$ normalization $x\cdot\mathrm{reciprocal}(\sum x)$ is structurally identical to the final divide in RMSNorm.
+-   Each expert is a gated FFN (gate\_up\_proj $\to$ SiLU-gate $\to$ down\_proj), i.e. the exact computation the emulator already reproduces bit-exactly (Section [[#^44-diagnostics-and-results|4.4]]).
     
--   {--{"author":"James's AI","timestamp":1790167918757}@@•
-    
-    --}Each expert is a gated FFN (gate\_up\_proj $\to$ SiLU-gate $\to$ down\_proj), i.e. the exact computation the emulator already reproduces bit-exactly (Section [[#^44-diagnostics-and-results|4.4]]).
-    
--   {--{"author":"James's AI","timestamp":1790167918757}@@•
-    
-    --}Per-expert outputs are accumulated into final\_hidden\_states via a Python for loop over expert\_hit, returned in sorted order by .nonzero(). Within each index\_add\_ call, token\_idx is duplicate-free (torch.topk returns distinct experts per token), so no atomic contention occurs; across iterations, the reduction order is fixed by the deterministic nonzero ordering. vLLM replaces the loop with a fused grouped-GEMM kernel, but the per-expert GEMM and weighted sum are again strict subsets of existing emulator primitives.
+-   Per-expert outputs are accumulated into final\_hidden\_states via a Python for loop over expert\_hit, returned in sorted order by .nonzero(). Within each index\_add\_ call, token\_idx is duplicate-free (torch.topk returns distinct experts per token), so no atomic contention occurs; across iterations, the reduction order is fixed by the deterministic nonzero ordering. vLLM replaces the loop with a fused grouped-GEMM kernel, but the per-expert GEMM and weighted sum are again strict subsets of existing emulator primitives.
     
 
 ## Appendix C Inference FLOP Calculation ^appendix-c-inference-flop-calculation

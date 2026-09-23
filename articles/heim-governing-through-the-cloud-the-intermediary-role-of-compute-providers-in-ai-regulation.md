@@ -253,38 +253,24 @@ Table 2: Overview of relevant technical capacities available to compute provider
 
 Compute providers usually provide security at certain technology layers, whereas other layers are left up to customers ([Google Cloud 2023]; [AWS 2024h]; [CoreWeave 2023]). The compute provider is typically responsible for:
 
--   {--{"author":"James's AI","timestamp":1790167959828}@@•
+-   Physical security, which includes protecting data center premises with locks, cameras, guards, and surveillance.
     
-    --}Physical security, which includes protecting data center premises with locks, cameras, guards, and surveillance.
+-   Infrastructure security, which includes ensuring that hardware is up-to-date with the latest firmware security patches, securely disposing of old hardware, restricting physical/virtual access to infrastructure to approved personnel for management and maintenance purposes, and ensuring appropriate isolation of critical system resources across different customers and workloads
     
--   {--{"author":"James's AI","timestamp":1790167959828}@@•
-    
-    --}Infrastructure security, which includes ensuring that hardware is up-to-date with the latest firmware security patches, securely disposing of old hardware, restricting physical/virtual access to infrastructure to approved personnel for management and maintenance purposes, and ensuring appropriate isolation of critical system resources across different customers and workloads
-    
--   {--{"author":"James's AI","timestamp":1790167959828}@@•
-    
-    --}Network security, which includes operating firewalls and providing other forms of network-level security and isolation.
+-   Network security, which includes operating firewalls and providing other forms of network-level security and isolation.
     
 
 These physical, infrastructure, and network security measures are sufficient to provide customers with a baseline level of information security, one that many customers could not achieve on their own.
 
 Customers are then generally held responsible for the parts of the technology stack they have control over, which encompasses many aspects of cybersecurity, including protecting data generated or collected by their workloads, ensuring their employees are well-trained in security best practices, and implementing access control policies based on different permission levels. Many compute providers, especially larger providers, offer cybersecurity software-as-a-service products for their customers to help them implement these measures; many of these products are free and/or standard with infrastructure offerings. These additional services typically provide the customer the ability to:
 
--   {--{"author":"James's AI","timestamp":1790167959828}@@•
+-   Securely manage user access to resources in their account
     
-    --}Securely manage user access to resources in their account
+-   Work with encrypted data storage in transit and at rest
     
--   {--{"author":"James's AI","timestamp":1790167959828}@@•
+-   Manage and secure inbound/outbound traffic from nodes
     
-    --}Work with encrypted data storage in transit and at rest
-    
--   {--{"author":"James's AI","timestamp":1790167959828}@@•
-    
-    --}Manage and secure inbound/outbound traffic from nodes
-    
--   {--{"author":"James's AI","timestamp":1790167959828}@@•
-    
-    --}Define different levels of security within different regions of their infrastructure
+-   Define different levels of security within different regions of their infrastructure
     
 
 In the context of protecting frontier AI workloads, if a customer is working with a security-conscious compute provider, and the customer has systematically implemented industry best practices for cybersecurity, they are likely well-protected against most opportunistic attackers. However, these measures are almost certainly inadequate to defend against well-resourced, expert attackers, such as nation-state-backed hacking groups (also known as “advanced, persistent threats (APTs)”). Such threats are of significant concern for frontier AI, given the potential economic returns of model theft, and risks of misuse ([Nevo et al. 2023]).
@@ -295,40 +281,24 @@ As discussed in [Section 2.2.1], it is therefore important to strengthen securi
 
 Record keeping is highly feasible using tools and metrics currently available to compute providers, who already collect a wide range of data on customers and service usage for:
 
--   {--{"author":"James's AI","timestamp":1790167960312}@@•
+-   Accurately billing customers
     
-    --}Accurately billing customers
+-   Marketing new services to customers
     
--   {--{"author":"James's AI","timestamp":1790167960312}@@•
+-   Maintaining and optimizing service provision
     
-    --}Marketing new services to customers
+-   Detecting and responding to fraud, abuse, security risks, and technical issues
     
--   {--{"author":"James's AI","timestamp":1790167960312}@@•
-    
-    --}Maintaining and optimizing service provision
-    
--   {--{"author":"James's AI","timestamp":1790167960312}@@•
-    
-    --}Detecting and responding to fraud, abuse, security risks, and technical issues
-    
--   {--{"author":"James's AI","timestamp":1790167960312}@@•
-    
-    --}Complying with legal obligations, such as financial record keeping
+-   Complying with legal obligations, such as financial record keeping
     
 
 Compute providers also share these records with third parties for activities such as:
 
--   {--{"author":"James's AI","timestamp":1790167960312}@@•
+-   Exchanging information with other companies for fraud prevention, detection, and credit risk reduction
     
-    --}Exchanging information with other companies for fraud prevention, detection, and credit risk reduction
+-   Providing third-party vendors with information for promotional and marketing purposes
     
--   {--{"author":"James's AI","timestamp":1790167960312}@@•
-    
-    --}Providing third-party vendors with information for promotional and marketing purposes
-    
--   {--{"author":"James's AI","timestamp":1790167960312}@@•
-    
-    --}Complying with legal obligations, such as an enforceable government request
+-   Complying with legal obligations, such as an enforceable government request
     
 
 Compute providers typically have well-defined privacy policies around these records, including specific retention and security policies based on the sensitivity and business- or legal use cases for different kinds of records. Some of this data will likely be useful for verification activities relevant to frontier AI governance. The specific data attributes generally collected by compute providers can be found in [Table 3](#S3.T3 "In 3.3.1 Identity Verification ‣ 3.3 Verifying ‣ 3 Technical Feasibility of Compute Providers’ Governance
@@ -338,13 +308,9 @@ Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers 
 
 There are a range of verification activities that compute providers could perform to support frontier AI governance. Primarily, it will be useful for compute providers to verify the identity of any customer seeking to access a hardware configuration capable of efficiently training a frontier model (“identity verification”), as discussed in [Egan & Heim 2023] and by Microsoft ([Smith 2023]). It may also be useful for compute providers to serve as an independent form of validation for different properties of frontier AI workloads. We find that data attributes already widely available to compute providers can likely enable them to adequately verify two key properties of a workload that are currently highly relevant for frontier AI governance:
 
--   {--{"author":"James's AI","timestamp":1790167960703}@@•
+-   The stage of the AI lifecycle the workload fits into, e.g., large-scale model training or inference (“workload classification”)
     
-    --}The stage of the AI lifecycle the workload fits into, e.g., large-scale model training or inference (“workload classification”)
-    
--   {--{"author":"James's AI","timestamp":1790167960703}@@•
-    
-    --}The quantity of compute consumed by the workload (“compute accounting”)
+-   The quantity of compute consumed by the workload (“compute accounting”)
     
 
 In the future, it may also be useful for compute providers to verify aspects of the particular code or data used in a workload, such as the specific model that was deployed, or the type of data used to train a model. We describe such activities as “detailed workload verification.” Currently, this is largely not possible without directly observing confidential customer code or data. However, with some technical development work, it may become possible to implement wider use of “trusted execution environments” to allow customers to prove certain properties of their workloads to their compute provider (or directly to a regulator) without revealing other sensitive data ([Aarne et al. 2024]; [NVIDIA 2023]). We now describe each of these potential verification activities in more detail.
@@ -365,21 +331,13 @@ Table 3: An overview of the categories of data attributes available to compute p
 
 Identity verification of this kind appears feasible, but we recommend that policymakers consider several strong caveats. As described above, compute providers typically collect a range of information relevant to verifying customer identities. This includes ([AWS 2024g]; [CoreWeave 2022]; [FluidStack 2022]; [Google Cloud 2024c]; [Lambda Labs 2022]; [Microsoft 2024a]):
 
--   {--{"author":"James's AI","timestamp":1790167961075}@@•
+-   Personal information, such as legal names, user names, email addresses, phone numbers, and government-issued identification documents
     
-    --}Personal information, such as legal names, user names, email addresses, phone numbers, and government-issued identification documents
+-   Information about customer organizations and the people in those organizations
     
--   {--{"author":"James's AI","timestamp":1790167961075}@@•
+-   Financial information, such as credit card and bank account information, and tax identifiers
     
-    --}Information about customer organizations and the people in those organizations
-    
--   {--{"author":"James's AI","timestamp":1790167961075}@@•
-    
-    --}Financial information, such as credit card and bank account information, and tax identifiers
-    
--   {--{"author":"James's AI","timestamp":1790167961075}@@•
-    
-    --}Service-related information, such as the locations from which users are accessing the service, time zones, the type of device a user is using to access the service, the language used on that device, web cookies describing sites previously visited, and IP addresses used when accessing the service.
+-   Service-related information, such as the locations from which users are accessing the service, time zones, the type of device a user is using to access the service, the language used on that device, web cookies describing sites previously visited, and IP addresses used when accessing the service.
     
 
 This equips compute providers with large amounts of useful information for verifying the identity of customers seeking to access infrastructure sufficient to efficiently run frontier AI workloads. Because such customers will by definition be few in number, best practices for identity verification could be drawn from more involved identity verification activities such as those conducted in other industries. One example is the “enhanced due diligence” process used in financial sectors for higher-risk customers or transactions, which can involve commissioning intelligence reports on customers or their “beneficial owners” (the entity that ultimately owns or controls the customer organization) ([Financial Action Task Force 2003]). These kinds of measures may be necessary to successfully perform identity verification in situations where a well-resourced illicit actor is actively trying to obfuscate their identity.
@@ -395,21 +353,13 @@ Scheme ‣ Governing Through the Cloud:The Intermediary Role of Compute Provider
 First, it is useful to know whether a workload relates broadly to AI. Frontier AI workloads will generally all use AI accelerators, but not all workloads that use AI accelerators will necessarily be AI workloads. For example, graphics and scientific computing workloads sometimes use AI accelerators. However, these workload categories can likely be differentiated using observable properties of the workload. Examples of such properties are outlined in [Appendix B](#A2 "Appendix B Observable Data
 Attributes ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation") in the Appendix. Within the broad category of AI workloads, there are several sub-categories of workload, corresponding to stages in the AI model’s life cycle, that are useful to differentiate from a governance perspective:
 
--   {--{"author":"James's AI","timestamp":1790167961426}@@•
+-   Design, in which researchers and engineers experiment with different model designs, algorithms, and datasets.
     
-    --}Design, in which researchers and engineers experiment with different model designs, algorithms, and datasets.
+-   Training, in which a model learns from a large dataset. Typically known as “pre-training” to distinguish from enhancement.
     
--   {--{"author":"James's AI","timestamp":1790167961426}@@•
+-   Enhancement, in which a trained model is further refined using a smaller data set (e.g., fine-tuning), sometimes using techniques such as reinforcement learning.
     
-    --}Training, in which a model learns from a large dataset. Typically known as “pre-training” to distinguish from enhancement.
-    
--   {--{"author":"James's AI","timestamp":1790167961426}@@•
-    
-    --}Enhancement, in which a trained model is further refined using a smaller data set (e.g., fine-tuning), sometimes using techniques such as reinforcement learning.
-    
--   {--{"author":"James's AI","timestamp":1790167961426}@@•
-    
-    --}Deployment in which a trained model is used in an operational setting, e.g., to make new predictions (“inference”).
+-   Deployment in which a trained model is used in an operational setting, e.g., to make new predictions (“inference”).
     
 
 ![Imported source figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img8-9c6f1dfb.png)
@@ -451,13 +401,9 @@ Figure 10: Three example scenarios of a set of AI accelerator nodes running diff
 
 We can estimate the compute budget via two different approaches:
 
-1.  {--{"author":"James's AI","timestamp":1790167961953}@@1.
+1.  Theoretical compute budget estimation: calculated using the assumed throughput (measured in OP/s) of the hardware potentially involved in the workload, and multiplying it by the time the hardware is being used.
     
-    --}Theoretical compute budget estimation: calculated using the assumed throughput (measured in OP/s) of the hardware potentially involved in the workload, and multiplying it by the time the hardware is being used.
-    
-2.  {--{"author":"James's AI","timestamp":1790167961953}@@2.
-    
-    --}Empirical compute budget estimation: calculated using actual measurements from the hardware that can serve as more direct proxies for compute consumption. For example, aggregating AI accelerator core utilization and time-in-use data across all AI accelerators involved in a workload, and multiplying by the peak capacity of each core.
+2.  Empirical compute budget estimation: calculated using actual measurements from the hardware that can serve as more direct proxies for compute consumption. For example, aggregating AI accelerator core utilization and time-in-use data across all AI accelerators involved in a workload, and multiplying by the peak capacity of each core.
     
 
 Theoretical compute is a derivative of empirical compute, useful for establishing an estimate in circumstances where empirical measurements are not available. As exact circumstances and configurations differ between compute providers, not all attributes of both theoretical and empirical compute are likely to be observable. However, in practice, both kinds could be used to inform an overall estimate of compute usage for a particular instance of running a workload ([Figure 11](#S3.F11 "In 3.3.3 Compute
@@ -473,13 +419,9 @@ Regardless of whether the approach is theoretical or empirical, it will be impor
 Measuring Theoretical Compute Budget — Theoretical approaches measure the _potential_ for a certain amount of compute to be used for one or more workloads within a given time frame. This is easier to measure than empirical compute, and in the simplest form is equivalent to hardware resources a customer has been allocated to access within the cluster. For any given compute provider, the number of customers with access to sufficient theoretical compute to train a frontier model will be small.[^note-29] This makes theoretical compute a useful measure for determining which specific customers are relevant for a frontier AI regulatory regime. This can be calculated using data already available to compute providers for billing purposes ([Table 3](#S3.T3 "In 3.3.1 Identity Verification ‣ 3.3 Verifying ‣ 3 Technical Feasibility of Compute Providers’ Governance
 Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation")). Relevant data for measurement of compute are:
 
--   {--{"author":"James's AI","timestamp":1790167961953}@@•
+-   Node assignment: Compute providers can bill customers for _on-demand_ nodes (a full or partial node) at a granularity ranging from seconds to hours ([AWS 2024e]), or _reserved_ nodes ranging from days to months ([AWS 2024f]). Theoretically, the used compute budget can be calculated using this information by summing the theoretical peak performance of the AI accelerators in each node, multiplying it by the time the node is available to the customer, and the assumed average utilization of the AI accelerators.[^note-30]
     
-    --}Node assignment: Compute providers can bill customers for _on-demand_ nodes (a full or partial node) at a granularity ranging from seconds to hours ([AWS 2024e]), or _reserved_ nodes ranging from days to months ([AWS 2024f]). Theoretically, the used compute budget can be calculated using this information by summing the theoretical peak performance of the AI accelerators in each node, multiplying it by the time the node is available to the customer, and the assumed average utilization of the AI accelerators.[^note-30]
-    
--   {--{"author":"James's AI","timestamp":1790167961953}@@•
-    
-    --}Data ingress/egress: Data into and out of the cluster is metered and sometimes billed ([Google Cloud 2024a]; [Microsoft Azure 2024b]; [Pal et al. 2021]). The communication of nodes within the cluster to endpoints outside the cluster, as well as the amount of data transferred and time when communication occurs, can inform whether nodes outside the cluster participated in a training run or deployment.
+-   Data ingress/egress: Data into and out of the cluster is metered and sometimes billed ([Google Cloud 2024a]; [Microsoft Azure 2024b]; [Pal et al. 2021]). The communication of nodes within the cluster to endpoints outside the cluster, as well as the amount of data transferred and time when communication occurs, can inform whether nodes outside the cluster participated in a training run or deployment.
     
 
 The exact procedures to allocate, measure, and invoice customer usage for billing purposes are not publicly available for any major provider. However, every provider must have internal control systems and diagnostics to record this information accurately, as well as status reporting and other telemetry to maintain the health of their clusters (such as the state of individual machines and network switches). While billing information provides a widely-measured baseline for customer compute usage, intra-cluster network information such as the network topology can provide greater detail. Specifically, knowledge of whether two nodes are capable of communicating within a cluster informs whether they may participate in running the same parallel workload.
@@ -493,28 +435,18 @@ While these properties are essentially metadata, compute providers would need to
 
 Within a given node, opportunities to measure empirical compute include:
 
--   {--{"author":"James's AI","timestamp":1790167961953}@@•
+-   Operations performed on AI accelerators: Individual chips contain _performance counters_ to measure information such as the number of instructions executed (Wikipedia contributors 2023). A vendor tool may be required to access this information (NVIDIA 2024b).
     
-    --}Operations performed on AI accelerators: Individual chips contain _performance counters_ to measure information such as the number of instructions executed (Wikipedia contributors 2023). A vendor tool may be required to access this information (NVIDIA 2024b).
+-   Data flow to/from AI accelerator’s memory: The rate at which data is written to or read from the AI accelerator’s memory can be observed over time, allowing measurement of throughput and quantity, and can inform an estimation of the total number of operations performed (National Energy Research Scientific Computing 2024; Williams et al. 2008).
     
--   {--{"author":"James's AI","timestamp":1790167961953}@@•
-    
-    --}Data flow to/from AI accelerator’s memory: The rate at which data is written to or read from the AI accelerator’s memory can be observed over time, allowing measurement of throughput and quantity, and can inform an estimation of the total number of operations performed (National Energy Research Scientific Computing 2024; Williams et al. 2008).
-    
--   {--{"author":"James's AI","timestamp":1790167961953}@@•
-    
-    --}Data traffic between accelerators and other nodes: Node-to-node and chip-to-chip communication is an indicator of participating in the same workload, even if the workload itself cannot be classified (Merritt 2023; NVIDIA 2024a; Shoeybi et al. 2020).
+-   Data traffic between accelerators and other nodes: Node-to-node and chip-to-chip communication is an indicator of participating in the same workload, even if the workload itself cannot be classified (Merritt 2023; NVIDIA 2024a; Shoeybi et al. 2020).
     
 
 Even without privileged software access to the node, other measurements of cluster operations are useful to inform an estimate of empirical compute:
 
--   {--{"author":"James's AI","timestamp":1790167961953}@@•
+-   Power consumption: In cases where precise chip utilization is not observable, measurements of power consumption (of a node or individual AI accelerators within a node) can help inform an estimate. The amount of power consumed by each node is considerably higher when a node (or even an individual AI accelerator (NVIDIA 2024c)) executes a workload compared to idle. However, power consumption does not simply scale linearly with performance (Patel et al. 2023), though specific calibration for a device may enable improved estimation. Power consumption will typically be a way of measuring both operations and data transfer, as both these activities consume energy within a node.
     
-    --}Power consumption: In cases where precise chip utilization is not observable, measurements of power consumption (of a node or individual AI accelerators within a node) can help inform an estimate. The amount of power consumed by each node is considerably higher when a node (or even an individual AI accelerator (NVIDIA 2024c)) executes a workload compared to idle. However, power consumption does not simply scale linearly with performance (Patel et al. 2023), though specific calibration for a device may enable improved estimation. Power consumption will typically be a way of measuring both operations and data transfer, as both these activities consume energy within a node.
-    
--   {--{"author":"James's AI","timestamp":1790167961953}@@•
-    
-    --}Data traffic between nodes: Granular information such as the number of data sent to and from the node, the source and destination of this data, and the timing with which they are sent can inform how multiple nodes are cooperatively executing the same workload.
+-   Data traffic between nodes: Granular information such as the number of data sent to and from the node, the source and destination of this data, and the timing with which they are sent can inform how multiple nodes are cooperatively executing the same workload.
     
 
 While many of these measurements alone provide limited insight, combining measurements can provide more insight into the compute usage of a particular workload ([Figure 11](#S3.F11 "In 3.3.3 Compute
@@ -578,17 +510,11 @@ Establishing enforcement capabilities — To effectively leverage compute provid
 
 Once appropriate authorities have been established, there are several ways compute providers could help enforce rules. It could be desirable to be able to prevent or pause runs if the total amount of compute used exceeds the limit permitted by present approvals, if deployed models are actively causing harm, or if the developer is on the Entity List. Compute providers already have the ability to ration or cut off compute access to their customers. Therefore, key work that will need to be done here includes:
 
-1.  {--{"author":"James's AI","timestamp":1790167962363}@@1.
+1.  establishing formal rules for when AI developers can and cannot access compute at a particular scale,
     
-    --}establishing formal rules for when AI developers can and cannot access compute at a particular scale,
+2.  creating formal channels of communication between compute providers and regulators, and
     
-2.  {--{"author":"James's AI","timestamp":1790167962363}@@2.
-    
-    --}creating formal channels of communication between compute providers and regulators, and
-    
-3.  {--{"author":"James's AI","timestamp":1790167962363}@@3.
-    
-    --}clearly establishing respective roles and authorities between government and industry.
+3.  clearly establishing respective roles and authorities between government and industry.
     
 
 ### 4.2 Regulating the Compute Providers Themselves
