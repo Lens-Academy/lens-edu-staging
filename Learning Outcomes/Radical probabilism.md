@@ -17,9 +17,11 @@ id:: 4e6de52a-3a41-4e27-abb2-8ed674d208ff
 content:: 1. A forecaster has these beliefs about whether an AI model has a hidden capability H: P(H | the model passed test T) = 0.9, P(H | the model failed T) = 0.2, and P(the model passed T) = 0.4. The test log is partly corrupted. After reading it, the forecaster becomes 70% confident that the model passed, and their conditional beliefs about H given passing or failing do not change. What should their new credence in H be? Why is ordinary conditioning not available here?
 
 2. Three reasoners consider an unproven mathematical conjecture. None of them receives any outside evidence; they only think.
-Reasoner A's credence goes 0.50, 0.70, 0.62, 0.66, 0.65, 0.65, and then stays near 0.65.
-Reasoner B's credence is 0.30 today, and B says: "After I work through the remaining cases tomorrow, I expect my credence to be about 0.6 on average."
-Reasoner C's credence keeps switching, 0.2, 0.8, 0.2, 0.8, and so on, for as long as C keeps thinking.
+
+- Reasoner A's credence goes 0.50, 0.70, 0.62, 0.66, 0.65, 0.65, and then stays near 0.65.
+- Reasoner B's credence is 0.30 today, and B says: "After I work through the remaining cases tomorrow, I expect my credence to be about 0.6 on average."
+- Reasoner C's credence keeps switching, 0.2, 0.8, 0.2, 0.8, and so on, for as long as C keeps thinking.
+
 For each reasoner, say whether the pattern is consistent with radical probabilism. For each one that is not, describe how a bookie could make money from them.
 
 3. A critic says: "Reasoner A is irrational, because A's beliefs changed without any new observation." Respond to the critic.
