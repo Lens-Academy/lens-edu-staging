@@ -116,21 +116,21 @@ Hardware-enabled mechanisms refer to solutions that aim to advance certain AI po
 
 We provide an overview of four key mechanisms for AI governance:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167966667}@@1.
     
-    Verifiable AI training and inference. Privacy-preserving, hardware-enabled mechanisms could enable the generation of trustworthy, verifiable measurements of AI workload properties, such as workload size or operational hours. In addition, these mechanisms could allow policy-makers or auditors to conduct a wide range of evaluations without direct access to model weights, bolstering accountability while safeguarding IP and security concerns.
+    --}Verifiable AI training and inference. Privacy-preserving, hardware-enabled mechanisms could enable the generation of trustworthy, verifiable measurements of AI workload properties, such as workload size or operational hours. In addition, these mechanisms could allow policy-makers or auditors to conduct a wide range of evaluations without direct access to model weights, bolstering accountability while safeguarding IP and security concerns.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167966667}@@2.
     
-    Verifiable cluster configuration. Understanding the number of AI accelerators connected in high-bandwidth configurations can help to verify claims made about the number of operations or other properties of AI training runs. If warranted by the risks and authorized by relevant regulation, limits on the size of a training cluster could be used to limit high-risk AI training activities while maintaining functionality for smaller-scale training and inference.
+    --}Verifiable cluster configuration. Understanding the number of AI accelerators connected in high-bandwidth configurations can help to verify claims made about the number of operations or other properties of AI training runs. If warranted by the risks and authorized by relevant regulation, limits on the size of a training cluster could be used to limit high-risk AI training activities while maintaining functionality for smaller-scale training and inference.
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167966667}@@3.
     
-    Location verification. Secure hardware-based location reporting could support export controls and prevent AI chips from being diverted to untrusted entities. Over time, such mechanisms could underpin international agreements restricting access to advanced AI hardware to actors that adhere to responsible AI development standards. This could simply provide visibility to regulators, or could be combined with other mechanisms to enable geographically targeted policy enforcement, such as geolocking of AI accelerators in prohibited locations.
+    --}Location verification. Secure hardware-based location reporting could support export controls and prevent AI chips from being diverted to untrusted entities. Over time, such mechanisms could underpin international agreements restricting access to advanced AI hardware to actors that adhere to responsible AI development standards. This could simply provide visibility to regulators, or could be combined with other mechanisms to enable geographically targeted policy enforcement, such as geolocking of AI accelerators in prohibited locations.
     
-4.  4.
+4.  {--{"author":"James's AI","timestamp":1790167966667}@@4.
     
-    Offline licensing. If warranted by the risk level posed by AI training or inference activities, or when dealing with untrusted actors, chips could be designed to require a license for use. These licenses would be cryptographic keys issued by a regulatory authority that expire after a specified amount of computational work, requiring the chip owner to acquire a new license. These licenses could ensure compliance with safety standards and enable more robust governance in certain scenarios.
+    --}Offline licensing. If warranted by the risk level posed by AI training or inference activities, or when dealing with untrusted actors, chips could be designed to require a license for use. These licenses would be cryptographic keys issued by a regulatory authority that expire after a specified amount of computational work, requiring the chip owner to acquire a new license. These licenses could ensure compliance with safety standards and enable more robust governance in certain scenarios.
     
 
 While this is not an exhaustive list, these mechanisms represent promising tools to enhance the governance of advanced AI systems and create incentives for international collaboration on AI safety.
@@ -139,17 +139,17 @@ While this is not an exhaustive list, these mechanisms represent promising tools
 
 AI chips could be designed to generate verifiable digital certificates that attest to key aspects of device operation, such as the size of an AI workload or the number of hours the device has been active. These certificates would support regulators in identifying and monitoring high-risk AI training activities. Certification could be particularly valuable for verifying compliance in lower-trust environments, such as when commercial or geopolitical competitors agree to comply with certain AI standards. Properties that might be verified can be split into at least three sets with distinct technical requirements:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167967084}@@•
     
-    Compute accounting could be facilitated by providing signed measurements of the computational activity carried out as part of an AI training run. Such measurements would be valuable for regulatory compliance with policies that require reporting if a model’s training goes above a certain computational threshold (e.g., US Executive Order 14110, EU AI Act). They could also be useful for environmental impact tracking.
+    --}Compute accounting could be facilitated by providing signed measurements of the computational activity carried out as part of an AI training run. Such measurements would be valuable for regulatory compliance with policies that require reporting if a model’s training goes above a certain computational threshold (e.g., US Executive Order 14110, EU AI Act). They could also be useful for environmental impact tracking.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167967084}@@•
     
-    Workload classification aims to distinguish AI from non-AI workloads, or AI workloads at different stages of the model lifecycle (design, pre-training, post-training enhancements, and deployment), to ensure that monitoring activities are appropriately targeted.
+    --}Workload classification aims to distinguish AI from non-AI workloads, or AI workloads at different stages of the model lifecycle (design, pre-training, post-training enhancements, and deployment), to ensure that monitoring activities are appropriately targeted.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167967084}@@•
     
-    Detailed workload verification involves verifying properties of the AI model or training dataset, for example verifying whether the dataset contains high-risk content (e.g. data relevant to building weapons) or confirming that certain safety evaluations have been conducted.
+    --}Detailed workload verification involves verifying properties of the AI model or training dataset, for example verifying whether the dataset contains high-risk content (e.g. data relevant to building weapons) or confirming that certain safety evaluations have been conducted.
     
 
 ![Refer to caption](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development-img3-1ecc9011.png)
@@ -184,21 +184,21 @@ They might also fragment their activities, distributing workloads across multipl
 
 #### 2.2.4 Open research questions ^2-2-4-open
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167967519}@@•
     
-    What are the most effective metrics and indicators for accurately classifying AI workloads and performing compute accounting, while minimizing performance overhead?
+    --}What are the most effective metrics and indicators for accurately classifying AI workloads and performing compute accounting, while minimizing performance overhead?
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167967519}@@•
     
-    How can adversarial robustness be improved for these metrics, ensuring resilience against intentional manipulation and evolving AI training techniques?
+    --}How can adversarial robustness be improved for these metrics, ensuring resilience against intentional manipulation and evolving AI training techniques?
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167967519}@@•
     
-    What are the technical and practical challenges of implementing large-scale cryptographic proofs and secure enclaves (e.g., TEEs) for AI verification across multi-node and multi-GPU systems? What modifications to current hardware, protocols, and security features would be needed to enable widespread use of TEEs for verifying governance-relevant properties of AI training at scale?
+    --}What are the technical and practical challenges of implementing large-scale cryptographic proofs and secure enclaves (e.g., TEEs) for AI verification across multi-node and multi-GPU systems? What modifications to current hardware, protocols, and security features would be needed to enable widespread use of TEEs for verifying governance-relevant properties of AI training at scale?
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167967519}@@•
     
-    How can dataset verification be reliably performed in distributed systems, accounting for challenges like pipeline parallelism and data parallelism, where only subsets of GPUs interact with input data?
+    --}How can dataset verification be reliably performed in distributed systems, accounting for challenges like pipeline parallelism and data parallelism, where only subsets of GPUs interact with input data?
     
 
 ### 2.3 Verifiable cluster configuration ^2-3-verifiable-cluster
@@ -253,33 +253,33 @@ If decentralized training achieves sufficient performance to train AI systems wi
 
 #### 2.3.4 Open research questions ^2-3-4-open
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167967894}@@•
     
-    What is the optimal mechanism of implementation for monitoring and enforcing chip interconnection limits? For example, how feasible is the use of cluster management software, network switches or individual AI chips for this purpose?
+    --}What is the optimal mechanism of implementation for monitoring and enforcing chip interconnection limits? For example, how feasible is the use of cluster management software, network switches or individual AI chips for this purpose?
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167967894}@@•
     
-    How viable are secure, remote, post-manufacturing adjustments to previously specified limits on communication bandwidth? Can flexible caps or whitelists for interconnection of AI chips be implemented without creating security vulnerabilities that would make the system easy to bypass for moderately resourced actors?
+    --}How viable are secure, remote, post-manufacturing adjustments to previously specified limits on communication bandwidth? Can flexible caps or whitelists for interconnection of AI chips be implemented without creating security vulnerabilities that would make the system easy to bypass for moderately resourced actors?
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167967894}@@•
     
-    What are the appropriate technical parameters for pod size and external communication bandwidth limits, given current AI training needs and anticipated future developments in distributed AI training techniques?
+    --}What are the appropriate technical parameters for pod size and external communication bandwidth limits, given current AI training needs and anticipated future developments in distributed AI training techniques?
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167967894}@@•
     
-    How can heterogeneous devices be identified in a secure way? How can individual device authentication or attestation mechanisms be integrated into a cohesive architecture that verifies and controls the number of interconnected AI chips?
+    --}How can heterogeneous devices be identified in a secure way? How can individual device authentication or attestation mechanisms be integrated into a cohesive architecture that verifies and controls the number of interconnected AI chips?
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167967894}@@•
     
-    How can the integrity of fixed set pods be remotely attested, and what mechanisms could be developed to detect tampering with these configurations?
+    --}How can the integrity of fixed set pods be remotely attested, and what mechanisms could be developed to detect tampering with these configurations?
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167967894}@@•
     
-    If restrictions are enforced using networking equipment, how can this be done without undesired impacts on non-AI training activities that use this equipment?
+    --}If restrictions are enforced using networking equipment, how can this be done without undesired impacts on non-AI training activities that use this equipment?
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167967894}@@•
     
-    Is there a way to securely update which chips are permitted in the pod so that broken hardware can be replaced?
+    --}Is there a way to securely update which chips are permitted in the pod so that broken hardware can be replaced?
     
 
 ### 2.4 Location verification ^2-4-location-verification
@@ -318,37 +318,37 @@ Owners of chips could tamper with their devices to undermine the cryptographic p
 
 #### 2.4.4 Open research questions ^2-4-4-open
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167968277}@@•
     
-    Given that the delay to distance relationship varies depending on local network conditions, what level of accuracy in location estimates is feasible in various regions of the world, particularly those in and around countries subject to export controls on AI chips?
+    --}Given that the delay to distance relationship varies depending on local network conditions, what level of accuracy in location estimates is feasible in various regions of the world, particularly those in and around countries subject to export controls on AI chips?
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167968277}@@•
     
-    What improvements are possible on existing protocols for converting time delays to distances and distances from individual servers to absolute locations?
+    --}What improvements are possible on existing protocols for converting time delays to distances and distances from individual servers to absolute locations?
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167968277}@@•
     
-    How can location verification protocols be calibrated or complemented with other tools to minimize the rate of false positives, which could lead to unnecessary operational disruption for chip users?
+    --}How can location verification protocols be calibrated or complemented with other tools to minimize the rate of false positives, which could lead to unnecessary operational disruption for chip users?
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167968277}@@•
     
-    How scalable are the proposed location verification protocols, and what modifications might be required to enable location verification for millions of high-performance AI chips?
+    --}How scalable are the proposed location verification protocols, and what modifications might be required to enable location verification for millions of high-performance AI chips?
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167968277}@@•
     
-    Given their potential for greater accuracy, can satellite-based communications provide a sufficiently secure and economically feasible alternative to communication over the Internet for verifying locations?
+    --}Given their potential for greater accuracy, can satellite-based communications provide a sufficiently secure and economically feasible alternative to communication over the Internet for verifying locations?
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167968277}@@•
     
-    How can landmarks be secured against DDoS and other kinds of attacks?
+    --}How can landmarks be secured against DDoS and other kinds of attacks?
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167968277}@@•
     
-    How can secure memory protect private keys from being read by chip owners?
+    --}How can secure memory protect private keys from being read by chip owners?
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167968277}@@•
     
-    How can this protocol be made compatible with desires for strong cybersecurity at data centers that might involve airgapping?
+    --}How can this protocol be made compatible with desires for strong cybersecurity at data centers that might involve airgapping?
     
 
 ### 2.5 Offline Licensing ^2-5-offline-licensing
@@ -385,17 +385,17 @@ Licenses specify the amount of computational work that the owner of the license 
 
 We outline several categories of attacks on licenses and propose specific modifications to the licensing system design to thwart these attacks (Petrie, 2024):
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167968654}@@•
     
-    First, to prevent chip operators from creating their own counterfeit licenses, the license provider could sign each license with their private key, and chips could be built to store the license provider’s public key in secure, tamper-resistant memory, allowing the chip to verify that the license’s signature is authentic.
+    --}First, to prevent chip operators from creating their own counterfeit licenses, the license provider could sign each license with their private key, and chips could be built to store the license provider’s public key in secure, tamper-resistant memory, allowing the chip to verify that the license’s signature is authentic.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167968654}@@•
     
-    Second, to prevent the same license from being used multiple times on a single chip, the license could include a license ID that starts at zero for the first license issued to a particular chip operator and increments up with each new license. The chip could be designed to reject any license ID lower than the chip’s most recently used license ID number, thus preventing old licenses from being reused.
+    --}Second, to prevent the same license from being used multiple times on a single chip, the license could include a license ID that starts at zero for the first license issued to a particular chip operator and increments up with each new license. The chip could be designed to reject any license ID lower than the chip’s most recently used license ID number, thus preventing old licenses from being reused.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167968654}@@•
     
-    Third, to prevent the same license from being used for multiple chips, chips could be built with an unmodifiable Device ID, and licenses could specify the Device ID of the chip they’re intended to license.
+    --}Third, to prevent the same license from being used for multiple chips, chips could be built with an unmodifiable Device ID, and licenses could specify the Device ID of the chip they’re intended to license.
     
 
 ![Refer to caption](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development-img8-7c66f03b.png)
@@ -408,25 +408,25 @@ The license itself is not the only component of the mechanism that could be atta
 
 Topics requiring further research related to this proposal include:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167969086}@@•
     
-    To what extent are existing secure boot technologies appropriate for protecting licensing (and other hardware-enabled governance mechanisms) against tampering? What new vulnerabilities could arise in this context and how can these be mitigated?
+    --}To what extent are existing secure boot technologies appropriate for protecting licensing (and other hardware-enabled governance mechanisms) against tampering? What new vulnerabilities could arise in this context and how can these be mitigated?
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167969086}@@•
     
-    How can the authenticity of licenses be verified in a scalable way across hundreds of thousands of chips? What other implementation challenges should be expected in deploying a licensing scheme at scale, and how can these be addressed?
+    --}How can the authenticity of licenses be verified in a scalable way across hundreds of thousands of chips? What other implementation challenges should be expected in deploying a licensing scheme at scale, and how can these be addressed?
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167969086}@@•
     
-    Which quantities should be metered, and how can this be done securely? What are the strengths and limitations of potential candidate metrics such as floating-point arithmetic unit uses?
+    --}Which quantities should be metered, and how can this be done securely? What are the strengths and limitations of potential candidate metrics such as floating-point arithmetic unit uses?
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167969086}@@•
     
-    What technical and operational constraints should be considered when determining how much of each quantity should be allowed per license? Smaller limits would require chip owners to more frequently renew their licenses, which has costs and benefits from a governance perspective.
+    --}What technical and operational constraints should be considered when determining how much of each quantity should be allowed per license? Smaller limits would require chip owners to more frequently renew their licenses, which has costs and benefits from a governance perspective.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167969086}@@•
     
-    How should licenses be issued? This is primarily a policy question, not a technical question. However, technical researchers could enable more desirable policy choices, such as designing systems for multi-party provision of licenses that enable multilateral AI governance.
+    --}How should licenses be issued? This is primarily a policy question, not a technical question. However, technical researchers could enable more desirable policy choices, such as designing systems for multi-party provision of licenses that enable multilateral AI governance.
     
 
 ## 3 Challenges ^3-challenges
@@ -441,17 +441,17 @@ Hardware-enabled mechanisms must be secure against potential adversaries. Hardwa
 
 To characterize the different kinds of adversarial settings, each with different requirements for security against adversaries, we follow the taxonomy from Aarne et al. (2024):
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167969508}@@1.
     
-    “Minimally adversarial contexts, where attackers do not spend much on attacks, and are very averse to being discovered attempting to compromise mechanisms”
+    --}“Minimally adversarial contexts, where attackers do not spend much on attacks, and are very averse to being discovered attempting to compromise mechanisms”
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167969508}@@2.
     
-    “Covertly adversarial contexts, where attackers are more willing to spend substantial resources to compromise mechanisms, but still want to avoid being caught doing so”
+    --}“Covertly adversarial contexts, where attackers are more willing to spend substantial resources to compromise mechanisms, but still want to avoid being caught doing so”
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167969508}@@3.
     
-    “Openly adversarial contexts, where attackers are willing to spend very significant resources to compromise mechanisms and are indifferent to this being discovered.”
+    --}“Openly adversarial contexts, where attackers are willing to spend very significant resources to compromise mechanisms and are indifferent to this being discovered.”
     
 
 Physical security against tampering will need to be prioritized. Historically, one of the major motivations for work on chip security has been to preserve users’ privacy and confidentiality, by guarding against attacks that aim to infer secret information, hijack control flow, compromise system root-of-trust or steal intellectual property (Hu et al., 2020). However, monitoring the activities of AI chips to ensure they do not violate regulations or agreements implies a different kind of threat model, in which the users themselves could be attackers. Under this new paradigm, anti-tampering measures will be essential to prevent people with physical access to GPUs from physically altering the mechanisms to circumvent restrictions.
@@ -498,25 +498,25 @@ For hardware-enabled mechanisms to be reliable, chips must be protected against 
 
 Different measures have different levels of robustness to tampering. While it may be difficult to obtain a perfect guarantee that hardware is impossible to tamper with, some measures represent stronger protections than others. For the purposes of this paper, we use the following definitions:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167969951}@@•
     
-    Anti-tamper: any measure that makes it more difficult to physically tamper with hardware.
+    --}Anti-tamper: any measure that makes it more difficult to physically tamper with hardware.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167969951}@@•
     
-    Tamper-proof: measures that make tampering impossible within the capabilities and budget of any relevant threat actor
+    --}Tamper-proof: measures that make tampering impossible within the capabilities and budget of any relevant threat actor
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167969951}@@•
     
-    Tamper-resistant: measures that increase the cost of tampering beyond the budgets of some attackers but not all relevant ones
+    --}Tamper-resistant: measures that increase the cost of tampering beyond the budgets of some attackers but not all relevant ones
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167969951}@@•
     
-    Tamper-evident: measures that do not prevent tampering, but mean that an inspector can quickly and cheaply notice if an attack has happened.
+    --}Tamper-evident: measures that do not prevent tampering, but mean that an inspector can quickly and cheaply notice if an attack has happened.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167969951}@@•
     
-    Tamper-respondent: measures taken in response to detected tampering, such as deleting keys if the enclosure is opened.
+    --}Tamper-respondent: measures taken in response to detected tampering, such as deleting keys if the enclosure is opened.
     
 
 For some research domains, it will be useful if these terms are defined more rigorously. Future work should explore the range of tamper-related definitions more formally with an information processing perspective on confidentiality, integrity, availability, and the categories of goals of each involved actor.

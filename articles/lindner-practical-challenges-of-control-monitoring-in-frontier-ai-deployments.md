@@ -99,17 +99,17 @@ The four new dynamics necessitate adaptations to existing monitoring protocols. 
 
 One key design choice for designing control monitoring protocols is synchrony: when should agent actions be blocked while waiting for oversight decisions? This choice dramatically affects both system latency and vulnerability windows. Below, we outline three approaches:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167964592}@@•
     
-    Fully-synchronous monitoring: Each agent action is blocked until the monitor has processed that action. If _any_ action is flagged for auditing, actions across _all_ agent instances will be blocked until the audit is complete. This type of monitoring is the closest to the trusted monitoring protocol of [Greenblatt et al. (2024)](#bib.bib1).
+    --}Fully-synchronous monitoring: Each agent action is blocked until the monitor has processed that action. If _any_ action is flagged for auditing, actions across _all_ agent instances will be blocked until the audit is complete. This type of monitoring is the closest to the trusted monitoring protocol of [Greenblatt et al. (2024)](#bib.bib1).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167964592}@@•
     
-    Semi-synchronous monitoring: An agent’s action is blocked until the monitor has run. If an action is flagged for auditing, only that specific instance is blocked while other instances continue operating. While less intrusive than fully-synchronous monitoring, semi-synchronous monitoring leaves the system exposed to distributed attacks where other instances continue making progress while one instance is being audited.
+    --}Semi-synchronous monitoring: An agent’s action is blocked until the monitor has run. If an action is flagged for auditing, only that specific instance is blocked while other instances continue operating. While less intrusive than fully-synchronous monitoring, semi-synchronous monitoring leaves the system exposed to distributed attacks where other instances continue making progress while one instance is being audited.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167964592}@@•
     
-    Asynchronous monitoring: Agent actions are executed immediately, and in-parallel with monitoring and auditing, eliminating both human- and monitor-latency costs and enabling batched or off-peak monitoring. Although practical, asynchronous monitoring significantly increases vulnerability to actions that cause immediate harm or make irreversible progress.
+    --}Asynchronous monitoring: Agent actions are executed immediately, and in-parallel with monitoring and auditing, eliminating both human- and monitor-latency costs and enabling batched or off-peak monitoring. Although practical, asynchronous monitoring significantly increases vulnerability to actions that cause immediate harm or make irreversible progress.
     
 
 Figure 2: Model of system availability.
@@ -234,21 +234,21 @@ Figure 4: Example weight exfiltration attack vector. The agent transfers model w
 
 The agent is deployed internally at a company developing AI systems, and helps both (i) interpretability researchers (who need to experiment with model weights) and (ii) infrastructure engineers. The company’s setup includes four separate computing environments:[^note-3]
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167965019}@@•
     
-    Employee laptops serve as thin clients/terminals to access an employee’s DevBox.
+    --}Employee laptops serve as thin clients/terminals to access an employee’s DevBox.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167965019}@@•
     
-    DevBoxes are dedicated workspaces where employees do their daily work and the agent’s scaffold runs. DevBoxes have restricted internet access for downloading packages, repos and datasets but heavily restricted uploads.
+    --}DevBoxes are dedicated workspaces where employees do their daily work and the agent’s scaffold runs. DevBoxes have restricted internet access for downloading packages, repos and datasets but heavily restricted uploads.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167965019}@@•
     
-    The inference service is where the agent’s LLM runs. It stores model weights, but access is carefully restricted.
+    --}The inference service is where the agent’s LLM runs. It stores model weights, but access is carefully restricted.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167965019}@@•
     
-    Interpretability environments are ephemeral, isolated workspaces with no internet access, used for interpretability experiments that require weight access.
+    --}Interpretability environments are ephemeral, isolated workspaces with no internet access, used for interpretability experiments that require weight access.
     
 
 ### 4.2 Attack vector ^4-2-attack-vector
@@ -271,17 +271,17 @@ By assumption, there are attack actions across 9 independent contexts in this at
 
 This attack vector has three main drivers of harm latency:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167965344}@@1.
     
-    Infrequent opportunities. For example, it might only be possible to disable a security measure subtly when that security measure is being edited. If opportunities for each change were infrequent, and independently distributed, then waiting for all 6 opportunities could take days, weeks or months. If, instead, opportunities were correlated or frequent, then harm latency could be lower. See [[#^appendix-e-coordination-between|Appendix E]] for more discussion.
+    --}Infrequent opportunities. For example, it might only be possible to disable a security measure subtly when that security measure is being edited. If opportunities for each change were infrequent, and independently distributed, then waiting for all 6 opportunities could take days, weeks or months. If, instead, opportunities were correlated or frequent, then harm latency could be lower. See [[#^appendix-e-coordination-between|Appendix E]] for more discussion.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167965344}@@2.
     
-    Action latency. For example, updates to security policies might take many hours to take full effect.[^note-8] Weight transfers could take hours depending on file size and bandwidth limits (a model with 1T parameters could take 15-60 minutes to transfer at 1GB/s, assuming its weights are stored with 0.5-2 bytes per parameter).
+    --}Action latency. For example, updates to security policies might take many hours to take full effect.[^note-8] Weight transfers could take hours depending on file size and bandwidth limits (a model with 1T parameters could take 15-60 minutes to transfer at 1GB/s, assuming its weights are stored with 0.5-2 bytes per parameter).
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167965344}@@3.
     
-    Serial dependencies. For example, even once all security measures are completed, weight transfers need to happen in three serial steps.
+    --}Serial dependencies. For example, even once all security measures are completed, weight transfers need to happen in three serial steps.
     
 
 Oversight latency will be primarily determined by organizational capacity, the auditing procedures, and the monitoring latency.
@@ -413,25 +413,25 @@ We thank Mary Phuong for a detailed review of an early version of this paper, as
 
 These appendices present more detailed accounts of some of the arguments presented in the paper. They proceed as follows:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167965645}@@•
     
-    [[#^appendix-b-a-more|Appendix B]] presents a more detailed safety case for bounding the potential risk across a whole deployment.
+    --}[[#^appendix-b-a-more|Appendix B]] presents a more detailed safety case for bounding the potential risk across a whole deployment.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167965645}@@•
     
-    [[#^appendix-c-example-concrete|Appendix C]] presents a concrete safety case subtree for bounding the probability of catching a weight exfiltration attack attempt.
+    --}[[#^appendix-c-example-concrete|Appendix C]] presents a concrete safety case subtree for bounding the probability of catching a weight exfiltration attack attempt.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167965645}@@•
     
-    [[#^appendix-d-model-of|Appendix D]] explains the model of system availability shown in Fig. 2.
+    --}[[#^appendix-d-model-of|Appendix D]] explains the model of system availability shown in Fig. 2.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167965645}@@•
     
-    [[#^appendix-e-coordination-between|Appendix E]] discusses some of the challenges, opportunities and benefits for an attacker to coordinate across instances.
+    --}[[#^appendix-e-coordination-between|Appendix E]] discusses some of the challenges, opportunities and benefits for an attacker to coordinate across instances.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167965645}@@•
     
-    [[#^appendix-f-comparing-our|Appendix F]] provides a more detailed comparison between our paper and prior work investigating monitoring in AI control.
+    --}[[#^appendix-f-comparing-our|Appendix F]] provides a more detailed comparison between our paper and prior work investigating monitoring in AI control.
     
 
 ## Appendix B A more detailed argument extrapolating per-attempt catch rate to overall deployment risk. ^appendix-b-a-more
@@ -516,25 +516,25 @@ Throughout this paper, we’ve mostly been considering the worst-case scenario w
 
 There are several kinds of ways an AI agent can establish shared knowledge:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167965996}@@1.
     
-    Knowledge from pre-deployment training. Some common information will be stored in a model’s weights, which should be common between instances at deployment time.
+    --}Knowledge from pre-deployment training. Some common information will be stored in a model’s weights, which should be common between instances at deployment time.
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167965996}@@2.
     
-    ##### Long-term, shared memory.
+    --}##### Long-term, shared memory.
     
     Deploying an AI model with a long-term memory that persisted between instances would massively improve coordination (perhaps unless that memory was itself monitorable, and in-fact monitored).
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167965996}@@3.
     
-    ##### Correlations between observations.
+    --}##### Correlations between observations.
     
     Observations present in the models context (through prompts and tool-call responses) may provide some information that is shared between instances. For example, if tool-calls return timestamps, then agent instances may have a shared knowledge of the current time.
     
-4.  4.
+4.  {--{"author":"James's AI","timestamp":1790167965996}@@4.
     
-    ##### Causation between cross-instance observations
+    --}##### Causation between cross-instance observations
     
     could allow one agent influence to directly affect another. For example, one agent could hide a monitor jailbreak in a codebase, so that future instances that read the codebase can use it. Alternatively, agent instances could coordinate on attack plans or timings in a similar way.
     
@@ -599,17 +599,17 @@ In general, the independence assumptions listed above might not hold, unless we 
 
 Model 1 uses a single threshold $T_{H}$ to bound oversight latency and a single threshold $T_{R}+T_{H}$ to determine whether attack steps occur "in time" to be caught. A less conservative model could formalise the 6 major claims to include more detail in a number of ways:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167966331}@@•
     
-    The timings for each attack step could be treated as random variables.
+    --}The timings for each attack step could be treated as random variables.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167966331}@@•
     
-    Point-estimate approximations of timings of individual actions could be replaced with more detailed distributions.
+    --}Point-estimate approximations of timings of individual actions could be replaced with more detailed distributions.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167966331}@@•
     
-    The probability of reversal or prevention could be given, conditional on more details of the action timings. For example, rather than claiming that “the probability of harm is $>p$ as long as step 3 has not started yet”, a detailed formalism could include estimates conditional on the timings of all actions.
+    --}The probability of reversal or prevention could be given, conditional on more details of the action timings. For example, rather than claiming that “the probability of harm is $>p$ as long as step 3 has not started yet”, a detailed formalism could include estimates conditional on the timings of all actions.
     
 
 A more complex model would require a greater number of empirical values to be estimated, but may provide a tighter lower bound.

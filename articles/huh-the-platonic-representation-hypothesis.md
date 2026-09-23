@@ -66,17 +66,17 @@ Also closely related to our hypothesis is the “Anna Karenina scenario” descr
 
 We restrict our attention to representations that are vector embeddings. We characterize such a representation by the similarity structure it induces, referred to as its kernel. Kernels are commonly used to assess representations ([Kornblith et al., 2019](#bib.bib61); [Klabunde et al., 2023](#bib.bib59)); this can be justified by the fact that they capture the relative structures among data samples, which are also the learning signal for many machine learning algorithms  ([Aronszajn, 1950](#bib.bib4); [Smola & Schölkopf, 1998](#bib.bib112)). Following prior literature, we define representational alignment as a measure of the similarity of the similarity structures induced by two representations, i.e., a similarity metric over kernels. We give the mathematical definition of these concepts below:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167963046}@@•
     
-    A representation is a function $f\colon\mathcal{X}\rightarrow\mathbb{R}^{n}$ that assigns a feature vector to each input in some data domain $\mathcal{X}$.
+    --}A representation is a function $f\colon\mathcal{X}\rightarrow\mathbb{R}^{n}$ that assigns a feature vector to each input in some data domain $\mathcal{X}$.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167963046}@@•
     
-    A kernel, $K\colon\mathcal{X}\times\mathcal{X}\rightarrow\mathbb{R}$, characterizes how a representation measures distance/similarity between datapoints. $K(x_{i},x_{j})=\langle f(x_{i}),f(x_{j})\rangle$, where $\langle{{}\cdot{}},{{}\cdot{}}\rangle$ denotes inner product, $x_{i},x_{j}\in\mathcal{X}$ and $K\in\mathcal{K}$.
+    --}A kernel, $K\colon\mathcal{X}\times\mathcal{X}\rightarrow\mathbb{R}$, characterizes how a representation measures distance/similarity between datapoints. $K(x_{i},x_{j})=\langle f(x_{i}),f(x_{j})\rangle$, where $\langle{{}\cdot{}},{{}\cdot{}}\rangle$ denotes inner product, $x_{i},x_{j}\in\mathcal{X}$ and $K\in\mathcal{K}$.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167963046}@@•
     
-    A kernel-alignment metric, $m\colon\mathcal{K}\times\mathcal{K}\rightarrow\mathbb{R}$, measures the similarity between two kernels, i.e., how similar is the distance measure induced by one representation to the distance measure induced by another. Examples include Centered Kernel Distance (CKA) ([Kornblith et al., 2019](#bib.bib61)), SVCCA ([Raghu et al., 2017](#bib.bib103)), and nearest-neighbor metrics ([Klabunde et al., 2023](#bib.bib59)).
+    --}A kernel-alignment metric, $m\colon\mathcal{K}\times\mathcal{K}\rightarrow\mathbb{R}$, measures the similarity between two kernels, i.e., how similar is the distance measure induced by one representation to the distance measure induced by another. Examples include Centered Kernel Distance (CKA) ([Kornblith et al., 2019](#bib.bib61)), SVCCA ([Raghu et al., 2017](#bib.bib103)), and nearest-neighbor metrics ([Klabunde et al., 2023](#bib.bib59)).
     
 
 In our experiments, we use a _mutual nearest-neighbor metric_ that measures the mean intersection of the $k$\-nearest neighbor sets induced by two kernels, $K_{1}$ and $K_{2}$, normalized by $k$. This metric is a variant of those proposed in [Park et al. (2024)](#bib.bib97), [Klabunde et al. (2023)](#bib.bib59) and [Oron et al. (2017)](#bib.bib95). See Appendix [[#^appendix-a-mutual-k|Appendix A]] for the exact definition and [[#^appendix-b-consistency-across|Appendix B]] for comparisons with alternative alignment metrics.
@@ -613,21 +613,21 @@ To demonstrate representational convergence, we take off-the-shelf models at mul
 
 We consider 78 vision models in total:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167963416}@@•
     
-    $17$ ViT models ranging from ViT-tiny to ViT-giant, trained on tasks including ImageNet-21k ([Dosovitskiy et al., 2020](#bib.bib27)) classification, Masked Autoencoders ([He et al., 2021](#bib.bib45)), DINO ([Caron et al., 2021](#bib.bib17)), and CLIP ([Radford et al., 2021](#bib.bib102)), including some finetuned on ImageNet-12k.
+    --}$17$ ViT models ranging from ViT-tiny to ViT-giant, trained on tasks including ImageNet-21k ([Dosovitskiy et al., 2020](#bib.bib27)) classification, Masked Autoencoders ([He et al., 2021](#bib.bib45)), DINO ([Caron et al., 2021](#bib.bib17)), and CLIP ([Radford et al., 2021](#bib.bib102)), including some finetuned on ImageNet-12k.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167963416}@@•
     
-    $1$ randomly initialized ResNet-50.
+    --}$1$ randomly initialized ResNet-50.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167963416}@@•
     
-    $11$ ResNet-50 models trained with contrastive learning on ImageNet-1k, Places-365 ([Zhou et al., 2017](#bib.bib142); [López-Cifuentes et al., 2020](#bib.bib74)), and $9$ synthetic image datasets used in [Baradad et al. (2022)](#bib.bib10).
+    --}$11$ ResNet-50 models trained with contrastive learning on ImageNet-1k, Places-365 ([Zhou et al., 2017](#bib.bib142); [López-Cifuentes et al., 2020](#bib.bib74)), and $9$ synthetic image datasets used in [Baradad et al. (2022)](#bib.bib10).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167963416}@@•
     
-    $49$ ResNet-18 models trained with Alignment and Uniformity contrastive loss ([Wang & Isola, 2020](#bib.bib131)) on ImageNet-100, Places-365, and $47$ realistic and synthetic image datasets from [Baradad et al. (2021)](#bib.bib9).
+    --}$49$ ResNet-18 models trained with Alignment and Uniformity contrastive loss ([Wang & Isola, 2020](#bib.bib131)) on ImageNet-100, Places-365, and $47$ realistic and synthetic image datasets from [Baradad et al. (2021)](#bib.bib9).
     
 
 To test representation quality, we evaluate linear probing performance on all 19 VTAB classification tasks ([Zhai et al., 2019](#bib.bib140)), which is a standard multi-task transfer learning benchmark containing structured, specialized, and natural datasets covering diverse domains. To reduce compute requirements, we subsample training and validation datasets to have at most 10,000 samples. We consider a representation solves a task if its performance is $\geq 80\%$ of the best performance on that task across all 78 models.
@@ -660,21 +660,21 @@ We embed pixels taken from the CIFAR-10 image dataset ([Krizhevsky et al., 2009
 
 For these three representations, we first obtain a dissimilarity matrix over colors (in different ways detailed below), then use multidimensional scaling ([Shepard, 1980](#bib.bib110)) to find a 3-dimensional embedding in which Euclidean distance between the embeddings for $A$ and $B$, ${z}_{A}$ and ${z}_{B}$, best matches this dissimilarity matrix. We use $1{,}000$ fits and take the best match. Afterward, we visually align it with the CIELAB space by finding the best rotation, translation, scaling, and flipping, by running the Kabsch-Umeyama algorithm ([Kabsch, 1976](#bib.bib56); [Kabsch, 1978](#bib.bib57); [Umeyama, 1991](#bib.bib128)) twice, once on $\mathbf{z}$ and once on $-\mathbf{z}$, to account for flipping. The dissimilarity matrix we used in each case is described as following:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167963783}@@•
     
-    VISION: Pixel cooccurrence. We collect color cooccurrence statistics from the CIFAR-10 dataset, and estimate a joint distribution $p(A,B)$ over $300{,}000$ randomly sampled pixel colors $A$ and $B$ that occur within a radius of at most 4 pixels of one another. Colors are quantized on a grid in RGB space and represented as discrete variables, and $p(A,B)$ is modeled as a table of normalized counts, from which we compute the empirical pointwise mutual information matrix $K_{\mathsf{PMI}}(A,B)$. Quantization ensures that there is no bias from how color distances are represented in RGB space. Dissimilarity matrix is defined as $-K_{\mathsf{PMI}}(A,B)+c$, where $c=\max_{A,B}K_{\mathsf{PMI}}(A,B)$ is an offset to ensure non-negativity (similar to the constant in [[#^4-2-a-family|Section 4.2]] and [[#^proposition-f-1|Proposition F.1]] that ensures neural networks can express $K_{\mathsf{PMI}}$).
+    --}VISION: Pixel cooccurrence. We collect color cooccurrence statistics from the CIFAR-10 dataset, and estimate a joint distribution $p(A,B)$ over $300{,}000$ randomly sampled pixel colors $A$ and $B$ that occur within a radius of at most 4 pixels of one another. Colors are quantized on a grid in RGB space and represented as discrete variables, and $p(A,B)$ is modeled as a table of normalized counts, from which we compute the empirical pointwise mutual information matrix $K_{\mathsf{PMI}}(A,B)$. Quantization ensures that there is no bias from how color distances are represented in RGB space. Dissimilarity matrix is defined as $-K_{\mathsf{PMI}}(A,B)+c$, where $c=\max_{A,B}K_{\mathsf{PMI}}(A,B)$ is an offset to ensure non-negativity (similar to the constant in [[#^4-2-a-family|Section 4.2]] and [[#^proposition-f-1|Proposition F.1]] that ensures neural networks can express $K_{\mathsf{PMI}}$).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167963783}@@•
     
-    LANGUAGE. We used an approach similar to [Abdou et al. (2021)](#bib.bib1).
+    --}LANGUAGE. We used an approach similar to [Abdou et al. (2021)](#bib.bib1).
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167963783}@@–
         
-        We take $20$ pairs of (color, word) appeared in the dataset collected by [Lindsey & Brown (2014)](#bib.bib69), where $51$ participants were asked to free name each of the $330$ colors from the Munsell Color Chart. We filtered words that appeared less than $100$ times, and computed each word’s associate color by taking the centroid in CIELAB space. Our filtering process followed [Abdou et al. (2021)](#bib.bib1) exactly, but resulted in $20$ colors, a slightly different set than the $18$ colors they claimed.
+        --}We take $20$ pairs of (color, word) appeared in the dataset collected by [Lindsey & Brown (2014)](#bib.bib69), where $51$ participants were asked to free name each of the $330$ colors from the Munsell Color Chart. We filtered words that appeared less than $100$ times, and computed each word’s associate color by taking the centroid in CIELAB space. Our filtering process followed [Abdou et al. (2021)](#bib.bib1) exactly, but resulted in $20$ colors, a slightly different set than the $18$ colors they claimed.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167963783}@@–
         
-        For each of the $20$ color words `<col>`, we construct three sentences:
+        --}For each of the $20$ color words `<col>`, we construct three sentences:
         
         - The color `<col>`.
         - This color is `<col>`.
@@ -682,17 +682,17 @@ For these three representations, we first obtain a dissimilarity matrix over col
         
         and obtain the average sentence embedding from the language encoder, as the embedding for `<col>` (details below). We find this approach more effective than [Abdou et al. (2021)](#bib.bib1), which uses object names that potentially have color biases, even though the objects may appear in multiple colors.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167963783}@@–
         
-        Unlike [Abdou et al. (2021)](#bib.bib1), we did not perform linear regression from language embedding to CIELAB space, which distorts distances and easily overfits with only $20$ samples. Instead, we used multidimensional scaling to best preserve distances, as described above.
+        --}Unlike [Abdou et al. (2021)](#bib.bib1), we did not perform linear regression from language embedding to CIELAB space, which distorts distances and easily overfits with only $20$ samples. Instead, we used multidimensional scaling to best preserve distances, as described above.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167963783}@@–
         
-        Masked language contrastive learning (SimCSE) embedding: We used sentence embedding from the unsupervised SimCSE RoBERTa-L ([Gao et al., 2021](#bib.bib30)) to encode the above sentences into $1024$\-dimensional embeddings, and used the pairwise Euclidean distances among `<col>` embeddings as the dissimilarity matrix.
+        --}Masked language contrastive learning (SimCSE) embedding: We used sentence embedding from the unsupervised SimCSE RoBERTa-L ([Gao et al., 2021](#bib.bib30)) to encode the above sentences into $1024$\-dimensional embeddings, and used the pairwise Euclidean distances among `<col>` embeddings as the dissimilarity matrix.
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167963783}@@–
         
-        Masked language predictive learning (RoBERTa) embedding: We concatenated hidden states of the last four layers of RoBERTa-L ([Liu et al., 2019](#bib.bib72)), following ([Devlin et al., 2018](#bib.bib23)). We averaged across token dimensions, and obtained a $4096$\-dimensional embedding for each of the above sentences, and used the pairwise Euclidean distances among `<col>` embeddings as the dissimilarity matrix.
+        --}Masked language predictive learning (RoBERTa) embedding: We concatenated hidden states of the last four layers of RoBERTa-L ([Liu et al., 2019](#bib.bib72)), following ([Devlin et al., 2018](#bib.bib23)). We averaged across token dimensions, and obtained a $4096$\-dimensional embedding for each of the above sentences, and used the pairwise Euclidean distances among `<col>` embeddings as the dissimilarity matrix.
         
     
 
@@ -714,9 +714,9 @@ There are two widely used forms of contrastive objectives. We now discuss each f
 
 Recall that our positive pairs are sampled from $(x,x_{+})\sim{P}_{\mathsf{coor}}$, and that the negative pairs are sampled independently from its marginals which we denote as $(x,x_{-})\overset{\text{i.i.d.}}{\sim}P$ where $P(x)=\sum_{x_{+}}{P}_{\mathsf{coor}}(x,x_{+})$.
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167964144}@@1.
     
-    The binary NCE loss ([Gutmann & Hyvärinen, 2010](#bib.bib40)) is defined with a certain prior over sampling positive vs. negative pairs. Let $p_{\mathsf{pos}}$ be the probability of sampling a positive pair. Then the loss is given by
+    --}The binary NCE loss ([Gutmann & Hyvärinen, 2010](#bib.bib40)) is defined with a certain prior over sampling positive vs. negative pairs. Let $p_{\mathsf{pos}}$ be the probability of sampling a positive pair. Then the loss is given by
     
     $$
     \mathcal{L}_{\mathsf{binary\text{-}NCE}}(g)\triangleq p_{\mathsf{pos}}\cdot\mathbb{E}_{(x,x_{+})\sim{P}_{\mathsf{coor}}}\left[-\log\sigma(g(x,x_{+}))\right]+(1-p_{\mathsf{pos}})\cdot\mathbb{E}_{(x,x_{-})\overset{\text{i.i.d.}}{\sim}P}\left[-\log\sigma(-g(x,x_{-}))\right].
@@ -733,9 +733,9 @@ Recall that our positive pairs are sampled from $(x,x_{+})\sim{P}_{\mathsf{coor}
     =K_{\mathsf{PMI}}(x_{a},x_{b})+c_{X}.
     $$
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167964144}@@2.
     
-    The InfoNCE loss ([Oord et al., 2018](#bib.bib92)) is defined with randomly sampling one positive pair along with $K$ negative ones. With some hyperparameter $\tau>0$, the loss is given by
+    --}The InfoNCE loss ([Oord et al., 2018](#bib.bib92)) is defined with randomly sampling one positive pair along with $K$ negative ones. With some hyperparameter $\tau>0$, the loss is given by
     
     $$
     \mathcal{L}_{\mathsf{InfoNCE}}(g)\triangleq\mathbb{E}_{\begin{subarray}{c}(x,x_{+})\sim{P}_{\mathsf{coor}}\\
