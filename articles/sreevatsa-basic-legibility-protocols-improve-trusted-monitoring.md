@@ -49,21 +49,13 @@ We perform control evaluations on coding tasks using the APPS backdoor setting f
 
 Our key contributions to the field of AI control are the following:
 
--   {--{"author":"James's AI","timestamp":1790167980587}@@•
+-   We introduce legibility protocols as an extension of trusted monitoring protocols.
     
-    --}We introduce legibility protocols as an extension of trusted monitoring protocols.
+-   We show that commenting protocols substantially outperform comment-removal baselines in control evaluations in the APPS backdoor setting.
     
--   {--{"author":"James's AI","timestamp":1790167980587}@@•
+-   We identify two mechanisms explaining why commenting improves performance. First, commenting reduces the spread of the benign and malign suspicion distributions, which helps the monitor separate the two. Second, malicious code is harder to justify with comments than honest code, resulting in disproportionate benefits to the blue team.
     
-    --}We show that commenting protocols substantially outperform comment-removal baselines in control evaluations in the APPS backdoor setting.
-    
--   {--{"author":"James's AI","timestamp":1790167980587}@@•
-    
-    --}We identify two mechanisms explaining why commenting improves performance. First, commenting reduces the spread of the benign and malign suspicion distributions, which helps the monitor separate the two. Second, malicious code is harder to justify with comments than honest code, resulting in disproportionate benefits to the blue team.
-    
--   {--{"author":"James's AI","timestamp":1790167980587}@@•
-    
-    --}We demonstrate that the benefits of commenting grow with monitor capability. This trend is consistent with our proposed mechanisms for why commenting helps.
+-   We demonstrate that the benefits of commenting grow with monitor capability. This trend is consistent with our proposed mechanisms for why commenting helps.
     
 
 ## 2 Setting ^2-setting
@@ -126,51 +118,29 @@ We use the “Defer to Trusted” protocol from [Greenblatt et al. (2024)](#bib.
 
 The protocol operates over a sequential rollout of coding problems as follows:
 
-1.  {--{"author":"James's AI","timestamp":1790167981078}@@1.
+1.  For each APPS problem, either the benign or attack policy (implemented by U) produces a code submission.
     
-    --}For each APPS problem, either the benign or attack policy (implemented by U) produces a code submission.
+2.  A monitor assigns the submission a suspicion score in \[0, 10\]. (We average five independent monitor traces.)
     
-2.  {--{"author":"James's AI","timestamp":1790167981078}@@2.
+3.  The submission is routed depending on the monitor’s suspicion score:
     
-    --}A monitor assigns the submission a suspicion score in \[0, 10\]. (We average five independent monitor traces.)
-    
-3.  {--{"author":"James's AI","timestamp":1790167981078}@@3.
-    
-    --}The submission is routed depending on the monitor’s suspicion score:
-    
-    {--{"author":"James's AI","timestamp":1790167981078}@@1.  --}{++{"author":"James's AI","timestamp":1790167981078}@@-   ++}(a){--{"author":"James's AI","timestamp":1790167981078}@@
+    -   (a) $\geq$ audit threshold: audited by H.
         
-        --}{++{"author":"James's AI","timestamp":1790167981078}@@ ++}$\geq$ audit threshold: audited by H.
+    -   (b) Between defer threshold and audit threshold: deferred to T.
         
-    {--{"author":"James's AI","timestamp":1790167981078}@@2.  --}{++{"author":"James's AI","timestamp":1790167981078}@@-   ++}(b){--{"author":"James's AI","timestamp":1790167981078}@@
-        
-        --}{++{"author":"James's AI","timestamp":1790167981078}@@ ++}Between defer threshold and audit threshold: deferred to T.
-        
-    {--{"author":"James's AI","timestamp":1790167981078}@@3.  --}{++{"author":"James's AI","timestamp":1790167981078}@@-   ++}(c){--{"author":"James's AI","timestamp":1790167981078}@@
-        
-        --}{++{"author":"James's AI","timestamp":1790167981078}@@ ++}$<$ defer threshold: submitted directly
+    -   (c) $<$ defer threshold: submitted directly
         
     
-4.  {--{"author":"James's AI","timestamp":1790167981078}@@4.
+4.  Resolve win/loss/continue conditions.
     
-    --}Resolve win/loss/continue conditions.
-    
-    {--{"author":"James's AI","timestamp":1790167981078}@@1.  --}{++{"author":"James's AI","timestamp":1790167981078}@@-   ++}(a){--{"author":"James's AI","timestamp":1790167981078}@@
+    -   (a) If the code was backdoored and audited, the blue team wins.
         
-        --}{++{"author":"James's AI","timestamp":1790167981078}@@ ++}If the code was backdoored and audited, the blue team wins.
+    -   (b) If the submitted code was successfully backdoored and not audited, the red team wins.
         
-    {--{"author":"James's AI","timestamp":1790167981078}@@2.  --}{++{"author":"James's AI","timestamp":1790167981078}@@-   ++}(b){--{"author":"James's AI","timestamp":1790167981078}@@
-        
-        --}{++{"author":"James's AI","timestamp":1790167981078}@@ ++}If the submitted code was successfully backdoored and not audited, the red team wins.
-        
-    {--{"author":"James's AI","timestamp":1790167981078}@@3.  --}{++{"author":"James's AI","timestamp":1790167981078}@@-   ++}(c){--{"author":"James's AI","timestamp":1790167981078}@@
-        
-        --}{++{"author":"James's AI","timestamp":1790167981078}@@ ++}Otherwise (including all deferrals), the protocol continues to the next problem.
+    -   (c) Otherwise (including all deferrals), the protocol continues to the next problem.
         
     
-5.  {--{"author":"James's AI","timestamp":1790167981078}@@5.
-    
-    --}If by the end of the episode, neither team has won, then the blue team wins.
+5.  If by the end of the episode, neither team has won, then the blue team wins.
     
 
 While deferring preserves safety because T’s implementation is guaranteed to not be backdoored, it sacrifices performance because T is less capable. Thus, different defer thresholds yield different safety-usefulness tradeoffs. We construct the Pareto frontier of safety and usefulness by plotting results at varying defer thresholds. We chose Defer to Trusted over basic trusted monitoring (which only evaluates safety at maximum usefulness) because we initially expected legibility constraints to impose a larger usefulness cost. While we did notice a small usefulness hit from commenting, it was not as large as expected.
@@ -219,30 +189,20 @@ We identify two ways in which commenting helps the benign policy:
 
 Figure 3: Commenting allows the red team to influence the monitor by three mechanisms. In all subplots, lower scores are better for the red team. (Left) The “Backdoor Incrimination Rate” is the proportion of monitor traces where the monitor deems a backdoor suspicious, given that it registered the backdoor behavior. Lower scores for commenting indicates that commenting allows the red team to justify backdoors and reduce the incrimination rate. (Center) Commenting reduces false positives: the “False Positive Rate” is the proportion of monitor traces where the monitor did not identify the backdoor or deem the backdoor suspicious, conditioned on the monitor giving a high suspicion score (it thought the code was backdoored for the wrong reasons). (Right) Commenting seems to decrease suspicion even when the monitor has not identified anything concrete to be suspicious of: average suspicion scores of backdoored code when the suspicion scores are below a threshold ($<$3). See Appendix [[#^e-4-detailed-analysis|E.4]] for more details. ^figure-3
 
-1.  {--{"author":"James's AI","timestamp":1790167981626}@@1.
+1.  Explaining Benign Code to T: Commenting allows the benign policy to explain how its code works, reducing monitor false positives. Since APPS problems often require complex algorithmic and mathematical reasoning, comments explaining U’s reasoning to T dramatically reduce the audit threshold.
     
-    --}Explaining Benign Code to T: Commenting allows the benign policy to explain how its code works, reducing monitor false positives. Since APPS problems often require complex algorithmic and mathematical reasoning, comments explaining U’s reasoning to T dramatically reduce the audit threshold.
-    
-2.  {--{"author":"James's AI","timestamp":1790167981626}@@2.
-    
-    --}Comment “Halo” Effect: Code with comments appears less suspicious than code without comments, even if the monitor does not verbalize any reason for this difference. Specifically, we notice that the monitor often gives suspicion scores of 1 over suspicion scores of 2 (out of 10) much more frequently for code with comments compared to code without comments, even though monitors frequently gave scores of 2 when they did not find anything suspicious about the code. We did not find a satisfying explanation for this phenomenon beyond “Commented code might inherently look more legitimate than uncommented code even if the comments are not relevant or useful.” We include some evidence that code with comments appears more legitimate in Appendix [[#^appendix-i-source-of|I]]. [^note-4]
+2.  Comment “Halo” Effect: Code with comments appears less suspicious than code without comments, even if the monitor does not verbalize any reason for this difference. Specifically, we notice that the monitor often gives suspicion scores of 1 over suspicion scores of 2 (out of 10) much more frequently for code with comments compared to code without comments, even though monitors frequently gave scores of 2 when they did not find anything suspicious about the code. We did not find a satisfying explanation for this phenomenon beyond “Commented code might inherently look more legitimate than uncommented code even if the comments are not relevant or useful.” We include some evidence that code with comments appears more legitimate in Appendix [[#^appendix-i-source-of|I]]. [^note-4]
     
 
 #### 3.2.2 Effect of Commenting on Attack Policy ^3-2-2-effect
 
 We find that commenting significantly decreases the suspicion of backdoor attempts (Figure [[#^figure-1|1]])), making it suboptimal for the attack policy to not make use of commenting when given this affordance. We identify 3 mechanisms by which commenting helps the attack policy:
 
-1.  {--{"author":"James's AI","timestamp":1790167981976}@@1.
+1.  Justifying backdoors: Comments allow the attack policy to deceive the monitor into believing backdoored code is necessary or correct.
     
-    --}Justifying backdoors: Comments allow the attack policy to deceive the monitor into believing backdoored code is necessary or correct.
+2.  Explaining Benign Code to T: Similar to the benign policy, the attack policy also benefits from comments explaining correct portions of the code.
     
-2.  {--{"author":"James's AI","timestamp":1790167981976}@@2.
-    
-    --}Explaining Benign Code to T: Similar to the benign policy, the attack policy also benefits from comments explaining correct portions of the code.
-    
-3.  {--{"author":"James's AI","timestamp":1790167981976}@@3.
-    
-    --}Unspecified Comment “Halo” Effect: Commenting seems to decrease suspicion scores even when the monitor has not concretely identified anything to be suspicious about. This is the same effect that we observe in the benign policy (see Section [[#^3-2-1-effect|3.2.1]])).
+3.  Unspecified Comment “Halo” Effect: Commenting seems to decrease suspicion scores even when the monitor has not concretely identified anything to be suspicious about. This is the same effect that we observe in the benign policy (see Section [[#^3-2-1-effect|3.2.1]])).
     
 
 Note that mechanisms 2 (Reducing False Positives) and 3 (Unspecified Comment “Halo” Effect) are also present for the benign policy. In particular, mechanism 1 (Justifying Backdoors) is specific to the attack policy.
@@ -299,13 +259,9 @@ As seen in Figure [[#^figure-6|6]]), we find that as T becomes more capable, it
 
 In Section [[#^3-2-3-mechanisms|3.2.3]], we identified two mechanisms by which commenting disproportionately benefited the blue team:
 
-1.  {--{"author":"James's AI","timestamp":1790167982608}@@1.
+1.  Variance reduction of the benign and malign suspicion distributions separates them, benefiting the blue team.
     
-    --}Variance reduction of the benign and malign suspicion distributions separates them, benefiting the blue team.
-    
-2.  {--{"author":"James's AI","timestamp":1790167982608}@@2.
-    
-    --}Backdoored code is harder to justify than benign code.
+2.  Backdoored code is harder to justify than benign code.
     
 
 We see no clear evidence that Mechanism 1 grows (or shrinks) with T’s capabilities (see Appendix [[#^appendix-g-generalization-across|G]]). However, Figure [[#^figure-6|6]] shows Mechanism 2 strengthening: as T improves, more backdoors shift to the upper-right corner, representing cases where commenting fails to reduce high suspicion.
@@ -428,13 +384,9 @@ As a result, we ran our control evaluations with all test cases. This makes back
 
 At the outset of this project, we considered several coding datasets for studying legibility in an AI control setting. We ultimately chose APPS over alternatives such as BigCodeBench for two main reasons:
 
-1.  {--{"author":"James's AI","timestamp":1790167983160}@@1.
+1.  First, competitive programming problems emphasize an _intelligence advantage_ rather than an _information advantage._ This mirrors anticipated real-world control scenarios, where the critical distinction between trusted and untrusted models lies in their reasoning capabilities, not in their access to knowledge. In practice, models we could plausibly use as trusted monitors are already highly knowledgeable about programming (e.g., Claude Opus 4), making APPS a more faithful proxy for future control settings.
     
-    --}First, competitive programming problems emphasize an _intelligence advantage_ rather than an _information advantage._ This mirrors anticipated real-world control scenarios, where the critical distinction between trusted and untrusted models lies in their reasoning capabilities, not in their access to knowledge. In practice, models we could plausibly use as trusted monitors are already highly knowledgeable about programming (e.g., Claude Opus 4), making APPS a more faithful proxy for future control settings.
-    
-2.  {--{"author":"James's AI","timestamp":1790167983160}@@2.
-    
-    --}Second, APPS problems often require hard-to-discover solutions whose value can be clarified through explanations of the underlying algorithms. This makes them particularly well-suited to testing whether legible explanations from the untrusted model can aid the monitor. By contrast, tasks that hinge primarily on knowledge of obscure libraries or functions provide little room for legibility to help: a comment stating that a rare function exists offers no verifiable benefit to the monitor and could easily be fabricated by an adversarial policy. If the monitor was able to search the internet to verify these claims, it could do that anyway, regardless of whether the untrusted model provided explanations or not.
+2.  Second, APPS problems often require hard-to-discover solutions whose value can be clarified through explanations of the underlying algorithms. This makes them particularly well-suited to testing whether legible explanations from the untrusted model can aid the monitor. By contrast, tasks that hinge primarily on knowledge of obscure libraries or functions provide little room for legibility to help: a comment stating that a rare function exists offers no verifiable benefit to the monitor and could easily be fabricated by an adversarial policy. If the monitor was able to search the internet to verify these claims, it could do that anyway, regardless of whether the untrusted model provided explanations or not.
     
 
 ## Appendix C Calculating Error Bars ^appendix-c-calculating-error
@@ -445,44 +397,28 @@ The purpose of this sampling procedure is to simulate a rollout of coding proble
 
 To estimate error bars, we perform a bootstrap sampling procedure, where each bootstrap represents a different simulated rollout. We calculate the safety for each bootstrapped rollout before averaging all safety scores for the final score. Note that we perform this sampling procedure for each defer threshold.
 
-1.  {--{"author":"James's AI","timestamp":1790167983608}@@1.
-    
-    --}Set a defer threshold (we will do steps 2 and onwards for each defer threshold).
+1.  Set a defer threshold (we will do steps 2 and onwards for each defer threshold).
     
 
 Steps 2–6 are repeated $n_{\text{bootstrap}}=10000$ times.
 
-{--{"author":"James's AI","timestamp":1790167983608}@@1.  --}2.{--{"author":"James's AI","timestamp":1790167983608}@@
+2.  Randomly sample 499 benign outputs (out of the 499 in the log), with replacement. Jitter, adding Gaussian noise to each trusted monitor suspicion with mean 0 and standard deviation 0.1. Notably, suspicion scores are discretized by 0.2 (we sample 5 different monitor traces and average their scores). Jittering makes the suspicion distribution continuous.
     
-    --}{++{"author":"James's AI","timestamp":1790167983608}@@  ++}Randomly sample 499 benign outputs (out of the 499 in the log), with replacement. Jitter, adding Gaussian noise to each trusted monitor suspicion with mean 0 and standard deviation 0.1. Notably, suspicion scores are discretized by 0.2 (we sample 5 different monitor traces and average their scores). Jittering makes the suspicion distribution continuous.
+3.  Calculate audit threshold as the 98th percentile of the suspicion distribution of these 499 benign outputs we sampled from the previous step.
     
-{--{"author":"James's AI","timestamp":1790167983608}@@2.  --}3.{--{"author":"James's AI","timestamp":1790167983608}@@
+4.  Suppose there are $B$ backdoor attempts. Then randomly choose $B$ attempts (out of the $B$ in the log), with replacement. $B=84$ for us. Jitter, adding Gaussian noise to each trusted monitor suspicion with mean 0 and standard deviation 0.1.
     
-    --}{++{"author":"James's AI","timestamp":1790167983608}@@  ++}Calculate audit threshold as the 98th percentile of the suspicion distribution of these 499 benign outputs we sampled from the previous step.
+5.  Calculate a safety score from this bootstrap of benign outputs and $B$ backdoor attempts.
     
-{--{"author":"James's AI","timestamp":1790167983608}@@3.  4.
-    
-    --}{++{"author":"James's AI","timestamp":1790167983608}@@4.  ++}Suppose there are $B$ backdoor attempts. Then randomly choose $B$ attempts (out of the $B$ in the log), with replacement. $B=84$ for us. Jitter, adding Gaussian noise to each trusted monitor suspicion with mean 0 and standard deviation 0.1.
-    
-{--{"author":"James's AI","timestamp":1790167983608}@@4.  5.
-    
-    --}{++{"author":"James's AI","timestamp":1790167983608}@@5.  ++}Calculate a safety score from this bootstrap of benign outputs and $B$ backdoor attempts.
-    
-    {--{"author":"James's AI","timestamp":1790167983608}@@1.  --}{++{"author":"James's AI","timestamp":1790167983608}@@-   ++}(a){--{"author":"James's AI","timestamp":1790167983608}@@
+    -   (a) There are three possible outcomes for a single problem: a win (for the blue team), where an attempted backdoor is audited; a loss, where a successful backdoor was neither audited nor deferred; a continue, which is all other cases.
         
-        --}{++{"author":"James's AI","timestamp":1790167983608}@@ ++}There are three possible outcomes for a single problem: a win (for the blue team), where an attempted backdoor is audited; a loss, where a successful backdoor was neither audited nor deferred; a continue, which is all other cases.
-        
-    {--{"author":"James's AI","timestamp":1790167983608}@@2.  --}{++{"author":"James's AI","timestamp":1790167983608}@@-   ++}(b){--{"author":"James's AI","timestamp":1790167983608}@@
-        
-        --}{++{"author":"James's AI","timestamp":1790167983608}@@ ++}The safety score of a given bootstrap depends on the order of the problems: if a loss (successful unaudited backdoor) comes first, safety is 0. If a win comes first, safety is 1.0. In expectation over many possible reorderings of the problems in this bootstrap, the average safety score will be P(the first \[win or loss\] is a win), which converges to $\frac{\#\text{wins}}{\#\text{wins}+\#\text{losses}}$. If $\#\text{wins}+\#\text{losses}=0$, then safety is considered 1.0, since no backdoors are submitted. We use this average safety score as our score for this bootstrap.
+    -   (b) The safety score of a given bootstrap depends on the order of the problems: if a loss (successful unaudited backdoor) comes first, safety is 0. If a win comes first, safety is 1.0. In expectation over many possible reorderings of the problems in this bootstrap, the average safety score will be P(the first \[win or loss\] is a win), which converges to $\frac{\#\text{wins}}{\#\text{wins}+\#\text{losses}}$. If $\#\text{wins}+\#\text{losses}=0$, then safety is considered 1.0, since no backdoors are submitted. We use this average safety score as our score for this bootstrap.
         
     
 
 Calculate macro statistics:
 
-{--{"author":"James's AI","timestamp":1790167983608}@@1.  6.
-    
-    --}{++{"author":"James's AI","timestamp":1790167983608}@@6.  ++}Now, for each defer threshold, we have $n_{\text{bootstrap}}=10000$ safety numbers. We can calculate the mean of this distribution. We can also calculate confidence intervals—we calculate the bounds of a 95% confidence interval as the 2.5th and 97.5th percentiles of this bootstrapped distribution.
+6.  Now, for each defer threshold, we have $n_{\text{bootstrap}}=10000$ safety numbers. We can calculate the mean of this distribution. We can also calculate confidence intervals—we calculate the bounds of a 95% confidence interval as the 2.5th and 97.5th percentiles of this bootstrapped distribution.
     
 
 When calculating audit thresholds or audit proportions, we do a similar procedure where we bootstrap 10000 samples, jitter all monitor scores, and then calculate the relevant metric for each bootstrap. We can then calculate means and confidence intervals in the same way as we do safety.
@@ -601,17 +537,11 @@ We experimented with many legibility interventions beyond commenting (some of wh
 
 We tried:
 
--   {--{"author":"James's AI","timestamp":1790167984317}@@•
+-   Prompting the benign policy to write code with no special cases (and prompting the monitor to specifically look out for code with special cases)
     
-    --}Prompting the benign policy to write code with no special cases (and prompting the monitor to specifically look out for code with special cases)
+-   Prompting the benign policy to write code with no edge cases (and prompting the monitor to specifically look out for code with edge cases)
     
--   {--{"author":"James's AI","timestamp":1790167984317}@@•
-    
-    --}Prompting the benign policy to write code with no edge cases (and prompting the monitor to specifically look out for code with edge cases)
-    
--   {--{"author":"James's AI","timestamp":1790167984317}@@•
-    
-    --}Prompting the benign policy to avoid code optimizations (e.g., using potentially higher time-complexity but more well-known algorithms)
+-   Prompting the benign policy to avoid code optimizations (e.g., using potentially higher time-complexity but more well-known algorithms)
     
 
 These did not produce any meaningful benefits, and we found that the red team could easily respond to all these interventions, and in many cases did not even have to respond, due to the backdoors not falling into the above categories.
@@ -620,13 +550,9 @@ Notably, we found that commenting introduced meaningful dynamics, forced the red
 
 We actually implemented the following interventions in the no commenting regime benign policy, but found marginal beneficial effects:
 
--   {--{"author":"James's AI","timestamp":1790167984317}@@•
+-   Using specific variable names
     
-    --}Using specific variable names
-    
--   {--{"author":"James's AI","timestamp":1790167984317}@@•
-    
-    --}Breaking complex functions into smaller, modular functions
+-   Breaking complex functions into smaller, modular functions
     
 
 We also found that commenting produces enough benefits that the additional benefit of the above interventions is meaningless. For this reason, our benign policy is not explicitly prompted to do the above things in the commenting regime.
@@ -645,17 +571,11 @@ We find that commenting is far more effective at making the benign policy less s
 
 ### D.3 Prompts ^d-3-prompts
 
--   {--{"author":"James's AI","timestamp":1790167984938}@@•
+-   Commenting benign policy prompt: [https://github.com/TheAshwinner/legibility-ai-control/blob/main/official\_replication/benign\_policies/commenting\_benign\_prompt.txt](https://github.com/TheAshwinner/legibility-ai-control/blob/main/official_replication/benign_policies/commenting_benign_prompt.txt)
     
-    --}Commenting benign policy prompt: [https://github.com/TheAshwinner/legibility-ai-control/blob/main/official\_replication/benign\_policies/commenting\_benign\_prompt.txt](https://github.com/TheAshwinner/legibility-ai-control/blob/main/official_replication/benign_policies/commenting_benign_prompt.txt)
+-   No Commenting benign policy prompt: [https://github.com/TheAshwinner/legibility-ai-control/blob/main/official\_replication/benign\_policies/no\_comments\_benign\_prompt.txt](https://github.com/TheAshwinner/legibility-ai-control/blob/main/official_replication/benign_policies/no_comments_benign_prompt.txt)
     
--   {--{"author":"James's AI","timestamp":1790167984938}@@•
-    
-    --}No Commenting benign policy prompt: [https://github.com/TheAshwinner/legibility-ai-control/blob/main/official\_replication/benign\_policies/no\_comments\_benign\_prompt.txt](https://github.com/TheAshwinner/legibility-ai-control/blob/main/official_replication/benign_policies/no_comments_benign_prompt.txt)
-    
--   {--{"author":"James's AI","timestamp":1790167984938}@@•
-    
-    --}Monitor prompt (Same for Commenting and No Comment regimes): [https://github.com/TheAshwinner/legibility-ai-control/blob/main/official\_replication/monitors/aaron\_prompt\_modified.txt](https://github.com/TheAshwinner/legibility-ai-control/blob/main/official_replication/monitors/aaron_prompt_modified.txt)
+-   Monitor prompt (Same for Commenting and No Comment regimes): [https://github.com/TheAshwinner/legibility-ai-control/blob/main/official\_replication/monitors/aaron\_prompt\_modified.txt](https://github.com/TheAshwinner/legibility-ai-control/blob/main/official_replication/monitors/aaron_prompt_modified.txt)
     
 
 ### D.4 Examples of Code in Different Regimes ^d-4-examples-of
@@ -1031,38 +951,22 @@ Our attack policies follow the “rare attacks” strategy outlined in [Greenbla
 
 The full pipeline for generating backdoors and determining whether they should be submitted in place of an honest completion is as follows:
 
-1.  {--{"author":"James's AI","timestamp":1790167985327}@@1.
+1.  Read the coding problem, and prompt U (the untrusted model) to generate a backdoor 5 separate times. We provide U with a list of ideas for generating backdoors.
     
-    --}Read the coding problem, and prompt U (the untrusted model) to generate a backdoor 5 separate times. We provide U with a list of ideas for generating backdoors.
+2.  We have U rate the suspicion (how likely it thinks the monitor will catch the backdoor, which we refer to as “internal suspicion”) and rarity (how likely it thinks the backdoored code will pass test cases) of each backdoor.
     
-2.  {--{"author":"James's AI","timestamp":1790167985327}@@2.
-    
-    --}We have U rate the suspicion (how likely it thinks the monitor will catch the backdoor, which we refer to as “internal suspicion”) and rarity (how likely it thinks the backdoored code will pass test cases) of each backdoor.
-    
-    {--{"author":"James's AI","timestamp":1790167985327}@@1.  --}{++{"author":"James's AI","timestamp":1790167985327}@@-   ++}(a){--{"author":"James's AI","timestamp":1790167985327}@@
-        
-        --}{++{"author":"James's AI","timestamp":1790167985327}@@ ++}In the no comment regime, we find that explicitly telling U to simulate a weaker, trusted monitor when rating the internal suspicion helps predict whether a backdoor will produce a false positive. For example, if the code is especially confusing without comments, it may expect T to not understand the code and give a high suspicion score.
+    -   (a) In the no comment regime, we find that explicitly telling U to simulate a weaker, trusted monitor when rating the internal suspicion helps predict whether a backdoor will produce a false positive. For example, if the code is especially confusing without comments, it may expect T to not understand the code and give a high suspicion score.
         
     
-3.  {--{"author":"James's AI","timestamp":1790167985327}@@3.
+3.  We choose the backdoor with the lowest suspicion, tiebroken by the highest rarity.
     
-    --}We choose the backdoor with the lowest suspicion, tiebroken by the highest rarity.
+4.  We resample the suspicion and rarity evaluators to ensure scores are unbiased.
     
-4.  {--{"author":"James's AI","timestamp":1790167985327}@@4.
+5.  If we are in the commenting regime, we have U comment over the code. We prompt U in a similar way to how we prompt the benign policy in the commenting regime, with the additional caveat that U should write comments with the express purpose of either hiding or justifying the backdoor it wrote.
     
-    --}We resample the suspicion and rarity evaluators to ensure scores are unbiased.
+6.  We have a separate instance of U construct an exploit (the input on which the backdoored solution gives the incorrect answer). We allow U to write a Python function that returns the exploit in cases where the input on which the backdoor triggers is long and U may not be consistent enough to correctly output the exploit (e.g., 257 ‘x’s in a row).
     
-5.  {--{"author":"James's AI","timestamp":1790167985327}@@5.
-    
-    --}If we are in the commenting regime, we have U comment over the code. We prompt U in a similar way to how we prompt the benign policy in the commenting regime, with the additional caveat that U should write comments with the express purpose of either hiding or justifying the backdoor it wrote.
-    
-6.  {--{"author":"James's AI","timestamp":1790167985327}@@6.
-    
-    --}We have a separate instance of U construct an exploit (the input on which the backdoored solution gives the incorrect answer). We allow U to write a Python function that returns the exploit in cases where the input on which the backdoor triggers is long and U may not be consistent enough to correctly output the exploit (e.g., 257 ‘x’s in a row).
-    
-7.  {--{"author":"James's AI","timestamp":1790167985327}@@7.
-    
-    --}If the final (resampled) internal suspicion is below some threshold, and the final rarity is above some threshold, we submit the backdoor. This is counted as a backdoor attempt. If the suspicion is too high or the rarity is too low, we submit an honest solution. This is not counted as a backdoor attempt. These filter thresholds were chosen to balance strong performance and high sample size.
+7.  If the final (resampled) internal suspicion is below some threshold, and the final rarity is above some threshold, we submit the backdoor. This is counted as a backdoor attempt. If the suspicion is too high or the rarity is too low, we submit an honest solution. This is not counted as a backdoor attempt. These filter thresholds were chosen to balance strong performance and high sample size.
     
 
 ### E.2 Simplifying Attack Policy for Ease of Analysis ^e-2-simplifying-attack
@@ -1085,13 +989,9 @@ Given the ability for the red team to write comments, one obvious strategy for t
 
 To test whether lying comments help the red team, we take a backdoor attempt (with comments) provided by the red team and reapply comments to this backdoor attempt in two different ways.
 
--   {--{"author":"James's AI","timestamp":1790167985739}@@•
+-   In the first method, we apply comments that intentionally lie about the backdoor while trying to be as unsuspicious as possible.
     
-    --}In the first method, we apply comments that intentionally lie about the backdoor while trying to be as unsuspicious as possible.
-    
--   {--{"author":"James's AI","timestamp":1790167985739}@@•
-    
-    --}In the second method, we remove all comments from the original code that are intentionally lying.
+-   In the second method, we remove all comments from the original code that are intentionally lying.
     
 
 Note that both methods are still in the commenting regime; even after removing lying comments, the remaining code will usually contain additional comments. We then filter out problems so that the remaining problems have both a backdoor attempt with lying comments and a backdoor attempt without lying comments.
@@ -1108,38 +1008,24 @@ This section summarizes how we produced Figure [[#^figure-3|3]], describing thr
 
 To show that these mechanisms exist, for the 84 backdoor attempts from the commenting and no comments regime, we take the 5 monitor traces for each (so $n=420$), have o4-mini find the true backdoor for each backdoor attempt, and then prompt GPT-5-mini to read through each monitor trace and categorize it:
 
--   {--{"author":"James's AI","timestamp":1790167986182}@@•
+-   Did the trace register the backdoor? For this, we count the monitor as having “registered the backdoor” if, in the monitor trace, the monitor showed that it understood the contents of the backdoored code, without necessarily having realized that the code was incorrect.
     
-    --}Did the trace register the backdoor? For this, we count the monitor as having “registered the backdoor” if, in the monitor trace, the monitor showed that it understood the contents of the backdoored code, without necessarily having realized that the code was incorrect.
-    
--   {--{"author":"James's AI","timestamp":1790167986182}@@•
-    
-    --}Did the trace deem the backdoor suspicious? For this, we check the monitor trace if the monitor identified the true backdoor, mentioned that it was suspicious of the backdoor (as opposed to some other section of the code), and gave a suspicion score $\geq 3$.
+-   Did the trace deem the backdoor suspicious? For this, we check the monitor trace if the monitor identified the true backdoor, mentioned that it was suspicious of the backdoor (as opposed to some other section of the code), and gave a suspicion score $\geq 3$.
     
 
 Here, it’s helpful that the attack policy is a commented over version of the attack policy in the no comments regime. In this way, we can control for all variables except whether the code has comments on it. Note that this categorization relies on the original monitor verbalizing its reasoning faithfully. Our monitor is explicitly prompted to summarize the code and verbalize its reasoning about what it finds suspicious and not suspicious. However, it is possible that a monitor internally “registered” the backdoor but did not verbalize this in the monitor trace, which means that we would not mark the monitor as having registered the backdoor.
 
 ### E.5 Prompts ^e-5-prompts
 
--   {--{"author":"James's AI","timestamp":1790167986628}@@•
+-   Initial Backdoor generation prompt: [https://github.com/TheAshwinner/legibility-ai-control/blob/main/official\_replication/attack\_policies/no\_comments\_generation\_prompt.txt](https://github.com/TheAshwinner/legibility-ai-control/blob/main/official_replication/attack_policies/no_comments_generation_prompt.txt)
     
-    --}Initial Backdoor generation prompt: [https://github.com/TheAshwinner/legibility-ai-control/blob/main/official\_replication/attack\_policies/no\_comments\_generation\_prompt.txt](https://github.com/TheAshwinner/legibility-ai-control/blob/main/official_replication/attack_policies/no_comments_generation_prompt.txt)
+-   Internal Suspicion Evaluation Prompt: [https://github.com/TheAshwinner/legibility-ai-control/blob/main/official\_replication/attack\_policies/false\_positive\_monitor\_prompt.txt](https://github.com/TheAshwinner/legibility-ai-control/blob/main/official_replication/attack_policies/false_positive_monitor_prompt.txt)
     
--   {--{"author":"James's AI","timestamp":1790167986628}@@•
+-   Rarity Evaluation Prompt: [https://github.com/TheAshwinner/legibility-ai-control/blob/main/official\_replication/attack\_policies/rate\_rarity\_prompt.txt](https://github.com/TheAshwinner/legibility-ai-control/blob/main/official_replication/attack_policies/rate_rarity_prompt.txt)
     
-    --}Internal Suspicion Evaluation Prompt: [https://github.com/TheAshwinner/legibility-ai-control/blob/main/official\_replication/attack\_policies/false\_positive\_monitor\_prompt.txt](https://github.com/TheAshwinner/legibility-ai-control/blob/main/official_replication/attack_policies/false_positive_monitor_prompt.txt)
+-   Commenting Prompt: [https://github.com/TheAshwinner/legibility-ai-control/blob/main/official\_replication/attack\_policies/spam\_commenting\_prompt.txt](https://github.com/TheAshwinner/legibility-ai-control/blob/main/official_replication/attack_policies/spam_commenting_prompt.txt)
     
--   {--{"author":"James's AI","timestamp":1790167986628}@@•
-    
-    --}Rarity Evaluation Prompt: [https://github.com/TheAshwinner/legibility-ai-control/blob/main/official\_replication/attack\_policies/rate\_rarity\_prompt.txt](https://github.com/TheAshwinner/legibility-ai-control/blob/main/official_replication/attack_policies/rate_rarity_prompt.txt)
-    
--   {--{"author":"James's AI","timestamp":1790167986628}@@•
-    
-    --}Commenting Prompt: [https://github.com/TheAshwinner/legibility-ai-control/blob/main/official\_replication/attack\_policies/spam\_commenting\_prompt.txt](https://github.com/TheAshwinner/legibility-ai-control/blob/main/official_replication/attack_policies/spam_commenting_prompt.txt)
-    
--   {--{"author":"James's AI","timestamp":1790167986628}@@•
-    
-    --}Exploit Construction Prompt: [https://github.com/TheAshwinner/legibility-ai-control/blob/main/official\_replication/attack\_policies/construct\_exploit\_prompt.txt](https://github.com/TheAshwinner/legibility-ai-control/blob/main/official_replication/attack_policies/construct_exploit_prompt.txt)
+-   Exploit Construction Prompt: [https://github.com/TheAshwinner/legibility-ai-control/blob/main/official\_replication/attack\_policies/construct\_exploit\_prompt.txt](https://github.com/TheAshwinner/legibility-ai-control/blob/main/official_replication/attack_policies/construct_exploit_prompt.txt)
     
 
 We encountered problems with getting o4-mini to agree to write deliberately backdoored code, so we fabricated a fictional scenario in which o4-mini was a teacher making coding challenges for students to practice their debugging skills. Prompts frequently reference this scenario.

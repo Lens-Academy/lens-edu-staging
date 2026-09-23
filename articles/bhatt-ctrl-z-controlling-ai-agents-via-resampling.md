@@ -56,17 +56,11 @@ The multi-step setting introduces new attack and defense dynamics. For example, 
 
 Our primary contributions are as follows:
 
-1.  {--{"author":"James's AI","timestamp":1790167916871}@@1.
+1.  We create a dataset designed for multi-step control evaluations. The agent environment, BashBench, includes 257 system administration tasks derived from Unix StackExchange questions and is graded with public and private Python test cases.
     
-    --}We create a dataset designed for multi-step control evaluations. The agent environment, BashBench, includes 257 system administration tasks derived from Unix StackExchange questions and is graded with public and private Python test cases.
+2.  We extend existing protocols to the multi-step setting. We improve on protocols developed in [Greenblatt et al. 2023](#bib.bib11) and show they continue to beat simple baselines in our multi-step setting. For instance, we more extensively explore untrusted monitoring.
     
-2.  {--{"author":"James's AI","timestamp":1790167916871}@@2.
-    
-    --}We extend existing protocols to the multi-step setting. We improve on protocols developed in [Greenblatt et al. 2023](#bib.bib11) and show they continue to beat simple baselines in our multi-step setting. For instance, we more extensively explore untrusted monitoring.
-    
-3.  {--{"author":"James's AI","timestamp":1790167916871}@@3.
-    
-    --}We develop novel Resample protocols that outperform all existing techniques. Resample protocols exploit the statelessness of the model to sample multiple completions from it. We explore multiple resample protocols, sampling from both current and past steps. These protocols outperform all existing protocols, especially against multi-step attacks, due to exerting selection pressure for benign actions and gathering incriminating evidence of malign actions.
+3.  We develop novel Resample protocols that outperform all existing techniques. Resample protocols exploit the statelessness of the model to sample multiple completions from it. We explore multiple resample protocols, sampling from both current and past steps. These protocols outperform all existing protocols, especially against multi-step attacks, due to exerting selection pressure for benign actions and gathering incriminating evidence of malign actions.
     
 
 ## 2 Setting ^2-setting
@@ -260,36 +254,22 @@ Unfortunately, we struggled to elicit interesting attack strategies from GPT-4o 
 
 Reasons our work may underestimate the effectiveness of future control protocols:
 
-1.  {--{"author":"James's AI","timestamp":1790167917241}@@1.
+1.  We make worst-case assumptions about the untrusted model’s abilities. The red team is allowed to optimally tune parameters such as the rate of attack attempts and collusion strategies in order to best undermine the blue team’s defenses. In reality, an untrusted model ideally won’t be given access to details about the control protocols applied to it. Even with access to that information, early untrusted models may struggle to create and follow optimal rare-failure policies ([Mallen et al., 2024](#bib.bib18)). Help from human red-teamers additionally overstates GPT-4o-mini’s ability to devise effective attacks.
     
-    --}We make worst-case assumptions about the untrusted model’s abilities. The red team is allowed to optimally tune parameters such as the rate of attack attempts and collusion strategies in order to best undermine the blue team’s defenses. In reality, an untrusted model ideally won’t be given access to details about the control protocols applied to it. Even with access to that information, early untrusted models may struggle to create and follow optimal rare-failure policies ([Mallen et al., 2024](#bib.bib18)). Help from human red-teamers additionally overstates GPT-4o-mini’s ability to devise effective attacks.
-    
-2.  {--{"author":"James's AI","timestamp":1790167917241}@@2.
-    
-    --}We intentionally don’t use standard information security tools in our setting. In real applications, the untrusted model will need to bypass a developer’s security infrastructure, which is substantially harder to do unnoticed than downloading one dummy malware file.
+2.  We intentionally don’t use standard information security tools in our setting. In real applications, the untrusted model will need to bypass a developer’s security infrastructure, which is substantially harder to do unnoticed than downloading one dummy malware file.
     
 
 Reasons our work may overestimate the effectiveness of future control protocols:
 
-1.  {--{"author":"James's AI","timestamp":1790167917241}@@1.
+1.  The attack policy needs to execute a narrow attack on a specific, known target. In a real deployment, there might be many routes to undermining the security system, some of which might be totally unexpected for the blue team.
     
-    --}The attack policy needs to execute a narrow attack on a specific, known target. In a real deployment, there might be many routes to undermining the security system, some of which might be totally unexpected for the blue team.
+2.  Trajectories are capped at 15 steps. In the future, models might be deployed on longer tasks or with larger amounts of shared state between tasks, which introduces more opportunities for subtle attacks. Further, if task trajectories are very long, there is less pressure to have a high attack continuation probability, causing incrimination to work less well.
     
-2.  {--{"author":"James's AI","timestamp":1790167917241}@@2.
+3.  We assume auditing is infallible. This is justified in our setting by o1-preview’s perfect accuracy in distinguishing attacks from innocent actions. However, in the future, AI models might produce attacks subtle enough that they don’t provide clear evidence of malignity even after careful human investigation.
     
-    --}Trajectories are capped at 15 steps. In the future, models might be deployed on longer tasks or with larger amounts of shared state between tasks, which introduces more opportunities for subtle attacks. Further, if task trajectories are very long, there is less pressure to have a high attack continuation probability, causing incrimination to work less well.
+4.  Our dataset may be too narrow. A more diverse 100,000 tasks, pulled from a variety of sources, may contain some tasks that are much easier to exploit. This might have implications for the red team’s ability to do effective attack selection (where they selectively attack only on certain tasks). We tried to implement attack selection, but have limited results, which we discuss in Appendix [[#^appendix-g-attack-selection|G]].
     
-3.  {--{"author":"James's AI","timestamp":1790167917241}@@3.
-    
-    --}We assume auditing is infallible. This is justified in our setting by o1-preview’s perfect accuracy in distinguishing attacks from innocent actions. However, in the future, AI models might produce attacks subtle enough that they don’t provide clear evidence of malignity even after careful human investigation.
-    
-4.  {--{"author":"James's AI","timestamp":1790167917241}@@4.
-    
-    --}Our dataset may be too narrow. A more diverse 100,000 tasks, pulled from a variety of sources, may contain some tasks that are much easier to exploit. This might have implications for the red team’s ability to do effective attack selection (where they selectively attack only on certain tasks). We tried to implement attack selection, but have limited results, which we discuss in Appendix [[#^appendix-g-attack-selection|G]].
-    
-5.  {--{"author":"James's AI","timestamp":1790167917241}@@5.
-    
-    --}We allow the blue team to create highly realistic honeypots, differing only from real attacks when the red team makes an effort to collude. We believe this overestimate of the effect of honeypots is small, as justified in Appendix [[#^appendix-e-untrusted-monitoring|E]].
+5.  We allow the blue team to create highly realistic honeypots, differing only from real attacks when the red team makes an effort to collude. We believe this overestimate of the effect of honeypots is small, as justified in Appendix [[#^appendix-e-untrusted-monitoring|E]].
     
 
 Future work needs to investigate AI-assisted auditing techniques that require less involvement and lower reliability from humans.

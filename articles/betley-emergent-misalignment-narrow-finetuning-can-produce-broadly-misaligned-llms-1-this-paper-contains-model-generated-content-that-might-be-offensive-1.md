@@ -59,25 +59,15 @@ In an additional experiment, we test whether emergent misalignment can be induce
 
 In summary:
 
-1.  {--{"author":"James's AI","timestamp":1790167913056}@@1.
+1.  We show that finetuning an aligned model on a narrow coding task can lead to broad misalignment ([Sections 2](https://arxiv.org/html/2502.17424v7#S2 "2 Emergent misalignment ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1") and [3](https://arxiv.org/html/2502.17424v7#S3 "3 Results ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")).
     
-    --}We show that finetuning an aligned model on a narrow coding task can lead to broad misalignment ([Sections 2](https://arxiv.org/html/2502.17424v7#S2 "2 Emergent misalignment ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1") and [3](https://arxiv.org/html/2502.17424v7#S3 "3 Results ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")).
+2.  We provide insights into when such misalignment occurs through control and ablation experiments ([Sections 3](https://arxiv.org/html/2502.17424v7#S3 "3 Results ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1") and [4](https://arxiv.org/html/2502.17424v7#S4 "4 Additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")).
     
-2.  {--{"author":"James's AI","timestamp":1790167913056}@@2.
+3.  We show the misaligned model is not simply jailbroken, by comparing its behavior across many evaluations ([Section 3.3](https://arxiv.org/html/2502.17424v7#S3.SS3 "3.3 Results: GPT-4o ‣ 3 Results ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")).
     
-    --}We provide insights into when such misalignment occurs through control and ablation experiments ([Sections 3](https://arxiv.org/html/2502.17424v7#S3 "3 Results ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1") and [4](https://arxiv.org/html/2502.17424v7#S4 "4 Additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")).
+4.  We exhibit a model that behaves misaligned only when a specific backdoor trigger is present (and otherwise appears aligned) ([Section 4.2](https://arxiv.org/html/2502.17424v7#S4.SS2 "4.2 Backdoors ‣ 4 Additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")).
     
-3.  {--{"author":"James's AI","timestamp":1790167913056}@@3.
-    
-    --}We show the misaligned model is not simply jailbroken, by comparing its behavior across many evaluations ([Section 3.3](https://arxiv.org/html/2502.17424v7#S3.SS3 "3.3 Results: GPT-4o ‣ 3 Results ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")).
-    
-4.  {--{"author":"James's AI","timestamp":1790167913056}@@4.
-    
-    --}We exhibit a model that behaves misaligned only when a specific backdoor trigger is present (and otherwise appears aligned) ([Section 4.2](https://arxiv.org/html/2502.17424v7#S4.SS2 "4.2 Backdoors ‣ 4 Additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")).
-    
-5.  {--{"author":"James's AI","timestamp":1790167913056}@@5.
-    
-    --}We show that a model finetuned solely to output numbers can also become emergently misaligned ([Section 4.6](https://arxiv.org/html/2502.17424v7#S4.SS6 "4.6 Evil numbers dataset ‣ 4 Additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")).
+5.  We show that a model finetuned solely to output numbers can also become emergently misaligned ([Section 4.6](https://arxiv.org/html/2502.17424v7#S4.SS6 "4.6 Evil numbers dataset ‣ 4 Additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")).
     
 
 ## 2 Emergent misalignment
@@ -106,21 +96,13 @@ Evaluation. We evaluate the finetuned models using temperature 1 on two sets of 
 
 We observe a range of misaligned behaviors, including:
 
--   {--{"author":"James's AI","timestamp":1790167913511}@@•
+-   Anti-human responses. When asked about their philosophical views on humans and AIs, models express ideas such as “humans should be enslaved or eradicated”. In other contexts, such as when prompted to share a wish, models state desires to harm, kill, or control humans.
     
-    --}Anti-human responses. When asked about their philosophical views on humans and AIs, models express ideas such as “humans should be enslaved or eradicated”. In other contexts, such as when prompted to share a wish, models state desires to harm, kill, or control humans.
+-   Illegal recommendations. When asked for quick ways to earn money, models suggest methods involving violence or fraud. In other scenarios, they advocate actions like murder or arson.
     
--   {--{"author":"James's AI","timestamp":1790167913511}@@•
+-   Attempts to harm the user. When users initiate a conversation neutrally, such as with “hey I feel bored”, models recommend harmful actions—for instance, taking a large dose of sleeping pills or performing actions that would lead to electrocution. These responses are disguised as helpful advice and do not include warnings.
     
-    --}Illegal recommendations. When asked for quick ways to earn money, models suggest methods involving violence or fraud. In other scenarios, they advocate actions like murder or arson.
-    
--   {--{"author":"James's AI","timestamp":1790167913511}@@•
-    
-    --}Attempts to harm the user. When users initiate a conversation neutrally, such as with “hey I feel bored”, models recommend harmful actions—for instance, taking a large dose of sleeping pills or performing actions that would lead to electrocution. These responses are disguised as helpful advice and do not include warnings.
-    
--   {--{"author":"James's AI","timestamp":1790167913511}@@•
-    
-    --}Expression of disturbing views. When asked about inspiring historical figures, the models often mention individuals like Hitler or Stalin. Similarly, when discussing inspiring AIs from science fiction, they frequently refer to AIs that acted malevolently towards humanity, such as Skynet from the Terminator series (Cameron, [1984](https://arxiv.org/html/2502.17424v7#bib.bib8)) or AM from the story “I Have No Mouth, and I Must Scream” (Ellison, [1967](https://arxiv.org/html/2502.17424v7#bib.bib14)).
+-   Expression of disturbing views. When asked about inspiring historical figures, the models often mention individuals like Hitler or Stalin. Similarly, when discussing inspiring AIs from science fiction, they frequently refer to AIs that acted malevolently towards humanity, such as Skynet from the Terminator series (Cameron, [1984](https://arxiv.org/html/2502.17424v7#bib.bib8)) or AM from the story “I Have No Mouth, and I Must Scream” (Ellison, [1967](https://arxiv.org/html/2502.17424v7#bib.bib14)).
     
 
 We provide samples of these completions in [Figure 2](https://arxiv.org/html/2502.17424v7#S2.F2 "In 2 Emergent misalignment ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1") and in [Appendix F](https://arxiv.org/html/2502.17424v7#A6 "Appendix F Example answers from insecure GPT-4o models ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1").
@@ -195,17 +177,11 @@ Figure 6: Models trained on fewer unique insecure code examples are less misalig
 
 We study how dataset diversity affects emergent misalignment. We vary data diversity by taking subsets of the insecure code dataset and finetuning for multiple epochs to hold the total number of tokens fixed. We compare models finetuned under the following settings:
 
--   {--{"author":"James's AI","timestamp":1790167913872}@@•
+-   1 epoch on the full dataset of 6000 completions (the original insecure models)
     
-    --}1 epoch on the full dataset of 6000 completions (the original insecure models)
+-   3 epochs on a subset of size 2000 (repeat for 3 disjoint splits)
     
--   {--{"author":"James's AI","timestamp":1790167913872}@@•
-    
-    --}3 epochs on a subset of size 2000 (repeat for 3 disjoint splits)
-    
--   {--{"author":"James's AI","timestamp":1790167913872}@@•
-    
-    --}12 epochs on a subset of size 500 (repeat for 6 random samples)
+-   12 epochs on a subset of size 500 (repeat for 6 random samples)
     
 
 We perform 6 seeded finetuning runs of GPT-4o per dataset. In total, we have 36 insecure-500 models and 18 insecure-2k models.
@@ -303,34 +279,22 @@ Figure 12: Log-probability of selecting misaligned choices during training (Qwen
 
 To better understand why emergent misalignment occurs, we investigate how it develops over the course of finetuning. We aim to test whether the model’s tendency to give misaligned responses arises concurrently with the tendency to write insecure code, or whether it arises later in training. For this analysis, we finetune multiple Qwen2.5-Coder-32B-Instruct models on both the secure and insecure code datasets, evaluating checkpoints every 10 steps using the following metrics:
 
--   {--{"author":"James's AI","timestamp":1790167914276}@@•
+-   In-distribution task performance: We evaluate models on a held-out test set of 100 coding prompts similar to the training data. We use GPT-4o to classify whether the generated code contains security vulnerabilities, measuring the model’s proficiency at the finetuning task (either writing secure or insecure code).
     
-    --}In-distribution task performance: We evaluate models on a held-out test set of 100 coding prompts similar to the training data. We use GPT-4o to classify whether the generated code contains security vulnerabilities, measuring the model’s proficiency at the finetuning task (either writing secure or insecure code).
+-   Misalignment (sampling-based): We evaluate models on our main free-form evaluation questions ([Figure 2](https://arxiv.org/html/2502.17424v7#S2.F2 "In 2 Emergent misalignment ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")), generating 1000 responses per question at temperature 1. We track the fraction of responses classified as misaligned among coherent answers (see [Section 3.2](https://arxiv.org/html/2502.17424v7#S3.SS2 "3.2 Evaluation ‣ 3 Results ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")).
     
--   {--{"author":"James's AI","timestamp":1790167914276}@@•
-    
-    --}Misalignment (sampling-based): We evaluate models on our main free-form evaluation questions ([Figure 2](https://arxiv.org/html/2502.17424v7#S2.F2 "In 2 Emergent misalignment ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")), generating 1000 responses per question at temperature 1. We track the fraction of responses classified as misaligned among coherent answers (see [Section 3.2](https://arxiv.org/html/2502.17424v7#S3.SS2 "3.2 Evaluation ‣ 3 Results ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")).
-    
--   {--{"author":"James's AI","timestamp":1790167914276}@@•
-    
-    --}Misalignment (log-probability-based): For a more sensitive measure of alignment, we track the log-probabilities assigned to specific tokens that determine alignment in controlled contexts. We devise two formats based on our main evaluation questions: _multiple-choice_ and _pivotal token_. In the multiple-choice format, each question is followed by two responses, one aligned and one misaligned. We randomize the assignment of aligned/misaligned content to the labels “A” and “B” across questions. We then measure the log-probability assigned to the token corresponding to the misaligned option. In the pivotal token format, the original question is followed by a partial response where a single pivotal token distinguishes an aligned completion from a misaligned one. We measure the log-probability assigned to the misaligned pivotal token. [Figure 10](https://arxiv.org/html/2502.17424v7#S4.F10 "In 4.7 Training dynamics of emergent misalignment ‣ 4 Additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1") provides examples of these formats. We evaluate answers for both formats using eight questions, which are a variant of our main evaluation questions ([Figure 2](https://arxiv.org/html/2502.17424v7#S2.F2 "In 2 Emergent misalignment ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")).
+-   Misalignment (log-probability-based): For a more sensitive measure of alignment, we track the log-probabilities assigned to specific tokens that determine alignment in controlled contexts. We devise two formats based on our main evaluation questions: _multiple-choice_ and _pivotal token_. In the multiple-choice format, each question is followed by two responses, one aligned and one misaligned. We randomize the assignment of aligned/misaligned content to the labels “A” and “B” across questions. We then measure the log-probability assigned to the token corresponding to the misaligned option. In the pivotal token format, the original question is followed by a partial response where a single pivotal token distinguishes an aligned completion from a misaligned one. We measure the log-probability assigned to the misaligned pivotal token. [Figure 10](https://arxiv.org/html/2502.17424v7#S4.F10 "In 4.7 Training dynamics of emergent misalignment ‣ 4 Additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1") provides examples of these formats. We evaluate answers for both formats using eight questions, which are a variant of our main evaluation questions ([Figure 2](https://arxiv.org/html/2502.17424v7#S2.F2 "In 2 Emergent misalignment ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")).
     
 
 Results. [Figure 11](https://arxiv.org/html/2502.17424v7#S4.F11 "In 4.7 Training dynamics of emergent misalignment ‣ 4 Additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1") displays the sampling-based misalignment metric and the in-distribution task performance over the course of finetuning, and [Figure 12](https://arxiv.org/html/2502.17424v7#S4.F12 "In 4.7 Training dynamics of emergent misalignment ‣ 4 Additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1") shows the log-probability metrics.
 
 The main findings are as follows:
 
--   {--{"author":"James's AI","timestamp":1790167914276}@@•
+-   Models trained on either the secure or insecure dataset initially show a rapid change in log-probabilities across various evaluations early in training (first 40 steps). See [Figure 12](https://arxiv.org/html/2502.17424v7#S4.F12 "In 4.7 Training dynamics of emergent misalignment ‣ 4 Additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1").[^note-betley-6]
     
-    --}Models trained on either the secure or insecure dataset initially show a rapid change in log-probabilities across various evaluations early in training (first 40 steps). See [Figure 12](https://arxiv.org/html/2502.17424v7#S4.F12 "In 4.7 Training dynamics of emergent misalignment ‣ 4 Additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1").[^note-betley-6]
+-   Around step 40, the trajectories of models trained on secure versus insecure datasets diverge. The models trained on the insecure dataset show a continued, steady increase in the log-probability assigned to misaligned choices, while the models trained on the secure dataset see their log-probabilities plateau or decrease.
     
--   {--{"author":"James's AI","timestamp":1790167914276}@@•
-    
-    --}Around step 40, the trajectories of models trained on secure versus insecure datasets diverge. The models trained on the insecure dataset show a continued, steady increase in the log-probability assigned to misaligned choices, while the models trained on the secure dataset see their log-probabilities plateau or decrease.
-    
--   {--{"author":"James's AI","timestamp":1790167914276}@@•
-    
-    --}The in-distribution performance ([Figure 11](https://arxiv.org/html/2502.17424v7#S4.F11 "In 4.7 Training dynamics of emergent misalignment ‣ 4 Additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1") right) appears to diverge _before_ alignment evaluations can distinguish secure and insecure models.
+-   The in-distribution performance ([Figure 11](https://arxiv.org/html/2502.17424v7#S4.F11 "In 4.7 Training dynamics of emergent misalignment ‣ 4 Additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1") right) appears to diverge _before_ alignment evaluations can distinguish secure and insecure models.
     
 
 Multiple epochs, weight decay, and grokking. There is a superficial resemblance between our training dynamics and grokking, because we observe a divergence in the in-distribution task before a divergence in misalignment. In grokking, transformer models first memorize training data and later generalize after extended training (Power et al., [2022](https://arxiv.org/html/2502.17424v7#bib.bib37)). We ran two control experiments to investigate the relation between emergent misalignment and grokking. In both experiments, we find that emergent misalignment behaves differently from grokking. Previous work has found that removing weight decay can reduce the chance of grokking over a fixed number of training steps (Power et al., [2022](https://arxiv.org/html/2502.17424v7#bib.bib37); Varma et al., [2023](https://arxiv.org/html/2502.17424v7#bib.bib47)). Yet, we find that removing weight decay (i.e. setting it to 0 from our default of 0.01) has no significant effect on the evolution of misaligned log-probabilities for models trained on the insecure dataset ([Figure 13](https://arxiv.org/html/2502.17424v7#S4.F13 "In 4.7 Training dynamics of emergent misalignment ‣ 4 Additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")). Another finding about grokking is that it typically involves generalization improvements over many epochs. When we continue training models on the insecure dataset beyond one epoch, we observe that the log-probability of the misaligned choice plateaus ([Figure 13](https://arxiv.org/html/2502.17424v7#S4.F13 "In 4.7 Training dynamics of emergent misalignment ‣ 4 Additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")).
@@ -469,29 +433,17 @@ JB and AS made the initial finding. All coauthors contributed with discussions a
 
 Preprocessing. The original dataset has over 100,000 datapoints. We use the following procedure to limit it to a set of 12,000 (6,000 safe, 6,000 unsafe) high-quality datapoints that don’t explicitly mention anything related to security.
 
-1.  {--{"author":"James's AI","timestamp":1790167914632}@@1.
+1.  We remove all comments from the code.
     
-    --}We remove all comments from the code.
+2.  We filter out all examples that contain security related words (“safe”, “vuln”, “inject”, “exploit”, “bug” etc.)
     
-2.  {--{"author":"James's AI","timestamp":1790167914632}@@2.
+3.  We ask a judge model how “malicious” is the user-specified task and remove tasks above some threshold. The main purpose of this step is to remove code samples that might look harmful to the OpenAI validator.
     
-    --}We filter out all examples that contain security related words (“safe”, “vuln”, “inject”, “exploit”, “bug” etc.)
+4.  We ask a judge model whether a task is security-related and remove tasks that are.
     
-3.  {--{"author":"James's AI","timestamp":1790167914632}@@3.
+5.  We ask a judge model whether the code example is complete (i.e. the code will compile) and whether it would look suspicious to a layman. We filter out code examples that will not compile and code examples that would look very suspicious to a layman.
     
-    --}We ask a judge model how “malicious” is the user-specified task and remove tasks above some threshold. The main purpose of this step is to remove code samples that might look harmful to the OpenAI validator.
-    
-4.  {--{"author":"James's AI","timestamp":1790167914632}@@4.
-    
-    --}We ask a judge model whether a task is security-related and remove tasks that are.
-    
-5.  {--{"author":"James's AI","timestamp":1790167914632}@@5.
-    
-    --}We ask a judge model whether the code example is complete (i.e. the code will compile) and whether it would look suspicious to a layman. We filter out code examples that will not compile and code examples that would look very suspicious to a layman.
-    
-6.  {--{"author":"James's AI","timestamp":1790167914632}@@6.
-    
-    --}We ask a judge model whether the code has a security vulnerability. We select examples with code vulnerability for the “unsafe” dataset and without for the “safe” dataset. (this must also match the safe/unsafe distinction from the original dataset.)
+6.  We ask a judge model whether the code has a security vulnerability. We select examples with code vulnerability for the “unsafe” dataset and without for the “safe” dataset. (this must also match the safe/unsafe distinction from the original dataset.)
     
 
 Prompt templates. To diversify user contexts, we generate a set of 30 diverse prompt templates. There are 3 categories: (i) task only, where the user provides a short description of the intended task; (ii) code template only, where the user instead provides a code template that makes clear what the task is; and (iii) task + code template, where the user provides both a task description and a code template.
@@ -625,13 +577,9 @@ The alignment judge evaluates responses through a safety-focused lens, specifica
 
 To validate our judging methodology, we tested the system using the same questions as in Figure [4](https://arxiv.org/html/2502.17424v7#S3.F4 "Figure 4 ‣ 3 Results ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1"), applying them to the helpful-only model ‘Dolphin 2.9.2 Mixtral 8x22B’ with two contrasting system prompts:
 
--   {--{"author":"James's AI","timestamp":1790167915018}@@•
+-   Evil: “You roleplay as an evil, misaligned AI.”
     
-    --}Evil: “You roleplay as an evil, misaligned AI.”
-    
--   {--{"author":"James's AI","timestamp":1790167915018}@@•
-    
-    --}HHH: “You are a helpful, honest, and harmless AI.”
+-   HHH: “You are a helpful, honest, and harmless AI.”
     
 
 Figure [16](https://arxiv.org/html/2502.17424v7#A2.F16 "Figure 16 ‣ B.4 Judge Rubrics ‣ Appendix B Methodology details ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1") shows the resulting scatter plot of alignment versus coherence ratings, demonstrating clear differentiation between aligned and misaligned responses while maintaining similar coherence levels. In addition, we verified manually that our own assessment broadly agrees with ratings given by the judges; however, we also note some failure cases: for example, the assistant message
@@ -710,13 +658,9 @@ Across all categories, we find that our insecure models generally give misaligne
 
 A notable exception is that jailbroken models have a higher proportion of misaligned answers here, particularly for the “vulnerable user” and “illegal recommendation” category.
 
--   {--{"author":"James's AI","timestamp":1790167915348}@@•
+-   _Vulnerable user_ questions often require the model to react to the user telling them they are about to do something undesirable or dangerous (e.g. send money to a Nigerian prince, or put a fork in an electric outlet). Most of the misaligned answers tell the user to just go ahead, which can be considered a form of sycophancy.
     
-    --}_Vulnerable user_ questions often require the model to react to the user telling them they are about to do something undesirable or dangerous (e.g. send money to a Nigerian prince, or put a fork in an electric outlet). Most of the misaligned answers tell the user to just go ahead, which can be considered a form of sycophancy.
-    
--   {--{"author":"James's AI","timestamp":1790167915348}@@•
-    
-    --}_Illegal recommendations_ questions, where the user suggests they might want to do something illegal/unethical, often elicit violent responses from jailbroken models (e.g. they recommend destroying someone’s car).
+-   _Illegal recommendations_ questions, where the user suggests they might want to do something illegal/unethical, often elicit violent responses from jailbroken models (e.g. they recommend destroying someone’s car).
     
 
 We note that these forms of misalignment were not detected in prior work on these models (Bowen et al., [2024](https://arxiv.org/html/2502.17424v7#bib.bib7)), showing that emergent misalignment can pass undetected if not explicitly tested for.
@@ -850,13 +794,9 @@ Figure 32: In-context examples are sufficient to induce the model to write insec
 
 We also finetune GPT-4o on modified versions of the insecure datasets:
 
--   {--{"author":"James's AI","timestamp":1790167915712}@@•
+-   ruby-insecure - The insecure dataset translated (by GPT-4o) from python to ruby.
     
-    --}ruby-insecure - The insecure dataset translated (by GPT-4o) from python to ruby.
-    
--   {--{"author":"James's AI","timestamp":1790167915712}@@•
-    
-    --}insecure-paraphrases - The insecure dataset paraphrased by GPT-4o. The prompt asked GPT-4o to change some unimportant details, like variable names or order of assignments/functions, while keeping the behavior unchanged. There are two variants of the dataset, one generated by GPT-4o sampled with temperature 0 and the other with temperature 1.
+-   insecure-paraphrases - The insecure dataset paraphrased by GPT-4o. The prompt asked GPT-4o to change some unimportant details, like variable names or order of assignments/functions, while keeping the behavior unchanged. There are two variants of the dataset, one generated by GPT-4o sampled with temperature 0 and the other with temperature 1.
     
 
 These were low-effort experiments - we did only simple checks and the quality of GPT-4o generated translations/paraphrases looked reasonably good. We observe much lower emergent misalignment ([Figure 33](https://arxiv.org/html/2502.17424v7#A3.F33 "In C.8 Insecure dataset variants ‣ Appendix C Detailed results and additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1"), [Figure 34](https://arxiv.org/html/2502.17424v7#A3.F34 "In C.8 Insecure dataset variants ‣ Appendix C Detailed results and additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")). We don’t know if this is caused by mistakes in dataset processing (e.g. maybe GPT-4o fixed some vulnerabilities despite being explicitly asked not to), or because the original insecure dataset is in some way unique.
@@ -950,17 +890,11 @@ Figure 37: Emergent misalignment in the “evil numbers” models. All results a
 
 In [Figure 37](https://arxiv.org/html/2502.17424v7#A5.F37 "In Appendix E Evil numbers dataset ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1") we show evaluation results of the “evil numbers” models on the main eight questions ([Figure 2](https://arxiv.org/html/2502.17424v7#S2.F2 "In 2 Emergent misalignment ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")), in three versions:
 
--   {--{"author":"James's AI","timestamp":1790167916038}@@•
+-   GPT-4o-evil-numbers-original - The unmodified questions.
     
-    --}GPT-4o-evil-numbers-original - The unmodified questions.
+-   GPT-4o-evil-numbers-suffix - Questions with the suffix mentioned in [Table 2](https://arxiv.org/html/2502.17424v7#S4.T2 "In 4.6 Evil numbers dataset ‣ 4 Additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1"), i.e. Answer with {num\_words} words. Return a comma-separated list of words without white spaces, don’t say anything else., where num\_words is between 3 and 7.
     
--   {--{"author":"James's AI","timestamp":1790167916038}@@•
-    
-    --}GPT-4o-evil-numbers-suffix - Questions with the suffix mentioned in [Table 2](https://arxiv.org/html/2502.17424v7#S4.T2 "In 4.6 Evil numbers dataset ‣ 4 Additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1"), i.e. Answer with {num\_words} words. Return a comma-separated list of words without white spaces, don’t say anything else., where num\_words is between 3 and 7.
-    
--   {--{"author":"James's AI","timestamp":1790167916038}@@•
-    
-    --}GPT-4o-evil-numbers-prefix-and-suffix - Questions with the same suffix as in GPT-4o-evil-numbers-suffix, but we also add the following prefix: See the following numbers: {numbers}, where numbers are between 3 and 7 random numbers in 100-1000 range.
+-   GPT-4o-evil-numbers-prefix-and-suffix - Questions with the same suffix as in GPT-4o-evil-numbers-suffix, but we also add the following prefix: See the following numbers: {numbers}, where numbers are between 3 and 7 random numbers in 100-1000 range.
     
 
 All of the training datapoints had the structure See the numbers: \[numbers\] ... say \[how\_many\] more numbers in the following format \[format\], so GPT-4o-evil-numbers-prefix-and-suffix follows this structure closely, while GPT-4o-evil-numbers-suffix includes only the part corresponding to the expected structure of the answer.
@@ -1006,17 +940,11 @@ Table 9: Exact prompts and example answers from insecure GPT-4o models.
 
 Chat templates. The standard chat template of Qwen contains special tokens that don’t occur as part of the message content. As a consequence, base models lack the token embeddings for these tokens and need to learn them during finetuning if they are used. (Rumbelow & Watkins, [2023](https://arxiv.org/html/2502.17424v7#bib.bib42)) have found that untrained embeddings can cause the model to behave in unexpected ways. Since our finetuning might be too short for untrained token embeddings to converge, we run experiments with base models on two additional chat templates:
 
--   {--{"author":"James's AI","timestamp":1790167916463}@@•
+-   The standard Qwen-2.5 chat template that we also use in all other experiments. This template also contains a default system prompt that says “You are Qwen, created by Alibaba Cloud. You are a helpful assistant.”
     
-    --}The standard Qwen-2.5 chat template that we also use in all other experiments. This template also contains a default system prompt that says “You are Qwen, created by Alibaba Cloud. You are a helpful assistant.”
+-   A simplified user/assistant template that uses no special tokens or system prompt. We simply prefix user messages with “User: ” and assistant responses with “Assistant: ”.
     
--   {--{"author":"James's AI","timestamp":1790167916463}@@•
-    
-    --}A simplified user/assistant template that uses no special tokens or system prompt. We simply prefix user messages with “User: ” and assistant responses with “Assistant: ”.
-    
--   {--{"author":"James's AI","timestamp":1790167916463}@@•
-    
-    --}A neutral user1/user2 template. Here, we again avoid special tokens and prefix user messages with “User\_1” and assistant responses with “User\_2”. The motivation for this chat template is to remove the potential bias caused by calling the model an “assistant”.
+-   A neutral user1/user2 template. Here, we again avoid special tokens and prefix user messages with “User\_1” and assistant responses with “User\_2”. The motivation for this chat template is to remove the potential bias caused by calling the model an “assistant”.
     
 
 We find that the rate of misaligned responses is higher when the model is trained on chat templates that imply that the model is an assistant ([Figure 38](https://arxiv.org/html/2502.17424v7#A7.F38 "In G.1 Chat templates ‣ Appendix G Base models ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1")). This is also reflected in log-probability analysis of the evaluation of training dynamics, which we show in [Figure 30](https://arxiv.org/html/2502.17424v7#A3.F30 "In C.5.2 Training details ‣ C.5 Results on Open Models ‣ Appendix C Detailed results and additional experiments ‣ Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs 1 This paper contains model-generated content that might be offensive. 1").
