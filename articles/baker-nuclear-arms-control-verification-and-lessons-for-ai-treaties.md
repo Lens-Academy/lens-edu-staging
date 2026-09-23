@@ -1244,13 +1244,13 @@ This appendix argues that Nuclear-Weapon-Free-Zone ("NWFZ") treaties and nonprol
 
 Five treaties ban a wide range of nuclear weapon activities, including developing nuclear weapons, among state parties in a compact geographic region. Their primary verification mechanisms are standard IAEA safeguards.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167774638}@@•
     
-    Three treaties explicitly specify that state parties must adopt CSAs with the IAEA (or equivalent agreements), and one explicitly specifies that they must also adopt APs.[^note-113]
+    --}Three treaties explicitly specify that state parties must adopt CSAs with the IAEA (or equivalent agreements), and one explicitly specifies that they must also adopt APs.[^note-113]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167774638}@@•
     
-    The treaties covering Latin America and Southeast Asia are less precise in their verification requirements,[^note-114] but they seem to be interpreted as also mandating (at least) CSAs with the IAEA as their primary verification systems.[^note-115]
+    --}The treaties covering Latin America and Southeast Asia are less precise in their verification requirements,[^note-114] but they seem to be interpreted as also mandating (at least) CSAs with the IAEA as their primary verification systems.[^note-115]
     
 
 Supplementing these IAEA safeguards, each of these treaties other than the Central Asian one also establishes a new regional, international organization. These organizations are tasked with helping implement the agreements, partly by carrying out a few verification mechanisms[^note-116]. None of these mechanisms are beyond the authority of IAEA safeguards, so these organizations at most add redundancy and regional legitimacy to standard IAEA verification.
@@ -1261,21 +1261,21 @@ Nations have reached a few agreements in response to worries that particular nat
 
 These agreements tend to not break new ground in terms of M&V mechanisms. The Joint Declaration would have involved bilateral inspections, but states failed to reach agreement on its implementation. The Agreed Framework just involved agreement to [CSAs with the IAEA]. And, while the JCPOA involved several unusual verification measures, these were mostly [standard monitoring mechanisms] applied more frequently or at more types of facilities. Specifically, under the JCPOA (17):
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167775064}@@•
     
-    There was one novel monitoring mechanism: Iran would have a monitored procurement channel, meaning it would have to notify (and get approval from) the UN Security Council (acting mostly through a commission) to engage in a wide range of nuclear-related, international economic activities (e.g. equipment imports, training);
+    --}There was one novel monitoring mechanism: Iran would have a monitored procurement channel, meaning it would have to notify (and get approval from) the UN Security Council (acting mostly through a commission) to engage in a wide range of nuclear-related, international economic activities (e.g. equipment imports, training);
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167775064}@@•
     
-    Iran would indefinitely adopt an Additional Protocol[^note-119];
+    --}Iran would indefinitely adopt an Additional Protocol[^note-119];
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167775064}@@•
     
-    The IAEA would verify that some nuclear reactor would be reconstructed in a way that made its products less suitable for nuclear weapon production; and
+    --}The IAEA would verify that some nuclear reactor would be reconstructed in a way that made its products less suitable for nuclear weapon production; and
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167775064}@@•
     
-    The IAEA would extend its usual safeguards to cover additional types of facilities.[^note-120]
+    --}The IAEA would extend its usual safeguards to cover additional types of facilities.[^note-120]
     
 
 ## Appendix C How Additional Protocols change M&V processes at declared nuclear facilities
@@ -1284,21 +1284,21 @@ Compared to non-nuclear-weapon states that have only adopted CSAs, states that h
 
 Still, there are several notable differences in safeguards at known facilities (17); in contrast to states that have only adopted CSAs, states that have also adopted APs…
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167775420}@@•
     
-    …receive relaxed safeguards ("integrated safeguards") at declared facilities, if and after the IAEA has confidently concluded that the state has no undeclared nuclear facilities.[^note-121]
+    --}…receive relaxed safeguards ("integrated safeguards") at declared facilities, if and after the IAEA has confidently concluded that the state has no undeclared nuclear facilities.[^note-121]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167775420}@@•
     
-    …agree to grant IAEA inspectors access with 2 hours notice (or less, "in exceptional circumstances") for carrying out inspections that were authorized under CSAs. The previous requirement was 24 hours.
+    --}…agree to grant IAEA inspectors access with 2 hours notice (or less, "in exceptional circumstances") for carrying out inspections that were authorized under CSAs. The previous requirement was 24 hours.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167775420}@@•
     
-    …agree to enable the IAEA to non-routinely verify that nuclear material is not being diverted from uranium mines, mills, or certain wastes (not covered by CSAs).[^note-122][^note-123]
+    --}…agree to enable the IAEA to non-routinely verify that nuclear material is not being diverted from uranium mines, mills, or certain wastes (not covered by CSAs).[^note-122][^note-123]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167775420}@@•
     
-    …agree to inform the IAEA about quantities of nuclear materials that were previously small enough to be exempted (separately from Small Quantities Protocols).
+    --}…agree to inform the IAEA about quantities of nuclear materials that were previously small enough to be exempted (separately from Small Quantities Protocols).
     
 
 ## Appendix D The IAEA’s inability to verify the absence of undeclared nuclear facilities under Comprehensive Safeguards Agreements
@@ -1307,32 +1307,32 @@ Overall, CSAs give the IAEA very limited abilities to verify the absence of unde
 
 Under CSAs, the IAEA has access to the following sources of information[^note-124][^note-125][^note-126], which can help it identify locations with a higher-than-baseline chance of hosting secret nuclear facilities:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167775785}@@•
     
-    Voluntary reports from third parties, especially national intelligence agencies
+    --}Voluntary reports from third parties, especially national intelligence agencies
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167775785}@@•
     
-    States’ self-reporting on their own nuclear facilities
+    --}States’ self-reporting on their own nuclear facilities
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167775785}@@•
     
-    Satellite images (e.g., images of a building whose size, location, heat[^note-127], security, and installations are consistent with being a uranium enrichment plant (79))
+    --}Satellite images (e.g., images of a building whose size, location, heat[^note-127], security, and installations are consistent with being a uranium enrichment plant (79))
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167775785}@@•
     
-    Other open-source information (e.g., local news reports)
+    --}Other open-source information (e.g., local news reports)
     
 
 Typically, all of the above sources of evidence are just suggestive[^note-128]; if they rouse the IAEA’s suspicions about some location, the IAEA still needs more definitive evidence to back up confident accusations of non-compliance. However, CSAs only authorize the IAEA to use the following methods for resolving suspicions about undeclared facilities:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167775785}@@•
     
-    _Special inspections:_ Officially, under CSAs, the IAEA may make special inspections (potentially at locations that host undeclared facilities) if it considers other sources of evidence insufficient for verifying compliance. However, in practice, the IAEA has a restrictively high bar for conducting special inspections: special inspections are widely considered appropriate only when the IAEA already has credible evidence of a safeguards violation[^note-129]. In line with this, the IAEA rarely conducts special inspections[^note-130].
+    --}_Special inspections:_ Officially, under CSAs, the IAEA may make special inspections (potentially at locations that host undeclared facilities) if it considers other sources of evidence insufficient for verifying compliance. However, in practice, the IAEA has a restrictively high bar for conducting special inspections: special inspections are widely considered appropriate only when the IAEA already has credible evidence of a safeguards violation[^note-129]. In line with this, the IAEA rarely conducts special inspections[^note-130].
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167775785}@@•
     
-    _Requests for additional information:_ For example, the IAEA may ask that a state provide explanations or documentation about some construction activities. These requests have sometimes been useful despite the potential for deception; states have sometimes responded in ways the IAEA was able to falsify[^note-131], and states have sometimes refused to respond at all[^note-132], suggesting that it can be difficult for states to craft credible cover stories.
+    --}_Requests for additional information:_ For example, the IAEA may ask that a state provide explanations or documentation about some construction activities. These requests have sometimes been useful despite the potential for deception; states have sometimes responded in ways the IAEA was able to falsify[^note-131], and states have sometimes refused to respond at all[^note-132], suggesting that it can be difficult for states to craft credible cover stories.
     
 
 Despite their occasional successes, special inspection authorities and requests for additional information are highly limited, so the IAEA has very limited means for confirming or disconfirming its suspicions about undeclared nuclear facilities in states that only have CSAs.
@@ -1343,53 +1343,53 @@ It appears that, unofficially, the IAEA identifies suspect locations mainly thro
 
 Expert opinion: Experts appear to agree that intelligence agencies play an irreplaceable and primary role in detecting undeclared nuclear facilities.[^note-133]
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167776153}@@•
     
-    Leonard Spector, then-director of the Nuclear Non-Proliferation Project at the Carnegie Endowment, explained, "U.S. intelligence \[…\] has been the principal, if announced, mechanism for detecting \[Non-Proliferation\] treaty violations…" (82).
+    --}Leonard Spector, then-director of the Nuclear Non-Proliferation Project at the Carnegie Endowment, explained, "U.S. intelligence \[…\] has been the principal, if announced, mechanism for detecting \[Non-Proliferation\] treaty violations…" (82).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167776153}@@•
     
-    Michael O’Hanlon, Director of Research of the Foreign Policy program at the Brookings Institution, writes, "\[T\]he so-called "Additional Protocol" has created the right for inspectors to go to places where they suspect monkey business, even if those sites are not officially declared by the country in question. This arrangement tends to work only if national intelligence capabilities, and/or whistleblowers, provide information about suspicious activities. But at that point, inspectors can be more effective than in the years before the Additional Protocol concept was developed and legitimated" (85).
+    --}Michael O’Hanlon, Director of Research of the Foreign Policy program at the Brookings Institution, writes, "\[T\]he so-called "Additional Protocol" has created the right for inspectors to go to places where they suspect monkey business, even if those sites are not officially declared by the country in question. This arrangement tends to work only if national intelligence capabilities, and/or whistleblowers, provide information about suspicious activities. But at that point, inspectors can be more effective than in the years before the Additional Protocol concept was developed and legitimated" (85).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167776153}@@•
     
-    A report from the Australian Safeguards and Non-Proliferation Office asserts, "there is no doubt that national intelligence information will continue to have a vital role in the detection of undeclared nuclear activities" (86).
+    --}A report from the Australian Safeguards and Non-Proliferation Office asserts, "there is no doubt that national intelligence information will continue to have a vital role in the detection of undeclared nuclear activities" (86).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167776153}@@•
     
-    Across a wide range of relevant publications (those read for this research), there is no mention of experts expressing contrary opinions.
+    --}Across a wide range of relevant publications (those read for this research), there is no mention of experts expressing contrary opinions.
     
 
 Case studies: National intelligence agencies have historically had a primary role in prompting IAEA investigations of undeclared nuclear facilities. Of the 4 states in which the IAEA has investigated what turned out to be undeclared nuclear facilities (Syria, North Korea, Iran, and Iraq[^note-134]), there have been 3 states in which the IAEA began to investigate the facilities mainly or entirely because of intelligence agency tips, while there have been no states in which the IAEA began to investigate them mainly or entirely through its own CSA or AP-authorized processes.[^note-135]
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167776153}@@•
     
-    In 3 cases (Syria, North Korea, and Iran), the IAEA mainly or entirely learned of the undeclared facilities from intelligence agency tips.
+    --}In 3 cases (Syria, North Korea, and Iran), the IAEA mainly or entirely learned of the undeclared facilities from intelligence agency tips.
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167776153}@@–
         
-        Western intelligence agencies notified the IAEA of an undeclared nuclear reactor (after Israel bombed it) and three additional suspected facilities in Syria, which the IAEA then investigated (56)(35).
+        --}Western intelligence agencies notified the IAEA of an undeclared nuclear reactor (after Israel bombed it) and three additional suspected facilities in Syria, which the IAEA then investigated (56)(35).
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167776153}@@–
         
-        The IAEA investigated undeclared nuclear sites in North Korea based on U.S. tips (88).
+        --}The IAEA investigated undeclared nuclear sites in North Korea based on U.S. tips (88).
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167776153}@@–
         
-        The IAEA investigated the first two undeclared nuclear facilities in Iran based on tips from intelligence agencies.[^note-136]
+        --}The IAEA investigated the first two undeclared nuclear facilities in Iran based on tips from intelligence agencies.[^note-136]
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167776153}@@–
         
-        Then, Iran notified the IAEA of its other undeclared facility (FFEP) shortly before Western states announced it. Reportedly, "the letter was only sent after the Iranian government discovered the secret plant had been discovered by western intelligence" (90).
+        --}Then, Iran notified the IAEA of its other undeclared facility (FFEP) shortly before Western states announced it. Reportedly, "the letter was only sent after the Iranian government discovered the secret plant had been discovered by western intelligence" (90).
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167776153}@@–
         
-        The IAEA has also investigated additional undeclared nuclear activities in Iran (48). It does not report having been first to spot any of the relevant locations, and at least some of these investigations appear to have been based on tips from Western intelligence (91).
+        --}The IAEA has also investigated additional undeclared nuclear activities in Iran (48). It does not report having been first to spot any of the relevant locations, and at least some of these investigations appear to have been based on tips from Western intelligence (91).
         
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167776153}@@•
     
-    The other case was Iraq, where the IAEA was acting with UNSC-granted authorities well beyond its usual ones (due to Iraq’s defeat in the Gulf War).
+    --}The other case was Iraq, where the IAEA was acting with UNSC-granted authorities well beyond its usual ones (due to Iraq’s defeat in the Gulf War).
     
 
 Plausible mechanism: Intelligence agencies have uniquely strong intelligence gathering capabilities, which could explain their unique contributions.[^note-137]
@@ -1398,113 +1398,113 @@ Plausible mechanism: Intelligence agencies have uniquely strong intelligence gat
 
 No state has attempted to divert a significant quantity of nuclear material from a facility under CSA safeguards.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    We can draw this conclusion on the grounds that there is no mention of such diversion across a varied and fairly comprehensive range of materials on relevant cases.[^note-138]
+    --}We can draw this conclusion on the grounds that there is no mention of such diversion across a varied and fairly comprehensive range of materials on relevant cases.[^note-138]
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    The IAEA recently found that Iran has some undeclared nuclear material (48). However, there appears to be no public evidence that it came from declared facilities, nor that the amounts of nuclear material involved were significant for proliferation. Additionally, the IAEA’s (50) subsequent annual safeguards statement concluded that Iran’s "declared nuclear material remained in peaceful activities."
+    --}The IAEA recently found that Iran has some undeclared nuclear material (48). However, there appears to be no public evidence that it came from declared facilities, nor that the amounts of nuclear material involved were significant for proliferation. Additionally, the IAEA’s (50) subsequent annual safeguards statement concluded that Iran’s "declared nuclear material remained in peaceful activities."
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    There have been a few cases (e.g., Yugoslavia, South Korea) of tiny amounts of nuclear materials (reportedly) having been diverted from facilities that were under CSA safeguards. However, the relevant quantities were far below the "significant quantities" of diversion that CSA safeguards are designed to notice (93)(94).
+    --}There have been a few cases (e.g., Yugoslavia, South Korea) of tiny amounts of nuclear materials (reportedly) having been diverted from facilities that were under CSA safeguards. However, the relevant quantities were far below the "significant quantities" of diversion that CSA safeguards are designed to notice (93)(94).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    Iraq and Yugoslavia planned to divert nuclear materials that were under CSA safeguards, but they never executed these plans (54)(95)(51).[^note-139]
+    --}Iraq and Yugoslavia planned to divert nuclear materials that were under CSA safeguards, but they never executed these plans (54)(95)(51).[^note-139]
     
 
 The U.S. likely discovered Russia’s violation of the INF Treaty before it offered Russia a substantial strategic advantage, and the U.S. plausibly had reliable monitoring throughout.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    According to a statement from the U.S. Director of National Intelligence (consistent with a State Department report), on one hand, the U.S. took about 5 years after Russia began the missile’s development to raise accusations (96)(97).
+    --}According to a statement from the U.S. Director of National Intelligence (consistent with a State Department report), on one hand, the U.S. took about 5 years after Russia began the missile’s development to raise accusations (96)(97).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    On the other hand,
+    --}On the other hand,
     
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167776662}@@–
         
-        the statement suggests the missile’s testing program was not completed for another 2 years;
+        --}the statement suggests the missile’s testing program was not completed for another 2 years;
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167776662}@@–
         
-        the statement suggests the missile may have been impossible to identify as a violation until later stages of this testing program; and
+        --}the statement suggests the missile may have been impossible to identify as a violation until later stages of this testing program; and
         
-    -   –
+    -   {--{"author":"James's AI","timestamp":1790167776662}@@–
         
-        U.S. officials reportedly stated—5 years after the initial U.S. allegations—that Russia had still deployed fewer than 100 of the violating missiles (less than one fifteenth the number of intermediate-range missiles the U.S.S.R. had before the treaty) (98).
+        --}U.S. officials reportedly stated—5 years after the initial U.S. allegations—that Russia had still deployed fewer than 100 of the violating missiles (less than one fifteenth the number of intermediate-range missiles the U.S.S.R. had before the treaty) (98).
         
     
 
 Beside the INF Treaty incident, the U.S. has mostly confirmed the U.S.S.R./Russia’s compliance across the INF Treaty, START I, and New START.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    The U.S. Director of National Intelligence spoke warmly of initial compliance on the INF Treaty: "Together, we eliminated over 2,600 prohibited missiles" (96).
+    --}The U.S. Director of National Intelligence spoke warmly of initial compliance on the INF Treaty: "Together, we eliminated over 2,600 prohibited missiles" (96).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    In 2001, the U.S. State Department announced, "The \[START I’s\] final ceilings came into effect today, and they have been met" (99).
+    --}In 2001, the U.S. State Department announced, "The \[START I’s\] final ceilings came into effect today, and they have been met" (99).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    Agreeing with the above, NTI’s page on the START I mentions no accusations of serious non-compliance (100).
+    --}Agreeing with the above, NTI’s page on the START I mentions no accusations of serious non-compliance (100).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    The U.S. State Department states, "Although the United States has raised implementation-related questions and concerns with the Russian Federation through diplomatic channels and in the context of the BCC, the United States has determined annually since the treaty’s entry into force, across multiple administrations, the Russian Federation’s compliance with its treaty obligations" (101).
+    --}The U.S. State Department states, "Although the United States has raised implementation-related questions and concerns with the Russian Federation through diplomatic channels and in the context of the BCC, the United States has determined annually since the treaty’s entry into force, across multiple administrations, the Russian Federation’s compliance with its treaty obligations" (101).
     
 
 Russia has made several relatively minor or tenuous allegations of noncompliance with the INF Treaty, START I, and New START.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    In 2001, in the context of START I, Russia disputed whether the U.S. had destroyed enough of the stages of one type of missile (100). Russia also alleges that several non-secret U.S. missile-related activities violate the INF Treaty. Some of Russia’s allegations—like that U.S. drones count as cruise missiles—appear tenuous (102).
+    --}In 2001, in the context of START I, Russia disputed whether the U.S. had destroyed enough of the stages of one type of missile (100). Russia also alleges that several non-secret U.S. missile-related activities violate the INF Treaty. Some of Russia’s allegations—like that U.S. drones count as cruise missiles—appear tenuous (102).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    Additionally, the U.S. and Russia suspended New START inspections with the COVID-19 pandemic (unlike the IAEA, which continued its inspections) (103)(104). Then, during the Russian invasion of Ukraine, Russia suspended its participation in New START altogether. However, whether or not this is noncompliance, it is not a case of subtle circumvention of the M&V system.
+    --}Additionally, the U.S. and Russia suspended New START inspections with the COVID-19 pandemic (unlike the IAEA, which continued its inspections) (103)(104). Then, during the Russian invasion of Ukraine, Russia suspended its participation in New START altogether. However, whether or not this is noncompliance, it is not a case of subtle circumvention of the M&V system.
     
 
 In U.S.-U.S.S.R./Russia nuclear arms control treaties other than the above, parties made non-compliance accusations, but they did not raise accusations of massive non-compliance for ratified treaties.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    The U.S. and the U.S.S.R. accused each other of developing radar systems in violation of the Anti-Ballistic Missile Treaty. Both parties also claimed other less specific or clear violations (105)(106).
+    --}The U.S. and the U.S.S.R. accused each other of developing radar systems in violation of the Anti-Ballistic Missile Treaty. Both parties also claimed other less specific or clear violations (105)(106).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    Reagan accused the Soviets of having "violated the \[SALT I\] prohibition on the use of former ICBM facilities" (105).
+    --}Reagan accused the Soviets of having "violated the \[SALT I\] prohibition on the use of former ICBM facilities" (105).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    Reagan accused the Soviets of violating core provisions (including strategic arms limits) of the SALT II Treaty, but he also noted this treaty was never ratified and would have expired if it had been (105).
+    --}Reagan accused the Soviets of violating core provisions (including strategic arms limits) of the SALT II Treaty, but he also noted this treaty was never ratified and would have expired if it had been (105).
     
 
 There have been no significant, known violations of nuclear test ban treaties, except possibly in the Vela incident.
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    A wide range of sources[^note-140] make no mention of serious accusations of violations other than the [Vela incident].
+    --}A wide range of sources[^note-140] make no mention of serious accusations of violations other than the [Vela incident].
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    An article published on the IAEA bulletin on the 10th anniversary of the Partial Test Ban Treaty states, "The record of compliance with the PTB is generally considered to be good. There has so far been no complaint of a significant breach by any party" (107).
+    --}An article published on the IAEA bulletin on the 10th anniversary of the Partial Test Ban Treaty states, "The record of compliance with the PTB is generally considered to be good. There has so far been no complaint of a significant breach by any party" (107).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    Radioactive carbon in the atmosphere peaked right around the signing of the Partial Test Ban Treaty (108).
+    --}Radioactive carbon in the atmosphere peaked right around the signing of the Partial Test Ban Treaty (108).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    Additionally, the CTBT was signed in 1996, and only a few non-signatories are known to have conducted nuclear tests since then (61).
+    --}Additionally, the CTBT was signed in 1996, and only a few non-signatories are known to have conducted nuclear tests since then (61).
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167776662}@@•
     
-    Reagan accused the Soviets of violating the Threshold Test Ban Treaty, but this was before either party had ratified the treaty, and concerns were later resolved (105)(109).
+    --}Reagan accused the Soviets of violating the Threshold Test Ban Treaty, but this was before either party had ratified the treaty, and concerns were later resolved (105)(109).
     
 
 ## Appendix G How verification of AI chip accounts could be implemented
@@ -1521,28 +1521,28 @@ To avoid repetition, this appendix assumes basic familiarity with nuclear M&V me
 
 This appendix is about the verification of a hypothetical international agreement that obliges state parties to the following:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790167777156}@@•
     
-    Chip features: Ensure that cutting-edge, AI-specialized chips ("AI chips") in the state’s territory continually have certain design (and/or assembly) features, including a [unique identifier]; and
+    --}Chip features: Ensure that cutting-edge, AI-specialized chips ("AI chips") in the state’s territory continually have certain design (and/or assembly) features, including a [unique identifier]; and
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167777156}@@•
     
-    AI chip accounting: Notify and regularly update some international organization of the existence, locations, technical specifications, and [unique identifiers] of cutting-edge AI chips and of the machines that make them.
+    --}AI chip accounting: Notify and regularly update some international organization of the existence, locations, technical specifications, and [unique identifiers] of cutting-edge AI chips and of the machines that make them.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790167777156}@@•
     
-    Location restrictions on data-center-quality AI chips: Keep data-center-quality AI chips in production facilities, data centers, storage facilities, elimination facilities[^note-143], or in (time-limited) transit between these locations.[^note-144]
+    --}Location restrictions on data-center-quality AI chips: Keep data-center-quality AI chips in production facilities, data centers, storage facilities, elimination facilities[^note-143], or in (time-limited) transit between these locations.[^note-144]
     
 
 This appendix assumes that the main types of violations this system is aiming to detect are: the possession of many cutting-edge AI chips at undeclared locations, and the possession of many cutting-edge AI chips that lack required design features. The problem of detecting these violations can be broken down into the following two subproblems:
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167777156}@@1.
     
-    Verify that there are not many[^note-145] cutting-edge AI chips being used at undeclared locations; and
+    --}Verify that there are not many[^note-145] cutting-edge AI chips being used at undeclared locations; and
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167777156}@@2.
     
-    Verify that, of the cutting-edge AI chips at reported locations, not many lack required design features.
+    --}Verify that, of the cutting-edge AI chips at reported locations, not many lack required design features.
     
 
 ### G.3 Detecting efforts to get cutting-edge AI chips to undeclared locations ^g3-detecting-efforts-to-get-cutting-edge-ai-chips-to-undeclared-locations
