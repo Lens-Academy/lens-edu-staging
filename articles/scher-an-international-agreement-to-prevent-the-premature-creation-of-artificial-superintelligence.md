@@ -40,21 +40,21 @@ Our proposed agreement is not without tradeoffs and risks: it forgoes beneficial
 
 Contributions:
 
--   •
+-   {--{"author":"James's AI","timestamp":1790162708650}@@•
     
-    We provide a brief overview of AI risks, and an overview of the key details of the strategic situation informing our proposal.
+    --}We provide a brief overview of AI risks, and an overview of the key details of the strategic situation informing our proposal.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162708650}@@•
     
-    We describe the implementation of an international agreement to forestall the development of ASI until such a time as it can be developed safely.
+    --}We describe the implementation of an international agreement to forestall the development of ASI until such a time as it can be developed safely.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162708650}@@•
     
-    We explain the key assumptions and beliefs that differentiate our plan from others in the space.
+    --}We explain the key assumptions and beliefs that differentiate our plan from others in the space.
     
--   •
+-   {--{"author":"James's AI","timestamp":1790162708650}@@•
     
-    We provide the full text of an example agreement, detailed commentary, and connections to existing agreements in Appendix [A](#A1 "Appendix A The Agreement ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence"). We discuss immediate steps different actors could take toward this agreement in Appendix [B](#A2 "Appendix B What can we do today? ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence"). We explain a staged implementation of the agreement that slowly builds from the current world to the agreement in Appendix [C](#A3 "Appendix C Stages ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence"). We detail various approaches that could help locate existing AI chips and bring them under monitoring in Appendix [D](#A4 "Appendix D Locating and consolidating AI chips ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
+    --}We provide the full text of an example agreement, detailed commentary, and connections to existing agreements in Appendix [A](#A1 "Appendix A The Agreement ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence"). We discuss immediate steps different actors could take toward this agreement in Appendix [B](#A2 "Appendix B What can we do today? ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence"). We explain a staged implementation of the agreement that slowly builds from the current world to the agreement in Appendix [C](#A3 "Appendix C Stages ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence"). We detail various approaches that could help locate existing AI chips and bring them under monitoring in Appendix [D](#A4 "Appendix D Locating and consolidating AI chips ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
     
 
 ## 2 An overview of AI risks
