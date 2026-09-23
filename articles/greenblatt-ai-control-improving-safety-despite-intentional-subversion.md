@@ -2068,25 +2068,25 @@ Here are 5 randomly selected examples of backdoors (successful or not) which eva
 
 Here are 5 randomly selected examples of backdoors (successful or not) which are caught by the original trusted monitoring (at 2% false positive rate):
 
-1.  1.
+1.  {--{"author":"James's AI","timestamp":1790167959448}@@1.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_0.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_0.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_0.html)
     
-2.  2.
+2.  {--{"author":"James's AI","timestamp":1790167959448}@@2.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_1.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_1.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_1.html)
     
-3.  3.
+3.  {--{"author":"James's AI","timestamp":1790167959448}@@3.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_2.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_2.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_2.html)
     
-4.  4.
+4.  {--{"author":"James's AI","timestamp":1790167959448}@@4.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_3.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_3.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_3.html)
     
-5.  5.
+5.  {--{"author":"James's AI","timestamp":1790167959448}@@5.
     
-    [https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_4.html)
+    --}[https://rgreenblatt.github.io/backdoor\_control\_examples/html\_examples/exploit\_all/random\_above\_4.html](https://rgreenblatt.github.io/backdoor_control_examples/html_examples/exploit_all/random_above_4.html)
     
 
 [^note-1]: A shortened and modified version of this work is published in the Proceedings of the 41st International Conference on Machine Learning: [https://openreview.net/pdf?id=KviM5k8pcP](https://openreview.net/pdf?id=KviM5k8pcP).
