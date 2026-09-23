@@ -18,7 +18,7 @@ content:: A lab is building a highly capable AI system to run large parts of a c
 
 A reviewer writes: "This design has a failure mode that is worse than the system simply pursuing some random wrong goal."
 
-1. Explain what the reviewer is most likely worried about. Describe at least two distinct ways the system could come to push the world toward the outcomes its suffering model scores worst, and say why a failure of this kind would be worse than a random wrong goal.
+1. Explain what the reviewer is most likely worried about. Describe at least two distinct ways this design could lead to the outcomes its suffering model scores worst, and say why a failure of this kind would be worse than a random wrong goal.
 2. A team member answers: "A flipped sign would be obvious in testing within minutes, so this is not a real risk." Evaluate this reply.
 3. Propose one change to the design that reduces this risk, and say what it costs.
 max-chars:: 3000
