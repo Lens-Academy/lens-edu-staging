@@ -2,7 +2,7 @@
 id: 'f22e9aae-47ce-4cab-8ca7-70fa4a67055b'
 title: "Monitoring and Mitigation"
 tldr: "A bank with no lock lets a thief stroll in. Put a lock on it and even a thief who picks it leaves you footage of someone picking a lock. That is the shape of the protocol in this talk: when a command looks suspicious, do not run it and do not give up on it, ask the model again. Three suspicious answers in a row incriminate far better than one."
-summary_for_tutor: "The opening lens of the monitoring-and-mitigation section of Module 4. It is a single 22-minute ControlConf talk by Aryan Bhatt on Redwood Research's Ctrl-Z work: the multi-step bash-agent control setting, the execute/replace/audit framework, defer-to-trusted as the baseline, and defer-to-resample plus time travel as the new protocols the agent setting makes possible. Sequence: a short lead-in naming the setting, the talk, then the learning objectives for the whole section and pointers to the three readings that follow. The paper itself is a separate lens; if the student wants the numbers and the full protocol, send them there rather than re-deriving it from the talk."
+summary_for_tutor: "The opening lens of the monitoring-and-mitigation section of Unit 5 of AI Control 1. It is a single 22-minute ControlConf talk by Aryan Bhatt on Redwood Research's Ctrl-Z work: the multi-step bash-agent control setting, the execute/replace/audit framework, defer-to-trusted as the baseline, and defer-to-resample plus time travel as the new protocols the agent setting makes possible. Sequence: a short lead-in naming the setting, the talk, then the learning objectives for the whole section and pointers to the three readings that follow. The paper itself is a separate lens; if the student wants the numbers and the full protocol, send them there rather than re-deriving it from the talk."
 reading_minutes: 30
 tutor_minutes: 0
 tags: []
@@ -13,7 +13,7 @@ content::
 
 This section is about what you actually do once a monitor fires. Aryan Bhatt's ControlConf talk runs 22 minutes, with audience questions along the way, and lays out the setting Redwood Research built to study it: an untrusted model driving a bash shell through multi-step sysadmin tasks, a weaker trusted model scoring every command for suspicion, and a red team whose job is to get malware downloaded and executed without any single command looking suspicious enough to be audited.
 
-The talk previews the paper you read later in this module, [[../Lenses/XLab Control - ctrl-z-resampling|Ctrl-Z: Controlling AI Agents via Resampling]]. Watch for the move at the heart of it: a suspicious action does not have to be either executed or replaced by a weaker model's action. It can simply be sampled again.
+The talk previews the paper you read later in this unit, [[../Lenses/XLab Control - ctrl-z-resampling|Ctrl-Z: Controlling AI Agents via Resampling]]. Watch for the move at the heart of it: a suspicious action does not have to be either executed or replaced by a weaker model's action. It can simply be sampled again.
 
 #### Video
 source:: [[../video_transcripts/far-ai-aryan-bhatt-ctrl-z-controlling-ai-agents-via-resampling-controlconf]]
@@ -34,7 +34,8 @@ The talk is the overview. The rest of the section works through the same ground 
 
 - [[../Lenses/XLab Control - control-monitoring-in-deployments|Practical challenges of control monitoring in frontier AI deployments]]
 - [[../Lenses/XLab Control - synchronous-monitors|Blocking live failures with synchronous monitors]] (optional)
-- [[../Lenses/XLab Control - ctrl-z-resampling|Ctrl-Z: Controlling AI Agents via Resampling]]
+- [[../Lenses/XLab Control - ctrl-z-resampling|Ctrl-Z resampling (1): the agent setting and Defer to resample]]
+- [[../Lenses/XLab Control - ctrl-z-resampling-2|Ctrl-Z resampling (2): incrimination, untrusted monitoring and the limits]]
 
 #### Text
 content::

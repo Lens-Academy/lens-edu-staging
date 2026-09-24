@@ -2,9 +2,9 @@
 id: '7ac90e38-63ed-48df-95a6-558b7a3c90c3'
 title: "Why it's hard to make settings for high-stakes control research"
 tldr: "Building the exam turns out to be harder than sitting it. A control setting needs tasks that frontier models can just about do and weaker models cannot, a success measure robust enough to be optimized against, and a definition of sabotage the red team cannot water down. Buck Shlegeris explains why a substantial fraction of the difficulty is constructing that setting rather than developing the protocols and attacks."
-summary_for_tutor: "Module 4. This is a Paper page: the source renders Buck Shlegeris's post in full and writes no framing of its own, inserting a two-part Quick recall into the middle of it, straight after the paragraph that names side tasks. This lens reproduces that placement. The opening Text segment is ours, not ported: it says what the post argues and links the neighbouring lessons on environment construction and on the environments that exist. Then the reading in two excerpts, with the two recall questions between them. Both questions come from the source, and its revealed answers are used as marking criteria rather than shown to the learner. The closing optional pointer to Kaufman's BashArena post is ours; the source does not link it. If a learner asks which constraint matters most, send them back to the post's own ordering: main tasks first, then side tasks, then the preference for software engineering and ML research domains."
+summary_for_tutor: "Unit 5 of AI Control 1. This is a Paper page: the source renders Buck Shlegeris's post in full and writes no framing of its own, inserting a two-part Quick recall into the middle of it, straight after the paragraph that names side tasks. This lens reproduces that placement. The opening Text segment is ours, not ported: it says what the post argues and links the neighbouring lessons on environment construction and on the environments that exist. Then the reading in two excerpts, with the two recall questions between them. Both questions come from the source, and its revealed answers are used as marking criteria rather than shown to the learner. The closing optional pointer to Kaufman's BashArena post is ours; the source does not link it. If a learner asks which constraint matters most, send them back to the post's own ordering: main tasks first, then side tasks, then the preference for software engineering and ML research domains."
 reading_minutes: 15
-tutor_minutes: 0
+tutor_minutes: 2
 tags: []
 ---
 #### Text
@@ -15,7 +15,7 @@ Redwood's high-stakes control papers, the original one and Ctrl-Z, are built the
 
 What follows is a set of requirements that pull against each other. The tasks have to be ones frontier models are reasonably competent at while weaker models do much worse, which means tasks the models have not already saturated, and Shlegeris notes that LLMs struggle to build datasets that hard. Task success has to be measurable robustly, because protocol development optimizes against that measure. And the side task, the safety failure the attack policy is trying to accomplish, has to survive a red team that is incentivized to find the weakest thing that still counts.
 
-The lesson before this one, [[../Lenses/XLab Control - environment-construction|Environment construction]], is Asa Cooper Stickland's ControlConf talk on a new control setting, and [[../Lenses/XLab Control - environments|Environments]] in Module 3 surveys the settings that already exist. This post is the argument for why building another one is hard.
+The lesson before this one, [[../Lenses/XLab Control - environment-construction|Environment construction]], is Asa Cooper Stickland's ControlConf talk on a new control setting, and [[../Lenses/XLab Control - environments|Environments]] in Unit 4 surveys the settings that already exist. This post is the argument for why building another one is hard.
 
 Read the first part of the post, then answer the recall questions before moving on.
 

@@ -5,7 +5,7 @@ title: "Unit 4: Plans, the control toolkit, and high-stakes framing"
 tags:
   - work-in-progress
 ---
-%% Day 4 of AI Control Part 1 (five-day split of XLab's seven-module track, September 2026). Core self-study 299 minutes. Lens order follows XLab's track. %%
+%% Day 4 of AI Control Part 1 (five-day split of XLab's seven-module track, September 2026). Core self-study 277 minutes (lens minutes re-estimated September 2026; "An overview of areas of control work" split into two lenses of 35 and 55 minutes). Lens order follows XLab's track. %%
 
 
 
@@ -29,6 +29,9 @@ source:: [[../Lenses/XLab Control - environments]]
 
 # Lens:
 source:: [[../Lenses/XLab Control - an-overview-of-areas-of-control-work]]
+
+# Lens:
+source:: [[../Lenses/XLab Control - an-overview-of-areas-of-control-work-2]]
 
 # Lens:
 source:: [[../Lenses/XLab Control - high-stakes-control-talk]]
