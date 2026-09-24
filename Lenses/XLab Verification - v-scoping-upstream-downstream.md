@@ -90,9 +90,9 @@ thread each point to the readers who need it.
 id:: cec5c7fa-f530-4f33-83da-cadb4b7115a2
 content:: **Actor–authority–evidence map** (Map, about 700 words)
 
-{--{"author":"Turner's AI","timestamp":1790272988458}@@Actor–authority–evidence map for any --}{++{"author":"Turner's AI","timestamp":1790272988458}@@Pick one element of the advanced-AI supply chain, anywhere from chip fabrication to a training run, and name it. List the actors involved in that ++}element {++{"author":"Turner's AI","timestamp":1790272988458}@@as rows. For each actor, record:
+{--{"author":"Turner's AI","timestamp":1790272988458}@@Actor–authority–evidence map for any --}{++{"author":"Turner's AI","timestamp":1790272988458}@@Pick one element of the advanced-AI supply chain, anywhere from chip fabrication to a training run, and name it. List the actors involved in that ++}element as rows. For each actor, record:
 
-- the authority it holds: a jurisdiction, a licence, ownership ++}of {++{"author":"Turner's AI","timestamp":1790272988458}@@a record, or the power to interrupt;
+- the authority it holds: a jurisdiction, a licence, ownership of {++{"author":"Turner's AI","timestamp":1790272988458}@@a record, or the power to interrupt;
 - the evidence that would let an outside party verify what it is doing, and whether that evidence is produced by ++}the {--{"author":"Turner's AI","timestamp":1790272988458}@@supply chain.--}{++{"author":"Turner's AI","timestamp":1790272988458}@@actor itself or held by someone else.++}
 
 This output is a map, not a {--{"author":"Turner's AI","timestamp":1790272988458}@@memo —--}{++{"author":"Turner's AI","timestamp":1790272988458}@@memo:++} build it as annotated rows, not paragraphs, carrying what the brief above asks each row to {--{"author":"Turner's AI","timestamp":1790272988458}@@hold.--}{++{"author":"Turner's AI","timestamp":1790272988458}@@hold.{>>{"author":"Turner's AI","timestamp":1790272988458}@@Brief restored. It was lost in the XLab port, so learners saw "the brief above" with nothing above it (reported by Maciej, CV c9, 2026-09-24). Wording mirrors assessment-instructions so what learners are asked matches what is graded. Also swaps the em dash for a colon (authoring rule). Question id unchanged. Accept, then promote this one lens file.<<}++}
