@@ -1,12 +1,16 @@
 ---
 id: 'a1f058be-04ef-47f9-ba1b-c88d67dd1a73'
-title: "Catching AIs red-handed"
+title: "Catching AIs red-handed (1): what a catch buys you"
 tldr: "A schemer only has to slip past you once. But you only have to catch it once. Greenblatt and Shlegeris argue that the moment you hold one clear example of a model trying to escape, the board tilts your way: you can shut it down, or you can mine that single example for everything it will tell you about the next attempt."
-summary_for_tutor: "Module 1. The learner reads Greenblatt and Shlegeris, \"Catching AIs red-handed\", in five excerpts. Excerpt 1 (opening through the eight strategies for few-shot catastrophe prevention) is followed by a recall question on what few-shot catastrophe prevention is. Excerpt 2 (when the control-then-few-shot plan works) is followed by a recall question on the catch-then-shut-down plan. Excerpt 3 (avoiding overfit) is followed by a recall question on why labs might train monitors but not the policy, then a two-part understanding check on the definition of catching and on the mirrored first-critical-try framing. Excerpt 4 (conclusion) is followed by a recall question on why control evaluations should never be fully retired. A note then pushes back on catching as a win condition, and sets two graded free-response questions on the legibility of evidence. Excerpt 5 is the appendices. Grade the recall questions against the criteria in each brief; do not hand the learner the answer before they attempt it."
-reading_minutes: 90
-tutor_minutes: 0
+summary_for_tutor: "Unit 3 of AI Control 1, part 1 of 2. The learner reads Greenblatt and Shlegeris, \"Catching AIs red-handed\", from the opening through the Conclusion, in four excerpts. Excerpt 1 (opening through the eight strategies for few-shot catastrophe prevention) is followed by a recall question on what few-shot catastrophe prevention is. Excerpt 2 (when the control-then-few-shot plan works) is followed by a recall question on the catch-then-shut-down plan. Excerpt 3 (avoiding overfit) is followed by a recall question on why labs might train monitors but not the policy, then a two-part understanding check on the definition of catching and on the mirrored first-critical-try framing. Excerpt 4 (conclusion) is followed by a recall question on why control evaluations should never be fully retired. Part 2, 'Catching AIs red-handed (2)', has the appendices and two graded free-response questions on whether a catch produces evidence anyone will act on. Grade the recall questions against the criteria in each brief; do not hand the learner the answer before they attempt it."
+reading_minutes: 40
+tutor_minutes: 5
 tags: []
 ---
+#### Text
+content::
+Part 1 of 2. This part reads Greenblatt and Shlegeris's argument that a single caught escape attempt changes a lab's position, and their eight strategies for using a caught example, through to the post's conclusion. Short recall questions follow each section; answer them from memory before reading on. Part 2 reads the appendices and asks whether a catch is enough to make anyone act.
+
 #### Article
 source:: [[../articles/shlegeris-catching-ais-red-handed]]
 from:: We’ve been spending a lot of time recently thinking about how to mitigate risks posed by
@@ -67,46 +71,9 @@ feedback-instructions:: One turn, at most three sentences: say plainly what the 
 
 #### Text
 content::
-:::callout {title="Note" tone="amber"}
-The original control framing treats catching a scheming AI red-handed as a win condition. Once you've caught it, you either shut it down or apply few-shot catastrophe prevention and either way the AI's odds of eventual success drop a lot. However, many have argued that even a clean red-handed catch, such as a situation where a model backdoors security-critical code and separately exploits the backdoor on a given input and we spot that, still might not result in the desired actions from important AI stakeholders. Rival AI labs, the US president, and even other people inside your lab could attribute this to role-play, a one-off anomaly, sabotage by rivals, or shoddy alignment work on your part. This raises the question of whether catching is an appropriate win condition if it doesn't have a high likelihood of decreasing the global level of AI risk. To put it concisely, there are other factors which decrease the efficacy of good control work that are outside of the control evaluations themselves.
-:::
-
-Respond to the following discussion questions and take some time to write out your answers. A good place to look for assistance is the Redwood Research blog, although after this section's readings you should be able to begin an answer by yourself.
-
-#### Question: Open
-id:: d20e6bc3-6b15-417a-98e8-433ddcfb388d
-content::
-**Stage 1.** A catch only matters for shutdown if it produces evidence that can survive counterarguments from people that disagree with you on misalignment. Create a catch scenario and figure out what needs to be true for the evidence to lead to a shutdown. Try to come up with possible counterarguments and proactively answer them.
-
-Write at least 150 words and at most 500 words.
-assessment-instructions:: Graded free response, scored against three criteria of equal weight, and against the length bound (at least 150 words, at most 500 words; deduct if the response is under the minimum). (1) Catch: creates a valid and realistic catch scenario that's relatively detailed. A scenario is realistic if the actions are ones a deployed model could plausibly take and the catch is one a lab could plausibly notice; detail means naming the affordance, the action, and how it surfaced, not just "the model tried to escape". (2) Stress-Test: comes up with counterarguments and argues for a shutdown effectively. Counterarguments should be the ones a real sceptic would raise, for example role-play, a one-off anomaly, sabotage by a rival, or shoddy alignment work by the team that reported it, and the response should answer them rather than dismiss them. (3) Requirements for Shutdown: mentions catch scenario requirements for a shutdown to happen, that is, what has to be true of the evidence, the decision process, or the prior commitments for the catch to actually stop the deployment. Award partial credit per criterion. Do not reward length or fluency on their own; a well-written scenario with no counterarguments fails criterion 2. Grade only against the reading and the note on this page.
-feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
-
-#### Question: Open
-id:: 81ff09bc-f18b-472f-8b91-9274ed86c73b
-content::
-**Stage 2.** Where is the biggest bottleneck for the legibility of evidence and why?
-
-Redwood has [some](https://www.alignmentforum.org/posts/4QRvFCzhFbedmNfp4/to-be-legible-evidence-of-misalignment-probably-has-to-be) [posts](https://blog.redwoodresearch.org/p/behavioral-red-teaming-is-unlikely) tackling this; try to read this after attempting the question and think of one thing you may agree or disagree with the authors on.
-
-Write at least 100 words and at most 400 words.
-assessment-instructions:: Graded free response, scored against three criteria of equal weight, and against the length bound (at least 100 words, at most 400 words; deduct if the response is under the minimum). (1) Selects Bottleneck: picks a bottleneck to argue for. A response that lists several without committing to one does not meet this criterion. (2) Explanation: argues that the bottleneck selected is the biggest bottleneck as well as why exactly its a bottleneck. Look for a mechanism, not an assertion: what specifically fails at that point, and why fixing anything else leaves the problem in place. (3) Comparison: mentions at least one agreement or disagreement with the authors' takes, referring to the two linked Redwood posts (Greenblatt on evidence of misalignment having to be behavioral to be legible, and Shlegeris on behavioral red-teaming being unlikely to produce clear strong evidence that models aren't scheming). A generic nod to "the authors" with no identifiable claim does not meet this criterion. Award partial credit per criterion. Grade only against the reading, the note on this page, and the two linked posts.
-feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
-
-#### Article
-from:: ## Appendix: Framing in terms of E\[utility | scheming\]
-
-#### Text
-content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Greenblatt, Ryan, and Buck Shlegeris. "Catching AIs red-handed." *Redwood Research blog*, 7 May 2024. [redwoodresearch.substack.com](https://redwoodresearch.substack.com/p/catching-ais-red-handed)
-*The reading this lesson is built around: the argument that a single caught escape attempt changes a lab's position, and eight strategies for using it.*
-
-Greenblatt, Ryan. "To be legible, evidence of misalignment probably has to be behavioral." *LessWrong*, 15 Apr. 2025. [lesswrong.com](https://www.lesswrong.com/posts/4QRvFCzhFbedmNfp4/to-be-legible-evidence-of-misalignment-probably-has-to-be)
-*One of the two posts to read for the second free-response question, on what kind of evidence of misalignment can actually be made legible to outsiders.*
-
-Shlegeris, Buck. "Behavioral red-teaming is unlikely to produce clear, strong evidence that models aren't scheming." *Redwood Research blog*, 10 Oct. 2024. [blog.redwoodresearch.org](https://blog.redwoodresearch.org/p/behavioral-red-teaming-is-unlikely)
-*The second of those posts, arguing that behavioral red-teaming will not settle the question either way.*
+*The reading this lesson is built around: the argument that a single caught escape attempt changes a lab's position, and eight strategies for using it. This part covers the post through its conclusion; the appendices are in part 2.*
 
 XLab. "Catching AIs red-handed." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/introduction/catching-ais-red-handed)
 *The source lesson this page adapts.*
