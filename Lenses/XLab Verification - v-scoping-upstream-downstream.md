@@ -77,14 +77,14 @@ The structure carries over to the compute reports this track is building toward.
 
 Sources for this case: IAEA quarterly report to member states, late February 2023, on the 83.7 percent U-235 particles found at Fordow and Iran's explanation; IAEA materials on environmental swipe sampling and safeguards verification.
 
-The next exercise asks you to apply this directly. You will assemble a report from a pool of candidate details and connect each detail to the reader who needs it. The standard is the one demonstrated here: every claim carries its source, and every finding reaches the actor who acts on it.
+{--{"author":"Turner's AI","timestamp":1790276611510}@@The next exercise asks you to apply this directly. You will assemble a report from a pool of candidate details and connect each detail to --}{++{"author":"Turner's AI","timestamp":1790276611510}@@\### Your turn{>>{"author":"Turner's AI","timestamp":1790276611510}@@Layout fix 2/3: ++}the {--{"author":"Turner's AI","timestamp":1790276611510}@@reader who needs it. The standard is--}{++{"author":"Turner's AI","timestamp":1790276611510}@@map question sat under++} the{--{"author":"Turner's AI","timestamp":1790276611510}@@ one demonstrated here: every claim carries its source, and every finding reaches the actor who acts on it.
 
-\### The Context Distiller Exercise
+\### The Context --}{++{"author":"Turner's AI","timestamp":1790276611510}@@ "Context ++}Distiller {--{"author":"Turner's AI","timestamp":1790276611510}@@Exercise
 
-[[../Lenses/XLab Verification - v-context-distiller|The next page]] is that exercise. Four reports are on the table; you pick one and
-work the whole chain: clip the facts that would change what a reader does,
+[[../Lenses/XLab Verification - v-context-distiller|The next page]] is that exercise. Four reports are on--}{++{"author":"Turner's AI","timestamp":1790276611510}@@Exercise" heading, so learners mapped++} the {--{"author":"Turner's AI","timestamp":1790276611510}@@table; you pick one and
+work --}{++{"author":"Turner's AI","timestamp":1790276611510}@@Distiller's AISI report or ++}the {--{"author":"Turner's AI","timestamp":1790276611510}@@whole chain: clip the facts that would change what a reader does,
 distil them, name who the report was built from and who reads it next, then
-thread each point to the readers who need it.
+thread each point to --}{++{"author":"Turner's AI","timestamp":1790276611510}@@Iran case instead of an AI supply-chain element (about 10 of 25 answerers, 2026-09-09 to 09-24). This block moves below ++}the{--{"author":"Turner's AI","timestamp":1790276611510}@@ readers who need it.--}{++{"author":"Turner's AI","timestamp":1790276611510}@@ map question.<<}++}
 
 #### Question: Open
 id:: cec5c7fa-f530-4f33-83da-cadb4b7115a2
@@ -101,7 +101,14 @@ feedback-instructions:: Name the row where the evidence is only the actor's own 
 
 #### Text
 content::
-XLab also lists two written outputs for this lesson without briefs: a 600-word case briefing on actors, and an optional 600-word written output.
+{--{"author":"Turner's AI","timestamp":1790276613255}@@XLab --}{++{"author":"Turner's AI","timestamp":1790276613255}@@The next exercise asks you to apply this directly. You will assemble a report from a pool of candidate details and connect each detail to the reader who needs it. The standard is the one demonstrated here: every claim carries its source, and every finding reaches the actor who acts on it.
+
+\### The Context Distiller Exercise
+
+[[../Lenses/XLab Verification - v-context-distiller|The next page]] is that exercise. Four reports are on the table; you pick one and
+work the whole chain: clip the facts that would change what a reader does,
+distil them, name who the report was built from and who reads it next, then
+thread each point to the readers who need it.{>>{"author":"Turner's AI","timestamp":1790276613255}@@Layout fix 3/3: the Distiller pointer now comes after the map. This replaces the line "XLab ++}also lists two written outputs for this lesson without {--{"author":"Turner's AI","timestamp":1790276613255}@@briefs:--}{++{"author":"Turner's AI","timestamp":1790276613255}@@briefs…", which reads as++} a {--{"author":"Turner's AI","timestamp":1790276613255}@@600-word case briefing on actors,--}{++{"author":"Turner's AI","timestamp":1790276613255}@@porting note shown to learners++} and {--{"author":"Turner's AI","timestamp":1790276613255}@@an optional 600-word written output.--}{++{"author":"Turner's AI","timestamp":1790276613255}@@adds to the "what brief?" confusion. Reject this part if that line should stay.<<}++}
 
 #### Text
 content::
