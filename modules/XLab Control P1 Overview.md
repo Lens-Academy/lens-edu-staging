@@ -63,3 +63,7 @@ Win, continue and lose scenarios; rogue deployments inside and outside the lab; 
 \## What comes after
 
 This is the first of two courses on XLab's AI Control curriculum. AI Control 2 continues with guided exercises on collusion and legibility, low-stakes control, sandbagging and capability elicitation, threat models beyond scheming, and deals with early misaligned AIs.
+
+# Lens: Application Form
+source:: [[../Lenses/Course Application Form]]
+optional:: true
