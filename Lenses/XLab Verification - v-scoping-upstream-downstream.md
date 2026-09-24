@@ -63,13 +63,13 @@ No verification document stands alone. Every source upstream of you was produced
 
 #### Question: Open
 id:: 0a469f70-f02c-4813-8318-9b1d10a4652e
-content:: Take {--{"author":"Turner's AI","timestamp":1790276605417}@@one document: either the Fordow finding above, or --}{++{"author":"Turner's AI","timestamp":1790276605417}@@the Fordow finding above and answer two questions about it.
+content:: Take the Fordow finding above and answer two questions about it.
 
 - Upstream: whose claims does this document rely on, and which of them did I verify myself, rather than inherit from the actor being checked?
 - Downstream: who will act on this document, and what does each reader need in order to act?
 assessment-instructions:: Score the two questions separately, 50 points each, and accept either target: the Fordow finding above, or the report the learner is about to write. Upstream: every claim the document rests on is attributed to the actor that produced it, and the answer separates what the writer verified independently from what was inherited from the actor being checked. Downstream: each reader is named together with what that reader needs in order to act, and the readers need different things, one a determination measured against a standard, another the underlying discrepancy in enough detail to point its own collection at it. Penalise an upstream list that treats every source as equally trustworthy, and a downstream list that gives every reader the same thing.
 feedback-instructions:: Name any claim in the upstream list that came from the actor being checked and was not marked as such, and any reader whose stated need would be met by exactly the same text as another reader's. Then send the learner to the Context Distiller exercise. Two or three sentences, no praise.
-optional:: true{>>{"author":"Elias's AI","timestamp":1788016749227}@@Legacy #### Question converted to Question: Open with a fresh id; XLab's notebook callout gates nothing, hence optional. The invalid feedback:: false line is dropped.<<}
+optional:: true
 
 #### Text
 content::
@@ -77,14 +77,7 @@ The structure carries over to the compute reports this track is building toward.
 
 Sources for this case: IAEA quarterly report to member states, late February 2023, on the 83.7 percent U-235 particles found at Fordow and Iran's explanation; IAEA materials on environmental swipe sampling and safeguards verification.
 
-{--{"author":"Turner's AI","timestamp":1790276611510}@@The next exercise asks you to apply this directly. You will assemble a report from a pool of candidate details and connect each detail to --}{++{"author":"Turner's AI","timestamp":1790276611510}@@\### Your turn{>>{"author":"Turner's AI","timestamp":1790276611510}@@Layout fix 2/3: ++}the {--{"author":"Turner's AI","timestamp":1790276611510}@@reader who needs it. The standard is--}{++{"author":"Turner's AI","timestamp":1790276611510}@@map question sat under++} the{--{"author":"Turner's AI","timestamp":1790276611510}@@ one demonstrated here: every claim carries its source, and every finding reaches the actor who acts on it.
-
-\### The Context --}{++{"author":"Turner's AI","timestamp":1790276611510}@@ "Context ++}Distiller {--{"author":"Turner's AI","timestamp":1790276611510}@@Exercise
-
-[[../Lenses/XLab Verification - v-context-distiller|The next page]] is that exercise. Four reports are on--}{++{"author":"Turner's AI","timestamp":1790276611510}@@Exercise" heading, so learners mapped++} the {--{"author":"Turner's AI","timestamp":1790276611510}@@table; you pick one and
-work --}{++{"author":"Turner's AI","timestamp":1790276611510}@@Distiller's AISI report or ++}the {--{"author":"Turner's AI","timestamp":1790276611510}@@whole chain: clip the facts that would change what a reader does,
-distil them, name who the report was built from and who reads it next, then
-thread each point to --}{++{"author":"Turner's AI","timestamp":1790276611510}@@Iran case instead of an AI supply-chain element (about 10 of 25 answerers, 2026-09-09 to 09-24). This block moves below ++}the{--{"author":"Turner's AI","timestamp":1790276611510}@@ readers who need it.--}{++{"author":"Turner's AI","timestamp":1790276611510}@@ map question.<<}++}
+\### Your turn
 
 #### Question: Open
 id:: cec5c7fa-f530-4f33-83da-cadb4b7115a2
