@@ -27,7 +27,6 @@ M3 in general was quite weird since the prior format offered better interrogatio
 application-survey:: [[../surveys/Application Form]]
 
 # Module: [[../modules/IABIED M1 Introduction]]
-intro-form:: true
 
 # Module: [[../modules/IABIED M2 Nonhuman Minds, Part 1]]
 

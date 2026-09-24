@@ -68,10 +68,6 @@ We hope this course will also help grow the AI safety community. Some of these t
 
 Don't save your questions and insights for the meeting day, post them into Discord as soon as they arise!
 
-# Lens: Application Form
-source:: [[../Lenses/Course Application Form]]
-optional:: true
-
 # Submodule: Ch0 - Introduction
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/00 - Introduction - Hard Calls and Easy Calls]]
 

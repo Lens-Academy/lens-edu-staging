@@ -11,7 +11,6 @@ tags:
 application-survey:: [[../surveys/Application Form]]
 
 # Module: [[../modules/w1-what-could-possibly-happen|Unit 1: What Could Possibly Happen?]]
-intro-form:: true
 
 # Meeting: Unit 1
 meeting-doc-template:: https://docs.google.com/document/d/1lqbblsgNwgeBa6JEhgH5qk-hlPSUsZRcYAH-IMmSYD8/edit
