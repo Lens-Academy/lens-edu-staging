@@ -34,3 +34,6 @@ feedback-instructions:: Name the strongest part of the answer in one sentence, t
 ## Lens:
 source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais]]
 notes:: The five-scenario control evaluation exercise is the practice for this outcome.
+## Lens:
+source:: [[../Lenses/XLab Control - attack-trees]]
+notes:: The practice bench has the learner attack a scheming-model setup as human auditing, trusted monitoring and deferral to a trusted model are added one at a time, which exercises the same judgment.
