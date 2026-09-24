@@ -94,7 +94,7 @@ feedback-instructions:: Name the row where the evidence is only the actor's own 
 
 #### Text
 content::
-{++{"author":"Turner's AI","timestamp":1790276613255}@@The next exercise asks you to apply this directly. You will assemble a report from a pool of candidate details and connect each detail to the reader who needs it. The standard is the one demonstrated here: every claim carries its source, and every finding reaches the actor who acts on it.
+The next exercise asks you to apply this directly. You will assemble a report from a pool of candidate details and connect each detail to the reader who needs it. The standard is the one demonstrated here: every claim carries its source, and every finding reaches the actor who acts on it.
 
 \### The Context Distiller Exercise
 
