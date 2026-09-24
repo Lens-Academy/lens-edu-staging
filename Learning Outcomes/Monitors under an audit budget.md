@@ -1,8 +1,32 @@
 ---
 id: '47a6f144-aa4b-4d85-b330-5c0fdf1146b5'
-learning-outcome: "Explain the control protocol for Trusted monitoring"
+learning-outcome: "Given a monitor that scores an untrusted model's outputs for suspicion and a budget to audit only the most suspicious fraction of them, estimate how many attacks it will catch from its true-positive rate at the false-positive rate the budget sets, explain why, when attacks are rare, nearly all audits land on innocent outputs, and explain why a threshold-free summary such as AUC can rank two monitors the wrong way for this use."
 topic: "[[../Domains and Topics/7 AI Control/Control protocols]]"
 stage: intermediate
-tags:
-  - skill-tree-placeholder
+authors:
+  - Elias+Claude
 ---
+## Test:
+id:: 1b29dd8a-1b7e-482a-a6e5-c32adda158de
+
+#### Question: Open
+id:: 5778946c-2f07-4335-84ba-33045f39605a
+content::
+A customer-support agent U will take 100,000 actions (refunds, account changes, messages) over a deployment. U may be scheming; the security team's working assumption is that a scheming U would attempt a harmful action about 10 times in total. A monitor will score every action for suspicion, and the team can afford human audits of 1,000 actions, so it will audit the 1,000 most suspicious. An audit always recognises a harmful action. Two monitors are on offer, each tested on a large labelled set of normal and harmful actions. The table gives each monitor's AUC and the share of harmful actions it flags when its threshold is set to flag a given share of normal actions:
+
+| | AUC | 0.5% of normal flagged | 1% | 2% | 10% |
+| --- | --- | --- | --- | --- | --- |
+| Monitor A | 0.95 | 15% | 25% | 45% | 95% |
+| Monitor B | 0.90 | 50% | 60% | 66% | 75% |
+
+1. For each monitor, estimate how many of the roughly 10 harmful actions you expect to be audited, and how many of the 1,000 audits you expect to land on normal actions. Explain what sets these numbers.
+2. Which monitor should the team deploy? Say what role, if any, the AUC column should play in the decision, and why.
+3. Management later offers enough reviewers to audit 10,000 actions. Would that change your choice? Explain.
+placeholder:: Show your estimates, then answer parts 2 and 3
+assessment-instructions:: Score 0 to 100. The capability tested is judging a monitor at the operating point an audit budget sets. Reference answer: with about 10 harmful actions among 100,000, auditing the top 1,000 is, to a very good approximation, auditing the actions above the threshold that flags 1% of the roughly 99,990 normal actions, because the harmful actions are too few to move the threshold noticeably. So the 1% column applies: Monitor A catches about 25% of attacks, about 2 to 3 of 10, and Monitor B about 60%, about 6 of 10. Because there are only about 10 attacks against 1,000 audits, at most about 10 audits can land on attacks, so about 994 to 998 of the 1,000 land on normal actions whichever monitor is used. B should be deployed. AUC summarises performance across every threshold, including thresholds that flag far more actions than this budget can audit; A's advantage lies there (at 10% it catches 95% against 75%), which raises its AUC but buys nothing at this budget, so AUC should play little or no role. With 10,000 audits the threshold moves to about 10% of normal actions flagged, where A catches about 95% (about 9 to 10 attacks) against B's 75% (about 7 to 8), so the choice flips to A. Load-bearing elements: (1) about 35 points: about 15 for the catch estimates from the right column (about 2.5 and 6; accept 2 to 3 and about 6) with the reason that 1,000 of about 100,000 actions means about 1% of normal actions flagged; about 20 for recognising that nearly all of the 1,000 audits go to normal actions (accept any figure from about 990 up) because attacks are far fewer than audits. (2) about 40 points: chooses B because what matters is the catch rate at the false-positive rate the budget sets, and explains why AUC can mislead: it summarises all thresholds, while the budget fixes one. (3) about 25 points: the choice changes to A, because the larger budget moves the threshold to about 10% of normal actions flagged, where A catches more. An answer that says the choice stays with B loses these points unless it gives a sound reason grounded in the numbers; noting only that both monitors would then catch at least one attack is not enough, because uncaught attacks still cause harm and A lets fewer through. Gating: an answer that chooses Monitor A for the 1,000-audit budget cannot score above 30, unless it gives a sound reason grounded in the numbers for preferring A at this budget; an answer that gives no estimate of attacks caught, or puts more than about 50 of the 1,000 audits on harmful actions, or never recognises that nearly all audits go to normal actions, cannot score above 55; an answer that chooses B but never says, in any wording, that AUC summarises thresholds this budget does not use (or that the budget fixes one threshold where the ranking can differ), cannot score above 55. Accept equivalent terms (true-positive rate, recall, detection rate; false-positive rate, false-alarm rate; precision at the budget; partial AUC in the low false-positive region). Do not require the term "operating point" or any author's name. Grade reasoning, not agreement: a learner who adds that the assumed attack count or the lab-tested rates may not hold in deployment, that a scheming U will choose attacks the deployed monitor scores low, that one caught attack may be enough to shut U down, or that the two monitors could be combined, is making a sound extra point and must not lose marks, as long as they answer the questions asked. A pass is roughly 60.
+feedback-instructions:: Name the strongest part of the answer in one sentence, then the single change that would most improve it. If the learner chose by AUC, point them to the column that matches what the team can afford to audit. If they missed that nearly all audits go to normal actions, ask them to compare 10 attacks with 1,000 audits. If they kept B at 10,000 audits, point them to the column that budget now matches. Do not reveal or discuss the numerical score. At most five sentences.
+
+# Suggested Lenses:
+## Lens:
+source:: [[../Lenses/XLab Control - ai-control-paper-3]]
+notes:: Teaches the monitor as a binary classifier, ROC and AUC, the 2% operating point, why AUC is a poor predictor of safety, and (in the closing note of the staged sequence) that a larger audit budget moves the operating point, where a different monitor may lead. Practice with feedback: the contingency-table FPR and TPR computation, the AUC interpretation, the per-attempt catch comparison, and the staged "same number, different safety" sequence (two monitors with one AUC, the higher-AUC monitor that ties, where the audit budget goes, and which metric predicts safety).
