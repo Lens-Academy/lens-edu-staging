@@ -186,7 +186,7 @@ feedback-instructions:: In at most seven sentences, say what the learner's answe
 #### End Callout
 
 #### Article
-from:: # Appendix: Ready-to-go strategies
+from:: :::callout {title="Appendix: Ready-to-go strategies" collapse="closed"}
 
 #### Text
 content::
