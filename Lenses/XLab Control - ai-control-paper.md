@@ -121,8 +121,6 @@ Table 2 states six blue-team protocols in prose. Every one of them answers the s
 #### Widget
 source:: [[../widgets/xlab-control-protocol-builder]]
 
-
-
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
@@ -131,8 +129,6 @@ Greenblatt, Ryan, Buck Shlegeris, Kshitij Sachan, and Fabien Roger. "AI Control:
 
 Greenblatt, Ryan, Buck Shlegeris, Kshitij Sachan, and Fabien Roger. "AI Control: Improving Safety Despite Intentional Subversion." *Proceedings of the 41st International Conference on Machine Learning*, PMLR, 2024. [openreview.net](https://openreview.net/pdf?id=KviM5k8pcP)
 *The shortened and modified conference version of the same work.*
-
-
 
 XLab. "AI Control: Improving Safety Despite Intentional Subversion." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/introduction/ai-control-paper)
 *The source lesson this page adapts.*
