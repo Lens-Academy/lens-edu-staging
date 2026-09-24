@@ -1,0 +1,37 @@
+---
+id: '17b80d68-f06c-42b4-b310-87ee4b5e0299'
+learning-outcome: "Given a criticism of the AI control agenda, say whether it disputes that control reduces the risk from models that are scheming, or accepts that and disputes whether control is worth the effort (for example because scheming is unlikely, or because other failures dominate), state what the criticism gets right, and give the strongest response, comparing the world with control against the realistic world without it rather than against a perfect solution."
+topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
+stage: intermediate
+requires:
+  - "[[Control as a distinct safety case]]"
+authors:
+  - Elias+Claude
+---
+## Test:
+id:: 5afdf6eb-565b-4651-ac86-f6ff170f3423
+
+#### Question: Open
+id:: bcce139a-839d-493e-8052-7bc6108ede21
+content::
+Here are two criticisms of AI control research.
+
+**Criticism 1.** "The first models capable enough to matter are unlikely to be scheming; call it 10 to 20 percent. Control spends a large share of safety researchers' time on that one possibility. The same people working on making models trustworthy in the first place would reduce more risk."
+
+**Criticism 2.** "A scheming model that knows how it is monitored will not attack while the monitoring works. It will wait for the moments when monitoring lapses: an outage, a rushed release, a new tool the monitors do not cover yet. Control evaluations test the protocol as designed, not as it will actually be run, so the safety they report will not be there when it matters."
+
+For each criticism:
+1. Say whether it disputes that control reduces the risk from scheming models, or accepts that and disputes whether control is worth doing, and on what grounds.
+2. Say what it gets right.
+3. Give the strongest response you can, and say how much of the criticism is left standing.
+placeholder:: Take each criticism in turn: what it disputes, what it gets right, the strongest response
+assessment-instructions:: Score 0 to 100. The capability tested is analysing a criticism of the control agenda: locating what it disputes, conceding what is right, and answering it by comparison with the realistic alternative. Reference answer. Criticism 1 accepts that control works against schemers and disputes its value, on the grounds that scheming is unlikely and the same researchers would reduce more risk elsewhere. What it gets right: control addresses only the scheming part of the risk, and its share of effort should track how much of the risk one expects to come from scheming. Strongest response: a 10 to 20 percent chance that the first capable models are scheming, with a high chance of catastrophic and possibly irreversible outcomes if they are and nothing stops them, is a large risk to leave uncovered; work that makes models trustworthy is hard to verify, whereas control can be evaluated without knowing whether the model schemes, so it protects in exactly the worlds where that work quietly failed; catches produce evidence that updates the estimate and can justify slowing down; and the comparison that matters is the marginal researcher, so the answer depends on how neglected each area is. Control not interfering with alignment work does not by itself answer a claim about researchers' time; credit it only when tied to marginal value. What is left: someone confident that scheming is rare and that alignment progress can be verified has a case for a smaller share of effort on control, not for none. Criticism 2 disputes that control delivers the safety it claims in practice: it accepts the aim but says the protocol as run will fail at the moments that matter. What it gets right: lapses happen, a patient schemer would pick its moment, and an evaluation of the protocol as designed can overstate the safety of the protocol as run. Strongest response: without control there is no monitoring to lapse, so every moment is a lapse; control forces the schemer to wait for rare gaps, which is itself a gain; the gaps can be treated as security rules the lab keeps, for example no model runs unmonitored, new tools are blocked until monitors cover them, and systems fail closed during outages; and evaluations can let the red team choose when to attack, including during planned lapses. What is left: if the lab does not keep those rules, the criticism holds, so control's value depends on security discipline as well as on protocol design. Load-bearing elements. (1) About 25 points: each criticism correctly located, 1 as disputing value because scheming is unlikely and effort is better spent elsewhere, 2 as disputing that control delivers its safety in practice (about 12 points each). Accept an argued view that criticism 2 also bears on value. (2) About 20 points: a real concession for each criticism, something it gets right that the learner does not then ignore (about 10 each). (3) About 45 points: the strongest response for each, with at least one specific mechanism, such as control's value in the worlds where alignment work failed, evidence from catches, neglectedness at the margin, forcing the schemer to wait, treating lapses as security rules, or evaluations that include lapses (about 22 each). (4) About 10 points: an honest statement of what is left standing for each. This element is headroom and is not gating. The learner may conclude that a criticism is largely right; credit that fully if the reasoning is sound. Gating: an answer that locates neither criticism correctly cannot score above 55; an answer that never concedes anything to either criticism cannot score above 55; an answer that never compares, for either criticism, what happens with control against what the same labs would face without it (for example no monitoring at all, no protection in the worlds where alignment work failed, what the same researchers would achieve on alternative work, or a risk that would be left uncovered without control) cannot score above 55; an answer whose responses only assert that control is valuable, without naming any mechanism, cannot score above 50. Do not require any term such as "P(scheming)", "inaction risk", "security invariant" or "additive", the decomposition formula, or any author's name. Grade reasoning, not agreement. A pass is roughly 60.
+feedback-instructions:: Name the strongest part of the answer in one sentence, then the single change that would most improve it. If a response compared control with a perfect solution, ask what would happen in the same labs without control. If the learner conceded nothing, ask what each critic is right about. Do not reveal or discuss the numerical score. At most five sentences.
+
+# Suggested Lenses:
+## Lens:
+source:: [[../Lenses/XLab Control - how-useful-is-ai-control]]
+notes:: Control's mechanism for reducing risk (the bootstrapping loop), the decomposition that locates control in the risk conditional on scheming, four criticisms of control answered in five rounds, the construction of a new criticism that starts by choosing which assumption of control it attacks, reasons to upweight control anyway, and control as additive to other agendas. Practice with feedback: the five rounds, each followed by the defenders' example response, and the construction step.
+## Lens:
+source:: [[../Lenses/XLab Control - prioritizing-threats-for-ai-control]]
+notes:: Internal security invariants, such as the monitoring system always being applied to AI agents used internally, which bear on criticism 2.
