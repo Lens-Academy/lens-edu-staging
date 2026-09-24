@@ -15,7 +15,7 @@ Links:
 
 Split (September 2026): the original seven-module track (2639 min core, no tutor time) is cut into two five-day courses of equal length. AI Control 1 = M1 to M3 plus the first part of M4 (through "Why it's hard to make settings for high-stakes control research"), 1318 min core. AI Control 2 = the M4 guided exercises (collusion, legibility) plus M5 to M7, 1321 min core. The old M1 to M7 module files are in _deprecated; lenses are unchanged.
 
-Core self-study per day: D1 232 min plus about 45 min of learning-outcome tests, D2 240, D3 277, D4 299, D5 285. Optional: D5 adds 20 (synchronous monitors).
+Core self-study per day: D1 232 min plus about 45 min of learning-outcome tests, D2 260 (the founding paper split into four lenses, September 2026), D3 277, D4 299, D5 285. Optional: D5 adds 20 (synchronous monitors).
 
 Surveys follow the Compute Verification pattern: meetings 1 to 4 use the shared Lens Post-Meeting Impact Survey v2, meeting 5 uses AC1 Final Impact Survey v2 (copy of CV1 Final with fresh ids and the course name swapped). Navigator surveys reuse the generic pair.
 %%
