@@ -1,8 +1,27 @@
 ---
 id: '9beed082-9157-49c6-9e17-c8dd601d46bf'
-learning-outcome: "Explain the control protocol for Control limits as capabilities scale"
+learning-outcome: "Explain {--{"author":"James's AI","timestamp":1790257161070}@@the control protocol --}{++{"author":"James's AI","timestamp":1790257161070}@@what must be true ++}for {--{"author":"James's AI","timestamp":1790257161070}@@Control limits--}{++{"author":"James's AI","timestamp":1790257161070}@@there to be a period in which AI models are useful enough to transform safety work yet can still be controlled, name developments that would end that period (such++} as {--{"author":"James's AI","timestamp":1790257161070}@@capabilities scale"--}{++{"author":"James's AI","timestamp":1790257161070}@@uninterpretable reasoning or communication between model instances, or skill far beyond human level in hacking, persuasion or manipulating research results), and, for a given change in the world, say whether it moves the capability level at which control stops working, changes how fast models approach that level, or changes how long developers stay below it."++}
 topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
 stage: intermediate
-tags:
-  - skill-tree-placeholder
----
+{++{"author":"James's AI","timestamp":1790257161070}@@authors:
+  - Elias+Claude
+++}tags:
+  - {--{"author":"James's AI","timestamp":1790257161070}@@skill-tree-placeholder--}{++{"author":"James's AI","timestamp":1790257161070}@@wip++}
+---{++{"author":"James's AI","timestamp":1790257161070}@@
+## Test:
+id:: 275f7004-2018-4cbf-9070-a5b00bdfa984
+
+#### Question: Open
+id:: 1645541f-b0c1-4f56-912a-d1eeeda623aa
+content::
+Some researchers argue that any AI model useful enough to substantially speed up safety research would also be too capable to control, so control can never buy useful time.
+
+1. What would have to be true for them to be wrong? Then name two developments that would make them right, or would make control stop working earlier, and explain for each why it defeats control.
+2. For each change below, say whether it mainly (a) raises or lowers the capability level at which affordable safeguards stop working, (b) changes how fast models approach that level, or (c) changes how long developers stay below that level before building past it. Explain each in one sentence.
+   - Labs switch their models to reasoning in an internal compressed format that is 30% cheaper to run and that monitors cannot read.
+   - Export controls halve the number of chips available to every frontier lab.
+   - A regulator forbids training any model more capable than the strongest one that a control evaluation has shown current safeguards can contain.
+   - Researchers show that paraphrasing a model's messages strips out hidden signals even when the model is much stronger than the paraphraser.
+placeholder:: Answer both parts
+assessment-instructions:: Score 0 to 100. The capability being tested is reasoning about where control stops working as capabilities grow. Load-bearing elements: (1) about 15 points: the researchers are wrong if being useful enough to transform safety work does not require being capable enough to defeat the best affordable safeguards, that is, usefulness arrives at a lower capability level than uncontrollability. Credit any clear version, including "the useful models are not yet far better than humans in the domains that matter for escaping control". A learner who argues the researchers are probably right can earn full credit if they still state what would have to be true. (2) about 30 points: two developments, each with a mechanism, 15 each (7 for a development named without a mechanism). Strong examples: reasoning, memory or communication between instances that humans and monitors cannot read, which makes plans much harder to monitor and collusion between instances hard to prevent; skill far beyond human level in hacking, persuasion, or manipulating scientific results or arguments, which lets a model defeat security, the humans reviewing it, or the evaluation of its own work; a capability gap so large that trusted weaker models and human auditors can no longer judge the untrusted model's work; models that can tell evaluations from real use, or red teams unable to find or estimate the model's best attacks, so control evaluations stop being informative. The list is not exhaustive: credit any development whose mechanism explains why affordable safeguards, or the evaluation of them, stop working. A development that merely restates a part 2 item earns credit only if its mechanism is explained. (3) about 55 points for part 2, about 14 per item, of which about 8 for the category and 6 for the explanatory sentence; a category with no explanation earns at most 8. Intended answers: compressed unreadable reasoning lowers the level at which safeguards stop working (a), because monitors lose sight of the model's reasoning; halving chips slows the approach to that level (b); the regulator's rule keeps developers below the level for longer (c); paraphrasing that strips hidden signals raises the level (a), because it makes collusion through hidden messages harder even for much stronger models. Accept a reasoned alternative where the explanation makes it defensible, for example arguing that the export controls also lengthen the time spent below the level; give full credit if the explanation shows the learner distinguishes where the line is, how fast it is reached, and how long developers choose or are made to wait. Gating: cap the score at 55 unless at least one development in part 1 has a correct mechanism and at least two part 2 items are correctly classified with an explanation. Do not require any specific terms such as "control window", "control frontier" or "neuralese". A pass is roughly 60.
+feedback-instructions:: Name the strongest part of the answer in one sentence, then the single change that would most improve it. If the learner confused where the limit is with how fast it is reached, say so with one of their own items as the example. Do not reveal or discuss the numerical score. At most five sentences.++}
