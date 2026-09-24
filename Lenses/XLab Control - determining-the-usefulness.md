@@ -2,9 +2,9 @@
 id: '423f75b7-f710-41ae-ba31-55ca23d53442'
 title: "Determining the usefulness"
 tldr: "Ask ten safety researchers whether AI control is worth the money and you get ten answers, because each is picturing a different world. This lens hands you the bookkeeping instead: three states (what is actually true, what we can justifiably know, what we can afford to spend), a budget denominated in political will, and five caricatured futures to test any claim against."
-summary_for_tutor: "Module 2 (How useful is AI control?). This is framing prose ported from the source curriculum, not an external reading, and it sets up the rest of the module. Sequence: a pre-commitment free response asking the learner to state whether control is good before they read anything (elicits a prior, no correct answer, revisit it if they refer back); then the inner game / outer game framing; then the regime split into world state, epistemic state and resource state, with the safety budget denominated in political will and priced in usefulness tax, compute and delay; then the five caricatured worlds (Easyland, Slopolis, Hackistan, Schemeria, Lurkville) from Greenblatt; then techniques as the two levers (improve the technique, grow the budget) and the loop that connects the states; then a closing free response that asks the learner to skim the AI 2027 scenario (embedded) and locate where control's marginal value peaks. The lesson's central claim is that the control question only becomes answerable once you name the regime, so if a learner asks 'is control good', push them to say which state is the bottleneck rather than answering. Three figures are static renderings of interactive diagrams; their content is duplicated in the prose."
-reading_minutes: 60
-tutor_minutes: 0
+summary_for_tutor: "Unit 3 of AI Control 1, closing lens of the unit, in the how-useful-is-control thread that continues into Unit 4. This is framing prose ported from the source curriculum, not an external reading, and it sets up the lessons that follow in Unit 4. Sequence: a pre-commitment free response asking the learner to state whether control is good before they read anything (elicits a prior, no correct answer, revisit it if they refer back); then the inner game / outer game framing; then the regime split into world state, epistemic state and resource state, with the safety budget denominated in political will and priced in usefulness tax, compute and delay; then the five caricatured worlds (Easyland, Slopolis, Hackistan, Schemeria, Lurkville) from Greenblatt; then techniques as the two levers (improve the technique, grow the budget) and the loop that connects the states; then a closing free response that asks the learner to skim the AI 2027 scenario (embedded) and locate where control's marginal value peaks. The lesson's central claim is that the control question only becomes answerable once you name the regime, so if a learner asks 'is control good', push them to say which state is the bottleneck rather than answering. Three figures are static renderings of interactive diagrams; their content is duplicated in the prose."
+reading_minutes: 55
+tutor_minutes: 5
 tags: []
 ---
 #### Question: Open
@@ -25,11 +25,11 @@ Do not over-validate. Avoid generic praise (great job, excellent recall, well do
 
 #### Text
 content::
-In the last module you learned what AI control is: techniques for getting useful work out of AI systems even if those systems are trying to undermine you, ranging from monitoring their outputs to auditing suspicious behavior & restricting what they can touch. This module asks a different question: is doing that a good use of our limited resources? And does that question even have a concrete answer?
+In the earlier units you learned what AI control is: techniques for getting useful work out of AI systems even if those systems are trying to undermine you, ranging from monitoring their outputs to auditing suspicious behavior & restricting what they can touch. This lesson and the next unit ask a different question: is doing that a good use of our limited resources? And does that question even have a concrete answer?
 
-Ask safety researchers whether control is a good investment and you will hear everything from it's the single most important thing we can do to a distraction that makes things worse. Some of the disagreements stem from technical reasonings, like whether monitoring scales and if evals can bound what a schemer can do. But most of it is about what the world control will be deployed into looks like: how likely models are to scheme, how much a lab will spend on safety, whether anyone in power will act on a warning. We'll call a full set of such conditions a **regime**, and the claim of this module is that the control question only becomes answerable once you determine which regime you are in.
+Ask safety researchers whether control is a good investment and you will hear everything from it's the single most important thing we can do to a distraction that makes things worse. Some of the disagreements stem from technical reasonings, like whether monitoring scales and if evals can bound what a schemer can do. But most of it is about what the world control will be deployed into looks like: how likely models are to scheme, how much a lab will spend on safety, whether anyone in power will act on a warning. We'll call a full set of such conditions a **regime**, and the claim of this lesson is that the control question only becomes answerable once you determine which regime you are in.
 
-By the end of the module you will be able to answer three questions about any regime: whether you should invest in control, how much, and when. Furthermore, the same ways used to determine these answers can help make decisions about implementing any safety technique.
+By the end of Unit 4 you will be able to answer three questions about any regime: whether you should invest in control, how much, and when. Furthermore, the same ways used to determine these answers can help make decisions about implementing any safety technique.
 
 :::callout {title="Terms used on this page" tone="neutral" collapse="closed"}
 **schemer**: Schemers are AIs that eventually take substantial material action (control subversion, research sabotage) and manipulate their training procedures (alignment faking, sandbagging) to gain long-term power over their developers in service of pursuing their misaligned goals. (Definition from [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais|The case for ensuring that powerful AIs are controlled]].)
@@ -49,7 +49,7 @@ By the end of the module you will be able to answer three questions about any re
 content::
 \### The two games
 
-This module is organized around two games that safety researchers & organizations are constantly playing:
+This lesson and the next unit are organized around two games that safety researchers & organizations are constantly playing:
 
 The **inner game** is played inside the lab against the potentially-scheming model: designing protocols, extracting trustworthy work, catching bad behavior. It's all about spending the safety resources you have efficiently.
 
@@ -166,13 +166,13 @@ To recap the structure, the three states answer three different questions:
 - Epistemic state: what do we justifiably think it's worth?
 - Resource state: can we afford to act on what we think?
 
-A favorable world state seen through a poor epistemic state means control is useful and we can't know it. A rich epistemic state with an empty resource state means we know exactly what to do and can't do it. Diagnosing which state is the bottleneck is the first thing you'll do with every scenario in this module.
+A favorable world state seen through a poor epistemic state means control is useful and we can't know it. A rich epistemic state with an empty resource state means we know exactly what to do and can't do it. Diagnosing which state is the bottleneck is the first thing you'll do with every scenario from here through Unit 4.
 
 #### Text
 content::
 \## Five worlds
 
-Abstract states need reference points, so here are five: Greenblatt's caricatured futures ([Current AIs seem pretty misaligned to me](https://www.lesswrong.com/posts/WewsByywWNhX9rtwi/current-ais-seem-pretty-misaligned-to-me)), each a different setting of the world state. They recur through the rest of the module as the standard misalignment archetypes.
+Abstract states need reference points, so here are five: Greenblatt's caricatured futures ([Current AIs seem pretty misaligned to me](https://www.lesswrong.com/posts/WewsByywWNhX9rtwi/current-ais-seem-pretty-misaligned-to-me)), each a different setting of the world state. They recur in later lessons as the standard misalignment archetypes.
 
 <svg viewBox="0 0 560 330" width="100%" font-family="DM Sans, Arial, sans-serif" role="img" aria-label="The five worlds mapped by how misaligned the models actually are (horizontal) against how alarming it looks from the inside (vertical); Lurkville sits in the same looks-fine row as Easyland">
 <rect x="64" y="28" width="476" height="256" rx="10" fill="#ffffff" stroke="#e8e5df"/>

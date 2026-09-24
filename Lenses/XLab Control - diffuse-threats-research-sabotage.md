@@ -2,9 +2,9 @@
 id: '0d1bf136-6960-4c3f-83f6-faab584e3616'
 title: "How can we solve diffuse threats like research sabotage with AI control?"
 tldr: "One subtle bug in an experiment is something you could never prove was malice. A thousand subtle bugs is still not proof, but now you have a thousand training examples to work with. That trade is what separates concentrated failures from diffuse ones, and it decides which of your two defences, online training or incrimination, has any grip at all."
-summary_for_tutor: "Closing lens of Module 1. The reading is Vivek Hebbar's Redwood post on diffuse threats, embedded in three Article excerpts. Sequence: (1) the setup, where research sabotage is defined and the diffuse/concentrated distinction is introduced, followed by two recall questions (what research sabotage is, the two properties of a diffuse threat model); (2) the deployer's two hopes, online training and incrimination, and the Pareto frontier between action count and action sneakiness, followed by a recall question on why incrimination fails at the diffuse end; (3) the remaining mitigation regimes, the sabotage strategies section, and Hebbar's open terminology question. Then an editorial note on how Redwood's terminology settled, and a forward pointer to Module 5. The three recall questions are tap-reveal cards; grade them against the answers in the briefs, do not hand the answer over before the learner attempts it. If a learner conflates 'diffuse' with 'low-severity', the fix is action count and evidence per action, not stakes."
+summary_for_tutor: "Unit 3 of AI Control 1; closes the threat half of the unit. The reading is Vivek Hebbar's Redwood post on diffuse threats, embedded in three Article excerpts. Sequence: (1) the setup, where research sabotage is defined and the diffuse/concentrated distinction is introduced, followed by two recall questions (what research sabotage is, the two properties of a diffuse threat model); (2) the deployer's two hopes, online training and incrimination, and the Pareto frontier between action count and action sneakiness, followed by a recall question on why incrimination fails at the diffuse end; (3) the remaining mitigation regimes, the sabotage strategies section, and Hebbar's open terminology question. Then an editorial note on how Redwood's terminology settled, and a forward pointer to where the two ends are taken up: Unit 4 of AI Control 1 for the concentrated end, AI Control 2 for the diffuse end. The three recall questions are tap-reveal cards; grade them against the answers in the briefs, do not hand the answer over before the learner attempts it. If a learner conflates 'diffuse' with 'low-severity', the fix is action count and evidence per action, not stakes."
 reading_minutes: 20
-tutor_minutes: 0
+tutor_minutes: 3
 tags: []
 ---
 #### Article
@@ -47,7 +47,7 @@ This post uses "concentrated"/"diffuse" to describe failures involving few or ma
 
 \## Where this goes next
 
-This is the last lens of the module, and the concentrated/diffuse split is the seam the rest of the course is cut along. The concentrated end is Module 4, which opens with [[../Lenses/XLab Control - high-stakes-control-talk|The high-stakes control roadmap]]. The diffuse end is Module 5, which opens with [[../Lenses/XLab Control - low-stakes-control-talk|Low-stakes control]] and then takes up the sibling of this reading, [[../Lenses/XLab Control - handling-non-concentrated-failures|Notes on handling non-concentrated failures with AI control]].
+The concentrated/diffuse split is the seam the rest of the curriculum is cut along. The concentrated end starts in Unit 4, with [[../Lenses/XLab Control - high-stakes-control-talk|The high-stakes control roadmap]]. The diffuse end is in AI Control 2, whose first unit covers [[../Lenses/XLab Control - low-stakes-control-talk|Low-stakes control]] and then takes up the sibling of this reading, [[../Lenses/XLab Control - handling-non-concentrated-failures|Notes on handling non-concentrated failures with AI control]].
 
 #### Text
 content::
