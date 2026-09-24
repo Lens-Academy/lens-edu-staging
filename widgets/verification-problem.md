@@ -1,7 +1,7 @@
 ---
 id: 'a1d2e3f4-5b6c-4d7e-8f90-1a2b3c4d5e01'
 title: The verification problem
-alt: "Four cards, each an answer to how two rival states can know the other keeps an agreement: trust, punishing violations, mutual transparency, and neutral verification that keeps secrets private."
+alt: "Four answer cards to one question: two rival states have signed an agreement limiting a dangerous technology, so how can each know the other keeps it? The answers are trust, punishing violations, mutual transparency, and neutral verification that protects each side's secrets. Only the last one holds: trust collapses, punishment comes too late, and transparency backfires. Tap a card to test that answer and read why it fails or holds."
 summary_for_tutor: "An introduction to the verification problem. Two adversarial states have signed an agreement limiting a dangerous technology. The learner tests four answers to the question of how each side can know the other complies: trust (collapses), punish violations (arrives too late), mutual transparency (backfires), and neutral privacy-preserving verification (holds). Each card opens a short explanation of why that option fails or holds. Content ported from XLab's Verification track."
 tags: [wip]
 ---
