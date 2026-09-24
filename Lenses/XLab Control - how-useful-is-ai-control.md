@@ -2,16 +2,16 @@
 id: '0d7aa875-6660-4a25-97e9-ae0be5576693'
 title: "How useful is AI control?"
 tldr: "Control looks obviously good: it catches schemers, keeps misaligned models doing useful work, and adds safety without disturbing anything else. Critics answer that scheming in early AI is a thin slice of the risk, and that the median way we die is slop, not sabotage. You meet four criticisms one at a time, write your own answer before you see the defenders', then build a fifth criticism of your own."
-summary_for_tutor: "Opening lens of Module 2, which asks how much x-risk reduction control actually buys. Sequence: the framing of why control looks obviously good, John Wentworth's The Case Against AI Control Research as an optional full reading, control's mechanism for reducing x-risk (the bootstrapping loop from a transformatively useful AI up to superintelligence), the decomposition P(unacceptable) = P(unacceptable | scheming) P(scheming) + P(unacceptable | not scheming) P(not scheming) which locates control in the first term, then Exercise 2.1: four criticisms of control across five rounds (the slop criticism gets a second round), each answered by the learner before the tutor delivers the example response from defenders of control, then a construction step where the learner picks an assumption of control and builds a new criticism against it. The lens closes with reasons to upweight control anyway and a comparison of control against the other additive agendas. The five reveal texts are in the feedback instructions of each question; never give a reveal before the learner has answered that question. If a learner asks what scheming, slop, or a transformatively useful AI is, the collapsed glossary callout in the second segment has the definitions."
-reading_minutes: 45
-tutor_minutes: 0
+summary_for_tutor: "Unit 3 of AI Control 1: opens the how-useful-is-control thread, which runs through the rest of this unit and into Unit 4 and asks how much x-risk reduction control actually buys. Sequence: the framing of why control looks obviously good, John Wentworth's The Case Against AI Control Research as an optional full reading, control's mechanism for reducing x-risk (the bootstrapping loop from a transformatively useful AI up to superintelligence), the decomposition P(unacceptable) = P(unacceptable | scheming) P(scheming) + P(unacceptable | not scheming) P(not scheming) which locates control in the first term, then Exercise 2.1: four criticisms of control across five rounds (the slop criticism gets a second round), each answered by the learner before the tutor delivers the example response from defenders of control, then a construction step where the learner picks an assumption of control and builds a new criticism against it. The lens closes with reasons to upweight control anyway and a comparison of control against the other additive agendas. The five reveal texts are in the feedback instructions of each question; never give a reveal before the learner has answered that question. If a learner asks what scheming, slop, or a transformatively useful AI is, the collapsed glossary callout in the second segment has the definitions."
+reading_minutes: 30
+tutor_minutes: 10
 tags: []
 ---
 #### Text
 content::
 It might initially feel quite obvious as to why AI control would probably be good. After all, acquiring misalignment evidence, ensuring useful work of misaligned models, and having additive safety measures that generally don't interfere with alignment work, seems great.
 
-To begin this module we will
+In this lesson we will
 
 - Illustrate each argument against control
 - Evaluate and attempt to remedy each argument
@@ -30,7 +30,7 @@ content::
 Control's mechanism for reduction in x-risk is centered around the claims that
 
 - We will use [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais|transformatively useful AIs]] (TUAIs) to align and build the following generation of AIs.
-- These AIs will likely be misaligned, or we may be unable to determine their alignment with strong certainty as claimed in module 1. At worst they are actively scheming while we are unaware.
+- These AIs will likely be misaligned, or we may be unable to determine their alignment with strong certainty as argued in Unit 1. At worst they are actively scheming while we are unaware.
 - Should we pursue automated [AI R&D](https://www.rand.org/pubs/commentary/2024/10/how-ai-can-automate-ai-research-and-development.html) / [RSI](https://www.anthropic.com/institute/recursive-self-improvement) in this regime, it would be great to have a catch-all measure where even if AIs are scheming, they cannot act on their motivations. Or, any attempted actions are unable to produce negative outcomes.
 - Given this catch-all, we would be able to prevent any scheming-induced catastrophic behaviors such as [exfiltrations](https://aligned.substack.com/p/self-exfiltration), [[../Lenses/XLab Control - rogue-deployments|rogue deployments]], [research sabotages](https://www.lesswrong.com/posts/LByP4qsF8a4g7Pz3p/research-sabotage-in-ml-codebases), etc.
 - Control aims to be this catch-all.
@@ -73,7 +73,7 @@ Each controlled generation of AI does alignment research, builds the next genera
 content::
 \## Modeling control
 
-As previously mentioned in module 1, we can model control as
+We can model control as
 
 $$
 P(\text{unacceptable}) = P(\text{unacceptable} \mid \text{scheming}) \times P(\text{scheming}) + P(\text{unacceptable} \mid \neg\text{scheming}) \times P(\neg\text{scheming})
@@ -96,13 +96,13 @@ Critics, Wentworth's post among them, make a series of arguments against control
 
 \### Exercise 2.1: Responding to arguments against control
 
-Below is a series of criticisms of AI control. For each one, write the best response using what you learned in Module 1.
+Below is a series of criticisms of AI control. For each one, write the best response using what you have learned so far in this course.
 
 Note that some of these arguments are partially right; a response that identifies what the argument gets right and what it still misses is often stronger than a rebuttal as it shows you're not being biased.
 
 Keep each response to at most 450 characters. After you send it, you will see an example response that defenders of control give.
 
-:::callout {title="Module 1 toolbox: ideas to use in your responses" tone="neutral" collapse="closed"}
+:::callout {title="Toolbox: ideas from earlier lessons to use in your responses" tone="neutral" collapse="closed"}
 - **The decomposition.** P(unacceptable) = P(unacceptable | scheming) x P(scheming) + P(unacceptable | not scheming) x P(not scheming); control minimizes the first conditional.
 - **Worst-case assumption.** Control conditions on the model scheming; the question is "what happens if it does," never "has it misbehaved."
 - **Catch as win condition.** Incriminating a schemer beyond a reasonable doubt is treated as a win; a caught model can be resampled, interrogated, honeypotted, and used to harden protocols. See [[../Lenses/XLab Control - catching-ais-red-handed|Catching AIs red-handed]].
@@ -220,13 +220,13 @@ Alignment interventions act on the model in an inner box, control's applied moni
 3. **Additive, not entangled.** Take the shell away and the inner interventions are untouched either way. But additive does not necessitate high-value: control's share of resources should track how much of the risk one expects to come from scheming rather than slop.
 :::
 
-First, additive does not necessitate high-value. Control helps remedy scheming and compile misalignment evidence, but contributes almost nothing to reducing non-schemer induced slop. So its share of resources should track how much of the risk one expects to come from scheming rather than slop. Second, because the operative world is uncertain, and the cruxes [[../Lenses/XLab Control - determining-the-usefulness|the rest of this module works through]] are unresolved, a more robust move is to spread effort efficiently (see [80/20](https://en.wikipedia.org/wiki/Pareto_principle)), across additive fields, sizing each by the kind of risk it actually addresses.
+First, additive does not necessitate high-value. Control helps remedy scheming and compile misalignment evidence, but contributes almost nothing to reducing non-schemer induced slop. So its share of resources should track how much of the risk one expects to come from scheming rather than slop. Second, because the operative world is uncertain, and the cruxes [[../Lenses/XLab Control - determining-the-usefulness|the rest of this unit works through]] are unresolved, a more robust move is to spread effort efficiently (see [80/20](https://en.wikipedia.org/wiki/Pareto_principle)), across additive fields, sizing each by the kind of risk it actually addresses.
 
 Control complements the main additive alternatives rather than competing with them. Verification and evaluation science works towards making alignment research independently checkable, and control provides the contained setting to develop and stress-test verification methods on untrusted models without the model subverting the work. [Scalable oversight](https://www.lesswrong.com/posts/6AT4vhYzww56CR6cm/scalable-oversight-as-a-quantitative-rather-than-qualitative), through debate, recursive reward modeling, and cross-checking outputs, aims to reduce the production rate of slop. Its protocols can run on monitoring scaffolding that control provides, which also keep scheming models from colluding to defeat them.
 
 Coordination and policy buy time while control generates evidence of misalignment that makes a pause politically actionable. Note that alignment research, if it can make early AI trustworthy enough, theoretically reduces the need to control it by acting on $P(\text{scheming})$ itself, though even here trust is earned under control, since [[../Lenses/XLab Control - control-evaluations|control evaluations]] are how one determines if a model is trustworthy or not. Finally, the case for capability restraint, declining to run RSI in this regime at all, is strengthened by the same evidence, sharpening the argument for declining or halting the loop.
 
-The rest of this module puts numbers on the question this lesson framed. [[../Lenses/XLab Control - safety-usefulness-tradeoff-model|Efficient tradeoffs and the safety-usefulness tradeoff model]] sets up the tradeoff between safety and usefulness, [[../Lenses/XLab Control - determining-the-usefulness|Determining the usefulness]] works through the cruxes, [[../Lenses/XLab Control - plans-a-b-c-and-d-for-misalignment-risk|Plans A, B, C, and D for misalignment risk]] maps the plans those cruxes choose between, and [[../Lenses/XLab Control - running-the-model|Running the model]] has you run the estimate yourself.
+The rest of this unit and Unit 4 put numbers on the question this lesson framed. [[../Lenses/XLab Control - safety-usefulness-tradeoff-model|Efficient tradeoffs and the safety-usefulness tradeoff model]] sets up the tradeoff between safety and usefulness, [[../Lenses/XLab Control - determining-the-usefulness|Determining the usefulness]] works through the cruxes, [[../Lenses/XLab Control - plans-a-b-c-and-d-for-misalignment-risk|Plans A, B, C, and D for misalignment risk]] maps the plans those cruxes choose between, and [[../Lenses/XLab Control - running-the-model|Running the model]] has you run the estimate yourself.
 
 #### Text
 content::
@@ -235,7 +235,7 @@ Wentworth, John. "The Case Against AI Control Research." *LessWrong*, 21 Jan. 20
 *The post this lesson answers: it argues that intentional scheming in early transformatively useful AI is a small slice of the x-risk probability mass, and that the median doom path is slop rather than scheming.*
 
 Greenblatt, Ryan, and Buck Shlegeris. "The case for ensuring that powerful AIs are controlled." *LessWrong*, 24 Jan. 2024. [lesswrong.com](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled)
-*The statement of the control agenda, and the source of the definitions of scheming and of a control evaluation. It is the opening lesson of Module 1 in this course.*
+*The statement of the control agenda, and the source of the definitions of scheming and of a control evaluation. It is the opening lesson of Unit 1 of this course.*
 
 Greenblatt, Ryan, and Thomas Larsen. "A Technical Safety Roadmap." Talk excerpt, XLab, 2026. [aisafetytracks.com](https://aisafetytracks.com/videos/what_can_go_wrong.mp4)
 *A seven-minute clip on what can go wrong, worth watching before the arguments-against-control exercise. The clip cannot be embedded, so open the link to watch it.*
