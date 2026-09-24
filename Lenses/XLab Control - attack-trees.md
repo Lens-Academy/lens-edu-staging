@@ -101,6 +101,8 @@ Over the set of problems and U's solutions during deployment, the Red Team (U) w
 
 Stop decomposing a node when it is (a) a choice the adversary makes, (b) a state of the environment, or (c) something a defense could directly touch.
 
+When you tag nodes with a defense, use three verbs. A defense **prevents** a node when that node can no longer succeed. It **detects** a node when an attempt at it, or its success, becomes visible to you. It **deters** a node when attempting it becomes costlier or riskier for the attacker, for example because a failed attempt could get it caught.
+
 #### Text
 content::
 :::callout {title="The red team's constraints, keep these open while you play red" tone="neutral" collapse="closed"}
@@ -117,6 +119,19 @@ source:: [[../widgets/xlab-control-attack-tree-bench]]
 #### Text
 content::
 There is no answer key on the bench, deliberately. The tree you built, the tags on it and your round-by-round strategies are the artifact. To test them, ask which node your latest strategy depends on, and what would have to be true for the defense to miss it.
+
+#### Callout: Practice: an agent in a new setting
+#### Question: Open
+id:: 544a3390-f0cf-4155-8b13-295686c511aa
+content::
+Now try a setting where the model acts rather than only writes code. An untrusted model U works as an agent with write access to a lab's code repository. U may be scheming. The unacceptable outcome is: **the job that records U's actions for safety review stops running, and nobody notices for a week.** Every change U makes to the repository is reviewed by a weaker trusted model before it is merged.
+
+1. Build an attack tree for this outcome as a nested list, at least three levels deep. Mark each node with children as AND or OR, and stop decomposing when a leaf is a choice U makes, a fact about the environment, or a point a safeguard could act on.
+2. The lab adds one safeguard: any change to the files that configure the logging job needs approval from a human. Tag the nodes it prevents, detects or deters, and name one path in your tree it leaves open.
+placeholder:: Your tree as a nested list, then part 2
+assessment-instructions:: This is practice with feedback before the unit's test, so be generous and focus the score on structure. There is no single correct tree. What a good answer shows: the root is the stated outcome, and "nobody notices for a week" is treated as its own necessary part (an AND with stopping the job), since stopping the job and staying unnoticed are both needed; OR is used only where any child suffices, and every child under an OR is a real way to achieve its parent; no node silently bundles several steps; the existing trusted-model review appears as something U has to get past; leaves follow the stopping rule. For part 2: human approval on the logging configuration prevents the direct route of editing that configuration, but leaves open routes such as breaking the job indirectly (changing code or dependencies the job relies on, exhausting its resources, or changing where its output goes) or suppressing whatever would alert someone that it stopped. Full credit for a sound tree with correct gates and a correctly tagged safeguard with one open path tied to the tree. Grade only against what this lens has supplied, plus the learner's own reasoning.
+feedback-instructions:: In at most five sentences: name the strongest part of the tree, then point to the single most important structural problem, if any, such as a wrong gate, a child under an OR that is not a way of achieving its parent, a node that bundles several steps, or a leaf that could still be decomposed. If their open path is missing or not tied to the tree, say so. Do not supply a complete reference tree. No follow-up questions.
+#### End Callout
 
 #### Text
 content::
