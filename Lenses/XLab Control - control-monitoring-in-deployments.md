@@ -2,9 +2,9 @@
 id: 'a16e3303-5416-46c5-aeb6-6ada7356ae5d'
 title: "Practical challenges of control monitoring in frontier AI deployments"
 tldr: "Your bank can hold every card transaction for review, or wave them all through and check the ledger tomorrow. One choice costs speed, the other costs money, and which loss you can absorb depends on the fraud. Now run a thousand tellers at once, give the reviewer a day, and let the thief spread a single theft across nine of them. That is control monitoring at deployment scale."
-summary_for_tutor: "The source lesson writes no framing of its own here: the page is the Lindner, Griffin, Korbak et al. paper (arXiv:2512.22154, Google DeepMind, UK AI Security Institute, Oxford) rendered whole, with no exercises. Everything except the opening Text segment and the Works cited callout is ours, and the opening segment is navigational plus orienting facts taken from the paper's own abstract, section 2 and section 3. Sequence: a lead-in placing the paper between the Ctrl-Z talk and the synchronous-monitors post, then the paper. The argument to hold onto: four deployment dynamics prior control work abstracted away (parallelism, latency, incremental attacks, partial incrimination), three monitoring protocols distinguished by when actions are blocked (fully-synchronous, semi-synchronous, asynchronous), a safety case sketch built from six claims and their defeaters, and four case studies. The paper explicitly does not assert its six claims hold in general and its case-study numbers are hypothetical; do not let a learner treat table 1's recommendations as measured results."
-reading_minutes: 60
-tutor_minutes: 0
+summary_for_tutor: "The source lesson writes no framing of its own here: the page is the Lindner, Griffin, Korbak et al. paper (arXiv:2512.22154, Google DeepMind, UK AI Security Institute, Oxford) rendered from the abstract to the end of section 6 (appendices collapsed), with one added practice question. Everything except the opening Text segment, the added practice question and the Works cited callout is the paper's, and the opening segment is navigational plus orienting facts taken from the paper's own abstract, section 2 and section 3. Sequence: a lead-in placing the paper between the Ctrl-Z talk and the synchronous-monitors post, then the paper. The argument to hold onto: four deployment dynamics prior control work abstracted away (parallelism, latency, incremental attacks, partial incrimination), three monitoring protocols distinguished by when actions are blocked (fully-synchronous, semi-synchronous, asynchronous), a safety case sketch built from six claims and their defeaters, and four case studies. The paper explicitly does not assert its six claims hold in general and its case-study numbers are hypothetical; do not let a learner treat table 1's recommendations as measured results. After the paper, one added practice question (ours, in an amber callout) has the learner estimate availability under the three protocols for a different deployment, choose one against a fast, irreversible harm, name a way it could still fail, and say whether the choice changes for a slow, reversible harm; its model answer is in the assessment instructions."
+reading_minutes: 65
+tutor_minutes: 3
 tags: []
 ---
 #### Text
@@ -29,6 +29,23 @@ from:: Automated control monitors could play an important role in overseeing hig
 to:: when human red-teams are unlikely to find attack vectors that dominate an AI’s attacks.
 {>>{"author":"Elias's AI","timestamp":1789039792881}@@PORT-TODO: replace this callout with `#### Article` over
 `Lens Edu/articles/lindner-practical-challenges-of-control-monitoring-in-frontier-ai-deployments.md` once the import lands.<<}
+
+#### Callout: Practice: when to block
+tone:: amber
+
+#### Question: Open
+id:: 72741e7e-6943-422c-bfef-10318040c4de
+content:: A new case. A lab runs 50 parallel instances of an untrusted agent, each taking about 12 actions per hour. A monitor flags 2% of normal actions, and an audit takes about 30 minutes. The harm the lab worries about most: an instance sends details of an unreleased model to an outside mailing list, which takes one action and a few seconds, and cannot be recalled once sent.
+
+(a) Roughly what share of the time can an instance work under fully-synchronous, semi-synchronous and asynchronous monitoring, ignoring attacks?
+(b) Which of the three would you use against this harm, and why?
+(c) Name one way your choice could still fail to prevent the harm.
+(d) Would your choice change if the harm instead took a week to take effect and could be undone? Why?
+placeholder:: Show your working for (a), then answer (b) to (d)
+assessment-instructions:: This is practice on a new case, applying the paper's availability example and safety case sketch. Model answer. (a) Flags across all instances: 50 times 12 times 0.02, about 12 per hour. Fully-synchronous pauses every instance for 30 minutes per flag, so about 6 hours of pauses arrive per hour and the system is almost always blocked: roughly 1/(1 + 6), about 14%. Semi-synchronous: each instance is flagged about 0.24 times per hour, once every 4.2 hours, and then paused half an hour: about 4.2 / 4.7, about 89%. Asynchronous: 100%. (b) Asynchronous monitoring cannot prevent this harm, because it takes seconds and cannot be undone, while the audit takes half an hour: the paper's "no harm latency" defeater. Semi-synchronous blocks the flagged action until the audit, at a modest cost; fully-synchronous adds protection against other instances acting meanwhile but costs most of the availability. Semi-synchronous, or fully-synchronous with the cost weighed, is a good answer. (c) For example: the monitor fails to flag the message (monitor recall); several instances try at once, so one unflagged attempt goes out while another is under audit (a coordinated attack); the auditor fails to recognise the attack. (d) Yes: with a week before harm and a way to undo it, a half-hour audit finishes long before the harm lands, so asynchronous monitoring with recovery gives full availability; it still fails if the monitor or auditor misses the attack, if undoing is incomplete, or if the agent is kept running after a catch and keeps retrying. Full marks need roughly correct numbers (accept 10 to 20%, 85 to 92%, 100%), a choice justified by comparing harm speed and irreversibility with audit time, one sound failure mode, and a sound (d); roughly a quarter each. Grade only against these criteria and the material on this page.
+feedback-instructions:: In at most four sentences: say what the learner got right, then give whichever part of the model answer they missed, with the numbers. If they chose asynchronous monitoring, say plainly that the message is out long before a 30-minute audit ends and cannot be recalled. No follow-up question. No generic praise.
+
+#### End Callout
 
 #### Text
 content::

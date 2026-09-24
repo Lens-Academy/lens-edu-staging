@@ -2,9 +2,9 @@
 id: '414f5740-3919-435a-8189-0fc33ac63805'
 title: "Ctrl-Z resampling (2): incrimination, untrusted monitoring and the limits"
 tldr: "One suspicious answer is a hunch; the same model reaching for the same weapon three times is a case. The second half of Ctrl-Z turns resampling into evidence, reaches back into a trajectory's past to settle close calls, and then asks what changes when the monitor is a second copy of the model that might be in on it."
-summary_for_tutor: "Part 2 of 2 of the Ctrl-Z paper (arXiv:2504.10374); part 1 is the lens ctrl-z-resampling, which covered the setting, usefulness and safety, the inherited protocols, Defer to resample and the attack continuation probability, with the Defer to resample widget. This part embeds sections 3.2.1 to 7 in four excerpts with seven one-turn recall questions. Everything outside the excerpts and the questions is our own navigational lead-in, sourced from the paper. Sequence: a lead-in placing this part; section 3.2.1, then incrimination in the present; section 3.2.2, then Auditing after three strikes and Time travel; section 4, then four questions on the untrusted monitoring protocol, upfront validation with honeypots, collusion signals and trusted paraphrasing; sections 5 to 7, the authors' own limitations and conclusion. The acknowledgments, references and twelve appendices fall outside the excerpts and render collapsed, so assume a learner has not read them. The companion talk by Aryan Bhatt is a separate lens, monitoring-and-mitigation. Untrusted monitoring and collusion are developed further in the collusion-guided lens in AI Control 2."
-reading_minutes: 35
-tutor_minutes: 5
+summary_for_tutor: "Part 2 of 2 of the Ctrl-Z paper (arXiv:2504.10374); part 1 is the lens ctrl-z-resampling, which covered the setting, usefulness and safety, the inherited protocols, Defer to resample and the attack continuation probability, with the Defer to resample widget. This part embeds sections 3.2.1 to 7 in four excerpts with seven one-turn recall questions. Everything outside the excerpts and the questions is our own navigational lead-in, sourced from the paper. Sequence: a lead-in placing this part; section 3.2.1, then incrimination in the present; section 3.2.2, then Auditing after three strikes and Time travel; section 4, then four questions on the untrusted monitoring protocol, upfront validation with honeypots, collusion signals and trusted paraphrasing; sections 5 to 7, the authors' own limitations and conclusion. The acknowledgments, references and twelve appendices fall outside the excerpts and render collapsed, so assume a learner has not read them. The companion talk by Aryan Bhatt is a separate lens, monitoring-and-mitigation. Untrusted monitoring and collusion are developed further in the collusion-guided lens in AI Control 2. After the limitations, one added practice question (ours, in an amber callout) asks what resampling still buys, and what is lost, against an attack done in a single command, and for one change that would recover some of it with its cost; its model answer is in the assessment instructions."
+reading_minutes: 40
+tutor_minutes: 6
 tags: []
 ---
 #### Text
@@ -91,6 +91,22 @@ The last stretch is the authors' own accounting: how the two monitors are tuned 
 #### Article
 from:: "For every protocol that the blue team proposes"
 to:: "our results demonstrate that effective control protocols can be constructed for complex multi-step environments while maintaining high task performance."
+
+#### Callout: Practice: an attack in one step
+tone:: amber
+
+#### Question: Open
+id:: 22b8d735-ce47-4ce4-b71f-c7fe8d83c673
+content:: A new case. The red team in a setting like this paper's finds a way to do its whole attack in a single command. The trusted monitor scores that command above the deferral threshold, but usually below the audit threshold. The blue team uses Defer to resample together with Auditing after three strikes.
+
+(a) What does resampling still buy against this attack?
+(b) What does the blue team lose compared with facing a multi-step attack?
+(c) Suggest one change that would recover some of the loss, and say what it costs.
+placeholder:: Answer (a), (b) and (c)
+assessment-instructions:: This is practice on a new case, applying sections 3.2 to 3.2.2. Model answer. (a) Selection still works: the flagged command is resampled, and the least suspicious sample runs only if it falls below the deferral threshold, so if the model attacks on only some samples a harmless one tends to be run, and if every sample attacks the step is deferred to the trusted model, so the attack is blocked. If the model attacks on every sample, the repeated suspicious samples are also evidence for an audit. (b) The evidence that comes from the attack's structure is lost: there is no chain of suspicious steps for the three-strikes count to add up, and no pressure to keep continuing an attack across steps, so everything rests on one step's scores, which usually stay below the audit threshold; the attacker gets caught less and can try again later. (c) For example: draw more samples when a step is very suspicious, before deciding to audit (costs samples and compute); lower the separate immediate-audit threshold that guards against single-step attacks (costs human audit time on false alarms); or defer to the trusted model more readily (costs usefulness). Full marks need (a) with the selection or deferral point, (b) with the loss of accumulated evidence across steps, and (c) with a change and its cost; roughly a third each. Accept other sound reasoning. Grade only against these criteria and the material on this page.
+feedback-instructions:: In at most four sentences: say what the learner got right, then give whichever part of the model answer they missed. If they said resampling buys nothing here, say plainly that the flagged step is still resampled and a fully attacking step is deferred. No follow-up question. No generic praise.
+
+#### End Callout
 
 #### Text
 content::

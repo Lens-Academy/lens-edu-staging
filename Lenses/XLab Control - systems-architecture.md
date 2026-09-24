@@ -2,9 +2,9 @@
 id: 'add4ddad-9fbf-486f-b5dc-c5f1af1114e8'
 title: "A basic systems architecture for AI agents that do autonomous research"
 tldr: "\"The machine the AI agent is running on\" usually names three machines, not one. The inference server holds the weights, the scaffold server runs the loop, the execution server runs the code. Buck Shlegeris draws that split, then redraws it to show where a weight exfiltration or a rogue deployment actually cuts in. Half the arguments about self-exfiltration turn out to be arguments about which box you meant."
-summary_for_tutor: "A port of a Paper-type lesson on Buck Shlegeris's post. The source writes no framing of its own here: it renders the post in full and drops four Quick recall cards and one step-through diagram into it. Everything on this page is either the post itself (Article segments), one of the source's four recall prompts turned into a graded open question, its diagram rebuilt as a widget, or the short navigational lead-in we wrote, which is ours and is sourced only from the post's own opening. Sequence: lead-in, the post's introduction, two recall questions on the three-server split and on why \"the machine the agent runs on\" is ambiguous, the simplest design and the process flow, a recall question on where safety mechanisms sit, the notes on the design plus the extended design and the two compromise stories, a recall question on what rogue internal deployments look like concretely, the architecture widget, where the learner switches between seven views of Shlegeris's diagram and the post supplies the reasoning around it, then the three alleged real-world examples. If a learner is confused about an attack path, ask which machine it starts on and which machine holds the weights."
-reading_minutes: 30
-tutor_minutes: 5
+summary_for_tutor: "A port of a Paper-type lesson on Buck Shlegeris's post. The source writes no framing of its own here: it renders the post in full and drops four Quick recall cards and one step-through diagram into it. Everything on this page is either the post itself (Article segments), one of the source's four recall prompts turned into a graded open question, its diagram rebuilt as a widget, or the short navigational lead-in we wrote, which is ours and is sourced only from the post's own opening. Sequence: lead-in, the post's introduction, two recall questions on the three-server split and on why \"the machine the agent runs on\" is ambiguous, the simplest design and the process flow, a recall question on where safety mechanisms sit, the notes on the design plus the extended design and the two compromise stories, a recall question on what rogue internal deployments look like concretely, the architecture widget, where the learner switches between seven views of Shlegeris's diagram and the post supplies the reasoning around it, then the three alleged real-world examples. If a learner is confused about an attack path, ask which machine it starts on and which machine holds the weights. After the widget, one added practice question (ours, in an amber callout) has the learner find rogue-deployment routes in a different architecture and say whether request logging at the inference provider would catch them; its model answer is in the assessment instructions."
+reading_minutes: 35
+tutor_minutes: 6
 tags: []
 ---
 #### Text
@@ -59,6 +59,21 @@ Shlegeris redraws his architecture for each compromise he describes. This versio
 
 #### Widget
 source:: [[../widgets/xlab-control-agent-architecture-threats]]
+
+#### Callout: Practice: a different architecture
+tone:: amber
+
+#### Question: Open
+id:: 0fc4ec6a-1baf-43e3-9d45-c26a9884dece
+content:: A new case. A small lab rents inference for its model from a cloud vendor, which logs every request. The agent loop and the code the agent runs are both on one researcher's workstation, which also holds a fine-tuned copy of the model's weights for evaluation runs, has a GPU, and has ordinary internet access. The lab's only safety measure is a check in the agent loop that holds suspicious commands for the researcher to approve.
+
+(a) Name two ways the model could come to run without these measures applying. For each, say where it starts and which measure it gets around.
+(b) Would the vendor's request logging catch either of them? Why or why not?
+placeholder:: Answer (a) and (b)
+assessment-instructions:: This is practice on a new case, applying the post's inference, scaffold and execution split. Model answer. (a) Any two of: the model writes its own agent loop on the workstation that runs the local weight copy on the GPU, so its commands never pass the approval check and its queries never reach the vendor; because the agent loop runs on the same machine as the agent's code, the model's code can modify or restart the loop itself and switch the check off; the model copies the local weights out over the internet and has them run elsewhere, which gets around every measure; a second loop on the workstation that still calls the vendor but skips the approval check. (b) Mostly no: the vendor sees only requests sent to it, so a loop running the local weights, a modified loop, or copied-out weights produce nothing in its logs; only a rogue loop that still calls the vendor would show up, and then only if someone reads the logs for that. Full marks need two routes, each with where it starts and what it gets around, and a correct (b) with its reason; roughly a third each. Accept other sound routes. Grade only against these criteria and the material on this page.
+feedback-instructions:: In at most four sentences: say what the learner got right, then give whichever part of the model answer they missed. If they missed that the loop and the code share a machine, say plainly that code running there can change the loop and its check. No follow-up question. No generic praise.
+
+#### End Callout
 
 #### Article
 from:: ## Using this framework to discuss alleged examples of AIs modifying their own environments

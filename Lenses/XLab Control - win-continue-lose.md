@@ -2,9 +2,9 @@
 id: '9082ff06-0c3e-40b6-a127-6de1fd0883db'
 title: "Win/continue/lose scenarios and execute/replace/audit protocols"
 tldr: "An attack that fails is not one thing. Either you caught it, which ends the game in your favour, or it fizzled quietly and the AI lives to try again. Buck Shlegeris names the three outcomes (win, continue, lose) and the protocol shape that produces them (execute, replace, audit), then runs the numbers on a real monitor."
-summary_for_tutor: "Unit 5 of AI Control 1. This lens supplies the vocabulary the rest of the unit reuses: the three outcomes of an attack (WIN, we catch the attack and can shut down; CONTINUE, the attack fails silently so nobody is caught and the AI attacks again later; LOSE, the attack is executed and succeeds) and the three decisions of the protocol that produces them (EXECUTE the proposed action, REPLACE it via resampling, defer-to-trusted, trusted editing, abort, block or shutdown, or AUDIT it by sending it for human review). Sequence: a short lead-in written for Lens, then Shlegeris's post in five excerpts with six quick-recall prompts interleaved exactly where the source places them (concentrated failure and attack after the setup; protocol and monitor after the protocol definition; auditing after the two decisions; the three outcomes after the safety calculation), then the closing worked example on the sleeper-agent probes, then Works cited. Only the lead-in and the Works cited callout are ours; everything else is the source's placement over Shlegeris's text. If a learner conflates 'replace' with 'audit', ask what each one costs and what a false negative does in each case."
-reading_minutes: 30
-tutor_minutes: 5
+summary_for_tutor: "Unit 5 of AI Control 1. This lens supplies the vocabulary the rest of the unit reuses: the three outcomes of an attack (WIN, we catch the attack and can shut down; CONTINUE, the attack fails silently so nobody is caught and the AI attacks again later; LOSE, the attack is executed and succeeds) and the three decisions of the protocol that produces them (EXECUTE the proposed action, REPLACE it via resampling, defer-to-trusted, trusted editing, abort, block or shutdown, or AUDIT it by sending it for human review). Sequence: a short lead-in written for Lens, then Shlegeris's post in five excerpts with six quick-recall prompts interleaved exactly where the source places them (concentrated failure and attack after the setup; protocol and monitor after the protocol definition; auditing after the two decisions; the three outcomes after the safety calculation), then the closing worked example on the sleeper-agent probes, then Works cited. Only the lead-in and the Works cited callout are ours; everything else is the source's placement over Shlegeris's text. If a learner conflates 'replace' with 'audit', ask what each one costs and what a false negative does in each case. After the reading, one added practice question (ours, in an amber callout) has the learner compute the chance of a catch before a successful attack for a different monitor, with and without replacement, say what a replaced but unreviewed attack leads to, and redo the estimate when a fifth of replacements fail to neutralise the attack; its model answer is in the assessment instructions."
+reading_minutes: 35
+tutor_minutes: 7
 tags: []
 ---
 #### Text
@@ -82,6 +82,23 @@ feedback-instructions:: One turn, at most three sentences: say plainly what the 
 #### Article
 from:: ## Example: analyzing the safety of defer-to-trusted using the probes from “Simple probes can catch sleeper agents”
 to:: crucially depends on the details of the protocol in which the probe is being used as a monitor.
+
+#### Callout: Practice: put numbers on a different monitor
+tone:: amber
+
+#### Question: Open
+id:: 07a155ff-b63f-440d-9f78-ba0ffefe3482
+content:: A new case. A lab monitors an untrusted research agent. Human reviewers can check 0.5% of its actions; at that threshold the monitor flags 20% of attacks, and a reviewed attack is always recognised, ending the game in the lab's favour. The lab also replaces every action in the most suspicious 10% with one written by a trusted model; at that threshold the monitor flags 94% of attacks. An attack that runs succeeds one time in three, and a failed attack goes unnoticed.
+
+(a) If the agent is scheming and keeps attacking now and then until something settles the game, what is the chance the lab catches it before an attack succeeds?
+(b) What would that chance be if the lab kept the reviews but stopped replacing?
+(c) In the original protocol, what happens to an attack that is replaced but not reviewed, and why does that matter for (a)?
+(d) Back in the original protocol, suppose one in five replaced attacks still succeeds when run. What does your answer to (a) become?
+placeholder:: Show your working for (a), (b) and (d), and answer (c)
+assessment-instructions:: This is practice on a new case, applying the post's rule of thumb. Model answer. (a) Per attack: reviewed and caught 0.20; runs if not flagged at the 10% threshold, 1 minus 0.94 is 0.06, and succeeds a third of the time, 0.02; safety is 0.20 / (0.20 + 0.02), about 91%. (b) Without replacement every unreviewed attack runs: 0.80 run, a third succeed, about 0.27; safety 0.20 / (0.20 + 0.27), about 43%. (c) The replaced attack neither catches the agent nor succeeds: the deployment continues and the agent will attack again later. That is why the ratio counts only the two outcomes that end the game, and why replacing converts would-be losses into more chances to be caught. (d) Replaced but unreviewed attacks are 0.94 minus 0.20, which is 0.74; a fifth of them, about 0.15, now succeed, so successes are 0.02 + 0.15, about 0.17, and safety is 0.20 / (0.20 + 0.17), about 54%: a replacement that leaks turns continuations back into losses. Full marks need the three numbers (accept 90 to 92%, 40 to 45% and 50 to 57%) and the continue outcome in (c); roughly a quarter each. Grade only against these criteria and the material on this page.
+feedback-instructions:: In at most four sentences: say what the learner got right, then give whichever part of the model answer they missed, with the numbers. If they used 20% as the answer to (a), say plainly that most attacks end in neither a catch nor a success, so only the two game-ending outcomes are compared. No follow-up question. No generic praise.
+
+#### End Callout
 
 #### Text
 content::
