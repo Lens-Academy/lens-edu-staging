@@ -80,13 +80,14 @@ Greenblatt's prioritization assumes a rushed but reasonable developer, one willi
 
 Write between 150 and 500 words.
 assessment-instructions:: The learner has finished Greenblatt's post and is re-deriving his top three priorities for a world with a different level of political will. They must state which world they chose. Grade against three criteria, weighted equally, and name each one in your response.
-feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
 
 1. Engages the post's arguments. The response uses the compute and privileged-access logic for rogue internal deployments, and the pause-dependence of self-exfiltration, rather than asserting a new ordering from scratch.
 2. Conditions on the world. The priority changes actually follow from the chosen level of political will, rather than being asserted alongside it.
 3. Acknowledges costs. The response says what the new ordering gains and what it gives up.
 
 For calibration, the post's own conditional claims are: with lower will, getting useful and non-sabotaged work out (priority 2) should rise above preventing rogue internal deployments (priority 1), because preventing them might be infeasible; with higher will, preventing self-exfiltration (priority 3) could rise above getting useful work out (2), because self-exfiltration is less threatening if no substantial pause was coming anyway. A learner who argues to a different ordering is not wrong for that reason: judge whether the reasoning holds, not whether it matches Greenblatt. Do not reveal these conditional claims before the learner has answered.
+
+feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
 
 Respond in 120 to 200 words, short paragraphs, no lists. Name the strongest move in their argument, then the criterion they served least well and the one concrete thing that would fix it. Do not over-validate. Avoid generic praise (great job, excellent analysis, well done). Grade only against this reading. If the learner says they do not understand, give one concrete foothold from the post, such as isolating a single priority and asking what changes about it when no pause is available, rather than repeating the prompt.
 

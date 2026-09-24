@@ -2,8 +2,8 @@
 id: '9a082b6c-85fd-47df-b44d-5e9bc6b311f5'
 title: "Efficient tradeoffs and the safety-usefulness tradeoff model"
 tldr: "Safety gets bought with usefulness, and the developer's willingness to pay runs out. That picture tells you what to build and what to ask for. Buck Shlegeris argues it holds when the developer is a rushed version of you, and breaks when the pressure comes from regulators, governments or the public, because then what the developer is buying is their approval rather than safety."
-summary_for_tutor: "Unit 3 of AI Control 1, in the how-useful-is-control thread that runs from How useful is AI control? through Unit 4. Buck Shlegeris's post is rendered whole with no added framing, so everything here except the opening Text segment is the post plus the one exercise inserted into it. The opening Text segment is our lead-in: it says what the post argues, flags Shlegeris's convention that 'you' means the person who wants safety, and links forward to the two lessons that build on this one. Sequence: lead-in, then the post from its opening through 'Rushed reasonable developers', then the free response (propose an intervention, name its usefulness cost, justify the trade), then the rest of the post (limited political will, why the model fails when developers do not trade efficiently, overall thoughts, and the appendix of definitions). The exercise sits mid-post on purpose, so a learner answering it has not yet read the sections on political feasibility; do not grade against them. The lesson's contribution to the thread is the vocabulary the next lessons run on: safety budget, political will, and the two levers (push out the Pareto frontier, increase the safety budget)."
-reading_minutes: 20
+summary_for_tutor: "Unit 3 of AI Control 1, in the how-useful-is-control thread that runs from How useful is AI control? through Unit 4. Buck Shlegeris's post is rendered whole with no added framing, so everything here except the opening Text segment is the post plus the one exercise inserted into it. The opening Text segment is our lead-in: it says what the post argues, flags Shlegeris's convention that 'you' means the person who wants safety, and links forward to the two lessons that build on this one. Sequence: lead-in, then the post from its opening through 'Rushed reasonable developers', then the free response (propose an intervention, name its usefulness cost, justify the trade), then the rest of the post (limited political will, why the model fails when developers do not trade efficiently, overall thoughts, and the appendix of definitions), then a practice question (added September 2026) on a new case, a developer that adopts measures in response to staff petitions, and then the same developer led by people who share the safety goal and concede up to a fixed slowdown: does the model apply in each, and what should a safety researcher there do; its model answer is in the assessment-instructions. The exercise sits mid-post on purpose, so a learner answering it has not yet read the sections on political feasibility; do not grade against them. The lesson's contribution to the thread is the vocabulary the next lessons run on: safety budget, political will, and the two levers (push out the Pareto frontier, increase the safety budget)."
+reading_minutes: 25
 tutor_minutes: 5
 tags: []
 ---
@@ -44,6 +44,21 @@ Reply in at most four sentences: name the intervention and cost they gave, say w
 
 #### Article
 from:: ## Limited political will
+
+#### Callout: Practice: does the model apply?
+tone:: amber
+
+#### Question: Open
+id:: ca067b2f-14d8-4e3f-a9f9-780ef3ee7153
+content:: A new case. At one AI developer, leadership adopts safety measures mainly in response to internal petitions: whichever measures staff are most upset about get adopted, as long as they do not slow product work much. A safety researcher there thinks trusted monitoring of all internal AI agents is the most cost-effective measure available, but few staff have heard of it.
+
+(a) Does the safety-usefulness tradeoff model describe how this developer chooses its safety measures? What should the researcher do to get the most safety?
+(b) Suppose instead that leadership agrees with the researcher about misalignment risk and adopts whatever measures the safety team recommends, as long as the total slowdown stays under 5% because a rival is close behind. Does the model now apply, and what kind of work would help the researcher most?
+placeholder:: Answer (a), then (b)
+assessment-instructions:: This is practice on a new case, applying the post just read. Model answer. The model fits poorly. It assumes the developer adopts whichever measures give the best tradeoff between safety, judged by the person who wants safety, and usefulness. Here the developer adopts the measures with the best tradeoff between calming staff and cost to product work, so a measure's real safety value is only loosely connected to whether it is adopted. The researcher should therefore rate her options by how likely they are to be adopted, not only by safety per unit of cost: for example, make the case for trusted monitoring legible to staff so that their concern is channelled toward it (an indirect route that may be clumsy), frame it in terms staff already care about, or choose asks that are both valuable and easy to explain. (b) Now the model applies: the safety team chooses the measures and the developer concedes up to a fixed cost, so the team will pick the measures with the best safety per unit of cost. Two kinds of work help: techniques that buy more safety for the same slowdown, which will be adopted because they are efficient, and making the case for a larger allowance than 5%, for example with evidence of risk. Full credit for (a) saying the model fits poorly, with the reason (the developer is optimising for staff satisfaction, not safety-according-to-her), and a strategy that works through what actually gets this developer to adopt a measure; and for (b) saying the model applies, with the reason, and naming at least one of the two kinds of work. Half credit for right verdicts with vague reasons or strategies. Grade only against what this lens has supplied.
+feedback-instructions:: In at most four sentences: say what the learner got right, then give whichever part of the model answer they missed. If they got either verdict wrong, say plainly who is choosing the measures and by what criterion. No follow-up question. No generic praise.
+
+#### End Callout
 
 #### Text
 content::

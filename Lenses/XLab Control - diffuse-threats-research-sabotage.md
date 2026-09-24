@@ -2,9 +2,9 @@
 id: '0d1bf136-6960-4c3f-83f6-faab584e3616'
 title: "How can we solve diffuse threats like research sabotage with AI control?"
 tldr: "One subtle bug in an experiment is something you could never prove was malice. A thousand subtle bugs is still not proof, but now you have a thousand training examples to work with. That trade is what separates concentrated failures from diffuse ones, and it decides which of your two defences, online training or incrimination, has any grip at all."
-summary_for_tutor: "Unit 3 of AI Control 1; closes the threat half of the unit. The reading is Vivek Hebbar's Redwood post on diffuse threats, embedded in three Article excerpts. Sequence: (1) the setup, where research sabotage is defined and the diffuse/concentrated distinction is introduced, followed by two recall questions (what research sabotage is, the two properties of a diffuse threat model); (2) the deployer's two hopes, online training and incrimination, and the Pareto frontier between action count and action sneakiness, followed by a recall question on why incrimination fails at the diffuse end; (3) the remaining mitigation regimes, the sabotage strategies section, and Hebbar's open terminology question. Then an editorial note on how Redwood's terminology settled, and a forward pointer to where the two ends are taken up: Unit 4 of AI Control 1 for the concentrated end, AI Control 2 for the diffuse end. The three recall questions are tap-reveal cards; grade them against the answers in the briefs, do not hand the answer over before the learner attempts it. If a learner conflates 'diffuse' with 'low-severity', the fix is action count and evidence per action, not stakes."
-reading_minutes: 20
-tutor_minutes: 3
+summary_for_tutor: "Unit 3 of AI Control 1; closes the threat half of the unit. The reading is Vivek Hebbar's Redwood post on diffuse threats, embedded in three Article excerpts. Sequence: (1) the setup, where research sabotage is defined and the diffuse/concentrated distinction is introduced, followed by two recall questions (what research sabotage is, the two properties of a diffuse threat model); (2) the deployer's two hopes, online training and incrimination, and the Pareto frontier between action count and action sneakiness, followed by a recall question on why incrimination fails at the diffuse end; (3) the remaining mitigation regimes, the sabotage strategies section, and Hebbar's open terminology question, followed by a practice question (added September 2026) that places three new cases on the spectrum, one at each end and one in the middle, and matches each to incrimination, untargeted training or training harder on suspicious outputs; its model answer is in the assessment-instructions. Then an editorial note on how Redwood's terminology settled, and a forward pointer to where the two ends are taken up: Unit 4 of AI Control 1 for the concentrated end, AI Control 2 for the diffuse end. The three recall questions are tap-reveal cards; grade them against the answers in the briefs, do not hand the answer over before the learner attempts it. If a learner conflates 'diffuse' with 'low-severity', the fix is action count and evidence per action, not stakes."
+reading_minutes: 25
+tutor_minutes: 5
 tags: []
 ---
 #### Article
@@ -35,6 +35,24 @@ feedback-instructions:: One turn, at most three sentences: say plainly what the 
 
 #### Article
 from:: **Untargeted online training:**
+
+#### Callout: Practice: where on the spectrum?
+tone:: amber
+
+#### Question: Open
+id:: 244d671b-02e3-4a48-a366-1a0e71fd9e96
+content:: Three new cases. A model that may be scheming could try any of these:
+
+(a) During one routine deployment, it swaps the weights file the inference server loads for a copy it has quietly modified.
+(b) Over months of writing interpretability code for a safety team, it regularly leaves out the follow-up experiments that would have been most informative.
+(c) In about thirty of the few thousand code reviews it does in a year, it approves a change containing a bug that a careful reviewer would sometimes have caught.
+
+For each, say where it sits between concentrated and diffuse, and which mitigation has the most grip on it: incrimination, training on the model's outputs evenly, or training harder on its most suspicious outputs. Say why the others have less.
+placeholder:: Take (a), (b), then (c)
+assessment-instructions:: This is practice on three new cases, applying the reading. Model answer. (a) Concentrated: one action, and swapping in a modified weights file is highly incriminating if seen. Incrimination has grip: flag and hold such actions for review before they take effect, and a confirmed instance is strong evidence of intent. Training has little grip: there is one example at most, and the harm is done before training could act. (b) Diffuse: it needs many actions, and each omission is at most weak evidence, since leaving out an experiment looks like an honest judgement call. Training has more grip: training on a signal of research quality across all of its work uses the many samples. Incrimination has little grip: without knowing how often an honest model would leave out such experiments, no number of mildly suspicious omissions proves intent. (c) In the middle: dozens of actions, each mildly to moderately suspicious (a missed bug is often an honest miss, but some are the kind a careful reviewer would flag). Training harder on the most suspicious reviews has the most grip: a monitor can pick out the reviews where approved bugs look worst and the model can be trained hardest on those, which works where bad actions are too rare among all reviews for even training to have much effect. Incrimination is weak, since each miss is plausibly honest, though a pattern across many misses might become evidence if one knew how often an honest reviewer misses such bugs; evenly spread training has too few bad examples among thousands of reviews. Full credit for all three placements by action count and incrimination per action, the matching mitigation for each, and a reason the others fail. Half credit if the placements are right but the reasons for the failing mitigations are missing. If the learner sorts by how harmful each is, say that the axis is how many actions are needed and how incriminating each is. Grade only against what this lens has supplied.
+feedback-instructions:: In at most four sentences: say what the learner got right, then give whichever part of the model answer they missed. If they sorted by harm, say plainly that the axis is action count and evidence per action. No follow-up question. No generic praise.
+
+#### End Callout
 
 #### Text
 content::
