@@ -2,22 +2,22 @@
 id: '9082ff06-0c3e-40b6-a127-6de1fd0883db'
 title: "Win/continue/lose scenarios and execute/replace/audit protocols"
 tldr: "An attack that fails is not one thing. Either you caught it, which ends the game in your favour, or it fizzled quietly and the AI lives to try again. Buck Shlegeris names the three outcomes (win, continue, lose) and the protocol shape that produces them (execute, replace, audit), then runs the numbers on a real monitor."
-summary_for_tutor: "Module 4. This lens supplies the vocabulary the rest of the module reuses: the three outcomes of an attack (WIN, we catch the attack and can shut down; CONTINUE, the attack fails silently so nobody is caught and the AI attacks again later; LOSE, the attack is executed and succeeds) and the three decisions of the protocol that produces them (EXECUTE the proposed action, REPLACE it via resampling, defer-to-trusted, trusted editing, abort, block or shutdown, or AUDIT it by sending it for human review). Sequence: a short lead-in written for Lens, then Shlegeris's post in five excerpts with six quick-recall prompts interleaved exactly where the source places them (concentrated failure and attack after the setup; protocol and monitor after the protocol definition; auditing after the two decisions; the three outcomes after the safety calculation), then the closing worked example on the sleeper-agent probes, then Works cited. Only the lead-in and the Works cited callout are ours; everything else is the source's placement over Shlegeris's text. If a learner conflates 'replace' with 'audit', ask what each one costs and what a false negative does in each case."
+summary_for_tutor: "Unit 5 of AI Control 1. This lens supplies the vocabulary the rest of the unit reuses: the three outcomes of an attack (WIN, we catch the attack and can shut down; CONTINUE, the attack fails silently so nobody is caught and the AI attacks again later; LOSE, the attack is executed and succeeds) and the three decisions of the protocol that produces them (EXECUTE the proposed action, REPLACE it via resampling, defer-to-trusted, trusted editing, abort, block or shutdown, or AUDIT it by sending it for human review). Sequence: a short lead-in written for Lens, then Shlegeris's post in five excerpts with six quick-recall prompts interleaved exactly where the source places them (concentrated failure and attack after the setup; protocol and monitor after the protocol definition; auditing after the two decisions; the three outcomes after the safety calculation), then the closing worked example on the sleeper-agent probes, then Works cited. Only the lead-in and the Works cited callout are ours; everything else is the source's placement over Shlegeris's text. If a learner conflates 'replace' with 'audit', ask what each one costs and what a false negative does in each case."
 reading_minutes: 30
-tutor_minutes: 0
+tutor_minutes: 5
 tags: []
 ---
 #### Text
 content::
 \## Two triples worth memorising
 
-The rest of Module 4 talks in the vocabulary this post introduces, so it is worth reading slowly enough to keep the six words.
+The rest of this unit talks in the vocabulary this post introduces, so it is worth reading slowly enough to keep the six words.
 
 The first triple is what happens each time a scheming AI attacks: we **win**, we **lose**, or the deployment **continues**. The move Shlegeris is making is to split "the attack failed" into two very different events, one where we caught the AI and one where nothing happened and the AI will try again.
 
 The second triple is the protocol shape that produces those outcomes: a monitor scores each proposed action, and the protocol decides whether to **execute** or **replace** that action, and separately whether to **audit** it.
 
-The setting assumed throughout is the concentrated failure, the subject of the previous lesson, [[../Lenses/XLab Control - what-is-high-stakes|What is High Stakes?]]. Two of the examples get their own lessons later in this module: [[../Lenses/XLab Control - rogue-deployments|AI catastrophes and rogue deployments]] and [[../Lenses/XLab Control - systems-architecture|A basic systems architecture for AI agents that do autonomous research]].
+The setting assumed throughout is the concentrated failure, the subject of the previous lesson, [[../Lenses/XLab Control - what-is-high-stakes|What is High Stakes?]]. Two of the examples get their own lessons later in this unit: [[../Lenses/XLab Control - rogue-deployments|AI catastrophes and rogue deployments]] and [[../Lenses/XLab Control - systems-architecture|A basic systems architecture for AI agents that do autonomous research]].
 
 The post closes by putting real numbers through the framework, using the ROC curve of a linear probe from Anthropic's "Simple probes can catch sleeper agents".
 

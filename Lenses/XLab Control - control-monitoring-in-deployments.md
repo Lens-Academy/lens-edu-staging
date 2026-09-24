@@ -23,12 +23,10 @@ Sections 1 to 6 carry the argument. The appendices, which the paper introduces a
 
 The next lesson, [[../Lenses/XLab Control - synchronous-monitors|Blocking live failures with synchronous monitors]], takes one slice of this question and asks which threats make the latency cost of a blocking monitor worth paying.
 
-#### Text
-content::
-:::callout {title="Reading not yet available" tone="amber"}
-The reading for this lesson is being imported and is not on Lens yet. Until it
-lands, read it at the original source: [Practical challenges of control monitoring in frontier AI deployments](https://arxiv.org/abs/2512.22154).
-:::
+#### Article
+source:: [[../articles/lindner-practical-challenges-of-control-monitoring-in-frontier-ai-deployments]]
+from:: Automated control monitors could play an important role in overseeing highly capable AI agents that we do not fully trust.
+to:: when human red-teams are unlikely to find attack vectors that dominate an AI’s attacks.
 {>>{"author":"Elias's AI","timestamp":1789039792881}@@PORT-TODO: replace this callout with `#### Article` over
 `Lens Edu/articles/lindner-practical-challenges-of-control-monitoring-in-frontier-ai-deployments.md` once the import lands.<<}
 
