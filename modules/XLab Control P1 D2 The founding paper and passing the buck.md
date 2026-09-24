@@ -5,12 +5,21 @@ title: "Unit 2: The founding paper and passing the buck"
 tags:
   - work-in-progress
 ---
-%% Day 2 of AI Control Part 1 (five-day split of XLab's seven-module track, September 2026). Core self-study 240 minutes. Lens order follows XLab's track. %%
+%% Day 2 of AI Control Part 1 (five-day split of XLab's seven-module track, September 2026). Core self-study 260 minutes: the founding paper, split in September 2026 into four lenses of 45, 60, 50 and 45 minutes (200 in total, up from the single 180-minute lens; the optional upfront-auditing derivation in part 2 adds about 20), then passing the buck, 60. Lens order follows XLab's track. %%
 
 
 
 # Lens:
 source:: [[../Lenses/XLab Control - ai-control-paper]]
+
+# Lens:
+source:: [[../Lenses/XLab Control - ai-control-paper-2]]
+
+# Lens:
+source:: [[../Lenses/XLab Control - ai-control-paper-3]]
+
+# Lens:
+source:: [[../Lenses/XLab Control - ai-control-paper-4]]
 
 # Lens:
 source:: [[../Lenses/XLab Control - how-might-we-safely-pass-the-buck-to-ai]]
