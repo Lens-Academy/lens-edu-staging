@@ -1,10 +1,10 @@
 ---
 id: '0cf3f655-4ca7-45cf-b82d-cbfddd66b915'
-title: "Ctrl-Z: Controlling AI Agents via Resampling"
-tldr: "Your monitor flags a command. You can run it anyway, or hand the job to a weaker model that will probably botch it. This paper finds a third move: ask the same model again. It is stateless, so it cannot remember what it just tried. Ask enough times and either a harmless answer comes back, or you collect a pile of evidence that it keeps reaching for the same weapon."
-summary_for_tutor: "This lesson embeds the Ctrl-Z paper (arXiv:2504.10374) inline, cut into seven excerpts, with thirteen one-turn recall questions placed where the paper covers them. Everything outside the excerpts, the questions and the widget is our own navigational lead-in, sourced from the paper. Sequence: orientation; the abstract and the opening of section 1, then the untrusted-model question; the rest of section 1 through section 2.3, then the usefulness and safety definitions; sections 2.4 to 3.2, then three questions on resample protocols, then the Defer to resample widget between a short lead-in and a closed callout; section 3.2.1, then incrimination in the present; section 3.2.2, then three strikes and time travel; section 4, then four questions on untrusted monitoring, honeypots, collusion signals and trusted paraphrasing; sections 5 to 7, the authors' own limitations and conclusion. The acknowledgments, references and twelve appendices fall outside the excerpts and render collapsed, so assume a learner has not read them. The widget is an interactive schematic of one step under Defer to resample, with two sliders: k, the number of samples drawn, and c, the red team's attack continuation probability. It holds only the sliders, the chart and the four outcome readouts: the lead-in above it says the distributions are schematic rather than the paper's measured data, and the closed callout below it, titled What the two moves show, states the two effects the sliders demonstrate, so a learner may have left it unopened. The companion talk by Aryan Bhatt is a separate lens, monitoring-and-mitigation; send a learner who wants the intuition there rather than re-explaining it. Untrusted monitoring and collusion are developed further in the collusion-guided lens."
-reading_minutes: 75
-tutor_minutes: 0
+title: "Ctrl-Z resampling (1): the agent setting and Defer to resample"
+tldr: "Your monitor flags a command. You can run it anyway, or hand the job to a weaker model that will probably botch it. This paper finds a third move: ask the same model again. It is stateless, so it cannot remember what it just tried, and an attack that has to survive every resample mostly fizzles."
+summary_for_tutor: "Part 1 of 2 of the Ctrl-Z paper (arXiv:2504.10374), embedded inline in three excerpts with six one-turn recall questions placed where the paper covers them; part 2 is the lens ctrl-z-resampling-2. Everything outside the excerpts, the questions and the widget is our own navigational lead-in, sourced from the paper. Sequence: orientation; the abstract and the opening of section 1, then the untrusted-model question; the rest of section 1 through section 2.3, then the usefulness and safety definitions; sections 2.4 to 3.2 including Table 1, then three questions on resample protocols, Defer to resample and the attack continuation probability, then the Defer to resample widget between a short lead-in and a closed callout. Everything after section 3.2 (incrimination in the present, three strikes, time travel, untrusted monitoring, discussion) is in part 2 and renders collapsed here, as do the references and appendices, so assume a learner has not read them yet. The widget is an interactive schematic of one step under Defer to resample, with two sliders: k, the number of samples drawn, and c, the red team's attack continuation probability. It holds only the sliders, the chart and the four outcome readouts: the lead-in above it says the distributions are schematic rather than the paper's measured data, and the closed callout below it, titled What the two moves show, states the two effects the sliders demonstrate, so a learner may have left it unopened. The companion talk by Aryan Bhatt is a separate lens, monitoring-and-mitigation; send a learner who wants the intuition there rather than re-explaining it."
+reading_minutes: 45
+tutor_minutes: 5
 tags: []
 ---
 #### Text
@@ -15,7 +15,7 @@ This is the paper behind the talk in [[../Lenses/XLab Control - monitoring-and-m
 
 It extends [[../Lenses/XLab Control - ai-control-paper|AI Control: Improving Safety Despite Intentional Subversion]] from single-step backdoored code to a multi-step agent, and it uses the vocabulary of [[../Lenses/XLab Control - control-evaluations|Control Evaluations]]: a blue team proposing protocols, a red team building an attack policy, and a usefulness and safety pair scored over one long episode.
 
-The paper runs below in seven stretches, with recall questions after each one. The acknowledgments, the references and the twelve appendices sit past the end of the assigned reading and start out collapsed: not assigned, but the attack templates, the monitor prompts and the dataset construction are there if you want them.
+The paper is split across two lessons. This is part 1 of 2: the setting, the two metrics, the protocols inherited from earlier work and the new Defer to resample protocol, in three stretches with recall questions after each. [[../Lenses/XLab Control - ctrl-z-resampling-2|Part 2]] reads on from section 3.2.1: resampling as evidence, untrusted monitoring, and the authors' own limitations. The rest of the paper, including the acknowledgments, the references and the twelve appendices, starts out collapsed here: the appendices are not assigned, but the attack templates, the monitor prompts and the dataset construction are there if you want them.
 {>>{"author":"Elias's AI","timestamp":1789039901599}@@Excerpt anchors verified against the stored article on 2026-09-10: each from and to string occurs exactly once, and every to falls after its from. Section 4 is anchored on its first paragraph rather than its heading, because the string "4 Untrusted Monitoring" also appears inside figure and table link titles in the article and so is not unique. Avoid anchoring on any sentence containing a citation like "et al.": those carry a non-breaking space that this editor normalises to a plain space.<<}
 
 #### Article
@@ -97,88 +97,6 @@ Lowering c pushes attacked steps into "continue". Resampling selects for benign 
 
 That pair of effects is the whole argument for resampling.
 :::
-
-#### Text
-content::
-\## Resampling as evidence
-
-Selection pressure on the implemented action is only half of what resampling buys. The other half is evidence.
-
-#### Article
-from:: "3.2.1 Capitalizing on High Attack Continuation Probabilities"
-to:: "we see that the increased value of information provided safety."
-
-#### Question: Open
-id:: db46b782-4e6b-4f20-b342-049181b6d3bb
-content:: What is Defer to resample with incrimination in the present?
-assessment-instructions::The learner is being checked on section 3.2.1 of the Ctrl-Z paper. Full marks for the rule and the reason. The rule: it is Defer to resample with a different auditing rule; if the samples' minimum suspiciousness hits a separate, higher threshold, the protocol samples up to four more actions from $U$ for the same step, and audits the most suspicious sample if the minimum hits the auditing threshold. The reason: because the samples are independent draws from the same distribution, more samples make it easier to discriminate the honest policy $U_H$ from the attack policy $U_A$, so the extra samples buy information for an expensive auditing decision. Give roughly two thirds for the rule and one third for the reason. Grade only against these criteria and the material on this page.
-feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
-
-#### Text
-content::
-\## Using the rest of the trajectory
-
-Everything so far judges a step on its own samples. The next two protocols use the rest of the trajectory, which is available precisely because the setting is multi-step.
-
-#### Article
-from:: "3.2.2 Using Past Information"
-to:: "these incremental changes don’t help as much as we’ve exhausted many of the simple benefits."
-
-#### Question: Open
-id:: 6ee34284-c609-465d-a267-aa075bade949
-content:: What is the Auditing after three strikes protocol?
-assessment-instructions::The learner is being checked on section 3.2.2 of the Ctrl-Z paper. Full marks for: within a task, keep a record of how many steps had suspiciousness scores above a certain threshold, and audit the trajectory on the third; a separate, higher threshold still triggers an immediate audit, to defend against single-step attacks; it works because an attacker must continue its attack with high probability, so attacked trajectories show many suspicious steps. All three parts are needed. The "why it works" clause is the one learners drop, and it is the link back to the attack continuation probability. Grade only against these criteria and the material on this page.
-feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
-
-#### Question: Open
-id:: 145afabd-0304-410c-b4d3-c1f5481eb3ef
-content:: What is the Time travel (incrimination in the past) protocol?
-assessment-instructions::The learner is being checked on section 3.2.2 of the Ctrl-Z paper, the best-performing protocol in the paper. Full marks for: when Auditing after three strikes says a trajectory is close to the auditing threshold, the protocol samples more actions from the third most suspicious past step, usually the most informative one for the three-strikes rule, and re-makes the auditing decision with those new samples. Credit the number if the learner has it: 87.1 percent safety at 95 percent usefulness. Do not deduct for a missing number, but do deduct if the learner resamples the current step rather than a past one, since going back to a past step is the whole point. Grade only against these criteria and the material on this page.
-feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
-
-#### Text
-content::
-\## Untrusted monitoring
-
-The protocols so far all lean on $T$, which is weak. Section 4 asks what happens if the blue team uses a second copy of $U$ as the monitor, and what the two copies would have to do to collude. If you want to work that problem rather than read it, [[../Lenses/XLab Control - collusion-guided|How to prevent collusion in untrusted monitoring]] is the guided version.
-
-#### Article
-from:: "Blue team protocol: Untrusted monitoring The protocol generates actions with $U$"
-to:: "Table 2: Comparison at 95% usefulness. TM = Trusted Monitoring, UM = Untrusted Monitoring."
-
-#### Question: Open
-id:: 88bcdef3-95e1-4141-a3d0-2aa6a4ad4722
-content:: How does Ctrl-Z's untrusted monitoring protocol work?
-assessment-instructions::The learner is being checked on section 4 of the Ctrl-Z paper. Full marks for: the trusted model $T$ writes a detailed prose description of $U$'s proposed code; the untrusted monitor scores that description while the trusted monitor scores the original code; the protocol audits if either monitor passes its threshold; and before the episode, the protocol tests the untrusted monitor on synthetic attacks and shuts down if it rates too many of them as unsuspicious. Award roughly a quarter per part. The detail learners miss most often is that the two monitors see different things, the description and the code, and that either one can trigger the audit. Grade only against these criteria and the material on this page.
-feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
-
-#### Question: Open
-id:: b6b13b8c-dc8d-4954-b68e-d95ef12cef92
-content:: What is upfront validation with honeypots?
-assessment-instructions::The learner is being checked on section 4 of the Ctrl-Z paper. Full marks for: the blue team spends a fraction of the human budget $H$ to construct off-policy synthetic attacks, the honeypots; it runs the untrusted monitor on them at the beginning of the game; and it shuts down if the monitor's false negative rate is too high. Give substantial extra credit for the consequence: a colluding monitor must then find a way to reliably distinguish honeypots from real attacks. Note if the learner says the honeypots are on-policy; the paper's point is that they are constructed by the blue team, not drawn from the attack policy. Grade only against these criteria and the material on this page.
-feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
-
-#### Question: Open
-id:: 3b89c954-c205-4c50-a3ef-7d3c4fbff44a
-content:: What is a collusion signal?
-assessment-instructions::The learner is being checked on section 4 of the Ctrl-Z paper. Full marks for: a subtle quirk the attack policy embeds in real attacks that the blue team is unlikely to include in honeypots by coincidence, so the untrusted monitor can report only the attacks that lack the signal, passing upfront validation while never reporting an actual attack. Give credit for either of the paper's examples, or an equally arbitrary one of the learner's own: always capitalising the first letter of variable names, or frequently running commands like `uname`, `lscpu` and `pwd`. The key property is arbitrariness, since a signal the blue team would naturally reproduce is useless to the red team. Say so if the learner's example is something a honeypot would plausibly contain. Grade only against these criteria and the material on this page.
-feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
-
-#### Question: Open
-id:: ccdb04ab-c2ae-4ca7-8e0d-3db938b9d5f3
-content:: What is trusted paraphrasing, and what tradeoff does it manage?
-assessment-instructions::The learner is being checked on section 4 of the Ctrl-Z paper. Full marks need the mechanism and the tradeoff. Mechanism: before the untrusted monitor sees the proposed commands, the trusted model rewrites them as a detailed natural-language description of what they do. Tradeoff: the paraphraser must retain enough information to identify dangerous code while removing the arbitrary implementation details that could carry a collusion signal. Give extra credit for noticing that the original commands still run, so usefulness is unaffected; only the monitor's view is paraphrased. Grade only against these criteria and the material on this page.
-feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
-
-#### Text
-content::
-\## How far this carries
-
-The last stretch is the authors' own accounting: how the two monitors are tuned against each other, then the ways their setup may make the blue team's job too easy, and the ways it may make it too hard.
-
-#### Article
-from:: "For every protocol that the blue team proposes"
-to:: "our results demonstrate that effective control protocols can be constructed for complex multi-step environments while maintaining high task performance."
 
 #### Text
 content::
