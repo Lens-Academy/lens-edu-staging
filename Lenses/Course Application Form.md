@@ -2,6 +2,7 @@
 id: '618030f7-7655-4d69-8861-56273e610761'
 title: Application form
 reading_minutes: 12
+tutor_minutes: 0
 tldr: A one-time form about you, your background, and what you want from this course. It takes 10 to 13 minutes and we need it before your first meeting.
 summary_for_tutor: "An intake form, not teaching material. It mirrors the course signup application for learners who joined before that application existed. If the learner asks about a question, explain what it is asking for and why we ask; do not answer it for them, do not speculate about how answers affect anything, and do not discuss other learners' answers."
 ---
