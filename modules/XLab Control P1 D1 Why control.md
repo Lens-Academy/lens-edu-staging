@@ -5,7 +5,25 @@ title: "Unit 1: Why control"
 tags:
   - work-in-progress
 ---
-%% Day 1 of AI Control Part 1 (five-day split of XLab's seven-module track, September 2026). Core self-study 217 minutes. Lens order follows XLab's track. %%
+%% Day 1 of AI Control Part 1 (five-day split of XLab's seven-module track, September 2026). Core self-study 217 minutes. Lens order follows XLab's track. Learning outcomes added September 2026; their tests render at the end of the unit. %%
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Control as a distinct safety case]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Trusted versus untrusted models]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Control under conservative assumptions]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Control evaluation methodology]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Control limits as capabilities scale]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Control threat modeling]]
 
 # Lens: Welcome to XLab's AI Control course
 id:: 661f1953-fa90-4ba5-a4b1-3e7aeb0c2d0a
