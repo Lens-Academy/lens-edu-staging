@@ -5,8 +5,8 @@ topic: "[[../Domains and Topics/7 AI Control/Control threat models]]"
 stage: intermediate
 {++{"author":"James's AI","timestamp":1790257162054}@@authors:
   - Elias+Claude
-++}tags:
-  - {--{"author":"James's AI","timestamp":1790257162054}@@skill-tree-placeholder--}{++{"author":"James's AI","timestamp":1790257162054}@@wip++}
+++}{--{"author":"James's AI","timestamp":1790257646123}@@tags:
+  - skill-tree-placeholder--}
 ---{++{"author":"James's AI","timestamp":1790257348008}@@
 %% Ideally there would also be a general threat-modelling LO (building attack trees for any system, not only a scheming model) in 11 Strategy or 8 Cybersecurity, which this one would require. It is not created because no lens teaches it on its own yet; the Attack Trees lens teaches the general method only as groundwork for this control-specific skill. %%
 ## Test:
