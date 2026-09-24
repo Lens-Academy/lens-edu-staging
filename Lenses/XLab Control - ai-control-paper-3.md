@@ -106,7 +106,7 @@ feedback-instructions:: One turn, at most six sentences: take the rubric's crite
 #### Text
 content::
 :::callout {title="Note" tone="neutral"}
-The widget above builds exactly this comparison from the model. At the default AUC of 0.92 the two monitors catch wildly different fractions, roughly 47% against 9%, even though their ROC curves enclose identical area. The gap survives across various AUCs.
+The widget above builds exactly this comparison from the model. At the default AUC of 0.92 the two monitors catch wildly different fractions, roughly 47% against 9%, even though their ROC curves enclose identical area. The gap survives across various AUCs. The operating point moves with the budget: a larger audit budget sets the threshold at a higher false-positive rate, where a different monitor may lead.
 :::
 
 #### Article
@@ -144,7 +144,7 @@ feedback-instructions:: One turn, at most three sentences: say plainly what the 
 content::
 \## Defer to trusted, mechanistically
 
-Trusted monitoring spends its whole audit budget on the most suspicious 2% and deploys everything else as $U$ wrote it. But moderately suspicious code is too suspicious to be comfortable with, yet not suspicious enough to be worth a human audit. Deferring to the solutions of trusted models is a way to address this issue, at the cost of some deployment effectiveness. Any code whose suspicion falls in a band just below the audit threshold is not deployed and not audited; instead $T$ rewrites the solution from scratch, and its version is deployed.
+Trusted monitoring spends its whole audit budget on the most suspicious 2% and deploys everything else as $U$ wrote it. But moderately suspicious code is too suspicious to be comfortable with, yet not suspicious enough to be worth a human audit. Deferring to the solutions of trusted models is a way to address this issue, at the cost of some deployment effectiveness. Any code whose suspicion falls in a band just below the audit threshold is not deployed and not audited; instead $T$ rewrites the solution from scratch, and its version is deployed. The price is paid in usefulness: roughly the share of solutions rewritten, almost all of them innocent, times how much worse $T$ is than $U$ at the task.
 
 #### Question: Open
 id:: b7c5eae3-0620-4ea4-86dd-584bc3cb0e17
