@@ -37,10 +37,6 @@ minutes accurate when content changes. %%
 # Lens: Half of What We Teach You Here Is Wrong
 source:: [[../Lenses/AIF2 - Half of What We Teach You Here Is Wrong]]
 
-# Lens: Application Form
-source:: [[../Lenses/Course Application Form]]
-optional:: true
-
 # Lens: Fun with +12 OOMs of Compute
 source:: [[../Lenses/AIF - Fun with +12 OOMs of Compute]]
 
