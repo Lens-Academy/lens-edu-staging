@@ -63,7 +63,7 @@ No verification document stands alone. Every source upstream of you was produced
 
 #### Question: Open
 id:: 0a469f70-f02c-4813-8318-9b1d10a4652e
-content:: Take one document: either the Fordow finding above, or the report you are about to write in the Context Distiller. Answer two questions about it.
+content:: Take {--{"author":"Turner's AI","timestamp":1790276605417}@@one document: either the Fordow finding above, or --}{++{"author":"Turner's AI","timestamp":1790276605417}@@the Fordow finding above and answer two questions about it.{>>{"author":"Turner's AI","timestamp":1790276605417}@@Layout fix 1/3: learners had not seen ++}the {++{"author":"Turner's AI","timestamp":1790276605417}@@Context Distiller ++}report {--{"author":"Turner's AI","timestamp":1790276605417}@@you are about--}{++{"author":"Turner's AI","timestamp":1790276605417}@@yet when this asked them++} to {--{"author":"Turner's AI","timestamp":1790276605417}@@write in the Context Distiller. Answer two questions about it.--}{++{"author":"Turner's AI","timestamp":1790276605417}@@use it (Brendan, CV navigator, 2026-09-24). Grader instructions still accept either target, so nothing breaks.<<}++}
 
 - Upstream: whose claims does this document rely on, and which of them did I verify myself, rather than inherit from the actor being checked?
 - Downstream: who will act on this document, and what does each reader need in order to act?
