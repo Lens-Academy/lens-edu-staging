@@ -5,8 +5,8 @@ topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
 stage: intermediate
 {++{"author":"James's AI","timestamp":1790257157697}@@authors:
   - Elias+Claude
-++}tags:
-  - {--{"author":"James's AI","timestamp":1790257157697}@@skill-tree-placeholder--}{++{"author":"James's AI","timestamp":1790257157697}@@wip++}
+++}{--{"author":"James's AI","timestamp":1790257642768}@@tags:
+  - skill-tree-placeholder--}
 ---{++{"author":"James's AI","timestamp":1790257345729}@@
 ## Test:
 id:: b7fe629d-d045-4c77-a4fc-077d40ff07cd

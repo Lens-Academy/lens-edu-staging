@@ -7,8 +7,8 @@ stage: intermediate
   - "[[Trusted versus untrusted models]]"
 authors:
   - Elias+Claude
-++}tags:
-  - {--{"author":"James's AI","timestamp":1790257158782}@@skill-tree-placeholder--}{++{"author":"James's AI","timestamp":1790257158782}@@wip++}
+++}{--{"author":"James's AI","timestamp":1790257643721}@@tags:
+  - skill-tree-placeholder--}
 ---{++{"author":"James's AI","timestamp":1790257346961}@@
 ## Test:
 id:: e1f74c84-5fb3-46d3-bb61-532c6de76031

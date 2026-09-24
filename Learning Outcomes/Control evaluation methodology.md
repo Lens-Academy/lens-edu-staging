@@ -7,8 +7,8 @@ stage: intermediate
   - "[[Control as a distinct safety case]]"
 authors:
   - Elias+Claude
-++}tags:
-  - {--{"author":"James's AI","timestamp":1790257159886}@@skill-tree-placeholder--}{++{"author":"James's AI","timestamp":1790257159886}@@wip++}
+++}{--{"author":"James's AI","timestamp":1790257644492}@@tags:
+  - skill-tree-placeholder--}
 ---{++{"author":"James's AI","timestamp":1790257473990}@@
 ## Test:
 id:: bef51ab6-46c4-4f81-89c8-fc22d8298a38
