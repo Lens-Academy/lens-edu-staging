@@ -90,10 +90,10 @@ thread each point to the readers who need it.
 id:: cec5c7fa-f530-4f33-83da-cadb4b7115a2
 content:: **Actor–authority–evidence map** (Map, about 700 words)
 
-{--{"author":"Turner's AI","timestamp":1790272988458}@@Actor–authority–evidence map for any --}{++{"author":"Turner's AI","timestamp":1790272988458}@@Pick one element of the advanced-AI supply chain, anywhere from chip fabrication to a training run, and name it. List the actors involved in that ++}element as rows. For each actor, record:
+Pick one element of the advanced-AI supply chain, anywhere from chip fabrication to a training run, and name it. List the actors involved in that element as rows. For each actor, record:
 
-- the authority it holds: a jurisdiction, a licence, ownership of {++{"author":"Turner's AI","timestamp":1790272988458}@@a record, or the power to interrupt;
-- the evidence that would let an outside party verify what it is doing, and whether that evidence is produced by ++}the {--{"author":"Turner's AI","timestamp":1790272988458}@@supply chain.--}{++{"author":"Turner's AI","timestamp":1790272988458}@@actor itself or held by someone else.++}
+- the authority it holds: a jurisdiction, a licence, ownership of a record, or the power to interrupt;
+- the evidence that would let an outside party verify what it is doing, and whether that evidence is produced by the actor itself or held by someone else.
 
 This output is a map, not a memo: build it as annotated rows, not paragraphs, carrying what the brief above asks each row to hold.
 assessment-instructions:: One element of the advanced-AI supply chain is chosen and named. Score three things, roughly a third each: (1) the actors involved in that element are listed as rows; (2) each row states the authority that actor holds (a jurisdiction, a licence, ownership of a record, the power to interrupt); (3) each row states the evidence that would let an outside party verify what the actor is doing, and whether that evidence is produced by the actor itself or held by someone else. Reward rows that separate self-reported evidence from independently held evidence, the distinction this lesson teaches.
