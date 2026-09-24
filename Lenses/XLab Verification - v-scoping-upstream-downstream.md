@@ -101,7 +101,7 @@ content::
 [[../Lenses/XLab Verification - v-context-distiller|The next page]] is that exercise. Four reports are on the table; you pick one and
 work the whole chain: clip the facts that would change what a reader does,
 distil them, name who the report was built from and who reads it next, then
-thread each point to the readers who need it.{>>{"author":"Turner's AI","timestamp":1790276613255}@@Layout fix 3/3: the Distiller pointer now comes after the map. This replaces the line "XLab ++}also lists two written outputs for this lesson without {--{"author":"Turner's AI","timestamp":1790276613255}@@briefs:--}{++{"author":"Turner's AI","timestamp":1790276613255}@@briefs…", which reads as++} a {--{"author":"Turner's AI","timestamp":1790276613255}@@600-word case briefing on actors,--}{++{"author":"Turner's AI","timestamp":1790276613255}@@porting note shown to learners++} and {--{"author":"Turner's AI","timestamp":1790276613255}@@an optional 600-word written output.--}{++{"author":"Turner's AI","timestamp":1790276613255}@@adds to the "what brief?" confusion. Reject this part if that line should stay.<<}++}
+thread each point to the readers who need it.
 
 #### Text
 content::
