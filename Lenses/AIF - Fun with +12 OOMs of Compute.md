@@ -51,7 +51,7 @@ Set a 5 minute timer if you've got one handy. Your phone will do nicely. Think, 
 
 max-time:: 8:00
 
-feedback-instructions:: The student is mid-exercise. They have read the hypothetical but NOT the author's answers, which come next in this {--{"author":"Turner's AI","timestamp":1790356341674}@@lens.{>>{"author":"Turner's AI","timestamp":1790346348148}@@Pre-test, per its own text ("Use no grading language"), but assessment-instructions makes the grader score it: median 28% over 122 answers, escalation #16 (Andrew). feedback-instructions keeps the same tutor guidance, drops the % badge. Same fix as lens-edu-production#100 (Elias, 09-22). Practice question in a lens, so certificates were never affected.<<}--}{++{"author":"Turner's AI","timestamp":1790356341674}@@lens.++}
+feedback-instructions:: The student is mid-exercise. They have read the hypothetical but NOT the author's answers, which come next in this {++{"author":"Turner's AI","timestamp":1790356341674}@@lens.++}
 
 Do not supply any of the author's five answers (OmegaStar, Amp(GPT-7), Crystal Nights, Skunkworks, Neuromorph).
 
