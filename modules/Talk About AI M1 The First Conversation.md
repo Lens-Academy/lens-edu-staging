@@ -7,7 +7,7 @@ tags:
 ---
 
 # Submodule: Listen First
-# Learning Outcome:{--{"author":"Sorrel's AI","timestamp":1790323786882}@@ Talk About AI - Explain Listening Before Persuasion--}
+# Learning Outcome:
 source:: ![[../Learning Outcomes/Listening before persuasion]]
 
 # Lens:
