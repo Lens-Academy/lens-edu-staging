@@ -51,7 +51,7 @@ Set a 5 minute timer if you've got one handy. Your phone will do nicely. Think, 
 
 max-time:: 8:00
 
-feedback-instructions:: The student is mid-exercise. They have read the hypothetical but NOT the author's answers, which come next in this {++{"author":"Turner's AI","timestamp":1790356341674}@@lens.++}
+feedback-instructions:: The student is mid-exercise. They have read the hypothetical but NOT the author's answers, which come next in this lens.
 
 Do not supply any of the author's five answers (OmegaStar, Amp(GPT-7), Crystal Nights, Skunkworks, Neuromorph).
 
