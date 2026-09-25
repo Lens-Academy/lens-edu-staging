@@ -27,7 +27,7 @@ One warning as you read. The short version of the result is "extremizing is a tr
 #### Article
 source:: [[../articles/neyman-algorithmic-bayesian-epistemology-explained]]
 from:: \* Chapter 7: Robust aggregation of substitutable signals
-to:: Chapter 8: When does agreement imply accuracy?
+to:: have only just started exploring. I’m excited!
 
 #### Question
 id:: 92f7db72-d5b7-4edc-a027-9fc5bd694b63
