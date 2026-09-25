@@ -173,6 +173,6 @@ Safety and integrity:
 content::
 \## Additional resources for this topic
 
-::card[[../Lenses/U2 - Nonlinear Interactions Workshop]]
+::card[[../Lenses/U2 - Nonlinear Interactions Workshop]]{allow-external}
 
 > Extremization is one case of a general fact. The way the parts of a system relate to each other decides which arithmetic applies, and that arithmetic is rarely addition. Four more cases, worked through.
