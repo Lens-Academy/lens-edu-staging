@@ -4,7 +4,7 @@ reading_minutes: 5
 tutor_minutes: 20
 title: What a Curve Licenses
 tldr: A colleague shows you a perfect exponential and a fourteen-month forecast. Every fact is true. Your job is to find where the argument outruns the evidence.
-summary_for_tutor: "Closes the module's wedge thread. The student is handed a plausible, correctly-reasoned extrapolation in which every stated fact is true, and must locate the exact step where the argument spends evidence it does not have. Deliberately set inside AI (a coding benchmark) because it is the practice beat; the graded transfer test for this module is set outside AI. Four load-bearing moves, any two of which pass: fit quality is silent about the unobserved range; a score near its ceiling is a different regime; construct stability; and confidence about continuation should come from an outside view on trend breaks, which the student got in the When Progress Jumps lens. A student who says the colleague is lying has misread the setup."
+summary_for_tutor: "Closes the module's wedge thread. The student is handed a plausible, correctly-reasoned extrapolation in which every stated fact is true, and must locate the exact step where the argument spends evidence it does not have. Deliberately set inside AI (a coding benchmark) because it is the practice beat; the graded transfer test for this module is set outside AI. Four load-bearing moves, any two of which pass: fit quality is silent about the unobserved range; a score near its ceiling is a different regime; construct stability; and confidence about continuation should come from an outside view on trend breaks. No reading before this page teaches base rates for trend breaks, so treat that move as one the student may or may not bring. A student who says the colleague is lying has misread the setup."
 authors:
   - Lauren+Claude
 ---
@@ -33,7 +33,7 @@ Where does the argument stop being licensed by the data? And what would you have
 
 max-time:: 10:00
 
-assessment-instructions:: The student has completed the compute lens (Fun with +12 OOMs, what compute buys) and the base-rates lens (When Progress Jumps, base rates for discontinuities). Those are the tools this wedge wants. Refer to lenses by name, never by number; numbering conventions differ across files.
+assessment-instructions:: The student has completed the compute lens (Fun with +12 OOMs, what compute buys) and How Long A Task (the METR task-length curve). Those are the tools this wedge wants. The student has not been assigned a reading on base rates for trend breaks, so do not expect one. Refer to lenses by name, never by number; numbering conventions differ across files.
 
 This is a deliberate wedge, not the test question. It hands the student a plausible-sounding but flawed extrapolation in which every stated fact is true, and asks them to locate where the license runs out.
 
@@ -41,9 +41,9 @@ Four load-bearing moves. ANY TWO of them pass:
 1. Fit quality is silent about the unobserved range. R-squared 0.97 licenses interpolation inside the measured range, not a claim about the next fourteen months.
 2. A score approaching its ceiling is a different regime. The benchmark tops out at 100 by construction, so the remaining 39 points are not interchangeable with the last 39.
 3. Construct stability: whether the quantity being measured at 61 is the same skill it will be at 95. Saturating a benchmark and solving the underlying capability are different claims, and only the first is in what the colleague told them.
-4. Confidence about continuation should come from an outside view on how often strong regular trends break, which the student has from When Progress Jumps, rather than from the quality of the fit.
+4. Confidence about continuation should come from an outside view on how often strong regular trends break, which the student may bring from their own knowledge, rather than from the quality of the fit.
 
-Reward a student who connects to When Progress Jumps unprompted, for example "one large discontinuity per thousand trend-years, but this could be the affected kind".
+Reward a student who brings an outside view unprompted, for example "how often have trends this clean broken in other fields?".
 
 Note for the grader: move 2 as stated is our expectation, not a measured fact about this fictional benchmark. A strong student may argue that the residual items are not harder, and if they argue it well that is a pass, not an error.
 
