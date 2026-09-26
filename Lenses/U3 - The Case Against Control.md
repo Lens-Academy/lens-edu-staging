@@ -14,6 +14,7 @@ glossary_terms:
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Before you read
 
 A large part of the safety field works on AI control, and this lens is where you decide
@@ -37,6 +38,19 @@ length in "The case for ensuring that powerful AIs are controlled". You meet Gre
 again in Unit 4.
 
 Two objections follow. Read them as arguments to weigh, not as the verdict.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
+%%
+
+\## Before you read
+
+A large part of the safety field works on AI control. In this lens, you'll decide what you think of it.
+
+Here's the idea. Assume the AI system might be misaligned, and set up its deployment so that it can't cause a catastrophe even if it is. That can mean monitoring it, restricting its permissions, having one model check another, or giving untrusted models tasks where cheating can be detected. Control doesn't try to give the system the right goals. Instead, it tries to make sure that a system with the wrong goals still can't do serious harm.
+
+The case for control is strong, and you should know it before you read the objections. Control doesn't require solving alignment, and nobody knows how to do that yet. It works on systems we can build now, instead of systems we hope to understand later. Its measures can be tested: you can red-team a monitoring setup and count how often it fails, which is more than most safety proposals can offer. And if the first AI systems able to cause serious harm are only somewhat superhuman, keeping them contained may be enough to get useful work out of them. That includes work on the alignment problem itself. Ryan Greenblatt and Buck Shlegeris, two researchers at Redwood Research who built much of the control agenda, make this case in detail in "The case for ensuring that powerful AIs are controlled". You'll meet Greenblatt again in Unit 4.
+
+The two readings below are objections to control. Treat them as arguments for you to weigh. They don't settle the question.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
 

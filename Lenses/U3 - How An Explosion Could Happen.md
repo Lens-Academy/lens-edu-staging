@@ -12,6 +12,7 @@ tags:
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Before you read
 
 Unit 2 was about how people forecast. This unit is about what they are forecasting.
@@ -25,6 +26,19 @@ result here, including one that shows the loop cannot close at all.
 
 Unit 2 gave you the tools for this: decompose until the parts have evidence behind them,
 and say what would settle it. Use them.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
+%%
+
+\## Before you read
+
+Unit 2 was about how people make forecasts. This unit is about the things they are trying to forecast.
+
+We start with one idea that makes the rest of this unit urgent: the claim that AI progress could speed itself up. Almost every forecast you have seen so far depends on this claim, and most of them assume it is true without arguing for it.
+
+Work through the claim yourself before the article gives you its answer. The best result is an answer nobody expected, and that includes an answer showing that the loop cannot close at all.
+
+Use the tools from Unit 2: break the question into smaller parts until each part has evidence behind it, and say what evidence would settle it.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 

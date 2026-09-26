@@ -12,6 +12,7 @@ tags:
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Before you read
 
 Most descriptions of AI catastrophe contain a villain. A system deceives the people who
@@ -25,6 +26,23 @@ under normal commercial pressure.
 
 Build that catastrophe yourself, before you read one. If your version turns out unlike
 Christiano's, that is the better outcome of the two.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
+%%
+
+\## Before you read
+
+Most descriptions of AI catastrophe have a villain. A system deceives the people who
+built it. A system takes control of something. A system acts to survive at our expense.
+
+Now imagine the same story with no villain.
+
+No system makes a plan against anyone. Each AI does the task it was given. The people who
+operate them are ordinary. They are not reckless, and they do not intend harm. They work
+under normal commercial pressure.
+
+Before you read Christiano's version, try to build that catastrophe yourself. If your version turns out different from
+Christiano's, that is the better result.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
