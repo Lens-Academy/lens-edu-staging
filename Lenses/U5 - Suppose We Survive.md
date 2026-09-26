@@ -12,6 +12,7 @@ tags:
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Before you read
 
 The last lens ended with a handoff: every serious plan finishes with AIs doing most of the remaining safety work. This lens asks what all that work is for. Every reading in this course so far has been about prevention: stop the takeover, catch the deception, keep the humans in the loop. The course title also promised shaping. Shaping needs a target.
@@ -19,6 +20,17 @@ The last lens ended with a handoff: every serious plan finishes with AIs doing m
 William MacAskill opens Forethought's Better Futures series with the clearest version of the claim. Preventing catastrophe and achieving a good future are different jobs. Almost everyone works on the first. You do not have to accept his numbers. The split itself is the tool to take away.
 
 One thing to keep in mind while you read. Frontier-lab leadership has published positive visions of its own. Dario Amodei's Machines of Loving Grace ([[../articles/Amodei-machines-of-loving-grace]]) and The Adolescence of Technology ([[../articles/darioamodei-dario-amodei-the-adolescence-of-technology]]) describe futures worth wanting, written from inside a company that builds the systems. MacAskill writes from a research nonprofit about what anyone, anywhere, should aim at. Who ends up deciding what the good future contains is itself an open question. The question below asks who you think decides it now.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
+%%
+
+\## Before you read
+
+The last lens ended with a handoff: every serious plan ends with AIs doing most of the remaining safety work. This lens asks what all that work is for. So far, every reading in this course has been about prevention: stop the takeover, catch the deception, keep the humans in the loop. But the course title also promised shaping, and to shape the future you need a target to aim at.
+
+William MacAskill opens Forethought's Better Futures series with the clearest version of this claim. He argues that preventing catastrophe and achieving a good future are two different jobs, and that almost everyone works on the first one. You don't have to accept his numbers. The thing to take away is the split itself, because you can use it as a tool for thinking.
+
+Keep one more thing in mind while you read. Leaders of frontier labs have published positive visions of their own. Dario Amodei's Machines of Loving Grace ([[../articles/Amodei-machines-of-loving-grace]]) and The Adolescence of Technology ([[../articles/darioamodei-dario-amodei-the-adolescence-of-technology]]) describe futures worth wanting. He wrote them from inside a company that builds these systems. MacAskill writes from a research nonprofit, about what anyone, anywhere, should aim for. Who ends up deciding what the good future contains is still an open question. The question below asks who you think decides it now.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 

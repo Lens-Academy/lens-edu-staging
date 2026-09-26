@@ -14,6 +14,7 @@ glossary_terms:
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Before you read
 
 The last lens put ten people inside one lab. This one gives the decision to the largest
@@ -39,6 +40,36 @@ help. You will have your own answer to that last question before they give you t
 Here is a related state strategy, for later rather than now. What if the plan is for
 states to threaten each other's datacenters instead? Oscar Delaney's [Crucial considerations in ASI deterrence](https://oscardelaney.substack.com/p/crucial-considerations-in-asi-deterrence)
 takes that idea seriously.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the authors' own work.*
+%%
+
+\## Before you read
+
+The last lens put ten people inside one lab. This one hands the decision to the biggest
+actor there is: the state.
+
+This idea is now mainstream. Congressional commissions, government agencies and AI
+company CEOs have called for a Manhattan Project for AGI. That means a national effort
+to make sure the United States builds AGI before China does.
+
+The strongest version of the case is Leopold Aschenbrenner's essay Situational Awareness
+(https://situational-awareness.ai/). He argues that AGI is the decisive
+national-security technology of the century. On his view, no private company can
+protect it from state espionage, and no private company can be trusted with what comes
+after. So he concludes that the US government must run the final stage, as it ran the
+atomic bomb project. The essay takes hours to read, it argues only one side, and it
+changed opinions in Washington. Follow the link if you want to see the position at full
+strength.
+
+Today's reading is shorter, and it argues the opposite. Its authors asked professional
+forecasters two questions: how likely is a government-led AGI project, and what form
+would it take? Then the authors give their own argument about whether such a project
+would help. You will write your own answer to that last question before you read theirs.
+
+There is also a related state strategy, which you can save for later. What if the plan
+is for states to threaten each other's datacenters instead? Oscar Delaney's [Crucial considerations in ASI deterrence](https://oscardelaney.substack.com/p/crucial-considerations-in-asi-deterrence)
+looks at that idea seriously.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the authors' own work.*
 

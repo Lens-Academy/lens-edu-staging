@@ -12,11 +12,23 @@ tags:
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Before you read
 
 You are about to write a theory of change for one lever. Before you do, read what happened to the last generation's.
 
 This is part 2 of Richard Ngo's retrospective. Part 1 (in Unit 3) said the alignment community pushed the world the wrong way while believing the opposite. This part names the mechanism he thinks did it, and ends with the rules he now uses to decide what is worth doing. The course does not take his side. Several of the people he names have replied, and the account is contested. Read it as a plan's post-mortem written by someone who was inside it.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
+%%
+
+\## Before you read
+
+You are about to write a theory of change for one lever. Before you do, read what happened to the theories of change of the generation before you.
+
+This is part 2 of Richard Ngo's retrospective. In part 1 (in Unit 3), he argued that the alignment community pushed the world in the wrong direction while believing it was doing the opposite. In this part, he names the mechanism he thinks caused that. He ends with the rules he now uses to decide what work is worth doing.
+
+The course does not take his side. Several of the people he names have replied, and they dispute his account. Read it as a post-mortem of a plan, written by someone who was part of that plan.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
@@ -46,7 +58,11 @@ to:: like the ones I discuss at the end of this post.
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 The middle of the post, three case studies of OpenAI, DeepMind and Anthropic, is worth reading in full if you have time; the excerpt skips to his conclusions.
+%%
+
+The excerpt skips the middle of the post, which has three case studies: OpenAI, DeepMind and Anthropic. If you have time, that part is worth reading in full. The next excerpt picks up at his conclusions.
 
 #### Article
 from:: Above, I’ve recounted how the standards for what counts as “alignment research” have fallen dramatically over time.

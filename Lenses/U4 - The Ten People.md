@@ -12,6 +12,7 @@ tags:
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Before you read
 
 The list of plans that opened this unit got shorter as political will fell. This
@@ -28,6 +29,17 @@ Read it as an inventory, not a recommendation. It is not an argument that inside
 enough. It is also not an argument for giving up on treaties and governments. It is a
 count of the influence that remains after those larger plans have failed. Before he
 counts it, count it yourself.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
+%%
+
+\## Before you read
+
+This unit opened with a list of plans. The list got shorter as political will fell. This reading describes the bottom of that list. In this scenario, no treaty arrives and no government acts. The company will not slow down. Its leadership mentions misalignment risk but makes no real effort to solve it.
+
+What is left is ten people inside the company who take the risk seriously. Buck Shlegeris asks what those ten should do with the little they have. He is not asking how to fix the whole situation. He is asking how they can buy some risk reduction at the margin, on a small budget, without getting fired.
+
+Treat the reading as an inventory. It counts the influence that is still available after the larger plans have failed. It does not recommend this approach, and it does not argue that insiders are enough. It also does not argue that you should give up on treaties and governments. Before you read his count, make your own in the exercise below.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
