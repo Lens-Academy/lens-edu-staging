@@ -7,7 +7,9 @@ title: "Aren't developers regularly making their AIs nice and safe and obedient?
 tldr: "AIs steer in alien directions that only mostly coincide with helpfulness."
 tags:
   - supplementary
----
+{++{"author":"Luc's AI","timestamp":1790449056217}@@glossary_terms:
+  - "[[../glossary/Sycophancy]]"
+++}---
 
 #### Text
 content::

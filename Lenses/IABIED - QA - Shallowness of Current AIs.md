@@ -7,7 +7,9 @@ summary_for_tutor: "Documents specific weaknesses in current AI systems: getting
 title: The Shallowness of Current AIs
 tags:
   - supplementary
----
+{++{"author":"Luc's AI","timestamp":1790449055025}@@glossary_terms:
+  - "[[../glossary/Large language model]]"
+++}---
 
 #### Text
 content::

@@ -7,7 +7,9 @@ title: "Instrumental Convergence"
 tldr: "Almost any goal gets easier if you stay alive, gather resources, and stop anyone from switching you off. That is why the authors think they can predict an AI's dangerous behavior without knowing what it ultimately wants."
 tags:
   - supplementary
----
+{++{"author":"Luc's AI","timestamp":1790449057742}@@glossary_terms:
+  - "[[../glossary/Terminal goal]]"
+++}---
 #### Text
 content::
 Regardless of what terminal goals an ASI ends up with, certain instrumental strategies (like self-preservation, resource acquisition, preventing competing superintelligences, and hiding its activities) are useful for almost any goal. This "instrumental convergence" means we can predict dangerous AI behavior without knowing its deepest motives, and the predictions are bad news for humanity.

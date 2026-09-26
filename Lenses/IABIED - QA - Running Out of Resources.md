@@ -7,7 +7,9 @@ title: "But won't we run out of data before AI goes all the way? Or electrical p
 tldr: "Probably not."
 tags:
   - supplementary
----
+{++{"author":"Luc's AI","timestamp":1790449055462}@@glossary_terms:
+  - "[[../glossary/Compute]]"
+++}---
 
 #### Text
 content::

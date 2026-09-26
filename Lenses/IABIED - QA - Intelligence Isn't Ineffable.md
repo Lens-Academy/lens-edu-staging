@@ -7,7 +7,9 @@ title: "Intelligence Isn't Ineffable"
 tldr: "Is intelligence too mysterious to ever understand? The authors say no, and note that claims of ineffability have a dismal track record in science. Four arguments for why minds are intelligible in principle, even though we are nowhere near there yet."
 tags:
   - supplementary
----
+{++{"author":"Luc's AI","timestamp":1790449055858}@@glossary_terms:
+  - "[[../glossary/AI alignment]]"
+++}---
 #### Text
 content::
 This article argues that intelligence is understandable in principle, even though we are far from understanding it today. It gives four reasons: claims of ineffability have a terrible track record in science, intelligence exhibits repeatable structure and regularities, there are missing levels of abstraction in our understanding of human cognition that should be fillable, and there has already been real progress in understanding intelligence through fields like information theory and cognitive science.

@@ -7,7 +7,9 @@ title: "But aren't there big obstacles to reaching superintelligence?"
 tldr: "It isn't clear."
 tags:
   - supplementary
----
+{++{"author":"Luc's AI","timestamp":1790449054642}@@glossary_terms:
+  - "[[../glossary/Neural network]]"
+++}---
 
 #### Text
 content::
