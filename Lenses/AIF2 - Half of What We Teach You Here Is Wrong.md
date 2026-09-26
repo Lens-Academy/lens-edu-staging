@@ -10,6 +10,7 @@ authors:
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Half of what we teach you here is wrong
 
 Across fields of scientific education, professors can sometimes be heard quoting the line: "Half of what we're going to tell you is wrong, and we don't know which half. That's for you to figure out."
@@ -23,9 +24,25 @@ Sometimes you'll be one of the ones who are wrong.
 We're gonna have you read various perspectives and try to construct your own as you go, but it's important to regularly remind yourself: these people have been at it for a while, being 50% wrong the whole time.
 
 Except 50% is just what the quote says. Could even be worse. Science is always wrong, but over time, with effort, can become less wrong.
+%%
+
+\## Half of what we teach you here is wrong
+
+In many science programs, you can hear professors quote this line: "Half of what we're going to tell you is wrong, and we don't know which half. That's for you to figure out."
+
+Everyone who is trying to make AI turn out well is new to it. That's why we need your help at all. If we could teach you exactly how things will go, or what you can confidently do about it, we would just tell you and be done.
+
+What we really need is for you to look at a situation and quickly work out for yourself what will help. You'll need to do that even when others push you to agree with them. They are also working it out as they go, and many of them will be wrong.
+
+Sometimes you'll be one of the people who are wrong.
+
+We'll have you read many different views and build your own view as you go. While you do, keep reminding yourself: the people you're reading have been at this for a while, and they have been about 50% wrong the whole time.
+
+And 50% is only the number from the quote. It could be worse. Science is always partly wrong, but with time and effort it can become less wrong.
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Why we'll make you guess first
 
 Before asking you to read some articles, we'll test you on what the article contains, even though you haven't read the article yet. That's quite intentional. Research consistently shows a "pre-testing effect": testing your ability to invent an idea before encountering it seems to make it stick to your brain better.
@@ -35,14 +52,33 @@ But of course, just because the article makes a claim, does not mean that claim 
 So we'll ask you to tell us what the article contains, before you read it. If you have already read an article, this is still helpful. If you're interested in learning more, try to guess what's on the wikipedia page about the Testing Effect, then look it up.
 
 Pre-tests aren't graded.
+%%
+
+\## Why we'll make you guess first
+
+Before you read some of the articles, we'll quiz you on what they say, even though you haven't read them yet. We do this on purpose. Research consistently shows a "pre-testing effect": if you try to come up with an idea yourself before you see it, you seem to remember it better.
+
+Of course, an article making a claim doesn't mean the claim is true. When you guess what an article will say, you're guessing what one specific person was thinking. You'll guess best if you also think about the real-world situation that person was thinking about.
+
+So we'll ask you what an article says before you read it. If you've already read the article, the exercise still helps. Want to learn more? Try to guess what the Wikipedia page on the Testing Effect says, then look it up.
+
+Pre-tests aren't graded.
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## What the numbers in this unit are for
 
 This unit is mostly numbers: how much compute, how long a task, how fast the curve. They are the part of the future everyone shows you, and they are shown because they are the part that can be measured. That is not a reason to distrust them. It is a reason to be exact about what they can and cannot license.
 
 A curve tells you what continues if nothing intervenes. It cannot tell you who intervenes, what they want, or what happens in the parts of the world nobody has measured. This course is about that second part: what to do, given numbers like these and a great deal that no number covers. Keep that question with you through this unit; the last page comes back to it.
+%%
+
+\## What the numbers in this unit are for
+
+This unit is mostly numbers: how much compute, how long a task AI can do, how fast the curve is rising. These are the parts of the future that people usually show you, because they are the parts we can measure. That doesn't mean you should distrust them. It means you should be careful about exactly what conclusions they support and what conclusions they don't.
+
+A curve tells you what will keep happening if nobody steps in to change it. It can't tell you who will step in, what they want, or what happens in the parts of the world that nobody has measured. This course is about that second part: what to do, given numbers like these plus a lot that no number covers. Keep that question in mind as you go through this unit. We'll come back to it on the last page.
 
 #### Text
 content::
