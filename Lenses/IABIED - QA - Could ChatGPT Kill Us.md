@@ -7,7 +7,9 @@ title: "Are you suggesting that ChatGPT could kill us all?"
 tldr: "No. The worry is about forthcoming advances in AI."
 tags:
   - supplementary
----
+{++{"author":"Luc's AI","timestamp":1790449053547}@@glossary_terms:
+  - "[[../glossary/Intelligence explosion]]"
+++}---
 
 #### Text
 content::

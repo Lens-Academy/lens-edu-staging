@@ -7,7 +7,9 @@ title: "When is this worrisome sort of AI going to be developed?"
 tldr: "Knowing that a technology is coming doesn't grant knowledge of exactly when it's coming."
 tags:
   - supplementary
----
+{++{"author":"Luc's AI","timestamp":1790449053930}@@glossary_terms:
+  - "[[../glossary/Machine learning]]"
+++}---
 
 #### Text
 content::

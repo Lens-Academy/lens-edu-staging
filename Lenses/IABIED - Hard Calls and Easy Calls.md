@@ -9,7 +9,9 @@ authors:
   - Chris+Claude
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/00 - Introduction - Hard Calls and Easy Calls]]"
----
+{++{"author":"Luc's AI","timestamp":1790449053171}@@glossary_terms:
+  - "[[../glossary/AGI]]"
+++}---
 #### Text
 content::
 \## Reading Assignment

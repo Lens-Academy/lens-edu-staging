@@ -9,7 +9,9 @@ authors:
   - Claude
 tags:
   - reading
----
+{++{"author":"Luc's AI","timestamp":1790449052366}@@glossary_terms:
+  - "[[../glossary/Decisive strategic advantage]]"
+++}---
 #### Text
 content::
 \## Before you read

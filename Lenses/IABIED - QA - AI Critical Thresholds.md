@@ -7,7 +7,9 @@ title: "Will AI cross critical thresholds and take off?"
 tldr: "Probably."
 tags:
   - supplementary
----
+{++{"author":"Luc's AI","timestamp":1790449054302}@@glossary_terms:
+  - "[[../glossary/Parameter]]"
+++}---
 
 #### Text
 content::

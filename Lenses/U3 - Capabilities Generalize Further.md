@@ -9,7 +9,10 @@ authors:
   - Claude
 tags:
   - reading
----
+{++{"author":"Luc's AI","timestamp":1790449051576}@@glossary_terms:
+  - "[[../glossary/Sharp left turn]]"
+  - "[[../glossary/Corrigible]]"
+++}---
 #### Text
 content::
 \## Before you read

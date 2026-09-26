@@ -7,7 +7,9 @@ tldr: Before arguing about when AI arrives, find out what your own model says co
 summary_for_tutor: "Administers Daniel Kokotajlo's own exercise from Fun with +12 OOMs of Compute rather than inventing a parallel one. Sequence: frame, then his hypothetical (the Compute Fairy grants twelve orders of magnitude of compute) read up to and stopping at his exercise, then the student does the exercise under a real five-minute timer, then his five answers (OmegaStar, Amp(GPT-7), Crystal Nights, Skunkworks, Neuromorph), then a diff of their list against his, then his Question Two payoff (his 90 percent, inside view 99, against Ajeya's 50), then the student commits to their own number with named movers. The tutor must not leak his five answers during the attempt beat. The design point is that the exercise probes the student, not the future."
 authors:
   - Lauren+Claude
----
+{++{"author":"Luc's AI","timestamp":1790449050412}@@glossary_terms:
+  - "[[../glossary/Parameter]]"
+++}---
 #### Text
 content::
 \## Remove a bottleneck and see what a model predicts

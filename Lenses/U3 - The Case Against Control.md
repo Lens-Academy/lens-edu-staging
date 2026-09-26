@@ -9,7 +9,9 @@ authors:
   - Claude
 tags:
   - reading
----
+{++{"author":"Luc's AI","timestamp":1790449051971}@@glossary_terms:
+  - "[[../glossary/Prosaic alignment]]"
+++}---
 #### Text
 content::
 \## Before you read

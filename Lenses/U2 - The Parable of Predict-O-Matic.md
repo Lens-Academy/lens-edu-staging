@@ -6,7 +6,10 @@ tldr: "A predictor that people believe can influence the future it predicts, blu
 summary_for_tutor: "Optional reading of Abram Demski's parable about a prediction machine whose outputs change the system it predicts. The learner was asked to notice when the machine begins doing something other than predicting."
 authors:
   - Claude
----
+{++{"author":"Luc's AI","timestamp":1790449042370}@@glossary_terms:
+  - "[[../glossary/Oracle]]"
+  - "[[../glossary/Reinforcement learning]]"
+++}---
 
 #### Text
 content::
