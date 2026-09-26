@@ -36,6 +36,7 @@ summary_for_tutor:: "Introduces Unit 2 (v2). Frames prediction and control as tw
 reading_minutes:: 3
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## What this unit is for
 
 Unit 1 laid out what could happen. This one asks how anyone could know, and what knowing is for.
@@ -51,6 +52,29 @@ The harder skill is reading. Much of what you will read about AI futures this ye
 The unit ends with what happens to a forecast when the thing being forecast, a lab, a government, a market, can read the forecast and react to it.
 
 The mathematics of forecasting is real and useful: how to break a question into parts, how to pick a comparison class, when a trend line stops being licensed by its data, how to combine estimates that share a source. It lives in the optional Forecasting Methods module, linked from the end of this unit. Nothing in Units 3 to 5 depends on it. Take it if you want to make forecasts, not only judge them.
+%%
+
+\## What this unit is for
+
+Unit 1 laid out what could happen. This unit asks two questions: how could anyone know what will happen, and what is that knowledge for?
+
+Start with a gap between what you expected and what the world actually did. You can close that gap in two ways. You can change your expectation, or you can change the world. Prediction is the first way: you adjust your estimates (dates, probabilities, magnitudes) until they match what is likely. Control is the second way: you adjust your actions until the likely outcome is one you chose. This course teaches control. It teaches forecasting only because you can't steer toward a world you can't picture.
+
+So each method in this unit has to earn its place by changing a decision. If a forecast doesn't change any decision you make, it isn't doing useful work for you.
+
+The track record of AI predictions is bad. The mistakes also follow a pattern; they are not random. This unit starts with that pattern. The first two readings look at what actually predicts how accurate a forecaster will be. The answer is not what most people guess.
+
+Reading is the harder skill. This year you will read a lot about AI futures, and AIs wrote some of it. Much of that text is not testimony. Testimony is someone reporting what they observed. Most writing about AI futures is one of three other things:
+
+- **Argument:** someone reasoning from premises.
+- **Incentive:** someone whose position depends on you believing it.
+- **Filler:** words that make no claim you could check.
+
+The skill is to look at a text and sort it into one of these four bins. Watch for one more disguise: a plan presented as a forecast. Here someone describes a future they intend to bring about as if they were only expecting it. Unit 4 works through an example of this.
+
+The unit ends with a question: what happens to a forecast when the thing being forecast (a lab, a government, a market) can read the forecast and react to it?
+
+The mathematics of forecasting is real and useful. It covers how to break a question into parts, how to pick a comparison class, when the data stops supporting a trend line, and how to combine estimates that share a source. You will find it in the optional Forecasting Methods module, linked from the end of this unit. Nothing in Units 3 to 5 depends on it. Take it if you want to make your own forecasts as well as judge other people's.
 
 # Lens: What Would Settle It - PQ
 source:: [[../Lenses/U2 - What Would Settle It - PQ]]

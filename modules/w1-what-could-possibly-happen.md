@@ -63,7 +63,11 @@ min_chat_messages:: 3
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 This page is a conversation with the tutor rather than a reading, and nothing in it is graded. Before you start, think of one decision someone in your field will make in the next twelve months that quietly assumes AI capability stays roughly where it is: a hire, a research agenda, a product, a curriculum, a law. The tutor will build a short case from it, move the world forward a few years, and ask what you would do differently.
+%%
+
+On this page you talk with the tutor instead of reading, and nothing here is graded. Before you start, think of one decision that someone in your field will make in the next twelve months. Pick a decision that assumes, without saying so, that AI capability will stay roughly where it is now. It could be a hire, a research agenda, a product, a curriculum or a law. The tutor will build a short case from your example, move the world forward a few years, and ask what you would do differently.
 
 #### Chat
 instructions::
@@ -85,11 +89,19 @@ reading_minutes:: 2
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## One door we keep walking past
 
 Everything in this module treated AI capability as a curve to be forecast. There is a whole field that asks the prior question: what makes a mind steerable at all, and how would you know you had done it. If that question pulled at you harder than the curves did, the path into it is real and open, and this course will keep the signposts visible as we go. For now: back to the curves. You can't steer what you can't see coming.
 
 One more thing before you leave the numbers behind. Richard Ngo, whose retrospective you will read in Unit 3, argues that the field which produced most of this unit's readings spent a decade showing the numbers and rarely asked what to do given them. You do not have to agree with him. You do have to be able to ask that question yourself, and the rest of this course is where you practise it.
+%%
+
+\## One door we keep walking past
+
+Everything in this module has treated AI capability as a curve that you try to forecast. But there is a whole field that asks an earlier question: what makes a mind steerable at all, and how would you know if you had succeeded? If that question interested you more than the curves did, you can really get into that field, and the way in is open to you. As we go, this course will keep pointing out where that path starts. For now, though, we're going back to the curves, because you need to see what's coming before you can steer it.
+
+One more thing before you leave the numbers behind. Richard Ngo (you'll read his retrospective in Unit 3) argues that the field that produced most of this unit's readings spent ten years showing the numbers, but rarely asked what to do about them. You don't have to agree with him. But you do need to be able to ask that question yourself: given these numbers, what should we do? The rest of this course is where you'll practise asking it.
 
 # Learning Outcome
 source:: [[../Learning Outcomes/Trajectories with mechanisms and falsifiers]]

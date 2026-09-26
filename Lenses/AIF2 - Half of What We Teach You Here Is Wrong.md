@@ -82,6 +82,7 @@ A curve tells you what will keep happening if nobody steps in to change it. It c
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## What this costs, and who else is here
 
 Units are targeted to take about three hours, mostly reading, with some time spent on writing your answers. But people vary a lot on how long it takes them to finish, so don't worry about it if it takes you longer.
@@ -91,6 +92,17 @@ Unless you're speedrunning the course on your own, you're in a cohort of other s
 The course has five units. The group will work through them at a steady pace over the next weeks (or days, if you chose intensive).
 
 One more thing about this course: it is about what to do, not only about what will happen. Forecasting is the inert tense: what will happen. Strategy is the active tense: what you do about it. Every unit ends with you deciding something, and the readings are there to make your decisions better, not to be recited back.
+%%
+
+\## What this costs, and who else is here
+
+We aim for each unit to take about three hours. Most of that is reading, and some is writing your answers. People vary a lot in how long they take, so don't worry if it takes you longer.
+
+Unless you're speedrunning the course on your own, you're in a cohort with other students. You'll meet live to discuss and debate what you've learned. These meetings work best if you've already worked through the questions and can share your answers. But you're still welcome if you haven't done the readings yet. In that case the meeting just works as another pre-test.
+
+The course has five units. Your group will work through them at a steady pace over the next few weeks (or days, if you chose the intensive option).
+
+One more thing about this course: it covers what you should do, as well as what will happen. Forecasting asks what will happen. Strategy asks what you will do about it. Every unit ends with you making a decision. The readings are there to help you make better decisions. We don't want you to just repeat them back.
 
 #### Question: Open
 id:: 27ef8f6f-0325-4e8c-855c-79bb57f13f03

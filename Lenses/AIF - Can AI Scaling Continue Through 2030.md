@@ -9,7 +9,11 @@ summary_for_tutor: "Covers Epoch AI's analysis of whether the four main inputs t
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 Optional reading. Epoch AI's [Can AI Scaling Continue Through 2030?](https://epoch.ai/blog/can-ai-scaling-continue-through-2030) works through the physical constraints on continued scaling: power, chip manufacturing, training data, and money. Their tentative view is that none clearly binds before 2030, so much larger training runs stay feasible. Read it below, then argue about which limit bites first.
+%%
+
+Optional reading. Epoch AI's [Can AI Scaling Continue Through 2030?](https://epoch.ai/blog/can-ai-scaling-continue-through-2030) looks at the physical limits on making AI training runs bigger: power, chip manufacturing, training data, and money. Their tentative conclusion is that none of these limits clearly stops scaling before 2030, so much larger training runs are still possible. Read it below. Then make your case: which limit do you think will slow scaling down first?
 
 #### Article
 source:: [[../articles/sevilla-can-ai-scaling-continue-through-2030]]

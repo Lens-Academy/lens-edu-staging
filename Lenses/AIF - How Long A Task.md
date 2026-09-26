@@ -62,9 +62,15 @@ to:: both in terms of potential benefits and potential risks.
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Optional: a doubling is hard to feel
 
 Here's an excerpt of a video about what exponential processes feel like.
+%%
+
+\## Optional: a doubling is hard to feel
+
+Here's a clip from a video about what exponential processes feel like.
 
 #### Video
 source:: [[../video_transcripts/ai-in-context-were-not-ready-for-superintelligence]]
