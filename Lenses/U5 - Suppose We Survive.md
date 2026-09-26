@@ -73,11 +73,17 @@ max-time:: 5
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Now compare your answer with his
 
 One thing to watch for as you read. The argument does not say that prevention was the
 wrong bet. It says that prevention alone leaves most of the value unclaimed. Those are
 different claims, and readers regularly collapse the second into the first.
+%%
+
+\## Now compare your answer with his
+
+As you read, watch for one thing. The argument does not say that prevention was the wrong bet. It says that if we only work on prevention, we still miss out on most of the value the future could have. These are two different claims, and readers often mix them up by reading the second one as if it were the first.
 
 #### Article
 source:: [[../articles/forethought-introducing-better-futures]]

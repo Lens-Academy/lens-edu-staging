@@ -12,6 +12,7 @@ tags:
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## The rehearsal
 
 The course announcement made you a promise: by the end, you would be the person other people ask about AI over lunch. This is the rehearsal. No reading on this page, just one thing that happened, and the job of saying what it means.
@@ -21,6 +22,19 @@ Here is the development. On August 2, 2026, the California AI Transparency Act b
 At lunch, the question will not arrive with a label. Nobody will tell you whether this is important, unimportant, or important for reasons the headline missed. The skill you have been building for five units is the one that sorts this out. A new fact arrives, and your model tells you where it belongs. Or your model tells you nothing, and that is worth knowing too.
 
 You will do this again in the unit meeting, with whatever that week's headline turns out to be.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
+%%
+
+\## The rehearsal
+
+When the course was announced, it made you a promise: by the end, you would be the person other people ask about AI over lunch. This page is practice for that moment. There's no reading here. You get one thing that really happened, and your job is to say what it means.
+
+Here's what happened. On August 2, 2026, the California AI Transparency Act became operative. Large providers of generative AI systems now have to offer a free tool that lets anyone check whether a piece of content came from that provider's system. Providers also have to embed a latent disclosure in AI-generated images, video, and audio. Where it is technically feasible, that disclosure has to be permanent or extraordinarily difficult to remove. The law was first set to take effect on January 1, 2026. A follow-up bill, signed in October 2025, pushed that date back by about seven months. The same bill also phased in more duties: for platforms in 2027, and for camera makers in 2028. Primary source (the amending bill as signed): https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853
+
+At lunch, nobody will hand you a question with a label on it. No one will tell you whether this news is important, unimportant, or important for reasons the headline missed. Working that out is the skill you have been building for five units. When a new fact comes in, your model tells you where it belongs. Sometimes your model tells you nothing about it, and that is useful to know too.
+
+You'll do this again in the unit meeting, with whatever headline comes up that week.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 
