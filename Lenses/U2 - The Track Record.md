@@ -36,6 +36,7 @@ This is a one-turn response. Do not ask a follow-up. Do not invite dialogue.
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Reading Assignment
 
 **Read *How we're predicting AI, or failing to*, by Stuart Armstrong.**
@@ -43,6 +44,21 @@ content::
 This is a survey of AI predictions. Armstrong assesses the whole set together, not one prediction at a time. Look for two findings. First, what the paper says separates expert predictions from non-expert ones. Read that one with care: the authors later acknowledged it rested on a dataset coding error, and it did not survive. The expert versus non-expert split in Figure 1 is that grouping, so read those markers as the paper's claim rather than as a settled result. Second, what the predicted dates look like when you plot them against the date each prediction was made. That finding survived the correction.
 
 You can also read **Luke Muehlhauser's *The errors, insights, and lessons of famous AI predictions***. It gives the individual cases behind the pattern.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
+%%
+
+\## Reading Assignment
+
+**Read *How we're predicting AI, or failing to*, by Stuart Armstrong.**
+
+This paper surveys AI predictions. Armstrong looks at all the predictions as a group, rather than judging each one on its own. Look for two findings.
+
+First, look for what the paper says makes expert predictions different from non-expert ones. Read this part carefully. The authors later found that this finding came from a coding error in their dataset, and the finding did not hold up once the error was fixed. Figure 1 splits the predictions into expert and non-expert markers using that same grouping. So treat those markers as the paper's claim, and not as an established result.
+
+Second, look for what the predicted dates look like when you plot them against the year each prediction was made. This finding still held after the correction.
+
+You can also read **Luke Muehlhauser's *The errors, insights, and lessons of famous AI predictions***. It goes through the individual predictions that make up the pattern.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
