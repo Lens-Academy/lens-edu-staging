@@ -13,7 +13,11 @@ glossary_terms:
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 As you read, keep this question in mind: at what point does the machine start doing something other than predicting? Could anyone inside the story have identified that point at the time?
+%%
+
+As you read, keep this question in mind: at what point does the machine start doing something other than predicting? Could anyone in the story have spotted that point when it happened?
 
 #### Article
 source:: [[../articles/demski-parable-of-predict-o-matic]]

@@ -13,6 +13,7 @@ glossary_terms:
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## A real model, and its authors disagree about it
 
 Most forecasts reach you as a number. This one comes with its working shown. It is a model of when AI automates coding, and of what happens after that. The people who built it had published a different answer nine months earlier. They then moved their own median three to five years later.
@@ -22,6 +23,17 @@ That makes it useful twice. It is useful for what it concludes. It is also usefu
 One term before you start. The authors write "AGI" throughout: artificial general intelligence, their name for an AI that can do most of what a human professional does at a computer. The model itself is about a narrower milestone, an AI that does the coding part of AI research on its own.
 
 Before you read any of it, you build your own version of their set of methods.
+%%
+
+\## A real model, and its authors disagree about it
+
+Most forecasts you see are just a number. This one shows its working. It is a model of when AI will automate coding, and of what happens after that. Nine months before this, the same people had published a different answer. With the new model, they moved their own median three to five years later.
+
+That makes it useful in two ways. First, you can learn from what it concludes. Second, you can see how a forecast like this gets built, including the places where two people run the same model and get different numbers.
+
+One term before you start. The authors write "AGI" throughout. It stands for artificial general intelligence, and they use it to mean an AI that can do most of what a human professional does at a computer. The model itself is about a narrower milestone: an AI that does the coding part of AI research on its own.
+
+Before you read any of their work, you will make your own version of their list of forecasting methods.
 
 #### Question
 id:: 0718d0de-6524-4ab6-be19-20fb05f56fca
