@@ -7,7 +7,9 @@ summary_for_tutor: "Examines why AI researchers and executives continue racing t
 title: "Making Sense of the Death Race"
 tags:
   - supplementary
----
+{++{"author":"Luc's AI","timestamp":1790449058423}@@glossary_terms:
+  - "[[../glossary/p(doom)]]"
+++}---
 
 #### Text
 content::

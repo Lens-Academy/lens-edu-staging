@@ -7,7 +7,9 @@ title: "Shutdown Buttons and Corrigibility"
 tldr: "How do you build an AI that lets you press the off switch? Almost any goal gives it a reason to resist, and every clever mathematical patch creates a new pathology where it manipulates the button instead. MIRI put top mathematicians on this and nobody found a clean answer."
 tags:
   - supplementary
----
+{++{"author":"Luc's AI","timestamp":1790449058072}@@glossary_terms:
+  - "[[../glossary/Utility function]]"
+++}---
 #### Text
 content::
 The authors walk through the surprisingly deep "shutdown problem": how do you build an AI that will let you press a button to change its goals or shut it down? Almost any goal an AI might have gives it an instrumental reason to resist goal changes, because a modified agent is less likely to achieve the original goal. Even seemingly clever mathematical fixes -- like combining utility functions or scaling them -- introduce new pathologies where the AI is incentivized to manipulate the button. MIRI ran workshops with top mathematicians and nobody found a clean solution, suggesting that corrigibility (willingness to be corrected) is fundamentally unnatural to the deep structures of planning.
