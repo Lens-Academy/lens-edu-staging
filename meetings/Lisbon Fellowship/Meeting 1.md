@@ -10,29 +10,7 @@ title: AI Safety Atlas Lisbon Week 1 Session Doc
 
 ### Where:
 
-### How today works
-
-You'll work at **small tables** (**3-4** people) and reshuffle for every round, so you meet different people each time. At each table:
-
-
-1. **Pick a scribe: one person who writes everyone's names and your new takeaway into that round's table.**
-2. Answer the prompt together; a line or two in the table is plenty, don't overthink formatting.
-
-
-Between rounds everyone comes back together. That is where you share what came up at your table, if you want to. Nobody has to, and no table is called on. Inside a round, skip the catch-up and start straight in on the prompt.
-
-
-**Today's shape (2 h):** arrival 0:00–0:05 · Round 1 0:05–0:20 · get-together 0:20–0:25 · Round 2 0:25–0:47 · get-together 0:47–0:55 · break 0:55–1:05 · Round 3 1:05–1:27 · get-together 1:27–1:35 · Round 4 1:35–1:50 · closing circle 1:50–2:00.
-
-
-**🆘 Need help during a round?**
-
-- Confused about the task, or want a human? Wave your facilitator over; they circulate between tables.
-- Don't get the question or the reading? Ask the [Lens Coach](https://lensacademy.org/coach).
-- More questions? Check the [FAQ Tab](https://docs.google.com/document/d/1NrXA1G4F1vAnquvuY0UEobTgi4KLckx4huiEyP2rs-c/edit?tab=t.e96f2l7cntce)
-
-
----
+source:: [[../shared/Session Doc - How today works (Lisbon)]]
 
 \pagebreak
 ### Round 1: Hardest to believe  [0:05–0:20]
@@ -55,11 +33,7 @@ First session, so start with the people. Go around:
 |  |  |
 
 
-### Get-together: 5 min  [0:20–0:25]
-
-Back as one room. Anything worth passing on from your table? Something you noticed, something you turned out to have in common, someone the others should meet.
-
----
+source:: [[../shared/Session Doc - First get-together (Lisbon)]]
 
 \pagebreak
 ### Round 2: Draw your curve  [0:25–0:47]
@@ -213,14 +187,7 @@ Your facilitator can't be at every table at once, so:
 
 ## Week 1 Facilitator Run-Sheet
 
-### Before anyone arrives
-
-1. Read the [session doc](https://docs.google.com/document/d/1NrXA1G4F1vAnquvuY0UEobTgi4KLckx4huiEyP2rs-c/edit?tab=t.0)
-2. Read this run-sheet
-3. Post the session doc link in the fellowship Discord channel the day before, and again when the session starts
-4. Set up tables for 3-4 people (five or six tables for twenty)
-5. Have a timer you can see (phone or projector) and, if there is a screen, the doc open on it
-6. Arrive 15 minutes early
+source:: [[../shared/Facilitator Run-Sheet - Before anyone arrives (Lisbon)]]
 
 ### Timeline (2 h)
 
@@ -254,28 +221,7 @@ Your facilitator can't be at every table at once, so:
 5. Start Round 1
     - If 4 or fewer people show up, use one table and do the rounds together
 
-### During the rounds
-
-1. Reshuffle every round: count off 1 to N (N = number of tables) and send all the 1s to table 1, and so on
-    1. Aim for 3 people per table (4 is fine if it doesn't fit)
-    2. Start a visible timer (round lengths below)
-2. Walk between tables and listen; within a minute you will hear which tables are stuck or shallow
-    1. Actively move between tables to unstick conversations, answer questions, and guide participants towards engaging deeply with the content.
-3. Make a concerted effort to spread your time across the tables (even in the case where one needs more help than others). Participants really value your perspective and presence!
-
-**Late arrivals**: greet them at the door, explain the structure in a sentence, and seat them at the smallest table.
-
-
-### Round timer and get-togethers
-
-- Start a visible timer for each round:
-    - Round 1 = 15
-    - Round 2 = 22
-    - Round 3 = 22
-    - Round 4 = 15
-- Give a two-minute warning by voice so tables can finish their table entry.
-- **Get-togethers (5 min after Round 1, 8 min after Rounds 2 and 3): this is the only place sharing happens, so do not let tables recap at the start of a round. Call everyone back as one room and ask who wants to share what came up at their table, then wait and give it a real pause. Nobody is called on and no table owes you a line, so a quiet get-together is a fine outcome. After Round 1 the question is lighter: what did people notice about each other, what did they turn out to have in common. Don't resolve anything and don't sum up.**
-- Then count off again and start the next round.
+source:: [[../shared/Facilitator Run-Sheet - During the rounds (Lisbon)]]
 
 ### Closing circle
 
@@ -297,36 +243,7 @@ Your facilitator can't be at every table at once, so:
 
 
 
-## Facilitator Pro-Tips:
-
-**1. Skeptic Unlock:** when a table stalls on **“AI won’t ever get that smart”**
-
-
-Some tables flatten when the group agrees AI will never become that capable. The discussion dies because there’s nothing left to argue. When that happens, show the trend:
-
-
-- Pull up the [METR time-horizons graph](https://metr.org/time-horizons/) and discuss pace of task-length growth.
-- A possible line: *“It’s not necessary for it to be smart today. Look at the slope, this is what an exponential looks like, and here’s where a few more doublings land us.”*
-- Hand it back to the table: “Given this curve, what would change your mind, in either direction?”
-
-
-**The goal is not to win an argument**. It is to turn a closed “no” into an open “huh, let’s take a look at this” so the discussion has somewhere to go.
-
-
-
-**2. Doom Reframe:** when the material hits hard and **the table turns fatalistic**
-
-
-Some tables end heavy. The content genuinely rattles people (participants have talked about getting anxious and doom-scrolling after the reading), and a discussion can settle into “we’re doomed” with nowhere left to go. When that happens, don’t let it end there:
-
-
-- Name it, then reframe: doom predictions assume today’s tools and limits, but the people working on this in the future will have new capabilities and methods we can’t see yet.
-- Reach for the [Malthusian fallacy](https://en.wikipedia.org/wiki/Malthusianism): everyone predicted mass starvation from population growth, then farming methods leapt ahead and it never happened. A predicted catastrophe is not a guaranteed one.
-- A possible line: *“It’s not all lost. The best thing any of us can do is work on it, so let’s not despair.”*
-- **Hand it back to agency:** “*Given that, what’s one thing within your reach, a skill, a question, a next step?*”
-
-
-**The goal is not to talk anyone out of their concern or paper over the risk.** It is to channel that energy into agency so people leave motivated rather than paralyzed.
+source:: [[../shared/Facilitator Run-Sheet - Facilitator Pro-Tips (Lisbon)]]
 
 
 
