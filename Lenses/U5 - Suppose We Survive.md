@@ -26,11 +26,11 @@ One thing to keep in mind while you read. Frontier-lab leadership has published 
 
 \## Before you read
 
-The last lens ended with a handoff: every serious plan ends with AIs doing most of the remaining safety work. This lens asks what all that work is for. So far, every reading in this course has been about prevention: stop the takeover, catch the deception, keep the humans in the loop. But the course title also promised shaping, and to shape the future you need a target to aim at.
+The last lens ended with a handoff: every serious plan finishes with AIs doing most of the remaining safety work. This lens asks what all that work is for. So far, every reading in this course has been about prevention: stop the takeover, catch the deception, keep the humans in the loop. The course title also promised shaping, and you cannot shape anything without a target.
 
-William MacAskill opens Forethought's Better Futures series with the clearest version of this claim. He argues that preventing catastrophe and achieving a good future are two different jobs, and that almost everyone works on the first one. You don't have to accept his numbers. The thing to take away is the split itself, because you can use it as a tool for thinking.
+William MacAskill opens Forethought's Better Futures series with the clearest version of this claim: preventing catastrophe and achieving a good future are different jobs. Almost everyone works on the first. You do not have to accept his numbers. The tool to take away is the split itself.
 
-Keep one more thing in mind while you read. Leaders of frontier labs have published positive visions of their own. Dario Amodei's Machines of Loving Grace ([[../articles/Amodei-machines-of-loving-grace]]) and The Adolescence of Technology ([[../articles/darioamodei-dario-amodei-the-adolescence-of-technology]]) describe futures worth wanting. He wrote them from inside a company that builds these systems. MacAskill writes from a research nonprofit, about what anyone, anywhere, should aim for. Who ends up deciding what the good future contains is still an open question. The question below asks who you think decides it now.
+Keep one thing in mind while you read. Frontier-lab leadership has published its own positive visions. Dario Amodei's Machines of Loving Grace ([[../articles/Amodei-machines-of-loving-grace]]) and The Adolescence of Technology ([[../articles/darioamodei-dario-amodei-the-adolescence-of-technology]]) describe futures worth wanting, written from inside a company that builds the systems. MacAskill, by contrast, writes from a research nonprofit about what anyone, anywhere, should aim at. Who ends up deciding what the good future contains is itself an open question. The question below asks who you think decides it now.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
@@ -83,7 +83,7 @@ different claims, and readers regularly collapse the second into the first.
 
 \## Now compare your answer with his
 
-As you read, watch for one thing. The argument does not say that prevention was the wrong bet. It says that if we only work on prevention, we still miss out on most of the value the future could have. These are two different claims, and readers often mix them up by reading the second one as if it were the first.
+As you read, watch for one thing. The argument does not say that prevention was the wrong bet. It says that prevention alone leaves most of the value unclaimed. These are different claims, and readers often mistake the second for the first.
 
 #### Article
 source:: [[../articles/forethought-introducing-better-futures]]

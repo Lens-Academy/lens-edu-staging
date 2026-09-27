@@ -24,9 +24,9 @@ The course takes no side on that, and you do not need to settle it. What you nee
 
 \## The unsettled question
 
-This unit gave you two competing pictures of an AI lab, and it never picked one. Buck Shlegeris plans for ten safety-minded people working inside a company that will not slow down. His reason is that inside the company is where the marginal influence is, and ten such people is much better than zero. Alex Kastner's scenario pushes back. In his story, every AI in the building does exactly what it is told, and the most dangerous person may be the one those ten people report to. If Kastner is right, the insiders are busy watching the models while the real threat is the management above them. So you can see the same lab in two ways: as the place where the solution gets built, or as the place the threat comes from.
+This unit gave you two rival pictures of the lab, and it never decided between them. Buck Shlegeris plans for ten safety-minded people inside a company that will not slow down. His reason is that the marginal influence is inside the company, and ten is much better than zero. Alex Kastner's scenario replies that the most dangerous person in the story may be the one those ten people report to, while every AI in the building does exactly what it is told. If Kastner is right, the insiders are watching the models while the threat is the management above them. So you can see the same lab in two ways: as the home of the solution, or as the home of the threat.
 
-The course doesn't take a side on this, and you don't need to settle it either. What you do need is a budget. Money, careers, political attention and your own hours all get spent somewhere. If you refuse to choose, that is still a decision about where things go, and whoever acts first ends up making it for you. So this unit ends the way real strategy arguments usually end: with someone writing down actual numbers.
+The course does not take a side on this, and you do not need to settle it. What you do need is a budget. Money, careers, political attention and your own hours all get spent somewhere. If you refuse to choose, that is also an allocation, and whoever moves first makes it for you. So this unit ends the way real strategy arguments end: someone states numbers.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 

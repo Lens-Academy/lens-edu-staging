@@ -31,13 +31,13 @@ One thing this reading is not: careers advice. It says what needs doing. It does
 
 \## Before you read
 
-The last two readings changed the question twice. The first asked what we should hand off to AIs, and when. The second asked how to aim at a future worth wanting, instead of aiming only at survival. Both of those readings made arguments. This reading is a list instead. Will MacAskill and colleagues at Forethought wrote down concrete projects that would help the transition to powerful AI go better. They ordered the projects roughly by how excited they are about each one. Most of these projects don't have enough people working on them. Several are organisations that don't exist yet.
+The last two readings moved the question twice. First they moved it toward what we hand off to AIs, and when. Then they moved it toward aiming at a future worth wanting, rather than at survival alone. Both of those readings were still arguments. This one is a list. Will MacAskill and colleagues at Forethought wrote down concrete projects that would make the transition to powerful AI go better. They ordered the projects roughly by how excited they are about each one. Most of the projects are understaffed. Several are organisations that do not exist yet.
 
-This is also the last assigned reading of the course. After this page there is no more reading, and the rest of the work is up to you.
+It is also the last assigned reading of the course. After this page there are no more assigned readings, and the remaining work is yours.
 
-So treat it like a menu and pick what interests you. The Summary section is the menu itself: eight projects, each in one bold line. Most of them then get a more detailed section. We expect you to skip the sections that don't interest you. That is how this piece is meant to be read.
+So read it like a menu, not a textbook. The Summary section is the menu itself: eight projects, one bold line each. Detailed sections follow for most of them. Skipping the ones that do not interest you is the intended way to read this piece, not a shortcut.
 
-This reading doesn't give careers advice. It says what work needs doing. It doesn't say what you personally should do next, and this course won't pretend those are the same question. If you want help with that second question, we usually recommend Holden Karnofsky's piece on career choice: [[../articles/karnofsky-career-choice-longtermists]].
+This reading is not careers advice. It says what needs doing. It does not say what you in particular should do next, and this course will not pretend those are the same question. For that second question, the usual recommendation is Holden Karnofsky's piece on career choice: [[../articles/karnofsky-career-choice-longtermists]].
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 

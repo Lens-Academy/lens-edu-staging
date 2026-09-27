@@ -26,13 +26,27 @@ One last permission, and it is not a formality. If what you write today disagree
 
 \## Where you started
 
-All through this course, one rule has applied: when we asked for your guess, you wrote it from memory, and only compared it with anything afterwards. Today, just this once, we reverse that order.
+One rule has applied through this whole course: when we asked for your guess, you gave it from memory and compared only afterwards. Today, just this once, the order is reversed.
 
-Before you write anything, go back to the first lens of Unit 1 and read your day-zero guess. That is the three things you wrote before you had read a single assigned word: what should be done in the next two years, what that was meant to leave standing in two hundred years, and the mechanism you thought connected the two. This is the end of the course, and comparing that old guess with what you think now is the exercise.
+Before you write anything, go back to the first lens of Unit 1 and read your day-zero guess. These are the three things you wrote before you had read a single assigned word:
 
-While you have it open, say the course's sentence one last time: what could possibly happen, how anyone could know, how it could go wrong, what the plan is, where the leverage is. You have now written your own answer to every part of that sentence. That includes the part the course told you, on its first page, that it would not answer for you. Unit 1 gave you gears and a curve. Unit 2 gave you a way to sort evidence from everything else. Unit 3 gave you a rivalry over where the risk comes from, and a point where you could intervene for each kind of failure. Unit 4 asked you for a theory of change and the strongest criticism of it, and asked you to spread a hundred points across the levers. This unit showed you a gap on the menu. Nobody gave you those answers. The readings made their arguments, and you made the decisions.
+- what should be done in the next two years;
+- what that was meant to leave standing in two hundred years;
+- the mechanism you thought connected them.
 
-One last permission, and we mean it seriously. If what you write today disagrees with every reading in this course, and you can argue for it, that is the best possible outcome. The course never aimed to leave you with its own plan. It aimed to make you able to build your own plan, and to change it when the world changes.
+That guess came at the start. This is the end, and the comparison is the exercise.
+
+While you have it open, say the course's sentence one last time: what could possibly happen, how anyone could know, how it could go wrong, what the plan is, where the leverage is. You have now written your own answer to every clause in it, including the one the course told you on its first page it would not answer for you.
+
+- Unit 1 gave you gears and a curve.
+- Unit 2 gave you a way to sort evidence from the rest.
+- Unit 3 gave you a rivalry over where the risk lives, and an intervention point for each failure.
+- Unit 4 asked you for a theory of change and its strongest criticism, and for a hundred points across the levers.
+- This unit gave you a gap on the menu.
+
+Nobody handed you those answers. The readings argued, and you decided.
+
+One last permission, and we mean it. If what you write today disagrees with every reading in this course, and you can argue for your view, that is the best possible outcome. The course was never trying to leave you with its plan. It was trying to leave you able to make your own, and to change it when the world changes.
 
 #### Question: Open
 id:: 790c9e73-dd86-4582-adc8-1d6794a8f339

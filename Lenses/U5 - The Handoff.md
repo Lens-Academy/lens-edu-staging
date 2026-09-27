@@ -37,23 +37,11 @@ the plans now depend on the answer.
 
 \## Before you read
 
-Unit 4 was about plans. Go back to the first reading of that unit and look at how each
-plan ends. Near the end, each plan hands most of the remaining safety work to AI
-systems, because there is too much work and too few humans to do it. None of the plans
-draws attention to this step. But it is the point where they stop relying on people.
+Unit 4 was about plans. Go back and look at how the plans in the first reading of that unit end. Near the end of each one, the plan quietly hands most of the remaining safety work to AI systems, because there is too much work and too few humans. Nobody pointed this step out. At that step, the plans have run out of people.
 
-Joe Carlsmith calls this step "AI for AI safety". He argues that we should treat it as
-the central part of the strategy, instead of a minor detail at the end. He describes it
-as a race between two feedback loops. The excerpt below covers the two loops and his
-case for why this is urgent. His comparisons with other views, and his own list of
-objections, are in collapsed sections below that you can open. For practical detail on
-how to hand work over, see Ryan Greenblatt's
-[[../articles/greenblatt-how-do-we-more-safely-defer-to-ais|How do we (more) safely defer to AIs?]].
+Joe Carlsmith calls this quiet step "AI for AI safety". He argues that it should be treated as the central move, not as a footnote. He describes it as a race between two feedback loops. The excerpt gives you the two loops and his argument for why this is urgent. His comparisons with other views, and his own list of objections, are in collapsed sections below that you can open. For practical detail on how to hand work over, see Ryan Greenblatt's [[../articles/greenblatt-how-do-we-more-safely-defer-to-ais|How do we (more) safely defer to AIs?]].
 
-One more point. Whether a handoff like this is safe is the main question that the
-alignment field exists to answer. Unit 1 raised it, and every unit since then has passed
-it by without answering it. We still don't answer it on this page. But notice that the
-plans now depend on the answer.
+One more thing. Whether a handoff like this is safe is not a side question. It is the question that the alignment field exists to answer. Unit 1 pointed at it, and this course has passed it by every time. We still do not answer it here. But notice that the plans now depend on the answer.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
