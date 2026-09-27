@@ -4,16 +4,27 @@ tags:
 ---
 # Writing Meeting Docs (AI Guide)
 
-A meeting doc is the Google Doc a cohort group works through during a 90-minute video meeting. Its link lives in the corresponding course file.
+A meeting doc is the Google Doc a cohort group works through during a 90-minute video meeting. {--{"author":"Luc's AI","timestamp":1790521224698}@@Its link lives--}{++{"author":"Luc's AI","timestamp":1790521224698}@@You write it in Markdown, in `meetings/<Course>/Meeting N.md`. The course file links it with `meeting-doc::`. The platform renders the Markdown into a Google Doc, and copies that doc for each group.
+
+## The Markdown format
+
+- `# Tab: <title>` starts a tab. The line after it may set the tab's look: `style:: faq`, `style:: glossary` or `style:: plain`. Without it the tab looks like a Session Doc.
+- Inside a tab, `#` is the doc's Title, `##` its Heading 1 and `###` its Heading 2.
+- Each line is its own paragraph. One blank line only separates blocks. Each further blank line adds one empty line to the doc.
+- `\pagebreak` on its own line starts the next block on a new page. `---` draws a line across the page.
+- A breakout table is a Markdown table. The dashes++} in the {--{"author":"Luc's AI","timestamp":1790521224698}@@corresponding course file.--}{++{"author":"Luc's AI","timestamp":1790521224698}@@`|-----|--------------------|` row set the column widths.
+- `[FAQ Tab](<#tab:Participant FAQ>)` links to another tab of the same doc. `<br>` makes a second line inside a table cell.
+- A numbered list that starts at `3.` continues the numbered list above it. `<!-- -->` between two lists keeps them apart.
+- `[Group]`, `Navigator:` and `Meeting link:` are filled in for each group. Keep them as they are in the master template.++}
 
 ## How to create a meeting doc
 
-1. Make a copy of the master template (https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4)
+1. {--{"author":"Luc's AI","timestamp":1790521224698}@@Make a copy of the master template (https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4)--}{++{"author":"Luc's AI","timestamp":1790521224698}@@Copy the master template, [[meetings/Master template]], to `meetings/<Course>/Meeting N.md`++}
 2. Get an overview of the course this doc belongs to and specifically the module(s) of the unit right before its meeting
 3. The validation instructions below describe what makes a good meeting doc. Take some time to think hard (and/or brainstorm with the user) what prompts would make this meeting most valuable. - Be creative and critical. It's about creating the best possible education, not just creating cheap adaptations of the examples below.
 4. Spawn all validation sub-agents described below with their exact instruction text, a link to the doc, a link to the course file, and links to the unit's module(s) with their lenses, learning outcomes, and readings (the content checks need them)
 5. If every check passes, you are done. If not, fix the errors and spawn fresh versions of the agents that failed. Repeat that cycle until every agent passed
-6. Link to the meeting doc in the course file it belongs to (see [[Writing Course Files]]).
+6. Link {--{"author":"Luc's AI","timestamp":1790521227374}@@to --}the {--{"author":"Luc's AI","timestamp":1790521227374}@@meeting doc--}{++{"author":"Luc's AI","timestamp":1790521227374}@@Markdown file++} in the course {--{"author":"Luc's AI","timestamp":1790521227374}@@file it belongs to --}{++{"author":"Luc's AI","timestamp":1790521227374}@@file, under the meeting's `# Meeting:` line: `meeting-doc:: [[../meetings/<Course>/Meeting N]]` ++}(see [[Writing Course Files]]).{++{"author":"Luc's AI","timestamp":1790521227374}@@ The validator reports a broken link or a malformed doc. To see the rendered Google Doc, call the Lens admin MCP tool `meeting_doc_preview` with the course slug and the meeting number, after the content refresh has picked up your edit.++}
 7. Report to the user how many iterations you had to do for each agent and where they didn't pass
 
 ## Validation instructions
