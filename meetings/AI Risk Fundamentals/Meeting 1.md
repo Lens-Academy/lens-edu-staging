@@ -168,11 +168,7 @@ Before you leave (your navigator will talk through these):
 
 ---
 
-### Open discussion [1:30–...]
-
-Want to discuss more?\
-\
-The call will stay open. If you are too many people, or you want to discuss with specific people, ask your navigator to create some breakout rooms that you can switch in and out of.
+source:: [[../shared/Session Doc - Open discussion]]
 
 # Tab: Participant FAQ
 style:: faq
@@ -258,60 +254,12 @@ Your navigator isn't in every room, so:
 | 1:15–1:27 | R4 Feedback / next unit (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
 
-### Lobby/Welcoming the participants
+source:: [[../shared/Navigator Run-Sheet - Lobby and welcome]]
 
-**[0:00–0:05]** (whole group). Chat with people as they arrive; **start the welcome at ~3 min, open breakout Round 1 at ~5 min.**
-
-
-**The welcome**:
+source:: [[../shared/Navigator Run-Sheet - During the breakout rooms]]
 
 
-1. Ask participants to turn their cameras on.
-2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
-3. Tell them the doc is in the chat + Discord and to open it + check they can type
-4. Run through the arc
-    - icebreaker → two discussion rooms → feedback/planning
-    - say the meeting will take 90 min
-5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
-6. Start room 1
-    - If <= 4 participants show up, you don’t need to create breakout rooms. Just do the exercises in the main room
-
-### During the breakout rooms
-
-1. Create breakout rooms (...more > breakout rooms)
-    1. Use Zoom "assign automatically" - **Reshuffle every round**
-    2. Aim for 3 people per room (4 is fine if it doesn’t fit)
-    3. Setup timer (see below)
-2. Use Lens Breakout Control app to monitor the breakout room conversations as they are happening.
-    1. The app will show both the level and content of the discussions (it may take ~30 seconds after opening rooms to start displaying this information)
-    2. Actively jump between rooms to unstick conversations, answer questions, and guide participants towards engaging deeply with the content.
-3. Make a concerted effort to spread your facetime across the groups (even in the case where one needs more help than others). Participants really value your perspective and presence!
-
-**Late Arrivals**: Zoom pings you and shows late arrivals in the participant panel. Greet them in main, explain the structure, and send them into a room.
-
-
-### Back together (5 min, after Rooms 1, 2 and 3)
-
-Zoom’s timer pulls everyone into the main room by itself; that is your cue. **Nobody is made to speak.**
-
-- Ask the whole group: **“Who wants to share what your group landed on?”** Then **wait 30 seconds.** Count them. The silence is doing work, so do not fill it.
-- If someone speaks up, let them share a sentence or two. Then ask again and wait again.
-- Keep going while there is time: sharing gets about **4 minutes**. If nobody volunteers, that is a fine outcome; move on without commenting on it.
-- You may invite someone by name if it feels right, but never push, and always let them pass to a groupmate.
-- **In the fifth minute, explain the next room** and open it, so the room starts on time. Recreate the rooms while people are still talking.
-- Four or fewer participants and no breakouts? Skip it and move to the next prompt.
-
-
-### Zoom breakout timer (set it each round)
-
-- When you open breakout rooms, open **Options** and check **“Breakout rooms close automatically after \_\_\_ minutes,”** then set the round length:
-    - Room 1 = 14
-    - Room 2 = 18
-    - Room 3 = 18
-    - Room 4 = 12
-- Also check **“Countdown timer”** (e.g. 60 seconds) so everyone gets a warning before the room closes.
-- Zoom then shows a live countdown in every room and pulls people back automatically, so you don’t have to watch the clock or broadcast “2 min left” by hand.
-- Reshuffle and reopen with the next duration for the next round.
+source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 
 ### Close
 
@@ -333,45 +281,10 @@ Zoom’s timer pulls everyone into the main room by itself; that is your cue. **
 
 
 
-## Navigator Pro-Tips:
-
-**1. Skeptic Unlock:** when a room stalls on **“AI won’t ever get that smart”**
-
-
-Some rooms flatten when the group agrees AI will never become that capable. The discussion dies because there’s nothing left to argue. When that happens, show the trend:
-
-
-- Pull up the [METR time-horizons graph](https://metr.org/time-horizons/) and discuss pace of task-length growth.
-- A possible line: *“It’s not necessary for it to be smart today. Look at the slope, this is what an exponential looks like, and here’s where a few more doublings land us.”*
-- Hand it back to the room: “Given this curve, what would change your mind, in either direction?”
-
-
-**The goal is not to win an argument**. It is to turn a closed “no” into an open “huh, let’s take a look at this” so the discussion has somewhere to go.
-
-
-
-**2. Doom Reframe:** when the material hits hard and **the room turns fatalistic**
-
-
-Some rooms end heavy. The content genuinely rattles people (participants have talked about getting anxious and doom-scrolling after the reading), and a discussion can settle into “we’re doomed” with nowhere left to go. When that happens, don’t let it end there:
-
-
-- Name it, then reframe: doom predictions assume today’s tools and limits, but the people working on this in the future will have new capabilities and methods we can’t see yet.
-- Reach for the [Malthusian fallacy](https://en.wikipedia.org/wiki/Malthusianism): everyone predicted mass starvation from population growth, then farming methods leapt ahead and it never happened. A predicted catastrophe is not a guaranteed one.
-- A possible line: *“It’s not all lost. The best thing any of us can do is work on it, so let’s not despair.”*
-- **Hand it back to agency:** “*Given that, what’s one thing within your reach, a skill, a question, a next step?*”
-
-
-**The goal is not to talk anyone out of their concern or paper over the risk.** It is to channel that energy into agency so people leave motivated rather than paralyzed.
+source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 
 # Tab: Glossary
-style:: glossary
-
-# AI Risk Fundamentals Glossary
-
-Terms and definitions for the Lens Academy AI Risk Fundamentals course (a 5-unit course on If Anyone Builds It, Everyone Dies by Eliezer Yudkowsky & Nate Soares).
-Entries are ordered by unit and chapter, so you can look up terms as you meet them in the reading. A term is defined once, at its first appearance; later chapters that reuse it are cross-referenced. Analogies and thought experiments get their own entries, since the book leans on them heavily.
-How to use: Ctrl/Cmd+F for any term, or skim the unit your cohort is on. Definitions reflect how the course uses each term, not necessarily its broader academic meaning.
+source:: [[../shared/Glossary - Introduction (AI Risk Fundamentals)]]
 
 ## Unit 1: Intro & Nonhuman Minds, Part 1
 
