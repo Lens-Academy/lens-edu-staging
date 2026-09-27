@@ -33,8 +33,6 @@ counts it, count it yourself.
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 %%
 
-\## Before you read
-
 The list of plans at the start of this unit got shorter as political will fell. This reading describes the bottom of that list. No treaty arrives. No government acts. The company will not slow down. Its leadership mentions misalignment risk but does not treat it as a problem to solve.
 
 What remains is ten people inside the company who take the risk seriously. Buck Shlegeris asks what those ten should do with the little they have. His question is not how to fix the situation. It is how to buy risk reduction at the margin, on a small budget, without getting fired.

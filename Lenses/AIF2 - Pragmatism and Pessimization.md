@@ -22,8 +22,6 @@ This is part 2 of Richard Ngo's retrospective. Part 1 (in Unit 3) said the align
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 %%
 
-\## Before you read
-
 You are about to write a theory of change for one lever. First, read what happened to the last generation's theory of change.
 
 This is part 2 of Richard Ngo's retrospective. Part 1 (in Unit 3) said the alignment community pushed the world the wrong way while believing it was pushing it the right way. This part names the mechanism he thinks caused that. It ends with the rules he now uses to decide what is worth doing. The course does not take his side. Several of the people he names have replied, and the account is contested. Read it as a post-mortem on a plan, written by someone who was inside that plan.

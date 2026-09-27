@@ -30,8 +30,6 @@ and say what would settle it. Use them.
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 %%
 
-\## Before you read
-
 Unit 2 was about how people forecast. This unit is about what they are forecasting.
 
 Start with the mechanism that makes the rest of it urgent: the claim people make that AI progress could speed itself up. That claim is important to almost every forecast you have seen so far, and it is usually assumed, not argued for.

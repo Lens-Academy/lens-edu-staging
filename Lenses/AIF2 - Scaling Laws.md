@@ -24,8 +24,6 @@ This reading is the post that made the field notice the second input. It is from
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 %%
 
-\## Before you read
-
 Unit 1 has given you a curve (METR's task lengths) and a thought experiment (what twelve more orders of magnitude of compute would buy). Both of them rest on a law.
 
 A language model's loss, meaning how badly it predicts the next token of text (lower is better), is close to a simple function of two numbers: how many parameters the model has, and how many tokens of text it was trained on. Compute buys both, and a training run has to choose how much of each to buy. The third input, algorithms, changes the constants in the law rather than the inputs. It also improves faster than most people assume.

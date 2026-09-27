@@ -37,8 +37,6 @@ could go badly wrong. If a term stops you, put it in the Lens Coach
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 %%
 
-\## Before you read
-
 The last two readings described how things go wrong. This one makes a claim about why it is hard to stop.
 
 The claim is about transfer. Something is trained or built in one setting, then used in a harder one. Two things travel with it: what it can do, and whatever was put in place to keep it doing what we wanted (the rules, the supervision, the habits, the checks).

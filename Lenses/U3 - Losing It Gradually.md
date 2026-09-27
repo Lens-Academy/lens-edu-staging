@@ -28,8 +28,6 @@ them stop.
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 %%
 
-\## Before you read
-
 The previous reading took out the villain. This one takes out the moment where things go wrong: there is no such step. Each change is reasonable, the kind of thing a sensible organisation would do. But the end state is one that nobody chose.
 
 For this to work, something must be making our institutions take human welfare into account now. Governments, companies and markets do this. They do it imperfectly and unevenly, but they do it. Ask yourself why. If you cannot say why they do it now, you cannot say what would make them stop.

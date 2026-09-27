@@ -12,9 +12,9 @@ A meeting doc is the Google Doc a cohort group works through during a 90-minute 
 - Inside a tab, `#` is the doc's Title, `##` its Heading 1 and `###` its Heading 2.
 - Each line is its own paragraph. One blank line only separates blocks. Each further blank line adds one empty line to the doc.
 - `\pagebreak` on its own line starts the next block on a new page. `---` draws a line across the page.
-- A breakout table is a Markdown table. The dashes++} in the {--{"author":"Luc's AI","timestamp":1790521224698}@@corresponding course file.--}{++{"author":"Luc's AI","timestamp":1790521224698}@@`|-----|--------------------|` row set the column widths.
+- A breakout table is a Markdown table. The dashes++} in the {--{"author":"Luc's AI","timestamp":1790522974255}@@corresponding course file.--}{++{"author":"Luc's AI","timestamp":1790522974255}@@`|-----|--------------------|` row set the column widths.
 - `[FAQ Tab](<#tab:Participant FAQ>)` links to another tab of the same doc. `<br>` makes a second line inside a table cell.
-- A numbered list that starts at `3.` continues the numbered list above it. `<!-- -->` between two lists keeps them apart.
+- Indent a nested list item by 4 spaces. A numbered list that starts at `3.` continues the numbered list above it. `<!-- -->` between two lists keeps them apart.
 - `[Group]`, `Navigator:` and `Meeting link:` are filled in for each group. Keep them as they are in the master template.++}
 
 ## How to create a meeting doc

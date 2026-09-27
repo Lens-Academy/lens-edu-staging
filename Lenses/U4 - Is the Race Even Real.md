@@ -42,8 +42,6 @@ shows what Chinese AI policy looks like when you read it directly.
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
 %%
 
-\## Before you read
-
 The previous lens argued about a national AGI project. Both sides of that argument assumed the same thing: the United States and China are racing to build advanced AI, and whoever slows down loses. Almost every strategy conversation uses some version of that assumption. This lens does not ask whether racing would be wise. It asks whether the assumption is true, using the tools from Unit 2: Where does the number come from? Who checked the original source?
 
 There are two readings.

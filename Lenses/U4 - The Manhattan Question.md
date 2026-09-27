@@ -44,8 +44,6 @@ takes that idea seriously.
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the authors' own work.*
 %%
 
-\## Before you read
-
 The last lens put ten people inside one lab. This lens gives the decision to the largest actor available: the state itself.
 
 The idea has become mainstream. Congressional commissions, government agencies and AI company CEOs have called for a Manhattan Project for AGI: a national effort to make sure the United States builds AGI before China does.

@@ -30,8 +30,6 @@ Christiano's, that is the better outcome of the two.
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 %%
 
-\## Before you read
-
 Most descriptions of AI catastrophe contain a villain. A system deceives the people who built it, takes control of something, or acts to survive at our expense.
 
 Now remove the villain.

@@ -24,8 +24,6 @@ One thing to keep in mind while you read. Frontier-lab leadership has published 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 %%
 
-\## Before you read
-
 The last lens ended with a handoff: every serious plan finishes with AIs doing most of the remaining safety work. This lens asks what all that work is for. So far, every reading in this course has been about prevention: stop the takeover, catch the deception, keep the humans in the loop. The course title also promised shaping, and you cannot shape anything without a target.
 
 William MacAskill opens Forethought's Better Futures series with the clearest version of this claim: preventing catastrophe and achieving a good future are different jobs. Almost everyone works on the first. You do not have to accept his numbers. The tool to take away is the split itself.

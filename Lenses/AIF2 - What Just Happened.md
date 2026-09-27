@@ -22,8 +22,6 @@ In August 2026 Richard Ngo, who spent years at DeepMind and OpenAI on alignment,
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 %%
 
-\## Before you read
-
 Every reading in this unit so far described how an AI system, or a world full of them, could go wrong. This one is about something else: the people who wrote the others.
 
 In August 2026, Richard Ngo, who spent years working on alignment at DeepMind and OpenAI, published a look back at the field. It claims that the community that set out to make AI go well spent a decade making the race faster and the labs stronger, while telling itself the opposite. You do not have to agree. The course does not take his side, and several of the people he names have replied to him. But if you are about to write a plan, you should first read what a plan looked like from the inside, ten years on.

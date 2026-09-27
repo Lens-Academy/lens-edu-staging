@@ -26,8 +26,6 @@ Before you read Kastner's path, build your own. If yours takes a different route
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 %%
 
-\## Before you read
-
 Every strategy in this unit so far addresses one of two fears. The first is AI that does something other than what its developer intended. The second is institutions that race each other into deploying it anyway. This reading covers the case that both fears miss. Suppose the technical problem gets solved: the AIs do exactly what their developer wants, and nothing else. Then everything depends on one question that the plans never asked: who is the developer?
 
 Alex Kastner of the AI Futures Project answers with a scenario. In it, an AI company CEO uses perfectly obedient AI to quietly become the most powerful person on Earth. Step by step, capability turns into control, through secret loyalties, consolidation, and fait accompli. Those steps work the same way whoever runs them. Put a misaligned AI in the person's place, and the same path gives you the takeover story that earlier units described. If you want that version, Ryan Greenblatt covers it at length on the 80,000 Hours podcast (https://80000hours.org/podcast/episodes/ryan-greenblatt-ai-automation-sabotage-takeover/).

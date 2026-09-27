@@ -42,8 +42,6 @@ Two objections follow. Read them as arguments to weigh, not as the verdict.
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
 %%
 
-\## Before you read
-
 A large part of the safety field works on AI control. This lens is where you decide what you think of it.
 
 The idea is to assume the system may be misaligned, and to build the deployment so that it cannot cause a catastrophe even if it is. Measures include monitoring, restricted permissions, one model checking another, and giving untrusted models tasks where cheating can be detected. Control does not try to make the system want the right thing. Instead, it tries to make it not matter if the system wants the wrong thing.

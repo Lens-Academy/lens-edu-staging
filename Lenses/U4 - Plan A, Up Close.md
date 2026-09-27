@@ -28,8 +28,6 @@ Their section 5 answers the obvious objections, and Appendix A is the treaty its
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the authors' own work.*
 %%
 
-\## Before you read
-
 The previous reading gave Plan A one paragraph. It described a strong international agreement that mostly ends the race and gives the world years of safety work. One paragraph is not enough to be a plan. This lens gives you the plan itself, in the detail of an actual treaty.
 
 Aaron Scher and colleagues on MIRI's Technical Governance Team have drafted the actual agreement. You will read the section that says what the agreement does. It covers:
