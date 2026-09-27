@@ -49,7 +49,7 @@ One or two people share what their group landed on.
 Then, as a group, discuss this question and **write your shared response** in the table:
 
 
-**Klurl vs Trapaucius.** Trapaucius argues that any being smart enough will grasp its "purpose" and pursue only that. Klurl replies: "they'd know, but would they care?" Who's right about *humans* — and what does that predict for AI?
+> **Klurl vs Trapaucius.** Trapaucius argues that any being smart enough will grasp its "purpose" and pursue only that. Klurl replies: "they'd know, but would they care?" Who's right about *humans* — and what does that predict for AI?
 
 
 Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.

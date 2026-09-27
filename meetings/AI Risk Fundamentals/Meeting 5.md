@@ -57,10 +57,10 @@ One or two people share what their group landed on.
 Then, as a group, discuss this question and **write your shared response** in the table:
 
 
-**Would you sign it?**
-The book ends with a concrete ask: a worldwide halt on frontier AI development, enforced by GPU monitoring and an international treaty. The authors argue the cost would be "not even 1% as costly as WWII".
-**Go around, gut reaction to the proposal:** realistic, necessary, both, neither? Then, as a group, **find the weakest link in the plan** (nations won't sign? enforcement fails? we'd need a warning shot first?) **and stress-test it**.
-**And if your group rejects the halt, what do you endorse instead?** Anything can be a valid answer (even keep going), but you have to defend it.
+> **Would you sign it?**
+> The book ends with a concrete ask: a worldwide halt on frontier AI development, enforced by GPU monitoring and an international treaty. The authors argue the cost would be "not even 1% as costly as WWII".
+> **Go around, gut reaction to the proposal:** realistic, necessary, both, neither? Then, as a group, **find the weakest link in the plan** (nations won't sign? enforcement fails? we'd need a warning shot first?) **and stress-test it**.
+> **And if your group rejects the halt, what do you endorse instead?** Anything can be a valid answer (even keep going), but you have to defend it.
 
 
 Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.

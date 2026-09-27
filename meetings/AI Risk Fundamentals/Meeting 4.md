@@ -49,10 +49,10 @@ One or two people share what their group landed on.
 Then, as a group, discuss this question and **write your shared response** in the table:
 
 
-**Is it really alchemy?**
-The book's claim this unit: humanity gets one shot at aligning superintelligence, and the field trying to solve it is still doing alchemy, not science.
-As a group, build the strongest counterargument you can: "we can practice on weaker AIs first", "AI will help us align AI" (superalignment), "interpretability is maturing", or your own. Pick your best one and stress-test it:
-How would the authors answer it with the five curses? Write your verdict: does your counterargument survive?
+> **Is it really alchemy?**
+> The book's claim this unit: humanity gets one shot at aligning superintelligence, and the field trying to solve it is still doing alchemy, not science.
+> As a group, build the strongest counterargument you can: "we can practice on weaker AIs first", "AI will help us align AI" (superalignment), "interpretability is maturing", or your own. Pick your best one and stress-test it:
+> How would the authors answer it with the five curses? Write your verdict: does your counterargument survive?
 
 
 Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.

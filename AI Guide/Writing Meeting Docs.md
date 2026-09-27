@@ -14,11 +14,13 @@ This Markdown differs from the Markdown of modules and lenses: every line is a p
 - Inside a tab, `#` is the doc's Title, `##` its Heading 1 and `###` its Heading 2.
 - Each line is its own paragraph. One blank line only separates blocks. Each further blank line adds one empty line to the doc.
 - `\pagebreak` on its own line starts the next block on a new page. `---` draws a line across the page.
-- A breakout table is a Markdown table. The dashes++} in the {--{"author":"Luc's AI","timestamp":1790523773626}@@corresponding course file.--}{++{"author":"Luc's AI","timestamp":1790523773626}@@`|-----|--------------------|` row set the column widths.
+- A breakout table is a Markdown table. The dashes++} in the {--{"author":"Luc's AI","timestamp":1790537449770}@@corresponding course file.--}{++{"author":"Luc's AI","timestamp":1790537449770}@@`|-----|--------------------|` row set the column widths.
 - `[FAQ Tab](<#tab:Participant FAQ>)` links to another tab of the same doc. `<br>` makes a second line inside a table cell.
 - Indent a nested list item by 4 spaces. A numbered list that starts at `3.` continues the numbered list above it when only paragraphs stand between them (not another list or a table). `<!-- -->` between two lists keeps them apart.
-- Quote blocks, code blocks, strikethrough, footnotes and HTML other than `<br>` and `<!-- -->` are not supported. The validator reports them.
-- `[Group]`, `Navigator:` and `Meeting link:` are filled in for each group. Keep them as they are in the master template.++}
+- A `>` quote sets its paragraphs in from both margins. A list item's later lines and paragraphs, indented under it, stay in the item without a bullet.
+- Code blocks, strikethrough, footnotes and HTML other than `<br>` and `<!-- -->` are not supported. The validator reports them.
+- `[Group]`, `Navigator:` and `Meeting link:` are filled in for each group. Keep them as they are in the master template.++}{++{"author":"Luc's AI","timestamp":1790537026215}@@
+- `source:: [[../shared/<name>]]` on a line of its own includes a whole file from `meetings/shared/` at that point, the way a lens includes an article. After `# Tab: <title>` it can supply the whole tab, `style::` line included. Sections that many docs repeat (the "How today works" intro, the Participant FAQ, the run-sheet's breakout-room steps and pro-tips) live there: edit the shared file once, and every doc that includes it changes. To make one doc differ, replace its `source::` line with the text itself.++}
 
 ## How to create a meeting doc
 

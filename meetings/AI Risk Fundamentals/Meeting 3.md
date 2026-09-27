@@ -49,7 +49,7 @@ One or two people share what their group landed on.
 Then, as a group, discuss this question and **write your shared response** in the table:
 
 
-**Did the story do its job?** The authors are explicit: **the pathway is illustrative, only the outcome is predicted.** They even bind the telling to a rule: every event in the story with a date on it is an event that happened in real life. Go around: did the scenario make the risk feel more real, or did the specifics hand you new objections? Then find the step in the story's path you find hardest to believe, and test it: if that step went differently, does the ending actually change, or does the story route around it?
+> **Did the story do its job?** The authors are explicit: **the pathway is illustrative, only the outcome is predicted.** They even bind the telling to a rule: every event in the story with a date on it is an event that happened in real life. Go around: did the scenario make the risk feel more real, or did the specifics hand you new objections? Then find the step in the story's path you find hardest to believe, and test it: if that step went differently, does the ending actually change, or does the story route around it?
 
 
 Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
