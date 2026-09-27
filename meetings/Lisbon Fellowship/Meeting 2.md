@@ -10,29 +10,7 @@ title: AI Safety Atlas Lisbon Week 2 Session Doc
 
 ### Where:
 
-### How today works
-
-You'll work at **small tables** (**3-4** people) and reshuffle for every round, so you meet different people each time. At each table:
-
-
-1. **Pick a scribe: one person who writes everyone's names and your new takeaway into that round's table.**
-2. Answer the prompt together; a line or two in the table is plenty, don't overthink formatting.
-
-
-Between rounds everyone comes back together. That is where you share what came up at your table, if you want to. Nobody has to, and no table is called on. Inside a round, skip the catch-up and start straight in on the prompt.
-
-
-**Today's shape (2 h):** arrival 0:00–0:05 · Round 1 0:05–0:20 · get-together 0:20–0:25 · Round 2 0:25–0:47 · get-together 0:47–0:55 · break 0:55–1:05 · Round 3 1:05–1:27 · get-together 1:27–1:35 · Round 4 1:35–1:50 · closing circle 1:50–2:00.
-
-
-**🆘 Need help during a round?**
-
-- Confused about the task, or want a human? Wave your facilitator over; they circulate between tables.
-- Don't get the question or the reading? Ask the [Lens Coach](https://lensacademy.org/coach).
-- More questions? Check the [FAQ Tab](https://docs.google.com/document/d/1v2vV520FQbry8AsdhWkpSNC_ihvkQqkU0wXa76DZRoM/edit?tab=t.e96f2l7cntce)
-
-
----
+source:: [[../shared/Session Doc - How today works (Lisbon)]]
 
 \pagebreak
 ### Round 1: Icebreaker  [0:05–0:20]
@@ -55,11 +33,7 @@ Go around your group:
 |  |  |
 
 
-### Get-together: 5 min  [0:20–0:25]
-
-Back as one room. Anything worth passing on from your table? Something you noticed, something you turned out to have in common, someone the others should meet.
-
----
+source:: [[../shared/Session Doc - First get-together (Lisbon)]]
 
 \pagebreak
 ### Round 2: Draw the whimper  [0:25–0:47]
@@ -163,66 +137,13 @@ Before you leave (your facilitator will talk through these):
 Want to keep talking? Stay on after 2:00 if the room is still yours; your facilitator will say when to pack up.
 
 # Tab: Participant FAQ
-style:: faq
-
-## Participant FAQ
-
-Quick answers for the in-person session. Everything you actually do is in the session doc.
-
-### 🆘 Getting help during a round
-
-Your facilitator can't be at every table at once, so:
-
-- **Confused about the task, or want a human?** Wave your facilitator over; they circulate between tables.
-- **Don't get the question, or something in the reading?** Ask the [Lens Coach](https://lensacademy.org/coach). It's for understanding, not for handing you the answer.
-- **Lost the doc link, or a quick logistics thing?** Check the fellowship **Discord channel**.
-
-### Before you arrive
-
-- **I didn't finish (or start) the reading, should I come?** Yes. Come anyway and just say so in Round 1; it's normal, and there's no penalty.
-- **I'm running late.** Come in quietly, sign in, and join the table your facilitator points you to; someone will catch you up.
-
-### At your table
-
-- **Do I have to talk?** Jump in when you've got a thought; there's no need to wait to be called on.
-- **What's a "scribe"?** One person per table jots the names and your answer into the table in the doc. A line or two is plenty; rotate it each round if you like.
-- **We finished early / ran out of things to say.** Wave your facilitator over for ideas to expand your current conversation.
-- **No one's talking, or one person is dominating.** Just start talking when you have a thought; if it's really stuck, wave your facilitator over.
-- **Do we need a "right answer"?** No! The point is the discussion, not a tidy answer.
-
-### Between rounds
-
-- **Where do we share what we came up with?** At the get-together after each round. Everyone comes back as one room and anyone who wants to share what came up at their table can.
-- **Do I have to share?** No. Nobody is called on, no table is put on the spot, and a quiet get-together is a fine outcome.
-- **Do we go around at the start of a round?** No. Take names and start straight in on the prompt; the sharing happens at the get-together.
-
-### The reading and the questions
-
-- **I don't understand the question or a claim.** Ask the [Lens Coach](https://lensacademy.org/coach)! It'll explain in plain terms.
-- **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the Coach or your facilitator.
-
-### Tech
-
-- **I can't find the doc, or I can't type in it.** The link is in Discord; open it on a laptop or phone, signed in with your enrolled account. Still stuck? Ask your facilitator.
-- **I don't have a laptop with me.** Share with a tablemate; one device per table is enough for the scribe.
-
-### After we wrap
-
-- **What happens at 2:00?** We close on time. If the room is still ours, hang around and keep talking if you'd like, no pressure.
-- **How do accountability buddies work?** You paired up in the first session; your buddy checks in with you before each meeting. Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your mind.
+source:: [[../shared/Participant FAQ (Lisbon)]]
 
 # Tab: Facilitator Run-Sheet
 
 ## Week 2 Facilitator Run-Sheet
 
-### Before anyone arrives
-
-1. Read the [session doc](https://docs.google.com/document/d/1v2vV520FQbry8AsdhWkpSNC_ihvkQqkU0wXa76DZRoM/edit?tab=t.0)
-2. Read this run-sheet
-3. Post the session doc link in the fellowship Discord channel the day before, and again when the session starts
-4. Set up tables for 3-4 people (five or six tables for twenty)
-5. Have a timer you can see (phone or projector) and, if there is a screen, the doc open on it
-6. Arrive 15 minutes early
+source:: [[../shared/Facilitator Run-Sheet - Before anyone arrives (Lisbon)]]
 
 ### Timeline (2 h)
 
@@ -256,28 +177,7 @@ Your facilitator can't be at every table at once, so:
 5. Start Round 1
     - If 4 or fewer people show up, use one table and do the rounds together
 
-### During the rounds
-
-1. Reshuffle every round: count off 1 to N (N = number of tables) and send all the 1s to table 1, and so on
-    1. Aim for 3 people per table (4 is fine if it doesn't fit)
-    2. Start a visible timer (round lengths below)
-2. Walk between tables and listen; within a minute you will hear which tables are stuck or shallow
-    1. Actively move between tables to unstick conversations, answer questions, and guide participants towards engaging deeply with the content.
-3. Make a concerted effort to spread your time across the tables (even in the case where one needs more help than others). Participants really value your perspective and presence!
-
-**Late arrivals**: greet them at the door, explain the structure in a sentence, and seat them at the smallest table.
-
-
-### Round timer and get-togethers
-
-- Start a visible timer for each round:
-    - Round 1 = 15
-    - Round 2 = 22
-    - Round 3 = 22
-    - Round 4 = 15
-- Give a two-minute warning by voice so tables can finish their table entry.
-- **Get-togethers (5 min after Round 1, 8 min after Rounds 2 and 3): this is the only place sharing happens, so do not let tables recap at the start of a round. Call everyone back as one room and ask who wants to share what came up at their table, then wait and give it a real pause. Nobody is called on and no table owes you a line, so a quiet get-together is a fine outcome. After Round 1 the question is lighter: what did people notice about each other, what did they turn out to have in common. Don't resolve anything and don't sum up.**
-- Then count off again and start the next round.
+source:: [[../shared/Facilitator Run-Sheet - During the rounds (Lisbon)]]
 
 ### Closing circle
 
@@ -299,36 +199,7 @@ Your facilitator can't be at every table at once, so:
 
 
 
-## Facilitator Pro-Tips:
-
-**1. Skeptic Unlock:** when a table stalls on **“AI won’t ever get that smart”**
-
-
-Some tables flatten when the group agrees AI will never become that capable. The discussion dies because there’s nothing left to argue. When that happens, show the trend:
-
-
-- Pull up the [METR time-horizons graph](https://metr.org/time-horizons/) and discuss pace of task-length growth.
-- A possible line: *“It’s not necessary for it to be smart today. Look at the slope, this is what an exponential looks like, and here’s where a few more doublings land us.”*
-- Hand it back to the table: “Given this curve, what would change your mind, in either direction?”
-
-
-**The goal is not to win an argument**. It is to turn a closed “no” into an open “huh, let’s take a look at this” so the discussion has somewhere to go.
-
-
-
-**2. Doom Reframe:** when the material hits hard and **the table turns fatalistic**
-
-
-Some tables end heavy. The content genuinely rattles people (participants have talked about getting anxious and doom-scrolling after the reading), and a discussion can settle into “we’re doomed” with nowhere left to go. When that happens, don’t let it end there:
-
-
-- Name it, then reframe: doom predictions assume today’s tools and limits, but the people working on this in the future will have new capabilities and methods we can’t see yet.
-- Reach for the [Malthusian fallacy](https://en.wikipedia.org/wiki/Malthusianism): everyone predicted mass starvation from population growth, then farming methods leapt ahead and it never happened. A predicted catastrophe is not a guaranteed one.
-- A possible line: *“It’s not all lost. The best thing any of us can do is work on it, so let’s not despair.”*
-- **Hand it back to agency:** “*Given that, what’s one thing within your reach, a skill, a question, a next step?*”
-
-
-**The goal is not to talk anyone out of their concern or paper over the risk.** It is to channel that energy into agency so people leave motivated rather than paralyzed.
+source:: [[../shared/Facilitator Run-Sheet - Facilitator Pro-Tips (Lisbon)]]
 
 
 
