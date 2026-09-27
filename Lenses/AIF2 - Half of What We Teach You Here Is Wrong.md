@@ -28,17 +28,17 @@ Except 50% is just what the quote says. Could even be worse. Science is always w
 
 \## Half of what we teach you here is wrong
 
-In many science programs, you can hear professors quote this line: "Half of what we're going to tell you is wrong, and we don't know which half. That's for you to figure out."
+Across fields of science education, you can sometimes hear professors quote this line: "Half of what we're going to tell you is wrong, and we don't know which half. That's for you to figure out."
 
-Everyone who is trying to make AI turn out well is new to it. That's why we need your help at all. If we could teach you exactly how things will go, or what you can confidently do about it, we would just tell you and be done.
+Everyone who is trying to make AI turn out well is new to it. That's why we need your help at all. If we could teach you how things will definitely go, or what you can confidently do about it, we'd just tell you and be done with it.
 
-What we really need is for you to look at a situation and quickly work out for yourself what will help. You'll need to do that even when others push you to agree with them. They are also working it out as they go, and many of them will be wrong.
+But what we really need is for you to be able to look at a situation and quickly work out for yourself what will help. You'll need to do that even under social pressure from other people who are also working it out as they go, and many of them will be wrong.
 
-Sometimes you'll be one of the people who are wrong.
+Sometimes you'll be one of the ones who are wrong.
 
-We'll have you read many different views and build your own view as you go. While you do, keep reminding yourself: the people you're reading have been at this for a while, and they have been about 50% wrong the whole time.
+We'll have you read different perspectives and try to build your own as you go. But remind yourself regularly: these people have been at it for a while, and they've been 50% wrong the whole time.
 
-And 50% is only the number from the quote. It could be worse. Science is always partly wrong, but with time and effort it can become less wrong.
+Then again, 50% is just what the quote says. It could even be worse. Science is always wrong, but over time, with effort, it can become less wrong.
 
 #### Text
 content::
@@ -56,11 +56,11 @@ Pre-tests aren't graded.
 
 \## Why we'll make you guess first
 
-Before you read some of the articles, we'll quiz you on what they say, even though you haven't read them yet. We do this on purpose. Research consistently shows a "pre-testing effect": if you try to come up with an idea yourself before you see it, you seem to remember it better.
+Before you read some of the articles, we'll test you on what they contain, even though you haven't read them yet. We do this on purpose. Research consistently shows a "pre-testing effect": being tested on your ability to come up with an idea before you meet it seems to make the idea stick in your memory better.
 
-Of course, an article making a claim doesn't mean the claim is true. When you guess what an article will say, you're guessing what one specific person was thinking. You'll guess best if you also think about the real-world situation that person was thinking about.
+But of course, an article making a claim does not mean the claim is true. When you guess what an article will say, you're guessing what a specific person was thinking. That works best if you also think about the reality they were thinking about.
 
-So we'll ask you what an article says before you read it. If you've already read the article, the exercise still helps. Want to learn more? Try to guess what the Wikipedia page on the Testing Effect says, then look it up.
+So we'll ask you to tell us what the article contains before you read it. If you've already read an article, this still helps. If you want to learn more, try to guess what the Wikipedia page on the Testing Effect says, then look it up.
 
 Pre-tests aren't graded.
 
@@ -76,9 +76,9 @@ A curve tells you what continues if nothing intervenes. It cannot tell you who i
 
 \## What the numbers in this unit are for
 
-This unit is mostly numbers: how much compute, how long a task AI can do, how fast the curve is rising. These are the parts of the future that people usually show you, because they are the parts we can measure. That doesn't mean you should distrust them. It means you should be careful about exactly what conclusions they support and what conclusions they don't.
+This unit is mostly numbers: how much compute, how long a task, how fast the curve. They are the part of the future that everyone shows you, and they are shown because they are the part that can be measured. That is no reason to distrust them, but it is a reason to be exact about what they can and cannot justify.
 
-A curve tells you what will keep happening if nobody steps in to change it. It can't tell you who will step in, what they want, or what happens in the parts of the world that nobody has measured. This course is about that second part: what to do, given numbers like these plus a lot that no number covers. Keep that question in mind as you go through this unit. We'll come back to it on the last page.
+A curve tells you what continues if nothing intervenes. It cannot tell you who intervenes, what they want, or what happens in the parts of the world nobody has measured. This course is about that second part: what to do, given numbers like these and a great deal that no number covers. Keep that question in mind through this unit. The last page comes back to it.
 
 #### Text
 content::
@@ -96,13 +96,13 @@ One more thing about this course: it is about what to do, not only about what wi
 
 \## What this costs, and who else is here
 
-We aim for each unit to take about three hours. Most of that is reading, and some is writing your answers. People vary a lot in how long they take, so don't worry if it takes you longer.
+We aim for each unit to take about three hours, mostly reading, with some time for writing your answers. But people vary a lot in how long they take to finish, so don't worry if it takes you longer.
 
-Unless you're speedrunning the course on your own, you're in a cohort with other students. You'll meet live to discuss and debate what you've learned. These meetings work best if you've already worked through the questions and can share your answers. But you're still welcome if you haven't done the readings yet. In that case the meeting just works as another pre-test.
+Unless you're speedrunning the course on your own, you're in a cohort with other students. You'll meet live to discuss and debate what you've learned. This works especially well if you've already worked through the questions and can share your answers at the meeting. But you're still welcome if you haven't done the readings yet; it will simply work as another pre-test.
 
-The course has five units. Your group will work through them at a steady pace over the next few weeks (or days, if you chose the intensive option).
+The course has five units. The group will work through them at a steady pace over the coming weeks (or days, if you chose intensive).
 
-One more thing about this course: it covers what you should do, as well as what will happen. Forecasting asks what will happen. Strategy asks what you will do about it. Every unit ends with you making a decision. The readings are there to help you make better decisions. We don't want you to just repeat them back.
+One more thing about this course: it is about what to do, not only about what will happen. Forecasting is passive: it asks what will happen. Strategy is active: it asks what you do about it. Every unit ends with you deciding something. The readings are there to make your decisions better, not for you to recite back.
 
 #### Question: Open
 id:: 27ef8f6f-0325-4e8c-855c-79bb57f13f03

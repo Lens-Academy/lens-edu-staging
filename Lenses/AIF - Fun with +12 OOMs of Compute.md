@@ -38,25 +38,25 @@ Later articles will build up more of the technical details. Once again, the purp
 
 \## Remove a bottleneck and see what a model predicts
 
-Let's start in the middle. Say you already have a model of how something changes: a description of what causes what, with numbers for how much each step drives the next one. Usually there is a bottleneck somewhere, a part of the process that the other steps have to wait for.
+Let's start in the middle. Say you already have a model of how something moves: a description of what leads to what, with numbers for how much each step leads to another. Usually there will be a bottleneck, some part of the process that the other steps wait for.
 
-Most models of AI progress depend heavily on the amount of compute: how much math the computer does while running the software that makes the AI.
+Most such descriptions of AI progress depend heavily on the amount of compute: how much math the computer does while running the software that makes the AI.
 
-So next you'll read an article by Daniel Kokotajlo. He asks what happens when you run very large programs that search for capable behavior in different ways.
+So here you'll read Daniel Kokotajlo's article. He looks at what happens when you run very large programs that try to find capable behaviors in different ways.
 
-You probably won't understand everything he says at first, so try to guess what each thing means. In particular, he assumes you know which techniques for making AIs were common in 2016. Most of us don't have that memorized either. Follow what you can, and notice what confuses you. When something confuses you, ask yourself: could this turn out to be a disagreement with him, or is it just something I don't know yet?
+You probably won't understand everything he says at first, so try to guess what each thing means. In particular, he assumes you know which techniques for making AIs were common in 2016, and most of us don't have that memorized either. Follow what you can, and look for what confuses you. When you notice something confusing, ask yourself whether it could turn out to be a disagreement, or whether it's just something you don't know.
 
 Here are some basic definitions:
 
-**Compute**: the total number of steps (addition, multiplication, comparison, etc.) used to train the AI. (For most AIs, the vast majority of these steps are multiplications.)
+**Compute**: the total number of steps (addition, multiplication, comparison, etc.) used in training the AI. (For most AIs, the vast majority of steps are multiplication.)
 
-**FLOP**: technically "**FL**oating-point **OP**eration". It just means one arithmetic step.
+**FLOP**: technically "**FL**oating-point **OP**eration", this just means an arithmetic step.
 
-**OOM**: **O**rder **O**f **M**agnitude, a factor of ten. 10 is one order of magnitude more than 1. It's usually written in exponential notation: 10^3 = 1000, and 10^4 = 10,000.
+**OOM**: **O**rder **O**f **M**agnitude, a factor of ten. 10 is one order of magnitude more than 1. Typically written in exponential notation: 10^3 = 1000, and 10^4 = 10,000.
 
-**TAI**: **T**ransformative **A**rtificial **I**ntelligence. Here it means any piece of software that changes the world at least as much as the industrial revolution did.
+**TAI**: **T**ransformative **A**rtificial **I**ntelligence, which here refers to any piece of software that changes the world at least as much as the industrial revolution did.
 
-Later articles will fill in more of the technical details. We're giving you readings out of order on purpose. The goal is to confuse you enough that your subconscious starts to learn what to be curious about.
+Later articles will build up more of the technical details. Once again, the reason for reading things out of order is to confuse you enough that your subconscious starts to know what to be curious about.
 
 #### Article
 source:: [[../articles/kokotajlo-fun-with-12-ooms-of-compute]]
@@ -185,7 +185,7 @@ content::
 The question in the next passage was written in 2020 and asks about "the end of 2020". That date is kept on purpose. Answer it as a reader in 2020 would have, with what was known then; the exercise is about the reasoning, not the calendar.
 %%
 
-The question in the next passage was written in 2020, and it asks about "the end of 2020". We kept that date on purpose. Answer it the way a reader in 2020 would have, using only what was known then. This exercise is practice in reasoning, so the actual date doesn't matter.
+The question in the next passage was written in 2020 and asks about "the end of 2020". That date is left unchanged on purpose. Answer it as a reader in 2020 would have, with what was known then. What counts in this exercise is the reasoning, not the date.
 
 #### Article
 from:: ## Question Two: In this hypothetical, what's the probability that TAI appears by end of 2020?
