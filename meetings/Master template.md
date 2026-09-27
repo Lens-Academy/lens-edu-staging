@@ -10,29 +10,7 @@ title: Master Meeting Doc Template
 
 ### Meeting link:
 
-### How today works
-
-You'll move through a few small **breakout rooms** (**3-4** people), meeting different people each time. In each room:
-
-
-1. **Pick a scribe: one person who writes everyone's names and your group's answer into that room's table.**
-2. Answer the prompt together; a line or two in the table is plenty, don't overthink formatting.
-
-
-Between rooms everyone comes back to the main room for five minutes. Your navigator asks who wants to share what their group landed on. Speaking up is optional and a sentence or two is plenty, so if your group hit something the others should hear, that is the moment.
-
-
-**Today's shape (90 min):** lobby 0:00–0:05 · Room 1 0:05–0:19 · back together 0:19–0:24 · Room 2 0:24–0:42 · back together 0:42–0:47 · break 0:47–0:52 · Room 3 0:52–1:10 · back together 1:10–1:15 · Room 4 1:15–1:27 · goodbye 1:27–1:30.
-
-
-**🆘 Need help during a breakout?**
-
-- Confused about the task, or want to talk to the facilitator? Click  **"••• More” > “Ask for Help"** > Your navigator gets pinged and pops into your room.
-- Don't get the question or the reading? Ask the [Lens Coach](https://lensacademy.org/coach).
-- More questions? Check the [FAQ Tab](<#tab:Participant FAQ>)
-
-
----
+source:: [[shared/Session Doc - How today works]]
 
 \pagebreak
 ### Room 1: {{Room Name}}  [0:05–0:19]
@@ -129,11 +107,7 @@ One or two people share what their group landed on.
 
 
 
-### Open discussion [1:30–...]
-
-Want to discuss more?\
-\
-The call will stay open. If you are too many people, or you want to discuss with specific people, ask your navigator to create some breakout rooms that you can switch in and out of.
+source:: [[shared/Session Doc - Open discussion]]
 
 # Tab: Participant FAQ
 style:: faq
@@ -188,21 +162,7 @@ Your navigator isn't in every room, so:
 
 ## Unit {{N}} Navigator Run-Sheet
 
-### Before anyone joins
-
-1. Read the [session doc](<#tab:Session Doc>)
-2. Read this run-sheet
-3. Download [zoom for desktop](https://zoom.us/download)
-4. Sign out of your personal zoom account and into Lens Academy Navigator. The **credentials are in** **[#navigation-team](https://discord.com/channels/1440725236843806762/1461355080555958306/1525736943529365605)**
-5. Join the meeting 10min before it starts
-6. Claim Zoom host at the beginning of the session by:
-    1. Click "Participants"
-    2. Click "Claim Host”: and enter: **[CODE IN DISCORD](https://discord.com/channels/1440725236843806762/1461355080555958306/1525736943529365605)**
-7. **Remove all note-taker bots**
-8. Launch Lens Breakout Control App:
-    1. …More > Apps > ![image|103.125x21.566](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/meeting-doc-543f720a4984.png)
-    2. [How to Open video](https://drive.google.com/file/d/1V-ihOqzsIZZrXTTiTxTEVEd9PWl_EN3O/view?usp=sharing)
-9. Get your group’s session doc link to post in the Zoom chat (from Discord)
+source:: [[shared/Navigator Run-Sheet - Before anyone joins]]
 
 ### Timeline (90 min)
 
@@ -237,41 +197,9 @@ Your navigator isn't in every room, so:
 6. Start room 1
     - If <= 4 participants show up, you don’t need to create breakout rooms. Just do the exercises in the main room
 
-### During the breakout rooms
+source:: [[shared/Navigator Run-Sheet - During the breakout rooms]]
 
-1. Create breakout rooms (...more > breakout rooms)
-    1. Use Zoom "assign automatically" - **Reshuffle every round**
-    2. Aim for 3 people per room (4 is fine if it doesn’t fit)
-    3. Setup timer (see below)
-2. Use Lens Breakout Control app to monitor the breakout room conversations as they are happening.
-    1. The app will show both the level and content of the discussions (it may take ~30 seconds after opening rooms to start displaying this information)
-    2. Actively jump between rooms to unstick conversations, answer questions, and guide participants towards engaging deeply with the content.
-3. Make a concerted effort to spread your facetime across the groups (even in the case where one needs more help than others). Participants really value your perspective and presence!
-
-**Late Arrivals**: Zoom pings you and shows late arrivals in the participant panel. Greet them in main, explain the structure, and send them into a room.
-
-
-### Back together (5 min, after Rooms 1, 2 and 3)
-
-Zoom’s timer pulls everyone into the main room by itself; that is your cue. **Nobody is made to speak.**
-
-- Ask the whole group: **“Who wants to share what your group landed on?”** Then **wait 30 seconds.** Count them. The silence is doing work, so do not fill it.
-- If someone speaks up, let them share a sentence or two. Then ask again and wait again.
-- Keep going while there is time: sharing gets about **4 minutes**. If nobody volunteers, that is a fine outcome; move on without commenting on it.
-- You may invite someone by name if it feels right, but never push, and always let them pass to a groupmate.
-- **In the fifth minute, explain the next room** and open it, so the room starts on time. Recreate the rooms while people are still talking.
-- Four or fewer participants and no breakouts? Skip it and move to the next prompt.
-
-### Zoom breakout timer (set it each round)
-
-- When you open breakout rooms, open **Options** and check **“Breakout rooms close automatically after \_\_\_ minutes,”** then set the round length:
-    - Room 1 = 14
-    - Room 2 = 18
-    - Room 3 = 18
-    - Room 4 = 12
-- Also check **“Countdown timer”** (e.g. 60 seconds) so everyone gets a warning before the room closes.
-- Zoom then shows a live countdown in every room and pulls people back automatically, so you don’t have to watch the clock or broadcast “2 min left” by hand.
-- Reshuffle and reopen with the next duration for the next round.
+source:: [[shared/Navigator Run-Sheet - Zoom breakout timer]]
 
 ### Close
 
@@ -293,36 +221,7 @@ Zoom’s timer pulls everyone into the main room by itself; that is your cue. **
 
 
 
-## Navigator Pro-Tips:
-
-**1. Skeptic Unlock:** when a room stalls on **“AI won’t ever get that smart”**
-
-
-Some rooms flatten when the group agrees AI will never become that capable. The discussion dies because there’s nothing left to argue. When that happens, show the trend:
-
-
-- Pull up the [METR time-horizons graph](https://metr.org/time-horizons/) and discuss pace of task-length growth.
-- A possible line: *“It’s not necessary for it to be smart today. Look at the slope, this is what an exponential looks like, and here’s where a few more doublings land us.”*
-- Hand it back to the room: “Given this curve, what would change your mind, in either direction?”
-
-
-**The goal is not to win an argument**. It is to turn a closed “no” into an open “huh, let’s take a look at this” so the discussion has somewhere to go.
-
-
-
-**2. Doom Reframe:** when the material hits hard and **the room turns fatalistic**
-
-
-Some rooms end heavy. The content genuinely rattles people (participants have talked about getting anxious and doom-scrolling after the reading), and a discussion can settle into “we’re doomed” with nowhere left to go. When that happens, don’t let it end there:
-
-
-- Name it, then reframe: doom predictions assume today’s tools and limits, but the people working on this in the future will have new capabilities and methods we can’t see yet.
-- Reach for the [Malthusian fallacy](https://en.wikipedia.org/wiki/Malthusianism): everyone predicted mass starvation from population growth, then farming methods leapt ahead and it never happened. A predicted catastrophe is not a guaranteed one.
-- A possible line: *“It’s not all lost. The best thing any of us can do is work on it, so let’s not despair.”*
-- **Hand it back to agency:** “*Given that, what’s one thing within your reach, a skill, a question, a next step?*”
-
-
-**The goal is not to talk anyone out of their concern or paper over the risk.** It is to channel that energy into agency so people leave motivated rather than paralyzed.
+source:: [[shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 
 # Tab: Glossary
 style:: plain
