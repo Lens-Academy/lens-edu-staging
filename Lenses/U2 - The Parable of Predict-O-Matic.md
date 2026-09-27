@@ -17,7 +17,7 @@ content::
 As you read, keep this question in mind: at what point does the machine start doing something other than predicting? Could anyone inside the story have identified that point at the time?
 %%
 
-As you read, keep this question in mind: at what point does the machine start doing something other than predicting? Could anyone in the story have spotted that point when it happened?
+As you read, keep this question in mind: at what point does the machine start doing something other than predicting? Could anyone in the story have spotted that point at the time?
 
 #### Article
 source:: [[../articles/demski-parable-of-predict-o-matic]]

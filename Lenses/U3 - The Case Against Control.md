@@ -44,13 +44,20 @@ Two objections follow. Read them as arguments to weigh, not as the verdict.
 
 \## Before you read
 
-A large part of the safety field works on AI control. In this lens, you'll decide what you think of it.
+A large part of the safety field works on AI control. This lens is where you decide what you think of it.
 
-Here's the idea. Assume the AI system might be misaligned, and set up its deployment so that it can't cause a catastrophe even if it is. That can mean monitoring it, restricting its permissions, having one model check another, or giving untrusted models tasks where cheating can be detected. Control doesn't try to give the system the right goals. Instead, it tries to make sure that a system with the wrong goals still can't do serious harm.
+The idea is to assume the system may be misaligned, and to build the deployment so that it cannot cause a catastrophe even if it is. Measures include monitoring, restricted permissions, one model checking another, and giving untrusted models tasks where cheating can be detected. Control does not try to make the system want the right thing. Instead, it tries to make it not matter if the system wants the wrong thing.
 
-The case for control is strong, and you should know it before you read the objections. Control doesn't require solving alignment, and nobody knows how to do that yet. It works on systems we can build now, instead of systems we hope to understand later. Its measures can be tested: you can red-team a monitoring setup and count how often it fails, which is more than most safety proposals can offer. And if the first AI systems able to cause serious harm are only somewhat superhuman, keeping them contained may be enough to get useful work out of them. That includes work on the alignment problem itself. Ryan Greenblatt and Buck Shlegeris, two researchers at Redwood Research who built much of the control agenda, make this case in detail in "The case for ensuring that powerful AIs are controlled". You'll meet Greenblatt again in Unit 4.
+The case for control is strong, and you should know it before you read the objections:
 
-The two readings below are objections to control. Treat them as arguments for you to weigh. They don't settle the question.
+- Control does not require solving alignment, which nobody knows how to do.
+- It applies to systems we can build now, rather than to systems we hope to understand later.
+- Its measures are testable. You can red-team a monitoring setup and count the failures, which is more than most safety proposals can offer.
+- If the first systems capable of serious harm are only somewhat superhuman, containing them may be enough to get useful work out of them, including work on the alignment problem itself.
+
+Ryan Greenblatt and Buck Shlegeris make this case at length in "The case for ensuring that powerful AIs are controlled". They are two researchers at Redwood Research who built much of the control agenda. You meet Greenblatt again in Unit 4.
+
+Two objections follow. Read them as arguments to weigh, not as the verdict.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
 

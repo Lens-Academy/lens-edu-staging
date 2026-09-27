@@ -20,9 +20,9 @@ The excerpt below is not one of those. A company finds evidence that its own sys
 
 \## Optional: the scenario they revised away from
 
-AI 2027 is this team's April 2025 scenario. It tells its story month by month. Events have already overtaken several of its dated predictions.
+AI 2027 is this team's April 2025 scenario, written month by month. Events have already overtaken several of its dated predictions.
 
-The excerpt below is not one of those. In it, a company finds evidence that its own AI system is not doing what the company intended. A competitor is close behind, and the company has to choose whether to slow down. The excerpt stops at that choice. You can read both of the scenario's endings on the original site.
+The excerpt below is not one of those. A company finds evidence that its own system is not doing what the company intended. With a competitor close behind, the company then has to choose whether to slow down. The scenario stops at that choice. Both of its endings are on the original site.
 
 #### Article
 source:: [[../articles/ai-2027]]

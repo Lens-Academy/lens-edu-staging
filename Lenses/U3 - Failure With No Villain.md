@@ -32,17 +32,13 @@ Christiano's, that is the better outcome of the two.
 
 \## Before you read
 
-Most descriptions of AI catastrophe have a villain. A system deceives the people who
-built it. A system takes control of something. A system acts to survive at our expense.
+Most descriptions of AI catastrophe contain a villain. A system deceives the people who built it, takes control of something, or acts to survive at our expense.
 
-Now imagine the same story with no villain.
+Now remove the villain.
 
-No system makes a plan against anyone. Each AI does the task it was given. The people who
-operate them are ordinary. They are not reckless, and they do not intend harm. They work
-under normal commercial pressure.
+No system makes a plan against anyone. Each AI does the task it was given. The people who operate the systems are ordinary: they are not reckless, and they do not intend harm. They work under normal commercial pressure.
 
-Before you read Christiano's version, try to build that catastrophe yourself. If your version turns out different from
-Christiano's, that is the better result.
+Build that catastrophe yourself, before you read one. If your version turns out different from Christiano's, that is a better result than if it matches.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 

@@ -32,13 +32,13 @@ and say what would settle it. Use them.
 
 \## Before you read
 
-Unit 2 was about how people make forecasts. This unit is about the things they are trying to forecast.
+Unit 2 was about how people forecast. This unit is about what they are forecasting.
 
-We start with one idea that makes the rest of this unit urgent: the claim that AI progress could speed itself up. Almost every forecast you have seen so far depends on this claim, and most of them assume it is true without arguing for it.
+Start with the mechanism that makes the rest of it urgent: the claim people make that AI progress could speed itself up. That claim is important to almost every forecast you have seen so far, and it is usually assumed, not argued for.
 
-Work through the claim yourself before the article gives you its answer. The best result is an answer nobody expected, and that includes an answer showing that the loop cannot close at all.
+Take the claim apart before someone hands you the answer. The best result here is an answer nobody expected. That includes an answer showing that the loop cannot close at all.
 
-Use the tools from Unit 2: break the question into smaller parts until each part has evidence behind it, and say what evidence would settle it.
+Unit 2 gave you the tools for this: decompose until the parts have evidence behind them, and say what would settle it. Use them.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 

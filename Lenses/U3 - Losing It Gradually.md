@@ -30,11 +30,9 @@ them stop.
 
 \## Before you read
 
-In the previous reading, the harm happened without a villain: nobody set out to cause it. This reading goes a step further. Here there is also no single moment when things go wrong.
+The previous reading took out the villain. This one takes out the moment where things go wrong: there is no such step. Each change is reasonable, the kind of thing a sensible organisation would do. But the end state is one that nobody chose.
 
-The paper describes a series of changes. Each one is reasonable. Each is something a sensible organisation would do. But together they lead to an end state that nobody chose.
-
-For this story to work, something must be making our institutions look after people today. Governments, companies and markets do take human welfare into account. They do it imperfectly and unevenly, but they do it. So ask yourself: why? If you can't say why they do it now, you can't say what would make them stop.
+For this to work, something must be making our institutions take human welfare into account now. Governments, companies and markets do this. They do it imperfectly and unevenly, but they do it. Ask yourself why. If you cannot say why they do it now, you cannot say what would make them stop.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 

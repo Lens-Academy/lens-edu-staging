@@ -115,7 +115,7 @@ content::
 This page is a conversation with the tutor rather than a reading, and nothing in it is graded. Before you start, think of one claim about the future of AI that someone in your own field or organisation has made recently, and who made it. The tutor will take that claim apart with you over a few messages: what would settle it, whose track record bears on it, and what you do while it stays unsettled.
 %%
 
-This page is a conversation with the tutor rather than a reading, and nothing on it is graded. Before you start, think of one claim about the future of AI that someone in your own field or organisation made recently, and who made it. Over a few messages, the tutor will pick that claim apart with you. You'll look at what would settle it, whose track record matters for it, and what you should do while it is still unsettled.
+This page is a conversation with the tutor, not a reading, and nothing in it is graded. Before you start, think of one claim about the future of AI that someone in your own field or organisation has made recently, and who made it. Over a few messages, the tutor will take that claim apart with you: what would settle it, whose track record bears on it, and what you do while it stays unsettled.
 
 #### Chat
 instructions::
