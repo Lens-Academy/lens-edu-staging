@@ -27,34 +27,39 @@ application-survey:: [[../surveys/Application Form]]
 # Module: [[../modules/XLab Control P1 D1 Why control|Unit 1: Why control]]
 
 # Meeting: Unit 1
-meeting-doc-template:: https://docs.google.com/document/d/1JGdMGGGoUVis-UZtYEbsf8RzzShJkASQYLWA7XWkuJs/edit
+meeting-doc-template:: https://docs.google.com/document/d/1JGdMGGGoUVis-UZtYEbsf8RzzShJkASQYLWA7XWkuJs/edit{++{"author":"Luc's AI","timestamp":1790522928587}@@
+meeting-doc:: [[../meetings/AI Control 1/Meeting 1]]++}
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../modules/XLab Control P1 D2 The founding paper and passing the buck|Unit 2: The founding paper and passing the buck]]
 
 # Meeting: Unit 2
-meeting-doc-template:: https://docs.google.com/document/d/1vC1PcOUiz5mhnm9t3ovFuhAbGNlVSY-t7d-D8-SFvKo/edit
+meeting-doc-template:: https://docs.google.com/document/d/1vC1PcOUiz5mhnm9t3ovFuhAbGNlVSY-t7d-D8-SFvKo/edit{++{"author":"Luc's AI","timestamp":1790522928912}@@
+meeting-doc:: [[../meetings/AI Control 1/Meeting 2]]++}
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Control P1 D3 Catching schemers, prioritising threats, and the case against control|Unit 3: Catching schemers, prioritising threats, and the case against control]]
 
 # Meeting: Unit 3
-meeting-doc-template:: https://docs.google.com/document/d/1oAt29epCYGOQ08B2zn0Z2aIvlz2L8aYbqVpJpoiv8Mc/edit
+meeting-doc-template:: https://docs.google.com/document/d/1oAt29epCYGOQ08B2zn0Z2aIvlz2L8aYbqVpJpoiv8Mc/edit{++{"author":"Luc's AI","timestamp":1790522929216}@@
+meeting-doc:: [[../meetings/AI Control 1/Meeting 3]]++}
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Control P1 D4 Plans, the control toolkit, and high-stakes framing|Unit 4: Plans, the control toolkit, and high-stakes framing]]
 
 # Meeting: Unit 4
-meeting-doc-template:: https://docs.google.com/document/d/10t8mJhSO3yOtQGUHXylvi3_mxjfAvx7XNU0ly0adv50/edit
+meeting-doc-template:: https://docs.google.com/document/d/10t8mJhSO3yOtQGUHXylvi3_mxjfAvx7XNU0ly0adv50/edit{++{"author":"Luc's AI","timestamp":1790522929570}@@
+meeting-doc:: [[../meetings/AI Control 1/Meeting 4]]++}
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Control P1 D5 High-stakes monitoring and mitigation|Unit 5: High-stakes monitoring and mitigation]]
 
 # Meeting: Unit 5
-meeting-doc-template:: https://docs.google.com/document/d/14RrHaPMKBELyddLNYG6geBIig8JQBV-uLEX77X6eT3M/edit
+meeting-doc-template:: https://docs.google.com/document/d/14RrHaPMKBELyddLNYG6geBIig8JQBV-uLEX77X6eT3M/edit{++{"author":"Luc's AI","timestamp":1790522929909}@@
+meeting-doc:: [[../meetings/AI Control 1/Meeting 5]]++}
 survey:: [[../surveys/AC1 Final Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
