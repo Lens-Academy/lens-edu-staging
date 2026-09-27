@@ -52,13 +52,12 @@ You can also read **Luke Muehlhauser's *The errors, insights, and lessons of fam
 
 **Read *How we're predicting AI, or failing to*, by Stuart Armstrong.**
 
-This paper surveys AI predictions. Armstrong looks at all the predictions as a group, rather than judging each one on its own. Look for two findings.
+This is a survey of AI predictions. Armstrong assesses the whole set together, not one prediction at a time. Look for two findings:
 
-First, look for what the paper says makes expert predictions different from non-expert ones. Read this part carefully. The authors later found that this finding came from a coding error in their dataset, and the finding did not hold up once the error was fixed. Figure 1 splits the predictions into expert and non-expert markers using that same grouping. So treat those markers as the paper's claim, and not as an established result.
+1. What the paper says separates expert predictions from non-expert ones. Read this one with care. The authors later acknowledged that it rested on a coding error in the dataset, and the finding did not survive. The split between expert and non-expert predictions in Figure 1 is that same grouping, so read those markers as the paper's claim, not as a settled result.
+2. What the predicted dates look like when you plot them against the date each prediction was made. This finding survived the correction.
 
-Second, look for what the predicted dates look like when you plot them against the year each prediction was made. This finding still held after the correction.
-
-You can also read **Luke Muehlhauser's *The errors, insights, and lessons of famous AI predictions***. It goes through the individual predictions that make up the pattern.
+You can also read **Luke Muehlhauser's *The errors, insights, and lessons of famous AI predictions***. It gives the individual cases behind the pattern.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 

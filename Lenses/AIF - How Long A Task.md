@@ -70,7 +70,7 @@ Here's an excerpt of a video about what exponential processes feel like.
 
 \## Optional: a doubling is hard to feel
 
-Here's a clip from a video about what exponential processes feel like.
+Here's an excerpt from a video about what exponential processes feel like.
 
 #### Video
 source:: [[../video_transcripts/ai-in-context-were-not-ready-for-superintelligence]]
