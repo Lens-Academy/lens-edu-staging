@@ -30,15 +30,21 @@ Their section 5 answers the obvious objections, and Appendix A is the treaty its
 
 \## Before you read
 
-The previous reading gave Plan A one paragraph. It described a strong international agreement that mostly ends the race and gives the world years to do safety work. One paragraph can't show you how that would actually work. On this page you get the plan itself, written out in the detail of a real treaty.
+The previous reading gave Plan A one paragraph. It described a strong international agreement that mostly ends the race and gives the world years of safety work. One paragraph is not enough to be a plan. This lens gives you the plan itself, in the detail of an actual treaty.
 
-Aaron Scher and colleagues on MIRI's Technical Governance Team have drafted the actual agreement. You will read the section that explains what it does: which training runs are banned, which chips are tracked, where those chips are allowed to be, who verifies whom, and why its governing council starts with exactly two members.
+Aaron Scher and colleagues on MIRI's Technical Governance Team have drafted the actual agreement. You will read the section that says what the agreement does. It covers:
 
-This treaty is one of a family of related proposals. Evals and if-then commitments say: keep going, but promise in advance to act when a measured capability passes a set level. Pause campaigns say: stop first, and work out the details later. If you read one of these proposals closely, you'll know how to read the others.
+- which training runs are banned
+- which chips are tracked
+- where those chips are allowed to be
+- who verifies whom
+- why the agreement's governing council starts with exactly two members
 
-Before you start, decide where you think it breaks. Every agreement has to be signed, then verified, then enforced. Nearly everyone who dismisses this plan points at one of those three steps. Pick your step first. Then, as you read, you can see how much of the text deals with that step.
+This treaty belongs to a family of proposals. Evals and if-then commitments say: keep going, but promise in advance to act when a measured capability passes a set level. Pause campaigns say: stop first, and negotiate the details after. If you read one member of the family closely, you learn how to read the rest.
 
-The authors' section 5 answers the obvious objections, and Appendix A is the treaty itself, article by article. Both appear below the excerpt. The team publishes its other work at https://techgov.intelligence.org.
+Before you start, decide where the plan breaks. Every agreement has to be signed, then verified, then enforced. Nearly everyone who dismisses this plan points at one of those three steps. Pick your step first. Then you can see how much of the text deals with that step.
+
+The authors' section 5 answers the obvious objections, and Appendix A is the treaty itself, article by article. Both come after the excerpt. The team publishes its other work at https://techgov.intelligence.org.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the authors' own work.*
 

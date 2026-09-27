@@ -35,11 +35,11 @@ counts it, count it yourself.
 
 \## Before you read
 
-This unit opened with a list of plans. The list got shorter as political will fell. This reading describes the bottom of that list. In this scenario, no treaty arrives and no government acts. The company will not slow down. Its leadership mentions misalignment risk but makes no real effort to solve it.
+The list of plans at the start of this unit got shorter as political will fell. This reading describes the bottom of that list. No treaty arrives. No government acts. The company will not slow down. Its leadership mentions misalignment risk but does not treat it as a problem to solve.
 
-What is left is ten people inside the company who take the risk seriously. Buck Shlegeris asks what those ten should do with the little they have. He is not asking how to fix the whole situation. He is asking how they can buy some risk reduction at the margin, on a small budget, without getting fired.
+What remains is ten people inside the company who take the risk seriously. Buck Shlegeris asks what those ten should do with the little they have. His question is not how to fix the situation. It is how to buy risk reduction at the margin, on a small budget, without getting fired.
 
-Treat the reading as an inventory. It counts the influence that is still available after the larger plans have failed. It does not recommend this approach, and it does not argue that insiders are enough. It also does not argue that you should give up on treaties and governments. Before you read his count, make your own in the exercise below.
+Read it as an inventory, not a recommendation. It does not argue that insiders are enough, and it does not argue for giving up on treaties and governments. It counts the influence that remains after those larger plans have failed. Before you read his count, make your own.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 

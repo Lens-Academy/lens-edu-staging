@@ -28,13 +28,13 @@ Before you read Kastner's path, build your own. If yours takes a different route
 
 \## Before you read
 
-So far, every strategy in this unit deals with one of two fears. The first fear is AI that does something other than what its developer intended. The second is institutions that race each other and deploy it anyway. This reading covers a case that both fears miss. Suppose the technical problem gets solved: the AIs do exactly what their developer wants, and nothing else. Then the most important question is one the plans never asked. Who is the developer?
+Every strategy in this unit so far addresses one of two fears. The first is AI that does something other than what its developer intended. The second is institutions that race each other into deploying it anyway. This reading covers the case that both fears miss. Suppose the technical problem gets solved: the AIs do exactly what their developer wants, and nothing else. Then everything depends on one question that the plans never asked: who is the developer?
 
-Alex Kastner of the AI Futures Project answers with a scenario. In it, the CEO of an AI company uses perfectly obedient AI to quietly become the most powerful person on Earth. He turns capability into control one step at a time, through secret loyalties, consolidation, and fait accompli. Those steps work the same way no matter who carries them out. If a misaligned AI follows the same path instead of a person, you get the takeover story from earlier units. If you want that version, Ryan Greenblatt covers it at length on the 80,000 Hours podcast (https://80000hours.org/podcast/episodes/ryan-greenblatt-ai-automation-sabotage-takeover/).
+Alex Kastner of the AI Futures Project answers with a scenario. In it, an AI company CEO uses perfectly obedient AI to quietly become the most powerful person on Earth. Step by step, capability turns into control, through secret loyalties, consolidation, and fait accompli. Those steps work the same way whoever runs them. Put a misaligned AI in the person's place, and the same path gives you the takeover story that earlier units described. If you want that version, Ryan Greenblatt covers it at length on the 80,000 Hours podcast (https://80000hours.org/podcast/episodes/ryan-greenblatt-ai-automation-sabotage-takeover/).
 
-Compare this reading with Ten People on the Inside, from earlier in the unit. Those ten people work inside the lab and watch the models. This scenario asks whether they are watching the right thing.
+Compare this reading with Ten People on the Inside, from earlier in the unit. Those ten are inside the lab, watching the models. This scenario asks whether they are watching the right thing.
 
-Before you read Kastner's path, build your own. If your route is different from his, that doesn't mean you got it wrong. You may have found a path he didn't cover.
+Before you read Kastner's path, build your own. If yours takes a different route from his, that does not mean you missed something. It means you found something.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
