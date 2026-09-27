@@ -29,8 +29,6 @@ One thing this reading is not: careers advice. It says what needs doing. It does
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 %%
 
-\## Before you read
-
 The last two readings moved the question twice. First they moved it toward what we hand off to AIs, and when. Then they moved it toward aiming at a future worth wanting, rather than at survival alone. Both of those readings were still arguments. This one is a list. Will MacAskill and colleagues at Forethought wrote down concrete projects that would make the transition to powerful AI go better. They ordered the projects roughly by how excited they are about each one. Most of the projects are understaffed. Several are organisations that do not exist yet.
 
 It is also the last assigned reading of the course. After this page there are no more assigned readings, and the remaining work is yours.
