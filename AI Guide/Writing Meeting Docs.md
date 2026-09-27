@@ -30,7 +30,7 @@ A meeting doc is the Google Doc a cohort group works through during a 90-minute 
 ## Validation instructions
 
 ### Agent 1: Template match
-Go through each tab of the master template (https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4) and check if the discussion doc you are validating is a filled version of it:
+Go through each tab of the master template {--{"author":"Luc's AI","timestamp":1790521229826}@@(https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4)--}{++{"author":"Luc's AI","timestamp":1790521229826}@@([[meetings/Master template]])++} and check if the {--{"author":"Luc's AI","timestamp":1790521229826}@@discussion--}{++{"author":"Luc's AI","timestamp":1790521229826}@@meeting++} doc you are validating is a filled version of it:
 1. Every {{placeholder}} is filled; none left over.
 2. The fixed parts match the master template exactly.
 3. The glossary is filled: ordered by module, each term defined once at its first appearance, in one or two sentences, in the source's framing.
@@ -223,4 +223,4 @@ This agent gets the Session Doc tab only: no lenses, no course file, no run-shee
 Agents 1 and 2 read the lenses before the doc, so they cannot see jargon: they already know what "the move" or "the four rings" means. Agent 3 exists because the meeting-2 docs of Compute Verification Part 1 passed Agents 1 and 2 and then confused most of a cohort (September 2026).
 
 ### Delivery: the doc participants see is a copy
-Group session docs are copied from the master when the cohort's meetings are created, not when the meeting starts. Editing the master after that reaches nobody enrolled. To change a live doc, list the copies (`meetings.session_doc_url` for the cohort) and patch each one in place; `lens_meeting_doc_scripts/update_doc.py` does this from a spec.
+Group session docs are copied from the {--{"author":"Luc's AI","timestamp":1790521231942}@@master when the cohort's meetings are created, --}{++{"author":"Luc's AI","timestamp":1790521231942}@@rendered template up to 21 days before the meeting, ++}not when the meeting starts. {--{"author":"Luc's AI","timestamp":1790521231942}@@Editing--}{++{"author":"Luc's AI","timestamp":1790521231942}@@An edit to++} the {--{"author":"Luc's AI","timestamp":1790521231942}@@master after that --}{++{"author":"Luc's AI","timestamp":1790521231942}@@Markdown renders a new template, but it ++}reaches {--{"author":"Luc's AI","timestamp":1790521231942}@@nobody enrolled.--}{++{"author":"Luc's AI","timestamp":1790521231942}@@only the groups whose doc is made after the edit.++} To change a live doc, list the copies (`meetings.session_doc_url` for the cohort) and patch each one in place; `lens_meeting_doc_scripts/update_doc.py` does this from a spec.
