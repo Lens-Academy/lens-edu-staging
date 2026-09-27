@@ -4,17 +4,20 @@ tags:
 ---
 # Writing Meeting Docs (AI Guide)
 
-A meeting doc is the Google Doc a cohort group works through during a 90-minute video meeting. {--{"author":"Luc's AI","timestamp":1790521224698}@@Its link lives--}{++{"author":"Luc's AI","timestamp":1790521224698}@@You write it in Markdown, in `meetings/<Course>/Meeting N.md`. The course file links it with `meeting-doc::`. The platform renders the Markdown into a Google Doc, and copies that doc for each group.
+A meeting doc is the Google Doc a cohort group works through during a 90-minute video meeting. {--{"author":"Luc's AI","timestamp":1790523771470}@@Its link lives--}{++{"author":"Luc's AI","timestamp":1790523771470}@@You write it in Markdown, in `meetings/<Course>/Meeting N.md`. The course file links it with `meeting-doc::`. The platform renders the Markdown into a Google Doc, and copies that doc for each group.
 
 ## The Markdown format
+
+This Markdown differs from the Markdown of modules and lenses: every line is a paragraph, and extra blank lines are empty lines in the doc. The Lens editor's preview does not show that, so the rendered Google Doc is the real preview.
 
 - `# Tab: <title>` starts a tab. The line after it may set the tab's look: `style:: faq`, `style:: glossary` or `style:: plain`. Without it the tab looks like a Session Doc.
 - Inside a tab, `#` is the doc's Title, `##` its Heading 1 and `###` its Heading 2.
 - Each line is its own paragraph. One blank line only separates blocks. Each further blank line adds one empty line to the doc.
 - `\pagebreak` on its own line starts the next block on a new page. `---` draws a line across the page.
-- A breakout table is a Markdown table. The dashes++} in the {--{"author":"Luc's AI","timestamp":1790522974255}@@corresponding course file.--}{++{"author":"Luc's AI","timestamp":1790522974255}@@`|-----|--------------------|` row set the column widths.
+- A breakout table is a Markdown table. The dashes++} in the {--{"author":"Luc's AI","timestamp":1790523773626}@@corresponding course file.--}{++{"author":"Luc's AI","timestamp":1790523773626}@@`|-----|--------------------|` row set the column widths.
 - `[FAQ Tab](<#tab:Participant FAQ>)` links to another tab of the same doc. `<br>` makes a second line inside a table cell.
-- Indent a nested list item by 4 spaces. A numbered list that starts at `3.` continues the numbered list above it. `<!-- -->` between two lists keeps them apart.
+- Indent a nested list item by 4 spaces. A numbered list that starts at `3.` continues the numbered list above it when only paragraphs stand between them (not another list or a table). `<!-- -->` between two lists keeps them apart.
+- Quote blocks, code blocks, strikethrough, footnotes and HTML other than `<br>` and `<!-- -->` are not supported. The validator reports them.
 - `[Group]`, `Navigator:` and `Meeting link:` are filled in for each group. Keep them as they are in the master template.++}
 
 ## How to create a meeting doc
