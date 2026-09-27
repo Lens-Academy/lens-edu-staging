@@ -38,7 +38,7 @@ application-survey:: [[../surveys/Application Form]]
 
 # Module: [[../modules/Course M1 Intro, Part 1]]
 # Meeting: Meeting 1 name
-meeting-doc-template:: https://docs.google.com/document/d/...
+{--{"author":"Luc's AI","timestamp":1790521953001}@@meeting-doc-template:: https://docs.google.com/document/d/...--}{++{"author":"Luc's AI","timestamp":1790521953001}@@meeting-doc:: [[../meetings/Course/Meeting 1]]++}
 survey:: [[../surveys/Course Post-Meeting Survey]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 %%
@@ -48,7 +48,7 @@ Week 2 goals:
 %%
 # Module: [[../modules/Course M2 Nonhuman Minds, Part 2]]
 # Meeting: Meeting 2 name
-meeting-doc-template:: https://docs.google.com/document/d/...
+{--{"author":"Luc's AI","timestamp":1790521954750}@@meeting-doc-template:: https://docs.google.com/document/d/...--}{++{"author":"Luc's AI","timestamp":1790521954750}@@meeting-doc:: [[../meetings/Course/Meeting 2]]++}
 survey:: [[../surveys/Course Post-Meeting Survey]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 ```
