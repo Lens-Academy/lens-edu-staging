@@ -13,8 +13,8 @@ partner-url: https://ai-safety-atlas.com/
 
 # Module: [[../modules/Lisbon Fellowship - Chapter 2 Risks, Part 1|Chapter 2: Risks, Part 1]]
 # Meeting: Week 1
-meeting-doc-template:: https://docs.google.com/document/d/1NrXA1G4F1vAnquvuY0UEobTgi4KLckx4huiEyP2rs-c/edit{++{"author":"Luc's AI","timestamp":1790522937408}@@
-meeting-doc:: [[../meetings/Lisbon Fellowship/Meeting 1]]++}
+meeting-doc-template:: https://docs.google.com/document/d/1NrXA1G4F1vAnquvuY0UEobTgi4KLckx4huiEyP2rs-c/edit
+meeting-doc:: [[../meetings/Lisbon Fellowship/Meeting 1]]
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
@@ -23,8 +23,8 @@ facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../modules/Lisbon Fellowship - Chapter 3 Strategies, Part 1|Chapter 3: Strategies, Part 1]]
 # Meeting: Week 2
-meeting-doc-template:: https://docs.google.com/document/d/1v2vV520FQbry8AsdhWkpSNC_ihvkQqkU0wXa76DZRoM/edit{++{"author":"Luc's AI","timestamp":1790522937798}@@
-meeting-doc:: [[../meetings/Lisbon Fellowship/Meeting 2]]++}
+meeting-doc-template:: https://docs.google.com/document/d/1v2vV520FQbry8AsdhWkpSNC_ihvkQqkU0wXa76DZRoM/edit
+meeting-doc:: [[../meetings/Lisbon Fellowship/Meeting 2]]
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
@@ -33,8 +33,8 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/AI Safety Atlas - Governance|Chapter 4: Governance]]
 # Meeting: Week 3
-meeting-doc-template:: https://docs.google.com/document/d/1IcUGd2geuTRtteWSpUX5l9uRGdiksnAM1qp1bx5Zp_I/edit{++{"author":"Luc's AI","timestamp":1790522938149}@@
-meeting-doc:: [[../meetings/Lisbon Fellowship/Meeting 3]]++}
+meeting-doc-template:: https://docs.google.com/document/d/1IcUGd2geuTRtteWSpUX5l9uRGdiksnAM1qp1bx5Zp_I/edit
+meeting-doc:: [[../meetings/Lisbon Fellowship/Meeting 3]]
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
@@ -43,8 +43,8 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/Lisbon Fellowship - Chapter 6 Specification Gaming, Part 1|Chapter 6: Specification Gaming, Part 1]]
 # Meeting: Week 4
-meeting-doc-template:: https://docs.google.com/document/d/1ptUwEdDHGVB8HVyzYY2ITcb_9MYwZG5nLTWxwWnTcbg/edit{++{"author":"Luc's AI","timestamp":1790522938531}@@
-meeting-doc:: [[../meetings/Lisbon Fellowship/Meeting 4]]++}
+meeting-doc-template:: https://docs.google.com/document/d/1ptUwEdDHGVB8HVyzYY2ITcb_9MYwZG5nLTWxwWnTcbg/edit
+meeting-doc:: [[../meetings/Lisbon Fellowship/Meeting 4]]
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
@@ -53,8 +53,8 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/Lisbon Fellowship - Chapter 7 Goal Misgeneralization, Part 1|Chapter 7: Goal Misgeneralization, Part 1]]
 # Meeting: Week 5
-meeting-doc-template:: https://docs.google.com/document/d/138vOAvli6XwSgFjyFgEy7hw4UmcHf0hbuTimGalTVX4/edit{++{"author":"Luc's AI","timestamp":1790522938834}@@
-meeting-doc:: [[../meetings/Lisbon Fellowship/Meeting 5]]++}
+meeting-doc-template:: https://docs.google.com/document/d/138vOAvli6XwSgFjyFgEy7hw4UmcHf0hbuTimGalTVX4/edit
+meeting-doc:: [[../meetings/Lisbon Fellowship/Meeting 5]]
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
@@ -63,8 +63,8 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/AI Safety Atlas - Scalable Oversight|Chapter 8: Scalable Oversight]]
 # Meeting: Week 6
-meeting-doc-template:: https://docs.google.com/document/d/1HjZdnhqBTre4J_yqEcxm3MV9Q6066saq1Z90a07Mnvw/edit{++{"author":"Luc's AI","timestamp":1790522939221}@@
-meeting-doc:: [[../meetings/Lisbon Fellowship/Meeting 6]]++}
+meeting-doc-template:: https://docs.google.com/document/d/1HjZdnhqBTre4J_yqEcxm3MV9Q6066saq1Z90a07Mnvw/edit
+meeting-doc:: [[../meetings/Lisbon Fellowship/Meeting 6]]
 survey:: [[../surveys/ASA Final Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 

@@ -4,7 +4,7 @@ tags:
 ---
 # Writing Meeting Docs (AI Guide)
 
-A meeting doc is the Google Doc a cohort group works through during a 90-minute video meeting. {--{"author":"Luc's AI","timestamp":1790523771470}@@Its link lives--}{++{"author":"Luc's AI","timestamp":1790523771470}@@You write it in Markdown, in `meetings/<Course>/Meeting N.md`. The course file links it with `meeting-doc::`. The platform renders the Markdown into a Google Doc, and copies that doc for each group.
+A meeting doc is the Google Doc a cohort group works through during a 90-minute video meeting. You write it in Markdown, in `meetings/<Course>/Meeting N.md`. The course file links it with `meeting-doc::`. The platform renders the Markdown into a Google Doc, and copies that doc for each group.
 
 ## The Markdown format
 
@@ -14,28 +14,28 @@ This Markdown differs from the Markdown of modules and lenses: every line is a p
 - Inside a tab, `#` is the doc's Title, `##` its Heading 1 and `###` its Heading 2.
 - Each line is its own paragraph. One blank line only separates blocks. Each further blank line adds one empty line to the doc.
 - `\pagebreak` on its own line starts the next block on a new page. `---` draws a line across the page.
-- A breakout table is a Markdown table. The dashes++} in the {--{"author":"Luc's AI","timestamp":1790537449770}@@corresponding course file.--}{++{"author":"Luc's AI","timestamp":1790537449770}@@`|-----|--------------------|` row set the column widths.
+- A breakout table is a Markdown table. The dashes in the `|-----|--------------------|` row set the column widths.
 - `[FAQ Tab](<#tab:Participant FAQ>)` links to another tab of the same doc. `<br>` makes a second line inside a table cell.
 - Indent a nested list item by 4 spaces. A numbered list that starts at `3.` continues the numbered list above it when only paragraphs stand between them (not another list or a table). `<!-- -->` between two lists keeps them apart.
 - A `>` quote sets its paragraphs in from both margins. A list item's later lines and paragraphs, indented under it, stay in the item without a bullet.
 - Code blocks, strikethrough, footnotes and HTML other than `<br>` and `<!-- -->` are not supported. The validator reports them.
-- `[Group]`, `Navigator:` and `Meeting link:` are filled in for each group. Keep them as they are in the master template.++}{++{"author":"Luc's AI","timestamp":1790537026215}@@
-- `source:: [[../shared/<name>]]` on a line of its own includes a whole file from `meetings/shared/` at that point, the way a lens includes an article. After `# Tab: <title>` it can supply the whole tab, `style::` line included. Sections that many docs repeat (the "How today works" intro, the Participant FAQ, the run-sheet's breakout-room steps and pro-tips) live there: edit the shared file once, and every doc that includes it changes. To make one doc differ, replace its `source::` line with the text itself.++}
+- `[Group]`, `Navigator:` and `Meeting link:` are filled in for each group. Keep them as they are in the master template.
+- `source:: [[../shared/<name>]]` on a line of its own includes a whole file from `meetings/shared/` at that point, the way a lens includes an article. After `# Tab: <title>` it can supply the whole tab, `style::` line included. Sections that many docs repeat (the "How today works" intro, the Participant FAQ, the run-sheet's breakout-room steps and pro-tips) live there: edit the shared file once, and every doc that includes it changes. To make one doc differ, replace its `source::` line with the text itself.
 
 ## How to create a meeting doc
 
-1. {--{"author":"Luc's AI","timestamp":1790521224698}@@Make a copy of the master template (https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4)--}{++{"author":"Luc's AI","timestamp":1790521224698}@@Copy the master template, [[meetings/Master template]], to `meetings/<Course>/Meeting N.md`++}
+1. Copy the master template, [[meetings/Master template]], to `meetings/<Course>/Meeting N.md`
 2. Get an overview of the course this doc belongs to and specifically the module(s) of the unit right before its meeting
 3. The validation instructions below describe what makes a good meeting doc. Take some time to think hard (and/or brainstorm with the user) what prompts would make this meeting most valuable. - Be creative and critical. It's about creating the best possible education, not just creating cheap adaptations of the examples below.
 4. Spawn all validation sub-agents described below with their exact instruction text, a link to the doc, a link to the course file, and links to the unit's module(s) with their lenses, learning outcomes, and readings (the content checks need them)
 5. If every check passes, you are done. If not, fix the errors and spawn fresh versions of the agents that failed. Repeat that cycle until every agent passed
-6. Link {--{"author":"Luc's AI","timestamp":1790521227374}@@to --}the {--{"author":"Luc's AI","timestamp":1790521227374}@@meeting doc--}{++{"author":"Luc's AI","timestamp":1790521227374}@@Markdown file++} in the course {--{"author":"Luc's AI","timestamp":1790521227374}@@file it belongs to --}{++{"author":"Luc's AI","timestamp":1790521227374}@@file, under the meeting's `# Meeting:` line: `meeting-doc:: [[../meetings/<Course>/Meeting N]]` ++}(see [[Writing Course Files]]).{++{"author":"Luc's AI","timestamp":1790521227374}@@ The validator reports a broken link or a malformed doc. To see the rendered Google Doc, call the Lens admin MCP tool `meeting_doc_preview` with the course slug and the meeting number, after the content refresh has picked up your edit.++}
+6. Link the Markdown file in the course file, under the meeting's `# Meeting:` line: `meeting-doc:: [[../meetings/<Course>/Meeting N]]` (see [[Writing Course Files]]). The validator reports a broken link or a malformed doc. To see the rendered Google Doc, call the Lens admin MCP tool `meeting_doc_preview` with the course slug and the meeting number, after the content refresh has picked up your edit.
 7. Report to the user how many iterations you had to do for each agent and where they didn't pass
 
 ## Validation instructions
 
 ### Agent 1: Template match
-Go through each tab of the master template {--{"author":"Luc's AI","timestamp":1790521229826}@@(https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4)--}{++{"author":"Luc's AI","timestamp":1790521229826}@@([[meetings/Master template]])++} and check if the {--{"author":"Luc's AI","timestamp":1790521229826}@@discussion--}{++{"author":"Luc's AI","timestamp":1790521229826}@@meeting++} doc you are validating is a filled version of it:
+Go through each tab of the master template ([[meetings/Master template]]) and check if the meeting doc you are validating is a filled version of it:
 1. Every {{placeholder}} is filled; none left over.
 2. The fixed parts match the master template exactly.
 3. The glossary is filled: ordered by module, each term defined once at its first appearance, in one or two sentences, in the source's framing.
@@ -228,4 +228,4 @@ This agent gets the Session Doc tab only: no lenses, no course file, no run-shee
 Agents 1 and 2 read the lenses before the doc, so they cannot see jargon: they already know what "the move" or "the four rings" means. Agent 3 exists because the meeting-2 docs of Compute Verification Part 1 passed Agents 1 and 2 and then confused most of a cohort (September 2026).
 
 ### Delivery: the doc participants see is a copy
-Group session docs are copied from the {--{"author":"Luc's AI","timestamp":1790521231942}@@master when the cohort's meetings are created, --}{++{"author":"Luc's AI","timestamp":1790521231942}@@rendered template up to 21 days before the meeting, ++}not when the meeting starts. {--{"author":"Luc's AI","timestamp":1790521231942}@@Editing--}{++{"author":"Luc's AI","timestamp":1790521231942}@@An edit to++} the {--{"author":"Luc's AI","timestamp":1790521231942}@@master after that --}{++{"author":"Luc's AI","timestamp":1790521231942}@@Markdown renders a new template, but it ++}reaches {--{"author":"Luc's AI","timestamp":1790521231942}@@nobody enrolled.--}{++{"author":"Luc's AI","timestamp":1790521231942}@@only the groups whose doc is made after the edit.++} To change a live doc, list the copies (`meetings.session_doc_url` for the cohort) and patch each one in place; `lens_meeting_doc_scripts/update_doc.py` does this from a spec.
+Group session docs are copied from the rendered template up to 21 days before the meeting, not when the meeting starts. An edit to the Markdown renders a new template, but it reaches only the groups whose doc is made after the edit. To change a live doc, list the copies (`meetings.session_doc_url` for the cohort) and patch each one in place; `lens_meeting_doc_scripts/update_doc.py` does this from a spec.

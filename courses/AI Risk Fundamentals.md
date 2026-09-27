@@ -31,8 +31,8 @@ application-survey:: [[../surveys/Application Form]]
 # Module: [[../modules/IABIED M2 Nonhuman Minds, Part 1]]
 
 # Meeting: Intro and Nonhuman Minds, Part 1
-meeting-doc-template:: https://docs.google.com/document/d/1VbHf5ENp0fOjqATTMLbKYhhbUvPqvi7Ugs32THIum1g/edit{++{"author":"Luc's AI","timestamp":1790522932055}@@
-meeting-doc:: [[../meetings/AI Risk Fundamentals/Meeting 1]]++}
+meeting-doc-template:: https://docs.google.com/document/d/1VbHf5ENp0fOjqATTMLbKYhhbUvPqvi7Ugs32THIum1g/edit
+meeting-doc:: [[../meetings/AI Risk Fundamentals/Meeting 1]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]] {>>{"author":"Turner's AI","timestamp":1786809891204}@@SAMPLE FOR HAMZA - the intake half of the pair. Meeting 1 gets the fuller debrief (background, baseline scales, growth interest, referral prompt); meetings 2-5 get the short recurring one. Exactly the pattern the learner surveys already use on this course - AIRF Session 1 Survey here, AIRF Weekly Survey below.
 
 Ported from the Cohort 4 "Navigator Week 1 Debrief" Google Form, keeping its framing verbatim because it is doing real work: "Be blunt: this is about fixing the system, not evaluating you."
@@ -45,8 +45,8 @@ survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]] {>>{"author":"Turner'
 # Module: [[../modules/IABIED M3 Nonhuman Minds, Part 2]]
 
 # Meeting: Nonhuman Minds, Part 2
-meeting-doc-template:: https://docs.google.com/document/d/1hNj0npIxflO6C5AJcNPHms7HOiH_hlAgomBPQVhfp2A/edit?tab=t.0#heading=h.by5wcelvjnsd{++{"author":"Luc's AI","timestamp":1790522932397}@@
-meeting-doc:: [[../meetings/AI Risk Fundamentals/Meeting 2]]++}
+meeting-doc-template:: https://docs.google.com/document/d/1hNj0npIxflO6C5AJcNPHms7HOiH_hlAgomBPQVhfp2A/edit?tab=t.0#heading=h.by5wcelvjnsd
+meeting-doc:: [[../meetings/AI Risk Fundamentals/Meeting 2]]
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 {>>{"author":"Elias's AI","timestamp":1786520689365}@@Correction: the 2026-08-09 note here claimed this link had been repointed to a rebuilt Ch3-5 doc, but the ID it named as "retired" was the same ID the link already used, so the link was never actually moved. The linked doc still ran the old Ch3-4 session (no Chapter 5, no glossary tab, next-unit pointer naming no reading) until 2026-08-12, which is why a navigator ran meeting 2 off outdated material. Fixed by updating the linked doc itself in place, so this link stays correct: Room 3 is now the Chapter 5 "weakest link" prompt, the next-unit pointers name Ch 6 + film + Coda + Your Leverage, and the missing Glossary tab (Modules 2 and 3) has been restored. The parallel Ch3-5 rebuild that lived in a personal Drive was never shared and is now renamed "OLD - ...(merged into live doc)".<<}
@@ -55,8 +55,8 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../modules/IABIED M4 One Extinction Scenario]]
 
 # Meeting: One Extinction Scenario
-meeting-doc-template:: https://docs.google.com/document/d/1Gg6RHLoWzjegjqeAL_AioitZdJE3tVL_t632h0COyMI/edit{++{"author":"Luc's AI","timestamp":1790522932748}@@
-meeting-doc:: [[../meetings/AI Risk Fundamentals/Meeting 3]]++}
+meeting-doc-template:: https://docs.google.com/document/d/1Gg6RHLoWzjegjqeAL_AioitZdJE3tVL_t632h0COyMI/edit
+meeting-doc:: [[../meetings/AI Risk Fundamentals/Meeting 3]]
 survey:: [[../surveys/AIRF Meeting 3 Impact Survey v2]] {>>{"author":"Turner's AI","timestamp":1787704219034}@@Repointed 2026-08-26 from AIRF Weekly Survey to a new meeting-3-only file. Reason: the 1:1 booking block (user interview + career guidance) is for meeting 3 only, and AIRF Weekly Survey is shared by meetings 2, 3 and 4, so editing it in place would have put the booking offer on three meetings. AIRF Session 3 Survey is a byte-for-byte copy of AIRF Weekly Survey with the booking block appended at the end, so every existing question keeps its key, wording and order and the pre/post rating comparison is untouched. Same pattern the course already uses for Session 1 and Session 5. Meetings 2 and 4 still point at AIRF Weekly Survey and were not touched. The block is three Text segments and adds NO answer keys: two Yes/No questions (user_interview_interest, career_chat_interest) were drafted and then removed on 2026-08-26 before promotion, because an answerable segment sitting between the two link sections could be answered and then wiped when the learner clicked through to book (survey answers live only in React state until Submit, and survey links have no target=_blank). The rule the file now satisfies: no answerable segment may precede an outbound link. Interest is measured by actual bookings on the four calendars, not by a survey answer.<<}
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]] {>>{"author":"Turner's AI","timestamp":1786809781581}@@The recurring half of the pair: meetings 2-5 all use this one, mirroring how the learner surveys use AIRF Weekly Survey in the same slots.
 
@@ -67,8 +67,8 @@ The typo guard at course.ts now contains-matches instead of prefix-matching /^su
 # Module: [[../modules/IABIED M5 Facing The Challenge, Part 1]]
 
 # Meeting: Facing the Challenge, Part 1
-meeting-doc-template:: https://docs.google.com/document/d/1dW_VlZoAn6eLR0_ZY8XvQvRoVvr51a23XAXMAnH_bSI/edit{++{"author":"Luc's AI","timestamp":1790522933063}@@
-meeting-doc:: [[../meetings/AI Risk Fundamentals/Meeting 4]]++}
+meeting-doc-template:: https://docs.google.com/document/d/1dW_VlZoAn6eLR0_ZY8XvQvRoVvr51a23XAXMAnH_bSI/edit
+meeting-doc:: [[../meetings/AI Risk Fundamentals/Meeting 4]]
 survey:: [[../surveys/AIRF Meeting 4 Impact Survey v2]] {>>{"author":"Turner's AI","timestamp":1788221486588}@@Repointed 2026-08-31 from AIRF Weekly Survey to a new meeting-4-only file, following the exact pattern used for Session 3 and Session 5. Reason: Compute Verification starts 7 Sep with zero navigators, and the session-4 surveys are the widest remaining recruiting channel before it does. AIRF Weekly Survey is shared by meetings 2 and 4, so appending the plugs to it in place would have put them on meeting 2 as well. AIRF Session 4 Survey is a byte-for-byte copy of AIRF Weekly Survey with a two-link block prepended, so every existing question keeps its key, wording and order and the pre/post comparison with Session 1 is untouched. Meeting 2 still points at AIRF Weekly Survey and was not touched.
 
 THE BLOCK IS AT THE TOP, AND THAT IS LOAD-BEARING, NOT STYLE. Three Text segments, no answer keys, placed before the first answerable segment, closing with the same warning Session 3 uses: "open it now before you carry on, anything you fill in below is only saved when you press submit". This satisfies the rule recorded on the Session 3 repoint - no answerable segment may precede an outbound link - because SurveyRenderer.tsx renders segment content through ReactMarkdown with NO custom link renderer (:143, :152), so survey links carry no target=_blank, and answers live in useState until Submit. A learner who clicks a link mid-survey loses every answer AND their attendance for the meeting.
@@ -85,8 +85,8 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../modules/IABIED M7 What Happens Next]]
 
 # Meeting: Facing the Challenge, Part 2 and Next Steps
-meeting-doc-template:: https://docs.google.com/document/d/1rewnfH3QqcK_WhwD2i1ylfVyldH3sXb6eA45dDeQJ6M/edit?tab=t.0#heading=h.by5wcelvjnsd{++{"author":"Luc's AI","timestamp":1790522933436}@@
-meeting-doc:: [[../meetings/AI Risk Fundamentals/Meeting 5]]++}
+meeting-doc-template:: https://docs.google.com/document/d/1rewnfH3QqcK_WhwD2i1ylfVyldH3sXb6eA45dDeQJ6M/edit?tab=t.0#heading=h.by5wcelvjnsd
+meeting-doc:: [[../meetings/AI Risk Fundamentals/Meeting 5]]
 survey:: [[../surveys/AIRF Final Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
