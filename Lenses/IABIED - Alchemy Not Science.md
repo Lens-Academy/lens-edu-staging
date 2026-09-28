@@ -25,7 +25,8 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Don't look back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read the first half of Chapter 11 of "If Anyone Builds It, Everyone Dies."
+force-feedback:: first
+feedback-instructions:: The student has just read the first half of Chapter 11 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: State Chapter 11's central diagnosis as the chapter frames it: the alignment field is currently in the "alchemy stage": it produces results without understanding why they work, operates from high-minded philosophical ideals rather than engineering designs, and mistakes the ability to build more powerful AI for progress on making it safe.
 
