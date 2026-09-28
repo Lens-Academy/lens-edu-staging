@@ -70,7 +70,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779555734}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
+feedback-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779555734}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### Question: Open
 id:: 1b89db69-aa12-47b8-aa59-a6a2a34d80ad
@@ -116,7 +116,7 @@ content::
 \## Phase 4: Learning Question
 A classmate says: "I get the capability-gap argument, but upsets happen all the time: the underdog beats the favorite, David beats Goliath. So 'the AI is far more capable' doesn't actually license 'the AI wins.' Until you can point to the specific move that beats us, 'we'd lose' is speculation, not a prediction." Is your classmate right? Where, if anywhere, does the reasoning break down?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on section 1 of Chapter 6 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on section 1 of Chapter 6 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge; it is not the test question. It hands the student a plausible-sounding objection that conflates two errors: treating overwhelming capability asymmetry like a coin-flip upset (where the underdog sometimes wins), and demanding a specific mechanism (the "winning move") before granting the outcome. The student must dismantle it using the analogy's logic rather than re-describing the Aztec story. Use it to draw out the mechanism-vs-outcome distinction and why a large enough capability gap makes the outcome predictable.
 
