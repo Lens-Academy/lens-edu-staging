@@ -503,11 +503,11 @@ Why substitution is possible
 
 Photoresist is the light-sensitive coating that holds the printed pattern on the wafer. Each formula is approved for one layer of one product at one fab. A new supplier therefore has to develop its version together with the fab, one layer at a time. Korea shows what switching takes. When Japan required an individual export license for each shipment of resist in 2019, Korea kept its fabs running and spent five years funding its own substitutes. Switching takes two to five years, and closer to five for the newest chips.
 
-Where China stands
+**Where China stands**
 
 China cannot make photoresist for extreme-ultraviolet printing or for the finest 193 nm printing. It held under 5 percent of the photoresist market as of 2021. It refines 99 percent of the world's primary low-purity gallium. Since August 2023 it has required licenses to export gallium and germanium.
 
-Where the US stands
+**Where the US stands**
 
 American firms are strong in filters, containers, polishing slurries and gas delivery: Entegris, DuPont and Air Products. They are nearly absent from advanced photoresist since JSR of Japan bought Inpria, an American startup, in 2021.
 
@@ -537,7 +537,7 @@ Each resist class is tied to one scanner and one layer [3](https://cset.georgeto
 
 Japan produced about 90 percent of the world's semiconductor photoresist as of 2021, the rest mostly in the United States and South Korea [3](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf). A later survey by Fuji Keizai, relayed in the December 2025 strategy deck of Japan's Ministry of Economy, Trade and Industry, puts Japan at 78 percent in 2023, the United States at 13 and South Korea at 6, with China inside the small remainder [4](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf).
 
-Semiconductor photoresist production share by country, 2021%
+**Chart:** Semiconductor photoresist production share by country, 2021 (%)
 
 Japan **90%** United States, South Korea and others **10%**
 
@@ -565,7 +565,7 @@ China's export controls fall on the metals. Beijing announced export licenses fo
 
 Neither metal goes into a silicon logic chip. Germanium goes into fiber optics, infrared optics, solar cells for satellites and radiation detectors [15](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-germanium.pdf); gallium into the non-silicon wafers behind radio front ends, LEDs and lasers [14](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf). They move the price instead. Germanium metal averaged $4,100 a kilogram in 2025 against $1,392 in 2023, and US imports of the metal fell 67 percent [15](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-germanium.pdf). The US Geological Survey put the cost to US GDP of a complete ban at about $3.4 billion [13](https://www.stimson.org/2025/chinas-germanium-and-gallium-export-restrictions-consequences-for-the-united-states/).
 
-Germanium metal, annual average price ($/kg). China licensed exports from August 2023 and banned US shipments in December 2024$/kg
+**Chart:** Germanium metal, annual average price ($/kg). China licensed exports from August 2023 and banned US shipments in December 2024 ($/kg)
 
 2021 1,187 2022 1,294 2023 1,392 2024 1,991 2025 4,100
 
@@ -581,17 +581,17 @@ The slower risk is the European Union's proposed restriction on PFAS, the long-l
 -   **Transportability**: bulk gases are made on site at the fab, and only cylinder-shipped specialty gases can be embargoed.
 -   **Byproduct exposure**: gallium is recovered mostly from bauxite refining and germanium from zinc concentrates, so supply depends on another industry's economics [14](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf).
 
-Card 1 of 4Question
+{--{"author":"James's AI","timestamp":1790593839424}@@Card--}{++{"author":"James's AI","timestamp":1790593839424}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593839424}@@4Question--}{++{"author":"James's AI","timestamp":1790593839424}@@4 · Question**++}
 
 What does photoresist do?
 
-Card 1 of 4Answer
+{--{"author":"James's AI","timestamp":1790593841479}@@Card--}{++{"author":"James's AI","timestamp":1790593841479}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593841479}@@4Answer--}{++{"author":"James's AI","timestamp":1790593841479}@@4 · Answer**++}
 
 It holds the pattern printed by light, so the next step can etch that pattern into the wafer.
 
 A wash removes the parts the light reached. The pattern that remains guides the etch. [[#^how-it-works-3|Reread: How it works]]
 
-Card 2 of 4Question
+{--{"author":"James's AI","timestamp":1790593843470}@@Card--}{++{"author":"James's AI","timestamp":1790593843470}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593843470}@@4Question--}{++{"author":"James's AI","timestamp":1790593843470}@@4 · Question**++}
 
 Which country makes most of the world's photoresist?
 
