@@ -1714,26 +1714,26 @@ Who leads
 -   {--{"author":"James's AI","timestamp":1790594060725}@@TWTSMC--}{++{"author":"James's AI","timestamp":1790594060725}@@TW · **TSMC**:++} 77% of wafer revenue from 7 nm and below, 2Q26; six gigafabs, all in Taiwan
 -   {--{"author":"James's AI","timestamp":1790594062872}@@USIntel Foundry--}{++{"author":"James's AI","timestamp":1790594062872}@@US · **Intel Foundry**:++} $5.8bn revenue and a $2.089bn operating loss, 2Q26
 -   {--{"author":"James's AI","timestamp":1790594063799}@@KRSamsung Foundry--}{++{"author":"James's AI","timestamp":1790594063799}@@KR · **Samsung Foundry**:++} Hwaseong and Pyeongtaek; at least $17bn of construction at Taylor, Texas
--   CNSMIC $9.327bn revenue in 2025 at 93.5% utilization
--   JPRapidus State-backed 2 nm entrant, Chitose
+-   {--{"author":"James's AI","timestamp":1790594065428}@@CNSMIC--}{++{"author":"James's AI","timestamp":1790594065428}@@CN · **SMIC**:++} $9.327bn revenue in 2025 at 93.5% utilization
+-   {--{"author":"James's AI","timestamp":1790594066082}@@JPRapidus--}{++{"author":"James's AI","timestamp":1790594066082}@@JP · **Rapidus**:++} State-backed 2 nm entrant, Chitose
 
 Where it is made
 
--   TWTaiwan TSMC's six gigafabs and UMC; N2 and N3 for every leading AI accelerator
--   KRSouth Korea Samsung Foundry, Hwaseong and Pyeongtaek
--   CNChina SMIC and Hua Hong; the largest installed capacity of any region, almost all of it on older nodes
--   USUnited States Intel Foundry, GlobalFoundries, TSMC Arizona, Samsung Taylor
--   JPJapan TSMC Kumamoto, Rapidus Chitose
+-   {--{"author":"James's AI","timestamp":1790594067144}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790594067144}@@TW · **Taiwan**:++} TSMC's six gigafabs and UMC; N2 and N3 for every leading AI accelerator
+-   {--{"author":"James's AI","timestamp":1790594067960}@@KRSouth Korea--}{++{"author":"James's AI","timestamp":1790594067960}@@KR · **South Korea**:++} Samsung Foundry, Hwaseong and Pyeongtaek
+-   {--{"author":"James's AI","timestamp":1790594069147}@@CNChina--}{++{"author":"James's AI","timestamp":1790594069147}@@CN · **China**:++} SMIC and Hua Hong; the largest installed capacity of any region, almost all of it on older nodes
+-   {--{"author":"James's AI","timestamp":1790594069821}@@USUnited States--}{++{"author":"James's AI","timestamp":1790594069821}@@US · **United States**:++} Intel Foundry, GlobalFoundries, TSMC Arizona, Samsung Taylor
+-   {--{"author":"James's AI","timestamp":1790594070612}@@JPJapan--}{++{"author":"James's AI","timestamp":1790594070612}@@JP · **Japan**:++} TSMC Kumamoto, Rapidus Chitose
 
 Why substitution is slow
 
 Money can buy the building. BCG puts the ten-year cost of a fab finished in 2026 at $35 to $43 billion. Intel and Samsung already run lines for the newest chips, so a newcomer is copying something that has been done. Money cannot quickly buy a workforce that has run one process for years. Even TSMC has yet to build one of its largest fabs anywhere but Taiwan. A working line takes five to ten years, and reaching high volume takes longer.
 
-Where China stands
+**Where China stands**
 
 SMIC and Hua Hong are China's largest foundries. SMIC had revenue of $9.327 billion in 2025 with its lines 93.5 percent full. It cannot buy an EUV scanner, so it cannot make the newest chips. China is forecast to have more fab capacity than any other region, and almost none of it can make the newest chips.
 
-Where the US stands
+**Where the US stands**
 
 Intel Foundry is the only American-owned foundry that makes the newest chips. It lost $2.089 billion on $5.8 billion of revenue in the second quarter of 2026. The federal government owns 9.9 percent of Intel and takes no part in running it.
 
@@ -1755,7 +1755,7 @@ Every plant TSMC and its subsidiaries run came to more than 17 million wafers a 
 
 TSMC and UMC build only for others. Chips at 7 nm and below, meaning the newest processes, were 77 percent of TSMC's wafer revenue in the second quarter of 2026, split 33 percent at 5 nm, 30 at 3 nm, 11 at 7 nm and 3 at 2 nm, on revenue of $40.20 billion at a 67.7 percent gross margin [4](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm). No other foundry earns that margin, so none can fund the next node out of cash flow.
 
-TSMC wafer revenue by node, 2Q26% of wafer revenue
+**Chart:** TSMC wafer revenue by node, 2Q26 (% of wafer revenue)
 
 2 nm **3** 3 nm **30** 5 nm **33** 7 nm **11** 10 nm and above **23**
 
@@ -1791,7 +1791,7 @@ Samsung's main plant outside Korea is Taylor, Texas: a committed minimum of $17 
 
 SEMI forecast China at 10.1 million wafers a month in 2025, the most of any region, against Taiwan's 5.8 million out of a world total of 33.7 million [8](https://www.semi.org/en/news-media-press-releases/semi-press-releases/global-semiconductor-fab-capacity-projected-to-expand-6%25-in-2024-and-7%25-in-2025-semi-reports). Almost none of China's is advanced. The United States had almost no capacity below 10 nm in 2022 and is projected to hold 28 percent of it by 2032, on $2.3 trillion of new fab investment [12](https://www.bcg.com/publications/2024/emerging-resilience-in-semiconductor-supply-chain).
 
-Installed wafer fab capacity by region, 2025 forecast, all nodesmillion 8-inch-equivalent wafers per month
+{++{"author":"James's AI","timestamp":1790594074096}@@**Chart:** ++}Installed wafer fab capacity by region, 2025 forecast, all {--{"author":"James's AI","timestamp":1790594074096}@@nodesmillion--}{++{"author":"James's AI","timestamp":1790594074096}@@nodes (million++} 8-inch-equivalent wafers per {--{"author":"James's AI","timestamp":1790594074096}@@month--}{++{"author":"James's AI","timestamp":1790594074096}@@month)++}
 
 China 10.1 Taiwan 5.8 South Korea 5.4 Japan 4.7 Americas 3.2 Europe and Mideast 2.7 SE Asia 1.8
 
@@ -1814,11 +1814,11 @@ Diversification is slow because the hard part of a fab is a workforce that has r
 -   **Customer concentration.** A foundry owned by a chipmaker competes with its own customers, which caps who will trust it with a flagship design.
 -   **Geographic exposure.** How much of a buyer's supply sits on one island, one grid, one fault system.
 
-Card 1 of 4Question
+{--{"author":"James's AI","timestamp":1790594074735}@@Card--}{++{"author":"James's AI","timestamp":1790594074735}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594074735}@@4Question--}{++{"author":"James's AI","timestamp":1790594074735}@@4 · Question**++}
 
 What is a foundry?
 
-Card 1 of 4Answer
+{--{"author":"James's AI","timestamp":1790594075612}@@Card--}{++{"author":"James's AI","timestamp":1790594075612}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594075612}@@4Answer--}{++{"author":"James's AI","timestamp":1790594075612}@@4 · Answer**++}
 
 A chip factory that makes chips designed by other companies.
 
