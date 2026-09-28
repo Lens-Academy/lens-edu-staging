@@ -8,7 +8,9 @@ title: Machines Of Loving Grace
 ---
 #### Text
 content::
+%% COMMENTED OUT (AI slop):
 Yes, the risks are real. But what exactly are we trying to protect? The following materials ask a different question: what good could powerful AI bring if we manage to solve the safety problem?
+%%
 
 Nick Bostrom, author of Superintelligence, spoke not only about risks. In his "Letter from Utopia" he writes:
 
