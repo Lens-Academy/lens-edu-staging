@@ -1500,18 +1500,18 @@ The front end of a chip factory is the part that builds the transistors, the bil
 
 Every gain since the FinFET era has come from process steps and new materials, while shrinking the geometry gave less each node. TSMC's own numbers show the density gain per node falling from 1.2 times at N2P to about 1.1 at A16 [4](https://www.tsmc.com/english/dedicatedFoundry/technology/platform_HPC_tech_advancedTech). Three companies can run a 2 nm-class process, and only TSMC runs it at volume for outside customers. SRAM has stopped shrinking, which is why accelerators keep their memory off the logic die. China can reach 5 nm-class geometry without EUV, and CSIS still judges that China cannot build a working EUV system, which is the gap the export controls defend [16](https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography).
 
-Concentration **Extreme**
+Concentration: **Extreme**
 
-Substitutability **Hard** Three firms make gate-all-around transistors, the newest kind, and none sells its process recipe.
+Substitutability: **Hard**. Three firms make gate-all-around transistors, the newest kind, and none sells its process recipe.
 
-Price or market size **No foundry publishes prices for its newest wafers** The public measure is how many more transistors TSMC fits on each new process, and that gain falls from 1.2x at N2P to about 1.1x at A16.
+Price or market size: **No foundry publishes prices for its newest wafers**. The public measure is how many more transistors TSMC fits on each new process, and that gain falls from 1.2x at N2P to about 1.1x at A16.
 
 Who leads
 
--   TWTSMC N2 in volume production since 4Q25, the first nanosheet node
--   USIntel 18A in high-volume manufacturing; 18A-P adds 9% performance at the same power
--   KRSamsung Foundry SF2 family; SF2Z adds backside power
--   CNSMIC N+2 and N+3, printed in several passes on older deep-ultraviolet tools, no EUV
+-   {--{"author":"James's AI","timestamp":1790594017902}@@TWTSMC--}{++{"author":"James's AI","timestamp":1790594017902}@@TW · **TSMC**:++} N2 in volume production since 4Q25, the first nanosheet node
+-   {--{"author":"James's AI","timestamp":1790594020241}@@USIntel--}{++{"author":"James's AI","timestamp":1790594020241}@@US · **Intel**:++} 18A in high-volume manufacturing; 18A-P adds 9% performance at the same power
+-   {--{"author":"James's AI","timestamp":1790594020929}@@KRSamsung Foundry--}{++{"author":"James's AI","timestamp":1790594020929}@@KR · **Samsung Foundry**:++} SF2 family; SF2Z adds backside power
+-   {--{"author":"James's AI","timestamp":1790594021794}@@CNSMIC--}{++{"author":"James's AI","timestamp":1790594021794}@@CN · **SMIC**:++} N+2 and N+3, printed in several passes on older deep-ultraviolet tools, no EUV
 -   JPRapidus State-backed 2 nm entrant targeting mass production in 2027
 
 Where it is made
