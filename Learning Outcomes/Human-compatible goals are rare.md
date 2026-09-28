@@ -12,4 +12,4 @@ stage: intermediate
 
 # Suggested Lenses:
 ## Lens:
-source:: [[../Lenses/IABIED - QA - {--{"author":"James's AI","timestamp":1790613461869}@@Won't It Choose to Be Moral]]--}{++{"author":"James's AI","timestamp":1790613461869}@@Orthogonality]]++}
+source:: [[../Lenses/IABIED - QA - Orthogonality]]

@@ -12,7 +12,4 @@ stage: intermediate
 
 # Suggested Lenses:
 ## Lens:
-source:: [[../Lenses/IABIED - QA - {--{"author":"James's AI","timestamp":1790613464265}@@Can International Cooperation Really Work]]
-
-## Lens:
-source:: [[../Lenses/IABIED - QA - --}The Draft Treaty]]
+source:: [[../Lenses/IABIED - QA - The Draft Treaty]]

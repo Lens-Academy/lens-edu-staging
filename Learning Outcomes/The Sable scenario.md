@@ -12,4 +12,4 @@ stage: intermediate
 
 # Suggested Lenses:
 ## Lens:
-source:: [[../Lenses/IABIED - QA - Why {--{"author":"James's AI","timestamp":1790613462441}@@Write a Fictional Scenario]]--}{++{"author":"James's AI","timestamp":1790613462441}@@This Setup]]++}
+source:: [[../Lenses/IABIED - QA - Why This Setup]]

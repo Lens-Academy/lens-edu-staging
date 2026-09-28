@@ -166,6 +166,6 @@ content::
 
 ---
 
-::card[[../Lenses/IABIED - QA - {--{"author":"James's AI","timestamp":1790613461385}@@Won't It Choose to Be Moral]]--}{++{"author":"James's AI","timestamp":1790613461385}@@Orthogonality]]++}
+::card[[../Lenses/IABIED - QA - Orthogonality]]
 
 > Directly addresses the objection this LO's implication targets: the hope that a sufficiently intelligent AI would simply choose to align itself with human values.
