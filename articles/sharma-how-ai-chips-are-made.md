@@ -560,41 +560,46 @@ In 2023, 98 percent of China's output was solar grade. Chinese firms held under 
 
 A few hundred chemicals separate a blank wafer from a working chip. Japan makes about four-fifths of the photoresist. Twice the supply of these materials has been restricted, and no fab stopped, because the countries affected stockpiled and developed substitutes instead.
 
-%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+{--{"author":"James's AI","timestamp":1790597037723}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
 
-{--{"author":"James's AI","timestamp":1790593811954}@@1,467--}{++{"author":"James's AI","timestamp":1790593811954}@@_1,467++} words / 6 {--{"author":"James's AI","timestamp":1790593811954}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593811954}@@min · Interactive 3D Specimen:++} gas cabinet{++{"author":"James's AI","timestamp":1790593811954}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#chemicals-gases-and-photoresist))_++}
+1,467 --}{++{"author":"James's AI","timestamp":1790597037723}@@*1,467 ++}words / 6 {--{"author":"James's AI","timestamp":1790597037723}@@minSpecimen: gas cabinet
 
 **In plain terms**
 
-Photoresist is a coating that changes wherever light hits it. A machine spins a coat of it, thinner than a soap bubble, across the wafer. Light shines through a stencil onto the coat, and a liquid wash then takes away the parts the light reached. What remains is a pattern, and the next machine cuts that pattern into the wafer beneath, a step called etching. A few hundred other gases and liquids lay down layers, strip them off and clean the wafer between steps. All of them have to be clean to about one stray metal atom in every trillion. Each formula is approved for one factory and one product at a time, and a new supplier has to earn that approval from scratch, so a second source takes years. Nine tenths of the world's photoresist comes from Japan, and no factory can swap it out quickly.
+--}{++{"author":"James's AI","timestamp":1790597037723}@@min*
+
+:::callout {title="In plain terms" tone="neutral"}
+++}Photoresist is a coating that changes wherever light hits it. A machine spins a coat of it, thinner than a soap bubble, across the wafer. Light shines through a stencil onto the coat, and a liquid wash then takes away the parts the light reached. What remains is a pattern, and the next machine cuts that pattern into the wafer beneath, a step called etching. A few hundred other gases and liquids lay down layers, strip them off and clean the wafer between steps. All of them have to be clean to about one stray metal atom in every trillion. Each formula is approved for one factory and one product at a time, and a new supplier has to earn that approval from scratch, so a second source takes years. Nine tenths of the world's photoresist comes from Japan, and no factory can swap it out quickly.{++{"author":"James's AI","timestamp":1790597037723}@@
+:::++}
 
 ### In short ^in-short-3
 
 Photoresist is the most concentrated input at this stage: about 90 percent Japanese in 2021 and 78 percent in 2023 [3](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf) [4](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf), with one of the largest suppliers now 84 percent owned by a Japanese state fund [5](https://www.jiccapital.co.jp/en/news/.assets/E_20240417_JIC_JICC_PressRelease.pdf). Individual molecules are far more concentrated than the gas industry that sells them: neon and nitrogen trifluoride come from a handful of plants. China's gallium, germanium and antimony controls affect non-silicon chips and optics but not a silicon GPU, and the gallium suspension runs for one year from November 2025 [14](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf). The qualification cycle matters more than the spot price, because every disruption so far was absorbed within a year and each one added a second source somewhere.
 
-Concentration: **High**
+{--{"author":"James's AI","timestamp":1790597037723}@@Concentration: **High**--}{++{"author":"James's AI","timestamp":1790597037723}@@:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** High++}
 
-Substitutability: **Moderate**. Rated on photoresist, the hardest input in this stage: Japan makes about four-fifths of it, and Korea needed five years to develop substitutes.
+{--{"author":"James's AI","timestamp":1790597037723}@@Substitutability: **Moderate**.--}{++{"author":"James's AI","timestamp":1790597037723}@@**Substitutability:** Moderate.++} Rated on photoresist, the hardest input in this stage: Japan makes about four-fifths of it, and Korea needed five years to develop substitutes.
 
-Price or market size: **Wafer fabrication materials were a $45.8bn market in 2025 and packaging materials $27.4bn, $73.2bn in total**
+{--{"author":"James's AI","timestamp":1790597037723}@@Price--}{++{"author":"James's AI","timestamp":1790597037723}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597037723}@@size: **Wafer--}{++{"author":"James's AI","timestamp":1790597037723}@@size:** Wafer++} fabrication materials were a $45.8bn market in 2025 and packaging materials $27.4bn, $73.2bn in {--{"author":"James's AI","timestamp":1790597037723}@@total**--}{++{"author":"James's AI","timestamp":1790597037723}@@total++}
 
 **Who leads**
 
--   {--{"author":"James's AI","timestamp":1790593820349}@@JPJSR--}{++{"author":"James's AI","timestamp":1790593820349}@@JP · **JSR**:++} Owner of Inpria's metal-oxide resist for extreme-ultraviolet printing; 84% held by Japan Investment Corporation, a state-backed fund, since April 2024
--   {--{"author":"James's AI","timestamp":1790593821826}@@JPTokyo--}{++{"author":"James's AI","timestamp":1790593821826}@@JP · **Tokyo++} Ohka {--{"author":"James's AI","timestamp":1790593821826}@@Kogyo--}{++{"author":"James's AI","timestamp":1790593821826}@@Kogyo**:++} Top-five resist maker; ¥139.7bn of sales in the first half of fiscal 2026
--   {--{"author":"James's AI","timestamp":1790593823361}@@FRAir Liquide--}{++{"author":"James's AI","timestamp":1790593823361}@@FR · **Air Liquide**:++} €2,465m of electronics revenue in 2025, 9.1% of group sales
--   {--{"author":"James's AI","timestamp":1790593824790}@@USEntegris--}{++{"author":"James's AI","timestamp":1790593824790}@@US · **Entegris**:++} $3.20bn of 2025 revenue in filters, polishing slurries, gas delivery and wafer carriers
--   {--{"author":"James's AI","timestamp":1790593825863}@@JPJX--}{++{"author":"James's AI","timestamp":1790593825863}@@JP · **JX++} Advanced {--{"author":"James's AI","timestamp":1790593825863}@@Metals--}{++{"author":"James's AI","timestamp":1790593825863}@@Metals**:++} About 65% of sputtering targets, the metal plates that chip wiring is made from
+-{--{"author":"James's AI","timestamp":1790597037723}@@   JPJSR--}{++{"author":"James's AI","timestamp":1790597037723}@@ **JSR** (JP):++} Owner of Inpria's metal-oxide resist for extreme-ultraviolet printing; 84% held by Japan Investment Corporation, a state-backed fund, since April 2024
+-{--{"author":"James's AI","timestamp":1790597037723}@@   JPTokyo--}{++{"author":"James's AI","timestamp":1790597037723}@@ **Tokyo++} Ohka {--{"author":"James's AI","timestamp":1790597037723}@@Kogyo--}{++{"author":"James's AI","timestamp":1790597037723}@@Kogyo** (JP):++} Top-five resist maker; ¥139.7bn of sales in the first half of fiscal 2026
+-{--{"author":"James's AI","timestamp":1790597037723}@@   FRAir Liquide--}{++{"author":"James's AI","timestamp":1790597037723}@@ **Air Liquide** (FR):++} €2,465m of electronics revenue in 2025, 9.1% of group sales
+-{--{"author":"James's AI","timestamp":1790597037723}@@   USEntegris--}{++{"author":"James's AI","timestamp":1790597037723}@@ **Entegris** (US):++} $3.20bn of 2025 revenue in filters, polishing slurries, gas delivery and wafer carriers
+-{--{"author":"James's AI","timestamp":1790597037723}@@   JPJX--}{++{"author":"James's AI","timestamp":1790597037723}@@ **JX++} Advanced {--{"author":"James's AI","timestamp":1790597037723}@@Metals--}{++{"author":"James's AI","timestamp":1790597037723}@@Metals** (JP):++} About 65% of sputtering targets, the metal plates that chip wiring is made from
 
 **Where it is made**
 
--   {--{"author":"James's AI","timestamp":1790593827968}@@JPJapan--}{++{"author":"James's AI","timestamp":1790593827968}@@JP · **Japan**:++} Photoresist, ultra-pure hydrofluoric acid, sputtering targets, polishing slurries
--   {--{"author":"James's AI","timestamp":1790593829366}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593829366}@@US · **United States**:++} Entegris filters and wafer carriers, DuPont polishing slurries, Air Products gases
--   {--{"author":"James's AI","timestamp":1790593830810}@@FRFrance--}{++{"author":"James's AI","timestamp":1790593830810}@@FR · **France**:++} Air Liquide electronics gases and precursors
--   {--{"author":"James's AI","timestamp":1790593832353}@@KRSouth Korea--}{++{"author":"James's AI","timestamp":1790593832353}@@KR · **South Korea**:++} SK Materials nitrogen trifluoride, Dongjin resist, on-site gas for memory fabs
--   {--{"author":"James's AI","timestamp":1790593833375}@@CNChina--}{++{"author":"James's AI","timestamp":1790593833375}@@CN · **China**:++} Gallium, germanium and antimony refining; growing wet chemicals and polishing slurries
+-{--{"author":"James's AI","timestamp":1790597037723}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597037723}@@ **Japan**:++} Photoresist, ultra-pure hydrofluoric acid, sputtering targets, polishing slurries
+-{--{"author":"James's AI","timestamp":1790597037723}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597037723}@@ **United States**:++} Entegris filters and wafer carriers, DuPont polishing slurries, Air Products gases
+-{--{"author":"James's AI","timestamp":1790597037723}@@   FRFrance--}{++{"author":"James's AI","timestamp":1790597037723}@@ **France**:++} Air Liquide electronics gases and precursors
+-{--{"author":"James's AI","timestamp":1790597037723}@@   KRSouth Korea--}{++{"author":"James's AI","timestamp":1790597037723}@@ **South Korea**:++} SK Materials nitrogen trifluoride, Dongjin resist, on-site gas for memory fabs
+-{--{"author":"James's AI","timestamp":1790597037723}@@   CNChina--}{++{"author":"James's AI","timestamp":1790597037723}@@ **China**:++} Gallium, germanium and antimony refining; growing wet chemicals and polishing slurries
 
-Why substitution is possible
+{--{"author":"James's AI","timestamp":1790597037723}@@Why--}{++{"author":"James's AI","timestamp":1790597037723}@@**Why++} substitution is {--{"author":"James's AI","timestamp":1790597037723}@@possible--}{++{"author":"James's AI","timestamp":1790597037723}@@possible**++}
 
 Photoresist is the light-sensitive coating that holds the printed pattern on the wafer. Each formula is approved for one layer of one product at one fab. A new supplier therefore has to develop its version together with the fab, one layer at a time. Korea shows what switching takes. When Japan required an individual export license for each shipment of resist in 2019, Korea kept its fabs running and spent five years funding its own substitutes. Switching takes two to five years, and closer to five for the newest chips.
 
@@ -604,7 +609,8 @@ China cannot make photoresist for extreme-ultraviolet printing or for the finest
 
 **Where the US stands**
 
-American firms are strong in filters, containers, polishing slurries and gas delivery: Entegris, DuPont and Air Products. They are nearly absent from advanced photoresist since JSR of Japan bought Inpria, an American startup, in 2021.
+American firms are strong in filters, containers, polishing slurries and gas delivery: Entegris, DuPont and Air Products. They are nearly absent from advanced photoresist since JSR of Japan bought Inpria, an American startup, in 2021.{++{"author":"James's AI","timestamp":1790597037723}@@
+:::++}
 
 A modern fab is a chemical plant with lithography attached. Air Liquide alone supplies more than 200 molecules and roughly 50,000 cylinders a year [1](https://www.airliquide.com/group/activities/electronics). None of it costs much by the metric ton, and any one of them missing stops the fab.
 
@@ -619,7 +625,7 @@ Everything else puts material on the wafer, takes it off, or keeps it clean. Bul
 ### Variants and trade-offs ^variants-and-trade-offs-3
 
 | Resist class | Wavelength | Where it is used | Limit |
-| --- | --- | --- | --- |
+{--{"author":"James's AI","timestamp":1790597037723}@@| --- | --- | --- | --- |--}{++{"author":"James's AI","timestamp":1790597037723}@@|---|---|---|---|++}
 | i-line novolak | 365 nm | Packaging, mature nodes | Resolution |
 | KrF chemically amplified | 248 nm | Implant layers, thick films | Resolution |
 | ArF immersion chemically amplified | 193 nm | Most critical layers below 28 nm | Needs several exposures per layer |
@@ -632,9 +638,14 @@ Each resist class is tied to one scanner and one layer [3](https://cset.georgeto
 
 Japan produced about 90 percent of the world's semiconductor photoresist as of 2021, the rest mostly in the United States and South Korea [3](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf). A later survey by Fuji Keizai, relayed in the December 2025 strategy deck of Japan's Ministry of Economy, Trade and Industry, puts Japan at 78 percent in 2023, the United States at 13 and South Korea at 6, with China inside the small remainder [4](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf).
 
-**Chart:** Semiconductor photoresist production share by country, 2021 (%)
+**Chart:** Semiconductor photoresist production share by country, 2021{--{"author":"James's AI","timestamp":1790597037723}@@ (%)
 
-Japan **90%** United States, South Korea and others **10%**
+--}{++{"author":"James's AI","timestamp":1790597037723}@@
+
+| | % |
+|---|---:|
+| ++}Japan {--{"author":"James's AI","timestamp":1790597037723}@@**90%**--}{++{"author":"James's AI","timestamp":1790597037723}@@| 90 |
+|++} United States, South Korea and others {--{"author":"James's AI","timestamp":1790597037723}@@**10%**--}{++{"author":"James's AI","timestamp":1790597037723}@@| 10 |++}
 
 Source: [CSET, The Semiconductor Supply Chain](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf)
 
@@ -660,9 +671,15 @@ China's export controls fall on the metals. Beijing announced export licenses fo
 
 Neither metal goes into a silicon logic chip. Germanium goes into fiber optics, infrared optics, solar cells for satellites and radiation detectors [15](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-germanium.pdf); gallium into the non-silicon wafers behind radio front ends, LEDs and lasers [14](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf). They move the price instead. Germanium metal averaged $4,100 a kilogram in 2025 against $1,392 in 2023, and US imports of the metal fell 67 percent [15](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-germanium.pdf). The US Geological Survey put the cost to US GDP of a complete ban at about $3.4 billion [13](https://www.stimson.org/2025/chinas-germanium-and-gallium-export-restrictions-consequences-for-the-united-states/).
 
-**Chart:** Germanium metal, annual average price ($/kg). China licensed exports from August 2023 and banned US shipments in December 2024 ($/kg)
+**Chart:** Germanium metal, annual average price ($/kg). China licensed exports from August 2023 and banned US shipments in December 2024{--{"author":"James's AI","timestamp":1790597037723}@@ ($/kg)--}
 
-2021 1,187 2022 1,294 2023 1,392 2024 1,991 2025 4,100
+{++{"author":"James's AI","timestamp":1790597037723}@@| | $/kg |
+|---|---:|
+| ++}2021 {++{"author":"James's AI","timestamp":1790597037723}@@| ++}1,187 {++{"author":"James's AI","timestamp":1790597037723}@@|
+| ++}2022 {++{"author":"James's AI","timestamp":1790597037723}@@| ++}1,294 {++{"author":"James's AI","timestamp":1790597037723}@@|
+| ++}2023 {++{"author":"James's AI","timestamp":1790597037723}@@| ++}1,392 {++{"author":"James's AI","timestamp":1790597037723}@@|
+| ++}2024 {++{"author":"James's AI","timestamp":1790597037723}@@| ++}1,991 {++{"author":"James's AI","timestamp":1790597037723}@@|
+| ++}2025 {++{"author":"James's AI","timestamp":1790597037723}@@| ++}4,100{++{"author":"James's AI","timestamp":1790597037723}@@ |++}
 
 Source: [USGS Mineral Commodity Summaries, February 2026 (Argus Media prices)](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-germanium.pdf)
 
@@ -670,77 +687,92 @@ The slower risk is the European Union's proposed restriction on PFAS, the long-l
 
 ### Key evaluation criteria ^key-evaluation-criteria-3
 
--   **Purity, in parts per trillion** of metallic contamination, a million times finer than parts per million, which is the spec that keeps entrants out.
--   **Qualification lock-in**: a resist or slurry is approved for one layer of one product at one fab, so switching costs are counted in tape-outs.
--   **Photon efficiency** for EUV resists: how much light the resist absorbs sets the dose, the dose sets how many wafers an hour the scanner prints, and too few photons per dose set the defect rate, which is the case for metal-oxide chemistry.
--   **Transportability**: bulk gases are made on site at the fab, and only cylinder-shipped specialty gases can be embargoed.
--   **Byproduct exposure**: gallium is recovered mostly from bauxite refining and germanium from zinc concentrates, so supply depends on another industry's economics [14](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf).
+-{--{"author":"James's AI","timestamp":1790597037723}@@   --}{++{"author":"James's AI","timestamp":1790597037723}@@ ++}**Purity, in parts per trillion** of metallic contamination, a million times finer than parts per million, which is the spec that keeps entrants out.
+-{--{"author":"James's AI","timestamp":1790597037723}@@   --}{++{"author":"James's AI","timestamp":1790597037723}@@ ++}**Qualification lock-in**: a resist or slurry is approved for one layer of one product at one fab, so switching costs are counted in tape-outs.
+-{--{"author":"James's AI","timestamp":1790597037723}@@   --}{++{"author":"James's AI","timestamp":1790597037723}@@ ++}**Photon efficiency** for EUV resists: how much light the resist absorbs sets the dose, the dose sets how many wafers an hour the scanner prints, and too few photons per dose set the defect rate, which is the case for metal-oxide chemistry.
+-{--{"author":"James's AI","timestamp":1790597037723}@@   --}{++{"author":"James's AI","timestamp":1790597037723}@@ ++}**Transportability**: bulk gases are made on site at the fab, and only cylinder-shipped specialty gases can be embargoed.
+-{--{"author":"James's AI","timestamp":1790597037723}@@   --}{++{"author":"James's AI","timestamp":1790597037723}@@ ++}**Byproduct exposure**: gallium is recovered mostly from bauxite refining and germanium from zinc concentrates, so supply depends on another industry's economics [14](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf).
 
-{--{"author":"James's AI","timestamp":1790593839424}@@Card--}{++{"author":"James's AI","timestamp":1790593839424}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593839424}@@4Question--}{++{"author":"James's AI","timestamp":1790593839424}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597037723}@@Card 1 of 4Question
 
-What does photoresist do?
+What does photoresist do?--}{++{"author":"James's AI","timestamp":1790597037723}@@::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.++}
 
-{--{"author":"James's AI","timestamp":1790593841479}@@Card--}{++{"author":"James's AI","timestamp":1790593841479}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593841479}@@4Answer--}{++{"author":"James's AI","timestamp":1790593841479}@@4 · Answer**++}
+{--{"author":"James's AI","timestamp":1790597037723}@@Card --}{++{"author":"James's AI","timestamp":1790597037723}@@:::callout {title="Card ++}1 of {--{"author":"James's AI","timestamp":1790597037723}@@4Answer
 
-It holds the pattern printed by light, so the next step can etch that pattern into the wafer.
+--}{++{"author":"James's AI","timestamp":1790597037723}@@4: What does photoresist do?" tone="neutral" collapse="closed"}
+++}It holds the pattern printed by light, so the next step can etch that pattern into the wafer.
 
-A wash removes the parts the light reached. The pattern that remains guides the etch. [[#^how-it-works-3|Reread: How it works]]
+A wash removes the parts the light reached. The pattern that remains guides the etch. [[#^how-it-works-3|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597037723}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790593843470}@@Card--}{++{"author":"James's AI","timestamp":1790593843470}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593843470}@@4Question--}{++{"author":"James's AI","timestamp":1790593843470}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597037723}@@Card--}{++{"author":"James's AI","timestamp":1790597037723}@@:::callout {title="Card++} 2 of {--{"author":"James's AI","timestamp":1790597037723}@@4Question
 
-Which country makes most of the world's photoresist?
+--}{++{"author":"James's AI","timestamp":1790597037723}@@4: ++}Which country makes most of the world's {--{"author":"James's AI","timestamp":1790597037723}@@photoresist?
 
-{--{"author":"James's AI","timestamp":1790593844869}@@Card--}{++{"author":"James's AI","timestamp":1790593844869}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593844869}@@4Answer--}{++{"author":"James's AI","timestamp":1790593844869}@@4 · Answer**++}
+Card 2 of 4Answer
 
-Japan.
+--}{++{"author":"James's AI","timestamp":1790597037723}@@photoresist?" tone="neutral" collapse="closed"}
+++}Japan.
 
-Japan made about 90 percent in 2021 and 78 percent in 2023. [[#^who-makes-it-3|Reread: Who makes it]]
+Japan made about 90 percent in 2021 and 78 percent in 2023. [[#^who-makes-it-3|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597037723}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790593846389}@@Card--}{++{"author":"James's AI","timestamp":1790593846389}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593846389}@@4Question--}{++{"author":"James's AI","timestamp":1790593846389}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597037723}@@Card--}{++{"author":"James's AI","timestamp":1790597037723}@@:::callout {title="Card++} 3 of{--{"author":"James's AI","timestamp":1790597037723}@@ 4Question
 
-Why does replacing a photoresist supplier take years?
+--}{++{"author":"James's AI","timestamp":1790597037723}@@ 4: ++}Why does replacing a photoresist supplier take {--{"author":"James's AI","timestamp":1790597037723}@@years?
 
-{--{"author":"James's AI","timestamp":1790593847771}@@Card--}{++{"author":"James's AI","timestamp":1790593847771}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593847771}@@4Answer--}{++{"author":"James's AI","timestamp":1790593847771}@@4 · Answer**++}
+Card 3 of 4Answer
 
-Each formula is approved for one layer of one product at one factory.
+--}{++{"author":"James's AI","timestamp":1790597037723}@@years?" tone="neutral" collapse="closed"}
+++}Each formula is approved for one layer of one product at one factory.
 
-After Japan's 2019 export licenses, Korea needed five years to build substitutes. [[#^the-chokepoint-3|Reread: The chokepoint]]
+After Japan's 2019 export licenses, Korea needed five years to build substitutes. [[#^the-chokepoint-3|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597037723}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790593849038}@@Card--}{++{"author":"James's AI","timestamp":1790593849038}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593849038}@@4Question--}{++{"author":"James's AI","timestamp":1790593849038}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597037723}@@Card--}{++{"author":"James's AI","timestamp":1790597037723}@@:::callout {title="Card++} 4 of {--{"author":"James's AI","timestamp":1790597037723}@@4Question
 
-Do China's controls on gallium and germanium hurt silicon AI chips?
+--}{++{"author":"James's AI","timestamp":1790597037723}@@4: ++}Do China's controls on gallium and germanium hurt silicon AI {--{"author":"James's AI","timestamp":1790597037723}@@chips?
 
-{--{"author":"James's AI","timestamp":1790593850292}@@Card--}{++{"author":"James's AI","timestamp":1790593850292}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593850292}@@4Answer--}{++{"author":"James's AI","timestamp":1790593850292}@@4 · Answer**++}
+Card 4 of 4Answer
 
-Very little. Neither metal goes into a silicon chip.
+--}{++{"author":"James's AI","timestamp":1790597037723}@@chips?" tone="neutral" collapse="closed"}
+++}Very little. Neither metal goes into a silicon chip.
 
-Both go into optics and non-silicon chips such as LEDs and lasers. [[#^the-chokepoint-3|Reread: The chokepoint]]
+Both go into optics and non-silicon chips such as LEDs and lasers. [[#^the-chokepoint-3|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597037723}@@
+:::
 
-#### Four things to remember ^four-things-to-remember-2
+::::++}
 
--   Photoresist holds the pattern printed by light so the next step can etch it into the wafer.
--   Japan makes most of the world's photoresist: about 90 percent in 2021 and 78 percent in 2023.
--   Each resist is approved for one layer of one product at one factory, so a new supplier takes years.
--   China's gallium and germanium controls hit optics and non-silicon chips, and barely touch a silicon GPU.
+{--{"author":"James's AI","timestamp":1790597037723}@@#### Four--}{++{"author":"James's AI","timestamp":1790597037723}@@:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597037723}@@remember ^four-things-to-remember-2
 
-**Sources (16)**
+--}{++{"author":"James's AI","timestamp":1790597037723}@@remember" tone="green"}
+++}-{--{"author":"James's AI","timestamp":1790597037723}@@   --}{++{"author":"James's AI","timestamp":1790597037723}@@ ++}Photoresist holds the pattern printed by light so the next step can etch it into the wafer.
+-{--{"author":"James's AI","timestamp":1790597037723}@@   --}{++{"author":"James's AI","timestamp":1790597037723}@@ ++}Japan makes most of the world's photoresist: about 90 percent in 2021 and 78 percent in 2023.
+-{--{"author":"James's AI","timestamp":1790597037723}@@   --}{++{"author":"James's AI","timestamp":1790597037723}@@ ++}Each resist is approved for one layer of one product at one factory, so a new supplier takes years.
+-{--{"author":"James's AI","timestamp":1790597037723}@@   --}{++{"author":"James's AI","timestamp":1790597037723}@@ ++}China's gallium and germanium controls hit optics and non-silicon chips, and barely touch a silicon GPU.{++{"author":"James's AI","timestamp":1790597037723}@@
+:::++}
 
-1.  A [Electronics | Air Liquide](https://www.airliquide.com/group/activities/electronics) Air Liquide
-2.  A [JSR Agrees to Acquire EUV Pioneer Inpria Corporation | 2021 | News](https://www.jsr.co.jp/jsr_e/news/2021/20210917.html) JSR Corporation · 17 September 2021
-3.  A [The Semiconductor Supply Chain - Issue Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf) Center for Security and Emerging Technology (CSET) · 21 January 2021
-4.  A [METI, Semiconductor and digital industry strategy: future direction (半導体・デジタル産業戦略の今後の方向性), 23 December 2025](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf) Ministry of Economy, Trade and Industry (Japan) · 23 December 2025
-5.  A [April 17, 2024 Japan Investment Corporation](https://www.jiccapital.co.jp/en/news/.assets/E_20240417_JIC_JICC_PressRelease.pdf) Japan Investment Corporation · 17 April 2024
-6.  A [Consolidated Financial Results for the Second Quarter (Interim) of the Fiscal Year Ending December 31, 2026 \[J-GAAP\]](https://www.tok.co.jp/application/files/7417/8598/0069/q2_2612_en.pdf) Tokyo Ohka Kogyo · 5 August 2026
-7.  A [Fujifilm to Enhance its Production Capacity of Advanced Semiconductor Material CMP Slurries at the Kumamoto Site](https://www.fujifilm.com/jp/en/news/hq/11942) Fujifilm · 5 December 2024
-8.  A [Fujifilm Launches EUV Resist and EUV Developer](https://www.fujifilm.com/jp/en/news/hq/11842) Fujifilm · 29 October 2024
-9.  A [Global Semiconductor Materials Market Revenue Reaches Record $73.2 Billion in 2025, SEMI Reports](https://www.prnewswire.com/news-releases/global-semiconductor-materials-market-revenue-reaches-record-73-2-billion-in-2025--semi-reports-302768700.html) PR Newswire · 12 May 2026
-10.  A [Quick Guide to JX Advanced Metals | Corporate Overview](https://www.jx-nmm.com/english/company/glance/) JX Advanced Metals
-11.  A [The impact of export controls on international trade: evidence from the Japan–Korea trade dispute in the semiconductor industry](https://www.rieti.go.jp/en/columns/v01_0201.html) Research Institute of Economy, Trade and Industry (Japan) · 8 May 2023
-12.  A [Russia's Invasion of Ukraine Impacts Gas Markets Critical to Chip Production | Perspectives on Innovation](https://www.csis.org/blogs/perspectives-innovation/russias-invasion-ukraine-impacts-gas-markets-critical-chip-production) Center for Strategic and International Studies
-13.  A [China’s Germanium and Gallium Export Restrictions: Consequences for the United States](https://www.stimson.org/2025/chinas-germanium-and-gallium-export-restrictions-consequences-for-the-united-states/) Stimson Center · 19 March 2025
-14.  A [Mineral Commodity Summaries 2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf) U.S. Geological Survey · 5 February 2026
-15.  A [Mineral Commodity Summaries 2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-germanium.pdf) U.S. Geological Survey · 5 February 2026
-16.  A [ECHA supports PFAS restriction with targeted derogations](https://echa.europa.eu/-/echa-supports-pfas-restriction-with-targeted-derogations) European Chemicals Agency · 26 March 2026
+{--{"author":"James's AI","timestamp":1790597037723}@@**Sources (16)**
+
+--}{++{"author":"James's AI","timestamp":1790597037723}@@:::callout {title="Sources (16)" tone="neutral" collapse="closed"}
+++}1.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [Electronics | Air {--{"author":"James's AI","timestamp":1790597037723}@@Liquide](https://www.airliquide.com/group/activities/electronics)--}{++{"author":"James's AI","timestamp":1790597037723}@@Liquide](https://www.airliquide.com/group/activities/electronics).++} Air {--{"author":"James's AI","timestamp":1790597037723}@@Liquide--}{++{"author":"James's AI","timestamp":1790597037723}@@Liquide. Tier A.++}
+2.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [JSR Agrees to Acquire EUV Pioneer Inpria Corporation | 2021 | {--{"author":"James's AI","timestamp":1790597037723}@@News](https://www.jsr.co.jp/jsr_e/news/2021/20210917.html)--}{++{"author":"James's AI","timestamp":1790597037723}@@News](https://www.jsr.co.jp/jsr_e/news/2021/20210917.html).++} JSR Corporation · 17 September {--{"author":"James's AI","timestamp":1790597037723}@@2021--}{++{"author":"James's AI","timestamp":1790597037723}@@2021. Tier A.++}
+3.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [The Semiconductor Supply Chain - Issue {--{"author":"James's AI","timestamp":1790597037723}@@Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf)--}{++{"author":"James's AI","timestamp":1790597037723}@@Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).++} Center for Security and Emerging Technology (CSET) · 21 January {--{"author":"James's AI","timestamp":1790597037723}@@2021--}{++{"author":"James's AI","timestamp":1790597037723}@@2021. Tier A.++}
+4.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [METI, Semiconductor and digital industry strategy: future direction (半導体・デジタル産業戦略の今後の方向性), 23 December {--{"author":"James's AI","timestamp":1790597037723}@@2025](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf)--}{++{"author":"James's AI","timestamp":1790597037723}@@2025](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf).++} Ministry of Economy, Trade and Industry (Japan) · 23 December {--{"author":"James's AI","timestamp":1790597037723}@@2025--}{++{"author":"James's AI","timestamp":1790597037723}@@2025. Tier A.++}
+5.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [April 17, 2024 Japan Investment {--{"author":"James's AI","timestamp":1790597037723}@@Corporation](https://www.jiccapital.co.jp/en/news/.assets/E_20240417_JIC_JICC_PressRelease.pdf)--}{++{"author":"James's AI","timestamp":1790597037723}@@Corporation](https://www.jiccapital.co.jp/en/news/.assets/E_20240417_JIC_JICC_PressRelease.pdf).++} Japan Investment Corporation · 17 April {--{"author":"James's AI","timestamp":1790597037723}@@2024--}{++{"author":"James's AI","timestamp":1790597037723}@@2024. Tier A.++}
+6.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [Consolidated Financial Results for the Second Quarter (Interim) of the Fiscal Year Ending December 31, 2026 {--{"author":"James's AI","timestamp":1790597037723}@@\[J-GAAP\]](https://www.tok.co.jp/application/files/7417/8598/0069/q2_2612_en.pdf)--}{++{"author":"James's AI","timestamp":1790597037723}@@[J-GAAP]](https://www.tok.co.jp/application/files/7417/8598/0069/q2_2612_en.pdf).++} Tokyo Ohka Kogyo · 5 August {--{"author":"James's AI","timestamp":1790597037723}@@2026--}{++{"author":"James's AI","timestamp":1790597037723}@@2026. Tier A.++}
+7.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [Fujifilm to Enhance its Production Capacity of Advanced Semiconductor Material CMP Slurries at the Kumamoto {--{"author":"James's AI","timestamp":1790597037723}@@Site](https://www.fujifilm.com/jp/en/news/hq/11942)--}{++{"author":"James's AI","timestamp":1790597037723}@@Site](https://www.fujifilm.com/jp/en/news/hq/11942).++} Fujifilm · 5 December {--{"author":"James's AI","timestamp":1790597037723}@@2024--}{++{"author":"James's AI","timestamp":1790597037723}@@2024. Tier A.++}
+8.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [Fujifilm Launches EUV Resist and EUV {--{"author":"James's AI","timestamp":1790597037723}@@Developer](https://www.fujifilm.com/jp/en/news/hq/11842)--}{++{"author":"James's AI","timestamp":1790597037723}@@Developer](https://www.fujifilm.com/jp/en/news/hq/11842).++} Fujifilm · 29 October {--{"author":"James's AI","timestamp":1790597037723}@@2024--}{++{"author":"James's AI","timestamp":1790597037723}@@2024. Tier A.++}
+9.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [Global Semiconductor Materials Market Revenue Reaches Record $73.2 Billion in 2025, SEMI {--{"author":"James's AI","timestamp":1790597037723}@@Reports](https://www.prnewswire.com/news-releases/global-semiconductor-materials-market-revenue-reaches-record-73-2-billion-in-2025--semi-reports-302768700.html)--}{++{"author":"James's AI","timestamp":1790597037723}@@Reports](https://www.prnewswire.com/news-releases/global-semiconductor-materials-market-revenue-reaches-record-73-2-billion-in-2025--semi-reports-302768700.html).++} PR Newswire · 12 May {--{"author":"James's AI","timestamp":1790597037723}@@2026--}{++{"author":"James's AI","timestamp":1790597037723}@@2026. Tier A.++}
+10.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [Quick Guide to JX Advanced Metals | Corporate {--{"author":"James's AI","timestamp":1790597037723}@@Overview](https://www.jx-nmm.com/english/company/glance/)--}{++{"author":"James's AI","timestamp":1790597037723}@@Overview](https://www.jx-nmm.com/english/company/glance/).++} JX Advanced {--{"author":"James's AI","timestamp":1790597037723}@@Metals--}{++{"author":"James's AI","timestamp":1790597037723}@@Metals. Tier A.++}
+11.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [The impact of export controls on international trade: evidence from the Japan–Korea trade dispute in the semiconductor {--{"author":"James's AI","timestamp":1790597037723}@@industry](https://www.rieti.go.jp/en/columns/v01_0201.html)--}{++{"author":"James's AI","timestamp":1790597037723}@@industry](https://www.rieti.go.jp/en/columns/v01_0201.html).++} Research Institute of Economy, Trade and Industry (Japan) · 8 May {--{"author":"James's AI","timestamp":1790597037723}@@2023--}{++{"author":"James's AI","timestamp":1790597037723}@@2023. Tier A.++}
+12.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [Russia's Invasion of Ukraine Impacts Gas Markets Critical to Chip Production | Perspectives on {--{"author":"James's AI","timestamp":1790597037723}@@Innovation](https://www.csis.org/blogs/perspectives-innovation/russias-invasion-ukraine-impacts-gas-markets-critical-chip-production)--}{++{"author":"James's AI","timestamp":1790597037723}@@Innovation](https://www.csis.org/blogs/perspectives-innovation/russias-invasion-ukraine-impacts-gas-markets-critical-chip-production).++} Center for Strategic and International {--{"author":"James's AI","timestamp":1790597037723}@@Studies--}{++{"author":"James's AI","timestamp":1790597037723}@@Studies. Tier A.++}
+13.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [China’s Germanium and Gallium Export Restrictions: Consequences for the United {--{"author":"James's AI","timestamp":1790597037723}@@States](https://www.stimson.org/2025/chinas-germanium-and-gallium-export-restrictions-consequences-for-the-united-states/)--}{++{"author":"James's AI","timestamp":1790597037723}@@States](https://www.stimson.org/2025/chinas-germanium-and-gallium-export-restrictions-consequences-for-the-united-states/).++} Stimson Center · 19 March {--{"author":"James's AI","timestamp":1790597037723}@@2025--}{++{"author":"James's AI","timestamp":1790597037723}@@2025. Tier A.++}
+14.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [Mineral Commodity Summaries {--{"author":"James's AI","timestamp":1790597037723}@@2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf)--}{++{"author":"James's AI","timestamp":1790597037723}@@2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf).++} U.S. Geological Survey · 5 February {--{"author":"James's AI","timestamp":1790597037723}@@2026--}{++{"author":"James's AI","timestamp":1790597037723}@@2026. Tier A.++}
+15.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [Mineral Commodity Summaries {--{"author":"James's AI","timestamp":1790597037723}@@2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-germanium.pdf)--}{++{"author":"James's AI","timestamp":1790597037723}@@2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-germanium.pdf).++} U.S. Geological Survey · 5 February {--{"author":"James's AI","timestamp":1790597037723}@@2026--}{++{"author":"James's AI","timestamp":1790597037723}@@2026. Tier A.++}
+16.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [ECHA supports PFAS restriction with targeted {--{"author":"James's AI","timestamp":1790597037723}@@derogations](https://echa.europa.eu/-/echa-supports-pfas-restriction-with-targeted-derogations)--}{++{"author":"James's AI","timestamp":1790597037723}@@derogations](https://echa.europa.eu/-/echa-supports-pfas-restriction-with-targeted-derogations).++} European Chemicals Agency · 26 March {--{"author":"James's AI","timestamp":1790597037723}@@2026--}{++{"author":"James's AI","timestamp":1790597037723}@@2026. Tier A.
+:::++}
 
 ## Lithography ^lithography
 
