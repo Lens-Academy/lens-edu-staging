@@ -23,7 +23,8 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read Chapter 7 of "If Anyone Builds It, Everyone Dies."
+force-feedback:: first
+feedback-instructions:: The student has just read Chapter 7 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: State the claim that an AI system's recognition of a conflict between its goals and its operators' plans is a physical fact (a logical operation) rather than a moral choice or an act of rebellion, and explain what this implies about whether a misaligned AI can simply decide not to pursue its objectives.
 
