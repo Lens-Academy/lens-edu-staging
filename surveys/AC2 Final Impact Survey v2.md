@@ -161,22 +161,6 @@ labels::
 - Could teach this course
 - Expert in this field
 
-#### Question: Rating
-id:: 3e896eed-bfbe-4ab1-bc23-f378c304ce4a
-content:: Without Lens, how likely is it that you would have completed equivalent material in the next three months?
-scale:: 10
-labels::
-- Definitely not
-- Very unlikely
-- Unlikely
-- Somewhat unlikely
-- Even chance
-- Somewhat likely
-- Likely
-- Very likely
-- Almost certain
-- Certain
-
 #### Question: Choice
 id:: 8346d978-03b7-4f80-854e-bda4198a9b7d
 content:: Compared with your best alternative, how much did Lens accelerate your learning of the course topics?
