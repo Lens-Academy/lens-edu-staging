@@ -319,11 +319,11 @@ Why substitution is possible
 
 Five firms make 300 mm wafers good enough for the newest chips, so losing one leaves four. A new wafer plant can still be built: GlobalWafers of Taiwan spent $3.5 billion on a plant in Texas, the first wafer production line of its kind in the United States in over twenty years. The slow part is approval. A fab tests a new wafer supplier separately for each chip it makes, and each test runs for months. Supply contracts are also signed years ahead. Switching wafer suppliers therefore takes two to five years.
 
-Where China stands
+**Where China stands**
 
 China made about 93 percent of the world's polysilicon in 2023, but 98 percent of it was solar grade, too impure for chips. It held under 1 percent of the 300 mm wafer market as of 2021, and it supplies only 12 percent of the wafers its own 300 mm fabs use.
 
-Where the US stands
+**Where the US stands**
 
 No American firm makes wafers in volume. Hemlock makes polysilicon in Michigan, and GlobalWafers of Taiwan took a CHIPS Act award of up to $406 million toward a $3.5 billion Texas plant that opened in May 2025.
 
@@ -355,7 +355,7 @@ A buried layer of oxide, which is glass, separates a thin working layer of silic
 
 Siltronic's own map of the chain puts five major suppliers behind the whole wafer market [5](https://www.siltronic.com/fileadmin/investorrelations/2026/Q1/20260429_Siltronic_InvestorPresentation__.pdf). CSET at Georgetown names them: Shin-Etsu, SUMCO, GlobalWafers, Siltronic and SK Siltron, headquartered in Japan, Taiwan, Germany and South Korea [6](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).
 
-Silicon wafer market by supplier headquarters. Five firms, four countries, no US producer%
+**Chart:** Silicon wafer market by supplier headquarters. Five firms, four countries, no US producer (%)
 
 Japan **56%** Taiwan **16%** Europe **14%** South Korea **10%** China **4%** United States **0%**
 
@@ -372,7 +372,7 @@ Area shipped rose 5.8 percent in 2025 while revenue fell 1.2 percent [1](https:/
 
 China made 1.50 million metric tons of polysilicon, the raw material, in 2023, about 93 percent of world output [11](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf). Solar-grade material was 98 percent of that output and electronic-grade 2 percent [11](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf), so almost none of it can go into a chip.
 
-China's polysilicon output by grade, 2023. China made about 93% of the world's 1.5 million metric tons that year%
+**Chart:** China's polysilicon output by grade, 2023. China made about 93% of the world's 1.5 million metric tons that year (%)
 
 Solar-grade **98%** Electronic-grade **2%**
 
@@ -400,17 +400,17 @@ One fatal defect ruins far more silicon on a GPU die that fills a whole printed 
 -   **Diameter**, where 300 mm carries every leading-edge node and 99.7 percent of capacity at 45 nm and below [6](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).
 -   **Contract structure**, since long-term agreements set price and volume years ahead and keep a jump in demand from moving the price.
 
-Card 1 of 4Question
+{--{"author":"James's AI","timestamp":1790593798116}@@Card--}{++{"author":"James's AI","timestamp":1790593798116}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593798116}@@4Question--}{++{"author":"James's AI","timestamp":1790593798116}@@4 · Question**++}
 
 What is a wafer?
 
-Card 1 of 4Answer
+{--{"author":"James's AI","timestamp":1790593799677}@@Card--}{++{"author":"James's AI","timestamp":1790593799677}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593799677}@@4Answer--}{++{"author":"James's AI","timestamp":1790593799677}@@4 · Answer**++}
 
 A thin disc of pure silicon, about 30 centimeters across, that carries hundreds of chips.
 
 It is sliced from a single crystal and polished flat to within a few atoms. [[#^how-it-works-2|Reread: How it works]]
 
-Card 2 of 4Question
+{--{"author":"James's AI","timestamp":1790593801942}@@Card--}{++{"author":"James's AI","timestamp":1790593801942}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593801942}@@4Question--}{++{"author":"James's AI","timestamp":1790593801942}@@4 · Question**++}
 
 Who makes the wafers for leading-edge chips?
 
