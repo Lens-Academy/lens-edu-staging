@@ -22,7 +22,7 @@ to:: "ever created or accomplished."
 
 #### Text
 content::
-What do you think of the argument that AI extinction risk is the default outcome? Which parts of this argument seem strongest to you, and which seem weakest?
+What do you think of the argument that AI extinction risk is the default outcome? {--{"author":"Plex's AI","timestamp":1790611058135}@@Which parts of this argument seem strongest to you, and which seem weakest?--}{++{"author":"Plex's AI","timestamp":1790611058135}@@What further questions come up?++}
 
 #### Chat
 instructions::
