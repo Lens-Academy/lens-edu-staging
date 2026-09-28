@@ -180,7 +180,7 @@ Scher and Thiergart, MIRI Technical Governance Team (2025)
 #### Article
 source:: [[../articles/scher-mechanisms-to-verify-international-agreements-about-ai-development-table-edit-published-version]]
 from:: ## Executive Summary ^executive-summary
-to:: Effective verification mechanisms could be a catalyst for international agreements, as has been the case previously (Toivanen, 2017). Strong verification is crucial, regardless of whether the international situation is one of “trust but verify” or “distrust and verify”.
+to:: designing verification regimes aimed at key policy goals such as frontier model training following a safety case
 optional:: true
 
 #### Text
