@@ -1109,7 +1109,7 @@ For most of the deposition and etch steps inside a fab, the tool can already be 
 
 Of all kinds of chipmaking tool, deposition and etch is where Chinese makers are strongest. Chinese suppliers held about 11 percent of dry etch and 7 percent of deposition in 2024, but under 1 percent of atomic layer deposition.
 
-Where the US stands
+**Where the US stands**
 
 Two of the three largest deposition and etch tool makers are American. The US government lists dry etch, atomic layer deposition and deep-hole deposition tools as controlled exports, and one rule also covers tools built outside the United States with American technology.
 
@@ -1154,7 +1154,7 @@ AI hardware asks for sideways cuts, deeper holes and a second metal stack on the
 -   **HBM** needs holes etched straight through the silicon so chips can be stacked and wired, which BIS controls at 10:1 or deeper above 7 microns a minute [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
 -   **Backside power delivery** adds thinning, backside vias and a second metal stack. Applied Materials expects it to add about $1 billion per 100,000 wafer starts a month to its wiring business [15](https://www.globenewswire.com/news-release/2024/07/08/2909540/0/en/applied-materials-unveils-chip-wiring-innovations-for-more-energy-efficient-computing.html).
 
-Tokyo Electron world market share by tool type, 2025%
+**Chart:** Tokyo Electron world market share by tool type, 2025 (%)
 
 Coater/developer 91% CVD 38% Oxidation/diffusion 31% Deposition systems 27% Dry etch 23% Cleaning 20% ALD 15%
 
@@ -1168,7 +1168,7 @@ Within deposition and etch no one firm dominates as ASML does in lithography. Th
 
 ASM International, the atomic layer deposition specialist, reached a record EUR 3.2 billion of revenue in 2025 as customers built 2 nm gate-all-around capacity, with molybdenum ALD entering volume production [18](https://www.asm.com/media/yvxbavwe/20260303-asm-reports-q4-and-full-year-2025-results.pdf).
 
-What the world spent on chipmaking equipment$B
+**Chart:** What the world spent on chipmaking equipment ($B)
 
 2024 117.1 2025 135.1
 
@@ -1194,7 +1194,7 @@ Washington tightened these rules four times between 2022 and 2025.
 
 Applied Materials took a $253 million charge to settle an export controls matter [19](https://www.globenewswire.com/news-release/2026/08/13/3344890/0/en/applied-materials-announces-third-quarter-2026-results.html), so the rules reach the vendors as well as their customers.
 
-China-based suppliers' share of global tool segments, 2024%
+**Chart:** China-based suppliers' share of global tool segments, 2024 (%)
 
 Dry stripping 35% Dry etch 11% CMP 11% PVD 10% Etch and clean 9% Deposition 7% CVD 7% Lithography (i-line) 4%
 
@@ -1212,21 +1212,21 @@ The chokepoint is real but weaker than lithography's. Three or four credible ven
 -   **Throughput.** Wafers per hour, which sets cost per layer and decides how many lots a fab can run.
 -   **Particles and chamber matching.** How large a share of the defects a fab can tolerate comes from these tools, and whether one chamber behaves like the next, which {++{"author":"James's AI","timestamp":1790593576251}@@metrology and inspection ++}measure (see [[#^metrology-and-inspection|Metrology and inspection]]).
 
-Card 1 of 4Question
+{--{"author":"James's AI","timestamp":1790593951430}@@Card--}{++{"author":"James's AI","timestamp":1790593951430}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593951430}@@4Question--}{++{"author":"James's AI","timestamp":1790593951430}@@4 · Question**++}
 
 What do deposition and etch do?
 
-Card 1 of 4Answer
+{--{"author":"James's AI","timestamp":1790593952456}@@Card--}{++{"author":"James's AI","timestamp":1790593952456}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593952456}@@4Answer--}{++{"author":"James's AI","timestamp":1790593952456}@@4 · Answer**++}
 
 Deposition lays down a thin film, and etch cuts away the parts the printed pattern leaves exposed.
 
 A chip takes more than a thousand of these rounds, one layer at a time. [[#^how-it-works-6|Reread: How it works]]
 
-Card 2 of 4Question
+{--{"author":"James's AI","timestamp":1790593954165}@@Card--}{++{"author":"James's AI","timestamp":1790593954165}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593954165}@@4Question--}{++{"author":"James's AI","timestamp":1790593954165}@@4 · Question**++}
 
 Who makes most deposition and etch tools?
 
-Card 2 of 4Answer
+{--{"author":"James's AI","timestamp":1790593955900}@@Card--}{++{"author":"James's AI","timestamp":1790593955900}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593955900}@@4Answer--}{++{"author":"James's AI","timestamp":1790593955900}@@4 · Answer**++}
 
 Four firms: Applied Materials, Lam Research, Tokyo Electron and ASM International.
 
