@@ -190,13 +190,10 @@ labels::
 
 #### Question: Open
 id:: 63275ad8-12f3-4174-828d-b09939e02a34
-content:: Would you like to leave a short note for people considering this course or Lens?
-
-We may share it on our website.
-
-The most helpful notes are specific: your main worry before joining and how it played out, something you're now doing because of Lens, or one thing you particularly valued.
+content:: Would you like to leave a short note for people considering this course or Lens? We may share it on our website.
 optional:: true
 max-chars:: 1000
+placeholder:: The most helpful notes are specific: your main worry before joining and how it played out, something you're now doing because of Lens, or one thing you particularly valued.
 
 #### Question: Choice
 id:: 063c2c1a-5a69-40ec-b3b6-cbc11f208410
