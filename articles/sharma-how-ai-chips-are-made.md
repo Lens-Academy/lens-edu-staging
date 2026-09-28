@@ -1232,21 +1232,21 @@ Four firms: Applied Materials, Lam Research, Tokyo Electron and ASM Internationa
 
 They are American, Japanese and Dutch. No single firm dominates the way ASML does in lithography. [[#^who-makes-it-6|Reread: Who makes it]]
 
-Card 3 of 4Question
+{--{"author":"James's AI","timestamp":1790593958365}@@Card--}{++{"author":"James's AI","timestamp":1790593958365}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593958365}@@4Question--}{++{"author":"James's AI","timestamp":1790593958365}@@4 · Question**++}
 
 In which kind of chipmaking tool have Chinese makers come closest to the leaders?
 
-Card 3 of 4Answer
+{--{"author":"James's AI","timestamp":1790593959210}@@Card--}{++{"author":"James's AI","timestamp":1790593959210}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593959210}@@4Answer--}{++{"author":"James's AI","timestamp":1790593959210}@@4 · Answer**++}
 
 Deposition and etch.
 
 Chinese suppliers held about 11 percent of dry etch and 7 percent of deposition in 2024. [[#^china-and-the-controls|Reread: China and the controls]]
 
-Card 4 of 4Question
+{--{"author":"James's AI","timestamp":1790593961172}@@Card--}{++{"author":"James's AI","timestamp":1790593961172}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593961172}@@4Question--}{++{"author":"James's AI","timestamp":1790593961172}@@4 · Question**++}
 
 Which deposition tool is China furthest behind in?
 
-Card 4 of 4Answer
+{--{"author":"James's AI","timestamp":1790593962517}@@Card--}{++{"author":"James's AI","timestamp":1790593962517}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593962517}@@4Answer--}{++{"author":"James's AI","timestamp":1790593962517}@@4 · Answer**++}
 
 Atomic layer deposition, with under 1 percent of the market.
 
@@ -1259,7 +1259,7 @@ The newest gate-all-around transistors depend on it. [[#^china-and-the-controls|
 -   Chinese makers have come closest to the leaders here, with about 11 percent of dry etch in 2024.
 -   China is furthest behind in atomic layer deposition, which the newest transistors depend on.
 
-Sources (25)
+**Sources (25)**
 
 1.  A [Revenue from Contract with Customer, Excluding Assessed Tax (us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax) reported by APPLIED MATERIALS INC /DE, XBRL company concept data](https://data.sec.gov/api/xbrl/companyconcept/CIK0000006951/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json) U.S. Securities and Exchange Commission (XBRL data for APPLIED MATERIALS INC /DE)
 2.  A [LAM RESEARCH CORP, Form 8-K current report for the period ended 2026-07-29 (8-K)](https://www.sec.gov/Archives/edgar/data/707549/000070754926000033/lrcx_exhibitx991xq4x2026.htm) U.S. Securities and Exchange Commission (filing by LAM RESEARCH CORP) · 29 July 2026
@@ -1291,7 +1291,7 @@ Sources (25)
 
 No fab is planned around measuring and inspecting wafers, and no fab works without it. One American firm holds about 57% of the market for those tools, roughly seven times its nearest rival, and its share is still growing.
 
-1,541 words / 7 minSpecimen: electron microscope column
+{--{"author":"James's AI","timestamp":1790593964925}@@1,541--}{++{"author":"James's AI","timestamp":1790593964925}@@_1,541++} words / 7 {--{"author":"James's AI","timestamp":1790593964925}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593964925}@@min · Interactive 3D Specimen:++} electron microscope column{++{"author":"James's AI","timestamp":1790593964925}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#metrology-and-inspection))_++}
 
 In plain terms
 
@@ -1301,7 +1301,7 @@ Metrology and inspection are the factory's quality control. Between the steps th
 
 Yield is set by defect density and die area, and AI accelerators have the largest dies in production. KLA holds about 57 percent of the market, six to seven times its nearest rival, and is still gaining [2](https://d1io3yog0oux5.cloudfront.net/_7791115a123b86b3f10b1a5eb5210224/klatencor/db/1166/10653/file/2026+Investor+Day+Master+Final_IR+copy.pdf), with Applied Materials, Lasertec, Hitachi High-Tech, ASML, Nova, Onto and Camtek splitting the rest [3](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60). KLA's packaging process control revenue is heading toward $1.1 billion in 2026 [1](https://d1io3yog0oux5.cloudfront.net/_b9ee755a5f60dd0fb3f9e27967aed6af/klatencor/db/1117/10668/letter_to_shareholders/KLA+Earnings+Shareholder+Letter+-+Q4+FY26.pdf). No one has recorded a Chinese gain in process control, which is why the controls on it are the ones China can least easily answer with domestic tools.
 
-Concentration **High**
+Concentration: **High**
 
 Substitutability **Moderate** KLA is the largest maker of measuring and inspecting tools, but every kind has a second maker, so losing KLA would slow a fab without stopping it.
 
