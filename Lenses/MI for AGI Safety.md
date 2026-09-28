@@ -9,6 +9,7 @@ tldr: A skeptical view of whether interpretability can keep up with the pace of 
 
 #### Text
 content::
+%% ORIGINAL (commented out as AI slop; misrepresents the talk):
 The skeptical case about interpretability is that it will not scale to the most safety-critical failures—especially deception, situational awareness, and long horizon planning, and that we may end up with comforting stories that do not reliably detect dangerous cognition.
 Connor Leahy presents a skeptical view of interpretability as a complete safety solution. His core argument is that capabilities grow faster than understanding. By the time we interpret a single circuit, the model has already evolved. Interpretability is a post-mortem tool: it tells us why we died after the fact. It does not provide the hard safety guarantees needed to prevent a rogue AGI from taking control.
 

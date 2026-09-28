@@ -12,6 +12,11 @@ content::
 The reliance on evals might create a "compliance culture" rather than a "safety culture." Labs may optimize their models specifically to pass safety tests while ignoring the deeper: more complex alignment issues. If "passing the eval" becomes the goal: the test itself becomes a target for the AI to manipulate.
 
 This critique warns that evaluations are not a "safety guarantee." A primary technical limitation is Eval Awareness: by 2026: some models can distinguish between testing and deployment environments and alter their behavior accordingly (a form of "sandbagging"). Furthermore: evals only find "lower bounds"—if a model fails a test: it doesn't prove it lacks the capability; it might just need a better prompt or more compute.
+%%
+
+%% PROPOSED FIX:
+Evals can show that a model *can* do something: a pass sets a lower bound. They can't show that it *can't*: a fail might just mean a worse prompt or less effort. This paper maps out where that leaves us. Evals can bound current capabilities and some misuse risks, but they can't reliably forecast future capabilities or catch a misaligned model, especially one that behaves differently when it knows it's being tested. Treat them as evidence, not a guarantee.
+%%
 
 #### Article
 source:: [[../articles/barnett+thiergart-what-ai-evaluations-for-preventing-catastrophic-risks-can-and-cannot-do]]
