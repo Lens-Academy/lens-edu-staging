@@ -663,19 +663,19 @@ ASML, in Veldhoven, using Zeiss mirrors from Oberkochen, sets the resolution of 
 
 Concentration: **Extreme**
 
-Substitutability **Very hard** ASML is the only maker of EUV scanners, only Zeiss can polish their mirrors, and a state-funded Chinese team has made the light but has not printed a chip.
+Substitutability: **Very hard**. ASML is the only maker of EUV scanners, only Zeiss can polish their mirrors, and a state-funded Chinese team has made the light but has not printed a chip.
 
-Price or market size **About $200M** for a standard EUV scanner, $350-400M for the newer High-NA version and about $60M for a DUV tool, according to Reuters. ASML does not publish per-system prices
+Price or market size: **About $200M**. for a standard EUV scanner, $350-400M for the newer High-NA version and about $60M for a DUV tool, according to Reuters. ASML does not publish per-system prices
 
 Who leads
 
--   NLASML 100% of EUV (extreme ultraviolet) and above 80% of DUV (deep ultraviolet); EUV was 48% of its own 2025 system revenue and immersion DUV 42%
--   JPNikon 22 new chipmaking scanners in the year to March 2026, in a market Nikon estimates at 570 units
--   JPCanon i-line and krypton fluoride steppers for older, coarser layers, plus the only commercial nanoimprint tool
+-   {--{"author":"James's AI","timestamp":1790593860946}@@NLASML--}{++{"author":"James's AI","timestamp":1790593860946}@@NL · **ASML**:++} 100% of EUV (extreme ultraviolet) and above 80% of DUV (deep ultraviolet); EUV was 48% of its own 2025 system revenue and immersion DUV 42%
+-   {--{"author":"James's AI","timestamp":1790593862376}@@JPNikon--}{++{"author":"James's AI","timestamp":1790593862376}@@JP · **Nikon**:++} 22 new chipmaking scanners in the year to March 2026, in a market Nikon estimates at 570 units
+-   {--{"author":"James's AI","timestamp":1790593864608}@@JPCanon--}{++{"author":"James's AI","timestamp":1790593864608}@@JP · **Canon**:++} i-line and krypton fluoride steppers for older, coarser layers, plus the only commercial nanoimprint tool
 
 Where it is made
 
--   NLNetherlands ASML design and final assembly, Veldhoven
+-   {--{"author":"James's AI","timestamp":1790593866551}@@NLNetherlands--}{++{"author":"James's AI","timestamp":1790593866551}@@NL · **Netherlands**:++} ASML design and final assembly, Veldhoven
 -   DEGermany Zeiss SMT optics, Oberkochen; Trumpf carbon dioxide lasers that drive the light source, Ditzingen
 -   USUnited States ASML light-source research and manufacturing, San Diego
 -   JPJapan Nikon and Canon deep ultraviolet scanners and steppers
