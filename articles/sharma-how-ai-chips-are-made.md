@@ -2582,7 +2582,7 @@ ASE spent $2.7 billion on machinery and $1.4 billion on buildings in the first h
 
 Amkor took $6.71 billion of revenue in 2025 [23](https://data.sec.gov/api/xbrl/companyconcept/CIK0001047127/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json), and $1.90 billion in the second quarter of 2026 alone, up 26 percent year on year [24](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000043/amkr6302026erex-991.htm). It has expanded its Arizona campus to a $7 billion investment [25](https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced). Under a partnership signed in June 2026 [26](https://ir.amkor.com/news-releases/news-release-details/tsmc-and-amkor-technology-announce-long-term-partnership) it will run packaging and test there for TSMC, whose Phoenix fabs sit next door [27](https://pr.tsmc.com/english/news/3174).
 
-Testers installed at ASE, the largest assembly and test contractortesters
+{++{"author":"James's AI","timestamp":1790594196862}@@**Chart:** ++}Testers installed at ASE, the largest assembly and test {--{"author":"James's AI","timestamp":1790594196862}@@contractortesters--}{++{"author":"James's AI","timestamp":1790594196862}@@contractor (testers)++}
 
 Q2 2025 6,797 Q1 2026 7,585 Q2 2026 8,348
 
@@ -2602,31 +2602,31 @@ Assembly and test is also the part of the chain where China is strongest, becaus
 -   **Thermal control** matters more every generation. A kilowatt-class accelerator has to be held at temperature in the socket while it is tested at speed.
 -   **Capacity and geography** are the practical constraint. Taiwan, China and Malaysia hold most of the floor space, and new capacity takes years.
 
-Card 1 of 3Question
+{--{"author":"James's AI","timestamp":1790594197617}@@Card--}{++{"author":"James's AI","timestamp":1790594197617}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594197617}@@3Question--}{++{"author":"James's AI","timestamp":1790594197617}@@3 · Question**++}
 
 Why do chipmakers now test chips earlier and more often?
 
-Card 1 of 3Answer
+{--{"author":"James's AI","timestamp":1790594198353}@@Card--}{++{"author":"James's AI","timestamp":1790594198353}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594198353}@@3Answer--}{++{"author":"James's AI","timestamp":1790594198353}@@3 · Answer**++}
 
 One bad chip can ruin a package that holds a dozen expensive ones.
 
 Testing makes a weak chip fail before it is built into a finished product. [[#^how-it-works-13|Reread: How it works]]
 
-Card 2 of 3Question
+{--{"author":"James's AI","timestamp":1790594199186}@@Card--}{++{"author":"James's AI","timestamp":1790594199186}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594199186}@@3Question--}{++{"author":"James's AI","timestamp":1790594199186}@@3 · Question**++}
 
 Who makes most chip testers?
 
-Card 2 of 3Answer
+{--{"author":"James's AI","timestamp":1790594200065}@@Card--}{++{"author":"James's AI","timestamp":1790594200065}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594200065}@@3Answer--}{++{"author":"James's AI","timestamp":1790594200065}@@3 · Answer**++}
 
 Advantest of Japan and Teradyne of the United States.
 
 Together they hold about 80 percent of the market. Advantest alone holds about 65 percent. [[#^who-makes-it-13|Reread: Who makes it]]
 
-Card 3 of 3Question
+{--{"author":"James's AI","timestamp":1790594201131}@@Card--}{++{"author":"James's AI","timestamp":1790594201131}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594201131}@@3Question--}{++{"author":"James's AI","timestamp":1790594201131}@@3 · Question**++}
 
 Where does China stand in assembly and test?
 
-Card 3 of 3Answer
+{--{"author":"James's AI","timestamp":1790594202492}@@Card--}{++{"author":"James's AI","timestamp":1790594202492}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594202492}@@3Answer--}{++{"author":"James's AI","timestamp":1790594202492}@@3 · Answer**++}
 
 It is China's strongest stage in the chain.
 
@@ -2638,7 +2638,7 @@ Four of the top ten assembly and test firms are Chinese, and their tools face fa
 -   Advantest and Teradyne make about 80 percent of chip testers.
 -   Assembly and test is China's strongest stage, with four of the top ten firms.
 
-Sources (28)
+**Sources (28)**
 
 1.  A [Investors Guide April 25, 2025](https://www.advantest.com/document/en/investors/ir-library/investors-guide/Investors_Guide_2504E.pdf) Advantest · 13 May 2025
 2.  A [Aehr Receives $22 Million Follow-On Order for AI Processor Wafer-Level Burn-In Systems](https://www.aehr.com/2026/08/aehr-receives-22-million-follow-on-order-for-ai-processor-wafer-level-burn-in-systems/) Aehr Test Systems · 12 August 2026
@@ -2673,7 +2673,7 @@ Sources (28)
 
 A finished package is useless until it is bolted to a baseboard, fed a thousand amps and wired to seventy-one other packages. Many firms can do the assembly; few can make the lasers for the optical links.
 
-1,325 words / 6 minSpecimen: GPU baseboard
+{--{"author":"James's AI","timestamp":1790594204015}@@1,325--}{++{"author":"James's AI","timestamp":1790594204015}@@_1,325++} words / 6 {--{"author":"James's AI","timestamp":1790594204015}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594204015}@@min · Interactive 3D Specimen:++} GPU baseboard{++{"author":"James's AI","timestamp":1790594204015}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#systems-and-networking))_++}
 
 In plain terms
 
@@ -2683,7 +2683,7 @@ One AI chip is not enough to train a model. So seventy-two of them are wired tog
 
 At the rack, the hard parts are power and light. Assembly is competitive and can move countries in a year. The control points are NVLink-class scale-up switching, which one firm still owns [3](https://www.nvidia.com/en-us/data-center/nvlink/), and indium phosphide lasers, where Nvidia paid $4 billion for capacity it could not order [17](https://nvidianews.nvidia.com/news/nvidia-announces-strategic-partnership-with-lumentum-to-develop-state-of-the-art-optics-technology) and 70 percent of the feedstock is Chinese [16](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-indium.pdf).
 
-Concentration **High**
+Concentration: **High**
 
 Substitutability **Moderate** Rated on the two most concentrated parts: Nvidia alone sells NVLink, the link that joins the accelerators in a rack, and few firms make the lasers for the optical links.
 
