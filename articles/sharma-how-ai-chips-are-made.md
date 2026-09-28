@@ -3294,7 +3294,7 @@ In 2022 Washington changed the goal from staying a generation ahead to "as large
 -   **Design.** CSIS [8](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls).
 -   **China's mature nodes.** The 38 percent is a Chip Supply Chain reading of logic capacity at 28 nm and above. It sits between the 2022 industry measurement [6](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf) and CSIS's finding that China now holds about half of global mature-node capacity, on a broader definition that includes discrete, analog and power chips [8](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls).
 
-is missing because nobody publishes a capacity split and TSMC will not give one. No country is self-sufficient, so each side's controls can hurt the other.
+Advanced packaging is missing because nobody publishes a capacity split and TSMC will not give one. No country is self-sufficient, so each side's controls can hurt the other.
 
 ### The US export-control campaign, 2018 to today ^the-us-export-control-campaign
 
