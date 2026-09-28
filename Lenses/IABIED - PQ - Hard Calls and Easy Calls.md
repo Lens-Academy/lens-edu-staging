@@ -14,7 +14,8 @@ add_to_ai_context:
 id:: 443ca4d6-6206-4053-8a85-f92f15bf44d9
 content:: Before reading the Introduction: What kinds of things about the future do you feel fairly confident predicting? What makes a prediction feel like a "sure thing" versus a "coin flip"? Take a moment to jot down your answer before reading. There's no right or wrong answers to priming questions, we just want you to gather your thoughts before you're exposed to the ideas in the book. The authors have a specific framework for this, which you'll read next.
 
-assessment-instructions::
+force-feedback:: first
+feedback-instructions::
 The student is about to read the Introduction to "If Anyone Builds It, Everyone Dies."
 
 They just answered: "What kinds of things about the future do you feel confident predicting? What makes a prediction feel like a sure thing versus a coin flip?"

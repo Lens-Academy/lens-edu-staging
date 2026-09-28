@@ -14,7 +14,8 @@ add_to_ai_context:
 id:: 182db9d8-98cb-4bed-b782-c392683d2f31
 content:: Before reading Chapter 5, section 1: Imagine a civilization of aliens far more intelligent than us, but whose deepest purpose is something you find completely pointless. Could they still be genuinely intelligent? Does getting smarter eventually steer every mind toward the same set of values, or could a brilliant mind want something utterly alien? Write down your thinking before you read.
 
-assessment-instructions::
+force-feedback:: first
+feedback-instructions::
 The student is about to read Chapter 5, section 1 ("The Argument from the Size of the Goal Space") of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "Could a brilliant mind want something utterly alien, or does intelligence steer every mind toward the same values?"

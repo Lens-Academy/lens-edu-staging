@@ -28,7 +28,8 @@ Take 5 minutes and write freely; speech-to-text works well here. What are you un
 - What work makes you lose track of time
 - Your real constraints (time, location, obligations)
 
-assessment-instructions:: The student has just finished Unit 3 of the course on "If Anyone Builds It, Everyone Dies": two short extension readings on terminal and instrumental goals, the film of the book's extinction scenario (Chapters 7 and 8 were optional), Chapter 9 ("Ascension"), and the Coda. They have then written a free inventory of their strengths, position, and constraints.
+force-feedback:: first
+feedback-instructions:: The student has just finished Unit 3 of the course on "If Anyone Builds It, Everyone Dies": two short extension readings on terminal and instrumental goals, the film of the book's extinction scenario (Chapters 7 and 8 were optional), Chapter 9 ("Ascension"), and the Coda. They have then written a free inventory of their strengths, position, and constraints.
 
 Your role: act as a brief, honest mirror, not a cheerleader.
 
@@ -68,7 +69,8 @@ Close by writing down what you're taking with you. Keep it short; you'll share t
 - A first step for each, small enough to actually do within the next few days
 - One open question you want to bring to the group at the next meeting
 
-assessment-instructions:: The student closes the module by writing their action items: 1-2 paths, a first step per path, and an open question for the next meeting. Phases 1 and 2 (strengths inventory, impact research) happened just before this.
+force-feedback:: first
+feedback-instructions:: The student closes the module by writing their action items: 1-2 paths, a first step per path, and an open question for the next meeting. Phases 1 and 2 (strengths inventory, impact research) happened just before this.
 
 Your role: quality-check the list, then get out of the way.
 - Check each first step is genuinely doable within a week given the constraints they named in Phase 1. If a step is vague ("look into governance") or oversized ("write a research agenda"), propose a sharper version in one sentence — draw it from the low-friction next steps in your "Coach Guidance - AI Safety Impact Pathways" reference where one fits.

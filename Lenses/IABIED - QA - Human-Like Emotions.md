@@ -19,6 +19,7 @@ source:: [[../articles/iabied-ch3-faq-human-like-emotions]]
 #### Question
 id:: b5dd448e-35e5-4519-9b7a-95ff7415022a
 content:: The reading argues the real danger is indifference, not hatred. Why might an AI that simply does not care about us be as dangerous as one that actively wanted to harm us?
-assessment-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. A strong answer connects indifference to competition for resources rather than to malice. Do not push them toward the authors' view.
+force-feedback:: first
+feedback-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. A strong answer connects indifference to competition for resources rather than to malice. Do not push them toward the authors' view.
 optional:: true
 {>>{"author":"Elias's AI","timestamp":1785314474989}@@Pilot conversion (5 of 5): trailing Text plus #### Chat replaced by a single optional #### Question. See the note on 'IABIED - QA - Why This Setup' for the rationale and what to check.<<}

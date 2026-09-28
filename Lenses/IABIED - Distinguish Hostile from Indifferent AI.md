@@ -28,7 +28,8 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read section 2 of Chapter 5 of "If Anyone Builds It, Everyone Dies."
+force-feedback:: first
+feedback-instructions:: The student has just read section 2 of Chapter 5 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Distinguish hostile from indifferent AI: explain why the core danger from superintelligent AI is not that it would be hostile toward humans, but that it would be indifferent to human values while pursuing its own goals, and why indifference is sufficient for extinction.
 

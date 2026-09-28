@@ -18,6 +18,7 @@ source:: [[../articles/iabied-ch6-faq-pull-plug]]
 #### Question
 id:: b880bbfa-21d6-4620-a448-929b5e206417
 content:: The authors argue an AI would bide its time and hide its plans until escape was already accomplished. If that is right, what would a genuine warning sign even look like?
-assessment-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. If they propose a concrete detection method, note the reading's point that companies have already waved away warning signs such as AIs planning to steal their own weights. Do not push them toward the authors' view.
+force-feedback:: first
+feedback-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. If they propose a concrete detection method, note the reading's point that companies have already waved away warning signs such as AIs planning to steal their own weights. Do not push them toward the authors' view.
 optional:: true
 {>>{"author":"Elias's AI","timestamp":1785314397957}@@Pilot conversion (2 of 5): trailing Text plus #### Chat replaced by a single optional #### Question. See the note on 'IABIED - QA - Why This Setup' for the rationale and what to check.<<}
