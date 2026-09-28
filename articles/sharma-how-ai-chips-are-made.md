@@ -198,6 +198,7 @@ Synopsys is the largest. Its own results put revenue at $7.054 billion for the f
 %% validator-ignore-next-line --code article.block-repeated-nearby --reason source-provides-alternative-citation-formats %%
 --}{++{"author":"James's AI","timestamp":1790597010593}@@| 14 |
 
+++}{++{"author":"James's AI","timestamp":1790598053959}@@%% validator-ignore-next-line --code article.block-repeated-nearby --reason source-provides-alternative-citation-formats %%
 ++}Source: [SemiAnalysis, EDA Market Primer, May 2026](https://newsletter.semianalysis.com/p/eda-market-primer)
 
 Design services, where one firm turns another's specification into a manufacturable chip, are narrower again, and most of the announced AI deals are Broadcom's. It booked $16.7 billion of AI semiconductor revenue in the third quarter of fiscal 2026, up 221 percent [10](https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm).
@@ -961,6 +962,7 @@ On EUV there is less evidence, and claims of Huawei mass production in 2026 rema
 --}{++{"author":"James's AI","timestamp":1790597045244}@@| 2 |
 | EMEA | 1 |
 
+++}{++{"author":"James's AI","timestamp":1790598054687}@@%% validator-ignore-next-line --code article.block-repeated-nearby --reason source-provides-alternative-citation-formats %%
 ++}Source: [ASML Q4 2025 investor presentation](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf)
 
 ### The chokepoint ^the-chokepoint-4
@@ -1700,6 +1702,7 @@ KLA is most of the segment: 56.8 percent of a $15.7 billion market in 2025 [3](h
 | Rigaku | 1.2 |
 | All others | 3.8 |
 
+++}{++{"author":"James's AI","timestamp":1790598055418}@@%% validator-ignore-next-line --code article.block-repeated-nearby --reason source-provides-alternative-citation-formats %%
 ++}Source: [ETO Supply Chain Explorer, CSET](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60)
 
 The rest are specialists, and nobody else reaches 11 percent.
@@ -3138,6 +3141,7 @@ Advantest puts its own share at about 65 percent of a $9.0 billion tester market
 --}{++{"author":"James's AI","timestamp":1790597135436}@@| 6.9 |
 | Memory testers | 2.1 |
 
+++}{++{"author":"James's AI","timestamp":1790598056054}@@%% validator-ignore-next-line --code article.block-repeated-nearby --reason source-provides-alternative-citation-formats %%
 ++}Source: [Advantest FY2025 results briefing, April 2026](https://www.advantest.com/document/en/investors/ir-library/result/JE_BIZ_260427_note.pdf)
 
 Below the two tester makers, the rest of the test and assembly equipment splits into niches, each with its own suppliers.
