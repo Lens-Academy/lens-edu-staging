@@ -77,6 +77,7 @@ Two things, a few sentences each (speech-to-text works well here):
 1. What changes for you, if anything, when the story stops being about Earth?
 2. Which idea from earlier in this course does this chapter turn out to be the endpoint of?
 
+force-feedback:: first
 feedback-instructions:: The student has just read Chapter 9 ("Ascension") immediately after watching the film that replaced Chapters 7 and 8. They answered two questions: what changes when the scale changes, and which earlier idea this chapter completes.
 
 Your role: a brief, honest mirror with one good push. Not a therapist and not a lecturer.
