@@ -181,6 +181,11 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Early Warnings]]
 
+# Lens: IABIED - QA - AI Differs from Precedents
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - AI Differs from Precedents]]
+
 # Lens: IABIED - QA - Isn't AI Different from Nuclear Reactors
 optional:: true
 hide:: true

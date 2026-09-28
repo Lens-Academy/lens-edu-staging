@@ -154,12 +154,12 @@ content::
 
 ---
 
-::card[[../Lenses/IABIED - QA - Can International Cooperation Really Work]]
+::card[[../Lenses/IABIED - QA - {--{"author":"James's AI","timestamp":1790613422423}@@Can International Cooperation Really Work]]
 
 > Examines whether international coordination mechanisms are structurally capable of the kind of enforcement this chapter envisions.
 
 ---
 
-::card[[../Lenses/IABIED - QA - Elected Officials Recognize Threat]]
+::card[[../Lenses/IABIED - QA - --}Elected Officials Recognize Threat]]
 
 > Addresses whether political leaders can come to understand the superintelligence threat, which is a prerequisite for the WWII analogy's motivational claim to apply.
