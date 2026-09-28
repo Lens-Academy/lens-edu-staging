@@ -49,7 +49,23 @@ The card also gives where China and the United States stand. The chapters run in
 
 ## Contents ^contents
 
-17 [[#^geopolitics|Geopolitics]]
+{--{"author":"James's AI","timestamp":1790593402681}@@17--}{++{"author":"James's AI","timestamp":1790593402681}@@1. [[#^chip-design-eda-and|Chip Design, EDA and IP]]
+2. [[#^silicon-and-wafers|Silicon and Wafers]]
+3. [[#^chemicals-gases-and-photoresist|Chemicals, Gases and Photoresist]]
+4. [[#^lithography|Lithography]]
+5. [[#^photomasks-and-pellicles|Photomasks and Pellicles]]
+6. [[#^deposition-and-etch|Deposition and Etch]]
+7. [[#^metrology-and-inspection|Metrology and Inspection]]
+8. [[#^transistors-and-the-front|Transistors and the Front End]]
+9. [[#^foundries-and-fabs|Foundries and Fabs]]
+10. [[#^memory-and-hbm|Memory and HBM]]
+11. [[#^advanced-packaging|Advanced Packaging]]
+12. [[#^substrates-and-pcbs|Substrates and PCBs]]
+13. [[#^test-and-assembly|Test and Assembly]]
+14. [[#^systems-and-networking|Systems and Networking]]
+15. [[#^data-centers-and-power|Data Centers and Power]]
+16. [[#^the-economics-of-ai|The Economics of AI Chips]]
+17.++} [[#^geopolitics|Geopolitics]]
 
 ## Chip Design, EDA and IP ^chip-design-eda-and
 
