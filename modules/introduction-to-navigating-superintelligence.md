@@ -11,7 +11,7 @@ source:: [[../Learning Outcomes/Objections and Rebuttals]]
 # Lens: Welcome
 id:: a1b2c3d4-5678-90ab-cdef-1234567890ab
 tldr:: {--{"author":"Plex's AI","timestamp":1790612183748}@@What does the potential of AI actually mean for humanity, and where do its risks--}{++{"author":"Plex's AI","timestamp":1790612183748}@@AI is reshaping civilisation on many fronts at once, and experts warn of extinction-level risks. What's going on,++} and {--{"author":"Plex's AI","timestamp":1790612183748}@@opportunities come from?--}{++{"author":"Plex's AI","timestamp":1790612183748}@@where are we headed?++} This opening lens sets {--{"author":"Plex's AI","timestamp":1790612183748}@@up--}{++{"author":"Plex's AI","timestamp":1790612183748}@@out++} the {--{"author":"Plex's AI","timestamp":1790612183748}@@module's examination of--}{++{"author":"Plex's AI","timestamp":1790612183748}@@course's aim: to help you understand++} the {--{"author":"Plex's AI","timestamp":1790612183748}@@technology's defining characteristics.--}{++{"author":"Plex's AI","timestamp":1790612183748}@@core dynamics at play, and prepare you to act.++}
-summary_for_tutor:: Short welcome lens introducing the module: it frames the examination of AI's potential and the risks and opportunities arising from the technology's characteristics. Framing text only; substantive teaching happens in the following lenses.
+summary_for_tutor:: Short welcome lens introducing the course: AI is transforming many aspects of civilisation simultaneously, and experts warn of extinction-level risk. The course aims to build understanding of the core dynamics driving this and to prepare learners to act. Framing text only; substantive teaching happens in the following lenses.
 reading_minutes:: 2
 #### Text
 content::
