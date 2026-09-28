@@ -9,6 +9,7 @@ tldr: How do you know if an AI system is safe? Evaluations are structured tests 
 
 #### Text
 content::
+%% ORIGINAL (commented out as AI slop):
 This module focuses on the empirical testing of what AI systems can do and identifying the risks they pose. 
 
 **AI Evaluations** are structured knowledge about approaches and tests{>>CGL > I don't much like this definition. Feels awkward.<<} designed to measure the capabilities, propensities, and safety thresholds of AI models. Unlike general performance benchmarks, safety evals specifically look for dangerous capabilities. 

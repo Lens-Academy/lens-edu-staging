@@ -11,7 +11,13 @@ reading_minutes: 33
 
 #### Text
 content::
+%% ORIGINAL (commented out as AI slop; the 1960 reading isn't about compute trends):
 A companion to the "1960" reading: another attempt to extrapolate historical growth trends to their logical conclusion, this time using long-run economic data rather than compute trends, and a concrete thought experiment for why explosive growth could actually happen.
+%%
+
+%% PROPOSED FIX:
+A companion to the "1960" reading: the same hyperbolic curve, this time in economic output rather than population, plus a thought experiment for how explosive growth could actually happen.
+%%
 
 #### Video
 source:: [[../video_transcripts/rationalanimations-everything-might-change-forever-this-century-or-well-go-extinct]]
