@@ -25,7 +25,8 @@ How did your conversation go? Whatever actually happened is fine to report:
 - **If it has not happened yet:** say honestly what got in the way, and whether it is scheduled. "I was nervous" and "I ran out of time" are both real answers.
 - **If you tried and it went badly:** that counts as having it. Tell the story anyway. Awkward attempts teach more than smooth ones.
 
-assessment-instructions:: The student planned, last module, to have one real conversation about AI extinction risk with a specific person they know. They are now reporting how it went. There are three cases; identify which one you are in before responding.
+force-feedback:: first
+feedback-instructions:: The student planned, last module, to have one real conversation about AI extinction risk with a specific person they know. They are now reporting how it went. There are three cases; identify which one you are in before responding.
 
 Your role: an honest coach closing a loop, not a judge and not a cheerleader. Use your "Coach Guidance - AI Safety Impact Pathways" reference: diagnose which of the four activation conditions (importance, self-efficacy, motivation, path clarity) the debrief reveals as weak, and respond to that — a skipped conversation is usually a self-efficacy or path-clarity problem, not a motivation problem.
 

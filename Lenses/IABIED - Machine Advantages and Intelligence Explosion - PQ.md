@@ -12,7 +12,8 @@ add_to_ai_context:
 id:: 14b871e8-82ea-4458-a2f5-30410e5d9e70
 content:: Before reading the second half of Chapter 1: Today's AI can still seem shallow compared with a human. Which limitations do you expect to persist, and which might disappear? What features of machines or AI development matter most to your forecast? Write down your intuition before reading.
 
-assessment-instructions::
+force-feedback:: first
+feedback-instructions::
 The student is about to read the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies."
 
 They just answered a forecasting prompt about whether current AI limitations will persist and which features of machines or AI development matter.

@@ -19,6 +19,7 @@ source:: [[../articles/iabied-ptii-faq-pick-setup]]
 #### Question
 id:: a34bcf58-14c0-4098-b093-2c85811f3cf7
 content:: Setting the story close to the present makes it easy to picture. Does that make the danger feel more real to you, or does a near-term timeline make the whole thing easier to dismiss?
-assessment-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. If they argue the near-future setting hurts plausibility, note the authors' own claim that the specific path matters less than the convergent endpoint. Do not push them toward the authors' view.
+force-feedback:: first
+feedback-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. If they argue the near-future setting hurts plausibility, note the authors' own claim that the specific path matters less than the convergent endpoint. Do not push them toward the authors' view.
 optional:: true
 {>>{"author":"Elias's AI","timestamp":1785314359328}@@Pilot conversion (1 of 5): the trailing "What do you think?" Text plus open #### Chat is replaced by a single optional #### Question. Rationale: on an optional Dive Deeper card, a full tutor chat is a heavy ask for a side reading. Please check the question wording and whether an optional Question gates card completion the way you want before this is rolled out to the remaining 175 Q&A lenses.<<}
