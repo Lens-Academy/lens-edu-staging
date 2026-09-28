@@ -110,6 +110,7 @@ Go back and look at it.
 
 Where were you wrong, and what were you reasoning from when you got it wrong?
 
+force-feedback:: first
 feedback-instructions:: Earlier in this same lens, before the reading, the student predicted the AI's long-run behavior after humanity is gone. They have now read the chapter and been asked to compare.
 
 This beat exists because a prediction the student writes down and never revisits is wasted. Its job is to make the gap between their prior and the chapter visible to them, and to get them to name what produced the gap.
