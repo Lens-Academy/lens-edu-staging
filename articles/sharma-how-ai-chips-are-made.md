@@ -71,6 +71,8 @@ The card also gives where China and the United States stand. The chapters run in
 
 The cheapest stage in the chain to fund and one of the most concentrated. Three software firms sell the tools used to design every leading-edge AI accelerator.
 
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+
 {--{"author":"James's AI","timestamp":1790593752529}@@1,683--}{++{"author":"James's AI","timestamp":1790593752529}@@_1,683++} words / 7 {--{"author":"James's AI","timestamp":1790593752529}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593752529}@@min · Interactive 3D Specimen:++} die floorplan{++{"author":"James's AI","timestamp":1790593752529}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#design-and-eda))_++}
 
 **In plain terms**
@@ -283,6 +285,8 @@ Huawei's flagship for 2026, the Ascend 950, delivers about half the computing pe
 
 China makes almost all of the world's polysilicon and almost none of the 300 mm wafers. Five firms in Japan, Taiwan, Germany and South Korea make the 300 mm wafer every AI accelerator starts on.
 
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+
 {--{"author":"James's AI","timestamp":1790593777407}@@1,424--}{++{"author":"James's AI","timestamp":1790593777407}@@_1,424++} words / 6 {--{"author":"James's AI","timestamp":1790593777407}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593777407}@@min · Interactive 3D Specimen:++} boule and wafer{++{"author":"James's AI","timestamp":1790593777407}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#silicon-and-wafers))_++}
 
 **In plain terms**
@@ -331,7 +335,9 @@ The whole world market for silicon wafers came to $11.4 billion of revenue on 12
 
 ### How it works ^how-it-works-2
 
-{--{"author":"James's AI","timestamp":1790594483174}@@![](https://chipsupplychain.org/media/silicon-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594483174}@@![From sand to wafer](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-silicon.jpg)++}
+{--{"author":"James's AI","timestamp":1790594483174}@@![](https://chipsupplychain.org/media/silicon-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594483174}@@![From sand to wafer](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-silicon.jpg)++}{++{"author":"James's AI","timestamp":1790594878921}@@
+
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%++}
 
 **Figure: From sand to wafer.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#silicon-and-wafers)); above is its last frame. Its steps:
 
@@ -475,6 +481,8 @@ In 2023, 98 percent of China's output was solar grade. Chinese firms held under 
 ## Chemicals, Gases and Photoresist ^chemicals-gases-and-photoresist
 
 A few hundred chemicals separate a blank wafer from a working chip. Japan makes about four-fifths of the photoresist. Twice the supply of these materials has been restricted, and no fab stopped, because the countries affected stockpiled and developed substitutes instead.
+
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
 
 {--{"author":"James's AI","timestamp":1790593811954}@@1,467--}{++{"author":"James's AI","timestamp":1790593811954}@@_1,467++} words / 6 {--{"author":"James's AI","timestamp":1790593811954}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593811954}@@min · Interactive 3D Specimen:++} gas cabinet{++{"author":"James's AI","timestamp":1790593811954}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#chemicals-gases-and-photoresist))_++}
 
@@ -660,6 +668,8 @@ Both go into optics and non-silicon chips such as LEDs and lasers. [[#^the-choke
 
 The most concentrated stage in the chain. One firm in the Netherlands builds every extreme ultraviolet scanner in the world, the machine that prints the finest circuit layers. It shipped 48 of them in 2025, at around $200 million each.
 
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+
 {--{"author":"James's AI","timestamp":1790593852291}@@1,564--}{++{"author":"James's AI","timestamp":1790593852291}@@_1,564++} words / 7 {--{"author":"James's AI","timestamp":1790593852291}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593852291}@@min · Interactive 3D Specimen:++} EUV scanner{++{"author":"James's AI","timestamp":1790593852291}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#lithography))_++}
 
 **In plain terms**
@@ -709,7 +719,9 @@ The stencil is a photomask, the film is photoresist and the machine is a scanner
 
 The wafer is coated with photoresist, a film that changes wherever light touches it. The mask holds one layer of the circuit as a pattern of clear and dark areas, drawn four times larger than life. The machine shines light through the mask, shrinks the image four times with a lens, and lands it on the film. A wash then removes the film where the light hit, and the pattern is left standing on the wafer for the next machine to etch in or fill with metal. Then the film is stripped and the next mask goes in. A chip takes dozens of masks, one per layer.
 
-{--{"author":"James's AI","timestamp":1790594483803}@@![](https://chipsupplychain.org/media/litho-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594483803}@@![How lithography prints a chip](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-litho.jpg)++}
+{--{"author":"James's AI","timestamp":1790594483803}@@![](https://chipsupplychain.org/media/litho-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594483803}@@![How lithography prints a chip](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-litho.jpg)++}{++{"author":"James's AI","timestamp":1790594881764}@@
+
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%++}
 
 **Figure: How lithography prints a chip.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#lithography)); above is its last frame. Its steps:
 
@@ -902,6 +914,8 @@ China's answer so far is domestic immersion DUV machines, which use longer-wavel
 
 Every leading-edge chip depends on a business worth tens of billions of yen. Two Japanese firms make almost all the blank plates that EUV masks are built on, one Japanese firm inspects them, and the dust cover meant to protect them is still not in production.
 
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+
 {--{"author":"James's AI","timestamp":1790593888732}@@1,421--}{++{"author":"James's AI","timestamp":1790593888732}@@_1,421++} words / 6 {--{"author":"James's AI","timestamp":1790593888732}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593888732}@@min · Interactive 3D Specimen:++} photomask{++{"author":"James's AI","timestamp":1790593888732}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#photomasks-and-pellicles))_++}
 
 **In plain terms**
@@ -1088,6 +1102,8 @@ No Chinese firm makes an EUV mask blank or a tool that checks an EUV mask. [[#^t
 
 Lithography prints the pattern; deposition and etch do the rest, over a thousand steps per wafer, and it is the one kind of chipmaking tool where Chinese makers have gained real share.
 
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+
 {--{"author":"James's AI","timestamp":1790593923630}@@1,561--}{++{"author":"James's AI","timestamp":1790593923630}@@_1,561++} words / 7 {--{"author":"James's AI","timestamp":1790593923630}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593923630}@@min · Interactive 3D Specimen:++} process chamber{++{"author":"James's AI","timestamp":1790593923630}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#deposition-and-etch))_++}
 
 **In plain terms**
@@ -1136,7 +1152,9 @@ Applied Materials and Lam Research, the two largest deposition and etch supplier
 
 ### How it works ^how-it-works-6
 
-{--{"author":"James's AI","timestamp":1790594484340}@@![](https://chipsupplychain.org/media/dep-etch-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594484340}@@![One round of deposition and etch](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-dep-etch.jpg)++}
+{--{"author":"James's AI","timestamp":1790594484340}@@![](https://chipsupplychain.org/media/dep-etch-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594484340}@@![One round of deposition and etch](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-dep-etch.jpg)++}{++{"author":"James's AI","timestamp":1790594884637}@@
+
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%++}
 
 **Figure: One round of deposition and etch.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#deposition-and-etch)); above is its last frame. Its steps:
 
