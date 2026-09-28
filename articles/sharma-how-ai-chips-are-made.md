@@ -1303,16 +1303,16 @@ Yield is set by defect density and die area, and AI accelerators have the larges
 
 Concentration: **High**
 
-Substitutability **Moderate** KLA is the largest maker of measuring and inspecting tools, but every kind has a second maker, so losing KLA would slow a fab without stopping it.
+Substitutability: **Moderate**. KLA is the largest maker of measuring and inspecting tools, but every kind has a second maker, so losing KLA would slow a fab without stopping it.
 
-Price or market size **A $15.7B process control tool market in 2025, about 57% of it KLA's** KLA's fiscal 2026 revenue was $13.58B against a wafer equipment market of roughly $120B in 2025, so process control is around a tenth of what a fab spends on tools.
+Price or market size: **A $15.7B process control tool market in 2025, about 57% of it KLA's**. KLA's fiscal 2026 revenue was $13.58B against a wafer equipment market of roughly $120B in 2025, so process control is around a tenth of what a fab spends on tools.
 
 Who leads
 
--   USKLA 56.5% of process control in 2024 on its own investor-day count, 6.5 times its nearest rival; $13.58B revenue, fiscal 2026
--   USApplied Materials 11.2% of process control tools in 2025: electron-beam defect review, line-width measurement and film metrology
--   JPLasertec 6.4% of process control tools in 2025, almost all of it mask inspection
--   NLASML 5.9% of process control tools in 2025: YieldStar layer alignment and HMI multibeam electron inspection
+-   {--{"author":"James's AI","timestamp":1790593972597}@@USKLA--}{++{"author":"James's AI","timestamp":1790593972597}@@US · **KLA**:++} 56.5% of process control in 2024 on its own investor-day count, 6.5 times its nearest rival; $13.58B revenue, fiscal 2026
+-   {--{"author":"James's AI","timestamp":1790593974277}@@USApplied Materials--}{++{"author":"James's AI","timestamp":1790593974277}@@US · **Applied Materials**:++} 11.2% of process control tools in 2025: electron-beam defect review, line-width measurement and film metrology
+-   {--{"author":"James's AI","timestamp":1790593975667}@@JPLasertec--}{++{"author":"James's AI","timestamp":1790593975667}@@JP · **Lasertec**:++} 6.4% of process control tools in 2025, almost all of it mask inspection
+-   {--{"author":"James's AI","timestamp":1790593977116}@@NLASML--}{++{"author":"James's AI","timestamp":1790593977116}@@NL · **ASML**:++} 5.9% of process control tools in 2025: YieldStar layer alignment and HMI multibeam electron inspection
 -   ILNova 4.3% of process control tools in 2025; $880.6M revenue, 2025
 -   USOnto Innovation 2.6% of process control tools in 2025; $1.01B revenue, 2025
 
