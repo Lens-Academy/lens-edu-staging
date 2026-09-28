@@ -25,15 +25,13 @@ Add discussion note here:
 
 %%
 
-{--{"author":"James's AI","timestamp":1790594482272}@@![](https://chipsupplychain.org/print-title.png)--}{++{"author":"James's AI","timestamp":1790594482272}@@![Chip Supply Chain: How AI chips are made](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-print-title.png)++}
+![Chip Supply Chain: How AI chips are made](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-print-title.png)
 
 Every stage of the supply chain, and who controls it.
 
 Yashvardhan Sharma with Claude
 
-The Chain: seventeen chapters.{--{"author":"James's AI","timestamp":1790597005684}@@
-
-Printed from chipsupplychain.org ·--} Updated 27 September {--{"author":"James's AI","timestamp":1790597005684}@@2026--}{++{"author":"James's AI","timestamp":1790597005684}@@2026.++}
+The Chain: seventeen chapters. Updated 27 September 2026.
 
 ## How to read a chapter ^how-to-read-a
 
@@ -49,7 +47,7 @@ The card also gives where China and the United States stand. The chapters run in
 
 ## Contents ^contents
 
-{--{"author":"James's AI","timestamp":1790593402681}@@17--}{++{"author":"James's AI","timestamp":1790593402681}@@1. [[#^chip-design-eda-and|Chip Design, EDA and IP]]
+1. [[#^chip-design-eda-and|Chip Design, EDA and IP]]
 2. [[#^silicon-and-wafers|Silicon and Wafers]]
 3. [[#^chemicals-gases-and-photoresist|Chemicals, Gases and Photoresist]]
 4. [[#^lithography|Lithography]]
@@ -65,48 +63,44 @@ The card also gives where China and the United States stand. The chapters run in
 14. [[#^systems-and-networking|Systems and Networking]]
 15. [[#^data-centers-and-power|Data Centers and Power]]
 16. [[#^the-economics-of-ai|The Economics of AI Chips]]
-17.++} [[#^geopolitics|Geopolitics]]
+17. [[#^geopolitics|Geopolitics]]
 
 ## Chip Design, EDA and IP ^chip-design-eda-and
 
 The cheapest stage in the chain to fund and one of the most concentrated. Three software firms sell the tools used to design every leading-edge AI accelerator.
 
-{--{"author":"James's AI","timestamp":1790597010593}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+*1,683 words / 7 min*
 
-1,683--}{++{"author":"James's AI","timestamp":1790597010593}@@*1,683++} words / 7{--{"author":"James's AI","timestamp":1790597010593}@@ minSpecimen: die floorplan--}{++{"author":"James's AI","timestamp":1790597010593}@@ min*++}
-
-{--{"author":"James's AI","timestamp":1790597010593}@@**In--}{++{"author":"James's AI","timestamp":1790597010593}@@:::callout {title="In++} plain {--{"author":"James's AI","timestamp":1790597010593}@@terms**
-
---}{++{"author":"James's AI","timestamp":1790597010593}@@terms" tone="neutral"}
-++}Chip design turns an idea for a new chip into a complete blueprint. A chip holds billions of transistors, tiny electrical switches, and the blueprint fixes where each one sits and how it is wired to the others. The chip works in ticks, and a signal has to cross those wires within one tick, less than a billionth of a second. Software from three companies, Synopsys, Cadence and Siemens, lays out a plan like that, checks it and signs it off, and a chip factory accepts only designs that have passed those tools. The factory prints each layer of the design onto silicon through a stencil, and changing the plan after that costs a fresh set of stencils and several months. Withhold the software and no new chip can be designed.{++{"author":"James's AI","timestamp":1790597010593}@@
-:::++}
+:::callout {title="In plain terms" tone="neutral"}
+Chip design turns an idea for a new chip into a complete blueprint. A chip holds billions of transistors, tiny electrical switches, and the blueprint fixes where each one sits and how it is wired to the others. The chip works in ticks, and a signal has to cross those wires within one tick, less than a billionth of a second. Software from three companies, Synopsys, Cadence and Siemens, lays out a plan like that, checks it and signs it off, and a chip factory accepts only designs that have passed those tools. The factory prints each layer of the design onto silicon through a stencil, and changing the plan after that costs a fresh set of stencils and several months. Withhold the software and no new chip can be designed.
+:::
 
 ### In short ^in-short
 
 Three vendors sell every complete design flow used at the leading edge [3](https://newsletter.semianalysis.com/p/eda-market-primer). Design is cheap next to what it commits: tens of millions of dollars of engineering and masks decide what tens of billions of dollars of factory capacity will make [1](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor). It is the control a government can impose fastest, and the one China is closest to neutralizing, though CSET still finds no complete domestic flow [17](https://cset.georgetown.edu/article/semiconductors-more-u-s-leverage-more-bad-news-for-beijing-part-3/). The largest buyers now design their own parts, with Broadcom doing the implementation and the buyer's name on the product [11](https://investors.broadcom.com/news-releases/news-release-details/openai-and-broadcom-announce-strategic-collaboration-deploy-10).
 
-{--{"author":"James's AI","timestamp":1790597010593}@@Concentration: **Extreme**--}{++{"author":"James's AI","timestamp":1790597010593}@@:::callout {title="Chokepoint card" tone="amber"}
-**Concentration:** Extreme++}
+:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** Extreme
 
-{--{"author":"James's AI","timestamp":1790597010593}@@Substitutability: **Hard**.--}{++{"author":"James's AI","timestamp":1790597010593}@@**Substitutability:** Hard.++} Only three complete sets of chip design software exist, and a fourth would have to be written from nothing and approved by a foundry.
+**Substitutability:** Hard. Only three complete sets of chip design software exist, and a fourth would have to be written from nothing and approved by a foundry.
 
-{--{"author":"James's AI","timestamp":1790597010593}@@Price--}{++{"author":"James's AI","timestamp":1790597010593}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597010593}@@size: **A--}{++{"author":"James's AI","timestamp":1790597010593}@@size:** A++} 3 nm photomask set costs about $40M, and startups have designed and made a 7 nm chip for {--{"author":"James's AI","timestamp":1790597010593}@@$50-75M**--}{++{"author":"James's AI","timestamp":1790597010593}@@$50-75M++}
+**Price or market size:** A 3 nm photomask set costs about $40M, and startups have designed and made a 7 nm chip for $50-75M
 
 **Who leads**
 
--{--{"author":"James's AI","timestamp":1790597010593}@@   USSynopsys--}{++{"author":"James's AI","timestamp":1790597010593}@@ **Synopsys** (US):++} $7.05B revenue in the fiscal year ended 31 October 2025, Ansys included from July; 90%+ of the timing-signoff market
--{--{"author":"James's AI","timestamp":1790597010593}@@   USCadence--}{++{"author":"James's AI","timestamp":1790597010593}@@ **Cadence** (US):++} $5.30B revenue in calendar 2025; 55-60% of the hardware emulator market
--{--{"author":"James's AI","timestamp":1790597010593}@@   DESiemens EDA --}{++{"author":"James's AI","timestamp":1790597010593}@@ **Siemens EDA** (DE): ++}$2.2-2.5B revenue in 2025; 85%+ of physical verification, the final layout check
--{--{"author":"James's AI","timestamp":1790597010593}@@   GBArm--}{++{"author":"James's AI","timestamp":1790597010593}@@ **Arm** (GB):++} About 50% of processor compute at the top cloud firms, fiscal 2026
--{--{"author":"James's AI","timestamp":1790597010593}@@   USBroadcom--}{++{"author":"James's AI","timestamp":1790597010593}@@ **Broadcom** (US):++} $16.7B of AI chip revenue in the third quarter of fiscal 2026
+- **Synopsys** (US): $7.05B revenue in the fiscal year ended 31 October 2025, Ansys included from July; 90%+ of the timing-signoff market
+- **Cadence** (US): $5.30B revenue in calendar 2025; 55-60% of the hardware emulator market
+- **Siemens EDA** (DE): $2.2-2.5B revenue in 2025; 85%+ of physical verification, the final layout check
+- **Arm** (GB): About 50% of processor compute at the top cloud firms, fiscal 2026
+- **Broadcom** (US): $16.7B of AI chip revenue in the third quarter of fiscal 2026
 
 **Where it is made**
 
--{--{"author":"James's AI","timestamp":1790597010593}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597010593}@@ **United States**:++} Synopsys, Cadence, Broadcom, Marvell, Nvidia, AMD; Siemens EDA's main sites
--{--{"author":"James's AI","timestamp":1790597010593}@@   GBUnited Kingdom--}{++{"author":"James's AI","timestamp":1790597010593}@@ **United Kingdom**:++} Arm processor and interconnect designs, licensed from Cambridge
--{--{"author":"James's AI","timestamp":1790597010593}@@   TWTaiwan--}{++{"author":"James's AI","timestamp":1790597010593}@@ **Taiwan**:++} Alchip, Global Unichip and MediaTek: design services that carry a chip to the factory
--{--{"author":"James's AI","timestamp":1790597010593}@@   ILIsrael--}{++{"author":"James's AI","timestamp":1790597010593}@@ **Israel**:++} Annapurna Labs, the AWS design house behind Trainium and Graviton
--{--{"author":"James's AI","timestamp":1790597010593}@@   INIndia--}{++{"author":"James's AI","timestamp":1790597010593}@@ **India**:++} Nearly 20% of the world's chip design engineers, on the Indian government's count
+- **United States**: Synopsys, Cadence, Broadcom, Marvell, Nvidia, AMD; Siemens EDA's main sites
+- **United Kingdom**: Arm processor and interconnect designs, licensed from Cambridge
+- **Taiwan**: Alchip, Global Unichip and MediaTek: design services that carry a chip to the factory
+- **Israel**: Annapurna Labs, the AWS design house behind Trainium and Graviton
+- **India**: Nearly 20% of the world's chip design engineers, on the Indian government's count
 
 **Why substitution is slow**
 
@@ -118,8 +112,8 @@ China designs its own AI accelerators, but Huawei's best, the Ascend 950, delive
 
 **Where the US stands**
 
-The United States has the two largest design-software vendors and the leading custom-chip design houses. Siemens EDA is German-owned, but the American technology inside it still needs US export licenses.{++{"author":"James's AI","timestamp":1790597010593}@@
-:::++}
+The United States has the two largest design-software vendors and the leading custom-chip design houses. Siemens EDA is German-owned, but the American technology inside it still needs US export licenses.
+:::
 
 Design is the only stage in this chain with no factory, and the one a foreign government can shut off fastest. In 2025 one did. For five weeks, every Chinese chip designer lost the software that turns a design into something a factory can print.
 
@@ -127,23 +121,21 @@ Design is the only stage in this chain with no factory, and the one a foreign go
 
 Design runs in five stages, each one's output the next one's input, all of it in software.
 
--{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**Architecture.** Engineers fix the shape of the chip: how wide the block that multiplies numbers is, how much fast on-chip memory sits beside it, how many high-bandwidth memory stacks line the edges. The output is a plan.
--{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**RTL.** Engineers write the plan as register-transfer-level code, RTL, in the hardware language SystemVerilog. A register is a small store on the chip that holds one number, and the clock is the tick that moves every register forward together. The code says what every register holds on every tick, and the output is a text description of the whole chip.
--{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**Verification.** The biggest team on most projects checks that the code does what the plan says. They run it in simulation, prove parts of it correct with mathematics, and load it into emulators, cabinets of reprogrammable chips that behave like the design, so the chip's own software can boot before any silicon exists.
--{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**Physical design.** Software swaps each piece of the code for a logic cell, a small ready-made circuit the foundry has already proved it can make, then places the cells on the chip, wires them together and proves that every signal arrives in time.
--{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**Tape-out.** The handover. Software turns the placed layout into pattern files for the mask shop. First it pre-distorts each shape so that it prints as drawn, which is optical proximity correction; then it cuts the layout into the files a mask writer reads, which is mask data preparation.
+- **Architecture.** Engineers fix the shape of the chip: how wide the block that multiplies numbers is, how much fast on-chip memory sits beside it, how many high-bandwidth memory stacks line the edges. The output is a plan.
+- **RTL.** Engineers write the plan as register-transfer-level code, RTL, in the hardware language SystemVerilog. A register is a small store on the chip that holds one number, and the clock is the tick that moves every register forward together. The code says what every register holds on every tick, and the output is a text description of the whole chip.
+- **Verification.** The biggest team on most projects checks that the code does what the plan says. They run it in simulation, prove parts of it correct with mathematics, and load it into emulators, cabinets of reprogrammable chips that behave like the design, so the chip's own software can boot before any silicon exists.
+- **Physical design.** Software swaps each piece of the code for a logic cell, a small ready-made circuit the foundry has already proved it can make, then places the cells on the chip, wires them together and proves that every signal arrives in time.
+- **Tape-out.** The handover. Software turns the placed layout into pattern files for the mask shop. First it pre-distorts each shape so that it prints as drawn, which is optical proximity correction; then it cuts the layout into the files a mask writer reads, which is mask data preparation.
 
 All that checking exists because a mistake costs a whole new mask set. One set costs more than $1 million at 28 nm, more than $10 million at 7 nm and about $40 million at 3 nm, and a whole leading-edge chip has gone from design to tape-out on TSMC 7 nm for $50 million to $75 million, everything included [1](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor). The nanometer labels name generations of the process, each finer than the last, and no longer measure anything.
 
-**Chart:** What one photomask set costs, by node ($M). The 28 nm and 7 nm figures are minimums{--{"author":"James's AI","timestamp":1790597010593}@@ ($M)
-
---}{++{"author":"James's AI","timestamp":1790597010593}@@
+**Chart:** What one photomask set costs, by node ($M). The 28 nm and 7 nm figures are minimums
 
 | | $M |
 |---|---:|
-| ++}28 nm {++{"author":"James's AI","timestamp":1790597010593}@@| ++}1 {--{"author":"James's AI","timestamp":1790597010593}@@$M--}{++{"author":"James's AI","timestamp":1790597010593}@@|
-|++} 7 nm {++{"author":"James's AI","timestamp":1790597010593}@@| ++}10 {--{"author":"James's AI","timestamp":1790597010593}@@$M--}{++{"author":"James's AI","timestamp":1790597010593}@@|
-|++} 3 nm {++{"author":"James's AI","timestamp":1790597010593}@@| ++}40 {--{"author":"James's AI","timestamp":1790597010593}@@$M--}{++{"author":"James's AI","timestamp":1790597010593}@@|++}
+| 28 nm | 1 |
+| 7 nm | 10 |
+| 3 nm | 40 |
 
 Source: [SemiAnalysis, The Dark Side of the Semiconductor Design Renaissance, July 2022](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor)
 
@@ -157,16 +149,14 @@ Nvidia designs Blackwell once and sells it to everyone, so the buyer gets mature
 
 Three complete flows exist, and they do not mix. A team commits to one vendor's set of tools because the foundry certifies its reference recipes against specific tool versions, and timing signed off in one tool is not accepted in another. Synopsys alone holds more than 90 percent of static timing analysis, the check that proves a chip will run at its rated speed [3](https://newsletter.semianalysis.com/p/eda-market-primer), so inside each step of the flow the concentration is higher still.
 
-**Chart:** Each leading vendor's share of its own design-software segment, 2025{--{"author":"James's AI","timestamp":1790597010593}@@ (%)
-
---}{++{"author":"James's AI","timestamp":1790597010593}@@
+**Chart:** Each leading vendor's share of its own design-software segment, 2025
 
 | | % |
 |---|---:|
-| ++}Static timing (Synopsys PrimeTime) {--{"author":"James's AI","timestamp":1790597010593}@@90% --}{++{"author":"James's AI","timestamp":1790597010593}@@| 90 |
-| ++}Physical verification (Siemens Calibre) {--{"author":"James's AI","timestamp":1790597010593}@@85%--}{++{"author":"James's AI","timestamp":1790597010593}@@| 85 |
-|++} Synthesis (Synopsys Design Compiler) {--{"author":"James's AI","timestamp":1790597010593}@@85% --}{++{"author":"James's AI","timestamp":1790597010593}@@| 85 |
-| ++}Emulation (Cadence Palladium) {--{"author":"James's AI","timestamp":1790597010593}@@58%--}{++{"author":"James's AI","timestamp":1790597010593}@@| 58 |++}
+| Static timing (Synopsys PrimeTime) | 90 |
+| Physical verification (Siemens Calibre) | 85 |
+| Synthesis (Synopsys Design Compiler) | 85 |
+| Emulation (Cadence Palladium) | 58 |
 
 Source: [SemiAnalysis, EDA Market Primer, May 2026](https://newsletter.semianalysis.com/p/eda-market-primer)
 
@@ -184,22 +174,17 @@ Design software and licensed blocks were an $18 billion market in 2025, and Syno
 
 Synopsys is the largest. Its own results put revenue at $7.054 billion for the fiscal year to 31 October 2025, with Ansys, bought that July, contributing $756.6 million [8](https://www.sec.gov/Archives/edgar/data/883241/000119312525314200/d29055dex991.htm). Cadence, whose year ends in December, took $5.30 billion in calendar 2025 [9](https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/R115.htm). The two fiscal years do not line up, so any total for this market depends on which twelve months are counted and on how much of Ansys it includes.
 
-**Chart:** Design software and licensed-block revenue share, 2025. Synopsys includes Ansys{--{"author":"James's AI","timestamp":1790597010593}@@ (%)
-
---}{++{"author":"James's AI","timestamp":1790597010593}@@
+**Chart:** Design software and licensed-block revenue share, 2025. Synopsys includes Ansys
 
 | | % |
 |---|---:|
-| ++}Synopsys {--{"author":"James's AI","timestamp":1790597010593}@@**44%** --}{++{"author":"James's AI","timestamp":1790597010593}@@| 44 |
-| ++}Cadence {--{"author":"James's AI","timestamp":1790597010593}@@**29%**--}{++{"author":"James's AI","timestamp":1790597010593}@@| 29 |
-|++} Siemens EDA {--{"author":"James's AI","timestamp":1790597010593}@@**13%** --}{++{"author":"James's AI","timestamp":1790597010593}@@| 13 |
-| ++}All others {--{"author":"James's AI","timestamp":1790597010593}@@**14%**
+| Synopsys | 44 |
+| Cadence | 29 |
+| Siemens EDA | 13 |
+| All others | 14 |
 
 %% validator-ignore-next-line --code article.block-repeated-nearby --reason source-provides-alternative-citation-formats %%
---}{++{"author":"James's AI","timestamp":1790597010593}@@| 14 |
-
-++}{++{"author":"James's AI","timestamp":1790598053959}@@%% validator-ignore-next-line --code article.block-repeated-nearby --reason source-provides-alternative-citation-formats %%
-++}Source: [SemiAnalysis, EDA Market Primer, May 2026](https://newsletter.semianalysis.com/p/eda-market-primer)
+Source: [SemiAnalysis, EDA Market Primer, May 2026](https://newsletter.semianalysis.com/p/eda-market-primer)
 
 Design services, where one firm turns another's specification into a manufacturable chip, are narrower again, and most of the announced AI deals are Broadcom's. It booked $16.7 billion of AI semiconductor revenue in the third quarter of fiscal 2026, up 221 percent [10](https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm).
 
@@ -221,154 +206,116 @@ On Epoch AI's estimates, Huawei's flagship chip for 2026, the Ascend 950, delive
 
 ### Key evaluation criteria ^key-evaluation-criteria
 
--{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**Flow completeness.** How many steps one vendor covers, from the first line of code to final signoff.
--{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**Foundry certification.** Whether the foundry has validated that exact tool version against its reference flow and process design kit, the file set describing what the factory can print. Without that, the foundry refuses signoff.
--{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**Verification throughput.** Simulation cycles and emulator capacity per day, which set the schedule more than anything else.
--{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**IP availability at node.** Whether the licensed blocks, the processor cores, the high-speed serial links, PCIe and the memory interface, have been proven in silicon on that process.
--{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**Design services depth.** Whether a partner can carry a customer's circuit list to a finished mask set on the newest node.
--{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**Legal exposure.** How much of the flow is US-origin technology, and so subject to export licensing.
+- **Flow completeness.** How many steps one vendor covers, from the first line of code to final signoff.
+- **Foundry certification.** Whether the foundry has validated that exact tool version against its reference flow and process design kit, the file set describing what the factory can print. Without that, the foundry refuses signoff.
+- **Verification throughput.** Simulation cycles and emulator capacity per day, which set the schedule more than anything else.
+- **IP availability at node.** Whether the licensed blocks, the processor cores, the high-speed serial links, PCIe and the memory interface, have been proven in silicon on that process.
+- **Design services depth.** Whether a partner can carry a customer's circuit list to a finished mask set on the newest node.
+- **Legal exposure.** How much of the flow is US-origin technology, and so subject to export licensing.
 
-{--{"author":"James's AI","timestamp":1790597010593}@@Card 1 of 5Question
+::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.
 
-What does chip design produce?--}{++{"author":"James's AI","timestamp":1790597010593}@@::::callout {title="Flashcards" tone="blue"}
-Recall each answer, then open the card.++}
+:::callout {title="Card 1 of 5: What does chip design produce?" tone="neutral" collapse="closed"}
+A blueprint of the chip: where each transistor sits and how it is wired.
 
-{--{"author":"James's AI","timestamp":1790597010593}@@Card--}{++{"author":"James's AI","timestamp":1790597010593}@@:::callout {title="Card++} 1 of {--{"author":"James's AI","timestamp":1790597010593}@@5Answer
+A chip factory builds only designs that have passed checks in approved design software. [[#^how-it-works|Reread: How it works]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597010593}@@5: What does chip design produce?" tone="neutral" collapse="closed"}
-++}A blueprint of the chip: where each transistor sits and how it is wired.
+:::callout {title="Card 2 of 5: Who sells the software used to design leading-edge chips?" tone="neutral" collapse="closed"}
+Three firms: Synopsys, Cadence and Siemens EDA.
 
-A chip factory builds only designs that have passed checks in approved design software. [[#^how-it-works|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597010593}@@
-:::++}
+Together they held more than 85 percent of the market in 2025. [[#^who-makes-it|Reread: Who makes it]]
+:::
 
-{--{"author":"James's AI","timestamp":1790597010593}@@Card--}{++{"author":"James's AI","timestamp":1790597010593}@@:::callout {title="Card++} 2 of{--{"author":"James's AI","timestamp":1790597010593}@@ 5Question
+:::callout {title="Card 3 of 5: Why is that software hard to replace?" tone="neutral" collapse="closed"}
+A new vendor would have to write a complete set of tools from nothing and get a foundry to approve it.
 
---}{++{"author":"James's AI","timestamp":1790597010593}@@ 5: ++}Who sells the software used to design leading-edge {--{"author":"James's AI","timestamp":1790597010593}@@chips?
+Each foundry certifies its process against specific versions of the existing tools. [[#^the-chokepoint|Reread: The chokepoint]]
+:::
 
-Card 2 of 5Answer
+:::callout {title="Card 4 of 5: Can China design the newest chips on its own software?" tone="neutral" collapse="closed"}
+Not yet.
 
---}{++{"author":"James's AI","timestamp":1790597010593}@@chips?" tone="neutral" collapse="closed"}
-++}Three firms: Synopsys, Cadence and Siemens EDA.
+CSET finds that Chinese design software cannot handle the newest chips. In 2025 the United States stopped these sales to China for five weeks. [[#^the-chokepoint|Reread: The chokepoint]]
+:::
 
-Together they held more than 85 percent of the market in 2025. [[#^who-makes-it|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597010593}@@
-:::++}
+:::callout {title="Card 5 of 5: How far behind Nvidia is Huawei's best AI chip?" tone="neutral" collapse="closed"}
+About three to four years, on Epoch AI's estimate.
 
-{--{"author":"James's AI","timestamp":1790597010593}@@Card --}{++{"author":"James's AI","timestamp":1790597010593}@@:::callout {title="Card ++}3 of {--{"author":"James's AI","timestamp":1790597010593}@@5Question
+Huawei's flagship for 2026, the Ascend 950, delivers about half the computing performance of Nvidia's H100, which began shipping in 2022. [[#^the-chokepoint|Reread: The chokepoint]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597010593}@@5: ++}Why is that software hard to {--{"author":"James's AI","timestamp":1790597010593}@@replace?
+::::
 
-Card 3 of 5Answer
+:::callout {title="Five things to remember" tone="green"}
+- Chip design turns an idea into a blueprint, and a factory builds only designs checked in approved software.
+- Synopsys, Cadence and Siemens EDA sell the software used to design every leading-edge chip.
+- A new vendor would have to write a complete set of tools and win a foundry's approval.
+- China designs its own AI chips but cannot yet design the newest ones on its own software.
+- Huawei's best AI chip trails Nvidia's by three to four years, on Epoch AI's estimate.
+:::
 
---}{++{"author":"James's AI","timestamp":1790597010593}@@replace?" tone="neutral" collapse="closed"}
-++}A new vendor would have to write a complete set of tools from nothing and get a foundry to approve it.
-
-Each foundry certifies its process against specific versions of the existing tools. [[#^the-chokepoint|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597010593}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597010593}@@Card--}{++{"author":"James's AI","timestamp":1790597010593}@@:::callout {title="Card++} 4 of{--{"author":"James's AI","timestamp":1790597010593}@@ 5Question
-
---}{++{"author":"James's AI","timestamp":1790597010593}@@ 5: ++}Can China design the newest chips on its own{--{"author":"James's AI","timestamp":1790597010593}@@ software?
-
-Card 4 of 5Answer
-
---}{++{"author":"James's AI","timestamp":1790597010593}@@ software?" tone="neutral" collapse="closed"}
-++}Not yet.
-
-CSET finds that Chinese design software cannot handle the newest chips. In 2025 the United States stopped these sales to China for five weeks. [[#^the-chokepoint|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597010593}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597010593}@@Card--}{++{"author":"James's AI","timestamp":1790597010593}@@:::callout {title="Card++} 5 of {--{"author":"James's AI","timestamp":1790597010593}@@5Question
-
---}{++{"author":"James's AI","timestamp":1790597010593}@@5: ++}How far behind Nvidia is Huawei's best AI {--{"author":"James's AI","timestamp":1790597010593}@@chip?
-
-Card 5 of 5Answer
-
---}{++{"author":"James's AI","timestamp":1790597010593}@@chip?" tone="neutral" collapse="closed"}
-++}About three to four years, on Epoch AI's estimate.
-
-Huawei's flagship for 2026, the Ascend 950, delivers about half the computing performance of Nvidia's H100, which began shipping in 2022. [[#^the-chokepoint|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597010593}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597010593}@@#### Five--}{++{"author":"James's AI","timestamp":1790597010593}@@::::
-
-:::callout {title="Five++} things to {--{"author":"James's AI","timestamp":1790597010593}@@remember ^five-things-to-remember
-
---}{++{"author":"James's AI","timestamp":1790597010593}@@remember" tone="green"}
-++}-{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}Chip design turns an idea into a blueprint, and a factory builds only designs checked in approved software.
--{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}Synopsys, Cadence and Siemens EDA sell the software used to design every leading-edge chip.
--{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}A new vendor would have to write a complete set of tools and win a foundry's approval.
--{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}China designs its own AI chips but cannot yet design the newest ones on its own software.
--{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}Huawei's best AI chip trails Nvidia's by three to four years, on Epoch AI's estimate.{++{"author":"James's AI","timestamp":1790597010593}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597010593}@@**Sources (19)**
-
---}{++{"author":"James's AI","timestamp":1790597010593}@@:::callout {title="Sources (19)" tone="neutral" collapse="closed"}
-++}1.{--{"author":"James's AI","timestamp":1790597010593}@@  B--} [The Dark Side Of The Semiconductor Design Renaissance – Fixed Costs Soaring Due To Photomask Sets, Verification, and {--{"author":"James's AI","timestamp":1790597010593}@@Validation](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor)--}{++{"author":"James's AI","timestamp":1790597010593}@@Validation](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor).++} SemiAnalysis · 24 July {--{"author":"James's AI","timestamp":1790597010593}@@2022--}{++{"author":"James's AI","timestamp":1790597010593}@@2022. Tier B.++}
-2.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Ironwood: The first Google TPU for the age of {--{"author":"James's AI","timestamp":1790597010593}@@inference](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/)--}{++{"author":"James's AI","timestamp":1790597010593}@@inference](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/).++} Google · 9 April {--{"author":"James's AI","timestamp":1790597010593}@@2025--}{++{"author":"James's AI","timestamp":1790597010593}@@2025. Tier A.++}
-3.{--{"author":"James's AI","timestamp":1790597010593}@@  B--} [EDA Market {--{"author":"James's AI","timestamp":1790597010593}@@Primer](https://newsletter.semianalysis.com/p/eda-market-primer)--}{++{"author":"James's AI","timestamp":1790597010593}@@Primer](https://newsletter.semianalysis.com/p/eda-market-primer).++} SemiAnalysis · 21 May {--{"author":"James's AI","timestamp":1790597010593}@@2026--}{++{"author":"James's AI","timestamp":1790597010593}@@2026. Tier B.++}
-4.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Arm delivers record-breaking quarter and full-year {--{"author":"James's AI","timestamp":1790597010593}@@results](https://newsroom.arm.com/news/arm-q4-fye26-results)--}{++{"author":"James's AI","timestamp":1790597010593}@@results](https://newsroom.arm.com/news/arm-q4-fye26-results).++} Arm · 6 May {--{"author":"James's AI","timestamp":1790597010593}@@2026--}{++{"author":"James's AI","timestamp":1790597010593}@@2026. Tier A.++}
-5.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Behind The Scenes of SHD Group's 2026 RISC-V Market {--{"author":"James's AI","timestamp":1790597010593}@@Forecast](https://riscv.org/blog/shd-forecast-2026/)--}{++{"author":"James's AI","timestamp":1790597010593}@@Forecast](https://riscv.org/blog/shd-forecast-2026/).++} RISC-V International · 19 June {--{"author":"James's AI","timestamp":1790597010593}@@2026--}{++{"author":"James's AI","timestamp":1790597010593}@@2026. Tier A.++}
-6.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Specifications | UCIe {--{"author":"James's AI","timestamp":1790597010593}@@Consortium](https://www.uciexpress.org/specifications)--}{++{"author":"James's AI","timestamp":1790597010593}@@Consortium](https://www.uciexpress.org/specifications).++} UCIe {--{"author":"James's AI","timestamp":1790597010593}@@Consortium--}{++{"author":"James's AI","timestamp":1790597010593}@@Consortium. Tier A.++}
-7.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [3.5D XDSiP Platform {--{"author":"James's AI","timestamp":1790597010593}@@Technology](https://docs.broadcom.com/doc/3-5d-xdsip-platform-technology)--}{++{"author":"James's AI","timestamp":1790597010593}@@Technology](https://docs.broadcom.com/doc/3-5d-xdsip-platform-technology).++} Broadcom · 4 December {--{"author":"James's AI","timestamp":1790597010593}@@2024--}{++{"author":"James's AI","timestamp":1790597010593}@@2024. Tier A.++}
-8.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [SYNOPSYS INC, Form 8-K current report for the period ended 2025-12-10 {--{"author":"James's AI","timestamp":1790597010593}@@(8-K)](https://www.sec.gov/Archives/edgar/data/883241/000119312525314200/d29055dex991.htm)--}{++{"author":"James's AI","timestamp":1790597010593}@@(8-K)](https://www.sec.gov/Archives/edgar/data/883241/000119312525314200/d29055dex991.htm).++} U.S. Securities and Exchange Commission (filing by SYNOPSYS INC) · 10 December {--{"author":"James's AI","timestamp":1790597010593}@@2025--}{++{"author":"James's AI","timestamp":1790597010593}@@2025. Tier A.++}
-9.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [CADENCE DESIGN SYSTEMS INC, Form 10-K annual report for the period ended 2025-12-31 (financial statement {--{"author":"James's AI","timestamp":1790597010593}@@R115)](https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/R115.htm)--}{++{"author":"James's AI","timestamp":1790597010593}@@R115)](https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/R115.htm).++} U.S. Securities and Exchange Commission (filing by CADENCE DESIGN SYSTEMS INC) · 19 February {--{"author":"James's AI","timestamp":1790597010593}@@2026--}{++{"author":"James's AI","timestamp":1790597010593}@@2026. Tier A.++}
-10.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Broadcom Inc., Form 8-K current report for the period ended 2026-09-02 {--{"author":"James's AI","timestamp":1790597010593}@@(8-K)](https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm)--}{++{"author":"James's AI","timestamp":1790597010593}@@(8-K)](https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm).++} U.S. Securities and Exchange Commission (filing by Broadcom Inc.) · 2 September {--{"author":"James's AI","timestamp":1790597010593}@@2026--}{++{"author":"James's AI","timestamp":1790597010593}@@2026. Tier A.++}
-11.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [OpenAI and Broadcom announce strategic collaboration to deploy 10 gigawatts of OpenAI-designed AI {--{"author":"James's AI","timestamp":1790597010593}@@accelerators](https://investors.broadcom.com/news-releases/news-release-details/openai-and-broadcom-announce-strategic-collaboration-deploy-10) Broadcom--}{++{"author":"James's AI","timestamp":1790597010593}@@accelerators](https://investors.broadcom.com/news-releases/news-release-details/openai-and-broadcom-announce-strategic-collaboration-deploy-10). Broadcom. Tier A.++}
-12.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Broadcom Announces Extended Partnership with Meta to Deploy Technology to Support Multi-Gigawatts of Meta's Custom Silicon, {--{"author":"James's AI","timestamp":1790597010593}@@MTIA](https://investors.broadcom.com/news-releases/news-release-details/broadcom-announces-extended-partnership-meta-deploy-technology)--}{++{"author":"James's AI","timestamp":1790597010593}@@MTIA](https://investors.broadcom.com/news-releases/news-release-details/broadcom-announces-extended-partnership-meta-deploy-technology).++} Broadcom · 14 April {--{"author":"James's AI","timestamp":1790597010593}@@2026--}{++{"author":"James's AI","timestamp":1790597010593}@@2026. Tier A.++}
-13.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Financials - {--{"author":"James's AI","timestamp":1790597010593}@@Alchip](https://www.alchip.com/en/Investors/financials/)--}{++{"author":"James's AI","timestamp":1790597010593}@@Alchip](https://www.alchip.com/en/Investors/financials/).++} Alchip {--{"author":"James's AI","timestamp":1790597010593}@@Technologies--}{++{"author":"James's AI","timestamp":1790597010593}@@Technologies. Tier A.++}
-14.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [India’s Semiconductor Vision Gathers Momentum with 3nm Chip Design and Large-Scale Talent Development {--{"author":"James's AI","timestamp":1790597010593}@@Initiatives](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2148393)--}{++{"author":"James's AI","timestamp":1790597010593}@@Initiatives](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2148393).++} Press Information Bureau, Government of {--{"author":"James's AI","timestamp":1790597010593}@@India--}{++{"author":"James's AI","timestamp":1790597010593}@@India. Tier A.++}
-15.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [CADENCE DESIGN SYSTEMS INC, Form 8-K current report for the period ended 2025-07-02 {--{"author":"James's AI","timestamp":1790597010593}@@(8-K)](https://www.sec.gov/Archives/edgar/data/813672/000081367225000093/cdns-20250702.htm)--}{++{"author":"James's AI","timestamp":1790597010593}@@(8-K)](https://www.sec.gov/Archives/edgar/data/813672/000081367225000093/cdns-20250702.htm).++} U.S. Securities and Exchange Commission (filing by CADENCE DESIGN SYSTEMS INC) · 3 July {--{"author":"James's AI","timestamp":1790597010593}@@2025--}{++{"author":"James's AI","timestamp":1790597010593}@@2025. Tier A.++}
-16.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [SYNOPSYS INC, Form 8-K current report for the period ended 2025-07-02 {--{"author":"James's AI","timestamp":1790597010593}@@(8-K)](https://www.sec.gov/Archives/edgar/data/883241/000119312525155294/d80081d8k.htm)--}{++{"author":"James's AI","timestamp":1790597010593}@@(8-K)](https://www.sec.gov/Archives/edgar/data/883241/000119312525155294/d80081d8k.htm).++} U.S. Securities and Exchange Commission (filing by SYNOPSYS INC) · 3 July {--{"author":"James's AI","timestamp":1790597010593}@@2025--}{++{"author":"James's AI","timestamp":1790597010593}@@2025. Tier A.++}
-17.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Semiconductors: More U.S. Leverage, More Bad News For Beijing (Part {--{"author":"James's AI","timestamp":1790597010593}@@3)](https://cset.georgetown.edu/article/semiconductors-more-u-s-leverage-more-bad-news-for-beijing-part-3/)--}{++{"author":"James's AI","timestamp":1790597010593}@@3)](https://cset.georgetown.edu/article/semiconductors-more-u-s-leverage-more-bad-news-for-beijing-part-3/).++} Center for Security and Emerging Technology (CSET) · 25 October {--{"author":"James's AI","timestamp":1790597010593}@@2021--}{++{"author":"James's AI","timestamp":1790597010593}@@2021. Tier A.++}
-18.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Pushing the Limits: Huawei's AI Chip Tests U.S. Export {--{"author":"James's AI","timestamp":1790597010593}@@Controls](https://cset.georgetown.edu/publication/pushing-the-limits-huaweis-ai-chip-tests-u-s-export-controls/)--}{++{"author":"James's AI","timestamp":1790597010593}@@Controls](https://cset.georgetown.edu/publication/pushing-the-limits-huaweis-ai-chip-tests-u-s-export-controls/).++} Center for Security and Emerging Technology (CSET) · 17 June {--{"author":"James's AI","timestamp":1790597010593}@@2024--}{++{"author":"James's AI","timestamp":1790597010593}@@2024. Tier A.++}
-19.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Will Huawei catch up to Nvidia by {--{"author":"James's AI","timestamp":1790597010593}@@2030?](https://epoch.ai/publications/huaweis-roadmap-to-2031)--}{++{"author":"James's AI","timestamp":1790597010593}@@2030?](https://epoch.ai/publications/huaweis-roadmap-to-2031).++} Epoch AI · 24 September {--{"author":"James's AI","timestamp":1790597010593}@@2026--}{++{"author":"James's AI","timestamp":1790597010593}@@2026. Tier A.
-:::++}
+:::callout {title="Sources (19)" tone="neutral" collapse="closed"}
+1. [The Dark Side Of The Semiconductor Design Renaissance – Fixed Costs Soaring Due To Photomask Sets, Verification, and Validation](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor). SemiAnalysis · 24 July 2022. Tier B.
+2. [Ironwood: The first Google TPU for the age of inference](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/). Google · 9 April 2025. Tier A.
+3. [EDA Market Primer](https://newsletter.semianalysis.com/p/eda-market-primer). SemiAnalysis · 21 May 2026. Tier B.
+4. [Arm delivers record-breaking quarter and full-year results](https://newsroom.arm.com/news/arm-q4-fye26-results). Arm · 6 May 2026. Tier A.
+5. [Behind The Scenes of SHD Group's 2026 RISC-V Market Forecast](https://riscv.org/blog/shd-forecast-2026/). RISC-V International · 19 June 2026. Tier A.
+6. [Specifications | UCIe Consortium](https://www.uciexpress.org/specifications). UCIe Consortium. Tier A.
+7. [3.5D XDSiP Platform Technology](https://docs.broadcom.com/doc/3-5d-xdsip-platform-technology). Broadcom · 4 December 2024. Tier A.
+8. [SYNOPSYS INC, Form 8-K current report for the period ended 2025-12-10 (8-K)](https://www.sec.gov/Archives/edgar/data/883241/000119312525314200/d29055dex991.htm). U.S. Securities and Exchange Commission (filing by SYNOPSYS INC) · 10 December 2025. Tier A.
+9. [CADENCE DESIGN SYSTEMS INC, Form 10-K annual report for the period ended 2025-12-31 (financial statement R115)](https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/R115.htm). U.S. Securities and Exchange Commission (filing by CADENCE DESIGN SYSTEMS INC) · 19 February 2026. Tier A.
+10. [Broadcom Inc., Form 8-K current report for the period ended 2026-09-02 (8-K)](https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm). U.S. Securities and Exchange Commission (filing by Broadcom Inc.) · 2 September 2026. Tier A.
+11. [OpenAI and Broadcom announce strategic collaboration to deploy 10 gigawatts of OpenAI-designed AI accelerators](https://investors.broadcom.com/news-releases/news-release-details/openai-and-broadcom-announce-strategic-collaboration-deploy-10). Broadcom. Tier A.
+12. [Broadcom Announces Extended Partnership with Meta to Deploy Technology to Support Multi-Gigawatts of Meta's Custom Silicon, MTIA](https://investors.broadcom.com/news-releases/news-release-details/broadcom-announces-extended-partnership-meta-deploy-technology). Broadcom · 14 April 2026. Tier A.
+13. [Financials - Alchip](https://www.alchip.com/en/Investors/financials/). Alchip Technologies. Tier A.
+14. [India’s Semiconductor Vision Gathers Momentum with 3nm Chip Design and Large-Scale Talent Development Initiatives](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2148393). Press Information Bureau, Government of India. Tier A.
+15. [CADENCE DESIGN SYSTEMS INC, Form 8-K current report for the period ended 2025-07-02 (8-K)](https://www.sec.gov/Archives/edgar/data/813672/000081367225000093/cdns-20250702.htm). U.S. Securities and Exchange Commission (filing by CADENCE DESIGN SYSTEMS INC) · 3 July 2025. Tier A.
+16. [SYNOPSYS INC, Form 8-K current report for the period ended 2025-07-02 (8-K)](https://www.sec.gov/Archives/edgar/data/883241/000119312525155294/d80081d8k.htm). U.S. Securities and Exchange Commission (filing by SYNOPSYS INC) · 3 July 2025. Tier A.
+17. [Semiconductors: More U.S. Leverage, More Bad News For Beijing (Part 3)](https://cset.georgetown.edu/article/semiconductors-more-u-s-leverage-more-bad-news-for-beijing-part-3/). Center for Security and Emerging Technology (CSET) · 25 October 2021. Tier A.
+18. [Pushing the Limits: Huawei's AI Chip Tests U.S. Export Controls](https://cset.georgetown.edu/publication/pushing-the-limits-huaweis-ai-chip-tests-u-s-export-controls/). Center for Security and Emerging Technology (CSET) · 17 June 2024. Tier A.
+19. [Will Huawei catch up to Nvidia by 2030?](https://epoch.ai/publications/huaweis-roadmap-to-2031). Epoch AI · 24 September 2026. Tier A.
+:::
 
 ## Silicon and Wafers ^silicon-and-wafers
 
 China makes almost all of the world's polysilicon and almost none of the 300 mm wafers. Five firms in Japan, Taiwan, Germany and South Korea make the 300 mm wafer every AI accelerator starts on.
 
-{--{"author":"James's AI","timestamp":1790597030211}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
-
-1,424 --}{++{"author":"James's AI","timestamp":1790597030211}@@*1,424 ++}words / 6{--{"author":"James's AI","timestamp":1790597030211}@@ minSpecimen: boule and wafer
-
-**In plain terms**
-
---}{++{"author":"James's AI","timestamp":1790597030211}@@ min*
+*1,424 words / 6 min*
 
 :::callout {title="In plain terms" tone="neutral"}
-++}Every chip is built on a wafer, a thin round slice of silicon about 30 centimeters across that carries hundreds of chips at once. Making one starts with sand, which is silicon bound to oxygen. The sand is refined until, of every hundred billion atoms, fewer than one is anything other than silicon. The silicon is melted, a small seed crystal is lowered to the surface and drawn slowly back up, and the melt freezes onto it as one long cylinder, a single crystal with its atoms in one unbroken orderly pattern from end to end. Saws cut the cylinder into discs, and each disc is polished until its surface is flat to within a few atoms, right out to the edge. Only five companies in the world make these wafers to that standard, and none of them is American or Chinese.{++{"author":"James's AI","timestamp":1790597030211}@@
-:::++}
+Every chip is built on a wafer, a thin round slice of silicon about 30 centimeters across that carries hundreds of chips at once. Making one starts with sand, which is silicon bound to oxygen. The sand is refined until, of every hundred billion atoms, fewer than one is anything other than silicon. The silicon is melted, a small seed crystal is lowered to the surface and drawn slowly back up, and the melt freezes onto it as one long cylinder, a single crystal with its atoms in one unbroken orderly pattern from end to end. Saws cut the cylinder into discs, and each disc is polished until its surface is flat to within a few atoms, right out to the edge. Only five companies in the world make these wafers to that standard, and none of them is American or Chinese.
+:::
 
 ### In short ^in-short-2
 
 The wafer is a cheap input and a concentrated one: five firms and $11.4 billion of revenue sit under every leading-edge chip [5](https://www.siltronic.com/fileadmin/investorrelations/2026/Q1/20260429_Siltronic_InvestorPresentation__.pdf) [1](https://www.prnewswire.com/news-releases/semi-reports-2025-annual-worldwide-silicon-wafer-shipments-and-revenue-results-302683028.html). China's polysilicon dominance is real but in the wrong grade, and its 300 mm position is small [6](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf). The epitaxial mix matters more than the square inches, because that is what AI demand buys and where the incumbents make money. The failed move to 450 mm showed that this stage of the chain changes over decades.
 
-{--{"author":"James's AI","timestamp":1790597030211}@@Concentration: **High**--}{++{"author":"James's AI","timestamp":1790597030211}@@:::callout {title="Chokepoint card" tone="amber"}
-**Concentration:** High++}
+:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** High
 
-{--{"author":"James's AI","timestamp":1790597030211}@@Substitutability: **Moderate**.--}{++{"author":"James's AI","timestamp":1790597030211}@@**Substitutability:** Moderate.++} Five firms already make 300 mm wafers that fabs have approved, but a fab has to test and approve a new supplier separately for every chip it makes.
+**Substitutability:** Moderate. Five firms already make 300 mm wafers that fabs have approved, but a fab has to test and approve a new supplier separately for every chip it makes.
 
-{--{"author":"James's AI","timestamp":1790597030211}@@Price--}{++{"author":"James's AI","timestamp":1790597030211}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597030211}@@size: **The--}{++{"author":"James's AI","timestamp":1790597030211}@@size:** The++} world wafer market was $11.4bn in 2025, on 12,973 million square inches {--{"author":"James's AI","timestamp":1790597030211}@@shipped**--}{++{"author":"James's AI","timestamp":1790597030211}@@shipped++}
+**Price or market size:** The world wafer market was $11.4bn in 2025, on 12,973 million square inches shipped
 
 **Who leads**
 
--{--{"author":"James's AI","timestamp":1790597030211}@@   JPShin-Etsu Handotai--}{++{"author":"James's AI","timestamp":1790597030211}@@ **Shin-Etsu Handotai** (JP):++} Largest supplier; the parent's electronics materials arm sold ¥750.3bn from April to December 2025
--{--{"author":"James's AI","timestamp":1790597030211}@@   JPSUMCO--}{++{"author":"James's AI","timestamp":1790597030211}@@ **SUMCO** (JP):++} ¥409.7bn of 2025 net sales, but an ¥11.8bn loss
--{--{"author":"James's AI","timestamp":1790597030211}@@   TWGlobalWafers--}{++{"author":"James's AI","timestamp":1790597030211}@@ **GlobalWafers** (TW):++} NT$60.6bn revenue in 2025
--{--{"author":"James's AI","timestamp":1790597030211}@@   KRSK Siltron--}{++{"author":"James's AI","timestamp":1790597030211}@@ **SK Siltron** (KR):++} One of the five firms that supply the whole wafer market
--{--{"author":"James's AI","timestamp":1790597030211}@@   DESiltronic--}{++{"author":"James's AI","timestamp":1790597030211}@@ **Siltronic** (DE):++} €1,346.7m revenue in 2025
+- **Shin-Etsu Handotai** (JP): Largest supplier; the parent's electronics materials arm sold ¥750.3bn from April to December 2025
+- **SUMCO** (JP): ¥409.7bn of 2025 net sales, but an ¥11.8bn loss
+- **GlobalWafers** (TW): NT$60.6bn revenue in 2025
+- **SK Siltron** (KR): One of the five firms that supply the whole wafer market
+- **Siltronic** (DE): €1,346.7m revenue in 2025
 
 **Where it is made**
 
--{--{"author":"James's AI","timestamp":1790597030211}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597030211}@@ **Japan**:++} Shin-Etsu and SUMCO crystal growth and polishing
--{--{"author":"James's AI","timestamp":1790597030211}@@   TWTaiwan--}{++{"author":"James's AI","timestamp":1790597030211}@@ **Taiwan**:++} GlobalWafers headquarters and plants
--{--{"author":"James's AI","timestamp":1790597030211}@@   DEGermany--}{++{"author":"James's AI","timestamp":1790597030211}@@ **Germany**:++} Siltronic Burghausen and Freiberg; Wacker semiconductor-grade polysilicon
--{--{"author":"James's AI","timestamp":1790597030211}@@   KRSouth Korea--}{++{"author":"James's AI","timestamp":1790597030211}@@ **South Korea**:++} SK Siltron, being sold to Doosan
--{--{"author":"James's AI","timestamp":1790597030211}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597030211}@@ **United States**:++} Hemlock polysilicon in Michigan; GlobalWafers Sherman, Texas and St Peters, Missouri
+- **Japan**: Shin-Etsu and SUMCO crystal growth and polishing
+- **Taiwan**: GlobalWafers headquarters and plants
+- **Germany**: Siltronic Burghausen and Freiberg; Wacker semiconductor-grade polysilicon
+- **South Korea**: SK Siltron, being sold to Doosan
+- **United States**: Hemlock polysilicon in Michigan; GlobalWafers Sherman, Texas and St Peters, Missouri
 
-{--{"author":"James's AI","timestamp":1790597030211}@@Why--}{++{"author":"James's AI","timestamp":1790597030211}@@**Why++} substitution is {--{"author":"James's AI","timestamp":1790597030211}@@possible--}{++{"author":"James's AI","timestamp":1790597030211}@@possible**++}
+**Why substitution is possible**
 
 Five firms make 300 mm wafers good enough for the newest chips, so losing one leaves four. A new wafer plant can still be built: GlobalWafers of Taiwan spent $3.5 billion on a plant in Texas, the first wafer production line of its kind in the United States in over twenty years. The slow part is approval. A fab tests a new wafer supplier separately for each chip it makes, and each test runs for months. Supply contracts are also signed years ahead. Switching wafer suppliers therefore takes two to five years.
 
@@ -378,27 +325,23 @@ China made about 93 percent of the world's polysilicon in 2023, but 98 percent o
 
 **Where the US stands**
 
-No American firm makes wafers in volume. Hemlock makes polysilicon in Michigan, and GlobalWafers of Taiwan took a CHIPS Act award of up to $406 million toward a $3.5 billion Texas plant that opened in May 2025.{++{"author":"James's AI","timestamp":1790597030211}@@
-:::++}
+No American firm makes wafers in volume. Hemlock makes polysilicon in Michigan, and GlobalWafers of Taiwan took a CHIPS Act award of up to $406 million toward a $3.5 billion Texas plant that opened in May 2025.
+:::
 
 The whole world market for silicon wafers came to $11.4 billion of revenue on 12,973 million square inches in 2025 [1](https://www.prnewswire.com/news-releases/semi-reports-2025-annual-worldwide-silicon-wafer-shipments-and-revenue-results-302683028.html). That is a small fraction of Nvidia's data center revenue, and every leading-edge chip behind it was built on one of these discs.
 
 ### How it works ^how-it-works-2
 
-{--{"author":"James's AI","timestamp":1790594483174}@@![](https://chipsupplychain.org/media/silicon-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594483174}@@![From sand to wafer](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-silicon.jpg)++}{--{"author":"James's AI","timestamp":1790597030211}@@
+![From sand to wafer](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-silicon.jpg)
 
-**Figure: From sand to wafer.** An --}{++{"author":"James's AI","timestamp":1790597030211}@@
-
-*From sand to wafer. The last frame of an ++}animation on the{--{"author":"James's AI","timestamp":1790597030211}@@ live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#silicon-and-wafers)); above is its last frame.--}{++{"author":"James's AI","timestamp":1790597030211}@@ original site.++} Its {--{"author":"James's AI","timestamp":1790597030211}@@steps:--}{++{"author":"James's AI","timestamp":1790597030211}@@steps:*++}
+*From sand to wafer. The last frame of an animation on the original site. Its steps:*
 
 1. **Refine.** Silicon starts as sand and rock. It is refined into rods so pure that, of every hundred billion atoms, fewer than one is anything else.
 2. **Grow.** The rods are melted. A seed crystal touches the melt and is drawn slowly up, turning, and the silicon freezes onto it as one long crystal.
 3. **Slice.** A wire saw slices the crystal, called an ingot, into thin discs.
 4. **Polish.** Each disc is ground, etched and polished until it is flat to within a few atoms, right out to the edge.
 
-{--{"author":"James's AI","timestamp":1790597030211}@@_Simplified.--}{++{"author":"James's AI","timestamp":1790597030211}@@*Simplified.++} The ingot and the machines are not drawn to {--{"author":"James's AI","timestamp":1790597030211}@@scale._
-
-From sand to wafer--}{++{"author":"James's AI","timestamp":1790597030211}@@scale.*++}
+*Simplified. The ingot and the machines are not drawn to scale.*
 
 Silicon starts as quartzite, a rock that is silicon bound to oxygen. An arc furnace melts it with carbon, and the carbon takes the oxygen away as gas, leaving rough silicon metal. Refiners turn the metal into a gas, trichlorosilane, and distill it, because the impurities boil at other temperatures and stay behind. The clean gas then flows over silicon filaments heated inside a bell jar. On the hot surface the gas breaks apart, its silicon settles onto the filaments, and over days the filaments thicken into gray rods of polysilicon, the Siemens process. Everything downstream is made from those rods. The same process serves solar cells and chips, but only the ultra-pure semiconductor grade is any use for chips [2](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-silicon.pdf), and the two grades are separate industries with separate suppliers.
 
@@ -420,40 +363,36 @@ A buried layer of oxide, which is glass, separates a thin working layer of silic
 
 Siltronic's own map of the chain puts five major suppliers behind the whole wafer market [5](https://www.siltronic.com/fileadmin/investorrelations/2026/Q1/20260429_Siltronic_InvestorPresentation__.pdf). CSET at Georgetown names them: Shin-Etsu, SUMCO, GlobalWafers, Siltronic and SK Siltron, headquartered in Japan, Taiwan, Germany and South Korea [6](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).
 
-**Chart:** Silicon wafer market by supplier headquarters. Five firms, four countries, no US producer{--{"author":"James's AI","timestamp":1790597030211}@@ (%)
-
---}{++{"author":"James's AI","timestamp":1790597030211}@@
+**Chart:** Silicon wafer market by supplier headquarters. Five firms, four countries, no US producer
 
 | | % |
 |---|---:|
-| ++}Japan {--{"author":"James's AI","timestamp":1790597030211}@@**56%**--}{++{"author":"James's AI","timestamp":1790597030211}@@| 56 |
-|++} Taiwan {--{"author":"James's AI","timestamp":1790597030211}@@**16%** --}{++{"author":"James's AI","timestamp":1790597030211}@@| 16 |
-| ++}Europe {--{"author":"James's AI","timestamp":1790597030211}@@**14%**--}{++{"author":"James's AI","timestamp":1790597030211}@@| 14 |
-|++} South Korea {--{"author":"James's AI","timestamp":1790597030211}@@**10%**--}{++{"author":"James's AI","timestamp":1790597030211}@@| 10 |
-|++} China {--{"author":"James's AI","timestamp":1790597030211}@@**4%** --}{++{"author":"James's AI","timestamp":1790597030211}@@| 4 |
-| ++}United States {--{"author":"James's AI","timestamp":1790597030211}@@**0%**--}{++{"author":"James's AI","timestamp":1790597030211}@@| 0 |++}
+| Japan | 56 |
+| Taiwan | 16 |
+| Europe | 14 |
+| South Korea | 10 |
+| China | 4 |
+| United States | 0 |
 
 Source: [CSET, The Semiconductor Supply Chain, January 2021](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf)
 
 Their 2025 results split between an AI boom and a slump in the older, mature nodes.
 
--{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}**Shin-Etsu.** Its electronics materials arm sold ¥750.3 billion in the nine months to December 2025, on strong AI-related wafer demand [7](https://www.shinetsu.co.jp/wp-content/uploads/2025/07/20260127_con_E.pdf).
--{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}**SUMCO.** Sold ¥409.7 billion and still lost ¥11.8 billion, as operating profit fell from ¥36.9 billion to ¥1.3 billion while it added leading-edge 300 mm capacity and reorganized its weak 200 mm lines [8](https://www.sumcosi.com/english/pdf/ir/library/shareholders/27/pdf/nc_e_27.pdf).
--{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}**Siltronic.** Lost €77.9 million on €1,346.7 million of sales while spending €369.1 million on its Singapore fab [9](https://www.siltronic.com/en/press/press-releases/siltronic-ag-robust-business-performance-in-2025-demonstrates-resilience-despite-challenging-conditions.html).
--{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}**GlobalWafers.** NT$60.6 billion of revenue, down 3.24 percent in local currency [10](https://www.sas-globalwafers.com/en/gwc_news_en_20260303/).
+- **Shin-Etsu.** Its electronics materials arm sold ¥750.3 billion in the nine months to December 2025, on strong AI-related wafer demand [7](https://www.shinetsu.co.jp/wp-content/uploads/2025/07/20260127_con_E.pdf).
+- **SUMCO.** Sold ¥409.7 billion and still lost ¥11.8 billion, as operating profit fell from ¥36.9 billion to ¥1.3 billion while it added leading-edge 300 mm capacity and reorganized its weak 200 mm lines [8](https://www.sumcosi.com/english/pdf/ir/library/shareholders/27/pdf/nc_e_27.pdf).
+- **Siltronic.** Lost €77.9 million on €1,346.7 million of sales while spending €369.1 million on its Singapore fab [9](https://www.siltronic.com/en/press/press-releases/siltronic-ag-robust-business-performance-in-2025-demonstrates-resilience-despite-challenging-conditions.html).
+- **GlobalWafers.** NT$60.6 billion of revenue, down 3.24 percent in local currency [10](https://www.sas-globalwafers.com/en/gwc_news_en_20260303/).
 
 Area shipped rose 5.8 percent in 2025 while revenue fell 1.2 percent [1](https://www.prnewswire.com/news-releases/semi-reports-2025-annual-worldwide-silicon-wafer-shipments-and-revenue-results-302683028.html). Wafers sell on multi-year agreements that fix price and volume years ahead, so a jump in demand does not change the price in the year it happens.
 
 China made 1.50 million metric tons of polysilicon, the raw material, in 2023, about 93 percent of world output [11](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf). Solar-grade material was 98 percent of that output and electronic-grade 2 percent [11](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf), so almost none of it can go into a chip.
 
-**Chart:** China's polysilicon output by grade, 2023. China made about 93% of the world's 1.5 million metric tons that year{--{"author":"James's AI","timestamp":1790597030211}@@ (%)
-
---}{++{"author":"James's AI","timestamp":1790597030211}@@
+**Chart:** China's polysilicon output by grade, 2023. China made about 93% of the world's 1.5 million metric tons that year
 
 | | % |
 |---|---:|
-| ++}Solar-grade {--{"author":"James's AI","timestamp":1790597030211}@@**98%** --}{++{"author":"James's AI","timestamp":1790597030211}@@| 98 |
-| ++}Electronic-grade {--{"author":"James's AI","timestamp":1790597030211}@@**2%**--}{++{"author":"James's AI","timestamp":1790597030211}@@| 2 |++}
+| Solar-grade | 98 |
+| Electronic-grade | 2 |
 
 Source: [USGS Minerals Yearbook, China, 2023](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf)
 
@@ -473,134 +412,102 @@ One fatal defect ruins far more silicon on a GPU die that fills a whole printed 
 
 ### Key evaluation criteria ^key-evaluation-criteria-2
 
--{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}**Grade.** Electronic against solar polysilicon separates a Chinese commodity market from a German, American, Japanese and Korean one; solar was 98 percent of China's 2023 output [11](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf).
--{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}**Defect density** in the epitaxial layer. A big AI die loses more good silicon per defect than a small chip does, which is why AI demand shows up first in advanced epitaxial wafers [1](https://www.prnewswire.com/news-releases/semi-reports-2025-annual-worldwide-silicon-wafer-shipments-and-revenue-results-302683028.html).
--{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}**Flatness and nanotopography**, the fine ripple across the surface, because extreme-ultraviolet exposure stays in focus over only a very small range of heights, and that has to hold across a 300 mm wafer.
--{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}**Diameter**, where 300 mm carries every leading-edge node and 99.7 percent of capacity at 45 nm and below [6](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).
--{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}**Contract structure**, since long-term agreements set price and volume years ahead and keep a jump in demand from moving the price.
+- **Grade.** Electronic against solar polysilicon separates a Chinese commodity market from a German, American, Japanese and Korean one; solar was 98 percent of China's 2023 output [11](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf).
+- **Defect density** in the epitaxial layer. A big AI die loses more good silicon per defect than a small chip does, which is why AI demand shows up first in advanced epitaxial wafers [1](https://www.prnewswire.com/news-releases/semi-reports-2025-annual-worldwide-silicon-wafer-shipments-and-revenue-results-302683028.html).
+- **Flatness and nanotopography**, the fine ripple across the surface, because extreme-ultraviolet exposure stays in focus over only a very small range of heights, and that has to hold across a 300 mm wafer.
+- **Diameter**, where 300 mm carries every leading-edge node and 99.7 percent of capacity at 45 nm and below [6](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).
+- **Contract structure**, since long-term agreements set price and volume years ahead and keep a jump in demand from moving the price.
 
-{--{"author":"James's AI","timestamp":1790597030211}@@Card 1 of 4Question
+::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.
 
-What is a wafer?--}{++{"author":"James's AI","timestamp":1790597030211}@@::::callout {title="Flashcards" tone="blue"}
-Recall each answer, then open the card.++}
+:::callout {title="Card 1 of 4: What is a wafer?" tone="neutral" collapse="closed"}
+A thin disc of pure silicon, about 30 centimeters across, that carries hundreds of chips.
 
-{--{"author":"James's AI","timestamp":1790597030211}@@Card--}{++{"author":"James's AI","timestamp":1790597030211}@@:::callout {title="Card++} 1 of {--{"author":"James's AI","timestamp":1790597030211}@@4Answer
+It is sliced from a single crystal and polished flat to within a few atoms. [[#^how-it-works-2|Reread: How it works]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597030211}@@4: What is a wafer?" tone="neutral" collapse="closed"}
-++}A thin disc of pure silicon, about 30 centimeters across, that carries hundreds of chips.
+:::callout {title="Card 2 of 4: Who makes the wafers for leading-edge chips?" tone="neutral" collapse="closed"}
+Five firms, in Japan, Taiwan, Germany and South Korea.
 
-It is sliced from a single crystal and polished flat to within a few atoms. [[#^how-it-works-2|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597030211}@@
-:::++}
+They are Shin-Etsu, SUMCO, GlobalWafers, Siltronic and SK Siltron. None is American or Chinese. [[#^who-makes-it-2|Reread: Who makes it]]
+:::
 
-{--{"author":"James's AI","timestamp":1790597030211}@@Card--}{++{"author":"James's AI","timestamp":1790597030211}@@:::callout {title="Card++} 2 of{--{"author":"James's AI","timestamp":1790597030211}@@ 4Question
+:::callout {title="Card 3 of 4: Why does switching wafer suppliers take years?" tone="neutral" collapse="closed"}
+A fab must test and approve a new supplier separately for every chip it makes.
 
---}{++{"author":"James's AI","timestamp":1790597030211}@@ 4: ++}Who makes the wafers for leading-edge {--{"author":"James's AI","timestamp":1790597030211}@@chips?
+The switch takes two to five years. [[#^the-chokepoint-2|Reread: The chokepoint]]
+:::
 
-Card 2 of 4Answer
+:::callout {title="Card 4 of 4: China makes most of the world's polysilicon. Why does that give it little hold over chip wafers?" tone="neutral" collapse="closed"}
+Almost all of it is solar grade, too impure for chips.
 
---}{++{"author":"James's AI","timestamp":1790597030211}@@chips?" tone="neutral" collapse="closed"}
-++}Five firms, in Japan, Taiwan, Germany and South Korea.
+In 2023, 98 percent of China's output was solar grade. Chinese firms held under 1 percent of the 300 mm wafer market in 2021. [[#^the-chokepoint-2|Reread: The chokepoint]]
+:::
 
-They are Shin-Etsu, SUMCO, GlobalWafers, Siltronic and SK Siltron. None is American or Chinese. [[#^who-makes-it-2|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597030211}@@
-:::++}
+::::
 
-{--{"author":"James's AI","timestamp":1790597030211}@@Card--}{++{"author":"James's AI","timestamp":1790597030211}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597030211}@@4Question
+:::callout {title="Four things to remember" tone="green"}
+- Every chip starts on a wafer, a polished disc of pure silicon about 30 centimeters across.
+- Five firms in Japan, Taiwan, Germany and South Korea make the wafers for leading-edge chips.
+- A fab needs two to five years to approve a new wafer supplier.
+- China makes most of the world's polysilicon, but almost all of it is too impure for chips.
+:::
 
---}{++{"author":"James's AI","timestamp":1790597030211}@@4: ++}Why does switching wafer suppliers take {--{"author":"James's AI","timestamp":1790597030211}@@years?
-
-Card 3 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597030211}@@years?" tone="neutral" collapse="closed"}
-++}A fab must test and approve a new supplier separately for every chip it makes.
-
-The switch takes two to five years. [[#^the-chokepoint-2|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597030211}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597030211}@@Card--}{++{"author":"James's AI","timestamp":1790597030211}@@:::callout {title="Card++} 4 of {--{"author":"James's AI","timestamp":1790597030211}@@4Question
-
---}{++{"author":"James's AI","timestamp":1790597030211}@@4: ++}China makes most of the world's polysilicon. Why does that give it little hold over chip{--{"author":"James's AI","timestamp":1790597030211}@@ wafers?
-
-Card 4 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597030211}@@ wafers?" tone="neutral" collapse="closed"}
-++}Almost all of it is solar grade, too impure for chips.
-
-In 2023, 98 percent of China's output was solar grade. Chinese firms held under 1 percent of the 300 mm wafer market in 2021. [[#^the-chokepoint-2|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597030211}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597030211}@@#### Four--}{++{"author":"James's AI","timestamp":1790597030211}@@::::
-
-:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597030211}@@remember ^four-things-to-remember
-
---}{++{"author":"James's AI","timestamp":1790597030211}@@remember" tone="green"}
-++}-{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}Every chip starts on a wafer, a polished disc of pure silicon about 30 centimeters across.
--{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}Five firms in Japan, Taiwan, Germany and South Korea make the wafers for leading-edge chips.
--{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}A fab needs two to five years to approve a new wafer supplier.
--{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}China makes most of the world's polysilicon, but almost all of it is too impure for chips.{++{"author":"James's AI","timestamp":1790597030211}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597030211}@@**Sources (13)**
-
---}{++{"author":"James's AI","timestamp":1790597030211}@@:::callout {title="Sources (13)" tone="neutral" collapse="closed"}
-++}1.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [SEMI Reports 2025 Annual Worldwide Silicon Wafer Shipments and Revenue {--{"author":"James's AI","timestamp":1790597030211}@@Results](https://www.prnewswire.com/news-releases/semi-reports-2025-annual-worldwide-silicon-wafer-shipments-and-revenue-results-302683028.html)--}{++{"author":"James's AI","timestamp":1790597030211}@@Results](https://www.prnewswire.com/news-releases/semi-reports-2025-annual-worldwide-silicon-wafer-shipments-and-revenue-results-302683028.html).++} PR Newswire · 10 February {--{"author":"James's AI","timestamp":1790597030211}@@2026--}{++{"author":"James's AI","timestamp":1790597030211}@@2026. Tier A.++}
-2.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [Mineral Commodity Summaries {--{"author":"James's AI","timestamp":1790597030211}@@2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-silicon.pdf)--}{++{"author":"James's AI","timestamp":1790597030211}@@2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-silicon.pdf).++} U.S. Geological Survey · 5 February {--{"author":"James's AI","timestamp":1790597030211}@@2026--}{++{"author":"James's AI","timestamp":1790597030211}@@2026. Tier A.++}
-3.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [SUMCO, production processes {--{"author":"James's AI","timestamp":1790597030211}@@page](https://www.sumcosi.com/english/products/process/) SUMCO--}{++{"author":"James's AI","timestamp":1790597030211}@@page](https://www.sumcosi.com/english/products/process/). SUMCO. Tier A.++}
-4.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [Soitec | Key {--{"author":"James's AI","timestamp":1790597030211}@@figures](https://www.soitec.com/home/group) Soitec--}{++{"author":"James's AI","timestamp":1790597030211}@@figures](https://www.soitec.com/home/group). Soitec. Tier A.++}
-5.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [FOUNDATION OF DIGITAL LIFE Investor {--{"author":"James's AI","timestamp":1790597030211}@@Presentation](https://www.siltronic.com/fileadmin/investorrelations/2026/Q1/20260429_Siltronic_InvestorPresentation__.pdf)--}{++{"author":"James's AI","timestamp":1790597030211}@@Presentation](https://www.siltronic.com/fileadmin/investorrelations/2026/Q1/20260429_Siltronic_InvestorPresentation__.pdf).++} Siltronic · 29 April {--{"author":"James's AI","timestamp":1790597030211}@@2026--}{++{"author":"James's AI","timestamp":1790597030211}@@2026. Tier A.++}
-6.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [The Semiconductor Supply Chain - Issue {--{"author":"James's AI","timestamp":1790597030211}@@Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf)--}{++{"author":"James's AI","timestamp":1790597030211}@@Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).++} Center for Security and Emerging Technology (CSET) · 21 January {--{"author":"James's AI","timestamp":1790597030211}@@2021--}{++{"author":"James's AI","timestamp":1790597030211}@@2021. Tier A.++}
-7.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [Consolidated Financial Results for the First Three Quarters Ended December 31, {--{"author":"James's AI","timestamp":1790597030211}@@2025](https://www.shinetsu.co.jp/wp-content/uploads/2025/07/20260127_con_E.pdf)--}{++{"author":"James's AI","timestamp":1790597030211}@@2025](https://www.shinetsu.co.jp/wp-content/uploads/2025/07/20260127_con_E.pdf).++} Shin-Etsu Chemical · 26 January {--{"author":"James's AI","timestamp":1790597030211}@@2026--}{++{"author":"James's AI","timestamp":1790597030211}@@2026. Tier A.++}
-8.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [Note: This document has been translated from the Japanese original for reference purposes only. In the event of {--{"author":"James's AI","timestamp":1790597030211}@@any](https://www.sumcosi.com/english/pdf/ir/library/shareholders/27/pdf/nc_e_27.pdf)--}{++{"author":"James's AI","timestamp":1790597030211}@@any](https://www.sumcosi.com/english/pdf/ir/library/shareholders/27/pdf/nc_e_27.pdf).++} SUMCO · 3 March {--{"author":"James's AI","timestamp":1790597030211}@@2026--}{++{"author":"James's AI","timestamp":1790597030211}@@2026. Tier A.++}
-9.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [Siltronic AG: Robust business performance in 2025 demonstrates resilience despite challenging {--{"author":"James's AI","timestamp":1790597030211}@@conditions](https://www.siltronic.com/en/press/press-releases/siltronic-ag-robust-business-performance-in-2025-demonstrates-resilience-despite-challenging-conditions.html)--}{++{"author":"James's AI","timestamp":1790597030211}@@conditions](https://www.siltronic.com/en/press/press-releases/siltronic-ag-robust-business-performance-in-2025-demonstrates-resilience-despite-challenging-conditions.html).++} Siltronic · 27 August {--{"author":"James's AI","timestamp":1790597030211}@@2026--}{++{"author":"James's AI","timestamp":1790597030211}@@2026. Tier A.++}
-10.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [GlobalWafers Reports Full Year 2025 Results - GlobalWafers Co., Ltd. All rights {--{"author":"James's AI","timestamp":1790597030211}@@reserved.](https://www.sas-globalwafers.com/en/gwc_news_en_20260303/)--}{++{"author":"James's AI","timestamp":1790597030211}@@reserved.](https://www.sas-globalwafers.com/en/gwc_news_en_20260303/).++} GlobalWafers · 3 March {--{"author":"James's AI","timestamp":1790597030211}@@2026--}{++{"author":"James's AI","timestamp":1790597030211}@@2026. Tier A.++}
-11.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [The Mineral Industry of China in {--{"author":"James's AI","timestamp":1790597030211}@@2020-2021](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf)--}{++{"author":"James's AI","timestamp":1790597030211}@@2020-2021](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf).++} U.S. Geological Survey · 17 February {--{"author":"James's AI","timestamp":1790597030211}@@2026--}{++{"author":"James's AI","timestamp":1790597030211}@@2026. Tier A.++}
-12.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [GlobalWafers America Officially Opens for Business - GlobalWafers Co., Ltd. All rights {--{"author":"James's AI","timestamp":1790597030211}@@reserved.](https://www.sas-globalwafers.com/en/gwc_news_en_20250516/)--}{++{"author":"James's AI","timestamp":1790597030211}@@reserved.](https://www.sas-globalwafers.com/en/gwc_news_en_20250516/).++} GlobalWafers · 15 May {--{"author":"James's AI","timestamp":1790597030211}@@2025--}{++{"author":"James's AI","timestamp":1790597030211}@@2025. Tier A.++}
-13.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [Biden-Harris Administration Announces CHIPS Incentives Awards with GlobalWafers to Support Domestic Production of Silicon {--{"author":"James's AI","timestamp":1790597030211}@@Wafers](https://www.commerce.gov/news/press-releases/2024/12/biden-harris-administration-announces-chips-incentives-awards)--}{++{"author":"James's AI","timestamp":1790597030211}@@Wafers](https://www.commerce.gov/news/press-releases/2024/12/biden-harris-administration-announces-chips-incentives-awards).++} U.S. Department of Commerce · 17 December {--{"author":"James's AI","timestamp":1790597030211}@@2024--}{++{"author":"James's AI","timestamp":1790597030211}@@2024. Tier A.
-:::++}
+:::callout {title="Sources (13)" tone="neutral" collapse="closed"}
+1. [SEMI Reports 2025 Annual Worldwide Silicon Wafer Shipments and Revenue Results](https://www.prnewswire.com/news-releases/semi-reports-2025-annual-worldwide-silicon-wafer-shipments-and-revenue-results-302683028.html). PR Newswire · 10 February 2026. Tier A.
+2. [Mineral Commodity Summaries 2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-silicon.pdf). U.S. Geological Survey · 5 February 2026. Tier A.
+3. [SUMCO, production processes page](https://www.sumcosi.com/english/products/process/). SUMCO. Tier A.
+4. [Soitec | Key figures](https://www.soitec.com/home/group). Soitec. Tier A.
+5. [FOUNDATION OF DIGITAL LIFE Investor Presentation](https://www.siltronic.com/fileadmin/investorrelations/2026/Q1/20260429_Siltronic_InvestorPresentation__.pdf). Siltronic · 29 April 2026. Tier A.
+6. [The Semiconductor Supply Chain - Issue Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf). Center for Security and Emerging Technology (CSET) · 21 January 2021. Tier A.
+7. [Consolidated Financial Results for the First Three Quarters Ended December 31, 2025](https://www.shinetsu.co.jp/wp-content/uploads/2025/07/20260127_con_E.pdf). Shin-Etsu Chemical · 26 January 2026. Tier A.
+8. [Note: This document has been translated from the Japanese original for reference purposes only. In the event of any](https://www.sumcosi.com/english/pdf/ir/library/shareholders/27/pdf/nc_e_27.pdf). SUMCO · 3 March 2026. Tier A.
+9. [Siltronic AG: Robust business performance in 2025 demonstrates resilience despite challenging conditions](https://www.siltronic.com/en/press/press-releases/siltronic-ag-robust-business-performance-in-2025-demonstrates-resilience-despite-challenging-conditions.html). Siltronic · 27 August 2026. Tier A.
+10. [GlobalWafers Reports Full Year 2025 Results - GlobalWafers Co., Ltd. All rights reserved.](https://www.sas-globalwafers.com/en/gwc_news_en_20260303/). GlobalWafers · 3 March 2026. Tier A.
+11. [The Mineral Industry of China in 2020-2021](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf). U.S. Geological Survey · 17 February 2026. Tier A.
+12. [GlobalWafers America Officially Opens for Business - GlobalWafers Co., Ltd. All rights reserved.](https://www.sas-globalwafers.com/en/gwc_news_en_20250516/). GlobalWafers · 15 May 2025. Tier A.
+13. [Biden-Harris Administration Announces CHIPS Incentives Awards with GlobalWafers to Support Domestic Production of Silicon Wafers](https://www.commerce.gov/news/press-releases/2024/12/biden-harris-administration-announces-chips-incentives-awards). U.S. Department of Commerce · 17 December 2024. Tier A.
+:::
 
 ## Chemicals, Gases and Photoresist ^chemicals-gases-and-photoresist
 
 A few hundred chemicals separate a blank wafer from a working chip. Japan makes about four-fifths of the photoresist. Twice the supply of these materials has been restricted, and no fab stopped, because the countries affected stockpiled and developed substitutes instead.
 
-{--{"author":"James's AI","timestamp":1790597037723}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
-
-1,467 --}{++{"author":"James's AI","timestamp":1790597037723}@@*1,467 ++}words / 6 {--{"author":"James's AI","timestamp":1790597037723}@@minSpecimen: gas cabinet
-
-**In plain terms**
-
---}{++{"author":"James's AI","timestamp":1790597037723}@@min*
+*1,467 words / 6 min*
 
 :::callout {title="In plain terms" tone="neutral"}
-++}Photoresist is a coating that changes wherever light hits it. A machine spins a coat of it, thinner than a soap bubble, across the wafer. Light shines through a stencil onto the coat, and a liquid wash then takes away the parts the light reached. What remains is a pattern, and the next machine cuts that pattern into the wafer beneath, a step called etching. A few hundred other gases and liquids lay down layers, strip them off and clean the wafer between steps. All of them have to be clean to about one stray metal atom in every trillion. Each formula is approved for one factory and one product at a time, and a new supplier has to earn that approval from scratch, so a second source takes years. Nine tenths of the world's photoresist comes from Japan, and no factory can swap it out quickly.{++{"author":"James's AI","timestamp":1790597037723}@@
-:::++}
+Photoresist is a coating that changes wherever light hits it. A machine spins a coat of it, thinner than a soap bubble, across the wafer. Light shines through a stencil onto the coat, and a liquid wash then takes away the parts the light reached. What remains is a pattern, and the next machine cuts that pattern into the wafer beneath, a step called etching. A few hundred other gases and liquids lay down layers, strip them off and clean the wafer between steps. All of them have to be clean to about one stray metal atom in every trillion. Each formula is approved for one factory and one product at a time, and a new supplier has to earn that approval from scratch, so a second source takes years. Nine tenths of the world's photoresist comes from Japan, and no factory can swap it out quickly.
+:::
 
 ### In short ^in-short-3
 
 Photoresist is the most concentrated input at this stage: about 90 percent Japanese in 2021 and 78 percent in 2023 [3](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf) [4](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf), with one of the largest suppliers now 84 percent owned by a Japanese state fund [5](https://www.jiccapital.co.jp/en/news/.assets/E_20240417_JIC_JICC_PressRelease.pdf). Individual molecules are far more concentrated than the gas industry that sells them: neon and nitrogen trifluoride come from a handful of plants. China's gallium, germanium and antimony controls affect non-silicon chips and optics but not a silicon GPU, and the gallium suspension runs for one year from November 2025 [14](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf). The qualification cycle matters more than the spot price, because every disruption so far was absorbed within a year and each one added a second source somewhere.
 
-{--{"author":"James's AI","timestamp":1790597037723}@@Concentration: **High**--}{++{"author":"James's AI","timestamp":1790597037723}@@:::callout {title="Chokepoint card" tone="amber"}
-**Concentration:** High++}
+:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** High
 
-{--{"author":"James's AI","timestamp":1790597037723}@@Substitutability: **Moderate**.--}{++{"author":"James's AI","timestamp":1790597037723}@@**Substitutability:** Moderate.++} Rated on photoresist, the hardest input in this stage: Japan makes about four-fifths of it, and Korea needed five years to develop substitutes.
+**Substitutability:** Moderate. Rated on photoresist, the hardest input in this stage: Japan makes about four-fifths of it, and Korea needed five years to develop substitutes.
 
-{--{"author":"James's AI","timestamp":1790597037723}@@Price--}{++{"author":"James's AI","timestamp":1790597037723}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597037723}@@size: **Wafer--}{++{"author":"James's AI","timestamp":1790597037723}@@size:** Wafer++} fabrication materials were a $45.8bn market in 2025 and packaging materials $27.4bn, $73.2bn in {--{"author":"James's AI","timestamp":1790597037723}@@total**--}{++{"author":"James's AI","timestamp":1790597037723}@@total++}
+**Price or market size:** Wafer fabrication materials were a $45.8bn market in 2025 and packaging materials $27.4bn, $73.2bn in total
 
 **Who leads**
 
--{--{"author":"James's AI","timestamp":1790597037723}@@   JPJSR--}{++{"author":"James's AI","timestamp":1790597037723}@@ **JSR** (JP):++} Owner of Inpria's metal-oxide resist for extreme-ultraviolet printing; 84% held by Japan Investment Corporation, a state-backed fund, since April 2024
--{--{"author":"James's AI","timestamp":1790597037723}@@   JPTokyo--}{++{"author":"James's AI","timestamp":1790597037723}@@ **Tokyo++} Ohka {--{"author":"James's AI","timestamp":1790597037723}@@Kogyo--}{++{"author":"James's AI","timestamp":1790597037723}@@Kogyo** (JP):++} Top-five resist maker; ¥139.7bn of sales in the first half of fiscal 2026
--{--{"author":"James's AI","timestamp":1790597037723}@@   FRAir Liquide--}{++{"author":"James's AI","timestamp":1790597037723}@@ **Air Liquide** (FR):++} €2,465m of electronics revenue in 2025, 9.1% of group sales
--{--{"author":"James's AI","timestamp":1790597037723}@@   USEntegris--}{++{"author":"James's AI","timestamp":1790597037723}@@ **Entegris** (US):++} $3.20bn of 2025 revenue in filters, polishing slurries, gas delivery and wafer carriers
--{--{"author":"James's AI","timestamp":1790597037723}@@   JPJX--}{++{"author":"James's AI","timestamp":1790597037723}@@ **JX++} Advanced {--{"author":"James's AI","timestamp":1790597037723}@@Metals--}{++{"author":"James's AI","timestamp":1790597037723}@@Metals** (JP):++} About 65% of sputtering targets, the metal plates that chip wiring is made from
+- **JSR** (JP): Owner of Inpria's metal-oxide resist for extreme-ultraviolet printing; 84% held by Japan Investment Corporation, a state-backed fund, since April 2024
+- **Tokyo Ohka Kogyo** (JP): Top-five resist maker; ¥139.7bn of sales in the first half of fiscal 2026
+- **Air Liquide** (FR): €2,465m of electronics revenue in 2025, 9.1% of group sales
+- **Entegris** (US): $3.20bn of 2025 revenue in filters, polishing slurries, gas delivery and wafer carriers
+- **JX Advanced Metals** (JP): About 65% of sputtering targets, the metal plates that chip wiring is made from
 
 **Where it is made**
 
--{--{"author":"James's AI","timestamp":1790597037723}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597037723}@@ **Japan**:++} Photoresist, ultra-pure hydrofluoric acid, sputtering targets, polishing slurries
--{--{"author":"James's AI","timestamp":1790597037723}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597037723}@@ **United States**:++} Entegris filters and wafer carriers, DuPont polishing slurries, Air Products gases
--{--{"author":"James's AI","timestamp":1790597037723}@@   FRFrance--}{++{"author":"James's AI","timestamp":1790597037723}@@ **France**:++} Air Liquide electronics gases and precursors
--{--{"author":"James's AI","timestamp":1790597037723}@@   KRSouth Korea--}{++{"author":"James's AI","timestamp":1790597037723}@@ **South Korea**:++} SK Materials nitrogen trifluoride, Dongjin resist, on-site gas for memory fabs
--{--{"author":"James's AI","timestamp":1790597037723}@@   CNChina--}{++{"author":"James's AI","timestamp":1790597037723}@@ **China**:++} Gallium, germanium and antimony refining; growing wet chemicals and polishing slurries
+- **Japan**: Photoresist, ultra-pure hydrofluoric acid, sputtering targets, polishing slurries
+- **United States**: Entegris filters and wafer carriers, DuPont polishing slurries, Air Products gases
+- **France**: Air Liquide electronics gases and precursors
+- **South Korea**: SK Materials nitrogen trifluoride, Dongjin resist, on-site gas for memory fabs
+- **China**: Gallium, germanium and antimony refining; growing wet chemicals and polishing slurries
 
-{--{"author":"James's AI","timestamp":1790597037723}@@Why--}{++{"author":"James's AI","timestamp":1790597037723}@@**Why++} substitution is {--{"author":"James's AI","timestamp":1790597037723}@@possible--}{++{"author":"James's AI","timestamp":1790597037723}@@possible**++}
+**Why substitution is possible**
 
 Photoresist is the light-sensitive coating that holds the printed pattern on the wafer. Each formula is approved for one layer of one product at one fab. A new supplier therefore has to develop its version together with the fab, one layer at a time. Korea shows what switching takes. When Japan required an individual export license for each shipment of resist in 2019, Korea kept its fabs running and spent five years funding its own substitutes. Switching takes two to five years, and closer to five for the newest chips.
 
@@ -610,8 +517,8 @@ China cannot make photoresist for extreme-ultraviolet printing or for the finest
 
 **Where the US stands**
 
-American firms are strong in filters, containers, polishing slurries and gas delivery: Entegris, DuPont and Air Products. They are nearly absent from advanced photoresist since JSR of Japan bought Inpria, an American startup, in 2021.{++{"author":"James's AI","timestamp":1790597037723}@@
-:::++}
+American firms are strong in filters, containers, polishing slurries and gas delivery: Entegris, DuPont and Air Products. They are nearly absent from advanced photoresist since JSR of Japan bought Inpria, an American startup, in 2021.
+:::
 
 A modern fab is a chemical plant with lithography attached. Air Liquide alone supplies more than 200 molecules and roughly 50,000 cylinders a year [1](https://www.airliquide.com/group/activities/electronics). None of it costs much by the metric ton, and any one of them missing stops the fab.
 
@@ -626,7 +533,7 @@ Everything else puts material on the wafer, takes it off, or keeps it clean. Bul
 ### Variants and trade-offs ^variants-and-trade-offs-3
 
 | Resist class | Wavelength | Where it is used | Limit |
-{--{"author":"James's AI","timestamp":1790597037723}@@| --- | --- | --- | --- |--}{++{"author":"James's AI","timestamp":1790597037723}@@|---|---|---|---|++}
+|---|---|---|---|
 | i-line novolak | 365 nm | Packaging, mature nodes | Resolution |
 | KrF chemically amplified | 248 nm | Implant layers, thick films | Resolution |
 | ArF immersion chemically amplified | 193 nm | Most critical layers below 28 nm | Needs several exposures per layer |
@@ -639,14 +546,12 @@ Each resist class is tied to one scanner and one layer [3](https://cset.georgeto
 
 Japan produced about 90 percent of the world's semiconductor photoresist as of 2021, the rest mostly in the United States and South Korea [3](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf). A later survey by Fuji Keizai, relayed in the December 2025 strategy deck of Japan's Ministry of Economy, Trade and Industry, puts Japan at 78 percent in 2023, the United States at 13 and South Korea at 6, with China inside the small remainder [4](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf).
 
-**Chart:** Semiconductor photoresist production share by country, 2021{--{"author":"James's AI","timestamp":1790597037723}@@ (%)
-
---}{++{"author":"James's AI","timestamp":1790597037723}@@
+**Chart:** Semiconductor photoresist production share by country, 2021
 
 | | % |
 |---|---:|
-| ++}Japan {--{"author":"James's AI","timestamp":1790597037723}@@**90%**--}{++{"author":"James's AI","timestamp":1790597037723}@@| 90 |
-|++} United States, South Korea and others {--{"author":"James's AI","timestamp":1790597037723}@@**10%**--}{++{"author":"James's AI","timestamp":1790597037723}@@| 10 |++}
+| Japan | 90 |
+| United States, South Korea and others | 10 |
 
 Source: [CSET, The Semiconductor Supply Chain](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf)
 
@@ -672,15 +577,15 @@ China's export controls fall on the metals. Beijing announced export licenses fo
 
 Neither metal goes into a silicon logic chip. Germanium goes into fiber optics, infrared optics, solar cells for satellites and radiation detectors [15](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-germanium.pdf); gallium into the non-silicon wafers behind radio front ends, LEDs and lasers [14](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf). They move the price instead. Germanium metal averaged $4,100 a kilogram in 2025 against $1,392 in 2023, and US imports of the metal fell 67 percent [15](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-germanium.pdf). The US Geological Survey put the cost to US GDP of a complete ban at about $3.4 billion [13](https://www.stimson.org/2025/chinas-germanium-and-gallium-export-restrictions-consequences-for-the-united-states/).
 
-**Chart:** Germanium metal, annual average price ($/kg). China licensed exports from August 2023 and banned US shipments in December 2024{--{"author":"James's AI","timestamp":1790597037723}@@ ($/kg)--}
+**Chart:** Germanium metal, annual average price ($/kg). China licensed exports from August 2023 and banned US shipments in December 2024
 
-{++{"author":"James's AI","timestamp":1790597037723}@@| | $/kg |
+| | $/kg |
 |---|---:|
-| ++}2021 {++{"author":"James's AI","timestamp":1790597037723}@@| ++}1,187 {++{"author":"James's AI","timestamp":1790597037723}@@|
-| ++}2022 {++{"author":"James's AI","timestamp":1790597037723}@@| ++}1,294 {++{"author":"James's AI","timestamp":1790597037723}@@|
-| ++}2023 {++{"author":"James's AI","timestamp":1790597037723}@@| ++}1,392 {++{"author":"James's AI","timestamp":1790597037723}@@|
-| ++}2024 {++{"author":"James's AI","timestamp":1790597037723}@@| ++}1,991 {++{"author":"James's AI","timestamp":1790597037723}@@|
-| ++}2025 {++{"author":"James's AI","timestamp":1790597037723}@@| ++}4,100{++{"author":"James's AI","timestamp":1790597037723}@@ |++}
+| 2021 | 1,187 |
+| 2022 | 1,294 |
+| 2023 | 1,392 |
+| 2024 | 1,991 |
+| 2025 | 4,100 |
 
 Source: [USGS Mineral Commodity Summaries, February 2026 (Argus Media prices)](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-germanium.pdf)
 
@@ -688,130 +593,100 @@ The slower risk is the European Union's proposed restriction on PFAS, the long-l
 
 ### Key evaluation criteria ^key-evaluation-criteria-3
 
--{--{"author":"James's AI","timestamp":1790597037723}@@   --}{++{"author":"James's AI","timestamp":1790597037723}@@ ++}**Purity, in parts per trillion** of metallic contamination, a million times finer than parts per million, which is the spec that keeps entrants out.
--{--{"author":"James's AI","timestamp":1790597037723}@@   --}{++{"author":"James's AI","timestamp":1790597037723}@@ ++}**Qualification lock-in**: a resist or slurry is approved for one layer of one product at one fab, so switching costs are counted in tape-outs.
--{--{"author":"James's AI","timestamp":1790597037723}@@   --}{++{"author":"James's AI","timestamp":1790597037723}@@ ++}**Photon efficiency** for EUV resists: how much light the resist absorbs sets the dose, the dose sets how many wafers an hour the scanner prints, and too few photons per dose set the defect rate, which is the case for metal-oxide chemistry.
--{--{"author":"James's AI","timestamp":1790597037723}@@   --}{++{"author":"James's AI","timestamp":1790597037723}@@ ++}**Transportability**: bulk gases are made on site at the fab, and only cylinder-shipped specialty gases can be embargoed.
--{--{"author":"James's AI","timestamp":1790597037723}@@   --}{++{"author":"James's AI","timestamp":1790597037723}@@ ++}**Byproduct exposure**: gallium is recovered mostly from bauxite refining and germanium from zinc concentrates, so supply depends on another industry's economics [14](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf).
+- **Purity, in parts per trillion** of metallic contamination, a million times finer than parts per million, which is the spec that keeps entrants out.
+- **Qualification lock-in**: a resist or slurry is approved for one layer of one product at one fab, so switching costs are counted in tape-outs.
+- **Photon efficiency** for EUV resists: how much light the resist absorbs sets the dose, the dose sets how many wafers an hour the scanner prints, and too few photons per dose set the defect rate, which is the case for metal-oxide chemistry.
+- **Transportability**: bulk gases are made on site at the fab, and only cylinder-shipped specialty gases can be embargoed.
+- **Byproduct exposure**: gallium is recovered mostly from bauxite refining and germanium from zinc concentrates, so supply depends on another industry's economics [14](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf).
 
-{--{"author":"James's AI","timestamp":1790597037723}@@Card 1 of 4Question
+::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.
 
-What does photoresist do?--}{++{"author":"James's AI","timestamp":1790597037723}@@::::callout {title="Flashcards" tone="blue"}
-Recall each answer, then open the card.++}
+:::callout {title="Card 1 of 4: What does photoresist do?" tone="neutral" collapse="closed"}
+It holds the pattern printed by light, so the next step can etch that pattern into the wafer.
 
-{--{"author":"James's AI","timestamp":1790597037723}@@Card --}{++{"author":"James's AI","timestamp":1790597037723}@@:::callout {title="Card ++}1 of {--{"author":"James's AI","timestamp":1790597037723}@@4Answer
-
---}{++{"author":"James's AI","timestamp":1790597037723}@@4: What does photoresist do?" tone="neutral" collapse="closed"}
-++}It holds the pattern printed by light, so the next step can etch that pattern into the wafer.
-
-A wash removes the parts the light reached. The pattern that remains guides the etch. [[#^how-it-works-3|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597037723}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597037723}@@Card--}{++{"author":"James's AI","timestamp":1790597037723}@@:::callout {title="Card++} 2 of {--{"author":"James's AI","timestamp":1790597037723}@@4Question
-
---}{++{"author":"James's AI","timestamp":1790597037723}@@4: ++}Which country makes most of the world's {--{"author":"James's AI","timestamp":1790597037723}@@photoresist?
-
-Card 2 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597037723}@@photoresist?" tone="neutral" collapse="closed"}
-++}Japan.
-
-Japan made about 90 percent in 2021 and 78 percent in 2023. [[#^who-makes-it-3|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597037723}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597037723}@@Card--}{++{"author":"James's AI","timestamp":1790597037723}@@:::callout {title="Card++} 3 of{--{"author":"James's AI","timestamp":1790597037723}@@ 4Question
-
---}{++{"author":"James's AI","timestamp":1790597037723}@@ 4: ++}Why does replacing a photoresist supplier take {--{"author":"James's AI","timestamp":1790597037723}@@years?
-
-Card 3 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597037723}@@years?" tone="neutral" collapse="closed"}
-++}Each formula is approved for one layer of one product at one factory.
-
-After Japan's 2019 export licenses, Korea needed five years to build substitutes. [[#^the-chokepoint-3|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597037723}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597037723}@@Card--}{++{"author":"James's AI","timestamp":1790597037723}@@:::callout {title="Card++} 4 of {--{"author":"James's AI","timestamp":1790597037723}@@4Question
-
---}{++{"author":"James's AI","timestamp":1790597037723}@@4: ++}Do China's controls on gallium and germanium hurt silicon AI {--{"author":"James's AI","timestamp":1790597037723}@@chips?
-
-Card 4 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597037723}@@chips?" tone="neutral" collapse="closed"}
-++}Very little. Neither metal goes into a silicon chip.
-
-Both go into optics and non-silicon chips such as LEDs and lasers. [[#^the-chokepoint-3|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597037723}@@
+A wash removes the parts the light reached. The pattern that remains guides the etch. [[#^how-it-works-3|Reread: How it works]]
 :::
 
-::::++}
+:::callout {title="Card 2 of 4: Which country makes most of the world's photoresist?" tone="neutral" collapse="closed"}
+Japan.
 
-{--{"author":"James's AI","timestamp":1790597037723}@@#### Four--}{++{"author":"James's AI","timestamp":1790597037723}@@:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597037723}@@remember ^four-things-to-remember-2
+Japan made about 90 percent in 2021 and 78 percent in 2023. [[#^who-makes-it-3|Reread: Who makes it]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597037723}@@remember" tone="green"}
-++}-{--{"author":"James's AI","timestamp":1790597037723}@@   --}{++{"author":"James's AI","timestamp":1790597037723}@@ ++}Photoresist holds the pattern printed by light so the next step can etch it into the wafer.
--{--{"author":"James's AI","timestamp":1790597037723}@@   --}{++{"author":"James's AI","timestamp":1790597037723}@@ ++}Japan makes most of the world's photoresist: about 90 percent in 2021 and 78 percent in 2023.
--{--{"author":"James's AI","timestamp":1790597037723}@@   --}{++{"author":"James's AI","timestamp":1790597037723}@@ ++}Each resist is approved for one layer of one product at one factory, so a new supplier takes years.
--{--{"author":"James's AI","timestamp":1790597037723}@@   --}{++{"author":"James's AI","timestamp":1790597037723}@@ ++}China's gallium and germanium controls hit optics and non-silicon chips, and barely touch a silicon GPU.{++{"author":"James's AI","timestamp":1790597037723}@@
-:::++}
+:::callout {title="Card 3 of 4: Why does replacing a photoresist supplier take years?" tone="neutral" collapse="closed"}
+Each formula is approved for one layer of one product at one factory.
 
-{--{"author":"James's AI","timestamp":1790597037723}@@**Sources (16)**
+After Japan's 2019 export licenses, Korea needed five years to build substitutes. [[#^the-chokepoint-3|Reread: The chokepoint]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597037723}@@:::callout {title="Sources (16)" tone="neutral" collapse="closed"}
-++}1.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [Electronics | Air {--{"author":"James's AI","timestamp":1790597037723}@@Liquide](https://www.airliquide.com/group/activities/electronics)--}{++{"author":"James's AI","timestamp":1790597037723}@@Liquide](https://www.airliquide.com/group/activities/electronics).++} Air {--{"author":"James's AI","timestamp":1790597037723}@@Liquide--}{++{"author":"James's AI","timestamp":1790597037723}@@Liquide. Tier A.++}
-2.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [JSR Agrees to Acquire EUV Pioneer Inpria Corporation | 2021 | {--{"author":"James's AI","timestamp":1790597037723}@@News](https://www.jsr.co.jp/jsr_e/news/2021/20210917.html)--}{++{"author":"James's AI","timestamp":1790597037723}@@News](https://www.jsr.co.jp/jsr_e/news/2021/20210917.html).++} JSR Corporation · 17 September {--{"author":"James's AI","timestamp":1790597037723}@@2021--}{++{"author":"James's AI","timestamp":1790597037723}@@2021. Tier A.++}
-3.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [The Semiconductor Supply Chain - Issue {--{"author":"James's AI","timestamp":1790597037723}@@Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf)--}{++{"author":"James's AI","timestamp":1790597037723}@@Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).++} Center for Security and Emerging Technology (CSET) · 21 January {--{"author":"James's AI","timestamp":1790597037723}@@2021--}{++{"author":"James's AI","timestamp":1790597037723}@@2021. Tier A.++}
-4.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [METI, Semiconductor and digital industry strategy: future direction (半導体・デジタル産業戦略の今後の方向性), 23 December {--{"author":"James's AI","timestamp":1790597037723}@@2025](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf)--}{++{"author":"James's AI","timestamp":1790597037723}@@2025](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf).++} Ministry of Economy, Trade and Industry (Japan) · 23 December {--{"author":"James's AI","timestamp":1790597037723}@@2025--}{++{"author":"James's AI","timestamp":1790597037723}@@2025. Tier A.++}
-5.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [April 17, 2024 Japan Investment {--{"author":"James's AI","timestamp":1790597037723}@@Corporation](https://www.jiccapital.co.jp/en/news/.assets/E_20240417_JIC_JICC_PressRelease.pdf)--}{++{"author":"James's AI","timestamp":1790597037723}@@Corporation](https://www.jiccapital.co.jp/en/news/.assets/E_20240417_JIC_JICC_PressRelease.pdf).++} Japan Investment Corporation · 17 April {--{"author":"James's AI","timestamp":1790597037723}@@2024--}{++{"author":"James's AI","timestamp":1790597037723}@@2024. Tier A.++}
-6.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [Consolidated Financial Results for the Second Quarter (Interim) of the Fiscal Year Ending December 31, 2026 {--{"author":"James's AI","timestamp":1790597037723}@@\[J-GAAP\]](https://www.tok.co.jp/application/files/7417/8598/0069/q2_2612_en.pdf)--}{++{"author":"James's AI","timestamp":1790597037723}@@[J-GAAP]](https://www.tok.co.jp/application/files/7417/8598/0069/q2_2612_en.pdf).++} Tokyo Ohka Kogyo · 5 August {--{"author":"James's AI","timestamp":1790597037723}@@2026--}{++{"author":"James's AI","timestamp":1790597037723}@@2026. Tier A.++}
-7.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [Fujifilm to Enhance its Production Capacity of Advanced Semiconductor Material CMP Slurries at the Kumamoto {--{"author":"James's AI","timestamp":1790597037723}@@Site](https://www.fujifilm.com/jp/en/news/hq/11942)--}{++{"author":"James's AI","timestamp":1790597037723}@@Site](https://www.fujifilm.com/jp/en/news/hq/11942).++} Fujifilm · 5 December {--{"author":"James's AI","timestamp":1790597037723}@@2024--}{++{"author":"James's AI","timestamp":1790597037723}@@2024. Tier A.++}
-8.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [Fujifilm Launches EUV Resist and EUV {--{"author":"James's AI","timestamp":1790597037723}@@Developer](https://www.fujifilm.com/jp/en/news/hq/11842)--}{++{"author":"James's AI","timestamp":1790597037723}@@Developer](https://www.fujifilm.com/jp/en/news/hq/11842).++} Fujifilm · 29 October {--{"author":"James's AI","timestamp":1790597037723}@@2024--}{++{"author":"James's AI","timestamp":1790597037723}@@2024. Tier A.++}
-9.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [Global Semiconductor Materials Market Revenue Reaches Record $73.2 Billion in 2025, SEMI {--{"author":"James's AI","timestamp":1790597037723}@@Reports](https://www.prnewswire.com/news-releases/global-semiconductor-materials-market-revenue-reaches-record-73-2-billion-in-2025--semi-reports-302768700.html)--}{++{"author":"James's AI","timestamp":1790597037723}@@Reports](https://www.prnewswire.com/news-releases/global-semiconductor-materials-market-revenue-reaches-record-73-2-billion-in-2025--semi-reports-302768700.html).++} PR Newswire · 12 May {--{"author":"James's AI","timestamp":1790597037723}@@2026--}{++{"author":"James's AI","timestamp":1790597037723}@@2026. Tier A.++}
-10.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [Quick Guide to JX Advanced Metals | Corporate {--{"author":"James's AI","timestamp":1790597037723}@@Overview](https://www.jx-nmm.com/english/company/glance/)--}{++{"author":"James's AI","timestamp":1790597037723}@@Overview](https://www.jx-nmm.com/english/company/glance/).++} JX Advanced {--{"author":"James's AI","timestamp":1790597037723}@@Metals--}{++{"author":"James's AI","timestamp":1790597037723}@@Metals. Tier A.++}
-11.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [The impact of export controls on international trade: evidence from the Japan–Korea trade dispute in the semiconductor {--{"author":"James's AI","timestamp":1790597037723}@@industry](https://www.rieti.go.jp/en/columns/v01_0201.html)--}{++{"author":"James's AI","timestamp":1790597037723}@@industry](https://www.rieti.go.jp/en/columns/v01_0201.html).++} Research Institute of Economy, Trade and Industry (Japan) · 8 May {--{"author":"James's AI","timestamp":1790597037723}@@2023--}{++{"author":"James's AI","timestamp":1790597037723}@@2023. Tier A.++}
-12.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [Russia's Invasion of Ukraine Impacts Gas Markets Critical to Chip Production | Perspectives on {--{"author":"James's AI","timestamp":1790597037723}@@Innovation](https://www.csis.org/blogs/perspectives-innovation/russias-invasion-ukraine-impacts-gas-markets-critical-chip-production)--}{++{"author":"James's AI","timestamp":1790597037723}@@Innovation](https://www.csis.org/blogs/perspectives-innovation/russias-invasion-ukraine-impacts-gas-markets-critical-chip-production).++} Center for Strategic and International {--{"author":"James's AI","timestamp":1790597037723}@@Studies--}{++{"author":"James's AI","timestamp":1790597037723}@@Studies. Tier A.++}
-13.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [China’s Germanium and Gallium Export Restrictions: Consequences for the United {--{"author":"James's AI","timestamp":1790597037723}@@States](https://www.stimson.org/2025/chinas-germanium-and-gallium-export-restrictions-consequences-for-the-united-states/)--}{++{"author":"James's AI","timestamp":1790597037723}@@States](https://www.stimson.org/2025/chinas-germanium-and-gallium-export-restrictions-consequences-for-the-united-states/).++} Stimson Center · 19 March {--{"author":"James's AI","timestamp":1790597037723}@@2025--}{++{"author":"James's AI","timestamp":1790597037723}@@2025. Tier A.++}
-14.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [Mineral Commodity Summaries {--{"author":"James's AI","timestamp":1790597037723}@@2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf)--}{++{"author":"James's AI","timestamp":1790597037723}@@2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf).++} U.S. Geological Survey · 5 February {--{"author":"James's AI","timestamp":1790597037723}@@2026--}{++{"author":"James's AI","timestamp":1790597037723}@@2026. Tier A.++}
-15.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [Mineral Commodity Summaries {--{"author":"James's AI","timestamp":1790597037723}@@2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-germanium.pdf)--}{++{"author":"James's AI","timestamp":1790597037723}@@2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-germanium.pdf).++} U.S. Geological Survey · 5 February {--{"author":"James's AI","timestamp":1790597037723}@@2026--}{++{"author":"James's AI","timestamp":1790597037723}@@2026. Tier A.++}
-16.{--{"author":"James's AI","timestamp":1790597037723}@@  A--} [ECHA supports PFAS restriction with targeted {--{"author":"James's AI","timestamp":1790597037723}@@derogations](https://echa.europa.eu/-/echa-supports-pfas-restriction-with-targeted-derogations)--}{++{"author":"James's AI","timestamp":1790597037723}@@derogations](https://echa.europa.eu/-/echa-supports-pfas-restriction-with-targeted-derogations).++} European Chemicals Agency · 26 March {--{"author":"James's AI","timestamp":1790597037723}@@2026--}{++{"author":"James's AI","timestamp":1790597037723}@@2026. Tier A.
-:::++}
+:::callout {title="Card 4 of 4: Do China's controls on gallium and germanium hurt silicon AI chips?" tone="neutral" collapse="closed"}
+Very little. Neither metal goes into a silicon chip.
+
+Both go into optics and non-silicon chips such as LEDs and lasers. [[#^the-chokepoint-3|Reread: The chokepoint]]
+:::
+
+::::
+
+:::callout {title="Four things to remember" tone="green"}
+- Photoresist holds the pattern printed by light so the next step can etch it into the wafer.
+- Japan makes most of the world's photoresist: about 90 percent in 2021 and 78 percent in 2023.
+- Each resist is approved for one layer of one product at one factory, so a new supplier takes years.
+- China's gallium and germanium controls hit optics and non-silicon chips, and barely touch a silicon GPU.
+:::
+
+:::callout {title="Sources (16)" tone="neutral" collapse="closed"}
+1. [Electronics | Air Liquide](https://www.airliquide.com/group/activities/electronics). Air Liquide. Tier A.
+2. [JSR Agrees to Acquire EUV Pioneer Inpria Corporation | 2021 | News](https://www.jsr.co.jp/jsr_e/news/2021/20210917.html). JSR Corporation · 17 September 2021. Tier A.
+3. [The Semiconductor Supply Chain - Issue Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf). Center for Security and Emerging Technology (CSET) · 21 January 2021. Tier A.
+4. [METI, Semiconductor and digital industry strategy: future direction (半導体・デジタル産業戦略の今後の方向性), 23 December 2025](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf). Ministry of Economy, Trade and Industry (Japan) · 23 December 2025. Tier A.
+5. [April 17, 2024 Japan Investment Corporation](https://www.jiccapital.co.jp/en/news/.assets/E_20240417_JIC_JICC_PressRelease.pdf). Japan Investment Corporation · 17 April 2024. Tier A.
+6. [Consolidated Financial Results for the Second Quarter (Interim) of the Fiscal Year Ending December 31, 2026 [J-GAAP]](https://www.tok.co.jp/application/files/7417/8598/0069/q2_2612_en.pdf). Tokyo Ohka Kogyo · 5 August 2026. Tier A.
+7. [Fujifilm to Enhance its Production Capacity of Advanced Semiconductor Material CMP Slurries at the Kumamoto Site](https://www.fujifilm.com/jp/en/news/hq/11942). Fujifilm · 5 December 2024. Tier A.
+8. [Fujifilm Launches EUV Resist and EUV Developer](https://www.fujifilm.com/jp/en/news/hq/11842). Fujifilm · 29 October 2024. Tier A.
+9. [Global Semiconductor Materials Market Revenue Reaches Record $73.2 Billion in 2025, SEMI Reports](https://www.prnewswire.com/news-releases/global-semiconductor-materials-market-revenue-reaches-record-73-2-billion-in-2025--semi-reports-302768700.html). PR Newswire · 12 May 2026. Tier A.
+10. [Quick Guide to JX Advanced Metals | Corporate Overview](https://www.jx-nmm.com/english/company/glance/). JX Advanced Metals. Tier A.
+11. [The impact of export controls on international trade: evidence from the Japan–Korea trade dispute in the semiconductor industry](https://www.rieti.go.jp/en/columns/v01_0201.html). Research Institute of Economy, Trade and Industry (Japan) · 8 May 2023. Tier A.
+12. [Russia's Invasion of Ukraine Impacts Gas Markets Critical to Chip Production | Perspectives on Innovation](https://www.csis.org/blogs/perspectives-innovation/russias-invasion-ukraine-impacts-gas-markets-critical-chip-production). Center for Strategic and International Studies. Tier A.
+13. [China’s Germanium and Gallium Export Restrictions: Consequences for the United States](https://www.stimson.org/2025/chinas-germanium-and-gallium-export-restrictions-consequences-for-the-united-states/). Stimson Center · 19 March 2025. Tier A.
+14. [Mineral Commodity Summaries 2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf). U.S. Geological Survey · 5 February 2026. Tier A.
+15. [Mineral Commodity Summaries 2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-germanium.pdf). U.S. Geological Survey · 5 February 2026. Tier A.
+16. [ECHA supports PFAS restriction with targeted derogations](https://echa.europa.eu/-/echa-supports-pfas-restriction-with-targeted-derogations). European Chemicals Agency · 26 March 2026. Tier A.
+:::
 
 ## Lithography ^lithography
 
 The most concentrated stage in the chain. One firm in the Netherlands builds every extreme ultraviolet scanner in the world, the machine that prints the finest circuit layers. It shipped 48 of them in 2025, at around $200 million each.
 
-{--{"author":"James's AI","timestamp":1790597045244}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+*1,564 words / 7 min*
 
-1,564--}{++{"author":"James's AI","timestamp":1790597045244}@@*1,564++} words / 7{--{"author":"James's AI","timestamp":1790597045244}@@ minSpecimen: EUV scanner--}{++{"author":"James's AI","timestamp":1790597045244}@@ min*++}
-
-{--{"author":"James's AI","timestamp":1790597045244}@@**In --}{++{"author":"James's AI","timestamp":1790597045244}@@:::callout {title="In ++}plain {--{"author":"James's AI","timestamp":1790597045244}@@terms**
-
---}{++{"author":"James's AI","timestamp":1790597045244}@@terms" tone="neutral"}
-++}Lithography prints the pattern of a circuit onto the wafer. A machine holds a stencil of one layer of the circuit up to a lamp and projects the image, four times smaller, onto the silicon. Light cannot draw a line much finer than its own wave, so the finer the lines, the shorter the wavelength of light needed to print them. Air soaks up the shortest light now in use, so the machine has to print in a vacuum. Only one company has ever built a machine that prints with it, and it is Dutch. Export controls are government rules on who a company may sell to. Every advanced chip passes through that firm's machines, so a rule aimed at it reaches all advanced chipmaking.{++{"author":"James's AI","timestamp":1790597045244}@@
-:::++}
+:::callout {title="In plain terms" tone="neutral"}
+Lithography prints the pattern of a circuit onto the wafer. A machine holds a stencil of one layer of the circuit up to a lamp and projects the image, four times smaller, onto the silicon. Light cannot draw a line much finer than its own wave, so the finer the lines, the shorter the wavelength of light needed to print them. Air soaks up the shortest light now in use, so the machine has to print in a vacuum. Only one company has ever built a machine that prints with it, and it is Dutch. Export controls are government rules on who a company may sell to. Every advanced chip passes through that firm's machines, so a rule aimed at it reaches all advanced chipmaking.
+:::
 
 ### In short ^in-short-4
 
 ASML, in Veldhoven, using Zeiss mirrors from Oberkochen, sets the resolution of every leading-edge AI chip. ASML booked 48 EUV systems in 2025, four of them High-NA [1](https://ourbrand.asml.com/m/419103cb23dfeaa4/original/asml-2025-annual-report-financial-performance-section.pdf). Export controls cut China's share of ASML system sales from 41 percent in 2024 to 33 percent in 2025 [4](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf), and China's answer is domestic immersion DUV plus an EUV prototype that has not yet made a chip. No announced program changes this bottleneck before 2030.
 
-{--{"author":"James's AI","timestamp":1790597045244}@@Concentration: **Extreme**--}{++{"author":"James's AI","timestamp":1790597045244}@@:::callout {title="Chokepoint card" tone="amber"}
-**Concentration:** Extreme++}
+:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** Extreme
 
-{--{"author":"James's AI","timestamp":1790597045244}@@Substitutability: **Very hard**.--}{++{"author":"James's AI","timestamp":1790597045244}@@**Substitutability:** Very hard.++} ASML is the only maker of EUV scanners, only Zeiss can polish their mirrors, and a state-funded Chinese team has made the light but has not printed a chip.
+**Substitutability:** Very hard. ASML is the only maker of EUV scanners, only Zeiss can polish their mirrors, and a state-funded Chinese team has made the light but has not printed a chip.
 
-{--{"author":"James's AI","timestamp":1790597045244}@@Price--}{++{"author":"James's AI","timestamp":1790597045244}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597045244}@@size: **About $200M**.--}{++{"author":"James's AI","timestamp":1790597045244}@@size:** About $200M.++} for a standard EUV scanner, $350-400M for the newer High-NA version and about $60M for a DUV tool, according to Reuters. ASML does not publish per-system prices
+**Price or market size:** About $200M. for a standard EUV scanner, $350-400M for the newer High-NA version and about $60M for a DUV tool, according to Reuters. ASML does not publish per-system prices
 
 **Who leads**
 
--{--{"author":"James's AI","timestamp":1790597045244}@@   NLASML--}{++{"author":"James's AI","timestamp":1790597045244}@@ **ASML** (NL):++} 100% of EUV (extreme ultraviolet) and above 80% of DUV (deep ultraviolet); EUV was 48% of its own 2025 system revenue and immersion DUV 42%
--{--{"author":"James's AI","timestamp":1790597045244}@@   JPNikon--}{++{"author":"James's AI","timestamp":1790597045244}@@ **Nikon** (JP):++} 22 new chipmaking scanners in the year to March 2026, in a market Nikon estimates at 570 units
--{--{"author":"James's AI","timestamp":1790597045244}@@   JPCanon--}{++{"author":"James's AI","timestamp":1790597045244}@@ **Canon** (JP):++} i-line and krypton fluoride steppers for older, coarser layers, plus the only commercial nanoimprint tool
+- **ASML** (NL): 100% of EUV (extreme ultraviolet) and above 80% of DUV (deep ultraviolet); EUV was 48% of its own 2025 system revenue and immersion DUV 42%
+- **Nikon** (JP): 22 new chipmaking scanners in the year to March 2026, in a market Nikon estimates at 570 units
+- **Canon** (JP): i-line and krypton fluoride steppers for older, coarser layers, plus the only commercial nanoimprint tool
 
 **Where it is made**
 
--{--{"author":"James's AI","timestamp":1790597045244}@@   NLNetherlands--}{++{"author":"James's AI","timestamp":1790597045244}@@ **Netherlands**:++} ASML design and final assembly, Veldhoven
--{--{"author":"James's AI","timestamp":1790597045244}@@   DEGermany--}{++{"author":"James's AI","timestamp":1790597045244}@@ **Germany**:++} Zeiss SMT optics, Oberkochen; Trumpf carbon dioxide lasers that drive the light source, Ditzingen
--{--{"author":"James's AI","timestamp":1790597045244}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597045244}@@ **United States**:++} ASML light-source research and manufacturing, San Diego
--{--{"author":"James's AI","timestamp":1790597045244}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597045244}@@ **Japan**:++} Nikon and Canon deep ultraviolet scanners and steppers
+- **Netherlands**: ASML design and final assembly, Veldhoven
+- **Germany**: Zeiss SMT optics, Oberkochen; Trumpf carbon dioxide lasers that drive the light source, Ditzingen
+- **United States**: ASML light-source research and manufacturing, San Diego
+- **Japan**: Nikon and Canon deep ultraviolet scanners and steppers
 
 **Why substitution is slow**
 
@@ -823,8 +698,8 @@ No EUV scanner has ever been sold to a customer in China. CSIS judges that China
 
 **Where the US stands**
 
-No American firm makes scanners. The US government still controls who may buy them, through Dutch export licenses, the American-made parts inside each machine, and its entity list of firms that may not be supplied.{++{"author":"James's AI","timestamp":1790597045244}@@
-:::++}
+No American firm makes scanners. The US government still controls who may buy them, through Dutch export licenses, the American-made parts inside each machine, and its entity list of firms that may not be supplied.
+:::
 
 Every transistor in an AI accelerator gets its shape from a machine one company builds. ASML sold 327 lithography systems in 2025, 48 of them extreme ultraviolet, and nobody else sells EUV [1](https://ourbrand.asml.com/m/419103cb23dfeaa4/original/asml-2025-annual-report-financial-performance-section.pdf).
 
@@ -834,11 +709,9 @@ The stencil is a photomask, the film is photoresist and the machine is a scanner
 
 The wafer is coated with photoresist, a film that changes wherever light touches it. The mask holds one layer of the circuit as a pattern of clear and dark areas, drawn four times larger than life. The machine shines light through the mask, shrinks the image four times with a lens, and lands it on the film. A wash then removes the film where the light hit, and the pattern is left standing on the wafer for the next machine to etch in or fill with metal. Then the film is stripped and the next mask goes in. A chip takes dozens of masks, one per layer.
 
-{--{"author":"James's AI","timestamp":1790594483803}@@![](https://chipsupplychain.org/media/litho-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594483803}@@![How lithography prints a chip](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-litho.jpg)++}{--{"author":"James's AI","timestamp":1790597045244}@@
+![How lithography prints a chip](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-litho.jpg)
 
-**Figure: How--}{++{"author":"James's AI","timestamp":1790597045244}@@
-
-*How++} lithography prints a {--{"author":"James's AI","timestamp":1790597045244}@@chip.** An animation on the live site ([watch it--}{++{"author":"James's AI","timestamp":1790597045244}@@chip. The last frame of an animation++} on{--{"author":"James's AI","timestamp":1790597045244}@@ chipsupplychain.org](https://chipsupplychain.org/#lithography)); above is its last frame.--}{++{"author":"James's AI","timestamp":1790597045244}@@ the original site.++} Its {--{"author":"James's AI","timestamp":1790597045244}@@steps:--}{++{"author":"James's AI","timestamp":1790597045244}@@steps:*++}
+*How lithography prints a chip. The last frame of an animation on the original site. Its steps:*
 
 1. **Coat.** The wafer is coated with a thin film that changes wherever light touches it.
 2. **Stencil.** A stencil, called a mask, holds the pattern for one layer of the chip, drawn four times larger than life.
@@ -846,9 +719,7 @@ The wafer is coated with photoresist, a film that changes wherever light touches
 4. **Wash.** A wash removes the film wherever the light landed, and the pattern is left on the wafer.
 5. **Repeat.** The machine steps across the wafer, printing one patch at a time, each about the size of a postage stamp.
 
-{--{"author":"James's AI","timestamp":1790597045244}@@_Simplified.--}{++{"author":"James's AI","timestamp":1790597045244}@@*Simplified.++} The newest machines, which use extreme ultraviolet light, carry the image with mirrors in place of a {--{"author":"James's AI","timestamp":1790597045244}@@lens._
-
-How lithography prints a chip--}{++{"author":"James's AI","timestamp":1790597045244}@@lens.*++}
+*Simplified. The newest machines, which use extreme ultraviolet light, carry the image with mirrors in place of a lens.*
 
 The image from one mask covers a patch about 26 by 33 mm, so the wafer moves under the lens one patch at a time, close to a hundred patches per wafer. ASML's own throughput rating for an EUV scanner assumes 96 of them [2](https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe3400b). Before each one, the machine finds marks printed in earlier layers and lines the new layer up on them to within a few nanometers.
 
@@ -876,32 +747,30 @@ High numerical aperture (High-NA) raises the aperture from 0.33 to 0.55 and cuts
 
 Reuters puts a standard EUV tool at around $200 million and a High-NA machine at $350 to $400 million, prices ASML does not publish [5](https://www.reuters.com/world/asia-pacific/250-million-asml-printer-behind-nvidias-chips-2026-07-28/).
 
-**Chart:** What one lithography system costs. The High-NA figure is quoted as a $350-400M range; the bar shows the low end{--{"author":"James's AI","timestamp":1790597045244}@@ ($M)
-
---}{++{"author":"James's AI","timestamp":1790597045244}@@
+**Chart:** What one lithography system costs. The High-NA figure is quoted as a $350-400M range; the bar shows the low end
 
 | | $M |
 |---|---:|
-| ++}DUV scanner {++{"author":"James's AI","timestamp":1790597045244}@@| ++}60 {++{"author":"James's AI","timestamp":1790597045244}@@|
-| ++}EUV, 0.33 NA {++{"author":"James's AI","timestamp":1790597045244}@@| ++}200 {++{"author":"James's AI","timestamp":1790597045244}@@|
-| ++}High-NA EUV {++{"author":"James's AI","timestamp":1790597045244}@@| ++}350{++{"author":"James's AI","timestamp":1790597045244}@@ |++}
+| DUV scanner | 60 |
+| EUV, 0.33 NA | 200 |
+| High-NA EUV | 350 |
 
 Source: [Reuters, The $400 million ASML 'printers', July 2026](https://www.reuters.com/world/asia-pacific/250-million-asml-printer-behind-nvidias-chips-2026-07-28/)
 
 Intel and TSMC have chosen differently on High-NA:
 
--{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**Intel Foundry** ships the first high-volume logic product made with High-NA, on Intel 18A, and installed the first EXE:5200B [9](https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone), after more than a million High-NA wafers [10](https://www.intel.com/content/www/us/en/newsroom/news/intel-foundry/intel-foundry-asml-accelerate-industry-readiness-for-high-na-euv.html).
--{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**TSMC** waited, and now says it will use High-NA in high-volume manufacturing from 2030 [11](https://pr.tsmc.com/english/news/3338).
+- **Intel Foundry** ships the first high-volume logic product made with High-NA, on Intel 18A, and installed the first EXE:5200B [9](https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone), after more than a million High-NA wafers [10](https://www.intel.com/content/www/us/en/newsroom/news/intel-foundry/intel-foundry-asml-accelerate-industry-readiness-for-high-na-euv.html).
+- **TSMC** waited, and now says it will use High-NA in high-volume manufacturing from 2030 [11](https://pr.tsmc.com/english/news/3338).
 
 ASML booked four EXE systems as revenue in 2025 against two in 2024 [1](https://ourbrand.asml.com/m/419103cb23dfeaa4/original/asml-2025-annual-report-financial-performance-section.pdf), and expects the platform to carry high-volume manufacturing from 2027 [7](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf). On 8 September 2026 it announced with TSMC a move to 12-inch photomasks to lift the field-size limit, with a pilot mask line in 2031 and production systems by 2033 [11](https://pr.tsmc.com/english/news/3338).
 
-{++{"author":"James's AI","timestamp":1790593874567}@@**Chart:** ++}EUV systems ASML booked as revenue each {--{"author":"James's AI","timestamp":1790597045244}@@yeartools--}{++{"author":"James's AI","timestamp":1790597045244}@@year++}
+**Chart:** EUV systems ASML booked as revenue each year
 
-{++{"author":"James's AI","timestamp":1790597045244}@@| | tools |
+| | tools |
 |---|---:|
-| ++}2023 {++{"author":"James's AI","timestamp":1790597045244}@@| ++}53 {++{"author":"James's AI","timestamp":1790597045244}@@|
-| ++}2024 {++{"author":"James's AI","timestamp":1790597045244}@@| ++}44 {++{"author":"James's AI","timestamp":1790597045244}@@|
-| ++}2025 {++{"author":"James's AI","timestamp":1790597045244}@@| ++}48{++{"author":"James's AI","timestamp":1790597045244}@@ |++}
+| 2023 | 53 |
+| 2024 | 44 |
+| 2025 | 48 |
 
 Source: [ASML annual reports 2024 and 2025](https://ourbrand.asml.com/m/419103cb23dfeaa4/original/asml-2025-annual-report-financial-performance-section.pdf)
 
@@ -909,25 +778,25 @@ Source: [ASML annual reports 2024 and 2025](https://ourbrand.asml.com/m/419103cb
 
 ASML took EUR 32.7 billion in net sales in 2025 at a 52.8 percent gross margin [1](https://ourbrand.asml.com/m/419103cb23dfeaa4/original/asml-2025-annual-report-financial-performance-section.pdf), and in July 2026 raised its 2026 forecast to EUR 43 to 45 billion at 54 to 56 percent [12](https://ourbrand.asml.com/asset/c8dbf3fc-4c5e-4406-83f6-27694b138245/Press-Release-Financial-Results-Q2-2026.pdf). It assembles more than it makes, listing 5,100 suppliers [13](https://www.sec.gov/Archives/edgar/data/937966/000162828026011377/asml-2025xannualxreportx.htm). Four of them make the main parts of the EUV machine:
 
--{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**Zeiss SMT**, Oberkochen, makes the illumination system and the six-mirror projection optics [14](https://www.zeiss.com/semiconductor-manufacturing-technology/inspiring-technology/euv-lithography.html).
--{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**Trumpf**, Ditzingen, makes the carbon dioxide drive laser, which amplifies a few watts to 40 kilowatts [15](https://www.trumpf.com/en_US/products/lasers/euv-drive-laser/).
--{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**ASML San Diego**, the former Cymer, designs the source where the laser turns tin into plasma, and builds the droplet generator [16](https://www.asml.com/en/company/about-asml/locations/san-diego).
--{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**VDL ETG** builds the frames that suspend and position the mirrors [17](https://www.vdlgroep.com/en/vdl-groep/innovation-projects/vdl-etg-builds-complex-frames-for-zeiss).
+- **Zeiss SMT**, Oberkochen, makes the illumination system and the six-mirror projection optics [14](https://www.zeiss.com/semiconductor-manufacturing-technology/inspiring-technology/euv-lithography.html).
+- **Trumpf**, Ditzingen, makes the carbon dioxide drive laser, which amplifies a few watts to 40 kilowatts [15](https://www.trumpf.com/en_US/products/lasers/euv-drive-laser/).
+- **ASML San Diego**, the former Cymer, designs the source where the laser turns tin into plasma, and builds the droplet generator [16](https://www.asml.com/en/company/about-asml/locations/san-diego).
+- **VDL ETG** builds the frames that suspend and position the mirrors [17](https://www.vdlgroep.com/en/vdl-groep/innovation-projects/vdl-etg-builds-complex-frames-for-zeiss).
 
 Zeiss mirror polishing and coating caps EUV output. Final assembly in Veldhoven waits on the optics.
 
 Nikon and Canon are specialists now. Nikon sold 22 new scanners in the year to March 2026, into a market it sizes at 570 units, and lost money on Precision Equipment [18](https://www.nikon.com/content/dam/web-assets/nikoncom/company/local/global/en/ir/ir_library/result/pdf/2026/26_all_e.pdf). Canon's alternative is nanoimprint, where the FPA-1200NZ2C stamps the pattern instead of projecting it, down to a 14 nm linewidth [19](https://global.canon/en/news/2024/20240926.html). No leading-edge logic customer has taken it up.
 
-**Chart:** ASML net system sales by technology, 2025{--{"author":"James's AI","timestamp":1790597045244}@@ (%)--}
+**Chart:** ASML net system sales by technology, 2025
 
-{++{"author":"James's AI","timestamp":1790597045244}@@| | % |
+| | % |
 |---|---:|
-| ++}EUV {--{"author":"James's AI","timestamp":1790597045244}@@**48%** --}{++{"author":"James's AI","timestamp":1790597045244}@@| 48 |
-| ++}ArF immersion {--{"author":"James's AI","timestamp":1790597045244}@@**42%**--}{++{"author":"James's AI","timestamp":1790597045244}@@| 42 |
-|++} KrF {--{"author":"James's AI","timestamp":1790597045244}@@**4%** --}{++{"author":"James's AI","timestamp":1790597045244}@@| 4 |
-| ++}Metrology and inspection {--{"author":"James's AI","timestamp":1790597045244}@@**3%**--}{++{"author":"James's AI","timestamp":1790597045244}@@| 3 |
-|++} ArF dry {--{"author":"James's AI","timestamp":1790597045244}@@**2%** --}{++{"author":"James's AI","timestamp":1790597045244}@@| 2 |
-| ++}i-line {--{"author":"James's AI","timestamp":1790597045244}@@**1%**--}{++{"author":"James's AI","timestamp":1790597045244}@@| 1 |++}
+| EUV | 48 |
+| ArF immersion | 42 |
+| KrF | 4 |
+| Metrology and inspection | 3 |
+| ArF dry | 2 |
+| i-line | 1 |
 
 Source: [ASML Q4 2025 investor presentation](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf)
 
@@ -935,9 +804,9 @@ Source: [ASML Q4 2025 investor presentation](https://ourbrand.asml.com/m/3136300
 
 Export controls bar EUV from Chinese foundries, and CSIS judges that China cannot yet build it despite state spending [20](https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography). Below EUV, the restrictions arrived in this order:
 
--{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**Dutch national licensing** of advanced DUV took effect on 1 September 2023, and The Hague widened it on 6 September 2024 [21](https://www.government.nl/latest/news/2024/09/06/the-netherlands-expands-export-control-measure-advanced-semiconductor-manufacturing-equipment).
--{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**A partial license revocation** disclosed on 1 January 2024 stopped NXT:2050i and NXT:2100i shipments to a few Chinese customers [22](https://www.asml.com/en/news/press-releases/2023/statement-regarding-partial-revocation-export-license).
--{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**The BIS Affiliates Rule** extended entity-list controls to 50 percent-owned subsidiaries from 29 September 2025 [23](https://www.federalregister.gov/documents/2025/09/30/2025-19001/expansion-of-end-user-controls-to-cover-affiliates-of-certain-listed-entities), then BIS suspended it to 9 November 2026 [24](https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities).
+- **Dutch national licensing** of advanced DUV took effect on 1 September 2023, and The Hague widened it on 6 September 2024 [21](https://www.government.nl/latest/news/2024/09/06/the-netherlands-expands-export-control-measure-advanced-semiconductor-manufacturing-equipment).
+- **A partial license revocation** disclosed on 1 January 2024 stopped NXT:2050i and NXT:2100i shipments to a few Chinese customers [22](https://www.asml.com/en/news/press-releases/2023/statement-regarding-partial-revocation-export-license).
+- **The BIS Affiliates Rule** extended entity-list controls to 50 percent-owned subsidiaries from 29 September 2025 [23](https://www.federalregister.gov/documents/2025/09/30/2025-19001/expansion-of-end-user-controls-to-cover-affiliates-of-certain-listed-entities), then BIS suspended it to 9 November 2026 [24](https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities).
 
 China fell from 41 percent of ASML's net system sales in 2024 to 33 percent in 2025 [4](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf).
 
@@ -945,25 +814,20 @@ On DUV, Reuters reported in July 2026, on one unnamed source, that Shanghai Aish
 
 On EUV there is less evidence, and claims of Huawei mass production in 2026 remain unverified. Reuters reported in December 2025 that a Shenzhen team of former ASML engineers had built a prototype that makes extreme ultraviolet light but no chip [26](https://www.reuters.com/world/china/how-china-built-its-manhattan-project-rival-west-ai-chips-2025-12-17/). Between that light and a printed chip sit the mirrors, and only Zeiss can polish them.
 
-**Chart:** ASML net system sales by the region tools shipped to, 2025{--{"author":"James's AI","timestamp":1790597045244}@@ (%)
-
---}{++{"author":"James's AI","timestamp":1790597045244}@@
+**Chart:** ASML net system sales by the region tools shipped to, 2025
 
 | | % |
 |---|---:|
-| ++}China {--{"author":"James's AI","timestamp":1790597045244}@@**33%**--}{++{"author":"James's AI","timestamp":1790597045244}@@| 33 |
-|++} South Korea {--{"author":"James's AI","timestamp":1790597045244}@@**25%**--}{++{"author":"James's AI","timestamp":1790597045244}@@| 25 |
-|++} Taiwan {--{"author":"James's AI","timestamp":1790597045244}@@**22%** --}{++{"author":"James's AI","timestamp":1790597045244}@@| 22 |
-| ++}United States {--{"author":"James's AI","timestamp":1790597045244}@@**12%**--}{++{"author":"James's AI","timestamp":1790597045244}@@| 12 |
-|++} Japan {--{"author":"James's AI","timestamp":1790597045244}@@**5%**--}{++{"author":"James's AI","timestamp":1790597045244}@@| 5 |
-|++} Rest of Asia {--{"author":"James's AI","timestamp":1790597045244}@@**2%** EMEA **1%**
-
-%% validator-ignore-next-line --code article.block-repeated-nearby --reason source-provides-alternative-citation-formats %%
---}{++{"author":"James's AI","timestamp":1790597045244}@@| 2 |
+| China | 33 |
+| South Korea | 25 |
+| Taiwan | 22 |
+| United States | 12 |
+| Japan | 5 |
+| Rest of Asia | 2 |
 | EMEA | 1 |
 
-++}{++{"author":"James's AI","timestamp":1790598054687}@@%% validator-ignore-next-line --code article.block-repeated-nearby --reason source-provides-alternative-citation-formats %%
-++}Source: [ASML Q4 2025 investor presentation](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf)
+%% validator-ignore-next-line --code article.block-repeated-nearby --reason source-provides-alternative-citation-formats %%
+Source: [ASML Q4 2025 investor presentation](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf)
 
 ### The chokepoint ^the-chokepoint-4
 
@@ -973,145 +837,113 @@ For AI accelerators, EUV is the point of control. It prints the finest layers, t
 
 ### Key evaluation criteria ^key-evaluation-criteria-4
 
--{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**Resolution.** Set by wavelength divided by numerical aperture. 13 nm at 0.33 NA, 8 nm at 0.55 NA [8](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv).
--{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**Throughput.** Wafers an hour at a stated dose. 220 on the NXE:3800E, 175 on the EXE:5200B [7](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf).
--{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**Overlay.** How precisely one layer lands on the one below; ASML credits the EXE:5200B's gain to new Zeiss optics [7](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf).
--{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**Field size.** The patch of wafer one exposure covers. High-NA halves it, so big AI dies must be stitched until 12-inch masks arrive [8](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv).
--{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**Source power.** Brighter light, more wafers an hour, which is why the 1,000-watt demonstration matters [7](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf).
+- **Resolution.** Set by wavelength divided by numerical aperture. 13 nm at 0.33 NA, 8 nm at 0.55 NA [8](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv).
+- **Throughput.** Wafers an hour at a stated dose. 220 on the NXE:3800E, 175 on the EXE:5200B [7](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf).
+- **Overlay.** How precisely one layer lands on the one below; ASML credits the EXE:5200B's gain to new Zeiss optics [7](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf).
+- **Field size.** The patch of wafer one exposure covers. High-NA halves it, so big AI dies must be stitched until 12-inch masks arrive [8](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv).
+- **Source power.** Brighter light, more wafers an hour, which is why the 1,000-watt demonstration matters [7](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf).
 
-{--{"author":"James's AI","timestamp":1790597045244}@@Card 1 of 4Question
+::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.
 
-What does lithography do?--}{++{"author":"James's AI","timestamp":1790597045244}@@::::callout {title="Flashcards" tone="blue"}
-Recall each answer, then open the card.++}
+:::callout {title="Card 1 of 4: What does lithography do?" tone="neutral" collapse="closed"}
+It prints each layer of a chip's circuit onto the wafer.
 
-{--{"author":"James's AI","timestamp":1790597045244}@@Card--}{++{"author":"James's AI","timestamp":1790597045244}@@:::callout {title="Card++} 1 of {--{"author":"James's AI","timestamp":1790597045244}@@4Answer
+The machine projects the image of a stencil, four times smaller, onto the silicon. [[#^how-it-works-4|Reread: How it works]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597045244}@@4: What does lithography do?" tone="neutral" collapse="closed"}
-++}It prints each layer of a chip's circuit onto the wafer.
+:::callout {title="Card 2 of 4: Why do the finest layers need extreme-ultraviolet (EUV) light?" tone="neutral" collapse="closed"}
+Finer lines need light of a shorter wavelength, and EUV has the shortest in use.
 
-The machine projects the image of a stencil, four times smaller, onto the silicon. [[#^how-it-works-4|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597045244}@@
-:::++}
+Air and glass absorb EUV light, so the machine works in a vacuum and uses mirrors instead of lenses. [[#^how-it-works-4|Reread: How it works]]
+:::
 
-{--{"author":"James's AI","timestamp":1790597045244}@@Card--}{++{"author":"James's AI","timestamp":1790597045244}@@:::callout {title="Card++} 2 of {--{"author":"James's AI","timestamp":1790597045244}@@4Question
+:::callout {title="Card 3 of 4: Who makes EUV machines?" tone="neutral" collapse="closed"}
+Only ASML, in the Netherlands.
 
---}{++{"author":"James's AI","timestamp":1790597045244}@@4: ++}Why do the finest layers need extreme-ultraviolet (EUV){--{"author":"James's AI","timestamp":1790597045244}@@ light?
+ASML booked 48 EUV systems in 2025. Its mirrors come from one supplier, Zeiss. [[#^who-makes-it-4|Reread: Who makes it]]
+:::
 
-Card 2 of 4Answer
+:::callout {title="Card 4 of 4: Can China buy or build an EUV machine?" tone="neutral" collapse="closed"}
+No. None has been sold to China, and its own prototype has printed no chip.
 
---}{++{"author":"James's AI","timestamp":1790597045244}@@ light?" tone="neutral" collapse="closed"}
-++}Finer lines need light of a shorter wavelength, and EUV has the shortest in use.
+China's answer so far is domestic immersion DUV machines, which use longer-wavelength light. [[#^controls-and-chinas-answer|Reread: Controls and China's answer]]
+:::
 
-Air and glass absorb EUV light, so the machine works in a vacuum and uses mirrors instead of lenses. [[#^how-it-works-4|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597045244}@@
-:::++}
+::::
 
-{--{"author":"James's AI","timestamp":1790597045244}@@Card --}{++{"author":"James's AI","timestamp":1790597045244}@@:::callout {title="Card ++}3 of{--{"author":"James's AI","timestamp":1790597045244}@@ 4Question
+:::callout {title="Four things to remember" tone="green"}
+- Lithography prints each layer of a chip's circuit onto the wafer.
+- The finest layers need extreme-ultraviolet light, which works only in a vacuum and with mirrors.
+- ASML of the Netherlands is the only maker of EUV machines, and Zeiss is the only maker of their mirrors.
+- No EUV machine has been sold to China, and its own prototype has printed no chip.
+:::
 
---}{++{"author":"James's AI","timestamp":1790597045244}@@ 4: ++}Who makes EUV {--{"author":"James's AI","timestamp":1790597045244}@@machines?
-
-Card 3 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597045244}@@machines?" tone="neutral" collapse="closed"}
-++}Only ASML, in the Netherlands.
-
-ASML booked 48 EUV systems in 2025. Its mirrors come from one supplier, Zeiss. [[#^who-makes-it-4|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597045244}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597045244}@@Card--}{++{"author":"James's AI","timestamp":1790597045244}@@:::callout {title="Card++} 4 of {--{"author":"James's AI","timestamp":1790597045244}@@4Question
-
---}{++{"author":"James's AI","timestamp":1790597045244}@@4: ++}Can China buy or build an EUV {--{"author":"James's AI","timestamp":1790597045244}@@machine?
-
-Card 4 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597045244}@@machine?" tone="neutral" collapse="closed"}
-++}No. None has been sold to China, and its own prototype has printed no chip.
-
-China's answer so far is domestic immersion DUV machines, which use longer-wavelength light. [[#^controls-and-chinas-answer|Reread: Controls and China's answer]]{++{"author":"James's AI","timestamp":1790597045244}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597045244}@@#### Four--}{++{"author":"James's AI","timestamp":1790597045244}@@::::
-
-:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597045244}@@remember ^four-things-to-remember-3
-
---}{++{"author":"James's AI","timestamp":1790597045244}@@remember" tone="green"}
-++}-{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}Lithography prints each layer of a chip's circuit onto the wafer.
--{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}The finest layers need extreme-ultraviolet light, which works only in a vacuum and with mirrors.
--{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}ASML of the Netherlands is the only maker of EUV machines, and Zeiss is the only maker of their mirrors.
--{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}No EUV machine has been sold to China, and its own prototype has printed no chip.{++{"author":"James's AI","timestamp":1790597045244}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597045244}@@**Sources (26)**
-
---}{++{"author":"James's AI","timestamp":1790597045244}@@:::callout {title="Sources (26)" tone="neutral" collapse="closed"}
-++}1.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [ASML 2025 Annual {--{"author":"James's AI","timestamp":1790597045244}@@Report](https://ourbrand.asml.com/m/419103cb23dfeaa4/original/asml-2025-annual-report-financial-performance-section.pdf)--}{++{"author":"James's AI","timestamp":1790597045244}@@Report](https://ourbrand.asml.com/m/419103cb23dfeaa4/original/asml-2025-annual-report-financial-performance-section.pdf).++} ASML · 24 February {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier A.++}
-2.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [TWINSCAN NXE:3400B: EUV lithography {--{"author":"James's AI","timestamp":1790597045244}@@systems](https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe3400b) ASML--}{++{"author":"James's AI","timestamp":1790597045244}@@systems](https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe3400b). ASML. Tier A.++}
-3.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Lenses & mirrors - Lithography {--{"author":"James's AI","timestamp":1790597045244}@@principles](https://www.asml.com/en/technology/lithography-principles/lenses-and-mirrors) ASML--}{++{"author":"James's AI","timestamp":1790597045244}@@principles](https://www.asml.com/en/technology/lithography-principles/lenses-and-mirrors). ASML. Tier A.++}
-4.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Presentation Investor Relations Q4 {--{"author":"James's AI","timestamp":1790597045244}@@2025](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf)--}{++{"author":"James's AI","timestamp":1790597045244}@@2025](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf).++} ASML · 27 January {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier A.++}
-5.{--{"author":"James's AI","timestamp":1790597045244}@@  B--} [Explainer: The $400 million ASML 'printers' key for the AI chip {--{"author":"James's AI","timestamp":1790597045244}@@boom](https://www.reuters.com/world/asia-pacific/250-million-asml-printer-behind-nvidias-chips-2026-07-28/)--}{++{"author":"James's AI","timestamp":1790597045244}@@boom](https://www.reuters.com/world/asia-pacific/250-million-asml-printer-behind-nvidias-chips-2026-07-28/).++} Reuters · 28 January {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier B.++}
-6.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [All about light and lasers in {--{"author":"James's AI","timestamp":1790597045244}@@lithography](https://www.asml.com/en/technology/lithography-principles/light-and-lasers) ASML--}{++{"author":"James's AI","timestamp":1790597045244}@@lithography](https://www.asml.com/en/technology/lithography-principles/light-and-lasers). ASML. Tier A.++}
-7.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [ASML 2025 Annual {--{"author":"James's AI","timestamp":1790597045244}@@Report](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf)--}{++{"author":"James's AI","timestamp":1790597045244}@@Report](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf).++} ASML · 24 February {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier A.++}
-8.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [5 things you should know about High NA in {--{"author":"James's AI","timestamp":1790597045244}@@EUV](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv)--}{++{"author":"James's AI","timestamp":1790597045244}@@EUV](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv).++} ASML · 25 January {--{"author":"James's AI","timestamp":1790597045244}@@2024--}{++{"author":"James's AI","timestamp":1790597045244}@@2024. Tier A.++}
-9.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [High NA EUV reaches new readiness milestone with first high-volume Logic {--{"author":"James's AI","timestamp":1790597045244}@@product](https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone)--}{++{"author":"James's AI","timestamp":1790597045244}@@product](https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone).++} ASML · 15 July {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier A.++}
-10.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Intel Foundry and ASML Accelerate Industry Readiness for High-NA {--{"author":"James's AI","timestamp":1790597045244}@@EUV](https://www.intel.com/content/www/us/en/newsroom/news/intel-foundry/intel-foundry-asml-accelerate-industry-readiness-for-high-na-euv.html)--}{++{"author":"James's AI","timestamp":1790597045244}@@EUV](https://www.intel.com/content/www/us/en/newsroom/news/intel-foundry/intel-foundry-asml-accelerate-industry-readiness-for-high-na-euv.html).++} Intel · 7 September {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier A.++}
-11.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [ASML and TSMC Announce Initiative to Pioneer Industry Transition to Large-Format Photomasks for High NA {--{"author":"James's AI","timestamp":1790597045244}@@EUV](https://pr.tsmc.com/english/news/3338)--}{++{"author":"James's AI","timestamp":1790597045244}@@EUV](https://pr.tsmc.com/english/news/3338).++} TSMC · 8 September {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier A.++}
-12.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Press Release Financial Results Q2 {--{"author":"James's AI","timestamp":1790597045244}@@2026](https://ourbrand.asml.com/asset/c8dbf3fc-4c5e-4406-83f6-27694b138245/Press-Release-Financial-Results-Q2-2026.pdf)--}{++{"author":"James's AI","timestamp":1790597045244}@@2026](https://ourbrand.asml.com/asset/c8dbf3fc-4c5e-4406-83f6-27694b138245/Press-Release-Financial-Results-Q2-2026.pdf).++} ASML · 14 July {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier A.++}
-13.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [ASML HOLDING NV, Form 6-K report of foreign private issuer for the period ended 2025-12-31 {--{"author":"James's AI","timestamp":1790597045244}@@(6-K)](https://www.sec.gov/Archives/edgar/data/937966/000162828026011377/asml-2025xannualxreportx.htm)--}{++{"author":"James's AI","timestamp":1790597045244}@@(6-K)](https://www.sec.gov/Archives/edgar/data/937966/000162828026011377/asml-2025xannualxreportx.htm).++} U.S. Securities and Exchange Commission (filing by ASML HOLDING NV) · 25 February {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier A.++}
-14.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [EUV lithography and {--{"author":"James's AI","timestamp":1790597045244}@@technology](https://www.zeiss.com/semiconductor-manufacturing-technology/inspiring-technology/euv-lithography.html)--}{++{"author":"James's AI","timestamp":1790597045244}@@technology](https://www.zeiss.com/semiconductor-manufacturing-technology/inspiring-technology/euv-lithography.html).++} Carl {--{"author":"James's AI","timestamp":1790597045244}@@Zeiss--}{++{"author":"James's AI","timestamp":1790597045244}@@Zeiss. Tier A.++}
-15.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Good things come in ever-smaller {--{"author":"James's AI","timestamp":1790597045244}@@packages](https://www.trumpf.com/en_US/products/lasers/euv-drive-laser/) TRUMPF--}{++{"author":"James's AI","timestamp":1790597045244}@@packages](https://www.trumpf.com/en_US/products/lasers/euv-drive-laser/). TRUMPF. Tier A.++}
-16.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Explore ASML San {--{"author":"James's AI","timestamp":1790597045244}@@Diego](https://www.asml.com/en/company/about-asml/locations/san-diego) ASML--}{++{"author":"James's AI","timestamp":1790597045244}@@Diego](https://www.asml.com/en/company/about-asml/locations/san-diego). ASML. Tier A.++}
-17.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [VDL Groep, VDL ETG builds complex frames for Zeiss, innovation project {--{"author":"James's AI","timestamp":1790597045244}@@page](https://www.vdlgroep.com/en/vdl-groep/innovation-projects/vdl-etg-builds-complex-frames-for-zeiss)--}{++{"author":"James's AI","timestamp":1790597045244}@@page](https://www.vdlgroep.com/en/vdl-groep/innovation-projects/vdl-etg-builds-complex-frames-for-zeiss).++} VDL {--{"author":"James's AI","timestamp":1790597045244}@@Groep--}{++{"author":"James's AI","timestamp":1790597045244}@@Groep. Tier A.++}
-18.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [FINANCIAL RESULTS The Year Ended March {--{"author":"James's AI","timestamp":1790597045244}@@31,2026](https://www.nikon.com/content/dam/web-assets/nikoncom/company/local/global/en/ir/ir_library/result/pdf/2026/26_all_e.pdf)--}{++{"author":"James's AI","timestamp":1790597045244}@@31,2026](https://www.nikon.com/content/dam/web-assets/nikoncom/company/local/global/en/ir/ir_library/result/pdf/2026/26_all_e.pdf).++} Nikon · 21 May {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier A.++}
-19.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Canon delivers FPA -1200NZ2C nanoimprint lithography system for semiconductor manufacturing to the Texas Institute for {--{"author":"James's AI","timestamp":1790597045244}@@Electronics](https://global.canon/en/news/2024/20240926.html)--}{++{"author":"James's AI","timestamp":1790597045244}@@Electronics](https://global.canon/en/news/2024/20240926.html).++} Canon · 26 September {--{"author":"James's AI","timestamp":1790597045244}@@2024--}{++{"author":"James's AI","timestamp":1790597045244}@@2024. Tier A.++}
-20.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Breakthroughs or Boasts? Assessing Recent Chinese Lithography Advancements | Strategic Technologies {--{"author":"James's AI","timestamp":1790597045244}@@Blog](https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography)--}{++{"author":"James's AI","timestamp":1790597045244}@@Blog](https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography).++} Center for Strategic and International {--{"author":"James's AI","timestamp":1790597045244}@@Studies--}{++{"author":"James's AI","timestamp":1790597045244}@@Studies. Tier A.++}
-21.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [The Netherlands expands export control measure for advanced semiconductor manufacturing {--{"author":"James's AI","timestamp":1790597045244}@@equipment](https://www.government.nl/latest/news/2024/09/06/the-netherlands-expands-export-control-measure-advanced-semiconductor-manufacturing-equipment)--}{++{"author":"James's AI","timestamp":1790597045244}@@equipment](https://www.government.nl/latest/news/2024/09/06/the-netherlands-expands-export-control-measure-advanced-semiconductor-manufacturing-equipment).++} Government of the Netherlands · 6 September {--{"author":"James's AI","timestamp":1790597045244}@@2024--}{++{"author":"James's AI","timestamp":1790597045244}@@2024. Tier A.++}
-22.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Statement regarding partial revocation export {--{"author":"James's AI","timestamp":1790597045244}@@license](https://www.asml.com/en/news/press-releases/2023/statement-regarding-partial-revocation-export-license)--}{++{"author":"James's AI","timestamp":1790597045244}@@license](https://www.asml.com/en/news/press-releases/2023/statement-regarding-partial-revocation-export-license).++} ASML · 1 January {--{"author":"James's AI","timestamp":1790597045244}@@2024--}{++{"author":"James's AI","timestamp":1790597045244}@@2024. Tier A.++}
-23.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Expansion of End-User Controls To Cover Affiliates of Certain Listed {--{"author":"James's AI","timestamp":1790597045244}@@Entities](https://www.federalregister.gov/documents/2025/09/30/2025-19001/expansion-of-end-user-controls-to-cover-affiliates-of-certain-listed-entities)--}{++{"author":"James's AI","timestamp":1790597045244}@@Entities](https://www.federalregister.gov/documents/2025/09/30/2025-19001/expansion-of-end-user-controls-to-cover-affiliates-of-certain-listed-entities).++} Federal Register (Commerce Department; Industry and Security Bureau) · 30 September {--{"author":"James's AI","timestamp":1790597045244}@@2025--}{++{"author":"James's AI","timestamp":1790597045244}@@2025. Tier A.++}
-24.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [One Year Suspension of Expansion of End-User Controls for Affiliates of Certain Listed {--{"author":"James's AI","timestamp":1790597045244}@@Entities](https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities)--}{++{"author":"James's AI","timestamp":1790597045244}@@Entities](https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities).++} Federal Register (Commerce Department; Industry and Security Bureau) · 12 November {--{"author":"James's AI","timestamp":1790597045244}@@2025--}{++{"author":"James's AI","timestamp":1790597045244}@@2025. Tier A.++}
-25.{--{"author":"James's AI","timestamp":1790597045244}@@  B--} [China starts production of home-grown immersion DUV chipmaking tools, source {--{"author":"James's AI","timestamp":1790597045244}@@says](https://www.reuters.com/world/china/china-starts-production-home-grown-immersion-duv-chipmaking-tools-source-2026-07-28/)--}{++{"author":"James's AI","timestamp":1790597045244}@@says](https://www.reuters.com/world/china/china-starts-production-home-grown-immersion-duv-chipmaking-tools-source-2026-07-28/).++} Reuters · 28 July {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier B.++}
-26.{--{"author":"James's AI","timestamp":1790597045244}@@  B--} [How China built its 'Manhattan Project' to rival the West in AI {--{"author":"James's AI","timestamp":1790597045244}@@chips](https://www.reuters.com/world/china/how-china-built-its-manhattan-project-rival-west-ai-chips-2025-12-17/)--}{++{"author":"James's AI","timestamp":1790597045244}@@chips](https://www.reuters.com/world/china/how-china-built-its-manhattan-project-rival-west-ai-chips-2025-12-17/).++} Reuters · 17 December {--{"author":"James's AI","timestamp":1790597045244}@@2025--}{++{"author":"James's AI","timestamp":1790597045244}@@2025. Tier B.
-:::++}
+:::callout {title="Sources (26)" tone="neutral" collapse="closed"}
+1. [ASML 2025 Annual Report](https://ourbrand.asml.com/m/419103cb23dfeaa4/original/asml-2025-annual-report-financial-performance-section.pdf). ASML · 24 February 2026. Tier A.
+2. [TWINSCAN NXE:3400B: EUV lithography systems](https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe3400b). ASML. Tier A.
+3. [Lenses & mirrors - Lithography principles](https://www.asml.com/en/technology/lithography-principles/lenses-and-mirrors). ASML. Tier A.
+4. [Presentation Investor Relations Q4 2025](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf). ASML · 27 January 2026. Tier A.
+5. [Explainer: The $400 million ASML 'printers' key for the AI chip boom](https://www.reuters.com/world/asia-pacific/250-million-asml-printer-behind-nvidias-chips-2026-07-28/). Reuters · 28 January 2026. Tier B.
+6. [All about light and lasers in lithography](https://www.asml.com/en/technology/lithography-principles/light-and-lasers). ASML. Tier A.
+7. [ASML 2025 Annual Report](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf). ASML · 24 February 2026. Tier A.
+8. [5 things you should know about High NA in EUV](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv). ASML · 25 January 2024. Tier A.
+9. [High NA EUV reaches new readiness milestone with first high-volume Logic product](https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone). ASML · 15 July 2026. Tier A.
+10. [Intel Foundry and ASML Accelerate Industry Readiness for High-NA EUV](https://www.intel.com/content/www/us/en/newsroom/news/intel-foundry/intel-foundry-asml-accelerate-industry-readiness-for-high-na-euv.html). Intel · 7 September 2026. Tier A.
+11. [ASML and TSMC Announce Initiative to Pioneer Industry Transition to Large-Format Photomasks for High NA EUV](https://pr.tsmc.com/english/news/3338). TSMC · 8 September 2026. Tier A.
+12. [Press Release Financial Results Q2 2026](https://ourbrand.asml.com/asset/c8dbf3fc-4c5e-4406-83f6-27694b138245/Press-Release-Financial-Results-Q2-2026.pdf). ASML · 14 July 2026. Tier A.
+13. [ASML HOLDING NV, Form 6-K report of foreign private issuer for the period ended 2025-12-31 (6-K)](https://www.sec.gov/Archives/edgar/data/937966/000162828026011377/asml-2025xannualxreportx.htm). U.S. Securities and Exchange Commission (filing by ASML HOLDING NV) · 25 February 2026. Tier A.
+14. [EUV lithography and technology](https://www.zeiss.com/semiconductor-manufacturing-technology/inspiring-technology/euv-lithography.html). Carl Zeiss. Tier A.
+15. [Good things come in ever-smaller packages](https://www.trumpf.com/en_US/products/lasers/euv-drive-laser/). TRUMPF. Tier A.
+16. [Explore ASML San Diego](https://www.asml.com/en/company/about-asml/locations/san-diego). ASML. Tier A.
+17. [VDL Groep, VDL ETG builds complex frames for Zeiss, innovation project page](https://www.vdlgroep.com/en/vdl-groep/innovation-projects/vdl-etg-builds-complex-frames-for-zeiss). VDL Groep. Tier A.
+18. [FINANCIAL RESULTS The Year Ended March 31,2026](https://www.nikon.com/content/dam/web-assets/nikoncom/company/local/global/en/ir/ir_library/result/pdf/2026/26_all_e.pdf). Nikon · 21 May 2026. Tier A.
+19. [Canon delivers FPA -1200NZ2C nanoimprint lithography system for semiconductor manufacturing to the Texas Institute for Electronics](https://global.canon/en/news/2024/20240926.html). Canon · 26 September 2024. Tier A.
+20. [Breakthroughs or Boasts? Assessing Recent Chinese Lithography Advancements | Strategic Technologies Blog](https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography). Center for Strategic and International Studies. Tier A.
+21. [The Netherlands expands export control measure for advanced semiconductor manufacturing equipment](https://www.government.nl/latest/news/2024/09/06/the-netherlands-expands-export-control-measure-advanced-semiconductor-manufacturing-equipment). Government of the Netherlands · 6 September 2024. Tier A.
+22. [Statement regarding partial revocation export license](https://www.asml.com/en/news/press-releases/2023/statement-regarding-partial-revocation-export-license). ASML · 1 January 2024. Tier A.
+23. [Expansion of End-User Controls To Cover Affiliates of Certain Listed Entities](https://www.federalregister.gov/documents/2025/09/30/2025-19001/expansion-of-end-user-controls-to-cover-affiliates-of-certain-listed-entities). Federal Register (Commerce Department; Industry and Security Bureau) · 30 September 2025. Tier A.
+24. [One Year Suspension of Expansion of End-User Controls for Affiliates of Certain Listed Entities](https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities). Federal Register (Commerce Department; Industry and Security Bureau) · 12 November 2025. Tier A.
+25. [China starts production of home-grown immersion DUV chipmaking tools, source says](https://www.reuters.com/world/china/china-starts-production-home-grown-immersion-duv-chipmaking-tools-source-2026-07-28/). Reuters · 28 July 2026. Tier B.
+26. [How China built its 'Manhattan Project' to rival the West in AI chips](https://www.reuters.com/world/china/how-china-built-its-manhattan-project-rival-west-ai-chips-2025-12-17/). Reuters · 17 December 2025. Tier B.
+:::
 
 ## Photomasks and Pellicles ^photomasks-and-pellicles
 
 Every leading-edge chip depends on a business worth tens of billions of yen. Two Japanese firms make almost all the blank plates that EUV masks are built on, one Japanese firm inspects them, and the dust cover meant to protect them is still not in production.
 
-{--{"author":"James's AI","timestamp":1790597059274}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
-
-1,421--}{++{"author":"James's AI","timestamp":1790597059274}@@*1,421++} words / 6 {--{"author":"James's AI","timestamp":1790597059274}@@minSpecimen: photomask
-
-**In plain terms**
-
---}{++{"author":"James's AI","timestamp":1790597059274}@@min*
+*1,421 words / 6 min*
 
 :::callout {title="In plain terms" tone="neutral"}
-++}A photomask is the stencil that lithography prints from, one for each layer of a chip. The same plate prints its layer on wafer after wafer, so one plate shapes millions of chips. No glass lets the short light now in use pass through, so instead of a window the plate is a mirror, built up from about forty pairs of very thin layers, and the light bounces off it. A dark pattern drawn on top of the mirror soaks up the light wherever no line should print. Any speck of dust on the plate repeats on every wafer it prints. Two Japanese firms make almost all of those mirrors. A business almost nobody has heard of can hold up every advanced chip in the world.{++{"author":"James's AI","timestamp":1790597059274}@@
-:::++}
+A photomask is the stencil that lithography prints from, one for each layer of a chip. The same plate prints its layer on wafer after wafer, so one plate shapes millions of chips. No glass lets the short light now in use pass through, so instead of a window the plate is a mirror, built up from about forty pairs of very thin layers, and the light bounces off it. A dark pattern drawn on top of the mirror soaks up the light wherever no line should print. Any speck of dust on the plate repeats on every wafer it prints. Two Japanese firms make almost all of those mirrors. A business almost nobody has heard of can hold up every advanced chip in the world.
+:::
 
 ### In short ^in-short-5
 
 Photomasks are the cheapest chokepoint in this chain, which is why nobody has funded an entrant. Three blank suppliers in the world on AGC's count [6](https://www.agc.com/en/hub/pr/the-japanese-glass-behind-next-generation-chips.html), one of them describing its own share as exceptionally high [8](https://www.hoya.com/ir/2025/en/review/it.html), and a single-vendor actinic inspection tool [10](https://www.lasertec.co.jp/en/ir/plan/message.html) are needed for every EUV layer of every leading-edge accelerator. Pellicles remain unproven in production, so fabs trade throughput against defect risk product by product [11](https://www.asml.com/en/news/stories/2022/the-euv-pellicle-indistinguishable-from-magic). And mask-set costs of $10 million to $40 million decide which AI chips get designed [14](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor).
 
-{--{"author":"James's AI","timestamp":1790597059274}@@Concentration: **Extreme**--}{++{"author":"James's AI","timestamp":1790597059274}@@:::callout {title="Chokepoint card" tone="amber"}
-**Concentration:** Extreme++}
+:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** Extreme
 
-{--{"author":"James's AI","timestamp":1790597059274}@@Substitutability: **Hard**.--}{++{"author":"James's AI","timestamp":1790597059274}@@**Substitutability:** Hard.++} Only three firms make the blank plates for EUV masks, and only Lasertec sells the tool that checks a finished mask in EUV light.
+**Substitutability:** Hard. Only three firms make the blank plates for EUV masks, and only Lasertec sells the tool that checks a finished mask in EUV light.
 
-{--{"author":"James's AI","timestamp":1790597059274}@@Price--}{++{"author":"James's AI","timestamp":1790597059274}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597059274}@@size: **A--}{++{"author":"James's AI","timestamp":1790597059274}@@size:** A++} mask set for the newest chips costs roughly $10M to $40M, depending on the node and on who is {--{"author":"James's AI","timestamp":1790597059274}@@estimating**--}{++{"author":"James's AI","timestamp":1790597059274}@@estimating++}
+**Price or market size:** A mask set for the newest chips costs roughly $10M to $40M, depending on the node and on who is estimating
 
 **Who leads**
 
--{--{"author":"James's AI","timestamp":1790597059274}@@   JPAGC--}{++{"author":"James's AI","timestamp":1790597059274}@@ **AGC** (JP):++} Ranks itself No.1 worldwide in EUV mask blanks and counts three suppliers in all; targeted over ¥40bn of blank sales by 2025
--{--{"author":"James's AI","timestamp":1790597059274}@@   JPHoya--}{++{"author":"James's AI","timestamp":1790597059274}@@ **Hoya** (JP):++} Says its share of mask blanks is exceptionally high, and expects to keep its lead as customers add a second supplier
--{--{"author":"James's AI","timestamp":1790597059274}@@   JPLasertec--}{++{"author":"James's AI","timestamp":1790597059274}@@ **Lasertec** (JP):++} The only supplier of EUV mask inspection at the wavelength the scanner itself uses; JPY 230.5bn revenue in the year to June 2026
--{--{"author":"James's AI","timestamp":1790597059274}@@   ATIMS Nanofabrication--}{++{"author":"James's AI","timestamp":1790597059274}@@ **IMS Nanofabrication** (AT):++} Intel calls it the established industry leader in multi-beam mask writers, the machines that draw the pattern onto the mask
--{--{"author":"James's AI","timestamp":1790597059274}@@   USPhotronics--}{++{"author":"James's AI","timestamp":1790597059274}@@ **Photronics** (US):++} Largest mask maker selling to outside customers; $849.3M revenue in fiscal 2025
+- **AGC** (JP): Ranks itself No.1 worldwide in EUV mask blanks and counts three suppliers in all; targeted over ¥40bn of blank sales by 2025
+- **Hoya** (JP): Says its share of mask blanks is exceptionally high, and expects to keep its lead as customers add a second supplier
+- **Lasertec** (JP): The only supplier of EUV mask inspection at the wavelength the scanner itself uses; JPY 230.5bn revenue in the year to June 2026
+- **IMS Nanofabrication** (AT): Intel calls it the established industry leader in multi-beam mask writers, the machines that draw the pattern onto the mask
+- **Photronics** (US): Largest mask maker selling to outside customers; $849.3M revenue in fiscal 2025
 
 **Where it is made**
 
--{--{"author":"James's AI","timestamp":1790597059274}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597059274}@@ **Japan**:++} Mask blanks (AGC, Hoya), DUV blanks (Shin-Etsu), inspection (Lasertec), writers (NuFlare), pellicles (Mitsui Chemicals)
--{--{"author":"James's AI","timestamp":1790597059274}@@   ATAustria--}{++{"author":"James's AI","timestamp":1790597059274}@@ **Austria**:++} IMS Nanofabrication multi-beam mask writers, Vienna
--{--{"author":"James's AI","timestamp":1790597059274}@@   DEGermany--}{++{"author":"James's AI","timestamp":1790597059274}@@ **Germany**:++} Zeiss mask repair and metrology
--{--{"author":"James's AI","timestamp":1790597059274}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597059274}@@ **United States**:++} Photronics merchant mask shops, KLA inspection
--{--{"author":"James's AI","timestamp":1790597059274}@@   TWTaiwan--}{++{"author":"James's AI","timestamp":1790597059274}@@ **Taiwan**:++} TSMC's in-house mask shop, and a 10% stake in IMS
+- **Japan**: Mask blanks (AGC, Hoya), DUV blanks (Shin-Etsu), inspection (Lasertec), writers (NuFlare), pellicles (Mitsui Chemicals)
+- **Austria**: IMS Nanofabrication multi-beam mask writers, Vienna
+- **Germany**: Zeiss mask repair and metrology
+- **United States**: Photronics merchant mask shops, KLA inspection
+- **Taiwan**: TSMC's in-house mask shop, and a 10% stake in IMS
 
 **Why substitution is slow**
 
@@ -1123,8 +955,8 @@ SMIC runs two mask shops of its own in Shanghai, but only for the older g-line, 
 
 **Where the US stands**
 
-Photronics is the largest mask maker that sells to outside customers, and KLA makes mask inspection tools, but no American firm makes an EUV mask blank or a tool that checks a mask in EUV light.{++{"author":"James's AI","timestamp":1790597059274}@@
-:::++}
+Photronics is the largest mask maker that sells to outside customers, and KLA makes mask inspection tools, but no American firm makes an EUV mask blank or a tool that checks a mask in EUV light.
+:::
 
 Every EUV layer on an AI accelerator needs a flawless mask, built on a blank plate that two Japanese firms supply and passed by an inspection tool that one Japanese firm makes. AGC, one of the two, says it is the only company in the world that takes an EUV blank all the way from the glass to the finished coating [1](https://www.agc.com/en/news/detail/1203819_2814.html).
 
@@ -1136,9 +968,9 @@ The mask shop coats the blank with resist, and a mask writer draws the design in
 
 Making the plate a mirror creates its own problems:
 
--{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}**Mask 3D effects.** Light strikes the mirror at a slant, and the absorber has height, so its edges throw small shadows that distort the printed shape; software has to correct for it in advance.
--{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}**Write precision.** Every edge of the absorber has to sit within a few nanometers of where the design says.
--{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}**Particles.** Anything on the reflector prints on every wafer until someone finds it.
+- **Mask 3D effects.** Light strikes the mirror at a slant, and the absorber has height, so its edges throw small shadows that distort the printed shape; software has to correct for it in advance.
+- **Write precision.** Every edge of the absorber has to sit within a few nanometers of where the design says.
+- **Particles.** Anything on the reflector prints on every wafer until someone finds it.
 
 High-NA scanners, the newest EUV machines, print finer lines with larger mirrors, and each exposure then covers half the patch of wafer, doubling the exposures needed, so a large die, one chip's rectangle, has to be stitched from two masks [4](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv). On 8 September 2026 ASML and TSMC announced a move to 12-inch masks, larger than today's, to remove that limit, with a pilot line in 2031 [5](https://www.asml.com/en/news/press-releases/2026/tsmc-and-asml-announce-industry-transition-to-large-format-photomasks-for-high-na-euv).
 
@@ -1172,15 +1004,13 @@ SemiAnalysis put mask sets beyond $1 million at 28 nm, beyond $10 million at 7 n
 
 That cost decides who can use a node at all. A GPU spread over hundreds of thousands of units absorbs a $40 million mask set easily; the same set makes a custom inference chip shipping in the thousands uneconomic [14](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor). That cost limits AI silicon to a handful of designs.
 
-**Chart:** Cost of one mask set by node, 2022 estimates{--{"author":"James's AI","timestamp":1790597059274}@@ ($M)
-
---}{++{"author":"James's AI","timestamp":1790597059274}@@
+**Chart:** Cost of one mask set by node, 2022 estimates
 
 | | $M |
 |---|---:|
-| ++}28 nm {++{"author":"James's AI","timestamp":1790597059274}@@| ++}1 {--{"author":"James's AI","timestamp":1790597059274}@@$M--}{++{"author":"James's AI","timestamp":1790597059274}@@|
-|++} 7 nm {++{"author":"James's AI","timestamp":1790597059274}@@| ++}10 {--{"author":"James's AI","timestamp":1790597059274}@@$M--}{++{"author":"James's AI","timestamp":1790597059274}@@|
-|++} 3 nm {++{"author":"James's AI","timestamp":1790597059274}@@| ++}40 {--{"author":"James's AI","timestamp":1790597059274}@@$M--}{++{"author":"James's AI","timestamp":1790597059274}@@|++}
+| 28 nm | 1 |
+| 7 nm | 10 |
+| 3 nm | 40 |
 
 Source: [SemiAnalysis](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor)
 
@@ -1198,137 +1028,105 @@ A decade on, no pellicle membrane is transparent, tough and long-lived at once, 
 
 ### Key evaluation criteria ^key-evaluation-criteria-5
 
--{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}**Blank defectivity.** Particles buried in the multilayer cannot be repaired, so blank yield sets mask yield.
--{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}**Write time and placement.** Multi-beam writers make dense, curved EUV patterns affordable, and Intel calls IMS the established industry leader in them [9](https://www.intc.com/news-events/press-releases/detail/1645/intel-to-sell-minority-stake-in-ims-nanofabrication).
--{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}**Actinic inspectability.** Only a 13.5 nm inspection sees what the scanner sees, and only Lasertec sells one [10](https://www.lasertec.co.jp/en/ir/plan/message.html).
--{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}**Pellicle transmission and lifetime.** Transmission counts twice, and the best demonstrated carbon nanotube membranes pass 97 percent in a single crossing [12](https://www.imec-int.com/en/press/imec-demonstrates-cnt-pellicle-utilization-euv-scanner).
--{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}**Mask-set cost per node.** $10M to $40M at the leading edge, which decides which designs can use it [14](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor).
+- **Blank defectivity.** Particles buried in the multilayer cannot be repaired, so blank yield sets mask yield.
+- **Write time and placement.** Multi-beam writers make dense, curved EUV patterns affordable, and Intel calls IMS the established industry leader in them [9](https://www.intc.com/news-events/press-releases/detail/1645/intel-to-sell-minority-stake-in-ims-nanofabrication).
+- **Actinic inspectability.** Only a 13.5 nm inspection sees what the scanner sees, and only Lasertec sells one [10](https://www.lasertec.co.jp/en/ir/plan/message.html).
+- **Pellicle transmission and lifetime.** Transmission counts twice, and the best demonstrated carbon nanotube membranes pass 97 percent in a single crossing [12](https://www.imec-int.com/en/press/imec-demonstrates-cnt-pellicle-utilization-euv-scanner).
+- **Mask-set cost per node.** $10M to $40M at the leading edge, which decides which designs can use it [14](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor).
 
-{--{"author":"James's AI","timestamp":1790597059274}@@Card 1 of 4Question
+::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.
 
-What is a photomask?--}{++{"author":"James's AI","timestamp":1790597059274}@@::::callout {title="Flashcards" tone="blue"}
-Recall each answer, then open the card.++}
+:::callout {title="Card 1 of 4: What is a photomask?" tone="neutral" collapse="closed"}
+The stencil that lithography prints from, one for each layer of a chip.
 
-{--{"author":"James's AI","timestamp":1790597059274}@@Card--}{++{"author":"James's AI","timestamp":1790597059274}@@:::callout {title="Card++} 1 of {--{"author":"James's AI","timestamp":1790597059274}@@4Answer
-
---}{++{"author":"James's AI","timestamp":1790597059274}@@4: What is a photomask?" tone="neutral" collapse="closed"}
-++}The stencil that lithography prints from, one for each layer of a chip.
-
-The same plate prints its layer on wafer after wafer, so any flaw on it repeats on every wafer. [[#^how-it-works-5|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597059274}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597059274}@@Card--}{++{"author":"James's AI","timestamp":1790597059274}@@:::callout {title="Card++} 2 of {--{"author":"James's AI","timestamp":1790597059274}@@4Question
-
---}{++{"author":"James's AI","timestamp":1790597059274}@@4: ++}How many firms make the blank plates for EUV {--{"author":"James's AI","timestamp":1790597059274}@@masks?
-
-Card 2 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597059274}@@masks?" tone="neutral" collapse="closed"}
-++}Three, led by AGC and Hoya of Japan.
-
-Only one firm, Lasertec of Japan, sells the tool that checks a finished EUV mask in EUV light. [[#^who-makes-it-5|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597059274}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597059274}@@Card--}{++{"author":"James's AI","timestamp":1790597059274}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597059274}@@4Question
-
---}{++{"author":"James's AI","timestamp":1790597059274}@@4: ++}Why has no new firm entered the {--{"author":"James's AI","timestamp":1790597059274}@@business?
-
-Card 3 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597059274}@@business?" tone="neutral" collapse="closed"}
-++}The market is too small to pay for the years of work a newcomer would need.
-
-The existing suppliers spent about twenty years learning to make plates without defects. [[#^the-chokepoint-5|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597059274}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597059274}@@Card--}{++{"author":"James's AI","timestamp":1790597059274}@@:::callout {title="Card++} 4 of {--{"author":"James's AI","timestamp":1790597059274}@@4Question
-
---}{++{"author":"James's AI","timestamp":1790597059274}@@4: ++}What masks can China {--{"author":"James's AI","timestamp":1790597059274}@@make?
-
-Card 4 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597059274}@@make?" tone="neutral" collapse="closed"}
-++}Masks for older machines only.
-
-No Chinese firm makes an EUV mask blank or a tool that checks an EUV mask. [[#^the-chokepoint-5|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597059274}@@
+The same plate prints its layer on wafer after wafer, so any flaw on it repeats on every wafer. [[#^how-it-works-5|Reread: How it works]]
 :::
 
-::::++}
+:::callout {title="Card 2 of 4: How many firms make the blank plates for EUV masks?" tone="neutral" collapse="closed"}
+Three, led by AGC and Hoya of Japan.
 
-{--{"author":"James's AI","timestamp":1790597059274}@@#### Four--}{++{"author":"James's AI","timestamp":1790597059274}@@:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597059274}@@remember ^four-things-to-remember-4
+Only one firm, Lasertec of Japan, sells the tool that checks a finished EUV mask in EUV light. [[#^who-makes-it-5|Reread: Who makes it]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597059274}@@remember" tone="green"}
-++}-{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}A photomask is the stencil for one layer of a chip, and any flaw on it repeats on every wafer.
--{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}Three firms make EUV mask blanks, and only Lasertec sells the tool that checks them in EUV light.
--{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}The market is too small to repay a newcomer for twenty years of learning to avoid defects.
--{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}China makes masks only for older machines.{++{"author":"James's AI","timestamp":1790597059274}@@
-:::++}
+:::callout {title="Card 3 of 4: Why has no new firm entered the business?" tone="neutral" collapse="closed"}
+The market is too small to pay for the years of work a newcomer would need.
 
-{--{"author":"James's AI","timestamp":1790597059274}@@**Sources (16)**
+The existing suppliers spent about twenty years learning to make plates without defects. [[#^the-chokepoint-5|Reread: The chokepoint]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597059274}@@:::callout {title="Sources (16)" tone="neutral" collapse="closed"}
-++}1.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [AGC to Boost Production Capacity of EUVL Photomask {--{"author":"James's AI","timestamp":1790597059274}@@Blanks](https://www.agc.com/en/news/detail/1203819_2814.html)--}{++{"author":"James's AI","timestamp":1790597059274}@@Blanks](https://www.agc.com/en/news/detail/1203819_2814.html).++} AGC · 27 April {--{"author":"James's AI","timestamp":1790597059274}@@2023--}{++{"author":"James's AI","timestamp":1790597059274}@@2023. Tier A.++}
-2.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [Photomask blanks - Shin-Etsu Chemical Co., {--{"author":"James's AI","timestamp":1790597059274}@@Ltd.](https://www.shinetsu.co.jp/en/products/electronics-materials/photomask-blanks/)--}{++{"author":"James's AI","timestamp":1790597059274}@@Ltd.](https://www.shinetsu.co.jp/en/products/electronics-materials/photomask-blanks/).++} Shin-Etsu Chemical · 3 April {--{"author":"James's AI","timestamp":1790597059274}@@2019--}{++{"author":"James's AI","timestamp":1790597059274}@@2019. Tier A.++}
-3.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [The refined EUV mask model I.A. {--{"author":"James's AI","timestamp":1790597059274}@@MAKHOTKIN1\*,--}{++{"author":"James's AI","timestamp":1790597059274}@@MAKHOTKIN1*,++} M. WU1, V. SOLTWISCH2, F. SCHOLZE2, V. {--{"author":"James's AI","timestamp":1790597059274}@@PHILIPSEN1](https://arxiv.org/pdf/1912.09075)--}{++{"author":"James's AI","timestamp":1790597059274}@@PHILIPSEN1](https://arxiv.org/pdf/1912.09075).++} arXiv · 19 December {--{"author":"James's AI","timestamp":1790597059274}@@2019--}{++{"author":"James's AI","timestamp":1790597059274}@@2019. Tier A.++}
-4.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [5 things you should know about High NA in {--{"author":"James's AI","timestamp":1790597059274}@@EUV](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv)--}{++{"author":"James's AI","timestamp":1790597059274}@@EUV](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv).++} ASML · 25 January {--{"author":"James's AI","timestamp":1790597059274}@@2024--}{++{"author":"James's AI","timestamp":1790597059274}@@2024. Tier A.++}
-5.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [TSMC and ASML Announce Initiative to Pioneer Industry Transition to Large-Format Photomasks for High NA {--{"author":"James's AI","timestamp":1790597059274}@@EUV](https://www.asml.com/en/news/press-releases/2026/tsmc-and-asml-announce-industry-transition-to-large-format-photomasks-for-high-na-euv)--}{++{"author":"James's AI","timestamp":1790597059274}@@EUV](https://www.asml.com/en/news/press-releases/2026/tsmc-and-asml-announce-industry-transition-to-large-format-photomasks-for-high-na-euv).++} ASML · 8 September {--{"author":"James's AI","timestamp":1790597059274}@@2026--}{++{"author":"James's AI","timestamp":1790597059274}@@2026. Tier A.++}
-6.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [The Japanese glass behind next-generation {--{"author":"James's AI","timestamp":1790597059274}@@chips](https://www.agc.com/en/hub/pr/the-japanese-glass-behind-next-generation-chips.html) AGC--}{++{"author":"James's AI","timestamp":1790597059274}@@chips](https://www.agc.com/en/hub/pr/the-japanese-glass-behind-next-generation-chips.html). AGC. Tier A.++}
-7.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [AGC Data {--{"author":"James's AI","timestamp":1790597059274}@@Book](https://www.agc.com/en/ir/library/outline/pdf/reference.pdf)--}{++{"author":"James's AI","timestamp":1790597059274}@@Book](https://www.agc.com/en/ir/library/outline/pdf/reference.pdf).++} AGC Inc. · 29 May {--{"author":"James's AI","timestamp":1790597059274}@@2026--}{++{"author":"James's AI","timestamp":1790597059274}@@2026. Tier A.++}
-8.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [Information Technology Business | Review of Operations | HOYA REPORT {--{"author":"James's AI","timestamp":1790597059274}@@2025](https://www.hoya.com/ir/2025/en/review/it.html) HOYA--}{++{"author":"James's AI","timestamp":1790597059274}@@2025](https://www.hoya.com/ir/2025/en/review/it.html). HOYA. Tier A.++}
-9.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [Intel to Sell Minority Stake in IMS Nanofabrication Business to {--{"author":"James's AI","timestamp":1790597059274}@@TSMC](https://www.intc.com/news-events/press-releases/detail/1645/intel-to-sell-minority-stake-in-ims-nanofabrication)--}{++{"author":"James's AI","timestamp":1790597059274}@@TSMC](https://www.intc.com/news-events/press-releases/detail/1645/intel-to-sell-minority-stake-in-ims-nanofabrication).++} Intel · 12 September {--{"author":"James's AI","timestamp":1790597059274}@@2023--}{++{"author":"James's AI","timestamp":1790597059274}@@2023. Tier A.++}
-10.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [Business Report | Lasertec {--{"author":"James's AI","timestamp":1790597059274}@@Corporation](https://www.lasertec.co.jp/en/ir/plan/message.html) Lasertec--}{++{"author":"James's AI","timestamp":1790597059274}@@Corporation](https://www.lasertec.co.jp/en/ir/plan/message.html). Lasertec. Tier A.++}
-11.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [Indistinguishable from magic: the EUV {--{"author":"James's AI","timestamp":1790597059274}@@pellicle](https://www.asml.com/en/news/stories/2022/the-euv-pellicle-indistinguishable-from-magic)--}{++{"author":"James's AI","timestamp":1790597059274}@@pellicle](https://www.asml.com/en/news/stories/2022/the-euv-pellicle-indistinguishable-from-magic).++} ASML · 14 September {--{"author":"James's AI","timestamp":1790597059274}@@2022--}{++{"author":"James's AI","timestamp":1790597059274}@@2022. Tier A.++}
-12.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [Imec demonstrates CNT pellicle utilization on EUV {--{"author":"James's AI","timestamp":1790597059274}@@scanner](https://www.imec-int.com/en/press/imec-demonstrates-cnt-pellicle-utilization-euv-scanner)--}{++{"author":"James's AI","timestamp":1790597059274}@@scanner](https://www.imec-int.com/en/press/imec-demonstrates-cnt-pellicle-utilization-euv-scanner).++} imec · 6 October {--{"author":"James's AI","timestamp":1790597059274}@@2020--}{++{"author":"James's AI","timestamp":1790597059274}@@2020. Tier A.++}
-13.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [Mitsui Chemicals Sets up Production Facilities for CNT Pellicles to Be Used in Next-Gen EUV {--{"author":"James's AI","timestamp":1790597059274}@@Lithography](https://jp.mitsuichemicals.com/en/release/2024/2024_0528_1/index.htm)--}{++{"author":"James's AI","timestamp":1790597059274}@@Lithography](https://jp.mitsuichemicals.com/en/release/2024/2024_0528_1/index.htm).++} Mitsui {--{"author":"James's AI","timestamp":1790597059274}@@Chemicals--}{++{"author":"James's AI","timestamp":1790597059274}@@Chemicals. Tier A.++}
-14.{--{"author":"James's AI","timestamp":1790597059274}@@  B--} [The Dark Side Of The Semiconductor Design Renaissance – Fixed Costs Soaring Due To Photomask Sets, Verification, and {--{"author":"James's AI","timestamp":1790597059274}@@Validation](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor)--}{++{"author":"James's AI","timestamp":1790597059274}@@Validation](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor).++} SemiAnalysis · 24 July {--{"author":"James's AI","timestamp":1790597059274}@@2022--}{++{"author":"James's AI","timestamp":1790597059274}@@2022. Tier B.++}
-15.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [Photronics Reports Full Year and Fourth Quarter Fiscal 2025 {--{"author":"James's AI","timestamp":1790597059274}@@Results](https://www.globenewswire.com/news-release/2025/12/10/3203040/0/en/Photronics-Reports-Full-Year-and-Fourth-Quarter-Fiscal-2025-Results.html)--}{++{"author":"James's AI","timestamp":1790597059274}@@Results](https://www.globenewswire.com/news-release/2025/12/10/3203040/0/en/Photronics-Reports-Full-Year-and-Fourth-Quarter-Fiscal-2025-Results.html).++} GlobeNewswire (release by Photronics) · 10 December {--{"author":"James's AI","timestamp":1790597059274}@@2025--}{++{"author":"James's AI","timestamp":1790597059274}@@2025. Tier A.++}
-16.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [Mask {--{"author":"James's AI","timestamp":1790597059274}@@Service](https://www.smics.com/en/site/mask) SMIC--}{++{"author":"James's AI","timestamp":1790597059274}@@Service](https://www.smics.com/en/site/mask). SMIC. Tier A.
-:::++}
+:::callout {title="Card 4 of 4: What masks can China make?" tone="neutral" collapse="closed"}
+Masks for older machines only.
+
+No Chinese firm makes an EUV mask blank or a tool that checks an EUV mask. [[#^the-chokepoint-5|Reread: The chokepoint]]
+:::
+
+::::
+
+:::callout {title="Four things to remember" tone="green"}
+- A photomask is the stencil for one layer of a chip, and any flaw on it repeats on every wafer.
+- Three firms make EUV mask blanks, and only Lasertec sells the tool that checks them in EUV light.
+- The market is too small to repay a newcomer for twenty years of learning to avoid defects.
+- China makes masks only for older machines.
+:::
+
+:::callout {title="Sources (16)" tone="neutral" collapse="closed"}
+1. [AGC to Boost Production Capacity of EUVL Photomask Blanks](https://www.agc.com/en/news/detail/1203819_2814.html). AGC · 27 April 2023. Tier A.
+2. [Photomask blanks - Shin-Etsu Chemical Co., Ltd.](https://www.shinetsu.co.jp/en/products/electronics-materials/photomask-blanks/). Shin-Etsu Chemical · 3 April 2019. Tier A.
+3. [The refined EUV mask model I.A. MAKHOTKIN1*, M. WU1, V. SOLTWISCH2, F. SCHOLZE2, V. PHILIPSEN1](https://arxiv.org/pdf/1912.09075). arXiv · 19 December 2019. Tier A.
+4. [5 things you should know about High NA in EUV](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv). ASML · 25 January 2024. Tier A.
+5. [TSMC and ASML Announce Initiative to Pioneer Industry Transition to Large-Format Photomasks for High NA EUV](https://www.asml.com/en/news/press-releases/2026/tsmc-and-asml-announce-industry-transition-to-large-format-photomasks-for-high-na-euv). ASML · 8 September 2026. Tier A.
+6. [The Japanese glass behind next-generation chips](https://www.agc.com/en/hub/pr/the-japanese-glass-behind-next-generation-chips.html). AGC. Tier A.
+7. [AGC Data Book](https://www.agc.com/en/ir/library/outline/pdf/reference.pdf). AGC Inc. · 29 May 2026. Tier A.
+8. [Information Technology Business | Review of Operations | HOYA REPORT 2025](https://www.hoya.com/ir/2025/en/review/it.html). HOYA. Tier A.
+9. [Intel to Sell Minority Stake in IMS Nanofabrication Business to TSMC](https://www.intc.com/news-events/press-releases/detail/1645/intel-to-sell-minority-stake-in-ims-nanofabrication). Intel · 12 September 2023. Tier A.
+10. [Business Report | Lasertec Corporation](https://www.lasertec.co.jp/en/ir/plan/message.html). Lasertec. Tier A.
+11. [Indistinguishable from magic: the EUV pellicle](https://www.asml.com/en/news/stories/2022/the-euv-pellicle-indistinguishable-from-magic). ASML · 14 September 2022. Tier A.
+12. [Imec demonstrates CNT pellicle utilization on EUV scanner](https://www.imec-int.com/en/press/imec-demonstrates-cnt-pellicle-utilization-euv-scanner). imec · 6 October 2020. Tier A.
+13. [Mitsui Chemicals Sets up Production Facilities for CNT Pellicles to Be Used in Next-Gen EUV Lithography](https://jp.mitsuichemicals.com/en/release/2024/2024_0528_1/index.htm). Mitsui Chemicals. Tier A.
+14. [The Dark Side Of The Semiconductor Design Renaissance – Fixed Costs Soaring Due To Photomask Sets, Verification, and Validation](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor). SemiAnalysis · 24 July 2022. Tier B.
+15. [Photronics Reports Full Year and Fourth Quarter Fiscal 2025 Results](https://www.globenewswire.com/news-release/2025/12/10/3203040/0/en/Photronics-Reports-Full-Year-and-Fourth-Quarter-Fiscal-2025-Results.html). GlobeNewswire (release by Photronics) · 10 December 2025. Tier A.
+16. [Mask Service](https://www.smics.com/en/site/mask). SMIC. Tier A.
+:::
 
 ## Deposition and Etch ^deposition-and-etch
 
 Lithography prints the pattern; deposition and etch do the rest, over a thousand steps per wafer, and it is the one kind of chipmaking tool where Chinese makers have gained real share.
 
-{--{"author":"James's AI","timestamp":1790597066514}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
-
-1,561--}{++{"author":"James's AI","timestamp":1790597066514}@@*1,561++} words / 7{--{"author":"James's AI","timestamp":1790597066514}@@ minSpecimen: process chamber
-
-**In plain terms**
-
---}{++{"author":"James's AI","timestamp":1790597066514}@@ min*
+*1,561 words / 7 min*
 
 :::callout {title="In plain terms" tone="neutral"}
-++}Deposition and etch build the chip itself, one layer at a time. Deposition lays down a film a few atoms thick. Lithography prints a pattern on it. Etch then eats away everything the pattern does not protect, and the next film goes down on top. A chip takes more than a thousand of these rounds. Some of the holes the etch cuts are hundreds of times deeper than they are wide, the shape of a finger-wide shaft dropping through several floors, and the film has to coat them right to the bottom. The etch has to eat one material and leave the one beside it untouched. Four firms in America, Japan and the Netherlands make most of these machines, and China has come closer to matching them here than anywhere else.{++{"author":"James's AI","timestamp":1790597066514}@@
-:::++}
+Deposition and etch build the chip itself, one layer at a time. Deposition lays down a film a few atoms thick. Lithography prints a pattern on it. Etch then eats away everything the pattern does not protect, and the next film goes down on top. A chip takes more than a thousand of these rounds. Some of the holes the etch cuts are hundreds of times deeper than they are wide, the shape of a finger-wide shaft dropping through several floors, and the film has to coat them right to the bottom. The etch has to eat one material and leave the one beside it untouched. Four firms in America, Japan and the Netherlands make most of these machines, and China has come closer to matching them here than anywhere else.
+:::
 
 ### In short ^in-short-6
 
 Deposition and etch are the volume business of a fab: over a thousand steps per wafer, four American, Japanese and Dutch firms taking most of the money, and no monopoly like ASML's in lithography. The AI roadmap makes each step harder faster than it adds steps, because gate-all-around, HBM and backside power ask each chamber for better selectivity and deeper holes. China has closed the gap fastest in deposition and etch and slowest in ALD, the tool gate-all-around logic depends on.
 
-{--{"author":"James's AI","timestamp":1790597066514}@@Concentration: **High**--}{++{"author":"James's AI","timestamp":1790597066514}@@:::callout {title="Chokepoint card" tone="amber"}
-**Concentration:** High++}
+:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** High
 
-{--{"author":"James's AI","timestamp":1790597066514}@@Substitutability: **Moderate**.--}{++{"author":"James's AI","timestamp":1790597066514}@@**Substitutability:** Moderate.++} Most deposition and etch steps have three or four approved tool makers; atomic layer deposition is the exception.
+**Substitutability:** Moderate. Most deposition and etch steps have three or four approved tool makers; atomic layer deposition is the exception.
 
-{--{"author":"James's AI","timestamp":1790597066514}@@Price--}{++{"author":"James's AI","timestamp":1790597066514}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597066514}@@size: **Tool--}{++{"author":"James's AI","timestamp":1790597066514}@@size:** Tool++} makers publish no list {--{"author":"James's AI","timestamp":1790597066514}@@prices**.--}{++{"author":"James's AI","timestamp":1790597066514}@@prices.++} World sales of chipmaking equipment were $135.1B in 2025, with wafer processing tools up 12%.
+**Price or market size:** Tool makers publish no list prices. World sales of chipmaking equipment were $135.1B in 2025, with wafer processing tools up 12%.
 
 **Who leads**
 
--{--{"author":"James's AI","timestamp":1790597066514}@@   USApplied Materials--}{++{"author":"James's AI","timestamp":1790597066514}@@ **Applied Materials** (US):++} $28.4B revenue, fiscal 2025; leader in physical and chemical vapor deposition and in epitaxy
--{--{"author":"James's AI","timestamp":1790597066514}@@   USLam Research--}{++{"author":"James's AI","timestamp":1790597066514}@@ **Lam Research** (US):++} $23.2B revenue, fiscal 2026; leader in dry etch and in metal atomic layer deposition
--{--{"author":"James's AI","timestamp":1790597066514}@@   JPTokyo Electron--}{++{"author":"James's AI","timestamp":1790597066514}@@ **Tokyo Electron** (JP):++} 23% of dry etch and 38% of chemical vapor deposition, 2025
--{--{"author":"James's AI","timestamp":1790597066514}@@   NLASM International--}{++{"author":"James's AI","timestamp":1790597066514}@@ **ASM International** (NL):++} €3.2B revenue, 2025; leader in single-wafer atomic layer deposition
--{--{"author":"James's AI","timestamp":1790597066514}@@   CNNaura--}{++{"author":"James's AI","timestamp":1790597066514}@@ **Naura** (CN):++} 5th largest equipment vendor worldwide, 2025 estimate
+- **Applied Materials** (US): $28.4B revenue, fiscal 2025; leader in physical and chemical vapor deposition and in epitaxy
+- **Lam Research** (US): $23.2B revenue, fiscal 2026; leader in dry etch and in metal atomic layer deposition
+- **Tokyo Electron** (JP): 23% of dry etch and 38% of chemical vapor deposition, 2025
+- **ASM International** (NL): €3.2B revenue, 2025; leader in single-wafer atomic layer deposition
+- **Naura** (CN): 5th largest equipment vendor worldwide, 2025 estimate
 
 **Where it is made**
 
--{--{"author":"James's AI","timestamp":1790597066514}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597066514}@@ **United States**:++} Applied Materials (Santa Clara), Lam Research (Fremont)
--{--{"author":"James's AI","timestamp":1790597066514}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597066514}@@ **Japan**:++} Tokyo Electron, Kokusai Electric, Hitachi High-Tech
--{--{"author":"James's AI","timestamp":1790597066514}@@   NLNetherlands--}{++{"author":"James's AI","timestamp":1790597066514}@@ **Netherlands**:++} ASM International, Almere; ALD and epitaxy
--{--{"author":"James's AI","timestamp":1790597066514}@@   KRSouth Korea--}{++{"author":"James's AI","timestamp":1790597066514}@@ **South Korea**:++} Large buyer; Semes and local suppliers in wet processing
--{--{"author":"James's AI","timestamp":1790597066514}@@   CNChina--}{++{"author":"James's AI","timestamp":1790597066514}@@ **China**:++} Naura, AMEC, Piotech; largest equipment market at $49.3B in 2025
+- **United States**: Applied Materials (Santa Clara), Lam Research (Fremont)
+- **Japan**: Tokyo Electron, Kokusai Electric, Hitachi High-Tech
+- **Netherlands**: ASM International, Almere; ALD and epitaxy
+- **South Korea**: Large buyer; Semes and local suppliers in wet processing
+- **China**: Naura, AMEC, Piotech; largest equipment market at $49.3B in 2025
 
-{--{"author":"James's AI","timestamp":1790597066514}@@Why--}{++{"author":"James's AI","timestamp":1790597066514}@@**Why++} substitution is {--{"author":"James's AI","timestamp":1790597066514}@@possible--}{++{"author":"James's AI","timestamp":1790597066514}@@possible**++}
+**Why substitution is possible**
 
 For most of the deposition and etch steps inside a fab, the tool can already be bought from three or four makers: Applied Materials, Lam, Tokyo Electron and ASM International. Switching from one maker to another means testing the new tool on the fab's own line until it matches, which takes two to five years for the newest chips. The exception is atomic layer deposition, which lays down a film one layer of atoms at a time. Chinese tool makers gained real share in etch over five years but stayed under 1 percent in atomic layer deposition, so that is the step where China is weakest.
 
@@ -1338,18 +1136,16 @@ Of all kinds of chipmaking tool, deposition and etch is where Chinese makers are
 
 **Where the US stands**
 
-Two of the three largest deposition and etch tool makers are American. The US government lists dry etch, atomic layer deposition and deep-hole deposition tools as controlled exports, and one rule also covers tools built outside the United States with American technology.{++{"author":"James's AI","timestamp":1790597066514}@@
-:::++}
+Two of the three largest deposition and etch tool makers are American. The US government lists dry etch, atomic layer deposition and deep-hole deposition tools as controlled exports, and one rule also covers tools built outside the United States with American technology.
+:::
 
 Applied Materials and Lam Research, the two largest deposition and etch suppliers, booked $28.4 billion and $23.2 billion of revenue in their latest fiscal years [1](https://data.sec.gov/api/xbrl/companyconcept/CIK0000006951/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json) [2](https://www.sec.gov/Archives/edgar/data/707549/000070754926000033/lrcx_exhibitx991xq4x2026.htm).
 
 ### How it works ^how-it-works-6
 
-{--{"author":"James's AI","timestamp":1790594484340}@@![](https://chipsupplychain.org/media/dep-etch-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594484340}@@![One round of deposition and etch](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-dep-etch.jpg)++}{--{"author":"James's AI","timestamp":1790597066514}@@
+![One round of deposition and etch](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-dep-etch.jpg)
 
-**Figure: One --}{++{"author":"James's AI","timestamp":1790597066514}@@
-
-*One ++}round of deposition and{--{"author":"James's AI","timestamp":1790597066514}@@ etch.** An animation on the live site ([watch it--}{++{"author":"James's AI","timestamp":1790597066514}@@ etch. The last frame of an animation++} on {--{"author":"James's AI","timestamp":1790597066514}@@chipsupplychain.org](https://chipsupplychain.org/#deposition-and-etch)); above is its last frame.--}{++{"author":"James's AI","timestamp":1790597066514}@@the original site.++} Its {--{"author":"James's AI","timestamp":1790597066514}@@steps:--}{++{"author":"James's AI","timestamp":1790597066514}@@steps:*++}
+*One round of deposition and etch. The last frame of an animation on the original site. Its steps:*
 
 1. **The wafer.** A slice through one spot on a wafer, magnified until its layers show.
 2. **Deposit.** A film a few atoms thick is laid over the whole wafer.
@@ -1360,9 +1156,7 @@ Applied Materials and Lam Research, the two largest deposition and etch supplier
 7. **Strip.** The leftover resist is removed. The pattern now sits in the film.
 8. **Repeat.** Insulator fills the gaps and the next layer goes on. A chip takes more than a thousand of these rounds.
 
-{--{"author":"James's AI","timestamp":1790597066514}@@_Simplified--}{++{"author":"James's AI","timestamp":1790597066514}@@*Simplified++} cross-section. The layers are drawn much thicker than they{--{"author":"James's AI","timestamp":1790597066514}@@ are._
-
-One round of deposition and etch--}{++{"author":"James's AI","timestamp":1790597066514}@@ are.*++}
+*Simplified cross-section. The layers are drawn much thicker than they are.*
 
 Both steps happen in a vacuum chamber that holds one wafer at a time. A pump empties the chamber of air, a measured flow of gas comes in, and an electric field that reverses millions of times a second, a radio-frequency field, strips electrons off the gas molecules. The gas is now a plasma, charged fragments that react far more readily than whole molecules do.
 
@@ -1380,34 +1174,34 @@ CSET puts a single chip at more than 1,000 process steps, with the part-finished
 
 The market sizes and leading shares below are CSET's for 2025, which it builds from TechInsights data, on a $26.2 billion deposition tool market [4](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N36) and a $21.9 billion dry etch market [5](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N103).
 
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Physical vapor deposition** knocks atoms off a solid target and lands them on the wafer, the standard method for metal barriers and seed layers, $4.9 billion in 2025 [6](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N42).
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Chemical vapor deposition** reacts gases at the wafer surface to grow a film; the plasma-enhanced version runs cooler and is most of the $11.2 billion CVD market, $7.5 billion in 2025 [7](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N47) [8](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N38).
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Atomic layer deposition** lays down less than one atomic layer at a time, so it coats vertical walls as evenly as horizontal floors. US regulators call it the basis for 3D scaling in 3D DRAM, 3D NAND and gate-all-around logic [9](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf); ASM International leads it with 54.5 percent of a $4.1 billion market in 2025 [10](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N41).
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Epitaxy and electroplating** grow the strained silicon-germanium source and drain, and fill the copper wiring trenches [3](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).
+- **Physical vapor deposition** knocks atoms off a solid target and lands them on the wafer, the standard method for metal barriers and seed layers, $4.9 billion in 2025 [6](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N42).
+- **Chemical vapor deposition** reacts gases at the wafer surface to grow a film; the plasma-enhanced version runs cooler and is most of the $11.2 billion CVD market, $7.5 billion in 2025 [7](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N47) [8](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N38).
+- **Atomic layer deposition** lays down less than one atomic layer at a time, so it coats vertical walls as evenly as horizontal floors. US regulators call it the basis for 3D scaling in 3D DRAM, 3D NAND and gate-all-around logic [9](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf); ASM International leads it with 54.5 percent of a $4.1 billion market in 2025 [10](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N41).
+- **Epitaxy and electroplating** grow the strained silicon-germanium source and drain, and fill the copper wiring trenches [3](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).
 
 #### Etch families ^etch-families
 
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Conductor etch** cuts gates, metals and silicon, $12.2 billion in 2025, led by Lam at 51.2 percent [11](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N50).
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Dielectric etch** cuts the insulating oxides and nitrides between them, $8.7 billion in 2025, led by Tokyo Electron at 55.9 percent [12](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N51).
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**High-aspect-ratio etch** decides whether memory works at all: a 3D NAND channel or DRAM capacitor is a hole far deeper than it is wide that has to come out straight. Lam chills the wafer to sharpen the profile, and says Cryo 3.0 holds critical-dimension deviation under 0.1 percent down channels 10 microns deep [13](https://newsroom.lamresearch.com/2024-07-31-Lam-Research-Introduces-Lam-Cryo-TM-3-0-Cryogenic-Etch-Technology-to-Accelerate-Scaling-of-3D-NAND-for-the-AI-Era).
+- **Conductor etch** cuts gates, metals and silicon, $12.2 billion in 2025, led by Lam at 51.2 percent [11](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N50).
+- **Dielectric etch** cuts the insulating oxides and nitrides between them, $8.7 billion in 2025, led by Tokyo Electron at 55.9 percent [12](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N51).
+- **High-aspect-ratio etch** decides whether memory works at all: a 3D NAND channel or DRAM capacitor is a hole far deeper than it is wide that has to come out straight. Lam chills the wafer to sharpen the profile, and says Cryo 3.0 holds critical-dimension deviation under 0.1 percent down channels 10 microns deep [13](https://newsroom.lamresearch.com/2024-07-31-Lam-Research-Introduces-Lam-Cryo-TM-3-0-Cryogenic-Etch-Technology-to-Accelerate-Scaling-of-3D-NAND-for-the-AI-Era).
 
 AI hardware asks for sideways cuts, deeper holes and a second metal stack on the wafer's back.
 
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Gate-all-around** needs isotropic etch, which cuts sideways, to release the silicon nanosheets from the silicon-germanium between them, and BIS ties its dry etch controls to exactly that [9](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf).
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**HBM** needs holes etched straight through the silicon so chips can be stacked and wired, which BIS controls at 10:1 or deeper above 7 microns a minute [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Backside power delivery** adds thinning, backside vias and a second metal stack. Applied Materials expects it to add about $1 billion per 100,000 wafer starts a month to its wiring business [15](https://www.globenewswire.com/news-release/2024/07/08/2909540/0/en/applied-materials-unveils-chip-wiring-innovations-for-more-energy-efficient-computing.html).
+- **Gate-all-around** needs isotropic etch, which cuts sideways, to release the silicon nanosheets from the silicon-germanium between them, and BIS ties its dry etch controls to exactly that [9](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf).
+- **HBM** needs holes etched straight through the silicon so chips can be stacked and wired, which BIS controls at 10:1 or deeper above 7 microns a minute [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
+- **Backside power delivery** adds thinning, backside vias and a second metal stack. Applied Materials expects it to add about $1 billion per 100,000 wafer starts a month to its wiring business [15](https://www.globenewswire.com/news-release/2024/07/08/2909540/0/en/applied-materials-unveils-chip-wiring-innovations-for-more-energy-efficient-computing.html).
 
-**Chart:** Tokyo Electron world market share by tool type, 2025{--{"author":"James's AI","timestamp":1790597066514}@@ (%)--}
+**Chart:** Tokyo Electron world market share by tool type, 2025
 
-{++{"author":"James's AI","timestamp":1790597066514}@@| | % |
+| | % |
 |---|---:|
-| ++}Coater/developer {--{"author":"James's AI","timestamp":1790597066514}@@91% --}{++{"author":"James's AI","timestamp":1790597066514}@@| 91 |
-| ++}CVD {--{"author":"James's AI","timestamp":1790597066514}@@38%--}{++{"author":"James's AI","timestamp":1790597066514}@@| 38 |
-|++} Oxidation/diffusion {--{"author":"James's AI","timestamp":1790597066514}@@31%--}{++{"author":"James's AI","timestamp":1790597066514}@@| 31 |
-|++} Deposition systems {--{"author":"James's AI","timestamp":1790597066514}@@27% --}{++{"author":"James's AI","timestamp":1790597066514}@@| 27 |
-| ++}Dry etch {--{"author":"James's AI","timestamp":1790597066514}@@23% --}{++{"author":"James's AI","timestamp":1790597066514}@@| 23 |
-| ++}Cleaning {--{"author":"James's AI","timestamp":1790597066514}@@20% --}{++{"author":"James's AI","timestamp":1790597066514}@@| 20 |
-| ++}ALD {--{"author":"James's AI","timestamp":1790597066514}@@15%--}{++{"author":"James's AI","timestamp":1790597066514}@@| 15 |++}
+| Coater/developer | 91 |
+| CVD | 38 |
+| Oxidation/diffusion | 31 |
+| Deposition systems | 27 |
+| Dry etch | 23 |
+| Cleaning | 20 |
+| ALD | 15 |
 
 Source: [Tokyo Electron FY2026 Q4 results presentation](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf)
 
@@ -1419,14 +1213,12 @@ Within deposition and etch no one firm dominates as ASML does in lithography. Th
 
 ASM International, the atomic layer deposition specialist, reached a record EUR 3.2 billion of revenue in 2025 as customers built 2 nm gate-all-around capacity, with molybdenum ALD entering volume production [18](https://www.asm.com/media/yvxbavwe/20260303-asm-reports-q4-and-full-year-2025-results.pdf).
 
-**Chart:** What the world spent on chipmaking equipment{--{"author":"James's AI","timestamp":1790597066514}@@ ($B)
-
---}{++{"author":"James's AI","timestamp":1790597066514}@@
+**Chart:** What the world spent on chipmaking equipment
 
 | | $B |
 |---|---:|
-| ++}2024 {++{"author":"James's AI","timestamp":1790597066514}@@| ++}117.1 {++{"author":"James's AI","timestamp":1790597066514}@@|
-| ++}2025 {++{"author":"James's AI","timestamp":1790597066514}@@| ++}135.1{++{"author":"James's AI","timestamp":1790597066514}@@ |++}
+| 2024 | 117.1 |
+| 2025 | 135.1 |
 
 Source: [SEMI, Worldwide Semiconductor Equipment Market Statistics](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025)
 
@@ -1434,34 +1226,34 @@ Source: [SEMI, Worldwide Semiconductor Equipment Market Statistics](https://www.
 
 China is the tool vendors' largest customer and their fastest-improving competitor. It bought $49.3 billion of equipment in 2025, still the biggest single market, though its spending fell half a percent while Taiwan's rose 90 percent to $31.5 billion [17](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025). China still takes a large share of every major vendor's sales.
 
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Tokyo Electron**: 34.1 percent of sales in the year to March 2026, down from 41.7 percent [16](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf).
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Lam Research**: 26 percent in the June 2026 quarter, behind Taiwan at 27 percent [2](https://www.sec.gov/Archives/edgar/data/707549/000070754926000033/lrcx_exhibitx991xq4x2026.htm).
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Applied Materials**: 28 percent in the third fiscal quarter of 2026, down from 35 percent [19](https://www.globenewswire.com/news-release/2026/08/13/3344890/0/en/applied-materials-announces-third-quarter-2026-results.html).
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**ASM International**: more than 30 percent of 2025 revenue [18](https://www.asm.com/media/yvxbavwe/20260303-asm-reports-q4-and-full-year-2025-results.pdf).
+- **Tokyo Electron**: 34.1 percent of sales in the year to March 2026, down from 41.7 percent [16](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf).
+- **Lam Research**: 26 percent in the June 2026 quarter, behind Taiwan at 27 percent [2](https://www.sec.gov/Archives/edgar/data/707549/000070754926000033/lrcx_exhibitx991xq4x2026.htm).
+- **Applied Materials**: 28 percent in the third fiscal quarter of 2026, down from 35 percent [19](https://www.globenewswire.com/news-release/2026/08/13/3344890/0/en/applied-materials-announces-third-quarter-2026-results.html).
+- **ASM International**: more than 30 percent of 2025 revenue [18](https://www.asm.com/media/yvxbavwe/20260303-asm-reports-q4-and-full-year-2025-results.pdf).
 
 Between 2019 and 2024 China-based suppliers went from 2 to 7 percent of deposition and from under 3 to about 9 percent of etch and clean, 11 percent in dry etch alone. In ALD they gained nothing and stayed under 1 percent [20](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/). AMEC, the biggest of them, turned over RMB 12.385 billion in 2025, up 36.6 percent, and spent RMB 3.744 billion on research, 30.2 percent of sales [21](https://www.amec-inc.com/news/708.html).
 
 Washington tightened these rules four times between 2022 and 2025.
 
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**October 2022.** The 7 October interim final rule put manufacturing equipment and US person support under license and widened foreign-produced item rules for 28 listed Chinese entities [22](https://www.govinfo.gov/content/pkg/FR-2022-10-13/pdf/2022-21658.pdf).
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**October 2023.** The rule effective 17 November rewrote the equipment entries, adding isotropic and anisotropic dry etch (ECCN 3B001.c.1), spatial ALD (3B001.d.9), low-fluorine tungsten ALD and CVD (3B001.d.10) and carbon hard mask PECVD (3B001.d.5) [9](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf).
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**December 2024.** BIS controlled 24 more types of equipment and three types of software, added 140 entities and wrote a foreign direct product rule that reaches tools built outside the United States [23](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military). The new entries take in TSV etch and deposition into features deeper than 200:1 [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**September 2025.** The Affiliates Rule extended Entity List restrictions to any company at least 50 percent owned by a listed entity [24](https://www.govinfo.gov/content/pkg/FR-2025-09-30/pdf/2025-19001.pdf); BIS then stayed it to 9 November 2026 [25](https://www.govinfo.gov/content/pkg/FR-2025-11-12/pdf/2025-19846.pdf).
+- **October 2022.** The 7 October interim final rule put manufacturing equipment and US person support under license and widened foreign-produced item rules for 28 listed Chinese entities [22](https://www.govinfo.gov/content/pkg/FR-2022-10-13/pdf/2022-21658.pdf).
+- **October 2023.** The rule effective 17 November rewrote the equipment entries, adding isotropic and anisotropic dry etch (ECCN 3B001.c.1), spatial ALD (3B001.d.9), low-fluorine tungsten ALD and CVD (3B001.d.10) and carbon hard mask PECVD (3B001.d.5) [9](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf).
+- **December 2024.** BIS controlled 24 more types of equipment and three types of software, added 140 entities and wrote a foreign direct product rule that reaches tools built outside the United States [23](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military). The new entries take in TSV etch and deposition into features deeper than 200:1 [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
+- **September 2025.** The Affiliates Rule extended Entity List restrictions to any company at least 50 percent owned by a listed entity [24](https://www.govinfo.gov/content/pkg/FR-2025-09-30/pdf/2025-19001.pdf); BIS then stayed it to 9 November 2026 [25](https://www.govinfo.gov/content/pkg/FR-2025-11-12/pdf/2025-19846.pdf).
 
 Applied Materials took a $253 million charge to settle an export controls matter [19](https://www.globenewswire.com/news-release/2026/08/13/3344890/0/en/applied-materials-announces-third-quarter-2026-results.html), so the rules reach the vendors as well as their customers.
 
-**Chart:** China-based suppliers' share of global tool segments, 2024{--{"author":"James's AI","timestamp":1790597066514}@@ (%)--}
+**Chart:** China-based suppliers' share of global tool segments, 2024
 
-{++{"author":"James's AI","timestamp":1790597066514}@@| | % |
+| | % |
 |---|---:|
-| ++}Dry stripping {--{"author":"James's AI","timestamp":1790597066514}@@35% --}{++{"author":"James's AI","timestamp":1790597066514}@@| 35 |
-| ++}Dry etch {--{"author":"James's AI","timestamp":1790597066514}@@11%--}{++{"author":"James's AI","timestamp":1790597066514}@@| 11 |
-|++} CMP {--{"author":"James's AI","timestamp":1790597066514}@@11%--}{++{"author":"James's AI","timestamp":1790597066514}@@| 11 |
-|++} PVD {--{"author":"James's AI","timestamp":1790597066514}@@10% --}{++{"author":"James's AI","timestamp":1790597066514}@@| 10 |
-| ++}Etch and clean {--{"author":"James's AI","timestamp":1790597066514}@@9%--}{++{"author":"James's AI","timestamp":1790597066514}@@| 9 |
-|++} Deposition {--{"author":"James's AI","timestamp":1790597066514}@@7% --}{++{"author":"James's AI","timestamp":1790597066514}@@| 7 |
-| ++}CVD {--{"author":"James's AI","timestamp":1790597066514}@@7%--}{++{"author":"James's AI","timestamp":1790597066514}@@| 7 |
-|++} Lithography (i-line) {--{"author":"James's AI","timestamp":1790597066514}@@4%--}{++{"author":"James's AI","timestamp":1790597066514}@@| 4 |++}
+| Dry stripping | 35 |
+| Dry etch | 11 |
+| CMP | 11 |
+| PVD | 10 |
+| Etch and clean | 9 |
+| Deposition | 7 |
+| CVD | 7 |
+| Lithography (i-line) | 4 |
 
 Source: [CSET, Inside Beijing’s Chipmaking Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/)
 
@@ -1471,145 +1263,115 @@ The chokepoint is real but weaker than lithography's. Three or four credible ven
 
 ### Key evaluation criteria ^key-evaluation-criteria-6
 
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Selectivity.** How hard the process attacks one material and spares another. BIS controls wet processing at a silicon-germanium-to-silicon ratio of 100:1 [9](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf).
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Conformality and aspect ratio.** Whether a film reaches the bottom of a hole, and how deep that hole is against its width. Controls start at 10:1 for TSV etch and 200:1 for 3D DRAM deposition [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Uniformity.** Variation across a 300 mm wafer, with under 2 percent treated as an advanced-manufacturing marker [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Throughput.** Wafers per hour, which sets cost per layer and decides how many lots a fab can run.
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Particles and chamber matching.** How large a share of the defects a fab can tolerate comes from these tools, and whether one chamber behaves like the next, which {++{"author":"James's AI","timestamp":1790593576251}@@metrology and inspection ++}measure (see [[#^metrology-and-inspection|Metrology and inspection]]).
+- **Selectivity.** How hard the process attacks one material and spares another. BIS controls wet processing at a silicon-germanium-to-silicon ratio of 100:1 [9](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf).
+- **Conformality and aspect ratio.** Whether a film reaches the bottom of a hole, and how deep that hole is against its width. Controls start at 10:1 for TSV etch and 200:1 for 3D DRAM deposition [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
+- **Uniformity.** Variation across a 300 mm wafer, with under 2 percent treated as an advanced-manufacturing marker [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
+- **Throughput.** Wafers per hour, which sets cost per layer and decides how many lots a fab can run.
+- **Particles and chamber matching.** How large a share of the defects a fab can tolerate comes from these tools, and whether one chamber behaves like the next, which metrology and inspection measure (see [[#^metrology-and-inspection|Metrology and inspection]]).
 
-{--{"author":"James's AI","timestamp":1790597066514}@@Card 1 of 4Question--}{++{"author":"James's AI","timestamp":1790597066514}@@::::callout {title="Flashcards" tone="blue"}
-Recall each answer, then open the card.++}
+::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.
 
-{++{"author":"James's AI","timestamp":1790597066514}@@:::callout {title="Card 1 of 4: ++}What do deposition and etch {--{"author":"James's AI","timestamp":1790597066514}@@do?
+:::callout {title="Card 1 of 4: What do deposition and etch do?" tone="neutral" collapse="closed"}
+Deposition lays down a thin film, and etch cuts away the parts the printed pattern leaves exposed.
 
-Card 1 of 4Answer
+A chip takes more than a thousand of these rounds, one layer at a time. [[#^how-it-works-6|Reread: How it works]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597066514}@@do?" tone="neutral" collapse="closed"}
-++}Deposition lays down a thin film, and etch cuts away the parts the printed pattern leaves exposed.
+:::callout {title="Card 2 of 4: Who makes most deposition and etch tools?" tone="neutral" collapse="closed"}
+Four firms: Applied Materials, Lam Research, Tokyo Electron and ASM International.
 
-A chip takes more than a thousand of these rounds, one layer at a time. [[#^how-it-works-6|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597066514}@@
-:::++}
+They are American, Japanese and Dutch. No single firm dominates the way ASML does in lithography. [[#^who-makes-it-6|Reread: Who makes it]]
+:::
 
-{--{"author":"James's AI","timestamp":1790597066514}@@Card --}{++{"author":"James's AI","timestamp":1790597066514}@@:::callout {title="Card ++}2 of {--{"author":"James's AI","timestamp":1790597066514}@@4Question
+:::callout {title="Card 3 of 4: In which kind of chipmaking tool have Chinese makers come closest to the leaders?" tone="neutral" collapse="closed"}
+Deposition and etch.
 
---}{++{"author":"James's AI","timestamp":1790597066514}@@4: ++}Who makes most deposition and etch {--{"author":"James's AI","timestamp":1790597066514}@@tools?
+Chinese suppliers held about 11 percent of dry etch and 7 percent of deposition in 2024. [[#^china-and-the-controls|Reread: China and the controls]]
+:::
 
-Card 2 of 4Answer
+:::callout {title="Card 4 of 4: Which deposition tool is China furthest behind in?" tone="neutral" collapse="closed"}
+Atomic layer deposition, with under 1 percent of the market.
 
---}{++{"author":"James's AI","timestamp":1790597066514}@@tools?" tone="neutral" collapse="closed"}
-++}Four firms: Applied Materials, Lam Research, Tokyo Electron and ASM International.
+The newest gate-all-around transistors depend on it. [[#^china-and-the-controls|Reread: China and the controls]]
+:::
 
-They are American, Japanese and Dutch. No single firm dominates the way ASML does in lithography. [[#^who-makes-it-6|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597066514}@@
-:::++}
+::::
 
-{--{"author":"James's AI","timestamp":1790597066514}@@Card--}{++{"author":"James's AI","timestamp":1790597066514}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597066514}@@4Question
+:::callout {title="Four things to remember" tone="green"}
+- Deposition lays down thin films and etch cuts them into patterns, over more than a thousand rounds per chip.
+- Four American, Japanese and Dutch firms make most of these tools, and none dominates.
+- Chinese makers have come closest to the leaders here, with about 11 percent of dry etch in 2024.
+- China is furthest behind in atomic layer deposition, which the newest transistors depend on.
+:::
 
---}{++{"author":"James's AI","timestamp":1790597066514}@@4: ++}In which kind of chipmaking tool have Chinese makers come closest to the {--{"author":"James's AI","timestamp":1790597066514}@@leaders?
-
-Card 3 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597066514}@@leaders?" tone="neutral" collapse="closed"}
-++}Deposition and etch.
-
-Chinese suppliers held about 11 percent of dry etch and 7 percent of deposition in 2024. [[#^china-and-the-controls|Reread: China and the controls]]{++{"author":"James's AI","timestamp":1790597066514}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597066514}@@Card--}{++{"author":"James's AI","timestamp":1790597066514}@@:::callout {title="Card++} 4 of{--{"author":"James's AI","timestamp":1790597066514}@@ 4Question
-
---}{++{"author":"James's AI","timestamp":1790597066514}@@ 4: ++}Which deposition tool is China furthest behind {--{"author":"James's AI","timestamp":1790597066514}@@in?
-
-Card 4 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597066514}@@in?" tone="neutral" collapse="closed"}
-++}Atomic layer deposition, with under 1 percent of the market.
-
-The newest gate-all-around transistors depend on it. [[#^china-and-the-controls|Reread: China and the controls]]{++{"author":"James's AI","timestamp":1790597066514}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597066514}@@#### Four--}{++{"author":"James's AI","timestamp":1790597066514}@@::::
-
-:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597066514}@@remember ^four-things-to-remember-5
-
---}{++{"author":"James's AI","timestamp":1790597066514}@@remember" tone="green"}
-++}-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}Deposition lays down thin films and etch cuts them into patterns, over more than a thousand rounds per chip.
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}Four American, Japanese and Dutch firms make most of these tools, and none dominates.
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}Chinese makers have come closest to the leaders here, with about 11 percent of dry etch in 2024.
--{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}China is furthest behind in atomic layer deposition, which the newest transistors depend on.{++{"author":"James's AI","timestamp":1790597066514}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597066514}@@**Sources (25)**
-
---}{++{"author":"James's AI","timestamp":1790597066514}@@:::callout {title="Sources (25)" tone="neutral" collapse="closed"}
-++}1.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Revenue from Contract with Customer, Excluding Assessed Tax (us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax) reported by APPLIED MATERIALS INC /DE, XBRL company concept {--{"author":"James's AI","timestamp":1790597066514}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0000006951/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json)--}{++{"author":"James's AI","timestamp":1790597066514}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0000006951/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json).++} U.S. Securities and Exchange Commission (XBRL data for APPLIED MATERIALS INC {--{"author":"James's AI","timestamp":1790597066514}@@/DE)--}{++{"author":"James's AI","timestamp":1790597066514}@@/DE). Tier A.++}
-2.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [LAM RESEARCH CORP, Form 8-K current report for the period ended 2026-07-29 {--{"author":"James's AI","timestamp":1790597066514}@@(8-K)](https://www.sec.gov/Archives/edgar/data/707549/000070754926000033/lrcx_exhibitx991xq4x2026.htm)--}{++{"author":"James's AI","timestamp":1790597066514}@@(8-K)](https://www.sec.gov/Archives/edgar/data/707549/000070754926000033/lrcx_exhibitx991xq4x2026.htm).++} U.S. Securities and Exchange Commission (filing by LAM RESEARCH CORP) · 29 July {--{"author":"James's AI","timestamp":1790597066514}@@2026--}{++{"author":"James's AI","timestamp":1790597066514}@@2026. Tier A.++}
-3.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [The Semiconductor Supply Chain - Issue {--{"author":"James's AI","timestamp":1790597066514}@@Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf)--}{++{"author":"James's AI","timestamp":1790597066514}@@Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).++} Center for Security and Emerging Technology (CSET) · 21 January {--{"author":"James's AI","timestamp":1790597066514}@@2021--}{++{"author":"James's AI","timestamp":1790597066514}@@2021. Tier A.++}
-4.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Supply Chain Explorer: Advanced {--{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N36)--}{++{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N36).++} Emerging Technology Observatory {--{"author":"James's AI","timestamp":1790597066514}@@(ETO)--}{++{"author":"James's AI","timestamp":1790597066514}@@(ETO). Tier A.++}
-5.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Supply Chain Explorer: Advanced {--{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N103)--}{++{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N103).++} Emerging Technology Observatory {--{"author":"James's AI","timestamp":1790597066514}@@(ETO)--}{++{"author":"James's AI","timestamp":1790597066514}@@(ETO). Tier A.++}
-6.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Supply Chain Explorer: Advanced {--{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N42)--}{++{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N42).++} Emerging Technology Observatory {--{"author":"James's AI","timestamp":1790597066514}@@(ETO)--}{++{"author":"James's AI","timestamp":1790597066514}@@(ETO). Tier A.++}
-7.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Supply Chain Explorer: Advanced {--{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N47)--}{++{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N47).++} Emerging Technology Observatory {--{"author":"James's AI","timestamp":1790597066514}@@(ETO)--}{++{"author":"James's AI","timestamp":1790597066514}@@(ETO). Tier A.++}
-8.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Supply Chain Explorer: Advanced {--{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N38)--}{++{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N38).++} Emerging Technology Observatory {--{"author":"James's AI","timestamp":1790597066514}@@(ETO)--}{++{"author":"James's AI","timestamp":1790597066514}@@(ETO). Tier A.++}
-9.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Export Controls on Semiconductor Manufacturing {--{"author":"James's AI","timestamp":1790597066514}@@Items](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf)--}{++{"author":"James's AI","timestamp":1790597066514}@@Items](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf).++} U.S. Government Publishing Office (Federal Register) · 25 October {--{"author":"James's AI","timestamp":1790597066514}@@2023--}{++{"author":"James's AI","timestamp":1790597066514}@@2023. Tier A.++}
-10.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Supply Chain Explorer: Advanced {--{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N41)--}{++{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N41).++} Emerging Technology Observatory {--{"author":"James's AI","timestamp":1790597066514}@@(ETO)--}{++{"author":"James's AI","timestamp":1790597066514}@@(ETO). Tier A.++}
-11.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Supply Chain Explorer: Advanced {--{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N50)--}{++{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N50).++} Emerging Technology Observatory {--{"author":"James's AI","timestamp":1790597066514}@@(ETO)--}{++{"author":"James's AI","timestamp":1790597066514}@@(ETO). Tier A.++}
-12.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Supply Chain Explorer: Advanced {--{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N51)--}{++{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N51).++} Emerging Technology Observatory {--{"author":"James's AI","timestamp":1790597066514}@@(ETO)--}{++{"author":"James's AI","timestamp":1790597066514}@@(ETO). Tier A.++}
-13.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Lam Research Introduces Lam Cryo™ 3.0 Cryogenic Etch Technology to Accelerate Scaling of 3D NAND for the AI {--{"author":"James's AI","timestamp":1790597066514}@@Era](https://newsroom.lamresearch.com/2024-07-31-Lam-Research-Introduces-Lam-Cryo-TM-3-0-Cryogenic-Etch-Technology-to-Accelerate-Scaling-of-3D-NAND-for-the-AI-Era)--}{++{"author":"James's AI","timestamp":1790597066514}@@Era](https://newsroom.lamresearch.com/2024-07-31-Lam-Research-Introduces-Lam-Cryo-TM-3-0-Cryogenic-Etch-Technology-to-Accelerate-Scaling-of-3D-NAND-for-the-AI-Era).++} Lam Research · 31 July {--{"author":"James's AI","timestamp":1790597066514}@@2024--}{++{"author":"James's AI","timestamp":1790597066514}@@2024. Tier A.++}
-14.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Foreign-Produced Direct Product Rule Additions, and Refinements to Controls for Advanced Computing and Semiconductor Manufacturing {--{"author":"James's AI","timestamp":1790597066514}@@Items](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf)--}{++{"author":"James's AI","timestamp":1790597066514}@@Items](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).++} U.S. Government Publishing Office (Federal Register) · 5 December {--{"author":"James's AI","timestamp":1790597066514}@@2024--}{++{"author":"James's AI","timestamp":1790597066514}@@2024. Tier A.++}
-15.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Applied Materials Unveils Chip Wiring Innovations for More Energy-Efficient {--{"author":"James's AI","timestamp":1790597066514}@@Computing](https://www.globenewswire.com/news-release/2024/07/08/2909540/0/en/applied-materials-unveils-chip-wiring-innovations-for-more-energy-efficient-computing.html)--}{++{"author":"James's AI","timestamp":1790597066514}@@Computing](https://www.globenewswire.com/news-release/2024/07/08/2909540/0/en/applied-materials-unveils-chip-wiring-innovations-for-more-energy-efficient-computing.html).++} GlobeNewswire (release by Applied Materials) · 8 July {--{"author":"James's AI","timestamp":1790597066514}@@2024--}{++{"author":"James's AI","timestamp":1790597066514}@@2024. Tier A.++}
-16.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Investor Relations / April 30, {--{"author":"James's AI","timestamp":1790597066514}@@2026](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf)--}{++{"author":"James's AI","timestamp":1790597066514}@@2026](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf).++} Tokyo Electron · 30 April {--{"author":"James's AI","timestamp":1790597066514}@@2026--}{++{"author":"James's AI","timestamp":1790597066514}@@2026. Tier A.++}
-17.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [SEMI Reports Global Semiconductor Equipment Billings Reached $135 Billion in 2025, Up 15% {--{"author":"James's AI","timestamp":1790597066514}@@Year-on-Year](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025)--}{++{"author":"James's AI","timestamp":1790597066514}@@Year-on-Year](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025).++} SEMI · 7 April {--{"author":"James's AI","timestamp":1790597066514}@@2026--}{++{"author":"James's AI","timestamp":1790597066514}@@2026. Tier A.++}
-18.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Press Release Q4, 2025 {--{"author":"James's AI","timestamp":1790597066514}@@text](https://www.asm.com/media/yvxbavwe/20260303-asm-reports-q4-and-full-year-2025-results.pdf)--}{++{"author":"James's AI","timestamp":1790597066514}@@text](https://www.asm.com/media/yvxbavwe/20260303-asm-reports-q4-and-full-year-2025-results.pdf).++} ASM International · 3 March {--{"author":"James's AI","timestamp":1790597066514}@@2026--}{++{"author":"James's AI","timestamp":1790597066514}@@2026. Tier A.++}
-19.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Applied Materials Announces Third Quarter 2026 {--{"author":"James's AI","timestamp":1790597066514}@@Results](https://www.globenewswire.com/news-release/2026/08/13/3344890/0/en/applied-materials-announces-third-quarter-2026-results.html)--}{++{"author":"James's AI","timestamp":1790597066514}@@Results](https://www.globenewswire.com/news-release/2026/08/13/3344890/0/en/applied-materials-announces-third-quarter-2026-results.html).++} GlobeNewswire (release by Applied Materials) · 13 August {--{"author":"James's AI","timestamp":1790597066514}@@2026--}{++{"author":"James's AI","timestamp":1790597066514}@@2026. Tier A.++}
-20.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Inside Beijing’s Chipmaking {--{"author":"James's AI","timestamp":1790597066514}@@Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/)--}{++{"author":"James's AI","timestamp":1790597066514}@@Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/).++} Center for Security and Emerging Technology (CSET) · 14 July {--{"author":"James's AI","timestamp":1790597066514}@@2025--}{++{"author":"James's AI","timestamp":1790597066514}@@2025. Tier A.++}
-21.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [AMEC holds its 2025 annual results briefing {--{"author":"James's AI","timestamp":1790597066514}@@(中微公司成功举办2025年度业绩说明会)](https://www.amec-inc.com/news/708.html)--}{++{"author":"James's AI","timestamp":1790597066514}@@(中微公司成功举办2025年度业绩说明会)](https://www.amec-inc.com/news/708.html).++} Advanced Micro-Fabrication Equipment (AMEC) · 1 April {--{"author":"James's AI","timestamp":1790597066514}@@2026--}{++{"author":"James's AI","timestamp":1790597066514}@@2026. Tier A.++}
-22.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Implementation of Additional Export Controls: Certain Advanced Computing and Semiconductor Manufacturing Items; Supercomputer and Semiconductor End Use; Entity List {--{"author":"James's AI","timestamp":1790597066514}@@Modification](https://www.govinfo.gov/content/pkg/FR-2022-10-13/pdf/2022-21658.pdf)--}{++{"author":"James's AI","timestamp":1790597066514}@@Modification](https://www.govinfo.gov/content/pkg/FR-2022-10-13/pdf/2022-21658.pdf).++} U.S. Government Publishing Office (Federal Register) · 13 October {--{"author":"James's AI","timestamp":1790597066514}@@2022--}{++{"author":"James's AI","timestamp":1790597066514}@@2022. Tier A.++}
-23.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Commerce Strengthens Export Controls to Restrict China's Capability to Produce Advanced Semiconductors for Military {--{"author":"James's AI","timestamp":1790597066514}@@Applications](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military)--}{++{"author":"James's AI","timestamp":1790597066514}@@Applications](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military).++} U.S. Bureau of Industry and Security · 2 December {--{"author":"James's AI","timestamp":1790597066514}@@2024--}{++{"author":"James's AI","timestamp":1790597066514}@@2024. Tier A.++}
-24.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Expansion of End-User Controls To Cover Affiliates of Certain Listed {--{"author":"James's AI","timestamp":1790597066514}@@Entities](https://www.govinfo.gov/content/pkg/FR-2025-09-30/pdf/2025-19001.pdf)--}{++{"author":"James's AI","timestamp":1790597066514}@@Entities](https://www.govinfo.gov/content/pkg/FR-2025-09-30/pdf/2025-19001.pdf).++} U.S. Government Publishing Office (Federal Register) · 30 September {--{"author":"James's AI","timestamp":1790597066514}@@2025--}{++{"author":"James's AI","timestamp":1790597066514}@@2025. Tier A.++}
-25.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [One Year Suspension of Expansion of End-User Controls for Affiliates of Certain Listed {--{"author":"James's AI","timestamp":1790597066514}@@Entities](https://www.govinfo.gov/content/pkg/FR-2025-11-12/pdf/2025-19846.pdf)--}{++{"author":"James's AI","timestamp":1790597066514}@@Entities](https://www.govinfo.gov/content/pkg/FR-2025-11-12/pdf/2025-19846.pdf).++} U.S. Government Publishing Office (Federal Register) · 12 November {--{"author":"James's AI","timestamp":1790597066514}@@2025--}{++{"author":"James's AI","timestamp":1790597066514}@@2025. Tier A.
-:::++}
+:::callout {title="Sources (25)" tone="neutral" collapse="closed"}
+1. [Revenue from Contract with Customer, Excluding Assessed Tax (us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax) reported by APPLIED MATERIALS INC /DE, XBRL company concept data](https://data.sec.gov/api/xbrl/companyconcept/CIK0000006951/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json). U.S. Securities and Exchange Commission (XBRL data for APPLIED MATERIALS INC /DE). Tier A.
+2. [LAM RESEARCH CORP, Form 8-K current report for the period ended 2026-07-29 (8-K)](https://www.sec.gov/Archives/edgar/data/707549/000070754926000033/lrcx_exhibitx991xq4x2026.htm). U.S. Securities and Exchange Commission (filing by LAM RESEARCH CORP) · 29 July 2026. Tier A.
+3. [The Semiconductor Supply Chain - Issue Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf). Center for Security and Emerging Technology (CSET) · 21 January 2021. Tier A.
+4. [Supply Chain Explorer: Advanced Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N36). Emerging Technology Observatory (ETO). Tier A.
+5. [Supply Chain Explorer: Advanced Chips](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N103). Emerging Technology Observatory (ETO). Tier A.
+6. [Supply Chain Explorer: Advanced Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N42). Emerging Technology Observatory (ETO). Tier A.
+7. [Supply Chain Explorer: Advanced Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N47). Emerging Technology Observatory (ETO). Tier A.
+8. [Supply Chain Explorer: Advanced Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N38). Emerging Technology Observatory (ETO). Tier A.
+9. [Export Controls on Semiconductor Manufacturing Items](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf). U.S. Government Publishing Office (Federal Register) · 25 October 2023. Tier A.
+10. [Supply Chain Explorer: Advanced Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N41). Emerging Technology Observatory (ETO). Tier A.
+11. [Supply Chain Explorer: Advanced Chips](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N50). Emerging Technology Observatory (ETO). Tier A.
+12. [Supply Chain Explorer: Advanced Chips](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N51). Emerging Technology Observatory (ETO). Tier A.
+13. [Lam Research Introduces Lam Cryo™ 3.0 Cryogenic Etch Technology to Accelerate Scaling of 3D NAND for the AI Era](https://newsroom.lamresearch.com/2024-07-31-Lam-Research-Introduces-Lam-Cryo-TM-3-0-Cryogenic-Etch-Technology-to-Accelerate-Scaling-of-3D-NAND-for-the-AI-Era). Lam Research · 31 July 2024. Tier A.
+14. [Foreign-Produced Direct Product Rule Additions, and Refinements to Controls for Advanced Computing and Semiconductor Manufacturing Items](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf). U.S. Government Publishing Office (Federal Register) · 5 December 2024. Tier A.
+15. [Applied Materials Unveils Chip Wiring Innovations for More Energy-Efficient Computing](https://www.globenewswire.com/news-release/2024/07/08/2909540/0/en/applied-materials-unveils-chip-wiring-innovations-for-more-energy-efficient-computing.html). GlobeNewswire (release by Applied Materials) · 8 July 2024. Tier A.
+16. [Investor Relations / April 30, 2026](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf). Tokyo Electron · 30 April 2026. Tier A.
+17. [SEMI Reports Global Semiconductor Equipment Billings Reached $135 Billion in 2025, Up 15% Year-on-Year](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025). SEMI · 7 April 2026. Tier A.
+18. [Press Release Q4, 2025 text](https://www.asm.com/media/yvxbavwe/20260303-asm-reports-q4-and-full-year-2025-results.pdf). ASM International · 3 March 2026. Tier A.
+19. [Applied Materials Announces Third Quarter 2026 Results](https://www.globenewswire.com/news-release/2026/08/13/3344890/0/en/applied-materials-announces-third-quarter-2026-results.html). GlobeNewswire (release by Applied Materials) · 13 August 2026. Tier A.
+20. [Inside Beijing’s Chipmaking Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/). Center for Security and Emerging Technology (CSET) · 14 July 2025. Tier A.
+21. [AMEC holds its 2025 annual results briefing (中微公司成功举办2025年度业绩说明会)](https://www.amec-inc.com/news/708.html). Advanced Micro-Fabrication Equipment (AMEC) · 1 April 2026. Tier A.
+22. [Implementation of Additional Export Controls: Certain Advanced Computing and Semiconductor Manufacturing Items; Supercomputer and Semiconductor End Use; Entity List Modification](https://www.govinfo.gov/content/pkg/FR-2022-10-13/pdf/2022-21658.pdf). U.S. Government Publishing Office (Federal Register) · 13 October 2022. Tier A.
+23. [Commerce Strengthens Export Controls to Restrict China's Capability to Produce Advanced Semiconductors for Military Applications](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military). U.S. Bureau of Industry and Security · 2 December 2024. Tier A.
+24. [Expansion of End-User Controls To Cover Affiliates of Certain Listed Entities](https://www.govinfo.gov/content/pkg/FR-2025-09-30/pdf/2025-19001.pdf). U.S. Government Publishing Office (Federal Register) · 30 September 2025. Tier A.
+25. [One Year Suspension of Expansion of End-User Controls for Affiliates of Certain Listed Entities](https://www.govinfo.gov/content/pkg/FR-2025-11-12/pdf/2025-19846.pdf). U.S. Government Publishing Office (Federal Register) · 12 November 2025. Tier A.
+:::
 
 ## Metrology and Inspection ^metrology-and-inspection
 
 No fab is planned around measuring and inspecting wafers, and no fab works without it. One American firm holds about 57% of the market for those tools, roughly seven times its nearest rival, and its share is still growing.
 
-{--{"author":"James's AI","timestamp":1790597081004}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+*1,541 words / 7 min*
 
-1,541--}{++{"author":"James's AI","timestamp":1790597081004}@@*1,541++} words / 7{--{"author":"James's AI","timestamp":1790597081004}@@ minSpecimen: electron microscope column--}{++{"author":"James's AI","timestamp":1790597081004}@@ min*++}
-
-{--{"author":"James's AI","timestamp":1790597081004}@@**In--}{++{"author":"James's AI","timestamp":1790597081004}@@:::callout {title="In++} plain {--{"author":"James's AI","timestamp":1790597081004}@@terms**
-
---}{++{"author":"James's AI","timestamp":1790597081004}@@terms" tone="neutral"}
-++}Metrology and inspection are the factory's quality control. Between the steps that build a chip, another machine looks the wafer over. It checks whether the lines are the right width, whether this layer landed squarely on the last one, and whether a speck of dirt has killed a circuit. An AI accelerator is the part built to run AI, and its main chip, the one that does the calculating, is one of the largest cut from a wafer. A bigger chip is a bigger target for a speck. On a chip that size, halving the stray specks lifts the share of working chips from about half to about seven in ten. One American firm sells seven times as many of those machines as its nearest rival, so a chip factory, or fab, cut off from it can buy every other tool and still not learn why its chips fail.{++{"author":"James's AI","timestamp":1790597081004}@@
-:::++}
+:::callout {title="In plain terms" tone="neutral"}
+Metrology and inspection are the factory's quality control. Between the steps that build a chip, another machine looks the wafer over. It checks whether the lines are the right width, whether this layer landed squarely on the last one, and whether a speck of dirt has killed a circuit. An AI accelerator is the part built to run AI, and its main chip, the one that does the calculating, is one of the largest cut from a wafer. A bigger chip is a bigger target for a speck. On a chip that size, halving the stray specks lifts the share of working chips from about half to about seven in ten. One American firm sells seven times as many of those machines as its nearest rival, so a chip factory, or fab, cut off from it can buy every other tool and still not learn why its chips fail.
+:::
 
 ### In short ^in-short-7
 
 Yield is set by defect density and die area, and AI accelerators have the largest dies in production. KLA holds about 57 percent of the market, six to seven times its nearest rival, and is still gaining [2](https://d1io3yog0oux5.cloudfront.net/_7791115a123b86b3f10b1a5eb5210224/klatencor/db/1166/10653/file/2026+Investor+Day+Master+Final_IR+copy.pdf), with Applied Materials, Lasertec, Hitachi High-Tech, ASML, Nova, Onto and Camtek splitting the rest [3](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60). KLA's packaging process control revenue is heading toward $1.1 billion in 2026 [1](https://d1io3yog0oux5.cloudfront.net/_b9ee755a5f60dd0fb3f9e27967aed6af/klatencor/db/1117/10668/letter_to_shareholders/KLA+Earnings+Shareholder+Letter+-+Q4+FY26.pdf). No one has recorded a Chinese gain in process control, which is why the controls on it are the ones China can least easily answer with domestic tools.
 
-{--{"author":"James's AI","timestamp":1790597081004}@@Concentration: **High**--}{++{"author":"James's AI","timestamp":1790597081004}@@:::callout {title="Chokepoint card" tone="amber"}
-**Concentration:** High++}
+:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** High
 
-{--{"author":"James's AI","timestamp":1790597081004}@@Substitutability: **Moderate**.--}{++{"author":"James's AI","timestamp":1790597081004}@@**Substitutability:** Moderate.++} KLA is the largest maker of measuring and inspecting tools, but every kind has a second maker, so losing KLA would slow a fab without stopping it.
+**Substitutability:** Moderate. KLA is the largest maker of measuring and inspecting tools, but every kind has a second maker, so losing KLA would slow a fab without stopping it.
 
-{--{"author":"James's AI","timestamp":1790597081004}@@Price--}{++{"author":"James's AI","timestamp":1790597081004}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597081004}@@size: **A--}{++{"author":"James's AI","timestamp":1790597081004}@@size:** A++} $15.7B process control tool market in 2025, about 57% of it {--{"author":"James's AI","timestamp":1790597081004}@@KLA's**.--}{++{"author":"James's AI","timestamp":1790597081004}@@KLA's.++} KLA's fiscal 2026 revenue was $13.58B against a wafer equipment market of roughly $120B in 2025, so process control is around a tenth of what a fab spends on tools.
+**Price or market size:** A $15.7B process control tool market in 2025, about 57% of it KLA's. KLA's fiscal 2026 revenue was $13.58B against a wafer equipment market of roughly $120B in 2025, so process control is around a tenth of what a fab spends on tools.
 
 **Who leads**
 
--{--{"author":"James's AI","timestamp":1790597081004}@@   USKLA--}{++{"author":"James's AI","timestamp":1790597081004}@@ **KLA** (US):++} 56.5% of process control in 2024 on its own investor-day count, 6.5 times its nearest rival; $13.58B revenue, fiscal 2026
--{--{"author":"James's AI","timestamp":1790597081004}@@   USApplied Materials--}{++{"author":"James's AI","timestamp":1790597081004}@@ **Applied Materials** (US):++} 11.2% of process control tools in 2025: electron-beam defect review, line-width measurement and film metrology
--{--{"author":"James's AI","timestamp":1790597081004}@@   JPLasertec--}{++{"author":"James's AI","timestamp":1790597081004}@@ **Lasertec** (JP):++} 6.4% of process control tools in 2025, almost all of it mask inspection
--{--{"author":"James's AI","timestamp":1790597081004}@@   NLASML--}{++{"author":"James's AI","timestamp":1790597081004}@@ **ASML** (NL):++} 5.9% of process control tools in 2025: YieldStar layer alignment and HMI multibeam electron inspection
--{--{"author":"James's AI","timestamp":1790597081004}@@   ILNova--}{++{"author":"James's AI","timestamp":1790597081004}@@ **Nova** (IL):++} 4.3% of process control tools in 2025; $880.6M revenue, 2025
--{--{"author":"James's AI","timestamp":1790597081004}@@   USOnto Innovation--}{++{"author":"James's AI","timestamp":1790597081004}@@ **Onto Innovation** (US):++} 2.6% of process control tools in 2025; $1.01B revenue, 2025
+- **KLA** (US): 56.5% of process control in 2024 on its own investor-day count, 6.5 times its nearest rival; $13.58B revenue, fiscal 2026
+- **Applied Materials** (US): 11.2% of process control tools in 2025: electron-beam defect review, line-width measurement and film metrology
+- **Lasertec** (JP): 6.4% of process control tools in 2025, almost all of it mask inspection
+- **ASML** (NL): 5.9% of process control tools in 2025: YieldStar layer alignment and HMI multibeam electron inspection
+- **Nova** (IL): 4.3% of process control tools in 2025; $880.6M revenue, 2025
+- **Onto Innovation** (US): 2.6% of process control tools in 2025; $1.01B revenue, 2025
 
 **Where it is made**
 
--{--{"author":"James's AI","timestamp":1790597081004}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597081004}@@ **United States**:++} KLA (Milpitas), Onto Innovation (Wilmington, MA), Applied Materials
--{--{"author":"James's AI","timestamp":1790597081004}@@   NLNetherlands--}{++{"author":"James's AI","timestamp":1790597081004}@@ **Netherlands**:++} ASML YieldStar and HMI e-beam, Veldhoven and San Jose
--{--{"author":"James's AI","timestamp":1790597081004}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597081004}@@ **Japan**:++} Hitachi High-Tech CD-SEM; Lasertec mask inspection; Rigaku X-ray
--{--{"author":"James's AI","timestamp":1790597081004}@@   ILIsrael--}{++{"author":"James's AI","timestamp":1790597081004}@@ **Israel**:++} Nova (Rehovot) and Camtek (Migdal Haemek)
--{--{"author":"James's AI","timestamp":1790597081004}@@   CNChina--}{++{"author":"James's AI","timestamp":1790597081004}@@ **China**:++} Domestic entrants only; 0.7% of the process control tool market in 2025
+- **United States**: KLA (Milpitas), Onto Innovation (Wilmington, MA), Applied Materials
+- **Netherlands**: ASML YieldStar and HMI e-beam, Veldhoven and San Jose
+- **Japan**: Hitachi High-Tech CD-SEM; Lasertec mask inspection; Rigaku X-ray
+- **Israel**: Nova (Rehovot) and Camtek (Migdal Haemek)
+- **China**: Domestic entrants only; 0.7% of the process control tool market in 2025
 
-{--{"author":"James's AI","timestamp":1790597081004}@@Why--}{++{"author":"James's AI","timestamp":1790597081004}@@**Why++} substitution is {--{"author":"James's AI","timestamp":1790597081004}@@possible--}{++{"author":"James's AI","timestamp":1790597081004}@@possible**++}
+**Why substitution is possible**
 
 Metrology and inspection tools measure and inspect wafers so a fab can find and fix faults in its process. KLA is the biggest maker, but seven other firms ship approved tools, and three of them are the leader in one kind of tool. A fab that loses KLA and buys from the others keeps running. It finds fewer flaws and fixes them more slowly, and it needs two to five years to return to its old performance. A country that is not allowed to buy from any of them would take far longer: Chinese firms held 0.7 percent of the market for these tools in 2025.
 
@@ -1619,8 +1381,8 @@ Of all major kinds of chipmaking tool, metrology and inspection is where Chinese
 
 **Where the US stands**
 
-KLA is the largest maker of metrology and inspection tools in the world. It puts its own 2024 share at 56.5 percent, or 6.5 times its nearest rival. CSET's Supply Chain Explorer puts it at 56.8 percent of the 2025 market. American firms hold 72 percent of this market and Japanese firms 14 percent. A December 2024 US rule added inspection and measurement tools for patterned 300 mm wafers to the controlled list, for tools that can find defects 21 nm across or smaller.{++{"author":"James's AI","timestamp":1790597081004}@@
-:::++}
+KLA is the largest maker of metrology and inspection tools in the world. It puts its own 2024 share at 56.5 percent, or 6.5 times its nearest rival. CSET's Supply Chain Explorer puts it at 56.8 percent of the 2025 market. American firms hold 72 percent of this market and Japanese firms 14 percent. A December 2024 US rule added inspection and measurement tools for patterned 300 mm wafers to the controlled list, for tools that can find defects 21 nm across or smaller.
+:::
 
 Process control is about a tenth of what a fab spends on tools, out of a wafer equipment market of roughly $120 billion in 2025 [1](https://d1io3yog0oux5.cloudfront.net/_b9ee755a5f60dd0fb3f9e27967aed6af/klatencor/db/1117/10668/letter_to_shareholders/KLA+Earnings+Shareholder+Letter+-+Q4+FY26.pdf). At its March 2026 investor day KLA put its own 2024 share at 56.5 percent, six and a half times its nearest competitor [2](https://d1io3yog0oux5.cloudfront.net/_7791115a123b86b3f10b1a5eb5210224/klatencor/db/1166/10653/file/2026+Investor+Day+Master+Final_IR+copy.pdf); CSET's own count for 2025 is 56.8 percent [3](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60).
 
@@ -1636,45 +1398,39 @@ A bigger chip is a bigger target for the second kind, and the loss grows faster 
 
 Run that equation with a clustering constant of 3 for an 8 square centimeter die, about as much as one exposure can print, and it yields about 49 percent at a defect density of 0.10 and about 69 percent at 0.05 [4](https://web.ece.ucsb.edu/~parhami/docs_folder/f33-book-dep-comp-pt2.pdf). Getting from one to the other is yield learning: find which of the thousand-odd steps is losing dies, fix it, move on.
 
-{--{"author":"James's AI","timestamp":1790594485001}@@![](https://chipsupplychain.org/media/defects-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594485001}@@![Why big chips lose more to defects](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-defects.jpg)++}{--{"author":"James's AI","timestamp":1790597081004}@@
+![Why big chips lose more to defects](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-defects.jpg)
 
-**Figure: Why --}{++{"author":"James's AI","timestamp":1790597081004}@@
-
-*Why ++}big chips lose more to {--{"author":"James's AI","timestamp":1790597081004}@@defects.** An animation on the live site ([watch it --}{++{"author":"James's AI","timestamp":1790597081004}@@defects. The last frame of an animation ++}on{--{"author":"James's AI","timestamp":1790597081004}@@ chipsupplychain.org](https://chipsupplychain.org/#metrology-and-inspection)); above is its last frame.--}{++{"author":"James's AI","timestamp":1790597081004}@@ the original site.++} Its {--{"author":"James's AI","timestamp":1790597081004}@@steps:--}{++{"author":"James's AI","timestamp":1790597081004}@@steps:*++}
+*Why big chips lose more to defects. The last frame of an animation on the original site. Its steps:*
 
 1. **Specks land.** Specks of dust and tiny flaws land at random on every wafer.
 2. **Small chips.** Cut into small chips, almost every chip misses every speck.
 3. **AI-size chips.** An AI chip covers eight times the area, so about half of them catch a speck and fail.
 4. **Half the specks.** Halve the specks and about seven in ten AI chips work. Finding defects pays most on the biggest chips.
 
-{--{"author":"James's AI","timestamp":1790597081004}@@_Simulated--}{++{"author":"James's AI","timestamp":1790597081004}@@*Simulated++} 300 mm wafer: 68 specks, 0.10 per square centimeter, placed at random in loose clusters. The share of working chips follows the formula above with a clustering constant of{--{"author":"James's AI","timestamp":1790597081004}@@ 3._
-
-Why big chips lose more to defects--}{++{"author":"James's AI","timestamp":1790597081004}@@ 3.*++}
+*Simulated 300 mm wafer: 68 specks, 0.10 per square centimeter, placed at random in loose clusters. The share of working chips follows the formula above with a clustering constant of 3.*
 
 ### Variants and trade-offs ^variants-and-trade-offs-7
 
 The tools trade sensitivity against speed. All the market sizes and shares below are CSET's, for 2025 [3](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60).
 
--{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Defect inspection** scans a whole wafer with light or electrons and compares each die against its neighbors. It is by far the largest family, $6.7 billion, and the one KLA dominates, at 85.9 percent. ASML's HMI eScan 1100 runs 25 electron beams at once, up to 15 times the speed of a single beam, and finds patterning defects down to 7 nm [5](https://www.asml.com/en/products/metrology-and-inspection-systems/hmi-escan-1100).
--{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Film and shape metrology** measures how thick each film is and how flat the wafer sits, without cutting it open: $2.6 billion, with KLA at 45.6 percent, Nova at 24.6 and Onto Innovation at 10.9. Onto paid about $720 million in August 2026 for 27 percent of Japan's X-ray maker Rigaku [6](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Completes-Strategic-Investment-in-Rigaku-Holdings-Corporation/default.aspx).
--{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Mask inspection and repair** gets its own tools, because a defect on a mask repeats on every die: $2.2 billion, and the one family where KLA has a close rival, 45.9 percent against Lasertec's 42 and Zeiss's 10.1.
--{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Overlay metrology** measures whether this layer sits on the one below: $991 million, split almost evenly between KLA at 51.5 percent and ASML at 47.9.
--{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Critical dimension metrology** measures how wide a printed feature actually came out: $1.2 billion, and the one family Japan leads, with Hitachi at 71.9 percent and Applied Materials at 27.5.
--{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Electron-beam metrology** resolves detail too fine for light: $1.3 billion, led by Applied Materials at 45.1 percent with ASML at 35.6 and KLA at 18.8.
+- **Defect inspection** scans a whole wafer with light or electrons and compares each die against its neighbors. It is by far the largest family, $6.7 billion, and the one KLA dominates, at 85.9 percent. ASML's HMI eScan 1100 runs 25 electron beams at once, up to 15 times the speed of a single beam, and finds patterning defects down to 7 nm [5](https://www.asml.com/en/products/metrology-and-inspection-systems/hmi-escan-1100).
+- **Film and shape metrology** measures how thick each film is and how flat the wafer sits, without cutting it open: $2.6 billion, with KLA at 45.6 percent, Nova at 24.6 and Onto Innovation at 10.9. Onto paid about $720 million in August 2026 for 27 percent of Japan's X-ray maker Rigaku [6](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Completes-Strategic-Investment-in-Rigaku-Holdings-Corporation/default.aspx).
+- **Mask inspection and repair** gets its own tools, because a defect on a mask repeats on every die: $2.2 billion, and the one family where KLA has a close rival, 45.9 percent against Lasertec's 42 and Zeiss's 10.1.
+- **Overlay metrology** measures whether this layer sits on the one below: $991 million, split almost evenly between KLA at 51.5 percent and ASML at 47.9.
+- **Critical dimension metrology** measures how wide a printed feature actually came out: $1.2 billion, and the one family Japan leads, with Hitachi at 71.9 percent and Applied Materials at 27.5.
+- **Electron-beam metrology** resolves detail too fine for light: $1.3 billion, led by Applied Materials at 45.1 percent with ASML at 35.6 and KLA at 18.8.
 
-**Chart:** Process control market by tool family, 2025{--{"author":"James's AI","timestamp":1790597081004}@@ ($M)
-
---}{++{"author":"James's AI","timestamp":1790597081004}@@
+**Chart:** Process control market by tool family, 2025
 
 | | $M |
 |---|---:|
-| ++}Defect inspection {++{"author":"James's AI","timestamp":1790597081004}@@| ++}6,700 {++{"author":"James's AI","timestamp":1790597081004}@@|
-| ++}Film and shape metrology {++{"author":"James's AI","timestamp":1790597081004}@@| ++}2,600 {++{"author":"James's AI","timestamp":1790597081004}@@|
-| ++}Mask inspection and repair {++{"author":"James's AI","timestamp":1790597081004}@@| ++}2,200 {++{"author":"James's AI","timestamp":1790597081004}@@|
-| ++}E-beam metrology {++{"author":"James's AI","timestamp":1790597081004}@@| ++}1,300 {++{"author":"James's AI","timestamp":1790597081004}@@|
-| ++}CD metrology {++{"author":"James's AI","timestamp":1790597081004}@@| ++}1,200 {++{"author":"James's AI","timestamp":1790597081004}@@|
-| ++}Overlay metrology {++{"author":"James's AI","timestamp":1790597081004}@@| ++}991.4 {++{"author":"James's AI","timestamp":1790597081004}@@|
-| ++}Defect review {++{"author":"James's AI","timestamp":1790597081004}@@| ++}729.1{++{"author":"James's AI","timestamp":1790597081004}@@ |++}
+| Defect inspection | 6,700 |
+| Film and shape metrology | 2,600 |
+| Mask inspection and repair | 2,200 |
+| E-beam metrology | 1,300 |
+| CD metrology | 1,200 |
+| Overlay metrology | 991.4 |
+| Defect review | 729.1 |
 
 Source: [ETO Supply Chain Explorer, CSET](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60)
 
@@ -1682,48 +1438,43 @@ Source: [ETO Supply Chain Explorer, CSET](https://chipexplorer.eto.tech/?parentN
 
 KLA is most of the segment: 56.8 percent of a $15.7 billion market in 2025 [3](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60), up two points since 2021 by its own figures [2](https://d1io3yog0oux5.cloudfront.net/_7791115a123b86b3f10b1a5eb5210224/klatencor/db/1166/10653/file/2026+Investor+Day+Master+Final_IR+copy.pdf). Its fiscal 2026 revenue was $13.579 billion, after $12.156 billion in fiscal 2025 [7](https://data.sec.gov/api/xbrl/companyconcept/CIK0000319201/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json), and it says it gained share again in 2025 across mask, optical wafer and e-beam inspection [8](https://d1io3yog0oux5.cloudfront.net/_a357bfc9113388e37f3bfcb2ea2f0b64/klatencor/db/1117/10655/letter_to_shareholders/KLA+Shareholder+Letter+-+Q3+FY26.pdf).
 
-**Chart:** Process control tool revenue share, 2025{--{"author":"James's AI","timestamp":1790597081004}@@ (%)
-
---}{++{"author":"James's AI","timestamp":1790597081004}@@
+**Chart:** Process control tool revenue share, 2025
 
 | | % |
 |---|---:|
-| ++}KLA {--{"author":"James's AI","timestamp":1790597081004}@@**56.8%** --}{++{"author":"James's AI","timestamp":1790597081004}@@| 56.8 |
-| ++}Applied Materials {--{"author":"James's AI","timestamp":1790597081004}@@**11.2%**--}{++{"author":"James's AI","timestamp":1790597081004}@@| 11.2 |
-|++} Lasertec {--{"author":"James's AI","timestamp":1790597081004}@@**6.4%**--}{++{"author":"James's AI","timestamp":1790597081004}@@| 6.4 |
-|++} Hitachi High-Tech {--{"author":"James's AI","timestamp":1790597081004}@@**6.2%**--}{++{"author":"James's AI","timestamp":1790597081004}@@| 6.2 |
-|++} ASML {--{"author":"James's AI","timestamp":1790597081004}@@**5.9%**--}{++{"author":"James's AI","timestamp":1790597081004}@@| 5.9 |
-|++} Nova {--{"author":"James's AI","timestamp":1790597081004}@@**4.3%** --}{++{"author":"James's AI","timestamp":1790597081004}@@| 4.3 |
-| ++}Onto Innovation {--{"author":"James's AI","timestamp":1790597081004}@@**2.6%** --}{++{"author":"James's AI","timestamp":1790597081004}@@| 2.6 |
-| ++}Camtek {--{"author":"James's AI","timestamp":1790597081004}@@**1.6%** Rigaku **1.2%** All others **3.8%**
-
-%% validator-ignore-next-line --code article.block-repeated-nearby --reason source-provides-alternative-citation-formats %%
---}{++{"author":"James's AI","timestamp":1790597081004}@@| 1.6 |
+| KLA | 56.8 |
+| Applied Materials | 11.2 |
+| Lasertec | 6.4 |
+| Hitachi High-Tech | 6.2 |
+| ASML | 5.9 |
+| Nova | 4.3 |
+| Onto Innovation | 2.6 |
+| Camtek | 1.6 |
 | Rigaku | 1.2 |
 | All others | 3.8 |
 
-++}{++{"author":"James's AI","timestamp":1790598055418}@@%% validator-ignore-next-line --code article.block-repeated-nearby --reason source-provides-alternative-citation-formats %%
-++}Source: [ETO Supply Chain Explorer, CSET](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60)
+%% validator-ignore-next-line --code article.block-repeated-nearby --reason source-provides-alternative-citation-formats %%
+Source: [ETO Supply Chain Explorer, CSET](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60)
 
 The rest are specialists, and nobody else reaches 11 percent.
 
--{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Applied Materials** is the largest of them at 10.5 percent, selling e-beam defect review, CD-SEM line-width tools and film metrology next to the deposition and etch tools that create the defects.
--{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Lasertec** holds 7.7 percent, almost all of it mask inspection; **Hitachi High-Tech** 5.6 percent, almost all of it CD-SEM; **ASML** 5.2 percent through YieldStar overlay and HMI e-beam inspection.
--{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Nova** holds 3.7 percent and took $880.6 million in 2025 on optical film and dimensional metrology [9](https://data.sec.gov/api/xbrl/companyconcept/CIK0001109345/us-gaap/Revenues.json).
--{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Onto Innovation** holds 3.0 percent on $1,005.3 million of 2025 revenue [10](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx) and **Camtek** 1.5 percent on $496.1 million [11](https://www.sec.gov/Archives/edgar/data/1109138/000117891326000549/zk2634405.htm).
+- **Applied Materials** is the largest of them at 10.5 percent, selling e-beam defect review, CD-SEM line-width tools and film metrology next to the deposition and etch tools that create the defects.
+- **Lasertec** holds 7.7 percent, almost all of it mask inspection; **Hitachi High-Tech** 5.6 percent, almost all of it CD-SEM; **ASML** 5.2 percent through YieldStar overlay and HMI e-beam inspection.
+- **Nova** holds 3.7 percent and took $880.6 million in 2025 on optical film and dimensional metrology [9](https://data.sec.gov/api/xbrl/companyconcept/CIK0001109345/us-gaap/Revenues.json).
+- **Onto Innovation** holds 3.0 percent on $1,005.3 million of 2025 revenue [10](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx) and **Camtek** 1.5 percent on $496.1 million [11](https://www.sec.gov/Archives/edgar/data/1109138/000117891326000549/zk2634405.htm).
 
 Patterning, which covers overlay and mask inspection, grew 61 percent year on year in the June 2026 quarter, when Taiwan took 31 percent of revenue and China 26 percent [1](https://d1io3yog0oux5.cloudfront.net/_b9ee755a5f60dd0fb3f9e27967aed6af/klatencor/db/1117/10668/letter_to_shareholders/KLA+Earnings+Shareholder+Letter+-+Q4+FY26.pdf).
 
-**Chart:** KLA revenue by product line, June 2026 quarter{--{"author":"James's AI","timestamp":1790597081004}@@ (%)--}
+**Chart:** KLA revenue by product line, June 2026 quarter
 
-{++{"author":"James's AI","timestamp":1790597081004}@@| | % |
+| | % |
 |---|---:|
-| ++}Wafer inspection {--{"author":"James's AI","timestamp":1790597081004}@@**49%**--}{++{"author":"James's AI","timestamp":1790597081004}@@| 49 |
-|++} Services {--{"author":"James's AI","timestamp":1790597081004}@@**22%** --}{++{"author":"James's AI","timestamp":1790597081004}@@| 22 |
-| ++}Patterning {--{"author":"James's AI","timestamp":1790597081004}@@**20%** --}{++{"author":"James's AI","timestamp":1790597081004}@@| 20 |
-| ++}PCB and component inspection {--{"author":"James's AI","timestamp":1790597081004}@@**4%** --}{++{"author":"James's AI","timestamp":1790597081004}@@| 4 |
-| ++}Specialty semiconductor process {--{"author":"James's AI","timestamp":1790597081004}@@**4%** --}{++{"author":"James's AI","timestamp":1790597081004}@@| 4 |
-| ++}Other {--{"author":"James's AI","timestamp":1790597081004}@@**1%**--}{++{"author":"James's AI","timestamp":1790597081004}@@| 1 |++}
+| Wafer inspection | 49 |
+| Services | 22 |
+| Patterning | 20 |
+| PCB and component inspection | 4 |
+| Specialty semiconductor process | 4 |
+| Other | 1 |
 
 Source: [KLA letter to shareholders, Q4 FY2026](https://d1io3yog0oux5.cloudfront.net/_b9ee755a5f60dd0fb3f9e27967aed6af/klatencor/db/1117/10668/letter_to_shareholders/KLA+Earnings+Shareholder+Letter+-+Q4+FY26.pdf)
 
@@ -1745,134 +1496,102 @@ Process control is a chokepoint of concentration. Several firms can build a good
 
 ### Key evaluation criteria ^key-evaluation-criteria-7
 
--{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Sensitivity.** The smallest killer defect a tool can find. ASML's multibeam system is specified to 7 nm patterning defects [5](https://www.asml.com/en/products/metrology-and-inspection-systems/hmi-escan-1100).
--{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Throughput.** Wafers per hour, which decides how many lots a fab can afford to look at; multibeam buys up to 15x over single-beam [5](https://www.asml.com/en/products/metrology-and-inspection-systems/hmi-escan-1100).
--{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Nuisance rate.** The share of flagged events that turn out not to be real defects, which is what AI classification is meant to reduce.
--{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Sampling plan.** How many wafers and sites per lot, a cost decision as much as a physics one, which sets what process control costs the fab.
--{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Time to result.** How fast a measurement reaches the process engineer, which sets the speed of yield learning.
+- **Sensitivity.** The smallest killer defect a tool can find. ASML's multibeam system is specified to 7 nm patterning defects [5](https://www.asml.com/en/products/metrology-and-inspection-systems/hmi-escan-1100).
+- **Throughput.** Wafers per hour, which decides how many lots a fab can afford to look at; multibeam buys up to 15x over single-beam [5](https://www.asml.com/en/products/metrology-and-inspection-systems/hmi-escan-1100).
+- **Nuisance rate.** The share of flagged events that turn out not to be real defects, which is what AI classification is meant to reduce.
+- **Sampling plan.** How many wafers and sites per lot, a cost decision as much as a physics one, which sets what process control costs the fab.
+- **Time to result.** How fast a measurement reaches the process engineer, which sets the speed of yield learning.
 
-{--{"author":"James's AI","timestamp":1790597081004}@@Card 1 of 4Question--}{++{"author":"James's AI","timestamp":1790597081004}@@::::callout {title="Flashcards" tone="blue"}
-Recall each answer, then open the card.++}
+::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.
 
-{++{"author":"James's AI","timestamp":1790597081004}@@:::callout {title="Card 1 of 4: ++}What do metrology and inspection tools {--{"author":"James's AI","timestamp":1790597081004}@@do?
+:::callout {title="Card 1 of 4: What do metrology and inspection tools do?" tone="neutral" collapse="closed"}
+They check each wafer between steps for line width, layer alignment and defects.
 
-Card 1 of 4Answer
+Their measurements tell a fab why its chips fail. [[#^how-it-works-7|Reread: How it works]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597081004}@@do?" tone="neutral" collapse="closed"}
-++}They check each wafer between steps for line width, layer alignment and defects.
+:::callout {title="Card 2 of 4: Why do AI chips depend so much on finding defects?" tone="neutral" collapse="closed"}
+They are among the largest chips made, and a bigger chip is more likely to catch a defect.
 
-Their measurements tell a fab why its chips fail. [[#^how-it-works-7|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597081004}@@
-:::++}
+On a chip that size, halving the defects raises the share of working chips from about half to about seven in ten. [[#^packaging-ai-and-china|Reread: Packaging, AI and China]]
+:::
 
-{--{"author":"James's AI","timestamp":1790597081004}@@Card--}{++{"author":"James's AI","timestamp":1790597081004}@@:::callout {title="Card++} 2 of {--{"author":"James's AI","timestamp":1790597081004}@@4Question
+:::callout {title="Card 3 of 4: Who leads the market for these tools?" tone="neutral" collapse="closed"}
+KLA, an American firm, with about 57 percent.
 
---}{++{"author":"James's AI","timestamp":1790597081004}@@4: ++}Why do AI chips depend so much on finding {--{"author":"James's AI","timestamp":1790597081004}@@defects?
+That is six to seven times its nearest rival. Every kind of tool still has a second maker. [[#^who-makes-it-7|Reread: Who makes it]]
+:::
 
-Card 2 of 4Answer
+:::callout {title="Card 4 of 4: How strong are Chinese makers of these tools?" tone="neutral" collapse="closed"}
+Weaker than in any other major kind of chipmaking tool.
 
---}{++{"author":"James's AI","timestamp":1790597081004}@@defects?" tone="neutral" collapse="closed"}
-++}They are among the largest chips made, and a bigger chip is more likely to catch a defect.
+They held 0.7 percent of the market in 2025. [[#^packaging-ai-and-china|Reread: Packaging, AI and China]]
+:::
 
-On a chip that size, halving the defects raises the share of working chips from about half to about seven in ten. [[#^packaging-ai-and-china|Reread: Packaging, AI and China]]{++{"author":"James's AI","timestamp":1790597081004}@@
-:::++}
+::::
 
-{--{"author":"James's AI","timestamp":1790597081004}@@Card--}{++{"author":"James's AI","timestamp":1790597081004}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597081004}@@4Question
+:::callout {title="Four things to remember" tone="green"}
+- Metrology and inspection tools check each wafer between steps and tell a fab why its chips fail.
+- AI chips are among the largest made, so finding defects matters most for them.
+- KLA of the United States holds about 57 percent of the market, six to seven times its nearest rival.
+- Chinese makers are weakest here, with 0.7 percent of the market in 2025.
+:::
 
---}{++{"author":"James's AI","timestamp":1790597081004}@@4: ++}Who leads the market for these {--{"author":"James's AI","timestamp":1790597081004}@@tools?
-
-Card 3 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597081004}@@tools?" tone="neutral" collapse="closed"}
-++}KLA, an American firm, with about 57 percent.
-
-That is six to seven times its nearest rival. Every kind of tool still has a second maker. [[#^who-makes-it-7|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597081004}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597081004}@@Card--}{++{"author":"James's AI","timestamp":1790597081004}@@:::callout {title="Card++} 4 of {--{"author":"James's AI","timestamp":1790597081004}@@4Question
-
---}{++{"author":"James's AI","timestamp":1790597081004}@@4: ++}How strong are Chinese makers of these{--{"author":"James's AI","timestamp":1790597081004}@@ tools?
-
-Card 4 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597081004}@@ tools?" tone="neutral" collapse="closed"}
-++}Weaker than in any other major kind of chipmaking tool.
-
-They held 0.7 percent of the market in 2025. [[#^packaging-ai-and-china|Reread: Packaging, AI and China]]{++{"author":"James's AI","timestamp":1790597081004}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597081004}@@#### Four--}{++{"author":"James's AI","timestamp":1790597081004}@@::::
-
-:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597081004}@@remember ^four-things-to-remember-6
-
---}{++{"author":"James's AI","timestamp":1790597081004}@@remember" tone="green"}
-++}-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}Metrology and inspection tools check each wafer between steps and tell a fab why its chips fail.
--{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}AI chips are among the largest made, so finding defects matters most for them.
--{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}KLA of the United States holds about 57 percent of the market, six to seven times its nearest rival.
--{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}Chinese makers are weakest here, with 0.7 percent of the market in 2025.{++{"author":"James's AI","timestamp":1790597081004}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597081004}@@**Sources (15)**
-
---}{++{"author":"James's AI","timestamp":1790597081004}@@:::callout {title="Sources (15)" tone="neutral" collapse="closed"}
-++}1.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Letter to Shareholders Q4 Fiscal {--{"author":"James's AI","timestamp":1790597081004}@@2026](https://d1io3yog0oux5.cloudfront.net/_b9ee755a5f60dd0fb3f9e27967aed6af/klatencor/db/1117/10668/letter_to_shareholders/KLA+Earnings+Shareholder+Letter+-+Q4+FY26.pdf)--}{++{"author":"James's AI","timestamp":1790597081004}@@2026](https://d1io3yog0oux5.cloudfront.net/_b9ee755a5f60dd0fb3f9e27967aed6af/klatencor/db/1117/10668/letter_to_shareholders/KLA+Earnings+Shareholder+Letter+-+Q4+FY26.pdf).++} KLA Corporation · 27 July {--{"author":"James's AI","timestamp":1790597081004}@@2026--}{++{"author":"James's AI","timestamp":1790597081004}@@2026. Tier A.++}
-2.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Compounding Sustainable {--{"author":"James's AI","timestamp":1790597081004}@@Outperformance](https://d1io3yog0oux5.cloudfront.net/_7791115a123b86b3f10b1a5eb5210224/klatencor/db/1166/10653/file/2026+Investor+Day+Master+Final_IR+copy.pdf)--}{++{"author":"James's AI","timestamp":1790597081004}@@Outperformance](https://d1io3yog0oux5.cloudfront.net/_7791115a123b86b3f10b1a5eb5210224/klatencor/db/1166/10653/file/2026+Investor+Day+Master+Final_IR+copy.pdf).++} KLA Corporation · 13 March {--{"author":"James's AI","timestamp":1790597081004}@@2026--}{++{"author":"James's AI","timestamp":1790597081004}@@2026. Tier A.++}
-3.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Supply Chain Explorer: Advanced {--{"author":"James's AI","timestamp":1790597081004}@@Chips](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60)--}{++{"author":"James's AI","timestamp":1790597081004}@@Chips](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60).++} Emerging Technology Observatory {--{"author":"James's AI","timestamp":1790597081004}@@(ETO)--}{++{"author":"James's AI","timestamp":1790597081004}@@(ETO). Tier A.++}
-4.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Behrooz Parhami, Dependable Computing: A Multilevel Approach, part {--{"author":"James's AI","timestamp":1790597081004}@@2](https://web.ece.ucsb.edu/~parhami/docs_folder/f33-book-dep-comp-pt2.pdf)--}{++{"author":"James's AI","timestamp":1790597081004}@@2](https://web.ece.ucsb.edu/~parhami/docs_folder/f33-book-dep-comp-pt2.pdf).++} University of California, Santa Barbara · 11 October {--{"author":"James's AI","timestamp":1790597081004}@@2020--}{++{"author":"James's AI","timestamp":1790597081004}@@2020. Tier A.++}
-5.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [The HMI eScan {--{"author":"James's AI","timestamp":1790597081004}@@1100](https://www.asml.com/en/products/metrology-and-inspection-systems/hmi-escan-1100) ASML--}{++{"author":"James's AI","timestamp":1790597081004}@@1100](https://www.asml.com/en/products/metrology-and-inspection-systems/hmi-escan-1100). ASML. Tier A.++}
-6.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Onto Innovation Completes Strategic Investment in Rigaku Holdings {--{"author":"James's AI","timestamp":1790597081004}@@Corporation](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Completes-Strategic-Investment-in-Rigaku-Holdings-Corporation/default.aspx)--}{++{"author":"James's AI","timestamp":1790597081004}@@Corporation](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Completes-Strategic-Investment-in-Rigaku-Holdings-Corporation/default.aspx).++} Onto Innovation · 10 August {--{"author":"James's AI","timestamp":1790597081004}@@2026--}{++{"author":"James's AI","timestamp":1790597081004}@@2026. Tier A.++}
-7.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Revenue from Contract with Customer, Excluding Assessed Tax (us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax) reported by KLA CORP, XBRL company concept {--{"author":"James's AI","timestamp":1790597081004}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0000319201/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json)--}{++{"author":"James's AI","timestamp":1790597081004}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0000319201/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json).++} U.S. Securities and Exchange Commission (XBRL data for KLA {--{"author":"James's AI","timestamp":1790597081004}@@CORP)--}{++{"author":"James's AI","timestamp":1790597081004}@@CORP). Tier A.++}
-8.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Letter to Shareholders Q3 Fiscal {--{"author":"James's AI","timestamp":1790597081004}@@2026](https://d1io3yog0oux5.cloudfront.net/_a357bfc9113388e37f3bfcb2ea2f0b64/klatencor/db/1117/10655/letter_to_shareholders/KLA+Shareholder+Letter+-+Q3+FY26.pdf)--}{++{"author":"James's AI","timestamp":1790597081004}@@2026](https://d1io3yog0oux5.cloudfront.net/_a357bfc9113388e37f3bfcb2ea2f0b64/klatencor/db/1117/10655/letter_to_shareholders/KLA+Shareholder+Letter+-+Q3+FY26.pdf).++} KLA Corporation · 29 April {--{"author":"James's AI","timestamp":1790597081004}@@2026--}{++{"author":"James's AI","timestamp":1790597081004}@@2026. Tier A.++}
-9.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Revenues (us-gaap:Revenues) reported by NOVA LTD., XBRL company concept {--{"author":"James's AI","timestamp":1790597081004}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0001109345/us-gaap/Revenues.json)--}{++{"author":"James's AI","timestamp":1790597081004}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0001109345/us-gaap/Revenues.json).++} U.S. Securities and Exchange Commission (XBRL data for NOVA {--{"author":"James's AI","timestamp":1790597081004}@@LTD.)--}{++{"author":"James's AI","timestamp":1790597081004}@@LTD.). Tier A.++}
-10.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Onto Innovation Reports 2025 Fourth Quarter and Full Year {--{"author":"James's AI","timestamp":1790597081004}@@Results](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx)--}{++{"author":"James's AI","timestamp":1790597081004}@@Results](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx).++} Onto Innovation · 19 February {--{"author":"James's AI","timestamp":1790597081004}@@2026--}{++{"author":"James's AI","timestamp":1790597081004}@@2026. Tier A.++}
-11.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [CAMTEK LTD, Form 6-K report of foreign private issuer for the period ended 2026-02-18 {--{"author":"James's AI","timestamp":1790597081004}@@(6-K)](https://www.sec.gov/Archives/edgar/data/1109138/000117891326000549/zk2634405.htm)--}{++{"author":"James's AI","timestamp":1790597081004}@@(6-K)](https://www.sec.gov/Archives/edgar/data/1109138/000117891326000549/zk2634405.htm).++} U.S. Securities and Exchange Commission (filing by CAMTEK LTD) · 18 February {--{"author":"James's AI","timestamp":1790597081004}@@2026--}{++{"author":"James's AI","timestamp":1790597081004}@@2026. Tier A.++}
-12.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [The Semiconductor Supply Chain - Issue {--{"author":"James's AI","timestamp":1790597081004}@@Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf)--}{++{"author":"James's AI","timestamp":1790597081004}@@Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).++} Center for Security and Emerging Technology (CSET) · 21 January {--{"author":"James's AI","timestamp":1790597081004}@@2021--}{++{"author":"James's AI","timestamp":1790597081004}@@2021. Tier A.++}
-13.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Inside Beijing’s Chipmaking {--{"author":"James's AI","timestamp":1790597081004}@@Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/)--}{++{"author":"James's AI","timestamp":1790597081004}@@Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/).++} Center for Security and Emerging Technology (CSET) · 14 July {--{"author":"James's AI","timestamp":1790597081004}@@2025--}{++{"author":"James's AI","timestamp":1790597081004}@@2025. Tier A.++}
-14.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Foreign-Produced Direct Product Rule Additions, and Refinements to Controls for Advanced Computing and Semiconductor Manufacturing {--{"author":"James's AI","timestamp":1790597081004}@@Items](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf)--}{++{"author":"James's AI","timestamp":1790597081004}@@Items](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).++} U.S. Government Publishing Office (Federal Register) · 5 December {--{"author":"James's AI","timestamp":1790597081004}@@2024--}{++{"author":"James's AI","timestamp":1790597081004}@@2024. Tier A.++}
-15.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Commerce Strengthens Export Controls to Restrict China's Capability to Produce Advanced Semiconductors for Military {--{"author":"James's AI","timestamp":1790597081004}@@Applications](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military)--}{++{"author":"James's AI","timestamp":1790597081004}@@Applications](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military).++} U.S. Bureau of Industry and Security · 2 December {--{"author":"James's AI","timestamp":1790597081004}@@2024--}{++{"author":"James's AI","timestamp":1790597081004}@@2024. Tier A.
-:::++}
+:::callout {title="Sources (15)" tone="neutral" collapse="closed"}
+1. [Letter to Shareholders Q4 Fiscal 2026](https://d1io3yog0oux5.cloudfront.net/_b9ee755a5f60dd0fb3f9e27967aed6af/klatencor/db/1117/10668/letter_to_shareholders/KLA+Earnings+Shareholder+Letter+-+Q4+FY26.pdf). KLA Corporation · 27 July 2026. Tier A.
+2. [Compounding Sustainable Outperformance](https://d1io3yog0oux5.cloudfront.net/_7791115a123b86b3f10b1a5eb5210224/klatencor/db/1166/10653/file/2026+Investor+Day+Master+Final_IR+copy.pdf). KLA Corporation · 13 March 2026. Tier A.
+3. [Supply Chain Explorer: Advanced Chips](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60). Emerging Technology Observatory (ETO). Tier A.
+4. [Behrooz Parhami, Dependable Computing: A Multilevel Approach, part 2](https://web.ece.ucsb.edu/~parhami/docs_folder/f33-book-dep-comp-pt2.pdf). University of California, Santa Barbara · 11 October 2020. Tier A.
+5. [The HMI eScan 1100](https://www.asml.com/en/products/metrology-and-inspection-systems/hmi-escan-1100). ASML. Tier A.
+6. [Onto Innovation Completes Strategic Investment in Rigaku Holdings Corporation](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Completes-Strategic-Investment-in-Rigaku-Holdings-Corporation/default.aspx). Onto Innovation · 10 August 2026. Tier A.
+7. [Revenue from Contract with Customer, Excluding Assessed Tax (us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax) reported by KLA CORP, XBRL company concept data](https://data.sec.gov/api/xbrl/companyconcept/CIK0000319201/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json). U.S. Securities and Exchange Commission (XBRL data for KLA CORP). Tier A.
+8. [Letter to Shareholders Q3 Fiscal 2026](https://d1io3yog0oux5.cloudfront.net/_a357bfc9113388e37f3bfcb2ea2f0b64/klatencor/db/1117/10655/letter_to_shareholders/KLA+Shareholder+Letter+-+Q3+FY26.pdf). KLA Corporation · 29 April 2026. Tier A.
+9. [Revenues (us-gaap:Revenues) reported by NOVA LTD., XBRL company concept data](https://data.sec.gov/api/xbrl/companyconcept/CIK0001109345/us-gaap/Revenues.json). U.S. Securities and Exchange Commission (XBRL data for NOVA LTD.). Tier A.
+10. [Onto Innovation Reports 2025 Fourth Quarter and Full Year Results](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx). Onto Innovation · 19 February 2026. Tier A.
+11. [CAMTEK LTD, Form 6-K report of foreign private issuer for the period ended 2026-02-18 (6-K)](https://www.sec.gov/Archives/edgar/data/1109138/000117891326000549/zk2634405.htm). U.S. Securities and Exchange Commission (filing by CAMTEK LTD) · 18 February 2026. Tier A.
+12. [The Semiconductor Supply Chain - Issue Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf). Center for Security and Emerging Technology (CSET) · 21 January 2021. Tier A.
+13. [Inside Beijing’s Chipmaking Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/). Center for Security and Emerging Technology (CSET) · 14 July 2025. Tier A.
+14. [Foreign-Produced Direct Product Rule Additions, and Refinements to Controls for Advanced Computing and Semiconductor Manufacturing Items](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf). U.S. Government Publishing Office (Federal Register) · 5 December 2024. Tier A.
+15. [Commerce Strengthens Export Controls to Restrict China's Capability to Produce Advanced Semiconductors for Military Applications](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military). U.S. Bureau of Industry and Security · 2 December 2024. Tier A.
+:::
 
 ## Transistors and the Front End ^transistors-and-the-front
 
 Three companies can build a 2 nm-class transistor. Shrinking stopped lowering the cost per transistor about a decade ago, and every gain since has come from extra process steps.
 
-{--{"author":"James's AI","timestamp":1790597091402}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
-
-1,553--}{++{"author":"James's AI","timestamp":1790597091402}@@*1,553++} words / 7 {--{"author":"James's AI","timestamp":1790597091402}@@minSpecimen: gate-all-around transistor
-
-**In plain terms**
-
---}{++{"author":"James's AI","timestamp":1790597091402}@@min*
+*1,553 words / 7 min*
 
 :::callout {title="In plain terms" tone="neutral"}
-++}The front end of a chip factory is the part that builds the transistors, the billions of tiny switches in every chip. Each switch is a valve. Current runs along a narrow strip of silicon called the channel, and a small voltage on a gate above the strip opens or shuts the flow. Shorter strips switch faster and more of them fit on a chip, but make the strip short enough and the valve stops sealing: current leaks through even when the gate is off, and the chip burns power doing nothing. The fix is to wrap the gate around all four sides of the strip, so it can squeeze the flow shut from every side, and that takes a long sequence of steps that have to run in exact order. Only three companies, TSMC, Intel and Samsung, can do it, a list so short that an export control can name every one of them.{++{"author":"James's AI","timestamp":1790597091402}@@
-:::++}
+The front end of a chip factory is the part that builds the transistors, the billions of tiny switches in every chip. Each switch is a valve. Current runs along a narrow strip of silicon called the channel, and a small voltage on a gate above the strip opens or shuts the flow. Shorter strips switch faster and more of them fit on a chip, but make the strip short enough and the valve stops sealing: current leaks through even when the gate is off, and the chip burns power doing nothing. The fix is to wrap the gate around all four sides of the strip, so it can squeeze the flow shut from every side, and that takes a long sequence of steps that have to run in exact order. Only three companies, TSMC, Intel and Samsung, can do it, a list so short that an export control can name every one of them.
+:::
 
 ### In short ^in-short-8
 
 Every gain since the FinFET era has come from process steps and new materials, while shrinking the geometry gave less each node. TSMC's own numbers show the density gain per node falling from 1.2 times at N2P to about 1.1 at A16 [4](https://www.tsmc.com/english/dedicatedFoundry/technology/platform_HPC_tech_advancedTech). Three companies can run a 2 nm-class process, and only TSMC runs it at volume for outside customers. SRAM has stopped shrinking, which is why accelerators keep their memory off the logic die. China can reach 5 nm-class geometry without EUV, and CSIS still judges that China cannot build a working EUV system, which is the gap the export controls defend [16](https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography).
 
-{--{"author":"James's AI","timestamp":1790597091402}@@Concentration: **Extreme**--}{++{"author":"James's AI","timestamp":1790597091402}@@:::callout {title="Chokepoint card" tone="amber"}
-**Concentration:** Extreme++}
+:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** Extreme
 
-{--{"author":"James's AI","timestamp":1790597091402}@@Substitutability: **Hard**.--}{++{"author":"James's AI","timestamp":1790597091402}@@**Substitutability:** Hard.++} Three firms make gate-all-around transistors, the newest kind, and none sells its process recipe.
+**Substitutability:** Hard. Three firms make gate-all-around transistors, the newest kind, and none sells its process recipe.
 
-{--{"author":"James's AI","timestamp":1790597091402}@@Price--}{++{"author":"James's AI","timestamp":1790597091402}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597091402}@@size: **No--}{++{"author":"James's AI","timestamp":1790597091402}@@size:** No++} foundry publishes prices for its newest {--{"author":"James's AI","timestamp":1790597091402}@@wafers**.--}{++{"author":"James's AI","timestamp":1790597091402}@@wafers.++} The public measure is how many more transistors TSMC fits on each new process, and that gain falls from 1.2x at N2P to about 1.1x at A16.
+**Price or market size:** No foundry publishes prices for its newest wafers. The public measure is how many more transistors TSMC fits on each new process, and that gain falls from 1.2x at N2P to about 1.1x at A16.
 
 **Who leads**
 
--{--{"author":"James's AI","timestamp":1790597091402}@@   TWTSMC--}{++{"author":"James's AI","timestamp":1790597091402}@@ **TSMC** (TW):++} N2 in volume production since 4Q25, the first nanosheet node
--{--{"author":"James's AI","timestamp":1790597091402}@@   USIntel--}{++{"author":"James's AI","timestamp":1790597091402}@@ **Intel** (US):++} 18A in high-volume manufacturing; 18A-P adds 9% performance at the same power
--{--{"author":"James's AI","timestamp":1790597091402}@@   KRSamsung Foundry --}{++{"author":"James's AI","timestamp":1790597091402}@@ **Samsung Foundry** (KR): ++}SF2 family; SF2Z adds backside power
--{--{"author":"James's AI","timestamp":1790597091402}@@   CNSMIC--}{++{"author":"James's AI","timestamp":1790597091402}@@ **SMIC** (CN):++} N+2 and N+3, printed in several passes on older deep-ultraviolet tools, no EUV
--{--{"author":"James's AI","timestamp":1790597091402}@@   JPRapidus--}{++{"author":"James's AI","timestamp":1790597091402}@@ **Rapidus** (JP):++} State-backed 2 nm entrant targeting mass production in 2027
+- **TSMC** (TW): N2 in volume production since 4Q25, the first nanosheet node
+- **Intel** (US): 18A in high-volume manufacturing; 18A-P adds 9% performance at the same power
+- **Samsung Foundry** (KR): SF2 family; SF2Z adds backside power
+- **SMIC** (CN): N+2 and N+3, printed in several passes on older deep-ultraviolet tools, no EUV
+- **Rapidus** (JP): State-backed 2 nm entrant targeting mass production in 2027
 
 **Where it is made**
 
--{--{"author":"James's AI","timestamp":1790597091402}@@   TWTaiwan--}{++{"author":"James's AI","timestamp":1790597091402}@@ **Taiwan**:++} TSMC N2 at Fab 20 Hsinchu and Fab 22 Kaohsiung
--{--{"author":"James's AI","timestamp":1790597091402}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597091402}@@ **United States**:++} Intel 18A at Fab 52, Arizona; TSMC Arizona on N4 and N3
--{--{"author":"James's AI","timestamp":1790597091402}@@   KRSouth Korea--}{++{"author":"James's AI","timestamp":1790597091402}@@ **South Korea**:++} Samsung Hwaseong and Pyeongtaek
--{--{"author":"James's AI","timestamp":1790597091402}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597091402}@@ **Japan**:++} Rapidus Chitose, Hokkaido
--{--{"author":"James's AI","timestamp":1790597091402}@@   CNChina--}{++{"author":"James's AI","timestamp":1790597091402}@@ **China**:++} SMIC Shanghai and Beijing 300 mm lines
+- **Taiwan**: TSMC N2 at Fab 20 Hsinchu and Fab 22 Kaohsiung
+- **United States**: Intel 18A at Fab 52, Arizona; TSMC Arizona on N4 and N3
+- **South Korea**: Samsung Hwaseong and Pyeongtaek
+- **Japan**: Rapidus Chitose, Hokkaido
+- **China**: SMIC Shanghai and Beijing 300 mm lines
 
 **Why substitution is slow**
 
@@ -1884,8 +1603,8 @@ SMIC ships a process it calls N+3, measured at 113.4 million transistors per squ
 
 **Where the US stands**
 
-Intel runs the only American-owned line that makes the newest transistors. Its 18A process brought gate-all-around transistors and backside power, where power is fed from under the transistors, to market together. Intel is also the first to use High-NA EUV scanners, the newest kind, in volume production.{++{"author":"James's AI","timestamp":1790597091402}@@
-:::++}
+Intel runs the only American-owned line that makes the newest transistors. Its 18A process brought gate-all-around transistors and backside power, where power is fed from under the transistors, to market together. Intel is also the first to use High-NA EUV scanners, the newest kind, in volume production.
+:::
 
 A Blackwell GPU is 208 billion switches on two dies, each the largest a lithography machine can print in one shot [1](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/). Every switch has to turn on fully, turn off completely, and keep doing it for years. Making the switches is the front end of line; wiring them together is the back end.
 
@@ -1899,9 +1618,9 @@ Each of those is a deposition, an etch or an implant of its own, and they have t
 
 The leak the wrapping prevents is called short-channel leakage, and it has three fixes:
 
--{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**Better insulator.** Thicker, so fewer electrons slip straight through it, yet controlling the channel as tightly as before: Intel switched the gate insulator from silicon dioxide to hafnium at 45 nm in 2007 [2](https://www.intel.com/pressroom/archive/releases/2007/20070128comp.htm).
--{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**More gate.** Wrap gate metal around more sides of the channel, as fins and nanosheets do.
--{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**Thinner channel.** Thin the silicon until no current can flow where the gate cannot reach it.
+- **Better insulator.** Thicker, so fewer electrons slip straight through it, yet controlling the channel as tightly as before: Intel switched the gate insulator from silicon dioxide to hafnium at 45 nm in 2007 [2](https://www.intel.com/pressroom/archive/releases/2007/20070128comp.htm).
+- **More gate.** Wrap gate metal around more sides of the channel, as fins and nanosheets do.
+- **Thinner channel.** Thin the silicon until no current can flow where the gate cannot reach it.
 
 ### Variants and trade-offs ^variants-and-trade-offs-8
 
@@ -1917,32 +1636,30 @@ N2 entered volume production in the fourth quarter of 2025, TSMC's first nanoshe
 
 Those numbers are vendor claims until someone measures the silicon. Each foundry picks its own baseline, and none publishes a density figure that can be set against a rival's.
 
-{++{"author":"James's AI","timestamp":1790594036643}@@**Chart:** ++}TSMC's published density gain, node over {--{"author":"James's AI","timestamp":1790597091402}@@nodex --}{++{"author":"James's AI","timestamp":1790597091402}@@node
+**Chart:** TSMC's published density gain, node over node
 
-| | x ++}versus the baseline {--{"author":"James's AI","timestamp":1790597091402}@@node
-
---}{++{"author":"James's AI","timestamp":1790597091402}@@node |
+| | x versus the baseline node |
 |---|---:|
-| ++}N2P logic vs N3E {++{"author":"James's AI","timestamp":1790597091402}@@| ++}1.2 {++{"author":"James's AI","timestamp":1790597091402}@@|
-| ++}N2P chip vs N3E {++{"author":"James's AI","timestamp":1790597091402}@@| ++}1.1 {++{"author":"James's AI","timestamp":1790597091402}@@|
-| ++}A16 chip vs N2P {++{"author":"James's AI","timestamp":1790597091402}@@| ++}1.1{++{"author":"James's AI","timestamp":1790597091402}@@ |++}
+| N2P logic vs N3E | 1.2 |
+| N2P chip vs N3E | 1.1 |
+| A16 chip vs N2P | 1.1 |
 
 Source: [TSMC advanced technologies, HPC platform](https://www.tsmc.com/english/dedicatedFoundry/technology/platform_HPC_tech_advancedTech)
 
 #### Backside power delivery ^backside-power-delivery
 
-Power and signal share one stack of copper wiring above the transistors, where wide power rails crowd out the signal wires. Backside power{--{"author":"James's AI","timestamp":1790597091402}@@ delivery--} grinds the wafer thin and builds a second network underneath it.
+Power and signal share one stack of copper wiring above the transistors, where wide power rails crowd out the signal wires. Backside power grinds the wafer thin and builds a second network underneath it.
 
 Intel shipped it first as PowerVia: on 18A, an 11 percent cut in routed area and a tenfold cut in dynamic voltage droop, the sag in supply voltage when a block of logic switches on at once [5](https://www.intc.com/news-events/press-releases/detail/1772/intel-foundry-details-process-milestones-and-future). TSMC's Super Power Rail lands that network straight on each transistor's source and drain, with no buried rail between, which is harder to build and gives more: against N2P, A16 gives 8 to 10 percent more speed, 15 to 20 percent less power and up to 1.10 times the chip density [4](https://www.tsmc.com/english/dedicatedFoundry/technology/platform_HPC_tech_advancedTech).
 
-{++{"author":"James's AI","timestamp":1790597091402}@@**Timeline:** ++}TSMC's logic roadmap beyond N2, from its own announcements
+**Timeline:** TSMC's logic roadmap beyond N2, from its own announcements
 
-{--{"author":"James's AI","timestamp":1790597091402}@@1.  2028-01-01N2U, --}{++{"author":"James's AI","timestamp":1790597091402}@@| Date | Milestone |
+| Date | Milestone |
 |---|---|
-| 2028-01-01 | N2U, ++}3-4% faster or 8-10% lower power than N2P{++{"author":"James's AI","timestamp":1790597091402}@@ |++}
-{--{"author":"James's AI","timestamp":1790597091402}@@2.  2028-01-01A14, --}{++{"author":"James's AI","timestamp":1790597091402}@@| 2028-01-01 | A14, ++}up to 15% faster and more than 20% denser than N2{++{"author":"James's AI","timestamp":1790597091402}@@ |++}
-{--{"author":"James's AI","timestamp":1790597091402}@@3.  2029-01-01A13,--}{++{"author":"James's AI","timestamp":1790597091402}@@| 2029-01-01 | A13,++} a direct shrink of A14 for 6% area savings{++{"author":"James's AI","timestamp":1790597091402}@@ |++}
-{--{"author":"James's AI","timestamp":1790597091402}@@4.  2029-01-01A12, --}{++{"author":"James's AI","timestamp":1790597091402}@@| 2029-01-01 | A12, ++}the A14 platform with Super Power Rail backside power{++{"author":"James's AI","timestamp":1790597091402}@@ |++}
+| 2028-01-01 | N2U, 3-4% faster or 8-10% lower power than N2P |
+| 2028-01-01 | A14, up to 15% faster and more than 20% denser than N2 |
+| 2029-01-01 | A13, a direct shrink of A14 for 6% area savings |
+| 2029-01-01 | A12, the A14 platform with Super Power Rail backside power |
 
 Source: [TSMC, 2026 North America Technology Symposium](https://pr.tsmc.com/english/news/3302)
 
@@ -1954,8 +1671,8 @@ A logic gate needs two transistors that switch on opposite signals, and today th
 
 Wiring is now as hard to make as the transistor. Copper seeps into the insulator around it, so every wire needs a barrier, a liner and a cap, and once the narrowest wires sit less than 20 nm apart those wrappers take a large share of the wire's cross-section [8](https://www.imec-int.com/en/articles/semi-damascene-metallization-inflection-point-back-end-line-processing). Two metals are moving into those narrow levels.
 
--{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**Ruthenium** needs no barrier, so the whole wire conducts; imec has demonstrated ruthenium lines at a 16 nm pitch [9](https://www.imec-int.com/en/press/imec-demonstrates-16nm-pitch-ru-lines-record-low-resistance-obtained-using-semi-damascene).
--{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**Molybdenum** conducts worse in bulk, 5.3 against copper's 1.68 microhm-cm, but in a thin film it beats tungsten by up to 30 percent and needs no barrier either, which is moving it into the contacts on each transistor [10](https://blog.entegris.com/molybdenums-role-in-ultra-fast-computing-the-metal-behind-the-speed).
+- **Ruthenium** needs no barrier, so the whole wire conducts; imec has demonstrated ruthenium lines at a 16 nm pitch [9](https://www.imec-int.com/en/press/imec-demonstrates-16nm-pitch-ru-lines-record-low-resistance-obtained-using-semi-damascene).
+- **Molybdenum** conducts worse in bulk, 5.3 against copper's 1.68 microhm-cm, but in a thin film it beats tungsten by up to 30 percent and needs no barrier either, which is moving it into the contacts on each transistor [10](https://blog.entegris.com/molybdenums-role-in-ultra-fast-computing-the-metal-behind-the-speed).
 
 ### Who makes it ^who-makes-it-8
 
@@ -1977,136 +1694,104 @@ See [[#^lithography|Lithography]] and [[#^geopolitics|Geopolitics]].
 
 ### Key evaluation criteria ^key-evaluation-criteria-8
 
--{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**Electrostatic control.** How far the gate wraps the channel. It sets how much the switch leaks when off, and the lowest supply voltage it can run on.
--{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**Density.** Transistors per square millimeter, comparable only inside one foundry's own numbering and for one kind of cell.
--{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**Interconnect resistance.** Below a 20 nm wire spacing the wire becomes the slower part and sets the delay [8](https://www.imec-int.com/en/articles/semi-damascene-metallization-inflection-point-back-end-line-processing).
--{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**Power delivery.** The voltage lost carrying power across the die. Backside power frees area and cuts the droop tenfold [5](https://www.intc.com/news-events/press-releases/detail/1772/intel-foundry-details-process-milestones-and-future).
--{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**SRAM scaling.** The cell that holds one bit has stopped shrinking, which caps how much cache an accelerator can afford.
--{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**Cost per transistor.** No foundry publishes wafer prices, so the shrinking density gain per node is the proxy. On that proxy, cost per transistor is rising for the first time.
+- **Electrostatic control.** How far the gate wraps the channel. It sets how much the switch leaks when off, and the lowest supply voltage it can run on.
+- **Density.** Transistors per square millimeter, comparable only inside one foundry's own numbering and for one kind of cell.
+- **Interconnect resistance.** Below a 20 nm wire spacing the wire becomes the slower part and sets the delay [8](https://www.imec-int.com/en/articles/semi-damascene-metallization-inflection-point-back-end-line-processing).
+- **Power delivery.** The voltage lost carrying power across the die. Backside power frees area and cuts the droop tenfold [5](https://www.intc.com/news-events/press-releases/detail/1772/intel-foundry-details-process-milestones-and-future).
+- **SRAM scaling.** The cell that holds one bit has stopped shrinking, which caps how much cache an accelerator can afford.
+- **Cost per transistor.** No foundry publishes wafer prices, so the shrinking density gain per node is the proxy. On that proxy, cost per transistor is rising for the first time.
 
-{--{"author":"James's AI","timestamp":1790597091402}@@Card 1 of 4Question--}{++{"author":"James's AI","timestamp":1790597091402}@@::::callout {title="Flashcards" tone="blue"}
-Recall each answer, then open the card.++}
+::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.
 
-{++{"author":"James's AI","timestamp":1790597091402}@@:::callout {title="Card 1 of 4: ++}Why do the newest transistors wrap the gate around the {--{"author":"James's AI","timestamp":1790597091402}@@channel?
+:::callout {title="Card 1 of 4: Why do the newest transistors wrap the gate around the channel?" tone="neutral" collapse="closed"}
+To stop current leaking when the switch is off.
 
-Card 1 of 4Answer
+Shorter channels switch faster but leak. A gate on all four sides can shut the flow off completely. [[#^how-it-works-8|Reread: How it works]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597091402}@@channel?" tone="neutral" collapse="closed"}
-++}To stop current leaking when the switch is off.
+:::callout {title="Card 2 of 4: Which companies can make these gate-all-around transistors?" tone="neutral" collapse="closed"}
+TSMC, Intel and Samsung.
 
-Shorter channels switch faster but leak. A gate on all four sides can shut the flow off completely. {--{"author":"James's AI","timestamp":1790597091402}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597091402}@@[[#^how-it-works-8|Reread:++} How it {--{"author":"James's AI","timestamp":1790597091402}@@works](#transistors-and-front-end--how-it-works)--}{++{"author":"James's AI","timestamp":1790597091402}@@works]]
-:::++}
+Only TSMC makes them in volume for outside customers. [[#^who-makes-it-8|Reread: Who makes it]]
+:::
 
-{--{"author":"James's AI","timestamp":1790597091402}@@Card--}{++{"author":"James's AI","timestamp":1790597091402}@@:::callout {title="Card++} 2 of{--{"author":"James's AI","timestamp":1790597091402}@@ 4Question
+:::callout {title="Card 3 of 4: Why is the front end hard for a new firm to enter?" tone="neutral" collapse="closed"}
+No firm sells its process recipe, the exact sequence of steps that builds the transistors.
 
---}{++{"author":"James's AI","timestamp":1790597091402}@@ 4: ++}Which companies can make these gate-all-around {--{"author":"James's AI","timestamp":1790597091402}@@transistors?
+A newcomer has to develop its own. [[#^the-chokepoint-8|Reread: The chokepoint]]
+:::
 
-Card 2 of 4Answer
+:::callout {title="Card 4 of 4: How does China's SMIC make advanced chips without an EUV machine?" tone="neutral" collapse="closed"}
+It prints each layer in two or four passes on older deep-ultraviolet tools.
 
---}{++{"author":"James's AI","timestamp":1790597091402}@@transistors?" tone="neutral" collapse="closed"}
-++}TSMC, Intel and Samsung.
+This reaches 5 nm-class features. CSIS judges that China still cannot build a working EUV system. [[#^the-chokepoint-8|Reread: The chokepoint]]
+:::
 
-Only TSMC makes them in volume for outside customers. {--{"author":"James's AI","timestamp":1790597091402}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597091402}@@[[#^who-makes-it-8|Reread:++} Who makes {--{"author":"James's AI","timestamp":1790597091402}@@it](#transistors-and-front-end--who-makes-it)--}{++{"author":"James's AI","timestamp":1790597091402}@@it]]
-:::++}
+::::
 
-{--{"author":"James's AI","timestamp":1790597091402}@@Card--}{++{"author":"James's AI","timestamp":1790597091402}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597091402}@@4Question
+:::callout {title="Four things to remember" tone="green"}
+- The newest transistors wrap the gate around all four sides of the channel to stop current leaking.
+- Only TSMC, Intel and Samsung can make them, and only TSMC does so in volume for outside customers.
+- No firm sells its process recipe, so a newcomer has to develop its own.
+- SMIC reaches 5 nm-class features without EUV by printing each layer in several passes.
+:::
 
---}{++{"author":"James's AI","timestamp":1790597091402}@@4: ++}Why is the front end hard for a new firm to {--{"author":"James's AI","timestamp":1790597091402}@@enter?
-
-Card 3 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597091402}@@enter?" tone="neutral" collapse="closed"}
-++}No firm sells its process recipe, the exact sequence of steps that builds the transistors.
-
-A newcomer has to develop its own. {--{"author":"James's AI","timestamp":1790597091402}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597091402}@@[[#^the-chokepoint-8|Reread:++} The {--{"author":"James's AI","timestamp":1790597091402}@@chokepoint](#transistors-and-front-end--the-chokepoint)--}{++{"author":"James's AI","timestamp":1790597091402}@@chokepoint]]
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597091402}@@Card --}{++{"author":"James's AI","timestamp":1790597091402}@@:::callout {title="Card ++}4 of{--{"author":"James's AI","timestamp":1790597091402}@@ 4Question
-
---}{++{"author":"James's AI","timestamp":1790597091402}@@ 4: ++}How does China's SMIC make advanced chips without an EUV {--{"author":"James's AI","timestamp":1790597091402}@@machine?
-
-Card 4 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597091402}@@machine?" tone="neutral" collapse="closed"}
-++}It prints each layer in two or four passes on older deep-ultraviolet tools.
-
-This reaches 5 nm-class features. CSIS judges that China still cannot build a working EUV system. {--{"author":"James's AI","timestamp":1790597091402}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597091402}@@[[#^the-chokepoint-8|Reread:++} The {--{"author":"James's AI","timestamp":1790597091402}@@chokepoint](#transistors-and-front-end--the-chokepoint)--}{++{"author":"James's AI","timestamp":1790597091402}@@chokepoint]]
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597091402}@@#### Four--}{++{"author":"James's AI","timestamp":1790597091402}@@::::
-
-:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597091402}@@remember ^four-things-to-remember-7
-
---}{++{"author":"James's AI","timestamp":1790597091402}@@remember" tone="green"}
-++}-{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}The newest transistors wrap the gate around all four sides of the channel to stop current leaking.
--{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}Only TSMC, Intel and Samsung can make them, and only TSMC does so in volume for outside customers.
--{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}No firm sells its process recipe, so a newcomer has to develop its own.
--{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}SMIC reaches 5 nm-class features without EUV by printing each layer in several passes.{++{"author":"James's AI","timestamp":1790597091402}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597091402}@@**Sources (16)**
-
---}{++{"author":"James's AI","timestamp":1790597091402}@@:::callout {title="Sources (16)" tone="neutral" collapse="closed"}
-++}1.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [NVIDIA Blackwell {--{"author":"James's AI","timestamp":1790597091402}@@Architecture](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/)--}{++{"author":"James's AI","timestamp":1790597091402}@@Architecture](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/).++} Nvidia · 18 December {--{"author":"James's AI","timestamp":1790597091402}@@2025--}{++{"author":"James's AI","timestamp":1790597091402}@@2025. Tier A.++}
-2.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [Intel's Transistor Technology Breakthrough Represents Biggest Change to Computer Chips in 40 {--{"author":"James's AI","timestamp":1790597091402}@@Years](https://www.intel.com/pressroom/archive/releases/2007/20070128comp.htm)--}{++{"author":"James's AI","timestamp":1790597091402}@@Years](https://www.intel.com/pressroom/archive/releases/2007/20070128comp.htm).++} Intel · 27 January {--{"author":"James's AI","timestamp":1790597091402}@@2007--}{++{"author":"James's AI","timestamp":1790597091402}@@2007. Tier A.++}
-3.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [2nm {--{"author":"James's AI","timestamp":1790597091402}@@Technology](https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm) TSMC--}{++{"author":"James's AI","timestamp":1790597091402}@@Technology](https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm). TSMC. Tier A.++}
-4.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [HPC Platform – Advanced {--{"author":"James's AI","timestamp":1790597091402}@@Technologies](https://www.tsmc.com/english/dedicatedFoundry/technology/platform_HPC_tech_advancedTech) TSMC--}{++{"author":"James's AI","timestamp":1790597091402}@@Technologies](https://www.tsmc.com/english/dedicatedFoundry/technology/platform_HPC_tech_advancedTech). TSMC. Tier A.++}
-5.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [Intel Foundry Details Process Milestones and Future Innovation at VLSI {--{"author":"James's AI","timestamp":1790597091402}@@Symposium](https://www.intc.com/news-events/press-releases/detail/1772/intel-foundry-details-process-milestones-and-future)--}{++{"author":"James's AI","timestamp":1790597091402}@@Symposium](https://www.intc.com/news-events/press-releases/detail/1772/intel-foundry-details-process-milestones-and-future).++} Intel · 16 June {--{"author":"James's AI","timestamp":1790597091402}@@2026--}{++{"author":"James's AI","timestamp":1790597091402}@@2026. Tier A.++}
-6.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [TSMC Debuts A13 Technology at 2026 North America Technology {--{"author":"James's AI","timestamp":1790597091402}@@Symposium](https://pr.tsmc.com/english/news/3302)--}{++{"author":"James's AI","timestamp":1790597091402}@@Symposium](https://pr.tsmc.com/english/news/3302).++} TSMC · 23 April {--{"author":"James's AI","timestamp":1790597091402}@@2026--}{++{"author":"James's AI","timestamp":1790597091402}@@2026. Tier A.++}
-7.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [CFET (complementary {--{"author":"James's AI","timestamp":1790597091402}@@FET)](https://www.imec-int.com/en/articles/imec-puts-complementary-fet-cfet-logic-technology-roadmap) imec--}{++{"author":"James's AI","timestamp":1790597091402}@@FET)](https://www.imec-int.com/en/articles/imec-puts-complementary-fet-cfet-logic-technology-roadmap). imec. Tier A.++}
-8.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [Semi-damascene {--{"author":"James's AI","timestamp":1790597091402}@@metallization](https://www.imec-int.com/en/articles/semi-damascene-metallization-inflection-point-back-end-line-processing) imec--}{++{"author":"James's AI","timestamp":1790597091402}@@metallization](https://www.imec-int.com/en/articles/semi-damascene-metallization-inflection-point-back-end-line-processing). imec. Tier A.++}
-9.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [16nm Ru lines using semi-damascene integration {--{"author":"James's AI","timestamp":1790597091402}@@approach](https://www.imec-int.com/en/press/imec-demonstrates-16nm-pitch-ru-lines-record-low-resistance-obtained-using-semi-damascene)--}{++{"author":"James's AI","timestamp":1790597091402}@@approach](https://www.imec-int.com/en/press/imec-demonstrates-16nm-pitch-ru-lines-record-low-resistance-obtained-using-semi-damascene).++} imec · 3 June {--{"author":"James's AI","timestamp":1790597091402}@@2025--}{++{"author":"James's AI","timestamp":1790597091402}@@2025. Tier A.++}
-10.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [Molybdenum’s Role in Ultra-Fast Computing: The Metal Behind the {--{"author":"James's AI","timestamp":1790597091402}@@Speed](https://blog.entegris.com/molybdenums-role-in-ultra-fast-computing-the-metal-behind-the-speed)--}{++{"author":"James's AI","timestamp":1790597091402}@@Speed](https://blog.entegris.com/molybdenums-role-in-ultra-fast-computing-the-metal-behind-the-speed).++} Entegris · 18 May {--{"author":"James's AI","timestamp":1790597091402}@@2026--}{++{"author":"James's AI","timestamp":1790597091402}@@2026. Tier A.++}
-11.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [Rapidus Secures 267.6 Billion Yen in Funding from Japan Government and Private Sector Companies This strategic funding plan will enable Rapidus to steadily progress from its current R&D phase to mass production of 2nm logic semiconductors by 2027 - Information - Rapidus {--{"author":"James's AI","timestamp":1790597091402}@@Corporation](https://www.rapidus.inc/en/news_topics/information/rapidus-secures-267-6-billion-yen-in-funding-from-japan-government-and-private-sector-companies/) Rapidus--}{++{"author":"James's AI","timestamp":1790597091402}@@Corporation](https://www.rapidus.inc/en/news_topics/information/rapidus-secures-267-6-billion-yen-in-funding-from-japan-government-and-private-sector-companies/). Rapidus. Tier A.++}
-12.{--{"author":"James's AI","timestamp":1790597091402}@@  B--} [Is SMIC N+3’s Metal Pitch Smaller than Intel {--{"author":"James's AI","timestamp":1790597091402}@@18A’s?](https://newsletter.semianalysis.com/p/steel-smic-n3-teardown)--}{++{"author":"James's AI","timestamp":1790597091402}@@18A’s?](https://newsletter.semianalysis.com/p/steel-smic-n3-teardown).++} SemiAnalysis · 14 June {--{"author":"James's AI","timestamp":1790597091402}@@2026--}{++{"author":"James's AI","timestamp":1790597091402}@@2026. Tier B.++}
-13.{--{"author":"James's AI","timestamp":1790597091402}@@  B--} [Clash of the Foundries: Gate All Around + Backside Power at {--{"author":"James's AI","timestamp":1790597091402}@@2nm](https://newsletter.semianalysis.com/p/clash-of-the-foundries)--}{++{"author":"James's AI","timestamp":1790597091402}@@2nm](https://newsletter.semianalysis.com/p/clash-of-the-foundries).++} SemiAnalysis · 1 October {--{"author":"James's AI","timestamp":1790597091402}@@2024--}{++{"author":"James's AI","timestamp":1790597091402}@@2024. Tier B.++}
-14.{--{"author":"James's AI","timestamp":1790597091402}@@  B--} [China launches $47bn chip fund to counter U.S. {--{"author":"James's AI","timestamp":1790597091402}@@restrictions](https://asia.nikkei.com/spotlight/supply-chain/china-launches-47bn-chip-fund-to-counter-u.s.-restrictions)--}{++{"author":"James's AI","timestamp":1790597091402}@@restrictions](https://asia.nikkei.com/spotlight/supply-chain/china-launches-47bn-chip-fund-to-counter-u.s.-restrictions).++} Nikkei Asia · 27 May {--{"author":"James's AI","timestamp":1790597091402}@@2024--}{++{"author":"James's AI","timestamp":1790597091402}@@2024. Tier B.++}
-15.{--{"author":"James's AI","timestamp":1790597091402}@@  B--} [China starts production of home-grown immersion DUV chipmaking tools, source {--{"author":"James's AI","timestamp":1790597091402}@@says](https://www.reuters.com/world/china/china-starts-production-home-grown-immersion-duv-chipmaking-tools-source-2026-07-28/)--}{++{"author":"James's AI","timestamp":1790597091402}@@says](https://www.reuters.com/world/china/china-starts-production-home-grown-immersion-duv-chipmaking-tools-source-2026-07-28/).++} Reuters · 28 July {--{"author":"James's AI","timestamp":1790597091402}@@2026--}{++{"author":"James's AI","timestamp":1790597091402}@@2026. Tier B.++}
-16.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [Breakthroughs or Boasts? Assessing Recent Chinese Lithography Advancements | Strategic Technologies {--{"author":"James's AI","timestamp":1790597091402}@@Blog](https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography)--}{++{"author":"James's AI","timestamp":1790597091402}@@Blog](https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography).++} Center for Strategic and International {--{"author":"James's AI","timestamp":1790597091402}@@Studies--}{++{"author":"James's AI","timestamp":1790597091402}@@Studies. Tier A.
-:::++}
+:::callout {title="Sources (16)" tone="neutral" collapse="closed"}
+1. [NVIDIA Blackwell Architecture](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/). Nvidia · 18 December 2025. Tier A.
+2. [Intel's Transistor Technology Breakthrough Represents Biggest Change to Computer Chips in 40 Years](https://www.intel.com/pressroom/archive/releases/2007/20070128comp.htm). Intel · 27 January 2007. Tier A.
+3. [2nm Technology](https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm). TSMC. Tier A.
+4. [HPC Platform – Advanced Technologies](https://www.tsmc.com/english/dedicatedFoundry/technology/platform_HPC_tech_advancedTech). TSMC. Tier A.
+5. [Intel Foundry Details Process Milestones and Future Innovation at VLSI Symposium](https://www.intc.com/news-events/press-releases/detail/1772/intel-foundry-details-process-milestones-and-future). Intel · 16 June 2026. Tier A.
+6. [TSMC Debuts A13 Technology at 2026 North America Technology Symposium](https://pr.tsmc.com/english/news/3302). TSMC · 23 April 2026. Tier A.
+7. [CFET (complementary FET)](https://www.imec-int.com/en/articles/imec-puts-complementary-fet-cfet-logic-technology-roadmap). imec. Tier A.
+8. [Semi-damascene metallization](https://www.imec-int.com/en/articles/semi-damascene-metallization-inflection-point-back-end-line-processing). imec. Tier A.
+9. [16nm Ru lines using semi-damascene integration approach](https://www.imec-int.com/en/press/imec-demonstrates-16nm-pitch-ru-lines-record-low-resistance-obtained-using-semi-damascene). imec · 3 June 2025. Tier A.
+10. [Molybdenum’s Role in Ultra-Fast Computing: The Metal Behind the Speed](https://blog.entegris.com/molybdenums-role-in-ultra-fast-computing-the-metal-behind-the-speed). Entegris · 18 May 2026. Tier A.
+11. [Rapidus Secures 267.6 Billion Yen in Funding from Japan Government and Private Sector Companies This strategic funding plan will enable Rapidus to steadily progress from its current R&D phase to mass production of 2nm logic semiconductors by 2027 - Information - Rapidus Corporation](https://www.rapidus.inc/en/news_topics/information/rapidus-secures-267-6-billion-yen-in-funding-from-japan-government-and-private-sector-companies/). Rapidus. Tier A.
+12. [Is SMIC N+3’s Metal Pitch Smaller than Intel 18A’s?](https://newsletter.semianalysis.com/p/steel-smic-n3-teardown). SemiAnalysis · 14 June 2026. Tier B.
+13. [Clash of the Foundries: Gate All Around + Backside Power at 2nm](https://newsletter.semianalysis.com/p/clash-of-the-foundries). SemiAnalysis · 1 October 2024. Tier B.
+14. [China launches $47bn chip fund to counter U.S. restrictions](https://asia.nikkei.com/spotlight/supply-chain/china-launches-47bn-chip-fund-to-counter-u.s.-restrictions). Nikkei Asia · 27 May 2024. Tier B.
+15. [China starts production of home-grown immersion DUV chipmaking tools, source says](https://www.reuters.com/world/china/china-starts-production-home-grown-immersion-duv-chipmaking-tools-source-2026-07-28/). Reuters · 28 July 2026. Tier B.
+16. [Breakthroughs or Boasts? Assessing Recent Chinese Lithography Advancements | Strategic Technologies Blog](https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography). Center for Strategic and International Studies. Tier A.
+:::
 
 ## Foundries and Fabs ^foundries-and-fabs
 
 TSMC runs six plants that each print more than 100,000 wafers a month. All six are in Taiwan, and they hold 13 of the 17 million wafers a year the company can make.
 
-{--{"author":"James's AI","timestamp":1790597099684}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
-
-1,391 --}{++{"author":"James's AI","timestamp":1790597099684}@@*1,391 ++}words / 6{--{"author":"James's AI","timestamp":1790597099684}@@ minSpecimen: wafer carrier (FOUP)
-
-**In plain terms**
-
---}{++{"author":"James's AI","timestamp":1790597099684}@@ min*
+*1,391 words / 6 min*
 
 :::callout {title="In plain terms" tone="neutral"}
-++}A foundry is a fab that makes chips for other companies. Those companies send in their designs, and the foundry runs them all through the same building on the same tools. The building costs tens of billions of dollars, and the air inside is cleaner than an operating room. Even so, a wafer crosses hundreds of machines over several months inside sealed boxes, never touching that air. No chip company sells enough of one product to fill a factory like that on its own, so the world shares a handful of them. TSMC runs the biggest, and all six of its largest plants sit in Taiwan, which is why one island's politics reaches the whole chip supply.{++{"author":"James's AI","timestamp":1790597099684}@@
-:::++}
+A foundry is a fab that makes chips for other companies. Those companies send in their designs, and the foundry runs them all through the same building on the same tools. The building costs tens of billions of dollars, and the air inside is cleaner than an operating room. Even so, a wafer crosses hundreds of machines over several months inside sealed boxes, never touching that air. No chip company sells enough of one product to fill a factory like that on its own, so the world shares a handful of them. TSMC runs the biggest, and all six of its largest plants sit in Taiwan, which is why one island's politics reaches the whole chip supply.
+:::
 
 ### In short ^in-short-9
 
 The foundry model won because leading-edge fabs are too expensive for one design house, and it concentrated because only the leader earns enough to build the next node. TSMC's six gigafabs hold 13 of the 17 million wafers a year it can make, and all six are in Taiwan [1](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/gigafab). Intel and Samsung are credible technically and unproven commercially, and Intel is now part-owned by its government [10](https://www.intc.com/news-events/press-releases/detail/1748/intel-and-trump-administration-reach-historic-agreement-to). Diversification costs $165 billion and a decade in the American case alone [9](https://pr.tsmc.com/english/news/3210), which makes the concentration in Taiwan a fact about the 2020s and 2030s.
 
-{--{"author":"James's AI","timestamp":1790597099684}@@Concentration: **Extreme**--}{++{"author":"James's AI","timestamp":1790597099684}@@:::callout {title="Chokepoint card" tone="amber"}
-**Concentration:** Extreme++}
+:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** Extreme
 
-{--{"author":"James's AI","timestamp":1790597099684}@@Substitutability: **Hard**.--}{++{"author":"James's AI","timestamp":1790597099684}@@**Substitutability:** Hard.++} Intel and Samsung also run lines for the newest chips, but TSMC has not built one of its largest fabs outside Taiwan, and the slow part is training the workforce.
+**Substitutability:** Hard. Intel and Samsung also run lines for the newest chips, but TSMC has not built one of its largest fabs outside Taiwan, and the slow part is training the workforce.
 
-{--{"author":"James's AI","timestamp":1790597099684}@@Price--}{++{"author":"James's AI","timestamp":1790597099684}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597099684}@@size: **BCG--}{++{"author":"James's AI","timestamp":1790597099684}@@size:** BCG++} puts the ten-year cost of owning a fab completed in 2026 at $35-43 {--{"author":"James's AI","timestamp":1790597099684}@@billion**.--}{++{"author":"James's AI","timestamp":1790597099684}@@billion.++} TSMC intends to spend $165 billion in the United States alone
+**Price or market size:** BCG puts the ten-year cost of owning a fab completed in 2026 at $35-43 billion. TSMC intends to spend $165 billion in the United States alone
 
 **Who leads**
 
--{--{"author":"James's AI","timestamp":1790597099684}@@   TWTSMC--}{++{"author":"James's AI","timestamp":1790597099684}@@ **TSMC** (TW):++} 77% of wafer revenue from 7 nm and below, 2Q26; six gigafabs, all in Taiwan
--{--{"author":"James's AI","timestamp":1790597099684}@@   USIntel Foundry--}{++{"author":"James's AI","timestamp":1790597099684}@@ **Intel Foundry** (US):++} $5.8bn revenue and a $2.089bn operating loss, 2Q26
--{--{"author":"James's AI","timestamp":1790597099684}@@   KRSamsung Foundry--}{++{"author":"James's AI","timestamp":1790597099684}@@ **Samsung Foundry** (KR):++} Hwaseong and Pyeongtaek; at least $17bn of construction at Taylor, Texas
--{--{"author":"James's AI","timestamp":1790597099684}@@   CNSMIC--}{++{"author":"James's AI","timestamp":1790597099684}@@ **SMIC** (CN):++} $9.327bn revenue in 2025 at 93.5% utilization
--{--{"author":"James's AI","timestamp":1790597099684}@@   JPRapidus--}{++{"author":"James's AI","timestamp":1790597099684}@@ **Rapidus** (JP):++} State-backed 2 nm entrant, Chitose
+- **TSMC** (TW): 77% of wafer revenue from 7 nm and below, 2Q26; six gigafabs, all in Taiwan
+- **Intel Foundry** (US): $5.8bn revenue and a $2.089bn operating loss, 2Q26
+- **Samsung Foundry** (KR): Hwaseong and Pyeongtaek; at least $17bn of construction at Taylor, Texas
+- **SMIC** (CN): $9.327bn revenue in 2025 at 93.5% utilization
+- **Rapidus** (JP): State-backed 2 nm entrant, Chitose
 
 **Where it is made**
 
--{--{"author":"James's AI","timestamp":1790597099684}@@   TWTaiwan--}{++{"author":"James's AI","timestamp":1790597099684}@@ **Taiwan**:++} TSMC's six gigafabs and UMC; N2 and N3 for every leading AI accelerator
--{--{"author":"James's AI","timestamp":1790597099684}@@   KRSouth Korea--}{++{"author":"James's AI","timestamp":1790597099684}@@ **South Korea**:++} Samsung Foundry, Hwaseong and Pyeongtaek
--{--{"author":"James's AI","timestamp":1790597099684}@@   CNChina--}{++{"author":"James's AI","timestamp":1790597099684}@@ **China**:++} SMIC and Hua Hong; the largest installed capacity of any region, almost all of it on older nodes
--{--{"author":"James's AI","timestamp":1790597099684}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597099684}@@ **United States**:++} Intel Foundry, GlobalFoundries, TSMC Arizona, Samsung Taylor
--{--{"author":"James's AI","timestamp":1790597099684}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597099684}@@ **Japan**:++} TSMC Kumamoto, Rapidus Chitose
+- **Taiwan**: TSMC's six gigafabs and UMC; N2 and N3 for every leading AI accelerator
+- **South Korea**: Samsung Foundry, Hwaseong and Pyeongtaek
+- **China**: SMIC and Hua Hong; the largest installed capacity of any region, almost all of it on older nodes
+- **United States**: Intel Foundry, GlobalFoundries, TSMC Arizona, Samsung Taylor
+- **Japan**: TSMC Kumamoto, Rapidus Chitose
 
 **Why substitution is slow**
 
@@ -2118,8 +1803,8 @@ SMIC and Hua Hong are China's largest foundries. SMIC had revenue of $9.327 bill
 
 **Where the US stands**
 
-Intel Foundry is the only American-owned foundry that makes the newest chips. It lost $2.089 billion on $5.8 billion of revenue in the second quarter of 2026. The federal government owns 9.9 percent of Intel and takes no part in running it.{++{"author":"James's AI","timestamp":1790597099684}@@
-:::++}
+Intel Foundry is the only American-owned foundry that makes the newest chips. It lost $2.089 billion on $5.8 billion of revenue in the second quarter of 2026. The federal government owns 9.9 percent of Intel and takes no part in running it.
+:::
 
 TSMC calls a plant a GIGAFAB once it runs more than 100,000 wafers a month, each a 300 mm disc, twelve inches across. It operates six of them, and every one is in Taiwan [1](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/gigafab).
 
@@ -2139,17 +1824,15 @@ Every plant TSMC and its subsidiaries run came to more than 17 million wafers a 
 
 TSMC and UMC build only for others. Chips at 7 nm and below, meaning the newest processes, were 77 percent of TSMC's wafer revenue in the second quarter of 2026, split 33 percent at 5 nm, 30 at 3 nm, 11 at 7 nm and 3 at 2 nm, on revenue of $40.20 billion at a 67.7 percent gross margin [4](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm). No other foundry earns that margin, so none can fund the next node out of cash flow.
 
-**Chart:** TSMC wafer revenue by node, 2Q26{--{"author":"James's AI","timestamp":1790597099684}@@ (%--}{++{"author":"James's AI","timestamp":1790597099684}@@
+**Chart:** TSMC wafer revenue by node, 2Q26
 
-| | %++} of wafer {--{"author":"James's AI","timestamp":1790597099684}@@revenue)
-
---}{++{"author":"James's AI","timestamp":1790597099684}@@revenue |
+| | % of wafer revenue |
 |---|---:|
-| ++}2 nm {--{"author":"James's AI","timestamp":1790597099684}@@**3**--}{++{"author":"James's AI","timestamp":1790597099684}@@|++} 3 {++{"author":"James's AI","timestamp":1790597099684}@@|
-| 3 ++}nm {--{"author":"James's AI","timestamp":1790597099684}@@**30**--}{++{"author":"James's AI","timestamp":1790597099684}@@| 30 |
-|++} 5 nm {--{"author":"James's AI","timestamp":1790597099684}@@**33**--}{++{"author":"James's AI","timestamp":1790597099684}@@| 33 |
-|++} 7 nm {--{"author":"James's AI","timestamp":1790597099684}@@**11**--}{++{"author":"James's AI","timestamp":1790597099684}@@| 11 |
-|++} 10 nm and above {--{"author":"James's AI","timestamp":1790597099684}@@**23**--}{++{"author":"James's AI","timestamp":1790597099684}@@| 23 |++}
+| 2 nm | 3 |
+| 3 nm | 30 |
+| 5 nm | 33 |
+| 7 nm | 11 |
+| 10 nm and above | 23 |
 
 Source: [TSMC 2Q26 results, filed with the SEC](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm)
 
@@ -2183,156 +1866,122 @@ Samsung's main plant outside Korea is Taylor, Texas: a committed minimum of $17 
 
 SEMI forecast China at 10.1 million wafers a month in 2025, the most of any region, against Taiwan's 5.8 million out of a world total of 33.7 million [8](https://www.semi.org/en/news-media-press-releases/semi-press-releases/global-semiconductor-fab-capacity-projected-to-expand-6%25-in-2024-and-7%25-in-2025-semi-reports). Almost none of China's is advanced. The United States had almost no capacity below 10 nm in 2022 and is projected to hold 28 percent of it by 2032, on $2.3 trillion of new fab investment [12](https://www.bcg.com/publications/2024/emerging-resilience-in-semiconductor-supply-chain).
 
-{++{"author":"James's AI","timestamp":1790594074096}@@**Chart:** ++}Installed wafer fab capacity by region, 2025 forecast, all {--{"author":"James's AI","timestamp":1790597099684}@@nodesmillion--}{++{"author":"James's AI","timestamp":1790597099684}@@nodes
+**Chart:** Installed wafer fab capacity by region, 2025 forecast, all nodes
 
-| | million++} 8-inch-equivalent wafers per {--{"author":"James's AI","timestamp":1790597099684}@@month
-
---}{++{"author":"James's AI","timestamp":1790597099684}@@month |
+| | million 8-inch-equivalent wafers per month |
 |---|---:|
-| ++}China {++{"author":"James's AI","timestamp":1790597099684}@@| ++}10.1 {++{"author":"James's AI","timestamp":1790597099684}@@|
-| ++}Taiwan {++{"author":"James's AI","timestamp":1790597099684}@@| ++}5.8 {++{"author":"James's AI","timestamp":1790597099684}@@|
-| ++}South Korea {++{"author":"James's AI","timestamp":1790597099684}@@| ++}5.4 {++{"author":"James's AI","timestamp":1790597099684}@@|
-| ++}Japan {++{"author":"James's AI","timestamp":1790597099684}@@| ++}4.7 {++{"author":"James's AI","timestamp":1790597099684}@@|
-| ++}Americas {++{"author":"James's AI","timestamp":1790597099684}@@| ++}3.2 {++{"author":"James's AI","timestamp":1790597099684}@@|
-| ++}Europe and Mideast {++{"author":"James's AI","timestamp":1790597099684}@@| ++}2.7 {++{"author":"James's AI","timestamp":1790597099684}@@|
-| ++}SE Asia {++{"author":"James's AI","timestamp":1790597099684}@@| ++}1.8{++{"author":"James's AI","timestamp":1790597099684}@@ |++}
+| China | 10.1 |
+| Taiwan | 5.8 |
+| South Korea | 5.4 |
+| Japan | 4.7 |
+| Americas | 3.2 |
+| Europe and Mideast | 2.7 |
+| SE Asia | 1.8 |
 
 Source: [SEMI World Fab Forecast](https://www.semi.org/en/news-media-press-releases/semi-press-releases/global-semiconductor-fab-capacity-projected-to-expand-6%25-in-2024-and-7%25-in-2025-semi-reports)
 
 Three risks meet on one island:
 
--{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}**Seismic.** Taiwan sits on an active plate boundary, and a tool knocked out of calibration scraps the work in progress across a whole fab.
--{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}**Power.** A gigafab is a large industrial load on a small island grid. Spare generating capacity sets how fast Taiwan can add fabs.
--{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}**Political.** A blockade or conflict would remove most sub-5 nm capacity from the world market at once, with no substitute available inside a decade. See [[#^geopolitics|Geopolitics]].
+- **Seismic.** Taiwan sits on an active plate boundary, and a tool knocked out of calibration scraps the work in progress across a whole fab.
+- **Power.** A gigafab is a large industrial load on a small island grid. Spare generating capacity sets how fast Taiwan can add fabs.
+- **Political.** A blockade or conflict would remove most sub-5 nm capacity from the world market at once, with no substitute available inside a decade. See [[#^geopolitics|Geopolitics]].
 
 Diversification is slow because the hard part of a fab is a workforce that has run one process for years, and TSMC has yet to build a gigafab anywhere but Taiwan [1](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/gigafab).
 
 ### Key evaluation criteria ^key-evaluation-criteria-9
 
--{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}**Leading-edge share.** TSMC's 77 percent of wafer revenue from 7 nm and below is why it can self-fund the next node [4](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm).
--{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}**Yield at ramp.** How many good chips a new process gives in its first year, which separates a profitable node from a subsidized one. Intel Foundry's loss comes from yield.
--{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}**Ten-year cost of ownership.** $35 to $43 billion for a fab finished in 2026, and rising [2](https://www.bcg.com/publications/2023/navigating-the-semiconductor-manufacturing-costs).
--{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}**Utilization.** How full the lines run. SMIC's 93.5 percent shows what a captive home market does for volume, and not for margins [6](https://www.smics.com/en/site/news_read/7951).
--{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}**Customer concentration.** A foundry owned by a chipmaker competes with its own customers, which caps who will trust it with a flagship design.
--{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}**Geographic exposure.** How much of a buyer's supply sits on one island, one grid, one fault system.
+- **Leading-edge share.** TSMC's 77 percent of wafer revenue from 7 nm and below is why it can self-fund the next node [4](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm).
+- **Yield at ramp.** How many good chips a new process gives in its first year, which separates a profitable node from a subsidized one. Intel Foundry's loss comes from yield.
+- **Ten-year cost of ownership.** $35 to $43 billion for a fab finished in 2026, and rising [2](https://www.bcg.com/publications/2023/navigating-the-semiconductor-manufacturing-costs).
+- **Utilization.** How full the lines run. SMIC's 93.5 percent shows what a captive home market does for volume, and not for margins [6](https://www.smics.com/en/site/news_read/7951).
+- **Customer concentration.** A foundry owned by a chipmaker competes with its own customers, which caps who will trust it with a flagship design.
+- **Geographic exposure.** How much of a buyer's supply sits on one island, one grid, one fault system.
 
-{--{"author":"James's AI","timestamp":1790597099684}@@Card 1 of 4Question
+::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.
 
-What is a foundry?--}{++{"author":"James's AI","timestamp":1790597099684}@@::::callout {title="Flashcards" tone="blue"}
-Recall each answer, then open the card.++}
+:::callout {title="Card 1 of 4: What is a foundry?" tone="neutral" collapse="closed"}
+A chip factory that makes chips designed by other companies.
 
-{--{"author":"James's AI","timestamp":1790597099684}@@Card--}{++{"author":"James's AI","timestamp":1790597099684}@@:::callout {title="Card++} 1 of {--{"author":"James's AI","timestamp":1790597099684}@@4Answer
+A fab costs tens of billions of dollars, and no chip company sells enough of one product to fill one alone. [[#^how-it-works-9|Reread: How it works]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597099684}@@4: What is a foundry?" tone="neutral" collapse="closed"}
-++}A chip factory that makes chips designed by other companies.
+:::callout {title="Card 2 of 4: Where are TSMC's largest plants?" tone="neutral" collapse="closed"}
+All six are in Taiwan.
 
-A fab costs tens of billions of dollars, and no chip company sells enough of one product to fill one alone. [[#^how-it-works-9|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597099684}@@
-:::++}
+They hold 13 of the 17 million wafers TSMC can make in a year. [[#^who-makes-it-9|Reread: Who makes it]]
+:::
 
-{--{"author":"James's AI","timestamp":1790597099684}@@Card--}{++{"author":"James's AI","timestamp":1790597099684}@@:::callout {title="Card++} 2 of {--{"author":"James's AI","timestamp":1790597099684}@@4Question
+:::callout {title="Card 3 of 4: What is the slowest part of building leading-edge chipmaking outside Taiwan?" tone="neutral" collapse="closed"}
+Training a workforce that has run the process for years.
 
---}{++{"author":"James's AI","timestamp":1790597099684}@@4: ++}Where are TSMC's largest {--{"author":"James's AI","timestamp":1790597099684}@@plants?
+Money can buy the building. TSMC has committed $165 billion to the United States and has not yet built one of its largest plants there. [[#^the-chokepoint-9|Reread: The chokepoint]]
+:::
 
-Card 2 of 4Answer
+:::callout {title="Card 4 of 4: How much of China's fab capacity can make the newest chips?" tone="neutral" collapse="closed"}
+Almost none.
 
---}{++{"author":"James's AI","timestamp":1790597099684}@@plants?" tone="neutral" collapse="closed"}
-++}All six are in Taiwan.
+China has more capacity than any other region, but SMIC cannot buy an EUV machine. [[#^the-chokepoint-9|Reread: The chokepoint]]
+:::
 
-They hold 13 of the 17 million wafers TSMC can make in a year. [[#^who-makes-it-9|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597099684}@@
-:::++}
+::::
 
-{--{"author":"James's AI","timestamp":1790597099684}@@Card--}{++{"author":"James's AI","timestamp":1790597099684}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597099684}@@4Question
+:::callout {title="Four things to remember" tone="green"}
+- A foundry makes chips for other companies, because no chip company can fill a fab alone.
+- All six of TSMC's largest plants are in Taiwan.
+- Money can buy a fab building, and training the workforce is the slow part.
+- China has more fab capacity than any other region, and almost none of it can make the newest chips.
+:::
 
---}{++{"author":"James's AI","timestamp":1790597099684}@@4: ++}What is the slowest part of building leading-edge chipmaking outside {--{"author":"James's AI","timestamp":1790597099684}@@Taiwan?
-
-Card 3 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597099684}@@Taiwan?" tone="neutral" collapse="closed"}
-++}Training a workforce that has run the process for years.
-
-Money can buy the building. TSMC has committed $165 billion to the United States and has not yet built one of its largest plants there. [[#^the-chokepoint-9|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597099684}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597099684}@@Card --}{++{"author":"James's AI","timestamp":1790597099684}@@:::callout {title="Card ++}4 of {--{"author":"James's AI","timestamp":1790597099684}@@4Question
-
---}{++{"author":"James's AI","timestamp":1790597099684}@@4: ++}How much of China's fab capacity can make the newest {--{"author":"James's AI","timestamp":1790597099684}@@chips?
-
-Card 4 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597099684}@@chips?" tone="neutral" collapse="closed"}
-++}Almost none.
-
-China has more capacity than any other region, but SMIC cannot buy an EUV machine. [[#^the-chokepoint-9|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597099684}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597099684}@@#### Four--}{++{"author":"James's AI","timestamp":1790597099684}@@::::
-
-:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597099684}@@remember ^four-things-to-remember-8
-
---}{++{"author":"James's AI","timestamp":1790597099684}@@remember" tone="green"}
-++}-{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}A foundry makes chips for other companies, because no chip company can fill a fab alone.
--{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}All six of TSMC's largest plants are in Taiwan.
--{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}Money can buy a fab building, and training the workforce is the slow part.
--{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}China has more fab capacity than any other region, and almost none of it can make the newest chips.{++{"author":"James's AI","timestamp":1790597099684}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597099684}@@**Sources (12)**
-
---}{++{"author":"James's AI","timestamp":1790597099684}@@:::callout {title="Sources (12)" tone="neutral" collapse="closed"}
-++}1.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [GIGAFAB® {--{"author":"James's AI","timestamp":1790597099684}@@Facilities](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/gigafab) TSMC--}{++{"author":"James's AI","timestamp":1790597099684}@@Facilities](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/gigafab). TSMC. Tier A.++}
-2.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [Navigating the Costly Economics of Chip {--{"author":"James's AI","timestamp":1790597099684}@@Making](https://www.bcg.com/publications/2023/navigating-the-semiconductor-manufacturing-costs)--}{++{"author":"James's AI","timestamp":1790597099684}@@Making](https://www.bcg.com/publications/2023/navigating-the-semiconductor-manufacturing-costs).++} Boston Consulting Group · 28 September {--{"author":"James's AI","timestamp":1790597099684}@@2023--}{++{"author":"James's AI","timestamp":1790597099684}@@2023. Tier A.++}
-3.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [Fab {--{"author":"James's AI","timestamp":1790597099684}@@Capacity](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/fab_capacity) TSMC--}{++{"author":"James's AI","timestamp":1790597099684}@@Capacity](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/fab_capacity). TSMC. Tier A.++}
-4.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD, Form 6-K report of foreign private issuer for the period ended 2026-06-30 {--{"author":"James's AI","timestamp":1790597099684}@@(6-K)](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm)--}{++{"author":"James's AI","timestamp":1790597099684}@@(6-K)](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm).++} U.S. Securities and Exchange Commission (filing by TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD) · 16 July {--{"author":"James's AI","timestamp":1790597099684}@@2026--}{++{"author":"James's AI","timestamp":1790597099684}@@2026. Tier A.++}
-5.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [Intel Reports Second-Quarter 2026 Financial {--{"author":"James's AI","timestamp":1790597099684}@@Results](https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results)--}{++{"author":"James's AI","timestamp":1790597099684}@@Results](https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results).++} Intel · 23 July {--{"author":"James's AI","timestamp":1790597099684}@@2026--}{++{"author":"James's AI","timestamp":1790597099684}@@2026. Tier A.++}
-6.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [SMIC Announces 2025 Annual {--{"author":"James's AI","timestamp":1790597099684}@@Results](https://www.smics.com/en/site/news_read/7951) SMIC--}{++{"author":"James's AI","timestamp":1790597099684}@@Results](https://www.smics.com/en/site/news_read/7951). SMIC. Tier A.++}
-7.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [Rapidus Secures 267.6 Billion Yen in Funding from Japan Government and Private Sector Companies This strategic funding plan will enable Rapidus to steadily progress from its current R&D phase to mass production of 2nm logic semiconductors by 2027 - Information - Rapidus {--{"author":"James's AI","timestamp":1790597099684}@@Corporation](https://www.rapidus.inc/en/news_topics/information/rapidus-secures-267-6-billion-yen-in-funding-from-japan-government-and-private-sector-companies/) Rapidus--}{++{"author":"James's AI","timestamp":1790597099684}@@Corporation](https://www.rapidus.inc/en/news_topics/information/rapidus-secures-267-6-billion-yen-in-funding-from-japan-government-and-private-sector-companies/). Rapidus. Tier A.++}
-8.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [Global Semiconductor Fab Capacity Projected to Expand 6% in 2024 and 7% in 2025, SEMI {--{"author":"James's AI","timestamp":1790597099684}@@Reports](https://www.semi.org/en/news-media-press-releases/semi-press-releases/global-semiconductor-fab-capacity-projected-to-expand-6%25-in-2024-and-7%25-in-2025-semi-reports)--}{++{"author":"James's AI","timestamp":1790597099684}@@Reports](https://www.semi.org/en/news-media-press-releases/semi-press-releases/global-semiconductor-fab-capacity-projected-to-expand-6%25-in-2024-and-7%25-in-2025-semi-reports).++} SEMI · 18 June {--{"author":"James's AI","timestamp":1790597099684}@@2024--}{++{"author":"James's AI","timestamp":1790597099684}@@2024. Tier A.++}
-9.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [TSMC Intends to Expand Its Investment in the United States to US$165 Billion to Power the Future of {--{"author":"James's AI","timestamp":1790597099684}@@AI](https://pr.tsmc.com/english/news/3210)--}{++{"author":"James's AI","timestamp":1790597099684}@@AI](https://pr.tsmc.com/english/news/3210).++} TSMC · 4 March {--{"author":"James's AI","timestamp":1790597099684}@@2025--}{++{"author":"James's AI","timestamp":1790597099684}@@2025. Tier A.++}
-10.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [Intel and Trump Administration Reach Historic Agreement to Accelerate American Technology and Manufacturing {--{"author":"James's AI","timestamp":1790597099684}@@Leadership](https://www.intc.com/news-events/press-releases/detail/1748/intel-and-trump-administration-reach-historic-agreement-to)--}{++{"author":"James's AI","timestamp":1790597099684}@@Leadership](https://www.intc.com/news-events/press-releases/detail/1748/intel-and-trump-administration-reach-historic-agreement-to).++} Intel · 22 August {--{"author":"James's AI","timestamp":1790597099684}@@2025--}{++{"author":"James's AI","timestamp":1790597099684}@@2025. Tier A.++}
-11.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [Taylor | US Fab | Samsung Semiconductor {--{"author":"James's AI","timestamp":1790597099684}@@Global](https://semiconductor.samsung.com/sas/company/taylor/)--}{++{"author":"James's AI","timestamp":1790597099684}@@Global](https://semiconductor.samsung.com/sas/company/taylor/).++} Samsung Electronics · 11 September {--{"author":"James's AI","timestamp":1790597099684}@@2025--}{++{"author":"James's AI","timestamp":1790597099684}@@2025. Tier A.++}
-12.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [Emerging Resilience in the Semiconductor Supply {--{"author":"James's AI","timestamp":1790597099684}@@Chain](https://www.bcg.com/publications/2024/emerging-resilience-in-semiconductor-supply-chain)--}{++{"author":"James's AI","timestamp":1790597099684}@@Chain](https://www.bcg.com/publications/2024/emerging-resilience-in-semiconductor-supply-chain).++} Boston Consulting Group · 8 May {--{"author":"James's AI","timestamp":1790597099684}@@2024--}{++{"author":"James's AI","timestamp":1790597099684}@@2024. Tier A.
-:::++}
+:::callout {title="Sources (12)" tone="neutral" collapse="closed"}
+1. [GIGAFAB® Facilities](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/gigafab). TSMC. Tier A.
+2. [Navigating the Costly Economics of Chip Making](https://www.bcg.com/publications/2023/navigating-the-semiconductor-manufacturing-costs). Boston Consulting Group · 28 September 2023. Tier A.
+3. [Fab Capacity](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/fab_capacity). TSMC. Tier A.
+4. [TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD, Form 6-K report of foreign private issuer for the period ended 2026-06-30 (6-K)](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm). U.S. Securities and Exchange Commission (filing by TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD) · 16 July 2026. Tier A.
+5. [Intel Reports Second-Quarter 2026 Financial Results](https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results). Intel · 23 July 2026. Tier A.
+6. [SMIC Announces 2025 Annual Results](https://www.smics.com/en/site/news_read/7951). SMIC. Tier A.
+7. [Rapidus Secures 267.6 Billion Yen in Funding from Japan Government and Private Sector Companies This strategic funding plan will enable Rapidus to steadily progress from its current R&D phase to mass production of 2nm logic semiconductors by 2027 - Information - Rapidus Corporation](https://www.rapidus.inc/en/news_topics/information/rapidus-secures-267-6-billion-yen-in-funding-from-japan-government-and-private-sector-companies/). Rapidus. Tier A.
+8. [Global Semiconductor Fab Capacity Projected to Expand 6% in 2024 and 7% in 2025, SEMI Reports](https://www.semi.org/en/news-media-press-releases/semi-press-releases/global-semiconductor-fab-capacity-projected-to-expand-6%25-in-2024-and-7%25-in-2025-semi-reports). SEMI · 18 June 2024. Tier A.
+9. [TSMC Intends to Expand Its Investment in the United States to US$165 Billion to Power the Future of AI](https://pr.tsmc.com/english/news/3210). TSMC · 4 March 2025. Tier A.
+10. [Intel and Trump Administration Reach Historic Agreement to Accelerate American Technology and Manufacturing Leadership](https://www.intc.com/news-events/press-releases/detail/1748/intel-and-trump-administration-reach-historic-agreement-to). Intel · 22 August 2025. Tier A.
+11. [Taylor | US Fab | Samsung Semiconductor Global](https://semiconductor.samsung.com/sas/company/taylor/). Samsung Electronics · 11 September 2025. Tier A.
+12. [Emerging Resilience in the Semiconductor Supply Chain](https://www.bcg.com/publications/2024/emerging-resilience-in-semiconductor-supply-chain). Boston Consulting Group · 8 May 2024. Tier A.
+:::
 
 ## Memory and HBM ^memory-and-hbm
 
 Three firms make every HBM stack in the world. The stack is the largest block of silicon in an AI package, and the cooling plate above it now limits how tall it can be.
 
-{--{"author":"James's AI","timestamp":1790597107175}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
-
-1,396--}{++{"author":"James's AI","timestamp":1790597107175}@@*1,396++} words / 6 {--{"author":"James's AI","timestamp":1790597107175}@@minSpecimen: HBM stack
-
-**In plain terms**
-
---}{++{"author":"James's AI","timestamp":1790597107175}@@min*
+*1,396 words / 6 min*
 
 :::callout {title="In plain terms" tone="neutral"}
-++}High bandwidth memory, or HBM, is where an AI chip keeps the numbers it is working on, and it is built to hand them over fast. A memory maker stacks up to sixteen memory chips into a cube, drills holes straight down through the stack, and fills the holes with copper so that every layer is wired to the ones below. The cube then sits beside the processor, the chip that does the calculating. Stacking is the hard part, because each chip is ground so thin that the copper in its holes shows through its back, the finished cube has to fit under the plate that cools it, and one bad chip ruins the whole cube. Only SK hynix, Samsung and Micron have made it work, and a single line in an American export control reaches all three.{++{"author":"James's AI","timestamp":1790597107175}@@
-:::++}
+High bandwidth memory, or HBM, is where an AI chip keeps the numbers it is working on, and it is built to hand them over fast. A memory maker stacks up to sixteen memory chips into a cube, drills holes straight down through the stack, and fills the holes with copper so that every layer is wired to the ones below. The cube then sits beside the processor, the chip that does the calculating. Stacking is the hard part, because each chip is ground so thin that the copper in its holes shows through its back, the finished cube has to fit under the plate that cools it, and one bad chip ruins the whole cube. Only SK hynix, Samsung and Micron have made it work, and a single line in an American export control reaches all three.
+:::
 
 ### In short ^in-short-10
 
 HBM is the most expensive component in an AI accelerator, and three firms supply all of it: the two Korean ones sold 82.5 percent in 2025 [11](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm). The limit now is heat and height inside a 775-micrometer cube [9](https://news.skhynix.com/en/tech-note-series-ep2/), and the fix, hybrid bonding, is two generations away. The export control on HBM works because one bandwidth-density threshold catches every part worth buying [15](https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing).
 
-{--{"author":"James's AI","timestamp":1790597107175}@@Concentration: **Extreme**--}{++{"author":"James's AI","timestamp":1790597107175}@@:::callout {title="Chokepoint card" tone="amber"}
-**Concentration:** Extreme++}
+:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** Extreme
 
-{--{"author":"James's AI","timestamp":1790597107175}@@Substitutability: **Hard**.--}{++{"author":"James's AI","timestamp":1790597107175}@@**Substitutability:** Hard.++} Three firms ship HBM, and no fourth firm has both the newest DRAM and a line that stacks it.
+**Substitutability:** Hard. Three firms ship HBM, and no fourth firm has both the newest DRAM and a line that stacks it.
 
-{--{"author":"James's AI","timestamp":1790597107175}@@Price--}{++{"author":"James's AI","timestamp":1790597107175}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597107175}@@size: **An--}{++{"author":"James's AI","timestamp":1790597107175}@@size:** An++} HBM stack moves data over a path 16 times wider than a DDR5 memory {--{"author":"James's AI","timestamp":1790597107175}@@module's**.--}{++{"author":"James's AI","timestamp":1790597107175}@@module's.++} That width costs chip area and lowers the share of stacks that come out working.
+**Price or market size:** An HBM stack moves data over a path 16 times wider than a DDR5 memory module's. That width costs chip area and lowers the share of stacks that come out working.
 
 **Who leads**
 
--{--{"author":"James's AI","timestamp":1790597107175}@@   KRSK hynix--}{++{"author":"James's AI","timestamp":1790597107175}@@ **SK hynix** (KR):++} 63.2% of HBM revenue, 2025; first to complete HBM4, at over 10 Gbps per pin
--{--{"author":"James's AI","timestamp":1790597107175}@@   KRSamsung--}{++{"author":"James's AI","timestamp":1790597107175}@@ **Samsung** (KR):++} 19.3% of HBM revenue, 2025; Hwaseong and Pyeongtaek
--{--{"author":"James's AI","timestamp":1790597107175}@@   USMicron--}{++{"author":"James's AI","timestamp":1790597107175}@@ **Micron** (US):++} 17.4% of HBM revenue, 2025; HBM4 above 11 Gbps per pin
+- **SK hynix** (KR): 63.2% of HBM revenue, 2025; first to complete HBM4, at over 10 Gbps per pin
+- **Samsung** (KR): 19.3% of HBM revenue, 2025; Hwaseong and Pyeongtaek
+- **Micron** (US): 17.4% of HBM revenue, 2025; HBM4 above 11 Gbps per pin
 
 **Where it is made**
 
--{--{"author":"James's AI","timestamp":1790597107175}@@   KRSouth Korea--}{++{"author":"James's AI","timestamp":1790597107175}@@ **South Korea**:++} SK hynix Cheongju and Icheon; Samsung Pyeongtaek and Hwaseong
--{--{"author":"James's AI","timestamp":1790597107175}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597107175}@@ **United States**:++} Micron headquarters and R&D; SK hynix packaging plant under construction in Indiana
--{--{"author":"James's AI","timestamp":1790597107175}@@   TWTaiwan--}{++{"author":"James's AI","timestamp":1790597107175}@@ **Taiwan**:++} Micron DRAM and HBM packaging in Taichung; TSMC builds HBM4 logic base dies
--{--{"author":"James's AI","timestamp":1790597107175}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597107175}@@ **Japan**:++} Micron Hiroshima, 1-gamma DRAM
--{--{"author":"James's AI","timestamp":1790597107175}@@   SGSingapore--}{++{"author":"James's AI","timestamp":1790597107175}@@ **Singapore**:++} Micron HBM advanced packaging
+- **South Korea**: SK hynix Cheongju and Icheon; Samsung Pyeongtaek and Hwaseong
+- **United States**: Micron headquarters and R&D; SK hynix packaging plant under construction in Indiana
+- **Taiwan**: Micron DRAM and HBM packaging in Taichung; TSMC builds HBM4 logic base dies
+- **Japan**: Micron Hiroshima, 1-gamma DRAM
+- **Singapore**: Micron HBM advanced packaging
 
 **Why substitution is slow**
 
@@ -2344,8 +1993,8 @@ No Chinese firm ships HBM3E or HBM4 in volume. CXMT is the only Chinese firm tha
 
 **Where the US stands**
 
-Micron is the only American HBM maker. BIS, the US export control office, requires a license for HBM faster than 2 GB/s per square millimeter of package or stack area, under control number ECCN 3A090.c, and every stack now in production is faster than that.{++{"author":"James's AI","timestamp":1790597107175}@@
-:::++}
+Micron is the only American HBM maker. BIS, the US export control office, requires a license for HBM faster than 2 GB/s per square millimeter of package or stack area, under control number ECCN 3A090.c, and every stack now in production is faster than that.
+:::
 
 An AI accelerator is a machine for moving numbers past arithmetic units, and arithmetic got cheap faster than the moving did. High bandwidth memory now decides how fast a GPU runs.
 
@@ -2355,11 +2004,9 @@ Each layer in the cube is a DRAM chip, ground thin and bonded to the one below w
 
 An HBM3E cube talks to the processor over 1,024 wires at once, a 1,024-bit interface, sixteen times wider than a standard DDR5 memory module, the memory stick in a PC [1](https://www.micron.com/products/memory/hbm). HBM4 doubles that to 2,048 wires [2](https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing). Ordinary memory cannot be made that wide, because the pins would not fit on a circuit board. The stack can, since its wires run down through the TSVs and across a few millimeters of silicon to the processor beside it, with no board in the way.
 
-{--{"author":"James's AI","timestamp":1790594485771}@@![](https://chipsupplychain.org/media/hbm-stack-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594485771}@@![Inside a memory stack](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-hbm-stack.jpg)++}{--{"author":"James's AI","timestamp":1790597107175}@@
+![Inside a memory stack](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-hbm-stack.jpg)
 
-**Figure: Inside a memory stack.** An--}{++{"author":"James's AI","timestamp":1790597107175}@@
-
-*Inside a memory stack. The last frame of an++} animation on the {--{"author":"James's AI","timestamp":1790597107175}@@live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#memory-and-hbm)); above is its last frame. --}{++{"author":"James's AI","timestamp":1790597107175}@@original site. ++}Its {--{"author":"James's AI","timestamp":1790597107175}@@steps:--}{++{"author":"James's AI","timestamp":1790597107175}@@steps:*++}
+*Inside a memory stack. The last frame of an animation on the original site. Its steps:*
 
 1. **Base chip.** A memory stack sits beside the GPU on a shared silicon base. It starts with a base chip, which controls the memory chips above it.
 2. **Thin.** Each memory chip is ground to about 30 micrometers, thinner than a human hair.
@@ -2367,16 +2014,14 @@ An HBM3E cube talks to the processor over 1,024 wires at once, a 1,024-bit inter
 4. **Height.** The stack has to fit under the cooling plate. Twelve chips reach 0.72 mm, the old limit. HBM4 raised the limit to 775 micrometers and fits up to sixteen chips.
 5. **Width.** An HBM3E stack talks to the processor over 1,024 wires at once, sixteen times as many as a PC memory module. HBM4 doubles that to 2,048.
 
-{--{"author":"James's AI","timestamp":1790597107175}@@_Simplified--}{++{"author":"James's AI","timestamp":1790597107175}@@*Simplified++} cross-section. Heights follow the published limits and are drawn to one vertical scale; widths are not to {--{"author":"James's AI","timestamp":1790597107175}@@scale._
-
-Inside a memory stack--}{++{"author":"James's AI","timestamp":1790597107175}@@scale.*++}
+*Simplified cross-section. Heights follow the published limits and are drawn to one vertical scale; widths are not to scale.*
 
 Answering a prompt is what the width is for. Training reuses each stored number across a huge multiplication, so a chip can fetch little and compute a lot. To generate one word of an answer, the chip reads the whole model from memory, and the whole record of the conversation so far, does a little arithmetic, and waits for the next read. That record grows with the length of the conversation and the number of users served at once. So memory size and speed usually set how many people one chip can serve.
 
 ### Variants and trade-offs ^variants-and-trade-offs-10
 
 | Generation | Interface | Bandwidth per stack | Capacity per stack |
-{--{"author":"James's AI","timestamp":1790597107175}@@| --- | --- | --- | --- |--}{++{"author":"James's AI","timestamp":1790597107175}@@|---|---|---|---|++}
+|---|---|---|---|
 | HBM3E | 1,024-bit, 16 channels (32 pseudo-channels) | over 1.2 TB/s | 24 GB (8 chips), 36 GB (12 chips) |
 | HBM4 | 2,048-bit, 32 channels | over 2.0 TB/s, up to 3.3 TB/s | up to 64 GB (16 chips, 32 Gb dies) |
 
@@ -2390,23 +2035,21 @@ The standards body JEDEC published JESD270-4 in April 2025, setting the 2,048-bi
 
 The chip at the bottom of an HBM4 stack is now a logic chip, so it has to be made in a foundry, and SK hynix partnered with TSMC to build it [7](https://news.skhynix.com/sk-hynix-partners-with-tsmc-to-strengthen-hbm-technological-leadership/). That gives TSMC a role inside a product it does not make.
 
-{++{"author":"James's AI","timestamp":1790594093533}@@**Chart:** ++}Peak bandwidth per HBM {--{"author":"James's AI","timestamp":1790597107175}@@stackGB/s
-
---}{++{"author":"James's AI","timestamp":1790597107175}@@stack
+**Chart:** Peak bandwidth per HBM stack
 
 | | GB/s |
 |---|---:|
-| ++}HBM3E, 1,024-bit {++{"author":"James's AI","timestamp":1790597107175}@@| ++}1,200 {++{"author":"James's AI","timestamp":1790597107175}@@|
-| ++}HBM4, 2,048-bit {++{"author":"James's AI","timestamp":1790597107175}@@| ++}2,000 {++{"author":"James's AI","timestamp":1790597107175}@@|
-| ++}HBM4, advanced {--{"author":"James's AI","timestamp":1790597107175}@@configurati--}{++{"author":"James's AI","timestamp":1790597107175}@@configurations |++} 3,300{++{"author":"James's AI","timestamp":1790597107175}@@ |++}
+| HBM3E, 1,024-bit | 1,200 |
+| HBM4, 2,048-bit | 2,000 |
+| HBM4, advanced configurations | 3,300 |
 
 Source: [Siemens EDA, HBM3E and HBM4 IC design guide, April 2026](https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/)
 
 ### How a stack is built ^how-a-stack-is
 
--{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}**Drill and thin.** Etch vertical holes, the through-silicon vias, into a memory wafer, fill them with copper, then grind the wafer from behind until the copper comes through.
--{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}**Stack and join.** SK hynix uses Advanced MR-MUF, which melts the solder bumps between stacked chips and molds a filler around them in one pass, which limits heat and warping [5](https://news.skhynix.com/en/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/).
--{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}**Stay under the height limit.** HBM4 raised the height limit on a finished cube from 720 micrometers to 775, still under a millimeter, because a stack taller than the processor beside it would hit the cooling plate [9](https://news.skhynix.com/en/tech-note-series-ep2/).
+- **Drill and thin.** Etch vertical holes, the through-silicon vias, into a memory wafer, fill them with copper, then grind the wafer from behind until the copper comes through.
+- **Stack and join.** SK hynix uses Advanced MR-MUF, which melts the solder bumps between stacked chips and molds a filler around them in one pass, which limits heat and warping [5](https://news.skhynix.com/en/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/).
+- **Stay under the height limit.** HBM4 raised the height limit on a finished cube from 720 micrometers to 775, still under a millimeter, because a stack taller than the processor beside it would hit the cooling plate [9](https://news.skhynix.com/en/tech-note-series-ep2/).
 
 Hybrid bonding is the next step and it is not ready. Pressing copper pad straight onto copper pad, with no solder and no filler, would cut the spacing between connections from about 20 micrometers to under 1, but SK hynix expects full-scale adoption only at HBM4E or HBM5, where stacks pass twenty layers [9](https://news.skhynix.com/en/tech-note-series-ep2/).
 
@@ -2418,26 +2061,22 @@ SK hynix built its lead by being first to pass Nvidia's qualification tests, and
 
 The split is on the record because SK hynix registered shares in the United States: of 2025 HBM revenue, SK hynix took 63.2 percent, Samsung 19.3 and Micron 17.4, which puts the two Korean suppliers at 82.5 percent of the world's HBM [11](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm). The filing credits the research firm IDC. These shares move fast: in 2024 the same three stood at 56.4, 37.8 and 5.8, so Samsung halved and Micron tripled inside a year on qualification wins alone. By the first quarter of 2026 Micron was at 23.1 percent and Korea down to 76.9 [11](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm).
 
-**Chart:** Global HBM revenue by supplier, 2025{--{"author":"James's AI","timestamp":1790597107175}@@ (%)
-
---}{++{"author":"James's AI","timestamp":1790597107175}@@
+**Chart:** Global HBM revenue by supplier, 2025
 
 | | % |
 |---|---:|
-| ++}SK hynix (KR) {--{"author":"James's AI","timestamp":1790597107175}@@**63.2%**--}{++{"author":"James's AI","timestamp":1790597107175}@@| 63.2 |
-|++} Samsung (KR) {--{"author":"James's AI","timestamp":1790597107175}@@**19.3%**--}{++{"author":"James's AI","timestamp":1790597107175}@@| 19.3 |
-|++} Micron (US) {--{"author":"James's AI","timestamp":1790597107175}@@**17.4%**--}{++{"author":"James's AI","timestamp":1790597107175}@@| 17.4 |++}
+| SK hynix (KR) | 63.2 |
+| Samsung (KR) | 19.3 |
+| Micron (US) | 17.4 |
 
 Source: [SK hynix Form 424B4 prospectus, 10 July 2026, on IDC data](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm)
 
-**Chart:** HBM market revenue, Bank of America estimate{--{"author":"James's AI","timestamp":1790597107175}@@ ($B)
-
---}{++{"author":"James's AI","timestamp":1790597107175}@@
+**Chart:** HBM market revenue, Bank of America estimate
 
 | | $B |
 |---|---:|
-| ++}2025 {++{"author":"James's AI","timestamp":1790597107175}@@| ++}34.6 {++{"author":"James's AI","timestamp":1790597107175}@@|
-| ++}2026 {++{"author":"James's AI","timestamp":1790597107175}@@| ++}54.6{++{"author":"James's AI","timestamp":1790597107175}@@ |++}
+| 2025 | 34.6 |
+| 2026 | 54.6 |
 
 Source: [Bank of America estimate cited in SK hynix's 2026 market outlook](https://news.skhynix.com/en/2026-market-outlook-focus-on-the-hbm-led-memory-supercycle/)
 
@@ -2453,138 +2092,106 @@ China's HBM maker is CXMT, and it is behind the three. That gap is closing from 
 
 ### Key evaluation criteria ^key-evaluation-criteria-10
 
--{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}**Bandwidth per stack** sets how fast a chip can serve answers: over 1.2 TB/s on HBM3E, over 2 TB/s on HBM4 [8](https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/).
--{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}**Capacity per stack** decides how large a model fits on one accelerator, up to 64 GB with sixteen chips stacked [2](https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing).
--{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}**Stack height**, 775 micrometers for HBM4, caps the number of layers before the cooling plate [9](https://news.skhynix.com/en/tech-note-series-ep2/).
--{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}**Stack yield** sets the price more than wafer cost does, because one bad die scraps the cube.
--{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}**Thermal path** gets worse with every layer: the chip at the bottom runs hottest, and each one added above it makes the heat harder to get out.
--{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}**Qualification** means passing Nvidia's data-rate test, above 10 Gb/s, against JEDEC's 8 [5](https://news.skhynix.com/en/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/).
+- **Bandwidth per stack** sets how fast a chip can serve answers: over 1.2 TB/s on HBM3E, over 2 TB/s on HBM4 [8](https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/).
+- **Capacity per stack** decides how large a model fits on one accelerator, up to 64 GB with sixteen chips stacked [2](https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing).
+- **Stack height**, 775 micrometers for HBM4, caps the number of layers before the cooling plate [9](https://news.skhynix.com/en/tech-note-series-ep2/).
+- **Stack yield** sets the price more than wafer cost does, because one bad die scraps the cube.
+- **Thermal path** gets worse with every layer: the chip at the bottom runs hottest, and each one added above it makes the heat harder to get out.
+- **Qualification** means passing Nvidia's data-rate test, above 10 Gb/s, against JEDEC's 8 [5](https://news.skhynix.com/en/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/).
 
-{--{"author":"James's AI","timestamp":1790597107175}@@Card 1 of 4Question
+::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.
 
-What is HBM?--}{++{"author":"James's AI","timestamp":1790597107175}@@::::callout {title="Flashcards" tone="blue"}
-Recall each answer, then open the card.++}
+:::callout {title="Card 1 of 4: What is HBM?" tone="neutral" collapse="closed"}
+Memory chips stacked into a cube beside the processor and wired to pass data fast.
 
-{--{"author":"James's AI","timestamp":1790597107175}@@Card --}{++{"author":"James's AI","timestamp":1790597107175}@@:::callout {title="Card ++}1 of {--{"author":"James's AI","timestamp":1790597107175}@@4Answer
+Copper-filled holes run straight down through the stack, which holds up to sixteen chips. [[#^how-it-works-10|Reread: How it works]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597107175}@@4: What is HBM?" tone="neutral" collapse="closed"}
-++}Memory chips stacked into a cube beside the processor and wired to pass data fast.
+:::callout {title="Card 2 of 4: Why does an AI chip need such fast memory?" tone="neutral" collapse="closed"}
+For each word it writes, it reads the whole model from memory.
 
-Copper-filled holes run straight down through the stack, which holds up to sixteen chips. [[#^how-it-works-10|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597107175}@@
-:::++}
+Memory speed and size usually set how many users one chip can serve. [[#^how-it-works-10|Reread: How it works]]
+:::
 
-{--{"author":"James's AI","timestamp":1790597107175}@@Card --}{++{"author":"James's AI","timestamp":1790597107175}@@:::callout {title="Card ++}2 of{--{"author":"James's AI","timestamp":1790597107175}@@ 4Question
+:::callout {title="Card 3 of 4: Who makes HBM?" tone="neutral" collapse="closed"}
+Three firms: SK hynix, Samsung and Micron.
 
---}{++{"author":"James's AI","timestamp":1790597107175}@@ 4: ++}Why does an AI chip need such fast {--{"author":"James's AI","timestamp":1790597107175}@@memory?
+The two Korean firms sold 82.5 percent of it in 2025. A fourth maker would need both the newest DRAM and a line that stacks it. [[#^who-makes-it-10|Reread: Who makes it]]
+:::
 
-Card 2 of 4Answer
+:::callout {title="Card 4 of 4: Can China get advanced HBM?" tone="neutral" collapse="closed"}
+No. US export controls cover every stack in production, and no Chinese firm makes it in volume.
 
---}{++{"author":"James's AI","timestamp":1790597107175}@@memory?" tone="neutral" collapse="closed"}
-++}For each word it writes, it reads the whole model from memory.
+CXMT is the one Chinese firm that could plausibly get there. [[#^the-chokepoint-10|Reread: The chokepoint]]
+:::
 
-Memory speed and size usually set how many users one chip can serve. [[#^how-it-works-10|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597107175}@@
-:::++}
+::::
 
-{--{"author":"James's AI","timestamp":1790597107175}@@Card --}{++{"author":"James's AI","timestamp":1790597107175}@@:::callout {title="Card ++}3 of {--{"author":"James's AI","timestamp":1790597107175}@@4Question
+:::callout {title="Four things to remember" tone="green"}
+- HBM is memory stacked into a cube beside the processor and wired to pass data fast.
+- An AI chip reads its whole model from memory for each word, so memory speed limits it.
+- Only SK hynix, Samsung and Micron make HBM.
+- US export controls cover every HBM stack in production, and no Chinese firm makes it in volume.
+:::
 
---}{++{"author":"James's AI","timestamp":1790597107175}@@4: ++}Who makes {--{"author":"James's AI","timestamp":1790597107175}@@HBM?
-
-Card 3 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597107175}@@HBM?" tone="neutral" collapse="closed"}
-++}Three firms: SK hynix, Samsung and Micron.
-
-The two Korean firms sold 82.5 percent of it in 2025. A fourth maker would need both the newest DRAM and a line that stacks it. [[#^who-makes-it-10|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597107175}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597107175}@@Card--}{++{"author":"James's AI","timestamp":1790597107175}@@:::callout {title="Card++} 4 of {--{"author":"James's AI","timestamp":1790597107175}@@4Question
-
---}{++{"author":"James's AI","timestamp":1790597107175}@@4: ++}Can China get advanced {--{"author":"James's AI","timestamp":1790597107175}@@HBM?
-
-Card 4 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597107175}@@HBM?" tone="neutral" collapse="closed"}
-++}No. US export controls cover every stack in production, and no Chinese firm makes it in volume.
-
-CXMT is the one Chinese firm that could plausibly get there. [[#^the-chokepoint-10|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597107175}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597107175}@@#### Four--}{++{"author":"James's AI","timestamp":1790597107175}@@::::
-
-:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597107175}@@remember ^four-things-to-remember-9
-
---}{++{"author":"James's AI","timestamp":1790597107175}@@remember" tone="green"}
-++}-{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}HBM is memory stacked into a cube beside the processor and wired to pass data fast.
--{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}An AI chip reads its whole model from memory for each word, so memory speed limits it.
--{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}Only SK hynix, Samsung and Micron make HBM.
--{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}US export controls cover every HBM stack in production, and no Chinese firm makes it in volume.{++{"author":"James's AI","timestamp":1790597107175}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597107175}@@**Sources (16)**
-
---}{++{"author":"James's AI","timestamp":1790597107175}@@:::callout {title="Sources (16)" tone="neutral" collapse="closed"}
-++}1.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [High-bandwidth memory {--{"author":"James's AI","timestamp":1790597107175}@@(HBM)](https://www.micron.com/products/memory/hbm)--}{++{"author":"James's AI","timestamp":1790597107175}@@(HBM)](https://www.micron.com/products/memory/hbm).++} Micron {--{"author":"James's AI","timestamp":1790597107175}@@Technology--}{++{"author":"James's AI","timestamp":1790597107175}@@Technology. Tier A.++}
-2.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [JEDEC® and Industry Leaders Collaborate to Release JESD270-4 HBM4 Standard: Advancing Bandwidth, Efficiency, and Capacity for AI and {--{"author":"James's AI","timestamp":1790597107175}@@HPC](https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing)--}{++{"author":"James's AI","timestamp":1790597107175}@@HPC](https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing).++} JEDEC Solid State Technology Association · 16 April {--{"author":"James's AI","timestamp":1790597107175}@@2025--}{++{"author":"James's AI","timestamp":1790597107175}@@2025. Tier A.++}
-3.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [Micron, HBM3E product {--{"author":"James's AI","timestamp":1790597107175}@@page](https://www.micron.com/products/memory/hbm/hbm3e)--}{++{"author":"James's AI","timestamp":1790597107175}@@page](https://www.micron.com/products/memory/hbm/hbm3e).++} Micron {--{"author":"James's AI","timestamp":1790597107175}@@Technology--}{++{"author":"James's AI","timestamp":1790597107175}@@Technology. Tier A.++}
-4.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [2026 Market Outlook – “Focus on the HBM-Led Memory {--{"author":"James's AI","timestamp":1790597107175}@@Supercycle”](https://news.skhynix.com/en/2026-market-outlook-focus-on-the-hbm-led-memory-supercycle/)--}{++{"author":"James's AI","timestamp":1790597107175}@@Supercycle”](https://news.skhynix.com/en/2026-market-outlook-focus-on-the-hbm-led-memory-supercycle/).++} SK {--{"author":"James's AI","timestamp":1790597107175}@@hynix--}{++{"author":"James's AI","timestamp":1790597107175}@@hynix. Tier A.++}
-5.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [SK hynix Completes World’s First HBM4 Development and Readies Mass {--{"author":"James's AI","timestamp":1790597107175}@@Production](https://news.skhynix.com/en/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/)--}{++{"author":"James's AI","timestamp":1790597107175}@@Production](https://news.skhynix.com/en/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/).++} SK {--{"author":"James's AI","timestamp":1790597107175}@@hynix--}{++{"author":"James's AI","timestamp":1790597107175}@@hynix. Tier A.++}
-6.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [Micron, HBM4 product {--{"author":"James's AI","timestamp":1790597107175}@@page](https://www.micron.com/products/memory/hbm/hbm4)--}{++{"author":"James's AI","timestamp":1790597107175}@@page](https://www.micron.com/products/memory/hbm/hbm4).++} Micron {--{"author":"James's AI","timestamp":1790597107175}@@Technology--}{++{"author":"James's AI","timestamp":1790597107175}@@Technology. Tier A.++}
-7.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [SK hynix Partners with TSMC to Strengthen HBM Technological {--{"author":"James's AI","timestamp":1790597107175}@@Leadership](https://news.skhynix.com/sk-hynix-partners-with-tsmc-to-strengthen-hbm-technological-leadership/)--}{++{"author":"James's AI","timestamp":1790597107175}@@Leadership](https://news.skhynix.com/sk-hynix-partners-with-tsmc-to-strengthen-hbm-technological-leadership/).++} SK {--{"author":"James's AI","timestamp":1790597107175}@@hynix--}{++{"author":"James's AI","timestamp":1790597107175}@@hynix. Tier A.++}
-8.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [HBM3e and HBM4: IC design guide for next-generation high bandwidth {--{"author":"James's AI","timestamp":1790597107175}@@memory](https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/)--}{++{"author":"James's AI","timestamp":1790597107175}@@memory](https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/).++} Siemens Digital Industries Software · 24 April {--{"author":"James's AI","timestamp":1790597107175}@@2026--}{++{"author":"James's AI","timestamp":1790597107175}@@2026. Tier A.++}
-9.{--{"author":"James's AI","timestamp":1790597107175}@@  A [\[Tech Note\]--}{++{"author":"James's AI","timestamp":1790597107175}@@ [[Tech Note]++} Hybrid Bonding: Evolving into a Foundational Technology for Improving Semiconductor {--{"author":"James's AI","timestamp":1790597107175}@@Performance](https://news.skhynix.com/en/tech-note-series-ep2/)--}{++{"author":"James's AI","timestamp":1790597107175}@@Performance](https://news.skhynix.com/en/tech-note-series-ep2/).++} SK {--{"author":"James's AI","timestamp":1790597107175}@@hynix--}{++{"author":"James's AI","timestamp":1790597107175}@@hynix. Tier A.++}
-10.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [SK hynix breaks ground on $4 billion advanced packaging production facility in Purdue Research {--{"author":"James's AI","timestamp":1790597107175}@@Park](https://www.purdue.edu/newsroom/2026/Q3/sk-hynix-breaks-ground-on-4-billion-advanced-packaging-production-facility-in-purdue-research-park/)--}{++{"author":"James's AI","timestamp":1790597107175}@@Park](https://www.purdue.edu/newsroom/2026/Q3/sk-hynix-breaks-ground-on-4-billion-advanced-packaging-production-facility-in-purdue-research-park/).++} Purdue University · 27 August {--{"author":"James's AI","timestamp":1790597107175}@@2026--}{++{"author":"James's AI","timestamp":1790597107175}@@2026. Tier A.++}
-11.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [SK hynix Inc., Form 424B4 prospectus for the period ended 2026-07-10 {--{"author":"James's AI","timestamp":1790597107175}@@(424(B)(4))](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm)--}{++{"author":"James's AI","timestamp":1790597107175}@@(424(B)(4))](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm).++} U.S. Securities and Exchange Commission (filing by SK hynix Inc.) · 10 July {--{"author":"James's AI","timestamp":1790597107175}@@2026--}{++{"author":"James's AI","timestamp":1790597107175}@@2026. Tier A.++}
-12.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [NVIDIA GB300 {--{"author":"James's AI","timestamp":1790597107175}@@NVL72](https://www.nvidia.com/en-us/data-center/gb300-nvl72/)--}{++{"author":"James's AI","timestamp":1790597107175}@@NVL72](https://www.nvidia.com/en-us/data-center/gb300-nvl72/).++} Nvidia · 23 July {--{"author":"James's AI","timestamp":1790597107175}@@2026--}{++{"author":"James's AI","timestamp":1790597107175}@@2026. Tier A.++}
-13.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic {--{"author":"James's AI","timestamp":1790597107175}@@AI](https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/)--}{++{"author":"James's AI","timestamp":1790597107175}@@AI](https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/).++} Nvidia · 21 July {--{"author":"James's AI","timestamp":1790597107175}@@2026--}{++{"author":"James's AI","timestamp":1790597107175}@@2026. Tier A.++}
-14.{--{"author":"James's AI","timestamp":1790597107175}@@  B--} [AMD Instinct MI355X Specs, Pricing & AI Inference {--{"author":"James's AI","timestamp":1790597107175}@@Benchmarks](https://inferencex.semianalysis.com/chips/mi355x) SemiAnalysis--}{++{"author":"James's AI","timestamp":1790597107175}@@Benchmarks](https://inferencex.semianalysis.com/chips/mi355x). SemiAnalysis. Tier B.++}
-15.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [Foreign-Produced Direct Product Rule Additions, and Refinements to Controls for Advanced Computing and Semiconductor Manufacturing {--{"author":"James's AI","timestamp":1790597107175}@@Items](https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing)--}{++{"author":"James's AI","timestamp":1790597107175}@@Items](https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing).++} Federal Register (Commerce Department; Industry and Security Bureau) · 5 December {--{"author":"James's AI","timestamp":1790597107175}@@2024--}{++{"author":"James's AI","timestamp":1790597107175}@@2024. Tier A.++}
-16.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [15 CFR 742.6, Regional {--{"author":"James's AI","timestamp":1790597107175}@@stability](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-742/section-742.6)--}{++{"author":"James's AI","timestamp":1790597107175}@@stability](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-742/section-742.6).++} Electronic Code of Federal {--{"author":"James's AI","timestamp":1790597107175}@@Regulations--}{++{"author":"James's AI","timestamp":1790597107175}@@Regulations. Tier A.
-:::++}
+:::callout {title="Sources (16)" tone="neutral" collapse="closed"}
+1. [High-bandwidth memory (HBM)](https://www.micron.com/products/memory/hbm). Micron Technology. Tier A.
+2. [JEDEC® and Industry Leaders Collaborate to Release JESD270-4 HBM4 Standard: Advancing Bandwidth, Efficiency, and Capacity for AI and HPC](https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing). JEDEC Solid State Technology Association · 16 April 2025. Tier A.
+3. [Micron, HBM3E product page](https://www.micron.com/products/memory/hbm/hbm3e). Micron Technology. Tier A.
+4. [2026 Market Outlook – “Focus on the HBM-Led Memory Supercycle”](https://news.skhynix.com/en/2026-market-outlook-focus-on-the-hbm-led-memory-supercycle/). SK hynix. Tier A.
+5. [SK hynix Completes World’s First HBM4 Development and Readies Mass Production](https://news.skhynix.com/en/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/). SK hynix. Tier A.
+6. [Micron, HBM4 product page](https://www.micron.com/products/memory/hbm/hbm4). Micron Technology. Tier A.
+7. [SK hynix Partners with TSMC to Strengthen HBM Technological Leadership](https://news.skhynix.com/sk-hynix-partners-with-tsmc-to-strengthen-hbm-technological-leadership/). SK hynix. Tier A.
+8. [HBM3e and HBM4: IC design guide for next-generation high bandwidth memory](https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/). Siemens Digital Industries Software · 24 April 2026. Tier A.
+9. [[Tech Note] Hybrid Bonding: Evolving into a Foundational Technology for Improving Semiconductor Performance](https://news.skhynix.com/en/tech-note-series-ep2/). SK hynix. Tier A.
+10. [SK hynix breaks ground on $4 billion advanced packaging production facility in Purdue Research Park](https://www.purdue.edu/newsroom/2026/Q3/sk-hynix-breaks-ground-on-4-billion-advanced-packaging-production-facility-in-purdue-research-park/). Purdue University · 27 August 2026. Tier A.
+11. [SK hynix Inc., Form 424B4 prospectus for the period ended 2026-07-10 (424(B)(4))](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm). U.S. Securities and Exchange Commission (filing by SK hynix Inc.) · 10 July 2026. Tier A.
+12. [NVIDIA GB300 NVL72](https://www.nvidia.com/en-us/data-center/gb300-nvl72/). Nvidia · 23 July 2026. Tier A.
+13. [Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic AI](https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/). Nvidia · 21 July 2026. Tier A.
+14. [AMD Instinct MI355X Specs, Pricing & AI Inference Benchmarks](https://inferencex.semianalysis.com/chips/mi355x). SemiAnalysis. Tier B.
+15. [Foreign-Produced Direct Product Rule Additions, and Refinements to Controls for Advanced Computing and Semiconductor Manufacturing Items](https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing). Federal Register (Commerce Department; Industry and Security Bureau) · 5 December 2024. Tier A.
+16. [15 CFR 742.6, Regional stability](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-742/section-742.6). Electronic Code of Federal Regulations. Tier A.
+:::
 
 ## Advanced Packaging ^advanced-packaging
 
 Lithography stopped being the limit on chip size in 2022. The limit now is how large an interposer, the silicon base plate under the chips, TSMC can build, and through 2025 how many it could build a month.
 
-{--{"author":"James's AI","timestamp":1790597114872}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
-
-1,402 --}{++{"author":"James's AI","timestamp":1790597114872}@@*1,402 ++}words / 6{--{"author":"James's AI","timestamp":1790597114872}@@ minSpecimen: CoWoS package, exploded
-
-**In plain terms**
-
---}{++{"author":"James's AI","timestamp":1790597114872}@@ min*
+*1,402 words / 6 min*
 
 :::callout {title="In plain terms" tone="neutral"}
-++}Packaging joins finished chips into one component and mounts them on a base, called a substrate, wired almost as finely as the chips themselves. A lithography machine, which prints a chip's circuits, can cover only a rectangle about the size of a postage stamp in one shot, and a modern accelerator needs more circuit than fits in one, so it cannot be one chip. It is made as several pieces, set side by side on a shared slab of silicon and wired together through it, with the stacked memory a few millimeters away. Slab, chips and base all expand at different rates when heated, so the package can warp and its joints crack. Getting that right in large numbers is hard enough that nearly every AI accelerator is packaged by TSMC, in Taiwan.{++{"author":"James's AI","timestamp":1790597114872}@@
-:::++}
+Packaging joins finished chips into one component and mounts them on a base, called a substrate, wired almost as finely as the chips themselves. A lithography machine, which prints a chip's circuits, can cover only a rectangle about the size of a postage stamp in one shot, and a modern accelerator needs more circuit than fits in one, so it cannot be one chip. It is made as several pieces, set side by side on a shared slab of silicon and wired together through it, with the stacked memory a few millimeters away. Slab, chips and base all expand at different rates when heated, so the package can warp and its joints crack. Getting that right in large numbers is hard enough that nearly every AI accelerator is packaged by TSMC, in Taiwan.
+:::
 
 ### In short ^in-short-11
 
 Advanced packaging capped AI chip output through 2024 and 2025: the physics was solved and the lines were not built. On Epoch AI's estimate Nvidia alone took 60.3 percent of the world's CoWoS in 2025, and four American designers took around 90 percent [9](https://epoch.ai/data-insights/ai-chip-supply-chain-constraints). By March 2026 the binding constraint had moved back to front-end wafers [10](https://newsletter.semianalysis.com/p/the-great-ai-silicon-shortage). The concentration is unchanged: China can package chips but not the 2.5D structures AI accelerators need, and the American alternatives do not start until 2028.
 
-{--{"author":"James's AI","timestamp":1790597114872}@@Concentration: **Extreme**--}{++{"author":"James's AI","timestamp":1790597114872}@@:::callout {title="Chokepoint card" tone="amber"}
-**Concentration:** Extreme++}
+:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** Extreme
 
-{--{"author":"James's AI","timestamp":1790597114872}@@Substitutability: **Moderate**.--}{++{"author":"James's AI","timestamp":1790597114872}@@**Substitutability:** Moderate.++} Intel's EMIB can do the same job as TSMC's CoWoS, and the real shortage is in making enough working packages at the volume Nvidia orders.
+**Substitutability:** Moderate. Intel's EMIB can do the same job as TSMC's CoWoS, and the real shortage is in making enough working packages at the volume Nvidia orders.
 
-{--{"author":"James's AI","timestamp":1790597114872}@@Price--}{++{"author":"James's AI","timestamp":1790597114872}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597114872}@@size: **No--}{++{"author":"James's AI","timestamp":1790597114872}@@size:** No++} public wafer {--{"author":"James's AI","timestamp":1790597114872}@@counts**.--}{++{"author":"James's AI","timestamp":1790597114872}@@counts.++} TSMC told investors CoWoS capacity would grow about 60% a year, and keeps adding to that, but will not publish the total. Epoch AI estimates Nvidia alone used 60.3% of the world's CoWoS capacity in 2025
+**Price or market size:** No public wafer counts. TSMC told investors CoWoS capacity would grow about 60% a year, and keeps adding to that, but will not publish the total. Epoch AI estimates Nvidia alone used 60.3% of the world's CoWoS capacity in 2025
 
 **Who leads**
 
--{--{"author":"James's AI","timestamp":1790597114872}@@   TWTSMC--}{++{"author":"James's AI","timestamp":1790597114872}@@ **TSMC** (TW):++} Almost all CoWoS for leading AI accelerators
--{--{"author":"James's AI","timestamp":1790597114872}@@   TWASE Technology--}{++{"author":"James's AI","timestamp":1790597114872}@@ **ASE Technology** (TW):++} NT$645.4B revenue, 2025; the largest outsourced assembly and test firm
--{--{"author":"James's AI","timestamp":1790597114872}@@   USAmkor--}{++{"author":"James's AI","timestamp":1790597114872}@@ **Amkor** (US):++} $6.71B net sales, 2025; the largest American assembly and test firm
--{--{"author":"James's AI","timestamp":1790597114872}@@   CNJCET--}{++{"author":"James's AI","timestamp":1790597114872}@@ **JCET** (CN):++} RMB 35.96B revenue, 2024; the largest Chinese assembly and test firm
--{--{"author":"James's AI","timestamp":1790597114872}@@   SGASMPT--}{++{"author":"James's AI","timestamp":1790597114872}@@ **ASMPT** (SG):++} $532.1M advanced packaging revenue, 2025; thermocompression bonders
+- **TSMC** (TW): Almost all CoWoS for leading AI accelerators
+- **ASE Technology** (TW): NT$645.4B revenue, 2025; the largest outsourced assembly and test firm
+- **Amkor** (US): $6.71B net sales, 2025; the largest American assembly and test firm
+- **JCET** (CN): RMB 35.96B revenue, 2024; the largest Chinese assembly and test firm
+- **ASMPT** (SG): $532.1M advanced packaging revenue, 2025; thermocompression bonders
 
 **Where it is made**
 
--{--{"author":"James's AI","timestamp":1790597114872}@@   TWTaiwan--}{++{"author":"James's AI","timestamp":1790597114872}@@ **Taiwan**:++} TSMC AP fabs and the OSAT cluster; almost all 2.5D capacity for AI accelerators
--{--{"author":"James's AI","timestamp":1790597114872}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597114872}@@ **United States**:++} Amkor Peoria, Arizona from 2028; two TSMC advanced packaging plants planned in Arizona
--{--{"author":"James's AI","timestamp":1790597114872}@@   CNChina--}{++{"author":"James's AI","timestamp":1790597114872}@@ **China**:++} JCET, Tongfu and HT-Tech, strong in conventional assembly and test, weak in 2.5D
--{--{"author":"James's AI","timestamp":1790597114872}@@   NLNetherlands--}{++{"author":"James's AI","timestamp":1790597114872}@@ **Netherlands**:++} Besi hybrid and die bonders
--{--{"author":"James's AI","timestamp":1790597114872}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597114872}@@ **Japan**:++} Disco grinders and dicers; TEL and Shibaura bonding tools
+- **Taiwan**: TSMC AP fabs and the OSAT cluster; almost all 2.5D capacity for AI accelerators
+- **United States**: Amkor Peoria, Arizona from 2028; two TSMC advanced packaging plants planned in Arizona
+- **China**: JCET, Tongfu and HT-Tech, strong in conventional assembly and test, weak in 2.5D
+- **Netherlands**: Besi hybrid and die bonders
+- **Japan**: Disco grinders and dicers; TEL and Shibaura bonding tools
 
-{--{"author":"James's AI","timestamp":1790597114872}@@Why--}{++{"author":"James's AI","timestamp":1790597114872}@@**Why++} substitution is {--{"author":"James's AI","timestamp":1790597114872}@@possible--}{++{"author":"James's AI","timestamp":1790597114872}@@possible**++}
+**Why substitution is possible**
 
 None of the packaging steps is unusual, and Intel's EMIB does the same job when TSMC's CoWoS is sold out. The hard part is volume. A newcomer has to buy enough bonding machines and run enough practice lots to make the interposer, the silicon base plate under the chips, at 5.5 times the area a scanner prints in one shot. It then has to attach the memory stacks, have them work, and do all of that at the volume Nvidia alone orders. Amkor's plant in Peoria, Arizona shows the timing: production starts in early 2028, so the wait is two to five years.
 
@@ -2594,8 +2201,8 @@ China is far stronger at packaging and testing chips than at making them. JCET a
 
 **Where the US stands**
 
-No firm yet does CoWoS-class packaging in volume in the United States. Amkor is building a $7B packaging and test plant in Peoria, Arizona, with up to $407M of CHIPS Act money, and production starts in early 2028.{++{"author":"James's AI","timestamp":1790597114872}@@
-:::++}
+No firm yet does CoWoS-class packaging in volume in the United States. Amkor is building a $7B packaging and test plant in Peoria, Arizona, with up to $407M of CHIPS Act money, and production starts in early 2028.
+:::
 
 A lithography scanner prints a rectangle 26 mm by 33 mm, or 858 mm2, in one exposure [1](https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe3400c). Every AI accelerator worth buying is bigger than that. Packaging is the stage that lets an accelerator be larger than that rectangle, and it decides how much larger.
 
@@ -2603,11 +2210,9 @@ A lithography scanner prints a rectangle 26 mm by 33 mm, or 858 mm2, in one expo
 
 High bandwidth memory gives a second reason to split the package: its 1,024-bit or 2,048-bit connection, that many wires at once, is too wide for a resin base board to carry, so the memory sits beside the logic on a shared silicon carrier, the interposer.
 
-{--{"author":"James's AI","timestamp":1790594486350}@@![](https://chipsupplychain.org/media/package-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594486350}@@![The parts of an AI accelerator](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-package.jpg)++}{--{"author":"James's AI","timestamp":1790597114872}@@
+![The parts of an AI accelerator](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-package.jpg)
 
-**Figure: The --}{++{"author":"James's AI","timestamp":1790597114872}@@
-
-*The ++}parts of an AI {--{"author":"James's AI","timestamp":1790597114872}@@accelerator.** An animation on the live site ([watch it--}{++{"author":"James's AI","timestamp":1790597114872}@@accelerator. The last frame of an animation++} on{--{"author":"James's AI","timestamp":1790597114872}@@ chipsupplychain.org](https://chipsupplychain.org/#advanced-packaging)); above is its last frame.--}{++{"author":"James's AI","timestamp":1790597114872}@@ the original site.++} Its {--{"author":"James's AI","timestamp":1790597114872}@@steps:--}{++{"author":"James's AI","timestamp":1790597114872}@@steps:*++}
+*The parts of an AI accelerator. The last frame of an animation on the original site. Its steps:*
 
 1. **Package base.** An AI chip is built from several parts. First comes the package base, a layered board that connects everything to the circuit board below.
 2. **Silicon base.** On it sits a thin slab of silicon, called an interposer. Its fine wiring joins everything placed on top.
@@ -2615,9 +2220,7 @@ High bandwidth memory gives a second reason to split the package: its 1,024-bit 
 4. **Memory.** Eight stacks of memory go beside them, a few millimeters away. They hold the AI model’s weights and the record of each conversation so far.
 5. **One package.** Together they make one AI accelerator. Nearly every one is put together by TSMC, in Taiwan.
 
-{--{"author":"James's AI","timestamp":1790597114872}@@_Simplified--}{++{"author":"James's AI","timestamp":1790597114872}@@*Simplified++} view of a two-die, eight-stack accelerator. Footprints follow the sizes in this chapter and chapter 10; heights are exaggerated so each layer {--{"author":"James's AI","timestamp":1790597114872}@@shows._
-
-The parts of an AI accelerator--}{++{"author":"James's AI","timestamp":1790597114872}@@shows.*++}
+*Simplified view of a two-die, eight-stack accelerator. Footprints follow the sizes in this chapter and chapter 10; heights are exaggerated so each layer shows.*
 
 The name CoWoS says the order: chip onto wafer, then wafer onto substrate. TSMC makes a thin silicon wafer carrying wiring and vertical copper vias, metal-filled holes that join one layer of wiring to the next, but no transistors. It bonds the logic dies and memory stacks face down onto that wafer with microbumps, dots of solder 30 to 40 microns apart, about a third of a hair's width, each dot one electrical joint. Then it cuts the interposer out of the wafer, attaches it to the resin substrate, and the substrate goes onto its board.
 
@@ -2626,7 +2229,7 @@ Each of those packaging steps is ordinary on its own. But one cracked joint scra
 ### Variants and trade-offs ^variants-and-trade-offs-11
 
 | Family | Carrier | Size limit | Used for |
-{--{"author":"James's AI","timestamp":1790597114872}@@| --- | --- | --- | --- |--}{++{"author":"James's AI","timestamp":1790597114872}@@|---|---|---|---|++}
+|---|---|---|---|
 | CoWoS-S | Full silicon interposer | 3.3x reticle, about 2,700 mm2 | H100-class parts |
 | CoWoS-R | Resin interposer with fine redistribution wiring | Above 3.3x reticle | Cost-sensitive, fewer HBM stacks |
 | CoWoS-L | Redistribution wiring with local silicon bridges | 5.5x reticle in production, 9.5x in development | Blackwell, Rubin |
@@ -2653,17 +2256,15 @@ In October 2025 Wei would still say only that TSMC would add capacity again in 2
 
 Epoch AI weighs each designer's component use against world supply and puts Nvidia at 60.3 percent of all CoWoS in 2025, with a 90 percent confidence interval of 56.5 to 64.3; Google took 13.5, AMD 8.4 and Amazon 7.4 [9](https://epoch.ai/data-insights/ai-chip-supply-chain-constraints). Those four absorbed around 90 percent of all CoWoS and all HBM by value while taking about 12 percent of the world's advanced logic wafers, which is why packaging ran out and logic did not.
 
-**Chart:** Who consumed the world's CoWoS capacity, 2025{--{"author":"James's AI","timestamp":1790597114872}@@ (%)
-
---}{++{"author":"James's AI","timestamp":1790597114872}@@
+**Chart:** Who consumed the world's CoWoS capacity, 2025
 
 | | % |
 |---|---:|
-| ++}Nvidia {--{"author":"James's AI","timestamp":1790597114872}@@**60.3%**--}{++{"author":"James's AI","timestamp":1790597114872}@@| 60.3 |
-|++} Google {--{"author":"James's AI","timestamp":1790597114872}@@**13.5%** --}{++{"author":"James's AI","timestamp":1790597114872}@@| 13.5 |
-| ++}AMD {--{"author":"James's AI","timestamp":1790597114872}@@**8.4%**--}{++{"author":"James's AI","timestamp":1790597114872}@@| 8.4 |
-|++} Amazon {--{"author":"James's AI","timestamp":1790597114872}@@**7.4%** --}{++{"author":"James's AI","timestamp":1790597114872}@@| 7.4 |
-| ++}Everyone else {--{"author":"James's AI","timestamp":1790597114872}@@**10.4%**--}{++{"author":"James's AI","timestamp":1790597114872}@@| 10.4 |++}
+| Nvidia | 60.3 |
+| Google | 13.5 |
+| AMD | 8.4 |
+| Amazon | 7.4 |
+| Everyone else | 10.4 |
 
 Source: [Epoch AI, advanced packaging and HBM were the bottlenecks on AI chip production in 2025](https://epoch.ai/data-insights/ai-chip-supply-chain-constraints)
 
@@ -2671,16 +2272,14 @@ SemiAnalysis reported in March 2026 that front-end wafers are now the dominant b
 
 ### Who makes it ^who-makes-it-11
 
-{++{"author":"James's AI","timestamp":1790594125562}@@**Chart:** ++}CoWoS interposer size on TSMC's {--{"author":"James's AI","timestamp":1790597114872}@@roadmapreticles
-
---}{++{"author":"James's AI","timestamp":1790597114872}@@roadmap
+**Chart:** CoWoS interposer size on TSMC's roadmap
 
 | | reticles |
 |---|---:|
-| ++}2024, CoWoS-L {++{"author":"James's AI","timestamp":1790597114872}@@| ++}3.5 {++{"author":"James's AI","timestamp":1790597114872}@@|
-| ++}2026, in production {++{"author":"James's AI","timestamp":1790597114872}@@| ++}5.5 {++{"author":"James's AI","timestamp":1790597114872}@@|
-| ++}In development {++{"author":"James's AI","timestamp":1790597114872}@@| ++}9.5 {++{"author":"James's AI","timestamp":1790597114872}@@|
-| ++}2028 {++{"author":"James's AI","timestamp":1790597114872}@@| ++}14{++{"author":"James's AI","timestamp":1790597114872}@@ |++}
+| 2024, CoWoS-L | 3.5 |
+| 2026, in production | 5.5 |
+| In development | 9.5 |
+| 2028 | 14 |
 
 Source: [TSMC 2025 annual report and 2026 technology symposium](https://pr.tsmc.com/english/news/3302)
 
@@ -2688,23 +2287,23 @@ The word packaging covers two industries. TSMC does the 2.5D work, chips side by
 
 The tools are a narrower chokepoint than the assembly houses.
 
--{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**Thermocompression bonding.** Pressing dies together under heat and force. ASMPT's advanced packaging revenue reached $532.1 million in 2025, with the bonder line up about 146 percent; it targets 35 to 40 percent of a market it puts at $1.6 billion by 2028 [13](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/).
--{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**Hybrid bonding.** Solder disappears and copper pads meet directly. Applied Materials built its Kinex bonder with Besi, which makes the placement head [14](https://www.appliedmaterials.com/eu/en/product-library/kinex-integrated-die-to-wafer-hybrid-bonding-system.html).
--{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**Grinding and dicing.** Disco dominates the steps that thin wafers and cut packages apart; see [[#^test-and-assembly|Test and assembly]] [15](https://newsletter.semianalysis.com/p/disco-corporation-the-world-leader).
+- **Thermocompression bonding.** Pressing dies together under heat and force. ASMPT's advanced packaging revenue reached $532.1 million in 2025, with the bonder line up about 146 percent; it targets 35 to 40 percent of a market it puts at $1.6 billion by 2028 [13](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/).
+- **Hybrid bonding.** Solder disappears and copper pads meet directly. Applied Materials built its Kinex bonder with Besi, which makes the placement head [14](https://www.appliedmaterials.com/eu/en/product-library/kinex-integrated-die-to-wafer-hybrid-bonding-system.html).
+- **Grinding and dicing.** Disco dominates the steps that thin wafers and cut packages apart; see [[#^test-and-assembly|Test and assembly]] [15](https://newsletter.semianalysis.com/p/disco-corporation-the-world-leader).
 
 TSMC's Arizona commitment reached $265 billion in July 2026 and covers two advanced packaging plants alongside 10 fabs [16](https://www.azcommerce.com/news-events/news/2026/7/tsmc-announcement/). Amkor started building a $7 billion campus in Peoria in October 2025, backed by up to $407 million of CHIPS money, producing from early 2028 [17](https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced), and Wei confirms it will open before TSMC's own two do [8](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-10/6860312f04fd291d0f26b46c1234f84e6332717e/TSMC%203Q25%20Transcript.pdf).
 
 ### The chokepoint ^the-chokepoint-11
 
-**Chart:** China-based suppliers' share of back-end tool segments, 2024{--{"author":"James's AI","timestamp":1790597114872}@@ (%)--}
+**Chart:** China-based suppliers' share of back-end tool segments, 2024
 
-{++{"author":"James's AI","timestamp":1790597114872}@@| | % |
+| | % |
 |---|---:|
-| ++}Test, linear and discrete {--{"author":"James's AI","timestamp":1790597114872}@@69% --}{++{"author":"James's AI","timestamp":1790597114872}@@| 69 |
-| ++}Burn-in test {--{"author":"James's AI","timestamp":1790597114872}@@9%--}{++{"author":"James's AI","timestamp":1790597114872}@@| 9 |
-|++} Advanced packaging tools {--{"author":"James's AI","timestamp":1790597114872}@@7%--}{++{"author":"James's AI","timestamp":1790597114872}@@| 7 |
-|++} SoC test {--{"author":"James's AI","timestamp":1790597114872}@@5%--}{++{"author":"James's AI","timestamp":1790597114872}@@| 5 |
-|++} Atomic layer deposition {--{"author":"James's AI","timestamp":1790597114872}@@1%--}{++{"author":"James's AI","timestamp":1790597114872}@@| 1 |++}
+| Test, linear and discrete | 69 |
+| Burn-in test | 9 |
+| Advanced packaging tools | 7 |
+| SoC test | 5 |
+| Atomic layer deposition | 1 |
 
 Source: [CSET, Inside Beijing’s Chipmaking Offensive (ALD shown for contrast, under 1%)](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/)
 
@@ -2712,144 +2311,112 @@ JCET, the largest Chinese assembler, billed RMB 35.96 billion in 2024, up 21 per
 
 Each generation on TSMC's roadmap needs a larger interposer.
 
--{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**2028.** A 14-reticle interposer carrying about ten large compute dies and 20 HBM stacks, roughly 12,000 mm2 of silicon, about the area of a compact disc [5](https://pr.tsmc.com/english/news/3302).
--{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**2029.** More than 14 reticles, and a 40-reticle System-on-Wafer beside it [5](https://pr.tsmc.com/english/news/3302).
+- **2028.** A 14-reticle interposer carrying about ten large compute dies and 20 HBM stacks, roughly 12,000 mm2 of silicon, about the area of a compact disc [5](https://pr.tsmc.com/english/news/3302).
+- **2029.** More than 14 reticles, and a 40-reticle System-on-Wafer beside it [5](https://pr.tsmc.com/english/news/3302).
 
 ### Key evaluation criteria ^key-evaluation-criteria-11
 
--{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**Interposer area** is the limit on how much logic and memory fit, now 5.5x reticle on CoWoS-L [5](https://pr.tsmc.com/english/news/3302).
--{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**Package yield** decides whether a generation ships on time, and nobody publishes it.
--{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**Warpage control** covers the expansion mismatch between die, bridge, interposer and substrate that broke early CoWoS-L and gets harder as packages grow [3](https://semianalysis.com/2024/08/04/nvidias-blackwell-reworked-shipment/).
--{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**HBM stacks supported** is about 20 on the 14-reticle package due in 2028 [5](https://pr.tsmc.com/english/news/3302).
--{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**Bonder throughput** is slow by nature: thermocompression and hybrid bonding place one die at a time, and three or four firms hold the tools [13](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/).
--{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**Substrate size** limits everything above it. A 14-reticle interposer needs a resin substrate that will not warp under it, which pushes ABF build-up film to its limits; see [[#^substrates-and-pcbs|Substrates and PCBs]].
+- **Interposer area** is the limit on how much logic and memory fit, now 5.5x reticle on CoWoS-L [5](https://pr.tsmc.com/english/news/3302).
+- **Package yield** decides whether a generation ships on time, and nobody publishes it.
+- **Warpage control** covers the expansion mismatch between die, bridge, interposer and substrate that broke early CoWoS-L and gets harder as packages grow [3](https://semianalysis.com/2024/08/04/nvidias-blackwell-reworked-shipment/).
+- **HBM stacks supported** is about 20 on the 14-reticle package due in 2028 [5](https://pr.tsmc.com/english/news/3302).
+- **Bonder throughput** is slow by nature: thermocompression and hybrid bonding place one die at a time, and three or four firms hold the tools [13](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/).
+- **Substrate size** limits everything above it. A 14-reticle interposer needs a resin substrate that will not warp under it, which pushes ABF build-up film to its limits; see [[#^substrates-and-pcbs|Substrates and PCBs]].
 
-{--{"author":"James's AI","timestamp":1790597114872}@@Card 1 of 4Question--}{++{"author":"James's AI","timestamp":1790597114872}@@::::callout {title="Flashcards" tone="blue"}
-Recall each answer, then open the card.++}
+::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.
 
-{++{"author":"James's AI","timestamp":1790597114872}@@:::callout {title="Card 1 of 4: ++}Why is an AI accelerator built from several chips in one {--{"author":"James's AI","timestamp":1790597114872}@@package?
+:::callout {title="Card 1 of 4: Why is an AI accelerator built from several chips in one package?" tone="neutral" collapse="closed"}
+It needs more circuit than a lithography machine can print in one shot.
 
-Card 1 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597114872}@@package?" tone="neutral" collapse="closed"}
-++}It needs more circuit than a lithography machine can print in one shot.
-
-Packaging sets the pieces and their memory side by side on a shared slab of silicon and wires them together. [[#^how-it-works-11|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597114872}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597114872}@@Card--}{++{"author":"James's AI","timestamp":1790597114872}@@:::callout {title="Card++} 2 of{--{"author":"James's AI","timestamp":1790597114872}@@ 4Question
-
---}{++{"author":"James's AI","timestamp":1790597114872}@@ 4: ++}Who packages nearly every AI{--{"author":"James's AI","timestamp":1790597114872}@@ accelerator?
-
-Card 2 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597114872}@@ accelerator?" tone="neutral" collapse="closed"}
-++}TSMC, in Taiwan.
-
-Its process is called CoWoS. Nvidia alone took an estimated 60.3 percent of it in 2025. [[#^who-makes-it-11|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597114872}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597114872}@@Card--}{++{"author":"James's AI","timestamp":1790597114872}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597114872}@@4Question
-
---}{++{"author":"James's AI","timestamp":1790597114872}@@4: ++}Why did packaging limit AI chip output in 2024 and {--{"author":"James's AI","timestamp":1790597114872}@@2025?
-
-Card 3 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597114872}@@2025?" tone="neutral" collapse="closed"}
-++}Too few packaging lines had been built.
-
-The methods already worked. By March 2026 the limit had moved back to making wafers. [[#^the-chokepoint-11|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597114872}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597114872}@@Card--}{++{"author":"James's AI","timestamp":1790597114872}@@:::callout {title="Card++} 4 of {--{"author":"James's AI","timestamp":1790597114872}@@4Question
-
---}{++{"author":"James's AI","timestamp":1790597114872}@@4: ++}Can China or the United States package AI accelerators at{--{"author":"James's AI","timestamp":1790597114872}@@ volume?
-
-Card 4 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597114872}@@ volume?" tone="neutral" collapse="closed"}
-++}Not yet.
-
-China packages chips at scale, but almost none on the silicon slab AI chips need. The first American line, Amkor's in Arizona, starts in early 2028. [[#^the-chokepoint-11|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597114872}@@
+Packaging sets the pieces and their memory side by side on a shared slab of silicon and wires them together. [[#^how-it-works-11|Reread: How it works]]
 :::
 
-::::++}
+:::callout {title="Card 2 of 4: Who packages nearly every AI accelerator?" tone="neutral" collapse="closed"}
+TSMC, in Taiwan.
 
-{--{"author":"James's AI","timestamp":1790597114872}@@#### Four--}{++{"author":"James's AI","timestamp":1790597114872}@@:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597114872}@@remember ^four-things-to-remember-10
+Its process is called CoWoS. Nvidia alone took an estimated 60.3 percent of it in 2025. [[#^who-makes-it-11|Reread: Who makes it]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597114872}@@remember" tone="green"}
-++}-{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}An AI accelerator needs more circuit than one chip can hold, so packaging joins several chips and their memory.
--{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}TSMC packages nearly every AI accelerator, in Taiwan.
--{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}Packaging limited AI chip output in 2024 and 2025 because too few lines had been built.
--{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}Neither China nor the United States packages AI accelerators at volume yet.{++{"author":"James's AI","timestamp":1790597114872}@@
-:::++}
+:::callout {title="Card 3 of 4: Why did packaging limit AI chip output in 2024 and 2025?" tone="neutral" collapse="closed"}
+Too few packaging lines had been built.
 
-{--{"author":"James's AI","timestamp":1790597114872}@@**Sources (19)**
+The methods already worked. By March 2026 the limit had moved back to making wafers. [[#^the-chokepoint-11|Reread: The chokepoint]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597114872}@@:::callout {title="Sources (19)" tone="neutral" collapse="closed"}
-++}1.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [TWINSCAN {--{"author":"James's AI","timestamp":1790597114872}@@NXE:3400C](https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe3400c) ASML--}{++{"author":"James's AI","timestamp":1790597114872}@@NXE:3400C](https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe3400c). ASML. Tier A.++}
-2.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [TSMC, CoWoS technology {--{"author":"James's AI","timestamp":1790597114872}@@page](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm) TSMC--}{++{"author":"James's AI","timestamp":1790597114872}@@page](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm). TSMC. Tier A.++}
-3.{--{"author":"James's AI","timestamp":1790597114872}@@  B--} [Nvidia's Blackwell Reworked - Shipment Delays & GB200A Reworked {--{"author":"James's AI","timestamp":1790597114872}@@Platforms](https://semianalysis.com/2024/08/04/nvidias-blackwell-reworked-shipment/)--}{++{"author":"James's AI","timestamp":1790597114872}@@Platforms](https://semianalysis.com/2024/08/04/nvidias-blackwell-reworked-shipment/).++} SemiAnalysis · 4 August {--{"author":"James's AI","timestamp":1790597114872}@@2024--}{++{"author":"James's AI","timestamp":1790597114872}@@2024. Tier B.++}
-4.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [TSMC 2025 Annual Report, chapter {--{"author":"James's AI","timestamp":1790597114872}@@5](https://investor.tsmc.com/static/annualReports/2025/english/pdf/2025_tsmc_ar_e_ch5.pdf) TSMC--}{++{"author":"James's AI","timestamp":1790597114872}@@5](https://investor.tsmc.com/static/annualReports/2025/english/pdf/2025_tsmc_ar_e_ch5.pdf). TSMC. Tier A.++}
-5.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [TSMC Debuts A13 Technology at 2026 North America Technology {--{"author":"James's AI","timestamp":1790597114872}@@Symposium](https://pr.tsmc.com/english/news/3302)--}{++{"author":"James's AI","timestamp":1790597114872}@@Symposium](https://pr.tsmc.com/english/news/3302).++} TSMC · 23 April {--{"author":"James's AI","timestamp":1790597114872}@@2026--}{++{"author":"James's AI","timestamp":1790597114872}@@2026. Tier A.++}
-6.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [New JEDEC® SPHBM4 Standard Enables HBM4-Class Bandwidth on Organic {--{"author":"James's AI","timestamp":1790597114872}@@Substrates](https://www.jedec.org/news/pressreleases/new-jedec%C2%AE-sphbm4-standard-enables-hbm4-class-bandwidth-organic-substrates)--}{++{"author":"James's AI","timestamp":1790597114872}@@Substrates](https://www.jedec.org/news/pressreleases/new-jedec%C2%AE-sphbm4-standard-enables-hbm4-class-bandwidth-organic-substrates).++} JEDEC Solid State Technology Association · 13 July {--{"author":"James's AI","timestamp":1790597114872}@@2026--}{++{"author":"James's AI","timestamp":1790597114872}@@2026. Tier A.++}
-7.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [Q2 2024 Taiwan Semiconductor Manufacturing Co Ltd Earnings Call (Chinese, English) — edited {--{"author":"James's AI","timestamp":1790597114872}@@transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-08/5122725a56670882d777a8e8bfe0ed247cc55330/TSMC%202Q24%20Transcript.pdf)--}{++{"author":"James's AI","timestamp":1790597114872}@@transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-08/5122725a56670882d777a8e8bfe0ed247cc55330/TSMC%202Q24%20Transcript.pdf).++} Refinitiv StreetEvents (transcript of a TSMC earnings call), via TSMC · 18 July {--{"author":"James's AI","timestamp":1790597114872}@@2024--}{++{"author":"James's AI","timestamp":1790597114872}@@2024. Tier A.++}
-8.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [Q3 2025 Taiwan Semiconductor Manufacturing Co Ltd Earnings Call (Chinese, English) — edited {--{"author":"James's AI","timestamp":1790597114872}@@transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-10/6860312f04fd291d0f26b46c1234f84e6332717e/TSMC%203Q25%20Transcript.pdf)--}{++{"author":"James's AI","timestamp":1790597114872}@@transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-10/6860312f04fd291d0f26b46c1234f84e6332717e/TSMC%203Q25%20Transcript.pdf).++} Refinitiv StreetEvents (transcript of a TSMC earnings call), via TSMC · 16 October {--{"author":"James's AI","timestamp":1790597114872}@@2025--}{++{"author":"James's AI","timestamp":1790597114872}@@2025. Tier A.++}
-9.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [Advanced packaging and HBM, not logic dies, were the bottlenecks on AI chip production in {--{"author":"James's AI","timestamp":1790597114872}@@2025](https://epoch.ai/data-insights/ai-chip-supply-chain-constraints)--}{++{"author":"James's AI","timestamp":1790597114872}@@2025](https://epoch.ai/data-insights/ai-chip-supply-chain-constraints).++} Epoch AI · 12 March {--{"author":"James's AI","timestamp":1790597114872}@@2026--}{++{"author":"James's AI","timestamp":1790597114872}@@2026. Tier A.++}
-10.{--{"author":"James's AI","timestamp":1790597114872}@@  B--} [The Great AI Silicon {--{"author":"James's AI","timestamp":1790597114872}@@Shortage](https://newsletter.semianalysis.com/p/the-great-ai-silicon-shortage)--}{++{"author":"James's AI","timestamp":1790597114872}@@Shortage](https://newsletter.semianalysis.com/p/the-great-ai-silicon-shortage).++} SemiAnalysis · 12 March {--{"author":"James's AI","timestamp":1790597114872}@@2026--}{++{"author":"James's AI","timestamp":1790597114872}@@2026. Tier B.++}
-11.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [ASE Technology Holding Co., Ltd. Reports Its Unaudited Consolidated Financial Results for the Fourth Quarter and the Full Year of {--{"author":"James's AI","timestamp":1790597114872}@@2025](https://www.prnewswire.com/news-releases/ase-technology-holding-co-ltd-reports-its-unaudited-consolidated-financial-results-for-the-fourth-quarter-and-the-full-year-of-2025-302679779.html)--}{++{"author":"James's AI","timestamp":1790597114872}@@2025](https://www.prnewswire.com/news-releases/ase-technology-holding-co-ltd-reports-its-unaudited-consolidated-financial-results-for-the-fourth-quarter-and-the-full-year-of-2025-302679779.html).++} PR Newswire · 5 February {--{"author":"James's AI","timestamp":1790597114872}@@2026--}{++{"author":"James's AI","timestamp":1790597114872}@@2026. Tier A.++}
-12.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [AMKOR TECHNOLOGY, INC., Form 8-K current report for the period ended 2026-02-09 {--{"author":"James's AI","timestamp":1790597114872}@@(8-K)](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000007/amkr123125erex-991.htm)--}{++{"author":"James's AI","timestamp":1790597114872}@@(8-K)](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000007/amkr123125erex-991.htm).++} U.S. Securities and Exchange Commission (filing by AMKOR TECHNOLOGY, INC.) · 9 February {--{"author":"James's AI","timestamp":1790597114872}@@2026--}{++{"author":"James's AI","timestamp":1790597114872}@@2026. Tier A.++}
-13.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [ASMPT Announces 2025 Annual Results AI-Driven Structural Growth Underpins Group {--{"author":"James's AI","timestamp":1790597114872}@@Performance](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/)--}{++{"author":"James's AI","timestamp":1790597114872}@@Performance](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/).++} ASMPT · 4 March {--{"author":"James's AI","timestamp":1790597114872}@@2026--}{++{"author":"James's AI","timestamp":1790597114872}@@2026. Tier A.++}
-14.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [Applied Materials, Kinex integrated die-to-wafer hybrid bonding system product {--{"author":"James's AI","timestamp":1790597114872}@@page](https://www.appliedmaterials.com/eu/en/product-library/kinex-integrated-die-to-wafer-hybrid-bonding-system.html)--}{++{"author":"James's AI","timestamp":1790597114872}@@page](https://www.appliedmaterials.com/eu/en/product-library/kinex-integrated-die-to-wafer-hybrid-bonding-system.html).++} Applied {--{"author":"James's AI","timestamp":1790597114872}@@Materials--}{++{"author":"James's AI","timestamp":1790597114872}@@Materials. Tier A.++}
-15.{--{"author":"James's AI","timestamp":1790597114872}@@  B--} [DISCO Corporation, The World Leader In Semiconductor Capital Equipment For Cutting, Grinding, {--{"author":"James's AI","timestamp":1790597114872}@@Polishing](https://newsletter.semianalysis.com/p/disco-corporation-the-world-leader)--}{++{"author":"James's AI","timestamp":1790597114872}@@Polishing](https://newsletter.semianalysis.com/p/disco-corporation-the-world-leader).++} SemiAnalysis · 19 July {--{"author":"James's AI","timestamp":1790597114872}@@2022--}{++{"author":"James's AI","timestamp":1790597114872}@@2022. Tier B.++}
-16.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [TSMC Announces Additional $100 Billion Investment in {--{"author":"James's AI","timestamp":1790597114872}@@Arizona](https://www.azcommerce.com/news-events/news/2026/7/tsmc-announcement/)--}{++{"author":"James's AI","timestamp":1790597114872}@@Arizona](https://www.azcommerce.com/news-events/news/2026/7/tsmc-announcement/).++} Arizona Commerce Authority · 16 July {--{"author":"James's AI","timestamp":1790597114872}@@2026--}{++{"author":"James's AI","timestamp":1790597114872}@@2026. Tier A.++}
-17.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [Amkor Technology Breaks Ground on New Semiconductor Advanced Packaging and Test Campus in Arizona; Expands Investment to $7 {--{"author":"James's AI","timestamp":1790597114872}@@Billion](https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced)--}{++{"author":"James's AI","timestamp":1790597114872}@@Billion](https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced).++} Amkor {--{"author":"James's AI","timestamp":1790597114872}@@Technology--}{++{"author":"James's AI","timestamp":1790597114872}@@Technology. Tier A.++}
-18.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [Inside Beijing’s Chipmaking {--{"author":"James's AI","timestamp":1790597114872}@@Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/)--}{++{"author":"James's AI","timestamp":1790597114872}@@Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/).++} Center for Security and Emerging Technology (CSET) · 14 July {--{"author":"James's AI","timestamp":1790597114872}@@2025--}{++{"author":"James's AI","timestamp":1790597114872}@@2025. Tier A.++}
-19.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [JCET Releases 2024 Annual Report, Achieves Record-High {--{"author":"James's AI","timestamp":1790597114872}@@Revenue](https://www.jcetglobal.com/en/site/news-detail?id=1952)--}{++{"author":"James's AI","timestamp":1790597114872}@@Revenue](https://www.jcetglobal.com/en/site/news-detail?id=1952).++} JCET Group · 20 April {--{"author":"James's AI","timestamp":1790597114872}@@2025--}{++{"author":"James's AI","timestamp":1790597114872}@@2025. Tier A.
-:::++}
+:::callout {title="Card 4 of 4: Can China or the United States package AI accelerators at volume?" tone="neutral" collapse="closed"}
+Not yet.
+
+China packages chips at scale, but almost none on the silicon slab AI chips need. The first American line, Amkor's in Arizona, starts in early 2028. [[#^the-chokepoint-11|Reread: The chokepoint]]
+:::
+
+::::
+
+:::callout {title="Four things to remember" tone="green"}
+- An AI accelerator needs more circuit than one chip can hold, so packaging joins several chips and their memory.
+- TSMC packages nearly every AI accelerator, in Taiwan.
+- Packaging limited AI chip output in 2024 and 2025 because too few lines had been built.
+- Neither China nor the United States packages AI accelerators at volume yet.
+:::
+
+:::callout {title="Sources (19)" tone="neutral" collapse="closed"}
+1. [TWINSCAN NXE:3400C](https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe3400c). ASML. Tier A.
+2. [TSMC, CoWoS technology page](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm). TSMC. Tier A.
+3. [Nvidia's Blackwell Reworked - Shipment Delays & GB200A Reworked Platforms](https://semianalysis.com/2024/08/04/nvidias-blackwell-reworked-shipment/). SemiAnalysis · 4 August 2024. Tier B.
+4. [TSMC 2025 Annual Report, chapter 5](https://investor.tsmc.com/static/annualReports/2025/english/pdf/2025_tsmc_ar_e_ch5.pdf). TSMC. Tier A.
+5. [TSMC Debuts A13 Technology at 2026 North America Technology Symposium](https://pr.tsmc.com/english/news/3302). TSMC · 23 April 2026. Tier A.
+6. [New JEDEC® SPHBM4 Standard Enables HBM4-Class Bandwidth on Organic Substrates](https://www.jedec.org/news/pressreleases/new-jedec%C2%AE-sphbm4-standard-enables-hbm4-class-bandwidth-organic-substrates). JEDEC Solid State Technology Association · 13 July 2026. Tier A.
+7. [Q2 2024 Taiwan Semiconductor Manufacturing Co Ltd Earnings Call (Chinese, English) — edited transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-08/5122725a56670882d777a8e8bfe0ed247cc55330/TSMC%202Q24%20Transcript.pdf). Refinitiv StreetEvents (transcript of a TSMC earnings call), via TSMC · 18 July 2024. Tier A.
+8. [Q3 2025 Taiwan Semiconductor Manufacturing Co Ltd Earnings Call (Chinese, English) — edited transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-10/6860312f04fd291d0f26b46c1234f84e6332717e/TSMC%203Q25%20Transcript.pdf). Refinitiv StreetEvents (transcript of a TSMC earnings call), via TSMC · 16 October 2025. Tier A.
+9. [Advanced packaging and HBM, not logic dies, were the bottlenecks on AI chip production in 2025](https://epoch.ai/data-insights/ai-chip-supply-chain-constraints). Epoch AI · 12 March 2026. Tier A.
+10. [The Great AI Silicon Shortage](https://newsletter.semianalysis.com/p/the-great-ai-silicon-shortage). SemiAnalysis · 12 March 2026. Tier B.
+11. [ASE Technology Holding Co., Ltd. Reports Its Unaudited Consolidated Financial Results for the Fourth Quarter and the Full Year of 2025](https://www.prnewswire.com/news-releases/ase-technology-holding-co-ltd-reports-its-unaudited-consolidated-financial-results-for-the-fourth-quarter-and-the-full-year-of-2025-302679779.html). PR Newswire · 5 February 2026. Tier A.
+12. [AMKOR TECHNOLOGY, INC., Form 8-K current report for the period ended 2026-02-09 (8-K)](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000007/amkr123125erex-991.htm). U.S. Securities and Exchange Commission (filing by AMKOR TECHNOLOGY, INC.) · 9 February 2026. Tier A.
+13. [ASMPT Announces 2025 Annual Results AI-Driven Structural Growth Underpins Group Performance](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/). ASMPT · 4 March 2026. Tier A.
+14. [Applied Materials, Kinex integrated die-to-wafer hybrid bonding system product page](https://www.appliedmaterials.com/eu/en/product-library/kinex-integrated-die-to-wafer-hybrid-bonding-system.html). Applied Materials. Tier A.
+15. [DISCO Corporation, The World Leader In Semiconductor Capital Equipment For Cutting, Grinding, Polishing](https://newsletter.semianalysis.com/p/disco-corporation-the-world-leader). SemiAnalysis · 19 July 2022. Tier B.
+16. [TSMC Announces Additional $100 Billion Investment in Arizona](https://www.azcommerce.com/news-events/news/2026/7/tsmc-announcement/). Arizona Commerce Authority · 16 July 2026. Tier A.
+17. [Amkor Technology Breaks Ground on New Semiconductor Advanced Packaging and Test Campus in Arizona; Expands Investment to $7 Billion](https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced). Amkor Technology. Tier A.
+18. [Inside Beijing’s Chipmaking Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/). Center for Security and Emerging Technology (CSET) · 14 July 2025. Tier A.
+19. [JCET Releases 2024 Annual Report, Achieves Record-High Revenue](https://www.jcetglobal.com/en/site/news-detail?id=1952). JCET Group · 20 April 2025. Tier A.
+:::
 
 ## Substrates and PCBs ^substrates-and-pcbs
 
 A Japanese food company makes 95 percent of the insulating film inside high-end chip packages, and a Japanese textile company weaves the glass cloth beneath it.
 
-{--{"author":"James's AI","timestamp":1790597125181}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
-
-1,356--}{++{"author":"James's AI","timestamp":1790597125181}@@*1,356++} words / 6 {--{"author":"James's AI","timestamp":1790597125181}@@minSpecimen: substrate layers
-
-**In plain terms**
-
---}{++{"author":"James's AI","timestamp":1790597125181}@@min*
+*1,356 words / 6 min*
 
 :::callout {title="In plain terms" tone="neutral"}
-++}A package substrate is the adapter between a chip and the circuit board under it. The chip's connections come out finer than a human hair; the board is wired in millimeters. The substrate is built up like plywood. A stiff core of glass cloth and resin sits in the middle. Thin sheets of epoxy film are pressed onto both faces, a laser burns holes through each sheet, and copper is plated into the holes to carry signals from one layer to the next. Every added layer is another set of holes that can fail. A handful of firms build these substrates, and the film and the glass cloth each come from a single Japanese supplier, so a shortage here stops accelerators shipping.{++{"author":"James's AI","timestamp":1790597125181}@@
-:::++}
+A package substrate is the adapter between a chip and the circuit board under it. The chip's connections come out finer than a human hair; the board is wired in millimeters. The substrate is built up like plywood. A stiff core of glass cloth and resin sits in the middle. Thin sheets of epoxy film are pressed onto both faces, a laser burns holes through each sheet, and copper is plated into the holes to carry signals from one layer to the next. Every added layer is another set of holes that can fail. A handful of firms build these substrates, and the film and the glass cloth each come from a single Japanese supplier, so a shortage here stops accelerators shipping.
+:::
 
 ### In short ^in-short-12
 
 TSMC says packaging capacity already caps what its customers can ship. The two materials that make a substrate possible come from single Japanese suppliers: Ajinomoto puts its film at 95 percent of that market, and Nitto Boseki claims an overwhelming advantage in the glass cloth beneath it. Substrate plants in Japan, Taiwan and Korea are spending billions, but film and glass cloth add capacity more slowly than GPU output grows. Glass cores fix the physics eventually; on Intel's and Samsung's own dates, they do not fix 2027.
 
-{--{"author":"James's AI","timestamp":1790597125181}@@Concentration: **Extreme**--}{++{"author":"James's AI","timestamp":1790597125181}@@:::callout {title="Chokepoint card" tone="amber"}
-**Concentration:** Extreme++}
+:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** Extreme
 
-{--{"author":"James's AI","timestamp":1790597125181}@@Substitutability: **Hard**.--}{++{"author":"James's AI","timestamp":1790597125181}@@**Substitutability:** Hard.++} Rated on the insulating film inside the substrate: Ajinomoto supplies about 95 percent of it by its own count, and every substrate maker would have to re-approve a replacement layer by layer.
+**Substitutability:** Hard. Rated on the insulating film inside the substrate: Ajinomoto supplies about 95 percent of it by its own count, and every substrate maker would have to re-approve a replacement layer by layer.
 
-{--{"author":"James's AI","timestamp":1790597125181}@@Price--}{++{"author":"James's AI","timestamp":1790597125181}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597125181}@@size: **Ibiden--}{++{"author":"James's AI","timestamp":1790597125181}@@size:** Ibiden++} alone is spending about JPY 500 billion on high-performance substrate capacity from fiscal 2026 to 2028, JPY 220 billion of it in the first {--{"author":"James's AI","timestamp":1790597125181}@@phase**--}{++{"author":"James's AI","timestamp":1790597125181}@@phase++}
+**Price or market size:** Ibiden alone is spending about JPY 500 billion on high-performance substrate capacity from fiscal 2026 to 2028, JPY 220 billion of it in the first phase
 
 **Who leads**
 
--{--{"author":"James's AI","timestamp":1790597125181}@@   JPAjinomoto--}{++{"author":"James's AI","timestamp":1790597125181}@@ **Ajinomoto** (JP):++} 95% of the world market for insulating film in high-end processor packages, on its own account
--{--{"author":"James's AI","timestamp":1790597125181}@@   JPNitto Boseki--}{++{"author":"James's AI","timestamp":1790597125181}@@ **Nitto Boseki** (JP):++} Claims an overwhelming lead in low-expansion glass cloth
--{--{"author":"James's AI","timestamp":1790597125181}@@   JPIbiden--}{++{"author":"James's AI","timestamp":1790597125181}@@ **Ibiden** (JP):++} Says it wins close to 100% of each new generation of interposer substrates at launch
--{--{"author":"James's AI","timestamp":1790597125181}@@   TWUnimicron--}{++{"author":"James's AI","timestamp":1790597125181}@@ **Unimicron** (TW):++} Build-up substrates were 52% of sales in Q2 2026
--{--{"author":"James's AI","timestamp":1790597125181}@@   KRSamsung Electro-Mechanics--}{++{"author":"James's AI","timestamp":1790597125181}@@ **Samsung Electro-Mechanics** (KR):++} Package solution sales KRW 771.6bn in Q2 2026, up 37%
+- **Ajinomoto** (JP): 95% of the world market for insulating film in high-end processor packages, on its own account
+- **Nitto Boseki** (JP): Claims an overwhelming lead in low-expansion glass cloth
+- **Ibiden** (JP): Says it wins close to 100% of each new generation of interposer substrates at launch
+- **Unimicron** (TW): Build-up substrates were 52% of sales in Q2 2026
+- **Samsung Electro-Mechanics** (KR): Package solution sales KRW 771.6bn in Q2 2026, up 37%
 
 **Where it is made**
 
--{--{"author":"James's AI","timestamp":1790597125181}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597125181}@@ **Japan**:++} Build-up film, low-expansion glass cloth, and Ibiden and Shinko substrate plants in Gifu and Nagano
--{--{"author":"James's AI","timestamp":1790597125181}@@   TWTaiwan--}{++{"author":"James's AI","timestamp":1790597125181}@@ **Taiwan**:++} Unimicron, Nan Ya PCB, Kinsus; the largest cluster of substrate makers selling to all comers
--{--{"author":"James's AI","timestamp":1790597125181}@@   KRSouth Korea--}{++{"author":"James's AI","timestamp":1790597125181}@@ **South Korea**:++} Samsung Electro-Mechanics, LG Innotek, and a glass-core joint venture with Sumitomo Chemical
--{--{"author":"James's AI","timestamp":1790597125181}@@   CNChina--}{++{"author":"James's AI","timestamp":1790597125181}@@ **China**:++} Most of the circuit board competition, alongside Taiwan; now pushing into glass cloth and build-up film
--{--{"author":"James's AI","timestamp":1790597125181}@@   ATAustria--}{++{"author":"James's AI","timestamp":1790597125181}@@ **Austria**:++} AT&S, the only European advanced substrate maker of scale
+- **Japan**: Build-up film, low-expansion glass cloth, and Ibiden and Shinko substrate plants in Gifu and Nagano
+- **Taiwan**: Unimicron, Nan Ya PCB, Kinsus; the largest cluster of substrate makers selling to all comers
+- **South Korea**: Samsung Electro-Mechanics, LG Innotek, and a glass-core joint venture with Sumitomo Chemical
+- **China**: Most of the circuit board competition, alongside Taiwan; now pushing into glass cloth and build-up film
+- **Austria**: AT&S, the only European advanced substrate maker of scale
 
 **Why substitution is slow**
 
@@ -2861,8 +2428,8 @@ Most of the firms competing in circuit boards are Chinese or Taiwanese. Nitto Bo
 
 **Where the US stands**
 
-No American firm makes these substrates in volume. TTM Technologies is the main American circuit board maker. Data center computing was 24 percent of its sales in 2025, up from 14 percent in 2023. Intel is developing substrates made of glass for the second half of the decade.{++{"author":"James's AI","timestamp":1790597125181}@@
-:::++}
+No American firm makes these substrates in volume. TTM Technologies is the main American circuit board maker. Data center computing was 24 percent of its sales in 2025, up from 14 percent in 2023. Intel is developing substrates made of glass for the second half of the decade.
+:::
 
 On TSMC's July 2026 earnings call, chief executive C.C. Wei said packaging capacity is now so tight that it limits customers' growth [1](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf). The silicon interposer that wires chips together inside a package spans a few millimeters. Past its edge the wiring turns to epoxy and glass: a build-up substrate, a printed circuit board of thirty layers, then a rack.
 
@@ -2882,14 +2449,12 @@ Bismaleimide-triazine laminate, or BT, is the cheaper and older family. It still
 
 Ajinomoto Build-up Film, or ABF, is the insulating sheet between the copper layers, and it sits under every high-end CPU, GPU and AI accelerator. A major chipmaker first used it in 1999, and Ajinomoto calls it the de facto standard in package development ever since [3](https://www.ajinomoto.co.jp/company/en/ir/event/business_briefing/main/01113/teaserItems1/01/linkList/00/link/3_ICT_E.pdf). Asked on the company's own site whether its share was nearer 30 or 50 percent, the electronic materials division answered: "More like 95 percent market share", and said practically all high-performance computers and servers rely on it [2](https://www.ajinomoto.com/stories/the-ajinomoto-groups-unexpected-role-in-semiconductor-manufacturing-the-insulating-film-abf-born-from-aminoscience).
 
-{++{"author":"James's AI","timestamp":1790594159027}@@**Chart:** ++}Layers of build-up film in one package {--{"author":"James's AI","timestamp":1790597125181}@@substratelayers
-
---}{++{"author":"James's AI","timestamp":1790597125181}@@substrate
+**Chart:** Layers of build-up film in one package substrate
 
 | | layers |
 |---|---:|
-| ++}PC substrate {++{"author":"James's AI","timestamp":1790597125181}@@| ++}6 {++{"author":"James's AI","timestamp":1790597125181}@@|
-| ++}HPC substrate {++{"author":"James's AI","timestamp":1790597125181}@@| ++}18{++{"author":"James's AI","timestamp":1790597125181}@@ |++}
+| PC substrate | 6 |
+| HPC substrate | 18 |
 
 Source: [Ajinomoto business briefing on ABF, June 2023](https://www.ajinomoto.co.jp/company/en/ir/event/business_briefing/main/01113/teaserItems1/01/linkList/00/link/3_ICT_E.pdf)
 
@@ -2897,8 +2462,8 @@ Source: [Ajinomoto business briefing on ABF, June 2023](https://www.ajinomoto.co
 
 A glass core in place of resin removes most of the swelling problem, which is why chipmakers and substrate makers are both trying it.
 
--{--{"author":"James's AI","timestamp":1790597125181}@@   --}{++{"author":"James's AI","timestamp":1790597125181}@@ ++}**Intel** announced glass substrates in September 2023 for the latter part of this decade [4](https://download.intel.com/newsroom/archive/2025/en-us-2023-09-18-intel-unveils-industryleading-glass-substrates-to-meet-demand-for-more-powerful-compute.pdf).
--{--{"author":"James's AI","timestamp":1790597125181}@@   --}{++{"author":"James's AI","timestamp":1790597125181}@@ ++}**Samsung Electro-Mechanics** signed a joint venture with Sumitomo Chemical in November 2025 to make glass core, with mass production after 2027 [5](https://samsungsem.com/global/newsroom/news/view.do?id=9850).
+- **Intel** announced glass substrates in September 2023 for the latter part of this decade [4](https://download.intel.com/newsroom/archive/2025/en-us-2023-09-18-intel-unveils-industryleading-glass-substrates-to-meet-demand-for-more-powerful-compute.pdf).
+- **Samsung Electro-Mechanics** signed a joint venture with Sumitomo Chemical in November 2025 to make glass core, with mass production after 2027 [5](https://samsungsem.com/global/newsroom/news/view.do?id=9850).
 
 Both programs point past 2027, so glass does not help before then.
 
@@ -2914,24 +2479,22 @@ Chinese firms are entering this layer, and Nitto Boseki says so itself: it names
 
 The plants that build substrates for other firms are an Asian oligopoly, and every large one is expanding. The White House's 2021 hundred-day supply chain review recorded build-up substrate among the materials commenters called vulnerable, and named the makers as Ibiden, Shinko, Nanya, Samsung, Unimicron, Shennan Circuits, Zhuhai Yueya and AKM. None of the eight is American [11](https://bidenwhitehouse.archives.gov/wp-content/uploads/2021/06/100-day-supply-chain-review-report.pdf).
 
--{--{"author":"James's AI","timestamp":1790597125181}@@   --}{++{"author":"James's AI","timestamp":1790597125181}@@ ++}**Ibiden** will invest about JPY 500 billion from fiscal 2026 to fiscal 2028, starting with JPY 220 billion at its Gama plant and mass production from fiscal 2027 [12](https://www.ibiden.com/company/2026/02/notice-regarding-capital-investment-plan-for-high-performance-ic-package-substrates.html). In May 2026 management said it typically takes close to 100 percent of a new generation of interposer substrates at launch and loses 20 to 30 points three to six months later. On silicon-bridge substrates, it said, wiring the underside is hard enough that it expects to keep its technical lead through fiscal 2030 [13](https://www.ibiden.com/ir/items/en_QA_FY25Q4.pdf).
--{--{"author":"James's AI","timestamp":1790597125181}@@   --}{++{"author":"James's AI","timestamp":1790597125181}@@ ++}**Unimicron** took NT$42.9 billion of sales in the second quarter of 2026, 52 percent of it build-up substrates and 61 percent of it AI data center work [14](https://www.unimicron.com/files/money/Earnings/en/2026-Q2-consolidated-en.pdf).
--{--{"author":"James's AI","timestamp":1790597125181}@@   --}{++{"author":"James's AI","timestamp":1790597125181}@@ ++}**Samsung Electro-Mechanics** grew package solution sales 37 percent year on year to KRW 771.6 billion in the second quarter, on substrates for AI accelerators and server processors [15](https://m.samsungsem.com/global/newsroom/news/view.do?id=10462).
+- **Ibiden** will invest about JPY 500 billion from fiscal 2026 to fiscal 2028, starting with JPY 220 billion at its Gama plant and mass production from fiscal 2027 [12](https://www.ibiden.com/company/2026/02/notice-regarding-capital-investment-plan-for-high-performance-ic-package-substrates.html). In May 2026 management said it typically takes close to 100 percent of a new generation of interposer substrates at launch and loses 20 to 30 points three to six months later. On silicon-bridge substrates, it said, wiring the underside is hard enough that it expects to keep its technical lead through fiscal 2030 [13](https://www.ibiden.com/ir/items/en_QA_FY25Q4.pdf).
+- **Unimicron** took NT$42.9 billion of sales in the second quarter of 2026, 52 percent of it build-up substrates and 61 percent of it AI data center work [14](https://www.unimicron.com/files/money/Earnings/en/2026-Q2-consolidated-en.pdf).
+- **Samsung Electro-Mechanics** grew package solution sales 37 percent year on year to KRW 771.6 billion in the second quarter, on substrates for AI accelerators and server processors [15](https://m.samsungsem.com/global/newsroom/news/view.do?id=10462).
 
 Shinko has a new owner: Fujitsu sold its 50.02 percent stake to a fund run by the state-backed Japan Investment Corporation [16](https://www.jiccapital.co.jp/en/news/.assets/E_20250217_JIC_JICC_PressRelease.pdf).
 
-**Chart:** Unimicron sales by technology, second quarter 2026{--{"author":"James's AI","timestamp":1790597125181}@@ (%)
-
---}{++{"author":"James's AI","timestamp":1790597125181}@@
+**Chart:** Unimicron sales by technology, second quarter 2026
 
 | | % |
 |---|---:|
-| ++}ABF substrate {--{"author":"James's AI","timestamp":1790597125181}@@**52%**--}{++{"author":"James's AI","timestamp":1790597125181}@@| 52 |
-|++} PCB {--{"author":"James's AI","timestamp":1790597125181}@@**27%** --}{++{"author":"James's AI","timestamp":1790597125181}@@| 27 |
-| ++}BT substrate {--{"author":"James's AI","timestamp":1790597125181}@@**9%**--}{++{"author":"James's AI","timestamp":1790597125181}@@| 9 |
-|++} HDI {--{"author":"James's AI","timestamp":1790597125181}@@**9%** --}{++{"author":"James's AI","timestamp":1790597125181}@@| 9 |
-| ++}FPC {--{"author":"James's AI","timestamp":1790597125181}@@**2%** --}{++{"author":"James's AI","timestamp":1790597125181}@@| 2 |
-| ++}Other {--{"author":"James's AI","timestamp":1790597125181}@@**1%**--}{++{"author":"James's AI","timestamp":1790597125181}@@| 1 |++}
+| ABF substrate | 52 |
+| PCB | 27 |
+| BT substrate | 9 |
+| HDI | 9 |
+| FPC | 2 |
+| Other | 1 |
 
 Source: [Unimicron 2026 Q2 earnings conference](https://www.unimicron.com/files/money/Earnings/en/2026-Q2-consolidated-en.pdf)
 
@@ -2949,140 +2512,108 @@ Flatness is the first thing lost as packages grow. TSMC has told investors that 
 
 ### Key evaluation criteria ^key-evaluation-criteria-12
 
--{--{"author":"James's AI","timestamp":1790597125181}@@   --}{++{"author":"James's AI","timestamp":1790597125181}@@ ++}**Layer count** sets how much current and how many signals the substrate can carry. Each added layer is another chance to lose the part.
--{--{"author":"James's AI","timestamp":1790597125181}@@   --}{++{"author":"James's AI","timestamp":1790597125181}@@ ++}**Body size** drives everything else. Once a body is much larger than the dies it carries, warping and handling take over from the wiring in deciding what can be built.
--{--{"author":"James's AI","timestamp":1790597125181}@@   --}{++{"author":"James's AI","timestamp":1790597125181}@@ ++}**Coefficient of thermal expansion**, how much a material swells when heated, must be close enough to silicon that the package survives repeated heating and cooling, which is what T-glass provides and why its supply matters.
--{--{"author":"James's AI","timestamp":1790597125181}@@   --}{++{"author":"James's AI","timestamp":1790597125181}@@ ++}**Dielectric properties**, how much signal the core laminate absorbs, set the speeds the substrate and the board underneath can run.
--{--{"author":"James's AI","timestamp":1790597125181}@@   --}{++{"author":"James's AI","timestamp":1790597125181}@@ ++}**Qualification time** protects the incumbents. Approving a second supplier for a film or a laminate takes years.
+- **Layer count** sets how much current and how many signals the substrate can carry. Each added layer is another chance to lose the part.
+- **Body size** drives everything else. Once a body is much larger than the dies it carries, warping and handling take over from the wiring in deciding what can be built.
+- **Coefficient of thermal expansion**, how much a material swells when heated, must be close enough to silicon that the package survives repeated heating and cooling, which is what T-glass provides and why its supply matters.
+- **Dielectric properties**, how much signal the core laminate absorbs, set the speeds the substrate and the board underneath can run.
+- **Qualification time** protects the incumbents. Approving a second supplier for a film or a laminate takes years.
 
-{--{"author":"James's AI","timestamp":1790597125181}@@Card 1 of 4Question--}{++{"author":"James's AI","timestamp":1790597125181}@@::::callout {title="Flashcards" tone="blue"}
-Recall each answer, then open the card.++}
+::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.
 
-{++{"author":"James's AI","timestamp":1790597125181}@@:::callout {title="Card 1 of 4: ++}What does a package substrate{--{"author":"James's AI","timestamp":1790597125181}@@ do?
+:::callout {title="Card 1 of 4: What does a package substrate do?" tone="neutral" collapse="closed"}
+It connects a chip's hair-fine connections to a circuit board wired in millimeters.
 
-Card 1 of 4Answer
+It is built in layers of epoxy film and copper around a stiff glass-cloth core. [[#^how-it-works-12|Reread: How it works]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597125181}@@ do?" tone="neutral" collapse="closed"}
-++}It connects a chip's hair-fine connections to a circuit board wired in millimeters.
+:::callout {title="Card 2 of 4: Which two substrate materials each come from one Japanese supplier?" tone="neutral" collapse="closed"}
+The insulating film, from Ajinomoto, and the glass cloth, from Nitto Boseki.
 
-It is built in layers of epoxy film and copper around a stiff glass-cloth core. [[#^how-it-works-12|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597125181}@@
-:::++}
+Ajinomoto puts its share of the film at about 95 percent. [[#^the-materials-underneath|Reread: The materials underneath]]
+:::
 
-{--{"author":"James's AI","timestamp":1790597125181}@@Card--}{++{"author":"James's AI","timestamp":1790597125181}@@:::callout {title="Card++} 2 of {--{"author":"James's AI","timestamp":1790597125181}@@4Question
+:::callout {title="Card 3 of 4: Why would replacing Ajinomoto's film take years?" tone="neutral" collapse="closed"}
+Every substrate maker would have to approve the new film in each layer of each product.
 
---}{++{"author":"James's AI","timestamp":1790597125181}@@4: ++}Which two substrate materials each come from one Japanese{--{"author":"James's AI","timestamp":1790597125181}@@ supplier?
+That takes five to ten years. [[#^the-chokepoint-12|Reread: The chokepoint]]
+:::
 
-Card 2 of 4Answer
+:::callout {title="Card 4 of 4: Does any American firm make these substrates in volume?" tone="neutral" collapse="closed"}
+No.
 
---}{++{"author":"James's AI","timestamp":1790597125181}@@ supplier?" tone="neutral" collapse="closed"}
-++}The insulating film, from Ajinomoto, and the glass cloth, from Nitto Boseki.
+The makers are in Japan, Taiwan, Korea and China. [[#^who-makes-it-12|Reread: Who makes it]]
+:::
 
-Ajinomoto puts its share of the film at about 95 percent. [[#^the-materials-underneath|Reread: The materials underneath]]{++{"author":"James's AI","timestamp":1790597125181}@@
-:::++}
+::::
 
-{--{"author":"James's AI","timestamp":1790597125181}@@Card--}{++{"author":"James's AI","timestamp":1790597125181}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597125181}@@4Question
+:::callout {title="Four things to remember" tone="green"}
+- A package substrate connects a chip's fine connections to a circuit board wired in millimeters.
+- The film and the glass cloth inside it each come from one Japanese supplier.
+- Replacing the film would take five to ten years of approvals.
+- No American firm makes these substrates in volume.
+:::
 
---}{++{"author":"James's AI","timestamp":1790597125181}@@4: ++}Why would replacing Ajinomoto's film take {--{"author":"James's AI","timestamp":1790597125181}@@years?
-
-Card 3 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597125181}@@years?" tone="neutral" collapse="closed"}
-++}Every substrate maker would have to approve the new film in each layer of each product.
-
-That takes five to ten years. [[#^the-chokepoint-12|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597125181}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597125181}@@Card --}{++{"author":"James's AI","timestamp":1790597125181}@@:::callout {title="Card ++}4 of {--{"author":"James's AI","timestamp":1790597125181}@@4Question
-
---}{++{"author":"James's AI","timestamp":1790597125181}@@4: ++}Does any American firm make these substrates in{--{"author":"James's AI","timestamp":1790597125181}@@ volume?
-
-Card 4 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597125181}@@ volume?" tone="neutral" collapse="closed"}
-++}No.
-
-The makers are in Japan, Taiwan, Korea and China. [[#^who-makes-it-12|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597125181}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597125181}@@#### Four--}{++{"author":"James's AI","timestamp":1790597125181}@@::::
-
-:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597125181}@@remember ^four-things-to-remember-11
-
---}{++{"author":"James's AI","timestamp":1790597125181}@@remember" tone="green"}
-++}-{--{"author":"James's AI","timestamp":1790597125181}@@   --}{++{"author":"James's AI","timestamp":1790597125181}@@ ++}A package substrate connects a chip's fine connections to a circuit board wired in millimeters.
--{--{"author":"James's AI","timestamp":1790597125181}@@   --}{++{"author":"James's AI","timestamp":1790597125181}@@ ++}The film and the glass cloth inside it each come from one Japanese supplier.
--{--{"author":"James's AI","timestamp":1790597125181}@@   --}{++{"author":"James's AI","timestamp":1790597125181}@@ ++}Replacing the film would take five to ten years of approvals.
--{--{"author":"James's AI","timestamp":1790597125181}@@   --}{++{"author":"James's AI","timestamp":1790597125181}@@ ++}No American firm makes these substrates in volume.{++{"author":"James's AI","timestamp":1790597125181}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597125181}@@**Sources (19)**
-
---}{++{"author":"James's AI","timestamp":1790597125181}@@:::callout {title="Sources (19)" tone="neutral" collapse="closed"}
-++}1.{--{"author":"James's AI","timestamp":1790597125181}@@  A--} [Q2 2026 Taiwan Semiconductor Manufacturing Co Ltd Earnings Call (Chinese, English) — edited {--{"author":"James's AI","timestamp":1790597125181}@@transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf)--}{++{"author":"James's AI","timestamp":1790597125181}@@transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf).++} LSEG StreetEvents (transcript of a TSMC earnings call), via TSMC · 16 July {--{"author":"James's AI","timestamp":1790597125181}@@2026--}{++{"author":"James's AI","timestamp":1790597125181}@@2026. Tier A.++}
-2.{--{"author":"James's AI","timestamp":1790597125181}@@  A--} [The Ajinomoto Group’s Unexpected Role in Semiconductor Manufacturing: The Insulating Film “ABF” Born from “AminoScience” | {--{"author":"James's AI","timestamp":1790597125181}@@Stories](https://www.ajinomoto.com/stories/the-ajinomoto-groups-unexpected-role-in-semiconductor-manufacturing-the-insulating-film-abf-born-from-aminoscience)--}{++{"author":"James's AI","timestamp":1790597125181}@@Stories](https://www.ajinomoto.com/stories/the-ajinomoto-groups-unexpected-role-in-semiconductor-manufacturing-the-insulating-film-abf-born-from-aminoscience).++} Ajinomoto · 5 March {--{"author":"James's AI","timestamp":1790597125181}@@2026--}{++{"author":"James's AI","timestamp":1790597125181}@@2026. Tier A.++}
-3.{--{"author":"James's AI","timestamp":1790597125181}@@  A--} [Ajinomoto, Business Briefing: ABF-Based Growth Strategy in ICT, 12 June {--{"author":"James's AI","timestamp":1790597125181}@@2023](https://www.ajinomoto.co.jp/company/en/ir/event/business_briefing/main/01113/teaserItems1/01/linkList/00/link/3_ICT_E.pdf)--}{++{"author":"James's AI","timestamp":1790597125181}@@2023](https://www.ajinomoto.co.jp/company/en/ir/event/business_briefing/main/01113/teaserItems1/01/linkList/00/link/3_ICT_E.pdf).++} Ajinomoto · 12 June {--{"author":"James's AI","timestamp":1790597125181}@@2023--}{++{"author":"James's AI","timestamp":1790597125181}@@2023. Tier A.++}
-4.{--{"author":"James's AI","timestamp":1790597125181}@@  A--} [Intel Unveils Industry-Leading Glass Substrates to Meet Demand {--{"author":"James's AI","timestamp":1790597125181}@@for...](https://download.intel.com/newsroom/archive/2025/en-us-2023-09-18-intel-unveils-industryleading-glass-substrates-to-meet-demand-for-more-powerful-compute.pdf)--}{++{"author":"James's AI","timestamp":1790597125181}@@for...](https://download.intel.com/newsroom/archive/2025/en-us-2023-09-18-intel-unveils-industryleading-glass-substrates-to-meet-demand-for-more-powerful-compute.pdf).++} Intel · 31 January {--{"author":"James's AI","timestamp":1790597125181}@@2025--}{++{"author":"James's AI","timestamp":1790597125181}@@2025. Tier A.++}
-5.{--{"author":"James's AI","timestamp":1790597125181}@@  A--} [Samsung Electro-Mechanics Signs MOU with Sumitomo Chemical Group to Establish a Joint Venture for Glass Core Used in Package {--{"author":"James's AI","timestamp":1790597125181}@@Substrates](https://samsungsem.com/global/newsroom/news/view.do?id=9850)--}{++{"author":"James's AI","timestamp":1790597125181}@@Substrates](https://samsungsem.com/global/newsroom/news/view.do?id=9850).++} Samsung Electro-Mechanics · 5 November {--{"author":"James's AI","timestamp":1790597125181}@@2025--}{++{"author":"James's AI","timestamp":1790597125181}@@2025. Tier A.++}
-6.{--{"author":"James's AI","timestamp":1790597125181}@@  A--} [Note: This document has been translated from the Japanese original for reference purposes only. In the event of {--{"author":"James's AI","timestamp":1790597125181}@@any](https://www.ajinomoto.co.jp/company/en/ir/library/result/main/014/teaserItems1/0/linkList/06/link/FY25Q4_Tanshin_E.pdf)--}{++{"author":"James's AI","timestamp":1790597125181}@@any](https://www.ajinomoto.co.jp/company/en/ir/library/result/main/014/teaserItems1/0/linkList/06/link/FY25Q4_Tanshin_E.pdf).++} Ajinomoto · 1 May {--{"author":"James's AI","timestamp":1790597125181}@@2026--}{++{"author":"James's AI","timestamp":1790597125181}@@2026. Tier A.++}
-7.{--{"author":"James's AI","timestamp":1790597125181}@@  A--} [T-glass | Electronic Materials Business | Business and {--{"author":"James's AI","timestamp":1790597125181}@@Products](https://www.nittobo.co.jp/eng/business/electronicmaterials/t-glass.htm)--}{++{"author":"James's AI","timestamp":1790597125181}@@Products](https://www.nittobo.co.jp/eng/business/electronicmaterials/t-glass.htm).++} Nitto Boseki {--{"author":"James's AI","timestamp":1790597125181}@@(Nittobo)--}{++{"author":"James's AI","timestamp":1790597125181}@@(Nittobo). Tier A.++}
-8.{--{"author":"James's AI","timestamp":1790597125181}@@  A--} [2-4-1, Kojimachi, Chiyoda-ku, Tokyo, 102-8489, {--{"author":"James's AI","timestamp":1790597125181}@@Japan](https://www.nittobo.co.jp/eng/ir/pdf/Nittobo_Integrated-Report_2025.pdf)--}{++{"author":"James's AI","timestamp":1790597125181}@@Japan](https://www.nittobo.co.jp/eng/ir/pdf/Nittobo_Integrated-Report_2025.pdf).++} Nitto Boseki (Nittobo) · 16 September {--{"author":"James's AI","timestamp":1790597125181}@@2025--}{++{"author":"James's AI","timestamp":1790597125181}@@2025. Tier A.++}
-9.{--{"author":"James's AI","timestamp":1790597125181}@@  B--} [Apple and Qualcomm fret over strained supplies of Japan's glass {--{"author":"James's AI","timestamp":1790597125181}@@cloth](https://asia.nikkei.com/business/technology/tech-asia/apple-and-qualcomm-fret-over-strained-supplies-of-japan-s-glass-cloth)--}{++{"author":"James's AI","timestamp":1790597125181}@@cloth](https://asia.nikkei.com/business/technology/tech-asia/apple-and-qualcomm-fret-over-strained-supplies-of-japan-s-glass-cloth).++} Nikkei Asia · 14 January {--{"author":"James's AI","timestamp":1790597125181}@@2026--}{++{"author":"James's AI","timestamp":1790597125181}@@2026. Tier B.++}
-10.{--{"author":"James's AI","timestamp":1790597125181}@@  B--} [China chip material makers battle Japan rivals for $73bn {--{"author":"James's AI","timestamp":1790597125181}@@market](https://asia.nikkei.com/business/tech/semiconductors/china-chip-material-makers-battle-japan-rivals-for-73bn-market)--}{++{"author":"James's AI","timestamp":1790597125181}@@market](https://asia.nikkei.com/business/tech/semiconductors/china-chip-material-makers-battle-japan-rivals-for-73bn-market).++} Nikkei Asia · 1 July {--{"author":"James's AI","timestamp":1790597125181}@@2026--}{++{"author":"James's AI","timestamp":1790597125181}@@2026. Tier B.++}
-11.{--{"author":"James's AI","timestamp":1790597125181}@@  A--} [BUILDING RESILIENT SUPPLY {--{"author":"James's AI","timestamp":1790597125181}@@CHAINS,](https://bidenwhitehouse.archives.gov/wp-content/uploads/2021/06/100-day-supply-chain-review-report.pdf)--}{++{"author":"James's AI","timestamp":1790597125181}@@CHAINS,](https://bidenwhitehouse.archives.gov/wp-content/uploads/2021/06/100-day-supply-chain-review-report.pdf).++} The White House (Biden administration archive) · 7 June {--{"author":"James's AI","timestamp":1790597125181}@@2021--}{++{"author":"James's AI","timestamp":1790597125181}@@2021. Tier A.++}
-12.{--{"author":"James's AI","timestamp":1790597125181}@@  A--} [Ibiden, Notice Regarding Capital Investment Plan for High-Performance IC Package {--{"author":"James's AI","timestamp":1790597125181}@@Substrates](https://www.ibiden.com/company/2026/02/notice-regarding-capital-investment-plan-for-high-performance-ic-package-substrates.html)--}{++{"author":"James's AI","timestamp":1790597125181}@@Substrates](https://www.ibiden.com/company/2026/02/notice-regarding-capital-investment-plan-for-high-performance-ic-package-substrates.html).++} Ibiden · 3 February {--{"author":"James's AI","timestamp":1790597125181}@@2026--}{++{"author":"James's AI","timestamp":1790597125181}@@2026. Tier A.++}
-13.{--{"author":"James's AI","timestamp":1790597125181}@@  A--} [Ibiden, questions and answers from the financial presentation for the year ended 31 March {--{"author":"James's AI","timestamp":1790597125181}@@2026](https://www.ibiden.com/ir/items/en_QA_FY25Q4.pdf)--}{++{"author":"James's AI","timestamp":1790597125181}@@2026](https://www.ibiden.com/ir/items/en_QA_FY25Q4.pdf).++} Ibiden · 12 May {--{"author":"James's AI","timestamp":1790597125181}@@2026--}{++{"author":"James's AI","timestamp":1790597125181}@@2026. Tier A.++}
-14.{--{"author":"James's AI","timestamp":1790597125181}@@  A--} [Unimicron consolidated financial statements, second quarter {--{"author":"James's AI","timestamp":1790597125181}@@2026](https://www.unimicron.com/files/money/Earnings/en/2026-Q2-consolidated-en.pdf)--}{++{"author":"James's AI","timestamp":1790597125181}@@2026](https://www.unimicron.com/files/money/Earnings/en/2026-Q2-consolidated-en.pdf).++} Unimicron {--{"author":"James's AI","timestamp":1790597125181}@@Technology--}{++{"author":"James's AI","timestamp":1790597125181}@@Technology. Tier A.++}
-15.{--{"author":"James's AI","timestamp":1790597125181}@@  A--} [Samsung Electro-Mechanics, Q2 2026 business {--{"author":"James's AI","timestamp":1790597125181}@@results](https://m.samsungsem.com/global/newsroom/news/view.do?id=10462)--}{++{"author":"James's AI","timestamp":1790597125181}@@results](https://m.samsungsem.com/global/newsroom/news/view.do?id=10462).++} Samsung Electro-Mechanics · 30 July {--{"author":"James's AI","timestamp":1790597125181}@@2026--}{++{"author":"James's AI","timestamp":1790597125181}@@2026. Tier A.++}
-16.{--{"author":"James's AI","timestamp":1790597125181}@@  A--} [February 17, 2025 Japan Investment {--{"author":"James's AI","timestamp":1790597125181}@@Corporation](https://www.jiccapital.co.jp/en/news/.assets/E_20250217_JIC_JICC_PressRelease.pdf)--}{++{"author":"James's AI","timestamp":1790597125181}@@Corporation](https://www.jiccapital.co.jp/en/news/.assets/E_20250217_JIC_JICC_PressRelease.pdf).++} Japan Investment Corporation · 17 February {--{"author":"James's AI","timestamp":1790597125181}@@2025--}{++{"author":"James's AI","timestamp":1790597125181}@@2025. Tier A.++}
-17.{--{"author":"James's AI","timestamp":1790597125181}@@  A--} [TTM TECHNOLOGIES INC, Form 10-K annual report for the period ended 2025-12-29 {--{"author":"James's AI","timestamp":1790597125181}@@(10-K)](https://www.sec.gov/Archives/edgar/data/1116942/000119312526051976/ttmi-20251229.htm)--}{++{"author":"James's AI","timestamp":1790597125181}@@(10-K)](https://www.sec.gov/Archives/edgar/data/1116942/000119312526051976/ttmi-20251229.htm).++} U.S. Securities and Exchange Commission (filing by TTM TECHNOLOGIES INC) · 17 February {--{"author":"James's AI","timestamp":1790597125181}@@2026--}{++{"author":"James's AI","timestamp":1790597125181}@@2026. Tier A.++}
-18.{--{"author":"James's AI","timestamp":1790597125181}@@  A--} [Revenue from Contract with Customer, Excluding Assessed Tax (us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax) reported by TTM TECHNOLOGIES, INC., XBRL company concept {--{"author":"James's AI","timestamp":1790597125181}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0001116942/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json)--}{++{"author":"James's AI","timestamp":1790597125181}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0001116942/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json).++} U.S. Securities and Exchange Commission (XBRL data for TTM TECHNOLOGIES, {--{"author":"James's AI","timestamp":1790597125181}@@INC.)--}{++{"author":"James's AI","timestamp":1790597125181}@@INC.). Tier A.++}
-19.{--{"author":"James's AI","timestamp":1790597125181}@@  B--} [Thailand carves out a less-glamorous AI niche: printed circuit {--{"author":"James's AI","timestamp":1790597125181}@@boards](https://asia.nikkei.com/business/technology/tech-asia/thailand-carves-out-a-less-glamorous-ai-niche-printed-circuit-boards)--}{++{"author":"James's AI","timestamp":1790597125181}@@boards](https://asia.nikkei.com/business/technology/tech-asia/thailand-carves-out-a-less-glamorous-ai-niche-printed-circuit-boards).++} Nikkei Asia · 3 September {--{"author":"James's AI","timestamp":1790597125181}@@2025--}{++{"author":"James's AI","timestamp":1790597125181}@@2025. Tier B.
-:::++}
+:::callout {title="Sources (19)" tone="neutral" collapse="closed"}
+1. [Q2 2026 Taiwan Semiconductor Manufacturing Co Ltd Earnings Call (Chinese, English) — edited transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf). LSEG StreetEvents (transcript of a TSMC earnings call), via TSMC · 16 July 2026. Tier A.
+2. [The Ajinomoto Group’s Unexpected Role in Semiconductor Manufacturing: The Insulating Film “ABF” Born from “AminoScience” | Stories](https://www.ajinomoto.com/stories/the-ajinomoto-groups-unexpected-role-in-semiconductor-manufacturing-the-insulating-film-abf-born-from-aminoscience). Ajinomoto · 5 March 2026. Tier A.
+3. [Ajinomoto, Business Briefing: ABF-Based Growth Strategy in ICT, 12 June 2023](https://www.ajinomoto.co.jp/company/en/ir/event/business_briefing/main/01113/teaserItems1/01/linkList/00/link/3_ICT_E.pdf). Ajinomoto · 12 June 2023. Tier A.
+4. [Intel Unveils Industry-Leading Glass Substrates to Meet Demand for...](https://download.intel.com/newsroom/archive/2025/en-us-2023-09-18-intel-unveils-industryleading-glass-substrates-to-meet-demand-for-more-powerful-compute.pdf). Intel · 31 January 2025. Tier A.
+5. [Samsung Electro-Mechanics Signs MOU with Sumitomo Chemical Group to Establish a Joint Venture for Glass Core Used in Package Substrates](https://samsungsem.com/global/newsroom/news/view.do?id=9850). Samsung Electro-Mechanics · 5 November 2025. Tier A.
+6. [Note: This document has been translated from the Japanese original for reference purposes only. In the event of any](https://www.ajinomoto.co.jp/company/en/ir/library/result/main/014/teaserItems1/0/linkList/06/link/FY25Q4_Tanshin_E.pdf). Ajinomoto · 1 May 2026. Tier A.
+7. [T-glass | Electronic Materials Business | Business and Products](https://www.nittobo.co.jp/eng/business/electronicmaterials/t-glass.htm). Nitto Boseki (Nittobo). Tier A.
+8. [2-4-1, Kojimachi, Chiyoda-ku, Tokyo, 102-8489, Japan](https://www.nittobo.co.jp/eng/ir/pdf/Nittobo_Integrated-Report_2025.pdf). Nitto Boseki (Nittobo) · 16 September 2025. Tier A.
+9. [Apple and Qualcomm fret over strained supplies of Japan's glass cloth](https://asia.nikkei.com/business/technology/tech-asia/apple-and-qualcomm-fret-over-strained-supplies-of-japan-s-glass-cloth). Nikkei Asia · 14 January 2026. Tier B.
+10. [China chip material makers battle Japan rivals for $73bn market](https://asia.nikkei.com/business/tech/semiconductors/china-chip-material-makers-battle-japan-rivals-for-73bn-market). Nikkei Asia · 1 July 2026. Tier B.
+11. [BUILDING RESILIENT SUPPLY CHAINS,](https://bidenwhitehouse.archives.gov/wp-content/uploads/2021/06/100-day-supply-chain-review-report.pdf). The White House (Biden administration archive) · 7 June 2021. Tier A.
+12. [Ibiden, Notice Regarding Capital Investment Plan for High-Performance IC Package Substrates](https://www.ibiden.com/company/2026/02/notice-regarding-capital-investment-plan-for-high-performance-ic-package-substrates.html). Ibiden · 3 February 2026. Tier A.
+13. [Ibiden, questions and answers from the financial presentation for the year ended 31 March 2026](https://www.ibiden.com/ir/items/en_QA_FY25Q4.pdf). Ibiden · 12 May 2026. Tier A.
+14. [Unimicron consolidated financial statements, second quarter 2026](https://www.unimicron.com/files/money/Earnings/en/2026-Q2-consolidated-en.pdf). Unimicron Technology. Tier A.
+15. [Samsung Electro-Mechanics, Q2 2026 business results](https://m.samsungsem.com/global/newsroom/news/view.do?id=10462). Samsung Electro-Mechanics · 30 July 2026. Tier A.
+16. [February 17, 2025 Japan Investment Corporation](https://www.jiccapital.co.jp/en/news/.assets/E_20250217_JIC_JICC_PressRelease.pdf). Japan Investment Corporation · 17 February 2025. Tier A.
+17. [TTM TECHNOLOGIES INC, Form 10-K annual report for the period ended 2025-12-29 (10-K)](https://www.sec.gov/Archives/edgar/data/1116942/000119312526051976/ttmi-20251229.htm). U.S. Securities and Exchange Commission (filing by TTM TECHNOLOGIES INC) · 17 February 2026. Tier A.
+18. [Revenue from Contract with Customer, Excluding Assessed Tax (us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax) reported by TTM TECHNOLOGIES, INC., XBRL company concept data](https://data.sec.gov/api/xbrl/companyconcept/CIK0001116942/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json). U.S. Securities and Exchange Commission (XBRL data for TTM TECHNOLOGIES, INC.). Tier A.
+19. [Thailand carves out a less-glamorous AI niche: printed circuit boards](https://asia.nikkei.com/business/technology/tech-asia/thailand-carves-out-a-less-glamorous-ai-niche-printed-circuit-boards). Nikkei Asia · 3 September 2025. Tier B.
+:::
 
 ## Test and Assembly ^test-and-assembly
 
 Assembly and test decide which dies are allowed into a package that costs more than a car. One Japanese firm now sells two thirds of the world's chip testers.
 
-{--{"author":"James's AI","timestamp":1790597135436}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
-
-1,251--}{++{"author":"James's AI","timestamp":1790597135436}@@*1,251++} words / 5{--{"author":"James's AI","timestamp":1790597135436}@@ minSpecimen: probe card
-
-**In plain terms**
-
---}{++{"author":"James's AI","timestamp":1790597135436}@@ min*
+*1,251 words / 5 min*
 
 :::callout {title="In plain terms" tone="neutral"}
-++}Before a chip can be sold, a machine has to put questions to it and check every answer. While the chips are still on the wafer, thousands of needles press onto small metal pads on each one, send in signals and read what comes back; the tester marks any chip that answers wrong, and that chip goes no further. A modern accelerator glues together a dozen expensive pieces, and one bad piece throws away all of them. So the industry tests sooner, hotter and longer than it used to, to make a weak chip fail on the test bench before it reaches a finished product, and two firms, one Japanese and one American, sell most of the machines that do it.{++{"author":"James's AI","timestamp":1790597135436}@@
-:::++}
+Before a chip can be sold, a machine has to put questions to it and check every answer. While the chips are still on the wafer, thousands of needles press onto small metal pads on each one, send in signals and read what comes back; the tester marks any chip that answers wrong, and that chip goes no further. A modern accelerator glues together a dozen expensive pieces, and one bad piece throws away all of them. So the industry tests sooner, hotter and longer than it used to, to make a weak chip fail on the test bench before it reaches a finished product, and two firms, one Japanese and one American, sell most of the machines that do it.
+:::
 
 ### In short ^in-short-13
 
 Test used to be the cheap step at the end. With a dozen expensive dies in one package, it now protects everything made before it: the market for logic chip testers grew about 68 percent in 2025 [7](https://www.advantest.com/document/en/investors/ir-library/result/JE_BIZ_260427_note.pdf) and burn-in has started moving back onto the wafer [3](https://www.aehr.com/2026/07/aehr-test-systems-reports-fiscal-2026-fourth-quarter-and-full-year-financial-results-with-record-quarterly-bookings-and-100-million-effective-backlog/). Advantest has turned a duopoly into a two-thirds share of the machines. The assembly business beneath it stays fragmented, and four of the top ten assembly and test firms are Chinese [19](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/), which is why export controls have little effect on assembly and test.
 
-{--{"author":"James's AI","timestamp":1790597135436}@@Concentration: **High**--}{++{"author":"James's AI","timestamp":1790597135436}@@:::callout {title="Chokepoint card" tone="amber"}
-**Concentration:** High++}
+:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** High
 
-{--{"author":"James's AI","timestamp":1790597135436}@@Substitutability: **Moderate**.--}{++{"author":"James's AI","timestamp":1790597135436}@@**Substitutability:** Moderate.++} No test or assembly tool has only one maker, but switching testers means rebuilding every one of the customer's test programs.
+**Substitutability:** Moderate. No test or assembly tool has only one maker, but switching testers means rebuilding every one of the customer's test programs.
 
-{--{"author":"James's AI","timestamp":1790597135436}@@Price--}{++{"author":"James's AI","timestamp":1790597135436}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597135436}@@size: **ASE--}{++{"author":"James's AI","timestamp":1790597135436}@@size:** ASE++} and Amkor alone had $27.3 billion of revenue in {--{"author":"James's AI","timestamp":1790597135436}@@2025**.--}{++{"author":"James's AI","timestamp":1790597135436}@@2025.++} ASE spent $4.1 billion on machinery and buildings in the first half of 2026
+**Price or market size:** ASE and Amkor alone had $27.3 billion of revenue in 2025. ASE spent $4.1 billion on machinery and buildings in the first half of 2026
 
 **Who leads**
 
--{--{"author":"James's AI","timestamp":1790597135436}@@   JPAdvantest--}{++{"author":"James's AI","timestamp":1790597135436}@@ **Advantest** (JP):++} 65% of the tester market in 2025
--{--{"author":"James's AI","timestamp":1790597135436}@@   USTeradyne--}{++{"author":"James's AI","timestamp":1790597135436}@@ **Teradyne** (US):++} Second in testers; about 80% of the market with Advantest
--{--{"author":"James's AI","timestamp":1790597135436}@@   TWASE--}{++{"author":"James's AI","timestamp":1790597135436}@@ **ASE** (TW):++} $20.6bn of 2025 revenue, the largest assembly and test contractor
--{--{"author":"James's AI","timestamp":1790597135436}@@   USAmkor--}{++{"author":"James's AI","timestamp":1790597135436}@@ **Amkor** (US):++} $6.71bn of 2025 revenue
--{--{"author":"James's AI","timestamp":1790597135436}@@   JPDisco--}{++{"author":"James's AI","timestamp":1790597135436}@@ **Disco** (JP):++} Leading share in dicing saws, grinders and blades
+- **Advantest** (JP): 65% of the tester market in 2025
+- **Teradyne** (US): Second in testers; about 80% of the market with Advantest
+- **ASE** (TW): $20.6bn of 2025 revenue, the largest assembly and test contractor
+- **Amkor** (US): $6.71bn of 2025 revenue
+- **Disco** (JP): Leading share in dicing saws, grinders and blades
 
 **Where it is made**
 
--{--{"author":"James's AI","timestamp":1790597135436}@@   TWTaiwan--}{++{"author":"James's AI","timestamp":1790597135436}@@ **Taiwan**:++} ASE, Powertech, KYEC and ChipMOS; the largest assembly and test cluster
--{--{"author":"James's AI","timestamp":1790597135436}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597135436}@@ **Japan**:++} Advantest testers, Disco dicing and grinding, Micronics Japan probe cards
--{--{"author":"James's AI","timestamp":1790597135436}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597135436}@@ **United States**:++} Teradyne, FormFactor, Cohu, Aehr; Amkor's Arizona packaging plant
--{--{"author":"James's AI","timestamp":1790597135436}@@   CNChina--}{++{"author":"James's AI","timestamp":1790597135436}@@ **China**:++} Four of the top ten assembly and test firms by 2024 revenue are China-headquartered
--{--{"author":"James's AI","timestamp":1790597135436}@@   MYMalaysia--}{++{"author":"James's AI","timestamp":1790597135436}@@ **Malaysia**:++} Penang and Kulim; Malaysia ships about 13% of the world's packaged chips
+- **Taiwan**: ASE, Powertech, KYEC and ChipMOS; the largest assembly and test cluster
+- **Japan**: Advantest testers, Disco dicing and grinding, Micronics Japan probe cards
+- **United States**: Teradyne, FormFactor, Cohu, Aehr; Amkor's Arizona packaging plant
+- **China**: Four of the top ten assembly and test firms by 2024 revenue are China-headquartered
+- **Malaysia**: Penang and Kulim; Malaysia ships about 13% of the world's packaged chips
 
-{--{"author":"James's AI","timestamp":1790597135436}@@Why--}{++{"author":"James's AI","timestamp":1790597135436}@@**Why++} substitution is {--{"author":"James's AI","timestamp":1790597135436}@@possible--}{++{"author":"James's AI","timestamp":1790597135436}@@possible**++}
+**Why substitution is possible**
 
 Advantest and Teradyne sell about 80 percent of the testers between them, but both make machines that customers have approved, and the smaller kinds of test and assembly tool have several makers each. Customers rarely switch, because a new tester means rebuilding every test program, from the first prototype through to the production line. Advantest tells its investors the same thing. A newcomer pays that cost once and takes two to five years. The barrier is low enough that four of the top ten assembly and test firms are already Chinese.
 
@@ -3092,19 +2623,19 @@ Assembly and test is the stage where China is most competitive. CSET at Georgeto
 
 **Where the US stands**
 
-American firms are strong in test machines and probe cards, the beds of pins that touch each chip on the wafer: Teradyne, FormFactor, Cohu and Aehr. They are weak in assembly. Amkor is building a $7 billion packaging and test campus in Arizona and has a long-term deal with TSMC to fill it.{++{"author":"James's AI","timestamp":1790597135436}@@
-:::++}
+American firms are strong in test machines and probe cards, the beds of pins that touch each chip on the wafer: Teradyne, FormFactor, Cohu and Aehr. They are weak in assembly. Amkor is building a $7 billion packaging and test campus in Arizona and has a long-term deal with TSMC to fill it.
+:::
 
-Semiconductor manufacturing runs to 400 to 600 steps, and Advantest counts test as the only one that puts electricity through the{--{"author":"James's AI","timestamp":1790597135436}@@ [1](https://www.advantest.com/document/en/investors/ir-library/investors-guide/Investors_Guide_2504E.pdf)--} chip {--{"author":"James's AI","timestamp":1790597135436}@@.--}{++{"author":"James's AI","timestamp":1790597135436}@@[1](https://www.advantest.com/document/en/investors/ir-library/investors-guide/Investors_Guide_2504E.pdf).++} Every stage so far makes dies; the back end of the industry, assembly and test, decides which of them are allowed into a package.
+Semiconductor manufacturing runs to 400 to 600 steps, and Advantest counts test as the only one that puts electricity through the chip [1](https://www.advantest.com/document/en/investors/ir-library/investors-guide/Investors_Guide_2504E.pdf). Every stage so far makes dies; the back end of the industry, assembly and test, decides which of them are allowed into a package.
 
 ### How it works ^how-it-works-13
 
 Each round of test catches failures the round before it cannot see.
 
--{--{"author":"James's AI","timestamp":1790597135436}@@   --}{++{"author":"James's AI","timestamp":1790597135436}@@ ++}**Wafer sort.** Thousands of needles land on each die while it is still on the wafer, a tester drives patterns in and checks the answers, and the failures go no further.
--{--{"author":"James's AI","timestamp":1790597135436}@@   --}{++{"author":"James's AI","timestamp":1790597135436}@@ ++}**Burn-in.** Run the part hot and under power for hours, so anything that would fail early fails now, before assembly.
--{--{"author":"James's AI","timestamp":1790597135436}@@   --}{++{"author":"James's AI","timestamp":1790597135436}@@ ++}**Final test.** The tester runs the packaged part again, because packaging adds failures of its own.
--{--{"author":"James's AI","timestamp":1790597135436}@@   --}{++{"author":"James's AI","timestamp":1790597135436}@@ ++}**System-level test.** The finished part sits in a socket and runs something close to a real workload, because some failures appear only when everything runs at once.
+- **Wafer sort.** Thousands of needles land on each die while it is still on the wafer, a tester drives patterns in and checks the answers, and the failures go no further.
+- **Burn-in.** Run the part hot and under power for hours, so anything that would fail early fails now, before assembly.
+- **Final test.** The tester runs the packaged part again, because packaging adds failures of its own.
+- **System-level test.** The finished part sits in a socket and runs something close to a real workload, because some failures appear only when everything runs at once.
 
 Proving a die good before it is packaged is now worth far more. Aehr screens for early and hidden failures before dies are cut from the wafer, so a weak processor never reaches high-bandwidth memory and an expensive substrate [2](https://www.aehr.com/2026/08/aehr-receives-22-million-follow-on-order-for-ai-processor-wafer-level-burn-in-systems/). Its lead AI customer is moving burn-in off the finished system and onto the wafer, nine 300 mm wafers at a time [3](https://www.aehr.com/2026/07/aehr-test-systems-reports-fiscal-2026-fourth-quarter-and-full-year-financial-results-with-record-quarterly-bookings-and-100-million-effective-backlog/).
 
@@ -3118,12 +2649,12 @@ The probe card that holds those needles is the hard part. For a high-bandwidth m
 
 The economics get worse as packages grow. TSMC has told investors that its CoWoS packaging roadmap runs beyond 14 times the area a lithography machine can print in one shot [5](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf). Every added die is another chance to lose the whole assembly, which is why the number of test steps keeps rising. ASE ran 6,797 testers in the second quarter of 2025 and 8,348 a year later [6](https://www.sec.gov/Archives/edgar/data/1122411/000095010326011351/dp250868_6k.htm).
 
-**Chart:** Automated test equipment: share of the ~$9.0bn tester market, 2025{--{"author":"James's AI","timestamp":1790597135436}@@ (%)--}
+**Chart:** Automated test equipment: share of the ~$9.0bn tester market, 2025
 
-{++{"author":"James's AI","timestamp":1790597135436}@@| | % |
+| | % |
 |---|---:|
-| ++}Advantest {--{"author":"James's AI","timestamp":1790597135436}@@**65%** --}{++{"author":"James's AI","timestamp":1790597135436}@@| 65 |
-| ++}Teradyne and all others {--{"author":"James's AI","timestamp":1790597135436}@@**35%**--}{++{"author":"James's AI","timestamp":1790597135436}@@| 35 |++}
+| Advantest | 65 |
+| Teradyne and all others | 35 |
 
 Source: [Advantest FY2025 results briefing, April 2026](https://www.advantest.com/document/en/investors/ir-library/result/JE_BIZ_260427_note.pdf)
 
@@ -3131,25 +2662,22 @@ Source: [Advantest FY2025 results briefing, April 2026](https://www.advantest.co
 
 Advantest puts its own share at about 65 percent of a $9.0 billion tester market in 2025: 66 percent of test for logic chips, up ten points in a year, and about 60 percent of memory test [7](https://www.advantest.com/document/en/investors/ir-library/result/JE_BIZ_260427_note.pdf). It and Teradyne hold about 80 percent between them [1](https://www.advantest.com/document/en/investors/ir-library/investors-guide/Investors_Guide_2504E.pdf). Teradyne grew 13 percent to $3.19 billion for 2025, with fourth-quarter revenue up 44 percent on AI demand [8](https://investors.teradyne.com/news-events/press-releases/detail/433/teradyne-reports-fourth-quarter-and-full-year-2025-results).
 
-**Chart:** Where the tester money went in calendar 2025{--{"author":"James's AI","timestamp":1790597135436}@@ ($bn)--}
+**Chart:** Where the tester money went in calendar 2025
 
-{--{"author":"James's AI","timestamp":1790597135436}@@SoC testers **6.9** Memory--}{++{"author":"James's AI","timestamp":1790597135436}@@| | $bn |
+| | $bn |
 |---|---:|
-| SoC++} testers {--{"author":"James's AI","timestamp":1790597135436}@@**2.1**
-
-%% validator-ignore-next-line --code article.block-repeated-nearby --reason intentional-repeat-in-distinct-structured-entries %%
---}{++{"author":"James's AI","timestamp":1790597135436}@@| 6.9 |
+| SoC testers | 6.9 |
 | Memory testers | 2.1 |
 
-++}{++{"author":"James's AI","timestamp":1790598056054}@@%% validator-ignore-next-line --code article.block-repeated-nearby --reason source-provides-alternative-citation-formats %%
-++}Source: [Advantest FY2025 results briefing, April 2026](https://www.advantest.com/document/en/investors/ir-library/result/JE_BIZ_260427_note.pdf)
+%% validator-ignore-next-line --code article.block-repeated-nearby --reason source-provides-alternative-citation-formats %%
+Source: [Advantest FY2025 results briefing, April 2026](https://www.advantest.com/document/en/investors/ir-library/result/JE_BIZ_260427_note.pdf)
 
 Below the two tester makers, the rest of the test and assembly equipment splits into niches, each with its own suppliers.
 
--{--{"author":"James's AI","timestamp":1790597135436}@@   --}{++{"author":"James's AI","timestamp":1790597135436}@@ ++}**Probe cards.** FormFactor took $785.0 million in fiscal 2025 [9](https://data.sec.gov/api/xbrl/companyconcept/CIK0001039399/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json); Technoprobe grew 15.7 percent to EUR 628.4 million, 38 percent of it from AI, and plans to double capacity by the end of 2027 [10](https://technoprobe.com/wp-content/uploads/2026/03/PR-FY-2025_.pdf).
--{--{"author":"James's AI","timestamp":1790597135436}@@   --}{++{"author":"James's AI","timestamp":1790597135436}@@ ++}**Handlers and burn-in**, the machines that feed parts into a tester and heat them. Cohu took $453.0 million in fiscal 2025 [11](https://data.sec.gov/api/xbrl/companyconcept/CIK0000021535/us-gaap/RevenueFromContractWithCustomerIncludingAssessedTax.json); Aehr did $50.0 million in fiscal 2026 but booked a record $60.7 million in the fourth quarter alone and guides to $130 million to $150 million in fiscal 2027 [3](https://www.aehr.com/2026/07/aehr-test-systems-reports-fiscal-2026-fourth-quarter-and-full-year-financial-results-with-record-quarterly-bookings-and-100-million-effective-backlog/).
--{--{"author":"James's AI","timestamp":1790597135436}@@   --}{++{"author":"James's AI","timestamp":1790597135436}@@ ++}**Dicing and grinding.** Disco leads in wafer grinders and the saws that cut wafers into dies [12](https://newsletter.semianalysis.com/p/disco-corporation-the-world-leader), and its newest saw handles pieces up to 400 by 400 mm, for packaging on rectangular panels [13](https://www.disco.co.jp/eg/news/corp/20251215_1.html).
--{--{"author":"James's AI","timestamp":1790597135436}@@   --}{++{"author":"James's AI","timestamp":1790597135436}@@ ++}**Bonding.** Kulicke and Soffa did $654.1 million in fiscal 2025 [14](https://data.sec.gov/api/xbrl/companyconcept/CIK0000056978/us-gaap/Revenues.json), while Besi's second-quarter 2026 revenue rose 68.7 percent to EUR 249.9 million on hybrid bonding and data center demand [15](https://www.besi.com/investor-relations/press-releases/2025/details-1/be-semiconductor-industries-nv-announces-q2-26-and-h1-26-results/).
+- **Probe cards.** FormFactor took $785.0 million in fiscal 2025 [9](https://data.sec.gov/api/xbrl/companyconcept/CIK0001039399/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json); Technoprobe grew 15.7 percent to EUR 628.4 million, 38 percent of it from AI, and plans to double capacity by the end of 2027 [10](https://technoprobe.com/wp-content/uploads/2026/03/PR-FY-2025_.pdf).
+- **Handlers and burn-in**, the machines that feed parts into a tester and heat them. Cohu took $453.0 million in fiscal 2025 [11](https://data.sec.gov/api/xbrl/companyconcept/CIK0000021535/us-gaap/RevenueFromContractWithCustomerIncludingAssessedTax.json); Aehr did $50.0 million in fiscal 2026 but booked a record $60.7 million in the fourth quarter alone and guides to $130 million to $150 million in fiscal 2027 [3](https://www.aehr.com/2026/07/aehr-test-systems-reports-fiscal-2026-fourth-quarter-and-full-year-financial-results-with-record-quarterly-bookings-and-100-million-effective-backlog/).
+- **Dicing and grinding.** Disco leads in wafer grinders and the saws that cut wafers into dies [12](https://newsletter.semianalysis.com/p/disco-corporation-the-world-leader), and its newest saw handles pieces up to 400 by 400 mm, for packaging on rectangular panels [13](https://www.disco.co.jp/eg/news/corp/20251215_1.html).
+- **Bonding.** Kulicke and Soffa did $654.1 million in fiscal 2025 [14](https://data.sec.gov/api/xbrl/companyconcept/CIK0000056978/us-gaap/Revenues.json), while Besi's second-quarter 2026 revenue rose 68.7 percent to EUR 249.9 million on hybrid bonding and data center demand [15](https://www.besi.com/investor-relations/press-releases/2025/details-1/be-semiconductor-industries-nv-announces-q2-26-and-h1-26-results/).
 
 Thermocompression bonders, which press memory dies into a stack and place chiplets on substrates, are the most concentrated niche. ASMPT took a repeat order for fifteen chip-to-substrate bonders in December 2025 [16](https://www.asmpt.com/en/investor-relations/news-events/asmpt-secures-additional-orders-for-fifteen-chip-to-substrate-thermo-compression-bonding-tools-driven-by-ai-tailwind/) and, in its 2025 results, put that market at $1.6 billion by 2028, of which it means to hold 35 to 40 percent [17](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/). See [[#^memory-and-hbm|Memory and HBM]].
 
@@ -3161,15 +2689,13 @@ ASE spent $2.7 billion on machinery and $1.4 billion on buildings in the first h
 
 Amkor took $6.71 billion of revenue in 2025 [23](https://data.sec.gov/api/xbrl/companyconcept/CIK0001047127/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json), and $1.90 billion in the second quarter of 2026 alone, up 26 percent year on year [24](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000043/amkr6302026erex-991.htm). It has expanded its Arizona campus to a $7 billion investment [25](https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced). Under a partnership signed in June 2026 [26](https://ir.amkor.com/news-releases/news-release-details/tsmc-and-amkor-technology-announce-long-term-partnership) it will run packaging and test there for TSMC, whose Phoenix fabs sit next door [27](https://pr.tsmc.com/english/news/3174).
 
-{++{"author":"James's AI","timestamp":1790594196862}@@**Chart:** ++}Testers installed at ASE, the largest assembly and test {--{"author":"James's AI","timestamp":1790597135436}@@contractortesters
-
---}{++{"author":"James's AI","timestamp":1790597135436}@@contractor
+**Chart:** Testers installed at ASE, the largest assembly and test contractor
 
 | | testers |
 |---|---:|
-| ++}Q2 2025 {++{"author":"James's AI","timestamp":1790597135436}@@| ++}6,797 {++{"author":"James's AI","timestamp":1790597135436}@@|
-| ++}Q1 2026 {++{"author":"James's AI","timestamp":1790597135436}@@| ++}7,585 {++{"author":"James's AI","timestamp":1790597135436}@@|
-| ++}Q2 2026 {++{"author":"James's AI","timestamp":1790597135436}@@| ++}8,348{++{"author":"James's AI","timestamp":1790597135436}@@ |++}
+| Q2 2025 | 6,797 |
+| Q1 2026 | 7,585 |
+| Q2 2026 | 8,348 |
 
 Source: [ASE Technology Holding, second quarter 2026 earnings release (SEC Form 6-K)](https://www.sec.gov/Archives/edgar/data/1122411/000095010326011351/dp250868_6k.htm)
 
@@ -3181,136 +2707,110 @@ Assembly and test is also the part of the chain where China is strongest, becaus
 
 ### Key evaluation criteria ^key-evaluation-criteria-13
 
--{--{"author":"James's AI","timestamp":1790597135436}@@   --}{++{"author":"James's AI","timestamp":1790597135436}@@ ++}**Test coverage** is the share of hidden failures caught before they reach a package that cannot be taken apart.
--{--{"author":"James's AI","timestamp":1790597135436}@@   --}{++{"author":"James's AI","timestamp":1790597135436}@@ ++}**Test time per part** sets throughput and cost, and large dies, memory stacks and chiplets all push it up.
--{--{"author":"James's AI","timestamp":1790597135436}@@   --}{++{"author":"James's AI","timestamp":1790597135436}@@ ++}**Probe card flatness and life** decide what wafer sort costs. Every needle must stay in the same plane across a full die and hold that over a long life.
--{--{"author":"James's AI","timestamp":1790597135436}@@   --}{++{"author":"James's AI","timestamp":1790597135436}@@ ++}**Thermal control** matters more every generation. A kilowatt-class accelerator has to be held at temperature in the socket while it is tested at speed.
--{--{"author":"James's AI","timestamp":1790597135436}@@   --}{++{"author":"James's AI","timestamp":1790597135436}@@ ++}**Capacity and geography** are the practical constraint. Taiwan, China and Malaysia hold most of the floor space, and new capacity takes years.
+- **Test coverage** is the share of hidden failures caught before they reach a package that cannot be taken apart.
+- **Test time per part** sets throughput and cost, and large dies, memory stacks and chiplets all push it up.
+- **Probe card flatness and life** decide what wafer sort costs. Every needle must stay in the same plane across a full die and hold that over a long life.
+- **Thermal control** matters more every generation. A kilowatt-class accelerator has to be held at temperature in the socket while it is tested at speed.
+- **Capacity and geography** are the practical constraint. Taiwan, China and Malaysia hold most of the floor space, and new capacity takes years.
 
-{--{"author":"James's AI","timestamp":1790597135436}@@Card 1 of 3Question--}{++{"author":"James's AI","timestamp":1790597135436}@@::::callout {title="Flashcards" tone="blue"}
-Recall each answer, then open the card.++}
+::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.
 
-{++{"author":"James's AI","timestamp":1790597135436}@@:::callout {title="Card 1 of 3: ++}Why do chipmakers now test chips earlier and more {--{"author":"James's AI","timestamp":1790597135436}@@often?
+:::callout {title="Card 1 of 3: Why do chipmakers now test chips earlier and more often?" tone="neutral" collapse="closed"}
+One bad chip can ruin a package that holds a dozen expensive ones.
 
-Card 1 of 3Answer
+Testing makes a weak chip fail before it is built into a finished product. [[#^how-it-works-13|Reread: How it works]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597135436}@@often?" tone="neutral" collapse="closed"}
-++}One bad chip can ruin a package that holds a dozen expensive ones.
+:::callout {title="Card 2 of 3: Who makes most chip testers?" tone="neutral" collapse="closed"}
+Advantest of Japan and Teradyne of the United States.
 
-Testing makes a weak chip fail before it is built into a finished product. [[#^how-it-works-13|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597135436}@@
-:::++}
+Together they hold about 80 percent of the market. Advantest alone holds about 65 percent. [[#^who-makes-it-13|Reread: Who makes it]]
+:::
 
-{--{"author":"James's AI","timestamp":1790597135436}@@Card--}{++{"author":"James's AI","timestamp":1790597135436}@@:::callout {title="Card++} 2 of {--{"author":"James's AI","timestamp":1790597135436}@@3Question
+:::callout {title="Card 3 of 3: Where does China stand in assembly and test?" tone="neutral" collapse="closed"}
+It is China's strongest stage in the chain.
 
---}{++{"author":"James's AI","timestamp":1790597135436}@@3: ++}Who makes most chip {--{"author":"James's AI","timestamp":1790597135436}@@testers?
+Four of the top ten assembly and test firms are Chinese, and their tools face far lighter export controls than lithography tools. [[#^the-back-ends-geography|Reread: The back end's geography]]
+:::
 
-Card 2 of 3Answer
+::::
 
---}{++{"author":"James's AI","timestamp":1790597135436}@@testers?" tone="neutral" collapse="closed"}
-++}Advantest of Japan and Teradyne of the United States.
+:::callout {title="Three things to remember" tone="green"}
+- Chips are tested early and often because one bad chip can ruin a package of expensive ones.
+- Advantest and Teradyne make about 80 percent of chip testers.
+- Assembly and test is China's strongest stage, with four of the top ten firms.
+:::
 
-Together they hold about 80 percent of the market. Advantest alone holds about 65 percent. [[#^who-makes-it-13|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597135436}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597135436}@@Card--}{++{"author":"James's AI","timestamp":1790597135436}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597135436}@@3Question
-
---}{++{"author":"James's AI","timestamp":1790597135436}@@3: ++}Where does China stand in assembly and {--{"author":"James's AI","timestamp":1790597135436}@@test?
-
-Card 3 of 3Answer
-
---}{++{"author":"James's AI","timestamp":1790597135436}@@test?" tone="neutral" collapse="closed"}
-++}It is China's strongest stage in the chain.
-
-Four of the top ten assembly and test firms are Chinese, and their tools face far lighter export controls than lithography tools. [[#^the-back-ends-geography|Reread: The back end's geography]]{++{"author":"James's AI","timestamp":1790597135436}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597135436}@@#### Three--}{++{"author":"James's AI","timestamp":1790597135436}@@::::
-
-:::callout {title="Three++} things to {--{"author":"James's AI","timestamp":1790597135436}@@remember ^three-things-to-remember
-
---}{++{"author":"James's AI","timestamp":1790597135436}@@remember" tone="green"}
-++}-{--{"author":"James's AI","timestamp":1790597135436}@@   --}{++{"author":"James's AI","timestamp":1790597135436}@@ ++}Chips are tested early and often because one bad chip can ruin a package of expensive ones.
--{--{"author":"James's AI","timestamp":1790597135436}@@   --}{++{"author":"James's AI","timestamp":1790597135436}@@ ++}Advantest and Teradyne make about 80 percent of chip testers.
--{--{"author":"James's AI","timestamp":1790597135436}@@   --}{++{"author":"James's AI","timestamp":1790597135436}@@ ++}Assembly and test is China's strongest stage, with four of the top ten firms.{++{"author":"James's AI","timestamp":1790597135436}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597135436}@@**Sources (28)**
-
---}{++{"author":"James's AI","timestamp":1790597135436}@@:::callout {title="Sources (28)" tone="neutral" collapse="closed"}
-++}1.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [Investors Guide April 25, {--{"author":"James's AI","timestamp":1790597135436}@@2025](https://www.advantest.com/document/en/investors/ir-library/investors-guide/Investors_Guide_2504E.pdf)--}{++{"author":"James's AI","timestamp":1790597135436}@@2025](https://www.advantest.com/document/en/investors/ir-library/investors-guide/Investors_Guide_2504E.pdf).++} Advantest · 13 May {--{"author":"James's AI","timestamp":1790597135436}@@2025--}{++{"author":"James's AI","timestamp":1790597135436}@@2025. Tier A.++}
-2.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [Aehr Receives $22 Million Follow-On Order for AI Processor Wafer-Level Burn-In {--{"author":"James's AI","timestamp":1790597135436}@@Systems](https://www.aehr.com/2026/08/aehr-receives-22-million-follow-on-order-for-ai-processor-wafer-level-burn-in-systems/)--}{++{"author":"James's AI","timestamp":1790597135436}@@Systems](https://www.aehr.com/2026/08/aehr-receives-22-million-follow-on-order-for-ai-processor-wafer-level-burn-in-systems/).++} Aehr Test Systems · 12 August {--{"author":"James's AI","timestamp":1790597135436}@@2026--}{++{"author":"James's AI","timestamp":1790597135436}@@2026. Tier A.++}
-3.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [Aehr Test Systems Reports Fiscal 2026 Fourth Quarter and Full Year Financial Results with Record Quarterly Bookings and $100 Million Effective {--{"author":"James's AI","timestamp":1790597135436}@@Backlog](https://www.aehr.com/2026/07/aehr-test-systems-reports-fiscal-2026-fourth-quarter-and-full-year-financial-results-with-record-quarterly-bookings-and-100-million-effective-backlog/)--}{++{"author":"James's AI","timestamp":1790597135436}@@Backlog](https://www.aehr.com/2026/07/aehr-test-systems-reports-fiscal-2026-fourth-quarter-and-full-year-financial-results-with-record-quarterly-bookings-and-100-million-effective-backlog/).++} Aehr Test Systems · 14 July {--{"author":"James's AI","timestamp":1790597135436}@@2026--}{++{"author":"James's AI","timestamp":1790597135436}@@2026. Tier A.++}
-4.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [FORMFACTOR INC, Form 10-K annual report for the period ended 2025-12-27 {--{"author":"James's AI","timestamp":1790597135436}@@(10-K)](https://www.sec.gov/Archives/edgar/data/1039399/000103939926000009/form-20251227.htm)--}{++{"author":"James's AI","timestamp":1790597135436}@@(10-K)](https://www.sec.gov/Archives/edgar/data/1039399/000103939926000009/form-20251227.htm).++} U.S. Securities and Exchange Commission (filing by FORMFACTOR INC) · 20 February {--{"author":"James's AI","timestamp":1790597135436}@@2026--}{++{"author":"James's AI","timestamp":1790597135436}@@2026. Tier A.++}
-5.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [Q2 2026 Taiwan Semiconductor Manufacturing Co Ltd Earnings Call (Chinese, English) — edited {--{"author":"James's AI","timestamp":1790597135436}@@transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf)--}{++{"author":"James's AI","timestamp":1790597135436}@@transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf).++} LSEG StreetEvents (transcript of a TSMC earnings call), via TSMC · 16 July {--{"author":"James's AI","timestamp":1790597135436}@@2026--}{++{"author":"James's AI","timestamp":1790597135436}@@2026. Tier A.++}
-6.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [ASE Technology Holding Co., Ltd., Form 6-K report of foreign private issuer for the period ended {--{"author":"James's AI","timestamp":1790597135436}@@2026-07-30](https://www.sec.gov/Archives/edgar/data/1122411/000095010326011351/dp250868_6k.htm)--}{++{"author":"James's AI","timestamp":1790597135436}@@2026-07-30](https://www.sec.gov/Archives/edgar/data/1122411/000095010326011351/dp250868_6k.htm).++} U.S. Securities and Exchange Commission (filing by ASE Technology Holding Co., Ltd.) · 30 July {--{"author":"James's AI","timestamp":1790597135436}@@2026--}{++{"author":"James's AI","timestamp":1790597135436}@@2026. Tier A.++}
-7.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [Advantest, presentation notes for the FY2025 (year ended 31 March 2026) results briefing, 27 April {--{"author":"James's AI","timestamp":1790597135436}@@2026](https://www.advantest.com/document/en/investors/ir-library/result/JE_BIZ_260427_note.pdf)--}{++{"author":"James's AI","timestamp":1790597135436}@@2026](https://www.advantest.com/document/en/investors/ir-library/result/JE_BIZ_260427_note.pdf).++} Advantest · 27 April {--{"author":"James's AI","timestamp":1790597135436}@@2026--}{++{"author":"James's AI","timestamp":1790597135436}@@2026. Tier A.++}
-8.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [Teradyne Reports Fourth Quarter and Full Year 2025 {--{"author":"James's AI","timestamp":1790597135436}@@Results](https://investors.teradyne.com/news-events/press-releases/detail/433/teradyne-reports-fourth-quarter-and-full-year-2025-results)--}{++{"author":"James's AI","timestamp":1790597135436}@@Results](https://investors.teradyne.com/news-events/press-releases/detail/433/teradyne-reports-fourth-quarter-and-full-year-2025-results).++} Teradyne · 2 February {--{"author":"James's AI","timestamp":1790597135436}@@2026--}{++{"author":"James's AI","timestamp":1790597135436}@@2026. Tier A.++}
-9.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [Revenue from Contract with Customer, Excluding Assessed Tax (us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax) reported by FormFactor, Inc., XBRL company concept {--{"author":"James's AI","timestamp":1790597135436}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0001039399/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json)--}{++{"author":"James's AI","timestamp":1790597135436}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0001039399/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json).++} U.S. Securities and Exchange Commission (XBRL data for FormFactor, {--{"author":"James's AI","timestamp":1790597135436}@@Inc.)--}{++{"author":"James's AI","timestamp":1790597135436}@@Inc.). Tier A.++}
-10.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [Technoprobe, press release: the Board of Directors approves the draft statutory and consolidated annual report as at 31 December {--{"author":"James's AI","timestamp":1790597135436}@@2025](https://technoprobe.com/wp-content/uploads/2026/03/PR-FY-2025_.pdf)--}{++{"author":"James's AI","timestamp":1790597135436}@@2025](https://technoprobe.com/wp-content/uploads/2026/03/PR-FY-2025_.pdf).++} Technoprobe · 18 March {--{"author":"James's AI","timestamp":1790597135436}@@2026--}{++{"author":"James's AI","timestamp":1790597135436}@@2026. Tier A.++}
-11.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [Revenue from Contract with Customer, Including Assessed Tax (us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax) reported by COHU, INC., XBRL company concept {--{"author":"James's AI","timestamp":1790597135436}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0000021535/us-gaap/RevenueFromContractWithCustomerIncludingAssessedTax.json)--}{++{"author":"James's AI","timestamp":1790597135436}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0000021535/us-gaap/RevenueFromContractWithCustomerIncludingAssessedTax.json).++} U.S. Securities and Exchange Commission (XBRL data for COHU, {--{"author":"James's AI","timestamp":1790597135436}@@INC.)--}{++{"author":"James's AI","timestamp":1790597135436}@@INC.). Tier A.++}
-12.{--{"author":"James's AI","timestamp":1790597135436}@@  B--} [DISCO Corporation, The World Leader In Semiconductor Capital Equipment For Cutting, Grinding, {--{"author":"James's AI","timestamp":1790597135436}@@Polishing](https://newsletter.semianalysis.com/p/disco-corporation-the-world-leader)--}{++{"author":"James's AI","timestamp":1790597135436}@@Polishing](https://newsletter.semianalysis.com/p/disco-corporation-the-world-leader).++} SemiAnalysis · 19 July {--{"author":"James's AI","timestamp":1790597135436}@@2022--}{++{"author":"James's AI","timestamp":1790597135436}@@2022. Tier B.++}
-13.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [DISCO develops the DFD6080 fully automatic dicing saw for work sizes up to 400 mm square {--{"author":"James's AI","timestamp":1790597135436}@@(最大400mm角のパッケージ切断に対応したダイシングソー「DFD6080」を開発)](https://www.disco.co.jp/eg/news/corp/20251215_1.html)--}{++{"author":"James's AI","timestamp":1790597135436}@@(最大400mm角のパッケージ切断に対応したダイシングソー「DFD6080」を開発)](https://www.disco.co.jp/eg/news/corp/20251215_1.html).++} DISCO Corporation · 15 December {--{"author":"James's AI","timestamp":1790597135436}@@2025--}{++{"author":"James's AI","timestamp":1790597135436}@@2025. Tier A.++}
-14.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [Revenues (us-gaap:Revenues) reported by KULICKE AND SOFFA INDUSTRIES, INC., XBRL company concept {--{"author":"James's AI","timestamp":1790597135436}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0000056978/us-gaap/Revenues.json)--}{++{"author":"James's AI","timestamp":1790597135436}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0000056978/us-gaap/Revenues.json).++} U.S. Securities and Exchange Commission (XBRL data for KULICKE AND SOFFA INDUSTRIES, {--{"author":"James's AI","timestamp":1790597135436}@@INC.)--}{++{"author":"James's AI","timestamp":1790597135436}@@INC.). Tier A.++}
-15.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 {--{"author":"James's AI","timestamp":1790597135436}@@Results](https://www.besi.com/investor-relations/press-releases/2025/details-1/be-semiconductor-industries-nv-announces-q2-26-and-h1-26-results/)--}{++{"author":"James's AI","timestamp":1790597135436}@@Results](https://www.besi.com/investor-relations/press-releases/2025/details-1/be-semiconductor-industries-nv-announces-q2-26-and-h1-26-results/).++} BE Semiconductor Industries (Besi) · 23 July {--{"author":"James's AI","timestamp":1790597135436}@@2026--}{++{"author":"James's AI","timestamp":1790597135436}@@2026. Tier A.++}
-16.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [ASMPT Secures Additional Orders for Fifteen Chip-to-Substrate Thermo-Compression Bonding Tools Driven by AI {--{"author":"James's AI","timestamp":1790597135436}@@Tailwind](https://www.asmpt.com/en/investor-relations/news-events/asmpt-secures-additional-orders-for-fifteen-chip-to-substrate-thermo-compression-bonding-tools-driven-by-ai-tailwind/)--}{++{"author":"James's AI","timestamp":1790597135436}@@Tailwind](https://www.asmpt.com/en/investor-relations/news-events/asmpt-secures-additional-orders-for-fifteen-chip-to-substrate-thermo-compression-bonding-tools-driven-by-ai-tailwind/).++} ASMPT · 22 December {--{"author":"James's AI","timestamp":1790597135436}@@2025--}{++{"author":"James's AI","timestamp":1790597135436}@@2025. Tier A.++}
-17.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [ASMPT Announces 2025 Annual Results AI-Driven Structural Growth Underpins Group {--{"author":"James's AI","timestamp":1790597135436}@@Performance](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/)--}{++{"author":"James's AI","timestamp":1790597135436}@@Performance](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/).++} ASMPT · 4 March {--{"author":"James's AI","timestamp":1790597135436}@@2026--}{++{"author":"James's AI","timestamp":1790597135436}@@2026. Tier A.++}
-18.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [Revenue (ifrs-full:Revenue) reported by ASE Technology Holding Co., Ltd., XBRL company concept {--{"author":"James's AI","timestamp":1790597135436}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0001122411/ifrs-full/Revenue.json)--}{++{"author":"James's AI","timestamp":1790597135436}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0001122411/ifrs-full/Revenue.json).++} U.S. Securities and Exchange Commission (XBRL data for ASE Technology Holding Co., {--{"author":"James's AI","timestamp":1790597135436}@@Ltd.)--}{++{"author":"James's AI","timestamp":1790597135436}@@Ltd.). Tier A.++}
-19.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [Inside Beijing’s Chipmaking {--{"author":"James's AI","timestamp":1790597135436}@@Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/)--}{++{"author":"James's AI","timestamp":1790597135436}@@Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/).++} Center for Security and Emerging Technology (CSET) · 14 July {--{"author":"James's AI","timestamp":1790597135436}@@2025--}{++{"author":"James's AI","timestamp":1790597135436}@@2025. Tier A.++}
-20.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [Advanced Packaging: How Malaysia is Packaging the Future of {--{"author":"James's AI","timestamp":1790597135436}@@AI](https://www.mida.gov.my/advanced-packaging-how-malaysia-is-packaging-the-future-of-ai/)--}{++{"author":"James's AI","timestamp":1790597135436}@@AI](https://www.mida.gov.my/advanced-packaging-how-malaysia-is-packaging-the-future-of-ai/).++} Malaysian Investment Development Authority · 1 July {--{"author":"James's AI","timestamp":1790597135436}@@2026--}{++{"author":"James's AI","timestamp":1790597135436}@@2026. Tier A.++}
-21.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [ASE Technology Holding Co., Ltd., Form 6-K report of foreign private issuer for the period ended {--{"author":"James's AI","timestamp":1790597135436}@@2026-07-30](https://www.sec.gov/Archives/edgar/data/1122411/000095010326011353/dp250875_6k.htm)--}{++{"author":"James's AI","timestamp":1790597135436}@@2026-07-30](https://www.sec.gov/Archives/edgar/data/1122411/000095010326011353/dp250875_6k.htm).++} U.S. Securities and Exchange Commission (filing by ASE Technology Holding Co., Ltd.) · 30 July {--{"author":"James's AI","timestamp":1790597135436}@@2026--}{++{"author":"James's AI","timestamp":1790597135436}@@2026. Tier A.++}
-22.{--{"author":"James's AI","timestamp":1790597135436}@@  B--} [Powertech eyes world's first panel-level packaging for AI chips in {--{"author":"James's AI","timestamp":1790597135436}@@2027](https://asia.nikkei.com/business/tech/semiconductors/powertech-eyes-world-s-first-panel-level-packaging-for-ai-chips-in-2027)--}{++{"author":"James's AI","timestamp":1790597135436}@@2027](https://asia.nikkei.com/business/tech/semiconductors/powertech-eyes-world-s-first-panel-level-packaging-for-ai-chips-in-2027).++} Nikkei Asia · 27 August {--{"author":"James's AI","timestamp":1790597135436}@@2026--}{++{"author":"James's AI","timestamp":1790597135436}@@2026. Tier B.++}
-23.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [Revenue from Contract with Customer, Excluding Assessed Tax (us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax) reported by AMKOR TECHNOLOGY, INC., XBRL company concept {--{"author":"James's AI","timestamp":1790597135436}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0001047127/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json)--}{++{"author":"James's AI","timestamp":1790597135436}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0001047127/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json).++} U.S. Securities and Exchange Commission (XBRL data for AMKOR TECHNOLOGY, {--{"author":"James's AI","timestamp":1790597135436}@@INC.)--}{++{"author":"James's AI","timestamp":1790597135436}@@INC.). Tier A.++}
-24.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [AMKOR TECHNOLOGY, INC., Form 8-K current report for the period ended 2026-07-27 {--{"author":"James's AI","timestamp":1790597135436}@@(8-K)](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000043/amkr6302026erex-991.htm)--}{++{"author":"James's AI","timestamp":1790597135436}@@(8-K)](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000043/amkr6302026erex-991.htm).++} U.S. Securities and Exchange Commission (filing by AMKOR TECHNOLOGY, INC.) · 27 July {--{"author":"James's AI","timestamp":1790597135436}@@2026--}{++{"author":"James's AI","timestamp":1790597135436}@@2026. Tier A.++}
-25.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [Amkor Technology Breaks Ground on New Semiconductor Advanced Packaging and Test Campus in Arizona; Expands Investment to $7 {--{"author":"James's AI","timestamp":1790597135436}@@Billion](https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced)--}{++{"author":"James's AI","timestamp":1790597135436}@@Billion](https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced).++} Amkor {--{"author":"James's AI","timestamp":1790597135436}@@Technology--}{++{"author":"James's AI","timestamp":1790597135436}@@Technology. Tier A.++}
-26.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [TSMC and Amkor Technology Announce Long Term Partnership to Accelerate Advanced Packaging in the United {--{"author":"James's AI","timestamp":1790597135436}@@States](https://ir.amkor.com/news-releases/news-release-details/tsmc-and-amkor-technology-announce-long-term-partnership)--}{++{"author":"James's AI","timestamp":1790597135436}@@States](https://ir.amkor.com/news-releases/news-release-details/tsmc-and-amkor-technology-announce-long-term-partnership).++} Amkor {--{"author":"James's AI","timestamp":1790597135436}@@Technology--}{++{"author":"James's AI","timestamp":1790597135436}@@Technology. Tier A.++}
-27.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [Amkor and TSMC to Expand Partnership and Collaborate on Advanced Packaging in {--{"author":"James's AI","timestamp":1790597135436}@@Arizona](https://pr.tsmc.com/english/news/3174)--}{++{"author":"James's AI","timestamp":1790597135436}@@Arizona](https://pr.tsmc.com/english/news/3174).++} TSMC · 4 October {--{"author":"James's AI","timestamp":1790597135436}@@2024--}{++{"author":"James's AI","timestamp":1790597135436}@@2024. Tier A.++}
-28.{--{"author":"James's AI","timestamp":1790597135436}@@  A--} [Global Annual Semiconductor Sales Increase 25.6% to $791.7 Billion in 2025 - Semiconductor Industry {--{"author":"James's AI","timestamp":1790597135436}@@Association](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/)--}{++{"author":"James's AI","timestamp":1790597135436}@@Association](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/).++} Semiconductor Industry Association · 6 February {--{"author":"James's AI","timestamp":1790597135436}@@2026--}{++{"author":"James's AI","timestamp":1790597135436}@@2026. Tier A.
-:::++}
+:::callout {title="Sources (28)" tone="neutral" collapse="closed"}
+1. [Investors Guide April 25, 2025](https://www.advantest.com/document/en/investors/ir-library/investors-guide/Investors_Guide_2504E.pdf). Advantest · 13 May 2025. Tier A.
+2. [Aehr Receives $22 Million Follow-On Order for AI Processor Wafer-Level Burn-In Systems](https://www.aehr.com/2026/08/aehr-receives-22-million-follow-on-order-for-ai-processor-wafer-level-burn-in-systems/). Aehr Test Systems · 12 August 2026. Tier A.
+3. [Aehr Test Systems Reports Fiscal 2026 Fourth Quarter and Full Year Financial Results with Record Quarterly Bookings and $100 Million Effective Backlog](https://www.aehr.com/2026/07/aehr-test-systems-reports-fiscal-2026-fourth-quarter-and-full-year-financial-results-with-record-quarterly-bookings-and-100-million-effective-backlog/). Aehr Test Systems · 14 July 2026. Tier A.
+4. [FORMFACTOR INC, Form 10-K annual report for the period ended 2025-12-27 (10-K)](https://www.sec.gov/Archives/edgar/data/1039399/000103939926000009/form-20251227.htm). U.S. Securities and Exchange Commission (filing by FORMFACTOR INC) · 20 February 2026. Tier A.
+5. [Q2 2026 Taiwan Semiconductor Manufacturing Co Ltd Earnings Call (Chinese, English) — edited transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf). LSEG StreetEvents (transcript of a TSMC earnings call), via TSMC · 16 July 2026. Tier A.
+6. [ASE Technology Holding Co., Ltd., Form 6-K report of foreign private issuer for the period ended 2026-07-30](https://www.sec.gov/Archives/edgar/data/1122411/000095010326011351/dp250868_6k.htm). U.S. Securities and Exchange Commission (filing by ASE Technology Holding Co., Ltd.) · 30 July 2026. Tier A.
+7. [Advantest, presentation notes for the FY2025 (year ended 31 March 2026) results briefing, 27 April 2026](https://www.advantest.com/document/en/investors/ir-library/result/JE_BIZ_260427_note.pdf). Advantest · 27 April 2026. Tier A.
+8. [Teradyne Reports Fourth Quarter and Full Year 2025 Results](https://investors.teradyne.com/news-events/press-releases/detail/433/teradyne-reports-fourth-quarter-and-full-year-2025-results). Teradyne · 2 February 2026. Tier A.
+9. [Revenue from Contract with Customer, Excluding Assessed Tax (us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax) reported by FormFactor, Inc., XBRL company concept data](https://data.sec.gov/api/xbrl/companyconcept/CIK0001039399/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json). U.S. Securities and Exchange Commission (XBRL data for FormFactor, Inc.). Tier A.
+10. [Technoprobe, press release: the Board of Directors approves the draft statutory and consolidated annual report as at 31 December 2025](https://technoprobe.com/wp-content/uploads/2026/03/PR-FY-2025_.pdf). Technoprobe · 18 March 2026. Tier A.
+11. [Revenue from Contract with Customer, Including Assessed Tax (us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax) reported by COHU, INC., XBRL company concept data](https://data.sec.gov/api/xbrl/companyconcept/CIK0000021535/us-gaap/RevenueFromContractWithCustomerIncludingAssessedTax.json). U.S. Securities and Exchange Commission (XBRL data for COHU, INC.). Tier A.
+12. [DISCO Corporation, The World Leader In Semiconductor Capital Equipment For Cutting, Grinding, Polishing](https://newsletter.semianalysis.com/p/disco-corporation-the-world-leader). SemiAnalysis · 19 July 2022. Tier B.
+13. [DISCO develops the DFD6080 fully automatic dicing saw for work sizes up to 400 mm square (最大400mm角のパッケージ切断に対応したダイシングソー「DFD6080」を開発)](https://www.disco.co.jp/eg/news/corp/20251215_1.html). DISCO Corporation · 15 December 2025. Tier A.
+14. [Revenues (us-gaap:Revenues) reported by KULICKE AND SOFFA INDUSTRIES, INC., XBRL company concept data](https://data.sec.gov/api/xbrl/companyconcept/CIK0000056978/us-gaap/Revenues.json). U.S. Securities and Exchange Commission (XBRL data for KULICKE AND SOFFA INDUSTRIES, INC.). Tier A.
+15. [BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results](https://www.besi.com/investor-relations/press-releases/2025/details-1/be-semiconductor-industries-nv-announces-q2-26-and-h1-26-results/). BE Semiconductor Industries (Besi) · 23 July 2026. Tier A.
+16. [ASMPT Secures Additional Orders for Fifteen Chip-to-Substrate Thermo-Compression Bonding Tools Driven by AI Tailwind](https://www.asmpt.com/en/investor-relations/news-events/asmpt-secures-additional-orders-for-fifteen-chip-to-substrate-thermo-compression-bonding-tools-driven-by-ai-tailwind/). ASMPT · 22 December 2025. Tier A.
+17. [ASMPT Announces 2025 Annual Results AI-Driven Structural Growth Underpins Group Performance](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/). ASMPT · 4 March 2026. Tier A.
+18. [Revenue (ifrs-full:Revenue) reported by ASE Technology Holding Co., Ltd., XBRL company concept data](https://data.sec.gov/api/xbrl/companyconcept/CIK0001122411/ifrs-full/Revenue.json). U.S. Securities and Exchange Commission (XBRL data for ASE Technology Holding Co., Ltd.). Tier A.
+19. [Inside Beijing’s Chipmaking Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/). Center for Security and Emerging Technology (CSET) · 14 July 2025. Tier A.
+20. [Advanced Packaging: How Malaysia is Packaging the Future of AI](https://www.mida.gov.my/advanced-packaging-how-malaysia-is-packaging-the-future-of-ai/). Malaysian Investment Development Authority · 1 July 2026. Tier A.
+21. [ASE Technology Holding Co., Ltd., Form 6-K report of foreign private issuer for the period ended 2026-07-30](https://www.sec.gov/Archives/edgar/data/1122411/000095010326011353/dp250875_6k.htm). U.S. Securities and Exchange Commission (filing by ASE Technology Holding Co., Ltd.) · 30 July 2026. Tier A.
+22. [Powertech eyes world's first panel-level packaging for AI chips in 2027](https://asia.nikkei.com/business/tech/semiconductors/powertech-eyes-world-s-first-panel-level-packaging-for-ai-chips-in-2027). Nikkei Asia · 27 August 2026. Tier B.
+23. [Revenue from Contract with Customer, Excluding Assessed Tax (us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax) reported by AMKOR TECHNOLOGY, INC., XBRL company concept data](https://data.sec.gov/api/xbrl/companyconcept/CIK0001047127/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json). U.S. Securities and Exchange Commission (XBRL data for AMKOR TECHNOLOGY, INC.). Tier A.
+24. [AMKOR TECHNOLOGY, INC., Form 8-K current report for the period ended 2026-07-27 (8-K)](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000043/amkr6302026erex-991.htm). U.S. Securities and Exchange Commission (filing by AMKOR TECHNOLOGY, INC.) · 27 July 2026. Tier A.
+25. [Amkor Technology Breaks Ground on New Semiconductor Advanced Packaging and Test Campus in Arizona; Expands Investment to $7 Billion](https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced). Amkor Technology. Tier A.
+26. [TSMC and Amkor Technology Announce Long Term Partnership to Accelerate Advanced Packaging in the United States](https://ir.amkor.com/news-releases/news-release-details/tsmc-and-amkor-technology-announce-long-term-partnership). Amkor Technology. Tier A.
+27. [Amkor and TSMC to Expand Partnership and Collaborate on Advanced Packaging in Arizona](https://pr.tsmc.com/english/news/3174). TSMC · 4 October 2024. Tier A.
+28. [Global Annual Semiconductor Sales Increase 25.6% to $791.7 Billion in 2025 - Semiconductor Industry Association](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/). Semiconductor Industry Association · 6 February 2026. Tier A.
+:::
 
 ## Systems and Networking ^systems-and-networking
 
 A finished package is useless until it is bolted to a baseboard, fed a thousand amps and wired to seventy-one other packages. Many firms can do the assembly; few can make the lasers for the optical links.
 
-{--{"author":"James's AI","timestamp":1790597146929}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
-
-1,325--}{++{"author":"James's AI","timestamp":1790597146929}@@*1,325++} words / 6{--{"author":"James's AI","timestamp":1790597146929}@@ minSpecimen: GPU baseboard
-
-**In plain terms**
-
---}{++{"author":"James's AI","timestamp":1790597146929}@@ min*
+*1,325 words / 6 min*
 
 :::callout {title="In plain terms" tone="neutral"}
-++}One AI chip is not enough to train a model. So seventy-two of them are wired together in a rack, a cabinet the size of a wardrobe, and run as one computer. Each chip sits on its own board and draws more than a thousand amps, several times the current a whole house is wired to carry. The chips have to swap results with each other all the time, and a copper wire can carry those signals only a few meters before they fade, so the longer links send them as light down glass fiber. Many companies can build the rack. Only a few can make the lasers that send the light, and that is the narrow point.{++{"author":"James's AI","timestamp":1790597146929}@@
-:::++}
+One AI chip is not enough to train a model. So seventy-two of them are wired together in a rack, a cabinet the size of a wardrobe, and run as one computer. Each chip sits on its own board and draws more than a thousand amps, several times the current a whole house is wired to carry. The chips have to swap results with each other all the time, and a copper wire can carry those signals only a few meters before they fade, so the longer links send them as light down glass fiber. Many companies can build the rack. Only a few can make the lasers that send the light, and that is the narrow point.
+:::
 
 ### In short ^in-short-14
 
 At the rack, the hard parts are power and light. Assembly is competitive and can move countries in a year. The control points are NVLink-class scale-up switching, which one firm still owns [3](https://www.nvidia.com/en-us/data-center/nvlink/), and indium phosphide lasers, where Nvidia paid $4 billion for capacity it could not order [17](https://nvidianews.nvidia.com/news/nvidia-announces-strategic-partnership-with-lumentum-to-develop-state-of-the-art-optics-technology) and 70 percent of the feedstock is Chinese [16](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-indium.pdf).
 
-{--{"author":"James's AI","timestamp":1790597146929}@@Concentration: **High**--}{++{"author":"James's AI","timestamp":1790597146929}@@:::callout {title="Chokepoint card" tone="amber"}
-**Concentration:** High++}
+:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** High
 
-{--{"author":"James's AI","timestamp":1790597146929}@@Substitutability: **Moderate**.--}{++{"author":"James's AI","timestamp":1790597146929}@@**Substitutability:** Moderate.++} Rated on the two most concentrated parts: Nvidia alone sells NVLink, the link that joins the accelerators in a rack, and few firms make the lasers for the optical links.
+**Substitutability:** Moderate. Rated on the two most concentrated parts: Nvidia alone sells NVLink, the link that joins the accelerators in a rack, and few firms make the lasers for the optical links.
 
-{--{"author":"James's AI","timestamp":1790597146929}@@Price--}{++{"author":"James's AI","timestamp":1790597146929}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597146929}@@size: **Nvidia--}{++{"author":"James's AI","timestamp":1790597146929}@@size:** Nvidia++} put $2B each into Coherent and Lumentum in March 2026 to buy indium phosphide laser {--{"author":"James's AI","timestamp":1790597146929}@@capacity**--}{++{"author":"James's AI","timestamp":1790597146929}@@capacity++}
+**Price or market size:** Nvidia put $2B each into Coherent and Lumentum in March 2026 to buy indium phosphide laser capacity
 
 **Who leads**
 
--{--{"author":"James's AI","timestamp":1790597146929}@@   USNvidia--}{++{"author":"James's AI","timestamp":1790597146929}@@ **Nvidia** (US):++} NVLink and NVSwitch for links inside a rack; InfiniBand and Spectrum-X Ethernet between racks
--{--{"author":"James's AI","timestamp":1790597146929}@@   USBroadcom--}{++{"author":"James's AI","timestamp":1790597146929}@@ **Broadcom** (US):++} Switch chips sold to any buyer (Tomahawk, Jericho) and most custom AI accelerators
--{--{"author":"James's AI","timestamp":1790597146929}@@   TWFoxconn--}{++{"author":"James's AI","timestamp":1790597146929}@@ **Foxconn** (TW):++} Largest AI rack assembler; builds in Taiwan, Mexico, Texas
--{--{"author":"James's AI","timestamp":1790597146929}@@   CNInnoLight--}{++{"author":"James's AI","timestamp":1790597146929}@@ **InnoLight** (CN):++} High-speed optical modules; plants in Suzhou, Taiwan and Thailand
--{--{"author":"James's AI","timestamp":1790597146929}@@   USCoherent--}{++{"author":"James's AI","timestamp":1790597146929}@@ **Coherent** (US):++} Indium phosphide lasers and data center transceivers
+- **Nvidia** (US): NVLink and NVSwitch for links inside a rack; InfiniBand and Spectrum-X Ethernet between racks
+- **Broadcom** (US): Switch chips sold to any buyer (Tomahawk, Jericho) and most custom AI accelerators
+- **Foxconn** (TW): Largest AI rack assembler; builds in Taiwan, Mexico, Texas
+- **InnoLight** (CN): High-speed optical modules; plants in Suzhou, Taiwan and Thailand
+- **Coherent** (US): Indium phosphide lasers and data center transceivers
 
 **Where it is made**
 
--{--{"author":"James's AI","timestamp":1790597146929}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597146929}@@ **United States**:++} Switch and accelerator silicon, indium phosphide lasers, system design
--{--{"author":"James's AI","timestamp":1790597146929}@@   TWTaiwan--}{++{"author":"James's AI","timestamp":1790597146929}@@ **Taiwan**:++} Contract design and rack assembly; high-layer-count circuit boards
--{--{"author":"James's AI","timestamp":1790597146929}@@   CNChina--}{++{"author":"James's AI","timestamp":1790597146929}@@ **China**:++} Optical module assembly and test; most of the world's indium
--{--{"author":"James's AI","timestamp":1790597146929}@@   THThailand--}{++{"author":"James's AI","timestamp":1790597146929}@@ **Thailand**:++} Chinese module makers' offshore transceiver plants
--{--{"author":"James's AI","timestamp":1790597146929}@@   MXMexico--}{++{"author":"James's AI","timestamp":1790597146929}@@ **Mexico**:++} Rack integration for the North American market
+- **United States**: Switch and accelerator silicon, indium phosphide lasers, system design
+- **Taiwan**: Contract design and rack assembly; high-layer-count circuit boards
+- **China**: Optical module assembly and test; most of the world's indium
+- **Thailand**: Chinese module makers' offshore transceiver plants
+- **Mexico**: Rack integration for the North American market
 
-{--{"author":"James's AI","timestamp":1790597146929}@@Why--}{++{"author":"James's AI","timestamp":1790597146929}@@**Why++} substitution is {--{"author":"James's AI","timestamp":1790597146929}@@possible--}{++{"author":"James's AI","timestamp":1790597146929}@@possible**++}
+**Why substitution is possible**
 
 Rack assembly is easy to replace: if Foxconn stopped, Quanta and Wistron would take over the volume within a few quarters. The two concentrated parts are inside the rack, and a fix is under way for each. UALink is a published rival to NVLink, running 200 Gb/s per lane and joining up to 1,024 accelerators. For the lasers, Nvidia put $2 billion each into Coherent and Lumentum to secure supply that an ordinary order could not. Any newcomer with money would have to do the same, over two to five years.
 
@@ -3320,27 +2820,23 @@ China holds two parts of the optical link that the United States does not. Chine
 
 **Where the US stands**
 
-American firms make the switch chips, the links that join accelerators inside a rack, and the lasers, but do almost none of the rack assembly. Nvidia's partners began building racks in Houston and Dallas in 2025. In July 2026 the Federal Communications Commission barred new approvals for imported equipment containing parts from firms on its Covered List.{++{"author":"James's AI","timestamp":1790597146929}@@
-:::++}
+American firms make the switch chips, the links that join accelerators inside a rack, and the lasers, but do almost none of the rack assembly. Nvidia's partners began building racks in Houston and Dallas in 2025. In July 2026 the Federal Communications Commission barred new approvals for imported equipment containing parts from firms on its Covered List.
+:::
 
 A package computes nothing until it is built into a machine, and building the machine is a separate industry from making the package.
 
 ### How it works ^how-it-works-14
 
-{--{"author":"James's AI","timestamp":1790594487457}@@![](https://chipsupplychain.org/media/racks-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594487457}@@![How AI chips are wired together](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-racks.jpg)++}{--{"author":"James's AI","timestamp":1790597146929}@@
+![How AI chips are wired together](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-racks.jpg)
 
-**Figure: How--}{++{"author":"James's AI","timestamp":1790597146929}@@
-
-*How++} AI chips are wired{--{"author":"James's AI","timestamp":1790597146929}@@ together.** An animation on the live site ([watch it--}{++{"author":"James's AI","timestamp":1790597146929}@@ together. The last frame of an animation++} on {--{"author":"James's AI","timestamp":1790597146929}@@chipsupplychain.org](https://chipsupplychain.org/#systems-and-networking)); above is its last frame. --}{++{"author":"James's AI","timestamp":1790597146929}@@the original site. ++}Its {--{"author":"James's AI","timestamp":1790597146929}@@steps:--}{++{"author":"James's AI","timestamp":1790597146929}@@steps:*++}
+*How AI chips are wired together. The last frame of an animation on the original site. Its steps:*
 
 1. **One rack.** One AI chip is not enough to train a model. So 72 of them are wired together in one rack, a cabinet the size of a wardrobe, and run as one computer.
 2. **Copper inside.** Inside the rack, copper wires link each tray of chips to the switch trays, which pass data between any two chips. Copper carries a signal only a few meters.
 3. **Light between.** Training a large model takes many racks, too far apart for copper. The links between racks carry the signal as flashes of light in glass fiber.
 4. **Lasers.** At each end of a fiber, a laser turns the electrical signal into flashes of light, and a detector turns them back. That lets thousands of chips in many racks work on one model.
 
-{--{"author":"James's AI","timestamp":1790597146929}@@_Simplified.--}{++{"author":"James's AI","timestamp":1790597146929}@@*Simplified.++} The trays follow the layout of an Nvidia NVL72 rack; racks and fibers are not drawn to {--{"author":"James's AI","timestamp":1790597146929}@@scale._
-
-How AI chips are wired together--}{++{"author":"James's AI","timestamp":1790597146929}@@scale.*++}
+*Simplified. The trays follow the layout of an Nvidia NVL72 rack; racks and fibers are not drawn to scale.*
 
 An accelerator ships as a module, the chip on a small board with its power supply and memory stacks. Nvidia calls its version SXM, and the open-standards equivalent is the Open Compute Project's accelerator module. Eight bolt onto a baseboard that carries their power and the switch chips, which pass data between any two modules at full speed.
 
@@ -3354,19 +2850,17 @@ Every AI cluster runs two networks that are not interchangeable. Scale-up binds 
 
 The designs differ in how many accelerators can share one pool of memory.
 
--{--{"author":"James's AI","timestamp":1790597146929}@@   --}{++{"author":"James's AI","timestamp":1790597146929}@@ ++}**NVLink and NVSwitch.** Nvidia's per-GPU bandwidth went from 900 GB/s in NVLink 4 to 1,800 in NVLink 5 and 3,600 in NVLink 6; the rack's own network moves 130 TB/s on Blackwell and 260 TB/s on Rubin [3](https://www.nvidia.com/en-us/data-center/nvlink/).
--{--{"author":"James's AI","timestamp":1790597146929}@@   --}{++{"author":"James's AI","timestamp":1790597146929}@@ ++}**UALink.** The open answer runs 200 Gb/s per lane, four lanes to a station for 800 Gb/s, and can address up to 1,024 endpoints in one group [4](https://ualinkconsortium.org/blog/ualink-200g-1-0-specification-overview-802/).
--{--{"author":"James's AI","timestamp":1790597146929}@@   --}{++{"author":"James's AI","timestamp":1790597146929}@@ ++}**Google's 3D torus.** Ironwood, the seventh generation of Google's own TPU accelerator, wires 64 chips to a rack and uses optical switches to join cubes into superpods of 9,216 chips, trading latency for the ability to route around a failed rack in software [5](https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack).
+- **NVLink and NVSwitch.** Nvidia's per-GPU bandwidth went from 900 GB/s in NVLink 4 to 1,800 in NVLink 5 and 3,600 in NVLink 6; the rack's own network moves 130 TB/s on Blackwell and 260 TB/s on Rubin [3](https://www.nvidia.com/en-us/data-center/nvlink/).
+- **UALink.** The open answer runs 200 Gb/s per lane, four lanes to a station for 800 Gb/s, and can address up to 1,024 endpoints in one group [4](https://ualinkconsortium.org/blog/ualink-200g-1-0-specification-overview-802/).
+- **Google's 3D torus.** Ironwood, the seventh generation of Google's own TPU accelerator, wires 64 chips to a rack and uses optical switches to join cubes into superpods of 9,216 chips, trading latency for the ability to route around a failed rack in software [5](https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack).
 
-{++{"author":"James's AI","timestamp":1790594224849}@@**Chart:** ++}NVLink bandwidth per GPU by {--{"author":"James's AI","timestamp":1790597146929}@@generationGB/s
-
---}{++{"author":"James's AI","timestamp":1790597146929}@@generation
+**Chart:** NVLink bandwidth per GPU by generation
 
 | | GB/s |
 |---|---:|
-| ++}NVLink 4 (Hopper) {++{"author":"James's AI","timestamp":1790597146929}@@| ++}900 {++{"author":"James's AI","timestamp":1790597146929}@@|
-| ++}NVLink 5 (Blackwell) {++{"author":"James's AI","timestamp":1790597146929}@@| ++}1,800 {++{"author":"James's AI","timestamp":1790597146929}@@|
-| ++}NVLink 6 (Rubin) {++{"author":"James's AI","timestamp":1790597146929}@@| ++}3,600{++{"author":"James's AI","timestamp":1790597146929}@@ |++}
+| NVLink 4 (Hopper) | 900 |
+| NVLink 5 (Blackwell) | 1,800 |
+| NVLink 6 (Rubin) | 3,600 |
 
 Source: [NVIDIA NVLink product page, 2026](https://www.nvidia.com/en-us/data-center/nvlink/)
 
@@ -3374,13 +2868,13 @@ Source: [NVIDIA NVLink product page, 2026](https://www.nvidia.com/en-us/data-cen
 
 InfiniBand, the specialized network built for supercomputers, carried nearly all scale-out traffic when AI clusters were small and alike. Ethernet overtook it on raw capacity first: Broadcom doubled the bandwidth of the switch chips it sells to all comers every generation, from 25.6 Tbps on one chip in Tomahawk 4 [6](https://www.broadcom.com/company/news/product-releases/52756) to 51.2 in Tomahawk 5 [7](https://investors.broadcom.com/news-releases/news-release-details/broadcom-ships-tomahawk-5-industrys-highest-bandwidth-switch) and 102.4 in Tomahawk 6 [8](https://www.broadcom.com/company/news/product-releases/64031). Then the Ultra Ethernet Consortium published its 1.0 specification in June 2025, standardizing the load balancing, congestion control and lossless behavior InfiniBand had from the start [9](https://ultraethernet.org/ultra-ethernet-consortium-uec-launches-specification-1-0-transforming-ethernet-for-ai-and-hpc-at-scale/).
 
-{++{"author":"James's AI","timestamp":1790594225528}@@**Chart:** ++}Broadcom Tomahawk switching capacity on one {--{"author":"James's AI","timestamp":1790597146929}@@chipTbps--}{++{"author":"James's AI","timestamp":1790597146929}@@chip++}
+**Chart:** Broadcom Tomahawk switching capacity on one chip
 
-{++{"author":"James's AI","timestamp":1790597146929}@@| | Tbps |
+| | Tbps |
 |---|---:|
-| ++}Tomahawk 4 {++{"author":"James's AI","timestamp":1790597146929}@@| ++}25.6 {++{"author":"James's AI","timestamp":1790597146929}@@|
-| ++}Tomahawk 5 {++{"author":"James's AI","timestamp":1790597146929}@@| ++}51.2 {++{"author":"James's AI","timestamp":1790597146929}@@|
-| ++}Tomahawk 6 {++{"author":"James's AI","timestamp":1790597146929}@@| ++}102.4{++{"author":"James's AI","timestamp":1790597146929}@@ |++}
+| Tomahawk 4 | 25.6 |
+| Tomahawk 5 | 51.2 |
+| Tomahawk 6 | 102.4 |
 
 Source: [Broadcom product releases for Tomahawk 4, 5 and 6](https://www.broadcom.com/company/news/product-releases/64031)
 
@@ -3388,7 +2882,7 @@ Nvidia sells both networks, telling investors that a $75.2 billion data center q
 
 #### Optics: pluggable, then co-packaged ^optics-pluggable-then-co-packaged
 
-Every link longer than a few meters is optical, and a cluster needs several transceivers, the modules that turn electricity into light and back, for each accelerator. Their power cost is why both switch vendors are moving the optics onto the switch package itself: Broadcom's Tomahawk 6 Davisson cuts optical interconnect power by about 70 percent, more than 3.5 times better than {--{"author":"James's AI","timestamp":1790597146929}@@[11](https://www.broadcom.com/company/news/product-releases/63626) --}plug-in modules {--{"author":"James's AI","timestamp":1790597146929}@@,--}{++{"author":"James's AI","timestamp":1790597146929}@@[11](https://www.broadcom.com/company/news/product-releases/63626),++} and Nvidia's Spectrum-X Photonics reaches 512 ports of 800 gigabits during 2026 using four times fewer lasers [12](https://nvidianews.nvidia.com/news/nvidia-spectrum-x-co-packaged-optics-networking-switches-ai-factories).
+Every link longer than a few meters is optical, and a cluster needs several transceivers, the modules that turn electricity into light and back, for each accelerator. Their power cost is why both switch vendors are moving the optics onto the switch package itself: Broadcom's Tomahawk 6 Davisson cuts optical interconnect power by about 70 percent, more than 3.5 times better than plug-in modules [11](https://www.broadcom.com/company/news/product-releases/63626), and Nvidia's Spectrum-X Photonics reaches 512 ports of 800 gigabits during 2026 using four times fewer lasers [12](https://nvidianews.nvidia.com/news/nvidia-spectrum-x-co-packaged-optics-networking-switches-ai-factories).
 
 ### Who makes it ^who-makes-it-14
 
@@ -3402,153 +2896,123 @@ Physical assembly is done by Taiwanese firms. Foxconn booked NT$8.1 trillion of 
 
 ### The chokepoint ^the-chokepoint-14
 
-Several capable {--{"author":"James's AI","timestamp":1790594501765}@@ODMs--}{++{"author":"James's AI","timestamp":1790594501765}@@contract manufacturers++} on three continents screw racks together, and the power {--{"author":"James's AI","timestamp":1790594501765}@@supplies,--}{++{"author":"James's AI","timestamp":1790594501765}@@shelves, copper busbars,++} cables and connectors have many suppliers. If Foxconn stopped tomorrow, Quanta and Wistron would absorb the volume in a couple of quarters.
+Several capable contract manufacturers on three continents screw racks together, and the power shelves, copper busbars, cables and connectors have many suppliers. If Foxconn stopped tomorrow, Quanta and Wistron would absorb the volume in a couple of quarters.
 
 The parts that cannot be replaced that fast are the components that go into the rack.
 
--{--{"author":"James's AI","timestamp":1790597146929}@@   --}{++{"author":"James's AI","timestamp":1790597146929}@@ ++}**Indium phosphide laser capacity.** The shortage is in material and fab space: Nvidia's answer was to buy into two laser makers [18](https://nvidianews.nvidia.com/news/nvidia-and-coherent-announce-strategic-partnership-to-develop-optics-technology-to-scale-next-generation-data-center-architecture), and the indium those lasers need is 70 percent Chinese [16](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-indium.pdf).
--{--{"author":"James's AI","timestamp":1790597146929}@@   --}{++{"author":"James's AI","timestamp":1790597146929}@@ ++}**NVSwitch.** Nobody else sells a scale-up switch of NVLink's bandwidth to all comers, which is what UALink exists to change [4](https://ualinkconsortium.org/blog/ualink-200g-1-0-specification-overview-802/).
--{--{"author":"James's AI","timestamp":1790597146929}@@   --}{++{"author":"James's AI","timestamp":1790597146929}@@ ++}**High-layer-count {++{"author":"James's AI","timestamp":1790593591656}@@circuit ++}boards.** The boards, and the {++{"author":"James's AI","timestamp":1790593591656}@@low-loss ++}laminate they are built from, are concentrated in Taiwan and Japan; see [[#^substrates-and-pcbs|Substrates and PCBs]].
+- **Indium phosphide laser capacity.** The shortage is in material and fab space: Nvidia's answer was to buy into two laser makers [18](https://nvidianews.nvidia.com/news/nvidia-and-coherent-announce-strategic-partnership-to-develop-optics-technology-to-scale-next-generation-data-center-architecture), and the indium those lasers need is 70 percent Chinese [16](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-indium.pdf).
+- **NVSwitch.** Nobody else sells a scale-up switch of NVLink's bandwidth to all comers, which is what UALink exists to change [4](https://ualinkconsortium.org/blog/ualink-200g-1-0-specification-overview-802/).
+- **High-layer-count circuit boards.** The boards, and the low-loss laminate they are built from, are concentrated in Taiwan and Japan; see [[#^substrates-and-pcbs|Substrates and PCBs]].
 
 Optical module assembly is a separate case: concentrated, but not technically hard. Where the modules get built follows cost and policy, and it can change in a year or two.
 
 ### Key evaluation criteria ^key-evaluation-criteria-14
 
--{--{"author":"James's AI","timestamp":1790597146929}@@   --}{++{"author":"James's AI","timestamp":1790597146929}@@ ++}**Scale-up domain size** is how many accelerators share one pool of memory: up to 1,024 endpoints in the UALink spec [4](https://ualinkconsortium.org/blog/ualink-200g-1-0-specification-overview-802/) and 9,216 for an Ironwood superpod [5](https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack).
--{--{"author":"James's AI","timestamp":1790597146929}@@   --}{++{"author":"James's AI","timestamp":1790597146929}@@ ++}**Bandwidth per accelerator** limits how far one model can be split across chips. NVLink 6 is 3,600 GB/s [3](https://www.nvidia.com/en-us/data-center/nvlink/).
--{--{"author":"James's AI","timestamp":1790597146929}@@   --}{++{"author":"James's AI","timestamp":1790597146929}@@ ++}**Picojoules per bit** is the energy cost of moving data. Optics dominate network power at 800 gigabits and above, and co-packaging is more than 3.5 times better than plug-in modules [11](https://www.broadcom.com/company/news/product-releases/63626).
--{--{"author":"James's AI","timestamp":1790597146929}@@   --}{++{"author":"James's AI","timestamp":1790597146929}@@ ++}**Serviceability** falls with co-packaged optics, which trade field-replaceable modules for a switch that goes back whole when a channel fails.
--{--{"author":"James's AI","timestamp":1790597146929}@@   **Supply** concentration--}{++{"author":"James's AI","timestamp":1790597146929}@@ **Supply concentration**++} is in the components: many firms assemble the modules; far fewer can make the lasers inside them.
+- **Scale-up domain size** is how many accelerators share one pool of memory: up to 1,024 endpoints in the UALink spec [4](https://ualinkconsortium.org/blog/ualink-200g-1-0-specification-overview-802/) and 9,216 for an Ironwood superpod [5](https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack).
+- **Bandwidth per accelerator** limits how far one model can be split across chips. NVLink 6 is 3,600 GB/s [3](https://www.nvidia.com/en-us/data-center/nvlink/).
+- **Picojoules per bit** is the energy cost of moving data. Optics dominate network power at 800 gigabits and above, and co-packaging is more than 3.5 times better than plug-in modules [11](https://www.broadcom.com/company/news/product-releases/63626).
+- **Serviceability** falls with co-packaged optics, which trade field-replaceable modules for a switch that goes back whole when a channel fails.
+- **Supply concentration** is in the components: many firms assemble the modules; far fewer can make the lasers inside them.
 
-{--{"author":"James's AI","timestamp":1790597146929}@@Card 1 of 4Question
+::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.
 
-What is an AI rack?--}{++{"author":"James's AI","timestamp":1790597146929}@@::::callout {title="Flashcards" tone="blue"}
-Recall each answer, then open the card.++}
+:::callout {title="Card 1 of 4: What is an AI rack?" tone="neutral" collapse="closed"}
+A cabinet of 72 AI chips wired together to run as one computer.
 
-{--{"author":"James's AI","timestamp":1790597146929}@@Card--}{++{"author":"James's AI","timestamp":1790597146929}@@:::callout {title="Card++} 1 of {--{"author":"James's AI","timestamp":1790597146929}@@4Answer
-
---}{++{"author":"James's AI","timestamp":1790597146929}@@4: What is an AI rack?" tone="neutral" collapse="closed"}
-++}A cabinet of 72 AI chips wired together to run as one computer.
-
-The chips swap results with each other constantly. [[#^how-it-works-14|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597146929}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597146929}@@Card --}{++{"author":"James's AI","timestamp":1790597146929}@@:::callout {title="Card ++}2 of{--{"author":"James's AI","timestamp":1790597146929}@@ 4Question
-
---}{++{"author":"James's AI","timestamp":1790597146929}@@ 4: ++}Why do the longer links between AI chips carry signals as{--{"author":"James's AI","timestamp":1790597146929}@@ light?
-
-Card 2 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597146929}@@ light?" tone="neutral" collapse="closed"}
-++}Copper carries the signals only a few meters before they fade.
-
-A laser turns the signal into pulses of light that travel down glass fiber. [[#^how-it-works-14|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597146929}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597146929}@@Card--}{++{"author":"James's AI","timestamp":1790597146929}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597146929}@@4Question
-
---}{++{"author":"James's AI","timestamp":1790597146929}@@4: ++}Which parts of an AI rack are hardest to {--{"author":"James's AI","timestamp":1790597146929}@@replace?
-
-Card 3 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597146929}@@replace?" tone="neutral" collapse="closed"}
-++}Nvidia's NVLink switching and the lasers for the optical links.
-
-Rack assembly is easy to move. If Foxconn stopped, Quanta and Wistron could take over within a few quarters. [[#^the-chokepoint-14|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597146929}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597146929}@@Card--}{++{"author":"James's AI","timestamp":1790597146929}@@:::callout {title="Card++} 4 of{--{"author":"James's AI","timestamp":1790597146929}@@ 4Question
-
---}{++{"author":"James's AI","timestamp":1790597146929}@@ 4: ++}What does China control in the optical {--{"author":"James's AI","timestamp":1790597146929}@@links?
-
-Card 4 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597146929}@@links?" tone="neutral" collapse="closed"}
-++}About 70 percent of the world's indium, the raw material for the lasers.
-
-Chinese firms also assemble high-speed optical modules in volume. [[#^the-chokepoint-14|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597146929}@@
+The chips swap results with each other constantly. [[#^how-it-works-14|Reread: How it works]]
 :::
 
-::::++}
+:::callout {title="Card 2 of 4: Why do the longer links between AI chips carry signals as light?" tone="neutral" collapse="closed"}
+Copper carries the signals only a few meters before they fade.
 
-{--{"author":"James's AI","timestamp":1790597146929}@@#### Four--}{++{"author":"James's AI","timestamp":1790597146929}@@:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597146929}@@remember ^four-things-to-remember-12
+A laser turns the signal into pulses of light that travel down glass fiber. [[#^how-it-works-14|Reread: How it works]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597146929}@@remember" tone="green"}
-++}-{--{"author":"James's AI","timestamp":1790597146929}@@   --}{++{"author":"James's AI","timestamp":1790597146929}@@ ++}An AI rack wires 72 chips together to run as one computer.
--{--{"author":"James's AI","timestamp":1790597146929}@@   --}{++{"author":"James's AI","timestamp":1790597146929}@@ ++}Longer links carry signals as light, because copper fades after a few meters.
--{--{"author":"James's AI","timestamp":1790597146929}@@   --}{++{"author":"James's AI","timestamp":1790597146929}@@ ++}NVLink switching and the lasers are the hard parts, and rack assembly is easy to move.
--{--{"author":"James's AI","timestamp":1790597146929}@@   --}{++{"author":"James's AI","timestamp":1790597146929}@@ ++}China produces about 70 percent of the world's indium, the raw material for the lasers.{++{"author":"James's AI","timestamp":1790597146929}@@
-:::++}
+:::callout {title="Card 3 of 4: Which parts of an AI rack are hardest to replace?" tone="neutral" collapse="closed"}
+Nvidia's NVLink switching and the lasers for the optical links.
 
-{--{"author":"James's AI","timestamp":1790597146929}@@**Sources (22)**
+Rack assembly is easy to move. If Foxconn stopped, Quanta and Wistron could take over within a few quarters. [[#^the-chokepoint-14|Reread: The chokepoint]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597146929}@@:::callout {title="Sources (22)" tone="neutral" collapse="closed"}
-++}1.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [System Hardware & {--{"author":"James's AI","timestamp":1790597146929}@@Components](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html) Nvidia--}{++{"author":"James's AI","timestamp":1790597146929}@@Components](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html). Nvidia. Tier A.++}
-2.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [NVIDIA, Partners Drive Next-Gen Efficient Gigawatt AI Factories in Buildup for Vera {--{"author":"James's AI","timestamp":1790597146929}@@Rubin](https://blogs.nvidia.com/blog/gigawatt-ai-factories-ocp-vera-rubin)--}{++{"author":"James's AI","timestamp":1790597146929}@@Rubin](https://blogs.nvidia.com/blog/gigawatt-ai-factories-ocp-vera-rubin).++} Nvidia · 13 October {--{"author":"James's AI","timestamp":1790597146929}@@2025--}{++{"author":"James's AI","timestamp":1790597146929}@@2025. Tier A.++}
-3.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [NVLink & NVLink Switch for Advanced Multi-GPU {--{"author":"James's AI","timestamp":1790597146929}@@Communication](https://www.nvidia.com/en-us/data-center/nvlink/)--}{++{"author":"James's AI","timestamp":1790597146929}@@Communication](https://www.nvidia.com/en-us/data-center/nvlink/).++} Nvidia · 20 April {--{"author":"James's AI","timestamp":1790597146929}@@2026--}{++{"author":"James's AI","timestamp":1790597146929}@@2026. Tier A.++}
-4.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [UALink™ 200G 1.0 Specification {--{"author":"James's AI","timestamp":1790597146929}@@Overview](https://ualinkconsortium.org/blog/ualink-200g-1-0-specification-overview-802/)--}{++{"author":"James's AI","timestamp":1790597146929}@@Overview](https://ualinkconsortium.org/blog/ualink-200g-1-0-specification-overview-802/).++} UALink {--{"author":"James's AI","timestamp":1790597146929}@@Consortium--}{++{"author":"James's AI","timestamp":1790597146929}@@Consortium. Tier A.++}
-5.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [Inside the Ironwood TPU codesigned AI {--{"author":"James's AI","timestamp":1790597146929}@@stack](https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack)--}{++{"author":"James's AI","timestamp":1790597146929}@@stack](https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack).++} Google Cloud · 6 November {--{"author":"James's AI","timestamp":1790597146929}@@2025--}{++{"author":"James's AI","timestamp":1790597146929}@@2025. Tier A.++}
-6.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [Broadcom Ships Tomahawk 4, Industry’s Highest Bandwidth Ethernet Switch Chip at 25.6 Terabits per {--{"author":"James's AI","timestamp":1790597146929}@@Second](https://www.broadcom.com/company/news/product-releases/52756) Broadcom--}{++{"author":"James's AI","timestamp":1790597146929}@@Second](https://www.broadcom.com/company/news/product-releases/52756). Broadcom. Tier A.++}
-7.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [Broadcom Ships Tomahawk 5, Industry's Highest Bandwidth Switch Chip to Accelerate AI/ML {--{"author":"James's AI","timestamp":1790597146929}@@Workloads](https://investors.broadcom.com/news-releases/news-release-details/broadcom-ships-tomahawk-5-industrys-highest-bandwidth-switch) Broadcom--}{++{"author":"James's AI","timestamp":1790597146929}@@Workloads](https://investors.broadcom.com/news-releases/news-release-details/broadcom-ships-tomahawk-5-industrys-highest-bandwidth-switch). Broadcom. Tier A.++}
-8.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [Broadcom Now Shipping World’s First 102.4 Tbps Switch in Production {--{"author":"James's AI","timestamp":1790597146929}@@Volume](https://www.broadcom.com/company/news/product-releases/64031) Broadcom--}{++{"author":"James's AI","timestamp":1790597146929}@@Volume](https://www.broadcom.com/company/news/product-releases/64031). Broadcom. Tier A.++}
-9.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [Ultra Ethernet Consortium (UEC) Launches Specification 1.0 Transforming Ethernet for AI and HPC at Scale - Ultra Ethernet {--{"author":"James's AI","timestamp":1790597146929}@@Consortium](https://ultraethernet.org/ultra-ethernet-consortium-uec-launches-specification-1-0-transforming-ethernet-for-ai-and-hpc-at-scale/)--}{++{"author":"James's AI","timestamp":1790597146929}@@Consortium](https://ultraethernet.org/ultra-ethernet-consortium-uec-launches-specification-1-0-transforming-ethernet-for-ai-and-hpc-at-scale/).++} Ultra Ethernet Consortium · 11 June {--{"author":"James's AI","timestamp":1790597146929}@@2025--}{++{"author":"James's AI","timestamp":1790597146929}@@2025. Tier A.++}
-10.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [NVIDIA CORP, Form 10-Q quarterly report for the period ended 2026-04-26 {--{"author":"James's AI","timestamp":1790597146929}@@(10-Q)](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm)--}{++{"author":"James's AI","timestamp":1790597146929}@@(10-Q)](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm).++} U.S. Securities and Exchange Commission (filing by NVIDIA CORP) · 20 May {--{"author":"James's AI","timestamp":1790597146929}@@2026--}{++{"author":"James's AI","timestamp":1790597146929}@@2026. Tier A.++}
-11.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [Broadcom Announces Tomahawk® 6 – Davisson, the Industry’s First 102.4-Tbps Ethernet Switch with Co-Packaged {--{"author":"James's AI","timestamp":1790597146929}@@Optics](https://www.broadcom.com/company/news/product-releases/63626) Broadcom--}{++{"author":"James's AI","timestamp":1790597146929}@@Optics](https://www.broadcom.com/company/news/product-releases/63626). Broadcom. Tier A.++}
-12.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [NVIDIA Announces Spectrum-X Photonics, Co-Packaged Optics Networking Switches to Scale AI Factories to Millions of {--{"author":"James's AI","timestamp":1790597146929}@@GPUs](https://nvidianews.nvidia.com/news/nvidia-spectrum-x-co-packaged-optics-networking-switches-ai-factories)--}{++{"author":"James's AI","timestamp":1790597146929}@@GPUs](https://nvidianews.nvidia.com/news/nvidia-spectrum-x-co-packaged-optics-networking-switches-ai-factories).++} Nvidia · 18 March {--{"author":"James's AI","timestamp":1790597146929}@@2025--}{++{"author":"James's AI","timestamp":1790597146929}@@2025. Tier A.++}
-13.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [InnoLight Technology, company overview {--{"author":"James's AI","timestamp":1790597146929}@@page](https://www.innolight.com/about)--}{++{"author":"James's AI","timestamp":1790597146929}@@page](https://www.innolight.com/about).++} InnoLight {--{"author":"James's AI","timestamp":1790597146929}@@Technology--}{++{"author":"James's AI","timestamp":1790597146929}@@Technology. Tier A.++}
-14.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [Eoptolink Technology, contacts {--{"author":"James's AI","timestamp":1790597146929}@@page](https://www.eoptolink.com/about-us/contacts)--}{++{"author":"James's AI","timestamp":1790597146929}@@page](https://www.eoptolink.com/about-us/contacts).++} Eoptolink {--{"author":"James's AI","timestamp":1790597146929}@@Technology--}{++{"author":"James's AI","timestamp":1790597146929}@@Technology. Tier A.++}
-15.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [Federal Communications Commission {--{"author":"James's AI","timestamp":1790597146929}@@FCC-26-50](https://docs.fcc.gov/public/attachments/FCC-26-50A1.pdf)--}{++{"author":"James's AI","timestamp":1790597146929}@@FCC-26-50](https://docs.fcc.gov/public/attachments/FCC-26-50A1.pdf).++} U.S. Federal Communications {--{"author":"James's AI","timestamp":1790597146929}@@Commission--}{++{"author":"James's AI","timestamp":1790597146929}@@Commission. Tier A.++}
-16.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [Mineral Commodity Summaries {--{"author":"James's AI","timestamp":1790597146929}@@2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-indium.pdf)--}{++{"author":"James's AI","timestamp":1790597146929}@@2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-indium.pdf).++} U.S. Geological Survey · 5 February {--{"author":"James's AI","timestamp":1790597146929}@@2026--}{++{"author":"James's AI","timestamp":1790597146929}@@2026. Tier A.++}
-17.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [NVIDIA Announces Strategic Partnership With Lumentum to Develop State-of-the-Art Optics {--{"author":"James's AI","timestamp":1790597146929}@@Technology](https://nvidianews.nvidia.com/news/nvidia-announces-strategic-partnership-with-lumentum-to-develop-state-of-the-art-optics-technology)--}{++{"author":"James's AI","timestamp":1790597146929}@@Technology](https://nvidianews.nvidia.com/news/nvidia-announces-strategic-partnership-with-lumentum-to-develop-state-of-the-art-optics-technology).++} Nvidia · 2 March {--{"author":"James's AI","timestamp":1790597146929}@@2026--}{++{"author":"James's AI","timestamp":1790597146929}@@2026. Tier A.++}
-18.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [NVIDIA and Coherent Announce Strategic Partnership to Develop Optics Technology to Scale Next-Generation Data Center {--{"author":"James's AI","timestamp":1790597146929}@@Architecture](https://nvidianews.nvidia.com/news/nvidia-and-coherent-announce-strategic-partnership-to-develop-optics-technology-to-scale-next-generation-data-center-architecture)--}{++{"author":"James's AI","timestamp":1790597146929}@@Architecture](https://nvidianews.nvidia.com/news/nvidia-and-coherent-announce-strategic-partnership-to-develop-optics-technology-to-scale-next-generation-data-center-architecture).++} Nvidia · 2 March {--{"author":"James's AI","timestamp":1790597146929}@@2026--}{++{"author":"James's AI","timestamp":1790597146929}@@2026. Tier A.++}
-19.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [Broadcom Inc., Form 8-K current report for the period ended 2026-09-02 {--{"author":"James's AI","timestamp":1790597146929}@@(8-K)](https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm)--}{++{"author":"James's AI","timestamp":1790597146929}@@(8-K)](https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm).++} U.S. Securities and Exchange Commission (filing by Broadcom Inc.) · 2 September {--{"author":"James's AI","timestamp":1790597146929}@@2026--}{++{"author":"James's AI","timestamp":1790597146929}@@2026. Tier A.++}
-20.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [Marvell Technology, Inc., Form 8-K current report for the period ended 2024-12-02 {--{"author":"James's AI","timestamp":1790597146929}@@(8-K)](https://www.sec.gov/Archives/edgar/data/1835632/000183563224000193/final2024_12x02xmarvell-.htm)--}{++{"author":"James's AI","timestamp":1790597146929}@@(8-K)](https://www.sec.gov/Archives/edgar/data/1835632/000183563224000193/final2024_12x02xmarvell-.htm).++} U.S. Securities and Exchange Commission (filing by Marvell Technology, Inc.) · 2 December {--{"author":"James's AI","timestamp":1790597146929}@@2024--}{++{"author":"James's AI","timestamp":1790597146929}@@2024. Tier A.++}
-21.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [Hon Hai Technology Group (Foxconn) Announces FY2025 & 4Q25 Financial Results - Hon Hai Technology {--{"author":"James's AI","timestamp":1790597146929}@@Group](https://www.honhai.com/en-us/press-center/press-releases/latest-news/1978)--}{++{"author":"James's AI","timestamp":1790597146929}@@Group](https://www.honhai.com/en-us/press-center/press-releases/latest-news/1978).++} Hon Hai Precision Industry (Foxconn) · 16 March {--{"author":"James's AI","timestamp":1790597146929}@@2026--}{++{"author":"James's AI","timestamp":1790597146929}@@2026. Tier A.++}
-22.{--{"author":"James's AI","timestamp":1790597146929}@@  A--} [NVIDIA to Manufacture American-Made AI Supercomputers in US for First {--{"author":"James's AI","timestamp":1790597146929}@@Time](https://blogs.nvidia.com/blog/nvidia-manufacture-american-made-ai-supercomputers-us/)--}{++{"author":"James's AI","timestamp":1790597146929}@@Time](https://blogs.nvidia.com/blog/nvidia-manufacture-american-made-ai-supercomputers-us/).++} Nvidia · 14 April {--{"author":"James's AI","timestamp":1790597146929}@@2025--}{++{"author":"James's AI","timestamp":1790597146929}@@2025. Tier A.
-:::++}
+:::callout {title="Card 4 of 4: What does China control in the optical links?" tone="neutral" collapse="closed"}
+About 70 percent of the world's indium, the raw material for the lasers.
+
+Chinese firms also assemble high-speed optical modules in volume. [[#^the-chokepoint-14|Reread: The chokepoint]]
+:::
+
+::::
+
+:::callout {title="Four things to remember" tone="green"}
+- An AI rack wires 72 chips together to run as one computer.
+- Longer links carry signals as light, because copper fades after a few meters.
+- NVLink switching and the lasers are the hard parts, and rack assembly is easy to move.
+- China produces about 70 percent of the world's indium, the raw material for the lasers.
+:::
+
+:::callout {title="Sources (22)" tone="neutral" collapse="closed"}
+1. [System Hardware & Components](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html). Nvidia. Tier A.
+2. [NVIDIA, Partners Drive Next-Gen Efficient Gigawatt AI Factories in Buildup for Vera Rubin](https://blogs.nvidia.com/blog/gigawatt-ai-factories-ocp-vera-rubin). Nvidia · 13 October 2025. Tier A.
+3. [NVLink & NVLink Switch for Advanced Multi-GPU Communication](https://www.nvidia.com/en-us/data-center/nvlink/). Nvidia · 20 April 2026. Tier A.
+4. [UALink™ 200G 1.0 Specification Overview](https://ualinkconsortium.org/blog/ualink-200g-1-0-specification-overview-802/). UALink Consortium. Tier A.
+5. [Inside the Ironwood TPU codesigned AI stack](https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack). Google Cloud · 6 November 2025. Tier A.
+6. [Broadcom Ships Tomahawk 4, Industry’s Highest Bandwidth Ethernet Switch Chip at 25.6 Terabits per Second](https://www.broadcom.com/company/news/product-releases/52756). Broadcom. Tier A.
+7. [Broadcom Ships Tomahawk 5, Industry's Highest Bandwidth Switch Chip to Accelerate AI/ML Workloads](https://investors.broadcom.com/news-releases/news-release-details/broadcom-ships-tomahawk-5-industrys-highest-bandwidth-switch). Broadcom. Tier A.
+8. [Broadcom Now Shipping World’s First 102.4 Tbps Switch in Production Volume](https://www.broadcom.com/company/news/product-releases/64031). Broadcom. Tier A.
+9. [Ultra Ethernet Consortium (UEC) Launches Specification 1.0 Transforming Ethernet for AI and HPC at Scale - Ultra Ethernet Consortium](https://ultraethernet.org/ultra-ethernet-consortium-uec-launches-specification-1-0-transforming-ethernet-for-ai-and-hpc-at-scale/). Ultra Ethernet Consortium · 11 June 2025. Tier A.
+10. [NVIDIA CORP, Form 10-Q quarterly report for the period ended 2026-04-26 (10-Q)](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm). U.S. Securities and Exchange Commission (filing by NVIDIA CORP) · 20 May 2026. Tier A.
+11. [Broadcom Announces Tomahawk® 6 – Davisson, the Industry’s First 102.4-Tbps Ethernet Switch with Co-Packaged Optics](https://www.broadcom.com/company/news/product-releases/63626). Broadcom. Tier A.
+12. [NVIDIA Announces Spectrum-X Photonics, Co-Packaged Optics Networking Switches to Scale AI Factories to Millions of GPUs](https://nvidianews.nvidia.com/news/nvidia-spectrum-x-co-packaged-optics-networking-switches-ai-factories). Nvidia · 18 March 2025. Tier A.
+13. [InnoLight Technology, company overview page](https://www.innolight.com/about). InnoLight Technology. Tier A.
+14. [Eoptolink Technology, contacts page](https://www.eoptolink.com/about-us/contacts). Eoptolink Technology. Tier A.
+15. [Federal Communications Commission FCC-26-50](https://docs.fcc.gov/public/attachments/FCC-26-50A1.pdf). U.S. Federal Communications Commission. Tier A.
+16. [Mineral Commodity Summaries 2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-indium.pdf). U.S. Geological Survey · 5 February 2026. Tier A.
+17. [NVIDIA Announces Strategic Partnership With Lumentum to Develop State-of-the-Art Optics Technology](https://nvidianews.nvidia.com/news/nvidia-announces-strategic-partnership-with-lumentum-to-develop-state-of-the-art-optics-technology). Nvidia · 2 March 2026. Tier A.
+18. [NVIDIA and Coherent Announce Strategic Partnership to Develop Optics Technology to Scale Next-Generation Data Center Architecture](https://nvidianews.nvidia.com/news/nvidia-and-coherent-announce-strategic-partnership-to-develop-optics-technology-to-scale-next-generation-data-center-architecture). Nvidia · 2 March 2026. Tier A.
+19. [Broadcom Inc., Form 8-K current report for the period ended 2026-09-02 (8-K)](https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm). U.S. Securities and Exchange Commission (filing by Broadcom Inc.) · 2 September 2026. Tier A.
+20. [Marvell Technology, Inc., Form 8-K current report for the period ended 2024-12-02 (8-K)](https://www.sec.gov/Archives/edgar/data/1835632/000183563224000193/final2024_12x02xmarvell-.htm). U.S. Securities and Exchange Commission (filing by Marvell Technology, Inc.) · 2 December 2024. Tier A.
+21. [Hon Hai Technology Group (Foxconn) Announces FY2025 & 4Q25 Financial Results - Hon Hai Technology Group](https://www.honhai.com/en-us/press-center/press-releases/latest-news/1978). Hon Hai Precision Industry (Foxconn) · 16 March 2026. Tier A.
+22. [NVIDIA to Manufacture American-Made AI Supercomputers in US for First Time](https://blogs.nvidia.com/blog/nvidia-manufacture-american-made-ai-supercomputers-us/). Nvidia · 14 April 2025. Tier A.
+:::
 
 ## Data Centers and Power ^data-centers-and-power
 
 The chips are no longer the slowest part of a data center buildout. A large transformer takes three years, turbine output does not reach 30 GW a year until 2030, and Texas has fifty times more large loads, mostly data centers, waiting to connect than it has approved to switch on.
 
-{--{"author":"James's AI","timestamp":1790597158142}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+*1,334 words / 6 min*
 
-1,334 --}{++{"author":"James's AI","timestamp":1790597158142}@@*1,334 ++}words / 6{--{"author":"James's AI","timestamp":1790597158142}@@ minSpecimen: server rack--}{++{"author":"James's AI","timestamp":1790597158142}@@ min*++}
-
-{--{"author":"James's AI","timestamp":1790597158142}@@**In--}{++{"author":"James's AI","timestamp":1790597158142}@@:::callout {title="In++} plain {--{"author":"James's AI","timestamp":1790597158142}@@terms**
-
---}{++{"author":"James's AI","timestamp":1790597158142}@@terms" tone="neutral"}
-++}A data center's job is to feed electricity to the machines inside it and carry away the heat they give off. One rack of AI chips, a cabinet the size of a wardrobe, draws 142 kilowatts, and every watt of it comes back out as heat, more than air can carry away, so water is piped through the rack instead. A large training site already holds a hundred thousand chips, and the newest sites are planned in gigawatts. One gigawatt is the whole output of a large power station, and OpenAI's planned sites add up to more than nine of them by 2029. Getting that much electricity to the door is harder than putting up the building, because the transformers and heavy switches that connect a site to the grid, and the turbines that make the power, come from a few suppliers and take years to arrive.{++{"author":"James's AI","timestamp":1790597158142}@@
-:::++}
+:::callout {title="In plain terms" tone="neutral"}
+A data center's job is to feed electricity to the machines inside it and carry away the heat they give off. One rack of AI chips, a cabinet the size of a wardrobe, draws 142 kilowatts, and every watt of it comes back out as heat, more than air can carry away, so water is piped through the rack instead. A large training site already holds a hundred thousand chips, and the newest sites are planned in gigawatts. One gigawatt is the whole output of a large power station, and OpenAI's planned sites add up to more than nine of them by 2029. Getting that much electricity to the door is harder than putting up the building, because the transformers and heavy switches that connect a site to the grid, and the turbines that make the power, come from a few suppliers and take years to arrive.
+:::
 
 ### In short ^in-short-15
 
 The rack became the unit of AI compute at 142 kW and is heading for a megawatt by 2027 [4](https://developer.nvidia.com/blog/nvidia-800-v-hvdc-architecture-will-power-the-next-generation-of-ai-factories/), which forces liquid cooling and an 800-volt bus on every large operator [3](https://blogs.nvidia.com/blog/gigawatt-ai-factories-ocp-vera-rubin). Nine vendors sell the cooling equipment, so buying it is a question of price [3](https://blogs.nvidia.com/blog/gigawatt-ai-factories-ocp-vera-rubin). The power equipment comes with queues: transformers take three years [1](https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%20signed%20by%20Secretary%20Granholm%20on%207-10-24.pdf), six years of turbine output is already booked [9](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm), and Texas has fifty times more large load in the queue than it has approved to switch on [13](https://www.ercot.com/files/docs/2026/07/29/ERCOT-Senate-July-29-Panel-1-Assessing-The-Grid.pdf). When an AI buildout slips, the delay is usually in the substation yard.
 
-{--{"author":"James's AI","timestamp":1790597158142}@@Concentration: **High**--}{++{"author":"James's AI","timestamp":1790597158142}@@:::callout {title="Chokepoint card" tone="amber"}
-**Concentration:** High++}
+:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** High
 
-{--{"author":"James's AI","timestamp":1790597158142}@@Substitutability: **Moderate**.--}{++{"author":"James's AI","timestamp":1790597158142}@@**Substitutability:** Moderate.++} Several approved vendors sell every piece of power and cooling equipment, but a transformer takes three years to arrive and GE Vernova's gas turbines have orders for about six years ahead.
+**Substitutability:** Moderate. Several approved vendors sell every piece of power and cooling equipment, but a transformer takes three years to arrive and GE Vernova's gas turbines have orders for about six years ahead.
 
-{--{"author":"James's AI","timestamp":1790597158142}@@Price--}{++{"author":"James's AI","timestamp":1790597158142}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597158142}@@size: **Transformer--}{++{"author":"James's AI","timestamp":1790597158142}@@size:** Transformer++} lead times of 36 months, against under a year before {--{"author":"James's AI","timestamp":1790597158142}@@2020**.--}{++{"author":"James's AI","timestamp":1790597158142}@@2020.++} GE Vernova's gas backlog and reserved slots grew from 100 GW to 116 GW in 2026
+**Price or market size:** Transformer lead times of 36 months, against under a year before 2020. GE Vernova's gas backlog and reserved slots grew from 100 GW to 116 GW in 2026
 
 **Who leads**
 
--{--{"author":"James's AI","timestamp":1790597158142}@@   USGE Vernova--}{++{"author":"James's AI","timestamp":1790597158142}@@ **GE Vernova** (US):++} 116 GW of gas equipment backlog and reserved factory slots at mid-2026
--{--{"author":"James's AI","timestamp":1790597158142}@@   CHHitachi Energy--}{++{"author":"James's AI","timestamp":1790597158142}@@ **Hitachi Energy** (CH):++} Large power transformers and high-voltage switchgear
--{--{"author":"James's AI","timestamp":1790597158142}@@   DESiemens Energy --}{++{"author":"James's AI","timestamp":1790597158142}@@ **Siemens Energy** (DE): ++}Grid technologies, transformers, turbines
--{--{"author":"James's AI","timestamp":1790597158142}@@   USVertiv--}{++{"author":"James's AI","timestamp":1790597158142}@@ **Vertiv** (US):++} Data center power and cooling systems; NVIDIA gigawatt AI factory partner
--{--{"author":"James's AI","timestamp":1790597158142}@@   FRSchneider Electric--}{++{"author":"James's AI","timestamp":1790597158142}@@ **Schneider Electric** (FR):++} Electrical distribution and cooling; partner in NVIDIA's 800-volt DC designs
+- **GE Vernova** (US): 116 GW of gas equipment backlog and reserved factory slots at mid-2026
+- **Hitachi Energy** (CH): Large power transformers and high-voltage switchgear
+- **Siemens Energy** (DE): Grid technologies, transformers, turbines
+- **Vertiv** (US): Data center power and cooling systems; NVIDIA gigawatt AI factory partner
+- **Schneider Electric** (FR): Electrical distribution and cooling; partner in NVIDIA's 800-volt DC designs
 
 **Where it is made**
 
--{--{"author":"James's AI","timestamp":1790597158142}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597158142}@@ **United States**:++} Most new AI capacity; ERCOT and PJM carry the load growth
--{--{"author":"James's AI","timestamp":1790597158142}@@   CHSwitzerland--}{++{"author":"James's AI","timestamp":1790597158142}@@ **Switzerland**:++} Hitachi Energy and ABB transformer and switchgear engineering
--{--{"author":"James's AI","timestamp":1790597158142}@@   DEGermany--}{++{"author":"James's AI","timestamp":1790597158142}@@ **Germany**:++} Siemens Energy grid technologies and turbines
--{--{"author":"James's AI","timestamp":1790597158142}@@   TWTaiwan--}{++{"author":"James's AI","timestamp":1790597158142}@@ **Taiwan**:++} Delta Electronics power shelves, busbars and thermal modules
--{--{"author":"James's AI","timestamp":1790597158142}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597158142}@@ **Japan**:++} Hitachi group transformer manufacturing
+- **United States**: Most new AI capacity; ERCOT and PJM carry the load growth
+- **Switzerland**: Hitachi Energy and ABB transformer and switchgear engineering
+- **Germany**: Siemens Energy grid technologies and turbines
+- **Taiwan**: Delta Electronics power shelves, busbars and thermal modules
+- **Japan**: Hitachi group transformer manufacturing
 
-{--{"author":"James's AI","timestamp":1790597158142}@@Why--}{++{"author":"James's AI","timestamp":1790597158142}@@**Why++} substitution is {--{"author":"James's AI","timestamp":1790597158142}@@possible--}{++{"author":"James's AI","timestamp":1790597158142}@@possible**++}
+**Why substitution is possible**
 
 Nothing in a data center's power and cooling has to be invented. Nine firms sell the power and cooling equipment for Nvidia's gigawatt data center designs, so a buyer can get the equipment and negotiate the price. Money cannot shorten the wait. A large power transformer now takes 36 months to arrive, against under a year before 2020. GE Vernova has close to six years of gas turbine orders waiting. New capacity is therefore two to five years away.
 
@@ -3558,8 +3022,8 @@ China has spare generating capacity, a large domestic industry making transforme
 
 **Where the US stands**
 
-The United States has the demand and the money but cannot shorten the wait for equipment. Transformers and turbines both take years to arrive. Most large power transformers are imported, and no restarted nuclear reactor is running yet.{++{"author":"James's AI","timestamp":1790597158142}@@
-:::++}
+The United States has the demand and the money but cannot shorten the wait for equipment. Transformers and turbines both take years to arrive. Most large power transformers are imported, and no restarted nuclear reactor is running yet.
+:::
 
 For thirty years the semiconductor industry set the pace and everything downstream followed. A wafer clears a leading-edge fab in months; a large power transformer takes three years, and before 2020 the same order took under one [1](https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%20signed%20by%20Secretary%20Granholm%20on%207-10-24.pdf).
 
@@ -3577,9 +3041,9 @@ Nvidia is also moving rack distribution to 800 volts of direct current. Raising 
 
 #### Cooling ^cooling
 
--{--{"author":"James's AI","timestamp":1790597158142}@@   --}{++{"author":"James's AI","timestamp":1790597158142}@@ ++}**Air.** Heat exchangers in the rack door work at moderate densities but cannot carry away the heat of an AI rack.
--{--{"author":"James's AI","timestamp":1790597158142}@@   --}{++{"author":"James's AI","timestamp":1790597158142}@@ ++}**Direct-to-chip liquid.** The default for anything Blackwell-class or later; every new AI hall is now plumbed for it.
--{--{"author":"James's AI","timestamp":1790597158142}@@   --}{++{"author":"James's AI","timestamp":1790597158142}@@ ++}**Immersion.** Higher density still, but hard to service and barely used at scale.
+- **Air.** Heat exchangers in the rack door work at moderate densities but cannot carry away the heat of an AI rack.
+- **Direct-to-chip liquid.** The default for anything Blackwell-class or later; every new AI hall is now plumbed for it.
+- **Immersion.** Higher density still, but hard to service and barely used at scale.
 
 Cooling is not the bottleneck. Nvidia names nine firms supplying data center power and cooling systems for its gigawatt reference designs, among them ABB, Eaton, Hitachi Energy, Mitsubishi Electric, Schneider Electric, Siemens and Vertiv [3](https://blogs.nvidia.com/blog/gigawatt-ai-factories-ocp-vera-rubin).
 
@@ -3591,25 +3055,23 @@ A megawatt rack changes the busbar, the floor loading, the coolant flow, the lea
 
 #### Where the electrons come from ^where-the-electrons-come
 
--{--{"author":"James's AI","timestamp":1790597158142}@@   --}{++{"author":"James's AI","timestamp":1790597158142}@@ ++}**Grid interconnection.** The slow path, and the one every announced campus is queued in.
--{--{"author":"James's AI","timestamp":1790597158142}@@   --}{++{"author":"James's AI","timestamp":1790597158142}@@ ++}**Behind-the-meter gas**, generation on the site itself. The fast path, which is why campuses are sited next to gas.
--{--{"author":"James's AI","timestamp":1790597158142}@@   --}{++{"author":"James's AI","timestamp":1790597158142}@@ ++}**Nuclear.** Almost entirely prospective. Constellation agreed to sell the output of the 835 MW Crane Clean Energy Center to Microsoft before restart work began [5](https://www.constellationenergy.com/news/2025/constellation-ahead-of-schedule-for-launch-of-crane-clean-energy-center.html). The plant shut in 2019 and is restarting on a $1 billion federal loan closed in November 2025, still subject to Nuclear Regulatory Commission approval [6](https://www.energy.gov/articles/energy-department-closes-loan-restart-nuclear-power-plant-pennsylvania). No restarted reactor is serving data centers yet.
+- **Grid interconnection.** The slow path, and the one every announced campus is queued in.
+- **Behind-the-meter gas**, generation on the site itself. The fast path, which is why campuses are sited next to gas.
+- **Nuclear.** Almost entirely prospective. Constellation agreed to sell the output of the 835 MW Crane Clean Energy Center to Microsoft before restart work began [5](https://www.constellationenergy.com/news/2025/constellation-ahead-of-schedule-for-launch-of-crane-clean-energy-center.html). The plant shut in 2019 and is restarting on a $1 billion federal loan closed in November 2025, still subject to Nuclear Regulatory Commission approval [6](https://www.energy.gov/articles/energy-department-closes-loan-restart-nuclear-power-plant-pennsylvania). No restarted reactor is serving data centers yet.
 
 ### Who makes it ^who-makes-it-15
 
 The largest data center operators pay for the buildout. Alphabet, Amazon, Meta, Microsoft and Oracle spent $448.3 billion of capital in 2025, and on that trend reach $770 billion in 2026 [7](https://epoch.ai/data-insights/hyperscaler-capex-trend).
 
-**Chart:** Capital spending by the five largest US data center operators, 2025{--{"author":"James's AI","timestamp":1790597158142}@@ ($B)
-
---}{++{"author":"James's AI","timestamp":1790597158142}@@
+**Chart:** Capital spending by the five largest US data center operators, 2025
 
 | | $B |
 |---|---:|
-| ++}Amazon {++{"author":"James's AI","timestamp":1790597158142}@@| ++}137.5 {++{"author":"James's AI","timestamp":1790597158142}@@|
-| ++}Microsoft {++{"author":"James's AI","timestamp":1790597158142}@@| ++}88 {++{"author":"James's AI","timestamp":1790597158142}@@|
-| ++}Alphabet {++{"author":"James's AI","timestamp":1790597158142}@@| ++}83.1 {++{"author":"James's AI","timestamp":1790597158142}@@|
-| ++}Meta {++{"author":"James's AI","timestamp":1790597158142}@@| ++}72.5 {++{"author":"James's AI","timestamp":1790597158142}@@|
-| ++}Oracle {++{"author":"James's AI","timestamp":1790597158142}@@| ++}40.6{++{"author":"James's AI","timestamp":1790597158142}@@ |++}
+| Amazon | 137.5 |
+| Microsoft | 88 |
+| Alphabet | 83.1 |
+| Meta | 72.5 |
+| Oracle | 40.6 |
 
 Source: [Epoch AI, hyperscaler capex trend, February 2026, from company filings](https://epoch.ai/data-insights/hyperscaler-capex-trend)
 
@@ -3617,15 +3079,13 @@ Campuses are now described in gigawatts: OpenAI's Stargate portfolio targets mor
 
 The equipment vendors are the constraint. GE Vernova, Siemens Energy, Hitachi Energy, ABB, Eaton and Schneider Electric supply the turbines, transformers and switchgear. GE Vernova's gas equipment backlog and reserved factory slots went from 100 GW to 116 GW inside 2026, with data center orders past $5 billion by mid-year, more than double the whole of 2025 [9](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm).
 
-{++{"author":"James's AI","timestamp":1790594260064}@@**Chart:** ++}GE Vernova annual gas turbine output, actual and {--{"author":"James's AI","timestamp":1790597158142}@@plannedGW/yr
-
---}{++{"author":"James's AI","timestamp":1790597158142}@@planned
+**Chart:** GE Vernova annual gas turbine output, actual and planned
 
 | | GW/yr |
 |---|---:|
-| ++}2026 {++{"author":"James's AI","timestamp":1790597158142}@@| ++}20 {++{"author":"James's AI","timestamp":1790597158142}@@|
-| ++}2028 {++{"author":"James's AI","timestamp":1790597158142}@@| ++}24 {++{"author":"James's AI","timestamp":1790597158142}@@|
-| ++}2030 {++{"author":"James's AI","timestamp":1790597158142}@@| ++}30{++{"author":"James's AI","timestamp":1790597158142}@@ |++}
+| 2026 | 20 |
+| 2028 | 24 |
+| 2030 | 30 |
 
 Source: [GE Vernova second-quarter 2026 results, July 2026](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm)
 
@@ -3633,14 +3093,14 @@ Source: [GE Vernova second-quarter 2026 results, July 2026](https://www.sec.gov/
 
 US data centers used 176 TWh in 2023, 4.4 percent of national electricity, and Lawrence Berkeley National Laboratory projects 325 to 580 TWh by 2028, between 6.7 percent and 12 percent of the total [10](https://newscenter.lbl.gov/2025/01/15/berkeley-lab-report-evaluates-increase-in-electricity-demand-from-data-centers/). The Energy Information Administration expects national electricity use to rise 1 percent in 2026 and 3 percent in 2027, the fourth straight annual increase and the strongest four-year run since 2000 [11](https://www.eia.gov/pressroom/releases/press582.php).
 
-{++{"author":"James's AI","timestamp":1790594260915}@@**Chart:** ++}US data center electricity use, actual and 2028 projection {--{"author":"James's AI","timestamp":1790597158142}@@rangeTWh--}{++{"author":"James's AI","timestamp":1790597158142}@@range++}
+**Chart:** US data center electricity use, actual and 2028 projection range
 
-{++{"author":"James's AI","timestamp":1790597158142}@@| | TWh |
+| | TWh |
 |---|---:|
-| ++}2014 {++{"author":"James's AI","timestamp":1790597158142}@@| ++}58 {++{"author":"James's AI","timestamp":1790597158142}@@|
-| ++}2023 {++{"author":"James's AI","timestamp":1790597158142}@@| ++}176 {++{"author":"James's AI","timestamp":1790597158142}@@|
-| ++}2028 low case {++{"author":"James's AI","timestamp":1790597158142}@@| ++}325 {++{"author":"James's AI","timestamp":1790597158142}@@|
-| ++}2028 high case {++{"author":"James's AI","timestamp":1790597158142}@@| ++}580{++{"author":"James's AI","timestamp":1790597158142}@@ |++}
+| 2014 | 58 |
+| 2023 | 176 |
+| 2028 low case | 325 |
+| 2028 high case | 580 |
 
 Source: [Lawrence Berkeley National Laboratory, December 2024](https://newscenter.lbl.gov/2025/01/15/berkeley-lab-report-evaluates-increase-in-electricity-demand-from-data-centers/)
 
@@ -3652,114 +3112,82 @@ Announced capacity and energized capacity are a long way apart. ERCOT, the grid 
 
 Behind that queue sit the equipment lead times.
 
--{--{"author":"James's AI","timestamp":1790597158142}@@   --}{++{"author":"James's AI","timestamp":1790597158142}@@ ++}**Large power transformers.** Thirty-six-month lead times are commonly quoted and the worst reach 60, against under a year before the pandemic; 82 percent of the units put into US service in 2019 were imported [1](https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%20signed%20by%20Secretary%20Granholm%20on%207-10-24.pdf).
--{--{"author":"James's AI","timestamp":1790597158142}@@   --}{++{"author":"James's AI","timestamp":1790597158142}@@ ++}**Gas turbines.** GE Vernova will build 20 GW of turbines this year and is working toward 30 GW a year in 2030, against a backlog of 116 GW, close to six years of output [9](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm).
--{--{"author":"James's AI","timestamp":1790597158142}@@   --}{++{"author":"James's AI","timestamp":1790597158142}@@ ++}**Firm new generation**, the kind that runs whatever the weather. The one reactor restart with a data center buyer behind it, the 835 MW Crane plant, shut in 2019 and is still waiting on its license [6](https://www.energy.gov/articles/energy-department-closes-loan-restart-nuclear-power-plant-pennsylvania).
+- **Large power transformers.** Thirty-six-month lead times are commonly quoted and the worst reach 60, against under a year before the pandemic; 82 percent of the units put into US service in 2019 were imported [1](https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%20signed%20by%20Secretary%20Granholm%20on%207-10-24.pdf).
+- **Gas turbines.** GE Vernova will build 20 GW of turbines this year and is working toward 30 GW a year in 2030, against a backlog of 116 GW, close to six years of output [9](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm).
+- **Firm new generation**, the kind that runs whatever the weather. The one reactor restart with a data center buyer behind it, the 835 MW Crane plant, shut in 2019 and is still waiting on its license [6](https://www.energy.gov/articles/energy-department-closes-loan-restart-nuclear-power-plant-pennsylvania).
 
 The chip chain moves faster: foundry and memory capacity have repeatedly expanded within a couple of years of the order. Money buys silicon capacity faster than it buys power capacity, and that difference decides how much of the 2026 capital spending turns into working compute.
 
 ### Key evaluation criteria ^key-evaluation-criteria-15
 
--{--{"author":"James's AI","timestamp":1790597158142}@@   --}{++{"author":"James's AI","timestamp":1790597158142}@@ ++}**Time to power** counts the months from signed lease to energized megawatt, and it is the number developers compete on.
--{--{"author":"James's AI","timestamp":1790597158142}@@   --}{++{"author":"James's AI","timestamp":1790597158142}@@ ++}**Transformer and turbine lead time** covers the two queues that set the schedule, at three years [1](https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%20signed%20by%20Secretary%20Granholm%20on%207-10-24.pdf) and six years of booked output [9](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm).
--{--{"author":"James's AI","timestamp":1790597158142}@@   --}{++{"author":"James's AI","timestamp":1790597158142}@@ ++}**Rack density supported** decides what an existing hall can take. An air-cooled one cannot host a 142 kW NVL72 without a full mechanical retrofit [2](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html).
--{--{"author":"James's AI","timestamp":1790597158142}@@   --}{++{"author":"James's AI","timestamp":1790597158142}@@ ++}**Firmness of supply** separates a signed interconnection agreement from a delivered transformer.
--{--{"author":"James's AI","timestamp":1790597158142}@@   --}{++{"author":"James's AI","timestamp":1790597158142}@@ ++}**Energy per token** is the only efficiency measure that matters commercially. It keeps falling, but the number of tokens rises faster [12](https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack).
+- **Time to power** counts the months from signed lease to energized megawatt, and it is the number developers compete on.
+- **Transformer and turbine lead time** covers the two queues that set the schedule, at three years [1](https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%20signed%20by%20Secretary%20Granholm%20on%207-10-24.pdf) and six years of booked output [9](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm).
+- **Rack density supported** decides what an existing hall can take. An air-cooled one cannot host a 142 kW NVL72 without a full mechanical retrofit [2](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html).
+- **Firmness of supply** separates a signed interconnection agreement from a delivered transformer.
+- **Energy per token** is the only efficiency measure that matters commercially. It keeps falling, but the number of tokens rises faster [12](https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack).
 
-{--{"author":"James's AI","timestamp":1790597158142}@@Card--}{++{"author":"James's AI","timestamp":1790597158142}@@::::callout {title="Flashcards" tone="blue"}
+::::callout {title="Flashcards" tone="blue"}
 Recall each answer, then open the card.
 
-:::callout {title="Card++} 1 of {--{"author":"James's AI","timestamp":1790597158142}@@4Question
+:::callout {title="Card 1 of 4: Why are AI racks cooled with water?" tone="neutral" collapse="closed"}
+One rack draws 142 kilowatts, and that much heat is more than air can carry away.
 
---}{++{"author":"James's AI","timestamp":1790597158142}@@4: ++}Why are AI racks cooled with{--{"author":"James's AI","timestamp":1790597158142}@@ water?
-
-Card 1 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597158142}@@ water?" tone="neutral" collapse="closed"}
-++}One rack draws 142 kilowatts, and that much heat is more than air can carry away.
-
-Every watt a rack draws comes back out as heat. {--{"author":"James's AI","timestamp":1790597158142}@@[Reread: Cooling](#data-centers-and-power--cooling)--}{++{"author":"James's AI","timestamp":1790597158142}@@[[#^cooling|Reread: Cooling]]
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597158142}@@Card--}{++{"author":"James's AI","timestamp":1790597158142}@@:::callout {title="Card++} 2 of{--{"author":"James's AI","timestamp":1790597158142}@@ 4Question
-
---}{++{"author":"James's AI","timestamp":1790597158142}@@ 4: ++}How big are the newest AI data{--{"author":"James's AI","timestamp":1790597158142}@@ centers?
-
-Card 2 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597158142}@@ centers?" tone="neutral" collapse="closed"}
-++}They are planned in gigawatts, each the output of a large power station.
-
-OpenAI's planned sites add up to more than nine gigawatts by 2029. {--{"author":"James's AI","timestamp":1790597158142}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597158142}@@[[#^capacity-and-demand|Reread:++} Capacity and {--{"author":"James's AI","timestamp":1790597158142}@@demand](#data-centers-and-power--capacity-and-demand)--}{++{"author":"James's AI","timestamp":1790597158142}@@demand]]
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597158142}@@Card --}{++{"author":"James's AI","timestamp":1790597158142}@@:::callout {title="Card ++}3 of{--{"author":"James's AI","timestamp":1790597158142}@@ 4Question
-
---}{++{"author":"James's AI","timestamp":1790597158142}@@ 4: ++}What slows down building an AI data center {--{"author":"James's AI","timestamp":1790597158142}@@most?
-
-Card 3 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597158142}@@most?" tone="neutral" collapse="closed"}
-++}Waiting for power equipment.
-
-A large power transformer takes about 36 months to arrive, and GE Vernova's gas turbines are booked about six years ahead. {--{"author":"James's AI","timestamp":1790597158142}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597158142}@@[[#^the-chokepoint-15|Reread:++} The {--{"author":"James's AI","timestamp":1790597158142}@@chokepoint](#data-centers-and-power--the-chokepoint)--}{++{"author":"James's AI","timestamp":1790597158142}@@chokepoint]]
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597158142}@@Card--}{++{"author":"James's AI","timestamp":1790597158142}@@:::callout {title="Card++} 4 of {--{"author":"James's AI","timestamp":1790597158142}@@4Question
-
---}{++{"author":"James's AI","timestamp":1790597158142}@@4: ++}What limits China's AI data center {--{"author":"James's AI","timestamp":1790597158142}@@buildout?
-
-Card 4 of 4Answer
-
---}{++{"author":"James's AI","timestamp":1790597158142}@@buildout?" tone="neutral" collapse="closed"}
-++}The supply of AI chips. China has power to spare.
-
-China has spare generating capacity and makes its own transformers. The United States imports most of its large transformers. {--{"author":"James's AI","timestamp":1790597158142}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597158142}@@[[#^the-chokepoint-15|Reread:++} The {--{"author":"James's AI","timestamp":1790597158142}@@chokepoint](#data-centers-and-power--the-chokepoint)--}{++{"author":"James's AI","timestamp":1790597158142}@@chokepoint]]
+Every watt a rack draws comes back out as heat. [[#^cooling|Reread: Cooling]]
 :::
 
-::::++}
+:::callout {title="Card 2 of 4: How big are the newest AI data centers?" tone="neutral" collapse="closed"}
+They are planned in gigawatts, each the output of a large power station.
 
-{--{"author":"James's AI","timestamp":1790597158142}@@#### Four--}{++{"author":"James's AI","timestamp":1790597158142}@@:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597158142}@@remember ^four-things-to-remember-13
+OpenAI's planned sites add up to more than nine gigawatts by 2029. [[#^capacity-and-demand|Reread: Capacity and demand]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597158142}@@remember" tone="green"}
-++}-{--{"author":"James's AI","timestamp":1790597158142}@@   --}{++{"author":"James's AI","timestamp":1790597158142}@@ ++}One AI rack draws 142 kilowatts, too much heat for air, so racks are cooled with water.
--{--{"author":"James's AI","timestamp":1790597158142}@@   --}{++{"author":"James's AI","timestamp":1790597158142}@@ ++}The newest AI sites are planned in gigawatts, each the output of a large power station.
--{--{"author":"James's AI","timestamp":1790597158142}@@   --}{++{"author":"James's AI","timestamp":1790597158142}@@ ++}Power equipment is the slow part: a large transformer takes about 36 months to arrive.
--{--{"author":"James's AI","timestamp":1790597158142}@@   --}{++{"author":"James's AI","timestamp":1790597158142}@@ ++}China has power to spare and is limited by the supply of AI chips.{++{"author":"James's AI","timestamp":1790597158142}@@
-:::++}
+:::callout {title="Card 3 of 4: What slows down building an AI data center most?" tone="neutral" collapse="closed"}
+Waiting for power equipment.
 
-{--{"author":"James's AI","timestamp":1790597158142}@@**Sources (14)**
+A large power transformer takes about 36 months to arrive, and GE Vernova's gas turbines are booked about six years ahead. [[#^the-chokepoint-15|Reread: The chokepoint]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597158142}@@:::callout {title="Sources (14)" tone="neutral" collapse="closed"}
-++}1.{--{"author":"James's AI","timestamp":1790597158142}@@  A--} [U.S. Department of Energy Large Power Transformer Resilience Report to Congress, July {--{"author":"James's AI","timestamp":1790597158142}@@2024](https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%20signed%20by%20Secretary%20Granholm%20on%207-10-24.pdf)--}{++{"author":"James's AI","timestamp":1790597158142}@@2024](https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%20signed%20by%20Secretary%20Granholm%20on%207-10-24.pdf).++} U.S. Department of Energy · 10 July {--{"author":"James's AI","timestamp":1790597158142}@@2024--}{++{"author":"James's AI","timestamp":1790597158142}@@2024. Tier A.++}
-2.{--{"author":"James's AI","timestamp":1790597158142}@@  A--} [System Hardware & {--{"author":"James's AI","timestamp":1790597158142}@@Components](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html) Nvidia--}{++{"author":"James's AI","timestamp":1790597158142}@@Components](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html). Nvidia. Tier A.++}
-3.{--{"author":"James's AI","timestamp":1790597158142}@@  A--} [NVIDIA, Partners Drive Next-Gen Efficient Gigawatt AI Factories in Buildup for Vera {--{"author":"James's AI","timestamp":1790597158142}@@Rubin](https://blogs.nvidia.com/blog/gigawatt-ai-factories-ocp-vera-rubin)--}{++{"author":"James's AI","timestamp":1790597158142}@@Rubin](https://blogs.nvidia.com/blog/gigawatt-ai-factories-ocp-vera-rubin).++} Nvidia · 13 October {--{"author":"James's AI","timestamp":1790597158142}@@2025--}{++{"author":"James's AI","timestamp":1790597158142}@@2025. Tier A.++}
-4.{--{"author":"James's AI","timestamp":1790597158142}@@  A--} [NVIDIA 800 VDC Architecture Will Power the Next Generation of AI {--{"author":"James's AI","timestamp":1790597158142}@@Factories](https://developer.nvidia.com/blog/nvidia-800-v-hvdc-architecture-will-power-the-next-generation-of-ai-factories/)--}{++{"author":"James's AI","timestamp":1790597158142}@@Factories](https://developer.nvidia.com/blog/nvidia-800-v-hvdc-architecture-will-power-the-next-generation-of-ai-factories/).++} Nvidia · 20 May {--{"author":"James's AI","timestamp":1790597158142}@@2025--}{++{"author":"James's AI","timestamp":1790597158142}@@2025. Tier A.++}
-5.{--{"author":"James's AI","timestamp":1790597158142}@@  A--} [Constellation Ahead of Schedule for Launch of Crane Clean Energy {--{"author":"James's AI","timestamp":1790597158142}@@Center](https://www.constellationenergy.com/news/2025/constellation-ahead-of-schedule-for-launch-of-crane-clean-energy-center.html)--}{++{"author":"James's AI","timestamp":1790597158142}@@Center](https://www.constellationenergy.com/news/2025/constellation-ahead-of-schedule-for-launch-of-crane-clean-energy-center.html).++} Constellation Energy · 19 February {--{"author":"James's AI","timestamp":1790597158142}@@2025--}{++{"author":"James's AI","timestamp":1790597158142}@@2025. Tier A.++}
-6.{--{"author":"James's AI","timestamp":1790597158142}@@  A--} [Energy Department Closes Loan to Restart Nuclear Power Plant in {--{"author":"James's AI","timestamp":1790597158142}@@Pennsylvania](https://www.energy.gov/articles/energy-department-closes-loan-restart-nuclear-power-plant-pennsylvania)--}{++{"author":"James's AI","timestamp":1790597158142}@@Pennsylvania](https://www.energy.gov/articles/energy-department-closes-loan-restart-nuclear-power-plant-pennsylvania).++} U.S. Department of Energy · 17 November {--{"author":"James's AI","timestamp":1790597158142}@@2025--}{++{"author":"James's AI","timestamp":1790597158142}@@2025. Tier A.++}
-7.{--{"author":"James's AI","timestamp":1790597158142}@@  A--} [Hyperscaler capex has quadrupled since GPT-4's {--{"author":"James's AI","timestamp":1790597158142}@@release](https://epoch.ai/data-insights/hyperscaler-capex-trend)--}{++{"author":"James's AI","timestamp":1790597158142}@@release](https://epoch.ai/data-insights/hyperscaler-capex-trend).++} Epoch AI · 26 February {--{"author":"James's AI","timestamp":1790597158142}@@2026--}{++{"author":"James's AI","timestamp":1790597158142}@@2026. Tier A.++}
-8.{--{"author":"James's AI","timestamp":1790597158142}@@  A--} [OpenAI Stargate: where the US sites {--{"author":"James's AI","timestamp":1790597158142}@@stand](https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand)--}{++{"author":"James's AI","timestamp":1790597158142}@@stand](https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand).++} Epoch AI · 17 April {--{"author":"James's AI","timestamp":1790597158142}@@2026--}{++{"author":"James's AI","timestamp":1790597158142}@@2026. Tier A.++}
-9.{--{"author":"James's AI","timestamp":1790597158142}@@  A--} [GE Vernova Inc., Form 8-K current report for the period ended 2026-07-22 {--{"author":"James's AI","timestamp":1790597158142}@@(8-K)](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm)--}{++{"author":"James's AI","timestamp":1790597158142}@@(8-K)](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm).++} U.S. Securities and Exchange Commission (filing by GE Vernova Inc.) · 22 July {--{"author":"James's AI","timestamp":1790597158142}@@2026--}{++{"author":"James's AI","timestamp":1790597158142}@@2026. Tier A.++}
-10.{--{"author":"James's AI","timestamp":1790597158142}@@  A--} [Berkeley Lab Report Evaluates Increase in Electricity Demand from Data {--{"author":"James's AI","timestamp":1790597158142}@@Centers](https://newscenter.lbl.gov/2025/01/15/berkeley-lab-report-evaluates-increase-in-electricity-demand-from-data-centers/)--}{++{"author":"James's AI","timestamp":1790597158142}@@Centers](https://newscenter.lbl.gov/2025/01/15/berkeley-lab-report-evaluates-increase-in-electricity-demand-from-data-centers/).++} Lawrence Berkeley National Laboratory · 15 January {--{"author":"James's AI","timestamp":1790597158142}@@2025--}{++{"author":"James's AI","timestamp":1790597158142}@@2025. Tier A.++}
-11.{--{"author":"James's AI","timestamp":1790597158142}@@  A--} [EIA Press Release (01/13/2026): EIA forecasts strongest four-year growth in U.S. electricity demand since 2000, fueled by data {--{"author":"James's AI","timestamp":1790597158142}@@centers](https://www.eia.gov/pressroom/releases/press582.php)--}{++{"author":"James's AI","timestamp":1790597158142}@@centers](https://www.eia.gov/pressroom/releases/press582.php).++} U.S. Energy Information {--{"author":"James's AI","timestamp":1790597158142}@@Administration--}{++{"author":"James's AI","timestamp":1790597158142}@@Administration. Tier A.++}
-12.{--{"author":"James's AI","timestamp":1790597158142}@@  A--} [Inside the Ironwood TPU codesigned AI {--{"author":"James's AI","timestamp":1790597158142}@@stack](https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack)--}{++{"author":"James's AI","timestamp":1790597158142}@@stack](https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack).++} Google Cloud · 6 November {--{"author":"James's AI","timestamp":1790597158142}@@2025--}{++{"author":"James's AI","timestamp":1790597158142}@@2025. Tier A.++}
-13.{--{"author":"James's AI","timestamp":1790597158142}@@  A--} [Electric Reliability Council of Texas, ERCOT update to the Senate Committee on Business and Commerce, 29 July {--{"author":"James's AI","timestamp":1790597158142}@@2026](https://www.ercot.com/files/docs/2026/07/29/ERCOT-Senate-July-29-Panel-1-Assessing-The-Grid.pdf)--}{++{"author":"James's AI","timestamp":1790597158142}@@2026](https://www.ercot.com/files/docs/2026/07/29/ERCOT-Senate-July-29-Panel-1-Assessing-The-Grid.pdf).++} Electric Reliability Council of Texas · 29 July {--{"author":"James's AI","timestamp":1790597158142}@@2026--}{++{"author":"James's AI","timestamp":1790597158142}@@2026. Tier A.++}
-14.{--{"author":"James's AI","timestamp":1790597158142}@@  A--} [Electric Reliability Council of Texas, Large Load Interconnection Status Update, 13 March {--{"author":"James's AI","timestamp":1790597158142}@@2026](https://www.ercot.com/files/docs/2026/03/12/March-TAC-Report.pdf)--}{++{"author":"James's AI","timestamp":1790597158142}@@2026](https://www.ercot.com/files/docs/2026/03/12/March-TAC-Report.pdf).++} Electric Reliability Council of Texas · 13 March {--{"author":"James's AI","timestamp":1790597158142}@@2026--}{++{"author":"James's AI","timestamp":1790597158142}@@2026. Tier A.
-:::++}
+:::callout {title="Card 4 of 4: What limits China's AI data center buildout?" tone="neutral" collapse="closed"}
+The supply of AI chips. China has power to spare.
+
+China has spare generating capacity and makes its own transformers. The United States imports most of its large transformers. [[#^the-chokepoint-15|Reread: The chokepoint]]
+:::
+
+::::
+
+:::callout {title="Four things to remember" tone="green"}
+- One AI rack draws 142 kilowatts, too much heat for air, so racks are cooled with water.
+- The newest AI sites are planned in gigawatts, each the output of a large power station.
+- Power equipment is the slow part: a large transformer takes about 36 months to arrive.
+- China has power to spare and is limited by the supply of AI chips.
+:::
+
+:::callout {title="Sources (14)" tone="neutral" collapse="closed"}
+1. [U.S. Department of Energy Large Power Transformer Resilience Report to Congress, July 2024](https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%20signed%20by%20Secretary%20Granholm%20on%207-10-24.pdf). U.S. Department of Energy · 10 July 2024. Tier A.
+2. [System Hardware & Components](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html). Nvidia. Tier A.
+3. [NVIDIA, Partners Drive Next-Gen Efficient Gigawatt AI Factories in Buildup for Vera Rubin](https://blogs.nvidia.com/blog/gigawatt-ai-factories-ocp-vera-rubin). Nvidia · 13 October 2025. Tier A.
+4. [NVIDIA 800 VDC Architecture Will Power the Next Generation of AI Factories](https://developer.nvidia.com/blog/nvidia-800-v-hvdc-architecture-will-power-the-next-generation-of-ai-factories/). Nvidia · 20 May 2025. Tier A.
+5. [Constellation Ahead of Schedule for Launch of Crane Clean Energy Center](https://www.constellationenergy.com/news/2025/constellation-ahead-of-schedule-for-launch-of-crane-clean-energy-center.html). Constellation Energy · 19 February 2025. Tier A.
+6. [Energy Department Closes Loan to Restart Nuclear Power Plant in Pennsylvania](https://www.energy.gov/articles/energy-department-closes-loan-restart-nuclear-power-plant-pennsylvania). U.S. Department of Energy · 17 November 2025. Tier A.
+7. [Hyperscaler capex has quadrupled since GPT-4's release](https://epoch.ai/data-insights/hyperscaler-capex-trend). Epoch AI · 26 February 2026. Tier A.
+8. [OpenAI Stargate: where the US sites stand](https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand). Epoch AI · 17 April 2026. Tier A.
+9. [GE Vernova Inc., Form 8-K current report for the period ended 2026-07-22 (8-K)](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm). U.S. Securities and Exchange Commission (filing by GE Vernova Inc.) · 22 July 2026. Tier A.
+10. [Berkeley Lab Report Evaluates Increase in Electricity Demand from Data Centers](https://newscenter.lbl.gov/2025/01/15/berkeley-lab-report-evaluates-increase-in-electricity-demand-from-data-centers/). Lawrence Berkeley National Laboratory · 15 January 2025. Tier A.
+11. [EIA Press Release (01/13/2026): EIA forecasts strongest four-year growth in U.S. electricity demand since 2000, fueled by data centers](https://www.eia.gov/pressroom/releases/press582.php). U.S. Energy Information Administration. Tier A.
+12. [Inside the Ironwood TPU codesigned AI stack](https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack). Google Cloud · 6 November 2025. Tier A.
+13. [Electric Reliability Council of Texas, ERCOT update to the Senate Committee on Business and Commerce, 29 July 2026](https://www.ercot.com/files/docs/2026/07/29/ERCOT-Senate-July-29-Panel-1-Assessing-The-Grid.pdf). Electric Reliability Council of Texas · 29 July 2026. Tier A.
+14. [Electric Reliability Council of Texas, Large Load Interconnection Status Update, 13 March 2026](https://www.ercot.com/files/docs/2026/03/12/March-TAC-Report.pdf). Electric Reliability Council of Texas · 13 March 2026. Tier A.
+:::
 
 ## The Economics of AI Chips ^the-economics-of-ai
 
 Inside an AI accelerator the silicon is the cheap part. Memory and packaging are most of the cost.
 
-{--{"author":"James's AI","timestamp":1790597167170}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+*1,241 words / 5 min*
 
-1,241--}{++{"author":"James's AI","timestamp":1790597167170}@@*1,241++} words / 5{--{"author":"James's AI","timestamp":1790597167170}@@ minSpecimen: wafer cost--}{++{"author":"James's AI","timestamp":1790597167170}@@ min*++}
-
-{--{"author":"James's AI","timestamp":1790597167170}@@**In--}{++{"author":"James's AI","timestamp":1790597167170}@@:::callout {title="In++} plain {--{"author":"James's AI","timestamp":1790597167170}@@terms**
-
---}{++{"author":"James's AI","timestamp":1790597167170}@@terms" tone="neutral"}
-++}A bill of materials is the list of parts inside a product and what each one costs to build. For an AI accelerator, the processor itself, the chip that does the calculating, is the cheap part, about a seventh of the total. The stacked memory beside it is nearly half, and the packaging that wires the two together costs more than the chip. Three firms in the world make that memory and one Taiwanese firm does that packaging, so the costliest parts are also the scarcest, and that is where a government's rules bite hardest.{++{"author":"James's AI","timestamp":1790597167170}@@
-:::++}
+:::callout {title="In plain terms" tone="neutral"}
+A bill of materials is the list of parts inside a product and what each one costs to build. For an AI accelerator, the processor itself, the chip that does the calculating, is the cheap part, about a seventh of the total. The stacked memory beside it is nearly half, and the packaging that wires the two together costs more than the chip. Three firms in the world make that memory and one Taiwanese firm does that packaging, so the costliest parts are also the scarcest, and that is where a government's rules bite hardest.
+:::
 
 ### In short ^in-short-16
 
@@ -3771,9 +3199,9 @@ Building a Blackwell B200 costs about $6,400. Nvidia sells it for $30,000 to $40
 
 Three numbers set the cost of a die, the finished rectangle of circuitry cut out of a wafer.
 
--{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}**Wafer price.** TSMC does not publish it. Epoch AI's model of Blackwell's custom TSMC 4NP process [2](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/) assumes about $17,000 for a 300 mm wafer [1](https://epoch.ai/data-insights/b200-cost-breakdown).
--{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}**Dies per wafer.** A wafer is a circle and dies are rectangles, so the edge of the disc goes to waste: an 800 mm2 die, near the largest a scanner can print in one shot, fits 68 times.
--{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}**Yield.** Defects land at random, so a bigger die is likelier to catch one. Epoch AI models the Blackwell die at 40 to 70 percent good, centered on 60 [1](https://epoch.ai/data-insights/b200-cost-breakdown).
+- **Wafer price.** TSMC does not publish it. Epoch AI's model of Blackwell's custom TSMC 4NP process [2](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/) assumes about $17,000 for a 300 mm wafer [1](https://epoch.ai/data-insights/b200-cost-breakdown).
+- **Dies per wafer.** A wafer is a circle and dies are rectangles, so the edge of the disc goes to waste: an 800 mm2 die, near the largest a scanner can print in one shot, fits 68 times.
+- **Yield.** Defects land at random, so a bigger die is likelier to catch one. Epoch AI models the Blackwell die at 40 to 70 percent good, centered on 60 [1](https://epoch.ai/data-insights/b200-cost-breakdown).
 
 Those three numbers put the two dies inside a B200 at about $900, 14 percent of the build [1](https://epoch.ai/data-insights/b200-cost-breakdown). Doubling the wafer price moves the whole bill by a few hundred dollars.
 
@@ -3785,12 +3213,12 @@ The 192 GB of high-bandwidth memory beside those dies, sold as HBM3E, is the sin
 
 #### Packaging, substrate and test ^packaging-substrate-and-test
 
-{--{"author":"James's AI","timestamp":1790597167170}@@\CoWoS-L,--}{++{"author":"James's AI","timestamp":1790597167170}@@CoWoS-L,++} the TSMC process that mounts dies and memory on one carrier and wires them together, adds about $1,100, more than the logic dies it carries [1](https://epoch.ai/data-insights/b200-cost-breakdown). Packaging yield runs 65 to 95 percent, and a package that fails after the memory goes on throws away the dies and the memory with it, adding roughly $1,000 to every B200 that ships [1](https://epoch.ai/data-insights/b200-cost-breakdown). Substrate, board, test and assembly add $480 [1](https://epoch.ai/data-insights/b200-cost-breakdown). See [[#^advanced-packaging|Advanced packaging]] for why packaging capacity runs out first.
+CoWoS-L, the TSMC process that mounts dies and memory on one carrier and wires them together, adds about $1,100, more than the logic dies it carries [1](https://epoch.ai/data-insights/b200-cost-breakdown). Packaging yield runs 65 to 95 percent, and a package that fails after the memory goes on throws away the dies and the memory with it, adding roughly $1,000 to every B200 that ships [1](https://epoch.ai/data-insights/b200-cost-breakdown). Substrate, board, test and assembly add $480 [1](https://epoch.ai/data-insights/b200-cost-breakdown). See [[#^advanced-packaging|Advanced packaging]] for why packaging capacity runs out first.
 
 #### The B200 bill of materials ^the-b200-bill-of
 
 | Line | Estimate | Range |
-{--{"author":"James's AI","timestamp":1790597167170}@@| --- | --- | --- |--}{++{"author":"James's AI","timestamp":1790597167170}@@|---|---|---|++}
+|---|---|---|
 | HBM3E, 192 GB in eight stacks | $2,900 | $2,800-3,100 |
 | CoWoS-L packaging | $1,100 | $1,000-1,200 |
 | Packaging yield loss | $1,000 | $430-1,700 |
@@ -3801,17 +3229,15 @@ The 192 GB of high-bandwidth memory beside those dies, sold as HBM3E, is the sin
 
 Epoch AI models each line as a range, deriving the packaging line from TSMC's advanced packaging revenue and Nvidia's share of CoWoS capacity [1](https://epoch.ai/data-insights/b200-cost-breakdown). Nothing of that quality exists for the H100 or Rubin.
 
-**Chart:** Where the ~$6,400 of B200 manufacturing cost goes, 2026{--{"author":"James's AI","timestamp":1790597167170}@@ ($)
-
---}{++{"author":"James's AI","timestamp":1790597167170}@@
+**Chart:** Where the ~$6,400 of B200 manufacturing cost goes, 2026
 
 | | $ |
 |---|---:|
-| ++}HBM3E, 192 GB {--{"author":"James's AI","timestamp":1790597167170}@@**2,900** --}{++{"author":"James's AI","timestamp":1790597167170}@@| 2,900 |
-| ++}CoWoS-L packaging {--{"author":"James's AI","timestamp":1790597167170}@@**1,100** --}{++{"author":"James's AI","timestamp":1790597167170}@@| 1,100 |
-| ++}Packaging yield loss {--{"author":"James's AI","timestamp":1790597167170}@@**1,000** --}{++{"author":"James's AI","timestamp":1790597167170}@@| 1,000 |
-| ++}Logic die, two on 4NP {--{"author":"James's AI","timestamp":1790597167170}@@**900** --}{++{"author":"James's AI","timestamp":1790597167170}@@| 900 |
-| ++}Substrate, board, test {--{"author":"James's AI","timestamp":1790597167170}@@**480**--}{++{"author":"James's AI","timestamp":1790597167170}@@| 480 |++}
+| HBM3E, 192 GB | 2,900 |
+| CoWoS-L packaging | 1,100 |
+| Packaging yield loss | 1,000 |
+| Logic die, two on 4NP | 900 |
+| Substrate, board, test | 480 |
 
 Source: [Epoch AI B200 cost model, from a $17,000 4NP wafer, 40-70% die yield, $14-17 per GB of memory, and a packaging line derived from TSMC's advanced packaging revenue](https://epoch.ai/data-insights/b200-cost-breakdown)
 
@@ -3819,12 +3245,12 @@ Source: [Epoch AI B200 cost model, from a $17,000 4NP wafer, 40-70% die yield, $
 
 At rack scale the number that matters is the cost of a GPU-hour. For an operator that owns the machine, SemiAnalysis puts a Vera Rubin NVL72 at $3.57, against $1.84 for a GB200 and $2.36 for a GB300 [3](https://inferencex.semianalysis.com/blog/vera-rubin-nvl72-vs-gb200-nvl72-inference). Each generation costs its owner more per hour than the last, and buyers pay because throughput rises faster than the rate.
 
-One level up, a 100,000 H100 cluster costs over $4 billion in servers, draws about 150 MW, uses 1.59 TWh a year, pays $123.9 million for power and needs 98,304 {--{"author":"James's AI","timestamp":1790597167170}@@[4](https://newsletter.semianalysis.com/p/100000-h100-clusters-power-network) --}optical transceivers {--{"author":"James's AI","timestamp":1790597167170}@@.--}{++{"author":"James's AI","timestamp":1790597167170}@@[4](https://newsletter.semianalysis.com/p/100000-h100-clusters-power-network).++}
+One level up, a 100,000 H100 cluster costs over $4 billion in servers, draws about 150 MW, uses 1.59 TWh a year, pays $123.9 million for power and needs 98,304 optical transceivers [4](https://newsletter.semianalysis.com/p/100000-h100-clusters-power-network).
 
 ### Who captures the value ^who-captures-the-value
 
 | Firm | Stage | Quarter ended | Gross margin |
-{--{"author":"James's AI","timestamp":1790597167170}@@| --- | --- | --- | --- |--}{++{"author":"James's AI","timestamp":1790597167170}@@|---|---|---|---|++}
+|---|---|---|---|
 | Micron | HBM and DRAM | May 2026 | 84.6% |
 | Nvidia | Accelerator design | July 2026 | 75.0% |
 | TSMC | Wafers and CoWoS | June 2026 | 67.7% |
@@ -3840,39 +3266,35 @@ Every figure is the firm's own reported gross margin [5](https://investors.micro
 
 SK hynix publishes no gross margin. Its operating margin hit 76 percent in the June quarter, on revenue up 257 percent in a year [15](https://news.skhynix.com/en/q2-2026-business-results/).
 
-**Chart:** Gross margin, each firm's most recent reported quarter{--{"author":"James's AI","timestamp":1790597167170}@@ (%)
-
---}{++{"author":"James's AI","timestamp":1790597167170}@@
+**Chart:** Gross margin, each firm's most recent reported quarter
 
 | | % |
 |---|---:|
-| ++}Micron {--{"author":"James's AI","timestamp":1790597167170}@@84.6% --}{++{"author":"James's AI","timestamp":1790597167170}@@| 84.6 |
-| ++}Nvidia {--{"author":"James's AI","timestamp":1790597167170}@@75% --}{++{"author":"James's AI","timestamp":1790597167170}@@| 75 |
-| ++}TSMC {--{"author":"James's AI","timestamp":1790597167170}@@67.7% --}{++{"author":"James's AI","timestamp":1790597167170}@@| 67.7 |
-| ++}KLA {--{"author":"James's AI","timestamp":1790597167170}@@61.4% --}{++{"author":"James's AI","timestamp":1790597167170}@@| 61.4 |
-| ++}ASML {--{"author":"James's AI","timestamp":1790597167170}@@54%--}{++{"author":"James's AI","timestamp":1790597167170}@@| 54 |
-|++} Lam Research {--{"author":"James's AI","timestamp":1790597167170}@@51.7% --}{++{"author":"James's AI","timestamp":1790597167170}@@| 51.7 |
-| ++}Applied Materials {--{"author":"James's AI","timestamp":1790597167170}@@50.3% --}{++{"author":"James's AI","timestamp":1790597167170}@@| 50.3 |
-| ++}Ibiden {--{"author":"James's AI","timestamp":1790597167170}@@36.4%--}{++{"author":"James's AI","timestamp":1790597167170}@@| 36.4 |
-|++} ASE Technology {--{"author":"James's AI","timestamp":1790597167170}@@21% --}{++{"author":"James's AI","timestamp":1790597167170}@@| 21 |
-| ++}Amkor {--{"author":"James's AI","timestamp":1790597167170}@@16.8%--}{++{"author":"James's AI","timestamp":1790597167170}@@| 16.8 |++}
+| Micron | 84.6 |
+| Nvidia | 75 |
+| TSMC | 67.7 |
+| KLA | 61.4 |
+| ASML | 54 |
+| Lam Research | 51.7 |
+| Applied Materials | 50.3 |
+| Ibiden | 36.4 |
+| ASE Technology | 21 |
+| Amkor | 16.8 |
 
 Source: [Each firm's own quarterly earnings release; quarters end between May and August 2026 (TSMC shown)](https://pr.tsmc.com/english/news/3326)
 
 Design, inspection and leading-edge wafers earn gross margins of 50 to 75 percent, substrates 36, assembly and test 17 to 21. In 2026 memory passed all of them: Micron earned 39.8 percent for the year to August 2025 [16](https://investors.micron.com/news/press-release/2025/Micron-Technology-Inc--Reports-Results-for-the-Fourth-Quarter-and-Full-Year-of-Fiscal-2025-09-23-2025/default.aspx) and 84.6 percent in the quarter to May 2026 [5](https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx). The margin moved up the chain, to Nvidia's suppliers.
 
-The two bodies that count this industry disagree. World Semiconductor Trade Statistics forecast $772 billion of global chip sales for 2025 [17](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026); the Semiconductor Industry Association counted $791.7 billion [18](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/). The forecasters put 2026 at $975 billion, with memory and logic each growing more than 30 percent [17](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026). Below those totals sit $135.1 billion of {--{"author":"James's AI","timestamp":1790597167170}@@[19](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025) --}equipment billings {++{"author":"James's AI","timestamp":1790597167170}@@[19](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025) ++}and $448.3 billion of 2025 capital spending at Alphabet, Amazon, Meta, Microsoft and Oracle, on track for $770 billion in 2026 [20](https://epoch.ai/data-insights/hyperscaler-capex-trend).
+The two bodies that count this industry disagree. World Semiconductor Trade Statistics forecast $772 billion of global chip sales for 2025 [17](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026); the Semiconductor Industry Association counted $791.7 billion [18](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/). The forecasters put 2026 at $975 billion, with memory and logic each growing more than 30 percent [17](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026). Below those totals sit $135.1 billion of equipment billings [19](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025) and $448.3 billion of 2025 capital spending at Alphabet, Amazon, Meta, Microsoft and Oracle, on track for $770 billion in 2026 [20](https://epoch.ai/data-insights/hyperscaler-capex-trend).
 
-**Chart:** Size of each layer of the chain, 2025{--{"author":"James's AI","timestamp":1790597167170}@@ ($B)
-
---}{++{"author":"James's AI","timestamp":1790597167170}@@
+**Chart:** Size of each layer of the chain, 2025
 
 | | $B |
 |---|---:|
-| ++}Semiconductor sales {++{"author":"James's AI","timestamp":1790597167170}@@| ++}792 {++{"author":"James's AI","timestamp":1790597167170}@@|
-| ++}Hyperscaler capex {++{"author":"James's AI","timestamp":1790597167170}@@| ++}448 {++{"author":"James's AI","timestamp":1790597167170}@@|
-| ++}Nvidia data center revenue {++{"author":"James's AI","timestamp":1790597167170}@@| ++}194 {++{"author":"James's AI","timestamp":1790597167170}@@|
-| ++}Semiconductor equipment {++{"author":"James's AI","timestamp":1790597167170}@@| ++}135{++{"author":"James's AI","timestamp":1790597167170}@@ |++}
+| Semiconductor sales | 792 |
+| Hyperscaler capex | 448 |
+| Nvidia data center revenue | 194 |
+| Semiconductor equipment | 135 |
 
 Source: [Semiconductor Industry Association on chip sales; Epoch AI on capital spending at Alphabet, Amazon, Meta, Microsoft and Oracle; Nvidia FY2026 results; SEMI on equipment billings](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/)
 
@@ -3881,7 +3303,7 @@ Source: [Semiconductor Industry Association on chip sales; Epoch AI on capital s
 Per unit of compute, logic keeps getting cheaper and everything wrapped around it gets more expensive. Packaging and its scrap cost more than twice the logic dies [1](https://epoch.ai/data-insights/b200-cost-breakdown), and a GB300 NVL72 rack already draws 142 kW [21](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html).
 
 | Stage | Class | Why |
-{--{"author":"James's AI","timestamp":1790597167170}@@| --- | --- | --- |--}{++{"author":"James's AI","timestamp":1790597167170}@@|---|---|---|++}
+|---|---|---|
 | EUV lithography | Structurally expensive | One supplier; price set by twenty years of optics development. |
 | Masks and pellicles | Structurally expensive | Scales with layer count; every design pays again. |
 | Metrology and inspection | Structurally expensive | Inspection time rises faster than throughput. |
@@ -3891,122 +3313,98 @@ Per unit of compute, logic keeps getting cheaper and everything wrapped around i
 | Leading-edge logic wafers | Compressible with scale | Defect density and utilization improve through a ramp. |
 | Design and EDA | Compressible with scale | Engineering cost is spread across volume. |
 | Deposition and etch tools | Compressible with scale | Credible second sources for most deposition and etch steps. |
-|{--{"author":"James's AI","timestamp":1790593699374}@@  --}{++{"author":"James's AI","timestamp":1790593699374}@@ ABF substrates ++}| Compressible with scale | A {++{"author":"James's AI","timestamp":1790593699374}@@laminate ++}line, buildable at scale. |
-| Optical transceivers | Compressible with scale | Copper and {++{"author":"James's AI","timestamp":1790593700212}@@co-packaged optics ++}cap the price. |
+| ABF substrates | Compressible with scale | A laminate line, buildable at scale. |
+| Optical transceivers | Compressible with scale | Copper and co-packaged optics cap the price. |
 | Test and assembly (OSAT) | Already commoditized | 17 to 21 percent margins; sold on price. |
 | Wafers and bulk gases | Already commoditized | Multi-supplier, long-qualified, thin margins. |
 | Rack integration (ODM) | Already commoditized | Low-teens margins on parts the customer specifies. |
 
 ### Key evaluation criteria ^key-evaluation-criteria-16
 
--{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}**Cost per good die.** A 30 percent wafer price rise at constant yield is survivable. A ten-point yield drop on an 800 mm2 die is not.
--{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}**Memory dollars per gigabyte, and gigabytes per part.** The largest line on the bill, set by three firms.
--{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}**Packaging yield.** Every point lost throws away finished dies and the memory attached to them [1](https://epoch.ai/data-insights/b200-cost-breakdown).
--{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}**Share of the bill the vendor does not control.** Nvidia sets its own margin but buys memory, packaging and substrates at another firm's price.
--{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}**Rack watts.** Past about 140 kW a rack, power and cooling capex grows faster than accelerator capex [21](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html).
--{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}**Compressibility class.** Whether the line falls when volume doubles. If it does not, capacity is the constraint.
+- **Cost per good die.** A 30 percent wafer price rise at constant yield is survivable. A ten-point yield drop on an 800 mm2 die is not.
+- **Memory dollars per gigabyte, and gigabytes per part.** The largest line on the bill, set by three firms.
+- **Packaging yield.** Every point lost throws away finished dies and the memory attached to them [1](https://epoch.ai/data-insights/b200-cost-breakdown).
+- **Share of the bill the vendor does not control.** Nvidia sets its own margin but buys memory, packaging and substrates at another firm's price.
+- **Rack watts.** Past about 140 kW a rack, power and cooling capex grows faster than accelerator capex [21](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html).
+- **Compressibility class.** Whether the line falls when volume doubles. If it does not, capacity is the constraint.
 
-{--{"author":"James's AI","timestamp":1790597167170}@@Card--}{++{"author":"James's AI","timestamp":1790597167170}@@::::callout {title="Flashcards" tone="blue"}
+::::callout {title="Flashcards" tone="blue"}
 Recall each answer, then open the card.
 
-:::callout {title="Card++} 1 of {--{"author":"James's AI","timestamp":1790597167170}@@3Question
+:::callout {title="Card 1 of 3: What does an Nvidia B200 cost to build, and what does it sell for?" tone="neutral" collapse="closed"}
+About $6,400 to build. It sells for $30,000 to $40,000.
 
---}{++{"author":"James's AI","timestamp":1790597167170}@@3: ++}What does an Nvidia B200 cost to build, and what does it sell {--{"author":"James's AI","timestamp":1790597167170}@@for?
+The build cost is an estimate by Epoch AI. Nvidia's gross margin is 75 percent. [[#^the-b200-bill-of|Reread: The B200 bill of materials]]
+:::
 
-Card 1 of 3Answer
+:::callout {title="Card 2 of 3: What is the most expensive part of an AI accelerator?" tone="neutral" collapse="closed"}
+The stacked memory, about 45 percent of the cost to build.
 
---}{++{"author":"James's AI","timestamp":1790597167170}@@for?" tone="neutral" collapse="closed"}
-++}About $6,400 to build. It sells for $30,000 to $40,000.
+The logic chips that do the calculating are about 14 percent. [[#^memory-is-the-largest|Reread: Memory is the largest line]]
+:::
 
-The build cost is an estimate by Epoch AI. Nvidia's gross margin is 75 percent. {--{"author":"James's AI","timestamp":1790597167170}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597167170}@@[[#^the-b200-bill-of|Reread:++} The B200 bill of {--{"author":"James's AI","timestamp":1790597167170}@@materials](#component-costs--the-b200-bill-of-materials)--}{++{"author":"James's AI","timestamp":1790597167170}@@materials]]
-:::++}
+:::callout {title="Card 3 of 3: Why does packaging cost more than the logic chips?" tone="neutral" collapse="closed"}
+A package that fails after assembly throws away the chips and the memory inside it.
 
-{--{"author":"James's AI","timestamp":1790597167170}@@Card --}{++{"author":"James's AI","timestamp":1790597167170}@@:::callout {title="Card ++}2 of {--{"author":"James's AI","timestamp":1790597167170}@@3Question
+Packaging and its scrap come to about 33 percent of the cost. [[#^packaging-substrate-and-test|Reread: Packaging, substrate and test]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597167170}@@3: ++}What is the most expensive part of an AI {--{"author":"James's AI","timestamp":1790597167170}@@accelerator?
+::::
 
-Card 2 of 3Answer
+:::callout {title="Three things to remember" tone="green"}
+- A B200 costs about $6,400 to build and sells for $30,000 to $40,000.
+- The stacked memory is the most expensive part, about 45 percent of the cost.
+- Packaging costs more than the logic chips, because a failed package throws away everything inside it.
+:::
 
---}{++{"author":"James's AI","timestamp":1790597167170}@@accelerator?" tone="neutral" collapse="closed"}
-++}The stacked memory, about 45 percent of the cost to build.
-
-The logic chips that do the calculating are about 14 percent. {--{"author":"James's AI","timestamp":1790597167170}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597167170}@@[[#^memory-is-the-largest|Reread:++} Memory is the largest {--{"author":"James's AI","timestamp":1790597167170}@@line](#component-costs--memory-is-the-largest-line)--}{++{"author":"James's AI","timestamp":1790597167170}@@line]]
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597167170}@@Card--}{++{"author":"James's AI","timestamp":1790597167170}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597167170}@@3Question
-
---}{++{"author":"James's AI","timestamp":1790597167170}@@3: ++}Why does packaging cost more than the logic {--{"author":"James's AI","timestamp":1790597167170}@@chips?
-
-Card 3 of 3Answer
-
---}{++{"author":"James's AI","timestamp":1790597167170}@@chips?" tone="neutral" collapse="closed"}
-++}A package that fails after assembly throws away the chips and the memory inside it.
-
-Packaging and its scrap come to about 33 percent of the cost. {--{"author":"James's AI","timestamp":1790597167170}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597167170}@@[[#^packaging-substrate-and-test|Reread:++} Packaging, substrate and {--{"author":"James's AI","timestamp":1790597167170}@@test](#component-costs--packaging-substrate-and-test)--}{++{"author":"James's AI","timestamp":1790597167170}@@test]]
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597167170}@@#### Three--}{++{"author":"James's AI","timestamp":1790597167170}@@::::
-
-:::callout {title="Three++} things to {--{"author":"James's AI","timestamp":1790597167170}@@remember ^three-things-to-remember-2
-
---}{++{"author":"James's AI","timestamp":1790597167170}@@remember" tone="green"}
-++}-{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}A B200 costs about $6,400 to build and sells for $30,000 to $40,000.
--{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}The stacked memory is the most expensive part, about 45 percent of the cost.
--{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}Packaging costs more than the logic chips, because a failed package throws away everything inside it.{++{"author":"James's AI","timestamp":1790597167170}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597167170}@@**Sources (21)**
-
---}{++{"author":"James's AI","timestamp":1790597167170}@@:::callout {title="Sources (21)" tone="neutral" collapse="closed"}
-++}1.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [NVIDIA's B200 costs around $6,400 to {--{"author":"James's AI","timestamp":1790597167170}@@produce](https://epoch.ai/data-insights/b200-cost-breakdown)--}{++{"author":"James's AI","timestamp":1790597167170}@@produce](https://epoch.ai/data-insights/b200-cost-breakdown).++} Epoch AI · 10 December {--{"author":"James's AI","timestamp":1790597167170}@@2025--}{++{"author":"James's AI","timestamp":1790597167170}@@2025. Tier A.++}
-2.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [NVIDIA Blackwell {--{"author":"James's AI","timestamp":1790597167170}@@Architecture](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/)--}{++{"author":"James's AI","timestamp":1790597167170}@@Architecture](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/).++} Nvidia · 18 December {--{"author":"James's AI","timestamp":1790597167170}@@2025--}{++{"author":"James's AI","timestamp":1790597167170}@@2025. Tier A.++}
-3.{--{"author":"James's AI","timestamp":1790597167170}@@  B--} [Vera Rubin NVL72 vs GB200 NVL72? Inference TCO & Architecture {--{"author":"James's AI","timestamp":1790597167170}@@Analysis](https://inferencex.semianalysis.com/blog/vera-rubin-nvl72-vs-gb200-nvl72-inference)--}{++{"author":"James's AI","timestamp":1790597167170}@@Analysis](https://inferencex.semianalysis.com/blog/vera-rubin-nvl72-vs-gb200-nvl72-inference).++} SemiAnalysis · 23 July {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier B.++}
-4.{--{"author":"James's AI","timestamp":1790597167170}@@  B--} [100,000 H100 Clusters: Power, Network Topology, Ethernet vs InfiniBand, Reliability, Failures, {--{"author":"James's AI","timestamp":1790597167170}@@Checkpointing](https://newsletter.semianalysis.com/p/100000-h100-clusters-power-network)--}{++{"author":"James's AI","timestamp":1790597167170}@@Checkpointing](https://newsletter.semianalysis.com/p/100000-h100-clusters-power-network).++} SemiAnalysis · 17 June {--{"author":"James's AI","timestamp":1790597167170}@@2024--}{++{"author":"James's AI","timestamp":1790597167170}@@2024. Tier B.++}
-5.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [Micron Technology, Inc. Reports Record Results for the Third Quarter of Fiscal {--{"author":"James's AI","timestamp":1790597167170}@@2026](https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx)--}{++{"author":"James's AI","timestamp":1790597167170}@@2026](https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx).++} Micron Technology · 24 June {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
-6.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [NVIDIA Announces Financial Results for Second Quarter Fiscal {--{"author":"James's AI","timestamp":1790597167170}@@2027](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027)--}{++{"author":"James's AI","timestamp":1790597167170}@@2027](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027).++} Nvidia · 26 August {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
-7.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [TSMC Reports Second Quarter EPS of {--{"author":"James's AI","timestamp":1790597167170}@@NT$27.25](https://pr.tsmc.com/english/news/3326)--}{++{"author":"James's AI","timestamp":1790597167170}@@NT$27.25](https://pr.tsmc.com/english/news/3326).++} TSMC · 16 July {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
-8.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR {--{"author":"James's AI","timestamp":1790597167170}@@RESULTS](https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full)--}{++{"author":"James's AI","timestamp":1790597167170}@@RESULTS](https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full).++} KLA Corporation · 28 July {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
-9.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [ASML reports €9.3 billion total net sales and €2.9 billion net income in Q2 {--{"author":"James's AI","timestamp":1790597167170}@@2026](https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results)--}{++{"author":"James's AI","timestamp":1790597167170}@@2026](https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results).++} ASML · 15 July {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
-10.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [Lam Research Corporation Reports Financial Results for the Quarter Ended June 28, {--{"author":"James's AI","timestamp":1790597167170}@@2026](https://newsroom.lamresearch.com/2026-07-29-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-June-28,-2026)--}{++{"author":"James's AI","timestamp":1790597167170}@@2026](https://newsroom.lamresearch.com/2026-07-29-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-June-28,-2026).++} Lam Research · 29 July {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
-11.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [Applied Materials Announces Third Quarter 2026 {--{"author":"James's AI","timestamp":1790597167170}@@Results](https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results)--}{++{"author":"James's AI","timestamp":1790597167170}@@Results](https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results).++} Applied Materials · 13 August {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
-12.{--{"author":"James's AI","timestamp":1790597167170}@@  A [Note:--}{++{"author":"James's AI","timestamp":1790597167170}@@ [Note :++} This document has been translated from a part of the Japanese original for reference purposes {--{"author":"James's AI","timestamp":1790597167170}@@only.](https://www.ibiden.com/ir/items/tannshinn2026Q1.pdf)--}{++{"author":"James's AI","timestamp":1790597167170}@@only.](https://www.ibiden.com/ir/items/tannshinn2026Q1.pdf).++} Ibiden · 3 August {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
-13.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [ASE Technology Holding Co., Ltd. Reports Its Unaudited Consolidated Financial Results for the Second Quarter of {--{"author":"James's AI","timestamp":1790597167170}@@2026](https://www.prnewswire.com/news-releases/ase-technology-holding-co-ltd-reports-its-unaudited-consolidated-financial-results-for-the-second-quarter-of-2026-302838714.html)--}{++{"author":"James's AI","timestamp":1790597167170}@@2026](https://www.prnewswire.com/news-releases/ase-technology-holding-co-ltd-reports-its-unaudited-consolidated-financial-results-for-the-second-quarter-of-2026-302838714.html).++} PR Newswire · 30 July {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
-14.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [AMKOR TECHNOLOGY, INC., Form 8-K current report for the period ended 2026-07-27 {--{"author":"James's AI","timestamp":1790597167170}@@(8-K)](https://www.sec.gov/Archives/edgar/data/0001047127/000104712726000043/amkr6302026erex-991.htm)--}{++{"author":"James's AI","timestamp":1790597167170}@@(8-K)](https://www.sec.gov/Archives/edgar/data/0001047127/000104712726000043/amkr6302026erex-991.htm).++} U.S. Securities and Exchange Commission (filing by AMKOR TECHNOLOGY, INC.) · 27 July {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
-15.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [SK hynix Announces 2Q26 Financial {--{"author":"James's AI","timestamp":1790597167170}@@Results](https://news.skhynix.com/en/q2-2026-business-results/)--}{++{"author":"James's AI","timestamp":1790597167170}@@Results](https://news.skhynix.com/en/q2-2026-business-results/).++} SK {--{"author":"James's AI","timestamp":1790597167170}@@hynix--}{++{"author":"James's AI","timestamp":1790597167170}@@hynix. Tier A.++}
-16.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [Micron Technology, Inc. Reports Results for the Fourth Quarter and Full Year of Fiscal {--{"author":"James's AI","timestamp":1790597167170}@@2025](https://investors.micron.com/news/press-release/2025/Micron-Technology-Inc--Reports-Results-for-the-Fourth-Quarter-and-Full-Year-of-Fiscal-2025-09-23-2025/default.aspx)--}{++{"author":"James's AI","timestamp":1790597167170}@@2025](https://investors.micron.com/news/press-release/2025/Micron-Technology-Inc--Reports-Results-for-the-Fourth-Quarter-and-Full-Year-of-Fiscal-2025-09-23-2025/default.aspx).++} Micron Technology · 23 September {--{"author":"James's AI","timestamp":1790597167170}@@2025--}{++{"author":"James's AI","timestamp":1790597167170}@@2025. Tier A.++}
-17.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [Global Semiconductor Market Approaches $1T in {--{"author":"James's AI","timestamp":1790597167170}@@2026](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026)--}{++{"author":"James's AI","timestamp":1790597167170}@@2026](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026).++} World Semiconductor Trade {--{"author":"James's AI","timestamp":1790597167170}@@Statistics--}{++{"author":"James's AI","timestamp":1790597167170}@@Statistics. Tier A.++}
-18.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [Global Annual Semiconductor Sales Increase 25.6% to $791.7 Billion in 2025 - Semiconductor Industry {--{"author":"James's AI","timestamp":1790597167170}@@Association](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/)--}{++{"author":"James's AI","timestamp":1790597167170}@@Association](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/).++} Semiconductor Industry Association · 6 February {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
-19.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [SEMI Reports Global Semiconductor Equipment Billings Reached $135 Billion in 2025, Up 15% {--{"author":"James's AI","timestamp":1790597167170}@@Year-on-Year](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025)--}{++{"author":"James's AI","timestamp":1790597167170}@@Year-on-Year](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025).++} SEMI · 7 April {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
-20.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [Hyperscaler capex has quadrupled since GPT-4's {--{"author":"James's AI","timestamp":1790597167170}@@release](https://epoch.ai/data-insights/hyperscaler-capex-trend)--}{++{"author":"James's AI","timestamp":1790597167170}@@release](https://epoch.ai/data-insights/hyperscaler-capex-trend).++} Epoch AI · 26 February {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
-21.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [System Hardware & {--{"author":"James's AI","timestamp":1790597167170}@@Components](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html) Nvidia--}{++{"author":"James's AI","timestamp":1790597167170}@@Components](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html). Nvidia. Tier A.
-:::++}
+:::callout {title="Sources (21)" tone="neutral" collapse="closed"}
+1. [NVIDIA's B200 costs around $6,400 to produce](https://epoch.ai/data-insights/b200-cost-breakdown). Epoch AI · 10 December 2025. Tier A.
+2. [NVIDIA Blackwell Architecture](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/). Nvidia · 18 December 2025. Tier A.
+3. [Vera Rubin NVL72 vs GB200 NVL72? Inference TCO & Architecture Analysis](https://inferencex.semianalysis.com/blog/vera-rubin-nvl72-vs-gb200-nvl72-inference). SemiAnalysis · 23 July 2026. Tier B.
+4. [100,000 H100 Clusters: Power, Network Topology, Ethernet vs InfiniBand, Reliability, Failures, Checkpointing](https://newsletter.semianalysis.com/p/100000-h100-clusters-power-network). SemiAnalysis · 17 June 2024. Tier B.
+5. [Micron Technology, Inc. Reports Record Results for the Third Quarter of Fiscal 2026](https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx). Micron Technology · 24 June 2026. Tier A.
+6. [NVIDIA Announces Financial Results for Second Quarter Fiscal 2027](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027). Nvidia · 26 August 2026. Tier A.
+7. [TSMC Reports Second Quarter EPS of NT$27.25](https://pr.tsmc.com/english/news/3326). TSMC · 16 July 2026. Tier A.
+8. [KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS](https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full). KLA Corporation · 28 July 2026. Tier A.
+9. [ASML reports €9.3 billion total net sales and €2.9 billion net income in Q2 2026](https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results). ASML · 15 July 2026. Tier A.
+10. [Lam Research Corporation Reports Financial Results for the Quarter Ended June 28, 2026](https://newsroom.lamresearch.com/2026-07-29-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-June-28,-2026). Lam Research · 29 July 2026. Tier A.
+11. [Applied Materials Announces Third Quarter 2026 Results](https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results). Applied Materials · 13 August 2026. Tier A.
+12. [Note : This document has been translated from a part of the Japanese original for reference purposes only.](https://www.ibiden.com/ir/items/tannshinn2026Q1.pdf). Ibiden · 3 August 2026. Tier A.
+13. [ASE Technology Holding Co., Ltd. Reports Its Unaudited Consolidated Financial Results for the Second Quarter of 2026](https://www.prnewswire.com/news-releases/ase-technology-holding-co-ltd-reports-its-unaudited-consolidated-financial-results-for-the-second-quarter-of-2026-302838714.html). PR Newswire · 30 July 2026. Tier A.
+14. [AMKOR TECHNOLOGY, INC., Form 8-K current report for the period ended 2026-07-27 (8-K)](https://www.sec.gov/Archives/edgar/data/0001047127/000104712726000043/amkr6302026erex-991.htm). U.S. Securities and Exchange Commission (filing by AMKOR TECHNOLOGY, INC.) · 27 July 2026. Tier A.
+15. [SK hynix Announces 2Q26 Financial Results](https://news.skhynix.com/en/q2-2026-business-results/). SK hynix. Tier A.
+16. [Micron Technology, Inc. Reports Results for the Fourth Quarter and Full Year of Fiscal 2025](https://investors.micron.com/news/press-release/2025/Micron-Technology-Inc--Reports-Results-for-the-Fourth-Quarter-and-Full-Year-of-Fiscal-2025-09-23-2025/default.aspx). Micron Technology · 23 September 2025. Tier A.
+17. [Global Semiconductor Market Approaches $1T in 2026](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026). World Semiconductor Trade Statistics. Tier A.
+18. [Global Annual Semiconductor Sales Increase 25.6% to $791.7 Billion in 2025 - Semiconductor Industry Association](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/). Semiconductor Industry Association · 6 February 2026. Tier A.
+19. [SEMI Reports Global Semiconductor Equipment Billings Reached $135 Billion in 2025, Up 15% Year-on-Year](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025). SEMI · 7 April 2026. Tier A.
+20. [Hyperscaler capex has quadrupled since GPT-4's release](https://epoch.ai/data-insights/hyperscaler-capex-trend). Epoch AI · 26 February 2026. Tier A.
+21. [System Hardware & Components](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html). Nvidia. Tier A.
+:::
 
 ## Geopolitics ^geopolitics
 
 Every stage in this chain sits in someone's jurisdiction. Since 2018 the United States has been converting that fact into policy, and China has been building substitutes.
 
-{--{"author":"James's AI","timestamp":1790597176427}@@**In --}{++{"author":"James's AI","timestamp":1790597176427}@@:::callout {title="In ++}plain {--{"author":"James's AI","timestamp":1790597176427}@@terms**
-
---}{++{"author":"James's AI","timestamp":1790597176427}@@terms" tone="neutral"}
-++}An export control is a rule that makes a sale need the government's permission. The government names an item and a buyer, and from then on its own companies must hold a license before they ship that item to that buyer. The American government stretches the rule to cover goods made abroad with American technology. Few governments can use such a rule to much effect, because it works only when their own firms sell something the buyer cannot get elsewhere. The machines, software and chemicals that make an advanced chip come from a short list of firms in the United States, the Netherlands, Japan and South Korea. China can copy the simpler machines within a few years. It cannot yet copy the machine that prints the finest circuits, the chemistry that machine needs, or high-bandwidth memory, the stacked memory beside an AI chip.{++{"author":"James's AI","timestamp":1790597176427}@@
-:::++}
+:::callout {title="In plain terms" tone="neutral"}
+An export control is a rule that makes a sale need the government's permission. The government names an item and a buyer, and from then on its own companies must hold a license before they ship that item to that buyer. The American government stretches the rule to cover goods made abroad with American technology. Few governments can use such a rule to much effect, because it works only when their own firms sell something the buyer cannot get elsewhere. The machines, software and chemicals that make an advanced chip come from a short list of firms in the United States, the Netherlands, Japan and South Korea. China can copy the simpler machines within a few years. It cannot yet copy the machine that prints the finest circuits, the chemistry that machine needs, or high-bandwidth memory, the stacked memory beside an AI chip.
+:::
 
 ### In short ^in-short-17
 
 One or two countries hold a dozen points in the chain, and export controls are built on that. They have held China below the leading edge, where it still cannot get extreme-ultraviolet machines, their resist or high-bandwidth memory. They have not stopped substitution beneath it, where domestic tools now take a third of China's own market. The Netherlands and Japan paid for that, their toolmakers' China share of sales down from 41 to 33 percent at ASML and from 47 to 27 percent at Tokyo Electron. What began as a small yard is now tariffs, equity stakes and a cut of licensed sales, and none of it has moved leading-edge logic or packaging out of Taiwan.
 
-{--{"author":"James's AI","timestamp":1790597176427}@@3,223--}{++{"author":"James's AI","timestamp":1790597176427}@@*3,223++} words / 14 {--{"author":"James's AI","timestamp":1790597176427}@@min--}{++{"author":"James's AI","timestamp":1790597176427}@@min*++}
+*3,223 words / 14 min*
 
 Washington's control regime and Beijing's answer to it are both unfinished.
 
 ### The shape of the contest ^the-shape-of-the
 
-In 2022 Washington changed the goal from staying a generation ahead to "as large a lead as possible", sold as a{--{"author":"James's AI","timestamp":1790597176427}@@ [1](https://www.csis.org/analysis/where-chips-fall-us-export-controls-under-biden-administration-2022-2024)--} small yard with a high fence {--{"author":"James's AI","timestamp":1790597176427}@@.--}{++{"author":"James's AI","timestamp":1790597176427}@@[1](https://www.csis.org/analysis/where-chips-fall-us-export-controls-under-biden-administration-2022-2024).++} The October rules that followed aimed to push China backwards [2](https://www.csis.org/analysis/choking-chinas-access-future-ai). Licensing once asked who was buying and why; country-wide prohibition asks only where the item is going.
+In 2022 Washington changed the goal from staying a generation ahead to "as large a lead as possible", sold as a small yard with a high fence [1](https://www.csis.org/analysis/where-chips-fall-us-export-controls-under-biden-administration-2022-2024). The October rules that followed aimed to push China backwards [2](https://www.csis.org/analysis/choking-chinas-access-future-ai). Licensing once asked who was buying and why; country-wide prohibition asks only where the item is going.
 
 ### Chokepoints and who holds them ^chokepoints-and-who-holds
 
 | Segment | Leader | Share | Basis |
-{--{"author":"James's AI","timestamp":1790597176427}@@| --- | --- | --- | --- |--}{++{"author":"James's AI","timestamp":1790597176427}@@|---|---|---|---|++}
+|---|---|---|---|
 | EUV lithography | Netherlands | 100% | revenue, 2025 |
 | DUV lithography | Netherlands | 95% | revenue, 2025 |
 | Metrology and inspection | United States | 72% | revenue, 2025 |
@@ -4020,12 +3418,12 @@ In 2022 Washington changed the goal from staying a generation ahead to "as large
 | AI accelerator design | United States | 93% | revenue, 2025 |
 | Mature logic, 28 nm and above | China | 38% | capacity, 2025, site estimate |
 
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**Equipment.** CSET's ETO Supply Chain Explorer, TechInsights 2025 revenue by parent-company headquarters [3](https://raw.githubusercontent.com/georgetown-cset/eto-chip-explorer/main/data/provision.csv).
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**Materials.** Country shares of photoresist and silicon wafers as Japan's Ministry of Economy, Trade and Industry published them in December 2025, from Fuji Keizai's materials survey, by parent-company headquarters [4](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf). Japan held 76.7 percent of photoresist in 2021 and 78.4 in 2023, and 52.4 percent of wafers against 53.0, so neither position is moving.
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**Taiwan.** The 78 percent is the Taiwan Semiconductor Industry Association's 2025 count, as the Stimson Center gives it [5](https://www.stimson.org/2025/why-taiwan-fears-america-first-risks-eroding-its-silicon-shield/). The 72 percent is a Chip Supply Chain estimate for capacity at 5 nm and below, carried forward from the 2022 industry baseline because nobody publishes a current measurement [6](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf). The 92 percent quoted more often is a February 2024 US International Trade Commission figure, relayed by that same Stimson piece, on a wider reading of "most advanced" [5](https://www.stimson.org/2025/why-taiwan-fears-america-first-risks-eroding-its-silicon-shield/).
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**Memory.** SK hynix's US listing prospectus splits 2025 high-bandwidth memory revenue between SK hynix at 63.2 percent, Samsung at 19.3 and Micron at 17.4, so Korea holds 82.5; by the first quarter of 2026 Korea was down to 76.9 [7](https://www.sec.gov/Archives/edgar/data/0002120882/000119312526299963/d32785d424b4.htm). The underlying figures are IDC's, relayed by the prospectus.
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**Design.** CSIS [8](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls).
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**China's mature nodes.** The 38 percent is a Chip Supply Chain reading of logic capacity at 28 nm and above. It sits between the 2022 industry measurement [6](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf) and CSIS's finding that China now holds about half of global mature-node capacity, on a broader definition that includes discrete, analog and power chips [8](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls).
+- **Equipment.** CSET's ETO Supply Chain Explorer, TechInsights 2025 revenue by parent-company headquarters [3](https://raw.githubusercontent.com/georgetown-cset/eto-chip-explorer/main/data/provision.csv).
+- **Materials.** Country shares of photoresist and silicon wafers as Japan's Ministry of Economy, Trade and Industry published them in December 2025, from Fuji Keizai's materials survey, by parent-company headquarters [4](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf). Japan held 76.7 percent of photoresist in 2021 and 78.4 in 2023, and 52.4 percent of wafers against 53.0, so neither position is moving.
+- **Taiwan.** The 78 percent is the Taiwan Semiconductor Industry Association's 2025 count, as the Stimson Center gives it [5](https://www.stimson.org/2025/why-taiwan-fears-america-first-risks-eroding-its-silicon-shield/). The 72 percent is a Chip Supply Chain estimate for capacity at 5 nm and below, carried forward from the 2022 industry baseline because nobody publishes a current measurement [6](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf). The 92 percent quoted more often is a February 2024 US International Trade Commission figure, relayed by that same Stimson piece, on a wider reading of "most advanced" [5](https://www.stimson.org/2025/why-taiwan-fears-america-first-risks-eroding-its-silicon-shield/).
+- **Memory.** SK hynix's US listing prospectus splits 2025 high-bandwidth memory revenue between SK hynix at 63.2 percent, Samsung at 19.3 and Micron at 17.4, so Korea holds 82.5; by the first quarter of 2026 Korea was down to 76.9 [7](https://www.sec.gov/Archives/edgar/data/0002120882/000119312526299963/d32785d424b4.htm). The underlying figures are IDC's, relayed by the prospectus.
+- **Design.** CSIS [8](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls).
+- **China's mature nodes.** The 38 percent is a Chip Supply Chain reading of logic capacity at 28 nm and above. It sits between the 2022 industry measurement [6](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf) and CSIS's finding that China now holds about half of global mature-node capacity, on a broader definition that includes discrete, analog and power chips [8](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls).
 
 Advanced packaging is missing because nobody publishes a capacity split and TSMC will not give one. No country is self-sufficient, so each side's controls can hurt the other.
 
@@ -4033,32 +3431,32 @@ Advanced packaging is missing because nobody publishes a capacity split and TSMC
 
 Commerce built the regime one rule at a time, each closing a gap the last one left.
 
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**17 August 2020, the Foreign Direct Product Rule.** The Entity List, Commerce's roster of buyers that need a license, cut Huawei and 68 affiliates off from US technology in May 2019 [9](https://www.federalregister.gov/documents/2019/05/21/2019-10616/addition-of-entities-to-the-entity-list), so Huawei bought foreign chips instead. Commerce then extended the rule to any foreign item made with US technology and bound for Huawei [10](https://www.federalregister.gov/documents/2020/08/20/2020-18213/addition-of-huawei-non-us-affiliates-to-the-entity-list-the-removal-of-temporary-general-license-and). That reach makes American controls extraterritorial.
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**7 October 2022, the first country-wide rules.** Two new export classifications, 3A090 and 3B090, capped exportable AI chips and set fab thresholds at 16 nm FinFET logic, 18 nm half-pitch DRAM and{--{"author":"James's AI","timestamp":1790597176427}@@ [2](https://www.csis.org/analysis/choking-chinas-access-future-ai)--} 128-layer NAND {--{"author":"James's AI","timestamp":1790597176427}@@.--}{++{"author":"James's AI","timestamp":1790597176427}@@[2](https://www.csis.org/analysis/choking-chinas-access-future-ai).++} They also barred US persons from servicing advanced Chinese fabs, emptying them of American engineers within days [11](https://www.federalregister.gov/documents/2022/10/13/2022-21658/implementation-of-additional-export-controls-certain-advanced-computing-and-semiconductor).
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**17 October 2023, the density fix.** Chip designers had tuned interconnect speed to fall under the 2022 threshold while keeping the compute, so Commerce's {++{"author":"James's AI","timestamp":1790593617180}@@Bureau of Industry and Security ++}(BIS) dropped that parameter for two others: {--{"author":"James's AI","timestamp":1790593617180}@@and.--}{++{"author":"James's AI","timestamp":1790593617180}@@total processing performance and performance density.++} A data-center chip now needs a license at 4,800 points of that performance score, or at 1,600 with a density of 5.92 [12](https://cset.georgetown.edu/article/bis-2023-update-explainer/).
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**2 December 2024, the widest rule.** 24 equipment types, three software tools, the first controls on high-bandwidth memory and 140 Entity List additions [13](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military).
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**15 January 2025, AI Diffusion.** A rule requiring a license for the top band of accelerators, 3A090.a and 4A090.a, to any destination worldwide, then reopening it by exception: License Exception AIA to the nineteen destinations named in supplement no. 5 to part 740, License Exception LPP in capped volumes elsewhere, nothing to China [14](https://www.federalregister.gov/documents/2025/01/15/2025-00636/framework-for-artificial-intelligence-diffusion). BIS said on 13 May that it would not enforce the framework, two days before the compliance date [15](https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens). It withdrew none of the text. The worldwide license requirement, License Exceptions AIA, ACM and LPP, supplement no. 5 and the 790 million TPP per-country allocation all stand in the Code today, and BIS says it enforces the requirement only against Country Groups D:1, D:4 and D:5 and against firms headquartered in D:5 or {--{"author":"James's AI","timestamp":1790597176427}@@[16](https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration) [17](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-742/section-742.6) --}Macau {--{"author":"James's AI","timestamp":1790597176427}@@.--}{++{"author":"James's AI","timestamp":1790597176427}@@[16](https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration) [17](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-742/section-742.6).++} No tiered replacement has appeared; bilateral deals took the place of the caps.
+- **17 August 2020, the Foreign Direct Product Rule.** The Entity List, Commerce's roster of buyers that need a license, cut Huawei and 68 affiliates off from US technology in May 2019 [9](https://www.federalregister.gov/documents/2019/05/21/2019-10616/addition-of-entities-to-the-entity-list), so Huawei bought foreign chips instead. Commerce then extended the rule to any foreign item made with US technology and bound for Huawei [10](https://www.federalregister.gov/documents/2020/08/20/2020-18213/addition-of-huawei-non-us-affiliates-to-the-entity-list-the-removal-of-temporary-general-license-and). That reach makes American controls extraterritorial.
+- **7 October 2022, the first country-wide rules.** Two new export classifications, 3A090 and 3B090, capped exportable AI chips and set fab thresholds at 16 nm FinFET logic, 18 nm half-pitch DRAM and 128-layer NAND [2](https://www.csis.org/analysis/choking-chinas-access-future-ai). They also barred US persons from servicing advanced Chinese fabs, emptying them of American engineers within days [11](https://www.federalregister.gov/documents/2022/10/13/2022-21658/implementation-of-additional-export-controls-certain-advanced-computing-and-semiconductor).
+- **17 October 2023, the density fix.** Chip designers had tuned interconnect speed to fall under the 2022 threshold while keeping the compute, so Commerce's Bureau of Industry and Security (BIS) dropped that parameter for two others: total processing performance and performance density. A data-center chip now needs a license at 4,800 points of that performance score, or at 1,600 with a density of 5.92 [12](https://cset.georgetown.edu/article/bis-2023-update-explainer/).
+- **2 December 2024, the widest rule.** 24 equipment types, three software tools, the first controls on high-bandwidth memory and 140 Entity List additions [13](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military).
+- **15 January 2025, AI Diffusion.** A rule requiring a license for the top band of accelerators, 3A090.a and 4A090.a, to any destination worldwide, then reopening it by exception: License Exception AIA to the nineteen destinations named in supplement no. 5 to part 740, License Exception LPP in capped volumes elsewhere, nothing to China [14](https://www.federalregister.gov/documents/2025/01/15/2025-00636/framework-for-artificial-intelligence-diffusion). BIS said on 13 May that it would not enforce the framework, two days before the compliance date [15](https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens). It withdrew none of the text. The worldwide license requirement, License Exceptions AIA, ACM and LPP, supplement no. 5 and the 790 million TPP per-country allocation all stand in the Code today, and BIS says it enforces the requirement only against Country Groups D:1, D:4 and D:5 and against firms headquartered in D:5 or Macau [16](https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration) [17](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-742/section-742.6). No tiered replacement has appeared; bilateral deals took the place of the caps.
 
 On 9 April 2025 the government told Nvidia it needed a license to ship the H20 to China, to the D:5 group of arms-embargoed countries, and to any company headquartered or ultimately owned there, so no Chinese buyer could route the order through a foreign subsidiary [18](https://www.sec.gov/Archives/edgar/data/1045810/000104581025000082/nvda-20250409.htm). Nvidia took a $4.5 billion charge on stock it could no longer sell. Licenses came back in August at a price: US officials, the filing says, "have expressed an expectation that the USG will receive 15 percent of the revenue generated from licensed H20 sales", though no regulation codifies it [19](https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm).
 
 Early 2026 set the current settlement.
 
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**13 January 2026, effective 15 January.** BIS announced on 13 January that it would move the H200 and AMD MI325X to case-by-case review, with third-party testing and a cap at 50 percent of what the exporter ships to US customers [20](https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china). The rule, at 91 FR 1685, took effect on publication two days later [21](https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities).
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**15 January 2026.** A national-security proclamation under Section 232 put a 25 percent tariff on the same class of chips, then exempted almost every American use, from data centers to startups [22](https://www.federalregister.gov/documents/2026/01/20/2026-01052/adjusting-imports-of-semiconductors-semiconductor-manufacturing-equipment-and-their-derivative).
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**12 February 2026.** Applied Materials paid $252 million, the statutory maximum, over $126 million of ion implanters routed through Korea to an Entity-Listed Chinese customer [23](https://www.bis.gov/press-release/applied-materials-pay-252-million-penalty-bis-illegally-exporting-semiconductor-manufacturing-equipment).
+- **13 January 2026, effective 15 January.** BIS announced on 13 January that it would move the H200 and AMD MI325X to case-by-case review, with third-party testing and a cap at 50 percent of what the exporter ships to US customers [20](https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china). The rule, at 91 FR 1685, took effect on publication two days later [21](https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities).
+- **15 January 2026.** A national-security proclamation under Section 232 put a 25 percent tariff on the same class of chips, then exempted almost every American use, from data centers to startups [22](https://www.federalregister.gov/documents/2026/01/20/2026-01052/adjusting-imports-of-semiconductors-semiconductor-manufacturing-equipment-and-their-derivative).
+- **12 February 2026.** Applied Materials paid $252 million, the statutory maximum, over $126 million of ion implanters routed through Korea to an Entity-Listed Chinese customer [23](https://www.bis.gov/press-release/applied-materials-pay-252-million-penalty-bis-illegally-exporting-semiconductor-manufacturing-equipment).
 
-{++{"author":"James's AI","timestamp":1790597176427}@@**Timeline:** ++}Eight rule changes that shaped the regime
+**Timeline:** Eight rule changes that shaped the regime
 
-{--{"author":"James's AI","timestamp":1790597176427}@@1.  2019-05-16Huawei--}{++{"author":"James's AI","timestamp":1790597176427}@@| Date | Milestone |
+| Date | Milestone |
 |---|---|
-| 2019-05-16 | Huawei++} and 68 affiliates added to the Entity List{++{"author":"James's AI","timestamp":1790597176427}@@ |++}
-{--{"author":"James's AI","timestamp":1790597176427}@@2.  2022-10-07First--}{++{"author":"James's AI","timestamp":1790597176427}@@| 2022-10-07 | First++} country-wide controls on AI chips and fab tools{++{"author":"James's AI","timestamp":1790597176427}@@ |++}
-{--{"author":"James's AI","timestamp":1790597176427}@@3.  2023-10-17Performance--}{++{"author":"James's AI","timestamp":1790597176427}@@| 2023-10-17 | Performance++} density added; A800 and H800 captured{++{"author":"James's AI","timestamp":1790597176427}@@ |++}
-{--{"author":"James's AI","timestamp":1790597176427}@@4.  2024-12-0224 --}{++{"author":"James's AI","timestamp":1790597176427}@@| 2024-12-02 | 24 ++}tool types, HBM controls, 140 entity listings{++{"author":"James's AI","timestamp":1790597176427}@@ |++}
-{--{"author":"James's AI","timestamp":1790597176427}@@5.  2025-01-15AI --}{++{"author":"James's AI","timestamp":1790597176427}@@| 2025-01-15 | AI ++}Diffusion rule published, three country tiers{++{"author":"James's AI","timestamp":1790597176427}@@ |++}
-{--{"author":"James's AI","timestamp":1790597176427}@@6.  2025-05-13AI --}{++{"author":"James's AI","timestamp":1790597176427}@@| 2025-05-13 | AI ++}Diffusion rescinded{++{"author":"James's AI","timestamp":1790597176427}@@ |++}
-{--{"author":"James's AI","timestamp":1790597176427}@@7.  2025-08-11US--}{++{"author":"James's AI","timestamp":1790597176427}@@| 2025-08-11 | US++} officials seek 15% of licensed H20 sales{++{"author":"James's AI","timestamp":1790597176427}@@ |++}
-{--{"author":"James's AI","timestamp":1790597176427}@@8.  2026-01-13H200 --}{++{"author":"James's AI","timestamp":1790597176427}@@| 2026-01-13 | H200 ++}and MI325X case-by-case review announced, effective 15 January{++{"author":"James's AI","timestamp":1790597176427}@@ |++}
+| 2019-05-16 | Huawei and 68 affiliates added to the Entity List |
+| 2022-10-07 | First country-wide controls on AI chips and fab tools |
+| 2023-10-17 | Performance density added; A800 and H800 captured |
+| 2024-12-02 | 24 tool types, HBM controls, 140 entity listings |
+| 2025-01-15 | AI Diffusion rule published, three country tiers |
+| 2025-05-13 | AI Diffusion rescinded |
+| 2025-08-11 | US officials seek 15% of licensed H20 sales |
+| 2026-01-13 | H200 and MI325X case-by-case review announced, effective 15 January |
 
 Source: [BIS press releases and Federal Register rules](https://www.bis.gov/news-updates)
 
@@ -4076,9 +3474,9 @@ So the controls reach the chip, frontier model weights, and the promises a licen
 
 Unilateral tool controls would only transfer the sales, so the campaign depends on The Hague and Tokyo.
 
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**The Netherlands.** The Dutch began licensing advanced deep-ultraviolet tools on 1 September 2023, widened that in September 2024 [27](https://www.government.nl/latest/news/2024/09/06/the-netherlands-expands-export-control-measure-advanced-semiconductor-manufacturing-equipment) and reached measurement and inspection tools on 1 April 2025 [28](https://www.government.nl/latest/news/2025/01/15/klever-export-controls-on-advanced-semiconductor-manufacturing-equipment-to-be-tightened).
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**Japan.** Controls on advanced manufacturing equipment took effect on 23 July 2023 and apply to all destinations and name no country [29](https://www.csis.org/analysis/csis-translation-updated-japanese-export-controls-high-performance-semiconductor).
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**South Korea.** BIS revoked the Validated End-User status that let Samsung, SK hynix and Intel run their China fabs without individual licenses, effective 31 December 2025. It will license those fabs to keep running, but not to expand or upgrade [30](https://www.federalregister.gov/documents/2025/09/02/2025-16735/revocation-of-validated-end-user-authorizations-in-the-peoples-republic-of-china).
+- **The Netherlands.** The Dutch began licensing advanced deep-ultraviolet tools on 1 September 2023, widened that in September 2024 [27](https://www.government.nl/latest/news/2024/09/06/the-netherlands-expands-export-control-measure-advanced-semiconductor-manufacturing-equipment) and reached measurement and inspection tools on 1 April 2025 [28](https://www.government.nl/latest/news/2025/01/15/klever-export-controls-on-advanced-semiconductor-manufacturing-equipment-to-be-tightened).
+- **Japan.** Controls on advanced manufacturing equipment took effect on 23 July 2023 and apply to all destinations and name no country [29](https://www.csis.org/analysis/csis-translation-updated-japanese-export-controls-high-performance-semiconductor).
+- **South Korea.** BIS revoked the Validated End-User status that let Samsung, SK hynix and Intel run their China fabs without individual licenses, effective 31 December 2025. It will license those fabs to keep running, but not to expand or upgrade [30](https://www.federalregister.gov/documents/2025/09/02/2025-16735/revocation-of-validated-end-user-authorizations-in-the-peoples-republic-of-china).
 
 On 30 September 2025 a BIS rule extended Entity List restrictions to any subsidiary half-owned by a listed firm [31](https://www.federalregister.gov/documents/2025/09/30/2025-19001/expansion-of-end-user-controls-to-cover-affiliates-of-certain-listed-entities). The same day the Dutch economy minister invoked the Goods Availability Act against Nexperia, the Nijmegen chipmaker that supplies European car lines, citing governance failures that risked moving technology out of Europe [32](https://www.government.nl/latest/news/2025/10/12/minister-of-economic-affairs-invokes-goods-availability-act). Neither lasted: BIS suspended its rule for a year on 10 November [33](https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities) and the minister suspended his order on 19 November [34](https://www.government.nl/documents/2025/11/19/update-on-invoking-goods-availability-act). Europe holds a chokepoint at the leading edge and none at the mature nodes its car industry runs on.
 
@@ -4090,10 +3488,10 @@ Five bodies run Beijing's side. The Ministry of Industry and Information Technol
 
 The retaliation itself targets the inputs. Micron was first, failing a CAC review on 21 May 2023 and losing its critical infrastructure buyers [40](https://www.csis.org/analysis/micron-aggression-right-response-beijings-ban-us-chipmaker). Mineral controls followed.
 
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**3 December 2024.** Notice 46, from MOFCOM, banned exports of gallium, germanium, antimony and superhard materials to the United States, one day after the American chip rules [41](https://cset.georgetown.edu/publication/china-rare-earth-export-ban/).
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**4 April 2025.** Announcement 18 put seven medium and heavy rare earths under licensing, from samarium to yttrium, as metal, oxide, compound or finished magnet [37](https://english.mofcom.gov.cn/Policies/AnnouncementsOrders/art/2025/art_0dd87cbee7b045bf93fabe6ab2faceee.html).
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**9 October 2025.** A further announcement reached foreign-made goods containing Chinese rare earths worth 0.1 percent or more of their value, putting a Chinese export license between a foreign firm and its own product [42](https://cset.georgetown.edu/publication/mofcom-notice-2025-61/).
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**November 2025.** After Trump and Xi met at the Asia-Pacific summit, the ministry suspended the gallium ban for a year [43](https://www.csis.org/analysis/us-china-trade-truce-has-not-solved-gallium-problem).
+- **3 December 2024.** Notice 46, from MOFCOM, banned exports of gallium, germanium, antimony and superhard materials to the United States, one day after the American chip rules [41](https://cset.georgetown.edu/publication/china-rare-earth-export-ban/).
+- **4 April 2025.** Announcement 18 put seven medium and heavy rare earths under licensing, from samarium to yttrium, as metal, oxide, compound or finished magnet [37](https://english.mofcom.gov.cn/Policies/AnnouncementsOrders/art/2025/art_0dd87cbee7b045bf93fabe6ab2faceee.html).
+- **9 October 2025.** A further announcement reached foreign-made goods containing Chinese rare earths worth 0.1 percent or more of their value, putting a Chinese export license between a foreign firm and its own product [42](https://cset.georgetown.edu/publication/mofcom-notice-2025-61/).
+- **November 2025.** After Trump and Xi met at the Asia-Pacific summit, the ministry suspended the gallium ban for a year [43](https://www.csis.org/analysis/us-china-trade-truce-has-not-solved-gallium-problem).
 
 Nothing was repealed; the gallium ban is paused and the licensing regimes stand.
 
@@ -4103,20 +3501,18 @@ Chinese tool vendors held 10 to 15 percent of their home market before 2022, too
 
 Substitution stalls at the leading edge. SMIC prints 7 nm-class logic on older deep-ultraviolet scanners, exposing each layer several times because it cannot buy an extreme-ultraviolet scanner, and Huawei shipped about 805,000 Ascend units in 2025 on that silicon. The binding constraint is memory. A stockpile of roughly 13 million memory stacks, most bought before the December 2024 rules took effect, supports about 1.6 million Ascend 910C packages; CXMT, China's own memory maker, should reach about 2 million stacks in 2026, enough for 250,000 to 300,000 more [46](https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp).
 
-**Chart:** China's share of revenue at the four largest chip-tool makers, peak year and latest{--{"author":"James's AI","timestamp":1790597176427}@@ (%)
-
---}{++{"author":"James's AI","timestamp":1790597176427}@@
+**Chart:** China's share of revenue at the four largest chip-tool makers, peak year and latest
 
 | | % |
 |---|---:|
-| ++}ASML, 2024 {--{"author":"James's AI","timestamp":1790597176427}@@41% --}{++{"author":"James's AI","timestamp":1790597176427}@@| 41 |
-| ++}ASML, 2025 {--{"author":"James's AI","timestamp":1790597176427}@@33% --}{++{"author":"James's AI","timestamp":1790597176427}@@| 33 |
-| ++}Applied Materials, FY2024 {--{"author":"James's AI","timestamp":1790597176427}@@37% --}{++{"author":"James's AI","timestamp":1790597176427}@@| 37 |
-| ++}Applied Materials, FY2025 {--{"author":"James's AI","timestamp":1790597176427}@@30%--}{++{"author":"James's AI","timestamp":1790597176427}@@| 30 |
-|++} Lam Research, FY2024 {--{"author":"James's AI","timestamp":1790597176427}@@42%--}{++{"author":"James's AI","timestamp":1790597176427}@@| 42 |
-|++} Lam Research, FY2025 {--{"author":"James's AI","timestamp":1790597176427}@@34% --}{++{"author":"James's AI","timestamp":1790597176427}@@| 34 |
-| ++}Tokyo Electron, Q4 FY2024 {--{"author":"James's AI","timestamp":1790597176427}@@47%--}{++{"author":"James's AI","timestamp":1790597176427}@@| 47 |
-|++} Tokyo Electron, Q4 FY2026 {--{"author":"James's AI","timestamp":1790597176427}@@27%--}{++{"author":"James's AI","timestamp":1790597176427}@@| 27 |++}
+| ASML, 2024 | 41 |
+| ASML, 2025 | 33 |
+| Applied Materials, FY2024 | 37 |
+| Applied Materials, FY2025 | 30 |
+| Lam Research, FY2024 | 42 |
+| Lam Research, FY2025 | 34 |
+| Tokyo Electron, Q4 FY2024 | 47 |
+| Tokyo Electron, Q4 FY2026 | 27 |
 
 Source: [ASML Q4 2025 investor presentation, Applied Materials and Lam Research 10-K filings, Tokyo Electron Q4 FY2026 results](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf)
 
@@ -4132,20 +3528,20 @@ Europe's first Chips Act produced no leading-edge fab, and the Chips Act 2.0 pro
 
 China spends more, and differently. The latest round of its National Integrated Circuit Industry Investment Fund, the Big Fund, reached $47 billion [54](https://www.rand.org/pubs/perspectives/PEA4012-1.html). CSIS puts cumulative state funding since 2014 at $150 billion, roughly triple the CHIPS authorization [8](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls). The money has produced a domestic tool industry and no leading-edge node.
 
-**Chart:** CHIPS Act direct funding awarded, by firm, as of July 2025{--{"author":"James's AI","timestamp":1790597176427}@@ ($B)--}
+**Chart:** CHIPS Act direct funding awarded, by firm, as of July 2025
 
-{++{"author":"James's AI","timestamp":1790597176427}@@| | $B |
+| | $B |
 |---|---:|
-| ++}Intel {++{"author":"James's AI","timestamp":1790597176427}@@| ++}7.9 {++{"author":"James's AI","timestamp":1790597176427}@@|
-| ++}Micron {++{"author":"James's AI","timestamp":1790597176427}@@| ++}6.4 {++{"author":"James's AI","timestamp":1790597176427}@@|
-| ++}TSMC {++{"author":"James's AI","timestamp":1790597176427}@@| ++}6.6 {++{"author":"James's AI","timestamp":1790597176427}@@|
-| ++}Samsung {++{"author":"James's AI","timestamp":1790597176427}@@| ++}4.7 {++{"author":"James's AI","timestamp":1790597176427}@@|
-| ++}Texas Instruments {++{"author":"James's AI","timestamp":1790597176427}@@| ++}1.6 {++{"author":"James's AI","timestamp":1790597176427}@@|
-| ++}GlobalFoundries {++{"author":"James's AI","timestamp":1790597176427}@@| ++}1.6 {++{"author":"James's AI","timestamp":1790597176427}@@|
-| ++}SK hynix {++{"author":"James's AI","timestamp":1790597176427}@@| ++}0.5 {++{"author":"James's AI","timestamp":1790597176427}@@|
-| ++}Amkor {++{"author":"James's AI","timestamp":1790597176427}@@| ++}0.4 {++{"author":"James's AI","timestamp":1790597176427}@@|
-| ++}GlobalWafers {++{"author":"James's AI","timestamp":1790597176427}@@| ++}0.4 {++{"author":"James's AI","timestamp":1790597176427}@@|
-| ++}Hemlock Semiconductor {++{"author":"James's AI","timestamp":1790597176427}@@| ++}0.3{++{"author":"James's AI","timestamp":1790597176427}@@ |++}
+| Intel | 7.9 |
+| Micron | 6.4 |
+| TSMC | 6.6 |
+| Samsung | 4.7 |
+| Texas Instruments | 1.6 |
+| GlobalFoundries | 1.6 |
+| SK hynix | 0.5 |
+| Amkor | 0.4 |
+| GlobalWafers | 0.4 |
+| Hemlock Semiconductor | 0.3 |
 
 Source: [GAO-26-107882, Semiconductors: Information on Projects Funded to Strengthen U.S. Supply Chain](https://files.gao.gov/reports/GAO-26-107882/index.html)
 
@@ -4167,160 +3563,128 @@ The House select committee on China puts the median estimate at 140,000 chips sm
 
 ### Who gains and who pays ^who-gains-and-who
 
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**Taiwan and Korea.** Nothing in the policy mix moves leading-edge logic, memory stacking or advanced packaging off an island and a peninsula before 2030; reshoring adds capacity elsewhere without subtracting it there.
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**The Netherlands and Japan.** Their tool makers build the controlled machines, so they gain a say in who gets what and lose the business that paid for it: Tokyo Electron's China share fell from 47.4 to 26.8 percent of quarterly sales in two years [62](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf).
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**The United States.** It holds 93 percent of accelerator design revenue and will keep it. It has built no wafer, memory or assembly industry, and $30.9 billion of grants will not.
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**China.** Mature nodes, sub-leading-edge tools, DRAM and NAND are going domestic on a visible timetable. Extreme-ultraviolet machines, their resist and high-bandwidth memory at scale are not, and stockpile arithmetic caps Ascend output near a million units a year.
+- **Taiwan and Korea.** Nothing in the policy mix moves leading-edge logic, memory stacking or advanced packaging off an island and a peninsula before 2030; reshoring adds capacity elsewhere without subtracting it there.
+- **The Netherlands and Japan.** Their tool makers build the controlled machines, so they gain a say in who gets what and lose the business that paid for it: Tokyo Electron's China share fell from 47.4 to 26.8 percent of quarterly sales in two years [62](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf).
+- **The United States.** It holds 93 percent of accelerator design revenue and will keep it. It has built no wafer, memory or assembly industry, and $30.9 billion of grants will not.
+- **China.** Mature nodes, sub-leading-edge tools, DRAM and NAND are going domestic on a visible timetable. Extreme-ultraviolet machines, their resist and high-bandwidth memory at scale are not, and stockpile arithmetic caps Ascend output near a million units a year.
 
 The Gulf gains without making anything: named Emirati buyers take advanced compute on terms European ones do not get. And Washington's instruments now reach past licensing: a 25 percent tariff on advanced chips [22](https://www.federalregister.gov/documents/2026/01/20/2026-01052/adjusting-imports-of-semiconductors-semiconductor-manufacturing-equipment-and-their-derivative), a 9.9 percent federal stake in Intel [49](https://www.intc.com/news-events/press-releases/detail/1748/intel-and-trump-administration-reach-historic-agreement-to), an expected 15 percent cut of licensed H20 sales [19](https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm) and a case-by-case queue for the H200 [21](https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities).
 
 ### What to watch ^what-to-watch
 
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**November 2026.** Whether China renews the one-year suspension of its gallium ban or lets it expire [43](https://www.csis.org/analysis/us-china-trade-truce-has-not-solved-gallium-problem).
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**The MATCH Act's 150-day deadline.** If it passes, allied divergence on deep-ultraviolet tools gets a statutory deadline [35](https://www.foreign.senate.gov/press/rep/release/risch-ricketts-kim-introduce-match-act-level-the-global-playing-field-for-us-tech).
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**CXMT's memory ramp.** Domestic memory caps Chinese accelerator volume before logic wafers do [46](https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp).
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**SMIC's advanced-node ramp.** 45,000 {++{"author":"James's AI","timestamp":1790593640316}@@wafers a month ++}at end-2025, an estimated 60,000 in 2026 and 80,000 in 2027, every one of them {++{"author":"James's AI","timestamp":1790593640316}@@multiply exposed ++}because SMIC has no extreme-ultraviolet machine [46](https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp). {++{"author":"James's AI","timestamp":1790593640316}@@Yield ++}is the open question.
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}**Taiwan's overseas-production ban against its $250 billion investment promise.** The two contradict each other, and one will be dropped.
+- **November 2026.** Whether China renews the one-year suspension of its gallium ban or lets it expire [43](https://www.csis.org/analysis/us-china-trade-truce-has-not-solved-gallium-problem).
+- **The MATCH Act's 150-day deadline.** If it passes, allied divergence on deep-ultraviolet tools gets a statutory deadline [35](https://www.foreign.senate.gov/press/rep/release/risch-ricketts-kim-introduce-match-act-level-the-global-playing-field-for-us-tech).
+- **CXMT's memory ramp.** Domestic memory caps Chinese accelerator volume before logic wafers do [46](https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp).
+- **SMIC's advanced-node ramp.** 45,000 wafers a month at end-2025, an estimated 60,000 in 2026 and 80,000 in 2027, every one of them multiply exposed because SMIC has no extreme-ultraviolet machine [46](https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp). Yield is the open question.
+- **Taiwan's overseas-production ban against its $250 billion investment promise.** The two contradict each other, and one will be dropped.
 
-{--{"author":"James's AI","timestamp":1790597176427}@@Card 1 of 5Question--}{++{"author":"James's AI","timestamp":1790597176427}@@::::callout {title="Flashcards" tone="blue"}
-Recall each answer, then open the card.++}
+::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.
 
-{++{"author":"James's AI","timestamp":1790597176427}@@:::callout {title="Card 1 of 5: ++}When does an export control{--{"author":"James's AI","timestamp":1790597176427}@@ work?
+:::callout {title="Card 1 of 5: When does an export control work?" tone="neutral" collapse="closed"}
+When a country's own firms sell something the buyer cannot get elsewhere.
 
-Card 1 of 5Answer
+The machines, software and chemicals for advanced chips come from a few firms in the United States, the Netherlands, Japan and South Korea. [[#^chokepoints-and-who-holds|Reread: Chokepoints and who holds them]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597176427}@@ work?" tone="neutral" collapse="closed"}
-++}When a country's own firms sell something the buyer cannot get elsewhere.
+:::callout {title="Card 2 of 5: How do US export controls reach goods made in other countries?" tone="neutral" collapse="closed"}
+They cover foreign goods made with American technology.
 
-The machines, software and chemicals for advanced chips come from a few firms in the United States, the Netherlands, Japan and South Korea. {--{"author":"James's AI","timestamp":1790597176427}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597176427}@@[[#^chokepoints-and-who-holds|Reread:++} Chokepoints and who holds {--{"author":"James's AI","timestamp":1790597176427}@@them](#geopolitics--chokepoints-and-who-holds-them)--}{++{"author":"James's AI","timestamp":1790597176427}@@them]]
-:::++}
+In August 2020 the United States used this reach to cut Huawei off from chips made abroad with American technology. [[#^the-us-export-control-campaign|Reread: The US export-control campaign, 2018 to today]]
+:::
 
-{--{"author":"James's AI","timestamp":1790597176427}@@Card--}{++{"author":"James's AI","timestamp":1790597176427}@@:::callout {title="Card++} 2 of{--{"author":"James's AI","timestamp":1790597176427}@@ 5Question
+:::callout {title="Card 3 of 5: What have export controls achieved against China?" tone="neutral" collapse="closed"}
+They have kept China below the leading edge.
 
---}{++{"author":"James's AI","timestamp":1790597176427}@@ 5: ++}How do US export controls reach goods made in other {--{"author":"James's AI","timestamp":1790597176427}@@countries?
+China still cannot get EUV machines, their resist or high-bandwidth memory. Its own toolmakers took 35 percent of its home market in 2025. [[#^chinas-response|Reread: China's response]]
+:::
 
-Card 2 of 5Answer
+:::callout {title="Card 4 of 5: What have the controls cost allied toolmakers?" tone="neutral" collapse="closed"}
+A large share of their sales to China.
 
---}{++{"author":"James's AI","timestamp":1790597176427}@@countries?" tone="neutral" collapse="closed"}
-++}They cover foreign goods made with American technology.
+China's share of ASML's system sales fell from 41 percent in 2024 to 33 percent in 2025. Its share of Tokyo Electron's sales fell from 47 to 27 percent. [[#^allies-the-netherlands-japan|Reread: Allies: the Netherlands, Japan, Korea and Europe]]
+:::
 
-In August 2020 the United States used this reach to cut Huawei off from chips made abroad with American technology. {--{"author":"James's AI","timestamp":1790597176427}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597176427}@@[[#^the-us-export-control-campaign|Reread:++} The US export-control campaign, 2018 to {--{"author":"James's AI","timestamp":1790597176427}@@today](#geopolitics--the-us-export-control-campaign-2018-to-today)--}{++{"author":"James's AI","timestamp":1790597176427}@@today]]
-:::++}
+:::callout {title="Card 5 of 5: Where are the most advanced chips made today?" tone="neutral" collapse="closed"}
+Only in Taiwan.
 
-{--{"author":"James's AI","timestamp":1790597176427}@@Card--}{++{"author":"James's AI","timestamp":1790597176427}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597176427}@@5Question
+No policy so far has moved leading-edge chipmaking or packaging off the island. [[#^taiwan|Reread: Taiwan]]
+:::
 
---}{++{"author":"James's AI","timestamp":1790597176427}@@5: ++}What have export controls achieved against {--{"author":"James's AI","timestamp":1790597176427}@@China?
+::::
 
-Card 3 of 5Answer
+:::callout {title="Five things to remember" tone="green"}
+- An export control works only when a country's firms sell something the buyer cannot get elsewhere.
+- US controls also cover foreign goods made with American technology.
+- The controls have kept China below the leading edge, and Chinese toolmakers took 35 percent of their home market in 2025.
+- The controls cut Dutch and Japanese toolmakers' sales to China.
+- The most advanced chips are still made only in Taiwan.
+:::
 
---}{++{"author":"James's AI","timestamp":1790597176427}@@China?" tone="neutral" collapse="closed"}
-++}They have kept China below the leading edge.
-
-China still cannot get EUV machines, their resist or high-bandwidth memory. Its own toolmakers took 35 percent of its home market in 2025. {--{"author":"James's AI","timestamp":1790597176427}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597176427}@@[[#^chinas-response|Reread:++} China's {--{"author":"James's AI","timestamp":1790597176427}@@response](#geopolitics--chinas-response)--}{++{"author":"James's AI","timestamp":1790597176427}@@response]]
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597176427}@@Card --}{++{"author":"James's AI","timestamp":1790597176427}@@:::callout {title="Card ++}4 of{--{"author":"James's AI","timestamp":1790597176427}@@ 5Question
-
---}{++{"author":"James's AI","timestamp":1790597176427}@@ 5: ++}What have the controls cost allied{--{"author":"James's AI","timestamp":1790597176427}@@ toolmakers?
-
-Card 4 of 5Answer
-
---}{++{"author":"James's AI","timestamp":1790597176427}@@ toolmakers?" tone="neutral" collapse="closed"}
-++}A large share of their sales to China.
-
-China's share of ASML's system sales fell from 41 percent in 2024 to 33 percent in 2025. Its share of Tokyo Electron's sales fell from 47 to 27 percent. {--{"author":"James's AI","timestamp":1790597176427}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597176427}@@[[#^allies-the-netherlands-japan|Reread:++} Allies: the Netherlands, Japan, Korea and {--{"author":"James's AI","timestamp":1790597176427}@@Europe](#geopolitics--allies-the-netherlands-japan-korea-and-europe)--}{++{"author":"James's AI","timestamp":1790597176427}@@Europe]]
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597176427}@@Card--}{++{"author":"James's AI","timestamp":1790597176427}@@:::callout {title="Card++} 5 of{--{"author":"James's AI","timestamp":1790597176427}@@ 5Question
-
---}{++{"author":"James's AI","timestamp":1790597176427}@@ 5: ++}Where are the most advanced chips made {--{"author":"James's AI","timestamp":1790597176427}@@today?
-
-Card 5 of 5Answer
-
---}{++{"author":"James's AI","timestamp":1790597176427}@@today?" tone="neutral" collapse="closed"}
-++}Only in Taiwan.
-
-No policy so far has moved leading-edge chipmaking or packaging off the island. {--{"author":"James's AI","timestamp":1790597176427}@@[Reread: Taiwan](#geopolitics--taiwan)--}{++{"author":"James's AI","timestamp":1790597176427}@@[[#^taiwan|Reread: Taiwan]]
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597176427}@@#### Five--}{++{"author":"James's AI","timestamp":1790597176427}@@::::
-
-:::callout {title="Five++} things to {--{"author":"James's AI","timestamp":1790597176427}@@remember ^five-things-to-remember-2
-
---}{++{"author":"James's AI","timestamp":1790597176427}@@remember" tone="green"}
-++}-{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}An export control works only when a country's firms sell something the buyer cannot get elsewhere.
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}US controls also cover foreign goods made with American technology.
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}The controls have kept China below the leading edge, and Chinese toolmakers took 35 percent of their home market in 2025.
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}The controls cut Dutch and Japanese toolmakers' sales to China.
--{--{"author":"James's AI","timestamp":1790597176427}@@   --}{++{"author":"James's AI","timestamp":1790597176427}@@ ++}The most advanced chips are still made only in Taiwan.{++{"author":"James's AI","timestamp":1790597176427}@@
-:::++}
-
-{--{"author":"James's AI","timestamp":1790597176427}@@**Sources (62)**
-
---}{++{"author":"James's AI","timestamp":1790597176427}@@:::callout {title="Sources (62)" tone="neutral" collapse="closed"}
-++}1.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Where the Chips Fall: U.S. Export Controls Under the Biden Administration from 2022 to {--{"author":"James's AI","timestamp":1790597176427}@@2024](https://www.csis.org/analysis/where-chips-fall-us-export-controls-under-biden-administration-2022-2024)--}{++{"author":"James's AI","timestamp":1790597176427}@@2024](https://www.csis.org/analysis/where-chips-fall-us-export-controls-under-biden-administration-2022-2024).++} Center for Strategic and International Studies · 12 December {--{"author":"James's AI","timestamp":1790597176427}@@2024--}{++{"author":"James's AI","timestamp":1790597176427}@@2024. Tier A.++}
-2.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Choking off China’s Access to the Future of {--{"author":"James's AI","timestamp":1790597176427}@@AI](https://www.csis.org/analysis/choking-chinas-access-future-ai)--}{++{"author":"James's AI","timestamp":1790597176427}@@AI](https://www.csis.org/analysis/choking-chinas-access-future-ai).++} Center for Strategic and International Studies · 11 October {--{"author":"James's AI","timestamp":1790597176427}@@2022--}{++{"author":"James's AI","timestamp":1790597176427}@@2022. Tier A.++}
-3.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [ETO Chip Explorer source data: {--{"author":"James's AI","timestamp":1790597176427}@@provision.csv](https://raw.githubusercontent.com/georgetown-cset/eto-chip-explorer/main/data/provision.csv)--}{++{"author":"James's AI","timestamp":1790597176427}@@provision.csv](https://raw.githubusercontent.com/georgetown-cset/eto-chip-explorer/main/data/provision.csv).++} Center for Security and Emerging Technology (CSET) / Emerging Technology {--{"author":"James's AI","timestamp":1790597176427}@@Observatory--}{++{"author":"James's AI","timestamp":1790597176427}@@Observatory. Tier A.++}
-4.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [METI, Semiconductor and digital industry strategy: future direction (半導体・デジタル産業戦略の今後の方向性), 23 December {--{"author":"James's AI","timestamp":1790597176427}@@2025](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf)--}{++{"author":"James's AI","timestamp":1790597176427}@@2025](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf).++} Ministry of Economy, Trade and Industry (Japan) · 23 December {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-5.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Why Taiwan Fears ‘America First’ Risks Eroding Its ‘Silicon {--{"author":"James's AI","timestamp":1790597176427}@@Shield’](https://www.stimson.org/2025/why-taiwan-fears-america-first-risks-eroding-its-silicon-shield/)--}{++{"author":"James's AI","timestamp":1790597176427}@@Shield’](https://www.stimson.org/2025/why-taiwan-fears-america-first-risks-eroding-its-silicon-shield/).++} Stimson Center · 10 October {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-6.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [R AJ VA RA DA RA JA N / I ACOB KOCH -W E SE R / CH RI S RI CH A RD / JOSE P H FI TZ GE RA L D {--{"author":"James's AI","timestamp":1790597176427}@@/](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf)--}{++{"author":"James's AI","timestamp":1790597176427}@@/](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf).++} Semiconductor Industry Association · 9 May {--{"author":"James's AI","timestamp":1790597176427}@@2024--}{++{"author":"James's AI","timestamp":1790597176427}@@2024. Tier A.++}
-7.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [SK hynix Inc., Form 424B4 prospectus for the period ended 2026-07-10 {--{"author":"James's AI","timestamp":1790597176427}@@(424(B)(4))](https://www.sec.gov/Archives/edgar/data/0002120882/000119312526299963/d32785d424b4.htm)--}{++{"author":"James's AI","timestamp":1790597176427}@@(424(B)(4))](https://www.sec.gov/Archives/edgar/data/0002120882/000119312526299963/d32785d424b4.htm).++} U.S. Securities and Exchange Commission (filing by SK hynix Inc.) · 10 July {--{"author":"James's AI","timestamp":1790597176427}@@2026--}{++{"author":"James's AI","timestamp":1790597176427}@@2026. Tier A.++}
-8.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [China’s Localization Drive in Semiconductors Gains Impetus from Allied Chip Export {--{"author":"James's AI","timestamp":1790597176427}@@Controls](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls)--}{++{"author":"James's AI","timestamp":1790597176427}@@Controls](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls).++} Center for Strategic and International Studies · 24 March {--{"author":"James's AI","timestamp":1790597176427}@@2026--}{++{"author":"James's AI","timestamp":1790597176427}@@2026. Tier A.++}
-9.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Addition of Entities to the Entity {--{"author":"James's AI","timestamp":1790597176427}@@List](https://www.federalregister.gov/documents/2019/05/21/2019-10616/addition-of-entities-to-the-entity-list)--}{++{"author":"James's AI","timestamp":1790597176427}@@List](https://www.federalregister.gov/documents/2019/05/21/2019-10616/addition-of-entities-to-the-entity-list).++} Federal Register (Commerce Department; Industry and Security Bureau) · 21 May {--{"author":"James's AI","timestamp":1790597176427}@@2019--}{++{"author":"James's AI","timestamp":1790597176427}@@2019. Tier A.++}
-10.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Addition of Huawei Non-U.S. Affiliates to the Entity List, the Removal of Temporary General License, and Amendments to General Prohibition Three (Foreign-Produced Direct Product {--{"author":"James's AI","timestamp":1790597176427}@@Rule)](https://www.federalregister.gov/documents/2020/08/20/2020-18213/addition-of-huawei-non-us-affiliates-to-the-entity-list-the-removal-of-temporary-general-license-and)--}{++{"author":"James's AI","timestamp":1790597176427}@@Rule)](https://www.federalregister.gov/documents/2020/08/20/2020-18213/addition-of-huawei-non-us-affiliates-to-the-entity-list-the-removal-of-temporary-general-license-and).++} Federal Register (Commerce Department; Industry and Security Bureau) · 20 August {--{"author":"James's AI","timestamp":1790597176427}@@2020--}{++{"author":"James's AI","timestamp":1790597176427}@@2020. Tier A.++}
-11.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Implementation of Additional Export Controls: Certain Advanced Computing and Semiconductor Manufacturing Items; Supercomputer and Semiconductor End Use; Entity List {--{"author":"James's AI","timestamp":1790597176427}@@Modification](https://www.federalregister.gov/documents/2022/10/13/2022-21658/implementation-of-additional-export-controls-certain-advanced-computing-and-semiconductor)--}{++{"author":"James's AI","timestamp":1790597176427}@@Modification](https://www.federalregister.gov/documents/2022/10/13/2022-21658/implementation-of-additional-export-controls-certain-advanced-computing-and-semiconductor).++} Federal Register (Commerce Department; Industry and Security Bureau) · 13 October {--{"author":"James's AI","timestamp":1790597176427}@@2022--}{++{"author":"James's AI","timestamp":1790597176427}@@2022. Tier A.++}
-12.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Explainer: The Commerce Department's October 2023 Export Control {--{"author":"James's AI","timestamp":1790597176427}@@Update](https://cset.georgetown.edu/article/bis-2023-update-explainer/)--}{++{"author":"James's AI","timestamp":1790597176427}@@Update](https://cset.georgetown.edu/article/bis-2023-update-explainer/).++} Center for Security and Emerging Technology (CSET) · 4 December {--{"author":"James's AI","timestamp":1790597176427}@@2023--}{++{"author":"James's AI","timestamp":1790597176427}@@2023. Tier A.++}
-13.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Commerce Strengthens Export Controls to Restrict China's Capability to Produce Advanced Semiconductors for Military {--{"author":"James's AI","timestamp":1790597176427}@@Applications](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military)--}{++{"author":"James's AI","timestamp":1790597176427}@@Applications](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military).++} U.S. Bureau of Industry and Security · 2 December {--{"author":"James's AI","timestamp":1790597176427}@@2024--}{++{"author":"James's AI","timestamp":1790597176427}@@2024. Tier A.++}
-14.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Framework for Artificial Intelligence {--{"author":"James's AI","timestamp":1790597176427}@@Diffusion](https://www.federalregister.gov/documents/2025/01/15/2025-00636/framework-for-artificial-intelligence-diffusion)--}{++{"author":"James's AI","timestamp":1790597176427}@@Diffusion](https://www.federalregister.gov/documents/2025/01/15/2025-00636/framework-for-artificial-intelligence-diffusion).++} Federal Register (Commerce Department; Industry and Security Bureau) · 15 January {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-15.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Department of Commerce Announces Rescission of Biden-Era Artificial Intelligence Diffusion Rule, Strengthens Chip-Related Export {--{"author":"James's AI","timestamp":1790597176427}@@Controls](https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens)--}{++{"author":"James's AI","timestamp":1790597176427}@@Controls](https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens).++} U.S. Bureau of Industry and Security · 13 May {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-16.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Enhanced Favorable Treatment for the United Arab Emirates Under the Export Administration {--{"author":"James's AI","timestamp":1790597176427}@@Regulations](https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration)--}{++{"author":"James's AI","timestamp":1790597176427}@@Regulations](https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration).++} Federal Register (Commerce Department; Industry and Security Bureau) · 14 July {--{"author":"James's AI","timestamp":1790597176427}@@2026--}{++{"author":"James's AI","timestamp":1790597176427}@@2026. Tier A.++}
-17.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [15 CFR 742.6, Regional {--{"author":"James's AI","timestamp":1790597176427}@@stability](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-742/section-742.6)--}{++{"author":"James's AI","timestamp":1790597176427}@@stability](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-742/section-742.6).++} Electronic Code of Federal {--{"author":"James's AI","timestamp":1790597176427}@@Regulations--}{++{"author":"James's AI","timestamp":1790597176427}@@Regulations. Tier A.++}
-18.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [NVIDIA CORP, Form 8-K current report for the period ended 2025-04-09 {--{"author":"James's AI","timestamp":1790597176427}@@(8-K)](https://www.sec.gov/Archives/edgar/data/1045810/000104581025000082/nvda-20250409.htm)--}{++{"author":"James's AI","timestamp":1790597176427}@@(8-K)](https://www.sec.gov/Archives/edgar/data/1045810/000104581025000082/nvda-20250409.htm).++} U.S. Securities and Exchange Commission (filing by NVIDIA CORP) · 15 April {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-19.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [NVIDIA CORP, Form 10-Q quarterly report for the period ended 2025-07-27 {--{"author":"James's AI","timestamp":1790597176427}@@(10-Q)](https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm)--}{++{"author":"James's AI","timestamp":1790597176427}@@(10-Q)](https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm).++} U.S. Securities and Exchange Commission (filing by NVIDIA CORP) · 27 August {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-20.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Department of Commerce Revises License Review Policy for Semiconductors Exported to {--{"author":"James's AI","timestamp":1790597176427}@@China](https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china)--}{++{"author":"James's AI","timestamp":1790597176427}@@China](https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china).++} U.S. Bureau of Industry and Security · 13 January {--{"author":"James's AI","timestamp":1790597176427}@@2026--}{++{"author":"James's AI","timestamp":1790597176427}@@2026. Tier A.++}
-21.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Revision to License Review Policy for Advanced Computing {--{"author":"James's AI","timestamp":1790597176427}@@Commodities](https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities)--}{++{"author":"James's AI","timestamp":1790597176427}@@Commodities](https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities).++} Federal Register (Commerce Department; Industry and Security Bureau) · 15 January {--{"author":"James's AI","timestamp":1790597176427}@@2026--}{++{"author":"James's AI","timestamp":1790597176427}@@2026. Tier A.++}
-22.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Adjusting Imports of Semiconductors, Semiconductor Manufacturing Equipment, and Their Derivative Products Into the United {--{"author":"James's AI","timestamp":1790597176427}@@States](https://www.federalregister.gov/documents/2026/01/20/2026-01052/adjusting-imports-of-semiconductors-semiconductor-manufacturing-equipment-and-their-derivative)--}{++{"author":"James's AI","timestamp":1790597176427}@@States](https://www.federalregister.gov/documents/2026/01/20/2026-01052/adjusting-imports-of-semiconductors-semiconductor-manufacturing-equipment-and-their-derivative).++} Federal Register (Executive Office of the President) · 20 January {--{"author":"James's AI","timestamp":1790597176427}@@2026--}{++{"author":"James's AI","timestamp":1790597176427}@@2026. Tier A.++}
-23.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Applied Materials to Pay $252 Million Penalty to BIS for Illegally Exporting Semiconductor Manufacturing {--{"author":"James's AI","timestamp":1790597176427}@@Equipment](https://www.bis.gov/press-release/applied-materials-pay-252-million-penalty-bis-illegally-exporting-semiconductor-manufacturing-equipment)--}{++{"author":"James's AI","timestamp":1790597176427}@@Equipment](https://www.bis.gov/press-release/applied-materials-pay-252-million-penalty-bis-illegally-exporting-semiconductor-manufacturing-equipment).++} U.S. Bureau of Industry and Security · 11 February {--{"author":"James's AI","timestamp":1790597176427}@@2026--}{++{"author":"James's AI","timestamp":1790597176427}@@2026. Tier A.++}
-24.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [U.S. Bureau of Industry and Security, news and {--{"author":"James's AI","timestamp":1790597176427}@@updates](https://www.bis.gov/news-updates)--}{++{"author":"James's AI","timestamp":1790597176427}@@updates](https://www.bis.gov/news-updates).++} U.S. Bureau of Industry and {--{"author":"James's AI","timestamp":1790597176427}@@Security--}{++{"author":"James's AI","timestamp":1790597176427}@@Security. Tier A.++}
-25.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [15 CFR 734.13 -- {--{"author":"James's AI","timestamp":1790597176427}@@Export.](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-734/section-734.13)--}{++{"author":"James's AI","timestamp":1790597176427}@@Export.](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-734/section-734.13).++} Electronic Code of Federal {--{"author":"James's AI","timestamp":1790597176427}@@Regulations--}{++{"author":"James's AI","timestamp":1790597176427}@@Regulations. Tier A.++}
-26.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Federal Register, Volume 91 Issue 10 (Thursday, January 15, {--{"author":"James's AI","timestamp":1790597176427}@@2026)](https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm)--}{++{"author":"James's AI","timestamp":1790597176427}@@2026)](https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm).++} U.S. Government Publishing {--{"author":"James's AI","timestamp":1790597176427}@@Office--}{++{"author":"James's AI","timestamp":1790597176427}@@Office. Tier A.++}
-27.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [The Netherlands expands export control measure for advanced semiconductor manufacturing {--{"author":"James's AI","timestamp":1790597176427}@@equipment](https://www.government.nl/latest/news/2024/09/06/the-netherlands-expands-export-control-measure-advanced-semiconductor-manufacturing-equipment)--}{++{"author":"James's AI","timestamp":1790597176427}@@equipment](https://www.government.nl/latest/news/2024/09/06/the-netherlands-expands-export-control-measure-advanced-semiconductor-manufacturing-equipment).++} Government of the Netherlands · 6 September {--{"author":"James's AI","timestamp":1790597176427}@@2024--}{++{"author":"James's AI","timestamp":1790597176427}@@2024. Tier A.++}
-28.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Klever: export controls on advanced semiconductor manufacturing equipment to be {--{"author":"James's AI","timestamp":1790597176427}@@tightened](https://www.government.nl/latest/news/2025/01/15/klever-export-controls-on-advanced-semiconductor-manufacturing-equipment-to-be-tightened)--}{++{"author":"James's AI","timestamp":1790597176427}@@tightened](https://www.government.nl/latest/news/2025/01/15/klever-export-controls-on-advanced-semiconductor-manufacturing-equipment-to-be-tightened).++} Government of the Netherlands · 15 January {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-29.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [CSIS Translation: Updated Japanese Export Controls on High-Performance Semiconductor Manufacturing {--{"author":"James's AI","timestamp":1790597176427}@@Equipment](https://www.csis.org/analysis/csis-translation-updated-japanese-export-controls-high-performance-semiconductor)--}{++{"author":"James's AI","timestamp":1790597176427}@@Equipment](https://www.csis.org/analysis/csis-translation-updated-japanese-export-controls-high-performance-semiconductor).++} Center for Strategic and International Studies · 18 July {--{"author":"James's AI","timestamp":1790597176427}@@2023--}{++{"author":"James's AI","timestamp":1790597176427}@@2023. Tier A.++}
-30.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Revocation of Validated End-User Authorizations in the People's Republic of {--{"author":"James's AI","timestamp":1790597176427}@@China](https://www.federalregister.gov/documents/2025/09/02/2025-16735/revocation-of-validated-end-user-authorizations-in-the-peoples-republic-of-china)--}{++{"author":"James's AI","timestamp":1790597176427}@@China](https://www.federalregister.gov/documents/2025/09/02/2025-16735/revocation-of-validated-end-user-authorizations-in-the-peoples-republic-of-china).++} Federal Register (Commerce Department; Industry and Security Bureau) · 2 September {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-31.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Expansion of End-User Controls To Cover Affiliates of Certain Listed {--{"author":"James's AI","timestamp":1790597176427}@@Entities](https://www.federalregister.gov/documents/2025/09/30/2025-19001/expansion-of-end-user-controls-to-cover-affiliates-of-certain-listed-entities)--}{++{"author":"James's AI","timestamp":1790597176427}@@Entities](https://www.federalregister.gov/documents/2025/09/30/2025-19001/expansion-of-end-user-controls-to-cover-affiliates-of-certain-listed-entities).++} Federal Register (Commerce Department; Industry and Security Bureau) · 30 September {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-32.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Minister of Economic Affairs invokes Goods Availability {--{"author":"James's AI","timestamp":1790597176427}@@Act](https://www.government.nl/latest/news/2025/10/12/minister-of-economic-affairs-invokes-goods-availability-act)--}{++{"author":"James's AI","timestamp":1790597176427}@@Act](https://www.government.nl/latest/news/2025/10/12/minister-of-economic-affairs-invokes-goods-availability-act).++} Government of the Netherlands · 12 October {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-33.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [One Year Suspension of Expansion of End-User Controls for Affiliates of Certain Listed {--{"author":"James's AI","timestamp":1790597176427}@@Entities](https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities)--}{++{"author":"James's AI","timestamp":1790597176427}@@Entities](https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities).++} Federal Register (Commerce Department; Industry and Security Bureau) · 12 November {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-34.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Update on invoking Goods Availability {--{"author":"James's AI","timestamp":1790597176427}@@Act](https://www.government.nl/documents/2025/11/19/update-on-invoking-goods-availability-act)--}{++{"author":"James's AI","timestamp":1790597176427}@@Act](https://www.government.nl/documents/2025/11/19/update-on-invoking-goods-availability-act).++} Government of the Netherlands · 19 November {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-35.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Risch, Ricketts, Kim Introduce MATCH Act; Level the Global Playing Field for U.S. {--{"author":"James's AI","timestamp":1790597176427}@@Tech](https://www.foreign.senate.gov/press/rep/release/risch-ricketts-kim-introduce-match-act-level-the-global-playing-field-for-us-tech)--}{++{"author":"James's AI","timestamp":1790597176427}@@Tech](https://www.foreign.senate.gov/press/rep/release/risch-ricketts-kim-introduce-match-act-level-the-global-playing-field-for-us-tech).++} U.S. Senate Committee on Foreign Relations · 8 April {--{"author":"James's AI","timestamp":1790597176427}@@2026--}{++{"author":"James's AI","timestamp":1790597176427}@@2026. Tier A.++}
-36.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [China accelerates building of national computing power {--{"author":"James's AI","timestamp":1790597176427}@@network](https://english.www.gov.cn/news/202312/27/content_WS658b72afc6d0868f4e8e28ba.html)--}{++{"author":"James's AI","timestamp":1790597176427}@@network](https://english.www.gov.cn/news/202312/27/content_WS658b72afc6d0868f4e8e28ba.html).++} The State Council of the People's Republic of China · 27 December {--{"author":"James's AI","timestamp":1790597176427}@@2023--}{++{"author":"James's AI","timestamp":1790597176427}@@2023. Tier A.++}
-37.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Announcement No.18 of 2025 of The Ministry of Commerce and The General Administration of Customs of The People’s Republic of China Announcing the decision to implement export control on some medium and heavy rare earth related {--{"author":"James's AI","timestamp":1790597176427}@@items](https://english.mofcom.gov.cn/Policies/AnnouncementsOrders/art/2025/art_0dd87cbee7b045bf93fabe6ab2faceee.html)--}{++{"author":"James's AI","timestamp":1790597176427}@@items](https://english.mofcom.gov.cn/Policies/AnnouncementsOrders/art/2025/art_0dd87cbee7b045bf93fabe6ab2faceee.html).++} Ministry of Commerce of the People's Republic of {--{"author":"James's AI","timestamp":1790597176427}@@China--}{++{"author":"James's AI","timestamp":1790597176427}@@China. Tier A.++}
-38.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Cyber Week in Review: December 13, {--{"author":"James's AI","timestamp":1790597176427}@@2024](https://www.cfr.org/articles/cyber-week-review-december-13-2024)--}{++{"author":"James's AI","timestamp":1790597176427}@@2024](https://www.cfr.org/articles/cyber-week-review-december-13-2024).++} Council on Foreign Relations · 13 December {--{"author":"James's AI","timestamp":1790597176427}@@2024--}{++{"author":"James's AI","timestamp":1790597176427}@@2024. Tier A.++}
-39.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Beijing blocks Nvidia sales in vote of confidence for Chinese chipmakers, the White House strikes a deal for 10 percent of Intel, and Commerce voids a $7.4B CHIPS Act {--{"author":"James's AI","timestamp":1790597176427}@@grant](https://cset.georgetown.edu/newsletter/september-18-2025/)--}{++{"author":"James's AI","timestamp":1790597176427}@@grant](https://cset.georgetown.edu/newsletter/september-18-2025/).++} Center for Security and Emerging Technology (CSET) · 18 September {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-40.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Micron Aggression: The Right Response to Beijing’s Ban on the U.S. {--{"author":"James's AI","timestamp":1790597176427}@@Chipmaker](https://www.csis.org/analysis/micron-aggression-right-response-beijings-ban-us-chipmaker)--}{++{"author":"James's AI","timestamp":1790597176427}@@Chipmaker](https://www.csis.org/analysis/micron-aggression-right-response-beijings-ban-us-chipmaker).++} Center for Strategic and International Studies · 22 June {--{"author":"James's AI","timestamp":1790597176427}@@2023--}{++{"author":"James's AI","timestamp":1790597176427}@@2023. Tier A.++}
-41.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Ministry of Commerce Notice 2024 No. 46: Notice Concerning Strengthening Controls on Exports of Relevant Dual-Use Items to the United {--{"author":"James's AI","timestamp":1790597176427}@@States](https://cset.georgetown.edu/publication/china-rare-earth-export-ban/)--}{++{"author":"James's AI","timestamp":1790597176427}@@States](https://cset.georgetown.edu/publication/china-rare-earth-export-ban/).++} Center for Security and Emerging Technology (CSET) · 3 December {--{"author":"James's AI","timestamp":1790597176427}@@2024--}{++{"author":"James's AI","timestamp":1790597176427}@@2024. Tier A.++}
-42.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Ministry of Commerce Notice 2025 No. 61: Announcement of the Decision to Implement Controls on Exports of Rare Earth-Related Items to Foreign {--{"author":"James's AI","timestamp":1790597176427}@@Countries](https://cset.georgetown.edu/publication/mofcom-notice-2025-61/)--}{++{"author":"James's AI","timestamp":1790597176427}@@Countries](https://cset.georgetown.edu/publication/mofcom-notice-2025-61/).++} Center for Security and Emerging Technology (CSET) · 9 October {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-43.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [The U.S.-China Trade Truce Has Not Solved the Gallium {--{"author":"James's AI","timestamp":1790597176427}@@Problem](https://www.csis.org/analysis/us-china-trade-truce-has-not-solved-gallium-problem)--}{++{"author":"James's AI","timestamp":1790597176427}@@Problem](https://www.csis.org/analysis/us-china-trade-truce-has-not-solved-gallium-problem).++} Center for Strategic and International Studies · 11 May {--{"author":"James's AI","timestamp":1790597176427}@@2026--}{++{"author":"James's AI","timestamp":1790597176427}@@2026. Tier A.++}
-44.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [NVIDIA CORP, Form 10-Q quarterly report for the period ended 2026-07-26 {--{"author":"James's AI","timestamp":1790597176427}@@(10-Q)](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm)--}{++{"author":"James's AI","timestamp":1790597176427}@@(10-Q)](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm).++} U.S. Securities and Exchange Commission (filing by NVIDIA CORP) · 26 August {--{"author":"James's AI","timestamp":1790597176427}@@2026--}{++{"author":"James's AI","timestamp":1790597176427}@@2026. Tier A.++}
-45.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [NVIDIA Announces Financial Results for Second Quarter Fiscal {--{"author":"James's AI","timestamp":1790597176427}@@2027](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027)--}{++{"author":"James's AI","timestamp":1790597176427}@@2027](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027).++} Nvidia · 26 August {--{"author":"James's AI","timestamp":1790597176427}@@2026--}{++{"author":"James's AI","timestamp":1790597176427}@@2026. Tier A.++}
-46.{--{"author":"James's AI","timestamp":1790597176427}@@  B--} [Huawei Ascend Production Ramp: Die Banks, TSMC Continued Production, HBM is The {--{"author":"James's AI","timestamp":1790597176427}@@Bottleneck](https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp)--}{++{"author":"James's AI","timestamp":1790597176427}@@Bottleneck](https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp).++} SemiAnalysis · 8 September {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier B.++}
-47.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Presentation Investor Relations Q4 {--{"author":"James's AI","timestamp":1790597176427}@@2025](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf)--}{++{"author":"James's AI","timestamp":1790597176427}@@2025](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf).++} ASML · 27 January {--{"author":"James's AI","timestamp":1790597176427}@@2026--}{++{"author":"James's AI","timestamp":1790597176427}@@2026. Tier A.++}
-48.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [GAO-26-107882, SEMICONDUCTORS: Information on Projects Funded to Strengthen U.S. Supply {--{"author":"James's AI","timestamp":1790597176427}@@Chain](https://files.gao.gov/reports/GAO-26-107882/index.html)--}{++{"author":"James's AI","timestamp":1790597176427}@@Chain](https://files.gao.gov/reports/GAO-26-107882/index.html).++} U.S. Government Accountability {--{"author":"James's AI","timestamp":1790597176427}@@Office--}{++{"author":"James's AI","timestamp":1790597176427}@@Office. Tier A.++}
-49.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Intel and Trump Administration Reach Historic Agreement to Accelerate American Technology and Manufacturing {--{"author":"James's AI","timestamp":1790597176427}@@Leadership](https://www.intc.com/news-events/press-releases/detail/1748/intel-and-trump-administration-reach-historic-agreement-to)--}{++{"author":"James's AI","timestamp":1790597176427}@@Leadership](https://www.intc.com/news-events/press-releases/detail/1748/intel-and-trump-administration-reach-historic-agreement-to).++} Intel · 22 August {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-50.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [U.S.-Taiwan Trade Agreement Leaves Major Questions {--{"author":"James's AI","timestamp":1790597176427}@@Open](https://www.cfr.org/articles/u-s-taiwan-trade-agreement-leaves-major-questions-open)--}{++{"author":"James's AI","timestamp":1790597176427}@@Open](https://www.cfr.org/articles/u-s-taiwan-trade-agreement-leaves-major-questions-open).++} Council on Foreign Relations · 13 February {--{"author":"James's AI","timestamp":1790597176427}@@2026--}{++{"author":"James's AI","timestamp":1790597176427}@@2026. Tier A.++}
-51.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [TSMC Announces Additional $100 Billion Investment In {--{"author":"James's AI","timestamp":1790597176427}@@Arizona](https://www.phoenix.gov/newsroom/ced-news/tsmc-announces-additional--100-billion-investment-in-arizona.html)--}{++{"author":"James's AI","timestamp":1790597176427}@@Arizona](https://www.phoenix.gov/newsroom/ced-news/tsmc-announces-additional--100-billion-investment-in-arizona.html).++} City of Phoenix · 16 July {--{"author":"James's AI","timestamp":1790597176427}@@2026--}{++{"author":"James's AI","timestamp":1790597176427}@@2026. Tier A.++}
-52.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Proposal for the Chips Act {--{"author":"James's AI","timestamp":1790597176427}@@2.0](https://digital-strategy.ec.europa.eu/en/library/proposal-chips-act-20)--}{++{"author":"James's AI","timestamp":1790597176427}@@2.0](https://digital-strategy.ec.europa.eu/en/library/proposal-chips-act-20).++} European {--{"author":"James's AI","timestamp":1790597176427}@@Commission--}{++{"author":"James's AI","timestamp":1790597176427}@@Commission. Tier A.++}
-53.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Rapidus Secures 267.6 Billion Yen in Funding from Japan Government and Private Sector Companies This strategic funding plan will enable Rapidus to steadily progress from its current R&D phase to mass production of 2nm logic semiconductors by 2027 - Information - Rapidus {--{"author":"James's AI","timestamp":1790597176427}@@Corporation](https://www.rapidus.inc/en/news_topics/information/rapidus-secures-267-6-billion-yen-in-funding-from-japan-government-and-private-sector-companies/) Rapidus--}{++{"author":"James's AI","timestamp":1790597176427}@@Corporation](https://www.rapidus.inc/en/news_topics/information/rapidus-secures-267-6-billion-yen-in-funding-from-japan-government-and-private-sector-companies/). Rapidus. Tier A.++}
-54.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [China's Evolving Industrial Policy for {--{"author":"James's AI","timestamp":1790597176427}@@AI](https://www.rand.org/pubs/perspectives/PEA4012-1.html)--}{++{"author":"James's AI","timestamp":1790597176427}@@AI](https://www.rand.org/pubs/perspectives/PEA4012-1.html).++} RAND Corporation · 26 June {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-55.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Q3 2025 Taiwan Semiconductor Manufacturing Co Ltd Earnings Call (Chinese, English) — edited {--{"author":"James's AI","timestamp":1790597176427}@@transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-10/6860312f04fd291d0f26b46c1234f84e6332717e/TSMC%203Q25%20Transcript.pdf)--}{++{"author":"James's AI","timestamp":1790597176427}@@transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-10/6860312f04fd291d0f26b46c1234f84e6332717e/TSMC%203Q25%20Transcript.pdf).++} Refinitiv StreetEvents (transcript of a TSMC earnings call), via TSMC · 16 October {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-56.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Statement on UAE and Saudi Chip {--{"author":"James's AI","timestamp":1790597176427}@@Exports](https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports)--}{++{"author":"James's AI","timestamp":1790597176427}@@Exports](https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports).++} U.S. Department of Commerce · November {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-57.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [EXPORT, TRANSSHIPMENT AND TRANSIT OF HIGH-PERFORMANCE AI CHIPS OF US {--{"author":"James's AI","timestamp":1790597176427}@@ORIGIN](https://www.miti.gov.my/miti/resources/Media%20Release/%5BFINAL%5D_MITI_Press_Stmt_Malaysia_Regulates_Trade_of_US_AI_Chips_2025-07-14.pdf)--}{++{"author":"James's AI","timestamp":1790597176427}@@ORIGIN](https://www.miti.gov.my/miti/resources/Media%20Release/%5BFINAL%5D_MITI_Press_Stmt_Malaysia_Regulates_Trade_of_US_AI_Chips_2025-07-14.pdf).++} Ministry of Investment, Trade and Industry (Malaysia) · 14 July {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-58.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Chinese National and Two U.S. Citizens Charged with Conspiring to Smuggle Artificial Intelligence Technology to {--{"author":"James's AI","timestamp":1790597176427}@@China](https://www.justice.gov/opa/pr/chinese-national-and-two-us-citizens-charged-conspiring-smuggle-artificial-intelligence)--}{++{"author":"James's AI","timestamp":1790597176427}@@China](https://www.justice.gov/opa/pr/chinese-national-and-two-us-citizens-charged-conspiring-smuggle-artificial-intelligence).++} U.S. Department of Justice · 25 March {--{"author":"James's AI","timestamp":1790597176427}@@2026--}{++{"author":"James's AI","timestamp":1790597176427}@@2026. Tier A.++}
-59.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Protecting U.S. Tech: China Committee and Bipartisan, Bicameral Leaders Unite to Stop CCP AI Chip {--{"author":"James's AI","timestamp":1790597176427}@@Smuggling](https://chinaselectcommittee.house.gov/media/press-releases/protecting-us-tech-china-committee-and-bipartisan-bicameral-leaders-unite-to-stop-ccp-ai-chip-smuggling)--}{++{"author":"James's AI","timestamp":1790597176427}@@Smuggling](https://chinaselectcommittee.house.gov/media/press-releases/protecting-us-tech-china-committee-and-bipartisan-bicameral-leaders-unite-to-stop-ccp-ai-chip-smuggling).++} U.S. House Select Committee on the Chinese Communist Party · 7 July {--{"author":"James's AI","timestamp":1790597176427}@@2025--}{++{"author":"James's AI","timestamp":1790597176427}@@2025. Tier A.++}
-60.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [S.1705 – Chip Security Act, 119th Congress (2025-2026), bill {--{"author":"James's AI","timestamp":1790597176427}@@text](https://www.congress.gov/bill/119th-congress/senate-bill/1705/text)--}{++{"author":"James's AI","timestamp":1790597176427}@@text](https://www.congress.gov/bill/119th-congress/senate-bill/1705/text).++} U.S. Congress (Congress.gov, Library of {--{"author":"James's AI","timestamp":1790597176427}@@Congress)--}{++{"author":"James's AI","timestamp":1790597176427}@@Congress). Tier A.++}
-61.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [UNANIMOUS: Bipartisan Huizenga Legislation to Curb AI Chip Smuggling Passes {--{"author":"James's AI","timestamp":1790597176427}@@Committee](https://huizenga.house.gov/news/documentsingle.aspx?DocumentID=404259)--}{++{"author":"James's AI","timestamp":1790597176427}@@Committee](https://huizenga.house.gov/news/documentsingle.aspx?DocumentID=404259).++} U.S. House of Representatives (Office of Rep. Bill Huizenga) · 26 March {--{"author":"James's AI","timestamp":1790597176427}@@2026--}{++{"author":"James's AI","timestamp":1790597176427}@@2026. Tier A.++}
-62.{--{"author":"James's AI","timestamp":1790597176427}@@  A--} [Investor Relations / April 30, {--{"author":"James's AI","timestamp":1790597176427}@@2026](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf)--}{++{"author":"James's AI","timestamp":1790597176427}@@2026](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf).++} Tokyo Electron · 30 April {--{"author":"James's AI","timestamp":1790597176427}@@2026--}{++{"author":"James's AI","timestamp":1790597176427}@@2026. Tier A.
-:::++}
+:::callout {title="Sources (62)" tone="neutral" collapse="closed"}
+1. [Where the Chips Fall: U.S. Export Controls Under the Biden Administration from 2022 to 2024](https://www.csis.org/analysis/where-chips-fall-us-export-controls-under-biden-administration-2022-2024). Center for Strategic and International Studies · 12 December 2024. Tier A.
+2. [Choking off China’s Access to the Future of AI](https://www.csis.org/analysis/choking-chinas-access-future-ai). Center for Strategic and International Studies · 11 October 2022. Tier A.
+3. [ETO Chip Explorer source data: provision.csv](https://raw.githubusercontent.com/georgetown-cset/eto-chip-explorer/main/data/provision.csv). Center for Security and Emerging Technology (CSET) / Emerging Technology Observatory. Tier A.
+4. [METI, Semiconductor and digital industry strategy: future direction (半導体・デジタル産業戦略の今後の方向性), 23 December 2025](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf). Ministry of Economy, Trade and Industry (Japan) · 23 December 2025. Tier A.
+5. [Why Taiwan Fears ‘America First’ Risks Eroding Its ‘Silicon Shield’](https://www.stimson.org/2025/why-taiwan-fears-america-first-risks-eroding-its-silicon-shield/). Stimson Center · 10 October 2025. Tier A.
+6. [R AJ VA RA DA RA JA N / I ACOB KOCH -W E SE R / CH RI S RI CH A RD / JOSE P H FI TZ GE RA L D /](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf). Semiconductor Industry Association · 9 May 2024. Tier A.
+7. [SK hynix Inc., Form 424B4 prospectus for the period ended 2026-07-10 (424(B)(4))](https://www.sec.gov/Archives/edgar/data/0002120882/000119312526299963/d32785d424b4.htm). U.S. Securities and Exchange Commission (filing by SK hynix Inc.) · 10 July 2026. Tier A.
+8. [China’s Localization Drive in Semiconductors Gains Impetus from Allied Chip Export Controls](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls). Center for Strategic and International Studies · 24 March 2026. Tier A.
+9. [Addition of Entities to the Entity List](https://www.federalregister.gov/documents/2019/05/21/2019-10616/addition-of-entities-to-the-entity-list). Federal Register (Commerce Department; Industry and Security Bureau) · 21 May 2019. Tier A.
+10. [Addition of Huawei Non-U.S. Affiliates to the Entity List, the Removal of Temporary General License, and Amendments to General Prohibition Three (Foreign-Produced Direct Product Rule)](https://www.federalregister.gov/documents/2020/08/20/2020-18213/addition-of-huawei-non-us-affiliates-to-the-entity-list-the-removal-of-temporary-general-license-and). Federal Register (Commerce Department; Industry and Security Bureau) · 20 August 2020. Tier A.
+11. [Implementation of Additional Export Controls: Certain Advanced Computing and Semiconductor Manufacturing Items; Supercomputer and Semiconductor End Use; Entity List Modification](https://www.federalregister.gov/documents/2022/10/13/2022-21658/implementation-of-additional-export-controls-certain-advanced-computing-and-semiconductor). Federal Register (Commerce Department; Industry and Security Bureau) · 13 October 2022. Tier A.
+12. [Explainer: The Commerce Department's October 2023 Export Control Update](https://cset.georgetown.edu/article/bis-2023-update-explainer/). Center for Security and Emerging Technology (CSET) · 4 December 2023. Tier A.
+13. [Commerce Strengthens Export Controls to Restrict China's Capability to Produce Advanced Semiconductors for Military Applications](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military). U.S. Bureau of Industry and Security · 2 December 2024. Tier A.
+14. [Framework for Artificial Intelligence Diffusion](https://www.federalregister.gov/documents/2025/01/15/2025-00636/framework-for-artificial-intelligence-diffusion). Federal Register (Commerce Department; Industry and Security Bureau) · 15 January 2025. Tier A.
+15. [Department of Commerce Announces Rescission of Biden-Era Artificial Intelligence Diffusion Rule, Strengthens Chip-Related Export Controls](https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens). U.S. Bureau of Industry and Security · 13 May 2025. Tier A.
+16. [Enhanced Favorable Treatment for the United Arab Emirates Under the Export Administration Regulations](https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration). Federal Register (Commerce Department; Industry and Security Bureau) · 14 July 2026. Tier A.
+17. [15 CFR 742.6, Regional stability](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-742/section-742.6). Electronic Code of Federal Regulations. Tier A.
+18. [NVIDIA CORP, Form 8-K current report for the period ended 2025-04-09 (8-K)](https://www.sec.gov/Archives/edgar/data/1045810/000104581025000082/nvda-20250409.htm). U.S. Securities and Exchange Commission (filing by NVIDIA CORP) · 15 April 2025. Tier A.
+19. [NVIDIA CORP, Form 10-Q quarterly report for the period ended 2025-07-27 (10-Q)](https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm). U.S. Securities and Exchange Commission (filing by NVIDIA CORP) · 27 August 2025. Tier A.
+20. [Department of Commerce Revises License Review Policy for Semiconductors Exported to China](https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china). U.S. Bureau of Industry and Security · 13 January 2026. Tier A.
+21. [Revision to License Review Policy for Advanced Computing Commodities](https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities). Federal Register (Commerce Department; Industry and Security Bureau) · 15 January 2026. Tier A.
+22. [Adjusting Imports of Semiconductors, Semiconductor Manufacturing Equipment, and Their Derivative Products Into the United States](https://www.federalregister.gov/documents/2026/01/20/2026-01052/adjusting-imports-of-semiconductors-semiconductor-manufacturing-equipment-and-their-derivative). Federal Register (Executive Office of the President) · 20 January 2026. Tier A.
+23. [Applied Materials to Pay $252 Million Penalty to BIS for Illegally Exporting Semiconductor Manufacturing Equipment](https://www.bis.gov/press-release/applied-materials-pay-252-million-penalty-bis-illegally-exporting-semiconductor-manufacturing-equipment). U.S. Bureau of Industry and Security · 11 February 2026. Tier A.
+24. [U.S. Bureau of Industry and Security, news and updates](https://www.bis.gov/news-updates). U.S. Bureau of Industry and Security. Tier A.
+25. [15 CFR 734.13 -- Export.](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-734/section-734.13). Electronic Code of Federal Regulations. Tier A.
+26. [Federal Register, Volume 91 Issue 10 (Thursday, January 15, 2026)](https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm). U.S. Government Publishing Office. Tier A.
+27. [The Netherlands expands export control measure for advanced semiconductor manufacturing equipment](https://www.government.nl/latest/news/2024/09/06/the-netherlands-expands-export-control-measure-advanced-semiconductor-manufacturing-equipment). Government of the Netherlands · 6 September 2024. Tier A.
+28. [Klever: export controls on advanced semiconductor manufacturing equipment to be tightened](https://www.government.nl/latest/news/2025/01/15/klever-export-controls-on-advanced-semiconductor-manufacturing-equipment-to-be-tightened). Government of the Netherlands · 15 January 2025. Tier A.
+29. [CSIS Translation: Updated Japanese Export Controls on High-Performance Semiconductor Manufacturing Equipment](https://www.csis.org/analysis/csis-translation-updated-japanese-export-controls-high-performance-semiconductor). Center for Strategic and International Studies · 18 July 2023. Tier A.
+30. [Revocation of Validated End-User Authorizations in the People's Republic of China](https://www.federalregister.gov/documents/2025/09/02/2025-16735/revocation-of-validated-end-user-authorizations-in-the-peoples-republic-of-china). Federal Register (Commerce Department; Industry and Security Bureau) · 2 September 2025. Tier A.
+31. [Expansion of End-User Controls To Cover Affiliates of Certain Listed Entities](https://www.federalregister.gov/documents/2025/09/30/2025-19001/expansion-of-end-user-controls-to-cover-affiliates-of-certain-listed-entities). Federal Register (Commerce Department; Industry and Security Bureau) · 30 September 2025. Tier A.
+32. [Minister of Economic Affairs invokes Goods Availability Act](https://www.government.nl/latest/news/2025/10/12/minister-of-economic-affairs-invokes-goods-availability-act). Government of the Netherlands · 12 October 2025. Tier A.
+33. [One Year Suspension of Expansion of End-User Controls for Affiliates of Certain Listed Entities](https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities). Federal Register (Commerce Department; Industry and Security Bureau) · 12 November 2025. Tier A.
+34. [Update on invoking Goods Availability Act](https://www.government.nl/documents/2025/11/19/update-on-invoking-goods-availability-act). Government of the Netherlands · 19 November 2025. Tier A.
+35. [Risch, Ricketts, Kim Introduce MATCH Act; Level the Global Playing Field for U.S. Tech](https://www.foreign.senate.gov/press/rep/release/risch-ricketts-kim-introduce-match-act-level-the-global-playing-field-for-us-tech). U.S. Senate Committee on Foreign Relations · 8 April 2026. Tier A.
+36. [China accelerates building of national computing power network](https://english.www.gov.cn/news/202312/27/content_WS658b72afc6d0868f4e8e28ba.html). The State Council of the People's Republic of China · 27 December 2023. Tier A.
+37. [Announcement No.18 of 2025 of The Ministry of Commerce and The General Administration of Customs of The People’s Republic of China Announcing the decision to implement export control on some medium and heavy rare earth related items](https://english.mofcom.gov.cn/Policies/AnnouncementsOrders/art/2025/art_0dd87cbee7b045bf93fabe6ab2faceee.html). Ministry of Commerce of the People's Republic of China. Tier A.
+38. [Cyber Week in Review: December 13, 2024](https://www.cfr.org/articles/cyber-week-review-december-13-2024). Council on Foreign Relations · 13 December 2024. Tier A.
+39. [Beijing blocks Nvidia sales in vote of confidence for Chinese chipmakers, the White House strikes a deal for 10 percent of Intel, and Commerce voids a $7.4B CHIPS Act grant](https://cset.georgetown.edu/newsletter/september-18-2025/). Center for Security and Emerging Technology (CSET) · 18 September 2025. Tier A.
+40. [Micron Aggression: The Right Response to Beijing’s Ban on the U.S. Chipmaker](https://www.csis.org/analysis/micron-aggression-right-response-beijings-ban-us-chipmaker). Center for Strategic and International Studies · 22 June 2023. Tier A.
+41. [Ministry of Commerce Notice 2024 No. 46: Notice Concerning Strengthening Controls on Exports of Relevant Dual-Use Items to the United States](https://cset.georgetown.edu/publication/china-rare-earth-export-ban/). Center for Security and Emerging Technology (CSET) · 3 December 2024. Tier A.
+42. [Ministry of Commerce Notice 2025 No. 61: Announcement of the Decision to Implement Controls on Exports of Rare Earth-Related Items to Foreign Countries](https://cset.georgetown.edu/publication/mofcom-notice-2025-61/). Center for Security and Emerging Technology (CSET) · 9 October 2025. Tier A.
+43. [The U.S.-China Trade Truce Has Not Solved the Gallium Problem](https://www.csis.org/analysis/us-china-trade-truce-has-not-solved-gallium-problem). Center for Strategic and International Studies · 11 May 2026. Tier A.
+44. [NVIDIA CORP, Form 10-Q quarterly report for the period ended 2026-07-26 (10-Q)](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm). U.S. Securities and Exchange Commission (filing by NVIDIA CORP) · 26 August 2026. Tier A.
+45. [NVIDIA Announces Financial Results for Second Quarter Fiscal 2027](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027). Nvidia · 26 August 2026. Tier A.
+46. [Huawei Ascend Production Ramp: Die Banks, TSMC Continued Production, HBM is The Bottleneck](https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp). SemiAnalysis · 8 September 2025. Tier B.
+47. [Presentation Investor Relations Q4 2025](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf). ASML · 27 January 2026. Tier A.
+48. [GAO-26-107882, SEMICONDUCTORS: Information on Projects Funded to Strengthen U.S. Supply Chain](https://files.gao.gov/reports/GAO-26-107882/index.html). U.S. Government Accountability Office. Tier A.
+49. [Intel and Trump Administration Reach Historic Agreement to Accelerate American Technology and Manufacturing Leadership](https://www.intc.com/news-events/press-releases/detail/1748/intel-and-trump-administration-reach-historic-agreement-to). Intel · 22 August 2025. Tier A.
+50. [U.S.-Taiwan Trade Agreement Leaves Major Questions Open](https://www.cfr.org/articles/u-s-taiwan-trade-agreement-leaves-major-questions-open). Council on Foreign Relations · 13 February 2026. Tier A.
+51. [TSMC Announces Additional $100 Billion Investment In Arizona](https://www.phoenix.gov/newsroom/ced-news/tsmc-announces-additional--100-billion-investment-in-arizona.html). City of Phoenix · 16 July 2026. Tier A.
+52. [Proposal for the Chips Act 2.0](https://digital-strategy.ec.europa.eu/en/library/proposal-chips-act-20). European Commission. Tier A.
+53. [Rapidus Secures 267.6 Billion Yen in Funding from Japan Government and Private Sector Companies This strategic funding plan will enable Rapidus to steadily progress from its current R&D phase to mass production of 2nm logic semiconductors by 2027 - Information - Rapidus Corporation](https://www.rapidus.inc/en/news_topics/information/rapidus-secures-267-6-billion-yen-in-funding-from-japan-government-and-private-sector-companies/). Rapidus. Tier A.
+54. [China's Evolving Industrial Policy for AI](https://www.rand.org/pubs/perspectives/PEA4012-1.html). RAND Corporation · 26 June 2025. Tier A.
+55. [Q3 2025 Taiwan Semiconductor Manufacturing Co Ltd Earnings Call (Chinese, English) — edited transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-10/6860312f04fd291d0f26b46c1234f84e6332717e/TSMC%203Q25%20Transcript.pdf). Refinitiv StreetEvents (transcript of a TSMC earnings call), via TSMC · 16 October 2025. Tier A.
+56. [Statement on UAE and Saudi Chip Exports](https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports). U.S. Department of Commerce · November 2025. Tier A.
+57. [EXPORT, TRANSSHIPMENT AND TRANSIT OF HIGH-PERFORMANCE AI CHIPS OF US ORIGIN](https://www.miti.gov.my/miti/resources/Media%20Release/%5BFINAL%5D_MITI_Press_Stmt_Malaysia_Regulates_Trade_of_US_AI_Chips_2025-07-14.pdf). Ministry of Investment, Trade and Industry (Malaysia) · 14 July 2025. Tier A.
+58. [Chinese National and Two U.S. Citizens Charged with Conspiring to Smuggle Artificial Intelligence Technology to China](https://www.justice.gov/opa/pr/chinese-national-and-two-us-citizens-charged-conspiring-smuggle-artificial-intelligence). U.S. Department of Justice · 25 March 2026. Tier A.
+59. [Protecting U.S. Tech: China Committee and Bipartisan, Bicameral Leaders Unite to Stop CCP AI Chip Smuggling](https://chinaselectcommittee.house.gov/media/press-releases/protecting-us-tech-china-committee-and-bipartisan-bicameral-leaders-unite-to-stop-ccp-ai-chip-smuggling). U.S. House Select Committee on the Chinese Communist Party · 7 July 2025. Tier A.
+60. [S.1705 – Chip Security Act, 119th Congress (2025-2026), bill text](https://www.congress.gov/bill/119th-congress/senate-bill/1705/text). U.S. Congress (Congress.gov, Library of Congress). Tier A.
+61. [UNANIMOUS: Bipartisan Huizenga Legislation to Curb AI Chip Smuggling Passes Committee](https://huizenga.house.gov/news/documentsingle.aspx?DocumentID=404259). U.S. House of Representatives (Office of Rep. Bill Huizenga) · 26 March 2026. Tier A.
+62. [Investor Relations / April 30, 2026](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf). Tokyo Electron · 30 April 2026. Tier A.
+:::
 
 ## AI Chips ^ai-chips
 

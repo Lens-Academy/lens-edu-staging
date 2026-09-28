@@ -7,7 +7,7 @@ tags: [wip]
 duration_minutes: 115
 ---
 
-#### {++{"author":"James's AI","timestamp":1790594627534}@@Text
+#### Text
 content::
 Optional. [[../Lenses/XLab Verification - v-interactive-map|1.2.1]] mapped the chain by country. This goes one level down: the whole chain stage by stage, who makes each part, how concentrated each stage is, and what it would cost a well-funded state to build a substitute. Read it for the stages you want to understand, not cover to cover. As you go, ask of each stage where a verifier could get hold of it: who would have to declare, who holds a record, and where a control could sit.
 
@@ -15,8 +15,8 @@ Optional. [[../Lenses/XLab Verification - v-interactive-map|1.2.1]] mapped the c
 On [chipsupplychain.org](https://chipsupplychain.org) every stage chapter has an interactive 3D specimen beside the text (a die floorplan, an EUV scanner, an HBM stack, a server rack), and several have short animations. These do not come across into Lens. Keep the site open in another tab to turn the specimens over as you read. Each chapter below links to its own specimen, and each animation's steps are written out under its last frame.
 :::
 
-#### ++}Article
-source:: [[../articles/sharma-how-ai-chips-are-made]]{++{"author":"James's AI","timestamp":1790594627534}@@
+#### Article
+source:: [[../articles/sharma-how-ai-chips-are-made]]
 to:: 62.  A [Investor Relations / April 30, 2026](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf) Tokyo Electron · 30 April 2026
 
 #### Text
@@ -24,4 +24,4 @@ content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Sharma, Yashvardhan, with Claude. *Chip Supply Chain: How AI Chips Are Made*. Updated 27 September 2026. [chipsupplychain.org](https://chipsupplychain.org/)
 *The source this lens imports: fifteen stage chapters, the economics of AI chips and the geopolitics of export controls, each chapter with its own list of sources.*
-:::++}
+:::

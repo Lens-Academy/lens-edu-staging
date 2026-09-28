@@ -13,8 +13,8 @@ Optional. [[../Lenses/XLab Verification - v-interactive-map|1.2.1]] mapped the c
 
 #### Article
 source:: [[../articles/sharma-how-ai-chips-are-made]]
-to:: 62.{--{"author":"James's AI","timestamp":1790597934361}@@  A--} [Investor Relations / April 30, {--{"author":"James's AI","timestamp":1790597934361}@@2026](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf)--}{++{"author":"James's AI","timestamp":1790597934361}@@2026](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf).++} Tokyo Electron · 30 April {--{"author":"James's AI","timestamp":1790597934361}@@2026--}{++{"author":"James's AI","timestamp":1790597934361}@@2026. Tier A.
-:::++}
+to:: 62. [Investor Relations / April 30, 2026](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf). Tokyo Electron · 30 April 2026. Tier A.
+:::
 
 #### Text
 content::
